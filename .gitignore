@@ -8,3 +8,7 @@ tsconfig.tsbuildinfo
 .venv-tts
 .voices
 sauvegardes
+
+# scripts de vérification jetables (Playwright)
+f[0-9]*.mjs
+fumee*.mjs
