@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+data_sauvegarde_avant_visuels/
+demo_visuels.html
+site_recupere.html
+data_recupere.json
+
+# artefacts de construction : régénérés par build.py / build_web.py
+web/
+site.html

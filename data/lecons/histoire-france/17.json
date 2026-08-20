@@ -1,0 +1,189 @@
+{
+ "titre": "Les Trente Glorieuses et Mai 68 (1945-1975)",
+ "sections": [
+  {
+   "titre": "Trente années de croissance exceptionnelle",
+   "texte": "L'expression Trente Glorieuses a été forgée par l'économiste Jean Fourastié dans un ouvrage publié en 1979 pour désigner la période de prospérité qui s'étend de la Libération au premier choc pétrolier. Il y voyait une révolution invisible, tant les transformations furent profondes tout en passant inaperçues aux yeux des contemporains. De 1950 à 1973, la France connaît une croissance annuelle moyenne du produit intérieur brut d'environ 5 %, un rythme sans précédent dans son histoire, comparable à celui de l'Allemagne de l'Ouest et inférieur seulement à la performance japonaise. La production industrielle est multipliée par plusieurs fois par rapport à l'avant-guerre. Plusieurs facteurs expliquent cette expansion : la reconstruction d'un pays détruit, la planification indicative mise en place par Jean Monnet, les nationalisations de la Libération qui donnent à l'État de puissants leviers, l'aide américaine du plan Marshall, l'ouverture progressive des frontières dans le cadre du Marché commun et un progrès technique rapide diffusé dans toute l'économie. Le chômage devient marginal, autour de 2 % de la population active, si bien que l'on parle de plein emploi. Les salaires réels progressent régulièrement, ce qui permet une élévation générale du niveau de vie et alimente une demande intérieure soutenue, moteur à son tour de la croissance.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "Une croissance sans précédent",
+    "items": [
+     {
+      "valeur": "5 %",
+      "label": "de croissance annuelle moyenne du PIB, de 1950 à 1973"
+     },
+     {
+      "valeur": "2 %",
+      "label": "de chômage : ce que l'on appelle le plein emploi"
+     },
+     {
+      "valeur": "1973",
+      "label": "le choc pétrolier qui met fin à la période et installe le chômage de masse"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Une société transformée : consommation, ville et modernité",
+   "texte": "La croissance bouleverse la société française. La démographie repart avec le baby-boom qui suit la guerre : la population rajeunit et, dans les années 1960, la jeunesse devient un groupe social visible, doté de sa musique, de ses vêtements et de ses codes. L'exode rural s'accélère : la part de la population active employée dans l'agriculture chute d'environ 37 % en 1946 à seulement 10 % en 1975, tandis que les villes s'étendent, avec la construction de grands ensembles destinés à résorber la crise du logement et à accueillir rapatriés d'Algérie et travailleurs immigrés venus d'Europe du Sud puis du Maghreb. Le mode de vie change du tout au tout. Les ménages s'équipent massivement en réfrigérateurs, machines à laver, téléviseurs et automobiles, la Citroën 2CV puis la Renault 4 symbolisant cette motorisation de masse. Les supermarchés apparaissent, la publicité s'impose, les congés payés, portés à trois semaines en 1956 puis à quatre en 1969, démocratisent les vacances. La scolarisation progresse fortement, le nombre d'étudiants passant de quelques dizaines de milliers à plusieurs centaines de milliers en une génération, ce qui crée un monde universitaire nombreux mais mal encadré. Cette société de consommation suscite aussi des critiques, chez les sociologues comme dans une partie de la jeunesse, qui dénoncent le conformisme et l'ennui d'une vie soumise aux objets.",
+   "visuel": {
+    "type": "barres",
+    "titre": "La part de l'agriculture dans la population active",
+    "unite": "% des actifs",
+    "donnees": [
+     {
+      "label": "1946",
+      "valeur": 37,
+      "affichage": "environ 37 %"
+     },
+     {
+      "label": "1975",
+      "valeur": 10,
+      "affichage": "10 %",
+      "focus": true
+     }
+    ],
+    "note": "En une génération, la France cesse d'être un pays de paysans : les villes s'étendent et les grands ensembles accueillent rapatriés d'Algérie et travailleurs immigrés."
+   }
+  },
+  {
+   "titre": "L'étincelle de mai 1968",
+   "texte": "Au début de 1968, la France paraît prospère mais des tensions s'accumulent : environ 500 000 chômeurs, deux millions de salariés payés au minimum, fermetures d'usines dans le textile et la métallurgie, universités surpeuplées et régies par des règlements jugés archaïques. Le pouvoir gaulliste, installé depuis 1958, montre des signes d'usure : de Gaulle a été mis en ballottage en 1965 et sa majorité s'est réduite à presque rien après les législatives de 1967. La contestation naît à la faculté de Nanterre, où se forme en mars 1968 un mouvement étudiant animé notamment par Daniel Cohn-Bendit, hostile à la guerre du Viêt Nam et à l'autoritarisme universitaire. La fermeture de la faculté conduit les étudiants à se rassembler à la Sorbonne, évacuée par la police le 3 mai, ce qui provoque de violents affrontements et des centaines de blessés et d'arrestations. L'escalade culmine lors de la nuit des barricades, du 10 au 11 mai, dans le Quartier latin : des dizaines de barricades sont dressées, des voitures incendiées, plusieurs milliers de policiers interviennent et le bilan compte des centaines de blessés dans les deux camps. Les images de la répression, largement diffusées, retournent une partie de l'opinion en faveur des étudiants et poussent les syndicats à entrer dans le mouvement."
+  },
+  {
+   "titre": "La plus grande grève de l'histoire de France",
+   "texte": "Le 13 mai 1968, dixième anniversaire de la crise qui avait porté de Gaulle au pouvoir, une manifestation immense réunit étudiants, lycéens et salariés à l'appel des grandes centrales syndicales. Dès le lendemain, le mouvement change de nature : les usines sont occupées, à commencer par Sud-Aviation à Nantes puis Renault-Cléon et Renault-Billancourt, et la grève s'étend à l'ensemble du pays. Près de dix millions de salariés cessent le travail, ce qui en fait la plus vaste grève générale de l'histoire française, dépassant celle de juin 1936. Le pays est paralysé : transports arrêtés, carburant introuvable, journaux et radios perturbés. Aux revendications salariales s'ajoutent des aspirations plus larges, sur les conditions de travail, la reconnaissance syndicale dans l'entreprise, l'autogestion, la liberté de parole. Du 25 au 27 mai, le Premier ministre Georges Pompidou négocie avec les syndicats et le patronat les accords de Grenelle, qui prévoient un relèvement du salaire minimum de l'ordre de 35 %, une hausse générale des salaires et la reconnaissance de la section syndicale d'entreprise. Ces accords sont pourtant rejetés par les ouvriers de Billancourt, et la grève se prolonge. Le régime paraît un moment sur le point de céder, d'autant que le 29 mai le général de Gaulle disparaît quelques heures pour rencontrer le général Massu à Baden-Baden.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Mai 68, semaine après semaine",
+    "evenements": [
+     {
+      "date": "mars 1968",
+      "label": "Nanterre",
+      "texte": "Un mouvement étudiant se forme, animé notamment par Daniel Cohn-Bendit, hostile à la guerre du Viêt Nam et à l'autoritarisme universitaire."
+     },
+     {
+      "date": "3 mai",
+      "label": "La Sorbonne évacuée",
+      "texte": "L'intervention de la police provoque de violents affrontements, des centaines de blessés et d'arrestations."
+     },
+     {
+      "date": "10-11 mai",
+      "label": "La nuit des barricades",
+      "texte": "Des dizaines de barricades dans le Quartier latin ; les images de la répression retournent une partie de l'opinion."
+     },
+     {
+      "date": "13 mai",
+      "label": "La manifestation unitaire",
+      "texte": "Dixième anniversaire de la crise de 1958 : étudiants, lycéens et salariés défilent à l'appel des grandes centrales syndicales."
+     },
+     {
+      "date": "à partir du 14 mai",
+      "label": "La grève générale",
+      "texte": "Sud-Aviation à Nantes, puis Renault-Cléon et Billancourt : près de dix millions de grévistes, plus qu'en juin 1936. Le pays est paralysé."
+     },
+     {
+      "date": "25-27 mai",
+      "label": "Les accords de Grenelle",
+      "texte": "Salaire minimum relevé d'environ 35 %, hausse générale des salaires, reconnaissance de la section syndicale d'entreprise — mais les ouvriers de Billancourt les rejettent."
+     },
+     {
+      "date": "29 mai",
+      "label": "Baden-Baden",
+      "texte": "De Gaulle disparaît quelques heures pour rencontrer le général Massu."
+     },
+     {
+      "date": "30 mai",
+      "label": "Le retournement",
+      "texte": "De Gaulle annonce qu'il reste, dissout l'Assemblée et convoque des élections ; une immense manifestation de soutien remonte les Champs-Élysées."
+     },
+     {
+      "date": "juin 1968",
+      "label": "Raz-de-marée gaulliste aux législatives",
+      "texte": "La peur du désordre l'emporte : le mouvement n'a pas renversé le régime."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le reflux, l'héritage et la fin d'une époque",
+   "texte": "Le 30 mai 1968, de Gaulle reprend l'initiative : dans une brève allocution radiodiffusée, il annonce qu'il reste, dissout l'Assemblée nationale et convoque des élections. Le même jour, une immense manifestation de soutien remonte les Champs-Élysées. Le rapport de force bascule : le travail reprend progressivement dans les usines et les législatives de juin 1968 se soldent par un raz-de-marée en faveur des gaullistes, la peur du désordre l'ayant emporté. Mai 68 n'a donc pas renversé le régime, mais ses effets sont profonds. Sur le plan social, les accords de Grenelle améliorent durablement les salaires et installent le fait syndical dans l'entreprise ; l'université est réformée par la loi Faure. Sur le plan culturel, le mouvement accélère la remise en cause des autorités traditionnelles, dans la famille, l'école ou l'Église, et ouvre la voie aux luttes des années 1970 : féminisme, écologie politique, mouvements régionalistes et autogestionnaires. De Gaulle quitte le pouvoir en avril 1969 après l'échec de son référendum sur la régionalisation et le Sénat. Quelques années plus tard, le choc pétrolier de 1973 met un terme à la croissance : le chômage de masse s'installe et les Trente Glorieuses apparaissent rétrospectivement comme une parenthèse exceptionnelle, dont la mémoire nourrit encore aujourd'hui la nostalgie d'une France en expansion continue."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Qui a forgé l'expression « Trente Glorieuses » ?",
+   "choix": [
+    "Jean Monnet, dans son plan de modernisation",
+    "Le général de Gaulle, dans ses Mémoires",
+    "L'économiste Jean Fourastié, en 1979",
+    "Georges Pompidou, lors des accords de Grenelle"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "L'expression est due à l'économiste Jean Fourastié, qui l'emploie dans un ouvrage publié en 1979 pour désigner la période de prospérité comprise entre la Libération et le premier choc pétrolier. Le mot fait écho aux Trois Glorieuses de juillet 1830, mais désigne cette fois une révolution silencieuse, économique et sociale. Fourastié insistait sur le fait que les contemporains n'avaient pas pleinement conscience de l'ampleur des transformations qu'ils vivaient. L'expression n'apparaît donc qu'après la fin de la période qu'elle décrit, alors que la crise s'est déjà installée."
+  },
+  {
+   "q": "Quelle évolution caractérise la population active agricole française entre 1946 et 1975 ?",
+   "choix": [
+    "Elle reste stable autour de 25 %",
+    "Elle augmente grâce à la mécanisation",
+    "Elle passe de 10 % à 37 %",
+    "Elle passe d'environ 37 % à environ 10 %"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "L'un des changements les plus spectaculaires des Trente Glorieuses est l'effondrement du poids de l'agriculture dans l'emploi : la part des actifs agricoles chute d'environ 37 % en 1946 à près de 10 % en 1975. Ce mouvement, appelé exode rural, s'accompagne paradoxalement d'une forte hausse de la production, grâce à la mécanisation, aux engrais, à la sélection des semences et au remembrement. Les campagnes se vident tandis que les villes s'étendent, ce qui pose la question du logement et conduit à la construction de grands ensembles. La France passe ainsi en une génération d'une société encore largement paysanne à une société urbaine et industrielle."
+  },
+  {
+   "q": "Combien de salariés participent à la grève générale de mai-juin 1968 ?",
+   "choix": [
+    "Environ dix millions",
+    "Environ cent mille",
+    "Environ un million",
+    "Environ trente millions"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Après la manifestation du 13 mai 1968, le mouvement étudiant se prolonge par une vague d'occupations d'usines partie de Sud-Aviation à Nantes puis des sites Renault. Près de dix millions de salariés cessent le travail, ce qui fait de mai-juin 1968 la plus importante grève générale de l'histoire de France, dépassant en ampleur celle de juin 1936. Le pays est paralysé pendant plusieurs semaines : transports interrompus, pénurie de carburant, distribution perturbée. Aux revendications salariales s'ajoutent des demandes portant sur les conditions de travail, les droits syndicaux et plus largement sur l'organisation de la société."
+  },
+  {
+   "q": "Que prévoient notamment les accords de Grenelle des 25-27 mai 1968 ?",
+   "choix": [
+    "La semaine de 35 heures",
+    "La retraite à soixante ans",
+    "Une hausse d'environ 35 % du salaire minimum",
+    "La création de la Sécurité sociale"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Négociés au ministère des Affaires sociales, rue de Grenelle, entre le gouvernement de Georges Pompidou, les syndicats et le patronat, ces accords prévoient une augmentation d'environ 35 % du salaire minimum, une hausse générale des salaires et la reconnaissance de la section syndicale d'entreprise. Ils sont pourtant rejetés par les ouvriers de Renault-Billancourt, qui jugent les concessions insuffisantes, et la grève se poursuit encore plusieurs jours. La retraite à soixante ans date de 1982, la Sécurité sociale de 1945 et les 35 heures de la fin des années 1990."
+  },
+  {
+   "q": "Comment le général de Gaulle reprend-il l'initiative le 30 mai 1968 ?",
+   "choix": [
+    "Il proclame l'état de siège et fait intervenir l'armée",
+    "Il annonce qu'il reste et dissout l'Assemblée nationale",
+    "Il démissionne aussitôt",
+    "Il organise un référendum sur les universités"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Après une journée d'absence énigmatique passée à rencontrer le général Massu à Baden-Baden, de Gaulle revient à Paris et prononce le 30 mai une courte allocution radiodiffusée : il annonce qu'il ne se retirera pas, maintient Georges Pompidou et dissout l'Assemblée nationale pour organiser des élections. Le même après-midi, une manifestation massive de soutien remonte les Champs-Élysées et marque le retournement de l'opinion. Le travail reprend peu à peu et les législatives de juin 1968 donnent une très large majorité aux gaullistes. De Gaulle quittera finalement le pouvoir un an plus tard, en avril 1969, après l'échec de son référendum sur la régionalisation et le Sénat."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Trente Glorieuses",
+   "url": "https://fr.wikipedia.org/wiki/Trente_Glorieuses"
+  },
+  {
+   "titre": "Mai 68",
+   "url": "https://fr.wikipedia.org/wiki/Mai_68"
+  },
+  {
+   "titre": "Cinquième République (France)",
+   "url": "https://fr.wikipedia.org/wiki/Cinqui%C3%A8me_R%C3%A9publique_(France)"
+  }
+ ]
+}

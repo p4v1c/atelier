@@ -1,0 +1,217 @@
+{
+ "titre": "Les cuisines du monde et l'histoire des boissons",
+ "sections": [
+  {
+   "titre": "1492, ou la recomposition des cuisines",
+   "texte": "Aucune cuisine nationale actuelle n'existait sous sa forme présente avant la fin du XVe siècle. Les historiens appellent échange colombien la circulation de plantes, d'animaux et de maladies déclenchée par les voyages transatlantiques à partir de 1492. D'Amérique arrivent en Europe, en Afrique et en Asie la pomme de terre, la tomate, le maïs, le haricot, la courge, le piment, le cacao, la vanille, la dinde et l'arachide. En sens inverse partent le blé, le riz, la canne à sucre, le café, l'olivier, les agrumes, ainsi que les bovins, les porcs, les moutons et les chevaux. Les conséquences sont immenses et souvent contre-intuitives. Une cuisine italienne sans tomate, une cuisine indienne ou thaïlandaise sans piment, une cuisine irlandaise ou est-européenne sans pomme de terre, une Afrique de l'Ouest sans manioc ni arachide : voilà l'état du monde avant 1492. L'adoption est lente, souvent d'un siècle ou deux, car ces plantes inconnues inspirent la méfiance ; la tomate passe longtemps pour ornementale et suspecte. La pomme de terre finit par nourrir l'Europe et permet une croissance démographique inédite, tout en créant des dépendances dangereuses, comme le montre la grande famine irlandaise des années 1840. Le même mouvement s'est accompagné d'un effondrement démographique amérindien dû aux maladies importées.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Ce que 1492 a fait circuler",
+    "colonnes": [
+     {
+      "titre": "D'Amérique vers l'Ancien Monde",
+      "points": [
+       "Pomme de terre, patate douce, manioc",
+       "Tomate, poivron et piment",
+       "Maïs, haricot, courge",
+       "Cacao, vanille, arachide",
+       "Dinde, ananas, avocat"
+      ]
+     },
+     {
+      "titre": "De l'Ancien Monde vers l'Amérique",
+      "points": [
+       "Blé, riz, orge",
+       "Canne à sucre et café",
+       "Agrumes, olivier, vigne",
+       "Bovins, porcs, moutons, poules",
+       "Chevaux, ânes et leurs usages agricoles"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "L'Italie et la Méditerranée",
+   "texte": "La cuisine italienne est d'abord un ensemble de cuisines régionales que l'unification de 1861, puis l'émigration, ont fait apparaître comme un tout. Les pâtes sèches y sont attestées très tôt : le géographe Al-Idrisi décrit en 1154 une production de fils de semoule séchés en Sicile, alors sous influence arabe, bien avant les récits légendaires attribuant leur introduction à Marco Polo. Leur diffusion doit beaucoup au blé dur méditerranéen, qui supporte le séchage et la conservation. La tomate, arrivée d'Amérique, ne s'impose dans les sauces qu'au XVIIIe siècle. La pizza napolitaine, longtemps nourriture de rue des quartiers pauvres, doit sa version la plus connue à une tradition selon laquelle le pizzaiolo Raffaele Esposito aurait composé en 1889 une pizza aux couleurs du drapeau italien pour la reine Marguerite de Savoie. L'UNESCO a inscrit en 2017 le savoir-faire du pizzaiolo napolitain. Le régime méditerranéen, également reconnu par l'UNESCO en 2010, désigne quant à lui un modèle alimentaire fondé sur l'huile d'olive, les céréales, les légumineuses, les légumes, le poisson et une consommation modérée de viande, associé à une convivialité du repas. Les cuisines espagnole et grecque partagent ces bases, la paella valencienne associant riz, safran et produits locaux, les mezze grecs et levantins organisant le repas autour du partage."
+  },
+  {
+   "titre": "La Chine, le Japon et l'Asie orientale",
+   "texte": "La cuisine chinoise se pense en régions et en équilibres. Le nord, terre de blé, mange nouilles, raviolis et pains vapeur, tandis que le sud rizicole a développé la cuisine cantonaise et ses bouchées à la vapeur, les dim sum. Le Sichuan associe le piment, venu d'Amérique, au poivre local qui engourdit la bouche, produisant une sensation propre à cette cuisine. La cuisson au wok, très rapide et à feu vif, économise le combustible et préserve la texture des légumes. Le Japon a fixé son propre modèle, le washoku, inscrit à l'UNESCO en 2013 : un bol de riz, une soupe et plusieurs petits plats, construits autour du bouillon dashi obtenu à partir d'algue kombu et de copeaux de bonite séchée. Le sushi vient d'une technique de conservation du poisson dans du riz fermenté ; sa forme actuelle, une tranche de poisson cru sur une boulette de riz vinaigré, naît à Edo au début du XIXe siècle comme nourriture de rue. Les ramen, d'origine chinoise, deviennent au XXe siècle un plat populaire japonais, et la version instantanée créée en 1958 par Momofuku Ando compte parmi les inventions alimentaires les plus diffusées au monde. En Corée, la préparation collective du kimchi avant l'hiver, le kimjang, est reconnue par l'UNESCO depuis 2013.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Traditions culinaires inscrites à l'UNESCO",
+    "colonnes": [
+     "Tradition",
+     "Pays",
+     "Année"
+    ],
+    "lignes": [
+     [
+      "Repas gastronomique des Français",
+      "France",
+      "2010"
+     ],
+     [
+      "Cuisine traditionnelle mexicaine",
+      "Mexique",
+      "2010"
+     ],
+     [
+      "Régime méditerranéen",
+      "Plusieurs pays méditerranéens",
+      "2010"
+     ],
+     [
+      "Washoku",
+      "Japon",
+      "2013"
+     ],
+     [
+      "Kimjang, préparation du kimchi",
+      "Corée",
+      "2013"
+     ],
+     [
+      "Art du pizzaiolo napolitain",
+      "Italie",
+      "2017"
+     ],
+     [
+      "Couscous",
+      "Algérie, Maroc, Mauritanie, Tunisie",
+      "2020"
+     ]
+    ]
+   }
+  },
+  {
+   "titre": "Du Maghreb à l'Amérique latine",
+   "texte": "Le monde arabo-persan a légué à la cuisine mondiale une part considérable de son vocabulaire et de ses techniques : le sucre, les agrumes, le riz et l'aubergine ont transité par lui vers l'Europe médiévale, tout comme la distillation et le goût des eaux parfumées. Au Maghreb, le couscous, semoule roulée à la main et cuite à la vapeur au-dessus d'un ragoût, a été inscrit à l'UNESCO en 2020 dans un dossier porté conjointement par l'Algérie, le Maroc, la Mauritanie et la Tunisie. Le tajine désigne à la fois le plat de terre à couvercle conique et la préparation qui y mijote, souvent sucrée-salée. L'Inde ne connaît pas le mot curry, importé par les Britanniques du tamoul kari : elle travaille des mélanges d'épices, les masalas, recomposés selon les régions et les plats, et distingue fortement le nord, à base de blé et de produits laitiers, du sud, rizicole et végétarien. L'Afrique de l'Ouest bâtit sa cuisine sur le riz, le mil, le manioc et l'arachide, avec des plats emblématiques comme le thiéboudienne sénégalais. En Amérique latine, la cuisine traditionnelle mexicaine, reconnue par l'UNESCO en 2010, repose sur le maïs nixtamalisé, le haricot et le piment, une triade agricole vieille de plusieurs millénaires."
+  },
+  {
+   "titre": "Café, thé, chocolat, bière",
+   "texte": "Quatre boissons racontent la mondialisation. Le caféier pousse spontanément sur les hauts plateaux d'Éthiopie ; la boisson gagne le Yémen au XVe siècle, où les confréries soufies l'emploient pour veiller, puis Constantinople et l'Europe. Le café Procope ouvre à Paris en 1686 et les cafés deviennent des lieux de sociabilité et de débat politique. Le théier, lui, vient des piémonts orientaux de l'Himalaya ; consommé en Chine depuis l'Antiquité, il gagne le Japon vers 729 et l'Europe au début du XVIIe siècle grâce aux marchands portugais et hollandais. Ce n'est pas la plante qui distingue thé vert, oolong et thé noir, mais le degré d'oxydation des feuilles après cueillette. Le thé reste la boisson la plus consommée au monde après l'eau. Le cacao, d'origine mésoaméricaine, était bu amer et battu en mousse par les Mayas et les Aztèques, qui utilisaient aussi ses fèves comme monnaie ; les Espagnols l'adoucissent au sucre, et le chocolat solide n'apparaît qu'au XIXe siècle. La bière, enfin, est l'une des plus anciennes boissons fermentées connues, attestée en Mésopotamie et en Égypte ; le houblon, qui la conserve et l'amertume, se généralise au Moyen Âge, et Pasteur en explique la fermentation dans ses Études sur la bière publiées en 1876.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Une histoire des boissons",
+    "evenements": [
+     {
+      "date": "Antiquité",
+      "label": "Bière et vin",
+      "texte": "Fermentations attestées en Mésopotamie, en Égypte et autour de la Méditerranée."
+     },
+     {
+      "date": "vers 729",
+      "label": "Le thé au Japon",
+      "texte": "Venu de Chine, il y devient une pratique lettrée puis rituelle."
+     },
+     {
+      "date": "XVe siècle",
+      "label": "Le café au Yémen",
+      "texte": "Les confréries soufies en font une boisson de veille ; Moka en devient le port."
+     },
+     {
+      "date": "XVIe siècle",
+      "label": "Le cacao en Europe",
+      "texte": "Rapporté d'Amérique par les Espagnols, il est adouci au sucre."
+     },
+     {
+      "date": "1686",
+      "label": "Le Procope",
+      "texte": "Ouverture à Paris d'un café qui deviendra un lieu de débat."
+     },
+     {
+      "date": "1876",
+      "label": "Études sur la bière",
+      "texte": "Pasteur explique la fermentation et donne les moyens de la maîtriser."
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel produit alimentaire n'existait pas en Europe avant 1492 ?",
+   "choix": [
+    "Le blé",
+    "La tomate",
+    "L'olive",
+    "Le chou"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "La tomate, comme la pomme de terre, le maïs, le piment, le cacao, la vanille ou la dinde, est originaire du continent américain et n'atteint l'Europe qu'après les voyages transatlantiques. Son adoption est lente : longtemps cultivée comme plante ornementale et soupçonnée d'être toxique, elle n'entre vraiment dans la cuisine italienne qu'au XVIIIe siècle. Le blé, l'olivier et le chou appartiennent au contraire au fonds agricole ancien de l'Ancien Monde. Ce mouvement de plantes dans les deux sens porte le nom d'échange colombien."
+  },
+  {
+   "q": "Qu'est-ce qui distingue un thé vert d'un thé noir ?",
+   "choix": [
+    "Deux espèces de plantes différentes",
+    "La couleur de la fleur",
+    "Le degré d'oxydation des feuilles après la cueillette",
+    "L'altitude de culture"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Thé vert, thé blanc, oolong et thé noir proviennent tous du même arbuste, Camellia sinensis. Ce qui les sépare est le traitement des feuilles après la récolte : le thé vert est chauffé rapidement pour bloquer l'oxydation, le thé noir la laisse aller à son terme, l'oolong s'arrête à mi-chemin. Les thés dits post-fermentés, comme le pu-erh, subissent en plus une fermentation microbienne. Le thé est la boisson la plus consommée au monde après l'eau."
+  },
+  {
+   "q": "Quelle est l'origine de la forme actuelle du sushi ?",
+   "choix": [
+    "Un plat de cour de l'époque impériale de Kyoto",
+    "Une nourriture de rue née à Edo au début du XIXe siècle",
+    "Une invention américaine des années 1960",
+    "Un plat rituel bouddhique"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Le sushi descend d'une technique de conservation dans laquelle le poisson fermentait dans du riz, que l'on jetait ensuite. La forme moderne, une tranche de poisson cru posée sur une boulette de riz vinaigré, apparaît à Edo, l'actuelle Tokyo, au début du XIXe siècle, vendue dans des échoppes de rue. La réfrigération et le transport rapide ont ensuite permis sa diffusion mondiale au XXe siècle. La tradition culinaire japonaise, le washoku, est inscrite à l'UNESCO depuis 2013."
+  },
+  {
+   "q": "D'où vient le mot curry employé en anglais et en français ?",
+   "choix": [
+    "Du sanskrit désignant le safran",
+    "Du persan signifiant ragoût",
+    "D'un nom de comptoir portugais",
+    "Du tamoul kari, adopté par les Britanniques"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Le mot curry vient du tamoul kari et a été généralisé par les Britanniques pour désigner l'ensemble des plats indiens en sauce épicée. La cuisine indienne n'emploie pas ce terme et travaille des masalas, mélanges d'épices composés différemment selon les régions, les familles et les plats. Le sous-continent oppose fortement un nord à base de blé et de produits laitiers à un sud rizicole et largement végétarien. La poudre de curry vendue en Europe est une simplification commerciale de ces mélanges."
+  },
+  {
+   "q": "Sous quelle forme les Aztèques consommaient-ils le cacao ?",
+   "choix": [
+    "En boisson amère battue en mousse, parfois relevée de piment",
+    "En tablettes sucrées",
+    "En pâte à tartiner",
+    "Uniquement comme offrande, sans le consommer"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "En Mésoamérique, le cacao se buvait amer, battu jusqu'à former une mousse, souvent parfumé de piment, de vanille ou de fleurs. Les fèves servaient également d'unité de compte et de moyen de paiement. Les Espagnols rapportent la boisson au XVIe siècle et l'adoucissent au sucre, ce qui la rend populaire dans les cours européennes. Le chocolat solide, tel qu'on le connaît, n'apparaît qu'au XIXe siècle avec les progrès industriels du broyage et du conchage."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Échange colombien",
+   "url": "https://fr.wikipedia.org/wiki/%C3%89change_colombien"
+  },
+  {
+   "titre": "Thé",
+   "url": "https://fr.wikipedia.org/wiki/Th%C3%A9"
+  },
+  {
+   "titre": "Cuisine japonaise",
+   "url": "https://fr.wikipedia.org/wiki/Cuisine_japonaise"
+  },
+  {
+   "titre": "Café",
+   "url": "https://fr.wikipedia.org/wiki/Caf%C3%A9"
+  },
+  {
+   "titre": "Cuisine italienne",
+   "url": "https://fr.wikipedia.org/wiki/Cuisine_italienne"
+  }
+ ]
+}

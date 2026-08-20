@@ -1,0 +1,199 @@
+{
+ "titre": "Conserver les aliments, du saloir au Nutri-Score",
+ "sections": [
+  {
+   "titre": "Pourquoi les aliments s'abîment",
+   "texte": "Un aliment est une matière organique convoitée par bien d'autres organismes que nous. Trois mécanismes le dégradent. Le premier est microbien : bactéries, levures et moisissures s'y multiplient, certaines rendant seulement le produit inconsommable, d'autres, comme les salmonelles ou la listeria, provoquant de véritables intoxications. Le deuxième est enzymatique : les enzymes présentes dans le tissu continuent leur travail après la récolte ou l'abattage, ce qui fait brunir une pomme coupée ou ramollir un fruit trop mûr. Le troisième est chimique, principalement l'oxydation des graisses par l'oxygène de l'air, qui donne aux matières grasses leur goût de rance. Pour se développer, les micro-organismes ont besoin de quatre conditions : de la nourriture, de l'eau disponible, une température favorable et, pour beaucoup d'entre eux, de l'oxygène. Toutes les techniques de conservation reviennent à leur retirer au moins l'une de ces conditions. On peut supprimer l'eau libre par le séchage, le salage ou le sucrage ; abaisser la température par la réfrigération ou la congélation ; détruire les micro-organismes par la chaleur ; acidifier le milieu par la fermentation ou le vinaigre ; enfin les priver d'air par le vide ou l'atmosphère modifiée. La plupart des produits du commerce combinent plusieurs de ces barrières, principe que les technologues appellent l'effet de remparts.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Cinq façons d'empêcher les microbes de vivre",
+    "colonnes": [
+     "Ce qu'on leur retire",
+     "Techniques",
+     "Exemples"
+    ],
+    "lignes": [
+     [
+      "L'eau disponible",
+      "Séchage, salage, sucrage",
+      "Morue salée, fruits secs, confiture"
+     ],
+     [
+      "La chaleur",
+      "Réfrigération, congélation",
+      "Frais à 4 °C, surgelés à -18 °C"
+     ],
+     [
+      "La vie elle-même",
+      "Pasteurisation, stérilisation",
+      "Lait UHT, boîtes de conserve"
+     ],
+     [
+      "Un pH neutre",
+      "Fermentation, vinaigre",
+      "Choucroute, yaourt, cornichons"
+     ],
+     [
+      "L'oxygène",
+      "Vide, atmosphère modifiée",
+      "Salades en sachet, café sous vide"
+     ]
+    ]
+   }
+  },
+  {
+   "titre": "Avant le froid : sécher, sucrer, fermenter",
+   "texte": "Pendant des millénaires, conserver a signifié transformer. Le séchage au soleil ou au vent est la plus ancienne technique connue : fruits secs, poissons séchés, viandes des hauts plateaux. Le sucre joue le même rôle que le sel en fixant l'eau : porté à haute concentration, il rend la confiture inhospitalière aux microbes, ce qui explique les proportions traditionnelles d'une part de sucre pour une part de fruits. La graisse offre une autre voie, celle du confit, où la cuisse d'oie ou de canard cuite lentement est enfouie dans sa propre graisse qui l'isole de l'air. Le vinaigre acidifie brutalement le milieu, principe des cornichons et des légumes au vinaigre. La fermentation, enfin, est la plus subtile : au lieu d'éliminer les micro-organismes, elle en favorise d'utiles qui occupent le terrain et produisent des acides ou de l'alcool défavorables aux autres. Des bactéries lactiques transforment ainsi le chou en choucroute, le lait en yaourt et en fromage, le concombre en pickles, le chou chinois en kimchi, le soja en miso et en sauce. Ces procédés ne se contentent pas de conserver : ils créent des goûts entièrement nouveaux, améliorent parfois la digestibilité et enrichissent l'aliment en vitamines. La cuisine mondiale doit à ces contraintes une part considérable de son répertoire."
+  },
+  {
+   "titre": "Appert, Pasteur et la boîte de conserve",
+   "texte": "À la fin du XVIIIe siècle, le gouvernement français cherche un moyen de nourrir ses armées et ses marins en campagne. Un confiseur parisien, Nicolas Appert, expérimente à partir de 1795 une méthode simple : remplir des bocaux de verre, les fermer hermétiquement, puis les chauffer longuement au bain-marie. Il publie son procédé en 1810 dans un ouvrage sur l'art de conserver les substances animales et végétales, et reçoit une récompense de l'État. Appert ignore pourquoi cela fonctionne, car la théorie microbienne n'existe pas encore ; c'est Louis Pasteur qui, dans les années 1860, en donnera l'explication en montrant le rôle des micro-organismes, et qui mettra au point le chauffage modéré destiné à stabiliser le vin puis la bière, procédé baptisé de son nom. La même année 1810, en Angleterre, Peter Durand fait breveter l'emploi de boîtes en fer-blanc, plus légères et incassables : la conserve moderne est née. Les techniques thermiques se sont depuis diversifiées. La pasteurisation, autour de soixante-dix degrés, détruit les germes pathogènes mais laisse des micro-organismes vivants : le produit doit rester au froid et se garde peu. La stérilisation dépasse cent degrés et permet une conservation de plusieurs années ; le procédé UHT chauffe le lait à très haute température pendant quelques secondes seulement.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Deux siècles de conservation industrielle",
+    "evenements": [
+     {
+      "date": "1795",
+      "label": "Appert commence ses essais",
+      "texte": "Des bocaux fermés puis chauffés au bain-marie."
+     },
+     {
+      "date": "1810",
+      "label": "Publication et boîte en fer-blanc",
+      "texte": "Appert publie sa méthode ; Peter Durand brevette la boîte métallique."
+     },
+     {
+      "date": "1859",
+      "label": "Machine frigorifique de Ferdinand Carré",
+      "texte": "Le froid devient produisible mécaniquement."
+     },
+     {
+      "date": "1865",
+      "label": "Pasteur explique et pasteurise",
+      "texte": "Le rôle des micro-organismes est établi."
+     },
+     {
+      "date": "1876",
+      "label": "Le Frigorifique de Charles Tellier",
+      "texte": "Un navire transporte de la viande réfrigérée jusqu'à Buenos Aires."
+     },
+     {
+      "date": "1930",
+      "label": "Les surgelés arrivent en magasin",
+      "texte": "Clarence Birdseye commercialise la congélation rapide."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "La révolution du froid et ses règles",
+   "texte": "Le froid naturel avait toujours été exploité, des glacières remplies de neige aux caves fraîches, mais il dépendait du climat. Tout change avec les machines : Ferdinand Carré met au point en 1859 une machine à absorption, et Charles Tellier fait naviguer en 1876 un navire équipé d'installations frigorifiques, Le Frigorifique, qui rallie l'Amérique du Sud avec de la viande conservée à bord. La congélation rapide, mise au point par Clarence Birdseye dans les années 1920 et commercialisée à partir de 1930, apporte un progrès décisif : congelée très vite, l'eau du produit forme de minuscules cristaux qui abîment peu les cellules, alors qu'une congélation lente les déchire et donne, à la décongélation, une texture molle et une perte de jus. La réfrigération domestique se généralise en France après 1945. Ce système impose ses règles : la chaîne du froid ne doit jamais être rompue, un produit décongelé ne se recongèle pas, et les températures de conservation sont réglementées, autour de quatre degrés pour le frais et à moins dix-huit degrés pour les surgelés. L'étiquetage distingue deux dates. La date limite de consommation, à consommer jusqu'au, concerne les produits périssables et sa transgression fait courir un risque sanitaire. La date de durabilité minimale, à consommer de préférence avant, ne signale qu'une perte de qualité : le produit reste consommable au-delà."
+  },
+  {
+   "titre": "Bien manger : repères publics et produits ultra-transformés",
+   "texte": "L'abondance a déplacé le problème : dans les pays riches, le défi n'est plus de conserver assez de nourriture mais de bien choisir la sienne. La France s'est dotée en 2001 d'un Programme national nutrition santé, qui traduit les recommandations scientifiques en repères simples plutôt qu'en calculs de calories : au moins cinq portions de fruits et légumes par jour, des légumes secs et des céréales complètes, du poisson deux fois par semaine, mais pas plus de cinq cents grammes de viande rouge et cent cinquante grammes de charcuterie par semaine, et une limitation du sel, du sucre et des boissons sucrées. L'Organisation mondiale de la santé conseille de son côté de rester sous cinq grammes de sel par jour et de limiter les sucres libres à moins d'un dixième des apports énergétiques. Pour guider l'achat, un logo synthétique, le Nutri-Score, a été retenu en France fin 2017 : il classe les produits d'A à E selon un calcul comparant, pour cent grammes, des composantes défavorables et favorables. Les chercheurs insistent aussi sur le degré de transformation : la classification NOVA, proposée en 2009 par une équipe brésilienne, isole les aliments ultra-transformés, assemblages industriels riches en additifs et en ingrédients raffinés, dont la consommation est associée à un risque accru d'obésité et de maladies chroniques. Le gaspillage, enfin, reste massif : une loi française de 2016 interdit aux grandes surfaces de détruire leurs invendus consommables.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "Quelques repères officiels",
+    "items": [
+     {
+      "valeur": "5",
+      "label": "portions de fruits et légumes par jour"
+     },
+     {
+      "valeur": "5 g",
+      "label": "sel maximal par jour selon l'OMS"
+     },
+     {
+      "valeur": "150 g",
+      "label": "charcuterie par semaine, plafond du PNNS"
+     },
+     {
+      "valeur": "A à E",
+      "label": "échelle du Nutri-Score, adopté fin 2017"
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "En quoi consiste l'appertisation, mise au point à partir de 1795 ?",
+   "choix": [
+    "Sécher les aliments au four avant de les emballer",
+    "Enfermer l'aliment dans un récipient hermétique puis le chauffer longuement",
+    "Immerger les aliments dans une saumure saturée",
+    "Injecter un gaz inerte dans l'emballage"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Le confiseur parisien Nicolas Appert cherchait un moyen de nourrir les armées et les marins. Sa méthode consiste à remplir un récipient, d'abord des bocaux de verre, à le fermer hermétiquement, puis à le chauffer longuement au bain-marie : la chaleur détruit les micro-organismes et l'étanchéité empêche toute recontamination. Il publie son procédé en 1810 sans pouvoir l'expliquer, la théorie microbienne n'existant pas encore. La même année, en Angleterre, Peter Durand brevette l'usage de boîtes en fer-blanc, qui donnera la conserve telle que nous la connaissons."
+  },
+  {
+   "q": "Qu'est-ce qui distingue un lait pasteurisé d'un lait stérilisé UHT ?",
+   "choix": [
+    "Le lait pasteurisé est chauffé plus fort",
+    "Le lait UHT contient des conservateurs chimiques",
+    "Le lait pasteurisé a été écrémé",
+    "Le lait pasteurisé garde des micro-organismes vivants et doit rester au froid"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "La pasteurisation chauffe le produit autour de soixante-dix degrés : elle détruit les germes pathogènes et une grande partie de la flore, mais pas tout. Le lait pasteurisé doit donc être conservé au réfrigérateur et se garde quelques jours seulement, en conservant davantage de goût. Le procédé à ultra-haute température porte le lait au-delà de cent trente-cinq degrés pendant quelques secondes, ce qui le rend stable plusieurs mois à température ambiante tant que l'emballage reste fermé. Aucun des deux ne fait appel à des conservateurs ajoutés."
+  },
+  {
+   "q": "Que signifie la mention à consommer de préférence avant, portée sur un paquet de biscuits ?",
+   "choix": [
+    "Que le produit perd de sa qualité au-delà mais reste consommable",
+    "Que le produit devient dangereux dès le lendemain",
+    "Qu'il doit obligatoirement être détruit par le magasin à cette date",
+    "Qu'il s'agit de la date de fabrication"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "L'étiquetage distingue deux dates de nature différente. La date limite de consommation, formulée à consommer jusqu'au, concerne les denrées très périssables comme la viande hachée ou les produits laitiers frais : la dépasser fait courir un risque sanitaire réel. La date de durabilité minimale, formulée à consommer de préférence avant, ne concerne que la qualité : le biscuit peut ramollir ou perdre son goût, sans devenir dangereux. Cette confusion nourrit une part du gaspillage alimentaire, qu'une loi française de 2016 a cherché à réduire en interdisant aux grandes surfaces de détruire leurs invendus consommables."
+  },
+  {
+   "q": "Pourquoi la choucroute se conserve-t-elle des mois ?",
+   "choix": [
+    "Le chou est stérilisé avant d'être mis en pot",
+    "Le sel seul suffit à tuer tous les micro-organismes",
+    "Des bactéries lactiques acidifient le milieu et empêchent les autres microbes de s'y développer",
+    "Le vinaigre ajouté abaisse le pH"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La choucroute est du chou finement coupé, salé et tassé à l'abri de l'air. Le sel fait sortir l'eau du chou et sélectionne des bactéries lactiques qui supportent ce milieu ; celles-ci consomment les sucres du légume et produisent de l'acide lactique. Le pH baisse fortement, ce qui empêche le développement des micro-organismes indésirables. La fermentation ne cherche donc pas à éliminer la vie microbienne mais à en favoriser une, utile, qui occupe la place. Le même principe donne le yaourt, le kimchi coréen ou les pickles."
+  },
+  {
+   "q": "Que traduit le Nutri-Score affiché sur un emballage ?",
+   "choix": [
+    "Le degré de transformation industrielle du produit",
+    "La qualité nutritionnelle globale calculée pour cent grammes",
+    "Le nombre de calories par portion",
+    "L'origine géographique des ingrédients"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Retenu en France fin 2017 et appliqué sur la base du volontariat, le Nutri-Score attribue une lettre de A à E et une couleur en comparant, pour cent grammes de produit, des composantes défavorables comme les sucres, le sel, les graisses saturées et l'énergie, et des composantes favorables comme les fibres, les protéines, les fruits et légumes. Il permet donc de comparer des produits d'une même famille, pas de juger un aliment isolément. Il ne dit rien du degré de transformation : c'est la classification NOVA, proposée en 2009 par une équipe brésilienne, qui isole les aliments ultra-transformés."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Conservation des aliments",
+   "url": "https://fr.wikipedia.org/wiki/Conservation_des_aliments"
+  },
+  {
+   "titre": "Nicolas Appert",
+   "url": "https://fr.wikipedia.org/wiki/Nicolas_Appert"
+  },
+  {
+   "titre": "Programme national nutrition santé",
+   "url": "https://fr.wikipedia.org/wiki/Programme_national_nutrition_sant%C3%A9"
+  },
+  {
+   "titre": "Nutri-Score",
+   "url": "https://fr.wikipedia.org/wiki/Nutri-Score"
+  }
+ ]
+}

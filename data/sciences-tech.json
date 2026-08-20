@@ -1,0 +1,1233 @@
+{
+ "id": "sciences-tech",
+ "nom": "Inventions & Technologie",
+ "emoji": "💡",
+ "questions": [
+  {
+   "q": "Qui a mis au point l'imprimerie à caractères mobiles métalliques en Europe vers 1450 ?",
+   "choix": [
+    "Nicolas Copernic",
+    "Léonard de Vinci",
+    "Blaise Pascal",
+    "Johannes Gutenberg"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "L'orfèvre allemand Johannes Gutenberg, installé à Mayence, met au point vers 1450 un système combinant caractères mobiles en alliage de plomb, encre grasse et presse à vis dérivée du pressoir. Son chef-d'œuvre est la Bible à 42 lignes, imprimée vers 1455. La Chine et la Corée connaissaient déjà des caractères mobiles (Bi Sheng au XIe siècle, caractères métalliques coréens au XIIIe siècle), mais l'invention de Gutenberg est adaptée à l'alphabet latin et se diffuse très vite. En cinquante ans, l'Europe compte des centaines d'ateliers et des millions d'exemplaires imprimés. On appelle « incunables » les livres imprimés avant 1501."
+  },
+  {
+   "q": "Qui a perfectionné la machine à vapeur en y ajoutant un condenseur séparé en 1769 ?",
+   "choix": [
+    "George Stephenson",
+    "Thomas Newcomen",
+    "Denis Papin",
+    "James Watt"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "L'ingénieur écossais James Watt dépose en 1769 un brevet pour un condenseur séparé, qui évite de refroidir le cylindre à chaque cycle. Le rendement de la machine à vapeur est multiplié, ce qui la rend rentable hors des mines. Watt s'appuyait sur la machine atmosphérique de Thomas Newcomen (1712), elle-même héritière des travaux de Denis Papin sur le digesteur et le piston. Associé à l'industriel Matthew Boulton, Watt équipe filatures et forges, accélérant la révolution industrielle britannique. L'unité de puissance du Système international, le watt, porte son nom."
+  },
+  {
+   "q": "Quelle unité du Système international mesure la puissance ?",
+   "choix": [
+    "Le joule",
+    "Le newton",
+    "Le pascal",
+    "Le watt"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "Le watt (symbole W) est l'unité de puissance, c'est-à-dire d'énergie transférée par unité de temps : un watt vaut un joule par seconde. Le joule mesure l'énergie ou le travail, le newton la force, et le pascal la pression (un newton par mètre carré). Ces unités dérivées se construisent à partir des sept unités de base du Système international. Un ordre de grandeur utile : un cheval-vapeur équivaut à environ 736 watts, et une ampoule LED domestique consomme moins de dix watts."
+  },
+  {
+   "q": "Qui a déposé en 1876 le brevet américain du téléphone ?",
+   "choix": [
+    "Guglielmo Marconi",
+    "Samuel Morse",
+    "Nikola Tesla",
+    "Alexander Graham Bell"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "Alexander Graham Bell dépose son brevet le 14 février 1876, quelques heures avant son concurrent Elisha Gray. La première phrase transmise, adressée à son assistant, serait « Monsieur Watson, venez, je veux vous voir ». L'Italien Antonio Meucci avait présenté dès 1860 un « telettrofono » ; le Congrès américain a reconnu son antériorité par une résolution en 2002. Bell fonde en 1877 la Bell Telephone Company, ancêtre du géant AT&T. Le bel et le décibel, unités de niveau sonore, lui doivent leur nom."
+  },
+  {
+   "q": "Quels frères ont réalisé le 17 décembre 1903 le premier vol motorisé contrôlé ?",
+   "choix": [
+    "Les frères Lumière",
+    "Les frères Montgolfier",
+    "Les frères Wright",
+    "Les frères Voisin"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "Orville et Wilbur Wright font décoller leur Flyer I à Kitty Hawk, en Caroline du Nord, le 17 décembre 1903. Le premier vol dure douze secondes sur environ trente-six mètres ; le quatrième de la journée atteint 260 mètres. Leur apport décisif est le gauchissement des ailes, qui permet le contrôle latéral, plus qu'une simple motorisation. Les frères Montgolfier avaient réussi les premières ascensions en ballon à air chaud en 1783, et les frères Lumière inventé le cinématographe en 1895. Le Brésilien Alberto Santos-Dumont réalisa en 1906 le premier vol homologué en Europe."
+  },
+  {
+   "q": "Quel ingénieur allemand a déposé en 1892 le brevet du moteur qui porte son nom ?",
+   "choix": [
+    "Gottlieb Daimler",
+    "Rudolf Diesel",
+    "Karl Benz",
+    "Nikolaus Otto"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Rudolf Diesel dépose en 1892 le brevet d'un moteur à combustion par compression : l'air est comprimé si fortement qu'il s'échauffe et enflamme le carburant injecté, sans bougie d'allumage. Le premier moteur fonctionnel date de 1897. Son rendement supérieur à celui du moteur à essence l'a imposé dans les navires, les camions et les locomotives. Nikolaus Otto avait mis au point en 1876 le moteur à quatre temps à allumage commandé, et Karl Benz breveté en 1886 le premier véhicule automobile à essence."
+  },
+  {
+   "q": "Qui a construit en 1886 ce qui est considéré comme la première automobile à moteur à essence ?",
+   "choix": [
+    "Karl Benz",
+    "Louis Renault",
+    "Armand Peugeot",
+    "Henry Ford"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Karl Benz dépose en janvier 1886 le brevet de son Patent-Motorwagen, un tricycle motorisé équipé d'un moteur monocylindre à quatre temps d'environ 0,75 cheval. En 1888, son épouse Bertha Benz effectue un trajet de plus de cent kilomètres entre Mannheim et Pforzheim, prouvant la fiabilité du véhicule et lui offrant une publicité décisive. Henry Ford, lui, révolutionne non pas l'automobile mais sa fabrication : la chaîne de montage mobile de la Ford T, à partir de 1913, fait chuter le temps d'assemblage et le prix de vente. En France, Armand Peugeot et Louis Renault lancent leurs premiers modèles respectivement en 1890 et 1898. Le nom de la firme Mercedes-Benz garde la trace de la fusion, en 1926, des sociétés de Benz et de Gottlieb Daimler."
+  },
+  {
+   "q": "Quel inventeur a fait fonctionner en 1879 une lampe à incandescence commercialement viable ?",
+   "choix": [
+    "André-Marie Ampère",
+    "Thomas Edison",
+    "Alexander Graham Bell",
+    "Nikola Tesla"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Thomas Edison présente fin 1879 une lampe à filament de carbone durant plusieurs dizaines d'heures, dans son laboratoire de Menlo Park. Il n'est pas le premier à produire de la lumière par incandescence — le Britannique Joseph Swan travaillait en parallèle et les deux hommes fusionnèrent leurs intérêts en Angleterre — mais Edison conçoit tout un système : centrale électrique, réseau de distribution, compteurs et douilles. Sa centrale de Pearl Street éclaire un quartier de New York dès 1882. Edison déposa plus de mille brevets au cours de sa carrière."
+  },
+  {
+   "q": "Quel système de distribution électrique, défendu par Tesla et Westinghouse, l'a emporté à la fin du XIXe siècle ?",
+   "choix": [
+    "Le courant pulsé",
+    "Le courant statique",
+    "Le courant continu",
+    "Le courant alternatif"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "La « guerre des courants » oppose dans les années 1880-1890 le courant continu promu par Edison au courant alternatif défendu par Nikola Tesla et George Westinghouse. Le courant alternatif l'emporte parce que le transformateur permet d'élever la tension pour transporter l'énergie sur de longues distances avec peu de pertes, puis de l'abaisser près des usagers. L'éclairage de l'Exposition universelle de Chicago en 1893 puis la centrale des chutes du Niagara en 1895 scellent cette victoire. Le tesla, unité d'induction magnétique, honore l'inventeur croate d'origine serbe."
+  },
+  {
+   "q": "Qui a réalisé en 1901 la première transmission radio à travers l'Atlantique ?",
+   "choix": [
+    "Lee De Forest",
+    "Heinrich Hertz",
+    "Édouard Branly",
+    "Guglielmo Marconi"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "L'Italien Guglielmo Marconi affirme avoir reçu le 12 décembre 1901, à Terre-Neuve, un signal en morse — la lettre S — émis depuis les Cornouailles britanniques. Ses travaux s'appuient sur la démonstration des ondes électromagnétiques par Heinrich Hertz en 1887 et sur le cohéreur du Français Édouard Branly. Marconi reçoit le prix Nobel de physique 1909 avec Ferdinand Braun. La radio prouve son utilité lors du naufrage du Titanic en 1912, où les appels de détresse permettent le sauvetage de plusieurs centaines de passagers."
+  },
+  {
+   "q": "Quelle machine Blaise Pascal a-t-il construite vers 1642 pour aider son père collecteur d'impôts ?",
+   "choix": [
+    "Une machine à calculer",
+    "Un télescope",
+    "Une horloge à pendule",
+    "Une pompe à vide"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Blaise Pascal conçoit à dix-neuf ans la Pascaline, une machine arithmétique à roues dentées capable d'additionner et de soustraire des sommes en livres, sols et deniers. Une vingtaine d'exemplaires furent construits. Leibniz perfectionna l'idée en 1673 avec une machine multipliant directement. Pascal est aussi l'auteur de travaux fondateurs sur la pression atmosphérique et sur le calcul des probabilités, échangés avec Fermat. L'unité de pression du Système international, le pascal, et un langage de programmation créé en 1970 portent son nom."
+  },
+  {
+   "q": "Quel mathématicien britannique a conçu au XIXe siècle la « machine analytique », ancêtre de l'ordinateur ?",
+   "choix": [
+    "Charles Babbage",
+    "George Boole",
+    "Alan Turing",
+    "Isaac Newton"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Charles Babbage imagine à partir de 1834 une machine analytique programmable par cartes perforées, dotée d'une unité de calcul (le « moulin »), d'une mémoire (le « magasin ») et d'instructions conditionnelles. Faute de financements et de mécanique assez précise, elle ne fut jamais achevée de son vivant. Ada Lovelace, fille du poète Byron, rédige en 1843 des notes contenant un algorithme destiné à cette machine : on la considère souvent comme la première programmeuse. Babbage avait auparavant conçu une machine à différences destinée au calcul de tables numériques."
+  },
+  {
+   "q": "Quel mathématicien britannique a formalisé en 1936 un modèle théorique de calcul devenu fondamental en informatique ?",
+   "choix": [
+    "Claude Shannon",
+    "Norbert Wiener",
+    "Alan Turing",
+    "John von Neumann"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Alan Turing décrit en 1936 une machine abstraite lisant et écrivant des symboles sur un ruban infini selon un jeu de règles : la machine de Turing définit ce qui est calculable. Pendant la Seconde Guerre mondiale, il travaille à Bletchley Park au décryptage des messages allemands chiffrés par Enigma, à l'aide des machines électromécaniques appelées « bombes ». En 1950 il propose le test qui porte son nom pour évaluer l'apparence d'intelligence d'une machine. Le prix Turing, décerné depuis 1966, est considéré comme le prix Nobel de l'informatique."
+  },
+  {
+   "q": "Quel ordinateur électronique américain, dévoilé en 1946, est souvent cité comme le premier calculateur électronique polyvalent ?",
+   "choix": [
+    "ENIAC",
+    "IBM 360",
+    "UNIVAC",
+    "Colossus"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'ENIAC (Electronic Numerical Integrator and Computer), construit à l'université de Pennsylvanie par John Mauchly et John Presper Eckert, est rendu public en février 1946. Il contient environ 18 000 tubes à vide, pèse une trentaine de tonnes et occupe une grande salle. Il était programmé par câblage et positionnement d'interrupteurs, une opération qui pouvait durer des jours. Le britannique Colossus, opérationnel dès 1943 pour la cryptanalyse, resta secret jusqu'aux années 1970. L'UNIVAC I, de 1951, fut le premier ordinateur commercial américain."
+  },
+  {
+   "q": "Quel composant électronique, inventé en 1947 aux laboratoires Bell, a remplacé les tubes à vide ?",
+   "choix": [
+    "Le transistor",
+    "Le condensateur",
+    "Le relais",
+    "La diode à vide"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "John Bardeen, Walter Brattain et William Shockley mettent au point en décembre 1947 le transistor à contacts ponctuels, en germanium, aux laboratoires Bell. Ce composant semi-conducteur amplifie ou commute les signaux tout en étant minuscule, robuste et peu gourmand en énergie, contrairement aux tubes à vide. Les trois chercheurs reçoivent le prix Nobel de physique en 1956. Le silicium remplace ensuite le germanium, et le circuit intégré, développé vers 1958-1959 par Jack Kilby et Robert Noyce, permet de graver des milliers puis des milliards de transistors sur une seule puce."
+  },
+  {
+   "q": "Que désigne la « loi de Moore », énoncée en 1965 ?",
+   "choix": [
+    "La baisse du prix des ordinateurs de moitié chaque année",
+    "Le doublement régulier du nombre de transistors par puce",
+    "La croissance du nombre d'internautes",
+    "L'augmentation de la fréquence des processeurs"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Gordon Moore, cofondateur d'Intel, observe en 1965 que le nombre de composants intégrés sur une puce double environ chaque année, prévision qu'il révise en 1975 à un doublement tous les deux ans. Ce n'est pas une loi physique mais une constatation empirique devenue objectif industriel autoréalisateur. Elle a guidé la miniaturisation pendant plusieurs décennies avant de ralentir face aux limites physiques de la gravure. Intel, fondée en 1968 par Moore et Robert Noyce, commercialise en 1971 le premier microprocesseur du marché, le 4004."
+  },
+  {
+   "q": "Quel réseau américain financé par la défense est considéré comme l'ancêtre d'Internet ?",
+   "choix": [
+    "Usenet",
+    "ARPANET",
+    "Minitel",
+    "Ethernet"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "ARPANET, financé par l'ARPA du département de la Défense américain, relie ses quatre premiers nœuds universitaires en 1969, dont l'UCLA et Stanford. Il repose sur la commutation par paquets, qui découpe les messages en petits blocs routés indépendamment. En 1974, Vinton Cerf et Robert Kahn publient les principes du protocole TCP/IP, adopté officiellement sur ARPANET le 1er janvier 1983 : c'est l'acte de naissance technique d'Internet. Le Minitel, lui, était un service télématique français lancé en 1980, distinct d'Internet."
+  },
+  {
+   "q": "Qui a inventé le World Wide Web au CERN en 1989-1991 ?",
+   "choix": [
+    "Tim Berners-Lee",
+    "Bill Gates",
+    "Linus Torvalds",
+    "Vinton Cerf"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "L'informaticien britannique Tim Berners-Lee, en poste au CERN près de Genève, rédige en mars 1989 une proposition de gestion de l'information par documents liés entre eux. Avec Robert Cailliau, il développe les trois piliers du Web : le langage HTML, le protocole HTTP et les adresses URL. Le premier site est mis en ligne en 1991 et le CERN place la technologie dans le domaine public en 1993. Il faut distinguer le Web, service de pages liées, d'Internet, le réseau physique et logique qui le transporte."
+  },
+  {
+   "q": "Quel satellite artificiel, lancé en octobre 1957, a ouvert l'ère spatiale ?",
+   "choix": [
+    "Spoutnik 1",
+    "Vostok 1",
+    "Luna 1",
+    "Explorer 1"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "L'Union soviétique lance Spoutnik 1 le 4 octobre 1957 : une sphère d'aluminium de 58 centimètres et 83,6 kilogrammes, équipée de quatre antennes émettant un simple bip radio. L'objet effectue le tour de la Terre en environ 96 minutes et se consume dans l'atmosphère au bout de trois mois. Le choc psychologique aux États-Unis conduit à la création de la NASA en 1958. Les Américains répliquent avec Explorer 1 en janvier 1958, qui permet la découverte des ceintures de radiation de Van Allen."
+  },
+  {
+   "q": "Qui fut le premier être humain à effectuer un vol dans l'espace, le 12 avril 1961 ?",
+   "choix": [
+    "Youri Gagarine",
+    "Guerman Titov",
+    "Alan Shepard",
+    "Neil Armstrong"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le cosmonaute soviétique Youri Gagarine effectue le 12 avril 1961 une orbite complète autour de la Terre à bord de la capsule Vostok 1, en 108 minutes environ. Il s'éjecte de la capsule pendant la descente et atterrit en parachute. L'Américain Alan Shepard réalise trois semaines plus tard un vol suborbital de quinze minutes. Valentina Terechkova devient en 1963 la première femme dans l'espace, et Alexeï Leonov effectue la première sortie extravéhiculaire en 1965. Gagarine meurt en 1968 dans un accident d'avion d'entraînement."
+  },
+  {
+   "q": "Quelle mission a permis aux premiers hommes de marcher sur la Lune en juillet 1969 ?",
+   "choix": [
+    "Gemini 4",
+    "Apollo 8",
+    "Apollo 13",
+    "Apollo 11"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "Le module lunaire Eagle de la mission Apollo 11 se pose dans la mer de la Tranquillité le 20 juillet 1969. Neil Armstrong puis Buzz Aldrin foulent le sol lunaire tandis que Michael Collins reste en orbite dans le module de commande. La fusée Saturn V, conçue sous la direction de Wernher von Braun, mesurait plus de 110 mètres de haut. Six missions Apollo se posèrent au total, la dernière en décembre 1972 avec Apollo 17. Apollo 8 avait réalisé le premier survol habité de la Lune en décembre 1968."
+  },
+  {
+   "q": "Quel est le nom du théorème reliant les côtés d'un triangle rectangle ?",
+   "choix": [
+    "Le théorème de Fermat",
+    "Le théorème de Thalès",
+    "Le théorème d'Euclide",
+    "Le théorème de Pythagore"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "Le théorème de Pythagore énonce que dans un triangle rectangle, le carré de l'hypoténuse est égal à la somme des carrés des deux autres côtés. Attribué au mathématicien grec Pythagore de Samos au VIe siècle avant notre ère, le résultat était connu bien avant lui des Babyloniens et des Égyptiens, qui utilisaient le triangle de côtés 3, 4 et 5. Sa réciproque permet de prouver qu'un triangle est rectangle. Le théorème de Thalès, lui, concerne les rapports de longueurs entre droites parallèles."
+  },
+  {
+   "q": "Quel nombre irrationnel désigne le rapport entre la circonférence d'un cercle et son diamètre ?",
+   "choix": [
+    "Le nombre e",
+    "La constante d'Euler",
+    "Le nombre d'or",
+    "Pi"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "Le nombre pi, noté par la lettre grecque π, vaut environ 3,14159. Il est irrationnel, ce qu'a démontré Johann Heinrich Lambert en 1761, et transcendant, ce qu'a prouvé Ferdinand von Lindemann en 1882 — d'où l'impossibilité de la quadrature du cercle à la règle et au compas. Archimède en avait donné vers 250 avant notre ère un encadrement entre 3+10/71 et 3+1/7 grâce à des polygones inscrits et circonscrits. La notation π s'est imposée au XVIIIe siècle grâce à Leonhard Euler."
+  },
+  {
+   "q": "Quel savant grec aurait crié « Eurêka ! » après avoir découvert le principe de la poussée sur les corps immergés ?",
+   "choix": [
+    "Thalès",
+    "Ératosthène",
+    "Archimède",
+    "Euclide"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "Archimède de Syracuse, au IIIe siècle avant notre ère, énonce que tout corps plongé dans un fluide subit une poussée verticale égale au poids du fluide déplacé. L'anecdote du bain et du cri « Eurêka » est rapportée par Vitruve, plusieurs siècles après les faits. Archimède est aussi l'auteur de travaux sur le levier, la vis sans fin et le calcul d'aires par la méthode d'exhaustion, qui anticipe le calcul intégral. Il est tué lors de la prise de Syracuse par les Romains en 212 avant notre ère."
+  },
+  {
+   "q": "Quel mathématicien grec a rédigé les « Éléments », traité fondateur de la géométrie ?",
+   "choix": [
+    "Euclide",
+    "Diophante",
+    "Pythagore",
+    "Platon"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Euclide, actif à Alexandrie vers 300 avant notre ère, compile dans les treize livres des Éléments l'essentiel des connaissances géométriques et arithmétiques grecques. L'ouvrage repose sur des définitions, des axiomes et des postulats dont on déduit les propositions : c'est le modèle de la méthode axiomatique. On y trouve la démonstration de l'infinité des nombres premiers et l'algorithme de calcul du plus grand commun diviseur. Le cinquième postulat, dit des parallèles, a suscité au XIXe siècle la naissance des géométries non euclidiennes."
+  },
+  {
+   "q": "Quel théorème, énoncé par un magistrat français au XVIIe siècle, n'a été démontré qu'en 1994 ?",
+   "choix": [
+    "La conjecture de Goldbach",
+    "Le théorème des quatre couleurs",
+    "Le dernier théorème de Fermat",
+    "L'hypothèse de Riemann"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Pierre de Fermat note vers 1637, dans la marge d'un exemplaire de Diophante, qu'aucun triplet d'entiers positifs ne vérifie l'équation a^n + b^n = c^n pour n supérieur à 2, ajoutant qu'il en possède une « démonstration merveilleuse » que la marge est trop étroite pour contenir. Le problème résiste plus de trois siècles. Le Britannique Andrew Wiles en publie la démonstration en 1994-1995, complétée avec Richard Taylor, en passant par la conjecture de Taniyama-Shimura sur les courbes elliptiques. La conjecture de Goldbach et l'hypothèse de Riemann restent, elles, ouvertes."
+  },
+  {
+   "q": "Combien y a-t-il d'unités de base dans le Système international d'unités ?",
+   "choix": [
+    "Douze",
+    "Cinq",
+    "Neuf",
+    "Sept"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le Système international compte sept unités de base : le mètre pour la longueur, le kilogramme pour la masse, la seconde pour le temps, l'ampère pour l'intensité électrique, le kelvin pour la température, la mole pour la quantité de matière et la candela pour l'intensité lumineuse. Toutes les autres unités en dérivent, comme le newton ou le volt. Depuis la révision entrée en vigueur le 20 mai 2019, ces sept unités sont définies à partir de constantes physiques fixées, et non plus d'objets matériels. La seconde, par exemple, repose depuis 1967 sur une transition de l'atome de césium 133. Le système, adopté sous ce nom en 1960, est géré par le Bureau international des poids et mesures créé en 1875."
+  },
+  {
+   "q": "Sur quoi le mètre a-t-il été défini à l'origine, lors de son adoption en France à la fin du XVIIIe siècle ?",
+   "choix": [
+    "La taille moyenne d'un homme adulte",
+    "La longueur d'un pendule battant la seconde",
+    "La dix-millionième partie du quart du méridien terrestre",
+    "Le diamètre de la Terre divisé par un million"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "L'Assemblée constituante décide en 1791 de définir le mètre comme la dix-millionième partie du quart du méridien terrestre passant par Paris. Les astronomes Delambre et Méchain mesurent pour cela l'arc entre Dunkerque et Barcelone entre 1792 et 1799 par triangulation. Un étalon en platine, le mètre des Archives, est déposé en 1799. La définition a évolué : longueur d'onde du krypton 86 en 1960, puis depuis 1983 distance parcourue par la lumière dans le vide en 1/299 792 458 de seconde."
+  },
+  {
+   "q": "Quel objet, longtemps conservé à Sèvres, servait d'étalon international jusqu'en 2019 ?",
+   "choix": [
+    "L'étalon de la seconde",
+    "Le mètre-étalon en platine",
+    "Le prototype international du kilogramme",
+    "Le litre de référence"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le prototype international du kilogramme, cylindre d'un alliage de platine iridié fabriqué en 1889, était conservé au Bureau international des poids et mesures à Sèvres, près de Paris, sous trois cloches de verre. C'était la dernière unité de base encore définie par un objet matériel. Or sa masse variait très légèrement par rapport à ses copies officielles. Depuis le 20 mai 2019, le kilogramme est défini à partir d'une valeur fixée de la constante de Planck, mesurable notamment avec une balance de Kibble."
+  },
+  {
+   "q": "Quelle invention chinoise, avec la boussole et la poudre, figure parmi les « quatre grandes inventions » ?",
+   "choix": [
+    "Le papier",
+    "Le verre",
+    "La roue",
+    "Le savon"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La tradition chinoise réunit sous l'expression « quatre grandes inventions » le papier, la boussole, la poudre à canon et l'imprimerie. La fabrication du papier est attribuée à l'officiel Cai Lun vers 105 de notre ère, à partir d'écorces, de chiffons et de filets de pêche broyés. Le procédé gagne le monde arabe après la bataille de Talas en 751, puis l'Europe par l'Espagne au XIIe siècle. Avant le papier, on écrivait sur papyrus, sur parchemin ou sur lamelles de bambou."
+  },
+  {
+   "q": "Quel instrument, perfectionné par Galilée en 1609, lui a permis d'observer les satellites de Jupiter ?",
+   "choix": [
+    "Le microscope",
+    "La lunette astronomique",
+    "Le sextant",
+    "L'astrolabe"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Galilée apprend en 1609 l'existence d'une lunette d'approche construite aux Pays-Bas, probablement par Hans Lippershey, et en fabrique aussitôt des versions bien plus puissantes. Il découvre les reliefs de la Lune, les phases de Vénus, les taches solaires et les quatre principaux satellites de Jupiter, appelés depuis satellites galiléens. Ces observations, publiées dans le Sidereus Nuncius en 1610, appuient le système héliocentrique de Copernic. Newton conçut en 1668 le télescope à miroir, qui évite les aberrations chromatiques des lentilles."
+  },
+  {
+   "q": "Quel appareil les frères Lumière ont-ils présenté publiquement à Paris en décembre 1895 ?",
+   "choix": [
+    "Le télégraphe",
+    "Le cinématographe",
+    "Le daguerréotype",
+    "Le phonographe"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Auguste et Louis Lumière organisent le 28 décembre 1895 au Salon indien du Grand Café, à Paris, la première projection publique payante avec leur cinématographe, appareil à la fois caméra, tireuse et projecteur. Parmi les vues figurent La Sortie de l'usine Lumière à Lyon et L'Arroseur arrosé. Thomas Edison et son collaborateur William Dickson avaient développé auparavant le kinétoscope, une visionneuse individuelle. La photographie, elle, remonte à Nicéphore Niépce vers 1826 et au daguerréotype de Louis Daguerre en 1839."
+  },
+  {
+   "q": "Quel physicien allemand a découvert les rayons X en 1895 ?",
+   "choix": [
+    "Wilhelm Röntgen",
+    "Werner Heisenberg",
+    "Max Planck",
+    "Heinrich Hertz"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Wilhelm Conrad Röntgen découvre en novembre 1895, en travaillant sur des tubes à décharge, un rayonnement inconnu traversant la matière opaque à la lumière : il le nomme rayons X. La radiographie de la main de son épouse, portant son alliance, devient une image célèbre. Röntgen reçoit en 1901 le tout premier prix Nobel de physique. L'application médicale est immédiate et massive. Henri Becquerel découvre l'année suivante la radioactivité naturelle de l'uranium, un phénomène distinct qu'étudieront Pierre et Marie Curie."
+  },
+  {
+   "q": "Quel physicien français a démontré la rotation de la Terre en 1851 grâce à un pendule au Panthéon ?",
+   "choix": [
+    "Sadi Carnot",
+    "Léon Foucault",
+    "Augustin Fresnel",
+    "Hippolyte Fizeau"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Léon Foucault suspend en 1851 sous la coupole du Panthéon de Paris un pendule de 67 mètres portant une sphère de 28 kilogrammes. Le plan d'oscillation semble tourner lentement au fil des heures : c'est en réalité le sol, entraîné par la rotation terrestre, qui tourne sous le pendule. La vitesse apparente de rotation dépend de la latitude, maximale aux pôles et nulle à l'équateur. Foucault a aussi mesuré la vitesse de la lumière avec Fizeau et donné son nom aux courants induits dans les masses métalliques."
+  },
+  {
+   "q": "Quel ingénieur écossais a donné son nom au procédé d'imperméabilisation des tissus au caoutchouc ?",
+   "choix": [
+    "John Dunlop",
+    "Charles Goodyear",
+    "James Nasmyth",
+    "Charles Macintosh"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Le chimiste écossais Charles Macintosh dépose en 1823 un brevet pour un tissu rendu imperméable en collant deux épaisseurs avec du caoutchouc dissous dans du naphta : le manteau imperméable porte encore son nom en anglais. L'Américain Charles Goodyear met au point en 1839 la vulcanisation, qui rend le caoutchouc stable au chaud comme au froid. Le vétérinaire écossais John Boyd Dunlop redéveloppe en 1888 le pneumatique gonflable, breveté auparavant par Robert William Thomson, une innovation décisive pour le vélo puis l'automobile. Ces trois avancées ont en commun de dépendre du latex de l'hévéa, dont l'exploitation transforma l'économie de l'Amazonie puis de l'Asie du Sud-Est. Le caoutchouc synthétique n'apparaît qu'au XXe siècle."
+  },
+  {
+   "q": "Quel procédé, mis au point en 1856, a permis la production industrielle massive d'acier ?",
+   "choix": [
+    "Le haut fourneau à coke",
+    "Le convertisseur Bessemer",
+    "Le laminage à froid",
+    "L'électrolyse"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "L'ingénieur britannique Henry Bessemer présente en 1856 un convertisseur dans lequel on insuffle de l'air à travers la fonte en fusion : l'oxydation brûle le carbone en excès et produit de l'acier rapidement et à bas coût. Le procédé abaisse spectaculairement le prix de l'acier, qui remplace le fer dans les rails, les ponts et les charpentes. Il fut complété par les fours Martin-Siemens et par le procédé Thomas, adapté aux minerais phosphoreux de Lorraine. L'acier est un alliage de fer contenant moins de 2 % de carbone."
+  },
+  {
+   "q": "Quel matériau, découvert par Marie et Pierre Curie en 1898, a valu à Marie Curie un second prix Nobel ?",
+   "choix": [
+    "Le thorium",
+    "L'uranium",
+    "Le plutonium",
+    "Le radium"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Marie et Pierre Curie isolent en 1898, à partir de la pechblende, deux nouveaux éléments radioactifs : le polonium, nommé en hommage à la Pologne natale de Marie, puis le radium. Marie Curie reçoit le prix Nobel de physique en 1903 avec son mari et Henri Becquerel, puis celui de chimie en 1911 pour la découverte et l'isolement du radium. Elle est la première femme lauréate et la seule personne distinguée dans deux disciplines scientifiques différentes. Le becquerel est l'unité d'activité radioactive du Système international."
+  },
+  {
+   "q": "Quel objet du quotidien a été breveté par Whitcomb Judson puis perfectionné par Gideon Sundback en 1913 ?",
+   "choix": [
+    "La fermeture à glissière",
+    "L'épingle de sûreté",
+    "Le trombone",
+    "L'agrafeuse"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "L'Américain Whitcomb Judson brevette en 1893 un système d'agrafes coulissantes destiné aux bottines. L'ingénieur suédo-américain Gideon Sundback en donne en 1913 la version moderne, à dents imbriquées entraînées par un curseur. Le nom anglais « zipper » vient d'une marque de bottes en caoutchouc des années 1920. La fermeture s'impose d'abord dans l'équipement militaire et les bagages avant de gagner l'habillement dans les années 1930. Le velcro, lui, est inventé par le Suisse George de Mestral, inspiré par les fruits de bardane accrochés au poil de son chien."
+  },
+  {
+   "q": "Quel médicament a été découvert par Alexander Fleming en 1928 ?",
+   "choix": [
+    "La quinine",
+    "L'aspirine",
+    "L'insuline",
+    "La pénicilline"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "Le bactériologiste écossais Alexander Fleming constate en 1928 qu'une moisissure du genre Penicillium, ayant contaminé une de ses cultures de staphylocoques, empêche la croissance des bactéries autour d'elle. Il nomme la substance pénicilline. Sa production à échelle industrielle n'intervient qu'au début des années 1940 grâce aux travaux de Howard Florey et Ernst Chain à Oxford, avec un effet décisif sur les blessés de la Seconde Guerre mondiale. Les trois hommes partagent le prix Nobel de médecine 1945. Fleming avait averti dès cette époque du risque de résistance bactérienne."
+  },
+  {
+   "q": "Quelle invention de Joseph-Marie Jacquard, en 1801, utilisait des cartes perforées ?",
+   "choix": [
+    "Une horloge automatique",
+    "Une machine à coudre",
+    "Un métier à tisser programmable",
+    "Une presse à imprimer"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le Lyonnais Joseph-Marie Jacquard présente en 1801 un métier à tisser dont le motif est commandé par une chaîne de cartes perforées : chaque carte détermine quels fils sont levés. Un seul ouvrier remplace ainsi l'ensemble tisserand-tireur de lacs. L'invention provoqua l'hostilité des canuts lyonnais, qui craignaient pour leur emploi. Le principe des cartes perforées inspira Charles Babbage pour sa machine analytique, puis Herman Hollerith, dont les machines à statistiques servirent au recensement américain de 1890 et donnèrent naissance à IBM."
+  },
+  {
+   "q": "Qui a mis au point en 1885 le vaccin contre la rage ?",
+   "choix": [
+    "Robert Koch",
+    "Louis Pasteur",
+    "Edward Jenner",
+    "Claude Bernard"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Louis Pasteur administre en juillet 1885 son vaccin antirabique au jeune Joseph Meister, mordu par un chien enragé, avec succès. Il avait auparavant démontré le rôle des micro-organismes dans les fermentations, réfuté la génération spontanée et mis au point la pasteurisation, ainsi qu'un vaccin contre le charbon des moutons. La vaccination proprement dite remonte à Edward Jenner, qui utilise dès 1796 la vaccine bovine contre la variole — d'où le mot « vaccin ». L'Institut Pasteur est fondé à Paris en 1888."
+  },
+  {
+   "q": "Quel système de numération utilisons-nous aujourd'hui, transmis à l'Europe par les mathématiciens arabes ?",
+   "choix": [
+    "Le système binaire",
+    "Le système décimal de position d'origine indienne",
+    "Le système sexagésimal babylonien",
+    "Le système romain"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Les chiffres dits arabes sont d'origine indienne : ils reposent sur dix symboles, une notation de position et surtout un zéro, formalisé en Inde vers le Ve-VIIe siècle et théorisé par Brahmagupta. Les savants du monde musulman, notamment Al-Khwarizmi au IXe siècle, les diffusent ; le mot « algorithme » vient de son nom et « algèbre » du titre de son ouvrage. Leonardo Fibonacci les popularise en Europe avec son Liber abaci en 1202. Le système sexagésimal babylonien survit dans nos minutes, secondes et degrés."
+  },
+  {
+   "q": "Quel mathématicien suisse du XVIIIe siècle a introduit de nombreuses notations encore utilisées, dont la lettre e ?",
+   "choix": [
+    "Carl Friedrich Gauss",
+    "Jacob Bernoulli",
+    "Pierre-Simon Laplace",
+    "Leonhard Euler"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Leonhard Euler, né à Bâle en 1707, est l'un des mathématiciens les plus prolifiques de l'histoire, avec des milliers de pages publiées malgré une cécité totale à la fin de sa vie. On lui doit les notations f(x), la lettre e pour la base des logarithmes naturels, le symbole de sommation sigma et l'usage généralisé de π. Sa formule dite identité d'Euler relie cinq constantes fondamentales. Il résout aussi en 1736 le problème des sept ponts de Königsberg, considéré comme l'acte de naissance de la théorie des graphes."
+  },
+  {
+   "q": "Quel mathématicien allemand est surnommé le « prince des mathématiciens » ?",
+   "choix": [
+    "David Hilbert",
+    "Carl Friedrich Gauss",
+    "Georg Cantor",
+    "Bernhard Riemann"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Carl Friedrich Gauss, né en 1777 à Brunswick, démontre à vingt-deux ans le théorème fondamental de l'algèbre et publie en 1801 les Disquisitiones arithmeticae, socle de la théorie moderne des nombres. Il travaille aussi en astronomie — il retrouve par le calcul la position de l'astéroïde Cérès — et en magnétisme, d'où l'unité gauss. La loi de distribution en cloche, dite loi normale ou gaussienne, porte son nom. L'anecdote de l'écolier additionnant instantanément les nombres de 1 à 100 lui est traditionnellement attribuée."
+  },
+  {
+   "q": "Comment appelle-t-on un nombre entier supérieur à 1 divisible uniquement par 1 et par lui-même ?",
+   "choix": [
+    "Un nombre rationnel",
+    "Un nombre parfait",
+    "Un nombre premier",
+    "Un nombre entier naturel"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "Un nombre premier n'admet que deux diviseurs positifs : 1 et lui-même. Les premiers de la liste sont 2, 3, 5, 7, 11, 13 ; 2 est le seul nombre premier pair. Euclide a démontré vers 300 avant notre ère qu'il en existe une infinité. Le crible d'Ératosthène permet de les repérer en éliminant les multiples. Le théorème fondamental de l'arithmétique affirme que tout entier supérieur à 1 se décompose de manière unique en produit de facteurs premiers. Cette propriété est aujourd'hui au cœur de la cryptographie à clé publique."
+  },
+  {
+   "q": "Quel système de numération, à la base de l'électronique numérique, n'utilise que deux chiffres ?",
+   "choix": [
+    "Le système octal",
+    "Le système décimal",
+    "Le système hexadécimal",
+    "Le système binaire"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "Le système binaire ne comporte que les chiffres 0 et 1, correspondant physiquement à deux états électriques distincts. Leibniz en publie une étude formelle en 1703. George Boole développe en 1854 une algèbre logique à deux valeurs, et Claude Shannon montre en 1937 que les circuits à relais peuvent réaliser ces opérations : c'est la base théorique des ordinateurs. Un chiffre binaire s'appelle un bit ; huit bits forment un octet, capable de coder 256 valeurs différentes. L'hexadécimal, en base seize, sert de notation abrégée pratique."
+  },
+  {
+   "q": "Quelle unité de base du Système international mesure la quantité de matière ?",
+   "choix": [
+    "La mole",
+    "Le kelvin",
+    "Le kilogramme",
+    "La candela"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La mole est l'unité de quantité de matière : depuis 2019, elle contient exactement 6,022 140 76 × 10^23 entités élémentaires, un nombre appelé constante d'Avogadro. Auparavant, elle était définie par référence à douze grammes de carbone 12. Elle permet de relier l'échelle microscopique des atomes aux masses manipulables en laboratoire. Le kelvin mesure la température thermodynamique, avec un zéro absolu à −273,15 °C, et la candela l'intensité lumineuse d'une source dans une direction donnée."
+  },
+  {
+   "q": "Quel préfixe du Système international correspond à un facteur d'un milliard ?",
+   "choix": [
+    "Téra",
+    "Méga",
+    "Giga",
+    "Kilo"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le préfixe giga multiplie par 10^9, soit un milliard : un gigawatt vaut un milliard de watts. La série ascendante courante est kilo (mille), méga (un million), giga (un milliard), téra (mille milliards), péta et exa. Du côté des sous-multiples on trouve milli, micro, nano, pico et femto. Ces préfixes s'écrivent avec des symboles précis, en majuscule à partir de méga : k, M, G, T. En informatique, les préfixes binaires kibi, mébi et gibi désignent les puissances de 1024, distinctes des puissances de 1000."
+  },
+  {
+   "q": "Quelle échelle de température a son zéro au zéro absolu ?",
+   "choix": [
+    "L'échelle Celsius",
+    "L'échelle Kelvin",
+    "L'échelle Réaumur",
+    "L'échelle Fahrenheit"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "L'échelle Kelvin part du zéro absolu, température à laquelle l'agitation thermique est minimale, soit −273,15 °C. Un écart d'un kelvin équivaut à un écart d'un degré Celsius : l'eau gèle à 273,15 K et bout à 373,15 K sous pression atmosphérique normale. On écrit « kelvin » sans le mot degré. L'échelle Celsius, proposée par l'astronome suédois Anders Celsius en 1742, était initialement inversée. L'échelle Fahrenheit, encore utilisée aux États-Unis, place la congélation de l'eau à 32 degrés et son ébullition à 212."
+  },
+  {
+   "q": "Quelle sonde spatiale lancée en 1977 est devenue le premier objet humain à atteindre l'espace interstellaire ?",
+   "choix": [
+    "Pioneer 10",
+    "New Horizons",
+    "Voyager 1",
+    "Cassini"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Voyager 1, lancée le 5 septembre 1977, a survolé Jupiter en 1979 et Saturne en 1980 avant de poursuivre sa route vers l'extérieur du Système solaire. La NASA a annoncé en 2013 qu'elle avait franchi l'héliopause, frontière de la bulle de vent solaire, en août 2012. Sa jumelle Voyager 2 est la seule sonde à avoir survolé Uranus et Neptune. Chaque sonde emporte un disque de cuivre doré contenant sons et images de la Terre. C'est Voyager 1 qui prit en 1990 la photographie du « point bleu pâle »."
+  },
+  {
+   "q": "Quel télescope spatial, lancé en 1990, a fourni des images comme le « Champ profond » ?",
+   "choix": [
+    "Kepler",
+    "Spitzer",
+    "Hubble",
+    "Chandra"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le télescope spatial Hubble, fruit d'une coopération entre la NASA et l'Agence spatiale européenne, est placé en orbite basse par la navette Discovery en avril 1990. Un défaut de courbure de son miroir principal, découvert aussitôt, est corrigé lors d'une mission de service en 1993. Débarrassé de l'atmosphère, Hubble a fourni des images d'une netteté inédite et permis d'affiner la mesure de la constante de Hubble et donc l'âge de l'Univers. Les clichés dits « champs profonds » révèlent des milliers de galaxies dans une portion minuscule du ciel."
+  },
+  {
+   "q": "Quelle station spatiale internationale, assemblée à partir de 1998, est occupée en permanence depuis l'an 2000 ?",
+   "choix": [
+    "L'ISS",
+    "Skylab",
+    "Saliout 7",
+    "Mir"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "La Station spatiale internationale voit son premier module, le russe Zarya, lancé en novembre 1998. Elle est occupée sans interruption depuis novembre 2000. Elle réunit les agences américaine, russe, européenne, japonaise et canadienne, orbite à environ 400 kilomètres d'altitude et fait le tour de la Terre en 90 minutes environ. Elle a succédé à la station soviétique puis russe Mir, en service de 1986 à 2001, et à l'américaine Skylab, occupée en 1973-1974. On y mène des expériences en microgravité."
+  },
+  {
+   "q": "Quelle fusée européenne, dont le premier tir a eu lieu en 1979, est exploitée depuis Kourou en Guyane ?",
+   "choix": [
+    "Vega",
+    "Soyouz",
+    "Titan",
+    "Ariane"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le premier vol d'Ariane 1 a lieu le 24 décembre 1979 depuis le Centre spatial guyanais de Kourou. Ce site, situé à environ cinq degrés de latitude nord, bénéficie de l'effet de fronde de la rotation terrestre, maximal près de l'équateur, et de tirs au-dessus de l'océan. Le programme, porté par l'Agence spatiale européenne et le CNES, visait l'indépendance européenne d'accès à l'espace. Ariane 4 puis Ariane 5 ont assuré une part importante du marché mondial des lancements de satellites commerciaux."
+  },
+  {
+   "q": "Quel dispositif optique, développé à partir de 1960, produit un faisceau de lumière cohérente ?",
+   "choix": [
+    "Le laser",
+    "Le radar",
+    "Le prisme",
+    "Le sonar"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Theodore Maiman fait fonctionner en mai 1960 le premier laser, à rubis, aux laboratoires Hughes. Le mot est l'acronyme anglais d'« amplification de la lumière par émission stimulée de rayonnement », un phénomène prédit par Einstein dès 1917. Le faisceau produit est monochromatique, directionnel et cohérent. Les applications sont innombrables : lecture des disques optiques, chirurgie de l'œil, télémétrie, découpe industrielle, fibres optiques. Charles Townes, Nikolaï Bassov et Alexandre Prokhorov reçurent le Nobel 1964 pour les travaux sur le maser et le laser."
+  },
+  {
+   "q": "Qui a mis au point le premier stimulateur cardiaque implantable et, plus largement, quelle décennie a vu cette avancée ?",
+   "choix": [
+    "Les années 1970, avec Christiaan Barnard",
+    "Les années 1950, avec Rune Elmqvist et Åke Senning",
+    "Les années 1910, avec Willem Einthoven",
+    "Les années 1930, avec Alexis Carrel"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Le premier stimulateur cardiaque entièrement implantable est posé en octobre 1958 à Stockholm par le chirurgien Åke Senning, sur un appareil conçu par l'ingénieur Rune Elmqvist ; le patient Arne Larsson vécut plusieurs décennies avec des appareils successifs. Willem Einthoven avait mis au point l'électrocardiogramme au début du XXe siècle, ce qui lui valut le Nobel 1924. Christiaan Barnard réalisa la première transplantation cardiaque humaine en 1967 au Cap. Ces innovations illustrent la convergence entre électronique miniaturisée et médecine."
+  },
+  {
+   "q": "Quel principe physique, énoncé par Sadi Carnot en 1824, fonde la thermodynamique ?",
+   "choix": [
+    "Le rendement maximal d'une machine thermique dépend des températures des sources",
+    "La pression d'un gaz est indépendante de son volume",
+    "La chaleur passe spontanément du froid vers le chaud",
+    "L'énergie d'un système isolé augmente avec le temps"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Dans ses Réflexions sur la puissance motrice du feu, publiées en 1824, le Français Sadi Carnot montre que le rendement d'une machine thermique ne dépend que des températures de la source chaude et de la source froide, et non du fluide employé. Il définit ainsi une limite théorique infranchissable. Ses travaux, longtemps ignorés, sont repris par Clapeyron, Clausius et Kelvin, qui formulent le deuxième principe de la thermodynamique et la notion d'entropie. Le premier principe, lui, énonce la conservation de l'énergie."
+  },
+  {
+   "q": "Quel navigateur web, sorti en 1993, a largement popularisé le Web auprès du grand public ?",
+   "choix": [
+    "Internet Explorer",
+    "Opera",
+    "Safari",
+    "Mosaic"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "NCSA Mosaic, développé à l'université de l'Illinois par une équipe comprenant Marc Andreessen et Eric Bina, est diffusé en 1993. Sa force est d'afficher les images directement dans la page et d'exister sur plusieurs systèmes d'exploitation, ce qui le rend accessible aux non-spécialistes. Andreessen cofonde ensuite Netscape, dont le navigateur domine le milieu des années 1990 avant la « guerre des navigateurs » contre Internet Explorer de Microsoft. Le tout premier navigateur, WorldWideWeb, avait été écrit par Tim Berners-Lee lui-même en 1990."
+  }
+ ],
+ "cours": [
+  {
+   "titre": "Les grandes inventions qui ont transformé le monde",
+   "sections": [
+    {
+     "titre": "L'imprimerie et la diffusion du savoir",
+     "texte": "Avant le milieu du XVe siècle, un livre européen est copié à la main par un scribe : sa fabrication demande des mois et coûte l'équivalent de plusieurs mois de salaire. Vers 1450, l'orfèvre de Mayence Johannes Gutenberg combine trois éléments existants pour créer un système nouveau : des caractères mobiles fondus dans un alliage de plomb, d'étain et d'antimoine, une encre grasse à base d'huile qui adhère au métal, et une presse à vis inspirée des pressoirs à vin. Chaque lettre est réutilisable, ce qui distingue son procédé de la xylographie, où l'on gravait une page entière dans une planche de bois. La Bible à 42 lignes, achevée vers 1455, en est le chef-d'œuvre. La Chine et la Corée connaissaient déjà des caractères mobiles, mais leurs milliers d'idéogrammes rendaient le procédé moins avantageux qu'avec un alphabet de vingt-six lettres. La diffusion est fulgurante : en 1500, plus de deux cents villes européennes possèdent un atelier et l'on estime à plusieurs millions le nombre d'exemplaires imprimés. On appelle « incunables » les ouvrages parus avant 1501. L'imprimerie accélère la Réforme, la diffusion des idées scientifiques et la fixation des langues nationales.",
+     "visuel": {
+      "type": "image",
+      "image": "st-presse-gutenberg",
+      "legende": "Réplique d'une presse à bras en bois : Gutenberg reprend le principe du pressoir à vin pour appliquer une pression forte et régulière sur toute la page.",
+      "alt": "Presse d'imprimerie ancienne en bois sombre, haute comme un homme, avec une grande vis centrale, un plateau mobile et des piles de feuilles blanches posées de part et d'autre."
+     }
+    },
+    {
+     "titre": "La vapeur et la révolution industrielle",
+     "texte": "La force motrice de l'homme, de l'animal, de l'eau et du vent limite longtemps la production. La machine à vapeur change cette donne. Denis Papin expérimente à la fin du XVIIe siècle le piston mû par la vapeur ; Thomas Newcomen construit en 1712 une machine atmosphérique servant à pomper l'eau des mines de charbon, très gourmande en combustible. Le tournant vient de James Watt : en 1769, il brevette un condenseur séparé, qui évite de réchauffer et refroidir le cylindre à chaque cycle. Le rendement bondit, et la machine devient rentable loin des mines. Associé à l'industriel Matthew Boulton, Watt équipe filatures, brasseries et forges à partir des années 1770. La vapeur gagne ensuite les transports : George Stephenson met en service en 1825 la ligne Stockton-Darlington, puis sa locomotive Rocket s'impose en 1829 ; les navires à vapeur traversent l'Atlantique dès les années 1830. Le charbon, l'acier et le rail forment le trépied de la première révolution industrielle, qui bouleverse la géographie économique de la Grande-Bretagne puis du continent. Le watt, unité de puissance du Système international, rappelle le rôle de l'ingénieur écossais.",
+     "visuel": {
+      "type": "frise",
+      "titre": "De la pompe de mine à la locomotive",
+      "evenements": [
+       {
+        "date": "fin du XVIIe s.",
+        "label": "Denis Papin",
+        "texte": "Il expérimente le piston mû par la vapeur."
+       },
+       {
+        "date": "1712",
+        "label": "Thomas Newcomen",
+        "texte": "Machine atmosphérique pour pomper l'eau des mines de charbon, très gourmande en combustible."
+       },
+       {
+        "date": "1769",
+        "label": "James Watt",
+        "texte": "Brevet du condenseur séparé : le rendement bondit, la machine devient rentable loin des mines."
+       },
+       {
+        "date": "années 1770",
+        "label": "Boulton et Watt",
+        "texte": "Filatures, brasseries et forges s'équipent."
+       },
+       {
+        "date": "1825",
+        "label": "Stockton-Darlington",
+        "texte": "Stephenson met la vapeur sur rails."
+       },
+       {
+        "date": "1829",
+        "label": "La Rocket",
+        "texte": "La locomotive de Stephenson s'impose."
+       },
+       {
+        "date": "années 1830",
+        "label": "L'Atlantique à la vapeur",
+        "texte": "Les navires à vapeur traversent l'océan."
+       }
+      ]
+     }
+    },
+    {
+     "titre": "L'électricité, de l'expérience à l'usage quotidien",
+     "texte": "L'électricité passe du cabinet de curiosités à l'industrie en un siècle. Alessandro Volta invente en 1800 la pile, première source de courant continu ; Hans Christian Ørsted découvre en 1820 le lien entre courant et magnétisme, aussitôt formalisé par André-Marie Ampère. En 1831, Michael Faraday établit l'induction électromagnétique, principe de la dynamo et de l'alternateur : on sait désormais produire du courant à partir d'un mouvement. James Clerk Maxwell unifie en 1864 électricité, magnétisme et lumière dans un ensemble d'équations. Restait à distribuer cette énergie. Thomas Edison présente fin 1879 une lampe à incandescence durable et conçoit surtout un système complet : centrale, réseau, compteurs. Sa centrale de Pearl Street éclaire un quartier de New York dès 1882. Mais son courant continu se transporte mal. La « guerre des courants » l'oppose à Nikola Tesla et George Westinghouse, partisans du courant alternatif : grâce au transformateur, on élève la tension pour limiter les pertes en ligne, puis on l'abaisse chez l'usager. L'alternatif l'emporte, consacré par l'Exposition de Chicago en 1893 et la centrale du Niagara en 1895. L'électricité fait entrer les villes dans une nouvelle temporalité, où la nuit cesse d'interrompre l'activité.",
+     "visuel": {
+      "type": "frise",
+      "titre": "De la pile au réseau électrique",
+      "evenements": [
+       {
+        "date": "1800",
+        "label": "Volta",
+        "texte": "La pile, première source de courant continu."
+       },
+       {
+        "date": "1820",
+        "label": "Ørsted",
+        "texte": "Le lien entre courant et magnétisme, aussitôt formalisé par Ampère."
+       },
+       {
+        "date": "1831",
+        "label": "Faraday",
+        "texte": "L'induction électromagnétique : on sait produire du courant à partir d'un mouvement."
+       },
+       {
+        "date": "1864",
+        "label": "Maxwell",
+        "texte": "Électricité, magnétisme et lumière unifiés dans un ensemble d'équations."
+       },
+       {
+        "date": "fin 1879",
+        "label": "Edison",
+        "texte": "Une lampe à incandescence durable, et surtout un système complet : centrale, réseau, compteurs."
+       },
+       {
+        "date": "1882",
+        "label": "Pearl Street",
+        "texte": "Sa centrale éclaire un quartier de New York, mais son courant continu se transporte mal."
+       },
+       {
+        "date": "1893-1895",
+        "label": "L'alternatif l'emporte",
+        "texte": "Exposition de Chicago puis centrale du Niagara : le transformateur permet d'élever la tension et de limiter les pertes en ligne."
+       }
+      ]
+     }
+    },
+    {
+     "titre": "Communiquer à distance : du télégraphe à la radio",
+     "texte": "La transmission rapide de l'information suit de près la maîtrise de l'électricité. Samuel Morse met au point dans les années 1830 un télégraphe électrique et un code de points et de traits ; la première ligne américaine relie Washington à Baltimore en 1844. Les câbles sous-marins suivent : après plusieurs échecs, une liaison transatlantique durable est établie en 1866, réduisant à quelques minutes un échange qui demandait des semaines par bateau. En 1876, Alexander Graham Bell dépose le brevet du téléphone, quelques heures avant son concurrent Elisha Gray ; l'Italien Antonio Meucci avait présenté un appareil comparable dès 1860, antériorité reconnue par le Congrès américain en 2002. Vient ensuite la transmission sans fil. Heinrich Hertz démontre expérimentalement en 1887 l'existence des ondes électromagnétiques prédites par Maxwell ; Édouard Branly perfectionne le détecteur appelé cohéreur ; Guglielmo Marconi assemble ces éléments et annonce en décembre 1901 la réception d'un signal à travers l'Atlantique. La radio prouve son utilité dramatique lors du naufrage du Titanic en 1912. Le XXe siècle enchaîne ensuite radiodiffusion, télévision et télécommunications, qui font de la distance un obstacle secondaire."
+    },
+    {
+     "titre": "Se déplacer autrement : automobile et aviation",
+     "texte": "Le moteur à combustion interne libère le transport du rail et du charbon. Nikolaus Otto met au point en 1876 le cycle à quatre temps — admission, compression, combustion, échappement — qui reste la base des moteurs à essence. Karl Benz brevette en janvier 1886 un tricycle motorisé considéré comme la première automobile ; le trajet de plus de cent kilomètres accompli en 1888 par son épouse Bertha en démontre la fiabilité. Rudolf Diesel dépose en 1892 le brevet d'un moteur à allumage par compression, au rendement supérieur, qui s'imposera dans les poids lourds et les navires. La production de masse arrive avec Henry Ford, dont la chaîne de montage mobile, introduite en 1913, fait chuter le temps d'assemblage de la Ford T et son prix de vente. Dans les airs, après les ballons des frères Montgolfier en 1783, la clé n'est pas seulement le moteur mais le contrôle : Orville et Wilbur Wright, grâce au gauchissement des ailes, réalisent le 17 décembre 1903 à Kitty Hawk le premier vol motorisé contrôlé, de douze secondes. Louis Blériot traverse la Manche en 1909, et l'aviation, stimulée par les deux guerres mondiales, devient en un demi-siècle un transport de masse."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Quel élément clé James Watt a-t-il ajouté à la machine à vapeur en 1769 ?",
+     "choix": [
+      "Un piston en acier",
+      "Un régulateur électronique",
+      "Une chaudière à haute pression",
+      "Un condenseur séparé"
+     ],
+     "bonne": 3,
+     "difficulte": 2,
+     "explication": "Le condenseur séparé permet de condenser la vapeur hors du cylindre, qui reste ainsi chaud en permanence. Le gain de rendement est considérable par rapport à la machine atmosphérique de Newcomen de 1712. Watt s'associe à Matthew Boulton pour équiper l'industrie britannique. Il invente également le régulateur à boules et un mécanisme de transformation du mouvement alternatif en rotation. L'unité de puissance du Système international porte son nom."
+    },
+    {
+     "q": "Comment appelle-t-on les livres imprimés en Europe avant 1501 ?",
+     "choix": [
+      "Des codex",
+      "Des manuscrits",
+      "Des incunables",
+      "Des in-folios"
+     ],
+     "bonne": 2,
+     "difficulte": 3,
+     "explication": "Le mot incunable vient du latin incunabula, le berceau : il désigne les ouvrages issus des tout premiers temps de l'imprimerie, entre 1450 et la fin de l'année 1500. On en recense environ 30 000 éditions différentes. Le codex désigne la forme du livre à cahiers reliés, qui remplace le rouleau dès l'Antiquité tardive. L'in-folio, lui, renvoie à un format de pliage de la feuille, non à une époque."
+    },
+    {
+     "q": "Quel avantage décisif du courant alternatif a permis sa victoire sur le courant continu ?",
+     "choix": [
+      "Le transport à haute tension grâce aux transformateurs",
+      "Une production moins coûteuse",
+      "Une plus grande sécurité pour les usagers",
+      "La possibilité de le stocker facilement"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Le transformateur permet d'élever la tension pour le transport sur de longues distances, ce qui réduit fortement les pertes par effet Joule dans les lignes, puis de l'abaisser près des consommateurs. Le courant continu d'Edison imposait au contraire une centrale tous les quelques kilomètres. La centrale des chutes du Niagara, mise en service en 1895, symbolise la victoire du système défendu par Tesla et Westinghouse. Le stockage, lui, reste bien plus simple en courant continu, dans des batteries."
+    },
+    {
+     "q": "Quelle innovation des frères Wright a rendu possible le vol contrôlé de 1903 ?",
+     "choix": [
+      "Le gauchissement des ailes",
+      "L'hélice à pas variable",
+      "Le moteur à réaction",
+      "Le train d'atterrissage rétractable"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Le gauchissement, qui consiste à déformer l'extrémité des ailes par des câbles, permet de contrôler le roulis et donc de virer sans perdre le contrôle. Combiné à un gouvernail de direction et à un gouvernail de profondeur, il donne la maîtrise des trois axes. Les Wright avaient testé leurs profils dans une soufflerie artisanale et pratiqué le vol plané pendant plusieurs années. Le moteur à réaction n'apparaît qu'à la fin des années 1930."
+    },
+    {
+     "q": "Quelle méthode de production Henry Ford a-t-il généralisée à partir de 1913 ?",
+     "choix": [
+      "La chaîne de montage mobile",
+      "La sous-traitance intégrale",
+      "La production à la commande",
+      "L'assemblage robotisé"
+     ],
+     "bonne": 0,
+     "difficulte": 1,
+     "explication": "La chaîne de montage mobile fait défiler le châssis devant des ouvriers spécialisés dans un geste unique, au lieu de faire circuler les ouvriers autour d'un véhicule immobile. Le temps d'assemblage de la Ford T passe de plusieurs heures à quelques dizaines de minutes et son prix chute fortement. Ford double parallèlement les salaires en 1914, à cinq dollars par jour, pour limiter la rotation du personnel. Ce modèle est appelé fordisme."
+    }
+   ]
+  },
+  {
+   "titre": "De la Pascaline à Internet : histoire de l'informatique",
+   "sections": [
+    {
+     "titre": "Calculer mécaniquement, du XVIIe au XIXe siècle",
+     "texte": "L'idée d'automatiser le calcul est ancienne. Vers 1642, Blaise Pascal, âgé de dix-neuf ans, construit pour aider son père collecteur d'impôts une machine à roues dentées, la Pascaline, capable d'additionner et de soustraire avec retenue automatique. Leibniz la perfectionne en 1673 avec un cylindre cannelé qui rend possibles multiplications et divisions ; il publie par ailleurs en 1703 une étude du système binaire. Un autre fil part du textile : Joseph-Marie Jacquard présente en 1801 un métier à tisser dont le motif est commandé par une chaîne de cartes perforées. Charles Babbage réunit les deux idées. Après une machine à différences destinée au calcul de tables, il conçoit à partir de 1834 la machine analytique, dotée d'une unité de calcul, d'une mémoire, d'une entrée par cartes et d'instructions conditionnelles : c'est l'architecture d'un ordinateur, un siècle avant l'électronique. Faute de crédits et de mécanique assez précise, elle ne fut jamais achevée. Ada Lovelace rédige en 1843 des notes contenant un algorithme destiné à cette machine et pressent qu'elle pourrait manipuler autre chose que des nombres. À la fin du siècle, Herman Hollerith applique les cartes perforées au recensement américain de 1890 ; son entreprise deviendra IBM.",
+     "visuels": [
+      {
+       "type": "image",
+       "image": "st-pascaline",
+       "legende": "La Pascaline, machine à roues dentées construite vers 1642 par Blaise Pascal, âgé de dix-neuf ans, pour aider son père collecteur d'impôts : elle additionne et soustrait avec retenue automatique.",
+       "alt": "Boîtier de laiton allongé posé de trois quarts, dont le dessus porte une rangée de six roues dentées numérotées et de petites fenêtres d'affichage."
+      },
+      {
+       "type": "image",
+       "image": "st-ada-lovelace",
+       "legende": "Ada Lovelace, qui rédige en 1843 des notes contenant un algorithme destiné à la machine analytique de Babbage et pressent qu'elle pourrait manipuler autre chose que des nombres.",
+       "alt": "Portrait peint à l'aquarelle d'une femme du XIXe siècle en robe de bal violette et bleue, cheveux noirs relevés ornés de fleurs, tenant un éventail."
+      }
+     ]
+    },
+    {
+     "titre": "Les fondations théoriques et les premiers ordinateurs",
+     "texte": "Le XXe siècle apporte d'abord la théorie. George Boole avait publié en 1854 une algèbre logique à deux valeurs ; Claude Shannon montre en 1937 que des circuits à relais réalisent exactement ces opérations, puis fonde en 1948 la théorie de l'information et la notion de bit. En 1936, Alan Turing décrit une machine abstraite lisant et écrivant des symboles sur un ruban selon des règles : elle définit ce qui est calculable et démontre l'existence de problèmes indécidables. Pendant la Seconde Guerre mondiale, Turing participe à Bletchley Park au décryptage des messages allemands chiffrés par Enigma. Les machines physiques suivent : Konrad Zuse construit en Allemagne le Z3 électromécanique en 1941, les Britanniques font fonctionner Colossus dès 1943 pour la cryptanalyse, et l'ENIAC américain est dévoilé en 1946 avec ses 18 000 tubes à vide et ses trente tonnes. En 1945, John von Neumann formalise dans un rapport l'architecture qui portera son nom : programme et données stockés dans la même mémoire, exécutés par une unité centrale. Cette organisation, encore dominante aujourd'hui, met fin à la programmation par recâblage physique."
+    },
+    {
+     "titre": "Miniaturisation : transistor, circuit intégré et microprocesseur",
+     "texte": "Les tubes à vide sont volumineux, fragiles et consomment énormément. En décembre 1947, John Bardeen, Walter Brattain et William Shockley font fonctionner aux laboratoires Bell le premier transistor, un composant semi-conducteur capable d'amplifier ou de commuter un signal ; ils reçoivent le prix Nobel de physique en 1956. Le silicium supplante rapidement le germanium. L'étape suivante consiste à graver plusieurs composants et leurs connexions sur une même plaquette : Jack Kilby chez Texas Instruments en 1958, puis Robert Noyce chez Fairchild en 1959, mettent au point le circuit intégré. En 1965, Gordon Moore observe que le nombre de composants par puce double à intervalle régulier ; cette prévision empirique, révisée en 1975 à un doublement tous les deux ans, devient la feuille de route de l'industrie. Intel, fondée en 1968 par Moore et Noyce, commercialise en 1971 le 4004, premier microprocesseur du marché, qui rassemble une unité centrale complète sur une puce. La conséquence est économique autant que technique : l'ordinateur cesse d'être un équipement de laboratoire ou de grande entreprise et devient un produit accessible, ouvrant la voie à la micro-informatique des années 1970 et 1980."
+    },
+    {
+     "titre": "Des réseaux à Internet",
+     "texte": "Relier les ordinateurs entre eux suppose une idée nouvelle : la commutation par paquets, théorisée dans les années 1960 par Paul Baran et Donald Davies. Au lieu d'ouvrir une ligne dédiée comme au téléphone, on découpe le message en petits blocs qui circulent indépendamment et sont réassemblés à l'arrivée ; le réseau reste utilisable même si une liaison disparaît. En 1969, ARPANET, financé par l'agence de recherche du département américain de la Défense, relie ses quatre premiers nœuds universitaires. Le courrier électronique apparaît dès 1971 avec l'arobase choisie par Ray Tomlinson pour séparer l'utilisateur de la machine. En 1974, Vinton Cerf et Robert Kahn publient les principes de TCP/IP, un couple de protocoles permettant à des réseaux hétérogènes de communiquer : c'est l'idée même d'inter-réseau. Le basculement d'ARPANET sur TCP/IP, le 1er janvier 1983, sert souvent de date de naissance technique à Internet. Le système de noms de domaine, créé la même année, remplace les adresses numériques par des noms lisibles. Internet reste alors un outil académique et militaire, sans interface grand public.",
+     "visuel": {
+      "type": "etapes",
+      "titre": "La commutation par paquets, l'idée qui fait tenir un réseau",
+      "etapes": [
+       {
+        "label": "Découper",
+        "texte": "Au lieu d'ouvrir une ligne dédiée comme au téléphone, on découpe le message en petits blocs."
+       },
+       {
+        "label": "Faire circuler indépendamment",
+        "texte": "Chaque paquet trouve sa route de son côté ; le réseau reste utilisable même si une liaison disparaît."
+       },
+       {
+        "label": "Réassembler",
+        "texte": "À l'arrivée, les paquets sont remis dans l'ordre pour reformer le message."
+       },
+       {
+        "label": "Faire dialoguer des réseaux différents",
+        "texte": "En 1974, Cerf et Kahn publient TCP/IP : c'est l'idée même d'inter-réseau."
+       },
+       {
+        "label": "1er janvier 1983",
+        "texte": "Le basculement d'ARPANET sur TCP/IP sert souvent de date de naissance technique à Internet."
+       }
+      ]
+     }
+    },
+    {
+     "titre": "Le Web et l'informatique personnelle",
+     "texte": "En parallèle, l'ordinateur entre chez les particuliers. L'Altair 8800 en 1975, l'Apple II en 1977 puis l'IBM PC en 1981 diffusent la micro-informatique ; l'interface graphique à fenêtres, souris et icônes, expérimentée au centre de recherche Xerox PARC, est popularisée par le Macintosh en 1984 puis par Windows. Reste à rendre l'information du réseau accessible. En mars 1989, l'informaticien britannique Tim Berners-Lee, en poste au CERN près de Genève, propose un système de documents reliés par des hyperliens. Avec Robert Cailliau, il définit trois briques : le langage HTML pour décrire les pages, le protocole HTTP pour les transmettre et les adresses URL pour les désigner. Le premier site est mis en ligne en 1991 et le CERN verse la technologie dans le domaine public en 1993. La même année, le navigateur Mosaic affiche les images dans la page et rend le Web utilisable par tous ; Netscape puis Internet Explorer prennent le relais. Il faut retenir la distinction : Internet est le réseau, le Web n'est que l'un des services qu'il transporte, aux côtés du courrier électronique ou du transfert de fichiers.",
+     "visuel": {
+      "type": "comparaison",
+      "titre": "Internet n'est pas le Web",
+      "colonnes": [
+       {
+        "titre": "Internet, le réseau",
+        "points": [
+         "L'infrastructure qui relie les machines, née d'ARPANET en 1969",
+         "Repose sur la commutation par paquets et les protocoles TCP/IP",
+         "Transporte plusieurs services : le courrier électronique, le transfert de fichiers, le Web…"
+        ]
+       },
+       {
+        "titre": "Le Web, un service parmi d'autres",
+        "points": [
+         "Proposé en mars 1989 par Tim Berners-Lee, au CERN, avec Robert Cailliau",
+         "Trois briques : HTML pour décrire les pages, HTTP pour les transmettre, les URL pour les désigner",
+         "Premier site en 1991 ; le CERN verse la technologie dans le domaine public en 1993",
+         "Le navigateur Mosaic, la même année, affiche les images dans la page et le rend utilisable par tous"
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Quelle machine Charles Babbage a-t-il conçue à partir de 1834 sans jamais l'achever ?",
+     "choix": [
+      "La machine de Turing",
+      "L'ENIAC",
+      "La Pascaline",
+      "La machine analytique"
+     ],
+     "bonne": 3,
+     "difficulte": 2,
+     "explication": "La machine analytique comportait une unité de calcul, une mémoire, une entrée par cartes perforées et des instructions conditionnelles : c'est conceptuellement un ordinateur programmable. Le manque de financements et les limites de la mécanique de précision du XIXe siècle empêchèrent sa construction. Ada Lovelace en rédigea en 1843 des notes contenant un algorithme et entrevit des usages non numériques. La Pascaline, elle, ne faisait qu'additionner et soustraire."
+    },
+    {
+     "q": "Qu'apporte l'architecture dite de von Neumann, formalisée en 1945 ?",
+     "choix": [
+      "Le stockage du programme et des données dans la même mémoire",
+      "La connexion des ordinateurs en réseau",
+      "L'usage du courant alternatif dans les circuits",
+      "Le remplacement des tubes par des transistors"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "Dans cette architecture, le programme est enregistré en mémoire au même titre que les données, et exécuté séquentiellement par une unité centrale. Cela met fin à la programmation par recâblage, qui pouvait occuper des jours sur l'ENIAC. Le modèle comprend mémoire, unité arithmétique et logique, unité de commande et organes d'entrée-sortie. Il reste dominant, malgré le goulet d'étranglement entre processeur et mémoire qui porte aussi le nom de von Neumann."
+    },
+    {
+     "q": "Quel principe permet aux messages de circuler sur Internet en blocs indépendants ?",
+     "choix": [
+      "La commutation de circuits",
+      "La compression sans perte",
+      "La commutation par paquets",
+      "Le multiplexage optique"
+     ],
+     "bonne": 2,
+     "difficulte": 2,
+     "explication": "La commutation par paquets découpe un message en blocs qui empruntent chacun le chemin disponible et sont réassemblés à l'arrivée. Elle rend le réseau robuste : la perte d'une liaison n'interrompt pas la communication, contrairement à la commutation de circuits du téléphone classique, qui réserve une ligne pendant toute la conversation. Paul Baran et Donald Davies en posent les bases dans les années 1960, et ARPANET l'applique dès 1969."
+    },
+    {
+     "q": "Quelle est la différence entre Internet et le World Wide Web ?",
+     "choix": [
+      "Le Web est le réseau physique, Internet le logiciel",
+      "Ce sont deux noms du même système",
+      "Internet est le réseau, le Web l'un des services qu'il transporte",
+      "Internet est réservé aux entreprises, le Web au grand public"
+     ],
+     "bonne": 2,
+     "difficulte": 2,
+     "explication": "Internet désigne l'interconnexion mondiale de réseaux fondée sur les protocoles TCP/IP, opérationnelle depuis 1983. Le Web, imaginé par Tim Berners-Lee en 1989 et ouvert au public au début des années 1990, est un service applicatif reposant sur HTML, HTTP et les URL. D'autres services circulent sur Internet indépendamment du Web, comme le courrier électronique, apparu dès 1971, ou le transfert de fichiers."
+    },
+    {
+     "q": "Que constate la loi de Moore, énoncée en 1965 ?",
+     "choix": [
+      "Le doublement annuel du nombre d'ordinateurs vendus",
+      "Le doublement régulier du nombre de transistors par puce",
+      "L'augmentation constante de la taille des mémoires magnétiques",
+      "La division par deux du prix de l'électricité"
+     ],
+     "bonne": 1,
+     "difficulte": 2,
+     "explication": "Gordon Moore observe en 1965 que le nombre de composants intégrés par puce double à intervalle régulier, prévision qu'il révise en 1975 à un doublement tous les deux ans. Ce n'est pas une loi physique mais une observation empirique devenue objectif industriel. Elle a rythmé la miniaturisation pendant des décennies avant de ralentir face aux limites de la gravure. Moore cofonde Intel en 1968 avec Robert Noyce."
+    }
+   ]
+  },
+  {
+   "titre": "Mesurer et compter : unités, nombres et grandes idées mathématiques",
+   "sections": [
+    {
+     "titre": "Compter : de l'entaille au zéro",
+     "texte": "Les plus anciennes traces de comptage sont des os entaillés vieux de plusieurs dizaines de milliers d'années. Les grandes civilisations développent ensuite des systèmes écrits. Les Babyloniens utilisent une base soixante, dont nous avons hérité les soixante minutes de l'heure, les soixante secondes de la minute et les trois cent soixante degrés du cercle. Les Égyptiens emploient des hiéroglyphes additifs, les Romains des lettres combinées par addition et soustraction : ce système, commode pour noter, est très malcommode pour calculer, d'où l'usage prolongé de l'abaque. Le progrès décisif vient d'Inde : dix symboles, une notation de position où la place du chiffre indique sa valeur, et surtout un zéro traité comme un nombre à part entière, dont Brahmagupta énonce au VIIe siècle les règles de calcul. Les savants du monde musulman transmettent et enrichissent ce savoir ; Al-Khwarizmi, au IXe siècle, laisse son nom au mot « algorithme » et le titre de son traité au mot « algèbre ». Leonardo Fibonacci popularise ces chiffres en Europe avec le Liber abaci en 1202, mais leur adoption complète prendra encore plusieurs siècles, l'imprimerie jouant un rôle dans leur normalisation.",
+     "visuel": {
+      "type": "frise",
+      "titre": "Du bâton entaillé au zéro indien",
+      "evenements": [
+       {
+        "date": "Préhistoire",
+        "label": "Os entaillés",
+        "texte": "Les plus anciennes traces de comptage, vieilles de plusieurs dizaines de milliers d'années."
+       },
+       {
+        "date": "Babylone",
+        "label": "La base soixante",
+        "texte": "Nous en avons hérité les soixante minutes, les soixante secondes et les trois cent soixante degrés du cercle."
+       },
+       {
+        "date": "Rome",
+        "label": "Des lettres combinées",
+        "texte": "Commode pour noter, très malcommode pour calculer, d'où l'usage prolongé de l'abaque."
+       },
+       {
+        "date": "VIIe siècle",
+        "label": "Brahmagupta",
+        "texte": "Dix symboles, une notation de position, et un zéro traité comme un nombre à part entière."
+       },
+       {
+        "date": "IXe siècle",
+        "label": "Al-Khwarizmi",
+        "texte": "Son nom donne le mot algorithme, le titre de son traité le mot algèbre."
+       },
+       {
+        "date": "1202",
+        "label": "Le Liber abaci",
+        "texte": "Fibonacci popularise ces chiffres en Europe ; leur adoption complète prendra encore plusieurs siècles."
+       }
+      ]
+     }
+    },
+    {
+     "titre": "La géométrie grecque et la démonstration",
+     "texte": "L'apport décisif des Grecs n'est pas tel ou tel résultat, souvent connu avant eux, mais l'idée de démonstration : établir une vérité par déduction logique à partir de principes admis. Thalès, au VIe siècle avant notre ère, énonce des propriétés sur les droites parallèles et les triangles semblables. Pythagore et son école formulent le théorème reliant les côtés d'un triangle rectangle, déjà utilisé par les Babyloniens sous forme de triplets comme 3, 4, 5, et découvrent l'existence de grandeurs incommensurables, autrement dit de nombres irrationnels comme la racine carrée de deux. Vers 300 avant notre ère, Euclide rassemble à Alexandrie l'ensemble de ces connaissances dans les treize livres des Éléments, construits sur des définitions, des axiomes et des postulats : c'est le modèle de la méthode axiomatique, enseigné pendant plus de deux millénaires. On y trouve la preuve de l'infinité des nombres premiers. Archimède, au IIIe siècle avant notre ère, calcule des aires et des volumes par la méthode d'exhaustion, anticipant le calcul intégral, encadre le nombre pi à l'aide de polygones et énonce le principe de la poussée sur les corps immergés."
+    },
+    {
+     "titre": "Nombres célèbres et problèmes fameux",
+     "texte": "Certains nombres traversent toute l'histoire des mathématiques. Pi, rapport de la circonférence d'un cercle à son diamètre, vaut environ 3,14159 ; Lambert démontre son irrationalité en 1761 et Lindemann sa transcendance en 1882, ce qui prouve l'impossibilité de la quadrature du cercle à la règle et au compas. Le nombre e, base des logarithmes naturels, vaut environ 2,71828 et gouverne les phénomènes de croissance continue. Le nombre d'or, environ 1,618, apparaît dans la division d'un segment en extrême et moyenne raison et dans la suite de Fibonacci. Les nombres premiers, divisibles seulement par 1 et par eux-mêmes, sont en nombre infini selon Euclide et fondent aujourd'hui la cryptographie à clé publique. Les grands problèmes ouverts ont stimulé la discipline : le dernier théorème de Fermat, noté en marge vers 1637, a résisté jusqu'à la démonstration d'Andrew Wiles en 1994-1995 ; la conjecture de Goldbach et l'hypothèse de Riemann demeurent non résolues. En 1900, David Hilbert énonça vingt-trois problèmes qui orientèrent la recherche du XXe siècle, avant que Kurt Gödel ne montre en 1931 les limites internes de tout système axiomatique.",
+     "visuel": {
+      "type": "tableau",
+      "titre": "Trois nombres célèbres",
+      "colonnes": [
+       "Nombre",
+       "Valeur approchée",
+       "Ce qu'il est"
+      ],
+      "lignes": [
+       [
+        "Pi",
+        "3,14159",
+        "Le rapport de la circonférence d'un cercle à son diamètre ; Lambert en démontre l'irrationalité en 1761, Lindemann la transcendance en 1882, ce qui rend la quadrature du cercle impossible à la règle et au compas"
+       ],
+       [
+        "e",
+        "2,71828",
+        "La base des logarithmes naturels, qui gouverne les phénomènes de croissance continue"
+       ],
+       [
+        "Nombre d'or",
+        "1,618",
+        "La division d'un segment en extrême et moyenne raison ; il apparaît dans la suite de Fibonacci"
+       ]
+      ]
+     }
+    },
+    {
+     "titre": "Naissance du système métrique",
+     "texte": "Sous l'Ancien Régime, les unités varient d'une province à l'autre et parfois d'une corporation à l'autre : la même toise ou le même boisseau ne recouvrent pas les mêmes quantités, ce qui complique le commerce et facilite la fraude. La Révolution française entreprend d'y mettre fin par un système universel, décimal, fondé non sur un corps humain ou une coutume mais sur la nature. L'Assemblée constituante décide en 1791 de définir le mètre comme la dix-millionième partie du quart du méridien terrestre passant par Paris. Les astronomes Jean-Baptiste Delambre et Pierre Méchain mesurent par triangulation l'arc entre Dunkerque et Barcelone de 1792 à 1799, au milieu des troubles révolutionnaires. Un étalon de platine, le mètre des Archives, est déposé en 1799. Le kilogramme est défini comme la masse d'un décimètre cube d'eau, et les préfixes décimaux — kilo, hecto, déca, déci, centi, milli — permettent de passer d'un ordre de grandeur à l'autre sans conversion compliquée. La Convention du Mètre, signée à Paris en 1875 par dix-sept États, crée le Bureau international des poids et mesures à Sèvres et donne au système une gouvernance internationale durable.",
+     "visuel": {
+      "type": "etapes",
+      "titre": "Comment on a fabriqué le mètre",
+      "etapes": [
+       {
+        "label": "Le désordre des unités",
+        "texte": "Sous l'Ancien Régime, la même toise ou le même boisseau changent d'une province, parfois d'une corporation, à l'autre."
+       },
+       {
+        "label": "1791 : une définition prise dans la nature",
+        "texte": "Le mètre sera la dix-millionième partie du quart du méridien terrestre passant par Paris."
+       },
+       {
+        "label": "1792-1799 : la mesure",
+        "texte": "Delambre et Méchain triangulent l'arc entre Dunkerque et Barcelone, au milieu des troubles révolutionnaires."
+       },
+       {
+        "label": "1799 : l'étalon",
+        "texte": "Le mètre des Archives, en platine, est déposé ; le kilogramme est la masse d'un décimètre cube d'eau."
+       },
+       {
+        "label": "1875 : la Convention du Mètre",
+        "texte": "Dix-sept États créent à Sèvres le Bureau international des poids et mesures."
+       }
+      ],
+      "note": "Les préfixes décimaux (kilo, hecto, déca, déci, centi, milli) permettent de changer d'ordre de grandeur sans conversion compliquée."
+     }
+    },
+    {
+     "titre": "Le Système international aujourd'hui",
+     "texte": "Adopté en 1960, le Système international d'unités repose sur sept unités de base : le mètre pour la longueur, le kilogramme pour la masse, la seconde pour le temps, l'ampère pour l'intensité électrique, le kelvin pour la température thermodynamique, la mole pour la quantité de matière et la candela pour l'intensité lumineuse. Toutes les autres unités en dérivent par combinaison : le newton est un kilogramme-mètre par seconde au carré, le joule un newton-mètre, le watt un joule par seconde, le pascal un newton par mètre carré. La tendance historique est le remplacement des étalons matériels par des définitions fondées sur des constantes de la nature, reproductibles partout et stables dans le temps. Depuis 1967, la seconde est définie par une transition de l'atome de césium 133 ; depuis 1983, le mètre est la distance parcourue par la lumière dans le vide en 1/299 792 458 de seconde, ce qui fixe la vitesse de la lumière par convention. La révision entrée en vigueur le 20 mai 2019 a achevé ce mouvement : le prototype international du kilogramme, cylindre de platine iridié conservé à Sèvres depuis 1889, a cédé la place à une définition fondée sur la constante de Planck.",
+     "visuel": {
+      "type": "tableau",
+      "titre": "Les sept unités de base du Système international",
+      "colonnes": [
+       "Grandeur",
+       "Unité"
+      ],
+      "lignes": [
+       [
+        "Longueur",
+        "le mètre"
+       ],
+       [
+        "Masse",
+        "le kilogramme"
+       ],
+       [
+        "Temps",
+        "la seconde"
+       ],
+       [
+        "Intensité électrique",
+        "l'ampère"
+       ],
+       [
+        "Température thermodynamique",
+        "le kelvin"
+       ],
+       [
+        "Quantité de matière",
+        "la mole"
+       ],
+       [
+        "Intensité lumineuse",
+        "la candela"
+       ]
+      ],
+      "note": "Toutes les autres unités en dérivent : le newton est un kilogramme-mètre par seconde au carré, le joule un newton-mètre, le watt un joule par seconde. Les étalons matériels cèdent la place à des constantes de la nature : la seconde depuis 1967, le mètre depuis 1983, et le kilogramme depuis le 20 mai 2019, fondé sur la constante de Planck."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": "D'où proviennent les chiffres dits « arabes » que nous utilisons ?",
+     "choix": [
+      "D'Égypte, transmis par Byzance",
+      "De Grèce, transmis par Rome",
+      "De Chine, transmis par la route de la soie",
+      "D'Inde, transmis par le monde musulman"
+     ],
+     "bonne": 3,
+     "difficulte": 2,
+     "explication": "Le système décimal de position avec zéro est élaboré en Inde, où Brahmagupta énonce au VIIe siècle les règles de calcul du zéro. Les savants du monde musulman, notamment Al-Khwarizmi au IXe siècle, le transmettent et l'enrichissent, d'où le nom de chiffres arabes en Europe. Fibonacci le popularise avec le Liber abaci en 1202. Sa supériorité sur la numération romaine tient à la valeur positionnelle, qui rend les opérations écrites possibles."
+    },
+    {
+     "q": "Quel ouvrage grec, rédigé vers 300 avant notre ère, sert de modèle à la méthode axiomatique ?",
+     "choix": [
+      "La Physique d'Aristote",
+      "Les Coniques d'Apollonios",
+      "Les Éléments d'Euclide",
+      "L'Almageste de Ptolémée"
+     ],
+     "bonne": 2,
+     "difficulte": 2,
+     "explication": "Les treize livres des Éléments organisent la géométrie et l'arithmétique grecques à partir de définitions, d'axiomes et de postulats dont sont déduites les propositions. L'ouvrage contient la démonstration de l'infinité des nombres premiers et l'algorithme du plus grand commun diviseur. Le cinquième postulat, dit des parallèles, fut longtemps contesté et donna naissance au XIXe siècle aux géométries non euclidiennes de Lobatchevski, Bolyai et Riemann."
+    },
+    {
+     "q": "Quelle propriété du nombre pi, démontrée en 1882, rend impossible la quadrature du cercle ?",
+     "choix": [
+      "Sa divisibilité par 3",
+      "Sa périodicité décimale",
+      "Sa parité",
+      "Sa transcendance"
+     ],
+     "bonne": 3,
+     "difficulte": 3,
+     "explication": "Ferdinand von Lindemann démontre en 1882 que pi est transcendant, c'est-à-dire qu'il n'est racine d'aucune équation polynomiale à coefficients entiers. Or les constructions à la règle et au compas ne produisent que des nombres algébriques d'un certain type : construire un carré de même aire qu'un cercle donné est donc impossible. Lambert avait auparavant prouvé en 1761 l'irrationalité de pi, propriété plus faible que la transcendance."
+    },
+    {
+     "q": "Sur quelle grandeur le mètre a-t-il été défini en 1791 ?",
+     "choix": [
+      "Le quart du méridien terrestre",
+      "La coudée royale égyptienne",
+      "La longueur d'un pendule battant la seconde",
+      "Le rayon de l'équateur"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Le mètre fut défini comme la dix-millionième partie du quart du méridien terrestre passant par Paris. Delambre et Méchain mesurèrent par triangulation l'arc Dunkerque-Barcelone entre 1792 et 1799 pour en établir la valeur. L'hypothèse concurrente du pendule battant la seconde fut écartée car sa longueur varie avec la latitude. La définition actuelle, adoptée en 1983, repose sur la vitesse de la lumière dans le vide."
+    },
+    {
+     "q": "Qu'est-ce qui a changé pour le kilogramme le 20 mai 2019 ?",
+     "choix": [
+      "Il est défini à partir de la constante de Planck",
+      "Il est devenu une unité dérivée",
+      "Il est passé à 1 100 grammes",
+      "Il est défini par un volume d'eau pure"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "Le kilogramme était la dernière unité de base encore définie par un objet matériel, le prototype international en platine iridié conservé à Sèvres depuis 1889, dont la masse dérivait légèrement par rapport à ses copies. Depuis mai 2019, il est défini à partir d'une valeur fixée de la constante de Planck, réalisable expérimentalement avec une balance de Kibble. La valeur pratique du kilogramme n'a pas changé : seule sa définition l'a été."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,205 @@
+{
+  "titre": "La protection sociale et la Sécurité sociale",
+  "sections": [
+    {
+      "titre": "Aux origines de la protection sociale",
+      "texte": "Avant l'ère industrielle, la prise en charge des malades, des vieillards et des indigents relevait surtout de la famille, des corporations, des paroisses et de la charité. L'industrialisation du dix-neuvième siècle fait apparaître de nouveaux risques : accidents du travail, chômage, vieillesse sans ressources. Deux modèles se dessinent alors en Europe. En Allemagne, le chancelier Bismarck met en place dans les années 1880 les premières assurances sociales obligatoires, financées par des cotisations prélevées sur les salaires et réservées aux travailleurs : c'est une logique d'assurance. Au Royaume-Uni, le rapport publié par lord Beveridge en 1942 propose au contraire une protection universelle, couvrant toute la population, financée par l'impôt et gérée par l'État : c'est une logique d'assistance et de solidarité nationale. En France, la loi de 1898 sur les accidents du travail, puis les lois sur les assurances sociales de 1928 et 1930 et les allocations familiales de 1932 posent des jalons. C'est toutefois à la Libération que le système prend sa forme moderne : le programme du Conseil national de la Résistance de 1944 prévoit un plan complet de sécurité sociale, concrétisé par les ordonnances des 4 et 19 octobre 1945. Le système français combine depuis lors les deux inspirations, mêlant cotisations professionnelles et prestations à vocation universelle.",
+      "visuels": [
+        {
+          "type": "comparaison",
+          "titre": "Deux modèles européens de protection sociale",
+          "colonnes": [
+            {
+              "titre": "Modèle bismarckien (Allemagne, années 1880)",
+              "points": [
+                "Premières assurances sociales obligatoires",
+                "Financées par des cotisations prélevées sur les salaires",
+                "Réservées aux travailleurs et à leurs familles",
+                "Logique d'assurance : on est couvert parce qu'on cotise"
+              ]
+            },
+            {
+              "titre": "Modèle beveridgien (Royaume-Uni, rapport de 1942)",
+              "points": [
+                "Protection universelle couvrant toute la population",
+                "Financée par l'impôt",
+                "Gérée par l'État",
+                "Logique d'assistance et de solidarité nationale"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frise",
+          "titre": "La construction du système français",
+          "evenements": [
+            {
+              "date": "1898",
+              "label": "Loi sur les accidents du travail",
+              "texte": "Premier grand jalon de la couverture des risques professionnels."
+            },
+            {
+              "date": "1928-1930",
+              "label": "Lois sur les assurances sociales",
+              "texte": "Maladie, invalidité, vieillesse pour une partie des salariés."
+            },
+            {
+              "date": "1932",
+              "label": "Allocations familiales",
+              "texte": "Généralisation des aides aux familles de salariés."
+            },
+            {
+              "date": "1944",
+              "label": "Programme du Conseil national de la Résistance",
+              "texte": "Il prévoit un plan complet de sécurité sociale."
+            },
+            {
+              "date": "1945",
+              "label": "Ordonnances des 4 et 19 octobre",
+              "texte": "Le système prend sa forme moderne, mêlant cotisations professionnelles et prestations à vocation universelle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "L'organisation en branches",
+      "texte": "La Sécurité sociale française est organisée en branches, chacune couvrant une catégorie de risques et disposant de ses propres caisses. La branche maladie prend en charge les dépenses de santé : consultations, médicaments, hospitalisations, indemnités journalières en cas d'arrêt de travail, ainsi que la maternité, l'invalidité et le décès. Elle est gérée par l'assurance maladie et ses caisses primaires. La branche accidents du travail et maladies professionnelles indemnise les salariés victimes d'un accident survenu dans le cadre de leur activité ou d'une pathologie liée à leur métier ; elle est financée exclusivement par les employeurs. La branche vieillesse verse les pensions de retraite du régime général, calculées à partir des revenus d'activité et de la durée de cotisation. La branche famille, gérée par les caisses d'allocations familiales, distribue les allocations familiales, les aides à la garde d'enfants et les aides au logement. Une cinquième branche, consacrée à l'autonomie des personnes âgées et handicapées, a été créée en 2020. À côté du régime général, qui couvre la majorité des salariés, subsistent des régimes destinés aux agriculteurs, aux indépendants ou à certaines professions. La protection sociale ne se limite pas à la Sécurité sociale : elle inclut aussi l'assurance chômage, les retraites complémentaires obligatoires et l'aide sociale des collectivités.",
+      "visuel": {
+        "type": "tableau",
+        "titre": "Les branches de la Sécurité sociale",
+        "colonnes": [
+          "Branche",
+          "Ce qu'elle couvre",
+          "À retenir"
+        ],
+        "lignes": [
+          [
+            "Maladie",
+            "Consultations, médicaments, hospitalisations, indemnités journalières, maternité, invalidité, décès",
+            "Gérée par l'assurance maladie et ses caisses primaires"
+          ],
+          [
+            "Accidents du travail et maladies professionnelles",
+            "Accidents survenus dans le cadre de l'activité, pathologies liées au métier",
+            "Financée exclusivement par les employeurs"
+          ],
+          [
+            "Vieillesse",
+            "Les pensions de retraite du régime général",
+            "Calculées sur les revenus d'activité et la durée de cotisation"
+          ],
+          [
+            "Famille",
+            "Allocations familiales, aides à la garde d'enfants, aides au logement",
+            "Gérée par les caisses d'allocations familiales"
+          ],
+          [
+            "Autonomie",
+            "Le soutien aux personnes âgées et handicapées",
+            "Cinquième branche, créée en 2020"
+          ]
+        ],
+        "note": "La protection sociale déborde la Sécurité sociale : elle comprend aussi l'assurance chômage, les retraites complémentaires obligatoires et l'aide sociale des collectivités."
+      }
+    },
+    {
+      "titre": "Le financement du système",
+      "texte": "Le financement de la protection sociale repose historiquement sur les cotisations sociales, prélevées sur les salaires. On distingue les cotisations salariales, retenues sur le salaire brut, et les cotisations patronales, versées par l'employeur ; la différence entre le salaire brut et le salaire net perçu correspond principalement à ces prélèvements. Ce mode de financement, hérité du modèle assurantiel, présente une limite : il pèse sur le travail et ses recettes varient avec l'emploi. Pour élargir l'assiette, la France a introduit en 1991 la contribution sociale généralisée, un prélèvement assis non seulement sur les revenus d'activité mais aussi sur les revenus de remplacement, du patrimoine et des placements. La contribution au remboursement de la dette sociale, créée en 1996, sert à résorber les déficits accumulés. Les cotisations et impositions affectées représentent aujourd'hui l'essentiel des ressources, complétées par des taxes spécifiques, notamment sur le tabac et l'alcool. Depuis la révision constitutionnelle de 1996, le Parlement vote chaque automne une loi de financement de la Sécurité sociale qui fixe les prévisions de recettes et les objectifs de dépenses, dont l'objectif national de dépenses d'assurance maladie. Ce vote a introduit un contrôle démocratique sur un budget social dont le montant dépasse celui du budget de l'État."
+    },
+    {
+      "titre": "Solidarité, redistribution et minima sociaux",
+      "texte": "La protection sociale joue un rôle central dans la redistribution des revenus. On distingue la redistribution horizontale, qui opère entre catégories de population sans considération de revenu, par exemple des bien-portants vers les malades ou des actifs vers les retraités, et la redistribution verticale, qui transfère des ressources des ménages les plus aisés vers les plus modestes grâce aux prélèvements progressifs et aux prestations sous condition de ressources. À côté des prestations contributives, versées en contrepartie de cotisations, existent des prestations non contributives relevant de la solidarité nationale. Les minima sociaux garantissent un revenu aux personnes qui n'ont pas ou plus de droits ouverts : le revenu de solidarité active, créé en 2009 pour succéder au revenu minimum d'insertion institué en 1988, l'allocation aux adultes handicapés ou l'allocation de solidarité aux personnes âgées. La couverture maladie universelle, instaurée en 1999 et remplacée en 2016 par la protection universelle maladie, a garanti à toute personne résidant régulièrement en France une prise en charge de ses frais de santé. Ces dispositifs réduisent sensiblement les inégalités de niveau de vie et le taux de pauvreté. Ils font l'objet de débats récurrents sur leur montant, leur accessibilité et l'articulation entre revenus d'assistance et revenus du travail."
+    },
+    {
+      "titre": "Les défis contemporains",
+      "texte": "Le système de protection sociale fait face à plusieurs difficultés structurelles. La première tient au vieillissement de la population : l'allongement de l'espérance de vie et l'arrivée à la retraite de générations nombreuses augmentent le nombre de pensions à verser tandis que la proportion d'actifs cotisants diminue. Le régime français de retraite fonctionne par répartition, les cotisations des actifs finançant immédiatement les pensions des retraités, à la différence d'un système par capitalisation où chacun épargne pour sa propre retraite. L'équilibre dépend donc du rapport entre cotisants et pensionnés, ce qui explique les réformes successives portant sur la durée de cotisation, l'âge de départ ou le mode de calcul. La deuxième difficulté concerne les dépenses de santé, qui progressent sous l'effet du vieillissement, des maladies chroniques et du coût des innovations médicales et thérapeutiques. La troisième tient aux inégalités d'accès aux soins, liées à la répartition inégale des professionnels sur le territoire et aux renoncements pour raisons financières. S'y ajoute la question du financement : faut-il l'asseoir davantage sur l'impôt que sur le travail, afin de ne pas renchérir le coût de l'emploi ? Ces débats traversent l'ensemble des pays européens, qui connaissent des évolutions démographiques comparables tout en conservant des organisations nationales très diverses.",
+      "visuel": {
+        "type": "comparaison",
+        "titre": "Répartition et capitalisation",
+        "colonnes": [
+          {
+            "titre": "Retraite par répartition",
+            "points": [
+              "Principe retenu par le régime français",
+              "Les cotisations des actifs financent immédiatement les pensions des retraités",
+              "L'équilibre dépend du rapport entre cotisants et pensionnés",
+              "Le vieillissement conduit à des réformes portant sur la durée de cotisation, l'âge de départ ou le mode de calcul"
+            ]
+          },
+          {
+            "titre": "Retraite par capitalisation",
+            "points": [
+              "Chacun épargne pour sa propre retraite",
+              "Les sommes accumulées sont restituées plus tard à l'épargnant",
+              "Le montant dépend de l'épargne constituée et de son rendement",
+              "Le lien avec le nombre d'actifs cotisants est plus faible"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Quels textes fondent la Sécurité sociale française dans sa forme moderne ?",
+      "choix": [
+        "La loi de 1898 sur les accidents du travail",
+        "Le rapport Beveridge de 1942",
+        "Les ordonnances d'octobre 1945",
+        "La Constitution de 1958"
+      ],
+      "bonne": 2,
+      "difficulte": 2,
+      "explication": "Le programme du Conseil national de la Résistance adopté en 1944 prévoyait un plan complet de sécurité sociale pour tous les citoyens. Ce projet s'est concrétisé par les ordonnances des 4 et 19 octobre 1945, qui créent une organisation unifiée couvrant les principaux risques sociaux. La loi de 1898 sur les accidents du travail constitue une étape importante mais très partielle, puisqu'elle ne concerne qu'un risque. Le rapport Beveridge est britannique et a inspiré le modèle universaliste sans être un texte français. La Constitution de 1958 organise les pouvoirs publics et ne fonde pas la Sécurité sociale."
+    },
+    {
+      "q": "Quelle branche de la Sécurité sociale verse les allocations familiales ?",
+      "choix": [
+        "La branche maladie",
+        "La branche famille",
+        "La branche vieillesse",
+        "La branche accidents du travail"
+      ],
+      "bonne": 1,
+      "difficulte": 1,
+      "explication": "La Sécurité sociale est divisée en branches, chacune correspondant à une famille de risques. La branche famille, gérée par les caisses d'allocations familiales, verse les allocations familiales, les prestations liées à la garde des jeunes enfants et les aides au logement. La branche maladie rembourse les soins et verse les indemnités journalières d'arrêt de travail. La branche vieillesse sert les pensions de retraite du régime général. La branche accidents du travail et maladies professionnelles, financée par les seuls employeurs, indemnise les salariés blessés ou malades du fait de leur activité. Une cinquième branche consacrée à l'autonomie a été créée en 2020."
+    },
+    {
+      "q": "Qu'est-ce qui caractérise un système de retraite par répartition ?",
+      "choix": [
+        "Chaque salarié épargne sur un compte personnel",
+        "Les pensions sont financées par l'impôt sur les sociétés",
+        "Les cotisations des actifs financent les pensions des retraités",
+        "Les retraites sont versées par les seules entreprises"
+      ],
+      "bonne": 2,
+      "difficulte": 2,
+      "explication": "Dans un système par répartition, comme celui qui prévaut en France, les cotisations prélevées sur les actifs au cours d'une année servent immédiatement à payer les pensions des retraités de cette même année. Il repose donc sur une solidarité entre générations et son équilibre dépend étroitement du rapport entre le nombre de cotisants et celui des pensionnés. Dans un système par capitalisation, chaque assuré constitue une épargne placée sur les marchés financiers, qui lui sera restituée sous forme de rente ou de capital. Le vieillissement démographique pèse davantage sur la répartition, ce qui explique les réformes portant sur la durée de cotisation et l'âge de départ."
+    },
+    {
+      "q": "Pourquoi la contribution sociale généralisée a-t-elle été créée en 1991 ?",
+      "choix": [
+        "Pour élargir le financement au-delà des seuls revenus du travail",
+        "Pour supprimer toutes les cotisations patronales",
+        "Pour financer exclusivement les dépenses militaires",
+        "Pour remplacer l'impôt sur le revenu"
+      ],
+      "bonne": 0,
+      "difficulte": 3,
+      "explication": "Le financement de la protection sociale reposait à l'origine presque uniquement sur des cotisations assises sur les salaires, ce qui liait ses ressources à l'emploi et renchérissait le coût du travail. La contribution sociale généralisée, instaurée en 1991, est un prélèvement à assiette large : elle frappe les revenus d'activité, mais aussi les revenus de remplacement comme les pensions, ainsi que les revenus du patrimoine et des placements. Elle a progressivement pris une place majeure dans le financement de la Sécurité sociale, sans supprimer les cotisations patronales. Elle se distingue de l'impôt sur le revenu, dont elle n'a ni la progressivité ni l'affectation au budget général."
+    },
+    {
+      "q": "Quel document le Parlement vote-t-il chaque automne depuis la révision constitutionnelle de 1996 ?",
+      "choix": [
+        "Le plan comptable des mutuelles",
+        "La loi de financement de la Sécurité sociale",
+        "Le règlement des caisses d'allocations familiales",
+        "Le barème des retraites complémentaires"
+      ],
+      "bonne": 1,
+      "difficulte": 3,
+      "explication": "Jusqu'en 1996, les comptes sociaux échappaient largement au vote du Parlement, alors même que leur montant dépasse celui du budget de l'État. La révision constitutionnelle de 1996 a institué la loi de financement de la Sécurité sociale, discutée et votée chaque automne. Elle fixe les prévisions de recettes et les objectifs de dépenses de chaque branche, et arrête notamment l'objectif national de dépenses d'assurance maladie. Ce texte donne une visibilité démocratique sur les grands équilibres sociaux et permet d'engager des réformes de financement. Il se distingue de la loi de finances, qui porte sur le budget de l'État."
+    }
+  ]
+}

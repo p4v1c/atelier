@@ -1,0 +1,159 @@
+{
+ "titre": "Victor Hugo et le romantisme français",
+ "sections": [
+  {
+   "titre": "La naissance du romantisme",
+   "texte": "Le romantisme naît en Europe du Nord à la fin du XVIIIe siècle, en réaction contre la raison classique et l'imitation des Anciens. En Allemagne, le mouvement Sturm und Drang puis Goethe, avec « Les Souffrances du jeune Werther » (1774), imposent la figure du héros sensible ; en Angleterre, Byron, Wordsworth et Coleridge renouvellent la poésie. En France, l'arrivée du mouvement est retardée par la tradition classique et par la Révolution. Deux livres jouent un rôle décisif : « Le Génie du christianisme » de Chateaubriand (1802), qui contient le récit de « René » et donne forme au mal du siècle, cette mélancolie d'une génération sans emploi après la chute de l'Empire, et « De l'Allemagne » de Madame de Staël, rédigé en 1810 et diffusé à partir de 1813, qui fait connaître les théories allemandes. La date fondatrice de la poésie romantique française est 1820, avec les « Méditations poétiques » de Lamartine, où le paysage devient le miroir des sentiments. Autour de 1824 puis de 1827 se forment des cénacles où se retrouvent Hugo, Vigny, Nodier, Nerval, Musset, Gautier et Sainte-Beuve. Le romantisme valorise le moi, le sentiment, la nature, l'histoire nationale et le Moyen Âge, longtemps méprisé. Il revendique la liberté de l'artiste contre les règles héritées de Boileau, et associe souvent cette liberté esthétique à un engagement politique, d'abord royaliste, puis de plus en plus libéral et républicain."
+  },
+  {
+   "titre": "Hugo poète, de l'ode à l'épopée",
+   "texte": "Victor Hugo naît à Besançon en 1802 ; il est fils d'un général de l'Empire. Adolescent, il se fait remarquer par des concours de poésie et publie ses « Odes » dès 1822, complétées en 1826 par « Odes et Ballades ». Sa première grande réussite est « Les Orientales » (1829), recueil virtuose inspiré par la guerre d'indépendance grecque, où il déploie une extraordinaire variété de rythmes. Suivent des recueils plus intimes : « Les Feuilles d'automne » (1831), « Les Chants du crépuscule » (1835), « Les Voix intérieures » (1837) et « Les Rayons et les Ombres » (1840). La mort accidentelle de sa fille Léopoldine, noyée dans la Seine à Villequier en septembre 1843, interrompt longtemps la publication. L'exil ouvre ensuite la période la plus haute de son œuvre poétique. « Les Châtiments » (1853) sont un recueil de combat contre Napoléon III ; « Les Contemplations » (1856), organisées en deux parties, Autrefois et Aujourd'hui, séparées par la mort de Léopoldine, contiennent des poèmes devenus célèbres comme « Demain, dès l'aube ». « La Légende des siècles », publiée en trois séries entre 1859 et 1883, propose une épopée de l'humanité en marche, de la Bible aux temps modernes. Hugo revient enfin à un ton familier avec « L'Art d'être grand-père » (1877). Son vers, souple et sonore, brise la coupe régulière de l'alexandrin classique."
+  },
+  {
+   "titre": "Le théâtre et la bataille d'Hernani",
+   "texte": "Le théâtre est le terrain où le romantisme livre sa bataille la plus spectaculaire. En 1827, Hugo publie « Cromwell », drame injouable par sa longueur, précédé d'une préface qui devient le manifeste du mouvement. Il y refuse les règles des unités de temps et de lieu, réclame le mélange des tons et affirme que le drame moderne doit unir le sublime et le grotesque, à l'image de la vie même. La théorie passe à l'acte le 25 février 1830, à la Comédie-Française, lors de la première d'« Hernani ». Partisans du drame nouveau, menés par Théophile Gautier et son fameux gilet rouge, et défenseurs de la tragédie classique s'affrontent bruyamment dans la salle : c'est la bataille d'Hernani, qui se prolonge pendant des dizaines de représentations. Hugo donne ensuite « Marion de Lorme » (1831), « Le roi s'amuse » (1832), interdit dès le lendemain de la première et source du livret de « Rigoletto » de Verdi, « Lucrèce Borgia » (1833) et surtout « Ruy Blas » (1838), histoire d'un valet amoureux d'une reine d'Espagne. L'échec des « Burgraves » en 1843 marque symboliquement la fin du drame romantique au théâtre. Les autres dramaturges du mouvement, Alfred de Vigny avec « Chatterton » (1835) et Alfred de Musset avec « Lorenzaccio » (1834), écrivent des pièces dont la valeur ne sera pleinement reconnue que bien plus tard.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Tragédie classique et drame romantique",
+    "colonnes": [
+     {
+      "titre": "La tragédie classique",
+      "points": [
+       "Règles des unités de temps et de lieu",
+       "Séparation stricte des tons et des genres",
+       "Sujets nobles, personnages de haut rang",
+       "Autorité des règles héritées de Boileau"
+      ]
+     },
+     {
+      "titre": "Le drame romantique",
+      "points": [
+       "Refus des unités, proclamé dans la préface de « Cromwell » (1827)",
+       "Mélange des tons : le sublime et le grotesque",
+       "Sujets historiques, valets et rois sur la même scène",
+       "Liberté de l'artiste, défendue à la bataille d'« Hernani » (1830)"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le romancier des misérables",
+   "texte": "Hugo romancier commence tôt, avec « Han d'Islande » (1823), puis frappe fort avec « Le Dernier Jour d'un condamné » (1829), monologue d'un homme attendant la guillotine, plaidoyer contre la peine de mort qu'il combattra toute sa vie. « Notre-Dame de Paris » (1831) situe l'action en 1482 et mêle Quasimodo, Esmeralda et l'archidiacre Frollo dans une reconstitution du Paris médiéval ; le roman contribue directement au mouvement de sauvegarde du patrimoine gothique, alors menacé de destruction. Son chef-d'œuvre reste « Les Misérables », publié en 1862 après près de vingt ans de travail. Le récit suit Jean Valjean, ancien forçat condamné pour un vol de pain, poursuivi par l'inspecteur Javert, et croise les destins de Fantine, de Cosette, de Gavroche et des insurgés de juin 1832. Hugo y insère de longs développements sur Waterloo, les égouts de Paris ou le langage des voleurs, faisant du roman une somme sociale et morale. Suivent « Les Travailleurs de la mer » (1866), inspiré par les îles anglo-normandes, « L'Homme qui rit » (1869) et « Quatrevingt-treize » (1874), sur la guerre de Vendée. Partout, la même conviction : la littérature doit servir les humbles, dénoncer la misère, l'ignorance et l'injustice. Cette dimension explique la popularité durable de ses romans, sans cesse adaptés au théâtre, au cinéma et en comédie musicale."
+  },
+  {
+   "titre": "L'exil, l'engagement et la gloire",
+   "texte": "La carrière politique de Hugo accompagne son œuvre. D'abord royaliste, il évolue vers le libéralisme, entre à l'Académie française en 1841, devient pair de France en 1845, puis député en 1848. À l'Assemblée, il prononce des discours contre la misère et pour l'instruction gratuite. Lorsque Louis-Napoléon Bonaparte réalise son coup d'État le 2 décembre 1851, Hugo tente de résister, doit fuir et gagne Bruxelles, puis Jersey en 1852 et Guernesey en 1855, où il s'installe à Hauteville House. L'exil dure dix-neuf ans. Il y écrit ses plus grands livres et y publie des pamphlets, « Napoléon le Petit » (1852) et « Histoire d'un crime ». Refusant l'amnistie proposée en 1859, il déclare qu'il rentrera quand la liberté rentrera. Il revient effectivement en France en septembre 1870, à la chute du Second Empire, et vit le siège de Paris. Élu député puis sénateur en 1876, il défend l'amnistie des communards. À sa mort, le 22 mai 1885, la République lui offre des funérailles nationales : son cercueil est exposé sous l'Arc de triomphe et près de deux millions de personnes suivent le cortège jusqu'au Panthéon. Auteur d'une œuvre immense qui comprend aussi des dessins, des carnets et une abondante correspondance, Hugo demeure l'écrivain français le plus présent dans la mémoire collective.",
+   "visuels": [
+    {
+     "type": "frise",
+     "titre": "Victor Hugo, une vie de quatre-vingt-trois ans",
+     "evenements": [
+      {
+       "date": "1802",
+       "label": "Naissance à Besançon"
+      },
+      {
+       "date": "1830",
+       "label": "Bataille d'« Hernani »",
+       "texte": "Première à la Comédie-Française, le 25 février"
+      },
+      {
+       "date": "1843",
+       "label": "Mort de Léopoldine",
+       "texte": "Noyée à Villequier ; Hugo cesse longtemps de publier"
+      },
+      {
+       "date": "1851",
+       "label": "Départ en exil",
+       "texte": "Après le coup d'État du 2 décembre"
+      },
+      {
+       "date": "1862",
+       "label": "« Les Misérables »",
+       "texte": "Près de vingt ans de travail"
+      },
+      {
+       "date": "1870",
+       "label": "Retour en France",
+       "texte": "À la chute du Second Empire"
+      },
+      {
+       "date": "1885",
+       "label": "Funérailles nationales",
+       "texte": "Deux millions de personnes jusqu'au Panthéon"
+      }
+     ]
+    },
+    {
+     "type": "image",
+     "image": "lit-hugo",
+     "legende": "Victor Hugo photographié pendant l'exil à Jersey, au début des dix-neuf années passées hors de France",
+     "alt": "Photographie ancienne de Victor Hugo assis à une table, le visage grave appuyé sur la main, vêtu de noir."
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quelle pièce de Victor Hugo provoque en 1830 une célèbre bataille entre classiques et romantiques ?",
+   "choix": [
+    "Ruy Blas",
+    "Lorenzaccio",
+    "Hernani",
+    "Les Burgraves"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "La première d'« Hernani » a lieu le 25 février 1830 à la Comédie-Française. Les partisans du drame romantique, emmenés par Théophile Gautier et son gilet rouge, viennent soutenir la pièce face aux défenseurs de la tragédie classique, et les représentations se déroulent dans le tumulte. Cet épisode, resté sous le nom de bataille d'Hernani, symbolise la victoire du romantisme au théâtre. « Ruy Blas » date de 1838 et « Les Burgraves », échec de 1843, marque la fin du drame romantique. « Lorenzaccio » est une pièce d'Alfred de Musset publiée en 1834."
+  },
+  {
+   "q": "Dans quel recueil de 1856 Victor Hugo évoque-t-il longuement la mort de sa fille Léopoldine ?",
+   "choix": [
+    "Les Contemplations",
+    "Les Orientales",
+    "La Légende des siècles",
+    "Odes et Ballades"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "« Les Contemplations », publiées en 1856 pendant l'exil, sont organisées en deux parties, Autrefois et Aujourd'hui, séparées par la mort de Léopoldine, noyée à Villequier en septembre 1843. Le recueil contient le poème « Demain, dès l'aube », où le poète se rend sur la tombe de sa fille. Hugo présente ce livre comme les mémoires d'une âme. « Les Orientales » (1829) est un recueil virtuose inspiré par la Grèce, « Odes et Ballades » (1826) appartient aux débuts du poète, et « La Légende des siècles » est une épopée de l'humanité publiée à partir de 1859."
+  },
+  {
+   "q": "Quel roman de Victor Hugo, paru en 1862, suit le destin de l'ancien forçat Jean Valjean ?",
+   "choix": [
+    "Notre-Dame de Paris",
+    "Quatrevingt-treize",
+    "L'Homme qui rit",
+    "Les Misérables"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "« Les Misérables » paraît en 1862, après près de vingt ans de travail commencés sous le titre Les Misères. Le roman suit Jean Valjean, condamné au bagne pour avoir volé un pain, poursuivi par l'inspecteur Javert, et croise les histoires de Fantine, Cosette, Marius et Gavroche. Hugo y intègre de longs développements sur Waterloo, les égouts de Paris ou l'insurrection de juin 1832. « Notre-Dame de Paris » date de 1831, « L'Homme qui rit » de 1869 et « Quatrevingt-treize », consacré à la Révolution, de 1874."
+  },
+  {
+   "q": "Quel principe esthétique la Préface de Cromwell (1827) met-elle au cœur du drame romantique ?",
+   "choix": [
+    "Le respect strict des trois unités",
+    "Le mélange du sublime et du grotesque",
+    "La séparation rigoureuse des genres",
+    "L'imitation exclusive des tragédies grecques"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Dans la Préface de « Cromwell », Hugo affirme que le drame moderne doit unir le sublime et le grotesque, car la vie elle-même mêle le beau et le laid, le rire et les larmes. Il rejette les règles d'unité de temps et de lieu héritées de la doctrine classique, ne conservant que l'unité d'action. Ce texte devient le manifeste théorique du romantisme français. Le respect des trois unités et la séparation des genres caractérisent au contraire le théâtre classique du XVIIe siècle codifié par Boileau. L'application de ces idées viendra trois ans plus tard avec « Hernani »."
+  },
+  {
+   "q": "Sur quelle île anglo-normande Victor Hugo s'installe-t-il en 1855 pour la plus longue partie de son exil ?",
+   "choix": [
+    "Jersey",
+    "Sainte-Hélène",
+    "Guernesey",
+    "L'île de Ré"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Après le coup d'État du 2 décembre 1851, Hugo s'exile à Bruxelles, puis à Jersey en 1852 et enfin à Guernesey en 1855, où il achète la maison de Hauteville House. Il y reste jusqu'à la chute du Second Empire et rentre en France en septembre 1870. C'est pendant cet exil de dix-neuf ans qu'il écrit « Les Contemplations », « La Légende des siècles » et « Les Misérables ». Il refuse l'amnistie offerte en 1859, déclarant qu'il ne rentrerait que lorsque la liberté rentrerait. Sainte-Hélène est l'île où mourut Napoléon Ier en 1821."
+  }
+ ]
+}

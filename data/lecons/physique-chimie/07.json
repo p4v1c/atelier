@@ -1,0 +1,159 @@
+{
+ "titre": "Pression, fluides et aérodynamique",
+ "sections": [
+  {
+   "titre": "La notion de pression",
+   "texte": "La pression traduit la répartition d'une force sur une surface. Elle se définit comme le quotient de la force pressante exercée perpendiculairement à une surface par l'aire de cette surface. Son unité dans le Système international est le pascal, en hommage à Blaise Pascal : un pascal correspond à une force de un newton répartie sur un mètre carré. Cette unité étant très petite, on emploie couramment l'hectopascal, le kilopascal ou le bar, qui vaut cent mille pascals. La pression atmosphérique normale au niveau de la mer vaut 101 325 pascals, soit 1 013 hectopascals ou environ 1 bar. La formule explique de nombreuses observations quotidiennes. Une même force appliquée sur une petite surface produit une pression énorme : c'est pourquoi un couteau bien aiguisé coupe facilement, pourquoi une punaise s'enfonce sans effort, et pourquoi le talon aiguille marque un parquet plus qu'un pied nu. Inversement, augmenter la surface diminue la pression : les raquettes à neige, les chenilles d'un engin de chantier ou les larges pneus d'un tracteur empêchent l'enfoncement dans un sol meuble. Dans les gaz, la pression s'explique par le modèle particulaire : les molécules, animées d'un mouvement incessant et désordonné, frappent les parois du récipient et ces chocs innombrables produisent une force moyenne. Une élévation de température accroît l'agitation, donc la pression, ce qui explique qu'une bombe aérosol chauffée puisse exploser."
+  },
+  {
+   "titre": "La pression atmosphérique et son histoire",
+   "texte": "Nous vivons au fond d'un océan d'air épais de plusieurs dizaines de kilomètres, dont le poids exerce sur nous une pression considérable, de l'ordre de dix tonnes par mètre carré. Nous ne la ressentons pas parce qu'elle s'exerce dans toutes les directions et qu'elle est équilibrée par les pressions internes de notre corps. En 1643, Evangelista Torricelli remplit de mercure un tube de verre d'environ un mètre, le retourne dans une cuve et observe que la colonne se stabilise à 76 centimètres de hauteur, laissant au-dessus un espace presque vide : il vient d'inventer le baromètre et de prouver l'existence du vide. Blaise Pascal complète la démonstration en 1648 en faisant porter un baromètre au sommet du Puy de Dôme par son beau-frère Florin Périer : la colonne de mercure y descend de plusieurs centimètres, prouvant que la pression diminue avec l'altitude. Vers 1654, Otto von Guericke frappe les esprits à Magdebourg en accolant deux hémisphères de cuivre vidés de leur air : deux attelages de plusieurs chevaux ne parviennent pas à les séparer. La pression atmosphérique décroît d'environ un hectopascal tous les huit mètres près du sol, et elle est divisée par deux vers 5 500 mètres d'altitude, ce qui impose la pressurisation des avions de ligne. En météorologie, les zones de haute pression, ou anticyclones, s'accompagnent généralement de temps stable, tandis que les dépressions annoncent nuages, vent et pluie.",
+   "visuels": [
+    {
+     "type": "frise",
+     "titre": "La preuve du vide et de la pression de l'air",
+     "evenements": [
+      {
+       "date": "1643",
+       "label": "Le baromètre de Torricelli",
+       "texte": "Un tube de mercure retourné dans une cuve : la colonne se stabilise à 76 cm et laisse au-dessus un espace presque vide."
+      },
+      {
+       "date": "1648",
+       "label": "L'expérience du Puy de Dôme",
+       "texte": "Pascal fait porter un baromètre au sommet par son beau-frère Florin Périer : la colonne descend, la pression diminue avec l'altitude."
+      },
+      {
+       "date": "1654",
+       "label": "Les hémisphères de Magdebourg",
+       "texte": "Otto von Guericke vide de leur air deux hémisphères de cuivre : deux attelages de chevaux ne parviennent pas à les séparer."
+      }
+     ]
+    },
+    {
+     "type": "chiffres",
+     "titre": "Les repères de la pression",
+     "items": [
+      {
+       "valeur": "101 325 Pa",
+       "label": "pression atmosphérique normale au niveau de la mer, soit 1 013 hPa ou environ 1 bar"
+      },
+      {
+       "valeur": "76 cm",
+       "label": "hauteur de la colonne de mercure de Torricelli"
+      },
+      {
+       "valeur": "10 t/m²",
+       "label": "charge exercée sur nous par l'océan d'air"
+      },
+      {
+       "valeur": "1 hPa",
+       "label": "de moins tous les 8 mètres d'altitude près du sol"
+      },
+      {
+       "valeur": "5 500 m",
+       "label": "altitude où la pression est divisée par deux"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Les fluides au repos : Pascal et Archimède",
+   "texte": "Dans un liquide au repos, la pression augmente avec la profondeur : elle croît d'environ un bar tous les dix mètres d'eau, ce qui explique la douleur ressentie aux tympans en plongée et impose des coques épaisses aux sous-marins. Cette pression ne dépend que de la profondeur, de la masse volumique du liquide et de l'intensité de la pesanteur, et non de la forme du récipient : c'est le paradoxe hydrostatique. Le principe de Pascal énonce que toute variation de pression appliquée à un fluide incompressible enfermé se transmet intégralement en tous ses points. Ce principe fonde l'hydraulique : dans une presse ou un frein de voiture, une force modeste appliquée sur un petit piston engendre une force bien plus grande sur un piston de section importante, dans le rapport des surfaces. Le principe d'Archimède, énoncé au IIIe siècle avant notre ère, affirme que tout corps plongé dans un fluide subit une poussée verticale, dirigée vers le haut, dont la valeur est égale au poids du volume de fluide déplacé. Un objet flotte si sa masse volumique moyenne est inférieure à celle du fluide, et coule dans le cas contraire. Un navire d'acier flotte parce que sa coque creuse contient beaucoup d'air, ce qui abaisse sa masse volumique moyenne. Un sous-marin règle sa flottabilité en remplissant ou en vidant ses ballasts, et une montgolfière s'élève parce que l'air chaud qu'elle contient est moins dense que l'air ambiant."
+  },
+  {
+   "titre": "Les fluides en mouvement : débit et effet Venturi",
+   "texte": "Lorsqu'un fluide s'écoule, on caractérise son mouvement par le débit volumique, volume traversant une section par unité de temps, exprimé en mètres cubes par seconde. Pour un fluide incompressible dans une canalisation sans fuite, le débit se conserve : si la section se rétrécit, la vitesse d'écoulement augmente d'autant. C'est l'équation de continuité, que chacun vérifie en pinçant l'extrémité d'un tuyau d'arrosage pour que le jet porte plus loin. Daniel Bernoulli établit en 1738 une relation fondamentale entre la vitesse et la pression d'un fluide en écoulement : le long d'une ligne de courant, lorsque la vitesse augmente, la pression diminue, et réciproquement. Ce résultat traduit la conservation de l'énergie mécanique du fluide. Dans un rétrécissement de conduite, appelé tube de Venturi, la vitesse s'élève donc et la pression chute, ce qui permet d'aspirer un autre fluide : c'est le principe du carburateur, du pulvérisateur et de la trompe à eau. L'effet explique aussi que deux navires naviguant côte à côte tendent à s'attirer, ou qu'une douche laisse le rideau se coller contre les jambes. Il faut cependant distinguer deux régimes d'écoulement, caractérisés par le nombre de Reynolds : l'écoulement laminaire, régulier, où les filets de fluide restent parallèles, et l'écoulement turbulent, chaotique et tourbillonnaire, qui augmente fortement les frottements et la dissipation d'énergie. La viscosité, mesure de la résistance interne d'un fluide au glissement, distingue le miel de l'eau."
+  },
+  {
+   "titre": "L'aérodynamique et le vol",
+   "texte": "L'aérodynamique étudie les forces exercées par l'air sur un corps en mouvement. On les décompose en deux composantes : la traînée, parallèle à l'écoulement et opposée au déplacement, et la portance, perpendiculaire à l'écoulement. La traînée croît avec la surface frontale, avec la masse volumique de l'air et surtout avec le carré de la vitesse : doubler la vitesse d'une voiture quadruple la résistance de l'air, ce qui explique la forte hausse de consommation sur autoroute. Le coefficient de traînée, ou Cx, mesure la qualité aérodynamique d'une forme ; il avoisine 1,1 pour une plaque plate, 0,3 pour une automobile moderne et 0,04 pour un profil d'aile bien dessiné. Une goutte d'eau et un corps de poisson illustrent les formes profilées qui retardent le décollement de la couche limite et limitent les turbulences. La portance d'une aile résulte de la déviation vers le bas de l'air par le profil et l'angle d'incidence : d'après le principe des actions réciproques, l'air repousse l'aile vers le haut. La différence de pression entre l'extrados, où l'air va plus vite et la pression est plus basse, et l'intrados, où elle est plus élevée, décrit le même phénomène. Si l'angle d'incidence devient trop grand, l'écoulement décolle brutalement et l'aile décroche. Ces principes gouvernent aussi bien le vol des oiseaux que la conception des trains à grande vitesse, des éoliennes ou des ballons de sport, dont la rotation dévie la trajectoire par l'effet Magnus.",
+   "visuel": {
+    "type": "barres",
+    "titre": "Le coefficient de traînée (Cx) selon la forme",
+    "donnees": [
+     {
+      "label": "Plaque plate",
+      "valeur": 1.1,
+      "affichage": "1,1"
+     },
+     {
+      "label": "Automobile moderne",
+      "valeur": 0.3,
+      "focus": true,
+      "affichage": "0,3"
+     },
+     {
+      "label": "Profil d'aile bien dessiné",
+      "valeur": 0.04,
+      "affichage": "0,04"
+     }
+    ],
+    "note": "La traînée croît avec le carré de la vitesse : doubler la vitesse quadruple la résistance de l'air."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quelle est l'unité de pression du Système international ?",
+   "choix": [
+    "Le newton",
+    "Le pascal",
+    "Le bar",
+    "Le joule"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "L'unité de pression du Système international est le pascal, nommé en hommage à Blaise Pascal. Un pascal correspond à une force de un newton exercée perpendiculairement sur une surface de un mètre carré. Cette unité étant très petite, on utilise couramment l'hectopascal en météorologie ou le bar, qui vaut cent mille pascals. Le newton mesure une force et non une pression, tandis que le joule mesure une énergie. La pression atmosphérique normale au niveau de la mer vaut 101 325 pascals, soit 1 013 hectopascals."
+  },
+  {
+   "q": "Pourquoi les raquettes à neige empêchent-elles de s'enfoncer dans la poudreuse ?",
+   "choix": [
+    "Elles réduisent le poids du marcheur",
+    "Elles augmentent la surface de contact et diminuent donc la pression exercée",
+    "Elles augmentent la force appliquée sur la neige",
+    "Elles créent une poussée d'Archimède dans la neige"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "La pression est le quotient de la force pressante par la surface sur laquelle elle s'applique. Le poids du marcheur reste rigoureusement identique avec ou sans raquettes, mais la surface de contact avec la neige est multipliée par un facteur important. La pression exercée sur le manteau neigeux diminue donc dans les mêmes proportions et devient insuffisante pour rompre la cohésion de la neige. Le même raisonnement explique les chenilles des engins de chantier et les larges pneus des tracteurs. Le principe inverse est utilisé pour les objets tranchants ou pointus, où une petite surface produit une pression énorme."
+  },
+  {
+   "q": "Que dit le principe d'Archimède ?",
+   "choix": [
+    "La pression d'un liquide dépend de la forme du récipient",
+    "Un corps immergé perd la moitié de son poids",
+    "Un corps plongé dans un fluide subit une poussée verticale vers le haut égale au poids du fluide déplacé",
+    "Tout corps flottant a une masse volumique égale à celle du fluide"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le principe d'Archimède, énoncé au IIIe siècle avant notre ère, affirme que tout corps plongé dans un fluide subit une force verticale dirigée vers le haut, dont la valeur égale le poids du volume de fluide déplacé. Un objet flotte lorsque sa masse volumique moyenne est inférieure à celle du fluide, et coule dans le cas contraire. Un navire d'acier flotte donc parce que sa coque creuse renferme beaucoup d'air, ce qui abaisse sa masse volumique moyenne. La perte apparente de poids n'a rien d'une constante universelle : elle dépend du volume immergé et du fluide considéré."
+  },
+  {
+   "q": "D'après la relation de Bernoulli, que se passe-t-il lorsque la vitesse d'un fluide augmente dans un rétrécissement de conduite ?",
+   "choix": [
+    "La pression diminue",
+    "La pression augmente",
+    "Le débit volumique augmente",
+    "La viscosité du fluide augmente"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "L'équation de continuité impose que le débit volumique reste constant dans une canalisation sans fuite : si la section se rétrécit, la vitesse d'écoulement augmente nécessairement, mais le débit lui-même ne change pas. La relation établie par Daniel Bernoulli en 1738 traduit alors la conservation de l'énergie mécanique du fluide : lorsque la vitesse croît, la pression statique diminue le long de la ligne de courant. Ce phénomène porte le nom d'effet Venturi et sert à aspirer un second fluide dans un carburateur, un pulvérisateur ou une trompe à eau. La viscosité, elle, est une propriété du fluide qui ne dépend pas de la section de la conduite."
+  },
+  {
+   "q": "Comment varie approximativement la force de traînée aérodynamique lorsqu'on double la vitesse d'un véhicule ?",
+   "choix": [
+    "Elle reste inchangée",
+    "Elle double",
+    "Elle est divisée par deux",
+    "Elle est multipliée par quatre"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Aux vitesses courantes des véhicules, la traînée aérodynamique est proportionnelle au carré de la vitesse, ainsi qu'à la masse volumique de l'air, à la surface frontale et au coefficient de traînée dit Cx. Doubler la vitesse multiplie donc la force de résistance par quatre, et la puissance nécessaire pour la vaincre par huit, puisque la puissance est le produit de la force par la vitesse. C'est pourquoi la consommation de carburant augmente très fortement sur autoroute et pourquoi les constructeurs soignent le profilage des carrosseries. Un Cx d'automobile moderne avoisine 0,3, contre environ 1,1 pour une simple plaque plate."
+  }
+ ]
+}

@@ -1,0 +1,174 @@
+{
+ "titre": "L'histoire des séries télévisées",
+ "sections": [
+  {
+   "titre": "Série ou feuilleton : le vocabulaire d'un genre",
+   "texte": "Une série télévisée est une oeuvre audiovisuelle conçue pour être diffusée en épisodes de durée à peu près équivalente, organisés en saisons. C'est le type de fiction le mieux adapté à la télévision, parce qu'il installe un rendez-vous régulier et fidélise un public sur plusieurs années. Une distinction ancienne oppose la série et le feuilleton, et elle reste utile. Dans une série au sens strict, chaque épisode raconte une histoire complète que l'on peut regarder indépendamment des autres : les personnages et le décor reviennent, mais l'intrigue se referme à la fin de l'heure. Dans un feuilleton, au contraire, le récit se poursuit d'un épisode à l'autre, voire sur toute une saison, et le spectateur qui manque un épisode perd le fil. Les productions contemporaines mélangent le plus souvent les deux principes, avec une intrigue autonome par épisode et un arc général qui progresse en arrière-plan. Quelques mots complètent ce vocabulaire. L'épisode est l'unité de base, la saison regroupe les épisodes diffusés au cours d'une même période, et le pilote désigne le premier épisode, souvent produit à part pour convaincre une chaîne de commander la suite. Le showrunner est le responsable créatif qui dirige l'écriture et la production dans la durée : dans les séries, ce rôle donne au scénariste principal une autorité comparable à celle qu'un réalisateur exerce au cinéma.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Série ou feuilleton",
+    "colonnes": [
+     {
+      "titre": "La série au sens strict",
+      "points": [
+       "Chaque épisode raconte une histoire complète",
+       "On peut le regarder indépendamment des autres",
+       "Les personnages et le décor reviennent, l'intrigue se referme à la fin de l'heure",
+       "Formule des séries policières et des comédies de situation"
+      ]
+     },
+     {
+      "titre": "Le feuilleton",
+      "points": [
+       "Le récit se poursuit d'un épisode à l'autre, voire sur toute une saison",
+       "Le spectateur qui manque un épisode perd le fil",
+       "Fins d'épisode suspendues pour donner envie de revenir",
+       "Formule héritée du soap opera radiophonique"
+      ]
+     }
+    ],
+    "note": "Les productions contemporaines mélangent le plus souvent les deux principes : une intrigue autonome par épisode et un arc général qui progresse en arrière-plan."
+   }
+  },
+  {
+   "titre": "Des savons à la radio au premier âge d'or",
+   "texte": "L'histoire des séries commence à la radio, et même dans une salle de bains. Le premier soap opera, « Painted Dreams », est diffusé le 20 octobre 1930 sur la station américaine WGN. Ces feuilletons quotidiens étaient programmés l'après-midi en semaine pour toucher les femmes au foyer, et financés par des fabricants de savon comme Procter & Gamble ou Colgate-Palmolive, d'où leur nom d'opéras de savon. Leurs recettes narratives sont toujours en usage : une communauté nombreuse de personnages vivant ou travaillant au même endroit, une intrigue centrée sur la sphère domestique, les amours et les conflits de famille, plusieurs récits menés en parallèle, et des fins d'épisode suspendues pour donner envie de revenir. Le feuilleton radiophonique britannique « The Archers », créé en 1950, dépasse aujourd'hui les vingt mille épisodes. La télévision américaine reprend ce modèle dès la fin des années 1940, et la période allant de 1948 à 1960 est souvent appelée son premier âge d'or : elle voit s'installer les grands genres, le soap, la série policière, la série d'aventure et la comédie de situation. Deux formats coexistent longtemps, le soap de journée, diffusé quotidiennement à raison d'environ deux cent cinquante épisodes par an, et le soap du soir, hebdomadaire, avec une vingtaine d'épisodes par saison.",
+   "visuel": {
+    "type": "frise",
+    "titre": "De la radio aux plateformes",
+    "evenements": [
+     {
+      "date": "20 octobre 1930",
+      "label": "« Painted Dreams »",
+      "texte": "Le premier soap opera est diffusé sur la station américaine WGN, financé par des fabricants de savon."
+     },
+     {
+      "date": "1950",
+      "label": "« The Archers »",
+      "texte": "Le feuilleton radiophonique britannique dépasse aujourd'hui les vingt mille épisodes."
+     },
+     {
+      "date": "1951",
+      "label": "« I Love Lucy »",
+      "texte": "La sitcom fixe ses règles techniques : film trente-cinq millimètres, trois caméras simultanées, public en studio."
+     },
+     {
+      "date": "8 novembre 1972",
+      "label": "HBO",
+      "texte": "La première chaîne payante au monde vit des abonnements et non de la publicité."
+     },
+     {
+      "date": "1999",
+      "label": "« Les Soprano »",
+      "texte": "Six saisons et quatre-vingt-six épisodes : un feuilleton exigeant peut réussir."
+     },
+     {
+      "date": "années 2010",
+      "label": "Les plateformes",
+      "texte": "Une saison entière mise en ligne le même jour, une diffusion mondiale simultanée."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "La sitcom, une machine à rire",
+   "texte": "La sitcom, contraction de l'anglais situation comedy, désigne une série comique dont l'action se déroule dans quelques lieux récurrents afin de limiter les coûts de production. Le principe est simple et redoutablement efficace : un décor fixe, une famille ou un groupe d'amis, des personnages secondaires excentriques, des intrigues sentimentales, et un épisode de vingt et une à vingt-deux minutes aux États-Unis, durée calculée pour laisser place aux coupures publicitaires. Son signe le plus reconnaissable est le rire enregistré. À l'origine, il s'agit du rire réel d'un public présent en studio pendant le tournage ; les séries filmées sans spectateurs y ajoutent en postproduction des rires préenregistrés. Le genre naît dans les années 1950, porté par des créateurs américains et britanniques. « I Love Lucy », diffusé sur CBS du 15 octobre 1951 au 6 mai 1957 avec Lucille Ball et Desi Arnaz, en fixe les règles techniques : abandon du kinescope au profit du film trente-cinq millimètres, éclairage conçu pour trois caméras filmant simultanément sous des angles différents, et public de trois cents personnes en salle. Leur société Desilu produira plus tard « Star Trek ». En France, « La Famille Bargeot » ouvre la voie en 1985 et « Maguy », lancée en septembre de la même année, est la première adaptation directe d'un format américain ; dans les années 1990, AB Productions domine le genre avec « Hélène et les Garçons »."
+  },
+  {
+   "titre": "HBO et la troisième révolution",
+   "texte": "Le renouveau des séries à partir de la fin des années 1990 tient d'abord à un modèle économique. Fondée par Charles Dolan, la chaîne américaine Home Box Office, plus connue sous le sigle HBO, est lancée le 8 novembre 1972 : c'est la toute première chaîne payante au monde. Son signal est chiffré et nécessite un décodeur, et elle est distribuée par le câble puis par le satellite. Surtout, elle ne vit pas de la publicité mais des abonnements de ses spectateurs. Cette différence a des conséquences considérables sur la création : n'ayant pas à ménager des annonceurs ni à viser l'audience la plus large possible à chaque minute, HBO peut produire des récits lents, sombres, moralement ambigus, avec des héros peu recommandables. « Les Soprano », créée par David Chase et diffusée du 10 janvier 1999 au 10 juin 2007 sur six saisons et quatre-vingt-six épisodes, incarne ce basculement en racontant un chef mafieux du New Jersey qui consulte une psychanalyste. La série est régulièrement citée parmi les plus grandes de l'histoire et prouve qu'un feuilleton exigeant peut réussir. Elle a formé des auteurs comme Matthew Weiner, futur créateur de « Mad Men », ou Terence Winter. « Oz », « Sex and the City » et « Sur écoute » complètent ce catalogue, et le modèle est repris par Canal+ en France, Sky au Royaume-Uni ou Super Écran au Canada."
+  },
+  {
+   "titre": "L'âge des plateformes",
+   "texte": "Les années 2000 confirment l'amélioration qualitative des séries américaines et leur immense succès public, au point que la fiction télévisée cesse d'être considérée comme un art mineur par rapport au cinéma. Les grands acteurs et les grands réalisateurs, qui longtemps voyaient la télévision comme un déclassement, s'y engagent désormais volontiers. L'étape suivante est celle des plateformes de vidéo à la demande par abonnement, Netflix, Amazon Prime Video ou Disney+, qui bouleversent à la fois le volume de production et les habitudes de consommation. Trois changements méritent d'être soulignés. D'abord, la mise en ligne d'une saison entière le même jour supprime l'attente hebdomadaire et encourage le visionnage en rafale, que les plateformes conçoivent délibérément comme un mécanisme d'accroche. Ensuite, la diffusion mondiale simultanée fait circuler des séries non anglophones auprès de publics qui ne les auraient jamais vues. Enfin, la mesure permanente des comportements de visionnage donne aux plateformes des informations très fines qui orientent leurs commandes. La série est devenue un objet culturel massif : en 2019, soixante-six pour cent des spectateurs français en regardaient chaque semaine, et trente pour cent tous les jours. Les soaps quotidiens américains, eux, ont presque disparu des grilles, alors que leurs équivalents européens comme « EastEnders » ou « Coronation Street » restent solidement installés."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quelle est la différence traditionnelle entre une série et un feuilleton ?",
+   "choix": [
+    "La série est comique, le feuilleton dramatique",
+    "Dans la série chaque épisode se suffit à lui-même, dans le feuilleton le récit se poursuit",
+    "La série passe le soir, le feuilleton l'après-midi",
+    "La série est américaine, le feuilleton européen"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Dans une série au sens strict, les personnages et les décors reviennent d'un épisode à l'autre mais chaque épisode raconte une histoire complète, que l'on peut regarder isolément. Dans un feuilleton, l'intrigue se poursuit d'un épisode au suivant, voire sur toute une saison, et il faut suivre l'ordre pour comprendre. Les productions contemporaines combinent le plus souvent les deux principes, avec une affaire résolue dans l'épisode et un arc général qui avance en arrière-plan. Le genre comique ou dramatique et l'horaire de diffusion n'entrent pas dans cette définition."
+  },
+  {
+   "q": "D'où vient le nom soap opera ?",
+   "choix": [
+    "Du décor de salle de bains des premiers épisodes",
+    "Du nom de la première héroïne du genre",
+    "Des fabricants de savon qui finançaient ces feuilletons radiophoniques",
+    "D'une expression désignant les acteurs médiocres"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Les premiers soap operas sont des feuilletons radiophoniques américains programmés l'après-midi en semaine pour toucher les femmes au foyer. Ils étaient financés par des fabricants de savon et de produits ménagers comme Procter & Gamble ou Colgate-Palmolive, d'où leur surnom d'opéras de savon. Le premier d'entre eux, « Painted Dreams », est diffusé le 20 octobre 1930 sur la station WGN. Le genre a fixé des recettes toujours employées : une large communauté de personnages, des intrigues parallèles, la sphère domestique et les fins d'épisode suspendues."
+  },
+  {
+   "q": "Quelle innovation technique la sitcom « I Love Lucy » a-t-elle imposée à partir de 1951 ?",
+   "choix": [
+    "Le tournage sur film avec trois caméras filmant simultanément",
+    "La diffusion en couleur",
+    "L'usage exclusif de rires préenregistrés",
+    "Le tournage en extérieur naturel"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "« I Love Lucy », diffusée sur CBS du 15 octobre 1951 au 6 mai 1957 avec Lucille Ball et Desi Arnaz, a abandonné le kinescope au profit du film trente-cinq millimètres et mis au point un éclairage permettant à trois caméras de filmer en même temps sous des angles différents. Ce dispositif, encore utilisé aujourd'hui, permet de tourner une scène complète devant un public. Précisément, la série ne recourait pas à des rires préenregistrés mais au rire réel de trois cents spectateurs présents en studio. La société Desilu, créée par Ball et Arnaz, produira plus tard « Star Trek »."
+  },
+  {
+   "q": "En quoi le modèle économique de HBO a-t-il changé l'écriture des séries ?",
+   "choix": [
+    "Elle imposait des épisodes plus courts",
+    "Elle vivait des abonnements et non de la publicité, ce qui autorisait des récits plus sombres",
+    "Elle diffusait uniquement des rediffusions de cinéma",
+    "Elle produisait ses séries en public"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Lancée le 8 novembre 1972 par Charles Dolan, HBO est la première chaîne payante au monde : son signal est chiffré et son revenu provient des abonnements, non de la publicité. Elle n'a donc pas à ménager des annonceurs ni à viser l'audience la plus large à chaque instant, ce qui lui permet de produire des récits lents, sombres et moralement ambigus, avec des héros peu recommandables. « Les Soprano », créée par David Chase et diffusée de 1999 à 2007, en est l'exemple le plus célèbre. Ce modèle a été repris par Canal+ en France et Sky au Royaume-Uni."
+  },
+  {
+   "q": "Quel effet la mise en ligne d'une saison entière le même jour a-t-elle sur le spectateur ?",
+   "choix": [
+    "Elle allonge la durée des épisodes",
+    "Elle supprime l'attente hebdomadaire et favorise le visionnage en rafale",
+    "Elle impose une diffusion pays par pays",
+    "Elle rend le pilote inutile"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Les plateformes de vidéo à la demande par abonnement, comme Netflix, Amazon Prime Video ou Disney+, ont pris l'habitude de publier une saison complète d'un coup. Cette pratique supprime le rendez-vous hebdomadaire qui structurait la télévision depuis ses débuts et encourage le visionnage en rafale, que les plateformes conçoivent délibérément comme un mécanisme d'accroche. Elles diffusent par ailleurs simultanément dans le monde entier, ce qui fait circuler des séries non anglophones, et mesurent en permanence les comportements de visionnage pour orienter leurs commandes."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Série télévisée",
+   "url": "https://fr.wikipedia.org/wiki/Série_télévisée"
+  },
+  {
+   "titre": "Soap opera",
+   "url": "https://fr.wikipedia.org/wiki/Soap_opera"
+  },
+  {
+   "titre": "Sitcom",
+   "url": "https://fr.wikipedia.org/wiki/Sitcom"
+  },
+  {
+   "titre": "Home Box Office",
+   "url": "https://fr.wikipedia.org/wiki/Home_Box_Office"
+  },
+  {
+   "titre": "Les Soprano",
+   "url": "https://fr.wikipedia.org/wiki/Les_Soprano"
+  },
+  {
+   "titre": "I Love Lucy",
+   "url": "https://fr.wikipedia.org/wiki/I_Love_Lucy"
+  }
+ ]
+}

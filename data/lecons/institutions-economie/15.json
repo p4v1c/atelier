@@ -1,0 +1,222 @@
+{
+  "titre": "L'école et le système éducatif français",
+  "sections": [
+    {
+      "titre": "L'architecture du système scolaire",
+      "texte": "Le système éducatif français est organisé en trois grands ensembles. L'enseignement primaire réunit l'école maternelle, qui accueille les enfants d'environ trois à six ans, et l'école élémentaire, de six à onze ans, où sont acquis les apprentissages fondamentaux que sont la lecture, l'écriture et le calcul. L'enseignement secondaire se divise en deux étapes : le collège, de onze à quinze ans, qui accueille tous les élèves d'une même classe d'âge et se conclut par le diplôme national du brevet, puis le lycée, de quinze à dix-huit ans, qui prépare au baccalauréat dans l'une des trois voies existantes. L'enseignement supérieur, enfin, rassemble les universités, les instituts et les écoles, avec des modalités d'accès très variables. L'ensemble concerne un effectif considérable : en 2020, le système comptait environ quinze millions neuf cent mille élèves, apprentis et étudiants, dont près de quatre millions deux cent mille dans le premier degré, six millions cent mille dans le second degré et trois millions cent mille dans l'enseignement supérieur. L'enseignement privé scolarise environ dix-sept pour cent des élèves ; la quasi-totalité de ces établissements, environ quatre-vingt-dix-sept pour cent, sont liés à l'État par un contrat qui les soumet aux programmes nationaux en contrepartie de la prise en charge des rémunérations des enseignants.",
+      "visuel": {
+        "type": "tableau",
+        "titre": "L'architecture du système scolaire",
+        "colonnes": [
+          "Niveau",
+          "Âges",
+          "Effectifs en 2020"
+        ],
+        "lignes": [
+          [
+            "École maternelle",
+            "Environ 3 à 6 ans",
+            "Premier degré : environ 4 200 000 élèves avec l'élémentaire"
+          ],
+          [
+            "École élémentaire",
+            "6 à 11 ans",
+            "Lecture, écriture, calcul : les apprentissages fondamentaux"
+          ],
+          [
+            "Collège",
+            "11 à 15 ans",
+            "Second degré : environ 6 100 000 élèves ; il se conclut par le diplôme national du brevet"
+          ],
+          [
+            "Lycée",
+            "15 à 18 ans",
+            "Il prépare au baccalauréat dans l'une des trois voies"
+          ],
+          [
+            "Enseignement supérieur",
+            "Après le baccalauréat",
+            "Environ 3 100 000 étudiants ; universités, instituts et écoles, aux accès très variables"
+          ]
+        ],
+        "note": "Au total, environ 15 900 000 élèves, apprentis et étudiants en 2020. L'enseignement privé scolarise environ 17 % des élèves, et 97 % de ces établissements sont liés à l'État par un contrat qui les soumet aux programmes nationaux."
+      }
+    },
+    {
+      "titre": "Les lois Jules Ferry et les principes de l'école publique",
+      "texte": "L'école républicaine se construit au début de la Troisième République autour de deux lois portées par Jules Ferry. La loi du 16 juin 1881 rend l'enseignement primaire public gratuit, en supprimant les frais de scolarité qui existaient depuis 1850. La loi du 28 mars 1882 rend l'instruction primaire obligatoire pour les enfants de six à treize ans et laïcise les programmes : l'enseignement religieux y est remplacé par une instruction morale et civique. Ces textes ne suppriment pas l'enseignement religieux, qui demeure possible dans les établissements privés et, en dehors de l'école, lors d'une journée laissée libre dans la semaine, d'abord le jeudi. Ils excluent en revanche les autorités religieuses des fonctions d'inspection. La loi Goblet du 30 octobre 1886 complète l'édifice en imposant un personnel exclusivement laïque dans les écoles publiques. Ces réformes suscitent une vive opposition, notamment dans les milieux catholiques, mais elles installent durablement trois principes qui définissent encore l'école publique : la gratuité, la laïcité et la neutralité, auxquels s'ajoute l'obligation d'instruction. Elles contribuent aussi à la diffusion de la langue française et au recul de l'analphabétisme sur l'ensemble du territoire. Elles précèdent de deux décennies la loi de séparation des Églises et de l'État de 1905, dont elles constituent une étape préparatoire."
+    },
+    {
+      "titre": "L'allongement progressif de la scolarité",
+      "texte": "L'histoire scolaire des cent cinquante dernières années est celle d'une extension continue de la durée pendant laquelle un jeune est pris en charge par le système éducatif. En 1882, l'instruction est obligatoire de six à treize ans. La réforme Berthoin de 1959 porte l'obligation scolaire à seize ans, ce qui suppose d'accueillir dans le second degré des générations entières et non plus une minorité. La loi Haby de 1975 crée le collège unique : tous les élèves suivent désormais le même cursus jusqu'à la fin de la troisième, au lieu d'être orientés très tôt vers des filières séparées. La loi d'orientation de 1989 poursuit ce mouvement en plaçant l'élève au centre du système et en fixant des objectifs chiffrés de qualification pour une classe d'âge. Plus récemment, la loi de 2019 abaisse le début de l'instruction obligatoire à trois ans, ce qui donne à l'école maternelle un statut nouveau, et institue une obligation de formation jusqu'à dix-huit ans : au-delà de seize ans, un jeune doit poursuivre des études, suivre une formation, être en apprentissage ou en dispositif d'insertion. La durée de la scolarité obligatoire est ainsi passée de sept années à treize, avec une prise en charge qui se prolonge jusqu'à la majorité.",
+      "visuel": {
+        "type": "frise",
+        "titre": "L'allongement de la scolarité obligatoire",
+        "evenements": [
+          {
+            "date": "1881-1882",
+            "label": "Les lois Jules Ferry",
+            "texte": "Gratuité du primaire public le 16 juin 1881 ; instruction obligatoire de six à treize ans et laïcisation des programmes le 28 mars 1882. La loi Goblet de 1886 impose un personnel exclusivement laïque."
+          },
+          {
+            "date": "1959",
+            "label": "Réforme Berthoin",
+            "texte": "L'obligation scolaire est portée à seize ans : il faut accueillir dans le second degré des générations entières."
+          },
+          {
+            "date": "1975",
+            "label": "Loi Haby : le collège unique",
+            "texte": "Tous les élèves suivent le même cursus jusqu'à la fin de la troisième."
+          },
+          {
+            "date": "1989",
+            "label": "Loi d'orientation",
+            "texte": "L'élève est placé au centre du système ; des objectifs chiffrés de qualification sont fixés pour une classe d'âge."
+          },
+          {
+            "date": "2019",
+            "label": "De trois à dix-huit ans",
+            "texte": "L'instruction devient obligatoire dès trois ans et une obligation de formation court jusqu'à dix-huit ans : la scolarité obligatoire passe de sept à treize années."
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Le baccalauréat",
+      "texte": "Le baccalauréat a été créé en 1808 par un décret impérial, dans le cadre de la réorganisation de l'enseignement engagée après la Révolution. Il a la particularité juridique d'être à la fois un diplôme sanctionnant la fin des études secondaires et le premier grade universitaire, ce qui explique qu'il ouvre l'accès à l'université sans sélection préalable, caractéristique du système français comparé à de nombreux systèmes étrangers. Il se décline aujourd'hui en trois voies : le baccalauréat général, le baccalauréat technologique et le baccalauréat professionnel, ce dernier ayant été créé en 1985 pour offrir une qualification professionnelle assortie d'une possibilité de poursuite d'études. Le baccalauréat général a été profondément remanié pour la session 2021 : les anciennes séries littéraire, économique et sociale, et scientifique ont disparu au profit d'un système d'enseignements de spécialité, les élèves en choisissant trois en classe de première puis en conservant deux en terminale. Depuis cette réforme, le contrôle continu compte pour quarante pour cent de la note finale et les épreuves terminales pour soixante pour cent. Le diplôme est attribué à partir d'une moyenne de dix sur vingt. À la fin des années 2010, plus de neuf candidats sur dix obtenaient le diplôme dans les voies générale et technologique.",
+      "visuel": {
+        "type": "chiffres",
+        "titre": "Le baccalauréat en repères",
+        "items": [
+          {
+            "valeur": "1808",
+            "label": "création par décret impérial ; il est à la fois un diplôme de fin d'études secondaires et le premier grade universitaire"
+          },
+          {
+            "valeur": "3",
+            "label": "voies : générale, technologique et professionnelle, cette dernière créée en 1985"
+          },
+          {
+            "valeur": "40 / 60",
+            "label": "part du contrôle continu et des épreuves terminales depuis la session 2021"
+          },
+          {
+            "valeur": "10/20",
+            "label": "moyenne à partir de laquelle le diplôme est attribué"
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Qui dirige et qui finance l'école ?",
+      "texte": "L'éducation nationale est un système fortement centralisé pour ce qui touche au contenu de l'enseignement, mais partagé avec les collectivités pour ce qui touche aux moyens matériels. L'État, par l'intermédiaire du ministère chargé de l'éducation nationale, définit les programmes applicables sur tout le territoire, recrute et rémunère les enseignants, et délivre les diplômes nationaux, ce qui garantit qu'un baccalauréat obtenu dans une académie a la même valeur que dans une autre. L'administration de ce système repose sur un échelon déconcentré, l'académie, dirigée par un recteur qui représente le ministre dans son ressort géographique. Les collectivités territoriales, quant à elles, prennent en charge les bâtiments et une partie du fonctionnement, selon une répartition simple à mémoriser : les communes sont responsables des écoles maternelles et élémentaires, les départements des collèges, les régions des lycées. Cette organisation résulte des lois de décentralisation et associe les élus locaux à la politique éducative sans leur donner la maîtrise des programmes. Les principes fondamentaux demeurent la gratuité de l'enseignement public, la laïcité, qui impose la neutralité religieuse du service et de ses agents, et la neutralité politique, qui interdit aux enseignants de faire de leur classe un lieu de propagande. Ces règles s'appliquent aussi, pour les programmes, aux établissements privés sous contrat.",
+      "visuel": {
+        "type": "tableau",
+        "titre": "Qui dirige, qui construit, qui paie ?",
+        "colonnes": [
+          "Acteur",
+          "Ce dont il a la charge"
+        ],
+        "lignes": [
+          [
+            "L'État",
+            "Les programmes applicables sur tout le territoire, le recrutement et la rémunération des enseignants, la délivrance des diplômes nationaux"
+          ],
+          [
+            "L'académie",
+            "Échelon déconcentré dirigé par un recteur, qui représente le ministre dans son ressort géographique"
+          ],
+          [
+            "La commune",
+            "Les écoles maternelles et élémentaires"
+          ],
+          [
+            "Le département",
+            "Les collèges"
+          ],
+          [
+            "La région",
+            "Les lycées"
+          ]
+        ],
+        "note": "Les collectivités prennent en charge les bâtiments et une partie du fonctionnement, sans maîtrise des programmes. Gratuité de l'enseignement public, laïcité et neutralité politique demeurent les principes fondamentaux."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Que prévoit la loi du 28 mars 1882, portée par Jules Ferry ?",
+      "choix": [
+        "La gratuité de l'enseignement primaire public",
+        "L'obligation de l'instruction primaire et la laïcité des programmes",
+        "La séparation des Églises et de l'État",
+        "La création du collège unique"
+      ],
+      "bonne": 1,
+      "difficulte": 2,
+      "explication": "La loi du 28 mars 1882 rend l'instruction primaire obligatoire pour les enfants de six à treize ans et laïcise les programmes, en remplaçant l'enseignement religieux par une instruction morale et civique. La gratuité de l'enseignement primaire public avait été établie l'année précédente, par la loi du 16 juin 1881. La séparation des Églises et de l'État date de 1905, soit plus de vingt ans plus tard, même si les lois Ferry en constituent une étape préparatoire. Le collège unique, lui, résulte de la loi Haby de 1975. La loi Goblet du 30 octobre 1886 a complété ce dispositif en imposant un personnel exclusivement laïque."
+    },
+    {
+      "q": "Depuis 2019, à partir de quel âge l'instruction est-elle obligatoire en France ?",
+      "choix": [
+        "Trois ans",
+        "Six ans",
+        "Onze ans",
+        "Seize ans"
+      ],
+      "bonne": 0,
+      "difficulte": 1,
+      "explication": "La loi de 2019 a abaissé le début de l'instruction obligatoire à trois ans, ce qui a donné à l'école maternelle un statut nouveau dans le parcours scolaire. Auparavant, l'obligation commençait à six ans, seuil fixé dès la loi de 1882. L'obligation se poursuit jusqu'à seize ans, âge fixé par la réforme Berthoin de 1959, et la même loi de 2019 a institué une obligation de formation jusqu'à dix-huit ans : au-delà de seize ans, un jeune doit être en études, en formation, en apprentissage ou dans un dispositif d'insertion. La durée de la scolarité obligatoire est ainsi passée de sept à treize années."
+    },
+    {
+      "q": "Quelle collectivité territoriale a la charge des collèges ?",
+      "choix": [
+        "La commune",
+        "Le département",
+        "La région",
+        "L'État seul"
+      ],
+      "bonne": 1,
+      "difficulte": 2,
+      "explication": "La répartition issue des lois de décentralisation confie les écoles maternelles et élémentaires aux communes, les collèges aux départements et les lycées aux régions. Ces collectivités prennent en charge les bâtiments, leur entretien et une partie du fonctionnement. L'État conserve en revanche la définition des programmes, le recrutement et la rémunération des enseignants ainsi que la délivrance des diplômes nationaux, ce qui assure l'unité du système sur tout le territoire. Cette organisation associe donc les élus locaux à la politique éducative sans leur donner la maîtrise des contenus enseignés."
+    },
+    {
+      "q": "En quelle année le baccalauréat a-t-il été créé ?",
+      "choix": [
+        "En 1789",
+        "En 1808",
+        "En 1882",
+        "En 1985"
+      ],
+      "bonne": 1,
+      "difficulte": 3,
+      "explication": "Le baccalauréat a été créé en 1808 par un décret impérial, dans le cadre de la réorganisation de l'enseignement conduite après la Révolution. Sa particularité est d'être à la fois le diplôme qui sanctionne la fin des études secondaires et le premier grade universitaire, ce qui explique qu'il ouvre l'accès à l'université sans sélection préalable. L'année 1882 correspond à la loi rendant l'instruction primaire obligatoire, et non à la création du baccalauréat. L'année 1985 est celle de la création du baccalauréat professionnel, troisième voie qui s'ajoute aux voies générale et technologique."
+    },
+    {
+      "q": "Qu'est-ce qui a changé pour le baccalauréat général lors de la session 2021 ?",
+      "choix": [
+        "Il est devenu payant",
+        "Il a été supprimé au profit d'un examen d'entrée à l'université",
+        "Les séries L, ES et S ont été remplacées par des enseignements de spécialité",
+        "Il ne comporte plus que des épreuves orales"
+      ],
+      "bonne": 2,
+      "difficulte": 2,
+      "explication": "La réforme appliquée à partir de la session 2021 a supprimé les anciennes séries du baccalauréat général, littéraire, économique et sociale, et scientifique, au profit d'un système d'enseignements de spécialité : les élèves en choisissent trois en classe de première puis en conservent deux en terminale. Le contrôle continu compte désormais pour quarante pour cent de la note finale et les épreuves terminales pour soixante pour cent. Le diplôme reste gratuit et est attribué à partir d'une moyenne de dix sur vingt. Il conserve sa qualité de premier grade universitaire, donnant accès à l'université sans sélection préalable."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Système éducatif français",
+      "url": "https://fr.wikipedia.org/wiki/Syst%C3%A8me_%C3%A9ducatif_fran%C3%A7ais"
+    },
+    {
+      "titre": "Lois Jules Ferry",
+      "url": "https://fr.wikipedia.org/wiki/Lois_Jules_Ferry"
+    },
+    {
+      "titre": "Baccalauréat en France",
+      "url": "https://fr.wikipedia.org/wiki/Baccalaur%C3%A9at_en_France"
+    }
+  ]
+}

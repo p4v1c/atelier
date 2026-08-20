@@ -1,0 +1,154 @@
+{
+ "titre": "Le réalisme et l'art du XIXe siècle",
+ "sections": [
+  {
+   "titre": "Un siècle de ruptures : le Salon, l'académisme et la contestation",
+   "texte": "Au milieu du XIXe siècle, la vie artistique française est organisée autour d'une institution unique, le Salon, exposition officielle où un jury décide de ce qui mérite d'être montré. Cette structure impose une hiérarchie des genres héritée des académies : la peinture d'histoire, mythologique ou religieuse, occupe le sommet, suivie du portrait, de la scène de genre, du paysage et enfin de la nature morte. On appelle académisme cet art officiel, techniquement irréprochable et fidèle aux sujets nobles. Or trois forces viennent bousculer cet édifice. La révolution de 1848 met au premier plan la question sociale et donne une dignité politique aux classes populaires. L'essor de la photographie, née dans les mêmes décennies, retire à la peinture le monopole de la ressemblance et l'oblige à repenser sa raison d'être. Le socialisme, enfin, fournit un cadre de pensée à ceux qui veulent que l'art parle du travail et de la misère. De cette conjonction naît le réalisme, mouvement apparu en France et en Grande-Bretagne au milieu du siècle, défini par une quête du réel et une représentation brute de la vie quotidienne. Il s'oppose frontalement à l'académisme, mais aussi au romantisme, dont il refuse l'exaltation et les sujets exotiques ou historiques. Ses principes tiennent en peu de mots : refus de l'idéalisation, choix de sujets ordinaires et populaires, exploration des réalités sociales, rupture avec les règles de l'école. Cette redéfinition prépare directement le terrain des avant-gardes, à commencer par l'impressionnisme.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "La hiérarchie des genres imposée par le Salon",
+    "colonnes": [
+     "Rang",
+     "Genre",
+     "Ce qu'il représente"
+    ],
+    "lignes": [
+     [
+      "1",
+      "Peinture d'histoire",
+      "Sujets historiques, mythologiques ou religieux, au grand format"
+     ],
+     [
+      "2",
+      "Portrait",
+      "Figures individuelles, souvent de commande"
+     ],
+     [
+      "3",
+      "Scène de genre",
+      "Épisodes de la vie quotidienne, au petit format"
+     ],
+     [
+      "4",
+      "Paysage",
+      "Nature composée en atelier d'après des études"
+     ],
+     [
+      "5",
+      "Nature morte",
+      "Objets, fleurs, gibier"
+     ]
+    ],
+    "note": "Le réalisme renverse cette échelle : Courbet peint des paysans au format réservé aux rois."
+   }
+  },
+  {
+   "titre": "Gustave Courbet, chef de file du réalisme",
+   "texte": "Gustave Courbet, né à Ornans le 10 juin 1819 et mort à La Tour-de-Peilz, en Suisse, le 31 décembre 1877, incarne le réalisme au point d'en revendiquer le nom. Sa transgression majeure est une affaire d'échelle : il traite des sujets ordinaires au format monumental jusque-là réservé à la peinture d'histoire. « Un enterrement à Ornans », peint en 1850 et conservé au musée d'Orsay, aligne sur plus de six mètres les habitants d'un village comtois autour d'une fosse, sans héros, sans ciel glorieux, sans hiérarchie entre les figures : le scandale vient de ce que des paysans y occupent la place des rois. « Les Casseurs de pierres », de 1849, montrent deux ouvriers de la route, un vieillard et un adolescent, réduits à leur geste de travail. En 1855, l'Exposition universelle de Paris refusant plusieurs de ses toiles, Courbet fait construire à ses frais un bâtiment voisin et y organise une exposition dissidente intitulée « Le Réalisme, par Gustave Courbet » : c'est la première exposition personnelle organisée par un artiste contre l'institution, et l'acte de naissance public du mot. Il y montre « L'Atelier du peintre », vaste allégorie réelle également conservée au musée d'Orsay. « L'Origine du monde », peinte en 1866, restera longtemps cachée. Républicain engagé, élu pendant la Commune de Paris en 1871, il est accusé d'avoir fait abattre la colonne Vendôme, condamné à en payer la reconstruction et contraint à l'exil en Suisse.",
+   "visuel": {
+    "type": "image",
+    "image": "am-courbet-enterrement",
+    "legende": "Gustave Courbet, « Un enterrement à Ornans », 1850 : plus de six mètres de toile pour les habitants d'un village comtois, sans héros ni ciel glorieux.",
+    "alt": "Très longue toile sombre : une foule de villageois en habits noirs, prêtres en surplis, femmes en coiffe et un chien, alignés au bord d'une fosse ouverte devant une falaise, sous un ciel gris."
+   }
+  },
+  {
+   "titre": "Millet, Barbizon et la dignité du monde paysan",
+   "texte": "Jean-François Millet, né à Gruchy, hameau de Gréville-Hague dans le Cotentin, le 4 octobre 1814 et mort le 20 janvier 1875, est l'un des fondateurs de l'école de Barbizon. Ce nom désigne un village situé en lisière de la forêt de Fontainebleau où, à partir des années 1830 et 1840, des peintres viennent s'installer pour travailler devant le motif, loin des ateliers parisiens. Ils préparent ainsi, techniquement et mentalement, le travail en plein air des impressionnistes. Millet y consacre son œuvre au monde paysan, non comme décor pittoresque mais comme condition humaine. « Le Semeur », de 1850, réduit la scène à une silhouette en marche dont le geste occupe tout le champ. « Des glaneuses », peint en 1857, montre trois femmes pauvres courbées pour ramasser les épis laissés après la moisson, droit ancien accordé aux plus démunis : le tableau fut reçu par une partie de la critique comme une provocation politique. « L'Angélus », de 1859, où un couple interrompt son travail à l'heure de la prière, deviendra l'une des images les plus reproduites du siècle, puis l'une des plus détournées par les artistes du XXe siècle. À la fin de sa vie, Millet délaisse peu à peu les scènes de travail pour les atmosphères et les paysages, explorant la lumière et l'ombre d'une manière qui annonce l'impressionnisme. Monet, Pissarro et surtout Van Gogh, qui recopia plusieurs de ses compositions, se réclameront de lui."
+  },
+  {
+   "titre": "Le réalisme hors de France et ses variantes",
+   "texte": "Le réalisme n'est pas une affaire française. Il apparaît simultanément en Grande-Bretagne et gagne rapidement toute l'Europe, prenant dans chaque pays la couleur de ses conflits sociaux. En France même, le mouvement compte plusieurs sensibilités. Honoré Daumier, d'abord caricaturiste de presse, transporte dans la peinture et la lithographie un regard aigu sur la justice, les avocats, les voyageurs des wagons de troisième classe et les petites gens des villes. Camille Corot, lui, fait le lien entre la tradition du paysage classique et la modernité : ses vues d'Italie et ses sous-bois argentés, travaillés d'après nature, préparent eux aussi l'impressionnisme. En Belgique, Constantin Meunier consacre son œuvre au monde industriel, aux mineurs et aux métallurgistes, et Jan Verhas peint la société de son temps. En Allemagne, Wilhelm Leibl observe avec une minutie presque photographique les paysans bavarois. En Russie, le mouvement prend une ampleur particulière avec Ilia Répine, dont les grandes compositions dénoncent la condition du peuple, et Isaac Levitan, qui porte le paysage russe à un sommet d'intensité. Édouard Manet, souvent rattaché au réalisme avant de devenir la figure de proue d'une génération nouvelle, fait le pont entre ce mouvement et l'impressionnisme. Partout, le programme est le même : redéfinir les catégories esthétiques, faire entrer dans l'art des sujets que l'académie jugeait indignes, et affirmer que le peintre doit peindre son époque plutôt que de l'ignorer."
+  },
+  {
+   "titre": "Rodin et la renaissance de la sculpture",
+   "texte": "La sculpture connaît à la fin du siècle une transformation comparable, portée par Auguste Rodin, né à Paris le 12 novembre 1840 et mort à Meudon le 17 novembre 1917. Dès « L'Âge d'airain », en 1877, aujourd'hui à l'Alte Nationalgalerie de Berlin, son réalisme est si troublant qu'on l'accuse d'avoir moulé sa statue sur un modèle vivant : le scandale le rend célèbre. En 1880, l'État lui commande une porte monumentale pour un futur musée des arts décoratifs ; « La Porte de l'Enfer », inspirée de Dante, l'occupera jusqu'à sa mort en 1917 et restera inachevée, mais elle servira de réservoir de figures pour toute son œuvre. C'est d'elle que sortent « Le Penseur », modelé entre 1880 et 1882, et « Le Baiser », dont la version en marbre de 1886 se trouve à la Ny Carlsberg Glyptotek de Copenhague. « Les Bourgeois de Calais », achevés en 1889, refusent l'héroïsme conventionnel en montrant six hommes accablés, placés au niveau du sol ; des exemplaires se dressent à Calais et près du palais de Westminster à Londres. Le « Monument à Balzac », de 1898, réduit l'écrivain à une masse enveloppée dans une robe de chambre et fut refusé par ses commanditaires. Rodin pratique l'assemblage, la multiplication et le fragment, et recourt au procédé mécanique d'agrandissement d'Henri Lebossé. Le musée Rodin, ouvert à l'hôtel Biron en 1919, conserve environ sept mille sculptures.",
+   "visuel": {
+    "type": "image",
+    "image": "am-rodin-penseur",
+    "legende": "Auguste Rodin, « Le Penseur », modelé entre 1880 et 1882 : une figure née de « La Porte de l'Enfer », devenue autonome et agrandie.",
+    "alt": "Sculpture en bronze vert-de-gris sur un socle de pierre : un homme nu assis, courbé en avant, le coude sur le genou opposé et le menton posé sur le dos de la main."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel geste de Gustave Courbet, en 1855, marque l'acte de naissance public du mot réalisme ?",
+   "choix": [
+    "La publication d'un manifeste dans un journal socialiste",
+    "L'organisation d'une exposition dissidente intitulée « Le Réalisme, par Gustave Courbet »",
+    "Le refus de la Légion d'honneur",
+    "La destruction de la colonne Vendôme"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "En 1855, l'Exposition universelle de Paris ayant refusé plusieurs de ses toiles, Courbet fit construire à ses frais un pavillon voisin et y organisa une exposition intitulée « Le Réalisme, par Gustave Courbet ». C'est la première fois qu'un artiste répond ainsi à l'institution par une exposition personnelle indépendante, et le geste installe le mot dans le débat public. Il y montrait notamment « L'Atelier du peintre », aujourd'hui au musée d'Orsay. L'affaire de la colonne Vendôme est bien réelle, mais elle date de la Commune de Paris, en 1871, et lui valut l'exil en Suisse. Ce type d'exposition indépendante servira de modèle aux impressionnistes en 1874."
+  },
+  {
+   "q": "Pourquoi « Un enterrement à Ornans » a-t-il choqué en 1850 ?",
+   "choix": [
+    "Parce qu'il représentait une scène religieuse interdite",
+    "Parce qu'il utilisait des couleurs jugées trop vives",
+    "Parce qu'il donnait à des villageois ordinaires le format monumental réservé à la peinture d'histoire",
+    "Parce qu'il avait été peint d'après une photographie"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La provocation de Courbet tient à l'échelle. La hiérarchie académique réservait les très grands formats à la peinture d'histoire, mythologique ou religieuse ; en donnant plus de six mètres de toile à l'enterrement d'un habitant d'Ornans, Courbet plaçait des paysans comtois là où l'on attendait des rois ou des saints. S'y ajoute l'absence de héros, de hiérarchie entre les figures et de tout effet de glorification. Le tableau, daté de 1850, est conservé au musée d'Orsay. Cette transgression des hiérarchies est le cœur du réalisme, bien plus que la simple exactitude de la représentation."
+  },
+  {
+   "q": "Quel village de la lisière de la forêt de Fontainebleau a donné son nom à une école de paysagistes ?",
+   "choix": [
+    "Barbizon",
+    "Auvers-sur-Oise",
+    "Giverny",
+    "Pont-Aven"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "L'école de Barbizon doit son nom à ce village situé en lisière de la forêt de Fontainebleau, où des peintres s'installent à partir des années 1830 et 1840 pour travailler devant le motif. Jean-François Millet en est l'un des fondateurs. Cette pratique du travail en plein air prépare directement celle des impressionnistes. Les autres lieux proposés sont bien liés à l'histoire de la peinture, mais plus tard : Pont-Aven avec Gauguin, Giverny avec Monet, Auvers-sur-Oise avec Van Gogh. Barbizon fait le lien entre le paysage romantique et la modernité."
+  },
+  {
+   "q": "Quelle œuvre de Millet, peinte en 1857, montre trois femmes ramassant les épis laissés après la moisson ?",
+   "choix": [
+    "« Le Semeur »",
+    "« L'Angélus »",
+    "« Un enterrement à Ornans »",
+    "« Des glaneuses »"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "« Des glaneuses », peint en 1857, représente trois femmes pauvres courbées pour ramasser les épis abandonnés après la moisson, un droit ancien accordé aux plus démunis. Une partie de la critique y vit une provocation politique, tant le sujet rappelait la misère rurale. « Le Semeur », de 1850, montre une silhouette unique en marche ; « L'Angélus », de 1859, un couple interrompant son travail pour la prière, tableau qui deviendra l'un des plus reproduits et des plus détournés du siècle. « Un enterrement à Ornans » est de Courbet. Millet influença Monet, Pissarro et surtout Van Gogh, qui recopia plusieurs de ses compositions."
+  },
+  {
+   "q": "Quelle commande, reçue par Rodin en 1880, l'occupa jusqu'à sa mort et lui servit de réservoir de figures ?",
+   "choix": [
+    "« Les Bourgeois de Calais »",
+    "« La Porte de l'Enfer »",
+    "« Le Monument à Balzac »",
+    "« L'Âge d'airain »"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "« La Porte de l'Enfer », commandée en 1880 pour un futur musée des arts décoratifs et inspirée de Dante, occupa Rodin jusqu'en 1917 sans jamais être achevée. Elle lui servit de matrice : « Le Penseur », modelé entre 1880 et 1882, et « Le Baiser » en sont issus avant de devenir des œuvres autonomes. « L'Âge d'airain », de 1877, est antérieur et lui valut d'être accusé d'avoir moulé sa statue sur un modèle vivant. « Les Bourgeois de Calais » datent de 1889 et le « Monument à Balzac » de 1898. Rodin pratiquait couramment l'assemblage, la multiplication et le fragment, ce qui explique cette circulation des figures d'une œuvre à l'autre."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Réalisme (peinture)",
+   "url": "https://fr.wikipedia.org/wiki/R%C3%A9alisme_(peinture)"
+  },
+  {
+   "titre": "Gustave Courbet",
+   "url": "https://fr.wikipedia.org/wiki/Gustave_Courbet"
+  },
+  {
+   "titre": "Jean-François Millet",
+   "url": "https://fr.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Millet"
+  },
+  {
+   "titre": "Auguste Rodin",
+   "url": "https://fr.wikipedia.org/wiki/Auguste_Rodin"
+  }
+ ]
+}

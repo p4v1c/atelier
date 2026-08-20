@@ -1,0 +1,177 @@
+{
+ "titre": "Grandes expériences et savants de l'histoire des sciences",
+ "sections": [
+  {
+   "titre": "Archimède et la poussée des fluides",
+   "texte": "L'une des premières lois quantitatives de la physique nous vient du mathématicien grec Archimède, qui travaillait à Syracuse au troisième siècle avant notre ère. Son théorème énonce que tout corps plongé dans un fluide au repos, entièrement mouillé par celui-ci ou traversant sa surface libre, subit une force verticale dirigée de bas en haut. Cette poussée est égale au poids du fluide déplacé : elle se calcule en multipliant la masse volumique du fluide par le volume déplacé et par l'intensité de la pesanteur. La conséquence est immédiate : un corps flotte lorsque la poussée équilibre son poids, ce qui revient à comparer sa masse volumique moyenne à celle du fluide. Un iceberg, à peine moins dense que l'eau de mer, flotte ainsi avec environ 90 pour cent de son volume immergé, ce qui explique la dangerosité de sa partie invisible. La légende, rapportée bien après les faits, veut qu'Archimède ait eu l'intuition du principe dans son bain et qu'il ait traversé Syracuse en criant Eurêka, c'est-à-dire j'ai trouvé. Le roi Hiéron lui avait demandé de vérifier, sans l'abîmer, si sa couronne d'or contenait de l'argent ; en comparant les volumes d'eau déplacés par la couronne et par une masse égale d'or pur, on pouvait détecter la fraude. Le principe régit encore aujourd'hui le lest des navires, la plongée des sous-marins et l'ascension des ballons dans l'air."
+  },
+  {
+   "titre": "Galilée et la naissance de la méthode expérimentale",
+   "texte": "Galilée, né à Pise le 15 février 1564 et mort à Arcetri le 8 janvier 1642, occupe une place charnière dans l'histoire des sciences. Sa contribution décisive n'est pas seulement un ensemble de résultats, mais une manière de faire : confronter systématiquement les affirmations à l'expérience et exprimer les lois obtenues en langage mathématique. Contre la physique héritée d'Aristote, il établit les principes fondamentaux du mouvement des corps, en particulier ceux de la chute libre et le principe d'inertie, qui deviendra la première loi de Newton. Il utilise le plan incliné pour ralentir la chute et la rendre mesurable avec les instruments de son temps, et il découvre la régularité des oscillations du pendule simple, propriété qui servira longtemps à mesurer le temps. En 1609, il perfectionne la lunette venue des Pays-Bas et en fait un instrument astronomique capable de grossir jusqu'à trente fois. Les observations s'enchaînent alors : la Lune se révèle couverte de montagnes et de cratères, donc semblable à la Terre et non parfaite ; le 7 janvier 1610, il identifie quatre satellites en orbite autour de Jupiter ; il observe les phases de Vénus, difficilement compatibles avec le système géocentrique. Défenseur actif de l'héliocentrisme, il est jugé en 1633 et condamné, alors même qu'il ne disposait pas encore de preuve directe du mouvement de la Terre.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Galilée et sa lunette",
+    "evenements": [
+     {
+      "date": "1609",
+      "label": "La lunette devient un instrument astronomique",
+      "texte": "Galilée perfectionne la lunette venue des Pays-Bas jusqu'à un grossissement de trente fois."
+     },
+     {
+      "date": "7 janvier 1610",
+      "label": "Quatre satellites autour de Jupiter",
+      "texte": "Des astres tournent donc autour d'autre chose que la Terre. Il observe aussi les montagnes de la Lune et les phases de Vénus."
+     },
+     {
+      "date": "1633",
+      "label": "Le procès",
+      "texte": "Défenseur de l'héliocentrisme, il est jugé et condamné, sans disposer encore d'une preuve directe du mouvement de la Terre."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Lavoisier, la balance et la conservation de la masse",
+   "texte": "Antoine Lavoisier, né à Paris le 26 août 1743 et guillotiné le 8 mai 1794 sous la Terreur, est considéré comme le fondateur de la chimie moderne. Son instrument de prédilection est la balance : en pesant systématiquement les réactifs et les produits, y compris les gaz, il transforme une discipline encore largement qualitative en science quantitative. Ses expériences sur la combustion et la calcination des métaux ruinent la théorie alors dominante du phlogistique, selon laquelle brûler consistait à perdre un principe inflammable. Lavoisier montre au contraire que la combustion est une combinaison avec un gaz de l'air, qu'il nomme oxygène en 1779, ce qui explique pourquoi un métal calciné devient plus lourd et non plus léger. Avec Pierre-Simon Laplace, il réalise l'analyse et la synthèse de l'eau, démontrant qu'elle est composée d'hydrogène et d'oxygène et renversant ainsi deux mille cinq cents ans de doctrine aristotélicienne qui en faisait un élément. De ses mesures il tire un principe capital : dans toutes les opérations, la quantité de matière avant et après reste égale, ce que la tradition scolaire résume par la formule selon laquelle rien ne se perd et rien ne se crée. En 1787, sa Méthode de nomenclature chimique dote la discipline d'un vocabulaire rationnel encore largement en usage, et son Traité élémentaire de chimie paraît en 1789. Son épouse Marie-Anne Paulze collabora à ses travaux comme traductrice et dessinatrice."
+  },
+  {
+   "titre": "Rutherford et l'expérience de la feuille d'or",
+   "texte": "Au début du vingtième siècle, le modèle atomique en vigueur était celui de Joseph John Thomson, souvent décrit comme un pudding : une sphère de charge positive diffuse dans laquelle seraient plantés les électrons. Pour le tester, Hans Geiger et Ernest Marsden réalisent en 1909, sous la direction d'Ernest Rutherford, une expérience d'une grande simplicité de principe. Ils bombardent une feuille d'or extrêmement mince avec des particules alpha, qui sont des noyaux d'hélium, et repèrent les impacts grâce aux scintillations produites sur un écran de sulfure de zinc. Si la charge positive était uniformément répartie, toutes les particules devaient traverser en étant à peine déviées. C'est effectivement le cas de l'immense majorité d'entre elles, mais environ un dix-millième subit une déviation importante, certaines revenant même vers la source. Rutherford exprima sa stupéfaction par une comparaison restée célèbre : c'était presque aussi incroyable que de tirer un obus de plusieurs centaines de kilogrammes sur une feuille de papier et de le voir rebondir. L'interprétation s'imposa : l'atome est essentiellement constitué de vide, et toute la charge positive est concentrée dans un noyau minuscule, environ cent mille fois plus petit que l'atome lui-même. Les mesures de déviation permirent même une première estimation quantitative, situant le noyau d'or aux alentours de 2,7 fois dix puissance moins quatorze mètre.",
+   "visuel": {
+    "type": "image",
+    "image": "pc-rutherford-feuille-or",
+    "legende": "En haut, ce que prévoyait le modèle du pudding de Thomson : toutes les particules alpha traversent. En bas, ce que l'on observe : un noyau minuscule renvoie certaines particules vers la source.",
+    "alt": "Deux schémas superposés. En haut, une sphère rose parsemée d'électrons traversée de part en part par des flèches rectilignes. En bas, une sphère jaune presque vide avec un petit noyau rouge au centre : la plupart des flèches passent tout droit, quelques-unes sont fortement déviées, l'une repart vers l'arrière."
+   }
+  },
+  {
+   "titre": "Marie Curie, une vie de recherche",
+   "texte": "Née à Varsovie le 7 novembre 1867 et morte en France le 4 juillet 1934, Marie Curie occupe une place unique dans l'histoire des sciences. Venue étudier à Paris, elle épouse Pierre Curie en 1895 et entreprend l'étude des rayonnements découverts par Henri Becquerel. Sa contribution conceptuelle est décisive : elle démontre que la radioactivité est une propriété de l'atome lui-même, et non une propriété chimique dépendant des combinaisons dans lesquelles il entre. En 1898, avec Pierre, elle découvre deux nouveaux éléments, le polonium, nommé en hommage à sa patrie, et le radium, en traitant des tonnes de pechblende dans des conditions matérielles très difficiles. Ce travail lui vaut le prix Nobel de physique en 1903, partagé avec Pierre Curie et Henri Becquerel, puis le prix Nobel de chimie en 1911 pour l'isolement du radium. Elle est la première femme à recevoir un prix Nobel et demeure la seule personne distinguée dans deux disciplines scientifiques différentes. Après la mort accidentelle de Pierre en 1906, elle devient la première femme à diriger un laboratoire universitaire en France, puis en 1908 la première professeure titulaire de la Sorbonne. Pendant la Première Guerre mondiale, elle met au point des unités radiologiques mobiles pour le front. À la tête de l'Institut du radium, elle forma de nombreux chercheurs, dont beaucoup de femmes.",
+   "visuels": [
+    {
+     "type": "image",
+     "image": "pc-marie-curie",
+     "legende": "Marie Curie, seule personne distinguée par un prix Nobel dans deux disciplines scientifiques différentes.",
+     "alt": "Portrait photographique en noir et blanc de Marie Curie, cheveux relevés, veste sombre, regardant vers l'objectif."
+    },
+    {
+     "type": "frise",
+     "titre": "Marie Curie, les dates",
+     "evenements": [
+      {
+       "date": "1867",
+       "label": "Naissance à Varsovie"
+      },
+      {
+       "date": "1898",
+       "label": "Découverte du polonium et du radium",
+       "texte": "Avec Pierre Curie, en traitant des tonnes de pechblende."
+      },
+      {
+       "date": "1903",
+       "label": "Prix Nobel de physique",
+       "texte": "Partagé avec Pierre Curie et Henri Becquerel : première femme à recevoir un Nobel."
+      },
+      {
+       "date": "1908",
+       "label": "Première professeure titulaire de la Sorbonne"
+      },
+      {
+       "date": "1911",
+       "label": "Prix Nobel de chimie",
+       "texte": "Pour l'isolement du radium."
+      },
+      {
+       "date": "1934",
+       "label": "Mort en France"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Que dit le théorème d'Archimède ?",
+   "choix": [
+    "Tout corps plongé dans un fluide subit une force verticale dirigée de bas en haut, égale au poids du fluide déplacé",
+    "Tout corps plongé dans un fluide perd la totalité de son poids",
+    "La pression dans un liquide est la même en tout point, quelle que soit la profondeur",
+    "Un corps flotte si sa masse est inférieure à un kilogramme"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le théorème énonce que tout corps plongé dans un fluide au repos subit une force verticale dirigée de bas en haut, dont l'intensité est égale au poids du fluide déplacé. On la calcule en multipliant la masse volumique du fluide par le volume déplacé et par l'intensité de la pesanteur. Le corps ne perd pas son poids : la poussée s'y oppose simplement, et la flottaison correspond au cas où les deux se compensent exactement. C'est donc la masse volumique moyenne du corps, et non sa masse seule, qui décide s'il flotte ou coule. Un iceberg flotte avec environ 90 pour cent de son volume immergé."
+  },
+  {
+   "q": "Quelle observation de Galilée en 1610 apportait un argument fort contre l'idée que tout tourne autour de la Terre ?",
+   "choix": [
+    "La découverte des taches solaires",
+    "La découverte de quatre satellites en orbite autour de Jupiter",
+    "La mesure de la vitesse de la lumière",
+    "L'observation d'une comète"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Le 7 janvier 1610, avec la lunette qu'il avait perfectionnée l'année précédente et qui grossissait jusqu'à trente fois, Galilée identifie quatre satellites tournant autour de Jupiter. L'observation est capitale : elle montre qu'il existe des astres qui ne tournent pas autour de la Terre, ce qui ruine l'idée d'un centre unique du monde. Il observe également les phases de Vénus, difficilement compatibles avec le géocentrisme, ainsi que les montagnes et cratères de la Lune. La mesure de la vitesse de la lumière ne sera réussie qu'en 1676 par Ole Rømer. Galilée fut jugé et condamné en 1633 pour son soutien à l'héliocentrisme."
+  },
+  {
+   "q": "Quelle théorie Lavoisier a-t-il réfutée par ses expériences sur la combustion ?",
+   "choix": [
+    "La théorie atomique",
+    "La théorie de la relativité",
+    "La théorie du phlogistique",
+    "La théorie cinétique des gaz"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La théorie du phlogistique supposait que brûler consistait pour un corps à perdre un principe inflammable. Lavoisier, en pesant soigneusement réactifs et produits, montra au contraire qu'un métal calciné devient plus lourd, ce qui s'explique par sa combinaison avec un gaz de l'air, qu'il nomma oxygène en 1779. Ses mesures le conduisirent au principe de conservation de la matière, selon lequel la quantité de matière avant et après une opération reste la même. Il réalisa aussi avec Laplace l'analyse et la synthèse de l'eau, prouvant qu'elle n'est pas un élément mais un composé d'hydrogène et d'oxygène."
+  },
+  {
+   "q": "Quelle conclusion l'expérience de la feuille d'or de 1909 a-t-elle permis de tirer ?",
+   "choix": [
+    "Que l'atome est une sphère pleine et uniforme",
+    "Que les électrons portent une charge négative",
+    "Que la lumière est composée de photons",
+    "Que la charge positive de l'atome est concentrée dans un noyau minuscule"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "En bombardant une feuille d'or très mince avec des particules alpha, Geiger et Marsden constatèrent que l'immense majorité des particules traversait sans dévier, mais qu'environ un dix-millième subissait une forte déviation, certaines revenant vers la source. Un tel résultat était impossible si la charge positive était diffuse comme le supposait le modèle de Thomson. Rutherford en conclut que l'atome est essentiellement vide et que sa charge positive se concentre dans un noyau environ cent mille fois plus petit que l'atome. Les mesures permirent même d'estimer le noyau d'or à environ 2,7 fois dix puissance moins quatorze mètre."
+  },
+  {
+   "q": "Pourquoi la carrière scientifique de Marie Curie est-elle exceptionnelle ?",
+   "choix": [
+    "Elle est la seule personne à avoir reçu un prix Nobel dans deux disciplines scientifiques différentes",
+    "Elle a reçu trois prix Nobel de physique",
+    "Elle a découvert l'élément uranium",
+    "Elle a été la première femme à diriger l'Académie des sciences"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Marie Curie reçut le prix Nobel de physique en 1903, partagé avec Pierre Curie et Henri Becquerel, puis le prix Nobel de chimie en 1911 pour l'isolement du radium : elle demeure la seule personne distinguée dans deux disciplines scientifiques distinctes, et fut la première femme à recevoir un Nobel. Elle n'a pas découvert l'uranium, connu depuis le dix-huitième siècle, mais le polonium et le radium en 1898, en traitant des tonnes de pechblende. Sa contribution conceptuelle majeure fut de démontrer que la radioactivité est une propriété de l'atome et non une propriété chimique. Elle devint en 1908 la première professeure titulaire de la Sorbonne."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Poussée d'Archimède",
+   "url": "https://fr.wikipedia.org/wiki/Pouss%C3%A9e_d%27Archim%C3%A8de"
+  },
+  {
+   "titre": "Galilée (savant)",
+   "url": "https://fr.wikipedia.org/wiki/Galil%C3%A9e_(savant)"
+  },
+  {
+   "titre": "Antoine Lavoisier",
+   "url": "https://fr.wikipedia.org/wiki/Antoine_Lavoisier"
+  },
+  {
+   "titre": "Expérience de Rutherford",
+   "url": "https://fr.wikipedia.org/wiki/Exp%C3%A9rience_de_Rutherford"
+  },
+  {
+   "titre": "Marie Curie",
+   "url": "https://fr.wikipedia.org/wiki/Marie_Curie"
+  }
+ ]
+}

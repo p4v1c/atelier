@@ -1,0 +1,197 @@
+{
+  "titre": "L'impôt et le budget de l'État",
+  "sections": [
+    {
+      "titre": "Pourquoi l'impôt ?",
+      "texte": "L'impôt est un prélèvement obligatoire, opéré sans contrepartie directe, destiné à financer les dépenses publiques. Cette absence de contrepartie individualisée le distingue de la redevance, payée en échange d'un service précis, et des cotisations sociales, qui ouvrent des droits à prestations. Le principe du consentement à l'impôt occupe une place centrale dans l'histoire politique française. L'article 13 de la Déclaration des droits de l'homme et du citoyen de 1789 énonce que pour l'entretien de la force publique et pour les dépenses d'administration une contribution commune est indispensable, et qu'elle doit être également répartie entre tous les citoyens en raison de leurs facultés. L'article 14 ajoute que les citoyens ont le droit de constater par eux-mêmes ou par leurs représentants la nécessité de la contribution publique, de la consentir librement et d'en suivre l'emploi. C'est pourquoi seul le Parlement peut créer un impôt ou en fixer les règles. L'impôt remplit plusieurs fonctions. Sa fonction financière consiste à procurer les ressources nécessaires aux services publics : éducation, sécurité, justice, infrastructures. Sa fonction redistributive vise à réduire les écarts de revenus, notamment par la progressivité. Sa fonction incitative conduit à taxer davantage certains comportements jugés nuisibles ou à accorder des avantages fiscaux pour orienter les choix des ménages et des entreprises.",
+      "visuel": {
+        "type": "tableau",
+        "titre": "Les trois fonctions de l'impôt",
+        "colonnes": [
+          "Fonction",
+          "Ce qu'elle vise"
+        ],
+        "lignes": [
+          [
+            "Financière",
+            "Procurer les ressources nécessaires aux services publics : éducation, sécurité, justice, infrastructures"
+          ],
+          [
+            "Redistributive",
+            "Réduire les écarts de revenus, notamment par la progressivité"
+          ],
+          [
+            "Incitative",
+            "Taxer davantage certains comportements jugés nuisibles, ou accorder des avantages fiscaux pour orienter les choix des ménages et des entreprises"
+          ]
+        ],
+        "note": "L'impôt est un prélèvement obligatoire sans contrepartie directe : il se distingue de la redevance, payée en échange d'un service précis, et des cotisations sociales, qui ouvrent des droits à prestations. Les articles 13 et 14 de la Déclaration de 1789 fondent le consentement à l'impôt."
+      }
+    },
+    {
+      "titre": "Les grands impôts français",
+      "texte": "On distingue les impôts directs, payés et supportés par le contribuable lui-même, et les impôts indirects, acquittés par un intermédiaire et inclus dans le prix des biens. L'impôt sur le revenu, instauré en France en 1914 et 1917, frappe les revenus des personnes physiques. Il est progressif : le revenu imposable est découpé en tranches auxquelles s'appliquent des taux croissants, si bien que le taux moyen augmente avec le revenu. Le mécanisme du quotient familial tient compte de la composition du foyer. Depuis 2019, il est collecté par prélèvement à la source. La taxe sur la valeur ajoutée, imaginée par Maurice Lauré et instituée en 1954, est un impôt indirect sur la consommation, appliqué à chaque étape de la production mais supporté au final par le consommateur ; elle comporte un taux normal et des taux réduits pour certains biens et services. Elle constitue la première recette fiscale de l'État. L'impôt sur les sociétés porte sur les bénéfices des entreprises. Les collectivités territoriales perçoivent notamment les taxes foncières. S'y ajoutent des accises sur les carburants, le tabac et l'alcool. Un impôt est dit proportionnel lorsque son taux est identique quel que soit le montant imposé, comme la taxe sur la valeur ajoutée, et progressif lorsque ce taux augmente avec la base imposable.",
+      "visuel": {
+        "type": "tableau",
+        "titre": "Les grands impôts français",
+        "colonnes": [
+          "Impôt",
+          "Direct ou indirect",
+          "Ce qu'il frappe",
+          "Repères"
+        ],
+        "lignes": [
+          [
+            "Impôt sur le revenu",
+            "Direct",
+            "Les revenus des personnes physiques",
+            "Instauré en 1914 et 1917 ; progressif par tranches ; quotient familial ; prélèvement à la source depuis 2019"
+          ],
+          [
+            "Taxe sur la valeur ajoutée",
+            "Indirect",
+            "La consommation, à chaque étape de la production",
+            "Imaginée par Maurice Lauré et instituée en 1954 ; taux normal et taux réduits ; première recette fiscale de l'État"
+          ],
+          [
+            "Impôt sur les sociétés",
+            "Direct",
+            "Les bénéfices des entreprises",
+            "Payé par l'entreprise elle-même"
+          ],
+          [
+            "Taxes foncières",
+            "Direct",
+            "La propriété immobilière",
+            "Perçues par les collectivités territoriales"
+          ],
+          [
+            "Accises",
+            "Indirect",
+            "Les carburants, le tabac, l'alcool",
+            "Incluses dans le prix payé par le consommateur"
+          ]
+        ],
+        "note": "Un impôt est proportionnel lorsque son taux est identique quel que soit le montant imposé, comme la taxe sur la valeur ajoutée, et progressif lorsque ce taux augmente avec la base imposable."
+      }
+    },
+    {
+      "titre": "Le budget de l'État et la loi de finances",
+      "texte": "Le budget de l'État est l'ensemble des comptes qui décrivent, pour une année civile, ses ressources et ses charges. Il est arrêté par une loi de finances votée par le Parlement. La préparation commence au printemps sous l'autorité du Gouvernement, les ministères négociant leurs crédits avec le ministère chargé du budget. Le projet de loi de finances est déposé à l'automne, obligatoirement en premier lieu devant l'Assemblée nationale, et discuté selon une procédure encadrée par des délais stricts. Il comprend une première partie consacrée aux recettes et à l'équilibre général, qui doit être votée avant l'examen de la seconde, relative aux dépenses. La loi organique relative aux lois de finances du 1er août 2001, entrée pleinement en vigueur en 2006, a profondément rénové cette présentation : les crédits ne sont plus votés par nature de dépense mais par destination, au sein de missions elles-mêmes découpées en programmes assortis d'objectifs et d'indicateurs de performance. Cette logique substitue une culture de résultat à une culture de moyens et renforce le pouvoir de contrôle des parlementaires. Des lois de finances rectificatives peuvent modifier le budget en cours d'année, et la loi de règlement constate a posteriori les résultats de l'exécution. Le budget obéit à des principes classiques d'annualité, d'unité, d'universalité et de spécialité.",
+      "visuel": {
+        "type": "etapes",
+        "titre": "La procédure budgétaire",
+        "etapes": [
+          {
+            "label": "Printemps : préparation",
+            "texte": "Sous l'autorité du Gouvernement, les ministères négocient leurs crédits avec le ministère chargé du budget."
+          },
+          {
+            "label": "Automne : dépôt",
+            "texte": "Le projet de loi de finances est déposé obligatoirement en premier lieu devant l'Assemblée nationale."
+          },
+          {
+            "label": "Première partie",
+            "texte": "Les recettes et l'équilibre général : elle doit être votée avant l'examen de la seconde."
+          },
+          {
+            "label": "Seconde partie",
+            "texte": "Les dépenses. Depuis la loi organique du 1er août 2001, pleinement en vigueur en 2006, les crédits sont votés par destination, au sein de missions découpées en programmes assortis d'objectifs et d'indicateurs."
+          },
+          {
+            "label": "En cours d'année",
+            "texte": "Des lois de finances rectificatives peuvent modifier le budget voté."
+          },
+          {
+            "label": "Après l'exécution",
+            "texte": "La loi de règlement constate a posteriori les résultats, et le Parlement contrôle avec l'assistance de la Cour des comptes."
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Déficit, dette et équilibre des finances publiques",
+      "texte": "Le solde budgétaire est la différence entre les recettes et les dépenses de l'État. Lorsqu'il est négatif, on parle de déficit, comblé par l'emprunt : l'État émet des titres, notamment des obligations, achetés par des investisseurs auxquels il verse des intérêts. L'accumulation des déficits successifs constitue la dette publique, généralement exprimée en pourcentage du produit intérieur brut afin de rapporter son montant à la richesse produite chaque année. Il importe de distinguer le budget de l'État des finances publiques au sens large, qui englobent aussi les administrations de sécurité sociale et les collectivités territoriales : les engagements européens portent sur ce périmètre d'ensemble. Le traité de Maastricht et le pacte de stabilité et de croissance ont fixé des valeurs de référence de trois pour cent du produit intérieur brut pour le déficit public et de soixante pour cent pour la dette. Les intérêts versés chaque année, appelés charge de la dette, représentent une dépense importante qui dépend du niveau des taux d'intérêt. Les analyses divergent sur le rôle du déficit : soutenir l'activité en période de récession, selon une inspiration keynésienne, ou préserver la soutenabilité des finances publiques et la marge de manœuvre des générations futures. L'usage de l'emprunt pour financer des investissements durables est généralement distingué du financement des dépenses courantes.",
+      "visuel": {
+        "type": "chiffres",
+        "titre": "Les valeurs de référence européennes",
+        "items": [
+          {
+            "valeur": "3 %",
+            "label": "du produit intérieur brut : déficit public de référence"
+          },
+          {
+            "valeur": "60 %",
+            "label": "du produit intérieur brut : dette publique de référence"
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Contrôler l'impôt et la dépense",
+      "texte": "Le consentement à l'impôt implique un contrôle de son emploi. Le Parlement exerce ce contrôle à plusieurs moments : lors du vote de la loi de finances, en cours d'année grâce aux pouvoirs d'investigation des commissions des finances et de leurs rapporteurs, puis lors de l'examen de la loi de règlement, qui constate l'exécution du budget. L'article 47 de la Constitution prévoit que la Cour des comptes assiste le Parlement et le Gouvernement dans ce contrôle. Juridiction financière indépendante dont l'origine remonte à 1807, elle vérifie la régularité des comptes publics, certifie les comptes de l'État et de la Sécurité sociale, évalue l'efficacité des politiques publiques et publie chaque année un rapport public. Ses observations n'ont pas de force contraignante mais nourrissent le débat public. Au niveau des collectivités, les chambres régionales des comptes exercent une mission comparable. Du côté des contribuables, l'administration fiscale vérifie l'exactitude des déclarations et peut engager des procédures de contrôle, encadrées par des garanties comme le droit d'être informé, de se faire assister et de contester devant le juge. La fraude fiscale, qui consiste à se soustraire illégalement à l'impôt, se distingue de l'optimisation, qui utilise les possibilités offertes par la loi ; la lutte contre les montages transfrontaliers fait l'objet d'une coopération internationale croissante."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Quel principe la Déclaration des droits de l'homme et du citoyen de 1789 pose-t-elle en matière fiscale ?",
+      "choix": [
+        "Le consentement des citoyens à l'impôt par leurs représentants",
+        "L'interdiction de tout impôt sur le revenu",
+        "La gratuité de tous les services publics",
+        "La compétence exclusive du roi pour lever l'impôt"
+      ],
+      "bonne": 0,
+      "difficulte": 2,
+      "explication": "Les articles 13 et 14 de la Déclaration de 1789 fondent le droit fiscal français. L'article 13 affirme la nécessité d'une contribution commune, également répartie entre les citoyens en raison de leurs facultés, ce qui justifie la prise en compte des capacités contributives. L'article 14 énonce que les citoyens ont le droit de constater la nécessité de la contribution publique, de la consentir librement, d'en suivre l'emploi et d'en déterminer la quotité et la durée. De ce principe découle la règle selon laquelle seul le Parlement peut créer un impôt et en fixer les règles, ainsi que le contrôle exercé sur l'emploi des fonds publics."
+    },
+    {
+      "q": "Quelle est la principale caractéristique de l'impôt sur le revenu en France ?",
+      "choix": [
+        "Il est payé uniquement par les entreprises",
+        "Il est progressif, avec des taux croissants par tranche",
+        "Il est proportionnel, à taux unique",
+        "Il est perçu par les communes"
+      ],
+      "bonne": 1,
+      "difficulte": 1,
+      "explication": "L'impôt sur le revenu, instauré en France par les lois de 1914 et 1917, est progressif : le revenu imposable est divisé en tranches auxquelles s'appliquent des taux croissants, de sorte que le taux moyen supporté augmente avec le niveau de revenu. Cette progressivité en fait un instrument de redistribution verticale. Le quotient familial ajuste la charge selon la composition du foyer. Un impôt proportionnel applique au contraire un taux identique quelle que soit la base, comme la taxe sur la valeur ajoutée. L'impôt sur le revenu est un impôt d'État, perçu au profit du budget général, et il concerne les personnes physiques, les bénéfices des sociétés relevant de l'impôt sur les sociétés."
+    },
+    {
+      "q": "Qu'a introduit la loi organique relative aux lois de finances du 1er août 2001 ?",
+      "choix": [
+        "Un vote des crédits par missions et programmes assortis d'objectifs",
+        "La suppression du vote parlementaire sur le budget",
+        "La création de la taxe sur la valeur ajoutée",
+        "L'obligation d'un budget en excédent chaque année"
+      ],
+      "bonne": 0,
+      "difficulte": 3,
+      "explication": "La loi organique relative aux lois de finances, adoptée en 2001 et pleinement appliquée à partir de 2006, a remplacé l'ordonnance de 1959 et réorganisé la présentation du budget de l'État. Les crédits ne sont plus votés par nature de dépense mais par destination, regroupés en missions correspondant aux grandes politiques publiques, elles-mêmes divisées en programmes dotés d'objectifs et d'indicateurs de performance. Cette architecture vise à faire passer la gestion publique d'une logique de moyens à une logique de résultats et renforce l'information des parlementaires. Elle n'a évidemment pas supprimé le vote du budget, et la taxe sur la valeur ajoutée date, elle, de 1954."
+    },
+    {
+      "q": "Quelle différence sépare le déficit public de la dette publique ?",
+      "choix": [
+        "Ce sont deux termes strictement équivalents",
+        "Le déficit est un flux annuel, la dette un stock accumulé",
+        "Le déficit concerne les collectivités, la dette l'État seul",
+        "La dette se mesure en euros, le déficit en heures de travail"
+      ],
+      "bonne": 1,
+      "difficulte": 2,
+      "explication": "Le déficit est une grandeur de flux : il mesure, pour une année donnée, l'écart entre les dépenses et les recettes des administrations publiques. La dette est une grandeur de stock : elle correspond au montant total des emprunts restant à rembourser, résultat de l'accumulation des déficits passés diminuée des remboursements. Un pays peut donc réduire son déficit tout en voyant sa dette continuer de croître, tant que le solde reste négatif. Les deux sont habituellement rapportés au produit intérieur brut pour permettre les comparaisons. Les valeurs de référence européennes sont de trois pour cent pour le déficit et de soixante pour cent pour la dette."
+    },
+    {
+      "q": "Quel organe assiste le Parlement dans le contrôle de l'exécution des lois de finances ?",
+      "choix": [
+        "Le Conseil constitutionnel",
+        "La Banque de France",
+        "Le Conseil économique, social et environnemental",
+        "La Cour des comptes"
+      ],
+      "bonne": 3,
+      "difficulte": 2,
+      "explication": "L'article 47 de la Constitution de 1958 prévoit que la Cour des comptes assiste le Parlement et le Gouvernement dans le contrôle de l'exécution des lois de finances. Juridiction financière indépendante dont l'origine remonte à 1807, elle vérifie la régularité et la sincérité des comptes publics, certifie les comptes de l'État et de la Sécurité sociale et évalue l'efficacité des politiques publiques. Ses rapports, largement diffusés, alimentent le débat public sans avoir de force contraignante. Le Conseil constitutionnel contrôle la conformité des lois à la Constitution, la Banque de France participe à l'Eurosystème, et le Conseil économique, social et environnemental rend des avis consultatifs."
+    }
+  ]
+}

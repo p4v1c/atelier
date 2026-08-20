@@ -1,0 +1,1270 @@
+{
+ "id": "sport",
+ "nom": "Sport",
+ "emoji": "🏅",
+ "questions": [
+  {
+   "q": "En quelle année et dans quel pays s'est déroulée la première Coupe du monde de football ?",
+   "choix": [
+    "1930 en Uruguay",
+    "1934 en Italie",
+    "1926 au Brésil",
+    "1938 en France"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La première Coupe du monde de football a eu lieu en 1930 en Uruguay, à l'initiative du Français Jules Rimet, alors président de la FIFA. Treize équipes seulement y participèrent, dont quatre européennes, en raison de la longueur du voyage en bateau. L'Uruguay, pays hôte et double champion olympique, remporta la finale 4-2 contre l'Argentine à Montevideo. Le trophée porta d'ailleurs le nom de « Coupe Jules Rimet » jusqu'en 1970, année où le Brésil le conserva définitivement après sa troisième victoire."
+  },
+  {
+   "q": "Quel pays détient le record de victoires en Coupe du monde de football ?",
+   "choix": [
+    "Le Brésil",
+    "L'Allemagne",
+    "L'Italie",
+    "L'Argentine"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le Brésil détient le record avec cinq Coupes du monde, remportées en 1958, 1962, 1970, 1994 et 2002. C'est aussi la seule sélection à avoir disputé toutes les phases finales depuis 1930. L'Allemagne et l'Italie suivent avec quatre titres chacune. Le Brésil de 1970, emmené par Pelé, est souvent considéré comme l'une des plus grandes équipes de l'histoire du football."
+  },
+  {
+   "q": "En quelles années l'équipe de France masculine a-t-elle remporté la Coupe du monde de football ?",
+   "choix": [
+    "1998 et 2018",
+    "1998 et 2006",
+    "1984 et 1998",
+    "2000 et 2018"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "L'équipe de France a remporté deux Coupes du monde : en 1998 à domicile, en battant le Brésil 3-0 en finale au Stade de France grâce notamment à un doublé de Zinédine Zidane, puis en 2018 en Russie, en dominant la Croatie 4-2 en finale à Moscou. En 2006, les Bleus s'étaient inclinés en finale contre l'Italie aux tirs au but. Les années 1984 et 2000 correspondent, elles, aux deux premiers titres de la France au Championnat d'Europe des nations. Didier Deschamps a la particularité d'avoir gagné la Coupe du monde comme capitaine en 1998 puis comme sélectionneur en 2018."
+  },
+  {
+   "q": "Quelle est la durée réglementaire d'un match de football ?",
+   "choix": [
+    "90 minutes",
+    "80 minutes",
+    "100 minutes",
+    "60 minutes"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Un match de football dure 90 minutes, réparties en deux mi-temps de 45 minutes séparées par une pause d'un quart d'heure au maximum. L'arbitre ajoute à chaque période un temps additionnel pour compenser les arrêts de jeu (blessures, remplacements, célébrations). En cas d'égalité dans un match à élimination directe, une prolongation de deux fois 15 minutes peut être jouée, suivie si nécessaire d'une séance de tirs au but. Ces règles sont fixées par l'International Football Association Board (IFAB), gardien des lois du jeu depuis 1886."
+  },
+  {
+   "q": "Combien de joueurs une équipe de football aligne-t-elle sur le terrain ?",
+   "choix": [
+    "11",
+    "10",
+    "12",
+    "9"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Une équipe de football se compose de onze joueurs sur le terrain, dont un gardien de but, seul autorisé à toucher le ballon avec les mains dans sa surface de réparation. Ce nombre est fixé par les lois du jeu depuis le XIXe siècle, le football moderne étant né en Angleterre avec la création de la Football Association en 1863. Un match ne peut se poursuivre si une équipe est réduite à moins de sept joueurs. Les remplacements, longtemps interdits puis limités, sont passés à cinq par match dans la plupart des compétitions depuis 2020."
+  },
+  {
+   "q": "Qui a reçu le premier Ballon d'or de l'histoire, en 1956 ?",
+   "choix": [
+    "Stanley Matthews",
+    "Alfredo Di Stéfano",
+    "Raymond Kopa",
+    "Just Fontaine"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Le premier Ballon d'or, créé en 1956 par le magazine France Football, a été attribué à l'ailier anglais Stanley Matthews, alors âgé de 41 ans. Cette récompense, imaginée par le journaliste Gabriel Hanot, ne couronnait à l'origine que des joueurs européens. Le Français Raymond Kopa l'a remporté en 1958, et Alfredo Di Stéfano en 1957 et 1959. Le trophée ne s'est ouvert aux joueurs du monde entier évoluant en Europe qu'en 1995, puis à tous en 2007."
+  },
+  {
+   "q": "Qui est à l'origine de la rénovation des Jeux olympiques modernes ?",
+   "choix": [
+    "Pierre de Coubertin",
+    "Jules Rimet",
+    "Henri Desgrange",
+    "Juan Antonio Samaranch"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le baron français Pierre de Coubertin est le rénovateur des Jeux olympiques modernes : il fonde le Comité international olympique (CIO) en 1894 à Paris, et les premiers Jeux de l'ère moderne se tiennent à Athènes en 1896. Inspiré des concours antiques d'Olympie, il voyait dans le sport un outil d'éducation et de paix entre les peuples. On lui doit la devise olympique « Citius, Altius, Fortius » (plus vite, plus haut, plus fort), empruntée à l'abbé Henri Didon. Jules Rimet est, lui, le père de la Coupe du monde de football, et Henri Desgrange le créateur du Tour de France."
+  },
+  {
+   "q": "Où et quand se sont déroulés les premiers Jeux olympiques de l'ère moderne ?",
+   "choix": [
+    "Athènes en 1896",
+    "Paris en 1900",
+    "Londres en 1908",
+    "Rome en 1892"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Les premiers Jeux olympiques modernes se sont tenus à Athènes en 1896, en hommage aux Jeux antiques de la Grèce. Environ 240 athlètes, tous des hommes, venus de 14 nations, s'affrontèrent dans neuf sports. Le marathon, épreuve créée pour l'occasion en souvenir de la course légendaire du soldat grec Philippidès, fut remporté par le berger grec Spyridon Louis, devenu héros national. Les femmes ne furent admises qu'à partir des Jeux de Paris en 1900, où la Britannique Charlotte Cooper devint la première championne olympique en tennis."
+  },
+  {
+   "q": "Dans quelle cité grecque les Jeux olympiques antiques se déroulaient-ils ?",
+   "choix": [
+    "Olympie",
+    "Athènes",
+    "Sparte",
+    "Delphes"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Les Jeux antiques se déroulaient à Olympie, sanctuaire dédié à Zeus situé dans le Péloponnèse, et non à Athènes comme on le croit parfois. Ils sont attestés à partir de 776 avant J.-C. et se tenaient tous les quatre ans, période appelée olympiade. Pendant les Jeux, une trêve sacrée suspendait en principe les conflits entre cités grecques. Réservés aux hommes libres de langue grecque, ils comprenaient des épreuves comme la course, la lutte, le pentathlon et les courses de chars, avant d'être interdits à la fin du IVe siècle de notre ère par l'empereur Théodose."
+  },
+  {
+   "q": "Combien d'anneaux figurent sur le drapeau olympique ?",
+   "choix": [
+    "5",
+    "4",
+    "6",
+    "7"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le drapeau olympique porte cinq anneaux entrelacés, de couleurs bleue, jaune, noire, verte et rouge sur fond blanc. Dessiné par Pierre de Coubertin en 1913, il symbolise l'union des cinq continents et la rencontre des athlètes du monde entier. Les couleurs furent choisies parce que chaque drapeau national de l'époque contenait au moins l'une d'entre elles. Le drapeau a flotté pour la première fois lors des Jeux d'Anvers en 1920, qui virent aussi l'apparition du serment olympique."
+  },
+  {
+   "q": "Avant 2024, en quelle année Paris avait-elle accueilli les Jeux olympiques d'été pour la dernière fois ?",
+   "choix": [
+    "1924",
+    "1936",
+    "1948",
+    "1960"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Avant les Jeux de 2024, Paris avait accueilli les Jeux olympiques d'été en 1900 puis en 1924, soit un siècle exactement avant sa troisième édition. Les Jeux de 1924 avaient réuni environ 3 000 athlètes de 44 nations et vu briller le nageur américain Johnny Weissmuller, futur interprète de Tarzan, et le coureur finlandais Paavo Nurmi, vainqueur de cinq médailles d'or. Paris est ainsi devenue en 2024 la deuxième ville, après Londres, à organiser trois fois les Jeux d'été. C'est également en 1924 que furent organisés à Chamonix les premiers Jeux olympiques d'hiver."
+  },
+  {
+   "q": "Combien de médailles d'or olympiques le nageur Michael Phelps a-t-il remportées au cours de sa carrière ?",
+   "choix": [
+    "23",
+    "18",
+    "15",
+    "28"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'Américain Michael Phelps est l'athlète le plus médaillé de l'histoire des Jeux olympiques : entre 2004 et 2016, il a décroché 28 médailles, dont 23 en or. Son exploit le plus marquant reste les Jeux de Pékin en 2008, où il remporta 8 titres en une seule édition, battant le record des 7 médailles d'or de Mark Spitz datant de 1972. Surnommé « la balle de Baltimore », il a dominé notamment le papillon et le quatre nages. Aucun autre olympien, tous sports confondus, ne dépasse les 10 médailles d'or."
+  },
+  {
+   "q": "En quel temps Usain Bolt a-t-il établi le record du monde du 100 mètres en 2009 ?",
+   "choix": [
+    "9,58 secondes",
+    "9,69 secondes",
+    "9,48 secondes",
+    "9,79 secondes"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le Jamaïcain Usain Bolt a couru le 100 mètres en 9,58 secondes le 16 août 2009, aux Championnats du monde de Berlin, améliorant son propre record de 9,69 s établi aux Jeux de Pékin en 2008. Lors de cette même compétition, il a également porté le record du monde du 200 mètres à 19,19 secondes. Sa vitesse de pointe à Berlin a dépassé 44 km/h. Octuple champion olympique entre 2008 et 2016, Bolt a réalisé un triplé inédit en remportant le 100 m, le 200 m et le relais 4x100 m lors de trois Jeux consécutifs, avant le retrait du relais de 2008 pour un cas de dopage d'un coéquipier."
+  },
+  {
+   "q": "Quelle est la distance officielle du marathon ?",
+   "choix": [
+    "42,195 km",
+    "40 km",
+    "45,5 km",
+    "38,2 km"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le marathon se court sur 42,195 kilomètres. Cette distance singulière remonte aux Jeux de Londres en 1908 : le parcours fut allongé pour partir du château de Windsor et finir devant la loge royale du stade, et cette longueur devint la norme officielle en 1921. L'épreuve rend hommage à la légende du messager grec Philippidès, qui aurait couru de Marathon à Athènes en 490 avant J.-C. pour annoncer la victoire sur les Perses avant de s'effondrer. Créé pour les premiers Jeux modernes de 1896, le marathon reste l'épreuve reine de la course sur route, avec des courses mythiques comme celles de Boston, New York, Londres ou Paris."
+  },
+  {
+   "q": "Combien de tournois composent le Grand Chelem de tennis ?",
+   "choix": [
+    "4",
+    "3",
+    "5",
+    "6"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le Grand Chelem de tennis regroupe quatre tournois majeurs : l'Open d'Australie à Melbourne en janvier, Roland-Garros à Paris au printemps, Wimbledon à Londres en été et l'US Open à New York fin août. Réaliser « le Grand Chelem » consiste à remporter les quatre la même année, exploit accompli en simple messieurs uniquement par Don Budge (1938) et Rod Laver (1962 et 1969). Chez les femmes, Maureen Connolly, Margaret Court et Steffi Graf y sont parvenues, Graf y ajoutant même l'or olympique en 1988, un « Golden Slam » unique. Chaque tournoi se joue sur une surface différente : dur, terre battue et gazon."
+  },
+  {
+   "q": "Sur quelle surface se joue le tournoi de Roland-Garros ?",
+   "choix": [
+    "La terre battue",
+    "Le gazon",
+    "Le dur",
+    "La moquette"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Roland-Garros, organisé à Paris depuis 1928 sur le site de la porte d'Auteuil, se dispute sur terre battue, une surface faite de brique pilée qui ralentit la balle et favorise les longs échanges. Le tournoi porte le nom d'un aviateur français, héros de la Première Guerre mondiale et premier à avoir traversé la Méditerranée en avion en 1913. C'est le seul tournoi du Grand Chelem joué sur cette surface, réputée la plus exigeante physiquement. Sa spécificité explique que certains grands champions, comme Pete Sampras, n'y aient jamais triomphé."
+  },
+  {
+   "q": "Sur quelle surface se joue le tournoi de Wimbledon ?",
+   "choix": [
+    "Le gazon",
+    "La terre battue",
+    "Le dur",
+    "Le parquet"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Wimbledon, créé en 1877 à Londres, est le plus ancien tournoi de tennis du monde et se joue sur gazon, la surface historique de ce sport. Le tournoi est célèbre pour ses traditions : tenue blanche obligatoire pour les joueurs, fraises à la crème pour les spectateurs et absence de publicité autour des courts. Le gazon rend le jeu rapide et favorise les attaquants. Parmi les légendes du tournoi figurent Roger Federer, huit fois vainqueur chez les messieurs (record, dernier titre en 2017), et Martina Navratilova, neuf fois titrée chez les dames."
+  },
+  {
+   "q": "Combien de fois Rafael Nadal a-t-il remporté Roland-Garros entre 2005 et 2022 ?",
+   "choix": [
+    "14",
+    "10",
+    "12",
+    "9"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'Espagnol Rafael Nadal a remporté Roland-Garros à 14 reprises entre 2005 et 2022, un record sans équivalent dans l'histoire du tennis, tous tournois confondus. Surnommé le « roi de la terre battue », il n'a perdu que quatre matchs sur la terre parisienne en près de deux décennies. Sa première victoire, en 2005, est survenue dès sa première participation, à 19 ans. Une statue en acier à son effigie a été inaugurée en 2021 dans l'enceinte du stade, honneur rarissime pour un joueur en activité."
+  },
+  {
+   "q": "Au tennis, comment appelle-t-on la situation où les deux joueurs sont à 40-40 dans un jeu ?",
+   "choix": [
+    "Égalité",
+    "Avantage",
+    "Tie-break",
+    "Let"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Lorsque les deux joueurs parviennent à 40-40, on annonce « égalité » (deuce en anglais). Il faut alors gagner deux points consécutifs pour remporter le jeu : le premier donne l'« avantage », le second conclut le jeu, sinon on revient à égalité. Le décompte particulier du tennis (15, 30, 40) proviendrait du jeu de paume, ancêtre français de ce sport. Le tie-break, lui, est un jeu décisif disputé à 6 jeux partout dans une manche, inventé par l'Américain James Van Alen et introduit dans les années 1970."
+  },
+  {
+   "q": "Combien de joueurs compte une équipe de rugby à XV sur le terrain ?",
+   "choix": [
+    "15",
+    "13",
+    "11",
+    "18"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Comme son nom l'indique, le rugby à XV se joue avec quinze joueurs par équipe : huit « avants », qui disputent notamment les mêlées, et sept « trois-quarts et demis », chargés surtout de l'attaque. La légende attribue la naissance de ce sport à William Webb Ellis, un élève de la ville anglaise de Rugby qui, en 1823, aurait pris le ballon à la main lors d'une partie de football. Le trophée de la Coupe du monde porte d'ailleurs son nom. Il existe aussi le rugby à XIII, sport distinct, et le rugby à 7, discipline olympique depuis les Jeux de Rio en 2016."
+  },
+  {
+   "q": "Combien de points vaut un essai au rugby à XV ?",
+   "choix": [
+    "5 points",
+    "3 points",
+    "4 points",
+    "7 points"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Un essai, marqué en aplatissant le ballon dans l'en-but adverse, vaut 5 points depuis 1992 ; il en valait 4 auparavant. Il peut être complété par une transformation au pied, qui rapporte 2 points supplémentaires. La pénalité et le drop (coup de pied tombé) valent chacun 3 points. Cette hiérarchie des points a été voulue pour encourager le jeu d'attaque et la marque d'essais plutôt que la seule bataille au pied."
+  },
+  {
+   "q": "En quelle année s'est disputée la première Coupe du monde de rugby ?",
+   "choix": [
+    "1987",
+    "1991",
+    "1983",
+    "1995"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "La première Coupe du monde de rugby s'est tenue en 1987, organisée conjointement par la Nouvelle-Zélande et l'Australie. Les All Blacks néo-zélandais ont remporté cette édition inaugurale en battant la France 29-9 en finale à Auckland. La compétition a lieu tous les quatre ans et son trophée s'appelle la coupe William-Webb-Ellis. L'édition de 1995 en Afrique du Sud reste célèbre : Nelson Mandela, portant le maillot des Springboks, y remit le trophée au capitaine François Pienaar, symbole de réconciliation nationale après l'apartheid."
+  },
+  {
+   "q": "Quel pays a rejoint le Tournoi des Cinq Nations en 2000, le transformant en Six Nations ?",
+   "choix": [
+    "L'Italie",
+    "L'Argentine",
+    "La Roumanie",
+    "L'Espagne"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'Italie a intégré le Tournoi en 2000, transformant le Tournoi des Cinq Nations en Tournoi des Six Nations. Cette compétition annuelle de rugby oppose désormais la France, l'Angleterre, l'Écosse, l'Irlande, le pays de Galles et l'Italie. Née en 1883 entre les quatre nations britanniques, elle a accueilli la France en 1910. Remporter tous ses matchs permet de réaliser le « Grand Chelem », tandis que le match Angleterre-Écosse se dispute pour le « Calcutta Cup », l'un des plus vieux trophées du rugby."
+  },
+  {
+   "q": "En quelle année le Tour de France cycliste a-t-il été créé ?",
+   "choix": [
+    "1903",
+    "1913",
+    "1923",
+    "1893"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le Tour de France a été créé en 1903 par Henri Desgrange et le journal L'Auto, afin de concurrencer le quotidien rival Le Vélo. La première édition, longue d'environ 2 400 km en six étapes gigantesques, fut remportée par Maurice Garin. Interrompu par les deux guerres mondiales, le Tour est devenu la plus grande course cycliste du monde et l'un des événements sportifs les plus regardés de la planète. La couleur jaune du maillot de leader, introduite en 1919, rappelle celle du papier du journal L'Auto."
+  },
+  {
+   "q": "Que désigne le maillot jaune sur le Tour de France ?",
+   "choix": [
+    "Le leader du classement général",
+    "Le meilleur sprinteur",
+    "Le meilleur grimpeur",
+    "Le meilleur jeune"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le maillot jaune est porté par le leader du classement général au temps, c'est-à-dire le coureur qui a mis le moins de temps cumulé depuis le départ de l'épreuve. Introduit en 1919, il doit sa couleur au papier jaune du journal L'Auto, organisateur de la course ; Eugène Christophe fut le premier à le porter. Les autres maillots distinctifs sont le vert pour le classement par points (sprinteurs), le blanc à pois rouges pour le meilleur grimpeur et le blanc pour le meilleur jeune. Quatre coureurs ont remporté cinq Tours : Jacques Anquetil, Eddy Merckx, Bernard Hinault et Miguel Indurain."
+  },
+  {
+   "q": "Sur le Tour de France, qui porte le maillot blanc à pois rouges ?",
+   "choix": [
+    "Le meilleur grimpeur",
+    "Le meilleur sprinteur",
+    "Le coureur le plus combatif",
+    "Le champion du monde"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le maillot blanc à pois rouges récompense le meilleur grimpeur, leader du classement de la montagne, établi en fonction des points attribués au sommet des côtes et des cols. Ce classement existe depuis 1933, mais le maillot distinctif n'est apparu qu'en 1975. Les cols du Tour sont classés par difficulté croissante, de la 4e à la 1re catégorie, jusqu'au niveau « hors catégorie » pour les géants comme le Tourmalet ou l'Alpe d'Huez. Le Français Richard Virenque détient le record de sept maillots à pois, conquis entre 1994 et 2004."
+  },
+  {
+   "q": "Qui est le dernier coureur français à avoir remporté le Tour de France, en 1985 ?",
+   "choix": [
+    "Bernard Hinault",
+    "Laurent Fignon",
+    "Bernard Thévenet",
+    "Raymond Poulidor"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Bernard Hinault, surnommé « le Blaireau », est le dernier Français vainqueur du Tour de France, en 1985. Il compte cinq victoires au total (1978, 1979, 1981, 1982, 1985), record partagé avec Jacques Anquetil, Eddy Merckx et Miguel Indurain. Laurent Fignon, vainqueur en 1983 et 1984, fut ensuite battu de justesse en 1989 par l'Américain Greg LeMond, pour 8 secondes, l'écart le plus faible de l'histoire de l'épreuve. Raymond Poulidor, « l'éternel second », n'a jamais porté le maillot jaune malgré huit podiums."
+  },
+  {
+   "q": "Au basket-ball, combien de points vaut un panier réussi au-delà de la ligne des trois points ?",
+   "choix": [
+    "3 points",
+    "2 points",
+    "4 points",
+    "1 point"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Un panier inscrit au-delà de la ligne des trois points vaut 3 points, contre 2 pour un tir à l'intérieur de cette ligne et 1 pour chaque lancer franc. La ligne à trois points a été popularisée par la NBA en 1979 avant d'être adoptée par la fédération internationale en 1984. Elle se situe à 7,24 m du panier en NBA et à 6,75 m dans les règles FIBA. Cette règle a profondément transformé le jeu moderne, où le tir extérieur occupe une place croissante, incarnée par des tireurs d'exception comme Stephen Curry."
+  },
+  {
+   "q": "Combien de joueurs une équipe de handball compte-t-elle sur le terrain ?",
+   "choix": [
+    "7",
+    "6",
+    "8",
+    "9"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Une équipe de handball aligne sept joueurs sur le terrain : six joueurs de champ et un gardien de but. Le match se joue en deux mi-temps de 30 minutes sur un terrain de 40 mètres sur 20. Codifié en Europe du Nord au début du XXe siècle, le handball moderne en salle est sport olympique depuis 1972 pour les hommes. La France est une grande nation de ce sport : ses équipes masculines, surnommées « les Barjots », « les Costauds » puis « les Experts », ont accumulé titres mondiaux et olympiques depuis les années 1990."
+  },
+  {
+   "q": "Combien de joueurs une équipe de volley-ball compte-t-elle sur le terrain ?",
+   "choix": [
+    "6",
+    "7",
+    "5",
+    "8"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Une équipe de volley-ball compte six joueurs sur le terrain, qui effectuent une rotation d'une position à chaque récupération du service. Ce sport a été inventé en 1895 aux États-Unis par William Morgan, comme alternative moins physique au basket-ball. Un match se joue en trois sets gagnants de 25 points, avec deux points d'écart obligatoires. Depuis les années 1990, un joueur spécialisé en défense, le libéro, reconnaissable à son maillot de couleur différente, peut remplacer librement les joueurs arrières."
+  },
+  {
+   "q": "Combien de buts Zinédine Zidane a-t-il inscrits lors de la finale de la Coupe du monde 1998 ?",
+   "choix": [
+    "2",
+    "1",
+    "3",
+    "0"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Zinédine Zidane a marqué deux buts, tous deux de la tête sur corner, lors de la finale de la Coupe du monde 1998 remportée 3-0 par la France face au Brésil au Stade de France. Emmanuel Petit a inscrit le troisième but dans les arrêts de jeu. Cette victoire du 12 juillet 1998 a offert à la France sa première étoile mondiale et déclenché des célébrations historiques sur les Champs-Élysées. Zidane a ensuite reçu le Ballon d'or la même année, avant de connaître une fin de carrière contrastée en finale 2006, marquée par son expulsion contre l'Italie."
+  },
+  {
+   "q": "Dans quelle commune se situe le Stade de France ?",
+   "choix": [
+    "Saint-Denis",
+    "Paris",
+    "Versailles",
+    "Nanterre"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le Stade de France se trouve à Saint-Denis, en Seine-Saint-Denis, au nord de Paris. Construit pour la Coupe du monde de football 1998, il a été inauguré en janvier de la même année et peut accueillir plus de 80 000 spectateurs, ce qui en fait la plus grande enceinte sportive de France. C'est là que les Bleus ont remporté la finale du Mondial 1998 contre le Brésil. Le stade accueille les grands matchs des équipes de France de football et de rugby, des finales de coupes, des compétitions d'athlétisme et de nombreux concerts, et il a été au cœur des Jeux olympiques de Paris 2024."
+  },
+  {
+   "q": "De quel pays le judo est-il originaire ?",
+   "choix": [
+    "Le Japon",
+    "La Chine",
+    "La Corée",
+    "La Thaïlande"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le judo a été créé au Japon en 1882 par Jigoro Kano, qui adapta les techniques des anciennes écoles de ju-jitsu des samouraïs pour en faire une méthode d'éducation physique et morale. Son nom signifie « voie de la souplesse » : il s'agit d'utiliser la force de l'adversaire plutôt que de s'y opposer. Les pratiquants portent un kimono appelé judogi et progressent par grades matérialisés par des ceintures de couleur, jusqu'à la ceinture noire et aux dans. Le judo est sport olympique depuis les Jeux de Tokyo en 1964, et la France compte parmi les plus grandes nations de cette discipline."
+  },
+  {
+   "q": "Laquelle de ces armes ne fait PAS partie de l'escrime sportive ?",
+   "choix": [
+    "La rapière",
+    "Le fleuret",
+    "L'épée",
+    "Le sabre"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'escrime sportive se pratique avec trois armes : le fleuret, l'épée et le sabre ; la rapière est une arme ancienne de duel qui n'est pas utilisée en compétition. Chaque arme a ses règles : au fleuret, seul le tronc est valable et la priorité d'attaque compte ; à l'épée, tout le corps peut être touché ; au sabre, on touche aussi avec le tranchant, au-dessus de la ceinture. L'escrime est l'un des rares sports présents à tous les Jeux olympiques depuis 1896. C'est historiquement l'une des disciplines les plus médaillées du sport français, avec des champions comme Christian d'Oriola ou Laura Flessel."
+  },
+  {
+   "q": "Dans quel sport Teddy Riner s'est-il illustré ?",
+   "choix": [
+    "Le judo",
+    "La boxe",
+    "La lutte",
+    "L'haltérophilie"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Teddy Riner est un judoka français évoluant dans la catégorie des plus de 100 kg. Né en 1989 en Guadeloupe, il est devenu en 2007, à 18 ans, le plus jeune champion du monde de l'histoire du judo, avant d'accumuler plus de dix titres mondiaux, un record absolu. Il a remporté l'or olympique en individuel à Londres en 2012, Rio en 2016 et Paris en 2024, ainsi que des titres par équipes mixtes. Entre 2010 et 2020, il est resté invaincu pendant 154 combats, une série d'une longévité exceptionnelle dans ce sport."
+  },
+  {
+   "q": "Où et quand se sont tenus les premiers Jeux olympiques d'hiver ?",
+   "choix": [
+    "Chamonix en 1924",
+    "Saint-Moritz en 1928",
+    "Grenoble en 1920",
+    "Oslo en 1924"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Les premiers Jeux olympiques d'hiver se sont déroulés en 1924 à Chamonix, au pied du mont Blanc, la même année que les Jeux d'été de Paris. D'abord baptisée « Semaine internationale des sports d'hiver », la manifestation fut reconnue rétroactivement comme première édition des Jeux d'hiver. Environ 260 athlètes de 16 nations y disputèrent des épreuves de ski, patinage, hockey sur glace, bobsleigh et curling. La France a depuis accueilli deux autres éditions hivernales : Grenoble en 1968, marquée par les trois médailles d'or du skieur Jean-Claude Killy, et Albertville en 1992."
+  },
+  {
+   "q": "Quelle ville française a accueilli les Jeux olympiques d'hiver de 1992 ?",
+   "choix": [
+    "Albertville",
+    "Grenoble",
+    "Chamonix",
+    "Annecy"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Les Jeux olympiques d'hiver de 1992 se sont tenus à Albertville, en Savoie, avec des épreuves réparties dans plusieurs stations des Alpes comme Courchevel, Val-d'Isère et Les Saisies. La cérémonie d'ouverture, mise en scène par le chorégraphe Philippe Decouflé, a marqué les esprits. Ces Jeux ont été les derniers organisés la même année que les Jeux d'été : depuis 1994, les éditions d'hiver et d'été sont décalées de deux ans. La France y avait notamment brillé en ski alpin et en ski artistique, et ces Jeux ont révélé le biathlon et le short-track au grand public français."
+  },
+  {
+   "q": "Quelle gymnaste a obtenu le premier 10 parfait de l'histoire olympique, à Montréal en 1976 ?",
+   "choix": [
+    "Nadia Comaneci",
+    "Olga Korbut",
+    "Ludmilla Tourischeva",
+    "Vera Caslavska"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le 18 juillet 1976, aux Jeux de Montréal, la Roumaine Nadia Comaneci, âgée de 14 ans, obtient aux barres asymétriques la première note parfaite de 10 de l'histoire olympique de la gymnastique. Le tableau d'affichage, non prévu pour cela, afficha « 1,00 » faute de pouvoir montrer 10,00. Elle décrocha au total sept notes parfaites et trois médailles d'or lors de ces Jeux. Son exploit a fait d'elle une icône mondiale de la gymnastique, avant sa fuite de la Roumanie de Ceausescu en 1989 et son installation aux États-Unis."
+  },
+  {
+   "q": "Combien de médailles d'or Jesse Owens a-t-il remportées aux Jeux de Berlin en 1936 ?",
+   "choix": [
+    "4",
+    "2",
+    "3",
+    "5"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'athlète noir américain Jesse Owens a remporté quatre médailles d'or aux Jeux de Berlin en 1936 : 100 mètres, 200 mètres, saut en longueur et relais 4x100 mètres. Ses victoires, accomplies sous les yeux d'Hitler, ont infligé un démenti éclatant à la propagande nazie sur la supériorité de la « race aryenne ». Son duel amical avec le sauteur allemand Luz Long, qui l'aurait conseillé pendant le concours de longueur, est resté célèbre. Son record de quatre titres en athlétisme sur une seule édition ne fut égalé qu'en 1984 par son compatriote Carl Lewis, dans les mêmes épreuves."
+  },
+  {
+   "q": "Quelle célèbre course automobile d'endurance se déroule chaque année dans la Sarthe ?",
+   "choix": [
+    "Les 24 Heures du Mans",
+    "Le Grand Prix de Monaco",
+    "Les 500 miles d'Indianapolis",
+    "Le Rallye Monte-Carlo"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Les 24 Heures du Mans, créées en 1923, se disputent chaque année sur le circuit de la Sarthe, long d'environ 13,6 km et emprunté en partie sur routes ouvertes le reste de l'année. Le principe : des équipages de trois pilotes se relaient pendant 24 heures, la victoire revenant à la voiture ayant parcouru la plus grande distance. L'épreuve, qui attire plus de 200 000 spectateurs, forme avec Monaco et Indianapolis la « triple couronne » du sport automobile. Porsche y détient le record de victoires, et le départ historique, où les pilotes s'élançaient en courant vers leur voiture, a été abandonné en 1970 pour des raisons de sécurité."
+  },
+  {
+   "q": "Quelle écurie détient le record de titres de champion du monde des constructeurs en Formule 1 ?",
+   "choix": [
+    "Ferrari",
+    "McLaren",
+    "Williams",
+    "Mercedes"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La Scuderia Ferrari, seule écurie présente en Formule 1 depuis le premier championnat du monde en 1950, détient le record de titres constructeurs, avec 16 couronnes remportées entre 1961 et 2008. L'écurie italienne, fondée par Enzo Ferrari, a aussi accumulé le plus grand nombre de victoires en Grand Prix. Ses monoplaces rouges ont été pilotées par des légendes comme Niki Lauda ou Michael Schumacher, qui y conquit cinq de ses sept titres mondiaux entre 2000 et 2004. Williams, McLaren et Mercedes figurent parmi ses grands rivaux historiques au palmarès."
+  },
+  {
+   "q": "Au golf, comment appelle-t-on un trou joué un coup sous le par ?",
+   "choix": [
+    "Un birdie",
+    "Un bogey",
+    "Un eagle",
+    "Un albatros"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Un birdie désigne un trou terminé en un coup de moins que le par, c'est-à-dire le nombre de coups de référence fixé pour ce trou. Deux coups sous le par s'appellent un eagle, et trois coups un albatros, exploit rarissime. À l'inverse, un coup au-dessus du par est un bogey. Le vocabulaire vient de l'argot américain du XIXe siècle, où « bird » désignait quelque chose de réussi ; le golf moderne, codifié en Écosse, notamment à St Andrews, a conservé cette terminologie imagée dans le monde entier."
+  },
+  {
+   "q": "Sous quel nom de naissance le boxeur Muhammad Ali était-il connu au début de sa carrière ?",
+   "choix": [
+    "Cassius Clay",
+    "Joe Frazier",
+    "George Foreman",
+    "Sonny Liston"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Muhammad Ali est né Cassius Clay en 1942 à Louisville, dans le Kentucky. Champion olympique des poids mi-lourds à Rome en 1960, il devient champion du monde des lourds en 1964 en battant Sonny Liston, puis adopte le nom de Muhammad Ali après sa conversion à l'islam. Privé de son titre en 1967 pour avoir refusé de combattre au Vietnam, il reconquiert la ceinture en 1974 face à George Foreman lors du mythique « Rumble in the Jungle » à Kinshasa. Surnommé « The Greatest », triple champion du monde des lourds, il reste l'une des figures sportives et politiques majeures du XXe siècle."
+  },
+  {
+   "q": "Quel joueur a marqué le but dit de la « main de Dieu » lors de la Coupe du monde 1986 ?",
+   "choix": [
+    "Diego Maradona",
+    "Pelé",
+    "Michel Platini",
+    "Zico"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Lors du quart de finale Argentine-Angleterre de la Coupe du monde 1986 au Mexique, Diego Maradona ouvre le score d'un but marqué de la main, non vu par l'arbitre, qu'il attribuera avec malice à « la main de Dieu ». Quatre minutes plus tard, il inscrit dans le même match le « but du siècle », après un slalom de 60 mètres à travers toute la défense anglaise. L'Argentine remporte ensuite la finale contre la RFA et Maradona est sacré meilleur joueur du tournoi. Ce match, disputé quatre ans après la guerre des Malouines, reste l'un des plus célèbres de l'histoire du football."
+  },
+  {
+   "q": "Combien de Coupes du monde Pelé a-t-il remportées avec le Brésil ?",
+   "choix": [
+    "3",
+    "2",
+    "4",
+    "1"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Pelé est le seul joueur de l'histoire à avoir remporté trois Coupes du monde : en 1958 en Suède, à seulement 17 ans, en 1962 au Chili et en 1970 au Mexique. Lors de la finale de 1958, il inscrit un doublé contre la Suède, et celle de 1970, gagnée 4-1 contre l'Italie, est restée comme l'apothéose du « joga bonito » brésilien. Auteur de plus de 1 200 buts en carrière selon les décomptes incluant les matchs non officiels, il a passé l'essentiel de sa carrière au Santos FC. Surnommé « O Rei » (le Roi), disparu en 2022, il est considéré comme l'un des plus grands footballeurs de tous les temps."
+  },
+  {
+   "q": "Quel pays domine historiquement le tennis de table mondial ?",
+   "choix": [
+    "La Chine",
+    "Le Japon",
+    "La Suède",
+    "L'Allemagne"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "La Chine écrase le tennis de table mondial depuis les années 1960 : ses joueurs et joueuses ont remporté la grande majorité des titres olympiques depuis l'entrée du sport aux Jeux en 1988, ainsi que la plupart des championnats du monde. Ce sport, né en Angleterre à la fin du XIXe siècle comme divertissement de salon, est devenu un véritable phénomène national chinois. Le « ping-pong » a même joué un rôle diplomatique : en 1971, la « diplomatie du ping-pong » contribua au rapprochement entre la Chine et les États-Unis. La Suède, avec Jan-Ove Waldner, et le Japon comptent parmi les rares nations à avoir contesté cette hégémonie."
+  },
+  {
+   "q": "Quelle est la nage la plus lente en compétition de natation ?",
+   "choix": [
+    "La brasse",
+    "Le crawl",
+    "Le dos",
+    "Le papillon"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La brasse est la plus lente des quatre nages de compétition, car les mouvements de bras et de jambes s'effectuent sous l'eau, ce qui freine la progression. La nage libre, où les nageurs choisissent presque toujours le crawl, est la plus rapide, suivie du papillon puis du dos. La brasse est pourtant la nage la plus ancienne et la plus technique sur le plan réglementaire : les disqualifications pour mouvements non conformes y sont fréquentes. Aux quatre nages, l'ordre en individuel est papillon, dos, brasse puis nage libre."
+  },
+  {
+   "q": "Combien de titres de champion du monde de Formule 1 Alain Prost a-t-il remportés ?",
+   "choix": [
+    "4",
+    "3",
+    "5",
+    "2"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Alain Prost a remporté quatre titres de champion du monde de Formule 1, en 1985, 1986, 1989 et 1993, ce qui fait de lui le pilote français le plus titré de l'histoire de la discipline. Surnommé « le Professeur » pour son pilotage calculateur et économe, il a couru pour McLaren, Ferrari, Renault et Williams. Sa rivalité avec le Brésilien Ayrton Senna, son coéquipier chez McLaren en 1988 et 1989, marquée par deux accrochages décisifs au Japon, reste l'une des plus fameuses du sport automobile. Au moment de sa retraite en 1993, il détenait le record de 51 victoires en Grand Prix."
+  },
+  {
+   "q": "Quel Français a remporté Roland-Garros en simple messieurs en 1983 ?",
+   "choix": [
+    "Yannick Noah",
+    "Henri Leconte",
+    "Guy Forget",
+    "Cédric Pioline"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Yannick Noah a remporté Roland-Garros en 1983 en battant en finale le Suédois Mats Wilander, tenant du titre, en trois sets. Il reste à ce jour le dernier Français vainqueur du simple messieurs à Paris, succédant à Marcel Bernard, titré en 1946. Repéré adolescent au Cameroun par Arthur Ashe, Noah a ensuite mené l'équipe de France à la victoire en Coupe Davis comme capitaine en 1991 et 1996, puis les féminines en Fed Cup en 1997. Reconverti dans la chanson avec grand succès, il est resté l'une des personnalités préférées des Français."
+  },
+  {
+   "q": "Combien de titres olympiques l'athlète française Marie-José Pérec a-t-elle remportés ?",
+   "choix": [
+    "3",
+    "2",
+    "1",
+    "4"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Marie-José Pérec a remporté trois titres olympiques : le 400 mètres aux Jeux de Barcelone en 1992, puis le doublé 200 mètres-400 mètres aux Jeux d'Atlanta en 1996, un exploit rarissime réussi le même été que Michael Johnson chez les hommes. Née en Guadeloupe en 1968, elle demeure la Française la plus titrée de l'histoire de l'athlétisme olympique, à égalité, toutes disciplines confondues, avec la cycliste Félicia Ballanger, également triple championne olympique. Son record de France du 400 mètres, établi en 48,25 secondes en finale d'Atlanta en 1996, n'a toujours pas été battu près de trente ans plus tard. Elle fut aussi championne du monde du 400 mètres en 1991 et 1995."
+  },
+  {
+   "q": "Quel est le surnom de l'équipe de France masculine de football ?",
+   "choix": [
+    "Les Bleus",
+    "Les Tricolores volants",
+    "Les Coqs dorés",
+    "Les Gaulois"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "L'équipe de France de football est surnommée « les Bleus », en référence à la couleur de son maillot, portée depuis les débuts de la sélection en 1904. Le coq gaulois figure sur son écusson, symbole national repris par de nombreuses équipes de France. Ce surnom s'est étendu à la plupart des sélections nationales françaises, du rugby au handball. L'expression « Allez les Bleus ! » est devenue le cri de ralliement des supporters français, popularisé lors de la Coupe du monde 1998 remportée à domicile."
+  },
+  {
+   "q": "En quelle année s'est disputée la première Coupe du monde féminine de football organisée par la FIFA ?",
+   "choix": [
+    "1991",
+    "1999",
+    "1983",
+    "2003"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "La première Coupe du monde féminine officielle de la FIFA s'est tenue en 1991 en Chine, et les États-Unis l'ont remportée en battant la Norvège en finale. Les Américaines se sont imposées comme la grande puissance du football féminin, avec notamment leur victoire retentissante à domicile en 1999 devant plus de 90 000 spectateurs au Rose Bowl. Le football féminin, longtemps entravé, voire interdit dans certains pays comme l'Angleterre entre 1921 et 1971, a connu depuis un essor considérable. La France a organisé l'édition 2019, remportée par les États-Unis."
+  },
+  {
+   "q": "Quel est le seul club français à avoir remporté la Ligue des champions de football, en 1993 ?",
+   "choix": [
+    "L'Olympique de Marseille",
+    "Le Paris Saint-Germain",
+    "L'AS Saint-Étienne",
+    "L'AS Monaco"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'Olympique de Marseille est le seul club français vainqueur de la Ligue des champions : le 26 mai 1993, à Munich, l'OM a battu le Milan AC 1-0 grâce à un but de la tête de Basile Boli, sur un corner d'Abedi Pelé. Cette victoire est intervenue lors de la première édition de la compétition sous son nouveau nom, succédant à la Coupe des clubs champions née en 1955. Avant l'OM, les clubs français avaient échoué à plusieurs reprises en finale, notamment Reims dans les années 1950 et Saint-Étienne en 1976 face au Bayern Munich. Le slogan du club, « Droit au but », orne son blason."
+  },
+  {
+   "q": "Au football, à quelle distance du but le point de penalty est-il situé ?",
+   "choix": [
+    "11 mètres",
+    "9 mètres",
+    "13 mètres",
+    "16,50 mètres"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le point de penalty se trouve à 11 mètres de la ligne de but, au centre de la surface de réparation ; en Espagne comme en Italie, le penalty s'appelle d'ailleurs « onze mètres ». Cette sanction, introduite dans les lois du jeu en 1891, punit une faute commise par un défenseur dans sa propre surface. Seuls le tireur et le gardien, qui doit garder au moins un pied sur sa ligne jusqu'à la frappe, sont concernés. La distance de 16,50 mètres correspond, elle, à la profondeur de la surface de réparation, héritée des 18 yards du football anglais."
+  },
+  {
+   "q": "Quel coureur cycliste belge, quintuple vainqueur du Tour de France, était surnommé « le Cannibale » ?",
+   "choix": [
+    "Eddy Merckx",
+    "Jacques Anquetil",
+    "Felice Gimondi",
+    "Roger De Vlaeminck"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le Belge Eddy Merckx, surnommé « le Cannibale » pour son insatiable appétit de victoires, a remporté cinq Tours de France entre 1969 et 1974, ainsi que cinq Tours d'Italie. Avec 525 victoires sur l'ensemble de sa carrière, dont 445 chez les professionnels, dont trois championnats du monde sur route et sept Milan-San Remo, il est très largement considéré comme le plus grand cycliste de l'histoire. En 1969, pour son premier Tour, il gagna à la fois le classement général, le classement par points et celui de la montagne, exploit jamais renouvelé depuis. Il a aussi battu le record de l'heure en 1972 à Mexico, parcourant 49,431 km."
+  },
+  {
+   "q": "Dans quel sport la France a-t-elle remporté son premier titre de championne du monde en 1995, avec l'équipe surnommée « les Barjots » ?",
+   "choix": [
+    "Le handball",
+    "Le volley-ball",
+    "Le basket-ball",
+    "Le water-polo"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "En 1995, l'équipe de France masculine de handball, surnommée « les Barjots » pour son esprit frondeur, est devenue championne du monde en Islande en battant la Croatie en finale : c'était le premier titre mondial d'un sport collectif français. Cette génération, emmenée par Jackson Richardson, a ouvert la voie à une domination durable. Leurs successeurs, « les Costauds » puis « les Experts » de Nikola Karabatic et Thierry Omeyer, ont accumulé les trophées, faisant de la France la première nation à détenir simultanément les titres olympique, mondial et européen en 2010. Le handball français compte plusieurs titres olympiques masculins depuis 2008 et un doublé historique hommes-femmes aux Jeux de Tokyo en 2021."
+  },
+  {
+   "q": "Au football, quelle règle sanctionne un attaquant placé plus près du but adverse que l'avant-dernier défenseur au moment de la passe ?",
+   "choix": [
+    "Le hors-jeu",
+    "L'obstruction",
+    "L'avantage",
+    "Le retrait"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La règle du hors-jeu sanctionne un attaquant qui, au moment où le ballon est joué par un partenaire, se trouve dans la moitié de terrain adverse plus près de la ligne de but que le ballon et l'avant-dernier adversaire (généralement le dernier défenseur, le gardien étant le dernier), et qui participe activement au jeu. Cette règle, présente dès les origines du football et assouplie à plusieurs reprises, vise à empêcher les attaquants de camper devant le but adverse. Il n'y a pas hors-jeu sur une touche, un corner ou un coup de pied de but. Depuis 2018 dans les grandes compétitions, l'assistance vidéo à l'arbitrage (VAR) aide à trancher les situations litigieuses, parfois au centimètre près."
+  }
+ ],
+ "cours": [
+  {
+   "titre": "Histoire des Jeux olympiques",
+   "sections": [
+    {
+     "titre": "Des Jeux antiques à Coubertin",
+     "texte": "Les Jeux olympiques sont nés dans la Grèce antique, à Olympie, sanctuaire dédié à Zeus dans le Péloponnèse. La tradition situe leur première édition en 776 avant J.-C. Ils se tenaient tous les quatre ans, période qui servait même de repère chronologique aux Grecs : l'olympiade. Réservés aux hommes libres de langue grecque, ils comportaient des courses à pied, la lutte, le pugilat, le pentathlon et les prestigieuses courses de chars. Pendant les Jeux, une trêve sacrée devait suspendre les guerres entre cités pour permettre aux athlètes et aux pèlerins de voyager. Les vainqueurs recevaient une simple couronne d'olivier, mais jouissaient d'une gloire immense dans leur cité. Devenus contraires à la religion chrétienne officielle de l'Empire romain, les Jeux furent interdits à la fin du IVe siècle de notre ère par l'empereur Théodose, après plus d'un millénaire d'existence. Il fallut attendre la fin du XIXe siècle pour que le baron français Pierre de Coubertin, convaincu des vertus éducatives du sport, entreprenne de les faire renaître : en 1894, il fonde à la Sorbonne le Comité international olympique (CIO), et les premiers Jeux de l'ère moderne s'ouvrent à Athènes en 1896, avec environ 240 athlètes de 14 pays.",
+     "visuel": {
+      "type": "frise",
+      "titre": "D'Olympie à Athènes 1896",
+      "evenements": [
+       {
+        "date": "776 av. J.-C.",
+        "label": "Premiers Jeux à Olympie",
+        "texte": "Selon la tradition, dans le sanctuaire de Zeus, dans le Péloponnèse."
+       },
+       {
+        "date": "IVe siècle",
+        "label": "Interdiction par Théodose",
+        "texte": "Les Jeux disparaissent après plus d'un millénaire d'existence."
+       },
+       {
+        "date": "1894",
+        "label": "Fondation du CIO",
+        "texte": "Pierre de Coubertin crée le Comité international olympique à la Sorbonne."
+       },
+       {
+        "date": "1896",
+        "label": "Premiers Jeux modernes à Athènes",
+        "texte": "Environ 240 athlètes venus de 14 pays."
+       }
+      ]
+     }
+    },
+    {
+     "titre": "L'essor des Jeux modernes",
+     "texte": "Modestes à leurs débuts, les Jeux olympiques modernes n'ont cessé de grandir. Les femmes sont admises dès 1900 à Paris, mais dans quelques disciplines seulement ; la Britannique Charlotte Cooper y devient la première championne olympique en tennis, et il faudra attendre 2012 pour que toutes les délégations comptent des athlètes féminines. Les symboles olympiques se mettent en place progressivement : le drapeau aux cinq anneaux, dessiné par Coubertin en 1913, flotte pour la première fois à Anvers en 1920, tandis que la flamme olympique apparaît à Amsterdam en 1928 et le relais de la torche en 1936. Le XXe siècle marque aussi les Jeux de son histoire tourmentée : annulations pendant les deux guerres mondiales, Jeux de Berlin en 1936 utilisés par la propagande nazie mais éclaboussés par les quatre médailles d'or du Noir américain Jesse Owens, attentat contre les athlètes israéliens à Munich en 1972, boycotts croisés de Moscou en 1980 et Los Angeles en 1984 pendant la guerre froide. Malgré ces crises, les Jeux sont devenus le premier événement sportif planétaire avec la Coupe du monde de football : plus de 10 000 athlètes de plus de 200 délégations participent désormais aux Jeux d'été, suivis par des milliards de téléspectateurs.",
+     "visuels": [
+      {
+       "type": "frise",
+       "titre": "La mise en place des symboles olympiques",
+       "evenements": [
+        {
+         "date": "1900",
+         "label": "Premières femmes aux Jeux",
+         "texte": "À Paris, dans quelques disciplines ; Charlotte Cooper est la première championne olympique."
+        },
+        {
+         "date": "1913",
+         "label": "Le drapeau aux cinq anneaux",
+         "texte": "Dessiné par Coubertin, il flotte pour la première fois à Anvers en 1920."
+        },
+        {
+         "date": "1928",
+         "label": "La flamme olympique",
+         "texte": "Elle apparaît aux Jeux d'Amsterdam."
+        },
+        {
+         "date": "1936",
+         "label": "Le relais de la torche",
+         "texte": "Institué pour les Jeux de Berlin."
+        },
+        {
+         "date": "2012",
+         "label": "Toutes les délégations mixtes",
+         "texte": "Chaque pays compte désormais des athlètes féminines."
+        }
+       ]
+      },
+      {
+       "type": "image",
+       "image": "sp-anneaux-olympiques",
+       "legende": "Les cinq anneaux entrelacés, dessinés par Pierre de Coubertin en 1913 : leurs couleurs, avec le fond blanc du drapeau, permettaient de composer tous les drapeaux nationaux de l'époque.",
+       "alt": "Les cinq anneaux olympiques entrelacés sur deux rangées, bleu, jaune, noir, vert et rouge."
+      }
+     ]
+    },
+    {
+     "titre": "Les Jeux d'hiver",
+     "texte": "Les sports de neige et de glace ont d'abord fait des apparitions ponctuelles aux Jeux d'été : le patinage artistique figure ainsi au programme de Londres en 1908 et d'Anvers en 1920, tout comme le hockey sur glace. En 1924, une « Semaine internationale des sports d'hiver » est organisée à Chamonix, au pied du mont Blanc : son succès conduit le CIO à la reconnaître rétroactivement comme les premiers Jeux olympiques d'hiver. Environ 260 athlètes de 16 nations y disputent du ski de fond, du saut à ski, du patinage, du hockey, du bobsleigh et du curling. Longtemps organisés la même année que les Jeux d'été, les Jeux d'hiver s'en détachent après Albertville 1992 : depuis Lillehammer 1994, les deux éditions alternent tous les deux ans. La France a accueilli trois fois les Jeux d'hiver : Chamonix en 1924, Grenoble en 1968, où le skieur Jean-Claude Killy remporta les trois épreuves alpines (descente, slalom, slalom géant), et Albertville en 1992, dont la cérémonie d'ouverture signée Philippe Decouflé fit date. Les Alpes françaises ont par ailleurs été désignées pour organiser les Jeux d'hiver de 2030. Parmi les grandes figures françaises de l'hiver, citons aussi le biathlète Martin Fourcade, quintuple champion olympique.",
+     "visuel": {
+      "type": "tableau",
+      "titre": "Les Jeux d'hiver en France",
+      "colonnes": [
+       "Année",
+       "Ville",
+       "À retenir"
+      ],
+      "lignes": [
+       [
+        "1924",
+        "Chamonix",
+        "Semaine internationale des sports d'hiver, reconnue après coup comme les premiers Jeux d'hiver : environ 260 athlètes de 16 nations."
+       ],
+       [
+        "1968",
+        "Grenoble",
+        "Jean-Claude Killy remporte les trois épreuves alpines : descente, slalom, slalom géant."
+       ],
+       [
+        "1992",
+        "Albertville",
+        "Dernière édition disputée la même année que les Jeux d'été ; cérémonie signée Philippe Decouflé."
+       ],
+       [
+        "2030",
+        "Alpes françaises",
+        "Édition attribuée aux Alpes françaises."
+       ]
+      ]
+     }
+    },
+    {
+     "titre": "La France olympique",
+     "texte": "La France occupe une place singulière dans l'histoire olympique. C'est un Français, Pierre de Coubertin, qui a rénové les Jeux et présidé le CIO de 1896 à 1925 ; c'est à Paris que le CIO a été fondé en 1894, et le français demeure, avec l'anglais, langue officielle de l'olympisme. Paris a accueilli les Jeux d'été en 1900, en 1924 et en 2024, devenant la deuxième ville trois fois organisatrice après Londres. Les Jeux de Paris 2024 ont marqué les esprits avec leur cérémonie d'ouverture inédite sur la Seine et des sites spectaculaires comme le Grand Palais ou les jardins du château de Versailles. Côté athlètes, la moisson française est riche : l'escrime et le cyclisme ont longtemps été les disciplines les plus pourvoyeuses de médailles, avec des champions comme le fleurettiste Christian d'Oriola. Marie-José Pérec a conquis trois titres en athlétisme (1992 et 1996), le judoka Teddy Riner a été sacré en individuel à Londres 2012, Rio 2016 et Paris 2024, et le nageur Léon Marchand a ébloui Paris 2024 avec quatre titres individuels. Les sports collectifs français brillent également, le handball masculin et féminin ayant réalisé un doublé doré historique aux Jeux de Tokyo disputés en 2021."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "En quelle année les Jeux olympiques d'hiver ont-ils cessé d'avoir lieu la même année que les Jeux d'été ?",
+     "choix": [
+      "1994",
+      "1992",
+      "1984",
+      "2000"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "Jusqu'en 1992, Jeux d'hiver et Jeux d'été se déroulaient la même année. Le CIO a ensuite décalé le calendrier : les Jeux d'hiver de Lillehammer se sont tenus dès 1994, deux ans seulement après ceux d'Albertville. Depuis, les éditions d'hiver et d'été alternent tous les deux ans. Ce changement visait notamment à mieux répartir l'attention médiatique et les ressources financières."
+    },
+    {
+     "q": "Quel skieur français a remporté les trois épreuves de ski alpin aux Jeux de Grenoble en 1968 ?",
+     "choix": [
+      "Jean-Claude Killy",
+      "Henri Oreiller",
+      "Guy Périllat",
+      "Luc Alphand"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Aux Jeux de Grenoble en 1968, Jean-Claude Killy a réalisé un triplé historique en remportant la descente, le slalom et le slalom géant, soit toutes les épreuves masculines de ski alpin au programme. Seul l'Autrichien Toni Sailer avait réussi pareil exploit, en 1956. Devenu immensément populaire, Killy a ensuite coprésidé le comité d'organisation des Jeux d'Albertville en 1992. Il a aussi été membre du CIO pendant de nombreuses années."
+    },
+    {
+     "q": "Où le drapeau olympique a-t-il flotté pour la première fois lors de Jeux ?",
+     "choix": [
+      "À Anvers en 1920",
+      "À Athènes en 1896",
+      "À Paris en 1900",
+      "À Berlin en 1936"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "Le drapeau aux cinq anneaux, dessiné par Pierre de Coubertin en 1913, a été hissé pour la première fois lors des Jeux d'Anvers, en Belgique, en 1920. Ces Jeux, organisés au lendemain de la Première Guerre mondiale, ont aussi vu la création du serment olympique prononcé par un athlète au nom de tous. Les cinq anneaux symbolisent l'union des cinq continents. Les couleurs choisies figuraient dans tous les drapeaux nationaux de l'époque."
+    },
+    {
+     "q": "Quelle était la récompense des vainqueurs aux Jeux olympiques antiques ?",
+     "choix": [
+      "Une couronne d'olivier",
+      "Une médaille d'or",
+      "Une amphore d'argent",
+      "Un trépied de bronze"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "À Olympie, les vainqueurs recevaient une simple couronne tressée avec les rameaux de l'olivier sacré de Zeus. La récompense matérielle était symbolique, mais la gloire immense : les champions étaient célébrés en héros dans leur cité, qui pouvait leur offrir statues, pensions et privilèges. Les médailles d'or, d'argent et de bronze sont une invention des Jeux modernes, le trio de médailles apparaissant au début du XXe siècle. Aux premiers Jeux de 1896, les vainqueurs recevaient une médaille d'argent et un rameau d'olivier."
+    },
+    {
+     "q": "Quel nageur français a remporté quatre titres olympiques individuels aux Jeux de Paris 2024 ?",
+     "choix": [
+      "Léon Marchand",
+      "Alain Bernard",
+      "Yannick Agnel",
+      "Florent Manaudou"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Léon Marchand a été la star française des Jeux de Paris 2024 en remportant quatre médailles d'or individuelles : 200 m papillon, 200 m brasse, 200 m quatre nages et 400 m quatre nages. Réaliser le doublé 200 m papillon-200 m brasse le même soir était considéré comme presque impossible tant les deux nages sont différentes. Entraîné aux États-Unis par Bob Bowman, l'ancien coach de Michael Phelps, le Toulousain a soulevé des ovations mémorables à La Défense Arena. Alain Bernard (2008), Yannick Agnel (2012) et Florent Manaudou (2012) sont d'autres champions olympiques français de natation, mais avec moins de titres individuels sur une même édition."
+    }
+   ]
+  },
+  {
+   "titre": "Le football, roi des sports",
+   "sections": [
+    {
+     "titre": "Naissance et règles du jeu",
+     "texte": "Le football moderne est né en Angleterre au XIXe siècle. En 1863, la création de la Football Association à Londres fixe des règles communes et sépare définitivement le football du rugby, où le ballon peut être porté à la main. Les lois du jeu, gardées depuis 1886 par l'International Football Association Board (IFAB), reposent sur des principes simples : deux équipes de onze joueurs, dont un gardien de but, s'affrontent pendant deux mi-temps de 45 minutes, et seule l'équipe qui marque le plus de buts l'emporte. Le terrain mesure environ 105 mètres sur 68 pour les matchs internationaux, les buts font 7,32 mètres de large sur 2,44 mètres de haut, et le point de penalty est situé à 11 mètres de la ligne. Parmi les règles essentielles figurent le hors-jeu, qui interdit à un attaquant de se poster derrière l'avant-dernier défenseur au moment de la passe, et le carton jaune ou rouge, introduit lors de la Coupe du monde 1970, qui sanctionne les fautes graves. Le football s'est diffusé dans le monde entier grâce aux marins, ouvriers et commerçants britanniques, et la FIFA, fondée à Paris en 1904, fédère aujourd'hui plus de 200 associations nationales : c'est le sport le plus pratiqué et le plus regardé de la planète.",
+     "visuel": {
+      "type": "tableau",
+      "titre": "Les mesures officielles du football",
+      "colonnes": [
+       "Élément",
+       "Mesure"
+      ],
+      "lignes": [
+       [
+        "Terrain (matchs internationaux)",
+        "environ 105 m sur 68 m"
+       ],
+       [
+        "But",
+        "7,32 m de large sur 2,44 m de haut"
+       ],
+       [
+        "Point de penalty",
+        "11 m de la ligne"
+       ],
+       [
+        "Joueurs par équipe",
+        "11, dont un gardien de but"
+       ],
+       [
+        "Durée du match",
+        "2 mi-temps de 45 minutes"
+       ]
+      ]
+     }
+    },
+    {
+     "titre": "La Coupe du monde",
+     "texte": "La Coupe du monde de football est née en 1930 sous l'impulsion du Français Jules Rimet, président de la FIFA. La première édition, en Uruguay, ne réunit que 13 équipes ; le pays hôte s'impose en finale contre l'Argentine. Organisée tous les quatre ans, sauf en 1942 et 1946 pour cause de guerre, la compétition s'est imposée comme le plus grand événement sportif mondial avec les Jeux olympiques. Le Brésil domine son palmarès avec cinq titres (1958, 1962, 1970, 1994, 2002), devant l'Allemagne et l'Italie, quatre chacune, puis l'Argentine, trois. La France en compte deux : en 1998, à domicile, avec la finale gagnée 3-0 contre le Brésil et le doublé de Zinédine Zidane, et en 2018 en Russie, face à la Croatie (4-2). L'histoire de l'épreuve regorge de moments légendaires : le « Maracanazo » de 1950, où l'Uruguay fit taire 200 000 Brésiliens à Rio, la « main de Dieu » et le but du siècle de Maradona en 1986, ou la finale 2022, considérée comme l'une des plus spectaculaires, remportée par l'Argentine de Lionel Messi aux tirs au but contre la France malgré un triplé de Kylian Mbappé. La Coupe du monde féminine existe quant à elle depuis 1991, avec les États-Unis pour nation phare.",
+     "visuel": {
+      "type": "barres",
+      "titre": "Le palmarès de la Coupe du monde masculine",
+      "unite": "titres",
+      "donnees": [
+       {
+        "label": "Brésil",
+        "valeur": 5
+       },
+       {
+        "label": "Allemagne",
+        "valeur": 4
+       },
+       {
+        "label": "Italie",
+        "valeur": 4
+       },
+       {
+        "label": "Argentine",
+        "valeur": 3
+       },
+       {
+        "label": "France",
+        "valeur": 2,
+        "focus": true
+       }
+      ]
+     }
+    },
+    {
+     "titre": "L'équipe de France",
+     "texte": "L'équipe de France de football, surnommée « les Bleus », dispute son premier match officiel en 1904. Longtemps honorable sans être dominante, elle connaît une première grande génération dans les années 1950 autour de Raymond Kopa et Just Fontaine, auteur d'un record toujours inégalé de 13 buts lors de la seule Coupe du monde 1958. Les années 1980 sont celles du « carré magique » emmené par Michel Platini, triple Ballon d'or (1983, 1984, 1985) : la France remporte son premier grand titre au Championnat d'Europe 1984 à domicile. La consécration mondiale arrive en 1998 : la génération de Zinédine Zidane, Didier Deschamps et Thierry Henry s'impose au Stade de France face au Brésil, puis enchaîne avec l'Euro 2000. Après des années plus sombres, marquées par l'épisode de Knysna en 2010, les Bleus retrouvent les sommets sous la direction de Didier Deschamps, sélectionneur depuis 2012 : victoire en Coupe du monde 2018 en Russie avec la jeune star Kylian Mbappé, finale mondiale en 2022, et victoire en Ligue des nations en 2021. Didier Deschamps et le Brésilien Mario Zagallo, rejoints depuis par l'Allemand Franz Beckenbauer, forment le cercle très fermé des hommes champions du monde comme joueur puis comme sélectionneur ou entraîneur. Olivier Giroud est devenu en 2022 le meilleur buteur de l'histoire de la sélection, dépassant Thierry Henry.",
+     "visuel": {
+      "type": "frise",
+      "titre": "Les grandes dates des Bleus",
+      "evenements": [
+       {
+        "date": "1904",
+        "label": "Premier match officiel"
+       },
+       {
+        "date": "1958",
+        "label": "Les 13 buts de Just Fontaine",
+        "texte": "Un record jamais égalé sur une seule Coupe du monde."
+       },
+       {
+        "date": "1984",
+        "label": "Championnat d'Europe à domicile",
+        "texte": "Premier grand titre, avec le carré magique de Michel Platini."
+       },
+       {
+        "date": "1998",
+        "label": "Coupe du monde à domicile",
+        "texte": "Victoire 3-0 sur le Brésil au Stade de France, doublé de Zinédine Zidane."
+       },
+       {
+        "date": "2000",
+        "label": "Championnat d'Europe"
+       },
+       {
+        "date": "2018",
+        "label": "Coupe du monde en Russie",
+        "texte": "Victoire 4-2 en finale contre la Croatie."
+       },
+       {
+        "date": "2022",
+        "label": "Finale mondiale perdue",
+        "texte": "Défaite aux tirs au but contre l'Argentine malgré un triplé de Kylian Mbappé."
+       }
+      ]
+     }
+    },
+    {
+     "titre": "Clubs et compétitions européennes",
+     "texte": "Le football de clubs s'organise autour des championnats nationaux et des coupes d'Europe. Les cinq grands championnats européens sont la Premier League anglaise, la Liga espagnole, la Serie A italienne, la Bundesliga allemande et la Ligue 1 française. La reine des compétitions de clubs est la Ligue des champions, créée en 1955 sous le nom de Coupe des clubs champions européens, à l'initiative de journalistes français du quotidien L'Équipe. Le Real Madrid en est le club le plus titré, avec quinze victoires à l'issue de la saison 2023-2024, loin devant le Milan AC. Côté français, l'Olympique de Marseille reste le seul club vainqueur, en 1993 contre le Milan AC grâce à un but de Basile Boli, tandis que le Paris Saint-Germain, longtemps en quête du trophée, a remporté sa première Ligue des champions en 2025. En France, le championnat professionnel existe depuis 1932 ; l'AS Saint-Étienne a longtemps détenu le record de titres nationaux avant d'être dépassée par le PSG, propulsé depuis 2011 par des investissements qataris. La Coupe de France, créée en 1917, reste célèbre pour ses exploits de « petits » clubs amateurs face aux professionnels. Les grands clubs français ont formé des générations de talents, de Kopa (Reims) à Mbappé (Monaco puis PSG), faisant du pays l'un des premiers exportateurs mondiaux de footballeurs."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Quel joueur français détient le record de buts marqués lors d'une seule Coupe du monde, avec 13 réalisations en 1958 ?",
+     "choix": [
+      "Just Fontaine",
+      "Raymond Kopa",
+      "Michel Platini",
+      "Thierry Henry"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Just Fontaine a inscrit 13 buts lors de la Coupe du monde 1958 en Suède, un record sur une seule édition qui tient toujours. La France avait terminé troisième de ce tournoi, marqué aussi par l'éclosion du jeune Pelé. Fontaine, attaquant du Stade de Reims, vit sa carrière brisée peu après par une double fracture de la jambe. Son record paraît d'autant plus inaccessible que les meilleurs buteurs des éditions récentes dépassent rarement 6 à 8 buts."
+    },
+    {
+     "q": "En quelle année la France a-t-elle remporté son premier grand titre international, le Championnat d'Europe des nations ?",
+     "choix": [
+      "1984",
+      "1998",
+      "1958",
+      "2000"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "La France a remporté son premier grand trophée international à l'Euro 1984, organisé à domicile. Michel Platini y a réalisé un tournoi d'anthologie avec 9 buts en 5 matchs, record de la compétition, et la finale a été gagnée 2-0 contre l'Espagne au Parc des Princes. Cette équipe s'appuyait sur le « carré magique » du milieu de terrain : Platini, Giresse, Tigana et Fernandez. Les Bleus ont ensuite gagné la Coupe du monde en 1998 et un deuxième Euro en 2000."
+    },
+    {
+     "q": "Quel club est le plus titré en Ligue des champions ?",
+     "choix": [
+      "Le Real Madrid",
+      "Le FC Barcelone",
+      "Le Bayern Munich",
+      "Liverpool"
+     ],
+     "bonne": 0,
+     "difficulte": 1,
+     "explication": "Le Real Madrid domine le palmarès de la Ligue des champions avec quinze titres à l'issue de la saison 2023-2024. Le club espagnol a marqué la compétition dès ses débuts en remportant les cinq premières éditions, de 1956 à 1960, avec Alfredo Di Stéfano. Le Milan AC est son dauphin avec sept trophées. Cette compétition, créée en 1955 à l'initiative de journalistes français, s'appelait à l'origine la Coupe des clubs champions européens."
+    },
+    {
+     "q": "Lors de quelle Coupe du monde les cartons jaunes et rouges ont-ils été introduits ?",
+     "choix": [
+      "1970 au Mexique",
+      "1954 en Suisse",
+      "1982 en Espagne",
+      "1998 en France"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "Les cartons jaunes et rouges ont été utilisés pour la première fois en Coupe du monde lors de l'édition 1970 au Mexique. L'idée revient à l'arbitre anglais Ken Aston, inspiré, selon la légende, par les feux tricolores londoniens : jaune pour avertir, rouge pour exclure. Ce système visuel permettait de dépasser les barrières de langue entre arbitres et joueurs. Il s'est ensuite imposé dans le monde entier et dans la plupart des sports collectifs."
+    },
+    {
+     "q": "Contre quelle équipe la France a-t-elle perdu la finale de la Coupe du monde 2022 ?",
+     "choix": [
+      "L'Argentine",
+      "Le Brésil",
+      "La Croatie",
+      "L'Espagne"
+     ],
+     "bonne": 0,
+     "difficulte": 1,
+     "explication": "En finale de la Coupe du monde 2022 au Qatar, la France s'est inclinée face à l'Argentine aux tirs au but, après un match spectaculaire conclu sur le score de 3-3. Kylian Mbappé y a réussi un triplé, exploit inédit en finale depuis Geoff Hurst en 1966, mais Lionel Messi a enfin conquis le trophée qui manquait à son palmarès. Ce match est considéré comme l'une des plus grandes finales de l'histoire. La France, tenante du titre 2018, échouait ainsi à réaliser le premier doublé depuis le Brésil en 1962."
+    }
+   ]
+  },
+  {
+   "titre": "Les grands rendez-vous du sport français",
+   "sections": [
+    {
+     "titre": "Le Tour de France",
+     "texte": "Créé en 1903 par Henri Desgrange pour doper les ventes du journal L'Auto, le Tour de France est devenu la plus grande course cycliste du monde et l'un des événements sportifs les plus suivis, avec des millions de spectateurs au bord des routes chaque été. L'épreuve se dispute en une vingtaine d'étapes sur environ trois semaines en juillet, alternant plaines propices aux sprints, contre-la-montre et grandes étapes de montagne dans les Pyrénées et les Alpes, où se forgent souvent les victoires. Le leader du classement général porte le maillot jaune, couleur du papier de L'Auto, institué en 1919 ; le maillot vert récompense le classement par points, le maillot à pois rouges le meilleur grimpeur et le maillot blanc le meilleur jeune. Quatre géants ont remporté cinq Tours : les Français Jacques Anquetil (1957-1964) et Bernard Hinault (1978-1985), le Belge Eddy Merckx (1969-1974) et l'Espagnol Miguel Indurain (1991-1995). Bernard Hinault reste le dernier vainqueur français, en 1985, tandis que Raymond Poulidor, « l'éternel second », a construit sa légende sans jamais porter le maillot jaune. Les cols mythiques comme le Tourmalet, le Galibier, le Ventoux ou l'Alpe d'Huez sont entrés dans la culture populaire française, et l'arrivée finale se juge traditionnellement sur les Champs-Élysées depuis 1975.",
+     "visuel": {
+      "type": "tableau",
+      "titre": "Les quatre maillots du Tour",
+      "colonnes": [
+       "Maillot",
+       "Ce qu'il récompense"
+      ],
+      "lignes": [
+       [
+        "Jaune",
+        "Le leader du classement général ; sa couleur rappelle le papier du journal L'Auto. Institué en 1919."
+       ],
+       [
+        "Vert",
+        "Le classement par points, favorable aux sprinteurs."
+       ],
+       [
+        "À pois rouges",
+        "Le meilleur grimpeur."
+       ],
+       [
+        "Blanc",
+        "Le meilleur jeune coureur."
+       ]
+      ],
+      "note": "Quatre coureurs ont remporté cinq Tours : Jacques Anquetil, Eddy Merckx, Bernard Hinault et Miguel Indurain."
+     }
+    },
+    {
+     "titre": "Roland-Garros et le tennis français",
+     "texte": "Le tournoi de Roland-Garros, l'un des quatre du Grand Chelem, se dispute chaque printemps à Paris, porte d'Auteuil, sur la terre battue ocre qui fait sa singularité. Créé en 1891 et ouvert aux joueurs étrangers en 1925, il s'installe en 1928 dans un stade construit pour accueillir la défense de la Coupe Davis remportée par les « Quatre Mousquetaires » : Jean Borotra, Jacques Brugnon, Henri Cochet et René Lacoste, héros du tennis français de l'entre-deux-guerres. Le stade porte le nom d'un aviateur pionnier, premier à traverser la Méditerranée en 1913, mort pendant la Grande Guerre. Sur cette surface lente et exigeante, l'Espagnol Rafael Nadal a bâti un règne sans précédent avec 14 titres entre 2005 et 2022, honoré par une statue dans l'enceinte du stade. Chez les Françaises et les Français, les victoires à domicile sont rares et précieuses : Yannick Noah, en 1983, reste le dernier vainqueur français du simple messieurs, et Mary Pierce, titrée en 2000, la dernière chez les dames. Le court central Philippe-Chatrier, doté d'un toit rétractable depuis 2020, et le court Suzanne-Lenglen, du nom de la championne des années 1920 surnommée « la Divine », honorent la mémoire des grandes figures du tennis tricolore. Le tournoi attire chaque année plus de 600 000 spectateurs.",
+     "visuel": {
+      "type": "chiffres",
+      "titre": "Roland-Garros en repères",
+      "items": [
+       {
+        "valeur": "1928",
+        "label": "installation porte d'Auteuil, pour défendre la Coupe Davis"
+       },
+       {
+        "valeur": "14",
+        "label": "titres de Rafael Nadal entre 2005 et 2022"
+       },
+       {
+        "valeur": "1983",
+        "label": "Yannick Noah, dernier vainqueur français du simple messieurs"
+       },
+       {
+        "valeur": "2000",
+        "label": "Mary Pierce, dernière lauréate française"
+       },
+       {
+        "valeur": "600 000",
+        "label": "spectateurs chaque année"
+       }
+      ]
+     }
+    },
+    {
+     "titre": "Le rugby, une passion du Sud-Ouest",
+     "texte": "Introduit en France par les Britanniques à la fin du XIXe siècle, le rugby à XV s'est enraciné profondément dans le Sud-Ouest, dont il est devenu un marqueur identitaire, de Toulouse à Bayonne en passant par Clermont-Ferrand. L'équipe de France, surnommée le XV de France, dispute chaque année le Tournoi des Six Nations contre l'Angleterre, l'Écosse, l'Irlande, le pays de Galles et l'Italie, entrée en 2000 dans cette compétition née en 1883 entre nations britanniques et ouverte à la France en 1910. Gagner tous ses matchs du Tournoi constitue le « Grand Chelem », réussi à plusieurs reprises par les Bleus, notamment en 1968, 1977, 1987, 1998, 2002, 2004, 2010 et 2022. En Coupe du monde, créée en 1987, la France a atteint trois fois la finale, en 1987, 1999 et 2011, sans jamais soulever le trophée William-Webb-Ellis ; sa demi-finale de 1999 contre les All Blacks reste l'un des plus grands exploits du rugby français. Le championnat national, le Top 14, est l'un des plus relevés du monde ; son trophée, le bouclier de Brennus, est disputé depuis 1892. Le Stade Toulousain domine le palmarès national et européen, et des joueurs comme Serge Blanco, Jean-Pierre Rives ou Antoine Dupont, sacré meilleur joueur du monde en 2021, ont marqué l'histoire de ce sport.",
+     "visuel": {
+      "type": "frise",
+      "titre": "Le rugby français en dates",
+      "evenements": [
+       {
+        "date": "1883",
+        "label": "Naissance du Tournoi",
+        "texte": "Il oppose alors les seules nations britanniques."
+       },
+       {
+        "date": "1892",
+        "label": "Premier bouclier de Brennus",
+        "texte": "Le trophée du championnat national, aujourd'hui le Top 14."
+       },
+       {
+        "date": "1910",
+        "label": "La France entre dans le Tournoi"
+       },
+       {
+        "date": "1987",
+        "label": "Première Coupe du monde",
+        "texte": "La France atteint la finale, comme en 1999 et 2011."
+       },
+       {
+        "date": "1999",
+        "label": "Demi-finale contre les All Blacks",
+        "texte": "L'un des plus grands exploits du rugby français."
+       },
+       {
+        "date": "2000",
+        "label": "L'Italie rejoint le Tournoi",
+        "texte": "Il devient le Tournoi des Six Nations."
+       }
+      ]
+     }
+    },
+    {
+     "titre": "L'athlétisme et ses épreuves",
+     "texte": "L'athlétisme est souvent qualifié de sport roi des Jeux olympiques, dont il constitue le cœur depuis 1896. Ses épreuves se répartissent en courses, sauts, lancers et épreuves combinées. Les courses vont du 100 mètres, dont le champion est traditionnellement sacré « homme le plus rapide du monde », au marathon et à ses 42,195 km, en passant par les haies, le demi-fond, dont le mythique 1 500 mètres, et les relais. Les sauts comprennent la hauteur, la perche, la longueur et le triple saut ; les lancers concernent le poids, le disque, le marteau et le javelot ; le décathlon masculin et l'heptathlon féminin combinent dix et sept épreuves. Parmi les records du monde légendaires figurent les 9,58 secondes d'Usain Bolt sur 100 mètres et ses 19,19 secondes sur 200 mètres, établis aux Mondiaux de Berlin en 2009, ou le saut en longueur à 8,95 mètres de Mike Powell datant de 1991. Côté français, Marie-José Pérec a conquis trois titres olympiques (1992, 1996), Colette Besson avait triomphé sur 400 mètres à Mexico en 1968, et le perchiste ukrainien naturalisé français d'adoption du public, Renaud Lavillenie, champion olympique 2012, a détenu le record du monde de la perche avec 6,16 mètres en 2014, avant les exploits du Suédois Armand Duplantis. Le décathlonien Kevin Mayer a, lui, porté le record du monde du décathlon à 9 126 points en 2018.",
+     "visuel": {
+      "type": "tableau",
+      "titre": "Quelques repères chiffrés de l'athlétisme",
+      "colonnes": [
+       "Épreuve",
+       "Performance",
+       "Athlète",
+       "Année"
+      ],
+      "lignes": [
+       [
+        "100 mètres",
+        "9,58 s",
+        "Usain Bolt",
+        "2009"
+       ],
+       [
+        "200 mètres",
+        "19,19 s",
+        "Usain Bolt",
+        "2009"
+       ],
+       [
+        "Saut en longueur",
+        "8,95 m",
+        "Mike Powell",
+        "1991"
+       ],
+       [
+        "Saut à la perche",
+        "6,16 m",
+        "Renaud Lavillenie",
+        "2014"
+       ],
+       [
+        "Décathlon",
+        "9 126 points",
+        "Kevin Mayer",
+        "2018"
+       ]
+      ],
+      "note": "Le marathon, lui, se court sur une distance fixe de 42,195 km."
+     }
+    },
+    {
+     "titre": "Sports de combat et traditions françaises",
+     "texte": "La France entretient une longue tradition dans les sports de combat et d'adresse. L'escrime est historiquement l'une des disciplines olympiques les plus fécondes en médailles françaises : héritée des maîtres d'armes de l'Ancien Régime, elle se pratique au fleuret, à l'épée et au sabre, et a donné des champions comme Christian d'Oriola dans les années 1950 ou Laura Flessel, quintuple médaillée olympique. Le judo, créé au Japon par Jigoro Kano en 1882, a trouvé en France sa deuxième patrie : avec des centaines de milliers de licenciés, la Fédération française est l'une des plus importantes du monde, et le pays a produit des légendes comme David Douillet puis Teddy Riner, plus de dix fois champion du monde des poids lourds et triple champion olympique en individuel (2012, 2016, 2024). La boxe française, ou savate, discipline nationale née au XIXe siècle, se distingue de la boxe anglaise par l'usage des pieds. La pétanque, codifiée en 1907 à La Ciotat, en Provence, reste le plus populaire des jeux d'adresse traditionnels, avec ses parties disputées sur les places de village. Enfin, la France a développé une forte culture de la voile, du Vendée Globe, tour du monde en solitaire sans escale créé en 1989, à la Route du Rhum, transatlantique en solitaire lancée en 1978 entre Saint-Malo et la Guadeloupe."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Comment s'appelle le trophée remis au champion de France de rugby ?",
+     "choix": [
+      "Le bouclier de Brennus",
+      "La coupe William-Webb-Ellis",
+      "Le Calcutta Cup",
+      "Le trophée Garibaldi"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Le bouclier de Brennus récompense chaque année le vainqueur du championnat de France de rugby, aujourd'hui le Top 14. Ce bouclier de laiton, disputé depuis 1892, doit son nom au graveur Charles Brennus, cofondateur de l'union sportive qui organisait le championnat. Les joueurs le surnomment affectueusement le « Brennus » et le brandissent lors de tournées triomphales dans leur ville. La coupe William-Webb-Ellis est, elle, le trophée de la Coupe du monde, et le Calcutta Cup celui du match Angleterre-Écosse."
+    },
+    {
+     "q": "Quelle course à la voile, créée en 1989, consiste en un tour du monde en solitaire sans escale et sans assistance ?",
+     "choix": [
+      "Le Vendée Globe",
+      "La Route du Rhum",
+      "La Solitaire du Figaro",
+      "Le Trophée Jules-Verne"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Le Vendée Globe, créé en 1989 par le navigateur Philippe Jeantot, est un tour du monde à la voile en solitaire, sans escale et sans assistance, au départ des Sables-d'Olonne. Surnommé « l'Everest des mers », il se court tous les quatre ans sur des monocoques de 60 pieds et dure environ deux à trois mois. Titouan Lamazou a remporté la première édition en 1990. La Route du Rhum est, elle, une transatlantique entre Saint-Malo et la Guadeloupe, et le Trophée Jules-Verne un record du tour du monde en équipage."
+    },
+    {
+     "q": "Depuis quelle année le Tour de France s'achève-t-il traditionnellement sur les Champs-Élysées ?",
+     "choix": [
+      "1975",
+      "1965",
+      "1985",
+      "1955"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "Depuis 1975, la dernière étape du Tour de France se conclut traditionnellement sur l'avenue des Champs-Élysées à Paris, offrant un final spectaculaire avec plusieurs passages devant l'Arc de Triomphe. Le premier vainqueur sur « la plus belle avenue du monde » fut le Belge Walter Godefroot, tandis que Bernard Thévenet remportait cette année-là le classement général en détrônant Eddy Merckx. Cette arrivée est généralement une parade pour le maillot jaune, seuls les sprinteurs se disputant l'étape. En 2024, exceptionnellement, l'arrivée avait été déplacée à Nice en raison des Jeux olympiques de Paris."
+    },
+    {
+     "q": "Quel joueur français de rugby a été élu meilleur joueur du monde en 2021 ?",
+     "choix": [
+      "Antoine Dupont",
+      "Serge Blanco",
+      "Thierry Dusautoir",
+      "Fabien Pelous"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Le demi de mêlée Antoine Dupont a été élu meilleur joueur du monde par World Rugby en 2021, distinction rare pour un Français. Joueur du Stade Toulousain et capitaine du XV de France, il s'est imposé comme l'un des visages du rugby mondial, contribuant au Grand Chelem des Bleus dans le Tournoi des Six Nations 2022. Avant lui, Thierry Dusautoir avait été sacré en 2011 après la finale de Coupe du monde perdue d'un point contre la Nouvelle-Zélande. Dupont a aussi mené l'équipe de France de rugby à 7 au titre olympique à Paris en 2024."
+    },
+    {
+     "q": "Dans quelle ville provençale la pétanque a-t-elle été codifiée en 1907 ?",
+     "choix": [
+      "La Ciotat",
+      "Marseille",
+      "Avignon",
+      "Toulon"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "La pétanque est née à La Ciotat, près de Marseille, en 1907 : un joueur de jeu provençal perclus de rhumatismes, Jules Lenoir, aurait lancé ses boules les « pieds tanqués » (pieds joints, ancrés au sol), donnant son nom au jeu. Contrairement au jeu provençal, la pétanque se joue donc sans élan, dans un cercle tracé au sol. Le but est de placer ses boules d'acier plus près du cochonnet que l'adversaire. Des championnats du monde sont organisés depuis 1959, et Marseille accueille chaque été le Mondial la Marseillaise, plus grand concours de la planète."
+    }
+   ]
+  }
+ ]
+}

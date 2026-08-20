@@ -1,0 +1,228 @@
+{
+  "titre": "L'ONU et le droit international",
+  "sections": [
+    {
+      "titre": "La naissance de l'Organisation des Nations unies",
+      "texte": "L'Organisation des Nations unies naît de la volonté des vainqueurs de la Seconde Guerre mondiale d'éviter le retour d'un conflit mondial. Sa Charte est signée le 26 juin 1945 à San Francisco et l'Organisation est officiellement établie le 24 octobre 1945, après les ratifications nécessaires. Elle succède à la Société des Nations, créée après la Première Guerre mondiale et impuissante à empêcher la suivante. Cinquante et un États en sont membres fondateurs ; ils sont aujourd'hui cent quatre-vingt-treize, le dernier entré étant le Soudan du Sud. La Palestine dispose d'un statut d'observateur depuis 2012. Le siège, d'abord installé à Londres, a été transféré à New York, sur l'île de Manhattan, où il bénéficie d'un statut d'extraterritorialité. L'article premier de la Charte fixe quatre buts : maintenir la paix et la sécurité internationales, développer des relations amicales entre les nations, réaliser la coopération internationale, notamment en matière de droits de l'homme, et constituer un centre où s'harmonisent les efforts des nations vers ces objectifs communs. L'Organisation reconnaît six langues officielles : l'anglais, l'arabe, le chinois, l'espagnol, le français et le russe ; seuls l'anglais et le français sont langues de travail du Secrétariat. Autour d'elle gravitent en outre des institutions spécialisées comme l'Organisation mondiale de la santé, l'UNESCO ou le Fonds des Nations unies pour l'enfance.",
+      "visuel": {
+        "type": "chiffres",
+        "titre": "L'Organisation des Nations unies en repères",
+        "items": [
+          {
+            "valeur": "1945",
+            "label": "Charte signée le 26 juin à San Francisco, Organisation établie le 24 octobre"
+          },
+          {
+            "valeur": "51",
+            "label": "États membres fondateurs"
+          },
+          {
+            "valeur": "193",
+            "label": "États membres aujourd'hui, le dernier entré étant le Soudan du Sud"
+          },
+          {
+            "valeur": "6",
+            "label": "langues officielles : anglais, arabe, chinois, espagnol, français, russe"
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Les organes principaux",
+      "texte": "La Charte institue six organes principaux, aux fonctions distinctes. L'Assemblée générale réunit tous les États membres, chacun disposant d'une voix, ce qui en fait l'organe le plus représentatif ; elle débat de toutes les questions relevant de la Charte et adopte des résolutions qui n'ont pas de force obligatoire. Le Conseil de sécurité porte la responsabilité principale du maintien de la paix et de la sécurité internationales, et ses décisions s'imposent aux États membres. Le Conseil économique et social coordonne les travaux dans les domaines économique, social, culturel et sanitaire, en lien avec les institutions spécialisées. Le Conseil de tutelle était chargé d'accompagner vers l'autonomie les territoires placés sous tutelle ; sa mission achevée, il n'exerce plus d'activité régulière. La Cour internationale de justice constitue l'organe judiciaire principal. Le Secrétariat, enfin, assure le fonctionnement administratif quotidien de l'Organisation ; il est dirigé par le secrétaire général, nommé par l'Assemblée générale sur recommandation du Conseil de sécurité. Le Portugais António Guterres occupe cette fonction depuis le 1er janvier 2017. Cette architecture traduit un équilibre délicat : d'un côté un organe universel où tous les États sont égaux mais dont les textes ne contraignent pas, de l'autre un organe restreint dont les décisions obligent, ce qui explique la place centrale des débats sur sa composition.",
+      "visuel": {
+        "type": "tableau",
+        "titre": "Les six organes principaux",
+        "colonnes": [
+          "Organe",
+          "Composition",
+          "Rôle",
+          "Portée de ses textes"
+        ],
+        "lignes": [
+          [
+            "Assemblée générale",
+            "Tous les États membres, une voix chacun",
+            "Débattre de toutes les questions relevant de la Charte",
+            "Résolutions sans force obligatoire"
+          ],
+          [
+            "Conseil de sécurité",
+            "Quinze membres",
+            "Responsabilité principale du maintien de la paix et de la sécurité internationales",
+            "Décisions obligatoires pour les États membres"
+          ],
+          [
+            "Conseil économique et social",
+            "Représentants des États",
+            "Coordonner les travaux économiques, sociaux, culturels et sanitaires avec les institutions spécialisées",
+            "Recommandations"
+          ],
+          [
+            "Conseil de tutelle",
+            "—",
+            "Accompagner vers l'autonomie les territoires sous tutelle",
+            "Mission achevée : plus d'activité régulière"
+          ],
+          [
+            "Cour internationale de justice",
+            "Quinze juges",
+            "Organe judiciaire principal",
+            "Arrêts obligatoires pour les parties"
+          ],
+          [
+            "Secrétariat",
+            "Dirigé par le secrétaire général, nommé par l'Assemblée générale sur recommandation du Conseil de sécurité",
+            "Fonctionnement administratif quotidien",
+            "Actes d'administration"
+          ]
+        ],
+        "note": "Un organe universel où tous les États sont égaux mais dont les textes ne contraignent pas, un organe restreint dont les décisions obligent : cet équilibre explique la place des débats sur la composition du Conseil de sécurité."
+      }
+    },
+    {
+      "titre": "Le Conseil de sécurité et le droit de veto",
+      "texte": "Le Conseil de sécurité compte quinze membres. Cinq d'entre eux sont permanents : la Chine, les États-Unis, la France, le Royaume-Uni et la Russie. Les dix autres sont élus pour un mandat de deux ans ; leur nombre a été porté de six à dix en 1965, afin de mieux refléter l'augmentation du nombre d'États membres. Une résolution est adoptée si elle recueille neuf voix sur quinze, mais aucun membre permanent ne doit avoir voté contre : c'est le droit de veto. Une abstention n'empêche pas l'adoption, ce qui laisse une marge de manœuvre diplomatique. Les questions de procédure échappent au veto et requièrent seulement neuf voix. Le Conseil peut décider de sanctions économiques ou diplomatiques et autoriser le recours à la force, ce qui en fait le seul organe international disposant de pouvoirs contraignants aussi étendus. Il siège à New York et sa présidence change chaque mois selon un tour de rôle. Son fonctionnement est très discuté. Le veto est souvent présenté comme l'élément le moins démocratique du système, puisqu'il permet à un membre permanent de bloquer toute action, y compris lorsqu'il est mis en cause. Les cinq permanents représentent aujourd'hui environ trente pour cent de la population mondiale, contre la moitié en 1945, et plusieurs États candidatent à un siège permanent.",
+      "visuel": {
+        "type": "chiffres",
+        "titre": "Voter au Conseil de sécurité",
+        "items": [
+          {
+            "valeur": "15",
+            "label": "membres au total"
+          },
+          {
+            "valeur": "5",
+            "label": "membres permanents : Chine, États-Unis, France, Royaume-Uni, Russie"
+          },
+          {
+            "valeur": "10",
+            "label": "membres élus pour deux ans, contre six avant 1965"
+          },
+          {
+            "valeur": "9",
+            "label": "voix nécessaires pour adopter une résolution, sans vote contre d'un permanent"
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Qu'est-ce que le droit international public ?",
+      "texte": "Le droit international public est l'ensemble des règles qui régissent les relations entre les États et les organisations internationales. Ses sujets sont les États, sujets originaires, les organisations internationales, sujets dérivés créés par les États, et de plus en plus les individus, notamment lorsqu'ils sont titulaires de droits ou responsables de crimes. Ses sources sont classiquement énumérées à l'article 38 du statut de la Cour internationale de justice : les conventions internationales, c'est-à-dire les traités, la coutume internationale, qui résulte d'une pratique constante acceptée comme étant le droit, les principes généraux de droit, puis, à titre auxiliaire, la jurisprudence et la doctrine. Ses racines sont anciennes : on connaît des traités entre puissances dès l'Antiquité, et le juriste Hugo Grotius, qui vécut de 1583 à 1645, en a systématisé les principes, tandis que les traités de Westphalie de 1648 ont consacré l'égalité souveraine des États. Ses principes fondamentaux sont notamment le respect des engagements pris, exprimé par la formule pacta sunt servanda, la souveraineté et l'égalité des États, l'interdiction du recours à la force, et l'existence de normes impératives, dites jus cogens, auxquelles aucun accord ne peut déroger. Sa faiblesse tient à l'absence de mécanisme centralisé de contrainte : son application dépend largement de la volonté des États."
+    },
+    {
+      "titre": "Les juridictions internationales",
+      "texte": "Deux juridictions siégeant à La Haye sont souvent confondues alors que leurs rôles diffèrent. La Cour internationale de justice, organe judiciaire principal des Nations unies, a été instituée en 1945 et a commencé à fonctionner en mars 1946, en remplacement de la Cour permanente de justice internationale de la Société des Nations. Elle installe son siège au Palais de la Paix et compte quinze juges élus pour neuf ans par l'Assemblée générale et le Conseil de sécurité, renouvelés par tiers, selon une répartition géographique équilibrée. Elle tranche des différends entre États et rend des avis consultatifs à la demande d'organes de l'Organisation ; ses arrêts sont obligatoires pour les parties, mais elle ne peut être saisie qu'avec le consentement des États concernés. La Cour pénale internationale, elle, juge des individus. Son traité fondateur, le statut de Rome, a été adopté le 17 juillet 1998 et est entré en vigueur le 1er juillet 2002 après soixante ratifications. Elle est compétente pour le génocide, les crimes contre l'humanité, les crimes de guerre et le crime d'agression, uniquement pour des faits postérieurs à 2002, et n'intervient qu'en complément des juridictions nationales défaillantes. Elle comptait cent vingt-cinq États parties en octobre 2024, mais plusieurs grandes puissances n'y adhèrent pas.",
+      "visuel": {
+        "type": "comparaison",
+        "titre": "Deux cours à La Haye, deux rôles",
+        "colonnes": [
+          {
+            "titre": "Cour internationale de justice",
+            "points": [
+              "Organe judiciaire principal des Nations unies, instituée en 1945, en fonction depuis mars 1946",
+              "Succède à la Cour permanente de justice internationale de la Société des Nations",
+              "Siège au Palais de la Paix ; quinze juges élus pour neuf ans, renouvelés par tiers",
+              "Juge des différends entre États et rend des avis consultatifs",
+              "Ses arrêts obligent les parties, mais elle ne peut être saisie qu'avec le consentement des États concernés"
+            ]
+          },
+          {
+            "titre": "Cour pénale internationale",
+            "points": [
+              "Juge des individus, non des États",
+              "Statut de Rome adopté le 17 juillet 1998, entré en vigueur le 1er juillet 2002 après soixante ratifications",
+              "Compétente pour le génocide, les crimes contre l'humanité, les crimes de guerre et le crime d'agression",
+              "Uniquement pour des faits postérieurs à 2002",
+              "N'intervient qu'en complément des juridictions nationales défaillantes ; cent vingt-cinq États parties en octobre 2024"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Quand la Charte des Nations unies a-t-elle été signée ?",
+      "choix": [
+        "Le 26 juin 1945, à San Francisco",
+        "Le 10 décembre 1948, à Paris",
+        "Le 4 novembre 1950, à Rome",
+        "Le 22 juillet 1944, à Bretton Woods"
+      ],
+      "bonne": 0,
+      "difficulte": 1,
+      "explication": "La Charte des Nations unies a été signée le 26 juin 1945 à San Francisco par cinquante et un États, et l'Organisation a été officiellement établie le 24 octobre 1945, après les ratifications nécessaires. Elle succède à la Société des Nations. La date du 10 décembre 1948 est celle de l'adoption à Paris de la Déclaration universelle des droits de l'homme. Le 4 novembre 1950 correspond à la signature à Rome de la Convention européenne des droits de l'homme, dans le cadre du Conseil de l'Europe. La conférence de Bretton Woods, en juillet 1944, portait sur le système monétaire international."
+    },
+    {
+      "q": "Combien de membres compte le Conseil de sécurité des Nations unies ?",
+      "choix": [
+        "Cinq",
+        "Dix",
+        "Quinze",
+        "Cent quatre-vingt-treize"
+      ],
+      "bonne": 2,
+      "difficulte": 2,
+      "explication": "Le Conseil de sécurité compte quinze membres : cinq permanents, la Chine, les États-Unis, la France, le Royaume-Uni et la Russie, et dix non permanents élus pour deux ans. Le nombre de membres non permanents est passé de six à dix en 1965, afin de tenir compte de l'augmentation du nombre d'États membres de l'Organisation. Une résolution est adoptée avec neuf voix, à condition qu'aucun membre permanent n'ait voté contre. Le chiffre de cent quatre-vingt-treize correspond au nombre total d'États membres des Nations unies, qui siègent tous à l'Assemblée générale."
+    },
+    {
+      "q": "Quelle est la principale différence entre la Cour internationale de justice et la Cour pénale internationale ?",
+      "choix": [
+        "La première siège à Strasbourg, la seconde à La Haye",
+        "La première juge des différends entre États, la seconde juge des individus",
+        "La première dépend de l'Union européenne, la seconde des Nations unies",
+        "La première rend des avis, la seconde n'a aucun pouvoir de décision"
+      ],
+      "bonne": 1,
+      "difficulte": 2,
+      "explication": "La Cour internationale de justice est l'organe judiciaire principal des Nations unies : elle règle les différends entre États et rend des avis consultatifs, mais ne peut être saisie qu'avec le consentement des États concernés. La Cour pénale internationale, créée par le statut de Rome adopté en 1998 et entré en vigueur en 2002, juge quant à elle des personnes physiques accusées de génocide, de crimes contre l'humanité, de crimes de guerre ou du crime d'agression. Les deux juridictions siègent à La Haye, aux Pays-Bas, et non à Strasbourg. Aucune des deux ne relève de l'Union européenne."
+    },
+    {
+      "q": "Selon l'article 38 du statut de la Cour internationale de justice, quelles sont les sources principales du droit international ?",
+      "choix": [
+        "Les lois nationales et les décrets",
+        "Les résolutions de l'Assemblée générale uniquement",
+        "Les traités, la coutume et les principes généraux de droit",
+        "Les décisions du Conseil de sécurité seules"
+      ],
+      "bonne": 2,
+      "difficulte": 3,
+      "explication": "L'article 38 du statut de la Cour internationale de justice énumère les sources que la Cour applique : les conventions internationales, c'est-à-dire les traités, la coutume internationale, issue d'une pratique constante acceptée comme étant le droit, et les principes généraux de droit. La jurisprudence et la doctrine n'y figurent qu'à titre de moyens auxiliaires de détermination des règles. Les lois nationales relèvent de l'ordre juridique interne de chaque État. Les résolutions de l'Assemblée générale n'ont pas de force obligatoire, à la différence des décisions du Conseil de sécurité, mais ni les unes ni les autres ne constituent la liste des sources de cet article."
+    },
+    {
+      "q": "Que se passe-t-il si un membre permanent du Conseil de sécurité s'abstient lors d'un vote ?",
+      "choix": [
+        "La résolution est automatiquement rejetée",
+        "La résolution peut être adoptée si elle réunit neuf voix",
+        "Le vote est reporté à la session suivante",
+        "L'Assemblée générale doit trancher à sa place"
+      ],
+      "bonne": 1,
+      "difficulte": 3,
+      "explication": "Le droit de veto ne joue que lorsqu'un membre permanent vote contre une résolution. Une abstention n'empêche pas l'adoption : le texte passe s'il réunit neuf voix sur quinze. Cette règle laisse une marge de manœuvre diplomatique, un membre permanent pouvant marquer sa réserve sans bloquer l'action du Conseil. Les questions de procédure échappent d'ailleurs entièrement au veto et ne requièrent que neuf voix. Le veto reste toutefois très critiqué, car il permet à un membre permanent d'empêcher toute décision, y compris lorsqu'il est directement concerné par la situation examinée."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Organisation des Nations unies",
+      "url": "https://fr.wikipedia.org/wiki/Organisation_des_Nations_unies"
+    },
+    {
+      "titre": "Conseil de sécurité des Nations unies",
+      "url": "https://fr.wikipedia.org/wiki/Conseil_de_s%C3%A9curit%C3%A9_des_Nations_unies"
+    },
+    {
+      "titre": "Droit international public",
+      "url": "https://fr.wikipedia.org/wiki/Droit_international_public"
+    },
+    {
+      "titre": "Cour internationale de justice",
+      "url": "https://fr.wikipedia.org/wiki/Cour_internationale_de_justice"
+    },
+    {
+      "titre": "Cour pénale internationale",
+      "url": "https://fr.wikipedia.org/wiki/Cour_p%C3%A9nale_internationale"
+    }
+  ]
+}

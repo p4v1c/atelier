@@ -1,0 +1,207 @@
+{
+ "titre": "Les états de la matière et les changements d'état",
+ "sections": [
+  {
+   "titre": "Trois états, une même matière",
+   "texte": "La matière se présente couramment sous trois états physiques : solide, liquide et gazeux. Un solide possède une forme propre et un volume propre ; il résiste à la déformation. Un liquide a un volume propre mais épouse la forme du récipient qui le contient, et sa surface libre au repos est toujours horizontale. Un gaz n'a ni forme ni volume propres : il occupe entièrement l'espace disponible et se laisse comprimer facilement. Le modèle particulaire explique ces différences. Dans un solide, les particules, atomes, ions ou molécules, sont très proches, fortement liées et ordonnées ; elles ne peuvent que vibrer autour de positions fixes. Dans un liquide, elles restent au contact les unes des autres mais sont désordonnées et peuvent glisser, ce qui donne la fluidité. Dans un gaz, elles sont très éloignées, animées de mouvements rapides et désordonnés, et n'interagissent qu'au moment des chocs : c'est pourquoi un gaz est mille fois moins dense qu'un liquide et facilement compressible. On ajoute souvent un quatrième état, le plasma, obtenu à très haute température quand les atomes perdent leurs électrons ; c'est l'état le plus répandu de l'Univers visible, dont sont faites les étoiles. Il est essentiel de comprendre qu'un changement d'état ne modifie pas la nature chimique de la substance : la glace, l'eau liquide et la vapeur sont toutes constituées des mêmes molécules d'eau. Seule l'organisation des particules change, ainsi que leur énergie.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les trois états de la matière",
+    "colonnes": [
+     "État",
+     "Forme",
+     "Volume",
+     "Les particules"
+    ],
+    "lignes": [
+     [
+      "Solide",
+      "Propre",
+      "Propre",
+      "Très proches, liées et ordonnées, vibrant autour de positions fixes"
+     ],
+     [
+      "Liquide",
+      "Celle du récipient",
+      "Propre",
+      "Au contact mais désordonnées, elles glissent les unes sur les autres"
+     ],
+     [
+      "Gaz",
+      "Aucune",
+      "Aucun, il est compressible",
+      "Très éloignées, rapides et désordonnées, elles n'interagissent qu'aux chocs"
+     ],
+     [
+      "Plasma",
+      "Aucune",
+      "Aucun",
+      "Atomes ionisés à très haute température : l'état des étoiles"
+     ]
+    ],
+    "note": "Un changement d'état ne change pas la nature chimique : glace, eau et vapeur sont les mêmes molécules."
+   }
+  },
+  {
+   "titre": "Les six changements d'état et leur vocabulaire",
+   "texte": "Le passage d'un état à un autre porte un nom précis. La fusion est le passage de l'état solide à l'état liquide, comme la glace qui fond. La solidification est le passage inverse, du liquide au solide. La vaporisation fait passer un liquide à l'état gazeux ; elle prend deux formes : l'évaporation, lente et se produisant seulement à la surface libre à toute température, et l'ébullition, tumultueuse et se produisant dans toute la masse à une température bien déterminée. La liquéfaction, souvent appelée condensation liquide, est le passage de l'état gazeux à l'état liquide : c'est la buée sur une vitre froide ou la formation des nuages. La sublimation fait passer directement un solide à l'état gazeux, sans étape liquide : le dioxyde de carbone solide, appelé neige carbonique, se sublime à pression ordinaire, tout comme la naphtaline. Le passage inverse, du gaz au solide, s'appelle condensation solide ou déposition : c'est ainsi que se forme le givre sur les branches par temps froid, ou que naissent les cristaux de neige dans les nuages. On retient qu'il existe donc six changements d'état, associés deux à deux. Les changements vers un état plus désordonné, fusion, vaporisation et sublimation, exigent un apport d'énergie. Les changements inverses, solidification, liquéfaction et condensation solide, libèrent de l'énergie vers le milieu extérieur.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les six changements d'état",
+    "colonnes": [
+     "Nom",
+     "Passage",
+     "Énergie",
+     "Exemple"
+    ],
+    "lignes": [
+     [
+      "Fusion",
+      "Solide → liquide",
+      "Absorbée",
+      "La glace qui fond"
+     ],
+     [
+      "Solidification",
+      "Liquide → solide",
+      "Libérée",
+      "L'eau qui gèle"
+     ],
+     [
+      "Vaporisation",
+      "Liquide → gaz",
+      "Absorbée",
+      "L'évaporation d'une flaque, l'ébullition d'une casserole"
+     ],
+     [
+      "Liquéfaction",
+      "Gaz → liquide",
+      "Libérée",
+      "La buée sur une vitre froide, les nuages"
+     ],
+     [
+      "Sublimation",
+      "Solide → gaz",
+      "Absorbée",
+      "La neige carbonique, la naphtaline"
+     ],
+     [
+      "Condensation solide",
+      "Gaz → solide",
+      "Libérée",
+      "Le givre sur les branches, les cristaux de neige"
+     ]
+    ],
+    "note": "Les passages vers un état plus désordonné exigent de l'énergie ; les passages inverses en libèrent."
+   }
+  },
+  {
+   "titre": "Températures de changement d'état et palier thermique",
+   "texte": "Pour un corps pur, sous une pression donnée, chaque changement d'état se produit à une température fixe et caractéristique. Sous la pression atmosphérique normale, l'eau pure fond à 0 degré Celsius et bout à 100 degrés Celsius. L'éthanol bout à environ 78 degrés, le fer fond vers 1538 degrés, et le dioxygène se liquéfie vers moins 183 degrés. Ces températures constituent de véritables cartes d'identité et permettent d'identifier une substance. Si l'on chauffe régulièrement de la glace et que l'on trace la température en fonction du temps, on observe d'abord une montée, puis un palier à 0 degré tant que la glace et l'eau coexistent, puis une nouvelle montée. Ce palier surprend souvent : bien que l'on continue de chauffer, la température ne monte plus. L'énergie apportée sert en effet à briser les liaisons entre les particules et non à augmenter leur agitation. On l'appelle chaleur latente de changement d'état. Pour l'eau, il faut environ 334 kilojoules pour faire fondre un kilogramme de glace, et près de 2 260 kilojoules pour vaporiser un kilogramme d'eau à 100 degrés. Ce palier n'existe que pour les corps purs : un mélange, comme l'eau salée ou un alliage, change d'état sur un intervalle de températures. C'est ce qui permet de repérer la pureté d'un produit au laboratoire, et c'est aussi pourquoi le sel épandu sur les routes abaisse la température de fusion de la glace.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "Des températures qui identifient une substance",
+    "items": [
+     {
+      "valeur": "0 °C",
+      "label": "fusion de l'eau pure sous pression atmosphérique"
+     },
+     {
+      "valeur": "100 °C",
+      "label": "ébullition de l'eau pure sous pression atmosphérique"
+     },
+     {
+      "valeur": "78 °C",
+      "label": "ébullition de l'éthanol"
+     },
+     {
+      "valeur": "1 538 °C",
+      "label": "fusion du fer"
+     },
+     {
+      "valeur": "−183 °C",
+      "label": "liquéfaction du dioxygène"
+     },
+     {
+      "valeur": "334 kJ",
+      "label": "pour faire fondre un kilogramme de glace"
+     },
+     {
+      "valeur": "2 260 kJ",
+      "label": "pour vaporiser un kilogramme d'eau à 100 °C"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le rôle de la pression et le diagramme d'état",
+   "texte": "La température de changement d'état dépend fortement de la pression. En altitude, la pression atmosphérique diminue et l'eau bout à une température plus basse : environ 85 degrés Celsius à 4 000 mètres, ce qui rend difficile la cuisson des aliments en montagne. À l'inverse, dans une cocotte-minute, la pression atteint près du double de la pression atmosphérique et l'eau peut monter jusqu'à 120 degrés, ce qui accélère considérablement la cuisson. On représente ces comportements sur un diagramme d'état, où l'on porte la pression en fonction de la température. Ce diagramme comporte trois domaines, solide, liquide et gaz, séparés par des courbes d'équilibre le long desquelles deux états coexistent. Ces trois courbes se rejoignent en un point remarquable, le point triple, où les trois états coexistent simultanément. Pour l'eau, le point triple se situe à 0,01 degré Celsius et à une pression de 611 pascals seulement, très inférieure à la pression atmosphérique de 101 325 pascals. La courbe de vaporisation s'arrête quant à elle au point critique, au-delà duquel on ne distingue plus le liquide du gaz : la substance devient un fluide supercritique, état exploité pour décaféiner le café avec du dioxyde de carbone. L'eau possède une particularité rare : sa courbe de fusion penche vers la gauche, car la glace est moins dense que l'eau liquide. Cette anomalie explique que les glaçons flottent et que les lacs gèlent en surface, préservant la vie en profondeur."
+  },
+  {
+   "titre": "Dilatation, masse volumique et applications",
+   "texte": "Les changements d'état s'accompagnent presque toujours d'une variation de volume, donc de masse volumique. La masse volumique est le quotient de la masse par le volume ; elle s'exprime en kilogrammes par mètre cube, ou plus commodément en grammes par centimètre cube. L'eau liquide a une masse volumique voisine de 1 000 kilogrammes par mètre cube à 4 degrés Celsius, tandis que la glace n'atteint que 917 kilogrammes par mètre cube. La glace est donc moins dense que l'eau et flotte, ce qui est exceptionnel dans la nature. Cette dilatation lors de la solidification explique l'éclatement des canalisations en hiver et le morcellement des roches par le gel. Lors de la vaporisation, l'augmentation de volume est spectaculaire : un litre d'eau liquide donne environ 1 700 litres de vapeur sous la pression atmosphérique. Cette expansion a été mise à profit par les machines à vapeur qui ont porté la révolution industrielle, et elle reste au cœur des centrales thermiques et nucléaires actuelles, où la vapeur entraîne des turbines. La plupart des corps se dilatent aussi lorsqu'on les chauffe sans changer d'état, parce que l'agitation des particules augmente : les ponts comportent pour cette raison des joints de dilatation, et le mercure ou l'alcool des thermomètres monte dans le tube. Ces phénomènes trouvent des applications quotidiennes, du réfrigérateur, qui exploite la vaporisation d'un fluide frigorigène pour absorber de la chaleur, à la lyophilisation, qui repose sur la sublimation de la glace sous vide."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Comment appelle-t-on le passage direct de l'état solide à l'état gazeux ?",
+   "choix": [
+    "La liquéfaction",
+    "La fusion",
+    "L'ébullition",
+    "La sublimation"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "La sublimation désigne le passage direct de l'état solide à l'état gazeux, sans passer par l'état liquide. La neige carbonique, c'est-à-dire le dioxyde de carbone solide, en est l'exemple le plus connu : elle produit un brouillard sans jamais fondre. Le passage inverse, du gaz au solide, s'appelle condensation solide ou déposition et forme le givre. La fusion est le passage du solide au liquide, la liquéfaction celui du gaz au liquide, et l'ébullition est une forme de vaporisation qui se produit dans toute la masse du liquide."
+  },
+  {
+   "q": "Pendant la fusion de la glace pure sous pression atmosphérique, que fait la température du mélange ?",
+   "choix": [
+    "Elle augmente régulièrement",
+    "Elle reste constante à 0 degré Celsius",
+    "Elle diminue jusqu'à moins 10 degrés",
+    "Elle oscille entre 0 et 100 degrés"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Tant que la glace et l'eau liquide coexistent, la température reste bloquée à la température de fusion, soit 0 degré Celsius pour l'eau pure sous pression atmosphérique. On observe donc un palier sur la courbe de chauffage. L'énergie thermique apportée ne sert pas à augmenter l'agitation des particules mais à rompre les liaisons du réseau cristallin : on l'appelle chaleur latente de fusion, et elle vaut environ 334 kilojoules par kilogramme pour l'eau. Ce palier caractérise les corps purs ; un mélange fond au contraire sur un intervalle de températures."
+  },
+  {
+   "q": "Pourquoi l'eau bout-elle vers 85 degrés Celsius en haute montagne ?",
+   "choix": [
+    "Parce que l'air y est plus froid",
+    "Parce que l'eau y est moins pure",
+    "Parce que la pression atmosphérique y est plus faible",
+    "Parce que la gravité y est plus faible"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La température d'ébullition d'un liquide dépend directement de la pression qui s'exerce sur lui. En altitude, la colonne d'air au-dessus de l'observateur est plus courte et la pression atmosphérique diminue nettement, si bien que les molécules d'eau s'échappent plus facilement du liquide. L'ébullition se produit donc à une température plus basse, environ 85 degrés à 4 000 mètres. À l'inverse, une cocotte-minute augmente la pression intérieure et permet d'atteindre 120 degrés, ce qui accélère la cuisson. La pureté de l'eau et la gravité ne jouent ici aucun rôle significatif."
+  },
+  {
+   "q": "Pourquoi les glaçons flottent-ils sur l'eau liquide ?",
+   "choix": [
+    "Parce que la glace est moins dense que l'eau liquide",
+    "Parce que la glace contient de l'air emprisonné en grande quantité",
+    "Parce que la glace est plus froide donc plus légère",
+    "Parce que la poussée d'Archimède ne s'applique qu'aux solides"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Lorsque l'eau gèle, ses molécules s'organisent en un réseau cristallin hexagonal plus aéré que dans le liquide, ce qui augmente le volume d'environ neuf pour cent. La masse volumique passe ainsi d'environ 1 000 kilogrammes par mètre cube pour l'eau liquide à 917 pour la glace. Comme la glace est moins dense, la poussée d'Archimède l'emporte sur son poids et le glaçon flotte, immergé aux neuf dixièmes. Cette anomalie est rare dans la nature et a des conséquences majeures : les lacs gèlent en surface, ce qui isole et protège la vie aquatique en profondeur."
+  },
+  {
+   "q": "Qu'appelle-t-on le point triple d'un corps pur ?",
+   "choix": [
+    "La température où le corps se sublime le plus vite",
+    "Les conditions uniques de pression et de température où les états solide, liquide et gazeux coexistent",
+    "Le point où le liquide et le gaz deviennent indiscernables",
+    "Le moment où la masse volumique atteint son maximum"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Sur un diagramme d'état, les trois courbes de fusion, de vaporisation et de sublimation se rejoignent en un unique point appelé point triple. Dans ces conditions précises de pression et de température, les trois états de la matière coexistent en équilibre. Pour l'eau, il se situe à 0,01 degré Celsius sous une pression de 611 pascals, soit bien moins que la pression atmosphérique normale. Ce point est si reproductible qu'il a longtemps servi à définir le kelvin. Il ne faut pas le confondre avec le point critique, au-delà duquel liquide et gaz cessent d'être distinguables et forment un fluide supercritique."
+  }
+ ]
+}

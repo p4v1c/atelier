@@ -1,0 +1,207 @@
+{
+ "titre": "L'Empire byzantin et les croisades (330 - 1453)",
+ "sections": [
+  {
+   "titre": "De Rome à Byzance",
+   "texte": "En 330, l'empereur Constantin inaugure sur le site de l'ancienne Byzance une nouvelle capitale qui porte son nom : Constantinople. Placée sur le détroit du Bosphore, entre Europe et Asie, elle contrôle le passage entre la Méditerranée et la mer Noire et se protège derrière des murailles réputées imprenables. En 395, à la mort de Théodose Ier, l'Empire romain est partagé entre ses deux fils : la partie orientale, plus peuplée et plus riche, survit alors que l'Occident se désagrège au Ve siècle. Ses habitants ne se sont jamais appelés byzantins, mot forgé bien plus tard par les historiens : ils se disaient Romains. L'apogée territorial est atteint sous Justinien, qui règne de 527 à 565. Ses généraux reprennent l'Afrique du Nord aux Vandales, l'Italie aux Ostrogoths et une partie de l'Espagne, redonnant à la Méditerranée un air de lac romain. Justinien fait édifier entre 532 et 537 la basilique Sainte-Sophie, dont l'immense coupole reste l'un des chefs-d'œuvre de l'architecture mondiale. Il fait surtout compiler l'ensemble du droit romain dans le Corpus juris civilis, monument juridique qui nourrira les facultés de droit européennes bien après la disparition de l'empire. Ces conquêtes coûtent cependant très cher et la grande épidémie de peste des années 540 ruine le pays : les successeurs de Justinien perdront rapidement une bonne part de ses gains.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Onze siècles d'Empire byzantin",
+    "evenements": [
+     {
+      "date": "330",
+      "label": "Fondation de Constantinople",
+      "texte": "Constantin dote l'empire d'une capitale orientale."
+     },
+     {
+      "date": "395",
+      "label": "Partage définitif de l'Empire romain",
+      "texte": "L'Orient survivra à la chute de l'Occident."
+     },
+     {
+      "date": "527-565",
+      "label": "Règne de Justinien",
+      "texte": "Reconquêtes, Sainte-Sophie, Corpus juris civilis."
+     },
+     {
+      "date": "VIIe siècle",
+      "label": "Pertes face aux Arabes",
+      "texte": "La Syrie, l'Égypte et l'Afrique du Nord échappent à l'empire."
+     },
+     {
+      "date": "1054",
+      "label": "Schisme entre Rome et Constantinople",
+      "texte": "Séparation durable des Églises latine et orthodoxe."
+     },
+     {
+      "date": "1071",
+      "label": "Défaite de Manzikert",
+      "texte": "L'Anatolie s'ouvre aux Turcs seldjoukides."
+     },
+     {
+      "date": "1095-1099",
+      "label": "Première croisade",
+      "texte": "Appel d'Urbain II, prise de Jérusalem."
+     },
+     {
+      "date": "1204",
+      "label": "Sac de Constantinople",
+      "texte": "La quatrième croisade fonde un Empire latin."
+     },
+     {
+      "date": "1261",
+      "label": "Reconquête byzantine",
+      "texte": "Michel VIII Paléologue reprend la capitale."
+     },
+     {
+      "date": "29 mai 1453",
+      "label": "Chute de Constantinople",
+      "texte": "Mehmed II met fin à l'empire."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Un empire qui survit à tout",
+   "texte": "La grande affaire de Byzance n'est pas la conquête mais la survie. Au VIIe siècle, l'empereur Héraclius sort victorieux mais exsangue d'une guerre totale contre les Perses sassanides, avant de voir surgir les armées arabes qui lui arrachent en quelques années la Syrie, la Palestine, l'Égypte puis l'Afrique du Nord. C'est sous son règne que le grec remplace définitivement le latin comme langue de l'État : l'empire devient culturellement grec, tout en se pensant romain. Pour tenir, il se réorganise. Les provinces sont refondues en circonscriptions militaires appelées thèmes, où des soldats-paysans reçoivent des terres contre le service armé, ce qui réduit le coût d'entretien de l'armée. Sur mer, les Byzantins disposent d'une arme redoutée, le feu grégeois, mélange incendiaire projeté par des siphons et qui brûle à la surface de l'eau ; sa composition exacte, secret d'État, reste inconnue. La vie religieuse est agitée par de longues querelles, notamment la crise iconoclaste des VIIIe et IXe siècles sur la licéité des images saintes. Les rapports avec Rome se dégradent jusqu'au schisme de 1054, qui sépare durablement l'Église catholique latine et l'Église orthodoxe. Byzance rayonne pourtant : ses missionnaires, Cyrille et Méthode, évangélisent les Slaves et créent un alphabet, à l'origine du cyrillique ; la Russie de Kiev se convertit à l'orthodoxie à la fin du Xe siècle."
+  },
+  {
+   "titre": "1095 : l'appel de Clermont",
+   "texte": "En 1071, la défaite de Manzikert, en Arménie, ouvre l'Anatolie aux Turcs seldjoukides et prive Byzance de son principal réservoir de soldats et d'impôts. Vingt ans plus tard, l'empereur Alexis Ier Comnène demande à l'Occident des renforts militaires. La réponse dépasse de très loin sa demande. En novembre 1095, au concile de Clermont, le pape Urbain II appelle les chrétiens à marcher vers Jérusalem pour délivrer le tombeau du Christ, en promettant à ceux qui partent la rémission de leurs péchés. Une croisade est un pèlerinage armé, béni par la papauté : la nouveauté est d'unir la piété du pèlerin et la violence du guerrier. Les motivations se mêlent, foi sincère, désir de terres pour des cadets de familles nobles, ambitions marchandes des cités italiennes. Le départ s'accompagne de massacres de communautés juives dans les villes de la vallée du Rhin, premières violences d'un mouvement qui en comptera beaucoup. Après une marche épuisante, les croisés s'emparent d'Antioche en 1098, puis de Jérusalem en juillet 1099, au terme d'un assaut suivi d'un massacre de la population. Quatre États latins d'Orient sont fondés : le royaume de Jérusalem, la principauté d'Antioche, les comtés d'Édesse et de Tripoli, défendus notamment par des ordres religieux et militaires comme les Templiers et les Hospitaliers."
+  },
+  {
+   "titre": "Deux siècles d'Orient latin",
+   "texte": "Les États latins d'Orient forment une mince bande côtière, toujours menacée et dépendante des renforts venus d'Europe. Chaque revers provoque un nouvel appel : la deuxième croisade, prêchée par Bernard de Clairvaux entre 1146 et 1149, s'achève en fiasco, faute de coordination et parce que l'appui byzantin fait défaut. La reprise de Jérusalem par Saladin en 1187 déclenche la troisième croisade, de 1189 à 1192, qui rassemble les plus grands souverains d'Occident : elle sauve les places côtières mais ne rend pas la Ville sainte. Les expéditions suivantes visent souvent l'Égypte, considérée comme la clé du Levant, sans plus de succès durable. La chute de Saint-Jean-d'Acre en 1291 met un terme à la présence latine en Terre sainte. Le mot croisade a d'ailleurs servi bien au-delà : contre les Albigeois dans le Midi de la France, contre les païens de la Baltique, contre les musulmans d'Espagne. Le bilan historiographique a beaucoup changé. Longtemps racontées en Occident comme une épopée chevaleresque, les croisades sont aujourd'hui étudiées aussi à travers les sources arabes, qui décrivent d'abord une invasion venue des Francs. Leur portée économique est réelle, car elles renforcent Venise, Gênes et Pise, mais l'idée qu'elles auraient fait découvrir à l'Europe la science orientale est très exagérée : l'Espagne et la Sicile ont bien davantage joué ce rôle.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Deux regards sur les croisades",
+    "colonnes": [
+     {
+      "titre": "Le récit occidental traditionnel",
+      "points": [
+       "Un pèlerinage armé au service de la foi",
+       "Une épopée chevaleresque et héroïque",
+       "Un contact fécond avec l'Orient",
+       "Une défense de la chrétienté menacée"
+      ]
+     },
+     {
+      "titre": "Ce que retiennent les historiens aujourd'hui",
+      "points": [
+       "Une guerre d'invasion vue de Damas et du Caire",
+       "Des motivations mêlées : foi, terres, commerce",
+       "Des violences durables, y compris entre chrétiens",
+       "Des transferts de savoir venus surtout d'Espagne et de Sicile"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "1204 et 1453 : la fin de Byzance",
+   "texte": "Le coup le plus dur porté à Byzance vient des croisés eux-mêmes. Partis en 1202 pour l'Égypte, ils ont passé contrat avec Venise pour leur transport, à 85 000 marcs d'argent ; moins nombreux que prévu, ils n'en réunissent que 51 000. Le vieux doge Enrico Dandolo leur propose alors d'effacer la dette contre la prise de Zara, ville chrétienne de l'Adriatique. Puis un prétendant au trône byzantin promet monts et merveilles s'ils l'installent à Constantinople. L'expédition dévie ainsi deux fois ; après l'assassinat de son protégé, l'armée donne l'assaut à la ville en avril 1204 et la pille trois jours durant. Reliques, œuvres d'art et manuscrits partent vers l'Occident, dont les chevaux de bronze aujourd'hui à Venise. Un Empire latin de Constantinople est fondé et dure jusqu'en 1261, année où Michel VIII Paléologue reprend la capitale. Mais l'empire restauré n'est plus qu'une puissance régionale, cernée par l'expansion ottomane. Le dénouement survient au printemps 1453. Le sultan Mehmed II, âgé de vingt et un ans, assiège la ville du 6 avril au 29 mai avec 80 000 à 100 000 hommes selon les estimations actuelles, contre 7 000 à 8 000 défenseurs. Une artillerie énorme, dont un canon coulé par l'ingénieur Urbain, ruine les murailles. L'empereur Constantin XI meurt les armes à la main ; l'Empire romain d'Orient s'éteint après plus de onze siècles.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "Le siège de Constantinople en 1453",
+    "items": [
+     {
+      "valeur": "53 jours",
+      "label": "de siège, du 6 avril au 29 mai"
+     },
+     {
+      "valeur": "80 000 à 100 000",
+      "label": "assiégeants ottomans (estimations)"
+     },
+     {
+      "valeur": "7 000 à 8 000",
+      "label": "défenseurs, Génois et Vénitiens compris"
+     },
+     {
+      "valeur": "8 m",
+      "label": "longueur du canon fondu par l'ingénieur Urbain"
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel pape appelle les chrétiens d'Occident à la première croisade, au concile de Clermont en 1095 ?",
+   "choix": [
+    "Grégoire VII",
+    "Innocent III",
+    "Urbain II",
+    "Léon III"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "C'est Urbain II qui prêche la croisade à Clermont, en novembre 1095, en promettant la rémission de leurs péchés à ceux qui partiront délivrer le tombeau du Christ. L'empereur byzantin Alexis Ier avait seulement demandé des renforts militaires contre les Turcs seldjoukides : la réponse occidentale dépasse largement sa requête. Innocent III est le pape de la quatrième croisade, un siècle plus tard. Grégoire VII est surtout associé à la réforme de l'Église et à la querelle des Investitures. Léon III est celui qui couronne Charlemagne empereur en 800."
+  },
+  {
+   "q": "Quelle basilique, chef-d'œuvre à coupole, Justinien fait-il édifier à Constantinople entre 532 et 537 ?",
+   "choix": [
+    "Sainte-Sophie",
+    "Saint-Marc de Venise",
+    "Saint-Jean-de-Latran",
+    "La Mosquée bleue"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Sainte-Sophie, dont le nom signifie sainte Sagesse, est construite en cinq ans seulement, entre 532 et 537, sur ordre de Justinien. Sa coupole gigantesque, qui semble flotter au-dessus d'une couronne de fenêtres, a servi de modèle à l'architecture religieuse orientale pendant des siècles. Elle devient mosquée après 1453, puis musée au XXe siècle, avant de retrouver le culte musulman en 2020. Saint-Marc de Venise s'en inspire, mais date des XIe et XIIe siècles. La Mosquée bleue lui fait face à Istanbul, mais elle est ottomane et date du début du XVIIe siècle."
+  },
+  {
+   "q": "Quel sultan ottoman s'empare de Constantinople le 29 mai 1453 ?",
+   "choix": [
+    "Soliman le Magnifique",
+    "Osman Ier",
+    "Bayezid Ier",
+    "Mehmed II"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Mehmed II, surnommé le Conquérant, prend Constantinople le 29 mai 1453 au terme d'un siège de 53 jours. Les estimations actuelles donnent 80 000 à 100 000 assiégeants face à 7 000 à 8 000 défenseurs seulement, Génois et Vénitiens compris. L'artillerie ottomane, dont un canon de huit mètres fondu par l'ingénieur hongrois Urbain, finit par ouvrir des brèches dans les murailles théodosiennes. Le dernier empereur, Constantin XI Paléologue, meurt au combat. La ville devient la capitale ottomane. Osman Ier est le fondateur de la dynastie, vers 1300, et Soliman le Magnifique règne bien plus tard, de 1520 à 1566."
+  },
+  {
+   "q": "Quelle défaite subie en 1071 ouvre l'Anatolie aux Turcs seldjoukides et pousse Byzance à demander de l'aide à l'Occident ?",
+   "choix": [
+    "La bataille de Yarmouk",
+    "La bataille de Manzikert",
+    "La bataille de Nicopolis",
+    "La bataille de Lépante"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "La bataille de Manzikert, livrée en 1071 en Arménie, se solde par la déroute de l'armée byzantine et la capture de son empereur par les Seldjoukides. Elle prive l'empire du plateau anatolien, qui fournissait l'essentiel de ses soldats et de ses recettes fiscales. C'est cette situation qui conduit Alexis Ier Comnène à solliciter des renforts occidentaux, requête à l'origine de l'appel d'Urbain II en 1095. Yarmouk, en 636, est la défaite byzantine face aux Arabes qui leur coûte la Syrie. Nicopolis, en 1396, est un désastre pour une croisade occidentale contre les Ottomans. Lépante, en 1571, est une victoire navale chrétienne bien postérieure."
+  },
+  {
+   "q": "Quelle ville, prise en 1291, marque par sa chute la fin des États latins d'Orient ?",
+   "choix": [
+    "Antioche",
+    "Édesse",
+    "Saint-Jean-d'Acre",
+    "Tripoli"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Saint-Jean-d'Acre, dernière grande place forte latine du Levant, tombe en 1291 : sa chute clôt la période traditionnelle des croisades en Terre sainte, ouverte en 1095. Édesse avait été perdue dès 1144, ce qui avait déclenché la deuxième croisade. Antioche tombe en 1268 et Tripoli en 1289, dans la même vague de conquêtes mameloukes. Après 1291, les ordres militaires se replient sur Chypre puis, pour les Hospitaliers, sur Rhodes. Le mot croisade continue pourtant d'être employé pour d'autres expéditions, contre les Albigeois, dans la Baltique ou plus tard contre les Ottomans."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Empire byzantin",
+   "url": "https://fr.wikipedia.org/wiki/Empire_byzantin"
+  },
+  {
+   "titre": "Croisade",
+   "url": "https://fr.wikipedia.org/wiki/Croisade"
+  },
+  {
+   "titre": "Quatrième croisade",
+   "url": "https://fr.wikipedia.org/wiki/Quatri%C3%A8me_croisade"
+  },
+  {
+   "titre": "Chute de Constantinople",
+   "url": "https://fr.wikipedia.org/wiki/Chute_de_Constantinople"
+  }
+ ]
+}

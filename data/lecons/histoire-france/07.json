@@ -1,0 +1,205 @@
+{
+ "titre": "La IIIe République (1870-1940)",
+ "sections": [
+  {
+   "titre": "Une république née dans la défaite (1870-1879)",
+   "texte": "La IIIe République naît d'un désastre militaire. Le 2 septembre 1870, à Sedan, Napoléon III capitule devant les Prussiens ; deux jours plus tard, le 4 septembre, la République est proclamée à Paris et un gouvernement de la Défense nationale se met en place. Paris, assiégé pendant plus de quatre mois, doit capituler et l'armistice est signé le 28 janvier 1871. Les élections de février donnent une majorité de monarchistes, partisans de la paix, et Adolphe Thiers devient chef du pouvoir exécutif. Le traité de Francfort, le 10 mai 1871, impose la perte de l'Alsace et d'une grande partie de la Lorraine ainsi qu'une indemnité de cinq milliards de francs. Refusant la capitulation et se sentant trahis, les Parisiens se soulèvent : la Commune de Paris, du 18 mars au 28 mai 1871, est écrasée lors de la Semaine sanglante, avec des milliers de morts et des déportations. Le régime reste ensuite provisoire, les monarchistes étant divisés entre légitimistes et orléanistes, et le comte de Chambord refusant le drapeau tricolore. Les lois constitutionnelles de 1875 installent finalement une république parlementaire, avec un président, une Chambre des députés et un Sénat ; l'amendement Wallon, adopté à une voix de majorité, y inscrit le mot république. La crise du 16 mai 1877 se solde par la victoire des républicains, qui contrôlent tous les pouvoirs en 1879.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Une république née dans la défaite",
+    "evenements": [
+     {
+      "date": "2 septembre 1870",
+      "label": "Sedan",
+      "texte": "Napoléon III capitule devant les Prussiens."
+     },
+     {
+      "date": "4 septembre 1870",
+      "label": "La République proclamée à Paris",
+      "texte": "Un gouvernement de la Défense nationale se met en place."
+     },
+     {
+      "date": "28 janvier 1871",
+      "label": "Armistice",
+      "texte": "Après plus de quatre mois de siège, Paris capitule. Les élections de février donnent une majorité de monarchistes ; Thiers dirige l'exécutif."
+     },
+     {
+      "date": "10 mai 1871",
+      "label": "Traité de Francfort",
+      "texte": "Perte de l'Alsace et d'une grande partie de la Lorraine, indemnité de cinq milliards de francs."
+     },
+     {
+      "date": "18 mars - 28 mai 1871",
+      "label": "La Commune de Paris",
+      "texte": "Écrasée lors de la Semaine sanglante."
+     },
+     {
+      "date": "1875",
+      "label": "Lois constitutionnelles",
+      "texte": "Une république parlementaire : président, Chambre des députés et Sénat. L'amendement Wallon y inscrit le mot république à une voix de majorité."
+     },
+     {
+      "date": "16 mai 1877",
+      "label": "La crise du 16 mai",
+      "texte": "Elle se solde par la victoire des républicains, maîtres de tous les pouvoirs en 1879."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Enraciner la République : les grandes lois",
+   "texte": "Maîtres du pouvoir à partir de 1879, les républicains entreprennent d'ancrer le régime dans les esprits et dans les institutions. Ils adoptent les symboles nationaux : la Marseillaise devient hymne national en 1879, le 14 juillet fête nationale en 1880, et le buste de Marianne s'installe dans les mairies. Une série de lois établit les libertés fondamentales : liberté de réunion et liberté de la presse en 1881, liberté syndicale par la loi Waldeck-Rousseau de 1884, rétablissement du divorce par la loi Naquet la même année, élection des maires par les conseils municipaux également en 1884, puis liberté d'association en 1901. L'œuvre la plus célèbre concerne l'école. Sous l'impulsion de Jules Ferry, la loi du 16 juin 1881 rend l'enseignement primaire public gratuit, et celle du 28 mars 1882 le rend obligatoire de six à treize ans et laïque, l'instruction religieuse étant remplacée par une instruction morale et civique ; la loi Goblet de 1886 laïcise ensuite le personnel des écoles publiques. Les instituteurs, souvent appelés les hussards noirs de la République, diffusent le français, l'histoire nationale et les valeurs du régime dans toutes les campagnes. L'école devient ainsi un puissant instrument d'unification culturelle, même si l'usage des langues régionales y est découragé.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les lois qui enracinent la République",
+    "colonnes": [
+     "Domaine",
+     "Lois",
+     "Ce que cela change"
+    ],
+    "lignes": [
+     [
+      "Les symboles",
+      "La Marseillaise hymne national (1879), le 14 juillet fête nationale (1880)",
+      "Le buste de Marianne s'installe dans les mairies : la République se rend visible partout."
+     ],
+     [
+      "Les libertés publiques",
+      "Réunion et presse (1881), association (1901)",
+      "Le débat politique devient légal et permanent."
+     ],
+     [
+      "Le travail et la famille",
+      "Loi Waldeck-Rousseau sur les syndicats et loi Naquet sur le divorce (1884)",
+      "Le monde ouvrier peut s'organiser ; le mariage cesse d'être indissoluble."
+     ],
+     [
+      "La commune",
+      "Élection des maires par les conseils municipaux (1884)",
+      "La démocratie locale échappe à la nomination par le pouvoir."
+     ],
+     [
+      "L'école",
+      "Gratuité (16 juin 1881), obligation de 6 à 13 ans et laïcité (28 mars 1882), laïcisation du personnel (loi Goblet, 1886)",
+      "Les hussards noirs diffusent le français, l'histoire nationale et les valeurs du régime, au prix du recul des langues régionales."
+     ]
+    ]
+   }
+  },
+  {
+   "titre": "Crises, affaire Dreyfus et laïcité",
+   "texte": "La République doit affronter plusieurs crises graves. À la fin des années 1880, le général Boulanger, populaire chez les mécontents de tous bords, semble sur le point de renverser le régime, avant de fuir en 1889. En 1892, le scandale financier de Panama, qui met en cause de nombreux parlementaires, nourrit l'antiparlementarisme, tandis que des attentats anarchistes frappent le pays et coûtent la vie au président Sadi Carnot en 1894. La plus profonde des crises est l'affaire Dreyfus. En décembre 1894, Alfred Dreyfus, capitaine alsacien et juif, est condamné pour espionnage au profit de l'Allemagne sur la foi de preuves très minces, puis déporté au bagne de l'île du Diable. En 1896, le colonel Picquart découvre que le véritable coupable est le commandant Esterhazy, mais l'état-major étouffe l'affaire. Le 13 janvier 1898, Émile Zola publie dans L'Aurore une lettre ouverte au président, intitulée J'accuse, qui divise le pays entre dreyfusards, défenseurs de la justice et des droits individuels, et antidreyfusards, attachés à l'armée et souvent antisémites. Dreyfus, gracié en 1899, n'est réhabilité qu'en 1906. Sortis renforcés de la crise, les républicains radicaux accentuent la lutte anticléricale et font voter le 9 décembre 1905 la loi de séparation des Églises et de l'État, qui garantit la liberté de conscience et ne reconnaît plus aucun culte."
+  },
+  {
+   "titre": "L'empire colonial et la société de la Belle Époque",
+   "texte": "La IIIe République est aussi la période de la grande expansion coloniale. Jules Ferry en est le principal promoteur, invoquant à la fois des raisons économiques, la recherche de débouchés et de matières premières, stratégiques, et une prétendue mission civilisatrice qui repose sur une hiérarchie des peuples aujourd'hui totalement rejetée. La France impose son protectorat sur la Tunisie en 1881, conquiert le Tonkin et l'Annam et forme l'Indochine française en 1887, s'installe à Madagascar en 1895 et au Maroc en 1912, tout en constituant de vastes ensembles en Afrique occidentale et équatoriale. En 1898, la crise de Fachoda, au Soudan, manque de provoquer une guerre avec le Royaume-Uni et se termine par le recul français. Le second empire colonial du monde, après le britannique, est célébré dans les expositions universelles de 1889, qui voit s'élever la tour Eiffel, et de 1900. En métropole, l'industrialisation progresse avec l'électricité, l'automobile et la chimie, mais la France reste très rurale et l'exode vers les villes est plus lent qu'ailleurs. Le monde ouvrier s'organise : la CGT est fondée en 1895 et adopte en 1906 la charte d'Amiens, qui affirme l'indépendance du syndicalisme à l'égard des partis ; la SFIO, parti socialiste unifié où s'illustre Jean Jaurès, naît en 1905."
+  },
+  {
+   "titre": "De la Grande Guerre à la fin du régime",
+   "texte": "L'entrée en guerre, en août 1914, se fait dans l'Union sacrée, qui rassemble momentanément toutes les familles politiques ; Georges Clemenceau, appelé au pouvoir en novembre 1917, incarne la volonté de tenir jusqu'à la victoire. Le régime sort de la guerre auréolé du retour de l'Alsace-Lorraine, mais épuisé par 1,4 million de morts, des régions dévastées et une dette considérable. L'entre-deux-guerres est politiquement instable : les majorités alternent entre le Bloc national de 1919 et le Cartel des gauches de 1924, et les gouvernements se succèdent à un rythme rapide, ce qui alimente la critique du parlementarisme. La crise économique mondiale atteint la France à partir de 1931 et provoque chômage et déflation. Le 6 février 1934, une manifestation des ligues d'extrême droite tourne à l'émeute devant la Chambre des députés. En réaction, socialistes, radicaux et communistes s'unissent : le Front populaire remporte les élections de mai 1936 et Léon Blum forme un gouvernement qui obtient, par les accords Matignon de juin 1936, des hausses de salaires, les conventions collectives, la semaine de quarante heures et deux semaines de congés payés. L'expérience s'essouffle dès 1937. Après la défaite de juin 1940, l'Assemblée nationale réunie à Vichy vote le 10 juillet les pleins pouvoirs au maréchal Pétain, mettant fin à la IIIe République.",
+   "visuel": {
+    "type": "frise",
+    "titre": "De la Grande Guerre à la fin du régime",
+    "evenements": [
+     {
+      "date": "août 1914",
+      "label": "L'Union sacrée",
+      "texte": "Toutes les familles politiques se rassemblent ; Clemenceau, appelé en novembre 1917, incarne la volonté de tenir."
+     },
+     {
+      "date": "1918",
+      "label": "La victoire, au prix de 1,4 million de morts",
+      "texte": "L'Alsace-Lorraine revient, mais les régions dévastées et la dette pèsent lourd."
+     },
+     {
+      "date": "1919 puis 1924",
+      "label": "Bloc national, puis Cartel des gauches",
+      "texte": "Les majorités alternent et les gouvernements se succèdent vite : le parlementarisme est critiqué."
+     },
+     {
+      "date": "1931",
+      "label": "La crise mondiale atteint la France",
+      "texte": "Chômage et déflation."
+     },
+     {
+      "date": "6 février 1934",
+      "label": "L'émeute des ligues",
+      "texte": "Une manifestation d'extrême droite tourne à l'affrontement devant la Chambre des députés."
+     },
+     {
+      "date": "mai-juin 1936",
+      "label": "Le Front populaire",
+      "texte": "Léon Blum obtient par les accords Matignon des hausses de salaires, les conventions collectives, la semaine de quarante heures et deux semaines de congés payés. L'expérience s'essouffle dès 1937."
+     },
+     {
+      "date": "10 juillet 1940",
+      "label": "Fin de la IIIe République",
+      "texte": "Réunie à Vichy, l'Assemblée nationale vote les pleins pouvoirs au maréchal Pétain."
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel événement du 4 septembre 1870 marque le début de la IIIe République ?",
+   "choix": [
+    "La proclamation de la République à Paris après la défaite de Sedan",
+    "La signature du traité de Francfort",
+    "Le vote des lois constitutionnelles",
+    "L'élection d'Adolphe Thiers à la présidence"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le 4 septembre 1870, deux jours après la capitulation de Napoléon III à Sedan, la République est proclamée à l'Hôtel de Ville de Paris et un gouvernement de la Défense nationale est constitué. Le régime naît donc dans la défaite face à la Prusse, avant tout cadre constitutionnel défini. Le traité de Francfort, signé le 10 mai 1871, entérine ensuite la perte de l'Alsace et d'une grande partie de la Lorraine ainsi qu'une lourde indemnité. Les lois constitutionnelles qui organisent réellement le régime ne sont adoptées qu'en 1875. Thiers, d'abord chef du pouvoir exécutif en février 1871, devient président de la République en août de la même année."
+  },
+  {
+   "q": "Que rendent obligatoire et laïque les lois scolaires de Jules Ferry en 1881-1882 ?",
+   "choix": [
+    "L'enseignement supérieur",
+    "L'enseignement secondaire des jeunes filles",
+    "L'enseignement primaire pour les enfants de 6 à 13 ans",
+    "La formation professionnelle des ouvriers"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "La loi du 16 juin 1881 rend l'enseignement primaire public gratuit, et celle du 28 mars 1882 le rend obligatoire pour les enfants de six à treize ans, tout en le laïcisant. L'instruction religieuse est remplacée par une instruction morale et civique, et la loi Goblet de 1886 laïcise ensuite le personnel des écoles publiques. Ces lois font de l'école un instrument majeur d'enracinement de la République et d'unification linguistique du pays. Les instituteurs, surnommés plus tard les hussards noirs de la République, en furent les principaux artisans. L'obligation ne concernait pas l'enseignement secondaire, réservé alors à une minorité."
+  },
+  {
+   "q": "Quel texte publié par Émile Zola en janvier 1898 relance l'affaire Dreyfus ?",
+   "choix": [
+    "Germinal",
+    "J'accuse",
+    "Le Cri du peuple",
+    "La Lettre aux instituteurs"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Le 13 janvier 1898, Émile Zola publie dans le journal L'Aurore une lettre ouverte au président de la République sous le titre J'accuse, dans laquelle il dénonce nommément les responsables de l'erreur judiciaire et de sa dissimulation. Ce texte transforme une affaire d'espionnage en crise politique majeure, opposant dreyfusards et antidreyfusards dans tout le pays. Zola est lui-même condamné pour diffamation et doit s'exiler quelque temps en Angleterre. Germinal est un roman du même auteur, publié en 1885 et consacré au monde des mineurs. Dreyfus, gracié en 1899, ne sera réhabilité qu'en 1906 par la Cour de cassation."
+  },
+  {
+   "q": "Que prévoit la loi du 9 décembre 1905 ?",
+   "choix": [
+    "L'interdiction de toute pratique religieuse en France",
+    "L'obligation pour l'État de financer les cultes reconnus",
+    "Le rétablissement du Concordat de 1801",
+    "La séparation des Églises et de l'État"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "La loi du 9 décembre 1905 sépare les Églises et l'État : la République garantit la liberté de conscience et le libre exercice des cultes, mais ne reconnaît, ne salarie ni ne subventionne aucun culte. Elle met fin au régime concordataire instauré par Bonaparte en 1801, dans lequel l'État rémunérait le clergé et intervenait dans les nominations. Elle ne supprime évidemment pas la pratique religieuse, mais la renvoie à la sphère privée et associative, les édifices étant confiés à des associations cultuelles. Son application, notamment lors des inventaires des biens d'église en 1906, provoqua de vives tensions. L'Alsace-Moselle, alors allemande, resta en dehors de son champ d'application."
+  },
+  {
+   "q": "Quelle avancée sociale majeure les accords Matignon de juin 1936 apportent-ils aux salariés ?",
+   "choix": [
+    "Le suffrage universel réellement universel",
+    "La retraite à soixante ans",
+    "Les congés payés et la semaine de quarante heures",
+    "L'assurance chômage généralisée"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Signés en juin 1936 sous le gouvernement de Front populaire dirigé par Léon Blum, les accords Matignon et les lois qui les accompagnent instaurent deux semaines de congés payés, la semaine de quarante heures, les conventions collectives et des hausses de salaires. Ils font suite à une immense vague de grèves avec occupation d'usines qui suit la victoire électorale de mai 1936. Le droit de vote des femmes n'est en revanche accordé qu'en 1944, par une ordonnance du Gouvernement provisoire. La retraite à soixante ans date de 1982 et l'assurance chômage moderne de 1958. L'expérience du Front populaire s'essouffle dès 1937, dans un contexte économique et international difficile."
+  }
+ ]
+}

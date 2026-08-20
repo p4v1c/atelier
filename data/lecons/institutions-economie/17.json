@@ -1,0 +1,221 @@
+{
+  "titre": "Le développement durable et la transition écologique",
+  "sections": [
+    {
+      "titre": "Naissance d'une notion : du Club de Rome au rapport Brundtland",
+      "texte": "L'idée que la croissance économique puisse se heurter à des limites naturelles s'impose au début des années 1970. En 1972, le Club de Rome publie un rapport intitulé « Les Limites à la croissance », souvent désigné comme le rapport Meadows, qui alerte sur l'épuisement des ressources et sur les effets d'une expansion continue de la production. La même année, du 5 au 16 juin 1972, la conférence des Nations unies sur l'environnement réunie à Stockholm met en évidence les interactions entre l'écologie et l'économie ; elle est parfois présentée comme le premier sommet de la Terre. L'expression « développement durable » reçoit sa définition de référence en 1987, dans le rapport de la Commission mondiale sur l'environnement et le développement de l'Organisation des Nations unies, présidée par la Norvégienne Gro Harlem Brundtland. Le développement durable y est décrit comme un développement qui répond aux besoins du présent sans compromettre la capacité des générations futures de répondre aux leurs. Cette formule introduit une exigence de solidarité entre les générations autant qu'entre les territoires. La représentation la plus répandue du concept repose ensuite sur trois piliers réputés indissociables : la dimension environnementale, qui vise la préservation des ressources et des écosystèmes ; la dimension sociale, qui renvoie au bien-être et à la justice ; la dimension économique, qui suppose la viabilité des activités productives. Deux principes accompagnent fréquemment cette construction, le principe de précaution, qui invite à agir malgré l'incertitude scientifique, et le principe du pollueur-payeur, qui fait peser sur les responsables d'une atteinte le coût de sa réparation.",
+      "visuel": {
+        "type": "tableau",
+        "titre": "Les trois piliers du développement durable",
+        "colonnes": [
+          "Pilier",
+          "Ce qu'il vise"
+        ],
+        "lignes": [
+          [
+            "Environnemental",
+            "La préservation des ressources et des écosystèmes"
+          ],
+          [
+            "Social",
+            "Le bien-être et la justice"
+          ],
+          [
+            "Économique",
+            "La viabilité des activités productives"
+          ]
+        ],
+        "note": "Définition de référence du rapport Brundtland (1987) : un développement qui répond aux besoins du présent sans compromettre la capacité des générations futures de répondre aux leurs. Deux principes l'accompagnent souvent : la précaution, qui invite à agir malgré l'incertitude scientifique, et le pollueur-payeur, qui fait peser le coût de la réparation sur le responsable."
+      }
+    },
+    {
+      "titre": "Les sommets de la Terre et la construction d'un agenda mondial",
+      "texte": "Le concept quitte les cercles d'experts pour l'espace public à l'occasion du sommet de la Terre de Rio de Janeiro, en 1992. Cette conférence des Nations unies sur l'environnement et le développement adopte l'Agenda 21, un programme d'action destiné à traduire le développement durable en mesures concrètes, y compris à l'échelle des collectivités locales. Rio est également le cadre de l'ouverture à la signature de deux traités majeurs : la convention-cadre des Nations unies sur les changements climatiques et la convention sur la diversité biologique. La première institue le cadre dans lequel se tiendront ensuite les conférences des parties, les COP. Dix ans plus tard, en 2002, le sommet mondial de Johannesburg réunit plus de cent chefs d'État et de gouvernement et prolonge les engagements pris sur la conservation des ressources naturelles et de la biodiversité. En 2012, la conférence des Nations unies sur le développement durable, connue sous le nom de Rio+20, revient sur le lieu du sommet fondateur pour dresser un bilan et réaffirmer les orientations de 1992. La démarche débouche en 2015 sur l'adoption par l'Assemblée générale des Nations unies de dix-sept objectifs de développement durable, qui composent l'Agenda 2030. Ces objectifs, assortis d'un horizon fixé à 2030, associent l'éradication de la pauvreté, la prospérité partagée et la préservation des conditions d'habitabilité de la planète. Ils ne sont pas juridiquement contraignants et reposent sur des engagements volontaires assortis d'indicateurs de suivi.",
+      "visuel": {
+        "type": "frise",
+        "titre": "Les grands rendez-vous internationaux",
+        "evenements": [
+          {
+            "date": "1972",
+            "label": "Le rapport Meadows et Stockholm",
+            "texte": "Le Club de Rome publie « Les Limites à la croissance » ; du 5 au 16 juin, la conférence des Nations unies sur l'environnement se tient à Stockholm."
+          },
+          {
+            "date": "1987",
+            "label": "Rapport Brundtland",
+            "texte": "La Commission mondiale sur l'environnement et le développement donne au développement durable sa définition de référence."
+          },
+          {
+            "date": "1992",
+            "label": "Sommet de la Terre de Rio",
+            "texte": "Adoption de l'Agenda 21 et ouverture à la signature de la convention-cadre sur les changements climatiques et de la convention sur la diversité biologique."
+          },
+          {
+            "date": "2002",
+            "label": "Johannesburg",
+            "texte": "Plus de cent chefs d'État et de gouvernement prolongent les engagements sur les ressources naturelles et la biodiversité."
+          },
+          {
+            "date": "2012",
+            "label": "Rio+20",
+            "texte": "Bilan vingt ans après le sommet fondateur et réaffirmation des orientations de 1992."
+          },
+          {
+            "date": "2015",
+            "label": "Les objectifs de développement durable",
+            "texte": "Dix-sept objectifs adoptés par l'Assemblée générale des Nations unies, à l'horizon 2030 ; ils ne sont pas juridiquement contraignants."
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Du protocole de Kyoto à l'accord de Paris",
+      "texte": "La convention-cadre de 1992 ne fixait pas d'objectifs chiffrés. C'est le protocole de Kyoto, adopté le 11 décembre 1997, qui en introduit pour la première fois. Il impose aux pays développés et aux économies en transition, dits pays de l'annexe I, une réduction d'au moins 5 % de leurs émissions de gaz à effet de serre sur la période 2008-2012 par rapport au niveau de 1990. Six gaz sont visés, parmi lesquels le dioxyde de carbone, le méthane et le protoxyde d'azote. Les pays en développement ne reçoivent pas d'engagements quantifiés. Le protocole innove en autorisant trois mécanismes dits de flexibilité : l'échange de permis d'émission, la mise en oeuvre conjointe et le mécanisme de développement propre, qui permet de valoriser des réductions obtenues dans un pays en développement. Le texte entre en vigueur le 16 février 2005, après la ratification russe. Les États-Unis, signataires, ne l'ont jamais ratifié, invoquant l'absence d'obligations pour les grands pays émergents. L'amendement de Doha, adopté en 2012, prolonge le dispositif jusqu'en 2020. L'accord de Paris, adopté le 12 décembre 2015 lors de la COP21 et entré en vigueur le 4 novembre 2016, change de logique. Il vise à contenir l'élévation de la température nettement en dessous de 2 °C par rapport aux niveaux préindustriels, en poursuivant les efforts pour la limiter à 1,5 °C, et repose sur des contributions déterminées au niveau national que chaque État fixe lui-même.",
+      "visuel": {
+        "type": "comparaison",
+        "titre": "Kyoto et Paris : deux logiques",
+        "colonnes": [
+          {
+            "titre": "Protocole de Kyoto (1997)",
+            "points": [
+              "Adopté le 11 décembre 1997, entré en vigueur le 16 février 2005 après la ratification russe",
+              "Objectifs chiffrés imposés aux pays développés et en transition, dits de l'annexe I",
+              "Au moins 5 % de réduction des émissions sur 2008-2012 par rapport à 1990, pour six gaz",
+              "Pas d'engagements quantifiés pour les pays en développement",
+              "Trois mécanismes de flexibilité : échange de permis, mise en œuvre conjointe, mécanisme de développement propre",
+              "Les États-Unis, signataires, ne l'ont jamais ratifié ; l'amendement de Doha de 2012 prolonge le dispositif jusqu'en 2020"
+            ]
+          },
+          {
+            "titre": "Accord de Paris (2015)",
+            "points": [
+              "Adopté le 12 décembre 2015 lors de la COP21, entré en vigueur le 4 novembre 2016",
+              "Objectif commun de température : nettement en dessous de 2 °C par rapport aux niveaux préindustriels",
+              "Poursuite des efforts pour limiter la hausse à 1,5 °C",
+              "Chaque État fixe lui-même sa contribution déterminée au niveau national",
+              "La logique passe d'objectifs imposés à un cadre d'engagements nationaux"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Économie circulaire et énergies renouvelables",
+      "texte": "La transition écologique désigne l'ensemble des transformations des modes de production et de consommation destinées à rendre l'économie compatible avec les limites environnementales. L'économie circulaire en constitue l'un des volets. Elle s'oppose au modèle linéaire résumé par la séquence extraire, fabriquer, consommer, jeter, et cherche à faire fonctionner l'économie en boucle afin de réduire la consommation de matières premières et d'énergies non renouvelables. En France, l'Agence de la transition écologique en distingue sept piliers, répartis entre l'offre des acteurs économiques, la demande des consommateurs et la gestion des déchets : approvisionnement durable, écoconception, écologie industrielle et territoriale, économie de la fonctionnalité, consommation responsable, réemploi et réparation, recyclage. La loi relative à la transition énergétique de 2015 inscrit l'économie circulaire parmi les objectifs nationaux, tandis que la loi relative à la lutte contre le gaspillage et à l'économie circulaire, adoptée en février 2020, instaure notamment un indice de réparabilité. La Commission européenne présente son plan d'action pour l'économie circulaire le 11 mars 2020. L'autre volet concerne l'énergie. Les énergies renouvelables proviennent de sources dont le renouvellement naturel est assez rapide pour être tenues pour inépuisables à l'échelle humaine : hydraulique, éolien, solaire, biomasse et géothermie. En 2018, elles représentaient environ 17,9 % de la consommation finale mondiale d'énergie et 26,2 % de la production mondiale d'électricité, l'hydroélectricité en fournissant à elle seule 15,8 %. L'éolien et le solaire posent la question de l'intermittence, qui suppose des capacités de stockage ou des sources pilotables.",
+      "visuel": {
+        "type": "chiffres",
+        "titre": "Les énergies renouvelables dans le monde en 2018",
+        "items": [
+          {
+            "valeur": "17,9 %",
+            "label": "de la consommation finale mondiale d'énergie"
+          },
+          {
+            "valeur": "26,2 %",
+            "label": "de la production mondiale d'électricité"
+          },
+          {
+            "valeur": "15,8 %",
+            "label": "de la production mondiale d'électricité pour la seule hydroélectricité"
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Les instruments des politiques publiques : marché carbone et fiscalité écologique",
+      "texte": "Pour orienter les comportements, les pouvoirs publics disposent de la réglementation, mais aussi d'instruments économiques qui reposent sur un signal-prix. Le premier est le marché de quotas. Institué par une directive européenne du 13 octobre 2003 et lancé en 2005, le système d'échange de quotas d'émission de l'Union européenne applique le principe du plafonnement et de l'échange : une quantité maximale d'émissions est fixée, puis répartie en quotas que les installations peuvent acheter ou revendre. Il concerne environ onze mille installations, responsables de près de la moitié des émissions européennes de dioxyde de carbone, et fonctionne par phases successives, l'allocation gratuite de quotas cédant progressivement la place à la mise aux enchères. Le prix du quota est très variable : d'environ 4 à 5 euros la tonne en 2017, il a atteint près de 100 euros en février 2023. Le second instrument est la fiscalité écologique, qui cherche à intégrer dans les prix le coût des dommages environnementaux, selon la logique de la taxe pigouvienne et du principe pollueur-payeur. La Finlande instaure une taxe carbone dès 1990, suivie par la Norvège et la Suède en 1991. En France, la taxe intérieure de consommation sur les produits énergétiques et la taxe générale sur les activités polluantes, créée en 1999, relèvent de cette catégorie. Ces instruments font débat : la théorie du double dividende, avancée par David Pearce en 1991, en souligne les bénéfices, tandis que d'autres travaux insistent sur leur caractère potentiellement régressif."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Quel rapport de 1987 a donné au développement durable sa définition de référence ?",
+      "choix": [
+        "Le rapport Meadows",
+        "Le rapport Brundtland",
+        "Le rapport Stern",
+        "Le rapport Pearce"
+      ],
+      "bonne": 1,
+      "difficulte": 1,
+      "explication": "La définition de référence figure dans le rapport publié en 1987 par la Commission mondiale sur l'environnement et le développement des Nations unies, présidée par Gro Harlem Brundtland. Le développement durable y est présenté comme un développement qui répond aux besoins du présent sans compromettre la capacité des générations futures de répondre aux leurs. Il ne faut pas le confondre avec le rapport Meadows, publié en 1972 par le Club de Rome sous le titre « Les Limites à la croissance », qui portait sur les limites physiques de l'expansion économique. Le rapport Brundtland popularise l'idée d'une solidarité entre les générations. Il précède de cinq ans le sommet de la Terre de Rio, qui donnera au concept sa notoriété mondiale."
+    },
+    {
+      "q": "Quel programme d'action pour le développement durable a été adopté lors du sommet de la Terre de Rio en 1992 ?",
+      "choix": [
+        "L'Agenda 2030",
+        "Le protocole de Montréal",
+        "L'Agenda 21",
+        "Le plan d'action pour l'économie circulaire"
+      ],
+      "bonne": 2,
+      "difficulte": 2,
+      "explication": "Le sommet de la Terre de Rio de Janeiro, en 1992, adopte l'Agenda 21, un programme d'action destiné à décliner le développement durable en mesures concrètes, y compris au niveau des collectivités locales. Ce même sommet ouvre à la signature la convention-cadre des Nations unies sur les changements climatiques et la convention sur la diversité biologique. L'Agenda 2030 est différent : il désigne l'ensemble des dix-sept objectifs de développement durable adoptés en 2015. Le plan d'action européen pour l'économie circulaire a été présenté par la Commission le 11 mars 2020. Rio constitue donc le moment où le développement durable devient un cadre d'action internationalement partagé."
+    },
+    {
+      "q": "Quelle est la particularité du protocole de Kyoto par rapport à la convention-cadre de 1992 ?",
+      "choix": [
+        "Il fixe des objectifs chiffrés de réduction pour les pays développés",
+        "Il impose les mêmes obligations à tous les pays du monde",
+        "Il supprime tout recours aux mécanismes de marché",
+        "Il fixe une limite de température à 1,5 °C"
+      ],
+      "bonne": 0,
+      "difficulte": 2,
+      "explication": "Adopté le 11 décembre 1997, le protocole de Kyoto introduit pour la première fois des objectifs chiffrés, absents de la convention-cadre de 1992. Il impose aux pays de l'annexe I, c'est-à-dire aux pays développés et aux économies en transition, une réduction d'au moins 5 % de leurs émissions de gaz à effet de serre sur la période 2008-2012 par rapport à 1990. Les pays en développement ne reçoivent pas d'engagements quantifiés, ce qui a nourri la contestation américaine : les États-Unis ont signé le texte mais ne l'ont jamais ratifié. Loin d'écarter les mécanismes de marché, le protocole les institutionnalise avec l'échange de permis d'émission, la mise en oeuvre conjointe et le mécanisme de développement propre. L'objectif de 1,5 °C relève, lui, de l'accord de Paris de 2015."
+    },
+    {
+      "q": "Que prévoit l'accord de Paris adopté en 2015 ?",
+      "choix": [
+        "Une taxe carbone mondiale unique fixée par l'ONU",
+        "Une interdiction des énergies fossiles à partir de 2030",
+        "Un plafond européen de quotas d'émission",
+        "De contenir le réchauffement nettement en dessous de 2 °C, en visant 1,5 °C"
+      ],
+      "bonne": 3,
+      "difficulte": 1,
+      "explication": "Adopté le 12 décembre 2015 lors de la COP21 et entré en vigueur le 4 novembre 2016, l'accord de Paris vise à contenir l'élévation de la température moyenne nettement en dessous de 2 °C par rapport aux niveaux préindustriels, tout en poursuivant les efforts pour la limiter à 1,5 °C. Sa méthode diffère de celle de Kyoto : chaque État détermine lui-même sa contribution déterminée au niveau national, communiquée périodiquement et censée progresser à chaque révision. L'accord est un traité contraignant, mais les objectifs nationaux qu'il abrite ne le sont pas ; seules les obligations de communication et d'examen s'imposent juridiquement. Un bilan mondial périodique permet de mesurer les progrès collectifs. L'accord met en oeuvre la convention-cadre des Nations unies sur les changements climatiques de 1992."
+    },
+    {
+      "q": "Sur quel principe repose le système européen d'échange de quotas d'émission lancé en 2005 ?",
+      "choix": [
+        "Le remboursement des investissements verts par la Banque centrale européenne",
+        "Le plafonnement des émissions assorti d'un échange de quotas entre installations",
+        "L'interdiction pure et simple d'émettre au-delà d'un seuil, sans échange possible",
+        "La gratuité permanente et illimitée des quotas pour l'industrie"
+      ],
+      "bonne": 1,
+      "difficulte": 3,
+      "explication": "Institué par une directive du 13 octobre 2003 et lancé en 2005, le système européen d'échange de quotas applique le principe du plafonnement et de l'échange. Une quantité maximale d'émissions est fixée puis répartie en quotas, et les installations qui dépassent leur allocation doivent en acheter à celles qui ont réduit leurs rejets. Le dispositif couvre environ onze mille installations, responsables de près de la moitié des émissions européennes de dioxyde de carbone, et fonctionne par phases successives. L'allocation gratuite initiale laisse progressivement place à la mise aux enchères. Le prix du quota varie fortement selon les périodes : d'environ 4 à 5 euros la tonne en 2017, il a approché 100 euros en février 2023. Une réserve de stabilité de marché a été mise en place en 2019 pour absorber les excédents de quotas."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Développement durable",
+      "url": "https://fr.wikipedia.org/wiki/Développement_durable"
+    },
+    {
+      "titre": "Protocole de Kyoto",
+      "url": "https://fr.wikipedia.org/wiki/Protocole_de_Kyoto"
+    },
+    {
+      "titre": "Accord de Paris sur le climat",
+      "url": "https://fr.wikipedia.org/wiki/Accord_de_Paris_sur_le_climat"
+    },
+    {
+      "titre": "Économie circulaire",
+      "url": "https://fr.wikipedia.org/wiki/Économie_circulaire"
+    },
+    {
+      "titre": "Énergie renouvelable",
+      "url": "https://fr.wikipedia.org/wiki/Énergie_renouvelable"
+    },
+    {
+      "titre": "Système d'échange de quotas d'émission de l'Union européenne",
+      "url": "https://fr.wikipedia.org/wiki/Système_communautaire_d%27échange_de_quotas_d%27émission"
+    },
+    {
+      "titre": "Fiscalité environnementale",
+      "url": "https://fr.wikipedia.org/wiki/Fiscalité_environnementale"
+    }
+  ]
+}

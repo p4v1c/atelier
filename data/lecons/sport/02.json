@@ -1,0 +1,188 @@
+{
+ "titre": "Le tennis, du jeu de paume aux courts du monde entier",
+ "sections": [
+  {
+   "titre": "Du jeu de paume au lawn tennis",
+   "texte": "L'ancêtre du tennis est le jeu de paume, pratiqué en France dès le Moyen Âge. On y renvoyait une balle avec la paume de la main, puis avec un gant, enfin avec une raquette à partir du XVIe siècle. Le jeu se disputait dans des salles fermées et connut une immense popularité auprès de la noblesse : Paris comptait plusieurs centaines de salles au XVIIe siècle. C'est de ce jeu que vient le mot tennis lui-même, dérivé selon l'hypothèse la plus courante du cri tenez, lancé par le serveur avant d'engager la balle, et repris par les Anglais sous la forme tennis. Le jeu de paume déclina ensuite, mais son vocabulaire et son décompte des points survécurent. Le tennis moderne naît en Angleterre au XIXe siècle, lorsque l'on transpose ce jeu de salle sur les pelouses des jardins victoriens. En 1873, le major Walter Clopton Wingfield met au point un jeu de plein air qu'il fait breveter l'année suivante sous un nom grec vite abandonné. Le All England Croquet and Lawn Tennis Club, à Wimbledon, organise en 1877 le premier tournoi de l'histoire et fixe à cette occasion des dimensions de court et un règlement proches de ceux d'aujourd'hui. Le lawn tennis se diffuse ensuite très vite dans les colonies britanniques, aux États-Unis et sur le continent européen, où il devient d'abord un loisir mondain."
+  },
+  {
+   "titre": "Le terrain, les règles et le décompte des points",
+   "texte": "Le court de tennis mesure 23,77 mètres de long et 8,23 mètres de large en simple, largeur portée à 10,97 mètres en double grâce aux couloirs. Un filet le partage en deux, tendu à 0,914 mètre en son centre. Le service s'effectue derrière la ligne de fond, en diagonale, dans le carré opposé ; le serveur dispose de deux tentatives, et une balle qui touche le filet avant de tomber correctement se rejoue. L'échange se poursuit jusqu'à ce qu'un joueur commette une faute, en envoyant la balle dans le filet ou hors des limites, ou en la laissant rebondir deux fois. Le décompte des points, hérité du jeu de paume, est particulier : on compte quinze, trente, quarante, puis le jeu. À quarante partout, on annonce égalité, et il faut alors marquer deux points consécutifs, en passant par l'avantage, pour emporter le jeu. Un set se gagne en six jeux, avec deux jeux d'écart. Pour éviter les parties interminables, le jeu décisif, ou tie-break, imaginé par l'Américain James Van Alen et adopté à partir de 1970, départage les joueurs à six jeux partout. Les matches se disputent en deux sets gagnants, ou en trois chez les hommes dans les tournois du Grand Chelem. La nature de la surface, terre battue, gazon ou dur, modifie fortement la vitesse et le rebond de la balle, donc le style de jeu.",
+   "visuels": [
+    {
+     "type": "image",
+     "image": "sp-court-tennis",
+     "legende": "Le court vu du dessus. Il mesure 23,77 m de long ; le filet, tendu à 0,914 m en son centre, le partage en deux. Les couloirs latéraux ne servent qu'en double.",
+     "alt": "Schéma coté d'un court de tennis vu du dessus : 8,23 m de large en simple, 10,97 m en double, 11,89 m entre le filet et la ligne de fond, carrés de service de 6,40 m."
+    },
+    {
+     "type": "etapes",
+     "titre": "Le décompte d'un jeu, hérité du jeu de paume",
+     "etapes": [
+      {
+       "label": "15",
+       "texte": "Premier point gagné."
+      },
+      {
+       "label": "30",
+       "texte": "Deuxième point."
+      },
+      {
+       "label": "40",
+       "texte": "Troisième point."
+      },
+      {
+       "label": "Égalité",
+       "texte": "À 40 partout : il faut alors marquer deux points consécutifs."
+      },
+      {
+       "label": "Avantage",
+       "texte": "Point gagné après l'égalité ; le suivant emporte le jeu."
+      },
+      {
+       "label": "Jeu",
+       "texte": "Six jeux avec deux d'écart forment un set ; à six jeux partout, le tie-break départage, adopté à partir de 1970."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Les quatre tournois du Grand Chelem",
+   "texte": "Quatre tournois dominent le calendrier et forment ce que l'on appelle le Grand Chelem. L'Open d'Australie ouvre la saison en janvier, à Melbourne ; créé en 1905, il se disputait sur gazon avant de passer sur surface dure à partir de 1988. Roland-Garros suit à Paris, à la fin du printemps, sur terre battue : c'est le tournoi le plus exigeant physiquement, car la surface ralentit la balle et allonge les échanges. Il descend du Championnat de France créé en 1891, ouvert aux étrangers en 1925 ; le stade lui-même est construit en 1928 pour accueillir la Coupe Davis et porte le nom de l'aviateur Roland Garros. Wimbledon, en juillet, est le plus ancien et le plus prestigieux : disputé sur gazon depuis 1877, il conserve des traditions strictes, dont l'obligation pour les joueurs de porter une tenue blanche. L'US Open referme la saison à New York, sur le site de Flushing Meadows, sur surface dure. Remporter les quatre tournois la même année civile constitue le Grand Chelem au sens strict, un exploit très rare : l'Australien Rod Laver l'a réussi deux fois, en 1962 puis en 1969, et l'Allemande Steffi Graf y a ajouté en 1988 le titre olympique, réalisant le Golden Slam. Le nombre de titres du Grand Chelem reste le principal critère pour comparer les carrières.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les quatre tournois du Grand Chelem",
+    "colonnes": [
+     "Tournoi",
+     "Période",
+     "Lieu",
+     "Surface"
+    ],
+    "lignes": [
+     [
+      "Open d'Australie",
+      "Janvier",
+      "Melbourne",
+      "Dur depuis 1988, gazon auparavant"
+     ],
+     [
+      "Roland-Garros",
+      "Fin du printemps",
+      "Paris",
+      "Terre battue"
+     ],
+     [
+      "Wimbledon",
+      "Juillet",
+      "Londres",
+      "Gazon"
+     ],
+     [
+      "US Open",
+      "Fin de saison",
+      "New York, Flushing Meadows",
+      "Dur"
+     ]
+    ],
+    "note": "Wimbledon est le plus ancien (1877) ; l'Open d'Australie date de 1905 et Roland-Garros descend du Championnat de France créé en 1891. Réussir les quatre la même année civile est très rare : Rod Laver en 1962 et 1969, Steffi Graf en 1988 avec en plus le titre olympique."
+   }
+  },
+  {
+   "titre": "La Coupe Davis et l'histoire du tennis français",
+   "texte": "Le tennis possède aussi une compétition par nations : la Coupe Davis, créée en 1900 par l'étudiant américain Dwight Davis, qui en offrit le saladier d'argent. Elle oppose des équipes nationales sur plusieurs simples et un double, dans un format à élimination directe. L'équivalent féminin, fondé en 1963 sous le nom de Fed Cup, porte aujourd'hui le nom de Billie Jean King Cup. La France y a écrit quelques-unes de ses plus belles pages sportives. Dans les années 1920, les Quatre Mousquetaires, Jean Borotra, Jacques Brugnon, Henri Cochet et René Lacoste, remportent la Coupe Davis six fois de suite, de 1927 à 1932 ; c'est pour défendre ce trophée que le stade Roland-Garros est édifié. Les quatre courts principaux du stade portent aujourd'hui leurs noms. À la même époque, Suzanne Lenglen domine le tennis féminin mondial avec une aisance et un style qui en font une véritable vedette internationale. Après une longue traversée du désert, la France renoue avec le succès grâce à Yannick Noah, vainqueur de Roland-Garros en 1983, dernier joueur français sacré en simple dans son tournoi national. Devenu capitaine, Noah conduit l'équipe de France à la victoire en Coupe Davis en 1991 puis en 1996. Côté féminin, Mary Pierce s'impose à l'Open d'Australie en 1995 et à Roland-Garros en 2000, et Amélie Mauresmo remporte l'Open d'Australie et Wimbledon en 2006.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "Les grandes heures du tennis français",
+    "items": [
+     {
+      "valeur": "1927-1932",
+      "label": "six Coupes Davis d'affilée pour les Quatre Mousquetaires"
+     },
+     {
+      "valeur": "1983",
+      "label": "Yannick Noah, dernier Français sacré à Roland-Garros"
+     },
+     {
+      "valeur": "1991 et 1996",
+      "label": "Coupes Davis remportées sous la conduite du capitaine Noah"
+     },
+     {
+      "valeur": "2000",
+      "label": "Roland-Garros de Mary Pierce, après son Open d'Australie 1995"
+     },
+     {
+      "valeur": "2006",
+      "label": "Open d'Australie et Wimbledon d'Amélie Mauresmo"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "L'ère Open et les grands champions",
+   "texte": "Jusqu'en 1968, les tournois majeurs étaient réservés aux amateurs, tandis que les meilleurs joueurs partis chez les professionnels en étaient exclus, ce qui faussait les palmarès. Cette année-là, les instances acceptent d'ouvrir les grands tournois à tous : c'est le début de l'ère Open, qui sert désormais de point de départ aux statistiques officielles. Le tennis se structure ensuite rapidement, avec la création de l'association des joueurs professionnels en 1972 et, l'année suivante, de l'association féminine fondée à l'initiative de Billie Jean King. Cette dernière obtient dès 1973 l'égalité des primes à l'US Open ; Wimbledon ne s'y ralliera qu'en 2007. Le tennis, présent aux Jeux olympiques de 1896 à 1924, en avait été retiré avant d'y faire son retour en 1988 à Séoul. L'ère Open a été marquée par de grandes rivalités qui ont porté la popularité du sport : le Suédois Björn Borg, vainqueur de Wimbledon cinq années consécutives de 1976 à 1980 et de six éditions de Roland-Garros, face à l'Américain John McEnroe ; puis Ivan Lendl, Pete Sampras et André Agassi dans les années 1990. Chez les femmes, Martina Navratilova, Chris Evert et Steffi Graf ont dominé des décennies entières. L'évolution du matériel, du bois au graphite, a profondément transformé le jeu en augmentant la puissance des frappes et en raréfiant la montée au filet."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel jeu français est considéré comme l'ancêtre du tennis ?",
+   "choix": [
+    "Le croquet",
+    "Le jeu de paume",
+    "La pelote basque",
+    "Le badminton"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Le jeu de paume, pratiqué en France dès le Moyen Âge, est l'ancêtre direct du tennis. On y renvoyait la balle d'abord avec la main nue, puis avec un gant, enfin avec une raquette. C'est de ce jeu que proviennent le décompte des points par quinze, trente et quarante, ainsi que, selon l'hypothèse la plus répandue, le mot tennis lui-même, tiré du cri tenez lancé par le serveur. Le croquet est un jeu de pelouse anglais, avec lequel le tennis a longtemps partagé ses terrains. La pelote basque et le badminton sont des sports distincts, d'origines différentes."
+  },
+  {
+   "q": "En quelle année s'est disputé le premier tournoi de Wimbledon ?",
+   "choix": [
+    "1900",
+    "1891",
+    "1925",
+    "1877"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le premier tournoi de Wimbledon a lieu en 1877, organisé par le All England Croquet and Lawn Tennis Club : c'est le plus ancien tournoi de tennis du monde, et il se dispute toujours sur gazon. L'année 1891 correspond à la création du Championnat de France, ancêtre de Roland-Garros, qui ne sera ouvert aux joueurs étrangers qu'en 1925. La Coupe Davis, elle, est créée en 1900 par l'Américain Dwight Davis. Wimbledon a conservé de nombreuses traditions, dont l'obligation d'une tenue entièrement blanche."
+  },
+  {
+   "q": "Que se passe-t-il lorsque les deux joueurs atteignent quarante partout dans un jeu ?",
+   "choix": [
+    "On annonce égalité et il faut marquer deux points d'affilée",
+    "Le jeu est immédiatement rejoué",
+    "Le serveur remporte automatiquement le jeu",
+    "On passe directement au jeu décisif"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "À quarante partout, l'arbitre annonce égalité. Il faut alors qu'un joueur marque deux points consécutifs pour remporter le jeu : le premier lui donne l'avantage, le second le jeu. Si l'adversaire remporte le point suivant, on revient à égalité, ce qui peut prolonger considérablement le jeu. Le jeu décisif, ou tie-break, n'intervient pas ici : il départage les joueurs lorsque le set atteint six jeux partout. Ce système a été introduit à partir de 1970 pour raccourcir les matches interminables."
+  },
+  {
+   "q": "Sur quelle surface se dispute le tournoi de Roland-Garros ?",
+   "choix": [
+    "Le gazon",
+    "La moquette",
+    "La terre battue",
+    "Le béton"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "Roland-Garros se dispute sur terre battue, seule surface de ce type parmi les quatre tournois du Grand Chelem. La terre battue ralentit la balle et produit un rebond haut, ce qui allonge les échanges et favorise les joueurs endurants et défensifs. Wimbledon est joué sur gazon, surface rapide au rebond bas. L'Open d'Australie et l'US Open se disputent sur surface dure. Le stade parisien a été construit en 1928 pour accueillir la Coupe Davis et porte le nom de l'aviateur Roland Garros."
+  },
+  {
+   "q": "Que désigne l'expression ère Open, qui débute en 1968 ?",
+   "choix": [
+    "La création du tournoi de l'US Open",
+    "L'ouverture des grands tournois aux joueurs professionnels",
+    "L'apparition des raquettes en graphite",
+    "Le retour du tennis aux Jeux olympiques"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "L'ère Open commence en 1968, lorsque les grands tournois, jusque-là réservés aux amateurs, sont ouverts aux joueurs professionnels. Auparavant, les meilleurs joueurs passés professionnels étaient exclus des tournois majeurs, ce qui rendait les palmarès peu représentatifs du niveau réel. C'est pourquoi la plupart des statistiques officielles du tennis prennent 1968 comme point de départ. Le tennis a fait son retour aux Jeux olympiques en 1988 à Séoul, après en avoir été absent depuis 1924. L'arrivée des raquettes en matériaux composites est un phénomène des années 1970 et 1980, sans rapport avec cette réforme."
+  }
+ ]
+}

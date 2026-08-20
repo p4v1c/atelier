@@ -1,0 +1,229 @@
+{
+ "titre": "L'empire colonial français (XVIe-XXe siècle)",
+ "sections": [
+  {
+   "titre": "Le premier empire colonial et son effondrement",
+   "texte": "L'aventure coloniale française commence au XVIe siècle. En 1534, Jacques Cartier prend possession de terres au nord de l'Amérique au nom du roi de France, prélude à la fondation de la Nouvelle-France, dont Québec devient le cœur en 1608. Aux XVIIe et XVIIIe siècles, la France installe des colonies de peuplement et de plantation aux Antilles, à Saint-Domingue, à la Martinique et à la Guadeloupe, où l'économie sucrière repose sur la traite atlantique et le travail servile des Africains déportés, encadré depuis 1685 par le Code noir. Elle établit également des comptoirs en Inde, à Pondichéry et Chandernagor, ainsi que sur les côtes africaines et dans l'océan Indien. À son apogée, ce premier ensemble s'étend sur plusieurs millions de kilomètres carrés, notamment grâce à l'immense Louisiane. La rivalité avec la Grande-Bretagne lui est fatale. La guerre de Sept Ans se solde par le traité de Paris de 1763 : la France abandonne le Canada et la rive gauche du Mississippi et ne conserve en Inde que quelques comptoirs sans pouvoir politique. En 1803, Napoléon Bonaparte vend la Louisiane aux États-Unis, et l'insurrection victorieuse des esclaves de Saint-Domingue aboutit en 1804 à l'indépendance d'Haïti. Il ne reste alors qu'un empire résiduel, dispersé et peu valorisé.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Le premier empire colonial, de Cartier à Haïti",
+    "evenements": [
+     {
+      "date": "1534",
+      "label": "Jacques Cartier",
+      "texte": "Il prend possession de terres au nord de l'Amérique au nom du roi de France."
+     },
+     {
+      "date": "1608",
+      "label": "Fondation de Québec",
+      "texte": "Cœur de la Nouvelle-France."
+     },
+     {
+      "date": "XVIIe-XVIIIe siècle",
+      "label": "Les îles à sucre",
+      "texte": "Saint-Domingue, la Martinique, la Guadeloupe : une économie de plantation fondée sur la traite atlantique et le travail servile, encadré par le Code noir depuis 1685."
+     },
+     {
+      "date": "1763",
+      "label": "Traité de Paris",
+      "texte": "La guerre de Sept Ans coûte le Canada et la rive gauche du Mississippi ; en Inde, il ne reste que des comptoirs sans pouvoir politique."
+     },
+     {
+      "date": "1803",
+      "label": "Vente de la Louisiane",
+      "texte": "Bonaparte la cède aux États-Unis."
+     },
+     {
+      "date": "1804",
+      "label": "Indépendance d'Haïti",
+      "texte": "L'insurrection victorieuse des esclaves de Saint-Domingue. Il ne reste qu'un empire résiduel et dispersé."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "La reconstitution d'un empire au XIXe siècle",
+   "texte": "La reconquête coloniale commence avec l'Algérie. Sous prétexte d'un différend diplomatique et pour redorer un régime affaibli, Charles X lance en 1830 une expédition qui aboutit à la prise d'Alger. Ce qui devait être une opération limitée se transforme en une conquête longue et brutale, marquée par la résistance de l'émir Abd el-Kader jusqu'en 1847 et par des méthodes de guerre impitoyables. Le nord du territoire est ensuite organisé en départements français, ce qui fait de l'Algérie un cas unique dans l'empire. Sous le Second Empire, Napoléon III élargit les possessions françaises : implantation au Sénégal avec Faidherbe, occupation de la Cochinchine et du Cambodge en Indochine, présence en Nouvelle-Calédonie et intervention au Mexique, qui se solde par un échec. Après la défaite de 1870, l'expansion prend une dimension nouvelle. Elle répond à des motivations économiques, la recherche de matières premières et de débouchés, à des ambitions stratégiques, avec l'ouverture du canal de Suez et la maîtrise des routes maritimes, mais aussi au désir de compenser l'humiliation infligée par l'Allemagne. Des sociétés de géographie, des missionnaires et des explorateurs comme Savorgnan de Brazza préparent le terrain, tandis que les progrès de la médecine, notamment contre le paludisme, et la supériorité des armes à répétition rendent la pénétration des continents possible."
+  },
+  {
+   "titre": "L'apogée sous la IIIe République",
+   "texte": "La Troisième République donne à l'expansion coloniale une ampleur inédite. Jules Ferry, président du Conseil au début des années 1880, en devient le théoricien et le maître d'œuvre : il défend devant la Chambre l'idée d'une mission civilisatrice des races supérieures envers les races inférieures, formule qui lui vaut les répliques cinglantes de Georges Clemenceau, hostile à une politique qui détourne la France de la revanche. La Tunisie devient protectorat en 1881, l'Annam et le Tonkin sont soumis, et la conférence de Berlin de 1884-1885 fixe entre puissances européennes les règles du partage de l'Afrique. La France constitue alors de vastes ensembles administratifs : l'Afrique occidentale française en 1895, l'Union indochinoise, puis l'Afrique équatoriale française en 1910. Madagascar est conquise en 1895 et annexée l'année suivante, le Maroc devient protectorat en 1912. La rivalité avec les Britanniques manque de dégénérer en guerre lors de la crise de Fachoda, en 1898, où la France doit reculer. Après la Première Guerre mondiale, la France reçoit des mandats sur la Syrie, le Liban et une partie des anciennes colonies allemandes : l'empire atteint son extension maximale, environ treize millions et demi de kilomètres carrés et une centaine de millions d'habitants, faisant de la France la deuxième puissance coloniale du monde derrière le Royaume-Uni.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "L'empire à son extension maximale, après 1919",
+    "items": [
+     {
+      "valeur": "13,5 M km²",
+      "label": "soit environ vingt-cinq fois la superficie de la métropole"
+     },
+     {
+      "valeur": "100 millions",
+      "label": "d'habitants placés sous administration française"
+     },
+     {
+      "valeur": "2e",
+      "label": "puissance coloniale du monde, derrière le Royaume-Uni"
+     },
+     {
+      "valeur": "1884-1885",
+      "label": "la conférence de Berlin fixe entre Européens les règles du partage de l'Afrique"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Administrer, exploiter et justifier la colonisation",
+   "texte": "L'empire est administré selon des statuts très divers : colonies dirigées par des gouverneurs, protectorats où l'autorité locale est maintenue sous tutelle, territoires sous mandat, départements en Algérie. Partout, une inégalité fondamentale sépare les citoyens français des populations locales, réduites au statut de sujets. Le régime de l'indigénat, institué par la loi du 28 juin 1881 en Algérie puis étendu aux autres colonies entre 1887 et 1912, permet aux administrateurs de punir sans jugement des dizaines d'infractions propres aux indigènes, comme se déplacer sans autorisation ou refuser de renseigner l'autorité, par des amendes collectives, l'internement ou le séquestre des biens. S'y ajoutent l'impôt de capitation, les prestations en travail qui rétablissent la corvée et le recours au travail forcé pour les chantiers, les plantations et les mines. L'économie coloniale est orientée vers la métropole : cultures d'exportation, arachide, coton, caoutchouc, café, extraction minière, construction de ports et de voies ferrées souvent meurtrières pour la main-d'œuvre. Cette domination se double d'un discours de justification largement diffusé par l'école, la presse illustrée, la publicité et les grandes expositions coloniales, dont celle organisée à Paris en 1931 reste la plus célèbre. Des voix critiques existent pourtant, chez certains socialistes, chez André Gide dénonçant les compagnies concessionnaires, ou chez les surréalistes.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Des statuts différents, une même inégalité",
+    "colonnes": [
+     "Statut",
+     "Comment il fonctionne"
+    ],
+    "lignes": [
+     [
+      "Colonie",
+      "Dirigée par un gouverneur nommé par Paris."
+     ],
+     [
+      "Protectorat",
+      "L'autorité locale est maintenue, mais sous tutelle française : Tunisie en 1881, Maroc en 1912."
+     ],
+     [
+      "Territoire sous mandat",
+      "Confié à la France après 1919 : Syrie, Liban, anciennes colonies allemandes."
+     ],
+     [
+      "Départements",
+      "Cas unique de l'Algérie du Nord, considérée comme une partie de la France."
+     ],
+     [
+      "Le régime de l'indigénat",
+      "Loi du 28 juin 1881 en Algérie, étendue ensuite : l'administrateur punit sans jugement des dizaines d'infractions propres aux indigènes, par l'amende collective, l'internement ou le séquestre."
+     ],
+     [
+      "L'économie orientée vers la métropole",
+      "Cultures d'exportation, mines, ports et voies ferrées bâtis par l'impôt de capitation, les prestations en travail et le travail forcé."
+     ]
+    ],
+    "note": "Partout, une même frontière : les citoyens français d'un côté, les sujets de l'autre."
+   }
+  },
+  {
+   "titre": "La décolonisation et l'héritage impérial",
+   "texte": "Les deux guerres mondiales ébranlent l'édifice. Les colonies fournissent des centaines de milliers de soldats et de travailleurs, ce qui nourrit des revendications d'égalité, tandis que la défaite de 1940 ruine le prestige de la métropole. À la Libération, la conférence de Brazzaville en 1944 promet des réformes, l'indigénat est aboli en 1944 et 1946 et la loi Lamine Guèye de mai 1946 étend la citoyenneté aux ressortissants des territoires d'outre-mer. Mais ces concessions arrivent trop tard. La guerre d'Indochine, ouverte en 1946, s'achève par la défaite de Diên Biên Phu et les accords de Genève de 1954. Le Maroc et la Tunisie deviennent indépendants en 1956. En 1960, année de l'Afrique, la quasi-totalité des territoires d'Afrique subsaharienne accèdent pacifiquement à l'indépendance dans le cadre proposé par le général de Gaulle. L'Algérie, après huit années de guerre, devient indépendante le 5 juillet 1962. Les dernières décolonisations se poursuivent jusqu'à l'indépendance du Vanuatu, ancien condominium franco-britannique des Nouvelles-Hébrides, en 1980. La France conserve aujourd'hui des territoires ultramarins dispersés sur tous les océans, qui lui assurent la deuxième zone économique exclusive du monde. L'héritage colonial demeure vivant dans la langue, la francophonie, les circulations migratoires, mais aussi dans des mémoires conflictuelles régulièrement au cœur du débat public.",
+   "visuel": {
+    "type": "frise",
+    "titre": "La décolonisation",
+    "evenements": [
+     {
+      "date": "1944-1946",
+      "label": "Des réformes trop tardives",
+      "texte": "Conférence de Brazzaville, abolition de l'indigénat, loi Lamine Guèye de mai 1946 étendant la citoyenneté aux ressortissants d'outre-mer."
+     },
+     {
+      "date": "1946-1954",
+      "label": "La guerre d'Indochine",
+      "texte": "Elle s'achève par Diên Biên Phu et les accords de Genève."
+     },
+     {
+      "date": "1956",
+      "label": "Indépendance du Maroc et de la Tunisie"
+     },
+     {
+      "date": "1960",
+      "label": "L'année de l'Afrique",
+      "texte": "La quasi-totalité des territoires d'Afrique subsaharienne accèdent pacifiquement à l'indépendance."
+     },
+     {
+      "date": "5 juillet 1962",
+      "label": "Indépendance de l'Algérie",
+      "texte": "Après huit années de guerre."
+     },
+     {
+      "date": "1980",
+      "label": "Vanuatu",
+      "texte": "L'ancien condominium franco-britannique des Nouvelles-Hébrides ferme la série."
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel traité marque la perte du Canada par la France ?",
+   "choix": [
+    "Le traité de Westphalie de 1648",
+    "Le traité d'Utrecht de 1713",
+    "Le traité de Paris de 1763",
+    "Le traité de Versailles de 1919"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La guerre de Sept Ans oppose la France et la Grande-Bretagne sur plusieurs continents et se conclut par le traité de Paris signé en 1763. La France y abandonne le Canada et les territoires situés à l'est du Mississippi, et ne conserve en Inde que cinq comptoirs privés de pouvoir politique. Ce traité marque la fin des ambitions continentales françaises en Amérique du Nord. La liquidation du premier empire colonial se poursuit avec la vente de la Louisiane aux États-Unis en 1803, puis avec l'indépendance d'Haïti en 1804."
+  },
+  {
+   "q": "Quelle année marque le début de la conquête de l'Algérie ?",
+   "choix": [
+    "1830",
+    "1848",
+    "1881",
+    "1912"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "L'expédition ordonnée par Charles X aboutit à la prise d'Alger en juillet 1830, quelques semaines avant la chute du régime lors des Trois Glorieuses. La conquête du reste du territoire s'étend ensuite sur des décennies et se heurte notamment à la résistance de l'émir Abd el-Kader, qui ne dépose les armes qu'en 1847. À partir de 1848, le nord de l'Algérie est organisé en départements français, statut unique dans l'empire qui rendra la décolonisation particulièrement douloureuse. La Tunisie devient protectorat en 1881 et le Maroc en 1912."
+  },
+  {
+   "q": "Quel homme politique défend au début des années 1880 l'idée d'une mission civilisatrice justifiant l'expansion coloniale ?",
+   "choix": [
+    "Georges Clemenceau",
+    "Léon Gambetta",
+    "Adolphe Thiers",
+    "Jules Ferry"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Deux fois président du Conseil sous la Troisième République, Jules Ferry est le principal artisan politique de l'expansion coloniale française. Il la justifie par des arguments économiques, la recherche de débouchés et de matières premières, stratégiques, avec la maîtrise des routes maritimes, et par l'idée contestable d'un devoir de civilisation des races supérieures envers les races inférieures. Georges Clemenceau lui répond vigoureusement à la Chambre, dénonçant à la fois le principe de cette hiérarchie et le détournement des forces françaises loin de la frontière allemande. Sous Ferry sont notamment établis le protectorat sur la Tunisie et la domination sur le Tonkin."
+  },
+  {
+   "q": "Qu'est-ce que le régime de l'indigénat ?",
+   "choix": [
+    "Un système d'écoles réservées aux enfants des colons",
+    "Un régime pénal d'exception appliqué aux sujets des colonies",
+    "Un traité de commerce entre la France et ses colonies",
+    "Une assemblée représentative des populations colonisées"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Institué par la loi du 28 juin 1881 en Algérie, puis étendu aux autres colonies entre 1887 et 1912, l'indigénat permet aux administrateurs de sanctionner sans procès une longue liste d'infractions spécifiques aux populations colonisées, comme circuler sans autorisation ou refuser de répondre à l'autorité. Les peines vont de l'amende collective à l'internement administratif et au séquestre des biens. Ce régime s'accompagne d'impôts spécifiques, de prestations en travail assimilables à la corvée et de recours au travail forcé. Il consacre la distinction entre citoyens français et simples sujets, et n'est aboli qu'en 1944 et 1946, la loi Lamine Guèye de mai 1946 étendant la citoyenneté aux ressortissants d'outre-mer."
+  },
+  {
+   "q": "Que désigne l'expression « année de l'Afrique » appliquée à 1960 ?",
+   "choix": [
+    "L'année de la conférence de Berlin sur le partage du continent",
+    "L'année de la création de l'Afrique occidentale française",
+    "L'année où la plupart des territoires africains français accèdent à l'indépendance",
+    "L'année de l'exposition coloniale de Paris"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "En 1960, la quasi-totalité des territoires français d'Afrique subsaharienne, du Sénégal au Tchad en passant par la Côte d'Ivoire, le Mali ou le Gabon, accèdent à l'indépendance, pour l'essentiel de façon négociée et sans conflit armé. Ce mouvement s'inscrit dans le cadre ouvert par la Communauté proposée en 1958 par le général de Gaulle. Il contraste fortement avec la guerre d'Indochine, achevée en 1954, et surtout avec la guerre d'Algérie, qui ne se termine qu'en 1962. La conférence de Berlin, qui organisait le partage de l'Afrique entre puissances européennes, s'était tenue en 1884 et 1885."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Empire colonial français",
+   "url": "https://fr.wikipedia.org/wiki/Empire_colonial_fran%C3%A7ais"
+  },
+  {
+   "titre": "Code de l'indigénat",
+   "url": "https://fr.wikipedia.org/wiki/Code_de_l%27indig%C3%A9nat"
+  },
+  {
+   "titre": "Guerre d'Algérie",
+   "url": "https://fr.wikipedia.org/wiki/Guerre_d%27Alg%C3%A9rie"
+  }
+ ]
+}

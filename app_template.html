@@ -1,0 +1,854 @@
+<title>Culture G — Le Cahier</title>
+<style>
+:root {
+  --paper: #FAFAF8;
+  --paper-raised: #FFFFFF;
+  --paper-inset: #F1F1EC;
+  --ink: #1C2030;
+  --ink-soft: #565B6E;
+  --ink-faint: #9297A8;
+  --line: #E3E3DC;
+  --bic: #2743C7;
+  --bic-soft: #E8ECFB;
+  --margin-red: #D94F3D;
+  --ok: #1E7A46;
+  --ok-soft: #E3F2E9;
+  --ko: #B23A2E;
+  --ko-soft: #F9E8E5;
+  --gold: #9A7B2D;
+  --shadow: 0 1px 3px rgba(28,32,48,.08), 0 4px 16px rgba(28,32,48,.05);
+  --viz-1: #2743C7;
+  --viz-2: #D94F3D;
+  --viz-piste: #E8EAF2;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #131622;
+    --paper-raised: #1B1F30;
+    --paper-inset: #0E111B;
+    --ink: #E8E9F0;
+    --ink-soft: #A7ACC0;
+    --ink-faint: #6C7288;
+    --line: #2A2F44;
+    --bic: #93A5FF;
+    --bic-soft: #232A4A;
+    --margin-red: #E4705F;
+    --ok: #5DBE8A;
+    --ok-soft: #16301F;
+    --ko: #E08073;
+    --ko-soft: #3A1F1A;
+    --gold: #CBB068;
+    --shadow: 0 1px 3px rgba(0,0,0,.4), 0 4px 16px rgba(0,0,0,.3);
+    --viz-1: #7A8DE8;
+    --viz-2: #CC6152;
+    --viz-piste: #262B3E;
+  }
+}
+:root[data-theme="dark"] {
+  --viz-1: #7A8DE8;
+  --viz-2: #CC6152;
+  --viz-piste: #262B3E;
+  --paper: #131622;
+  --paper-raised: #1B1F30;
+  --paper-inset: #0E111B;
+  --ink: #E8E9F0;
+  --ink-soft: #A7ACC0;
+  --ink-faint: #6C7288;
+  --line: #2A2F44;
+  --bic: #93A5FF;
+  --bic-soft: #232A4A;
+  --margin-red: #E4705F;
+  --ok: #5DBE8A;
+  --ok-soft: #16301F;
+  --ko: #E08073;
+  --ko-soft: #3A1F1A;
+  --gold: #CBB068;
+  --shadow: 0 1px 3px rgba(0,0,0,.4), 0 4px 16px rgba(0,0,0,.3);
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.55;
+  font-size: 16px;
+}
+.serif { font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; }
+.mono { font-family: ui-monospace, "SF Mono", "Cascadia Mono", Consolas, monospace; font-variant-numeric: tabular-nums; }
+
+.wrap { max-width: 880px; margin: 0 auto; padding: 0 20px 96px; }
+
+/* ---- top bar ---- */
+.topbar {
+  display: flex; align-items: baseline; gap: 14px;
+  padding: 20px 0 14px;
+  border-bottom: 2px solid var(--ink);
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+.brand { font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; font-size: 1.35rem; font-weight: 700; letter-spacing: -.01em; cursor: pointer; }
+.brand .rule { color: var(--margin-red); }
+.topbar .tag { font-size: .72rem; text-transform: uppercase; letter-spacing: .12em; color: var(--ink-faint); }
+.topbar nav { margin-left: auto; display: flex; gap: 4px; }
+.navbtn {
+  border: none; background: none; color: var(--ink-soft); cursor: pointer;
+  font: inherit; font-size: .88rem; padding: 6px 12px; border-radius: 6px;
+}
+.navbtn:hover { background: var(--paper-inset); color: var(--ink); }
+.navbtn.active { background: var(--bic-soft); color: var(--bic); font-weight: 600; }
+.navbtn:focus-visible, button:focus-visible { outline: 2px solid var(--bic); outline-offset: 2px; }
+
+h1, h2, h3 { font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; text-wrap: balance; margin: 0; }
+h1 { font-size: 1.9rem; line-height: 1.2; }
+h2 { font-size: 1.35rem; }
+h3 { font-size: 1.08rem; }
+p { margin: 0; }
+
+.eyebrow { font-size: .72rem; text-transform: uppercase; letter-spacing: .14em; color: var(--margin-red); font-weight: 600; }
+.muted { color: var(--ink-soft); }
+.faint { color: var(--ink-faint); }
+.small { font-size: .85rem; }
+
+/* ---- cards : cahier margin rule ---- */
+.card {
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--margin-red);
+  border-radius: 8px;
+  padding: 20px 22px;
+  box-shadow: var(--shadow);
+}
+.card.blue { border-left-color: var(--bic); }
+.card.plain { border-left-color: var(--line); }
+
+/* ---- home ---- */
+.statrow { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 20px 0 28px; }
+.stat { background: var(--paper-raised); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; }
+.stat .num { font-size: 1.7rem; font-weight: 700; line-height: 1.1; }
+.stat .lbl { font-size: .78rem; color: var(--ink-soft); margin-top: 2px; }
+
+.modes { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; margin-bottom: 34px; }
+.modecard { cursor: pointer; text-align: left; font: inherit; color: inherit; transition: transform .12s ease; display: flex; flex-direction: column; gap: 8px; }
+.modecard:hover { transform: translateY(-2px); }
+.modecard h2 { color: var(--bic); }
+.modecard .go { margin-top: auto; font-weight: 600; color: var(--margin-red); font-size: .88rem; }
+
+.catgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; margin-top: 14px; }
+.catcard {
+  background: var(--paper-raised); border: 1px solid var(--line); border-radius: 8px;
+  padding: 14px 16px; cursor: pointer; text-align: left; font: inherit; color: inherit;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.catcard:hover { border-color: var(--bic); }
+.catcard .head { display: flex; align-items: center; gap: 10px; }
+.catcard .emoji { font-size: 1.4rem; }
+.catcard .name { font-weight: 600; }
+.catcard .meta { font-size: .78rem; color: var(--ink-faint); }
+
+.bar { height: 6px; background: var(--paper-inset); border-radius: 3px; overflow: hidden; }
+.bar > i { display: block; height: 100%; background: var(--bic); border-radius: 3px; transition: width .4s ease; }
+.bar.green > i { background: var(--ok); }
+
+/* ---- quiz ---- */
+.quizhead { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 18px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; background: var(--paper-inset); border-radius: 999px; padding: 4px 12px; font-size: .82rem; color: var(--ink-soft); }
+.chip.blue { background: var(--bic-soft); color: var(--bic); font-weight: 600; }
+.diff { color: var(--gold); letter-spacing: .1em; font-size: .8rem; }
+
+.qtext { font-size: 1.25rem; line-height: 1.4; margin: 6px 0 20px; }
+.answers { display: grid; gap: 10px; }
+.ans {
+  display: flex; align-items: center; gap: 12px;
+  background: var(--paper-raised); border: 1.5px solid var(--line); border-radius: 8px;
+  padding: 13px 16px; cursor: pointer; font: inherit; color: inherit; text-align: left;
+  transition: border-color .12s ease, background .12s ease;
+}
+.ans:hover:not(:disabled) { border-color: var(--bic); background: var(--bic-soft); }
+.ans:disabled { cursor: default; }
+.ans .letter {
+  flex: 0 0 26px; height: 26px; border-radius: 50%; border: 1.5px solid var(--ink-faint);
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: .8rem; font-weight: 700; color: var(--ink-soft);
+}
+.ans.good { border-color: var(--ok); background: var(--ok-soft); }
+.ans.good .letter { border-color: var(--ok); background: var(--ok); color: #fff; }
+.ans.bad { border-color: var(--ko); background: var(--ko-soft); }
+.ans.bad .letter { border-color: var(--ko); background: var(--ko); color: #fff; }
+.ans.dim { opacity: .55; }
+
+.verdict { font-weight: 700; margin: 18px 0 10px; font-size: 1.05rem; }
+.verdict.ok { color: var(--ok); }
+.verdict.ko { color: var(--ko); }
+
+.lesson { margin-top: 6px; }
+.lesson .eyebrow { color: var(--bic); }
+.lesson p { margin-top: 8px; max-width: 65ch; }
+
+.btnrow { display: flex; gap: 10px; margin-top: 20px; flex-wrap: wrap; }
+.btn {
+  font: inherit; font-weight: 600; font-size: .95rem;
+  border-radius: 8px; padding: 10px 20px; cursor: pointer;
+  border: 1.5px solid var(--ink); background: var(--ink); color: var(--paper);
+}
+.btn:hover { opacity: .88; }
+.btn.ghost { background: none; color: var(--ink); }
+.btn.ghost:hover { background: var(--paper-inset); opacity: 1; }
+.btn.blue { background: var(--bic); border-color: var(--bic); color: var(--paper); }
+
+/* ---- course ---- */
+.chapters { display: grid; gap: 12px; margin-top: 16px; }
+.chapter { display: flex; flex-direction: column; gap: 10px; cursor: pointer; font: inherit; color: inherit; text-align: left; }
+.chapter .row { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.section { margin-top: 26px; }
+.section h3 { color: var(--bic); margin-bottom: 8px; }
+.section p { max-width: 68ch; margin-top: 8px; white-space: pre-line; }
+.reader-progress { position: sticky; top: 0; z-index: 5; background: var(--paper); padding: 10px 0 8px; }
+
+.backlink { border: none; background: none; color: var(--ink-soft); cursor: pointer; font: inherit; font-size: .88rem; padding: 0; margin-bottom: 16px; display: inline-flex; gap: 6px; }
+.backlink:hover { color: var(--bic); }
+
+.divider { border: none; border-top: 1px solid var(--line); margin: 28px 0; }
+
+/* ---- visuels de leçon ---- */
+.viz {
+  margin: 20px 0 0; padding: 16px 18px;
+  background: var(--paper-inset); border: 1px solid var(--line); border-radius: 8px;
+}
+.viz-titre {
+  font-size: .72rem; text-transform: uppercase; letter-spacing: .12em;
+  color: var(--ink-faint); font-weight: 600; margin-bottom: 14px;
+}
+.viz-note { margin-top: 12px; font-size: .8rem; color: var(--ink-faint); }
+.viz-scroll { overflow-x: auto; }
+
+/* frise chronologique */
+.viz-frise { list-style: none; margin: 0; padding: 0 0 0 4px; }
+.viz-frise li { display: grid; grid-template-columns: 72px 1fr; gap: 14px; position: relative; padding-bottom: 16px; }
+.viz-frise li:last-child { padding-bottom: 0; }
+.viz-frise li::before {
+  content: ''; position: absolute; left: 79px; top: 7px; bottom: -3px;
+  width: 2px; background: var(--line);
+}
+.viz-frise li:last-child::before { display: none; }
+.viz-frise li::after {
+  content: ''; position: absolute; left: 76px; top: 5px;
+  width: 8px; height: 8px; border-radius: 50%; background: var(--viz-1);
+  box-shadow: 0 0 0 2px var(--paper-inset);
+}
+.frise-date { font-size: .82rem; font-weight: 700; color: var(--viz-2); text-align: right; padding-top: 1px; }
+.frise-corps { display: block; padding-left: 14px; }
+.frise-corps b { font-weight: 600; }
+.frise-texte { display: block; font-size: .87rem; color: var(--ink-soft); margin-top: 2px; }
+
+/* tableau */
+.viz-tableau { border-collapse: collapse; width: 100%; font-size: .9rem; }
+.viz-tableau th, .viz-tableau td {
+  text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top;
+}
+.viz-tableau thead th {
+  font-size: .74rem; text-transform: uppercase; letter-spacing: .08em;
+  color: var(--ink-faint); font-weight: 700; border-bottom: 2px solid var(--ink-faint);
+  white-space: nowrap;
+}
+.viz-tableau tbody tr:last-child td { border-bottom: none; }
+.viz-tableau .th-ligne { font-weight: 600; }
+.viz-tableau td { font-variant-numeric: tabular-nums; }
+
+/* chiffres clés */
+.viz-chiffres { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; }
+.chiffre {
+  background: var(--paper-raised); border: 1px solid var(--line);
+  border-radius: 6px; padding: 12px 14px;
+}
+.chiffre-val {
+  display: block; font-size: 1.45rem; font-weight: 700; line-height: 1.15; color: var(--viz-1);
+}
+.chiffre-lbl { display: block; font-size: .78rem; color: var(--ink-soft); margin-top: 3px; }
+
+/* barres horizontales */
+.viz-barres { display: flex; flex-direction: column; gap: 8px; }
+.barre-ligne { display: grid; grid-template-columns: minmax(80px, 22%) 1fr auto; gap: 10px; align-items: center; }
+.barre-label { font-size: .86rem; color: var(--ink-soft); }
+.barre-piste { background: var(--viz-piste); border-radius: 3px; height: 14px; overflow: hidden; }
+.barre-piste > i {
+  display: block; height: 100%; background: var(--viz-1);
+  border-radius: 0 4px 4px 0; transition: width .5s ease;
+}
+.barre-ligne.focus .barre-piste > i { background: var(--viz-2); }
+.barre-ligne.focus .barre-label { color: var(--ink); font-weight: 600; }
+.barre-val { font-size: .82rem; color: var(--ink-soft); white-space: nowrap; }
+.barre-ligne.focus .barre-val { color: var(--viz-2); font-weight: 700; }
+
+/* étapes d'un processus */
+.viz-etapes { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.viz-etapes li { display: grid; grid-template-columns: 26px 1fr; gap: 12px; align-items: start; }
+.etape-num {
+  width: 26px; height: 26px; border-radius: 50%; background: var(--viz-1); color: var(--paper);
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: .8rem; font-weight: 700;
+}
+.etape-corps b { font-weight: 600; display: block; }
+.etape-corps span { display: block; font-size: .87rem; color: var(--ink-soft); margin-top: 2px; }
+
+/* comparaison en colonnes */
+.viz-comparaison { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; }
+.comp-col { background: var(--paper-raised); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; }
+.comp-col:first-child { border-top: 3px solid var(--viz-1); }
+.comp-col:last-child { border-top: 3px solid var(--viz-2); }
+.comp-titre { font-weight: 700; margin-bottom: 8px; font-family: "Iowan Old Style", Palatino, Georgia, serif; }
+.comp-col ul { margin: 0; padding-left: 18px; font-size: .88rem; color: var(--ink-soft); }
+.comp-col li { margin-top: 5px; }
+
+@media (max-width: 520px) {
+  .viz-frise li { grid-template-columns: 58px 1fr; }
+  .viz-frise li::before { left: 65px; }
+  .viz-frise li::after { left: 62px; }
+  .barre-ligne { grid-template-columns: 1fr; gap: 3px; }
+  .barre-val { text-align: right; }
+}
+
+/* image embarquée */
+.viz-image { margin: 0; }
+.viz-image img {
+  display: block; width: 100%; height: auto; border-radius: 6px;
+  border: 1px solid var(--line); background: #fff;
+}
+.viz-legende { margin-top: 8px; font-size: .87rem; color: var(--ink-soft); }
+.viz-credit { margin-top: 5px; font-size: .74rem; color: var(--ink-faint); }
+.viz-credit a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.viz-credit a:hover { color: var(--bic); }
+
+.sources { margin: 8px 0 0; padding-left: 20px; color: var(--ink-soft); font-size: .88rem; }
+.sources li { margin-top: 4px; }
+.sources a { color: var(--bic); text-decoration: none; border-bottom: 1px solid transparent; }
+.sources a:hover { border-bottom-color: var(--bic); }
+
+kbd {
+  font-family: ui-monospace, "SF Mono", Consolas, monospace; font-size: .82em;
+  background: var(--paper-inset); border: 1px solid var(--line); border-bottom-width: 2px;
+  border-radius: 4px; padding: 1px 5px; color: var(--ink-soft);
+}
+
+.footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); font-size: .8rem; color: var(--ink-faint); max-width: 70ch; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+@media (max-width: 560px) {
+  .topbar nav { width: 100%; margin-left: 0; }
+  h1 { font-size: 1.5rem; }
+}
+</style>
+
+<div class="wrap">
+  <header class="topbar">
+    <span class="brand" onclick="go('home')">Le Cahier <span class="rule">de culture G</span></span>
+    <span class="tag">réviser · apprendre · retenir</span>
+    <nav>
+      <button class="navbtn" data-nav="home" onclick="go('home')">Accueil</button>
+      <button class="navbtn" data-nav="quiz" onclick="go('quiz')">Quiz</button>
+      <button class="navbtn" data-nav="cours" onclick="go('cours')">Cours</button>
+      <button class="navbtn" data-nav="stats" onclick="go('stats')">Progression</button>
+    </nav>
+  </header>
+  <main id="view"></main>
+  <footer class="footer">
+    Contenu rédigé à partir de connaissances encyclopédiques établies (niveau Wikipédia / manuels scolaires).
+    Ta progression est enregistrée sur cet appareil. En cas de doute sur un fait, vérifie la source primaire.
+  </footer>
+</div>
+
+<script>
+const DATA = /*__DATA__*/[];
+
+/* ---------- state ---------- */
+const KEY = 'cahier-cg-v1';
+let S = { answers: {}, read: {}, cquiz: {} };
+try { const raw = localStorage.getItem(KEY); if (raw) S = Object.assign(S, JSON.parse(raw)); } catch (e) {}
+function save() { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} }
+
+/* ids */
+DATA.forEach(cat => {
+  cat.questions.forEach((q, i) => q.id = cat.id + ':q' + i);
+  (cat.cours || []).forEach((c, ci) => {
+    c.key = cat.id + ':c' + ci;
+    c.quiz.forEach((q, qi) => q.id = c.key + ':q' + qi);
+  });
+});
+
+const TOTAL_Q = DATA.reduce((n, c) => n + c.questions.length + c.cours.reduce((m, x) => m + x.quiz.length, 0), 0);
+
+function esc(s) { return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
+function shuffle(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+function stars(d) { return '●'.repeat(d) + '○'.repeat(3 - d); }
+
+/* mastery: a question is "acquise" once answered correctly */
+function catProgress(cat) {
+  let done = 0, total = 0;
+  cat.questions.forEach(q => { total++; if (S.answers[q.id] && S.answers[q.id].ok) done++; });
+  cat.cours.forEach(c => {
+    c.sections.forEach((s, i) => { total++; if ((S.read[c.key] || []).includes(i)) done++; });
+    c.quiz.forEach(q => { total++; if (S.answers[q.id] && S.answers[q.id].ok) done++; });
+  });
+  return { done, total, pct: total ? Math.round(100 * done / total) : 0 };
+}
+function globalStats() {
+  let seen = 0, ok = 0, mastered = 0;
+  Object.values(S.answers).forEach(a => { seen += a.tries; ok += a.good; if (a.ok) mastered++; });
+  const read = Object.values(S.read).reduce((n, arr) => n + arr.length, 0);
+  return { seen, ok, mastered, read, acc: seen ? Math.round(100 * ok / seen) : 0 };
+}
+
+/* ---------- router ---------- */
+const view = document.getElementById('view');
+let quizSession = null;
+function go(screen, arg, arg2) {
+  document.querySelectorAll('.navbtn').forEach(b => b.classList.toggle('active', b.dataset.nav === screen));
+  window.scrollTo(0, 0);
+  if (screen === 'home') renderHome();
+  else if (screen === 'quiz') renderQuizPicker();
+  else if (screen === 'quizrun') renderQuestion();
+  else if (screen === 'cours') renderCoursHome(arg);
+  else if (screen === 'chapitre') renderChapter(arg, arg2);
+  else if (screen === 'fiche') renderFiche(arg);
+  else if (screen === 'stats') renderStats();
+}
+
+/* questions déjà ratées au moins une fois et pas encore acquises */
+function missedPool() {
+  const out = [];
+  DATA.forEach(cat => {
+    const all = cat.questions.concat(cat.cours.flatMap(c => c.quiz));
+    all.forEach(q => {
+      const r = S.answers[q.id];
+      if (r && !r.ok) out.push({ q, cat });
+    });
+  });
+  return out;
+}
+function startRevision() {
+  const pool = shuffle(missedPool());
+  if (!pool.length) return;
+  document.querySelectorAll('.navbtn').forEach(b => b.classList.remove('active'));
+  quizSession = { pool, idx: 0, good: 0, total: 0, catId: null, revision: true };
+  renderQuestion();
+}
+
+/* ---------- home ---------- */
+function renderHome() {
+  const g = globalStats();
+  const missed = missedPool();
+  const totalDone = DATA.reduce((n, c) => n + catProgress(c).done, 0);
+  const totalAll = DATA.reduce((n, c) => n + catProgress(c).total, 0);
+  view.innerHTML = `
+    <p class="eyebrow">Ton carnet de révision</p>
+    <h1>Toute la culture générale, un cahier à la fois.</h1>
+    <div class="statrow">
+      <div class="stat"><div class="num mono">${TOTAL_Q}</div><div class="lbl">questions au programme</div></div>
+      <div class="stat"><div class="num mono">${g.mastered}</div><div class="lbl">questions acquises</div></div>
+      <div class="stat"><div class="num mono">${g.acc}%</div><div class="lbl">taux de bonnes réponses</div></div>
+      <div class="stat"><div class="num mono">${totalAll ? Math.round(100 * totalDone / totalAll) : 0}%</div><div class="lbl">du programme couvert</div></div>
+    </div>
+    <div class="modes">
+      <button class="card blue modecard" onclick="go('quiz')">
+        <p class="eyebrow" style="color:var(--bic)">Mode quiz</p>
+        <h2>Interro surprise</h2>
+        <p class="muted small">Une question, quatre réponses — et après chaque réponse, un mini-cours pour vraiment retenir.</p>
+        <span class="go">Commencer →</span>
+      </button>
+      <button class="card modecard" onclick="go('cours')">
+        <p class="eyebrow">Mode cours</p>
+        <h2>Les leçons</h2>
+        <p class="muted small">Des chapitres rédigés comme un manuel, ta progression en %, et un mini-quiz à la fin de chaque leçon.</p>
+        <span class="go">Ouvrir le manuel →</span>
+      </button>
+      ${missed.length
+        ? `<button class="card modecard" style="border-left-color:var(--gold)" onclick="startRevision()">
+             <p class="eyebrow" style="color:var(--gold)">Révision</p>
+             <h2>Mes erreurs</h2>
+             <p class="muted small">${missed.length} question${missed.length > 1 ? 's' : ''} que tu n'as pas encore réussie${missed.length > 1 ? 's' : ''}. C'est là que tu progresses le plus vite.</p>
+             <span class="go" style="color:var(--gold)">Repasser dessus →</span>
+           </button>`
+        : `<button class="card plain modecard" onclick="go('stats')">
+             <p class="eyebrow" style="color:var(--ink-faint)">Progression</p>
+             <h2>Le bulletin</h2>
+             <p class="muted small">Ce que tu as acquis, catégorie par catégorie.</p>
+             <span class="go" style="color:var(--ink-soft)">Voir mes notes →</span>
+           </button>`}
+    </div>
+    <h2 class="serif">Les matières</h2>
+    <div class="catgrid">${DATA.map(cat => {
+      const p = catProgress(cat);
+      return `<button class="catcard" onclick="startQuiz('${cat.id}')">
+        <span class="head"><span class="emoji">${cat.emoji}</span><span class="name">${esc(cat.nom)}</span></span>
+        <span class="meta">${cat.questions.length} questions · ${cat.cours.length} leçons · ${p.pct}% acquis</span>
+        <span class="bar"><i style="width:${p.pct}%"></i></span>
+      </button>`;
+    }).join('')}</div>`;
+}
+
+/* ---------- quiz ---------- */
+function renderQuizPicker() {
+  view.innerHTML = `
+    <p class="eyebrow">Mode quiz</p>
+    <h1>Choisis ta matière</h1>
+    <p class="muted" style="margin-top:8px;max-width:60ch">Les questions déjà réussies repassent moins souvent. Chaque réponse est suivie d'un mini-cours.</p>
+    <div class="catgrid" style="margin-top:22px">
+      <button class="catcard" style="border-color:var(--bic)" onclick="startQuiz(null)">
+        <span class="head"><span class="emoji">🎲</span><span class="name" style="color:var(--bic)">Tout mélanger</span></span>
+        <span class="meta">toutes les matières confondues</span>
+      </button>
+      ${DATA.map(cat => {
+        const p = catProgress(cat);
+        return `<button class="catcard" onclick="startQuiz('${cat.id}')">
+          <span class="head"><span class="emoji">${cat.emoji}</span><span class="name">${esc(cat.nom)}</span></span>
+          <span class="meta">${cat.questions.length} questions · ${p.pct}% acquis</span>
+          <span class="bar"><i style="width:${p.pct}%"></i></span>
+        </button>`;
+      }).join('')}
+    </div>`;
+}
+
+function startQuiz(catId) {
+  document.querySelectorAll('.navbtn').forEach(b => b.classList.toggle('active', b.dataset.nav === 'quiz'));
+  let pool = [];
+  DATA.forEach(cat => {
+    if (catId && cat.id !== catId) return;
+    cat.questions.forEach(q => pool.push({ q, cat }));
+  });
+  const fresh = pool.filter(x => !(S.answers[x.q.id] && S.answers[x.q.id].ok));
+  const done = pool.filter(x => S.answers[x.q.id] && S.answers[x.q.id].ok);
+  pool = shuffle(fresh).concat(shuffle(done));
+  quizSession = { pool, idx: 0, good: 0, total: 0, catId };
+  renderQuestion();
+}
+
+function renderQuestion() {
+  const qs = quizSession;
+  if (!qs || qs.idx >= qs.pool.length) return renderQuizEnd();
+  const { q, cat } = qs.pool[qs.idx];
+  const order = shuffle([0, 1, 2, 3]);
+  qs.order = order;
+  window.scrollTo(0, 0);
+  view.innerHTML = `
+    <div class="quizhead">
+      ${qs.revision ? `<span class="chip" style="background:var(--gold);color:var(--paper);font-weight:600">Révision de mes erreurs</span>` : ''}
+      <span class="chip blue">${cat.emoji} ${esc(cat.nom)}</span>
+      <span class="chip diff" title="difficulté">${stars(q.difficulte || 1)}</span>
+      <span class="chip mono">${qs.idx + 1} / ${qs.pool.length}</span>
+      <span class="chip mono" style="color:var(--ok)">✓ ${qs.good} / ${qs.total}</span>
+    </div>
+    <div class="card blue">
+      <p class="qtext serif">${esc(q.q)}</p>
+      <div class="answers">${order.map((oi, pos) => `
+        <button class="ans" data-oi="${oi}" onclick="answer(${oi})">
+          <span class="letter">${pos + 1}</span><span>${esc(q.choix[oi])}</span>
+        </button>`).join('')}
+      </div>
+      <p class="small faint" style="margin-top:12px">Astuce : touches <kbd>1</kbd>–<kbd>4</kbd> pour répondre, <kbd>Entrée</kbd> pour la question suivante.</p>
+      <div id="feedback"></div>
+    </div>
+    <div class="btnrow">
+      <button class="btn ghost" onclick="skipQ()">Passer</button>
+      <button class="btn ghost" onclick="go('quiz')">Changer de matière</button>
+    </div>`;
+}
+
+function answer(oi) {
+  const qs = quizSession;
+  const { q } = qs.pool[qs.idx];
+  const good = oi === q.bonne;
+  qs.total++; if (good) qs.good++;
+  const rec = S.answers[q.id] || { tries: 0, good: 0, ok: false };
+  rec.tries++; if (good) { rec.good++; rec.ok = true; }
+  S.answers[q.id] = rec; save();
+  document.querySelectorAll('.ans').forEach(b => {
+    b.disabled = true;
+    const boi = +b.dataset.oi;
+    if (boi === q.bonne) b.classList.add('good');
+    else if (boi === oi) b.classList.add('bad');
+    else b.classList.add('dim');
+  });
+  document.getElementById('feedback').innerHTML = `
+    <p class="verdict ${good ? 'ok' : 'ko'}">${good ? 'Bonne réponse !' : 'Raté — la bonne réponse était « ' + esc(q.choix[q.bonne]) + ' ».'}</p>
+    <div class="lesson">
+      <p class="eyebrow">Le mini-cours</p>
+      <p>${esc(q.explication)}</p>
+    </div>
+    <div class="btnrow">
+      <button class="btn blue" id="nextbtn" onclick="nextQ()">Question suivante →</button>
+    </div>`;
+  document.getElementById('nextbtn').focus();
+}
+function nextQ() { quizSession.idx++; renderQuestion(); }
+function skipQ() { quizSession.idx++; renderQuestion(); }
+
+function renderQuizEnd() {
+  const qs = quizSession;
+  const pct = qs.total ? Math.round(100 * qs.good / qs.total) : 0;
+  const mention = pct >= 90 ? 'Excellent — mention très bien !' : pct >= 70 ? 'Très bon travail, mention bien.' : pct >= 50 ? 'C\'est acquis, mais il y a de la marge.' : 'Le cours mérite une relecture — direction le mode Cours ?';
+  view.innerHTML = `
+    <p class="eyebrow">Fin de l'interro</p>
+    <h1>${qs.good} bonnes réponses sur ${qs.total}</h1>
+    <div class="statrow">
+      <div class="stat"><div class="num mono">${pct}%</div><div class="lbl">de réussite sur cette session</div></div>
+    </div>
+    <p class="muted" style="max-width:60ch">${mention}</p>
+    <div class="btnrow">
+      <button class="btn blue" onclick="startQuiz(quizSession.catId)">Rejouer</button>
+      <button class="btn ghost" onclick="go('quiz')">Autre matière</button>
+      <button class="btn ghost" onclick="go('cours')">Aller aux cours</button>
+    </div>`;
+}
+
+/* ---------- visuels de leçon : frise, tableau, chiffres, barres, étapes, comparaison ---------- */
+function renderVisuel(v) {
+  if (!v || typeof v !== 'object' || !v.type) return '';
+  const titre = v.titre ? `<p class="viz-titre">${esc(v.titre)}</p>` : '';
+  const note = v.note ? `<p class="viz-note">${esc(v.note)}</p>` : '';
+  let corps = '';
+
+  if (v.type === 'frise' && Array.isArray(v.evenements)) {
+    corps = `<ol class="viz-frise">${v.evenements.map(e => `
+      <li><span class="frise-date mono">${esc(e.date)}</span>
+        <span class="frise-corps"><b>${esc(e.label)}</b>${
+          e.texte ? `<span class="frise-texte">${esc(e.texte)}</span>` : ''}</span></li>`).join('')}</ol>`;
+
+  } else if (v.type === 'tableau' && Array.isArray(v.colonnes) && Array.isArray(v.lignes)) {
+    corps = `<div class="viz-scroll"><table class="viz-tableau">
+      <thead><tr>${v.colonnes.map(c => `<th>${esc(c)}</th>`).join('')}</tr></thead>
+      <tbody>${v.lignes.map(l => `<tr>${l.map((c, i) =>
+        `<td${i === 0 ? ' class="th-ligne"' : ''}>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody>
+    </table></div>`;
+
+  } else if (v.type === 'chiffres' && Array.isArray(v.items)) {
+    corps = `<div class="viz-chiffres">${v.items.map(i => `
+      <div class="chiffre"><span class="chiffre-val mono">${esc(i.valeur)}</span>
+        <span class="chiffre-lbl">${esc(i.label)}</span></div>`).join('')}</div>`;
+
+  } else if (v.type === 'barres' && Array.isArray(v.donnees) && v.donnees.length) {
+    const vals = v.donnees.map(d => Math.abs(Number(d.valeur) || 0));
+    const max = Math.max.apply(null, vals) || 1;
+    corps = `<div class="viz-barres">${v.donnees.map((d, i) => {
+      const pct = Math.max(2, 100 * (vals[i] / max));
+      const aff = d.affichage != null ? d.affichage
+                : (Number(d.valeur) || 0).toLocaleString('fr-FR') + (v.unite ? ' ' + v.unite : '');
+      return `<div class="barre-ligne${d.focus ? ' focus' : ''}">
+        <span class="barre-label">${esc(d.label)}</span>
+        <span class="barre-piste"><i style="width:${pct.toFixed(1)}%"></i></span>
+        <span class="barre-val mono">${esc(aff)}</span></div>`;
+    }).join('')}</div>`;
+
+  } else if (v.type === 'etapes' && Array.isArray(v.etapes)) {
+    corps = `<ol class="viz-etapes">${v.etapes.map((e, i) => `
+      <li><span class="etape-num mono">${i + 1}</span>
+        <span class="etape-corps"><b>${esc(e.label)}</b>${
+          e.texte ? `<span>${esc(e.texte)}</span>` : ''}</span></li>`).join('')}</ol>`;
+
+  } else if (v.type === 'comparaison' && Array.isArray(v.colonnes)) {
+    corps = `<div class="viz-comparaison">${v.colonnes.map(c => `
+      <div class="comp-col"><p class="comp-titre">${esc(c.titre)}</p>
+        <ul>${(c.points || []).map(pt => `<li>${esc(pt)}</li>`).join('')}</ul></div>`).join('')}</div>`;
+
+  } else if (v.type === 'image' && v.data) {
+    const credit = [v.auteur, v.licence].filter(Boolean).map(esc).join(' · ');
+    corps = `<div class="viz-image">
+        <img src="${esc(v.data)}" alt="${esc(v.alt || v.legende || v.titre || 'illustration')}"
+             ${v.largeur ? `width="${v.largeur}" height="${v.hauteur}"` : ''} loading="lazy">
+      </div>
+      ${v.legende ? `<figcaption class="viz-legende">${esc(v.legende)}</figcaption>` : ''}
+      ${credit ? `<p class="viz-credit">${credit}${v.source
+          ? ` — <a href="${esc(v.source)}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>` : ''}</p>` : ''}`;
+
+  } else {
+    return '';
+  }
+  return `<figure class="viz">${titre}${corps}${note}</figure>`;
+}
+
+/* une section peut porter un visuel (`visuel`) ou plusieurs (`visuels`) */
+function renderVisuels(source) {
+  const liste = Array.isArray(source.visuels) ? source.visuels
+              : (source.visuel ? [source.visuel] : []);
+  return liste.map(renderVisuel).join('');
+}
+
+/* ---------- cours ---------- */
+function renderCoursHome(catId) {
+  if (!catId) {
+    view.innerHTML = `
+      <p class="eyebrow">Mode cours</p>
+      <h1>Le manuel</h1>
+      <p class="muted" style="margin-top:8px;max-width:60ch">Chaque matière contient des leçons rédigées, avec un mini-quiz de fin. Ta lecture compte dans ta progression.</p>
+      <div class="catgrid" style="margin-top:22px">${DATA.map(cat => {
+        const p = catProgress(cat);
+        return `<button class="catcard" onclick="go('cours','${cat.id}')">
+          <span class="head"><span class="emoji">${cat.emoji}</span><span class="name">${esc(cat.nom)}</span></span>
+          <span class="meta">${cat.cours.length} leçons · ${p.pct}% acquis</span>
+          <span class="bar"><i style="width:${p.pct}%"></i></span>
+        </button>`;
+      }).join('')}</div>`;
+    return;
+  }
+  const cat = DATA.find(c => c.id === catId);
+  view.innerHTML = `
+    <button class="backlink" onclick="go('cours')">← Toutes les matières</button>
+    <p class="eyebrow">${cat.emoji} ${esc(cat.nom)}</p>
+    <h1>Les leçons</h1>
+    <div class="chapters" style="margin-top:20px">${cat.cours.map((c, ci) => {
+      const read = (S.read[c.key] || []).length;
+      const quizOk = c.quiz.filter(q => S.answers[q.id] && S.answers[q.id].ok).length;
+      const pct = Math.round(100 * (read + quizOk) / (c.sections.length + c.quiz.length));
+      return `<button class="card plain chapter" onclick="go('chapitre','${cat.id}',${ci})">
+        <span class="row"><h3><span class="faint mono" style="font-size:.8em">${String(ci + 1).padStart(2, '0')}</span> ${esc(c.titre)}</h3><span class="faint small mono">${pct}%</span></span>
+        <span class="faint small">${c.sections.length} sections · quiz de ${c.quiz.length} questions${quizOk === c.quiz.length && c.quiz.length ? ' · ✓ quiz réussi' : ''}</span>
+        <span class="bar ${pct === 100 ? 'green' : ''}"><i style="width:${pct}%"></i></span>
+      </button>`;
+    }).join('')}
+    <button class="card blue chapter" onclick="go('fiche','${cat.id}')">
+      <span class="row"><h3>La fiche de révision</h3></span>
+      <span class="faint small">Les ${cat.questions.length + cat.cours.reduce((n, c) => n + c.quiz.length, 0)} questions de la matière relues comme un cours, réponses et explications comprises.</span>
+    </button></div>`;
+}
+
+/* la fiche : toutes les questions de la matière relues comme un cours */
+function renderFiche(catId) {
+  const cat = DATA.find(c => c.id === catId);
+  const all = cat.questions.concat(cat.cours.flatMap(c => c.quiz));
+  const byDiff = [1, 2, 3].map(d => ({ d, qs: all.filter(q => (q.difficulte || 1) === d) }));
+  const LABEL = { 1: 'Les fondamentaux', 2: 'Pour aller plus loin', 3: 'Les questions pointues' };
+  view.innerHTML = `
+    <button class="backlink" onclick="go('cours','${cat.id}')">← ${esc(cat.nom)}</button>
+    <p class="eyebrow">${cat.emoji} ${esc(cat.nom)}</p>
+    <h1>La fiche de révision</h1>
+    <p class="muted" style="margin-top:8px;max-width:62ch">Les ${all.length} questions de la matière, avec leur réponse et le mini-cours qui va avec — à lire d'une traite, sans être interrogé.</p>
+    ${byDiff.filter(g => g.qs.length).map(g => `
+      <section class="section">
+        <h2 style="border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:4px">
+          ${LABEL[g.d]} <span class="diff" style="font-size:.7em">${stars(g.d)}</span>
+          <span class="faint small mono" style="float:right">${g.qs.length}</span>
+        </h2>
+        ${g.qs.map(q => {
+          const r = S.answers[q.id];
+          const badge = r && r.ok ? `<span class="chip" style="background:var(--ok-soft);color:var(--ok);font-weight:600">✓ acquise</span>`
+                      : r ? `<span class="chip" style="background:var(--ko-soft);color:var(--ko);font-weight:600">à revoir</span>` : '';
+          return `<article class="card plain" style="margin-top:14px">
+            <p class="serif" style="font-size:1.05rem;font-weight:600">${esc(q.q)}</p>
+            <p style="margin-top:8px;color:var(--ok);font-weight:600">→ ${esc(q.choix[q.bonne])} ${badge}</p>
+            <p class="muted" style="margin-top:8px;max-width:66ch">${esc(q.explication)}</p>
+          </article>`;
+        }).join('')}
+      </section>`).join('')}
+    <div class="btnrow" style="margin-top:28px">
+      <button class="btn blue" onclick="startQuiz('${cat.id}')">Me tester sur cette matière →</button>
+      <button class="btn ghost" onclick="go('cours','${cat.id}')">Retour aux leçons</button>
+    </div>`;
+}
+
+function renderChapter(catId, ci) {
+  const cat = DATA.find(c => c.id === catId);
+  const c = cat.cours[ci];
+  const read = S.read[c.key] || [];
+  const pct = Math.round(100 * (read.length + c.quiz.filter(q => S.answers[q.id] && S.answers[q.id].ok).length) / (c.sections.length + c.quiz.length));
+  view.innerHTML = `
+    <button class="backlink" onclick="go('cours','${cat.id}')">← ${esc(cat.nom)}</button>
+    <div class="reader-progress"><div class="bar ${pct === 100 ? 'green' : ''}"><i style="width:${pct}%"></i></div></div>
+    <p class="eyebrow" style="margin-top:14px">Leçon ${ci + 1} sur ${cat.cours.length} · ${cat.emoji} ${esc(cat.nom)}</p>
+    <h1>${esc(c.titre)}</h1>
+    ${c.sections.map((s, i) => `
+      <section class="section">
+        <h3>${i + 1}. ${esc(s.titre)}</h3>
+        <p>${esc(s.texte)}</p>
+        ${renderVisuels(s)}
+        ${read.includes(i)
+          ? `<p class="small" style="color:var(--ok);margin-top:10px;font-weight:600">✓ Section lue</p>`
+          : `<div class="btnrow" style="margin-top:12px"><button class="btn ghost" onclick="markRead('${cat.id}',${ci},${i})">J'ai lu cette section ✓</button></div>`}
+      </section>`).join('')}
+    ${Array.isArray(c.sources) && c.sources.length ? `
+      <section class="section">
+        <p class="eyebrow" style="color:var(--ink-faint)">Sources consultées</p>
+        <ul class="sources">${c.sources.map(s => {
+          const url = typeof s === 'string' ? s : s.url;
+          const titre = typeof s === 'string' ? s.replace(/^https?:\/\/[^/]+\/wiki\//, '').replace(/_/g, ' ') : s.titre;
+          let libelle = titre; try { libelle = decodeURIComponent(titre); } catch (e) {}
+          return `<li><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(libelle)}</a></li>`;
+        }).join('')}</ul>
+      </section>` : ''}
+    <hr class="divider">
+    <div class="card blue">
+      <p class="eyebrow" style="color:var(--bic)">Mini-quiz de fin de leçon</p>
+      <h2 style="margin:6px 0 10px">Qu'as-tu retenu ?</h2>
+      <p class="muted small">${c.quiz.length} questions sur cette leçon. Réussis-les toutes pour valider le chapitre à 100 %.</p>
+      <div class="btnrow"><button class="btn blue" onclick="startChapterQuiz('${cat.id}',${ci})">Lancer le mini-quiz →</button></div>
+    </div>`;
+}
+
+function markRead(catId, ci, si) {
+  const cat = DATA.find(c => c.id === catId);
+  const c = cat.cours[ci];
+  const arr = S.read[c.key] || [];
+  if (!arr.includes(si)) arr.push(si);
+  S.read[c.key] = arr; save();
+  const y = window.scrollY;
+  renderChapter(catId, ci);
+  window.scrollTo(0, y);
+}
+
+function startChapterQuiz(catId, ci) {
+  const cat = DATA.find(c => c.id === catId);
+  const c = cat.cours[ci];
+  quizSession = { pool: shuffle(c.quiz.map(q => ({ q, cat }))), idx: 0, good: 0, total: 0, catId };
+  renderQuestion();
+}
+
+/* ---------- stats ---------- */
+function renderStats() {
+  const g = globalStats();
+  view.innerHTML = `
+    <p class="eyebrow">Progression</p>
+    <h1>Le bulletin</h1>
+    <div class="statrow">
+      <div class="stat"><div class="num mono">${g.mastered}</div><div class="lbl">questions acquises sur ${TOTAL_Q}</div></div>
+      <div class="stat"><div class="num mono">${g.seen}</div><div class="lbl">réponses données au total</div></div>
+      <div class="stat"><div class="num mono">${g.acc}%</div><div class="lbl">taux de bonnes réponses</div></div>
+      <div class="stat"><div class="num mono">${g.read}</div><div class="lbl">sections de cours lues</div></div>
+    </div>
+    <div class="chapters">${DATA.map(cat => {
+      const p = catProgress(cat);
+      return `<div class="card plain chapter" style="cursor:default">
+        <span class="row"><h3>${cat.emoji} ${esc(cat.nom)}</h3><span class="mono small ${p.pct === 100 ? '' : 'faint'}" style="${p.pct === 100 ? 'color:var(--ok)' : ''}">${p.pct}%</span></span>
+        <span class="faint small">${p.done} éléments acquis sur ${p.total} (questions réussies + sections lues + mini-quiz)</span>
+        <span class="bar ${p.pct === 100 ? 'green' : ''}"><i style="width:${p.pct}%"></i></span>
+      </div>`;
+    }).join('')}</div>
+    <div class="btnrow" style="margin-top:24px">
+      ${missedPool().length ? `<button class="btn blue" onclick="startRevision()">Réviser mes ${missedPool().length} erreurs →</button>` : ''}
+      <button class="btn ghost" onclick="if(confirm('Effacer toute ta progression ?')){S={answers:{},read:{},cquiz:{}};save();renderStats();}">Réinitialiser ma progression</button>
+    </div>`;
+}
+
+/* ---------- clavier : 1-4 pour répondre, Entrée / Espace pour enchaîner ---------- */
+if (typeof document.addEventListener === 'function') {
+  document.addEventListener('keydown', e => {
+    if (e.ctrlKey || e.metaKey || e.altKey) return;
+    const tag = (e.target && e.target.tagName) || '';
+    if (tag === 'INPUT' || tag === 'TEXTAREA') return;
+    const next = document.getElementById('nextbtn');
+    if (next) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); nextQ(); }
+      return;
+    }
+    const answered = document.querySelector('.ans:disabled');
+    if (answered) return;
+    const n = '1234'.indexOf(e.key);
+    if (n >= 0) {
+      const btns = document.querySelectorAll('.ans');
+      if (btns[n]) { e.preventDefault(); answer(+btns[n].dataset.oi); }
+    }
+  });
+}
+
+go('home');
+</script>

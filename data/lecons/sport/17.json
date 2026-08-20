@@ -1,0 +1,202 @@
+{
+ "titre": "Les sports anglo-saxons : baseball, cricket et football américain",
+ "sections": [
+  {
+   "titre": "Le baseball, du mythe fondateur au sport national",
+   "texte": "Le baseball s'est longtemps raconté une légende : celle d'un sport inventé de toutes pièces en 1839 par Abner Doubleday, à Cooperstown, dans l'État de New York. Cette version, forgée au début du XXe siècle pour donner au jeu une origine purement américaine, a été officiellement démentie. Les historiens font aujourd'hui remonter le baseball à des jeux de balle anglais, en particulier le rounders, dont la première mention figure dans un ouvrage de John Newbery en 1744. Le mot baseball apparaît aux États-Unis dans les années mille huit cent vingt, la première mention dans la presse datant du 25 avril 1823 à New York. La véritable codification est l'œuvre d'Alexander Cartwright, dont les règles dites des Knickerbockers sont adoptées le 23 septembre 1845 ; le Congrès des États-Unis lui a d'ailleurs reconnu ce mérite en 1953. Le premier match organisé selon ces règles est traditionnellement daté du 19 juin 1846, à Hoboken, dans le New Jersey. Le professionnalisme arrive vite : les Red Stockings de Cincinnati deviennent la première équipe professionnelle en 1869, la Ligue nationale est fondée en 1876, la Ligue américaine accède au rang de ligue majeure en 1901, et la première Série mondiale, qui les oppose, se joue en 1903. Le jeu s'exporte tôt hors des États-Unis, à Cuba dès 1864, au Japon en 1872 et au Mexique en 1877, régions où il reste très populaire."
+  },
+  {
+   "titre": "Comment se joue une partie de baseball",
+   "texte": "Le baseball oppose deux équipes de neuf joueurs qui alternent les rôles d'attaque et de défense. La partie se déroule en neuf manches, et une manche s'achève lorsque les deux équipes sont passées une fois en attaque et une fois en défense. L'équipe en défense occupe le terrain, avec un lanceur placé au centre du losange formé par les bases ; celle en attaque envoie ses joueurs frapper à tour de rôle. Le duel central du baseball oppose le lanceur au frappeur : le premier cherche à faire passer la balle dans une zone imaginaire au-dessus du marbre sans que le frappeur la touche, et trois prises entraînent l'élimination de celui-ci. Si le frappeur parvient au contraire à envoyer la balle dans le terrain, il court vers la première base et tente de progresser de base en base. Un point est marqué lorsqu'un joueur boucle le circuit complet des quatre bases et revient à son point de départ. Le coup le plus spectaculaire est le coup de circuit, lorsque la balle est frappée hors des limites du terrain, permettant au frappeur et à tous ses coéquipiers présents sur les bases de rentrer tranquillement. Ce sport de duels successifs, sans horloge, où l'action alterne avec de longs temps d'attente, a produit des figures mythiques comme Babe Ruth et Lou Gehrig. Jackie Robinson y brisa la ségrégation raciale en 1947 en devenant le premier joueur noir des ligues majeures modernes.",
+   "visuels": [
+    {
+     "type": "chiffres",
+     "titre": "Une partie de baseball en chiffres",
+     "items": [
+      {
+       "valeur": "9",
+       "label": "joueurs par équipe, et 9 manches dans une partie"
+      },
+      {
+       "valeur": "3",
+       "label": "prises et le frappeur est éliminé"
+      },
+      {
+       "valeur": "4",
+       "label": "bases à boucler pour marquer un point"
+      },
+      {
+       "valeur": "Aucune",
+       "label": "horloge : le baseball se joue sans limite de temps"
+      }
+     ],
+     "note": "Le coup le plus spectaculaire est le coup de circuit : la balle est frappée hors des limites du terrain et le frappeur, comme ses coéquipiers déjà sur les bases, rentre tranquillement."
+    },
+    {
+     "type": "image",
+     "image": "sp-terrain-baseball",
+     "legende": "Le losange du baseball : le lanceur, sur son monticule, fait face au frappeur posté au marbre, à 18,44 m. Le frappeur qui touche la balle court vers le premier but et tente de boucler le circuit des quatre bases.",
+     "alt": "Schéma d'un terrain de baseball : le marbre, le monticule du lanceur au centre du losange, les premier, deuxième et troisième buts, le champ intérieur en terre battue et le champ extérieur en gazon délimité par les lignes de démarcation."
+    }
+   ]
+  },
+  {
+   "titre": "Le cricket, deuxième sport le plus suivi au monde",
+   "texte": "Le cricket est mal connu en France alors qu'il compte parmi les sports les plus pratiqués et les plus suivis de la planète, grâce à son implantation dans le sous-continent indien, en Australie, en Angleterre, en Afrique du Sud et aux Antilles. Ses origines sont incertaines : il semble être né comme un jeu d'enfants dans le sud-est de l'Angleterre, la plus ancienne mention connue figurant dans une lettre de 1478 rédigée en France, tandis que la première référence anglaise date de 1597, lorsqu'un médecin évoque des parties de creckett jouées vers 1550. Le nom viendrait d'un mot désignant un bâton ou une béquille. Le jeu oppose deux équipes de onze joueurs sur un terrain généralement ovale, au centre duquel se trouve une bande rectangulaire, le pitch, bordée à chaque extrémité par un assemblage de piquets de bois appelé guichet. Deux batteurs de la même équipe sont sur le terrain face à un lanceur adverse, qui cherche à détruire le guichet. Les points, appelés courses, s'obtiennent lorsque les deux batteurs échangent leurs positions après une frappe, ou directement lorsque la balle franchit la limite du terrain : quatre points si elle a touché le sol avant, six si elle la franchit de volée. Le Marylebone Cricket Club a codifié les lois du cricket en 1788, et le Conseil international du cricket réunit aujourd'hui plus de cent nations affiliées."
+  },
+  {
+   "titre": "Les formats du cricket et les Ashes",
+   "texte": "Le cricket possède une particularité unique dans le sport mondial : il se joue selon des formats de durée radicalement différente, qui donnent presque naissance à des sports distincts. Le test-match est la forme la plus prestigieuse et la plus ancienne : une rencontre internationale peut s'y étendre sur cinq journées de jeu, chaque équipe passant deux fois à la batte, et le match peut fort bien s'achever sur un match nul. Le format d'un jour, ou One Day International, limite chaque équipe à cinquante séries de six lancers, appelées overs, ce qui garantit un résultat dans la journée. Le Twenty20, apparu plus récemment, réduit encore la partie à vingt overs par équipe, soit environ trois heures de jeu, un format spectaculaire pensé pour la télévision et le public urbain. La rivalité la plus célèbre du cricket est celle qui oppose l'Angleterre et l'Australie, connue sous le nom des Ashes, c'est-à-dire les cendres. Le nom vient de 1882 : après une défaite anglaise face à l'Australie à Londres, un journal britannique publia une nécrologie satirique du cricket anglais annonçant que ses cendres seraient emportées en Australie. Lors de la tournée anglaise qui suivit, en 1882 et 1883, des Australiennes brûlèrent un objet et en déposèrent les cendres dans une petite urne de terre cuite offerte au capitaine anglais. Cette urne, conservée à Londres, est devenue le trophée symbolique d'une série disputée alternativement dans les deux pays, environ tous les deux ans.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Trois formats, presque trois sports",
+    "colonnes": [
+     "Format",
+     "Durée",
+     "Règle de longueur",
+     "Résultat"
+    ],
+    "lignes": [
+     [
+      "Test-match",
+      "Jusqu'à cinq journées de jeu",
+      "Chaque équipe passe deux fois à la batte",
+      "Le match nul est possible"
+     ],
+     [
+      "One Day International",
+      "Une journée",
+      "Cinquante overs, soit cinquante séries de six lancers par équipe",
+      "Un résultat garanti dans la journée"
+     ],
+     [
+      "Twenty20",
+      "Environ trois heures",
+      "Vingt overs par équipe",
+      "Format spectaculaire pensé pour la télévision et le public urbain"
+     ]
+    ],
+    "note": "Les Ashes, la rivalité entre l'Angleterre et l'Australie, tirent leur nom d'une nécrologie satirique du cricket anglais publiée après la défaite de 1882 : le trophée est une petite urne de terre cuite contenant des cendres."
+   }
+  },
+  {
+   "titre": "Le football américain et le Super Bowl",
+   "texte": "Le football américain descend de deux sports codifiés en Angleterre et introduits en Amérique du Nord dans les années mille huit cent soixante : le football association et le rugby. Un moment décisif se produit en 1874, lorsque des équipes canadiennes de l'université McGill affrontent des étudiants de Harvard et leur font découvrir les règles du rugby. C'est ensuite Walter Camp, entraîneur à Yale, qui transforme radicalement le jeu entre 1880 et 1883 : il réduit les équipes de quinze à onze joueurs, diminue la surface du terrain et introduit la mêlée engagée, le scrimmage, qui donne au football américain son rythme si particulier de phases arrêtées. Le principe fondamental est celui des tentatives : une équipe dispose de quatre essais, les downs, pour gagner au moins dix yards ; si elle y parvient, elle obtient quatre nouvelles tentatives, sinon elle rend le ballon. Le terrain mesure cent vingt yards en comptant les zones d'en-but, et le match se joue en quatre quarts-temps de quinze minutes, pour une durée réelle proche de trois heures et demie compte tenu des arrêts. Un touchdown vaut six points, la transformation au pied un point, la conversion à deux points en vaut deux, un coup de pied placé trois points et un safety deux points. La Ligue nationale de football est fondée en 1920. Sa finale, le Super Bowl, est créée en 1967 : la première édition se dispute le 15 janvier 1967 au Memorial Coliseum de Los Angeles, où les Packers de Green Bay battent les Chiefs de Kansas City trente-cinq à dix. Elle est devenue l'émission la plus regardée de la télévision américaine.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Marquer au football américain",
+    "colonnes": [
+     "Action",
+     "Points"
+    ],
+    "lignes": [
+     [
+      "Touchdown",
+      "6"
+     ],
+     [
+      "Coup de pied placé",
+      "3"
+     ],
+     [
+      "Conversion à deux points",
+      "2"
+     ],
+     [
+      "Safety",
+      "2"
+     ],
+     [
+      "Transformation au pied",
+      "1"
+     ]
+    ],
+    "note": "Le principe du jeu est celui des tentatives : quatre essais, les downs, pour gagner au moins dix yards, faute de quoi le ballon revient à l'adversaire. Le terrain mesure 120 yards en comptant les zones d'en-but et le match se joue en quatre quarts-temps de quinze minutes, pour une durée réelle proche de trois heures et demie."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Que dit l'histoire au sujet de l'invention du baseball par Abner Doubleday en 1839 ?",
+   "choix": [
+    "C'est un fait confirmé par les archives",
+    "C'est un mythe officiellement démenti",
+    "Doubleday n'a jamais existé",
+    "Doubleday a inventé le cricket, pas le baseball"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "L'histoire de l'invention du baseball par Abner Doubleday en 1839 à Cooperstown est une légende forgée au début du XXe siècle pour donner au sport une origine purement américaine ; elle a été officiellement démentie. Les historiens rattachent en réalité le baseball à des jeux de balle anglais, notamment le rounders, mentionné dès 1744 dans un ouvrage de John Newbery. La véritable codification revient à Alexander Cartwright, dont les règles dites des Knickerbockers ont été adoptées le 23 septembre 1845, ce que le Congrès des États-Unis a reconnu en 1953. Le premier match joué selon ces règles est traditionnellement daté du 19 juin 1846, à Hoboken, dans le New Jersey."
+  },
+  {
+   "q": "Combien de joueurs compte une équipe de cricket ?",
+   "choix": [
+    "Neuf",
+    "Dix",
+    "Onze",
+    "Treize"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "Le cricket oppose deux équipes de onze joueurs sur un terrain généralement ovale. Au centre se trouve une bande rectangulaire appelée le pitch, bordée à chaque extrémité par un guichet, assemblage de piquets de bois que le lanceur cherche à faire tomber. Deux batteurs de la même équipe sont présents sur le terrain en même temps. Les points, appelés courses, s'obtiennent lorsque les deux batteurs échangent leurs positions après une frappe, ou directement lorsque la balle franchit la limite du terrain : quatre points si elle a touché le sol auparavant, six si elle la franchit de volée. Les lois du cricket ont été codifiées par le Marylebone Cricket Club en 1788."
+  },
+  {
+   "q": "D'où vient le nom de la série de cricket appelée The Ashes ?",
+   "choix": [
+    "Du nom du premier capitaine australien",
+    "D'un incendie survenu dans le stade de Lords",
+    "Du nom du fabricant du trophée",
+    "D'une nécrologie satirique publiée en 1882 après une défaite anglaise"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Le nom vient de 1882 : après la défaite de l'Angleterre face à l'Australie à Londres, un journal britannique publia une nécrologie satirique du cricket anglais, annonçant que ses cendres seraient emportées en Australie. Lors de la tournée anglaise en Australie qui suivit, des Australiennes brûlèrent un objet et déposèrent les cendres dans une petite urne de terre cuite offerte au capitaine anglais. Cette urne, aujourd'hui conservée dans le musée du terrain de Lords à Londres, est devenue le symbole de la rivalité. La série se dispute alternativement dans les deux pays, environ tous les deux ans, et constitue le duel le plus célèbre du cricket international."
+  },
+  {
+   "q": "Au football américain, combien de yards une équipe doit-elle gagner en quatre tentatives pour conserver le ballon ?",
+   "choix": [
+    "Cinq",
+    "Sept",
+    "Dix",
+    "Vingt"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Une équipe dispose de quatre tentatives, appelées downs, pour progresser d'au moins dix yards. Si elle y parvient, elle obtient quatre nouvelles tentatives et poursuit sa progression ; sinon, elle rend le ballon à l'adversaire. Ce mécanisme, qui découpe le jeu en phases arrêtées, est ce qui distingue le plus nettement le football américain du rugby dont il est issu. Il découle des réformes conduites par Walter Camp, entraîneur à Yale, entre 1880 et 1883 : il réduisit les équipes de quinze à onze joueurs, diminua la taille du terrain et introduisit le scrimmage. Un touchdown rapporte six points et un coup de pied placé trois points."
+  },
+  {
+   "q": "Quand et où s'est disputé le premier Super Bowl ?",
+   "choix": [
+    "Le 15 janvier 1967 à Los Angeles",
+    "Le 1er septembre 1920 à Canton",
+    "Le 12 janvier 1969 à Miami",
+    "Le 26 janvier 1975 à La Nouvelle-Orléans"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Le premier Super Bowl s'est joué le 15 janvier 1967 au Memorial Coliseum de Los Angeles, devant près de soixante-deux mille spectateurs. Les Packers de Green Bay y ont battu les Chiefs de Kansas City sur le score de trente-cinq à dix. La rencontre s'appelait alors le NFL-AFL World Championship Game et opposait les champions de deux ligues rivales ; elle ne prit le nom de Super Bowl qu'à partir de la troisième édition, la fusion des deux ligues étant intervenue après les quatre premières. La Ligue nationale de football, la NFL, avait été fondée en 1920. Le Super Bowl est aujourd'hui l'émission la plus regardée de la télévision américaine."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Baseball",
+   "url": "https://fr.wikipedia.org/wiki/Baseball"
+  },
+  {
+   "titre": "Cricket",
+   "url": "https://fr.wikipedia.org/wiki/Cricket"
+  },
+  {
+   "titre": "The Ashes",
+   "url": "https://fr.wikipedia.org/wiki/The_Ashes"
+  },
+  {
+   "titre": "Football américain",
+   "url": "https://fr.wikipedia.org/wiki/Football_am%C3%A9ricain"
+  },
+  {
+   "titre": "Super Bowl",
+   "url": "https://fr.wikipedia.org/wiki/Super_Bowl"
+  }
+ ]
+}

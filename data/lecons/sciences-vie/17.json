@@ -1,0 +1,217 @@
+{
+ "titre": "Les biotechnologies et la génétique appliquée",
+ "sections": [
+  {
+   "titre": "Qu'appelle-t-on biotechnologie ?",
+   "texte": "L'OCDE définit la biotechnologie comme l'application de la science et de la technologie à des organismes vivants, ainsi qu'à leurs composants, produits et modèles, afin de modifier des matériaux vivants ou non vivants pour produire des connaissances, des biens et des services. Cette définition, volontairement large, montre que la biotechnologie ne se réduit pas à la manipulation des gènes : elle consiste, plus généralement, à mettre le vivant au travail. À ce titre, elle est très ancienne. Depuis des millénaires, l'humanité utilise la fermentation, c'est-à-dire l'activité de micro-organismes, pour fabriquer de la bière, du pain, du vin, du fromage ou du yaourt, longtemps sans comprendre ce qui se produisait dans la cuve. La biotechnologie moderne naît en revanche de la découverte de la structure de l'ADN et des outils du génie génétique. Des entreprises spécialisées, comme Genentech ou Amgen, se développent, avec un fort essor à la fin des années 1990, suivi d'une crise boursière en 2001 et 2002 qui en fit disparaître beaucoup. Aujourd'hui, ce secteur représente moins de 1 % du produit intérieur brut des pays de l'OCDE, mais les projections l'estiment à 2,7 % en 2030, et l'Union européenne investit massivement dans ce qu'elle appelle la bioéconomie."
+  },
+  {
+   "titre": "Les biotechnologies en couleurs",
+   "texte": "Pour s'y retrouver dans un domaine aussi vaste, les Européens ont pris l'habitude de classer les biotechnologies par couleurs, chacune correspondant à un secteur d'application. La biotechnologie rouge est celle de la médecine et de la pharmacie : elle produit des vaccins, des hormones comme l'insuline, ou des anticorps monoclonaux utilisés contre certains cancers. La biotechnologie verte concerne l'agriculture et l'amélioration des plantes cultivées. La biotechnologie blanche s'applique à l'industrie, en remplaçant des procédés chimiques classiques par des procédés biologiques, par exemple en utilisant des enzymes ou des micro-organismes pour fabriquer des matériaux ou des biocarburants ; elle vise notamment à réduire la dépendance au pétrole et les rejets polluants. La biotechnologie bleue exploite la biodiversité marine, immense réservoir de molécules encore peu explorées. La biotechnologie jaune se consacre au traitement des pollutions et à la dépollution des sols et des eaux, souvent grâce à des bactéries capables de dégrader des substances toxiques : on parle alors de bioremédiation. La biotechnologie orange, enfin, désigne les activités de formation et de diffusion auprès du public. Cette classification en couleurs, née en Europe, n'est pas universelle mais elle rend le domaine plus lisible. Cette palette est commode, même si les frontières entre les couleurs sont poreuses, une même technique servant souvent plusieurs secteurs à la fois.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les biotechnologies en couleurs",
+    "colonnes": [
+     "Couleur",
+     "Domaine",
+     "Exemples"
+    ],
+    "lignes": [
+     [
+      "Rouge",
+      "Médecine et pharmacie",
+      "Vaccins, insuline, anticorps monoclonaux contre certains cancers"
+     ],
+     [
+      "Verte",
+      "Agriculture",
+      "Amélioration des plantes cultivées"
+     ],
+     [
+      "Blanche",
+      "Industrie",
+      "Enzymes et micro-organismes remplaçant des procédés chimiques, biocarburants"
+     ],
+     [
+      "Bleue",
+      "Biodiversité marine",
+      "Un immense réservoir de molécules encore peu exploré"
+     ],
+     [
+      "Jaune",
+      "Dépollution",
+      "Bactéries dégradant des substances toxiques : la bioremédiation"
+     ],
+     [
+      "Orange",
+      "Formation et diffusion",
+      "Expliquer le domaine au public"
+     ]
+    ],
+    "note": "Cette classification née en Europe n'est pas universelle, et les frontières entre couleurs sont poreuses : une même technique sert souvent plusieurs secteurs."
+   }
+  },
+  {
+   "titre": "Les organismes génétiquement modifiés",
+   "texte": "Un organisme génétiquement modifié, ou OGM, est un organisme vivant dont le patrimoine génétique a été modifié par l'intervention humaine. Cette définition semble simple, mais elle varie selon les régions du monde, ce qui explique bien des malentendus. L'Union européenne retient une définition restrictive et ne considère comme OGM que les organismes modifiés par les techniques modernes du génie génétique ; les États-Unis adoptent une approche plus large, incluant aussi les modifications obtenues par la sélection artificielle traditionnelle, qui transforme les espèces depuis le Néolithique. La technique la plus fréquente est la transgenèse : elle consiste à introduire dans le génome d'un organisme cible un ou plusieurs gènes étrangers, éventuellement issus d'une espèce très éloignée, ce que la reproduction naturelle ne permettrait jamais. Quatre plantes dominent largement les cultures commerciales : le soja, le maïs, le coton et le colza. En 2017, elles couvraient environ 189,8 millions d'hectares dans le monde, dont plus de la moitié dans des pays en développement. La réglementation varie tout autant que les définitions : l'Union européenne impose un étiquetage obligatoire au-delà d'un seuil de 0,9 % d'OGM dans un produit alimentaire, et le protocole de Carthagène, signé en 2000, constitue le premier cadre international de biosécurité.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "Les OGM dans le monde",
+    "items": [
+     {
+      "valeur": "4",
+      "label": "plantes dominent les cultures : soja, maïs, coton, colza"
+     },
+     {
+      "valeur": "189,8 M ha",
+      "label": "cultivés dans le monde en 2017, dont plus de la moitié dans des pays en développement"
+     },
+     {
+      "valeur": "0,9 %",
+      "label": "le seuil européen au-delà duquel l'étiquetage est obligatoire"
+     },
+     {
+      "valeur": "2000",
+      "label": "protocole de Carthagène, premier cadre international de biosécurité"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "CRISPR-Cas9, des ciseaux moléculaires",
+   "texte": "La protéine bactérienne Cas9 a bouleversé le génie génétique. Elle agit comme une paire de ciseaux moléculaires capable de couper l'ADN à un endroit choisi, en sectionnant chacun des deux brins de la double hélice. Sa précision vient de son mode de guidage : c'est une endonucléase dirigée par un ARN, un petit fragment que les chercheurs fabriquent sur mesure pour qu'il reconnaisse la séquence visée, un peu comme une adresse indiquée à un facteur. L'origine du système est remarquable. Des bactéries telles que Streptococcus pyogenes l'utilisent naturellement comme une forme d'immunité adaptative : elles conservent des morceaux de l'ADN des virus qui les ont attaquées et s'en servent pour reconnaître et détruire ces envahisseurs lors d'une infection ultérieure. Les chercheurs n'ont donc pas inventé cet outil, ils l'ont emprunté au monde microbien. C'est la Française Emmanuelle Charpentier, avec le concours de l'Américaine Jennifer Doudna, qui met au point vers 2012 la méthode d'édition du génome dérivée de ce système, développée ensuite par d'autres équipes, dont celle de Feng Zhang au Broad Institute. En octobre 2020, Charpentier et Doudna reçoivent le prix Nobel de chimie pour cette découverte, moins de dix ans après leurs travaux fondateurs, ce qui est exceptionnellement rapide.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "CRISPR-Cas9, comment ça marche",
+    "etapes": [
+     {
+      "label": "Une défense de bactérie",
+      "texte": "Des bactéries comme Streptococcus pyogenes conservent des morceaux de l'ADN des virus qui les ont attaquées, pour les reconnaître lors d'une infection ultérieure."
+     },
+     {
+      "label": "Un ARN guide sur mesure",
+      "texte": "Les chercheurs fabriquent un petit fragment d'ARN qui reconnaît la séquence visée, comme une adresse donnée à un facteur."
+     },
+     {
+      "label": "La reconnaissance",
+      "texte": "Guidée par cet ARN, la protéine Cas9 trouve l'endroit exact du génome."
+     },
+     {
+      "label": "La coupure",
+      "texte": "Cas9 sectionne chacun des deux brins de la double hélice : ce sont des ciseaux moléculaires."
+     },
+     {
+      "label": "L'édition",
+      "texte": "Le génome peut alors être modifié à cet endroit précis. Les chercheurs n'ont pas inventé l'outil : ils l'ont emprunté au monde microbien."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Promesses et questions éthiques",
+   "texte": "Les applications de l'édition du génome sont considérables. En médecine, elle ouvre des perspectives de traitement des maladies génétiques, dues à un gène défectueux, ainsi que de nouvelles thérapies contre certains cancers. En santé publique, des projets visent à modifier des moustiques pour les rendre incapables de transmettre le paludisme. En agriculture, elle permet d'améliorer les plantes cultivées plus rapidement qu'avec la sélection classique. Mais une technique aussi puissante soulève des questions redoutables. Les coupures peuvent survenir à des endroits non prévus du génome, provoquant des mutations hors cible dont les conséquences sont difficiles à anticiper. La modification des cellules reproductrices pose un problème d'une autre nature, car les changements introduits seraient transmis à toutes les générations suivantes, sans que celles-ci aient pu donner leur avis, ce qui fait ressurgir le spectre de l'eugénisme. Les faits ont rapidement rendu ce débat concret : dès 2015, des chercheurs chinois modifiaient des embryons humains, et en 2018 He Jiankui annonçait la naissance de bébés génétiquement modifiés, provoquant une condamnation internationale. Plusieurs instances ont réclamé un moratoire sur la modification de l'embryon humain, et la CIA a même classé cette technologie parmi les armes de destruction massive potentielles. Savoir faire ne dit jamais s'il faut faire : cette question relève du débat démocratique.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Les faits ont devancé le débat",
+    "evenements": [
+     {
+      "date": "2012",
+      "label": "Emmanuelle Charpentier et Jennifer Doudna",
+      "texte": "Elles mettent au point la méthode d'édition du génome dérivée du système CRISPR-Cas9."
+     },
+     {
+      "date": "2015",
+      "label": "Des embryons humains modifiés en Chine"
+     },
+     {
+      "date": "2018",
+      "label": "He Jiankui annonce la naissance de bébés génétiquement modifiés",
+      "texte": "Condamnation internationale, et appels à un moratoire sur la modification de l'embryon humain."
+     },
+     {
+      "date": "2020",
+      "label": "Prix Nobel de chimie pour Charpentier et Doudna",
+      "texte": "Moins de dix ans après leurs travaux fondateurs : un délai exceptionnellement court."
+     }
+    ],
+    "note": "Savoir faire ne dit jamais s'il faut faire : cette question relève du débat démocratique."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Que désigne la biotechnologie dite rouge ?",
+   "choix": [
+    "L'agriculture",
+    "La médecine et la pharmacie",
+    "La dépollution",
+    "L'exploitation de la biodiversité marine"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Les Européens classent les biotechnologies par couleurs selon leur secteur d'application. Le rouge correspond à la médecine et à la pharmacie : vaccins, hormones comme l'insuline, anticorps monoclonaux. Le vert concerne l'agriculture et l'amélioration des plantes cultivées, le blanc les procédés industriels qui remplacent la chimie classique par des méthodes biologiques, le bleu l'exploitation de la biodiversité marine. Le jaune se consacre au traitement des pollutions, notamment par bioremédiation à l'aide de bactéries dégradant des substances toxiques, et l'orange à la formation et à la diffusion auprès du public. Ces frontières restent poreuses, une même technique servant souvent plusieurs secteurs."
+  },
+  {
+   "q": "En quoi consiste la transgenèse ?",
+   "choix": [
+    "À croiser deux variétés proches",
+    "À sélectionner les meilleurs individus sur plusieurs générations",
+    "À introduire des gènes étrangers dans le génome d'un organisme",
+    "À cloner un animal à l'identique"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La transgenèse est l'opération de génie génétique la plus fréquente : elle consiste à introduire un ou plusieurs gènes étrangers dans le génome d'un organisme cible. Sa particularité est de franchir les barrières entre espèces, puisque le gène transféré peut provenir d'un organisme très éloigné, ce que la reproduction naturelle ne permettrait jamais. Le croisement et la sélection sur plusieurs générations relèvent au contraire de l'amélioration traditionnelle, pratiquée depuis le Néolithique. Cette différence explique d'ailleurs les définitions divergentes des OGM : l'Union européenne ne retient que les techniques modernes, tandis que les États-Unis englobent aussi la sélection artificielle classique."
+  },
+  {
+   "q": "Quelles sont les quatre principales plantes génétiquement modifiées cultivées commercialement ?",
+   "choix": [
+    "Le blé, l'orge, le seigle et l'avoine",
+    "Le soja, le maïs, le coton et le colza",
+    "La pomme de terre, la tomate, la carotte et l'oignon",
+    "Le riz, le café, le cacao et la vigne"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Les principales plantes génétiquement modifiées cultivées à grande échelle sont le soja, le maïs, le coton et le colza. En 2017, ces cultures couvraient environ 189,8 millions d'hectares dans le monde, dont plus de la moitié dans des pays en développement. Il s'agit surtout de cultures industrielles ou destinées à l'alimentation animale, et non des plantes potagères que l'on trouve sur les étals. Dans l'Union européenne, un produit alimentaire doit être étiqueté dès qu'il contient plus de 0,9 % d'OGM, et le protocole de Carthagène, signé en 2000, fournit le premier cadre international de biosécurité."
+  },
+  {
+   "q": "Quelle est l'origine naturelle du système CRISPR-Cas9 ?",
+   "choix": [
+    "Un virus de plante",
+    "Une algue marine",
+    "Une levure de boulangerie",
+    "Un mécanisme de défense de bactéries contre les virus"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Le système CRISPR-Cas9 n'a pas été inventé par les chercheurs : il a été emprunté aux bactéries. Des espèces comme Streptococcus pyogenes l'utilisent comme une forme d'immunité adaptative, en conservant des fragments de l'ADN des virus qui les ont attaquées afin de reconnaître et de détruire ces envahisseurs lors d'une nouvelle infection. La protéine Cas9 est une endonucléase guidée par un ARN : elle coupe les deux brins de la double hélice d'ADN à l'endroit indiqué par ce petit fragment guide, que les scientifiques fabriquent désormais sur mesure. C'est ce guidage qui donne à la technique sa remarquable précision."
+  },
+  {
+   "q": "En quelle année Emmanuelle Charpentier et Jennifer Doudna ont-elles reçu le prix Nobel de chimie ?",
+   "choix": [
+    "En 2012",
+    "En 2020",
+    "En 2005",
+    "En 2018"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Emmanuelle Charpentier, chercheuse française, et Jennifer Doudna, chercheuse américaine, ont reçu le prix Nobel de chimie en octobre 2020 pour la mise au point de la méthode d'édition du génome par CRISPR-Cas9. Elles avaient développé cette méthode vers 2012, si bien que moins de dix ans se sont écoulés entre la découverte et sa consécration, ce qui est exceptionnellement rapide pour un prix Nobel. D'autres équipes, dont celle de Feng Zhang au Broad Institute, ont contribué au développement de la technique. L'année 2018, elle, est associée à l'annonce controversée de bébés génétiquement modifiés par He Jiankui."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Biotechnologie",
+   "url": "https://fr.wikipedia.org/wiki/Biotechnologie"
+  },
+  {
+   "titre": "Organisme génétiquement modifié",
+   "url": "https://fr.wikipedia.org/wiki/Organisme_g%C3%A9n%C3%A9tiquement_modifi%C3%A9"
+  },
+  {
+   "titre": "CRISPR-Cas9",
+   "url": "https://fr.wikipedia.org/wiki/CRISPR-Cas9"
+  }
+ ]
+}

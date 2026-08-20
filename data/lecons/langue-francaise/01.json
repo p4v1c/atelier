@@ -1,0 +1,261 @@
+{
+ "titre": "Étymologie : d'où viennent les mots français ?",
+ "sections": [
+  {
+   "titre": "Le fonds latin et les deux voies de formation",
+   "texte": "L'immense majorité du vocabulaire français vient du latin, mais elle en vient par deux chemins très différents. La voie populaire est celle de la transmission orale ininterrompue : un mot latin passe de bouche en bouche pendant quinze siècles et s'use, se raccourcit, change de sons. Ainsi hospitale devient ostel puis hôtel, et fragilem devient frêle. La voie savante est celle de l'emprunt : à partir du Moyen Âge, les clercs, les juristes et les médecins vont rechercher dans les textes latins des mots dont la langue courante n'avait pas gardé la trace, et les francisent à peine. Le même hospitale donne alors hôpital, et le même fragilem donne fragile. Quand les deux voies aboutissent, on obtient un doublet étymologique : deux mots français issus d'un seul étymon, l'un abîmé et familier, l'autre intact et technique. Le français en compte plusieurs centaines. Cette double origine explique une particularité de la langue : l'adjectif ne ressemble souvent pas au nom auquel il correspond. Œil et oculaire, doigt et digital, eau et aquatique, cheval et équestre, foie et hépatique forment des couples dont le premier terme est populaire et le second savant, parfois même emprunté au grec. Reconnaître cette structure aide à orthographier : si l'on hésite sur une lettre muette, il suffit de chercher le mot savant de la même famille.",
+   "visuels": [
+    {
+     "type": "tableau",
+     "titre": "Des doublets étymologiques",
+     "colonnes": [
+      "Étymon latin",
+      "Voie populaire",
+      "Voie savante",
+      "Écart de sens"
+     ],
+     "lignes": [
+      [
+       "hospitale",
+       "hôtel",
+       "hôpital",
+       "recevoir des hôtes / soigner"
+      ],
+      [
+       "fragilem",
+       "frêle",
+       "fragile",
+       "presque synonymes"
+      ],
+      [
+       "potionem",
+       "poison",
+       "potion",
+       "ce qui tue / ce qui soigne"
+      ],
+      [
+       "captivum",
+       "chétif",
+       "captif",
+       "faible / prisonnier"
+      ],
+      [
+       "auscultare",
+       "écouter",
+       "ausculter",
+       "entendre / examiner"
+      ],
+      [
+       "ministerium",
+       "métier",
+       "ministère",
+       "activité / charge officielle"
+      ],
+      [
+       "examen",
+       "essaim",
+       "examen",
+       "groupe d'abeilles / épreuve"
+      ]
+     ],
+     "note": "Le mot savant reste toujours plus proche du latin : c'est un mot jeune, entré par l'écrit."
+    }
+   ]
+  },
+  {
+   "titre": "Les couches anciennes : gaulois, francique, grec",
+   "texte": "Avant le latin, la Gaule parlait des langues celtiques. Leur héritage est mince dans le lexique français : une centaine de mots courants, cent cinquante si l'on compte largement, trois cents en incluant les parlers régionaux. Ils appartiennent presque tous au monde rural et forestier : chêne, bouleau, if, bruyère, alouette, mouton, ruche, charrue, soc, tonneau, caillou, borne, chemin, arpent. L'empreinte celtique est en revanche partout dans les noms de lieux et de rivières. Après le latin, les Francs déposent sur le gallo-roman ce que les linguistes appellent un superstrat : environ quatre cents mots, dans les domaines de la guerre, du droit et de la campagne. On leur doit guerre, garder, guetter, gant, heaume, éperon, jardin, haie, hameau, marais, blesser, honte, orgueil, gagner, riche, ainsi que les couleurs bleu, blanc, gris et brun. Le son w germanique, étranger au gallo-roman, a été rendu par gu-, si bien que werra donne guerre là où l'anglais dit war. Le grec, enfin, alimente le français depuis toujours, d'abord par l'intermédiaire du latin, puis par emprunt direct à la Renaissance, et surtout par la fabrication de mots savants modernes : téléphone, cardiologie, démocratie, biologie. Ces créations récentes utilisent des racines grecques pour nommer des réalités que les Grecs n'ont jamais connues.",
+   "visuels": [
+    {
+     "type": "chiffres",
+     "titre": "Ce que chaque couche a laissé",
+     "items": [
+      {
+       "valeur": "100 à 150",
+       "label": "mots courants d'origine gauloise"
+      },
+      {
+       "valeur": "≈ 400",
+       "label": "mots d'origine francique"
+      },
+      {
+       "valeur": "≈ 2 000",
+       "label": "mots empruntés à l'italien à la Renaissance"
+      },
+      {
+       "valeur": "IXe s.",
+       "label": "premiers textes conservés en langue romane"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Les emprunts aux langues du monde",
+   "texte": "Une langue vivante emprunte, et le français n'a jamais cessé de le faire. L'arabe lui a transmis plusieurs centaines de mots, souvent par l'espagnol, l'italien ou le latin des savants : algèbre, algorithme, zéro, chiffre, alcool, alcôve, azur, sucre, coton, matelas, magasin, amiral, girafe, gazelle, hasard, jupe. L'article défini al- y est souvent resté soudé. L'italien fournit à la Renaissance le vocabulaire de la banque, de la guerre, de l'architecture et de la musique : banque, banqueroute, bilan, soldat, colonel, balcon, façade, esquisse, fresque, opéra, sonate, piano, carnaval. L'espagnol apporte des mots venus du Nouveau Monde, comme chocolat, tomate, cacao ou tabac, eux-mêmes empruntés à des langues amérindiennes. Le néerlandais donne un vocabulaire maritime : bâbord, tribord, matelot, cabillaud, boulevard. L'anglais, longtemps emprunteur au français, devient à partir du XVIIIe siècle un fournisseur majeur, dans le sport, la technique et l'économie. Certains de ces mots sont des retours : budget vient de l'ancien français bougette, la petite bourse ; tunnel vient de tonnelle ; on rattache généralement tennis à l'impératif tenez. Le français exporte aussi beaucoup, notamment dans le domaine de la cuisine, de la mode et de la diplomatie. L'emprunt n'appauvrit pas une langue : il témoigne des contacts entre les peuples et se plie très vite à la grammaire de la langue d'accueil.",
+   "visuels": [
+    {
+     "type": "tableau",
+     "titre": "Quelques emprunts et leur porte d'entrée",
+     "colonnes": [
+      "Langue",
+      "Époque dominante",
+      "Domaines",
+      "Exemples"
+     ],
+     "lignes": [
+      [
+       "Arabe",
+       "Moyen Âge",
+       "Sciences, commerce, textile",
+       "algèbre, zéro, sucre, magasin, hasard"
+      ],
+      [
+       "Italien",
+       "Renaissance",
+       "Banque, guerre, arts",
+       "banque, soldat, balcon, opéra"
+      ],
+      [
+       "Espagnol",
+       "XVIe-XVIIe s.",
+       "Nouveau Monde, marine",
+       "chocolat, tomate, cacao"
+      ],
+      [
+       "Néerlandais",
+       "Moyen Âge et après",
+       "Marine, commerce",
+       "bâbord, matelot, boulevard"
+      ],
+      [
+       "Anglais",
+       "XVIIIe s. à nos jours",
+       "Sport, technique, économie",
+       "sport, budget, standard"
+      ]
+     ],
+     "note": "Budget et tunnel sont des emprunts en retour : le français les avait donnés à l'anglais avant de les reprendre."
+    }
+   ]
+  },
+  {
+   "titre": "Comment le français fabrique ses mots",
+   "texte": "Emprunter n'est pas la seule façon d'enrichir un vocabulaire. Le français produit lui-même des mots par plusieurs procédés bien identifiés. La dérivation ajoute un préfixe ou un suffixe à une base : de porter viennent apporter, emporter, reporter, portable, porteur, portage. Elle est de loin le mécanisme le plus productif. La composition assemble deux mots existants : porte-monnaie, chou-fleur, arc-en-ciel, sous-marin. La composition savante fait la même chose avec des racines grecques ou latines qui n'existent pas seules : bio-logie, télé-vision, aqua-culture, omni-vore. Le mot-valise fond deux mots en les faisant se chevaucher : courriel de courrier et électronique, pourriel de poubelle et courriel, franglais de français et anglais. La troncation raccourcit : cinéma devenu ciné, professeur devenu prof, manifestation devenue manif. La siglaison forme un mot avec les initiales d'une expression, et certains sigles se prononcent comme des mots ordinaires au point qu'on oublie leur origine : laser, radar, ovni, sida. On appelle ces derniers des acronymes. Enfin la conversion change simplement la catégorie grammaticale d'un mot : le boire et le manger, un rire, le pour et le contre. La langue combine volontiers ces procédés, et la plupart des mots nouveaux d'une année ne sont ni des emprunts ni des créations pures, mais des recombinaisons de matériaux existants."
+  },
+  {
+   "titre": "Noms propres devenus noms communs, et fausses pistes",
+   "texte": "Certains mots courants gardent le souvenir d'une personne ou d'un lieu. Le procédé porte un nom, l'antonomase. La poubelle vient d'Eugène Poubelle, préfet de la Seine, qui impose en 1884 des récipients fermés aux propriétaires parisiens. La silhouette vient d'Étienne de Silhouette, contrôleur général des finances dont les économies impopulaires ont donné leur nom aux portraits d'ombre bon marché. La guillotine porte le nom du médecin qui en avait recommandé l'usage, la nicotine celui de Jean Nicot, la mansarde celle de l'architecte Mansart, le barème celle du mathématicien Barrême, le saxophone celle d'Adolphe Sax. D'autres viennent de villes : la faïence de Faenza, le jean de Gênes, la cravate des cavaliers croates, la bougie de la ville de Bougie en Algérie. Mais l'étymologie est aussi un terrain propice aux légendes. L'idée que snob viendrait du latin sine nobilitate est une invention du XIXe siècle : le mot est un terme dialectal anglais qui désignait un cordonnier. L'origine russe attribuée à bistro, popularisée par une plaque touristique parisienne, se heurte à un obstacle simple, le mot n'étant attesté que soixante-dix ans après le passage des cosaques. Devant une explication trop belle, le réflexe utile est de vérifier la date de première attestation du mot.",
+   "visuels": [
+    {
+     "type": "comparaison",
+     "titre": "Étymologie attestée ou légende ?",
+     "colonnes": [
+      {
+       "titre": "Solidement établi",
+       "points": [
+        "Poubelle : le préfet Eugène Poubelle, arrêté de 1884",
+        "Hasard : de l'arabe az-zahr, le dé, via l'espagnol",
+        "Guerre : du francique werra",
+        "Salaire : du latin salarium, dérivé de sal, le sel"
+       ]
+      },
+      {
+       "titre": "Légendes répandues",
+       "points": [
+        "Snob viendrait de sine nobilitate : invention tardive",
+        "Bistro viendrait du russe bystro : date incompatible",
+        "Beaucoup de sigles rétroactifs inventés après coup",
+        "Test utile : chercher la date de première attestation"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Comment appelle-t-on deux mots français issus d'un même mot latin, l'un par voie populaire et l'autre par emprunt savant ?",
+   "choix": [
+    "Un doublet étymologique",
+    "Un paronyme",
+    "Un homographe",
+    "Un mot-valise"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le doublet réunit par exemple hôtel et hôpital, tous deux issus du latin hospitale, ou frêle et fragile issus de fragilem. Le mot populaire a subi quinze siècles d'usure orale, le mot savant a été emprunté directement aux textes par des clercs, souvent au Moyen Âge ou à la Renaissance. Les deux formes se sont ensuite spécialisées dans des sens différents. Un paronyme est simplement un mot de forme voisine, sans lien d'origine obligatoire. Un homographe s'écrit de la même façon qu'un autre mot sans avoir le même sens."
+  },
+  {
+   "q": "Quel procédé de formation reconnaît-on dans le mot « pourriel » ?",
+   "choix": [
+    "La siglaison",
+    "Le mot-valise",
+    "La troncation",
+    "La dérivation"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Pourriel est formé par fusion de poubelle et de courriel, avec chevauchement des syllabes : c'est la définition même du mot-valise. Le procédé, ancien mais très productif aujourd'hui, a donné aussi franglais, clavardage, alicament ou informatique. La siglaison forme un mot avec des initiales, comme ovni ou sida. La troncation raccourcit un mot existant, comme prof ou manif. La dérivation ajoute un préfixe ou un suffixe à une base, comme dans reportage."
+  },
+  {
+   "q": "Environ combien de mots le français a-t-il hérités du francique, la langue des Francs ?",
+   "choix": [
+    "Une dizaine",
+    "Environ cinquante",
+    "Plus de cinq mille",
+    "Environ quatre cents"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Les Francs ont laissé un superstrat d'environ quatre cents mots, principalement dans les domaines de la guerre, du droit et de la vie rurale : guerre, garder, gant, heaume, jardin, haie, hameau, blesser, honte, orgueil, gagner, riche. Ils ont aussi donné quatre noms de couleurs, bleu, blanc, gris et brun. Le gaulois, langue des vaincus, n'a de son côté laissé qu'une centaine de mots courants. La différence tient au statut social des locuteurs : le gaulois s'est effacé devant le latin, tandis que le francique était la langue des nouveaux maîtres. Le nom même de la France vient des Francs."
+  },
+  {
+   "q": "Le mot « bistro » viendrait, dit-on, du russe bystro, « vite », crié par les cosaques en 1814. Que dit la recherche ?",
+   "choix": [
+    "Elle est confirmée par des archives militaires",
+    "Le mot vient en réalité du polonais",
+    "L'explication est douteuse car le mot n'est attesté que bien plus tard",
+    "Le mot est attesté dès le XVIIIe siècle"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "L'anecdote est séduisante et une plaque commémorative parisienne l'a popularisée, mais elle bute sur la chronologie : les premières attestations écrites du mot datent de la fin du XIXe siècle, soit environ soixante-dix ans après l'occupation de Paris par les troupes russes. Les dictionnaires étymologiques la classent donc parmi les explications non retenues, sans qu'une origine de remplacement fasse consensus. Le cas illustre une règle de méthode : la date de première attestation d'un mot est le premier test d'une étymologie. Le même raisonnement disqualifie l'idée que snob viendrait de sine nobilitate. Les étymologies populaires sont souvent construites après coup pour donner du sens à un mot devenu opaque."
+  },
+  {
+   "q": "Le mot « faïence » vient du nom d'une ville. Laquelle ?",
+   "choix": [
+    "Fayence, en Provence",
+    "Fez, au Maroc",
+    "Valence, en Espagne",
+    "Faenza, en Italie"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Faenza, en Émilie-Romagne, était réputée dès la Renaissance pour sa céramique émaillée, exportée dans toute l'Europe. Le nom du lieu de production est passé au produit lui-même, procédé courant en français. On retrouve le même mécanisme dans le jean, tiré du nom de Gênes, la cravate, tirée des cavaliers croates, la bougie, tirée de la ville algérienne de Bougie, ou le satin. Ces mots relèvent de l'antonomase, qui transforme un nom propre en nom commun. Le sens géographique s'efface si complètement que le mot s'écrit sans majuscule."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Étymologie",
+   "url": "https://fr.wikipedia.org/wiki/%C3%89tymologie"
+  },
+  {
+   "titre": "Doublet lexical",
+   "url": "https://fr.wikipedia.org/wiki/Doublet_lexical"
+  },
+  {
+   "titre": "Gaulois (langue)",
+   "url": "https://fr.wikipedia.org/wiki/Gaulois_(langue)"
+  },
+  {
+   "titre": "Vieux-francique",
+   "url": "https://fr.wikipedia.org/wiki/Vieux-francique"
+  },
+  {
+   "titre": "Antonomase",
+   "url": "https://fr.wikipedia.org/wiki/Antonomase"
+  }
+ ]
+}

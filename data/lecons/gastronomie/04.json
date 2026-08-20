@@ -1,0 +1,220 @@
+{
+ "titre": "Les spécialités régionales de la France",
+ "sections": [
+  {
+   "titre": "Une géographie du goût",
+   "texte": "Avant d'être une affaire de recettes, la cuisine régionale française est une affaire de climat, de sol et d'élevage. Le géographe repère d'abord trois grandes aires définies par la matière grasse dominante. Au nord-ouest, dans les régions humides et herbagères où prospère la vache laitière, on cuisine au beurre et à la crème : Normandie, Bretagne intérieure, Nord, une partie du Bassin parisien. Au sud-ouest, terre de maïs et d'élevage de porcs, d'oies et de canards, on cuisine à la graisse d'oie, de canard ou de porc, ce qui explique confits, magrets et garbures. Sur le pourtour méditerranéen, où l'olivier pousse et où la vache est rare, l'huile d'olive s'impose, accompagnée de l'ail, de la tomate et des herbes sèches. À ces trois aires se superposent d'autres logiques. La montagne, où l'hiver est long, conserve le lait sous forme de grosses meules et la viande sous forme de salaisons, d'où les plats fondus et fromagers de Savoie et du Massif central. Le littoral privilégie évidemment poissons et coquillages, mais chaque façade a son répertoire : plateaux de fruits de mer en Atlantique, soupes de roche en Méditerranée. Enfin les frontières laissent des traces durables, la choucroute et le kouglof en Alsace, les pâtes farcies dans le comté de Nice.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Trois France de la matière grasse",
+    "colonnes": [
+     "Aire",
+     "Matière grasse",
+     "Plats caractéristiques"
+    ],
+    "lignes": [
+     [
+      "Nord-ouest et Bassin parisien",
+      "Beurre et crème",
+      "Sole normande, tripes à la mode de Caen, carbonade au nord"
+     ],
+     [
+      "Sud-Ouest",
+      "Graisse d'oie, de canard, de porc",
+      "Confit, magret, garbure, cassoulet"
+     ],
+     [
+      "Pourtour méditerranéen",
+      "Huile d'olive",
+      "Ratatouille, bouillabaisse, aïoli, pissaladière"
+     ],
+     [
+      "Montagnes",
+      "Fromage et salaisons",
+      "Fondue savoyarde, aligot, truffade"
+     ]
+    ],
+    "note": "Ces aires se recouvrent largement ; elles décrivent des dominantes anciennes, pas des frontières étanches."
+   }
+  },
+  {
+   "titre": "Le nord et l'est",
+   "texte": "L'Alsace est sans doute la région française dont la cuisine se reconnaît le plus vite. La choucroute y associe le chou finement taillé et lactofermenté à un assortiment de charcuteries et de pommes de terre, et se sert traditionnellement avec un riesling. La flammekueche, tarte flambée de pâte fine garnie de crème, d'oignons et de lardons, cuisait à l'origine dans le four à pain pour en tester la chaleur. Le baeckeoffe mijote trois viandes marinées au vin blanc dans une terrine scellée, et le kouglof, brioche moulée en couronne torsadée, se retrouve dans toute l'Europe centrale. La Lorraine a donné à la France la quiche, tarte salée liée aux œufs et à la crème, dont la version canonique ne contient pas de fromage, ainsi que la madeleine de Commercy et les bergamotes de Nancy. Le Nord cultive une cuisine de bière et de saindoux : carbonade flamande mijotée à la bière brune, potjevleesch, moules-frites, tarte au sucre, et le maroilles dont on fait la flamiche. La Bourgogne apporte le bœuf bourguignon, les œufs en meurette, le jambon persillé et les escargots à l'ail ; la Franche-Comté, ses grandes meules de comté, sa saucisse de Morteau fumée au tuyé et le vin jaune du Jura, vieilli six ans sous voile."
+  },
+  {
+   "titre": "L'ouest, le centre et la montagne",
+   "texte": "La Bretagne a bâti sa réputation sur la crêperie et sur la mer. La galette de sarrasin, céréale rustique acclimatée à des sols pauvres, se garnit d'œuf, de jambon et de fromage, tandis que la crêpe de froment reste sucrée ; le kouign-amann, pâte levée pliée avec du beurre salé et du sucre caramélisé, est une invention du XIXe siècle à Douarnenez. La Normandie décline le beurre, la crème et la pomme : sole normande, tripes à la mode de Caen mijotées au cidre, teurgoule, camembert, calvados et cidre. Le Val de Loire fournit rillettes de porc, andouillette, poissons de rivière au beurre blanc et pruneaux de Tours. Le Massif central offre une cuisine de subsistance devenue gourmande : l'aligot, purée de pommes de terre travaillée avec de la tomme fraîche jusqu'à filer, la truffade, le pounti, la potée auvergnate, les lentilles vertes du Puy. La Savoie et le Dauphiné jouent la carte du fromage fondu et de la pomme de terre : fondue, raclette, tartiflette — plat récent, mis au point dans les années 1980 pour promouvoir le reblochon —, diots au vin blanc, gratin dauphinois qui, dans sa version stricte, ne comporte ni fromage ni œuf, seulement pommes de terre, lait, crème et ail.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Dix plats et leur région",
+    "colonnes": [
+     "Plat",
+     "Région",
+     "Ce qu'il contient"
+    ],
+    "lignes": [
+     [
+      "Choucroute garnie",
+      "Alsace",
+      "Chou lactofermenté, charcuteries, pommes de terre"
+     ],
+     [
+      "Carbonade flamande",
+      "Nord",
+      "Bœuf mijoté à la bière brune, pain d'épices moutardé"
+     ],
+     [
+      "Bœuf bourguignon",
+      "Bourgogne",
+      "Bœuf braisé au vin rouge, lardons, champignons, oignons"
+     ],
+     [
+      "Kouign-amann",
+      "Bretagne",
+      "Pâte levée, beurre salé et sucre caramélisé"
+     ],
+     [
+      "Tripes à la mode de Caen",
+      "Normandie",
+      "Abats mijotés longuement au cidre et au calvados"
+     ],
+     [
+      "Aligot",
+      "Aubrac",
+      "Purée liée à la tomme fraîche jusqu'à filer"
+     ],
+     [
+      "Gratin dauphinois",
+      "Dauphiné",
+      "Pommes de terre, lait, crème et ail, sans fromage"
+     ],
+     [
+      "Cassoulet",
+      "Lauragais et Toulousain",
+      "Haricots blancs, confit, saucisse, couenne"
+     ],
+     [
+      "Bouillabaisse",
+      "Marseille",
+      "Poissons de roche, safran, fenouil, rouille"
+     ],
+     [
+      "Quenelle de brochet",
+      "Lyonnais",
+      "Panade et chair de brochet, sauce Nantua"
+     ]
+    ]
+   }
+  },
+  {
+   "titre": "Le grand Sud",
+   "texte": "La Provence cuisine à l'huile d'olive, à l'ail et aux herbes. La ratatouille fait mijoter séparément aubergine, courgette, poivron, tomate et oignon avant de les réunir, la bouillabaisse marseillaise cuit des poissons de roche dans un bouillon safrané servi en deux temps avec la rouille, l'aïoli rassemble morue et légumes autour d'une émulsion à l'ail. Nice possède un répertoire propre, hérité de son long rattachement à la maison de Savoie : socca à la farine de pois chiche, pissaladière, salade niçoise sans légume cuit, petits farcis. Le Sud-Ouest est le pays du canard et de l'oie, donc du confit, du magret, du foie gras et du cassoulet. Ce dernier oppose depuis toujours trois villes, ce que le gastronome Prosper Montagné a résumé par une formule restée célèbre en faisant de Castelnaudary le père, de Carcassonne le fils et de Toulouse le saint-esprit d'une même divinité culinaire. Le Pays basque ajoute le piment d'Espelette, la piperade, l'axoa et le jambon de Bayonne ; le Béarn la garbure, soupe épaisse de chou et de confit. La Corse, enfin, vit de la châtaigne et du porc coureur : figatelli, coppa, lonzu, brocciu de brebis ou de chèvre qui entre aussi bien dans les farcis que dans le fiadone."
+  },
+  {
+   "titre": "Lyon, capitale déclarée de la gastronomie",
+   "texte": "En 1934, le critique Curnonsky, élu prince des gastronomes sept ans plus tôt, désigne Lyon comme la capitale mondiale de la gastronomie. La formule tient à une position géographique privilégiée : la ville reçoit la volaille de Bresse, le bœuf du Charolais, les poissons de la Dombes et de la Saône, les fruits de la vallée du Rhône, les vins de Bourgogne au nord et des côtes-du-rhône au sud. Elle tient aussi à une institution originale, celle des mères lyonnaises. Cuisinières employées dans les maisons bourgeoises, plusieurs d'entre elles s'établissent à leur compte à partir du XIXe siècle et imposent une cuisine à la fois populaire et exigeante. La plus célèbre, Eugénie Brazier, devient en 1933 la première femme à obtenir trois étoiles au guide Michelin, et pour deux établissements à la fois ; le jeune Paul Bocuse fera ses classes chez elle. Le bouchon, petit restaurant à nappe à carreaux, sert le répertoire local : saucisson chaud en brioche, tablier de sapeur qui est un gras-double pané, cervelle de canut, fromage frais aux herbes nommé d'après les ouvriers de la soie, quenelle de brochet à la sauce Nantua, et pralines roses en tarte. Les halles de la ville portent aujourd'hui le nom de Paul Bocuse.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "Lyon en quatre repères",
+    "items": [
+     {
+      "valeur": "1934",
+      "label": "Curnonsky proclame Lyon capitale mondiale de la gastronomie"
+     },
+     {
+      "valeur": "1933",
+      "label": "Eugénie Brazier, première femme trois étoiles"
+     },
+     {
+      "valeur": "1987",
+      "label": "création du Bocuse d'Or, concours lyonnais"
+     },
+     {
+      "valeur": "1927",
+      "label": "Curnonsky élu prince des gastronomes par ses pairs"
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quelle matière grasse domine traditionnellement la cuisine du Sud-Ouest ?",
+   "choix": [
+    "Le beurre",
+    "La graisse d'oie ou de canard",
+    "L'huile d'olive",
+    "La margarine"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "L'élevage des oies et des canards, lié à la culture du maïs, a fait de la graisse animale la base de la cuisine du Sud-Ouest. On y conserve les cuisses dans leur propre graisse, ce qui donne le confit, et on la réutilise pour les pommes de terre sarladaises ou la garbure. Le beurre domine au contraire dans les régions herbagères du nord-ouest et l'huile d'olive sur le pourtour méditerranéen. Ces trois aires décrivent des dominantes anciennes plutôt que des frontières strictes."
+  },
+  {
+   "q": "Que contient exactement un gratin dauphinois dans sa version traditionnelle ?",
+   "choix": [
+    "Des pommes de terre et du reblochon",
+    "Des pommes de terre, des œufs et du gruyère",
+    "Des pommes de terre et des lardons",
+    "Des pommes de terre, du lait, de la crème et de l'ail"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le gratin dauphinois classique se limite à des pommes de terre en fines rondelles cuites dans du lait et de la crème, avec de l'ail frotté sur le plat, sans fromage ni œuf. L'ajout de gruyère relève d'une habitude répandue mais étrangère à la recette d'origine. La tartiflette, à base de reblochon, est un plat bien plus récent, mis au point dans les années 1980 pour soutenir la vente de ce fromage. L'aligot, lui, mélange purée et tomme fraîche jusqu'à obtenir un ruban filant."
+  },
+  {
+   "q": "Quelles trois villes se disputent la paternité du cassoulet ?",
+   "choix": [
+    "Albi, Rodez et Cahors",
+    "Pau, Bayonne et Dax",
+    "Castelnaudary, Carcassonne et Toulouse",
+    "Nîmes, Montpellier et Béziers"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Castelnaudary, Carcassonne et Toulouse revendiquent chacune le cassoulet, avec des variantes distinctes : confit d'oie et couenne à Castelnaudary, parfois perdrix ou mouton à Carcassonne, confit de canard et saucisse de Toulouse dans la version toulousaine. Le nom vient de la cassole, plat de terre vernissée en tronc de cône dans lequel il cuit. Le gastronome Prosper Montagné a résumé la rivalité par une formule trinitaire restée célèbre. Le plat repose partout sur des haricots blancs longuement mijotés."
+  },
+  {
+   "q": "Qui furent les mères lyonnaises ?",
+   "choix": [
+    "Des religieuses cuisinant pour les hospices",
+    "Des marchandes des halles",
+    "Des critiques gastronomiques",
+    "Des cuisinières de maisons bourgeoises devenues restauratrices à leur compte"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Les mères lyonnaises étaient des cuisinières employées dans les familles bourgeoises de la ville qui, à partir du XIXe siècle, ont ouvert leurs propres établissements. Elles ont imposé une cuisine sans esbroufe, fondée sur d'excellents produits régionaux. La plus connue, Eugénie Brazier, devient en 1933 la première femme à obtenir trois étoiles au guide Michelin, et pour deux maisons simultanément. Paul Bocuse a fait une partie de son apprentissage chez elle."
+  },
+  {
+   "q": "De quelle farine la galette bretonne traditionnelle est-elle faite ?",
+   "choix": [
+    "De farine de sarrasin",
+    "De farine de froment",
+    "De farine de seigle",
+    "De farine de châtaigne"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "La galette bretonne salée se prépare avec de la farine de sarrasin, appelé aussi blé noir, une plante qui n'est pas une céréale et qui pousse sur des sols pauvres et acides. La crêpe sucrée, elle, se fait à la farine de froment. Cette distinction reflète une histoire agricole : le sarrasin, introduit à la fin du Moyen Âge, a longtemps nourri la Bretagne intérieure. Le kouign-amann, à base de pâte levée, de beurre salé et de sucre, est né au XIXe siècle à Douarnenez."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Cuisine française",
+   "url": "https://fr.wikipedia.org/wiki/Cuisine_fran%C3%A7aise"
+  },
+  {
+   "titre": "Cassoulet",
+   "url": "https://fr.wikipedia.org/wiki/Cassoulet"
+  },
+  {
+   "titre": "Cuisine lyonnaise",
+   "url": "https://fr.wikipedia.org/wiki/Cuisine_lyonnaise"
+  },
+  {
+   "titre": "Choucroute garnie",
+   "url": "https://fr.wikipedia.org/wiki/Choucroute_garnie"
+  }
+ ]
+}

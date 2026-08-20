@@ -1,0 +1,187 @@
+{
+ "titre": "La IIe République et le Second Empire (1848-1870)",
+ "sections": [
+  {
+   "titre": "La révolution de février 1848 et le printemps des républicains",
+   "texte": "L'interdiction d'un banquet réformiste prévu à Paris le 22 février 1848 met le feu aux poudres. Dès le 23 février, des barricades s'élèvent dans la capitale ; la fusillade du boulevard des Capucines transforme la manifestation en insurrection. Le 24 février 1848, Louis-Philippe abdique et gagne l'Angleterre : la monarchie de Juillet s'effondre en trois jours. Un gouvernement provisoire est aussitôt formé, où se côtoient républicains modérés autour du poète Alphonse de Lamartine et démocrates plus avancés comme Louis Blanc et l'ouvrier Albert. La République est proclamée et le nouveau pouvoir multiplie les décisions symboliques. Le 25 février 1848, le suffrage universel masculin est institué : le corps électoral passe d'environ 241 000 votants censitaires à près de neuf millions d'électeurs, bouleversement sans équivalent en Europe. La peine de mort en matière politique est abolie, la liberté de la presse et de réunion rétablie. Le 27 février sont créés les ateliers nationaux, destinés à donner du travail aux chômeurs parisiens de plus en plus nombreux. Sous l'impulsion de Victor Schoelcher, sous-secrétaire d'État aux colonies, le décret du 27 avril 1848 abolit définitivement l'esclavage dans les colonies françaises, plus de cinquante ans après une première abolition annulée par Bonaparte. Ce printemps des espérances soulève un immense enthousiasme, mais les difficultés économiques et les divergences sociales vont rapidement le briser.",
+   "visuel": {
+    "type": "barres",
+    "titre": "Le corps électoral avant et après le 25 février 1848",
+    "unite": "électeurs",
+    "donnees": [
+     {
+      "label": "Sous la monarchie de Juillet (suffrage censitaire)",
+      "valeur": 241000,
+      "affichage": "241 000"
+     },
+     {
+      "label": "Après l'instauration du suffrage universel masculin",
+      "valeur": 9000000,
+      "affichage": "environ 9 millions",
+      "focus": true
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Les journées de juin et le tournant conservateur",
+   "texte": "Les élections à l'Assemblée constituante, en avril 1848, révèlent le décalage entre le Paris révolutionnaire et une France rurale majoritairement modérée ou conservatrice. La nouvelle assemblée se montre hostile aux expériences sociales. Les ateliers nationaux, jugés coûteux et dangereux, sont fermés le 21 juin 1848. La décision provoque un soulèvement ouvrier d'une violence extrême : du 22 au 26 juin, les quartiers de l'est parisien se hérissent de barricades. Le général Cavaignac, doté des pleins pouvoirs, écrase l'insurrection ; les combats et la répression font plusieurs milliers de morts, auxquels s'ajoutent environ 1 500 fusillés, des milliers d'arrestations et de nombreuses déportations en Algérie. Cette guerre civile creuse un fossé durable entre la bourgeoisie républicaine et le monde ouvrier. La Constitution votée le 4 novembre 1848 organise un régime où l'Assemblée législative, élue pour trois ans, coexiste avec un président de la République élu pour quatre ans au suffrage universel masculin et non rééligible immédiatement. Le 10 décembre 1848, Louis-Napoléon Bonaparte, neveu de l'Empereur, l'emporte triomphalement avec environ 74 % des suffrages et plus de cinq millions de voix, très loin devant Cavaignac qui n'en obtient qu'un million et demi. Le nom de Bonaparte, associé à l'ordre et à la gloire nationale, a séduit les campagnes bien plus que les programmes politiques.",
+   "visuel": {
+    "type": "frise",
+    "titre": "L'année 1848, de l'enthousiasme au retournement",
+    "evenements": [
+     {
+      "date": "22-24 février",
+      "label": "Chute de la monarchie de Juillet",
+      "texte": "Un banquet réformiste interdit, des barricades, la fusillade du boulevard des Capucines : Louis-Philippe abdique en trois jours."
+     },
+     {
+      "date": "25 février",
+      "label": "Suffrage universel masculin",
+      "texte": "Avec l'abolition de la peine de mort en matière politique et le rétablissement des libertés de presse et de réunion."
+     },
+     {
+      "date": "27 février",
+      "label": "Ateliers nationaux",
+      "texte": "Du travail pour les chômeurs parisiens de plus en plus nombreux."
+     },
+     {
+      "date": "27 avril",
+      "label": "Abolition de l'esclavage",
+      "texte": "Décret porté par Victor Schoelcher, plus de cinquante ans après une première abolition annulée par Bonaparte."
+     },
+     {
+      "date": "avril",
+      "label": "Élections à la Constituante",
+      "texte": "La France rurale, modérée ou conservatrice, l'emporte sur le Paris révolutionnaire."
+     },
+     {
+      "date": "21-26 juin",
+      "label": "Les journées de juin",
+      "texte": "La fermeture des ateliers nationaux déclenche un soulèvement ouvrier écrasé par Cavaignac : plusieurs milliers de morts, environ 1 500 fusillés, des déportations en Algérie."
+     },
+     {
+      "date": "4 novembre",
+      "label": "Constitution",
+      "texte": "Une Assemblée élue pour trois ans et un président élu pour quatre ans, non rééligible immédiatement."
+     },
+     {
+      "date": "10 décembre",
+      "label": "Louis-Napoléon Bonaparte élu président",
+      "texte": "Environ 74 % des voix et plus de cinq millions de suffrages, contre un million et demi à Cavaignac."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Du coup d'État du 2 décembre 1851 à l'Empire",
+   "texte": "Élue en mai 1849, l'Assemblée législative est dominée par le « parti de l'Ordre », coalition de monarchistes et de catholiques. Elle vote deux textes emblématiques de la réaction : la loi Falloux du 15 mars 1850, qui renforce la place de l'Église dans l'enseignement en facilitant l'ouverture d'établissements confessionnels, et la loi du 31 mai 1850, qui, en exigeant trois ans de résidence attestée dans la même commune, prive du droit de vote près de trois millions de citoyens, essentiellement les ouvriers mobiles et les journaliers. Le président entre en conflit ouvert avec les députés, qui refusent de réviser la Constitution pour lui permettre de se représenter. Ne pouvant briguer un second mandat, Louis-Napoléon Bonaparte choisit la force. Dans la nuit du 1er au 2 décembre 1851, date choisie pour rappeler Austerlitz et le sacre de son oncle, il fait arrêter les principaux opposants, dissout l'Assemblée et proclame le rétablissement du suffrage universel. La résistance, vive dans certains départements du Sud-Est, est durement réprimée et des milliers d'opposants sont déportés ou exilés, à l'image de Victor Hugo. Un plébiscite ratifie massivement le coup d'État, puis la Constitution du 14 janvier 1852 concentre l'essentiel du pouvoir entre les mains du prince-président. Un second plébiscite ouvre la voie à la proclamation de l'Empire, le 2 décembre 1852."
+  },
+  {
+   "titre": "L'Empire autoritaire, la modernisation économique et Haussmann",
+   "texte": "Napoléon III inaugure d'abord un Empire autoritaire, de 1852 à 1860 environ. La presse est étroitement surveillée, les réunions contrôlées, et l'administration soutient ouvertement des candidats officiels lors des élections au Corps législatif, dont les pouvoirs sont réduits. Le régime cherche sa légitimité dans la prospérité et la grandeur. Ces années sont en effet celles d'une croissance économique remarquable : le réseau ferroviaire s'étend considérablement, de nouvelles banques comme le Crédit mobilier des frères Pereire mobilisent l'épargne pour financer l'industrie, les grands magasins apparaissent et le traité de libre-échange conclu avec le Royaume-Uni en 1860 expose l'industrie française à la concurrence tout en stimulant sa modernisation. La transformation la plus spectaculaire est celle de Paris, confiée au préfet de la Seine Georges Eugène Haussmann : percement de larges avenues rectilignes, création de gares, d'égouts, de parcs comme les Buttes-Chaumont, construction de l'Opéra, annexion des communes périphériques. Ces travaux améliorent l'hygiène et la circulation, mais chassent les populations pauvres du centre vers la périphérie et facilitent le maintien de l'ordre. La société évolue : l'exode rural s'accélère, une classe ouvrière urbaine se forme, à laquelle l'Empire finit par accorder en 1864 le droit de grève, tout en maintenant une surveillance étroite des organisations ouvrières."
+  },
+  {
+   "titre": "Politique extérieure, Empire libéral et effondrement de 1870",
+   "texte": "Napoléon III mène une politique extérieure ambitieuse. La guerre de Crimée, de 1853 à 1856, menée aux côtés du Royaume-Uni contre la Russie, s'achève par une victoire consacrée par le congrès de Paris et redonne à la France un rôle central en Europe. En 1859, la campagne d'Italie contre l'Autriche, marquée par les batailles sanglantes de Magenta et Solférino, permet l'unification progressive de l'Italie ; en contrepartie, la France annexe Nice et la Savoie en 1860, après des plébiscites très favorables. En revanche, l'expédition du Mexique, engagée en 1861 pour installer l'archiduc Maximilien sur un trône impérial, tourne au désastre : les troupes françaises se retirent en 1867 et Maximilien est fusillé. À partir de 1860, affaibli, l'Empereur concède des réformes qui définissent l'Empire libéral : droit d'adresse, puis d'interpellation, liberté de la presse et de réunion en 1868, gouvernement responsable devant les chambres avec Émile Ollivier en 1870. La crise finale vient de l'extérieur. Manœuvré par Bismarck lors de l'affaire de la dépêche d'Ems, la France déclare la guerre à la Prusse en juillet 1870. Mal préparée, l'armée recule ; le 1er septembre 1870, la défaite de Sedan se solde par la capture de l'Empereur. Le 4 septembre 1870, la République est proclamée à Paris.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Les deux visages du Second Empire",
+    "colonnes": [
+     {
+      "titre": "L'Empire autoritaire (1852-1860)",
+      "points": [
+       "Presse surveillée, réunions contrôlées, Corps législatif aux pouvoirs réduits.",
+       "L'administration soutient ouvertement des candidats officiels.",
+       "La légitimité se cherche dans la prospérité : chemin de fer, Crédit mobilier des frères Pereire, grands magasins.",
+       "Paris transformé par Haussmann : avenues, gares, égouts, parcs, Opéra.",
+       "Succès extérieurs : guerre de Crimée (1853-1856), campagne d'Italie (1859), Nice et la Savoie annexées en 1860."
+      ]
+     },
+     {
+      "titre": "L'Empire libéral (1860-1870)",
+      "points": [
+       "Un empereur affaibli qui concède des réformes.",
+       "Droit d'adresse, puis droit d'interpellation des députés.",
+       "Liberté de la presse et de réunion en 1868.",
+       "Droit de grève accordé aux ouvriers dès 1864.",
+       "Gouvernement responsable devant les chambres avec Émile Ollivier en 1870 — quelques mois avant Sedan."
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quelle mesure sociale majeure le gouvernement provisoire adopte-t-il le 27 avril 1848 ?",
+   "choix": [
+    "L'instauration de la journée de huit heures",
+    "La création de la Sécurité sociale",
+    "L'interdiction du travail des enfants",
+    "L'abolition de l'esclavage dans les colonies françaises"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le décret du 27 avril 1848 abolit définitivement l'esclavage dans les colonies françaises. Il est l'œuvre de Victor Schoelcher, nommé sous-secrétaire d'État aux colonies par le gouvernement provisoire. Il s'agit d'une seconde abolition : la Convention avait déjà aboli l'esclavage en 1794, mais Bonaparte l'avait rétabli en 1802. Environ 250 000 esclaves sont ainsi libérés, notamment aux Antilles et à La Réunion, leurs anciens propriétaires recevant une indemnité. La journée de huit heures et la Sécurité sociale sont, elles, des acquis du XXe siècle."
+  },
+  {
+   "q": "Que provoque la fermeture des ateliers nationaux le 21 juin 1848 ?",
+   "choix": [
+    "L'abdication de Louis-Philippe",
+    "Une insurrection ouvrière écrasée par le général Cavaignac",
+    "La proclamation immédiate de l'Empire",
+    "Le retour au suffrage censitaire"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Créés en février 1848 pour répondre au chômage, les ateliers nationaux sont jugés ruineux et politiquement dangereux par l'Assemblée constituante élue en avril. Leur fermeture, décidée le 21 juin, jette des dizaines de milliers d'ouvriers dans la rue. L'insurrection éclate le 22 juin et embrase les quartiers de l'est parisien. Le général Cavaignac, investi des pleins pouvoirs, reprend la ville quartier par quartier au prix de plusieurs milliers de morts, suivis d'environ 1 500 exécutions et de nombreuses déportations. Ces journées de juin brisent durablement l'alliance entre bourgeoisie républicaine et monde ouvrier."
+  },
+  {
+   "q": "Comment Louis-Napoléon Bonaparte accède-t-il à la présidence de la République en 1848 ?",
+   "choix": [
+    "Par un vote de l'Assemblée nationale",
+    "Par un coup d'État militaire",
+    "Par une élection au suffrage universel masculin le 10 décembre 1848",
+    "Par désignation du gouvernement provisoire"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "La Constitution du 4 novembre 1848 prévoit l'élection du président de la République au suffrage universel masculin direct, procédure alors inédite en France. Le scrutin a lieu le 10 décembre 1848. Louis-Napoléon Bonaparte, neveu de Napoléon Ier, l'emporte avec environ 74 % des voix, soit plus de cinq millions de suffrages, contre un million et demi au général Cavaignac. Son succès s'explique surtout par le prestige de son nom auprès des campagnes, qui y voient une promesse d'ordre et de grandeur. Le coup d'État viendra trois ans plus tard, en décembre 1851."
+  },
+  {
+   "q": "Quel est l'effet principal de la loi du 31 mai 1850 ?",
+   "choix": [
+    "Elle rend l'école primaire gratuite",
+    "Elle exclut près de trois millions de citoyens du droit de vote",
+    "Elle rétablit la censure sur les théâtres",
+    "Elle instaure l'impôt sur le revenu"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Sans abolir officiellement le suffrage universel masculin, la loi du 31 mai 1850 exige des électeurs trois années de résidence continue dans la même commune, prouvées notamment par l'inscription au rôle des impôts. Cette condition frappe surtout les ouvriers, les journaliers et tous ceux que le travail oblige à se déplacer. Environ trois millions d'électeurs sur neuf millions sont ainsi rayés des listes. Votée par le parti de l'Ordre, majoritaire à l'Assemblée législative, elle fournira paradoxalement à Louis-Napoléon Bonaparte un argument populaire : lors du coup d'État du 2 décembre 1851, il se présente en restaurateur du suffrage universel."
+  },
+  {
+   "q": "Quel événement militaire entraîne la chute du Second Empire ?",
+   "choix": [
+    "La capitulation de Napoléon III à Sedan le 1er septembre 1870",
+    "La défaite de Solférino en 1859",
+    "L'échec de l'expédition du Mexique en 1867",
+    "Le siège de Sébastopol en 1855"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Entraînée dans la guerre contre la Prusse en juillet 1870 après l'affaire de la dépêche d'Ems, la France est rapidement débordée par une armée allemande mieux équipée et mieux commandée. Encerclée à Sedan, l'armée de Châlons capitule le 1er septembre 1870 et Napoléon III est fait prisonnier. La nouvelle parvient à Paris le 3 septembre et, le 4 septembre 1870, la République est proclamée à l'Hôtel de Ville. Solférino, en 1859, était au contraire une victoire française en Italie, et le siège de Sébastopol appartient à la guerre de Crimée."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Deuxième République (France)",
+   "url": "https://fr.wikipedia.org/wiki/Deuxi%C3%A8me_R%C3%A9publique_(France)"
+  },
+  {
+   "titre": "Second Empire",
+   "url": "https://fr.wikipedia.org/wiki/Second_Empire"
+  }
+ ]
+}

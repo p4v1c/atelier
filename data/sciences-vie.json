@@ -1,0 +1,1134 @@
+{
+ "id": "sciences-vie",
+ "nom": "Sciences de la vie & Terre",
+ "emoji": "🧬",
+ "questions": [
+  {
+   "q": "Combien d'os compte le squelette humain adulte ?",
+   "choix": [
+    "206",
+    "186",
+    "226",
+    "250"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le squelette d'un adulte compte 206 os, alors qu'un nouveau-né en possède environ 270. Cette différence s'explique par la fusion progressive de certains os au cours de la croissance, notamment ceux du crâne et du bassin. Le plus long est le fémur, situé dans la cuisse, et le plus petit est l'étrier, un osselet de l'oreille moyenne de quelques millimètres. Le squelette assure trois grandes fonctions : le soutien du corps, la protection des organes et la production des cellules sanguines dans la moelle osseuse."
+  },
+  {
+   "q": "Quel est le plus grand organe du corps humain ?",
+   "choix": [
+    "La peau",
+    "Le foie",
+    "Le cerveau",
+    "Les poumons"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "La peau est le plus grand organe du corps humain : elle couvre environ 1,5 à 2 m² chez l'adulte et pèse plusieurs kilogrammes. Elle est composée de trois couches : l'épiderme en surface, le derme et l'hypoderme en profondeur. Elle protège l'organisme contre les agressions extérieures, régule la température corporelle et abrite le sens du toucher. Le foie, souvent cité, est quant à lui le plus grand organe interne, avec une masse d'environ 1,5 kg."
+  },
+  {
+   "q": "Combien de chromosomes contient une cellule humaine ordinaire ?",
+   "choix": [
+    "46",
+    "23",
+    "44",
+    "48"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Les cellules humaines contiennent 46 chromosomes, organisés en 23 paires : un exemplaire de chaque paire vient du père, l'autre de la mère. La 23e paire détermine le sexe : XX chez la femme, XY chez l'homme. Les chromosomes sont constitués d'ADN enroulé autour de protéines et portent les gènes, unités de l'information héréditaire. Seules les cellules reproductrices (ovules et spermatozoïdes) font exception avec 23 chromosomes chacune, afin de rétablir le nombre de 46 lors de la fécondation."
+  },
+  {
+   "q": "Quelle molécule porte l'information génétique dans nos cellules ?",
+   "choix": [
+    "L'ADN",
+    "Le glucose",
+    "Le collagène",
+    "L'hémoglobine"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "L'ADN (acide désoxyribonucléique) est le support de l'information génétique chez presque tous les êtres vivants. Sa structure en double hélice a été décrite en 1953 par James Watson et Francis Crick, en s'appuyant sur les travaux de Rosalind Franklin. L'ADN est écrit avec un alphabet de quatre « lettres » chimiques : les bases A, T, G et C. Dérulé, l'ADN contenu dans une seule cellule humaine mesurerait environ deux mètres, et le génome humain compte à peu près 3 milliards de paires de bases."
+  },
+  {
+   "q": "Combien de cavités possède le cœur humain ?",
+   "choix": [
+    "4",
+    "2",
+    "3",
+    "6"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le cœur humain comporte quatre cavités : deux oreillettes en haut et deux ventricules en bas. Le côté droit envoie le sang pauvre en oxygène vers les poumons, tandis que le côté gauche propulse le sang oxygéné dans tout le corps. Ce muscle infatigable, appelé myocarde, bat environ 60 à 80 fois par minute au repos, soit près de 100 000 battements par jour. Au cours d'une vie, cela représente plus de 2,5 milliards de contractions."
+  },
+  {
+   "q": "Quel est le rôle principal des globules rouges ?",
+   "choix": [
+    "Transporter l'oxygène",
+    "Combattre les infections",
+    "Coaguler le sang",
+    "Produire des hormones"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Les globules rouges, ou hématies, transportent l'oxygène des poumons vers les organes grâce à l'hémoglobine, une protéine riche en fer qui donne au sang sa couleur rouge. Un millimètre cube de sang en contient environ 5 millions, et chaque globule rouge vit à peu près 120 jours. Ils sont fabriqués en continu dans la moelle osseuse. La lutte contre les infections revient aux globules blancs, et la coagulation aux plaquettes."
+  },
+  {
+   "q": "Quel gaz est produit par les plantes lors de la photosynthèse ?",
+   "choix": [
+    "Le dioxygène",
+    "Le dioxyde de carbone",
+    "L'azote",
+    "Le méthane"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Lors de la photosynthèse, les plantes absorbent du dioxyde de carbone (CO2) et de l'eau, puis fabriquent du glucose en utilisant l'énergie lumineuse ; le dioxygène (O2) est libéré comme sous-produit. Cette réaction se déroule dans les chloroplastes, des organites contenant la chlorophylle, le pigment vert des végétaux. La photosynthèse est à l'origine de la quasi-totalité de l'oxygène de l'atmosphère terrestre. Le phytoplancton des océans en produit d'ailleurs environ la moitié, autant que toutes les forêts du monde."
+  },
+  {
+   "q": "Quel est le plus grand animal ayant jamais vécu sur Terre ?",
+   "choix": [
+    "La baleine bleue",
+    "Le diplodocus",
+    "Le mammouth",
+    "Le mégalodon"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "La baleine bleue est le plus grand animal connu de toute l'histoire de la vie, dinosaures compris. Elle peut atteindre 30 mètres de long et peser plus de 150 tonnes, soit l'équivalent d'environ 25 éléphants. Son cœur pèse à lui seul près de 600 kg, et sa langue autant qu'un éléphant. Paradoxalement, ce géant se nourrit de krill, de minuscules crustacés qu'il filtre par tonnes grâce à ses fanons."
+  },
+  {
+   "q": "Quelle est la planète la plus proche du Soleil ?",
+   "choix": [
+    "Mercure",
+    "Vénus",
+    "Mars",
+    "La Terre"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Mercure est la planète la plus proche du Soleil, à environ 58 millions de kilomètres en moyenne. C'est aussi la plus petite planète du système solaire, à peine plus grande que la Lune. Dépourvue d'atmosphère significative, elle subit des écarts de température extrêmes : environ 430 °C le jour et -180 °C la nuit. En revanche, la planète la plus chaude n'est pas Mercure mais Vénus, dont l'épaisse atmosphère de CO2 crée un effet de serre qui porte sa surface à près de 465 °C."
+  },
+  {
+   "q": "Quelle planète est surnommée la « planète rouge » ?",
+   "choix": [
+    "Mars",
+    "Jupiter",
+    "Vénus",
+    "Saturne"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Mars doit son surnom de « planète rouge » à l'oxyde de fer (la rouille) qui couvre sa surface. C'est la quatrième planète du système solaire, environ deux fois plus petite que la Terre. Elle abrite le plus haut volcan connu du système solaire, Olympus Mons, qui culmine à environ 22 km, soit près de trois fois l'Everest. Depuis 1997, plusieurs robots, dont Curiosity (2012) et Perseverance (2021), explorent sa surface à la recherche de traces d'eau et de vie passée."
+  },
+  {
+   "q": "Combien de planètes compte le système solaire ?",
+   "choix": [
+    "8",
+    "9",
+    "7",
+    "10"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le système solaire compte huit planètes : Mercure, Vénus, la Terre, Mars, Jupiter, Saturne, Uranus et Neptune. Pluton, longtemps considérée comme la neuvième planète, a été reclassée « planète naine » par l'Union astronomique internationale en 2006. Les quatre premières sont des planètes rocheuses (telluriques), les quatre suivantes des géantes gazeuses ou de glaces. Le Soleil concentre à lui seul plus de 99 % de la masse totale du système solaire."
+  },
+  {
+   "q": "Quel gaz est le plus abondant dans l'atmosphère terrestre ?",
+   "choix": [
+    "L'azote",
+    "L'oxygène",
+    "Le dioxyde de carbone",
+    "L'hydrogène"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Contrairement à une idée répandue, ce n'est pas l'oxygène mais l'azote (diazote, N2) qui domine l'atmosphère terrestre : il en représente environ 78 %. L'oxygène arrive en deuxième position avec environ 21 %, suivi de l'argon (0,93 %) et du dioxyde de carbone (environ 0,04 %). L'azote est un gaz peu réactif, mais il est indispensable à la vie : les plantes l'utilisent, après fixation par des bactéries, pour fabriquer leurs protéines. La composition actuelle de l'air est le résultat de milliards d'années d'activité biologique, notamment de la photosynthèse."
+  },
+  {
+   "q": "Quel est l'os le plus long du corps humain ?",
+   "choix": [
+    "Le fémur",
+    "Le tibia",
+    "L'humérus",
+    "Le radius"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le fémur, l'os de la cuisse, est le plus long et le plus solide du corps humain : il représente environ un quart de la taille d'une personne. Il relie la hanche au genou et peut supporter des charges de plusieurs centaines de kilogrammes. À l'opposé, le plus petit os est l'étrier, dans l'oreille moyenne, qui mesure environ 3 millimètres. La taille du fémur permet d'ailleurs aux archéologues d'estimer la stature d'individus à partir de squelettes anciens."
+  },
+  {
+   "q": "Comment s'appelle le muscle qui constitue le cœur ?",
+   "choix": [
+    "Le myocarde",
+    "Le péricarde",
+    "Le diaphragme",
+    "Le trapèze"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le muscle cardiaque s'appelle le myocarde. C'est un muscle strié particulier : il se contracte de façon automatique et rythmée, sans commande volontaire, grâce à un système électrique interne (le nœud sinusal joue le rôle de « chef d'orchestre »). Le péricarde, souvent confondu avec lui, est la membrane qui enveloppe le cœur, tandis que l'endocarde tapisse l'intérieur des cavités. Le myocarde est irrigué par les artères coronaires ; leur obstruction provoque l'infarctus du myocarde."
+  },
+  {
+   "q": "Qui a découvert la pénicilline en 1928 ?",
+   "choix": [
+    "Alexander Fleming",
+    "Louis Pasteur",
+    "Robert Koch",
+    "Marie Curie"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "En 1928, le bactériologiste écossais Alexander Fleming découvre par hasard que la moisissure Penicillium notatum détruit les bactéries dans ses boîtes de culture : c'est la naissance de la pénicilline, premier antibiotique. La production à grande échelle n'interviendra que pendant la Seconde Guerre mondiale, grâce aux travaux de Howard Florey et Ernst Chain, qui partageront le prix Nobel de médecine avec Fleming en 1945. Les antibiotiques ont révolutionné la médecine en rendant curables des infections autrefois mortelles. Louis Pasteur, lui, est célèbre pour la vaccination et la pasteurisation au XIXe siècle."
+  },
+  {
+   "q": "Quel naturaliste a formulé la théorie de l'évolution par la sélection naturelle ?",
+   "choix": [
+    "Charles Darwin",
+    "Gregor Mendel",
+    "Jean-Baptiste de Lamarck",
+    "Isaac Newton"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Charles Darwin publie en 1859 « L'Origine des espèces », où il expose la théorie de l'évolution par la sélection naturelle. Selon ce mécanisme, les individus porteurs de caractères avantageux survivent et se reproduisent davantage, transmettant ces caractères à leur descendance. Darwin s'est notamment appuyé sur ses observations faites lors du voyage du Beagle (1831-1836), en particulier sur les pinsons des îles Galápagos. Avant lui, le Français Lamarck avait proposé une première théorie de l'évolution, fondée sur l'hérédité des caractères acquis, aujourd'hui abandonnée."
+  },
+  {
+   "q": "Quels chercheurs ont décrit la structure en double hélice de l'ADN en 1953 ?",
+   "choix": [
+    "Watson et Crick",
+    "Pasteur et Koch",
+    "Curie et Becquerel",
+    "Mendel et Morgan"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "En 1953, James Watson et Francis Crick publient dans la revue Nature la structure en double hélice de l'ADN. Leur modèle s'appuie de manière décisive sur les clichés de diffraction aux rayons X réalisés par Rosalind Franklin, notamment le célèbre « cliché 51 ». Watson, Crick et Maurice Wilkins reçoivent le prix Nobel de médecine en 1962 ; Franklin, décédée en 1958, ne put y être associée. Cette découverte a fondé la biologie moléculaire moderne et ouvert la voie au séquençage du génome humain, achevé pour l'essentiel en 2003."
+  },
+  {
+   "q": "Quelle est l'unité de base de tous les êtres vivants ?",
+   "choix": [
+    "La cellule",
+    "L'atome",
+    "L'organe",
+    "La molécule"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "La cellule est l'unité structurale et fonctionnelle de tous les êtres vivants : certains organismes, comme les bactéries, n'en comptent qu'une seule, tandis que le corps humain en contient environ 30 000 milliards. Elle a été observée pour la première fois en 1665 par Robert Hooke, qui lui donna son nom en observant du liège au microscope. On distingue les cellules procaryotes (sans noyau, comme les bactéries) et les cellules eucaryotes (avec noyau, comme les nôtres). Chaque cellule est limitée par une membrane et contient un cytoplasme où se déroulent les réactions chimiques de la vie."
+  },
+  {
+   "q": "Quel organite cellulaire est surnommé la « centrale énergétique » de la cellule ?",
+   "choix": [
+    "La mitochondrie",
+    "Le noyau",
+    "Le ribosome",
+    "Le lysosome"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Les mitochondries sont les « centrales énergétiques » des cellules : elles y réalisent la respiration cellulaire, qui transforme le glucose et l'oxygène en énergie utilisable sous forme d'ATP. Une cellule peut en contenir des centaines, voire des milliers dans les tissus très actifs comme les muscles ou le cerveau. Fait remarquable, les mitochondries possèdent leur propre ADN, transmis uniquement par la mère. Selon la théorie endosymbiotique, elles descendraient d'anciennes bactéries incorporées par des cellules primitives il y a plus d'un milliard d'années."
+  },
+  {
+   "q": "Comment s'appelle le pigment vert qui permet la photosynthèse ?",
+   "choix": [
+    "La chlorophylle",
+    "La mélanine",
+    "Le carotène",
+    "L'hémoglobine"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "La chlorophylle est le pigment vert contenu dans les chloroplastes des cellules végétales. Elle capte l'énergie de la lumière, principalement dans le rouge et le bleu, et réfléchit le vert, d'où la couleur des feuilles. Cette énergie sert à transformer l'eau et le dioxyde de carbone en glucose lors de la photosynthèse. À l'automne, la chlorophylle se dégrade et laisse apparaître d'autres pigments, comme les carotènes orangés et les xanthophylles jaunes, responsables des couleurs automnales."
+  },
+  {
+   "q": "Combien de paires de côtes possède le corps humain ?",
+   "choix": [
+    "12",
+    "10",
+    "14",
+    "8"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le thorax humain compte 12 paires de côtes, soit 24 côtes au total, identiques chez l'homme et la femme. Les sept premières paires, dites « vraies côtes », sont reliées directement au sternum par du cartilage ; les trois suivantes s'y rattachent indirectement ; les deux dernières, dites « flottantes », ne sont fixées qu'à la colonne vertébrale. La cage thoracique protège le cœur et les poumons tout en restant assez souple pour permettre la respiration. Environ une personne sur 200 présente une côte surnuméraire, dite côte cervicale."
+  },
+  {
+   "q": "Quel groupe sanguin est dit « donneur universel » ?",
+   "choix": [
+    "O négatif",
+    "AB positif",
+    "A positif",
+    "B négatif"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le groupe O négatif est appelé « donneur universel » car ses globules rouges ne portent ni les antigènes A et B, ni l'antigène Rhésus D : ils peuvent donc être transfusés à presque tous les patients en urgence. À l'inverse, les personnes du groupe AB positif sont « receveurs universels ». Le système ABO a été découvert en 1900 par l'Autrichien Karl Landsteiner, ce qui lui valut le prix Nobel de médecine en 1930. En France, le groupe le plus fréquent est A positif, tandis que O négatif ne concerne qu'environ 6 % de la population, d'où son importance pour les dons du sang."
+  },
+  {
+   "q": "Quelle vitamine notre peau fabrique-t-elle sous l'action du soleil ?",
+   "choix": [
+    "La vitamine D",
+    "La vitamine C",
+    "La vitamine A",
+    "La vitamine B12"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Sous l'action des rayons ultraviolets B du soleil, la peau synthétise la vitamine D à partir d'un dérivé du cholestérol. Cette vitamine est essentielle à l'absorption du calcium par l'intestin et donc à la solidité des os ; sa carence chez l'enfant provoque le rachitisme. Une exposition modérée de quelques dizaines de minutes par semaine suffit généralement, mais en hiver, sous nos latitudes, l'alimentation (poissons gras, œufs) prend le relais. La vitamine C, elle, doit entièrement provenir de l'alimentation, car l'être humain, contrairement à la plupart des mammifères, ne sait pas la fabriquer."
+  },
+  {
+   "q": "Dans quelle couche de l'atmosphère se trouve la majeure partie de la couche d'ozone ?",
+   "choix": [
+    "La stratosphère",
+    "La troposphère",
+    "La mésosphère",
+    "L'exosphère"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La couche d'ozone se situe principalement dans la stratosphère, entre 20 et 40 km d'altitude environ. L'ozone (O3) y absorbe la majeure partie des rayons ultraviolets du Soleil, protégeant ainsi les êtres vivants de leurs effets nocifs, comme les cancers de la peau. Dans les années 1980, les scientifiques ont découvert un « trou » dans cette couche au-dessus de l'Antarctique, causé par les gaz CFC utilisés dans les aérosols et réfrigérateurs. Le protocole de Montréal, signé en 1987, a interdit ces gaz : c'est l'un des plus grands succès de la coopération environnementale internationale, et la couche d'ozone se reconstitue lentement."
+  },
+  {
+   "q": "Quelle échelle historique mesure la magnitude des séismes ?",
+   "choix": [
+    "L'échelle de Richter",
+    "L'échelle de Beaufort",
+    "L'échelle de Mohs",
+    "L'échelle de Celsius"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "L'échelle de Richter, mise au point en 1935 par le sismologue américain Charles Richter, mesure la magnitude des séismes, c'est-à-dire l'énergie libérée au foyer. C'est une échelle logarithmique : un séisme de magnitude 7 libère environ 30 fois plus d'énergie qu'un séisme de magnitude 6. Le plus puissant jamais enregistré est celui de Valdivia, au Chili, en 1960, avec une magnitude de 9,5. Les sismologues utilisent aujourd'hui plutôt la magnitude de moment, plus précise pour les grands séismes, tandis que l'échelle de Beaufort mesure la force du vent et l'échelle de Mohs la dureté des minéraux."
+  },
+  {
+   "q": "Comment appelle-t-on les roches issues du refroidissement d'un magma ?",
+   "choix": [
+    "Les roches magmatiques",
+    "Les roches sédimentaires",
+    "Les roches métamorphiques",
+    "Les roches fossilifères"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Les roches magmatiques naissent du refroidissement et de la solidification d'un magma. Si le refroidissement est lent, en profondeur, il forme des roches à gros cristaux comme le granite ; s'il est rapide, en surface après une éruption, il donne des roches comme le basalte, qui constitue l'essentiel des fonds océaniques. Les roches sédimentaires, comme le calcaire, proviennent de l'accumulation de débris ou de restes d'organismes, et les roches métamorphiques, comme le marbre, résultent de la transformation d'autres roches sous l'effet de la chaleur et de la pression. Ces trois familles se transforment les unes en les autres au cours du cycle des roches."
+  },
+  {
+   "q": "Quel scientifique a proposé la théorie de la dérive des continents en 1912 ?",
+   "choix": [
+    "Alfred Wegener",
+    "Charles Lyell",
+    "Georges Cuvier",
+    "James Hutton"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "En 1912, le météorologue allemand Alfred Wegener propose la théorie de la dérive des continents : les continents actuels proviendraient de la fragmentation d'un supercontinent unique, la Pangée. Il s'appuie sur l'emboîtement des côtes de l'Afrique et de l'Amérique du Sud, ainsi que sur la présence de fossiles et de roches identiques de part et d'autre de l'Atlantique. Faute de mécanisme explicatif, sa théorie fut longtemps rejetée. Elle triompha dans les années 1960 avec la découverte de l'expansion des fonds océaniques, qui donna naissance à la tectonique des plaques, théorie centrale des sciences de la Terre."
+  },
+  {
+   "q": "Quelle est la plus grande planète du système solaire ?",
+   "choix": [
+    "Jupiter",
+    "Saturne",
+    "Neptune",
+    "Uranus"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Jupiter est de loin la plus grande planète du système solaire : son diamètre d'environ 143 000 km équivaut à 11 fois celui de la Terre, et sa masse dépasse celle de toutes les autres planètes réunies. C'est une géante gazeuse composée principalement d'hydrogène et d'hélium, sans surface solide. Sa Grande Tache rouge est une tempête géante, plus large que la Terre, observée depuis plusieurs siècles. Jupiter possède plus de 90 lunes connues, dont les quatre plus grandes, Io, Europe, Ganymède et Callisto, ont été découvertes par Galilée en 1610."
+  },
+  {
+   "q": "Quelle planète est célèbre pour ses anneaux spectaculaires ?",
+   "choix": [
+    "Saturne",
+    "Mars",
+    "Mercure",
+    "Vénus"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Saturne est célèbre pour son système d'anneaux, le plus vaste et le plus brillant du système solaire, observé dès le XVIIe siècle par Galilée puis correctement interprété par Huygens en 1655. Ces anneaux, larges de centaines de milliers de kilomètres mais épais de quelques dizaines de mètres seulement, sont constitués de milliards de blocs de glace et de roche. Saturne est la deuxième plus grande planète du système solaire et sa densité est si faible qu'elle flotterait sur l'eau. Les autres géantes, Jupiter, Uranus et Neptune, possèdent aussi des anneaux, mais beaucoup plus fins et sombres."
+  },
+  {
+   "q": "Quelle est l'étoile la plus proche du Soleil ?",
+   "choix": [
+    "Proxima du Centaure",
+    "Sirius",
+    "L'étoile Polaire",
+    "Bételgeuse"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Proxima du Centaure est l'étoile la plus proche du Soleil, à environ 4,24 années-lumière, soit tout de même 40 000 milliards de kilomètres. C'est une naine rouge, petite et peu lumineuse, invisible à l'œil nu, qui appartient au système triple Alpha du Centaure. En 2016, les astronomes y ont découvert une exoplanète, Proxima b, de taille proche de celle de la Terre. À l'échelle des voyages actuels, une sonde spatiale mettrait des dizaines de milliers d'années à l'atteindre, ce qui illustre l'immensité des distances interstellaires."
+  },
+  {
+   "q": "Comment s'appelle la galaxie dans laquelle se trouve le système solaire ?",
+   "choix": [
+    "La Voie lactée",
+    "Andromède",
+    "Le Grand Nuage de Magellan",
+    "La galaxie du Sombrero"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le système solaire appartient à la Voie lactée, une galaxie spirale d'environ 100 000 années-lumière de diamètre qui contient entre 100 et 400 milliards d'étoiles. Le Soleil se situe dans un de ses bras spiraux, à environ 26 000 années-lumière du centre, qu'il met à peu près 230 millions d'années à parcourir en orbite complète. La bande laiteuse visible dans le ciel nocturne, qui lui a donné son nom, est la lumière cumulée de ses innombrables étoiles. La galaxie d'Andromède, notre grande voisine, se rapproche de la Voie lactée et devrait fusionner avec elle dans environ 4,5 milliards d'années."
+  },
+  {
+   "q": "Combien de temps met la lumière du Soleil pour atteindre la Terre ?",
+   "choix": [
+    "Environ 8 minutes",
+    "Environ 8 secondes",
+    "Environ 8 heures",
+    "Environ 1 jour"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La lumière du Soleil met environ 8 minutes et 20 secondes pour parcourir les 150 millions de kilomètres qui le séparent de la Terre. Cette distance moyenne définit l'unité astronomique (UA), utilisée pour mesurer le système solaire. La lumière voyage à près de 300 000 km par seconde, vitesse limite indépassable selon la théorie de la relativité d'Einstein. Ainsi, regarder le Soleil, c'est le voir tel qu'il était huit minutes plus tôt ; observer les étoiles lointaines, c'est contempler un passé parfois vieux de milliers ou de millions d'années."
+  },
+  {
+   "q": "Qui a été le premier homme à marcher sur la Lune en 1969 ?",
+   "choix": [
+    "Neil Armstrong",
+    "Buzz Aldrin",
+    "Youri Gagarine",
+    "John Glenn"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le 21 juillet 1969 (heure française), l'Américain Neil Armstrong devient le premier homme à poser le pied sur la Lune lors de la mission Apollo 11, prononçant la phrase célèbre : « C'est un petit pas pour l'homme, un bond de géant pour l'humanité ». Il est suivi une vingtaine de minutes plus tard par Buzz Aldrin, tandis que Michael Collins reste en orbite lunaire. Au total, douze astronautes, tous américains, ont marché sur la Lune entre 1969 et 1972. Youri Gagarine, lui, fut le premier homme dans l'espace, en 1961, à bord de Vostok 1."
+  },
+  {
+   "q": "Quel est l'animal terrestre le plus rapide du monde ?",
+   "choix": [
+    "Le guépard",
+    "Le lion",
+    "L'antilope",
+    "Le lévrier"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le guépard est l'animal terrestre le plus rapide : il peut atteindre 110 à 120 km/h en pointe, avec des accélérations dignes d'une voiture de sport, passant de 0 à 100 km/h en environ trois secondes. Sa morphologie tout entière est adaptée à la vitesse : colonne vertébrale très souple, longues pattes, griffes semi-rétractiles pour l'adhérence et longue queue servant de balancier. Cette course ne dure toutefois que quelques centaines de mètres, car son organisme s'échauffe très vite. Dans les airs, le record absolu du règne animal revient au faucon pèlerin, qui dépasse 300 km/h en piqué."
+  },
+  {
+   "q": "Quel est le plus grand oiseau du monde, incapable de voler ?",
+   "choix": [
+    "L'autruche",
+    "L'émeu",
+    "Le condor",
+    "L'albatros"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "L'autruche, qui vit dans les savanes africaines, est le plus grand et le plus lourd des oiseaux actuels : elle peut atteindre 2,50 m et peser plus de 130 kg. Incapable de voler, elle compense par la course, avec des pointes à environ 70 km/h qui en font l'oiseau le plus rapide au sol. Elle pond aussi les plus gros œufs du monde animal actuel : environ 1,5 kg, soit l'équivalent d'une vingtaine d'œufs de poule. L'émeu d'Australie est le deuxième plus grand oiseau, tandis que l'albatros hurleur détient le record d'envergure, avec près de 3,50 m."
+  },
+  {
+   "q": "Quel est le seul mammifère capable de vol battu (vol actif) ?",
+   "choix": [
+    "La chauve-souris",
+    "L'écureuil volant",
+    "Le colugo",
+    "Le phalanger volant"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "La chauve-souris est le seul mammifère capable de vol actif, c'est-à-dire de voler en battant des ailes, formées d'une membrane de peau tendue entre ses doigts très allongés. Les autres « mammifères volants », comme l'écureuil volant ou le colugo, ne font que planer d'arbre en arbre. Avec plus de 1 400 espèces, les chauves-souris représentent environ un cinquième de tous les mammifères. Beaucoup se repèrent dans l'obscurité par écholocation, en émettant des ultrasons dont elles analysent l'écho, et jouent un rôle écologique majeur en consommant des insectes et en pollinisant certaines plantes."
+  },
+  {
+   "q": "Combien de cœurs possède une pieuvre ?",
+   "choix": [
+    "3",
+    "1",
+    "2",
+    "4"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La pieuvre possède trois cœurs : un cœur principal qui irrigue les organes et deux cœurs branchiaux qui envoient le sang vers les branchies pour l'oxygéner. Son sang est bleu, car il transporte l'oxygène grâce à l'hémocyanine, une molécule à base de cuivre, et non d'hémoglobine à base de fer. Les pieuvres comptent parmi les invertébrés les plus intelligents : elles savent résoudre des problèmes, ouvrir des bocaux et utiliser des outils comme des coquilles de noix de coco. Elles sont aussi capables de changer de couleur et de texture en une fraction de seconde pour se camoufler."
+  },
+  {
+   "q": "Combien de pattes possèdent les insectes ?",
+   "choix": [
+    "6",
+    "8",
+    "4",
+    "10"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Les insectes possèdent tous six pattes, fixées sur le thorax, c'est pourquoi on les appelle aussi hexapodes. Leur corps est divisé en trois parties : tête, thorax et abdomen, et la plupart portent des antennes et des ailes. Avec plus d'un million d'espèces décrites, les insectes forment le groupe animal le plus diversifié de la planète : environ deux espèces animales connues sur trois sont des insectes. Les araignées, avec leurs huit pattes et leur corps en deux parties, ne sont pas des insectes mais des arachnides."
+  },
+  {
+   "q": "Combien de pattes possèdent les araignées ?",
+   "choix": [
+    "8",
+    "6",
+    "10",
+    "12"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Les araignées possèdent huit pattes, ce qui les distingue immédiatement des insectes, qui n'en ont que six. Elles appartiennent à la classe des arachnides, qui comprend aussi les scorpions et les acariens, et leur corps se compose de deux parties, contre trois chez les insectes. On connaît plus de 50 000 espèces d'araignées, dont l'immense majorité est inoffensive pour l'homme. Leur soie, produite par des glandes situées à l'arrière de l'abdomen, est à poids égal plus résistante que l'acier, ce qui inspire de nombreuses recherches sur les matériaux."
+  },
+  {
+   "q": "Quel poisson, que l'on croyait disparu depuis des millions d'années, a été redécouvert vivant en 1938 ?",
+   "choix": [
+    "Le cœlacanthe",
+    "L'esturgeon",
+    "Le poisson-lune",
+    "La lamproie"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Le cœlacanthe, un poisson aux nageoires charnues que l'on croyait éteint depuis environ 66 millions d'années, a été redécouvert vivant en 1938 au large de l'Afrique du Sud par Marjorie Courtenay-Latimer, conservatrice de musée, qui le repéra parmi les prises d'un chalutier ; c'est l'ichtyologue J.L.B. Smith qui l'identifia formellement comme un cœlacanthe en 1939. Cette découverte fit sensation : on le surnomma « fossile vivant », même si le terme est aujourd'hui discuté car l'espèce a continué d'évoluer. Le cœlacanthe appartient aux sarcoptérygiens, le groupe de poissons dont sont issus les vertébrés terrestres. Deux espèces vivent actuellement dans l'océan Indien, à de grandes profondeurs, et peuvent dépasser 1,80 m de long."
+  },
+  {
+   "q": "Il y a combien de temps les dinosaures non-aviens ont-ils disparu ?",
+   "choix": [
+    "66 millions d'années",
+    "6 millions d'années",
+    "660 millions d'années",
+    "600 000 ans"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Les dinosaures non-aviens ont disparu il y a environ 66 millions d'années, lors de l'extinction de masse de la fin du Crétacé, qui a éliminé environ trois quarts des espèces de la planète. La cause principale retenue est l'impact d'un astéroïde d'une dizaine de kilomètres de diamètre, dont le cratère de Chicxulub, au Mexique, conserve la trace, aggravé par un intense volcanisme en Inde. Cette catastrophe a bouleversé le climat et les chaînes alimentaires mondiales. Les oiseaux, seuls descendants directs des dinosaures, ont survécu, tout comme les mammifères, qui ont ensuite diversifié et occupé les niches libérées."
+  },
+  {
+   "q": "Quel est l'âge approximatif de la Terre ?",
+   "choix": [
+    "4,5 milliards d'années",
+    "450 millions d'années",
+    "45 milliards d'années",
+    "13,8 milliards d'années"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La Terre s'est formée il y a environ 4,54 milliards d'années, en même temps que le reste du système solaire, par accrétion de poussières et de corps rocheux autour du jeune Soleil. Cet âge a été établi grâce à la datation radiométrique des météorites et des plus vieilles roches terrestres. Les premières traces de vie, des micro-organismes marins, remontent à au moins 3,5 milliards d'années. L'âge de 13,8 milliards d'années correspond, lui, à celui de l'Univers depuis le Big Bang."
+  },
+  {
+   "q": "En quelle année le célèbre fossile d'australopithèque « Lucy » a-t-il été découvert en Éthiopie ?",
+   "choix": [
+    "1974",
+    "1954",
+    "1984",
+    "1994"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Lucy a été découverte en 1974 dans la région de l'Afar, en Éthiopie, par une équipe internationale comprenant notamment le paléontologue français Yves Coppens et l'Américain Donald Johanson. Ce squelette d'Australopithecus afarensis, complet à environ 40 %, est vieux d'environ 3,2 millions d'années. Son bassin et ses membres montrent qu'elle marchait debout, tout en conservant des aptitudes à grimper aux arbres, ce qui en fit un jalon majeur de l'étude de la bipédie. Son nom vient de la chanson des Beatles « Lucy in the Sky with Diamonds », écoutée par l'équipe le soir de la découverte."
+  },
+  {
+   "q": "Il y a environ combien de temps l'espèce Homo sapiens est-elle apparue ?",
+   "choix": [
+    "300 000 ans",
+    "30 000 ans",
+    "3 millions d'années",
+    "30 millions d'années"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Les plus anciens fossiles attribués à Homo sapiens, découverts sur le site de Jebel Irhoud au Maroc, sont datés d'environ 300 000 ans, ce qui a repoussé l'âge de notre espèce, longtemps estimé à 200 000 ans. Homo sapiens est apparu en Afrique, puis s'est dispersé sur tous les continents, atteignant notamment l'Europe il y a environ 45 000 ans. Il y a côtoyé d'autres espèces humaines, comme Néandertal, avec lequel il s'est métissé : les populations non africaines actuelles portent environ 1 à 2 % d'ADN néandertalien. Nous sommes aujourd'hui la seule espèce survivante du genre Homo."
+  },
+  {
+   "q": "Quel gaz les plantes absorbent-elles pour réaliser la photosynthèse ?",
+   "choix": [
+    "Le dioxyde de carbone",
+    "Le dioxygène",
+    "L'azote",
+    "L'ozone"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Pour réaliser la photosynthèse, les plantes absorbent le dioxyde de carbone (CO2) de l'air par de minuscules pores situés sur leurs feuilles, les stomates. Combiné à l'eau puisée par les racines et à l'énergie lumineuse captée par la chlorophylle, ce CO2 est transformé en glucose, la matière première de la croissance végétale. Le dioxygène est rejeté comme sous-produit de la réaction. Ce mécanisme fait des forêts et des océans des « puits de carbone » qui absorbent une partie du CO2 émis par les activités humaines, jouant un rôle clé dans la régulation du climat."
+  },
+  {
+   "q": "Quels animaux assurent l'essentiel de la pollinisation des plantes à fleurs ?",
+   "choix": [
+    "Les insectes",
+    "Les oiseaux",
+    "Les rongeurs",
+    "Les reptiles"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Les insectes, au premier rang desquels les abeilles, mais aussi les papillons, bourdons, mouches et coléoptères, assurent la majeure partie de la pollinisation des plantes à fleurs. En butinant le nectar, ils transportent le pollen de fleur en fleur, permettant la fécondation et la formation des fruits et des graines. On estime qu'environ trois quarts des cultures alimentaires mondiales dépendent au moins en partie des pollinisateurs. Leur déclin, lié aux pesticides, à la destruction des habitats et aux maladies, constitue donc un enjeu écologique et agricole majeur ; certains oiseaux, comme les colibris, et des chauves-souris pollinisent aussi, mais dans une moindre mesure."
+  },
+  {
+   "q": "Quelle espèce d'arbre détient le record du monde de hauteur ?",
+   "choix": [
+    "Le séquoia à feuilles d'if",
+    "Le baobab",
+    "L'eucalyptus",
+    "Le chêne"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Le séquoia à feuilles d'if (Sequoia sempervirens), qui pousse sur la côte de Californie, détient le record de hauteur du monde végétal : l'arbre nommé « Hyperion », découvert en 2006, mesure environ 116 mètres, soit plus haut que la statue de la Liberté. Ces conifères peuvent vivre plus de 2 000 ans et profitent des brouillards côtiers qui les alimentent en eau. Leur cousin, le séquoia géant (Sequoiadendron giganteum), est moins haut mais plus massif : le « General Sherman » est considéré comme l'arbre le plus volumineux du monde, avec environ 1 500 m³ de bois. Certains eucalyptus australiens dépassent aussi les 100 mètres."
+  },
+  {
+   "q": "Combien de dents définitives compte une dentition adulte complète ?",
+   "choix": [
+    "32",
+    "28",
+    "36",
+    "24"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Une dentition adulte complète compte 32 dents : 8 incisives, 4 canines, 8 prémolaires et 12 molaires, dont les 4 dents de sagesse. Ces dernières, qui percent généralement entre 17 et 25 ans, sont parfois absentes ou doivent être extraites faute de place. Les enfants possèdent d'abord 20 dents de lait, qui tombent progressivement entre 6 et 12 ans pour laisser place aux dents définitives. L'émail qui recouvre les dents est la substance la plus dure du corps humain, plus dure que l'os."
+  },
+  {
+   "q": "Comment s'appelle le long prolongement du neurone qui conduit le message nerveux ?",
+   "choix": [
+    "L'axone",
+    "La dendrite",
+    "La synapse",
+    "Le noyau"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'axone est le long prolongement unique du neurone : il conduit le message nerveux, sous forme de signaux électriques, du corps cellulaire vers d'autres neurones, des muscles ou des glandes. Certains axones, comme ceux qui vont de la moelle épinière au pied, peuvent dépasser un mètre de long. Les dendrites, plus courtes et ramifiées, reçoivent au contraire les messages venant d'autres neurones. La jonction entre deux neurones s'appelle la synapse : le signal y passe généralement grâce à des molécules chimiques, les neurotransmetteurs, et le cerveau humain compte environ 86 milliards de neurones."
+  },
+  {
+   "q": "Quelle hormone, produite par le pancréas, fait baisser le taux de sucre dans le sang ?",
+   "choix": [
+    "L'insuline",
+    "L'adrénaline",
+    "La thyroxine",
+    "Le glucagon"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'insuline, sécrétée par les cellules bêta des îlots de Langerhans du pancréas, fait baisser la glycémie en permettant au glucose d'entrer dans les cellules, où il est utilisé ou stocké. Son partenaire, le glucagon, produit par le même organe, a l'effet inverse et fait remonter le taux de sucre : leur équilibre maintient la glycémie autour de 1 g par litre de sang. Le diabète de type 1 résulte d'une destruction des cellules productrices d'insuline, tandis que le type 2 correspond à une résistance de l'organisme à cette hormone. L'insuline fut isolée en 1921 par Frederick Banting et Charles Best, une découverte qui a sauvé des millions de vies."
+  },
+  {
+   "q": "À quel groupe d'animaux appartiennent les baleines et les dauphins ?",
+   "choix": [
+    "Les mammifères",
+    "Les poissons",
+    "Les amphibiens",
+    "Les reptiles"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Les baleines et les dauphins sont des mammifères marins, appelés cétacés, et non des poissons. Comme tous les mammifères, ils respirent de l'air avec des poumons, ce qui les oblige à remonter régulièrement en surface, mettent au monde des petits déjà formés et les allaitent. Leur nageoire caudale est horizontale, alors que celle des poissons est verticale. Les cétacés descendent de mammifères terrestres retournés à la vie aquatique il y a environ 50 millions d'années, et leurs plus proches parents actuels sont, de façon surprenante, les hippopotames."
+  },
+  {
+   "q": "Quelle valeur de pH correspond à une solution neutre ?",
+   "choix": [
+    "7",
+    "0",
+    "14",
+    "10"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "L'échelle de pH va de 0 à 14 : une solution de pH 7, comme l'eau pure, est neutre ; en dessous de 7 elle est acide, au-dessus elle est basique. Le jus de citron a un pH d'environ 2, le vinaigre autour de 3, tandis que l'eau savonneuse est basique. Dans le corps humain, le sang est légèrement basique, avec un pH très stable autour de 7,4, alors que le suc gastrique de l'estomac est extrêmement acide (pH proche de 2) pour digérer les aliments et détruire les microbes. En environnement, l'acidification des océans, liée à l'absorption du CO2, fait légèrement baisser le pH de l'eau de mer et menace les organismes à coquille."
+  },
+  {
+   "q": "Comment appelle-t-on les cellules sanguines chargées de défendre l'organisme contre les infections ?",
+   "choix": [
+    "Les globules blancs",
+    "Les globules rouges",
+    "Les plaquettes",
+    "Les neurones"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Les globules blancs, ou leucocytes, sont les cellules du système immunitaire : ils repèrent et détruisent les bactéries, virus et autres agents étrangers. Il en existe plusieurs familles : les phagocytes « avalent » les microbes, tandis que les lymphocytes produisent des anticorps ou détruisent les cellules infectées, et gardent la mémoire des infections passées. C'est cette mémoire immunitaire qui explique l'efficacité des vaccins, mis au point à partir des travaux d'Edward Jenner puis de Louis Pasteur au XIXe siècle. Un millimètre cube de sang contient environ 4 000 à 10 000 globules blancs, un nombre qui augmente en cas d'infection."
+  },
+  {
+   "q": "Quel gaz est le principal responsable du réchauffement climatique d'origine humaine ?",
+   "choix": [
+    "Le dioxyde de carbone",
+    "L'ozone",
+    "L'azote",
+    "L'argon"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le dioxyde de carbone (CO2), émis principalement par la combustion du charbon, du pétrole et du gaz, est le premier responsable du réchauffement climatique d'origine humaine. Sa concentration atmosphérique est passée d'environ 280 parties par million avant l'ère industrielle à plus de 420 ppm dans les années 2020, un niveau inédit depuis des millions d'années. Le CO2 renforce l'effet de serre naturel en piégeant le rayonnement infrarouge émis par la Terre. D'autres gaz y contribuent aussi, comme le méthane, plus puissant mais moins abondant ; l'accord de Paris de 2015 vise à limiter le réchauffement nettement en dessous de 2 °C par rapport à l'ère préindustrielle."
+  },
+  {
+   "q": "Comment s'appelle l'enveloppe solide la plus externe de la Terre ?",
+   "choix": [
+    "La croûte",
+    "Le manteau",
+    "Le noyau externe",
+    "La graine"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "La croûte est l'enveloppe solide la plus externe de la Terre : elle est épaisse d'environ 5 à 10 km sous les océans et de 30 à 70 km sous les continents, une pellicule très mince à l'échelle du globe. En dessous s'étend le manteau, qui représente environ 80 % du volume de la planète, puis le noyau externe, liquide et métallique, dont les mouvements engendrent le champ magnétique terrestre, et enfin la graine, solide, au centre. La température atteint environ 5 000 à 6 000 °C au cœur de la Terre. Ces connaissances proviennent surtout de l'étude des ondes sismiques, car le forage le plus profond jamais réalisé, en Russie, n'a atteint que 12 km."
+  },
+  {
+   "q": "Quel savant français a mis au point le vaccin contre la rage en 1885 ?",
+   "choix": [
+    "Louis Pasteur",
+    "Claude Bernard",
+    "Ambroise Paré",
+    "René Laennec"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "En 1885, Louis Pasteur administre avec succès le premier vaccin contre la rage au jeune Joseph Meister, mordu par un chien enragé, ouvrant une ère nouvelle pour la médecine préventive. Chimiste de formation, Pasteur avait auparavant démontré le rôle des micro-organismes dans les fermentations et les maladies, réfutant la théorie de la génération spontanée. On lui doit aussi la pasteurisation, procédé de conservation par chauffage, et des vaccins vétérinaires contre le charbon et le choléra des poules. L'Institut Pasteur, fondé à Paris en 1888 grâce à une souscription internationale, reste un grand centre mondial de recherche sur les maladies infectieuses."
+  }
+ ],
+ "cours": [
+  {
+   "titre": "Le corps humain",
+   "sections": [
+    {
+     "titre": "Le squelette et les muscles",
+     "texte": "Le squelette humain adulte compte 206 os, contre environ 270 à la naissance : certains os fusionnent pendant la croissance, notamment ceux du crâne. Il remplit trois fonctions essentielles : il soutient le corps, protège les organes fragiles (le crâne abrite le cerveau, la cage thoracique le cœur et les poumons) et fabrique les cellules du sang dans la moelle osseuse. Le fémur, os de la cuisse, est le plus long, tandis que l'étrier, dans l'oreille moyenne, est le plus petit avec environ 3 millimètres. Les os s'articulent entre eux au niveau des articulations, où les cartilages amortissent les frottements et les ligaments assurent le maintien. Le mouvement est produit par les muscles squelettiques, environ 600 dans le corps humain, qui s'attachent aux os par des tendons. Les muscles fonctionnent par paires antagonistes : quand le biceps se contracte pour plier le bras, le triceps se relâche, et inversement. L'os est un tissu vivant qui se renouvelle en permanence : il se densifie avec l'activité physique et se répare seul après une fracture, en formant un cal osseux. Avec l'âge, la masse osseuse diminue, ce qui peut conduire à l'ostéoporose, une fragilisation du squelette.",
+     "visuel": {
+      "type": "chiffres",
+      "titre": "Le squelette et les muscles",
+      "items": [
+       {
+        "valeur": "206",
+        "label": "os chez l'adulte"
+       },
+       {
+        "valeur": "270",
+        "label": "os environ à la naissance : certains fusionnent pendant la croissance"
+       },
+       {
+        "valeur": "600",
+        "label": "muscles squelettiques dans le corps humain"
+       },
+       {
+        "valeur": "3 mm",
+        "label": "l'étrier, dans l'oreille moyenne, le plus petit os"
+       }
+      ]
+     }
+    },
+    {
+     "titre": "Le cœur et la circulation sanguine",
+     "texte": "Le cœur est un muscle creux, le myocarde, qui propulse le sang dans tout l'organisme. Il comporte quatre cavités : deux oreillettes qui reçoivent le sang et deux ventricules qui l'éjectent. Le sang circule dans un double circuit découvert par William Harvey au XVIIe siècle : la circulation pulmonaire envoie le sang du cœur droit vers les poumons pour le recharger en oxygène, tandis que la circulation générale distribue le sang oxygéné du cœur gauche vers tous les organes. Les artères conduisent le sang qui sort du cœur, les veines le ramènent, et les échanges avec les organes se font dans les capillaires, vaisseaux si fins que les globules rouges y passent en file indienne. Au repos, le cœur bat 60 à 80 fois par minute et brasse environ 5 litres de sang, soit la totalité du volume sanguin, chaque minute. Le sang lui-même est composé d'un liquide, le plasma, et de cellules : les globules rouges transportent l'oxygène grâce à l'hémoglobine, les globules blancs défendent l'organisme et les plaquettes assurent la coagulation. Les maladies cardiovasculaires, comme l'infarctus, restent l'une des premières causes de mortalité dans le monde, d'où l'importance de l'exercice physique et d'une alimentation équilibrée."
+    },
+    {
+     "titre": "Le système nerveux",
+     "texte": "Le système nerveux commande et coordonne l'ensemble de l'organisme. Il comprend le système nerveux central, formé du cerveau et de la moelle épinière, et le système nerveux périphérique, constitué des nerfs qui relient le centre aux organes. Le cerveau humain, d'environ 1,3 à 1,4 kg, contient à peu près 86 milliards de neurones, des cellules spécialisées dans la transmission de signaux. Chaque neurone reçoit des messages par ses dendrites et les transmet par un prolongement unique, l'axone, parfois long de plus d'un mètre. La jonction entre deux neurones, la synapse, fonctionne le plus souvent grâce à des messagers chimiques appelés neurotransmetteurs, comme la dopamine ou la sérotonine. Les messages nerveux circulent très vite : jusqu'à environ 100 mètres par seconde dans les fibres les mieux isolées par la gaine de myéline. Le cortex cérébral, couche superficielle plissée du cerveau, traite les informations sensorielles, commande les mouvements volontaires et abrite le langage, la mémoire et le raisonnement. Certaines réactions, appelées réflexes, court-circuitent le cerveau : le message passe directement par la moelle épinière, ce qui permet par exemple de retirer sa main d'une source de chaleur en une fraction de seconde. Le cerveau, bien que représentant 2 % du poids du corps, consomme environ 20 % de son énergie."
+    },
+    {
+     "titre": "La digestion et la respiration",
+     "texte": "La digestion transforme les aliments en nutriments assez petits pour passer dans le sang. Elle commence dans la bouche, où les dents broient les aliments et où la salive amorce la dégradation de l'amidon. Le bol alimentaire descend ensuite par l'œsophage jusqu'à l'estomac, où il est malaxé et attaqué par un suc gastrique très acide pendant plusieurs heures. L'essentiel de l'absorption a lieu dans l'intestin grêle, long d'environ 6 à 7 mètres : ses millions de replis microscopiques, les villosités, offrent une surface d'échange considérable. Le foie et le pancréas participent à la digestion en déversant la bile et les sucs pancréatiques. Le gros intestin absorbe l'eau restante et abrite le microbiote, une communauté de dizaines de milliers de milliards de bactéries utiles à la digestion et à l'immunité. La respiration, elle, fournit l'oxygène nécessaire pour tirer l'énergie des nutriments. L'air entre par les voies respiratoires jusqu'aux poumons, dont les quelque 300 millions d'alvéoles offrent une surface d'échange comparable à un terrain de tennis. L'oxygène y passe dans le sang tandis que le dioxyde de carbone, déchet des cellules, est rejeté à l'expiration. Le diaphragme, muscle situé sous les poumons, est le principal moteur des mouvements respiratoires, au rythme d'environ 12 à 16 cycles par minute au repos."
+    },
+    {
+     "titre": "Le système immunitaire",
+     "texte": "Le système immunitaire protège l'organisme contre les agents infectieux : bactéries, virus, champignons et parasites. La première ligne de défense est constituée de barrières physiques et chimiques : la peau, les muqueuses, l'acidité de l'estomac ou encore les larmes. Si un microbe les franchit, l'immunité innée entre en action : des globules blancs appelés phagocytes englobent et digèrent les intrus, ce qui provoque souvent une inflammation locale, avec rougeur, chaleur et gonflement. Si l'infection persiste, l'immunité adaptative prend le relais : les lymphocytes B produisent des anticorps, des protéines qui se fixent spécifiquement sur l'agent pathogène pour le neutraliser, tandis que les lymphocytes T détruisent les cellules infectées. Point crucial, cette réponse laisse des cellules mémoires : lors d'une nouvelle rencontre avec le même microbe, la riposte est plus rapide et plus efficace. C'est ce principe qu'exploite la vaccination, initiée par Edward Jenner contre la variole en 1796 puis développée par Louis Pasteur : on présente au système immunitaire un agent inoffensif (atténué, inactivé ou un fragment) pour l'entraîner sans provoquer la maladie. Grâce aux vaccins, la variole a été éradiquée en 1980, seul exemple à ce jour d'une maladie humaine totalement éliminée de la planète.",
+     "visuel": {
+      "type": "etapes",
+      "titre": "Les trois lignes de défense immunitaire",
+      "etapes": [
+       {
+        "label": "Les barrières",
+        "texte": "Peau, muqueuses, acidité de l'estomac, larmes : la plupart des microbes n'iront pas plus loin."
+       },
+       {
+        "label": "L'immunité innée",
+        "texte": "Les phagocytes englobent et digèrent les intrus ; l'inflammation locale, rougeur, chaleur et gonflement, en est le signe."
+       },
+       {
+        "label": "L'immunité adaptative",
+        "texte": "Les lymphocytes B produisent des anticorps spécifiques, les lymphocytes T détruisent les cellules infectées."
+       },
+       {
+        "label": "La mémoire",
+        "texte": "Des cellules mémoires subsistent : à la rencontre suivante, la riposte est plus rapide et plus efficace."
+       },
+       {
+        "label": "La vaccination",
+        "texte": "Elle exploite ce principe en présentant un agent inoffensif — atténué, inactivé ou fragmenté — pour entraîner la défense sans provoquer la maladie."
+       }
+      ]
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Quel muscle est le principal moteur de la respiration ?",
+     "choix": [
+      "Le diaphragme",
+      "Le biceps",
+      "Le myocarde",
+      "Les abdominaux"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Le diaphragme est un muscle en forme de coupole situé sous les poumons, qui sépare le thorax de l'abdomen. En se contractant, il s'abaisse et augmente le volume de la cage thoracique, ce qui fait entrer l'air dans les poumons ; en se relâchant, il provoque l'expiration. Nous respirons ainsi environ 12 à 16 fois par minute au repos, sans y penser. Le hoquet correspond d'ailleurs à des contractions involontaires et répétées de ce muscle."
+    },
+    {
+     "q": "Dans quel organe l'essentiel des nutriments passe-t-il dans le sang ?",
+     "choix": [
+      "L'intestin grêle",
+      "L'estomac",
+      "Le gros intestin",
+      "L'œsophage"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "C'est dans l'intestin grêle, long de 6 à 7 mètres, que la plus grande partie des nutriments est absorbée et passe dans le sang. Sa paroi est tapissée de millions de villosités, des replis microscopiques qui multiplient la surface d'échange. L'estomac, lui, malaxe et dégrade les aliments grâce à un suc très acide, mais absorbe peu de nutriments. Le gros intestin récupère surtout l'eau et héberge le microbiote intestinal."
+    },
+    {
+     "q": "Quelles cellules produisent les anticorps ?",
+     "choix": [
+      "Les lymphocytes B",
+      "Les globules rouges",
+      "Les plaquettes",
+      "Les neurones"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Les anticorps sont produits par les lymphocytes B, une catégorie de globules blancs de l'immunité adaptative. Chaque anticorps reconnaît spécifiquement un agent pathogène et se fixe sur lui pour le neutraliser ou faciliter sa destruction. Après l'infection, des lymphocytes mémoires subsistent et permettent une riposte plus rapide en cas de nouvelle rencontre. C'est ce mécanisme de mémoire immunitaire que la vaccination met à profit."
+    },
+    {
+     "q": "Combien de neurones le cerveau humain contient-il environ ?",
+     "choix": [
+      "86 milliards",
+      "86 millions",
+      "8,6 milliards",
+      "860 milliards"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "Le cerveau humain contient environ 86 milliards de neurones, un chiffre établi par des comptages cellulaires modernes qui a remplacé l'estimation traditionnelle de 100 milliards. Chaque neurone peut être connecté à des milliers d'autres par des synapses, formant un réseau d'une complexité vertigineuse. Le cerveau ne pèse qu'environ 1,4 kg, soit 2 % du poids du corps, mais consomme près de 20 % de son énergie. Les neurones sont accompagnés de cellules gliales, qui les nourrissent et les protègent."
+    },
+    {
+     "q": "Quel médecin anglais a décrit la circulation sanguine au XVIIe siècle ?",
+     "choix": [
+      "William Harvey",
+      "Edward Jenner",
+      "Alexander Fleming",
+      "Joseph Lister"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "En 1628, le médecin anglais William Harvey démontre que le sang circule en circuit fermé, propulsé par le cœur, et ne se consume pas dans les organes comme on le croyait depuis Galien. Cette découverte fonde la physiologie moderne. Edward Jenner est, lui, le pionnier de la vaccination contre la variole en 1796, et Alexander Fleming le découvreur de la pénicilline en 1928. Joseph Lister, enfin, a introduit l'antisepsie en chirurgie au XIXe siècle."
+    }
+   ]
+  },
+  {
+   "titre": "Génétique et évolution",
+   "sections": [
+    {
+     "titre": "L'ADN, support de l'hérédité",
+     "texte": "L'ADN, ou acide désoxyribonucléique, est la molécule qui porte l'information héréditaire de presque tous les êtres vivants. Sa structure en double hélice, semblable à une échelle torsadée, a été décrite en 1953 par James Watson et Francis Crick, grâce notamment aux images de diffraction aux rayons X de Rosalind Franklin. Les « barreaux » de l'échelle sont formés de paires de bases chimiques : l'adénine s'associe toujours à la thymine, et la guanine à la cytosine. L'ordre de ces quatre lettres, A, T, G et C, constitue un véritable code : le génome humain en compte environ 3 milliards de paires. Un gène est un fragment d'ADN qui contient la recette de fabrication d'une protéine ; l'espèce humaine possède environ 20 000 gènes. Dans le noyau de chaque cellule, l'ADN est empaqueté en 46 chromosomes, soit 23 paires, dont une paire de chromosomes sexuels : XX chez la femme, XY chez l'homme. Avant chaque division cellulaire, l'ADN se recopie intégralement, avec un taux d'erreur extrêmement faible. Ces rares erreurs, les mutations, sont le plus souvent sans effet, parfois nuisibles, parfois avantageuses : elles constituent la matière première de l'évolution. Le séquençage complet du génome humain, achevé pour l'essentiel en 2003, a ouvert la voie à la médecine génomique.",
+     "visuel": {
+      "type": "chiffres",
+      "titre": "L'ADN humain en chiffres",
+      "items": [
+       {
+        "valeur": "4",
+        "label": "lettres seulement : A, T, G et C"
+       },
+       {
+        "valeur": "3 Mds",
+        "label": "paires de bases dans le génome humain"
+       },
+       {
+        "valeur": "20 000",
+        "label": "gènes environ dans l'espèce humaine"
+       },
+       {
+        "valeur": "46",
+        "label": "chromosomes, soit 23 paires, dont une paire sexuelle"
+       }
+      ]
+     }
+    },
+    {
+     "titre": "De Mendel à la génétique moderne",
+     "texte": "Les lois de l'hérédité ont été découvertes par le moine autrichien Gregor Mendel, qui croisa des milliers de pieds de pois dans le jardin de son monastère de Brno. En 1866, il publie ses résultats : les caractères héréditaires sont transmis par des « facteurs » distincts, reçus en double exemplaire, un de chaque parent, et certains sont dominants tandis que d'autres sont récessifs. Un caractère récessif peut ainsi sauter une génération avant de réapparaître. Ignorés de son vivant, ces travaux sont redécouverts en 1900 et fondent la génétique, mot créé en 1905. On appelle aujourd'hui allèles les différentes versions d'un même gène : c'est leur combinaison qui explique, par exemple, les groupes sanguins A, B, AB et O. Au début du XXe siècle, Thomas Morgan démontre grâce à la mouche du vinaigre que les gènes sont portés par les chromosomes et alignés le long de ceux-ci. La seconde moitié du siècle voit naître la biologie moléculaire : structure de l'ADN en 1953, déchiffrage du code génétique dans les années 1960, premières manipulations génétiques dans les années 1970. Aujourd'hui, des outils comme CRISPR-Cas9, mis au point en 2012 par Emmanuelle Charpentier et Jennifer Doudna, prix Nobel de chimie 2020, permettent de modifier l'ADN avec une précision inédite."
+    },
+    {
+     "titre": "Darwin et la sélection naturelle",
+     "texte": "En 1859, Charles Darwin publie « L'Origine des espèces », l'un des livres les plus influents de l'histoire des sciences. Sa thèse : les espèces ne sont pas fixes, elles descendent les unes des autres et se transforment au fil des générations sous l'effet de la sélection naturelle. Le raisonnement repose sur trois constats simples. D'abord, les individus d'une même espèce présentent des variations : taille, couleur, résistance aux maladies. Ensuite, une partie de ces variations est héréditaire. Enfin, les ressources étant limitées, tous les individus ne survivent pas ni ne se reproduisent : ceux qui portent des caractères avantageux dans leur milieu laissent en moyenne plus de descendants, et ces caractères se répandent dans la population. Darwin a mûri sa théorie pendant plus de vingt ans, nourrie par son tour du monde à bord du Beagle (1831-1836) et ses observations aux Galápagos, où les pinsons de chaque île présentent des becs adaptés à leur nourriture. Le naturaliste Alfred Russel Wallace parvint indépendamment aux mêmes conclusions, ce qui poussa Darwin à publier. La théorie moderne de l'évolution, dite synthétique, unit depuis les années 1940 la sélection naturelle de Darwin et la génétique issue de Mendel : les mutations créent la variation, la sélection trie. La résistance des bactéries aux antibiotiques en est un exemple observable en temps réel.",
+     "visuel": {
+      "type": "etapes",
+      "titre": "Le raisonnement de Darwin en quatre pas",
+      "etapes": [
+       {
+        "label": "Les individus varient",
+        "texte": "Au sein d'une même espèce : taille, couleur, résistance aux maladies."
+       },
+       {
+        "label": "Une partie de ces variations est héréditaire",
+        "texte": "Elle se transmet donc à la descendance."
+       },
+       {
+        "label": "Les ressources sont limitées",
+        "texte": "Tous les individus ne survivent pas, ni ne se reproduisent."
+       },
+       {
+        "label": "Le tri s'opère",
+        "texte": "Ceux qui portent des caractères avantageux dans leur milieu laissent en moyenne plus de descendants, et ces caractères se répandent."
+       }
+      ],
+      "note": "La théorie synthétique, depuis les années 1940, unit Darwin et Mendel : les mutations créent la variation, la sélection trie. La résistance des bactéries aux antibiotiques en est un exemple observable en temps réel."
+     }
+    },
+    {
+     "titre": "L'histoire de la vie sur Terre",
+     "texte": "La vie est apparue dans les océans il y a au moins 3,5 milliards d'années, sous forme de micro-organismes unicellulaires, alors que la Terre s'est formée il y a environ 4,54 milliards d'années. Pendant près de trois milliards d'années, la vie reste essentiellement microbienne ; les cyanobactéries, pratiquant la photosynthèse, enrichissent peu à peu l'atmosphère en oxygène, un bouleversement appelé « grande oxygénation », il y a environ 2,4 milliards d'années. Les premiers animaux apparaissent à la fin du Précambrien, puis l'explosion cambrienne, il y a environ 540 millions d'années, voit surgir la plupart des grands groupes d'animaux actuels. La vie sort ensuite des eaux : plantes puis arthropodes colonisent les continents, suivis des premiers vertébrés terrestres il y a environ 370 millions d'années. L'histoire de la vie est ponctuée de cinq grandes extinctions de masse. La plus sévère, à la fin du Permien il y a 252 millions d'années, élimine plus de 90 % des espèces marines ; la plus célèbre, il y a 66 millions d'années, provoquée notamment par l'impact d'un astéroïde à Chicxulub, emporte les dinosaures non-aviens. Chaque crise est suivie d'une diversification des survivants : ainsi les mammifères, longtemps discrets, se sont-ils épanouis après la disparition des dinosaures, jusqu'à l'apparition d'Homo sapiens en Afrique il y a environ 300 000 ans."
+    },
+    {
+     "titre": "L'évolution humaine",
+     "texte": "L'être humain n'a pas « descendu du singe » : il partage avec les grands singes actuels des ancêtres communs, dont la lignée humaine s'est séparée en Afrique il y a environ 7 millions d'années. Parmi les plus anciens représentants possibles de cette lignée figure Toumaï (Sahelanthropus tchadensis), découvert au Tchad en 2001 et daté d'environ 7 millions d'années. Les australopithèques, comme la célèbre Lucy, découverte en Éthiopie en 1974 et vieille d'environ 3,2 millions d'années, marchaient debout tout en grimpant encore aux arbres. Le genre Homo apparaît il y a environ 2,8 millions d'années : Homo habilis taille des outils de pierre, puis Homo erectus, premier grand migrateur, quitte l'Afrique et apprend à maîtriser le feu, il y a environ 400 000 ans pour les preuves les mieux établies. Homo sapiens, notre espèce, émerge en Afrique il y a environ 300 000 ans, comme l'attestent les fossiles marocains de Jebel Irhoud. En se dispersant sur tous les continents, il rencontre d'autres humains : Néandertal en Europe, Denisova en Asie. Les analyses d'ADN ancien, couronnées par le prix Nobel de Svante Pääbo en 2022, ont montré que ces espèces se sont métissées : les populations actuelles non africaines portent environ 1 à 2 % d'ADN néandertalien. Néandertal disparaît il y a environ 40 000 ans, laissant Homo sapiens seul représentant du genre humain.",
+     "visuel": {
+      "type": "frise",
+      "titre": "Sept millions d'années de lignée humaine",
+      "evenements": [
+       {
+        "date": "−7 Ma",
+        "label": "Séparation d'avec la lignée des grands singes",
+        "texte": "Toumaï, découvert au Tchad en 2001, en est l'un des plus anciens représentants possibles."
+       },
+       {
+        "date": "−3,2 Ma",
+        "label": "Lucy, australopithèque",
+        "texte": "Découverte en Éthiopie en 1974 : elle marche debout tout en grimpant encore aux arbres."
+       },
+       {
+        "date": "−2,8 Ma",
+        "label": "Apparition du genre Homo",
+        "texte": "Homo habilis taille des outils de pierre."
+       },
+       {
+        "date": "−400 000 ans",
+        "label": "Homo erectus maîtrise le feu",
+        "texte": "Premier grand migrateur, il avait déjà quitté l'Afrique."
+       },
+       {
+        "date": "−300 000 ans",
+        "label": "Homo sapiens en Afrique",
+        "texte": "Attesté par les fossiles marocains de Jebel Irhoud."
+       },
+       {
+        "date": "−40 000 ans",
+        "label": "Disparition de Néandertal",
+        "texte": "Les populations actuelles non africaines portent encore 1 à 2 % d'ADN néandertalien."
+       }
+      ]
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Qui a établi les lois fondamentales de l'hérédité en étudiant des pois ?",
+     "choix": [
+      "Gregor Mendel",
+      "Charles Darwin",
+      "Louis Pasteur",
+      "Rosalind Franklin"
+     ],
+     "bonne": 0,
+     "difficulte": 1,
+     "explication": "Le moine autrichien Gregor Mendel a découvert les lois de l'hérédité en croisant des milliers de pieds de pois dans son monastère de Brno, et publie ses résultats en 1866. Il montre que les caractères sont transmis par des facteurs discrets, aujourd'hui appelés gènes, reçus en double exemplaire, et que certains sont dominants et d'autres récessifs. Ses travaux, ignorés de son vivant, furent redécouverts en 1900. Ils fondent la génétique moderne."
+    },
+    {
+     "q": "Quelles sont les quatre bases de l'ADN ?",
+     "choix": [
+      "A, T, G, C",
+      "A, U, G, C",
+      "A, B, C, D",
+      "X, Y, Z, W"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "L'ADN utilise quatre bases azotées : adénine (A), thymine (T), guanine (G) et cytosine (C). Elles s'apparient de façon stricte, A avec T et G avec C, ce qui permet la copie fidèle de la molécule lors des divisions cellulaires. La séquence de ces bases code l'information génétique, et le génome humain en compte environ 3 milliards de paires. Dans l'ARN, molécule cousine de l'ADN, la thymine est remplacée par l'uracile (U)."
+    },
+    {
+     "q": "Lors de quel événement la plupart des grands groupes d'animaux sont-ils apparus ?",
+     "choix": [
+      "L'explosion cambrienne",
+      "La grande oxygénation",
+      "L'extinction du Permien",
+      "La crise du Crétacé"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "L'explosion cambrienne, il y a environ 540 millions d'années, correspond à une diversification spectaculaire de la vie animale : la plupart des grands groupes d'animaux actuels apparaissent dans les archives fossiles en quelques dizaines de millions d'années. Les gisements exceptionnels comme celui de Burgess, au Canada, en conservent des témoignages détaillés. La grande oxygénation, bien plus ancienne, désigne l'enrichissement de l'atmosphère en oxygène par les cyanobactéries. Les extinctions du Permien et du Crétacé sont au contraire des crises qui ont détruit une grande partie de la biodiversité."
+    },
+    {
+     "q": "Quel fossile surnommé « Toumaï », vieux d'environ 7 millions d'années, a été découvert au Tchad ?",
+     "choix": [
+      "Sahelanthropus tchadensis",
+      "Australopithecus afarensis",
+      "Homo habilis",
+      "Homo erectus"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "Toumaï est le surnom du crâne de Sahelanthropus tchadensis, découvert en 2001 au Tchad par l'équipe du paléontologue français Michel Brunet. Daté d'environ 7 millions d'années, il est l'un des plus anciens représentants possibles de la lignée humaine, proche de la séparation avec celle des chimpanzés. Son nom signifie « espoir de vie » en langue locale. Lucy, elle, est une Australopithecus afarensis d'environ 3,2 millions d'années découverte en Éthiopie."
+    },
+    {
+     "q": "Quel outil de modification de l'ADN a valu le prix Nobel de chimie 2020 à Emmanuelle Charpentier et Jennifer Doudna ?",
+     "choix": [
+      "CRISPR-Cas9",
+      "La PCR",
+      "Le microscope électronique",
+      "La radiographie"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "CRISPR-Cas9, mis au point en 2012, est un outil de « ciseaux moléculaires » qui permet de couper l'ADN à un endroit précis pour supprimer, corriger ou insérer un gène. La Française Emmanuelle Charpentier et l'Américaine Jennifer Doudna ont reçu pour cette découverte le prix Nobel de chimie 2020. Dérivé d'un système de défense des bactéries contre les virus, CRISPR a révolutionné la recherche biomédicale et l'agronomie. Son utilisation sur l'embryon humain soulève d'importantes questions éthiques et reste strictement encadrée."
+    }
+   ]
+  },
+  {
+   "titre": "La Terre et le système solaire",
+   "sections": [
+    {
+     "titre": "La structure interne de la Terre",
+     "texte": "La Terre est structurée en enveloppes concentriques, comme un oignon. En surface, la croûte est très mince à l'échelle du globe : 5 à 10 km sous les océans, 30 à 70 km sous les continents. En dessous s'étend le manteau, qui descend jusqu'à environ 2 900 km de profondeur et représente près de 80 % du volume terrestre ; ses roches, solides mais déformables, sont animées de très lents mouvements de convection. Vient ensuite le noyau, composé essentiellement de fer et de nickel : sa partie externe est liquide, et ses mouvements engendrent le champ magnétique terrestre, ce bouclier invisible qui dévie les particules du vent solaire et fait pointer les boussoles vers le nord. Au centre, la graine, solide malgré une température d'environ 5 000 à 6 000 °C, a un rayon d'environ 1 200 km. Comment connaît-on cet intérieur inaccessible ? Principalement grâce aux séismes : les ondes sismiques changent de vitesse et de trajectoire selon les milieux traversés, ce qui permet de « radiographier » la planète. Le forage le plus profond jamais réalisé, dans la péninsule de Kola en Russie, n'a atteint que 12 km, soit à peine 0,2 % du rayon terrestre, qui mesure environ 6 371 km."
+    },
+    {
+     "titre": "La tectonique des plaques",
+     "texte": "La surface de la Terre est découpée en une quinzaine de grandes plaques rigides, les plaques lithosphériques, qui se déplacent de quelques centimètres par an, à peu près à la vitesse de pousse des ongles. Cette théorie, la tectonique des plaques, s'est imposée dans les années 1960, réhabilitant l'intuition d'Alfred Wegener qui avait proposé dès 1912 la dérive des continents à partir de l'emboîtement des côtes atlantiques et de la répartition des fossiles. Aux frontières des plaques se concentre l'essentiel de l'activité géologique. Là où les plaques s'écartent, au niveau des dorsales océaniques, du magma remonte et fabrique en permanence du nouveau plancher océanique. Là où elles convergent, une plaque océanique peut plonger sous une autre : ces zones de subduction engendrent les séismes les plus puissants et des volcans explosifs, comme ceux de la « ceinture de feu » du Pacifique. La collision de deux continents soulève des chaînes de montagnes : l'Himalaya résulte ainsi de la rencontre entre l'Inde et l'Eurasie, entamée il y a environ 50 millions d'années. Enfin, les plaques peuvent coulisser l'une contre l'autre, comme le long de la faille de San Andreas en Californie. Il y a environ 250 millions d'années, tous les continents étaient réunis en un supercontinent unique, la Pangée, dont la fragmentation a dessiné la géographie actuelle."
+    },
+    {
+     "titre": "Le système solaire",
+     "texte": "Le système solaire s'est formé il y a environ 4,6 milliards d'années à partir d'un nuage de gaz et de poussières qui s'est effondré sur lui-même. En son centre, le Soleil, une étoile de taille moyenne, concentre plus de 99 % de la masse totale ; sa surface est à environ 5 500 °C et son cœur, siège des réactions de fusion de l'hydrogène en hélium, atteint 15 millions de degrés. Autour de lui gravitent huit planètes. Les quatre plus proches, Mercure, Vénus, la Terre et Mars, sont des planètes telluriques, petites et rocheuses. Les quatre plus lointaines sont des géantes : Jupiter et Saturne, géantes gazeuses riches en hydrogène et en hélium, puis Uranus et Neptune, géantes de glaces. Jupiter, la plus grosse, pourrait contenir 1 300 fois la Terre en volume. Entre Mars et Jupiter s'étend la ceinture d'astéroïdes, et au-delà de Neptune la ceinture de Kuiper, où se trouve Pluton, reclassée planète naine en 2006 par l'Union astronomique internationale. Les comètes, boules de glace et de poussière, développent une queue spectaculaire en s'approchant du Soleil. La Terre, troisième planète, est la seule où l'eau liquide abonde en surface : elle se situe dans la « zone habitable », ni trop près ni trop loin de son étoile, condition qui a permis l'éclosion de la vie.",
+     "visuel": {
+      "type": "comparaison",
+      "titre": "Deux familles de planètes",
+      "colonnes": [
+       {
+        "titre": "Les telluriques",
+        "points": [
+         "Mercure, Vénus, la Terre, Mars",
+         "Petites et rocheuses",
+         "Les plus proches du Soleil",
+         "La Terre est la seule où l'eau liquide abonde en surface"
+        ]
+       },
+       {
+        "titre": "Les géantes",
+        "points": [
+         "Jupiter et Saturne : géantes gazeuses, hydrogène et hélium",
+         "Uranus et Neptune : géantes de glaces",
+         "Les plus lointaines",
+         "Jupiter pourrait contenir 1 300 fois la Terre en volume"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "titre": "La Terre, la Lune et les saisons",
+     "texte": "La Terre tourne sur elle-même en environ 24 heures, ce qui produit l'alternance des jours et des nuits, et effectue le tour du Soleil en environ 365 jours et 6 heures ; ce quart de jour supplémentaire justifie l'ajout d'un 29 février tous les quatre ans, lors des années bissextiles. Contrairement à une idée répandue, les saisons ne s'expliquent pas par la distance au Soleil, mais par l'inclinaison de l'axe de rotation terrestre, d'environ 23,5 degrés. Quand l'hémisphère Nord est incliné vers le Soleil, il reçoit des rayons plus directs et des journées plus longues : c'est l'été boréal, tandis que l'hémisphère Sud connaît l'hiver, et inversement six mois plus tard. La Lune, unique satellite naturel de la Terre, orbite en environ 27 jours et présente toujours la même face, car sa rotation est synchronisée avec sa révolution. Née très probablement d'une collision géante entre la jeune Terre et un corps de la taille de Mars il y a environ 4,5 milliards d'années, elle s'éloigne de nous d'environ 3,8 cm par an. Son attraction, combinée à celle du Soleil, provoque les marées. Les éclipses de Soleil se produisent quand la Lune s'intercale exactement entre la Terre et le Soleil ; les éclipses de Lune, quand la Terre projette son ombre sur son satellite.",
+     "visuel": {
+      "type": "chiffres",
+      "titre": "Les mouvements qui font nos jours et nos saisons",
+      "items": [
+       {
+        "valeur": "24 h",
+        "label": "pour un tour de la Terre sur elle-même : le jour et la nuit"
+       },
+       {
+        "valeur": "365 j 6 h",
+        "label": "pour un tour autour du Soleil — d'où le 29 février tous les quatre ans"
+       },
+       {
+        "valeur": "23,5°",
+        "label": "l'inclinaison de l'axe terrestre : c'est elle, et non la distance au Soleil, qui fait les saisons"
+       },
+       {
+        "valeur": "3,8 cm/an",
+        "label": "l'éloignement de la Lune, qui présente toujours la même face"
+       }
+      ]
+     }
+    },
+    {
+     "titre": "Atmosphère, climat et environnement",
+     "texte": "L'atmosphère terrestre est composée d'environ 78 % d'azote, 21 % d'oxygène, 0,93 % d'argon et 0,04 % de dioxyde de carbone, plus de la vapeur d'eau en quantité variable. Sa couche la plus basse, la troposphère, concentre l'essentiel de la masse de l'air et tous les phénomènes météorologiques ; au-dessus, dans la stratosphère, la couche d'ozone filtre les ultraviolets dangereux du Soleil. L'atmosphère assure aussi un effet de serre naturel : la vapeur d'eau, le CO2 et le méthane retiennent une partie de la chaleur émise par la surface, portant la température moyenne du globe à environ 15 °C au lieu de -18 °C sans cet effet. Ce mécanisme vital est aujourd'hui amplifié par les activités humaines : la combustion des énergies fossiles a fait grimper la concentration de CO2 d'environ 280 parties par million avant l'ère industrielle à plus de 420 ppm dans les années 2020. Le GIEC, groupe d'experts créé en 1988, établit que la planète s'est déjà réchauffée d'environ 1,1 à 1,2 °C par rapport à la fin du XIXe siècle, provoquant fonte des glaciers, élévation du niveau des mers et multiplication des canicules. L'accord de Paris, adopté en 2015 par la quasi-totalité des pays, vise à contenir le réchauffement nettement sous 2 °C, si possible à 1,5 °C. La transition énergétique, la sobriété et la protection des puits de carbone que sont forêts et océans en sont les principaux leviers.",
+     "visuel": {
+      "type": "barres",
+      "titre": "Le dioxyde de carbone dans l'atmosphère",
+      "unite": "ppm",
+      "donnees": [
+       {
+        "label": "Avant l'ère industrielle",
+        "valeur": 280
+       },
+       {
+        "label": "Années 2020",
+        "valeur": 420,
+        "focus": true
+       }
+      ],
+      "note": "L'effet de serre naturel porte la température moyenne du globe à environ 15 °C au lieu de −18 °C. Amplifié par la combustion des énergies fossiles, il a déjà réchauffé la planète de 1,1 à 1,2 °C depuis la fin du XIXe siècle. L'accord de Paris, adopté en 2015, vise nettement moins de 2 °C, si possible 1,5 °C."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Qu'est-ce qui explique l'existence des saisons sur Terre ?",
+     "choix": [
+      "L'inclinaison de l'axe de rotation terrestre",
+      "La distance variable entre la Terre et le Soleil",
+      "La rotation de la Lune",
+      "Les courants océaniques"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Les saisons résultent de l'inclinaison de l'axe de rotation de la Terre, d'environ 23,5 degrés par rapport au plan de son orbite. L'hémisphère penché vers le Soleil reçoit des rayons plus directs et bénéficie de journées plus longues : c'est l'été, pendant que l'autre hémisphère vit l'hiver. La distance Terre-Soleil varie peu et n'explique pas les saisons ; la Terre est d'ailleurs légèrement plus proche du Soleil en janvier, en plein hiver boréal. C'est pourquoi les saisons sont inversées entre les deux hémisphères."
+    },
+    {
+     "q": "Comment s'appelait le supercontinent unique qui a existé il y a environ 250 millions d'années ?",
+     "choix": [
+      "La Pangée",
+      "Gondwana",
+      "La Laurasie",
+      "L'Atlantide"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "La Pangée est le supercontinent qui réunissait la quasi-totalité des terres émergées il y a environ 250 à 300 millions d'années. Sa fragmentation, à partir d'il y a environ 200 millions d'années, a d'abord donné deux ensembles, la Laurasie au nord et le Gondwana au sud, avant d'aboutir aux continents actuels. C'est Alfred Wegener qui a introduit ce concept dans sa théorie de la dérive des continents en 1912. L'ouverture de l'océan Atlantique, toujours en cours, en est une conséquence directe."
+    },
+    {
+     "q": "Quelle réaction produit l'énergie du Soleil ?",
+     "choix": [
+      "La fusion de l'hydrogène en hélium",
+      "La fission de l'uranium",
+      "La combustion du gaz",
+      "Les réactions chimiques du fer"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Au cœur du Soleil, où la température atteint environ 15 millions de degrés, des noyaux d'hydrogène fusionnent pour former de l'hélium, libérant d'énormes quantités d'énergie selon la célèbre équation d'Einstein E=mc². Chaque seconde, le Soleil convertit ainsi environ 4 millions de tonnes de matière en énergie. Ce n'est donc pas une combustion, qui nécessiterait de l'oxygène, ni une fission comme dans nos centrales nucléaires. Le Soleil brille ainsi depuis 4,6 milliards d'années et continuera pendant environ 5 milliards d'années."
+    },
+    {
+     "q": "Que trouve-t-on aux dorsales océaniques ?",
+     "choix": [
+      "La création de nouveau plancher océanique",
+      "La disparition des plaques dans le manteau",
+      "Des chaînes de montagnes continentales",
+      "Les plus grands déserts"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "Les dorsales océaniques sont d'immenses chaînes volcaniques sous-marines situées là où deux plaques s'écartent : le magma qui y remonte se solidifie et fabrique en continu du nouveau plancher océanique. Ce phénomène d'expansion des fonds océaniques, démontré dans les années 1960, a validé la théorie de la tectonique des plaques. La dorsale médio-atlantique, qui traverse l'Islande, éloigne ainsi l'Europe de l'Amérique de quelques centimètres par an. La disparition des plaques se produit au contraire dans les zones de subduction, au niveau des fosses océaniques."
+    },
+    {
+     "q": "Quel organisme international, créé en 1988, évalue les connaissances sur le changement climatique ?",
+     "choix": [
+      "Le GIEC",
+      "L'OMS",
+      "La NASA",
+      "L'UNESCO"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Le GIEC (Groupe d'experts intergouvernemental sur l'évolution du climat), créé en 1988 par l'ONU, synthétise les travaux scientifiques mondiaux sur le changement climatique. Ses rapports, publiés par cycles, servent de référence aux négociations internationales comme l'accord de Paris de 2015. Le GIEC a reçu le prix Nobel de la paix en 2007, conjointement avec Al Gore. Ses conclusions établissent sans équivoque que le réchauffement observé depuis le milieu du XXe siècle est dû aux activités humaines."
+    }
+   ]
+  }
+ ]
+}

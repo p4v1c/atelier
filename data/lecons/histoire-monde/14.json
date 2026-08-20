@@ -1,0 +1,148 @@
+{
+ "titre": "Les Vikings et l'Europe du Nord (793 - 1066)",
+ "sections": [
+  {
+   "titre": "Qui sont les Vikings ?",
+   "texte": "Les Vikings sont des Scandinaves qui, du huitième au onzième siècle, ont été à la fois commerçants, pillards, pirates, guerriers et explorateurs. Le mot lui-même ne désignait pas un peuple mais une activité : partir en expédition maritime, généralement pour piller ou pour commercer. Ils venaient principalement des territoires correspondant aujourd'hui au Danemark, à la Norvège et au Götaland suédois ; les analyses génétiques récentes montrent d'ailleurs que les équipages comprenaient aussi des Anglo-Saxons, des Pictes ou des Baltes, ce qui confirme qu'il s'agit d'un phénomène social plus que d'une ethnie. La période que les historiens appellent l'âge viking s'étend de 793 à 1066. La première date correspond au pillage du monastère de Lindisfarne, sur la côte anglaise, événement qui frappa d'effroi la chrétienté et fut abondamment décrit par les chroniqueurs ; la seconde renvoie à l'année 1066 et à la conquête de l'Angleterre par le duc de Normandie, à la bataille de Hastings. Ces sociétés vivaient d'abord de l'agriculture et de l'élevage sur des terres souvent pauvres et limitées ; les expéditions étaient saisonnières, menées après les semailles ou après la récolte. Le manque de terres, la concurrence entre chefs et l'attrait des richesses des monastères et des villes marchandes de l'Europe chrétienne expliquent en grande partie ce mouvement d'expansion.",
+   "visuel": {
+    "type": "frise",
+    "titre": "L'âge viking, de Lindisfarne à Hastings",
+    "evenements": [
+     {
+      "date": "793",
+      "label": "Pillage du monastère de Lindisfarne",
+      "texte": "Sur la côte anglaise : l'événement frappe d'effroi la chrétienté et ouvre la période."
+     },
+     {
+      "date": "IXe siècle",
+      "label": "Les grandes armées danoises et le Danelaw",
+      "texte": "Les Vikings hivernent sur place puis s'installent durablement en Angleterre."
+     },
+     {
+      "date": "Années 870",
+      "label": "Colonisation de l'Islande",
+      "texte": "Une société de fermiers dotée d'une assemblée générale."
+     },
+     {
+      "date": "911",
+      "label": "Traité de Saint-Clair-sur-Epte",
+      "texte": "Charles le Simple concède à Rollon des terres sur la basse Seine : l'embryon de la Normandie."
+     },
+     {
+      "date": "986",
+      "label": "Colonisation du Groenland",
+      "texte": "Sous l'impulsion d'Erik le Rouge."
+     },
+     {
+      "date": "Vers l'an mille",
+      "label": "Leif Erikson atteint et nomme le Vinland",
+      "texte": "L'Amérique est touchée cinq siècles avant Colomb, mais sans conséquence durable."
+     },
+     {
+      "date": "1066",
+      "label": "Guillaume conquiert l'Angleterre à Hastings",
+      "texte": "Fin conventionnelle de l'âge viking."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Des navires et des routes maritimes",
+   "texte": "La supériorité viking tient d'abord à la technique navale. Leurs bateaux, dont on a retrouvé plusieurs exemplaires conservés dans des tombes ou dans la vase, possédaient une coque faite de planches se recouvrant partiellement, souple et légère, associant une voile carrée et des rames. Ce type de construction leur donnait une double capacité rare : ils pouvaient affronter la haute mer et atteindre des vitesses supérieures à dix nœuds, mais aussi, grâce à leur faible tirant d'eau, remonter les fleuves très loin à l'intérieur des terres et être hissés à terre au besoin. C'est ainsi que des flottes purent surgir sans prévenir devant Paris, Rouen ou Séville, frapper vite et repartir avant toute riposte. Les Vikings naviguaient sans boussole, en s'appuyant sur la position du soleil et des étoiles, sur la couleur de l'eau, sur les vents dominants et sur le vol des oiseaux. Vers l'ouest, leurs routes conduisirent aux îles Féroé, puis à l'Islande, colonisée à partir des années 870, et au Groenland, occupé à partir de 986. Vers l'est, d'autres groupes, appelés Varègues, empruntèrent les grands fleuves russes pour atteindre la mer Noire et Constantinople, où certains servirent comme gardes de l'empereur byzantin. Marchands autant que guerriers, ils transportaient fourrures, ambre, miel, cire, armes et esclaves, contre de l'argent et des produits de luxe.",
+   "visuel": {
+    "type": "image",
+    "image": "hm-navire-viking",
+    "legende": "Le navire d'Oseberg, retrouvé dans une tombe norvégienne : coque faite de planches qui se recouvrent, proue en spirale, faible tirant d'eau permettant de remonter les fleuves ou d'être hissé à terre.",
+    "alt": "Long bateau de bois sombre exposé dans un musée, à la coque effilée et symétrique, dont la proue s'élève en une spirale sculptée ; des bancs de nage occupent le centre."
+   }
+  },
+  {
+   "titre": "Raids, conquêtes et installations en Europe",
+   "texte": "Après les premiers raids, les expéditions changent de nature : au lieu de repartir avec leur butin, les Vikings hivernent sur place, puis s'installent durablement. En Angleterre, de grandes armées danoises conquièrent une large part du pays au neuvième siècle ; la région qu'elles contrôlent et où s'applique leur droit reçoit le nom de Danelaw, et l'anglais moderne conserve encore de nombreux mots venus du norrois. Dans le royaume franc, les raids sur la Seine et la Loire se multiplient, jusqu'à ce que le roi Charles le Simple choisisse une solution politique : par le traité de Saint-Clair-sur-Epte, en 911, il concède au chef viking Rollon des terres autour de la basse Seine, à charge pour lui de défendre la région contre ses anciens compagnons. Cette concession constitue l'embryon du duché de Normandie, dont le nom rappelle les hommes du Nord. L'assimilation y est rapide : dès le début du onzième siècle, la Normandie est largement francisée, adopte les modèles administratifs francs, et le latin des actes écrits ainsi que le parler local l'emportent sur la langue scandinave. Vers l'an mille, Richard deuxième est le premier à porter le titre de duc. La dynastie atteint son sommet en 1066, lorsque le duc Guillaume conquiert l'Angleterre et fonde un ensemble anglo-normand à cheval sur la Manche."
+  },
+  {
+   "titre": "Vers l'Atlantique Nord : Islande, Groenland, Vinland",
+   "texte": "L'expansion vers l'ouest est la plus spectaculaire. Les Scandinaves colonisent l'Islande à partir des années 870, y créant une société de fermiers dotée d'une assemblée générale, puis atteignent le Groenland, dont la colonisation commence en 986 sous l'impulsion d'Erik le Rouge. Depuis ces bases, ils touchent le continent américain. Le marchand Bjarni Herjolfsson aurait aperçu par accident des côtes inconnues en 985 ou 986, et c'est l'Islandais Leif Erikson qui, vers l'an mille, explore et nomme le Vinland, terre correspondant vraisemblablement aux régions bordant le golfe du Saint-Laurent. Ces récits sont connus par deux sagas rédigées au treizième siècle, la Saga d'Erik le Rouge et la Saga des Groenlandais, soit environ deux cent cinquante ans après les événements, ce qui impose la prudence. L'archéologie a cependant confirmé la présence norroise en Amérique : le site de L'Anse aux Meadows, à Terre-Neuve, est un établissement viking avéré, et une monnaie norvégienne frappée entre 1065 et 1080, retrouvée dans le Maine, suggère des contacts prolongés. Les tentatives d'installation, comme celle de Thorfinn Karlsefni, n'ont duré que quelques années, abandonnées en raison des conflits avec les populations autochtones, appelées Skraelings dans les sagas, et des dissensions internes. L'Amérique est donc atteinte cinq siècles avant Colomb, mais sans conséquence durable."
+  },
+  {
+   "titre": "Religion, société et fin de l'âge viking",
+   "texte": "La société scandinave de cette époque repose sur des communautés paysannes libres, dominées par des chefs et des rois dont l'autorité dépend de leur capacité à distribuer des richesses et à mener des expéditions victorieuses. Les affaires se règlent dans des assemblées d'hommes libres et par un droit largement coutumier. La religion traditionnelle honore un panthéon dominé par Odin, dieu de la guerre et de la connaissance, Thor, maître du tonnerre, et Freyja ; elle promet aux guerriers morts au combat un séjour glorieux, croyance qui a nourri leur réputation d'intrépidité. Cette culture s'exprime par une littérature orale, plus tard mise par écrit en Islande, et par un alphabet propre, les runes, gravées sur pierre, bois ou métal. À partir du dixième siècle, la christianisation progresse, portée par les rois qui y trouvent un moyen de renforcer leur pouvoir et d'entrer dans le concert des monarchies européennes ; les royaumes du Danemark, de Norvège et de Suède se constituent, et les expéditions de pillage perdent leur sens. L'année 1066, avec la conquête de l'Angleterre par les Normands, marque conventionnellement la fin de l'âge viking. L'héritage reste considérable : villes fondées ou développées en Irlande et en Russie, mots et noms de lieux, techniques de navigation, et un duché de Normandie qui pèsera durablement sur l'histoire européenne jusqu'à sa conquête par Philippe Auguste en 1204."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel événement de 793 marque conventionnellement le début de l'âge viking ?",
+   "choix": [
+    "Le pillage du monastère de Lindisfarne",
+    "Le siège de Paris",
+    "La colonisation de l'Islande",
+    "La bataille de Hastings"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "En 793, des Scandinaves pillent le monastère de Lindisfarne, sur la côte nord-est de l'Angleterre. L'attaque d'un sanctuaire aussi réputé frappe durablement la chrétienté et les chroniqueurs en font le point de départ des invasions normandes. Les historiens font donc courir l'âge viking de 793 à 1066, cette dernière date correspondant à la conquête de l'Angleterre par le duc de Normandie à la bataille de Hastings. Les Vikings ne forment pas un peuple : le mot désignait à l'origine l'activité d'expédition maritime, pratiquée par des Scandinaves d'origines diverses. L'Islande, elle, est colonisée à partir des années 870."
+  },
+  {
+   "q": "Quel traité conclu en 911 est à l'origine du duché de Normandie ?",
+   "choix": [
+    "Le traité de Verdun",
+    "Le traité de Wedmore",
+    "Le traité de Saint-Clair-sur-Epte",
+    "Le traité de Tordesillas"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Par le traité de Saint-Clair-sur-Epte, en 911, le roi franc Charles le Simple concède au chef viking Rollon des terres autour de la basse Seine, en échange de sa protection contre les autres bandes scandinaves. Cette concession forme l'embryon du duché de Normandie, dont le nom rappelle les hommes du Nord. L'assimilation est rapide : dès le début du onzième siècle, la région est largement francisée, adopte les institutions franques, et le latin des actes ainsi que le parler local supplantent la langue scandinave. Vers l'an mille, Richard deuxième porte le premier le titre de duc, et en 1066 le duc Guillaume conquiert l'Angleterre."
+  },
+  {
+   "q": "Quelle caractéristique des navires vikings leur permettait de remonter très loin les fleuves ?",
+   "choix": [
+    "Leur double coque en fer",
+    "Leur faible tirant d'eau",
+    "Leur moteur à rames couvertes",
+    "Leur quille très profonde"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Les navires vikings associaient une coque légère et souple, faite de planches se recouvrant partiellement, une voile carrée et des rames. Leur faible tirant d'eau leur permettait de remonter les fleuves très loin à l'intérieur des terres et d'être tirés sur la berge, tandis que leur solidité les rendait capables d'affronter la haute mer à des vitesses supérieures à dix nœuds. Cette polyvalence explique la surprise que provoquaient leurs raids : des flottes pouvaient apparaître brusquement devant des villes situées loin de la côte. Ils naviguaient sans boussole, en s'aidant du soleil, des étoiles, des vents et du vol des oiseaux."
+  },
+  {
+   "q": "Quel site archéologique de Terre-Neuve atteste la présence viking en Amérique du Nord ?",
+   "choix": [
+    "Jorvik",
+    "Birka",
+    "Hedeby",
+    "L'Anse aux Meadows"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Le site de L'Anse aux Meadows, à Terre-Neuve, est le seul établissement norrois avéré en Amérique du Nord et confirme les récits des sagas islandaises. Ces textes, la Saga d'Erik le Rouge et la Saga des Groenlandais, ont été rédigés au treizième siècle, soit environ deux cent cinquante ans après les faits. Ils racontent que Leif Erikson explora et nomma le Vinland vers l'an mille, à partir des colonies du Groenland occupées depuis 986. Une monnaie norvégienne frappée entre 1065 et 1080 et retrouvée dans le Maine suggère des contacts prolongés. Les tentatives d'installation, gênées par les conflits avec les populations autochtones, ne durèrent toutefois que quelques années."
+  },
+  {
+   "q": "Quel facteur contribue à mettre fin aux grandes expéditions vikings au tournant de l'an mille ?",
+   "choix": [
+    "La disparition des forêts scandinaves",
+    "La christianisation et la formation de royaumes stables",
+    "L'interdiction de la navigation par l'Église",
+    "Une épidémie qui vide la Scandinavie"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "À partir du dixième siècle, la christianisation progresse en Scandinavie, souvent encouragée par des rois qui y voient un moyen de renforcer leur autorité et d'être reconnus par les autres monarchies européennes. La constitution de royaumes stables au Danemark, en Norvège et en Suède réduit l'autonomie des chefs de bandes, dont la légitimité reposait sur la distribution du butin. Les expéditions de pillage perdent alors leur fonction sociale. La date de 1066, celle de la conquête normande de l'Angleterre, sert de repère conventionnel pour la fin de l'âge viking. L'héritage subsiste dans les villes fondées en Irlande ou en Russie, dans le vocabulaire anglais et dans la Normandie."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Vikings",
+   "url": "https://fr.wikipedia.org/wiki/Vikings"
+  },
+  {
+   "titre": "Vinland",
+   "url": "https://fr.wikipedia.org/wiki/Vinland"
+  },
+  {
+   "titre": "Duché de Normandie",
+   "url": "https://fr.wikipedia.org/wiki/Duch%C3%A9_de_Normandie"
+  }
+ ]
+}

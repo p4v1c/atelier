@@ -1,0 +1,196 @@
+{
+ "titre": "La viande et la charcuterie",
+ "sections": [
+  {
+   "titre": "Un aliment, des controverses",
+   "texte": "La viande désigne les tissus musculaires des animaux que nous consommons, souvent accompagnés de leur gras et parfois des abats. Elle fournit de vingt à trente pour cent de protéines contenant tous les acides aminés essentiels, du fer héminique très bien absorbé par l'organisme et de la vitamine B12, quasi absente du monde végétal. Sa couleur ne vient pas du sang mais d'un pigment musculaire, la myoglobine : pourpre au cœur du morceau, elle vire au rouge vif dès qu'elle fixe l'oxygène de l'air, puis brunit en vieillissant. L'usage distingue les viandes rouges, comme le bœuf, le mouton ou le cheval, les viandes blanches, comme la volaille et le veau, et les viandes noires du gibier ; cette classification culinaire ne recouvre qu'imparfaitement la teneur réelle en myoglobine. La production mondiale a franchi les trois cent trente millions de tonnes en 2018 et continue de croître avec l'élévation du niveau de vie en Asie. Cette progression pose deux questions désormais centrales. La première est environnementale : la FAO estime que l'élevage est responsable d'environ quatorze et demi pour cent des émissions mondiales de gaz à effet de serre, en comptant l'alimentation des animaux et la déforestation. La seconde est sanitaire : en octobre 2015, le Centre international de recherche sur le cancer a classé les viandes transformées comme cancérogènes pour l'homme et les viandes rouges comme probablement cancérogènes.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "La viande en chiffres",
+    "items": [
+     {
+      "valeur": "330 Mt",
+      "label": "production mondiale de viande en 2018"
+     },
+     {
+      "valeur": "14,5 %",
+      "label": "part de l'élevage dans les gaz à effet de serre (FAO)"
+     },
+     {
+      "valeur": "500 g",
+      "label": "viande rouge par semaine, plafond recommandé"
+     },
+     {
+      "valeur": "25 g",
+      "label": "charcuterie par jour, plafond recommandé"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le métier de boucher et l'art de la découpe",
+   "texte": "Le mot boucher apparaît au XIIe siècle sous la forme bochier, apparentée au bouc, l'animal que ces artisans abattaient ou vendaient. Au Moyen Âge, les bouchers forment des corporations puissantes, souvent héréditaires, qui contrôlent des étals concédés par le roi ou la ville ; jusqu'au début du XXe siècle, le boucher tuait encore lui-même ses bêtes, avant que l'abattage ne soit concentré dans des abattoirs publics pour des raisons sanitaires. Son savoir-faire tient aujourd'hui à la découpe et à la maturation. La découpe française du bœuf distingue une trentaine de morceaux, et le choix du mode de cuisson n'a rien d'arbitraire : il dépend du travail que le muscle fournissait de son vivant. Les muscles peu sollicités, comme le filet, le faux-filet ou le rumsteck, contiennent peu de tissu conjonctif et supportent une cuisson vive et courte. Les muscles moteurs de l'épaule, du cou ou de la jambe, tels le paleron, la macreuse, le gîte ou le jarret, sont riches en collagène : seule une cuisson longue et humide transforme cette protéine en gélatine et rend la viande fondante. Entre l'abattage et l'étal s'intercale enfin une phase discrète mais décisive. Après la rigidité cadavérique, des enzymes propres au muscle dégradent lentement ses fibres : cette maturation, de quelques jours pour le porc à plusieurs semaines pour le bœuf, attendrit la chair et développe ses arômes.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Griller ou braiser : le muscle décide",
+    "colonnes": [
+     "Morceau",
+     "Muscle",
+     "Cuisson"
+    ],
+    "lignes": [
+     [
+      "Filet, faux-filet",
+      "Peu sollicité, pauvre en collagène",
+      "Grillé ou rôti, saignant"
+     ],
+     [
+      "Entrecôte, bavette",
+      "Modérément sollicité",
+      "Grillé rapidement"
+     ],
+     [
+      "Paleron, macreuse",
+      "Épaule, riche en collagène",
+      "Braisé plusieurs heures"
+     ],
+     [
+      "Gîte, jarret",
+      "Jambe, très fibreux",
+      "Bouilli, pot-au-feu, osso-buco"
+     ],
+     [
+      "Plat de côtes",
+      "Cage thoracique, gras",
+      "Bouilli ou mijoté"
+     ]
+    ],
+    "note": "Le collagène ne fond en gélatine qu'au-delà d'une longue cuisson en milieu humide."
+   }
+  },
+  {
+   "titre": "Volailles, agneaux et gibiers",
+   "texte": "La volaille est devenue la première viande consommée dans le monde, portée par son coût modeste et par l'absence d'interdit religieux la concernant. La France a néanmoins conservé une filière de qualité protégée par des signes officiels. La volaille de Bresse est la seule au monde à bénéficier d'une appellation d'origine contrôlée, obtenue le 1er août 1957 et devenue appellation d'origine protégée européenne en 1996. Son aire s'étend sur l'Ain, la Saône-et-Loire et le Jura ; les bêtes appartiennent à la race Bresse-Gauloise blanche, reconnaissable à ses pattes bleu ardoise et à sa crête rouge, et passent l'essentiel de leur vie dehors, avec une dizaine de mètres carrés d'herbe chacune, avant une finition en épinette et un roulage dans une toile qui leur donne leur silhouette de fuseau. Les Glorieuses de Bresse, concours de décembre, en couronnent chaque année les plus belles. À côté des appellations, le Label Rouge, créé par la loi d'orientation agricole de 1960, garantit une qualité supérieure liée à la race, à l'alimentation et à un âge d'abattage plus élevé. L'agneau reste attaché à des terroirs précis, comme les prés-salés de la baie du Mont-Saint-Michel, où les moutons pâturent une herbe imprégnée d'embruns. Le gibier, enfin, n'est plus qu'un marché de saison : sa vente est encadrée et l'essentiel du chevreuil ou du sanglier servi au restaurant provient aujourd'hui d'élevages."
+  },
+  {
+   "titre": "Le sel, la fumée et le temps",
+   "texte": "Avant le froid industriel, conserver la viande signifiait la priver d'eau. Le sel agit par osmose : il abaisse l'activité de l'eau du produit, c'est-à-dire la part d'eau disponible pour les micro-organismes, et déshydrate les cellules bactériennes qui ne peuvent plus se multiplier. Deux méthodes coexistent depuis l'Antiquité. Le salage à sec consiste à frotter et à recouvrir les pièces de sel, technique des jambons secs ; le saumurage les immerge dans une solution salée, parfois injectée au cœur du muscle pour les jambons cuits. Les Romains vérifiaient déjà la concentration de leurs saumures en y faisant flotter un œuf. Au sel s'ajoutent depuis longtemps des nitrates, jadis sous forme de salpêtre, et des nitrites : ils fixent la couleur rose de la charcuterie, apportent le goût caractéristique du salé et, surtout, bloquent le développement de Clostridium botulinum, la bactérie responsable du botulisme. Leur usage est aujourd'hui discuté, car ils peuvent former des composés cancérogènes lors de la digestion ; l'Agence nationale de sécurité sanitaire a confirmé en 2022 l'existence d'un risque et les doses autorisées ont été revues à la baisse. Le fumage complète souvent la salaison : les composés phénoliques de la fumée freinent les moisissures et parfument la chair. Le Haut-Doubs a conservé ses tuyés, ces vastes cheminées de ferme où l'on fume encore saucisses de Morteau et jambons.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "Fabriquer un jambon sec",
+    "etapes": [
+     {
+      "label": "Parage",
+      "texte": "On met la cuisse en forme et on la masse pour évacuer le sang résiduel."
+     },
+     {
+      "label": "Salage",
+      "texte": "La pièce est recouverte de sel, qui pénètre lentement et chasse l'eau."
+     },
+     {
+      "label": "Repos",
+      "texte": "Le sel se répartit dans tout le muscle en chambre froide."
+     },
+     {
+      "label": "Séchage",
+      "texte": "La cuisse perd un tiers de son poids en plusieurs mois."
+     },
+     {
+      "label": "Affinage",
+      "texte": "Les arômes se développent ; une couche de panne protège la tranche."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "La charcuterie, un art né du porc",
+   "texte": "Le mot vient de chair cuite : la forme chaircuicterie est attestée en 1476, l'année même où la corporation des chaircuitiers est reconnue en France, le 17 janvier. Ces artisans obtiennent en 1513 le droit d'abattre eux-mêmes leurs porcs, ce qui les émancipe de la tutelle des bouchers. En France, l'appellation charcuterie reste réservée aux préparations de porc, animal dont on a longtemps dit que tout se mange. Les familles de produits se distinguent par leur mode de conservation. Les salaisons sèches réunissent les jambons de Bayonne, de Parme ou de Serrano et les saucissons, dont la rosette de Lyon. Les produits cuits regroupent le jambon dit de Paris, les boudins noirs hérités d'une pratique antique, les andouilles de Vire et de Guémené et l'andouillette de Troyes. Les pâtés, terrines et rillettes du Mans ou de Tours forment une troisième famille, née de la nécessité d'utiliser les morceaux les moins nobles. Chaque pays a développé ses propres formes, de la mortadelle de Bologne au chorizo espagnol en passant par le speck du Tyrol. La filière française reste importante : au milieu des années 2010, environ trois cents entreprises employaient plus de trente-deux mille personnes pour un peu plus d'un million de tonnes produites. Sa consommation, elle, est désormais recommandée avec modération.",
+   "visuel": {
+    "type": "image",
+    "image": "gas-jambon-bayonne",
+    "legende": "Un jambon de Bayonne en cours de séchage, salaison emblématique du Sud-Ouest.",
+    "alt": "Jambon sec entier suspendu, couenne brune, avec son sceau de garantie"
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel pigment donne à la viande sa couleur rouge ?",
+   "choix": [
+    "L'hémoglobine du sang",
+    "La myoglobine du muscle",
+    "Le collagène du tissu conjonctif",
+    "Le glycogène des fibres"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "La couleur de la viande ne vient pas du sang, largement évacué à l'abattage, mais de la myoglobine, un pigment qui stocke l'oxygène dans le muscle. Au cœur du morceau, privée d'air, elle est pourpre. Au contact de l'oxygène, elle se transforme en oxymyoglobine et prend le rouge vif que le consommateur associe à la fraîcheur. En vieillissant, elle s'oxyde encore et brunit. Plus un muscle a travaillé, plus il en contient : c'est pourquoi la cuisse d'un canard est plus sombre que son blanc."
+  },
+  {
+   "q": "Pourquoi un paleron ou un jarret réclament-ils une cuisson longue ?",
+   "choix": [
+    "Parce qu'ils sont plus gras que les autres morceaux",
+    "Parce qu'ils viennent d'animaux plus âgés",
+    "Parce que leur collagène doit se transformer en gélatine",
+    "Parce qu'ils contiennent plus d'eau"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le mode de cuisson dépend du travail fourni par le muscle du vivant de l'animal. Les muscles moteurs de l'épaule ou de la jambe sont riches en tissu conjonctif, donc en collagène, une protéine dure qui rend la viande coriace si on la saisit. Une cuisson longue en milieu humide, autour de quatre-vingts degrés, hydrolyse ce collagène et le convertit en gélatine, ce qui donne le moelleux d'un bourguignon ou d'un pot-au-feu. À l'inverse, le filet, muscle peu sollicité et pauvre en collagène, se dessèche si on le cuit longtemps."
+  },
+  {
+   "q": "Quelle volaille bénéficie d'une appellation d'origine contrôlée depuis 1957 ?",
+   "choix": [
+    "Le poulet des Landes",
+    "Le poulet de Loué",
+    "Le canard de Challans",
+    "La volaille de Bresse"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "La volaille de Bresse a obtenu son appellation d'origine contrôlée le 1er août 1957 et reste la seule volaille au monde à en détenir une ; elle est devenue appellation d'origine protégée européenne en 1996. Son aire de production couvre l'Ain, la Saône-et-Loire et le Jura. Les bêtes sont de race Bresse-Gauloise blanche, avec des pattes bleu ardoise et une crête rouge. Elles passent la plus grande partie de leur vie en plein air avant une période de finition. Les autres volailles citées relèvent du Label Rouge ou d'une indication géographique protégée, gages de qualité mais distincts de l'AOC."
+  },
+  {
+   "q": "À quoi servent principalement les nitrites ajoutés à la charcuterie ?",
+   "choix": [
+    "À empêcher le botulisme et à fixer la couleur rose",
+    "À accélérer le séchage des jambons",
+    "À remplacer une partie du sel pour réduire la teneur en sodium",
+    "À attendrir les fibres musculaires"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Les nitrates et les nitrites, longtemps apportés par le salpêtre, jouent un rôle de sécurité sanitaire : ils bloquent le développement de Clostridium botulinum, bactérie responsable du botulisme, maladie souvent mortelle. Ils fixent aussi la couleur rose du jambon et participent au goût caractéristique des produits salés. Leur usage est contesté depuis que l'on sait qu'ils peuvent conduire à la formation de composés cancérogènes lors de la digestion. L'Agence nationale de sécurité sanitaire a confirmé ce risque en 2022 et les doses autorisées ont été réduites. Le séchage, lui, dépend du sel et de l'air, pas des nitrites."
+  },
+  {
+   "q": "D'où vient le mot charcuterie ?",
+   "choix": [
+    "Du nom d'un charcutier parisien du XVIIIe siècle",
+    "De l'italien carne cotta, viande cuite",
+    "De l'expression chair cuite",
+    "Du latin carnutus désignant le porc"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Le terme est une contraction de chair cuite : la forme chaircuicterie est attestée en 1476. La même année, le 17 janvier, la corporation des chaircuitiers est reconnue en France ; ces artisans obtiennent en 1513 le droit d'abattre eux-mêmes leurs porcs, ce qui les affranchit de la tutelle des bouchers. Le nom rappelle que leur spécialité première était la viande cuite, avant que les salaisons sèches ne prennent la place qu'on leur connaît. En France, la réglementation réserve encore aujourd'hui le mot aux préparations à base de porc."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Charcuterie",
+   "url": "https://fr.wikipedia.org/wiki/Charcuterie"
+  },
+  {
+   "titre": "Viande",
+   "url": "https://fr.wikipedia.org/wiki/Viande"
+  },
+  {
+   "titre": "Volaille de Bresse",
+   "url": "https://fr.wikipedia.org/wiki/Poulet_de_Bresse"
+  },
+  {
+   "titre": "Salaison",
+   "url": "https://fr.wikipedia.org/wiki/Salaison"
+  }
+ ]
+}

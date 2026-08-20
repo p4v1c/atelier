@@ -1,0 +1,203 @@
+{
+ "titre": "Les fossiles et l'histoire de la vie sur Terre",
+ "sections": [
+  {
+   "titre": "Qu'est-ce qu'un fossile ?",
+   "texte": "Un fossile est la trace, plus ou moins minéralisée, d'un organisme vivant ancien, conservée dans une roche sédimentaire. Cette définition est plus large qu'on ne le croit souvent. Sont des fossiles les restes de l'organisme lui-même, comme un os, une dent, une coquille ou une feuille, mais aussi les témoignages de son activité : une empreinte de pas, un terrier creusé dans la vase, ou même un excrément pétrifié, que les spécialistes nomment coprolithe. Les fossiles de ce second type portent le nom d'ichnofossiles, du grec ikhnos qui signifie trace. On distingue par ailleurs les macrofossiles, visibles à l'œil nu, et les microfossiles, qui n'apparaissent qu'au microscope mais dont l'abondance en fait de précieux outils pour les géologues. La science qui les étudie s'appelle la paléontologie. Ces objets sont bien plus que des curiosités de collection. Comme les couches sédimentaires se déposent les unes sur les autres, les fossiles qu'elles contiennent permettent d'ordonner le temps et de reconstituer les milieux anciens : la présence de coquillages marins au sommet d'une montagne raconte l'histoire d'un océan disparu. Surtout, ils constituent la preuve directe que les espèces se sont succédé et transformées. L'ensemble des fossiles connus couvre plus de 3,5 milliards d'années d'histoire de la Terre : c'est la plus longue archive dont dispose l'humanité.",
+   "visuel": {
+    "type": "image",
+    "image": "svt-fossile-ammonite",
+    "legende": "Une ammonite du Jurassique, trouvée à Lyme Regis en Angleterre : la coquille d'un mollusque disparu, conservée dans la roche sédimentaire.",
+    "alt": "Fossile d'ammonite dégagé de sa roche, coquille enroulée en spirale d'une dizaine de centimètres, aux cloisons régulières bien visibles."
+   }
+  },
+  {
+   "titre": "Comment se forme un fossile ?",
+   "texte": "La fossilisation est un événement rare, qui exige des circonstances très particulières. Lorsqu'un animal meurt, son corps est en général dévoré par des charognards ou décomposé par des bactéries : il n'en reste rien. Pour qu'un fossile se forme, il faut habituellement que la dépouille soit rapidement recouverte de sédiments, dans un milieu pauvre en oxygène, car l'absence d'oxygène freine considérablement la décomposition. Les parties dures, os, dents ou coquilles, résistent bien mieux que les parties molles, ce qui déforme notre vision du passé. Ensuite, au fil de millions d'années, l'eau qui circule dans la roche remplace peu à peu la matière d'origine par des substances minérales : c'est la minéralisation. Il existe cependant d'autres modes de conservation, parfois spectaculaires. Le froid permanent du pergélisol a préservé des mammouths presque intacts, poils compris. La résine des arbres, en durcissant, a emprisonné des insectes dans l'ambre avec un luxe de détails. Le bitume, enfin, a momifié des animaux entiers dans des pièges naturels. Les estimations montrent l'ampleur des pertes : seulement 0,01 à 0,1 % des organismes ayant vécu laisseraient un fossile. L'archive fossile est donc très incomplète, et les paléontologues doivent raisonner comme des enquêteurs travaillant sur un livre dont presque toutes les pages ont été arrachées.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "Comment se forme un fossile",
+    "etapes": [
+     {
+      "label": "La mort",
+      "texte": "En général, charognards et bactéries ne laissent rien du corps : la fossilisation est un accident rare."
+     },
+     {
+      "label": "Un enfouissement rapide",
+      "texte": "La dépouille doit être vite recouverte de sédiments, dans un milieu pauvre en oxygène qui freine la décomposition."
+     },
+     {
+      "label": "Les parties dures résistent",
+      "texte": "Os, dents et coquilles se conservent bien mieux que les parties molles — ce qui déforme notre vision du passé."
+     },
+     {
+      "label": "La minéralisation",
+      "texte": "Au fil de millions d'années, l'eau circulant dans la roche remplace peu à peu la matière d'origine par des minéraux."
+     },
+     {
+      "label": "Les exceptions spectaculaires",
+      "texte": "Le pergélisol a conservé des mammouths poils compris, l'ambre a emprisonné des insectes, le bitume a momifié des animaux entiers."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Découper le temps géologique",
+   "texte": "Pour parler d'événements séparés par des millions d'années, les scientifiques ont construit une échelle des temps géologiques, une sorte de calendrier de la Terre utilisé en géologie, en climatologie et en paléontologie. Elle découpe les 4,6 milliards d'années d'histoire de la planète en unités emboîtées, de la plus vaste à la plus fine : les éons, les ères, les périodes, les époques et les étages. Quatre éons se succèdent. L'Hadéen, de 4,6 à 4 milliards d'années, correspond à une Terre encore brûlante ; l'Archéen, de 4 à 2,5 milliards d'années, voit apparaître la vie ; le Protérozoïque s'étend de 2,5 milliards à environ 542 millions d'années ; le Phanérozoïque, dont le nom signifie vie visible, court de cette date jusqu'à aujourd'hui. Ce dernier éon, le mieux connu car le plus riche en fossiles, comprend trois grandes ères : le Paléozoïque, le Mésozoïque et le Cénozoïque, ponctuées par cinq grandes crises d'extinction. Beaucoup de noms d'étages viennent des lieux où les roches correspondantes ont été décrites pour la première fois. Cette échelle n'est pas figée : née au XVIIIe siècle, elle a pris sa forme moderne en 1913 avec Arthur Holmes, et la Commission internationale de stratigraphie en ratifie officiellement les mises à jour tous les quatre ans.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les quatre éons de l'histoire de la Terre",
+    "colonnes": [
+     "Éon",
+     "Durée",
+     "Ce qui s'y joue"
+    ],
+    "lignes": [
+     [
+      "Hadéen",
+      "4,6 à 4 milliards d'années",
+      "Une Terre encore brûlante"
+     ],
+     [
+      "Archéen",
+      "4 à 2,5 milliards d'années",
+      "La vie apparaît"
+     ],
+     [
+      "Protérozoïque",
+      "2,5 milliards à environ 542 millions d'années",
+      "Le long règne du microscopique"
+     ],
+     [
+      "Phanérozoïque",
+      "542 millions d'années à aujourd'hui",
+      "La vie visible : Paléozoïque, Mésozoïque, Cénozoïque"
+     ]
+    ],
+    "note": "L'échelle se subdivise en éons, ères, périodes, époques et étages. Née au XVIIIe siècle, elle prend sa forme moderne en 1913 avec Arthur Holmes ; la Commission internationale de stratigraphie la met à jour tous les quatre ans."
+   }
+  },
+  {
+   "titre": "Les grandes étapes de la vie",
+   "texte": "La Terre s'est formée il y a environ 4,54 milliards d'années. Les premières cellules procaryotes, dépourvues de noyau, apparaissent il y a quelque 3,8 milliards d'années : pendant plus de deux milliards d'années, la vie restera microscopique et confinée dans l'eau. Un bouleversement majeur survient il y a environ 2,4 milliards d'années, quand des bactéries pratiquant la photosynthèse rejettent tant de dioxygène que l'atmosphère en est transformée : c'est la Grande Oxydation, une pollution à l'échelle planétaire causée par des êtres vivants, mais qui ouvrira la voie à la respiration. L'histoire du vivant doit d'ailleurs beaucoup à la coopération : la cellule eucaryote, à noyau, naît de l'association symbiotique de cellules différentes, et non d'une simple compétition. Vers 575 millions d'années, la faune de l'Édiacarien marque l'essor des premiers grands organismes pluricellulaires. La conquête de la terre ferme constitue l'étape suivante : les plantes sortent de l'eau il y a environ 480 millions d'années, suivies par les premiers tétrapodes, animaux à quatre membres, vers 365 millions d'années, soit 35 millions d'années plus tard. Cette sortie des eaux exigeait de résoudre trois problèmes : respirer l'air, supporter son propre poids et surtout éviter le dessèchement. Les dinosaures apparaîtront vers 230 millions d'années.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Les grandes étapes de la vie",
+    "evenements": [
+     {
+      "date": "−4,54 Ga",
+      "label": "Formation de la Terre"
+     },
+     {
+      "date": "−3,8 Ga",
+      "label": "Premières cellules procaryotes",
+      "texte": "Pendant plus de deux milliards d'années, la vie restera microscopique et confinée dans l'eau."
+     },
+     {
+      "date": "−2,4 Ga",
+      "label": "La Grande Oxydation",
+      "texte": "Des bactéries photosynthétiques rejettent tant de dioxygène que l'atmosphère en est transformée : une pollution planétaire qui ouvrira la voie à la respiration."
+     },
+     {
+      "date": "−575 Ma",
+      "label": "La faune de l'Édiacarien",
+      "texte": "Essor des premiers grands organismes pluricellulaires."
+     },
+     {
+      "date": "−480 Ma",
+      "label": "Les plantes sortent de l'eau"
+     },
+     {
+      "date": "−365 Ma",
+      "label": "Les premiers tétrapodes",
+      "texte": "Respirer l'air, supporter son propre poids, éviter le dessèchement : trois problèmes à résoudre d'un coup."
+     },
+     {
+      "date": "−230 Ma",
+      "label": "Apparition des dinosaures"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Ce que les fossiles nous apprennent",
+   "texte": "Les fossiles ne servent pas seulement à peupler les vitrines des musées : ils répondent à des questions précises. Ils permettent d'abord de dater les roches. Certaines espèces ont vécu partout sur la planète mais pendant une durée brève à l'échelle géologique ; retrouver l'une d'elles dans une couche revient à y lire une étiquette : ce sont les fossiles stratigraphiques, ou fossiles marqueurs, qui autorisent la comparaison de terrains situés sur des continents différents. Ils renseignent ensuite sur les milieux anciens, car chaque espèce vivait dans des conditions particulières de température, de salinité ou de profondeur. Ils apportent enfin la preuve la plus tangible de l'évolution : les formes rencontrées changent régulièrement d'une couche à l'autre, certaines espèces disparaissent définitivement, d'autres apparaissent, et l'on peut parfois suivre la transformation progressive d'un groupe. Il faut toutefois garder en tête la limite déjà signalée : puisqu'une infime fraction seulement des organismes se fossilise, notre vision du passé privilégie les animaux à squelette, vivant dans des milieux où les sédiments se déposaient. Les organismes mous et les milieux montagneux, où l'érosion domine, sont largement sous-représentés. Chaque découverte peut donc compléter ou corriger le tableau, ce qui rend la paléontologie vivante et régulièrement traversée par des surprises."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quelle proportion des organismes ayant vécu laisserait un fossile ?",
+   "choix": [
+    "Environ la moitié",
+    "Entre 0,01 et 0,1 %",
+    "Environ 10 %",
+    "La totalité des espèces"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Les estimations situent entre 0,01 et 0,1 % la proportion des organismes qui finissent par se fossiliser. La fossilisation exige en effet des conditions rares : un enfouissement rapide sous les sédiments, dans un milieu pauvre en oxygène qui freine la décomposition. Les parties dures comme les os, les dents ou les coquilles résistent bien mieux que les parties molles, ce qui déforme notre image du passé. L'archive fossile est donc très incomplète et les paléontologues travaillent sur un document dont presque toutes les pages manquent. Chaque nouvelle découverte peut ainsi corriger le tableau connu."
+  },
+  {
+   "q": "Comment appelle-t-on un fossile qui est une trace d'activité, comme une empreinte de pas ou un terrier ?",
+   "choix": [
+    "Un microfossile",
+    "Un macrofossile",
+    "Un ichnofossile",
+    "Un coprolithe"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Les traces d'activité laissées par un organisme, comme les empreintes de pas, les terriers ou les pistes, sont appelées ichnofossiles, du grec ikhnos qui signifie trace. Elles sont précieuses car elles renseignent sur le comportement des animaux, ce que les os seuls ne permettent pas : vitesse de déplacement, vie en groupe, mode de creusement. Le coprolithe, excrément fossilisé, est un cas particulier de témoignage d'activité. Les termes macrofossile et microfossile, eux, ne décrivent pas la nature du reste mais sa taille : visible à l'œil nu dans le premier cas, observable seulement au microscope dans le second."
+  },
+  {
+   "q": "Que s'est-il passé il y a environ 2,4 milliards d'années ?",
+   "choix": [
+    "La Grande Oxydation de l'atmosphère",
+    "L'apparition des dinosaures",
+    "La sortie des eaux des plantes",
+    "La formation de la Terre"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Il y a environ 2,4 milliards d'années débute la Grande Oxydation : des bactéries pratiquant la photosynthèse libèrent tant de dioxygène que la composition de l'atmosphère en est durablement transformée. Cet épisode montre que des êtres vivants peuvent modifier une planète entière. Toxique pour de nombreux organismes de l'époque, ce dioxygène a pourtant rendu possible la respiration, source d'énergie bien plus efficace. Les autres dates sont très différentes : la Terre s'est formée il y a environ 4,54 milliards d'années, les plantes ont colonisé la terre ferme vers 480 millions d'années et les dinosaures sont apparus vers 230 millions d'années."
+  },
+  {
+   "q": "Quel éon géologique correspond à la période la plus riche en fossiles, de 542 millions d'années à aujourd'hui ?",
+   "choix": [
+    "L'Hadéen",
+    "L'Archéen",
+    "Le Protérozoïque",
+    "Le Phanérozoïque"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Le Phanérozoïque, dont le nom signifie vie visible, s'étend d'environ 542 millions d'années à nos jours. C'est l'éon le mieux connu car les organismes y possèdent des parties dures qui se fossilisent facilement. Il se divise en trois ères : le Paléozoïque, le Mésozoïque et le Cénozoïque, jalonnées par cinq grandes crises d'extinction. Les trois éons précédents sont bien plus longs : l'Hadéen de 4,6 à 4 milliards d'années, l'Archéen de 4 à 2,5 milliards d'années, le Protérozoïque de 2,5 milliards à 542 millions d'années. Ils correspondent à une vie essentiellement microscopique, donc discrète dans les roches."
+  },
+  {
+   "q": "Qui, entre les plantes et les animaux, a colonisé la terre ferme en premier ?",
+   "choix": [
+    "Les plantes, environ 35 millions d'années avant les tétrapodes",
+    "Les animaux, largement avant les plantes",
+    "Les deux exactement en même temps",
+    "Les animaux, environ 100 millions d'années avant"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Les plantes ont conquis la terre ferme il y a environ 480 millions d'années, tandis que les premiers tétrapodes, animaux à quatre membres, sont apparus vers 365 millions d'années : les animaux ont donc mis environ 35 millions d'années de plus que les plantes à réussir cette transition. Cet ordre est logique, car les végétaux terrestres constituaient une ressource alimentaire et un abri disponibles pour les animaux qui suivraient. Quitter l'eau imposait de résoudre plusieurs problèmes simultanément : respirer l'air, supporter son propre poids sans la poussée de l'eau et surtout éviter le dessèchement."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Fossile",
+   "url": "https://fr.wikipedia.org/wiki/Fossile"
+  },
+  {
+   "titre": "Histoire évolutive du vivant",
+   "url": "https://fr.wikipedia.org/wiki/Histoire_%C3%A9volutive_du_vivant"
+  },
+  {
+   "titre": "Échelle des temps géologiques",
+   "url": "https://fr.wikipedia.org/wiki/%C3%89chelle_des_temps_g%C3%A9ologiques"
+  }
+ ]
+}

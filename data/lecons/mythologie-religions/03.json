@@ -1,0 +1,160 @@
+{
+ "titre": "Les grands héros grecs et leurs quêtes : Héraclès, Thésée, Ulysse",
+ "sections": [
+  {
+   "titre": "Ce qu'est un héros dans le monde grec",
+   "texte": "Dans la culture grecque ancienne, le mot héros ne désigne pas simplement un personnage courageux. Il s'agit d'une catégorie précise, située entre les dieux immortels et les hommes ordinaires. Le héros est presque toujours d'ascendance divine par l'un de ses parents, il accomplit des exploits hors du commun, mais il reste mortel et connaît souvent une fin douloureuse. Après sa mort, il pouvait recevoir un culte particulier sur sa tombe ou dans un sanctuaire, où les habitants d'une cité lui adressaient des offrandes en espérant sa protection. Chaque région revendiquait ainsi ses héros : Thésée à Athènes, Héraclès à Thèbes et dans le Péloponnèse, Persée à Argos, Ajax à Salamine. Les récits héroïques étaient transmis par les poèmes épiques, par les tragédies jouées lors des fêtes de Dionysos, par les odes des poètes lyriques et par la peinture des vases. Ils obéissent souvent à un schéma comparable : une naissance marquée par un signe ou une menace, une jeunesse à l'écart, une épreuve imposée par un roi ou un oracle, un voyage vers un pays lointain, un affrontement avec un monstre, puis un retour. Les Grecs voyaient dans ces figures des exemples de courage, mais aussi des avertissements, car l'excès de confiance, appelé hybris, entraîne régulièrement la punition du héros par les dieux.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "Le schéma que suivent souvent les récits héroïques",
+    "etapes": [
+     {
+      "label": "Une naissance marquée",
+      "texte": "Un signe ou une menace accompagne la venue au monde du héros, presque toujours d'ascendance divine par l'un de ses parents."
+     },
+     {
+      "label": "Une jeunesse à l'écart",
+      "texte": "Le héros grandit loin du lieu où il devra faire ses preuves."
+     },
+     {
+      "label": "Une épreuve imposée",
+      "texte": "Un roi ou un oracle lui confie une mission."
+     },
+     {
+      "label": "Un voyage lointain",
+      "texte": "La quête le conduit vers un pays inconnu, souvent aux limites du monde connu."
+     },
+     {
+      "label": "L'affrontement d'un monstre",
+      "texte": "Le combat décisif contre une créature ou un adversaire hors du commun."
+     },
+     {
+      "label": "Le retour",
+      "texte": "Le héros revient ; sa fin est souvent douloureuse et l'excès de confiance, l'hybris, entraîne régulièrement la punition des dieux."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Héraclès et les douze travaux",
+   "texte": "Héraclès, que les Romains nommèrent Hercule, est présenté comme le fils de Zeus et de la mortelle Alcmène. La déesse Héra, épouse de Zeus, le poursuit de sa colère dès sa naissance en envoyant deux serpents dans son berceau, que l'enfant étrangle. Devenu adulte, frappé d'une crise de folie envoyée par la déesse, il tue ses propres enfants ; l'oracle de Delphes lui ordonne alors de se mettre au service du roi Eurysthée de Mycènes pour expier cette faute. De cette servitude naissent les douze travaux. Héraclès étouffe le lion de Némée dont la peau est invulnérable, tue l'hydre de Lerne en cautérisant les cous d'où repoussent les têtes, capture vivante la biche de Cérynie et le sanglier d'Érymanthe, nettoie en un jour les écuries d'Augias en détournant un fleuve, chasse les oiseaux du lac Stymphale, dompte le taureau de Crète et les juments de Diomède, rapporte la ceinture de la reine des Amazones, les bœufs de Géryon et les pommes d'or du jardin des Hespérides, puis ramène des Enfers le chien Cerbère. Ces exploits le conduisent aux limites du monde connu. Le héros meurt brûlé par une tunique empoisonnée, mais la tradition raconte qu'il est ensuite accueilli parmi les dieux de l'Olympe.",
+   "visuel": {
+    "type": "image",
+    "image": "myt-heracles-lion",
+    "legende": "Amphore attique à figures noires : Héraclès étouffe le lion de Némée, premier des douze travaux. Ces récits étaient transmis aussi bien par les poèmes que par la peinture des vases.",
+    "alt": "Vase grec à panse ronde et deux anses, décoré en silhouettes noires sur fond orangé : un homme agenouillé serre un lion à bras-le-corps, entouré de deux personnages debout."
+   }
+  },
+  {
+   "titre": "Thésée, le labyrinthe et la cité d'Athènes",
+   "texte": "Thésée est le héros associé à Athènes, dont il passe pour avoir organisé l'unité politique. Élevé loin de la ville, il découvre les armes laissées par son père Égée sous un rocher et rejoint Athènes en débarrassant la route de brigands célèbres, comme Procuste, qui ajustait ses victimes à la taille de son lit. Le récit le plus connu le conduit ensuite en Crète. La cité d'Athènes devait alors envoyer régulièrement de jeunes gens au roi Minos, pour être livrés au Minotaure, être à corps d'homme et tête de taureau enfermé dans le Labyrinthe construit par l'architecte Dédale. Thésée se porte volontaire. Ariane, fille de Minos, lui remet une pelote de fil qu'il déroule en avançant, ce qui lui permet de ressortir après avoir tué le monstre. Il quitte la Crète avec la jeune fille mais l'abandonne sur l'île de Naxos, où selon les versions Dionysos la recueille. Lors du retour, il oublie de remplacer la voile noire du navire par une voile blanche, signal convenu de la victoire ; croyant son fils mort, Égée se jette à la mer qui reçoit son nom. Devenu roi, Thésée est également associé à la guerre contre les Amazones et à la triste histoire de son fils Hippolyte."
+  },
+  {
+   "titre": "Ulysse et le long retour vers Ithaque",
+   "texte": "Ulysse, appelé Odusseus en grec, est le roi d'Ithaque dont l'Odyssée d'Homère raconte le retour après les dix années de la guerre de Troie. Le poème le décrit moins par sa force que par son intelligence, sa ruse et sa capacité à parler ; c'est lui qui aurait imaginé le cheval de bois permettant la prise de la ville. Le voyage du retour dure encore dix ans et le conduit dans des contrées merveilleuses. Il aveugle le cyclope Polyphème, fils de Poséidon, ce qui attire sur lui la colère du dieu de la mer. Il reçoit du roi Éole une outre contenant les vents, que ses compagnons ouvrent imprudemment. Il échappe à la magicienne Circé qui transforme les hommes en pourceaux, descend consulter l'âme du devin Tirésias au pays des morts, se fait attacher au mât pour entendre sans danger le chant des sirènes, franchit le passage gardé par Charybde et Scylla, et perd ses derniers marins après qu'ils ont mangé les bœufs du Soleil. Retenu sept ans par la nymphe Calypso, il regagne enfin Ithaque avec l'aide des Phéaciens. Là, déguisé en mendiant, il reconquiert son foyer face aux prétendants qui assiégeaient son épouse Pénélope, aidé par son fils Télémaque."
+  },
+  {
+   "titre": "Jason, Persée et la logique de la quête",
+   "texte": "D'autres cycles héroïques éclairent le fonctionnement de ces récits. Jason, dépossédé du trône d'Iolcos, doit rapporter la Toison d'or conservée en Colchide pour faire valoir ses droits. Il rassemble un équipage de héros, les Argonautes, sur un navire nommé Argo, franchit des passages dangereux et obtient l'objet convoité grâce à la magicienne Médée, fille du roi local, qui trahit sa famille par amour ; leur histoire se termine tragiquement. Persée, fils de Zeus et de Danaé, reçoit l'ordre de rapporter la tête de la Gorgone Méduse, dont le regard pétrifie ; muni de sandales ailées, d'un casque d'invisibilité et d'un bouclier poli qui lui sert de miroir, il réussit et délivre au retour la princesse Andromède exposée à un monstre marin. On retrouve dans ces aventures une structure commune, que les spécialistes des récits comparent volontiers : un manque ou une injustice initiale, une mission apparemment impossible confiée par un roi hostile, des auxiliaires humains ou divins, des objets magiques, un affrontement décisif et un retour transformé. Ces histoires servaient aussi à expliquer l'origine de fêtes, de sanctuaires ou de familles nobles qui prétendaient descendre d'un héros. Reprises par les auteurs latins puis par les artistes de la Renaissance, elles ont profondément marqué la littérature, la peinture et la musique de l'Europe jusqu'à aujourd'hui.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Cinq quêtes, une même structure",
+    "colonnes": [
+     "Héros",
+     "Mission",
+     "Aide, ruse ou objet décisif"
+    ],
+    "lignes": [
+     [
+      "Héraclès",
+      "Accomplir les douze travaux au service du roi Eurysthée de Mycènes, pour expier le meurtre de ses enfants",
+      "Sa force : il étouffe le lion de Némée et cautérise les cous de l'hydre de Lerne"
+     ],
+     [
+      "Thésée",
+      "Tuer le Minotaure enfermé dans le Labyrinthe de Crète",
+      "La pelote de fil remise par Ariane, fille de Minos"
+     ],
+     [
+      "Ulysse",
+      "Regagner Ithaque après les dix années de la guerre de Troie",
+      "Son intelligence et sa parole, puis l'aide des Phéaciens"
+     ],
+     [
+      "Jason",
+      "Rapporter la Toison d'or conservée en Colchide",
+      "L'équipage des Argonautes, le navire Argo et la magicienne Médée"
+     ],
+     [
+      "Persée",
+      "Rapporter la tête de la Gorgone Méduse, dont le regard pétrifie",
+      "Des sandales ailées, un casque d'invisibilité et un bouclier poli servant de miroir"
+     ]
+    ],
+    "note": "On retrouve dans ces aventures un manque initial, une mission apparemment impossible confiée par un roi hostile, des auxiliaires humains ou divins, des objets magiques, un affrontement décisif et un retour transformé."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Pour quelle raison, selon la tradition, Héraclès accomplit-il ses douze travaux ?",
+   "choix": [
+    "Pour gagner le trône de Thèbes",
+    "Pour retrouver son épouse enlevée",
+    "Pour expier le meurtre de ses enfants, sur ordre de l'oracle de Delphes",
+    "Pour obtenir la Toison d'or"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Frappé d'une crise de folie envoyée par Héra, Héraclès tue ses propres enfants. L'oracle de Delphes lui prescrit alors de se mettre au service du roi Eurysthée, ce qui donne naissance au cycle des douze travaux. Le héros ne cherche pas à s'emparer du trône de Thèbes par ces épreuves. L'enlèvement d'une épouse concerne d'autres récits, comme celui d'Orphée ou l'histoire d'Hélène. La quête de la Toison d'or appartient au cycle de Jason et des Argonautes."
+  },
+  {
+   "q": "Quel objet Ariane remet-elle à Thésée pour qu'il ressorte du Labyrinthe ?",
+   "choix": [
+    "Un miroir de bronze",
+    "Une épée magique",
+    "Une carte gravée",
+    "Une pelote de fil"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "Ariane, fille du roi Minos, donne à Thésée une pelote de fil qu'il déroule en s'enfonçant dans le Labyrinthe, ce qui lui permet de retrouver la sortie après avoir tué le Minotaure. L'expression fil d'Ariane est restée dans la langue française pour désigner un moyen de se guider. Le bouclier poli servant de miroir appartient au récit de Persée face à Méduse. Les récits ne mentionnent ni carte ni épée enchantée dans cet épisode. Thésée abandonne ensuite Ariane sur l'île de Naxos."
+  },
+  {
+   "q": "Quelle divinité poursuit Ulysse de sa colère durant son retour, selon l'Odyssée ?",
+   "choix": [
+    "Héphaïstos",
+    "Poséidon",
+    "Arès",
+    "Hadès"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "En aveuglant le cyclope Polyphème, Ulysse s'attire la haine de Poséidon, dieu de la mer et père du cyclope, ce qui explique les tempêtes et les détours de son voyage. La déesse Athéna, au contraire, le soutient tout au long du poème. Héphaïstos, dieu forgeron, n'intervient pas dans cette intrigue. Arès, dieu de la guerre, joue un rôle dans l'Iliade mais non dans le retour d'Ulysse. Hadès règne sur le monde des morts, où Ulysse ne fait que consulter les ombres."
+  },
+  {
+   "q": "Que désigne le mot grec hybris souvent associé aux héros ?",
+   "choix": [
+    "La démesure et l'excès d'orgueil punis par les dieux",
+    "Le culte rendu sur la tombe d'un héros",
+    "Le nom donné aux compagnons de Jason",
+    "Le pouvoir de prédire l'avenir"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "L'hybris désigne dans la pensée grecque la démesure, l'orgueil qui pousse un homme à dépasser les limites fixées à sa condition. Les récits mythologiques et les tragédies montrent régulièrement les dieux punir cette attitude, la sanction étant souvent appelée némésis. Le culte rendu sur la tombe d'un héros porte le nom de culte héroïque et relève d'un tout autre vocabulaire. Les compagnons de Jason sont appelés les Argonautes, du nom de leur navire Argo. Le don de prédire l'avenir relève de la mantique, exercée par des devins comme Tirésias."
+  },
+  {
+   "q": "Quel héros rapporte la tête de la Gorgone Méduse et délivre Andromède ?",
+   "choix": [
+    "Bellérophon",
+    "Achille",
+    "Thésée",
+    "Persée"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Persée, fils de Zeus et de Danaé, reçoit la mission de rapporter la tête de Méduse, dont le regard change en pierre ceux qui le croisent. Aidé par des sandales ailées, un casque d'invisibilité et un bouclier poli servant de miroir, il réussit puis sauve Andromède exposée à un monstre marin. Bellérophon est le héros qui monte le cheval ailé Pégase et affronte la Chimère. Achille est le principal guerrier grec de l'Iliade. Thésée est le héros athénien associé au Minotaure et au Labyrinthe."
+  }
+ ]
+}

@@ -1,0 +1,1307 @@
+{
+ "id": "histoire-monde",
+ "nom": "Histoire du monde",
+ "emoji": "🌍",
+ "questions": [
+  {
+   "q": "Sur quel plateau s'élèvent les trois grandes pyramides d'Égypte, dont celle de Khéops ?",
+   "choix": [
+    "Le plateau de Gizeh",
+    "La vallée des Rois",
+    "Saqqarah",
+    "Abou Simbel"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Les trois grandes pyramides de Khéops, Khéphren et Mykérinos se dressent sur le plateau de Gizeh, près du Caire, gardées par le Sphinx. Construite vers 2560 av. J.-C. sous la IVe dynastie, la pyramide de Khéops mesurait à l'origine près de 147 mètres de haut et resta le plus haut monument du monde pendant environ quatre millénaires. Elle est composée de plus de deux millions de blocs de pierre. C'est la seule des Sept Merveilles du monde antique encore debout aujourd'hui. Ces pyramides étaient des tombeaux destinés à assurer la vie éternelle des pharaons."
+  },
+  {
+   "q": "Quel peuple de Mésopotamie invente l'écriture cunéiforme vers 3300 av. J.-C. ?",
+   "choix": [
+    "Les Sumériens",
+    "Les Égyptiens",
+    "Les Phéniciens",
+    "Les Hébreux"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'écriture cunéiforme est inventée par les Sumériens, en basse Mésopotamie (l'Irak actuel), vers 3300 av. J.-C., notamment dans la cité d'Uruk. Tracée au calame sur des tablettes d'argile, elle doit son nom à ses signes en forme de coins (« cuneus » en latin). D'abord comptable, elle sert à enregistrer les récoltes et les échanges, puis note des textes religieux, juridiques et littéraires comme l'Épopée de Gilgamesh. Son invention, à peu près contemporaine des hiéroglyphes égyptiens, marque conventionnellement le passage de la Préhistoire à l'Histoire. Elle fut déchiffrée au XIXe siècle grâce à l'inscription trilingue de Behistun."
+  },
+  {
+   "q": "Quel roi de Babylone fait graver vers 1750 av. J.-C. l'un des plus anciens codes de lois connus ?",
+   "choix": [
+    "Hammurabi",
+    "Nabuchodonosor II",
+    "Sargon d'Akkad",
+    "Cyrus le Grand"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Hammurabi, roi de Babylone au XVIIIe siècle av. J.-C., fait graver sur une stèle de basalte un recueil d'environ 282 lois, l'un des plus anciens codes juridiques connus. Le texte règle la vie sociale, le commerce, la famille et applique le principe du talion, « œil pour œil, dent pour dent », modulé selon le rang social. La stèle montre le roi recevant les lois du dieu-soleil Shamash, fondant la justice sur une autorité divine. Découverte à Suse en 1901, elle est aujourd'hui exposée au musée du Louvre. Hammurabi fit aussi de Babylone la grande puissance de la Mésopotamie."
+  },
+  {
+   "q": "Quel archéologue britannique découvre la tombe de Toutânkhamon en 1922 ?",
+   "choix": [
+    "Howard Carter",
+    "Heinrich Schliemann",
+    "Jean-François Champollion",
+    "Arthur Evans"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le 4 novembre 1922, Howard Carter, financé par Lord Carnarvon, découvre dans la Vallée des Rois la tombe quasi intacte de Toutânkhamon, pharaon mort vers 1327 av. J.-C. à environ 18 ans. Le tombeau livre plus de 5 000 objets, dont le célèbre masque funéraire en or massif, faisant de ce pharaon mineur le plus célèbre de l'égyptologie. Interrogé sur ce qu'il voyait par l'ouverture, Carter aurait répondu : « Des merveilles ». La mort de Carnarvon quelques mois plus tard nourrit la légende de la « malédiction du pharaon ». C'est l'une des plus grandes découvertes archéologiques du XXe siècle."
+  },
+  {
+   "q": "En quelle année se tiennent traditionnellement les premiers Jeux olympiques de l'Antiquité ?",
+   "choix": [
+    "776 av. J.-C.",
+    "490 av. J.-C.",
+    "1200 av. J.-C.",
+    "336 av. J.-C."
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La tradition grecque date les premiers Jeux olympiques de 776 av. J.-C., à Olympie, dans le Péloponnèse, en l'honneur de Zeus. Ces concours panhelléniques réunissaient tous les quatre ans des athlètes de toutes les cités grecques pour des épreuves de course, de lutte, de pugilat ou de char ; une trêve sacrée suspendait les conflits pendant les Jeux. Les vainqueurs recevaient une simple couronne d'olivier mais une gloire immense dans leur cité. Les Jeux durèrent plus de mille ans avant d'être interdits à la fin du IVe siècle apr. J.-C. Pierre de Coubertin les fit renaître à Athènes en 1896."
+  },
+  {
+   "q": "En 490 av. J.-C., quelle bataille voit les Athéniens repousser la première invasion perse ?",
+   "choix": [
+    "Marathon",
+    "Salamine",
+    "Les Thermopyles",
+    "Platées"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "En 490 av. J.-C., les hoplites athéniens, commandés notamment par Miltiade, écrasent dans la plaine de Marathon le corps expéditionnaire envoyé par le roi perse Darius Ier. Cette victoire inattendue met fin à la première guerre médique et fonde le prestige d'Athènes. La légende, tardive, raconte qu'un messager courut annoncer la victoire à Athènes avant de mourir d'épuisement : elle a inspiré l'épreuve moderne du marathon, longue d'environ 42 kilomètres. Dix ans plus tard, Xerxès lança une seconde invasion, arrêtée aux Thermopyles puis vaincue à Salamine en 480 et à Platées en 479 av. J.-C."
+  },
+  {
+   "q": "Quel stratège domine la vie politique d'Athènes au Ve siècle av. J.-C., donnant son nom à un « siècle » ?",
+   "choix": [
+    "Périclès",
+    "Solon",
+    "Thémistocle",
+    "Alcibiade"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Périclès, réélu stratège presque sans interruption d'environ 443 à sa mort en 429 av. J.-C., domine la vie politique athénienne au point qu'on parle du « siècle de Périclès ». Il approfondit la démocratie en instaurant une indemnité pour les citoyens exerçant des charges publiques, permettant aux plus pauvres de participer. Il lance les grands chantiers de l'Acropole, dont le Parthénon, financés en partie par le trésor de la ligue de Délos. Sous son autorité, Athènes atteint son apogée intellectuel et artistique, avec Sophocle, Euripide, Phidias ou Hérodote. Il meurt de la peste au début de la guerre du Péloponnèse contre Sparte."
+  },
+  {
+   "q": "Quel philosophe grec fut le précepteur d'Alexandre le Grand ?",
+   "choix": [
+    "Aristote",
+    "Platon",
+    "Socrate",
+    "Épicure"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Vers 343 av. J.-C., le roi Philippe II de Macédoine confie l'éducation de son fils Alexandre au philosophe Aristote, ancien élève de Platon. Pendant environ trois ans, à Miéza, Aristote enseigne au futur conquérant la philosophie, la rhétorique, la médecine et les lettres, lui transmettant notamment la passion d'Homère. Devenu roi en 336 av. J.-C., Alexandre conquiert en une décennie l'immense Empire perse, poussant jusqu'à l'Indus, et fonde de nombreuses villes dont Alexandrie d'Égypte. Mort à Babylone en 323 av. J.-C. à 32 ans, il ouvre la période hellénistique, qui diffuse la culture grecque en Orient. Aristote, lui, fonde à Athènes son école, le Lycée."
+  },
+  {
+   "q": "En quelle année la tradition situe-t-elle la fondation de Rome par Romulus ?",
+   "choix": [
+    "753 av. J.-C.",
+    "509 av. J.-C.",
+    "1000 av. J.-C.",
+    "476 av. J.-C."
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "La tradition romaine, fixée notamment par l'érudit Varron, date la fondation de Rome du 21 avril 753 av. J.-C. La légende raconte que les jumeaux Romulus et Rémus, fils du dieu Mars abandonnés sur le Tibre et allaités par une louve, fondèrent la ville ; Romulus tua son frère et donna son nom à Rome. Les Romains comptaient d'ailleurs les années « depuis la fondation de la ville » (ab Urbe condita). L'archéologie confirme l'existence de villages sur le Palatin dès le VIIIe siècle av. J.-C. Après la royauté, Rome devint une république en 509 av. J.-C., avant de conquérir tout le bassin méditerranéen."
+  },
+  {
+   "q": "À quelle date Jules César est-il assassiné au Sénat de Rome ?",
+   "choix": [
+    "Le 15 mars 44 av. J.-C.",
+    "Le 15 mars 27 av. J.-C.",
+    "Le 1er août 30 av. J.-C.",
+    "Le 15 mars 52 av. J.-C."
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Jules César est assassiné le 15 mars 44 av. J.-C., jour des « ides de mars » du calendrier romain, lors d'une séance du Sénat. Vainqueur de la guerre civile contre Pompée et nommé dictateur à vie, il inquiétait les sénateurs attachés à la République, qui le soupçonnaient de vouloir la royauté. Une soixantaine de conjurés, menés par Brutus et Cassius, le frappent de 23 coups de poignard. La phrase « Toi aussi, mon fils ? » adressée à Brutus est rapportée par la tradition. Loin de sauver la République, l'assassinat rouvre les guerres civiles, qui s'achèvent par la victoire de son héritier Octave, futur empereur Auguste."
+  },
+  {
+   "q": "Quelle bataille navale de 31 av. J.-C. donne à Octave la victoire définitive sur Marc Antoine et Cléopâtre ?",
+   "choix": [
+    "Actium",
+    "Salamine",
+    "Lépante",
+    "Aboukir"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Le 2 septembre 31 av. J.-C., au large d'Actium, en Grèce occidentale, la flotte d'Octave commandée par Agrippa met en déroute celle de Marc Antoine et de la reine d'Égypte Cléopâtre VII. Les deux vaincus s'enfuient en Égypte, où ils se suicident l'année suivante lors de l'entrée d'Octave à Alexandrie ; l'Égypte devient une province romaine. Cette victoire clôt un siècle de guerres civiles romaines. En 27 av. J.-C., le Sénat décerne à Octave le titre d'Auguste : il devient le premier empereur romain et inaugure une longue période de paix intérieure, la Pax Romana."
+  },
+  {
+   "q": "Quelle éruption volcanique détruit Pompéi et Herculanum en 79 apr. J.-C. ?",
+   "choix": [
+    "Celle du Vésuve",
+    "Celle de l'Etna",
+    "Celle du Stromboli",
+    "Celle du Santorin"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "En 79 apr. J.-C., l'éruption du Vésuve ensevelit les villes romaines de Pompéi et d'Herculanum, près de Naples, sous des mètres de cendres, de pierres ponces et de coulées pyroclastiques. Pline le Jeune, témoin oculaire, décrit la catastrophe dans deux lettres célèbres ; son oncle Pline l'Ancien meurt en tentant de porter secours aux habitants. Des milliers de personnes périssent, figées dans des positions que les moulages en plâtre des archéologues ont restituées. Redécouvertes au XVIIIe siècle, ces villes remarquablement conservées offrent un témoignage unique sur la vie quotidienne romaine. Pompéi est aujourd'hui l'un des sites archéologiques les plus visités du monde."
+  },
+  {
+   "q": "Quel empereur romain autorise le christianisme par l'édit de Milan en 313 ?",
+   "choix": [
+    "Constantin",
+    "Néron",
+    "Dioclétien",
+    "Marc Aurèle"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "En 313, l'empereur Constantin, avec son collègue Licinius, promulgue l'édit dit de Milan, qui accorde la liberté de culte à tous les habitants de l'Empire et met fin aux persécutions contre les chrétiens, particulièrement violentes sous Dioclétien. Selon la tradition, Constantin se serait converti après une vision avant sa victoire du pont Milvius en 312. Il favorise ensuite l'Église, réunit le concile de Nicée en 325 et fonde Constantinople, inaugurée en 330 sur le site de Byzance. Le christianisme, religion persécutée, devient religion d'État de l'Empire sous Théodose en 380. C'est l'un des tournants religieux majeurs de l'histoire occidentale."
+  },
+  {
+   "q": "En quelle année l'Empire romain d'Occident disparaît-il avec la déposition de Romulus Augustule ?",
+   "choix": [
+    "476",
+    "410",
+    "395",
+    "527"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "En 476, le chef barbare Odoacre dépose le dernier empereur romain d'Occident, l'adolescent Romulus Augustule, et renvoie les insignes impériaux à Constantinople. Cet événement, choisi par les historiens comme fin conventionnelle de l'Antiquité et début du Moyen Âge, couronne un long déclin : invasions germaniques, sac de Rome par les Wisigoths d'Alaric en 410 puis par les Vandales en 455, crise économique et politique. L'Empire avait été définitivement partagé en 395 à la mort de Théodose. L'Empire romain d'Orient, dit byzantin, survivra pour sa part près de mille ans encore, jusqu'à la prise de Constantinople en 1453."
+  },
+  {
+   "q": "Quel événement de l'année 622 marque le point de départ du calendrier musulman ?",
+   "choix": [
+    "L'Hégire, départ de Mahomet de La Mecque vers Médine",
+    "La naissance de Mahomet",
+    "La conquête de Jérusalem",
+    "La mort de Mahomet"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "En 622, Mahomet, persécuté à La Mecque où sa prédication dérange les élites, émigre avec ses fidèles vers l'oasis de Yathrib, qui deviendra Médine, « la ville du Prophète ». Cet exil, appelé Hégire (de l'arabe hijra, « émigration »), marque la naissance de la première communauté musulmane organisée et le point de départ du calendrier islamique, calendrier lunaire toujours en usage. Mahomet revient triomphalement à La Mecque en 630 et meurt en 632. En un siècle, les conquêtes arabes bâtissent un empire s'étendant de l'Espagne à l'Indus. L'islam devient l'une des grandes religions mondiales."
+  },
+  {
+   "q": "Quelle ville était la capitale de l'Empire byzantin ?",
+   "choix": [
+    "Constantinople",
+    "Rome",
+    "Athènes",
+    "Alexandrie"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Constantinople, fondée par l'empereur Constantin en 330 sur le site de l'ancienne colonie grecque de Byzance, fut la capitale de l'Empire romain d'Orient, dit byzantin, pendant plus de mille ans. Située sur le Bosphore, entre Europe et Asie, protégée par de formidables murailles, elle était la plus grande et la plus riche ville de la chrétienté médiévale. L'empereur Justinien y fit édifier au VIe siècle la basilique Sainte-Sophie, chef-d'œuvre à l'immense coupole. L'Empire byzantin conserva l'héritage gréco-romain et diffusa le christianisme orthodoxe chez les Slaves. Prise par les Ottomans en 1453, la ville devint Istanbul."
+  },
+  {
+   "q": "En quelle année Constantinople tombe-t-elle aux mains des Ottomans ?",
+   "choix": [
+    "1453",
+    "1492",
+    "1204",
+    "1517"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le 29 mai 1453, après un siège de près de deux mois, le sultan ottoman Mehmed II, âgé de 21 ans, s'empare de Constantinople, dont les célèbres murailles cèdent sous les coups d'une artillerie géante. Le dernier empereur byzantin, Constantin XI, meurt dans les combats : c'est la fin de l'Empire romain d'Orient, plus de mille ans après la chute de Rome. La ville devient la capitale de l'Empire ottoman et Sainte-Sophie est convertie en mosquée. L'événement, qui sert souvent de borne entre Moyen Âge et époque moderne, pousse aussi les Européens à chercher de nouvelles routes vers l'Asie. La fuite de savants grecs vers l'Italie nourrit la Renaissance."
+  },
+  {
+   "q": "Quel conquérant fonde l'Empire mongol au début du XIIIe siècle ?",
+   "choix": [
+    "Gengis Khan",
+    "Tamerlan",
+    "Attila",
+    "Kubilai Khan"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Temüdjin, proclamé Gengis Khan (« souverain universel ») en 1206 après avoir unifié les tribus mongoles, fonde le plus vaste empire continu de l'histoire. Ses cavaliers, d'une mobilité et d'une discipline redoutables, conquièrent la Chine du Nord, l'Asie centrale et la Perse ; à sa mort en 1227, ses successeurs poursuivent l'expansion jusqu'en Europe orientale et au Moyen-Orient. Son petit-fils Kubilai Khan achève la conquête de la Chine et y fonde la dynastie Yuan, que visite le Vénitien Marco Polo. Malgré leur brutalité, les conquêtes mongoles instaurent une « paix mongole » qui sécurise les routes de la soie et intensifie les échanges entre Orient et Occident."
+  },
+  {
+   "q": "Quel marchand vénitien raconte son long séjour dans la Chine de Kubilai Khan dans le « Livre des merveilles » ?",
+   "choix": [
+    "Marco Polo",
+    "Vasco de Gama",
+    "Ibn Battuta",
+    "Christophe Colomb"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Marco Polo, marchand vénitien, part vers 1271 avec son père et son oncle pour la Chine, alors gouvernée par l'empereur mongol Kubilai Khan, au service duquel il serait resté environ dix-sept ans. De retour à Venise après 24 ans de voyage, il dicte en prison à Rustichello de Pise le récit de ses aventures, le « Devisement du monde » ou « Livre des merveilles ». L'ouvrage révèle aux Européens les richesses fabuleuses de l'Asie : papier-monnaie, charbon, villes immenses comme Hangzhou. Malgré les doutes de certains contemporains qui le surnommaient « Il Milione », son livre influença durablement les géographes. Christophe Colomb en possédait un exemplaire annoté."
+  },
+  {
+   "q": "Sous quelle dynastie la Grande Muraille de Chine prend-elle pour l'essentiel sa forme actuelle en pierre et brique ?",
+   "choix": [
+    "La dynastie Ming",
+    "La dynastie Qin",
+    "La dynastie Han",
+    "La dynastie Tang"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Si les premiers murs de terre furent reliés dès le IIIe siècle av. J.-C. par Qin Shi Huangdi, le premier empereur de Chine, la Grande Muraille telle qu'on la visite aujourd'hui date pour l'essentiel de la dynastie Ming (1368-1644). Après avoir chassé les Mongols, les Ming reconstruisirent en pierre et en brique des milliers de kilomètres de fortifications, avec tours de guet et garnisons, pour protéger la Chine des invasions venues du nord. L'ensemble des tronçons construits au fil des siècles dépasse 20 000 kilomètres. Malgré la légende, la muraille n'est pas visible à l'œil nu depuis la Lune. Elle est inscrite au patrimoine mondial de l'UNESCO depuis 1987."
+  },
+  {
+   "q": "Quelle pandémie tue entre un tiers et la moitié de la population européenne entre 1347 et 1352 ?",
+   "choix": [
+    "La peste noire",
+    "La grippe espagnole",
+    "Le choléra",
+    "La variole"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La peste noire, causée par le bacille Yersinia pestis transmis notamment par les puces des rats, atteint l'Europe en 1347 par des navires génois venus de la mer Noire. En cinq ans, elle tue entre 25 et 50 % de la population européenne, soit environ 25 millions de morts, vidant villes et campagnes. Impuissants, les contemporains y voient un châtiment divin ; des flagellants parcourent les routes et des communautés juives sont massacrées, accusées d'empoisonner les puits. La pandémie bouleverse l'économie et la société : la main-d'œuvre raréfiée voit ses salaires monter. La peste resurgira par vagues en Europe jusqu'au XVIIIe siècle."
+  },
+  {
+   "q": "Vers 1450, quel Allemand met au point l'imprimerie à caractères mobiles en Europe ?",
+   "choix": [
+    "Johannes Gutenberg",
+    "Martin Luther",
+    "Érasme",
+    "Aldus Manutius"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Vers 1450, à Mayence, l'orfèvre Johannes Gutenberg met au point l'imprimerie à caractères mobiles métalliques, combinée à une presse à bras et à une encre adaptée. Son chef-d'œuvre, la Bible dite « à 42 lignes », est achevé vers 1455. L'invention, qui reprend des principes connus en Chine et en Corée mais les adapte à l'alphabet latin, permet de reproduire les textes rapidement et à moindre coût. En cinquante ans, des millions de livres sont imprimés en Europe : la Renaissance, l'humanisme puis la Réforme protestante s'en trouvent formidablement accélérés. C'est l'une des inventions les plus décisives de l'histoire, véritable révolution de la diffusion du savoir."
+  },
+  {
+   "q": "En quelle année Christophe Colomb atteint-il l'Amérique ?",
+   "choix": [
+    "1492",
+    "1498",
+    "1519",
+    "1453"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le 12 octobre 1492, après cinq semaines de traversée de l'Atlantique avec ses trois navires, la Santa María, la Pinta et la Niña, Christophe Colomb aborde une île des Bahamas qu'il nomme San Salvador. Le navigateur génois, financé par les rois catholiques d'Espagne Isabelle de Castille et Ferdinand d'Aragon, cherchait une route occidentale vers les Indes et crut toute sa vie avoir atteint l'Asie, d'où le nom d'« Indiens » donné aux habitants. Il effectuera quatre voyages au total. Cette date marque le début de la colonisation européenne de l'Amérique et sert souvent de borne entre Moyen Âge et Temps modernes. Le continent sera nommé d'après un autre navigateur, Amerigo Vespucci."
+  },
+  {
+   "q": "Quel traité de 1494 partage le Nouveau Monde entre l'Espagne et le Portugal ?",
+   "choix": [
+    "Le traité de Tordesillas",
+    "Le traité de Paris",
+    "Le traité de Saragosse",
+    "Le traité de Cateau-Cambrésis"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Signé le 7 juin 1494 sous l'égide du pape, le traité de Tordesillas partage les terres à découvrir entre l'Espagne et le Portugal, de part et d'autre d'un méridien tracé à 370 lieues à l'ouest des îles du Cap-Vert : l'ouest pour la Castille, l'est pour le Portugal. Ce partage explique que le Brésil, « découvert » par Cabral en 1500 et situé à l'est de la ligne, soit devenu portugais et parle aujourd'hui portugais, tandis que le reste de l'Amérique latine fut espagnol. Les autres puissances européennes, comme la France de François Ier, refusèrent ce duopole. Le traité illustre la domination ibérique sur les débuts de l'expansion européenne."
+  },
+  {
+   "q": "Quel navigateur portugais atteint les Indes par le cap de Bonne-Espérance en 1498 ?",
+   "choix": [
+    "Vasco de Gama",
+    "Bartolomeu Dias",
+    "Fernand de Magellan",
+    "Pedro Álvares Cabral"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Parti de Lisbonne en juillet 1497, Vasco de Gama contourne l'Afrique par le cap de Bonne-Espérance, que Bartolomeu Dias avait franchi le premier en 1488, remonte la côte orientale africaine et atteint Calicut, sur la côte indienne, en mai 1498. Il ouvre ainsi la route maritime directe entre l'Europe et l'Asie, objectif poursuivi par le Portugal depuis les expéditions lancées par Henri le Navigateur. Cette route permet aux Portugais de contourner les intermédiaires du commerce des épices et de bâtir un empire commercial dans l'océan Indien, avec des comptoirs comme Goa. Le voyage aller-retour, long de deux ans, coûta la vie à une grande partie des équipages, notamment à cause du scorbut."
+  },
+  {
+   "q": "Quelle expédition partie en 1519 réalise le premier tour du monde ?",
+   "choix": [
+    "Celle de Magellan, achevée par Elcano",
+    "Celle de Christophe Colomb",
+    "Celle de Vasco de Gama",
+    "Celle de James Cook"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "En septembre 1519, le Portugais Fernand de Magellan quitte l'Espagne avec cinq navires et environ 270 hommes pour atteindre les îles aux épices par l'ouest. Il découvre le détroit qui porte son nom, à la pointe de l'Amérique du Sud, traverse l'océan qu'il baptise « Pacifique », mais est tué aux Philippines en avril 1521 lors d'un combat sur l'île de Mactan. Le Basque Juan Sebastián Elcano ramène l'unique navire rescapé, la Victoria, en Espagne en septembre 1522, avec seulement 18 survivants. Contrairement à une idée reçue tenace, cette première circumnavigation ne démontre pas la rotondité de la Terre, admise par les savants depuis l'Antiquité grecque : elle en établit en revanche la mesure réelle et révèle l'immensité insoupçonnée du Pacifique."
+  },
+  {
+   "q": "Quel conquistador espagnol s'empare de l'Empire aztèque en 1521 ?",
+   "choix": [
+    "Hernán Cortés",
+    "Francisco Pizarro",
+    "Vasco Núñez de Balboa",
+    "Diego de Almagro"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Débarqué au Mexique en 1519 avec quelques centaines d'hommes, Hernán Cortés s'empare en août 1521 de Tenochtitlan, capitale de l'Empire aztèque, après un siège dévastateur. Il a su exploiter les rivalités locales en s'alliant aux peuples soumis aux Aztèques, comme les Tlaxcaltèques, et bénéficie de la supériorité des armes à feu, des chevaux et surtout des épidémies, la variole ayant décimé les défenseurs. L'empereur Moctezuma II était mort en 1520 pendant la conquête. Sur les ruines de Tenochtitlan s'élève Mexico, capitale de la Nouvelle-Espagne. Une décennie plus tard, Francisco Pizarro conquiert de même l'Empire inca au Pérou, capturant l'empereur Atahualpa en 1532."
+  },
+  {
+   "q": "Quel empire andin, dont la capitale était Cuzco, est conquis par Francisco Pizarro dans les années 1530 ?",
+   "choix": [
+    "L'Empire inca",
+    "L'Empire aztèque",
+    "L'Empire maya",
+    "L'Empire olmèque"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'Empire inca, le plus vaste de l'Amérique précolombienne, s'étendait le long des Andes sur des milliers de kilomètres, du sud de la Colombie au Chili, autour de sa capitale Cuzco, au Pérou actuel. En 1532, le conquistador Francisco Pizarro, avec moins de 200 hommes, capture l'empereur Atahualpa à Cajamarca en pleine guerre civile inca ; malgré une rançon fabuleuse en or et en argent, Atahualpa est exécuté en 1533. Affaibli par la variole et les divisions internes, l'empire s'effondre. Les Incas, remarquables bâtisseurs et administrateurs, ont laissé des sites spectaculaires comme le Machu Picchu, redécouvert en 1911. L'or du Pérou enrichira l'Espagne pendant des décennies."
+  },
+  {
+   "q": "Quel moine allemand publie en 1517 ses 95 thèses contre les indulgences, déclenchant la Réforme ?",
+   "choix": [
+    "Martin Luther",
+    "Jean Calvin",
+    "Ulrich Zwingli",
+    "Jan Hus"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le 31 octobre 1517, le moine augustin et théologien Martin Luther rend publiques à Wittenberg ses 95 thèses dénonçant le commerce des indulgences, ces remises de peine vendues par l'Église pour financer notamment la basilique Saint-Pierre de Rome. Diffusées rapidement grâce à l'imprimerie, elles déclenchent la Réforme protestante. Excommunié en 1521 et mis au ban de l'Empire à la diète de Worms, Luther refuse de se rétracter, traduit la Bible en allemand et fonde une Église appuyée sur l'Écriture seule et le salut par la foi. La chrétienté occidentale se divise durablement entre catholiques et protestants, provoquant un siècle de guerres de religion en Europe."
+  },
+  {
+   "q": "Comment s'appelle la flotte espagnole vaincue par l'Angleterre en 1588 ?",
+   "choix": [
+    "L'Invincible Armada",
+    "La Grande Flotte",
+    "La Sainte Ligue",
+    "L'escadre de Trafalgar"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "En 1588, le roi d'Espagne Philippe II lance contre l'Angleterre d'Élisabeth Ire une flotte d'environ 130 navires, restée célèbre sous le nom d'« Invincible Armada ». L'objectif : escorter une armée d'invasion pour renverser la reine protestante, qui soutenait les Provinces-Unies révoltées et les corsaires comme Francis Drake. Harcelée dans la Manche par les navires anglais plus maniables, dispersée par des brûlots devant Calais, l'Armada doit rentrer en contournant l'Écosse et l'Irlande, où les tempêtes détruisent une grande partie des navires. Cet échec, sans ruiner immédiatement la puissance espagnole, marque l'essor maritime de l'Angleterre. Il conforte aussi l'indépendance des Provinces-Unies."
+  },
+  {
+   "q": "Quel navire transporte en 1620 les « Pères pèlerins » vers l'Amérique du Nord ?",
+   "choix": [
+    "Le Mayflower",
+    "La Santa María",
+    "Le Beagle",
+    "L'Endeavour"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "En septembre 1620, le Mayflower quitte Plymouth, en Angleterre, avec une centaine de passagers, dont des puritains séparatistes fuyant les persécutions religieuses, les futurs « Pères pèlerins » (Pilgrim Fathers). Après deux mois de traversée, ils fondent la colonie de Plymouth, dans l'actuel Massachusetts, après avoir signé à bord le « Mayflower Compact », pacte d'autogouvernement considéré comme un jalon de la démocratie américaine. Près de la moitié des colons meurent le premier hiver ; l'aide des Amérindiens, dont Squanto, permet la survie de la colonie. La fête de Thanksgiving commémore traditionnellement la récolte partagée de 1621. Le Mayflower est devenu un mythe fondateur des États-Unis."
+  },
+  {
+   "q": "Quel tsar fonde Saint-Pétersbourg en 1703 pour ouvrir la Russie sur l'Europe ?",
+   "choix": [
+    "Pierre le Grand",
+    "Ivan le Terrible",
+    "Catherine II",
+    "Nicolas Ier"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Pierre Ier le Grand, tsar de 1682 à 1725, fonde Saint-Pétersbourg en 1703 sur les marais de la Neva, sur des terres conquises à la Suède pendant la grande guerre du Nord. Construite à grands frais humains, la ville devient capitale de la Russie en 1712 : cette « fenêtre sur l'Europe » symbolise la volonté du tsar de moderniser et d'occidentaliser son pays. Ayant voyagé incognito en Europe occidentale dans sa jeunesse, Pierre réforme l'armée, crée une marine de guerre, réorganise l'administration et va jusqu'à taxer le port de la barbe. Sa victoire décisive sur la Suède à Poltava en 1709 fait de la Russie une grande puissance européenne."
+  },
+  {
+   "q": "À quelle date les treize colonies américaines déclarent-elles leur indépendance ?",
+   "choix": [
+    "Le 4 juillet 1776",
+    "Le 14 juillet 1789",
+    "Le 19 avril 1775",
+    "Le 3 septembre 1783"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le 4 juillet 1776, le Congrès continental réuni à Philadelphie adopte la Déclaration d'indépendance des treize colonies britanniques d'Amérique, rédigée principalement par Thomas Jefferson. Le texte proclame que « tous les hommes sont créés égaux » et dotés de droits inaliénables, dont « la vie, la liberté et la recherche du bonheur ». La guerre d'indépendance, commencée en 1775 à Lexington, se poursuit jusqu'à la victoire décisive de Yorktown en 1781, remportée avec l'aide décisive de la France, notamment de La Fayette et de l'amiral de Grasse. Le traité de Paris de 1783 reconnaît les États-Unis. Le 4 juillet, « Independence Day », est la fête nationale américaine."
+  },
+  {
+   "q": "Qui devient en 1789 le premier président des États-Unis ?",
+   "choix": [
+    "George Washington",
+    "Thomas Jefferson",
+    "Benjamin Franklin",
+    "John Adams"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "George Washington, commandant en chef victorieux de l'armée continentale pendant la guerre d'indépendance, est élu à l'unanimité des grands électeurs premier président des États-Unis et prête serment le 30 avril 1789 à New York. Il avait présidé en 1787 la Convention de Philadelphie qui rédigea la Constitution américaine, toujours en vigueur. Réélu en 1792, il refuse un troisième mandat, créant une tradition de limitation du pouvoir qui ne sera inscrite dans la Constitution qu'en 1951. Son adresse d'adieu met en garde contre l'esprit de parti et les alliances permanentes. Surnommé le « père de la nation », il a donné son nom à la capitale fédérale."
+  },
+  {
+   "q": "Quel amiral britannique remporte la bataille de Trafalgar en 1805, où il trouve la mort ?",
+   "choix": [
+    "Horatio Nelson",
+    "Francis Drake",
+    "James Cook",
+    "Arthur Wellesley"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le 21 octobre 1805, au large des côtes espagnoles, l'amiral Horatio Nelson détruit la flotte franco-espagnole de l'amiral Villeneuve à Trafalgar, en coupant audacieusement la ligne ennemie en deux colonnes. Avant la bataille, il adresse à ses équipages le signal resté fameux : « L'Angleterre attend de chaque homme qu'il fasse son devoir ». Touché par un tireur français, Nelson meurt à bord de son vaisseau HMS Victory en apprenant sa victoire. Trafalgar assure à la Grande-Bretagne un siècle de suprématie maritime et ruine les projets d'invasion de Napoléon. La colonne Nelson domine depuis 1843 Trafalgar Square, à Londres."
+  },
+  {
+   "q": "Quel « Libertador » joue un rôle central dans l'indépendance de plusieurs pays d'Amérique du Sud ?",
+   "choix": [
+    "Simón Bolívar",
+    "José de San Martín",
+    "Emiliano Zapata",
+    "Che Guevara"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Simón Bolívar, aristocrate créole né à Caracas en 1783, mène les guerres d'indépendance contre l'Espagne dans le nord de l'Amérique du Sud, remportant des victoires décisives comme Boyacá (1819) et Carabobo (1821). Surnommé « El Libertador », il libère les territoires des actuels Venezuela, Colombie, Équateur, Pérou et Bolivie, cette dernière prenant son nom en son honneur. Au sud, José de San Martín libère de son côté l'Argentine et le Chili. Le rêve de Bolívar d'une grande fédération hispano-américaine, la Grande Colombie, se disloque cependant de son vivant. Il meurt en 1830, désabusé, mais reste le héros par excellence de l'Amérique latine."
+  },
+  {
+   "q": "Quelles années encadrent la guerre de Sécession américaine ?",
+   "choix": [
+    "1861-1865",
+    "1846-1848",
+    "1870-1871",
+    "1854-1860"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La guerre de Sécession oppose de 1861 à 1865 les États-Unis du Nord (l'Union) aux onze États esclavagistes du Sud, qui ont fait sécession après l'élection d'Abraham Lincoln pour former les États confédérés. Déclenchée par l'attaque de Fort Sumter en avril 1861, c'est le conflit le plus meurtrier de l'histoire américaine, avec plus de 600 000 morts. La victoire nordiste de Gettysburg en juillet 1863 marque le tournant ; Lincoln proclame l'émancipation des esclaves des États rebelles la même année. La reddition du général sudiste Lee à Appomattox en avril 1865 met fin à la guerre. Le 13e amendement abolit définitivement l'esclavage aux États-Unis en 1865."
+  },
+  {
+   "q": "Quel président américain est assassiné en avril 1865, quelques jours après la fin de la guerre de Sécession ?",
+   "choix": [
+    "Abraham Lincoln",
+    "Ulysses Grant",
+    "Andrew Johnson",
+    "James Garfield"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le 14 avril 1865, cinq jours après la capitulation du général Lee, Abraham Lincoln est mortellement blessé d'une balle dans la tête au théâtre Ford de Washington par l'acteur sudiste John Wilkes Booth ; il meurt le lendemain matin. Seizième président des États-Unis, Lincoln avait conduit l'Union à la victoire dans la guerre de Sécession et engagé l'abolition de l'esclavage, avec la Proclamation d'émancipation de 1863 puis le 13e amendement. Son discours de Gettysburg, définissant la démocratie comme « le gouvernement du peuple, par le peuple, pour le peuple », est l'un des plus célèbres de l'histoire. Il est le premier président américain assassiné."
+  },
+  {
+   "q": "Comment s'appelle la période de modernisation accélérée du Japon commencée en 1868 ?",
+   "choix": [
+    "L'ère Meiji",
+    "L'ère Edo",
+    "Le shogunat Tokugawa",
+    "L'ère Showa"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "En 1868, la restauration Meiji rend le pouvoir à l'empereur Mutsuhito et met fin à sept siècles de gouvernement des shoguns, dont les Tokugawa qui avaient fermé le Japon aux étrangers depuis le XVIIe siècle. L'ouverture forcée du pays par les « navires noirs » de l'Américain Perry en 1853-1854 avait révélé le retard nippon. Sous la devise « pays riche, armée forte », le Japon de l'ère Meiji (1868-1912) se modernise à marche forcée : abolition des fiefs et du statut des samouraïs, industrialisation, chemins de fer, école obligatoire, constitution en 1889. En une génération, il devient une grande puissance, capable de vaincre la Chine en 1895 puis la Russie en 1905, première victoire d'un pays asiatique sur une puissance européenne."
+  },
+  {
+   "q": "Quel chancelier réalise l'unification allemande, proclamée à Versailles en 1871 ?",
+   "choix": [
+    "Otto von Bismarck",
+    "Guillaume II",
+    "Metternich",
+    "Frédéric II"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Otto von Bismarck, ministre-président de Prusse à partir de 1862, réalise l'unification allemande « par le fer et par le sang » à travers trois guerres victorieuses : contre le Danemark (1864), l'Autriche (1866) et la France (1870-1871). Le 18 janvier 1871, dans la galerie des Glaces du château de Versailles, le roi de Prusse Guillaume Ier est proclamé empereur allemand : l'Empire allemand, ou IIe Reich, est né, humiliation durable pour la France vaincue. Chancelier jusqu'en 1890, Bismarck dote l'Allemagne des premières assurances sociales d'Europe et tisse un système d'alliances pour isoler la France. Son renvoi par le jeune Guillaume II ouvre une politique plus aventureuse qui mènera à 1914."
+  },
+  {
+   "q": "Quelle conférence internationale de 1884-1885 fixe les règles du partage colonial de l'Afrique ?",
+   "choix": [
+    "La conférence de Berlin",
+    "Le congrès de Vienne",
+    "La conférence de Yalta",
+    "La conférence de Bandung"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "De novembre 1884 à février 1885, la conférence de Berlin, convoquée par Bismarck, réunit quatorze puissances, essentiellement européennes, pour organiser la colonisation de l'Afrique. Sans représentant africain, elle pose le principe de l'occupation effective des côtes pour valider les revendications territoriales et garantit la liberté de navigation sur le Congo et le Niger ; le roi des Belges Léopold II y fait reconnaître son État indépendant du Congo, qu'il exploitera de façon particulièrement brutale. La conférence accélère la « course à l'Afrique » : en vingt ans, presque tout le continent est colonisé, seuls l'Éthiopie et le Liberia restant indépendants. Les frontières tracées alors, souvent arbitraires, pèsent encore sur l'Afrique contemporaine."
+  },
+  {
+   "q": "Dans la nuit du 14 au 15 avril 1912, quel paquebot réputé insubmersible sombre après avoir heurté un iceberg ?",
+   "choix": [
+    "Le Titanic",
+    "Le Lusitania",
+    "Le Normandie",
+    "Le Britannic"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le Titanic, paquebot britannique de la White Star Line et plus grand navire du monde à son lancement, heurte un iceberg dans l'Atlantique Nord dans la nuit du 14 au 15 avril 1912, lors de son voyage inaugural entre Southampton et New York. Réputé pratiquement insubmersible grâce à ses compartiments étanches, il sombre en moins de trois heures ; environ 1 500 personnes périssent sur quelque 2 200 passagers et membres d'équipage, les canots de sauvetage ne pouvant en accueillir qu'une moitié. La catastrophe entraîne de nouvelles règles de sécurité maritime, dont la veille radio permanente et des canots pour tous. L'épave ne fut retrouvée qu'en 1985, par 3 800 mètres de fond."
+  },
+  {
+   "q": "L'assassinat de quel personnage à Sarajevo, le 28 juin 1914, déclenche la Première Guerre mondiale ?",
+   "choix": [
+    "L'archiduc François-Ferdinand d'Autriche",
+    "L'empereur François-Joseph",
+    "Le roi Pierre Ier de Serbie",
+    "Le tsar Nicolas II"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le 28 juin 1914, l'archiduc François-Ferdinand, héritier de l'Empire austro-hongrois, et son épouse Sophie sont assassinés à Sarajevo par Gavrilo Princip, jeune nationaliste serbe de Bosnie lié à la société secrète de la Main noire. L'Autriche-Hongrie, soutenue par l'Allemagne, adresse un ultimatum à la Serbie puis lui déclare la guerre le 28 juillet. Par le jeu des alliances, la Russie, l'Allemagne, la France et le Royaume-Uni entrent en guerre début août : l'Europe bascule dans la Première Guerre mondiale. Le conflit, mondial par ses empires coloniaux et l'entrée des États-Unis en 1917, fera environ 10 millions de morts militaires. Il redessinera entièrement la carte de l'Europe."
+  },
+  {
+   "q": "Qui dirige les bolcheviks lors de la révolution d'Octobre 1917 en Russie ?",
+   "choix": [
+    "Lénine",
+    "Staline",
+    "Trotski",
+    "Kerenski"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Lénine, chef du parti bolchevik, dirige l'insurrection d'octobre 1917 (novembre dans le calendrier occidental) qui renverse à Petrograd le gouvernement provisoire de Kerenski, lui-même issu de la révolution de février qui avait fait abdiquer le tsar Nicolas II. Rentré d'exil en avril, Lénine avait promis « la paix, la terre, le pain ». Trotski organise militairement la prise du pouvoir. Les bolcheviks signent avec l'Allemagne la paix de Brest-Litovsk en 1918, puis gagnent une guerre civile impitoyable contre les armées blanches. En 1922 est fondée l'URSS, premier État communiste de l'histoire. À la mort de Lénine en 1924, Staline s'imposera au terme d'une lutte de succession contre Trotski."
+  },
+  {
+   "q": "Quel traité signé en 1919 impose à l'Allemagne les conditions de paix de la Première Guerre mondiale ?",
+   "choix": [
+    "Le traité de Versailles",
+    "Le traité de Brest-Litovsk",
+    "Le traité de Trianon",
+    "Les accords de Locarno"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le traité de Versailles, signé le 28 juin 1919 dans la galerie des Glaces, cinq ans jour pour jour après l'attentat de Sarajevo, règle le sort de l'Allemagne vaincue. Déclarée responsable de la guerre par l'article 231, elle perd l'Alsace-Lorraine, ses colonies et un septième de son territoire, voit son armée limitée à 100 000 hommes et doit payer de lourdes réparations. Le traité crée aussi la Société des Nations, voulue par le président américain Wilson, que le Sénat des États-Unis refusera pourtant de rejoindre. Perçu en Allemagne comme un « diktat », il nourrit un ressentiment nationaliste que Hitler exploitera. D'autres traités démantelèrent l'Autriche-Hongrie et l'Empire ottoman."
+  },
+  {
+   "q": "Quel événement du 24 octobre 1929, le « jeudi noir », déclenche la Grande Dépression ?",
+   "choix": [
+    "Le krach de la Bourse de New York",
+    "La faillite de la banque d'Angleterre",
+    "L'hyperinflation allemande",
+    "Le défaut de la France"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le jeudi 24 octobre 1929, le « jeudi noir », la Bourse de New York s'effondre : des millions de titres sont bradés à Wall Street, et la chute s'aggrave les jours suivants, notamment le « mardi noir » du 29 octobre. Le krach met fin à la bulle spéculative des années folles et déclenche la Grande Dépression, la plus grave crise économique du capitalisme : faillites bancaires en chaîne, effondrement de la production et du commerce mondial, chômage de masse touchant un quart des actifs américains. La crise se propage au monde entier au début des années 1930. Aux États-Unis, Franklin Roosevelt y répond à partir de 1933 par le New Deal ; en Allemagne, la misère favorise l'ascension de Hitler."
+  },
+  {
+   "q": "À quelle date Adolf Hitler est-il nommé chancelier de l'Allemagne ?",
+   "choix": [
+    "Le 30 janvier 1933",
+    "Le 9 novembre 1923",
+    "Le 1er septembre 1939",
+    "Le 2 août 1934"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le 30 janvier 1933, le président Hindenburg nomme Adolf Hitler chancelier du Reich, son parti nazi étant devenu le premier d'Allemagne à la faveur de la crise économique. En quelques mois, Hitler détruit la démocratie de Weimar : l'incendie du Reichstag en février sert de prétexte à la suspension des libertés, la loi des pleins pouvoirs de mars lui permet de légiférer seul, les partis et syndicats sont interdits, les premiers camps de concentration ouverts, dont Dachau. À la mort de Hindenburg en 1934, il cumule tous les pouvoirs comme « Führer ». Le régime nazi, raciste et totalitaire, persécute immédiatement les Juifs et mène l'Europe à la guerre en 1939."
+  },
+  {
+   "q": "Quelle attaque japonaise du 7 décembre 1941 provoque l'entrée en guerre des États-Unis ?",
+   "choix": [
+    "L'attaque de Pearl Harbor",
+    "La bataille de Midway",
+    "L'invasion des Philippines",
+    "La prise de Singapour"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le 7 décembre 1941, sans déclaration de guerre préalable, l'aviation embarquée japonaise attaque la flotte américaine du Pacifique à Pearl Harbor, à Hawaï. En deux vagues, elle coule ou endommage une vingtaine de navires, dont huit cuirassés, et tue plus de 2 400 Américains ; les porte-avions, absents ce jour-là, échappent au désastre. Le président Roosevelt qualifie le 7 décembre de « date qui restera marquée d'infamie » : les États-Unis déclarent la guerre au Japon dès le lendemain, puis l'Allemagne et l'Italie leur déclarent la guerre le 11 décembre. La guerre devient réellement mondiale. Six mois plus tard, la victoire américaine de Midway renverse le cours de la guerre du Pacifique."
+  },
+  {
+   "q": "Quelle bataille de l'hiver 1942-1943 marque le grand tournant de la guerre sur le front de l'Est ?",
+   "choix": [
+    "Stalingrad",
+    "Koursk",
+    "Moscou",
+    "Leningrad"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "De l'été 1942 au 2 février 1943, la bataille de Stalingrad, sur la Volga, oppose la 6e armée allemande de Paulus aux troupes soviétiques dans des combats de rue d'une violence inouïe. En novembre 1942, la contre-offensive soviétique « Uranus » encercle les assaillants ; Hitler interdit toute retraite, mais Paulus, promu maréchal, capitule avec environ 91 000 survivants. La bataille, qui a fait au total plus d'un million et demi de morts, blessés et prisonniers, est la première grande défaite terrestre du IIIe Reich et le tournant psychologique et stratégique de la Seconde Guerre mondiale en Europe. Après Stalingrad, puis Koursk en 1943, l'Armée rouge ne cessera plus d'avancer vers Berlin."
+  },
+  {
+   "q": "Sur quelle ville japonaise la première bombe atomique est-elle larguée le 6 août 1945 ?",
+   "choix": [
+    "Hiroshima",
+    "Nagasaki",
+    "Tokyo",
+    "Kyoto"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le 6 août 1945 à 8 h 15, le bombardier américain Enola Gay largue sur Hiroshima la bombe atomique « Little Boy », issue du projet Manhattan. L'explosion rase la ville et tue immédiatement des dizaines de milliers de personnes ; avec les effets des brûlures et des radiations, le bilan atteint environ 140 000 morts fin 1945. Le 9 août, une seconde bombe, « Fat Man », frappe Nagasaki, faisant environ 70 000 victimes. L'URSS ayant déclaré la guerre au Japon le 8 août, l'empereur Hirohito annonce la capitulation le 15 août 1945, signée le 2 septembre : la Seconde Guerre mondiale est finie. L'arme nucléaire, utilisée pour la seule fois de l'histoire, ouvre un nouvel âge des relations internationales."
+  },
+  {
+   "q": "En quelle année l'Organisation des Nations unies est-elle fondée ?",
+   "choix": [
+    "1945",
+    "1919",
+    "1950",
+    "1939"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'Organisation des Nations unies naît de la conférence de San Francisco, où 50 États signent la Charte des Nations unies le 26 juin 1945 ; elle entre en vigueur le 24 octobre 1945, date célébrée comme Journée des Nations unies. Succédant à la Société des Nations, discréditée par son impuissance face aux agressions des années 1930, l'ONU a pour mission de maintenir la paix, de développer la coopération internationale et de promouvoir les droits de l'homme, proclamés dans la Déclaration universelle de 1948. Son Conseil de sécurité compte cinq membres permanents dotés d'un droit de veto : États-Unis, URSS puis Russie, Royaume-Uni, France et Chine. Son siège est à New York et elle réunit aujourd'hui 193 États membres."
+  },
+  {
+   "q": "En quelle année l'Inde obtient-elle son indépendance du Royaume-Uni ?",
+   "choix": [
+    "1947",
+    "1945",
+    "1950",
+    "1962"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'Inde britannique accède à l'indépendance le 15 août 1947, aboutissement d'une longue lutte marquée par les campagnes de désobéissance civile non violente de Gandhi, comme la marche du sel de 1930. L'indépendance s'accompagne de la partition du sous-continent en deux États, l'Inde à majorité hindoue et le Pakistan musulman, décidée dans la précipitation par le dernier vice-roi, Lord Mountbatten. La partition provoque le déplacement d'environ 15 millions de personnes et des massacres intercommunautaires faisant des centaines de milliers de morts. Gandhi lui-même est assassiné par un extrémiste hindou en janvier 1948. Cette indépendance ouvre la grande vague de décolonisation de l'après-guerre en Asie puis en Afrique."
+  },
+  {
+   "q": "Qui proclame la République populaire de Chine le 1er octobre 1949 ?",
+   "choix": [
+    "Mao Zedong",
+    "Tchang Kaï-chek",
+    "Deng Xiaoping",
+    "Sun Yat-sen"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le 1er octobre 1949, depuis la tribune de la place Tian'anmen à Pékin, Mao Zedong proclame la République populaire de Chine, après la victoire des communistes dans la guerre civile contre les nationalistes de Tchang Kaï-chek, qui se replient sur l'île de Taïwan. Chef du Parti communiste chinois depuis la Longue Marche (1934-1935), Mao engage la collectivisation du pays le plus peuplé du monde. Ses grandes campagnes tournent au désastre : le Grand Bond en avant (1958-1962) provoque une famine faisant des dizaines de millions de morts, et la Révolution culturelle (1966-1976) plonge le pays dans le chaos. Après sa mort en 1976, Deng Xiaoping engagera la Chine sur la voie des réformes économiques."
+  },
+  {
+   "q": "En quelle année le mur de Berlin est-il construit ?",
+   "choix": [
+    "1961",
+    "1949",
+    "1953",
+    "1968"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Dans la nuit du 12 au 13 août 1961, le régime est-allemand, avec l'aval de Moscou, ferme la frontière entre Berlin-Est et Berlin-Ouest et entreprend la construction d'un mur pour stopper l'hémorragie de sa population : environ trois millions d'Allemands de l'Est étaient passés à l'Ouest depuis 1949, souvent via Berlin. Le « mur de la honte », long d'environ 155 kilomètres autour de Berlin-Ouest, avec miradors, barbelés et no man's land, devient le symbole le plus concret du « rideau de fer » et de la division de l'Europe pendant la guerre froide. Au moins 140 personnes meurent en tentant de le franchir. En 1963, Kennedy y proclame « Ich bin ein Berliner ». Le mur tombera le 9 novembre 1989."
+  },
+  {
+   "q": "Quelle crise d'octobre 1962 fait craindre une guerre nucléaire entre les États-Unis et l'URSS ?",
+   "choix": [
+    "La crise des missiles de Cuba",
+    "Le blocus de Berlin",
+    "La guerre de Corée",
+    "La crise de Suez"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "En octobre 1962, des avions espions américains U-2 découvrent que l'URSS installe secrètement à Cuba, alliée de Moscou depuis la révolution de Fidel Castro, des missiles nucléaires capables d'atteindre les États-Unis. Le président Kennedy impose un blocus naval, dit « quarantaine », de l'île et exige le retrait des fusées : pendant treize jours, le monde retient son souffle, au bord de la guerre nucléaire. Khrouchtchev accepte finalement de retirer les missiles contre l'engagement américain de ne pas envahir Cuba et le retrait discret de missiles américains de Turquie. La crise, paroxysme de la guerre froide, débouche sur le « téléphone rouge » entre Washington et Moscou et amorce la Détente."
+  },
+  {
+   "q": "Qui est le premier homme à marcher sur la Lune, le 21 juillet 1969 (heure française) ?",
+   "choix": [
+    "Neil Armstrong",
+    "Buzz Aldrin",
+    "Youri Gagarine",
+    "John Glenn"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le 20 juillet 1969 (le 21 juillet en heure française), l'Américain Neil Armstrong, commandant de la mission Apollo 11, pose le pied sur la Lune en prononçant la phrase historique : « C'est un petit pas pour l'homme, un bond de géant pour l'humanité ». Buzz Aldrin le rejoint sur la mer de la Tranquillité, tandis que Michael Collins reste en orbite lunaire. L'exploit, suivi en direct par environ 600 millions de téléspectateurs, marque la victoire américaine dans la course à l'espace engagée contre l'URSS, qui avait lancé Spoutnik en 1957 et envoyé Gagarine, premier homme dans l'espace, en 1961. Six missions Apollo se poseront sur la Lune ; aucun humain n'y est retourné depuis décembre 1972."
+  },
+  {
+   "q": "À quelle date le mur de Berlin tombe-t-il ?",
+   "choix": [
+    "Le 9 novembre 1989",
+    "Le 3 octobre 1990",
+    "Le 25 décembre 1991",
+    "Le 13 août 1989"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le 9 novembre 1989 au soir, après l'annonce confuse d'un dirigeant est-allemand sur la libéralisation immédiate des voyages, des dizaines de milliers de Berlinois de l'Est se pressent aux points de passage ; débordés, les gardes-frontières ouvrent les barrières. Dans la liesse, les Berlinois escaladent et commencent à démolir le mur qui coupait la ville depuis 1961. Cette chute, permise par la politique de non-intervention de Gorbatchev et précédée par les révolutions pacifiques en Pologne et en Hongrie, précipite l'effondrement des régimes communistes d'Europe de l'Est. L'Allemagne est réunifiée le 3 octobre 1990, et l'URSS elle-même disparaît fin 1991. Le 9 novembre 1989 symbolise la fin de la guerre froide."
+  },
+  {
+   "q": "Qui devient en 1994 le premier président noir de l'Afrique du Sud, après la fin de l'apartheid ?",
+   "choix": [
+    "Nelson Mandela",
+    "Desmond Tutu",
+    "Frederik de Klerk",
+    "Thabo Mbeki"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Nelson Mandela est élu président de l'Afrique du Sud en mai 1994, à l'issue des premières élections multiraciales du pays, remportées par son parti, l'ANC. Figure de la lutte contre l'apartheid, le régime de ségrégation raciale institutionnalisé en 1948, il avait passé 27 ans en prison, notamment au bagne de Robben Island, avant d'être libéré en février 1990 par le président de Klerk. Ensemble, ils négocièrent le démantèlement pacifique de l'apartheid, ce qui leur valut le prix Nobel de la paix en 1993. Président d'un seul mandat, Mandela fit le choix de la réconciliation nationale, symbolisée par la Coupe du monde de rugby 1995 et la commission Vérité et Réconciliation. Il est mort en 2013, icône mondiale de la liberté."
+  },
+  {
+   "q": "Quels bâtiments new-yorkais sont détruits par les attentats du 11 septembre 2001 ?",
+   "choix": [
+    "Les tours jumelles du World Trade Center",
+    "L'Empire State Building",
+    "Le siège de l'ONU",
+    "Le Chrysler Building"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le 11 septembre 2001, dix-neuf terroristes d'Al-Qaïda détournent quatre avions de ligne américains. Deux s'écrasent sur les tours jumelles du World Trade Center à New York, qui s'effondrent en moins de deux heures ; un troisième frappe le Pentagone, près de Washington, et le quatrième s'écrase en Pennsylvanie après la révolte des passagers. Les attentats font près de 3 000 morts, le plus lourd bilan terroriste de l'histoire. Les États-Unis de George W. Bush lancent la « guerre contre le terrorisme » : intervention en Afghanistan dès octobre 2001 contre les talibans qui abritaient Oussama ben Laden, puis invasion controversée de l'Irak en 2003. Ben Laden sera tué au Pakistan en 2011. Le 11-Septembre a durablement transformé les relations internationales et la sécurité mondiale."
+  },
+  {
+   "q": "Quelle reine d'Égypte, dernière souveraine de la dynastie des Ptolémées, s'allie successivement à César puis à Marc Antoine ?",
+   "choix": [
+    "Cléopâtre VII",
+    "Néfertiti",
+    "Hatchepsout",
+    "Zénobie"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Cléopâtre VII, dernière reine de la dynastie grecque des Ptolémées fondée après la mort d'Alexandre le Grand, règne sur l'Égypte de 51 à 30 av. J.-C. Femme cultivée parlant plusieurs langues, elle s'allie à Jules César, dont elle a un fils, Césarion, puis à Marc Antoine, pour préserver l'indépendance de son royaume face à Rome. Après la défaite navale d'Actium en 31 av. J.-C. face à Octave, Antoine puis Cléopâtre se suicident en 30 av. J.-C., celle-ci, selon la tradition, par la morsure d'un aspic. L'Égypte devient alors une province romaine, grenier à blé de l'Empire. Cléopâtre est restée l'une des figures les plus romanesques de l'histoire, célébrée par Plutarque puis Shakespeare."
+  },
+  {
+   "q": "Quel navigateur britannique explore le Pacifique et cartographie la Nouvelle-Zélande et la côte est de l'Australie au XVIIIe siècle ?",
+   "choix": [
+    "James Cook",
+    "Francis Drake",
+    "Louis-Antoine de Bougainville",
+    "Abel Tasman"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Le capitaine James Cook mène entre 1768 et 1779 trois grandes expéditions scientifiques dans le Pacifique pour la marine britannique. Lors de la première, à bord de l'Endeavour, il observe le passage de Vénus à Tahiti, cartographie avec précision la Nouvelle-Zélande et reconnaît en 1770 la côte orientale de l'Australie, qu'il nomme Nouvelle-Galles du Sud. Ses voyages, auxquels participent des savants comme Banks, font faire des progrès considérables à la cartographie et à la connaissance de l'Océanie ; il combat aussi le scorbut par l'hygiène alimentaire. Il meurt tué par des Hawaïens en 1779 lors de sa troisième expédition. Ses explorations préparent la colonisation britannique de l'Australie, où débarque la « First Fleet » en 1788."
+  },
+  {
+   "q": "Quelle conférence de février 1945 réunit Roosevelt, Churchill et Staline pour organiser le monde d'après-guerre ?",
+   "choix": [
+    "La conférence de Yalta",
+    "La conférence de Potsdam",
+    "La conférence de Téhéran",
+    "La conférence de Munich"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Du 4 au 11 février 1945, alors que l'Allemagne nazie est au bord de la défaite, Roosevelt, Churchill et Staline se réunissent à Yalta, en Crimée. Les « Trois Grands » y décident l'occupation de l'Allemagne en zones, y compris une zone française, la tenue d'élections libres dans l'Europe libérée, l'entrée en guerre de l'URSS contre le Japon et la création de l'ONU. Contrairement à une idée reçue, Yalta n'a pas formellement « partagé le monde », mais l'occupation soviétique de l'Europe de l'Est transforma vite les promesses d'élections libres en lettre morte. La conférence de Potsdam, en juillet-août 1945, entérina la division de fait de l'Europe. Yalta reste le symbole de l'ordre bipolaire naissant."
+  },
+  {
+   "q": "Quelle guerre oppose de 1950 à 1953 le Nord communiste au Sud soutenu par l'ONU, sans traité de paix à ce jour ?",
+   "choix": [
+    "La guerre de Corée",
+    "La guerre du Vietnam",
+    "La guerre d'Indochine",
+    "La guerre d'Afghanistan"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le 25 juin 1950, la Corée du Nord communiste de Kim Il-sung, soutenue par l'URSS et bientôt par la Chine, envahit la Corée du Sud. Une coalition de l'ONU dirigée par les États-Unis, profitant du boycott soviétique du Conseil de sécurité, intervient sous les ordres de MacArthur. Après le débarquement d'Inchon et l'entrée en guerre massive des « volontaires » chinois, le front se stabilise autour du 38e parallèle. L'armistice de Panmunjom, signé le 27 juillet 1953, fige la division de la péninsule le long d'une zone démilitarisée, sans traité de paix formel : les deux Corées restent techniquement en guerre. Le conflit, qui fit plusieurs millions de morts, fut la première guerre chaude de la guerre froide."
+  },
+  {
+   "q": "Quelle conférence de 1955 réunit les pays d'Asie et d'Afrique récemment décolonisés autour du non-alignement ?",
+   "choix": [
+    "La conférence de Bandung",
+    "La conférence de Berlin",
+    "La conférence de Brazzaville",
+    "La conférence de San Francisco"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "En avril 1955, la conférence de Bandung, en Indonésie, réunit 29 pays d'Asie et d'Afrique, représentant plus de la moitié de l'humanité, autour de figures comme Nehru pour l'Inde, Nasser pour l'Égypte, Soekarno pour l'Indonésie et Zhou Enlai pour la Chine. Elle condamne le colonialisme sous toutes ses formes et affirme la volonté des peuples récemment émancipés de peser dans les affaires mondiales sans s'aligner sur les blocs américain ou soviétique. Bandung marque l'irruption du « tiers-monde » sur la scène internationale et accélère la décolonisation, notamment en Afrique où dix-sept pays deviennent indépendants en 1960. Le mouvement des non-alignés se structurera à Belgrade en 1961 autour de Tito, Nehru et Nasser."
+  },
+  {
+   "q": "En quelle année l'URSS est-elle officiellement dissoute ?",
+   "choix": [
+    "1991",
+    "1989",
+    "1993",
+    "1985"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'URSS est officiellement dissoute en décembre 1991 : le 8 décembre, les dirigeants de Russie, d'Ukraine et de Biélorussie constatent dans les accords de Minsk que l'Union « cesse d'exister », et le 25 décembre, Mikhaïl Gorbatchev démissionne, le drapeau rouge étant amené du Kremlin. Arrivé au pouvoir en 1985, Gorbatchev avait tenté de réformer le système par la perestroïka (restructuration économique) et la glasnost (transparence), mais avait perdu le contrôle du processus : révolutions de 1989 en Europe de l'Est, indépendances baltes, putsch conservateur manqué d'août 1991. Quinze républiques indépendantes, dont la Russie de Boris Eltsine, succèdent à l'URSS. La guerre froide, commencée après 1945, s'achève ainsi sans conflit direct entre les deux superpuissances."
+  },
+  {
+   "q": "Quelle épidémie de grippe fait entre 20 et 50 millions de morts dans le monde en 1918-1919 ?",
+   "choix": [
+    "La grippe espagnole",
+    "La grippe asiatique",
+    "La grippe de Hong Kong",
+    "La peste de Justinien"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La pandémie de grippe de 1918-1919, dite « grippe espagnole », tue entre 20 et 50 millions de personnes selon les estimations, soit davantage que la Première Guerre mondiale elle-même. Due à un virus H1N1 particulièrement virulent, elle frappe en plusieurs vagues un monde affaibli par la guerre, touchant étonnamment fort les jeunes adultes. Son surnom est trompeur : elle n'est pas née en Espagne, mais ce pays neutre, sans censure militaire, fut le premier à en parler librement dans sa presse. Parmi ses victimes figurent le poète Guillaume Apollinaire et le peintre Egon Schiele. Elle reste la pandémie la plus meurtrière du XXe siècle et un cas d'étude majeur pour la santé publique."
+  }
+ ],
+ "cours": [
+  {
+   "titre": "Rome, de la République à l'Empire",
+   "sections": [
+    {
+     "titre": "Des origines à la République",
+     "texte": "Selon la légende, Rome est fondée en 753 av. J.-C. par Romulus, descendant du Troyen Énée, sur la colline du Palatin. L'archéologie confirme l'existence de villages de bergers latins sur le site dès le VIIIe siècle av. J.-C., à un gué stratégique du Tibre. La ville est d'abord gouvernée par des rois, dont les derniers sont étrusques, ce peuple d'Italie centrale qui transmet aux Romains l'écriture, des techniques et des rites. En 509 av. J.-C., les Romains chassent le dernier roi, Tarquin le Superbe, et fondent la République : le pouvoir est désormais partagé entre des magistrats élus pour un an, dont deux consuls, le Sénat qui incarne l'autorité et la continuité, et les assemblées du peuple. La société est longtemps déchirée par le conflit entre patriciens, l'aristocratie détentrice du pouvoir, et plébéiens, qui obtiennent peu à peu des droits : tribuns de la plèbe pour les protéger, loi des Douze Tables vers 450 av. J.-C. qui fixe le droit par écrit, accès aux magistratures. Cette organisation, résumée par la formule SPQR, « le Sénat et le peuple romain », fait la force de Rome, qui soumet progressivement toute l'Italie."
+    },
+    {
+     "titre": "Les conquêtes et les guerres puniques",
+     "texte": "Maîtresse de l'Italie au IIIe siècle av. J.-C., Rome se heurte à Carthage, puissante cité maritime fondée par les Phéniciens sur la côte de l'actuelle Tunisie. Les trois guerres puniques décident de la domination de la Méditerranée occidentale. La première (264-241 av. J.-C.) donne la Sicile à Rome, qui se dote pour l'occasion d'une flotte de guerre. La deuxième (218-201 av. J.-C.) est la plus dramatique : le général carthaginois Hannibal franchit les Alpes avec son armée et ses éléphants et écrase les légions en Italie, notamment à Cannes en 216 av. J.-C., l'une des pires défaites de l'histoire romaine. Mais Rome tient bon, porte la guerre en Afrique, et Scipion l'Africain bat Hannibal à Zama en 202 av. J.-C. La troisième guerre s'achève en 146 av. J.-C. par la destruction totale de Carthage, dont les habitants sont tués ou réduits en esclavage. Rome conquiert ensuite la Grèce, l'Asie Mineure, puis la Gaule avec César (58-51 av. J.-C.). En deux siècles, la cité du Tibre est devenue la maîtresse de toute la Méditerranée, qu'elle appelle « mare nostrum », notre mer.",
+     "visuel": {
+      "type": "frise",
+      "titre": "Les guerres puniques et la conquête de la Méditerranée",
+      "evenements": [
+       {
+        "date": "264-241 av. J.-C.",
+        "label": "Première guerre punique",
+        "texte": "Rome se dote d'une flotte de guerre et enlève la Sicile."
+       },
+       {
+        "date": "218-201 av. J.-C.",
+        "label": "Deuxième guerre punique",
+        "texte": "Hannibal franchit les Alpes avec ses éléphants et écrase les légions en Italie."
+       },
+       {
+        "date": "216 av. J.-C.",
+        "label": "Cannes",
+        "texte": "L'une des pires défaites de l'histoire romaine ; Rome tient pourtant bon."
+       },
+       {
+        "date": "202 av. J.-C.",
+        "label": "Zama",
+        "texte": "Scipion l'Africain bat Hannibal en Afrique."
+       },
+       {
+        "date": "146 av. J.-C.",
+        "label": "Destruction de Carthage",
+        "texte": "Ses habitants sont tués ou réduits en esclavage."
+       },
+       {
+        "date": "58-51 av. J.-C.",
+        "label": "Conquête de la Gaule par César",
+        "texte": "Après la Grèce et l'Asie Mineure : la Méditerranée est devenue mare nostrum."
+       }
+      ]
+     }
+    },
+    {
+     "titre": "La crise de la République et César",
+     "texte": "Les conquêtes enrichissent Rome mais déstabilisent la République. Les guerres ruinent les petits paysans-soldats, tandis que les riches constituent d'immenses domaines cultivés par des esclaves toujours plus nombreux ; la révolte servile menée par le gladiateur Spartacus (73-71 av. J.-C.) mobilise des dizaines de milliers d'esclaves avant d'être écrasée. Les tentatives de réforme agraire des frères Gracques, tribuns de la plèbe, s'achèvent dans le sang (133 et 121 av. J.-C.). Les armées, désormais professionnelles, s'attachent à leurs généraux plus qu'à la République : Marius puis Sylla, qui marche sur Rome et instaure une dictature sanglante, ouvrent l'ère des guerres civiles. Jules César, vainqueur de la Gaule, franchit en 49 av. J.-C. le Rubicon avec son armée, défiant le Sénat et son rival Pompée, qu'il vainc à Pharsale. Nommé dictateur à vie en 44 av. J.-C., il accumule les honneurs et prépare de vastes réformes, dont le calendrier julien. Mais le 15 mars 44 av. J.-C., aux ides de mars, il est poignardé en plein Sénat par des conjurés menés par Brutus et Cassius, qui croient sauver la République. Ils ne font que précipiter sa fin."
+    },
+    {
+     "titre": "Auguste et la paix romaine",
+     "texte": "L'assassinat de César rouvre les guerres civiles. Son petit-neveu et fils adoptif Octave élimine d'abord les meurtriers de César avec Marc Antoine, puis affronte ce dernier, allié à la reine d'Égypte Cléopâtre. Sa victoire navale d'Actium en 31 av. J.-C. lui donne le pouvoir absolu ; l'Égypte devient romaine. Habile, Octave prétend restaurer la République tout en concentrant tous les pouvoirs : en 27 av. J.-C., le Sénat lui décerne le titre d'Auguste, et il devient le premier empereur, « princeps », premier des citoyens. Son long règne, jusqu'en 14 apr. J.-C., inaugure deux siècles de paix intérieure, la Pax Romana. L'Empire atteint son extension maximale sous Trajan, au début du IIe siècle, de l'Écosse à la Mésopotamie ; il compte alors 50 à 70 millions d'habitants. Les villes se couvrent de monuments : forums, thermes, amphithéâtres comme le Colisée, aqueducs comme le pont du Gard. Les routes romaines, longues de dizaines de milliers de kilomètres, unifient cet espace où circulent les marchandises, le latin, le droit et la citoyenneté romaine, accordée à tous les hommes libres de l'Empire par l'édit de Caracalla en 212.",
+     "visuel": {
+      "type": "image",
+      "image": "hm-colisee",
+      "legende": "Le Colisée, amphithéâtre de Rome : trois niveaux d'arcades superposées, le type même du monument dont les villes de l'Empire se couvrent pendant la paix romaine.",
+      "alt": "Façade courbe d'un immense amphithéâtre antique en pierre, percée de trois étages d'arcades, partiellement ruinée sur sa partie haute."
+     }
+    },
+    {
+     "titre": "Crises, christianisme et chute de l'Empire d'Occident",
+     "texte": "À partir du IIIe siècle, l'Empire traverse une crise profonde : pressions des peuples germaniques sur le Rhin et le Danube et des Perses à l'est, guerres civiles entre empereurs proclamés par leurs armées, inflation et épidémies. Dioclétien puis Constantin réorganisent l'État ; Constantin autorise le christianisme par l'édit de Milan en 313 et fonde Constantinople, inaugurée en 330. Longtemps persécutée, la religion chrétienne devient religion officielle de l'Empire sous Théodose en 380. À la mort de ce dernier, en 395, l'Empire est définitivement partagé entre Orient et Occident. L'Occident, plus pauvre et plus exposé, s'effondre au Ve siècle : les Wisigoths d'Alaric pillent Rome en 410, événement qui stupéfie le monde antique, les Vandales la pillent à nouveau en 455, tandis que Huns, Francs, Burgondes et autres peuples s'installent dans les provinces. En 476, le chef barbare Odoacre dépose le dernier empereur d'Occident, l'adolescent Romulus Augustule : cette date marque conventionnellement la fin de l'Antiquité. L'Empire d'Orient, hellénisé, survivra jusqu'en 1453 sous le nom d'Empire byzantin, tandis qu'en Occident, l'Église et les royaumes barbares recueillent l'héritage romain.",
+     "visuel": {
+      "type": "frise",
+      "titre": "Du christianisme officiel à la chute de l'Empire d'Occident",
+      "evenements": [
+       {
+        "date": "313",
+        "label": "Édit de Milan",
+        "texte": "Constantin autorise le christianisme, longtemps persécuté."
+       },
+       {
+        "date": "330",
+        "label": "Inauguration de Constantinople"
+       },
+       {
+        "date": "380",
+        "label": "Théodose fait du christianisme la religion officielle"
+       },
+       {
+        "date": "395",
+        "label": "Partage définitif entre Orient et Occident",
+        "texte": "À la mort de Théodose."
+       },
+       {
+        "date": "410",
+        "label": "Les Wisigoths d'Alaric pillent Rome",
+        "texte": "L'événement stupéfie le monde antique ; les Vandales recommencent en 455."
+       },
+       {
+        "date": "476",
+        "label": "Odoacre dépose Romulus Augustule",
+        "texte": "Fin conventionnelle de l'Antiquité ; l'Empire d'Orient survivra jusqu'en 1453."
+       }
+      ]
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Quel général carthaginois franchit les Alpes avec ses éléphants pour attaquer Rome en 218 av. J.-C. ?",
+     "choix": [
+      "Hannibal",
+      "Hamilcar",
+      "Scipion",
+      "Hasdrubal"
+     ],
+     "bonne": 0,
+     "difficulte": 1,
+     "explication": "En 218 av. J.-C., au début de la deuxième guerre punique, Hannibal Barca quitte l'Espagne et franchit les Pyrénées puis les Alpes avec son armée et ses éléphants de guerre, exploit resté légendaire. Il écrase les Romains au Tessin, à la Trébie, au lac Trasimène puis à Cannes en 216 av. J.-C. Malgré quinze ans passés en Italie, il ne peut prendre Rome. Rappelé pour défendre Carthage, il est finalement vaincu par Scipion l'Africain à Zama en 202 av. J.-C."
+    },
+    {
+     "q": "En quelle année la République romaine est-elle traditionnellement fondée ?",
+     "choix": [
+      "509 av. J.-C.",
+      "753 av. J.-C.",
+      "44 av. J.-C.",
+      "27 av. J.-C."
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "La tradition situe en 509 av. J.-C. l'expulsion du dernier roi de Rome, l'Étrusque Tarquin le Superbe, et la fondation de la République. Le pouvoir royal est remplacé par des magistratures annuelles et collégiales, dominées par les deux consuls, sous le contrôle du Sénat. Ce régime durera près de cinq siècles, jusqu'aux guerres civiles du Ier siècle av. J.-C. Il a inspiré de nombreux penseurs politiques modernes, des révolutionnaires américains aux français."
+    },
+    {
+     "q": "Quel gladiateur mène la grande révolte d'esclaves contre Rome en 73 av. J.-C. ?",
+     "choix": [
+      "Spartacus",
+      "Crixus",
+      "Vercingétorix",
+      "Attale"
+     ],
+     "bonne": 0,
+     "difficulte": 1,
+     "explication": "En 73 av. J.-C., Spartacus, gladiateur d'origine thrace, s'évade de l'école de gladiateurs de Capoue avec quelques dizaines de compagnons. Sa révolte rassemble bientôt des dizaines de milliers d'esclaves qui battent plusieurs armées romaines et parcourent l'Italie. En 71 av. J.-C., Crassus écrase l'insurrection ; Spartacus meurt au combat et des milliers de prisonniers sont crucifiés le long de la via Appia. Sa figure est devenue un symbole universel de la lutte contre l'oppression."
+    },
+    {
+     "q": "Quel édit de 212 accorde la citoyenneté romaine à tous les hommes libres de l'Empire ?",
+     "choix": [
+      "L'édit de Caracalla",
+      "L'édit de Milan",
+      "L'édit de Thessalonique",
+      "La loi des Douze Tables"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "En 212, l'empereur Caracalla accorde par édit, appelé aussi « constitution antonine », la citoyenneté romaine à presque tous les hommes libres de l'Empire. Cette mesure achève un long processus d'intégration juridique des peuples conquis, la citoyenneté ayant été étendue par étapes depuis l'Italie. Les motivations de Caracalla étaient sans doute aussi fiscales, les citoyens payant certains impôts spécifiques. L'édit illustre la capacité d'intégration qui fit la force et la longévité de Rome."
+    },
+    {
+     "q": "En quelle année l'Empire romain est-il définitivement partagé entre Orient et Occident ?",
+     "choix": [
+      "395",
+      "476",
+      "313",
+      "330"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "À sa mort en 395, l'empereur Théodose Ier partage définitivement l'Empire entre ses deux fils : Arcadius reçoit l'Orient, avec Constantinople pour capitale, et Honorius l'Occident. Les deux moitiés connaissent des destins opposés : l'Occident s'effondre en 476 sous la pression des peuples germaniques, tandis que l'Orient, plus riche et mieux défendu, devient l'Empire byzantin. Celui-ci prolongera la civilisation romaine, sous une forme grecque et chrétienne, jusqu'à la prise de Constantinople par les Ottomans en 1453."
+    }
+   ]
+  },
+  {
+   "titre": "Les grandes découvertes (XVe-XVIe siècles)",
+   "sections": [
+    {
+     "titre": "Pourquoi partir ? Les motivations des Européens",
+     "texte": "À la fin du XVe siècle, plusieurs raisons poussent les Européens à s'élancer sur les océans. La première est économique : les épices d'Asie — poivre, cannelle, girofle, muscade —, l'or, la soie et les pierres précieuses valent des fortunes en Europe, mais leur commerce passe par de multiples intermédiaires musulmans et vénitiens qui en renchérissent le prix. La prise de Constantinople par les Ottomans en 1453 renforce le désir de trouver des routes directes vers les Indes en contournant ces obstacles. Les motivations religieuses comptent aussi : dans l'esprit de la Reconquista, achevée en Espagne par la prise de Grenade en 1492, il s'agit d'évangéliser de nouveaux peuples et, espère-t-on, de prendre l'islam à revers en trouvant des alliés chrétiens comme le mythique royaume du « prêtre Jean ». S'y ajoutent la soif de connaissance héritée de l'humanisme de la Renaissance, la curiosité nourrie par des récits comme celui de Marco Polo, et l'ambition des jeunes États ibériques, Portugal et Castille, dotés de façades atlantiques et avides de gloire et de richesses. Enfin, les savants redécouvrent la géographie de Ptolémée et la plupart admettent la rotondité de la Terre, rendant concevable une route occidentale vers l'Asie."
+    },
+    {
+     "titre": "Les innovations qui rendent l'exploration possible",
+     "texte": "Les grands voyages océaniques sont rendus possibles par un ensemble d'innovations techniques, souvent empruntées et perfectionnées. Le navire emblématique est la caravelle, mise au point par les Portugais au XVe siècle : légère, maniable, dotée de voiles carrées pour la vitesse et de voiles latines triangulaires pour remonter au vent, elle est capable d'affronter la haute mer avec un équipage réduit. Les plus grands voyages associent caravelles et caraques ou naos, plus lourdes et capables d'emporter davantage de vivres. Pour se repérer, les marins disposent de la boussole, invention chinoise transmise par les Arabes, qui indique le nord, et de l'astrolabe et du quadrant, qui permettent de calculer la latitude en mesurant la hauteur du Soleil ou de l'étoile polaire. Les portulans, cartes marines détaillant côtes et ports, s'améliorent à chaque expédition. Le gouvernail d'étambot, fixé à l'arrière du navire, facilite les manœuvres. La longitude, elle, reste incalculable avec précision jusqu'au XVIIIe siècle : les navigateurs estiment leur position à l'estime, ce qui explique bien des erreurs, dont celle de Colomb, qui sous-estimait considérablement la circonférence terrestre. L'artillerie embarquée, enfin, donne aux Européens un avantage militaire décisif sur les mers.",
+     "visuel": {
+      "type": "tableau",
+      "titre": "L'équipement du navigateur au XVe siècle",
+      "colonnes": [
+       "Innovation",
+       "À quoi elle sert"
+      ],
+      "lignes": [
+       [
+        "La caravelle",
+        "Navire léger et maniable : voiles carrées pour la vitesse, voiles latines triangulaires pour remonter au vent"
+       ],
+       [
+        "La caraque, ou nao",
+        "Plus lourde, elle emporte davantage de vivres pour les longs voyages"
+       ],
+       [
+        "La boussole",
+        "Invention chinoise transmise par les Arabes : elle indique le nord"
+       ],
+       [
+        "L'astrolabe et le quadrant",
+        "Ils donnent la latitude en mesurant la hauteur du Soleil ou de l'étoile polaire"
+       ],
+       [
+        "Les portulans",
+        "Cartes marines détaillant côtes et ports, améliorées à chaque expédition"
+       ],
+       [
+        "Le gouvernail d'étambot",
+        "Fixé à l'arrière du navire, il facilite les manœuvres"
+       ]
+      ],
+      "note": "La longitude, elle, reste incalculable avec précision jusqu'au XVIIIe siècle : on navigue à l'estime, d'où bien des erreurs."
+     }
+    },
+    {
+     "titre": "Portugais et Espagnols ouvrent les routes",
+     "texte": "Le Portugal est le pionnier. Dès le début du XVe siècle, sous l'impulsion du prince Henri le Navigateur, ses marins descendent méthodiquement le long des côtes africaines, colonisant Madère et les Açores et rapportant or, ivoire et, tristement, les premiers esclaves africains. En 1488, Bartolomeu Dias franchit l'extrémité sud de l'Afrique, le futur cap de Bonne-Espérance. Dix ans plus tard, en 1498, Vasco de Gama atteint Calicut, en Inde : la route maritime des épices est ouverte, et le Portugal bâtit un empire de comptoirs de l'Afrique à la Chine. La Castille choisit l'ouest : en 1492, Christophe Colomb, Génois convaincu de pouvoir atteindre l'Asie par l'Atlantique, découvre sans le savoir un continent inconnu des Européens. Le traité de Tordesillas partage dès 1494 les terres nouvelles entre les deux couronnes ibériques. Le navigateur florentin Amerigo Vespucci comprend qu'il s'agit d'un « Nouveau Monde », qui reçoit son prénom sur la carte de Waldseemüller en 1507. Enfin, l'expédition de Magellan, achevée par Elcano en 1522, réalise le premier tour du monde, prouvant l'unité des océans. En quelques décennies, les Européens ont bouleversé la carte du monde connu.",
+     "visuel": {
+      "type": "frise",
+      "titre": "Les grandes expéditions maritimes",
+      "evenements": [
+       {
+        "date": "Début du XVe siècle",
+        "label": "Les Portugais descendent les côtes africaines",
+        "texte": "Sous l'impulsion d'Henri le Navigateur ; Madère et les Açores sont colonisées."
+       },
+       {
+        "date": "1488",
+        "label": "Bartolomeu Dias franchit la pointe sud de l'Afrique",
+        "texte": "Le futur cap de Bonne-Espérance."
+       },
+       {
+        "date": "1492",
+        "label": "Christophe Colomb atteint l'Amérique",
+        "texte": "Il croit avoir rejoint l'Asie par l'ouest."
+       },
+       {
+        "date": "1494",
+        "label": "Traité de Tordesillas",
+        "texte": "Les terres nouvelles sont partagées entre les deux couronnes ibériques."
+       },
+       {
+        "date": "1498",
+        "label": "Vasco de Gama atteint Calicut",
+        "texte": "La route maritime des épices est ouverte."
+       },
+       {
+        "date": "1507",
+        "label": "La carte de Waldseemüller nomme l'Amérique",
+        "texte": "D'après le prénom d'Amerigo Vespucci, qui a compris qu'il s'agit d'un Nouveau Monde."
+       },
+       {
+        "date": "1519-1522",
+        "label": "Premier tour du monde",
+        "texte": "L'expédition de Magellan, achevée par Elcano, prouve l'unité des océans."
+       }
+      ]
+     }
+    },
+    {
+     "titre": "La conquête du Nouveau Monde",
+     "texte": "Après les explorateurs viennent les conquistadors. En 1519, Hernán Cortés débarque au Mexique avec environ 500 hommes ; deux ans plus tard, il s'empare de Tenochtitlan, l'éclatante capitale lacustre de l'Empire aztèque, grâce à ses alliances avec les peuples soumis aux Aztèques, à ses armes à feu, à ses chevaux inconnus des Amérindiens et surtout à la variole qui décime les défenseurs. En 1532, Francisco Pizarro renverse avec moins de 200 hommes l'Empire inca, affaibli par une guerre civile : l'empereur Atahualpa, capturé à Cajamarca, est exécuté malgré le versement d'une immense rançon d'or et d'argent. Sur les ruines de ces empires, l'Espagne organise ses vice-royautés de Nouvelle-Espagne et du Pérou. Les conséquences pour les populations amérindiennes sont catastrophiques : aux violences de la conquête et au travail forcé dans les mines, comme celle d'argent de Potosí, s'ajoutent surtout les épidémies venues d'Europe — variole, rougeole, grippe — contre lesquelles les Amérindiens ne sont pas immunisés. En un siècle, la population indigène s'effondre, perdant selon les estimations jusqu'à 80 ou 90 % de ses effectifs : l'une des plus grandes catastrophes démographiques de l'histoire. Des voix s'élèvent, comme celle du dominicain Bartolomé de Las Casas, pour dénoncer les abus."
+    },
+    {
+     "titre": "Un monde transformé : le premier âge de la mondialisation",
+     "texte": "Les grandes découvertes inaugurent la première mondialisation. Les continents, jusque-là largement isolés, échangent désormais plantes, animaux, hommes et microbes : c'est l'« échange colombien ». L'Amérique donne au monde le maïs, la pomme de terre, la tomate, le cacao, le tabac ; l'Europe y introduit le blé, la canne à sucre, le cheval, les bovins — et ses maladies. L'afflux d'or et d'argent américains, notamment de Potosí, enrichit l'Espagne mais alimente une forte inflation en Europe. Les routes commerciales se déplacent de la Méditerranée vers l'Atlantique, faisant la fortune de Séville, Lisbonne puis Anvers et Amsterdam. Le développement des plantations de canne à sucre au Brésil et aux Antilles engendre la traite atlantique : du XVIe au XIXe siècle, plus de douze millions d'Africains sont déportés comme esclaves vers les Amériques, tragédie majeure de l'histoire moderne. Sur le plan intellectuel, la découverte de peuples et de mondes inconnus ébranle les certitudes héritées de l'Antiquité et de la Bible, nourrissant la réflexion sur la nature humaine, de la controverse de Valladolid (1550-1551) aux essais de Montaigne. L'Europe, périphérie du monde au Moyen Âge, s'installe pour plusieurs siècles au centre des échanges mondiaux.",
+     "visuel": {
+      "type": "comparaison",
+      "titre": "L'échange colombien : ce que les continents se transmettent",
+      "colonnes": [
+       {
+        "titre": "De l'Amérique vers l'Ancien Monde",
+        "points": [
+         "Le maïs",
+         "La pomme de terre",
+         "La tomate",
+         "Le cacao",
+         "Le tabac",
+         "L'or et l'argent, notamment de Potosí, qui nourrissent l'inflation européenne"
+        ]
+       },
+       {
+        "titre": "De l'Europe vers l'Amérique",
+        "points": [
+         "Le blé",
+         "La canne à sucre",
+         "Le cheval",
+         "Les bovins",
+         "Les maladies : variole, rougeole, grippe",
+         "La traite atlantique : plus de douze millions d'Africains déportés du XVIe au XIXe siècle"
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Quel navigateur portugais franchit le premier le cap de Bonne-Espérance en 1488 ?",
+     "choix": [
+      "Bartolomeu Dias",
+      "Vasco de Gama",
+      "Henri le Navigateur",
+      "Pedro Álvares Cabral"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "En 1488, Bartolomeu Dias double l'extrémité méridionale de l'Afrique, qu'il aurait nommée « cap des Tempêtes » en raison des conditions effroyables ; le roi Jean II du Portugal l'aurait rebaptisé « cap de Bonne-Espérance », car il ouvrait la route des Indes. Dias prouve que l'océan Indien est accessible par l'Atlantique. Dix ans plus tard, Vasco de Gama emprunte cette route et atteint l'Inde. Dias périra en mer en 1500, précisément dans une tempête au large du cap qu'il avait découvert."
+    },
+    {
+     "q": "De quel navigateur le continent américain tire-t-il son nom ?",
+     "choix": [
+      "Amerigo Vespucci",
+      "Christophe Colomb",
+      "Jacques Cartier",
+      "Jean Cabot"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Le continent doit son nom au Florentin Amerigo Vespucci, qui participa à plusieurs expéditions vers le Nouveau Monde vers 1499-1502 et fut l'un des premiers à comprendre et à écrire qu'il s'agissait d'un continent inconnu des Anciens, et non de l'Asie. En 1507, le cartographe Martin Waldseemüller inscrivit « America », féminisation latine de son prénom, sur sa carte du monde. Colomb, mort en 1506, resta persuadé d'avoir atteint les abords de l'Asie. Le nom s'imposa ensuite pour l'ensemble du continent."
+    },
+    {
+     "q": "Quel navire maniable, mis au point par les Portugais, est emblématique des grandes découvertes ?",
+     "choix": [
+      "La caravelle",
+      "Le drakkar",
+      "La galère",
+      "Le clipper"
+     ],
+     "bonne": 0,
+     "difficulte": 1,
+     "explication": "La caravelle, développée par les Portugais au XVe siècle, combine un faible tirant d'eau, une grande maniabilité et un gréement mixte de voiles carrées et latines qui lui permet de remonter contre le vent. Elle est l'outil des explorations le long des côtes africaines puis des traversées océaniques : la Pinta et la Niña de Colomb étaient des caravelles. Pour les longs voyages, elle est complétée par des navires plus gros, caraques et naos, comme la Santa María. Elle symbolise l'ère des grandes découvertes."
+    },
+    {
+     "q": "Comment s'appelait la capitale de l'Empire aztèque, prise par Cortés en 1521 ?",
+     "choix": [
+      "Tenochtitlan",
+      "Cuzco",
+      "Chichén Itzá",
+      "Teotihuacan"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Tenochtitlan, fondée en 1325 sur une île du lac Texcoco, était la capitale de l'Empire aztèque. Ville lacustre reliée à la terre ferme par des chaussées, irriguée de canaux et nourrie par des jardins flottants, elle comptait environ 200 000 habitants, davantage que la plupart des villes européennes de l'époque ; les conquistadors furent éblouis par sa splendeur. Après un siège terrible, Cortés la prit et la rasa en août 1521. Sur ses ruines fut bâtie Mexico, capitale de la Nouvelle-Espagne et actuelle capitale du Mexique."
+    },
+    {
+     "q": "Comment appelle-t-on le transfert de plantes, d'animaux et de maladies entre l'Ancien et le Nouveau Monde après 1492 ?",
+     "choix": [
+      "L'échange colombien",
+      "Le commerce triangulaire",
+      "La route de la soie",
+      "Le Grand Partage"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "L'expression « échange colombien », forgée par l'historien Alfred Crosby en 1972, désigne le vaste transfert biologique consécutif aux voyages de Colomb : maïs, pomme de terre, tomate, cacao et tabac passent d'Amérique vers l'Ancien Monde, tandis que blé, riz, canne à sucre, chevaux et bovins font le chemin inverse. Les microbes voyagent aussi : la variole et la rougeole déciment les populations amérindiennes sans immunité. Cet échange a transformé l'agriculture et l'alimentation mondiales, la pomme de terre et le maïs nourrissant ensuite l'essor démographique de l'Europe et de la Chine."
+    }
+   ]
+  },
+  {
+   "titre": "La guerre froide (1947-1991)",
+   "sections": [
+    {
+     "titre": "Un monde coupé en deux blocs",
+     "texte": "Alliés contre le nazisme, les États-Unis et l'URSS deviennent rivaux dès la victoire de 1945, leurs modèles étant inconciliables : démocratie libérale et capitalisme d'un côté, parti unique et économie collectivisée de l'autre. En mars 1946, Churchill constate qu'un « rideau de fer » s'est abattu sur l'Europe. En 1947, la rupture est consommée : le président Truman promet d'endiguer l'expansion communiste (doctrine du « containment »), et les États-Unis lancent le plan Marshall, une aide massive à la reconstruction européenne que Moscou interdit à ses satellites d'accepter ; en réponse, Jdanov dénonce l'impérialisme américain et le Kominform structure le camp communiste. L'Europe de l'Est passe sous contrôle soviétique par le biais de « coups de Prague » et d'élections truquées. Chaque bloc s'organise : alliance militaire de l'OTAN en 1949 côté occidental, à laquelle répond le pacte de Varsovie en 1955 ; CEE naissante à l'Ouest, CAEM à l'Est. On parle de « guerre froide » car les deux superpuissances, bientôt toutes deux dotées de l'arme nucléaire — l'URSS réussit son premier essai en 1949 —, ne s'affrontent jamais directement, mais s'opposent par pays interposés, par la propagande, l'espionnage, l'économie, la culture et le sport.",
+     "visuel": {
+      "type": "comparaison",
+      "titre": "Les deux blocs face à face",
+      "colonnes": [
+       {
+        "titre": "Le bloc de l'Ouest",
+        "points": [
+         "Démocratie libérale et capitalisme",
+         "Doctrine Truman en 1947 : endiguer l'expansion communiste",
+         "Plan Marshall : une aide massive à la reconstruction européenne",
+         "Alliance militaire de l'OTAN en 1949",
+         "La CEE naissante organise l'économie"
+        ]
+       },
+       {
+        "titre": "Le bloc de l'Est",
+        "points": [
+         "Parti unique et économie collectivisée",
+         "Rapport Jdanov : dénonciation de l'impérialisme américain",
+         "Le Kominform structure le camp communiste ; le plan Marshall est refusé aux satellites",
+         "Pacte de Varsovie en 1955",
+         "Le CAEM organise l'économie"
+        ]
+       }
+      ],
+      "note": "Aucun affrontement direct entre les deux superpuissances, toutes deux nucléaires dès 1949 : on s'oppose par pays interposés, par la propagande, l'espionnage, l'économie, la culture et le sport."
+     }
+    },
+    {
+     "titre": "Berlin, symbole de la division du monde",
+     "texte": "Vaincue, l'Allemagne est divisée en quatre zones d'occupation, tout comme Berlin, enclavée en zone soviétique. La ville devient le théâtre des crises les plus emblématiques de la guerre froide. En juin 1948, pour protester contre la création d'une monnaie commune aux zones occidentales, Staline bloque tous les accès terrestres à Berlin-Ouest : les Occidentaux répondent par un gigantesque pont aérien qui ravitaille la ville pendant près d'un an, un avion atterrissant parfois toutes les minutes. Staline lève le blocus en mai 1949, mais l'Allemagne se scinde la même année en deux États : la RFA à l'Ouest, la RDA à l'Est. Dans les années 1950, des millions d'Allemands de l'Est fuient vers l'Ouest par Berlin, vitrine du monde libre au cœur du bloc soviétique. Pour arrêter l'hémorragie, la RDA construit dans la nuit du 12 au 13 août 1961 le mur de Berlin, qui coupe la ville en deux : familles séparées, immeubles murés, fuyards abattus. Le « mur de la honte » devient le symbole mondial de la division de l'Europe. En 1963, Kennedy vient y proclamer sa solidarité : « Ich bin ein Berliner ». Le mur ne tombera que le 9 novembre 1989, annonçant la fin de la guerre froide.",
+     "visuel": {
+      "type": "image",
+      "image": "hm-mur-berlin",
+      "legende": "Le mur de Berlin devant la porte de Brandebourg, photographié du côté ouest à la fin des années 1980 : la face occidentale est couverte de graffitis, l'autre reste inaccessible.",
+      "alt": "Mur de béton bas couvert d'inscriptions colorées ; derrière lui, la porte de Brandebourg et son quadrige, et au loin la tour de télévision de Berlin-Est."
+     }
+    },
+    {
+     "titre": "Les crises et les guerres périphériques",
+     "texte": "Faute de s'affronter directement, les deux Grands s'opposent sur des théâtres périphériques. En Corée, l'invasion du Sud par le Nord communiste en juin 1950 déclenche une guerre de trois ans, impliquant une coalition de l'ONU menée par les États-Unis et des centaines de milliers de « volontaires » chinois ; l'armistice de 1953 fige la division de la péninsule au niveau du 38e parallèle. La crise la plus dangereuse éclate à Cuba en octobre 1962 : la découverte de missiles nucléaires soviétiques sur l'île, à 150 kilomètres de la Floride, conduit Kennedy à imposer un blocus naval ; pendant treize jours, le monde frôle la guerre nucléaire, avant que Khrouchtchev n'accepte de retirer ses fusées contre des contreparties américaines. Au Vietnam, les États-Unis s'engagent massivement à partir de 1965 contre le Nord communiste et la guérilla vietcong ; malgré plus de 500 000 soldats déployés et des bombardements massifs, ils s'enlisent dans une guerre impopulaire, quittent le pays en 1973 et voient Saïgon tomber en 1975. L'URSS connaît son propre bourbier en Afghanistan, envahi en 1979 : dix ans de guérilla soutenue par les États-Unis contraignent l'Armée rouge au retrait en 1989. Ces conflits, « chauds » pour les peuples concernés, font des millions de morts.",
+     "visuel": {
+      "type": "tableau",
+      "titre": "Quatre conflits périphériques de la guerre froide",
+      "colonnes": [
+       "Conflit",
+       "Dates",
+       "Issue"
+      ],
+      "lignes": [
+       [
+        "Corée",
+        "1950-1953",
+        "L'armistice fige la division de la péninsule au 38e parallèle"
+       ],
+       [
+        "Crise de Cuba",
+        "Octobre 1962",
+        "Après treize jours et un blocus naval, Khrouchtchev retire ses fusées contre des contreparties américaines"
+       ],
+       [
+        "Vietnam",
+        "engagement massif à partir de 1965",
+        "Les États-Unis quittent le pays en 1973 ; Saïgon tombe en 1975"
+       ],
+       [
+        "Afghanistan",
+        "1979-1989",
+        "Dix ans de guérilla soutenue par les États-Unis contraignent l'Armée rouge au retrait"
+       ]
+      ],
+      "note": "Froids pour les deux Grands, ces conflits furent bien chauds pour les peuples concernés : ils ont fait des millions de morts."
+     }
+    },
+    {
+     "titre": "La course aux armements et à l'espace",
+     "texte": "La guerre froide est aussi une compétition scientifique et technologique totale. Après Hiroshima, l'URSS se dote de la bombe atomique en 1949 ; les deux camps passent à la bombe thermonucléaire, des milliers de fois plus puissante, au début des années 1950, puis accumulent des dizaines de milliers d'ogives portées par missiles intercontinentaux, bombardiers et sous-marins. Cet « équilibre de la terreur » repose sur la dissuasion : toute attaque entraînerait une destruction mutuelle assurée. La course gagne l'espace, vitrine de prestige : en 1957, le bip-bip du satellite soviétique Spoutnik stupéfie l'Amérique ; en 1961, le Soviétique Youri Gagarine devient le premier homme dans l'espace. Piqués au vif, les États-Unis lancent le programme Apollo voulu par Kennedy et gagnent la manche décisive le 20 juillet 1969, quand Neil Armstrong marche sur la Lune devant des centaines de millions de téléspectateurs. La rivalité irrigue aussi la culture : jeux Olympiques, échecs avec le duel Fischer-Spassky en 1972, cinéma et propagande. Conscientes du danger, les deux superpuissances négocient à partir des années 1960 : téléphone rouge après Cuba, traités SALT de limitation des armements dans les années 1970, période dite de la Détente, avant un regain de tension au début des années 1980."
+    },
+    {
+     "titre": "L'effondrement du bloc soviétique",
+     "texte": "Dans les années 1980, l'URSS s'épuise : économie planifiée à bout de souffle, pénuries chroniques, guerre d'Afghanistan coûteuse, course aux armements relancée par le président américain Reagan et son projet de « guerre des étoiles ». Arrivé au pouvoir en 1985, Mikhaïl Gorbatchev tente de sauver le système par la perestroïka, restructuration de l'économie, et la glasnost, liberté d'expression inédite qui révèle au grand jour les mensonges et les crimes du régime, de la catastrophe de Tchernobyl en 1986 aux pages sombres du stalinisme. Surtout, il renonce à imposer par la force la tutelle soviétique sur l'Europe de l'Est. En 1989, les peuples s'engouffrent dans la brèche : élections semi-libres et gouvernement non communiste en Pologne portés par le syndicat Solidarnosc de Lech Walesa, ouverture du rideau de fer hongrois, chute du mur de Berlin le 9 novembre, « révolution de velours » à Prague, exécution de Ceausescu en Roumanie. L'Allemagne se réunifie en octobre 1990. En URSS même, les républiques baltes proclament leur indépendance et un putsch conservateur échoue en août 1991, discréditant le parti communiste. Le 25 décembre 1991, Gorbatchev démissionne : l'URSS est dissoute, la guerre froide est finie. Les États-Unis restent l'unique superpuissance d'un monde devenu, pour un temps, unipolaire."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Quel programme américain d'aide à la reconstruction de l'Europe est lancé en 1947 ?",
+     "choix": [
+      "Le plan Marshall",
+      "Le New Deal",
+      "La doctrine Jdanov",
+      "Le plan Schuman"
+     ],
+     "bonne": 0,
+     "difficulte": 1,
+     "explication": "Annoncé en juin 1947 par le secrétaire d'État américain George Marshall, le plan Marshall offre une aide massive, environ 13 milliards de dollars de l'époque, pour reconstruire les économies européennes dévastées par la guerre. Seize pays d'Europe occidentale l'acceptent, tandis que l'URSS le refuse et l'interdit à ses satellites, y voyant un instrument de l'impérialisme américain. Le plan accélère la reconstruction, arrime l'Europe de l'Ouest au bloc américain et contribue à la coupure du continent en deux camps."
+    },
+    {
+     "q": "Quelle alliance militaire le bloc soviétique crée-t-il en 1955 en réponse à l'OTAN ?",
+     "choix": [
+      "Le pacte de Varsovie",
+      "Le Kominform",
+      "Le CAEM",
+      "La Triple-Alliance"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Le pacte de Varsovie, signé le 14 mai 1955, unit militairement l'URSS et sept démocraties populaires d'Europe de l'Est, en réponse à l'entrée de la RFA dans l'OTAN. Placé sous commandement soviétique, il sert surtout à maintenir l'ordre dans le bloc : ses troupes écrasent l'insurrection de Budapest en 1956 et le Printemps de Prague en 1968, au nom de la doctrine de la « souveraineté limitée » de Brejnev. Le pacte est dissous en 1991, et plusieurs de ses anciens membres ont depuis rejoint l'OTAN."
+    },
+    {
+     "q": "Quel satellite soviétique, premier objet mis en orbite en 1957, lance la course à l'espace ?",
+     "choix": [
+      "Spoutnik 1",
+      "Explorer 1",
+      "Vostok 1",
+      "Luna 2"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Le 4 octobre 1957, l'URSS place en orbite Spoutnik 1, une sphère métallique de 84 kilos dont le « bip-bip » radio, capté dans le monde entier, provoque une onde de choc aux États-Unis : c'est le « choc Spoutnik ». L'exploit prouve que les fusées soviétiques peuvent atteindre le territoire américain. En réponse, Washington crée la NASA en 1958 et investit massivement dans l'éducation scientifique. La course à l'espace culminera avec les premiers pas de l'homme sur la Lune par Apollo 11 en juillet 1969."
+    },
+    {
+     "q": "Quelles réformes Gorbatchev engage-t-il en URSS à partir de 1985 ?",
+     "choix": [
+      "La perestroïka et la glasnost",
+      "Le Grand Bond en avant",
+      "La NEP et la collectivisation",
+      "Le containment et l'endiguement"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Devenu secrétaire général du parti communiste soviétique en mars 1985, Mikhaïl Gorbatchev lance la perestroïka, restructuration d'une économie planifiée en crise, et la glasnost, politique de transparence qui libère la parole et la presse. Il négocie aussi le désarmement avec Reagan et refuse de soutenir par la force les régimes communistes d'Europe de l'Est. Ces réformes, censées sauver le système soviétique, en précipitent la chute : les révolutions de 1989 puis la dissolution de l'URSS en 1991. Gorbatchev reçut le prix Nobel de la paix en 1990."
+    },
+    {
+     "q": "Quel syndicat polonais, mené par Lech Walesa, joue un rôle clé dans la chute du communisme ?",
+     "choix": [
+      "Solidarnosc",
+      "La Charte 77",
+      "Le Komsomol",
+      "Le Sejm"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Né en août 1980 dans les chantiers navals de Gdansk lors de grèves massives, Solidarnosc (« Solidarité ») est le premier syndicat indépendant du bloc soviétique, fort de dix millions de membres et dirigé par l'électricien Lech Walesa. Interdit par la loi martiale du général Jaruzelski en décembre 1981, il survit dans la clandestinité, soutenu par le pape polonais Jean-Paul II. En 1989, les négociations de la Table ronde aboutissent à des élections partiellement libres, triomphalement remportées par Solidarnosc : la Pologne bascule pacifiquement hors du communisme, ouvrant la voie aux autres pays de l'Est. Walesa devient président de la Pologne en 1990."
+    }
+   ]
+  }
+ ]
+}

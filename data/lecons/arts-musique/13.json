@@ -1,0 +1,186 @@
+{
+ "titre": "L'histoire de la photographie",
+ "sections": [
+  {
+   "titre": "Avant la photographie : la chambre noire et Niépce",
+   "texte": "La photographie résulte de la rencontre tardive entre deux savoirs anciens : l'optique et la chimie. Le principe optique est connu depuis l'Antiquité sous le nom de chambre noire : dans une pièce obscure percée d'un petit trou, l'image du monde extérieur vient se projeter, renversée, sur la paroi opposée. Aristote l'avait décrite, et le savant Ibn Al-Haytham l'a étudiée et perfectionnée au Xe siècle. L'introduction de lentilles au XVIe siècle en améliore nettement la netteté et transforme le dispositif en instrument d'atelier : les peintres de la Renaissance et de l'âge classique s'en servent pour construire leurs perspectives. La chambre noire est donc l'ancêtre direct de l'appareil photographique, mais il lui manque l'essentiel, un moyen de retenir l'image. C'est ce que cherche Nicéphore Niépce (1765-1833), qui combine le dispositif optique avec des substances sensibles à la lumière. En 1826 ou 1827, il obtient à Saint-Loup-de-Varennes, en Saône-et-Loire, une image permanente sur une plaque d'étain recouverte de bitume de Judée, matière qui durcit là où la lumière la frappe. Ce « Point de vue du Gras » est considéré comme la première photographie conservée prise d'après nature. Le temps de pose se comptait alors en heures, ce qui interdisait tout sujet mobile et explique que les premières images soient des vues d'architecture ou des natures mortes. Niépce nomme son procédé héliographie, c'est-à-dire écriture par le soleil.",
+   "visuel": {
+    "type": "image",
+    "image": "am-niepce-point-de-vue",
+    "legende": "Nicéphore Niépce, « Point de vue du Gras », 1826 ou 1827 : la première photographie conservée prise d'après nature, obtenue sur une plaque d'étain au bitume de Judée après des heures de pose.",
+    "alt": "Image en noir et blanc très granuleuse et floue : depuis une fenêtre, on devine les toits en pente de bâtiments de ferme, une cour et un arbre, éclairés des deux côtés à la fois."
+   }
+  },
+  {
+   "titre": "1839, l'année de naissance officielle : le daguerréotype",
+   "texte": "Louis Daguerre, associé de Niépce, met au point une amélioration décisive du procédé. Le 7 janvier 1839, l'Académie des sciences en présente officiellement le principe, et cette date est retenue par convention comme celle de l'invention de la photographie. La technique est exigeante : on part d'une plaque de cuivre recouverte d'argent poli comme un miroir, que l'on sensibilise par des vapeurs d'iode afin de former en surface de l'iodure d'argent, sensible à la lumière. Après l'exposition dans la chambre, l'image reste invisible ; on la révèle en exposant la plaque à des vapeurs de mercure, qui se condensent sur les zones insolées, puis on la fixe à l'hyposulfite de sodium pour la rendre stable. Le résultat est d'une finesse de détail remarquable et d'un éclat argenté très recherché par la clientèle fortunée. Il présente cependant un défaut majeur : le daguerréotype est une image unique, sans négatif, donc impossible à reproduire. L'État français achète le brevet de Daguerre, ce qui permet à l'Académie de publier le procédé le 19 août 1839 et de le mettre à la disposition de tous. Le succès est immédiat : les ateliers de portrait se multiplient, et un atelier parisien des années 1845-1850 peut produire plus de cinq mille images par an. Dès les années 1850, l'ambrotype et le ferrotype, moins coûteux, entraînent son déclin."
+  },
+  {
+   "titre": "Talbot et les révolutions techniques du XIXe siècle",
+   "texte": "L'avenir de la photographie ne tenait pas dans l'image unique, mais dans la reproduction. C'est l'apport de l'Anglais William Henry Fox Talbot, qui invente en 1840 le procédé négatif-positif : on obtient d'abord une image inversée sur un support translucide, le négatif, à partir duquel on peut tirer autant d'épreuves positives que l'on veut. Ce principe fonde la photographie moderne et restera en usage jusqu'à l'apparition du numérique. Le siècle enchaîne ensuite les perfectionnements, chacun raccourcissant le temps de pose ou simplifiant la pratique. En 1851, Frederick Scott Archer met au point le collodion humide, très sensible, mais qui oblige le photographe à préparer et à développer sa plaque sur place, donc à transporter un laboratoire. En 1871, Richard Leach Maddox propose le gélatinobromure d'argent, qui permet enfin des plaques sèches, prêtes à l'emploi et conservables. En 1889, George Eastman commercialise le film souple en celluloïd, qui libère l'appareil de la plaque de verre et rend possible un appareil léger et populaire. La couleur suit : les frères Lumière développent l'autochrome entre 1903 et 1907, procédé utilisant des grains de fécule de pomme de terre teintés. En 1925 apparaît le Leica, qui impose le format 24 par 36 millimètres, et en 1948 le Polaroïd, à développement instantané.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Les procédés, de la plaque au film",
+    "evenements": [
+     {
+      "date": "1826-1827",
+      "label": "Héliographie",
+      "texte": "Niépce fixe une image sur une plaque d'étain : pose de plusieurs heures."
+     },
+     {
+      "date": "1839",
+      "label": "Daguerréotype",
+      "texte": "Image unique sur plaque d'argent, d'une grande finesse mais impossible à reproduire."
+     },
+     {
+      "date": "1840",
+      "label": "Négatif-positif",
+      "texte": "Talbot permet de tirer autant d'épreuves que l'on veut : le principe de la photographie moderne."
+     },
+     {
+      "date": "1851",
+      "label": "Collodion humide",
+      "texte": "Très sensible, mais il faut préparer et développer la plaque sur place."
+     },
+     {
+      "date": "1871",
+      "label": "Plaques sèches",
+      "texte": "Le gélatinobromure d'argent donne des plaques prêtes à l'emploi et conservables."
+     },
+     {
+      "date": "1889",
+      "label": "Film souple",
+      "texte": "Le celluloïd d'Eastman libère l'appareil de la plaque de verre."
+     },
+     {
+      "date": "1903-1907",
+      "label": "Autochrome",
+      "texte": "Les frères Lumière obtiennent la couleur avec des grains de fécule teintés."
+     },
+     {
+      "date": "1925",
+      "label": "Leica",
+      "texte": "Le format 24 x 36 millimètres et l'appareil que l'on emporte dans la rue."
+     },
+     {
+      "date": "1948",
+      "label": "Polaroïd",
+      "texte": "Le développement instantané."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le Leica, l'instant décisif et l'agence Magnum",
+   "texte": "L'appareil léger transforme le métier. Avec un boîtier discret, tenu à hauteur d'œil et rechargé en quelques secondes, le photographe peut suivre la vie dans la rue au lieu de l'immobiliser dans un studio. Henri Cartier-Bresson, né à Chanteloup-en-Brie le 22 août 1908 et mort à Montjustin le 3 août 2004, achète son premier Leica à Marseille en 1932 : l'outil devient pour lui inséparable d'une pratique fondée sur la marche, l'attente et la rapidité. On associe son nom à la notion d'instant décisif, cette fraction de seconde où les éléments d'une scène s'organisent d'eux-mêmes en une composition juste ; lui-même jugeait la formule réductrice et préférait parler de prise de vue, qui réunit la spontanéité et la construction. Sa rigueur formelle était telle qu'il refusait de recadrer ses négatifs au tirage : le cadre devait être trouvé au moment du déclenchement. En 1947, il cofonde l'agence Magnum Photos avec Robert Capa, David Seymour, William Vandivert, Maria Eisner et George Rodger : cette coopérative, propriété des photographes eux-mêmes, avec décisions et bénéfices partagés, leur assure la maîtrise de leurs images. Cartier-Bresson couvre l'assassinat et les funérailles de Gandhi en Inde en 1948, les bouleversements politiques de la Chine en 1949, l'Union soviétique du dégel en 1954 et Cuba en 1963. Il exigeait des légendes détaillées, jugeant qu'une image sans contexte est incomplète. La Fondation Henri-Cartier-Bresson est créée en 2003."
+  },
+  {
+   "titre": "De l'argentique au numérique",
+   "texte": "La fin du XXe siècle marque la rupture la plus profonde depuis 1839 : le passage de l'argentique au numérique. La photographie numérique recouvre l'ensemble des techniques permettant d'obtenir une image au moyen d'un capteur électronique. Ce capteur, de type CCD ou CMOS, remplace la surface sensible : au lieu d'une réaction chimique dans une émulsion, la lumière y est convertie en signaux électriques, ensuite traités et enregistrés sous forme de fichiers. Les constructeurs multiplient les variantes, comme les capteurs Super-CCD de Fujifilm ou les capteurs de Sony ajoutant une quatrième couleur, un canal émeraude destiné à élargir la gamme des teintes restituées. Les images sont enregistrées dans plusieurs formats, aux logiques opposées : le JPEG, compressé avec perte de qualité, le TIFF, à compression sans perte, le RAW, non compressé et propre à chaque fabricant, et le DNG, format standardisé créé par Adobe pour éviter la dispersion des formats propriétaires. Le fichier obtenu peut ensuite être retravaillé avec des logiciels comme GIMP ou Adobe Photoshop, qui offrent d'innombrables réglages, puis imprimé sur imprimante à jet d'encre ou à sublimation thermique, la pictographie professionnelle restant supérieure pour la fidélité des couleurs. Des procédés de numérisation permettent enfin de convertir les négatifs et les tirages anciens en fichiers. Cette souplesse de retouche a réactivé une question ancienne mais désormais centrale : celle de la confiance que l'on peut accorder à une image.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Argentique et numérique",
+    "colonnes": [
+     {
+      "titre": "Argentique",
+      "points": [
+       "Réaction chimique dans une émulsion sensible",
+       "Négatif sur film, puis tirage sur papier",
+       "Nombre de vues limité par la pellicule",
+       "Retouche possible mais lourde, au laboratoire"
+      ]
+     },
+     {
+      "titre": "Numérique",
+      "points": [
+       "Capteur CCD ou CMOS convertissant la lumière en signaux électriques",
+       "Fichiers JPEG, TIFF, RAW ou DNG",
+       "Nombre de vues limité par la seule mémoire",
+       "Retouche immédiate et illimitée, d'où la question de la confiance accordée à l'image"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quelle est la première photographie conservée prise d'après nature, et par qui a-t-elle été réalisée ?",
+   "choix": [
+    "« Le Boulevard du Temple », par Louis Daguerre",
+    "« Point de vue du Gras », par Nicéphore Niépce",
+    "« La Fenêtre de Lacock Abbey », par William Henry Fox Talbot",
+    "« L'Atelier de l'artiste », par Hippolyte Bayard"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Le « Point de vue du Gras », obtenu par Nicéphore Niépce à Saint-Loup-de-Varennes en 1826 ou 1827, est considéré comme la première photographie conservée prise d'après nature. Niépce avait recouvert une plaque d'étain de bitume de Judée, matière qui durcit sous l'effet de la lumière, et nommait son procédé héliographie, littéralement écriture par le soleil. Le temps de pose se comptait en heures, ce qui excluait tout sujet en mouvement et explique le choix d'une vue d'architecture. Daguerre, son associé, perfectionnera ensuite le procédé. Talbot et Bayard sont d'autres pionniers de ces mêmes années."
+  },
+  {
+   "q": "Quel est le principal défaut du daguerréotype ?",
+   "choix": [
+    "Sa mauvaise définition",
+    "Sa fragilité chimique, qui le faisait disparaître en quelques mois",
+    "Son caractère unique, sans négatif, donc impossible à reproduire",
+    "L'impossibilité de photographier en extérieur"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le daguerréotype produit une image unique sur une plaque de cuivre argentée, sans négatif intermédiaire : il est donc impossible d'en tirer des exemplaires. Sa qualité est pourtant remarquable, tant par la finesse du détail que par l'éclat argenté, et il se conserve indéfiniment s'il est correctement protégé. C'est précisément cette impossibilité de reproduction qui le condamnait face au procédé négatif-positif inventé par Talbot en 1840. Dès les années 1850, l'ambrotype et le ferrotype, moins coûteux, le supplantent. La date officielle de l'invention de la photographie reste le 7 janvier 1839, jour de la présentation du daguerréotype à l'Académie des sciences."
+  },
+  {
+   "q": "Quelle invention de 1840 fonde la photographie moderne en permettant la multiplication des tirages ?",
+   "choix": [
+    "Le procédé négatif-positif de Talbot",
+    "Le collodion humide d'Archer",
+    "Le gélatinobromure de Maddox",
+    "Le film souple d'Eastman"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le procédé négatif-positif inventé par William Henry Fox Talbot en 1840 permet d'obtenir d'abord une image inversée sur support translucide, le négatif, puis d'en tirer autant d'épreuves positives que voulu. Ce principe restera le fondement de la photographie jusqu'au numérique. Les autres inventions citées sont bien réelles mais postérieures et de nature différente : le collodion humide d'Archer date de 1851 et augmente la sensibilité, le gélatinobromure de Maddox de 1871 permet les plaques sèches prêtes à l'emploi, et le film souple en celluloïd d'Eastman de 1889 allège l'appareil. Chacune raccourcit le temps de pose ou simplifie la pratique."
+  },
+  {
+   "q": "En quelle année Henri Cartier-Bresson cofonde-t-il l'agence Magnum Photos ?",
+   "choix": [
+    "1932",
+    "1938",
+    "1947",
+    "1955"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Magnum Photos est fondée en 1947 par Henri Cartier-Bresson avec Robert Capa, David Seymour, William Vandivert, Maria Eisner et George Rodger. L'originalité de cette agence est d'être une coopérative appartenant aux photographes eux-mêmes, avec des décisions et des bénéfices partagés, ce qui leur donne le contrôle de l'usage de leurs images. En 1932, Cartier-Bresson avait acheté à Marseille son premier Leica, appareil léger qui rendit possible sa pratique de la photographie de rue. Il couvrira ensuite les funérailles de Gandhi en 1948, la Chine en 1949, l'Union soviétique en 1954 et Cuba en 1963. La Fondation Henri-Cartier-Bresson est créée en 2003, un an avant sa mort."
+  },
+  {
+   "q": "Parmi ces formats de fichier photographique, lequel est compressé avec perte de qualité ?",
+   "choix": [
+    "Le RAW",
+    "Le TIFF",
+    "Le DNG",
+    "Le JPEG"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Le JPEG est un format compressé avec perte : il réduit fortement la taille du fichier au prix d'une dégradation de l'information, généralement peu visible mais irréversible. Le TIFF utilise au contraire une compression sans perte, le RAW conserve les données brutes du capteur sans compression et varie selon les fabricants, et le DNG est un format standardisé créé par Adobe pour éviter la multiplication des formats propriétaires. Ces fichiers proviennent d'un capteur électronique de type CCD ou CMOS, qui convertit la lumière en signaux électriques au lieu de provoquer une réaction chimique. La possibilité de retoucher ces fichiers a rendu plus aiguë la question de la confiance accordée aux images."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Histoire de la photographie",
+   "url": "https://fr.wikipedia.org/wiki/Histoire_de_la_photographie"
+  },
+  {
+   "titre": "Daguerréotype",
+   "url": "https://fr.wikipedia.org/wiki/Daguerr%C3%A9otype"
+  },
+  {
+   "titre": "Henri Cartier-Bresson",
+   "url": "https://fr.wikipedia.org/wiki/Henri_Cartier-Bresson"
+  },
+  {
+   "titre": "Photographie numérique",
+   "url": "https://fr.wikipedia.org/wiki/Photographie_num%C3%A9rique"
+  }
+ ]
+}

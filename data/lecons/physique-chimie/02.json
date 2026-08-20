@@ -1,0 +1,179 @@
+{
+ "titre": "La lumière et l'optique : des rayons aux couleurs",
+ "sections": [
+  {
+   "titre": "Qu'est-ce que la lumière ? Sources, propagation et vitesse",
+   "texte": "La lumière est un rayonnement qui transporte de l'énergie et qui permet la vision. On distingue les sources primaires, qui produisent elles-mêmes la lumière, comme le Soleil, une flamme, une lampe ou une diode électroluminescente, et les objets diffusants, qui ne font que renvoyer dans toutes les directions la lumière qu'ils reçoivent : c'est le cas de la Lune, d'un mur ou d'une page de livre. Dans un milieu transparent et homogène, la lumière se propage en ligne droite. Ce principe de propagation rectiligne, modélisé par des rayons lumineux, explique la formation des ombres, la netteté des silhouettes et les éclipses. Lorsque la Lune passe entre le Soleil et la Terre, elle projette son ombre sur notre planète : c'est une éclipse de Soleil ; lorsque la Terre s'interpose, la Lune s'assombrit et l'on observe une éclipse de Lune. La lumière n'a besoin d'aucun support matériel pour se propager : elle traverse le vide, contrairement au son. Sa vitesse dans le vide, notée c, vaut exactement 299 792 458 mètres par seconde, souvent arrondie à 300 000 kilomètres par seconde. C'est la vitesse limite de l'Univers. Elle est plus faible dans les milieux transparents comme l'eau ou le verre. Cette vitesse finie a une conséquence remarquable en astronomie : observer un astre lointain, c'est regarder son passé. La lumière du Soleil met environ huit minutes vingt à nous parvenir, et celle des galaxies lointaines des milliards d'années.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "La vitesse de la lumière",
+    "items": [
+     {
+      "valeur": "299 792 458 m/s",
+      "label": "vitesse de la lumière dans le vide, notée c"
+     },
+     {
+      "valeur": "300 000 km/s",
+      "label": "valeur arrondie couramment utilisée"
+     },
+     {
+      "valeur": "8 min 20 s",
+      "label": "temps mis par la lumière du Soleil pour nous parvenir"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Réflexion et miroirs",
+   "texte": "Lorsqu'un rayon lumineux rencontre une surface polie comme un miroir, il repart dans une direction précise : c'est la réflexion. On appelle normale la droite perpendiculaire à la surface au point d'incidence. Les lois de la réflexion, formalisées par Descartes au XVIIe siècle et déjà connues des Grecs, énoncent que le rayon réfléchi appartient au plan formé par le rayon incident et la normale, et que l'angle de réflexion est égal à l'angle d'incidence, ces angles étant mesurés par rapport à la normale. On parle de réflexion spéculaire lorsque la surface est parfaitement lisse, comme un miroir ou une eau calme, et l'on obtient alors une image nette. Si la surface est rugueuse, les rayons repartent dans toutes les directions : c'est la diffusion, qui rend les objets visibles sous tous les angles mais ne forme pas d'image. Un miroir plan donne une image virtuelle, située symétriquement derrière le miroir, de même taille que l'objet, mais inversée à droite et à gauche : c'est pourquoi le mot écrit sur une ambulance apparaît à l'endroit dans le rétroviseur. Les miroirs courbes ont d'autres propriétés. Un miroir concave, creux, peut concentrer les rayons du Soleil en un foyer : c'est le principe des fours solaires et des télescopes réflecteurs. Un miroir convexe élargit le champ de vision, ce qui explique son emploi aux sorties de garages et dans les magasins."
+  },
+  {
+   "titre": "Réfraction, lentilles et instruments d'optique",
+   "texte": "Quand la lumière passe d'un milieu transparent à un autre, elle change brusquement de direction : c'est la réfraction. Ce phénomène explique qu'un bâton plongé dans l'eau semble brisé, ou qu'une piscine paraisse moins profonde qu'elle ne l'est. On caractérise chaque milieu par son indice de réfraction, égal au rapport de la vitesse de la lumière dans le vide sur sa vitesse dans le milieu. Cet indice vaut 1 dans le vide, environ 1,33 pour l'eau et près de 1,5 pour le verre ordinaire. La loi de Snell-Descartes relie les angles d'incidence et de réfraction aux indices des deux milieux. Lorsque la lumière passe d'un milieu très réfringent vers un milieu qui l'est moins, au-delà d'un certain angle limite elle ne sort plus du tout : c'est la réflexion totale, utilisée dans les fibres optiques qui transportent aujourd'hui l'essentiel des communications numériques. Les lentilles exploitent la réfraction. Une lentille convergente, plus épaisse au centre, rassemble les rayons parallèles en un point appelé foyer ; la distance focale mesure sa puissance, exprimée en dioptries, inverse de la distance focale en mètres. Une lentille divergente, plus mince au centre, écarte les rayons. L'œil humain contient un cristallin qui joue le rôle d'une lentille convergente à focale variable, formant sur la rétine une image renversée. La myopie et l'hypermétropie se corrigent par des lentilles divergentes ou convergentes."
+  },
+  {
+   "titre": "La dispersion et les couleurs",
+   "texte": "En 1666, Isaac Newton fait passer un mince faisceau de lumière solaire à travers un prisme de verre et obtient une bande colorée continue, du rouge au violet, qu'il nomme spectre. Il démontre ensuite, à l'aide d'un second prisme, que la lumière blanche n'est pas altérée par le verre mais simplement décomposée : elle est un mélange de toutes les couleurs. Ce phénomène s'appelle la dispersion. Il se produit parce que l'indice de réfraction d'un milieu dépend légèrement de la couleur : le violet est plus dévié que le rouge. L'arc-en-ciel résulte du même mécanisme, la lumière du Soleil étant réfractée puis réfléchie à l'intérieur des gouttes d'eau en suspension. On distingue la synthèse additive, qui concerne les lumières, et la synthèse soustractive, qui concerne les matières colorées. En synthèse additive, les trois couleurs primaires sont le rouge, le vert et le bleu ; leur superposition donne du blanc, et leurs combinaisons deux à deux donnent le jaune, le cyan et le magenta. C'est le principe des écrans, dont chaque pixel comporte trois sous-pixels. En synthèse soustractive, les pigments cyan, magenta et jaune absorbent chacun une partie du spectre ; leur superposition tend vers le noir. C'est le principe de l'imprimerie et de la peinture. Un objet paraît rouge parce qu'il absorbe les autres composantes de la lumière blanche et diffuse principalement le rouge : sous un éclairage bleu, il apparaîtrait sombre.",
+   "visuels": [
+    {
+     "type": "image",
+     "image": "pc-prisme-dispersion",
+     "legende": "La dispersion de la lumière blanche par un prisme : le violet est plus dévié que le rouge.",
+     "alt": "Un faisceau de lumière blanche traverse un prisme de verre et ressort étalé en une bande colorée allant du violet au rouge sur fond noir."
+    },
+    {
+     "type": "comparaison",
+     "titre": "Deux façons de mélanger les couleurs",
+     "colonnes": [
+      {
+       "titre": "Synthèse additive (les lumières)",
+       "points": [
+        "Primaires : rouge, vert, bleu",
+        "Superposition des trois : blanc",
+        "Deux à deux : jaune, cyan, magenta",
+        "Principe des écrans et des projecteurs"
+       ]
+      },
+      {
+       "titre": "Synthèse soustractive (les matières)",
+       "points": [
+        "Primaires : cyan, magenta, jaune",
+        "Superposition des trois : tend vers le noir",
+        "Chaque pigment absorbe une part du spectre",
+        "Principe de l'imprimerie et de la peinture"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Ondes, spectre électromagnétique et dualité",
+   "texte": "La nature profonde de la lumière a longtemps divisé les savants. Newton la concevait comme un flux de corpuscules, tandis que Huygens la décrivait comme une onde. Au début du XIXe siècle, les expériences d'interférences de Thomas Young, où deux fentes fines produisent des franges alternativement claires et sombres, imposent le modèle ondulatoire. Maxwell montre ensuite, vers 1865, que la lumière est une onde électromagnétique, c'est-à-dire la propagation couplée d'un champ électrique et d'un champ magnétique. Une onde se caractérise par sa longueur d'onde, distance entre deux motifs identiques, et par sa fréquence, nombre d'oscillations par seconde exprimé en hertz. La lumière visible ne couvre qu'une toute petite fenêtre, des longueurs d'onde d'environ 400 nanomètres pour le violet à 800 nanomètres pour le rouge. Au-delà du rouge s'étendent les infrarouges, les micro-ondes et les ondes radio, dont les longueurs d'onde sont plus grandes et l'énergie plus faible. En deçà du violet se trouvent les ultraviolets, les rayons X et les rayons gamma, plus énergétiques et potentiellement dangereux pour les cellules vivantes. En 1905, Einstein explique l'effet photoélectrique en admettant que la lumière est aussi constituée de grains d'énergie, les photons, dont l'énergie est proportionnelle à la fréquence. La physique moderne conclut à une dualité onde-corpuscule : selon l'expérience réalisée, la lumière manifeste l'un ou l'autre de ces deux aspects complémentaires.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Le spectre électromagnétique, du plus énergétique au moins énergétique",
+    "colonnes": [
+     "Rayonnement",
+     "Longueur d'onde",
+     "Énergie"
+    ],
+    "lignes": [
+     [
+      "Rayons gamma",
+      "La plus courte",
+      "Très élevée, dangereuse pour les cellules"
+     ],
+     [
+      "Rayons X",
+      "Très courte",
+      "Élevée, traverse les tissus mous"
+     ],
+     [
+      "Ultraviolets",
+      "Inférieure à 400 nm",
+      "Forte, responsable des coups de soleil"
+     ],
+     [
+      "Lumière visible",
+      "400 nm (violet) à 800 nm (rouge)",
+      "Seule fenêtre perçue par l'œil"
+     ],
+     [
+      "Infrarouges",
+      "Supérieure à 800 nm",
+      "Faible, perçue comme chaleur"
+     ],
+     [
+      "Micro-ondes et ondes radio",
+      "La plus grande",
+      "La plus faible"
+     ]
+    ],
+    "note": "L'énergie d'un photon est proportionnelle à la fréquence, donc inversement proportionnelle à la longueur d'onde."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quelle est la valeur approchée de la vitesse de la lumière dans le vide ?",
+   "choix": [
+    "300 kilomètres par seconde",
+    "3 000 kilomètres par seconde",
+    "300 000 kilomètres par seconde",
+    "30 millions de kilomètres par seconde"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "La vitesse de la lumière dans le vide vaut exactement 299 792 458 mètres par seconde, soit environ 300 000 kilomètres par seconde. Cette valeur est aujourd'hui une constante fixée par définition, qui sert justement à définir le mètre. Elle constitue une vitesse limite indépassable dans l'Univers selon la relativité restreinte. C'est parce qu'elle est finie que la lumière du Soleil met environ huit minutes à nous parvenir. Dans un milieu matériel comme l'eau ou le verre, la lumière se propage plus lentement."
+  },
+  {
+   "q": "Que dit la loi de la réflexion pour un miroir plan ?",
+   "choix": [
+    "L'angle de réflexion est égal à l'angle d'incidence par rapport à la normale",
+    "L'angle de réflexion vaut toujours quatre-vingt-dix degrés",
+    "Le rayon réfléchi est perpendiculaire au rayon incident",
+    "L'angle de réflexion dépend de la couleur de la lumière"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "La normale est la droite perpendiculaire à la surface au point où arrive le rayon. La loi de la réflexion affirme que le rayon réfléchi reste dans le plan défini par le rayon incident et la normale, et que l'angle de réflexion est égal à l'angle d'incidence, tous deux mesurés à partir de cette normale. Cette loi ne dépend pas de la couleur de la lumière, contrairement à la réfraction qui, elle, provoque la dispersion. Elle explique la formation des images dans un miroir plan, images virtuelles et symétriques de l'objet."
+  },
+  {
+   "q": "Sur quel phénomène optique repose le fonctionnement des fibres optiques ?",
+   "choix": [
+    "La diffusion de la lumière par les surfaces rugueuses",
+    "La dispersion par un prisme",
+    "L'absorption sélective des pigments",
+    "La réflexion totale de la lumière au-delà d'un angle limite"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Quand la lumière tente de passer d'un milieu d'indice élevé vers un milieu d'indice plus faible, elle s'écarte de la normale. Au-delà d'un certain angle d'incidence, appelé angle limite, elle ne peut plus sortir et se réfléchit intégralement dans le premier milieu : c'est la réflexion totale. Une fibre optique est constituée d'un cœur de verre entouré d'une gaine d'indice plus faible, si bien que la lumière y reste piégée et suit la fibre même dans les courbes. Ce principe permet de transmettre des données sur des milliers de kilomètres avec très peu de pertes."
+  },
+  {
+   "q": "En synthèse additive des lumières, quelles sont les trois couleurs primaires ?",
+   "choix": [
+    "Cyan, magenta et jaune",
+    "Rouge, vert et bleu",
+    "Rouge, jaune et bleu",
+    "Blanc, noir et gris"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "La synthèse additive concerne la superposition de lumières colorées. Ses trois primaires sont le rouge, le vert et le bleu, et leur superposition à intensités égales donne du blanc. Les combinaisons deux à deux produisent les couleurs secondaires : rouge et vert donnent du jaune, vert et bleu donnent du cyan, bleu et rouge donnent du magenta. C'est le principe des écrans, où chaque pixel est composé de trois sous-pixels de ces trois couleurs. Le cyan, le magenta et le jaune sont au contraire les primaires de la synthèse soustractive, utilisée pour les encres et les peintures."
+  },
+  {
+   "q": "Quelle affirmation décrit correctement le spectre électromagnétique ?",
+   "choix": [
+    "Les ondes radio sont plus énergétiques que les rayons gamma",
+    "Toutes les ondes électromagnétiques sont visibles à l'œil nu",
+    "Les ultraviolets ont une longueur d'onde plus courte que la lumière visible",
+    "Les infrarouges ont une fréquence supérieure à celle des rayons X"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Le spectre électromagnétique s'étend des ondes radio, de grande longueur d'onde et de faible énergie, aux rayons gamma, de très courte longueur d'onde et de très forte énergie. La lumière visible n'en occupe qu'une étroite bande, de 400 nanomètres environ pour le violet à 800 nanomètres pour le rouge. Les ultraviolets se situent juste au-delà du violet, avec une longueur d'onde plus courte et donc une énergie plus grande, ce qui explique leur nocivité pour la peau. Les infrarouges, situés au-delà du rouge, ont au contraire une longueur d'onde plus grande et une fréquence bien inférieure à celle des rayons X."
+  }
+ ]
+}

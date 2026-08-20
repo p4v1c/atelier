@@ -1,0 +1,1183 @@
+{
+ "id": "litterature",
+ "nom": "Littérature",
+ "emoji": "📚",
+ "questions": [
+  {
+   "q": "Qui a écrit « Les Misérables » ?",
+   "choix": [
+    "Victor Hugo",
+    "Émile Zola",
+    "Honoré de Balzac",
+    "Gustave Flaubert"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "« Les Misérables » est un roman de Victor Hugo publié en 1862, alors qu'il était en exil à Guernesey. Il suit le destin de Jean Valjean, ancien forçat en quête de rédemption, poursuivi par l'inspecteur Javert. L'œuvre offre une vaste fresque sociale de la France du XIXe siècle, de Waterloo aux barricades de l'insurrection de 1832. Les personnages de Cosette, Fantine et Gavroche sont devenus des figures universelles. Le roman connut un immense succès populaire dès sa parution et reste l'un des livres français les plus adaptés au cinéma et à la scène."
+  },
+  {
+   "q": "Quel est le véritable nom de Molière ?",
+   "choix": [
+    "Jean Racine",
+    "Jean-Baptiste Poquelin",
+    "Pierre Corneille",
+    "Nicolas Boileau"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Molière est le nom de scène de Jean-Baptiste Poquelin, né à Paris en 1622 dans une famille de tapissiers du roi. Il fonde l'Illustre Théâtre en 1643 avec Madeleine Béjart, puis sillonne la province pendant treize ans avant de conquérir Paris. Protégé de Louis XIV, il devient le grand maître de la comédie française avec « Tartuffe », « Dom Juan », « L'Avare » ou « Le Misanthrope ». Il meurt en 1673, quelques heures après la quatrième représentation du « Malade imaginaire ». La Comédie-Française, fondée en 1680, est surnommée « la maison de Molière »."
+  },
+  {
+   "q": "Qui est l'auteur de « Madame Bovary » ?",
+   "choix": [
+    "Stendhal",
+    "Guy de Maupassant",
+    "Gustave Flaubert",
+    "Alphonse Daudet"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "« Madame Bovary » est le premier roman publié de Gustave Flaubert, paru en 1857. Il raconte l'ennui et les rêves déçus d'Emma Bovary, épouse d'un officier de santé de province, qui cherche dans l'adultère et le luxe une échappatoire à sa vie médiocre. Le roman valut à Flaubert un procès pour outrage à la morale publique, dont il sortit acquitté. Ce procès fit un formidable coup de publicité au livre. Par son travail obsessionnel du style et son refus du lyrisme, Flaubert est considéré comme un maître du réalisme et un modèle pour les romanciers modernes."
+  },
+  {
+   "q": "Quel roman d'Émile Zola décrit une grève de mineurs dans le nord de la France ?",
+   "choix": [
+    "L'Assommoir",
+    "Germinal",
+    "La Bête humaine",
+    "Au Bonheur des Dames"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "« Germinal », publié en 1885, est le treizième roman du cycle des Rougon-Macquart d'Émile Zola. Il décrit la vie misérable des mineurs du Nord à travers le personnage d'Étienne Lantier, qui prend la tête d'une grève dans la mine de Montsou. Pour l'écrire, Zola s'est documenté sur place, descendant lui-même dans une fosse à Anzin lors des grèves de 1884. Le titre reprend le nom d'un mois du calendrier révolutionnaire, symbole de germination et d'espoir. Aux funérailles de Zola en 1902, des mineurs suivirent le cortège en criant « Germinal ! »."
+  },
+  {
+   "q": "Qui a écrit « À la recherche du temps perdu » ?",
+   "choix": [
+    "André Gide",
+    "Marcel Proust",
+    "Paul Valéry",
+    "Anatole France"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "« À la recherche du temps perdu » est l'œuvre monumentale de Marcel Proust, publiée en sept tomes entre 1913 et 1927, les trois derniers à titre posthume. Ce cycle romanesque explore la mémoire, le temps, l'amour et la vocation d'écrivain à travers la voix d'un narrateur proche de l'auteur. L'épisode de la madeleine trempée dans le thé, qui fait resurgir le passé, est devenu le symbole de la mémoire involontaire. Malade et reclus, Proust consacra la fin de sa vie à cette œuvre, écrivant la nuit dans sa chambre tapissée de liège. La Recherche compte parmi les sommets de la littérature mondiale."
+  },
+  {
+   "q": "Quel est le premier tome de « À la recherche du temps perdu » ?",
+   "choix": [
+    "Le Temps retrouvé",
+    "Sodome et Gomorrhe",
+    "Du côté de chez Swann",
+    "Le Côté de Guermantes"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "« Du côté de chez Swann » ouvre la Recherche en 1913. Refusé par plusieurs éditeurs, dont Gallimard sur avis d'André Gide qui le regrettera amèrement, Proust dut le publier à compte d'auteur chez Grasset. Le tome contient les célèbres évocations de Combray, l'épisode de la madeleine et le récit « Un amour de Swann ». La série se poursuit avec « À l'ombre des jeunes filles en fleurs », qui obtint le prix Goncourt en 1919. Elle s'achève avec « Le Temps retrouvé », paru en 1927, cinq ans après la mort de l'écrivain."
+  },
+  {
+   "q": "Qui est l'auteur du roman « Le Rouge et le Noir » ?",
+   "choix": [
+    "Stendhal",
+    "Honoré de Balzac",
+    "Victor Hugo",
+    "Prosper Mérimée"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "« Le Rouge et le Noir », publié en 1830, est le chef-d'œuvre de Stendhal, pseudonyme d'Henri Beyle. Le roman suit l'ascension de Julien Sorel, jeune homme ambitieux d'origine modeste, dans la société de la Restauration. Le titre évoquerait le rouge de l'uniforme militaire et le noir de la soutane, les deux voies de réussite offertes à un roturier de l'époque. Stendhal s'inspira d'un fait divers réel, l'affaire Berthet. Peu lu de son vivant, il prédisait qu'il serait compris « vers 1880 », pronostic qui s'est largement vérifié."
+  },
+  {
+   "q": "Qui a écrit la pièce « Cyrano de Bergerac » (1897) ?",
+   "choix": [
+    "Alfred de Musset",
+    "Edmond Rostand",
+    "Georges Feydeau",
+    "Alexandre Dumas fils"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "« Cyrano de Bergerac » est une comédie héroïque en vers d'Edmond Rostand, créée à Paris en 1897 avec un triomphe immédiat. La pièce s'inspire librement d'un écrivain réel du XVIIe siècle, Savinien de Cyrano de Bergerac. Le héros, poète au grand nez et à la lame redoutable, aime en secret sa cousine Roxane et prête ses mots au beau Christian. La tirade du nez et la scène du balcon comptent parmi les morceaux les plus célèbres du théâtre français. Le mot « panache », qui clôt la pièce, est resté attaché au personnage."
+  },
+  {
+   "q": "Quel poète est l'auteur du recueil « Les Fleurs du mal » ?",
+   "choix": [
+    "Paul Verlaine",
+    "Arthur Rimbaud",
+    "Charles Baudelaire",
+    "Stéphane Mallarmé"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "« Les Fleurs du mal », publié en 1857, est le grand recueil poétique de Charles Baudelaire. Le poète y explore le spleen, la beauté, la ville moderne et la tension entre idéal et déchéance. Dès sa parution, l'ouvrage fut poursuivi pour outrage à la morale publique : Baudelaire fut condamné à une amende et six poèmes furent interdits. Cette condamnation ne fut officiellement annulée qu'en 1949. Baudelaire, également traducteur d'Edgar Allan Poe et critique d'art, est considéré comme le père de la poésie moderne."
+  },
+  {
+   "q": "En 1857, deux grandes œuvres françaises furent poursuivies en justice : « Les Fleurs du mal » et...",
+   "choix": [
+    "Les Misérables",
+    "Madame Bovary",
+    "Germinal",
+    "Le Père Goriot"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "L'année 1857 vit deux procès littéraires retentissants pour outrage à la morale publique et religieuse. Flaubert, jugé en février pour « Madame Bovary », fut acquitté grâce à une défense habile. Baudelaire, jugé en août pour « Les Fleurs du mal », fut condamné à 300 francs d'amende et à la suppression de six poèmes. Les deux affaires furent instruites par le même procureur, Ernest Pinard. Ces procès illustrent le climat moral du Second Empire, mais firent aussi une immense publicité aux deux œuvres, devenues des classiques absolus."
+  },
+  {
+   "q": "Qui a écrit « L'Étranger » ?",
+   "choix": [
+    "Jean-Paul Sartre",
+    "Albert Camus",
+    "André Malraux",
+    "Louis-Ferdinand Céline"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "« L'Étranger », publié en 1942, est le premier roman d'Albert Camus, écrivain né en Algérie en 1913. Son narrateur, Meursault, homme indifférent aux conventions sociales, tue un homme sur une plage d'Alger et se retrouve condamné autant pour son crime que pour son insensibilité. La phrase d'ouverture, « Aujourd'hui, maman est morte. », est l'un des incipits les plus célèbres de la littérature. Le roman illustre la philosophie de l'absurde que Camus développe la même année dans « Le Mythe de Sisyphe ». C'est aujourd'hui l'un des livres français les plus lus dans le monde."
+  },
+  {
+   "q": "En quelle année Albert Camus a-t-il reçu le prix Nobel de littérature ?",
+   "choix": [
+    "1947",
+    "1952",
+    "1957",
+    "1964"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Albert Camus reçut le prix Nobel de littérature en 1957, à 44 ans, ce qui faisait de lui l'un des plus jeunes lauréats de l'histoire du prix. L'Académie suédoise saluait une œuvre qui « met en lumière les problèmes qui se posent de nos jours à la conscience des hommes ». Auteur de « L'Étranger », « La Peste » et « La Chute », il était aussi journaliste, dramaturge et résistant, rédacteur en chef du journal Combat. Il mourut trois ans plus tard, en janvier 1960, dans un accident de voiture, laissant inachevé le manuscrit du « Premier Homme »."
+  },
+  {
+   "q": "Quel écrivain français a refusé le prix Nobel de littérature en 1964 ?",
+   "choix": [
+    "André Malraux",
+    "Jean-Paul Sartre",
+    "Samuel Beckett",
+    "Louis Aragon"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Jean-Paul Sartre refusa le prix Nobel de littérature en 1964, déclarant qu'un écrivain ne devait pas « se laisser transformer en institution ». Il avait toujours décliné les honneurs officiels, y compris la Légion d'honneur. Philosophe chef de file de l'existentialisme, il est l'auteur de « La Nausée », « Huis clos » et de l'essai « L'Être et le Néant ». Compagnon de Simone de Beauvoir, il fonda la revue Les Temps modernes et incarna la figure de l'intellectuel engagé. Il reste l'un des très rares lauréats à avoir volontairement refusé le Nobel."
+  },
+  {
+   "q": "Qui a écrit « Le Petit Prince » ?",
+   "choix": [
+    "Antoine de Saint-Exupéry",
+    "Marcel Pagnol",
+    "Jules Verne",
+    "Jean Giono"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "« Le Petit Prince » d'Antoine de Saint-Exupéry parut d'abord à New York en 1943, puis en France en 1946. Ce conte poétique et philosophique, illustré d'aquarelles de l'auteur, met en scène un aviateur en panne dans le désert qui rencontre un petit prince venu d'un astéroïde. « On ne voit bien qu'avec le cœur » est devenue une citation universelle. Aviateur lui-même, pionnier de l'Aéropostale, Saint-Exupéry disparut en mission de reconnaissance en Méditerranée en juillet 1944. Le Petit Prince est l'un des livres les plus traduits au monde, avec plusieurs centaines de langues."
+  },
+  {
+   "q": "Qui est l'auteur des Fables mettant en scène « Le Corbeau et le Renard » ?",
+   "choix": [
+    "Charles Perrault",
+    "Jean de La Fontaine",
+    "Nicolas Boileau",
+    "Jean Racine"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Jean de La Fontaine publia ses Fables en douze livres entre 1668 et 1694. « Le Corbeau et le Renard », « La Cigale et la Fourmi » ou « Le Loup et l'Agneau » figurent dans le premier recueil, dédié au Dauphin, fils de Louis XIV. La Fontaine s'inspire des fabulistes antiques, notamment Ésope et Phèdre, mais transforme le genre par la vivacité de ses vers et l'ironie de ses morales. Sous couvert d'animaux, il peint les mœurs de la cour et de la société de son temps. Ses fables sont apprises par les écoliers français depuis plus de trois siècles."
+  },
+  {
+   "q": "Quel philosophe des Lumières a écrit le conte « Candide » ?",
+   "choix": [
+    "Jean-Jacques Rousseau",
+    "Denis Diderot",
+    "Voltaire",
+    "Montesquieu"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "« Candide ou l'Optimisme » est un conte philosophique de Voltaire publié en 1759. Le jeune Candide, disciple du philosophe Pangloss qui répète que « tout est pour le mieux dans le meilleur des mondes possibles », découvre au fil de ses voyages la guerre, l'Inquisition, le tremblement de terre de Lisbonne et l'esclavage. Voltaire y ridiculise l'optimisme du philosophe Leibniz face à la réalité du mal. La conclusion, « il faut cultiver notre jardin », invite à l'action concrète plutôt qu'à la spéculation. C'est l'œuvre la plus lue de Voltaire, figure majeure du combat des Lumières contre le fanatisme."
+  },
+  {
+   "q": "Quel poète a écrit « Le Bateau ivre » à l'âge de 16 ans ?",
+   "choix": [
+    "Paul Verlaine",
+    "Arthur Rimbaud",
+    "Charles Baudelaire",
+    "Alfred de Vigny"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Arthur Rimbaud composa « Le Bateau ivre » en 1871, à 16 ans, avant même d'avoir vu la mer. Ce long poème visionnaire de cent vers accompagna son arrivée à Paris, où Verlaine l'avait invité. Génie précoce, Rimbaud écrivit toute son œuvre entre 15 et 20 ans environ, dont « Une saison en enfer » et les « Illuminations », avant d'abandonner définitivement la littérature. Il devint ensuite négociant et explorateur en Afrique, notamment en Abyssinie, et mourut à Marseille en 1891 à 37 ans. Son mythe de poète voyant et rebelle a marqué toute la poésie moderne."
+  },
+  {
+   "q": "Que s'est-il passé entre Verlaine et Rimbaud à Bruxelles en 1873 ?",
+   "choix": [
+    "Ils ont fondé une revue ensemble",
+    "Verlaine a blessé Rimbaud d'un coup de revolver",
+    "Ils ont été décorés par le roi des Belges",
+    "Rimbaud a brûlé les manuscrits de Verlaine"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "En juillet 1873, à Bruxelles, au terme de deux années d'une liaison orageuse, Paul Verlaine tira deux coups de revolver sur Arthur Rimbaud et le blessa au poignet. Verlaine fut condamné à deux ans de prison, qu'il purgea en Belgique, période durant laquelle il se convertit au catholicisme et écrivit une partie de « Sagesse ». Rimbaud, lui, acheva « Une saison en enfer » peu après le drame. Cet épisode est l'un des plus célèbres de l'histoire littéraire française. Les deux poètes comptent parmi les plus grands du XIXe siècle."
+  },
+  {
+   "q": "Quel écrivain est considéré comme le chef de file du naturalisme ?",
+   "choix": [
+    "Gustave Flaubert",
+    "Guy de Maupassant",
+    "Émile Zola",
+    "Alphonse Daudet"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Émile Zola théorisa le naturalisme, notamment dans son essai « Le Roman expérimental » (1880). Ce mouvement prolonge le réalisme en appliquant au roman une démarche inspirée des sciences : l'écrivain observe et « expérimente » l'influence de l'hérédité et du milieu sur les individus. Son grand cycle des Rougon-Macquart, vingt romans publiés de 1871 à 1893, porte le sous-titre « Histoire naturelle et sociale d'une famille sous le Second Empire ». Autour de Zola se réunissait le groupe de Médan, auquel participa Maupassant. « L'Assommoir », « Nana » et « Germinal » sont les titres les plus célèbres du cycle."
+  },
+  {
+   "q": "Sous quel titre Honoré de Balzac a-t-il réuni l'ensemble de ses romans ?",
+   "choix": [
+    "Les Rougon-Macquart",
+    "La Comédie humaine",
+    "Les Illusions perdues",
+    "Le Théâtre du monde"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Honoré de Balzac regroupa son œuvre romanesque sous le titre « La Comédie humaine », en écho à la « Divine Comédie » de Dante. Cet ensemble d'environ 90 romans et nouvelles, écrit principalement entre 1829 et 1850, ambitionne de peindre toute la société française de son temps, de Paris à la province. Balzac y invente le retour des personnages d'un roman à l'autre : Rastignac, Vautrin ou le père Goriot réapparaissent ainsi à différents âges. « Le Père Goriot », « Eugénie Grandet » et « Illusions perdues » en sont les titres majeurs. Travailleur acharné, Balzac écrivait des nuits entières, soutenu par des litres de café."
+  },
+  {
+   "q": "Combien de romans et nouvelles compte environ « La Comédie humaine » de Balzac ?",
+   "choix": [
+    "Une vingtaine",
+    "Une quarantaine",
+    "Environ 90",
+    "Plus de 200"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "« La Comédie humaine » compte environ 90 œuvres achevées, romans, nouvelles et études, sur les 137 que Balzac avait prévues dans son plan d'ensemble. L'écrivain avait organisé ce vaste ensemble en trois grandes parties : études de mœurs, études philosophiques et études analytiques. Les études de mœurs se subdivisent elles-mêmes en scènes de la vie privée, de province, parisienne, politique, militaire et de campagne. Plus de deux mille personnages peuplent cet univers, dont plusieurs centaines reviennent d'un livre à l'autre. Mort en 1850 à 51 ans, épuisé par le travail, Balzac laissa son projet inachevé."
+  },
+  {
+   "q": "Qui a écrit la tragi-comédie « Le Cid » (1637) ?",
+   "choix": [
+    "Jean Racine",
+    "Molière",
+    "Pierre Corneille",
+    "Jean Rotrou"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "« Le Cid », créé en 1637, est le chef-d'œuvre de Pierre Corneille. La pièce, inspirée du héros espagnol Rodrigue Díaz de Vivar, met en scène le déchirement de Rodrigue et Chimène entre l'amour et l'honneur. Son triomphe déclencha la fameuse « querelle du Cid » : des rivaux et l'Académie française naissante reprochèrent à Corneille d'avoir enfreint les règles du théâtre classique. Le vers « Ô rage ! ô désespoir ! ô vieillesse ennemie ! » et le dilemme cornélien sont passés dans la langue courante. Corneille domina la scène française avant l'ascension de Racine."
+  },
+  {
+   "q": "Quelle institution, récemment fondée, fut chargée de juger la « querelle du Cid » en 1637 ?",
+   "choix": [
+    "La Sorbonne",
+    "L'Académie française",
+    "Le Parlement de Paris",
+    "La Comédie-Française"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "L'Académie française, fondée par Richelieu en 1635, fut sollicitée pour arbitrer la querelle déclenchée par le succès du « Cid » de Corneille. Dans ses « Sentiments de l'Académie sur Le Cid » (1637), rédigés principalement par Jean Chapelain, elle reconnut les beautés de la pièce tout en lui reprochant ses irrégularités face aux règles classiques, comme la vraisemblance et les unités. Cette querelle contribua à fixer la doctrine du théâtre classique français. L'Académie, composée de quarante membres surnommés « les Immortels », a pour mission première de veiller sur la langue française et de rédiger son dictionnaire."
+  },
+  {
+   "q": "Qui est l'auteur de la tragédie « Phèdre » (1677) ?",
+   "choix": [
+    "Pierre Corneille",
+    "Jean Racine",
+    "Voltaire",
+    "Sénèque"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "« Phèdre » est la tragédie la plus célèbre de Jean Racine, créée en 1677. Inspirée d'Euripide et de Sénèque, elle met en scène la passion coupable de Phèdre, épouse de Thésée, pour son beau-fils Hippolyte. Racine y déploie une langue d'une musicalité parfaite et une vision tragique de la passion comme fatalité destructrice. Après « Phèdre », Racine abandonna presque totalement le théâtre profane, devenant historiographe du roi Louis XIV. Avec « Andromaque », « Britannicus » et « Bérénice », il incarne la perfection de la tragédie classique française, face à son grand rival Corneille."
+  },
+  {
+   "q": "Quelle comédie de Molière, dénonçant la fausse dévotion, fut interdite pendant cinq ans ?",
+   "choix": [
+    "L'Avare",
+    "Le Misanthrope",
+    "Tartuffe",
+    "Les Précieuses ridicules"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "« Tartuffe ou l'Imposteur » fut créé à Versailles en 1664 et aussitôt interdit sous la pression du parti dévot, qui y voyait une attaque contre la religion. Molière dut batailler cinq ans et récrire sa pièce avant d'obtenir l'autorisation de la jouer publiquement en 1669, où elle triompha. La comédie dénonce l'hypocrisie religieuse à travers Tartuffe, faux dévot qui s'installe chez le crédule Orgon pour capter sa fortune et séduire sa femme. Le nom de Tartuffe est devenu un nom commun désignant un hypocrite. L'affaire illustre les rapports tendus entre théâtre, pouvoir et Église au XVIIe siècle."
+  },
+  {
+   "q": "Pendant la représentation de quelle pièce Molière a-t-il été pris du malaise qui a précédé sa mort ?",
+   "choix": [
+    "Le Malade imaginaire",
+    "L'Avare",
+    "Le Bourgeois gentilhomme",
+    "Les Fourberies de Scapin"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le 17 février 1673, Molière fut pris d'un malaise sur scène lors de la quatrième représentation du « Malade imaginaire », où il jouait lui-même le rôle d'Argan, l'hypocondriaque. Transporté chez lui rue de Richelieu, il mourut quelques heures plus tard, probablement de tuberculose. L'ironie du sort, un homme réellement malade jouant un faux malade, a nourri la légende. Les comédiens étant alors privés de sépulture chrétienne, il fallut l'intervention de Louis XIV pour qu'il soit enterré, de nuit et discrètement. Le fauteuil dans lequel il jouait est conservé à la Comédie-Française."
+  },
+  {
+   "q": "En quelle année le prix Goncourt a-t-il été décerné pour la première fois ?",
+   "choix": [
+    "1889",
+    "1903",
+    "1919",
+    "1945"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Le prix Goncourt fut décerné pour la première fois en 1903, à John-Antoine Nau pour « Force ennemie ». Il fut institué par le testament d'Edmond de Goncourt, mort en 1896, qui créa avec la fortune familiale l'Académie Goncourt, composée de dix membres. Le prix récompense chaque automne « le meilleur ouvrage d'imagination en prose » de l'année. Sa dotation est restée symbolique, dix euros aujourd'hui, mais il garantit d'énormes ventes en librairie. Proust, Malraux, Duras et Houellebecq figurent parmi ses lauréats les plus célèbres."
+  },
+  {
+   "q": "Pour quel livre Marcel Proust a-t-il reçu le prix Goncourt en 1919 ?",
+   "choix": [
+    "Du côté de chez Swann",
+    "À l'ombre des jeunes filles en fleurs",
+    "Le Temps retrouvé",
+    "La Prisonnière"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Marcel Proust reçut le prix Goncourt en 1919 pour « À l'ombre des jeunes filles en fleurs », deuxième tome de « À la recherche du temps perdu ». Le choix fit polémique : Proust l'emporta face à « Les Croix de bois » de Roland Dorgelès, roman sur la Grande Guerre que beaucoup jugeaient plus légitime au lendemain du conflit. Une partie de la presse s'indigna qu'on couronne un écrivain mondain de 48 ans plutôt qu'un ancien combattant. La postérité a largement validé le jury : la Recherche est devenue l'une des œuvres majeures du XXe siècle."
+  },
+  {
+   "q": "Quel écrivain a reçu deux fois le prix Goncourt, la seconde sous le pseudonyme d'Émile Ajar ?",
+   "choix": [
+    "Romain Gary",
+    "Boris Vian",
+    "Louis Aragon",
+    "Joseph Kessel"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Romain Gary est le seul écrivain à avoir reçu deux fois le prix Goncourt, en principe non renouvelable pour un même auteur. Il l'obtint en 1956 pour « Les Racines du ciel », puis en 1975 pour « La Vie devant soi », publié sous le pseudonyme d'Émile Ajar. Il avait fait passer son petit-cousin Paul Pavlowitch pour Ajar, et la supercherie ne fut révélée qu'après son suicide en 1980, dans le texte posthume « Vie et mort d'Émile Ajar ». Aviateur de la France libre et diplomate, Gary fut aussi l'époux de l'actrice Jean Seberg. Cette mystification reste unique dans l'histoire des prix littéraires."
+  },
+  {
+   "q": "Qui a reçu le tout premier prix Nobel de littérature, en 1901 ?",
+   "choix": [
+    "Rudyard Kipling",
+    "Sully Prudhomme",
+    "Léon Tolstoï",
+    "Anatole France"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Le premier prix Nobel de littérature fut attribué en 1901 au poète français Sully Prudhomme, auteur du célèbre poème « Le Vase brisé ». Ce choix surprit et fit polémique, beaucoup estimant que Léon Tolstoï, alors vivant, aurait dû être couronné. La France est historiquement la nation la plus récompensée par ce prix, avec des lauréats comme Anatole France, Bergson, Gide, Mauriac, Camus, Sartre, qui le refusa, Le Clézio, Modiano et Annie Ernaux. Le prix est décerné chaque année par l'Académie suédoise, selon le testament d'Alfred Nobel, inventeur de la dynamite."
+  },
+  {
+   "q": "Quelle écrivaine française a reçu le prix Nobel de littérature en 2022 ?",
+   "choix": [
+    "Amélie Nothomb",
+    "Annie Ernaux",
+    "Marguerite Duras",
+    "Leïla Slimani"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Annie Ernaux a reçu le prix Nobel de littérature en 2022, première Française à obtenir cette distinction. L'Académie suédoise a salué « le courage et l'acuité clinique avec laquelle elle découvre les racines, les éloignements et les contraintes collectives de la mémoire personnelle ». Son œuvre, largement autobiographique, explore la trajectoire d'une transfuge de classe, de son enfance modeste en Normandie à la condition de femme et d'écrivaine : « La Place », « Les Années », « La Honte ». Son écriture volontairement « plate » et factuelle a renouvelé le récit de soi. Elle est la 16e personnalité française lauréate du Nobel de littérature."
+  },
+  {
+   "q": "Qui a écrit le roman dystopique « 1984 » ?",
+   "choix": [
+    "Aldous Huxley",
+    "George Orwell",
+    "Ray Bradbury",
+    "H. G. Wells"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "« 1984 », publié en 1949, est le dernier roman de l'écrivain britannique George Orwell, pseudonyme d'Eric Arthur Blair. Il décrit un régime totalitaire dominé par Big Brother, où le Parti surveille chacun, réécrit l'histoire et appauvrit la langue grâce à la novlangue. Des expressions comme « Big Brother vous regarde » ou l'adjectif « orwellien » sont entrées dans le langage courant. Orwell, déjà auteur de la fable antitotalitaire « La Ferme des animaux » (1945), s'inspirait des régimes stalinien et nazi. Malade de la tuberculose, il mourut en 1950, quelques mois après la parution du livre."
+  },
+  {
+   "q": "Qui est l'auteur de « Don Quichotte » ?",
+   "choix": [
+    "Lope de Vega",
+    "Miguel de Cervantès",
+    "Federico García Lorca",
+    "Calderón de la Barca"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "« Don Quichotte de la Manche », publié en deux parties en 1605 et 1615, est le chef-d'œuvre de l'Espagnol Miguel de Cervantès. Il raconte les aventures d'un hidalgo qui, rendu fou par la lecture des romans de chevalerie, part redresser les torts accompagné de son écuyer Sancho Panza, prenant notamment des moulins à vent pour des géants. Souvent considéré comme le premier roman moderne, il mêle parodie, humour et profondeur sur l'illusion et l'idéal. Cervantès mourut en avril 1616, la même semaine que Shakespeare. Don Quichotte est l'un des livres les plus traduits et les plus lus au monde."
+  },
+  {
+   "q": "Quel dramaturge anglais a écrit « Hamlet », « Othello » et « Macbeth » ?",
+   "choix": [
+    "Christopher Marlowe",
+    "Ben Jonson",
+    "William Shakespeare",
+    "Oscar Wilde"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "William Shakespeare (1564-1616), né à Stratford-upon-Avon, est le plus grand dramaturge de langue anglaise. Auteur d'environ 37 pièces et de 154 sonnets, il a signé les tragédies « Hamlet », « Othello », « Macbeth », « Le Roi Lear » et « Roméo et Juliette », mais aussi des comédies comme « Le Songe d'une nuit d'été ». Sa troupe jouait au théâtre du Globe, à Londres, sous les règnes d'Élisabeth Ire puis de Jacques Ier. La question d'Hamlet, « To be or not to be », est la réplique la plus célèbre du théâtre mondial. Son influence sur la langue anglaise et la littérature universelle est incomparable."
+  },
+  {
+   "q": "Dans quelle ville italienne se déroule « Roméo et Juliette » ?",
+   "choix": [
+    "Venise",
+    "Florence",
+    "Vérone",
+    "Milan"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "La tragédie de Shakespeare « Roméo et Juliette », écrite vers 1595, se déroule à Vérone, en Vénétie. Elle raconte l'amour impossible de deux jeunes gens issus de familles ennemies, les Montaigu et les Capulet, qui les conduit à la mort. Shakespeare s'inspirait de récits italiens antérieurs, transmis par des adaptations anglaises. La ville de Vérone entretient aujourd'hui le mythe avec la « maison de Juliette » et son célèbre balcon, visités par des millions de touristes. L'histoire a inspiré d'innombrables œuvres, de l'ouverture de Tchaïkovski à la comédie musicale « West Side Story »."
+  },
+  {
+   "q": "Qui est l'auteur de « La Divine Comédie » ?",
+   "choix": [
+    "Pétrarque",
+    "Boccace",
+    "Dante Alighieri",
+    "Le Tasse"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "« La Divine Comédie » est un long poème de Dante Alighieri, écrit au début du XIVe siècle pendant son exil de Florence. Le poète y raconte son voyage à travers l'Enfer, le Purgatoire et le Paradis, guidé d'abord par le poète latin Virgile, puis par Béatrice, la femme aimée et idéalisée. L'œuvre compte cent chants et fut composée non en latin mais en toscan, contribuant à faire de ce dialecte la base de l'italien moderne. L'inscription « Abandonnez toute espérance, vous qui entrez » orne la porte de son Enfer. Dante est considéré comme le père de la littérature italienne."
+  },
+  {
+   "q": "Qui a écrit « Guerre et Paix » ?",
+   "choix": [
+    "Fiodor Dostoïevski",
+    "Léon Tolstoï",
+    "Ivan Tourgueniev",
+    "Anton Tchekhov"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "« Guerre et Paix », publié entre 1865 et 1869, est le roman-fleuve de Léon Tolstoï. Il retrace le destin de plusieurs familles aristocratiques russes, dont les Rostov et les Bolkonski, pendant les guerres napoléoniennes et l'invasion de la Russie en 1812. Mêlant fresque historique, réflexion philosophique sur l'histoire et intrigues intimes, il met en scène plus de cinq cents personnages. Tolstoï, comte devenu à la fin de sa vie apôtre de la non-violence, est aussi l'auteur d'« Anna Karénine ». « Guerre et Paix » est régulièrement cité parmi les plus grands romans jamais écrits."
+  },
+  {
+   "q": "Dans « Crime et Châtiment » de Dostoïevski, comment s'appelle l'étudiant meurtrier ?",
+   "choix": [
+    "Raskolnikov",
+    "Karamazov",
+    "Mychkine",
+    "Oblomov"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le héros de « Crime et Châtiment » (1866) est Rodion Raskolnikov, étudiant pauvre de Saint-Pétersbourg qui assassine une vieille usurière au nom d'une théorie selon laquelle les êtres supérieurs auraient le droit de transgresser la morale. Rongé par la culpabilité, il chemine vers l'aveu et la rédemption, accompagné par la douce Sonia. Fiodor Dostoïevski, ancien condamné à mort gracié puis déporté au bagne de Sibérie, explore dans ses romans les profondeurs de la psychologie et de la foi. « L'Idiot », « Les Démons » et « Les Frères Karamazov » complètent ses chefs-d'œuvre. Son influence sur le roman moderne et l'existentialisme est majeure."
+  },
+  {
+   "q": "Qui a écrit « Cent ans de solitude », chef-d'œuvre du réalisme magique ?",
+   "choix": [
+    "Jorge Luis Borges",
+    "Gabriel García Márquez",
+    "Mario Vargas Llosa",
+    "Pablo Neruda"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "« Cent ans de solitude » (1967) est le roman le plus célèbre du Colombien Gabriel García Márquez, prix Nobel de littérature en 1982. Il raconte sur un siècle l'histoire de la famille Buendía dans le village imaginaire de Macondo, où le merveilleux se mêle naturellement au quotidien. Le livre est l'emblème du « réalisme magique » et du boom de la littérature latino-américaine des années 1960. Vendu à des dizaines de millions d'exemplaires, il a été traduit dans le monde entier. Surnommé « Gabo », García Márquez était aussi journaliste ; il est mort à Mexico en 2014."
+  },
+  {
+   "q": "Quel héros de la mythologie grecque met dix ans à rentrer chez lui dans « L'Odyssée » ?",
+   "choix": [
+    "Achille",
+    "Ulysse",
+    "Hector",
+    "Persée"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "« L'Odyssée », épopée attribuée à Homère et composée vers le VIIIe siècle avant J.-C., raconte le retour d'Ulysse (Odysseus en grec) après la guerre de Troie. Son voyage vers Ithaque dure dix ans, jalonné d'épreuves célèbres : le cyclope Polyphème, la magicienne Circé, le chant des sirènes, Charybde et Scylla, la nymphe Calypso. Pendant ce temps, son épouse Pénélope repousse les prétendants en défaisant chaque nuit la tapisserie qu'elle tisse le jour. Avec « L'Iliade », qui relate la colère d'Achille devant Troie, ce texte fonde la littérature occidentale. Le mot « odyssée » désigne depuis tout long voyage aventureux."
+  },
+  {
+   "q": "De quelle île Ulysse est-il le roi ?",
+   "choix": [
+    "La Crète",
+    "Ithaque",
+    "Rhodes",
+    "Chypre"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Ulysse est le roi d'Ithaque, petite île de la mer Ionienne, à l'ouest de la Grèce. C'est là que l'attendent sa femme Pénélope et son fils Télémaque pendant ses vingt ans d'absence, dix ans de guerre de Troie et dix ans d'errance. Le retour à Ithaque, où Ulysse se présente déguisé en mendiant avant de massacrer les prétendants, forme le dénouement de « L'Odyssée ». Seul son vieux chien Argos le reconnaît d'abord, avant de mourir. Ithaque est devenue le symbole littéraire du but du voyage, célébré notamment par le poème « Ithaque » de Constantin Cavafis."
+  },
+  {
+   "q": "Quel écrivain allemand est l'auteur de « Faust » ?",
+   "choix": [
+    "Friedrich Schiller",
+    "Johann Wolfgang von Goethe",
+    "Heinrich Heine",
+    "Thomas Mann"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "« Faust » est l'œuvre maîtresse de Johann Wolfgang von Goethe (1749-1832), publiée en deux parties, en 1808 et 1832. Elle reprend la légende allemande du savant Faust qui conclut un pacte avec le diable Méphistophélès : la jouissance et la connaissance contre son âme. La première partie raconte notamment l'amour tragique de Faust pour Marguerite. Goethe travailla à cette œuvre pendant une soixantaine d'années. Poète, romancier, dramaturge et savant, auteur des « Souffrances du jeune Werther », il domine la littérature allemande et incarne le classicisme de Weimar. Le mythe de Faust a inspiré Berlioz, Gounod et Thomas Mann."
+  },
+  {
+   "q": "Dans « La Métamorphose » de Kafka, en quoi Gregor Samsa se réveille-t-il transformé ?",
+   "choix": [
+    "En rat",
+    "En énorme insecte",
+    "En chien",
+    "En statue de pierre"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Dans « La Métamorphose » (1915) de Franz Kafka, le voyageur de commerce Gregor Samsa se réveille un matin « transformé en un énorme insecte » ; le texte allemand parle d'une monstrueuse vermine. Le récit décrit avec un réalisme glaçant le rejet progressif de Gregor par sa propre famille, jusqu'à sa mort. Écrivain pragois de langue allemande, employé d'assurances le jour, Kafka publia peu de son vivant et demanda à son ami Max Brod de brûler ses manuscrits, ce que celui-ci refusa, sauvant « Le Procès » et « Le Château ». L'adjectif « kafkaïen » désigne depuis les situations absurdes et oppressantes face à des pouvoirs anonymes."
+  },
+  {
+   "q": "Qui a rédigé le « Manifeste du surréalisme » en 1924 ?",
+   "choix": [
+    "Tristan Tzara",
+    "André Breton",
+    "Louis Aragon",
+    "Paul Éluard"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "André Breton publia le premier « Manifeste du surréalisme » en 1924, définissant le mouvement comme un « automatisme psychique pur » visant à exprimer le fonctionnement réel de la pensée, hors du contrôle de la raison. Issu de l'expérience dada et marqué par la découverte de Freud, le surréalisme explore le rêve, l'inconscient et le hasard, notamment par l'écriture automatique et le « cadavre exquis ». Autour de Breton gravitèrent Aragon, Éluard, Desnos, ainsi que des peintres comme Dalí, Ernst et Magritte. Surnommé « le pape du surréalisme », Breton excluait volontiers les dissidents. Le mouvement a profondément marqué la poésie et l'art du XXe siècle."
+  },
+  {
+   "q": "Quel groupe de poètes du XVIe siècle réunissait notamment Ronsard et Du Bellay ?",
+   "choix": [
+    "Le Parnasse",
+    "La Pléiade",
+    "Les Symbolistes",
+    "L'Oulipo"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "La Pléiade est un groupe de sept poètes français de la Renaissance, formé au milieu du XVIe siècle autour de Pierre de Ronsard et Joachim du Bellay. Son nom reprend celui d'une constellation de sept étoiles, déjà utilisé par des poètes grecs d'Alexandrie. Le manifeste du groupe, « Défense et illustration de la langue française » (1549), rédigé par Du Bellay, affirme que le français peut égaler le latin et le grec en poésie. Ces poètes enrichissent la langue et imposent des formes comme le sonnet et l'alexandrin. Leur programme fonde la grande poésie française classique."
+  },
+  {
+   "q": "Qui a écrit le vers « Mignonne, allons voir si la rose... » ?",
+   "choix": [
+    "Joachim du Bellay",
+    "Pierre de Ronsard",
+    "François Villon",
+    "Clément Marot"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "« Mignonne, allons voir si la rose » ouvre la célèbre « Ode à Cassandre » de Pierre de Ronsard, publiée en 1553 et adressée à Cassandre Salviati. Le poème développe le thème du carpe diem hérité d'Horace : comme la rose qui se fane en un jour, la jeunesse passe, il faut donc « cueillir » sa beauté sans attendre. Chef de file de la Pléiade, surnommé « le prince des poètes », Ronsard reprit ce motif dans ses « Sonnets pour Hélène » avec le fameux « Quand vous serez bien vieille, au soir, à la chandelle ». Sa poésie amoureuse reste l'un des sommets de la Renaissance française."
+  },
+  {
+   "q": "Qui est l'auteur de « Gargantua » et « Pantagruel » ?",
+   "choix": [
+    "Michel de Montaigne",
+    "François Rabelais",
+    "Érasme",
+    "Marguerite de Navarre"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "François Rabelais, moine devenu médecin et écrivain, publia « Pantagruel » en 1532 puis « Gargantua » vers 1534, sous l'anagramme Alcofribas Nasier. Ces récits racontent les aventures de géants truculents, mêlant farce énorme, satire des institutions et idéal humaniste de la Renaissance. L'abbaye de Thélème, avec sa devise « Fais ce que voudras », y dessine une utopie de liberté et de culture. Condamnés par la Sorbonne, ses livres furent d'immenses succès populaires. Les adjectifs « gargantuesque » et « pantagruélique », désignant des appétits démesurés, ainsi que « rabelaisien » sont entrés dans la langue."
+  },
+  {
+   "q": "Quelle œuvre majeure Michel de Montaigne a-t-il écrite ?",
+   "choix": [
+    "Les Essais",
+    "Les Pensées",
+    "Les Caractères",
+    "Les Maximes"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Michel de Montaigne rédigea « Les Essais » à partir de 1572, retiré dans la « librairie » de son château périgourdin, et les publia en trois livres à partir de 1580, sans cesse enrichis jusqu'à sa mort en 1592. Il y invente un genre nouveau, l'essai, où il se prend lui-même pour objet d'étude : « Je suis moi-même la matière de mon livre. » Sa devise sceptique, « Que sais-je ? », résume sa méfiance envers les certitudes. Son amitié avec Étienne de La Boétie, résumée par « Parce que c'était lui, parce que c'était moi », est restée légendaire. Les Essais fondent la tradition humaniste et l'introspection moderne."
+  },
+  {
+   "q": "Qui a écrit « La Princesse de Clèves » (1678), souvent considéré comme le premier grand roman d'analyse français ?",
+   "choix": [
+    "Madame de Sévigné",
+    "Madame de La Fayette",
+    "Mademoiselle de Scudéry",
+    "Madame de Staël"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "« La Princesse de Clèves », publié anonymement en 1678, est attribué à Marie-Madeleine de La Fayette, familière des salons littéraires et amie de La Rochefoucauld. Situé à la cour d'Henri II au XVIe siècle, le roman analyse le combat intérieur de son héroïne, déchirée entre son devoir d'épouse et sa passion pour le duc de Nemours, qu'elle finit par refuser. La scène de l'aveu à son mari fit débat dès la parution. Par sa concision et sa finesse psychologique, l'œuvre est considérée comme un des premiers romans modernes. Elle demeure un classique étudié et régulièrement adapté."
+  },
+  {
+   "q": "Qui a écrit la pièce « En attendant Godot » ?",
+   "choix": [
+    "Eugène Ionesco",
+    "Samuel Beckett",
+    "Jean Genet",
+    "Antonin Artaud"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "« En attendant Godot », créée à Paris en 1953, est la pièce la plus célèbre de Samuel Beckett, écrivain irlandais qui écrivait aussi en français. Deux vagabonds, Vladimir et Estragon, attendent au bord d'une route un mystérieux Godot qui ne vient jamais. Cette pièce sans intrigue traditionnelle, où « rien ne se passe, deux fois », est l'œuvre emblématique du théâtre de l'absurde. D'abord déroutante, elle devint un triomphe mondial. Beckett, également auteur de « Fin de partie » et du roman « Molloy », reçut le prix Nobel de littérature en 1969, qu'il accepta mais sans se rendre à la cérémonie."
+  },
+  {
+   "q": "Quelle pièce d'Eugène Ionesco, créée en 1950, est jouée sans interruption à Paris depuis 1957 ?",
+   "choix": [
+    "Rhinocéros",
+    "La Cantatrice chauve",
+    "Le Roi se meurt",
+    "Les Chaises"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "« La Cantatrice chauve », « anti-pièce » d'Eugène Ionesco créée en 1950, est jouée sans interruption au théâtre de la Huchette, à Paris, depuis 1957, un record de longévité théâtrale. Ionesco eut l'idée de la pièce en apprenant l'anglais dans une méthode Assimil, dont il détourna les dialogues absurdes : les Smith et les Martin y échangent des platitudes qui font éclater le langage. Aucune cantatrice chauve n'apparaît dans la pièce, le titre venant d'un lapsus de comédien. Dramaturge français d'origine roumaine, Ionesco est avec Beckett le maître du théâtre de l'absurde. Il fut élu à l'Académie française en 1970."
+  },
+  {
+   "q": "Qui est l'auteur du roman « L'Écume des jours » (1947) ?",
+   "choix": [
+    "Raymond Queneau",
+    "Boris Vian",
+    "Jacques Prévert",
+    "Georges Perec"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "« L'Écume des jours », publié en 1947, est le roman le plus célèbre de Boris Vian. Il raconte l'amour de Colin et Chloé, brisé par la maladie de la jeune femme, un nénuphar qui grandit dans son poumon, dans un univers poétique où les objets vivent et où le pianocktail transforme la musique en cocktails. Ignoré à sa sortie, le livre devint culte auprès de la jeunesse après la mort de Vian. Ingénieur, trompettiste de jazz, chanteur et auteur du scandaleux « J'irai cracher sur vos tombes » signé Vernon Sullivan, Vian fut une figure de Saint-Germain-des-Prés. Il mourut en 1959, à 39 ans, d'une crise cardiaque."
+  },
+  {
+   "q": "Quel empereur romain est le narrateur des « Mémoires d'Hadrien » de Marguerite Yourcenar ?",
+   "choix": [
+    "Marc Aurèle",
+    "Hadrien",
+    "Auguste",
+    "Néron"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "« Mémoires d'Hadrien » (1951) se présente comme une longue lettre de l'empereur Hadrien, vieillissant et malade, adressée à son petit-fils adoptif Marc Aurèle. Yourcenar y reconstitue avec une érudition minutieuse la voix de cet empereur du IIe siècle, bâtisseur et philhellène, évoquant le pouvoir, les voyages, la mort et son amour pour le jeune Antinoüs. L'auteure avait conçu le projet dès sa jeunesse et le reprit après avoir retrouvé ses notes dans une malle. Le roman s'ouvre sur la formule latine « Animula vagula blandula », poème attribué à Hadrien mourant. C'est un des chefs-d'œuvre du roman historique au XXe siècle."
+  },
+  {
+   "q": "Combien de syllabes compte un alexandrin ?",
+   "choix": [
+    "8",
+    "10",
+    "12",
+    "14"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "L'alexandrin est un vers de douze syllabes, le plus prestigieux de la poésie française classique. Son nom vient du « Roman d'Alexandre », récit médiéval du XIIe siècle consacré à Alexandre le Grand et composé dans ce mètre. L'alexandrin classique est traditionnellement coupé en son milieu par une pause appelée césure, qui le divise en deux hémistiches de six syllabes. Corneille, Racine, Hugo et Baudelaire en ont fait le vers roi de la tragédie et de la poésie. Les romantiques, puis Verlaine et Rimbaud, en assouplirent les règles avant l'essor du vers libre à la fin du XIXe siècle."
+  },
+  {
+   "q": "Combien de vers compte un sonnet ?",
+   "choix": [
+    "12",
+    "14",
+    "16",
+    "20"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Le sonnet est un poème à forme fixe de quatorze vers, traditionnellement répartis en deux quatrains et deux tercets dans la tradition française. Né en Italie au XIIIe siècle, il fut porté à la perfection par Pétrarque dans son « Canzoniere », dédié à Laure. Introduit en France au XVIe siècle par Marot puis magnifié par la Pléiade, Ronsard et Du Bellay, il connut une seconde gloire avec Baudelaire, Verlaine, Rimbaud, auteur du sonnet « Voyelles », et Mallarmé. Chez Shakespeare, le sonnet anglais adopte une structure différente : trois quatrains et un distique final. Le dernier vers, souvent frappant, est appelé « chute »."
+  },
+  {
+   "q": "Quelle œuvre autobiographique monumentale Chateaubriand a-t-il voulu faire paraître après sa mort ?",
+   "choix": [
+    "Les Confessions",
+    "Mémoires d'outre-tombe",
+    "René",
+    "Le Génie du christianisme"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Les « Mémoires d'outre-tombe » sont l'œuvre autobiographique de François-René de Chateaubriand, rédigée sur plus de trente ans et publiée à partir de 1849-1850, juste après sa mort, conformément à son titre. L'écrivain y retrace sa vie à travers un demi-siècle d'histoire : son enfance au château de Combourg, la Révolution, son voyage en Amérique, l'Empire et la Restauration, où il fut ambassadeur et ministre. Pressé par les dettes, il dut toutefois en vendre les droits de son vivant à une société qui en publia des extraits en feuilleton. Précurseur du romantisme avec « René » et « Atala », Chateaubriand a marqué toute la génération de Hugo, qui voulait être « Chateaubriand ou rien »."
+  },
+  {
+   "q": "Dans « Notre-Dame de Paris » de Victor Hugo, comment s'appelle le sonneur de cloches bossu ?",
+   "choix": [
+    "Frollo",
+    "Quasimodo",
+    "Gringoire",
+    "Phœbus"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Quasimodo est le sonneur de cloches difforme de la cathédrale dans « Notre-Dame de Paris » (1831) de Victor Hugo. Recueilli par l'archidiacre Claude Frollo, il s'éprend de la bohémienne Esmeralda, également convoitée par Frollo et amoureuse du capitaine Phœbus. Le roman, situé dans le Paris de 1482, se termine tragiquement pour ses héros. Hugo voulait aussi, par ce livre, alerter sur l'état de dégradation de la cathédrale, contribuant à sa grande restauration par Viollet-le-Duc au XIXe siècle. Le personnage de Quasimodo est devenu universel, popularisé par de nombreuses adaptations, dont le film d'animation de Disney en 1996."
+  },
+  {
+   "q": "Quel roman de Guy de Maupassant raconte l'ascension d'un arriviste, Georges Duroy, dans le Paris de la presse ?",
+   "choix": [
+    "Une vie",
+    "Bel-Ami",
+    "Pierre et Jean",
+    "Fort comme la mort"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "« Bel-Ami » (1885) est le deuxième roman de Guy de Maupassant. Il suit Georges Duroy, ancien sous-officier sans fortune qui, grâce à son charme et au journalisme, gravit tous les échelons de la société parisienne en séduisant et utilisant les femmes. Le roman offre une satire féroce du monde de la presse, de l'argent et de la politique sous la Troisième République. Maupassant, disciple de Flaubert et proche de Zola, excella surtout dans la nouvelle, avec environ trois cents récits comme « Boule de suif » ou « Le Horla ». Atteint de troubles liés à la syphilis, il mourut en 1893 à 42 ans."
+  },
+  {
+   "q": "Qui a écrit « Les Trois Mousquetaires » ?",
+   "choix": [
+    "Victor Hugo",
+    "Alexandre Dumas",
+    "Jules Verne",
+    "Eugène Sue"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "« Les Trois Mousquetaires », publié en feuilleton en 1844, est le roman le plus célèbre d'Alexandre Dumas, écrit avec la collaboration d'Auguste Maquet. Il raconte les aventures du jeune Gascon d'Artagnan et de ses amis Athos, Porthos et Aramis, mousquetaires du roi Louis XIII, face au cardinal de Richelieu et à l'intrigante Milady. La devise « Un pour tous, tous pour un » est passée à la postérité. La même année, Dumas publia « Le Comte de Monte-Cristo », autre triomphe du roman-feuilleton. Petit-fils d'une esclave de Saint-Domingue et fils d'un général de la Révolution, Dumas est entré au Panthéon en 2002."
+  }
+ ],
+ "cours": [
+  {
+   "titre": "Les grands mouvements littéraires français",
+   "sections": [
+    {
+     "titre": "Le classicisme (XVIIe siècle)",
+     "texte": "Le classicisme s'épanouit en France au XVIIe siècle, particulièrement sous le règne de Louis XIV. Il repose sur un idéal d'ordre, de clarté et de mesure, hérité de l'Antiquité gréco-latine considérée comme un modèle indépassable. En littérature, il impose des règles strictes : au théâtre, la règle des trois unités (une seule action, en un lieu, en une journée), la vraisemblance et la bienséance, qui interdit de montrer la violence sur scène. L'objectif est de « plaire et instruire », selon la formule reprise par Molière. Les grands noms du classicisme sont les dramaturges Corneille, Racine et Molière, le fabuliste La Fontaine, les moralistes La Bruyère et La Rochefoucauld, ainsi que Boileau, qui codifie la doctrine dans son « Art poétique » (1674). L'Académie française, fondée par Richelieu en 1635, veille à la pureté de la langue. La cour de Versailles devient le centre de cette vie culturelle : les artistes travaillent sous la protection du roi, dans un système de mécénat. Le classicisme français rayonne ensuite dans toute l'Europe et reste la référence de l'enseignement littéraire."
+    },
+    {
+     "titre": "Les Lumières (XVIIIe siècle)",
+     "texte": "Le XVIIIe siècle est appelé « siècle des Lumières » car les philosophes veulent éclairer les esprits par la raison, contre l'ignorance, la superstition et l'arbitraire. La littérature devient une arme de combat : Voltaire dénonce le fanatisme et l'intolérance dans ses contes philosophiques comme « Candide » (1759) et s'engage dans des affaires judiciaires célèbres, telle l'affaire Calas. Montesquieu analyse les régimes politiques et théorise la séparation des pouvoirs dans « De l'esprit des lois » (1748). Rousseau interroge l'origine des inégalités et fonde la souveraineté du peuple dans « Du contrat social » (1762), tout en inventant l'autobiographie moderne avec « Les Confessions ». L'entreprise emblématique du siècle est l'Encyclopédie, dirigée par Diderot et d'Alembert à partir de 1751 : ce dictionnaire raisonné des sciences, des arts et des métiers, œuvre collective de nombreux auteurs, diffuse les savoirs et l'esprit critique malgré la censure. Les idées circulent dans les salons, les cafés et les académies. Ce mouvement européen prépare intellectuellement les révolutions américaine et française."
+    },
+    {
+     "titre": "Le romantisme (première moitié du XIXe siècle)",
+     "texte": "Le romantisme naît en Allemagne et en Angleterre à la fin du XVIIIe siècle, avant de conquérir la France dans les années 1820. Contre la froide raison classique, il exalte la sensibilité, l'imagination, la passion et le « moi » de l'écrivain. Les thèmes favoris sont la nature, la mélancolie, appelée « mal du siècle », l'amour impossible, l'histoire et l'exotisme. En France, Lamartine ouvre la voie en poésie avec ses « Méditations poétiques » (1820), suivi de Vigny, Musset et surtout Victor Hugo, chef de file du mouvement. Dans la préface de « Cromwell » (1827), Hugo rejette les règles classiques et prône le mélange du sublime et du grotesque. La création de sa pièce « Hernani » en 1830 déclenche la fameuse « bataille d'Hernani », affrontement entre jeunes romantiques et partisans du classicisme, qui consacre la victoire de la nouvelle école. Le romantisme s'exprime aussi dans le roman, avec George Sand ou Dumas, et se prolonge dans l'engagement politique, comme chez Hugo, exilé sous le Second Empire pour son opposition à Napoléon III.",
+     "visuel": {
+      "type": "comparaison",
+      "titre": "Classicisme et romantisme",
+      "colonnes": [
+       {
+        "titre": "Le classicisme (XVIIe siècle)",
+        "points": [
+         "Un idéal d'ordre, de clarté et de mesure",
+         "L'Antiquité gréco-latine comme modèle indépassable",
+         "La règle des trois unités, la vraisemblance, la bienséance",
+         "Plaire et instruire",
+         "La raison contre les emportements du moi"
+        ]
+       },
+       {
+        "titre": "Le romantisme (années 1820-1840)",
+        "points": [
+         "La sensibilité, l'imagination, la passion, le moi de l'écrivain",
+         "La nature, la mélancolie, l'histoire et l'exotisme",
+         "Refus des règles, mélange du sublime et du grotesque",
+         "La bataille d'« Hernani » (1830) consacre la nouvelle école",
+         "L'engagement politique prolonge la révolte esthétique"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "titre": "Réalisme et naturalisme (seconde moitié du XIXe siècle)",
+     "texte": "Vers le milieu du XIXe siècle, en réaction au lyrisme romantique, le réalisme entend représenter la réalité contemporaine sans l'embellir, y compris ses aspects les plus ordinaires ou sordides. Balzac, avec « La Comédie humaine », en est le précurseur : il ambitionne de « faire concurrence à l'état civil » en peignant toute la société. Flaubert porte l'exigence du style à son sommet dans « Madame Bovary » (1857), qui lui vaut un procès pour immoralité. Stendhal, avec « Le Rouge et le Noir », définit le roman comme « un miroir qu'on promène le long d'un chemin ». Le naturalisme, théorisé par Émile Zola dans « Le Roman expérimental » (1880), radicalise cette démarche en s'inspirant des sciences : l'écrivain étudie l'influence de l'hérédité et du milieu social sur les individus, documents et enquêtes à l'appui. Le cycle des Rougon-Macquart (1871-1893), vingt romans dont « L'Assommoir » et « Germinal », en est l'illustration monumentale. Autour de Zola, le groupe de Médan réunit notamment Maupassant, maître de la nouvelle réaliste avec « Boule de suif »."
+    },
+    {
+     "titre": "Du symbolisme aux avant-gardes du XXe siècle",
+     "texte": "À la fin du XIXe siècle, le symbolisme réagit contre le naturalisme : la poésie ne doit pas décrire le monde mais en suggérer les mystères par les symboles et la musique des mots. Baudelaire, avec la théorie des « correspondances » des « Fleurs du mal » (1857), en est le précurseur ; Verlaine réclame « de la musique avant toute chose », Rimbaud se veut « voyant », et Mallarmé pousse l'hermétisme jusqu'à ses limites. Le vers libre s'impose progressivement. Au XXe siècle, les avant-gardes accélèrent la rupture. Apollinaire, inventeur du mot « surréalisme » et auteur d'« Alcools » (1913), supprime la ponctuation et crée ses calligrammes. Après la boucherie de 1914-1918, le mouvement dada de Tristan Tzara proclame la destruction de toutes les conventions. Le surréalisme, fondé par André Breton avec son « Manifeste » de 1924, explore l'inconscient, le rêve et l'écriture automatique, avec Aragon, Éluard et Desnos. Plus tard, le Nouveau Roman des années 1950 (Robbe-Grillet, Sarraute, Butor) et l'Oulipo de Queneau et Perec poursuivent, chacun à leur manière, l'expérimentation sur les formes du récit.",
+     "visuel": {
+      "type": "tableau",
+      "titre": "Les grands mouvements littéraires français",
+      "colonnes": [
+       "Mouvement",
+       "Période",
+       "Principe",
+       "Figures"
+      ],
+      "lignes": [
+       [
+        "Classicisme",
+        "XVIIe siècle",
+        "Ordre, clarté, mesure et règles héritées de l'Antiquité",
+        "Corneille, Racine, Molière, La Fontaine, Boileau"
+       ],
+       [
+        "Lumières",
+        "XVIIIe siècle",
+        "Éclairer les esprits par la raison, contre la superstition et l'arbitraire",
+        "Voltaire, Montesquieu, Rousseau, Diderot"
+       ],
+       [
+        "Romantisme",
+        "Première moitié du XIXe siècle",
+        "Exalter la sensibilité, la passion et le moi",
+        "Lamartine, Vigny, Musset, Hugo"
+       ],
+       [
+        "Réalisme et naturalisme",
+        "Seconde moitié du XIXe siècle",
+        "Représenter la réalité contemporaine sans l'embellir",
+        "Balzac, Stendhal, Flaubert, Zola, Maupassant"
+       ],
+       [
+        "Symbolisme",
+        "Fin du XIXe siècle",
+        "Suggérer les mystères du monde par les symboles et la musique des mots",
+        "Baudelaire, Verlaine, Rimbaud, Mallarmé"
+       ],
+       [
+        "Avant-gardes",
+        "XXe siècle",
+        "Rompre avec les conventions et expérimenter les formes",
+        "Apollinaire, Tzara, Breton, le Nouveau Roman, l'Oulipo"
+       ]
+      ]
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Quelle règle du théâtre classique impose une seule action, en un lieu et en une journée ?",
+     "choix": [
+      "La règle de bienséance",
+      "La règle des trois unités",
+      "La règle de vraisemblance",
+      "La règle d'alternance"
+     ],
+     "bonne": 1,
+     "difficulte": 1,
+     "explication": "La règle des trois unités, unité d'action, de lieu et de temps, structure la tragédie classique française du XVIIe siècle. Héritée d'une lecture de la « Poétique » d'Aristote, elle vise la concentration dramatique et la vraisemblance : l'action représentée doit pouvoir tenir en une journée et un lieu unique. Boileau la résume dans son « Art poétique » : « Qu'en un lieu, qu'en un jour, un seul fait accompli / Tienne jusqu'à la fin le théâtre rempli. » Racine en fit un instrument de perfection, tandis que les romantiques, Hugo en tête, la rejetèrent au XIXe siècle."
+    },
+    {
+     "q": "Qui a dirigé l'Encyclopédie avec d'Alembert au XVIIIe siècle ?",
+     "choix": [
+      "Voltaire",
+      "Denis Diderot",
+      "Jean-Jacques Rousseau",
+      "Buffon"
+     ],
+     "bonne": 1,
+     "difficulte": 2,
+     "explication": "Denis Diderot dirigea avec le mathématicien d'Alembert l'« Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers », publiée à partir de 1751. Diderot y consacra une vingtaine d'années, poursuivant seul la direction après le retrait de d'Alembert. L'ouvrage, qui compta 17 volumes de textes et 11 volumes de planches, mobilisa environ 150 collaborateurs, dont Voltaire, Rousseau et Montesquieu. Malgré les condamnations et la censure, il diffusa les savoirs techniques et l'esprit critique des Lumières. C'est l'une des plus grandes aventures éditoriales de l'histoire."
+    },
+    {
+     "q": "Quelle pièce de Victor Hugo a déclenché en 1830 une célèbre « bataille » entre classiques et romantiques ?",
+     "choix": [
+      "Ruy Blas",
+      "Hernani",
+      "Lucrèce Borgia",
+      "Marion de Lorme"
+     ],
+     "bonne": 1,
+     "difficulte": 2,
+     "explication": "La création d'« Hernani » à la Comédie-Française, le 25 février 1830, provoqua la « bataille d'Hernani ». Les jeunes romantiques, menés par Théophile Gautier et son fameux gilet rouge, s'affrontèrent aux partisans du théâtre classique, choqués par les libertés que Hugo prenait avec l'alexandrin et les règles. Le tumulte accompagna les représentations pendant des semaines. Cette victoire du drame romantique consacra Hugo, alors âgé de 28 ans, comme chef d'école. La préface de « Cromwell » (1827) avait déjà exposé son programme de liberté dans l'art."
+    },
+    {
+     "q": "Quel sous-titre Zola a-t-il donné au cycle des Rougon-Macquart ?",
+     "choix": [
+      "Histoire naturelle et sociale d'une famille sous le Second Empire",
+      "Chroniques du Paris ouvrier",
+      "Études de mœurs et de milieux",
+      "Scènes de la vie moderne"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "Le cycle des Rougon-Macquart porte le sous-titre « Histoire naturelle et sociale d'une famille sous le Second Empire ». Ce programme résume le projet naturaliste de Zola : suivre, à travers les branches d'une même famille, les effets de l'hérédité et des milieux sociaux, dans le cadre historique du règne de Napoléon III (1852-1870). Les vingt romans, publiés de 1871 à 1893, explorent tous les mondes : la mine dans « Germinal », l'alcoolisme ouvrier dans « L'Assommoir », les grands magasins dans « Au Bonheur des Dames », la spéculation dans « L'Argent ». L'ensemble répond à « La Comédie humaine » de Balzac."
+    },
+    {
+     "q": "Quel poète a inventé le mot « surréalisme » et écrit le recueil « Alcools » ?",
+     "choix": [
+      "Paul Éluard",
+      "Guillaume Apollinaire",
+      "Blaise Cendrars",
+      "Max Jacob"
+     ],
+     "bonne": 1,
+     "difficulte": 2,
+     "explication": "Guillaume Apollinaire forgea le mot « surréalisme » en 1917, à propos de sa pièce « Les Mamelles de Tirésias » ; André Breton le reprit en 1924 pour baptiser son mouvement. Poète de la modernité, Apollinaire publia « Alcools » en 1913, recueil sans ponctuation ouvert par le long poème « Zone », qui contient aussi « Le Pont Mirabeau ». Ses « Calligrammes » dessinent des images avec les mots. Ami de Picasso et défenseur du cubisme, blessé à la tête pendant la Grande Guerre, il mourut de la grippe espagnole en novembre 1918, deux jours avant l'armistice."
+    }
+   ]
+  },
+  {
+   "titre": "Le théâtre, de la tragédie grecque au théâtre de l'absurde",
+   "sections": [
+    {
+     "titre": "Les origines grecques du théâtre",
+     "texte": "Le théâtre occidental naît en Grèce au VIe siècle avant J.-C., dans le cadre des fêtes religieuses en l'honneur de Dionysos, dieu du vin et de l'ivresse. À Athènes, les Grandes Dionysies organisent des concours dramatiques où s'affrontent les auteurs devant des milliers de citoyens, dans des théâtres de plein air à gradins comme celui d'Épidaure, encore admiré pour son acoustique. La tragédie met en scène des héros mythologiques écrasés par le destin et la volonté des dieux ; selon Aristote, elle provoque « terreur et pitié » et produit la catharsis, purgation des passions du spectateur. Trois grands tragiques dominent le Ve siècle : Eschyle, auteur de « L'Orestie », Sophocle, auteur d'« Œdipe roi » et d'« Antigone », et Euripide, auteur de « Médée ». La comédie, illustrée par Aristophane, se moque des mœurs et des hommes politiques du temps. Les acteurs, uniquement des hommes, jouent masqués, et un chœur chante et commente l'action. Ce répertoire antique n'a jamais cessé d'être joué et réécrit, d'« Antigone » d'Anouilh à « Électre » de Giraudoux.",
+     "visuel": {
+      "type": "tableau",
+      "titre": "Les auteurs du théâtre grec",
+      "colonnes": [
+       "Auteur",
+       "Genre",
+       "Œuvres citées"
+      ],
+      "lignes": [
+       [
+        "Eschyle",
+        "Tragédie",
+        "« L'Orestie »"
+       ],
+       [
+        "Sophocle",
+        "Tragédie",
+        "« Œdipe roi », « Antigone »"
+       ],
+       [
+        "Euripide",
+        "Tragédie",
+        "« Médée »"
+       ],
+       [
+        "Aristophane",
+        "Comédie",
+        "Satire des mœurs et des hommes politiques du temps"
+       ]
+      ],
+      "note": "La tragédie provoque, selon Aristote, terreur et pitié, et produit la catharsis, purgation des passions du spectateur."
+     }
+    },
+    {
+     "titre": "Le siècle d'or du théâtre classique français",
+     "texte": "Le XVIIe siècle est l'âge d'or du théâtre français. Trois auteurs dominent la période. Pierre Corneille triomphe en 1637 avec « Le Cid », dont le succès déclenche une querelle célèbre sur les règles classiques ; il exalte des héros déchirés entre l'amour et l'honneur, d'où l'expression « dilemme cornélien ». Jean Racine, son cadet et rival, porte la tragédie à sa perfection : dans « Andromaque », « Britannicus », « Bérénice » ou « Phèdre » (1677), la passion est une fatalité qui détruit des personnages lucides mais impuissants, dans une langue d'une pureté musicale. Molière, enfin, élève la comédie au rang de grand genre : « Tartuffe », interdit cinq ans pour sa satire de la fausse dévotion, « Dom Juan », « Le Misanthrope », « L'Avare » ou « Le Bourgeois gentilhomme » peignent les travers humains pour « corriger les mœurs par le rire ». Comédien et chef de troupe protégé par Louis XIV, Molière meurt en 1673 après une représentation du « Malade imaginaire ». En 1680, la fusion de sa troupe avec d'autres donne naissance à la Comédie-Française, toujours surnommée « la maison de Molière »."
+    },
+    {
+     "titre": "Le drame romantique contre les règles",
+     "texte": "Au début du XIXe siècle, la jeune génération romantique juge le théâtre classique figé et étouffant. Victor Hugo formule le programme du drame romantique dans la préface de « Cromwell » (1827) : refus des trois unités, sauf l'unité d'action, mélange des genres et des tons, alliance du « sublime » et du « grotesque », inspiration puisée dans l'histoire moderne plutôt que dans l'Antiquité. Le drame doit être un miroir total de la vie. La création d'« Hernani » en février 1830 tourne à l'affrontement : pendant des semaines, les partisans de Hugo, jeunes artistes chevelus menés par Théophile Gautier, couvrent les sifflets des classiques. Cette « bataille d'Hernani » consacre la victoire du romantisme sur la scène. Hugo poursuit avec « Ruy Blas » (1838), tandis qu'Alfred de Musset, après l'échec de sa première pièce, écrit un théâtre destiné à la lecture, dont « Lorenzaccio » (1834), grand drame sur l'impuissance politique, et « On ne badine pas avec l'amour ». Alexandre Dumas contribue aussi au genre avec « Antony ». L'échec des « Burgraves » de Hugo en 1843 marque le déclin du drame romantique."
+    },
+    {
+     "titre": "Le théâtre de l'absurde",
+     "texte": "Au début des années 1950, à Paris, une nouvelle génération de dramaturges bouleverse la scène : on parlera de « théâtre de l'absurde » ou de « nouveau théâtre ». Marqués par les catastrophes du XXe siècle, ces auteurs mettent en scène l'absurdité de la condition humaine, l'impossibilité de communiquer et la vacuité du langage, en abandonnant l'intrigue, la psychologie et les héros traditionnels. Eugène Ionesco, Français d'origine roumaine, ouvre la voie avec « La Cantatrice chauve » (1950), « anti-pièce » née des dialogues absurdes d'une méthode d'anglais, jouée sans interruption au théâtre de la Huchette depuis 1957 ; il poursuit avec « Les Chaises », « Rhinocéros », parabole sur la montée des totalitarismes, et « Le Roi se meurt ». Samuel Beckett, Irlandais écrivant en français, crée « En attendant Godot » en 1953 : deux vagabonds y attendent un mystérieux Godot qui ne vient jamais. Suivent « Fin de partie » et « Oh les beaux jours ». Beckett reçoit le prix Nobel de littérature en 1969. Jean Genet et Arthur Adamov participent de la même remise en cause. Ce théâtre, déroutant à ses débuts, est devenu un classique du répertoire mondial."
+    },
+    {
+     "titre": "Le théâtre en France aujourd'hui : institutions et festivals",
+     "texte": "Le théâtre français contemporain s'appuie sur un réseau d'institutions unique au monde. La Comédie-Française, fondée en 1680, reste le gardien du répertoire classique tout en s'ouvrant aux écritures modernes ; ses comédiens permanents forment la « troupe », dirigée par un administrateur général. À côté des théâtres nationaux, comme l'Odéon ou Chaillot, la politique de décentralisation théâtrale lancée après 1945 a créé des centres dramatiques nationaux dans les grandes villes, afin de porter le théâtre au-delà de Paris. Jean Vilar, figure majeure de cette ambition d'un « théâtre populaire », fonde en 1947 le Festival d'Avignon, devenu le plus grand rendez-vous de spectacle vivant en France : chaque été, la cour d'honneur du Palais des papes accueille les créations du « in », tandis que le festival « off » propose des centaines de spectacles. Vilar dirigea aussi le Théâtre national populaire, avec l'acteur Gérard Philipe. Parmi les metteurs en scène marquants des dernières décennies figurent Ariane Mnouchkine, fondatrice du Théâtre du Soleil à la Cartoucherie de Vincennes, Patrice Chéreau ou Peter Brook, installé aux Bouffes du Nord à Paris.",
+     "visuel": {
+      "type": "frise",
+      "titre": "Repères du théâtre en France",
+      "evenements": [
+       {
+        "date": "1637",
+        "label": "« Le Cid »",
+        "texte": "Le triomphe de Corneille déclenche la querelle des règles"
+       },
+       {
+        "date": "1673",
+        "label": "Mort de Molière",
+        "texte": "Après une représentation du « Malade imaginaire »"
+       },
+       {
+        "date": "1680",
+        "label": "La Comédie-Française",
+        "texte": "Fusion de la troupe de Molière avec d'autres"
+       },
+       {
+        "date": "1830",
+        "label": "Bataille d'« Hernani »",
+        "texte": "Le drame romantique l'emporte sur la scène"
+       },
+       {
+        "date": "1947",
+        "label": "Festival d'Avignon",
+        "texte": "Jean Vilar et l'ambition d'un théâtre populaire"
+       },
+       {
+        "date": "1953",
+        "label": "« En attendant Godot »",
+        "texte": "Beckett et le théâtre de l'absurde"
+       }
+      ]
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": "En l'honneur de quel dieu les représentations théâtrales étaient-elles données dans la Grèce antique ?",
+     "choix": [
+      "Apollon",
+      "Dionysos",
+      "Zeus",
+      "Hermès"
+     ],
+     "bonne": 1,
+     "difficulte": 2,
+     "explication": "Le théâtre grec est né des fêtes religieuses en l'honneur de Dionysos, dieu du vin, de la vigne et de la fête. À Athènes, les Grandes Dionysies, au printemps, comportaient des concours de tragédies et de comédies financés par de riches citoyens. Le mot « tragédie » signifierait d'ailleurs « chant du bouc », animal associé au dieu. Eschyle, Sophocle et Euripide y furent couronnés. Le théâtre de Dionysos, au pied de l'Acropole, pouvait accueillir des milliers de spectateurs et servait aussi de lieu de rassemblement civique."
+    },
+    {
+     "q": "Quel dramaturge grec est l'auteur d'« Œdipe roi » et d'« Antigone » ?",
+     "choix": [
+      "Eschyle",
+      "Euripide",
+      "Sophocle",
+      "Aristophane"
+     ],
+     "bonne": 2,
+     "difficulte": 2,
+     "explication": "Sophocle (environ 496-406 avant J.-C.) est l'auteur d'« Œdipe roi » et d'« Antigone », deux tragédies liées au cycle thébain. Œdipe y découvre qu'il a tué son père et épousé sa mère sans le savoir ; Antigone brave l'interdit du roi Créon pour ensevelir son frère, incarnant le conflit entre loi morale et loi de l'État. Sur environ 120 pièces écrites par Sophocle, sept seulement nous sont parvenues. Aristote considérait « Œdipe roi » comme le modèle de la tragédie, et Freud s'en inspira pour nommer le « complexe d'Œdipe »."
+    },
+    {
+     "q": "Quelle expression désigne le choix impossible entre deux devoirs, typique du théâtre de Corneille ?",
+     "choix": [
+      "Le dilemme cornélien",
+      "La catharsis",
+      "Le quiproquo",
+      "Le coup de théâtre"
+     ],
+     "bonne": 0,
+     "difficulte": 1,
+     "explication": "On appelle « dilemme cornélien » ou « choix cornélien » la situation d'un personnage contraint de choisir entre deux exigences également impérieuses, typiquement l'amour et l'honneur. L'exemple fondateur est celui de Rodrigue dans « Le Cid » (1637) : pour venger son père humilié, il doit provoquer en duel le père de Chimène, la femme qu'il aime. Chimène, à son tour, doit réclamer la tête de celui qu'elle aime. Chez Corneille, les héros surmontent le dilemme par la grandeur d'âme, alors que chez Racine la passion l'emporte et détruit. L'expression est passée dans le langage courant pour tout choix déchirant."
+    },
+    {
+     "q": "Dans quelle pièce de Musset le héros Lorenzo assassine-t-il le duc de Florence ?",
+     "choix": [
+      "On ne badine pas avec l'amour",
+      "Les Caprices de Marianne",
+      "Lorenzaccio",
+      "Fantasio"
+     ],
+     "bonne": 2,
+     "difficulte": 3,
+     "explication": "« Lorenzaccio » (1834) d'Alfred de Musset se déroule à Florence au XVIe siècle. Lorenzo de Médicis, surnommé avec mépris Lorenzaccio, feint la débauche pour approcher son cousin, le tyran Alexandre de Médicis, et l'assassiner ; mais le meurtre accompli ne change rien, la ville se donnant un nouveau maître. Ce drame sur la corruption de l'idéal et l'impuissance de l'action politique est souvent considéré comme le chef-d'œuvre du drame romantique. Jugé injouable, il ne fut porté à la scène qu'en 1896, avec Sarah Bernhardt dans le rôle-titre. Musset l'écrivit à 23 ans, après sa liaison avec George Sand."
+    },
+    {
+     "q": "Qui a fondé le Festival d'Avignon en 1947 ?",
+     "choix": [
+      "Gérard Philipe",
+      "Jean Vilar",
+      "Ariane Mnouchkine",
+      "Antoine Vitez"
+     ],
+     "bonne": 1,
+     "difficulte": 2,
+     "explication": "Le metteur en scène et comédien Jean Vilar fonda en 1947 la « Semaine d'art en Avignon », devenue le Festival d'Avignon, avec l'ambition de rendre le théâtre accessible à tous hors des scènes parisiennes. La cour d'honneur du Palais des papes en devint le lieu emblématique. Directeur du Théâtre national populaire à partir de 1951, Vilar y fit triompher un répertoire exigeant à prix populaires, avec des acteurs comme Gérard Philipe. Le festival, complété depuis 1966 par le « off », est aujourd'hui l'un des plus grands rendez-vous mondiaux du spectacle vivant."
+    }
+   ]
+  },
+  {
+   "titre": "Prix littéraires et littérature mondiale",
+   "sections": [
+    {
+     "titre": "Le prix Nobel de littérature",
+     "texte": "Créé par le testament de l'industriel suédois Alfred Nobel, inventeur de la dynamite, le prix Nobel de littérature est décerné chaque année depuis 1901 par l'Académie suédoise à un auteur pour l'ensemble de son œuvre. Le premier lauréat fut le poète français Sully Prudhomme, choix contesté alors que Tolstoï était vivant. La France est la nation la plus couronnée, avec seize lauréats, parmi lesquels Anatole France (1921), Henri Bergson (1927), André Gide (1947), François Mauriac (1952), Albert Camus (1957), couronné à seulement 44 ans, Jean-Paul Sartre (1964), qui refusa le prix, Claude Simon (1985), Gao Xingjian (2000), écrivain de langue chinoise naturalisé français, J. M. G. Le Clézio (2008), Patrick Modiano (2014) et Annie Ernaux (2022), première Française lauréate. Parmi les grands lauréats étrangers figurent Kipling, Thomas Mann, Hemingway, Faulkner, García Márquez, Toni Morrison ou Kazuo Ishiguro. Le prix a aussi ses absents célèbres : Tolstoï, Tchekhov, Proust, Joyce, Kafka ou Borges ne l'ont jamais reçu. En 1964, le refus de Sartre, qui ne voulait pas être « transformé en institution », reste un cas presque unique.",
+     "visuel": {
+      "type": "chiffres",
+      "titre": "Le prix Nobel de littérature",
+      "items": [
+       {
+        "valeur": "1901",
+        "label": "première remise, à Sully Prudhomme"
+       },
+       {
+        "valeur": "16",
+        "label": "lauréats français, la nation la plus couronnée"
+       },
+       {
+        "valeur": "44 ans",
+        "label": "l'âge d'Albert Camus lors de son prix, en 1957"
+       },
+       {
+        "valeur": "1964",
+        "label": "Sartre refuse le prix, cas presque unique"
+       },
+       {
+        "valeur": "2022",
+        "label": "Annie Ernaux, première Française lauréate"
+       }
+      ]
+     }
+    },
+    {
+     "titre": "Le prix Goncourt et les prix d'automne français",
+     "texte": "Le prix Goncourt est le plus prestigieux des prix littéraires français. Institué par le testament d'Edmond de Goncourt et décerné pour la première fois en 1903, il est attribué chaque automne par l'Académie Goncourt, un jury de dix écrivains, au « meilleur ouvrage d'imagination en prose » de l'année. Sa dotation est symbolique, dix euros, mais le bandeau rouge « prix Goncourt » garantit des centaines de milliers de ventes. La proclamation a lieu traditionnellement au restaurant Drouant, à Paris. Parmi les lauréats marquants : Marcel Proust en 1919 pour « À l'ombre des jeunes filles en fleurs », André Malraux en 1933 pour « La Condition humaine », Simone de Beauvoir en 1954 pour « Les Mandarins », Marguerite Duras en 1984 pour « L'Amant ». Romain Gary réussit l'exploit interdit de l'obtenir deux fois, en 1956 et, sous le pseudonyme d'Émile Ajar, en 1975. Autour du Goncourt gravitent les autres grands prix d'automne : le Renaudot, créé en 1926 par des journalistes attendant le verdict du Goncourt, le Femina, doté d'un jury exclusivement féminin depuis 1904, le Médicis et l'Interallié, ainsi que le grand prix du roman de l'Académie française.",
+     "visuel": {
+      "type": "tableau",
+      "titre": "Les grands prix d'automne français",
+      "colonnes": [
+       "Prix",
+       "Création",
+       "Particularité"
+      ],
+      "lignes": [
+       [
+        "Goncourt",
+        "1903",
+        "Jury de dix écrivains, dotation symbolique de dix euros, proclamation chez Drouant"
+       ],
+       [
+        "Femina",
+        "1904",
+        "Jury exclusivement féminin"
+       ],
+       [
+        "Renaudot",
+        "1926",
+        "Créé par des journalistes qui attendaient le verdict du Goncourt"
+       ],
+       [
+        "Médicis et Interallié",
+        "-",
+        "Complètent la saison des prix d'automne"
+       ],
+       [
+        "Grand prix du roman",
+        "-",
+        "Décerné par l'Académie française"
+       ]
+      ],
+      "note": "Romain Gary a obtenu le Goncourt deux fois, en 1956 puis en 1975 sous le pseudonyme d'Émile Ajar."
+     }
+    },
+    {
+     "titre": "Quelques monuments de la littérature mondiale",
+     "texte": "Certaines œuvres forment le socle commun de la culture littéraire mondiale. L'Antiquité lègue « L'Iliade » et « L'Odyssée » d'Homère, épopées fondatrices de la littérature occidentale, et « L'Énéide » de Virgile. Au Moyen Âge, Dante compose « La Divine Comédie », voyage à travers l'Enfer, le Purgatoire et le Paradis qui fonde la littérature italienne. La Renaissance et l'âge classique donnent « Don Quichotte » de Cervantès (1605-1615), souvent tenu pour le premier roman moderne, et le théâtre de Shakespeare, d'« Hamlet » au « Roi Lear ». Le XIXe siècle est le grand siècle du roman : en Angleterre, Jane Austen et Dickens ; en Russie, Tolstoï avec « Guerre et Paix » et Dostoïevski avec « Crime et Châtiment » et « Les Frères Karamazov » ; aux États-Unis, « Moby Dick » de Melville. Le XXe siècle multiplie les révolutions : « Ulysse » de Joyce et son monologue intérieur, « Le Procès » de Kafka, « 1984 » d'Orwell, et le réalisme magique de « Cent ans de solitude » de García Márquez. Ces œuvres circulent par la traduction, dialoguent entre elles et nourrissent l'ensemble des littératures nationales."
+    },
+    {
+     "titre": "La littérature francophone hors de France",
+     "texte": "La littérature de langue française dépasse largement les frontières de l'Hexagone. Dans les années 1930, Aimé Césaire, poète martiniquais auteur du « Cahier d'un retour au pays natal », et Léopold Sédar Senghor, poète sénégalais qui deviendra le premier président du Sénégal puis le premier Africain élu à l'Académie française (1983), fondent avec Léon-Gontran Damas le mouvement de la négritude, affirmation de la dignité et des cultures noires face au colonialisme. Le Maghreb donne des voix majeures : l'Algérien Kateb Yacine, auteur de « Nedjma », le Marocain Tahar Ben Jelloun, prix Goncourt 1987 pour « La Nuit sacrée », l'Algérien Kamel Daoud, Goncourt du premier roman pour « Meursault, contre-enquête ». Le Liban est représenté par Amin Maalouf, Goncourt 1993 pour « Le Rocher de Tanios » et aujourd'hui secrétaire perpétuel de l'Académie française. Au Québec, Michel Tremblay et Anne Hébert ; en Belgique, Simenon, père du commissaire Maigret, et la prolifique Amélie Nothomb ; en Suisse, Ramuz. L'Organisation internationale de la Francophonie fédère les pays ayant le français en partage, et de nombreux auteurs « francophones » figurent désormais au cœur du canon littéraire contemporain."
+    },
+    {
+     "titre": "La poésie française, une histoire en mouvements",
+     "texte": "La poésie française s'est constamment réinventée. Au Moyen Âge, François Villon mêle lyrisme et gouaille dans sa « Ballade des pendus ». La Renaissance impose le sonnet et l'alexandrin avec la Pléiade de Ronsard et Du Bellay, dont « Heureux qui, comme Ulysse » reste célèbre. Après l'âge classique, davantage tourné vers le théâtre, le romantisme redonne à la poésie la première place : Lamartine pleure Elvire dans « Le Lac », Hugo déploie tous les registres des « Contemplations » à « La Légende des siècles ». Baudelaire opère la grande rupture moderne avec « Les Fleurs du mal » (1857) : la beauté peut naître du mal et de la ville moderne. Verlaine cherche la musique, Rimbaud le dérèglement « de tous les sens », Mallarmé la pureté du langage. Le XXe siècle diversifie les voies : Apollinaire et ses « Calligrammes », les surréalistes Éluard et Aragon, qui chantèrent aussi la Résistance, Saint-John Perse et René Char, poètes exigeants, Francis Ponge et son « Parti pris des choses », Jacques Prévert enfin, dont le recueil « Paroles » (1946), populaire et malicieux, prouve que la poésie peut toucher le plus large public."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Dans quel restaurant parisien le prix Goncourt est-il traditionnellement proclamé ?",
+     "choix": [
+      "La Tour d'Argent",
+      "Chez Drouant",
+      "Le Procope",
+      "La Coupole"
+     ],
+     "bonne": 1,
+     "difficulte": 3,
+     "explication": "Depuis 1914, les dix membres de l'Académie Goncourt se réunissent au restaurant Drouant, près de l'Opéra à Paris, pour délibérer et proclamer leur lauréat, début novembre. Le déjeuner des jurés et l'annonce à la presse massée devant le restaurant constituent un rituel médiatique de la rentrée littéraire. Le prix Renaudot, créé en 1926 par des journalistes qui patientaient pendant les délibérations, est annoncé au même endroit dans la foulée. Le Goncourt ne rapporte que dix euros à son lauréat, mais assure des ventes considérables."
+    },
+    {
+     "q": "Pour quel roman Marguerite Duras a-t-elle reçu le prix Goncourt en 1984 ?",
+     "choix": [
+      "Moderato cantabile",
+      "Un barrage contre le Pacifique",
+      "L'Amant",
+      "Le Ravissement de Lol V. Stein"
+     ],
+     "bonne": 2,
+     "difficulte": 2,
+     "explication": "Marguerite Duras obtint le prix Goncourt en 1984, à 70 ans, pour « L'Amant », récit largement autobiographique de la liaison d'une adolescente française pauvre avec un riche Chinois dans l'Indochine coloniale des années 1930. Le livre fut un phénomène d'édition, vendu à des millions d'exemplaires et traduit dans le monde entier, puis adapté au cinéma par Jean-Jacques Annaud en 1992. Duras, née près de Saïgon, avait déjà évoqué cette jeunesse dans « Un barrage contre le Pacifique ». Romancière, dramaturge et cinéaste, elle est aussi la scénariste du film « Hiroshima mon amour » d'Alain Resnais."
+    },
+    {
+     "q": "Quel roman de James Joyce, publié en 1922, transpose l'Odyssée dans le Dublin d'une seule journée ?",
+     "choix": [
+      "Finnegans Wake",
+      "Ulysse",
+      "Gens de Dublin",
+      "Portrait de l'artiste en jeune homme"
+     ],
+     "bonne": 1,
+     "difficulte": 3,
+     "explication": "« Ulysse » de l'Irlandais James Joyce parut à Paris en 1922, publié par la libraire Sylvia Beach de Shakespeare and Company. Le roman suit Leopold Bloom dans Dublin pendant la seule journée du 16 juin 1904, chaque épisode faisant écho à un chant de l'Odyssée d'Homère. Joyce y déploie le monologue intérieur et une virtuosité de styles qui révolutionnèrent le roman moderne. Jugé obscène, le livre fut longtemps interdit aux États-Unis et au Royaume-Uni. Les admirateurs de Joyce célèbrent chaque 16 juin le « Bloomsday » à Dublin."
+    },
+    {
+     "q": "Quel poète de la négritude est devenu président du Sénégal puis membre de l'Académie française ?",
+     "choix": [
+      "Aimé Césaire",
+      "Léopold Sédar Senghor",
+      "Léon-Gontran Damas",
+      "Birago Diop"
+     ],
+     "bonne": 1,
+     "difficulte": 2,
+     "explication": "Léopold Sédar Senghor, poète et homme d'État sénégalais, fonda dans les années 1930 avec Aimé Césaire et Léon-Gontran Damas le mouvement de la négritude, qui revendiquait la dignité des cultures noires. Agrégé de grammaire, auteur des recueils « Chants d'ombre » et « Éthiopiques », il devint en 1960 le premier président du Sénégal indépendant, fonction qu'il quitta volontairement en 1980. En 1983, il fut le premier Africain élu à l'Académie française. Grand défenseur de la francophonie, il voyait dans le métissage culturel la « civilisation de l'universel »."
+    },
+    {
+     "q": "Quel recueil de Jacques Prévert, paru en 1946, connut un immense succès populaire ?",
+     "choix": [
+      "Paroles",
+      "Alcools",
+      "Capitale de la douleur",
+      "Le Parti pris des choses"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "« Paroles », publié en 1946, rassemble les poèmes de Jacques Prévert et devint l'un des plus grands succès de librairie de la poésie française, vendu à des millions d'exemplaires. D'une langue simple, tendre et frondeuse, jouant des inventaires et des jeux de mots, le recueil contient des textes célèbres comme « Barbara » ou « Déjeuner du matin ». Beaucoup furent mis en musique par Joseph Kosma, dont « Les Feuilles mortes », popularisée par Yves Montand. Prévert fut aussi un grand scénariste du cinéma français, signant notamment « Les Enfants du paradis » de Marcel Carné."
+    }
+   ]
+  }
+ ]
+}

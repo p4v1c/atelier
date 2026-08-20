@@ -1,0 +1,162 @@
+{
+ "titre": "Les écosystèmes et les chaînes alimentaires",
+ "sections": [
+  {
+   "titre": "Qu'est-ce qu'un écosystème ?",
+   "texte": "Le mot écosystème, proposé en 1935 par le botaniste britannique Arthur Tansley, désigne l'ensemble formé par un milieu de vie et par les êtres vivants qui l'occupent, ainsi que par toutes les relations qui les unissent. Un écosystème comporte donc deux composantes indissociables. La première, le biotope, rassemble les éléments non vivants : la nature du sol, la température, la lumière, l'humidité, la salinité de l'eau ou encore le relief. La seconde, la biocénose, réunit toutes les populations d'êtres vivants, animaux, végétaux, champignons et micro-organismes, qui interagissent entre elles. Un écosystème peut être immense, comme une forêt tropicale ou un océan, ou minuscule, comme une mare, une souche en décomposition ou même une flaque d'eau. Ses limites ne sont d'ailleurs jamais parfaitement nettes : les zones de transition entre deux milieux, appelées écotones, sont souvent particulièrement riches en espèces. Chaque espèce y occupe une niche écologique, c'est-à-dire un ensemble de conditions et de ressources qui lui conviennent, ainsi qu'un rôle dans le fonctionnement de l'ensemble. Deux espèces exploitant exactement la même niche ne peuvent en général pas coexister durablement au même endroit, l'une finissant par éliminer l'autre. C'est ce que les écologues appellent le principe d'exclusion compétitive, formulé par le biologiste russe Gueorgui Gause dans les années 1930."
+  },
+  {
+   "titre": "Producteurs, consommateurs et décomposeurs",
+   "texte": "Au sein d'un écosystème, les êtres vivants se répartissent en grands rôles selon leur mode de nutrition. Les producteurs primaires, essentiellement les végétaux verts, les algues et le phytoplancton, fabriquent leur propre matière organique à partir de matière minérale et d'énergie lumineuse grâce à la photosynthèse. Ils sont dits autotrophes et constituent la porte d'entrée de l'énergie dans tout l'écosystème. Les consommateurs sont hétérotrophes : incapables de produire leur matière, ils doivent se nourrir d'autres organismes. Les consommateurs primaires, ou herbivores, mangent les végétaux ; c'est le cas du lapin, de la chenille ou du zooplancton. Les consommateurs secondaires, carnivores, mangent les herbivores, et les consommateurs tertiaires mangent ces derniers. Certains animaux, dits omnivores, occupent plusieurs niveaux à la fois. Enfin les décomposeurs, souvent oubliés mais indispensables, transforment les cadavres, les excréments et les feuilles mortes en éléments minéraux simples. Ce travail est accompli par les bactéries et les champignons du sol, aidés par des détritivores comme les vers de terre, les cloportes et de nombreux insectes. Sans eux, la matière organique s'accumulerait et les éléments nutritifs cesseraient de circuler. Les décomposeurs ferment ainsi la boucle en restituant aux plantes les sels minéraux dont elles ont besoin, permettant au cycle de recommencer indéfiniment.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "Le circuit de la matière dans un écosystème",
+    "etapes": [
+     {
+      "label": "Producteurs",
+      "texte": "Végétaux verts, algues et phytoplancton fabriquent leur matière à partir de minéraux et de lumière : c'est la porte d'entrée de l'énergie."
+     },
+     {
+      "label": "Consommateurs primaires",
+      "texte": "Les herbivores — lapin, chenille, zooplancton — mangent les végétaux."
+     },
+     {
+      "label": "Consommateurs secondaires et tertiaires",
+      "texte": "Les carnivores mangent les herbivores, puis d'autres carnivores les mangent à leur tour."
+     },
+     {
+      "label": "Décomposeurs",
+      "texte": "Bactéries, champignons, vers de terre et cloportes transforment cadavres, excréments et feuilles mortes."
+     },
+     {
+      "label": "Retour au sol",
+      "texte": "Les sels minéraux libérés repartent vers les plantes : la boucle est fermée."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Chaînes et réseaux trophiques",
+   "texte": "Une chaîne alimentaire, ou chaîne trophique, représente le transfert de matière et d'énergie d'un être vivant à un autre par l'alimentation. On l'écrit à l'aide de flèches signifiant est mangé par : herbe, puis criquet, puis lézard, puis buse. Chaque maillon correspond à un niveau trophique. Dans la réalité, les relations sont bien plus complexes, car la plupart des animaux consomment plusieurs proies et sont mangés par plusieurs prédateurs. L'ensemble des chaînes reliées entre elles forme un réseau trophique, image bien plus fidèle du fonctionnement d'un milieu. Un principe essentiel gouverne ces chaînes : à chaque passage d'un niveau au suivant, une grande partie de l'énergie est perdue, dissipée sous forme de chaleur ou consommée par la respiration et les déplacements. On estime généralement que seuls dix pour cent environ de l'énergie d'un niveau se retrouvent dans le niveau supérieur. Cette règle explique pourquoi les chaînes alimentaires comptent rarement plus de quatre ou cinq maillons, et pourquoi la biomasse des herbivores dépasse toujours largement celle des carnivores. On représente ce phénomène par une pyramide écologique, large à sa base végétale et très étroite au sommet. C'est aussi pourquoi les grands prédateurs, peu nombreux et exigeant de vastes territoires, sont particulièrement vulnérables aux perturbations.",
+   "visuel": {
+    "type": "barres",
+    "titre": "Ce qui reste de l'énergie à chaque maillon",
+    "unite": "% de l'énergie de départ",
+    "donnees": [
+     {
+      "label": "Producteurs (végétaux)",
+      "valeur": 100
+     },
+     {
+      "label": "Herbivores",
+      "valeur": 10
+     },
+     {
+      "label": "Carnivores",
+      "valeur": 1
+     },
+     {
+      "label": "Super-prédateurs",
+      "valeur": 0.1,
+      "affichage": "0,1 %"
+     }
+    ],
+    "note": "Environ 90 % de l'énergie se perd à chaque passage, dissipée en chaleur, en respiration et en déplacements : c'est pourquoi les chaînes dépassent rarement quatre ou cinq maillons."
+   }
+  },
+  {
+   "titre": "Équilibres, cycles et perturbations",
+   "texte": "Un écosystème n'est jamais figé : il évolue sans cesse tout en conservant une certaine stabilité, que les écologues nomment équilibre dynamique. Les effectifs des populations fluctuent selon les ressources disponibles et les relations entre espèces. Le cas classique du lynx et du lièvre d'Amérique, suivi pendant plus d'un siècle grâce aux registres de fourrures, montre des oscillations régulières : quand les lièvres abondent, les lynx se multiplient, ce qui fait chuter les lièvres, puis les lynx à leur tour. La matière, elle, circule en cycles fermés. Le cycle du carbone relie l'atmosphère, les êtres vivants, les sols et les océans à travers la photosynthèse, la respiration et la décomposition. Le cycle de l'azote dépend de bactéries spécialisées capables de fixer l'azote de l'air, souvent logées dans les nodosités des racines de légumineuses comme le trèfle ou le pois. Le cycle de l'eau lie évaporation, précipitations et ruissellement. Ces équilibres peuvent être rompus par des perturbations naturelles, tempêtes, incendies ou sécheresses, après lesquelles le milieu se reconstruit progressivement au cours d'une succession écologique. Mais les activités humaines imposent aujourd'hui des perturbations d'une ampleur inédite : pollution, destruction des habitats, surexploitation et introduction d'espèces invasives, qui, dépourvues de prédateurs dans leur nouveau milieu, y bouleversent durablement les réseaux trophiques."
+  },
+  {
+   "titre": "Espèces clés et services écosystémiques",
+   "texte": "Toutes les espèces n'ont pas le même poids dans un écosystème. Certaines, appelées espèces clés de voûte, exercent une influence disproportionnée par rapport à leur effectif : leur disparition entraîne l'effondrement en cascade de tout un cortège d'autres espèces. La loutre de mer du Pacifique en est un exemple célèbre. En consommant les oursins, elle empêche ceux-ci de dévorer les forêts de laminaires ; là où la loutre a été chassée, les oursins ont proliféré et les forêts sous-marines ont disparu, entraînant avec elles poissons et invertébrés. La réintroduction du loup dans le parc de Yellowstone en 1995 a de même modifié le comportement des wapitis, permis la repousse des saules le long des rivières et favorisé le retour des castors et des oiseaux. Ces effets en chaîne, dits cascades trophiques, montrent combien les liens entre espèces sont étroits. Les écosystèmes rendent par ailleurs à l'humanité des services considérables et souvent invisibles : la pollinisation des cultures par les insectes, la purification de l'eau par les zones humides, la fertilité des sols entretenue par les décomposeurs, la protection des côtes par les mangroves et les récifs coralliens, ou encore la régulation du climat par les forêts. Préserver la diversité des espèces n'est donc pas seulement une question esthétique ou morale, mais une nécessité pratique.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Une espèce clé de voûte : la loutre de mer du Pacifique",
+    "colonnes": [
+     {
+      "titre": "Avec la loutre",
+      "points": [
+       "La loutre consomme les oursins",
+       "Les oursins restent peu nombreux",
+       "Les forêts de laminaires prospèrent",
+       "Poissons et invertébrés y trouvent abri et nourriture"
+      ]
+     },
+     {
+      "titre": "Sans la loutre",
+      "points": [
+       "La loutre est chassée et disparaît",
+       "Les oursins prolifèrent",
+       "Ils dévorent les laminaires, la forêt sous-marine s'effondre",
+       "Poissons et invertébrés disparaissent avec elle"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Comment appelle-t-on l'ensemble des éléments non vivants d'un écosystème, comme le sol, la lumière et la température ?",
+   "choix": [
+    "La biocénose",
+    "Le biotope",
+    "La biosphère",
+    "La niche écologique"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Un écosystème se compose de deux parties complémentaires. Le biotope désigne le milieu physique et chimique : nature du sol, température, lumière, humidité, salinité, relief. La biocénose désigne au contraire l'ensemble des êtres vivants qui peuplent ce milieu et les relations qu'ils entretiennent. La biosphère est un terme bien plus vaste, qui englobe toutes les zones de la Terre où la vie est présente. La niche écologique, elle, décrit le rôle et les exigences d'une espèce particulière au sein de son milieu."
+  },
+  {
+   "q": "Dans la chaîne herbe → criquet → lézard → buse, quel est le producteur primaire ?",
+   "choix": [
+    "Le criquet",
+    "Le lézard",
+    "La buse",
+    "L'herbe"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "Le producteur primaire est l'organisme capable de fabriquer sa propre matière organique à partir de matière minérale et de lumière, par photosynthèse. Dans cette chaîne, c'est l'herbe. Le criquet, qui la consomme, est un consommateur primaire ou herbivore ; le lézard est consommateur secondaire et la buse consommateur tertiaire. Les flèches d'une chaîne alimentaire se lisent toujours dans le sens est mangé par, et indiquent donc le transfert de matière et d'énergie. Les producteurs constituent toujours la base d'une pyramide écologique."
+  },
+  {
+   "q": "Quelle part de l'énergie passe environ d'un niveau trophique au niveau supérieur ?",
+   "choix": [
+    "Environ 10 %",
+    "Environ 50 %",
+    "Environ 90 %",
+    "La totalité"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le passage d'un niveau trophique au suivant s'accompagne d'énormes pertes : une grande part de l'énergie est dissipée en chaleur, utilisée pour la respiration, les déplacements ou la reproduction, et une autre part reste dans les portions non consommées ou non digérées. En moyenne, seuls dix pour cent environ de l'énergie d'un niveau se retrouvent dans le niveau supérieur, une estimation souvent appelée règle des dix pour cent. C'est pour cette raison que les chaînes alimentaires dépassent rarement quatre ou cinq maillons. Cela explique aussi que la biomasse des herbivores soit toujours bien supérieure à celle des carnivores, d'où la forme en pyramide des représentations écologiques."
+  },
+  {
+   "q": "Quel est le rôle des décomposeurs comme les bactéries et les champignons du sol ?",
+   "choix": [
+    "Fabriquer de la matière organique à partir de lumière",
+    "Chasser les herbivores pour réguler leur nombre",
+    "Transformer la matière organique morte en éléments minéraux",
+    "Transporter le pollen d'une fleur à l'autre"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "Les décomposeurs dégradent les cadavres, les excréments, les feuilles mortes et le bois, et libèrent les éléments minéraux qu'ils contiennent, comme l'azote, le phosphore et le potassium. Ces minéraux redeviennent alors disponibles pour les racines des plantes, ce qui referme le cycle de la matière. Ce rôle est assuré principalement par les bactéries et les champignons, assistés par des détritivores comme les vers de terre et les cloportes qui fragmentent d'abord les débris. Sans eux, la matière organique morte s'accumulerait indéfiniment et les nutriments cesseraient de circuler. Ce sont donc des maillons indispensables, même s'ils restent invisibles."
+  },
+  {
+   "q": "Qu'appelle-t-on une espèce clé de voûte ?",
+   "choix": [
+    "L'espèce la plus abondante d'un milieu",
+    "L'espèce la plus grande et la plus lourde",
+    "La première espèce à coloniser un terrain nu",
+    "Une espèce dont la disparition bouleverse tout l'écosystème"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Une espèce clé de voûte exerce sur son écosystème une influence bien supérieure à ce que laisserait supposer son effectif ou sa biomasse. Sa disparition provoque des changements en cascade qui affectent de nombreuses autres espèces. La loutre de mer du Pacifique en est l'exemple classique : en mangeant les oursins, elle protège les forêts de laminaires, et sa raréfaction a fait disparaître ces forêts sous-marines entières. Le loup de Yellowstone, réintroduit en 1995, a de même transformé la végétation des berges en modifiant le comportement des wapitis. Ces effets en chaîne portent le nom de cascades trophiques et illustrent la forte interdépendance des espèces."
+  }
+ ]
+}

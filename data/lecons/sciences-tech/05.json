@@ -1,0 +1,177 @@
+{
+ "titre": "Les télécommunications : du télégraphe optique aux satellites",
+ "sections": [
+  {
+   "titre": "Communiquer avant l'électricité : le télégraphe optique",
+   "texte": "Pendant des siècles, une nouvelle ne voyage pas plus vite qu'un cavalier ou qu'un navire. On connaît bien quelques procédés rapides mais très pauvres en information : feux allumés sur les hauteurs, tambours, sémaphores de marine. Le premier vrai réseau de télécommunication naît en France pendant la Révolution. En 1794, l'ingénieur Claude Chappe met en service entre Paris et Lille une ligne de tours espacées d'une dizaine de kilomètres, chacune surmontée d'un mât portant des bras articulés. En orientant ces bras, un opérateur forme des figures qui correspondent, dans un dictionnaire codé, à des mots ou à des phrases entières ; le poste suivant les observe à la lunette et les reproduit. Un message peut ainsi franchir plusieurs centaines de kilomètres en moins d'une heure, exploit inouï pour l'époque. Le réseau s'étend à toute la France, puis inspire d'autres pays européens. Ses limites sont pourtant sévères : il ne fonctionne ni la nuit, ni par brouillard, il exige un personnel nombreux dans chaque tour, et il reste réservé aux dépêches officielles et militaires. L'idée essentielle est cependant posée : un message peut être codé, transmis de proche en proche et reconstitué à l'arrivée, indépendamment du déplacement d'un porteur. Il ne manque plus qu'un support à la fois instantané, insensible au temps qu'il fait et utilisable de jour comme de nuit : ce sera l'électricité.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "Comment fonctionne le télégraphe Chappe (1794)",
+    "etapes": [
+     {
+      "label": "Coder",
+      "texte": "Le mot ou la phrase à transmettre est cherché dans un dictionnaire codé."
+     },
+     {
+      "label": "Former la figure",
+      "texte": "L'opérateur oriente les bras articulés du mât ; chaque position dessine un signe."
+     },
+     {
+      "label": "Observer à la lunette",
+      "texte": "La tour suivante, à une dizaine de kilomètres, lit la figure à la lunette."
+     },
+     {
+      "label": "Répéter de proche en proche",
+      "texte": "Elle reproduit le signe pour la tour d'après, et ainsi de suite le long de la ligne."
+     },
+     {
+      "label": "Décoder",
+      "texte": "À l'arrivée, le dictionnaire redonne le message : plusieurs centaines de kilomètres en moins d'une heure."
+     }
+    ],
+    "note": "Le réseau ne fonctionne ni la nuit ni par brouillard, et reste réservé aux dépêches officielles et militaires."
+   }
+  },
+  {
+   "titre": "Le télégraphe électrique et les câbles sous-marins",
+   "texte": "Dès que l'on sait produire un courant continu avec la pile de Volta en 1800 et détecter son passage grâce à l'expérience d'Oersted en 1820, le télégraphe électrique devient possible. Plusieurs inventeurs y travaillent en même temps : en Angleterre, William Cooke et Charles Wheatstone déposent un brevet en 1837 ; aux États-Unis, Samuel Morse développe le même type d'appareil et fait fonctionner en 1844 la ligne Washington-Baltimore. Le grand mérite de Morse et de son associé Alfred Vail est le code qui porte leur nom, où chaque lettre correspond à une suite de points et de traits, les lettres les plus fréquentes recevant les combinaisons les plus courtes : un seul fil et un seul opérateur suffisent. Le télégraphe se répand le long des voies ferrées, dont il assure aussi la sécurité. Reste à franchir les océans. Après plusieurs échecs coûteux, un câble transatlantique durable est posé en 1866 entre l'Irlande et Terre-Neuve par le navire Great Eastern. Une dépêche traverse désormais l'Atlantique en quelques minutes au lieu de dix jours de bateau. Les conséquences sont immenses pour la diplomatie, la presse, la Bourse et le commerce : les prix des marchandises s'ajustent entre continents et l'information devient une matière première. À la fin du siècle, un réseau de câbles relie la plupart des continents.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Du fil électrique au câble transatlantique",
+    "evenements": [
+     {
+      "date": "1800",
+      "label": "Pile de Volta",
+      "texte": "On sait produire un courant continu."
+     },
+     {
+      "date": "1820",
+      "label": "Expérience d'Oersted",
+      "texte": "On sait détecter le passage du courant."
+     },
+     {
+      "date": "1837",
+      "label": "Cooke et Wheatstone",
+      "texte": "Brevet anglais de télégraphe électrique."
+     },
+     {
+      "date": "1844",
+      "label": "Morse",
+      "texte": "La ligne Washington-Baltimore fonctionne ; le code de Morse et Vail donne aux lettres fréquentes les combinaisons les plus courtes."
+     },
+     {
+      "date": "1866",
+      "label": "Câble transatlantique",
+      "texte": "Posé entre l'Irlande et Terre-Neuve par le Great Eastern : une dépêche traverse l'Atlantique en quelques minutes au lieu de dix jours de bateau."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le téléphone, transmettre la voix",
+   "texte": "Le télégraphe transmet des signaux discontinus ; le téléphone transporte le son lui-même. Le principe consiste à convertir les vibrations de la voix en un courant électrique variable, puis à refaire l'opération inverse à l'arrivée : une membrane vibre, elle fait varier une résistance ou déplace une bobine dans un champ magnétique, et le courant reproduit la forme de l'onde sonore. La paternité de l'invention est l'une des plus disputées de l'histoire des techniques. L'Italien Antonio Meucci présente dès 1860 un appareil de transmission de la voix mais n'a pas les moyens financiers de déposer un brevet complet. En 1876, Alexander Graham Bell obtient le brevet américain quelques heures seulement avant qu'Elisha Gray ne dépose une déclaration décrivant un dispositif proche, ce qui donnera lieu à des procès retentissants. Les historiens s'accordent aujourd'hui à considérer qu'il s'agit d'une invention préparée par plusieurs travaux parallèles plutôt que par un seul homme. La diffusion est rapide : le microphone à charbon d'Edison et de Hughes améliore beaucoup la qualité, et les abonnés sont d'abord reliés par des standards manuels où des opératrices branchent les fiches. En 1891, l'Américain Almon Strowger brevette un commutateur automatique qui supprime cette intervention humaine et ouvre la voie aux réseaux téléphoniques de masse du XXe siècle.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Le téléphone, une paternité disputée",
+    "colonnes": [
+     "Qui",
+     "Quand",
+     "Ce qu'il apporte"
+    ],
+    "lignes": [
+     [
+      "Antonio Meucci",
+      "1860",
+      "Présente un appareil de transmission de la voix, mais n'a pas les moyens de déposer un brevet complet"
+     ],
+     [
+      "Alexander Graham Bell",
+      "1876",
+      "Obtient le brevet américain"
+     ],
+     [
+      "Elisha Gray",
+      "1876",
+      "Dépose quelques heures plus tard une déclaration décrivant un dispositif proche ; procès retentissants"
+     ],
+     [
+      "Almon Strowger",
+      "1891",
+      "Brevette le commutateur automatique, qui supprime les standardistes"
+     ]
+    ],
+    "note": "Les historiens s'accordent aujourd'hui à y voir une invention préparée par plusieurs travaux parallèles plutôt que par un seul homme."
+   }
+  },
+  {
+   "titre": "Les ondes : radio et télévision",
+   "texte": "En 1865, le physicien écossais James Clerk Maxwell réunit l'électricité et le magnétisme dans un ensemble d'équations et prédit l'existence d'ondes électromagnétiques se propageant à la vitesse de la lumière. En 1887, l'Allemand Heinrich Hertz les produit et les détecte en laboratoire, sans y voir d'application pratique. C'est l'Italien Guglielmo Marconi qui, à partir de 1895, transforme cette curiosité en système de communication : il augmente la portée en surélevant l'antenne et en la reliant à la terre, et réussit en 1901 une transmission à travers l'Atlantique. Le Russe Alexandre Popov a mené des travaux comparables au même moment, et la primauté reste discutée selon les pays. La télégraphie sans fil s'impose d'abord en mer, où aucun câble n'est possible : le naufrage du Titanic en 1912 montre à la fois son utilité et la nécessité d'une veille permanente. Après 1920, la radiodiffusion transmet la parole et la musique à un public de masse et devient un média politique et culturel majeur. La télévision suit le même chemin : les procédés mécaniques de John Logie Baird dans les années 1920 sont vite supplantés par le balayage électronique du tube cathodique, mis au point notamment par Vladimir Zworykin et Philo Farnsworth, et la diffusion régulière commence dans les années 1930."
+  },
+  {
+   "titre": "Satellites, fibre optique et réseaux mondiaux",
+   "texte": "En 1945, l'écrivain et ingénieur britannique Arthur C. Clarke publie une idée remarquable : un satellite placé à environ trente-six mille kilomètres au-dessus de l'équateur tourne en vingt-quatre heures et paraît donc immobile depuis le sol, ce qui permettrait de couvrir la planète avec trois relais. L'orbite géostationnaire porte aujourd'hui son nom. En 1962, Telstar retransmet les premières images de télévision entre les États-Unis et l'Europe, avant que les satellites géostationnaires ne rendent les liaisons permanentes. Parallèlement, la transmission par câble connaît sa propre révolution. En 1966, Charles Kao démontre que le verre, s'il est suffisamment pur, peut guider la lumière sur de longues distances par réflexion totale : la fibre optique, dont les premières versions à faible perte apparaissent en 1970, transporte des débits sans commune mesure avec le cuivre et constitue aujourd'hui l'ossature d'Internet, y compris sous les océans. Le téléphone lui-même devient mobile : après les premiers réseaux analogiques, la norme numérique GSM, définie en Europe dans les années 1980 et lancée au début des années 1990, découpe le territoire en cellules dont chacune est desservie par une antenne. Enfin, le système américain GPS, pleinement opérationnel en 1995, utilise une constellation de satellites dont les signaux horodatés permettent à un récepteur de calculer sa position."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Comment fonctionnait le télégraphe optique mis au point par Claude Chappe en 1794 ?",
+   "choix": [
+    "Par des impulsions électriques envoyées dans un fil de cuivre",
+    "Par des miroirs réfléchissant la lumière du soleil vers le poste suivant",
+    "Par des ballons porteurs de messages écrits",
+    "Par des bras articulés placés sur des tours et observés à la lunette d'un poste à l'autre"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "Le système de Chappe reposait sur des tours espacées d'une dizaine de kilomètres, portant chacune un mât muni de bras mobiles. L'opérateur formait des figures correspondant, dans un dictionnaire codé, à des mots ou à des phrases, et le poste suivant les recopiait après les avoir observées à la lunette. Un message pouvait ainsi parcourir plusieurs centaines de kilomètres en moins d'une heure. Le procédé était toutefois inutilisable la nuit et par mauvaise visibilité, et l'électricité n'était pas encore maîtrisée : le télégraphe électrique n'apparaîtra que dans les années 1830 et 1840."
+  },
+  {
+   "q": "Quel est l'intérêt principal du code Morse pour la télégraphie électrique ?",
+   "choix": [
+    "Il permet de transmettre directement le son de la voix",
+    "Il représente chaque lettre par une suite de points et de traits, les lettres fréquentes recevant les codes les plus courts",
+    "Il chiffre les messages pour les rendre incompréhensibles à l'ennemi",
+    "Il supprime le besoin d'un opérateur à l'arrivée"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Le code élaboré par Samuel Morse et Alfred Vail traduit chaque caractère en une combinaison d'impulsions brèves et longues, ce qui permet de tout transmettre avec un seul fil et un seul manipulateur. Les lettres les plus courantes de l'anglais, comme le E et le T, reçoivent les signaux les plus courts, ce qui accélère l'envoi : c'est une intuition très proche de ce que la théorie de l'information formalisera bien plus tard. Le code n'a pas de fonction de chiffrement, il est au contraire public. Un opérateur reste par ailleurs nécessaire à l'arrivée pour écouter les impulsions et transcrire le message. Quant à la voix elle-même, elle ne sera transmise qu'avec le téléphone, plus de trente ans plus tard."
+  },
+  {
+   "q": "Que peut-on dire de la paternité de l'invention du téléphone ?",
+   "choix": [
+    "Elle est disputée : Meucci, Gray et Bell ont travaillé sur des dispositifs proches, et Bell a obtenu le brevet en 1876",
+    "Elle revient sans conteste à Thomas Edison, seul inventeur du procédé",
+    "Elle revient à Guglielmo Marconi, qui l'a breveté en 1901",
+    "Elle est attribuée à Heinrich Hertz depuis ses expériences de 1887"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "L'histoire du téléphone est un exemple classique d'invention préparée par plusieurs travaux parallèles. Antonio Meucci avait présenté dès 1860 un appareil transmettant la voix mais n'avait pas les ressources nécessaires pour protéger pleinement son invention. Alexander Graham Bell a déposé son brevet en 1876, quelques heures avant qu'Elisha Gray ne fasse enregistrer la description d'un dispositif comparable, ce qui a entraîné de longues batailles judiciaires. Edison a apporté une amélioration importante, le microphone à charbon, mais n'est pas l'inventeur de l'appareil. Marconi et Hertz sont liés aux ondes radio, pas au téléphone."
+  },
+  {
+   "q": "Pourquoi un satellite placé sur l'orbite géostationnaire semble-t-il immobile depuis le sol ?",
+   "choix": [
+    "Parce qu'il est maintenu en place par ses moteurs allumés en permanence",
+    "Parce qu'à environ trente-six mille kilomètres au-dessus de l'équateur, sa période de révolution est de vingt-quatre heures",
+    "Parce qu'il est trop éloigné pour que son mouvement soit perceptible",
+    "Parce que la gravité terrestre est nulle à cette altitude"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "À environ trente-six mille kilomètres d'altitude, un satellite met exactement vingt-quatre heures pour boucler son orbite. S'il tourne dans le plan de l'équateur et dans le sens de rotation de la Terre, il reste donc en permanence au-dessus du même point du globe. Arthur C. Clarke avait décrit cette possibilité dès 1945 et montré que trois satellites suffiraient à couvrir presque toute la planète. La gravité n'est nullement nulle à cette altitude : c'est justement elle qui maintient le satellite en orbite, et de petites corrections de trajectoire ne servent qu'à compenser les perturbations."
+  },
+  {
+   "q": "Sur quel principe physique repose la fibre optique, dont Charles Kao a montré en 1966 le potentiel pour les télécommunications ?",
+   "choix": [
+    "Sur la conduction du courant électrique par un fil de verre",
+    "Sur le guidage de la lumière dans un verre très pur grâce à la réflexion totale",
+    "Sur l'émission d'ondes radio par un filament chauffé",
+    "Sur la propagation du son dans un matériau solide"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Une fibre optique est un fil de verre extrêmement pur dans lequel un rayon lumineux, arrivant sous un angle suffisamment rasant sur la paroi, est intégralement renvoyé vers l'intérieur : c'est la réflexion totale. La lumière progresse ainsi sur des kilomètres en suivant les courbures de la fibre. La contribution de Charles Kao a été de montrer que les pertes observées provenaient des impuretés du verre et non du principe lui-même, ce qui a orienté les recherches vers des verres ultrapurs. Le verre est isolant et ne conduit pas le courant ; les signaux transmis sont des impulsions lumineuses."
+  }
+ ]
+}

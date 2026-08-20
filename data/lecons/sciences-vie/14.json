@@ -1,0 +1,186 @@
+{
+ "titre": "Les océans et la vie marine",
+ "sections": [
+  {
+   "titre": "La planète bleue",
+   "texte": "Vue de l'espace, la Terre mériterait davantage le nom de planète océan que celui de planète Terre. Les océans couvrent en effet environ 70,8 % de sa surface, soit près de 361 millions de kilomètres carrés, et représentent un volume d'eau d'environ 1,37 milliard de kilomètres cubes. Les géographes en distinguent aujourd'hui cinq. Le plus vaste est le Pacifique, avec 165,25 millions de kilomètres carrés, soit 43,5 % du total ; viennent ensuite l'Atlantique avec 106,4 millions de kilomètres carrés (28 %), l'océan Indien avec 73,5 millions (19,4 %), l'océan Austral avec 20,3 millions (5,4 %) et enfin l'océan Arctique avec 14,09 millions (3,7 %). La profondeur moyenne avoisine 3 700 à 3 800 mètres, ce qui signifie que la majeure partie de cet immense volume est plongée dans l'obscurité permanente. Le point le plus profond connu se situe dans la fosse des Mariannes, à 10 984 mètres, à 25 mètres près : le mont Everest y serait entièrement englouti. L'eau de mer contient en moyenne 35 grammes de sels dissous par litre, ce que l'on note 35 pour mille, et sa masse volumique varie entre 1 020 et 1 035 kilogrammes par mètre cube. Ces chiffres décrivent le plus grand espace habitable de la planète.",
+   "visuel": {
+    "type": "barres",
+    "titre": "Les cinq océans par leur surface",
+    "unite": "millions de km²",
+    "donnees": [
+     {
+      "label": "Pacifique",
+      "valeur": 165.25,
+      "affichage": "165,25 M km² (43,5 %)"
+     },
+     {
+      "label": "Atlantique",
+      "valeur": 106.4,
+      "affichage": "106,4 M km² (28 %)"
+     },
+     {
+      "label": "Indien",
+      "valeur": 73.5,
+      "affichage": "73,5 M km² (19,4 %)"
+     },
+     {
+      "label": "Austral",
+      "valeur": 20.3,
+      "affichage": "20,3 M km² (5,4 %)"
+     },
+     {
+      "label": "Arctique",
+      "valeur": 14.09,
+      "affichage": "14,09 M km² (3,7 %)"
+     }
+    ],
+    "note": "Ensemble, ils couvrent environ 70,8 % de la surface de la Terre, pour une profondeur moyenne de 3 700 à 3 800 mètres. Le point le plus profond connu, dans la fosse des Mariannes, atteint 10 984 mètres : le mont Everest y serait entièrement englouti."
+   }
+  },
+  {
+   "titre": "Un moteur du climat",
+   "texte": "Les océans ne servent pas seulement de décor à la vie marine : ils règlent le fonctionnement de la planète entière. On estime qu'ils régulent plus de 80 % du climat terrestre. Cela tient d'abord aux propriétés de l'eau, qui emmagasine d'énormes quantités de chaleur sans que sa température varie beaucoup : l'océan amortit ainsi les écarts thermiques, et les régions côtières connaissent des hivers plus doux et des étés plus frais que les terres intérieures. Cela tient ensuite aux courants marins, qui transportent la chaleur des régions équatoriales vers les hautes latitudes, comme le fait le Gulf Stream pour l'Europe de l'Ouest. Les océans jouent également un rôle majeur dans la respiration de la planète : le phytoplancton, ensemble des végétaux microscopiques dérivant près de la surface, produit par photosynthèse une grande partie du dioxygène que nous respirons, tout en absorbant du dioxyde de carbone. Cette absorption a cependant un coût, car le dioxyde de carbone dissous rend l'eau plus acide, ce qui gêne les organismes à coquille calcaire. Les océans fournissent enfin plus de 60 % des services rendus par les écosystèmes à l'humanité. Or les activités humaines affectent notablement environ 40 % de leur surface, et 4 % seulement demeurent relativement préservés."
+  },
+  {
+   "titre": "Le plus vaste espace de vie",
+   "texte": "Les océans concentrent environ 96 % du volume de la biosphère, c'est-à-dire de l'espace occupé par le vivant, et abritent entre 50 et 80 % des espèces de la planète. La vie y est répartie en grands domaines. La zone superficielle, éclairée, permet la photosynthèse et concentre l'essentiel de la production : c'est là que vit le plancton, ce peuple dérivant fait d'algues microscopiques et de minuscules animaux, à la base de presque toutes les chaînes alimentaires marines. En dessous s'étend le domaine pélagique profond, puis les zones abyssales, où l'obscurité est totale, la pression écrasante et la nourriture rare, ce qui n'empêche pas des animaux étranges d'y prospérer, souvent capables de produire eux-mêmes de la lumière. Pourtant, ce monde reste mal connu : environ 95 % de l'océan demeure inexploré et l'on estime que 70 à 80 % des espèces marines n'ont pas encore été décrites. Les bases de données spécialisées, comme WoRMS, recensent aujourd'hui plus de 206 000 espèces marines valides ; les espèces documentées dans les océans ne représentent que 13 % du total mondial connu, alors que les océans constituent 99 % du volume habitable. Chaque campagne océanographique en eaux profondes ramène ainsi son lot d'organismes inconnus de la science. Il reste donc beaucoup à découvrir sous la surface.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "Le plus vaste espace de vie, et le moins connu",
+    "items": [
+     {
+      "valeur": "96 %",
+      "label": "du volume de la biosphère se trouve dans les océans"
+     },
+     {
+      "valeur": "50 à 80 %",
+      "label": "des espèces de la planète y vivent"
+     },
+     {
+      "valeur": "95 %",
+      "label": "de l'océan demeure inexploré"
+     },
+     {
+      "valeur": "206 000",
+      "label": "espèces marines valides recensées à ce jour"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Les récifs coralliens, oasis de biodiversité",
+   "texte": "Les récifs coralliens sont des constructions naturelles édifiées principalement par des coraux qui sécrètent du carbonate de calcium, formant peu à peu des structures rocheuses. Leur secret est une association étroite entre deux êtres vivants : les polypes du corail hébergent dans leurs cellules des micro-algues appelées zooxanthelles, qui y réalisent la photosynthèse et fournissent à leur hôte des sucres et du dioxygène. Cette symbiose explique la croissance des récifs et leur cantonnement aux eaux claires et éclairées. Le résultat est stupéfiant : bien qu'ils n'occupent que 0,1 % de la surface des océans, les récifs abritent plus de 25 % de la biodiversité marine. Les trois plus grands ensembles coralliens du monde se trouvent en Australie, en Nouvelle-Calédonie, dont la barrière continue de 1 600 kilomètres est la deuxième plus longue du monde, et au Belize ; la France, présente dans trois océans, est responsable d'environ 10 % des récifs mondiaux. Ces oasis sont aujourd'hui gravement menacées : 30 % d'entre elles sont en fort déclin et plus de 60 % pourraient être perdues d'ici 2030, sous l'effet du réchauffement, de l'acidification, des pollutions et de pêches destructrices au cyanure ou à l'explosif. En 2008, on estimait leur valeur économique annuelle à environ 30 milliards de dollars, dont dépendent au moins 30 millions de personnes.",
+   "visuels": [
+    {
+     "type": "image",
+     "image": "svt-recif-corallien",
+     "legende": "Plongée sur un récif corallien à Vairao, à Tahiti : coraux constructeurs, algues encroûtantes et poissons-pincettes jaunes.",
+     "alt": "Photographie sous-marine d'un récif corallien : au premier plan des coraux beiges et roses aux formes de bois de cerf et de plateaux, deux poissons jaunes à museau allongé, et au-dessus un plongeur en silhouette devant le soleil."
+    },
+    {
+     "type": "chiffres",
+     "titre": "Les récifs coralliens",
+     "items": [
+      {
+       "valeur": "0,1 %",
+       "label": "de la surface des océans"
+      },
+      {
+       "valeur": "25 %",
+       "label": "de la biodiversité marine qu'ils abritent"
+      },
+      {
+       "valeur": "1 600 km",
+       "label": "la barrière continue de Nouvelle-Calédonie, deuxième plus longue du monde"
+      },
+      {
+       "valeur": "60 %",
+       "label": "des récifs pourraient être perdus d'ici 2030"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Une biodiversité marine en recul",
+   "texte": "La biodiversité marine désigne l'ensemble de la diversité biologique des mers, des océans, des lagunes et des zones côtières. Elle inclut les espèces strictement marines, mais aussi les organismes semi-aquatiques qui dépendent de ces milieux, comme les oiseaux de mer ou la loutre de mer. Or cette diversité régresse depuis plus de cinquante ans sous l'effet des activités humaines, en particulier de la surpêche et des pollutions concentrées sur les zones côtières. Les travaux cités par les spécialistes attribuent 55 % des extinctions d'espèces marines à la pêche et 37 % à la destruction des habitats. Le réchauffement climatique ajoute une menace propre : à lui seul, il pourrait entraîner une perte de 17 % de la biomasse animale marine d'ici 2100. L'enjeu n'est pas seulement écologique. Les écosystèmes marins représentent environ 63 % de la valeur des services rendus par l'ensemble des écosystèmes de la planète, à travers la pêche, le tourisme, les molécules utilisées en pharmacie ou les énergies renouvelables. Face à ces constats, des organismes de recherche comme l'IFREMER en France et des programmes internationaux s'efforcent d'inventorier les espèces, de créer des aires marines protégées et d'encadrer la pêche, car on ne protège bien que ce que l'on connaît."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quelle part de la surface de la Terre les océans couvrent-ils ?",
+   "choix": [
+    "Environ 50 %",
+    "Environ 70,8 %",
+    "Environ 90 %",
+    "Environ 30 %"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Les océans couvrent environ 70,8 % de la surface du globe, soit près de 361 millions de kilomètres carrés, pour un volume d'environ 1,37 milliard de kilomètres cubes. Cette domination de l'eau justifie le surnom de planète bleue. La profondeur moyenne, de 3 700 à 3 800 mètres, montre que l'essentiel de ce volume échappe à la lumière du soleil. Le point le plus profond connu, dans la fosse des Mariannes, atteint 10 984 mètres. Les océans concentrent ainsi environ 96 % du volume de la biosphère, l'espace où la vie est possible."
+  },
+  {
+   "q": "Quel est le plus vaste des cinq océans ?",
+   "choix": [
+    "L'Atlantique",
+    "L'océan Indien",
+    "Le Pacifique",
+    "L'océan Austral"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "Le Pacifique est le plus vaste des océans avec 165,25 millions de kilomètres carrés, soit 43,5 % de la surface océanique totale, presque autant que tous les autres réunis. Vient ensuite l'Atlantique, avec 106,4 millions de kilomètres carrés soit 28 %, puis l'océan Indien avec 73,5 millions soit 19,4 %. L'océan Austral, autour de l'Antarctique, en représente 5,4 % et l'océan Arctique 3,7 % seulement. C'est aussi dans le Pacifique que se trouve la fosse des Mariannes, point le plus profond connu du globe."
+  },
+  {
+   "q": "Quelle est la salinité moyenne de l'eau de mer ?",
+   "choix": [
+    "Environ 35 grammes de sels par litre",
+    "Environ 3 grammes par litre",
+    "Environ 100 grammes par litre",
+    "Environ 350 grammes par litre"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'eau de mer contient en moyenne environ 35 grammes de sels dissous par litre, valeur que l'on exprime souvent en disant 35 pour mille. Ces sels, dont le principal est le chlorure de sodium, proviennent surtout de l'érosion des roches continentales apportée par les fleuves depuis des centaines de millions d'années. Cette teneur explique que la masse volumique de l'eau de mer, comprise entre 1 020 et 1 035 kilogrammes par mètre cube, dépasse celle de l'eau douce, et donc que l'on y flotte plus facilement. Une salinité de 350 grammes par litre correspondrait à une saumure saturée, incompatible avec la plupart des formes de vie marine."
+  },
+  {
+   "q": "Quelle proportion de la biodiversité marine les récifs coralliens abritent-ils, alors qu'ils occupent seulement 0,1 % des océans ?",
+   "choix": [
+    "Environ 1 %",
+    "Environ 5 %",
+    "Plus de 25 %",
+    "Plus de 80 %"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Les récifs coralliens n'occupent que 0,1 % de la surface des océans mais abritent plus de 25 % de la biodiversité marine, ce qui en fait de véritables oasis. Cette richesse repose sur une symbiose : les polypes de corail hébergent des micro-algues, les zooxanthelles, qui réalisent la photosynthèse dans leurs cellules et leur fournissent sucres et dioxygène. Cette dépendance à la lumière cantonne les récifs aux eaux claires et peu profondes. Ils sont aujourd'hui très menacés : 30 % d'entre eux sont en fort déclin et plus de 60 % pourraient disparaître d'ici 2030."
+  },
+  {
+   "q": "Quelle est la première cause d'extinction des espèces marines selon les travaux cités ?",
+   "choix": [
+    "La pollution plastique",
+    "La pêche, à hauteur de 55 %",
+    "Les éruptions volcaniques sous-marines",
+    "Le tourisme côtier"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Les travaux cités attribuent 55 % des extinctions d'espèces marines à la pêche, devant la destruction des habitats qui en explique 37 %. La biodiversité marine régresse ainsi depuis plus de cinquante ans sous l'effet des activités humaines, la surpêche et les pollutions se concentrant surtout dans les zones côtières. À ces pressions s'ajoute le réchauffement climatique, qui pourrait à lui seul provoquer une perte de 17 % de la biomasse animale marine d'ici 2100. L'enjeu est aussi économique, puisque les écosystèmes marins représentent environ 63 % de la valeur des services rendus par les écosystèmes."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Océan",
+   "url": "https://fr.wikipedia.org/wiki/Oc%C3%A9an"
+  },
+  {
+   "titre": "Vie marine",
+   "url": "https://fr.wikipedia.org/wiki/Vie_marine"
+  },
+  {
+   "titre": "Récif corallien",
+   "url": "https://fr.wikipedia.org/wiki/R%C3%A9cif_corallien"
+  }
+ ]
+}

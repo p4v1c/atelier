@@ -1,0 +1,200 @@
+{
+ "titre": "La nutrition et la digestion",
+ "sections": [
+  {
+   "titre": "Manger : transformer des aliments en nutriments",
+   "texte": "Aucun être vivant ne peut utiliser directement un morceau de pain ou une tranche de viande. Les aliments sont faits de très grosses molécules, bien trop volumineuses pour traverser les parois du corps et rejoindre le sang. La digestion est précisément l'ensemble des transformations mécaniques et chimiques qui réduisent les aliments en nutriments assimilables, c'est-à-dire en molécules assez petites pour être absorbées. Le mot mécanique désigne le broyage, le brassage et le malaxage ; le mot chimique désigne la découpe des molécules par des substances appelées enzymes. Une enzyme est une protéine qui accélère une réaction chimique précise, un peu comme un outil spécialisé : l'amylase s'attaque aux glucides, la pepsine aux protéines, la lipase aux graisses. Chez l'être humain, l'ensemble du processus dure généralement de huit à douze heures, mais cette durée varie selon la composition du repas et selon les individus. Cette fonction n'est pas propre aux animaux : les champignons et certaines plantes carnivores digèrent également leurs proies, à l'aide d'enzymes qu'elles sécrètent. L'organe où tout se déroule est un long tube ouvert aux deux extrémités, le tube digestif, dont le contenu reste en réalité extérieur au corps tant qu'il n'a pas été absorbé. Comprendre la digestion, c'est donc suivre le voyage d'un aliment le long de ce tube et observer ce qui, à chaque étape, en est extrait."
+  },
+  {
+   "titre": "Le voyage d'un aliment",
+   "texte": "Le tube digestif humain mesure environ neuf mètres de long, de la bouche à l'anus. Le voyage commence dans la bouche, où les dents broient les aliments et où la salive, dont le pH est proche de 6,8, apporte une première enzyme, l'amylase salivaire, qui commence à découper les glucides. Le bol alimentaire est ensuite avalé et descend dans l'œsophage, poussé par des contractions musculaires. Il arrive dans l'estomac, une poche très acide dont l'acidité dénature les protéines, c'est-à-dire les déplie pour les rendre attaquables, tout en détruisant la plupart des microbes avalés. L'estomac est en moyenne à moitié vide après un peu plus d'une heure et complètement vidé après quatre à cinq heures. La bouillie obtenue, appelée chyme, passe alors dans le duodénum, première portion de l'intestin grêle. Là, le pancréas déverse du bicarbonate qui neutralise l'acidité, car les enzymes intestinales ne fonctionnent qu'en milieu neutre, ainsi que des enzymes attaquant protéines et graisses. Le foie, lui, fabrique la bile, qui disperse les graisses en fines gouttelettes. C'est dans l'intestin grêle, traversé en quatre heures environ, que se réalise l'essentiel de la digestion. Les résidus passent enfin dans le gros intestin, où ils séjournent trente à quarante heures avant d'être éliminés.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "Le voyage d'un aliment, du début à la fin",
+    "etapes": [
+     {
+      "label": "La bouche",
+      "texte": "Les dents broient, la salive (pH voisin de 6,8) apporte l'amylase salivaire qui commence à découper les glucides."
+     },
+     {
+      "label": "L'œsophage",
+      "texte": "Des contractions musculaires poussent le bol alimentaire vers le bas."
+     },
+     {
+      "label": "L'estomac",
+      "texte": "L'acidité déplie les protéines et détruit la plupart des microbes. À moitié vidé après un peu plus d'une heure, complètement après quatre à cinq heures."
+     },
+     {
+      "label": "Le duodénum",
+      "texte": "Le pancréas neutralise l'acidité avec du bicarbonate et déverse ses enzymes ; le foie fournit la bile qui disperse les graisses."
+     },
+     {
+      "label": "L'intestin grêle",
+      "texte": "L'essentiel de la digestion s'y accomplit, en quatre heures environ."
+     },
+     {
+      "label": "Le gros intestin",
+      "texte": "Les résidus y séjournent trente à quarante heures avant d'être éliminés."
+     }
+    ],
+    "note": "Le tube digestif mesure environ neuf mètres ; la digestion complète dure de huit à douze heures."
+   }
+  },
+  {
+   "titre": "L'absorption : franchir la paroi",
+   "texte": "Digérer ne suffit pas : il faut encore faire passer les nutriments du tube digestif vers le sang. Cette étape, l'absorption, se déroule presque entièrement dans l'intestin grêle, dont la paroi est admirablement adaptée à cette tâche. Elle n'est pas lisse mais couverte de replis, eux-mêmes hérissés de petites saillies en forme de doigts, les villosités intestinales. Chaque cellule de ces villosités porte à son tour des prolongements microscopiques, les microvillosités. Cet emboîtement de plis à trois niveaux multiplie énormément la surface disponible : la paroi intestinale offre ainsi au contact des aliments une surface d'échange sans commune mesure avec la simple surface d'un tube. C'est le même principe qu'une serviette éponge, dont les boucles absorbent bien plus d'eau qu'un tissu plat de mêmes dimensions. Chaque villosité contient de minuscules vaisseaux sanguins et un vaisseau lymphatique. Les sucres simples et les acides aminés issus des protéines passent dans le sang et sont conduits d'abord au foie ; les graisses, elles, empruntent plutôt la voie lymphatique. Le gros intestin, en aval, absorbe surtout l'eau et les sels minéraux. Il abrite aussi une abondante population de bactéries, le microbiote, qui fermente les matières que nos propres enzymes n'ont pas su découper, comme certaines fibres végétales."
+  },
+  {
+   "titre": "Les nutriments et l'énergie",
+   "texte": "Les nutriments se répartissent en deux grandes familles. Les macronutriments sont nécessaires en grande quantité et fournissent l'énergie du corps : ce sont les glucides, les lipides et les protides. Dans une alimentation équilibrée, les glucides apportent de 40 à 55 % de l'énergie totale, les lipides de 35 à 40 %, et les protéines de 10 à 20 %. À masse égale, les lipides sont les plus énergétiques, avec environ neuf kilocalories par gramme, contre environ quatre pour les glucides et les protéines : c'est pourquoi les graisses constituent la réserve d'énergie de l'organisme. Mais l'énergie n'est pas le seul rôle des nutriments. Les protéines servent surtout à construire et à réparer les tissus, muscles, peau ou enzymes. Les micronutriments, eux, sont indispensables en très petites quantités : ce sont les vitamines (A, B, C, D, E, K) et les minéraux comme le calcium, le fer, le zinc ou le magnésium. Ils ne fournissent pas d'énergie mais règlent le fonctionnement du métabolisme. Certains nutriments sont dits essentiels : le corps ne sait pas les fabriquer et doit impérativement les trouver dans l'alimentation. L'eau, enfin, est indispensable à tous les processus biologiques, avec un besoin quotidien de l'ordre de 2,8 litres chez l'adulte, apportés à la fois par les boissons et par les aliments.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les macronutriments",
+    "colonnes": [
+     "Nutriment",
+     "Part de l'énergie totale",
+     "Énergie par gramme",
+     "Rôle principal"
+    ],
+    "lignes": [
+     [
+      "Glucides",
+      "40 à 55 %",
+      "environ 4 kcal",
+      "Carburant immédiat"
+     ],
+     [
+      "Lipides",
+      "35 à 40 %",
+      "environ 9 kcal",
+      "Réserve d'énergie de l'organisme"
+     ],
+     [
+      "Protides",
+      "10 à 20 %",
+      "environ 4 kcal",
+      "Construire et réparer les tissus, fabriquer les enzymes"
+     ]
+    ],
+    "note": "Les micronutriments — vitamines A, B, C, D, E, K et minéraux comme le calcium, le fer, le zinc ou le magnésium — ne fournissent pas d'énergie mais règlent le métabolisme. Besoin quotidien en eau : environ 2,8 litres."
+   }
+  },
+  {
+   "titre": "Une machinerie réglée par des hormones",
+   "texte": "La digestion ne se déclenche pas au hasard : elle est commandée avec précision par des messagers chimiques transportés par le sang, les hormones. Cinq d'entre elles jouent un rôle essentiel. La gastrine stimule la production d'acide par l'estomac lorsque des aliments y arrivent. La sécrétine, libérée quand le chyme acide atteint le duodénum, demande au pancréas d'envoyer du bicarbonate pour neutraliser cette acidité. La cholécystokinine provoque la libération de la bile stockée dans la vésicule biliaire et des enzymes du pancréas, surtout en présence de graisses. Le GIP ralentit la vidange de l'estomac, afin que l'intestin ne soit pas submergé. La motiline, enfin, stimule les mouvements du tube digestif. On voit que chaque organe prévient le suivant de ce qui arrive, et que le suivant prépare les outils adaptés : c'est une véritable chaîne de coordination. Ce système explique aussi pourquoi un repas très gras est plus long à digérer qu'un repas léger, l'estomac se vidant plus lentement. Le système nerveux participe également à cette régulation, notamment par le système parasympathique, qui favorise la digestion au repos. Manger n'est donc pas un acte simple : c'est la mise en route coordonnée de nombreux organes, dont beaucoup travaillent sans que nous en ayons la moindre conscience.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Cinq hormones qui commandent la digestion",
+    "colonnes": [
+     "Hormone",
+     "Déclencheur",
+     "Effet"
+    ],
+    "lignes": [
+     [
+      "Gastrine",
+      "Arrivée des aliments dans l'estomac",
+      "Stimule la production d'acide"
+     ],
+     [
+      "Sécrétine",
+      "Chyme acide atteignant le duodénum",
+      "Demande au pancréas d'envoyer du bicarbonate"
+     ],
+     [
+      "Cholécystokinine",
+      "Présence de graisses",
+      "Libère la bile de la vésicule et les enzymes du pancréas"
+     ],
+     [
+      "GIP",
+      "Arrivée du chyme dans l'intestin",
+      "Ralentit la vidange de l'estomac"
+     ],
+     [
+      "Motiline",
+      "—",
+      "Stimule les mouvements du tube digestif"
+     ]
+    ],
+    "note": "Chaque organe prévient le suivant de ce qui arrive, et le suivant prépare les outils adaptés."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quelle est la longueur approximative du tube digestif humain ?",
+   "choix": [
+    "Environ 2 mètres",
+    "Environ 9 mètres",
+    "Environ 20 mètres",
+    "Environ 50 centimètres"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Le tube digestif humain mesure environ neuf mètres, de la bouche à l'anus. Cette longueur, repliée dans l'abdomen, permet un contact prolongé entre les aliments et les sucs digestifs. L'intestin grêle en constitue à lui seul la plus grande partie et représente le lieu principal de la digestion et de l'absorption. Les aliments n'y circulent pas à la même vitesse partout : la traversée de l'intestin grêle prend environ quatre heures, tandis que le séjour dans le gros intestin dure trente à quarante heures. La durée totale de la digestion est le plus souvent de huit à douze heures."
+  },
+  {
+   "q": "Quel organe fabrique la bile, qui aide à digérer les graisses ?",
+   "choix": [
+    "Le pancréas",
+    "L'estomac",
+    "Le foie",
+    "Le gros intestin"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La bile est produite par le foie, puis stockée dans la vésicule biliaire avant d'être déversée dans le duodénum. Elle ne contient pas d'enzymes mais disperse les graisses en fines gouttelettes, ce qui permet aux lipases de les attaquer efficacement. Le pancréas, souvent confondu avec le foie dans ce rôle, fournit de son côté des enzymes digestives et du bicarbonate destiné à neutraliser l'acidité venue de l'estomac. L'estomac sécrète surtout de l'acide et de la pepsine, tandis que le gros intestin absorbe l'eau et héberge le microbiote."
+  },
+  {
+   "q": "À quoi servent les villosités de l'intestin grêle ?",
+   "choix": [
+    "À broyer mécaniquement les aliments",
+    "À augmenter la surface d'absorption",
+    "À produire de l'acide chlorhydrique",
+    "À fabriquer des hormones de la faim"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "La paroi de l'intestin grêle est couverte de replis portant des villosités, elles-mêmes recouvertes de microvillosités. Cet emboîtement multiplie considérablement la surface de contact entre les nutriments et la paroi, ce qui rend l'absorption beaucoup plus efficace. Chaque villosité contient de minuscules vaisseaux sanguins et un vaisseau lymphatique qui recueillent les nutriments : les sucres et les acides aminés partent par le sang vers le foie, les graisses empruntent surtout la voie lymphatique. Le broyage mécanique, lui, a lieu dans la bouche et l'estomac, et l'acide chlorhydrique est produit par l'estomac."
+  },
+  {
+   "q": "Quel nutriment apporte le plus d'énergie à masse égale ?",
+   "choix": [
+    "Les lipides",
+    "Les glucides",
+    "Les protéines",
+    "Les vitamines"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "À masse égale, les lipides fournissent environ neuf kilocalories par gramme, contre environ quatre pour les glucides et pour les protéines. C'est la raison pour laquelle l'organisme stocke son énergie de réserve sous forme de graisses : elles occupent moins de place pour une même quantité d'énergie. Dans un régime équilibré, les lipides représentent 35 à 40 % de l'apport énergétique, les glucides 40 à 55 % et les protéines 10 à 20 %. Les vitamines, elles, sont des micronutriments : indispensables au métabolisme, elles n'apportent aucune énergie."
+  },
+  {
+   "q": "Quelle hormone déclenche la libération de bicarbonate par le pancréas ?",
+   "choix": [
+    "La gastrine",
+    "La motiline",
+    "La cholécystokinine",
+    "La sécrétine"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "La sécrétine est libérée lorsque le chyme acide venu de l'estomac arrive dans le duodénum. Elle demande au pancréas d'envoyer du bicarbonate, une substance basique qui neutralise cette acidité, car les enzymes intestinales ne travaillent qu'en milieu neutre. La gastrine agit plus tôt : elle stimule la production d'acide par l'estomac. La cholécystokinine provoque surtout la libération de bile et d'enzymes pancréatiques en présence de graisses. La motiline, quant à elle, stimule les mouvements du tube digestif. Ces hormones montrent que chaque organe prévient le suivant de ce qui lui arrive."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Digestion",
+   "url": "https://fr.wikipedia.org/wiki/Digestion"
+  },
+  {
+   "titre": "Appareil digestif humain",
+   "url": "https://fr.wikipedia.org/wiki/Appareil_digestif_humain"
+  },
+  {
+   "titre": "Nutriment",
+   "url": "https://fr.wikipedia.org/wiki/Nutriment"
+  }
+ ]
+}

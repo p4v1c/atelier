@@ -1,0 +1,162 @@
+{
+ "titre": "La conquête spatiale : de Spoutnik à la Station spatiale internationale",
+ "sections": [
+  {
+   "titre": "Aux origines : rêver de l'espace, puis construire des fusées",
+   "texte": "L'idée de quitter la Terre est ancienne, mais elle ne devient un projet technique qu'au tournant du XXe siècle. En Russie, l'instituteur Constantin Tsiolkovski publie en 1903 une étude qui établit l'équation fondamentale du vol par réaction : une fusée avance en éjectant de la matière derrière elle, et sa vitesse finale dépend de la vitesse d'éjection des gaz et de la proportion de carburant emporté. Il comprend qu'aucun moteur unique ne suffira et propose déjà le principe des fusées à étages. Aux États-Unis, Robert Goddard fait voler en 1926 la première fusée à ergols liquides, un engin minuscule qui s'élève de quelques dizaines de mètres seulement mais démontre le principe. En Allemagne, Hermann Oberth inspire toute une génération d'ingénieurs. La Seconde Guerre mondiale accélère brutalement ces recherches : l'armée allemande développe à Peenemünde le missile A4, connu sous le nom de V2, première machine construite par l'homme à franchir la frontière de l'espace lors d'un tir d'essai. Cette arme, fabriquée au prix du travail forcé de déportés, fait des milliers de victimes. À la fin du conflit, Américains et Soviétiques récupèrent les plans, les pièces et les ingénieurs allemands, dont Wernher von Braun qui poursuivra sa carrière aux États-Unis. La technique de la fusée entre ainsi dans la guerre froide : les mêmes engins peuvent porter une bombe à l'autre bout du monde ou un satellite en orbite."
+  },
+  {
+   "titre": "Spoutnik, Gagarine et les premiers pas dans l'espace",
+   "texte": "Le 4 octobre 1957, l'Union soviétique place en orbite Spoutnik 1, une sphère métallique de 58 centimètres de diamètre et de 83 kilogrammes qui émet un simple signal radio répétitif. L'effet est immense : les États-Unis découvrent qu'ils sont dépassés et créent l'année suivante la NASA. Un mois plus tard, la chienne Laïka devient le premier être vivant satellisé, mais elle ne survit pas au vol. Le programme soviétique, dirigé dans le secret par l'ingénieur en chef Sergueï Korolev, enchaîne les premières. Le 12 avril 1961, Youri Gagarine effectue à bord de Vostok 1 un tour complet de la Terre en cent huit minutes et devient le premier homme dans l'espace. Les Américains répliquent avec le programme Mercury : Alan Shepard réalise un vol suborbital en mai 1961, puis John Glenn devient orbital en février 1962. En juin 1963, Valentina Terechkova est la première femme à voler, et en mars 1965 Alexeï Leonov réussit la première sortie extravéhiculaire, une manoeuvre qui manque de mal finir car sa combinaison gonflée l'empêche de rentrer par le sas. Ces vols ne servent pas seulement le prestige : ils apprennent à mesurer les effets de l'apesanteur, à contrôler une trajectoire, à concevoir des systèmes de survie et à ramener un équipage vivant à travers la rentrée atmosphérique, l'étape la plus périlleuse.",
+   "visuels": [
+    {
+     "type": "frise",
+     "titre": "Les premières de la course à l'espace",
+     "evenements": [
+      {
+       "date": "4 oct. 1957",
+       "label": "Spoutnik 1",
+       "texte": "Premier satellite artificiel : une sphère de 58 cm et 83 kg qui émet un signal radio."
+      },
+      {
+       "date": "nov. 1957",
+       "label": "Laïka",
+       "texte": "Premier être vivant satellisé ; la chienne ne survit pas au vol."
+      },
+      {
+       "date": "12 avril 1961",
+       "label": "Youri Gagarine",
+       "texte": "Premier homme dans l'espace : un tour de la Terre en 108 minutes à bord de Vostok 1."
+      },
+      {
+       "date": "mai 1961",
+       "label": "Alan Shepard",
+       "texte": "Premier Américain dans l'espace, mais sur un vol suborbital."
+      },
+      {
+       "date": "févr. 1962",
+       "label": "John Glenn",
+       "texte": "Premier Américain en orbite."
+      },
+      {
+       "date": "juin 1963",
+       "label": "Valentina Terechkova",
+       "texte": "Première femme à voler dans l'espace."
+      },
+      {
+       "date": "mars 1965",
+       "label": "Alexeï Leonov",
+       "texte": "Première sortie extravéhiculaire."
+      }
+     ]
+    },
+    {
+     "type": "image",
+     "image": "st-spoutnik",
+     "legende": "Réplique de Spoutnik 1, la sphère de 58 centimètres lancée le 4 octobre 1957.",
+     "alt": "Sphère métallique polie munie de quatre longues antennes fines dirigées vers l'arrière, sur fond noir."
+    }
+   ]
+  },
+  {
+   "titre": "La course à la Lune et le programme Apollo",
+   "texte": "En mai 1961, quelques semaines après le vol de Gagarine, le président John Fitzgerald Kennedy fixe aux États-Unis un objectif spectaculaire : envoyer un homme sur la Lune et le ramener sain et sauf avant la fin de la décennie. Le programme Apollo mobilise jusqu'à quatre cent mille personnes et une part considérable du budget fédéral. Il suppose d'abord d'apprendre à manoeuvrer : le programme intermédiaire Gemini entraîne les équipages aux rendez-vous orbitaux, aux amarrages et aux longues durées. La pièce maîtresse est la fusée Saturn V, conçue sous la direction de Wernher von Braun, haute de cent dix mètres et capable de placer plus de cent tonnes en orbite basse. Le drame de janvier 1967, l'incendie au sol de la capsule Apollo 1 qui tue trois astronautes, oblige à revoir entièrement la conception. Le 20 juillet 1969, le module lunaire d'Apollo 11 se pose dans la mer de la Tranquillité et Neil Armstrong, suivi de Buzz Aldrin, marche sur la Lune tandis que Michael Collins reste en orbite. Cinq autres missions se poseront jusqu'en 1972, rapportant près de quatre cents kilogrammes d'échantillons. Apollo 13, en 1970, connaît l'explosion d'un réservoir d'oxygène et ne doit son retour qu'à l'improvisation des équipes au sol. L'Union soviétique, dont la fusée géante N1 échoue à quatre reprises, abandonne discrètement la course.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "Le programme Apollo en chiffres",
+    "items": [
+     {
+      "valeur": "400 000",
+      "label": "personnes mobilisées"
+     },
+     {
+      "valeur": "110 m",
+      "label": "hauteur de la fusée Saturn V"
+     },
+     {
+      "valeur": "100 t",
+      "label": "placées en orbite basse par Saturn V"
+     },
+     {
+      "valeur": "20 juillet 1969",
+      "label": "Apollo 11 se pose dans la mer de la Tranquillité"
+     },
+     {
+      "valeur": "400 kg",
+      "label": "d'échantillons lunaires rapportés"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Habiter l'orbite : stations spatiales et navettes",
+   "texte": "Après la Lune, l'objectif devient le séjour prolongé en orbite. Les Soviétiques ouvrent la voie avec Saliout 1 en 1971, première station spatiale de l'histoire, dont le premier équipage périt malheureusement lors du retour à cause d'une dépressurisation. Les États-Unis lancent en 1973 Skylab, construit à partir d'un étage de Saturn V, où trois équipages se relaient. En 1975, la mission commune Apollo-Soyouz voit s'amarrer un vaisseau américain et un vaisseau soviétique : c'est un geste politique de détente autant qu'un exploit technique. En 1986, l'Union soviétique met en orbite le premier module de la station Mir, assemblée peu à peu et occupée presque sans interruption pendant une décennie ; le médecin Valeri Poliakov y séjourne quatorze mois d'affilée, record de durée toujours inégalé. De leur côté, les Américains misent sur la navette spatiale, engin partiellement réutilisable qui décolle comme une fusée et atterrit comme un planeur : le premier vol de Columbia a lieu en avril 1981. La navette permet de déployer des satellites, de réparer en orbite le télescope spatial Hubble et d'assembler de grandes structures. Mais elle se révèle bien plus coûteuse et bien moins sûre qu'annoncé : la destruction de Challenger au décollage en 1986 puis celle de Columbia à la rentrée en 2003, chacune coûtant la vie à sept astronautes, conduisent à son retrait en 2011."
+  },
+  {
+   "titre": "La Station spatiale internationale et l'exploration robotique",
+   "texte": "Le 20 novembre 1998 est lancé Zarya, premier élément de la Station spatiale internationale. Le projet réunit les agences spatiales américaine, russe, européenne, japonaise et canadienne : c'est la plus vaste coopération scientifique jamais entreprise en temps de paix. Assemblée module après module, la station mesure une centaine de mètres d'envergure avec ses panneaux solaires, pèse environ quatre cents tonnes et tourne autour de la Terre à quelque quatre cents kilomètres d'altitude, bouclant une orbite en une heure et demie. Elle est occupée en permanence par des équipages internationaux depuis novembre 2000. On y étudie la physiologie humaine en apesanteur, la croissance des cristaux, la combustion et le comportement des fluides, en profitant d'un environnement impossible à reproduire au sol. Parallèlement, l'exploration sans équipage a progressé bien plus loin. Les sondes Voyager, lancées en 1977, ont survolé les planètes géantes avant de quitter le domaine du Soleil. Des atterrisseurs et des robots mobiles étudient Mars depuis les Viking de 1976, tandis que des orbiteurs ont cartographié Vénus, Mercure ou Saturne. Le télescope spatial Hubble, placé en orbite en 1990, a transformé notre vision de l'Univers en observant hors de l'atmosphère. Enfin, des milliers de satellites d'application assurent aujourd'hui la météorologie, les télécommunications, la navigation et l'observation du climat : c'est là que l'espace touche le quotidien de chacun."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel est le nom du premier satellite artificiel placé en orbite autour de la Terre ?",
+   "choix": [
+    "Explorer 1",
+    "Vostok 1",
+    "Spoutnik 1",
+    "Vanguard 1"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "Spoutnik 1 a été lancé par l'Union soviétique le 4 octobre 1957. C'était une sphère métallique d'environ 58 centimètres de diamètre, munie de quatre antennes, qui se contentait d'émettre un signal radio régulier capté dans le monde entier. Explorer 1 est le premier satellite américain, lancé quelques mois plus tard, en janvier 1958. Vostok 1 n'est pas un satellite mais le vaisseau du premier vol habité, en 1961. Vanguard 1, également américain, a été lancé en 1958 après un échec retentissant du premier essai."
+  },
+  {
+   "q": "Qui est le premier être humain à avoir volé dans l'espace, et en quelle année ?",
+   "choix": [
+    "Youri Gagarine, en 1961",
+    "Alan Shepard, en 1959",
+    "Neil Armstrong, en 1965",
+    "John Glenn, en 1960"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le cosmonaute soviétique Youri Gagarine a décollé le 12 avril 1961 à bord du vaisseau Vostok 1 et a effectué un tour complet de la Terre en environ cent huit minutes. Alan Shepard est bien le premier Américain dans l'espace, mais un mois plus tard, en mai 1961, et son vol était seulement suborbital, c'est-à-dire sans mise en orbite. John Glenn est devenu le premier Américain en orbite en février 1962. Neil Armstrong, lui, est resté célèbre pour avoir marché sur la Lune en juillet 1969."
+  },
+  {
+   "q": "Quelle fusée a permis d'envoyer les missions Apollo vers la Lune ?",
+   "choix": [
+    "La fusée N1",
+    "La fusée Redstone",
+    "La fusée Ariane 1",
+    "La fusée Saturn V"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Saturn V, développée sous la direction de Wernher von Braun, est le lanceur des missions lunaires habitées. Haute d'environ cent dix mètres et comportant trois étages, elle pouvait placer plus de cent tonnes en orbite basse. La fusée N1 était son équivalent soviétique, mais ses quatre tirs d'essai ont tous échoué, ce qui a mis fin au projet lunaire de l'URSS. La Redstone, beaucoup plus petite, a servi aux premiers vols suborbitaux du programme Mercury. Ariane 1 est un lanceur européen dont le premier vol date de 1979, bien après Apollo."
+  },
+  {
+   "q": "Quel événement marque le début de l'assemblage de la Station spatiale internationale ?",
+   "choix": [
+    "Le dernier vol de la navette Columbia en 2003",
+    "Le lancement du module Zarya en 1998",
+    "L'arrivée du premier équipage permanent en 1995",
+    "La mise en orbite de la station Mir en 1986"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Le module russe Zarya, lancé le 20 novembre 1998, constitue le premier élément de la Station spatiale internationale ; il a été rejoint quelques semaines plus tard par le module américain Unity. L'occupation permanente de la station n'a toutefois commencé qu'en novembre 2000, avec le premier équipage de longue durée. Mir est une station antérieure, purement soviétique puis russe, lancée en 1986 et désorbitée en 2001. La destruction de Columbia en 2003 est un accident survenu lors d'une rentrée atmosphérique, sans lien avec le début de l'assemblage."
+  },
+  {
+   "q": "Pourquoi le principe des fusées à étages, énoncé dès le début du XXe siècle, est-il indispensable pour atteindre l'orbite ?",
+   "choix": [
+    "Parce que les moteurs cessent de fonctionner au-dessus de cent kilomètres d'altitude",
+    "Parce que la loi de la gravitation interdit à un seul moteur de dépasser la vitesse du son",
+    "Parce que l'engin peut abandonner en route les réservoirs vides et la masse devenue inutile",
+    "Parce que chaque étage utilise un carburant différent imposé par la réglementation"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "La vitesse qu'une fusée peut atteindre dépend surtout du rapport entre sa masse au décollage et sa masse une fois les réservoirs vides. En larguant les étages consommés, on se débarrasse de structures et de réservoirs lourds devenus inutiles, ce qui améliore considérablement ce rapport. Constantin Tsiolkovski avait établi cette relation dès 1903 et en avait déduit la nécessité d'empiler plusieurs étages. Les moteurs à ergols liquides emportent leur propre comburant et fonctionnent donc parfaitement dans le vide, sans avoir besoin de l'air ambiant. Il ne s'agit ni d'une limite de vitesse imposée par la gravitation, ni d'une contrainte réglementaire."
+  }
+ ]
+}

@@ -1,0 +1,171 @@
+{
+ "titre": "Les plantes et la photosynthèse",
+ "sections": [
+  {
+   "titre": "Qu'est-ce qu'une plante ?",
+   "texte": "Les plantes, ou végétaux verts, forment un règne d'organismes pluricellulaires dont les cellules possèdent une paroi rigide de cellulose et des chloroplastes contenant de la chlorophylle. Ce pigment vert leur permet de capter l'énergie lumineuse et de fabriquer elles-mêmes leur matière organique : on dit qu'elles sont autotrophes, par opposition aux animaux et aux champignons, hétérotrophes, qui doivent consommer des matières déjà élaborées. Cette autonomie alimentaire fait des plantes la base de presque toutes les chaînes alimentaires terrestres. Les végétaux ont conquis les continents il y a environ quatre cent soixante-dix millions d'années, à partir d'algues vertes d'eau douce. Cette sortie des eaux a exigé de nouvelles inventions : une cuticule cireuse limitant l'évaporation, des racines pour puiser l'eau, et surtout des tissus conducteurs. Les mousses, dépourvues de tels tissus, restent petites et confinées aux milieux humides. Les plantes vasculaires, en revanche, possèdent des vaisseaux : le xylème transporte l'eau et les sels minéraux des racines vers les feuilles, tandis que le phloème distribue les sucres fabriqués par les feuilles vers le reste de la plante. Ce système, associé à la lignine qui rigidifie les parois, a permis aux arbres d'atteindre des hauteurs considérables. On estime aujourd'hui à environ trois cent cinquante mille le nombre d'espèces végétales décrites dans le monde."
+  },
+  {
+   "titre": "La photosynthèse, une réaction fondamentale",
+   "texte": "La photosynthèse est le processus par lequel les plantes, les algues et certaines bactéries transforment l'énergie lumineuse en énergie chimique. Le bilan global s'écrit simplement : six molécules de dioxyde de carbone et six molécules d'eau, en présence de lumière et de chlorophylle, donnent une molécule de glucose et six molécules de dioxygène. Autrement dit, la plante prélève du gaz carbonique dans l'air et de l'eau dans le sol, et rejette de l'oxygène tout en fabriquant du sucre. La réaction se déroule dans les chloroplastes et comporte deux phases. La phase claire, dépendante de la lumière, a lieu dans les membranes internes appelées thylakoïdes : la chlorophylle absorbe les photons, principalement dans le bleu et le rouge, ce qui explique que les feuilles renvoient le vert et nous paraissent vertes. Cette énergie sert à casser des molécules d'eau, libérant l'oxygène, et à produire des composés énergétiques. La phase sombre, ou cycle de Calvin, se déroule dans le stroma et n'exige pas directement de lumière : elle utilise cette énergie pour incorporer le carbone du dioxyde de carbone dans des molécules organiques. Le physicien Jan Ingenhousz démontre dès 1779 que seules les parties vertes exposées à la lumière purifient l'air, posant les bases de notre compréhension.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "La photosynthèse, du photon au sucre",
+    "etapes": [
+     {
+      "label": "Capter la lumière",
+      "texte": "Dans les thylakoïdes du chloroplaste, la chlorophylle absorbe les photons du bleu et du rouge — le vert est renvoyé, d'où la couleur des feuilles."
+     },
+     {
+      "label": "Casser l'eau",
+      "texte": "Cette énergie brise les molécules d'eau puisées par les racines et libère du dioxygène."
+     },
+     {
+      "label": "Stocker l'énergie",
+      "texte": "La phase claire produit des composés riches en énergie chimique."
+     },
+     {
+      "label": "Fixer le carbone",
+      "texte": "Dans le stroma, le cycle de Calvin incorpore le carbone du dioxyde de carbone à des molécules organiques."
+     },
+     {
+      "label": "Bilan",
+      "texte": "6 CO₂ + 6 H₂O + lumière donnent 1 glucose + 6 O₂."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "L'organisation d'une plante à fleurs",
+   "texte": "Une plante à fleurs comporte un appareil végétatif et un appareil reproducteur. Les racines ancrent la plante dans le sol et absorbent l'eau et les sels minéraux grâce à des poils absorbants microscopiques qui multiplient la surface d'échange. Beaucoup de racines vivent en association avec des champignons du sol, formant des mycorhizes : le champignon fournit eau et minéraux, la plante lui donne des sucres. La tige assure le port de la plante et la circulation des sèves ; elle porte les feuilles disposées de manière à capter un maximum de lumière. La feuille est l'usine photosynthétique : son limbe aplati offre une grande surface, ses nervures acheminent les sèves, et sa face inférieure est percée de minuscules ouvertures appelées stomates. Ces stomates, bordés de deux cellules de garde qui les ouvrent et les ferment, règlent les échanges de gaz et la perte d'eau par transpiration. La fleur, quant à elle, est l'organe reproducteur : les étamines produisent le pollen contenant les cellules mâles, tandis que le pistil abrite les ovules. Après la pollinisation et la fécondation, l'ovule devient une graine et l'ovaire se transforme en fruit. Cette organisation, qui semble immuable, résulte en réalité d'un long perfectionnement évolutif dont les plantes à fleurs, apparues au Crétacé, sont l'aboutissement le plus diversifié.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les organes d'une plante à fleurs",
+    "colonnes": [
+     "Organe",
+     "Rôle",
+     "Détail marquant"
+    ],
+    "lignes": [
+     [
+      "Racine",
+      "Ancrer et absorber l'eau et les sels minéraux",
+      "Poils absorbants microscopiques ; mycorhizes avec des champignons"
+     ],
+     [
+      "Tige",
+      "Porter la plante et conduire les sèves",
+      "Xylème vers le haut, phloème vers le bas"
+     ],
+     [
+      "Feuille",
+      "Usine photosynthétique",
+      "Limbe aplati, nervures, stomates réglant les échanges gazeux"
+     ],
+     [
+      "Fleur",
+      "Organe reproducteur",
+      "Étamines et pollen, pistil et ovules"
+     ]
+    ],
+    "note": "Après la fécondation, l'ovule devient une graine et l'ovaire un fruit."
+   }
+  },
+  {
+   "titre": "Reproduction et dispersion",
+   "texte": "Les plantes à fleurs, ou angiospermes, se reproduisent le plus souvent de manière sexuée. Le pollen doit être transporté des étamines jusqu'au pistil : c'est la pollinisation. Certaines espèces confient cette tâche au vent, comme les graminées et de nombreux arbres, et produisent alors d'énormes quantités de pollen léger, responsable des allergies printanières. D'autres recourent à des animaux, surtout des insectes, attirés par les couleurs vives, les parfums et le nectar sucré. Cette coopération, apparue il y a plus de cent millions d'années, a favorisé une diversification spectaculaire à la fois des fleurs et des insectes. Après la fécondation, la graine contient un embryon et des réserves nutritives ; le fruit qui l'entoure facilite sa dispersion. Les fruits charnus sont mangés par les animaux qui rejettent les graines plus loin, les akènes du pissenlit volent au vent, et certaines graines flottent sur l'eau parfois pendant des mois. Les plantes pratiquent aussi la reproduction asexuée, ou multiplication végétative : le fraisier émet des stolons, la pomme de terre produit des tubercules, et de nombreuses espèces se propagent par rhizomes ou par bouturage. Cette voie donne des individus génétiquement identiques à la plante mère, ce qui est rapide et sûr en milieu stable, mais offre moins de variabilité face aux changements de l'environnement que la reproduction sexuée.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Deux façons de se multiplier",
+    "colonnes": [
+     {
+      "titre": "Reproduction sexuée",
+      "points": [
+       "Pollen transporté par le vent ou par les animaux",
+       "Fécondation d'un ovule, puis graine et fruit",
+       "Descendants génétiquement différents",
+       "Brassage utile face aux changements de milieu",
+       "Fruits charnus, akènes volants, graines flottantes pour disperser"
+      ]
+     },
+     {
+      "titre": "Multiplication végétative",
+      "points": [
+       "Stolons du fraisier, tubercules de la pomme de terre",
+       "Rhizomes, bouturage",
+       "Descendants identiques à la plante mère",
+       "Rapide et sûr en milieu stable",
+       "Aucune variabilité nouvelle"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le rôle des plantes sur la planète",
+   "texte": "Les végétaux jouent un rôle déterminant dans l'équilibre de la biosphère. En absorbant du dioxyde de carbone pour la photosynthèse, ils retirent chaque année plusieurs dizaines de milliards de tonnes de carbone de l'atmosphère et le stockent dans le bois, les feuilles et les sols. Ils constituent ainsi, avec les océans, un puits de carbone essentiel face au réchauffement climatique. L'oxygène que nous respirons est également d'origine biologique : c'est l'accumulation progressive du dioxygène produit par les cyanobactéries puis par les algues et les plantes qui a rendu l'atmosphère terrestre respirable, au cours d'un épisode appelé la Grande Oxydation, il y a environ deux milliards quatre cents millions d'années. Aujourd'hui, le phytoplancton marin fournit à lui seul une part considérable de cette production. Les plantes sont par ailleurs à la base de l'alimentation humaine : quelques espèces cultivées, blé, riz et maïs en tête, couvrent l'essentiel des besoins caloriques de l'humanité. Elles fournissent aussi des fibres, des matériaux de construction, des combustibles et une grande part de nos médicaments, comme l'aspirine dérivée de l'écorce de saule. Enfin, les forêts régulent le cycle de l'eau, limitent l'érosion des sols et abritent une biodiversité considérable. Leur destruction, la déforestation, compromet simultanément le climat, les sols et d'innombrables espèces animales."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel gaz les plantes rejettent-elles lors de la photosynthèse ?",
+   "choix": [
+    "Le dioxygène",
+    "Le dioxyde de carbone",
+    "L'azote",
+    "Le méthane"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Lors de la photosynthèse, la plante absorbe du dioxyde de carbone et de l'eau, et rejette du dioxygène. Cet oxygène provient précisément de la molécule d'eau, cassée grâce à l'énergie lumineuse lors de la phase claire. Attention à ne pas confondre avec la respiration cellulaire, que les plantes pratiquent aussi en permanence, jour et nuit, et qui consomme de l'oxygène en rejetant du dioxyde de carbone. En pleine lumière, la photosynthèse l'emporte largement, si bien que le bilan global d'une plante bien éclairée est une production nette d'oxygène."
+  },
+  {
+   "q": "Dans quel organite de la cellule végétale se déroule la photosynthèse ?",
+   "choix": [
+    "Dans la vacuole",
+    "Dans la mitochondrie",
+    "Dans le chloroplaste",
+    "Dans le noyau"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "La photosynthèse se déroule dans les chloroplastes, des organites propres aux cellules végétales et aux algues. Ils contiennent la chlorophylle, pigment vert qui capte l'énergie lumineuse. À l'intérieur, des membranes empilées appelées thylakoïdes abritent la phase claire, tandis que le liquide qui les entoure, le stroma, accueille le cycle de Calvin. La mitochondrie assure au contraire la respiration cellulaire, et la vacuole sert de réserve d'eau et de substances diverses."
+  },
+  {
+   "q": "À quoi servent les stomates situés sur les feuilles ?",
+   "choix": [
+    "À fixer la feuille sur la tige",
+    "À produire la chlorophylle",
+    "À stocker les sucres fabriqués",
+    "À régler les échanges de gaz et la perte d'eau"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Les stomates sont de minuscules ouvertures, surtout présentes sur la face inférieure des feuilles, encadrées par deux cellules de garde en forme de haricot. En se déformant, ces cellules ouvrent ou ferment le pore. Lorsqu'ils sont ouverts, les stomates laissent entrer le dioxyde de carbone nécessaire à la photosynthèse et sortir la vapeur d'eau, phénomène appelé transpiration. Par temps sec ou pendant la nuit, la plante les referme pour limiter ses pertes en eau. Les stomates réalisent donc un compromis permanent entre nourrir la plante et éviter la déshydratation."
+  },
+  {
+   "q": "Qu'appelle-t-on une mycorhize ?",
+   "choix": [
+    "Une maladie des racines causée par un ver",
+    "Une association entre les racines d'une plante et un champignon",
+    "Un organe de reproduction de la fougère",
+    "Une racine aérienne servant à respirer"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Une mycorhize est une association symbiotique entre les racines d'une plante et un champignon du sol. Le champignon déploie un réseau de filaments très fins qui explorent un volume de sol bien supérieur à celui que les racines seules pourraient atteindre, et fournit à la plante de l'eau et des sels minéraux, notamment du phosphore. En échange, la plante lui cède une part des sucres qu'elle produit par photosynthèse. Cette association concerne une très large majorité des plantes terrestres et existe depuis les débuts de la conquête des continents. Certains chercheurs pensent qu'elle a été une condition indispensable à la sortie des eaux des végétaux."
+  },
+  {
+   "q": "Pourquoi les feuilles nous apparaissent-elles vertes ?",
+   "choix": [
+    "Parce que la chlorophylle absorbe surtout le vert",
+    "Parce que la sève brute est de couleur verte",
+    "Parce que la chlorophylle absorbe le bleu et le rouge et réfléchit le vert",
+    "Parce que les stomates diffusent une lumière verte"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La chlorophylle absorbe très efficacement la lumière dans les longueurs d'onde du bleu et du rouge, qu'elle utilise pour la photosynthèse. En revanche, elle absorbe très peu le vert, qu'elle réfléchit et transmet. C'est cette lumière verte renvoyée qui parvient à notre œil et donne aux feuilles leur couleur caractéristique. En automne, quand la chlorophylle se dégrade avant la chute des feuilles, d'autres pigments jusque-là masqués apparaissent, comme les caroténoïdes jaunes et orangés. La couleur d'un objet correspond toujours à la lumière qu'il renvoie, et non à celle qu'il absorbe."
+  }
+ ]
+}

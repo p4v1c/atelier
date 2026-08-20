@@ -1,0 +1,195 @@
+{
+ "titre": "La science-fiction et le fantastique",
+ "sections": [
+  {
+   "titre": "Deux genres voisins et pourtant opposés",
+   "texte": "On range souvent la science-fiction et le fantastique sous une même étiquette d'imaginaire, alors que leurs mécanismes sont presque inverses. Le fantastique se définit par l'intrusion du surnaturel dans le cadre réaliste d'un récit : tout part d'un monde ordinaire, reconnaissable, où survient un événement inexplicable qui fissure le réel. Le théoricien Tzvetan Todorov a proposé le critère qui fait aujourd'hui référence : le fantastique naît de l'hésitation entre une explication naturelle et une explication surnaturelle, entre le possible et l'impossible, et il cesse dès que le doute est levé. Il se distingue par là du merveilleux, dans lequel le surnaturel est accepté d'emblée comme la règle du monde, et de la fantasy, qui relève de ce merveilleux et non de l'inquiétude fantastique. La science-fiction, elle, ne fait pas appel au surnaturel : elle se veut rationnelle et repose sur des progrès scientifiques et techniques situés dans un avenir plus ou moins lointain, dont elle explore les conséquences. Là où le fantastique cultive l'irrationnel et la peur, la science-fiction construit une hypothèse et en déroule logiquement les effets. Les thèmes du fantastique le confirment : l'angoisse et l'inquiétante étrangeté, la présence du mal, les désirs inavouables, et la folie toujours offerte comme explication de rechange, qui permet au lecteur de douter jusqu'au bout de ce que le narrateur affirme avoir vu.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Fantastique et science-fiction : deux mécanismes inverses",
+    "colonnes": [
+     {
+      "titre": "Le fantastique",
+      "points": [
+       "Le surnaturel fait intrusion dans un cadre réaliste",
+       "L'hésitation entre explication naturelle et surnaturelle (Todorov)",
+       "Il cesse dès que le doute est levé",
+       "La folie reste toujours offerte comme explication de rechange"
+      ]
+     },
+     {
+      "titre": "La science-fiction",
+      "points": [
+       "Aucun recours au surnaturel : le récit se veut rationnel",
+       "Un progrès scientifique ou technique situé dans l'avenir",
+       "Une hypothèse posée, puis ses effets déroulés logiquement",
+       "La curiosité plutôt que la peur"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le fantastique, du roman gothique au Horla",
+   "texte": "Le fantastique moderne se forme à la fin du XVIIIe siècle et au XIXe siècle. Le roman gothique anglais lui fournit son décor et son atmosphère, avec « Le Château d'Otrante » d'Horace Walpole en 1764, puis les récits d'Ann Radcliffe et « Le Moine » de Matthew Lewis : châteaux, souterrains, apparitions, et surtout une ambiguïté maintenue sur la réalité des prodiges. En France, « Le Diable amoureux » de Jacques Cazotte, publié en 1772, est traditionnellement présenté comme le premier récit fantastique. Le romantisme allemand apporte ensuite une contribution décisive avec E. T. A. Hoffmann, dont les contes exercent une influence considérable sur toute l'Europe. Le XIXe siècle français est particulièrement riche : Charles Nodier, Honoré de Balzac, Théophile Gautier et Prosper Mérimée, dont « La Vénus d'Ille » reste le modèle du récit où l'on ne saura jamais si la statue a bougé. Guy de Maupassant porte le genre à son sommet avec « Le Horla », publié en 1887, où un narrateur se croit hanté par une créature invisible sans que le lecteur puisse trancher entre la présence surnaturelle et la folie. Aux États-Unis, Edgar Allan Poe puis Howard Phillips Lovecraft installent des variantes durables, tandis que la Russie, avec Pouchkine et Gogol, et plus tard l'Argentine de Jorge Luis Borges, développent leurs propres traditions."
+  },
+  {
+   "titre": "Frankenstein, un roman fondateur",
+   "texte": "Les spécialistes discutent encore de la date de naissance de la science-fiction, certains remontant jusqu'aux « Histoires vraies » de Lucien de Samosate dans l'Antiquité. La critique moderne s'accorde cependant le plus souvent à voir dans « Frankenstein ou le Prométhée moderne » de Mary Shelley, publié anonymement le premier janvier 1818, le premier véritable roman de science-fiction. Sa genèse est célèbre : à l'été 1816, dans la villa Diodati près de Genève, Mary Shelley séjourne avec Percy Bysshe Shelley, Lord Byron et John Polidori. L'année dite sans été impose des pluies continuelles ; Byron propose que chacun écrive une histoire de fantômes, et après des conversations sur les découvertes scientifiques de l'époque, la jeune femme fait un cauchemar dont sortira son roman. L'intrigue est celle d'un savant suisse qui découvre le moyen d'animer la matière et façonne une créature à forme humaine, avant de l'abandonner, épouvanté par son aspect. Rejetée de tous alors qu'elle est intelligente et sensible, la créature se venge en tuant les proches de son créateur, qu'elle attire jusqu'à l'Arctique. Le récit est construit en emboîtements : les lettres de l'explorateur Walton encadrent le récit de Victor, qui contient à son tour celui de la créature. L'œuvre unit les codes gothiques à une réflexion romantique sur la création et la responsabilité."
+  },
+  {
+   "titre": "L'invention d'un genre et son âge d'or",
+   "texte": "Le XIXe siècle voit la spéculation scientifique s'installer au cœur du récit avec deux auteurs majeurs, Jules Verne en France et H. G. Wells en Angleterre. Le premier fonde ses romans sur la vulgarisation des savoirs et l'exploration du globe, le second sur des hypothèses plus audacieuses qui interrogent l'avenir de l'espèce. L'expression anglaise science fiction apparaît dès 1851, mais c'est l'éditeur Hugo Gernsback qui l'impose durablement, notamment par un éditorial de 1929 dans sa revue « Science Wonder Stories » ; le genre trouve alors dans les magazines américains un espace de publication et un public fidèle. En français, le terme science-fiction ne s'impose qu'à partir des années 1950, en concurrence avec le mot anticipation, longtemps préféré. Des années 1920 aux années 1950 se déploie ce que l'on appelle l'âge d'or, marqué par la domination américaine et par des auteurs devenus canoniques comme Isaac Asimov, Arthur C. Clarke et Robert Heinlein. Cette période privilégie le récit d'aventures, la rigueur des hypothèses techniques et la confiance dans le progrès. Le genre se ramifie alors en sous-ensembles bien identifiés, du space opera qui déplace l'épopée dans la galaxie à l'uchronie qui réécrit l'histoire à partir d'un événement modifié, en passant par le récit d'anticipation proche de notre présent.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Les étapes de la science-fiction",
+    "evenements": [
+     {
+      "date": "1818",
+      "label": "« Frankenstein »",
+      "texte": "Mary Shelley, publié anonymement le 1er janvier"
+     },
+     {
+      "date": "1851",
+      "label": "L'expression science fiction",
+      "texte": "Première apparition en anglais"
+     },
+     {
+      "date": "1929",
+      "label": "Hugo Gernsback",
+      "texte": "Un éditorial de « Science Wonder Stories » impose le nom"
+     },
+     {
+      "date": "1920-1950",
+      "label": "L'âge d'or",
+      "texte": "Asimov, Clarke, Heinlein ; domination américaine"
+     },
+     {
+      "date": "années 1960",
+      "label": "La New Wave",
+      "texte": "Critique sociale et expérimentation formelle"
+     },
+     {
+      "date": "années 1980",
+      "label": "Le cyberpunk",
+      "texte": "Villes saturées d'informatique et multinationales"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "De la New Wave au cyberpunk",
+   "texte": "À partir des années 1960, la science-fiction change de ton. Le mouvement appelé New Wave, venu d'abord de Grande-Bretagne, déplace l'accent de l'aventure vers la critique sociale et l'expérimentation formelle. Les auteurs s'intéressent moins aux fusées qu'aux effets des techniques sur les sociétés, aux dérives politiques, à la psychologie et au langage ; l'écriture elle-même se fait plus littéraire, empruntant aux avant-gardes. Cette évolution rapproche le genre de la dystopie, ce récit d'un avenir organisé qui prend la forme d'un cauchemar politique et qui compte parmi les usages les plus puissants de la science-fiction : montrer notre présent en le poussant à ses conséquences extrêmes. Dans les années 1980 émerge le cyberpunk, qui abandonne l'exploration spatiale au profit de mondes urbains saturés d'informatique, dominés par des multinationales et parcourus de réseaux où l'identité se dissout. Le genre continue depuis de se diversifier en formes contemporaines très variées, et il a essaimé bien au-delà du livre, dans la bande dessinée, le cinéma et le jeu vidéo, au point d'être devenu l'un des principaux réservoirs d'images de la culture mondiale. En France, la tradition reste vivace, sous le nom d'anticipation d'abord, puis sous celui de science-fiction à partir des années 1950, avec des auteurs qui ont su acclimater le genre à une sensibilité européenne plus inquiète.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Quelques sous-genres de la science-fiction",
+    "colonnes": [
+     "Sous-genre",
+     "Ce qu'il propose"
+    ],
+    "lignes": [
+     [
+      "Space opera",
+      "L'épopée déplacée dans la galaxie"
+     ],
+     [
+      "Uchronie",
+      "L'histoire réécrite à partir d'un événement modifié"
+     ],
+     [
+      "Anticipation",
+      "Un avenir proche de notre présent"
+     ],
+     [
+      "Dystopie",
+      "Un avenir organisé qui prend la forme d'un cauchemar politique"
+     ],
+     [
+      "Cyberpunk",
+      "Des mondes urbains où l'identité se dissout dans les réseaux"
+     ]
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Selon Tzvetan Todorov, qu'est-ce qui définit le fantastique ?",
+   "choix": [
+    "La présence de créatures monstrueuses",
+    "L'hésitation entre explication naturelle et surnaturelle",
+    "Un décor médiéval imaginaire",
+    "L'usage systématique du récit à la troisième personne"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Pour Todorov, le fantastique tient tout entier dans l'hésitation produite entre le surnaturel et le naturel, entre le possible et l'impossible. Le genre existe tant que le doute subsiste et disparaît dès qu'une explication l'emporte. Cela le distingue du merveilleux, où le surnaturel est admis d'emblée comme la loi du monde, et de la fantasy, qui relève de ce merveilleux. La folie du personnage joue souvent le rôle d'explication de rechange, ce qui entretient l'ambiguïté, comme dans « Le Horla » de Maupassant paru en 1887. La science-fiction, elle, ne recourt pas au surnaturel et se veut rationnelle."
+  },
+  {
+   "q": "Dans quelles circonstances Mary Shelley a-t-elle conçu « Frankenstein ou le Prométhée moderne » ?",
+   "choix": [
+    "Lors d'un voyage en Arctique",
+    "Pendant un séjour à Rome avec Keats",
+    "À la suite d'un concours de récits d'épouvante à la villa Diodati en 1816",
+    "En adaptant une légende suisse recueillie par son père"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le roman naît à l'été 1816, à la villa Diodati près de Genève, où Mary Shelley séjourne avec Percy Bysshe Shelley, Lord Byron et John Polidori. Les pluies continuelles de l'année dite sans été retiennent le groupe à l'intérieur, et Byron propose que chacun écrive une histoire de fantômes. Après des discussions sur les découvertes scientifiques de l'époque, Mary Shelley fait un cauchemar qui devient le point de départ du livre. Publié anonymement le premier janvier 1818, il est aujourd'hui considéré par la plupart des critiques comme le premier véritable roman de science-fiction."
+  },
+  {
+   "q": "Quel éditeur a joué un rôle décisif dans l'imposition de l'expression science fiction ?",
+   "choix": [
+    "John W. Campbell",
+    "Hugo Gernsback",
+    "Marcel Duhamel",
+    "Horace Walpole"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "L'expression anglaise science fiction apparaît dès 1851, mais c'est l'éditeur de revues Hugo Gernsback qui la popularise, en particulier par un éditorial publié en 1929 dans « Science Wonder Stories ». Ses magazines offrent au genre un lieu de publication régulier et un lectorat fidèle aux États-Unis. En français, le terme ne s'impose qu'à partir des années 1950, longtemps concurrencé par le mot anticipation. Horace Walpole est l'auteur du « Château d'Otrante », roman gothique de 1764, et Marcel Duhamel le fondateur de la Série noire, deux domaines sans rapport avec la science-fiction."
+  },
+  {
+   "q": "Quel roman de Maupassant, publié en 1887, est un modèle du récit fantastique fondé sur le doute et la folie ?",
+   "choix": [
+    "« La Vénus d'Ille »",
+    "« Le Diable amoureux »",
+    "« La Peau de chagrin »",
+    "« Le Horla »"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "« Le Horla », publié par Guy de Maupassant en 1887, met en scène un narrateur persuadé d'être hanté par une créature invisible qui boit l'eau de sa carafe et s'empare peu à peu de sa volonté. Le lecteur ne peut jamais décider entre la présence réelle d'un être surnaturel et le délire d'un homme qui sombre, ce qui en fait un exemple parfait de l'hésitation fantastique. « La Vénus d'Ille » est de Prosper Mérimée, « La Peau de chagrin » de Balzac et « Le Diable amoureux », paru en 1772, de Jacques Cazotte, souvent tenu pour le premier récit fantastique français."
+  },
+  {
+   "q": "Qu'apporte le mouvement de la New Wave à la science-fiction à partir des années 1960 ?",
+   "choix": [
+    "Un retour au récit d'exploration spatiale optimiste",
+    "Le refus de toute hypothèse technique",
+    "Un accent mis sur la critique sociale et l'expérimentation formelle",
+    "L'abandon de la forme romanesque au profit du théâtre"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La New Wave, apparue dans les années 1960, déplace l'intérêt de l'aventure vers la critique sociale et la recherche formelle. Les auteurs s'attachent aux effets des techniques sur les sociétés, aux dérives politiques et à la psychologie, et l'écriture emprunte davantage aux avant-gardes littéraires. Ce tournant rapproche le genre de la dystopie, récit d'un avenir organisé devenu cauchemar politique. Il prépare aussi le cyberpunk des années 1980, qui délaisse l'espace pour des mondes urbains saturés d'informatique et dominés par de grandes entreprises. L'âge d'or antérieur, des années 1920 aux années 1950, était au contraire marqué par la confiance dans le progrès."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Science-fiction",
+   "url": "https://fr.wikipedia.org/wiki/Science-fiction"
+  },
+  {
+   "titre": "Fantastique",
+   "url": "https://fr.wikipedia.org/wiki/Fantastique"
+  },
+  {
+   "titre": "Littérature fantastique",
+   "url": "https://fr.wikipedia.org/wiki/Litt%C3%A9rature_fantastique"
+  },
+  {
+   "titre": "Frankenstein ou le Prométhée moderne",
+   "url": "https://fr.wikipedia.org/wiki/Frankenstein_ou_le_Prom%C3%A9th%C3%A9e_moderne"
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "titre": "Les métaux, les alliages et la corrosion",
+ "sections": [
+  {
+   "titre": "Qu'est-ce qu'un métal ? La liaison métallique",
+   "texte": "En chimie, un métal est un matériau dont les atomes sont unis par des liaisons métalliques. Ce sont des corps simples ou des alliages, le plus souvent durs, opaques, brillants et bons conducteurs de la chaleur et de l'électricité. Leur particularité vient de leur structure électronique : les électrons de valence ne restent pas attachés à un atome précis, ils se comportent comme un fluide d'électrons très mobiles partagé par l'ensemble du matériau. Cette liaison délocalisée explique la plupart des propriétés que l'on observe. Comme les électrons sont libres de se déplacer, ils transportent facilement la charge électrique et l'énergie thermique : l'argent est le meilleur conducteur électrique, suivi du cuivre, de l'or et de l'aluminium, et c'est pour des raisons de coût que le cuivre équipe nos installations plutôt que l'argent. Comme les atomes ne sont pas liés à des voisins désignés, ils peuvent glisser les uns sur les autres sans que la cohésion soit rompue : d'où la grande ductilité et la malléabilité des métaux, qui se déforment sans se briser, se laminent en tôles et s'étirent en fils. Chimiquement, les métaux ont tendance à perdre des électrons pour former des cations, et ils réagissent avec le dioxygène de l'air à des vitesses très variables. Dans la classification périodique, le caractère métallique augmente vers la gauche et vers le bas du tableau, les métaux alcalins étant les plus métalliques."
+  },
+  {
+   "titre": "Les alliages : améliorer un métal en le mélangeant",
+   "texte": "Un alliage est un mélange de plusieurs éléments chimiques dont le constituant principal est un métal, et qui conserve un comportement de matériau métallique. On y distingue le métal de base, majoritaire, les éléments d'alliage volontairement ajoutés, qui peuvent être des métaux ou des non-métaux comme le carbone ou le silicium, et enfin les impuretés, indésirables. Pourquoi allier ? Parce que les caractéristiques mécaniques des métaux purs sont relativement faibles. En introduisant des atomes différents dans le réseau cristallin, on gêne le glissement des plans d'atomes et l'on durcit le matériau. L'alliage modifie aussi la résistance à la corrosion et la température de fusion. Selon la manière dont les atomes se placent, on parle d'alliage de substitution, quand l'atome étranger prend la place d'un atome du métal de base, ou d'alliage d'insertion, quand un petit atome se loge dans les espaces libres du réseau, ce qui est le cas du carbone dans le fer. Un alliage peut être homogène, c'est-à-dire constitué d'une seule phase solide appelée solution solide, ou hétérogène, avec plusieurs phases et des précipités. L'usage des alliages est très ancien : l'électrum, mélange naturel d'or et d'argent, était déjà employé dans la préhistoire, et le philosophe grec Théophraste décrivait dès le troisième siècle avant notre ère la mesure de la composition des alliages."
+  },
+  {
+   "titre": "Aciers, fontes, bronzes et laitons",
+   "texte": "Le plus important des alliages est l'acier, formé de fer et de carbone, ce dernier restant en dessous d'environ 2,1 pour cent en masse. Cette faible proportion suffit à transformer un métal mou en un matériau dur et résistant : c'est l'exemple type de l'alliage d'insertion, les petits atomes de carbone se glissant entre les atomes de fer. Au-delà de cette limite, on obtient des fontes, plus riches en carbone, plus dures mais aussi plus fragiles et plus faciles à couler. En ajoutant d'autres éléments, on fabrique des aciers spéciaux : l'ajout de chrome donne les aciers inoxydables, dont la résistance à la rouille a fait la fortune de la coutellerie et de la construction. Les alliages de cuivre sont plus anciens encore. Le bronze associe le cuivre et l'étain ; il a donné son nom à un âge entier de la préhistoire, car il est nettement plus dur que le cuivre pur tout en restant facile à fondre et à couler. Le laiton, lui, unit le cuivre et le zinc et se reconnaît à sa teinte jaune ; on l'emploie en robinetterie, en décoration et dans les instruments de musique. Côté métaux légers, le duralumin est un alliage à base d'aluminium contenant du cuivre, du magnésium et du manganèse, dont la légèreté associée à une bonne résistance mécanique a rendu possible l'aéronautique moderne.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les grands alliages",
+    "colonnes": [
+     "Alliage",
+     "Composition",
+     "Ce qu'il apporte"
+    ],
+    "lignes": [
+     [
+      "Acier",
+      "Fer + carbone (moins de 2,1 % en masse)",
+      "Dur et résistant là où le fer pur est mou"
+     ],
+     [
+      "Fonte",
+      "Fer + carbone (au-delà de 2,1 %)",
+      "Plus dure mais plus fragile, facile à couler"
+     ],
+     [
+      "Acier inoxydable",
+      "Acier + chrome",
+      "Résiste à la rouille : coutellerie, construction"
+     ],
+     [
+      "Bronze",
+      "Cuivre + étain",
+      "Bien plus dur que le cuivre pur, facile à fondre"
+     ],
+     [
+      "Laiton",
+      "Cuivre + zinc",
+      "Teinte jaune : robinetterie, instruments de musique"
+     ],
+     [
+      "Duralumin",
+      "Aluminium + cuivre, magnésium, manganèse",
+      "Léger et résistant : l'aéronautique moderne"
+     ]
+    ],
+    "note": "Allier, c'est gêner le glissement des plans d'atomes, donc durcir le matériau."
+   }
+  },
+  {
+   "titre": "La corrosion : quand le métal retourne à son minerai",
+   "texte": "La corrosion est l'altération d'un matériau par réaction chimique avec un oxydant, principalement le dioxygène et les ions hydrogène. Il ne s'agit pas d'une dégradation mécanique mais bien d'une transformation chimique. Pour les métaux, le phénomène est essentiellement électrochimique : il met en jeu des réactions d'oxydoréduction entre le matériau et son environnement. On comprend alors pourquoi la corrosion est si difficile à éviter : elle correspond au retour du métal vers son état oxydé, c'est-à-dire vers la forme sous laquelle il se trouve naturellement dans les minerais. Le cas le plus familier est la rouille, cette substance brun-rouge qui apparaît quand des matériaux ferreux se corrodent. Ce n'est pas un composé unique mais un mélange complexe d'oxydes et d'hydroxydes de fer, comprenant notamment de l'hydroxyde de fer, de la magnétite Fe3O4 et surtout de l'oxyde de fer hydraté Fe2O3 avec de l'eau, forme la plus stable. Trois conditions sont nécessaires : de l'eau liquide, du dioxygène et un électrolyte. C'est pourquoi la corrosion progresse plus vite en eau salée qu'en eau douce, la présence de sels dissous augmentant la conductivité électrique du milieu. Les milieux marins, les climats tropicaux humides et les atmosphères industrielles acides sont donc particulièrement agressifs. Le coût économique est considérable : il représenterait environ 3,4 pour cent du produit intérieur brut mondial."
+  },
+  {
+   "titre": "Protéger les métaux : peintures, zinc et anodes sacrificielles",
+   "texte": "Comment lutter contre la corrosion ? La première solution consiste à choisir un matériau naturellement résistant, comme un acier inoxydable ou un alliage d'aluminium. La deuxième consiste à isoler le métal de son environnement par un revêtement : peintures antirouille, huiles protectrices, vernis ou dépôts métalliques. La galvanisation relève de cette catégorie tout en allant plus loin : on recouvre l'acier d'une couche de zinc, qui forme un oxyde imperméable et protège la pièce. Son avantage décisif est un effet autocicatrisant, car si une rayure met l'acier à nu, le zinc voisin continue de le protéger. C'est le principe de la protection cathodique, technique électrochimique qui consiste à faire du métal à protéger la cathode d'une cellule électrochimique, donc l'électrode qui ne se consomme pas. Dans la version dite galvanique ou passive, on fixe des anodes sacrificielles en zinc, en magnésium ou en alliage d'aluminium, qui se corrodent à la place de la structure. Dans la version à courant imposé, un générateur extérieur fournit un courant continu, solution retenue pour les grandes installations. On considère la protection assurée lorsque le potentiel du métal est abaissé d'au moins 100 millivolts par rapport à son potentiel de corrosion. Cette technique remonte à 1824, quand Humphry Davy fit fixer des morceaux de fer sous la ligne de flottaison des navires à coque de cuivre de la Royal Navy. On l'emploie aujourd'hui pour les pipelines, les canalisations d'eau, les coques, les plateformes offshore et les chauffe-eau.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Quatre façons de protéger un métal",
+    "colonnes": [
+     "Méthode",
+     "Principe",
+     "Exemple"
+    ],
+    "lignes": [
+     [
+      "Choisir le bon matériau",
+      "Un alliage naturellement résistant",
+      "Acier inoxydable, alliage d'aluminium"
+     ],
+     [
+      "Revêtir",
+      "Isoler le métal de son environnement",
+      "Peinture antirouille, vernis, huile"
+     ],
+     [
+      "Galvaniser",
+      "Une couche de zinc qui protège encore une fois rayée",
+      "Tôles et charpentes en acier galvanisé"
+     ],
+     [
+      "Protection cathodique",
+      "Le métal devient la cathode : il ne se consomme plus",
+      "Anodes sacrificielles en zinc ou magnésium, ou courant imposé"
+     ]
+    ],
+    "note": "Humphry Davy en fit la première application en 1824, sous la ligne de flottaison des navires de la Royal Navy."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Qu'est-ce qui explique le mieux la conductivité électrique élevée des métaux ?",
+   "choix": [
+    "Les électrons de valence forment un fluide d'électrons mobiles délocalisés dans tout le matériau",
+    "Les métaux contiennent des ions positifs qui se déplacent facilement",
+    "Les atomes de métal sont plus petits que les autres atomes",
+    "Les liaisons covalentes des métaux sont particulièrement courtes"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Dans un métal, les électrons de valence ne restent pas attachés à un atome donné : ils se comportent comme un fluide très mobile partagé par l'ensemble du solide. Cette liaison délocalisée, dite métallique, permet aux électrons de transporter aisément la charge électrique et l'énergie thermique. Ce sont bien les électrons qui se déplacent, et non les cations, lesquels restent fixés aux nœuds du réseau cristallin. La même mobilité électronique explique aussi l'éclat métallique et l'opacité. L'argent est le meilleur conducteur électrique, devant le cuivre, l'or et l'aluminium."
+  },
+  {
+   "q": "Quelle est la teneur maximale en carbone qui distingue un acier d'une fonte ?",
+   "choix": [
+    "Environ 0,1 pour cent en masse",
+    "Environ 2,1 pour cent en masse",
+    "Environ 12 pour cent en masse",
+    "Environ 25 pour cent en masse"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "L'acier est un alliage de fer et de carbone dont la teneur en carbone reste inférieure à environ 2,1 pour cent en masse. Au-delà de cette limite, on parle de fonte : le matériau devient plus dur mais aussi plus fragile, et il se coule plus facilement. Une proportion très faible de carbone suffit donc à transformer complètement les propriétés du fer. Le carbone forme ici un alliage d'insertion, ses petits atomes venant se loger dans les espaces libres du réseau cristallin du fer, où ils gênent le glissement des plans d'atomes et durcissent le métal."
+  },
+  {
+   "q": "Le laiton est un alliage de cuivre et de quel autre élément ?",
+   "choix": [
+    "D'étain",
+    "De plomb",
+    "De zinc",
+    "De chrome"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le laiton associe le cuivre et le zinc, et se reconnaît à sa couleur jaune ; on l'emploie en robinetterie, en décoration et dans les instruments de musique à vent. Il ne faut pas le confondre avec le bronze, qui est un alliage de cuivre et d'étain, bien plus ancien puisqu'il a donné son nom à un âge de la préhistoire. Le chrome, lui, n'entre pas dans le laiton : c'est l'élément que l'on ajoute au fer pour obtenir les aciers inoxydables. Ces trois alliages illustrent la même idée : ajouter un second élément améliore les propriétés du métal de base."
+  },
+  {
+   "q": "Quelles conditions sont nécessaires à la formation de la rouille sur du fer ?",
+   "choix": [
+    "De l'eau liquide et du dioxyde de carbone uniquement",
+    "Une température supérieure à 100 degrés Celsius",
+    "L'absence totale d'oxygène",
+    "De l'eau liquide, du dioxygène et un électrolyte"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "La rouille se forme quand trois conditions sont réunies : de l'eau liquide, qui intervient à chaque étape, du dioxygène de l'air, et un électrolyte permettant la circulation des charges. La corrosion des métaux est en effet un phénomène électrochimique, fondé sur des réactions d'oxydoréduction. C'est pourquoi elle progresse beaucoup plus vite en eau salée qu'en eau douce : les sels dissous augmentent la conductivité électrique du milieu. La rouille n'est pas un composé unique mais un mélange d'oxydes et d'hydroxydes de fer, dont l'oxyde de fer hydraté brun-rouge est la forme la plus stable. Un fer conservé parfaitement sec ne rouille pratiquement pas."
+  },
+  {
+   "q": "Sur quel principe repose une anode sacrificielle en zinc fixée à une coque de navire en acier ?",
+   "choix": [
+    "Le zinc se corrode à la place de l'acier, qui devient la cathode protégée",
+    "Le zinc forme une couche de peinture étanche sur toute la coque",
+    "Le zinc chauffe l'eau de mer et empêche les sels de se déposer",
+    "Le zinc transforme chimiquement le fer en acier inoxydable"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "La protection cathodique consiste à faire du métal à protéger la cathode d'une cellule électrochimique, c'est-à-dire l'électrode qui ne se consomme pas. Dans la version galvanique, on y parvient en fixant des anodes sacrificielles en zinc, en magnésium ou en alliage d'aluminium : ces métaux s'oxydent préférentiellement et se dégradent à la place de la structure en acier. On considère la protection acquise lorsque le potentiel du métal est abaissé d'au moins 100 millivolts par rapport à son potentiel de corrosion. Une variante à courant imposé utilise un générateur extérieur pour les grandes installations. Humphry Davy avait déjà appliqué cette idée en 1824 sur les coques de la Royal Navy."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Métal",
+   "url": "https://fr.wikipedia.org/wiki/M%C3%A9tal"
+  },
+  {
+   "titre": "Alliage",
+   "url": "https://fr.wikipedia.org/wiki/Alliage"
+  },
+  {
+   "titre": "Corrosion",
+   "url": "https://fr.wikipedia.org/wiki/Corrosion"
+  },
+  {
+   "titre": "Rouille (oxyde)",
+   "url": "https://fr.wikipedia.org/wiki/Rouille_(oxyde)"
+  },
+  {
+   "titre": "Protection cathodique",
+   "url": "https://fr.wikipedia.org/wiki/Protection_cathodique"
+  }
+ ]
+}

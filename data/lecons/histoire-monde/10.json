@@ -1,0 +1,194 @@
+{
+ "titre": "La Chine impériale, des Qin aux Qing (221 av. J.-C. - 1912)",
+ "sections": [
+  {
+   "titre": "Qin Shi Huang et la naissance de l'empire",
+   "texte": "Pendant la période dite des Royaumes combattants, la Chine est divisée entre plusieurs États qui se font la guerre. L'un d'eux, le royaume de Qin, situé à l'ouest, les conquiert les uns après les autres et achève l'unification du pays en 221 avant Jésus-Christ. Son souverain prend alors le titre de Qin Shi Huang, le Premier Empereur, et gouverne jusqu'en 210 avant Jésus-Christ. Il inaugure ainsi la première dynastie impériale de l'histoire chinoise, la dynastie Qin, qui ne dure pourtant que de 221 à 206 avant Jésus-Christ. Son œuvre est considérable : pour effacer les particularismes régionaux, il impose une monnaie unique, un système unique de poids et mesures et une écriture unifiée, dont dérivent les caractères chinois ultérieurs. Il supprime les anciennes principautés héréditaires et découpe le pays en circonscriptions administrées par des fonctionnaires nommés par le pouvoir central. Cette politique s'inspire du légisme, doctrine qui fonde l'autorité sur une loi rigoureuse et des châtiments sévères, ce qui vaudra à l'empereur d'être décrit par les historiens confucéens postérieurs comme un tyran mégalomane. On lui attribue également le raccordement de murailles défensives au nord, ancêtres de la Grande Muraille. Son mausolée, dont l'entrée fut découverte en 1974 près de Xi'an, a livré la fameuse armée de terre cuite. Après sa mort, les révoltes se multiplient et la dynastie s'effondre dès 206 avant Jésus-Christ.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les grandes dynasties de la Chine impériale",
+    "colonnes": [
+     "Dynastie",
+     "Dates",
+     "Ce qu'on en retient"
+    ],
+    "lignes": [
+     [
+      "Qin",
+      "221-206 av. J.-C.",
+      "Unification par Qin Shi Huang : monnaie, poids et mesures, écriture uniques ; légisme ; armée de terre cuite"
+     ],
+     [
+      "Han",
+      "202 av. J.-C. - 220",
+      "Le confucianisme devient doctrine d'État ; mandarins, route de la soie, papier"
+     ],
+     [
+      "Tang",
+      "618-907",
+      "Âge d'or : Chang'an, examens impériaux, imprimerie xylographique ; Wu Zetian de 690 à 705"
+     ],
+     [
+      "Song",
+      "à partir de 960",
+      "Remarquable floraison économique et technique"
+     ],
+     [
+      "Yuan (mongols)",
+      "1271-1368",
+      "Kubilai Khan ; Pax Mongolica et voyage de Marco Polo"
+     ],
+     [
+      "Ming",
+      "1368-1644",
+      "Grande Muraille en pierre, Cité interdite à Pékin, expéditions de Zheng He"
+     ],
+     [
+      "Qing (mandchous)",
+      "1644-1912",
+      "Apogée au XVIIIe siècle, puis guerres de l'opium et chute de l'empire"
+     ]
+    ],
+    "note": "Entre les Han et les Tang, la brève dynastie Sui réunifie le pays à la fin du VIe siècle et fait creuser le Grand Canal."
+   }
+  },
+  {
+   "titre": "Les Han et le modèle confucéen",
+   "texte": "La dynastie Han, qui gouverne de 202 avant Jésus-Christ à 220 après Jésus-Christ, conserve l'appareil impérial construit par les Qin mais en adoucit les méthodes et adopte le confucianisme comme doctrine officielle de l'État. Le confucianisme, fondé sur les enseignements de Confucius, met l'accent sur la hiérarchie sociale, le respect dû aux parents et aux souverains, le rôle moral du lettré et le devoir de bon gouvernement. Les fonctionnaires deviennent des lettrés formés aux textes classiques : naît ainsi le modèle chinois du mandarin, administrateur recruté pour son savoir plutôt que pour sa naissance, qui structurera l'État pendant deux mille ans. Sous les Han, l'empire s'étend vers le sud et vers l'ouest, et surtout s'ouvre aux échanges à longue distance : c'est l'époque où s'organisent les itinéraires que l'on appelle aujourd'hui la route de la soie, par lesquels la soie chinoise gagne le monde méditerranéen. La période est aussi féconde sur le plan technique, avec notamment la mise au point du papier. Le nom même de cette dynastie est resté celui de l'ethnie majoritaire du pays, les Han. Sa chute, en 220, ouvre une longue phase de division et de guerres, marquée par l'époque des Trois Royaumes, durant laquelle le bouddhisme, venu d'Inde, se diffuse largement dans la société chinoise."
+  },
+  {
+   "titre": "L'âge d'or des Tang et des Song",
+   "texte": "Après près de quatre siècles de morcellement, la brève dynastie Sui réunifie le pays à la fin du sixième siècle et fait creuser le Grand Canal reliant le nord et le sud. Elle est remplacée en 618 par la dynastie Tang, qui règne jusqu'en 907 et que les générations suivantes ont considérée comme un véritable âge d'or de la civilisation chinoise. Fondée par la famille Li, elle est surtout consolidée par l'empereur Taizong, qui gouverne de 626 à 649. Sa capitale, Chang'an, l'actuelle Xi'an, est alors décrite comme la plus grande ville du monde et accueille marchands, moines et ambassadeurs venus de toute l'Asie. Les Tang défont les empires turcs et étendent leur influence vers l'ouest le long de la route de la soie ; ils développent le système des examens impériaux, qui recrute les fonctionnaires par concours sur les textes classiques, et voient apparaître l'imprimerie xylographique, c'est-à-dire l'impression à partir de planches de bois gravées. Wu Zetian, qui gouverne de 690 à 705, est la seule femme à avoir régné comme impératrice de plein droit. La révolte d'An Lushan, en 755, marque le début du déclin, le pouvoir passant peu à peu aux gouverneurs militaires des provinces. La dynastie Song, qui lui succède à partir de 960, prolonge cet essor par une remarquable floraison économique et technique."
+  },
+  {
+   "titre": "Les Yuan mongols et la puissance des Ming",
+   "texte": "Au treizième siècle, les conquêtes mongoles bouleversent l'Asie. Kubilai Khan, petit-fils de Gengis Khan, achève la soumission de la Chine et fonde la dynastie Yuan, qui règne de 1271 à 1368 : pour la première fois, le pays tout entier est gouverné par une dynastie étrangère. La période correspond à la Pax Mongolica, une relative sécurité des routes continentales qui permet à des voyageurs venus d'Occident, dont le Vénitien Marco Polo, de parcourir la Chine et d'en rapporter des récits. Mais les Yuan restent minoritaires et impopulaires, et une série de révoltes les chasse en 1368. Le chef paysan qui prend le pouvoir fonde alors la dynastie Ming, qui gouverne de 1368 à 1644. Elle est marquée par une renaissance culturelle, par la reconstruction en pierre et en brique de la Grande Muraille sous sa forme aujourd'hui visible, et par le transfert de la capitale à Pékin, où est bâtie la Cité interdite. Entre 1405 et 1433, l'amiral Zheng He conduit sept grandes expéditions maritimes qui atteignent l'Asie du Sud-Est, l'Inde, l'Arabie et la côte orientale de l'Afrique, avec des flottes considérables. Ces voyages sont pourtant interrompus par décision impériale, la cour jugeant plus urgent de défendre les frontières terrestres du nord que d'entretenir une marine lointaine.",
+   "visuel": {
+    "type": "image",
+    "image": "hm-grande-muraille",
+    "legende": "La Grande Muraille telle que les Ming l'ont reconstruite en pierre et en brique : un chemin de ronde crénelé qui suit la ligne de crête, jalonné de tours de guet.",
+    "alt": "Muraille de pierre à créneaux serpentant sur l'arête de collines sèches, avec une tour de guet carrée au premier plan et le mur qui se perd au loin."
+   }
+  },
+  {
+   "titre": "Les Qing, de l'apogée à la chute de l'empire",
+   "texte": "La dernière dynastie impériale est étrangère elle aussi. Les Jurchen, peuple toungouse du nord-est fédéré par Nurhachi puis par son fils Huang Taiji, se donnent le nom de Mandchous et profitent de l'effondrement des Ming pour s'emparer de la Chine en 1644. La dynastie Qing règne alors jusqu'en 1912. Le dix-huitième siècle constitue son apogée sous trois grands empereurs, Kangxi de 1661 à 1722, Yongzheng de 1723 à 1735 et Qianlong de 1735 à 1796 : l'empire s'étend sur environ treize millions de kilomètres carrés, la population croît fortement et le commerce intérieur prospère. Le dix-neuvième siècle est en revanche celui du déclin et de l'humiliation. La première guerre de l'opium, de 1839 à 1842, déclenchée par le refus chinois du trafic organisé par les marchands britanniques, s'achève par le traité de Nankin, qui cède Hong Kong au Royaume-Uni et ouvre des ports au commerce étranger. Une seconde guerre suit, et une série de traités jugés inégaux démembre peu à peu la souveraineté chinoise au profit des puissances occidentales puis du Japon. À l'intérieur, la révolte des Taiping, de 1851 à 1864, fait des millions de morts. La révolution de 1911, dite Xinhai, met fin à l'empire : la République de Chine est proclamée et le dernier empereur abdique en 1912.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Le siècle des humiliations et la fin de l'empire",
+    "evenements": [
+     {
+      "date": "1839-1842",
+      "label": "Première guerre de l'opium",
+      "texte": "Déclenchée par le refus chinois du trafic organisé par les marchands britanniques."
+     },
+     {
+      "date": "1842",
+      "label": "Traité de Nankin",
+      "texte": "Hong Kong est cédé au Royaume-Uni et des ports sont ouverts au commerce étranger."
+     },
+     {
+      "date": "1851-1864",
+      "label": "Révolte des Taiping",
+      "texte": "Des millions de morts à l'intérieur du pays."
+     },
+     {
+      "date": "Après 1842",
+      "label": "Les traités inégaux",
+      "texte": "Ils démembrent peu à peu la souveraineté chinoise au profit des Occidentaux, puis du Japon."
+     },
+     {
+      "date": "1911",
+      "label": "Révolution Xinhai",
+      "texte": "La République de Chine est proclamée."
+     },
+     {
+      "date": "1912",
+      "label": "Abdication du dernier empereur",
+      "texte": "Fin de deux mille ans d'empire."
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "En quelle année la Chine est-elle unifiée pour la première fois sous un empereur ?",
+   "choix": [
+    "En 221 av. J.-C.",
+    "En 202 av. J.-C.",
+    "En 618 apr. J.-C.",
+    "En 1368 apr. J.-C."
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "L'unification est achevée en 221 avant Jésus-Christ par le roi de Qin, qui prend alors le titre de Qin Shi Huang, le Premier Empereur, et règne jusqu'en 210. Il met fin à la période des Royaumes combattants en conquérant les États rivaux. Pour souder l'ensemble, il impose une monnaie unique, un système unique de poids et mesures et une écriture unifiée, et remplace les principautés héréditaires par des circonscriptions dirigées par des fonctionnaires nommés. Sa dynastie ne survit pourtant que jusqu'en 206 avant Jésus-Christ, emportée par les révoltes qui suivent sa mort. La date de 202 avant Jésus-Christ marque le début des Han."
+  },
+  {
+   "q": "Quelle doctrine les Han adoptent-ils comme idéologie officielle de l'État ?",
+   "choix": [
+    "Le légisme",
+    "Le bouddhisme",
+    "Le taoïsme",
+    "Le confucianisme"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "La dynastie Han, qui règne de 202 avant Jésus-Christ à 220 après Jésus-Christ, conserve les institutions impériales héritées des Qin mais remplace le légisme, doctrine fondée sur la loi rigoureuse et le châtiment, par le confucianisme. Celui-ci insiste sur la hiérarchie sociale, le respect dû aux parents et au souverain et le devoir moral du gouvernant. Il donne naissance à la figure du lettré fonctionnaire, recruté pour son savoir des textes classiques, qui restera au cœur de l'État chinois jusqu'au vingtième siècle. Le bouddhisme, venu d'Inde, ne se diffuse largement qu'après la chute des Han, pendant la période de division."
+  },
+  {
+   "q": "Quelle innovation de recrutement des fonctionnaires se développe sous les Tang ?",
+   "choix": [
+    "La vente des charges",
+    "Les examens impériaux",
+    "L'hérédité des fonctions",
+    "Le tirage au sort"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "La dynastie Tang, qui règne de 618 à 907, développe le système des examens impériaux, concours portant sur la maîtrise des textes classiques confucéens et permettant en principe d'accéder aux charges publiques par le mérite et non par la naissance. Ce système fera de la Chine l'un des premiers États dotés d'une administration recrutée par concours. La période est aussi celle de l'apogée culturel du pays : la capitale Chang'an est alors décrite comme la plus grande ville du monde, et l'imprimerie xylographique y apparaît. Wu Zetian, qui gouverne de 690 à 705, est la seule femme ayant régné comme impératrice de plein droit. La révolte d'An Lushan, en 755, amorce le déclin."
+  },
+  {
+   "q": "Qui dirige, entre 1405 et 1433, sept grandes expéditions maritimes chinoises jusqu'en Afrique orientale ?",
+   "choix": [
+    "Kubilai Khan",
+    "Marco Polo",
+    "Qianlong",
+    "L'amiral Zheng He"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Sous la dynastie Ming, qui règne de 1368 à 1644, l'amiral Zheng He conduit entre 1405 et 1433 sept expéditions maritimes de très grande ampleur, atteignant l'Asie du Sud-Est, l'Inde, l'Arabie et les côtes de l'Afrique orientale. Ces voyages, antérieurs aux grandes découvertes européennes, montrent la puissance navale chinoise de l'époque. La cour y met pourtant fin, jugeant plus urgent de défendre les frontières terrestres du nord, ce qui contribue au repli maritime de la Chine. Kubilai Khan, petit-fils de Gengis Khan, avait fondé la dynastie mongole des Yuan en 1271, et Marco Polo voyagea en Chine sous cette domination."
+  },
+  {
+   "q": "Quel traité, signé après la première guerre de l'opium, cède Hong Kong au Royaume-Uni ?",
+   "choix": [
+    "Le traité de Shimonoseki",
+    "Le traité de Nankin",
+    "Le traité de Tianjin",
+    "Le traité de Pékin"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "La première guerre de l'opium oppose la Chine au Royaume-Uni de 1839 à 1842 : Pékin voulait interdire le trafic d'opium organisé par les marchands britanniques, qui rééquilibrait à leur profit le commerce avec la Chine. La défaite chinoise débouche sur le traité de Nankin, qui cède Hong Kong et ouvre plusieurs ports au commerce étranger. Il inaugure la série des traités dits inégaux, qui grignotent la souveraineté chinoise au profit des puissances occidentales puis du Japon. Au même moment, la révolte des Taiping, de 1851 à 1864, fait des millions de morts à l'intérieur. La dynastie Qing, au pouvoir depuis 1644, s'effondre lors de la révolution de 1911 et le dernier empereur abdique en 1912."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Histoire de la Chine",
+   "url": "https://fr.wikipedia.org/wiki/Histoire_de_la_Chine"
+  },
+  {
+   "titre": "Dynastie Qin",
+   "url": "https://fr.wikipedia.org/wiki/Dynastie_Qin"
+  },
+  {
+   "titre": "Dynastie Tang",
+   "url": "https://fr.wikipedia.org/wiki/Dynastie_Tang"
+  },
+  {
+   "titre": "Dynastie Qing",
+   "url": "https://fr.wikipedia.org/wiki/Dynastie_Qing"
+  }
+ ]
+}

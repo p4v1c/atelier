@@ -1,0 +1,161 @@
+{
+ "titre": "L'histoire du livre, de l'imprimerie à l'édition",
+ "sections": [
+  {
+   "titre": "Des tablettes au codex",
+   "texte": "Avant d'être un objet de papier relié, le livre a pris des formes très diverses selon les matériaux disponibles. Les civilisations anciennes ont écrit sur des tablettes d'argile en Mésopotamie, sur du papyrus en Égypte, mais aussi sur le bois, la soie ou l'os. Léger et facile à transporter, le papyrus s'impose comme le support dominant de l'Antiquité méditerranéenne : on l'utilise sous forme de rouleau, qu'il faut dérouler d'une main et enrouler de l'autre, ce qui interdit à peu près de revenir en arrière ou de consulter rapidement un passage. À partir du IIIe siècle avant notre ère, le parchemin, fabriqué à partir de peaux animales, remplace progressivement le papyrus : il coûte beaucoup plus cher mais se conserve infiniment mieux et supporte l'écriture sur les deux faces. C'est cette propriété qui rend possible la véritable révolution de la forme, le codex, c'est-à-dire l'ensemble de feuilles pliées puis assemblées en cahiers et reliées, dont le format se détermine par les pliages successifs selon la taille désirée. Le codex apporte des avantages décisifs : il permet la lecture directe d'un passage précis, l'annotation dans les marges, la comparaison de deux endroits d'un même texte. Notre livre actuel en descend directement, et cette forme s'est révélée d'une stabilité remarquable, puisqu'elle a traversé presque deux millénaires sans changer de principe.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Le rouleau et le codex",
+    "colonnes": [
+     {
+      "titre": "Le rouleau de papyrus",
+      "points": [
+       "Support dominant de l'Antiquité méditerranéenne",
+       "Léger et facile à transporter",
+       "Il faut le dérouler d'une main et l'enrouler de l'autre",
+       "Revenir en arrière ou consulter un passage est presque impossible",
+       "Une seule face utilisable"
+      ]
+     },
+     {
+      "titre": "Le codex de parchemin",
+      "points": [
+       "Des feuilles pliées, assemblées en cahiers et reliées",
+       "Le parchemin coûte cher mais se conserve infiniment mieux",
+       "Lecture directe d'un passage précis, annotation dans les marges",
+       "Comparaison de deux endroits d'un même texte",
+       "Notre livre en descend directement"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le temps des manuscrits",
+   "texte": "Durant tout le Moyen Âge occidental, le livre reste un objet rare, coûteux et lentement produit. Les monastères en deviennent les gardiens : dans leurs scriptoria, des moines copistes reproduisent à la main les textes sacrés et profanes, souvent enrichis d'enluminures qui font de certains volumes de véritables œuvres d'art. Cette production artisanale a des conséquences considérables sur la vie intellectuelle. Le prix d'un manuscrit limite sa possession à l'Église, aux princes et à quelques riches particuliers, et le temps de copie borne strictement le nombre d'exemplaires en circulation. Chaque copie introduit en outre ses erreurs, ses omissions et parfois ses corrections abusives, de sorte que deux exemplaires d'un même texte peuvent différer notablement, difficulté qui occupe encore aujourd'hui les spécialistes de l'établissement des textes anciens. L'arrivée du papier, matériau bien moins coûteux que le parchemin, constitue une première étape vers l'élargissement du public. Elle prépare la seconde, décisive, en fournissant à l'imprimerie naissante un support abordable et produit en quantité. Sans papier bon marché, l'invention des caractères mobiles n'aurait pas eu les effets qu'on lui connaît : la vitesse de composition se serait heurtée au prix du support. C'est la rencontre des deux qui change l'histoire du livre, et avec elle l'histoire de la diffusion des idées en Europe."
+  },
+  {
+   "titre": "Gutenberg et l'imprimerie",
+   "texte": "Johannes Gutenberg, né vers 1400 à Mayence et mort le 3 février 1468, réunit vers 1450 plusieurs perfectionnements techniques dont la combinaison change la face de l'Europe. Il met au point un alliage de plomb, d'étain et d'antimoine permettant de fondre des caractères solides, régulièrement dimensionnés et réutilisables à volonté ; il améliore la presse déjà employée pour l'impression sur bois ; et il élabore une encre grasse, à base d'huile, bien supérieure aux encres à l'eau des copistes pour adhérer au métal. Entre 1452 et 1455, son atelier produit environ cent quatre-vingts exemplaires d'une Bible composée à quarante-deux lignes par page, chef-d'œuvre technique qui démontre à lui seul la portée du procédé : là où un moine mettait trois ans à copier une seule Bible, l'imprimerie en produisait cent quatre-vingts dans le même temps. L'aventure fut pourtant un désastre financier pour son auteur. Son association avec le banquier Johann Fust tourne mal, les ventes déçoivent, Fust le poursuit en justice, gagne son procès et saisit le matériel en 1455. Gutenberg vécut ensuite pauvrement jusqu'en 1465, année où l'archevêque de Mayence lui accorda une pension et le titre de gentilhomme de la cour. On appelle incunables les livres imprimés avant 1501 ; la technique se diffuse depuis la vallée du Rhin vers toute l'Europe.",
+   "visuels": [
+    {
+     "type": "chiffres",
+     "titre": "L'atelier de Gutenberg",
+     "items": [
+      {
+       "valeur": "1452-1455",
+       "label": "impression de la Bible à Mayence"
+      },
+      {
+       "valeur": "180",
+       "label": "exemplaires environ"
+      },
+      {
+       "valeur": "42",
+       "label": "lignes par page"
+      },
+      {
+       "valeur": "3 ans",
+       "label": "le temps qu'un moine mettait à copier une seule Bible"
+      },
+      {
+       "valeur": "1501",
+       "label": "limite des incunables, les livres imprimés avant cette date"
+      }
+     ]
+    },
+    {
+     "type": "image",
+     "image": "lit-bible-gutenberg",
+     "legende": "Le début de la Genèse dans la Bible à quarante-deux lignes, enluminée à la main après l'impression",
+     "alt": "Page imprimée en caractères gothiques sur deux colonnes, avec une grande lettrine peinte et une bordure de fleurs, d'oiseaux et de rinceaux colorés."
+    }
+   ]
+  },
+  {
+   "titre": "L'élargissement du public",
+   "texte": "L'imprimerie ne crée pas immédiatement un public de masse : il faut des siècles pour que la lecture devienne un usage ordinaire. Le mouvement se fait par étapes, en grande partie grâce à des formats populaires, imprimés sur mauvais papier, vendus très bon marché et diffusés hors des librairies, par colportage. La Bibliothèque bleue en France et les chapbooks en Angleterre en offrent les exemples les plus connus : contes, vies de saints, almanachs et récits merveilleux y touchent un lectorat modeste que le livre savant n'atteignait pas. Le XIXe siècle marque le véritable basculement, avec l'industrialisation de la production : presses à vapeur, mécanisation de la fabrication du papier, développement du chemin de fer pour la distribution, et scolarisation croissante qui fabrique des lecteurs. Le livre cesse alors d'être un objet précieux pour devenir une marchandise courante, ce qui rend possibles le roman-feuilleton, la presse à grand tirage et les collections bon marché. Le XXe siècle prolongera cette logique avec le livre de poche. Chaque étape combine ainsi une innovation technique, une évolution économique et une transformation sociale : aucune des trois ne suffit isolément, et c'est leur conjonction qui explique le passage d'un savoir réservé à quelques milliers de personnes à une culture écrite partagée par des sociétés entières."
+  },
+  {
+   "titre": "Le métier d'éditeur et la chaîne du livre",
+   "texte": "Le mot édition vient du latin editio, qui désigne l'action de publier. Il recouvre l'ensemble des opérations par lesquelles une production intellectuelle est présentée, reproduite et commercialisée légalement. L'éditeur remplit trois fonctions essentielles. Il choisit et produit, en sélectionnant les textes et en les travaillant conformément à une ligne éditoriale. Il légitime, en conférant à l'œuvre publiée une reconnaissance symbolique et une crédibilité que le manuscrit seul n'a pas. Il diffuse, en rendant le texte matériellement accessible et visible. Le travail s'organise en trois sphères : la sphère éditoriale, avec la sélection des manuscrits, le contrat passé avec l'auteur, la correction et les relectures ; la sphère technique, avec la mise en pages, la conception graphique, l'impression ou la production des fichiers numériques ; et la sphère commerciale, avec les diffuseurs, les distributeurs et les libraires. La période récente suscite des inquiétudes largement partagées quant à la concentration du secteur : de grands groupes considèrent le livre davantage comme une marchandise que comme une création intellectuelle, ce qui pèse sur la diversité éditoriale au profit de la rentabilité. Parallèlement, l'édition déborde désormais le livre imprimé, puisque blogs, wikis et réseaux sociaux assurent à leur manière les fonctions traditionnelles de production, de diffusion et de légitimation."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel avantage décisif le codex apporte-t-il par rapport au rouleau de papyrus ?",
+   "choix": [
+    "Il permet la lecture directe d'un passage et l'annotation",
+    "Il coûte beaucoup moins cher à produire",
+    "Il se lit sans lumière artificielle",
+    "Il supprime le besoin de copistes"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le rouleau de papyrus doit être déroulé d'une main et enroulé de l'autre, ce qui rend presque impossible de revenir en arrière ou d'atteindre rapidement un passage précis. Le codex, formé de feuilles pliées puis assemblées en cahiers et reliées, autorise au contraire la consultation directe, l'annotation dans les marges et la comparaison de deux endroits d'un même texte. Cette forme est rendue possible par le parchemin, qui supporte l'écriture sur ses deux faces. Notre livre actuel en descend directement, ce qui témoigne d'une remarquable stabilité formelle sur près de deux millénaires."
+  },
+  {
+   "q": "Quels perfectionnements Gutenberg réunit-il vers 1450 ?",
+   "choix": [
+    "Le papier, la reliure et la gravure sur cuivre",
+    "La photographie, l'offset et le brochage",
+    "L'alliage pour caractères mobiles, une presse améliorée et une encre grasse",
+    "La sténographie, l'alphabet latin et le format in-octavo"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "L'apport de Gutenberg tient à une combinaison de techniques plus qu'à une invention unique. Il met au point un alliage de plomb, d'étain et d'antimoine permettant de fondre des caractères solides et réutilisables, il améliore la presse déjà utilisée pour l'impression sur bois, et il élabore une encre grasse à base d'huile qui adhère au métal bien mieux que les encres à l'eau des copistes. Entre 1452 et 1455, son atelier produit environ cent quatre-vingts exemplaires de la Bible à quarante-deux lignes. Le papier, lui, existait déjà et a rendu l'ensemble économiquement viable."
+  },
+  {
+   "q": "Comment appelle-t-on les livres imprimés avant 1501 ?",
+   "choix": [
+    "Des codices",
+    "Des incunables",
+    "Des in-folio",
+    "Des chapbooks"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "On nomme incunables les livres imprimés avant 1501, c'est-à-dire durant les premières décennies qui suivent l'invention de Gutenberg et pendant lesquelles la technique se diffuse depuis la vallée du Rhin vers toute l'Europe. Le mot codex désigne la forme même du livre relié, née dans l'Antiquité tardive et sans rapport avec une date d'impression. L'in-folio est un format déterminé par le nombre de pliages de la feuille. Les chapbooks sont des livrets populaires anglais bon marché, équivalents de la Bibliothèque bleue française, diffusés par colportage bien après cette période."
+  },
+  {
+   "q": "Qu'est-ce que la Bibliothèque bleue ?",
+   "choix": [
+    "La première bibliothèque publique de France",
+    "Le catalogue des imprimeurs de Mayence",
+    "Une collection de livres populaires bon marché diffusés par colportage",
+    "Le fonds de manuscrits enluminés des rois de France"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "La Bibliothèque bleue désigne une production française de livrets populaires imprimés sur mauvais papier, vendus très bon marché et diffusés hors des librairies par des colporteurs. On y trouvait des contes, des vies de saints, des almanachs et des récits merveilleux, qui touchaient un lectorat modeste inaccessible au livre savant. Son équivalent anglais est le chapbook. Ces formats constituent une étape essentielle dans l'élargissement du public, avant l'industrialisation du XIXe siècle avec ses presses à vapeur, sa mécanisation du papier et sa scolarisation croissante."
+  },
+  {
+   "q": "Quelles sont les trois fonctions essentielles de l'éditeur ?",
+   "choix": [
+    "Imprimer, relier, vendre",
+    "Choisir et produire, légitimer, diffuser",
+    "Écrire, corriger, traduire",
+    "Financer, stocker, exporter"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "L'éditeur choisit et produit les textes selon une ligne éditoriale, il légitime l'œuvre en lui conférant une reconnaissance symbolique et une crédibilité que le manuscrit seul n'a pas, et il la diffuse en la rendant matériellement accessible et visible. Son travail se répartit en trois sphères : éditoriale, avec la sélection, le contrat d'auteur et les relectures ; technique, avec la mise en pages et l'impression ; commerciale, avec les diffuseurs, les distributeurs et les libraires. L'impression et la reliure relèvent d'autres métiers de la chaîne du livre. La concentration actuelle du secteur inquiète, car elle tend à traiter le livre comme une simple marchandise."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Histoire du livre",
+   "url": "https://fr.wikipedia.org/wiki/Histoire_du_livre"
+  },
+  {
+   "titre": "Johannes Gutenberg",
+   "url": "https://fr.wikipedia.org/wiki/Johannes_Gutenberg"
+  },
+  {
+   "titre": "Édition",
+   "url": "https://fr.wikipedia.org/wiki/%C3%89dition"
+  }
+ ]
+}

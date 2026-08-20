@@ -1,0 +1,224 @@
+{
+ "titre": "Les grands musées du monde et leurs chefs-d'œuvre",
+ "sections": [
+  {
+   "titre": "De la collection princière au musée public",
+   "texte": "Les grands musées d'aujourd'hui ne sont pas nés musées : ils ont commencé comme des collections privées de princes, de papes et de grandes familles, réservées à quelques visiteurs choisis. Au Vatican, tout part du pape Jules II, qui souhaite au début du XVIe siècle rassembler dans les jardins du Belvédère des statues antiques comme le Laocoon et l'Apollon du Belvédère. À Florence, le bâtiment des Offices est conçu par Giorgio Vasari à l'initiative de Cosme Ier de Médicis, et c'est son fils François Ier qui transforme la galerie supérieure en musée dès 1581. L'idée d'ouvrir ces trésors à tous est beaucoup plus tardive. Le British Museum est fondé en 1753 à partir des 71 000 objets légués par le médecin Hans Sloane et ouvre au public le 15 janvier 1759 à Montagu House, dans le quartier de Bloomsbury. La galerie des Offices devient accessible au public en 1765, à la suite du testament rédigé en 1743 par Anna Maria Luisa de Médicis, qui exigeait que les œuvres de la famille demeurent toutes et toujours dans la ville de Florence. En France, c'est la Révolution qui franchit le pas : le Louvre ouvre ses portes le 10 août 1793 pour montrer au peuple les chefs-d'œuvre de la collection royale. Suivront le Prado le 19 novembre 1819, l'Ermitage en 1852 et le Metropolitan Museum en 1872. En un siècle et demi, le musée devient une institution publique d'éducation.",
+   "visuel": {
+    "type": "frise",
+    "titre": "De la collection princière au musée public",
+    "evenements": [
+     {
+      "date": "1581",
+      "label": "Les Offices",
+      "texte": "François Ier de Médicis transforme en musée la galerie supérieure construite par Vasari."
+     },
+     {
+      "date": "1759",
+      "label": "British Museum",
+      "texte": "Fondé en 1753 sur le legs de Hans Sloane, il ouvre au public à Montagu House."
+     },
+     {
+      "date": "1765",
+      "label": "Offices ouverts à tous",
+      "texte": "Conséquence du testament d'Anna Maria Luisa de Médicis, qui lie les œuvres à Florence."
+     },
+     {
+      "date": "1793",
+      "label": "Le Louvre",
+      "texte": "La Révolution offre au peuple les chefs-d'œuvre de la collection royale."
+     },
+     {
+      "date": "1819",
+      "label": "Le Prado",
+      "texte": "Les collections royales espagnoles s'ouvrent à Madrid."
+     },
+     {
+      "date": "1852",
+      "label": "L'Ermitage",
+      "texte": "La collection commencée par Catherine II en 1764 devient accessible."
+     },
+     {
+      "date": "1872",
+      "label": "Le Metropolitan",
+      "texte": "Fondé en 1870, il ouvre au public à New York."
+     },
+     {
+      "date": "1929",
+      "label": "Le MoMA",
+      "texte": "Créé par Abby Aldrich Rockefeller, Lillie P. Bliss et Mary Quinn Sullivan."
+     },
+     {
+      "date": "1986",
+      "label": "Le musée d'Orsay",
+      "texte": "Une gare de 1900 devient le musée de l'art de 1848 à 1914."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le Louvre, du château fort au musée le plus visité",
+   "texte": "L'histoire du Louvre commence bien avant celle du musée. À l'origine se trouve un château fort élevé par le roi Philippe Auguste en 1190 pour défendre Paris. François Ier engage en 1546 sa transformation en palais Renaissance, et les souverains successifs ne cesseront de l'agrandir. Le musée proprement dit naît le 10 août 1793, en pleine Révolution française : les collections royales deviennent un bien commun offert au regard de tous. Le Louvre conserve aujourd'hui plus de 500 000 œuvres, dont plus de 36 000 sont exposées, réparties en neuf départements qui couvrent aussi bien les civilisations antiques que l'art occidental du Moyen Âge jusqu'en 1848. Parmi ses pièces les plus célèbres figurent « La Joconde » de Léonard de Vinci, la « Vénus de Milo », la « Victoire de Samothrace », « Le Scribe accroupi » égyptien et le « Code de Hammurabi » mésopotamien : un ensemble qui résume à lui seul plusieurs milliers d'années d'histoire de l'art. L'entrée du musée a été transformée en 1989 par la pyramide de verre de l'architecte Ieoh Ming Pei, longtemps discutée puis devenue un symbole de Paris au même titre que le palais lui-même. Avec 8,7 millions de visiteurs en 2024, le Louvre reste le musée d'art le plus fréquenté du monde. Que ses collections de peinture s'arrêtent vers 1848 explique d'ailleurs l'existence d'un autre musée parisien, chargé de prendre le relais pour le second XIXe siècle.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "Le Louvre aujourd'hui",
+    "items": [
+     {
+      "valeur": "1190",
+      "label": "château fort de Philippe Auguste, à l'origine du palais"
+     },
+     {
+      "valeur": "500 000",
+      "label": "œuvres conservées"
+     },
+     {
+      "valeur": "36 000",
+      "label": "œuvres exposées, en neuf départements"
+     },
+     {
+      "valeur": "8,7 M",
+      "label": "visiteurs en 2024, record mondial"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Londres et Madrid : deux façons de faire un musée",
+   "texte": "Le British Museum et le musée du Prado incarnent deux modèles opposés. Le premier est un musée encyclopédique : il conserve plus de sept millions d'objets venus du monde entier, des antiquités égyptiennes aux reliefs des palais assyriens, en passant par plus de 75 000 objets asiatiques. Ses pièces les plus fameuses sont la pierre de Rosette, gravée en 196 avant notre ère et qui permit le déchiffrement des hiéroglyphes, et les sculptures du Parthénon rapportées d'Athènes, dont la Grèce réclame la restitution. Le bâtiment néoclassique de Great Russell Street, dû à Robert Smirke, est construit entre 1823 et 1865 environ ; sa salle de lecture circulaire est couverte d'une coupole de 42,5 mètres de diamètre, et Norman Foster y a ajouté la Great Court, inaugurée le 6 décembre 2000 et présentée comme la plus grande place couverte d'Europe. Le Prado, lui, est un musée de peinture né des collections royales espagnoles rassemblées par les Habsbourg puis les Bourbons. Ouvert le 19 novembre 1819 dans un édifice de Juan de Villanueva achevé par Antonio López Aguado, il offre un panorama incomparable de la peinture du XIIe au début du XIXe siècle. On y admire « Les Ménines » et « La Reddition de Breda » de Velázquez, « Le Tres de Mayo » de Goya, « Le Jardin des délices » de Jérôme Bosch, mais aussi Le Greco, Murillo, Zurbarán, Titien, Rubens ou Dürer.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Deux façons de faire un musée",
+    "colonnes": [
+     {
+      "titre": "British Museum",
+      "points": [
+       "Musée encyclopédique, ouvert en 1759",
+       "Plus de sept millions d'objets venus du monde entier",
+       "Antiquités égyptiennes, reliefs assyriens, plus de 75 000 objets asiatiques",
+       "Pierre de Rosette et sculptures du Parthénon, dont la Grèce réclame la restitution",
+       "Bâtiment néoclassique de Robert Smirke, Great Court de Norman Foster en 2000"
+      ]
+     },
+     {
+      "titre": "Musée du Prado",
+      "points": [
+       "Musée de peinture, ouvert en 1819",
+       "Né des collections royales des Habsbourg puis des Bourbons",
+       "Panorama de la peinture du XIIe au début du XIXe siècle",
+       "Les Ménines de Velázquez, Le Tres de Mayo de Goya, Le Jardin des délices de Bosch",
+       "Édifice de Juan de Villanueva, achevé par Antonio López Aguado"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Florence, Saint-Pétersbourg, Rome : les palais devenus musées",
+   "texte": "Trois grands musées européens ont gardé la forme du palais qui les abrite. La galerie des Offices, à Florence, doit son nom aux bureaux administratifs que Vasari construisit pour Cosme Ier de Médicis. Elle abrite la plus belle collection de peinture italienne au monde : « Le Printemps » et « La Naissance de Vénus » de Botticelli, « L'Annonciation » de Léonard de Vinci et « La Vénus d'Urbin » de Titien y voisinent, attirant près de 4,4 millions de visiteurs en 2019. Le musée de l'Ermitage naît en 1764 lorsque Catherine II achète 225 tableaux au marchand berlinois Johann Ernst Gotzkowsky. Installé dans six bâtiments alignés sur la Neva, dont le Palais d'Hiver reconstruit par Bartolomeo Rastrelli en 1754, il totalise plus de trois millions d'objets et plus de seize mille toiles. On y trouve deux tableaux de Léonard de Vinci, la « Madone Benois » et la « Madone Litta », vingt-cinq Rembrandt et trente-deux œuvres de Matisse. Les musées du Vatican, enfin, rassemblent une douzaine de collections et environ 70 000 œuvres, dont 20 000 exposées : le musée Pio-Clementino pour la sculpture antique, les musées égyptien et étrusque créés par Grégoire XVI, la pinacothèque. Le sommet de la visite reste le plafond de la chapelle Sixtine et « Le Jugement dernier » de Michel-Ange, ainsi que « L'École d'Athènes » de Raphaël. Avec 6,88 millions de visiteurs en 2019, le Vatican rivalise avec le Louvre."
+  },
+  {
+   "titre": "Orsay, le Metropolitan et le MoMA : les musées des temps modernes",
+   "texte": "Les XIXe et XXe siècles ont eu leurs propres musées. À Paris, le musée d'Orsay occupe une ancienne gare, construite entre 1898 et 1900 par l'architecte Victor Laloux comme terminus parisien de la compagnie Paris-Orléans, à temps pour l'Exposition universelle de 1900. Reconvertie entre 1983 et 1986 par les architectes Renaud Bardon, Pierre Colboc et Jean-Paul Philippon, avec un aménagement intérieur de l'Italienne Gae Aulenti, elle devient un musée inauguré le 9 décembre 1986, consacré à l'art occidental de 1848 à 1914. Ses quelque 1 100 tableaux impressionnistes et postimpressionnistes en font la référence mondiale du genre, aux côtés de « Un enterrement à Ornans » et « L'Origine du monde » de Courbet, du « Déjeuner sur l'herbe » et d'« Olympia » de Manet ou du « Bal du moulin de la Galette » de Renoir. À New York, le Metropolitan Museum of Art, fondé en 1870 et ouvert au public le 20 février 1872, s'étend aujourd'hui sur environ 180 000 mètres carrés le long de Central Park : deux millions d'œuvres, 280 salles, dix-neuf départements, du temple égyptien de Dendour remonté en 1978 aux collections médiévales des Cloisters. Le MoMA, enfin, est créé en 1929 par trois femmes, Abby Aldrich Rockefeller, Lillie P. Bliss et Mary Quinn Sullivan, et installé depuis 1939 dans la 53e rue Ouest. Il conserve « La Nuit étoilée » de Van Gogh et « Les Demoiselles d'Avignon » de Picasso."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Dans quel musée peut-on voir « La Joconde » de Léonard de Vinci ?",
+   "choix": [
+    "À la galerie des Offices, à Florence",
+    "Au musée du Louvre, à Paris",
+    "Au musée du Prado, à Madrid",
+    "Au British Museum, à Londres"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "« La Joconde » est conservée au musée du Louvre, à Paris, où elle est devenue le tableau le plus regardé du monde. Le musée est né le 10 août 1793, pendant la Révolution française, pour offrir au public les chefs-d'œuvre de la collection royale. Il conserve plus de 500 000 œuvres, dont plus de 36 000 exposées, réparties en neuf départements. On y trouve aussi la « Vénus de Milo », la « Victoire de Samothrace » et le « Code de Hammurabi ». Avec 8,7 millions de visiteurs en 2024, le Louvre demeure le musée d'art le plus visité de la planète."
+  },
+  {
+   "q": "Laquelle de ces pièces célèbres est conservée au British Museum ?",
+   "choix": [
+    "La « Vénus de Milo »",
+    "« Les Ménines » de Velázquez",
+    "« La Naissance de Vénus » de Botticelli",
+    "La pierre de Rosette"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "La pierre de Rosette, gravée en 196 avant notre ère, est l'une des pièces les plus visitées du British Museum : c'est grâce à elle que les hiéroglyphes égyptiens ont pu être déchiffrés. Le musée, fondé en 1753 à partir du legs de Hans Sloane, ouvre au public le 15 janvier 1759 et conserve aujourd'hui plus de sept millions d'objets. Il abrite aussi les sculptures du Parthénon, dont la Grèce demande la restitution. La « Vénus de Milo » est au Louvre, « Les Ménines » au Prado et « La Naissance de Vénus » à la galerie des Offices. Ces quatre œuvres résument à elles seules la géographie des grands musées européens."
+  },
+  {
+   "q": "Quel musée a été fondé en 1764 par l'impératrice Catherine II ?",
+   "choix": [
+    "Le musée de l'Ermitage, à Saint-Pétersbourg",
+    "Le Metropolitan Museum, à New York",
+    "La galerie des Offices, à Florence",
+    "Le musée d'Orsay, à Paris"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'Ermitage naît en 1764, quand Catherine II achète 225 tableaux au marchand berlinois Johann Ernst Gotzkowsky. Les collections restèrent longtemps réservées à la cour impériale, jusqu'à leur ouverture au public en 1852 sous Nicolas Ier, dans le bâtiment neuf du Nouvel Ermitage. Le musée occupe aujourd'hui six bâtiments le long de la Neva, dont le Palais d'Hiver reconstruit par Rastrelli en 1754. Il conserve plus de trois millions d'objets et plus de seize mille tableaux, parmi lesquels la « Madone Benois » et la « Madone Litta » de Léonard de Vinci. C'est l'un des plus vastes musées d'art du monde."
+  },
+  {
+   "q": "Où faut-il aller pour admirer « Les Ménines » de Velázquez et « Le Tres de Mayo » de Goya ?",
+   "choix": [
+    "Aux musées du Vatican",
+    "Au musée de l'Ermitage",
+    "Au musée du Prado, à Madrid",
+    "Au MoMA de New York"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "Ces deux tableaux sont les fleurons du musée du Prado, à Madrid, ouvert le 19 novembre 1819 dans un bâtiment conçu par Juan de Villanueva. Ses collections proviennent des palais et monastères royaux espagnols, réunies par les dynasties des Habsbourg puis des Bourbons. Le Prado est avant tout un musée de peinture, couvrant du XIIe au début du XIXe siècle. On y voit également « Le Jardin des délices » de Jérôme Bosch, « La Reddition de Breda » de Velázquez et de nombreuses toiles du Greco, de Murillo, de Zurbarán, de Titien ou de Rubens. Il illustre le modèle du musée né d'une collection royale, à l'inverse du musée encyclopédique."
+  },
+  {
+   "q": "Que prévoyait le testament rédigé en 1743 par Anna Maria Luisa de Médicis ?",
+   "choix": [
+    "Que les collections seraient léguées au pape",
+    "Que les tableaux seraient vendus aux enchères",
+    "Que les œuvres seraient offertes au roi de France",
+    "Que les œuvres devraient rester pour toujours à Florence"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Dernière héritière des Médicis, Anna Maria Luisa prévoit dans son testament de 1743 que les œuvres d'art lui appartenant devront être conservées, toutes et toujours, dans la ville de Florence. Cette clause a empêché la dispersion d'un patrimoine immense et fait de la ville l'un des plus grands foyers artistiques d'Europe. Le bâtiment des Offices avait été construit par Giorgio Vasari à l'initiative de Cosme Ier de Médicis, et la galerie supérieure transformée en musée dès 1581 par François Ier. L'ouverture au public intervient en 1765. On y admire aujourd'hui « Le Printemps » et « La Naissance de Vénus » de Botticelli, « L'Annonciation » de Léonard de Vinci et « La Vénus d'Urbin » de Titien."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Musée du Louvre",
+   "url": "https://fr.wikipedia.org/wiki/Musée_du_Louvre"
+  },
+  {
+   "titre": "British Museum",
+   "url": "https://fr.wikipedia.org/wiki/British_Museum"
+  },
+  {
+   "titre": "Metropolitan Museum of Art",
+   "url": "https://fr.wikipedia.org/wiki/Metropolitan_Museum_of_Art"
+  },
+  {
+   "titre": "Musée du Prado",
+   "url": "https://fr.wikipedia.org/wiki/Musée_du_Prado"
+  },
+  {
+   "titre": "Galerie des Offices",
+   "url": "https://fr.wikipedia.org/wiki/Galerie_des_Offices"
+  },
+  {
+   "titre": "Musée de l'Ermitage",
+   "url": "https://fr.wikipedia.org/wiki/Musée_de_l%27Ermitage"
+  },
+  {
+   "titre": "Musée d'Orsay",
+   "url": "https://fr.wikipedia.org/wiki/Musée_d%27Orsay"
+  },
+  {
+   "titre": "Museum of Modern Art",
+   "url": "https://fr.wikipedia.org/wiki/Museum_of_Modern_Art"
+  },
+  {
+   "titre": "Musées du Vatican",
+   "url": "https://fr.wikipedia.org/wiki/Musées_du_Vatican"
+  }
+ ]
+}
