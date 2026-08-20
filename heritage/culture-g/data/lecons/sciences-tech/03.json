@@ -1,0 +1,191 @@
+{
+ "titre": "Les grandes découvertes médicales : vaccins, microbes et imagerie",
+ "sections": [
+  {
+   "titre": "De la théorie des humeurs à l'anatomie moderne",
+   "texte": "Pendant près de deux mille ans, la médecine occidentale repose sur la théorie des humeurs, héritée d'Hippocrate au Ve siècle avant notre ère et systématisée par Galien au IIe siècle. Selon cette doctrine, le corps contient quatre liquides, le sang, la lymphe, la bile jaune et la bile noire, dont le déséquilibre provoque la maladie ; on soigne donc en purgeant ou en saignant le patient. Cette conception a le mérite de chercher des causes naturelles plutôt que surnaturelles, mais elle repose sur des observations très limitées, la dissection humaine étant rare. La rupture vient de la Renaissance. En 1543, le Flamand André Vésale publie De humani corporis fabrica, un ouvrage fondé sur ses propres dissections, magnifiquement illustré, qui corrige des centaines d'erreurs de Galien, lequel avait surtout disséqué des animaux. En 1628, l'Anglais William Harvey démontre par le calcul et l'expérience que le sang circule en circuit fermé, propulsé par le coeur : il mesure le volume expulsé à chaque battement et montre que le foie ne pourrait jamais fabriquer une telle quantité de sang neuf. Cette méthode, où l'observation et la mesure priment sur l'autorité des Anciens, fonde la médecine scientifique. Il faudra pourtant attendre le XIXe siècle pour que la compréhension des causes des maladies rejoigne la connaissance de l'anatomie."
+  },
+  {
+   "titre": "La vaccination, de la variole à Pasteur",
+   "texte": "La variole tuait autrefois un enfant sur dix en Europe et défigurait les survivants. On savait empiriquement qu'une personne guérie ne retombait jamais malade. En Chine puis dans l'Empire ottoman, on pratiquait la variolisation, qui consistait à inoculer volontairement une petite quantité de pus de malade pour provoquer une forme atténuée ; introduite en Angleterre au début du XVIIIe siècle par Lady Mary Wortley Montagu, la méthode restait dangereuse. En 1796, le médecin anglais Edward Jenner exploite une observation de la campagne : les vachères ayant contracté la vaccine, une maladie bénigne des bovins, ne prennent pas la variole. Il inocule le liquide d'une pustule de vaccine à un jeune garçon, puis lui inocule la variole : l'enfant résiste. Le mot vaccin vient de là, de la vache. Jenner ignore pourquoi cela fonctionne, car les microbes ne sont pas encore connus. Presque un siècle plus tard, Louis Pasteur généralise le principe en découvrant, un peu par hasard sur le choléra des poules, que des cultures vieillies perdent leur virulence tout en protégeant. Il met au point des vaccins contre le charbon des moutons puis, en 1885, applique au jeune Joseph Meister un traitement contre la rage. La vaccination a permis l'éradication mondiale de la variole, déclarée officiellement en 1980 par l'Organisation mondiale de la santé.",
+   "visuel": {
+    "type": "image",
+    "image": "st-pasteur",
+    "legende": "Louis Pasteur, qui généralise le principe du vaccin et applique en 1885 un traitement contre la rage au jeune Joseph Meister.",
+    "alt": "Portrait photographique en noir et blanc d'un homme âgé en costume sombre, assis, barbe blanche, le regard tourné vers l'objectif."
+   }
+  },
+  {
+   "titre": "Microbes, asepsie et anesthésie : la naissance de la chirurgie moderne",
+   "texte": "Au milieu du XIXe siècle, entrer à l'hôpital reste dangereux. À Vienne, le médecin hongrois Ignace Semmelweis constate en 1847 que la mortalité des accouchées est bien plus élevée dans le service tenu par les étudiants en médecine, qui viennent de la salle de dissection, que dans celui des sages-femmes. Il impose le lavage des mains à l'eau chlorée et fait chuter la mortalité, mais ses collègues, vexés, rejettent sa conclusion. Il faut la théorie microbienne pour l'expliquer. Louis Pasteur montre entre 1857 et 1864 que les fermentations et les putréfactions sont dues à des micro-organismes et réfute la génération spontanée grâce à ses ballons à col de cygne. L'Allemand Robert Koch identifie ensuite les bactéries responsables du charbon, de la tuberculose en 1882 et du choléra en 1883, et énonce des critères rigoureux pour attribuer une maladie à un germe. Le chirurgien britannique Joseph Lister en tire les conséquences dès 1867 en pulvérisant du phénol sur les plaies et les instruments : l'antisepsie, puis l'asepsie qui consiste à stériliser à l'avance tout ce qui touche le patient, font s'effondrer les infections postopératoires. Parallèlement, l'anesthésie, expérimentée publiquement à Boston en 1846 avec l'éther, supprime la douleur. Opérations longues et interventions profondes deviennent enfin envisageables.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Comprendre et combattre l'infection",
+    "evenements": [
+     {
+      "date": "1846",
+      "label": "L'anesthésie",
+      "texte": "Expérimentée publiquement à Boston avec l'éther : la douleur ne limite plus l'opération."
+     },
+     {
+      "date": "1847",
+      "label": "Semmelweis",
+      "texte": "Le lavage des mains à l'eau chlorée fait chuter la mortalité des accouchées, mais ses collègues rejettent sa conclusion."
+     },
+     {
+      "date": "1857-1864",
+      "label": "Pasteur",
+      "texte": "Fermentations et putréfactions sont dues à des micro-organismes ; les ballons à col de cygne réfutent la génération spontanée."
+     },
+     {
+      "date": "1867",
+      "label": "Lister",
+      "texte": "Pulvérisation de phénol sur les plaies et les instruments : naissance de l'antisepsie."
+     },
+     {
+      "date": "1882",
+      "label": "Koch",
+      "texte": "Identification du bacille de la tuberculose."
+     },
+     {
+      "date": "1883",
+      "label": "Koch",
+      "texte": "Identification du germe du choléra."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Les antibiotiques et la chimiothérapie",
+   "texte": "Comprendre l'origine microbienne des maladies ne suffit pas : encore faut-il tuer le germe sans tuer le malade. L'Allemand Paul Ehrlich formule au début du XXe siècle l'idée d'une balle magique, une substance qui se fixerait sélectivement sur l'agent pathogène ; il met ainsi au point en 1909 le Salvarsan contre la syphilis. En 1935, les sulfamides offrent le premier traitement efficace contre de nombreuses infections bactériennes. La découverte la plus célèbre est cependant celle d'Alexander Fleming qui, en 1928, remarque qu'une moisissure du genre Penicillium contaminant une de ses boîtes de culture empêche les staphylocoques de pousser autour d'elle. Fleming publie mais ne parvient pas à isoler la substance en quantité utile. C'est à Oxford, à partir de 1939, que Howard Florey, Ernst Chain et leur équipe purifient la pénicilline, démontrent son efficacité chez la souris puis chez l'homme, et organisent avec l'industrie américaine une production de masse pendant la Seconde Guerre mondiale. Les trois hommes reçoivent ensemble le prix Nobel en 1945. Les antibiotiques transforment le pronostic de la pneumonie, de la méningite ou des plaies infectées et rendent possibles des chirurgies lourdes. Fleming lui-même avertit du danger de l'antibiorésistance : mal employés, ces médicaments sélectionnent les bactéries capables d'y survivre, problème majeur de santé publique aujourd'hui.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "De la moisissure au médicament : la pénicilline",
+    "etapes": [
+     {
+      "label": "1928 : l'observation",
+      "texte": "Fleming remarque qu'une moisissure du genre Penicillium empêche les staphylocoques de pousser autour d'elle."
+     },
+     {
+      "label": "La publication sans suite",
+      "texte": "Fleming publie mais ne parvient pas à isoler la substance en quantité utile."
+     },
+     {
+      "label": "1939 : la purification",
+      "texte": "À Oxford, Florey, Chain et leur équipe purifient la pénicilline et démontrent son efficacité chez la souris puis chez l'homme."
+     },
+     {
+      "label": "La production de masse",
+      "texte": "L'industrie américaine fabrique l'antibiotique à grande échelle pendant la Seconde Guerre mondiale."
+     },
+     {
+      "label": "1945 : le Nobel",
+      "texte": "Fleming, Florey et Chain reçoivent ensemble le prix Nobel."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Voir à l'intérieur du corps : l'imagerie médicale",
+   "texte": "Le 8 novembre 1895, le physicien allemand Wilhelm Röntgen étudie des tubes à décharge lorsqu'il remarque qu'un écran fluorescent situé à distance s'illumine, alors que le tube est enveloppé de carton. Il vient de découvrir un rayonnement inconnu qu'il baptise rayons X, capable de traverser les tissus mous mais arrêté par les os. La première radiographie, celle de la main de son épouse, fait le tour du monde en quelques semaines et la radiologie s'installe dans les hôpitaux en moins de deux ans. Röntgen reçoit en 1901 le premier prix Nobel de physique. Le XXe siècle multiplie ensuite les manières de regarder sans ouvrir. L'électrocardiogramme, mis au point par Willem Einthoven vers 1903, enregistre l'activité électrique du coeur. L'échographie, dérivée du sonar, utilise à partir des années 1950 la réflexion des ultrasons sur les organes et présente l'avantage d'être inoffensive, ce qui explique son usage pendant la grossesse. En 1972, Godfrey Hounsfield présente le scanner, qui combine par calcul des centaines de radiographies prises sous différents angles pour reconstituer des coupes du corps : c'est la rencontre de la médecine et de l'informatique. L'imagerie par résonance magnétique, développée dans les années 1970 et 1980, exploite le comportement des noyaux d'hydrogène dans un champ magnétique intense et détaille remarquablement les tissus mous et le cerveau.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Voir à l'intérieur du corps",
+    "colonnes": [
+     "Technique",
+     "Date",
+     "Ce qu'elle exploite"
+    ],
+    "lignes": [
+     [
+      "Rayons X (Röntgen)",
+      "1895",
+      "Un rayonnement qui traverse les tissus mous mais est arrêté par les os"
+     ],
+     [
+      "Électrocardiogramme (Einthoven)",
+      "vers 1903",
+      "L'activité électrique du cœur"
+     ],
+     [
+      "Échographie",
+      "années 1950",
+      "La réflexion des ultrasons sur les organes ; inoffensive, d'où son usage pendant la grossesse"
+     ],
+     [
+      "Scanner (Hounsfield)",
+      "1972",
+      "Des centaines de radiographies recombinées par calcul en coupes du corps"
+     ],
+     [
+      "IRM",
+      "années 1970-1980",
+      "Le comportement des noyaux d'hydrogène dans un champ magnétique intense"
+     ]
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Sur quelle observation Edward Jenner s'appuie-t-il en 1796 pour mettre au point sa protection contre la variole ?",
+   "choix": [
+    "Les malades soignés par saignée guérissaient plus vite",
+    "Les personnes vivant en ville étaient naturellement immunisées",
+    "Les vachères ayant eu la vaccine, maladie bénigne des bovins, n'attrapaient pas la variole",
+    "Les enfants nourris au lait cru résistaient mieux aux épidémies"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "Jenner a exploité un savoir populaire de la campagne anglaise : les femmes qui trayaient les vaches contractaient souvent la vaccine, une affection bénigne, et semblaient ensuite épargnées par la variole. Il a inoculé du liquide prélevé sur une pustule de vaccine, puis vérifié que le sujet résistait à la variole. C'est de la vache que vient le mot vaccin. Jenner ne pouvait pas expliquer le mécanisme, car les micro-organismes n'étaient pas encore identifiés ; il faudra attendre Pasteur, presque un siècle plus tard, pour généraliser le principe à d'autres maladies."
+  },
+  {
+   "q": "Que démontre William Harvey en 1628 ?",
+   "choix": [
+    "Que le sang circule en circuit fermé sous l'impulsion du coeur",
+    "Que les maladies sont causées par des micro-organismes",
+    "Que le corps contient quatre humeurs qu'il faut équilibrer",
+    "Que les nerfs transmettent des signaux électriques"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Harvey a établi que le sang effectue un circuit fermé, propulsé par le coeur qui fonctionne comme une pompe. Son argument le plus fort est quantitatif : en estimant le volume éjecté à chaque battement puis en le multipliant par le nombre de battements quotidiens, il obtient une masse de sang que le foie ne pourrait jamais produire, ce qui ruine la doctrine de Galien selon laquelle le sang était sans cesse fabriqué puis consommé. La théorie microbienne date du XIXe siècle avec Pasteur et Koch. La théorie des humeurs est justement celle que ces travaux ont contribué à écarter."
+  },
+  {
+   "q": "Qui a purifié la pénicilline et permis sa production en quantité, après l'observation initiale d'Alexander Fleming en 1928 ?",
+   "choix": [
+    "Robert Koch et Ignace Semmelweis",
+    "Paul Ehrlich seul",
+    "Louis Pasteur et Joseph Lister",
+    "Howard Florey, Ernst Chain et leur équipe d'Oxford"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Fleming avait remarqué en 1928 qu'une moisissure du genre Penicillium empêchait les staphylocoques de se développer autour d'elle, mais il n'était pas parvenu à extraire la substance active en quantité exploitable. C'est l'équipe d'Oxford, réunie autour de Howard Florey et d'Ernst Chain à partir de 1939, qui a purifié la pénicilline, prouvé son efficacité chez l'animal puis chez l'homme, et lancé avec l'industrie américaine une production massive pendant la Seconde Guerre mondiale. Les trois chercheurs ont partagé le prix Nobel de médecine en 1945. Ehrlich, mort en 1915, avait quant à lui ouvert la voie de la chimiothérapie antimicrobienne."
+  },
+  {
+   "q": "Quel principe physique est utilisé par l'échographie ?",
+   "choix": [
+    "L'absorption des rayons X par les os",
+    "La réflexion des ultrasons sur les différents tissus",
+    "Le comportement des noyaux d'hydrogène dans un champ magnétique",
+    "L'émission de lumière par des molécules radioactives"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "L'échographie, dérivée des techniques de sonar mises au point pour la marine, envoie des ultrasons dans le corps et enregistre les échos renvoyés aux frontières entre des tissus de densités différentes. Un calculateur reconstruit une image à partir du temps de retour et de l'intensité de ces échos. Comme elle n'utilise aucun rayonnement ionisant, elle est considérée comme inoffensive, ce qui explique son emploi courant pendant la grossesse. L'absorption des rayons X correspond à la radiographie et au scanner, tandis que le comportement des noyaux d'hydrogène dans un champ magnétique intense est le principe de l'imagerie par résonance magnétique."
+  },
+  {
+   "q": "Pourquoi les recommandations d'Ignace Semmelweis, en 1847, ont-elles d'abord été rejetées par ses confrères ?",
+   "choix": [
+    "Parce qu'il ne pouvait pas encore expliquer la cause des infections, la théorie microbienne n'existant pas",
+    "Parce que ses statistiques montraient une hausse de la mortalité",
+    "Parce que le chlore était interdit dans les hôpitaux de l'époque",
+    "Parce qu'il travaillait dans un service vétérinaire sans lien avec les accouchements"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Semmelweis avait observé une différence de mortalité considérable entre deux services d'accouchement et compris que les étudiants venant de la salle de dissection transportaient quelque chose de nocif sur leurs mains. Le lavage à l'eau chlorée a effectivement fait chuter la mortalité, mais il ne disposait d'aucune explication théorique, car la responsabilité des micro-organismes ne serait établie que plus tard par Pasteur et Koch. Beaucoup de médecins ont en outre mal accepté l'idée d'être eux-mêmes les vecteurs de la maladie. Ses résultats furent reconnus après sa mort, quand Lister généralisa l'antisepsie."
+  }
+ ]
+}

@@ -1,0 +1,212 @@
+{
+ "titre": "La mesure du temps : horlogerie et calendriers",
+ "sections": [
+  {
+   "titre": "Lire l'heure dans le ciel et dans l'eau",
+   "texte": "Les premiers instruments de mesure du temps ne mesurent pas vraiment le temps : ils comptent le déroulement d'un phénomène régulier. Le plus évident est la course du Soleil. Le cadran solaire, connu des Babyloniens dès le deuxième millénaire avant notre ère, utilise l'ombre portée par une tige, le style, sur une surface graduée. Sa précision est honorable, mais il souffre de deux défauts : il ne fonctionne ni la nuit ni par temps couvert, et les heures qu'il indique changent de durée selon la saison dans les systèmes anciens, où l'on divisait simplement en douze le jour et la nuit. Pour s'affranchir du ciel, on invente des instruments à écoulement. La clepsydre est un récipient dont l'eau s'écoule par un petit orifice ; le niveau qui baisse, ou celui qui monte dans un second vase, indique la durée écoulée. Elle a servi en Égypte, en Grèce, à Rome, où elle limitait notamment le temps de parole des orateurs au tribunal. Le sablier repose sur le même principe avec du sable, moins sensible au gel et à l'évaporation, ce qui en fit longtemps l'instrument des marins. Tous ces dispositifs partagent une faiblesse : leur écoulement n'est pas parfaitement régulier, car il dépend de la pression, de la température ou de l'humidité. Mesurer le temps de façon fiable suppose donc de trouver un mouvement qui se répète toujours à l'identique."
+  },
+  {
+   "titre": "L'horloge mécanique et le rythme des villes",
+   "texte": "La solution mécanique apparaît en Europe aux XIIIe et XIVe siècles. Le principe est celui d'un poids suspendu à une corde enroulée autour d'un tambour : en descendant, il fait tourner un train d'engrenages. Livré à lui-même, ce poids tomberait d'un coup ; il faut donc un organe qui libère le mouvement par petites quantités égales. C'est l'échappement, cœur de toute horloge mécanique : une pièce oscillante bloque et libère alternativement une roue dentée, découpant ainsi la descente du poids en battements réguliers, ce tic-tac que l'on entend. Les premières horloges monumentales s'installent dans les clochers et les beffrois : celle de Milan date de 1336, celle de Prague de 1410. Elles n'ont souvent qu'une aiguille, celle des heures, et se dérèglent de plusieurs minutes par jour, mais elles sonnent, et c'est l'essentiel : pour la première fois, une communauté entière obéit à un temps commun, mécanique et abstrait, découpé en heures égales, indépendantes de la longueur du jour. Les historiens y voient un tournant : le temps de l'Église, rythmé par les prières, cède peu à peu la place au temps des marchands et des villes. L'invention du ressort moteur, enroulé dans un barillet, libère ensuite l'horloge du poids suspendu et permet de la rendre portative : ce sont les premières montres.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "Pourquoi une horloge mécanique fait tic-tac",
+    "etapes": [
+     {
+      "label": "Un poids descend",
+      "texte": "Suspendu à une corde enroulée autour d'un tambour, il fournit l'énergie."
+     },
+     {
+      "label": "Il entraîne les engrenages",
+      "texte": "Livré à lui-même, il tomberait d'un seul coup."
+     },
+     {
+      "label": "L'échappement le retient",
+      "texte": "Une pièce oscillante bloque et libère alternativement une roue dentée."
+     },
+     {
+      "label": "La descente devient des battements égaux",
+      "texte": "C'est le tic-tac : le temps est découpé en quantités identiques."
+     },
+     {
+      "label": "Le ressort remplace le poids",
+      "texte": "Enroulé dans un barillet, il rend l'horloge portative : ce sont les premières montres."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le pendule, le spiral et la conquête de la précision",
+   "texte": "Le progrès décisif vient d'une propriété physique. Un pendule, c'est-à-dire une masse suspendue qui oscille, met toujours à peu près le même temps pour effectuer un aller-retour, que son écart soit grand ou petit, tant que l'amplitude reste modérée : c'est l'isochronisme, remarqué par Galilée. Sa période dépend de la longueur du fil et de la pesanteur, mais pas de la masse suspendue, ce qu'exprime la formule établie par Christiaan Huygens, la période valant deux fois pi multiplié par la racine carrée du rapport de la longueur à l'accélération de la pesanteur. En 1656, ce savant néerlandais construit la première horloge réglée par un pendule, et publie sa description dans l'Horologium en 1658. Le gain est spectaculaire : d'environ quinze minutes d'erreur par jour, on passe à une quinzaine de secondes. En décembre 1659, il établit qu'un pendule suivant un arc de cycloïde est rigoureusement isochrone, et développe la théorie complète dans l'Horologium oscillatorium en 1673. Pour les montres, où un pendule est inutilisable, le même rôle est tenu par un balancier associé à un fin ressort spiral ; Isaac Thuret réalise en 1675 une montre à ressort spiral. Reste l'enjeu maritime : connaître l'heure du port de départ permet de calculer sa longitude. Le Parlement britannique promet en 1714 une récompense considérable, que l'horloger John Harrison remporte en 1765 avec un chronomètre d'une précision inédite.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "Ce que le pendule fait gagner",
+    "items": [
+     {
+      "valeur": "1656",
+      "label": "Huygens construit la première horloge réglée par un pendule"
+     },
+     {
+      "valeur": "15 min",
+      "label": "d'erreur par jour avant le pendule"
+     },
+     {
+      "valeur": "15 s",
+      "label": "d'erreur par jour après : un facteur soixante"
+     },
+     {
+      "valeur": "1714",
+      "label": "le Parlement britannique promet une récompense pour la longitude en mer"
+     },
+     {
+      "valeur": "1765",
+      "label": "John Harrison la remporte avec son chronomètre"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Du quartz à l'atome : le temps devient une constante physique",
+   "texte": "Au XXe siècle, l'oscillateur mécanique cède la place à l'oscillateur électrique. Un cristal de quartz possède une propriété appelée piézoélectricité : soumis à une tension, il se déforme, et déformé, il produit une tension. Taillé et excité par un circuit électronique, il vibre à une fréquence extrêmement stable, que l'on divise pour obtenir des impulsions d'une seconde. L'ingénieur Warren Marrison met au point une horloge à quartz en 1927 ; l'électronique miniaturisée permettra ensuite d'en faire des montres, la première montre-bracelet à quartz commercialisée étant l'Astron de Seiko, en 1969. L'étape suivante abandonne tout objet fabriqué au profit d'une propriété de la matière elle-même. Les atomes ne peuvent occuper que certains niveaux d'énergie précis, et le passage de l'un à l'autre correspond à une onde de fréquence parfaitement déterminée, identique pour tous les atomes d'un même élément. Louis Essen et Jack Parry présentent en 1955, au National Physical Laboratory britannique, la première horloge atomique au césium, précise à une seconde près sur trente ans. Depuis 1967, la seconde est officiellement définie comme la durée de 9 192 631 770 périodes de la transition entre deux niveaux de l'atome de césium 133. Les meilleures horloges dérivent aujourd'hui d'une seconde en plusieurs dizaines de millions d'années. Sans elles, ni le temps atomique international, ni les réseaux de télécommunication, ni la navigation par satellite ne seraient possibles.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Le temps devient une constante physique",
+    "evenements": [
+     {
+      "date": "1927",
+      "label": "Horloge à quartz",
+      "texte": "Warren Marrison exploite la piézoélectricité : le cristal vibre à une fréquence extrêmement stable."
+     },
+     {
+      "date": "1955",
+      "label": "Horloge atomique au césium",
+      "texte": "Essen et Parry : une seconde d'écart sur trente ans."
+     },
+     {
+      "date": "1967",
+      "label": "Nouvelle définition de la seconde",
+      "texte": "9 192 631 770 périodes de la transition entre deux niveaux de l'atome de césium 133."
+     },
+     {
+      "date": "1969",
+      "label": "L'Astron de Seiko",
+      "texte": "Première montre-bracelet à quartz commercialisée."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Les calendriers : accorder les jours et les saisons",
+   "texte": "Mesurer l'heure est un problème ; ordonner les années en est un autre, plus retors, car les durées naturelles ne sont pas des multiples les unes des autres. L'année tropique, intervalle qui ramène les saisons au même point, dure environ 365,2422 jours : ni un nombre entier, ni une fraction simple. Le calendrier romain républicain, fondé sur des ajouts irréguliers décidés par les prêtres, avait fini par se décaler gravement. Jules César, en tant que grand pontife, impose la réforme julienne en 46-45 avant notre ère, conseillé par l'astronome Sosigène d'Alexandrie : l'année compte désormais 365 jours, avec un jour supplémentaire tous les quatre ans, soit une moyenne de 365,25 jours. Les prêtres se trompèrent d'abord en intercalant tous les trois ans, erreur corrigée sous Auguste. Mais 365,25 est encore un peu trop long : le décalage atteint environ un jour tous les cent trente ans, si bien qu'au XVIe siècle l'équinoxe de printemps tombait dix jours trop tôt, ce qui déréglait la date de Pâques. Le pape Grégoire XIII promulgue la réforme par la bulle Inter gravissimas du 24 février 1582 : après le jeudi 4 octobre 1582 vient directement le vendredi 15 octobre. La nouvelle règle supprime le caractère bissextile des années séculaires, sauf si elles sont divisibles par 400 : 1900 ne l'est pas, 2000 l'est. L'année moyenne tombe à 365,2425 jours. L'adoption fut lente : la Russie n'y vint qu'en 1918.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Julien ou grégorien : accorder l'année sur les saisons",
+    "colonnes": [
+     {
+      "titre": "Calendrier julien (46-45 av. J.-C.)",
+      "points": [
+       "Imposé par Jules César sur le conseil de Sosigène d'Alexandrie",
+       "365 jours, plus un jour tous les quatre ans",
+       "Année moyenne de 365,25 jours",
+       "Encore trop longue : un jour de décalage tous les cent trente ans environ"
+      ]
+     },
+     {
+      "titre": "Calendrier grégorien (1582)",
+      "points": [
+       "Bulle Inter gravissimas du 24 février 1582 ; après le jeudi 4 octobre vient le vendredi 15 octobre",
+       "Les années séculaires cessent d'être bissextiles, sauf si elles sont divisibles par 400 : 1900 ne l'est pas, 2000 l'est",
+       "Année moyenne de 365,2425 jours",
+       "Adoption lente : la Russie n'y vient qu'en 1918"
+      ]
+     }
+    ],
+    "note": "L'année tropique, qui ramène les saisons au même point, dure environ 365,2422 jours."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Dans une horloge mécanique, à quoi sert l'échappement ?",
+   "choix": [
+    "À enrouler la corde du poids moteur",
+    "À libérer le mouvement par petites quantités égales et régulières",
+    "À faire sonner les cloches aux heures justes",
+    "À corriger la longueur du jour selon la saison"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Une horloge à poids tire son énergie de la chute d'une masse suspendue. Sans dispositif de régulation, ce poids tomberait d'un seul coup et les aiguilles feraient un tour instantané. L'échappement est l'organe qui bloque puis libère alternativement une roue dentée, découpant la descente en battements réguliers : c'est lui qui produit le tic-tac. Il constitue donc le cœur de toute horloge mécanique, celui qui transforme une énergie continue en un comptage régulier. Sa qualité détermine directement la précision de l'instrument, et c'est en le perfectionnant, puis en l'associant au pendule, que les horlogers ont gagné en exactitude."
+  },
+  {
+   "q": "De quoi dépend la période d'oscillation d'un pendule ?",
+   "choix": [
+    "De la masse suspendue uniquement",
+    "De la masse et de la couleur du fil",
+    "De la longueur du fil et de la pesanteur, mais pas de la masse",
+    "De l'amplitude, qui doit être maximale"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "C'est une propriété physique remarquable et un peu contre-intuitive : deux pendules de même longueur battent au même rythme, que la masse suspendue soit lourde ou légère. La période vaut deux fois pi multiplié par la racine carrée du rapport de la longueur à l'accélération de la pesanteur, formule établie par Christiaan Huygens. Pour de petites amplitudes, la période ne dépend pratiquement pas non plus de l'écart initial : c'est l'isochronisme, remarqué par Galilée. Huygens montra en décembre 1659 qu'un pendule décrivant un arc de cycloïde est isochrone de façon rigoureuse. C'est cette régularité qui a fait du pendule le régulateur des horloges de précision."
+  },
+  {
+   "q": "Quel gain de précision l'horloge à pendule de Huygens, construite en 1656, apporte-t-elle ?",
+   "choix": [
+    "Elle passe d'environ quinze minutes à environ quinze secondes d'erreur par jour",
+    "Elle passe d'une heure à une minute d'erreur par jour",
+    "Elle ne se dérègle plus jamais",
+    "Elle divise l'erreur par deux seulement"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Avant le pendule, les horloges mécaniques se déréglaient d'un quart d'heure environ chaque jour, ce qui suffisait pour sonner les offices mais interdisait tout usage scientifique sérieux. En appliquant l'isochronisme du pendule à la régulation d'une horloge, Christiaan Huygens ramène l'erreur à une quinzaine de secondes par jour dès 1656, soit un progrès d'un facteur soixante environ. Il publie sa description dans l'Horologium en 1658, puis la théorie complète dans l'Horologium oscillatorium en 1673. Cette précision nouvelle rend enfin possibles des mesures astronomiques fines, et ouvre la voie au problème du calcul de la longitude en mer."
+  },
+  {
+   "q": "Comment la seconde est-elle définie officiellement depuis 1967 ?",
+   "choix": [
+    "Comme la 86 400e partie du jour solaire moyen",
+    "Comme la durée de 9 192 631 770 périodes d'une transition de l'atome de césium 133",
+    "Comme la durée d'oscillation d'un pendule d'un mètre",
+    "Comme la 31 556 926e partie de l'année tropique"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "La seconde a longtemps été définie à partir de la rotation de la Terre, mais celle-ci n'est pas parfaitement régulière : elle ralentit légèrement et connaît de petites variations. Depuis 1967, la Conférence générale des poids et mesures s'appuie sur une propriété de la matière elle-même : les atomes ne peuvent occuper que certains niveaux d'énergie, et le passage entre deux d'entre eux correspond à une onde d'une fréquence rigoureusement identique pour tous les atomes d'un même élément. La seconde vaut donc 9 192 631 770 périodes de cette transition dans l'atome de césium 133. Louis Essen et Jack Parry avaient construit la première horloge atomique au césium en 1955."
+  },
+  {
+   "q": "Pourquoi le pape Grégoire XIII a-t-il réformé le calendrier en 1582 ?",
+   "choix": [
+    "Pour ajouter un treizième mois à l'année",
+    "Pour aligner le calendrier chrétien sur le calendrier musulman",
+    "Pour faire commencer l'année le 1er janvier",
+    "Parce que l'année julienne, trop longue, avait décalé l'équinoxe de dix jours"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le calendrier julien, institué par Jules César en 46-45 avant notre ère avec le conseil de Sosigène d'Alexandrie, comptait une année moyenne de 365,25 jours. Or l'année tropique dure environ 365,2422 jours : l'écart, d'à peine onze minutes par an, accumule un jour tous les cent trente ans environ. Au XVIe siècle, l'équinoxe de printemps tombait dix jours trop tôt, ce qui faussait le calcul de la date de Pâques. La bulle Inter gravissimas du 24 février 1582 supprime dix jours, le vendredi 15 octobre suivant immédiatement le jeudi 4 octobre, et modifie la règle : les années séculaires ne sont bissextiles que si elles sont divisibles par 400."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Horlogerie",
+   "url": "https://fr.wikipedia.org/wiki/Horlogerie"
+  },
+  {
+   "titre": "Christiaan Huygens",
+   "url": "https://fr.wikipedia.org/wiki/Christiaan_Huygens"
+  },
+  {
+   "titre": "Horloge atomique",
+   "url": "https://fr.wikipedia.org/wiki/Horloge_atomique"
+  },
+  {
+   "titre": "Calendrier julien",
+   "url": "https://fr.wikipedia.org/wiki/Calendrier_julien"
+  },
+  {
+   "titre": "Calendrier grégorien",
+   "url": "https://fr.wikipedia.org/wiki/Calendrier_gr%C3%A9gorien"
+  }
+ ]
+}

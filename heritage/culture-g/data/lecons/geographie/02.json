@@ -1,0 +1,188 @@
+{
+ "titre": "La population mondiale : croissance, répartition et migrations",
+ "sections": [
+  {
+   "titre": "Huit milliards d'habitants",
+   "texte": "L'humanité a franchi le seuil des 8 milliards d'habitants en novembre 2022, selon l'estimation des Nations unies. Cette croissance est récente et fulgurante : la population mondiale n'atteignait le premier milliard que vers 1800, le deuxième vers 1927, le quatrième en 1974. Il aura donc fallu des dizaines de milliers d'années pour arriver au premier milliard, et un peu plus de dix ans pour passer du septième au huitième. Ce phénomène s'explique par la transition démographique, un processus en deux temps. Dans un premier temps, grâce aux progrès de l'hygiène, de la médecine et de l'alimentation, la mortalité chute fortement alors que la natalité reste élevée : la population augmente très vite. Dans un second temps, la natalité baisse à son tour, avec la scolarisation des filles, l'urbanisation et la contraception, et la croissance ralentit. L'Europe a connu cette transition entre le XVIIIe et le XXe siècle, l'Asie et l'Amérique latine au XXe siècle, l'Afrique la traverse aujourd'hui. Le rythme de croissance mondial a d'ailleurs déjà commencé à ralentir : il était de plus de 2 pour cent par an vers 1965 et se situe autour de 0,9 pour cent au début des années 2020. Les projections des Nations unies envisagent un pic autour de 10 milliards d'habitants vers la fin du XXIe siècle.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Les milliards d'habitants : un emballement récent",
+    "evenements": [
+     {
+      "date": "vers 1800",
+      "label": "1 milliard",
+      "texte": "Il aura fallu des dizaines de milliers d'années pour y parvenir."
+     },
+     {
+      "date": "vers 1927",
+      "label": "2 milliards",
+      "texte": "Environ 125 ans pour doubler."
+     },
+     {
+      "date": "1974",
+      "label": "4 milliards",
+      "texte": "Le doublement suivant ne prend plus que 47 ans."
+     },
+     {
+      "date": "nov. 2022",
+      "label": "8 milliards",
+      "texte": "Un peu plus de dix ans seulement séparent le septième du huitième milliard."
+     },
+     {
+      "date": "fin XXIe s.",
+      "label": "environ 10 milliards",
+      "texte": "Pic envisagé par les projections des Nations unies."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Une répartition très inégale",
+   "texte": "Les habitants de la planète ne sont pas répartis de façon uniforme. Environ 90 pour cent d'entre eux vivent dans l'hémisphère nord, et une grande partie des terres émergées reste presque vide. On appelle déserts humains les espaces où la densité est inférieure à un habitant par kilomètre carré : les régions polaires comme le Groenland ou la Sibérie, les grands déserts chauds comme le Sahara, les hautes montagnes comme le Tibet, et les forêts denses comme l'Amazonie. À l'inverse, trois foyers de peuplement majeurs concentrent à eux seuls plus de la moitié de l'humanité. Le premier est l'Asie de l'Est, autour de la Chine, de la Corée et du Japon. Le deuxième est l'Asie du Sud, avec l'Inde, le Pakistan et le Bangladesh, ce dernier atteignant une densité de plus de 1100 habitants par kilomètre carré. Le troisième est l'Europe, en particulier la dorsale qui va de l'Angleterre à l'Italie du Nord. Un quatrième foyer, plus modeste, se dessine dans le nord-est des États-Unis. La densité moyenne mondiale se situe autour de 60 habitants par kilomètre carré sur les terres émergées hors Antarctique. Les hommes se sont installés en priorité sur les littoraux, dans les plaines fertiles et le long des grandes vallées fluviales comme le Gange, le Nil ou le Yangzi Jiang."
+  },
+  {
+   "titre": "Les pays les plus peuplés et leur dynamique",
+   "texte": "Au milieu des années 2020, l'Inde est devenue le pays le plus peuplé du monde, dépassant la Chine : chacun de ces deux États rassemble environ 1,4 milliard d'habitants, soit à eux deux plus du tiers de l'humanité. Viennent ensuite les États-Unis avec environ 340 millions d'habitants, puis l'Indonésie, le Pakistan, le Nigeria et le Brésil, tous au-dessus de 200 millions. Ces classements évoluent rapidement car les dynamiques sont très différentes. La Chine, qui a longtemps appliqué la politique de l'enfant unique entre 1979 et 2015, voit désormais sa population diminuer, avec un indice de fécondité inférieur à 1,2 enfant par femme. Le Japon, l'Italie et la Corée du Sud connaissent aussi un recul et un vieillissement marqué : au Japon, près de 30 pour cent des habitants ont plus de 65 ans. À l'inverse, l'Afrique subsaharienne conserve une fécondité élevée, supérieure à 4 enfants par femme, et une population très jeune : la moitié des Nigérians ont moins de 18 ans. Les démographes estiment que la moitié de la croissance mondiale d'ici 2050 viendra de quelques pays africains, dont le Nigeria, la République démocratique du Congo, l'Éthiopie et la Tanzanie. Le seuil de renouvellement des générations est fixé à environ 2,1 enfants par femme.",
+   "visuel": {
+    "type": "barres",
+    "titre": "Les sept pays les plus peuplés du monde",
+    "unite": "millions d'habitants",
+    "donnees": [
+     {
+      "label": "Inde",
+      "valeur": 1440,
+      "affichage": "≈ 1,44 Md"
+     },
+     {
+      "label": "Chine",
+      "valeur": 1420,
+      "affichage": "≈ 1,42 Md"
+     },
+     {
+      "label": "États-Unis",
+      "valeur": 340,
+      "affichage": "≈ 340 M"
+     },
+     {
+      "label": "Indonésie",
+      "valeur": 280,
+      "affichage": "≈ 280 M"
+     },
+     {
+      "label": "Pakistan",
+      "valeur": 248,
+      "affichage": "≈ 248 M"
+     },
+     {
+      "label": "Nigeria",
+      "valeur": 228,
+      "affichage": "≈ 228 M"
+     },
+     {
+      "label": "Brésil",
+      "valeur": 211,
+      "affichage": "≈ 211 M"
+     }
+    ],
+    "note": "L'Inde et la Chine réunies pèsent plus du tiers de l'humanité, mais la population chinoise recule déjà tandis que celle du Nigeria croît vite."
+   }
+  },
+  {
+   "titre": "Lire une pyramide des âges",
+   "texte": "Pour comprendre la structure d'une population, les géographes utilisent la pyramide des âges. Ce graphique superpose des barres horizontales représentant, pour chaque tranche d'âge, le nombre d'hommes à gauche et de femmes à droite. Sa forme raconte l'histoire démographique d'un pays. Une pyramide large à la base et très étroite au sommet, comme celle du Niger ou du Mali, révèle une natalité forte et une espérance de vie encore limitée : la population est jeune et va continuer de croître, même si la fécondité baisse, par simple effet d'inertie. Une pyramide en forme de meule, presque rectangulaire jusqu'à 60 ans, comme celle de la France, indique une population stabilisée. Une pyramide en forme de champignon, étroite à la base et renflée vers le haut, comme celle du Japon ou de l'Allemagne, signale un vieillissement avancé, avec les problèmes de financement des retraites et de main-d'œuvre qui l'accompagnent. Les creux et les bosses visibles dans le profil gardent la trace d'événements passés : le déficit de naissances des guerres mondiales, ou au contraire le baby-boom qui a suivi 1945 en Europe occidentale et en Amérique du Nord. L'espérance de vie mondiale, qui n'était que de 47 ans vers 1950, dépasse aujourd'hui 72 ans.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Trois formes de pyramide des âges",
+    "colonnes": [
+     "Forme",
+     "Exemples",
+     "Ce qu'elle raconte"
+    ],
+    "lignes": [
+     [
+      "Pyramide large à la base, étroite au sommet",
+      "Niger, Mali",
+      "Natalité forte, espérance de vie encore limitée : la population est jeune et continuera de croître par inertie."
+     ],
+     [
+      "Meule, presque rectangulaire jusqu'à 60 ans",
+      "France",
+      "Population stabilisée : les générations se succèdent sans forte croissance ni recul."
+     ],
+     [
+      "Champignon, étroite en bas et renflée en haut",
+      "Japon, Allemagne",
+      "Vieillissement avancé : financement des retraites et manque de main-d'œuvre."
+     ]
+    ],
+    "note": "Les creux du profil gardent la trace des guerres mondiales, les bosses celle du baby-boom d'après 1945."
+   }
+  },
+  {
+   "titre": "Les migrations internationales",
+   "texte": "Selon les Nations unies, environ 280 millions de personnes vivent aujourd'hui dans un pays autre que celui où elles sont nées, soit près de 3,5 pour cent de la population mondiale. Ce chiffre montre que la grande majorité des habitants de la planète ne migrent pas à l'étranger, mais les mouvements de population jouent un rôle croissant. Les migrations sont d'abord économiques : des personnes quittent des régions pauvres pour des pays offrant des emplois mieux payés. Les grands foyers de départ sont l'Asie du Sud, l'Amérique centrale, l'Afrique du Nord et de l'Ouest ; les principaux pays d'accueil sont les États-Unis, l'Allemagne, l'Arabie saoudite, la Russie et la France. Les migrations peuvent aussi être forcées : guerres, persécutions ou catastrophes poussent des populations à fuir. Le Haut-Commissariat des Nations unies pour les réfugiés recensait plus de 100 millions de personnes déracinées au début des années 2020, dont une majorité de déplacés à l'intérieur de leur propre pays. Les migrants envoient à leurs familles des sommes considérables, appelées remises, de l'ordre de 650 à 800 milliards de dollars par an, une ressource supérieure à l'aide publique au développement pour de nombreux États. Les migrations transforment ainsi à la fois les sociétés de départ et celles d'arrivée."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "En quelle année la population mondiale a-t-elle franchi le seuil des 8 milliards d'habitants ?",
+   "choix": [
+    "En 1999",
+    "En 2011",
+    "En 2022",
+    "En 2030"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "Les Nations unies ont fixé de façon symbolique au 15 novembre 2022 le passage du cap des 8 milliards d'habitants. Ce jalon arrive seulement onze ans après celui des 7 milliards, atteint en 2011, et vingt-trois ans après celui des 6 milliards en 1999. Ces dates rappellent à quelle vitesse l'humanité s'est accrue au XXe siècle, alors qu'il avait fallu attendre 1800 environ pour dépasser le premier milliard. La croissance ralentit néanmoins : le rythme annuel est passé de plus de 2 pour cent dans les années 1960 à moins de 1 pour cent aujourd'hui. Les projections situent un pic autour de 10 milliards d'habitants vers la fin du siècle."
+  },
+  {
+   "q": "Quel pays est devenu au milieu des années 2020 le plus peuplé du monde ?",
+   "choix": [
+    "Les États-Unis",
+    "L'Inde",
+    "L'Indonésie",
+    "Le Nigeria"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "L'Inde a dépassé la Chine et compte désormais environ 1,4 milliard d'habitants, un peu plus que sa voisine. Ce basculement s'explique par des trajectoires démographiques opposées : la Chine a fortement freiné sa natalité, notamment avec la politique de l'enfant unique appliquée de 1979 à 2015, et sa population a commencé à diminuer, tandis que l'Inde a conservé plus longtemps une fécondité élevée. Aujourd'hui, l'indice de fécondité indien est pourtant lui aussi descendu autour du seuil de renouvellement des générations. Les États-Unis, troisième pays du monde, comptent environ 340 millions d'habitants, soit quatre fois moins. Le Nigeria, avec plus de 220 millions d'habitants, est le pays le plus peuplé d'Afrique."
+  },
+  {
+   "q": "Comment appelle-t-on le processus de passage d'une natalité et d'une mortalité fortes à une natalité et une mortalité faibles ?",
+   "choix": [
+    "L'exode rural",
+    "La révolution verte",
+    "La transition démographique",
+    "Le vieillissement"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La transition démographique désigne le basculement d'un régime ancien, où beaucoup d'enfants naissaient mais où beaucoup mouraient jeunes, vers un régime moderne où l'on naît peu et où l'on meurt vieux. Elle se déroule en deux phases : la mortalité baisse d'abord, grâce aux vaccins, à l'eau potable et à une meilleure alimentation, ce qui provoque une explosion démographique ; puis la natalité baisse à son tour avec la scolarisation, l'urbanisation et la contraception. Entre les deux phases, l'écart entre naissances et décès fait fortement croître la population. L'Europe a achevé cette transition au XXe siècle, l'Afrique subsaharienne la traverse encore. L'exode rural, lui, décrit un déplacement des campagnes vers les villes."
+  },
+  {
+   "q": "Environ combien de personnes vivent dans un autre pays que celui de leur naissance au début des années 2020 ?",
+   "choix": [
+    "Environ 280 millions",
+    "Environ 20 millions",
+    "Environ 1 milliard",
+    "Environ 3 milliards"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Les Nations unies estiment le nombre de migrants internationaux à environ 280 millions de personnes, soit à peu près 3,5 pour cent de la population mondiale. Ce chiffre est souvent surestimé dans les débats publics : plus de 96 pour cent des habitants de la planète vivent dans leur pays de naissance. Les migrations internes, des campagnes vers les villes ou d'une région à une autre, concernent en revanche beaucoup plus de monde. Les principaux pays d'accueil sont les États-Unis, l'Allemagne, l'Arabie saoudite et la Russie. Les sommes que les migrants renvoient à leurs familles, appelées remises, représentent plusieurs centaines de milliards de dollars par an et constituent une ressource essentielle pour de nombreux pays de départ."
+  },
+  {
+   "q": "Quelle forme prend la pyramide des âges d'un pays vieillissant comme le Japon ?",
+   "choix": [
+    "Une base très large et un sommet pointu",
+    "Un triangle parfait",
+    "Une forme de champignon, étroite en bas et renflée en haut",
+    "Un carré parfait"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Quand la fécondité est faible depuis longtemps et que l'espérance de vie est élevée, les tranches d'âge les plus nombreuses se situent au milieu et en haut du graphique, tandis que la base, formée par les jeunes enfants, se rétrécit. La pyramide prend alors une allure de champignon ou de toupie renversée. C'est le cas du Japon, où près de 30 pour cent de la population a dépassé 65 ans, mais aussi de l'Allemagne, de l'Italie et de la Corée du Sud. Une base très large avec un sommet pointu caractérise à l'inverse les pays jeunes comme le Niger. Une forme presque rectangulaire, dite en meule, correspond à une population stabilisée comme celle de la France."
+  }
+ ]
+}

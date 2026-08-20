@@ -1,0 +1,183 @@
+{
+ "titre": "La mythologie romaine et ses différences avec la mythologie grecque",
+ "sections": [
+  {
+   "titre": "Les racines de la religion romaine",
+   "texte": "La religion des Romains s'est formée à partir de plusieurs héritages successifs. Les plus anciennes croyances du Latium reposaient sur des puissances impersonnelles appelées numina, forces divines que l'on percevait dans les sources, les bornes des champs, les portes des maisons ou les récoltes. Ces numina n'avaient ni corps, ni famille, ni aventures amoureuses : ils agissaient, et les hommes cherchaient à obtenir leur faveur par des rites accomplis avec une précision scrupuleuse. Janus veillait sur les passages et les commencements, Vesta sur le foyer, Terminus sur les limites des propriétés. À cette base italique se sont ajoutées des influences étrusques, particulièrement sensibles dans l'art de lire l'avenir en examinant le foie des animaux sacrifiés, puis des influences grecques venues des colonies installées dans le sud de la péninsule à partir du VIIIe siècle avant notre ère. La tradition attribue au roi Numa Pompilius, deuxième roi légendaire de Rome, l'organisation du calendrier religieux et la fondation des grands collèges de prêtres. À partir du IIIe siècle avant notre ère, la conquête du bassin méditerranéen accélère encore les emprunts : Rome accueille des divinités venues d'Asie Mineure, comme Cybèle, puis d'Égypte, comme Isis. La religion romaine apparaît ainsi comme un ensemble ouvert, capable d'intégrer de nouveaux dieux sans renoncer aux anciens, à condition que les rites traditionnels de la cité continuent d'être accomplis correctement par les magistrats et les prêtres."
+  },
+  {
+   "titre": "Des dieux romains aux dieux grecs : l'assimilation",
+   "texte": "À mesure que les contacts avec le monde grec se multiplient, les Romains rapprochent leurs propres divinités de celles des Grecs, un phénomène que les historiens appellent l'interpretatio romana. Jupiter, dieu du ciel, de la foudre et des serments, est identifié à Zeus ; Junon, protectrice des femmes et du mariage, à Héra ; Minerve, patronne de l'intelligence et des métiers, à Athéna. Neptune correspond à Poséidon, Mars à Arès, Vénus à Aphrodite, Mercure à Hermès, Cérès à Déméter, Diane à Artémis, Vulcain à Héphaïstos, Bacchus à Dionysos. Cette assimilation n'est pas une simple traduction de noms : elle transforme les dieux romains, qui reçoivent alors les récits, les généalogies et les représentations figurées de leurs homologues grecs. Certaines divinités restent pourtant proprement romaines et n'ont pas d'équivalent, comme Janus au double visage ou les Lares et Pénates qui protègent la maison. D'autres changent de rang : Mars, simple dieu guerrier et agraire chez les Latins, devient le père de Romulus et l'un des dieux majeurs de la cité, alors qu'Arès occupait chez les Grecs une place plus marginale et souvent négative. Le trio capitolin, formé de Jupiter, Junon et Minerve, reçoit un temple monumental sur la colline du Capitole et incarne la protection accordée à l'État romain tout entier.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "L'interpretatio romana : les correspondances citées dans la leçon",
+    "colonnes": [
+     "Divinité romaine",
+     "Équivalent grec"
+    ],
+    "lignes": [
+     [
+      "Jupiter, dieu du ciel, de la foudre et des serments",
+      "Zeus"
+     ],
+     [
+      "Junon, protectrice des femmes et du mariage",
+      "Héra"
+     ],
+     [
+      "Minerve, patronne de l'intelligence et des métiers",
+      "Athéna"
+     ],
+     [
+      "Neptune",
+      "Poséidon"
+     ],
+     [
+      "Mars",
+      "Arès"
+     ],
+     [
+      "Vénus",
+      "Aphrodite"
+     ]
+    ],
+    "note": "La leçon cite également Mercure et Hermès, Cérès et Déméter, Diane et Artémis, Vulcain et Héphaïstos, Bacchus et Dionysos. Janus au double visage, les Lares et les Pénates restent propres à Rome et n'ont pas d'équivalent grec."
+   }
+  },
+  {
+   "titre": "Énée, Romulus et Rémus : les mythes fondateurs",
+   "texte": "La mythologie romaine se distingue par l'importance qu'elle accorde aux récits expliquant la naissance de la cité. Le premier de ces récits, popularisé par le poème de Virgile intitulé l'Énéide, raconte la fuite du prince troyen Énée après la chute de Troie. Fils de la déesse Vénus, Énée emporte son vieux père Anchise sur ses épaules et les statues des dieux de sa patrie, erre longtemps en Méditerranée, séjourne à Carthage auprès de la reine Didon, descend aux Enfers pour y rencontrer son père, puis débarque enfin dans le Latium où sa descendance doit régner. Le second récit, rapporté notamment par l'historien Tite-Live, concerne les jumeaux Romulus et Rémus, fils de Mars et de la vestale Rhéa Silvia. Abandonnés sur le Tibre, ils sont recueillis et allaités par une louve, puis élevés par le berger Faustulus. Devenus adultes, ils décident de fonder une ville ; une querelle sur le lieu et les présages éclate, et Romulus tue son frère avant de donner son nom à Rome. La tradition situe cette fondation en 753 avant notre ère. Ces deux légendes furent reliées l'une à l'autre par une longue liste de rois d'Albe-la-Longue, afin de rattacher Rome au prestigieux monde troyen. Elles servaient à justifier la mission historique que les Romains s'attribuaient : gouverner les peuples et imposer la paix.",
+   "visuel": {
+    "type": "image",
+    "image": "myt-louve-capitoline",
+    "legende": "La Louve du Capitole, à Rome. Selon le récit rapporté par Tite-Live, les jumeaux Romulus et Rémus, abandonnés sur le Tibre, furent recueillis et allaités par une louve.",
+    "alt": "Statue de bronze d'une louve debout, tournée vers la gauche ; sous son ventre, deux enfants nus agenouillés tendent la tête vers ses mamelles."
+   }
+  },
+  {
+   "titre": "Les prêtres, les rites et la place de la cité",
+   "texte": "La religion romaine était avant tout une affaire publique, étroitement liée au fonctionnement de l'État. Les principaux prêtres n'étaient pas des spécialistes retirés du monde mais des citoyens éminents, souvent d'anciens magistrats. Le collège des pontifes, dirigé par le grand pontife, surveillait le calendrier et le droit sacré. Les augures interprétaient la volonté des dieux en observant le vol des oiseaux ou l'appétit des poulets sacrés avant une bataille ou une assemblée. Les flamines étaient attachés au service d'une divinité précise, le flamine de Jupiter étant soumis à de nombreux interdits. Les vestales, seules prêtresses de haut rang, entretenaient le feu sacré de Vesta et faisaient vœu de chasteté pour la durée de leur service. Le rite central était le sacrifice, offrande d'animaux, de gâteaux ou de vin accompagnée de formules dont chaque mot devait être prononcé exactement ; une erreur obligeait à recommencer la cérémonie. Les Romains désignaient par le mot pietas cette fidélité aux obligations envers les dieux, la patrie et la famille. Le calendrier était rythmé par de nombreuses fêtes, comme les Lupercales de février ou les Saturnales de décembre, pendant lesquelles l'ordre social était provisoirement renversé. Dans chaque maison, le père de famille dirigeait le culte domestique rendu aux Lares, aux Pénates et au génie protecteur du foyer.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Qui accomplit les rites à Rome",
+    "colonnes": [
+     "Prêtres ou officiants",
+     "Fonction selon la leçon"
+    ],
+    "lignes": [
+     [
+      "Collège des pontifes, dirigé par le grand pontife",
+      "Surveille le calendrier et le droit sacré"
+     ],
+     [
+      "Augures",
+      "Interprètent la volonté des dieux par le vol des oiseaux ou l'appétit des poulets sacrés"
+     ],
+     [
+      "Flamines",
+      "Attachés au service d'une divinité précise ; celui de Jupiter est soumis à de nombreux interdits"
+     ],
+     [
+      "Vestales",
+      "Seules prêtresses de haut rang : elles entretiennent le feu sacré de Vesta et font vœu de chasteté pendant leur service"
+     ],
+     [
+      "Père de famille",
+      "Dirige le culte domestique rendu aux Lares, aux Pénates et au génie du foyer"
+     ]
+    ],
+    "note": "Ces prêtres n'étaient pas des spécialistes retirés du monde mais des citoyens éminents, souvent d'anciens magistrats."
+   }
+  },
+  {
+   "titre": "Deux mythologies, deux esprits",
+   "texte": "Malgré les correspondances entre leurs panthéons, la mythologie grecque et la mythologie romaine ne fonctionnent pas de la même manière. La mythologie grecque est d'abord narrative : elle s'est développée dans les poèmes homériques, chez Hésiode et dans les tragédies, et elle raconte des dieux passionnés, jaloux, rusés, très proches des comportements humains. La mythologie romaine, elle, est d'abord rituelle et civique : les textes anciens décrivent plus volontiers des gestes à accomplir, des formules à prononcer et des présages à interpréter que des aventures divines. Les récits proprement romains les plus développés concernent moins les dieux que les héros de l'histoire nationale, comme Horatius Coclès défendant seul un pont ou Mucius Scaevola brûlant sa main devant l'ennemi ; ces exemples avaient une fonction morale et patriotique. Il faut aussi souligner que les grandes œuvres qui nous transmettent la mythologie romaine sont tardives et littéraires : l'Énéide de Virgile et les Métamorphoses d'Ovide datent du siècle d'Auguste et réutilisent largement la matière grecque. Enfin, la relation aux dieux diffère : les Grecs se représentaient volontiers des divinités qu'il fallait honorer mais dont on pouvait discuter les décisions, tandis que les Romains concevaient un contrat régulier entre la cité et ses dieux, la paix divine, que le respect exact des rites permettait de maintenir année après année.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Deux manières de faire fonctionner une mythologie",
+    "colonnes": [
+     {
+      "titre": "Mythologie grecque",
+      "points": [
+       "D'abord narrative",
+       "Transmise par les poèmes homériques, Hésiode et les tragédies",
+       "Des dieux passionnés, jaloux, rusés, proches des comportements humains",
+       "Des divinités que l'on honore mais dont on peut discuter les décisions"
+      ]
+     },
+     {
+      "titre": "Mythologie romaine",
+      "points": [
+       "D'abord rituelle et civique",
+       "Les textes décrivent des gestes, des formules et des présages",
+       "Les récits les plus développés portent sur des héros de l'histoire nationale, comme Horatius Coclès ou Mucius Scaevola",
+       "Un contrat régulier entre la cité et ses dieux, la paix divine, maintenu par l'exactitude des rites"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel nom les Romains donnaient-ils aux puissances divines impersonnelles présentes dans les lieux et les activités ?",
+   "choix": [
+    "Les daimones",
+    "Les numina",
+    "Les manes",
+    "Les augures"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Les numina désignaient dans la religion romaine ancienne des forces divines sans corps ni légende, agissant dans les sources, les bornes ou les récoltes. Contrairement aux dieux grecs, ils n'avaient pas de généalogie ni d'aventures racontées. Les manes étaient les esprits des morts, un concept différent. Les augures étaient des prêtres chargés d'interpréter les présages, et non des divinités. Le mot daimon appartient au vocabulaire grec."
+  },
+  {
+   "q": "Selon la tradition rapportée par Virgile, quel héros troyen est présenté comme l'ancêtre des Romains ?",
+   "choix": [
+    "Hector",
+    "Priam",
+    "Énée",
+    "Ulysse"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "L'Énéide de Virgile raconte le voyage d'Énée, fils de la déesse Vénus, qui fuit Troie en flammes et gagne le Latium après de longues errances. Sa descendance doit selon le récit donner naissance aux fondateurs de Rome. Hector, autre prince troyen, meurt sous les murs de la ville, tué par Achille. Priam, roi de Troie, périt lors de la prise de la cité. Ulysse est un héros grec, adversaire des Troyens, dont le retour est raconté dans l'Odyssée."
+  },
+  {
+   "q": "Quelle divinité romaine était protégée par des prêtresses entretenant un feu sacré ?",
+   "choix": [
+    "Junon",
+    "Cérès",
+    "Diane",
+    "Vesta"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Les vestales étaient les prêtresses de Vesta, déesse du foyer, et veillaient à ce que le feu sacré du temple ne s'éteigne jamais. Elles faisaient vœu de chasteté pendant la durée de leur service et jouissaient d'un grand prestige dans la cité. Junon, épouse de Jupiter, était honorée par d'autres cultes, notamment sur le Capitole. Cérès, déesse des moissons, correspondait à la Déméter grecque. Diane, associée à la chasse et à la lune, était l'équivalent d'Artémis."
+  },
+  {
+   "q": "Quelle différence majeure distingue la mythologie romaine de la mythologie grecque ?",
+   "choix": [
+    "La religion romaine insiste surtout sur l'exactitude des rites et le lien avec la cité",
+    "La religion romaine refusait toute divinité étrangère",
+    "Les Romains n'avaient aucun prêtre organisé",
+    "Les Romains ne représentaient jamais leurs dieux"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La religion romaine est avant tout ritualiste et civique : elle décrit des gestes, des formules et des présages destinés à maintenir la paix entre la cité et ses dieux. La mythologie grecque, elle, est surtout narrative et transmise par la poésie épique et le théâtre. Rome accueillait au contraire volontiers des divinités étrangères comme Cybèle ou Isis. Elle disposait de collèges de prêtres très structurés, pontifes, augures et flamines. Enfin, sous l'influence grecque, les Romains ont largement représenté leurs dieux sous forme humaine."
+  },
+  {
+   "q": "Quel ensemble de trois divinités formait la triade honorée sur le Capitole ?",
+   "choix": [
+    "Mars, Vénus et Vulcain",
+    "Saturne, Janus et Vesta",
+    "Jupiter, Junon et Minerve",
+    "Neptune, Cérès et Mercure"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "La triade capitoline réunissait Jupiter, Junon et Minerve dans un grand temple élevé sur la colline du Capitole. Elle symbolisait la protection accordée à l'ensemble de l'État romain et recevait les hommages des magistrats entrant en charge. Une triade plus ancienne, dite précapitoline, associait Jupiter, Mars et Quirinus. Vénus et Vulcain avaient leurs propres cultes mais ne figuraient pas dans cet ensemble. Neptune, Cérès et Mercure étaient honorés séparément, notamment lors de fêtes agraires ou commerciales."
+  }
+ ]
+}

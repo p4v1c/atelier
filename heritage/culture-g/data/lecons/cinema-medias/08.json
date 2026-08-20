@@ -1,0 +1,172 @@
+{
+ "titre": "Le cinéma muet et ses pionniers",
+ "sections": [
+  {
+   "titre": "Un cinéma sans dialogues enregistrés, mais jamais silencieux",
+   "texte": "On appelle cinéma muet la période qui va des toutes premières vues animées, autour de 1891, jusqu'à la généralisation du son synchronisé à la fin des années 1920. Le mot muet est en réalité trompeur, et il faut le manier avec précaution : il désigne seulement l'absence de dialogues, de musique et de bruitages enregistrés sur la pellicule elle-même. Dans les salles, les projections étaient au contraire très sonores. Un pianiste improvisait pendant la séance, parfois remplacé par un petit orchestre dans les grandes salles des années 1920, et un bonimenteur pouvait commenter les images pour le public. Les spectateurs de l'époque ne parlaient d'ailleurs jamais de films muets : l'expression n'est apparue que dans les années 1930, une fois le parlant victorieux, pour désigner rétrospectivement ce qui venait de disparaître. Pour raconter sans paroles, les cinéastes ont mis au point des outils spécifiques. Le principal est l'intertitre, un carton portant un texte que l'on filme et que l'on insère dans le montage : il donne un dialogue, précise un lieu, indique le passage du temps ou éclaire une intrigue devenue complexe. Le jeu des acteurs, très expressif, le maquillage appuyé et la composition de l'image devaient également compenser l'absence de voix. Cette contrainte a poussé le cinéma muet à inventer un langage visuel d'une richesse considérable, dont les films parlants ont hérité.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Les trente-cinq ans du cinéma muet",
+    "evenements": [
+     {
+      "date": "1891",
+      "label": "Le kinétographe et le kinétoscope",
+      "texte": "Chez Edison, William Dickson enregistre des vues de cinquante secondes qu'un seul spectateur regarde par un oculaire."
+     },
+     {
+      "date": "28 décembre 1895",
+      "label": "La première projection publique payante",
+      "texte": "Les frères Lumière inventent la salle collective, où un public partage les mêmes images."
+     },
+     {
+      "date": "1900",
+      "label": "« La Loupe de grand-maman »",
+      "texte": "George Albert Smith alterne plan large et très gros plan : le montage devient un point de vue."
+     },
+     {
+      "date": "1902",
+      "label": "« Le Voyage dans la Lune »",
+      "texte": "Georges Méliès signe seize minutes de trucages et de décors peints."
+     },
+     {
+      "date": "1915",
+      "label": "« Naissance d'une nation »",
+      "texte": "Premier très grand succès commercial, et film profondément raciste."
+     },
+     {
+      "date": "1921",
+      "label": "« Le Kid »",
+      "texte": "Charlie Chaplin mêle la chute burlesque et l'émotion."
+     },
+     {
+      "date": "6 octobre 1927",
+      "label": "« Le Chanteur de jazz »",
+      "texte": "Le procédé Vitaphone synchronise un disque et l'image : la fin d'une époque."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Des premières machines aux frères Lumière",
+   "texte": "Les origines du cinéma se situent dans les laboratoires de la fin du XIXe siècle. Aux États-Unis, William Kennedy Laurie Dickson, assistant de Thomas Edison, met au point à partir de 1891 le kinétographe, une caméra qui enregistre de courtes scènes, et le kinétoscope, une boîte dans laquelle un seul spectateur à la fois regarde le film par un oculaire. Ces vues ne dépassent pas une cinquantaine de secondes et ne sont pas projetées sur un écran. Le tournant a lieu en France : les frères Lumière présentent leur Cinématographe et organisent la première projection publique payante le 28 décembre 1895 à Paris. Le principe de la salle collective, où un public partage les mêmes images, est né. Les premiers films Lumière sont de simples vues documentaires d'une minute montrant la sortie d'une usine ou l'arrivée d'un train. Très vite, d'autres inventeurs explorent la façon d'enchaîner les images. En Angleterre, les cinéastes que l'on regroupe sous le nom d'école de Brighton expérimentent autour de 1900 le découpage en plusieurs plans. George Albert Smith, avec « La Loupe de grand-maman » en 1900, alterne un plan large et un très gros plan montrant ce que l'enfant observe : le montage cesse d'être un simple assemblage pour devenir un moyen de raconter et de faire partager un point de vue.",
+   "visuel": {
+    "type": "image",
+    "image": "cin-cinematographe",
+    "legende": "Le Cinématographe des frères Lumière en position de prise de vues, sur son trépied. Le même appareil sert de caméra et de projecteur ; la plaque porte le nom de ses constructeurs, A. et L. Lumière et J. Carpentier.",
+    "alt": "Gravure ancienne : caisse de bois rectangulaire munie d'un objectif rond sur sa face avant, posée sur un trépied en bois, avec une plaque gravée Cinématographe A. et L. Lumière."
+   }
+  },
+  {
+   "titre": "Georges Méliès, l'illusionniste devenu cinéaste",
+   "texte": "Né à Paris en 1861 dans une famille aisée de fabricants de chaussures, Georges Méliès est d'abord dessinateur et prestidigitateur. En 1888, il rachète le théâtre Robert-Houdin, où il donne des spectacles de magie mêlant numéros vivants et projections. Présent à la première séance publique des frères Lumière le 28 décembre 1895, il comprend immédiatement le parti que son art peut tirer de la nouvelle machine. Les Lumière refusant de lui vendre leur brevet, il se procure un appareil auprès du Britannique Robert W. Paul et fonde en 1896 sa société, la Star Film. Méliès invente alors l'essentiel des trucages : l'arrêt de caméra, qui fait apparaître ou disparaître un objet, la surimpression qui multiplie les fantômes, les fondus enchaînés hérités de la lanterne magique, et des décors peints en trompe-l'oeil qu'il conçoit lui-même. En 1897, il fait construire à Montreuil le premier studio de cinéma français, une véritable serre au toit de verre équipée de machineries de théâtre. Il tourne « L'Affaire Dreyfus » en 1899, souvent présenté comme le premier film politique, puis en 1902 son chef-d'oeuvre, « Le Voyage dans la Lune », d'environ seize minutes. La concurrence, la guerre et les difficultés financières le ruinent : il perd son studio et ses films, et on le retrouve en 1929 vendeur de confiseries à la gare Montparnasse avant que les surréalistes et le monde du cinéma ne le réhabilitent. Il meurt en 1938.",
+   "visuel": {
+    "type": "image",
+    "image": "cin-voyage-lune",
+    "legende": "« Le Voyage dans la Lune » (1902) : l'obus des astronomes se plante dans l'œil de la Lune. Cette image, ici dans une copie coloriée à la main, est l'une des plus célèbres de l'histoire du cinéma.",
+    "alt": "Photogramme colorié à la main, perforations du film visibles sur les bords : un gros visage humain jaune servant de Lune, une capsule rouge fichée dans son œil droit, entouré de nuages sombres."
+   }
+  },
+  {
+   "titre": "D. W. Griffith et l'invention d'une grammaire du récit",
+   "texte": "L'Américain David Wark Griffith, né dans le Kentucky en 1875 et mort à Hollywood en 1948, passe du théâtre au cinéma vers 1907, d'abord comme acteur puis comme réalisateur extrêmement prolifique. Son apport majeur est d'avoir systématisé le montage alterné, qui consiste à couper d'une action à une autre se déroulant au même moment dans un lieu différent. Dès « Les Aventures de Dollie » en 1908, il éprouve ce procédé qui permet de créer le suspense et surtout d'allonger les récits au-delà de la bobine unique alors habituelle. En 1915, « Naissance d'une nation » devient le premier très grand succès commercial de l'histoire du cinéma. Le film est aussi, et de façon indissociable, un objet profondément problématique : il raconte la guerre de Sécession et la Reconstruction du point de vue des vaincus du Sud, développe un discours raciste et glorifie le Ku Klux Klan. Il faut donc distinguer nettement son importance technique de son contenu, qui a suscité dès sa sortie de vives protestations. L'année suivante, Griffith engage sa fortune dans « Intolérance », fresque ambitieuse qui entrelace quatre récits appartenant à quatre époques différentes. Le public rejette cette construction jugée déroutante, et l'échec le ruine. En 1919, il fonde la société United Artists avec Mary Pickford, Douglas Fairbanks et Charlie Chaplin, afin que les créateurs contrôlent la distribution de leurs films. Ses dernières décennies sont marquées par le déclin, l'alcool et la misère."
+  },
+  {
+   "titre": "Le burlesque, apogée et fin d'une époque",
+   "texte": "Les années 1920 constituent l'âge d'or du muet, en particulier dans le domaine du comique. Charlie Chaplin, né à Londres en 1889 et mort en Suisse en 1977, a grandi dans la pauvreté et s'est formé au music-hall avant de rejoindre la troupe de Fred Karno. Il débute au cinéma en 1914 chez Keystone et crée la même année la silhouette de Charlot, avec son pantalon trop large, sa veste étriquée, son petit chapeau melon et ses grandes chaussures. Chez Essanay en 1915 puis chez Mutual à partir de 1916, il affine un burlesque qui mêle la chute et l'émotion. Passé chez First National, il signe « Charlot soldat » en 1918 et « Le Kid » en 1921, puis « La Ruée vers l'or » en 1925 et « Le Cirque » en 1928. Son grand rival est Buster Keaton, né en 1895 et mort en 1966, surnommé l'homme qui ne rit jamais : son visage impassible contraste avec des cascades vertigineuses dans « Sherlock Junior » en 1924 ou « Le Mécano de la General » en 1926. La sortie du « Chanteur de jazz » d'Alan Crosland, le 6 octobre 1927, avec Al Jolson et le procédé Vitaphone qui synchronise un disque et l'image, précipite la fin de cette période. Chaplin résiste longtemps et tourne encore « Les Lumières de la ville » en 1931 et « Les Temps modernes » en 1936 sans dialogues véritables.",
+   "visuel": {
+    "type": "image",
+    "image": "cin-charlot",
+    "legende": "La silhouette de Charlot, créée par Charlie Chaplin en 1914 : pantalon trop large, veste étriquée, petit chapeau melon, canne et grandes chaussures.",
+    "alt": "Photographie noir et blanc d'un homme moustachu debout, souriant, coiffé d'un chapeau melon, en veste sombre trop étroite et pantalon très large, chaussures démesurées, une canne à la main."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quelle expression décrit le mieux les conditions réelles d'une projection à l'époque du cinéma muet ?",
+   "choix": [
+    "Les salles étaient totalement silencieuses",
+    "Un pianiste ou un orchestre accompagnait la séance en direct",
+    "Les acteurs doublaient leur film derrière l'écran",
+    "Les spectateurs lisaient le film chez eux avant la séance"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Le mot muet ne désigne que l'absence de son enregistré sur la pellicule. Dans les salles, un pianiste improvisait pendant la projection, et les grandes salles des années 1920 employaient parfois un orchestre entier. Un bonimenteur pouvait aussi commenter les images pour aider le public à suivre l'intrigue. Les séances étaient donc très sonores. D'ailleurs, les spectateurs de l'époque ne disaient jamais film muet : l'expression n'est apparue que dans les années 1930, une fois le parlant installé."
+  },
+  {
+   "q": "Qu'est-ce qu'un intertitre ?",
+   "choix": [
+    "Un sous-titre traduisant une langue étrangère",
+    "Une affiche placardée devant la salle",
+    "Un carton portant un texte, filmé et inséré dans le montage",
+    "Un morceau de musique joué entre deux films"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "L'intertitre est le principal outil narratif du muet. Il s'agit d'un carton portant un texte, que l'on filme puis que l'on insère dans le montage entre deux plans. Il sert à donner une réplique, à préciser un lieu, à marquer un saut dans le temps ou à éclairer une intrigue compliquée. Comme il est fabriqué séparément, il peut être retourné dans une autre langue pour l'exportation, ce qui facilitait beaucoup la circulation internationale des films. Le sous-titre, lui, n'apparaît qu'avec le cinéma parlant."
+  },
+  {
+   "q": "En quelle année Georges Méliès a-t-il réalisé « Le Voyage dans la Lune » ?",
+   "choix": [
+    "1895",
+    "1899",
+    "1902",
+    "1912"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "« Le Voyage dans la Lune » date de 1902 et dure environ seize minutes, une durée considérable pour l'époque. C'est le film le plus célèbre de Méliès, qui y déploie l'ensemble de ses trucages : arrêt de caméra, surimpression, décors peints en trompe-l'oeil. Il ne faut pas le confondre avec 1895, année de la première projection publique des frères Lumière, ni avec 1899, date de « L'Affaire Dreyfus », souvent présenté comme le premier film politique. Méliès avait fondé sa société, la Star Film, en 1896 et bâti son studio de Montreuil en 1897."
+  },
+  {
+   "q": "Quel procédé de montage D. W. Griffith a-t-il surtout contribué à systématiser ?",
+   "choix": [
+    "Le montage alterné entre deux actions simultanées",
+    "Le plan-séquence sans coupe",
+    "Le montage des attractions théorisé par Eisenstein",
+    "Le faux raccord volontaire"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Griffith a systématisé le montage alterné, qui consiste à couper d'une action à une autre se déroulant au même moment dans un lieu différent. Il l'expérimente dès « Les Aventures de Dollie » en 1908. Ce procédé crée le suspense et permet surtout d'allonger le récit au-delà de la bobine unique alors habituelle, ouvrant la voie au long métrage. Le montage des attractions est en revanche une notion soviétique, développée plus tard par Sergueï Eisenstein. Griffith reste par ailleurs une figure controversée à cause du contenu raciste de « Naissance d'une nation » en 1915."
+  },
+  {
+   "q": "Quel film, sorti le 6 octobre 1927, est généralement considéré comme le signal de la fin du muet ?",
+   "choix": [
+    "« Le Cirque »",
+    "« Le Mécano de la General »",
+    "« Intolérance »",
+    "« Le Chanteur de jazz »"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "« Le Chanteur de jazz », réalisé par Alan Crosland avec Al Jolson, sort le 6 octobre 1927. Il utilise le procédé Vitaphone, qui synchronise un disque de cire avec la projection. Sa place de premier film parlant est en réalité discutée, car des courts métrages sonores existaient depuis les années 1900, et le film lui-même ne contient qu'environ deux cent quatre-vingts mots prononcés, au milieu de séquences muettes et d'intertitres. C'est surtout son immense succès mondial qui a convaincu les studios de basculer. « Le Cirque » de Chaplin et « Le Mécano de la General » de Keaton appartiennent encore au muet."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Cinéma muet",
+   "url": "https://fr.wikipedia.org/wiki/Cinéma_muet"
+  },
+  {
+   "titre": "Georges Méliès",
+   "url": "https://fr.wikipedia.org/wiki/Georges_Méliès"
+  },
+  {
+   "titre": "Charlie Chaplin",
+   "url": "https://fr.wikipedia.org/wiki/Charlie_Chaplin"
+  },
+  {
+   "titre": "D. W. Griffith",
+   "url": "https://fr.wikipedia.org/wiki/D._W._Griffith"
+  },
+  {
+   "titre": "Buster Keaton",
+   "url": "https://fr.wikipedia.org/wiki/Buster_Keaton"
+  },
+  {
+   "titre": "Le Chanteur de jazz",
+   "url": "https://fr.wikipedia.org/wiki/Le_Chanteur_de_jazz"
+  }
+ ]
+}

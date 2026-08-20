@@ -1,0 +1,193 @@
+{
+ "titre": "L'électricité chez soi : circuits, puissance et sécurité",
+ "sections": [
+  {
+   "titre": "Tension, intensité, résistance : la loi d'Ohm",
+   "texte": "Trois grandeurs suffisent à décrire le fonctionnement d'un circuit électrique simple. L'intensité du courant, notée I, mesure le débit de charges électriques qui traversent une section du conducteur ; elle s'exprime en ampères et se mesure avec un ampèremètre branché en série. La tension, notée U, représente la différence de potentiel entre deux points, c'est-à-dire ce qui pousse les charges à circuler ; elle s'exprime en volts et se mesure avec un voltmètre branché en dérivation. La résistance, notée R et exprimée en ohms, traduit l'opposition qu'un composant offre au passage du courant. Ces trois grandeurs sont reliées par la loi d'Ohm, publiée en 1827 par le physicien allemand Georg Simon Ohm : la tension aux bornes d'une résistance est proportionnelle à l'intensité du courant qui la traverse, ce qui s'écrit U égale R fois I. La relation se réarrange selon le besoin, l'intensité valant la tension divisée par la résistance, et la résistance la tension divisée par l'intensité. Si l'on trace la tension en fonction de l'intensité pour un conducteur ohmique, on obtient une droite passant par l'origine, dont la pente donne directement la valeur de la résistance. Cette loi n'a toutefois rien d'universel : elle s'applique de façon fiable aux conducteurs métalliques maintenus à température constante, car la résistance varie avec la température, et de nombreux composants comme les diodes ne la suivent pas du tout.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les trois grandeurs d'un circuit",
+    "colonnes": [
+     "Grandeur",
+     "Symbole",
+     "Unité",
+     "Ce qu'elle mesure",
+     "Appareil et branchement"
+    ],
+    "lignes": [
+     [
+      "Intensité",
+      "I",
+      "Ampère",
+      "Le débit de charges à travers une section",
+      "Ampèremètre, en série"
+     ],
+     [
+      "Tension",
+      "U",
+      "Volt",
+      "La différence de potentiel qui pousse les charges",
+      "Voltmètre, en dérivation"
+     ],
+     [
+      "Résistance",
+      "R",
+      "Ohm",
+      "L'opposition au passage du courant",
+      "Ohmmètre"
+     ]
+    ],
+    "note": "Loi d'Ohm, publiée par Georg Simon Ohm en 1827 : U = R × I. Elle vaut pour les conducteurs métalliques à température constante, pas pour une diode."
+   }
+  },
+  {
+   "titre": "Le réseau domestique : alternatif, phase, neutre et terre",
+   "texte": "Le courant qui alimente les logements n'est pas continu comme celui d'une pile : c'est un courant alternatif, dont le sens s'inverse périodiquement. En France et dans la plus grande partie de l'Europe, le réseau domestique fournit une tension alternative de 230 volts à la fréquence de 50 hertz, ce qui signifie que le sens du courant change cent fois par seconde. La valeur de 230 volts est une valeur efficace : elle correspond à la tension continue qui produirait le même échauffement dans une résistance, la valeur maximale atteinte étant sensiblement plus élevée. Une prise de courant domestique comporte trois conducteurs qu'il ne faut pas confondre. La phase amène le courant et se trouve portée à un potentiel élevé par rapport au sol. Le neutre assure le retour du courant et se trouve, en fonctionnement normal, à un potentiel voisin de celui de la terre. Le conducteur de protection, relié à la terre par une prise de terre enfouie dans le sol, ne participe pas au fonctionnement des appareils : il ne sert qu'en cas de défaut, pour évacuer un courant qui se serait égaré, notamment vers la carcasse métallique d'un appareil. Une installation domestique regroupe ainsi les circuits et le matériel électrique du logement : comptage, prise de terre, conduits et gaines de protection, appareils de commande et de protection, et enfin les récepteurs. En France, elle doit être conforme à la norme NF C 15-100."
+  },
+  {
+   "titre": "Puissance, énergie et effet Joule",
+   "texte": "La puissance électrique est le taux, par unité de temps, auquel l'énergie électrique est transférée par un circuit. Elle s'exprime en watts, un watt correspondant au transfert d'un joule d'énergie en une seconde. Pour un récepteur simple parcouru par un courant continu, elle vaut le produit de la tension par l'intensité. C'est ce qui explique une observation quotidienne : sous 230 volts, un radiateur de 2 000 watts appelle près de 9 ampères, tandis qu'une lampe de 10 watts n'en demande qu'une petite fraction. En courant alternatif, le calcul se fait avec les valeurs efficaces et il faut parfois tenir compte d'un facteur de puissance lorsque l'appareil n'est pas purement résistif. L'énergie consommée est le produit de la puissance par la durée d'utilisation ; les fournisseurs la facturent en kilowattheures, un kilowattheure correspondant à un appareil de mille watts fonctionnant pendant une heure. Une part de l'énergie électrique se transforme inévitablement en chaleur lors du passage du courant dans un conducteur résistant : c'est l'effet Joule, dont la puissance dissipée croît comme le carré de l'intensité. Cet effet est recherché dans les radiateurs, les plaques de cuisson et les anciennes ampoules à filament, mais il constitue une perte dans les câbles et une cause majeure d'incendie lorsque les conducteurs sont sous-dimensionnés ou les connexions mal serrées."
+  },
+  {
+   "titre": "Les protections : disjoncteurs et différentiels",
+   "texte": "Une installation moderne s'organise autour d'un tableau de répartition où chaque circuit dispose de sa protection. Le disjoncteur est un interrupteur électrique automatique conçu pour protéger le circuit des dommages causés par un courant excessif, qu'il provienne d'une surcharge, d'un court-circuit ou d'un défaut à la terre ; contrairement au fusible, il se réarme manuellement sans être remplacé. Il combine généralement deux mécanismes. La protection thermique repose sur un bilame qui se déforme en chauffant et finit par ouvrir le circuit : elle réagit lentement, en quelques secondes à quelques minutes, ce qui convient aux surcharges prolongées. La protection magnétique utilise un électro-aimant qui écarte brutalement les contacts dès qu'une pointe de courant survient : sa réaction est quasi instantanée, de l'ordre de la milliseconde, ce qui convient aux courts-circuits. Ces deux protections défendent le matériel et préviennent l'incendie, mais elles ne suffisent pas à protéger les personnes. C'est le rôle de la protection différentielle, qui compare en permanence le courant entrant et le courant sortant du circuit. En fonctionnement normal, les deux sont égaux. S'ils diffèrent de 30 milliampères, seuil standard en domestique, c'est qu'une fuite s'écoule vers la terre, éventuellement à travers un corps humain, et l'appareil coupe aussitôt l'alimentation. L'interrupteur différentiel remplit cette seule fonction sans détecter les surintensités, alors que le disjoncteur différentiel réunit les deux protections.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Deux protections, deux rôles",
+    "colonnes": [
+     {
+      "titre": "Le disjoncteur",
+      "points": [
+       "Protège le matériel et prévient l'incendie",
+       "Détecte les surintensités : surcharge et court-circuit",
+       "Bilame thermique : réaction en secondes ou minutes",
+       "Électro-aimant magnétique : réaction en quelques millisecondes",
+       "Se réarme au lieu d'être remplacé comme un fusible"
+      ]
+     },
+     {
+      "titre": "Le différentiel",
+      "points": [
+       "Protège les personnes",
+       "Compare le courant entrant et le courant sortant",
+       "Coupe dès 30 mA d'écart en domestique",
+       "Un tel écart signale une fuite vers la terre, peut-être à travers un corps",
+       "Le disjoncteur différentiel réunit les deux fonctions"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le danger du courant pour le corps humain",
+   "texte": "Il faut distinguer soigneusement deux termes. L'électrisation désigne le passage d'un courant électrique à travers un organisme vivant, quelles qu'en soient les conséquences ; l'électrocution désigne spécifiquement une électrisation entraînant la mort. La gravité d'un accident dépend surtout de l'intensité du courant qui traverse le corps, de son trajet et de sa durée, bien plus que de la tension seule. Les effets s'échelonnent avec l'intensité : quelques milliampères provoquent une sensation de picotement, autour de dix milliampères apparaît le seuil dit de non-lâcher, où la contraction des muscles empêche la victime de lâcher le conducteur, et au-delà d'une trentaine de milliampères le risque de fibrillation ventriculaire devient sérieux. C'est précisément pourquoi les dispositifs différentiels domestiques sont réglés sur 30 milliampères. L'intensité qui traverse un corps dépend de la résistance de celui-ci, laquelle chute considérablement lorsque la peau est humide : une salle de bains est donc beaucoup plus dangereuse qu'une pièce sèche, ce qui justifie les règles particulières applicables aux volumes proches d'une baignoire ou d'une douche. La mise à la terre des masses métalliques et la protection différentielle forment ensemble le socle de la sécurité des personnes. Devant une victime, la première règle est de couper l'alimentation avant tout contact, afin de ne pas s'électriser à son tour, puis d'alerter les secours.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les effets du courant sur le corps",
+    "colonnes": [
+     "Intensité traversant le corps",
+     "Effet"
+    ],
+    "lignes": [
+     [
+      "Quelques milliampères",
+      "Sensation de picotement"
+     ],
+     [
+      "Environ 10 mA",
+      "Seuil de non-lâcher : les muscles se contractent, la victime ne peut plus lâcher le conducteur"
+     ],
+     [
+      "Au-delà de 30 mA",
+      "Risque sérieux de fibrillation ventriculaire"
+     ]
+    ],
+    "note": "C'est l'intensité, son trajet et sa durée qui décident de la gravité, plus que la tension. La peau humide fait chuter la résistance du corps : d'où les règles propres aux salles de bains."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Que relie la loi d'Ohm ?",
+   "choix": [
+    "La tension, l'intensité et la résistance, selon U = R × I",
+    "La puissance, l'énergie et le temps",
+    "La fréquence, la période et la longueur d'onde",
+    "La charge, la masse et le champ électrique"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Publiée en 1827 par Georg Simon Ohm, la loi d'Ohm énonce que la tension aux bornes d'une résistance est proportionnelle à l'intensité du courant qui la traverse. On l'écrit U égale R fois I, la tension en volts, l'intensité en ampères et la résistance en ohms. En traçant la tension en fonction de l'intensité pour un conducteur ohmique, on obtient une droite passant par l'origine dont la pente donne la résistance. Cette loi vaut de façon fiable pour les conducteurs métalliques à température constante, car la résistance varie avec la température, et certains composants comme les diodes ne la suivent pas."
+  },
+  {
+   "q": "Quelle est la tension efficace et la fréquence du réseau électrique domestique en France ?",
+   "choix": [
+    "110 volts à 60 hertz",
+    "230 volts à 50 hertz",
+    "12 volts en courant continu",
+    "400 volts à 100 hertz"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Le réseau domestique français, comme celui de la plus grande partie de l'Europe, fournit une tension alternative de 230 volts efficaces à la fréquence de 50 hertz. La valeur efficace est celle qui produirait le même échauffement qu'une tension continue de même valeur, la tension maximale instantanée étant sensiblement plus élevée. La fréquence de 50 hertz signifie que le courant change cent fois de sens par seconde. Le 110 volts à 60 hertz correspond plutôt au réseau nord-américain, et le 12 volts continu à des applications comme l'automobile ou l'éclairage à très basse tension de sécurité."
+  },
+  {
+   "q": "Un appareil de 2 000 watts branché sous 230 volts appelle une intensité voisine de :",
+   "choix": [
+    "0,1 ampère",
+    "115 ampères",
+    "9 ampères",
+    "2 000 ampères"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La puissance électrique d'un récepteur vaut le produit de la tension par l'intensité, ce qui permet de retrouver l'intensité en divisant la puissance par la tension. Ici, 2 000 divisé par 230 donne environ 8,7 ampères, soit un peu moins de 9 ampères. C'est un ordre de grandeur familier, celui d'un radiateur ou d'une bouilloire, et il explique pourquoi ces appareils exigent des circuits dédiés avec des conducteurs de section suffisante. La puissance s'exprime en watts, un watt correspondant au transfert d'un joule par seconde, et l'énergie consommée se facture en kilowattheures."
+  },
+  {
+   "q": "À quoi sert un dispositif différentiel de 30 milliampères dans un tableau électrique ?",
+   "choix": [
+    "À limiter la consommation totale du logement",
+    "À couper le circuit lorsqu'une fuite de courant vers la terre est détectée, pour protéger les personnes",
+    "À transformer le courant alternatif en courant continu",
+    "À détecter uniquement les courts-circuits"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Un dispositif différentiel compare en permanence le courant qui entre dans le circuit et celui qui en ressort. En fonctionnement normal, ils sont égaux ; s'ils diffèrent de 30 milliampères, c'est qu'un courant s'échappe vers la terre, éventuellement à travers un corps humain, et le dispositif coupe immédiatement l'alimentation. Ce seuil a été choisi parce que le risque de fibrillation ventriculaire devient sérieux au-delà d'une trentaine de milliampères. La détection des courts-circuits relève de la protection magnétique du disjoncteur, et celle des surcharges prolongées de sa protection thermique par bilame."
+  },
+  {
+   "q": "Quelle différence fait-on entre électrisation et électrocution ?",
+   "choix": [
+    "L'électrisation concerne le courant continu, l'électrocution le courant alternatif",
+    "Ce sont deux mots synonymes",
+    "L'électrisation concerne les appareils, l'électrocution les personnes",
+    "L'électrocution est une électrisation qui entraîne la mort"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "L'électrisation désigne le passage d'un courant électrique à travers un organisme, quelles qu'en soient les suites, tandis que l'électrocution désigne spécifiquement une électrisation ayant entraîné la mort. Les deux mots ne sont donc pas synonymes, et la distinction n'a rien à voir avec la nature du courant. La gravité d'un accident dépend surtout de l'intensité qui traverse le corps, de son trajet et de sa durée : le seuil de non-lâcher se situe vers dix milliampères et le risque de fibrillation devient sérieux au-delà d'une trentaine. L'humidité, en abaissant la résistance de la peau, aggrave fortement le danger."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Loi d'Ohm",
+   "url": "https://fr.wikipedia.org/wiki/Loi_d%27Ohm"
+  },
+  {
+   "titre": "Puissance électrique",
+   "url": "https://fr.wikipedia.org/wiki/Puissance_%C3%A9lectrique"
+  },
+  {
+   "titre": "Installation électrique",
+   "url": "https://fr.wikipedia.org/wiki/Installation_%C3%A9lectrique"
+  },
+  {
+   "titre": "Disjoncteur",
+   "url": "https://fr.wikipedia.org/wiki/Disjoncteur"
+  },
+  {
+   "titre": "Électrisation",
+   "url": "https://fr.wikipedia.org/wiki/%C3%89lectrisation"
+  }
+ ]
+}

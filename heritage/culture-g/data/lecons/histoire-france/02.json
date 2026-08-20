@@ -1,0 +1,194 @@
+{
+ "titre": "Mérovingiens et Carolingiens : la naissance du royaume franc (Ve-Xe siècle)",
+ "sections": [
+  {
+   "titre": "Clovis et la fondation du royaume franc",
+   "texte": "Au Ve siècle, la Gaule romaine se disloque et plusieurs peuples germaniques s'y installent : Wisigoths en Aquitaine, Burgondes dans la vallée du Rhône, Francs au nord. En 481, Clovis succède à son père Childéric à la tête des Francs saliens, établis autour de Tournai. Il n'est alors qu'un chef parmi d'autres, mais il mène en trente ans une remarquable expansion. En 486, il bat à Soissons Syagrius, dernier représentant du pouvoir romain en Gaule du Nord, et étend son autorité jusqu'à la Loire. L'épisode du vase de Soissons, rapporté par l'évêque Grégoire de Tours dans son Histoire des Francs, illustre sa volonté d'imposer son autorité à ses guerriers. Vers 496, il l'emporte sur les Alamans à Tolbiac. Surtout, Clovis se convertit au christianisme et reçoit le baptême à Reims des mains de l'évêque Remi : la date traditionnelle est 496, mais les historiens en discutent et proposent parfois 499 ou 508. Ce choix est décisif, car Clovis adopte la foi catholique de la majorité des Gallo-Romains, alors que les autres rois germaniques sont ariens ; il gagne ainsi l'appui de l'Église et de l'aristocratie locale. En 507, il écrase les Wisigoths d'Alaric II à Vouillé, près de Poitiers, et les repousse au-delà des Pyrénées. Clovis fait de Paris sa résidence principale, fait rédiger la loi salique et meurt en 511.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Le règne de Clovis (481-511)",
+    "evenements": [
+     {
+      "date": "481",
+      "label": "Clovis roi des Francs saliens",
+      "texte": "Il succède à son père Childéric, autour de Tournai."
+     },
+     {
+      "date": "486",
+      "label": "Soissons",
+      "texte": "Victoire sur Syagrius, dernier représentant du pouvoir romain au nord de la Loire."
+     },
+     {
+      "date": "vers 496",
+      "label": "Tolbiac",
+      "texte": "Victoire sur les Alamans."
+     },
+     {
+      "date": "496 (?)",
+      "label": "Baptême à Reims",
+      "texte": "Par l'évêque Remi. La date traditionnelle est discutée : 499 ou 508 sont aussi proposées. Clovis choisit le catholicisme des Gallo-Romains quand les autres rois germaniques sont ariens."
+     },
+     {
+      "date": "507",
+      "label": "Vouillé",
+      "texte": "Les Wisigoths d'Alaric II sont repoussés au-delà des Pyrénées."
+     },
+     {
+      "date": "511",
+      "label": "Mort de Clovis",
+      "texte": "Paris est sa résidence principale ; la loi salique a été rédigée."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le royaume mérovingien : partages et déclin",
+   "texte": "Chez les Francs, le royaume est considéré comme un patrimoine familial : à la mort de Clovis en 511, il est partagé entre ses quatre fils. Ce principe du partage successoral provoque des réunifications éphémères et des guerres civiles récurrentes. Clotaire Ier reconstitue l'unité vers 558, mais tout est de nouveau divisé à sa mort en 561. Se dessinent alors de grands ensembles régionaux : la Neustrie à l'ouest, l'Austrasie à l'est, la Bourgogne, et l'Aquitaine au sud. La fin du VIe siècle est marquée par la lutte sanglante entre les reines Brunehaut, d'Austrasie, et Frédégonde, de Neustrie. Le dernier grand souverain de la dynastie est Dagobert Ier, qui règne de 629 à 639, restaure brièvement l'unité et enrichit l'abbaye de Saint-Denis, où il sera enterré. Après lui, le pouvoir royal s'affaiblit. Les rois, souvent jeunes et de règne court, laissent gouverner le maire du palais, principal officier de la cour, dont la charge devient héréditaire dans une puissante famille austrasienne, les Pippinides. La tradition les a longtemps appelés les rois fainéants, expression péjorative forgée plus tard et que les historiens jugent injuste. En 687, Pépin de Herstal s'impose à la bataille de Tertry et gouverne l'ensemble du royaume. Son fils Charles Martel arrête en 732, près de Poitiers, un raid mené par les troupes musulmanes d'Al-Andalus, victoire au retentissement considérable."
+  },
+  {
+   "titre": "Pépin le Bref et l'avènement des Carolingiens",
+   "texte": "Charles Martel gouverne sans porter le titre royal et partage à sa mort, en 741, ses pouvoirs entre ses fils Carloman et Pépin. Ce dernier, surnommé Pépin le Bref, décide de franchir le pas et de mettre fin à la fiction mérovingienne. Il consulte le pape Zacharie, qui répond qu'il vaut mieux appeler roi celui qui détient réellement le pouvoir. En 751, une assemblée de grands le proclame roi des Francs à Soissons ; le dernier Mérovingien, Childéric III, est tondu et enfermé dans un monastère. Pépin est sacré, c'est-à-dire oint d'une huile sainte, cérémonie qui donne à la royauté un caractère religieux nouveau : le roi est désormais élu de Dieu. En 754, à Saint-Denis, le pape Étienne II vient en personne renouveler ce sacre et bénir ses fils. Cette alliance entre la nouvelle dynastie et la papauté est fondamentale. En échange, Pépin intervient deux fois en Italie contre les Lombards et remet au pape des territoires conquis : c'est la donation de Pépin, à l'origine des États pontificaux, qui subsisteront jusqu'en 1870. Pépin poursuit par ailleurs la reconquête de l'Aquitaine et consolide l'administration. À sa mort en 768, le royaume est partagé entre ses fils Charles et Carloman ; la disparition de Carloman en 771 laisse Charles seul maître, celui que l'histoire retiendra sous le nom de Charlemagne."
+  },
+  {
+   "titre": "Charlemagne et l'Empire carolingien",
+   "texte": "Charlemagne règne de 768 à 814 et mène presque chaque année des campagnes militaires. Il conquiert le royaume lombard d'Italie du Nord en 774, soumet après plus de trente ans de guerres très dures les Saxons, convertis de force entre 772 et 804, annexe la Bavière et repousse les Avars. Au sud, l'expédition d'Espagne de 778 échoue et son arrière-garde est détruite à Roncevaux, épisode que la Chanson de Roland transformera bien plus tard en légende. Le 25 décembre 800, à Rome, le pape Léon III le couronne empereur : l'Empire d'Occident est restauré, ce qui suscite la méfiance de Byzance. Pour administrer cet espace immense, Charlemagne s'appuie sur les comtes, qui rendent la justice et lèvent l'armée dans leur comté, sur les marches frontalières confiées à des marquis, et sur les missi dominici, envoyés du maître qui inspectent les régions par deux, un laïc et un ecclésiastique. Ses décisions sont consignées dans les capitulaires. Il fixe sa résidence à Aix-la-Chapelle, où il fait construire un palais et une chapelle inspirée des modèles antiques. Autour de lui se développe la renaissance carolingienne : l'Anglais Alcuin dirige l'école du palais, des écoles sont créées auprès des évêchés et des monastères, les textes antiques sont recopiés, et l'écriture minuscule caroline, plus lisible, se diffuse. Charlemagne meurt en 814, laissant l'empire à son fils Louis le Pieux.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les rouages de l'Empire de Charlemagne",
+    "colonnes": [
+     "Rouage",
+     "Rôle"
+    ],
+    "lignes": [
+     [
+      "Le comte",
+      "Représente l'empereur dans son comté : il y rend la justice et lève l'armée."
+     ],
+     [
+      "Le marquis",
+      "Commande une marche, province frontalière exposée aux attaques."
+     ],
+     [
+      "Les missi dominici",
+      "Envoyés du maître, ils inspectent les régions par deux : un laïc et un ecclésiastique."
+     ],
+     [
+      "Les capitulaires",
+      "Recueils écrits des décisions impériales, transmis dans tout l'Empire."
+     ],
+     [
+      "L'école du palais",
+      "Dirigée par l'Anglais Alcuin à Aix-la-Chapelle, cœur de la renaissance carolingienne."
+     ]
+    ],
+    "note": "Un empire immense administré sans fonctionnaires salariés : tout repose sur la fidélité personnelle des grands."
+   }
+  },
+  {
+   "titre": "Le démembrement de l'Empire et les invasions (843-987)",
+   "texte": "Louis le Pieux, empereur de 814 à 840, veut préserver l'unité de l'Empire, mais ses fils se déchirent pour l'héritage et se révoltent contre lui. À sa mort, la guerre éclate entre Lothaire, aîné et empereur, et ses frères Louis le Germanique et Charles le Chauve, qui s'allient contre lui. En 842, ces deux derniers échangent à Strasbourg des serments prononcés chacun dans la langue des troupes de l'autre : le texte en langue romane est considéré comme le plus ancien témoignage écrit d'une langue proche du français. En 843, le traité de Verdun partage l'Empire en trois : la Francie occidentale pour Charles le Chauve, ancêtre de la France, la Francie orientale pour Louis le Germanique, futur royaume de Germanie, et une longue bande centrale avec le titre impérial pour Lothaire. Le IXe siècle est aussi celui des nouvelles invasions : les Vikings remontent les fleuves et pillent les monastères, les Sarrasins attaquent les côtes méditerranéennes, les Hongrois surgissent à l'est. Les rois se révélant incapables de protéger les populations, les comtes s'imposent localement, construisent des châteaux et rendent leurs charges héréditaires : le capitulaire de Quierzy, en 877, entérine cette évolution. Paris résiste aux Normands en 885-886 sous la conduite du comte Eudes. En 911, le traité de Saint-Clair-sur-Epte installe le chef viking Rollon en Normandie. En 987, Hugues Capet est élu roi.",
+   "visuel": {
+    "type": "frise",
+    "titre": "De l'Empire carolingien au royaume de France",
+    "evenements": [
+     {
+      "date": "840",
+      "label": "Mort de Louis le Pieux",
+      "texte": "Ses fils se déchirent pour l'héritage."
+     },
+     {
+      "date": "842",
+      "label": "Serments de Strasbourg",
+      "texte": "Louis le Germanique et Charles le Chauve jurent chacun dans la langue des troupes de l'autre ; le texte roman est le plus ancien témoignage écrit d'une langue proche du français."
+     },
+     {
+      "date": "843",
+      "label": "Traité de Verdun",
+      "texte": "Partage en trois : Francie occidentale (Charles le Chauve, ancêtre de la France), Francie orientale (Louis le Germanique), bande centrale et titre impérial (Lothaire)."
+     },
+     {
+      "date": "877",
+      "label": "Capitulaire de Quierzy",
+      "texte": "Entérine l'hérédité des charges comtales."
+     },
+     {
+      "date": "885-886",
+      "label": "Paris résiste aux Normands",
+      "texte": "Sous la conduite du comte Eudes."
+     },
+     {
+      "date": "911",
+      "label": "Saint-Clair-sur-Epte",
+      "texte": "Le chef viking Rollon s'installe en Normandie."
+     },
+     {
+      "date": "987",
+      "label": "Élection d'Hugues Capet"
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quelle bataille de 507 permet à Clovis de repousser les Wisigoths au-delà des Pyrénées ?",
+   "choix": [
+    "La bataille de Tolbiac",
+    "La bataille de Vouillé",
+    "La bataille de Soissons",
+    "La bataille de Tertry"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "C'est à Vouillé, près de Poitiers, que Clovis écrase en 507 le roi wisigoth Alaric II, ce qui lui ouvre l'Aquitaine et rejette les Wisigoths vers l'Espagne. Cette victoire achève l'expansion du royaume franc vers le sud, quelques années avant la mort de Clovis en 511. La bataille de Soissons, en 486, l'avait opposé à Syagrius, dernier chef romain de Gaule du Nord. Tolbiac, vers 496, fut la victoire sur les Alamans, associée par la tradition à la conversion de Clovis. Tertry, en 687, est bien plus tardive et concerne l'ascension du maire du palais Pépin de Herstal."
+  },
+  {
+   "q": "Qui couronne Charlemagne empereur le 25 décembre 800 ?",
+   "choix": [
+    "L'empereur byzantin",
+    "L'archevêque de Reims",
+    "Le pape Étienne II",
+    "Le pape Léon III"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le couronnement impérial de Charlemagne est célébré à Rome, dans la basilique Saint-Pierre, par le pape Léon III le jour de Noël 800. Il restaure en Occident un titre impérial disparu depuis 476 et scelle l'alliance entre la dynastie carolingienne et la papauté. Le pape Étienne II, lui, était intervenu bien plus tôt : il avait sacré Pépin le Bref à Saint-Denis en 754. L'empereur de Byzance, qui se considérait comme le seul empereur romain légitime, vit ce couronnement comme une usurpation et ne le reconnut qu'après des négociations, vers 812. Reims joue un rôle majeur pour les sacres royaux ultérieurs, mais pas ici."
+  },
+  {
+   "q": "Que partage le traité de Verdun de 843 ?",
+   "choix": [
+    "L'Empire carolingien entre les trois petits-fils de Charlemagne",
+    "Le royaume de Clovis entre ses quatre fils",
+    "La Normandie entre Rollon et le roi de France",
+    "Les États pontificaux entre le pape et l'empereur"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le traité de Verdun, signé en 843, divise l'Empire carolingien entre les trois fils de Louis le Pieux, donc les petits-fils de Charlemagne. Charles le Chauve reçoit la Francie occidentale, à l'origine de la France, Louis le Germanique la Francie orientale, matrice de l'Allemagne, et Lothaire une bande centrale allant de la mer du Nord à l'Italie avec le titre impérial. Ce partage résulte de la guerre entre les frères et des serments de Strasbourg prêtés en 842. Le partage du royaume de Clovis entre ses quatre fils avait eu lieu en 511, selon la coutume franque. Le traité de Saint-Clair-sur-Epte, qui concerne Rollon et la Normandie, date de 911."
+  },
+  {
+   "q": "Quel était le rôle des missi dominici sous Charlemagne ?",
+   "choix": [
+    "Commander la garde personnelle de l'empereur",
+    "Copier les manuscrits antiques dans les monastères",
+    "Inspecter les comtés au nom de l'empereur",
+    "Percevoir la dîme pour le compte des évêques"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Les missi dominici, littéralement les envoyés du maître, étaient des inspecteurs itinérants chargés de contrôler l'action des comtes et de faire appliquer les capitulaires impériaux. Ils circulaient généralement par deux, un laïc et un ecclésiastique, afin de se surveiller mutuellement, et parcouraient chaque année une circonscription déterminée. Ils recevaient les plaintes, vérifiaient la justice rendue et rendaient compte directement à Charlemagne. La copie des manuscrits, elle, était l'œuvre des moines copistes dans les scriptoria, l'un des aspects de la renaissance carolingienne. Ce système d'inspection cherchait à compenser l'immensité de l'Empire et la lenteur des communications."
+  },
+  {
+   "q": "Pourquoi la conversion de Clovis au catholicisme est-elle un tournant politique ?",
+   "choix": [
+    "Elle lui permet de devenir empereur d'Occident",
+    "Elle interdit le partage du royaume entre ses fils",
+    "Elle met fin aux invasions germaniques en Gaule",
+    "Elle lui gagne l'appui de l'Église et des élites gallo-romaines"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "En choisissant le catholicisme, et non l'arianisme adopté par les autres rois germaniques comme les Wisigoths ou les Burgondes, Clovis se rapproche de la foi de la majorité de la population gallo-romaine. Il obtient ainsi le soutien des évêques, qui sont alors les principaux notables des cités, et celui de l'aristocratie romaine, ce qui facilite son expansion territoriale. Le baptême aurait été célébré à Reims par l'évêque Remi, traditionnellement en 496, mais la date reste discutée entre historiens. Cette conversion n'empêcha nullement le partage du royaume entre ses fils en 511, conforme à la coutume franque. Le titre impérial ne sera obtenu par un roi franc qu'avec Charlemagne, en 800."
+  }
+ ]
+}

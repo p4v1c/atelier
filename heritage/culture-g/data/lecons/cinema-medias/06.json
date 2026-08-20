@@ -1,0 +1,163 @@
+{
+ "titre": "Le cinéma d'animation, de Méliès aux studios Ghibli",
+ "sections": [
+  {
+   "titre": "Aux origines : jouets optiques et premiers dessins animés",
+   "texte": "L'animation est en réalité plus ancienne que le cinéma. Au XIXe siècle, des savants et des inventeurs mettent au point des jouets optiques fondés sur la persistance des impressions lumineuses : le thaumatrope, le phénakistiscope conçu par le Belge Joseph Plateau en 1832, le zootrope, puis le praxinoscope du Français Émile Reynaud, breveté en 1877. Reynaud perfectionne son appareil et présente, à partir de 1892, ses Pantomimes lumineuses au musée Grévin à Paris : ces bandes dessinées à la main et projetées devant un public, comme «Pauvre Pierrot», précèdent de trois ans la première séance des frères Lumière. Une fois la pellicule imposée, l'animation s'y adapte. En 1908, Émile Cohl réalise «Fantasmagorie», deux minutes de traits blancs sur fond noir qui se métamorphosent sans cesse : on y voit souvent le premier dessin animé sur film. Aux États-Unis, le dessinateur de presse Winsor McCay fait dialoguer sur scène un personnage animé et lui-même dans «Gertie le dinosaure» (1914) et démontre qu'un dessin peut avoir une personnalité. Dans les années 1910 et 1920, les studios industrialisent le procédé grâce au celluloïd, feuille transparente qui permet de ne redessiner que les parties mobiles au-dessus d'un décor fixe. Naissent alors des séries populaires comme Félix le chat, tandis que le Franco-Russe Ladislas Starewitch anime des marionnettes avec une minutie stupéfiante.",
+   "visuels": [
+    {
+     "type": "frise",
+     "titre": "L'animation avant et après la pellicule",
+     "evenements": [
+      {
+       "date": "1832",
+       "label": "Le phénakistiscope",
+       "texte": "Le Belge Joseph Plateau exploite la persistance des impressions lumineuses."
+      },
+      {
+       "date": "1877",
+       "label": "Le praxinoscope",
+       "texte": "Émile Reynaud brevette un jouet optique plus lumineux que le zootrope."
+      },
+      {
+       "date": "1892",
+       "label": "Les Pantomimes lumineuses",
+       "texte": "Reynaud projette au musée Grévin des bandes dessinées à la main, trois ans avant les frères Lumière."
+      },
+      {
+       "date": "1908",
+       "label": "« Fantasmagorie »",
+       "texte": "Émile Cohl anime deux minutes de traits blancs sur fond noir : souvent le premier dessin animé sur film."
+      },
+      {
+       "date": "1914",
+       "label": "« Gertie le dinosaure »",
+       "texte": "Winsor McCay dialogue sur scène avec son personnage et prouve qu'un dessin peut avoir une personnalité."
+      }
+     ]
+    },
+    {
+     "type": "image",
+     "image": "cin-praxinoscope",
+     "legende": "Le praxinoscope d'Émile Reynaud, breveté en 1877 : les dessins collés à l'intérieur du tambour se reflètent sur les miroirs du prisme central, et le mouvement apparaît quand on tourne la manivelle.",
+     "alt": "Gravure ancienne d'un appareil de salon : un tambour cylindrique posé sur un pied, garni à l'intérieur d'une bande de petites vignettes dessinées, surmonté d'une lampe à abat-jour et actionné par une manivelle."
+    }
+   ]
+  },
+  {
+   "titre": "Disney et l'âge d'or du dessin animé américain",
+   "texte": "Walt Disney fonde son studio en 1923 avec son frère Roy. Le succès arrive en 1928 avec «Steamboat Willie», où apparaît Mickey Mouse et surtout où le son est parfaitement synchronisé avec les gestes. Suivent les Silly Symphonies, courts métrages servant de laboratoire technique, qui permettent d'expérimenter le Technicolor puis la caméra multiplane, dispositif superposant plusieurs plaques de verre pour obtenir un véritable effet de profondeur. En 1937, Disney prend un risque financier considérable en produisant «Blanche-Neige et les Sept Nains», premier long métrage d'animation américain : le triomphe est immense et ouvre la voie à «Pinocchio», «Fantasia» (1940) et «Bambi» (1942). Le studio impose un modèle de production très divisé, où des animateurs principaux dessinent les poses clés et des intervallistes complètent le mouvement. Ce fonctionnement provoque une grève dure en 1941. La concurrence propose un ton différent : chez Warner Bros., Tex Avery et Chuck Jones cultivent l'absurde, la vitesse et la parodie avec Bugs Bunny ou Daffy Duck, tandis que Hanna-Barbera adapte l'animation aux budgets de la télévision dans les années 1960. Après des décennies plus difficiles, Disney connaît une renaissance à partir de la fin des années 1980 avec «La Petite Sirène», «La Belle et la Bête» et «Le Roi lion» (1994), avant que l'ordinateur ne change de nouveau la donne."
+  },
+  {
+   "titre": "Les techniques de l'animation",
+   "texte": "Animer, c'est fabriquer le mouvement image par image. Un film étant projeté à vingt-quatre images par seconde, il faudrait autant de dessins ; en pratique, la plupart des studios animent sur deux, c'est-à-dire douze dessins par seconde, chacun photographié deux fois. Le travail commence par un storyboard, suite de vignettes décrivant les plans, puis par une animatique qui en donne le rythme. Les techniques sont très variées. Le dessin animé traditionnel utilise le papier et le celluloïd, remplacés depuis les années 2000 par la palette graphique. L'animation en volume, ou stop motion, photographie des marionnettes articulées ou des figurines de pâte à modeler que l'on déplace légèrement entre chaque prise : c'est la méthode du singe de «King Kong» (1933), des créatures de Ray Harryhausen, puis des films du studio britannique Aardman avec «Wallace et Gromit». Le papier découpé, employé par l'Allemande Lotte Reiniger dès «Les Aventures du prince Ahmed» (1926), le premier long métrage d'animation conservé, joue des silhouettes. Il existe aussi la peinture sur verre, l'animation de sable, l'écran d'épingles ou le grattage directement sur pellicule. La rotoscopie consiste à décalquer des prises de vues réelles pour obtenir un mouvement crédible. Enfin l'animation en trois dimensions, calculée par ordinateur, s'impose depuis «Toy Story» (1995) sans faire disparaître les autres approches, souvent combinées.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les grandes techniques de l'animation",
+    "colonnes": [
+     "Technique",
+     "Comment on procède",
+     "Exemple"
+    ],
+    "lignes": [
+     [
+      "Dessin animé traditionnel",
+      "Papier et celluloïd, remplacés depuis les années 2000 par la palette graphique",
+      "« Blanche-Neige et les Sept Nains » (1937)"
+     ],
+     [
+      "Animation en volume, ou stop motion",
+      "On déplace légèrement des marionnettes articulées ou des figurines entre chaque prise",
+      "« Wallace et Gromit », studio Aardman"
+     ],
+     [
+      "Papier découpé",
+      "On joue des silhouettes articulées posées sur un fond",
+      "« Les Aventures du prince Ahmed » de Lotte Reiniger (1926)"
+     ],
+     [
+      "Rotoscopie",
+      "On décalque des prises de vues réelles pour obtenir un mouvement crédible",
+      "Nombreux dessins animés de studio"
+     ],
+     [
+      "Animation en trois dimensions",
+      "Le mouvement est calculé par ordinateur",
+      "« Toy Story » (1995)"
+     ]
+    ],
+    "note": "Un film est projeté à vingt-quatre images par seconde, mais la plupart des studios animent sur deux : douze dessins par seconde, chacun photographié deux fois."
+   }
+  },
+  {
+   "titre": "L'animation japonaise et le studio Ghibli",
+   "texte": "Le Japon a fait de l'animation, appelée anime, une industrie majeure et un art reconnu. Le dessinateur de mangas Osamu Tezuka en pose les bases pour la télévision avec «Astro Boy» en 1963 : pour tenir des délais très serrés, il met au point une animation limitée, économe en dessins, qui privilégie les plans fixes expressifs, les gros plans et les mouvements de décor. Ce style et son lien étroit avec l'édition de mangas expliquent la diversité des publics visés, des enfants aux adultes. En 1988, «Akira» de Katsuhiro Ōtomo révèle à l'étranger un cinéma d'animation ambitieux, urbain et pessimiste, puis «Ghost in the Shell» de Mamoru Oshii (1995) nourrit toute la science-fiction mondiale. La reconnaissance vient surtout du studio Ghibli, fondé en 1985 par Hayao Miyazaki, Isao Takahata et le producteur Toshio Suzuki. Miyazaki y déploie des récits d'apprentissage portés par des héroïnes, un émerveillement devant la nature et un refus des oppositions simples entre bons et méchants, dans «Mon voisin Totoro» (1988), «Princesse Mononoké» (1997) et «Le Voyage de Chihiro» (2001), qui obtient l'Ours d'or à Berlin en 2002 puis l'Oscar du meilleur film d'animation. Takahata explore d'autres voies, du récit de guerre bouleversant du «Tombeau des lucioles» (1988) au trait épuré du «Conte de la princesse Kaguya» (2013)."
+  },
+  {
+   "titre": "L'animation européenne et française",
+   "texte": "L'Europe n'a jamais disposé de studios comparables à ceux d'Hollywood, mais elle a cultivé une tradition d'auteurs. En Tchécoslovaquie, Jiří Trnka développe à partir des années 1940 un cinéma de marionnettes d'une grande finesse, et Jan Švankmajer y ajoute plus tard une inspiration surréaliste. En France, Paul Grimault travaille pendant plus de trente ans, avec le poète Jacques Prévert, à un film adapté d'Andersen qui ne sortira dans sa version définitive qu'en 1980 sous le titre «Le Roi et l'Oiseau» : cette fable sur la tyrannie a influencé nombre d'animateurs, y compris japonais. René Laloux signe «La Planète sauvage» en 1973, science-fiction graphique conçue avec le dessinateur Roland Topor, récompensée à Cannes. La véritable relance vient à la fin des années 1990 : «Kirikou et la Sorcière» de Michel Ocelot (1998), inspiré de contes d'Afrique de l'Ouest, rencontre un immense succès public et prouve qu'un long métrage français peut exister sans imiter les modèles américains. Suivent «Les Triplettes de Belleville» de Sylvain Chomet (2003) et «Persepolis» de Marjane Satrapi et Vincent Paronnaud (2007), adapté d'une bande dessinée autobiographique sur l'Iran. Cette vitalité s'appuie sur des écoles réputées, notamment les Gobelins, sur des aides publiques et sur le festival international du film d'animation d'Annecy, créé en 1960 et devenu le rendez-vous mondial de la discipline."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel film des studios Disney, sorti en 1937, est le premier long métrage d'animation américain ?",
+   "choix": [
+    "«Pinocchio»",
+    "«Blanche-Neige et les Sept Nains»",
+    "«Fantasia»",
+    "«Bambi»"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "«Blanche-Neige et les Sept Nains» sort en 1937 après trois ans de travail et un budget si élevé que la presse parlait de la folie de Disney. Son succès mondial finance la construction d'un nouveau studio et lance la série des grands longs métrages du studio. «Pinocchio» et «Fantasia» datent de 1940, «Bambi» de 1942. Il faut noter qu'à l'échelle mondiale, «Les Aventures du prince Ahmed» de l'Allemande Lotte Reiniger, réalisé en silhouettes découpées en 1926, est plus ancien encore."
+  },
+  {
+   "q": "Quel studio d'animation japonais est fondé en 1985 par Hayao Miyazaki et Isao Takahata ?",
+   "choix": [
+    "Toei Animation",
+    "Madhouse",
+    "Gainax",
+    "le studio Ghibli"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le studio Ghibli est créé en 1985 par Hayao Miyazaki, Isao Takahata et le producteur Toshio Suzuki, après le succès du film «Nausicaä de la vallée du vent». Il produit notamment «Mon voisin Totoro», «Princesse Mononoké» et «Le Voyage de Chihiro», récompensé par l'Ours d'or à Berlin en 2002 et par un Oscar. Toei Animation est un studio bien plus ancien, fondé en 1948, où Miyazaki a d'ailleurs débuté. Madhouse et Gainax sont d'autres sociétés japonaises, actives surtout dans les séries télévisées."
+  },
+  {
+   "q": "Quel court métrage d'Émile Cohl, réalisé en 1908, est souvent considéré comme le premier dessin animé sur pellicule ?",
+   "choix": [
+    "«Fantasmagorie»",
+    "«Pauvre Pierrot»",
+    "«Gertie le dinosaure»",
+    "«Le Roi et l'Oiseau»"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "«Fantasmagorie», réalisé par Émile Cohl en 1908, dure environ deux minutes et présente des figures au trait blanc sur fond noir qui se transforment continuellement. Il est fréquemment cité comme le premier dessin animé tourné sur pellicule. «Pauvre Pierrot» est antérieur, mais il s'agit d'une bande peinte à la main projetée par Émile Reynaud avec son Théâtre optique, hors du support film. «Gertie le dinosaure» est l'oeuvre de l'Américain Winsor McCay en 1914, et «Le Roi et l'Oiseau» de Paul Grimault date de 1980."
+  },
+  {
+   "q": "Comment appelle-t-on la technique qui consiste à photographier image par image des marionnettes ou des figurines déplacées légèrement ?",
+   "choix": [
+    "la rotoscopie",
+    "le papier découpé",
+    "l'animation en volume",
+    "le morphing"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "L'animation en volume, souvent désignée par son nom anglais stop motion, consiste à photographier des objets réels en trois dimensions, marionnettes articulées ou pâte à modeler, en les déplaçant très légèrement entre chaque prise. Le studio britannique Aardman, avec «Wallace et Gromit», en est un représentant célèbre. La rotoscopie est un tout autre procédé, qui consiste à décalquer des images filmées pour obtenir un mouvement réaliste. Le papier découpé anime des silhouettes plates. Le morphing est un effet numérique de transformation progressive d'une forme en une autre."
+  },
+  {
+   "q": "Quel film de Michel Ocelot, sorti en 1998 et inspiré de contes d'Afrique de l'Ouest, a relancé le long métrage d'animation français ?",
+   "choix": [
+    "«Les Triplettes de Belleville»",
+    "«Kirikou et la Sorcière»",
+    "«Persepolis»",
+    "«La Planète sauvage»"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "«Kirikou et la Sorcière» sort en 1998 et rencontre un très large succès, avec un graphisme inspiré des arts africains et une musique de Youssou N'Dour. Il démontre qu'un long métrage d'animation français peut trouver son public sans imiter les modèles américains, et il ouvre une période féconde pour la production nationale. «Les Triplettes de Belleville» de Sylvain Chomet date de 2003, «Persepolis» de Marjane Satrapi et Vincent Paronnaud de 2007, et «La Planète sauvage» de René Laloux de 1973."
+  }
+ ]
+}

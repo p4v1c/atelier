@@ -1,0 +1,166 @@
+{
+ "titre": "Le journalisme et l'information à l'ère d'internet",
+ "sections": [
+  {
+   "titre": "Qu'est-ce que le journalisme ?",
+   "texte": "Le journalisme consiste à rechercher, vérifier, hiérarchiser et diffuser des informations d'intérêt public. Il ne se confond ni avec la communication, qui défend les intérêts d'un client, ni avec la simple expression d'une opinion sur un réseau social. En France, la loi Brachard de 1935 définit le journaliste professionnel comme celui qui tire l'essentiel de ses ressources de cette activité exercée dans une entreprise de presse, et institue la carte de presse, délivrée par une commission paritaire. Le métier recouvre des réalités très diverses : reporter de terrain, rédacteur, secrétaire de rédaction chargé des titres et de la relecture, photojournaliste, journaliste reporter d'images, présentateur, éditorialiste. Une rédaction est organisée par services, politique, société, international, économie, sport, culture, coordonnés par un rédacteur en chef sous l'autorité d'un directeur de publication juridiquement responsable. Un maillon essentiel reste invisible du public : les agences de presse, qui alimentent tous les médias en dépêches, images et vidéos. L'Agence France-Presse, héritière de l'agence Havas fondée en 1835, a été refondée en 1944 et figure avec la britannique Reuters et l'américaine Associated Press parmi les trois grandes agences mondiales. Le journalisme remplit ainsi une fonction démocratique reconnue : informer les citoyens pour qu'ils puissent se former un jugement, et exercer un contrôle sur les pouvoirs, ce que l'on résume par l'expression de contre-pouvoir ou de quatrième pouvoir."
+  },
+  {
+   "titre": "Les règles du métier : liberté, vérification, déontologie",
+   "texte": "La liberté de la presse repose en France sur la loi du 29 juillet 1881, texte fondateur toujours en vigueur : elle pose le principe de la libre publication tout en encadrant les abus, notamment la diffamation, l'injure et la provocation à la haine, qui restent des délits. Cette liberté s'accompagne de devoirs professionnels, réunis dans des chartes que la profession s'est données elle-même. La Charte des devoirs professionnels des journalistes français, rédigée en 1918 et plusieurs fois révisée, et surtout la Déclaration des devoirs et des droits des journalistes adoptée à Munich en 1971 au niveau européen, énoncent les principes de base : respecter la vérité, vérifier les informations avant publication, ne pas confondre les faits et les commentaires, ne jamais utiliser de méthodes déloyales pour obtenir un document, rectifier toute erreur, refuser toute pression et tout avantage. La protection des sources est un droit essentiel, garanti en France par une loi du 4 janvier 2010 : sans elle, aucun témoin ne prendrait le risque de révéler un scandale. Dans les faits, ces règles se heurtent à des contraintes réelles : urgence de l'information continue, concentration des médias entre les mains de quelques grands groupes, dépendance à la publicité, précarité des pigistes. Des sociétés de journalistes et, dans certains pays, des conseils de déontologie tentent de garantir l'indépendance des rédactions."
+  },
+  {
+   "titre": "Internet et réseaux sociaux : une révolution de la diffusion",
+   "texte": "Le World Wide Web, inventé entre 1989 et 1991 par le Britannique Tim Berners-Lee au CERN, à Genève, bouleverse en une génération la circulation de l'information. Trois ruptures se produisent. La première est la fin du monopole de la publication : avec les blogs des années 2000, puis les plateformes, chacun peut diffuser un texte, une photo ou une vidéo sans passer par un éditeur. La deuxième est l'instantanéité et la mondialisation, un contenu pouvant faire le tour de la planète en quelques minutes. La troisième est le changement de l'intermédiaire : ce ne sont plus des rédactions mais des algorithmes de recommandation qui sélectionnent ce que voit chaque utilisateur, en fonction de son comportement passé et de l'engagement attendu. Wikipédia naît en 2001, Facebook en 2004, YouTube en 2005, Twitter en 2006, et la généralisation du téléphone connecté à partir de 2007 met un média permanent dans chaque poche. Les conséquences économiques sont lourdes pour la presse écrite, dont les recettes publicitaires et les ventes s'effondrent, ce qui l'oblige à inventer des modèles d'abonnement numérique. Le journalisme y gagne aussi des outils : recherche en source ouverte, vérification d'images par géolocalisation, exploitation de bases de données, coopérations internationales comme celles qui ont permis de traiter de vastes fuites de documents financiers.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Qui publie, qui trie : avant et après le web",
+    "colonnes": [
+     {
+      "titre": "Les médias traditionnels",
+      "points": [
+       "Seul un éditeur peut publier : journal, radio, chaîne",
+       "Une rédaction hiérarchise et décide de ce qui compte",
+       "Le rythme est celui de l'édition : le jour, l'heure du journal",
+       "Le financement vient des ventes et de la publicité"
+      ]
+     },
+     {
+      "titre": "Le web et les réseaux sociaux",
+      "points": [
+       "Chacun peut diffuser un texte, une photo ou une vidéo",
+       "Des algorithmes de recommandation sélectionnent selon le comportement passé et l'engagement attendu",
+       "Un contenu fait le tour de la planète en quelques minutes",
+       "Les recettes publicitaires partent vers les plateformes, la presse invente l'abonnement numérique"
+      ]
+     }
+    ],
+    "note": "Le Web est inventé entre 1989 et 1991 par Tim Berners-Lee au CERN ; Wikipédia naît en 2001, Facebook en 2004, YouTube en 2005, Twitter en 2006."
+   }
+  },
+  {
+   "titre": "Désinformation, rumeurs et manipulation",
+   "texte": "La fausse information n'est pas née avec internet : les rumeurs et les fausses nouvelles accompagnent l'histoire de la presse depuis ses origines, et la propagande fut un instrument central des régimes totalitaires du XXe siècle. Mais les réseaux en ont changé l'échelle et la vitesse. On distingue habituellement la mésinformation, qui est une erreur diffusée de bonne foi, la désinformation, qui est un mensonge fabriqué et propagé sciemment, et la malinformation, qui consiste à sortir des faits véridiques de leur contexte pour nuire. Le mot anglais fake news, rendu officiellement en français par le terme infox, recouvre ces réalités de manière confuse et sert parfois à disqualifier un média gênant. Plusieurs mécanismes expliquent l'efficacité de ces contenus. Les émotions fortes, indignation ou peur, favorisent le partage bien davantage que la nuance. Le biais de confirmation pousse chacun à croire ce qui conforte ses convictions, et les algorithmes accentuent ce phénomène en enfermant l'utilisateur dans ce qu'Eli Pariser a nommé en 2011 une bulle de filtre. Les théories du complot offrent en outre une explication simple et un sentiment de lucidité. Enfin, des acteurs organisés, États ou officines, mènent des campagnes coordonnées à l'aide de faux comptes, et les truquages vidéo réalisés par intelligence artificielle rendent la vérification plus difficile.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Trois formes de fausse information",
+    "colonnes": [
+     "Terme",
+     "Le contenu est-il faux ?",
+     "Y a-t-il intention de nuire ?"
+    ],
+    "lignes": [
+     [
+      "Mésinformation",
+      "Oui : c'est une erreur",
+      "Non, elle est diffusée de bonne foi"
+     ],
+     [
+      "Désinformation",
+      "Oui : c'est un mensonge fabriqué",
+      "Oui, il est propagé sciemment"
+     ],
+     [
+      "Malinformation",
+      "Non : les faits sont véridiques",
+      "Oui, ils sont sortis de leur contexte pour nuire"
+     ]
+    ],
+    "note": "Le mot anglais fake news, rendu en français par infox, recouvre ces trois réalités de manière confuse et sert parfois à disqualifier un média gênant."
+   }
+  },
+  {
+   "titre": "S'informer aujourd'hui : vérification et esprit critique",
+   "texte": "Face à ces risques, plusieurs réponses coexistent. La première est professionnelle : de nombreuses rédactions ont créé des services de vérification, comme Les Décodeurs du Monde, CheckNews de Libération ou l'AFP Factuel, chargés de démonter les rumeurs et d'expliquer leur origine. La deuxième est juridique : la loi française du 22 décembre 2018 contre la manipulation de l'information impose notamment aux plateformes une obligation de transparence sur les contenus sponsorisés en période électorale, et l'Union européenne a renforcé depuis les obligations des grands services numériques. Le régulateur français de l'audiovisuel et du numérique, l'Arcom, née en 2022 de la fusion du Conseil supérieur de l'audiovisuel et de la Hadopi, veille au pluralisme et à l'honnêteté de l'information dans les médias qu'elle contrôle. La troisième réponse est éducative : créé en 1983, le Centre de liaison de l'enseignement et des médias d'information, ou CLEMI, forme les enseignants et organise chaque année la Semaine de la presse et des médias dans l'école. L'éducation aux médias apprend des réflexes simples et efficaces : identifier la source et sa date, remonter à l'information d'origine plutôt qu'à sa reprise, croiser plusieurs médias indépendants, distinguer un fait vérifiable d'une opinion, se méfier d'un titre indigné et rechercher l'origine d'une image. Douter est utile, mais douter de tout revient à ne plus rien savoir.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "Cinq réflexes devant une information",
+    "etapes": [
+     {
+      "label": "Identifier la source et sa date",
+      "texte": "Qui publie, quand, et pour quel public ?"
+     },
+     {
+      "label": "Remonter à l'information d'origine",
+      "texte": "Chercher le document ou l'étude cités plutôt que la reprise de la reprise."
+     },
+     {
+      "label": "Croiser plusieurs médias indépendants",
+      "texte": "Une information qui n'existe qu'à un seul endroit demande à être confirmée."
+     },
+     {
+      "label": "Distinguer un fait d'une opinion",
+      "texte": "Un fait est vérifiable ; un commentaire ne l'est pas."
+     },
+     {
+      "label": "Se méfier d'un titre indigné",
+      "texte": "L'émotion forte favorise le partage bien davantage que la nuance ; rechercher aussi l'origine d'une image."
+     }
+    ],
+    "note": "Douter est utile, mais douter de tout revient à ne plus rien savoir."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quelle loi constitue en France le texte fondateur de la liberté de la presse ?",
+   "choix": [
+    "la loi Brachard de 1935",
+    "la loi du 30 septembre 1986",
+    "la loi du 29 juillet 1881",
+    "la loi du 4 janvier 2010"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La loi du 29 juillet 1881 sur la liberté de la presse pose le principe selon lequel l'imprimerie et la librairie sont libres, tout en définissant les infractions qui limitent cette liberté, comme la diffamation ou l'injure. Elle demeure la référence juridique du droit de la presse français. La loi Brachard de 1935 concerne le statut du journaliste professionnel et la carte de presse. La loi du 30 septembre 1986 organise la liberté de communication audiovisuelle et crée l'autorité de régulation. La loi du 4 janvier 2010 protège, elle, le secret des sources."
+  },
+  {
+   "q": "Comment s'appelle le texte européen de 1971 qui énonce les devoirs et les droits des journalistes ?",
+   "choix": [
+    "la Déclaration de Munich",
+    "la charte de Rome",
+    "la convention de Genève",
+    "le code de Bruxelles"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "La Déclaration des devoirs et des droits des journalistes est adoptée à Munich en 1971 par des syndicats de journalistes de la Communauté européenne. Elle énumère dix devoirs, parmi lesquels respecter la vérité, vérifier les informations, rectifier ses erreurs et refuser toute pression, et cinq droits, dont le libre accès aux sources et le secret professionnel. Elle n'a pas force de loi mais sert de référence déontologique dans de nombreuses rédactions. Les autres réponses proposées désignent des textes inexistants dans ce domaine ou étrangers au journalisme, comme les conventions de Genève, qui relèvent du droit de la guerre."
+  },
+  {
+   "q": "Qui invente le World Wide Web à la fin des années 1980, au CERN de Genève ?",
+   "choix": [
+    "Bill Gates",
+    "Vinton Cerf",
+    "Steve Jobs",
+    "Tim Berners-Lee"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "L'informaticien britannique Tim Berners-Lee conçoit au CERN, à partir de 1989, un système de documents reliés par des liens hypertextes : c'est le World Wide Web, mis à la disposition du public au début des années 1990. Il ne faut pas le confondre avec internet lui-même, réseau de réseaux plus ancien dont Vinton Cerf est l'un des concepteurs des protocoles dans les années 1970. Bill Gates a fondé Microsoft et Steve Jobs a cofondé Apple, deux entreprises importantes pour l'informatique personnelle mais étrangères à l'invention du Web."
+  },
+  {
+   "q": "Quel terme désigne l'enfermement progressif d'un internaute dans des contenus conformes à ses opinions, sous l'effet des algorithmes ?",
+   "choix": [
+    "le putaclic",
+    "la bulle de filtre",
+    "le buzz",
+    "la veille"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "L'expression bulle de filtre a été popularisée en 2011 par le militant américain Eli Pariser. Elle décrit le fait que les algorithmes de recommandation, en sélectionnant les contenus selon nos comportements passés, nous exposent surtout à ce qui nous plaît déjà et réduisent la diversité des points de vue rencontrés. On parle aussi de chambre d'écho lorsque le phénomène est renforcé par un entourage d'opinions semblables. Le putaclic désigne un titre racoleur destiné à provoquer le clic, le buzz un emballement médiatique, et la veille le suivi organisé d'une actualité par un professionnel."
+  },
+  {
+   "q": "Quel organisme, créé en 1983, est chargé en France de l'éducation aux médias dans les établissements scolaires ?",
+   "choix": [
+    "l'Arcom",
+    "l'INA",
+    "le CLEMI",
+    "l'AFP"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Le Centre de liaison de l'enseignement et des médias d'information, connu sous le sigle CLEMI, est créé en 1983 et rattaché au ministère de l'Éducation nationale. Il forme les enseignants, produit des ressources pédagogiques, accompagne les journaux scolaires et organise chaque année la Semaine de la presse et des médias dans l'école. L'Arcom est l'autorité de régulation de la communication audiovisuelle et numérique, née en 2022. L'Institut national de l'audiovisuel conserve les archives de la radio et de la télévision, et l'Agence France-Presse est une agence de presse mondiale."
+  }
+ ]
+}

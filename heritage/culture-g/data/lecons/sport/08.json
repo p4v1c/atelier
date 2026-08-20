@@ -1,0 +1,188 @@
+{
+ "titre": "La natation et les sports nautiques",
+ "sections": [
+  {
+   "titre": "De la nage utilitaire au sport codifié",
+   "texte": "Nager est un geste très ancien, attesté dans toutes les civilisations riveraines de la mer ou des fleuves, mais la natation n'est devenue un sport réglementé qu'au XIXe siècle, en Grande-Bretagne. Des clubs londoniens organisent alors des courses en rivière puis dans les premiers bassins couverts, et fixent peu à peu les conditions du départ, du virage et de l'arrivée. La natation figure au programme des Jeux olympiques dès la première édition moderne, en 1896 à Athènes, où quatre épreuves sont disputées dans la baie de Zéa, en pleine mer : le Hongrois Alfréd Hajós y remporte le 100 mètres et devient le premier champion olympique de l'histoire de la discipline. Les conditions restent longtemps rudimentaires, puisque les épreuves se déroulent dans la Seine en 1900 et dans un lac en 1904. Il faut attendre les Jeux de Londres, en 1908, pour qu'un bassin construit spécialement pour la compétition soit utilisé. La même année naît à Londres la fédération internationale de natation, chargée d'unifier les règlements et d'homologuer les premiers records du monde officiels. Les femmes, dont la participation était combattue par Pierre de Coubertin lui-même, sont admises en 1912 : l'Australienne Fanny Durack remporte le 100 mètres nage libre et devient la première championne olympique de natation. Cette institution internationale supervise aujourd'hui non seulement la natation de course, mais aussi le plongeon, le water-polo et la natation artistique."
+  },
+  {
+   "titre": "Les quatre nages et leurs règles",
+   "texte": "La natation sportive repose sur quatre styles codifiés, dont chacun obéit à des contraintes précises que les juges vérifient tout au long de la course. La nage libre est la plus permissive : le règlement autorise le nageur à se déplacer comme il le souhaite, si bien que tous choisissent le crawl, de très loin le style le plus rapide, grâce à l'alternance continue des bras et au battement des jambes. Le dos impose au contraire de rester sur le dos pendant toute la course, à l'exception du mouvement de virage, et c'est la seule nage dont le départ se prend dans l'eau, mains agrippées au mur. La brasse est la plus réglementée : les mouvements des bras et des jambes doivent être symétriques et exécutés dans un plan horizontal, la tête doit couper la surface à chaque cycle et le nageur doit toucher le mur des deux mains simultanément. Le papillon exige lui aussi une parfaite symétrie, mais les bras reviennent au-dessus de l'eau dans un mouvement circulaire spectaculaire, accompagné d'une ondulation du corps. C'est de loin le style le plus exigeant physiquement. À ces quatre nages s'ajoute une épreuve combinée, le quatre nages, où le concurrent enchaîne successivement papillon, dos, brasse puis nage libre. Les relais quatre nages suivent un ordre différent, imposé par les règles du départ dans l'eau du dos, qui ouvre la course.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les quatre nages et leurs contraintes",
+    "colonnes": [
+     "Nage",
+     "Ce que le règlement impose"
+    ],
+    "lignes": [
+     [
+      "Nage libre",
+      "La plus permissive : le nageur se déplace comme il veut. Tous choisissent le crawl, de très loin le plus rapide."
+     ],
+     [
+      "Dos",
+      "Rester sur le dos toute la course, sauf au virage. Seule nage dont le départ se prend dans l'eau, mains agrippées au mur."
+     ],
+     [
+      "Brasse",
+      "La plus réglementée : mouvements symétriques dans un plan horizontal, tête coupant la surface à chaque cycle, mur touché des deux mains."
+     ],
+     [
+      "Papillon",
+      "Symétrie parfaite, retour des bras au-dessus de l'eau et ondulation du corps. Le style le plus exigeant physiquement."
+     ]
+    ],
+    "note": "L'épreuve de quatre nages enchaîne papillon, dos, brasse puis nage libre ; le relais suit un ordre différent, car le départ dans l'eau du dos impose d'ouvrir la course."
+   }
+  },
+  {
+   "titre": "Bassins, distances et grandes compétitions",
+   "texte": "Les compétitions se déroulent dans deux formats de bassin. Le grand bassin, long de cinquante mètres, est le format olympique et sert de référence pour les records du monde les plus prestigieux. Le petit bassin, de vingt-cinq mètres, donne des chronomètres plus rapides, car le nageur y multiplie les virages et donc les poussées sur le mur, très propulsives. Les records du monde sont pour cette raison homologués séparément dans les deux formats. Les distances olympiques s'échelonnent du 50 mètres, un sprint pur qui se joue en une vingtaine de secondes, au 1500 mètres nage libre, épreuve de fond surnommée le marathon du bassin. Toutes les nages ne sont pas courues sur toutes les distances : le dos, la brasse et le papillon se disputent sur 100 et 200 mètres, tandis que la nage libre couvre le plus large éventail. S'y ajoutent les relais et, depuis les Jeux de Tokyo disputés en 2021, des relais mixtes associant nageurs et nageuses, qui ont permis d'atteindre une parité complète des épreuves entre hommes et femmes. Le calendrier international s'organise autour des Jeux olympiques, des championnats du monde et des championnats continentaux. Une autre discipline se pratique hors des piscines : la nage en eau libre, courue en mer ou en lac, dont l'épreuve olympique se dispute sur dix kilomètres et exige un sens tactique proche de celui du cyclisme.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Grand bassin et petit bassin",
+    "colonnes": [
+     {
+      "titre": "Grand bassin, 50 m",
+      "points": [
+       "Format olympique et référence des records les plus prestigieux.",
+       "Moins de virages, donc moins de poussées propulsives sur le mur.",
+       "Chronomètres plus lents à distance égale."
+      ]
+     },
+     {
+      "titre": "Petit bassin, 25 m",
+      "points": [
+       "Format des compétitions hivernales.",
+       "Le nageur multiplie les virages et les poussées sur le mur.",
+       "Chronomètres plus rapides : les records du monde y sont homologués séparément."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Les grandes figures des bassins",
+   "texte": "L'histoire de la natation est dominée par un nom : celui de l'Américain Michael Phelps, spécialiste du papillon, de la nage libre et du quatre nages. Entre 2004 et 2016, il accumule vingt-huit médailles olympiques, dont vingt-trois en or, ce qui fait de lui l'athlète le plus médaillé de toute l'histoire des Jeux, toutes disciplines confondues. Son exploit le plus retentissant se produit aux Jeux de Pékin, en 2008, où il remporte les huit épreuves auxquelles il participe, dépassant ainsi les sept titres obtenus par son compatriote Mark Spitz à Munich en 1972, un record qui semblait inaccessible. Phelps est également le seul nageur à avoir conservé un même titre lors de quatre éditions consécutives des Jeux, sur 200 mètres quatre nages. Chez les femmes, l'Américaine Katie Ledecky s'est imposée comme la référence des courses de demi-fond et de fond en nage libre. La natation française a longtemps vécu sur un exploit isolé, celui de Jean Boiteux, champion olympique du 400 mètres nage libre en 1952. Il faut attendre 2004 et les Jeux d'Athènes pour qu'une deuxième médaille d'or arrive, grâce à Laure Manaudou : à dix-sept ans, elle gagne le 400 mètres nage libre, prend l'argent sur 800 mètres et le bronze sur 100 mètres dos. Double championne du monde du 400 mètres en 2005 et 2007, elle a détenu des records du monde et ouvert la voie à une génération française victorieuse.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "Michael Phelps, l'athlète le plus médaillé des Jeux",
+    "items": [
+     {
+      "valeur": "28",
+      "label": "médailles olympiques entre 2004 et 2016, toutes disciplines confondues le record absolu"
+     },
+     {
+      "valeur": "23",
+      "label": "médailles d'or"
+     },
+     {
+      "valeur": "8",
+      "label": "titres lors des seuls Jeux de Pékin, en 2008"
+     },
+     {
+      "valeur": "7",
+      "label": "titres de Mark Spitz à Munich en 1972, le record qu'il a dépassé"
+     },
+     {
+      "valeur": "4",
+      "label": "éditions consécutives avec le titre du 200 m quatre nages"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Water-polo, natation artistique et plongeon",
+   "texte": "Autour de la natation de course gravitent plusieurs disciplines qui partagent le même bassin et la même fédération internationale. Le water-polo est un sport collectif né dans l'Angleterre du XIXe siècle : le club de Bournemouth pratique dès 1869 une forme primitive du jeu, et les premières règles sont édictées en 1870 par un club londonien. Deux équipes de sept joueurs, gardien compris, s'affrontent en quatre périodes de huit minutes ; une équipe qui prend possession du ballon dispose de trente secondes pour tirer, faute de quoi elle le perd. Le bassin mesure trente mètres sur vingt pour les hommes et vingt-cinq mètres sur vingt pour les femmes. Le water-polo masculin est olympique dès 1900, mais les femmes doivent attendre les Jeux de Sydney, en 2000. Après la Seconde Guerre mondiale, la Hongrie, l'Italie, la Yougoslavie et l'Union soviétique dominent la discipline. La natation artistique, longtemps appelée natation synchronisée avant d'être rebaptisée en 2017, mêle gymnastique, danse et natation. Elle trouve son origine dans les démonstrations données à New York en 1907 par la nageuse australienne Annette Kellerman, est reconnue comme sport en 1934 et entre au programme olympique en 1984 à Los Angeles, sous forme d'épreuves en solo, en duo et par équipes. Longtemps réservée aux femmes, elle s'ouvre progressivement aux hommes, avec des duos mixtes aux championnats du monde à partir de 2015. Le plongeon complète cette famille aquatique."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "En quelle année et dans quelle ville la fédération internationale de natation a-t-elle été fondée ?",
+   "choix": [
+    "En 1896 à Athènes",
+    "En 1908 à Londres",
+    "En 1912 à Stockholm",
+    "En 1924 à Paris"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "La fédération internationale de natation est créée à Londres en 1908. Cette date coïncide avec les Jeux olympiques de Londres, qui sont aussi les premiers à utiliser un bassin construit spécialement pour la compétition, après des épreuves disputées en mer en 1896, dans la Seine en 1900 et dans un lac en 1904. La fondation de la fédération permet d'unifier les règlements entre les nations et d'homologuer les premiers records du monde officiels. Cette institution ne gère pas seulement la natation de course : elle supervise aussi le plongeon, le water-polo et la natation artistique. Athènes 1896 correspond à la première apparition olympique de la natation, mais aucune fédération internationale n'existait alors."
+  },
+  {
+   "q": "Dans une épreuve individuelle de quatre nages, quel est l'ordre correct des styles ?",
+   "choix": [
+    "Dos, brasse, papillon, nage libre",
+    "Brasse, dos, nage libre, papillon",
+    "Papillon, dos, brasse, nage libre",
+    "Nage libre, papillon, dos, brasse"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "L'épreuve individuelle de quatre nages impose l'ordre papillon, dos, brasse, puis nage libre. Le papillon ouvre la course car c'est la nage la plus exigeante physiquement, et il vaut mieux la nager quand le corps est encore frais. La nage libre, où le concurrent choisit son style et adopte donc le crawl, referme la course. Le relais quatre nages suit un ordre différent, commençant par le dos : cela s'explique par une règle technique, puisque le dos est la seule nage dont le départ se prend dans l'eau, mains agrippées au mur, ce qui serait impossible en cours de relais. Il faut donc bien distinguer l'ordre individuel de l'ordre du relais."
+  },
+  {
+   "q": "Combien de titres olympiques Michael Phelps a-t-il remportés lors des seuls Jeux de Pékin en 2008 ?",
+   "choix": [
+    "Six",
+    "Sept",
+    "Huit",
+    "Neuf"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "À Pékin en 2008, Michael Phelps a remporté les huit épreuves auxquelles il participait, un exploit sans précédent. Il dépassait ainsi le record de sept médailles d'or détenu depuis 1972 par son compatriote Mark Spitz, établi aux Jeux de Munich. Sur l'ensemble de sa carrière, entre 2004 et 2016, Phelps a réuni vingt-huit médailles olympiques, dont vingt-trois en or, ce qui fait de lui l'athlète le plus décoré de toute l'histoire des Jeux, toutes disciplines confondues. Spécialiste du papillon, de la nage libre et du quatre nages, il est aussi le seul nageur à avoir conservé un même titre lors de quatre éditions consécutives des Jeux, sur 200 mètres quatre nages."
+  },
+  {
+   "q": "Quelle épreuve Laure Manaudou a-t-elle gagnée aux Jeux olympiques d'Athènes en 2004 ?",
+   "choix": [
+    "Le 400 mètres nage libre",
+    "Le 100 mètres dos",
+    "Le 200 mètres brasse",
+    "Le 800 mètres nage libre"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Laure Manaudou a remporté le 400 mètres nage libre aux Jeux d'Athènes en 2004, à seulement dix-sept ans. Elle y a également décroché l'argent sur 800 mètres nage libre et le bronze sur 100 mètres dos, un triplé inédit pour une nageuse française. Elle devenait ainsi la deuxième championne olympique française de natation, plus d'un demi-siècle après Jean Boiteux, vainqueur du 400 mètres nage libre en 1952. Elle a confirmé ce statut en devenant championne du monde du 400 mètres nage libre en 2005 puis en 2007, année où elle s'imposa aussi sur 200 mètres. Son parcours a relancé la natation française et inspiré une génération entière de nageurs."
+  },
+  {
+   "q": "Combien de joueurs, gardien compris, compte une équipe de water-polo dans l'eau ?",
+   "choix": [
+    "Cinq",
+    "Six",
+    "Sept",
+    "Onze"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Une équipe de water-polo aligne sept joueurs dans l'eau, gardien de but inclus. Le match se dispute en quatre périodes de huit minutes, séparées par des pauses, et une équipe qui prend possession du ballon dispose de trente secondes pour tirer au but, sous peine de le perdre. Le bassin mesure trente mètres sur vingt pour les compétitions masculines et vingt-cinq mètres sur vingt pour les féminines. Codifié en Angleterre à partir de 1870, le water-polo masculin entre au programme olympique dès 1900, tandis que le tournoi féminin n'apparaît qu'aux Jeux de Sydney en 2000. Après 1945, la Hongrie, l'Italie, la Yougoslavie et l'Union soviétique ont longtemps dominé la discipline."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Natation sportive",
+   "url": "https://fr.wikipedia.org/wiki/Natation_sportive"
+  },
+  {
+   "titre": "Natation aux Jeux olympiques",
+   "url": "https://fr.wikipedia.org/wiki/Natation_aux_Jeux_olympiques"
+  },
+  {
+   "titre": "Water-polo",
+   "url": "https://fr.wikipedia.org/wiki/Water-polo"
+  },
+  {
+   "titre": "Natation artistique",
+   "url": "https://fr.wikipedia.org/wiki/Natation_artistique"
+  },
+  {
+   "titre": "Michael Phelps",
+   "url": "https://fr.wikipedia.org/wiki/Michael_Phelps"
+  },
+  {
+   "titre": "Laure Manaudou",
+   "url": "https://fr.wikipedia.org/wiki/Laure_Manaudou"
+  }
+ ]
+}

@@ -1,0 +1,169 @@
+{
+ "titre": "Volcans, séismes et tectonique des plaques",
+ "sections": [
+  {
+   "titre": "La structure interne de la Terre",
+   "texte": "Notre planète, dont le rayon atteint environ six mille trois cent soixante-dix kilomètres, est constituée d'enveloppes concentriques que les géologues ont identifiées grâce à l'étude des ondes sismiques. La croûte, la plus superficielle, est mince : de cinq à dix kilomètres sous les océans, mais trente à soixante-dix kilomètres sous les continents. Elle est riche en silicium et en aluminium. En dessous s'étend le manteau, qui représente à lui seul environ quatre-vingt-quatre pour cent du volume terrestre et descend jusqu'à deux mille neuf cents kilomètres de profondeur. Il est constitué de roches solides mais capables de se déformer très lentement, ce qui autorise des mouvements de convection sur des millions d'années. Au centre se trouve le noyau, composé essentiellement de fer et de nickel : le noyau externe est liquide, tandis que le noyau interne, malgré une température estimée à plus de cinq mille degrés, reste solide en raison de la pression colossale qui y règne. Les mouvements du fer liquide dans le noyau externe engendrent le champ magnétique terrestre, véritable bouclier contre les particules du vent solaire. Les géologues distinguent aussi, d'un point de vue mécanique, la lithosphère rigide, qui réunit la croûte et la partie supérieure du manteau, et l'asthénosphère plus ductile sur laquelle elle glisse. C'est cette distinction qui rend possible la tectonique des plaques.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les enveloppes de la Terre",
+    "colonnes": [
+     "Enveloppe",
+     "Profondeur",
+     "État et composition"
+    ],
+    "lignes": [
+     [
+      "Croûte océanique",
+      "5 à 10 km",
+      "Solide, riche en silicium et aluminium"
+     ],
+     [
+      "Croûte continentale",
+      "30 à 70 km",
+      "Solide, la plus épaisse des deux"
+     ],
+     [
+      "Manteau",
+      "jusqu'à 2 900 km",
+      "Solide mais déformable : environ 84 % du volume terrestre"
+     ],
+     [
+      "Noyau externe",
+      "sous 2 900 km",
+      "Fer et nickel liquides : leurs mouvements créent le champ magnétique"
+     ],
+     [
+      "Noyau interne",
+      "jusqu'au centre, vers 6 370 km",
+      "Solide malgré plus de 5 000 °C, à cause de la pression"
+     ]
+    ],
+    "note": "La lithosphère rigide réunit la croûte et le sommet du manteau ; elle glisse sur l'asthénosphère plus ductile."
+   }
+  },
+  {
+   "titre": "La tectonique des plaques",
+   "texte": "En 1912, le météorologue allemand Alfred Wegener remarque que les côtes de l'Amérique du Sud et de l'Afrique s'emboîtent comme les pièces d'un puzzle. Il constate aussi que des fossiles identiques et des formations rocheuses semblables se retrouvent de part et d'autre de l'Atlantique. Il propose alors la théorie de la dérive des continents, selon laquelle un supercontinent unique, la Pangée, se serait fragmenté il y a environ deux cents millions d'années. Ses contemporains rejettent l'idée, faute d'un mécanisme convaincant. Ce n'est que dans les années 1960 que l'exploration des fonds océaniques apporte les preuves manquantes : on découvre les dorsales médio-océaniques, où du magma remonte en permanence et fabrique de la croûte neuve, ainsi que des bandes d'aimantation symétriques enregistrant les inversions du champ magnétique. La théorie de la tectonique des plaques s'impose alors. La lithosphère est découpée en une douzaine de grandes plaques rigides qui se déplacent de quelques centimètres par an, portées par les mouvements de convection du manteau. Aux frontières divergentes, les plaques s'écartent et de la matière nouvelle apparaît. Aux frontières convergentes, l'une plonge sous l'autre dans une zone de subduction, ou bien les deux se heurtent et soulèvent des chaînes de montagnes comme l'Himalaya. Aux frontières transformantes, elles coulissent latéralement, comme le long de la faille de San Andreas.",
+   "visuel": {
+    "type": "image",
+    "image": "svt-plaques-tectoniques",
+    "legende": "Les grandes plaques de la lithosphère et le sens de leur déplacement, de quelques centimètres par an.",
+    "alt": "Planisphère montrant le découpage de la surface terrestre en une douzaine de grandes plaques, leurs frontières et des flèches indiquant le sens de leur déplacement."
+   }
+  },
+  {
+   "titre": "Les volcans",
+   "texte": "Un volcan est une ouverture de la surface terrestre par laquelle remontent des roches en fusion venues des profondeurs. Ce magma, formé pour l'essentiel entre cent et deux cents kilomètres de profondeur, s'accumule dans une chambre magmatique avant d'emprunter une cheminée jusqu'au cratère. Une fois à l'air libre, il prend le nom de lave. Les géologues distinguent deux grands types d'éruptions selon la composition du magma. Le volcanisme effusif produit une lave fluide, pauvre en silice, qui s'écoule en longues coulées et bâtit des volcans aux pentes douces, appelés volcans boucliers ; le Piton de la Fournaise à La Réunion et le Kilauea à Hawaï en sont des exemples. Le volcanisme explosif met en jeu un magma visqueux et riche en gaz, qui obstrue la cheminée jusqu'à ce que la pression provoque une explosion. Il projette alors des cendres, des blocs et parfois des nuées ardentes, ces avalanches de gaz brûlants et de débris dévalant les pentes à grande vitesse, comme celle qui détruisit Saint-Pierre de la Martinique en 1902. La plupart des volcans se situent aux frontières de plaques, notamment le long de la ceinture de feu du Pacifique. D'autres, comme ceux d'Hawaï, jaillissent au milieu d'une plaque au-dessus d'un point chaud, panache de matériel remontant du manteau profond.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Deux façons d'entrer en éruption",
+    "colonnes": [
+     {
+      "titre": "Volcanisme effusif",
+      "points": [
+       "Lave fluide, pauvre en silice",
+       "Longues coulées, pentes douces : les volcans boucliers",
+       "Piton de la Fournaise, Kilauea",
+       "Éruption spectaculaire mais rarement meurtrière"
+      ]
+     },
+     {
+      "titre": "Volcanisme explosif",
+      "points": [
+       "Magma visqueux et riche en gaz",
+       "La cheminée s'obstrue jusqu'à l'explosion",
+       "Cendres, blocs et nuées ardentes",
+       "Saint-Pierre de la Martinique détruite en 1902"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Les séismes",
+   "texte": "Un séisme, ou tremblement de terre, résulte de la rupture brutale des roches en profondeur. Les plaques se déplacent, mais les frottements les bloquent parfois le long d'une faille ; la contrainte s'accumule alors pendant des années jusqu'à ce que la roche cède d'un coup. L'énergie libérée se propage sous forme d'ondes sismiques. Le point de rupture s'appelle le foyer, ou hypocentre, et le point situé à sa verticale en surface est l'épicentre, en général le plus affecté. Les sismographes enregistrent d'abord les ondes P, les plus rapides, qui compriment la roche, puis les ondes S, plus lentes et plus destructrices, et enfin les ondes de surface. La comparaison des temps d'arrivée dans plusieurs stations permet de localiser l'épicentre. Deux échelles servent à décrire un séisme. L'échelle de magnitude, dont la plus connue est celle de Richter aujourd'hui remplacée par la magnitude de moment, mesure l'énergie libérée : elle est logarithmique, si bien qu'un degré supplémentaire correspond à environ trente fois plus d'énergie. L'échelle d'intensité, comme l'échelle de Mercalli, décrit au contraire les dégâts observés en un lieu donné. Les séismes sous-marins peuvent déclencher des tsunamis, vagues de très grande longueur d'onde qui traversent les océans et déferlent avec une force dévastatrice sur les côtes."
+  },
+  {
+   "titre": "Roches, fossiles et temps géologique",
+   "texte": "Les roches racontent l'histoire de la Terre et se classent en trois grandes familles. Les roches magmatiques proviennent du refroidissement d'un magma : lorsque celui-ci se solidifie lentement en profondeur, il forme des roches grenues à gros cristaux comme le granite ; lorsqu'il refroidit vite en surface, il donne des roches à grain fin comme le basalte, la roche la plus abondante des fonds océaniques. Les roches sédimentaires résultent de l'accumulation puis du durcissement de débris ou de restes d'organismes : le grès, le calcaire et l'argile en font partie. Elles se déposent en couches successives, les strates, dont la superposition permet d'établir une chronologie relative selon le principe simple que les couches inférieures sont les plus anciennes. Les roches métamorphiques, enfin, sont d'anciennes roches transformées à l'état solide par la chaleur et la pression, comme le marbre issu du calcaire ou le gneiss issu du granite. Les fossiles, restes ou traces d'organismes conservés dans les sédiments, permettent de dater et de reconstituer les milieux du passé. La radioactivité fournit des datations absolues : en mesurant la désintégration régulière de certains éléments comme l'uranium, on a établi que la Terre s'est formée il y a environ quatre milliards cinq cents millions d'années. L'échelle des temps géologiques découpe cette immense durée en ères et en périodes.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les trois familles de roches",
+    "colonnes": [
+     "Famille",
+     "Origine",
+     "Exemples"
+    ],
+    "lignes": [
+     [
+      "Magmatique",
+      "Refroidissement d'un magma : lent en profondeur, rapide en surface",
+      "Granite (grenu), basalte (grain fin)"
+     ],
+     [
+      "Sédimentaire",
+      "Accumulation puis durcissement de débris ou de restes d'organismes",
+      "Grès, calcaire, argile"
+     ],
+     [
+      "Métamorphique",
+      "Ancienne roche transformée à l'état solide par la chaleur et la pression",
+      "Marbre issu du calcaire, gneiss issu du granite"
+     ]
+    ],
+    "note": "Les strates sédimentaires donnent une chronologie relative ; la radioactivité donne l'âge absolu — environ 4,5 milliards d'années pour la Terre."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Qui a proposé en 1912 la théorie de la dérive des continents ?",
+   "choix": [
+    "Alfred Wegener",
+    "Charles Richter",
+    "Charles Lyell",
+    "James Hutton"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "C'est le météorologue et astronome allemand Alfred Wegener qui, en 1912, propose la théorie de la dérive des continents. Il s'appuie sur l'emboîtement des côtes de l'Amérique du Sud et de l'Afrique, sur la présence de fossiles identiques de part et d'autre de l'Atlantique et sur la continuité de formations rocheuses. Il imagine un supercontinent unique, la Pangée, fragmenté il y a environ deux cents millions d'années. Sa théorie fut longtemps rejetée car il ne pouvait pas expliquer le moteur du déplacement. Ce n'est que dans les années 1960, avec l'exploration des fonds océaniques, que ses idées furent confirmées et intégrées à la tectonique des plaques."
+  },
+  {
+   "q": "Quelle caractéristique du magma provoque des éruptions explosives ?",
+   "choix": [
+    "Un magma très chaud et très fluide",
+    "Un magma visqueux et riche en gaz",
+    "Un magma pauvre en silice",
+    "Un magma refroidi en profondeur"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Un magma riche en silice est très visqueux, c'est-à-dire épais et peu mobile. Les gaz dissous, notamment la vapeur d'eau et le dioxyde de carbone, peinent alors à s'en échapper et restent piégés. La pression augmente jusqu'à provoquer une explosion violente, projetant cendres, blocs et nuées ardentes. À l'inverse, un magma pauvre en silice est fluide et laisse les gaz s'échapper facilement : il donne des éruptions effusives avec de longues coulées de lave, comme au Piton de la Fournaise. Les volcans explosifs se rencontrent surtout dans les zones de subduction, tandis que les volcans effusifs dominent aux dorsales et aux points chauds."
+  },
+  {
+   "q": "Quelle roche se forme par refroidissement lent d'un magma en profondeur ?",
+   "choix": [
+    "Le calcaire",
+    "Le basalte",
+    "Le marbre",
+    "Le granite"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le granite est une roche magmatique plutonique : le magma refroidit lentement en profondeur, ce qui laisse aux minéraux le temps de former de gros cristaux visibles à l'œil nu, notamment le quartz, les feldspaths et les micas. On dit qu'elle est grenue. Le basalte a la même origine magmatique mais refroidit rapidement en surface, ce qui donne des cristaux minuscules et une roche sombre à grain fin. Le calcaire est une roche sédimentaire formée par accumulation de débris coquilliers ou de précipitations chimiques. Le marbre est une roche métamorphique, issue de la transformation du calcaire sous l'effet de la chaleur et de la pression."
+  },
+  {
+   "q": "Pourquoi le noyau interne de la Terre est-il solide alors qu'il est plus chaud que le noyau externe liquide ?",
+   "choix": [
+    "Parce qu'il est composé de roches et non de métal",
+    "Parce qu'il est refroidi par le manteau",
+    "Parce que la pression y est extrêmement élevée",
+    "Parce qu'il ne contient pas de fer"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Le noyau interne est le lieu le plus chaud de la planète, avec des températures estimées à plus de cinq mille degrés, comparables à celles de la surface du Soleil. Pourtant il est solide, car la pression qui s'y exerce, plus de trois millions de fois la pression atmosphérique, force les atomes de fer à rester serrés dans un réseau cristallin. La température de fusion d'un métal augmente en effet avec la pression. Le noyau externe, un peu moins comprimé, reste liquide, et ses mouvements de fer en fusion engendrent le champ magnétique terrestre par effet dynamo. Cette structure a été déduite de l'étude du trajet des ondes sismiques, qui se réfléchissent ou se ralentissent en traversant ces enveloppes."
+  }
+ ]
+}

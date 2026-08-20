@@ -1,0 +1,203 @@
+{
+ "titre": "L'aéronautique, des frères Wright à l'Airbus",
+ "sections": [
+  {
+   "titre": "Plus léger que l'air : les ballons de 1783",
+   "texte": "Le premier homme à quitter le sol ne l'a pas fait avec des ailes, mais avec un sac. Le principe est celui de la poussée d'Archimède, valable dans l'air comme dans l'eau : un volume rempli d'un gaz moins dense que l'air ambiant subit une poussée vers le haut supérieure à son propre poids, et il s'élève. Chauffer l'air le dilate, donc le rend moins dense : c'est l'idée que les frères Joseph-Michel et Jacques-Étienne de Montgolfier mettent en œuvre à partir de 1782. Le premier vol public d'un ballon sans occupant a lieu le 4 juin 1783 à Annonay, en Ardèche. Le 19 septembre 1783, à Versailles, devant Louis XVI, un coq, un mouton et un canard deviennent les premiers êtres vivants à voler, montant à environ cinq cent cinquante mètres : il s'agissait de vérifier que l'air d'altitude ne serait pas mortel. Le 19 octobre, à Paris, Jean-François Pilâtre de Rozier et Giroud de Villette montent dans un ballon retenu par des cordes. Enfin, le 21 novembre 1783, Pilâtre de Rozier et le marquis d'Arlandes réalisent le premier vol libre habité, parcourant environ neuf kilomètres du bois de Boulogne à la Butte-aux-Cailles. Le 4 juin 1784, à Lyon, Élisabeth Tible devient la première femme à voler. Le ballon monte et descend, mais il ne se dirige pas : il faut inventer autre chose.",
+   "visuel": {
+    "type": "frise",
+    "titre": "1783, l'année des ballons",
+    "evenements": [
+     {
+      "date": "4 juin 1783",
+      "label": "Annonay",
+      "texte": "Premier vol public d'un ballon sans occupant, par les frères Montgolfier."
+     },
+     {
+      "date": "19 septembre 1783",
+      "label": "Versailles",
+      "texte": "Un coq, un mouton et un canard montent à environ 550 mètres devant Louis XVI : il s'agit de vérifier que l'air d'altitude n'est pas mortel."
+     },
+     {
+      "date": "19 octobre 1783",
+      "label": "Paris, vol captif",
+      "texte": "Pilâtre de Rozier et Giroud de Villette montent dans un ballon retenu par des cordes."
+     },
+     {
+      "date": "21 novembre 1783",
+      "label": "Premier vol libre habité",
+      "texte": "Pilâtre de Rozier et le marquis d'Arlandes parcourent environ neuf kilomètres, du bois de Boulogne à la Butte-aux-Cailles."
+     },
+     {
+      "date": "4 juin 1784",
+      "label": "Lyon",
+      "texte": "Élisabeth Tible devient la première femme à voler."
+     }
+    ],
+    "note": "Le ballon monte et descend, mais il ne se dirige pas : il faudra inventer autre chose."
+   }
+  },
+  {
+   "titre": "Comprendre le vol : Cayley, Lilienthal et le problème du contrôle",
+   "texte": "Les machines volantes dessinées par Léonard de Vinci dans les années 1480 imitent le battement d'ailes des oiseaux, et aucune ne pouvait fonctionner. Le progrès vient de l'analyse plutôt que de l'imitation. À partir de 1796, l'Anglais George Cayley identifie les quatre forces qui s'exercent sur un aéronef : le poids, qui l'attire vers le bas ; la portance, produite par l'écoulement de l'air sur une aile et dirigée vers le haut ; la traînée, qui freine ; et la traction ou poussée, qui fait avancer. Cette décomposition est décisive, car elle sépare deux fonctions que les oiseaux confondent : sustenter et propulser. Cayley construit ensuite des planeurs qui volent réellement. À la fin du siècle, l'Allemand Otto Lilienthal effectue plus de deux mille vols en planeur entre 1891 et 1896, et se tue lors d'un essai. Il montre qu'un homme peut voler et manœuvrer, mais son pilotage repose sur les déplacements de son corps, ce qui est vite insuffisant. Le vrai verrou n'est ni la portance ni le moteur : c'est le contrôle. Un avion se déplace dans trois dimensions et peut tourner autour de trois axes, celui du roulis, qui incline les ailes, celui du tangage, qui lève ou baisse le nez, et celui du lacet, qui oriente à droite ou à gauche. Tant qu'on ne maîtrise pas ces trois mouvements, aucun vol durable n'est possible."
+  },
+  {
+   "titre": "17 décembre 1903 : les frères Wright et une paternité discutée",
+   "texte": "Wilbur Wright, né en 1867 et mort en 1912, et son frère Orville, né en 1871 et mort en 1948, tenaient un atelier de bicyclettes à Dayton, dans l'Ohio. Leur méthode est celle d'ingénieurs patients : ils construisent une soufflerie pour mesurer eux-mêmes le comportement des profils d'ailes, se défiant des tables publiées, puis s'entraînent sur des planeurs. Leur apport majeur date de 1902 : le pilotage sur trois axes, obtenu en couplant la gouverne de direction avec le gauchissement des ailes, c'est-à-dire un vrillage de leur extrémité qui permet d'incliner l'appareil et de virer proprement. Le 17 décembre 1903, à Kitty Hawk, en Caroline du Nord, ils effectuent quatre vols avec le Flyer, le meilleur atteignant cinquante-neuf secondes et deux cent quatre-vingt-quatre mètres. La paternité du premier vol reste discutée. Clément Ader affirme avoir décollé dès 1890 avec son Éole propulsé à la vapeur, mais les preuves d'un vol réellement contrôlé manquent. Alberto Santos-Dumont fait voler son 14-bis sur soixante mètres en octobre 1906 et remporte un prix, car son appareil décolle par ses propres moyens, sans dispositif de lancement, ce que les Wright utilisaient. L'Europe doute longtemps des Américains ; c'est seulement en 1908, lorsque Wilbur vole au Mans en enchaînant des virages serrés, que leur maîtrise s'impose aux yeux de tous.",
+   "visuels": [
+    {
+     "type": "image",
+     "image": "st-wright-1903",
+     "legende": "17 décembre 1903, Kitty Hawk : le meilleur des quatre vols du Flyer atteint cinquante-neuf secondes et deux cent quatre-vingt-quatre mètres.",
+     "alt": "Photographie ancienne en noir et blanc : un biplan sans fuselage décolle à quelques dizaines de centimètres du sable, un homme allongé aux commandes, un autre courant à côté de l'aile."
+    },
+    {
+     "type": "tableau",
+     "titre": "Une paternité discutée",
+     "colonnes": [
+      "Qui",
+      "Quand",
+      "Ce qui est revendiqué, ce qui manque"
+     ],
+     "lignes": [
+      [
+       "Clément Ader",
+       "1890",
+       "Affirme avoir décollé avec son Éole propulsé à la vapeur, mais les preuves d'un vol réellement contrôlé manquent"
+      ],
+      [
+       "Wilbur et Orville Wright",
+       "1903",
+       "Quatre vols au Flyer et, dès 1902, le pilotage sur trois axes ; mais l'appareil décolle avec un dispositif de lancement"
+      ],
+      [
+       "Alberto Santos-Dumont",
+       "1906",
+       "Soixante mètres avec le 14-bis, et un prix, car son appareil décolle par ses propres moyens"
+      ]
+     ],
+     "note": "L'Europe doute longtemps des Américains : c'est en 1908, quand Wilbur vole au Mans en enchaînant des virages serrés, que leur maîtrise s'impose aux yeux de tous."
+    }
+   ]
+  },
+  {
+   "titre": "De l'exploit sportif à la ligne régulière",
+   "texte": "Une fois le principe acquis, les progrès s'enchaînent très vite, portés par les concours, les prix offerts par les journaux et bientôt par la guerre. En juillet 1909, Louis Blériot traverse la Manche : l'exploit est modeste techniquement, mais son retentissement est énorme, car il montre qu'une île n'est plus à l'abri. Dès 1914 s'ouvre entre Saint-Pétersbourg et Tampa, en Floride, le premier service aérien régulier de passagers. La Première Guerre mondiale transforme l'aéroplane fragile en machine de série, robuste et rapide, et forme des milliers de pilotes et de mécaniciens. Au lendemain du conflit, les avions et les équipages disponibles servent à ouvrir les premières lignes commerciales européennes, entre Paris et Londres puis entre Paris et Bruxelles dès 1919. L'Atlantique devient l'obsession suivante. Il est franchi en 1919, d'abord par l'hydravion américain commandé par Albert Read, en plusieurs étapes, puis d'une traite par les Britanniques John Alcock et Arthur Whitten Brown. Mais c'est Charles Lindbergh qui entre dans la légende en mai 1927, parce qu'il réussit la traversée seul et sans escale, de New York à Paris. Ces exploits, largement médiatisés, financent et légitiment une industrie naissante : dans les années 1930, l'avion cesse d'être une curiosité pour devenir un moyen de transport, avec des appareils entièrement métalliques, plus sûrs et plus confortables."
+  },
+  {
+   "titre": "L'âge du réacteur et l'aventure Airbus",
+   "texte": "L'hélice atteint ses limites lorsque la vitesse augmente. La solution est la propulsion par réaction. Un turboréacteur aspire l'air par une entrée, le comprime fortement, y injecte du carburant qui brûle dans une chambre de combustion à des températures très élevées, puis laisse les gaz se détendre : ils traversent une turbine, qui entraîne le compresseur, avant d'être éjectés par une tuyère. L'avion avance en réaction à cette éjection de masse. Deux ingénieurs y parviennent indépendamment dans les années 1930, le Britannique Frank Whittle, qui essaie son prototype en avril 1937, et l'Allemand Hans von Ohain, dont le moteur propulse le Heinkel He 178 dès 1939 ; le moteur de Whittle vole sur le Gloster E.28/39 le 15 mai 1941. Après les chocs pétroliers, les motoristes généralisent le turboréacteur à double flux, dans lequel une grande partie de l'air contourne la chambre de combustion : on éjecte une masse d'air plus grande à vitesse plus faible, ce qui consomme moins et fait moins de bruit. L'Europe, elle, s'organise industriellement. Le consortium Airbus naît le 18 décembre 1970, associant la France, l'Allemagne, les Pays-Bas et l'Espagne, rejoints par le Royaume-Uni en 1979. L'A300, premier appareil à deux couloirs et deux moteurs seulement, vole le 28 octobre 1972 et entre en service le 15 avril 1974 chez Air France. L'A320, livré en mars 1988, est le premier avion de ligne à commandes de vol électriques numériques ; l'A380 vole le 27 avril 2005.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "Comment fonctionne un turboréacteur",
+    "etapes": [
+     {
+      "label": "Aspirer",
+      "texte": "L'air entre par l'entrée d'air."
+     },
+     {
+      "label": "Comprimer",
+      "texte": "Le compresseur élève fortement sa pression."
+     },
+     {
+      "label": "Brûler",
+      "texte": "Du carburant est injecté et brûle dans la chambre de combustion, à des températures très élevées."
+     },
+     {
+      "label": "Détendre",
+      "texte": "Les gaz traversent une turbine, qui entraîne le compresseur."
+     },
+     {
+      "label": "Éjecter",
+      "texte": "Ils sortent par la tuyère ; l'avion avance en réaction à cette éjection de masse."
+     }
+    ],
+    "note": "Le double flux, généralisé après les chocs pétroliers, fait contourner la chambre de combustion à une grande partie de l'air : on éjecte plus de masse à vitesse plus faible, ce qui consomme et fait moins de bruit."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Qui réalise, le 21 novembre 1783, le premier vol libre habité en ballon ?",
+   "choix": [
+    "Les frères Montgolfier eux-mêmes",
+    "Pilâtre de Rozier et le marquis d'Arlandes",
+    "Jacques Charles et Louis XVI",
+    "Un coq, un mouton et un canard"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Les frères Joseph-Michel et Jacques-Étienne de Montgolfier conçoivent le ballon à air chaud, mais ils ne montent pas eux-mêmes à bord lors de ce vol historique. Après un premier lancement sans occupant le 4 juin 1783 à Annonay, puis l'envol d'un coq, d'un mouton et d'un canard devant Louis XVI à Versailles le 19 septembre, un vol humain retenu par des cordes a lieu le 19 octobre. Le 21 novembre 1783, Jean-François Pilâtre de Rozier et le marquis d'Arlandes s'élèvent librement et parcourent environ neuf kilomètres au-dessus de Paris. Le ballon s'élève et redescend, mais il ne peut pas être dirigé, ce qui restera sa faiblesse."
+  },
+  {
+   "q": "Quelles sont les quatre forces identifiées par George Cayley comme s'exerçant sur un aéronef ?",
+   "choix": [
+    "La pression, la température, la vitesse et l'altitude",
+    "Le poids, la portance, la traînée et la traction",
+    "L'attraction, la répulsion, l'inertie et le frottement",
+    "Le roulis, le tangage, le lacet et la dérive"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "À partir de 1796, George Cayley rompt avec l'imitation du battement d'ailes en analysant le vol comme un problème de forces. Il distingue le poids, qui tire vers le bas, la portance, engendrée par l'écoulement de l'air sur une aile fixe, la traînée, qui freine l'avancement, et la traction ou poussée, fournie par le moteur. Cette décomposition est fondatrice, car elle sépare deux fonctions que l'oiseau confond dans un même mouvement : porter et propulser. Le roulis, le tangage et le lacet, eux, ne sont pas des forces mais les trois axes de rotation autour desquels un avion doit être contrôlé."
+  },
+  {
+   "q": "Quel est l'apport technique le plus décisif des frères Wright ?",
+   "choix": [
+    "L'invention du moteur à essence léger",
+    "Le pilotage sur trois axes, associant gouverne de direction et gauchissement des ailes",
+    "La construction d'une aile entièrement métallique",
+    "Le premier décollage sans dispositif de lancement"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Le véritable obstacle au vol motorisé n'était ni la portance, comprise depuis Cayley, ni la puissance, disponible avec les moteurs à essence, mais le contrôle. Un avion peut tourner autour de trois axes, et il faut maîtriser les trois simultanément pour voler durablement et virer sans déraper. En 1902, Wilbur et Orville Wright couplent la gouverne de direction au gauchissement des ailes, un vrillage de leur extrémité qui incline l'appareil. Cette solution rend possible le vol du 17 décembre 1903 à Kitty Hawk, dont le meilleur essai dure cinquante-neuf secondes sur deux cent quatre-vingt-quatre mètres. Le décollage autonome, sans dispositif de lancement, est en revanche l'argument que fait valoir Santos-Dumont en 1906."
+  },
+  {
+   "q": "Dans un turboréacteur, quel est le rôle de la turbine placée après la chambre de combustion ?",
+   "choix": [
+    "Elle refroidit les gaz avant leur éjection",
+    "Elle sert de frein en cas d'atterrissage",
+    "Elle entraîne le compresseur situé à l'avant du moteur",
+    "Elle produit l'électricité de bord de l'avion"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Le turboréacteur fonctionne en quatre temps simultanés : l'air entre, il est comprimé, du carburant y brûle dans la chambre de combustion, puis les gaz chauds se détendent et sont éjectés par la tuyère, propulsant l'avion en réaction. Mais comprimer l'air demande beaucoup d'énergie. C'est pourquoi les gaz brûlants traversent d'abord une turbine, montée sur le même arbre que le compresseur : elle prélève une partie de leur énergie pour faire tourner ce dernier, rendant le cycle autonome. Frank Whittle et Hans von Ohain mettent au point ce principe indépendamment dans les années 1930, le Heinkel He 178 volant dès 1939."
+  },
+  {
+   "q": "Quelle innovation l'Airbus A320, livré en mars 1988, introduit-il dans l'aviation civile ?",
+   "choix": [
+    "Le premier fuselage à deux couloirs",
+    "Les premières commandes de vol électriques numériques",
+    "Le premier moteur à double flux",
+    "Le premier vol transatlantique sans escale"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Le consortium Airbus est créé le 18 décembre 1970 entre la France, l'Allemagne, les Pays-Bas et l'Espagne, rejoints par le Royaume-Uni en 1979. Son premier appareil, l'A300, qui vole le 28 octobre 1972 et entre en service le 15 avril 1974, innovait déjà en associant deux couloirs et seulement deux moteurs. L'A320, livré en mars 1988, marque une autre rupture : c'est le premier avion de ligne dont les commandes de vol sont entièrement électriques et numériques. Les gestes du pilote ne tirent plus des câbles reliés aux gouvernes mais deviennent des ordres transmis à des calculateurs, qui les interprètent et empêchent de sortir du domaine de vol sûr."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Histoire de l'aviation",
+   "url": "https://fr.wikipedia.org/wiki/Histoire_de_l%27aviation"
+  },
+  {
+   "titre": "Frères Wright",
+   "url": "https://fr.wikipedia.org/wiki/Fr%C3%A8res_Wright"
+  },
+  {
+   "titre": "Montgolfière",
+   "url": "https://fr.wikipedia.org/wiki/Montgolfi%C3%A8re"
+  },
+  {
+   "titre": "Turboréacteur",
+   "url": "https://fr.wikipedia.org/wiki/Turbor%C3%A9acteur"
+  },
+  {
+   "titre": "Airbus",
+   "url": "https://fr.wikipedia.org/wiki/Airbus"
+  }
+ ]
+}

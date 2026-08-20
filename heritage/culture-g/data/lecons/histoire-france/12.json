@@ -1,0 +1,212 @@
+{
+ "titre": "Vichy, la Résistance et la Libération (1940-1945)",
+ "sections": [
+  {
+   "titre": "La défaite de 1940 et la naissance de l'État français",
+   "texte": "L'offensive allemande lancée le 10 mai 1940 provoque en six semaines l'effondrement de l'armée française. La percée des blindés dans les Ardennes, la rapidité des colonnes motorisées et l'exode de plusieurs millions de civils sur les routes désorganisent totalement le pays. La bataille de France coûte environ 100 000 morts militaires et fait près de 1 800 000 prisonniers, envoyés pour la plupart en Allemagne. Le maréchal Philippe Pétain, héros de Verdun appelé au gouvernement le 16 juin, demande l'arrêt des combats. L'armistice est signé le 22 juin 1940 : la France est coupée en une zone occupée par l'Allemagne, comprenant le Nord et toute la façade atlantique, et une zone dite libre au sud, tandis que l'Alsace-Moselle est annexée de fait. Le 10 juillet 1940, réunis à Vichy, les députés et sénateurs votent par 569 voix contre 80 les pleins pouvoirs constituants au maréchal Pétain ; seuls quatre-vingts parlementaires refusent. Le lendemain, Pétain se proclame chef de l'État français et concentre entre ses mains les pouvoirs exécutif, législatif et judiciaire. La République n'est pas formellement abolie mais elle disparaît dans les faits : le Parlement est ajourné, les partis et les syndicats mis au pas, la devise Liberté, Égalité, Fraternité remplacée par Travail, Famille, Patrie.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "Six semaines qui font tomber la République",
+    "items": [
+     {
+      "valeur": "6",
+      "label": "semaines pour l'effondrement de l'armée française, à partir du 10 mai 1940"
+     },
+     {
+      "valeur": "100 000",
+      "label": "morts militaires dans la bataille de France"
+     },
+     {
+      "valeur": "1 800 000",
+      "label": "prisonniers, envoyés pour la plupart en Allemagne"
+     },
+     {
+      "valeur": "569 contre 80",
+      "label": "le vote du 10 juillet 1940 accordant les pleins pouvoirs à Pétain"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "La Révolution nationale, l'antisémitisme d'État et la collaboration",
+   "texte": "Vichy ne se contente pas de gérer la défaite : il entend refonder la société selon un programme appelé Révolution nationale, qui dénonce l'individualisme, le parlementarisme et l'influence supposée des « anti-France ». Le régime exalte la terre, la famille, l'artisanat, l'ordre et la jeunesse, encadre les travailleurs dans une charte du travail et développe un culte de la personne du Maréchal. Cette idéologie se traduit très tôt par des mesures d'exclusion prises sans aucune demande allemande : le statut des Juifs du 3 octobre 1940, aggravé en juin 1941, exclut les Juifs de la fonction publique, de l'enseignement, de la presse et limite leur accès aux professions libérales ; un Commissariat général aux questions juives organise l'aryanisation des biens. Sur le plan diplomatique, la poignée de main de Montoire, le 24 octobre 1940, scelle publiquement le choix de la collaboration d'État avec l'Allemagne nazie. Le retour de Pierre Laval à la tête du gouvernement, en avril 1942, accentue cette politique : il déclare souhaiter la victoire allemande et engage la France dans une coopération policière et économique croissante. La police française participe ainsi à des arrestations massives, dont la rafle du Vélodrome d'Hiver des 16 et 17 juillet 1942, au cours de laquelle plus de 13 000 Juifs, dont plus de 4 000 enfants, sont raflés à Paris avant d'être déportés."
+  },
+  {
+   "titre": "La radicalisation du régime et le poids de l'occupation",
+   "texte": "À partir de la fin de 1942, la situation bascule. Après le débarquement allié en Afrique du Nord, les Allemands et les Italiens envahissent la zone sud le 11 novembre 1942 : Vichy perd toute apparence d'indépendance et la flotte se saborde à Toulon. L'économie française est pressurée par les exigences allemandes, avec le versement de frais d'occupation considérables, des réquisitions de matières premières et de produits agricoles. La population subit un rationnement sévère, la pénurie, le marché noir et un hiver de privations qui pèse surtout sur les villes. En février 1943, le gouvernement instaure le Service du travail obligatoire, qui contraint des centaines de milliers de jeunes hommes à partir travailler dans les usines du Reich ; beaucoup préfèrent prendre le maquis, ce qui gonfle les rangs de la Résistance. Le régime se durcit encore avec la création de la Milice française en janvier 1943, dirigée par Joseph Darnand, force supplétive qui traque résistants et Juifs aux côtés de la Gestapo et pratique la torture et l'exécution sommaire. Au total, environ 75 000 Juifs de France, dont un tiers de nationalité française, sont déportés vers les camps d'extermination ; moins de trois mille reviennent. Les massacres de civils se multiplient en 1944, comme à Oradour-sur-Glane le 10 juin.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Vichy, de la collaboration d'État à la complicité",
+    "evenements": [
+     {
+      "date": "22 juin 1940",
+      "label": "Armistice",
+      "texte": "Le pays est coupé en zone occupée et zone dite libre ; l'Alsace-Moselle est annexée de fait."
+     },
+     {
+      "date": "10-11 juillet 1940",
+      "label": "L'État français",
+      "texte": "Pétain concentre l'exécutif, le législatif et le judiciaire. Travail, Famille, Patrie remplace Liberté, Égalité, Fraternité."
+     },
+     {
+      "date": "3 octobre 1940",
+      "label": "Statut des Juifs",
+      "texte": "Pris sans aucune demande allemande : exclusion de la fonction publique, de l'enseignement, de la presse. Aggravé en juin 1941, complété par l'aryanisation des biens."
+     },
+     {
+      "date": "24 octobre 1940",
+      "label": "Montoire",
+      "texte": "La poignée de main avec Hitler scelle publiquement le choix de la collaboration d'État."
+     },
+     {
+      "date": "avril 1942",
+      "label": "Retour de Laval",
+      "texte": "Il déclare souhaiter la victoire allemande et engage une coopération policière et économique croissante."
+     },
+     {
+      "date": "16-17 juillet 1942",
+      "label": "Rafle du Vélodrome d'Hiver",
+      "texte": "La police française arrête à Paris plus de 13 000 Juifs, dont plus de 4 000 enfants. Au total, environ 75 000 Juifs de France seront déportés vers les camps d'extermination ; moins de trois mille reviendront."
+     },
+     {
+      "date": "11 novembre 1942",
+      "label": "Invasion de la zone sud",
+      "texte": "Vichy perd toute apparence d'indépendance ; la flotte se saborde à Toulon."
+     },
+     {
+      "date": "janvier-février 1943",
+      "label": "Milice et STO",
+      "texte": "La Milice de Darnand traque résistants et Juifs ; le Service du travail obligatoire envoie des centaines de milliers de jeunes dans les usines du Reich — beaucoup préfèrent le maquis."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "France libre, Résistance intérieure et unification",
+   "texte": "Dès le 18 juin 1940, depuis Londres, le général de Gaulle appelle sur les ondes de la BBC à poursuivre le combat et fonde la France libre, autour de laquelle se rallient progressivement des territoires de l'Empire et des volontaires. En France même, des femmes et des hommes entrent en résistance de façon isolée puis organisée. Naissent en zone sud Combat, animé par Henri Frenay, Libération-Sud d'Emmanuel d'Astier de La Vigerie et Franc-Tireur de Jean-Pierre Lévy, tandis qu'en zone nord se structurent Libération-Nord, l'Organisation civile et militaire ou le Front national d'inspiration communiste, ce dernier engageant la lutte armée surtout après l'invasion de l'URSS en juin 1941. Des réseaux se spécialisent dans le renseignement, l'évasion des aviateurs alliés ou le sabotage. Environ 1 200 titres de presse clandestine paraissent entre 1940 et 1944. Envoyé par de Gaulle, l'ancien préfet Jean Moulin parvient à fédérer ces forces dispersées : il crée les Mouvements unis de la Résistance en janvier 1943, puis réunit à Paris, le 27 mai 1943, la première séance du Conseil national de la Résistance, qui rassemble mouvements, partis et syndicats et reconnaît l'autorité du général de Gaulle. Arrêté le 21 juin 1943 à Caluire, Moulin meurt sous la torture ; Georges Bidault lui succède.",
+   "visuel": {
+    "type": "frise",
+    "titre": "De l'appel isolé à la Résistance unifiée",
+    "evenements": [
+     {
+      "date": "18 juin 1940",
+      "label": "L'appel de Londres",
+      "texte": "De Gaulle fonde la France libre sur les ondes de la BBC ; des territoires de l'Empire s'y rallient."
+     },
+     {
+      "date": "1940-1941",
+      "label": "Les premiers mouvements",
+      "texte": "Combat (Frenay), Libération-Sud (d'Astier) et Franc-Tireur (Lévy) en zone sud ; Libération-Nord, l'Organisation civile et militaire et le Front national au nord, ce dernier engageant la lutte armée surtout après l'invasion de l'URSS en juin 1941."
+     },
+     {
+      "date": "1940-1944",
+      "label": "Environ 1 200 titres de presse clandestine",
+      "texte": "À côté des réseaux de renseignement, d'évasion et de sabotage."
+     },
+     {
+      "date": "janvier 1943",
+      "label": "Mouvements unis de la Résistance",
+      "texte": "Jean Moulin, envoyé par de Gaulle, fédère les forces de la zone sud."
+     },
+     {
+      "date": "27 mai 1943",
+      "label": "Le Conseil national de la Résistance",
+      "texte": "Première séance à Paris : mouvements, partis et syndicats reconnaissent l'autorité du général de Gaulle."
+     },
+     {
+      "date": "21 juin 1943",
+      "label": "Arrestation de Moulin à Caluire",
+      "texte": "Il meurt sous la torture ; Georges Bidault lui succède."
+     },
+     {
+      "date": "mars 1944",
+      "label": "Le programme du CNR",
+      "texte": "Il inspirera les nationalisations, la Sécurité sociale et les réformes de la Libération."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "La Libération et le retour de la République (1944-1945)",
+   "texte": "Le 6 juin 1944, les Alliés débarquent en Normandie, suivis le 15 août d'un second débarquement en Provence auquel participe une importante armée française venue d'Afrique du Nord. Regroupés depuis février 1944 dans les Forces françaises de l'intérieur placées sous le commandement du général Koenig, les résistants multiplient sabotages ferroviaires, coupures de communications et embuscades qui ralentissent les renforts allemands ; Eisenhower estimera leur apport équivalent à plusieurs divisions. Le maquis paie cher cet engagement, comme au plateau des Glières ou au Vercors, écrasés par la Wehrmacht. Le 19 août 1944, l'insurrection éclate dans Paris ; la 2e division blindée du général Leclerc entre dans la capitale et la ville est libérée le 25 août, de Gaulle descendant les Champs-Élysées le lendemain. Le Gouvernement provisoire de la République française prend en main l'administration, remplace les préfets de Vichy, désarme progressivement les milices et engage l'épuration, marquée par des exécutions sommaires puis par des procès, dont ceux de Pétain et de Laval en 1945. Le programme du Conseil national de la Résistance, adopté en mars 1944, inspire de profondes réformes : nationalisations, création de la Sécurité sociale et droit de vote accordé aux femmes par l'ordonnance du 21 avril 1944, exercé pour la première fois en 1945.",
+   "visuel": {
+    "type": "image",
+    "image": "hf-liberation-paris",
+    "legende": "Les Champs-Élysées, fin août 1944 : les blindés de la 2e division blindée du général Leclerc défilent sous l'Arc de triomphe devant une foule qui brandit des pancartes pour de Gaulle.",
+    "alt": "Photographie en couleurs : chars et half-tracks descendant une large avenue bordée d'arbres vers l'Arc de triomphe, entre deux haies de civils en liesse, dont une banderole porte les mots Vive de Gaulle."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Que se passe-t-il le 10 juillet 1940 à Vichy ?",
+   "choix": [
+    "L'armistice est signé avec l'Allemagne",
+    "Le général de Gaulle lance son appel à la BBC",
+    "Les parlementaires votent les pleins pouvoirs constituants au maréchal Pétain",
+    "La zone libre est envahie par la Wehrmacht"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Réunis en Assemblée nationale au casino de Vichy, députés et sénateurs votent le 10 juillet 1940, par 569 voix contre 80, une loi accordant les pleins pouvoirs constituants au maréchal Pétain. Le lendemain, celui-ci se proclame chef de l'État français et concentre les pouvoirs exécutif, législatif et judiciaire. La Troisième République prend ainsi fin sans avoir été formellement abolie. L'armistice avait été signé un peu plus tôt, le 22 juin 1940, et l'appel du 18 juin précède ces deux événements. L'invasion de la zone libre n'aura lieu que le 11 novembre 1942."
+  },
+  {
+   "q": "Quelle affirmation est exacte à propos du statut des Juifs du 3 octobre 1940 ?",
+   "choix": [
+    "Il a été pris par le gouvernement de Vichy de sa propre initiative",
+    "Il a été imposé par une ordonnance allemande",
+    "Il ne concernait que la zone occupée",
+    "Il a été annulé dès 1941"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Le premier statut des Juifs, promulgué le 3 octobre 1940, n'a pas été réclamé par l'occupant : il relève d'une décision propre du régime de Vichy, qui l'inscrit dans le programme de la Révolution nationale. Il définit les Juifs selon des critères prétendument raciaux et les exclut de la fonction publique, de l'armée, de l'enseignement, de la presse et du cinéma. Un second statut, en juin 1941, aggrave encore ces exclusions et impose un recensement. Un Commissariat général aux questions juives organise ensuite la spoliation des biens. Ces mesures françaises précèdent et facilitent la déportation."
+  },
+  {
+   "q": "Quel événement se produit à Paris les 16 et 17 juillet 1942 ?",
+   "choix": [
+    "L'entrevue de Montoire",
+    "La création de la Milice française",
+    "L'insurrection parisienne",
+    "La rafle du Vélodrome d'Hiver"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "Les 16 et 17 juillet 1942, la police française, agissant sur ordre du gouvernement de Vichy en accord avec les autorités allemandes, arrête à Paris et en banlieue plus de 13 000 Juifs, dont plus de 4 000 enfants. Une partie des familles est enfermée plusieurs jours dans des conditions effroyables au Vélodrome d'Hiver, avant le transfert vers Drancy puis la déportation vers Auschwitz. Presque aucun des déportés ne revient. Cette rafle est devenue le symbole de la participation de l'État français à la Shoah, reconnue officiellement par le président Jacques Chirac en 1995."
+  },
+  {
+   "q": "Quel est le rôle de Jean Moulin dans la Résistance ?",
+   "choix": [
+    "Il commande la 2e division blindée qui libère Paris",
+    "Il unifie les mouvements de résistance et préside la première réunion du CNR le 27 mai 1943",
+    "Il dirige la France libre depuis Londres",
+    "Il fonde le mouvement Combat en 1940"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Ancien préfet révoqué par Vichy, Jean Moulin rejoint Londres en 1941 et reçoit du général de Gaulle la mission d'unifier une Résistance intérieure éparpillée. Parachuté en France, il obtient d'abord la fusion des trois grands mouvements de zone sud dans les Mouvements unis de la Résistance en janvier 1943, puis réunit le 27 mai 1943 à Paris la première séance du Conseil national de la Résistance, qui rassemble mouvements, partis politiques et syndicats et reconnaît l'autorité de De Gaulle. Arrêté le 21 juin 1943 à Caluire, il meurt sous la torture. Combat avait été fondé par Henri Frenay et la 2e DB était commandée par Leclerc."
+  },
+  {
+   "q": "Quelle réforme figure parmi les acquis de la Libération inspirés du programme du Conseil national de la Résistance ?",
+   "choix": [
+    "La création de la Sécurité sociale",
+    "L'abolition de la peine de mort",
+    "La création de la Ve République",
+    "L'instauration du service militaire obligatoire"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Adopté en mars 1944, le programme du Conseil national de la Résistance prévoit à la fois des mesures immédiates de lutte contre l'occupant et un projet de reconstruction sociale. Il inspire les grandes réformes du Gouvernement provisoire : nationalisation de l'énergie, des grandes banques et des usines Renault, création des comités d'entreprise et, par les ordonnances d'octobre 1945, mise en place de la Sécurité sociale. Le droit de vote est par ailleurs accordé aux femmes par l'ordonnance du 21 avril 1944. L'abolition de la peine de mort date de 1981 et la Ve République de 1958."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Régime de Vichy",
+   "url": "https://fr.wikipedia.org/wiki/R%C3%A9gime_de_Vichy"
+  },
+  {
+   "titre": "Résistance intérieure française",
+   "url": "https://fr.wikipedia.org/wiki/R%C3%A9sistance_int%C3%A9rieure_fran%C3%A7aise"
+  }
+ ]
+}

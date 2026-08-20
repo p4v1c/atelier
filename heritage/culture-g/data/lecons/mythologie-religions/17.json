@@ -1,0 +1,206 @@
+{
+ "titre": "Les religions d'Asie orientale : taoïsme, confucianisme, shintoïsme",
+ "sections": [
+  {
+   "titre": "Le taoïsme : la Voie, Laozi et les textes fondateurs",
+   "texte": "Le taoïsme est, avec le confucianisme et le bouddhisme, l'un des trois grands courants de la pensée chinoise. Son nom vient du dao, mot que l'on traduit par la Voie et qui désigne le principe originel dont procède, selon cette tradition, l'ensemble de ce qui existe. Trois ouvrages en forment le socle. Le Dao de jing, ou Livre de la Voie et de la Vertu, est attribué par la tradition à un sage nommé Laozi, dont l'existence historique reste discutée ; il rassemble des aphorismes concis portant sur la nature et sur l'art de gouverner. Le Zhuangzi, du nom du penseur appelé aussi Tchouang-tseu, procède autrement : il use de fables et de dialogues pour interroger le savoir, la mort et la liberté. Le Lie Zi complète cet ensemble. La notion la plus commentée est celle de wuwei, le non-agir, qui ne prescrit pas l'inaction mais invite à agir en accord avec le cours spontané des choses, l'idée étant que l'action la plus efficace est la moins forcée. S'y ajoutent les principes complémentaires du yin et du yang, dont l'équilibre est censé régir le cosmos et que la médecine chinoise reprend à son compte, ainsi que le qi, souffle ou énergie vitale. Cette pensée a marqué durablement la peinture, la poésie et la calligraphie d'Extrême-Orient, et elle a suscité en Occident, depuis l'époque moderne, un intérêt renouvelé."
+  },
+  {
+   "titre": "Le taoïsme religieux : écoles, rituels et recherche de longévité",
+   "texte": "À côté des textes philosophiques s'est développé, à partir des premiers siècles de notre ère, un taoïsme organisé en écoles, avec un clergé, des rituels et des lieux de culte. Sous la dynastie des Han orientaux, un maître nommé Zhang Daoling fonde l'école dite des Cinq Boisseaux de riz, ainsi appelée d'après la contribution demandée aux adeptes. Ses successeurs portent le titre de Maître céleste, tianshi, transmis à l'intérieur de la même lignée familiale. Au moment des dynasties du Nord et du Sud, le courant se divise entre des Maîtres célestes du Nord, dont Kou Qianzhi est la figure représentative, et des Maîtres célestes du Sud, associés à Lu Xiujing. Le siège religieux de cette tradition se trouve au mont Longhu, dans la province du Jiangxi, et les Maîtres célestes président aujourd'hui au mouvement Zhengyi, apparu sous la dynastie Yuan. Les pratiques taoïstes visent en grande partie l'entretien du corps et la longévité, voire, selon les adeptes, l'immortalité : techniques de respiration, gymnastiques, régimes alimentaires stricts, méditation et alchimie, cette dernière cherchant à préparer des substances réputées prolonger la vie. Les rituels accomplis par les maîtres accompagnent également les moments importants de la vie collective. Le taoïsme n'a jamais formé une institution unique comparable à une Église centralisée, mais un ensemble d'écoles, de lignées et de pratiques dont la vitalité a varié selon les époques."
+  },
+  {
+   "titre": "Confucius et les fondements du confucianisme",
+   "texte": "Le confucianisme procède de l'enseignement de Kongfuzi, connu en Occident sous le nom latinisé de Confucius, qui vécut de 551 à 479 avant notre ère. Ses idées ne furent guère écoutées de son vivant, mais elles ont façonné l'Asie orientale pendant deux millénaires. On ne connaît sa pensée que par fragments, principalement rassemblés dans les Entretiens, recueil de propos compilé par ses disciples après sa mort. Confucius procède par analogies et par exemples plutôt que par démonstrations, en cherchant, selon ses propres termes rapportés par la tradition, une unité qui traverse toutes choses. Quelques notions structurent la doctrine. Le ren désigne l'humanité, la disposition bienveillante envers autrui qui fonde la vertu. Le li recouvre les rites et les convenances qui règlent les relations sociales et donnent une forme visible au respect mutuel. Le xiao, ou piété filiale, place le respect dû aux parents et aux ancêtres au centre de la vie morale. Le junzi, souvent rendu par homme de bien, désigne celui qui atteint la noblesse par sa conduite plutôt que par sa naissance. L'ensemble compose moins une religion, au sens habituel du terme, qu'un système à la fois moral, social et politique visant l'harmonie de la société par la vertu personnelle et par l'éducation. Les historiens rappellent d'ailleurs que Confucius n'a pas fondé d'Église, mais élaboré avec ses disciples un système rituel complet accompagné d'une doctrine morale.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les notions qui structurent le confucianisme",
+    "colonnes": [
+     "Notion",
+     "Ce qu'elle désigne"
+    ],
+    "lignes": [
+     [
+      "Le ren",
+      "L'humanité, la disposition bienveillante envers autrui qui fonde la vertu"
+     ],
+     [
+      "Le li",
+      "Les rites et les convenances qui règlent les relations sociales et donnent une forme visible au respect mutuel"
+     ],
+     [
+      "Le xiao",
+      "La piété filiale : le respect dû aux parents et aux ancêtres, placé au centre de la vie morale"
+     ],
+     [
+      "Le junzi",
+      "Souvent rendu par homme de bien : celui qui atteint la noblesse par sa conduite plutôt que par sa naissance"
+     ]
+    ],
+    "note": "Kongfuzi, connu en Occident sous le nom latinisé de Confucius, vécut de 551 à 479 avant notre ère ; sa pensée est principalement rassemblée dans les Entretiens, recueil de propos compilé par ses disciples après sa mort."
+   }
+  },
+  {
+   "titre": "Le confucianisme, doctrine d'État et culture lettrée",
+   "texte": "Le confucianisme est devenu, très tôt, l'armature intellectuelle de l'État chinois. Sous la dynastie Han, l'empereur Han Wudi, qui vécut de 156 à 87 avant notre ère, en fait la doctrine officielle et institue des chaires impériales consacrées aux Cinq Classiques. À partir du IXe siècle apparaissent des écoles que l'on regroupe sous le nom de néoconfucianisme et qui reprennent des éléments empruntés au taoïsme et au bouddhisme. La synthèse la plus influente est celle de Zhu Xi, dont les interprétations deviennent au XIVe siècle le programme officiel des examens impériaux, ces concours qui recrutaient les fonctionnaires et faisaient de la maîtrise des textes classiques la voie principale d'accès aux charges publiques. La diffusion dépasse largement la Chine. En Corée, l'État de Koguryŏ fonde une académie confucianiste dès 372, et le néoconfucianisme s'y implante fortement à partir du XIIIe siècle. Au Japon, le prince Shōtoku adopte des principes confucéens en 604 et l'influence s'accentue à l'époque d'Edo, de 1603 à 1867, avec des lettrés comme Hayashi Razan. Au Vietnam, le Temple de la Littérature est construit en 1070 et sert à former les fonctionnaires. Le statut officiel de la doctrine prend fin avec l'abolition des examens impériaux en 1905 et la chute du régime impérial en 1911 ; le Mouvement du 4 Mai y voit alors un obstacle à la modernisation, tandis que des penseurs comme Liang Shuming cherchent à la réinterpréter.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Le confucianisme comme doctrine d'État, en Chine et au-delà",
+    "evenements": [
+     {
+      "date": "IIe s. av. n. è.",
+      "label": "Han Wudi en fait la doctrine officielle",
+      "texte": "L'empereur, qui vécut de 156 à 87 avant notre ère, institue des chaires impériales consacrées aux Cinq Classiques."
+     },
+     {
+      "date": "372",
+      "label": "Une académie confucianiste en Corée",
+      "texte": "Elle est fondée par l'État de Koguryŏ."
+     },
+     {
+      "date": "604",
+      "label": "Le prince Shōtoku au Japon",
+      "texte": "Il adopte des principes confucéens."
+     },
+     {
+      "date": "1070",
+      "label": "Le Temple de la Littérature au Vietnam",
+      "texte": "Il sert à former les fonctionnaires."
+     },
+     {
+      "date": "XIVe s.",
+      "label": "La synthèse de Zhu Xi",
+      "texte": "Ses interprétations deviennent le programme officiel des examens impériaux, qui recrutaient les fonctionnaires."
+     },
+     {
+      "date": "1905-1911",
+      "label": "La fin du statut officiel",
+      "texte": "Les examens impériaux sont abolis en 1905 et le régime impérial tombe en 1911."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le shintoïsme et la coexistence des traditions au Japon",
+   "texte": "Le shintoïsme rassemble des croyances anciennes du Japon, dont les origines sont rapportées à la période Yayoi ; le terme shintō n'apparaît qu'au VIe siècle, pour distinguer ces pratiques du bouddhisme venu de Chine. Elles se centrent sur la vénération des kami, puissances divines que la tradition situe dans les éléments de la nature et dans certains lieux ; on parle de huit millions de kami, chiffre symbolique exprimant leur multiplicité. Le Kojiki, achevé en 712, et le Nihon shoki, en 720, rassemblent les récits fondateurs, notamment ceux d'Amaterasu, divinité solaire présentée comme l'ancêtre de la famille impériale. Le culte se déroule dans des sanctuaires, les jinja, dont l'entrée est marquée par un portique appelé torii, séparant l'espace sacré du monde ordinaire ; le honden abrite le kami et le haiden sert à la prière. Les visiteurs se purifient les mains à un bassin, déposent une offrande, puis s'inclinent deux fois, frappent deux fois dans leurs mains et s'inclinent une dernière fois. Les fêtes annuelles, ou matsuri, donnent lieu à des processions où l'on porte des autels mobiles, les mikoshi. Le Japon compte environ cent mille sanctuaires. Après la restauration de Meiji, en 1868, le shintō devient religion d'État et sert à fonder l'autorité impériale, jusqu'à la réforme constitutionnelle de 1945. Aujourd'hui, de très nombreux Japonais associent sans difficulté pratiques shintō et bouddhiques, comme les Chinois ont longtemps combiné les trois enseignements.",
+   "visuels": [
+    {
+     "type": "image",
+     "image": "myt-torii-itsukushima",
+     "legende": "Le torii du sanctuaire d'Itsukushima. Ce portique marque l'entrée des jinja et sépare l'espace sacré du monde ordinaire ; le Japon compte environ cent mille sanctuaires.",
+     "alt": "Grand portique de bois peint en orange vif, planté dans l'eau : deux piliers surmontés de deux traverses horizontales dont la plus haute est incurvée ; des montagnes et une ville à l'arrière-plan."
+    },
+    {
+     "type": "etapes",
+     "titre": "Les gestes de la visite à un sanctuaire",
+     "etapes": [
+      {
+       "label": "La purification",
+       "texte": "Les visiteurs se purifient les mains à un bassin."
+      },
+      {
+       "label": "L'offrande",
+       "texte": "Ils déposent une offrande."
+      },
+      {
+       "label": "Deux inclinations",
+       "texte": "Ils s'inclinent deux fois."
+      },
+      {
+       "label": "Deux frappes",
+       "texte": "Ils frappent deux fois dans leurs mains."
+      },
+      {
+       "label": "Une dernière inclination",
+       "texte": "Ils s'inclinent une dernière fois."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "q": "À quel sage la tradition attribue-t-elle le Dao de jing ?",
+   "choix": [
+    "Confucius",
+    "Laozi",
+    "Zhu Xi",
+    "Zhang Daoling"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Le Dao de jing, ou Livre de la Voie et de la Vertu, est attribué par la tradition à Laozi, personnage dont l'existence historique reste discutée par les spécialistes. L'ouvrage réunit des aphorismes brefs sur la nature et sur l'art de gouverner. Il forme, avec le Zhuangzi et le Lie Zi, le socle textuel du taoïsme. Confucius est associé aux Entretiens, Zhu Xi au néoconfucianisme du XIIe siècle et Zhang Daoling à la fondation d'une école taoïste sous les Han orientaux. Il ne faut donc pas confondre les textes philosophiques du taoïsme et les écrits confucéens."
+  },
+  {
+   "q": "Que désigne la notion taoïste de wuwei ?",
+   "choix": [
+    "le sacrifice offert aux ancêtres",
+    "la piété filiale",
+    "le non-agir, c'est-à-dire l'action accordée au cours des choses",
+    "l'étude des textes classiques"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le wuwei se traduit habituellement par non-agir, mais il ne prescrit pas l'inaction : il invite à agir en accord avec le déroulement spontané des choses, selon l'idée que l'action la moins forcée est la plus efficace. Cette notion accompagne d'autres principes taoïstes comme le yin et le yang, dont l'équilibre est censé régir le cosmos, et le qi, souffle vital. La piété filiale, ou xiao, appartient au vocabulaire confucéen. L'étude des Classiques caractérise également la tradition lettrée confucéenne, non le taoïsme. Ces deux courants ont pourtant coexisté et se sont mutuellement influencés en Chine."
+  },
+  {
+   "q": "Dans quel recueil les disciples ont-ils rassemblé les propos de Confucius ?",
+   "choix": [
+    "les Entretiens",
+    "le Nihon shoki",
+    "le Zhuangzi",
+    "le Kojiki"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Les propos de Confucius, qui vécut de 551 à 479 avant notre ère, ont été compilés après sa mort par ses disciples dans les Entretiens. On ne connaît sa pensée que par ces fragments, organisés autour de notions comme le ren, l'humanité, le li, les rites, et le junzi, l'homme de bien. Le Zhuangzi est un texte taoïste usant de fables et de dialogues. Le Kojiki et le Nihon shoki sont des recueils japonais consignant les récits liés aux kami. La confusion entre ces traditions est fréquente, car elles se sont côtoyées en Asie orientale."
+  },
+  {
+   "q": "En quelle année l'empire chinois abolit-il les examens impériaux fondés sur les Classiques confucéens ?",
+   "choix": [
+    "372",
+    "1070",
+    "1603",
+    "1905"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Les examens impériaux, qui recrutaient les fonctionnaires à partir des textes classiques interprétés selon Zhu Xi, sont abolis en 1905, peu avant la chute du régime impérial en 1911. Le confucianisme perd alors son statut officiel, et le Mouvement du 4 Mai y voit un obstacle à la modernisation. Les autres dates renvoient à la diffusion régionale de la doctrine : en 372, l'État coréen de Koguryŏ fonde une académie confucianiste ; en 1070, le Temple de la Littérature est bâti au Vietnam ; en 1603 commence au Japon l'époque d'Edo, marquée par des lettrés confucéens comme Hayashi Razan. La doctrine avait été érigée en enseignement officiel dès le règne de Han Wudi."
+  },
+  {
+   "q": "Que marque le torii placé à l'entrée d'un sanctuaire shinto ?",
+   "choix": [
+    "la tombe d'un empereur",
+    "la limite entre l'espace sacré et le monde ordinaire",
+    "l'emplacement d'un monastère bouddhique",
+    "le lieu de conservation du Kojiki"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Le torii est le portique qui signale l'entrée d'un sanctuaire, le jinja, et marque la limite entre l'espace sacré et le monde ordinaire. À l'intérieur, le honden est présenté comme la demeure du kami et le haiden sert à la prière, tandis qu'un bassin permet la purification des mains. Les visiteurs déposent une offrande, s'inclinent deux fois, frappent deux fois dans leurs mains et s'inclinent une dernière fois. Le Japon compte environ cent mille sanctuaires, animés chaque année par des fêtes appelées matsuri. Les récits relatifs aux kami, dont celui d'Amaterasu, sont consignés dans le Kojiki de 712 et le Nihon shoki de 720."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Taoïsme",
+   "url": "https://fr.wikipedia.org/wiki/Taoïsme"
+  },
+  {
+   "titre": "Maîtres célestes",
+   "url": "https://fr.wikipedia.org/wiki/Maîtres_célestes"
+  },
+  {
+   "titre": "Confucianisme",
+   "url": "https://fr.wikipedia.org/wiki/Confucianisme"
+  },
+  {
+   "titre": "Shintoïsme",
+   "url": "https://fr.wikipedia.org/wiki/Shintoïsme"
+  },
+  {
+   "titre": "Sanctuaire shinto",
+   "url": "https://fr.wikipedia.org/wiki/Sanctuaire_shinto"
+  }
+ ]
+}

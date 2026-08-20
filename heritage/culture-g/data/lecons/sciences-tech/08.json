@@ -1,0 +1,192 @@
+{
+ "titre": "L'intelligence artificielle et la robotique",
+ "sections": [
+  {
+   "titre": "Des automates au neurone formel : la préhistoire d'une idée",
+   "texte": "Bien avant les ordinateurs, l'idée d'une machine capable de raisonner occupe les philosophes. Aristote, dans l'Antiquité grecque, décrit le syllogisme, cette manière de tirer une conclusion de deux prémisses en suivant des règles fixes : le raisonnement devient une opération réglée, que l'on pourrait imaginer confier à un mécanisme. Au XVIIe siècle, Descartes et surtout Leibniz poursuivent ce rêve, Leibniz espérant un langage universel dans lequel les désaccords se régleraient par le calcul. Parallèlement, les artisans construisent des automates, figures mécaniques mues par des ressorts et des cames qui imitent le geste vivant. Au XVIIIe siècle, Jacques de Vaucanson en présente de célèbres et travaille aussi à des métiers à tisser automatiques. Ces automates ne pensent pas : ils répètent une suite de mouvements inscrite dans leur mécanisme. Ils habituent pourtant le public à l'idée qu'une machine puisse se comporter comme un être vivant. Le basculement vient du calcul automatique et de la théorie qui l'accompagne. En 1943, Warren McCulloch et Walter Pitts proposent un modèle mathématique du neurone : une unité qui reçoit des signaux, les additionne et s'active si le total dépasse un seuil. Cette idée relie pour la première fois le fonctionnement du cerveau et celui de la logique, et fournira la brique de base des futurs réseaux de neurones artificiels. Vers 1950, les premiers ordinateurs électroniques donnent enfin un support concret à ces spéculations, jusque-là purement théoriques."
+  },
+  {
+   "titre": "1950-1956 : Turing, Dartmouth et la naissance d'une discipline",
+   "texte": "En 1950, le mathématicien britannique Alan Turing publie un article fondateur qui pose la question : les machines peuvent-elles penser ? Jugeant la question trop vague, il la remplace par une épreuve pratique, aujourd'hui appelée test de Turing. Un examinateur dialogue par écrit avec un humain et avec une machine, sans les voir ; s'il ne parvient pas à les distinguer, on conviendra que la machine se comporte intelligemment. Le test déplace le débat : il ne demande plus ce qu'est la pensée, mais ce qu'une machine sait faire. En 1951, Marvin Minsky construit le SNARC, une machine à réseau de neurones. En 1955, Allen Newell et Herbert Simon écrivent le Logic Theorist, souvent présenté comme le premier véritable programme d'intelligence artificielle : il démontre des théorèmes de logique en explorant des enchaînements de règles. L'acte de naissance officiel de la discipline est l'atelier d'été organisé en 1956 au Dartmouth College, aux États-Unis, qui réunit notamment John McCarthy, Marvin Minsky et Claude Shannon. C'est là que l'expression « intelligence artificielle » s'impose pour désigner ce nouveau champ de recherche. Suit une période d'enthousiasme : on écrit ELIZA, programme de dialogue qui imite un psychothérapeute, et SHRDLU, qui manipule des objets dans un monde simplifié en comprenant des phrases ordinaires. Les chercheurs annoncent alors, avec un optimisme qui se révélera excessif, des machines égalant l'homme en une vingtaine d'années seulement.",
+   "visuel": {
+    "type": "image",
+    "image": "st-turing",
+    "legende": "Alan Turing, qui remplace en 1950 la question « les machines peuvent-elles penser ? » par une épreuve pratique, le test de Turing.",
+    "alt": "Portrait photographique en noir et blanc d'un homme jeune en veste de tweed et cravate, cheveux bruns coiffés en arrière."
+   }
+  },
+  {
+   "titre": "Systèmes experts et hivers de l'intelligence artificielle",
+   "texte": "Les promesses ne sont pas tenues. Les programmes réussissent sur des problèmes de laboratoire mais échouent dès que le monde réel intervient, avec son bruit, ses exceptions et son immense quantité de connaissances implicites. En Grande-Bretagne, le rapport Lighthill de 1973 dresse un bilan sévère, et les financements sont brutalement coupés des deux côtés de l'Atlantique : c'est le premier hiver de l'intelligence artificielle, qui s'étend environ de 1974 à 1980. Une branche avait déjà été mise de côté, le connexionnisme, c'est-à-dire l'étude des réseaux de neurones. Frank Rosenblatt avait présenté en 1957 le perceptron, dispositif capable d'apprendre seul à classer des formes en ajustant des poids numériques ; mais la critique publiée par Minsky sur les limites du perceptron simple détourna les chercheurs de cette voie pendant une dizaine d'années. Les années 1980 apportent une renaissance commerciale avec les systèmes experts. Le principe est modeste : au lieu de viser une intelligence générale, on enferme dans un programme les règles d'un spécialiste d'un domaine étroit, sous la forme de très nombreux énoncés du type si telle condition est remplie, alors telle conclusion s'impose. Des entreprises en achètent pour le diagnostic ou la configuration de machines. Mais ces bases de règles se révèlent coûteuses à écrire, difficiles à maintenir et fragiles hors de leur domaine. Un second hiver survient vers 1987-1993. La discipline se recentre ensuite sur des objectifs mesurables plutôt que sur l'imitation complète de l'esprit humain.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Enthousiasmes et hivers de l'intelligence artificielle",
+    "evenements": [
+     {
+      "date": "1956",
+      "label": "Dartmouth",
+      "texte": "L'atelier d'été fonde la discipline et impose l'expression « intelligence artificielle »."
+     },
+     {
+      "date": "1957",
+      "label": "Le perceptron",
+      "texte": "Rosenblatt présente une machine qui apprend seule à classer des formes ; la critique de Minsky détournera les chercheurs de cette voie pendant une dizaine d'années."
+     },
+     {
+      "date": "1973",
+      "label": "Rapport Lighthill",
+      "texte": "Bilan sévère en Grande-Bretagne ; les financements sont coupés des deux côtés de l'Atlantique."
+     },
+     {
+      "date": "1974-1980",
+      "label": "Premier hiver",
+      "texte": "Les programmes réussissent au laboratoire mais échouent dès que le monde réel intervient."
+     },
+     {
+      "date": "années 1980",
+      "label": "Systèmes experts",
+      "texte": "Renaissance commerciale : on enferme les règles d'un spécialiste d'un domaine étroit dans un programme."
+     },
+     {
+      "date": "1987-1993",
+      "label": "Second hiver",
+      "texte": "Les bases de règles se révèlent coûteuses à écrire, difficiles à maintenir et fragiles hors de leur domaine."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Apprendre à partir des données : de la rétropropagation à l'apprentissage profond",
+   "texte": "À partir des années 1990, l'intelligence artificielle change de méthode : plutôt que d'écrire les règles à la main, on laisse la machine les extraire de données. C'est l'apprentissage automatique. Dans sa forme la plus répandue, l'apprentissage supervisé, on présente au programme un très grand nombre d'exemples déjà étiquetés, par exemple des images accompagnées du nom de ce qu'elles montrent, et le programme ajuste peu à peu ses paramètres internes pour réduire ses erreurs. L'outil qui rend cet ajustement possible dans un réseau de neurones à plusieurs couches est la rétropropagation du gradient, popularisée en 1986 par David Rumelhart, Geoffrey Hinton et Ronald Williams : l'erreur constatée en sortie est renvoyée en arrière à travers le réseau pour corriger chaque connexion. Empiler les couches donne l'apprentissage profond ; les premières couches repèrent des motifs simples comme des contours, les suivantes des formes, les dernières des objets entiers. Yann LeCun met au point dans les années 1990 les réseaux convolutifs, adaptés aux images, dont le réseau LeNet-5 servit à lire automatiquement des chèques bancaires aux États-Unis. Deux conditions manquaient encore : d'énormes collections d'exemples et une puissance de calcul suffisante. Elles sont réunies au début des années 2010, notamment grâce aux processeurs graphiques, capables d'effectuer en parallèle des millions d'opérations. En 2012, le réseau AlexNet, dû à Alex Krizhevsky, Ilya Sutskever et Geoffrey Hinton, remporte nettement le concours de reconnaissance d'images ImageNet et impose durablement cette approche.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "Comment un réseau profond apprend",
+    "etapes": [
+     {
+      "label": "Des exemples étiquetés",
+      "texte": "On présente un très grand nombre d'exemples déjà annotés, par exemple des images accompagnées du nom de ce qu'elles montrent."
+     },
+     {
+      "label": "Une prédiction, une erreur",
+      "texte": "Le réseau propose une réponse ; on mesure l'écart avec la bonne."
+     },
+     {
+      "label": "Rétropropagation du gradient",
+      "texte": "L'erreur constatée en sortie est renvoyée en arrière à travers le réseau pour corriger chaque connexion. Popularisée en 1986."
+     },
+     {
+      "label": "Empiler les couches",
+      "texte": "Les premières couches repèrent des contours, les suivantes des formes, les dernières des objets entiers."
+     },
+     {
+      "label": "Vers 2010, les conditions manquantes",
+      "texte": "D'énormes collections d'exemples et les processeurs graphiques rendent enfin la méthode praticable ; AlexNet gagne ImageNet en 2012."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "La robotique : du mot de Capek aux machines autonomes",
+   "texte": "Le mot robot n'a pas été forgé par un ingénieur mais par un écrivain. Il apparaît en 1920 dans la pièce R.U.R. du dramaturge tchèque Karel Capek, qui reconnut d'ailleurs en devoir l'idée à son frère Josef ; il vient du tchèque robota, qui désigne le travail forcé, la corvée. Le mot robotique est attribué à l'écrivain Isaac Asimov, qui l'emploie dans ses récits du début des années 1940 et énonce ses fameuses trois lois de la robotique, règles imaginaires censées protéger les humains de leurs machines. La technique, elle, progresse autrement. Les tortues cybernétiques de William Grey Walter, vers 1950, sont de petits engins mobiles qui réagissent seuls à la lumière et aux obstacles. En 1961, l'Unimate, conçu par George Devol et Joseph Engelberger, est installé sur une chaîne de montage de General Motors : c'est le premier robot industriel, un bras articulé qui manipule des pièces brûlantes ou dangereuses. Un robot combine trois éléments : des capteurs qui l'informent du monde, un calculateur qui décide, et des actionneurs, moteurs électriques ou vérins, qui agissent. Il fonctionne par cycles de perception, traitement, puis action. La robotique se diversifie ensuite : robots chirurgicaux, engins sous-marins, sondes spatiales, aspirateurs et tondeuses domestiques, machines militaires. Son grand défi demeure l'autonomie en milieu imprévisible, là où mécanique et intelligence artificielle doivent se rejoindre pour que la machine s'adapte à ce qui n'avait pas été prévu.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "Le cycle d'un robot",
+    "etapes": [
+     {
+      "label": "Percevoir",
+      "texte": "Des capteurs informent la machine de l'état du monde."
+     },
+     {
+      "label": "Traiter",
+      "texte": "Un calculateur décide de ce qu'il faut faire."
+     },
+     {
+      "label": "Agir",
+      "texte": "Des actionneurs, moteurs électriques ou vérins, exécutent le mouvement ; puis le cycle recommence."
+     }
+    ],
+    "note": "Le mot robot vient de la pièce R.U.R. de Karel Capek (1920) et du tchèque robota, le travail forcé ; le premier robot industriel, l'Unimate, est installé chez General Motors en 1961."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel événement de 1956 est considéré comme l'acte de naissance de l'intelligence artificielle comme discipline ?",
+   "choix": [
+    "La publication de l'article d'Alan Turing sur le test de Turing",
+    "La mise en service du premier robot industriel Unimate",
+    "L'atelier d'été du Dartmouth College",
+    "La victoire d'un ordinateur au jeu d'échecs"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "En 1956, un atelier d'été réuni au Dartmouth College, aux États-Unis, rassemble des chercheurs comme John McCarthy, Marvin Minsky et Claude Shannon. C'est à cette occasion que l'expression « intelligence artificielle » s'impose pour nommer le nouveau domaine. L'article d'Alan Turing, lui, date de 1950 et pose la question de la pensée des machines, sans créer de discipline. L'Unimate n'entre en service qu'en 1961, et il relève de la robotique industrielle. La conférence de Dartmouth marque donc le moment où une communauté scientifique se reconnaît autour d'un même programme de recherche."
+  },
+  {
+   "q": "D'où vient le mot « robot » ?",
+   "choix": [
+    "Du nom de l'ingénieur américain qui construisit l'Unimate",
+    "Du tchèque robota, la corvée, employé dans la pièce R.U.R. de Karel Capek en 1920",
+    "Du latin robur, qui signifie la force et la solidité",
+    "Du grec ancien, où il désignait les automates des temples"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Le mot apparaît en 1920 dans R.U.R., pièce du dramaturge tchèque Karel Capek, qui déclara en devoir l'idée à son frère Josef. Il est formé sur le tchèque robota, qui signifie le travail forcé ou la corvée, ce qui en dit long sur le rôle prêté à ces créatures dans la pièce. Le terme est donc littéraire avant d'être technique. C'est l'écrivain Isaac Asimov qui, dans les années 1940, popularisera le dérivé « robotique » et énoncera ses trois lois. Les ingénieurs n'ont adopté ce vocabulaire qu'ensuite, pour désigner de vraies machines."
+  },
+  {
+   "q": "En quoi consiste le test de Turing, proposé en 1950 ?",
+   "choix": [
+    "Un examinateur dialogue par écrit avec un humain et une machine et tente de les distinguer",
+    "On mesure le nombre d'opérations qu'une machine effectue par seconde",
+    "On demande à une machine de démontrer un théorème de géométrie",
+    "On vérifie qu'un robot peut se déplacer sans heurter d'obstacle"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Alan Turing trouvait la question « les machines peuvent-elles penser ? » trop floue pour être tranchée. Il propose donc de la remplacer par une épreuve concrète : un examinateur échange par écrit avec deux interlocuteurs cachés, l'un humain, l'autre machine, et doit deviner lequel est lequel. Si la machine parvient à ne pas être démasquée, on acceptera de dire qu'elle se comporte intelligemment. Le test ne prétend pas définir la conscience ni l'intériorité : il porte uniquement sur le comportement observable. C'est ce déplacement, du « qu'est-ce que penser » vers le « que sait faire la machine », qui a rendu la question scientifiquement traitable."
+  },
+  {
+   "q": "À quoi sert la rétropropagation du gradient dans un réseau de neurones ?",
+   "choix": [
+    "À augmenter la vitesse du processeur pendant le calcul",
+    "À traduire automatiquement le programme dans un autre langage",
+    "À stocker les images d'apprentissage dans la mémoire de la machine",
+    "À renvoyer l'erreur constatée en sortie vers l'arrière pour corriger chaque connexion"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Un réseau de neurones apprend en modifiant les poids de ses connexions afin de se tromper de moins en moins. Encore faut-il savoir dans quel sens modifier chaque poids, ce qui est difficile lorsque les couches sont nombreuses. La rétropropagation du gradient résout ce problème : on compare la sortie obtenue à la réponse attendue, puis on propage cette erreur en sens inverse, de la dernière couche vers la première, en calculant la part de responsabilité de chaque connexion. Popularisé en 1986 par David Rumelhart, Geoffrey Hinton et Ronald Williams, cet algorithme reste aujourd'hui au cœur de l'entraînement des réseaux profonds."
+  },
+  {
+   "q": "Que désigne l'expression « hiver de l'intelligence artificielle » ?",
+   "choix": [
+    "Une panne généralisée des ordinateurs due au froid",
+    "Une période de désillusion durant laquelle les financements de la recherche furent coupés",
+    "La saison pendant laquelle se tenaient les conférences du domaine",
+    "Le nom d'un système expert commercialisé dans les années 1980"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Après l'enthousiasme des débuts, les résultats sont restés très en deçà des promesses : les programmes brillaient sur des problèmes de laboratoire mais s'effondraient face à la complexité du monde réel. Le rapport Lighthill, publié en 1973 en Grande-Bretagne, dresse un constat sévère, et les crédits publics sont fortement réduits : c'est le premier hiver, de 1974 à 1980 environ. Un second hiver suit vers 1987-1993, après l'essoufflement du marché des systèmes experts. Ces épisodes ont conduit les chercheurs à se fixer des objectifs plus limités et mesurables. Ils rappellent aussi combien un domaine scientifique dépend de la confiance de ceux qui le financent."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Histoire de l'intelligence artificielle",
+   "url": "https://fr.wikipedia.org/wiki/Histoire_de_l%27intelligence_artificielle"
+  },
+  {
+   "titre": "Robotique",
+   "url": "https://fr.wikipedia.org/wiki/Robotique"
+  },
+  {
+   "titre": "Robot",
+   "url": "https://fr.wikipedia.org/wiki/Robot"
+  },
+  {
+   "titre": "Apprentissage profond",
+   "url": "https://fr.wikipedia.org/wiki/Apprentissage_profond"
+  }
+ ]
+}

@@ -1,0 +1,203 @@
+{
+ "titre": "La mythologie mésopotamienne et l'épopée de Gilgamesh",
+ "sections": [
+  {
+   "titre": "Un savoir gravé dans l'argile",
+   "texte": "La Mésopotamie, région située entre le Tigre et l'Euphrate, a vu se succéder pendant plus de deux millénaires les civilisations de Sumer, d'Akkad, de Babylone et d'Assyrie. Sa mythologie nous est connue par une littérature écrite en caractères cunéiformes sur des tablettes d'argile, d'abord en langue sumérienne, puis en akkadien, langue sémitique qui devient le véhicule des grandes compositions. Cette documentation présente un avantage considérable sur celle des Celtes : les textes sont des originaux, copiés et recopiés dans les écoles de scribes, et non des résumés rédigés par des étrangers. Elle a cependant ses limites, car de nombreuses tablettes sont brisées, et les récits parviennent souvent sous forme de versions multiples, échelonnées sur des siècles, qui ne racontent pas exactement la même histoire. Une grande partie de ce corpus provient de la bibliothèque du roi assyrien Assurbanipal, à Ninive, au VIIe siècle avant notre ère, dont les fragments sont aujourd'hui conservés au British Museum. Les scribes mésopotamiens ne composaient pas une théologie unifiée : ils juxtaposaient des traditions locales, chaque grande ville honorant sa divinité tutélaire. Selon la conception commune à ces textes, l'univers se compose du Ciel, de la Terre, de l'Abîme des eaux souterraines et du monde des Enfers ; les humains y ont été créés pour travailler à la place des dieux et les nourrir par le culte, recevant en échange les biens de la civilisation."
+  },
+  {
+   "titre": "Les grands dieux de Mésopotamie",
+   "texte": "Le panthéon mésopotamien s'organise autour d'une triade supérieure. An, ou Anu en akkadien, est le dieu du ciel, ancêtre vénérable dont les mythes racontent peu d'actions concrètes. Enlil, longtemps considéré comme le roi des dieux, exerce la souveraineté effective sur les domaines terrestres et fixe les destins des hommes. Enki, appelé Éa par les Akkadiens, est le dieu de la sagesse et des eaux profondes : il détient les savoirs et les techniques et se montre à plusieurs reprises le protecteur des humains, y compris contre les décisions de ses pairs. Autour d'eux gravitent de nombreuses figures. Inanna, devenue Ishtar en akkadien, associe l'amour et le conflit, et un célèbre récit raconte sa descente aux Enfers, où elle doit abandonner ses parures à chacune des portes avant d'être retenue par la souveraine des morts. Ninurta est un dieu guerrier et organisateur, Nergal une divinité du monde souterrain, Nanna ou Sîn le dieu lune et Utu ou Shamash le dieu soleil et de la justice. Marduk, dieu poliade de Babylone, connaît une ascension spectaculaire : d'abord divinité locale, il devient le créateur et le roi de l'univers lorsque sa ville domine la région. Cette promotion illustre un trait essentiel de cette religion, où l'importance politique d'une cité entraîne celle de son dieu.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les grands dieux de Mésopotamie et leurs deux noms",
+    "colonnes": [
+     "Divinité",
+     "Domaine"
+    ],
+    "lignes": [
+     [
+      "An, ou Anu en akkadien",
+      "Dieu du ciel, ancêtre vénérable dont les mythes racontent peu d'actions concrètes"
+     ],
+     [
+      "Enlil",
+      "Longtemps considéré comme le roi des dieux : il exerce la souveraineté effective sur les domaines terrestres et fixe les destins des hommes"
+     ],
+     [
+      "Enki, appelé Éa par les Akkadiens",
+      "Dieu de la sagesse et des eaux profondes ; il détient les savoirs et les techniques et se montre à plusieurs reprises le protecteur des humains"
+     ],
+     [
+      "Inanna, devenue Ishtar en akkadien",
+      "Associe l'amour et le conflit ; un récit célèbre raconte sa descente aux Enfers"
+     ],
+     [
+      "Nanna ou Sîn, Utu ou Shamash",
+      "Le dieu lune et le dieu soleil, ce dernier également dieu de la justice"
+     ],
+     [
+      "Marduk",
+      "Dieu poliade de Babylone : d'abord divinité locale, il devient le créateur et le roi de l'univers lorsque sa ville domine la région"
+     ]
+    ],
+    "note": "Cette promotion illustre un trait essentiel de cette religion, où l'importance politique d'une cité entraîne celle de son dieu. Ninurta est un dieu guerrier et organisateur, Nergal une divinité du monde souterrain."
+   }
+  },
+  {
+   "titre": "L'Énuma elish et la naissance du monde",
+   "texte": "Le grand poème babylonien de la création est connu sous son incipit, Énuma elish, que l'on traduit par Lorsque en haut. Écrit en akkadien standard sur sept tablettes, il compte environ mille cent vers. Les spécialistes le datent en général de la fin du deuxième millénaire avant notre ère, sans doute sous le règne de Nabuchodonosor Ier, vers 1125 à 1104 avant notre ère, ou peu après. Le récit commence avant toute organisation du monde, quand n'existent que deux principes aquatiques primordiaux, Apsû, l'eau douce, et Tiamat, l'eau salée, dont l'union engendre des générations successives de dieux. L'agitation des jeunes divinités trouble leurs ancêtres et déclenche le conflit. Après plusieurs échecs des autres dieux, Marduk se présente comme le seul capable d'affronter Tiamat et l'armée de créatures monstrueuses qu'elle a enfantée. Il obtient en échange la royauté sur l'assemblée divine, remporte le combat, puis façonne le cosmos à partir du corps de sa rivale. Il fixe la place des astres, fonde Babylone comme cité sacrée, crée l'humanité destinée à servir les dieux et reçoit enfin cinquante noms qui énumèrent ses pouvoirs. Ce texte n'était pas seulement littéraire : il était récité lors de la fête babylonienne du nouvel an, l'akitu, où il célébrait la royauté de Marduk et légitimait par contrecoup celle du roi terrestre.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "Le récit de l'Énuma elish",
+    "etapes": [
+     {
+      "label": "Avant toute organisation",
+      "texte": "N'existent que deux principes aquatiques primordiaux, Apsû, l'eau douce, et Tiamat, l'eau salée, dont l'union engendre des générations successives de dieux."
+     },
+     {
+      "label": "Le conflit",
+      "texte": "L'agitation des jeunes divinités trouble leurs ancêtres et déclenche la guerre."
+     },
+     {
+      "label": "Marduk se présente",
+      "texte": "Après plusieurs échecs des autres dieux, il se dit seul capable d'affronter Tiamat et l'armée de créatures monstrueuses qu'elle a enfantée ; il obtient en échange la royauté sur l'assemblée divine."
+     },
+     {
+      "label": "Le combat",
+      "texte": "Marduk remporte la victoire sur Tiamat."
+     },
+     {
+      "label": "La formation du cosmos",
+      "texte": "Il façonne le monde à partir du corps de sa rivale, fixe la place des astres, fonde Babylone comme cité sacrée, crée l'humanité destinée à servir les dieux et reçoit cinquante noms qui énumèrent ses pouvoirs."
+     },
+     {
+      "label": "La récitation rituelle",
+      "texte": "Le poème était récité lors de la fête babylonienne du nouvel an, l'akitu, où il célébrait la royauté de Marduk et légitimait par contrecoup celle du roi terrestre."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Gilgamesh, d'Uruk à la forêt des Cèdres",
+   "texte": "L'Épopée de Gilgamesh s'est construite par étapes. Des récits sumériens indépendants, remontant au troisième millénaire avant notre ère, racontaient déjà les exploits d'un roi d'Uruk nommé Gilgamesh. Une première mise en forme akkadienne cohérente apparaît à l'époque paléo-babylonienne, entre 1800 et 1600 avant notre ère, puis des versions intermédiaires circulent au deuxième millénaire jusqu'en Syrie, en Anatolie et en Palestine. La version dite standard, mise par écrit vers 1200 avant notre ère, est attribuée par la tradition au scribe Sîn-leqi-unninni ; elle adopte un ton plus méditatif et s'ouvre sur la formule Celui qui a vu l'Abîme. Elle se déploie sur douze tablettes. Au début du récit, Gilgamesh règne sur Uruk en tyran. Pour le contenir, les dieux créent Enkidu, un homme sauvage vivant parmi les bêtes, que la courtisane Shamhat conduit à la vie humaine. Enkidu gagne Uruk, affronte le roi, et de ce combat naît une amitié inséparable. Les deux compagnons partent alors pour la forêt des Cèdres, où ils tuent son gardien Humbaba. De retour, Gilgamesh repousse les avances de la déesse Ishtar, qui obtient en représailles l'envoi du Taureau céleste contre la ville. Les héros l'abattent, ce qui constitue un affront direct aux dieux. L'assemblée divine décide alors de punir cette démesure : Enkidu tombe malade et meurt.",
+   "visuel": {
+    "type": "frise",
+    "titre": "La formation de l'Épopée de Gilgamesh",
+    "evenements": [
+     {
+      "date": "IIIe millénaire av. n. è.",
+      "label": "Des récits sumériens indépendants",
+      "texte": "Ils racontent déjà les exploits d'un roi d'Uruk nommé Gilgamesh."
+     },
+     {
+      "date": "1800-1600 av. n. è.",
+      "label": "Première mise en forme akkadienne",
+      "texte": "Une composition cohérente apparaît à l'époque paléo-babylonienne."
+     },
+     {
+      "date": "IIe millénaire av. n. è.",
+      "label": "Des versions intermédiaires",
+      "texte": "Elles circulent jusqu'en Syrie, en Anatolie et en Palestine."
+     },
+     {
+      "date": "vers 1200 av. n. è.",
+      "label": "La version dite standard",
+      "texte": "Attribuée par la tradition au scribe Sîn-leqi-unninni, elle se déploie sur douze tablettes et s'ouvre sur la formule Celui qui a vu l'Abîme."
+     },
+     {
+      "date": "VIIe s. av. n. è.",
+      "label": "La bibliothèque d'Assurbanipal",
+      "texte": "Une grande partie du corpus provient de cette bibliothèque de Ninive, dont les fragments sont aujourd'hui conservés au British Museum."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "La quête de l'immortalité et la redécouverte moderne",
+   "texte": "La mort d'Enkidu bouleverse Gilgamesh, qui découvre à travers elle sa propre condition mortelle. Il quitte Uruk et entreprend une errance au bout du monde pour rejoindre Uta-napishti, seul homme à qui les dieux aient accordé la vie sans fin. Celui-ci lui raconte comment il a survécu au déluge envoyé jadis pour détruire l'humanité, épisode qui occupe la onzième tablette et que l'on retrouve aussi, sous une forme voisine, dans le récit d'Atrahasis consacré à la création des hommes et à leur destruction par les eaux. Uta-napishti enseigne au héros que l'immortalité ne peut être obtenue et lui indique cependant une plante capable de rendre la jeunesse. Sur le chemin du retour, un serpent la dérobe. Gilgamesh rentre à Uruk les mains vides, mais riche d'une sagesse nouvelle sur les limites de la condition humaine, ce qui fait de ce texte une œuvre de réflexion autant qu'un récit d'aventures. L'épopée avait été totalement oubliée jusqu'au XIXe siècle. L'assyriologue britannique George Smith identifie le poème à partir des tablettes de Ninive, et la présentation en 1872 de la tablette du déluge provoque une immense sensation en raison des ressemblances avec le récit biblique. Les traductions complètes se multiplient à partir des années 1890, et de nouveaux fragments continuent aujourd'hui de compléter le texte.",
+   "visuel": {
+    "type": "image",
+    "image": "myt-tablette-deluge",
+    "legende": "La onzième tablette de l'Épopée de Gilgamesh, dite tablette du déluge, provenant des fragments de Ninive. Sa présentation par l'assyriologue George Smith en 1872 provoqua une immense sensation en raison des ressemblances avec le récit biblique.",
+    "alt": "Tablette d'argile brisée sur ses bords, couverte de fines lignes d'écriture cunéiforme réparties en deux colonnes."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Sur quel support les mythes mésopotamiens nous sont-ils parvenus ?",
+   "choix": [
+    "Sur des rouleaux de papyrus peints",
+    "Sur des tablettes d'argile gravées en écriture cunéiforme",
+    "Sur des stèles rédigées en hiéroglyphes",
+    "Sur des parchemins copiés par des moines médiévaux"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Les scribes de Mésopotamie écrivaient en imprimant un calame à section triangulaire dans de l'argile encore humide, ce qui donne des signes en forme de coins, d'où le nom d'écriture cunéiforme. Ces tablettes, une fois séchées ou cuites, se conservent très bien, ce qui explique la richesse du corpus retrouvé. Une grande partie provient de la bibliothèque du roi assyrien Assurbanipal à Ninive, au VIIe siècle avant notre ère. Le papyrus et les hiéroglyphes appartiennent à l'Égypte, et le parchemin médiéval concerne notamment les traditions celtiques insulaires."
+  },
+  {
+   "q": "Dans l'Énuma elish, qui Marduk affronte-t-il pour obtenir la royauté sur les dieux ?",
+   "choix": [
+    "Le géant Humbaba",
+    "Le roi Gilgamesh",
+    "Le dieu Enlil",
+    "La déesse primordiale Tiamat"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "L'Énuma elish s'ouvre sur l'existence de deux principes aquatiques primordiaux, Apsû l'eau douce et Tiamat l'eau salée. Quand le conflit éclate entre générations divines, Marduk se présente comme le seul capable de vaincre Tiamat et ses créatures monstrueuses, à condition de recevoir la royauté. Après sa victoire, il découpe le corps de la vaincue et en tire les parties du monde, fonde Babylone et crée les humains. Humbaba est le gardien de la forêt des Cèdres dans l'épopée de Gilgamesh, un autre texte, et Enlil est un dieu souverain plus ancien, non l'adversaire de Marduk dans ce poème."
+  },
+  {
+   "q": "Comment naît l'amitié entre Gilgamesh et Enkidu ?",
+   "choix": [
+    "Les dieux créent Enkidu pour contenir le roi ; les deux hommes s'affrontent puis deviennent inséparables",
+    "Enkidu est le frère jumeau de Gilgamesh, élevé loin d'Uruk",
+    "Gilgamesh libère Enkidu prisonnier des Enfers",
+    "Enkidu est un scribe envoyé par le dieu Éa pour instruire le roi"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Au début de l'épopée, Gilgamesh règne sur Uruk de manière tyrannique et ses sujets se plaignent. Les dieux façonnent alors Enkidu, un homme sauvage qui vit parmi les animaux, pour lui opposer un égal. La courtisane Shamhat le fait passer du monde animal au monde humain, puis il gagne la ville et défie le roi. Le combat ne se conclut par la mort d'aucun des deux : il révèle leur égalité et fonde une amitié qui devient le moteur de tout le récit. C'est justement la mort d'Enkidu qui déclenchera la quête d'immortalité de Gilgamesh."
+  },
+  {
+   "q": "Que rapporte Gilgamesh de son voyage chez Uta-napishti ?",
+   "choix": [
+    "L'immortalité, accordée par les dieux en récompense",
+    "Le secret de la fabrication du bronze",
+    "Rien de matériel, car le serpent lui vole la plante de jouvence, mais une sagesse sur sa condition mortelle",
+    "Le trône de Babylone et cinquante noms divins"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Uta-napishti, survivant du déluge, explique à Gilgamesh que la vie sans fin lui a été accordée dans des circonstances exceptionnelles et qu'elle reste hors d'atteinte des autres humains. Il lui indique toutefois une plante capable de restituer la jeunesse. Sur le chemin du retour, un serpent s'en empare, ce qui explique dans le récit que l'animal change de peau et paraît rajeunir. Le héros rentre donc à Uruk sans objet merveilleux, mais transformé par l'acceptation de sa condition. Les cinquante noms appartiennent à Marduk dans l'Énuma elish, texte différent."
+  },
+  {
+   "q": "Pourquoi la publication de la onzième tablette de l'épopée, en 1872, a-t-elle fait sensation en Europe ?",
+   "choix": [
+    "Parce qu'elle contenait la première carte connue du monde",
+    "Parce qu'elle prouvait que l'écriture avait été inventée en Grèce",
+    "Parce qu'elle donnait la liste complète des rois de Babylone",
+    "Parce qu'elle racontait un déluge présentant de fortes ressemblances avec le récit biblique"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "L'assyriologue britannique George Smith travaillait sur les fragments rapportés de Ninive lorsqu'il reconnut un récit de déluge très proche de celui de la Genèse : un homme averti, un bateau, la destruction de l'humanité, des oiseaux lâchés pour repérer la terre. Sa présentation publique en 1872 eut un retentissement considérable, car elle montrait qu'un tel récit circulait en Mésopotamie bien avant la mise par écrit de la Bible hébraïque. Les spécialistes ont depuis étudié les liens entre ces traditions, notamment avec le poème d'Atrahasis, sans que l'on puisse réduire l'un à une simple copie de l'autre."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Épopée de Gilgamesh",
+   "url": "https://fr.wikipedia.org/wiki/Épopée_de_Gilgamesh"
+  },
+  {
+   "titre": "Mythologie mésopotamienne",
+   "url": "https://fr.wikipedia.org/wiki/Mythologie_mésopotamienne"
+  },
+  {
+   "titre": "Enuma Elish",
+   "url": "https://fr.wikipedia.org/wiki/Enuma_Elish"
+  }
+ ]
+}

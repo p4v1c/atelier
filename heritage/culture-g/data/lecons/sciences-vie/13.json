@@ -1,0 +1,203 @@
+{
+ "titre": "Les dinosaures et les grandes extinctions",
+ "sections": [
+  {
+   "titre": "Qui sont les dinosaures ?",
+   "texte": "Les dinosaures forment un groupe extrêmement diversifié de sauropsides, c'est-à-dire de vertébrés apparentés aux reptiles actuels. Les scientifiques ne les définissent plus par une liste de caractères mais par leur parenté : le clade des dinosaures rassemble le plus proche ancêtre commun de Triceratops horridus et du moineau domestique, Passer domesticus, ainsi que tous ses descendants. Cette définition, surprenante au premier abord, dit déjà l'essentiel : un moineau est un dinosaure. Le groupe se divise traditionnellement en deux ensembles distingués par la structure du bassin. Les ornithischiens, dont le nom signifie bassin d'oiseau, étaient exclusivement herbivores ; on y range le Triceratops ou le Stégosaure. Les saurischiens, ou bassin de lézard, réunissent d'une part les théropodes, souvent carnivores mais parfois herbivores, comme le célèbre Tyrannosaurus, et d'autre part les sauropodomorphes, ces géants quadrupèdes au très long cou. Les dinosaures apparaissent il y a environ 240 millions d'années, au Trias, et dominent les écosystèmes continentaux pendant plus de 170 millions d'années, une durée qui donne le vertige quand on la compare aux quelques centaines de milliers d'années de l'humanité. Une idée reçue mérite d'être corrigée : contrairement à l'image véhiculée par les films, la plupart des espèces de dinosaures avaient la taille d'un être humain ou étaient plus petites."
+  },
+  {
+   "titre": "Les oiseaux, dinosaures d'aujourd'hui",
+   "texte": "La découverte la plus bouleversante de la paléontologie récente tient en une phrase : les dinosaures n'ont pas tous disparu. Les oiseaux sont en effet les descendants directs des dinosaures, et plus précisément de dinosaures théropodes appartenant au clade des maniraptoriens. Autrement dit, la mésange du jardin et le Tyrannosaurus appartiennent à la même grande famille, la première étant simplement une branche survivante de la seconde. C'est pourquoi les scientifiques parlent aujourd'hui de dinosaures non aviens pour désigner ceux qui se sont éteints, réservant le terme d'aviens aux oiseaux. Cette parenté a longtemps été soupçonnée, notamment grâce à l'Archaeopteryx, fossile du Jurassique qui associe des plumes à des dents et à une longue queue osseuse, puis confirmée par des dizaines de découvertes de dinosaures à plumes, surtout en Chine. On sait désormais que les plumes sont apparues bien avant le vol : elles ont probablement d'abord servi à l'isolation thermique ou à la parade nuptiale, avant d'être détournées pour planer puis voler. Ce phénomène, où une structure change de fonction au cours de l'évolution, est banal dans le vivant. La conclusion est vertigineuse pour un manuel : il existe aujourd'hui plusieurs milliers d'espèces de dinosaures vivantes, et vous en croisez chaque jour.",
+   "visuel": {
+    "type": "image",
+    "image": "svt-archaeopteryx",
+    "legende": "Archaeopteryx, fossile du Jurassique conservé à Berlin : des plumes, mais aussi des dents et une longue queue osseuse.",
+    "alt": "Fossile d'Archaeopteryx dans une dalle de calcaire clair : le squelette est étalé, cou renversé en arrière, et l'empreinte des plumes des ailes et de la queue est nettement visible autour des os."
+   }
+  },
+  {
+   "titre": "Le jour où la Terre a basculé",
+   "texte": "Il y a 66 millions d'années se produit une extinction massive et à grande échelle d'espèces animales et végétales, appelée extinction Crétacé-Paléogène, ou extinction K-Pg. L'hypothèse aujourd'hui dominante attribue l'événement déclencheur à la chute d'un astéroïde, celui qui a creusé le cratère de Chicxulub, au Mexique ; en 2010, quarante et un scientifiques se sont accordés sur cette conclusion dans la revue Science. L'indice décisif fut la découverte, dans une mince couche d'argile présente partout dans le monde à ce niveau précis, d'un taux anormalement élevé d'iridium, métal rare sur Terre mais abondant dans les météorites. L'impact a libéré une énergie colossale : l'onde sismique engendrée correspond à un tremblement de terre de magnitude 11. Les poussières et les aérosols projetés dans l'atmosphère ont obscurci le ciel pendant des mois, réduisant la photosynthèse et provoquant l'effondrement des chaînes alimentaires. Une autre cause a probablement aggravé la crise : les trapps du Deccan, gigantesques épanchements volcaniques en Inde, auraient rejeté assez de dioxyde de carbone et de soufre pour réchauffer brutalement la Terre et acidifier ses océans. Le cratère de Chicxulub, aujourd'hui enfoui sous les sédiments de la péninsule du Yucatan, mesure environ 180 kilomètres de diamètre. Beaucoup de chercheurs pensent donc que l'astéroïde a frappé une biosphère déjà fragilisée, ce qui explique l'ampleur du désastre.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "L'enchaînement de la crise K-Pg",
+    "etapes": [
+     {
+      "label": "Une biosphère déjà fragilisée",
+      "texte": "Les trapps du Deccan, gigantesques épanchements volcaniques en Inde, rejettent assez de dioxyde de carbone et de soufre pour réchauffer la Terre et acidifier les océans."
+     },
+     {
+      "label": "L'impact",
+      "texte": "Il y a 66 millions d'années, un astéroïde creuse le cratère de Chicxulub, au Mexique : environ 180 kilomètres de diamètre."
+     },
+     {
+      "label": "Une énergie colossale",
+      "texte": "L'onde sismique engendrée correspond à un tremblement de terre de magnitude 11."
+     },
+     {
+      "label": "Le ciel s'obscurcit",
+      "texte": "Poussières et aérosols masquent le Soleil pendant des mois."
+     },
+     {
+      "label": "L'effondrement",
+      "texte": "La photosynthèse s'arrête, les chaînes alimentaires s'écroulent de la base au sommet."
+     }
+    ],
+    "note": "L'indice décisif : un taux anormalement élevé d'iridium — métal rare sur Terre, abondant dans les météorites — dans une mince couche d'argile présente partout dans le monde à ce niveau précis."
+   }
+  },
+  {
+   "titre": "Qui a survécu, et pourquoi ?",
+   "texte": "Le bilan de la crise K-Pg est très inégal selon les groupes, et c'est précisément ce qui la rend instructive. Environ 57 % des espèces de plantes disparaissent en Amérique du Nord, et jusqu'à 98 % des coraux coloniaux tropicaux. Tous les dinosaures non aviens s'éteignent, sans exception, de même que de nombreux reptiles marins et volants. Pourtant, la plupart des mammifères survivent, ainsi que les oiseaux, les crocodiles, les tortues et beaucoup d'insectes. Comment expliquer un tri aussi sélectif ? Les survivants partagent souvent des caractéristiques communes : une petite taille, donc des besoins alimentaires modestes, un régime varié incluant graines, insectes ou charognes, la capacité de vivre cachés dans des terriers ou dans l'eau. Dans un monde privé de lumière où les grandes plantes dépérissent, un animal de dix tonnes qui a besoin de centaines de kilos de végétaux par jour est condamné, tandis qu'un petit mammifère fouisseur mangeant des graines peut tenir. Cette crise illustre une leçon générale de l'évolution : ce ne sont pas les espèces les plus puissantes qui traversent les catastrophes, mais les plus adaptables. La disparition des dinosaures a d'ailleurs libéré d'innombrables places vacantes, aussitôt occupées par les mammifères et les oiseaux au cours d'une radiation évolutive spectaculaire.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Le tri de la crise K-Pg",
+    "colonnes": [
+     {
+      "titre": "Les disparus",
+      "points": [
+       "Tous les dinosaures non aviens, sans exception",
+       "De nombreux reptiles marins et volants",
+       "Jusqu'à 98 % des coraux coloniaux tropicaux",
+       "Environ 57 % des espèces de plantes en Amérique du Nord",
+       "Grande taille et besoins alimentaires énormes"
+      ]
+     },
+     {
+      "titre": "Les survivants",
+      "points": [
+       "La plupart des mammifères, les oiseaux",
+       "Crocodiles, tortues, beaucoup d'insectes",
+       "Petite taille, donc besoins modestes",
+       "Régime varié : graines, insectes, charognes",
+       "Capacité de vivre cachés, en terrier ou dans l'eau"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Cinq crises, et peut-être une sixième",
+   "texte": "L'extinction des dinosaures est la plus célèbre, mais elle n'est ni la première ni la plus meurtrière. Les paléontologues reconnaissent cinq grandes extinctions massives. La première, à la limite Ordovicien-Silurien, il y a environ 445 millions d'années, emporte 27 % des familles et 57 % des genres marins, sans doute à cause d'une glaciation. La deuxième, au Dévonien, entre 380 et 360 millions d'années, élimine 19 % des familles et de 35 à 50 % des genres marins, peut-être en raison d'un manque d'oxygène dans les océans. La troisième, à la limite Permien-Trias, il y a environ 252 millions d'années, est de loin la plus massive : environ 81 % des espèces marines et 70 % des espèces terrestres disparaissent, ce qui a valu à cet épisode le surnom de grande mourante. La quatrième, vers 200 millions d'années, entre Trias et Jurassique, fait disparaître 75 % des espèces marines et la plupart des grands amphibiens. La cinquième est la crise K-Pg, il y a 66 millions d'années, qui coûte la vie à environ la moitié des espèces. Beaucoup de scientifiques estiment qu'une sixième extinction est en cours, l'extinction de l'Holocène, déclenchée depuis environ 13 000 ans par les activités humaines : destruction des habitats, changement climatique et surexploitation des ressources.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les cinq grandes extinctions",
+    "colonnes": [
+     "Crise",
+     "Date",
+     "Ampleur",
+     "Cause probable"
+    ],
+    "lignes": [
+     [
+      "Ordovicien-Silurien",
+      "−445 Ma",
+      "27 % des familles, 57 % des genres marins",
+      "Une glaciation"
+     ],
+     [
+      "Dévonien",
+      "−380 à −360 Ma",
+      "19 % des familles, 35 à 50 % des genres marins",
+      "Un manque d'oxygène dans les océans"
+     ],
+     [
+      "Permien-Trias",
+      "−252 Ma",
+      "81 % des espèces marines, 70 % des terrestres",
+      "La grande mourante, de loin la plus massive"
+     ],
+     [
+      "Trias-Jurassique",
+      "−200 Ma",
+      "75 % des espèces marines",
+      "Disparition de la plupart des grands amphibiens"
+     ],
+     [
+      "Crétacé-Paléogène",
+      "−66 Ma",
+      "Environ la moitié des espèces",
+      "Astéroïde de Chicxulub et trapps du Deccan"
+     ]
+    ],
+    "note": "Beaucoup de scientifiques estiment qu'une sixième extinction est en cours depuis environ 13 000 ans, l'extinction de l'Holocène, déclenchée par les activités humaines."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "À quel groupe actuel les dinosaures ont-ils donné naissance ?",
+   "choix": [
+    "Les crocodiles",
+    "Les oiseaux",
+    "Les lézards",
+    "Les mammifères"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Les oiseaux sont les descendants directs des dinosaures, et plus précisément de dinosaures théropodes appartenant au clade des maniraptoriens. C'est pourquoi les scientifiques distinguent les dinosaures non aviens, tous éteints il y a 66 millions d'années, et les dinosaures aviens, c'est-à-dire les oiseaux, bien vivants. Cette parenté a été révélée notamment par l'Archaeopteryx, fossile associant plumes, dents et longue queue osseuse, puis confirmée par de nombreux fossiles de dinosaures à plumes. Les crocodiles et les lézards sont des sauropsides apparentés mais ne descendent pas des dinosaures, et les mammifères en sont très éloignés."
+  },
+  {
+   "q": "Sur quel critère distingue-t-on les ornithischiens des saurischiens ?",
+   "choix": [
+    "La longueur du cou",
+    "La présence de plumes",
+    "La structure du bassin",
+    "Le régime alimentaire seul"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "La division traditionnelle des dinosaures en ornithischiens et saurischiens repose sur la structure du bassin. Ornithischien signifie bassin d'oiseau et saurischien bassin de lézard, ce qui prête à confusion, car ce sont justement certains saurischiens, les théropodes, qui ont donné les oiseaux. Les ornithischiens étaient exclusivement herbivores, comme le Triceratops ou le Stégosaure. Les saurischiens regroupent les théropodes, souvent carnivores comme Tyrannosaurus, et les sauropodomorphes, ces géants quadrupèdes au long cou. Le régime alimentaire accompagne donc en partie la classification, mais ce n'est pas lui qui la définit."
+  },
+  {
+   "q": "Quel élément chimique rare, retrouvé dans une fine couche mondiale, a mis les scientifiques sur la piste d'un impact d'astéroïde ?",
+   "choix": [
+    "L'iridium",
+    "Le carbone",
+    "Le soufre",
+    "Le calcium"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La couche correspondant à la limite Crétacé-Paléogène présente un taux anormalement élevé d'iridium, un métal rare dans la croûte terrestre mais abondant dans les météorites. Sa présence dans des sites répartis sur toute la planète a fourni l'indice décisif en faveur d'un impact cosmique, celui qui a formé le cratère de Chicxulub, au Mexique. En 2010, quarante et un scientifiques ont validé cette conclusion dans la revue Science. Le soufre et le dioxyde de carbone, eux, sont associés à l'autre cause envisagée, le volcanisme des trapps du Deccan, qui aurait réchauffé la Terre et acidifié ses océans."
+  },
+  {
+   "q": "Quelle a été la plus meurtrière des cinq grandes extinctions massives ?",
+   "choix": [
+    "L'extinction Crétacé-Paléogène",
+    "L'extinction Ordovicien-Silurien",
+    "L'extinction du Dévonien",
+    "L'extinction Permien-Trias"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "L'extinction de la limite Permien-Trias, il y a environ 252 millions d'années, est de loin la plus massive : environ 81 % des espèces marines et 70 % des espèces terrestres ont disparu, ce qui lui vaut le surnom de grande mourante. La crise Crétacé-Paléogène, il y a 66 millions d'années, bien plus célèbre parce qu'elle emporte les dinosaures non aviens, a fait disparaître environ la moitié des espèces. L'extinction Ordovicien-Silurien, vers 445 millions d'années, a éliminé 57 % des genres marins, et celle du Dévonien de 35 à 50 %. La notoriété d'une crise ne reflète donc pas son ampleur."
+  },
+  {
+   "q": "Pourquoi de petits mammifères ont-ils survécu à la crise qui a éliminé les grands dinosaures ?",
+   "choix": [
+    "Ils étaient plus intelligents que tous les dinosaures",
+    "Ils vivaient sur un continent épargné",
+    "Leurs faibles besoins et leur régime varié leur ont permis de tenir",
+    "Ils étaient à sang froid"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Les survivants de la crise K-Pg partagent souvent une petite taille, des besoins alimentaires modestes, un régime varié fait de graines, d'insectes ou de charognes, et la possibilité de se réfugier dans des terriers ou dans l'eau. Après l'impact, les poussières ont obscurci le ciel pendant des mois, réduisant la photosynthèse : un herbivore géant consommant des centaines de kilos de végétaux par jour ne pouvait pas survivre à l'effondrement des chaînes alimentaires. La crise fut mondiale, aucun continent n'a été épargné, et les mammifères sont à sang chaud. Ce ne sont donc pas les plus puissants qui passent les catastrophes, mais les plus adaptables."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Dinosauria",
+   "url": "https://fr.wikipedia.org/wiki/Dinosauria"
+  },
+  {
+   "titre": "Extinction Crétacé-Paléogène",
+   "url": "https://fr.wikipedia.org/wiki/Extinction_Cr%C3%A9tac%C3%A9-Pal%C3%A9og%C3%A8ne"
+  },
+  {
+   "titre": "Extinction massive",
+   "url": "https://fr.wikipedia.org/wiki/Extinction_massive"
+  }
+ ]
+}

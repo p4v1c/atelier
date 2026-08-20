@@ -1,0 +1,205 @@
+{
+ "titre": "Renaissance et guerres de Religion (1494-1598)",
+ "sections": [
+  {
+   "titre": "Les guerres d'Italie et la Renaissance française",
+   "texte": "À partir de 1494, les rois de France se lancent dans une longue série d'expéditions au-delà des Alpes pour faire valoir des droits sur Naples, puis sur Milan. Charles VIII, Louis XII et François Ier y engagent des armées considérables. Ces campagnes coûteuses ne donnent guère de résultats durables, mais elles mettent la noblesse française au contact de l'Italie, alors le foyer le plus brillant d'Europe. Les rois y découvrent les palais, les jardins, la peinture et la sculpture, et ramènent des œuvres et des artistes. François Ier attire ainsi Léonard de Vinci, installé au Clos Lucé, près d'Amboise, de 1516 à sa mort en 1519, ainsi que le Primatice et Rosso, qui décorent Fontainebleau. Le nouveau goût transforme l'architecture : les châteaux perdent leur caractère défensif au profit de façades régulières, de galeries et d'escaliers monumentaux, comme à Blois, Azay-le-Rideau ou Chambord, dont le chantier s'ouvre en 1519. Ce renouveau artistique accompagne l'humanisme, mouvement intellectuel qui redécouvre les textes antiques dans leur langue d'origine et place l'homme au centre de la réflexion. La diffusion en est assurée par l'imprimerie, mise au point par Gutenberg vers 1450 et introduite à Paris en 1470. Érasme, Rabelais, plus tard Montaigne avec ses Essais publiés à partir de 1580, en sont les grandes figures, tandis que les poètes de la Pléiade défendent la langue française.",
+   "visuel": {
+    "type": "image",
+    "image": "hf-chambord",
+    "legende": "Chambord, chantier ouvert en 1519 : façades régulières, tourelles et lanternons décoratifs. Le château n'est plus une forteresse mais une architecture de prestige, née du contact avec l'Italie.",
+    "alt": "Photographie du château de Chambord : longue façade claire à trois niveaux, flanquée de grosses tours rondes, surmontée d'une forêt de cheminées, lucarnes et tourelles."
+   }
+  },
+  {
+   "titre": "François Ier et l'État royal",
+   "texte": "François Ier, roi de 1515 à 1547, ouvre son règne par la victoire de Marignan, remportée sur les Suisses les 13 et 14 septembre 1515, qui lui donne le Milanais. Il en tire un prestige considérable et signe l'année suivante une paix durable avec les cantons suisses. En 1516, le concordat de Bologne, négocié avec le pape Léon X, lui accorde le droit de nommer les évêques et les abbés du royaume : le roi contrôle désormais une part essentielle de l'Église de France. Sa politique se heurte cependant à la puissance de Charles Quint, à la fois roi d'Espagne et empereur, élu en 1519 contre lui. La rivalité aboutit au désastre de Pavie, le 24 février 1525, où François Ier est fait prisonnier et emmené à Madrid ; libéré en 1526, il reprend la lutte. À l'intérieur, il renforce l'administration monarchique. L'ordonnance de Villers-Cotterêts, promulguée en 1539, impose l'usage du français à la place du latin dans les actes de justice et rend obligatoire la tenue des registres de baptêmes, à l'origine de l'état civil. Il crée en 1530 un collège de lecteurs royaux, ancêtre du Collège de France, où l'on enseigne le grec et l'hébreu hors de l'université. Il fonde également le port du Havre et encourage les expéditions maritimes, dont celles de Jacques Cartier au Canada.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Le règne de François Ier (1515-1547)",
+    "evenements": [
+     {
+      "date": "13-14 septembre 1515",
+      "label": "Marignan",
+      "texte": "Victoire sur les Suisses, qui donne le Milanais et un prestige considérable."
+     },
+     {
+      "date": "1516",
+      "label": "Concordat de Bologne",
+      "texte": "Le roi obtient du pape le droit de nommer les évêques et les abbés du royaume."
+     },
+     {
+      "date": "1519",
+      "label": "Charles Quint élu empereur",
+      "texte": "Élu contre François Ier : le début d'une longue rivalité."
+     },
+     {
+      "date": "24 février 1525",
+      "label": "Pavie",
+      "texte": "Le roi est fait prisonnier et emmené à Madrid ; il est libéré en 1526."
+     },
+     {
+      "date": "1530",
+      "label": "Collège de lecteurs royaux",
+      "texte": "Ancêtre du Collège de France : on y enseigne le grec et l'hébreu hors de l'université."
+     },
+     {
+      "date": "1539",
+      "label": "Ordonnance de Villers-Cotterêts",
+      "texte": "Le français remplace le latin dans les actes de justice ; les registres de baptêmes deviennent obligatoires, à l'origine de l'état civil."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "La Réforme protestante en France",
+   "texte": "En 1517, le moine allemand Martin Luther diffuse ses thèses contre le commerce des indulgences et engage une contestation qui aboutit à une rupture avec Rome. Ses idées, appuyées sur la seule autorité de la Bible et sur le salut par la foi, pénètrent rapidement en France par les milieux humanistes et les imprimeurs, notamment autour de l'évêque de Meaux et de Marguerite de Navarre, sœur du roi. François Ier hésite d'abord, puis se durcit après l'affaire des Placards d'octobre 1534, quand des affiches violentes contre la messe sont apposées jusque sur la porte de sa chambre : les arrestations et les bûchers se multiplient. La Réforme française prend ensuite son visage propre avec Jean Calvin, juriste picard réfugié à Genève, qui publie en 1536 l'Institution de la religion chrétienne, traduite par lui en français en 1541. De Genève, il forme et envoie des pasteurs qui organisent des Églises clandestines ; un premier synode national se tient à Paris en 1559. Les protestants français, appelés huguenots, recrutent surtout dans les villes, chez les artisans, les marchands et les juristes, mais aussi dans une partie de la noblesse. Sous Henri II, la répression s'intensifie avec l'édit de Châteaubriant de 1551 et la chambre ardente du parlement de Paris, sans parvenir à enrayer la progression du mouvement."
+  },
+  {
+   "titre": "Les guerres de Religion (1562-1598)",
+   "texte": "La mort accidentelle d'Henri II en 1559, blessé lors d'un tournoi, laisse le pouvoir à des rois jeunes et fragiles, sous l'influence de leur mère Catherine de Médicis. Les grandes familles nobles s'affrontent alors autour du trône : les Guise, chefs du parti catholique intransigeant, les Bourbons et les Châtillon du côté protestant. Catherine de Médicis tente d'abord l'apaisement avec l'édit de janvier 1562, qui autorise un culte protestant limité. Mais le 1er mars 1562, les hommes du duc de Guise massacrent des fidèles réunis dans une grange à Wassy, en Champagne : les guerres de Religion commencent. Huit conflits se succèdent jusqu'en 1598, entrecoupés de paix précaires, marqués par des sièges, des destructions d'églises et de terribles massacres de part et d'autre. Le plus célèbre est celui de la Saint-Barthélemy, à Paris, dans la nuit du 24 août 1572 : l'amiral de Coligny et des milliers de protestants venus assister au mariage d'Henri de Navarre sont tués, et les tueries s'étendent à plusieurs villes de province. Sous Henri III, la Ligue catholique dirigée par Henri de Guise s'oppose au roi et s'appuie sur l'Espagne. En 1588, Henri III doit fuir Paris lors de la journée des Barricades, puis fait assassiner Guise à Blois ; il est lui-même poignardé en 1589 par le moine Jacques Clément.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Les guerres de Religion, de Wassy à Nantes",
+    "evenements": [
+     {
+      "date": "1559",
+      "label": "Mort accidentelle d'Henri II",
+      "texte": "Des rois jeunes et fragiles, sous l'influence de Catherine de Médicis ; les Guise, les Bourbons et les Châtillon s'affrontent autour du trône."
+     },
+     {
+      "date": "janvier 1562",
+      "label": "Édit de janvier",
+      "texte": "Tentative d'apaisement : un culte protestant limité est autorisé."
+     },
+     {
+      "date": "1er mars 1562",
+      "label": "Massacre de Wassy",
+      "texte": "Les hommes du duc de Guise tuent des fidèles réunis dans une grange : les guerres commencent."
+     },
+     {
+      "date": "24 août 1572",
+      "label": "La Saint-Barthélemy",
+      "texte": "Coligny et des milliers de protestants venus au mariage d'Henri de Navarre sont tués à Paris ; les tueries gagnent la province."
+     },
+     {
+      "date": "1588",
+      "label": "Journée des Barricades",
+      "texte": "Henri III doit fuir Paris, puis fait assassiner Henri de Guise à Blois."
+     },
+     {
+      "date": "1589",
+      "label": "Henri III poignardé",
+      "texte": "Par le moine Jacques Clément ; la couronne revient à Henri de Navarre, chef du parti protestant."
+     },
+     {
+      "date": "25 juillet 1593",
+      "label": "Abjuration de Saint-Denis",
+      "texte": "Henri IV se rallie la majorité catholique ; sacré à Chartres en 1594, il entre dans Paris."
+     },
+     {
+      "date": "13 avril 1598",
+      "label": "Édit de Nantes",
+      "texte": "Huit conflits en trente-six ans prennent fin ; la paix de Vervins clôt la même année la guerre avec l'Espagne."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Henri IV et l'édit de Nantes",
+   "texte": "À la mort d'Henri III en 1589, la couronne revient selon la loi de succession à Henri de Navarre, chef du parti protestant, qui devient Henri IV. Une grande partie du royaume, et surtout la Ligue catholique appuyée par l'Espagne, refuse de reconnaître un roi hérétique. Il doit donc conquérir son trône, remportant les batailles d'Arques en 1589 et d'Ivry en 1590, sans parvenir à prendre Paris. Comprenant qu'il ne pourra régner sans se rallier la majorité catholique, il abjure le protestantisme à Saint-Denis le 25 juillet 1593, se fait sacrer à Chartres en février 1594, puis entre dans Paris. Les villes ligueuses se soumettent une à une, souvent contre de l'argent et des privilèges. En 1598, la paix de Vervins met fin à la guerre avec l'Espagne. La même année, le 13 avril, l'édit de Nantes règle la question religieuse : il accorde aux protestants la liberté de conscience dans tout le royaume, la liberté de culte dans des lieux déterminés, l'égalité civile, l'accès aux emplois et des places de sûreté qu'ils peuvent garnir de garnisons. Le catholicisme demeure la religion officielle. Aidé de son ministre Sully, Henri IV restaure ensuite les finances et encourage l'agriculture. Il est assassiné par Ravaillac le 14 mai 1610.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Ce que règle l'édit de Nantes (1598)",
+    "colonnes": [
+     "Ce qui est accordé aux protestants",
+     "Portée"
+    ],
+    "lignes": [
+     [
+      "La liberté de conscience",
+      "Dans tout le royaume : on ne peut plus être poursuivi pour sa foi."
+     ],
+     [
+      "La liberté de culte",
+      "Seulement dans des lieux déterminés, pas partout."
+     ],
+     [
+      "L'égalité civile et l'accès aux emplois",
+      "Ils cessent d'être des sujets de second rang."
+     ],
+     [
+      "Des places de sûreté",
+      "Des villes qu'ils peuvent garnir de garnisons : une garantie militaire, unique en Europe."
+     ],
+     [
+      "Mais le catholicisme reste la religion officielle",
+      "L'édit organise une coexistence, il ne proclame pas l'égalité des religions."
+     ]
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel accord de 1516 donne au roi de France le droit de nommer les évêques du royaume ?",
+   "choix": [
+    "L'édit de Nantes",
+    "L'ordonnance de Villers-Cotterêts",
+    "Le concordat de Bologne",
+    "La paix de Vervins"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le concordat de Bologne, signé en 1516 entre François Ier et le pape Léon X après la victoire de Marignan, accorde au roi la nomination des évêques et des abbés, le pape conservant l'investiture spirituelle. Il donne à la monarchie un contrôle considérable sur l'Église de France, ses hommes et ses revenus. L'ordonnance de Villers-Cotterêts, de 1539, concerne l'usage du français dans les actes de justice et les registres de baptêmes. L'édit de Nantes, en 1598, règle le statut des protestants, et la paix de Vervins, la même année, met fin à la guerre contre l'Espagne. Ce concordat restera en vigueur jusqu'à la Révolution française."
+  },
+  {
+   "q": "Quelle ordonnance de 1539 impose l'usage du français dans les actes de justice ?",
+   "choix": [
+    "L'ordonnance de Villers-Cotterêts",
+    "L'édit de Châteaubriant",
+    "L'édit de janvier",
+    "L'ordonnance de Blois"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "L'ordonnance de Villers-Cotterêts, promulguée par François Ier en août 1539, impose le français à la place du latin dans les actes juridiques et administratifs du royaume. Elle rend aussi obligatoire la tenue par les curés des registres de baptêmes, ce qui constitue l'ancêtre de notre état civil. Ce texte participe à la fois du renforcement de l'État royal et de la promotion de la langue française, que défendront dix ans plus tard les poètes de la Pléiade. L'édit de Châteaubriant, de 1551, organise au contraire la répression du protestantisme sous Henri II. L'édit de janvier 1562 accorde une tolérance limitée aux huguenots juste avant le déclenchement des guerres de Religion."
+  },
+  {
+   "q": "Quel événement de 1562 marque le début des guerres de Religion ?",
+   "choix": [
+    "L'affaire des Placards",
+    "La mort d'Henri II lors d'un tournoi",
+    "Le massacre de la Saint-Barthélemy",
+    "Le massacre de Wassy"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le massacre de Wassy, en Champagne, le 1er mars 1562, où les hommes du duc de Guise tuent des protestants réunis pour le culte dans une grange, est traditionnellement considéré comme le déclencheur des guerres de Religion. Il intervient peu après l'édit de janvier 1562, par lequel Catherine de Médicis avait tenté d'accorder une tolérance limitée aux huguenots. L'affaire des Placards est bien antérieure, en octobre 1534, et provoqua le durcissement de François Ier contre la Réforme. Le massacre de la Saint-Barthélemy, lui, se produit dix ans plus tard, dans la nuit du 24 août 1572. La mort accidentelle d'Henri II en 1559 avait ouvert la période d'instabilité politique."
+  },
+  {
+   "q": "Que garantit l'édit de Nantes signé en avril 1598 ?",
+   "choix": [
+    "L'égalité complète des deux religions dans tout le royaume",
+    "La liberté de conscience et un culte protestant limité à certains lieux",
+    "La conversion obligatoire des protestants au catholicisme",
+    "L'interdiction du catholicisme dans les places de sûreté"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "L'édit de Nantes, signé par Henri IV le 13 avril 1598, accorde aux protestants la liberté de conscience dans tout le royaume, mais la liberté de culte seulement dans des lieux limitativement énumérés, dont ni Paris ni les villes épiscopales. Il leur reconnaît l'égalité civile, l'accès aux charges publiques et des chambres de justice mi-parties, et leur laisse des places de sûreté pourvues de garnisons. Le catholicisme reste la religion officielle du royaume et le culte doit y être rétabli partout. Il ne s'agit donc pas d'une égalité complète, mais d'un compromis pragmatique mettant fin à trente-six ans de guerre civile. Cet édit sera révoqué par Louis XIV en 1685."
+  },
+  {
+   "q": "Quel réformateur français, réfugié à Genève, publie l'Institution de la religion chrétienne ?",
+   "choix": [
+    "Érasme",
+    "Martin Luther",
+    "Michel de Montaigne",
+    "Jean Calvin"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Jean Calvin, juriste originaire de Noyon en Picardie, publie l'Institution de la religion chrétienne en latin en 1536, puis en donne lui-même une version française en 1541. Réfugié à Genève, il y organise une Église et forme des pasteurs qui essaiment vers la France, structurant les communautés huguenotes. Martin Luther est à l'origine de la Réforme en Allemagne à partir de 1517, mais il n'a pas écrit cet ouvrage. Érasme, humaniste des Pays-Bas, critiquait les abus de l'Église tout en refusant la rupture. Montaigne appartient à une génération postérieure et publie ses Essais à partir de 1580."
+  }
+ ]
+}

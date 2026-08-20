@@ -1,0 +1,54 @@
+name: Construire et déployer le site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Vérifier qu'aucune question n'est en double
+        run: python3 doublons.py | head -20
+
+      - name: Construire le site multi-fichiers
+        run: python3 build_web.py
+
+      - name: Construire aussi la version en fichier unique (hors ligne)
+        run: |
+          python3 build.py
+          cp site.html web/site-hors-ligne.html
+
+      - name: Vérifier que l'application fonctionne
+        run: node test_web.js
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - id: deploiement
+        uses: actions/deploy-pages@v4

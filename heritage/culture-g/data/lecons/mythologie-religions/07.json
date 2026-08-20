@@ -1,0 +1,198 @@
+{
+ "titre": "L'hindouisme et le bouddhisme : deux traditions nées en Inde",
+ "sections": [
+  {
+   "titre": "L'hindouisme, une tradition sans fondateur",
+   "texte": "L'hindouisme désigne un ensemble très divers de croyances, de rites et d'écoles de pensée développés dans le sous-continent indien depuis plus de trois mille ans. Contrairement à d'autres traditions religieuses, il ne possède ni fondateur identifié, ni autorité centrale, ni credo unique, ce qui explique la grande variété de ses pratiques régionales et familiales. Ses textes les plus anciens sont les Veda, composés en sanskrit à partir du deuxième millénaire avant notre ère et transmis oralement avec une extrême précision pendant des siècles. Le plus ancien, le Rig-Veda, rassemble des hymnes adressés à des puissances comme Agni, le feu, ou Indra, associé à l'orage et à la guerre. La religion védique reposait largement sur le sacrifice, accompli par des prêtres selon des règles minutieuses. Vers le VIIIe siècle avant notre ère apparaissent les Upanishad, textes de réflexion qui déplacent l'attention du rite vers la connaissance intérieure et posent la question du rapport entre le principe universel, le brahman, et le principe individuel, l'atman. Les siècles suivants voient se former les grandes traditions dévotionnelles centrées sur des divinités particulières. Le mot hindouisme lui-même est tardif : il fut employé par des observateurs extérieurs, notamment européens, pour désigner l'ensemble des religions de l'Inde qui ne relevaient ni de l'islam, ni du christianisme, ni du bouddhisme, ni du jaïnisme."
+  },
+  {
+   "titre": "Divinités et grands récits",
+   "texte": "La tradition hindoue reconnaît un très grand nombre de divinités, que beaucoup de fidèles comprennent comme des manifestations d'une réalité ultime unique. Trois figures majeures sont souvent présentées ensemble : Brahma, associé à la création, Vishnou, qui préserve le monde, et Shiva, lié à la destruction et à la transformation, mais aussi à l'ascèse et à la danse cosmique. Vishnou apparaît selon les récits sous différentes formes appelées avatars, parmi lesquelles Rama et Krishna sont les plus populaires. Les déesses tiennent une place considérable, qu'il s'agisse de Lakshmi, associée à la prospérité, de Sarasvati, liée au savoir et à la musique, ou de Durga et Kali, figures guerrières. Ganesh, représenté avec une tête d'éléphant, est invoqué au commencement des entreprises. Deux grandes épopées transmettent ces récits. Le Ramayana raconte l'histoire du prince Rama, l'enlèvement de son épouse Sita par le démon Ravana et l'expédition menée avec l'aide du singe Hanuman. Le Mahabharata, considéré comme l'un des plus longs poèmes du monde, décrit le conflit entre deux branches d'une même famille royale et contient la Bhagavad-Gita, dialogue entre le guerrier Arjuna et Krishna sur le devoir et l'action. Ces textes nourrissent depuis des siècles le théâtre, la danse, la sculpture et, à l'époque contemporaine, le cinéma.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Quelques divinités de la tradition hindoue",
+    "colonnes": [
+     "Divinité",
+     "Ce à quoi la tradition l'associe"
+    ],
+    "lignes": [
+     [
+      "Brahma",
+      "La création"
+     ],
+     [
+      "Vishnou",
+      "La préservation du monde ; il apparaît selon les récits sous différentes formes appelées avatars, parmi lesquelles Rama et Krishna sont les plus populaires"
+     ],
+     [
+      "Shiva",
+      "La destruction et la transformation, mais aussi l'ascèse et la danse cosmique"
+     ],
+     [
+      "Lakshmi et Sarasvati",
+      "La prospérité pour la première, le savoir et la musique pour la seconde"
+     ],
+     [
+      "Durga et Kali",
+      "Des figures guerrières"
+     ],
+     [
+      "Ganesh",
+      "Représenté avec une tête d'éléphant, il est invoqué au commencement des entreprises"
+     ]
+    ],
+    "note": "La tradition reconnaît un très grand nombre de divinités, que beaucoup de fidèles comprennent comme des manifestations d'une réalité ultime unique. Deux épopées transmettent ces récits : le Ramayana et le Mahabharata, qui contient la Bhagavad-Gita."
+   }
+  },
+  {
+   "titre": "Karma, renaissance et pratiques hindoues",
+   "texte": "Plusieurs notions structurent la pensée hindoue. Le samsara désigne le cycle des naissances et des morts successives auquel les êtres sont soumis. Le karma, mot signifiant action, exprime l'idée que les actes produisent des conséquences qui déterminent les conditions des existences futures. Le dharma renvoie à l'ordre du monde et aux devoirs qui incombent à chacun selon sa situation, son âge et son état. La libération de ce cycle, appelée moksha, constitue le but ultime recherché ; différentes voies y conduisent selon les écoles, notamment celle de l'action désintéressée, celle de la connaissance et celle de la dévotion à une divinité, la bhakti. La société traditionnelle indienne s'est organisée selon un système de groupes héréditaires, souvent désigné par le mot castes, dont les textes anciens décrivent quatre grandes catégories ; cette hiérarchie a fait l'objet de nombreuses critiques et la discrimination fondée sur elle est interdite par la Constitution indienne depuis 1950. La vie religieuse quotidienne s'exprime par la puja, offrande de fleurs, de lumière et de nourriture faite devant une image divine, à la maison ou au temple. Les pèlerinages, notamment vers les fleuves considérés comme sacrés, et les grandes fêtes comme Diwali, fête des lumières, ou Holi, fête des couleurs, rythment l'année.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Quatre notions qui structurent la pensée hindoue",
+    "colonnes": [
+     "Notion",
+     "Sens donné par la leçon"
+    ],
+    "lignes": [
+     [
+      "Samsara",
+      "Le cycle des naissances et des morts successives auquel les êtres sont soumis"
+     ],
+     [
+      "Karma",
+      "Mot signifiant action : les actes produisent des conséquences qui déterminent les conditions des existences futures"
+     ],
+     [
+      "Dharma",
+      "L'ordre du monde et les devoirs qui incombent à chacun selon sa situation, son âge et son état"
+     ],
+     [
+      "Moksha",
+      "La libération du cycle, but ultime recherché ; différentes voies y conduisent selon les écoles, celle de l'action désintéressée, celle de la connaissance et celle de la dévotion, la bhakti"
+     ]
+    ],
+    "note": "La vie religieuse quotidienne s'exprime par la puja, offrande de fleurs, de lumière et de nourriture faite devant une image divine, à la maison ou au temple."
+   }
+  },
+  {
+   "titre": "Le bouddhisme et son message initial",
+   "texte": "Le bouddhisme naît dans le nord de l'Inde vers le Ve siècle avant notre ère. Selon la tradition, Siddhartha Gautama, fils d'un chef de clan, grandit à l'abri des difficultés du monde. Confronté un jour à la vue d'un vieillard, d'un malade, d'un mort puis d'un ascète, il quitte sa famille pour chercher une réponse à la souffrance. Après des années de pratiques ascétiques sévères qu'il juge inutiles, il adopte une voie moyenne et parvient, selon les récits, à l'éveil sous un figuier à Bodh-Gaya ; il reçoit alors le nom de Bouddha, mot signifiant l'éveillé. Son premier enseignement, prononcé près de Bénarès, présente les quatre nobles vérités : l'existence de la souffrance, son origine dans la soif et l'attachement, la possibilité de sa cessation et le chemin qui y conduit. Ce chemin, appelé octuple sentier, comprend des éléments de sagesse, de conduite morale et de discipline mentale, parmi lesquels la parole juste, l'action juste et la concentration juste. L'enseignement bouddhique reprend au monde indien les notions de karma et de renaissance, mais met l'accent sur l'impermanence de toutes choses et sur l'absence de soi permanent. Le but recherché, le nirvana, est décrit comme l'extinction de l'avidité, de la haine et de l'ignorance.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "Les quatre nobles vérités du premier enseignement",
+    "etapes": [
+     {
+      "label": "La souffrance",
+      "texte": "Son existence est constatée."
+     },
+     {
+      "label": "Son origine",
+      "texte": "Elle vient de la soif et de l'attachement."
+     },
+     {
+      "label": "Sa cessation",
+      "texte": "Elle est possible."
+     },
+     {
+      "label": "Le chemin",
+      "texte": "L'octuple sentier, qui comprend des éléments de sagesse, de conduite morale et de discipline mentale, parmi lesquels la parole juste, l'action juste et la concentration juste."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Diffusion et courants du bouddhisme",
+   "texte": "Après la mort du Bouddha, ses disciples organisent une communauté monastique, le sangha, et rassemblent son enseignement lors de conciles. La diffusion s'accélère au IIIe siècle avant notre ère sous l'empereur Ashoka, qui soutient la doctrine et fait graver des édits sur des piliers, puis envoie des missions jusqu'à Ceylan. Trois grands ensembles se distinguent aujourd'hui. Le Theravada, présent au Sri Lanka, en Birmanie, en Thaïlande, au Laos et au Cambodge, s'appuie sur un canon rédigé en langue pali et accorde une place centrale à la vie monastique. Le Mahayana, répandu en Chine, en Corée, au Japon et au Vietnam, développe la figure du bodhisattva, être qui diffère sa propre libération pour aider les autres, et comprend des écoles comme le chan, devenu zen au Japon, ou celle de la Terre pure. Le Vajrayana, implanté surtout au Tibet, en Mongolie et dans l'Himalaya, recourt à des rituels, à des formules appelées mantras et à des représentations symboliques nommées mandalas. Les pratiques communes incluent la méditation, l'offrande devant des statues, le respect de préceptes moraux et la circumambulation autour de monuments appelés stupas. Le bouddhisme a presque disparu de l'Inde à partir du XIIe siècle avant d'y connaître un renouveau au XXe siècle, tout en s'implantant en Occident.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les trois grands ensembles du bouddhisme aujourd'hui",
+    "colonnes": [
+     "Courant",
+     "Aires principales",
+     "Traits indiqués par la leçon"
+    ],
+    "lignes": [
+     [
+      "Theravada",
+      "Sri Lanka, Birmanie, Thaïlande, Laos, Cambodge",
+      "S'appuie sur un canon rédigé en langue pali et accorde une place centrale à la vie monastique"
+     ],
+     [
+      "Mahayana",
+      "Chine, Corée, Japon, Vietnam",
+      "Développe la figure du bodhisattva, être qui diffère sa propre libération pour aider les autres ; comprend le chan, devenu zen au Japon, et l'école de la Terre pure"
+     ],
+     [
+      "Vajrayana",
+      "Tibet, Mongolie, Himalaya",
+      "Recourt à des rituels, à des formules appelées mantras et à des représentations symboliques nommées mandalas"
+     ]
+    ],
+    "note": "Les pratiques communes incluent la méditation, l'offrande devant des statues, le respect de préceptes moraux et la circumambulation autour de monuments appelés stupas."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Comment se nomment les textes les plus anciens de la tradition hindoue ?",
+   "choix": [
+    "Les Veda",
+    "Le Talmud",
+    "Les sutras pali",
+    "Les Purana"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Les Veda, composés en sanskrit à partir du deuxième millénaire avant notre ère, forment le socle textuel le plus ancien de la tradition hindoue. Le Rig-Veda, le plus vieux d'entre eux, rassemble des hymnes adressés à des puissances comme Agni ou Indra. Les Purana sont des recueils de récits beaucoup plus tardifs, consacrés notamment aux grandes divinités. Les sutras en langue pali appartiennent au canon du bouddhisme Theravada. Le Talmud relève de la tradition juive et n'a aucun rapport avec l'Inde."
+  },
+  {
+   "q": "Dans quel grand poème épique se trouve la Bhagavad-Gita ?",
+   "choix": [
+    "Le Ramayana",
+    "Le Rig-Veda",
+    "Le Mahabharata",
+    "Les Upanishad"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La Bhagavad-Gita est un passage du Mahabharata, immense épopée racontant le conflit entre deux branches d'une famille royale. Elle prend la forme d'un dialogue entre le guerrier Arjuna, hésitant avant la bataille, et Krishna, qui lui expose des enseignements sur le devoir et l'action. Le Ramayana est l'autre grande épopée indienne et raconte l'histoire de Rama et de Sita. Le Rig-Veda est un recueil d'hymnes bien plus ancien. Les Upanishad sont des textes de réflexion philosophique distincts des épopées."
+  },
+  {
+   "q": "Que désigne le mot samsara ?",
+   "choix": [
+    "Le sacrifice accompli par les prêtres védiques",
+    "Le cycle des naissances et des morts successives",
+    "Le nom donné à la communauté monastique bouddhique",
+    "La fête des lumières célébrée en automne"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Le samsara désigne le cycle des existences successives auquel les êtres sont soumis selon les traditions indiennes. Les actes accomplis, ou karma, en déterminent les conditions, et la sortie de ce cycle constitue le but recherché, appelé moksha dans l'hindouisme. La communauté monastique bouddhique porte le nom de sangha. La fête des lumières célébrée en automne est Diwali. Le sacrifice védique, quant à lui, relève du vocabulaire rituel des Veda."
+  },
+  {
+   "q": "Quel enseignement le Bouddha aurait-il donné lors de son premier sermon près de Bénarès ?",
+   "choix": [
+    "La création du monde par un dieu unique",
+    "La liste des avatars de Vishnou",
+    "Les règles de la caste des prêtres",
+    "Les quatre nobles vérités"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Selon la tradition, le Bouddha expose lors de son premier enseignement les quatre nobles vérités : la souffrance, son origine dans l'attachement, la possibilité de sa cessation et la voie qui y mène. Cette voie, appelée octuple sentier, associe sagesse, conduite morale et discipline mentale. Les avatars de Vishnou appartiennent à la tradition hindoue et non au bouddhisme. Le bouddhisme ancien ne place pas au centre de son message la création du monde par un dieu unique. Il prend également ses distances avec la hiérarchie sociale héritée des textes védiques."
+  },
+  {
+   "q": "Quel courant du bouddhisme est majoritaire au Sri Lanka, en Thaïlande et en Birmanie ?",
+   "choix": [
+    "Le Theravada",
+    "Le Mahayana",
+    "Le Vajrayana",
+    "Le zen"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Le Theravada est implanté principalement au Sri Lanka, en Birmanie, en Thaïlande, au Laos et au Cambodge. Il s'appuie sur un canon rédigé en langue pali et accorde une place centrale à la vie monastique. Le Mahayana s'est diffusé plutôt en Chine, en Corée, au Japon et au Vietnam, en développant la figure du bodhisattva. Le Vajrayana est présent surtout au Tibet, en Mongolie et dans l'Himalaya, avec ses rituels, ses mantras et ses mandalas. Le zen est une école japonaise rattachée au Mahayana, issue du chan chinois."
+  }
+ ]
+}

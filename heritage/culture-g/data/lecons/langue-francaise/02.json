@@ -1,0 +1,220 @@
+{
+ "titre": "Expressions et locutions : enquête sur leurs origines",
+ "sections": [
+  {
+   "titre": "Ce qu'est une expression figée",
+   "texte": "Une expression figée, que les linguistes appellent locution, est un groupe de mots dont le sens ne se déduit pas de celui de ses éléments. Comprendre séparément casser, sa et pipe ne permet pas de deviner que casser sa pipe signifie mourir. C'est ce qui distingue la locution de la simple combinaison libre, et ce qui la rend si difficile à traduire : chaque langue possède les siennes, et les mêmes idées y sont exprimées par des images totalement différentes. Le français dit qu'il pleut des cordes, l'anglais qu'il pleut des chats et des chiens, l'allemand qu'il pleut des ficelles. Les locutions se reconnaissent aussi à leur rigidité grammaticale : on ne peut ni changer l'ordre des mots, ni remplacer un terme par un synonyme, ni souvent mettre au pluriel. On dit prendre la poudre d'escampette, jamais prendre la poudre de fuite. Beaucoup d'entre elles conservent des mots ou des constructions que la langue courante a perdus, ce qui en fait de véritables réserves d'archaïsmes. D'autres viennent d'un métier disparu, d'un usage oublié, d'un texte littéraire ou d'un fait historique. Retrouver leur origine est un exercice passionnant mais piégeux : pour un cas bien documenté, il en existe plusieurs où les dictionnaires eux-mêmes avouent leur ignorance. Le bon réflexe consiste à distinguer ce qui est attesté de ce qui est seulement raconté."
+  },
+  {
+   "titre": "Des origines solidement documentées",
+   "texte": "Certaines expressions se rattachent à un texte précis, ce qui rend leur histoire vérifiable. Revenons à nos moutons vient de La Farce de Maître Pathelin, comédie anonyme du XVe siècle : au cours d'un procès portant sur des moutons volés, l'avocat Pathelin embrouille les débats en y mêlant une affaire de drap, et le juge excédé ramène tout le monde au sujet. Tirer les marrons du feu vient de la fable de La Fontaine intitulée Le Singe et le Chat, où le singe fait retirer les marrons brûlants par le chat, qui se brûle les pattes pendant que l'autre les mange ; l'expression signifiait donc au départ prendre les risques au profit d'autrui, sens que l'usage moderne a largement inversé. Faire long feu vient des armes anciennes dont la poudre brûlait sans que le coup parte, d'où le sens de rater son effet, qu'il ne faut pas confondre avec ne pas faire long feu, qui signifie ne pas durer. Le jeu n'en vaut pas la chandelle renvoie aux salles de jeu où la lumière était à la charge des joueurs : si les gains ne couvraient pas le prix des bougies, mieux valait s'abstenir. Enfin, être un fin limier renvoie au chien de chasse que l'on menait en laisse, le liem en ancien français.",
+   "visuels": [
+    {
+     "type": "tableau",
+     "titre": "Cinq expressions dont on connaît la source",
+     "colonnes": [
+      "Expression",
+      "Origine",
+      "Sens d'aujourd'hui"
+     ],
+     "lignes": [
+      [
+       "Revenons à nos moutons",
+       "La Farce de Maître Pathelin, XVe siècle",
+       "Reprenons le fil du sujet"
+      ],
+      [
+       "Tirer les marrons du feu",
+       "La Fontaine, Le Singe et le Chat",
+       "Sens d'origine : risquer pour un autre"
+      ],
+      [
+       "Faire long feu",
+       "Armes à poudre lente",
+       "Échouer, manquer son effet"
+      ],
+      [
+       "Le jeu n'en vaut pas la chandelle",
+       "Coût de l'éclairage des salles de jeu",
+       "Le résultat ne mérite pas l'effort"
+      ],
+      [
+       "Être un fin limier",
+       "Le liem, laisse du chien de chasse",
+       "Être un enquêteur perspicace"
+      ]
+     ],
+     "note": "Tirer les marrons du feu a changé de sens : beaucoup l'emploient aujourd'hui pour « tirer profit ». Les dictionnaires enregistrent le glissement."
+    }
+   ]
+  },
+  {
+   "titre": "Les mots fossiles des locutions",
+   "texte": "Beaucoup d'expressions abritent des mots que la langue n'utilise plus nulle part ailleurs. Dans sans coup férir, férir vient du latin ferire, frapper : il ne survit que dans cette locution et dans le participe féru, employé au figuré comme dans être féru d'histoire. Dans avoir maille à partir, maille désigne une monnaie de très faible valeur, un demi-denier, et partir signifie partager : se disputer une pièce indivisible ne peut mener qu'à la querelle. Dans à la queue leu leu, leu est la forme ancienne de loup, et la construction d'origine, à la queue le leu, exprimait la possession sans préposition, comme dans Hôtel-Dieu. Chercher noise conserve noise, qui signifiait bruit puis querelle en ancien français, et que l'anglais a emprunté pour en faire son mot noise. Au fur et à mesure garde fur, ancien mot signifiant taux ou mesure, issu du latin forum. Au grand dam conserve dam, du latin damnum, dommage, que l'on retrouve dans damner. N'avoir cure garde cure au sens latin de souci. Sans ambages retient un mot latin qui désignait les détours. De plain-pied, enfin, écrit plain avec un a, du latin planus, plat, et non plein. Ces expressions sont de véritables musées de la langue.",
+   "visuels": [
+    {
+     "type": "tableau",
+     "titre": "Des mots qui ne vivent plus que dans une locution",
+     "colonnes": [
+      "Locution",
+      "Mot fossile",
+      "Sens ancien",
+      "Origine"
+     ],
+     "lignes": [
+      [
+       "Sans coup férir",
+       "férir",
+       "frapper",
+       "latin ferire"
+      ],
+      [
+       "Avoir maille à partir",
+       "maille, partir",
+       "petite monnaie, partager",
+       "ancien français"
+      ],
+      [
+       "À la queue leu leu",
+       "leu",
+       "loup",
+       "ancien français"
+      ],
+      [
+       "Chercher noise",
+       "noise",
+       "bruit, querelle",
+       "ancien français, passé à l'anglais"
+      ],
+      [
+       "Au fur et à mesure",
+       "fur",
+       "taux, mesure",
+       "latin forum"
+      ],
+      [
+       "Au grand dam",
+       "dam",
+       "dommage",
+       "latin damnum"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Quand l'origine reste incertaine",
+   "texte": "L'honnêteté oblige à reconnaître que beaucoup d'expressions n'ont pas d'étymologie assurée. Tomber dans les pommes en est l'exemple type. Le linguiste Albert Dauzat proposait d'y voir une déformation de tomber dans les pâmes, de pâmoison, mais cette forme intermédiaire n'est attestée nulle part ; on cite aussi une lettre de George Sand employant être dans les pommes cuites au sens d'être épuisé. Les dictionnaires présentent ces pistes comme des hypothèses, sans trancher. Poser un lapin est attesté à la fin du XIXe siècle avec un sens différent du sens actuel, et les explications proposées restent conjecturales. Se mettre sur son trente et un a suscité plusieurs propositions, dont un rapprochement avec le trentain, drap de luxe, sans qu'aucune emporte la conviction. Payer en monnaie de singe est souvent rattachée à une ordonnance de Saint Louis dispensant les montreurs de singes du péage du Petit-Pont s'ils faisaient danser leur animal : l'anecdote est plausible et souvent répétée, mais elle relève davantage de la tradition que d'une démonstration. Le réflexe utile consiste à se méfier des explications trop bien racontées, surtout lorsqu'elles impliquent un roi, une bataille ou un jeu de mots parfait. Une étymologie sérieuse s'appuie sur des attestations datées, pas sur la beauté de l'histoire.",
+   "visuels": [
+    {
+     "type": "comparaison",
+     "titre": "Deux manières de raconter une expression",
+     "colonnes": [
+      {
+       "titre": "Ce qui vaut démonstration",
+       "points": [
+        "Un texte source identifié et daté",
+        "Des attestations écrites échelonnées",
+        "Une évolution phonétique régulière",
+        "Un mot resté visible dans une autre famille"
+       ]
+      },
+      {
+       "titre": "Ce qui doit alerter",
+       "points": [
+        "Une anecdote impliquant un roi ou une bataille",
+        "Un écart de plusieurs décennies avec la première attestation",
+        "Un acronyme rétroactif trop bien trouvé",
+        "Une explication unique, sans variante ni discussion"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Mythologie, Bible et histoire dans la langue courante",
+   "texte": "Une part importante des expressions françaises vient de fonds culturels partagés depuis l'Antiquité. La mythologie grecque a donné le talon d'Achille, seul point vulnérable du héros que sa mère avait tenu par le pied en le plongeant dans le Styx ; la boîte de Pandore, dont l'ouverture libère tous les maux ; le fil d'Ariane, qui permet de sortir du labyrinthe ; l'écurie d'Augias, le travail de Titan, le supplice de Tantale, le lit de Procuste, la corne d'abondance. La Bible a fourni le bouc émissaire, animal chargé symboliquement des fautes du peuple et chassé au désert ; le colosse aux pieds d'argile, tiré du songe de Nabuchodonosor dans le livre de Daniel ; la pierre d'achoppement, le veau d'or, la traversée du désert, le péché mignon, un travail de Bénédictin. L'histoire, enfin, a laissé la roche Tarpéienne est près du Capitole, qui rappelle qu'à Rome le lieu du triomphe et celui de l'exécution des traîtres étaient voisins, et la victoire à la Pyrrhus, gagnée à un prix ruineux. Ces expressions ont ceci de particulier qu'elles supposent un savoir : elles s'affaiblissent à mesure que la culture qui les portait se transmet moins. Beaucoup de locuteurs emploient aujourd'hui le talon d'Achille sans se souvenir d'Achille, ce qui est exactement le destin normal d'une locution."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Dans « au fur et à mesure », que signifiait le mot « fur » ?",
+   "choix": [
+    "Le feu",
+    "Le taux, la mesure",
+    "La force",
+    "Le hasard"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Fur vient du latin forum, qui désignait la place publique puis, par extension, le marché et le taux pratiqué. Le mot a existé seul en ancien français avec le sens de proportion ou de mesure, avant de disparaître partout sauf dans cette locution. L'expression est devenue redondante, puisque fur et mesure disent la même chose : la seconde partie a été ajoutée quand la première est devenue incompréhensible. Le même phénomène de renforcement explique la répétition de leu dans à la queue leu leu. Les locutions figées conservent ainsi des états anciens de la langue."
+  },
+  {
+   "q": "D'où vient l'expression « le colosse aux pieds d'argile » ?",
+   "choix": [
+    "Du livre de Daniel dans la Bible",
+    "D'une fable de La Fontaine",
+    "D'un discours de Napoléon",
+    "D'un mythe grec"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le livre de Daniel raconte le songe du roi Nabuchodonosor : une immense statue à la tête d'or, à la poitrine d'argent, au ventre de bronze, aux jambes de fer, mais aux pieds mêlés de fer et d'argile, qu'une pierre suffit à renverser. L'image sert à désigner une puissance apparemment invincible mais fragile à sa base. Elle a été abondamment reprise dans le discours politique, notamment à propos d'empires jugés instables. Beaucoup d'expressions françaises viennent de la Bible : bouc émissaire, veau d'or, pierre d'achoppement, traversée du désert. La mythologie grecque a fourni de son côté le talon d'Achille et la boîte de Pandore."
+  },
+  {
+   "q": "Que dit la recherche étymologique sur l'expression « tomber dans les pommes » ?",
+   "choix": [
+    "Elle vient d'un poème de Verlaine",
+    "Elle vient d'un ancien remède à base de pommes",
+    "Son origine reste incertaine, plusieurs hypothèses coexistent",
+    "Elle est attestée depuis le Moyen Âge"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Deux pistes principales circulent. Albert Dauzat proposait une déformation de « tomber dans les pâmes », dérivé de pâmoison, mais cette forme n'est attestée nulle part, ce qui affaiblit l'hypothèse. On cite aussi une lettre de George Sand employant « être dans les pommes cuites » au sens d'être épuisé. Les dictionnaires présentent ces explications comme des conjectures et se gardent de trancher. C'est un cas où l'honnêteté consiste à dire qu'on ne sait pas plutôt qu'à choisir la version la plus jolie."
+  },
+  {
+   "q": "Dans l'expression « chercher noise à quelqu'un », que signifiait « noise » en ancien français ?",
+   "choix": [
+    "La ruse",
+    "La dette",
+    "La nuit",
+    "Le bruit, puis la querelle"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Noise désignait d'abord le vacarme, puis par glissement la dispute bruyante, sens conservé dans la locution. Le mot a disparu du français courant mais l'anglais l'a emprunté au Moyen Âge et en a fait son mot noise, qui signifie bruit. C'est un cas intéressant d'emprunt qui survit mieux dans la langue d'accueil que dans la langue d'origine. Le français a connu plusieurs échanges de ce type avec l'anglais, dans les deux sens. On appelle mots fossiles ces termes qui ne subsistent que dans une expression figée."
+  },
+  {
+   "q": "L'expression « la victoire à la Pyrrhus » désigne :",
+   "choix": [
+    "Une victoire remportée par surprise",
+    "Une victoire obtenue à un prix ruineux",
+    "Une victoire annoncée mais jamais obtenue",
+    "Une victoire arrachée au dernier moment"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Pyrrhus, roi d'Épire, battit les Romains à Héraclée puis à Ausculum au IIIe siècle avant notre ère, mais au prix de pertes si lourdes qu'il aurait déclaré qu'une autre victoire de ce genre le perdrait. L'expression désigne donc un succès dont le coût annule le bénéfice. Elle appartient à la même famille que les expressions tirées de l'histoire ancienne, comme « la roche Tarpéienne est près du Capitole ». Ces formules supposent une culture partagée pour être comprises. Elles s'affaiblissent quand cette culture cesse d'être transmise."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Locution",
+   "url": "https://fr.wikipedia.org/wiki/Locution"
+  },
+  {
+   "titre": "La Farce de Maître Pathelin",
+   "url": "https://fr.wikipedia.org/wiki/La_Farce_de_ma%C3%AEtre_Pathelin"
+  },
+  {
+   "titre": "Le Singe et le Chat",
+   "url": "https://fr.wikipedia.org/wiki/Le_Singe_et_le_Chat"
+  },
+  {
+   "titre": "Étymologie populaire",
+   "url": "https://fr.wikipedia.org/wiki/%C3%89tymologie_populaire"
+  }
+ ]
+}

@@ -1,0 +1,187 @@
+{
+ "titre": "Les déserts et les milieux arides",
+ "sections": [
+  {
+   "titre": "Qu'est-ce qu'un désert ?",
+   "texte": "Contrairement à une idée reçue, un désert ne se définit pas par la chaleur mais par l'aridité : c'est une zone où les précipitations sont rares et peu abondantes, si bien que les conditions de vie y sont hostiles. Le seuil le plus couramment retenu est celui de 250 millimètres de pluie par an ; en dessous de 50 millimètres, on parle de région hyperaride. Selon cette définition, les déserts couvrent environ un tiers des terres émergées de la planète. L'Afrique arrive en tête avec plus de 12 millions de kilomètres carrés de zones arides, le Moyen-Orient est désertique à 68 pour cent et l'Australie à 49 pour cent. On distingue plusieurs catégories. Les déserts chauds, ou tropicaux, comme le Sahara ou la péninsule Arabique, connaissent des températures très élevées. Les déserts froids, comme les régions arctiques et antarctiques, reçoivent tout aussi peu de précipitations mais sous forme de neige. Les déserts côtiers, comme l'Atacama ou le Namib, bordent des océans parcourus par des courants froids. Les déserts continentaux d'Asie centrale, enfin, subissent des amplitudes thermiques considérables entre l'été et l'hiver. Le paysage désertique n'est d'ailleurs pas uniforme : on y trouve des ergs, mers de dunes de sable, des regs, plaines couvertes de graviers, des hamadas, plateaux rocheux, et des oasis, points d'eau où se concentrent la végétation et les habitants.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Quatre familles de déserts",
+    "colonnes": [
+     "Type",
+     "Ce qui le caractérise",
+     "Exemples"
+    ],
+    "lignes": [
+     [
+      "Désert chaud (tropical)",
+      "Températures très élevées, pluies presque nulles",
+      "Sahara, péninsule Arabique"
+     ],
+     [
+      "Désert froid",
+      "Aussi peu de précipitations, mais sous forme de neige",
+      "Régions arctiques et antarctiques"
+     ],
+     [
+      "Désert côtier",
+      "Bordé d'un océan parcouru par un courant froid",
+      "Atacama, Namib"
+     ],
+     [
+      "Désert continental",
+      "Très loin de toute mer, énormes écarts entre l'été et l'hiver",
+      "Déserts d'Asie centrale"
+     ]
+    ],
+    "note": "Le seuil retenu est de 250 mm de pluie par an, et de 50 mm pour l'hyperaridité. Le paysage désertique varie : ergs (mers de dunes), regs (plaines de graviers), hamadas (plateaux rocheux) et oasis."
+   }
+  },
+  {
+   "titre": "Pourquoi existe-t-il des déserts ?",
+   "texte": "La répartition des déserts sur le globe n'a rien d'aléatoire : elle s'explique par quelques mécanismes climatiques que l'on retrouve d'un continent à l'autre. Le principal tient à la circulation générale de l'atmosphère. Autour de l'équateur, l'air très chaud s'élève, se refroidit et provoque des pluies abondantes ; il redescend ensuite vers 30 à 35 degrés de latitude nord et sud, en formant les cellules de Hadley. Or un air qui descend se réchauffe et s'assèche : il installe des hautes pressions permanentes et empêche la formation des nuages. C'est pourquoi les plus grands déserts chauds du monde, du Sahara à l'Arabie, du Kalahari au désert australien, s'alignent le long de ces deux bandes de latitude. D'autres facteurs viennent renforcer ou créer l'aridité. L'effet d'abri, ou effet de fœhn, se produit lorsqu'une chaîne de montagnes bloque les masses d'air humides : les pluies tombent sur le versant exposé, et le versant sous le vent reste sec, comme derrière les Andes ou l'Himalaya. Les courants marins froids longeant certaines côtes refroidissent l'air par le bas, ce qui le stabilise et empêche les précipitations, expliquant les déserts d'Atacama et du Namib. Enfin, la continentalité joue un rôle décisif en Asie centrale : très éloignées de toute mer, ces régions ne reçoivent presque plus d'humidité, car les masses d'air ont déchargé leur eau en chemin.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Quatre mécanismes qui fabriquent l'aridité",
+    "colonnes": [
+     {
+      "titre": "Les cellules de Hadley",
+      "points": [
+       "L'air monte et pleut à l'équateur, puis redescend vers 30 à 35° de latitude.",
+       "En descendant, il se réchauffe et s'assèche : hautes pressions permanentes, pas de nuages.",
+       "C'est pourquoi les grands déserts chauds s'alignent sur deux bandes de latitude."
+      ]
+     },
+     {
+      "titre": "L'effet d'abri",
+      "points": [
+       "Une chaîne de montagnes bloque les masses d'air humides.",
+       "La pluie tombe sur le versant exposé ; le versant sous le vent reste sec.",
+       "Derrière les Andes, derrière l'Himalaya."
+      ]
+     },
+     {
+      "titre": "Les courants marins froids",
+      "points": [
+       "Ils refroidissent l'air côtier par le bas, ce qui le stabilise.",
+       "Des brouillards se forment, mais la pluie ne se déclenche pas.",
+       "Atacama, Namib."
+      ]
+     },
+     {
+      "titre": "La continentalité",
+      "points": [
+       "Très éloignées de toute mer, ces régions ne reçoivent presque plus d'humidité.",
+       "Les masses d'air ont déchargé leur eau en chemin.",
+       "Asie centrale."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le Sahara, le plus grand désert chaud",
+   "texte": "Le Sahara constitue la plus vaste étendue continue de terres arides du monde : il couvre plus de 8,5 millions de kilomètres carrés, soit environ 30 pour cent de la superficie de l'Afrique, et s'étire sur 5 000 kilomètres d'ouest en est, de l'océan Atlantique à la mer Rouge. Il concerne dix pays, parmi lesquels l'Algérie, l'Égypte, le Maroc, la Libye, la Tunisie, la Mauritanie, le Niger, le Mali, le Tchad et le Soudan, ainsi que le territoire disputé du Sahara occidental. Les températures y atteignent 55 degrés et l'ensoleillement dépasse 3 600 heures par an, soit plus de onze heures par jour en moyenne, certaines zones approchant même 4 300 heures. Les précipitations sont en moyenne de 25 millimètres par an, mais certains secteurs de Libye et d'Égypte ne reçoivent que 0,5 millimètre. Contrairement à l'image des cartes postales, seuls 20 pour cent environ du Sahara sont occupés par des dunes de sable, les ergs ; les 80 pour cent restants sont des surfaces rocheuses et caillouteuses. Le relief va de la dépression de Qattara, à 134 mètres au-dessous du niveau de la mer, jusqu'à l'Emi Koussi, sommet volcanique du Tibesti culminant à 3 415 mètres. Cinq à huit millions de personnes y vivent, soit environ un habitant par kilomètre carré, regroupées autour des oasis et des nappes fossiles, exploitées par des galeries traditionnelles appelées foggaras.",
+   "visuel": {
+    "type": "image",
+    "image": "sahara-satellite",
+    "legende": "Le Sahara vu de l'espace : plus de 8,5 millions de kilomètres carrés, 5 000 kilomètres de l'Atlantique à la mer Rouge. Contrairement à l'image des cartes postales, les dunes de sable n'en occupent qu'environ 20 % ; le reste est rocheux et caillouteux.",
+    "alt": "Vue satellite du nord de l'Afrique montrant l'immense étendue ocre et beige du Sahara, sans végétation, traversée de nuances de sable et de roche."
+   }
+  },
+  {
+   "titre": "L'Atacama, un désert côtier extrême",
+   "texte": "Le désert d'Atacama, qui s'étend sur environ 104 900 kilomètres carrés au nord du Chili et au sud du Pérou, est l'un des lieux les plus secs de la planète en dehors des régions polaires. Coincé entre l'océan Pacifique et les volcans andins, il ne reçoit presque aucune précipitation : la station d'Arica n'enregistre que 0,8 millimètre de pluie par an, et certains secteurs n'auraient rien reçu pendant plus de quatre siècles. Trois causes se combinent pour produire cette hyperaridité. La première est l'anticyclone permanent du Pacifique Sud, qui installe une subsidence d'air sec. La deuxième est le courant froid de Humboldt, qui refroidit l'air côtier par le bas et empêche les nuages de se développer en pluie, tout en générant des brouillards littoraux. La troisième est l'effet d'abri de la cordillère des Andes, qui bloque les alizés humides venus de l'Amazonie à l'est. Cette sécheresse est très ancienne : la région serait aride depuis au moins sept millions d'années, peut-être vingt. Le désert n'est pas pour autant sans richesses. Il recèle du cuivre, exploité dans des mines géantes comme Escondida, mais aussi du fer, de l'or, de l'argent, et il fournissait autrefois le guano et le salpêtre indispensables aux engrais et aux explosifs. Sa sécheresse, son altitude et sa très faible pollution lumineuse en font enfin un site idéal pour l'astronomie, avec le Very Large Telescope du Cerro Paranal et le réseau ALMA.",
+   "visuel": {
+    "type": "image",
+    "image": "geo-atacama",
+    "legende": "L'Atacama, au nord du Chili : coincé entre le Pacifique et les volcans andins, il reçoit 0,8 millimètre de pluie par an à Arica, et certains secteurs n'auraient rien reçu pendant plus de quatre siècles.",
+    "alt": "Paysage du désert d'Atacama : un sol nu, sec et pierreux aux teintes ocre, sans aucune végétation, fermé au loin par des reliefs volcaniques sous un ciel très clair."
+   }
+  },
+  {
+   "titre": "Vivre dans l'aride et lutter contre la désertification",
+   "texte": "Les milieux arides ne sont pas vides d'hommes. Les plantes s'y adaptent en stockant l'eau, comme les succulentes, ou en développant de longues racines ; les animaux limitent leurs pertes en eau et sortent surtout la nuit. Les sociétés humaines ont mis au point deux grandes stratégies : l'élevage nomade, qui déplace les troupeaux au rythme des maigres pâturages, et l'agriculture d'oasis, qui concentre les cultures autour d'un point d'eau grâce à une irrigation soigneusement organisée. Il ne faut pas confondre ces déserts naturels avec la désertification, qui désigne la dégradation des sols des zones arides, semi-arides et subhumides sèches, jusqu'à leur donner un aspect désertique. Ses causes principales sont le surpâturage, la surexploitation agricole, la déforestation et la consommation excessive de bois, une irrigation mal conduite qui salinise les terres, ainsi que la sécheresse et le changement climatique. L'ampleur du phénomène est considérable : environ 70 pour cent des terres arides subissent un processus de désertification, un tiers des terres cultivables du monde sont menacées et près de 250 millions de personnes sont directement concernées. Le Sahel africain, l'Afrique subsaharienne, la Mongolie, l'Australie et le pourtour méditerranéen figurent parmi les régions les plus touchées. Une convention des Nations unies pour lutter contre la désertification a été adoptée en 1994. Sur le terrain, la Grande Muraille verte africaine, lancée en 2007, les cordons de pierres, les demi-lunes et les trous appelés zaï donnent des résultats encourageants."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel seuil de précipitations sert le plus souvent à définir un désert ?",
+   "choix": [
+    "Moins de 100 millimètres par an",
+    "Moins de 250 millimètres par an",
+    "Moins de 500 millimètres par an",
+    "Moins de 1 000 millimètres par an"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Le seuil habituellement retenu est de 250 millimètres de précipitations par an, en dessous duquel la végétation devient rare et discontinue. Lorsque les précipitations tombent sous 50 millimètres par an, on parle de région hyperaride, comme dans le cœur du Sahara ou l'Atacama. Ce critère montre bien qu'un désert se définit par le manque d'eau et non par la chaleur : c'est pourquoi l'Antarctique, qui ne reçoit qu'environ 200 millimètres de précipitations annuelles, est considéré comme un désert froid. Selon cette définition, environ un tiers des terres émergées de la planète est désertique. Le Moyen-Orient est ainsi désertique à 68 pour cent et l'Australie à 49 pour cent."
+  },
+  {
+   "q": "Quelle est approximativement la superficie du Sahara ?",
+   "choix": [
+    "Environ 2 millions de km²",
+    "Environ 5 millions de km²",
+    "Plus de 8,5 millions de km²",
+    "Environ 15 millions de km²"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le Sahara couvre plus de 8,5 millions de kilomètres carrés, soit environ 30 pour cent de la superficie du continent africain, ce qui en fait la plus vaste étendue continue de terres arides du monde. Il s'étire sur 5 000 kilomètres de l'Atlantique à la mer Rouge et concerne dix pays ainsi que le territoire disputé du Sahara occidental. Cette superficie est comparable à celle des États-Unis. Malgré cette immensité, seuls cinq à huit millions de personnes y résident, soit environ un habitant par kilomètre carré. Il ne faut pas le confondre avec l'Antarctique qui, avec ses 14 millions de kilomètres carrés, est techniquement le plus grand désert de la planète, mais un désert froid."
+  },
+  {
+   "q": "Pourquoi les grands déserts chauds se situent-ils vers 30 degrés de latitude ?",
+   "choix": [
+    "Parce qu'ils sont proches des pôles",
+    "Parce que l'air descendant des cellules de Hadley y crée des hautes pressions et assèche l'atmosphère",
+    "Parce qu'il n'y a aucun océan à ces latitudes",
+    "Parce que l'axe de rotation de la Terre y est vertical"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "La circulation générale de l'atmosphère explique cet alignement remarquable. À l'équateur, l'air chaud et humide s'élève, se refroidit et libère des pluies abondantes. Cet air, devenu sec, se dirige en altitude vers le nord et le sud, puis redescend vers 30 à 35 degrés de latitude : ce sont les cellules de Hadley. Or un air qui descend se comprime, se réchauffe et s'éloigne de la saturation, ce qui empêche la formation des nuages et installe des hautes pressions permanentes. On retrouve donc, aux mêmes latitudes dans les deux hémisphères, le Sahara, l'Arabie, le désert de Thar, le Kalahari, l'Atacama et les déserts australiens. D'autres facteurs, comme l'effet d'abri des montagnes, les courants marins froids et la continentalité, viennent compléter ce mécanisme de base."
+  },
+  {
+   "q": "Quelle part du Sahara est réellement couverte de dunes de sable ?",
+   "choix": [
+    "Environ 20 %",
+    "Environ 50 %",
+    "Environ 80 %",
+    "Environ 95 %"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Seuls 20 pour cent environ du Sahara correspondent à des ergs, c'est-à-dire à des mers de dunes de sable. Les 80 pour cent restants sont formés de surfaces rocheuses et caillouteuses : les regs, plaines couvertes de graviers, et les hamadas, plateaux de roche nue. L'image du désert entièrement sableux est donc largement fausse. Le relief saharien est d'ailleurs très varié puisqu'il va de la dépression de Qattara, à 134 mètres sous le niveau de la mer, jusqu'à l'Emi Koussi qui culmine à 3 415 mètres dans le massif volcanique du Tibesti. Cette diversité de milieux explique la variété des paysages et des modes de vie sahariens."
+  },
+  {
+   "q": "Quelles causes expliquent l'aridité extrême du désert d'Atacama ?",
+   "choix": [
+    "La fonte accélérée des glaciers andins",
+    "L'arrivée de la mousson qui bloque les pluies",
+    "Les vents de sable venus d'Australie",
+    "Le courant froid de Humboldt, l'anticyclone du Pacifique et l'effet d'abri des Andes"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Trois mécanismes se conjuguent dans l'Atacama. L'anticyclone permanent du Pacifique Sud installe une subsidence d'air sec au-dessus de la région. Le courant froid de Humboldt, qui remonte le long des côtes chiliennes, refroidit l'air par sa base et le stabilise, si bien que les brouillards côtiers ne se transforment jamais en pluie. Enfin, la cordillère des Andes bloque à l'est les alizés humides venus du bassin amazonien, créant un effet d'abri. Le résultat est spectaculaire : la station d'Arica ne reçoit que 0,8 millimètre de pluie par an et certains secteurs seraient restés sans précipitations pendant plus de quatre siècles. Cette sécheresse durerait depuis au moins sept millions d'années, ce qui fait de l'Atacama l'un des déserts les plus anciens du monde."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Désert",
+   "url": "https://fr.wikipedia.org/wiki/Désert"
+  },
+  {
+   "titre": "Sahara",
+   "url": "https://fr.wikipedia.org/wiki/Sahara"
+  },
+  {
+   "titre": "Désert d'Atacama",
+   "url": "https://fr.wikipedia.org/wiki/Désert_d'Atacama"
+  },
+  {
+   "titre": "Désertification",
+   "url": "https://fr.wikipedia.org/wiki/Désertification"
+  }
+ ]
+}

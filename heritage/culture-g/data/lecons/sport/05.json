@@ -1,0 +1,198 @@
+{
+ "titre": "Les sports d'hiver, de la neige à la glace",
+ "sections": [
+  {
+   "titre": "Des skis utilitaires au sport de montagne",
+   "texte": "Le ski n'a pas été inventé pour le loisir mais pour se déplacer. Des skis en bois retrouvés dans les tourbières de Scandinavie et de Russie ont été datés de plusieurs milliers d'années, et des gravures rupestres du nord de la Norvège montrent des chasseurs glissant sur la neige. Le mot ski lui-même est norvégien et signifie morceau de bois fendu. Pendant des siècles, ces planches ont servi aux paysans, aux chasseurs et aux militaires des pays nordiques à circuler l'hiver. La transformation en pratique sportive s'opère au XIXe siècle en Norvège, dans la région du Telemark. Sondre Norheim y met au point vers 1860 des fixations qui maintiennent le talon et permettent de véritables virages contrôlés, dont l'un porte encore le nom de telemark. Le ski se diffuse ensuite dans les Alpes, où l'explorateur Fridtjof Nansen le popularise par le récit de sa traversée du Groenland en 1888. Deux styles se séparent alors : le ski nordique, hérité de la tradition scandinave, où le talon reste libre, et le ski alpin, adapté aux fortes pentes des Alpes, où le talon est fixé. L'Anglais Arnold Lunn organise la première épreuve de slalom moderne en 1922 et l'Autrichien Hannes Schneider met au point une méthode d'enseignement qui fonde les écoles de ski. L'apparition des remontées mécaniques dans les années 1930 ouvre la voie au tourisme de masse.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Deux styles nés de la même planche",
+    "colonnes": [
+     {
+      "titre": "Le ski nordique",
+      "points": [
+       "Héritier direct de la tradition scandinave, où le ski servait à se déplacer.",
+       "Le talon reste libre.",
+       "Adapté aux terrains vallonnés et aux longues distances.",
+       "Sondre Norheim invente vers 1860 des fixations tenant le talon, dont le virage telemark garde le nom."
+      ]
+     },
+     {
+      "titre": "Le ski alpin",
+      "points": [
+       "Développé dans les Alpes, où Nansen popularise le ski après sa traversée du Groenland en 1888.",
+       "Le talon est fixé sur le ski.",
+       "Adapté aux fortes pentes et à la descente chronométrée.",
+       "Arnold Lunn organise le premier slalom moderne en 1922 ; les remontées mécaniques des années 1930 ouvrent la voie au tourisme de masse."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le ski alpin et ses disciplines",
+   "texte": "Le ski alpin consiste à descendre une pente enneigée en franchissant des portes matérialisées par des piquets, le classement se faisant au chronomètre. Il comprend quatre épreuves principales, que l'on distingue par la longueur du parcours et l'espacement des portes. La descente est la plus rapide et la plus longue : les portes y sont très écartées, la dénivellation dépasse souvent huit cents mètres et les skieurs atteignent des vitesses de plus de cent kilomètres à l'heure, ce qui impose une reconnaissance préalable du tracé et un casque obligatoire. Le slalom, à l'opposé, comporte de nombreuses portes très rapprochées et exige une technique de virage extrêmement rapide ; il se dispute en deux manches dont on additionne les temps. Entre les deux se situent le slalom géant, également en deux manches, et le super-G, épreuve de vitesse disputée en une seule manche apparue dans les années 1980. Le combiné associe une manche de descente et une manche de slalom. La Coupe du monde, créée en 1967 à l'initiative du journaliste Serge Lang, se déroule d'octobre à mars sur les grandes stations d'Europe et d'Amérique du Nord ; le vainqueur du classement général remporte le globe de cristal. Le Suédois Ingemar Stenmark, avec quatre-vingt-six victoires d'étapes obtenues entre 1974 et 1989, reste une référence absolue du circuit.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les épreuves du ski alpin",
+    "colonnes": [
+     "Épreuve",
+     "Portes",
+     "Format"
+    ],
+    "lignes": [
+     [
+      "Descente",
+      "Très écartées",
+      "La plus rapide et la plus longue : dénivelé souvent supérieur à 800 m, vitesses de plus de 100 km/h, reconnaissance du tracé et casque obligatoires."
+     ],
+     [
+      "Super-G",
+      "Écartées",
+      "Épreuve de vitesse en une seule manche, apparue dans les années 1980."
+     ],
+     [
+      "Slalom géant",
+      "Resserrées",
+      "Deux manches dont on additionne les temps."
+     ],
+     [
+      "Slalom",
+      "Très rapprochées",
+      "Deux manches ; technique de virage extrêmement rapide."
+     ],
+     [
+      "Combiné",
+      "-",
+      "Une manche de descente et une manche de slalom."
+     ]
+    ],
+    "note": "La Coupe du monde, créée en 1967 à l'initiative du journaliste Serge Lang, récompense son vainqueur par le globe de cristal. Ingemar Stenmark y a gagné 86 épreuves entre 1974 et 1989."
+   }
+  },
+  {
+   "titre": "Le ski nordique et le biathlon",
+   "texte": "Le ski nordique regroupe les disciplines où le talon n'est pas fixé sur le ski. Le ski de fond consiste à parcourir un circuit vallonné le plus vite possible ; il se pratique selon deux styles. Le style classique consiste à faire glisser les skis parallèlement dans des traces préparées, tandis que le style libre, ou pas de patineur, apparu dans les années 1980, s'apparente au patinage et se révèle nettement plus rapide. Le saut à ski se dispute sur des tremplins normalisés, dits normal ou grand tremplin, et le classement combine la longueur du saut, mesurée à partir d'un point de construction, et des notes de style attribuées par des juges pour la position en vol et la réception, qui doit se faire en fente avant. Le combiné nordique associe une épreuve de saut et une course de fond : les points obtenus au tremplin sont convertis en secondes de retard au départ de la course, si bien que le premier à franchir la ligne d'arrivée est le vainqueur. Le biathlon, enfin, est né des traditions militaires scandinaves : il associe le ski de fond et le tir à la carabine. Le concurrent tire cinq balles à chaque passage sur le pas de tir, alternativement couché et debout ; chaque cible manquée coûte soit un tour de pénalité de cent cinquante mètres, soit une minute, selon les formats.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les disciplines nordiques",
+    "colonnes": [
+     "Discipline",
+     "En quoi elle consiste"
+    ],
+    "lignes": [
+     [
+      "Ski de fond",
+      "Un circuit vallonné couru au chronomètre, en style classique (skis parallèles dans des traces) ou en style libre, le pas de patineur apparu dans les années 1980, nettement plus rapide."
+     ],
+     [
+      "Saut à ski",
+      "Sur tremplin normal ou grand tremplin ; le classement combine la longueur du saut et des notes de style pour le vol et la réception en fente avant."
+     ],
+     [
+      "Combiné nordique",
+      "Saut puis course de fond : les points du tremplin sont convertis en secondes de retard au départ, si bien que le premier sur la ligne gagne."
+     ],
+     [
+      "Biathlon",
+      "Ski de fond et tir à la carabine, hérité des traditions militaires scandinaves : cinq balles par passage, couché puis debout, chaque cible manquée coûtant un tour de pénalité de 150 m ou une minute selon le format."
+     ]
+    ]
+   }
+  },
+  {
+   "titre": "Les sports de glace",
+   "texte": "La glace accueille une famille de sports très différente de celle de la neige. Le patinage artistique, l'une des disciplines les plus anciennes du programme olympique d'hiver, associe difficulté technique et interprétation musicale ; il se compose d'un programme court et d'un programme libre, et se décline en simple messieurs, simple dames, couples et danse sur glace. Les sauts portent des noms de pionniers de la discipline, comme l'axel, le salchow ou le lutz. La Norvégienne Sonja Henie, sacrée championne olympique en 1928, 1932 et 1936, contribua beaucoup à la popularité du patinage. En France, Marina Anissina et Gwendal Peizerat ont remporté le titre olympique de danse sur glace en 2002. Le patinage de vitesse se dispute sur un anneau de quatre cents mètres, par paires ; le short-track, plus spectaculaire, se court en peloton sur une piste courte, avec des contacts et des chutes fréquents. Le hockey sur glace, sport collectif rapide et physique, oppose deux équipes de six joueurs, gardien compris, qui cherchent à envoyer un palet dans le but adverse ; il domine la culture sportive du Canada, où le trophée de la Coupe Stanley existe depuis 1893. Le curling, né en Écosse au XVIe siècle, consiste à faire glisser des pierres de granit vers une cible, deux équipiers balayant la glace pour infléchir leur trajectoire. Bobsleigh, luge et skeleton complètent l'ensemble sur des pistes glacées à virages relevés."
+  },
+  {
+   "titre": "Les Jeux olympiques d'hiver",
+   "texte": "Contrairement aux Jeux d'été, les Jeux olympiques d'hiver sont une création tardive. Une semaine internationale des sports d'hiver est organisée à Chamonix en 1924 sous le patronage du Comité international olympique ; son succès conduit à lui reconnaître rétroactivement le statut de premiers Jeux olympiques d'hiver. Ils se sont ensuite tenus tous les quatre ans, la même année que les Jeux d'été, jusqu'à l'édition d'Albertville en 1992. Le Comité international olympique décida alors de décaler le calendrier afin de répartir les grands rendez-vous : l'édition suivante eut lieu dès 1994 à Lillehammer, et les deux Jeux alternent depuis tous les deux ans. La France a organisé trois éditions : Chamonix en 1924, Grenoble en 1968 et Albertville en 1992. Les Jeux de Grenoble ont donné lieu au triomphe de Jean-Claude Killy, vainqueur des trois épreuves de ski alpin alors au programme, la descente, le slalom géant et le slalom. Le programme s'est beaucoup élargi au fil des décennies : le ski freestyle puis le snowboard, entré au programme en 1998 à Nagano, ont apporté un public plus jeune et des épreuves acrobatiques comme le half-pipe ou le slopestyle. Parmi les grandes figures françaises récentes, le biathlète Martin Fourcade a remporté cinq titres olympiques entre 2014 et 2018, devenant l'un des sportifs français les plus titrés.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Les Jeux d'hiver, une création tardive",
+    "evenements": [
+     {
+      "date": "1924",
+      "label": "Semaine des sports d'hiver de Chamonix",
+      "texte": "Reconnue après coup comme les premiers Jeux olympiques d'hiver."
+     },
+     {
+      "date": "1968",
+      "label": "Grenoble",
+      "texte": "Jean-Claude Killy gagne les trois épreuves alpines au programme : descente, slalom géant et slalom."
+     },
+     {
+      "date": "1992",
+      "label": "Albertville",
+      "texte": "Dernière édition disputée la même année que les Jeux d'été."
+     },
+     {
+      "date": "1994",
+      "label": "Lillehammer",
+      "texte": "Le calendrier est décalé : les deux Jeux alternent désormais tous les deux ans."
+     },
+     {
+      "date": "1998",
+      "label": "Nagano",
+      "texte": "Le snowboard entre au programme et amène un public plus jeune."
+     },
+     {
+      "date": "2014-2018",
+      "label": "Les cinq titres de Martin Fourcade",
+      "texte": "Le biathlète devient l'un des sportifs français les plus titrés."
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Dans quelle ville se sont tenus les premiers Jeux olympiques d'hiver, en 1924 ?",
+   "choix": [
+    "Grenoble",
+    "Chamonix",
+    "Saint-Moritz",
+    "Oslo"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Les premiers Jeux olympiques d'hiver se sont déroulés à Chamonix en 1924. L'événement était d'abord présenté comme une semaine internationale des sports d'hiver, et ce n'est qu'après coup que le Comité international olympique lui reconnut le statut de premiers Jeux d'hiver. La France a ensuite organisé deux autres éditions, à Grenoble en 1968 et à Albertville en 1992. Saint-Moritz, en Suisse, accueillit les Jeux de 1928 et de 1948. Oslo fut ville hôte en 1952."
+  },
+  {
+   "q": "Quelle discipline associe le ski de fond et le tir à la carabine ?",
+   "choix": [
+    "Le combiné nordique",
+    "Le skeleton",
+    "Le télémark",
+    "Le biathlon"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "Le biathlon associe le ski de fond et le tir à la carabine. Il trouve son origine dans les traditions militaires et de chasse des pays scandinaves. Le concurrent tire cinq balles à chaque passage sur le pas de tir, alternativement en position couchée et en position debout, la cible étant plus petite lorsqu'il est couché. Chaque cible manquée est sanctionnée par un tour de pénalité de cent cinquante mètres ou par une pénalité de temps selon les formats de course. Le combiné nordique, lui, associe le saut à ski et une course de fond."
+  },
+  {
+   "q": "Quelle épreuve de ski alpin est la plus rapide, avec les portes les plus écartées ?",
+   "choix": [
+    "La descente",
+    "Le slalom",
+    "Le slalom géant",
+    "Le combiné"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "La descente est l'épreuve de vitesse par excellence du ski alpin : les portes y sont très espacées, la dénivellation est importante et les skieurs peuvent dépasser cent kilomètres à l'heure. En raison des risques, une reconnaissance du tracé et des entraînements chronométrés sont obligatoires avant la course. Le slalom est au contraire l'épreuve technique, avec des portes très rapprochées et deux manches dont les temps s'additionnent. Le slalom géant se situe entre les deux, et le super-G est une épreuve de vitesse en une seule manche apparue dans les années 1980. Le combiné associe une descente et un slalom."
+  },
+  {
+   "q": "Pourquoi les Jeux olympiques d'hiver de Lillehammer ont-ils eu lieu en 1994, seulement deux ans après ceux d'Albertville ?",
+   "choix": [
+    "Parce que les Jeux de 1992 avaient été écourtés",
+    "Pour compenser une édition annulée",
+    "En raison d'un manque de neige en 1992",
+    "Parce que le CIO a décidé d'alterner Jeux d'hiver et Jeux d'été tous les deux ans"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Jusqu'en 1992, les Jeux d'hiver et les Jeux d'été se déroulaient la même année. Le Comité international olympique a décidé de décaler le calendrier afin de mieux répartir les grands rendez-vous et d'éviter la concurrence médiatique entre les deux événements. Albertville fut donc la dernière édition organisée la même année que des Jeux d'été, et Lillehammer fut avancée à 1994. Depuis, Jeux d'hiver et Jeux d'été alternent tous les deux ans, chacun conservant son cycle de quatre ans. Aucune édition n'a été annulée à cette occasion."
+  }
+ ]
+}

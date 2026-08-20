@@ -1,0 +1,173 @@
+{
+ "titre": "L'art du Moyen Âge : roman, gothique et enluminure",
+ "sections": [
+  {
+   "titre": "Des royaumes barbares à l'an mil",
+   "texte": "Le haut Moyen Âge, entre la chute de l'Empire romain d'Occident en 476 et l'an mil, voit se recomposer lentement une culture visuelle. Les peuples germaniques apportent un art de l'orfèvrerie et du métal, fondé sur l'entrelacs, la stylisation animale et l'incrustation de grenats, dont témoignent les trésors funéraires de Sutton Hoo, en Angleterre, conservés au British Museum. Dans les îles Britanniques, la rencontre de ces motifs avec le christianisme produit l'art insulaire des monastères irlandais et northumbriens : le Livre de Kells, manuscrit du IXe siècle conservé à Trinity College à Dublin, en est le sommet, avec ses pages tapis entièrement couvertes de spirales et de nœuds. Sur le continent, la renaissance carolingienne, voulue par Charlemagne autour de l'an 800, restaure délibérément des modèles antiques et impériaux : la chapelle palatine d'Aix-la-Chapelle s'inspire d'édifices à plan central de Ravenne, et les ateliers de copistes fixent une écriture nouvelle, la minuscule caroline. L'art byzantin, dans l'Empire d'Orient, suit sa propre voie, avec la mosaïque à fond d'or, l'icône et des édifices comme Sainte-Sophie de Constantinople, achevée en 537. La querelle des images qui déchire Byzance aux VIIIe et IXe siècles, l'iconoclasme, aboutit finalement à la justification théologique de l'image religieuse, décisive pour tout l'art médiéval.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Mille ans d'art médiéval",
+    "evenements": [
+     {
+      "date": "476",
+      "label": "Chute de l'Empire d'Occident",
+      "texte": "Les peuples germaniques apportent l'orfèvrerie, l'entrelacs et l'incrustation de grenats."
+     },
+     {
+      "date": "537",
+      "label": "Sainte-Sophie",
+      "texte": "L'art byzantin fixe la mosaïque à fond d'or et l'icône."
+     },
+     {
+      "date": "vers 800",
+      "label": "Renaissance carolingienne",
+      "texte": "Charlemagne restaure les modèles antiques ; naissance de la minuscule caroline."
+     },
+     {
+      "date": "XIe-XIIe siècle",
+      "label": "Art roman",
+      "texte": "Le blanc manteau d'églises : voûtes de pierre, murs épais, tympans sculptés."
+     },
+     {
+      "date": "1144",
+      "label": "Chœur de Saint-Denis",
+      "texte": "Suger associe croisée d'ogives, arc brisé et bientôt arc-boutant : le gothique commence."
+     },
+     {
+      "date": "1194",
+      "label": "Chartres",
+      "texte": "Reconstruction après l'incendie ; environ 160 verrières médiévales conservées."
+     },
+     {
+      "date": "vers 1411",
+      "label": "Très Riches Heures",
+      "texte": "Les frères de Limbourg peignent pour le duc de Berry le livre d'heures le plus célèbre."
+     },
+     {
+      "date": "1432",
+      "label": "L'Agneau mystique",
+      "texte": "Van Eyck achève à Gand le manifeste de la peinture à l'huile flamande."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "L'art roman : la voûte et le mur",
+   "texte": "Le terme roman, forgé au début du XIXe siècle, désigne l'art des XIe et XIIe siècles en Europe occidentale, marqué par la reprise du plein cintre hérité de Rome. Un chroniqueur du XIe siècle, Raoul Glaber, décrit l'Occident se couvrant après l'an mil d'un blanc manteau d'églises : l'essor démographique, la réforme monastique et les pèlerinages soutiennent en effet un vaste chantier. L'église romane se reconnaît à ses murs épais, à ses contreforts massifs, à ses ouvertures étroites et à sa voûte de pierre, en berceau ou d'arêtes, qui remplace les charpentes exposées aux incendies. Le plan basilical s'enrichit d'un chevet à déambulatoire et chapelles rayonnantes, destiné à faire circuler les pèlerins autour des reliques, comme à Sainte-Foy de Conques. L'abbaye de Cluny, en Bourgogne, rayonne sur des centaines de prieurés et sa troisième église, commencée en 1088 et détruite après la Révolution, fut longtemps la plus vaste de la chrétienté. La sculpture, presque disparue depuis l'Antiquité, renaît sur les chapiteaux et surtout sur les tympans des portails : celui de Sainte-Foy de Conques, comme celui de Saint-Lazare d'Autun signé Gislebertus, déploie un Jugement dernier où les corps s'allongent ou se tassent pour épouser le cadre architectural. La peinture murale, à Saint-Savin-sur-Gartempe, couvre les voûtes de cycles bibliques.",
+   "visuel": {
+    "type": "image",
+    "image": "am-conques-tympan",
+    "legende": "Le tympan de l'abbatiale Sainte-Foy de Conques, XIIe siècle : un Jugement dernier où les corps s'allongent ou se tassent pour épouser le cadre architectural.",
+    "alt": "Demi-cercle de pierre sculptée au-dessus d'un portail : le Christ en majesté dans une mandorle, bras écartés, entouré de registres superposés où défilent élus rangés en ordre et damnés entassés dans la gueule de l'enfer."
+   }
+  },
+  {
+   "titre": "Le gothique : lumière, hauteur et vitrail",
+   "texte": "Le gothique naît en Île-de-France au milieu du XIIe siècle. L'abbé Suger, reconstruisant le chœur de l'abbatiale de Saint-Denis consacré en 1144, y associe pour la première fois de façon systématique trois techniques déjà connues isolément : la croisée d'ogives, l'arc brisé et, bientôt, l'arc-boutant. Ce dispositif concentre les poussées de la voûte sur des piliers et des contreforts extérieurs, ce qui libère les murs de leur fonction porteuse. L'architecture peut alors s'élever et s'ouvrir : à Notre-Dame de Paris, commencée en 1163, à Chartres, reconstruite après l'incendie de 1194, à Amiens ou à Beauvais dont le chœur atteint quarante-huit mètres sous voûte, la nef devient une cage de verre. Le vitrail, fait de pièces de verre coloré serties de plomb, remplace la peinture murale et transforme la lumière en matière théologique : Chartres conserve environ cent soixante verrières médiévales, et la Sainte-Chapelle de Paris, achevée en 1248 pour abriter la couronne d'épines acquise par Saint Louis, en est l'aboutissement. La sculpture se détache du mur et gagne en naturalisme, des statues-colonnes du portail royal de Chartres aux figures souriantes de Reims. Au XVe siècle, le gothique flamboyant multiplie les remplages en forme de flamme, tandis que l'Angleterre développe son propre style perpendiculaire, aux voûtes en éventail.",
+   "visuels": [
+    {
+     "type": "comparaison",
+     "titre": "Roman et gothique",
+     "colonnes": [
+      {
+       "titre": "Roman (XIe-XIIe s.)",
+       "points": [
+        "Voûte en berceau ou d'arêtes, sur plein cintre",
+        "Murs épais et porteurs, contreforts massifs",
+        "Ouvertures étroites, intérieur sombre",
+        "La peinture murale couvre les voûtes, comme à Saint-Savin",
+        "Sculpture concentrée sur les chapiteaux et les tympans"
+       ]
+      },
+      {
+       "titre": "Gothique (à partir de 1144)",
+       "points": [
+        "Croisée d'ogives et arc brisé",
+        "Arcs-boutants : les poussées passent à l'extérieur, le mur ne porte plus",
+        "Vastes baies, nef en cage de verre, jusqu'à 48 m sous voûte à Beauvais",
+        "Le vitrail remplace la peinture murale et colore la lumière",
+        "Statues-colonnes détachées du mur, visages souriants à Reims"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "image",
+     "image": "am-amiens-nef",
+     "legende": "La nef de la cathédrale d'Amiens : la croisée d'ogives et l'arc-boutant permettent d'élever les voûtes et d'ouvrir les murs.",
+     "alt": "Intérieur d'une cathédrale gothique vu vers l'ouest : piliers très élancés, grandes arcades surmontées d'un triforium et de hautes fenêtres, voûtes sur croisées d'ogives, grande rose au fond."
+    }
+   ]
+  },
+  {
+   "titre": "Le manuscrit enluminé, livre et image",
+   "texte": "Avant l'imprimerie, le livre médiéval est un objet manuscrit, copié à la main sur du parchemin, peau de mouton ou de veau traitée, puis relié en cahiers. Sa fabrication mobilise le copiste, le rubricateur qui trace en rouge titres et initiales, et l'enlumineur qui peint les images. Le mot enluminure vient du latin illuminare, éclairer, en référence à l'or posé en feuille sur une préparation en relief, qui capte la lumière des bougies. Les pigments proviennent de minéraux ou de plantes : l'outremer, le plus coûteux, était tiré du lapis-lazuli importé d'Afghanistan. Jusqu'au XIIe siècle, la production reste principalement monastique ; à partir du XIIIe siècle, avec l'essor des universités et de la clientèle laïque, des ateliers urbains s'installent à Paris, à Bruges ou à Bologne. Le livre d'heures, recueil de prières destiné aux laïcs, devient le best-seller de la fin du Moyen Âge. Les Très Riches Heures du duc de Berry, commencées vers 1411 par les frères de Limbourg et conservées au musée Condé de Chantilly, en offrent l'exemple le plus célèbre avec leur calendrier illustré de châteaux et de travaux des champs. Le décor comprend les lettrines historiées, les miniatures en pleine page et les drôleries des marges, où se glissent animaux et scènes comiques. La broderie de Bayeux, longue de près de soixante-dix mètres, raconte pour sa part la conquête de l'Angleterre en 1066."
+  },
+  {
+   "titre": "L'automne du Moyen Âge et les primitifs flamands",
+   "texte": "Aux XIVe et XVe siècles, tandis que l'Italie amorce la Renaissance, l'Europe du Nord porte à son terme la tradition gothique en la renouvelant profondément. En Italie même, Giotto rompt dès le début du XIVe siècle avec l'espace plat de la peinture byzantine : ses fresques de la chapelle Scrovegni à Padoue, achevées vers 1305, donnent aux personnages un volume, un poids et une émotion nouvelle. Vers 1400, le gothique international, art de cour raffiné et précieux, circule de Prague à Paris et à Dijon. En Flandre, terre de villes riches et de commanditaires marchands, une révolution technique s'opère avec la peinture à l'huile, dont Jan van Eyck perfectionne l'usage : les glacis superposés permettent une profondeur de couleur et une minutie inédites. Le retable de l'Agneau mystique, achevé en 1432 pour la cathédrale Saint-Bavon de Gand, et les Époux Arnolfini, daté de 1434 et conservé à la National Gallery de Londres, en témoignent. Rogier van der Weyden bouleverse par sa Descente de Croix du musée du Prado, Hugo van der Goes et Hans Memling poursuivent cette voie, tandis que Jérôme Bosch invente un imaginaire fantastique avec le Jardin des délices, également au Prado. La sculpture connaît aussi son maître avec Claus Sluter et le puits de Moïse à Dijon. L'invention de l'imprimerie par Gutenberg vers 1450 va bientôt bouleverser la diffusion des images."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel édifice est généralement considéré comme l'acte de naissance de l'architecture gothique ?",
+   "choix": [
+    "La cathédrale de Chartres",
+    "Le chœur de l'abbatiale de Saint-Denis",
+    "La Sainte-Chapelle de Paris",
+    "L'abbaye de Cluny"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "C'est le chœur de l'abbatiale de Saint-Denis, reconstruit à l'initiative de l'abbé Suger et consacré en 1144, qui associe pour la première fois de manière cohérente la croisée d'ogives, l'arc brisé et de larges verrières. Suger a lui-même laissé des écrits expliquant sa théologie de la lumière divine. Chartres et la Sainte-Chapelle sont des réalisations gothiques postérieures, respectivement de la fin du XIIe siècle et du milieu du XIIIe siècle. Cluny, en Bourgogne, est au contraire le grand chantier de l'art roman."
+  },
+  {
+   "q": "Quelle voûte est caractéristique de l'église romane ?",
+   "choix": [
+    "La voûte en éventail",
+    "La coupole sur pendentifs de brique creuse",
+    "La voûte réticulée",
+    "La voûte en berceau plein cintre"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "L'art roman reprend l'arc en plein cintre, c'est-à-dire en demi-cercle, hérité de l'architecture romaine, et couvre ses nefs de voûtes en berceau ou d'arêtes. Comme ces voûtes exercent une poussée continue sur toute la longueur des murs, ceux-ci doivent rester épais et peu percés, ce qui donne aux édifices romans leur aspect massif et leur pénombre. La voûte en éventail appartient au gothique perpendiculaire anglais et la voûte réticulée au gothique tardif germanique. Le remplacement du berceau par la croisée d'ogives, qui concentre les poussées sur des points d'appui, marquera précisément le passage au gothique."
+  },
+  {
+   "q": "Qui a peint les fresques de la chapelle Scrovegni à Padoue, achevées vers 1305 ?",
+   "choix": [
+    "Giotto",
+    "Cimabue",
+    "Duccio",
+    "Simone Martini"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Giotto di Bondone a couvert vers 1303-1305 les murs de la chapelle Scrovegni, également appelée chapelle de l'Arena, d'un cycle consacré à la vie de la Vierge et du Christ. Il y abandonne les fonds d'or et les figures plates de la tradition byzantine au profit de personnages volumineux, placés dans des décors qui suggèrent la profondeur, et animés d'une émotion humaine. Cimabue, souvent présenté comme son maître, appartient à la génération précédente. Duccio et Simone Martini sont des maîtres de l'école siennoise, contemporaine mais plus attachée au raffinement gothique."
+  },
+  {
+   "q": "Quelle innovation technique les primitifs flamands, notamment Jan van Eyck, ont-ils portée à un haut degré de maîtrise ?",
+   "choix": [
+    "La fresque a fresco",
+    "La gravure sur bois de fil",
+    "La peinture à l'huile et ses glacis",
+    "Le pastel sec"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Jan van Eyck n'a pas inventé la peinture à l'huile, connue auparavant, mais il en a perfectionné l'emploi en superposant des couches transparentes appelées glacis. Ce procédé, qui sèche lentement, permet des transitions subtiles, une profondeur lumineuse et un rendu minutieux des matières comme le velours, le métal ou la fourrure. Les Époux Arnolfini, daté de 1434 et conservé à la National Gallery de Londres, en offre une démonstration célèbre, jusqu'au miroir convexe du fond. La fresque, technique dominante en Italie, exige au contraire une exécution rapide sur enduit frais."
+  },
+  {
+   "q": "Où sont conservées Les Très Riches Heures du duc de Berry ?",
+   "choix": [
+    "À la Bibliothèque nationale de France, à Paris",
+    "À Trinity College, à Dublin",
+    "Au British Library, à Londres",
+    "Au musée Condé, à Chantilly"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Ce livre d'heures, commencé vers 1411 par les frères de Limbourg pour Jean de Berry et resté inachevé à leur mort en 1416, est conservé au musée Condé du château de Chantilly, légué à l'Institut de France par le duc d'Aumale. Son calendrier illustre chaque mois par une scène de travaux des champs ou de vie de cour, surmontée d'un char solaire et d'un zodiaque. C'est le Livre de Kells qui se trouve à Trinity College à Dublin. La Bibliothèque nationale de France et la British Library conservent quant à elles d'autres fonds de manuscrits médiévaux majeurs."
+  }
+ ]
+}

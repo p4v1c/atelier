@@ -1,0 +1,189 @@
+{
+ "titre": "Néoclassicisme et romantisme en peinture",
+ "sections": [
+  {
+   "titre": "Le néoclassicisme, ou le retour aux sources antiques",
+   "texte": "Le néoclassicisme apparaît vers 1750 dans l'Europe des Lumières, atteint son sommet entre 1780 et 1800 et décline après 1810, lorsque le romantisme prend le dessus. Il se présente comme un retour aux sources de l'art, c'est-à-dire aux modèles grecs, étrusques et romains. Le mouvement naît à Rome, au moment où la redécouverte de Pompéi et d'Herculanum, ensevelies par le Vésuve, offre pour la première fois des maisons antiques entières avec leurs décors. Le Grand Tour, ce voyage de formation que les aristocrates européens accomplissent en Italie, met des générations entières en contact direct avec les ruines. Sur le plan théorique, l'Allemand Johann Joachim Winckelmann fournit le socle intellectuel du mouvement avec son texte de 1755 sur l'imitation de l'art grec, où il célèbre la noble simplicité et la grandeur calme des Anciens. Les caractéristiques du style découlent de ce programme : rejet des excès ornementaux du rococo, recherche de la simplicité, de l'ordre et de la vertu morale, formes géométriques, clarté du dessin, exactitude archéologique des costumes et des accessoires, symétrie dominante des compositions. En sculpture, Antonio Canova et le Danois Bertel Thorvaldsen imposent ce langage ; en architecture, l'Écossais Robert Adam, puis Charles Percier et Pierre Fontaine pour le style Empire, et l'Allemand Karl Friedrich Schinkel. De ce tronc commun dérivent plusieurs styles nationaux : le style Adam, le Directoire, l'Empire, le Federal Style américain et le Biedermeier germanique."
+  },
+  {
+   "titre": "Jacques-Louis David, de la Révolution à l'Empire",
+   "texte": "Jacques-Louis David, né à Paris le 30 août 1748 et mort à Bruxelles le 29 décembre 1825, est la figure dominante du néoclassicisme français. Lauréat du prix de Rome en 1774, il séjourne quatre ans à l'Académie de France à Rome, où se forge son style : dessin ferme, lumière sculpturale, composition frontale et dépouillée. « Le Serment des Horaces », peint en 1785 et conservé au Louvre, en donne la formule la plus célèbre, où le sacrifice à la patrie s'exprime par des corps tendus et des gestes rigoureux. Élu député à la Convention nationale en septembre 1792, David vote la mort de Louis XVI en janvier 1793, organise les grandes fêtes révolutionnaires et soutient Robespierre ; il est emprisonné après la réaction thermidorienne. « La Mort de Marat », de 1793, aujourd'hui aux Musées royaux des beaux-arts de Belgique, transforme un assassinat politique en icône laïque, avec sa lumière froide et son fond vide. Sous l'Empire, il devient le peintre officiel de Napoléon : « Le Sacre de Napoléon », immense composition conservée au Louvre, met la peinture d'histoire au service du nouveau régime, tandis que « Bonaparte franchissant le Grand-Saint-Bernard » existe en plusieurs versions. On lui doit encore « Les Sabines » et « Léonidas aux Thermopyles », tous deux au Louvre. La Restauration le contraint à l'exil à Bruxelles, où il peint jusqu'à sa mort. Son atelier forme les principaux peintres de la génération suivante, parmi lesquels Girodet, Gérard, Gros et Ingres.",
+   "visuel": {
+    "type": "frise",
+    "titre": "David, un peintre dans l'histoire",
+    "evenements": [
+     {
+      "date": "1774",
+      "label": "Prix de Rome",
+      "texte": "Quatre ans à l'Académie de France à Rome, où se forge son style."
+     },
+     {
+      "date": "1785",
+      "label": "Le Serment des Horaces",
+      "texte": "Le sacrifice à la patrie en corps tendus et gestes rigoureux."
+     },
+     {
+      "date": "1792-1793",
+      "label": "Le conventionnel",
+      "texte": "Député à la Convention, il vote la mort de Louis XVI et organise les fêtes révolutionnaires."
+     },
+     {
+      "date": "1793",
+      "label": "La Mort de Marat",
+      "texte": "Un assassinat politique transformé en icône laïque."
+     },
+     {
+      "date": "Empire",
+      "label": "Peintre de Napoléon",
+      "texte": "Le Sacre met la peinture d'histoire au service du régime."
+     },
+     {
+      "date": "1816-1825",
+      "label": "Exil à Bruxelles",
+      "texte": "La Restauration le chasse ; il y peint jusqu'à sa mort."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Ingres et la primauté du dessin",
+   "texte": "Jean-Auguste-Dominique Ingres, né à Montauban le 29 août 1780 et mort à Paris le 14 janvier 1867, prolonge la leçon néoclassique bien au-delà de son époque. Formé à Toulouse puis dans l'atelier de David à Paris, il remporte le prix de Rome en 1801 et passe de longues années en Italie. Toute sa doctrine tient dans une conviction : la primauté du dessin sur la couleur. Pour lui, la ligne contient la forme, la construit et suffit à la beauté, tandis que la couleur ne fait que l'habiller. Il combat donc avec constance le romantisme naissant et, plus tard, le réalisme. Ce parti pris produit une peinture d'une netteté extrême, où les contours sont d'une pureté presque abstraite. « La Grande Odalisque », peinte en 1814, allonge le dos de la figure au mépris de l'anatomie pour obtenir une courbe continue, ce qui lui vaut des critiques immédiates. « Le Vœu de Louis XIII », en 1824, lui assure au contraire la consécration officielle et fait de lui le chef de file de la tradition classique. Suivent « La Source » en 1856 et « Le Bain turc » en 1862, œuvre de sa vieillesse, composée en tondo. Ses portraits, très nombreux, comptent parmi les plus admirés du siècle. Sa rivalité avec Delacroix structure tout le débat artistique français du XIXe siècle. Violoniste accompli, il finança d'ailleurs ses premières études par la musique. Picasso et Matisse se réclameront de son sens de la ligne."
+  },
+  {
+   "titre": "La révolte romantique et Le Radeau de la Méduse",
+   "texte": "La peinture romantique se définit d'abord par opposition. Là où le néoclassicisme met en avant la beauté idéale, le rationalisme, la vertu, la ligne et le culte de l'Antiquité, le romantisme revendique le cœur et la passion, l'irrationnel et l'imagination, le désordre et l'exaltation, la couleur et la touche visible. Il retrouve ainsi certaines audaces du baroque, et se nourrit d'un goût nouveau pour le Moyen Âge, les traditions du Nord de l'Europe, l'exotisme, le drame et la violence psychologique. Théodore Géricault (1791-1824) en donne le manifeste avec « Le Radeau de la Méduse », peint entre 1818 et 1819, immense toile de 491 sur 716 centimètres conservée au musée du Louvre. Le sujet est un fait divers politique : en juillet 1816, la frégate française la Méduse s'échoue sur un banc de sable au large de la Mauritanie ; cent quarante-sept personnes sont abandonnées sur un radeau de fortune et, au bout de douze à treize jours, quinze seulement sont sauvées, après la faim, le désespoir et le cannibalisme. Géricault, âgé de vingt-sept ans, enquête comme un journaliste : il rencontre les rescapés Henri Savigny et Alexandre Corréard, étudie des corps à la morgue, fait construire une maquette du radeau, et travaille reclus de novembre 1818 à juin 1819. Au Salon de 1819, les tenants du classicisme n'y voient qu'un amas de cadavres, mais l'exposition londonienne de 1820 attire quarante mille visiteurs.",
+   "visuels": [
+    {
+     "type": "comparaison",
+     "titre": "Néoclassicisme et romantisme",
+     "colonnes": [
+      {
+       "titre": "Néoclassicisme",
+       "points": [
+        "Beauté idéale et vertu morale",
+        "Raison, ordre, symétrie",
+        "Primauté du dessin et de la ligne",
+        "Modèles grecs et romains, exactitude archéologique",
+        "David, Ingres, Canova"
+       ]
+      },
+      {
+       "titre": "Romantisme",
+       "points": [
+        "Le cœur, la passion, l'imagination",
+        "Désordre et exaltation",
+        "Primauté de la couleur et de la touche visible",
+        "Moyen Âge, Nord de l'Europe, exotisme, fait divers dramatique",
+        "Géricault, Delacroix, Friedrich"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "image",
+     "image": "am-radeau-meduse",
+     "legende": "Théodore Géricault, « Le Radeau de la Méduse », 1818-1819 : un fait divers récent traité au format de la peinture d'histoire, près de cinq mètres sur sept.",
+     "alt": "Toile sombre : sur un radeau de fortune battu par la houle, des naufragés hâves et des cadavres s'entassent ; à la pointe de la composition en pyramide, un homme debout agite un linge vers un navire minuscule à l'horizon."
+    }
+   ]
+  },
+  {
+   "titre": "Delacroix, la couleur et le voyage en Orient",
+   "texte": "Eugène Delacroix, né à Charenton-Saint-Maurice le 26 avril 1798 et mort à Paris le 13 août 1863, devient le chef de file du romantisme français. Il se fait connaître au Salon avec « La Barque de Dante » en 1822, puis avec « Scènes des massacres de Scio » en 1824, inspirée de la guerre d'indépendance grecque, qui lui vaut une médaille de deuxième classe ; les deux toiles sont au Louvre. « La Mort de Sardanapale », peinte en 1827-1828 et également conservée au Louvre, provoque un scandale par son entassement de corps, d'étoffes et d'ors dans une composition tourbillonnante que la critique juge incompréhensible. En 1830, « La Liberté guidant le peuple », toujours au Louvre, transforme les Trois Glorieuses en allégorie et devient l'une des images politiques les plus reprises au monde. Le voyage que Delacroix accomplit de janvier à juillet 1832 en Algérie et au Maroc bouleverse sa palette : il y découvre une lumière et des couleurs qui nourriront des dizaines de tableaux, dont « Femmes d'Alger dans leur appartement », peint en 1834. Sa véritable révolution est technique : il juxtapose des contrastes colorés au lieu de modeler par le seul clair-obscur, et laisse la touche apparente. Il conduit par ailleurs de grands décors monumentaux. Son influence traverse le siècle jusqu'à Van Gogh et Matisse. Dans le même temps, en Allemagne, Caspar David Friedrich peint des paysages sublimes comme « L'Abbaye dans une chênaie » (1809-1810).",
+   "visuel": {
+    "type": "image",
+    "image": "hf-liberte-delacroix",
+    "legende": "Eugène Delacroix, « La Liberté guidant le peuple », 1830 : les Trois Glorieuses transformées en allégorie.",
+    "alt": "Une femme au bonnet phrygien, torse nu, brandit le drapeau tricolore et un fusil ; elle avance sur une barricade jonchée de corps, entourée d'un gamin armé de pistolets et d'un bourgeois au chapeau haut de forme, dans la fumée des combats."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel auteur fournit en 1755 le socle théorique du néoclassicisme en célébrant l'imitation de l'art grec ?",
+   "choix": [
+    "Denis Diderot",
+    "Johann Joachim Winckelmann",
+    "Gotthold Ephraim Lessing",
+    "Giorgio Vasari"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Johann Joachim Winckelmann publie en 1755 un texte sur l'imitation de l'art grec qui devient la référence du mouvement. Il y oppose la noble simplicité des Anciens à la surcharge du rococo alors dominant. Ses idées circulent d'autant mieux que la redécouverte de Pompéi et d'Herculanum offre à la même époque des vestiges antiques exceptionnellement conservés. Le Grand Tour, voyage d'étude des aristocrates en Italie, achève de diffuser ce goût dans toute l'Europe. Vasari, lui, est un auteur du XVIe siècle qui écrivit sur les artistes de la Renaissance."
+  },
+  {
+   "q": "Où est conservée « La Mort de Marat », peinte par David en 1793 ?",
+   "choix": [
+    "Au musée du Louvre, à Paris",
+    "Au château de Versailles",
+    "Aux Musées royaux des beaux-arts de Belgique",
+    "Au musée Carnavalet, à Paris"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "« La Mort de Marat » est conservée aux Musées royaux des beaux-arts de Belgique. Ce lieu s'explique par la biographie de David : député à la Convention, il avait voté la mort de Louis XVI en janvier 1793, puis servi l'Empire, ce qui lui valut l'exil à Bruxelles sous la Restauration. Le tableau y suivit son auteur. Plusieurs autres œuvres majeures de David, en revanche, sont bien au Louvre, comme « Le Serment des Horaces » de 1785, « Les Sabines », « Léonidas aux Thermopyles » et « Le Sacre de Napoléon ». Retenir cette exception est un bon moyen de mémoriser le parcours politique du peintre."
+  },
+  {
+   "q": "Quelle formule résume la doctrine artistique d'Ingres ?",
+   "choix": [
+    "La primauté de la couleur sur le dessin",
+    "La primauté du dessin sur la couleur",
+    "La primauté du sujet sur la forme",
+    "La primauté de l'impression sur l'observation"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Ingres défendit toute sa vie la primauté du dessin sur la couleur : pour lui, la ligne construit la forme et suffit à la beauté, la couleur ne venant qu'ensuite. Cette position, héritée de son maître David, le conduisit à combattre le romantisme puis le réalisme. Elle explique la netteté extrême de ses contours, quitte à déformer l'anatomie pour la beauté de la courbe, comme dans « La Grande Odalisque » de 1814. Sa rivalité avec Delacroix, champion de la couleur, structura tout le débat artistique du XIXe siècle français. Cette opposition entre dessin et couleur traverse en réalité l'histoire de l'art depuis la Renaissance."
+  },
+  {
+   "q": "Quel événement réel Géricault a-t-il représenté dans « Le Radeau de la Méduse » ?",
+   "choix": [
+    "Une bataille navale de l'Empire",
+    "Une tempête au large de la Bretagne",
+    "Une expédition polaire disparue",
+    "Le naufrage d'une frégate française au large de la Mauritanie en 1816"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "En juillet 1816, la frégate française la Méduse s'échoua sur un banc de sable au large de la Mauritanie. Cent quarante-sept personnes furent abandonnées sur un radeau de fortune, et quinze seulement survécurent après douze à treize jours de faim, de désespoir et de cannibalisme. Géricault mena une véritable enquête : rencontre des rescapés Savigny et Corréard, étude de corps à la morgue, construction d'une maquette du radeau, travail reclus de novembre 1818 à juin 1819. La toile mesure 491 sur 716 centimètres et se trouve au Louvre. Choisir un fait divers contemporain pour un format réservé à l'histoire ou à la mythologie était en soi un geste de rupture."
+  },
+  {
+   "q": "Quel voyage transforme profondément la palette de Delacroix en 1832 ?",
+   "choix": [
+    "Un séjour de six mois en Algérie et au Maroc",
+    "Un voyage d'étude en Italie",
+    "Une traversée de la Grèce en guerre",
+    "Un séjour à Londres auprès de Turner"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "De janvier à juillet 1832, Delacroix voyage en Algérie et au Maroc, où il découvre une lumière et des harmonies colorées qui nourriront son œuvre pendant trente ans. « Femmes d'Alger dans leur appartement », peinte en 1834, en est le fruit le plus célèbre. Ce voyage renforce sa manière propre : juxtaposer des contrastes de couleurs plutôt que modeler par le seul clair-obscur, et laisser la touche visible. Il avait déjà traité un sujet oriental sans y être allé, avec « Scènes des massacres de Scio » en 1824, inspirée de la guerre d'indépendance grecque. Cette technique de la couleur annonce directement l'impressionnisme et influencera Van Gogh puis Matisse."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Néoclassicisme",
+   "url": "https://fr.wikipedia.org/wiki/N%C3%A9oclassicisme"
+  },
+  {
+   "titre": "Romantisme",
+   "url": "https://fr.wikipedia.org/wiki/Romantisme"
+  },
+  {
+   "titre": "Jacques-Louis David",
+   "url": "https://fr.wikipedia.org/wiki/Jacques-Louis_David"
+  },
+  {
+   "titre": "Jean-Auguste-Dominique Ingres",
+   "url": "https://fr.wikipedia.org/wiki/Jean-Auguste-Dominique_Ingres"
+  },
+  {
+   "titre": "Le Radeau de La Méduse",
+   "url": "https://fr.wikipedia.org/wiki/Le_Radeau_de_La_M%C3%A9duse"
+  },
+  {
+   "titre": "Eugène Delacroix",
+   "url": "https://fr.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix"
+  }
+ ]
+}

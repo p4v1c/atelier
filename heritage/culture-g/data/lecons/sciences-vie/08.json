@@ -1,0 +1,207 @@
+{
+ "titre": "Le cerveau et le système nerveux",
+ "sections": [
+  {
+   "titre": "Un réseau de communication dans tout le corps",
+   "texte": "Le système nerveux est l'ensemble des organes qui permettent au corps de recevoir des informations, de les traiter et d'y répondre. C'est lui qui assure la communication rapide entre les différentes parties de l'organisme et la coordination de nos actions avec le monde extérieur. Les biologistes le divisent en deux grands ensembles. Le système nerveux central, d'abord, comprend l'encéphale, c'est-à-dire tout ce qui est contenu dans la boîte crânienne (le cerveau proprement dit, le cervelet et le tronc cérébral), ainsi que la moelle épinière, un long cordon nerveux protégé par les vertèbres. C'est le centre de traitement : il reçoit les messages, les analyse et décide de la réponse. Le système nerveux périphérique, ensuite, est formé de l'ensemble des nerfs qui se ramifient depuis le centre vers la peau, les muscles et les organes. On distingue les nerfs sensitifs, qui font remonter les informations venues des sens vers le centre, et les nerfs moteurs, qui transportent les ordres du centre vers les muscles. Ce double trajet explique un geste aussi banal que retirer sa main d'un objet brûlant : la sensation monte, la commande redescend. Deux types de cellules composent ce réseau. Les neurones transmettent les signaux électrochimiques, tandis que les cellules gliales, beaucoup plus nombreuses, assurent le soutien, la nutrition et la protection des neurones."
+  },
+  {
+   "titre": "Le neurone, cellule de la communication",
+   "texte": "Le neurone est la cellule spécialisée dans la transmission des messages nerveux. Il possède une forme très particulière, adaptée à ce rôle, et se compose de trois parties. Le corps cellulaire, appelé aussi soma, contient le noyau et la machinerie qui fait vivre la cellule. Autour de lui rayonnent les dendrites, des prolongements courts et très ramifiés dont le rôle est de recevoir les signaux venus d'autres neurones : ce sont les antennes de la cellule. Enfin, un unique prolongement long, l'axone, conduit le message électrique loin du corps cellulaire, parfois sur plus d'un mètre chez l'être humain, par exemple entre la moelle épinière et le pied. Environ un tiers des axones sont entourés d'une gaine de myéline, une substance grasse et isolante fabriquée par des cellules gliales. Cette gaine est interrompue à intervalles réguliers. Le message, au lieu de parcourir toute la longueur de la fibre, saute d'une interruption à la suivante : on parle de conduction saltatoire, du latin saltare qui signifie sauter. Ce mécanisme augmente considérablement la vitesse du signal. Le cerveau humain contient environ 86 milliards de neurones, entourés d'un nombre encore plus grand de cellules gliales, estimé entre 170 et 300 milliards. Cette immense population de cellules ne travaille jamais isolément : chaque neurone est relié à des milliers d'autres.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "Le neurone en chiffres",
+    "items": [
+     {
+      "valeur": "86 Mds",
+      "label": "neurones dans un cerveau humain"
+     },
+     {
+      "valeur": "170 à 300 Mds",
+      "label": "cellules gliales qui les soutiennent"
+     },
+     {
+      "valeur": "1 m",
+      "label": "longueur possible d'un axone, de la moelle épinière au pied"
+     },
+     {
+      "valeur": "1/3",
+      "label": "des axones entourés d'une gaine de myéline isolante"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le message nerveux et la synapse",
+   "texte": "Comment un neurone transporte-t-il une information ? Au repos, sa membrane maintient une différence de charges électriques entre l'intérieur et l'extérieur de la cellule, voisine de moins 70 millivolts : c'est le potentiel de repos, entretenu par des pompes qui déplacent des ions à travers la membrane. Lorsque le neurone est suffisamment stimulé, des ions sodium se précipitent vers l'intérieur : la charge s'inverse brutalement, c'est la dépolarisation. Des ions potassium sortent ensuite pour rétablir l'état initial, c'est la repolarisation. Ce petit orage électrique, qui ne dure que quelques millièmes de seconde, porte le nom de potentiel d'action, ou influx nerveux. Il se propage le long de l'axone comme une étincelle sur une mèche. Mais les neurones ne se touchent pas vraiment. À l'endroit où deux cellules communiquent se trouve une zone de contact appelée synapse, séparée par un espace minuscule. Quand l'influx arrive, l'extrémité du premier neurone libère des molécules chimiques, les neurotransmetteurs, qui traversent cet espace et se fixent sur des récepteurs du neurone suivant. Le message électrique devient donc chimique, puis redevient électrique. Un neurone possède en moyenne 10 000 synapses, et certains peuvent en compter plus de 100 000. C'est de cette combinaison de milliards de cellules et de milliers de milliards de connexions que naissent la mémoire, le langage et la pensée.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "Comment circule un message nerveux",
+    "etapes": [
+     {
+      "label": "Potentiel de repos",
+      "texte": "La membrane maintient une différence de charges voisine de −70 millivolts entre l'intérieur et l'extérieur."
+     },
+     {
+      "label": "Dépolarisation",
+      "texte": "Stimulé, le neurone laisse entrer des ions sodium : la charge s'inverse brutalement."
+     },
+     {
+      "label": "Repolarisation",
+      "texte": "Des ions potassium sortent et rétablissent l'état initial. L'ensemble dure quelques millièmes de seconde."
+     },
+     {
+      "label": "Propagation",
+      "texte": "Ce potentiel d'action file le long de l'axone comme une étincelle sur une mèche, en sautant d'une interruption de myéline à la suivante."
+     },
+     {
+      "label": "La synapse",
+      "texte": "Les neurones ne se touchent pas : le premier libère des neurotransmetteurs qui traversent l'espace et se fixent sur les récepteurs du suivant. Le message devient chimique, puis redevient électrique."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "L'anatomie du cerveau",
+   "texte": "Le cerveau d'un adulte pèse environ 1,3 à 1,5 kilogramme, soit à peine 2 % de la masse du corps. Pourtant, il consomme entre 20 et 25 % de l'énergie de l'organisme, sous forme de glucose apporté en permanence par le sang : c'est de très loin l'organe le plus dépensier. Il est formé de deux hémisphères, droit et gauche, reliés entre eux. Leur surface est recouverte d'une fine couche de matière grise, le cortex cérébral, épaisse de 1 à 4,5 millimètres seulement. Cette couche est plissée en creux, les sillons, et en bosses, les circonvolutions ou gyrus. Ce froissement est une astuce d'ingénierie remarquable : il permet de loger une surface proche de 2 000 centimètres carrés dans le volume réduit du crâne. Les anatomistes découpent chaque hémisphère en quatre lobes principaux. Le lobe frontal, à l'avant, représente à lui seul plus de 30 % de la surface corticale et intervient dans la planification, le langage et la commande des mouvements volontaires. Le lobe pariétal traite les sensations du toucher et l'orientation dans l'espace, le lobe occipital, à l'arrière, est le centre de la vision, et le lobe temporal, sur les côtés, s'occupe de l'audition et de la mémoire. Sous les hémisphères, le cervelet règle l'équilibre et la précision des gestes.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les quatre lobes du cortex",
+    "colonnes": [
+     "Lobe",
+     "Position",
+     "Fonctions principales"
+    ],
+    "lignes": [
+     [
+      "Frontal",
+      "À l'avant",
+      "Planification, langage, commande des mouvements volontaires — plus de 30 % de la surface corticale"
+     ],
+     [
+      "Pariétal",
+      "En haut et en arrière du frontal",
+      "Toucher et orientation dans l'espace"
+     ],
+     [
+      "Occipital",
+      "À l'arrière",
+      "Vision"
+     ],
+     [
+      "Temporal",
+      "Sur les côtés",
+      "Audition et mémoire"
+     ]
+    ],
+    "note": "Le cortex ne fait que 1 à 4,5 mm d'épaisseur, mais ses plis logent près de 2 000 cm² de surface dans le crâne. Sous les hémisphères, le cervelet règle l'équilibre et la précision des gestes."
+   }
+  },
+  {
+   "titre": "Réflexes et fonctions automatiques",
+   "texte": "Toutes nos réactions ne passent pas par le cerveau. Lorsqu'on pose la main sur une plaque brûlante, on la retire avant même d'avoir eu conscience de la douleur. Le message sensitif est en effet monté jusqu'à la moelle épinière, qui a immédiatement renvoyé l'ordre aux muscles du bras, sans attendre l'avis du cerveau. Ce circuit court s'appelle un arc réflexe : il fait gagner un temps précieux et protège l'organisme. Le cerveau, informé un instant plus tard, ne fait que constater le geste déjà accompli. D'autres fonctions échappent également à notre volonté : le rythme du cœur, la respiration, la digestion, le diamètre des pupilles. Elles sont gouvernées par le système nerveux autonome, ou végétatif, qui fonctionne grâce à deux ensembles aux effets opposés. Le système sympathique prépare le corps à l'action : il accélère la fréquence cardiaque, dilate les pupilles et mobilise l'énergie, comme lorsqu'on prend peur ou qu'on se met à courir. Le système parasympathique produit l'effet inverse : il ralentit le cœur, favorise la digestion et permet le retour au calme et à l'économie d'énergie. Ces deux systèmes agissent en permanence, un peu comme l'accélérateur et le frein d'un véhicule, et leur équilibre maintient les grandes constantes du corps à des valeurs compatibles avec la vie.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "L'accélérateur et le frein du corps",
+    "colonnes": [
+     {
+      "titre": "Système sympathique",
+      "points": [
+       "Prépare le corps à l'action",
+       "Accélère la fréquence cardiaque",
+       "Dilate les pupilles",
+       "Mobilise l'énergie",
+       "À l'œuvre quand on prend peur ou qu'on se met à courir"
+      ]
+     },
+     {
+      "titre": "Système parasympathique",
+      "points": [
+       "Ramène le corps au calme",
+       "Ralentit le cœur",
+       "Favorise la digestion",
+       "Économise l'énergie",
+       "À l'œuvre au repos"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Combien de neurones compte environ le cerveau humain ?",
+   "choix": [
+    "Environ 86 millions",
+    "Environ 86 milliards",
+    "Environ 860 000",
+    "Environ 86 000 milliards"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Les estimations les plus récentes situent le nombre de neurones du cerveau humain autour de 86 milliards. Ces neurones sont accompagnés d'un nombre encore plus élevé de cellules gliales, évalué entre 170 et 300 milliards, qui les nourrissent et les protègent. Chaque neurone n'est pas isolé : il forme en moyenne 10 000 synapses avec ses voisins, et certains en établissent plus de 100 000. Le nombre de connexions dépasse donc très largement le nombre de cellules. C'est cette architecture en réseau, et non le simple nombre de neurones, qui rend possibles la mémoire et la pensée."
+  },
+  {
+   "q": "Quelle partie du neurone conduit le message électrique loin du corps cellulaire ?",
+   "choix": [
+    "Les dendrites",
+    "Le noyau",
+    "L'axone",
+    "La synapse"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "Le neurone comporte trois parties principales. Les dendrites sont des prolongements courts et ramifiés qui reçoivent les signaux venus des autres cellules. Le corps cellulaire, ou soma, contient le noyau et assure la vie de la cellule. L'axone, lui, est un prolongement unique et allongé qui emporte le message électrique vers d'autres neurones ou vers un muscle ; il peut atteindre plus d'un mètre de long chez l'être humain. La synapse n'est pas une partie du neurone mais la zone de contact entre deux cellules nerveuses."
+  },
+  {
+   "q": "Quelle proportion de l'énergie du corps le cerveau consomme-t-il ?",
+   "choix": [
+    "2 %",
+    "10 %",
+    "20 à 25 %",
+    "50 %"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le cerveau ne représente qu'environ 2 % de la masse corporelle, mais il absorbe de 20 à 25 % de l'énergie totale dépensée par l'organisme. Son carburant principal est le glucose, apporté en continu par la circulation sanguine. Contrairement aux muscles, le cerveau ne dispose pratiquement d'aucune réserve : une interruption de l'irrigation sanguine provoque des dégâts en quelques minutes seulement. Le chiffre de 2 % correspond donc à la masse, pas à la consommation, ce qui explique que cette réponse soit un piège fréquent."
+  },
+  {
+   "q": "Quel lobe cérébral est le principal centre de la vision ?",
+   "choix": [
+    "Le lobe occipital",
+    "Le lobe frontal",
+    "Le lobe temporal",
+    "Le lobe pariétal"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le cortex de chaque hémisphère est divisé en quatre lobes. Le lobe occipital, situé à l'arrière du crâne, reçoit et analyse les informations venues des yeux : c'est le centre principal de la vision. Le lobe frontal, à l'avant, occupe plus de 30 % de la surface corticale et intervient dans la planification, le langage et la commande des mouvements volontaires. Le lobe pariétal traite le toucher et l'orientation dans l'espace, et le lobe temporal s'occupe de l'audition et de la mémoire. Il est frappant que la vision, sens qui semble se passer devant nous, soit traitée tout à l'arrière de la tête."
+  },
+  {
+   "q": "Lors d'un réflexe comme le retrait de la main d'un objet brûlant, quel organe commande la réponse ?",
+   "choix": [
+    "Le cervelet",
+    "Le lobe frontal",
+    "Le nerf optique",
+    "La moelle épinière"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Dans un réflexe, le message sensitif remonte jusqu'à la moelle épinière, qui renvoie immédiatement l'ordre moteur aux muscles sans attendre l'intervention du cerveau. Ce circuit court porte le nom d'arc réflexe et permet de gagner un temps précieux face à un danger. Le cerveau est prévenu ensuite et ne fait que prendre conscience d'un geste déjà accompli, ce qui explique que l'on ressente la douleur après avoir retiré la main. Le lobe frontal commande au contraire les mouvements volontaires, et le cervelet ajuste l'équilibre et la précision des gestes. Le nerf optique, lui, ne transporte que les informations visuelles."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Cerveau humain",
+   "url": "https://fr.wikipedia.org/wiki/Cerveau_humain"
+  },
+  {
+   "titre": "Neurone",
+   "url": "https://fr.wikipedia.org/wiki/Neurone"
+  },
+  {
+   "titre": "Système nerveux",
+   "url": "https://fr.wikipedia.org/wiki/Syst%C3%A8me_nerveux"
+  }
+ ]
+}

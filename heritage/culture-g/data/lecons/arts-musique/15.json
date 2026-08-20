@@ -1,0 +1,204 @@
+{
+ "titre": "Le rock et la pop, des années 1950 à nos jours",
+ "sections": [
+  {
+   "titre": "Les années 1950 : la naissance du rock'n'roll",
+   "texte": "Le rock apparaît aux États-Unis dans les années 1950, du croisement de plusieurs traditions musicales américaines. Il puise principalement dans le rhythm and blues, musique des communautés noires urbaines, et dans la country, musique des populations blanches rurales du Sud. Cette rencontre est aussi une transgression sociale, dans un pays alors marqué par la ségrégation : des adolescents blancs se mettent à acheter des disques inspirés de musiques noires, et des radios se trouvent obligées de brouiller leurs catégories. Le terme rock'n'roll est popularisé dès 1951 par un animateur de radio de Cleveland, Alan Freed, qui diffuse ces disques auprès d'un public jeune. Les premiers grands noms sont Chuck Berry, Elvis Presley et Little Richard, dont les enregistrements imposent la guitare électrique comme l'instrument qui définit le genre. La formule instrumentale se fixe rapidement : guitares électriques, basse, batterie et voix dominante, avec des morceaux en mesure à quatre temps et une structure alternant couplets et refrains, immédiatement mémorisable. Le contenu compte autant que la forme : le rock naît comme musique de la jeunesse, associée à la danse, à la voiture, à une révolte contre l'ordre des adultes, et immédiatement dénoncée comme dangereuse par une partie de la société. Cette dimension de culture juvénile contestataire restera un trait constant du genre, même lorsqu'il développera plus tard des ambitions compositionnelles sophistiquées.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Soixante-dix ans de rock et de pop",
+    "evenements": [
+     {
+      "date": "1951",
+      "label": "Le mot rock'n'roll",
+      "texte": "Alan Freed le popularise sur une radio de Cleveland."
+     },
+     {
+      "date": "1954",
+      "label": "Elvis chez Sun Records",
+      "texte": "Le rockabilly mêle country et rhythm and blues."
+     },
+     {
+      "date": "1963-1964",
+      "label": "Beatlemania",
+      "texte": "Please Please Me, puis la conquête de l'Amérique du Nord."
+     },
+     {
+      "date": "1967",
+      "label": "Sgt. Pepper",
+      "texte": "L'album conçu comme un tout s'impose comme format artistique."
+     },
+     {
+      "date": "années 1970",
+      "label": "Fragmentation",
+      "texte": "Hard rock, glam et punk : le rock devient une famille de genres."
+     },
+     {
+      "date": "années 1980",
+      "label": "Le clip et MTV",
+      "texte": "Michael Jackson et Madonna règnent sur la pop."
+     },
+     {
+      "date": "début des années 1990",
+      "label": "Grunge",
+      "texte": "Nirvana et la scène de Seattle font passer les marges au premier plan."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Elvis Presley, le point de bascule",
+   "texte": "Elvis Presley, né le 8 janvier 1935 et mort le 16 août 1977 à quarante-deux ans, incarne mieux que quiconque ce moment de bascule. Il commence à enregistrer en 1954 chez Sun Records, à Memphis, avec le guitariste Scotty Moore et le contrebassiste Bill Black ; son premier succès local vient de « That's All Right », adaptation d'un blues qui attire l'attention des radios de la ville. Sa musique, appelée rockabilly, mêle la country et le rhythm and blues, et cette hybridité lui vaut d'abord d'être rejeté de partout : les stations country le trouvent trop afro-américain, les stations de rhythm and blues n'y entendent que de la musique de péquenaud. Signé chez RCA en novembre 1955, il connaît en 1956 un succès national avec « Heartbreak Hotel », son premier numéro un, et ses passages télévisés, notamment au Ed Sullivan Show devant environ soixante millions de téléspectateurs, en font une idole et un scandale à la fois. De 1960 à 1968, il tourne vingt-sept films, comédies musicales légères éreintées par la critique mais rentables. Une émission spéciale de télévision réalisée par Steve Binder en 1968 relance sa carrière, suivie à partir de 1969 des concerts de Las Vegas et, en 1973, du spectacle « Aloha from Hawaii », premier concert retransmis dans le monde entier par satellite. Il figure parmi les trois artistes les plus vendus de tous les temps."
+  },
+  {
+   "titre": "Les années 1960 : les Beatles et l'invasion britannique",
+   "texte": "Dans les années 1960, le centre de gravité du rock traverse l'Atlantique : c'est l'invasion britannique, menée par les Beatles et les Rolling Stones. Le groupe de Liverpool naît du Quarrymen, formé par John Lennon en 1957 ; Paul McCartney le rejoint la même année, George Harrison en 1958, et Ringo Starr remplace définitivement Pete Best à la batterie en août 1962. Leur producteur George Martin, d'abord sceptique, joue un rôle créatif si important qu'on le considère comme une pièce essentielle du groupe : c'est lui qui traduit en solutions sonores les intuitions des musiciens. En sept années d'enregistrement, de 1962 à 1969, ils publient douze albums originaux et environ deux cents chansons. « Please Please Me », en 1963, lance leur carrière au Royaume-Uni ; la beatlemania se déclenche la même année et gagne l'Amérique du Nord en 1964. Puis vient une transformation rapide : « Rubber Soul » en 1965 marque le tournant expérimental, « Revolver » en 1966 pousse les techniques de studio, et « Sgt. Pepper's Lonely Hearts Club Band », en 1967, devient un triomphe qui impose l'idée d'album conçu comme un tout. « Abbey Road », en 1969, est leur dernier grand disque de studio, et « Let It Be » paraît en 1970, après la séparation. Avec plus de six cents millions d'exemplaires écoulés, ils restent les artistes les plus vendus au monde.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "Les Beatles en chiffres",
+    "items": [
+     {
+      "valeur": "1962-1969",
+      "label": "sept années d'enregistrement"
+     },
+     {
+      "valeur": "12",
+      "label": "albums originaux"
+     },
+     {
+      "valeur": "≈ 200",
+      "label": "chansons"
+     },
+     {
+      "valeur": "600 M",
+      "label": "exemplaires vendus, un record mondial"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "De la fragmentation des années 1970 au grunge",
+   "texte": "Après 1970, le rock cesse d'être un genre unique pour devenir une famille de genres. La décennie s'ouvre sur le hard rock, dont Led Zeppelin et Black Sabbath avaient posé les bases à la fin des années 1960 en amplifiant le volume, le poids du riff et la distorsion. Le glam rock, avec David Bowie et Queen, y ajoute le jeu sur les apparences, le costume, l'ambiguïté des identités et la théâtralité du spectacle. À l'autre extrémité surgit le punk, porté par les Sex Pistols et The Clash, qui renverse les valeurs de l'époque : il privilégie l'accessibilité sur la maîtrise technique, en affirmant que trois accords et de la colère suffisent, et le message politique sur l'évasion. Ce refus de la virtuosité aura une conséquence durable, en persuadant des milliers de jeunes qu'ils pouvaient former un groupe sans formation musicale. Les années 1980 et 1990 démultiplient encore les branches. Le heavy metal s'intensifie et se divise, notamment entre le thrash, rapide et agressif, et le glam metal, plus tourné vers le spectacle. En parallèle, le rock alternatif et indépendant gagne en visibilité grâce à l'exposition offerte par MTV, jusqu'à l'irruption du grunge : Nirvana et la scène de Seattle font passer au premier plan, au début des années 1990, une musique venue des marges. Le rock a ainsi conservé son énergie initiale tout en développant des démarches de composition sophistiquées.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les branches du rock après 1970",
+    "colonnes": [
+     "Genre",
+     "Ce qui le caractérise",
+     "Figures"
+    ],
+    "lignes": [
+     [
+      "Hard rock",
+      "Volume, poids du riff, distorsion",
+      "Led Zeppelin, Black Sabbath"
+     ],
+     [
+      "Glam rock",
+      "Costume, ambiguïté des identités, théâtralité",
+      "David Bowie, Queen"
+     ],
+     [
+      "Punk",
+      "Accessibilité plutôt que virtuosité, message politique",
+      "Sex Pistols, The Clash"
+     ],
+     [
+      "Heavy metal",
+      "Intensification, division entre thrash rapide et glam metal spectaculaire",
+      "Scènes des années 1980"
+     ],
+     [
+      "Grunge",
+      "Rock alternatif venu des marges, exposé par MTV",
+      "Nirvana et la scène de Seattle"
+     ]
+    ]
+   }
+  },
+  {
+   "titre": "La pop, de Michael Jackson au streaming",
+   "texte": "La pop est un genre musical apparu au milieu du XXe siècle au Royaume-Uni et aux États-Unis. Son nom vient de popular music, et il a d'abord désigné, dans les années 1950 et 1960, le rock'n'roll et les musiques destinées à la jeunesse, avant de se spécialiser dans une musique plus accessible commercialement et centrée sur la mélodie. Son principe est explicite : la pop est faite pour être accessible à tous. Elle privilégie l'accroche immédiate, la structure couplet-refrain et un format d'environ trois minutes, calibré pour la radio. Instrumentalement, elle part de la base du rock, guitare, basse et batterie, puis s'ouvre largement : cordes et orchestre, puis, à partir de la fin des années 1970 et sous l'influence de la new wave, synthétiseurs, boîtes à rythmes et effets électroniques. C'est un genre de producteurs autant que d'interprètes, où le travail de studio et l'image médiatique comptent autant que la chanson. Michael Jackson, surnommé le roi de la pop, et Madonna, la reine de la pop, en sont les figures majeures des années 1980, à l'époque où le clip et MTV deviennent décisifs. Les années 1990 voient le retour des guitares avec la britpop, l'essor des boys bands et celui des chanteuses à forte personnalité vocale. Aujourd'hui, des artistes comme Taylor Swift, Ariana Grande ou Dua Lipa perpétuent ce genre, qui absorbe sans cesse le rhythm and blues, la soul et le funk."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "De quelles traditions musicales le rock est-il principalement issu ?",
+   "choix": [
+    "Du jazz et de la musique classique européenne",
+    "Du rhythm and blues et de la country",
+    "Du gospel et de la musique folklorique irlandaise",
+    "De la soul et de la musique latine"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Le rock naît aux États-Unis dans les années 1950 du croisement du rhythm and blues, musique des communautés noires urbaines, et de la country, musique des populations blanches rurales du Sud. Cette rencontre était aussi une transgression sociale dans un pays alors ségrégué, puisqu'elle mettait entre les mains d'adolescents blancs des disques inspirés de musiques noires. Le terme rock'n'roll fut popularisé dès 1951 par l'animateur de radio de Cleveland Alan Freed. Chuck Berry, Elvis Presley et Little Richard en furent les premières grandes figures, imposant la guitare électrique comme instrument emblématique. Le genre se caractérise par des guitares électriques, une basse, une batterie et une structure couplet-refrain à quatre temps."
+  },
+  {
+   "q": "Chez quel label Elvis Presley a-t-il enregistré ses premiers disques en 1954 ?",
+   "choix": [
+    "RCA, à New York",
+    "Motown, à Détroit",
+    "Sun Records, à Memphis",
+    "Atlantic, à New York"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Elvis Presley commence à enregistrer en 1954 chez Sun Records, à Memphis, avec le guitariste Scotty Moore et le contrebassiste Bill Black. Son premier succès local est « That's All Right », adaptation d'un blues. Il ne signe chez RCA qu'en novembre 1955, ce qui lui ouvre le marché national : « Heartbreak Hotel » devient son premier numéro un en 1956. Sa musique, le rockabilly, mêlait country et rhythm and blues, hybridité qui lui valut d'abord d'être rejeté par les deux camps radiophoniques. Motown, fondée à Détroit, est un autre label majeur, mais lié à la soul et à la musique noire des années 1960."
+  },
+  {
+   "q": "Quel album des Beatles, paru en 1967, impose l'idée de l'album conçu comme un tout ?",
+   "choix": [
+    "« Sgt. Pepper's Lonely Hearts Club Band »",
+    "« Rubber Soul »",
+    "« Abbey Road »",
+    "« Let It Be »"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "« Sgt. Pepper's Lonely Hearts Club Band », paru en 1967, est le triomphe commercial et artistique qui impose l'album comme œuvre cohérente et non comme simple collection de chansons. Il s'inscrit dans une évolution rapide : « Rubber Soul » en 1965 amorce le tournant expérimental, « Revolver » en 1966 pousse les techniques de studio. « Abbey Road », en 1969, est leur dernier grand disque de studio, et « Let It Be » sort en 1970 après la séparation du groupe. Leur producteur George Martin joua un rôle créatif tel qu'on le considère comme une pièce essentielle du groupe. En sept ans d'enregistrement, de 1962 à 1969, ils ont publié douze albums originaux et environ deux cents chansons."
+  },
+  {
+   "q": "Quelle valeur le punk oppose-t-il à la virtuosité technique des groupes des années 1970 ?",
+   "choix": [
+    "La perfection sonore du studio",
+    "L'improvisation savante héritée du jazz",
+    "Le retour aux instruments acoustiques",
+    "L'accessibilité, doublée d'un message politique"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le punk, porté par les Sex Pistols et The Clash, privilégie l'accessibilité sur la maîtrise technique et le message politique sur l'évasion. Il s'oppose ainsi frontalement au hard rock et au rock progressif de son temps, dont il juge la virtuosité élitiste et le propos déconnecté. Ce refus a eu une conséquence durable : il a persuadé des milliers de jeunes qu'ils pouvaient former un groupe sans formation musicale préalable. La même décennie avait vu le glam rock de David Bowie et Queen jouer au contraire sur le costume, l'ambiguïté des identités et la théâtralité. Cette diversification explique qu'après 1970 le rock cesse d'être un genre unique."
+  },
+  {
+   "q": "Quel format et quelle structure caractérisent typiquement une chanson pop ?",
+   "choix": [
+    "Un format d'environ trois minutes, en couplet-refrain, avec une accroche immédiate",
+    "Une forme sonate en trois mouvements",
+    "Une improvisation collective sans structure fixe",
+    "Une suite de variations sur un thème unique"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "La pop est conçue pour être accessible à tous : elle privilégie l'accroche mémorisable, la structure couplet-refrain et un format d'environ trois minutes, calibré pour la diffusion radiophonique. Partie de l'instrumentation du rock, guitare, basse et batterie, elle s'est ouverte à l'orchestre puis, dès la fin des années 1970 sous l'influence de la new wave, aux synthétiseurs, boîtes à rythmes et effets électroniques. C'est un genre de producteurs autant que d'interprètes, où le studio et l'image comptent autant que la mélodie. Michael Jackson et Madonna en furent les figures dominantes des années 1980, à l'époque où le clip et MTV devinrent décisifs."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Rock",
+   "url": "https://fr.wikipedia.org/wiki/Rock"
+  },
+  {
+   "titre": "Elvis Presley",
+   "url": "https://fr.wikipedia.org/wiki/Elvis_Presley"
+  },
+  {
+   "titre": "The Beatles",
+   "url": "https://fr.wikipedia.org/wiki/The_Beatles"
+  },
+  {
+   "titre": "Musique pop",
+   "url": "https://fr.wikipedia.org/wiki/Musique_pop"
+  }
+ ]
+}

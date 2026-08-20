@@ -1,0 +1,183 @@
+{
+ "titre": "Les Jeux paralympiques et le handisport",
+ "sections": [
+  {
+   "titre": "De l'hôpital de Stoke Mandeville aux Jeux de Rome",
+   "texte": "Les Jeux paralympiques sont nés d'une intuition médicale. À la fin de la Seconde Guerre mondiale, le neurologue britannique Ludwig Guttmann dirige, à l'hôpital de Stoke Mandeville, un service qui accueille des vétérans devenus paraplégiques. Convaincu que le sport constitue un formidable outil de rééducation, physique mais aussi psychologique, il organise à partir de 1948 des compétitions destinées à ces blessés, sous le nom de Jeux mondiaux des chaises roulantes et des amputés. L'initiative connaît un succès inattendu et prend rapidement une dimension internationale. La neuvième édition de ces jeux se déroule à Rome en 1960, une semaine après les Jeux olympiques d'été organisés dans la même ville : cette édition est aujourd'hui considérée comme la première des Jeux paralympiques modernes. Les Jeux paralympiques d'hiver suivent en 1976, en Suède. Le mot paralympique lui-même ne vient pas de paraplégie, comme on le croit souvent, mais de la préposition grecque signifiant à côté de : les Jeux paralympiques sont les jeux qui se tiennent parallèlement aux Jeux olympiques. Le mouvement affirme ainsi une ambition claire, celle de permettre à des athlètes en situation de handicap de se dépasser et de réaliser des performances comparables, dans leur exigence, à celles des athlètes olympiques. L'aventure partie d'un service hospitalier est devenue l'un des plus grands événements sportifs de la planète.",
+   "visuel": {
+    "type": "frise",
+    "titre": "D'un service hospitalier aux Jeux",
+    "evenements": [
+     {
+      "date": "1948",
+      "label": "Les premières compétitions de Stoke Mandeville",
+      "texte": "Le neurologue Ludwig Guttmann organise des Jeux mondiaux des chaises roulantes et des amputés pour des vétérans devenus paraplégiques."
+     },
+     {
+      "date": "1960",
+      "label": "Rome, premiers Jeux paralympiques",
+      "texte": "Neuvième édition de ces jeux, disputée une semaine après les Jeux olympiques dans la même ville."
+     },
+     {
+      "date": "1976",
+      "label": "Premiers Jeux paralympiques d'hiver",
+      "texte": "En Suède."
+     },
+     {
+      "date": "1989",
+      "label": "Fondation du Comité international paralympique",
+      "texte": "Le 22 septembre à Düsseldorf ; son siège est aujourd'hui à Bonn."
+     }
+    ],
+    "note": "Le mot paralympique ne vient pas de paraplégie mais de la préposition grecque signifiant à côté de : ce sont les jeux qui se tiennent parallèlement aux Jeux olympiques."
+   }
+  },
+  {
+   "titre": "L'organisation du mouvement paralympique",
+   "texte": "Le mouvement paralympique s'est doté d'une institution comparable au Comité international olympique. Le Comité international paralympique est fondé le 22 septembre 1989 à Düsseldorf, en Allemagne, en remplacement d'une organisation antérieure créée en 1982 ; son siège se trouve aujourd'hui à Bonn. Il représente plus de cent quatre-vingts comités paralympiques nationaux et travaille avec une quinzaine de fédérations internationales spécialisées. Ses missions sont l'organisation des Jeux, le développement du sport pour les personnes handicapées, la garantie de l'équité des compétitions et la lutte contre le dopage. Depuis la fin des années quatre-vingt, un principe s'est imposé : les Jeux paralympiques se déroulent dans la même ville et sur les mêmes installations que les Jeux olympiques, quelques semaines après ceux-ci, ce qui leur assure une visibilité et des équipements de tout premier plan. Les Jeux paralympiques d'été réunissent aujourd'hui environ quatre mille quatre cents athlètes pour près de cinq cents épreuves réparties dans une vingtaine de disciplines, tandis que l'édition d'hiver rassemble environ cinq cent soixante-dix concurrents pour six disciplines. Il faut noter qu'un mouvement distinct existe pour les athlètes sourds, avec des jeux propres dont la première édition internationale s'est tenue à Paris en 1924 sous le nom de Jeux silencieux, la surdité ne relevant pas des classifications paralympiques.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "Le mouvement paralympique aujourd'hui",
+    "items": [
+     {
+      "valeur": "180",
+      "label": "comités paralympiques nationaux représentés"
+     },
+     {
+      "valeur": "4 400",
+      "label": "athlètes environ aux Jeux d'été"
+     },
+     {
+      "valeur": "500",
+      "label": "épreuves d'été, dans une vingtaine de disciplines"
+     },
+     {
+      "valeur": "570",
+      "label": "concurrents aux Jeux d'hiver, pour six disciplines"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le handisport et la classification des athlètes",
+   "texte": "On appelle handisport une pratique sportive dont les règles ont été adaptées pour permettre la participation de personnes atteintes d'un handicap physique ou sensoriel ; lorsque le handicap est d'ordre intellectuel, on parle plutôt de sport adapté. La grande difficulté de ces compétitions tient à l'équité : comment faire courir ensemble un athlète amputé d'une jambe et un athlète atteint d'une paralysie cérébrale ? La réponse est la classification. Chaque athlète est examiné par des classificateurs qui évaluent l'incidence réelle de son handicap sur le geste sportif, et il est ensuite affecté à une catégorie regroupant des concurrents aux capacités fonctionnelles comparables. Ce système explique la multiplication des épreuves : une même course peut donner lieu à plusieurs finales selon les classes. Les grandes familles de déficiences reconnues sont les déficiences sensorielles, notamment visuelles, les déficiences physiques, qu'elles soient liées à une amputation, à une lésion de la moelle épinière ou à une atteinte neurologique, et les déficiences intellectuelles. En France, la Fédération française handisport, créée en 1977, encadre la pratique pour les personnes atteintes d'un handicap physique ou sensoriel : elle rassemble plus de trente-cinq mille pratiquants et près de sept cents clubs dans quarante-cinq sports. La Fédération française du sport adapté, créée en 1971, s'occupe pour sa part du handicap mental."
+  },
+  {
+   "titre": "Des sports inventés pour le handicap",
+   "texte": "Si beaucoup de disciplines paralympiques sont des adaptations de sports existants, comme l'athlétisme, la natation, le tennis de table ou le basket-ball en fauteuil, certaines ont été créées spécifiquement et n'ont aucun équivalent olympique. Le goalball en est l'exemple le plus frappant. Né après la Seconde Guerre mondiale, il est réservé aux athlètes déficients visuels et se joue à trois contre trois sur un terrain de dix-huit mètres sur neuf, dont les lignes sont marquées en relief pour être repérées au toucher. Le ballon contient des grelots et les joueurs cherchent à le faire rouler dans le but adverse. Tous portent un masque opaque, quelle que soit leur acuité visuelle réelle, afin que la compétition soit parfaitement équitable : le jeu ne fait alors appel qu'au toucher et à l'ouïe, dans un silence que le public doit respecter. Présenté en démonstration aux Jeux paralympiques de Toronto en 1976, le goalball devient officiel en 1988. La boccia, elle, est un jeu de boules apparenté à la pétanque, conçu à l'origine pour les personnes atteintes de paralysie cérébrale puis ouvert à d'autres handicaps moteurs sévères. Les joueurs, en fauteuil, lancent des boules de cuir vers une boule blanche appelée le cochonnet, à la main, au pied ou à l'aide d'une rampe mécanique quand leurs capacités motrices l'exigent. La boccia est devenue sport paralympique en 1984, à New York.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Deux sports sans équivalent olympique",
+    "colonnes": [
+     {
+      "titre": "Le goalball",
+      "points": [
+       "Réservé aux athlètes déficients visuels, né après la Seconde Guerre mondiale.",
+       "Trois contre trois sur un terrain de 18 m sur 9, aux lignes en relief repérables au toucher.",
+       "Le ballon contient des grelots ; il faut le faire rouler dans le but adverse.",
+       "Tous les joueurs portent un masque opaque, quelle que soit leur acuité réelle : le jeu ne repose que sur le toucher et l'ouïe, dans un silence que le public doit respecter.",
+       "En démonstration à Toronto en 1976, officiel en 1988."
+      ]
+     },
+     {
+      "titre": "La boccia",
+      "points": [
+       "Jeu de boules apparenté à la pétanque, conçu pour les personnes atteintes de paralysie cérébrale puis ouvert à d'autres handicaps moteurs sévères.",
+       "Les joueurs, en fauteuil, lancent des boules de cuir vers une boule blanche, le cochonnet.",
+       "Le lancer se fait à la main, au pied, ou à l'aide d'une rampe mécanique selon les capacités motrices.",
+       "Sport paralympique depuis 1984, à New York."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Un mouvement qui change le regard sur le handicap",
+   "texte": "L'histoire des Jeux paralympiques est celle d'un changement de regard. Longtemps, les athlètes handicapés ont été considérés d'abord comme des malades pratiquant une thérapie, et leurs compétitions présentées sur le mode de l'émotion et du courage plutôt que de la performance. Le mouvement paralympique a peu à peu imposé une autre lecture : celle de sportifs de haut niveau, soumis à des entraînements comparables à ceux des olympiens, à des contrôles antidopage identiques et à une exigence technique considérable. Les progrès du matériel ont accompagné cette évolution, qu'il s'agisse des fauteuils de course profilés, des lames de course en fibre de carbone ou des prothèses adaptées à chaque discipline, au point que se pose parfois la question de la frontière entre compensation du handicap et avantage technologique. La montée en puissance médiatique reste cependant inégale : la couverture des compétitions handisport demeure faible en dehors des Jeux, ce qui rend très difficile de vivre de sa pratique, même au plus haut niveau. Les organisateurs des Jeux paralympiques mettent en avant l'effet d'entraînement de l'événement sur l'accessibilité des villes hôtes, les transports, les équipements sportifs et la perception du handicap dans l'opinion. C'est sans doute là l'héritage le plus durable de l'intuition de Ludwig Guttmann : avoir fait du sport un moyen non seulement de rééduquer des corps, mais de transformer la place des personnes handicapées dans la société."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Qui est à l'origine des compétitions sportives qui ont donné naissance aux Jeux paralympiques ?",
+   "choix": [
+    "Ludwig Guttmann, neurologue britannique",
+    "Pierre de Coubertin",
+    "Andrew Parsons",
+    "Juan Antonio Samaranch"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "C'est le neurologue britannique Ludwig Guttmann qui est à l'origine du mouvement. À l'hôpital de Stoke Mandeville, il soignait après la Seconde Guerre mondiale des vétérans devenus paraplégiques et était convaincu que le sport constituait un outil de rééducation physique et psychologique. Il organisa dès 1948 des compétitions destinées à ces blessés, sous le nom de Jeux mondiaux des chaises roulantes et des amputés. La neuvième édition, disputée à Rome en 1960 une semaine après les Jeux olympiques, est considérée comme les premiers Jeux paralympiques modernes. Pierre de Coubertin est le rénovateur des Jeux olympiques, sans lien avec cette histoire."
+  },
+  {
+   "q": "Que signifie le préfixe du mot paralympique ?",
+   "choix": [
+    "Paralysie",
+    "À côté de, parallèlement à",
+    "Au-delà de",
+    "Après"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Contrairement à une idée répandue, le mot paralympique ne vient pas de paraplégie mais de la préposition grecque signifiant à côté de. Les Jeux paralympiques sont donc les jeux qui se déroulent parallèlement aux Jeux olympiques. Cette étymologie correspond bien à la réalité actuelle, puisque depuis la fin des années quatre-vingt les Jeux paralympiques se tiennent dans la même ville et sur les mêmes installations que les Jeux olympiques, quelques semaines après eux. Cette interprétation est aussi un choix de sens : elle place les deux événements sur un pied d'égalité au lieu de définir les Jeux paralympiques par un type de handicap particulier, alors qu'ils accueillent des déficiences très variées."
+  },
+  {
+   "q": "Pourquoi tous les joueurs de goalball portent-ils un masque opaque ?",
+   "choix": [
+    "Pour se protéger du ballon",
+    "Pour respecter une tradition du sport",
+    "Pour que tous les joueurs soient à égalité quelle que soit leur vue restante",
+    "Parce que le jeu se déroule dans l'obscurité"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le goalball est réservé aux athlètes déficients visuels, mais ceux-ci relèvent de trois catégories allant de la cécité totale à la malvoyance. Pour que la compétition soit parfaitement équitable, tous les joueurs portent un masque opaque, ce qui neutralise toute vision résiduelle. Le jeu ne fait alors appel qu'au toucher et à l'ouïe : le ballon contient des grelots, les lignes du terrain sont marquées en relief, et le public doit garder le silence pendant les échanges. Trois joueurs par équipe s'affrontent sur un terrain de dix-huit mètres sur neuf. Présenté en démonstration à Toronto en 1976, le goalball est devenu sport paralympique officiel en 1988."
+  },
+  {
+   "q": "Quel est le rôle de la classification dans les compétitions handisport ?",
+   "choix": [
+    "Attribuer des points supplémentaires aux athlètes les plus handicapés",
+    "Regrouper les athlètes selon des capacités fonctionnelles comparables",
+    "Déterminer l'ordre de passage des concurrents",
+    "Sélectionner les athlètes autorisés à concourir"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "La classification consiste à regrouper les athlètes ayant des capacités fonctionnelles comparables, afin que la compétition mesure la performance sportive et non l'ampleur du handicap. Des classificateurs évaluent l'incidence réelle du handicap sur le geste sportif et attribuent à chaque athlète une catégorie. C'est pourquoi une même distance de course peut donner lieu à plusieurs finales distinctes, ce qui explique le très grand nombre d'épreuves aux Jeux paralympiques. Les grandes familles de déficiences reconnues sont les déficiences sensorielles, notamment visuelles, les déficiences physiques et les déficiences intellectuelles. Ce système ne donne aucun bonus de points et ne sert pas à écarter des concurrents."
+  },
+  {
+   "q": "En quelle année et où le Comité international paralympique a-t-il été fondé ?",
+   "choix": [
+    "En 1960 à Rome",
+    "En 1976 en Suède",
+    "En 1989 à Düsseldorf",
+    "En 2001 à Lausanne"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Le Comité international paralympique a été fondé le 22 septembre 1989 à Düsseldorf, en Allemagne, en remplacement d'une organisation antérieure créée en 1982 ; son siège se situe aujourd'hui à Bonn. Il représente plus de cent quatre-vingts comités paralympiques nationaux et coordonne les fédérations internationales concernées. Rome, en 1960, correspond aux premiers Jeux paralympiques modernes, et 1976 en Suède à la première édition des Jeux paralympiques d'hiver, mais aucune de ces dates ne concerne la création du comité. Ses missions comprennent l'organisation des Jeux, le développement du sport pour les personnes handicapées, la garantie de l'équité par la classification et la lutte contre le dopage."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Jeux paralympiques",
+   "url": "https://fr.wikipedia.org/wiki/Jeux_paralympiques"
+  },
+  {
+   "titre": "Comité international paralympique",
+   "url": "https://fr.wikipedia.org/wiki/Comit%C3%A9_international_paralympique"
+  },
+  {
+   "titre": "Handisport",
+   "url": "https://fr.wikipedia.org/wiki/Handisport"
+  },
+  {
+   "titre": "Goalball",
+   "url": "https://fr.wikipedia.org/wiki/Goalball"
+  },
+  {
+   "titre": "Boccia",
+   "url": "https://fr.wikipedia.org/wiki/Boccia"
+  }
+ ]
+}

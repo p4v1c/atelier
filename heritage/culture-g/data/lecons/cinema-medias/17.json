@@ -1,0 +1,170 @@
+{
+ "titre": "Les grands réalisateurs et leurs styles",
+ "sections": [
+  {
+   "titre": "Alfred Hitchcock, l'architecte du suspense",
+   "texte": "Né à Londres en 1899 et mort en Californie en 1980, Alfred Hitchcock a fait du suspense une véritable science. Il aimait opposer le suspense à la surprise : la surprise éclate sans prévenir, tandis que le suspense naît du spectateur qui en sait plus que le personnage et qui attend, impuissant, la catastrophe annoncée. Pour tendre cette attente, il pousse à l'extrême la caméra subjective, qui nous fait voir le monde par les yeux d'un personnage, comme dans « Fenêtre sur cour » en 1954 où un photographe immobilisé observe ses voisins. Il a aussi popularisé le MacGuffin, ce prétexte narratif que tous les personnages poursuivent mais dont le contenu importe finalement peu. Son style comporte encore des signatures reconnaissables : ses brèves apparitions dans ses propres films, son goût pour des héroïnes blondes et élégantes, et des inventions techniques comme le travelling compensé de « Sueurs froides » en 1958, qui traduit le vertige en déformant l'espace. Sa carrière se partage entre une période britannique, marquée par « Les 39 Marches » en 1935 et « Une femme disparaît » en 1938, et une période américaine ouverte par « Rebecca » en 1940 et jalonnée par « La Mort aux trousses » en 1959, « Psychose » en 1960 et « Les Oiseaux » en 1963. Souvent nommé, il n'a jamais reçu l'Oscar de la meilleure réalisation.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Le suspense et la surprise, selon Hitchcock",
+    "colonnes": [
+     {
+      "titre": "La surprise",
+      "points": [
+       "Elle éclate sans prévenir",
+       "Le spectateur en sait autant que le personnage",
+       "L'effet dure quelques secondes",
+       "Elle se consomme une seule fois"
+      ]
+     },
+     {
+      "titre": "Le suspense",
+      "points": [
+       "Le spectateur en sait plus que le personnage",
+       "Il attend, impuissant, la catastrophe annoncée",
+       "L'effet s'étire sur toute une séquence",
+       "Il repose sur la maîtrise de l'information : le cinéaste choisit qui sait quoi"
+      ]
+     }
+    ],
+    "note": "Autres signatures d'Hitchcock : la caméra subjective de « Fenêtre sur cour » (1954), le MacGuffin, ses brèves apparitions dans ses propres films, et le travelling compensé de « Sueurs froides » (1958)."
+   }
+  },
+  {
+   "titre": "Stanley Kubrick, l'obsession du cadre parfait",
+   "texte": "Stanley Kubrick incarne la figure du cinéaste perfectionniste, contrôlant tout, du scénario au montage, de l'étalonnage des couleurs jusqu'à la promotion et la distribution de ses films. Il pouvait exiger plusieurs dizaines de prises d'un même plan, au grand désespoir de ses interprètes, mais cette exigence a produit des images d'une précision rare. Son style se reconnaît d'abord à la composition : cadres rigoureusement symétriques, longs couloirs organisés autour d'un unique point de fuite, mouvements d'appareil amples et lents qui avancent au cœur du décor. Il repousse aussi les limites techniques du métier. Pour « Barry Lyndon », en 1975, il fait tourner des scènes à la seule lumière des bougies grâce à des objectifs Zeiss très lumineux mis au point pour la NASA ; pour « Shining », en 1980, il exploite la Steadicam afin de suivre en un glissement continu un enfant en tricycle dans les couloirs d'un hôtel. Son œuvre, peu abondante mais très diverse, va des « Sentiers de la gloire » en 1957 à « Eyes Wide Shut » en 1999, en passant par « Docteur Folamour » en 1964, « 2001, l'Odyssée de l'espace » en 1968, « Orange mécanique » en 1971 et « Full Metal Jacket » en 1987. Il y explore la violence humaine, le dédoublement des personnalités et l'effondrement des sociétés. Curieusement, il n'a reçu qu'un seul Oscar, celui des meilleurs effets visuels pour « 2001 »."
+  },
+  {
+   "titre": "John Ford et Steven Spielberg, deux âges du cinéma américain",
+   "texte": "Le classicisme hollywoodien trouve en John Ford l'un de ses plus grands représentants. Spécialiste du western et du film épique, il tourne à plusieurs reprises dans les paysages de Monument Valley, dont les buttes rocheuses deviennent presque un personnage, et il filme en plans larges des communautés de pionniers, de fermiers et de soldats. Avec son acteur de prédilection, John Wayne, il façonne le mythe de la frontière américaine, de « La Chevauchée fantastique » en 1939 à « La Prisonnière du désert » en 1956 et « L'Homme qui tua Liberty Valance » en 1962, sans oublier une œuvre sociale comme « Les Raisins de la colère » en 1940. Il détient toujours le record de quatre Oscars de la meilleure réalisation. Une génération plus tard, Steven Spielberg réinvente le spectacle populaire. Révélé par le téléfilm « Duel » en 1971, il impose avec « Les Dents de la mer » en 1975 la formule du blockbuster moderne, film mondialement exploité et premier à franchir de tels sommets de recettes. Il emprunte à Hitchcock le travelling compensé, adopte volontiers le regard d'un enfant, comme dans « E. T., l'extra-terrestre » en 1982, et confie presque toutes ses musiques à John Williams. En 1993, la même année que « Jurassic Park », « La Liste de Schindler » lui vaut ses premiers Oscars du meilleur film et de la meilleure réalisation.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Deux âges du cinéma américain",
+    "colonnes": [
+     {
+      "titre": "John Ford, le classicisme",
+      "points": [
+       "Le western et le film épique, tournés à plusieurs reprises dans Monument Valley",
+       "Des plans larges sur des communautés de pionniers, de fermiers et de soldats",
+       "John Wayne comme acteur de prédilection, de « La Chevauchée fantastique » (1939) à « L'Homme qui tua Liberty Valance » (1962)",
+       "Détient toujours le record de quatre Oscars de la meilleure réalisation"
+      ]
+     },
+     {
+      "titre": "Steven Spielberg, le spectacle populaire",
+      "points": [
+       "Révélé par le téléfilm « Duel » en 1971",
+       "Impose la formule du blockbuster moderne avec « Les Dents de la mer » (1975)",
+       "Emprunte à Hitchcock le travelling compensé et adopte volontiers le regard d'un enfant, comme dans « E. T. » (1982)",
+       "Confie presque toutes ses musiques à John Williams ; premiers Oscars en 1993 pour « La Liste de Schindler »"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Kurosawa et Fellini, l'épopée japonaise et le carnaval italien",
+   "texte": "Hors d'Hollywood, deux cinéastes ont imposé des univers immédiatement identifiables. Au Japon, Akira Kurosawa révolutionne la mise en scène de l'action : il filme avec plusieurs caméras simultanées, recourt aux téléobjectifs qui écrasent la profondeur et donnent aux foules une densité inédite, et travaille le mouvement, la pluie, le vent et la poussière comme des éléments dramatiques. Son « Rashômon », sorti en 1950, obtient le Lion d'or à Venise en 1951 et ouvre au cinéma japonais les marchés occidentaux. Suivent « Les Sept Samouraïs » en 1954, « Le Château de l'araignée » en 1957, transposition de Macbeth à l'époque Sengoku, puis « Kagemusha », Palme d'or en 1980, et « Ran » en 1985. Toshirô Mifune tourna seize films avec lui. Son influence sur Hollywood est immense, des « Sept Mercenaires » à « Star Wars ». En Italie, Federico Fellini part du néoréalisme avant de s'en éloigner vers un baroque onirique où souvenirs, rêves et fantasmes se mêlent en mosaïques. « La Strada », en 1954, obtient l'Oscar du meilleur film étranger, « La Dolce Vita » la Palme d'or en 1960 et impose le mot paparazzi, tandis que « Huit et demi » en 1963 et « Amarcord » en 1973 tiennent de l'autoportrait. Il travaille avec le compositeur Nino Rota et son épouse, l'actrice Giulietta Masina, et reçoit un Oscar d'honneur en 1993."
+  },
+  {
+   "titre": "Andreï Tarkovski, sculpter le temps",
+   "texte": "Face au montage rapide, certains cinéastes ont fait du temps lui-même la matière première de leur art. C'est le cas d'Andreï Tarkovski, né en 1932 et mort en 1986, qui définissait le travail du réalisateur comme une manière de sculpter dans le temps. Ses plans s'étirent longuement, invitant le spectateur à contempler plutôt qu'à suivre une intrigue, et laissent une place considérable aux éléments naturels : la terre, l'eau qui ruisselle sur les murs et les objets, le feu, le vent dans les herbes. Ses films posent des questions spirituelles et existentielles, souvent à travers le regard d'un enfant, mêlant mysticisme orthodoxe et humanisme. Son premier long métrage, « L'Enfance d'Ivan », remporte le Lion d'or à Venise en 1962 et annonce le renouveau du cinéma soviétique. Mais « Andreï Roublev », achevé en 1966, se heurte à la censure, les autorités jugeant suspect ce retour aux sources d'une Russie antérieure à la révolution. « Solaris » est présenté au Festival de Cannes en mai 1972, où il obtient le Grand Prix, puis viennent « Le Miroir » en 1975 et « Stalker » en 1979. Après ce dernier film, le cinéaste quitte l'Union soviétique et tourne en Europe occidentale « Nostalghia » en 1983 et « Le Sacrifice » en 1986, avant de mourir d'un cancer. Son influence traverse encore le cinéma russe contemporain."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Chez Hitchcock, que désigne le MacGuffin ?",
+   "choix": [
+    "Sa brève apparition dans chacun de ses films",
+    "Un prétexte narratif que les personnages poursuivent mais dont l'importance réelle est faible",
+    "Un plan filmé du point de vue d'un personnage",
+    "Un effet d'optique donnant la sensation du vertige"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Le MacGuffin est l'objet ou le secret que tous les personnages cherchent à obtenir et qui met l'intrigue en mouvement. Sa nature exacte importe peu : ce qui compte, c'est la course qu'il déclenche et les relations qu'elle crée entre les personnages. Il ne faut pas le confondre avec les autres signatures d'Hitchcock : ses caméos, c'est-à-dire ses apparitions fugitives dans ses propres films, la caméra subjective qui nous place dans le regard d'un personnage, ou le travelling compensé de « Sueurs froides » en 1958. Le cinéaste distinguait par ailleurs le suspense, où le spectateur en sait plus que le héros, de la simple surprise."
+  },
+  {
+   "q": "Quel réalisateur détient le record de quatre Oscars de la meilleure réalisation ?",
+   "choix": [
+    "John Ford",
+    "Steven Spielberg",
+    "Alfred Hitchcock",
+    "Stanley Kubrick"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "John Ford a remporté quatre fois l'Oscar de la meilleure réalisation, un record qui tient toujours. Ce maître du western et du film épique a tourné dans les paysages de Monument Valley et bâti avec John Wayne le mythe de la frontière américaine, notamment avec « La Chevauchée fantastique » en 1939 et « La Prisonnière du désert » en 1956. La comparaison est éclairante : Hitchcock, pourtant nommé plusieurs fois, n'a jamais obtenu cette récompense, et Kubrick n'a reçu qu'un seul Oscar, celui des effets visuels pour « 2001, l'Odyssée de l'espace ». Spielberg, lui, a obtenu la meilleure réalisation en 1993 pour « La Liste de Schindler »."
+  },
+  {
+   "q": "Quel film d'Akira Kurosawa, sorti en 1950, obtient le Lion d'or à Venise en 1951 et fait connaître le cinéma japonais en Occident ?",
+   "choix": [
+    "Les Sept Samouraïs",
+    "Ran",
+    "Rashômon",
+    "Kagemusha"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "« Rashômon » est présenté en 1950 et récompensé par le Lion d'or au Festival de Venise en 1951. Ce prix ouvre aux films japonais les écrans occidentaux et fait de Kurosawa une figure internationale. Le cinéaste y déploie déjà son art du montage et du mouvement, qu'il perfectionnera dans « Les Sept Samouraïs » en 1954 en tournant avec plusieurs caméras et des téléobjectifs. « Kagemusha » obtiendra la Palme d'or en 1980 et « Ran » paraîtra en 1985. Son influence sur Hollywood est considérable, des « Sept Mercenaires » jusqu'à « Star Wars »."
+  },
+  {
+   "q": "Pour quel film Stanley Kubrick a-t-il fait tourner des scènes à la seule lumière des bougies, grâce à des objectifs très lumineux conçus pour la NASA ?",
+   "choix": [
+    "Orange mécanique",
+    "Shining",
+    "Docteur Folamour",
+    "Barry Lyndon"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Pour « Barry Lyndon », en 1975, Kubrick a voulu retrouver l'éclairage réel du XVIIIe siècle et a utilisé des objectifs Zeiss extrêmement lumineux mis au point pour la NASA, ce qui a permis de filmer des scènes à la seule clarté des bougies. Cette recherche technique est typique de son perfectionnisme : il contrôlait le scénario, le montage, les couleurs et jusqu'à la distribution de ses films, et pouvait exiger des dizaines de prises. Sur « Shining », en 1980, il exploita autrement l'innovation en confiant à la Steadicam de longs glissements dans les couloirs de l'hôtel. Son style repose aussi sur des cadres symétriques construits autour d'un point de fuite unique."
+  },
+  {
+   "q": "Quelle formule résume la conception du cinéma défendue par Andreï Tarkovski ?",
+   "choix": [
+    "Filmer, c'est écrire avec une caméra-stylo",
+    "Le cinéma, c'est vingt-quatre fois la vérité par seconde",
+    "Le réalisateur sculpte dans le temps",
+    "Tout ce qu'il faut, c'est une fille et un pistolet"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Tarkovski concevait la réalisation comme un travail de sculpture dans le temps : ses plans très longs invitent à contempler plutôt qu'à suivre une action. L'eau, la terre, le feu et le vent y occupent une place centrale, et ses récits posent des questions spirituelles et existentielles, souvent à hauteur d'enfant. « L'Enfance d'Ivan » lui vaut le Lion d'or à Venise en 1962, mais « Andreï Roublev », achevé en 1966, se heurte à la censure soviétique. Après « Solaris », Grand Prix à Cannes en 1972, « Le Miroir » en 1975 et « Stalker » en 1979, il quitte l'URSS et tourne « Nostalghia » puis « Le Sacrifice » en Europe occidentale."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Alfred Hitchcock",
+   "url": "https://fr.wikipedia.org/wiki/Alfred_Hitchcock"
+  },
+  {
+   "titre": "Stanley Kubrick",
+   "url": "https://fr.wikipedia.org/wiki/Stanley_Kubrick"
+  },
+  {
+   "titre": "John Ford",
+   "url": "https://fr.wikipedia.org/wiki/John_Ford"
+  },
+  {
+   "titre": "Steven Spielberg",
+   "url": "https://fr.wikipedia.org/wiki/Steven_Spielberg"
+  },
+  {
+   "titre": "Akira Kurosawa",
+   "url": "https://fr.wikipedia.org/wiki/Akira_Kurosawa"
+  },
+  {
+   "titre": "Federico Fellini",
+   "url": "https://fr.wikipedia.org/wiki/Federico_Fellini"
+  },
+  {
+   "titre": "Andreï Tarkovski",
+   "url": "https://fr.wikipedia.org/wiki/Andreï_Tarkovski"
+  },
+  {
+   "titre": "Solaris (film, 1972)",
+   "url": "https://fr.wikipedia.org/wiki/Solaris_(film,_1972)"
+  }
+ ]
+}

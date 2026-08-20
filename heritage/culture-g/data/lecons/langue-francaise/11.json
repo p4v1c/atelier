@@ -1,0 +1,212 @@
+{
+ "titre": "Jeux de langue : anagrammes, palindromes et contrepèteries",
+ "sections": [
+  {
+   "titre": "Une tradition plus savante qu'il n'y paraît",
+   "texte": "Jouer avec les mots n'est pas un divertissement récent ni mineur. L'Antiquité grecque pratiquait déjà l'anagramme et le lipogramme, et le Moyen Âge finissant en a fait une discipline : les Grands Rhétoriqueurs, poètes de cour des XVe et XVIe siècles, rivalisaient de vers rétrogrades, d'acrostiches et de rimes équivoquées, jugeant que la virtuosité formelle était la preuve du talent. Rabelais truffe ses romans de calembours et de contrepèteries. Les salons du XVIIe siècle raffolent des bouts-rimés et des énigmes. Le principe commun de tous ces jeux est simple : traiter la langue non comme un moyen transparent de dire quelque chose, mais comme une matière, faite de lettres et de sons que l'on peut compter, déplacer, retourner. La contrainte que le joueur s'impose n'est pas un obstacle à l'invention, elle en est le moteur, parce qu'elle force à chercher hors des tournures habituelles. Ces jeux ont aussi une valeur documentaire pour le linguiste : ils révèlent que le français écrit et le français parlé ne se superposent pas. Un palindrome travaille sur les lettres, une contrepèterie sur les sons, et les deux ne donnent pas les mêmes résultats. Enfin, ils remplissent une fonction sociale : ils créent une complicité entre ceux qui comprennent, ce qui explique leur place dans la presse, les cours de récréation et les repas de famille.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les principaux jeux de langue",
+    "colonnes": [
+     "Nom",
+     "Principe",
+     "Exemple"
+    ],
+    "lignes": [
+     [
+      "Anagramme",
+      "permuter les lettres d'un mot",
+      "chien / niche"
+     ],
+     [
+      "Palindrome",
+      "une phrase qui se lit dans les deux sens",
+      "Élu par cette crapule"
+     ],
+     [
+      "Contrepèterie",
+      "permuter des sons d'une phrase",
+      "femme folle à la messe"
+     ],
+     [
+      "Lipogramme",
+      "écrire en s'interdisant une lettre",
+      "La Disparition, sans e"
+     ],
+     [
+      "Holorime",
+      "deux vers entièrement homophones",
+      "à l'arène / la reine"
+     ],
+     [
+      "Acrostiche",
+      "les initiales des vers forment un mot",
+      "poème signé en colonne"
+     ]
+    ]
+   }
+  },
+  {
+   "titre": "L'anagramme, ou l'art du pseudonyme",
+   "texte": "L'anagramme consiste à réemployer toutes les lettres d'un mot ou d'une expression pour en former une autre. Le procédé passe pour avoir été inventé par le poète grec Lycophron, et le Moyen Âge lui prêtait une valeur presque divinatoire : on croyait que le nom d'une personne, correctement retourné, révélait sa nature véritable. La littérature française lui doit surtout des pseudonymes. François Rabelais publie Pantagruel puis Gargantua sous le nom d'Alcofribas Nasier, anagramme exacte de François Rabelais. Marguerite de Crayencour choisit Yourcenar, anagramme presque parfaite de son patronyme. Boris Vian signe certains textes Bison Ravi, et Paul Verlaine se désigne dans ses derniers écrits comme Pauvre Lélian. Le cas de Voltaire est plus incertain : l'explication traditionnelle en fait l'anagramme d'AROVET L. I., c'est-à-dire Arouet le jeune écrit à la latine, mais l'hypothèse n'est pas prouvée et d'autres origines ont été proposées, notamment un lieu-dit familial. Les savants ont eux aussi utilisé l'anagramme, non pour s'amuser mais pour se protéger : Galilée annonçait ses découvertes sous forme anagrammatique afin d'en dater la paternité sans les divulguer. Aujourd'hui, l'anagramme survit dans les grilles de mots croisés, au Scrabble et dans les jeux télévisés, et les ordinateurs en produisent des quantités que personne n'aurait su trouver à la main.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Des noms retournés",
+    "colonnes": [
+     "Nom réel",
+     "Anagramme",
+     "Remarque"
+    ],
+    "lignes": [
+     [
+      "François Rabelais",
+      "Alcofribas Nasier",
+      "anagramme exacte, utilisée dès 1532"
+     ],
+     [
+      "Marguerite de Crayencour",
+      "Marguerite Yourcenar",
+      "anagramme à une lettre près"
+     ],
+     [
+      "Boris Vian",
+      "Bison Ravi",
+      "pseudonyme de jeux et de chroniques"
+     ],
+     [
+      "Paul Verlaine",
+      "Pauvre Lélian",
+      "autodésignation du poète vieillissant"
+     ],
+     [
+      "Arouet le jeune ?",
+      "Voltaire",
+      "origine traditionnelle, mais discutée"
+     ]
+    ]
+   }
+  },
+  {
+   "titre": "Palindromes et vers homophones",
+   "texte": "Le palindrome, du grec palin, « en arrière », et dromos, « course », se lit indifféremment de gauche à droite et de droite à gauche, une fois qu'on néglige les espaces et les accents. Le français en compte quelques classiques : « Ésope reste ici et se repose », « Élu par cette crapule », « Engage le jeu que je le gagne ». Les mots isolés sont plus faciles à trouver, comme kayak, ressasser ou radar. L'Antiquité nous a laissé un objet énigmatique, le carré Sator, découvert notamment à Pompéi, où les cinq mots SATOR AREPO TENET OPERA ROTAS forment une grille qui se lit dans les quatre sens. Le record français appartient longtemps à Georges Perec, dont le Grand Palindrome de 1969 aligne 5 566 lettres, avant d'être dépassé en 2020 par un texte de plus de dix mille lettres. L'holorime relève d'une autre logique, puisqu'il joue sur les sons et non sur les lettres : deux vers entiers y sont homophones. Le plus célèbre, « Gall, amant de la reine, alla, tour magnanime, galamment de l'arène à la Tour Magne, à Nîmes », est presque toujours attribué à Victor Hugo. Il est en réalité de Marc Monnier, écrivain genevois du XIXe siècle : c'est un bon exemple de ces fausses attributions qui circulent d'autant mieux qu'elles flattent un grand nom."
+  },
+  {
+   "titre": "Contrepèteries et calembours",
+   "texte": "La contrepèterie permute des sons d'une phrase pour en faire apparaître une autre, généralement leste. Elle est ancienne : Rabelais emploie le verbe contre-petter, et les plus vieux exemples connus figurent dans son Pantagruel de 1532, avec la fameuse « femme folle à la messe ». Le substantif contrepèterie apparaît en 1572 chez Étienne Tabourot, dans un recueil intitulé les Bigarrures. Le jeu obéit à une règle stricte : la permutation porte sur les sons, jamais sur l'orthographe, ce qui le distingue nettement de l'anagramme. Une tradition veut aussi qu'on ne donne jamais la solution, et qu'une contrepèterie réussie exige trois personnes : celui qui la dit, celui qui la comprend, et celui qui n'a rien saisi. Depuis 1951, l'hebdomadaire satirique Le Canard enchaîné lui consacre une rubrique célèbre, « Sur l'Album de la Comtesse ». Le calembour, lui, exploite l'homophonie sans rien déplacer : il fait entendre deux sens dans une même suite de sons, comme dans les titres de presse à jeux de mots ou dans la longue tradition des devinettes. Longtemps méprisé comme le dernier degré de l'esprit, selon un mot souvent prêté à Victor Hugo, il a été réhabilité par les surréalistes, par Raymond Devos et par la publicité, qui en a fait un procédé de premier plan."
+  },
+  {
+   "titre": "L'Oulipo, ou la contrainte comme moteur",
+   "texte": "En 1960, l'écrivain Raymond Queneau et le mathématicien François Le Lionnais fondent l'Ouvroir de littérature potentielle, l'Oulipo. Leur idée est de doter la littérature de contraintes formelles nouvelles, empruntées notamment aux mathématiques, non pour se limiter mais pour ouvrir des possibles inexplorés. Queneau se définissait avec ses compagnons comme un rat qui construit lui-même le labyrinthe dont il se propose de sortir. Ses Cent mille milliards de poèmes, publiés en 1961, se composent de dix sonnets aux vers interchangeables, imprimés sur des bandes découpées : dix possibilités pour chacun des quatorze vers, soit dix puissance quatorze combinaisons, c'est-à-dire bien cent mille milliards de poèmes. Georges Perec, membre du groupe, en donne les réalisations les plus spectaculaires. La Disparition, roman de 1969, est un lipogramme intégral : pas une seule fois la lettre e, la plus fréquente du français, n'y figure, et la disparition de cette lettre est aussi le sujet du livre. Il écrit ensuite Les Revenentes, où e est au contraire la seule voyelle autorisée. Parmi les autres contraintes du groupe figurent le S+7, qui remplace chaque substantif d'un texte par le septième qui le suit dans un dictionnaire, la boule de neige, dont chaque mot compte une lettre de plus que le précédent, et le lipogramme progressif.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "Fabriquer un texte selon la méthode S+7",
+    "etapes": [
+     {
+      "label": "Choisir un texte de départ",
+      "texte": "Un poème connu convient bien, l'effet de décalage sera plus net."
+     },
+     {
+      "label": "Choisir un dictionnaire",
+      "texte": "Le résultat dépend entièrement du dictionnaire retenu, qui fait partie de la contrainte."
+     },
+     {
+      "label": "Repérer chaque substantif",
+      "texte": "Seuls les noms communs sont remplacés ; le reste de la phrase ne bouge pas."
+     },
+     {
+      "label": "Compter sept entrées plus loin",
+      "texte": "On remplace le nom par le septième substantif qui le suit dans le dictionnaire."
+     },
+     {
+      "label": "Relire le résultat",
+      "texte": "La syntaxe demeure intacte, le sens bascule : la langue continue de fonctionner à vide."
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Parmi ces formules, laquelle est un palindrome, c'est-à-dire se lit à l'identique dans les deux sens ?",
+   "choix": [
+    "Ésope reste ici et se repose",
+    "Femme folle à la messe",
+    "Gall, amant de la reine",
+    "Bison ravi"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "« Ésope reste ici et se repose » est le palindrome français le plus connu : en supprimant les espaces et les accents, la suite de lettres est rigoureusement symétrique. Les trois autres réponses illustrent d'autres jeux de langue. « Femme folle à la messe » est une contrepèterie tirée de Rabelais, fondée sur la permutation de sons. « Gall, amant de la reine » ouvre le plus célèbre distique holorime du français, où deux vers entiers se prononcent de la même façon. « Bison ravi » est une anagramme, celle de Boris Vian, qui en avait fait un de ses pseudonymes."
+  },
+  {
+   "q": "Sous quel pseudonyme, anagramme exacte de son nom, François Rabelais a-t-il publié Pantagruel ?",
+   "choix": [
+    "Pauvre Lélian",
+    "Sanfrasilo Beriac",
+    "Bison Ravi",
+    "Alcofribas Nasier"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Alcofribas Nasier reprend, dans un autre ordre, exactement les lettres de François Rabelais. L'auteur signe ainsi Pantagruel en 1532 puis Gargantua, à une époque où la prudence s'imposait face à la censure de la Sorbonne. L'anagramme était alors un procédé de haute réputation : on lui prêtait même le pouvoir de révéler la vraie nature d'une personne cachée dans son nom. Bison Ravi est l'anagramme dont Boris Vian a fait un pseudonyme, et Pauvre Lélian celle par laquelle Paul Verlaine se désignait lui-même. Ces trois exemples montrent la longue faveur du procédé auprès des écrivains français."
+  },
+  {
+   "q": "Comment nomme-t-on un texte dont l'auteur s'interdit volontairement une lettre de l'alphabet, comme La Disparition de Georges Perec ?",
+   "choix": [
+    "Un acrostiche",
+    "Un holorime",
+    "Un lipogramme",
+    "Un pangramme"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le lipogramme, du grec leipein, « laisser de côté », et gramma, « lettre », consiste à écrire en bannissant une ou plusieurs lettres. Perec publie en 1969 La Disparition, roman de plus de trois cents pages écrit sans la lettre e, la plus fréquente du français, dont l'absence est aussi le sujet du livre. Il donnera ensuite Les Revenentes, où e est la seule voyelle admise. Le procédé remonte à la Grèce antique, où l'on prête à Lasos d'Hermione des poèmes composés sans sigma. Le pangramme est exactement l'inverse : une phrase qui contient au moins une fois chaque lettre de l'alphabet."
+  },
+  {
+   "q": "Depuis 1951, quel journal publie chaque semaine une rubrique de contrepèteries intitulée « Sur l'Album de la Comtesse » ?",
+   "choix": [
+    "Le Figaro",
+    "Le Canard enchaîné",
+    "Charlie Hebdo",
+    "Le Monde"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "L'hebdomadaire satirique Le Canard enchaîné entretient cette rubrique depuis 1951, ce qui en fait l'un des plus anciens rendez-vous de la presse française. La contrepèterie y obéit à ses règles traditionnelles : la permutation porte sur les sons et non sur les lettres, et la solution n'est jamais donnée au lecteur. Le jeu est bien plus ancien que la rubrique, puisque Rabelais employait déjà le verbe contre-petter et que le substantif apparaît en 1572 chez Étienne Tabourot. Une plaisanterie de connaisseurs veut qu'une bonne contrepèterie exige trois personnes : celle qui la dit, celle qui la comprend, et celle qui ne comprend pas."
+  },
+  {
+   "q": "Le distique holorime « Gall, amant de la reine, alla, tour magnanime, / Galamment de l'arène à la Tour Magne, à Nîmes » est très souvent attribué à Victor Hugo. Qu'en dit-on aujourd'hui ?",
+   "choix": [
+    "Il est de Marc Monnier, écrivain genevois du XIXe siècle",
+    "Hugo l'a bien écrit, dans un carnet publié après sa mort",
+    "Il est anonyme et remonte au Moyen Âge",
+    "Il a été composé par Georges Perec pour l'Oulipo"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Ce distique, où les deux vers se prononcent exactement de la même façon, est l'holorime le plus célèbre de la langue française. Son attribution à Victor Hugo est une légende tenace, comme il en circule beaucoup autour des grands noms : la paternité en revient à Marc Monnier, écrivain et professeur genevois du XIXe siècle. Le texte fait allusion aux jeux floraux de Nîmes, où l'on élisait chaque année un seigneur, et à la Tour Magne, monument romain de la ville. Le premier sonnet entièrement holorime est plus tardif encore : il est dû à Jean Goudezki, qui le composa en 1892 au cabaret du Chat noir."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Anagramme",
+   "url": "https://fr.wikipedia.org/wiki/Anagramme"
+  },
+  {
+   "titre": "Palindrome",
+   "url": "https://fr.wikipedia.org/wiki/Palindrome"
+  },
+  {
+   "titre": "Contrepèterie",
+   "url": "https://fr.wikipedia.org/wiki/Contrep%C3%A8terie"
+  },
+  {
+   "titre": "Holorime",
+   "url": "https://fr.wikipedia.org/wiki/Holorime"
+  },
+  {
+   "titre": "Lipogramme",
+   "url": "https://fr.wikipedia.org/wiki/Lipogramme"
+  }
+ ]
+}

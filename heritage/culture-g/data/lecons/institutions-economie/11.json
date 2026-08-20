@@ -1,0 +1,230 @@
+{
+  "titre": "Les banques, la bourse et la finance",
+  "sections": [
+    {
+      "titre": "Qu'est-ce qu'une banque ?",
+      "texte": "Une banque est un établissement financier qui exerce trois grandes catégories d'opérations : la réception de fonds du public, les opérations de crédit et la fourniture de services bancaires de paiement. Recevoir des fonds du public signifie collecter l'argent que les particuliers, les entreprises ou les administrations déposent sur des comptes. Accorder un crédit consiste à mettre une somme à disposition d'un emprunteur qui s'engage à la rembourser avec des intérêts. Les services de paiement recouvrent les chèques, les cartes, les virements et les prélèvements, c'est-à-dire les instruments qui permettent de faire circuler l'argent sans manipuler d'espèces. Le secteur regroupe des établissements aux métiers très différents. Les banques de détail s'adressent aux particuliers et aux petites entreprises. Les banques d'investissement interviennent sur les titres financiers et accompagnent les grandes entreprises dans leurs opérations de financement. Les banques spécialisées se concentrent sur un domaine, comme le crédit immobilier ou le crédit à la consommation. Les banques centrales occupent une place à part : elles conduisent la politique monétaire et supervisent les autres établissements. Le vocabulaire lui-même rappelle l'origine de l'activité : le mot banque vient de l'italien banca, le comptoir sur lequel les changeurs lombards exerçaient leur métier. La banque moderne se développe dans les cités italiennes de la Renaissance, à Florence et à Gênes, et Venise établit une banque publique en 1587.",
+      "visuel": {
+        "type": "tableau",
+        "titre": "Les métiers de la banque",
+        "colonnes": [
+          "Type d'établissement",
+          "Ce qu'il fait"
+        ],
+        "lignes": [
+          [
+            "Banque de détail",
+            "S'adresse aux particuliers et aux petites entreprises"
+          ],
+          [
+            "Banque d'investissement",
+            "Intervient sur les titres financiers et accompagne les grandes entreprises dans leurs opérations de financement"
+          ],
+          [
+            "Banque spécialisée",
+            "Se concentre sur un domaine : crédit immobilier, crédit à la consommation"
+          ],
+          [
+            "Banque centrale",
+            "Conduit la politique monétaire et supervise les autres établissements"
+          ]
+        ],
+        "note": "Trois grandes catégories d'opérations définissent une banque : recevoir des fonds du public, accorder des crédits, fournir des services de paiement (chèques, cartes, virements, prélèvements)."
+      }
+    },
+    {
+      "titre": "Le crédit et la création monétaire",
+      "texte": "Le rôle économique le plus spécifique des banques tient à leur capacité à créer de la monnaie. Contrairement à une image répandue, une banque ne se contente pas de prêter l'argent que d'autres clients ont déposé chez elle. Lorsqu'elle accorde un crédit, elle inscrit simultanément la somme correspondante au crédit du compte de l'emprunteur : elle crée ainsi de la monnaie scripturale, c'est-à-dire de la monnaie qui n'existe que sous forme d'écriture sur un compte. Cette monnaie est détruite au fur et à mesure des remboursements. Ce mécanisme explique que la monnaie scripturale représente aujourd'hui plus de neuf dixièmes de la masse monétaire, les pièces et billets n'en constituant qu'une petite fraction. Une telle capacité comporte des risques. Si une banque prête sans discernement, elle peut se retrouver incapable de faire face à ses engagements ; et comme les établissements se prêtent massivement entre eux, la défaillance de l'un peut se propager à l'ensemble du système. C'est pourquoi l'activité bancaire est étroitement encadrée. La réglementation impose aux banques de détenir des fonds propres proportionnés aux risques qu'elles prennent, elle organise une garantie des dépôts destinée à protéger les épargnants et elle confie à la banque centrale et aux superviseurs un contrôle permanent des établissements, dans le but de préserver la stabilité financière.",
+      "visuel": {
+        "type": "etapes",
+        "titre": "Comment une banque crée de la monnaie",
+        "etapes": [
+          {
+            "label": "La demande de crédit",
+            "texte": "Un client emprunte : la banque ne se contente pas de prêter l'argent déposé par d'autres clients."
+          },
+          {
+            "label": "L'écriture au compte",
+            "texte": "La banque inscrit la somme au crédit du compte de l'emprunteur : elle crée de la monnaie scripturale, qui n'existe que sous forme d'écriture."
+          },
+          {
+            "label": "La circulation",
+            "texte": "Cette monnaie sert aux paiements ; elle représente aujourd'hui plus de neuf dixièmes de la masse monétaire, les pièces et billets n'en formant qu'une petite fraction."
+          },
+          {
+            "label": "Le remboursement",
+            "texte": "À mesure que le crédit est remboursé, la monnaie ainsi créée est détruite."
+          },
+          {
+            "label": "L'encadrement",
+            "texte": "Fonds propres proportionnés aux risques, garantie des dépôts, contrôle permanent par la banque centrale et les superviseurs : la défaillance d'un établissement peut se propager à tout le système."
+          }
+        ]
+      }
+    },
+    {
+      "titre": "La bourse : origines et fonctions",
+      "texte": "Une bourse est une institution, privée ou publique, qui permet de faire apparaître et d'afficher publiquement le prix d'actifs standardisés. Le mot viendrait de la famille Van der Buerse, à Bruges, dont les armoiries portaient trois bourses et devant la demeure de laquelle les marchands se réunissaient. Une bourse est attestée à Bruges dès 1409, avant qu'Anvers puis Amsterdam ne prennent le relais. En 1602, la Compagnie néerlandaise des Indes orientales devient la première entreprise à émettre à la fois des actions et des obligations, ce qui marque la naissance du marché des titres d'entreprise. Dès 1636, la spéculation sur les bulbes de tulipes en Hollande fournit le premier krach documenté. Londres commence à publier des cotations en 1688 et la place de Paris impose en 1774 l'annonce obligatoire des cours, afin d'améliorer la transparence. En France, les titres sont dématérialisés à partir du 5 novembre 1984 : ils cessent d'exister sous forme de papier pour devenir de simples inscriptions en compte. Les bourses remplissent plusieurs fonctions : financer les entreprises par des augmentations de capital, permettre la gestion des risques grâce aux produits dérivés, assurer la liquidité des titres, révéler des prix qui servent d'indicateurs économiques, et soumettre les entreprises cotées à des obligations d'information.",
+      "visuel": {
+        "type": "frise",
+        "titre": "Cinq siècles de bourse",
+        "evenements": [
+          {
+            "date": "1409",
+            "label": "Bruges",
+            "texte": "Une bourse y est attestée, du nom de la famille Van der Buerse dont les armoiries portaient trois bourses ; Anvers puis Amsterdam prendront le relais."
+          },
+          {
+            "date": "1602",
+            "label": "La Compagnie néerlandaise des Indes orientales",
+            "texte": "Première entreprise à émettre à la fois des actions et des obligations : le marché des titres d'entreprise est né."
+          },
+          {
+            "date": "1636",
+            "label": "La tulipomanie",
+            "texte": "La spéculation sur les bulbes de tulipes en Hollande fournit le premier krach documenté."
+          },
+          {
+            "date": "1688",
+            "label": "Londres",
+            "texte": "La place commence à publier des cotations."
+          },
+          {
+            "date": "1774",
+            "label": "Paris",
+            "texte": "L'annonce des cours devient obligatoire, pour améliorer la transparence."
+          },
+          {
+            "date": "1984",
+            "label": "La dématérialisation",
+            "texte": "Le 5 novembre, les titres français cessent d'exister sur papier et deviennent des inscriptions en compte."
+          }
+        ]
+      }
+    },
+    {
+      "titre": "La régulation des marchés financiers",
+      "texte": "Parce que les marchés financiers reposent sur la confiance et sur la qualité de l'information, les États se sont dotés d'autorités spécialisées. En France, l'Autorité des marchés financiers a été créée le 1er août 2003 par la loi de sécurité financière, qui a fusionné trois organismes antérieurs : la Commission des opérations de bourse, le Conseil des marchés financiers et le Conseil de discipline de la gestion financière. Elle a le statut d'autorité publique indépendante dotée de la personnalité morale et de l'autonomie financière. Ses missions sont de protéger l'épargne investie en instruments financiers, de veiller à l'information des investisseurs et d'assurer le bon fonctionnement des marchés. Pour cela, elle dispose d'un pouvoir réglementaire, qui lui permet d'édicter des règles, d'un pouvoir de contrôle et d'enquête, d'un pouvoir d'injonction et d'un pouvoir de sanction. Son organisation reflète cette dualité : un collège, composé d'un président et de quinze membres, prend les décisions générales, tandis qu'une commission des sanctions, comptant douze membres et statuant de manière indépendante, se prononce sur les manquements. Cette séparation vise à garantir que celui qui poursuit ne soit pas celui qui juge. En 2023, le budget de l'Autorité s'élevait à environ cent quinze millions d'euros et elle employait un peu plus de cinq cents personnes en 2024."
+    },
+    {
+      "titre": "La crise financière de 2007-2008",
+      "texte": "La crise financière la plus grave depuis les années 1930 trouve son origine dans le marché immobilier américain. À partir du second semestre 2006, les prêts immobiliers risqués, dits subprimes, accordés à des ménages peu solvables, commencent à se retourner. Ces créances avaient été transformées en titres revendus à des investisseurs du monde entier, si bien que les pertes se sont diffusées bien au-delà des banques prêteuses. En juillet 2007, certaines enchères périodiques ne trouvent plus aucun acheteur, ce qui rend impossible l'évaluation de nombreux actifs et paralyse les marchés. Le 6 septembre 2008, les organismes américains Fannie Mae et Freddie Mac, qui garantissaient environ quarante pour cent des prêts hypothécaires du pays, soit près de cinq mille trois cents milliards de dollars, sont placés sous tutelle publique. Le 15 septembre 2008, la banque d'investissement Lehman Brothers fait faillite : c'est le moment le plus spectaculaire de la crise. Les banques européennes sont touchées à leur tour et plus d'une centaine d'établissements cessent leurs activités entre 2008 et 2009. Le produit intérieur brut mondial recule de 2,2 pour cent en 2009. En réponse, les autorités renforcent la réglementation, notamment avec la loi américaine Dodd-Frank de 2010 et les règles prudentielles dites de Bâle III.",
+      "visuel": {
+        "type": "frise",
+        "titre": "La crise financière de 2007-2008",
+        "evenements": [
+          {
+            "date": "2006",
+            "label": "Le retournement immobilier américain",
+            "texte": "Au second semestre, les prêts risqués dits subprimes, accordés à des ménages peu solvables, commencent à se retourner."
+          },
+          {
+            "date": "Juillet 2007",
+            "label": "Les marchés se bloquent",
+            "texte": "Certaines enchères périodiques ne trouvent plus d'acheteur : de nombreux actifs deviennent impossibles à évaluer."
+          },
+          {
+            "date": "6 septembre 2008",
+            "label": "Fannie Mae et Freddie Mac",
+            "texte": "Placés sous tutelle publique ; ils garantissaient environ quarante pour cent des prêts hypothécaires du pays, près de cinq mille trois cents milliards de dollars."
+          },
+          {
+            "date": "15 septembre 2008",
+            "label": "Faillite de Lehman Brothers",
+            "texte": "Le moment le plus spectaculaire de la crise."
+          },
+          {
+            "date": "2008-2009",
+            "label": "La contagion",
+            "texte": "Plus d'une centaine d'établissements européens cessent leurs activités ; le produit intérieur brut mondial recule de 2,2 pour cent en 2009."
+          },
+          {
+            "date": "2010",
+            "label": "La réponse réglementaire",
+            "texte": "Loi américaine Dodd-Frank et règles prudentielles dites de Bâle III."
+          }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Quelles sont les trois grandes catégories d'opérations qui définissent l'activité bancaire ?",
+      "choix": [
+        "L'assurance, la retraite et la prévoyance",
+        "La réception de fonds du public, le crédit et les services de paiement",
+        "L'émission des billets, la fixation des taux et la collecte de l'impôt",
+        "La cotation des actions, la gestion des indices et l'audit"
+      ],
+      "bonne": 1,
+      "difficulte": 1,
+      "explication": "L'activité bancaire est définie par trois catégories d'opérations : la réception de fonds du public, c'est-à-dire la collecte des dépôts, les opérations de crédit, et la fourniture de services bancaires de paiement comme le chèque, la carte ou le virement. L'assurance relève d'un autre secteur, soumis à des règles distinctes. L'émission des billets et la conduite de la politique monétaire appartiennent à la banque centrale, qui occupe une place particulière au sein du système. La cotation des titres et la gestion des indices sont l'affaire des entreprises de marché et non des banques de dépôt."
+    },
+    {
+      "q": "Comment une banque crée-t-elle de la monnaie ?",
+      "choix": [
+        "En imprimant des billets pour ses clients",
+        "En transférant l'or qu'elle détient en réserve",
+        "En accordant un crédit, ce qui inscrit une somme nouvelle sur le compte de l'emprunteur",
+        "En achetant des actions à la bourse"
+      ],
+      "bonne": 2,
+      "difficulte": 2,
+      "explication": "Lorsqu'une banque accorde un crédit, elle inscrit la somme correspondante sur le compte de l'emprunteur : elle crée ainsi de la monnaie scripturale, qui n'existe que sous forme d'écriture comptable. Cette monnaie est ensuite détruite à mesure que le prêt est remboursé. C'est pourquoi l'on dit que les crédits font les dépôts, et non l'inverse. Ce mécanisme explique que la monnaie scripturale représente plus de neuf dixièmes de la masse monétaire. L'impression des billets relève de la seule banque centrale, et l'achat d'actions ne crée pas de monnaie mais transfère seulement des titres entre investisseurs."
+    },
+    {
+      "q": "Quelle entreprise est considérée comme la première à avoir émis des actions et des obligations, en 1602 ?",
+      "choix": [
+        "La Compagnie néerlandaise des Indes orientales",
+        "La Banque d'Angleterre",
+        "La Compagnie du Mississippi de John Law",
+        "La Compagnie des Indes françaises"
+      ],
+      "bonne": 0,
+      "difficulte": 3,
+      "explication": "En 1602, la Compagnie néerlandaise des Indes orientales devient la première entreprise à émettre à la fois des actions et des obligations, ce qui marque la naissance du marché des titres d'entreprise et fait d'Amsterdam une place financière majeure. Le mot bourse viendrait de la famille Van der Buerse, à Bruges, où une bourse est attestée dès 1409. La Banque d'Angleterre, fondée en 1694, est une banque d'émission et non une compagnie commerciale cotée. Le système de John Law date des années 1716 à 1720, soit plus d'un siècle après l'expérience néerlandaise."
+    },
+    {
+      "q": "Quel événement du 15 septembre 2008 est considéré comme le moment le plus spectaculaire de la crise financière ?",
+      "choix": [
+        "La mise sous tutelle de Fannie Mae et Freddie Mac",
+        "L'adoption de la loi Dodd-Frank",
+        "La faillite de la banque Lehman Brothers",
+        "Le recul du produit intérieur brut mondial"
+      ],
+      "bonne": 2,
+      "difficulte": 2,
+      "explication": "Le 15 septembre 2008, la banque d'investissement américaine Lehman Brothers fait faillite, ce qui provoque une panique généralisée sur les marchés et marque le point culminant de la crise. La mise sous tutelle de Fannie Mae et Freddie Mac, qui garantissaient environ quarante pour cent des prêts hypothécaires américains, était intervenue quelques jours plus tôt, le 6 septembre 2008. Le produit intérieur brut mondial a reculé de 2,2 pour cent en 2009, soit l'année suivante, comme conséquence de la crise. La loi Dodd-Frank, adoptée en 2010, fait partie des réponses réglementaires apportées après coup."
+    },
+    {
+      "q": "Quel est le statut de l'Autorité des marchés financiers créée en 2003 en France ?",
+      "choix": [
+        "Un service du ministère de la Justice",
+        "Une autorité publique indépendante",
+        "Une entreprise privée de notation",
+        "Une juridiction de l'ordre judiciaire"
+      ],
+      "bonne": 1,
+      "difficulte": 3,
+      "explication": "Créée le 1er août 2003 par la loi de sécurité financière, l'Autorité des marchés financiers est une autorité publique indépendante dotée de la personnalité morale et de l'autonomie financière. Elle est née de la fusion de la Commission des opérations de bourse, du Conseil des marchés financiers et du Conseil de discipline de la gestion financière. Elle protège l'épargne investie en instruments financiers, veille à l'information des investisseurs et au bon fonctionnement des marchés. Elle dispose de pouvoirs réglementaire, de contrôle, d'injonction et de sanction. Ses sanctions sont prononcées par une commission distincte du collège, afin de séparer la poursuite et le jugement."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Banque",
+      "url": "https://fr.wikipedia.org/wiki/Banque"
+    },
+    {
+      "titre": "Bourse (économie)",
+      "url": "https://fr.wikipedia.org/wiki/Bourse_(%C3%A9conomie)"
+    },
+    {
+      "titre": "Crise financière mondiale de 2007-2008",
+      "url": "https://fr.wikipedia.org/wiki/Crise_financi%C3%A8re_mondiale_de_2007-2008"
+    },
+    {
+      "titre": "Autorité des marchés financiers (France)",
+      "url": "https://fr.wikipedia.org/wiki/Autorit%C3%A9_des_march%C3%A9s_financiers_(France)"
+    }
+  ]
+}

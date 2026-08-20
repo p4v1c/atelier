@@ -1,0 +1,202 @@
+{
+ "titre": "La guerre d'Algérie (1954-1962)",
+ "sections": [
+  {
+   "titre": "Une colonie devenue départements : les origines du conflit",
+   "texte": "La France a commencé la conquête de l'Algérie en 1830 et l'a soumise après des décennies de campagnes militaires. À partir de 1848, le nord du territoire est organisé en départements français, ce qui distingue radicalement l'Algérie des protectorats voisins et rend toute idée d'indépendance inconcevable pour la plupart des responsables métropolitains. Vers 1954, le pays compte environ neuf à dix millions d'habitants, dont à peu près un million d'Européens, appelés plus tard pieds-noirs, installés surtout dans les villes et propriétaires des meilleures terres. La population musulmane, largement majoritaire, subit une profonde inégalité : elle relève longtemps d'un statut juridique distinct, dispose d'une représentation politique réduite par des collèges électoraux séparés, et connaît des niveaux de scolarisation et de revenus très inférieurs. Les espoirs de réforme sont déçus les uns après les autres, tandis que la répression sanglante des manifestations de Sétif, Guelma et Kherrata en mai 1945 laisse un traumatisme durable. Le mouvement nationaliste, longtemps divisé entre partisans de l'assimilation, réformistes musulmans et indépendantistes, se radicalise. En 1954, de jeunes militants issus du courant de Messali Hadj fondent le Front de libération nationale et son bras armé, l'Armée de libération nationale, convaincus que seule la lutte armée peut faire aboutir la revendication d'indépendance.",
+   "visuel": {
+    "type": "barres",
+    "titre": "L'Algérie vers 1954 : deux populations, un seul territoire",
+    "unite": "habitants",
+    "donnees": [
+     {
+      "label": "Population musulmane",
+      "valeur": 8500000,
+      "affichage": "environ 8 à 9 millions"
+     },
+     {
+      "label": "Européens, les futurs pieds-noirs",
+      "valeur": 1000000,
+      "affichage": "environ 1 million",
+      "focus": true
+     }
+    ]
+   }
+  },
+  {
+   "titre": "De la Toussaint rouge à la bataille d'Alger (1954-1957)",
+   "texte": "Dans la nuit du 31 octobre au 1er novembre 1954, une série d'attentats et d'attaques coordonnés frappe une trentaine de points du territoire algérien : c'est la Toussaint rouge, acte de naissance de la guerre. Le gouvernement français, dirigé par Pierre Mendès France, refuse toute négociation et affirme que l'Algérie, c'est la France. Le conflit s'étend rapidement. En août 1955, les massacres de civils européens dans le Constantinois provoquent une répression d'une extrême violence qui fait un très grand nombre de victimes algériennes et creuse un fossé irréparable entre les deux communautés. En 1956, l'Assemblée nationale vote les pouvoirs spéciaux et le gouvernement de Guy Mollet fait rappeler les disponibles et prolonger le service militaire : plusieurs centaines de milliers de jeunes appelés du contingent partent en Algérie, où l'armée française atteint un effectif proche de 400 000 hommes. En 1957, le FLN transporte la lutte dans la capitale par une campagne d'attentats. Les pouvoirs de police sont confiés au général Massu et à ses parachutistes : c'est la bataille d'Alger, qui démantèle les réseaux nationalistes mais recourt massivement à l'arrestation arbitraire, aux exécutions sommaires et à la torture. Les révélations sur ces pratiques provoquent en métropole un débat moral et politique de plus en plus vif."
+  },
+  {
+   "titre": "De Gaulle, l'autodétermination et la révolte de l'Algérie française",
+   "texte": "L'incapacité des gouvernements de la Quatrième République à trouver une issue conduit à la crise du 13 mai 1958 : à Alger, partisans de l'Algérie française et militaires forment un comité de salut public et réclament le retour du général de Gaulle, qui est investi le 1er juin. D'abord ambigu, il lance le plan de Constantine pour développer l'économie algérienne et laisse l'armée mener l'offensive du plan Challe contre les maquis. Mais, le 16 septembre 1959, il reconnaît publiquement le droit des Algériens à l'autodétermination, ouvrant la voie à une indépendance possible. La rupture est immédiate avec les défenseurs de l'Algérie française. En janvier 1960, la semaine des barricades ensanglante Alger. En avril 1961, quatre généraux, dont Salan et Challe, tentent un putsch pour renverser le pouvoir ; de Gaulle le brise en s'adressant directement aux appelés par la radio, et le complot s'effondre en quelques jours. Les irréductibles fondent alors l'Organisation armée secrète, qui multiplie attentats et assassinats en Algérie comme en métropole, faisant plus d'un millier de morts. La violence gagne aussi Paris : la manifestation d'Algériens du 17 octobre 1961, réprimée par la police du préfet Maurice Papon, se solde par de nombreux morts longtemps occultés. Quelques mois plus tard, en février 1962, la répression d'un rassemblement contre l'OAS au métro Charonne fait encore neuf victimes à Paris.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Huit ans de guerre",
+    "evenements": [
+     {
+      "date": "1er novembre 1954",
+      "label": "La Toussaint rouge",
+      "texte": "Une trentaine d'attaques coordonnées du FLN. Mendès France refuse toute négociation : l'Algérie, c'est la France."
+     },
+     {
+      "date": "août 1955",
+      "label": "Le Constantinois",
+      "texte": "Massacres de civils européens, puis répression d'une extrême violence : le fossé entre les deux communautés devient irréparable."
+     },
+     {
+      "date": "1956",
+      "label": "Les pouvoirs spéciaux",
+      "texte": "Rappel des disponibles et service militaire prolongé : l'armée française approche les 400 000 hommes, dont des centaines de milliers d'appelés du contingent."
+     },
+     {
+      "date": "1957",
+      "label": "La bataille d'Alger",
+      "texte": "Les pouvoirs de police confiés à Massu démantèlent les réseaux, au prix d'arrestations arbitraires, d'exécutions sommaires et de la torture, dont la révélation ébranle la métropole."
+     },
+     {
+      "date": "13 mai 1958",
+      "label": "La crise qui emporte la IVe République",
+      "texte": "Comité de salut public à Alger, retour du général de Gaulle, investi le 1er juin."
+     },
+     {
+      "date": "16 septembre 1959",
+      "label": "L'autodétermination reconnue",
+      "texte": "De Gaulle ouvre publiquement la voie à une indépendance possible ; la rupture est immédiate avec les partisans de l'Algérie française."
+     },
+     {
+      "date": "janvier 1960 et avril 1961",
+      "label": "Barricades, puis putsch des généraux",
+      "texte": "De Gaulle brise le putsch en s'adressant par radio aux appelés. Les irréductibles fondent l'OAS, dont les attentats feront plus d'un millier de morts."
+     },
+     {
+      "date": "17 octobre 1961",
+      "label": "La répression à Paris",
+      "texte": "Une manifestation d'Algériens est réprimée par la police du préfet Papon : de nombreux morts, longtemps occultés. En février 1962, Charonne fait encore neuf victimes."
+     },
+     {
+      "date": "18 mars 1962",
+      "label": "Accords d'Évian",
+      "texte": "Cessez-le-feu le lendemain à midi ; approuvés en métropole le 8 avril par plus de 90 % de oui."
+     },
+     {
+      "date": "5 juillet 1962",
+      "label": "Indépendance de l'Algérie",
+      "texte": "Après un référendum d'autodétermination quasi unanime le 1er juillet, le jour anniversaire de la prise d'Alger en 1830."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Les accords d'Évian et l'indépendance (1962)",
+   "texte": "Des négociations secrètes s'engagent entre le gouvernement français et le Gouvernement provisoire de la République algérienne. Elles aboutissent à la signature des accords d'Évian, le 18 mars 1962, entre les délégations conduites par Louis Joxe et Krim Belkacem. Le cessez-le-feu prend effet le lendemain à midi. Les textes prévoient l'organisation d'un scrutin d'autodétermination, la coopération économique et technique entre les deux pays, notamment sur les hydrocarbures du Sahara, le maintien temporaire de la base navale de Mers el-Kébir, et des garanties pour les Européens qui choisiraient de rester, avec la possibilité d'opter pour la nationalité algérienne. Le 8 avril 1962, les électeurs de métropole approuvent massivement ces accords, avec plus de 90 % de oui. Le référendum d'autodétermination organisé en Algérie le 1er juillet 1962 donne une adhésion quasi unanime à l'indépendance, proclamée le 5 juillet 1962, jour anniversaire de la prise d'Alger en 1830. Les mois qui suivent sont pourtant dramatiques. L'OAS pratique la politique de la terre brûlée, et la panique s'empare des Européens : près d'un million de pieds-noirs quittent l'Algérie en quelques mois, dans un dénuement souvent total, et s'installent surtout dans le sud de la France, où leur accueil se révèle souvent difficile. Le mot d'ordre de la valise ou du cercueil résume l'angoisse de ces départs précipités."
+  },
+  {
+   "titre": "Un bilan lourd et une mémoire disputée",
+   "texte": "Le bilan humain de la guerre reste discuté et les estimations varient fortement selon les sources françaises et algériennes. Du côté français, environ 25 000 militaires ont perdu la vie et plusieurs dizaines de milliers ont été blessés ; des milliers de civils européens ont également été tués. Du côté algérien, les évaluations françaises retiennent souvent un ordre de grandeur de 250 000 à 400 000 morts, alors que l'Algérie indépendante avance le chiffre symbolique d'un million et demi de martyrs. Le sort des harkis, supplétifs musulmans engagés aux côtés de l'armée française, est particulièrement tragique : abandonnés pour la plupart lors du retrait, des dizaines de milliers d'entre eux sont massacrés après l'indépendance, tandis que ceux qui parviennent à gagner la France sont longtemps parqués dans des camps. Deux à trois millions de civils algériens ont par ailleurs été déplacés de force dans des camps de regroupement pendant le conflit. La guerre a durablement marqué les deux sociétés. En France, elle n'a été officiellement qualifiée de guerre qu'en 1999, la République ayant longtemps parlé d'opérations de maintien de l'ordre. Les débats sur la torture, le 17 octobre 1961, les harkis et les rapatriés continuent d'alimenter un travail de mémoire inachevé.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "Un bilan que les mémoires ne partagent pas",
+    "items": [
+     {
+      "valeur": "25 000",
+      "label": "militaires français tués, auxquels s'ajoutent des milliers de civils européens"
+     },
+     {
+      "valeur": "250 000 à 400 000",
+      "label": "morts algériens selon les estimations françaises les plus courantes"
+     },
+     {
+      "valeur": "1,5 million",
+      "label": "de martyrs, chiffre symbolique avancé par l'Algérie indépendante"
+     },
+     {
+      "valeur": "2 à 3 millions",
+      "label": "de civils algériens déplacés de force dans des camps de regroupement"
+     },
+     {
+      "valeur": "1 million",
+      "label": "de pieds-noirs quittant l'Algérie en quelques mois en 1962"
+     },
+     {
+      "valeur": "1999",
+      "label": "l'année où la France qualifie enfin officiellement le conflit de guerre"
+     }
+    ],
+    "note": "Des dizaines de milliers de harkis, abandonnés lors du retrait, sont massacrés après l'indépendance ; ceux qui gagnent la France sont longtemps parqués dans des camps."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel événement marque le début de la guerre d'Algérie ?",
+   "choix": [
+    "Les massacres de Sétif en mai 1945",
+    "La Toussaint rouge du 1er novembre 1954",
+    "La bataille d'Alger en 1957",
+    "Le putsch des généraux en avril 1961"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Dans la nuit du 31 octobre au 1er novembre 1954, le Front de libération nationale déclenche une série d'attaques coordonnées contre une trentaine d'objectifs militaires et administratifs en Algérie. Cette nuit, appelée Toussaint rouge, est considérée comme le point de départ du conflit. Le gouvernement français refuse toute négociation et engage la répression. Les manifestations de Sétif, Guelma et Kherrata, en mai 1945, avaient constitué un précédent traumatisant mais n'ouvrent pas encore la guerre. La bataille d'Alger et le putsch des généraux appartiennent à des phases ultérieures du conflit."
+  },
+  {
+   "q": "Qu'est-ce que la bataille d'Alger de 1957 ?",
+   "choix": [
+    "Un affrontement naval entre la France et l'Égypte",
+    "Le débarquement de troupes américaines en Algérie",
+    "Une opération de police confiée aux parachutistes du général Massu contre les réseaux du FLN",
+    "Une révolte des colons européens contre de Gaulle"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Face à la campagne d'attentats lancée par le FLN dans la capitale algérienne, le gouvernement confie en 1957 les pouvoirs de police au général Jacques Massu et à ses parachutistes. Ceux-ci démantèlent effectivement les réseaux clandestins par un quadrillage systématique de la ville, mais recourent massivement aux arrestations arbitraires, aux disparitions et à la torture. La révélation de ces pratiques provoque en métropole un débat moral majeur, alimenté par des témoignages et des ouvrages censurés. Le succès militaire se paie donc d'un coût politique considérable pour la France."
+  },
+  {
+   "q": "Que déclare le général de Gaulle le 16 septembre 1959 ?",
+   "choix": [
+    "Qu'il reconnaît le droit des Algériens à l'autodétermination",
+    "Que l'Algérie restera française à jamais",
+    "Qu'il dissout le FLN",
+    "Qu'il retire immédiatement toutes les troupes françaises"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Revenu au pouvoir grâce à la crise du 13 mai 1958 et longtemps ambigu sur ses intentions, de Gaulle franchit un cap le 16 septembre 1959 en reconnaissant publiquement le droit des Algériens à choisir leur avenir par un vote. Cette annonce ouvre la perspective d'une indépendance et provoque la rupture avec les partisans de l'Algérie française, qui se sentent trahis. Elle est suivie par la semaine des barricades à Alger en janvier 1960, puis par le putsch des généraux d'avril 1961 et par la création de l'OAS. Le processus aboutit aux accords d'Évian de mars 1962."
+  },
+  {
+   "q": "Quand l'indépendance de l'Algérie est-elle proclamée ?",
+   "choix": [
+    "Le 18 mars 1962",
+    "Le 8 avril 1962",
+    "Le 1er juillet 1962",
+    "Le 5 juillet 1962"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Les accords d'Évian, signés le 18 mars 1962, instaurent un cessez-le-feu à partir du lendemain et prévoient une consultation des Algériens. Les électeurs de métropole approuvent ces accords par référendum le 8 avril 1962 avec plus de 90 % de oui. Le scrutin d'autodétermination se tient en Algérie le 1er juillet 1962 et donne un résultat quasi unanime en faveur de l'indépendance. Celle-ci est officiellement proclamée le 5 juillet 1962, date hautement symbolique puisqu'elle correspond à l'anniversaire de la prise d'Alger par les troupes françaises en 1830."
+  },
+  {
+   "q": "Quel sort connaissent de nombreux harkis après 1962 ?",
+   "choix": [
+    "Ils sont massacrés en Algérie ou mal accueillis en France",
+    "Ils obtiennent aussitôt des postes dans le nouvel État algérien",
+    "Ils sont rapatriés en priorité et indemnisés dès 1962",
+    "Ils rejoignent en masse les rangs de l'OAS"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Les harkis étaient des supplétifs musulmans engagés aux côtés de l'armée française pendant la guerre. Lors du retrait français, la plupart sont désarmés et abandonnés sur place malgré les mises en garde de certains officiers. Des dizaines de milliers d'entre eux sont tués ou disparaissent après l'indépendance, souvent dans des conditions atroces. Les familles qui parviennent à gagner la France, parfois grâce à des militaires agissant de leur propre initiative, sont longtemps installées dans des camps de transit et des hameaux de forestage, à l'écart de la société. La reconnaissance officielle de cet abandon par l'État français n'est intervenue que très tardivement."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Guerre d'Algérie",
+   "url": "https://fr.wikipedia.org/wiki/Guerre_d%27Alg%C3%A9rie"
+  },
+  {
+   "titre": "Accords d'Évian",
+   "url": "https://fr.wikipedia.org/wiki/Accords_d%27%C3%89vian"
+  }
+ ]
+}

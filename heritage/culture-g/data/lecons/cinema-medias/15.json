@@ -1,0 +1,202 @@
+{
+ "titre": "La télévision française, une histoire",
+ "sections": [
+  {
+   "titre": "Les débuts, d'un ministère à un journal télévisé",
+   "texte": "La télévision française naît dans un service de l'État. Le 26 avril 1935, Radio-PTT Vision est officiellement lancée depuis le ministère des Postes, Télégraphes et Téléphones : c'est la première chaîne française à émettre régulièrement. Le public concerné est alors minuscule, les récepteurs étant rarissimes et coûteux, et la diffusion se limite à la région parisienne. Le 4 janvier 1937, des émissions quotidiennes s'installent, dans une case très courte allant de vingt heures à vingt heures trente. La guerre interrompt ce développement, qui reprend ensuite dans une France en reconstruction. Le 9 février 1949 est créée la Radiodiffusion-Télévision française, la RTF, qui réunit la radio et la télévision publiques sous une même autorité. Quelques mois plus tard, le 29 juin 1949, Pierre Sabbagh lance un journal télévisé quotidien, le premier au monde : la télévision cesse d'être un divertissement expérimental pour devenir un média d'information, avec ses présentateurs, ses reportages et bientôt ses rendez-vous. Le 6 juin 1954, la France figure parmi les membres fondateurs de l'Eurovision, réseau d'échange qui permet aux télévisions européennes de partager des images et de retransmettre ensemble les grands événements. Ces années fixent une caractéristique durable du modèle français : la télévision est d'abord un service public, financé par une redevance, et non une entreprise commerciale.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Les débuts de la télévision française",
+    "evenements": [
+     {
+      "date": "26 avril 1935",
+      "label": "Radio-PTT Vision",
+      "texte": "La première chaîne française émet régulièrement depuis le ministère des Postes, Télégraphes et Téléphones."
+     },
+     {
+      "date": "4 janvier 1937",
+      "label": "Des émissions quotidiennes",
+      "texte": "Une case très courte, de vingt heures à vingt heures trente, pour la seule région parisienne."
+     },
+     {
+      "date": "9 février 1949",
+      "label": "La RTF",
+      "texte": "La Radiodiffusion-Télévision française réunit radio et télévision publiques."
+     },
+     {
+      "date": "29 juin 1949",
+      "label": "Le premier journal télévisé",
+      "texte": "Pierre Sabbagh lance un journal quotidien, le premier au monde."
+     },
+     {
+      "date": "6 juin 1954",
+      "label": "L'Eurovision",
+      "texte": "La France est membre fondateur du réseau d'échange d'images entre télévisions européennes."
+     },
+     {
+      "date": "27 juin 1964",
+      "label": "L'ORTF",
+      "texte": "L'office gère radio et télévision, à l'échelle nationale comme régionale ; la couleur arrive le 1er octobre 1967 avec le procédé français SÉCAM."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "L'ORTF, une télévision d'État",
+   "texte": "Le 27 juin 1964, la RTF devient l'Office de radiodiffusion-télévision française, l'ORTF, établissement public autonome qui gère la radio et la télévision, à l'échelle nationale comme régionale. Ces années sont celles de l'expansion technique. Une deuxième chaîne, diffusée en six cent vingt-cinq lignes, est lancée le 18 avril 1964, puis passe à la couleur le 1er octobre 1967 grâce au procédé français SÉCAM. Une troisième chaîne apparaît le 31 décembre 1972. La télévision entre dans la quasi-totalité des foyers et transforme les habitudes familiales, le repas du soir et les loisirs. Mais l'ORTF est aussi le symbole d'une télévision étroitement contrôlée par le pouvoir politique : le gouvernement nomme les dirigeants et surveille l'information, au point que l'on parlait couramment de la voix de la France. Cette tutelle provoque en mai et juin 1968 une grève massive des journalistes et des techniciens, qui réclament l'indépendance rédactionnelle ; le mouvement se solde par de nombreux licenciements. Une loi du 3 juillet 1972 réforme la structure de l'établissement et crée la fonction de président-directeur général. Parmi les dirigeants successifs figurent Jacques-Bernard Dupont, Jean-Jacques de Bresson, Arthur Conte et Marceau Long, dernier président. L'office est dissous le 31 décembre 1974 et cesse toute activité le 5 janvier 1975."
+  },
+  {
+   "titre": "L'éclatement de 1974",
+   "texte": "La loi du 7 août 1974 démantèle l'ORTF et redessine tout le paysage audiovisuel français. L'établissement unique est remplacé par sept sociétés indépendantes, censées se concurrencer pour stimuler la création et l'audience. Radio France reçoit la radio publique. Trois sociétés de télévision naissent : TF1, qui prend le nom de Télévision française 1 le 6 janvier 1975 et hérite de la première chaîne, Antenne 2 et FR3, cette dernière chargée d'une mission régionale. Trois organismes techniques complètent l'ensemble : Télédiffusion de France, TDF, responsable des émetteurs et de la diffusion du signal, la Société française de production, la SFP, chargée de fabriquer les émissions, et l'Institut national de l'audiovisuel, l'INA, qui conserve et exploite les archives, mission dont on mesure aujourd'hui l'importance patrimoniale. Il faut cependant se garder d'un contresens fréquent : cet éclatement ne met pas fin au monopole d'État. Les nouvelles sociétés restent publiques, et le monopole de diffusion ne disparaît qu'en 1981 pour la radio, avec la légalisation des radios dites libres, et en 1982 pour la télévision. C'est seulement à partir de cette date que des chaînes privées peuvent légalement exister en France, ce qui ouvre la décennie décisive des années 1980. La réforme n'en a pas moins des effets immédiats sur les programmes, puisque les trois chaînes se disputent désormais les mêmes téléspectateurs et cherchent à se distinguer par leurs journaux, leurs variétés et leurs fictions.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les sept sociétés issues de l'ORTF, loi du 7 août 1974",
+    "colonnes": [
+     "Société",
+     "Mission"
+    ],
+    "lignes": [
+     [
+      "Radio France",
+      "La radio publique"
+     ],
+     [
+      "TF1",
+      "La première chaîne, qui prend ce nom le 6 janvier 1975"
+     ],
+     [
+      "Antenne 2",
+      "La deuxième chaîne"
+     ],
+     [
+      "FR3",
+      "La troisième chaîne, chargée d'une mission régionale"
+     ],
+     [
+      "TDF",
+      "Télédiffusion de France : les émetteurs et la diffusion du signal"
+     ],
+     [
+      "SFP",
+      "Société française de production : la fabrication des émissions"
+     ],
+     [
+      "INA",
+      "Institut national de l'audiovisuel : la conservation des archives"
+     ]
+    ],
+    "note": "Contresens fréquent : cet éclatement ne met pas fin au monopole d'État. Les sept sociétés restent publiques, et des chaînes privées ne peuvent légalement exister qu'à partir de 1982."
+   }
+  },
+  {
+   "titre": "1984-1987, l'irruption du privé",
+   "texte": "Le 4 novembre 1984, Canal+ est lancée : c'est la première chaîne privée française, et elle choisit d'emblée un modèle inédit dans le pays, celui du péage. Son signal est chiffré et l'abonné doit disposer d'un décodeur ; l'abonnement coûte alors cent vingt francs par mois. La grille repose sur deux piliers, le cinéma et le sport, avec des films récents peu rediffusés et des matchs de football en direct, complétés par des innovations de ton comme les émissions du matin, les clips musicaux et les bandes-annonces à la place des présentations traditionnelles. Le rôle de Canal+ dans le financement du cinéma français devient rapidement décisif : en achetant les droits de diffusion des films, la chaîne apporte à la production une manne financière qui soutient toute la filière. Deux ans et demi plus tard, le gouvernement de droite décide de privatiser une chaîne publique. Le 16 avril 1987, le groupe de construction Bouygues rachète TF1 pour trois milliards de francs, à la surprise des observateurs qui donnaient Hachette favori ; Patrick Le Lay en prend la présidence en 1988. Le 1er mars 1987, M6 est lancée à son tour. En quelques années, la France passe donc d'un monopole public à un système mixte où chaînes publiques et privées se disputent l'audience et les recettes publicitaires."
+  },
+  {
+   "titre": "De l'âge d'or des grandes chaînes à la fragmentation",
+   "texte": "Les années 1990 et 2000 constituent l'âge d'or des chaînes historiques. TF1 devient la première chaîne d'Europe par l'audience et dépasse durablement quarante pour cent de part de marché ; son présentateur du journal, Patrick Poivre d'Arvor, réunit régulièrement dix millions de téléspectateurs chaque soir. Une poignée de chaînes rassemble alors la quasi-totalité du public, ce qui donne à la télévision un rôle d'agenda commun, où l'on regarde ensemble les mêmes programmes et où l'on en parle le lendemain. Cet équilibre est bouleversé par le numérique. Le 31 mars 2005, la télévision numérique terrestre est lancée à l'échelle nationale avec quatorze chaînes, puis la haute définition arrive le 30 octobre 2008 et la diffusion analogique s'arrête complètement le 29 novembre 2011. L'offre gratuite se multiplie et l'audience se fragmente. La conséquence est spectaculaire : en 2019, TF1 passe pour la première fois de son histoire sous la barre des vingt pour cent d'audience. La concurrence des plateformes de vidéo à la demande et des usages en ligne accentue encore le mouvement, en particulier chez les jeunes. La télévision reste très regardée, mais elle a perdu son ancien pouvoir de rassemblement au profit d'une consommation dispersée et individualisée.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "L'audience de TF1, d'un extrême à l'autre",
+    "items": [
+     {
+      "valeur": "plus de 40 %",
+      "label": "de part de marché dans les années 1990 et 2000, première chaîne d'Europe"
+     },
+     {
+      "valeur": "10 millions",
+      "label": "de téléspectateurs chaque soir pour le journal de Patrick Poivre d'Arvor"
+     },
+     {
+      "valeur": "14",
+      "label": "chaînes lancées avec la télévision numérique terrestre, le 31 mars 2005"
+     },
+     {
+      "valeur": "moins de 20 %",
+      "label": "d'audience en 2019, pour la première fois de son histoire"
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel événement du 29 juin 1949 marque une première mondiale pour la télévision française ?",
+   "choix": [
+    "La première retransmission en couleur",
+    "Le lancement du premier journal télévisé quotidien au monde",
+    "La création de l'Eurovision",
+    "La première émission de variétés en direct"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Le 29 juin 1949, Pierre Sabbagh lance à la Radiodiffusion-Télévision française un journal télévisé diffusé chaque jour, le premier au monde. Cette date fait basculer la télévision du statut de curiosité technique à celui de média d'information. La RTF venait elle-même d'être créée le 9 février de la même année. La France rejoindra ensuite l'Eurovision, dont elle est membre fondateur le 6 juin 1954. La couleur, elle, n'arrivera qu'en 1967 sur la deuxième chaîne, avec le procédé français SÉCAM."
+  },
+  {
+   "q": "Que s'est-il passé le 7 août 1974 dans l'audiovisuel français ?",
+   "choix": [
+    "La création de l'ORTF",
+    "La privatisation de TF1",
+    "L'éclatement de l'ORTF en sept sociétés",
+    "Le lancement de Canal+"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La loi du 7 août 1974 démantèle l'Office de radiodiffusion-télévision française, créé dix ans plus tôt le 27 juin 1964. Sept sociétés indépendantes lui succèdent : Radio France pour la radio, TF1, Antenne 2 et FR3 pour la télévision, ainsi que TDF pour la diffusion du signal, la SFP pour la production et l'INA pour les archives. Attention à un contresens fréquent : cette réforme ne met pas fin au monopole d'État, puisque toutes ces sociétés restent publiques. Le monopole ne tombera qu'en 1981 pour la radio et en 1982 pour la télévision."
+  },
+  {
+   "q": "Quelle chaîne a été la première chaîne privée française ?",
+   "choix": [
+    "Canal+, lancée le 4 novembre 1984",
+    "M6, lancée le 1er mars 1987",
+    "TF1, privatisée en 1987",
+    "La Cinq"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Canal+ est lancée le 4 novembre 1984 et constitue la première chaîne privée française. Elle adopte un modèle payant inédit dans le pays : le signal est chiffré, l'abonné doit disposer d'un décodeur et verse alors cent vingt francs par mois. Sa grille repose sur le cinéma et le sport. TF1 était encore publique à cette date et ne sera privatisée que le 16 avril 1987, rachetée par le groupe Bouygues pour trois milliards de francs. M6 est lancée quelques semaines plus tôt, le 1er mars 1987."
+  },
+  {
+   "q": "Quel rôle Canal+ joue-t-elle dans le cinéma français ?",
+   "choix": [
+    "Elle produit elle-même tous les films français",
+    "Elle finance largement la production en achetant les droits de diffusion",
+    "Elle distribue les films en salle",
+    "Elle organise le Festival de Cannes"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "En faisant du cinéma l'un de ses deux piliers avec le sport, Canal+ a dû acquérir massivement des droits de diffusion de films récents. Les sommes ainsi versées aux producteurs sont devenues une source de financement essentielle pour la production française, au point que la chaîne est un pilier du système de soutien au cinéma national. Elle n'est pourtant ni le producteur unique ni le distributeur en salle des films. Créée en 1984 sous le contrôle de Havas, la chaîne est ensuite passée à Vivendi puis au groupe Bolloré."
+  },
+  {
+   "q": "Quelle conséquence le lancement de la TNT le 31 mars 2005 a-t-il eue sur l'audience ?",
+   "choix": [
+    "Il a renforcé la domination de TF1",
+    "Il a supprimé la publicité télévisée",
+    "Il a fragmenté l'audience entre beaucoup plus de chaînes",
+    "Il a mis fin au service public"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "Le 31 mars 2005, la télévision numérique terrestre est lancée au niveau national avec quatorze chaînes, avant la haute définition le 30 octobre 2008 et l'arrêt complet de l'analogique le 29 novembre 2011. En multipliant l'offre gratuite, la TNT a dispersé les téléspectateurs entre un grand nombre de programmes. TF1, qui dépassait quarante pour cent de part de marché dans les années 1990 et 2000, est ainsi passée pour la première fois sous vingt pour cent en 2019. La concurrence des plateformes en ligne a encore accentué ce mouvement."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Histoire de la télévision française",
+   "url": "https://fr.wikipedia.org/wiki/Histoire_de_la_télévision_française"
+  },
+  {
+   "titre": "Office de radiodiffusion-télévision française",
+   "url": "https://fr.wikipedia.org/wiki/Office_de_radiodiffusion-télévision_française"
+  },
+  {
+   "titre": "Canal+",
+   "url": "https://fr.wikipedia.org/wiki/Canal%2B"
+  },
+  {
+   "titre": "TF1",
+   "url": "https://fr.wikipedia.org/wiki/TF1"
+  }
+ ]
+}

@@ -1,0 +1,219 @@
+{
+ "titre": "La Renaissance et les réformes religieuses en Europe (XIVe - XVIIe siècle)",
+ "sections": [
+  {
+   "titre": "L'Italie invente la Renaissance",
+   "texte": "Le mot Renaissance désigne le mouvement culturel qui, parti de l'Italie, réoriente l'Europe vers l'héritage de l'Antiquité grecque et romaine. Il s'amorce dès le XIVe siècle, le Trecento, s'affirme au XVe, le Quattrocento, se diffuse dans toute l'Europe au XVIe et s'achève au XVIIe. Pourquoi l'Italie ? Parce que les ruines antiques y sont partout, parce que les cités y sont riches d'un commerce méditerranéen ancien, et parce que le morcellement politique multiplie les cours rivales qui se disputent le prestige. Florence en est le foyer le plus célèbre, aux côtés de Rome, Venise et Milan. La famille Médicis, banquiers devenus maîtres de Florence, illustre le rôle du mécénat : commander une chapelle, une statue ou un manuscrit devient un instrument de pouvoir autant qu'un geste de goût. La chute de Constantinople en 1453 pousse vers l'Italie des lettrés grecs porteurs de manuscrits, ce qui accélère un mouvement déjà engagé. Les artistes changent de statut : de l'artisan anonyme du Moyen Âge, on passe à l'homme de génie signant son œuvre, tel Léonard de Vinci, Raphaël ou Michel-Ange. Techniquement, la perspective mathématique, l'anatomie, la peinture à l'huile transforment la représentation. Il ne faut pourtant pas croire à une rupture totale : le Moyen Âge connaissait déjà l'Antiquité, et les continuités sont nombreuses.",
+   "visuel": {
+    "type": "frise",
+    "titre": "De la Renaissance aux traités de Westphalie",
+    "evenements": [
+     {
+      "date": "v. 1450",
+      "label": "Imprimerie de Gutenberg",
+      "texte": "La typographie en caractères mobiles bouleverse la diffusion des idées."
+     },
+     {
+      "date": "1453",
+      "label": "Chute de Constantinople",
+      "texte": "Des lettrés grecs gagnent l'Italie avec leurs manuscrits."
+     },
+     {
+      "date": "31 octobre 1517",
+      "label": "Les 95 thèses de Luther",
+      "texte": "À Wittenberg, contre le commerce des indulgences."
+     },
+     {
+      "date": "1521",
+      "label": "Excommunication et diète de Worms",
+      "texte": "Charles Quint met Luther au ban de l'Empire."
+     },
+     {
+      "date": "1534",
+      "label": "Henri VIII rompt avec Rome",
+      "texte": "Naissance de l'Église d'Angleterre."
+     },
+     {
+      "date": "1541",
+      "label": "Calvin s'installe durablement à Genève",
+      "texte": "La ville devient un modèle réformé."
+     },
+     {
+      "date": "1543",
+      "label": "Copernic publie son système héliocentrique",
+      "texte": "La Terre cesse d'être au centre du monde."
+     },
+     {
+      "date": "1545-1563",
+      "label": "Concile de Trente",
+      "texte": "La réponse catholique, dite Contre-Réforme."
+     },
+     {
+      "date": "1555",
+      "label": "Paix d'Augsbourg",
+      "texte": "Chaque prince de l'Empire fixe la religion de son État."
+     },
+     {
+      "date": "1618-1648",
+      "label": "Guerre de Trente Ans",
+      "texte": "Elle s'achève par les traités de Westphalie."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "L'humanisme et la révolution de l'imprimerie",
+   "texte": "L'humanisme est le versant intellectuel de la Renaissance. Ses partisans, à la suite de Pétrarque, veulent revenir aux textes anciens dans leur langue d'origine, débarrassés des commentaires accumulés : on parle de studia humanitatis, l'étude des lettres, de l'histoire, de la morale et de l'éloquence. L'homme y est placé au centre de la réflexion, non pour nier Dieu, mais pour affirmer la dignité et les capacités de la créature humaine. Érasme de Rotterdam, Thomas More, Rabelais ou Montaigne en donnent des versions très différentes, souvent critiques et ironiques envers les institutions. Cette entreprise aurait eu une portée limitée sans une invention technique décisive : vers 1450, à Mayence, Johannes Gutenberg met au point l'impression à caractères mobiles métalliques, combinée à une presse et à une encre grasse. Le procédé, longtemps déjà connu en Asie sous d'autres formes, prend en Europe une ampleur inédite. En cinquante ans, des milliers d'ateliers ouvrent et des millions d'exemplaires circulent. Les conséquences sont immenses : les textes se stabilisent, les prix chutent, les idées voyagent plus vite que les autorités qui voudraient les contrôler. Sans l'imprimerie, la Réforme serait probablement restée une querelle universitaire allemande ; avec elle, les thèses de Luther sont traduites et diffusées à travers l'Europe en quelques semaines."
+  },
+  {
+   "titre": "Un ciel et un corps réexaminés",
+   "texte": "La Renaissance ne se limite pas aux arts et aux lettres : elle déplace aussi les frontières du savoir sur la nature. En 1543 paraissent deux ouvrages qui feront date. Le chanoine polonais Nicolas Copernic publie un traité proposant de placer le Soleil, et non la Terre, au centre du monde, renversant un modèle vieux de quatorze siècles hérité de Ptolémée. La même année, le médecin flamand André Vésale fait imprimer une anatomie fondée sur la dissection humaine, corrigeant des erreurs transmises depuis Galien. Le mouvement se poursuit : Tycho Brahe accumule des observations d'une précision inédite, Johannes Kepler en tire au début du XVIIe siècle des orbites elliptiques, et Galilée tourne vers le ciel la lunette astronomique, découvrant les satellites de Jupiter et les reliefs de la Lune. Son procès en 1633 rappelle que ces idées heurtent frontalement les autorités religieuses. Ce que ces savants inventent n'est pas seulement un contenu nouveau, mais une méthode : observer, mesurer, calculer, publier, discuter. Les grandes découvertes maritimes jouent dans le même sens, car elles montrent que les Anciens ignoraient des continents entiers et que l'autorité des livres ne suffit pas. La confiance dans les textes hérités s'affaiblit ; c'est le début d'une longue mutation qui débouchera au XVIIe siècle sur ce que l'on appelle la révolution scientifique.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Quelques ruptures scientifiques du XVIe siècle",
+    "colonnes": [
+     "Savant",
+     "Date",
+     "Ce qu'il remet en cause"
+    ],
+    "lignes": [
+     [
+      "Nicolas Copernic",
+      "1543",
+      "La Terre au centre du monde, héritée de Ptolémée"
+     ],
+     [
+      "André Vésale",
+      "1543",
+      "L'anatomie de Galien, jamais vérifiée par dissection"
+     ],
+     [
+      "Tycho Brahe",
+      "années 1570-1590",
+      "L'immuabilité supposée du ciel"
+     ],
+     [
+      "Johannes Kepler",
+      "1609-1619",
+      "Les orbites circulaires parfaites"
+     ],
+     [
+      "Galilée",
+      "1610",
+      "L'idée d'un ciel radicalement différent de la Terre"
+     ]
+    ]
+   }
+  },
+  {
+   "titre": "Luther, Calvin, Henri VIII : la chrétienté se brise",
+   "texte": "Le 31 octobre 1517, un moine augustin professeur à Wittenberg, Martin Luther, rend publiques quatre-vingt-quinze thèses dirigées contre le commerce des indulgences, ces remises de peine vendues au profit des chantiers romains. La contestation d'un abus devient vite une remise en cause du système : pour Luther, le salut vient de la foi seule et l'Écriture seule fait autorité, ce qui prive de fondement une grande part de la hiérarchie et des sacrements. Le pape Léon X publie la bulle Exsurge Domine en juin 1520, puis excommunie Luther le 3 janvier 1521 ; la même année, à la diète de Worms, l'empereur Charles Quint le met au ban de l'Empire. Protégé par le prince de Saxe, Luther traduit le Nouveau Testament en allemand en 1522, puis l'Ancien Testament en 1534, offrant aux fidèles un accès direct au texte et fixant du même coup la langue littéraire allemande. D'autres foyers apparaissent : Ulrich Zwingli réforme Zurich à partir de 1522 ; Jean Calvin publie en 1536 son Institution de la religion chrétienne et fait de Genève, où il s'installe durablement en 1541, la capitale du protestantisme réformé. En Angleterre, la rupture est d'abord politique : Henri VIII, à qui Rome refuse l'annulation de son mariage, se proclame en 1534 chef de l'Église d'Angleterre.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Catholiques et protestants : les points de rupture",
+    "colonnes": [
+     {
+      "titre": "Église catholique",
+      "points": [
+       "Autorité de l'Écriture et de la tradition, interprétées par le magistère",
+       "Sept sacrements",
+       "Le pape, chef de l'Église universelle",
+       "Culte des saints, images, reliques",
+       "Clergé célibataire, latin liturgique"
+      ]
+     },
+     {
+      "titre": "Églises issues de la Réforme",
+      "points": [
+       "L'Écriture seule fait autorité, chacun peut la lire",
+       "Deux sacrements en général : baptême et cène",
+       "Pas de pape ; organisation locale ou princière",
+       "Refus du culte des saints, méfiance envers les images",
+       "Pasteurs mariés, culte en langue vulgaire"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Contre-Réforme, guerres et paix de Westphalie",
+   "texte": "L'Église catholique réagit. Le concile de Trente, réuni par sessions de 1545 à 1563, refuse tout compromis doctrinal avec les protestants, mais réforme sérieusement les pratiques : formation des prêtres dans des séminaires, obligation de résidence des évêques, catéchisme unifié, contrôle des images. La Compagnie de Jésus, fondée par Ignace de Loyola, devient le fer de lance de cette reconquête, par l'enseignement et par les missions jusqu'en Asie et en Amérique. Les affrontements armés suivent. Dans le Saint-Empire, la paix d'Augsbourg de 1555 apporte une solution provisoire en reconnaissant le luthéranisme et en laissant à chaque prince le choix de la religion de son territoire, principe résumé plus tard par la formule selon laquelle la religion du prince est celle de l'État. La France, l'Angleterre et les Pays-Bas connaissent leurs propres conflits confessionnels. L'affrontement culmine avec la guerre de Trente Ans, du 23 mai 1618, jour de la défenestration de Prague, au 24 octobre 1648. Elle traverse quatre phases, bohémienne, danoise, suédoise et française, et devient une lutte d'États autant qu'une guerre de religion, la France catholique soutenant les princes protestants contre les Habsbourg. Les pertes militaires sont estimées à environ 700 000 à 800 000 hommes au total, mais l'effondrement démographique de certaines régions allemandes, souvent évalué entre un cinquième et un tiers de la population, reste très discuté faute de recensements fiables. Les traités de Westphalie consacrent en 1648 la souveraineté des États et l'indépendance des Provinces-Unies."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quelle cité italienne, dominée par la famille Médicis, est le principal foyer de la Renaissance ?",
+   "choix": [
+    "Naples",
+    "Florence",
+    "Gênes",
+    "Turin"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Florence est le foyer le plus célèbre de la Renaissance italienne, aux côtés de Rome, Venise et Milan. Les Médicis, banquiers devenus maîtres de la ville, y pratiquent un mécénat qui fait de la commande artistique un instrument de prestige et de pouvoir. La ville concentre ateliers, chantiers et académies, et attire les meilleurs artistes du temps. L'Italie offrait un terrain favorable : les ruines antiques y sont partout, le commerce méditerranéen y a créé de grandes fortunes, et le morcellement politique multiplie les cours rivales. Naples et Gênes sont de grandes cités marchandes, mais aucune n'a joué ce rôle moteur ; Turin ne prend son importance que bien plus tard."
+  },
+  {
+   "q": "Quel savant publie en 1543 un ouvrage plaçant le Soleil, et non la Terre, au centre du monde ?",
+   "choix": [
+    "Johannes Kepler",
+    "André Vésale",
+    "Nicolas Copernic",
+    "Tycho Brahe"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le chanoine polonais Nicolas Copernic fait paraître en 1543 un traité proposant un système héliocentrique, qui renverse le modèle de Ptolémée en usage depuis quatorze siècles. La même année paraît l'anatomie d'André Vésale, fondée sur la dissection humaine et corrigeant les erreurs héritées de Galien : deux remises en cause majeures de l'autorité des Anciens la même année. Tycho Brahe accumule ensuite des observations d'une précision inédite, dont Kepler tire au début du XVIIe siècle ses orbites elliptiques. Galilée, en pointant vers le ciel la lunette astronomique en 1610, apporte des preuves visuelles à ce nouveau système, ce qui lui vaudra un procès en 1633."
+  },
+  {
+   "q": "Que règle la paix d'Augsbourg de 1555 dans le Saint-Empire romain germanique ?",
+   "choix": [
+    "Chaque prince fixe la religion de son territoire",
+    "Le protestantisme est interdit dans tout l'Empire",
+    "La liberté de conscience est reconnue à chaque individu",
+    "L'empereur devient chef de l'Église d'Allemagne"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La paix d'Augsbourg, conclue en 1555, reconnaît une existence légale au luthéranisme dans le Saint-Empire et laisse à chaque prince le choix de la confession de son État, principe résumé par la formule selon laquelle la religion du prince devient celle du pays. Il ne s'agit donc nullement d'une liberté de conscience individuelle : les sujets qui refusent la religion officielle doivent en principe émigrer. Le calvinisme, lui, n'est pas inclus dans l'accord, ce qui restera une source de tensions. Cette paix apaise l'Empire pendant plus d'un demi-siècle, jusqu'à l'explosion de la guerre de Trente Ans en 1618."
+  },
+  {
+   "q": "Quel concile, réuni par sessions de 1545 à 1563, organise la réponse catholique à la Réforme ?",
+   "choix": [
+    "Le concile de Constance",
+    "Le concile de Nicée",
+    "Le concile de Trente",
+    "Le concile de Latran"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Le concile de Trente, tenu par sessions échelonnées de 1545 à 1563, refuse tout compromis doctrinal avec les protestants et réaffirme les sept sacrements, la valeur de la tradition et l'autorité du pape. Mais il réforme aussi en profondeur les pratiques : création de séminaires pour former les prêtres, obligation pour les évêques de résider dans leur diocèse, catéchisme unifié, encadrement des images. Cette Contre-Réforme s'appuie notamment sur la Compagnie de Jésus, fondée par Ignace de Loyola, active dans l'enseignement et les missions lointaines. Le concile de Nicée date de 325, celui de Constance du début du XVe siècle, et les conciles du Latran sont médiévaux."
+  },
+  {
+   "q": "Quels traités mettent fin en 1648 à la guerre de Trente Ans ?",
+   "choix": [
+    "Les traités d'Utrecht",
+    "Les traités de Westphalie",
+    "Le traité de Tordesillas",
+    "Le traité de Vienne"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Les traités de Westphalie, signés en 1648, closent une guerre commencée le 23 mai 1618 avec la défenestration de Prague. Ils reconnaissent l'indépendance des Provinces-Unies, renforcent la France et la Suède et consacrent la souveraineté des États du Saint-Empire, ce qui en fait un repère souvent cité dans l'histoire des relations internationales. Les pertes militaires du conflit sont estimées à quelque 700 000 à 800 000 hommes, et la chute de population de certaines régions allemandes, évaluée entre un cinquième et un tiers, reste débattue faute de sources fiables. Utrecht date de 1713, Tordesillas de 1494 et le congrès de Vienne de 1815."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Renaissance",
+   "url": "https://fr.wikipedia.org/wiki/Renaissance"
+  },
+  {
+   "titre": "Réforme protestante",
+   "url": "https://fr.wikipedia.org/wiki/R%C3%A9forme_protestante"
+  },
+  {
+   "titre": "Guerre de Trente Ans",
+   "url": "https://fr.wikipedia.org/wiki/Guerre_de_Trente_Ans"
+  }
+ ]
+}

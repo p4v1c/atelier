@@ -1,0 +1,218 @@
+{
+ "titre": "L'économie et les médias du sport",
+ "sections": [
+  {
+   "titre": "Le sport, un secteur économique à part entière",
+   "texte": "On oublie souvent que le sport constitue une branche économique de plein exercice, avec ses producteurs, ses consommateurs, ses emplois et ses investissements. L'économie du sport est précisément la discipline qui étudie l'incidence des pratiques sportives, amateurs comme professionnelles, sur l'économie générale. En France, le poids de ce secteur a été évalué à trente milliards quatre cents millions d'euros en 2005, puis à trente-quatre milliards neuf cents millions d'euros en 2009, ce qui représentait alors environ un virgule neuf pour cent du produit intérieur brut. La structure de cette dépense est instructive. Les ménages en assurent à eux seuls près de la moitié : ils achètent des vêtements et des équipements sportifs, qui représentent la part la plus importante, des chaussures, des accessoires et du matériel, et paient enfin des services comme les réparations ou les licences. Le reste provient de financements publics et privés : les collectivités territoriales sont de très loin le premier financeur institutionnel, devant l'État, puis les entreprises. Ce constat est essentiel pour comprendre le sport français : ce sont les communes, les départements et les régions qui construisent et entretiennent les stades, les gymnases et les piscines, et qui subventionnent la vie associative. Le sport professionnel médiatisé, dont on parle le plus, ne représente donc qu'une fraction de cette économie, dont l'essentiel repose sur la pratique ordinaire de millions de licenciés.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "Le poids économique du sport en France",
+    "items": [
+     {
+      "valeur": "30,4 Md€",
+      "label": "dépense sportive en 2005"
+     },
+     {
+      "valeur": "34,9 Md€",
+      "label": "dépense sportive en 2009"
+     },
+     {
+      "valeur": "1,9 %",
+      "label": "du produit intérieur brut, en 2009"
+     },
+     {
+      "valeur": "près de la moitié",
+      "label": "de cette dépense assurée par les ménages : vêtements, équipements, chaussures, services"
+     }
+    ],
+    "note": "Parmi les financeurs institutionnels, les collectivités territoriales viennent de très loin en tête, devant l'État puis les entreprises : ce sont les communes, les départements et les régions qui construisent stades, gymnases et piscines."
+   }
+  },
+  {
+   "titre": "Les ressources d'un club professionnel",
+   "texte": "Un club professionnel moderne fonctionne comme une entreprise dont les recettes proviennent de plusieurs sources, dont l'importance relative a beaucoup changé au cours du temps. La billetterie et les recettes de match constituent la ressource historique : c'est le prix payé par le spectateur pour entrer dans l'enceinte, complété aujourd'hui par la restauration, les loges et l'accueil des entreprises, ce que l'on appelle l'hospitalité. Longtemps prépondérante, cette recette est devenue minoritaire dans les grands clubs, car un stade, même comble, ne contient qu'un nombre limité de places, tandis que la télévision touche un public sans limite. Les droits de diffusion, mutualisés puis redistribués par les ligues, sont ainsi devenus la première ressource de la plupart des championnats professionnels. Le parrainage apporte une troisième source, par la vente d'espaces publicitaires sur les maillots, les panneaux et les supports numériques. La vente de produits dérivés, ou merchandising, constitue une quatrième ressource : maillots, écharpes et objets aux couleurs du club, qui prolongent l'attachement des supporters. Enfin, dans certains sports comme le football, les indemnités de transfert de joueurs forment un poste financier considérable, au point que la formation de jeunes talents peut devenir un modèle économique en soi pour des clubs qui les revendent ensuite. Cette diversification rend les clubs plus solides, mais aussi très dépendants de recettes qu'ils ne maîtrisent pas.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "D'où vient l'argent d'un club professionnel",
+    "colonnes": [
+     "Ressource",
+     "Ce qu'elle recouvre"
+    ],
+    "lignes": [
+     [
+      "Billetterie et recettes de match",
+      "Le prix payé par le spectateur, augmenté de la restauration, des loges et de l'accueil des entreprises. Ressource historique devenue minoritaire : un stade a un nombre de places limité."
+     ],
+     [
+      "Droits de diffusion",
+      "Mutualisés puis redistribués par les ligues, ils sont devenus la première ressource de la plupart des championnats."
+     ],
+     [
+      "Parrainage",
+      "Vente d'espaces publicitaires sur les maillots, les panneaux et les supports numériques."
+     ],
+     [
+      "Produits dérivés",
+      "Maillots, écharpes et objets aux couleurs du club, qui prolongent l'attachement des supporters."
+     ],
+     [
+      "Transferts de joueurs",
+      "Dans le football notamment, au point que former des jeunes pour les revendre devient un modèle économique."
+     ]
+    ],
+    "note": "Cette diversification rend les clubs plus solides, mais aussi très dépendants de recettes qu'ils ne maîtrisent pas."
+   }
+  },
+  {
+   "titre": "Les droits de diffusion, moteur et dépendance",
+   "texte": "La vente des droits de retransmission est le phénomène qui a le plus profondément transformé le sport contemporain. Le principe est simple : l'organisateur d'une compétition détient le droit exclusif d'en autoriser la diffusion, et le met aux enchères auprès des diffuseurs. L'inflation spectaculaire de ces montants s'explique largement par la privatisation des chaînes de télévision et par l'apparition de chaînes payantes, qui disposaient d'une puissance financière considérable et pour lesquelles le sport était le produit d'appel idéal : c'est en effet l'un des rares contenus que le public veut voir en direct, ce qui le rend irremplaçable et rentable en abonnements comme en publicité. Cette manne a professionnalisé les clubs, augmenté les salaires des joueurs et amélioré les infrastructures, mais elle a aussi créé une dépendance et transformé le sport lui-même. Les horaires des rencontres sont fixés en fonction des audiences et des fuseaux horaires plutôt que du confort des joueurs et des spectateurs présents ; les calendriers s'étirent pour multiplier les matchs ; certaines règles ont été aménagées pour ménager des coupures publicitaires ou rendre le jeu plus lisible à l'écran. Les grandes compétitions internationales tirent l'essentiel de leur budget de ces contrats. La montée des plateformes de diffusion en ligne a récemment ajouté de nouveaux acheteurs à ce marché, tout en fragmentant l'offre pour le téléspectateur."
+  },
+  {
+   "titre": "Parrainage, naming et équipementiers",
+   "texte": "Le parrainage, souvent désigné par le mot anglais sponsoring, consiste pour une entreprise à soutenir une personne, un organisme ou une manifestation dans une intention commerciale. C'est ce qui le distingue du mécénat, qui relève d'une logique philanthropique et attend beaucoup moins de contrepartie visible. Le soutien peut prendre la forme d'un versement financier, d'une fourniture de biens ou de services, d'un transfert de technologie ou de la mise à disposition de compétences. En échange, le parrain obtient de la visibilité, l'association de sa marque aux valeurs portées par l'événement ou par le champion, et des retombées médiatiques souvent supérieures à ce qu'un achat d'espace publicitaire lui offrirait. En France, ces dépenses sont déductibles fiscalement à condition que l'entreprise soit identifiable, par un logo ou une signalétique, et que le montant engagé reste proportionné aux retombées attendues. Le parrainage sportif prend plusieurs formes : le maillot, historiquement le support le plus recherché, le naming, qui consiste à donner à un stade ou à une compétition le nom d'une marque, et le contrat d'équipementier, par lequel un fabricant habille une équipe ou un athlète. Ce dernier segment est dominé par quelques très grandes firmes capables d'investir massivement en recherche, à côté desquelles subsistent des fabricants spécialisés sur des niches techniques. La fabrication d'articles de sport représente à elle seule une part mesurable du produit intérieur brut.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Parrainage et mécénat, deux logiques",
+    "colonnes": [
+     {
+      "titre": "Le parrainage",
+      "points": [
+       "Intention commerciale : l'entreprise attend une contrepartie.",
+       "Elle obtient de la visibilité, l'association de sa marque aux valeurs de l'événement ou du champion, et des retombées souvent supérieures à un achat d'espace publicitaire.",
+       "Formes principales : le maillot, le naming d'un stade ou d'une compétition, le contrat d'équipementier.",
+       "Déductible fiscalement si l'entreprise est identifiable par un logo et si le montant reste proportionné aux retombées."
+      ]
+     },
+     {
+      "titre": "Le mécénat",
+      "points": [
+       "Logique philanthropique.",
+       "Il attend beaucoup moins de contrepartie visible.",
+       "Le soutien peut être financier, matériel, technologique ou en compétences, comme pour le parrainage."
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "De la presse écrite au direct permanent",
+   "texte": "Le sport moderne et les médias ont grandi ensemble. La presse spécialisée apparaît en Grande-Bretagne, avec Bell's Life in London, fondé par Robert Bell vers 1822 et considéré comme le premier journal sportif. La France suit avec Le Sport, hebdomadaire lancé le 17 septembre 1854 par Eugène Chapus, qui se présentait comme un guide et un moniteur officiel destiné aux amateurs, tandis que des titres généralistes comme L'Illustration ou Le Figaro ouvraient des rubriques sportives. Ces journaux ne se sont pas contentés de raconter le sport : ils l'ont créé. L'exemple le plus célèbre est celui de L'Auto, quotidien fondé par Henri Desgrange le 16 octobre 1900 sous le nom de L'Auto-Vélo, qui riposte à son concurrent Le Vélo en lançant en 1903 le Tour de France, imaginé pour faire vendre du papier. L'opération est un triomphe commercial : le tirage passe de vingt-deux mille exemplaires en 1901 à plus de trois cent soixante mille en 1933, avec des pointes proches de huit cent mille pendant le Tour. Le maillot jaune du leader doit d'ailleurs sa couleur à celle du papier du journal. Interdit à la Libération pour sa collaboration avec l'occupant, L'Auto disparaît le 17 août 1944 ; Jacques Goddet lui donne un successeur en fondant L'Équipe en 1946. La radio, puis la télévision et enfin le numérique ont ensuite étendu ce lien jusqu'au direct permanent d'aujourd'hui.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Quand les journaux inventaient le sport",
+    "evenements": [
+     {
+      "date": "vers 1822",
+      "label": "Bell's Life in London",
+      "texte": "Fondé par Robert Bell, il est considéré comme le premier journal sportif."
+     },
+     {
+      "date": "1854",
+      "label": "Le Sport",
+      "texte": "Hebdomadaire lancé le 17 septembre par Eugène Chapus, guide et moniteur officiel des amateurs."
+     },
+     {
+      "date": "1900",
+      "label": "L'Auto",
+      "texte": "Quotidien fondé le 16 octobre par Henri Desgrange, sous le nom de L'Auto-Vélo, pour riposter au Vélo."
+     },
+     {
+      "date": "1903",
+      "label": "Le Tour de France",
+      "texte": "Imaginé pour faire vendre du papier : le tirage passe de 22 000 exemplaires en 1901 à plus de 360 000 en 1933, avec des pointes proches de 800 000 pendant le Tour."
+     },
+     {
+      "date": "1944",
+      "label": "Disparition de L'Auto",
+      "texte": "Le 17 août, interdit à la Libération pour sa collaboration avec l'occupant."
+     },
+     {
+      "date": "1946",
+      "label": "Naissance de L'Équipe",
+      "texte": "Jacques Goddet lui donne un successeur."
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "En France, quel est le premier financeur institutionnel du sport ?",
+   "choix": [
+    "L'État",
+    "Les collectivités territoriales",
+    "Les entreprises privées",
+    "L'Union européenne"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Ce sont les collectivités territoriales, c'est-à-dire les communes, les départements et les régions, qui financent le plus le sport en France parmi les institutions, devant l'État puis les entreprises privées. Ce sont elles qui construisent et entretiennent les stades, les gymnases et les piscines, et qui subventionnent la vie associative locale. Il faut cependant rappeler que le premier financeur global reste le ménage lui-même, qui assure près de la moitié de la dépense sportive nationale à travers l'achat de vêtements, de chaussures, de matériel et de services. En 2009, l'ensemble du secteur pesait environ trente-quatre milliards neuf cents millions d'euros, soit près de deux pour cent du produit intérieur brut français."
+  },
+  {
+   "q": "Quel journal a créé le Tour de France en 1903 ?",
+   "choix": [
+    "Le Vélo",
+    "L'Équipe",
+    "L'Auto",
+    "Le Sport"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "C'est le quotidien L'Auto, fondé par Henri Desgrange le 16 octobre 1900 sous le nom de L'Auto-Vélo, qui a lancé le Tour de France en 1903 pour concurrencer le journal rival Le Vélo et augmenter ses ventes. L'opération fut un immense succès commercial : le tirage passa de vingt-deux mille exemplaires en 1901 à plus de trois cent soixante mille en 1933, avec des pointes proches de huit cent mille pendant l'épreuve. Le maillot jaune du leader tire sa couleur de celle du papier du journal. Interdit à la Libération pour avoir soutenu l'occupant, L'Auto disparut le 17 août 1944, et Jacques Goddet fonda L'Équipe en 1946 pour lui succéder."
+  },
+  {
+   "q": "Qu'est-ce qui distingue le parrainage du mécénat ?",
+   "choix": [
+    "Le parrainage poursuit un but commercial, le mécénat une intention philanthropique",
+    "Le parrainage est réservé au sport, le mécénat à la culture",
+    "Le parrainage est interdit aux entreprises étrangères",
+    "Le mécénat implique toujours un versement financier"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le parrainage, ou sponsoring, consiste pour une entreprise à soutenir une personne, un organisme ou une manifestation dans une intention commerciale : elle attend en retour de la visibilité, l'association de sa marque à certaines valeurs et des retombées médiatiques. Le mécénat relève au contraire d'une logique philanthropique et attend beaucoup moins de contrepartie visible. En France, les dépenses de parrainage sont déductibles fiscalement à condition que l'entreprise soit identifiable, par un logo ou une signalétique, et que le montant engagé reste proportionné aux retombées attendues. Le parrainage peut prendre la forme d'argent, de biens, de services, de technologies ou de compétences mises à disposition."
+  },
+  {
+   "q": "Pourquoi les droits de diffusion sportifs ont-ils connu une telle inflation ?",
+   "choix": [
+    "Parce que les États ont subventionné les retransmissions",
+    "Parce que les stades sont devenus trop petits",
+    "Parce que la privatisation des chaînes et l'apparition de chaînes payantes ont créé une forte concurrence",
+    "Parce que les fédérations ont interdit la publicité sur les maillots"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "L'inflation des droits de retransmission s'explique principalement par la privatisation des chaînes de télévision et par l'apparition de chaînes payantes, dotées d'une puissance financière considérable et en concurrence pour acquérir les mêmes contenus. Le sport est en effet l'un des rares programmes que le public veut absolument voir en direct, ce qui en fait un produit d'appel irremplaçable pour attirer des abonnés et vendre de la publicité. Cette manne a professionnalisé les clubs et amélioré les infrastructures, mais elle a aussi créé une dépendance : les horaires des rencontres sont désormais fixés selon les audiences et les fuseaux horaires, les calendriers s'allongent, et certaines règles ont été aménagées pour les besoins de la retransmission."
+  },
+  {
+   "q": "Quel est le nom donné à la pratique consistant à attribuer à un stade le nom d'une marque ?",
+   "choix": [
+    "Le merchandising",
+    "Le naming",
+    "Le mécénat",
+    "L'hospitalité"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Le naming désigne la pratique par laquelle une entreprise achète le droit de donner son nom à un stade, à une salle ou à une compétition. C'est une forme de parrainage particulièrement efficace, car le nom de la marque est répété par les commentateurs, la presse et le public à chaque évocation du lieu. Le merchandising désigne pour sa part la vente de produits dérivés aux couleurs du club, comme les maillots ou les écharpes. L'hospitalité regroupe les prestations haut de gamme vendues aux entreprises dans les enceintes sportives, comme les loges et la restauration. Le mécénat, enfin, est un soutien philanthropique qui n'attend pas de contrepartie commerciale directe."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Économie du sport",
+   "url": "https://fr.wikipedia.org/wiki/%C3%89conomie_du_sport"
+  },
+  {
+   "titre": "Sponsoring",
+   "url": "https://fr.wikipedia.org/wiki/Sponsoring"
+  },
+  {
+   "titre": "Presse sportive",
+   "url": "https://fr.wikipedia.org/wiki/Presse_sportive"
+  },
+  {
+   "titre": "L'Auto",
+   "url": "https://fr.wikipedia.org/wiki/L%27Auto"
+  }
+ ]
+}

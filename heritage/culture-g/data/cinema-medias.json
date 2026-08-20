@@ -1,0 +1,1207 @@
+{
+ "id": "cinema-medias",
+ "nom": "Cinéma & Médias",
+ "emoji": "🎬",
+ "questions": [
+  {
+   "q": "Qui a réalisé la première projection publique payante de cinéma en 1895 ?",
+   "choix": [
+    "Les frères Lumière",
+    "Georges Méliès",
+    "Thomas Edison",
+    "Charlie Chaplin"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le 28 décembre 1895, Auguste et Louis Lumière organisent la première projection publique payante de l'histoire au Salon indien du Grand Café, boulevard des Capucines à Paris. Ils y présentent une dizaine de courts films tournés avec leur invention, le Cinématographe, breveté la même année. Cet appareil, à la fois caméra et projecteur, permet pour la première fois de montrer des images animées à un public entier. Cette date est traditionnellement retenue comme l'acte de naissance du cinéma. Ironie de l'histoire : Louis Lumière aurait qualifié le cinéma d'« invention sans avenir »."
+  },
+  {
+   "q": "De quelle ville française les frères Lumière étaient-ils originaires ?",
+   "choix": [
+    "Lyon",
+    "Paris",
+    "Marseille",
+    "Lille"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Auguste et Louis Lumière ont grandi et travaillé à Lyon, où leur père Antoine dirigeait une usine de plaques photographiques. C'est devant cette usine du quartier de Monplaisir qu'ils ont tourné leur premier film, « La Sortie de l'usine Lumière à Lyon », en 1895. Lyon revendique depuis le titre de ville natale du cinéma. On y trouve aujourd'hui l'Institut Lumière, un musée et centre de diffusion installé dans la villa familiale, ainsi que le festival Lumière, créé en 2009, qui décerne chaque année un prix à un grand cinéaste."
+  },
+  {
+   "q": "Quel est le titre du tout premier film tourné par les frères Lumière ?",
+   "choix": [
+    "La Sortie de l'usine Lumière à Lyon",
+    "L'Arrivée d'un train en gare de La Ciotat",
+    "L'Arroseur arrosé",
+    "Le Repas de bébé"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "« La Sortie de l'usine Lumière à Lyon », tourné en mars 1895, est considéré comme le premier film de l'histoire du cinéma. Il montre simplement les ouvriers et ouvrières quittant l'usine familiale de Monplaisir, en un plan fixe d'environ cinquante secondes. Le film fut d'abord montré lors de projections privées avant la séance publique du 28 décembre 1895. Les autres vues Lumière célèbres, comme « L'Arrivée d'un train en gare de La Ciotat », datent de la même période. Ces courts métrages documentaires sont appelés des « vues Lumière »."
+  },
+  {
+   "q": "Quel pionnier du cinéma a réalisé « Le Voyage dans la Lune » en 1902 ?",
+   "choix": [
+    "Georges Méliès",
+    "Louis Lumière",
+    "Léon Gaumont",
+    "Max Linder"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Georges Méliès, ancien illusionniste et directeur du théâtre Robert-Houdin, réalise en 1902 « Le Voyage dans la Lune », librement inspiré de Jules Verne. L'image de la fusée plantée dans l'œil de la Lune est devenue l'une des plus célèbres de l'histoire du cinéma. Méliès est considéré comme l'inventeur du cinéma de fiction et des effets spéciaux : surimpressions, arrêts de caméra, décors peints. Il a tourné plus de 500 films avant de faire faillite, fini vendeur de jouets à la gare Montparnasse, avant d'être redécouvert et célébré à la fin de sa vie."
+  },
+  {
+   "q": "Dans quelle commune Georges Méliès a-t-il construit l'un des premiers studios de cinéma au monde ?",
+   "choix": [
+    "Montreuil",
+    "Boulogne-Billancourt",
+    "Neuilly-sur-Seine",
+    "Vincennes"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "En 1897, Georges Méliès fait construire dans sa propriété de Montreuil, en banlieue parisienne, un studio entièrement vitré, l'un des tout premiers au monde. Les parois de verre laissaient entrer la lumière du jour, indispensable à l'époque pour impressionner la pellicule. C'est là qu'il tourne la plupart de ses féeries et trucages, dont « Le Voyage dans la Lune ». Ce studio fonctionnait comme un théâtre équipé de trappes et de machineries, ce qui explique le style très théâtral de ses films. Méliès y a gagné son surnom de « magicien de Montreuil »."
+  },
+  {
+   "q": "Quel film de 1927 est considéré comme le premier long métrage parlant ?",
+   "choix": [
+    "Le Chanteur de jazz",
+    "Chantons sous la pluie",
+    "Metropolis",
+    "Naissance d'une nation"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "« Le Chanteur de jazz » (The Jazz Singer), produit par la Warner Bros en 1927, est le premier long métrage comportant des séquences chantées et parlées synchronisées, grâce au procédé Vitaphone. L'acteur Al Jolson y prononce la phrase restée célèbre : « Vous n'avez encore rien entendu ! ». Son succès commercial précipite la fin du cinéma muet : en quelques années, tous les studios passent au parlant. Cette révolution technique brise la carrière de nombreuses vedettes du muet, un drame que le film « Chantons sous la pluie » (1952) évoquera avec humour."
+  },
+  {
+   "q": "Quel théoricien a popularisé l'expression « septième art » pour désigner le cinéma ?",
+   "choix": [
+    "Ricciotto Canudo",
+    "André Bazin",
+    "Georges Sadoul",
+    "Louis Delluc"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "L'intellectuel italien installé en France Ricciotto Canudo est le premier à théoriser le cinéma comme un art à part entière, qu'il baptise « septième art » dans les années 1910-1920, notamment dans son « Manifeste des sept arts » publié en 1923. Selon lui, le cinéma synthétise les arts de l'espace (architecture, sculpture, peinture) et les arts du temps (musique, danse, poésie). L'expression est restée dans le langage courant. Elle a contribué à faire reconnaître le cinéma comme une forme artistique majeure, et non comme une simple attraction foraine."
+  },
+  {
+   "q": "Quelle société française, fondée en 1895, est la plus ancienne compagnie de cinéma au monde encore en activité ?",
+   "choix": [
+    "Gaumont",
+    "Pathé",
+    "Warner Bros",
+    "Universal"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Fondée en 1895 par l'ingénieur Léon Gaumont, la société Gaumont est la plus ancienne compagnie de cinéma au monde toujours en activité. Son emblème, la marguerite, rend hommage au prénom de la mère du fondateur. Sa grande rivale historique, Pathé, créée en 1896 par les frères Pathé, domina le marché mondial du film avant 1914. Gaumont employa aussi Alice Guy, considérée comme la première femme réalisatrice de l'histoire. Aujourd'hui, Gaumont et Pathé restent deux acteurs majeurs de la production et de l'exploitation cinématographiques en France."
+  },
+  {
+   "q": "Comment s'appelle le code d'autocensure morale appliqué par Hollywood à partir de 1934 ?",
+   "choix": [
+    "Le code Hays",
+    "Le code Griffith",
+    "La loi Edison",
+    "Le code MacCarthy"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Le code Hays, du nom de William Hays, président de l'association des producteurs hollywoodiens, est un code de censure morale adopté en 1930 et strictement appliqué à partir de 1934. Il interdisait notamment de montrer la nudité, de valoriser le crime ou de ridiculiser la religion, et encadrait sévèrement la représentation des couples. Les studios s'y soumettaient eux-mêmes pour éviter une censure d'État. Le code s'est assoupli dans les années 1950-1960 avant d'être abandonné en 1968, remplacé par le système de classification par âges toujours utilisé aux États-Unis."
+  },
+  {
+   "q": "Quel personnage emblématique Charlie Chaplin incarne-t-il dans la plupart de ses films muets ?",
+   "choix": [
+    "Charlot",
+    "Groucho",
+    "Buster",
+    "Max"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Charlie Chaplin crée dès 1914 le personnage de Charlot (« The Tramp » en anglais), un vagabond au chapeau melon, à la canne souple, à la petite moustache et à la démarche en canard. Ce personnage universel, mélange de burlesque et d'émotion, fait de Chaplin la première star mondiale du cinéma. On le retrouve dans des chefs-d'œuvre comme « La Ruée vers l'or » (1925), « Les Lumières de la ville » (1931) ou « Les Temps modernes » (1936). Chaplin résista longtemps au parlant : Charlot ne prononce pratiquement aucune parole intelligible à l'écran."
+  },
+  {
+   "q": "Dans quel film de 1940 Charlie Chaplin parodie-t-il Adolf Hitler ?",
+   "choix": [
+    "Le Dictateur",
+    "Les Temps modernes",
+    "Monsieur Verdoux",
+    "La Ruée vers l'or"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Dans « Le Dictateur » (1940), son premier vrai film parlant, Chaplin interprète un double rôle : un barbier juif et le dictateur Adenoid Hynkel, caricature transparente d'Adolf Hitler. Tourné alors que les États-Unis n'étaient pas encore entrés en guerre, le film est un acte de courage politique autant qu'une comédie. Il s'achève par un discours humaniste resté célèbre, dans lequel Chaplin s'adresse directement au public pour appeler à la paix et à la fraternité. Le film fut naturellement interdit dans l'Allemagne nazie."
+  },
+  {
+   "q": "Quelle société de production Charlie Chaplin a-t-il cofondée en 1919 avec Griffith, Pickford et Fairbanks ?",
+   "choix": [
+    "United Artists",
+    "Paramount",
+    "Metro-Goldwyn-Mayer",
+    "Columbia"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "En 1919, quatre grandes figures d'Hollywood, Charlie Chaplin, le réalisateur D. W. Griffith, l'actrice Mary Pickford et l'acteur Douglas Fairbanks, fondent United Artists (« Les Artistes associés »). Leur objectif : produire et distribuer eux-mêmes leurs films afin d'échapper au contrôle des grands studios et de préserver leur indépendance artistique et financière. C'était une démarche révolutionnaire à une époque où les studios contrôlaient toute la chaîne, des acteurs aux salles. United Artists distribuera plus tard des succès comme les premiers James Bond ou « Rocky »."
+  },
+  {
+   "q": "Qui a réalisé et interprété « Citizen Kane » (1941), souvent cité comme l'un des plus grands films de l'histoire ?",
+   "choix": [
+    "Orson Welles",
+    "John Ford",
+    "Howard Hawks",
+    "Elia Kazan"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Orson Welles n'a que 25 ans lorsqu'il réalise, coécrit et interprète « Citizen Kane » en 1941. Le film retrace la vie d'un magnat de la presse, Charles Foster Kane, largement inspiré du milliardaire William Randolph Hearst, qui tenta d'ailleurs d'en empêcher la sortie. Sa construction en flashbacks, sa profondeur de champ et ses audaces de mise en scène ont durablement influencé le cinéma mondial. Le mystère du dernier mot de Kane, « Rosebud », structure tout le récit. Le film a longtemps été classé numéro un des sondages de critiques sur les meilleurs films de tous les temps."
+  },
+  {
+   "q": "Quel film de 1939, adapté d'un roman de Margaret Mitchell, est un sommet de l'âge d'or hollywoodien ?",
+   "choix": [
+    "Autant en emporte le vent",
+    "Casablanca",
+    "Le Magicien d'Oz",
+    "King Kong"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "« Autant en emporte le vent » (Gone with the Wind), réalisé principalement par Victor Fleming et produit par David O. Selznick, sort en 1939, année faste d'Hollywood. Adapté du best-seller de Margaret Mitchell, il suit Scarlett O'Hara, jouée par Vivien Leigh, dans le Sud américain pendant la guerre de Sécession. Le film remporte huit Oscars, plus deux récompenses spéciales, et Hattie McDaniel y devient la première actrice noire oscarisée. Corrigé de l'inflation, il demeure souvent considéré comme le plus grand succès de l'histoire du box-office. Sa vision romantique du Sud esclavagiste est aujourd'hui largement discutée."
+  },
+  {
+   "q": "Quel est le premier long métrage d'animation des studios Disney, sorti en 1937 ?",
+   "choix": [
+    "Blanche-Neige et les Sept Nains",
+    "Pinocchio",
+    "Fantasia",
+    "Cendrillon"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "« Blanche-Neige et les Sept Nains », sorti en 1937, est le premier long métrage d'animation des studios Disney et le premier grand succès mondial du genre. La presse de l'époque parlait de la « folie de Disney » : beaucoup pensaient qu'un dessin animé de 80 minutes ennuierait le public. Le pari fut gagné, le film devenant un triomphe commercial qui finança la construction des studios de Burbank. Adapté du conte des frères Grimm, il fut réalisé en Technicolor avec des centaines d'animateurs. Walt Disney reçut pour l'occasion un Oscar d'honneur accompagné de sept statuettes miniatures."
+  },
+  {
+   "q": "Quel cinéaste soviétique a réalisé « Le Cuirassé Potemkine » (1925), célèbre pour la scène de l'escalier d'Odessa ?",
+   "choix": [
+    "Sergueï Eisenstein",
+    "Dziga Vertov",
+    "Andreï Tarkovski",
+    "Vsevolod Poudovkine"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Sergueï Eisenstein réalise en 1925 « Le Cuirassé Potemkine », qui relate la mutinerie de marins russes en 1905. La séquence de la répression sur l'escalier d'Odessa, avec le landau dévalant les marches, est l'une des plus étudiées de l'histoire du cinéma. Eisenstein y met en pratique ses théories du montage : c'est le choc entre les plans qui crée le sens et l'émotion. Commandé par le pouvoir soviétique pour célébrer la révolution, le film fut pourtant censuré dans de nombreux pays occidentaux. Il a profondément influencé le langage cinématographique mondial."
+  },
+  {
+   "q": "Quel réalisateur de la Nouvelle Vague a signé « À bout de souffle » en 1960 ?",
+   "choix": [
+    "Jean-Luc Godard",
+    "François Truffaut",
+    "Claude Chabrol",
+    "Éric Rohmer"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "« À bout de souffle », premier long métrage de Jean-Luc Godard sorti en 1960, est l'un des films manifestes de la Nouvelle Vague. Avec Jean-Paul Belmondo et Jean Seberg, tourné en décors naturels, caméra à l'épaule et avec de faux raccords assumés, il bouscule toutes les conventions du cinéma classique. Le scénario était fondé sur une idée de François Truffaut, autre figure du mouvement. Godard, critique aux Cahiers du cinéma avant de passer à la réalisation, poursuivra une œuvre expérimentale et prolifique pendant six décennies. Le film reste un symbole de modernité cinématographique."
+  },
+  {
+   "q": "Quel film de François Truffaut, sorti en 1959, lance la Nouvelle Vague avec le personnage d'Antoine Doinel ?",
+   "choix": [
+    "Les Quatre Cents Coups",
+    "Jules et Jim",
+    "La Nuit américaine",
+    "Le Dernier Métro"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "« Les Quatre Cents Coups » (1959), premier long métrage de François Truffaut, raconte l'enfance difficile d'Antoine Doinel, interprété par Jean-Pierre Léaud, dans un Paris filmé de façon très libre. Largement autobiographique, le film vaut à Truffaut le prix de la mise en scène au Festival de Cannes, dont il avait pourtant été exclu comme critique l'année précédente. Ce succès ouvre la voie à la Nouvelle Vague, portée par les jeunes critiques des Cahiers du cinéma. Truffaut retrouvera le personnage de Doinel dans quatre autres films, suivant son évolution sur vingt ans."
+  },
+  {
+   "q": "Quelle réalisatrice, figure de la Nouvelle Vague, a signé « Cléo de 5 à 7 » en 1962 ?",
+   "choix": [
+    "Agnès Varda",
+    "Marguerite Duras",
+    "Alice Guy",
+    "Claire Denis"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Agnès Varda, souvent surnommée la « grand-mère de la Nouvelle Vague », réalise en 1962 « Cléo de 5 à 7 », qui suit en temps quasi réel une chanteuse attendant des résultats médicaux dans Paris. Dès 1955, son premier film « La Pointe courte » annonçait l'esthétique du mouvement. Photographe de formation, elle a mené une œuvre singulière entre fiction et documentaire, de « Sans toit ni loi » (Lion d'or à Venise en 1985) aux « Glaneurs et la Glaneuse ». Elle a reçu une Palme d'honneur à Cannes en 2015 et un Oscar d'honneur en 2017."
+  },
+  {
+   "q": "Qui a réalisé « La Grande Illusion » (1937) et « La Règle du jeu » (1939) ?",
+   "choix": [
+    "Jean Renoir",
+    "Marcel Carné",
+    "Julien Duvivier",
+    "René Clair"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Jean Renoir, fils du peintre impressionniste Auguste Renoir, est l'un des plus grands cinéastes français. « La Grande Illusion » (1937), avec Jean Gabin, est un plaidoyer humaniste contre la guerre situé dans des camps de prisonniers de 14-18. « La Règle du jeu » (1939), satire féroce de la bourgeoisie à la veille de la guerre, fut un échec à sa sortie, puis interdit sous l'Occupation, avant d'être réhabilité comme un chef-d'œuvre absolu, régulièrement classé parmi les meilleurs films de tous les temps. Les cinéastes de la Nouvelle Vague voyaient en Renoir un maître."
+  },
+  {
+   "q": "Quel film de Marcel Carné, tourné sous l'Occupation, est souvent élu plus grand film français de tous les temps ?",
+   "choix": [
+    "Les Enfants du paradis",
+    "Le Quai des brumes",
+    "Hôtel du Nord",
+    "Le Jour se lève"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "« Les Enfants du paradis », réalisé par Marcel Carné sur un scénario et des dialogues de Jacques Prévert, est tourné dans des conditions très difficiles sous l'Occupation et sort en 1945. Cette fresque romanesque, située dans le monde du théâtre parisien des années 1830 autour du mime Baptiste (Jean-Louis Barrault) et de Garance (Arletty), est le sommet du « réalisme poétique » français. Le titre désigne le « paradis », nom du dernier balcon des théâtres populaires. Le film a été élu à plusieurs reprises meilleur film français de l'histoire par les professionnels du cinéma."
+  },
+  {
+   "q": "Quel réalisateur britannique est surnommé « le maître du suspense » ?",
+   "choix": [
+    "Alfred Hitchcock",
+    "David Lean",
+    "Stanley Kubrick",
+    "Ridley Scott"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Alfred Hitchcock, né à Londres en 1899 et passé à Hollywood en 1939, doit son surnom de « maître du suspense » à son art de manipuler l'attente et l'angoisse du spectateur. Il distinguait le suspense de la surprise : le public doit en savoir plus que les personnages. Parmi ses chefs-d'œuvre figurent « Fenêtre sur cour », « Sueurs froides », « La Mort aux trousses » et « Les Oiseaux ». Il apparaissait furtivement dans presque tous ses films, un jeu que les spectateurs guettaient. Le livre d'entretiens qu'il accorda à François Truffaut en 1966 est devenu une référence pour les cinéphiles."
+  },
+  {
+   "q": "Qui a réalisé « Psychose » (1960), célèbre pour sa scène de la douche ?",
+   "choix": [
+    "Alfred Hitchcock",
+    "Orson Welles",
+    "Billy Wilder",
+    "Fritz Lang"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "« Psychose » (Psycho), réalisé par Alfred Hitchcock en 1960, est l'un des films les plus célèbres de l'histoire. La scène du meurtre sous la douche, avec ses dizaines de plans très courts et la musique stridente de Bernard Herrmann, est un modèle de montage étudié dans toutes les écoles de cinéma. Tourné en noir et blanc avec un budget réduit, le film tue son héroïne au tiers du récit, transgression narrative inédite à l'époque. Hitchcock exigea que personne n'entre en salle après le début de la séance, une pratique alors inhabituelle. Le motel Bates et son propriétaire Norman sont entrés dans la culture populaire."
+  },
+  {
+   "q": "Qui a réalisé « 2001 : l'Odyssée de l'espace » (1968) ?",
+   "choix": [
+    "Stanley Kubrick",
+    "Steven Spielberg",
+    "George Lucas",
+    "Ridley Scott"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "« 2001 : l'Odyssée de l'espace », réalisé par Stanley Kubrick en 1968 et coécrit avec l'écrivain Arthur C. Clarke, a révolutionné la science-fiction par la rigueur de ses effets spéciaux et son ambition philosophique. Le film suit un mystérieux monolithe noir de la préhistoire jusqu'à l'espace, et met en scène l'ordinateur HAL 9000, qui se retourne contre l'équipage. Kubrick, perfectionniste légendaire, a aussi signé « Orange mécanique », « Barry Lyndon », « Shining » et « Full Metal Jacket ». Sorti un an avant les premiers pas sur la Lune, « 2001 » impressionna par son réalisme scientifique."
+  },
+  {
+   "q": "Quel réalisateur japonais a signé « Les Sept Samouraïs » (1954) ?",
+   "choix": [
+    "Akira Kurosawa",
+    "Yasujirō Ozu",
+    "Kenji Mizoguchi",
+    "Hayao Miyazaki"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Akira Kurosawa est le cinéaste japonais le plus célèbre en Occident. « Les Sept Samouraïs » (1954), qui raconte la défense d'un village de paysans par sept guerriers, a inspiré le western américain « Les Sept Mercenaires ». Dès 1951, son film « Rashōmon », Lion d'or à Venise, avait révélé le cinéma japonais au monde ; sa construction en récits contradictoires a donné naissance à l'expression « effet Rashōmon ». Kurosawa a aussi adapté Shakespeare, avec « Le Château de l'araignée » et « Ran ». George Lucas a reconnu la dette de « Star Wars » envers son film « La Forteresse cachée »."
+  },
+  {
+   "q": "Quel réalisateur italien a signé « La Dolce Vita », Palme d'or en 1960 ?",
+   "choix": [
+    "Federico Fellini",
+    "Luchino Visconti",
+    "Roberto Rossellini",
+    "Vittorio De Sica"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "« La Dolce Vita » de Federico Fellini, Palme d'or à Cannes en 1960, dresse le portrait de la haute société romaine à travers les errances d'un journaliste mondain joué par Marcello Mastroianni. La scène d'Anita Ekberg dans la fontaine de Trevi est devenue mythique. Le film a aussi donné un mot à toutes les langues : « paparazzi », d'après le photographe Paparazzo du film. Fellini, maître d'un cinéma baroque et onirique, a également réalisé « La Strada », « Huit et demi » et « Amarcord ». Il a reçu quatre Oscars du meilleur film étranger, un record."
+  },
+  {
+   "q": "Quel cinéaste suédois a réalisé « Le Septième Sceau » (1957), où un chevalier joue aux échecs avec la Mort ?",
+   "choix": [
+    "Ingmar Bergman",
+    "Lars von Trier",
+    "Victor Sjöström",
+    "Carl Theodor Dreyer"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Ingmar Bergman, géant du cinéma suédois, réalise en 1957 « Le Septième Sceau », dans lequel un chevalier revenu des croisades, joué par Max von Sydow, dispute une partie d'échecs avec la Mort pendant une épidémie de peste. Cette image est l'une des plus citées et parodiées du cinéma. La même année, Bergman signe « Les Fraises sauvages », autre chef-d'œuvre. Son œuvre, hantée par la foi, la mort et l'incommunicabilité, culmine avec « Persona », « Cris et Chuchotements » et « Fanny et Alexandre ». Il a profondément influencé des cinéastes comme Woody Allen."
+  },
+  {
+   "q": "De quel pays le réalisateur Pedro Almodóvar est-il originaire ?",
+   "choix": [
+    "L'Espagne",
+    "Le Portugal",
+    "Le Mexique",
+    "L'Argentine"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Pedro Almodóvar est le cinéaste espagnol le plus connu au monde. Révélé dans les années 1980 au sein de la Movida, le mouvement culturel qui suivit la fin de la dictature franquiste, il a imposé un style flamboyant fait de mélodrame, d'humour et de couleurs saturées. Ses films accordent une place centrale aux personnages féminins, incarnés par ses actrices fétiches comme Carmen Maura ou Penélope Cruz. « Tout sur ma mère » (Oscar du meilleur film étranger) et « Parle avec elle » (Oscar du meilleur scénario original) comptent parmi ses œuvres les plus célébrées."
+  },
+  {
+   "q": "Quel studio d'animation japonais Hayao Miyazaki a-t-il cofondé en 1985 ?",
+   "choix": [
+    "Le studio Ghibli",
+    "La Toei Animation",
+    "Le studio Pierrot",
+    "Madhouse"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Hayao Miyazaki fonde en 1985 le studio Ghibli avec le réalisateur Isao Takahata et le producteur Toshio Suzuki. Le studio devient le fer de lance de l'animation japonaise avec des films comme « Mon voisin Totoro », « Princesse Mononoké » ou « Le Château ambulant ». « Le Voyage de Chihiro » (2001) remporte l'Ours d'or à Berlin puis l'Oscar du meilleur film d'animation, une consécration mondiale rare pour un film non américain. Le nom « Ghibli » désigne un vent chaud du désert. Les œuvres du studio mêlent merveilleux, écologie et regard tendre sur l'enfance."
+  },
+  {
+   "q": "Quel réalisateur américain a signé « Les Dents de la mer », « E.T. » et « Jurassic Park » ?",
+   "choix": [
+    "Steven Spielberg",
+    "James Cameron",
+    "George Lucas",
+    "Robert Zemeckis"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Steven Spielberg est l'un des réalisateurs les plus populaires de l'histoire du cinéma. « Les Dents de la mer » (1975) est souvent considéré comme le premier blockbuster moderne, inaugurant les grandes sorties estivales massivement promues. Suivront « E.T. l'extra-terrestre », « Indiana Jones » et « Jurassic Park », immenses succès mondiaux. Spielberg a aussi mené une œuvre plus grave, couronnée par deux Oscars du meilleur réalisateur pour « La Liste de Schindler » (1993) et « Il faut sauver le soldat Ryan » (1998). Il a cofondé le studio DreamWorks en 1994."
+  },
+  {
+   "q": "Qui a créé la saga « Star Wars », dont le premier film est sorti en 1977 ?",
+   "choix": [
+    "George Lucas",
+    "Steven Spielberg",
+    "Ridley Scott",
+    "Stanley Kubrick"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "George Lucas écrit et réalise « La Guerre des étoiles » (Star Wars), sorti en 1977, qui devient un phénomène culturel planétaire. Ce space opera inspiré des serials des années 1930, des westerns et du cinéma de Kurosawa révolutionne les effets spéciaux grâce à la société Industrial Light & Magic, fondée par Lucas. Le succès du merchandising, dont Lucas avait conservé les droits, transforme l'économie d'Hollywood. La saga compte aujourd'hui trois trilogies et de nombreuses séries dérivées. Lucas a vendu sa société Lucasfilm à Disney en 2012."
+  },
+  {
+   "q": "Qui a réalisé « Le Parrain » (1972), avec Marlon Brando ?",
+   "choix": [
+    "Francis Ford Coppola",
+    "Martin Scorsese",
+    "Brian De Palma",
+    "Sidney Lumet"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "« Le Parrain », réalisé par Francis Ford Coppola en 1972 d'après le roman de Mario Puzo, suit la famille mafieuse Corleone, avec Marlon Brando en patriarche et Al Pacino en héritier. Immense succès critique et commercial, il remporte l'Oscar du meilleur film et impose une vision tragique et shakespearienne de la mafia italo-américaine. « Le Parrain, 2e partie » (1974) est le premier film dont la suite gagne aussi l'Oscar du meilleur film. Coppola, figure du Nouvel Hollywood, remportera en outre deux Palmes d'or, pour « Conversation secrète » et « Apocalypse Now »."
+  },
+  {
+   "q": "Combien d'Oscars le film « Titanic » de James Cameron a-t-il remportés en 1998 ?",
+   "choix": [
+    "11",
+    "7",
+    "9",
+    "13"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "« Titanic » (1997) de James Cameron a remporté 11 Oscars en 1998, dont ceux du meilleur film et du meilleur réalisateur. Il égale ainsi le record de « Ben-Hur » (1959), rejoint ensuite par « Le Seigneur des anneaux : Le Retour du roi » (2003). Porté par Leonardo DiCaprio et Kate Winslet et la chanson « My Heart Will Go On » de Céline Dion, le film fut le premier à dépasser le milliard de dollars de recettes mondiales. Cameron battra son propre record de box-office avec « Avatar » en 2009. En France, « Titanic » a dépassé les 20 millions d'entrées."
+  },
+  {
+   "q": "Quel acteur fut le premier interprète de James Bond au cinéma, dans « James Bond 007 contre Dr No » (1962) ?",
+   "choix": [
+    "Sean Connery",
+    "Roger Moore",
+    "George Lazenby",
+    "David Niven"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'Écossais Sean Connery est le premier à incarner l'agent secret James Bond au cinéma, dans « James Bond 007 contre Dr No » en 1962. Le personnage, créé par le romancier britannique Ian Fleming en 1953, devient grâce à lui une icône mondiale du film d'espionnage. Connery joue Bond dans six films officiels : cinq entre 1962 et 1967, puis, après l'intermède de George Lazenby dans « Au service secret de Sa Majesté » (1969), un sixième en 1971 avec « Les diamants sont éternels ». Roger Moore reprend ensuite le rôle à partir de 1973. La franchise, produite par la famille Broccoli, est l'une des plus longues et des plus rentables de l'histoire du cinéma. Connery a par ailleurs reçu un Oscar pour « Les Incorruptibles » en 1988."
+  },
+  {
+   "q": "Quel film de Gérard Oury avec Bourvil et Louis de Funès a détenu pendant plus de 30 ans le record d'entrées en France ?",
+   "choix": [
+    "La Grande Vadrouille",
+    "Le Corniaud",
+    "Les Aventures de Rabbi Jacob",
+    "La Folie des grandeurs"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "« La Grande Vadrouille » (1966) de Gérard Oury, avec le duo Bourvil et Louis de Funès aidant des aviateurs anglais à traverser la France occupée, a attiré plus de 17 millions de spectateurs. Il est resté le plus grand succès du cinéma en France pendant plus de trois décennies, jusqu'à « Titanic » en 1998. Parmi les films français, il n'a été dépassé qu'en 2008 par « Bienvenue chez les Ch'tis », puis par « Intouchables » en 2011. Cette comédie sur l'Occupation, régulièrement rediffusée à la télévision, fait partie du patrimoine populaire français."
+  },
+  {
+   "q": "Quelle est la plus haute récompense décernée par le Festival de Cannes ?",
+   "choix": [
+    "La Palme d'or",
+    "Le Lion d'or",
+    "L'Ours d'or",
+    "Le Grand Prix"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "La Palme d'or est la récompense suprême du Festival de Cannes, attribuée par le jury au meilleur film de la compétition officielle. Créée en 1955, elle fait référence aux palmiers de la Croisette et aux armoiries de la ville ; auparavant, le festival décernait un « Grand Prix ». Le palmarès comprend aussi le Grand Prix, le Prix du jury et les prix d'interprétation et de mise en scène. Parmi les rares cinéastes doublement palmés figurent Francis Ford Coppola, Emir Kusturica, les frères Dardenne, Michael Haneke et Ken Loach. Le Lion d'or et l'Ours d'or récompensent, eux, Venise et Berlin."
+  },
+  {
+   "q": "En quelle année s'est tenue la première édition du Festival de Cannes ?",
+   "choix": [
+    "1946",
+    "1939",
+    "1955",
+    "1959"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le Festival de Cannes devait naître en septembre 1939, pour concurrencer la Mostra de Venise jugée inféodée aux régimes fasciste et nazi, mais la déclaration de guerre annula l'événement. La première édition se tient donc en septembre 1946, au lendemain du conflit. Le festival s'installe ensuite au printemps et devient le rendez-vous le plus médiatisé du cinéma mondial, avec sa célèbre montée des marches du Palais des festivals. La Palme d'or est créée en 1955. Aujourd'hui, Cannes réunit chaque année en mai des milliers de professionnels et constitue aussi le premier marché du film au monde."
+  },
+  {
+   "q": "Quelle récompense principale est décernée par le festival international du film de Berlin ?",
+   "choix": [
+    "L'Ours d'or",
+    "Le Léopard d'or",
+    "Le Lion d'or",
+    "L'Aigle d'or"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La Berlinale, créée en 1951 à Berlin-Ouest en pleine guerre froide, décerne chaque année l'Ours d'or au meilleur film de sa compétition, l'ours étant l'animal emblème de la ville de Berlin. Se tenant en février, elle est le premier grand festival de l'année et se distingue par sa dimension politique et son ouverture au public, avec des centaines de milliers de billets vendus. Avec Cannes et Venise, elle complète le trio des festivals européens majeurs. Parmi les lauréats célèbres de l'Ours d'or figurent « Le Voyage de Chihiro » de Miyazaki et « La Vie des autres » n'en est pas un, mais bien « Sur mes lèvres »... non : citons plutôt « Larmes et soupirs » — retenons simplement que le palmarès mêle cinéma d'auteur et films engagés."
+  },
+  {
+   "q": "Quelle institution décerne les Oscars chaque année à Hollywood ?",
+   "choix": [
+    "L'Académie des arts et des sciences du cinéma",
+    "La Guilde des producteurs",
+    "L'American Film Institute",
+    "La Motion Picture Association"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Les Oscars sont décernés depuis 1929 par l'Academy of Motion Picture Arts and Sciences (Académie des arts et des sciences du cinéma), fondée en 1927 à Los Angeles. Ses milliers de membres, professionnels du cinéma répartis par branches (acteurs, réalisateurs, techniciens), votent pour désigner les lauréats. La statuette dorée représente un chevalier tenant une épée, debout sur une bobine de film. La cérémonie, qui se tient aujourd'hui au Dolby Theatre d'Hollywood, est l'un des événements télévisés les plus regardés au monde. L'Oscar du meilleur film reste la récompense la plus convoitée de l'industrie."
+  },
+  {
+   "q": "En quelle année a eu lieu la première cérémonie des Césars du cinéma français ?",
+   "choix": [
+    "1976",
+    "1966",
+    "1981",
+    "1990"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La première Nuit des Césars s'est tenue le 3 avril 1976, sous la présidence de Jean Gabin. Créée par le publicitaire Georges Cravenne sur le modèle des Oscars, la cérémonie est organisée par l'Académie des arts et techniques du cinéma. La récompense doit son nom au sculpteur César Baldaccini, dit César, qui a dessiné le trophée, une sculpture en métal compressé. Le premier César du meilleur film fut attribué au « Vieux Fusil » de Robert Enrico. Les Césars récompensent chaque année, en février ou mars, les meilleurs films et talents du cinéma français."
+  },
+  {
+   "q": "Pour quel rôle Marion Cotillard a-t-elle remporté l'Oscar de la meilleure actrice en 2008 ?",
+   "choix": [
+    "Édith Piaf dans « La Môme »",
+    "Coco Chanel dans « Coco avant Chanel »",
+    "Sandra dans « Deux jours, une nuit »",
+    "Sabine dans « De rouille et d'os »"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Marion Cotillard remporte en 2008 l'Oscar de la meilleure actrice pour son interprétation d'Édith Piaf dans « La Môme » d'Olivier Dahan. C'est la première fois qu'un Oscar d'interprétation est attribué pour un rôle joué en langue française. Métamorphosée par le maquillage et par un travail vocal et physique impressionnant, elle a également reçu pour ce rôle le César, le BAFTA britannique et le Golden Globe. Avant elle, Simone Signoret avait été la première Française oscarisée, en 1960, mais pour un rôle en anglais. Cotillard a ensuite mené une carrière internationale, chez Christopher Nolan notamment."
+  },
+  {
+   "q": "Quel film français muet et en noir et blanc a remporté l'Oscar du meilleur film en 2012 ?",
+   "choix": [
+    "The Artist",
+    "Amour",
+    "Intouchables",
+    "Un prophète"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "« The Artist », réalisé par Michel Hazanavicius, remporte en 2012 cinq Oscars dont celui du meilleur film, une première pour un film français. Ce film muet et en noir et blanc, hommage à l'Hollywood de la fin des années 1920, raconte le déclin d'une star du muet incapable de s'adapter au parlant. Jean Dujardin y décroche l'Oscar du meilleur acteur, également une première pour un Français, après son prix d'interprétation à Cannes. Bérénice Bejo et le chien Uggie complètent la distribution. Le pari d'un film muet au XXIe siècle semblait insensé ; il fut un triomphe mondial."
+  },
+  {
+   "q": "Quel film sud-coréen est devenu en 2020 le premier film en langue non anglaise à remporter l'Oscar du meilleur film ?",
+   "choix": [
+    "Parasite",
+    "Old Boy",
+    "Memories of Murder",
+    "Dernier train pour Busan"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "« Parasite » de Bong Joon-ho réalise en 2019-2020 un doublé historique : Palme d'or à Cannes, puis quatre Oscars dont celui du meilleur film, une première absolue pour un film en langue non anglaise. Cette satire sociale féroce oppose une famille pauvre, qui s'infiltre au service d'une famille riche de Séoul, dans un mélange de comédie noire et de thriller. Le film a symbolisé la reconnaissance mondiale du cinéma sud-coréen, déjà porté par des cinéastes comme Park Chan-wook. Bong Joon-ho a aussi remporté l'Oscar du meilleur réalisateur pour ce film."
+  },
+  {
+   "q": "Quelle actrice fut la première Française à remporter un Oscar d'interprétation, en 1960 ?",
+   "choix": [
+    "Simone Signoret",
+    "Brigitte Bardot",
+    "Jeanne Moreau",
+    "Michèle Morgan"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Simone Signoret devient en 1960 la première actrice de nationalité française à remporter l'Oscar de la meilleure actrice, pour son rôle dans le film britannique « Les Chemins de la haute ville » (Room at the Top). On cite parfois Claudette Colbert, primée en 1935, mais celle-ci, née à Saint-Mandé, avait grandi et fait toute sa carrière aux États-Unis dont elle avait la nationalité. Grande figure du cinéma français, elle avait triomphé dans « Casque d'or » de Jacques Becker et « Les Diaboliques » de Clouzot. Mariée au chanteur et acteur Yves Montand, elle forma avec lui un couple emblématique, engagé à gauche. Juliette Binoche obtiendra ensuite l'Oscar du meilleur second rôle en 1997 pour « Le Patient anglais », puis Marion Cotillard celui de la meilleure actrice en 2008 pour « La Môme », cette fois pour un rôle en français."
+  },
+  {
+   "q": "Qui a cofondé la Cinémathèque française en 1936 et sauvé des milliers de films de la destruction ?",
+   "choix": [
+    "Henri Langlois",
+    "André Malraux",
+    "Georges Sadoul",
+    "Marcel L'Herbier"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Henri Langlois cofonde la Cinémathèque française en 1936 avec le cinéaste Georges Franju, avec pour mission de collecter, conserver et montrer les films, à une époque où l'on détruisait couramment les copies anciennes. Sous l'Occupation, il cache des films pour les soustraire aux nazis. Ses projections forment toute une génération de cinéphiles, dont les futurs cinéastes de la Nouvelle Vague, qui se surnomment les « enfants de la Cinémathèque ». Son limogeage en 1968 déclenche une mobilisation internationale qui aboutit à sa réintégration. La Cinémathèque est aujourd'hui installée à Paris, dans le quartier de Bercy."
+  },
+  {
+   "q": "Qui a fondé « La Gazette » en 1631, souvent considérée comme le premier périodique français ?",
+   "choix": [
+    "Théophraste Renaudot",
+    "Émile de Girardin",
+    "Pierre Bayle",
+    "Denis Diderot"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Le médecin Théophraste Renaudot fonde « La Gazette » en 1631, avec le soutien du cardinal de Richelieu. Cet hebdomadaire, considéré comme l'ancêtre de la presse française, diffusait des nouvelles de la cour et de l'étranger, et servait aussi d'instrument d'influence au pouvoir royal. Renaudot est resté le symbole du journalisme naissant : un grand prix littéraire, le prix Renaudot, créé en 1926, porte son nom et est décerné le même jour que le Goncourt. La presse d'information moderne, quotidienne et bon marché, ne se développera véritablement qu'au XIXe siècle."
+  },
+  {
+   "q": "Quelle grande loi française garantit la liberté de la presse depuis 1881 ?",
+   "choix": [
+    "La loi du 29 juillet 1881",
+    "La loi de 1905",
+    "La loi Le Chapelier",
+    "La loi Gayssot"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La loi du 29 juillet 1881 sur la liberté de la presse, adoptée sous la Troisième République, pose le principe fondateur : « L'imprimerie et la librairie sont libres ». Elle supprime l'autorisation préalable et la censure, tout en définissant les délits de presse comme la diffamation, l'injure ou la provocation aux crimes. Plus de cent quarante ans après, elle demeure le socle du droit de la presse en France, régulièrement amendée, par exemple par la loi Gayssot de 1990 réprimant le négationnisme. Elle est contemporaine des grandes lois républicaines sur l'école et les libertés publiques."
+  },
+  {
+   "q": "Dans quel journal Émile Zola publie-t-il « J'accuse... ! » en 1898 ?",
+   "choix": [
+    "L'Aurore",
+    "Le Figaro",
+    "Le Petit Journal",
+    "La Croix"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le 13 janvier 1898, Émile Zola publie à la une de « L'Aurore », le journal de Georges Clemenceau, sa lettre ouverte « J'accuse... ! » adressée au président de la République Félix Faure. Il y dénonce l'iniquité de la condamnation du capitaine Alfred Dreyfus, officier juif accusé à tort de trahison, et désigne nommément les responsables de l'erreur judiciaire. L'article, vendu à des centaines de milliers d'exemplaires, relance l'affaire Dreyfus et coupe la France en deux. Condamné pour diffamation, Zola doit s'exiler en Angleterre. Ce texte est devenu le symbole de l'engagement de l'intellectuel et du pouvoir de la presse."
+  },
+  {
+   "q": "Quelle expression désigne traditionnellement la presse et les médias comme contre-pouvoir ?",
+   "choix": [
+    "Le quatrième pouvoir",
+    "Le cinquième élément",
+    "Le second souffle",
+    "Le pouvoir invisible"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "L'expression « quatrième pouvoir » désigne la presse, puis l'ensemble des médias, en référence aux trois pouvoirs classiques définis par Montesquieu : législatif, exécutif et judiciaire. Elle souligne le rôle des journalistes comme contre-pouvoir, capables d'informer les citoyens, de révéler des scandales et de contrôler l'action des gouvernants. L'affaire du Watergate, révélée par deux journalistes du Washington Post et qui conduisit à la démission du président Nixon en 1974, en est l'illustration la plus célèbre. Avec Internet et les réseaux sociaux, certains parlent désormais d'un « cinquième pouvoir » exercé par les citoyens connectés."
+  },
+  {
+   "q": "Quelle grande agence de presse française est née en 1944, héritière de l'agence Havas ?",
+   "choix": [
+    "L'AFP",
+    "Reuters",
+    "L'Associated Press",
+    "L'ANSA"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'Agence France-Presse (AFP) est fondée en août 1944, à la Libération de Paris, sur les décombres de l'Office français d'information de Vichy. Elle est l'héritière de l'agence Havas, créée en 1835 par Charles-Louis Havas et considérée comme la première agence de presse au monde. L'AFP forme avec les agences Reuters (britannique) et Associated Press (américaine) le trio des grandes agences mondiales d'information. Son réseau couvre la quasi-totalité des pays et alimente en dépêches, photos et vidéos les médias du monde entier. Son statut particulier, fixé par une loi de 1957, garantit son indépendance."
+  },
+  {
+   "q": "Qui a fondé le quotidien « Le Monde » en 1944 ?",
+   "choix": [
+    "Hubert Beuve-Méry",
+    "Jean-Jacques Servan-Schreiber",
+    "Pierre Lazareff",
+    "Albert Camus"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le journaliste Hubert Beuve-Méry fonde « Le Monde » en décembre 1944, à la demande du général de Gaulle qui souhaitait doter la France libérée d'un quotidien de référence, en remplacement du « Temps », compromis sous l'Occupation. Journal du soir, sobre et rigoureux, « Le Monde » s'impose comme l'un des titres les plus influents de la presse française, lu notamment par les décideurs et à l'étranger. Beuve-Méry le dirige jusqu'en 1969 en défendant farouchement son indépendance. Albert Camus dirigeait quant à lui « Combat », autre grand journal issu de la Résistance."
+  },
+  {
+   "q": "Quel est le quotidien le plus diffusé de la presse française ?",
+   "choix": [
+    "Ouest-France",
+    "Le Monde",
+    "Le Figaro",
+    "L'Équipe"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "« Ouest-France », journal régional publié à Rennes et fondé en 1944 en remplacement de « L'Ouest-Éclair », est le premier quotidien français par la diffusion, avec des centaines de milliers d'exemplaires vendus chaque jour, devant les grands titres nationaux comme « Le Monde » ou « Le Figaro ». Couvrant la Bretagne, la Normandie et les Pays de la Loire, il publie des dizaines d'éditions locales. Ce succès illustre la vitalité de la presse quotidienne régionale en France, qui touche globalement plus de lecteurs que la presse nationale. Le journal appartient à une association à but non lucratif, un statut original."
+  },
+  {
+   "q": "En quelle année le premier journal télévisé français a-t-il été diffusé ?",
+   "choix": [
+    "1949",
+    "1935",
+    "1958",
+    "1964"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Le premier journal télévisé français est diffusé le 29 juin 1949 sur l'unique chaîne de la RTF, sous l'impulsion du journaliste Pierre Sabbagh. À l'époque, la France ne compte que quelques milliers de récepteurs et les journalistes commentent en direct des images tournées en 16 mm, sans présentateur apparaissant à l'écran au début. La télévision française avait diffusé ses premières émissions expérimentales dès 1935. Le journal télévisé de 20 heures deviendra au fil des décennies le grand rendez-vous d'information des Français, incarné par des figures comme Léon Zitrone puis Patrick Poivre d'Arvor."
+  },
+  {
+   "q": "En quelle année l'ORTF a-t-il été supprimé et éclaté en sept sociétés distinctes ?",
+   "choix": [
+    "1974",
+    "1968",
+    "1981",
+    "1986"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "L'Office de radiodiffusion-télévision française (ORTF), établissement public qui détenait le monopole de la radio et de la télévision, est supprimé par la loi du 7 août 1974, sous la présidence de Valéry Giscard d'Estaing. Il est éclaté en sept organismes, dont les chaînes TF1, Antenne 2 et FR3, Radio France, l'Institut national de l'audiovisuel (INA) et la Société française de production. Cette réforme visait à introduire une forme de concurrence interne et à desserrer le contrôle politique, très critiqué depuis les événements de mai 1968. La véritable libéralisation interviendra dans les années 1980, avec la fin du monopole d'État."
+  },
+  {
+   "q": "Quelle chaîne, lancée en 1984, fut la première télévision privée et payante de France ?",
+   "choix": [
+    "Canal+",
+    "La Cinq",
+    "M6",
+    "TV6"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Canal+ est lancée le 4 novembre 1984 : c'est la première chaîne de télévision privée française et la première chaîne payante, accessible par abonnement grâce à un décodeur. Dirigée à ses débuts par André Rousselet, proche de François Mitterrand, elle fonde son modèle sur le cinéma récent et le sport en exclusivité, avec des plages en clair popularisées par des émissions comme « Nulle part ailleurs » ou « Les Guignols de l'info ». Son succès finance d'importants investissements dans le cinéma français, dont elle devient un partenaire essentiel. Elle marque le début de la fin du monopole audiovisuel public en France."
+  },
+  {
+   "q": "En quelle année la chaîne TF1 a-t-elle été privatisée ?",
+   "choix": [
+    "1987",
+    "1974",
+    "1981",
+    "1992"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "TF1, première chaîne publique héritée de l'ORTF, est privatisée en avril 1987 par le gouvernement de Jacques Chirac, dans le cadre de la première cohabitation. Le groupe de BTP Bouygues, dirigé par Francis Bouygues, en devient l'actionnaire principal, à la surprise de nombreux observateurs qui attendaient le groupe Hachette. C'est un cas rare au monde de privatisation d'une grande chaîne publique historique. TF1 devient ensuite la chaîne la plus regardée de France, avec des audiences record pour son journal de 20 heures. Cette privatisation s'inscrit dans la libéralisation générale de l'audiovisuel des années 1980, après la création de Canal+, de La Cinq et de M6."
+  },
+  {
+   "q": "Quelle adaptation radiophonique d'Orson Welles a semé le trouble aux États-Unis en 1938 ?",
+   "choix": [
+    "La Guerre des mondes",
+    "1984",
+    "Dracula",
+    "L'Île mystérieuse"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le 30 octobre 1938, veille d'Halloween, Orson Welles diffuse sur le réseau CBS une adaptation de « La Guerre des mondes » de H. G. Wells, présentée sous forme de faux bulletins d'information annonçant une invasion martienne dans le New Jersey. Une partie des auditeurs, prenant l'émission au premier degré, s'inquiète, et la presse du lendemain amplifie l'ampleur de la panique, aujourd'hui relativisée par les historiens. L'épisode reste un cas d'école sur le pouvoir de suggestion des médias et la crédulité du public. Il lance la carrière de Welles, qui réalisera « Citizen Kane » trois ans plus tard."
+  },
+  {
+   "q": "Depuis quelle radio le général de Gaulle a-t-il lancé l'appel du 18 juin 1940 ?",
+   "choix": [
+    "La BBC à Londres",
+    "Radio Paris",
+    "Radio Vichy",
+    "Radio Alger"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le 18 juin 1940, au lendemain de l'annonce par Pétain de la demande d'armistice, le général de Gaulle lance depuis les studios de la BBC à Londres son appel à poursuivre le combat, acte fondateur de la France libre. Peu entendu sur le moment, l'appel fut ensuite répété et placardé. Pendant toute l'Occupation, l'émission « Les Français parlent aux Français » sur Radio Londres soutient la Résistance, diffuse des messages codés et répond à la propagande de Radio Paris, aux mains de l'occupant. La radio s'affirme alors comme une arme de guerre à part entière."
+  },
+  {
+   "q": "Quelle autorité régule l'audiovisuel et le numérique en France depuis 2022, en remplacement du CSA ?",
+   "choix": [
+    "L'Arcom",
+    "La Hadopi",
+    "L'Arcep",
+    "La CNIL"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'Arcom (Autorité de régulation de la communication audiovisuelle et numérique) est née le 1er janvier 2022 de la fusion du Conseil supérieur de l'audiovisuel (CSA) et de la Hadopi, chargée de la lutte contre le piratage. Autorité publique indépendante, elle attribue les fréquences aux chaînes et radios, veille au pluralisme politique à l'antenne, protège les publics, notamment les mineurs, et lutte contre la désinformation et la piraterie en ligne. Elle succède à une lignée d'instances de régulation créées depuis 1982, dont la Haute Autorité puis la CNCL. Son champ s'étend désormais aux plateformes numériques et aux réseaux sociaux."
+  },
+  {
+   "q": "Quel hebdomadaire satirique français, fondé en 1915, est célèbre pour ses enquêtes et son canard emblématique ?",
+   "choix": [
+    "Le Canard enchaîné",
+    "Charlie Hebdo",
+    "Hara-Kiri",
+    "Marianne"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "« Le Canard enchaîné », fondé en 1915 par Maurice et Jeanne Maréchal, est le plus ancien journal satirique français encore publié. Né pendant la Première Guerre mondiale pour moquer le « bourrage de crâne » de la presse censurée, son titre fait allusion à cette censure qui « enchaînait » les journaux. Paraissant le mercredi, sans publicité ni photographie, il vit uniquement de ses ventes, gage d'indépendance. Ses enquêtes ont révélé de nombreux scandales politiques, de l'affaire des diamants de Giscard à l'affaire Fillon. Il mêle investigation rigoureuse, jeux de mots et dessins de presse."
+  }
+ ],
+ "cours": [
+  {
+   "titre": "Naissance et âge d'or du cinéma",
+   "sections": [
+    {
+     "titre": "L'invention du cinématographe",
+     "texte": "Le cinéma naît à la fin du XIXe siècle, au terme d'une série d'inventions consacrées à l'image animée. Aux États-Unis, Thomas Edison et son assistant William Dickson mettent au point le Kinétoscope, une boîte dans laquelle un seul spectateur regarde un court film à travers un œilleton. La rupture décisive vient de Lyon : Auguste et Louis Lumière, industriels de la photographie, brevettent en 1895 le Cinématographe, appareil léger servant à la fois de caméra et de projecteur. Le 28 décembre 1895, au Salon indien du Grand Café à Paris, ils organisent la première projection publique payante de l'histoire devant une trentaine de spectateurs. Au programme figurent des « vues » d'une cinquantaine de secondes, comme « La Sortie de l'usine Lumière à Lyon » ou « L'Arroseur arrosé », première fiction comique. Le succès est immédiat et mondial : en quelques mois, des opérateurs Lumière filment et projettent sur tous les continents. Le cinéma, d'abord perçu comme une attraction foraine, devient rapidement une industrie et un art nouveau, que le théoricien Ricciotto Canudo baptisera « septième art ».",
+     "visuel": {
+      "type": "image",
+      "image": "cin-affiche-lumiere",
+      "legende": "L'affiche du Cinématographe Lumière dessinée par Marcellin Auzolle en 1896 : elle montre non pas le film, mais la salle en train de rire devant « L'Arroseur arrosé », première fiction comique.",
+      "alt": "Affiche en couleurs : un public en habits de la fin du XIXe siècle, assis sur des rangées de chaises, rit et gesticule devant un écran où un jardinier arrose un garçon ; en bas, en grosses lettres jaunes, Cinématographe Lumière."
+     }
+    },
+    {
+     "titre": "Georges Méliès, inventeur du spectacle cinématographique",
+     "texte": "Si les frères Lumière filment le réel, Georges Méliès invente le cinéma de fiction et de spectacle. Illusionniste et directeur du théâtre Robert-Houdin à Paris, il assiste à la première projection de 1895 et comprend aussitôt le potentiel du nouveau média. En 1897, il fait construire à Montreuil un studio vitré, l'un des premiers au monde, véritable théâtre équipé de trappes et de machineries. Méliès y découvre et systématise les premiers effets spéciaux : l'arrêt de caméra, qui fait apparaître ou disparaître les personnages, la surimpression, les fondus, les maquettes et décors peints. Il tourne plus de cinq cents films, féeries, reconstitutions d'actualités et voyages extraordinaires. Son chef-d'œuvre, « Le Voyage dans la Lune » (1902), inspiré de Jules Verne, connaît un succès international, souvent au profit de contrefacteurs qui copient ses films. Ruiné par la concurrence des grandes compagnies et par la guerre, Méliès finit vendeur de jouets à la gare Montparnasse avant d'être redécouvert par les cinéphiles à la fin des années 1920. Il incarne pour toujours la part de magie et de rêve du cinéma.",
+     "visuel": {
+      "type": "image",
+      "image": "cin-voyage-lune",
+      "legende": "« Le Voyage dans la Lune » (1902) : l'obus se plante dans l'œil de la Lune. Méliès peignait lui-même ses décors et coloriait certaines copies à la main, comme celle-ci.",
+      "alt": "Photogramme colorié à la main, perforations du film visibles sur les bords : un grand visage humain jaune figurant la Lune, une capsule rouge fichée dans son œil droit, entouré de nuages sombres."
+     }
+    },
+    {
+     "titre": "Du muet au parlant",
+     "texte": "Pendant ses trois premières décennies, le cinéma est muet : les films sont accompagnés en salle par un pianiste, un orchestre ou un bonimenteur, et les dialogues apparaissent sur des intertitres. Cette contrainte pousse les cinéastes à développer un langage visuel d'une grande richesse, dont témoignent le burlesque américain de Charlie Chaplin, Buster Keaton et Harold Lloyd, l'expressionnisme allemand de Murnau et Fritz Lang, ou le montage soviétique théorisé par Eisenstein dans « Le Cuirassé Potemkine » (1925). La révolution survient en 1927 : « Le Chanteur de jazz » de la Warner, premier long métrage avec des séquences chantées et parlées synchronisées, triomphe au box-office. En quelques années, les studios s'équipent, les salles s'adaptent et le muet disparaît presque totalement. La transition fait des victimes : des vedettes à la voix jugée ingrate voient leur carrière brisée, des musiciens de salle perdent leur emploi, et les tournages, alourdis par les micros, perdent provisoirement leur liberté. Certains grands artistes résistent, comme Chaplin qui attend 1940 et « Le Dictateur » pour faire vraiment parler son personnage. Le parlant impose aussi les langues nationales et renforce la domination d'Hollywood.",
+     "visuel": {
+      "type": "comparaison",
+      "titre": "Le muet et le parlant",
+      "colonnes": [
+       {
+        "titre": "Le muet, 1895-1927",
+        "points": [
+         "Un pianiste, un orchestre ou un bonimenteur accompagne la séance",
+         "Les dialogues apparaissent sur des intertitres",
+         "La contrainte pousse à inventer un langage visuel très riche : burlesque américain, expressionnisme allemand, montage soviétique",
+         "Les films circulent partout, sans barrière de langue"
+        ]
+       },
+       {
+        "titre": "Le parlant, à partir de 1927",
+        "points": [
+         "« Le Chanteur de jazz » triomphe avec des séquences chantées et parlées synchronisées",
+         "Les studios s'équipent, les salles s'adaptent, le muet disparaît en quelques années",
+         "Des vedettes à la voix jugée ingrate voient leur carrière brisée, des musiciens de salle perdent leur emploi",
+         "Les langues nationales s'imposent et la domination d'Hollywood se renforce"
+        ]
+       }
+      ],
+      "note": "Certains résistent : Chaplin attend 1940 et « Le Dictateur » pour faire vraiment parler son personnage."
+     }
+    },
+    {
+     "titre": "L'âge d'or d'Hollywood",
+     "texte": "Des années 1930 aux années 1950, Hollywood vit son âge d'or sous le règne du « studio system ». Cinq grandes compagnies, dont la MGM, la Paramount et la Warner, contrôlent toute la chaîne du film, de la production aux salles, et emploient sous contrat exclusif stars, réalisateurs et techniciens. Ce système industriel produit des centaines de films par an et fait naître les grands genres américains : le western, la comédie musicale, le film noir, le film de gangsters. L'année 1939, avec « Autant en emporte le vent » et « Le Magicien d'Oz », en est le sommet symbolique. La création morale est encadrée par le code Hays, autocensure appliquée strictement à partir de 1934, qui bannit nudité et apologie du crime. Le star-system fabrique des icônes mondiales, de Clark Gable à Marilyn Monroe. L'âge d'or s'achève sous l'effet conjugué d'une décision de justice de 1948 obligeant les studios à vendre leurs salles, de la concurrence de la télévision et de la chasse aux sorcières maccarthyste qui frappe Hollywood. Dans les années 1960-1970, une nouvelle génération, le « Nouvel Hollywood » de Coppola, Scorsese et Spielberg, renouvellera profondément le cinéma américain.",
+     "visuel": {
+      "type": "frise",
+      "titre": "L'âge d'or d'Hollywood et sa fin",
+      "evenements": [
+       {
+        "date": "1934",
+        "label": "Le code Hays",
+        "texte": "L'autocensure des studios est appliquée strictement : ni nudité, ni apologie du crime."
+       },
+       {
+        "date": "1939",
+        "label": "Le sommet symbolique",
+        "texte": "« Autant en emporte le vent » et « Le Magicien d'Oz » sortent la même année."
+       },
+       {
+        "date": "1948",
+        "label": "Les studios perdent leurs salles",
+        "texte": "Une décision de justice les oblige à les vendre : la chaîne intégrée du film est brisée."
+       },
+       {
+        "date": "années 1950",
+        "label": "La télévision et le maccarthysme",
+        "texte": "La concurrence du petit écran et la chasse aux sorcières frappent Hollywood."
+       },
+       {
+        "date": "années 1960-1970",
+        "label": "Le Nouvel Hollywood",
+        "texte": "Coppola, Scorsese et Spielberg renouvellent profondément le cinéma américain."
+       }
+      ]
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": "À quelle date précise a eu lieu la première projection publique payante des frères Lumière ?",
+     "choix": [
+      "Le 28 décembre 1895",
+      "Le 14 juillet 1889",
+      "Le 1er janvier 1900",
+      "Le 28 décembre 1885"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "La séance fondatrice se tient le 28 décembre 1895 au Salon indien du Grand Café, boulevard des Capucines à Paris. Une trentaine de spectateurs payants découvrent une dizaine de « vues » d'environ cinquante secondes chacune. Cette date est retenue comme la naissance officielle du cinéma en tant que spectacle public. Le bouche-à-oreille transforme vite l'attraction en phénomène : des files d'attente se forment dans les jours qui suivent."
+    },
+    {
+     "q": "Quel appareil de Thomas Edison permettait de visionner des films individuellement, à travers un œilleton ?",
+     "choix": [
+      "Le Kinétoscope",
+      "Le Cinématographe",
+      "Le Praxinoscope",
+      "Le Vitaphone"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Le Kinétoscope, mis au point vers 1891 par Edison et son assistant William Dickson, était une boîte dans laquelle un seul spectateur regardait un film court par un œilleton. Contrairement au Cinématographe Lumière, il ne projetait pas l'image sur un écran pour un public. Le Praxinoscope d'Émile Reynaud était un jouet optique antérieur, et le Vitaphone un procédé sonore des années 1920. C'est bien la projection collective qui fait des Lumière les pères du cinéma-spectacle."
+    },
+    {
+     "q": "Quel acteur prononce la célèbre réplique « Vous n'avez encore rien entendu ! » dans « Le Chanteur de jazz » ?",
+     "choix": [
+      "Al Jolson",
+      "Buster Keaton",
+      "Clark Gable",
+      "Fred Astaire"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "Le chanteur et acteur Al Jolson tient le rôle principal du « Chanteur de jazz » (1927), premier long métrage parlant produit par la Warner Bros grâce au procédé Vitaphone. Sa réplique improvisée « You ain't heard nothin' yet » est restée comme le symbole de l'entrée du cinéma dans l'ère du son. Le succès du film précipite la conversion de toute l'industrie au parlant en quelques années. Le film reste cependant en grande partie muet, seules quelques scènes étant sonorisées."
+    },
+    {
+     "q": "Quel court métrage des frères Lumière est considéré comme la première fiction comique du cinéma ?",
+     "choix": [
+      "L'Arroseur arrosé",
+      "Le Repas de bébé",
+      "La Sortie de l'usine",
+      "L'Arrivée d'un train"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "« L'Arroseur arrosé » (1895) met en scène un gamin qui marche sur le tuyau d'un jardinier avant de relâcher l'eau au visage de celui-ci. Contrairement aux autres vues Lumière, qui documentent le réel, il s'agit d'une petite histoire jouée : c'est la première fiction comique, un gag fondateur du burlesque. Le film fut même l'objet de la première affiche de cinéma. Il montre que, dès l'origine, le cinéma hésite entre documentaire et fiction."
+    },
+    {
+     "q": "Quel surnom a été donné à Georges Méliès en référence à son studio et à ses trucages ?",
+     "choix": [
+      "Le magicien de Montreuil",
+      "Le sorcier de Vincennes",
+      "L'illusionniste de Lyon",
+      "Le prestidigitateur de Pigalle"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Georges Méliès est surnommé le « magicien de Montreuil », du nom de la commune où il fit construire en 1897 son célèbre studio vitré. Ancien prestidigitateur, il transposa au cinéma l'art de l'illusion en inventant les premiers effets spéciaux : apparitions, disparitions, surimpressions. Ses féeries, comme « Le Voyage dans la Lune », firent le tour du monde. Le film « Hugo Cabret » de Martin Scorsese (2011) a rendu hommage à sa vie et contribué à le faire redécouvrir du grand public."
+    }
+   ]
+  },
+  {
+   "titre": "Le cinéma français, du réalisme poétique à nos jours",
+   "sections": [
+    {
+     "titre": "Les années 1930 et le réalisme poétique",
+     "texte": "Dans les années 1930, le cinéma français connaît un premier âge d'or avec l'arrivée du parlant. Un courant domine la décennie : le réalisme poétique, qui mêle décors populaires urbains, destins tragiques et dialogues ciselés. Marcel Carné en est la figure centrale, avec des films écrits par le poète Jacques Prévert comme « Le Quai des brumes » (1938) et « Le Jour se lève » (1939), portés par Jean Gabin, l'acteur emblématique de l'époque, et par Arletty ou Michèle Morgan, à qui l'on doit la réplique fameuse « T'as d'beaux yeux, tu sais ». Jean Renoir, fils du peintre, signe de son côté deux sommets : « La Grande Illusion » (1937), plaidoyer humaniste contre la guerre, et « La Règle du jeu » (1939), satire de la bourgeoisie incomprise à sa sortie puis consacrée comme un chef-d'œuvre absolu. Sous l'Occupation, malgré la censure, le cinéma français produit encore de grandes œuvres, dont « Les Visiteurs du soir » et surtout « Les Enfants du paradis » (1945) de Carné et Prévert, fresque tournée clandestinement pour partie et régulièrement élue plus grand film français de tous les temps."
+    },
+    {
+     "titre": "La Nouvelle Vague",
+     "texte": "À la fin des années 1950, de jeunes critiques de la revue « Les Cahiers du cinéma », fondée en 1951 autour d'André Bazin, passent à la réalisation et bouleversent le cinéma français. François Truffaut, Jean-Luc Godard, Claude Chabrol, Éric Rohmer et Jacques Rivette rejettent le « cinéma de qualité » académique des studios, qu'ils jugent figé, et défendent la « politique des auteurs » : le réalisateur doit être le véritable auteur de son film, au même titre qu'un écrivain. Grâce à des caméras légères et à des pellicules plus sensibles, ils tournent vite et à petit budget, en décors naturels, avec des acteurs nouveaux comme Jean-Paul Belmondo, Jean-Pierre Léaud ou Anna Karina. « Le Beau Serge » de Chabrol (1958), « Les Quatre Cents Coups » de Truffaut, primé à Cannes en 1959, et « À bout de souffle » de Godard (1960) lancent le mouvement. Autour d'eux gravitent Agnès Varda, pionnière dès 1955, Alain Resnais et Jacques Demy. La Nouvelle Vague influence le monde entier, du Nouvel Hollywood aux nouveaux cinémas européens, et impose durablement la figure du cinéaste-auteur.",
+     "visuel": {
+      "type": "comparaison",
+      "titre": "Ce que la Nouvelle Vague rejette, ce qu'elle propose",
+      "colonnes": [
+       {
+        "titre": "Le cinéma de qualité",
+        "points": [
+         "Tournage en studio, décors construits",
+         "Scénarios littéraires et dialogues écrits d'avance",
+         "Techniciens et vedettes installés",
+         "Le réalisateur exécute un projet de production"
+        ]
+       },
+       {
+        "titre": "La Nouvelle Vague",
+        "points": [
+         "Décors naturels, caméras légères, pellicules plus sensibles",
+         "Tournages rapides et à petit budget",
+         "Des acteurs nouveaux : Jean-Paul Belmondo, Jean-Pierre Léaud, Anna Karina",
+         "La politique des auteurs : le réalisateur est l'auteur de son film, au même titre qu'un écrivain"
+        ]
+       }
+      ],
+      "note": "Les premiers films du mouvement : « Le Beau Serge » de Chabrol (1958), « Les Quatre Cents Coups » de Truffaut, primé à Cannes en 1959, et « À bout de souffle » de Godard (1960)."
+     }
+    },
+    {
+     "titre": "Festivals et récompenses : Cannes et les Césars",
+     "texte": "La France occupe une place centrale dans la vie cinématographique mondiale grâce au Festival de Cannes. Conçu en 1939 pour concurrencer la Mostra de Venise, alors sous influence fasciste, il tient sa première édition en 1946. Chaque année en mai, la montée des marches du Palais des festivals attire les médias du monde entier, tandis que se tient en parallèle le premier marché du film de la planète. Le jury international décerne la Palme d'or, créée en 1955, ainsi que le Grand Prix, le Prix du jury et les prix d'interprétation et de mise en scène. Des sections parallèles, comme la Quinzaine des cinéastes ou la Semaine de la critique, révèlent les nouveaux talents. Côté récompenses nationales, l'Académie des arts et techniques du cinéma décerne depuis 1976 les Césars, créés par Georges Cravenne sur le modèle des Oscars, avec un trophée dessiné par le sculpteur César. La cérémonie couronne chaque hiver les meilleurs films français. D'autres festivals français comptent, comme Annecy pour l'animation, Clermont-Ferrand pour le court métrage ou Deauville pour le cinéma américain.",
+     "visuel": {
+      "type": "tableau",
+      "titre": "Cannes et les Césars",
+      "colonnes": [
+       "",
+       "Festival de Cannes",
+       "Les Césars"
+      ],
+      "lignes": [
+       [
+        "Conçu en",
+        "1939, pour concurrencer la Mostra de Venise ; première édition en 1946",
+        "1976, par Georges Cravenne, sur le modèle des Oscars"
+       ],
+       [
+        "Quand",
+        "Chaque année en mai, sur la Croisette",
+        "Chaque hiver"
+       ],
+       [
+        "Qui décide",
+        "Un jury international",
+        "L'Académie des arts et techniques du cinéma"
+       ],
+       [
+        "Récompense principale",
+        "La Palme d'or, créée en 1955",
+        "Le César, trophée dessiné par le sculpteur César"
+       ],
+       [
+        "Autour",
+        "Grand Prix, Prix du jury, prix d'interprétation et de mise en scène, Quinzaine des cinéastes, Semaine de la critique",
+        "Les meilleurs films français de l'année"
+       ]
+      ],
+      "note": "D'autres festivals français comptent : Annecy pour l'animation, Clermont-Ferrand pour le court métrage, Deauville pour le cinéma américain."
+     }
+    },
+    {
+     "titre": "L'exception culturelle et le cinéma français contemporain",
+     "texte": "La France est l'un des rares pays où le cinéma national résiste durablement à Hollywood. Cette vitalité repose sur un système de soutien original, souvent résumé par l'expression « exception culturelle ». Créé en 1946, le Centre national du cinéma (CNC) prélève une taxe sur chaque billet vendu, sur les chaînes de télévision et sur les plateformes, et redistribue ces ressources à la création française : c'est le principe de l'avance sur recettes, qui finance notamment les premiers films. Les chaînes de télévision, Canal+ en tête depuis 1984, ont l'obligation d'investir dans le cinéma. La chronologie des médias organise par ailleurs la vie des films, de la salle aux plateformes. Résultat : la France produit chaque année l'un des plus grands nombres de films d'Europe et conserve un réseau de salles exceptionnellement dense, art et essai compris. Le cinéma français brille aussi à l'international : « The Artist » a remporté l'Oscar du meilleur film en 2012, « Intouchables » a triomphé dans le monde entier, et des cinéastes comme Jacques Audiard ou Julia Ducournau, Palme d'or 2021 pour « Titane », confirment la réputation d'un cinéma à la fois populaire et d'auteur.",
+     "visuel": {
+      "type": "etapes",
+      "titre": "L'exception culturelle : d'où vient l'argent du cinéma français",
+      "etapes": [
+       {
+        "label": "Une taxe est prélevée",
+        "texte": "Sur chaque billet vendu, sur les chaînes de télévision et sur les plateformes."
+       },
+       {
+        "label": "Le CNC la collecte",
+        "texte": "Le Centre national du cinéma, créé en 1946, centralise ces ressources."
+       },
+       {
+        "label": "Il les redistribue à la création",
+        "texte": "C'est le principe de l'avance sur recettes, qui finance notamment les premiers films."
+       },
+       {
+        "label": "Les chaînes investissent à leur tour",
+        "texte": "Canal+ en tête depuis 1984, elles ont l'obligation d'investir dans le cinéma."
+       },
+       {
+        "label": "La chronologie des médias organise la sortie",
+        "texte": "Elle règle le passage des films de la salle aux plateformes."
+       }
+      ],
+      "note": "Résultat : l'un des plus grands nombres de films produits chaque année en Europe et un réseau de salles exceptionnellement dense, art et essai compris."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Quelle revue de cinéma, fondée en 1951, fut le berceau critique de la Nouvelle Vague ?",
+     "choix": [
+      "Les Cahiers du cinéma",
+      "Positif",
+      "Télérama",
+      "Première"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "« Les Cahiers du cinéma », revue fondée en 1951 autour du critique André Bazin, accueille les jeunes plumes de François Truffaut, Jean-Luc Godard, Claude Chabrol, Éric Rohmer et Jacques Rivette. Ils y défendent la « politique des auteurs » et attaquent le cinéma français académique, avant de passer eux-mêmes derrière la caméra à la fin des années 1950. La revue rivale « Positif » existait aussi, mais c'est bien des Cahiers qu'est issue la Nouvelle Vague. La revue paraît encore aujourd'hui."
+    },
+    {
+     "q": "Quel poète et scénariste a écrit les dialogues des « Enfants du paradis » et du « Quai des brumes » ?",
+     "choix": [
+      "Jacques Prévert",
+      "Louis Aragon",
+      "Boris Vian",
+      "Raymond Queneau"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "Jacques Prévert, poète célèbre pour son recueil « Paroles », forma avec le réalisateur Marcel Carné le tandem majeur du réalisme poétique français. Il écrivit notamment les scénarios et dialogues du « Quai des brumes » (1938), du « Jour se lève » (1939) et des « Enfants du paradis » (1945). Ses répliques, à la fois populaires et poétiques, sont passées dans la mémoire collective. Cette collaboration illustre l'importance des dialoguistes dans le cinéma français classique."
+    },
+    {
+     "q": "Quel prix François Truffaut a-t-il remporté au Festival de Cannes 1959 pour « Les Quatre Cents Coups » ?",
+     "choix": [
+      "Le prix de la mise en scène",
+      "La Palme d'or",
+      "Le prix du jury",
+      "Le prix du scénario"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "François Truffaut reçoit le prix de la mise en scène à Cannes en 1959 pour son premier long métrage, « Les Quatre Cents Coups ». Le symbole est fort : l'année précédente, le jeune critique avait été interdit de festival en raison de la virulence de ses articles contre le cinéma français établi. Ce sacre lance la Nouvelle Vague sur la scène internationale. La Palme d'or 1959 revint, elle, à « Orfeu Negro » de Marcel Camus."
+    },
+    {
+     "q": "Quel organisme public, créé en 1946, finance le cinéma français grâce à une taxe sur les billets ?",
+     "choix": [
+      "Le CNC",
+      "L'INA",
+      "L'Arcom",
+      "La Femis"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "Le Centre national du cinéma et de l'image animée (CNC), créé en 1946, est le pilier de l'« exception culturelle » française. Il prélève notamment une taxe sur chaque ticket de cinéma vendu, ainsi que des contributions des chaînes et des plateformes, et redistribue ces sommes à la production, à la distribution et aux salles françaises. Son dispositif le plus connu, l'avance sur recettes, aide les films d'auteur et les premiers films. Ce modèle de financement mutualisé est étudié et envié dans le monde entier."
+    },
+    {
+     "q": "Quel film français a remporté la Palme d'or en 2008, une première pour la France depuis 1987 ?",
+     "choix": [
+      "Entre les murs",
+      "Un prophète",
+      "De rouille et d'os",
+      "La Haine"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "« Entre les murs » de Laurent Cantet, adapté du livre de François Bégaudeau qui joue son propre rôle de professeur, remporte la Palme d'or 2008 à l'unanimité du jury présidé par Sean Penn. C'était la première Palme française depuis « Sous le soleil de Satan » de Maurice Pialat en 1987. Le film, tourné avec de vrais collégiens, dresse le portrait d'une classe d'un collège parisien. En 2013, « La Vie d'Adèle » d'Abdellatif Kechiche offrira une nouvelle Palme à la France."
+    }
+   ]
+  },
+  {
+   "titre": "Les médias : presse, radio, télévision",
+   "sections": [
+    {
+     "titre": "La naissance et l'essor de la presse",
+     "texte": "La presse française naît en 1631 lorsque Théophraste Renaudot, soutenu par Richelieu, fonde « La Gazette », hebdomadaire de nouvelles officielles. Longtemps soumise à l'autorisation royale et à la censure, la presse s'émancipe brièvement à la Révolution, qui proclame la libre communication des pensées dans la Déclaration de 1789, avant de subir à nouveau le contrôle des régimes successifs. Le XIXe siècle est celui de la révolution industrielle de la presse : rotatives, chemin de fer, télégraphe et alphabétisation massive permettent l'essor de journaux populaires à un sou, comme « Le Petit Journal », tirés à des centaines de milliers puis à des millions d'exemplaires. En 1835, Charles-Louis Havas crée la première agence de presse au monde, ancêtre de l'AFP. Le tournant décisif est la loi du 29 juillet 1881 sur la liberté de la presse, qui supprime autorisation préalable et censure. La « Belle Époque » de la presse culmine avec l'affaire Dreyfus, où le « J'accuse... ! » de Zola dans « L'Aurore » (1898) démontre la puissance du journal engagé. Après 1944, une nouvelle génération de titres issus de la Résistance voit le jour, dont « Le Monde » et « Ouest-France ».",
+     "visuel": {
+      "type": "frise",
+      "titre": "La presse française, de la censure à la liberté",
+      "evenements": [
+       {
+        "date": "1631",
+        "label": "« La Gazette »",
+        "texte": "Théophraste Renaudot, soutenu par Richelieu, fonde un hebdomadaire de nouvelles officielles."
+       },
+       {
+        "date": "1789",
+        "label": "La Déclaration des droits",
+        "texte": "Elle proclame la libre communication des pensées, avant que les régimes suivants ne rétablissent le contrôle."
+       },
+       {
+        "date": "1835",
+        "label": "La première agence de presse",
+        "texte": "Charles-Louis Havas crée l'ancêtre de l'AFP."
+       },
+       {
+        "date": "29 juillet 1881",
+        "label": "La loi sur la liberté de la presse",
+        "texte": "Elle supprime l'autorisation préalable et la censure."
+       },
+       {
+        "date": "1898",
+        "label": "« J'accuse... ! »",
+        "texte": "Zola publie dans « L'Aurore » et démontre la puissance du journal engagé."
+       },
+       {
+        "date": "après 1944",
+        "label": "Les titres de la Résistance",
+        "texte": "Une nouvelle génération de journaux voit le jour, dont « Le Monde » et « Ouest-France »."
+       }
+      ]
+     }
+    },
+    {
+     "titre": "La radio, premier média de masse instantané",
+     "texte": "Née des travaux sur la télégraphie sans fil de la fin du XIXe siècle, la radiodiffusion prend son essor dans l'entre-deux-guerres. En France, les premières émissions régulières partent de la tour Eiffel au début des années 1920, et les postes de TSF entrent progressivement dans les foyers. La radio devient vite un enjeu politique majeur : pendant la Seconde Guerre mondiale, Radio Paris relaie la propagande allemande tandis que, depuis Londres, la BBC diffuse l'appel du 18 juin 1940 du général de Gaulle puis l'émission « Les Français parlent aux Français », qui soutient la Résistance et transmet des messages codés. Après la guerre, l'État français impose son monopole sur la diffusion ; pour le contourner, des stations dites « périphériques », comme Radio Luxembourg (future RTL) ou Europe n° 1, émettent depuis l'étranger. Média de l'instantané, la radio joue un rôle clé dans les crises, de mai 1968 aux grands événements internationaux. En 1981, la fin du monopole légalise les « radios libres », d'où naît le paysage actuel de la bande FM. Malgré la concurrence, la radio demeure un média de proximité massivement écouté, réinventé aujourd'hui par le podcast."
+    },
+    {
+     "titre": "La télévision française, du monopole à la concurrence",
+     "texte": "La télévision française balbutie dans les années 1930, avec des émissions expérimentales dès 1935, mais ne se développe vraiment qu'après-guerre. Le premier journal télévisé est lancé le 29 juin 1949 par Pierre Sabbagh sur l'unique chaîne publique. Dans les années 1950-1960, le petit écran conquiert les foyers, autour de programmes fédérateurs et d'un journal contrôlé de près par le pouvoir gaulliste, l'information télévisée dépendant du ministère de l'Information. L'ORTF, créé en 1964, incarne ce monopole d'État jusqu'à son éclatement en 1974 en sept sociétés, dont TF1, Antenne 2, FR3 et l'INA, chargé de conserver les archives audiovisuelles. Les années 1980 bouleversent le paysage : Canal+, première chaîne privée et payante, naît en 1984 ; La Cinq et TV6 puis M6 suivent ; et TF1 est privatisée en 1987 au profit du groupe Bouygues, cas rarissime au monde. La régulation est confiée à des autorités indépendantes successives, jusqu'à l'Arcom aujourd'hui. La télévision devient le premier loisir des Français et le média dominant du XXe siècle finissant, avant d'être bousculée à son tour par Internet, la TNT, le replay et les plateformes de streaming.",
+     "visuel": {
+      "type": "frise",
+      "titre": "La télévision française, du monopole à la concurrence",
+      "evenements": [
+       {
+        "date": "1935",
+        "label": "Les émissions expérimentales",
+        "texte": "La télévision française balbutie ; elle ne se développera vraiment qu'après-guerre."
+       },
+       {
+        "date": "29 juin 1949",
+        "label": "Le premier journal télévisé",
+        "texte": "Pierre Sabbagh le lance sur l'unique chaîne publique."
+       },
+       {
+        "date": "1964",
+        "label": "L'ORTF",
+        "texte": "L'office incarne le monopole d'État ; l'information télévisée dépend du ministère de l'Information."
+       },
+       {
+        "date": "1974",
+        "label": "L'éclatement",
+        "texte": "Sept sociétés naissent, dont TF1, Antenne 2, FR3 et l'INA, chargé des archives audiovisuelles."
+       },
+       {
+        "date": "1984",
+        "label": "Canal+",
+        "texte": "Première chaîne privée et payante."
+       },
+       {
+        "date": "1987",
+        "label": "La privatisation de TF1",
+        "texte": "Le groupe Bouygues rachète la première chaîne : un cas rarissime au monde."
+       }
+      ]
+     }
+    },
+    {
+     "titre": "Médias et démocratie à l'ère numérique",
+     "texte": "Les médias sont souvent qualifiés de « quatrième pouvoir », aux côtés des pouvoirs législatif, exécutif et judiciaire : en informant les citoyens et en révélant les abus, ils constituent un contre-pouvoir essentiel à la démocratie. L'histoire l'a montré, du « J'accuse » de Zola au scandale du Watergate, révélé par le Washington Post, qui contraignit le président Nixon à la démission en 1974. En France, des institutions garantissent ce rôle : la loi de 1881 protège la liberté d'expression, la loi de 1935 puis le droit du travail protègent les journalistes via la clause de conscience, et le secret des sources est reconnu par la loi. La révolution numérique a pourtant fragilisé le modèle : effondrement des ventes papier et des recettes publicitaires captées par les géants du web, concentration des titres entre les mains de quelques grands groupes industriels, précarisation des rédactions. Elle a aussi transformé la diffusion de l'information : réseaux sociaux, chaînes d'information en continu, podcasts et infox (« fake news ») circulant à grande vitesse. Face à la désinformation, se sont développés le fact-checking, l'éducation aux médias à l'école et une régulation européenne renforcée des plateformes numériques."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Quel organisme, issu de l'éclatement de l'ORTF, conserve les archives de la radio et de la télévision françaises ?",
+     "choix": [
+      "L'INA",
+      "Le CNC",
+      "L'Arcom",
+      "La BnF"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "L'Institut national de l'audiovisuel (INA) est l'une des sept sociétés créées lors de la suppression de l'ORTF en 1974. Il a pour mission de conserver, restaurer et valoriser les archives de la radio et de la télévision françaises, soit des millions d'heures de programmes. Il assure aussi le dépôt légal de l'audiovisuel et forme les professionnels du secteur. Une partie de ses trésors est accessible au public sur ses plateformes en ligne, ce qui en fait la mémoire audiovisuelle du pays."
+    },
+    {
+     "q": "Pourquoi RTL et Europe 1 étaient-elles appelées « radios périphériques » ?",
+     "choix": [
+      "Elles émettaient depuis l'étranger pour contourner le monopole d'État",
+      "Elles n'émettaient qu'en périphérie des villes",
+      "Elles étaient réservées aux régions frontalières",
+      "Elles diffusaient uniquement la nuit"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "Après-guerre, l'État français détenait le monopole de la radiodiffusion sur le territoire national. Des stations privées l'ont contourné en installant leurs émetteurs hors de France : Radio Luxembourg, devenue RTL, émettait depuis le Luxembourg, et Europe n° 1 depuis la Sarre allemande. On les appelait donc « radios périphériques ». Très populaires, elles ont modernisé le ton de la radio française. Le monopole n'a été aboli qu'en 1981, avec la légalisation des radios libres sur la bande FM."
+    },
+    {
+     "q": "Quel prix, créé en 1933, récompense chaque année le meilleur grand reportage journalistique francophone ?",
+     "choix": [
+      "Le prix Albert-Londres",
+      "Le prix Renaudot",
+      "Le prix Pulitzer",
+      "Le prix Goncourt"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Le prix Albert-Londres, décerné depuis 1933, honore la mémoire du grand reporter français Albert Londres, disparu en 1932 dans le naufrage d'un paquebot. Célèbre pour ses enquêtes sur le bagne de Cayenne ou le Tour de France, il incarnait un journalisme d'investigation et de terrain, résumé par sa formule : « porter la plume dans la plaie ». Le prix récompense chaque année les meilleurs journalistes francophones de moins de quarante ans, dans les catégories presse écrite et audiovisuel. Le Pulitzer en est l'équivalent américain."
+    },
+    {
+     "q": "Quel scandale politique américain, révélé par la presse, a conduit à la démission du président Nixon en 1974 ?",
+     "choix": [
+      "Le Watergate",
+      "L'Irangate",
+      "L'affaire Dreyfus",
+      "Le Maccarthysme"
+     ],
+     "bonne": 0,
+     "difficulte": 1,
+     "explication": "Le scandale du Watergate éclate en 1972 après un cambriolage au siège du Parti démocrate, dans l'immeuble du Watergate à Washington. Les journalistes du Washington Post Bob Woodward et Carl Bernstein, aidés d'un informateur secret surnommé « Gorge profonde », révèlent l'implication de la Maison-Blanche et les manœuvres de dissimulation. Face à la menace d'une destitution, Richard Nixon démissionne en août 1974, cas unique dans l'histoire américaine. L'affaire est devenue le symbole mondial du journalisme d'investigation comme contre-pouvoir."
+    },
+    {
+     "q": "Comment appelle-t-on la vérification systématique des faits et déclarations par les journalistes ?",
+     "choix": [
+      "Le fact-checking",
+      "Le storytelling",
+      "Le brainstorming",
+      "Le crowdsourcing"
+     ],
+     "bonne": 0,
+     "difficulte": 1,
+     "explication": "Le fact-checking, ou vérification des faits, consiste à contrôler l'exactitude des déclarations publiques et des informations circulant dans les médias et sur les réseaux sociaux. Née dans la presse américaine, la pratique s'est institutionnalisée en France avec des rubriques spécialisées comme « Les Décodeurs » du Monde ou « CheckNews » de Libération. Elle s'est développée en réaction à la prolifération des infox, ou « fake news », à l'ère numérique. L'éducation aux médias, enseignée à l'école, poursuit le même objectif : former des citoyens capables d'évaluer l'information."
+    }
+   ]
+  }
+ ]
+}

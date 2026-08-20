@@ -1,0 +1,1280 @@
+{
+ "id": "histoire-france",
+ "nom": "Histoire de France",
+ "emoji": "🇫🇷",
+ "questions": [
+  {
+   "q": "En quelle année Vercingétorix se rend-il à Jules César après le siège d'Alésia ?",
+   "choix": [
+    "52 av. J.-C.",
+    "58 av. J.-C.",
+    "44 av. J.-C.",
+    "27 av. J.-C."
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "En 52 av. J.-C., le chef arverne Vercingétorix, qui avait fédéré une grande partie des peuples gaulois contre Rome, est assiégé dans l'oppidum d'Alésia. Malgré l'arrivée d'une armée de secours gauloise, les fortifications de César (circonvallation et contrevallation) tiennent bon. Vercingétorix dépose les armes aux pieds de César pour épargner ses hommes. Emmené à Rome, il est exhibé lors du triomphe de César en 46 av. J.-C. puis exécuté. Cette défaite marque la fin de la guerre des Gaules et le début de la romanisation de la Gaule."
+  },
+  {
+   "q": "Qui remporte la bataille d'Alésia en 52 av. J.-C. ?",
+   "choix": [
+    "Jules César",
+    "Vercingétorix",
+    "Pompée",
+    "Auguste"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Jules César remporte la bataille d'Alésia face à Vercingétorix, chef de la coalition gauloise. César menait depuis 58 av. J.-C. la conquête de la Gaule, qu'il raconte lui-même dans ses « Commentaires sur la guerre des Gaules ». Sa victoire à Alésia achève pour l'essentiel cette conquête. La Gaule devient ensuite une province romaine prospère, où se diffusent la langue latine, le droit romain et l'urbanisme romain : c'est la civilisation gallo-romaine."
+  },
+  {
+   "q": "Vers quelle année Clovis, roi des Francs, est-il baptisé à Reims ?",
+   "choix": [
+    "496",
+    "451",
+    "511",
+    "532"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le baptême de Clovis par l'évêque Rémi à Reims est traditionnellement daté vers 496, après sa victoire sur les Alamans à Tolbiac. En se convertissant au christianisme catholique, et non à l'arianisme comme les autres rois barbares, Clovis s'assure le soutien de l'épiscopat gallo-romain. Ce choix facilite l'unification de son royaume, qui s'étend de la Belgique actuelle à l'Aquitaine. L'événement fonde le lien symbolique entre monarchie française et catholicisme : les rois de France seront ensuite sacrés à Reims. Clovis meurt en 511, après avoir fait de Paris sa capitale."
+  },
+  {
+   "q": "En quelle année Charlemagne est-il couronné empereur à Rome ?",
+   "choix": [
+    "800",
+    "768",
+    "814",
+    "843"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le 25 décembre 800, Charlemagne est couronné empereur d'Occident par le pape Léon III dans la basilique Saint-Pierre de Rome. Roi des Francs depuis 768, il a considérablement étendu son royaume, de la Saxe à l'Italie lombarde. Ce couronnement restaure symboliquement l'Empire d'Occident, disparu en 476. Charlemagne organise son empire depuis Aix-la-Chapelle, envoie des missi dominici contrôler les comtes et encourage un renouveau des lettres appelé « renaissance carolingienne ». Il meurt en 814, laissant l'empire à son fils Louis le Pieux."
+  },
+  {
+   "q": "Quel traité partage l'empire carolingien en trois royaumes en 843 ?",
+   "choix": [
+    "Le traité de Verdun",
+    "Le traité de Troyes",
+    "Le traité de Saint-Clair-sur-Epte",
+    "Le serment de Strasbourg"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Le traité de Verdun, signé en 843, partage l'empire de Charlemagne entre ses trois petits-fils : Charles le Chauve reçoit la Francie occidentale, Louis le Germanique la Francie orientale, et Lothaire la Francie médiane avec le titre impérial. Ce partage suit la guerre entre les fils de Louis le Pieux, marquée par les serments de Strasbourg (842), premier texte connu en langue romane. La Francie occidentale est considérée comme l'ancêtre de la France, et la Francie orientale comme celui de l'Allemagne. Le traité de Verdun est ainsi l'un des actes fondateurs de la carte politique de l'Europe."
+  },
+  {
+   "q": "En quelle année Hugues Capet est-il élu roi des Francs, fondant la dynastie capétienne ?",
+   "choix": [
+    "987",
+    "843",
+    "1066",
+    "911"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "En 987, à la mort du dernier carolingien Louis V, les grands du royaume élisent Hugues Capet, duc des Francs, comme roi. Il fonde la dynastie capétienne, qui régnera en ligne directe jusqu'en 1328, puis par ses branches (Valois, Bourbons) jusqu'en 1848. Pour assurer sa succession, Hugues Capet fait sacrer son fils Robert de son vivant, instaurant de fait l'hérédité de la couronne. Le domaine royal est alors minuscule, centré sur Paris et Orléans, mais les Capétiens l'agrandiront patiemment pendant des siècles."
+  },
+  {
+   "q": "Quel duc de Normandie conquiert l'Angleterre après la bataille d'Hastings en 1066 ?",
+   "choix": [
+    "Guillaume le Conquérant",
+    "Rollon",
+    "Richard Cœur de Lion",
+    "Robert le Magnifique"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le 14 octobre 1066, Guillaume, duc de Normandie, bat le roi anglo-saxon Harold à Hastings et devient roi d'Angleterre : il est surnommé « le Conquérant ». Descendant du chef viking Rollon, installé en Normandie par le traité de Saint-Clair-sur-Epte (911), il revendiquait la couronne promise par Édouard le Confesseur. La conquête est racontée sur la célèbre tapisserie de Bayeux, broderie de près de 70 mètres. Cet événement lie durablement les couronnes anglaise et normande, source de conflits ultérieurs entre rois de France et rois d'Angleterre."
+  },
+  {
+   "q": "Quel roi de France remporte la bataille de Bouvines en 1214 ?",
+   "choix": [
+    "Philippe Auguste",
+    "Saint Louis",
+    "Louis VII",
+    "Philippe le Bel"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Le 27 juillet 1214, Philippe II Auguste écrase à Bouvines, près de Lille, la coalition formée par l'empereur germanique Otton IV, le comte de Flandre et le roi d'Angleterre Jean sans Terre. Cette victoire consolide l'autorité du roi de France et l'agrandissement du domaine royal, auquel Philippe Auguste avait déjà ajouté la Normandie confisquée aux Plantagenêts en 1204. Bouvines est souvent présentée comme l'une des premières manifestations d'un sentiment « national » autour du roi. Philippe Auguste fait aussi paver Paris, construire le Louvre et achever une enceinte autour de la capitale."
+  },
+  {
+   "q": "Sous quel nom règne le roi capétien canonisé connu comme « Saint Louis » ?",
+   "choix": [
+    "Louis IX",
+    "Louis VII",
+    "Louis XI",
+    "Louis XIII"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Saint Louis est le roi Louis IX, qui règne de 1226 à 1270. Réputé pour sa piété et son sens de la justice — la tradition le montre rendant la justice sous un chêne à Vincennes —, il fait construire la Sainte-Chapelle pour abriter les reliques de la Passion. Il participe à deux croisades : la septième, où il est fait prisonnier en Égypte, et la huitième, au cours de laquelle il meurt devant Tunis en 1270. Il est canonisé par l'Église en 1297, seul roi de France à l'avoir été. Son règne marque l'apogée de la monarchie capétienne médiévale."
+  },
+  {
+   "q": "Quelles dates encadrent traditionnellement la guerre de Cent Ans ?",
+   "choix": [
+    "1337-1453",
+    "1328-1429",
+    "1300-1400",
+    "1356-1461"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La guerre de Cent Ans oppose les royaumes de France et d'Angleterre de 1337 à 1453, soit 116 ans entrecoupés de trêves. Elle naît d'un conflit dynastique : à la mort du dernier capétien direct en 1328, Édouard III d'Angleterre, petit-fils de Philippe le Bel, revendique la couronne de France attribuée à Philippe VI de Valois. La France subit d'abord de lourdes défaites à Crécy (1346), Poitiers (1356) et Azincourt (1415). Le sursaut vient avec Jeanne d'Arc et Charles VII, qui reconquiert le royaume. La victoire de Castillon en 1453 laisse aux Anglais la seule ville de Calais."
+  },
+  {
+   "q": "En quelle année Jeanne d'Arc fait-elle lever le siège d'Orléans ?",
+   "choix": [
+    "1429",
+    "1415",
+    "1431",
+    "1453"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "En mai 1429, Jeanne d'Arc, jeune paysanne lorraine affirmant obéir à des voix célestes, fait lever le siège d'Orléans tenu par les Anglais. Cette victoire retourne le cours de la guerre de Cent Ans en redonnant confiance au camp du dauphin. Jeanne conduit ensuite Charles VII se faire sacrer à Reims le 17 juillet 1429, légitimant ainsi son pouvoir face au roi d'Angleterre. Capturée par les Bourguignons à Compiègne en 1430, elle est vendue aux Anglais. Son épopée fulgurante n'aura duré que deux ans."
+  },
+  {
+   "q": "Dans quelle ville Jeanne d'Arc est-elle brûlée vive en 1431 ?",
+   "choix": [
+    "Rouen",
+    "Reims",
+    "Orléans",
+    "Compiègne"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Jeanne d'Arc est brûlée vive le 30 mai 1431 sur la place du Vieux-Marché à Rouen, alors aux mains des Anglais. Jugée par un tribunal ecclésiastique présidé par l'évêque Pierre Cauchon, elle est condamnée pour hérésie à l'issue d'un procès politique. Charles VII, qu'elle avait fait sacrer, n'intervient pas pour la sauver. En 1456, un procès en réhabilitation ordonné par le même Charles VII annule sa condamnation. Jeanne d'Arc est canonisée en 1920 et devient l'une des figures les plus célèbres de l'histoire de France."
+  },
+  {
+   "q": "Quel roi de France remporte la bataille de Marignan en 1515 ?",
+   "choix": [
+    "François Ier",
+    "Louis XII",
+    "Henri II",
+    "Charles VIII"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Les 13 et 14 septembre 1515, le jeune roi François Ier, monté sur le trône la même année, bat les mercenaires suisses au service du duc de Milan à Marignan, en Italie. Cette victoire, remportée notamment grâce à l'artillerie française, lui ouvre le Milanais et fonde sa gloire : « 1515 Marignan » est resté la date la plus célèbre des manuels scolaires. François Ier incarne le roi de la Renaissance : il attire Léonard de Vinci en France, fait construire Chambord et transforme le Louvre. Il conclut aussi avec le pape le concordat de Bologne (1516), qui lui donne la main sur les nominations épiscopales."
+  },
+  {
+   "q": "Que prescrit l'ordonnance de Villers-Cotterêts signée par François Ier en 1539 ?",
+   "choix": [
+    "L'usage du français dans les actes officiels",
+    "La création de la gabelle",
+    "L'interdiction du protestantisme",
+    "La fondation du Collège de France"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Signée par François Ier en août 1539, l'ordonnance de Villers-Cotterêts impose le français, « langage maternel françois », à la place du latin dans les actes de justice et d'administration. Elle contribue de façon décisive à faire du français la langue officielle du royaume. L'ordonnance prescrit aussi la tenue de registres de baptêmes par les curés, ancêtres de l'état civil. C'est l'un des plus anciens textes législatifs encore partiellement en vigueur en France. Elle illustre le renforcement de l'État royal au XVIe siècle."
+  },
+  {
+   "q": "Quel massacre de protestants débute à Paris le 24 août 1572 ?",
+   "choix": [
+    "Le massacre de la Saint-Barthélemy",
+    "Le massacre de Wassy",
+    "La journée des Dupes",
+    "Le sac de Béziers"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Dans la nuit du 23 au 24 août 1572, jour de la Saint-Barthélemy, les protestants venus à Paris pour le mariage d'Henri de Navarre et de Marguerite de Valois sont massacrés. L'amiral de Coligny, chef du parti huguenot, est l'une des premières victimes. Les tueries, qui s'étendent ensuite à la province, font plusieurs milliers de morts. Cet épisode est le plus sanglant des guerres de Religion qui déchirent la France de 1562 à 1598. Il radicalise durablement le conflit entre catholiques et protestants, jusqu'à l'apaisement apporté par l'édit de Nantes."
+  },
+  {
+   "q": "Quel roi promulgue l'édit de Nantes en 1598 ?",
+   "choix": [
+    "Henri IV",
+    "Charles IX",
+    "Louis XIII",
+    "Henri III"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "En avril 1598, Henri IV signe l'édit de Nantes, qui accorde aux protestants la liberté de conscience, des lieux de culte déterminés et des places de sûreté comme La Rochelle. Ancien chef protestant converti au catholicisme — on lui prête le mot « Paris vaut bien une messe » —, Henri IV met ainsi fin à près de quarante ans de guerres de Religion. L'édit fait de la France un cas rare en Europe : un royaume catholique tolérant officiellement une minorité religieuse. Avec son ministre Sully, Henri IV restaure ensuite l'économie et les finances du royaume."
+  },
+  {
+   "q": "Qui assassine Henri IV en 1610 ?",
+   "choix": [
+    "François Ravaillac",
+    "Jacques Clément",
+    "Charlotte Corday",
+    "Damiens"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le 14 mai 1610, Henri IV est poignardé rue de la Ferronnerie à Paris par François Ravaillac, un catholique fanatique qui reprochait au roi sa politique de tolérance et son alliance annoncée contre les Habsbourg. Ravaillac est écartelé en place de Grève quelques semaines plus tard. La mort du roi, très populaire, provoque une vive émotion dans le royaume. Son fils Louis XIII, âgé de huit ans, lui succède sous la régence de sa mère Marie de Médicis. Henri III avait lui aussi été assassiné, par le moine Jacques Clément, en 1589."
+  },
+  {
+   "q": "De quel roi le cardinal de Richelieu est-il le principal ministre ?",
+   "choix": [
+    "Louis XIII",
+    "Louis XIV",
+    "Henri IV",
+    "Louis XV"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le cardinal de Richelieu est le principal ministre de Louis XIII de 1624 à sa mort en 1642. Il travaille à renforcer l'autorité royale contre les grands seigneurs et les protestants, dont il prend la place forte de La Rochelle après un long siège (1627-1628). À l'extérieur, il engage la France dans la guerre de Trente Ans contre les Habsbourg d'Espagne et d'Autriche. Il fonde l'Académie française en 1635, chargée de veiller sur la langue française. Son œuvre prépare l'absolutisme de Louis XIV."
+  },
+  {
+   "q": "Combien d'années dure le règne personnel et nominal de Louis XIV, le plus long de l'histoire de France ?",
+   "choix": [
+    "72 ans",
+    "54 ans",
+    "61 ans",
+    "48 ans"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Louis XIV règne 72 ans, de 1643 à 1715, ce qui en fait l'un des règnes les plus longs de l'histoire mondiale. Devenu roi à quatre ans, il exerce le pouvoir personnellement à partir de la mort de Mazarin en 1661, refusant de nommer un Premier ministre. Surnommé le « Roi-Soleil », il incarne la monarchie absolue de droit divin et s'entoure de ministres comme Colbert et Louvois. Il installe la cour à Versailles en 1682, transformant un pavillon de chasse en palais somptueux. Son règne est aussi marqué par des guerres presque continuelles et par le rayonnement culturel français en Europe."
+  },
+  {
+   "q": "Par quel édit Louis XIV révoque-t-il l'édit de Nantes en 1685 ?",
+   "choix": [
+    "L'édit de Fontainebleau",
+    "L'édit de Villers-Cotterêts",
+    "L'édit de Saint-Germain",
+    "L'édit de Moulins"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "En octobre 1685, Louis XIV signe l'édit de Fontainebleau, qui révoque l'édit de Nantes accordé par son grand-père Henri IV en 1598. Le culte protestant est interdit, les temples détruits, les pasteurs bannis. Malgré l'interdiction d'émigrer, environ 200 000 huguenots fuient vers l'Angleterre, les Provinces-Unies, la Suisse ou la Prusse. Cet exode prive la France d'artisans, de commerçants et de capitaux, au profit de ses rivaux. La révocation illustre la volonté du Roi-Soleil d'imposer l'unité religieuse du royaume : « un roi, une loi, une foi »."
+  },
+  {
+   "q": "En quelle année Louis XIV installe-t-il officiellement la cour et le gouvernement à Versailles ?",
+   "choix": [
+    "1682",
+    "1661",
+    "1715",
+    "1643"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "C'est en 1682 que Louis XIV fixe officiellement la cour et le gouvernement au château de Versailles, après des décennies de travaux menés par Le Vau, Hardouin-Mansart pour l'architecture, Le Brun pour la décoration et Le Nôtre pour les jardins. Versailles devient l'instrument politique du roi : la noblesse, retenue par l'étiquette et les fêtes, y est domestiquée et écartée des intrigues. La galerie des Glaces, longue de 73 mètres, symbolise ce faste. Le château, qui abrite des milliers de courtisans, sert de modèle aux cours européennes. Il restera le siège de la monarchie jusqu'en octobre 1789."
+  },
+  {
+   "q": "Par quel traité la France perd-elle le Canada au profit de la Grande-Bretagne en 1763 ?",
+   "choix": [
+    "Le traité de Paris",
+    "Le traité d'Utrecht",
+    "Le traité de Vienne",
+    "Le traité de Ryswick"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Le traité de Paris, signé le 10 février 1763, met fin à la guerre de Sept Ans (1756-1763), premier conflit d'ampleur mondiale. La France, vaincue sur mer et aux colonies, cède à la Grande-Bretagne le Canada — la « Nouvelle-France » — ainsi que la rive gauche du Mississippi et l'essentiel de ses positions en Inde. Voltaire avait qualifié le Canada de « quelques arpents de neige », formule restée célèbre. Cette perte affaiblit durablement l'empire colonial français. Le désir de revanche explique en partie l'aide apportée par Louis XVI aux insurgés américains à partir de 1778."
+  },
+  {
+   "q": "Quel événement a lieu à Paris le 14 juillet 1789 ?",
+   "choix": [
+    "La prise de la Bastille",
+    "Le serment du Jeu de paume",
+    "L'ouverture des états généraux",
+    "L'exécution de Louis XVI"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le 14 juillet 1789, le peuple de Paris, craignant une répression militaire et cherchant des armes et de la poudre, s'empare de la forteresse de la Bastille, prison royale symbole de l'arbitraire. Le gouverneur de Launay est tué et la forteresse sera démolie dans les mois suivants. L'événement, de portée militaire limitée, a un immense retentissement symbolique : le roi doit reculer et reconnaître la Commune de Paris et la garde nationale de La Fayette. La prise de la Bastille marque l'entrée du peuple dans la Révolution. Le 14 juillet est devenu fête nationale française en 1880."
+  },
+  {
+   "q": "Quand la Déclaration des droits de l'homme et du citoyen est-elle adoptée ?",
+   "choix": [
+    "Le 26 août 1789",
+    "Le 14 juillet 1789",
+    "Le 4 août 1789",
+    "Le 21 septembre 1792"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'Assemblée nationale constituante adopte la Déclaration des droits de l'homme et du citoyen le 26 août 1789, trois semaines après l'abolition des privilèges dans la nuit du 4 août. Ses 17 articles proclament que « les hommes naissent et demeurent libres et égaux en droits » et énoncent la liberté, la propriété, la sûreté, la résistance à l'oppression et la souveraineté de la nation. Inspirée des Lumières et de l'exemple américain, elle rompt avec la société d'ordres de l'Ancien Régime. Elle figure aujourd'hui dans le préambule de la Constitution de 1958 et conserve une valeur juridique en droit français."
+  },
+  {
+   "q": "À quelle date Louis XVI est-il guillotiné ?",
+   "choix": [
+    "Le 21 janvier 1793",
+    "Le 14 juillet 1790",
+    "Le 10 août 1792",
+    "Le 27 juillet 1794"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Louis XVI est guillotiné le 21 janvier 1793 sur la place de la Révolution, actuelle place de la Concorde, à Paris. La monarchie avait été renversée le 10 août 1792 par l'insurrection des Tuileries, puis abolie par la Convention le 21 septembre 1792, jour de la proclamation de la République. Jugé pour trahison après la découverte de sa correspondance secrète dans l'« armoire de fer », le roi déchu, appelé « Louis Capet », est condamné à mort à une courte majorité. Son exécution choque les monarchies européennes et élargit la coalition contre la France. Marie-Antoinette est guillotinée à son tour le 16 octobre 1793."
+  },
+  {
+   "q": "Que se passe-t-il le 9 Thermidor an II (27 juillet 1794) ?",
+   "choix": [
+    "La chute de Robespierre",
+    "Le début de la Terreur",
+    "La mort de Danton",
+    "Le coup d'État de Bonaparte"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Le 9 Thermidor an II, soit le 27 juillet 1794, la Convention décrète l'arrestation de Robespierre et de ses proches, dont Saint-Just et Couthon. Figure dominante du Comité de salut public, Robespierre incarnait la Terreur, qui avait envoyé des dizaines de milliers de suspects à la guillotine. Ses adversaires, craignant pour leur propre tête, s'unissent pour l'abattre. Robespierre est guillotiné dès le lendemain, sans procès, avec une vingtaine de partisans. La chute des « robespierristes » ouvre la réaction thermidorienne, qui démantèle la Terreur et débouche sur le régime du Directoire en 1795."
+  },
+  {
+   "q": "À quelle date Napoléon Bonaparte est-il sacré empereur des Français ?",
+   "choix": [
+    "Le 2 décembre 1804",
+    "Le 18 juin 1815",
+    "Le 9 novembre 1799",
+    "Le 21 mars 1804"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Napoléon Bonaparte est sacré empereur des Français le 2 décembre 1804 à Notre-Dame de Paris, en présence du pape Pie VII. Rompant avec la tradition, il se couronne lui-même avant de couronner l'impératrice Joséphine, scène immortalisée par le peintre David. Premier consul depuis le coup d'État du 18 Brumaire (9 novembre 1799), il avait déjà promulgué le Code civil en mars 1804. Le sacre fonde le Premier Empire, qui dominera l'Europe continentale pendant dix ans. Un an jour pour jour après le sacre, Napoléon remporte sa plus célèbre victoire à Austerlitz."
+  },
+  {
+   "q": "Quelle bataille Napoléon remporte-t-il le 2 décembre 1805 face aux Austro-Russes ?",
+   "choix": [
+    "Austerlitz",
+    "Iéna",
+    "Wagram",
+    "Friedland"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le 2 décembre 1805, un an jour pour jour après son sacre, Napoléon écrase les armées austro-russes à Austerlitz, en Moravie. Surnommée la « bataille des Trois Empereurs » car Napoléon, le tsar Alexandre Ier et l'empereur François II y sont présents, elle est considérée comme le chef-d'œuvre tactique de Napoléon : il feint la faiblesse sur sa droite pour mieux frapper le centre ennemi au plateau de Pratzen. L'Autriche signe la paix de Presbourg peu après. La victoire consacre la Grande Armée comme la meilleure d'Europe. L'Arc de triomphe, commandé en 1806, commémore notamment cette campagne."
+  },
+  {
+   "q": "En quelle année Napoléon est-il définitivement vaincu à Waterloo ?",
+   "choix": [
+    "1815",
+    "1812",
+    "1814",
+    "1821"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le 18 juin 1815, Napoléon est vaincu à Waterloo, en Belgique, par les armées britannique de Wellington et prussienne de Blücher. Revenu de l'île d'Elbe en mars 1815 pour les « Cent-Jours », il avait repris le pouvoir sans coup férir face à Louis XVIII. À Waterloo, l'arrivée des Prussiens en fin de journée fait basculer la bataille malgré les charges de la cavalerie française et la résistance de la Garde impériale. Napoléon abdique une seconde fois le 22 juin 1815. La défaite met un point final aux guerres napoléoniennes qui ont ensanglanté l'Europe pendant plus de quinze ans."
+  },
+  {
+   "q": "Sur quelle île Napoléon meurt-il en exil en 1821 ?",
+   "choix": [
+    "Sainte-Hélène",
+    "L'île d'Elbe",
+    "La Corse",
+    "Malte"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Après Waterloo, Napoléon se rend aux Britanniques, qui le déportent à Sainte-Hélène, île volcanique isolée de l'Atlantique Sud, à près de 2 000 km des côtes africaines. Il y vit six ans sous surveillance dans la résidence de Longwood, dictant ses mémoires à Las Cases, qui en tirera le « Mémorial de Sainte-Hélène ». Il meurt le 5 mai 1821, officiellement d'un cancer de l'estomac. À ne pas confondre avec l'île d'Elbe, son premier exil en 1814-1815, dont il s'était échappé. En 1840, ses cendres sont ramenées en France et déposées aux Invalides lors du « retour des Cendres »."
+  },
+  {
+   "q": "Quel roi arrive au pouvoir après la révolution des Trois Glorieuses en juillet 1830 ?",
+   "choix": [
+    "Louis-Philippe Ier",
+    "Charles X",
+    "Louis XVIII",
+    "Napoléon III"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Les 27, 28 et 29 juillet 1830, les « Trois Glorieuses », Paris se soulève contre les ordonnances de Charles X qui suspendaient la liberté de la presse et dissolvaient la Chambre. Le roi, dernier frère de Louis XVI, doit abdiquer et s'exiler. Louis-Philippe d'Orléans, issu de la branche cadette des Bourbons, devient « roi des Français » : c'est la monarchie de Juillet, régime au drapeau tricolore appuyé sur la bourgeoisie. Le tableau de Delacroix « La Liberté guidant le peuple » immortalise ces journées. Louis-Philippe sera lui-même renversé par la révolution de février 1848, qui proclame la Deuxième République."
+  },
+  {
+   "q": "En quelle année la France abolit-elle définitivement l'esclavage dans ses colonies ?",
+   "choix": [
+    "1848",
+    "1789",
+    "1815",
+    "1870"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'esclavage est définitivement aboli dans les colonies françaises par le décret du 27 avril 1848, préparé par Victor Schœlcher, sous-secrétaire d'État à la Marine du gouvernement provisoire de la Deuxième République. Environ 250 000 esclaves des Antilles, de Guyane, de La Réunion et du Sénégal deviennent libres et citoyens. Une première abolition avait été votée par la Convention en 1794, mais Bonaparte avait rétabli l'esclavage en 1802. Schœlcher, infatigable militant abolitionniste, repose au Panthéon depuis 1949. La date du 10 mai est aujourd'hui journée nationale de commémoration de l'abolition de l'esclavage."
+  },
+  {
+   "q": "Que fait Louis-Napoléon Bonaparte le 2 décembre 1851 ?",
+   "choix": [
+    "Un coup d'État",
+    "Il est élu président",
+    "Il déclare la guerre à la Prusse",
+    "Il abdique"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Le 2 décembre 1851, Louis-Napoléon Bonaparte, président de la Deuxième République élu en décembre 1848, organise un coup d'État pour se maintenir au pouvoir, la Constitution lui interdisant un second mandat. Il dissout l'Assemblée, fait arrêter les opposants et réprime les résistances républicaines. La date, anniversaire du sacre de Napoléon Ier et d'Austerlitz, est choisie à dessein. Un an plus tard, le 2 décembre 1852, il se proclame empereur sous le nom de Napoléon III : c'est le Second Empire. Victor Hugo, exilé, le surnommera avec mépris « Napoléon le Petit »."
+  },
+  {
+   "q": "Quelle défaite entraîne la chute du Second Empire le 4 septembre 1870 ?",
+   "choix": [
+    "La bataille de Sedan",
+    "La bataille de Waterloo",
+    "La bataille de Gravelotte",
+    "Le siège de Metz"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le 2 septembre 1870, l'armée française encerclée à Sedan capitule et Napoléon III est fait prisonnier par les Prussiens. La guerre franco-prussienne, déclarée en juillet 1870 après la dépêche d'Ems habilement manipulée par Bismarck, tourne au désastre pour la France. À l'annonce de la capitulation, Paris se soulève : la République est proclamée le 4 septembre 1870 à l'Hôtel de Ville, donnant naissance à la Troisième République. La guerre se poursuit jusqu'à l'armistice de janvier 1871. Par le traité de Francfort, la France perd l'Alsace et une partie de la Lorraine, blessure qui nourrira l'esprit de revanche."
+  },
+  {
+   "q": "Quel épisode insurrectionnel parisien est écrasé lors de la « Semaine sanglante » en mai 1871 ?",
+   "choix": [
+    "La Commune de Paris",
+    "Les Trois Glorieuses",
+    "La révolte des Canuts",
+    "Les journées de Juin"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "La Commune de Paris est le gouvernement insurrectionnel qui dirige la capitale du 18 mars au 28 mai 1871, après la défaite face à la Prusse et l'humiliation de l'armistice. Refusant la politique de l'Assemblée conservatrice repliée à Versailles, les Parisiens instaurent une démocratie sociale : séparation de l'Église et de l'État, mesures en faveur des ouvriers, drapeau rouge. Les troupes versaillaises de Thiers reprennent la ville lors de la « Semaine sanglante » (21-28 mai 1871), qui fait des milliers de morts, dont les derniers fusillés au mur des Fédérés du Père-Lachaise. La Commune devient un symbole majeur du mouvement ouvrier international."
+  },
+  {
+   "q": "Quel ministre fait voter en 1881-1882 les lois rendant l'école gratuite, laïque et obligatoire ?",
+   "choix": [
+    "Jules Ferry",
+    "Léon Gambetta",
+    "Jules Grévy",
+    "Georges Clemenceau"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Jules Ferry, ministre de l'Instruction publique puis président du Conseil, fait adopter les grandes lois scolaires de la Troisième République : la gratuité de l'école primaire publique en 1881, puis l'obligation scolaire de 6 à 13 ans et la laïcité de l'enseignement public en 1882. Ces lois s'appuient sur le réseau d'écoles normales qui forment les instituteurs, les « hussards noirs de la République ». L'école devient l'instrument d'unification de la nation, diffusant le français face aux langues régionales. Jules Ferry est aussi, plus controversé, un ardent promoteur de l'expansion coloniale française."
+  },
+  {
+   "q": "Quel écrivain publie « J'accuse...! » en 1898 pour défendre le capitaine Dreyfus ?",
+   "choix": [
+    "Émile Zola",
+    "Victor Hugo",
+    "Anatole France",
+    "Jean Jaurès"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le 13 janvier 1898, Émile Zola publie dans le journal L'Aurore sa lettre ouverte « J'accuse...! », adressée au président de la République Félix Faure. Il y dénonce l'illégalité de la condamnation du capitaine Alfred Dreyfus, officier juif accusé à tort d'espionnage au profit de l'Allemagne et déporté à l'île du Diable en 1894. L'article relance l'affaire et déchire la France entre dreyfusards et antidreyfusards, sur fond d'antisémitisme. Condamné pour diffamation, Zola doit s'exiler en Angleterre. Dreyfus est gracié en 1899, puis pleinement réhabilité en 1906 et réintégré dans l'armée."
+  },
+  {
+   "q": "En quelle année est votée la loi de séparation des Églises et de l'État ?",
+   "choix": [
+    "1905",
+    "1882",
+    "1901",
+    "1918"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La loi de séparation des Églises et de l'État est votée le 9 décembre 1905, sous la Troisième République, à l'initiative notamment du rapporteur Aristide Briand. Elle met fin au régime concordataire instauré par Napoléon en 1801 : la République « ne reconnaît, ne salarie ni ne subventionne aucun culte », mais garantit la liberté de conscience et le libre exercice des cultes. Son application provoque de vives tensions, notamment lors des inventaires des biens d'Église en 1906. Cette loi est le socle juridique de la laïcité française. L'Alsace-Moselle, alors allemande, conserve aujourd'hui encore le régime concordataire."
+  },
+  {
+   "q": "Quelle bataille de septembre 1914 stoppe l'avancée allemande vers Paris, avec l'épisode célèbre des taxis ?",
+   "choix": [
+    "La première bataille de la Marne",
+    "La bataille de Verdun",
+    "La bataille de la Somme",
+    "La bataille des Frontières"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Du 6 au 12 septembre 1914, la première bataille de la Marne arrête l'offensive allemande qui menaçait Paris, à quelques dizaines de kilomètres de la capitale. Le général Joffre, commandant en chef, ordonne la contre-attaque après la longue retraite d'août. L'épisode des « taxis de la Marne », réquisitionnés par Gallieni pour transporter quelques milliers de soldats vers le front, frappe les esprits même si son rôle militaire fut modeste. Les Allemands se replient sur l'Aisne et le front se fige : commence alors la guerre des tranchées, qui durera quatre ans. La Marne sauve la France d'une défaite rapide semblable à celle de 1870."
+  },
+  {
+   "q": "En quelle année se déroule la bataille de Verdun ?",
+   "choix": [
+    "1916",
+    "1914",
+    "1917",
+    "1918"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "La bataille de Verdun se déroule de février à décembre 1916 : c'est la plus longue bataille de la Première Guerre mondiale. L'état-major allemand veut y « saigner à blanc » l'armée française par une offensive d'usure massive. Sous les ordres de Pétain, qui organise le ravitaillement par la « Voie sacrée », près des trois quarts de l'armée française se relaient dans la fournaise, autour de lieux devenus légendaires comme le fort de Douaumont. La bataille fait environ 300 000 morts et 400 000 blessés des deux côtés, sans percée décisive. Verdun devient le symbole par excellence du sacrifice des « poilus » et, plus tard, de la réconciliation franco-allemande."
+  },
+  {
+   "q": "À quelle date est signé l'armistice mettant fin aux combats de la Première Guerre mondiale ?",
+   "choix": [
+    "Le 11 novembre 1918",
+    "Le 28 juin 1919",
+    "Le 8 mai 1945",
+    "Le 14 juillet 1918"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "L'armistice est signé le 11 novembre 1918 à 5 heures du matin dans un wagon, dans la clairière de Rethondes, en forêt de Compiègne, et entre en vigueur à 11 heures. L'Allemagne, épuisée et en pleine révolution après l'abdication de Guillaume II, accepte les conditions des Alliés. La guerre a fait environ 1,4 million de morts français et près de 10 millions de morts au total. Le traité de paix sera signé à Versailles le 28 juin 1919. Le 11 novembre est depuis un jour férié de commémoration en France, symbolisé par la tombe du Soldat inconnu sous l'Arc de triomphe."
+  },
+  {
+   "q": "Quel gouvernement instaure les congés payés et la semaine de 40 heures en 1936 ?",
+   "choix": [
+    "Le Front populaire",
+    "Le Cartel des gauches",
+    "Le gouvernement de Vichy",
+    "Le Bloc national"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Vainqueur des élections de mai 1936, le Front populaire, coalition des socialistes, radicaux et communistes menée par Léon Blum, premier président du Conseil socialiste, engage de grandes réformes sociales. Dans le contexte de grèves joyeuses avec occupation d'usines, les accords Matignon de juin 1936 apportent des hausses de salaires, puis les lois instaurent deux semaines de congés payés annuels et la semaine de 40 heures. Les congés payés permettent aux ouvriers de partir pour la première fois en vacances, image restée emblématique. Le Front populaire, confronté aux difficultés économiques et aux divisions sur la guerre d'Espagne, se disloque dès 1938."
+  },
+  {
+   "q": "D'où le général de Gaulle lance-t-il son appel du 18 juin 1940 ?",
+   "choix": [
+    "De Londres",
+    "D'Alger",
+    "De Paris",
+    "De Brazzaville"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le 18 juin 1940, depuis les studios de la BBC à Londres, le général de Gaulle appelle les Français à poursuivre le combat, au lendemain de l'annonce par Pétain de la demande d'armistice. « La France a perdu une bataille, mais la France n'a pas perdu la guerre » : de Gaulle affirme que la guerre est mondiale et que la France peut s'appuyer sur son empire et ses alliés. Peu entendu sur le moment, l'appel devient l'acte fondateur de la France libre et de la Résistance. De Gaulle, alors général de brigade à titre temporaire presque inconnu, est condamné à mort par contumace par Vichy. Le 18 juin est aujourd'hui une journée nationale de commémoration."
+  },
+  {
+   "q": "Qui dirige le régime de Vichy de 1940 à 1944 ?",
+   "choix": [
+    "Philippe Pétain",
+    "Pierre Laval",
+    "Charles de Gaulle",
+    "Édouard Daladier"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le maréchal Philippe Pétain, héros de Verdun, obtient les pleins pouvoirs de l'Assemblée nationale le 10 juillet 1940 et instaure l'« État français », installé à Vichy en zone non occupée. Le régime abolit la République, adopte la devise « Travail, Famille, Patrie » et engage la « Révolution nationale », autoritaire et antisémite : les statuts des Juifs de 1940 et 1941 sont adoptés sans exigence allemande. Après l'entrevue de Montoire avec Hitler en octobre 1940, Pétain s'engage dans la collaboration, aggravée par le retour de Pierre Laval en 1942. À la Libération, Pétain est condamné à mort, peine commuée en détention perpétuelle ; il meurt à l'île d'Yeu en 1951."
+  },
+  {
+   "q": "Quel événement tragique se déroule les 16 et 17 juillet 1942 à Paris ?",
+   "choix": [
+    "La rafle du Vél d'Hiv",
+    "La libération de Paris",
+    "L'exécution des otages de Châteaubriant",
+    "L'incendie de l'Hôtel de Ville"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Les 16 et 17 juillet 1942, la police française arrête à Paris et en banlieue 12 884 Juifs, dont plus de 4 000 enfants, lors de la rafle dite du « Vél d'Hiv ». Une partie des victimes est parquée plusieurs jours dans le Vélodrome d'Hiver dans des conditions effroyables, avant d'être internée à Drancy puis déportée vers Auschwitz, d'où presque aucune ne reviendra. L'opération, nom de code « Vent printanier », est menée par la police de Vichy en exécution des accords avec l'occupant nazi. En 1995, le président Jacques Chirac reconnaît officiellement la responsabilité de l'État français dans cette rafle. Environ 76 000 Juifs de France furent déportés pendant la guerre."
+  },
+  {
+   "q": "À quelle date a lieu le débarquement allié en Normandie ?",
+   "choix": [
+    "Le 6 juin 1944",
+    "Le 8 mai 1945",
+    "Le 15 août 1944",
+    "Le 18 juin 1940"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le 6 juin 1944, le « Jour J », les Alliés débarquent sur cinq plages de Normandie baptisées Utah, Omaha, Gold, Juno et Sword. L'opération Overlord, commandée par le général américain Eisenhower, est la plus grande opération amphibie de l'histoire : près de 7 000 navires et plus de 150 000 hommes engagés le premier jour, précédés de parachutages nocturnes. Les combats sont particulièrement meurtriers à Omaha Beach. La bataille de Normandie dure jusqu'à la fin août et ouvre le front de l'Ouest qui, avec l'avancée soviétique à l'Est, condamne l'Allemagne nazie. Paris est libéré le 25 août 1944, et un second débarquement a lieu en Provence le 15 août."
+  },
+  {
+   "q": "En quelle année les femmes obtiennent-elles le droit de vote en France ?",
+   "choix": [
+    "1944",
+    "1936",
+    "1919",
+    "1958"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le droit de vote et d'éligibilité des femmes est institué par l'ordonnance du 21 avril 1944 du Comité français de la Libération nationale, présidé par le général de Gaulle à Alger. Les Françaises votent pour la première fois aux élections municipales du 29 avril 1945, puis aux législatives d'octobre 1945. La France est en retard sur de nombreux pays : la Nouvelle-Zélande avait franchi le pas dès 1893, l'Allemagne et le Royaume-Uni en 1918-1928. Le Sénat de la Troisième République avait bloqué à plusieurs reprises des propositions votées par les députés. Cette conquête s'inscrit dans le programme de refondation républicaine issu de la Résistance."
+  },
+  {
+   "q": "Quelles dates encadrent la Quatrième République ?",
+   "choix": [
+    "1946-1958",
+    "1944-1962",
+    "1940-1946",
+    "1936-1958"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "La Quatrième République naît avec la Constitution adoptée par référendum en octobre 1946 et disparaît en 1958 avec le retour du général de Gaulle. Régime parlementaire à l'exécutif faible, elle connaît une forte instabilité ministérielle : une vingtaine de gouvernements en douze ans. Elle est pourtant à l'origine de réussites majeures : reconstruction, débuts des « Trente Glorieuses », Sécurité sociale, et premiers pas de la construction européenne avec la CECA (1951) et le traité de Rome (1957). Minée par les guerres coloniales d'Indochine (1946-1954) puis d'Algérie, elle s'effondre lors de la crise du 13 mai 1958 à Alger. De Gaulle, rappelé au pouvoir, fait adopter la Constitution de la Cinquième République."
+  },
+  {
+   "q": "En quelle année est adoptée la Constitution de la Cinquième République ?",
+   "choix": [
+    "1958",
+    "1946",
+    "1962",
+    "1968"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "La Constitution de la Cinquième République est approuvée par référendum le 28 septembre 1958, avec près de 80 % de « oui », et promulguée le 4 octobre 1958. Rédigée sous l'autorité du général de Gaulle et de Michel Debré après la crise algérienne du 13 mai 1958, elle renforce considérablement le pouvoir exécutif face au Parlement. Le président de la République, d'abord élu par un collège élargi, dispose de prérogatives étendues : nomination du Premier ministre, dissolution de l'Assemblée, référendum, pouvoirs exceptionnels de l'article 16. De Gaulle devient en janvier 1959 le premier président de ce régime, toujours en vigueur aujourd'hui."
+  },
+  {
+   "q": "Quels accords, signés en 1962, mettent fin à la guerre d'Algérie ?",
+   "choix": [
+    "Les accords d'Évian",
+    "Les accords de Grenelle",
+    "Les accords de Genève",
+    "Les accords de Matignon"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Les accords d'Évian, signés le 18 mars 1962 entre le gouvernement français et le FLN, instaurent un cessez-le-feu et prévoient l'autodétermination de l'Algérie. Approuvés massivement par référendum en France, ils débouchent sur l'indépendance de l'Algérie, proclamée le 5 juillet 1962, après huit ans d'une guerre commencée le 1er novembre 1954. Le conflit a fait des centaines de milliers de morts et profondément marqué les deux pays. L'indépendance provoque l'exode d'environ 800 000 « pieds-noirs » vers la métropole et le drame des harkis, supplétifs musulmans de l'armée française souvent abandonnés aux représailles. La France a officiellement reconnu le terme de « guerre d'Algérie » en 1999 seulement."
+  },
+  {
+   "q": "Quel mouvement de contestation étudiante et de grève générale secoue la France en mai-juin 1968 ?",
+   "choix": [
+    "Mai 68",
+    "Le Front populaire",
+    "La Fronde",
+    "Le poujadisme"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "En mai 1968, une contestation étudiante partie de Nanterre puis de la Sorbonne dégénère en affrontements dans le Quartier latin, avec barricades et nuits d'émeutes. Le mouvement s'étend au monde ouvrier : la France connaît la plus grande grève générale de son histoire, avec 7 à 10 millions de grévistes et un pays paralysé. Les accords de Grenelle (27 mai) accordent notamment une forte hausse du SMIG, sans éteindre immédiatement le mouvement. Après la disparition momentanée de De Gaulle, parti consulter le général Massu à Baden-Baden, la dissolution de l'Assemblée débouche sur une victoire électorale massive des gaullistes en juin. Mai 68 reste un tournant culturel et social majeur, symbole de la libération des mœurs."
+  },
+  {
+   "q": "En quelle année a lieu la première élection du président de la République française au suffrage universel direct ?",
+   "choix": [
+    "1965",
+    "1958",
+    "1962",
+    "1974"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "La première élection présidentielle au suffrage universel direct de la Cinquième République a lieu en décembre 1965. Le général de Gaulle, mis en ballottage au premier tour, l'emporte au second face à François Mitterrand avec environ 55 % des voix. Ce mode de scrutin avait été instauré par le référendum controversé d'octobre 1962, voulu par de Gaulle après l'attentat manqué du Petit-Clamart. La réforme, combattue par la plupart des partis qui dénonçaient un « pouvoir personnel », a profondément présidentialisé le régime. Depuis, l'élection présidentielle est le scrutin structurant de la vie politique française."
+  },
+  {
+   "q": "En quelle année la peine de mort est-elle abolie en France ?",
+   "choix": [
+    "1981",
+    "1975",
+    "1968",
+    "1989"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La peine de mort est abolie en France par la loi du 9 octobre 1981, adoptée après le discours resté célèbre du garde des Sceaux Robert Badinter à l'Assemblée nationale : « J'ai l'honneur, au nom du gouvernement de la République, de demander à l'Assemblée nationale l'abolition de la peine de mort en France. » L'abolition figurait parmi les engagements de François Mitterrand, élu président en mai 1981, alors que l'opinion y était majoritairement défavorable. La dernière exécution avait eu lieu en 1977 à Marseille, par guillotine. En 2007, l'interdiction de la peine de mort est inscrite dans la Constitution."
+  },
+  {
+   "q": "Qui devient en 1981 le premier président socialiste de la Cinquième République ?",
+   "choix": [
+    "François Mitterrand",
+    "Pierre Mauroy",
+    "Michel Rocard",
+    "Lionel Jospin"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le 10 mai 1981, François Mitterrand est élu président de la République face au sortant Valéry Giscard d'Estaing, devenant le premier socialiste à accéder à l'Élysée sous la Cinquième République. C'est la première alternance gauche-droite du régime. Son gouvernement, dirigé par Pierre Mauroy et comprenant des ministres communistes, met en œuvre d'importantes réformes : abolition de la peine de mort, cinquième semaine de congés payés, retraite à 60 ans, décentralisation, radios libres. Réélu en 1988 face à Jacques Chirac, Mitterrand effectue deux septennats complets (1981-1995), le plus long mandat présidentiel de la Cinquième République. Il connaît aussi deux « cohabitations » avec des gouvernements de droite."
+  },
+  {
+   "q": "En quelle année les Français approuvent-ils par référendum le traité de Maastricht ?",
+   "choix": [
+    "1992",
+    "1986",
+    "2005",
+    "1999"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Le 20 septembre 1992, les Français approuvent le traité de Maastricht par référendum, avec seulement 51,04 % de « oui » : c'est le « petit oui ». Ce traité transforme la Communauté économique européenne en Union européenne, crée une citoyenneté européenne et programme la monnaie unique, le futur euro. La campagne, très disputée, révèle un clivage durable entre pro-européens et souverainistes qui traverse les partis traditionnels. La France est l'un des rares pays à avoir soumis le traité au vote populaire. En 2005, un autre référendum européen, sur le traité constitutionnel, se soldera cette fois par une victoire du « non »."
+  },
+  {
+   "q": "En quelle année les pièces et billets en euros sont-ils mis en circulation en France ?",
+   "choix": [
+    "2002",
+    "1999",
+    "2000",
+    "2005"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Les pièces et billets en euros sont mis en circulation le 1er janvier 2002 en France et dans onze autres pays de l'Union européenne, remplaçant le franc au taux de 6,55957 francs pour un euro. L'euro existait déjà depuis le 1er janvier 1999 comme monnaie scripturale pour les marchés financiers et les virements. Les francs restent utilisables quelques semaines, puis échangeables en banque pendant plusieurs années. Ce passage à la monnaie unique, prévu par le traité de Maastricht, constitue l'une des étapes les plus concrètes de la construction européenne. Le franc, créé en 1360 pour payer la rançon du roi Jean le Bon, disparaît ainsi après plus de six siècles d'histoire."
+  },
+  {
+   "q": "Quel référendum de l'an 2000 réduit la durée du mandat présidentiel français de sept à cinq ans ?",
+   "choix": [
+    "Le référendum sur le quinquennat",
+    "Le référendum de Maastricht",
+    "Le référendum sur la Nouvelle-Calédonie",
+    "Le référendum sur le Sénat"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Le 24 septembre 2000, les Français approuvent par référendum le passage du septennat au quinquennat présidentiel, avec environ 73 % de « oui » mais une abstention record de près de 70 %. La réforme, soutenue à la fois par le président Jacques Chirac et le Premier ministre Lionel Jospin, alors en cohabitation, s'applique dès l'élection de 2002. Combinée à l'inversion du calendrier électoral, qui place les législatives juste après la présidentielle, elle vise à limiter les cohabitations et renforce la prééminence présidentielle. Le septennat datait de 1873. Depuis 2008, le président ne peut en outre exercer plus de deux mandats consécutifs."
+  },
+  {
+   "q": "Quel roi de France est surnommé le « Roi-Soleil » ?",
+   "choix": [
+    "Louis XIV",
+    "Louis XVI",
+    "François Ier",
+    "Henri IV"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Louis XIV est surnommé le « Roi-Soleil », emblème qu'il choisit lui-même : comme l'astre, le roi éclaire et fait vivre son royaume, et tout gravite autour de lui. Ce symbole apparaît notamment dans les ballets de cour où le jeune roi dansa le rôle du Soleil levant en 1653. Monarque absolu de droit divin, il gouverne sans Premier ministre à partir de 1661 et fait de Versailles la vitrine de sa puissance. Son règne voit briller Molière, Racine, Lully et Le Nôtre. La formule « L'État, c'est moi » qu'on lui attribue est probablement apocryphe, mais résume l'esprit de son pouvoir."
+  },
+  {
+   "q": "Quelle dynastie succède directement aux Mérovingiens à la tête du royaume des Francs ?",
+   "choix": [
+    "Les Carolingiens",
+    "Les Capétiens",
+    "Les Valois",
+    "Les Bourbons"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Les Carolingiens succèdent aux Mérovingiens en 751, lorsque Pépin le Bref dépose le dernier roi mérovingien, Childéric III, et se fait élire puis sacrer roi des Francs avec l'appui de la papauté. Les derniers Mérovingiens, surnommés les « rois fainéants », avaient laissé le pouvoir réel aux maires du palais, dont Charles Martel, père de Pépin, vainqueur des Arabes à Poitiers en 732. La dynastie tire son nom de son membre le plus illustre, Charlemagne, fils de Pépin. Les Carolingiens règnent sur la Francie occidentale jusqu'en 987, date à laquelle Hugues Capet fonde la dynastie capétienne."
+  },
+  {
+   "q": "Quel président de la République française meurt en fonction en 1974 ?",
+   "choix": [
+    "Georges Pompidou",
+    "Charles de Gaulle",
+    "Valéry Giscard d'Estaing",
+    "René Coty"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Georges Pompidou, successeur du général de Gaulle à l'Élysée en 1969, meurt en fonction le 2 avril 1974, emporté par la maladie de Waldenström qu'il avait dissimulée aux Français. Ancien Premier ministre de De Gaulle de 1962 à 1968, il avait poursuivi la modernisation industrielle du pays et lancé le projet du Centre d'art contemporain qui porte aujourd'hui son nom, le Centre Pompidou, inauguré en 1977. Sa mort provoque une élection anticipée remportée par Valéry Giscard d'Estaing face à François Mitterrand. Quatre présidents français sont morts en cours de mandat : Sadi Carnot, assassiné en 1894, Félix Faure en 1899, Paul Doumer, assassiné en 1932, et Georges Pompidou, le seul cas sous la Cinquième République."
+  }
+ ],
+ "cours": [
+  {
+   "titre": "La Révolution française (1789-1799)",
+   "sections": [
+    {
+     "titre": "Les causes de la Révolution",
+     "texte": "À la fin des années 1780, le royaume de France traverse une crise profonde. La monarchie absolue est endettée par des guerres coûteuses, notamment le soutien à l'indépendance américaine, et les tentatives de réforme fiscale échouent face à la résistance des privilégiés. La société d'ordres paraît de plus en plus injuste : le clergé et la noblesse, environ 2 % de la population, jouissent de privilèges fiscaux et honorifiques, tandis que le tiers état, qui regroupe bourgeois, artisans et paysans, supporte l'essentiel de l'impôt. Les idées des Lumières, diffusées par Voltaire, Montesquieu, Rousseau ou l'Encyclopédie de Diderot et d'Alembert, critiquent l'absolutisme et défendent la liberté, l'égalité en droits et la séparation des pouvoirs. La bourgeoisie, enrichie par le commerce, supporte mal son exclusion du pouvoir politique. Enfin, la conjoncture aggrave tout : les mauvaises récoltes de 1788 font flamber le prix du pain, provoquant misère et émeutes. Acculé financièrement, Louis XVI convoque les états généraux, qui n'avaient pas été réunis depuis 1614. La rédaction des cahiers de doléances dans tout le royaume fait naître d'immenses espoirs de réforme."
+    },
+    {
+     "titre": "1789, l'année décisive",
+     "texte": "Les états généraux s'ouvrent à Versailles le 5 mai 1789. Le conflit éclate vite sur le vote : par ordre, il garantit la domination des privilégiés ; par tête, il donne l'avantage au tiers état, qui compte autant de députés que les deux autres ordres réunis. Le 17 juin, les députés du tiers se proclament Assemblée nationale, affirmant représenter la nation. Le 20 juin, réunis dans la salle du Jeu de paume, ils jurent de ne pas se séparer avant d'avoir donné une constitution à la France. Le roi cède en apparence, mais concentre des troupes autour de Paris et renvoie le ministre populaire Necker. Le peuple parisien s'arme et, le 14 juillet, prend la Bastille, symbole de l'arbitraire royal. La révolution gagne les campagnes avec la Grande Peur, poussant l'Assemblée à abolir les privilèges et les droits féodaux dans la nuit du 4 août. Le 26 août 1789, la Déclaration des droits de l'homme et du citoyen proclame la liberté, l'égalité en droits et la souveraineté nationale. En octobre, les Parisiennes marchent sur Versailles et ramènent la famille royale à Paris. L'Ancien Régime a vécu.",
+     "visuels": [
+      {
+       "type": "frise",
+       "titre": "1789, l'année décisive",
+       "evenements": [
+        {
+         "date": "5 mai",
+         "label": "Ouverture des états généraux à Versailles",
+         "texte": "Ils n'avaient plus été réunis depuis 1614. Le conflit éclate aussitôt sur le vote : par ordre ou par tête."
+        },
+        {
+         "date": "17 juin",
+         "label": "L'Assemblée nationale",
+         "texte": "Les députés du tiers se proclament représentants de la nation."
+        },
+        {
+         "date": "20 juin",
+         "label": "Le serment du Jeu de paume",
+         "texte": "Ils jurent de ne pas se séparer avant d'avoir donné une constitution à la France."
+        },
+        {
+         "date": "14 juillet",
+         "label": "Prise de la Bastille",
+         "texte": "Le roi a concentré des troupes autour de Paris et renvoyé le ministre populaire Necker ; le peuple parisien s'arme."
+        },
+        {
+         "date": "nuit du 4 août",
+         "label": "Abolition des privilèges",
+         "texte": "La Grande Peur a gagné les campagnes ; l'Assemblée abolit privilèges et droits féodaux."
+        },
+        {
+         "date": "26 août",
+         "label": "Déclaration des droits de l'homme et du citoyen",
+         "texte": "Liberté, égalité en droits, souveraineté nationale."
+        },
+        {
+         "date": "octobre",
+         "label": "Les journées d'octobre",
+         "texte": "Les Parisiennes marchent sur Versailles et ramènent la famille royale à Paris."
+        }
+       ]
+      },
+      {
+       "type": "image",
+       "image": "hf-prise-bastille",
+       "legende": "La prise de la Bastille vue par Jean-Pierre Houël, peintre présent à Paris en 1789 : la forteresse fume, le gouverneur de Launay est arrêté au centre de la cour.",
+       "alt": "Aquarelle : une forteresse à grosses tours rondes d'où s'échappe la fumée, assiégée par une foule d'hommes armés et de gardes en uniforme dans une cour encombrée de gravats."
+      }
+     ]
+    },
+    {
+     "titre": "De la monarchie constitutionnelle à la République",
+     "texte": "De 1789 à 1791, l'Assemblée constituante refonde la France : départements, égalité devant l'impôt, constitution civile du clergé, système métrique en préparation. La Constitution de 1791 instaure une monarchie constitutionnelle où le roi ne détient plus que le pouvoir exécutif et un droit de veto. Mais la confiance est rompue : en juin 1791, Louis XVI tente de fuir à l'étranger et est arrêté à Varennes, discréditant durablement la monarchie. En avril 1792, la France déclare la guerre à l'Autriche ; les premières défaites et la menace du duc de Brunswick contre Paris exaspèrent les patriotes. Le 10 août 1792, l'insurrection parisienne prend le palais des Tuileries : le roi est suspendu puis emprisonné. Le 20 septembre, la victoire de Valmy contre les Prussiens sauve la Révolution ; le 21 septembre 1792, la Convention nouvellement élue abolit la royauté et la République est proclamée le 22 septembre. Jugé pour trahison, Louis XVI est guillotiné le 21 janvier 1793. La France révolutionnaire se retrouve alors en guerre contre la quasi-totalité de l'Europe monarchique, tandis que la Vendée se soulève contre la levée en masse.",
+     "visuel": {
+      "type": "frise",
+      "titre": "De la monarchie constitutionnelle au 18 Brumaire",
+      "evenements": [
+       {
+        "date": "juin 1791",
+        "label": "La fuite à Varennes",
+        "texte": "Louis XVI est arrêté : la monarchie est durablement discréditée."
+       },
+       {
+        "date": "septembre 1791",
+        "label": "La Constitution",
+        "texte": "Monarchie constitutionnelle : le roi ne garde que l'exécutif et un droit de veto."
+       },
+       {
+        "date": "avril 1792",
+        "label": "Déclaration de guerre à l'Autriche",
+        "texte": "Les premières défaites et la menace du duc de Brunswick contre Paris exaspèrent les patriotes."
+       },
+       {
+        "date": "10 août 1792",
+        "label": "Prise des Tuileries",
+        "texte": "Le roi est suspendu puis emprisonné."
+       },
+       {
+        "date": "20-22 septembre 1792",
+        "label": "Valmy, puis la République",
+        "texte": "La victoire sur les Prussiens sauve la Révolution ; la Convention abolit la royauté et proclame la République."
+       },
+       {
+        "date": "21 janvier 1793",
+        "label": "Exécution de Louis XVI",
+        "texte": "La France se retrouve en guerre contre presque toute l'Europe monarchique ; la Vendée se soulève."
+       },
+       {
+        "date": "1793-1794",
+        "label": "Le gouvernement révolutionnaire",
+        "texte": "Comité de salut public, loi des suspects, Tribunal révolutionnaire : la Terreur. Levée en masse et abolition de l'esclavage dans les colonies en février 1794."
+       },
+       {
+        "date": "9 Thermidor an II (27 juillet 1794)",
+        "label": "Chute de Robespierre",
+        "texte": "Guillotiné le lendemain ; la réaction thermidorienne démantèle la Terreur."
+       },
+       {
+        "date": "1795",
+        "label": "Constitution de l'an III",
+        "texte": "Le pouvoir passe à un Directoire de cinq membres."
+       },
+       {
+        "date": "18 Brumaire an VIII (9-10 novembre 1799)",
+        "label": "Le coup d'État de Bonaparte",
+        "texte": "La décennie révolutionnaire s'achève."
+       }
+      ]
+     }
+    },
+    {
+     "titre": "La Terreur et la réaction thermidorienne",
+     "texte": "Face aux périls extérieurs et intérieurs, la Convention met en place en 1793 un gouvernement révolutionnaire d'exception. Le Comité de salut public, où s'impose Robespierre, concentre les pouvoirs ; la loi des suspects de septembre 1793 et le Tribunal révolutionnaire organisent la Terreur. Des dizaines de milliers de personnes sont exécutées ou meurent en détention, dont la reine Marie-Antoinette, les Girondins, puis des révolutionnaires eux-mêmes comme Danton et Desmoulins en avril 1794. La guerre civile fait rage en Vendée, réprimée avec une extrême brutalité. Dans le même temps, la République décrète la levée en masse, redresse la situation militaire et abolit l'esclavage dans les colonies en février 1794. Robespierre, qui a fait voter la loi de Prairial accélérant les condamnations, inquiète jusqu'à ses collègues. Le 9 Thermidor an II, soit le 27 juillet 1794, la Convention décrète son arrestation ; il est guillotiné le lendemain avec ses partisans. La réaction thermidorienne démantèle la Terreur, ferme le club des Jacobins et aboutit en 1795 à la Constitution de l'an III, qui confie le pouvoir à un Directoire de cinq membres."
+    },
+    {
+     "titre": "L'héritage de la Révolution",
+     "texte": "Le Directoire, régime fragile miné par les crises financières, les coups d'État à répétition et la guerre continue, s'appuie de plus en plus sur l'armée. C'est un jeune général auréolé de ses victoires en Italie et de l'expédition d'Égypte, Napoléon Bonaparte, qui y met fin par le coup d'État du 18 Brumaire an VIII, les 9 et 10 novembre 1799. La décennie révolutionnaire s'achève, mais son œuvre est immense et largement irréversible. La souveraineté nationale a remplacé le droit divin ; l'égalité devant la loi, la fin des privilèges et des droits féodaux, la liberté de conscience sont acquises. La France a été réorganisée en départements, l'administration unifiée, et le système métrique adopté. La Déclaration de 1789 devient une référence universelle, invoquée par les mouvements libéraux et nationaux du XIXe siècle dans toute l'Europe et au-delà. Le Consulat puis l'Empire consolideront une partie de cet héritage, notamment par le Code civil de 1804, tout en sacrifiant les libertés politiques. Le drapeau tricolore, La Marseillaise composée par Rouget de Lisle en 1792 et la devise « Liberté, Égalité, Fraternité » restent aujourd'hui les symboles de la République française."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "À quelle date s'ouvrent les états généraux de 1789 ?",
+     "choix": [
+      "Le 5 mai 1789",
+      "Le 14 juillet 1789",
+      "Le 4 août 1789",
+      "Le 26 août 1789"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Les états généraux, convoqués par Louis XVI pour résoudre la crise financière, s'ouvrent à Versailles le 5 mai 1789. Cette assemblée des trois ordres n'avait pas été réunie depuis 1614. Le blocage sur le vote par ordre ou par tête conduit les députés du tiers état à se proclamer Assemblée nationale le 17 juin. C'est le point de départ institutionnel de la Révolution française."
+    },
+    {
+     "q": "Que jurent les députés du tiers état le 20 juin 1789 ?",
+     "choix": [
+      "De ne pas se séparer avant d'avoir donné une constitution à la France",
+      "De renverser le roi",
+      "D'abolir les impôts",
+      "De déclarer la guerre à l'Autriche"
+     ],
+     "bonne": 0,
+     "difficulte": 1,
+     "explication": "Le 20 juin 1789, trouvant leur salle fermée, les députés se réunissent dans la salle du Jeu de paume à Versailles. Ils y prêtent le serment de ne jamais se séparer avant d'avoir doté la France d'une constitution. Ce serment du Jeu de paume, immortalisé par un célèbre dessin de David, affirme la souveraineté de la nation face au roi. La Constitution promise sera achevée en 1791."
+    },
+    {
+     "q": "Où Louis XVI est-il arrêté lors de sa tentative de fuite en juin 1791 ?",
+     "choix": [
+      "À Varennes",
+      "À Reims",
+      "À Metz",
+      "À Compiègne"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Dans la nuit du 20 au 21 juin 1791, Louis XVI et sa famille fuient secrètement Paris pour rejoindre les troupes fidèles à la frontière. Reconnu en chemin, le roi est arrêté à Varennes-en-Argonne et ramené à Paris sous escorte, dans un silence hostile. Cette fuite manquée détruit la confiance entre le roi et la nation et renforce le mouvement républicain. Elle prépare la chute de la monarchie en août 1792."
+    },
+    {
+     "q": "Quelle victoire du 20 septembre 1792 arrête l'invasion prussienne ?",
+     "choix": [
+      "Valmy",
+      "Jemmapes",
+      "Fleurus",
+      "Wattignies"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Le 20 septembre 1792, à Valmy, en Champagne, les armées françaises de Dumouriez et Kellermann repoussent les Prussiens du duc de Brunswick, essentiellement par une intense canonnade. Cette victoire, plus morale que sanglante, sauve la Révolution menacée d'invasion. Goethe, présent côté prussien, aurait déclaré qu'en ce lieu commençait « une nouvelle époque de l'histoire du monde ». Le lendemain, la Convention abolit la royauté."
+    },
+    {
+     "q": "Quel événement marque la fin du Directoire en novembre 1799 ?",
+     "choix": [
+      "Le coup d'État du 18 Brumaire",
+      "La chute de Robespierre",
+      "Le sacre de Napoléon",
+      "La prise des Tuileries"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Les 9 et 10 novembre 1799 (18 et 19 Brumaire an VIII), le général Bonaparte, avec l'appui de Sieyès et de son frère Lucien, président du Conseil des Cinq-Cents, renverse le Directoire. Le coup d'État instaure le Consulat, dominé par Bonaparte comme Premier consul. Cet événement est traditionnellement considéré comme la fin de la Révolution française. Cinq ans plus tard, Bonaparte deviendra l'empereur Napoléon Ier."
+    }
+   ]
+  },
+  {
+   "titre": "Napoléon et le Premier Empire (1799-1815)",
+   "sections": [
+    {
+     "titre": "L'ascension d'un général de la Révolution",
+     "texte": "Napoléon Bonaparte naît à Ajaccio, en Corse, le 15 août 1769, un an après le rattachement de l'île à la France. Formé dans les écoles militaires du roi, jeune officier d'artillerie, il saisit les chances offertes par la Révolution, qui ouvre les carrières au talent. Il se distingue en 1793 au siège de Toulon, reprise aux royalistes et aux Anglais, ce qui lui vaut le grade de général à 24 ans. En 1795, il réprime une insurrection royaliste à Paris et gagne la confiance du Directoire. Nommé en 1796 à la tête de l'armée d'Italie, il enchaîne les victoires contre les Autrichiens, de Lodi à Rivoli, et impose le traité de Campoformio, révélant aussi un vrai talent de propagandiste à travers ses bulletins. L'expédition d'Égypte (1798-1799), destinée à couper la route des Indes aux Anglais, est un échec stratégique malgré la victoire des Pyramides, mais elle nourrit sa légende et fonde l'égyptologie avec la découverte de la pierre de Rosette. Rentré en France en pleine crise du Directoire, il s'impose comme l'homme fort du coup d'État du 18 Brumaire an VIII et devient Premier consul."
+    },
+    {
+     "titre": "Le Consulat : réorganiser la France",
+     "texte": "De 1799 à 1804, le Consulat est une période de reconstruction intérieure d'une ampleur exceptionnelle, dont l'empreinte marque encore la France contemporaine. Bonaparte centralise l'administration en créant en 1800 les préfets, représentants de l'État dans chaque département. La même année naît la Banque de France, et en 1803 le franc germinal stabilise durablement la monnaie. Le Concordat signé avec le pape Pie VII en 1801 réconcilie la République avec l'Église catholique et apaise la querelle religieuse née de la Révolution. Les lycées, créés en 1802, forment les cadres de la nation, tandis que la Légion d'honneur récompense les mérites civils et militaires. L'œuvre majeure reste le Code civil, promulgué le 21 mars 1804 : il unifie le droit français, consacre l'égalité devant la loi, la propriété et la laïcité de l'état civil, même s'il place la femme mariée sous l'autorité du mari. Ce « Code Napoléon » sera imité dans une grande partie du monde. Mais le régime est autoritaire : presse muselée, opposants surveillés par la police de Fouché. Consul à vie en 1802, Bonaparte franchit le dernier pas le 2 décembre 1804 en se faisant sacrer empereur à Notre-Dame de Paris.",
+     "visuels": [
+      {
+       "type": "tableau",
+       "titre": "L'œuvre du Consulat, toujours debout aujourd'hui",
+       "colonnes": [
+        "Année",
+        "Création",
+        "Ce qu'elle apporte"
+       ],
+       "lignes": [
+        [
+         "1800",
+         "Les préfets",
+         "Un représentant de l'État dans chaque département : l'administration est centralisée."
+        ],
+        [
+         "1800",
+         "La Banque de France",
+         "Complétée en 1803 par le franc germinal, qui stabilise durablement la monnaie."
+        ],
+        [
+         "1801",
+         "Le Concordat",
+         "Signé avec Pie VII, il réconcilie la République et l'Église et apaise la querelle née de la Révolution."
+        ],
+        [
+         "1802",
+         "Les lycées",
+         "Ils forment les cadres de la nation ; la Légion d'honneur récompense les mérites civils et militaires."
+        ],
+        [
+         "1804",
+         "Le Code civil",
+         "Il unifie le droit, consacre l'égalité devant la loi, la propriété et la laïcité de l'état civil — mais place la femme mariée sous l'autorité du mari."
+        ]
+       ],
+       "note": "Une reconstruction menée par un régime autoritaire : presse muselée, opposants surveillés par la police de Fouché."
+      },
+      {
+       "type": "image",
+       "image": "hf-sacre-napoleon",
+       "legende": "Le Sacre, par David : le 2 décembre 1804, à Notre-Dame, Napoléon ne reçoit pas la couronne du pape, il la prend et la pose lui-même sur la tête de Joséphine. Toute la scène dit d'où vient le pouvoir.",
+       "alt": "Vaste tableau : dans une cathédrale tendue de rouge et d'or, un homme en manteau d'hermine élève une couronne au-dessus d'une femme agenouillée, devant le pape assis et une foule de dignitaires."
+      }
+     ]
+    },
+    {
+     "titre": "L'Empire à son apogée",
+     "texte": "De 1805 à 1812, Napoléon domine l'Europe continentale par une succession de campagnes victorieuses. Face aux coalitions financées par l'Angleterre, il écrase les Austro-Russes à Austerlitz le 2 décembre 1805, la Prusse à Iéna et Auerstedt en 1806, puis la Russie à Friedland en 1807, avant de rencontrer le tsar Alexandre Ier à Tilsit pour partager l'influence sur le continent. En 1809, il bat encore l'Autriche à Wagram. Sur mer en revanche, la destruction de la flotte franco-espagnole à Trafalgar par Nelson en octobre 1805 lui interdit toute invasion de l'Angleterre. Pour vaincre la « perfide Albion », il décrète en 1806 le Blocus continental, fermant les ports européens au commerce britannique. L'Empire compte jusqu'à 130 départements, de Hambourg à Rome, et Napoléon place ses frères sur les trônes d'Espagne, de Hollande et de Westphalie. Partout, les armées françaises diffusent le Code civil et l'abolition de la féodalité, mais les peuples supportent mal l'occupation, la conscription et les impôts. Dès 1808, l'Espagne se soulève : cette « guerre d'Espagne », marquée par une guérilla impitoyable, use durablement la Grande Armée."
+    },
+    {
+     "titre": "La chute de l'Aigle",
+     "texte": "En juin 1812, pour contraindre le tsar revenu au commerce avec l'Angleterre, Napoléon envahit la Russie avec la Grande Armée, forte d'environ 600 000 hommes de toute l'Europe. Les Russes reculent en pratiquant la terre brûlée ; la sanglante bataille de la Moskova ouvre la route de Moscou, que Napoléon trouve incendiée. Sans négociation possible, la retraite commence trop tard : le froid, la faim, le typhus et les cosaques anéantissent l'armée, dont le passage de la Bérézina reste le symbole tragique. Moins de 100 000 hommes en réchappent. L'Europe se soulève alors : en octobre 1813, la « bataille des Nations » à Leipzig oppose Napoléon à la coalition de la Russie, la Prusse, l'Autriche et la Suède, qui l'emporte. La France est envahie et, malgré une brillante campagne défensive, Paris capitule. Napoléon abdique à Fontainebleau le 6 avril 1814 et reçoit la souveraineté de l'île d'Elbe, tandis que Louis XVIII restaure la monarchie. En mars 1815, il s'échappe, reconquiert le pouvoir sans un coup de feu : ce sont les Cent-Jours, qui s'achèvent le 18 juin 1815 par la défaite de Waterloo face à Wellington et Blücher. Exilé à Sainte-Hélène, il y meurt le 5 mai 1821.",
+     "visuel": {
+      "type": "frise",
+      "titre": "De l'apogée à Sainte-Hélène",
+      "evenements": [
+       {
+        "date": "octobre-décembre 1805",
+        "label": "Trafalgar, puis Austerlitz",
+        "texte": "Nelson détruit la flotte franco-espagnole : toute invasion de l'Angleterre devient impossible. Deux mois plus tard, les Austro-Russes sont écrasés."
+       },
+       {
+        "date": "1806",
+        "label": "Iéna, Auerstedt et le Blocus continental",
+        "texte": "La Prusse est battue ; les ports européens sont fermés au commerce britannique."
+       },
+       {
+        "date": "1807",
+        "label": "Friedland et Tilsit",
+        "texte": "Rencontre avec le tsar Alexandre Ier pour partager l'influence sur le continent."
+       },
+       {
+        "date": "1808",
+        "label": "Le soulèvement de l'Espagne",
+        "texte": "Une guérilla impitoyable qui use durablement la Grande Armée."
+       },
+       {
+        "date": "1809",
+        "label": "Wagram",
+        "texte": "L'Autriche est de nouveau battue ; l'Empire compte jusqu'à 130 départements, de Hambourg à Rome."
+       },
+       {
+        "date": "juin-décembre 1812",
+        "label": "La campagne de Russie",
+        "texte": "600 000 hommes à l'aller, moins de 100 000 en réchappent : terre brûlée, Moscou incendiée, le froid, la faim, le typhus et la Bérézina."
+       },
+       {
+        "date": "octobre 1813",
+        "label": "Leipzig, la bataille des Nations",
+        "texte": "Russie, Prusse, Autriche et Suède coalisées l'emportent ; la France est envahie."
+       },
+       {
+        "date": "6 avril 1814",
+        "label": "Abdication à Fontainebleau",
+        "texte": "Napoléon reçoit l'île d'Elbe, Louis XVIII restaure la monarchie."
+       },
+       {
+        "date": "mars - 18 juin 1815",
+        "label": "Les Cent-Jours et Waterloo",
+        "texte": "Il reconquiert le pouvoir sans un coup de feu, puis est défait par Wellington et Blücher."
+       },
+       {
+        "date": "5 mai 1821",
+        "label": "Mort à Sainte-Hélène"
+       }
+      ]
+     }
+    },
+    {
+     "titre": "Un héritage durable et contesté",
+     "texte": "Le bilan napoléonien est immense et ambivalent. Les guerres de la Révolution et de l'Empire ont coûté la vie à environ un million de Français et à plusieurs millions d'Européens, et la France de 1815 est ramenée à ses frontières de 1792 par le congrès de Vienne. Le rétablissement de l'esclavage dans les colonies en 1802 constitue l'une des pages les plus sombres du régime. Pourtant, l'essentiel de l'œuvre institutionnelle du Consulat a survécu à tous les régimes suivants : le Code civil, les préfets, les lycées, le baccalauréat créé en 1808, la Banque de France, la Légion d'honneur, le Conseil d'État et l'organisation judiciaire structurent encore largement la France du XXIe siècle. En Europe, le passage des armées françaises a ébranlé l'Ancien Régime, diffusé l'égalité juridique et éveillé les sentiments nationaux, en Allemagne et en Italie notamment. La légende napoléonienne, entretenue par le « Mémorial de Sainte-Hélène » et le retour des Cendres aux Invalides en 1840, a nourri l'imaginaire romantique et le bonapartisme politique, jusqu'au Second Empire de son neveu Napoléon III. Napoléon demeure l'une des figures les plus étudiées et les plus débattues de l'histoire mondiale."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Quel texte juridique majeur est promulgué le 21 mars 1804 ?",
+     "choix": [
+      "Le Code civil",
+      "La Déclaration des droits de l'homme",
+      "Le Concordat",
+      "La Constitution de l'an VIII"
+     ],
+     "bonne": 0,
+     "difficulte": 1,
+     "explication": "Le Code civil des Français, promulgué le 21 mars 1804, unifie le droit privé français jusque-là morcelé entre droit écrit au sud et coutumes au nord. Il consacre l'égalité devant la loi, la liberté contractuelle et le droit de propriété. Surnommé « Code Napoléon », il a inspiré les législations de nombreux pays. Napoléon lui-même estimait à Sainte-Hélène que sa vraie gloire résidait dans ce code plutôt que dans ses quarante batailles."
+    },
+    {
+     "q": "Quelle bataille navale d'octobre 1805 prive Napoléon de tout espoir d'envahir l'Angleterre ?",
+     "choix": [
+      "Trafalgar",
+      "Aboukir",
+      "Austerlitz",
+      "La Hougue"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Le 21 octobre 1805, au large du cap de Trafalgar, près de Cadix, l'amiral britannique Nelson détruit la flotte franco-espagnole de l'amiral Villeneuve. Nelson est mortellement blessé pendant la bataille, mais sa victoire assure à la Grande-Bretagne une maîtrise des mers incontestée pour un siècle. Napoléon doit renoncer définitivement à son projet de débarquement en Angleterre. Il se tournera vers l'arme économique avec le Blocus continental décrété en 1806."
+    },
+    {
+     "q": "En quelle année Napoléon lance-t-il la désastreuse campagne de Russie ?",
+     "choix": [
+      "1812",
+      "1809",
+      "1814",
+      "1807"
+     ],
+     "bonne": 0,
+     "difficulte": 1,
+     "explication": "Napoléon franchit le Niémen en juin 1812 avec environ 600 000 hommes pour contraindre le tsar Alexandre Ier à respecter le Blocus continental. Après la bataille de la Moskova et l'incendie de Moscou, la retraite dans l'hiver russe anéantit la Grande Armée. Cette catastrophe brise la puissance militaire de l'Empire et encourage toute l'Europe à se coaliser. Elle conduit directement à la défaite de Leipzig en 1813, puis à la première abdication de 1814."
+    },
+    {
+     "q": "Comment appelle-t-on la période du retour de Napoléon au pouvoir en 1815 ?",
+     "choix": [
+      "Les Cent-Jours",
+      "Le Consulat",
+      "La Restauration",
+      "La Régence"
+     ],
+     "bonne": 0,
+     "difficulte": 1,
+     "explication": "Échappé de l'île d'Elbe, Napoléon débarque à Golfe-Juan le 1er mars 1815 et remonte vers Paris, ralliant les troupes envoyées contre lui ; Louis XVIII s'enfuit. Cette période dite des Cent-Jours dure du 20 mars au 22 juin 1815, jour de la seconde abdication. Elle s'achève avec la défaite de Waterloo le 18 juin face aux armées de Wellington et Blücher. Napoléon est ensuite exilé par les Britanniques à Sainte-Hélène, dans l'Atlantique Sud."
+    },
+    {
+     "q": "Quelle institution créée par Bonaparte en 1800 représente l'État dans chaque département ?",
+     "choix": [
+      "Les préfets",
+      "Les intendants",
+      "Les baillis",
+      "Les missi dominici"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "La loi du 28 pluviôse an VIII (17 février 1800) crée les préfets, nommés par le Premier consul pour administrer chaque département au nom de l'État. Ils remplacent en pratique les intendants de l'Ancien Régime et deviennent la cheville ouvrière de la centralisation française. Chargés de l'ordre public, des impôts et de la conscription, ils relaient le pouvoir central sur tout le territoire. L'institution préfectorale existe toujours dans la France d'aujourd'hui."
+    }
+   ]
+  },
+  {
+   "titre": "La France dans les deux guerres mondiales",
+   "sections": [
+    {
+     "titre": "La Grande Guerre : la France dans la tourmente (1914-1918)",
+     "texte": "L'assassinat de l'archiduc François-Ferdinand à Sarajevo le 28 juin 1914 déclenche l'engrenage des alliances : début août, la France, liée à la Russie et au Royaume-Uni au sein de la Triple-Entente, entre en guerre contre l'Allemagne et l'Autriche-Hongrie. L'Allemagne applique le plan Schlieffen et envahit la Belgique puis le nord de la France. Après la meurtrière bataille des Frontières et une longue retraite, le général Joffre redresse la situation lors de la première bataille de la Marne, en septembre 1914, qui sauve Paris. Le front se stabilise alors de la mer du Nord à la Suisse : c'est le début de la guerre de position. La France mobilise environ 8 millions d'hommes au long du conflit et convertit son économie à la guerre, les femmes remplaçant massivement les hommes dans les usines et les champs, comme les « munitionnettes ». L'Union sacrée, proclamée par le président Raymond Poincaré, unit provisoirement toutes les familles politiques. Les troupes coloniales, tirailleurs sénégalais ou soldats maghrébins et indochinois, participent largement aux combats. La guerre, que beaucoup imaginaient courte, s'installe pour plus de quatre ans."
+    },
+    {
+     "titre": "Verdun, les tranchées et la victoire",
+     "texte": "La guerre des tranchées impose aux soldats, les « poilus », des conditions effroyables : boue, rats, froid, pilonnages d'artillerie et assauts meurtriers pour quelques centaines de mètres. En 1915, les offensives françaises en Champagne et en Artois échouent au prix de pertes énormes. En 1916, l'armée allemande attaque Verdun pour « saigner à blanc » l'armée française : de février à décembre, la bataille fait environ 700 000 morts, blessés et disparus des deux camps, sans vainqueur décisif. Le général Pétain organise la rotation des unités et le ravitaillement par la « Voie sacrée ». La même année, la bataille de la Somme, lancée par les Alliés, est tout aussi sanglante. En 1917, l'échec de l'offensive Nivelle au Chemin des Dames provoque des mutineries, apaisées par Pétain ; l'année voit aussi l'entrée en guerre des États-Unis et la révolution russe, qui sort la Russie du conflit. Georges Clemenceau, nommé président du Conseil en novembre 1917, incarne la volonté de vaincre : « Je fais la guerre ». En 1918, après l'échec des dernières offensives allemandes, la contre-offensive alliée coordonnée par Foch mène à l'armistice du 11 novembre 1918, signé à Rethondes. La France est victorieuse mais exsangue : 1,4 million de morts et des régions entières dévastées.",
+     "visuels": [
+      {
+       "type": "image",
+       "image": "hf-tranchee-verdun",
+       "legende": "Soldats de première ligne du 164e régiment d'infanterie dans une tranchée de la région de Verdun, en 1916. La guerre de position, ce sont surtout ces heures d'attente dans la terre.",
+       "alt": "Photographie en noir et blanc : quelques soldats en capote assis au fond d'une tranchée creusée dans la terre, un fusil appuyé contre la paroi, l'un d'eux torse nu examinant sa chemise."
+      },
+      {
+       "type": "chiffres",
+       "titre": "Le prix de la Grande Guerre pour la France",
+       "items": [
+        {
+         "valeur": "8 millions",
+         "label": "d'hommes mobilisés au long du conflit"
+        },
+        {
+         "valeur": "700 000",
+         "label": "morts, blessés et disparus des deux camps à Verdun, de février à décembre 1916"
+        },
+        {
+         "valeur": "1,4 million",
+         "label": "de morts français"
+        },
+        {
+         "valeur": "11 novembre 1918",
+         "label": "l'armistice signé à Rethondes, après quatre ans et trois mois de guerre"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "L'entre-deux-guerres : de la victoire à la crise",
+     "texte": "Le traité de Versailles, signé le 28 juin 1919, rend l'Alsace-Lorraine à la France et impose à l'Allemagne, déclarée responsable de la guerre, désarmement et lourdes réparations. Mais la sécurité française reste fragile : les États-Unis se retirent des affaires européennes et la Société des Nations manque de moyens. Les années 1920, les « Années folles », voient Paris briller par les arts, tandis que la reconstruction s'achève. La crise économique mondiale de 1929 atteint la France au début des années 1930 : chômage, déflation et instabilité ministérielle nourrissent l'antiparlementarisme, illustré par l'émeute des ligues du 6 février 1934. En réaction, socialistes, communistes et radicaux s'unissent : le Front populaire de Léon Blum gagne les élections de mai 1936 et instaure les congés payés et la semaine de 40 heures. Face à Hitler, qui remilitarise la Rhénanie en 1936 puis annexe l'Autriche en 1938, la France, traumatisée par la saignée de 1914-1918, choisit avec le Royaume-Uni la politique d'apaisement, illustrée par les accords de Munich en septembre 1938. L'invasion de la Pologne par l'Allemagne, le 1er septembre 1939, contraint finalement la France et le Royaume-Uni à déclarer la guerre le 3 septembre."
+    },
+    {
+     "titre": "1940 : la défaite, Vichy et l'Occupation",
+     "texte": "Après huit mois de « drôle de guerre » sans combats majeurs, l'offensive allemande du 10 mai 1940 contourne la ligne Maginot par les Ardennes, réputées infranchissables. La percée de Sedan et la course des Panzers vers la mer encerclent les armées alliées ; c'est l'effondrement, accompagné de l'exode de millions de civils sur les routes. Le maréchal Pétain, appelé au gouvernement, demande l'armistice, signé le 22 juin 1940 à Rethondes, dans le wagon même de 1918 sur exigence d'Hitler. La France est coupée en deux par la ligne de démarcation : zone occupée au nord et sur l'Atlantique, zone dite libre au sud. Le 10 juillet 1940, le Parlement réuni à Vichy accorde les pleins pouvoirs à Pétain, qui fonde l'« État français », régime autoritaire à la devise « Travail, Famille, Patrie ». Vichy s'engage dans la collaboration avec l'Allemagne, adoptant dès octobre 1940 un statut des Juifs qui les exclut de nombreuses professions. La police française participe aux arrestations, comme lors de la rafle du Vél d'Hiv des 16 et 17 juillet 1942. Environ 76 000 Juifs de France sont déportés vers les camps d'extermination ; moins de 3 % en reviennent. En novembre 1942, la zone sud est à son tour occupée.",
+     "visuel": {
+      "type": "frise",
+      "titre": "De la drôle de guerre à la Libération",
+      "evenements": [
+       {
+        "date": "3 septembre 1939",
+        "label": "Entrée en guerre",
+        "texte": "Après l'invasion de la Pologne. Suivent huit mois de drôle de guerre, sans combats majeurs."
+       },
+       {
+        "date": "10 mai 1940",
+        "label": "L'offensive allemande",
+        "texte": "Elle contourne la ligne Maginot par les Ardennes ; la percée de Sedan encercle les armées alliées, des millions de civils prennent la route de l'exode."
+       },
+       {
+        "date": "22 juin 1940",
+        "label": "Armistice de Rethondes",
+        "texte": "Signé sur exigence d'Hitler dans le wagon même de 1918. La ligne de démarcation coupe le pays en deux."
+       },
+       {
+        "date": "18 juin 1940",
+        "label": "L'appel de Londres",
+        "texte": "De Gaulle fonde la France libre et rallie une partie de l'empire colonial."
+       },
+       {
+        "date": "10 juillet 1940",
+        "label": "Les pleins pouvoirs à Pétain",
+        "texte": "L'État français, à la devise Travail, Famille, Patrie, s'engage dans la collaboration ; dès octobre 1940, un statut des Juifs les exclut de nombreuses professions."
+       },
+       {
+        "date": "16-17 juillet 1942",
+        "label": "La rafle du Vél d'Hiv",
+        "texte": "La police française y participe. Environ 76 000 Juifs de France seront déportés vers les camps d'extermination ; moins de 3 % en reviennent."
+       },
+       {
+        "date": "27 mai 1943",
+        "label": "Le Conseil national de la Résistance",
+        "texte": "Jean Moulin unifie les mouvements ; arrêté à Caluire en juin, il meurt sous la torture sans avoir parlé."
+       },
+       {
+        "date": "6 juin et 15 août 1944",
+        "label": "Débarquements de Normandie et de Provence"
+       },
+       {
+        "date": "25 août 1944",
+        "label": "Libération de Paris",
+        "texte": "La 2e division blindée de Leclerc entre dans la capitale insurgée."
+       },
+       {
+        "date": "1944-1945",
+        "label": "La refondation",
+        "texte": "Le Gouvernement provisoire restaure la légalité républicaine, accorde le droit de vote aux femmes et engage l'épuration ; la France est présente à la table des vainqueurs en mai 1945."
+       }
+      ]
+     }
+    },
+    {
+     "titre": "Résistance, Libération et refondation",
+     "texte": "Dès le 18 juin 1940, le général de Gaulle appelle depuis Londres à poursuivre le combat et fonde la France libre, ralliant une partie de l'empire colonial. En métropole, la Résistance intérieure s'organise peu à peu : réseaux de renseignement, filières d'évasion, presse clandestine comme Combat ou Libération, puis maquis alimentés à partir de 1943 par les réfractaires au Service du travail obligatoire. Jean Moulin, délégué de De Gaulle, unifie les principaux mouvements au sein du Conseil national de la Résistance, dont la première réunion se tient à Paris le 27 mai 1943 ; arrêté à Caluire en juin 1943, il meurt sous la torture sans avoir parlé. Le CNR adopte en mars 1944 un programme de réformes qui inspirera la Sécurité sociale et les nationalisations de la Libération. Après le débarquement de Normandie du 6 juin 1944 et celui de Provence le 15 août, la France est progressivement libérée ; Paris se soulève et est libéré le 25 août 1944, la 2e division blindée de Leclerc entrant dans la capitale. Le Gouvernement provisoire dirigé par de Gaulle restaure la légalité républicaine, accorde le droit de vote aux femmes et engage l'épuration des collaborateurs. La guerre laisse la France meurtrie, mais présente à la table des vainqueurs en mai 1945."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Quel événement du 28 juin 1914 déclenche l'engrenage menant à la Première Guerre mondiale ?",
+     "choix": [
+      "L'assassinat de l'archiduc François-Ferdinand à Sarajevo",
+      "L'invasion de la Belgique",
+      "La mobilisation générale russe",
+      "Le naufrage du Lusitania"
+     ],
+     "bonne": 0,
+     "difficulte": 1,
+     "explication": "Le 28 juin 1914, l'archiduc François-Ferdinand, héritier du trône d'Autriche-Hongrie, est assassiné à Sarajevo par le nationaliste serbe de Bosnie Gavrilo Princip. L'Autriche-Hongrie adresse un ultimatum à la Serbie puis lui déclare la guerre le 28 juillet. Le jeu des alliances entraîne alors la Russie, l'Allemagne, la France puis le Royaume-Uni dans le conflit en quelques jours. La « Grande Guerre » embrasera le monde pendant plus de quatre ans."
+    },
+    {
+     "q": "Quelle offensive française de 1917 provoque des mutineries dans l'armée ?",
+     "choix": [
+      "L'offensive du Chemin des Dames",
+      "La bataille de la Marne",
+      "La bataille de Verdun",
+      "L'offensive de la Somme"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "En avril 1917, le général Nivelle lance une grande offensive sur le Chemin des Dames, dans l'Aisne, promettant une percée décisive. C'est un échec sanglant qui brise le moral des troupes : des mutineries touchent des dizaines de divisions, les soldats refusant de monter à l'assaut. Pétain, remplaçant Nivelle, rétablit la situation en améliorant les conditions des poilus et en limitant les offensives ; une cinquantaine de mutins sont fusillés. L'épisode reste l'un des plus douloureux de la Grande Guerre."
+    },
+    {
+     "q": "Par où l'armée allemande contourne-t-elle la ligne Maginot en mai 1940 ?",
+     "choix": [
+      "Par les Ardennes",
+      "Par la Suisse",
+      "Par l'Alsace",
+      "Par la mer du Nord"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Le 10 mai 1940, l'Allemagne attaque à l'Ouest : tandis qu'une partie de ses forces envahit les Pays-Bas et la Belgique, le gros des divisions blindées traverse le massif des Ardennes, jugé impraticable par l'état-major français et donc faiblement défendu. La percée de Sedan, le 13 mai, permet aux Panzers de foncer vers la Manche et d'encercler les armées alliées. La ligne Maginot, puissante fortification face à l'Allemagne, est ainsi rendue inutile. En six semaines, la France est vaincue."
+    },
+    {
+     "q": "Qui préside la première réunion du Conseil national de la Résistance le 27 mai 1943 ?",
+     "choix": [
+      "Jean Moulin",
+      "Charles de Gaulle",
+      "Henri Frenay",
+      "Pierre Brossolette"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Jean Moulin, ancien préfet devenu délégué du général de Gaulle en France occupée, réussit à unifier les principaux mouvements de résistance, les partis et les syndicats au sein du Conseil national de la Résistance, dont il préside la première réunion le 27 mai 1943, rue du Four à Paris. Arrêté à Caluire le 21 juin 1943, torturé par Klaus Barbie, il meurt sans avoir parlé. Ses cendres ont été transférées au Panthéon en 1964, avec le célèbre discours d'André Malraux."
+    },
+    {
+     "q": "À quelle date Paris est-il libéré en 1944 ?",
+     "choix": [
+      "Le 25 août 1944",
+      "Le 6 juin 1944",
+      "Le 15 août 1944",
+      "Le 11 novembre 1944"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Après l'insurrection déclenchée par la Résistance parisienne le 19 août 1944, la 2e division blindée du général Leclerc entre dans Paris et reçoit la capitulation du général von Choltitz le 25 août, ce dernier n'ayant pas appliqué l'ordre d'Hitler de détruire la capitale. Le soir même, de Gaulle prononce à l'Hôtel de Ville son discours célèbre : « Paris outragé ! Paris brisé ! Paris martyrisé ! mais Paris libéré ! ». Le lendemain, il descend triomphalement les Champs-Élysées. La libération de la capitale restaure la République dans son cœur symbolique."
+    }
+   ]
+  }
+ ]
+}

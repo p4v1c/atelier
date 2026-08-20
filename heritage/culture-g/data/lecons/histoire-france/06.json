@@ -1,0 +1,171 @@
+{
+ "titre": "Louis XIV et l'absolutisme (1643-1715)",
+ "sections": [
+  {
+   "titre": "De Richelieu à la Fronde",
+   "texte": "L'absolutisme de Louis XIV s'est préparé sous ses prédécesseurs. Sous Louis XIII, le cardinal de Richelieu, principal ministre de 1624 à 1642, se fixe pour objectifs d'abattre tout ce qui limite l'autorité royale. Il fait le siège de La Rochelle, qui capitule en 1628, et retire aux protestants leurs places de sûreté par la paix d'Alès en 1629, tout en leur laissant la liberté de culte. Il réprime les complots des grands, fait démanteler des châteaux et interdit les duels. Il généralise l'envoi dans les provinces d'intendants, commissaires révocables chargés de la justice, de la police et des finances, qui court-circuitent les officiers locaux. À l'extérieur, il engage la France contre les Habsbourg dans la guerre de Trente Ans en 1635. Après sa mort et celle du roi en 1643, la régence d'Anne d'Autriche s'appuie sur le cardinal Mazarin. Les traités de Westphalie, en 1648, donnent à la France des droits en Alsace. Mais l'accroissement des impôts provoque une révolte : la Fronde. D'abord parlementaire, à partir de 1648, quand le parlement de Paris conteste les édits fiscaux, elle devient ensuite Fronde des princes, avec Condé, jusqu'en 1653. Le jeune Louis XIV, contraint de fuir Paris, en gardera une méfiance durable envers la capitale et la noblesse. La paix des Pyrénées, en 1659, consacre la victoire sur l'Espagne."
+  },
+  {
+   "titre": "Le gouvernement personnel du Roi-Soleil",
+   "texte": "En mars 1661, à la mort de Mazarin, Louis XIV, âgé de vingt-deux ans, annonce qu'il gouvernera désormais sans principal ministre. Il travaille chaque jour plusieurs heures avec un petit nombre de collaborateurs choisis dans la bourgeoisie de robe, comme Colbert aux finances, Le Tellier puis son fils Louvois à la guerre. Le grand conseil de gouvernement, appelé conseil d'en haut, ne réunit que trois ou quatre personnes, dont sont exclus les princes du sang. Dès septembre 1661, l'arrestation spectaculaire du surintendant Fouquet, jugé trop puissant et trop fastueux, avertit chacun. Le roi se veut le seul détenteur de l'autorité, qu'il tient de Dieu : c'est la monarchie de droit divin, théorisée par des auteurs comme Bossuet. Dans les provinces, les intendants deviennent les véritables agents du pouvoir. Les états provinciaux et les parlements sont contraints à l'obéissance, ces derniers perdant en 1673 la possibilité de remontrer avant d'enregistrer les édits. Le roi choisit aussi de gouverner loin de Paris : le château de Versailles, agrandi à partir de 1661 par Le Vau puis Hardouin-Mansart, décoré par Le Brun et entouré des jardins de Le Nôtre, accueille la cour de façon permanente en 1682. La noblesse y vit sous le regard du roi, occupée par une étiquette minutieuse et par la course aux faveurs.",
+   "visuels": [
+    {
+     "type": "tableau",
+     "titre": "Les instruments du pouvoir absolu",
+     "colonnes": [
+      "Instrument",
+      "Effet recherché"
+     ],
+     "lignes": [
+      [
+       "Le conseil d'en haut",
+       "Trois ou quatre collaborateurs choisis dans la bourgeoisie de robe, comme Colbert ou Louvois ; les princes du sang en sont exclus."
+      ],
+      [
+       "L'exemple de Fouquet",
+       "Arrêté dès septembre 1661 : le surintendant trop puissant et trop fastueux sert d'avertissement."
+      ],
+      [
+       "La monarchie de droit divin",
+       "Le roi tient son autorité de Dieu seul, doctrine théorisée par Bossuet."
+      ],
+      [
+       "Les intendants",
+       "Dans chaque province, agents révocables de la justice, de la police et des finances."
+      ],
+      [
+       "Les parlements muselés",
+       "En 1673, ils perdent le droit de remontrer avant d'enregistrer les édits."
+      ],
+      [
+       "Versailles",
+       "Cour permanente à partir de 1682 : la noblesse vit sous le regard du roi, occupée par l'étiquette et la course aux faveurs."
+      ]
+     ],
+     "note": "Louis XIV a fui Paris pendant la Fronde : sa méfiance envers la capitale et les grands explique une bonne part de ce dispositif."
+    },
+    {
+     "type": "image",
+     "image": "hf-louis-xiv-rigaud",
+     "legende": "Louis XIV par Hyacinthe Rigaud (1701) : manteau fleurdelisé, sceptre, épée de sacre et couronne posée près de lui. Un portrait qui n'est pas un homme mais une fonction, mise en scène pour être vue.",
+     "alt": "Portrait en pied d'un homme en perruque longue et bas blancs, drapé dans un vaste manteau bleu semé de fleurs de lys doublé d'hermine, la main appuyée sur un sceptre, devant une tenture rouge."
+    }
+   ]
+  },
+  {
+   "titre": "Colbert, l'économie et le rayonnement culturel",
+   "texte": "Jean-Baptiste Colbert, contrôleur général des finances à partir de 1665, applique une politique inspirée du mercantilisme, souvent appelée colbertisme. Selon cette doctrine, la richesse d'un État se mesure à la quantité de métaux précieux qu'il possède : il faut donc vendre à l'étranger plus qu'on n'achète. Colbert encourage les manufactures, soit royales comme les Gobelins pour les tapisseries ou Saint-Gobain pour les glaces, fondée en 1665, soit privilégiées, comme celle de Van Robais à Abbeville pour les draps. Il impose des règlements de fabrication très stricts pour garantir la qualité, et protège la production nationale par des tarifs douaniers élevés en 1664 et 1667. Il développe la marine de guerre et de commerce, crée en 1664 des compagnies de commerce comme celle des Indes orientales, et soutient les colonies, en Nouvelle-France, aux Antilles et en Inde. Le canal du Midi, œuvre de Riquet, est achevé en 1681. Les résultats restent inégaux, et les guerres ruinent une partie de cet effort. Le règne est aussi un sommet culturel : le roi pensionne les écrivains et les artistes, fait vivre Molière, Racine, Boileau et le musicien Lully, et développe les académies, dont l'Académie des sciences créée en 1666. Le classicisme, fait d'ordre, de mesure et de références antiques, devient un style au service de la gloire royale."
+  },
+  {
+   "titre": "Un roi, une loi, une foi",
+   "texte": "Louis XIV considère que l'unité religieuse est nécessaire à l'unité politique du royaume. Face au pape, il défend les libertés de l'Église de France : en 1682, une assemblée du clergé adopte la déclaration des Quatre Articles, qui limite l'autorité pontificale sur le roi et affirme le gallicanisme. À l'intérieur, il combat le jansénisme, courant catholique rigoriste diffusé depuis l'abbaye de Port-Royal et soutenu par des figures comme Arnauld et Pascal ; le mouvement est condamné à plusieurs reprises, et les bâtiments de Port-Royal des Champs sont finalement rasés en 1710-1711. Mais c'est surtout aux protestants que s'en prend le roi. Après des années de restrictions, de conversions achetées et de dragonnades, où des soldats sont logés chez les huguenots pour les contraindre à abjurer, il signe le 18 octobre 1685 l'édit de Fontainebleau, qui révoque l'édit de Nantes. Le culte réformé est interdit, les temples démolis, les pasteurs exilés et les fidèles interdits de quitter le royaume. Malgré cette interdiction, environ 150 000 à 200 000 protestants s'enfuient vers la Suisse, les Provinces-Unies, l'Angleterre ou le Brandebourg, emportant leurs savoir-faire ; les estimations varient selon les historiens. Applaudie par la plupart des catholiques français de l'époque, la mesure affaiblit l'économie et l'image du royaume. Elle provoque en 1702 la révolte des camisards dans les Cévennes."
+  },
+  {
+   "titre": "Les guerres et la fin du règne",
+   "texte": "Louis XIV veut la gloire et des frontières solides. Après la guerre de Dévolution en 1667-1668, qui lui donne quelques places en Flandre, il attaque les Provinces-Unies en 1672 ; la guerre de Hollande se conclut en 1678 par les traités de Nimègue, qui lui apportent la Franche-Comté. Vauban fortifie alors les frontières et dessine ce qu'il appelle le pré carré, une double ligne de places fortes. Mais la puissance française inquiète l'Europe : la ligue d'Augsbourg, formée en 1686, aboutit à une longue guerre de 1688 à 1697, close par la paix de Ryswick sans grand gain. Le dernier conflit est le plus grave. En 1700, le roi accepte pour son petit-fils Philippe d'Anjou la couronne d'Espagne : la guerre de Succession d'Espagne oppose de 1701 à 1714 la France à une coalition menée par l'Angleterre, l'Autriche et les Provinces-Unies. Après de lourdes défaites, la France échappe à l'invasion et les traités d'Utrecht en 1713 et de Rastatt en 1714 confirment Philippe V sur le trône espagnol, à condition qu'il renonce à la couronne de France ; en revanche, le royaume cède à l'Angleterre l'Acadie, Terre-Neuve et la baie d'Hudson. La fin du règne est sombre : famines de 1693-1694 et de 1709, dette énorme, deuils familiaux. Louis XIV meurt le 1er septembre 1715.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Les guerres de Louis XIV",
+    "evenements": [
+     {
+      "date": "1667-1668",
+      "label": "Guerre de Dévolution",
+      "texte": "Quelques places gagnées en Flandre."
+     },
+     {
+      "date": "1672-1678",
+      "label": "Guerre de Hollande",
+      "texte": "Les traités de Nimègue apportent la Franche-Comté ; Vauban fortifie ensuite le pré carré, double ligne de places fortes."
+     },
+     {
+      "date": "1685",
+      "label": "Révocation de l'édit de Nantes",
+      "texte": "L'édit de Fontainebleau assombrit l'image du royaume au moment de son apogée."
+     },
+     {
+      "date": "1688-1697",
+      "label": "Guerre de la ligue d'Augsbourg",
+      "texte": "L'Europe se coalise contre la puissance française ; la paix de Ryswick ne rapporte guère."
+     },
+     {
+      "date": "1701-1714",
+      "label": "Guerre de Succession d'Espagne",
+      "texte": "Utrecht (1713) et Rastatt (1714) confirment Philippe V à Madrid, mais il renonce à la couronne de France ; l'Acadie, Terre-Neuve et la baie d'Hudson passent à l'Angleterre."
+     },
+     {
+      "date": "1693-1694 et 1709",
+      "label": "Les grandes famines",
+      "texte": "Avec la dette et les deuils familiaux, elles assombrissent la fin du règne."
+     },
+     {
+      "date": "1er septembre 1715",
+      "label": "Mort de Louis XIV",
+      "texte": "Après soixante-douze ans de règne."
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Que décide Louis XIV en 1661, à la mort de Mazarin ?",
+   "choix": [
+    "De transférer immédiatement la cour à Versailles",
+    "De gouverner lui-même, sans principal ministre",
+    "De révoquer l'édit de Nantes",
+    "De confier le pouvoir au parlement de Paris"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "À la mort du cardinal Mazarin, en mars 1661, Louis XIV annonce qu'il exercera personnellement le pouvoir et ne nommera pas de principal ministre. Il s'appuie sur un petit conseil, dit conseil d'en haut, formé de collaborateurs issus de la bourgeoisie de robe comme Colbert ou Le Tellier, et écarte les princes du sang. L'arrestation du surintendant Fouquet, dès septembre 1661, illustre cette volonté de ne tolérer aucun pouvoir concurrent. L'installation définitive de la cour à Versailles est bien plus tardive, en 1682, même si les travaux commencent dès 1661. La révocation de l'édit de Nantes n'intervient qu'en 1685."
+  },
+  {
+   "q": "Quel édit de 1685 supprime la liberté de culte accordée aux protestants ?",
+   "choix": [
+    "L'édit de Châteaubriant",
+    "La paix d'Alès",
+    "La déclaration des Quatre Articles",
+    "L'édit de Fontainebleau"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "L'édit de Fontainebleau, signé le 18 octobre 1685, révoque l'édit de Nantes accordé par Henri IV en 1598. Il interdit le culte réformé, ordonne la destruction des temples, exile les pasteurs et interdit aux fidèles d'émigrer. Malgré cette interdiction, entre 150 000 et 200 000 protestants quittent le royaume, selon des estimations qui varient, ce qui prive la France de nombreux artisans et négociants. La paix d'Alès, en 1629, avait déjà supprimé les places de sûreté protestantes tout en maintenant la liberté de culte. La déclaration des Quatre Articles, en 1682, concerne les rapports du roi avec la papauté et non les huguenots."
+  },
+  {
+   "q": "Sur quelle doctrine économique repose la politique de Colbert ?",
+   "choix": [
+    "Le mercantilisme",
+    "Le libre-échange",
+    "La physiocratie",
+    "Le protectionnisme éducateur"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Colbert applique le mercantilisme, doctrine selon laquelle la puissance d'un État dépend de son stock de métaux précieux, ce qui suppose d'exporter plus que l'on importe. Sa version française est si caractéristique qu'on l'appelle souvent colbertisme. Elle se traduit par la création de manufactures royales et privilégiées, des règlements de fabrication très stricts, des tarifs douaniers élevés en 1664 et 1667, et le développement de la marine et des compagnies de commerce. La physiocratie, qui voit dans l'agriculture la seule source de richesse, apparaît au siècle suivant avec Quesnay. Le libre-échange s'oppose frontalement à ce système protectionniste."
+  },
+  {
+   "q": "Quel traité de 1713 met fin à l'essentiel de la guerre de Succession d'Espagne ?",
+   "choix": [
+    "Le traité de Nimègue",
+    "Le traité de Ryswick",
+    "Le traité d'Utrecht",
+    "Le traité des Pyrénées"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Le traité d'Utrecht, signé en 1713, complété par celui de Rastatt en 1714, met fin à la guerre de Succession d'Espagne commencée en 1701. Il maintient Philippe V, petit-fils de Louis XIV, sur le trône d'Espagne, mais lui impose de renoncer à toute prétention sur la couronne de France afin d'éviter la réunion des deux royaumes. La France cède par ailleurs à l'Angleterre l'Acadie, Terre-Neuve et la baie d'Hudson. Le traité de Nimègue, en 1678, avait clos la guerre de Hollande en apportant la Franche-Comté, et celui de Ryswick, en 1697, la guerre de la ligue d'Augsbourg. La paix des Pyrénées, en 1659, est antérieure au règne personnel du roi."
+  },
+  {
+   "q": "Quel rôle politique joue le château de Versailles à partir de 1682 ?",
+   "choix": [
+    "Il fixe la cour et permet de tenir la noblesse sous le regard du roi",
+    "Il sert de siège au parlement de Paris",
+    "Il devient la résidence officielle des intendants de province",
+    "Il abrite l'Académie des sciences et les manufactures royales"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "En installant la cour à Versailles en 1682, Louis XIV rassemble autour de lui la haute noblesse et la soumet à une étiquette minutieuse qui organise chaque instant de la journée royale. Vivre à la cour devient indispensable pour obtenir pensions, charges et faveurs, ce qui détourne les grands de la révolte, souvenir encore vif depuis la Fronde. Le château, œuvre de Le Vau puis de Hardouin-Mansart, décoré par Le Brun et entouré des jardins de Le Nôtre, sert aussi d'instrument de prestige face aux cours étrangères. Le parlement de Paris siégeait quant à lui au Palais de la Cité. Les intendants, eux, résidaient dans leur généralité, en province."
+  }
+ ]
+}
