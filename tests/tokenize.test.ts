@@ -7,6 +7,7 @@ import {
   tokenize,
   wordCount,
 } from "../src/lib/tokenize";
+import { complementDe } from "../src/lib/elision";
 
 describe("tokenize", () => {
   it("détache la ponctuation fermante du mot", () => {
@@ -136,5 +137,20 @@ describe("normalizeForDedupe", () => {
 describe("wordCount", () => {
   it("compte les mots séparés par des espaces", () => {
     expect(wordCount("Il commence a comprendre la règle.")).toBe(6);
+  });
+});
+
+describe("élision", () => {
+  it("élide devant une voyelle et un h, pas devant une consonne", () => {
+    expect(complementDe("Le carnet", "Essai")).toBe("Le carnet d’Essai");
+    expect(complementDe("Le carnet", "Alice")).toBe("Le carnet d’Alice");
+    expect(complementDe("Le carnet", "Hugo")).toBe("Le carnet d’Hugo");
+    expect(complementDe("Le carnet", "Claire")).toBe("Le carnet de Claire");
+    expect(complementDe("Le carnet", "Vincent")).toBe("Le carnet de Vincent");
+  });
+
+  it("ne casse pas sur un pseudo vide ou blanc", () => {
+    expect(complementDe("Le carnet", "")).toBe("Le carnet de ");
+    expect(complementDe("Le carnet", "  ")).toBe("Le carnet de ");
   });
 });

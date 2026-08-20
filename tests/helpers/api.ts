@@ -18,9 +18,24 @@ export function uniqueEmail(label = "user"): string {
   return `${TEST_EMAIL_PREFIX}${label}-${randomBytes(6).toString("hex")}@exemple.test`;
 }
 
+let compteurIp = 0;
+
+/**
+ * Une adresse différente à chaque appel.
+ *
+ * Un tirage au hasard dans 250 adresses paraissait suffisant ; il ne l'est pas.
+ * Une dizaine d'appels dans la même exécution suffisent à faire collisionner
+ * deux tests, et celui de la limitation de débit échoue alors : il trouve une
+ * adresse déjà à court de tentatives. Un compteur supprime le problème au lieu
+ * de le rendre rare.
+ *
+ * TEST-NET-1 et TEST-NET-2, deux plages de documentation jamais routables :
+ * 508 adresses, largement de quoi tenir une suite.
+ */
 export function uniqueIp(): string {
-  // Plage de documentation TEST-NET-1 : jamais routable, jamais réelle.
-  return `192.0.2.${1 + Math.floor(Math.random() * 250)}`;
+  const n = compteurIp++;
+  const plage = n < 254 ? "192.0.2" : "198.51.100";
+  return `${plage}.${(n % 254) + 1}`;
 }
 
 export type RequestOptions = { ip?: string | null; cookie?: string | null; userAgent?: string };
@@ -74,7 +89,19 @@ export function sessionCookieAttributes(response: Response): string | null {
 }
 
 /** Efface tout ce qu'un test a pu créer. Les comptes tombent en cascade. */
+/**
+ * Efface ce que les tests ont laissé : comptes de test et tentatives de
+ * connexion depuis la plage de documentation.
+ *
+ * À appeler AVANT la suite autant qu'après. Une exécution interrompue —
+ * ctrl-C, processus tué — laisse sinon des tentatives derrière elle, et comme
+ * les adresses sont tirées dans une plage de 250, la suivante finit par
+ * retomber sur une adresse déjà bloquée. Le test de limitation de débit
+ * échouait alors sans que rien n'ait changé dans le code.
+ */
 export async function cleanupTestData(): Promise<void> {
   await prisma.user.deleteMany({ where: { emailKey: { startsWith: TEST_EMAIL_PREFIX } } });
-  await prisma.authAttempt.deleteMany({ where: { ip: { startsWith: "192.0.2." } } });
+  await prisma.authAttempt.deleteMany({
+    where: { OR: [{ ip: { startsWith: "192.0.2." } }, { ip: { startsWith: "198.51.100." } }] },
+  });
 }

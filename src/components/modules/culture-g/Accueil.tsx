@@ -14,6 +14,7 @@
 import { useEffect, useState } from "react";
 import type { ProgressPayload } from "@/lib/api-types";
 import { NoContentError } from "@/lib/client/engine";
+import { complementDe } from "@/lib/elision";
 import { SUJETS } from "@/modules/culture-g";
 import type { ScreenProps } from "../../App";
 
@@ -83,7 +84,7 @@ export function AccueilCultureG({ engine, user, moduleId, setScreen, setChrome }
 
   return (
     <>
-      <p className="cg-eyebrow">{user ? `Le carnet de ${user.pseudo}` : "Ton carnet de révision"}</p>
+      <p className="cg-eyebrow">{user ? complementDe("Le carnet", user.pseudo) : "Ton carnet de révision"}</p>
       <h1>Toute la culture générale, un cahier à la fois.</h1>
 
       <div className="cg-statrow">

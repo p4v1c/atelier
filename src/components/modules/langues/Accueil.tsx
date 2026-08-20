@@ -13,6 +13,7 @@
 import { useEffect, useState } from "react";
 import type { DictationsPayload, ProgressPayload } from "@/lib/api-types";
 import { NoContentError } from "@/lib/client/engine";
+import { complementDe } from "@/lib/elision";
 import { SENS_NIVEAU, type Niveau } from "@/modules/langues/commun";
 import type { ScreenProps } from "../../App";
 
@@ -123,7 +124,7 @@ export function AccueilLangue({
 
   return (
     <>
-      <p className="lg-eyebrow">{user ? `Le carnet de ${user.pseudo}` : "Sans compte"}</p>
+      <p className="lg-eyebrow">{user ? complementDe("Le carnet", user.pseudo) : "Sans compte"}</p>
       <h1>
         {aRevoir > 0
           ? `${aRevoir} série${aRevoir > 1 ? "s" : ""} à revoir aujourd’hui.`
