@@ -27,6 +27,8 @@ export function Bilan({ engine, summary, category, setScreen, setChrome }: Props
         mode: category ? "targeted" : "training",
         size: taille,
         category,
+        // La série suivante reste dans la matière qu'on vient de travailler.
+        moduleId: summary.moduleId,
       });
       setScreen({ name: "serie", session });
     } catch (e) {

@@ -34,6 +34,7 @@ export function Accueil({ engine, user, moduleId, setScreen, setChrome }: Screen
         mode,
         size: mode === "test" ? TEST_SIZE : taille,
         category: mode === "targeted" ? categorie : null,
+        moduleId,
       });
       setScreen({ name: "serie", session });
     } catch (e) {

@@ -8,6 +8,7 @@
  * L'écran de série n'a pas à changer.
  * ─────────────────────────────────────────────────────────────────────────
  */
+import { ecouteVue, flashcardVue, traductionVue } from "./Carte";
 import { qcmVue } from "./Qcm";
 import { spotErrorVue } from "./SpotError";
 import type { VueExercice } from "./types";
@@ -15,6 +16,9 @@ import type { VueExercice } from "./types";
 export const VUES: Record<string, VueExercice> = {
   "spot-error": spotErrorVue,
   qcm: qcmVue,
+  flashcard: flashcardVue,
+  traduction: traductionVue,
+  ecoute: ecouteVue,
 };
 
 export function vuePour(kind: string): VueExercice | null {

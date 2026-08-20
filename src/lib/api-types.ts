@@ -31,8 +31,21 @@ export type SpotErrorQuestion = { text: string; tokens: Token[] };
 /** « Choisis la bonne réponse » : l'énoncé et les propositions, sans la clé. */
 export type QcmQuestion = { question: string; choices: string[] };
 
-/** Carte mémoire, traduction, écoute : la face visible seulement. */
-export type CarteQuestion = { recto?: string; langue: string | null };
+/**
+ * Carte mémoire, traduction, écoute.
+ *
+ * `recto` est absent pour l'écoute, où c'est `aLire` qui porte le texte —
+ * envoyé sans être affiché, parce que la voix du navigateur en a besoin.
+ */
+export type CarteQuestion = {
+  recto?: string;
+  /** Présent pour la carte mémoire : on le lit avant de se juger. */
+  verso?: string;
+  note?: string | null;
+  /** Présent pour l'écoute : le texte à prononcer, jamais affiché. */
+  aLire?: string;
+  langue: string | null;
+};
 
 export type Question = {
   position: number;

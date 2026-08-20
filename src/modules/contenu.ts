@@ -14,6 +14,8 @@
  * ─────────────────────────────────────────────────────────────────────────
  */
 import { chargerContenuCultureG } from "./culture-g/contenu";
+import { chargerContenuAnglais } from "./langues/anglais/contenu";
+import { chargerContenuEspagnol } from "./langues/espagnol/contenu";
 import { chargerContenuFrancais } from "./francais/contenu";
 import type { LearningModule, ModuleBatch } from "./types";
 
@@ -21,6 +23,8 @@ import type { LearningModule, ModuleBatch } from "./types";
 export const CONTENU: Record<string, () => ModuleBatch[]> = {
   francais: chargerContenuFrancais,
   "culture-g": chargerContenuCultureG,
+  anglais: chargerContenuAnglais,
+  espagnol: chargerContenuEspagnol,
 };
 
 /**

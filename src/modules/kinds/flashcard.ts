@@ -47,12 +47,26 @@ function validerCarte(p: CartePayload): string[] {
   return erreurs;
 }
 
-/** Auto-évaluation : le serveur enregistre le verdict que l'utilisateur se donne. */
+/**
+ * Auto-évaluation : le serveur enregistre le verdict que l'utilisateur se donne.
+ *
+ * Le verso part avec la question, et il le faut : on retourne la carte, on lit
+ * la réponse, PUIS on dit si on la savait. L'attendre du serveur reviendrait à
+ * demander de juger avant d'avoir vu.
+ *
+ * Il n'y a rien à protéger ici : la note qu'on se donne est déclarative de bout
+ * en bout. Se mentir est possible, et ne trompe que soi.
+ */
 export const flashcard: ExerciseKind<CartePayload, boolean, unknown> = {
   id: "flashcard",
   name: "Carte mémoire",
   consigne: "Retourne la carte, puis dis si tu savais",
-  toQuestion: (p) => ({ recto: p.recto, langue: p.langue ?? null }),
+  toQuestion: (p) => ({
+    recto: p.recto,
+    verso: p.verso,
+    note: p.note ?? null,
+    langue: p.langue ?? null,
+  }),
   grade: (p, savait) => ({ correct: savait === true, reveal: { verso: p.verso, note: p.note ?? null } }),
   fingerprint: (p) => `flashcard:${normalizeForDedupe(p.recto)}`,
   validate: validerCarte,
@@ -71,12 +85,23 @@ export const traduction: ExerciseKind<CartePayload, string, unknown> = {
   validate: validerCarte,
 };
 
-/** Le recto n'est pas montré : il est lu à voix haute. */
+/**
+ * Le recto n'est pas montré : il est lu à voix haute.
+ *
+ * Exception assumée à la règle « la question ne contient jamais la réponse » :
+ * la synthèse vocale du navigateur a besoin du texte pour le prononcer, et le
+ * serveur ne sait produire de l'audio qu'en français. Le texte part donc au
+ * client, dans `aLire`, sans être affiché.
+ *
+ * C'est le même pacte que la carte mémoire, où l'on se juge soi-même : aller
+ * chercher la réponse dans l'onglet réseau ne trompe personne d'autre que soi.
+ * Le jour où le serveur saura lire l'anglais, `aLire` disparaîtra d'ici.
+ */
 export const ecoute: ExerciseKind<CartePayload, string, unknown> = {
   id: "ecoute",
   name: "Compréhension orale",
   consigne: "Écoute, puis écris ce que tu entends",
-  toQuestion: (p) => ({ langue: p.langue ?? null }),
+  toQuestion: (p) => ({ langue: p.langue ?? null, aLire: p.recto }),
   grade: (p, saisi) => ({
     correct: [p.recto, ...(p.variantes ?? [])].some((v) => memeReponse(v, saisi ?? "")),
     reveal: { recto: p.recto, verso: p.verso, note: p.note ?? null },

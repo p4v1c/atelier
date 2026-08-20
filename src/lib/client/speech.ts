@@ -68,24 +68,30 @@ export function chargerVoix(delaiMax = 3000): Promise<SpeechSynthesisVoice[]> {
 }
 
 /**
- * Choisit la meilleure voix française disponible.
+ * Choisit la meilleure voix disponible pour une langue.
  *
- * Ordre de préférence : fr-FR installée localement, puis fr-FR quelconque,
- * puis n'importe quel français (Belgique, Canada, Suisse). En dernier recours,
- * on rend la voix par défaut en signalant qu'elle n'est pas française.
+ * `etiquette` est une étiquette BCP-47 : "fr-FR", "en-GB", "es-ES". On tente
+ * d'abord la variante régionale exacte installée localement, puis la même sans
+ * exigence de localité, puis n'importe quelle voix de la même langue (fr-BE,
+ * en-US…). En dernier recours, on rend la voix par défaut en signalant qu'elle
+ * n'est PAS dans la bonne langue — l'appelant doit alors le dire à
+ * l'utilisateur plutôt que de lui lire de l'anglais avec un accent français.
  */
-export function choisirVoix(voix: SpeechSynthesisVoice[]): VoixInfo {
-  const francaises = voix.filter((v) => v.lang?.toLowerCase().startsWith("fr"));
+export function choisirVoix(voix: SpeechSynthesisVoice[], etiquette = "fr-FR"): VoixInfo {
+  const cible = etiquette.toLowerCase();
+  const langue = cible.split("-")[0]!;
+  const memeLangue = voix.filter((v) => v.lang?.toLowerCase().startsWith(langue));
   // espeak-ng publie des milliers de variantes nommées « French+Alex »,
   // « French+Zac »… La voix de base, sans « + », est la plus neutre.
   const base = (v: SpeechSynthesisVoice) => !v.name.includes("+");
+  const exacte = (v: SpeechSynthesisVoice) => v.lang?.toLowerCase().startsWith(cible);
   const parPreference = [
-    francaises.find((v) => v.lang?.toLowerCase().startsWith("fr-fr") && base(v) && v.localService),
-    francaises.find((v) => v.lang?.toLowerCase().startsWith("fr-fr") && base(v)),
-    francaises.find((v) => v.lang?.toLowerCase().startsWith("fr-fr")),
-    francaises.find((v) => base(v) && v.localService),
-    francaises.find(base),
-    francaises[0],
+    memeLangue.find((v) => exacte(v) && base(v) && v.localService),
+    memeLangue.find((v) => exacte(v) && base(v)),
+    memeLangue.find(exacte),
+    memeLangue.find((v) => base(v) && v.localService),
+    memeLangue.find(base),
+    memeLangue[0],
   ];
   const retenue = parPreference.find(Boolean) ?? null;
   if (retenue) return { voix: retenue, francaise: true, total: voix.length };

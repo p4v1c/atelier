@@ -108,7 +108,9 @@ async function main() {
         const empreintes: string[] = [];
         for (const ex of seed.exercises) {
           const k = kindOf(mod, ex.kind);
-          const fingerprint = k.fingerprint(ex.payload);
+          // L'empreinte est préfixée par le module : deux matières ont le droit
+          // de poser la même question avec deux réponses différentes.
+          const fingerprint = `${mod.id}:${k.fingerprint(ex.payload)}`;
           empreintes.push(fingerprint);
           const data = {
             skillId: skill.id,

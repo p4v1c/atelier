@@ -483,3 +483,59 @@
   .frise li { grid-template-columns: 60px 1fr; gap: 12px; }
   .barres li { grid-template-columns: 1fr; gap: 5px; }
 }
+
+/* ═══════════════════════════════════════════════════════════════════════
+   LANGUES — cartes mémoire, traduction, écoute
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* Comme le QCM, ces exercices s'affichent sur le papier crème : encre sombre. */
+.recto {
+  position: relative;
+  font-family: "Bodoni Moda", serif; font-size: 30px; line-height: 1.4;
+  color: #1D1836; margin: 0 0 10px; text-wrap: balance;
+}
+.recto.muet { font-size: 17px; font-family: "Karla", sans-serif; color: #6B6280; }
+
+.verso {
+  position: relative;
+  font-family: "Caveat", cursive; font-size: 30px; line-height: 1.3;
+  color: var(--rouge); margin: 18px 0 0;
+}
+
+.carte-memoire { min-height: 190px; display: flex; flex-direction: column; justify-content: center; }
+
+.ecouter { position: relative; margin-top: 6px; font-size: 11px; }
+
+.ecoute-zone { position: relative; display: flex; flex-direction: column; gap: 4px; align-items: flex-start; }
+
+/* Le jugement : la question à gauche, les deux réponses groupées à droite. */
+.jugement { gap: 10px; justify-content: flex-end; flex-wrap: wrap; }
+.jugement .indice { margin-right: auto; }
+
+.sans-voix {
+  position: relative;
+  font-size: 13px; line-height: 1.6; color: #6B6280; font-style: italic;
+  margin: 0 0 14px; max-width: 60ch;
+}
+
+.saisie { position: relative; display: flex; gap: 10px; margin-top: 22px; flex-wrap: wrap; }
+.saisie input {
+  flex: 1 1 220px; min-width: 0;
+  padding: 12px 15px; font-family: "Bodoni Moda", serif; font-size: 19px;
+  color: #1D1836; background: rgba(255, 255, 255, .55);
+  border: 1px solid rgba(29, 24, 54, .22); border-radius: 3px;
+}
+.saisie input:focus { outline: 2px solid var(--rouge); outline-offset: 1px; border-color: transparent; }
+.saisie input:disabled { background: transparent; }
+
+.attendu { position: relative; margin: 16px 0 0; font-size: 15px; color: #4A4265; }
+.attendu b { font-family: "Caveat", cursive; font-size: 25px; font-weight: 400; }
+.attendu.juste b { color: var(--vert); }
+.attendu.rate b { color: var(--rouge); }
+.attendu .variantes { color: #7A7391; font-size: 13.5px; }
+
+@media (max-width: 560px) {
+  .recto { font-size: 24px; }
+  .verso { font-size: 25px; }
+  .saisie input { font-size: 17px; }
+}
