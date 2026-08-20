@@ -1,9 +1,9 @@
 /**
- * GET /api/session/next?size=20&category=Homophones&mode=training
+ * GET /api/session/next?size=20&category=Homophones&mode=training&module=francais
  *
- * Ouvre une série et renvoie ses questions. La charge utile contient les mots à
- * afficher, jamais lequel est fautif : le client ne peut pas tricher, même en
- * lisant la réponse réseau.
+ * Ouvre une série et renvoie ses questions. Chacune est fabriquée par son type
+ * d'exercice, qui en retire tout ce qui trahirait la réponse : le client ne
+ * peut pas tricher, même en lisant la réponse réseau.
  */
 import { fail, json, withCookie } from "@/lib/http";
 import { requireUser } from "@/lib/auth/guard";
@@ -21,8 +21,9 @@ export async function GET(request: Request): Promise<Response> {
   const parsed = nextSessionQuerySchema.safeParse({
     size: url.searchParams.get("size") ?? (mode === "test" ? TEST_SIZE : 20),
     category: url.searchParams.get("category"),
-    rule: url.searchParams.get("rule"),
+    skill: url.searchParams.get("skill"),
     mode,
+    moduleId: url.searchParams.get("module") ?? undefined,
   });
   if (!parsed.success) {
     return fail(400, "invalid_input", "Paramètres de série invalides.", fieldErrors(parsed.error));

@@ -21,7 +21,7 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
       text: true,
       theme: true,
       difficulty: true,
-      rules: { select: { slug: true, title: true } },
+      skills: { select: { slug: true, title: true } },
       attempts: { where: { userId: auth.user.id }, orderBy: { score: "desc" }, take: 1, select: { score: true } },
     },
   });
@@ -33,7 +33,7 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
       text: dictation.text,
       theme: dictation.theme,
       difficulty: dictation.difficulty,
-      rules: dictation.rules,
+      rules: dictation.skills,
       bestScore: dictation.attempts[0]?.score ?? null,
     }),
     auth.refreshedCookie

@@ -8,11 +8,15 @@ import { describe, expect, it } from "vitest";
 // Chemin explicite : « ../prisma/seed » désignerait le SCRIPT de seed, qui
 // s'exécuterait à l'import et écrirait en base pendant les tests.
 import { loadAllBatches } from "../prisma/seed/index";
-import { validateBatches } from "../src/lib/validate-content";
+import { validateModule } from "../src/lib/validate-content";
+import { francais } from "../src/modules/francais";
+import { contenuDe } from "../src/modules/contenu";
 import { parseMarkedSentence, tokenize } from "../src/lib/tokenize";
 
+/** Les lots au format de rédaction : c'est là que vivent les règles écrites. */
 const batches = loadAllBatches();
-const report = validateBatches(batches);
+/** Les mêmes, traduits pour le moteur : c'est ce que le validateur juge. */
+const report = validateModule(francais, contenuDe(francais));
 
 describe("contenu complet", () => {
   it("ne comporte aucune erreur bloquante", () => {
@@ -20,8 +24,8 @@ describe("contenu complet", () => {
   });
 
   it("atteint les volumes visés", () => {
-    expect(report.ruleCount).toBeGreaterThanOrEqual(600);
-    expect(report.sentenceCount).toBeGreaterThanOrEqual(4000);
+    expect(report.skillCount).toBeGreaterThanOrEqual(600);
+    expect(report.exerciseCount).toBeGreaterThanOrEqual(4000);
     expect(report.dictationCount).toBeGreaterThanOrEqual(200);
   });
 
@@ -38,7 +42,7 @@ describe("contenu complet", () => {
   });
 
   it("donne à chaque règle au moins cinq phrases", () => {
-    expect(report.thinRules).toEqual([]);
+    expect(report.thinSkills).toEqual([]);
   });
 
   it("donne à chaque règle au moins une phrase sans faute", () => {

@@ -35,7 +35,7 @@ export function Stats({ engine, setScreen, setChrome }: ScreenProps) {
     if (!progress) return [];
     const liste = [...progress.categories];
     if (tri === "faible") {
-      liste.sort((a, b) => a.mastered / (a.rules || 1) - b.mastered / (b.rules || 1));
+      liste.sort((a, b) => a.mastered / (a.skills || 1) - b.mastered / (b.skills || 1));
     }
     return liste;
   }, [progress, tri]);
@@ -65,11 +65,11 @@ export function Stats({ engine, setScreen, setChrome }: ScreenProps) {
         <p className="niveau">
           <b>{progress.level}</b>
           <span>
-            {progress.mastered} / {progress.ruleCount} maîtrisées
+            {progress.mastered} / {progress.skillCount} maîtrisées
           </span>
         </p>
         <div className="anneau">
-          <i style={{ width: `${progress.ruleCount ? (progress.mastered / progress.ruleCount) * 100 : 0}%` }} />
+          <i style={{ width: `${progress.skillCount ? (progress.mastered / progress.skillCount) * 100 : 0}%` }} />
         </div>
         <p className="legende" style={{ marginTop: 10 }}>
           {questions > 0
@@ -85,7 +85,7 @@ export function Stats({ engine, setScreen, setChrome }: ScreenProps) {
             <b>{progress.unseen}</b>jamais vues
           </span>
           <span>
-            <b>{progress.ruleCount - progress.mastered - progress.unseen}</b>en cours
+            <b>{progress.skillCount - progress.mastered - progress.unseen}</b>en cours
           </span>
         </div>
       </div>
@@ -135,7 +135,7 @@ export function Stats({ engine, setScreen, setChrome }: ScreenProps) {
 
         {domaines.map((cat) => {
           const estOuvert = ouvert === cat.category;
-          const part = cat.rules ? (cat.mastered / cat.rules) * 100 : 0;
+          const part = cat.skills ? (cat.mastered / cat.skills) * 100 : 0;
           return (
             <div className={`domaine ${estOuvert ? "ouvert" : ""}`} key={cat.category}>
               <button
@@ -147,7 +147,7 @@ export function Stats({ engine, setScreen, setChrome }: ScreenProps) {
                   {cat.category}
                 </span>
                 <span className="domaine-compte">
-                  {cat.mastered}/{cat.rules}
+                  {cat.mastered}/{cat.skills}
                 </span>
               </button>
               <div className="piste">
@@ -162,7 +162,7 @@ export function Stats({ engine, setScreen, setChrome }: ScreenProps) {
 
               {estOuvert && (
                 <div className="fiche-corps" style={{ marginTop: 16 }}>
-                  {progress.rules
+                  {progress.skills
                     .filter((r) => r.category === cat.category)
                     .map((r) => (
                       <div className="ligne" key={r.slug}>

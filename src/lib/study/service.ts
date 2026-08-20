@@ -1,15 +1,19 @@
 /**
  * Couche base de données du planificateur.
  *
- * Les décisions (quelles règles, quel palier, quelle échéance) viennent de
+ * Les décisions (quelles compétences, quel palier, quelle échéance) viennent de
  * scheduler.ts, qui est pur. Ici on ne fait que lire, écrire et assembler.
  *
- * Règle d'or : le verdict est calculé ici, jamais reçu du client. La réponse à
- * /api/session/answer ne contient l'index fautif qu'APRÈS avoir été notée.
+ * Deux règles d'or :
+ *   · le verdict est calculé ici, jamais reçu du client ;
+ *   · ce fichier ne sait pas ce qu'est une faute d'orthographe. Fabriquer la
+ *     question et corriger la réponse sont délégués au type d'exercice.
+ *     C'est ce qui permet à un module de géographie de réutiliser tout ceci
+ *     sans y toucher une ligne.
  */
-import { StudySessionType, type PrismaClient } from "@prisma/client";
+import { Prisma, StudySessionType, type PrismaClient } from "@prisma/client";
 import { prisma } from "../prisma";
-import { tokenize, type Token } from "../tokenize";
+import { kind as kindById } from "../../modules";
 import {
   buildPlacementTest,
   buildSeries,
@@ -24,45 +28,53 @@ import {
   type Random,
 } from "./scheduler";
 
-export type StudyMode = "test" | "training" | "targeted" | "weakness" | "rule";
+export type StudyMode = "test" | "training" | "targeted" | "weakness" | "skill";
+
+export const MODULE_PAR_DEFAUT = "francais";
 
 export type Question = {
   /** Position dans la série, à partir de 1. */
   position: number;
-  sentenceId: string;
-  ruleId: string;
+  exerciseId: string;
+  skillId: string;
   category: string;
-  /** Les mots cliquables. Rien n'y désigne le mot fautif. */
-  tokens: Token[];
+  /** Type d'exercice : l'écran s'en sert pour choisir quoi afficher. */
+  kind: string;
+  /** La question, telle que le type d'exercice la donne. Sans la réponse. */
+  question: unknown;
 };
 
 export type StartedSession = {
   studySessionId: string;
   mode: StudyMode;
+  moduleId: string;
   category: string | null;
-  /** Renseigné pour une série portant sur une seule règle. */
-  rule: { slug: string; title: string } | null;
+  /** Renseigné pour une série portant sur une seule compétence. */
+  skill: { slug: string; title: string } | null;
   questions: Question[];
 };
 
 type Db = PrismaClient;
 
 /**
- * Toutes les règles jouables, avec la progression de l'utilisateur.
- * Les règles `disputed` sont écartées : ce sont des points de débat, consultables
- * au catalogue, jamais notés. Les `draft` non plus : elles attendent relecture.
+ * Toutes les compétences jouables du module, avec la progression de
+ * l'utilisateur. Les `disputed` sont écartées : ce sont des points de débat,
+ * consultables au catalogue, jamais notés. Les `draft` non plus : elles
+ * attendent relecture.
  */
 async function loadCandidates(
   userId: string,
+  moduleId: string,
   category: string | null,
   db: Db = prisma
 ): Promise<Candidate[]> {
-  const rules = await db.rule.findMany({
+  const skills = await db.skill.findMany({
     where: {
+      moduleId,
       status: "active",
       ...(category ? { category: { name: category } } : {}),
-      // Une règle sans phrase jouable ne doit pas bloquer une série.
-      sentences: { some: { status: "active" } },
+      // Une compétence sans exercice jouable ne doit pas bloquer une série.
+      exercises: { some: { status: "active" } },
     },
     select: {
       id: true,
@@ -72,12 +84,12 @@ async function loadCandidates(
     },
   });
 
-  return rules.map((rule) => {
-    const p = rule.progress[0];
+  return skills.map((skill) => {
+    const p = skill.progress[0];
     return {
-      ruleId: rule.id,
-      category: rule.category.name,
-      difficulty: rule.difficulty,
+      ruleId: skill.id,
+      category: skill.category.name,
+      difficulty: skill.difficulty,
       box: p?.box ?? 0,
       dueAtCounter: p?.dueAtCounter ?? 0,
       isNew: p?.isNew ?? true,
@@ -87,27 +99,39 @@ async function loadCandidates(
 
 export class NoContentError extends Error {}
 
-/** Ouvre une série et tire ses phrases. */
+/** Fabrique la question à envoyer, sans jamais laisser passer la réponse. */
+function poser(exercise: { id: string; kind: string; payload: unknown }): unknown {
+  return kindById(exercise.kind).toQuestion(exercise.payload);
+}
+
+/** Ouvre une série et tire ses exercices. */
 export async function startStudySession(
   userId: string,
-  options: { mode: StudyMode; size: number; category: string | null; rule?: string | null },
+  options: {
+    mode: StudyMode;
+    size: number;
+    category: string | null;
+    skill?: string | null;
+    moduleId?: string;
+  },
   db: Db = prisma,
   random: Random = Math.random
 ): Promise<StartedSession> {
   const { mode, size, category } = options;
+  const moduleId = options.moduleId ?? MODULE_PAR_DEFAUT;
 
-  // Série sur une seule règle : on ne tire pas une phrase par règle, mais
-  // plusieurs phrases de la même. C'est le seul mode qui fonctionne ainsi.
-  if (mode === "rule") {
-    return startSingleRuleSession(userId, options.rule ?? null, size, db, random);
+  // Série sur une seule compétence : on ne tire pas un exercice par compétence,
+  // mais plusieurs de la même. C'est le seul mode qui fonctionne ainsi.
+  if (mode === "skill") {
+    return startSingleSkillSession(userId, moduleId, options.skill ?? null, size, db, random);
   }
 
   const user = await db.user.findUniqueOrThrow({
     where: { id: userId },
     select: { answerCounter: true },
   });
-  const candidates = await loadCandidates(userId, mode === "test" ? null : category, db);
-  if (candidates.length === 0) throw new NoContentError("Aucune règle disponible pour cette sélection.");
+  const candidates = await loadCandidates(userId, moduleId, mode === "test" ? null : category, db);
+  if (candidates.length === 0) throw new NoContentError("Aucun contenu disponible pour cette sélection.");
 
   let selection: Candidate[];
   if (mode === "test") selection = buildPlacementTest(candidates, size, random);
@@ -118,50 +142,52 @@ export async function startStudySession(
     throw new NoContentError(
       mode === "weakness"
         ? "Aucune faiblesse enregistrée pour l'instant : lance une série normale."
-        : "Aucune règle disponible pour cette sélection."
+        : "Aucun contenu disponible pour cette sélection."
     );
   }
 
-  // Une seule requête pour toutes les phrases de la série.
-  const ruleIds = selection.map((c) => c.ruleId);
-  const [sentences, progress] = await Promise.all([
-    db.sentence.findMany({
-      where: { ruleId: { in: ruleIds }, status: "active" },
-      select: { id: true, ruleId: true, text: true },
+  // Une seule requête pour tous les exercices de la série.
+  const skillIds = selection.map((c) => c.ruleId);
+  const [exercises, progress] = await Promise.all([
+    db.exercise.findMany({
+      where: { skillId: { in: skillIds }, status: "active" },
+      select: { id: true, skillId: true, kind: true, payload: true },
     }),
-    db.ruleProgress.findMany({
-      where: { userId, ruleId: { in: ruleIds } },
-      select: { ruleId: true, lastSentenceId: true },
+    db.skillProgress.findMany({
+      where: { userId, skillId: { in: skillIds } },
+      select: { skillId: true, lastExerciseId: true },
     }),
   ]);
 
-  const byRule = new Map<string, typeof sentences>();
-  for (const s of sentences) {
-    const list = byRule.get(s.ruleId) ?? [];
-    list.push(s);
-    byRule.set(s.ruleId, list);
+  const bySkill = new Map<string, typeof exercises>();
+  for (const e of exercises) {
+    const list = bySkill.get(e.skillId) ?? [];
+    list.push(e);
+    bySkill.set(e.skillId, list);
   }
-  const lastByRule = new Map(progress.map((p) => [p.ruleId, p.lastSentenceId]));
+  const lastBySkill = new Map(progress.map((p) => [p.skillId, p.lastExerciseId]));
 
   const questions: Question[] = [];
   for (const candidate of selection) {
-    const pool = byRule.get(candidate.ruleId) ?? [];
-    const sentence = pickSentence(pool, lastByRule.get(candidate.ruleId) ?? null, random);
-    if (!sentence) continue; // règle sans phrase active : on la saute plutôt que d'échouer
+    const pool = bySkill.get(candidate.ruleId) ?? [];
+    const exercise = pickSentence(pool, lastBySkill.get(candidate.ruleId) ?? null, random);
+    if (!exercise) continue; // compétence sans exercice actif : on la saute plutôt que d'échouer
     questions.push({
       position: questions.length + 1,
-      sentenceId: sentence.id,
-      ruleId: candidate.ruleId,
+      exerciseId: exercise.id,
+      skillId: candidate.ruleId,
       category: candidate.category,
-      tokens: tokenize(sentence.text),
+      kind: exercise.kind,
+      question: poser(exercise),
     });
   }
 
-  if (questions.length === 0) throw new NoContentError("Aucune phrase disponible pour cette sélection.");
+  if (questions.length === 0) throw new NoContentError("Aucun exercice disponible pour cette sélection.");
 
   const studySession = await db.studySession.create({
     data: {
       userId,
+      moduleId,
       type: StudySessionType[mode],
       category,
       questionCount: questions.length,
@@ -169,54 +195,60 @@ export async function startStudySession(
     select: { id: true },
   });
 
-  return { studySessionId: studySession.id, mode, category, rule: null, questions };
+  return { studySessionId: studySession.id, mode, moduleId, category, skill: null, questions };
 }
 
 /**
- * Série d'entraînement sur une règle unique, lancée depuis sa fiche.
+ * Série d'entraînement sur une compétence unique, lancée depuis sa fiche.
  *
- * Toutes les phrases de la règle y passent, dans un ordre aléatoire : c'est un
- * exercice de révision ciblée, pas une révision espacée. Le palier bouge
- * néanmoins à chaque réponse, comme partout ailleurs.
+ * Tous ses exercices y passent, dans un ordre aléatoire : c'est une révision
+ * ciblée, pas une révision espacée. Le palier bouge néanmoins à chaque réponse,
+ * comme partout ailleurs.
  */
-async function startSingleRuleSession(
+async function startSingleSkillSession(
   userId: string,
+  moduleId: string,
   slug: string | null,
   size: number,
   db: Db,
   random: Random
 ): Promise<StartedSession> {
-  if (!slug) throw new NoContentError("Aucune règle indiquée.");
+  if (!slug) throw new NoContentError("Aucune compétence indiquée.");
 
-  const rule = await db.rule.findFirst({
-    where: { slug, status: "active" },
+  const skill = await db.skill.findFirst({
+    where: { slug, moduleId, status: "active" },
     select: {
       id: true,
       slug: true,
       title: true,
       category: { select: { name: true } },
-      sentences: { where: { status: "active" }, select: { id: true, text: true } },
+      exercises: {
+        where: { status: "active" },
+        select: { id: true, kind: true, payload: true },
+      },
     },
   });
-  if (!rule) throw new NoContentError("Cette règle ne peut pas être travaillée seule.");
-  if (rule.sentences.length === 0) throw new NoContentError("Cette règle n'a aucune phrase disponible.");
+  if (!skill) throw new NoContentError("Ce point ne peut pas être travaillé seul.");
+  if (skill.exercises.length === 0) throw new NoContentError("Aucun exercice disponible pour ce point.");
 
-  const questions: Question[] = shuffle(rule.sentences, random)
+  const questions: Question[] = shuffle(skill.exercises, random)
     .slice(0, size)
-    .map((sentence, i) => ({
+    .map((exercise, i) => ({
       position: i + 1,
-      sentenceId: sentence.id,
-      ruleId: rule.id,
-      category: rule.category.name,
-      tokens: tokenize(sentence.text),
+      exerciseId: exercise.id,
+      skillId: skill.id,
+      category: skill.category.name,
+      kind: exercise.kind,
+      question: poser(exercise),
     }));
 
   const studySession = await db.studySession.create({
     data: {
       userId,
-      type: StudySessionType.rule,
-      category: rule.category.name,
-      ruleSlug: rule.slug,
+      moduleId,
+      type: StudySessionType.skill,
+      category: skill.category.name,
+      skillSlug: skill.slug,
       questionCount: questions.length,
     },
     select: { id: true },
@@ -224,19 +256,26 @@ async function startSingleRuleSession(
 
   return {
     studySessionId: studySession.id,
-    mode: "rule",
-    category: rule.category.name,
-    rule: { slug: rule.slug, title: rule.title },
+    mode: "skill",
+    moduleId,
+    category: skill.category.name,
+    skill: { slug: skill.slug, title: skill.title },
     questions,
   };
 }
 
 export type AnswerVerdict = {
   correct: boolean;
-  /** Index du token fautif, -1 si la phrase était correcte. Révélé après coup. */
-  faultyTokenIndex: number;
-  correction: string | null;
-  rule: { slug: string; title: string; statement: string; tip: string; category: string };
+  /** Ce que le type d'exercice consent à dévoiler, une fois la note posée. */
+  reveal: unknown;
+  skill: {
+    slug: string;
+    title: string;
+    statement: string;
+    tip: string;
+    category: string;
+    moduleId: string;
+  };
   box: { before: number; after: number; mastered: boolean; justMastered: boolean };
   /** true si la question avait déjà été notée : le palier n'a pas rebougé. */
   alreadyAnswered: boolean;
@@ -253,10 +292,10 @@ export class SessionError extends Error {}
  */
 export async function answerQuestion(
   userId: string,
-  input: { studySessionId: string; sentenceId: string; answerIndex: number },
+  input: { studySessionId: string; exerciseId: string; answer: unknown },
   db: Db = prisma
 ): Promise<AnswerVerdict> {
-  const { studySessionId, sentenceId, answerIndex } = input;
+  const { studySessionId, exerciseId, answer } = input;
 
   const studySession = await db.studySession.findUnique({
     where: { id: studySessionId },
@@ -265,59 +304,62 @@ export async function answerQuestion(
   if (!studySession || studySession.userId !== userId) throw new SessionError("Série introuvable.");
   if (studySession.finishedAt) throw new SessionError("Cette série est déjà terminée.");
 
-  const sentence = await db.sentence.findUnique({
-    where: { id: sentenceId },
+  const exercise = await db.exercise.findUnique({
+    where: { id: exerciseId },
     select: {
       id: true,
-      faultyTokenIndex: true,
-      correction: true,
-      rule: {
+      kind: true,
+      payload: true,
+      skill: {
         select: {
           id: true,
           slug: true,
           title: true,
           statement: true,
           tip: true,
+          moduleId: true,
           category: { select: { name: true } },
         },
       },
     },
   });
-  if (!sentence) throw new SessionError("Phrase introuvable.");
+  if (!exercise) throw new SessionError("Exercice introuvable.");
 
-  const rule = {
-    slug: sentence.rule.slug,
-    title: sentence.rule.title,
-    statement: sentence.rule.statement,
-    tip: sentence.rule.tip,
-    category: sentence.rule.category.name,
+  const skill = {
+    slug: exercise.skill.slug,
+    title: exercise.skill.title,
+    statement: exercise.skill.statement,
+    tip: exercise.skill.tip,
+    category: exercise.skill.category.name,
+    moduleId: exercise.skill.moduleId,
   };
 
+  // La correction : le seul endroit du serveur qui sache ce que « juste » veut
+  // dire pour ce type d'exercice.
+  const { correct, reveal } = kindById(exercise.kind).grade(exercise.payload, answer);
+
   const previous = await db.attempt.findFirst({
-    where: { userId, studySessionId, sentenceId },
+    where: { userId, studySessionId, exerciseId },
     select: { isCorrect: true },
   });
   if (previous) {
-    const box = await db.ruleProgress.findUnique({
-      where: { userId_ruleId: { userId, ruleId: sentence.rule.id } },
+    const box = await db.skillProgress.findUnique({
+      where: { userId_skillId: { userId, skillId: exercise.skill.id } },
       select: { box: true },
     });
     const current = box?.box ?? 0;
     return {
       correct: previous.isCorrect,
-      faultyTokenIndex: sentence.faultyTokenIndex,
-      correction: sentence.correction,
-      rule,
+      reveal,
+      skill,
       box: { before: current, after: current, mastered: isMastered(current), justMastered: false },
       alreadyAnswered: true,
     };
   }
 
-  const correct = answerIndex === sentence.faultyTokenIndex;
-
   const verdict = await db.$transaction(async (tx) => {
-    const existing = await tx.ruleProgress.findUnique({
-      where: { userId_ruleId: { userId, ruleId: sentence.rule.id } },
+    const existing = await tx.skillProgress.findUnique({
+      where: { userId_skillId: { userId, skillId: exercise.skill.id } },
     });
     const before = existing?.box ?? 0;
     const after = nextBox(before, correct);
@@ -330,18 +372,18 @@ export async function answerQuestion(
       select: { answerCounter: true },
     });
 
-    await tx.ruleProgress.upsert({
-      where: { userId_ruleId: { userId, ruleId: sentence.rule.id } },
+    await tx.skillProgress.upsert({
+      where: { userId_skillId: { userId, skillId: exercise.skill.id } },
       create: {
         userId,
-        ruleId: sentence.rule.id,
+        skillId: exercise.skill.id,
         box: after,
         dueAtCounter: dueAfter(user.answerCounter, after),
         seenCount: 1,
         correctCount: correct ? 1 : 0,
         isNew: false,
         lastReviewedAt: new Date(),
-        lastSentenceId: sentenceId,
+        lastExerciseId: exerciseId,
       },
       update: {
         box: after,
@@ -350,12 +392,22 @@ export async function answerQuestion(
         ...(correct ? { correctCount: { increment: 1 } } : {}),
         isNew: false,
         lastReviewedAt: new Date(),
-        lastSentenceId: sentenceId,
+        lastExerciseId: exerciseId,
       },
     });
 
     await tx.attempt.create({
-      data: { userId, sentenceId, answerIndex, isCorrect: correct, studySessionId },
+      data: {
+        userId,
+        exerciseId,
+        // Une réponse absente est un JSON null explicite, pas une colonne
+        // vide : la distinction compte pour les types d'exercice à saisie.
+        answer: answer === undefined || answer === null
+          ? Prisma.JsonNull
+          : (answer as Prisma.InputJsonValue),
+        isCorrect: correct,
+        studySessionId,
+      },
     });
 
     return { before, after };
@@ -363,9 +415,8 @@ export async function answerQuestion(
 
   return {
     correct,
-    faultyTokenIndex: sentence.faultyTokenIndex,
-    correction: sentence.correction,
-    rule,
+    reveal,
+    skill,
     box: {
       before: verdict.before,
       after: verdict.after,
@@ -379,14 +430,15 @@ export async function answerQuestion(
 export type SessionSummary = {
   studySessionId: string;
   mode: StudySessionType;
+  moduleId: string;
   score: number;
   correct: number;
   total: number;
   byCategory: { category: string; correct: number; total: number }[];
   level: string;
   mastered: number;
-  ruleCount: number;
-  /** Règles de la série retombées au plus bas, à retravailler en priorité. */
+  skillCount: number;
+  /** Compétences de la série retombées au plus bas, à retravailler en priorité. */
   weakest: { slug: string; title: string; box: number }[];
 };
 
@@ -397,7 +449,14 @@ export async function finishStudySession(
 ): Promise<SessionSummary> {
   const studySession = await db.studySession.findUnique({
     where: { id: studySessionId },
-    select: { id: true, userId: true, type: true, questionCount: true, finishedAt: true },
+    select: {
+      id: true,
+      userId: true,
+      type: true,
+      moduleId: true,
+      questionCount: true,
+      finishedAt: true,
+    },
   });
   if (!studySession || studySession.userId !== userId) throw new SessionError("Série introuvable.");
 
@@ -405,9 +464,9 @@ export async function finishStudySession(
     where: { userId, studySessionId },
     select: {
       isCorrect: true,
-      sentence: {
+      exercise: {
         select: {
-          rule: {
+          skill: {
             select: { id: true, slug: true, title: true, category: { select: { name: true } } },
           },
         },
@@ -421,7 +480,7 @@ export async function finishStudySession(
 
   const buckets = new Map<string, { correct: number; total: number }>();
   for (const a of attempts) {
-    const name = a.sentence.rule.category.name;
+    const name = a.exercise.skill.category.name;
     const bucket = buckets.get(name) ?? { correct: 0, total: 0 };
     bucket.total++;
     if (a.isCorrect) bucket.correct++;
@@ -438,28 +497,31 @@ export async function finishStudySession(
     }
   }
 
-  const ruleIds = [...new Set(attempts.map((a) => a.sentence.rule.id))];
-  const [ruleCount, mastered, weakProgress] = await Promise.all([
-    db.rule.count({ where: { status: "active" } }),
-    db.ruleProgress.count({ where: { userId, box: { gte: 4 } } }),
-    db.ruleProgress.findMany({
-      where: { userId, ruleId: { in: ruleIds }, box: { lte: 1 } },
+  const skillIds = [...new Set(attempts.map((a) => a.exercise.skill.id))];
+  const [skillCount, mastered, weakProgress] = await Promise.all([
+    db.skill.count({ where: { moduleId: studySession.moduleId, status: "active" } }),
+    db.skillProgress.count({
+      where: { userId, box: { gte: 4 }, skill: { moduleId: studySession.moduleId } },
+    }),
+    db.skillProgress.findMany({
+      where: { userId, skillId: { in: skillIds }, box: { lte: 1 } },
       orderBy: { box: "asc" },
       take: 5,
-      select: { box: true, rule: { select: { slug: true, title: true } } },
+      select: { box: true, skill: { select: { slug: true, title: true } } },
     }),
   ]);
 
   return {
     studySessionId,
     mode: studySession.type,
+    moduleId: studySession.moduleId,
     score,
     correct,
     total,
     byCategory: [...buckets.entries()].map(([category, v]) => ({ category, ...v })),
-    level: estimateLevel(mastered, ruleCount),
+    level: estimateLevel(mastered, skillCount),
     mastered,
-    ruleCount,
-    weakest: weakProgress.map((p) => ({ slug: p.rule.slug, title: p.rule.title, box: p.box })),
+    skillCount,
+    weakest: weakProgress.map((p) => ({ slug: p.skill.slug, title: p.skill.title, box: p.box })),
   };
 }

@@ -1,5 +1,9 @@
-// La Règle — schéma de données
+// L'Atelier — schéma de données
 // Postgres uniquement (dev et prod), voir README pour le pourquoi.
+//
+// Le moteur est neutre : il connaît des modules, des compétences et des
+// exercices. Ce qu'une compétence représente — une règle d'orthographe, une
+// notion d'histoire, un mot d'espagnol — regarde le module, pas la base.
 
 generator client {
   provider = "prisma-client-js"
@@ -10,7 +14,9 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-/* ─────────────────────────── CONTENU ─────────────────────────── */
+/**
+ * ─────────────────────────── CONTENU ───────────────────────────
+ */
 
 enum ContentStatus {
   active // servi en exercice, compté dans le score
@@ -18,21 +24,49 @@ enum ContentStatus {
   disputed // usage partagé : présenté comme point de débat, jamais compté comme faute
 }
 
-model Category {
-  id        String   @id @default(cuid())
-  slug      String   @unique
-  name      String   @unique
-  position  Int
-  createdAt DateTime @default(now())
+/// Une matière. Ajouter un module, c'est ajouter une ligne ici et un fichier
+/// dans src/modules/ — jamais une migration.
+model Module {
+  /// Identifiant lisible, repris dans les URL : "francais", "culture-g".
+  id          String        @id
+  name        String
+  tagline     String
+  position    Int
+  /// Modèle de progression : "repetition-espacee" ou "scores".
+  progression String        @default("repetition-espacee")
+  status      ContentStatus @default(active)
+  createdAt   DateTime      @default(now())
 
-  rules            Rule[]
-  defaultForUsers  UserSettings[]
+  skills     Skill[]
+  categories Category[]
+  dictations Dictation[]
 
   @@index([position])
 }
 
-model Rule {
+model Category {
+  id        String   @id @default(cuid())
+  moduleId  String
+  slug      String
+  name      String
+  position  Int
+  createdAt DateTime @default(now())
+
+  module          Module         @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  skills          Skill[]
+  defaultForUsers UserSettings[]
+
+  /// Deux modules peuvent tous deux avoir une catégorie « Vocabulaire ».
+  @@unique([moduleId, slug])
+  @@unique([moduleId, name])
+  @@index([moduleId, position])
+}
+
+/// Ce que le moteur appelle une compétence. Le module lui donne son nom :
+/// « règle » en français, « notion » en culture générale, « carte » en langues.
+model Skill {
   id         String        @id @default(cuid())
+  moduleId   String
   slug       String        @unique // identifiant lisible, ex. "a-à" — repris du fichier d'origine
   categoryId String
   title      String // t
@@ -44,33 +78,33 @@ model Rule {
   createdAt  DateTime      @default(now())
   updatedAt  DateTime      @updatedAt
 
-  category   Category       @relation(fields: [categoryId], references: [id], onDelete: Restrict)
-  sentences  Sentence[]
-  progress   RuleProgress[]
-  dictations Dictation[]    @relation("DictationRules")
+  module     Module          @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  category   Category        @relation(fields: [categoryId], references: [id], onDelete: Restrict)
+  exercises  Exercise[]
+  progress   SkillProgress[]
+  dictations Dictation[]     @relation("DictationSkills")
 
+  @@index([moduleId, status])
   @@index([categoryId, status])
   @@index([status, difficulty])
 }
 
-model Sentence {
-  id     String @id @default(cuid())
-  ruleId String
+/// Un exercice. Sa forme dépend de son `kind` ; la base ne l'interprète pas.
+model Exercise {
+  id      String @id @default(cuid())
+  skillId String
 
-  /// Texte propre, SANS crochets. Les crochets sont un format d'import, pas de stockage.
-  text String
+  /// Type d'exercice : "spot-error", "qcm", "flashcard", "traduction", "ecoute".
+  /// Le sens de `payload` en découle, et lui seul.
+  kind String
 
-  /// Texte normalisé (minuscules, accents et ponctuation retirés) — garde-fou anti-doublon en base.
-  textNormalized String @unique
+  /// Charge utile propre au type. Le serveur la confie à ExerciseKind.grade()
+  /// et n'en lit jamais le détail lui-même.
+  payload Json
 
-  /// Index du token fautif dans tokenize(text). -1 si la phrase est correcte.
-  faultyTokenIndex Int
-
-  /// Forme correcte attendue. null si et seulement si faultyTokenIndex === -1.
-  correction String?
-
-  /// Redondant avec faultyTokenIndex mais explicite, et indexable.
-  isCorrect  Boolean
+  /// Empreinte de dédoublonnage, produite par ExerciseKind.fingerprint().
+  /// Unique : deux exercices jumeaux ne peuvent pas coexister.
+  fingerprint String @unique
 
   difficulty Int
   status     ContentStatus @default(active)
@@ -78,14 +112,16 @@ model Sentence {
   createdAt  DateTime      @default(now())
   updatedAt  DateTime      @updatedAt
 
-  rule     Rule      @relation(fields: [ruleId], references: [id], onDelete: Cascade)
+  skill    Skill     @relation(fields: [skillId], references: [id], onDelete: Cascade)
   attempts Attempt[]
 
-  @@index([ruleId, status])
+  @@index([skillId, status])
+  @@index([kind])
 }
 
 model Dictation {
   id         String        @id @default(cuid())
+  moduleId   String        @default("francais")
   /// Unique : garde-fou anti-doublon, et clé d'idempotence du seed.
   text       String        @unique
   theme      String
@@ -94,32 +130,36 @@ model Dictation {
   batch      String?
   createdAt  DateTime      @default(now())
 
-  rules    Rule[]              @relation("DictationRules")
+  module   Module             @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  skills   Skill[]            @relation("DictationSkills")
   attempts DictationAttempt[]
 
+  @@index([moduleId, difficulty, status])
   @@index([difficulty, status])
 }
 
-/* ──────────────────── UTILISATEURS ET SESSIONS ──────────────────── */
+/**
+ * ──────────────────── UTILISATEURS ET SESSIONS ────────────────────
+ */
 
 model User {
-  id            String    @id @default(cuid())
+  id           String    @id @default(cuid())
   /// Email tel que saisi (affichage).
-  email         String
+  email        String
   /// Email en minuscules — c'est LUI qui porte l'unicité (insensibilité à la casse).
-  emailKey      String    @unique
-  passwordHash  String
-  pseudo        String
-  createdAt     DateTime  @default(now())
-  lastLoginAt   DateTime?
+  emailKey     String    @unique
+  passwordHash String
+  pseudo       String
+  createdAt    DateTime  @default(now())
+  lastLoginAt  DateTime?
 
   /// Compteur global de questions répondues : l'horloge du planificateur.
-  answerCounter Int       @default(0)
+  answerCounter   Int       @default(0)
   /// Date du test de positionnement, null s'il n'a pas été passé.
   placementDoneAt DateTime?
 
   sessions          Session[]
-  progress          RuleProgress[]
+  progress          SkillProgress[]
   attempts          Attempt[]
   studySessions     StudySession[]
   dictationAttempts DictationAttempt[]
@@ -154,27 +194,29 @@ model UserSettings {
   defaultCategory Category? @relation(fields: [defaultCategoryId], references: [id], onDelete: SetNull)
 }
 
-/* ─────────────────────────── PROGRESSION ─────────────────────────── */
+/**
+ * ─────────────────────────── PROGRESSION ───────────────────────────
+ */
 
-model RuleProgress {
-  userId String
-  ruleId String
+model SkillProgress {
+  userId  String
+  skillId String
 
   /// Palier 0 à 5.
-  box            Int      @default(0)
+  box            Int       @default(0)
   /// Échéance exprimée en nombre de questions répondues (User.answerCounter), pas en date.
-  dueAtCounter   Int      @default(0)
-  seenCount      Int      @default(0)
-  correctCount   Int      @default(0)
+  dueAtCounter   Int       @default(0)
+  seenCount      Int       @default(0)
+  correctCount   Int       @default(0)
   lastReviewedAt DateTime?
-  isNew          Boolean  @default(true)
-  /// Dernière phrase servie pour cette règle : évite de la resservir deux fois de suite.
-  lastSentenceId String?
+  isNew          Boolean   @default(true)
+  /// Dernier exercice servi : évite de le resservir deux fois de suite.
+  lastExerciseId String?
 
-  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
-  rule Rule @relation(fields: [ruleId], references: [id], onDelete: Cascade)
+  user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  skill Skill @relation(fields: [skillId], references: [id], onDelete: Cascade)
 
-  @@id([userId, ruleId])
+  @@id([userId, skillId])
   @@index([userId, dueAtCounter]) // la requête du planificateur
   @@index([userId, isNew])
 }
@@ -182,19 +224,21 @@ model RuleProgress {
 model Attempt {
   id             String   @id @default(cuid())
   userId         String
-  sentenceId     String
-  /// Index du token cliqué, -1 pour « Aucune faute ».
-  answerIndex    Int
+  exerciseId     String
+  /// La réponse brute de l'utilisateur, telle que le type d'exercice l'attend :
+  /// un rang pour un QCM ou un repérage, un booléen pour une carte, une
+  /// chaîne pour une traduction.
+  answer         Json
   isCorrect      Boolean
   studySessionId String?
   createdAt      DateTime @default(now())
 
   user         User          @relation(fields: [userId], references: [id], onDelete: Cascade)
-  sentence     Sentence      @relation(fields: [sentenceId], references: [id], onDelete: Cascade)
+  exercise     Exercise      @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
   studySession StudySession? @relation(fields: [studySessionId], references: [id], onDelete: SetNull)
 
   @@index([userId, createdAt])
-  @@index([sentenceId])
+  @@index([exerciseId])
 }
 
 enum StudySessionType {
@@ -203,17 +247,18 @@ enum StudySessionType {
   targeted
   weakness
   dictation
-  /// Entraînement sur une seule règle, lancé depuis sa fiche au catalogue.
-  rule
+  /// Entraînement sur une seule compétence, lancé depuis sa fiche au catalogue.
+  skill
 }
 
 model StudySession {
   id            String           @id @default(cuid())
   userId        String
   type          StudySessionType
+  moduleId      String           @default("francais")
   category      String?
-  /// Slug de la règle travaillée, pour les séries de type `rule`.
-  ruleSlug      String?
+  /// Slug de la compétence travaillée, pour les séries de type `skill`.
+  skillSlug     String?
   questionCount Int
   score         Int? // pourcentage, null tant que la série n'est pas finie
   startedAt     DateTime         @default(now())
@@ -240,7 +285,9 @@ model DictationAttempt {
   @@index([userId, createdAt])
 }
 
-/* ───────────────── LIMITATION DE DÉBIT (sans Redis) ───────────────── */
+/**
+ * ───────────────── LIMITATION DE DÉBIT (sans Redis) ─────────────────
+ */
 
 enum AuthAction {
   login

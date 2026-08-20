@@ -4,10 +4,14 @@
  * Un seul jeu de types pour les deux modes : le mode connecté les reçoit du
  * serveur, le mode invité les fabrique dans le navigateur. Les écrans ne savent
  * pas lequel des deux les alimente.
+ *
+ * Rien ici ne suppose une matière : c'est le `kind` d'une question qui dit à
+ * l'écran quoi afficher, et le vocabulaire du module qui dit comment l'appeler.
  */
 import type { Token } from "./tokenize";
+import type { ModuleVocabulaire } from "../modules/types";
 
-export type { Token };
+export type { Token, ModuleVocabulaire };
 
 export type PublicUser = {
   id: string;
@@ -19,30 +23,60 @@ export type PublicUser = {
   placementDone: boolean;
 };
 
+/* ─────────────────────── questions, par type d'exercice ─────────────────── */
+
+/** « Repère la faute » : les mots cliquables, rien qui désigne le fautif. */
+export type SpotErrorQuestion = { text: string; tokens: Token[] };
+
+/** « Choisis la bonne réponse » : l'énoncé et les propositions, sans la clé. */
+export type QcmQuestion = { question: string; choices: string[] };
+
+/** Carte mémoire, traduction, écoute : la face visible seulement. */
+export type CarteQuestion = { recto?: string; langue: string | null };
+
 export type Question = {
   position: number;
-  sentenceId: string;
-  ruleId: string;
+  exerciseId: string;
+  skillId: string;
   category: string;
-  tokens: Token[];
+  /** "spot-error" | "qcm" | "flashcard" | "traduction" | "ecoute" */
+  kind: string;
+  /** À lire selon `kind`. */
+  question: unknown;
 };
+
+export type StudyMode = "test" | "training" | "targeted" | "weakness" | "skill";
 
 export type StartedSession = {
   studySessionId: string;
   mode: StudyMode;
+  moduleId: string;
   category: string | null;
-  /** Renseigné quand la série porte sur une seule règle. */
-  rule: { slug: string; title: string } | null;
+  /** Renseigné quand la série porte sur une seule compétence. */
+  skill: { slug: string; title: string } | null;
   questions: Question[];
 };
 
-export type StudyMode = "test" | "training" | "targeted" | "weakness" | "rule";
+/* ─────────────────────────── verdicts ─────────────────────────── */
+
+/** Ce que « repère la faute » dévoile une fois la note posée. */
+export type SpotErrorReveal = { faultyTokenIndex: number; correction: string | null };
+
+/** Ce qu'un QCM dévoile. */
+export type QcmReveal = { answerIndex: number; explanation: string | null };
 
 export type AnswerVerdict = {
   correct: boolean;
-  faultyTokenIndex: number;
-  correction: string | null;
-  rule: { slug: string; title: string; statement: string; tip: string; category: string };
+  /** À lire selon le `kind` de la question. */
+  reveal: unknown;
+  skill: {
+    slug: string;
+    title: string;
+    statement: string;
+    tip: string;
+    category: string;
+    moduleId: string;
+  };
   box: { before: number; after: number; mastered: boolean; justMastered: boolean };
   alreadyAnswered: boolean;
 };
@@ -50,17 +84,20 @@ export type AnswerVerdict = {
 export type SessionSummary = {
   studySessionId: string;
   mode: string;
+  moduleId: string;
   score: number;
   correct: number;
   total: number;
   byCategory: { category: string; correct: number; total: number }[];
   level: string;
   mastered: number;
-  ruleCount: number;
+  skillCount: number;
   weakest: { slug: string; title: string; box: number }[];
 };
 
-export type RuleProgressView = {
+/* ─────────────────────────── progression ─────────────────────────── */
+
+export type SkillProgressView = {
   slug: string;
   title: string;
   category: string;
@@ -74,21 +111,45 @@ export type RuleProgressView = {
   lastReviewedAt: string | null;
 };
 
-export type ProgressPayload = {
-  level: string;
-  masteryBox: number;
-  answerCounter: number;
-  ruleCount: number;
+/** Une ligne du tableau de bord : un module, vu de haut. */
+export type ModuleSummary = {
+  id: string;
+  name: string;
+  tagline: string;
+  progression: string;
+  skillCount: number;
+  seen: number;
   mastered: number;
   due: number;
   unseen: number;
-  categories: { category: string; rules: number; mastered: number; due: number; unseen: number }[];
-  rules: RuleProgressView[];
-  weakest: RuleProgressView[];
-  recentSessions: { type: string; questionCount: number; score: number | null; startedAt: string; finishedAt: string | null }[];
+  level: string;
 };
 
-export type CatalogueRule = {
+export type ProgressPayload = {
+  moduleId: string;
+  modules: ModuleSummary[];
+  level: string;
+  masteryBox: number;
+  answerCounter: number;
+  skillCount: number;
+  mastered: number;
+  due: number;
+  unseen: number;
+  categories: { category: string; skills: number; mastered: number; due: number; unseen: number }[];
+  skills: SkillProgressView[];
+  weakest: SkillProgressView[];
+  recentSessions: {
+    type: string;
+    questionCount: number;
+    score: number | null;
+    startedAt: string;
+    finishedAt: string | null;
+  }[];
+};
+
+/* ─────────────────────────── catalogue ─────────────────────────── */
+
+export type CatalogueSkill = {
   slug: string;
   title: string;
   statement: string;
@@ -96,7 +157,7 @@ export type CatalogueRule = {
   difficulty: number;
   category: string;
   disputed: boolean;
-  sentenceCount: number;
+  exerciseCount: number;
   box: number;
   isNew: boolean;
   seenCount: number;
@@ -104,9 +165,13 @@ export type CatalogueRule = {
 };
 
 export type CataloguePayload = {
-  categories: { name: string; rules: number }[];
-  rules: CatalogueRule[];
+  moduleId: string;
+  vocabulaire: ModuleVocabulaire;
+  categories: { name: string; skills: number }[];
+  skills: CatalogueSkill[];
 };
+
+/* ─────────────────────────── dictées ─────────────────────────── */
 
 export type DictationSummary = {
   id: string;
@@ -114,7 +179,7 @@ export type DictationSummary = {
   theme: string;
   difficulty: number;
   wordCount: number;
-  rules: { slug: string; title: string }[];
+  skills: { slug: string; title: string }[];
   bestScore: number | null;
   lastAttemptAt: string | null;
 };
@@ -145,9 +210,13 @@ export type DictationResultPayload = {
   bestScore: number;
 };
 
+/* ─────────────────────────── mode invité ─────────────────────────── */
+
 export type PublicContent = {
+  moduleId: string;
+  vocabulaire: ModuleVocabulaire | null;
   categories: string[];
-  rules: {
+  skills: {
     id: string;
     slug: string;
     title: string;
@@ -156,7 +225,14 @@ export type PublicContent = {
     difficulty: number;
     category: string;
     disputed: boolean;
-    sentences: { id: string; text: string; faultyTokenIndex: number; correction: string | null }[];
+    exercises: { id: string; kind: string; payload: unknown }[];
   }[];
-  dictations: { id: string; number: number; text: string; theme: string; difficulty: number; rules: string[] }[];
+  dictations: {
+    id: string;
+    number: number;
+    text: string;
+    theme: string;
+    difficulty: number;
+    skills: string[];
+  }[];
 };

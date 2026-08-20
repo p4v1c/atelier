@@ -7,7 +7,9 @@ import { describe, expect, it } from "vitest";
 import { loadLegacyBatch } from "../prisma/seed/legacy";
 import { PATCHES } from "../prisma/seed/patches";
 import { parseMarkedSentence, tokenize } from "../src/lib/tokenize";
-import { validateBatches } from "../src/lib/validate-content";
+import { validateModule } from "../src/lib/validate-content";
+import { francais } from "../src/modules/francais";
+import { convertirLot } from "../src/modules/francais/contenu";
 
 const batch = loadLegacyBatch();
 
@@ -19,7 +21,7 @@ describe("lot legacy", () => {
   });
 
   it("ne comporte aucune erreur bloquante", () => {
-    const report = validateBatches([batch]);
+    const report = validateModule(francais, [convertirLot(batch)]);
     const errors = report.findings.filter((f) => f.severity === "error");
     expect(errors).toEqual([]);
   });

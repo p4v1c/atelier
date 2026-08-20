@@ -1,8 +1,9 @@
 /**
- * POST /api/session/answer { studySessionId, sentenceId, answerIndex }
+ * POST /api/session/answer { studySessionId, exerciseId, answer }
  *
  * Le serveur décide si c'est juste, met à jour le palier, et renvoie le verdict
- * avec la règle et l'astuce. Le client n'envoie que l'index cliqué.
+ * avec l'énoncé et l'astuce. Le client n'envoie que sa réponse brute ; c'est le
+ * type d'exercice, côté serveur, qui sait ce qu'elle vaut.
  */
 import { fail, json, readJson, withCookie } from "@/lib/http";
 import { requireUser } from "@/lib/auth/guard";

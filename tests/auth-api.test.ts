@@ -302,7 +302,7 @@ describe("limitation de débit", () => {
 
 describe("reprise de la progression invitée", () => {
   it("recopie la progression locale dans le compte tout juste créé", async () => {
-    const rules = await prisma.rule.findMany({ take: 3, select: { slug: true, id: true }, orderBy: { slug: "asc" } });
+    const rules = await prisma.skill.findMany({ take: 3, select: { slug: true, id: true }, orderBy: { slug: "asc" } });
     const guestProgress = {
       answerCounter: 42,
       placementDone: true,
@@ -321,13 +321,13 @@ describe("reprise de la progression invitée", () => {
     expect(body.user.answerCounter).toBe(42);
     expect(body.user.placementDone).toBe(true);
 
-    const stored = await prisma.ruleProgress.findMany({ where: { userId: body.user.id } });
+    const stored = await prisma.skillProgress.findMany({ where: { userId: body.user.id } });
     expect(stored).toHaveLength(2);
-    expect(stored.find((p) => p.ruleId === rules[1]!.id)!.box).toBe(5);
+    expect(stored.find((p) => p.skillId === rules[1]!.id)!.box).toBe(5);
   });
 
   it("borne les valeurs fantaisistes plutôt que de les accepter", async () => {
-    const rule = await prisma.rule.findFirstOrThrow({ select: { slug: true } });
+    const rule = await prisma.skill.findFirstOrThrow({ select: { slug: true } });
 
     const tooHigh = await register(
       post("/api/auth/register", {
@@ -343,7 +343,7 @@ describe("reprise de la progression invitée", () => {
       guestProgress: { rules: [{ slug: rule.slug, box: 4, dueAtCounter: 0, seenCount: 2, correctCount: 900 }] },
     });
     const body = await response.json();
-    const stored = await prisma.ruleProgress.findFirstOrThrow({ where: { userId: body.user.id } });
+    const stored = await prisma.skillProgress.findFirstOrThrow({ where: { userId: body.user.id } });
     expect(stored.correctCount).toBe(2); // ramené au nombre de vues
   });
 
@@ -351,13 +351,13 @@ describe("reprise de la progression invitée", () => {
     const { response } = await createAccount();
     const body = await response.json();
     expect(body.guestProgress).toBeNull();
-    expect(await prisma.ruleProgress.count({ where: { userId: body.user.id } })).toBe(0);
+    expect(await prisma.skillProgress.count({ where: { userId: body.user.id } })).toBe(0);
   });
 });
 
 describe("GET /api/account/export", () => {
   it("rend toutes les données de l'utilisateur, sans aucun secret", async () => {
-    const rule = await prisma.rule.findFirstOrThrow({ select: { slug: true } });
+    const rule = await prisma.skill.findFirstOrThrow({ select: { slug: true } });
     const { email, cookie } = await createAccount({
       guestProgress: { answerCounter: 5, rules: [{ slug: rule.slug, box: 2, dueAtCounter: 12, seenCount: 3, correctCount: 2 }] },
     });
@@ -374,7 +374,7 @@ describe("GET /api/account/export", () => {
     const data = JSON.parse(raw);
     expect(data.user.email).toBe(email);
     expect(data.progress).toHaveLength(1);
-    expect(data.progress[0].rule).toBe(rule.slug);
+    expect(data.progress[0].skill).toBe(rule.slug);
     expect(data.sessions).toHaveLength(1);
     expect(data.attempts).toEqual([]);
   });

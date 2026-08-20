@@ -15,7 +15,7 @@
  * C'est ici et seulement ici qu'apparaissent les « cas discutés ».
  */
 import { useEffect, useMemo, useState } from "react";
-import type { CatalogueRule, CataloguePayload } from "@/lib/api-types";
+import type { CatalogueSkill, CataloguePayload } from "@/lib/api-types";
 import type { ScreenProps } from "../App";
 import { NoContentError } from "@/lib/client/engine";
 import { MASTERY_BOX } from "@/lib/study/scheduler";
@@ -40,7 +40,7 @@ function normaliser(texte: string): string {
     .toLowerCase();
 }
 
-function etatDe(r: CatalogueRule): Etat {
+function etatDe(r: CatalogueSkill): Etat {
   if (r.isNew) return "jamais";
   return r.box >= MASTERY_BOX ? "maitrisee" : "en-cours";
 }
@@ -67,7 +67,7 @@ export function Catalogue({ engine, setScreen, setChrome }: ScreenProps) {
   const liste = useMemo(() => {
     if (!data) return [];
     const q = normaliser(recherche.trim());
-    return data.rules.filter((r) => {
+    return data.skills.filter((r) => {
       if (categorie && r.category !== categorie) return false;
       if (difficulte && r.difficulty !== difficulte) return false;
       if (etat !== "tous" && etatDe(r) !== etat) return false;
@@ -82,13 +82,13 @@ export function Catalogue({ engine, setScreen, setChrome }: ScreenProps) {
    * progresser, par ordre alphabétique pour retrouver une règle qu'on connaît.
    */
   const groupes = useMemo(() => {
-    const map = new Map<string, CatalogueRule[]>();
+    const map = new Map<string, CatalogueSkill[]>();
     for (const r of liste) {
       const bucket = map.get(r.category) ?? [];
       bucket.push(r);
       map.set(r.category, bucket);
     }
-    const compare = (a: CatalogueRule, b: CatalogueRule) =>
+    const compare = (a: CatalogueSkill, b: CatalogueSkill) =>
       tri === "alpha"
         ? a.title.localeCompare(b.title, "fr")
         : a.difficulty - b.difficulty || a.title.localeCompare(b.title, "fr");
@@ -117,7 +117,7 @@ export function Catalogue({ engine, setScreen, setChrome }: ScreenProps) {
   const travailler = async (slug: string) => {
     setMessage(null);
     try {
-      const session = await engine.start({ mode: "rule", size: 10, category: null, rule: slug });
+      const session = await engine.start({ mode: "skill", size: 10, category: null, skill: slug });
       setScreen({ name: "serie", session });
     } catch (e) {
       setMessage(e instanceof NoContentError || e instanceof Error ? e.message : "Entraînement impossible.");
@@ -136,6 +136,9 @@ export function Catalogue({ engine, setScreen, setChrome }: ScreenProps) {
 
   if (!data) return <p className="legende attente">Chargement du catalogue…</p>;
 
+  // Le vocabulaire du module : « règle » en français, « notion » ailleurs.
+  const voc = data.vocabulaire;
+
   const filtre = categorie !== null || difficulte !== null || etat !== "tous" || recherche.trim() !== "";
 
   return (
@@ -146,7 +149,7 @@ export function Catalogue({ engine, setScreen, setChrome }: ScreenProps) {
             type="search"
             value={recherche}
             onChange={(e) => setRecherche(e.target.value)}
-            placeholder="Chercher une règle : « participe », « virgule », « à ou a »…"
+            placeholder={`Chercher un point : « participe », « virgule », « à ou a »…`}
             autoComplete="off"
           />
         </label>
@@ -156,7 +159,7 @@ export function Catalogue({ engine, setScreen, setChrome }: ScreenProps) {
         </p>
         <div className="puces">
           <button className={`puce ${categorie === null ? "active" : ""}`} onClick={() => setCategorie(null)}>
-            Toutes<i>{data.rules.length}</i>
+            Toutes<i>{data.skills.length}</i>
           </button>
           {data.categories.map((c) => (
             <button
@@ -165,7 +168,7 @@ export function Catalogue({ engine, setScreen, setChrome }: ScreenProps) {
               onClick={() => setCategorie(categorie === c.name ? null : c.name)}
             >
               {c.name}
-              <i>{c.rules}</i>
+              <i>{c.skills}</i>
             </button>
           ))}
         </div>
@@ -215,7 +218,7 @@ export function Catalogue({ engine, setScreen, setChrome }: ScreenProps) {
         <p className="compte-resultats">
           {liste.length === 0
             ? "Aucune règle ne correspond."
-            : `${liste.length} règle${liste.length > 1 ? "s" : ""} sur ${data.rules.length}`}
+            : `${liste.length} ${liste.length > 1 ? voc.skillPluriel : voc.skill} sur ${data.skills.length}`}
           {filtre && (
             <button
               className="lien"
@@ -301,7 +304,7 @@ export function Catalogue({ engine, setScreen, setChrome }: ScreenProps) {
                           {r.disputed
                             ? "point de débat, jamais noté"
                             : r.isNew
-                              ? `jamais travaillée · ${r.sentenceCount} phrases disponibles`
+                              ? `jamais travaillé · ${r.exerciseCount} ${voc.exercisePluriel} disponibles`
                               : `palier ${r.box}/5 · ${r.correctCount} bonnes réponses sur ${r.seenCount}`}
                         </p>
                         {!r.disputed && (

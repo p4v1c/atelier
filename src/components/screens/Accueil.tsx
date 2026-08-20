@@ -53,7 +53,7 @@ export function Accueil({ engine, user, setScreen, setChrome }: ScreenProps) {
 
   if (!progress) return <p className="legende attente">Chargement de ta progression…</p>;
 
-  const { mastered, ruleCount, due, unseen, level } = progress;
+  const { mastered, skillCount, due, unseen, level } = progress;
 
   return (
     <>
@@ -63,10 +63,10 @@ export function Accueil({ engine, user, setScreen, setChrome }: ScreenProps) {
           <span>Niveau estimé</span>
         </p>
         <div className="anneau">
-          <i style={{ width: `${ruleCount ? (mastered / ruleCount) * 100 : 0}%` }} />
+          <i style={{ width: `${skillCount ? (mastered / skillCount) * 100 : 0}%` }} />
         </div>
         <p className="legende">
-          {mastered} règle{mastered > 1 ? "s" : ""} maîtrisée{mastered > 1 ? "s" : ""} sur {ruleCount} · {due} à
+          {mastered} règle{mastered > 1 ? "s" : ""} maîtrisée{mastered > 1 ? "s" : ""} sur {skillCount} · {due} à
           réviser
           {unseen > 0 ? ` · ${unseen} jamais vue${unseen > 1 ? "s" : ""}` : ""}
         </p>
@@ -89,7 +89,7 @@ export function Accueil({ engine, user, setScreen, setChrome }: ScreenProps) {
         </div>
       )}
 
-      {!progress.rules.some((r) => !r.isNew) && (
+      {!progress.skills.some((r) => !r.isNew) && (
         <div className="carte" style={{ borderLeft: "3px solid var(--or)" }}>
           <p className="legende" style={{ color: "var(--craie)" }}>
             Commence par le test de positionnement : {TEST_SIZE} phrases pour situer ton niveau dans chaque domaine
@@ -115,7 +115,7 @@ export function Accueil({ engine, user, setScreen, setChrome }: ScreenProps) {
             >
               {c.category}
               <i>
-                {c.mastered}/{c.rules}
+                {c.mastered}/{c.skills}
               </i>
             </button>
           ))}
@@ -155,7 +155,7 @@ export function Accueil({ engine, user, setScreen, setChrome }: ScreenProps) {
         <button className="tuile" onClick={() => setScreen({ name: "catalogue" })}>
           <b>Les règles</b>
           <span>
-            Chercher parmi les {ruleCount} difficultés, et s’entraîner sur l’une d’elles.
+            Chercher parmi les {skillCount} difficultés, et s’entraîner sur l’une d’elles.
           </span>
         </button>
         <button className="tuile" disabled={occupe} onClick={() => lancer("weakness")}>

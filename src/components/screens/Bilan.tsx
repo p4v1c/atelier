@@ -48,7 +48,7 @@ export function Bilan({ engine, summary, category, setScreen, setChrome }: Props
         ) : (
           <>
             Niveau estimé : <b style={{ color: "var(--papier)" }}>{summary.level}</b> · {summary.mastered} /{" "}
-            {summary.ruleCount} règles maîtrisées.
+            {summary.skillCount} règles maîtrisées.
           </>
         )}
       </p>

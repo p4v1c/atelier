@@ -30,7 +30,7 @@ export async function GET(request: Request): Promise<Response> {
       text: true,
       theme: true,
       difficulty: true,
-      rules: { select: { slug: true, title: true } },
+      skills: { select: { slug: true, title: true } },
       attempts: {
         where: { userId: auth.user.id },
         orderBy: { score: "desc" },
@@ -51,7 +51,7 @@ export async function GET(request: Request): Promise<Response> {
         theme: d.theme,
         difficulty: d.difficulty,
         wordCount: dictationWords(d.text).length,
-        rules: d.rules.map((r) => ({ slug: r.slug, title: r.title })),
+        rules: d.skills.map((r) => ({ slug: r.slug, title: r.title })),
         bestScore: d.attempts[0]?.score ?? null,
         lastAttemptAt: d.attempts[0]?.createdAt.toISOString() ?? null,
       })),

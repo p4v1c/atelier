@@ -1,12 +1,12 @@
 /**
- * GET /api/public/content
+ * GET /api/public/content?module=francais
  *
- * Tout le contenu jouable, en une fois — la seule route non authentifiée en
- * dehors de /api/auth.
+ * Tout le contenu jouable d'un module, en une fois — la seule route non
+ * authentifiée en dehors de /api/auth.
  *
  * Elle existe pour le MODE INVITÉ : sans compte, la progression reste dans le
  * navigateur, donc le planificateur doit tourner dans le navigateur, donc le
- * navigateur a besoin du contenu, index du mot fautif compris.
+ * navigateur a besoin du contenu, réponses comprises.
  *
  * Oui, un invité peut lire les réponses dans l'onglet réseau. Il n'a rien à y
  * gagner : sa progression n'est ni partagée ni classée, et dès qu'il crée un
@@ -14,13 +14,14 @@
  */
 import { gzipSync } from "node:zlib";
 import { prisma } from "@/lib/prisma";
+import { MODULE_BY_ID } from "@/modules";
 
 export const revalidate = 300;
 
 /**
  * Compresse la réponse si le client sait la lire.
  *
- * Avec 618 règles, la charge utile dépasse 750 Ko : Next ne compresse pas les
+ * Avec 618 compétences, la charge utile dépasse 750 Ko : Next ne compresse pas les
  * réponses construites à la main dans un gestionnaire de route, il faut donc
  * le faire ici. Le gain est d'un facteur cinq environ.
  */
@@ -40,10 +41,17 @@ function maybeGzip(body: string, request: Request): Response {
 }
 
 export async function GET(request: Request): Promise<Response> {
-  const [categories, rules, dictations] = await Promise.all([
-    prisma.category.findMany({ orderBy: { position: "asc" }, select: { name: true, position: true } }),
-    prisma.rule.findMany({
-      where: { status: { in: ["active", "disputed"] } },
+  const demande = new URL(request.url).searchParams.get("module");
+  const moduleId = /^[a-z0-9-]{1,40}$/.test(demande ?? "") ? demande! : "francais";
+
+  const [categories, skills, dictations] = await Promise.all([
+    prisma.category.findMany({
+      where: { moduleId },
+      orderBy: { position: "asc" },
+      select: { name: true, position: true },
+    }),
+    prisma.skill.findMany({
+      where: { moduleId, status: { in: ["active", "disputed"] } },
       orderBy: [{ category: { position: "asc" } }, { difficulty: "asc" }, { slug: "asc" }],
       select: {
         id: true,
@@ -54,22 +62,26 @@ export async function GET(request: Request): Promise<Response> {
         difficulty: true,
         status: true,
         category: { select: { name: true } },
-        sentences: {
+        exercises: {
           where: { status: "active" },
-          select: { id: true, text: true, faultyTokenIndex: true, correction: true },
+          select: { id: true, kind: true, payload: true },
         },
       },
     }),
     prisma.dictation.findMany({
-      where: { status: "active" },
+      where: { moduleId, status: "active" },
       orderBy: [{ difficulty: "asc" }, { theme: "asc" }, { id: "asc" }],
-      select: { id: true, text: true, theme: true, difficulty: true, rules: { select: { slug: true } } },
+      select: { id: true, text: true, theme: true, difficulty: true, skills: { select: { slug: true } } },
     }),
   ]);
 
   const payload = {
-    categories: categories.filter((c) => rules.some((r) => r.category.name === c.name)).map((c) => c.name),
-    rules: rules.map((r) => ({
+    moduleId,
+    vocabulaire: MODULE_BY_ID.get(moduleId)?.vocabulaire ?? null,
+    categories: categories
+      .filter((c) => skills.some((r) => r.category.name === c.name))
+      .map((c) => c.name),
+    skills: skills.map((r) => ({
       id: r.id,
       slug: r.slug,
       title: r.title,
@@ -78,7 +90,7 @@ export async function GET(request: Request): Promise<Response> {
       difficulty: r.difficulty,
       category: r.category.name,
       disputed: r.status === "disputed",
-      sentences: r.sentences,
+      exercises: r.exercises,
     })),
     dictations: dictations.map((d, i) => ({
       id: d.id,
@@ -86,7 +98,7 @@ export async function GET(request: Request): Promise<Response> {
       text: d.text,
       theme: d.theme,
       difficulty: d.difficulty,
-      rules: d.rules.map((x) => x.slug),
+      skills: d.skills.map((x) => x.slug),
     })),
   };
   // Contenu public et identique pour tout le monde : il peut être mis en cache.

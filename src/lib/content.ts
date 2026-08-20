@@ -68,8 +68,18 @@ export type ContentBatch = {
  * qui vise une règle inexistante est une erreur franche, pas un silence.
  */
 export function resolveBatches(batches: ContentBatch[]): ContentBatch[] {
+  // Copie systématique. Les lots sont des constantes de module, partagées entre
+  // tous les appels : les modifier sur place ferait qu'un deuxième appel dans le
+  // même processus — le validateur puis le seed, par exemple — verrait les
+  // phrases ajoutées deux fois.
+  const copies = batches.map((b) => ({
+    ...b,
+    rules: b.rules.map((r) => ({ ...r, sentences: [...r.sentences] })),
+    additions: undefined,
+  }));
+
   const ruleBySlug = new Map<string, SeedRule>();
-  for (const batch of batches) {
+  for (const batch of copies) {
     for (const rule of batch.rules) ruleBySlug.set(rule.slug, rule);
   }
 
@@ -81,17 +91,16 @@ export function resolveBatches(batches: ContentBatch[]): ContentBatch[] {
         orphans.push(`${batch.id} → ${addition.ruleSlug}`);
         continue;
       }
-      rule.sentences = [
-        ...rule.sentences,
-        ...addition.sentences.map((s) => ({ ...s, batch: s.batch ?? batch.id })),
-      ];
+      rule.sentences.push(
+        ...addition.sentences.map((s) => ({ ...s, batch: s.batch ?? batch.id }))
+      );
     }
   }
   if (orphans.length > 0) {
     throw new Error(`Phrases ajoutées à des règles inconnues :\n  ${orphans.join("\n  ")}`);
   }
 
-  return batches.map((b) => ({ ...b, additions: undefined }));
+  return copies;
 }
 
 /** Catégories, dans l'ordre d'affichage. Les cinq premières existent déjà. */

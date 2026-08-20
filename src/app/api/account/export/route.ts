@@ -16,14 +16,22 @@ export async function GET(request: Request): Promise<Response> {
   const userId = auth.user.id;
 
   const [progress, attempts, studySessions, dictationAttempts, settings, sessions] = await Promise.all([
-    prisma.ruleProgress.findMany({
+    prisma.skillProgress.findMany({
       where: { userId },
-      include: { rule: { select: { slug: true, title: true, category: { select: { name: true } } } } },
-      orderBy: { ruleId: "asc" },
+      include: {
+        skill: {
+          select: { slug: true, title: true, moduleId: true, category: { select: { name: true } } },
+        },
+      },
+      orderBy: { skillId: "asc" },
     }),
     prisma.attempt.findMany({
       where: { userId },
-      include: { sentence: { select: { text: true, rule: { select: { slug: true } } } } },
+      include: {
+        exercise: {
+          select: { kind: true, payload: true, skill: { select: { slug: true, moduleId: true } } },
+        },
+      },
       orderBy: { createdAt: "asc" },
     }),
     prisma.studySession.findMany({ where: { userId }, orderBy: { startedAt: "asc" } }),
@@ -46,7 +54,7 @@ export async function GET(request: Request): Promise<Response> {
 
   const payload = {
     exportedAt: new Date().toISOString(),
-    format: 1,
+    format: 2,
     user: toPublicUser(auth.user),
     settings: settings && {
       seriesLength: settings.seriesLength,
@@ -54,9 +62,10 @@ export async function GET(request: Request): Promise<Response> {
       options: settings.options,
     },
     progress: progress.map((p) => ({
-      rule: p.rule.slug,
-      title: p.rule.title,
-      category: p.rule.category.name,
+      module: p.skill.moduleId,
+      skill: p.skill.slug,
+      title: p.skill.title,
+      category: p.skill.category.name,
       box: p.box,
       dueAtCounter: p.dueAtCounter,
       seenCount: p.seenCount,
@@ -65,13 +74,18 @@ export async function GET(request: Request): Promise<Response> {
       lastReviewedAt: p.lastReviewedAt?.toISOString() ?? null,
     })),
     attempts: attempts.map((a) => ({
-      rule: a.sentence.rule.slug,
-      sentence: a.sentence.text,
-      answerIndex: a.answerIndex,
+      module: a.exercise.skill.moduleId,
+      skill: a.exercise.skill.slug,
+      kind: a.exercise.kind,
+      // L'exercice complet, réponse incluse : c'est TON export, il n'a pas à
+      // te cacher ce sur quoi tu as travaillé.
+      exercise: a.exercise.payload,
+      answer: a.answer,
       isCorrect: a.isCorrect,
       at: a.createdAt.toISOString(),
     })),
     studySessions: studySessions.map((s) => ({
+      module: s.moduleId,
       type: s.type,
       category: s.category,
       questionCount: s.questionCount,

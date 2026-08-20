@@ -31,8 +31,11 @@ export async function importGuestProgress(
   }
 
   const slugs = [...new Set(guest.rules.map((r) => r.slug))];
-  const rules = await db.rule.findMany({ where: { slug: { in: slugs } }, select: { id: true, slug: true } });
-  const idBySlug = new Map(rules.map((r) => [r.slug, r.id]));
+  const skills = await db.skill.findMany({
+    where: { slug: { in: slugs } },
+    select: { id: true, slug: true },
+  });
+  const idBySlug = new Map(skills.map((r) => [r.slug, r.id]));
   const unknownSlugs = slugs.filter((s) => !idBySlug.has(s));
 
   // Une même règle envoyée deux fois : on garde la meilleure progression.
@@ -48,7 +51,7 @@ export async function importGuestProgress(
     .filter((r) => idBySlug.has(r.slug))
     .map((r) => ({
       userId,
-      ruleId: idBySlug.get(r.slug)!,
+      skillId: idBySlug.get(r.slug)!,
       box: r.box,
       dueAtCounter: r.dueAtCounter,
       seenCount: r.seenCount,
@@ -59,7 +62,7 @@ export async function importGuestProgress(
     }));
 
   if (rows.length > 0) {
-    await db.ruleProgress.createMany({ data: rows, skipDuplicates: true });
+    await db.skillProgress.createMany({ data: rows, skipDuplicates: true });
   }
 
   return { imported: rows.length, unknownSlugs, answerCounter: guest.answerCounter };
