@@ -1,7 +1,13 @@
-import { lotsEnSkills } from "../commun";
+import { dicteesEnSeed, lotsEnSkills } from "../commun";
 import type { ModuleBatch } from "../../types";
-import { LOTS_ANGLAIS } from "../../../../prisma/seed/langues/anglais";
+import { DICTEES_ANGLAIS, LOTS_ANGLAIS } from "../../../../prisma/seed/langues/anglais";
 
 export function chargerContenuAnglais(): ModuleBatch[] {
-  return [{ id: "en-base", skills: lotsEnSkills(LOTS_ANGLAIS, "en-GB", "en-base") }];
+  return [
+    {
+      id: "en-base",
+      skills: lotsEnSkills(LOTS_ANGLAIS, "en-GB", "en-base"),
+      dictations: dicteesEnSeed(DICTEES_ANGLAIS),
+    },
+  ];
 }

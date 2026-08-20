@@ -9,6 +9,7 @@
  * ─────────────────────────────────────────────────────────────────────────
  */
 import { ecouteVue, flashcardVue, traductionVue } from "./Carte";
+import { prononciationVue } from "./Prononciation";
 import { qcmVue } from "./Qcm";
 import { spotErrorVue } from "./SpotError";
 import type { VueExercice } from "./types";
@@ -19,6 +20,7 @@ export const VUES: Record<string, VueExercice> = {
   flashcard: flashcardVue,
   traduction: traductionVue,
   ecoute: ecouteVue,
+  prononciation: prononciationVue,
 };
 
 export function vuePour(kind: string): VueExercice | null {

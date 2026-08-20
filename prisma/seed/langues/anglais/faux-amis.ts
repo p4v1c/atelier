@@ -16,6 +16,7 @@ export const ANGLAIS_FAUX_AMIS: LotCartes[] = [
       "Dix mots anglais qui ressemblent à un mot français et veulent dire autre chose. Ce sont ceux qui font le plus de dégâts, parce qu'on les emploie sans hésiter.",
     tip: "Quand un mot anglais ressemble trop au français, méfie-toi : la ressemblance est souvent un piège hérité du latin.",
     difficulty: 2,
+    niveau: "B1",
     cartes: [
       {
         etranger: "actually",
@@ -86,6 +87,7 @@ export const ANGLAIS_FAUX_AMIS: LotCartes[] = [
       "Ceux qui traînent dans les courriels professionnels. Les employer de travers ne fait pas seulement une faute : cela change ce qu'on annonce.",
     tip: "Dans un courriel, relis les mots qui ressemblent au français : ce sont eux qui font dire le contraire de ce qu'on pense.",
     difficulty: 2,
+    niveau: "B2",
     cartes: [
       {
         etranger: "to demand",
@@ -155,6 +157,8 @@ export const ANGLAIS_FAUX_AMIS: LotCartes[] = [
       "Des phrases entières qu'un francophone construit mot à mot depuis le français, et qui ne se disent pas ainsi. Elles se repèrent à l'oreille d'un anglophone en une seconde.",
     tip: "Si une phrase anglaise se traduit trop bien mot à mot, il y a une chance sur deux qu'elle soit calquée.",
     difficulty: 2,
+    niveau: "A2",
+    parle: true,
     oral: true,
     cartes: [
       {
@@ -219,6 +223,7 @@ export const ANGLAIS_FAUX_AMIS: LotCartes[] = [
       "Des mots anglais employés en français… qui ne veulent pas dire cela en anglais, ou n'y existent pas du tout. Les employer tels quels ne se comprend pas.",
     tip: "Un mot anglais entré en français a souvent changé de sens en route. Vérifie-le avant de le réemployer en anglais.",
     difficulty: 2,
+    niveau: "B1",
     cartes: [
       {
         etranger: "jogging",

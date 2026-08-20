@@ -1,0 +1,375 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   LES LANGUES — signalétique
+   ═══════════════════════════════════════════════════════════════════════
+
+   Ni le cahier d'écolier du français, ni le manuel de la culture générale :
+   apprendre une langue, c'est déchiffrer des panneaux, des annonces de gare,
+   des couvertures de guide de conversation. D'où l'Archivo large et serré, les
+   aplats francs, et un accent par langue — bleu de signalisation pour
+   l'anglais, rouge pour l'espagnol.
+
+   Tout est accroché à [data-langue] : les deux modules partagent la peau et ne
+   diffèrent que par l'accent. Ajouter le thaï ne demandera qu'une couleur. */
+
+body:has(.app[data-langue]) {
+  background: #F5F6F7;
+  background-image: none;
+  padding: 0;
+  display: block;
+}
+@media (prefers-color-scheme: dark) {
+  body:has(.app[data-langue]) { background: #101317; }
+}
+.app[data-langue] { max-width: none; width: 100%; }
+
+[data-langue] {
+  --lg-fond: #F5F6F7;
+  --lg-surface: #FFFFFF;
+  --lg-creux: #ECEEF1;
+  --lg-encre: #14161A;
+  --lg-douce: #5C636E;
+  --lg-pale: #8B939E;
+  --lg-filet: #E1E4E8;
+  --lg-vert: #17795E;
+  --lg-vert-pale: #E4F3EE;
+  --lg-rouge: #B3341F;
+  --lg-rouge-pale: #FBEAE6;
+  --lg-ombre: 0 1px 2px rgba(20, 22, 26, .06), 0 8px 24px rgba(20, 22, 26, .06);
+
+  --lg-titre: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --lg-corps: "Karla", system-ui, sans-serif;
+  --lg-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+
+  background: var(--lg-fond);
+  color: var(--lg-encre);
+  font-family: var(--lg-corps);
+  font-size: 16px;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* L'accent, une couleur par langue. C'est la seule chose qui les distingue. */
+[data-langue="anglais"] { --lg-accent: #1B4D8F; --lg-accent-pale: #E7EEF8; }
+[data-langue="espagnol"] { --lg-accent: #B3341F; --lg-accent-pale: #FBEAE6; }
+
+@media (prefers-color-scheme: dark) {
+  [data-langue] {
+    --lg-fond: #101317;
+    --lg-surface: #171B21;
+    --lg-creux: #0B0E12;
+    --lg-encre: #E9ECEF;
+    --lg-douce: #98A0AB;
+    --lg-pale: #6B747F;
+    --lg-filet: #262C34;
+    --lg-vert: #4FBE9B;
+    --lg-vert-pale: #12241F;
+    --lg-rouge: #E0705B;
+    --lg-rouge-pale: #2A1613;
+    --lg-ombre: 0 1px 2px rgba(0, 0, 0, .5), 0 8px 24px rgba(0, 0, 0, .35);
+  }
+  [data-langue="anglais"] { --lg-accent: #7BA6E0; --lg-accent-pale: #16233A; }
+  [data-langue="espagnol"] { --lg-accent: #E0705B; --lg-accent-pale: #2A1613; }
+}
+
+/* ── ossature ── */
+
+.lg-wrap { max-width: 940px; margin: 0 auto; padding: 0 22px 90px; }
+
+.lg-topbar {
+  display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+  padding: 20px 0; margin-bottom: 26px; border-bottom: 1px solid var(--lg-filet);
+}
+.lg-brand {
+  font-family: var(--lg-titre); font-weight: 700; font-size: 1.5rem;
+  font-stretch: 112%; letter-spacing: -.02em; text-transform: uppercase;
+  background: none; border: 0; padding: 0; color: inherit; cursor: pointer;
+}
+.lg-brand .accent { color: var(--lg-accent); }
+.lg-nav { margin-left: auto; display: flex; gap: 2px; flex-wrap: wrap; }
+.lg-navbtn {
+  border: 0; background: none; color: var(--lg-douce); cursor: pointer;
+  font: inherit; font-size: .88rem; padding: 7px 13px; border-radius: 4px;
+}
+.lg-navbtn:hover { background: var(--lg-creux); color: var(--lg-encre); }
+.lg-navbtn.on { background: var(--lg-accent); color: #fff; font-weight: 700; }
+
+[data-langue] h1 {
+  font-family: var(--lg-titre); font-weight: 700; font-stretch: 112%;
+  font-size: clamp(1.8rem, 4vw, 2.6rem); line-height: 1.05; letter-spacing: -.02em;
+  margin: 0 0 10px; color: var(--lg-encre); text-wrap: balance;
+}
+[data-langue] h2 {
+  font-family: var(--lg-titre); font-weight: 700; font-size: 1.15rem;
+  letter-spacing: -.01em; margin: 0 0 12px; color: var(--lg-encre);
+}
+.lg-eyebrow {
+  font-family: var(--lg-mono); font-size: .7rem; letter-spacing: .16em;
+  text-transform: uppercase; color: var(--lg-accent); font-weight: 600; margin: 0 0 8px;
+}
+.lg-muted { color: var(--lg-douce); }
+.lg-small { font-size: .85rem; }
+
+/* ── le bandeau de niveau ── */
+
+.lg-niveau-bandeau {
+  display: flex; align-items: center; gap: 22px; flex-wrap: wrap;
+  background: var(--lg-accent); color: #fff;
+  border-radius: 10px; padding: 22px 26px; margin-bottom: 22px;
+}
+.lg-badge {
+  font-family: var(--lg-titre); font-weight: 700; font-stretch: 112%;
+  font-size: 2.6rem; line-height: 1; letter-spacing: -.03em;
+  background: rgba(255, 255, 255, .16); border-radius: 8px; padding: 10px 18px;
+}
+.lg-niveau-texte { flex: 1 1 260px; }
+.lg-niveau-texte b { display: block; font-size: 1rem; margin-bottom: 4px; }
+.lg-niveau-texte span { font-size: .88rem; opacity: .85; line-height: 1.5; }
+.lg-niveau-bandeau .lg-btn {
+  background: #fff; color: var(--lg-accent); border: 0;
+}
+
+/* L'échelle des niveaux : où on en est, d'un coup d'œil. */
+.lg-echelle { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 30px; }
+.lg-echelon {
+  flex: 1 1 120px; background: var(--lg-surface); border: 1px solid var(--lg-filet);
+  border-radius: 8px; padding: 12px 14px;
+}
+.lg-echelon.tenu { border-color: var(--lg-vert); background: var(--lg-vert-pale); }
+.lg-echelon.encours { border-color: var(--lg-accent); }
+.lg-echelon .n {
+  font-family: var(--lg-mono); font-weight: 600; font-size: 1.05rem; display: block;
+}
+.lg-echelon.tenu .n { color: var(--lg-vert); }
+.lg-echelon.encours .n { color: var(--lg-accent); }
+.lg-echelon .p { font-size: .76rem; color: var(--lg-douce); margin-top: 3px; display: block; }
+.lg-echelon .piste {
+  display: block; height: 4px; background: var(--lg-creux);
+  border-radius: 2px; overflow: hidden; margin-top: 8px;
+}
+.lg-echelon .piste i { display: block; height: 100%; background: var(--lg-accent); }
+.lg-echelon.tenu .piste i { background: var(--lg-vert); }
+
+/* ── les modes d'entraînement ── */
+
+.lg-modes {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(232px, 1fr));
+  gap: 12px; margin-bottom: 32px;
+}
+.lg-mode {
+  background: var(--lg-surface); border: 1px solid var(--lg-filet); border-radius: 10px;
+  padding: 18px 20px; text-align: left; font: inherit; color: inherit; cursor: pointer;
+  display: flex; flex-direction: column; gap: 7px;
+  transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+.lg-mode:hover:not(:disabled) {
+  transform: translateY(-2px); box-shadow: var(--lg-ombre); border-color: var(--lg-accent);
+}
+.lg-mode:disabled { opacity: .55; cursor: default; }
+.lg-mode .pictogramme { font-size: 1.4rem; line-height: 1; }
+.lg-mode .nom { font-family: var(--lg-titre); font-weight: 700; font-size: 1.02rem; }
+.lg-mode .quoi { font-size: .85rem; color: var(--lg-douce); line-height: 1.5; }
+.lg-mode .compte {
+  font-family: var(--lg-mono); font-size: .74rem; color: var(--lg-accent);
+  letter-spacing: .04em; margin-top: auto;
+}
+
+/* ── accents disponibles ── */
+
+.lg-accents { display: flex; gap: 8px; flex-wrap: wrap; margin: 0 0 8px; }
+.lg-accent-puce {
+  font-family: var(--lg-mono); font-size: .74rem; letter-spacing: .04em;
+  border: 1px solid var(--lg-filet); border-radius: 999px; padding: 4px 11px;
+  color: var(--lg-douce);
+}
+.lg-accent-puce.actif { border-color: var(--lg-accent); color: var(--lg-accent); }
+
+/* ── boutons ── */
+
+.lg-btn {
+  background: var(--lg-accent); color: #fff; border: 0; border-radius: 6px;
+  padding: 11px 20px; font: inherit; font-size: .9rem; font-weight: 700; cursor: pointer;
+}
+.lg-btn.creux { background: none; color: var(--lg-accent); border: 1px solid var(--lg-filet); }
+.lg-btn:disabled { opacity: .5; cursor: default; }
+
+.lg-alerte {
+  background: var(--lg-rouge-pale); color: var(--lg-rouge);
+  border-radius: 6px; padding: 12px 16px; font-size: .9rem; margin: 0 0 16px;
+}
+
+.lg-footer {
+  margin-top: 44px; padding-top: 18px; border-top: 1px solid var(--lg-filet);
+  font-size: .78rem; color: var(--lg-pale); line-height: 1.6;
+}
+
+@media (max-width: 560px) {
+  .lg-niveau-bandeau { padding: 18px 20px; gap: 16px; }
+  .lg-badge { font-size: 2rem; padding: 8px 14px; }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   LES ÉCRANS PARTAGÉS, EN SIGNALÉTIQUE
+   ═══════════════════════════════════════════════════════════════════════
+
+   Série, catalogue, dictée, statistiques : les mêmes composants que partout,
+   avec la peau des langues. Rien n'est dupliqué. */
+
+[data-langue] .jauge { margin: 0 0 22px; }
+[data-langue] .barre { height: 4px; background: var(--lg-creux); border-radius: 2px; }
+[data-langue] .barre span { background: var(--lg-accent); }
+[data-langue] .compte { font-family: var(--lg-mono); color: var(--lg-douce); font-size: .82rem; }
+[data-langue] .compte b { color: var(--lg-encre); }
+
+[data-langue] .categorie {
+  font-family: var(--lg-mono); color: var(--lg-accent);
+  font-size: .7rem; letter-spacing: .16em; margin: 0 0 12px;
+}
+
+/* La page de cahier devient une fiche. */
+[data-langue] .cahier {
+  background: var(--lg-surface); border: 1px solid var(--lg-filet); border-radius: 10px;
+  box-shadow: none; padding: 26px 28px;
+}
+[data-langue] .cahier::before { display: none; }
+[data-langue] .marge { display: none; }
+
+/* Le mot ou la phrase à travailler : c'est la vedette de l'écran. */
+[data-langue] .recto {
+  font-family: var(--lg-titre); font-weight: 700; font-stretch: 112%;
+  font-size: clamp(1.5rem, 3.4vw, 2.1rem); line-height: 1.2; letter-spacing: -.02em;
+  color: var(--lg-encre); margin: 0 0 8px;
+}
+[data-langue] .recto.muet {
+  font-family: var(--lg-corps); font-weight: 400; font-stretch: normal;
+  font-size: 1rem; letter-spacing: 0; color: var(--lg-douce);
+}
+[data-langue] .verso {
+  font-family: var(--lg-corps); font-size: 1.25rem; line-height: 1.4;
+  color: var(--lg-accent); margin: 16px 0 0; font-weight: 500;
+}
+[data-langue] .traduction-aide {
+  font-size: .95rem; color: var(--lg-douce); margin: 0 0 16px;
+}
+
+[data-langue] .saisie input {
+  background: var(--lg-fond); color: var(--lg-encre);
+  border: 1px solid var(--lg-filet); border-radius: 6px;
+  font-family: var(--lg-corps); font-size: 1.05rem; padding: 12px 15px;
+}
+[data-langue] .saisie input:focus { outline: 2px solid var(--lg-accent); outline-offset: 1px; }
+[data-langue] .attendu { color: var(--lg-douce); font-size: .95rem; }
+[data-langue] .attendu b {
+  font-family: var(--lg-corps); font-size: 1.05rem; font-weight: 700;
+}
+[data-langue] .attendu.juste b { color: var(--lg-vert); }
+[data-langue] .attendu.rate b { color: var(--lg-rouge); }
+[data-langue] .attendu .variantes { color: var(--lg-pale); }
+
+[data-langue] .propositions { gap: 8px; }
+[data-langue] .proposition {
+  background: var(--lg-fond); color: var(--lg-encre);
+  border: 1px solid var(--lg-filet); border-radius: 6px;
+}
+[data-langue] .proposition:hover:not(:disabled) {
+  border-color: var(--lg-accent); background: var(--lg-accent-pale);
+}
+[data-langue] .proposition.juste { border-color: var(--lg-vert); background: var(--lg-vert-pale); color: var(--lg-vert); }
+[data-langue] .proposition.rate { border-color: var(--lg-rouge); background: var(--lg-rouge-pale); color: var(--lg-rouge); }
+
+[data-langue] .explication {
+  background: var(--lg-accent-pale); border-left: 3px solid var(--lg-accent);
+  border-radius: 0 6px 6px 0; color: var(--lg-encre); font-size: .92rem;
+}
+
+[data-langue] .regle {
+  background: var(--lg-surface); border: 1px solid var(--lg-filet);
+  border-left: 3px solid var(--lg-rouge); border-radius: 0 10px 10px 0;
+  color: var(--lg-encre);
+}
+[data-langue] .regle.juste { border-left-color: var(--lg-vert); }
+[data-langue] .verdict { color: var(--lg-rouge); font-family: var(--lg-mono); }
+[data-langue] .regle.juste .verdict { color: var(--lg-vert); }
+[data-langue] .verdict .palier { color: var(--lg-pale); }
+[data-langue] .regle h2 {
+  font-family: var(--lg-titre); font-weight: 700; font-size: 1.1rem;
+  color: var(--lg-encre); margin: 4px 0 10px;
+}
+[data-langue] .regle p { color: var(--lg-douce); font-size: .92rem; }
+[data-langue] .astuce {
+  border-left: 2px solid var(--lg-filet); padding-left: 14px;
+  color: var(--lg-pale); font-style: italic;
+}
+
+/* Micro et prononciation */
+[data-langue] .micro { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 18px; }
+[data-langue] .partiel {
+  font-family: var(--lg-mono); font-size: .9rem; color: var(--lg-accent); margin: 0;
+}
+.onde {
+  width: 10px; height: 10px; border-radius: 50%; background: var(--lg-rouge);
+  animation: pulse-onde 1.1s ease-in-out infinite;
+}
+@keyframes pulse-onde {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: .35; transform: scale(1.45); }
+}
+@media (prefers-reduced-motion: reduce) { .onde { animation: none; } }
+
+[data-langue] .sans-voix, [data-langue] .avertissement-micro {
+  font-size: .82rem; color: var(--lg-pale); font-style: normal; line-height: 1.6;
+  margin: 12px 0 0; max-width: 62ch;
+}
+[data-langue] .ecouter {
+  font-family: var(--lg-mono); font-size: .74rem; letter-spacing: .06em;
+  padding: 7px 13px; border-radius: 999px;
+}
+
+/* Boutons, cartes, listes */
+[data-langue] .plein {
+  background: var(--lg-accent); color: #fff; border: 0; border-radius: 6px;
+  padding: 11px 20px; font-size: .9rem; font-weight: 700; letter-spacing: 0; text-transform: none;
+}
+[data-langue] .creux {
+  background: none; color: var(--lg-accent); border: 1px solid var(--lg-filet);
+  border-radius: 6px; padding: 11px 20px; font-size: .9rem; letter-spacing: 0; text-transform: none;
+}
+[data-langue] .lien { color: var(--lg-douce); letter-spacing: 0; text-transform: none; font-size: .85rem; }
+[data-langue] .lien:hover { color: var(--lg-accent); }
+[data-langue] .carte {
+  background: var(--lg-surface); border: 1px solid var(--lg-filet);
+  border-radius: 10px; box-shadow: none;
+}
+[data-langue] .tuile {
+  background: var(--lg-surface); border: 1px solid var(--lg-filet); border-radius: 10px;
+}
+[data-langue] .tuile b { font-family: var(--lg-titre); color: var(--lg-encre); }
+[data-langue] .tuile span { color: var(--lg-douce); }
+[data-langue] .legende { color: var(--lg-douce); }
+[data-langue] .alerte { background: var(--lg-rouge-pale); color: var(--lg-rouge); }
+[data-langue] .anneau { background: var(--lg-creux); }
+[data-langue] .anneau i { background: var(--lg-accent); }
+[data-langue] .fiche { border-color: var(--lg-filet); }
+[data-langue] .fiche-t, [data-langue] .domaine-nom { color: var(--lg-encre); }
+[data-langue] .fiche-e, [data-langue] .domaine-compte { color: var(--lg-douce); }
+[data-langue] .chercher input, [data-langue] .champ input, [data-langue] select {
+  background: var(--lg-fond); color: var(--lg-encre);
+  border: 1px solid var(--lg-filet); border-radius: 6px;
+}
+[data-langue] .lecon h2 { font-family: var(--lg-titre); color: var(--lg-encre); }
+[data-langue] .lecon h3 { color: var(--lg-accent); font-family: var(--lg-mono); }
+[data-langue] .lecon p { color: var(--lg-douce); }
+[data-langue] .visuel { background: var(--lg-creux); border: 1px solid var(--lg-filet); border-radius: 10px; }
+[data-langue] .visuel > figcaption { color: var(--lg-pale); font-family: var(--lg-mono); }
+[data-langue] .visuel .detail { color: var(--lg-douce); }
+[data-langue] .tableau th { color: var(--lg-pale); border-bottom-color: var(--lg-filet); }
+[data-langue] .tableau td { border-bottom-color: var(--lg-filet); }
+[data-langue] .frise li { border-left-color: var(--lg-filet); }
+[data-langue] .frise li::before { background: var(--lg-accent); }
+[data-langue] .frise .date { font-family: var(--lg-mono); color: var(--lg-accent); }
+[data-langue] .etapes li::before { font-family: var(--lg-mono); color: var(--lg-accent); }
+[data-langue] .comparaison h4 { color: var(--lg-accent); font-family: var(--lg-mono); }
+[data-langue] .comparaison li::before { background: var(--lg-accent); }
+[data-langue] .ardoise, [data-langue] textarea {
+  background: var(--lg-surface); color: var(--lg-encre);
+  border: 1px solid var(--lg-filet); border-radius: 10px;
+}

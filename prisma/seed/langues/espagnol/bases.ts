@@ -12,6 +12,8 @@ export const ESPAGNOL_BASES: LotCartes[] = [
       "Les premières phrases d'une rencontre. En espagnol, le tutoiement s'installe beaucoup plus vite qu'en français, surtout en Espagne.",
     tip: "Le sujet se dit rarement : la terminaison du verbe le porte déjà. « Yo soy » insiste, « soy » suffit.",
     difficulty: 1,
+    niveau: "A1",
+    parle: true,
     oral: true,
     cartes: [
       { etranger: "Mucho gusto.", francais: "Enchanté.", aussi: ["Ravi de vous rencontrer."], aussiEtranger: ["Encantado.", "Un placer."] },
@@ -35,6 +37,8 @@ export const ESPAGNOL_BASES: LotCartes[] = [
       "Les phrases d'une journée banale. L'espagnol du quotidien emploie beaucoup de verbes pronominaux là où le français n'en met pas.",
     tip: "Beaucoup de verbes changent de sens en devenant pronominaux : ir, aller, et irse, s'en aller.",
     difficulty: 1,
+    niveau: "A1",
+    parle: true,
     oral: true,
     cartes: [
       { etranger: "Me he dormido.", francais: "Je me suis rendormi.", aussi: ["J'ai trop dormi."], note: "Dormirse, c'est s'endormir ; dormir, c'est dormir." },
@@ -58,6 +62,8 @@ export const ESPAGNOL_BASES: LotCartes[] = [
       "Ce qu'on dit au guichet, à l'hôtel et dans la rue. Les formules sont courtes et reviennent partout dans le monde hispanophone.",
     tip: "Pour demander poliment, l'espagnol emploie le conditionnel ou l'imparfait : « quería » sonne plus doux que « quiero ».",
     difficulty: 2,
+    niveau: "A2",
+    parle: true,
     oral: true,
     cartes: [
       { etranger: "Quería un billete para Sevilla.", francais: "Je voudrais un billet pour Séville.", note: "L'imparfait de politesse, très courant en Espagne." },
@@ -81,6 +87,8 @@ export const ESPAGNOL_BASES: LotCartes[] = [
       "Commander, demander l'addition, refuser poliment. En Espagne, le bar est le lieu social par excellence : ces phrases servent tous les jours.",
     tip: "On commande avec « me pones » ou « me trae », rarement avec « quiero », qui sonne abrupt.",
     difficulty: 1,
+    niveau: "A1",
+    parle: true,
     oral: true,
     cartes: [
       { etranger: "¿Me pones una caña?", francais: "Tu me sers une bière pression ?", note: "Una caña : petit verre de bière pression, l'unité de base du bar espagnol." },

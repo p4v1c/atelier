@@ -209,7 +209,12 @@ export function lire(texte: string, options: OptionsLecture): () => void {
 
 /* ─────────────────── voix neuronale servie par le serveur ─────────────────── */
 
-export type EtatServeur = { disponible: boolean; voix: string | null };
+export type EtatServeur = {
+  disponible: boolean;
+  voix: string | null;
+  /** Étiquettes que le serveur sait lire : ["fr-FR", "en-GB", "es-MX"…]. */
+  langues?: string[];
+};
 
 let etatServeurMemo: Promise<EtatServeur> | null = null;
 

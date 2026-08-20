@@ -16,6 +16,7 @@ export const ESPAGNOL_FAUX_AMIS: LotCartes[] = [
       "Des mots espagnols qui ressemblent trait pour trait à un mot français et disent tout autre chose. Certains sont seulement faux, d'autres sont franchement gênants.",
     tip: "En espagnol, la ressemblance avec le français est la règle : c'est justement pour ça que les exceptions se retiennent mal.",
     difficulty: 2,
+    niveau: "B1",
     cartes: [
       {
         etranger: "embarazada",
@@ -83,6 +84,7 @@ export const ESPAGNOL_FAUX_AMIS: LotCartes[] = [
       "Moins spectaculaires que les premiers, mais plus fréquents : ceux-là passent inaperçus et faussent la phrase entière.",
     tip: "Devant un mot transparent, demande-toi s'il est trop transparent : c'est souvent le signe.",
     difficulty: 2,
+    niveau: "B1",
     cartes: [
       { etranger: "el equipaje", francais: "les bagages", note: "L'équipement se dit el equipo, qui veut aussi dire l'équipe." },
       { etranger: "la carta", francais: "la lettre", note: "Aussi le menu au restaurant. Une carte routière est un mapa." },
@@ -105,6 +107,8 @@ export const ESPAGNOL_FAUX_AMIS: LotCartes[] = [
       "Deux verbes pour « être », et le choix change le sens de la phrase. C'est la difficulté centrale de l'espagnol pour un francophone.",
     tip: "Ser dit ce qu'une chose est, estar dit où elle est et comment elle va. Ce qui dure prend ser, ce qui passe prend estar.",
     difficulty: 3,
+    niveau: "A2",
+    parle: true,
     oral: true,
     cartes: [
       { etranger: "Soy francés.", francais: "Je suis français.", note: "L'origine ne change pas : ser." },
@@ -140,6 +144,8 @@ export const ESPAGNOL_FAUX_AMIS: LotCartes[] = [
       "Le français dit « pour » dans les deux cas. L'espagnol distingue la cause du but, et le passage de la destination.",
     tip: "Para regarde devant : le but, le destinataire, l'échéance. Por regarde derrière ou autour : la cause, le moyen, le passage.",
     difficulty: 3,
+    niveau: "B1",
+    parle: true,
     cartes: [
       { etranger: "Es para ti.", francais: "C'est pour toi.", note: "Destinataire : para." },
       { etranger: "Gracias por todo.", francais: "Merci pour tout.", note: "La cause du remerciement : por." },

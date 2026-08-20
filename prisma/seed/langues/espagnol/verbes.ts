@@ -12,10 +12,12 @@ export const ESPAGNOL_VERBES: LotCartes[] = [
       "Les irrégularités les plus fréquentes, données en phrase. La plupart suivent des schémas : la diphtongue e→ie, o→ue, et la première personne en -go.",
     tip: "L'irrégularité touche souvent toutes les personnes sauf nosotros et vosotros : pensar donne pienso mais pensamos.",
     difficulty: 2,
+    niveau: "A2",
+    parle: true,
     oral: true,
     cartes: [
       { etranger: "Tengo que irme.", francais: "Je dois y aller.", note: "tener → tengo. Première personne en -go, comme hacer → hago." },
-      { etranger: "No puedo ahora.", francais: "Je ne peux pas maintenant.", note: "poder → puedo. Diphtongue o→ue." },
+      { etranger: "Duermo poco entre semana.", francais: "Je dors peu en semaine.", note: "dormir → duermo. Diphtongue o→ue, comme poder et volver." },
       { etranger: "Quiero verlo.", francais: "Je veux le voir.", note: "querer → quiero. Diphtongue e→ie." },
       { etranger: "¿Qué piensas?", francais: "Qu'est-ce que tu en penses ?", note: "pensar → piensas, mais pensamos reste régulier." },
       { etranger: "Vengo enseguida.", francais: "J'arrive tout de suite.", note: "venir → vengo. Enseguida : tout de suite." },
@@ -35,6 +37,8 @@ export const ESPAGNOL_VERBES: LotCartes[] = [
       "L'espagnol emploie encore le passé simple à l'oral, là où le français l'a abandonné. Le choix dépend de la distance au présent.",
     tip: "Hoy, esta semana, este año appellent le passé composé. Ayer, el año pasado appellent le passé simple.",
     difficulty: 3,
+    niveau: "B1",
+    parle: true,
     oral: true,
     cartes: [
       { etranger: "Hoy he comido tarde.", francais: "Aujourd'hui j'ai mangé tard.", note: "Hoy : la journée n'est pas finie, donc passé composé." },
@@ -44,9 +48,9 @@ export const ESPAGNOL_VERBES: LotCartes[] = [
       { etranger: "¿Has visto la película?", francais: "Tu as vu le film ?", note: "Sans repère temporel, le passé composé domine en Espagne." },
       { etranger: "Nunca he estado allí.", francais: "Je n'y suis jamais allé." },
       { etranger: "Se lo dije la semana pasada.", francais: "Je le lui ai dit la semaine dernière." },
-      { etranger: "Todavía no lo he terminado.", francais: "Je ne l'ai pas encore fini.", note: "Todavía no appelle toujours le passé composé." },
+      { etranger: "Aún no me han contestado.", francais: "Ils ne m'ont pas encore répondu.", note: "Aún no, comme todavía no, appelle toujours le passé composé." },
       { etranger: "Cuando llegué, ya se habían ido.", francais: "Quand je suis arrivé, ils étaient déjà partis." },
-      { etranger: "Antes vivía en Madrid.", francais: "Avant, j'habitais à Madrid.", note: "L'habitude dans le passé prend l'imparfait, comme en français." },
+      { etranger: "De niño iba mucho al campo.", francais: "Enfant, j'allais souvent à la campagne.", note: "L'habitude dans le passé prend l'imparfait ; ir → iba, l'un des trois seuls irréguliers." },
     ],
   },
 
@@ -58,6 +62,8 @@ export const ESPAGNOL_VERBES: LotCartes[] = [
       "Le courriel espagnol est moins formel que le français, mais plus que l'anglais. Les formules de clôture sont codifiées.",
     tip: "« Un saludo » suffit dans la plupart des cas ; « Atentamente » est réservé à ce qui est vraiment officiel.",
     difficulty: 2,
+    niveau: "B1",
+    parle: true,
     cartes: [
       { etranger: "Estimada señora Ruiz:", francais: "Madame Ruiz,", note: "Deux points et non une virgule après l'appel : c'est la norme espagnole." },
       { etranger: "Le escribo en relación con…", francais: "Je vous écris au sujet de…" },
@@ -80,6 +86,7 @@ export const ESPAGNOL_VERBES: LotCartes[] = [
       "Des tournures figées qu'on entend dans toutes les conversations et qui ne se devinent pas depuis le français.",
     tip: "Retiens l'expression entière : la traduire mot à mot ne donne jamais rien de compréhensible.",
     difficulty: 3,
+    niveau: "B2",
     oral: true,
     cartes: [
       { etranger: "Vale.", francais: "D'accord.", aussi: ["OK."], note: "Le mot le plus employé d'Espagne. En Amérique latine on dira plutôt bueno ou listo." },

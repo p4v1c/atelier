@@ -1,7 +1,8 @@
 /**
  * GET /api/tts/:dictationId?vitesse=lent
  *
- * Rend la dictée lue par une voix neuronale, en WAV.
+ * Rend la dictée lue par une voix neuronale, en WAV, dans SA langue et avec
+ * SON accent — chaque dictée porte l'étiquette de voix qui lui convient.
  *
  * La route n'accepte PAS de texte arbitraire : elle prend l'identifiant d'une
  * dictée et lit le texte en base. Sans cela, elle deviendrait un service de
@@ -28,12 +29,16 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
 
   const dictation = await prisma.dictation.findFirst({
     where: { id, status: "active" },
-    select: { text: true },
+    select: { text: true, voice: true },
   });
   if (!dictation) return fail(404, "not_found", "Dictée introuvable.");
 
-  const wav = await synthetiser(dictation.text, vitesse);
-  if (!wav) return fail(503, "tts_indisponible", "La synthèse a échoué.");
+  // C'est la dictée qui dit avec quel accent elle doit être lue : une dictée
+  // d'anglais lue par une voix française n'apprendrait qu'à mal prononcer.
+  const wav = await synthetiser(dictation.text, vitesse, dictation.voice);
+  if (!wav) {
+    return fail(503, "tts_indisponible", `Aucune voix « ${dictation.voice} » sur ce serveur.`);
+  }
 
   return new Response(new Uint8Array(wav), {
     headers: {

@@ -71,7 +71,7 @@ export interface Engine {
   finish(studySessionId: string): Promise<SessionSummary>;
   progress(moduleId?: string): Promise<ProgressPayload>;
   catalogue(moduleId?: string): Promise<CataloguePayload>;
-  dictations(): Promise<DictationsPayload>;
+  dictations(moduleId?: string): Promise<DictationsPayload>;
   dictation(id: string): Promise<DictationDetail>;
   gradeDictation(id: string, text: string): Promise<DictationResultPayload>;
   /** Efface la progression. Le mode connecté ne le propose pas. */
@@ -104,8 +104,8 @@ export class ServerEngine implements Engine {
   catalogue(moduleId?: string): Promise<CataloguePayload> {
     return apiGet<CataloguePayload>(`/api/catalogue${moduleId ? `?module=${moduleId}` : ""}`);
   }
-  dictations(): Promise<DictationsPayload> {
-    return apiGet<DictationsPayload>("/api/dictations");
+  dictations(moduleId?: string): Promise<DictationsPayload> {
+    return apiGet<DictationsPayload>(`/api/dictations${moduleId ? `?module=${moduleId}` : ""}`);
   }
   dictation(id: string): Promise<DictationDetail> {
     return apiGet<DictationDetail>(`/api/dictations/${id}`);
@@ -528,6 +528,8 @@ export class GuestEngine implements Engine {
         number: d.number,
         theme: d.theme,
         difficulty: d.difficulty,
+        voice: d.voice,
+        level: d.level,
         wordCount: dictationWords(d.text).length,
         skills: d.skills.map((slug) => ({
           slug,
@@ -547,6 +549,8 @@ export class GuestEngine implements Engine {
       text: d.text,
       theme: d.theme,
       difficulty: d.difficulty,
+      voice: d.voice,
+      level: d.level,
       bestScore: guestModule(this.state, this.moduleId).dictations[d.id] ?? null,
     };
   }

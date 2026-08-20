@@ -35,6 +35,8 @@ export async function GET(request: Request): Promise<Response> {
         slug: true,
         title: true,
         difficulty: true,
+        level: true,
+        lesson: true,
         category: { select: { name: true, position: true } },
       },
       orderBy: [{ category: { position: "asc" } }, { difficulty: "asc" }, { slug: "asc" }],
@@ -76,6 +78,8 @@ export async function GET(request: Request): Promise<Response> {
       title: skill.title,
       category: skill.category.name,
       difficulty: skill.difficulty,
+      level: skill.level,
+      hasLesson: skill.lesson !== null,
       box,
       isNew,
       mastered: !isNew && isMastered(box),
@@ -101,6 +105,43 @@ export async function GET(request: Request): Promise<Response> {
   }
 
   const mastered = skillProgress.filter((r) => r.mastered).length;
+
+  /**
+   * Le niveau du cadre européen, par palier.
+   *
+   * On ne se déclare pas d'un niveau parce qu'on y a touché : on l'est quand on
+   * le tient. La règle retenue est simple et défendable — un niveau est acquis
+   * à 80 %, et le niveau annoncé est le premier qui ne l'est pas encore. Un
+   * apprenant qui maîtrise tout le A1 et un tiers du A2 est donc « A2 en
+   * cours », ce qui est la vérité.
+   */
+  const parNiveau = new Map<string, { total: number; acquis: number; vus: number }>();
+  for (const s of skillProgress) {
+    if (!s.level) continue;
+    const bucket = parNiveau.get(s.level) ?? { total: 0, acquis: 0, vus: 0 };
+    bucket.total++;
+    if (s.mastered) bucket.acquis++;
+    if (!s.isNew) bucket.vus++;
+    parNiveau.set(s.level, bucket);
+  }
+  const ORDRE = ["A1", "A2", "B1", "B2", "C1", "C2"];
+  const niveaux = ORDRE.filter((n) => parNiveau.has(n)).map((n) => {
+    const b = parNiveau.get(n)!;
+    return {
+      niveau: n,
+      total: b.total,
+      acquis: b.acquis,
+      vus: b.vus,
+      part: b.total ? Math.round((b.acquis / b.total) * 100) : 0,
+    };
+  });
+  const SEUIL = 80;
+  const acquisJusqua = niveaux.filter((n) => n.part >= SEUIL);
+  const niveauEstime =
+    niveaux.length === 0
+      ? null
+      : (niveaux.find((n) => n.part < SEUIL)?.niveau ?? niveaux[niveaux.length - 1]!.niveau);
+  const niveauAcquis = acquisJusqua.length ? acquisJusqua[acquisJusqua.length - 1]!.niveau : null;
 
   // Les pires d'abord : palier le plus bas, puis le plus mauvais taux de réussite.
   const weakest = skillProgress
@@ -145,6 +186,10 @@ export async function GET(request: Request): Promise<Response> {
       moduleId,
       modules: resume,
       level: estimateLevel(mastered, skills.length),
+      /** Le cadre européen, quand la matière en relève. */
+      niveaux,
+      niveauEstime,
+      niveauAcquis,
       masteryBox: MASTERY_BOX,
       answerCounter: counter,
       skillCount: skills.length,

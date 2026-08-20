@@ -212,7 +212,13 @@ export function App() {
   };
 
   return (
-    <div className="app" data-module={surAtelier ? undefined : (look.theme ?? undefined)}>
+    <div
+      className="app"
+      data-module={surAtelier ? undefined : (look.theme ?? undefined)}
+      // Les modules de langue partagent une peau et ne diffèrent que par leur
+      // accent de couleur : le thème dit « langue », cet attribut dit laquelle.
+      data-langue={!surAtelier && look.theme === "langue" ? moduleId : undefined}
+    >
       {!enteteCachee && (
       <div className="entete">
         <p className="eyebrow">{chrome.fil}</p>

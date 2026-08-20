@@ -1,13 +1,42 @@
 /**
  * La fabrique des modules de langue.
  *
- * Toutes les langues marchent pareil : des cartes recto-verso, trois manières
- * de les réviser, les mêmes catégories. Ce qui change tient en quatre lignes —
- * le nom, l'étiquette de voix, le drapeau et le contenu. Ajouter le thaï
- * reviendra donc à écrire son vocabulaire, pas un module.
+ * Toutes les langues marchent pareil : on apprend du vocabulaire, on écoute,
+ * on écrit sous la dictée, on lit à voix haute, on étudie un point de
+ * grammaire. Ce qui change tient en quatre lignes — le nom, les accents, la
+ * couleur et le contenu. Ajouter le thaï reviendra donc à écrire son
+ * vocabulaire, pas un module.
+ *
+ * Le cadre européen (A1 → C2) structure tout : chaque série porte son niveau,
+ * ce qui permet de dire à l'apprenant où il en est plutôt que de lui compter
+ * des points.
  */
 import { ecoute, flashcard, traduction, type CartePayload } from "../kinds/flashcard";
-import type { LearningModule, ModuleCategory, ModuleFinding, SeedExercise, SeedSkill } from "../types";
+import { prononciation } from "../kinds/prononciation";
+import type {
+  LearningModule,
+  LessonDocument,
+  ModuleCategory,
+  ModuleFinding,
+  SeedDictationLike,
+  SeedExercise,
+  SeedSkill,
+} from "../types";
+
+/* ─────────────────────────── le cadre européen ─────────────────────────── */
+
+export const NIVEAUX = ["A1", "A2", "B1", "B2", "C1", "C2"] as const;
+export type Niveau = (typeof NIVEAUX)[number];
+
+/** Ce que chaque niveau veut dire, en une phrase qu'on peut afficher. */
+export const SENS_NIVEAU: Record<Niveau, string> = {
+  A1: "Se présenter, poser des questions simples, comprendre l'essentiel très lentement.",
+  A2: "Tenir une conversation courante : commander, demander son chemin, raconter sa journée.",
+  B1: "Se débrouiller en voyage, raconter, argumenter simplement, comprendre l'essentiel d'un texte.",
+  B2: "Discuter sans effort avec un natif, défendre un point de vue, lire la presse.",
+  C1: "S'exprimer avec nuance, comprendre l'implicite, l'ironie et les registres.",
+  C2: "Tout comprendre, restituer, nuancer comme un natif cultivé.",
+};
 
 /**
  * Les catégories, communes à toutes les langues.
@@ -24,7 +53,9 @@ export const CATEGORIES_LANGUE: ModuleCategory[] = [
   { slug: "travail", name: "Travail et études" },
   { slug: "verbes", name: "Verbes" },
   { slug: "grammaire", name: "Grammaire en contexte" },
+  { slug: "conjugaison", name: "Conjugaison" },
   { slug: "expressions", name: "Expressions" },
+  { slug: "prononciation", name: "Prononciation" },
 ];
 
 /* ─────────────────────────── écriture du contenu ─────────────────────── */
@@ -58,23 +89,33 @@ export type LotCartes = {
   statement: string;
   tip: string;
   difficulty: 1 | 2 | 3;
+  /** Niveau du cadre européen. C'est lui qui situe l'apprenant. */
+  niveau: Niveau;
   /**
    * L'oral. À réserver aux phrases : entendre un mot isolé hors contexte
    * n'apprend pas grand-chose, et allonge la série pour rien.
    */
   oral?: boolean;
+  /**
+   * La prononciation. Réservée aux phrases aussi, et seulement à celles qui
+   * valent la peine d'être dites — une formule qu'on emploiera vraiment.
+   */
+  parle?: boolean;
+  /** Un cours attaché à la série : conjugaison, point de grammaire, méthode. */
+  cours?: LessonDocument;
   cartes: Carte[];
 };
 
 /**
- * Une carte donne deux exercices, et parfois trois.
+ * Une carte donne deux exercices, et jusqu'à quatre.
  *
- *   flashcard  — langue → français : on reconnaît.
- *   traduction — français → langue : on produit. C'est le plus exigeant, donc
- *                le plus utile.
- *   ecoute     — seulement pour les lots de phrases.
+ *   flashcard    — langue → français : on reconnaît.
+ *   traduction   — français → langue : on produit. Le plus exigeant, donc le
+ *                  plus utile.
+ *   ecoute       — on entend, on écrit. Lots de phrases seulement.
+ *   prononciation— on lit à voix haute. Lots de phrases seulement.
  *
- * Les trois portent des empreintes distinctes : la même carte peut donc revenir
+ * Les quatre portent des empreintes distinctes : la même carte revient donc
  * sous une autre forme sans qu'on ait l'impression de se répéter.
  */
 export function cartesEnExercices(lot: LotCartes, langue: string, batch: string): SeedExercise[] {
@@ -104,16 +145,20 @@ export function cartesEnExercices(lot: LotCartes, langue: string, batch: string)
     };
     exercices.push({ kind: traduction.id, payload: versLangue, difficulty, batch });
 
+    // L'écoute et la prononciation demandent de restituer la langue étudiée :
+    // leurs variantes acceptées sont celles de cette langue.
+    const enLangue: CartePayload = { ...versFrancais, variantes: carte.aussiEtranger };
+
     if (lot.oral) {
-      // L'écoute demande de retranscrire le RECTO, donc la langue étudiée :
-      // ses variantes acceptées sont celles de cette langue.
-      const aEcouter: CartePayload = { ...versFrancais, variantes: carte.aussiEtranger };
       exercices.push({
         kind: ecoute.id,
-        payload: aEcouter,
+        payload: enLangue,
         difficulty: Math.min(3, difficulty + 1) as 1 | 2 | 3,
         batch,
       });
+    }
+    if (lot.parle) {
+      exercices.push({ kind: prononciation.id, payload: enLangue, difficulty, batch });
     }
   }
   return exercices;
@@ -127,7 +172,37 @@ export function lotsEnSkills(lots: LotCartes[], langue: string, batch: string): 
     statement: lot.statement,
     tip: lot.tip,
     difficulty: lot.difficulty,
+    level: lot.niveau,
     exercises: cartesEnExercices(lot, langue, batch),
+    ...(lot.cours ? { lesson: lot.cours } : {}),
+  }));
+}
+
+/* ─────────────────────────── dictées ─────────────────────────── */
+
+/** Une dictée de langue, telle qu'on l'écrit. */
+export type DicteeLangue = {
+  texte: string;
+  theme: string;
+  niveau: Niveau;
+  difficulte: 1 | 2 | 3;
+  /**
+   * L'accent. Varier d'une dictée à l'autre est le seul moyen d'habituer
+   * l'oreille : un apprenant qui n'a entendu qu'un accent ne comprend que lui.
+   */
+  accent: string;
+  /** Séries dont la dictée met les points en pratique. */
+  series?: string[];
+};
+
+export function dicteesEnSeed(dictees: DicteeLangue[]): SeedDictationLike[] {
+  return dictees.map((d) => ({
+    text: d.texte,
+    theme: d.theme,
+    difficulty: d.difficulte,
+    level: d.niveau,
+    voice: d.accent,
+    skillSlugs: d.series ?? [],
   }));
 }
 
@@ -138,9 +213,10 @@ export type OptionsLangue = {
   name: string;
   tagline: string;
   position: number;
-  /** Étiquette BCP-47 pour la synthèse vocale : "en-GB", "es-ES". */
+  /** Étiquette de voix par défaut : "en-GB", "es-ES". */
   langue: string;
-  /** Le mot pour une carte : « mot », « palabra »… reste français ici. */
+  /** Les accents disponibles, pour l'écoute et les dictées. */
+  accents: { etiquette: string; nom: string }[];
   vocabulaire?: Partial<LearningModule["vocabulaire"]>;
 };
 
@@ -156,16 +232,24 @@ export function moduleLangue(o: OptionsLangue): LearningModule {
       skillPluriel: "séries",
       exercise: "carte",
       exercisePluriel: "cartes",
-      catalogue: "Le vocabulaire",
+      catalogue: "Le programme",
       ...o.vocabulaire,
     },
 
-    kinds: [flashcard, traduction, ecoute],
+    kinds: [flashcard, traduction, ecoute, prononciation],
     categories: CATEGORIES_LANGUE,
 
     validateSkill(skill): ModuleFinding[] {
       const anomalies: ModuleFinding[] = [];
       const payloads = skill.exercises.map((e) => e.payload as CartePayload);
+
+      if (!skill.level) {
+        anomalies.push({
+          severity: "error",
+          code: "sans-niveau",
+          message: "aucun niveau du cadre européen : impossible de situer l'apprenant",
+        });
+      }
 
       // Un mot traduit deux fois différemment dans la même série se contredit :
       // l'utilisateur en apprend un, se trompe sur l'autre, et n'a pas tort.
@@ -184,13 +268,10 @@ export function moduleLangue(o: OptionsLangue): LearningModule {
         }
       }
 
-      // Une série qui n'a aucune note n'explique rien : elle fait mémoriser
-      // sans faire comprendre. Tolérable pour du vocabulaire nu, pas pour un
-      // lot de faux amis ou de grammaire.
-      if (
-        (skill.category === "Faux amis" || skill.category === "Grammaire en contexte") &&
-        !payloads.some((p) => p.note?.trim())
-      ) {
+      // Une série qui n'explique rien fait mémoriser sans faire comprendre.
+      // Tolérable pour du vocabulaire nu, pas pour un piège ou une règle.
+      const exigeantes = ["Faux amis", "Grammaire en contexte", "Pièges du français", "Conjugaison"];
+      if (exigeantes.includes(skill.category) && !payloads.some((p) => p.note?.trim())) {
         anomalies.push({
           severity: "warn",
           code: "sans-note",

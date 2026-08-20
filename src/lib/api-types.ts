@@ -115,6 +115,10 @@ export type SkillProgressView = {
   title: string;
   category: string;
   difficulty: number;
+  /** Niveau du cadre européen, quand la matière en a un. */
+  level?: string | null;
+  /** Un cours est attaché à cette série. */
+  hasLesson?: boolean;
   box: number;
   isNew: boolean;
   mastered: boolean;
@@ -140,10 +144,25 @@ export type ModuleSummary = {
   level: string;
 };
 
+/** Un niveau du cadre européen, et où en est l'apprenant dedans. */
+export type NiveauView = {
+  niveau: string;
+  total: number;
+  acquis: number;
+  vus: number;
+  part: number;
+};
+
 export type ProgressPayload = {
   moduleId: string;
   modules: ModuleSummary[];
   level: string;
+  /** Vide hors des langues. */
+  niveaux?: NiveauView[];
+  /** Le niveau en cours d'acquisition — celui qu'on travaille. */
+  niveauEstime?: string | null;
+  /** Le dernier niveau tenu à 80 %. Null tant qu'aucun ne l'est. */
+  niveauAcquis?: string | null;
   masteryBox: number;
   answerCounter: number;
   skillCount: number;
@@ -211,6 +230,10 @@ export type DictationSummary = {
   number: number;
   theme: string;
   difficulty: number;
+  /** Étiquette de voix : "fr-FR", "en-GB", "es-MX"… */
+  voice: string;
+  /** Niveau du cadre européen, quand la matière en a. */
+  level: string | null;
   wordCount: number;
   skills: { slug: string; title: string }[];
   bestScore: number | null;
@@ -224,6 +247,8 @@ export type DictationDetail = {
   text: string;
   theme: string;
   difficulty: number;
+  voice: string;
+  level: string | null;
   bestScore: number | null;
 };
 
@@ -268,6 +293,8 @@ export type PublicContent = {
     text: string;
     theme: string;
     difficulty: number;
+    voice: string;
+    level: string | null;
     skills: string[];
   }[];
 };

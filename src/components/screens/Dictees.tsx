@@ -11,7 +11,7 @@ const NIVEAUX: Record<number, string> = { 1: "Abordable", 2: "Intermédiaire", 3
 const SEUIL_LONGUE = 25;
 type Longueur = "toutes" | "courtes" | "longues";
 
-export function Dictees({ engine, setScreen, setChrome }: ScreenProps) {
+export function Dictees({ engine, moduleId, setScreen, setChrome }: ScreenProps) {
   const [data, setData] = useState<DictationsPayload | null>(null);
   const [niveau, setNiveau] = useState<number | null>(null);
   const [longueur, setLongueur] = useState<Longueur>("toutes");
@@ -21,8 +21,8 @@ export function Dictees({ engine, setScreen, setChrome }: ScreenProps) {
       fil: "Dictée audio",
       accroche: "Écoute, écris, puis compare mot à mot. Les accents comptent.",
     });
-    void engine.dictations().then(setData);
-  }, [engine, setChrome]);
+    void engine.dictations(moduleId).then(setData);
+  }, [engine, moduleId, setChrome]);
 
   const liste = useMemo(() => {
     if (!data) return [];

@@ -91,6 +91,7 @@ async function main() {
           difficulty: seed.difficulty,
           status,
           batch: batch.id,
+          level: seed.level ?? null,
           // Prisma.DbNull et non `null` : sur une colonne JSON, `null` veut dire
           // « le JSON null », pas « la case est vide ».
           lesson:
@@ -160,6 +161,8 @@ async function main() {
           moduleId: mod.id,
           theme: d.theme,
           difficulty: d.difficulty,
+          level: d.level ?? null,
+          voice: d.voice ?? "fr-FR",
           status: (d.status ?? "active") as ContentStatus,
           batch: batch.id,
           skills: { set: skills.map((r) => ({ id: r.id })) },

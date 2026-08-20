@@ -12,10 +12,13 @@
  * ─────────────────────────────────────────────────────────────────────────
  */
 import { cultureG } from "./culture-g";
+import { anglaisPresentation, espagnolPresentation } from "./langues";
 import type { PresentationModule } from "./types";
 
 export const PRESENTATIONS: Record<string, PresentationModule> = {
   "culture-g": cultureG,
+  anglais: anglaisPresentation,
+  espagnol: espagnolPresentation,
 };
 
 export function presentation(moduleId: string): PresentationModule {

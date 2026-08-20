@@ -71,7 +71,15 @@ export async function GET(request: Request): Promise<Response> {
     prisma.dictation.findMany({
       where: { moduleId, status: "active" },
       orderBy: [{ difficulty: "asc" }, { theme: "asc" }, { id: "asc" }],
-      select: { id: true, text: true, theme: true, difficulty: true, skills: { select: { slug: true } } },
+      select: {
+        id: true,
+        text: true,
+        theme: true,
+        difficulty: true,
+        voice: true,
+        level: true,
+        skills: { select: { slug: true } },
+      },
     }),
   ]);
 
@@ -101,6 +109,8 @@ export async function GET(request: Request): Promise<Response> {
       text: d.text,
       theme: d.theme,
       difficulty: d.difficulty,
+      voice: d.voice,
+      level: d.level,
       skills: d.skills.map((x) => x.slug),
     })),
   };

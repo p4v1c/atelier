@@ -80,6 +80,15 @@ export type SeedSkill = {
    * que sait afficher l'écran de leçon fourni.
    */
   lesson?: unknown;
+
+  /**
+   * Niveau du cadre européen : "A1" à "C2". Propre aux langues.
+   *
+   * Il ne sert pas à ordonner les séries — ça, c'est le palier qui s'en
+   * charge — mais à situer l'apprenant : « tu es A2 » vaut mieux que
+   * « tu as 340 points ».
+   */
+  level?: string;
 };
 
 /**
@@ -114,6 +123,13 @@ export type SeedDictationLike = {
   difficulty: 1 | 2 | 3;
   skillSlugs: string[];
   status?: ContentStatus;
+  /** Niveau du cadre européen. */
+  level?: string;
+  /**
+   * Étiquette de voix : "fr-FR", "en-GB", "es-MX". Varier l'accent d'une
+   * dictée à l'autre est le seul moyen d'habituer l'oreille.
+   */
+  voice?: string;
 };
 
 export type ModuleBatch = {

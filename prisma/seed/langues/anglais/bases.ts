@@ -16,6 +16,8 @@ export const ANGLAIS_BASES: LotCartes[] = [
       "Ce qu'on dit dans les deux premières minutes d'une rencontre. À savoir sans réfléchir, parce qu'on n'a pas le temps d'y penser sur le moment.",
     tip: "L'anglais présente son métier avec l'article : « I'm a teacher », jamais « I'm teacher ».",
     difficulty: 1,
+    niveau: "A1",
+    parle: true,
     oral: true,
     cartes: [
       { etranger: "Nice to meet you.", francais: "Enchanté.", aussi: ["Ravi de vous rencontrer."], aussiEtranger: ["Pleased to meet you.", "Good to meet you."] },
@@ -60,6 +62,8 @@ export const ANGLAIS_BASES: LotCartes[] = [
       "L'ordre des mots dans une question anglaise ne suit pas le français. C'est mécanique une fois compris, et cela s'entend immédiatement quand c'est faux.",
     tip: "Question directe : l'auxiliaire passe devant. Question rapportée : l'ordre redevient celui d'une phrase normale.",
     difficulty: 2,
+    niveau: "A2",
+    parle: true,
     oral: true,
     cartes: [
       {
@@ -104,6 +108,8 @@ export const ANGLAIS_BASES: LotCartes[] = [
       "Les phrases d'une journée banale : se lever, faire les courses, rentrer. Sans elles, on sait parler de politique et pas de son petit-déjeuner.",
     tip: "L'anglais quotidien va droit au but : les tournures longues sonnent scolaires.",
     difficulty: 1,
+    niveau: "A2",
+    parle: true,
     oral: true,
     cartes: [
       { etranger: "I overslept.", francais: "J'ai dormi trop longtemps.", aussi: ["Je me suis réveillé en retard."] },
@@ -135,6 +141,8 @@ export const ANGLAIS_BASES: LotCartes[] = [
       "Ce qu'on dit et ce qu'on entend en voyage. Les formules sont figées : on les reconnaît plus qu'on ne les invente.",
     tip: "Les annonces de gare et d'aéroport emploient un vocabulaire très étroit : le connaître suffit à s'en sortir partout.",
     difficulty: 2,
+    niveau: "A2",
+    parle: true,
     oral: true,
     cartes: [
       { etranger: "I'd like an aisle seat, please.", francais: "Je voudrais un siège côté couloir.", note: "Côté hublot : a window seat." },

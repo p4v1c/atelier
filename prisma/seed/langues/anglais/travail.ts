@@ -12,6 +12,8 @@ export const ANGLAIS_TRAVAIL: LotCartes[] = [
       "Les formules d'un courriel anglais sont figées, et le registre se joue sur trois mots. Traduire les formules françaises mot à mot donne un ton systématiquement trop lourd.",
     tip: "L'anglais professionnel est plus direct que le français : « Please find attached » suffit là où le français déroule une phrase entière.",
     difficulty: 2,
+    niveau: "B1",
+    parle: true,
     cartes: [
       { etranger: "Dear Ms Clarke,", francais: "Madame Clarke,", note: "Ms est neutre et sûr. Mrs suppose mariée, Miss suppose non mariée : les deux sont datés." },
       { etranger: "I hope this email finds you well.", francais: "J'espère que vous allez bien.", note: "Formule d'ouverture standard, un peu convenue mais attendue." },
@@ -34,6 +36,8 @@ export const ANGLAIS_TRAVAIL: LotCartes[] = [
       "Interrompre, nuancer, gagner du temps : ce sont ces phrases-là qui manquent en réunion, pas le vocabulaire technique.",
     tip: "Pour ne pas paraître brutal, l'anglais atténue avec un modal : « I'd say » plutôt que « I say ».",
     difficulty: 2,
+    niveau: "B2",
+    parle: true,
     oral: true,
     cartes: [
       { etranger: "Sorry, could I just jump in here?", francais: "Excusez-moi, je peux intervenir ?", aussi: ["Je peux dire un mot ?"] },
@@ -57,6 +61,8 @@ export const ANGLAIS_TRAVAIL: LotCartes[] = [
       "Des tournures figées qu'on ne devine pas depuis le français, et qui reviennent dans toutes les conversations et toutes les séries.",
     tip: "Une expression ne se traduit pas mot à mot : retiens l'image entière, pas les mots qui la composent.",
     difficulty: 3,
+    niveau: "B2",
+    parle: true,
     oral: true,
     cartes: [
       { etranger: "It's not rocket science.", francais: "Ce n'est pas sorcier.", aussi: ["Ce n'est pas compliqué."] },

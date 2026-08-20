@@ -7,7 +7,12 @@
  * de l'API Web Speech (voix chargées trop tard, cancel avalé, énoncés longs
  * coupés, file qui s'endort). Ici on s'occupe seulement des réglages visibles :
  * vitesse, volume, et un diagnostic honnête quand le système n'a aucune voix
- * française à offrir.
+ * à offrir dans la bonne langue.
+ *
+ * L'écran ne suppose pas le français : chaque dictée porte son étiquette de
+ * voix — "fr-FR", "en-GB", "es-MX" — et c'est elle qui décide de l'accent,
+ * côté serveur comme côté navigateur. Une dictée d'anglais lue par une voix
+ * française n'apprendrait qu'à mal prononcer.
  */
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { DictationDetail, DictationResultPayload, DictationsPayload } from "@/lib/api-types";
@@ -53,7 +58,7 @@ function chargerReglages(): { vitesse: number; volume: number } {
   }
 }
 
-export function Dictee({ engine, id, setScreen, setChrome }: Props) {
+export function Dictee({ engine, id, moduleId, setScreen, setChrome }: Props) {
   const [dictee, setDictee] = useState<DictationDetail | null>(null);
   const [liste, setListe] = useState<DictationsPayload | null>(null);
   const [saisie, setSaisie] = useState("");
@@ -81,17 +86,36 @@ export function Dictee({ engine, id, setScreen, setChrome }: Props) {
     };
   }, []);
 
-  /* Les voix du navigateur arrivent de façon asynchrone : on les attend une fois pour toutes. */
+  /**
+   * Les voix du navigateur arrivent de façon asynchrone : on les attend une
+   * fois pour toutes, puis on choisit dans la langue de la dictée courante.
+   */
+  const etiquette = dictee?.voice ?? "fr-FR";
   useEffect(() => {
     if (!dispo) return;
     let vivant = true;
     void chargerVoix().then((voix) => {
-      if (vivant) setVoixInfo(choisirVoix(voix));
+      if (vivant) setVoixInfo(choisirVoix(voix, etiquette));
     });
     return () => {
       vivant = false;
     };
-  }, [dispo]);
+  }, [dispo, etiquette]);
+
+  /** Le nom courant de la langue, pour les messages. */
+  const nomLangue = (() => {
+    const base = etiquette.split("-")[0];
+    if (base === "fr") return "française";
+    if (base === "en") return "anglaise";
+    if (base === "es") return "espagnole";
+    return `« ${etiquette} »`;
+  })();
+
+  /** Le serveur sait-il lire CETTE langue ? Sinon, on retombe sur le navigateur. */
+  const serveurSaitLire =
+    serveur?.disponible === true &&
+    (serveur.langues === undefined ||
+      serveur.langues.some((l) => l.toLowerCase().startsWith(etiquette.split("-")[0]!.toLowerCase())));
 
   const enregistrerReglages = (suivant: { vitesse: number; volume: number }) => {
     setReglages(suivant);
@@ -126,7 +150,9 @@ export function Dictee({ engine, id, setScreen, setChrome }: Props) {
         arret.current = lire(texte, { vitesse, volume, voix, onFin: () => setEnLecture(false) });
       };
 
-      if (serveur?.disponible && dictationId) {
+      // Le serveur n'est sollicité que s'il sait lire CETTE langue ; sinon on
+      // passe directement au navigateur, qui a peut-être la voix qu'il faut.
+      if (serveurSaitLire && dictationId) {
         setPrepare(true);
         const lecture = lireParServeur(dictationId, vitesseServeur(vitesse), volume, () => {
           setEnLecture(false);
@@ -153,14 +179,14 @@ export function Dictee({ engine, id, setScreen, setChrome }: Props) {
 
       parNavigateur();
     },
-    [dispo, serveur, stopper]
+    [dispo, serveurSaitLire, stopper]
   );
 
   useEffect(() => {
     let vivant = true;
     setSaisie("");
     setResultat(null);
-    void Promise.all([engine.dictation(id), engine.dictations()]).then(([d, l]) => {
+    void Promise.all([engine.dictation(id), engine.dictations(moduleId)]).then(([d, l]) => {
       if (!vivant) return;
       setDictee(d);
       setListe(l);
@@ -175,7 +201,7 @@ export function Dictee({ engine, id, setScreen, setChrome }: Props) {
       vivant = false;
       stopper();
     };
-  }, [engine, id, setChrome, stopper]);
+  }, [engine, id, moduleId, setChrome, stopper]);
 
   /**
    * Première lecture dès que le texte ET la voix retenue sont connus.
@@ -191,14 +217,14 @@ export function Dictee({ engine, id, setScreen, setChrome }: Props) {
 
   useEffect(() => {
     if (!dictee || dejaLu.current || serveur === null) return;
-    if (!serveur.disponible && (!dispo || voixInfo === null)) return;
+    if (!serveurSaitLire && (!dispo || voixInfo === null)) return;
     dejaLu.current = true;
     const t = window.setTimeout(
       () => dire(dictee.text, reglages.vitesse, reglages.volume, voixInfo?.voix ?? null, dictee.id),
       350
     );
     return () => clearTimeout(t);
-  }, [dictee, voixInfo, serveur, dispo, dire, reglages.vitesse, reglages.volume]);
+  }, [dictee, voixInfo, serveurSaitLire, serveur, dispo, dire, reglages.vitesse, reglages.volume]);
 
   if (!dictee || !liste) return <p className="legende attente">Chargement de la dictée…</p>;
 
@@ -288,27 +314,27 @@ export function Dictee({ engine, id, setScreen, setChrome }: Props) {
         />
 
         <p className="legende voix-info">
-          {serveur?.disponible
-            ? `Voix neuronale : ${serveur.voix}. Nettement plus naturelle que celle du navigateur.`
+          {serveurSaitLire
+            ? `Voix neuronale, accent ${etiquette}. Nettement plus naturelle que celle du navigateur.`
             : !dispo
-            ? "Ce navigateur ne propose aucune synthèse vocale."
-            : voixInfo === null
-              ? "Recherche d’une voix…"
-              : voixInfo.voix === null
-                ? "Aucune voix installée sur cet appareil."
-                : voixInfo.francaise
-                  ? `Voix : ${voixInfo.voix.name} (${voixInfo.voix.lang})`
-                  : `Aucune voix française trouvée. Lecture avec ${voixInfo.voix.name}, qui prononcera mal.`}
+              ? "Ce navigateur ne propose aucune synthèse vocale."
+              : voixInfo === null
+                ? "Recherche d’une voix…"
+                : voixInfo.voix === null
+                  ? "Aucune voix installée sur cet appareil."
+                  : voixInfo.francaise
+                    ? `Voix : ${voixInfo.voix.name} (${voixInfo.voix.lang})`
+                    : `Aucune voix ${nomLangue} trouvée. Lecture avec ${voixInfo.voix.name}, qui prononcera mal.`}
         </p>
 
-        {!serveur?.disponible && (
+        {!serveurSaitLire && (
           <p className="legende voix-info" style={{ marginTop: 8 }}>
             Une voix neuronale bien plus naturelle peut être installée en local, sans réseau :
             voir la section « Dictée audio » du README.
           </p>
         )}
 
-        {!serveur?.disponible && dispo && voixInfo && (voixInfo.voix === null || !voixInfo.francaise) && (
+        {!serveurSaitLire && dispo && voixInfo && (voixInfo.voix === null || !voixInfo.francaise) && (
           <p className="alerte" style={{ marginTop: 14, marginBottom: 0 }}>
             Sur Linux, les voix viennent de <b>speech-dispatcher</b> et d’<b>espeak-ng</b> :
             <br />

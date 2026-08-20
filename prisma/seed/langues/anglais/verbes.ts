@@ -15,6 +15,8 @@ export const ANGLAIS_VERBES: LotCartes[] = [
       "Les vingt verbes irréguliers qui reviennent sans arrêt, donnés au passé dans une phrase. Les apprendre en liste les fait oublier ; les apprendre en contexte les fixe.",
     tip: "Le prétérit et le participe passé se ressemblent souvent, mais pas toujours : go / went / gone est le contre-exemple à retenir.",
     difficulty: 2,
+    niveau: "A2",
+    parle: true,
     oral: true,
     cartes: [
       { etranger: "I went there yesterday.", francais: "J'y suis allé hier.", note: "go → went → gone." },
@@ -38,6 +40,8 @@ export const ANGLAIS_VERBES: LotCartes[] = [
       "Ceux qu'on croise dès qu'on sort du vocabulaire scolaire : dire, comprendre, garder, sentir, tenir.",
     tip: "Certains ne changent pas du tout : cut, put, let, cost, hit. Ce sont les seuls qu'on peut apprendre en liste sans risque.",
     difficulty: 2,
+    niveau: "B1",
+    parle: true,
     oral: true,
     cartes: [
       { etranger: "She told me the truth.", francais: "Elle m'a dit la vérité.", note: "tell → told → told. Tell demande un destinataire ; say n'en demande pas." },
@@ -61,6 +65,8 @@ export const ANGLAIS_VERBES: LotCartes[] = [
       "Un verbe court plus une particule, et le sens change du tout au tout. C'est ce qui sépare l'anglais scolaire de l'anglais parlé.",
     tip: "La particule porte le sens, pas le verbe : look up, look after et look for n'ont rien à voir entre eux.",
     difficulty: 2,
+    niveau: "B1",
+    parle: true,
     oral: true,
     cartes: [
       { etranger: "to look after someone", francais: "s'occuper de quelqu'un", note: "À ne pas confondre avec look for, chercher, ni look up, chercher dans un dictionnaire." },
@@ -84,12 +90,14 @@ export const ANGLAIS_VERBES: LotCartes[] = [
       "La distinction qui n'existe pas en français, et qui décide de la moitié des phrases au passé. Le prétérit range dans le passé fini ; le present perfect relie au présent.",
     tip: "Une date, une heure ou un « hier » exigent le prétérit. Un lien avec maintenant appelle le present perfect.",
     difficulty: 3,
+    niveau: "B1",
+    parle: true,
     oral: true,
     cartes: [
       {
-        etranger: "I saw him yesterday.",
-        francais: "Je l'ai vu hier.",
-        note: "Yesterday ferme le passé : prétérit obligatoire. « I have seen him yesterday » est fautif.",
+        etranger: "I met her last summer.",
+        francais: "Je l'ai rencontrée l'été dernier.",
+        note: "Last summer ferme le passé : prétérit obligatoire. « I have met her last summer » est fautif.",
       },
       {
         etranger: "I've seen him twice this week.",
@@ -123,6 +131,8 @@ export const ANGLAIS_VERBES: LotCartes[] = [
       "Trois prépositions pour ce que le français règle avec « à » et « en ». Il n'y a pas de logique parfaite, mais il y a une règle qui couvre l'essentiel.",
     tip: "Du plus large au plus précis : in pour un espace ou une longue durée, on pour une surface ou un jour, at pour un point ou une heure.",
     difficulty: 2,
+    niveau: "A2",
+    parle: true,
     cartes: [
       { etranger: "at six o'clock", francais: "à six heures", note: "At pour un point précis dans le temps." },
       { etranger: "on Monday", francais: "lundi", note: "On devant un jour ou une date." },
