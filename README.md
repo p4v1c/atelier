@@ -15,9 +15,9 @@ connaît des modules, des compétences et des exercices. Ce qu'un exercice veut
 dire regarde son **type**, déclaré par le module qui l'emploie.
 
 Le dépôt réunit deux projets : l'application (issue de « La Règle ») et le
-cahier de culture générale, fusionné avec son historique. Les commits des deux
-restent atteignables, et `git log --follow` suit un fichier à travers le
-déplacement.
+cahier de culture générale, fusionné en sous-arbre avec tout son historique.
+Les commits des deux restent atteignables — voir `heritage/README.md` pour
+savoir comment les interroger.
 
 ```
 src/ prisma/ tests/        l'application
