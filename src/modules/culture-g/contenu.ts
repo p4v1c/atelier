@@ -16,7 +16,14 @@ import { qcm, type QcmPayload } from "../kinds/qcm";
 import type { LessonDocument, LessonVisuel, ModuleBatch, SeedExercise, SeedSkill } from "../types";
 import { SUJETS } from "./index";
 
-const RACINE = join(process.cwd(), "prisma", "seed", "culture-g");
+/**
+ * Le contenu du cahier d'origine, tel qu'il est arrivé par la fusion.
+ *
+ * On y lit directement plutôt que d'en tenir une copie : douze mégaoctets
+ * entretenus à deux endroits finissent toujours par diverger, et les scripts
+ * Python du cahier continuent de fonctionner sur ces mêmes fichiers.
+ */
+const RACINE = join(process.cwd(), "heritage", "culture-g", "data");
 
 /* ───────────────────────── formes du cahier d'origine ───────────────────── */
 
@@ -62,7 +69,7 @@ let imagesParSlug: Map<string, string> | null = null;
 function image(slug: string): string | null {
   if (imagesParSlug === null) {
     imagesParSlug = new Map();
-    const dossier = join(RACINE, "visuels");
+    const dossier = join(RACINE, "images");
     if (existsSync(dossier)) {
       for (const f of readdirSync(dossier).filter((f) => f.endsWith(".json"))) {
         const v = lireJson<{ slug: string; data: string }>(join(dossier, f));

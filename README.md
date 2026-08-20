@@ -14,6 +14,20 @@ Le moteur ne sait pas ce qu'est une faute d'orthographe ni une capitale : il
 connaît des modules, des compétences et des exercices. Ce qu'un exercice veut
 dire regarde son **type**, déclaré par le module qui l'emploie.
 
+Le dépôt réunit deux projets : l'application (issue de « La Règle ») et le
+cahier de culture générale, fusionné avec son historique. Les commits des deux
+restent atteignables, et `git log --follow` suit un fichier à travers le
+déplacement.
+
+```
+src/ prisma/ tests/        l'application
+heritage/culture-g/        le cahier d'origine — scripts Python, gabarit HTML,
+                           et data/ qui reste la SOURCE du module Culture
+                           générale : le loader y lit directement, il n'y a
+                           pas de seconde copie à entretenir
+sauvegardes/               dumps Postgres et paquets git, hors dépôt
+```
+
 ## Ajouter un module
 
 Trois fichiers et deux lignes de registre. Ni migration, ni table, ni route, ni
