@@ -1,0 +1,72 @@
+# Reconstruit et republie le cahier de culture générale sur GitHub Pages.
+#
+# Le cahier a rejoint l'Atelier, mais il reste en ligne : c'est l'application de
+# révision qui marche aujourd'hui, tant que la plateforme n'est pas déployée.
+# Ce workflow reprend celui du dépôt d'origine, avec pour seule différence le
+# dossier de travail — les scripts Python n'ont pas été touchés.
+#
+# Il ne se déclenche que si le contenu du cahier change : inutile de republier
+# à chaque commit sur le moteur.
+name: Cahier de culture G — publier
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "heritage/culture-g/**"
+      - ".github/workflows/cahier.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+defaults:
+  run:
+    working-directory: heritage/culture-g
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Signaler les questions en double
+        # Informatif : le compte-rendu ne bloque pas la publication.
+        run: python3 doublons.py | head -20
+        continue-on-error: true
+
+      - name: Construire le site multi-fichiers
+        run: python3 build_web.py
+
+      - name: Construire aussi la version en fichier unique (hors ligne)
+        run: |
+          python3 build.py
+          cp site.html web/site-hors-ligne.html
+
+      - name: Vérifier que l'application fonctionne
+        run: node test_web.js
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: heritage/culture-g/web
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - id: deploiement
+        uses: actions/deploy-pages@v4

@@ -25,14 +25,22 @@ les interroger par leur identifiant plutôt que par le chemin du fichier.
 
 ## Le site publié du cahier
 
-Le workflow qui reconstruisait `site.html` et le publiait sur GitHub Pages se
-trouve maintenant sous `culture-g/.github/workflows/`, où GitHub ne le lit plus :
-seul le `.github/` à la racine est actif. Le site déjà publié reste en ligne,
-mais il ne se reconstruit plus tout seul. C'est voulu — c'est l'Atelier qui
-prend la suite.
+Toujours en ligne, et toujours reconstruit : <https://p4v1c.github.io/atelier/>
 
-Pour le régénérer à la main :
+Le workflow d'origine vivait à la racine du dépôt du cahier, où GitHub ne le
+lit plus depuis la fusion — seul le `.github/` de la racine est actif. Il a donc
+été repris dans `.github/workflows/cahier.yml`, avec pour seule différence le
+dossier de travail. Il ne se déclenche que si `heritage/culture-g/` change.
+
+À la main :
 
 ```bash
-cd heritage/culture-g && python3 build_web.py
+cd heritage/culture-g
+python3 build_web.py      # site multi-fichiers dans web/
+python3 build.py          # version en un seul fichier : site.html
+node test_web.js          # vérifie que l'application tourne
 ```
+
+`heritage/culture-g/package.json` n'existe que pour rendre leur contexte
+CommonJS à ces scripts : le `"type": "module"` de l'Atelier s'appliquerait
+sinon à tout le dossier et les casserait.

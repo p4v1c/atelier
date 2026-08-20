@@ -1,0 +1,6 @@
+{
+  "name": "cahier-culture-g",
+  "private": true,
+  "type": "commonjs",
+  "description": "Rend leur contexte CommonJS aux scripts du cahier : le package.json de l'Atelier déclare \"type\": \"module\", ce qui s'appliquerait sinon à ce dossier et casserait test_app.js et test_web.js."
+}
