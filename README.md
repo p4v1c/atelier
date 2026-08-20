@@ -1,11 +1,80 @@
-# La Règle
+# L'Atelier
 
-Entraînement à l'orthographe française : repérer la faute, comprendre pourquoi,
-ne plus la refaire. Reprise du fichier autonome `la-regle.html` sous forme
-d'application avec base de données, comptes utilisateurs et planificateur de
-répétition espacée côté serveur.
+Une plateforme d'apprentissage à modules : un compte, un planificateur de
+répétition espacée, et autant de matières qu'on veut y mettre.
 
-**618 règles · 4 326 phrases · 310 dictées.**
+| Module           | Contenu                                                    |
+| ---------------- | ---------------------------------------------------------- |
+| Français         | 618 règles · 4 336 phrases · 310 dictées                    |
+| Culture générale | 322 notions · 2 209 questions · 280 leçons                  |
+| Anglais          | 16 séries · 430 cartes                                      |
+| Espagnol         | 12 séries · 320 cartes                                      |
+
+Le moteur ne sait pas ce qu'est une faute d'orthographe ni une capitale : il
+connaît des modules, des compétences et des exercices. Ce qu'un exercice veut
+dire regarde son **type**, déclaré par le module qui l'emploie.
+
+## Ajouter un module
+
+Trois fichiers et deux lignes de registre. Ni migration, ni table, ni route, ni
+écran de série — le planificateur, les comptes, le catalogue, les statistiques
+et le tableau de bord s'appliquent d'office.
+
+```
+src/modules/<nom>/index.ts     le module : identité, vocabulaire, catégories,
+                               types d'exercices, contrôles de contenu
+src/modules/<nom>/contenu.ts   le chargeur, qui rend des ModuleBatch[]
+prisma/seed/<nom>/             le contenu lui-même
+```
+
+Puis :
+
+```ts
+// src/modules/index.ts
+export const MODULES = [francais, cultureGenerale, anglais, espagnol, geographie];
+
+// src/modules/contenu.ts
+export const CONTENU = { …, geographie: chargerContenuGeographie };
+```
+
+```bash
+npm run validate:content -- --module=geographie   # avant tout
+npm run seed -- --module=geographie
+```
+
+Le contenu vit à part du registre pour une raison précise : `src/modules/index.ts`
+est importé par les routes **et par le navigateur**, alors que le contenu pèse
+des centaines de kilo-octets et ne sert qu'au seed et au validateur.
+
+### Le vocabulaire
+
+Chaque module nomme ses objets. Le moteur dit « compétence » et « exercice » ;
+l'écran dit « règle » et « phrase » en français, « notion » et « question » en
+culture générale, « série » et « carte » en langues. Une plateforme
+multi-matières qui parle comme sa base de données n'est agréable pour personne.
+
+### Ajouter un type d'exercice
+
+Un type sait quatre choses, et seulement quatre : fabriquer la question **sans
+la réponse**, corriger une réponse, produire une empreinte de dédoublonnage, et
+se relire. Le serveur ne sait jamais ce que veut dire « repérer la faute » ou
+« cocher la bonne case » : il délègue.
+
+```
+src/modules/kinds/<type>.ts          la logique — pure, testable, partagée
+                                     par le mode connecté et le mode invité
+src/components/exercices/<Type>.tsx  la vue
+src/components/exercices/index.tsx   une ligne de registre
+```
+
+Types existants : `spot-error`, `qcm`, `flashcard`, `traduction`, `ecoute`.
+
+### Un module qui ne relève pas de la répétition espacée
+
+Un jeu cérébral n'a ni palier ni échéance : il a un score qui monte et
+redescend. Il déclare `progression: "scores"`, et le planificateur l'ignore —
+c'est voulu. Lui imposer des paliers reviendrait à tordre le modèle jusqu'à le
+casser.
 
 ## Démarrer
 
