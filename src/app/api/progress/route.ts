@@ -111,12 +111,13 @@ export async function GET(request: Request): Promise<Response> {
   /* ── récapitulatif de tous les modules : la matière du tableau de bord ── */
   const resume = await Promise.all(
     modules.map(async (m) => {
-      const [total, progres] = await Promise.all([
+      const [total, progres, dictees] = await Promise.all([
         prisma.skill.count({ where: { moduleId: m.id, status: "active" } }),
         prisma.skillProgress.findMany({
           where: { userId, skill: { moduleId: m.id, status: "active" } },
           select: { box: true, isNew: true, dueAtCounter: true },
         }),
+        prisma.dictation.count({ where: { moduleId: m.id, status: "active" } }),
       ]);
       const acquises = progres.filter((p) => !p.isNew && isMastered(p.box)).length;
       const aRevoir = progres.filter((p) => !p.isNew && p.dueAtCounter <= counter).length;
@@ -127,6 +128,9 @@ export async function GET(request: Request): Promise<Response> {
         tagline: m.tagline,
         progression: m.progression,
         skillCount: total,
+        // Les dictées ne concernent pas toutes les matières : l'accueil masque
+        // l'entrée plutôt que de proposer un écran vide.
+        dictationCount: dictees,
         seen: vues,
         mastered: acquises,
         due: aRevoir,

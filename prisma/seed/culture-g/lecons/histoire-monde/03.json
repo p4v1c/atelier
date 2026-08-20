@@ -1,0 +1,205 @@
+{
+ "titre": "Le Moyen Âge en Europe (Ve - XVe siècle)",
+ "sections": [
+  {
+   "titre": "De l'Empire romain aux royaumes barbares",
+   "texte": "Les historiens font traditionnellement commencer le Moyen Âge en 476, année où le chef germanique Odoacre dépose Romulus Augustule, dernier empereur romain d'Occident. Cette date est un repère commode plus qu'une rupture brutale : depuis le IVe siècle, l'Empire s'était affaibli et de nombreux peuples venus de l'est, Wisigoths, Vandales, Burgondes, Ostrogoths, Francs, Angles et Saxons, s'étaient installés sur son territoire, parfois comme alliés. Sur les ruines de l'Occident romain naissent donc des royaumes germaniques, qui conservent une partie de l'héritage antique, notamment la langue latine et l'organisation de l'Église. En Gaule, le Franc Clovis devient roi vers 481, l'emporte à Soissons en 486, puis se convertit au christianisme et se fait baptiser à Reims ; la date exacte de ce baptême, longtemps fixée à 496, reste discutée. Sa victoire de Vouillé en 507 sur les Wisigoths étend son royaume jusqu'aux Pyrénées. Ses successeurs, les Mérovingiens, partagent à plusieurs reprises le royaume. À l'est, l'Empire romain d'Orient survit à Constantinople : l'empereur Justinien, entre 527 et 565, reconquiert temporairement l'Italie et l'Afrique du Nord, fait rédiger un grand recueil de droit romain et bâtir l'église Sainte-Sophie. Au VIIe siècle, l'expansion rapide des armées musulmanes bouleverse le pourtour méditerranéen et met fin à l'unité du monde antique. L'Europe médiévale se construit ainsi sur trois héritages mêlés : romain, germanique et chrétien."
+  },
+  {
+   "titre": "L'Empire de Charlemagne et sa dislocation",
+   "texte": "Au VIIIe siècle, les maires du palais prennent le pouvoir réel chez les Francs. Charles Martel arrête une expédition musulmane près de Poitiers en 732, et son fils Pépin le Bref dépose le dernier roi mérovingien en 751 avec l'accord du pape, fondant la dynastie carolingienne. Son fils Charlemagne, roi à partir de 768, mène pendant plus de trente ans des campagnes militaires : soumission des Lombards en Italie, longue guerre contre les Saxons, expéditions en Espagne et contre les Avars. Le jour de Noël 800, le pape Léon III le couronne empereur à Rome, faisant renaître symboliquement l'idée d'empire en Occident. Charlemagne installe sa résidence principale à Aix-la-Chapelle et confie l'administration locale à des comtes, surveillés par des envoyés appelés missi dominici. Il encourage la création d'écoles auprès des évêchés et des monastères, réunit des lettrés comme Alcuin et fait adopter une écriture claire, la minuscule caroline : c'est la renaissance carolingienne. L'unité de l'Empire ne survit toutefois pas longtemps. Après la mort de Louis le Pieux, ses trois fils se partagent l'héritage par le traité de Verdun en 843, qui dessine les grandes lignes de l'Europe future. Les IXe et Xe siècles voient déferler de nouvelles attaques : Vikings venus de Scandinavie, Hongrois par l'est, Sarrasins en Méditerranée. Face à l'insécurité, la population se place sous la protection de seigneurs locaux qui édifient des châteaux.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Des maires du palais à la dislocation de l'Empire",
+    "evenements": [
+     {
+      "date": "732",
+      "label": "Poitiers",
+      "texte": "Charles Martel arrête une expédition musulmane."
+     },
+     {
+      "date": "751",
+      "label": "Pépin le Bref fonde la dynastie carolingienne",
+      "texte": "Il dépose le dernier roi mérovingien avec l'accord du pape."
+     },
+     {
+      "date": "768",
+      "label": "Charlemagne devient roi des Francs",
+      "texte": "Plus de trente ans de campagnes : Lombards, Saxons, Espagne, Avars."
+     },
+     {
+      "date": "25 décembre 800",
+      "label": "Charlemagne couronné empereur à Rome",
+      "texte": "Par le pape Léon III ; capitale à Aix-la-Chapelle, renaissance carolingienne."
+     },
+     {
+      "date": "843",
+      "label": "Traité de Verdun",
+      "texte": "Les trois fils de Louis le Pieux se partagent l'Empire et dessinent l'Europe future."
+     },
+     {
+      "date": "IXe-Xe siècle",
+      "label": "Vikings, Hongrois et Sarrasins",
+      "texte": "L'insécurité pousse la population sous la protection de seigneurs qui bâtissent des châteaux."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "La société féodale",
+   "texte": "Du Xe au XIIIe siècle s'organise en Europe occidentale une société que l'on qualifie de féodale. Les hommes libres puissants sont liés entre eux par la vassalité : au cours d'une cérémonie d'hommage, le vassal place ses mains dans celles du seigneur et lui jure fidélité ; en échange, il reçoit le plus souvent une terre appelée fief, dont il tire ses revenus. Le vassal doit à son seigneur l'aide militaire, le conseil et parfois une aide financière. Ces liens forment une pyramide théorique au sommet de laquelle se trouve le roi, mais dont l'autorité réelle reste longtemps faible. Le cadre de la vie quotidienne est la seigneurie, domaine partagé entre la réserve, exploitée pour le seigneur, et les tenures, cultivées par les paysans. Ceux-ci versent des redevances en argent ou en nature, comme le cens et le champart, doivent des corvées, et paient les banalités pour utiliser le moulin, le four et le pressoir du seigneur. Beaucoup de paysans sont des serfs, attachés à la terre et soumis à des obligations particulières, mais leur nombre diminue à partir du XIIe siècle. L'Église encadre l'ensemble de la société : elle perçoit la dîme, rythme la vie par les sacrements et les fêtes, et propose dans ses monastères, notamment ceux de Cluny fondé en 910 et de Cîteaux fondé en 1098, un idéal de prière. Les clercs décrivent volontiers ce monde en trois ordres : ceux qui prient, ceux qui combattent et ceux qui travaillent.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Ce que le paysan doit au seigneur et à l'Église",
+    "colonnes": [
+     "Prélèvement",
+     "Bénéficiaire",
+     "Ce qu'il recouvre"
+    ],
+    "lignes": [
+     [
+      "Le cens",
+      "Le seigneur",
+      "Redevance en argent versée pour la tenure que le paysan cultive"
+     ],
+     [
+      "Le champart",
+      "Le seigneur",
+      "Part de la récolte prélevée en nature"
+     ],
+     [
+      "Les corvées",
+      "Le seigneur",
+      "Journées de travail gratuit, notamment sur la réserve"
+     ],
+     [
+      "Les banalités",
+      "Le seigneur",
+      "Taxe pour l'usage obligatoire du moulin, du four et du pressoir"
+     ],
+     [
+      "La dîme",
+      "L'Église",
+      "Part des récoltes destinée à l'entretien du clergé"
+     ]
+    ],
+    "note": "Les serfs, attachés à la terre, doivent en outre des obligations particulières ; leur nombre diminue à partir du XIIe siècle."
+   }
+  },
+  {
+   "titre": "L'essor de l'Occident : villes, croisades et cathédrales",
+   "texte": "Entre le XIe et le XIIIe siècle, l'Occident connaît une période de croissance. Le climat plus favorable, les grands défrichements et des progrès techniques comme la charrue à versoir, le collier d'épaule, le moulin à eau et l'assolement triennal augmentent les récoltes. La population double peut-être en trois siècles. Les surplus alimentent le commerce et les villes renaissent : Venise et Gênes dominent la Méditerranée, les foires de Champagne relient l'Italie et la Flandre, les villes drapières comme Bruges s'enrichissent. Beaucoup de villes obtiennent de leur seigneur des chartes de franchises et s'administrent elles-mêmes. Les premières universités apparaissent vers 1200 à Bologne, Paris ou Oxford. L'art roman, aux voûtes en berceau et aux murs épais, cède progressivement la place à l'art gothique, né en Île-de-France avec le chantier de la basilique de Saint-Denis vers 1140 : la croisée d'ogives, l'arc brisé et l'arc-boutant permettent d'élever des cathédrales de plus en plus hautes et lumineuses, comme Notre-Dame de Paris, commencée en 1163, ou Chartres. Cette Europe conquérante se tourne aussi vers l'extérieur. En 1095, au concile de Clermont, le pape Urbain II appelle les chrétiens à délivrer Jérusalem : c'est la première croisade, qui aboutit à la prise de la ville en 1099 et à la fondation d'États latins d'Orient. Saladin reprend Jérusalem en 1187 et la chute de Saint-Jean-d'Acre en 1291 met fin à cette présence."
+  },
+  {
+   "titre": "Les crises du XIVe siècle et la fin du Moyen Âge",
+   "texte": "Le XIVe siècle marque un brutal renversement. Dès 1315, de mauvaises récoltes provoquent une grande famine dans le nord de l'Europe, sur une population devenue trop nombreuse pour les terres disponibles. En 1347, des navires venus de mer Noire introduisent en Méditerranée la peste noire, qui se répand en quelques années dans presque toute l'Europe et fait disparaître, selon les estimations les plus courantes, entre un tiers et la moitié des habitants. Villages abandonnés, révoltes paysannes comme la Jacquerie de 1358 en France ou la révolte des paysans anglais de 1381, émeutes urbaines : la société est ébranlée. S'y ajoute la guerre de Cent Ans, longue série de conflits entre les rois de France et d'Angleterre de 1337 à 1453, marquée par les défaites françaises de Crécy en 1346 et d'Azincourt en 1415, puis par le redressement amorcé autour de Jeanne d'Arc, qui fait lever le siège d'Orléans en 1429 avant d'être brûlée à Rouen en 1431. L'Église traverse elle aussi une crise profonde avec l'installation des papes à Avignon puis le Grand Schisme d'Occident, de 1378 à 1417, durant lequel plusieurs papes se disputent la chrétienté. Les monarchies sortent pourtant renforcées de ces épreuves, dotées d'impôts permanents et d'armées régulières. La prise de Constantinople par les Ottomans en 1453 est souvent retenue, avec la découverte de l'Amérique en 1492, comme la fin de la période médiévale.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Le XIVe siècle, un siècle de crises",
+    "evenements": [
+     {
+      "date": "1315",
+      "label": "Grande famine dans le nord de l'Europe",
+      "texte": "De mauvaises récoltes frappent une population devenue trop nombreuse."
+     },
+     {
+      "date": "1337",
+      "label": "Début de la guerre de Cent Ans",
+      "texte": "Entre les rois de France et d'Angleterre."
+     },
+     {
+      "date": "1346",
+      "label": "Défaite française de Crécy"
+     },
+     {
+      "date": "1347",
+      "label": "Arrivée de la peste noire",
+      "texte": "Elle emporte entre un tiers et la moitié des Européens en quelques années."
+     },
+     {
+      "date": "1358",
+      "label": "La Jacquerie",
+      "texte": "Révolte paysanne en France ; les paysans anglais se soulèvent à leur tour en 1381."
+     },
+     {
+      "date": "1378-1417",
+      "label": "Grand Schisme d'Occident",
+      "texte": "Plusieurs papes se disputent la chrétienté."
+     },
+     {
+      "date": "1429-1431",
+      "label": "Jeanne d'Arc",
+      "texte": "Elle fait lever le siège d'Orléans, puis est brûlée à Rouen."
+     },
+     {
+      "date": "1453",
+      "label": "Prise de Constantinople et fin de la guerre de Cent Ans",
+      "texte": "Repère souvent retenu, avec 1492, pour clore le Moyen Âge."
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel événement de 476 sert traditionnellement de repère au début du Moyen Âge ?",
+   "choix": [
+    "La déposition du dernier empereur romain d'Occident",
+    "Le baptême de Clovis à Reims",
+    "Le couronnement de Charlemagne",
+    "Le traité de Verdun"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "En 476, le chef germanique Odoacre dépose l'empereur Romulus Augustule et renvoie les insignes impériaux à Constantinople. Cette date sert de borne commode entre l'Antiquité et le Moyen Âge, mais elle ne correspond pas à une rupture brutale : l'Empire d'Occident se désagrégeait depuis des décennies et l'Empire d'Orient, lui, se maintient encore près de mille ans. Le baptême de Clovis, le couronnement de Charlemagne en 800 et le traité de Verdun en 843 sont tous postérieurs. Les historiens insistent aujourd'hui sur la continuité entre les deux périodes."
+  },
+  {
+   "q": "En quelle année Charlemagne fut-il couronné empereur par le pape Léon III ?",
+   "choix": [
+    "En 751",
+    "En 800",
+    "En 843",
+    "En 987"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Le couronnement a lieu à Rome le jour de Noël de l'an 800. Il restaure symboliquement en Occident un titre impérial disparu depuis 476 et scelle l'alliance entre la dynastie carolingienne et la papauté. En 751, Pépin le Bref, père de Charlemagne, était devenu roi des Francs en écartant le dernier Mérovingien. Le traité de Verdun de 843 partage au contraire l'Empire entre les petits-fils de Charlemagne. L'année 987 correspond à l'avènement d'Hugues Capet en France, bien plus tard."
+  },
+  {
+   "q": "Dans la seigneurie médiévale, que désignent les banalités ?",
+   "choix": [
+    "Les terres laissées en jachère",
+    "Les impôts versés à l'Église",
+    "Les taxes payées pour utiliser le moulin, le four et le pressoir du seigneur",
+    "Les corvées effectuées sur la réserve"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Les banalités découlent du droit de ban, c'est-à-dire du pouvoir de commander et de contraindre exercé par le seigneur. Celui-ci possédait le moulin, le four à pain et le pressoir, et obligeait les paysans à les utiliser contre paiement. Ces redevances s'ajoutaient au cens, versé pour la tenure, et au champart, prélevé sur la récolte. L'impôt versé à l'Église s'appelle la dîme et représentait en principe une fraction de la récolte. Les corvées désignent quant à elles le travail gratuit dû sur la réserve seigneuriale."
+  },
+  {
+   "q": "Quelle épidémie frappa l'Europe à partir de 1347 et tua une part considérable de la population ?",
+   "choix": [
+    "La peste noire",
+    "Le choléra",
+    "La variole",
+    "La grippe espagnole"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "La peste noire arrive en Méditerranée en 1347 par des navires venus de mer Noire, puis se diffuse en quelques années dans presque toute l'Europe. Les estimations les plus courantes évaluent la mortalité entre un tiers et la moitié de la population. Elle survient après les famines des années 1315 à 1317, sur des populations déjà affaiblies. Ses conséquences sont durables : villages abandonnés, pénurie de main-d'oeuvre, hausse des salaires et révoltes. Le choléra et la grippe espagnole sont des épidémies bien plus récentes, des XIXe et XXe siècles."
+  },
+  {
+   "q": "Quelle innovation architecturale caractérise l'art gothique apparu vers 1140 en Île-de-France ?",
+   "choix": [
+    "La voûte en berceau",
+    "La coupole sur pendentifs",
+    "Le fronton triangulaire",
+    "La croisée d'ogives associée à l'arc-boutant"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le chantier du choeur de la basilique de Saint-Denis, vers 1140, est considéré comme le point de départ de l'art gothique. La croisée d'ogives concentre le poids de la voûte sur quelques points d'appui, et les arcs-boutants extérieurs reprennent la poussée des murs. Les murs peuvent alors être percés de vastes baies garnies de vitraux, ce qui rend les édifices plus hauts et plus lumineux. La voûte en berceau, plus lourde, caractérise au contraire l'art roman qui précède. Notre-Dame de Paris, commencée en 1163, et Chartres illustrent le style gothique."
+  }
+ ]
+}

@@ -14,7 +14,7 @@
  *
  * Rien n'entre en base sans être passé par le validateur.
  */
-import { PrismaClient, type ContentStatus, type Prisma } from "@prisma/client";
+import { Prisma, PrismaClient, type ContentStatus } from "@prisma/client";
 import { MODULES, kindOf } from "../src/modules";
 import { contenuDe } from "../src/modules/contenu";
 import { assertValid } from "../src/lib/validate-content";
@@ -91,6 +91,12 @@ async function main() {
           difficulty: seed.difficulty,
           status,
           batch: batch.id,
+          // Prisma.DbNull et non `null` : sur une colonne JSON, `null` veut dire
+          // « le JSON null », pas « la case est vide ».
+          lesson:
+            seed.lesson === undefined
+              ? Prisma.DbNull
+              : (seed.lesson as Prisma.InputJsonValue),
         };
         const skill = await prisma.skill.upsert({
           where: { slug: seed.slug },

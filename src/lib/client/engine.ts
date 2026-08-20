@@ -445,10 +445,11 @@ export class GuestEngine implements Engine {
       modules: [
         {
           id: this.moduleId,
-          name: this.content.vocabulaire?.catalogue ?? "Français",
-          tagline: "",
+          name: this.content.moduleName,
+          tagline: this.content.moduleTagline,
           progression: "repetition-espacee",
           skillCount: skills.length,
+          dictationCount: this.content.dictations.length,
           seen,
           mastered,
           due: skills.filter((r) => r.due).length,

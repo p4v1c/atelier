@@ -13,12 +13,14 @@
  *  2. l'inscrire dans CONTENU ci-dessous, sous l'identifiant du module
  * ─────────────────────────────────────────────────────────────────────────
  */
+import { chargerContenuCultureG } from "./culture-g/contenu";
 import { chargerContenuFrancais } from "./francais/contenu";
 import type { LearningModule, ModuleBatch } from "./types";
 
 /** Chargeurs de contenu, par identifiant de module. */
 export const CONTENU: Record<string, () => ModuleBatch[]> = {
   francais: chargerContenuFrancais,
+  "culture-g": chargerContenuCultureG,
 };
 
 /**

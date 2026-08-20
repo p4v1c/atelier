@@ -1,0 +1,161 @@
+{
+ "titre": "Les arts d'Asie : Chine, Japon, Inde",
+ "sections": [
+  {
+   "titre": "La Chine ancienne : jade, bronzes rituels et armée de terre cuite",
+   "texte": "L'histoire de l'art chinois se déroule sur près de huit millénaires, du Néolithique, dès le sixième millénaire avant notre ère, jusqu'à la chute de l'empire en 1912. Le Néolithique voit déjà s'affirmer deux savoir-faire qui ne quitteront plus la Chine : la céramique, travaillée avec une précision remarquable, et la taille du jade, pierre extrêmement dure à laquelle on prête des vertus de pureté et de permanence. Sous la dynastie Shang, entre 1570 et 1045 avant notre ère, la maîtrise du bronze atteint un sommet : les ateliers produisent des vases rituels destinés aux offrandes aux ancêtres, coulés à la cire perdue et couverts de décors énigmatiques où prolifèrent des figures et des motifs mythologiques. Sous les Zhou, de 1045 à 221 avant notre ère, apparaissent la laque et les premières peintures sur soie. La Chine impériale commence en 221 avant notre ère et l'une de ses productions les plus spectaculaires date immédiatement de ce moment : l'armée de terre cuite du premier empereur, réalisée sous la dynastie Qin, entre 221 et 206 avant notre ère, aligne des milliers de soldats grandeur nature dans la fosse funéraire. Sous les Han, les soies funéraires de Mawangdui livrent des peintures et des tissus d'une finesse exceptionnelle. Les grottes de Mogao, à Dunhuang, sur la route de la soie, conservent quant à elles des ensembles de peintures murales bouddhiques dont l'épanouissement se situe sous les Tang.",
+   "visuels": [
+    {
+     "type": "frise",
+     "titre": "Repères de l'art chinois ancien",
+     "evenements": [
+      {
+       "date": "VIe millénaire av. J.-C.",
+       "label": "Néolithique",
+       "texte": "Céramique très maîtrisée et taille du jade, pierre de pureté et de permanence."
+      },
+      {
+       "date": "1570-1045 av. J.-C.",
+       "label": "Dynastie Shang",
+       "texte": "Vases rituels en bronze coulés à la cire perdue pour les offrandes aux ancêtres."
+      },
+      {
+       "date": "1045-221 av. J.-C.",
+       "label": "Dynastie Zhou",
+       "texte": "Apparition de la laque et des premières peintures sur soie."
+      },
+      {
+       "date": "221-206 av. J.-C.",
+       "label": "Dynastie Qin",
+       "texte": "Début de la Chine impériale et armée de terre cuite du premier empereur."
+      },
+      {
+       "date": "206 av. J.-C. - 220",
+       "label": "Dynastie Han",
+       "texte": "Soies funéraires de Mawangdui ; l'écrit devient la clé de l'État."
+      },
+      {
+       "date": "618-907",
+       "label": "Dynastie Tang",
+       "texte": "Épanouissement des peintures murales bouddhiques des grottes de Mogao."
+      }
+     ]
+    },
+    {
+     "type": "image",
+     "image": "am-armee-terre-cuite",
+     "legende": "L'armée de terre cuite du premier empereur, dynastie Qin, entre 221 et 206 avant notre ère : des milliers de soldats grandeur nature alignés dans la fosse funéraire.",
+     "alt": "Fosse archéologique couverte : de longues travées creusées dans la terre, séparées par des murets, où sont rangés en colonnes des centaines de guerriers en terre cuite grandeur nature."
+    }
+   ]
+  },
+  {
+   "titre": "Calligraphie et peinture de lettré en Chine",
+   "texte": "En Chine, l'art le plus haut n'est ni la sculpture ni la peinture, mais l'écriture. Sous la dynastie Han, la maîtrise de l'écrit devient le mécanisme indispensable du fonctionnement de l'État : le recrutement des fonctionnaires passe par l'examen, donc par le pinceau, et la calligraphie s'impose comme la plus noble des disciplines. Elle repose sur un matériel simple, le pinceau, le bâton d'encre, la pierre à encre et le papier ou la soie, mais exige un contrôle absolu du geste, car le trait ne peut être ni repris ni corrigé. La peinture naît directement de cette technique et en garde les valeurs : le peintre lettré ne cherche pas la ressemblance mais l'expression d'un souffle intérieur. Sous les Tang, des artistes comme Wu Daozi et Wang Wei développent une peinture monochrome fondée sur les lavis d'encre, où l'intensité du noir et les réserves de blanc suffisent à suggérer la brume, la roche et l'eau. Cette tradition sera poursuivie et théorisée par les peintres lettrés des siècles suivants. Elle donne son plus grand genre au paysage, où la nature n'est pas décrite mais recomposée comme un monde à parcourir mentalement : les figures humaines y sont minuscules, les montagnes s'étagent sans perspective unique, et le vide occupe une place aussi importante que le plein. Peinture, calligraphie et poésie sont souvent réunies sur un même rouleau, dans un dialogue qui définit la culture du lettré."
+  },
+  {
+   "titre": "L'Inde : art bouddhique et temples excavés",
+   "texte": "L'art indien couvre le sous-continent et déborde sur l'Asie du Sud-Est, avec laquelle il partage formes et croyances. Il est étroitement lié aux religions, aux philosophies et à l'histoire culturelle locales, au point qu'on ne peut guère l'en séparer. Sa caractéristique la plus frappante tient à un ensemble de prescriptions strictes : peinture, sculpture et architecture y sont associées de la manière la plus intime et la plus constante, non pour produire un effet esthétique autonome, mais pour exprimer des idéaux métaphysiques. La chronologie commence très tôt, avec les peintures rupestres de Bhimbetka, puis la civilisation de la vallée de l'Indus, remarquable par son urbanisme planifié et par la connaissance anatomique précise dont témoignent ses figurines de cuivre et de terre cuite. Le bouddhisme et le jaïnisme suscitent ensuite des réalisations architecturales majeures, en particulier les temples creusés dans la roche : les sites d'Ajanta, d'Ellora et d'Elephanta présentent des salles entières excavées dans la falaise, avec leurs piliers, leurs sanctuaires et, à Ajanta, des peintures murales conservées. Tailler un édifice en creusant la montagne, du haut vers le bas, suppose une planification sans droit à l'erreur, puisque rien ne peut être ajouté. L'architecture du temple hindou, quant à elle, ne cesse d'évoluer pour répondre à des contextes religieux et sociaux différents selon les régions, ce qui explique la diversité des formes du nord au sud du sous-continent."
+  },
+  {
+   "titre": "L'Inde moghole et le Taj Mahal",
+   "texte": "À partir du XVIe siècle, l'empire moghol donne naissance à un art de cour d'une richesse particulière, où se rencontrent les traditions indiennes et les apports islamiques, iraniens et ottomans. Cet art moghol se manifeste dans la miniature peinte, dans les arts décoratifs et surtout dans l'architecture. Son chef-d'œuvre est le Taj Mahal, élevé à Agra, sur la rive droite de la rivière Yamuna, dans l'actuel État d'Uttar Pradesh. L'empereur Shah Jahan le fait construire à la mémoire de son épouse Mumtaz Mahal, morte en 1631 ; les travaux commencent la même année et l'essentiel est achevé en 1648, même si les historiens discutent encore de la date exacte de la fin du chantier. L'édifice est un mausolée : il abrite la tombe de l'impératrice, puis celle de l'empereur lui-même après sa mort en 1666. Entièrement revêtu de marbre blanc, il est organisé autour d'une coupole centrale de soixante-quatorze mètres de haut, encadrée par quatre minarets qui en équilibrent la masse. Le décor repose sur une technique d'incrustation : vingt-huit sortes de pierres semi-précieuses, dont le lapis-lazuli, le jade et le corail, sont serties dans le marbre pour composer des motifs floraux et des inscriptions. L'ensemble est inscrit au patrimoine mondial de l'UNESCO depuis 1983 et figure depuis 2007 parmi les nouvelles sept merveilles du monde.",
+   "visuel": {
+    "type": "image",
+    "image": "am-taj-mahal",
+    "legende": "Le Taj Mahal à Agra, 1631-1648 : le mausolée de Mumtaz Mahal, coupole de soixante-quatorze mètres encadrée de quatre minarets.",
+    "alt": "Mausolée de marbre blanc parfaitement symétrique surmonté d'un grand dôme bulbeux, flanqué de quatre minarets, précédé d'un bassin rectangulaire bordé de jardins."
+   }
+  },
+  {
+   "titre": "Le Japon : les images du monde flottant et le japonisme",
+   "texte": "L'ukiyo-e, dont le nom signifie images du monde flottant, est le grand mouvement artistique de l'époque d'Edo, qui court de 1603 à 1868. L'expression vient du bouddhisme, où elle désigne l'impermanence de toute chose, mais les habitants d'Edo la retournent en un sens tout profane : vivre dans l'instant présent. Cet art naît de la paix et de la prospérité assurées par le shogunat Tokugawa, et surtout de l'essor d'une classe marchande urbaine qui a l'argent et le goût, mais pas le rang. Ce public trouve dans l'estampe une image belle, bon marché et reproductible. La technique est celle de la gravure sur bois, qui suppose un travail collectif entre le dessinateur, le graveur, l'imprimeur et l'éditeur : chaque couleur exige une planche distincte, calée avec une précision extrême. Les premières feuilles sont monochromes ; vers 1765, Harunobu met au point les nishiki-e, ou estampes de brocart, polychromes et éclatantes. Utamaro se spécialise dans les portraits de belles femmes, Sharaku donne en quelques mois, entre 1794 et 1795, des portraits d'acteurs de kabuki d'une intensité inégalée. Au XIXe siècle, le paysage domine avec Hokusai, dont la série des « Trente-six vues du mont Fuji », vers 1831, contient « La Grande Vague de Kanagawa », et avec Hiroshige. Après l'ouverture forcée du Japon au commerce occidental en 1858, ces estampes affluent en Europe et nourrissent le japonisme.",
+   "visuel": {
+    "type": "image",
+    "image": "am-grande-vague",
+    "legende": "Hokusai, « La Grande Vague de Kanagawa », vers 1831, extraite des « Trente-six vues du mont Fuji » : une estampe gravée sur bois, une planche par couleur.",
+    "alt": "Estampe japonaise : une immense vague bleue aux crêtes en griffes d'écume s'apprête à retomber sur trois barques ; au loin, minuscule et enneigé, le cône du mont Fuji."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Sous quelle dynastie chinoise l'armée de terre cuite a-t-elle été réalisée ?",
+   "choix": [
+    "Les Shang",
+    "Les Qin",
+    "Les Tang",
+    "Les Ming"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "L'armée de terre cuite date de la dynastie Qin, entre 221 et 206 avant notre ère, c'est-à-dire au tout début de la Chine impériale. Elle accompagne la sépulture du premier empereur et aligne des milliers de soldats modelés grandeur nature. Les Shang, entre 1570 et 1045 avant notre ère, sont bien antérieurs et se distinguent par leurs bronzes rituels coulés à la cire perdue. Les Tang correspondent à l'épanouissement de la peinture à l'encre et des grottes bouddhiques de Mogao à Dunhuang. Les Ming sont beaucoup plus tardifs. Retenir 221 avant notre ère comme date de l'unification impériale aide à situer l'ensemble."
+  },
+  {
+   "q": "Pourquoi la calligraphie occupe-t-elle en Chine le rang d'art le plus noble ?",
+   "choix": [
+    "Parce qu'elle était réservée aux moines bouddhistes",
+    "Parce qu'elle utilisait des matériaux rares et coûteux",
+    "Parce que la maîtrise de l'écrit était devenue, sous les Han, le mécanisme indispensable du fonctionnement de l'État",
+    "Parce qu'elle était la seule pratique autorisée aux femmes de la cour"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Sous la dynastie Han, la maîtrise de l'écriture devient le mécanisme indispensable du fonctionnement du gouvernement : les fonctionnaires sont recrutés sur examen, donc sur leur pinceau. La calligraphie devient ainsi la marque de l'homme cultivé et la plus haute des disciplines artistiques. Elle utilise pourtant des matériaux très simples, le pinceau, l'encre, la pierre à encre et le papier ou la soie ; sa difficulté tient au geste, car le trait ne peut être ni repris ni corrigé. La peinture chinoise naît directement de cette technique et en hérite les valeurs : elle vise l'expression d'un souffle intérieur plutôt que la ressemblance."
+  },
+  {
+   "q": "Que désigne l'expression ukiyo-e ?",
+   "choix": [
+    "Les images du monde flottant",
+    "Les peintures de la cour impériale",
+    "Les rouleaux de méditation zen",
+    "Les portraits de samouraïs"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Ukiyo-e signifie littéralement images du monde flottant. L'expression vient du vocabulaire bouddhique, où le monde flottant désigne l'impermanence de toute chose et invite au détachement ; les habitants d'Edo l'ont retournée en un sens profane, celui du plaisir de vivre l'instant présent. Cet art s'épanouit pendant l'époque d'Edo, de 1603 à 1868, porté par une classe marchande urbaine riche mais dépourvue de rang social. L'estampe gravée sur bois lui offrait des images belles, bon marché et produites en série. Le mot dit donc à la fois un sujet, les plaisirs de la ville, et une attitude devant la vie."
+  },
+  {
+   "q": "Qui a fait construire le Taj Mahal, et pour quelle raison ?",
+   "choix": [
+    "L'empereur Akbar, pour célébrer une victoire militaire",
+    "Le sultan de Delhi, comme mosquée du vendredi",
+    "L'empereur Aurangzeb, comme palais d'été",
+    "L'empereur Shah Jahan, comme mausolée pour son épouse Mumtaz Mahal"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "L'empereur moghol Shah Jahan fit édifier le Taj Mahal à Agra après la mort de son épouse Mumtaz Mahal en 1631. Les travaux commencèrent la même année et l'essentiel fut achevé en 1648. Il s'agit donc d'un mausolée, qui accueillit aussi la dépouille de l'empereur après sa mort en 1666. Revêtu de marbre blanc, l'édifice associe des éléments islamiques, iraniens, ottomans et indiens autour d'une coupole de soixante-quatorze mètres, avec des incrustations de vingt-huit sortes de pierres semi-précieuses. Il est inscrit au patrimoine mondial de l'UNESCO depuis 1983."
+  },
+  {
+   "q": "Quel événement de 1858 favorise l'arrivée massive des estampes japonaises en Europe ?",
+   "choix": [
+    "La restauration de l'empereur Meiji",
+    "L'ouverture forcée du Japon au commerce occidental",
+    "L'Exposition universelle de Paris",
+    "La fondation de la Compagnie des Indes orientales"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "L'ouverture forcée du Japon au commerce avec l'Occident, en 1858, met fin à plus de deux siècles de fermeture relative du pays et permet aux estampes de parvenir en Europe en grandes quantités. Elles y bouleversent le regard des peintres par leurs cadrages audacieux, leurs aplats de couleur et leur absence de modelé : c'est le mouvement du japonisme, qui marque profondément les impressionnistes et les postimpressionnistes. Les artistes découverts alors sont notamment Hokusai, auteur des « Trente-six vues du mont Fuji » vers 1831, et Hiroshige. La restauration Meiji, elle, intervient en 1868 et met fin à l'époque d'Edo."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Art chinois",
+   "url": "https://fr.wikipedia.org/wiki/Art_chinois"
+  },
+  {
+   "titre": "Ukiyo-e",
+   "url": "https://fr.wikipedia.org/wiki/Ukiyo-e"
+  },
+  {
+   "titre": "Art indien",
+   "url": "https://fr.wikipedia.org/wiki/Art_indien"
+  },
+  {
+   "titre": "Taj Mahal",
+   "url": "https://fr.wikipedia.org/wiki/Taj_Mahal"
+  }
+ ]
+}

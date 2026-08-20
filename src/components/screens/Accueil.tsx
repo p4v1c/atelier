@@ -11,7 +11,7 @@ import { SERIES_SIZES, TEST_SIZE } from "@/lib/study/scheduler";
 import { NoContentError } from "@/lib/client/engine";
 import { loadGuestState, saveGuestState } from "@/lib/client/guest-store";
 
-export function Accueil({ engine, user, setScreen, setChrome }: ScreenProps) {
+export function Accueil({ engine, user, moduleId, setScreen, setChrome }: ScreenProps) {
   const [progress, setProgress] = useState<ProgressPayload | null>(null);
   const [categorie, setCategorie] = useState<string | null>(null);
   const [taille, setTaille] = useState<number>(() => (engine.isGuest ? loadGuestState().seriesLength : 20));
@@ -23,8 +23,8 @@ export function Accueil({ engine, user, setScreen, setChrome }: ScreenProps) {
       fil: "Entraînement personnel",
       accroche: "Repérer la faute, comprendre pourquoi, ne plus la refaire.",
     });
-    void engine.progress().then(setProgress);
-  }, [engine, setChrome]);
+    void engine.progress(moduleId).then(setProgress);
+  }, [engine, moduleId, setChrome]);
 
   const lancer = async (mode: "training" | "targeted" | "weakness" | "test") => {
     setOccupe(true);
@@ -54,6 +54,7 @@ export function Accueil({ engine, user, setScreen, setChrome }: ScreenProps) {
   if (!progress) return <p className="legende attente">Chargement de ta progression…</p>;
 
   const { mastered, skillCount, due, unseen, level } = progress;
+  const moduleCourant = progress.modules.find((m) => m.id === moduleId);
 
   return (
     <>
@@ -66,9 +67,8 @@ export function Accueil({ engine, user, setScreen, setChrome }: ScreenProps) {
           <i style={{ width: `${skillCount ? (mastered / skillCount) * 100 : 0}%` }} />
         </div>
         <p className="legende">
-          {mastered} règle{mastered > 1 ? "s" : ""} maîtrisée{mastered > 1 ? "s" : ""} sur {skillCount} · {due} à
-          réviser
-          {unseen > 0 ? ` · ${unseen} jamais vue${unseen > 1 ? "s" : ""}` : ""}
+          {mastered} point{mastered > 1 ? "s" : ""} acquis sur {skillCount} · {due} à réviser
+          {unseen > 0 ? ` · ${unseen} jamais vu${unseen > 1 ? "s" : ""}` : ""}
         </p>
       </div>
 
@@ -144,19 +144,21 @@ export function Accueil({ engine, user, setScreen, setChrome }: ScreenProps) {
       </div>
 
       <div className="menu">
-        <button className="tuile" onClick={() => setScreen({ name: "dictees" })}>
-          <b>Dictée audio</b>
-          <span>Des phrases lues à voix haute, corrigées mot à mot.</span>
-        </button>
+        {/* Toutes les matières ne se prêtent pas à la dictée : mieux vaut
+            masquer l'entrée que d'ouvrir un écran vide. */}
+        {(moduleCourant?.dictationCount ?? 0) > 0 && (
+          <button className="tuile" onClick={() => setScreen({ name: "dictees" })}>
+            <b>Dictée audio</b>
+            <span>Des textes lus à voix haute, corrigés mot à mot.</span>
+          </button>
+        )}
         <button className="tuile" onClick={() => setScreen({ name: "stats" })}>
           <b>Statistiques</b>
-          <span>Ton palier règle par règle et tes lacunes en tête de liste.</span>
+          <span>Ton palier point par point, et tes lacunes en tête de liste.</span>
         </button>
         <button className="tuile" onClick={() => setScreen({ name: "catalogue" })}>
-          <b>Les règles</b>
-          <span>
-            Chercher parmi les {skillCount} difficultés, et s’entraîner sur l’une d’elles.
-          </span>
+          <b>Le catalogue</b>
+          <span>Chercher parmi les {skillCount} points, et s’entraîner sur l’un d’eux.</span>
         </button>
         <button className="tuile" disabled={occupe} onClick={() => lancer("weakness")}>
           <b>Mes points faibles</b>
@@ -175,7 +177,7 @@ export function Accueil({ engine, user, setScreen, setChrome }: ScreenProps) {
             onClick={async () => {
               if (!engine.reset) return;
               await engine.reset();
-              setProgress(await engine.progress());
+              setProgress(await engine.progress(moduleId));
             }}
           >
             Effacer ma progression

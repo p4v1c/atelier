@@ -1,0 +1,160 @@
+{
+ "titre": "La littérature francophone : Afrique, Antilles, Québec",
+ "sections": [
+  {
+   "titre": "Écrire en français hors de France",
+   "texte": "On appelle littératures francophones les œuvres écrites en français par des auteurs dont le pays ou la communauté d'origine n'est pas la France. Le terme est commode mais il a été contesté, car il risque de réduire à une annexe des littératures qui possèdent leur histoire, leurs débats et leurs institutions propres. Ces littératures partagent pourtant une situation commune : le français y est arrivé par la colonisation ou par le peuplement, et écrire dans cette langue engage toujours un rapport de force. Faut-il l'adopter telle qu'elle est enseignée, la déformer, y introduire d'autres langues, ou lui préférer une langue locale ? Cette question traverse l'Afrique, les Antilles et le Québec, avec des réponses très différentes. Au Québec, la littérature naît d'abord de récits de voyage et d'exploration signés Jacques Cartier ou Samuel de Champlain, entre 1534 et 1763. Après la conquête britannique, elle prend un tour politique et défend les droits des Canadiens. Au XIXe siècle, l'histoire devient une arme : l'« Histoire du Canada » de François-Xavier Garneau, publiée entre 1845 et 1852, répond directement à lord Durham, qui avait décrit les Canadiens comme un peuple sans histoire ni littérature. Dans les colonies africaines et antillaises, la littérature écrite se développe plus tard, à partir de l'entre-deux-guerres, sur un fond de traditions orales anciennes et vivaces."
+  },
+  {
+   "titre": "La négritude",
+   "texte": "Le mouvement fondateur des lettres noires de langue française est la négritude, né dans l'entre-deux-guerres à Paris, où se croisent des étudiants venus des Antilles et d'Afrique. Le mot est forgé vers 1936 par trois poètes : le Martiniquais Aimé Césaire, le Sénégalais Léopold Sédar Senghor et le Guyanais Léon-Gontran Damas. Césaire l'emploie pour la première fois dans le numéro de mai-juin 1935 de la revue « L'Étudiant noir », publiée par des étudiants martiniquais en France, puis il en développe pleinement la portée dans « Cahier d'un retour au pays natal », paru en 1939, texte devenu l'un des grands poèmes du siècle. Pour ses fondateurs, la négritude désigne l'ensemble des valeurs culturelles de l'Afrique noire et constitue un refus de l'assimilation culturelle et de l'oppression coloniale : il s'agit de retourner en fierté ce que le regard colonial avait fait honte. Jean-Paul Sartre en donna une formule restée célèbre en 1948, parlant d'un racisme antiraciste destiné à conduire vers l'égalité. Le mouvement fut cependant très tôt critiqué par d'autres intellectuels noirs, qui lui reprochaient d'enfermer les individus dans une essence. Le Nigérian Wole Soyinka résuma l'objection d'une phrase devenue proverbiale : le tigre ne proclame pas sa tigritude, il bondit sur sa proie et la dévore."
+  },
+  {
+   "titre": "L'Afrique, de l'oralité aux indépendances",
+   "texte": "La littérature africaine ne commence pas avec l'écriture en langues européennes. L'Afrique de l'Ouest possède une tradition orale d'une richesse considérable, portée par les griots, qui transmettent en musique et en récitation de vastes épopées, au premier rang desquelles l'« Épopée de Soundiata ». Cette matrice orale continue de nourrir les écrivains contemporains, par le rythme, la place du conteur et le goût de la parole proverbiale. La littérature africaine écrite par des Africains se développe surtout à partir de l'entre-deux-guerres, puis explose au moment des indépendances. Camara Laye publie en 1953 « L'Enfant noir », récit d'enfance guinéen d'une grande douceur. En 1968, l'Ivoirien Ahmadou Kourouma donne « Les Soleils des indépendances », roman qui rompt avec le français académique et critique sans ménagement les régimes issus de la décolonisation. En 1979, la Sénégalaise Mariama Bâ publie « Une si longue lettre », qui ouvre la voie à l'expression des femmes africaines. Du côté anglophone, Wole Soyinka devient en 1986 le premier écrivain africain à recevoir le prix Nobel de littérature, aux côtés d'auteurs comme Chinua Achebe qui ont acquis une audience internationale. La production actuelle se diversifie thématiquement et esthétiquement, s'éloignant des seuls récits d'identité, et s'appuie sur de nouvelles maisons d'édition installées sur le continent."
+  },
+  {
+   "titre": "Les Antilles, de l'antillanité à la créolité",
+   "texte": "Aux Antilles, la réflexion sur l'identité ne s'est pas arrêtée à la négritude. Dans les années 1980 émerge un mouvement littéraire appelé créolité, formulé par trois écrivains martiniquais, Jean Bernabé, Patrick Chamoiseau et Raphaël Confiant, dans un texte manifeste publié en 1989, « Éloge de la créolité ». Leur position se construit en réponse à celle de Césaire. Là où la négritude affirmait avant tout l'héritage africain, la créolité récuse le monolinguisme et la pureté et revendique le métissage effectif des sociétés antillaises, qui doivent aussi quelque chose aux Amérindiens caraïbes, aux colons européens, aux immigrants indiens, chinois et proche-orientaux. L'identité n'est plus cherchée dans une origine unique mais dans une composition. Cette perspective donne une place centrale à la langue créole, non comme un patois honteux mais comme une ressource littéraire capable de travailler le français de l'intérieur. Le mouvement a suscité de vives critiques : Max-Auguste Dufrenot a reproché aux créolistes d'avoir négligé d'autres mouvements importants, comme la Renaissance de Harlem ou l'indigénisme haïtien, et d'avoir fait de la négritude leur unique adversaire. Il n'en reste pas moins que ces auteurs ont donné à la littérature antillaise une visibilité nouvelle et une langue romanesque immédiatement reconnaissable, où le conte, le proverbe et la parole de la rue trouvent leur place dans le roman.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Négritude et créolité",
+    "colonnes": [
+     {
+      "titre": "La négritude (vers 1936)",
+      "points": [
+       "Césaire, Senghor, Damas, étudiants réunis à Paris",
+       "Affirme les valeurs culturelles de l'Afrique noire",
+       "Refus de l'assimilation culturelle et de l'oppression coloniale",
+       "Retourner en fierté ce que le regard colonial avait fait honte"
+      ]
+     },
+     {
+      "titre": "La créolité (1989)",
+      "points": [
+       "Bernabé, Chamoiseau, Confiant, dans « Éloge de la créolité »",
+       "Revendique le métissage effectif des sociétés antillaises",
+       "Récuse le monolinguisme et la pureté d'une origine unique",
+       "Fait du créole une ressource littéraire, non un patois honteux"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le Québec, du terroir à la modernité",
+   "texte": "La littérature québécoise offre l'exemple d'une émancipation progressive. Entre 1850 et 1900 domine le discours dit de la survivance, programme défendu notamment par l'abbé Henri-Raymond Casgrain : une littérature religieuse et patriotique, célébrant la tradition agricole et entretenant la mémoire nationale par les légendes et le folklore. De 1900 à 1950 règne le roman du terroir, qui présente la vie rurale comme moralement supérieure à la corruption des villes et fait de l'attachement à la terre le devoir des Canadiens français. La rupture intervient au milieu du XXe siècle. La Révolution tranquille des années 1960 bouleverse la société québécoise et, avec elle, ses lettres : c'est de cette période que date l'expression même de littérature québécoise, qui remplace celle de littérature canadienne-française. Les écrivains se tournent vers la ville, l'expérimentation formelle et la critique sociale, et le lien obligé entre la littérature, l'Église et la ruralité se défait. La production contemporaine reflète une société devenue multiculturelle et fait entendre des voix venues d'ailleurs, ce qui a considérablement élargi la définition de l'identité littéraire québécoise. Cette trajectoire, d'une littérature de conservation à une littérature de contestation puis d'ouverture, résume ce que la francophonie littéraire a de plus dynamique, et elle éclaire les débats comparables qui traversent l'Afrique et les Antilles.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Les âges de la littérature québécoise",
+    "evenements": [
+     {
+      "date": "1534-1763",
+      "label": "Récits de voyage",
+      "texte": "Jacques Cartier, Samuel de Champlain"
+     },
+     {
+      "date": "1845-1852",
+      "label": "« Histoire du Canada »",
+      "texte": "Garneau répond à lord Durham, qui parlait d'un peuple sans histoire"
+     },
+     {
+      "date": "1850-1900",
+      "label": "La survivance",
+      "texte": "Littérature religieuse et patriotique, légendes et folklore"
+     },
+     {
+      "date": "1900-1950",
+      "label": "Le roman du terroir",
+      "texte": "La vie rurale présentée comme moralement supérieure à la ville"
+     },
+     {
+      "date": "années 1960",
+      "label": "La Révolution tranquille",
+      "texte": "La ville, l'expérimentation, la critique sociale"
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Qui a employé pour la première fois le mot négritude, et dans quelle revue ?",
+   "choix": [
+    "Léopold Sédar Senghor, dans « Présence africaine »",
+    "Aimé Césaire, dans « L'Étudiant noir »",
+    "Léon-Gontran Damas, dans « Légitime Défense »",
+    "Jean-Paul Sartre, dans « Les Temps modernes »"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Aimé Césaire emploie le mot pour la première fois dans le numéro de mai-juin 1935 de « L'Étudiant noir », revue publiée par des étudiants martiniquais en France. Le terme est ensuite forgé collectivement vers 1936 avec Léopold Sédar Senghor et Léon-Gontran Damas, et Césaire en développe la portée dans « Cahier d'un retour au pays natal », publié en 1939. La négritude désigne l'ensemble des valeurs culturelles de l'Afrique noire et constitue un refus de l'assimilation et de l'oppression coloniales. Sartre en donna en 1948 une lecture célèbre en parlant de racisme antiraciste."
+  },
+  {
+   "q": "Quel texte manifeste, publié en 1989, fonde le mouvement de la créolité ?",
+   "choix": [
+    "« Cahier d'un retour au pays natal »",
+    "« Peau noire, masques blancs »",
+    "« Éloge de la créolité »",
+    "« Le Discours antillais »"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "« Éloge de la créolité » est publié en 1989 par trois écrivains martiniquais, Jean Bernabé, Patrick Chamoiseau et Raphaël Confiant. Le texte récuse le monolinguisme et la pureté et revendique le métissage réel des sociétés antillaises, qui doivent aussi aux Amérindiens caraïbes, aux Européens et aux immigrants indiens, chinois et proche-orientaux. Cette position se démarque de la négritude, qui affirmait avant tout l'héritage africain. « Cahier d'un retour au pays natal » est le grand poème d'Aimé Césaire, paru en 1939. Le mouvement a été critiqué pour avoir négligé la Renaissance de Harlem et l'indigénisme haïtien."
+  },
+  {
+   "q": "Quel roman d'Ahmadou Kourouma, paru en 1968, critique les régimes nés de la décolonisation ?",
+   "choix": [
+    "« Les Soleils des indépendances »",
+    "« L'Enfant noir »",
+    "« Une si longue lettre »",
+    "« L'Aventure ambiguë »"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "« Les Soleils des indépendances », publié en 1968 par l'Ivoirien Ahmadou Kourouma, s'en prend sans ménagement aux régimes issus de la décolonisation et rompt avec le français académique en y faisant entrer les tournures de la langue malinké. « L'Enfant noir » est un récit d'enfance publié en 1953 par le Guinéen Camara Laye. « Une si longue lettre », de la Sénégalaise Mariama Bâ, paraît en 1979 et ouvre la voie à l'expression des femmes africaines. Ces œuvres s'appuient sur une tradition orale ancienne, portée notamment par les griots et leurs épopées."
+  },
+  {
+   "q": "Qui fut, en 1986, le premier écrivain africain à recevoir le prix Nobel de littérature ?",
+   "choix": [
+    "Chinua Achebe",
+    "Léopold Sédar Senghor",
+    "Ahmadou Kourouma",
+    "Wole Soyinka"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le Nigérian Wole Soyinka reçoit le prix Nobel de littérature en 1986, devenant le premier écrivain africain distingué par cette académie. Il est également connu pour sa critique de la négritude, résumée par une formule fameuse selon laquelle le tigre ne proclame pas sa tigritude mais bondit sur sa proie. Son compatriote Chinua Achebe, malgré une audience internationale considérable, n'a jamais obtenu le prix. Senghor, poète de la négritude et président du Sénégal, fut quant à lui élu à l'Académie française mais non lauréat du Nobel."
+  },
+  {
+   "q": "Quel genre domine la littérature québécoise entre 1900 et 1950 ?",
+   "choix": [
+    "Le théâtre de l'absurde",
+    "Le roman du terroir",
+    "Le récit de voyage",
+    "Le roman policier"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Entre 1900 et 1950, la littérature québécoise est dominée par le roman du terroir, qui présente la vie rurale comme moralement supérieure à la corruption des villes et fait de l'attachement à la terre un devoir national. Il prolonge le discours de la survivance défendu à partir de 1850 par l'abbé Henri-Raymond Casgrain, qui prônait une littérature religieuse et patriotique nourrie de légendes et de folklore. La rupture vient avec la Révolution tranquille des années 1960, période où s'impose d'ailleurs l'expression même de littérature québécoise. Les récits de voyage, eux, appartiennent aux tout débuts, avec Cartier et Champlain."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Négritude",
+   "url": "https://fr.wikipedia.org/wiki/N%C3%A9gritude"
+  },
+  {
+   "titre": "Littérature africaine",
+   "url": "https://fr.wikipedia.org/wiki/Litt%C3%A9rature_africaine"
+  },
+  {
+   "titre": "Créolité",
+   "url": "https://fr.wikipedia.org/wiki/Cr%C3%A9olit%C3%A9"
+  },
+  {
+   "titre": "Littérature québécoise",
+   "url": "https://fr.wikipedia.org/wiki/Litt%C3%A9rature_qu%C3%A9b%C3%A9coise"
+  }
+ ]
+}

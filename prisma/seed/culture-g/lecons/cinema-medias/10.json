@@ -1,0 +1,185 @@
+{
+ "titre": "La musique de film et le son au cinéma",
+ "sections": [
+  {
+   "titre": "Accompagner l'image avant le parlant",
+   "texte": "La musique n'a pas attendu le cinéma sonore pour entrer dans les salles : elle y était présente dès l'origine. Dès 1892, Émile Reynaud fait accompagner au piano les projections de son Théâtre optique, et les séances de vues animées de la fin du XIXe siècle sont presque toujours soutenues par un musicien. La musique remplit alors plusieurs offices très concrets. Elle couvre le cliquetis bruyant du projecteur, elle donne une continuité à des images saccadées, et surtout elle indique au public l'émotion attendue, du galop guilleret à la marche funèbre. Les pianistes de salle improvisent ou piochent dans des recueils de morceaux classés par situation, avec une page pour la poursuite, une autre pour la scène d'amour. Le tournant esthétique survient en 1908, lorsque Camille Saint-Saëns compose pour « L'Assassinat du duc de Guise » ce que l'on considère comme la première partition originale écrite spécialement pour un film. La musique cesse d'être un simple remplissage sonore pour devenir une oeuvre pensée en fonction des images. Parallèlement, des opérateurs installés derrière l'écran produisent les bruits en direct : des noix de coco pour les sabots des chevaux, des grelots pour une calèche, une plaque de tôle secouée pour l'orage. Le spectacle du muet était donc un spectacle sonore vivant, différent d'une salle à l'autre et d'un soir à l'autre, ce qui explique qu'aucune projection ne ressemblait tout à fait à une autre."
+  },
+  {
+   "titre": "La révolution technique du son enregistré",
+   "texte": "À partir du milieu des années 1920, plusieurs procédés permettent enfin de fixer le son et de le synchroniser avec l'image. Deux familles techniques s'affrontent. La première est le son sur disque : la Warner Bros. adopte en 1926 le système Vitaphone, qui relie par des moteurs électriques le projecteur et un phonographe. Elle l'emploie pour « Don Juan » en 1926, puis pour « Le Chanteur de jazz » en 1927, dont le triomphe mondial convainc toute l'industrie. La seconde famille est le son optique, où l'onde sonore est photographiée sur la pellicule elle-même, sous la forme d'une piste imprimée le long des images : la Fox Film Corporation développe le Movietone à partir de 1927 et la RCA lance le Photophone en 1928. Ce second principe finit par s'imposer, car la piste optique vieillit mieux que le disque au fil des projections et ne risque pas de se désynchroniser. Les conséquences sur les tournages sont immédiates et brutales. Les caméras, très bruyantes, doivent être enfermées dans des caissons insonorisés appelés blimps, ce qui réduit fortement leur mobilité. Les studios deviennent des lieux strictement calfeutrés où l'on ne peut plus tourner deux films en même temps. Les carrières se font et se défont : des vedettes du muet comme John Gilbert ou Emil Jannings s'effondrent, tandis que les comédiens venus du théâtre et du vaudeville, tels Al Jolson, Greta Garbo ou Marlene Dietrich, s'imposent.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Deux façons de fixer le son, vers 1927",
+    "colonnes": [
+     {
+      "titre": "Le son sur disque",
+      "points": [
+       "Système Vitaphone, adopté par la Warner Bros. en 1926",
+       "Des moteurs électriques relient le projecteur et un phonographe",
+       "« Don Juan » en 1926, puis « Le Chanteur de jazz » en 1927",
+       "Le disque s'use et risque de se désynchroniser au fil des projections"
+      ]
+     },
+     {
+      "titre": "Le son optique",
+      "points": [
+       "Movietone chez Fox à partir de 1927, Photophone chez RCA en 1928",
+       "L'onde sonore est photographiée sur la pellicule, en une piste imprimée le long des images",
+       "Image et son ne peuvent plus se séparer",
+       "Ce principe finit par s'imposer"
+      ]
+     }
+    ],
+    "note": "Sur les plateaux, les caméras trop bruyantes doivent être enfermées dans des caissons insonorisés appelés blimps, ce qui réduit fortement leur mobilité."
+   }
+  },
+  {
+   "titre": "À quoi sert la musique dans un film",
+   "texte": "La musique de film désigne l'ensemble des musiques employées dans un film, qu'elles aient été composées pour lui ou choisies parmi des oeuvres existantes par le réalisateur et le producteur. Elle remplit plusieurs fonctions que l'on peut distinguer. La première est émotionnelle : elle oriente le sentiment du spectateur, rend une scène menaçante ou attendrissante, parfois à l'encontre de ce que montre l'image. La deuxième est l'identification : un thème attaché à un personnage permet de le reconnaître, de signaler son approche ou d'évoquer son souvenir alors qu'il est absent de l'écran. La troisième est rythmique, la musique structurant le montage et la durée ressentie d'une séquence, et la quatrième est symbolique, une couleur instrumentale suffisant à situer une époque ou un pays. On distingue par ailleurs la musique dite diégétique, qui appartient au monde du récit et que les personnages peuvent entendre, comme un poste de radio ou un orchestre de bal, et la musique extradiégétique, entendue du seul spectateur. L'outil le plus puissant reste le leitmotiv, ce motif court et reconnaissable emprunté à l'opéra romantique. Le thème des « Dents de la mer », composé par John Williams en 1975 sur quelques notes obstinées, en est l'exemple le plus célèbre : il annonce le requin sans qu'il soit besoin de le montrer, et devient lui-même la source de l'angoisse. Après 1960, l'usage de chansons populaires enrichit encore cette palette.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les quatre fonctions de la musique de film",
+    "colonnes": [
+     "Fonction",
+     "Ce qu'elle fait"
+    ],
+    "lignes": [
+     [
+      "Émotionnelle",
+      "Elle oriente le sentiment du spectateur, parfois à l'encontre de ce que montre l'image"
+     ],
+     [
+      "Identification",
+      "Un thème attaché à un personnage le fait reconnaître, annonce son approche ou évoque son souvenir hors champ"
+     ],
+     [
+      "Rythmique",
+      "Elle structure le montage et la durée ressentie d'une séquence"
+     ],
+     [
+      "Symbolique",
+      "Une couleur instrumentale suffit à situer une époque ou un pays"
+     ]
+    ],
+    "note": "On distingue aussi la musique diégétique, que les personnages peuvent entendre, de la musique extradiégétique, entendue du seul spectateur."
+   }
+  },
+  {
+   "titre": "Deux géants : Ennio Morricone et John Williams",
+   "texte": "Né à Rome le 10 novembre 1928 et mort dans la même ville le 6 juillet 2020, Ennio Morricone a signé plus de cinq cents partitions pour le cinéma et la télévision. Sa collaboration avec Sergio Leone, commencée avec « Pour une poignée de dollars » en 1964, a défini l'identité sonore du western italien : sifflements, cris, fouets, guimbarde et guitare électrique mêlés à l'orchestre, dans « Le Bon, la Brute et le Truand » en 1966 puis « Il était une fois dans l'Ouest » en 1968. Il travaille aussi pour le cinéma politique italien, avec « Enquête sur un citoyen au-dessus de tout soupçon » en 1970, et retrouve Leone pour « Il était une fois en Amérique » en 1984. Nommé six fois à l'Oscar, il reçoit un Oscar d'honneur en 2007, puis l'Oscar de la meilleure musique originale en 2016, à quatre-vingt-sept ans, pour « Les Huit Salopards ». L'Américain John Towner Williams, né à New York le 8 février 1932, formé à l'UCLA et à la Juilliard School, a suivi un autre chemin. Après un premier Oscar en 1971 pour l'adaptation musicale d'« Un violon sur le toit », il rencontre Steven Spielberg et compose « Les Dents de la mer » en 1975. Suivent « Star Wars » en 1977, « Superman » en 1978, « E.T. » en 1982, puis « Jurassic Park » et « La Liste de Schindler » en 1993. Il a renouvelé l'écriture symphonique hollywoodienne en généralisant le leitmotiv d'origine wagnérienne.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Deux géants de la musique de film",
+    "colonnes": [
+     {
+      "titre": "Ennio Morricone (1928-2020)",
+      "points": [
+       "Plus de cinq cents partitions pour le cinéma et la télévision",
+       "Avec Sergio Leone, il invente l'identité sonore du western italien : sifflements, cris, fouets, guimbarde et guitare électrique mêlés à l'orchestre",
+       "« Pour une poignée de dollars » (1964), « Le Bon, la Brute et le Truand » (1966), « Il était une fois dans l'Ouest » (1968)",
+       "Oscar d'honneur en 2007, puis Oscar de la meilleure musique en 2016 à quatre-vingt-sept ans"
+      ]
+     },
+     {
+      "titre": "John Williams (né en 1932)",
+      "points": [
+       "Formé à l'UCLA et à la Juilliard School",
+       "Renouvelle l'écriture symphonique hollywoodienne en généralisant le leitmotiv d'origine wagnérienne",
+       "« Les Dents de la mer » (1975), « Star Wars » (1977), « E.T. » (1982), « Jurassic Park » et « La Liste de Schindler » (1993)",
+       "Compositeur attitré de Steven Spielberg"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le bruitage, un art invisible",
+   "texte": "La bande sonore d'un film ne se réduit ni aux dialogues ni à la musique. Elle comprend une troisième couche, celle des bruits, que le public perçoit comme allant de soi alors qu'elle est presque entièrement fabriquée. Le bruitage désigne la fourniture de ces éléments sonores et des ambiances ajoutées en postproduction, et le professionnel qui l'exécute est le bruiteur. Dans un auditorium spécialisé, il recrée devant l'écran les frottements de vêtements, les pas, les coups, les portes et les objets manipulés, en utilisant son corps et un stock hétéroclite d'accessoires. Un pas dans la neige, un os brisé ou une aile d'oiseau n'ont presque jamais été enregistrés sur le tournage : ils sont joués. L'Américain Jack Foley a systématisé cette pratique en 1928, en insérant les bruits directement dans la bande sonore du film, si bien que la discipline porte encore son nom dans le monde anglophone. Le bruitage est indispensable lorsque le son du tournage est inutilisable et qu'il faut postsynchroniser les voix, et il l'est tout autant pour le doublage, où l'on remplace les dialogues d'une langue par une autre sans perdre l'environnement sonore. Toutes ces couches, dialogues, bruits, ambiances et musique, sont enfin équilibrées lors du mixage, étape qui décide de ce que l'oreille du spectateur remarquera. Le même travail nourrit aujourd'hui la création sonore des jeux vidéo."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quelle est la première partition originale composée spécialement pour un film ?",
+   "choix": [
+    "Celle de Camille Saint-Saëns pour « L'Assassinat du duc de Guise » en 1908",
+    "Celle de John Williams pour « Les Dents de la mer » en 1975",
+    "Celle d'Ennio Morricone pour « Pour une poignée de dollars » en 1964",
+    "Celle de Charlie Chaplin pour « Le Kid » en 1921"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "En 1908, Camille Saint-Saëns écrit pour « L'Assassinat du duc de Guise » une musique conçue en fonction des images du film : on y voit la première partition originale de l'histoire du cinéma. Jusque-là, l'accompagnement était improvisé par un pianiste de salle ou puisé dans des recueils de morceaux classés par situation. Ce geste fait passer la musique du statut de remplissage sonore à celui d'oeuvre pensée pour un film précis. Les partitions de Morricone en 1964 et de Williams en 1975 appartiennent, elles, à une tradition déjà bien établie."
+  },
+  {
+   "q": "Quelle différence essentielle sépare le Vitaphone du Movietone ?",
+   "choix": [
+    "L'un était en couleur, l'autre en noir et blanc",
+    "L'un enregistrait le son sur disque, l'autre directement sur la pellicule",
+    "L'un servait au cinéma, l'autre à la radio",
+    "L'un était français, l'autre américain"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Le Vitaphone, adopté par la Warner Bros. en 1926, est un procédé de son sur disque : un phonographe est relié au projecteur par des moteurs électriques. Le Movietone, développé par la Fox à partir de 1927, est au contraire un procédé de son optique, où l'onde sonore est photographiée sous forme de piste imprimée sur la pellicule elle-même. Le son optique finit par l'emporter, notamment avec le Photophone lancé par la RCA en 1928, car il résiste mieux à l'usure des copies et ne peut pas se désynchroniser. Les deux systèmes sont américains et concernent des films en noir et blanc."
+  },
+  {
+   "q": "Comment appelle-t-on une musique qui appartient au monde du récit et que les personnages peuvent entendre ?",
+   "choix": [
+    "Une musique extradiégétique",
+    "Un leitmotiv",
+    "Une musique diégétique",
+    "Un thème principal"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "On qualifie de diégétique une musique dont la source existe dans l'univers du film : un poste de radio allumé, un orchestre de bal, un personnage qui chante. Les personnages l'entendent en même temps que le spectateur. La musique extradiégétique, à l'inverse, n'existe que pour le public : c'est le cas de la nappe d'orchestre qui souligne une scène d'adieu. Un leitmotiv désigne autre chose : un motif musical court et reconnaissable attaché à un personnage ou à une idée, et qui revient tout au long du film. Il peut d'ailleurs être diégétique ou non."
+  },
+  {
+   "q": "Avec quel réalisateur Ennio Morricone a-t-il forgé l'identité sonore du western italien ?",
+   "choix": [
+    "Federico Fellini",
+    "Sergio Leone",
+    "Steven Spielberg",
+    "Luchino Visconti"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Ennio Morricone, né à Rome en 1928 et mort en 2020, a lié son nom à celui de Sergio Leone à partir de « Pour une poignée de dollars » en 1964. Ensemble ils signent « Le Bon, la Brute et le Truand » en 1966, « Il était une fois dans l'Ouest » en 1968 puis « Il était une fois en Amérique » en 1984. Morricone y mêle à l'orchestre des sonorités inhabituelles, sifflements, cris, fouets et guitare électrique. Steven Spielberg, lui, travaille avec John Williams depuis « Les Dents de la mer » en 1975, une collaboration qui a dépassé vingt-neuf films."
+  },
+  {
+   "q": "Que fait un bruiteur ?",
+   "choix": [
+    "Il compose la musique originale du film",
+    "Il règle le volume des dialogues en salle",
+    "Il recrée en studio les bruits ajoutés au film",
+    "Il traduit les dialogues pour le doublage"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "Le bruiteur travaille en postproduction, dans un auditorium spécialisé, devant l'image projetée. Il rejoue avec son corps et des accessoires les pas, les frottements de vêtements, les coups, les portes et tous les objets manipulés à l'écran. Ces sons ne sont presque jamais ceux du tournage, qui privilégie la captation des voix. L'Américain Jack Foley a systématisé cette pratique en 1928, au point que la discipline porte son nom en anglais. Le bruitage est indispensable quand il faut postsynchroniser les dialogues, et il l'est tout autant pour le doublage dans une autre langue."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Musique de film",
+   "url": "https://fr.wikipedia.org/wiki/Musique_de_film"
+  },
+  {
+   "titre": "Cinéma sonore",
+   "url": "https://fr.wikipedia.org/wiki/Cinéma_sonore"
+  },
+  {
+   "titre": "Bruitage",
+   "url": "https://fr.wikipedia.org/wiki/Bruitage"
+  },
+  {
+   "titre": "Ennio Morricone",
+   "url": "https://fr.wikipedia.org/wiki/Ennio_Morricone"
+  },
+  {
+   "titre": "John Williams (compositeur)",
+   "url": "https://fr.wikipedia.org/wiki/John_Williams_(compositeur)"
+  }
+ ]
+}

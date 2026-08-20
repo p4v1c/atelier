@@ -1,0 +1,222 @@
+{
+ "titre": "Homonymes, paronymes et fautes de vocabulaire",
+ "sections": [
+  {
+   "titre": "Homonymes : deux mots pour une seule forme",
+   "texte": "Deux mots sont homonymes lorsqu'ils partagent une même forme tout en ayant des sens et le plus souvent des origines différentes. On distingue les homophones, qui se prononcent de la même façon mais s'écrivent autrement — ver, vers, verre, vert, vair — et les homographes, qui s'écrivent pareillement, comme dans la phrase classique « les poules du couvent couvent ». Certains mots cumulent les deux, tel « mousse », qui désigne une plante, une écume et un jeune marin. Il faut se garder de confondre homonymie et polysémie : la polysémie décrit un mot unique dont les sens se sont diversifiés à partir d'une même racine, comme « bureau », d'abord une étoffe, puis une table, puis une pièce, puis un service administratif. L'homonymie, elle, résulte de la rencontre fortuite de mots venus de racines distinctes que l'usure phonétique a rapprochés. L'orthographe française joue ici un rôle qu'on lui reproche rarement : en maintenant des graphies différentes, elle désambiguïse à l'œil ce que l'oreille ne distingue plus. Les homonymes nourrissent enfin les jeux de mots et parfois de fausses légendes. La pantoufle de Cendrillon en offre l'exemple le plus célèbre : Perrault a bien écrit « de verre », et l'hypothèse d'un « vair », c'est-à-dire d'une fourrure, popularisée au XIXe siècle par Balzac, est aujourd'hui rejetée par les spécialistes.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Homophones, homographes, polysèmes",
+    "colonnes": [
+     "Cas",
+     "Prononciation",
+     "Orthographe",
+     "Exemple"
+    ],
+    "lignes": [
+     [
+      "Homophones",
+      "identique",
+      "différente",
+      "ver, vers, verre, vert, vair"
+     ],
+     [
+      "Homographes non homophones",
+      "différente",
+      "identique",
+      "(nous) portions / (des) portions"
+     ],
+     [
+      "Homonymes parfaits",
+      "identique",
+      "identique",
+      "le mousse du navire / la mousse du sous-bois"
+     ],
+     [
+      "Polysémie",
+      "identique",
+      "identique",
+      "bureau : étoffe, table, pièce, service"
+     ]
+    ],
+    "note": "Dans la polysémie, les sens descendent d'un même mot ; dans l'homonymie, ils viennent de mots d'origines distinctes."
+   }
+  },
+  {
+   "titre": "Paronymes : le piège de la ressemblance",
+   "texte": "Les paronymes sont des mots proches par la forme mais distincts par le sens : le grec para, « à côté », et onoma, « nom », disent bien la quasi-collision. Un son, une syllabe suffisent à les séparer, et cette faible distance explique que les locuteurs les intervertissent sans s'en apercevoir. Les couples classiques valent d'être appris un par un. Une conjecture est une hypothèse formée sans preuve suffisante ; la conjoncture est la situation d'ensemble d'un moment donné. Un personnage éminent est remarquable, un danger imminent est sur le point de survenir. Une collision est un choc matériel, une collusion une entente secrète entre deux parties. Un serpent est venimeux car il inocule son venin, un champignon vénéneux car il empoisonne qui le mange. Une acception est le sens d'un mot, une acceptation le fait d'accepter. L'inclinaison désigne une pente, l'inclination un penchant du cœur. Un enfant prodige étonne par ses dons, un fils prodigue dilapide son héritage. La ressemblance peut aussi devenir un procédé littéraire délibéré : la paronomase rapproche volontairement deux paronymes dans une même phrase, pour frapper l'oreille et la mémoire. Elle abonde dans les proverbes, les slogans publicitaires et les formules célèbres, du latin « qui se ressemble s'assemble » au « veni, vidi, vici » de César, dont l'efficacité tient largement à cette parenté sonore.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Paronymes à ne pas confondre",
+    "colonnes": [
+     "Mot",
+     "Sens",
+     "Mot voisin",
+     "Sens"
+    ],
+    "lignes": [
+     [
+      "conjecture",
+      "hypothèse sans preuve",
+      "conjoncture",
+      "situation d'ensemble"
+     ],
+     [
+      "éminent",
+      "remarquable, supérieur",
+      "imminent",
+      "qui va survenir"
+     ],
+     [
+      "collision",
+      "choc entre deux corps",
+      "collusion",
+      "entente secrète"
+     ],
+     [
+      "venimeux",
+      "qui inocule un venin (animal)",
+      "vénéneux",
+      "toxique si on l'ingère (plante)"
+     ],
+     [
+      "acception",
+      "sens d'un mot",
+      "acceptation",
+      "fait d'accepter"
+     ],
+     [
+      "prodige",
+      "être extraordinaire",
+      "prodigue",
+      "qui dépense sans compter"
+     ]
+    ]
+   }
+  },
+  {
+   "titre": "Barbarismes et solécismes : deux façons de fauter",
+   "texte": "La rhétorique antique avait déjà nommé les deux grandes catégories de fautes. Le barbarisme porte sur la forme même du mot : la forme employée n'existe pas dans la langue. On dit ainsi « aréoport » pour aéroport, « infractus » pour infarctus, « rénumérer » pour rémunérer, « dilemne » pour dilemme, « carapaçonner » pour caparaçonner. Le mot vient du grec barbaros, qui désignait celui dont la langue paraissait un charabia aux oreilles grecques. Le solécisme, lui, emploie des mots qui existent tous, mais les combine de travers : la faute est syntaxique. « J'habite sur Paris » à la place de « à Paris », « c'est de cela dont je parle » où le dont fait double emploi avec de, ou encore l'accord bancal « les gens que je vous ai parlé » en relèvent. Son nom viendrait de Soles, colonie grecque de Cilicie dont les habitants passaient pour parler un grec approximatif ; l'explication est celle des auteurs anciens eux-mêmes, et elle reste la plus couramment reçue. Une troisième famille, l'impropriété ou abus de langage, ne heurte ni la morphologie ni la syntaxe : la phrase est correcte, mais le mot ne veut pas dire ce qu'on lui fait dire. Appeler « pingouin » un manchot, ou dire d'un décideur qu'il a saisi une « opportunité » quand il veut dire une occasion, en fournit deux exemples ordinaires."
+  },
+  {
+   "titre": "Le pléonasme, redondance fautive ou effet voulu",
+   "texte": "Le pléonasme, du grec pleonasmos, « surcharge », répète une information déjà contenue dans un mot voisin. « Monter en haut », « descendre en bas », « prévoir à l'avance », « reculer en arrière », « une panacée universelle » ou « un tri sélectif » disent deux fois la même chose. Le cas le plus savoureux est « au jour d'aujourd'hui » : le mot aujourd'hui est lui-même formé de « au jour de hui », où hui vient du latin hodie, « en ce jour ». La locution complète signifie donc littéralement « au jour du jour de ce jour », soit un triple entassement. « Voire même » appartient à la même famille, puisque voire signifie déjà « et même » ; l'expression est pourtant si ancienne et si répandue que plusieurs grammairiens refusent de la condamner. Car tous les pléonasmes ne sont pas des fautes. La rhétorique en fait une figure d'insistance, et les meilleurs auteurs la pratiquent : Molière fait dire à Orgon, dans Tartuffe, « je l'ai vu, dis-je, vu, de mes propres yeux vu, ce qu'on appelle vu ». Le pléonasme devient alors un moyen d'appuyer, de scander, de convaincre. Certaines redondances sont même utiles : « monter en haut » lève une ambiguïté quand monter peut signifier hisser. Le pléonasme n'est fautif que lorsqu'il n'ajoute rien, ni sens ni force."
+  },
+  {
+   "titre": "Impropriétés et usages disputés",
+   "texte": "Une part des fautes reprochées relève moins de la grammaire que d'une querelle entre la règle héritée et l'usage réel. Le verbe pallier est transitif direct : on pallie un inconvénient. « Pallier à » reste condamné par l'Académie française, mais la construction indirecte est si fréquente, y compris sous de bonnes plumes, que les dictionnaires la signalent désormais comme courante. Une boutique bien achalandée était à l'origine une boutique fréquentée par de nombreux chalands, c'est-à-dire des clients ; le sens de bien approvisionnée, jugé impropre pendant un siècle, est aujourd'hui enregistré par les grands dictionnaires. Une décade compte dix jours, une décennie dix ans, mais l'influence de l'anglais decade a répandu le second sens, que l'usage soigné continue d'éviter. « Se rappeler » veut un complément direct — je me rappelle cette scène — alors que « se souvenir » veut de ; « se rappeler de » demeure la faute la plus tenace du français parlé. Quant à « malgré que », l'Académie ne l'accepte que dans la tournure figée « malgré qu'il en ait », mais Gide, Proust ou Aragon l'ont employé au sens de bien que, et les grammairiens contemporains le tiennent pour admis. Dans tous ces cas, mieux vaut connaître les deux positions que trancher sèchement : la norme s'y déplace sous nos yeux.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Ce que dit la règle, ce que fait l'usage",
+    "colonnes": [
+     {
+      "titre": "Règle traditionnelle",
+      "points": [
+       "pallier un inconvénient (sans à)",
+       "achalandé = qui a beaucoup de clients",
+       "décade = dix jours",
+       "se rappeler quelque chose",
+       "malgré que réservé à « malgré qu'il en ait »",
+       "second quand il n'y en a que deux"
+      ]
+     },
+     {
+      "titre": "Usage constaté",
+      "points": [
+       "pallier à, très répandu, signalé par les dictionnaires",
+       "achalandé = bien approvisionné, sens désormais enregistré",
+       "décade = dix ans, sous l'influence de l'anglais",
+       "se rappeler de, dominant à l'oral, toujours critiqué",
+       "malgré que = bien que, employé par Gide et Proust",
+       "deuxième et second largement interchangeables"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Comment s'écrit correctement le verbe qui signifie « payer quelqu'un pour son travail » ?",
+   "choix": [
+    "Rénumérer",
+    "Rémunérer",
+    "Rénumerer",
+    "Rémunerrer"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Le verbe correct est rémunérer, formé sur le latin munus, muneris, « don, présent, charge », que l'on retrouve dans munificence et dans rémunération. La forme rénumérer, très fréquente, résulte d'une attraction du mot numéro et n'existe pas : c'est un barbarisme, c'est-à-dire une faute portant sur la forme même du mot. La même mécanique produit aréoport pour aéroport, infractus pour infarctus ou dilemne pour dilemme. Le barbarisme se distingue du solécisme, qui n'invente pas de mot mais assemble de travers des mots existants."
+  },
+  {
+   "q": "Lequel de ces mots désigne une hypothèse formée sans preuve suffisante ?",
+   "choix": [
+    "Une conjoncture",
+    "Une conjuration",
+    "Une conjecture",
+    "Une conjugaison"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Une conjecture est une supposition, une opinion fondée sur des indices mais non démontrée ; le mot vient du latin conjectura, de conicere, « jeter ensemble », donc rapprocher des indices. La conjoncture désigne tout autre chose : la situation d'ensemble d'un moment, notamment en économie. Les deux mots forment un couple de paronymes, c'est-à-dire de mots assez proches par la forme pour être confondus, mais sans rapport de sens. Le français en compte beaucoup d'autres, comme éminent et imminent, collision et collusion, ou acception et acceptation. Rapprocher volontairement deux paronymes dans une phrase constitue une figure de style, la paronomase."
+  },
+  {
+   "q": "Pourquoi l'expression « au jour d'aujourd'hui » est-elle considérée comme un pléonasme ?",
+   "choix": [
+    "Parce que aujourd'hui est déjà formé de « au jour de hui », où hui signifie « ce jour »",
+    "Parce que aujourd'hui est un adverbe qui ne peut jamais être précédé d'une préposition",
+    "Parce que l'expression vient d'une traduction fautive de l'anglais",
+    "Parce que le mot jour ne peut pas être répété dans une même phrase"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le mot aujourd'hui est une agglutination de « au jour de hui », et hui vient du latin hodie, lui-même contracté de hoc die, « en ce jour ». Dire « au jour d'aujourd'hui » revient donc à empiler trois fois la même idée de journée présente. Le pléonasme répète une information déjà contenue dans un mot voisin, comme dans « monter en haut » ou « prévoir à l'avance ». Toute redondance n'est pas fautive pour autant : la rhétorique connaît le pléonasme d'insistance, dont Molière donne un exemple célèbre dans Tartuffe avec « je l'ai vu, dis-je, vu, de mes propres yeux vu ». Le pléonasme n'est une faute que lorsqu'il n'apporte ni précision ni force."
+  },
+  {
+   "q": "Le mot « solécisme », qui désigne une faute de syntaxe, viendrait :",
+   "choix": [
+    "Du nom d'un grammairien latin nommé Solecius",
+    "Du nom de Soles, cité grecque de Cilicie réputée parler un grec approximatif",
+    "D'un verbe grec signifiant « briser une phrase »",
+    "Du nom du soleil, la faute étant dite éclatante"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Les auteurs anciens rattachaient déjà ce mot à Soles, colonie grecque installée en Cilicie, dans l'actuelle Turquie, dont les habitants passaient pour maltraiter la langue de la métropole. Cette explication est la plus couramment reçue, même si l'on ne peut la vérifier autrement que par le témoignage des Grecs eux-mêmes. Le solécisme se distingue du barbarisme : il n'invente aucun mot, mais construit la phrase à contresens, comme dans « j'habite sur Paris » ou « c'est de cela dont je parle », où dont fait double emploi avec de. Le mot barbarisme, lui, vient de barbaros, celui dont le parler semblait inintelligible aux Grecs."
+  },
+  {
+   "q": "Que signifie proprement l'adjectif « achalandé » dans « une boutique bien achalandée » ?",
+   "choix": [
+    "Qui est bien approvisionnée en marchandises",
+    "Qui est bien située dans la ville",
+    "Qui attire de nombreux clients",
+    "Qui est tenue par un commerçant expérimenté"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Achalandé est formé sur chaland, mot d'ancien français qui désigne un client ou une pratique, sens conservé dans l'expression « zone de chalandise ». Une boutique bien achalandée est donc, au sens strict, une boutique bien fréquentée. L'usage courant a glissé vers le sens de bien approvisionnée, sans doute par rapprochement avec le mot chaland qui désigne aussi une embarcation de transport. Longtemps traité comme une impropriété, ce second sens est aujourd'hui enregistré par les grands dictionnaires, qui signalent les deux emplois. C'est un bon exemple de norme en déplacement : la faute d'hier devient l'usage admis d'aujourd'hui."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Homonymie",
+   "url": "https://fr.wikipedia.org/wiki/Homonymie"
+  },
+  {
+   "titre": "Paronymie",
+   "url": "https://fr.wikipedia.org/wiki/Paronymie"
+  },
+  {
+   "titre": "Barbarisme",
+   "url": "https://fr.wikipedia.org/wiki/Barbarisme"
+  },
+  {
+   "titre": "Solécisme",
+   "url": "https://fr.wikipedia.org/wiki/Sol%C3%A9cisme"
+  },
+  {
+   "titre": "Pléonasme",
+   "url": "https://fr.wikipedia.org/wiki/Pl%C3%A9onasme"
+  }
+ ]
+}

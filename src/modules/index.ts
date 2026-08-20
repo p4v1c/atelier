@@ -9,10 +9,11 @@
  * Rien d'autre. Ni migration, ni table, ni route, ni écran de série.
  * ─────────────────────────────────────────────────────────────────────────
  */
+import { cultureGenerale } from "./culture-g";
 import { francais } from "./francais";
 import { indexerKinds, type ExerciseKind, type LearningModule } from "./types";
 
-export const MODULES: LearningModule[] = [francais];
+export const MODULES: LearningModule[] = [francais, cultureGenerale];
 
 export const MODULE_BY_ID = new Map(MODULES.map((m) => [m.id, m]));
 

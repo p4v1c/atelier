@@ -1,0 +1,154 @@
+{
+ "titre": "Les contes et la littérature jeunesse",
+ "sections": [
+  {
+   "titre": "Qu'est-ce qu'un conte ?",
+   "texte": "Le conte est un récit de faits ou d'aventures imaginaires ; le mot désigne à la fois une œuvre particulière et un genre tout entier. Son origine est essentiellement orale, même s'il s'est développé sous forme écrite depuis la Renaissance. Ce qui le distingue du roman, de la nouvelle ou du simple récit d'aventures, c'est l'acceptation de l'invraisemblance, propre au registre du merveilleux, ainsi qu'un ensemble de codes reconnaissables entre tous, à commencer par la formule d'ouverture traditionnelle, il était une fois, qui installe d'emblée un temps sans date et un monde où l'extraordinaire va de soi. On distingue deux pratiques bien différentes. D'un côté le conte oral, dit populaire, qui appartient à la littérature orale et relève d'une transmission collective liée aux cultures paysannes : il n'a pas d'auteur, il varie d'un conteur à l'autre et n'existe que dans sa performance. De l'autre le conte écrit, genre littéraire né de la collecte et de la réécriture de ces récits, qui les fixe dans un texte stable et signé. Le conte reste un objet difficile à cerner en raison de son caractère hybride et polymorphe, et son étude mobilise l'histoire littéraire mais aussi la sociologie, l'anthropologie et la psychanalyse. Depuis les années 1970 en France et les années 1990 au Québec, le conte connaît un renouveau comme art de la scène, avec ses lieux, ses formations et ses professionnels.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Deux pratiques du conte",
+    "colonnes": [
+     {
+      "titre": "Le conte oral, dit populaire",
+      "points": [
+       "Transmission collective liée aux cultures paysannes",
+       "Sans auteur : il varie d'un conteur à l'autre",
+       "N'existe que dans sa performance",
+       "Objet de la littérature orale"
+      ]
+     },
+     {
+      "titre": "Le conte écrit",
+      "points": [
+       "Né de la collecte et de la réécriture des récits oraux",
+       "Fixé dans un texte stable et signé",
+       "Développé sous forme écrite depuis la Renaissance",
+       "Genre littéraire à part entière"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Charles Perrault et les contes du temps passé",
+   "texte": "Charles Perrault, né en 1628 et mort en 1703, n'était nullement destiné à devenir le conteur le plus lu de la langue française. Il fut d'abord un haut administrateur au service de Louis XIV et de Jean-Baptiste Colbert, et exerça de 1672 à 1683 la charge de contrôleur général de la Surintendance des bâtiments du roi, ce qui lui donnait une influence considérable sur les pensions accordées aux écrivains, aux savants et aux artistes du royaume. Il est aussi celui qui déclenche la querelle des Anciens et des Modernes en soutenant, dans un poème de 1687, que le siècle de Louis XIV surpasse tous les autres, thèse que Nicolas Boileau combattit avec véhémence. Sa gloire durable tient pourtant à un mince volume : « Histoires ou contes du temps passé », publié en 1697, qui réunit huit récits en prose parmi lesquels « Cendrillon », « Le Petit Chaperon rouge » et « Le Chat botté ». Prudent, Perrault fit paraître le recueil sous le nom de son fils, afin de ne pas relancer la polémique avec ses adversaires littéraires. Ses versions diffèrent souvent des adaptations qui les ont rendues célèbres par la suite : son Petit Chaperon rouge se termine mal, sans sauvetage final, et sa Belle au bois dormant s'éloigne beaucoup du récit popularisé par le cinéma d'animation. Chaque conte s'achève sur une moralité en vers."
+  },
+  {
+   "titre": "Les frères Grimm et la collecte savante",
+   "texte": "Au début du XIXe siècle, la démarche change de nature : il ne s'agit plus d'écrire des contes pour un public de cour, mais de recueillir un patrimoine que l'on croit menacé. Jacob Grimm, né en 1785 et mort en 1863, et son frère Wilhelm, né en 1786 et mort en 1859, sont deux linguistes originaires de Hanau, en Hesse. Étudiants en droit à Marbourg à partir de 1802, ils sont introduits par leur professeur Friedrich Carl von Savigny auprès des écrivains romantiques allemands, notamment Clemens Brentano et Achim von Arnim, qui éveillent leur intérêt pour les récits populaires. Ils publient en deux volumes, en 1812 et 1815, les « Contes de l'enfance et du foyer », recueil qui rassemble environ quatre-vingt-six histoires, dont « Blanche-Neige » et « Hansel et Gretel ». On imagine parfois ces contes transcrits tels quels sous la dictée : en réalité, les deux frères les ont considérablement retravaillés au fil des éditions successives, en particulier après 1837, lorsque la bourgeoisie montante réclama des textes convenables pour les enfants. Leur travail dépasse largement le conte : Jacob Grimm a formulé les lois phonétiques régissant les langues germaniques, et les deux frères ont entrepris en 1838 un dictionnaire historique de l'allemand, chantier immense dont ils n'achevèrent que quelques volumes.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Deux recueils fondateurs",
+    "colonnes": [
+     "Recueil",
+     "Auteurs",
+     "Date",
+     "Démarche"
+    ],
+    "lignes": [
+     [
+      "« Histoires ou contes du temps passé »",
+      "Charles Perrault (1628-1703)",
+      "1697",
+      "Huit récits en prose écrits pour un public de cour, chacun clos par une moralité en vers ; publié sous le nom de son fils"
+     ],
+     [
+      "« Contes de l'enfance et du foyer »",
+      "Jacob (1785-1863) et Wilhelm Grimm (1786-1859)",
+      "1812 et 1815",
+      "Environ quatre-vingt-six histoires recueillies comme un patrimoine menacé, puis retravaillées au fil des éditions"
+     ]
+    ],
+    "note": "Les versions d'origine surprennent : le Petit Chaperon rouge de Perrault se termine mal, sans sauvetage final."
+   }
+  },
+  {
+   "titre": "L'invention de la littérature pour la jeunesse",
+   "texte": "La littérature d'enfance et de jeunesse est à la fois un genre littéraire et un secteur des métiers du livre, spécialisé par sa forme et par son contenu dans les publications destinées aux jeunes lecteurs. Son apparition est tardive : avant le XVIIe siècle, très peu d'ouvrages leur étaient réservés, parce que l'enfance n'occupait qu'une place limitée dans la société et n'était pas pensée comme un âge à part, doté de besoins propres. En France, on fait souvent naître le genre avec « Les Aventures de Télémaque » de Fénelon, publié en 1699 et écrit à l'origine pour l'éducation du duc de Bourgogne, petit-fils de Louis XIV. Le XIXe siècle marque le vrai tournant, avec l'industrialisation de l'édition, la scolarisation croissante et l'apparition d'éditeurs spécialisés : la figure de Pierre-Jules Hetzel, éditeur de Jules Verne, illustre cette conjonction entre progrès technique, ambition pédagogique et succès commercial. Le genre se structure ensuite en catégories bien identifiées : l'album illustré, où l'image porte autant de sens que le texte, le roman pour enfants et pour adolescents, les collections de poche et les documentaires. En France, une loi adoptée en 1949 encadre spécifiquement les publications destinées à la jeunesse, signe que ce secteur est devenu un enjeu éducatif et politique reconnu par l'État."
+  },
+  {
+   "titre": "Un secteur majeur de l'édition contemporaine",
+   "texte": "Longtemps considérée comme une production mineure, la littérature de jeunesse occupe aujourd'hui une place de premier plan. Elle représente le deuxième segment du marché de l'édition, juste derrière la littérature générale, et pesait en France environ treize virgule sept pour cent du chiffre d'affaires éditorial, malgré les fluctuations récentes du secteur. Cette réussite économique s'accompagne d'une reconnaissance critique : les albums et les romans pour la jeunesse sont désormais étudiés à l'université, exposés en bibliothèque et enseignés à l'école. La force du domaine tient à sa capacité d'accueillir des formes très diverses, du livre d'images pour les tout-petits au roman pour adolescents traitant de sujets graves, en passant par le documentaire et l'encyclopédie illustrée. Elle tient aussi à la porosité entre le conte traditionnel et la création contemporaine : les récits recueillis par Perrault ou par les frères Grimm continuent d'être réédités, illustrés, détournés et parodiés, et fournissent aux auteurs actuels un fonds commun de personnages et de situations que tous les lecteurs reconnaissent. Enfin, l'édition jeunesse est un laboratoire graphique, où le travail de l'illustrateur, la mise en page et le choix des matériaux comptent autant que le texte. Cette alliance entre l'écrit et l'image explique en partie que ses lecteurs y viennent avant de savoir lire et lui restent souvent fidèles ensuite."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "En quelle année Charles Perrault publie-t-il « Histoires ou contes du temps passé » ?",
+   "choix": [
+    "1687",
+    "1697",
+    "1715",
+    "1729"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Le recueil paraît en 1697 et réunit huit contes en prose, parmi lesquels « Cendrillon », « Le Petit Chaperon rouge » et « Le Chat botté ». Perrault le publie sous le nom de son fils, par prudence, afin de ne pas relancer la polémique avec ses adversaires littéraires. La date de 1687 correspond au poème qui déclencha la querelle des Anciens et des Modernes, dans lequel il affirmait la supériorité du siècle de Louis XIV. Perrault, né en 1628 et mort en 1703, fut avant tout un haut administrateur au service de Colbert."
+  },
+  {
+   "q": "Quelle affirmation décrit correctement le travail des frères Grimm sur les contes ?",
+   "choix": [
+    "Ils les ont inventés de toutes pièces",
+    "Ils les ont traduits du français",
+    "Ils les ont transcrits sans jamais y toucher",
+    "Ils les ont recueillis puis retravaillés au fil des éditions"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Jacob et Wilhelm Grimm ont publié les « Contes de l'enfance et du foyer » en deux volumes, en 1812 et 1815, avec environ quatre-vingt-six récits. Contrairement à une idée répandue, ils ne se sont pas contentés de transcrire fidèlement une parole populaire : ils ont fortement remanié les textes au fil des rééditions, notamment après 1837, quand la bourgeoisie réclamait des lectures convenables pour les enfants. Leur démarche s'inscrit dans le romantisme allemand et dans un projet savant plus vaste, puisque Jacob Grimm a aussi formulé les lois phonétiques des langues germaniques."
+  },
+  {
+   "q": "Qu'est-ce qui distingue le conte du roman ou de la nouvelle ?",
+   "choix": [
+    "L'acceptation de l'invraisemblance et des codes du merveilleux",
+    "Sa longueur toujours supérieure",
+    "L'absence totale de dialogue",
+    "Son ancrage dans des faits historiques vérifiables"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le conte se sépare du roman, de la nouvelle et du récit d'aventures par l'acceptation de l'invraisemblance, propre au merveilleux, et par des codes immédiatement reconnaissables, à commencer par la formule il était une fois. Cette ouverture installe un temps sans date et un espace où le surnaturel ne surprend personne, ce qui l'oppose au fantastique, fondé sur le doute. Le conte est d'abord un art oral, transmis collectivement et variable d'un conteur à l'autre, avant de devenir un genre écrit par la collecte et la réécriture. Sa brièveté relative est une tendance, non une règle absolue."
+  },
+  {
+   "q": "Quelle œuvre est souvent présentée comme l'acte de naissance de la littérature de jeunesse en France ?",
+   "choix": [
+    "« Les Fables » de La Fontaine",
+    "« Émile » de Rousseau",
+    "« Les Aventures de Télémaque » de Fénelon, en 1699",
+    "« Les Malheurs de Sophie » de la comtesse de Ségur"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "On fait généralement naître la littérature de jeunesse française avec « Les Aventures de Télémaque », publié par Fénelon en 1699 et conçu à l'origine pour l'éducation du duc de Bourgogne, petit-fils de Louis XIV. Avant le XVIIe siècle, presque aucun ouvrage n'était destiné aux enfants, faute d'une conception de l'enfance comme âge spécifique. Le véritable essor du secteur vient au XIXe siècle avec l'industrialisation de l'édition et des éditeurs spécialisés comme Pierre-Jules Hetzel, qui publia Jules Verne. En France, une loi de 1949 encadre depuis les publications destinées à la jeunesse."
+  },
+  {
+   "q": "Quelle place occupe aujourd'hui l'édition jeunesse sur le marché du livre en France ?",
+   "choix": [
+    "Un secteur marginal en voie de disparition",
+    "Le deuxième segment, derrière la littérature générale",
+    "Le premier segment, devant tous les autres",
+    "Un domaine réservé aux éditeurs publics"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "L'édition jeunesse est le deuxième segment du marché du livre, juste après la littérature générale, et représentait en France environ treize virgule sept pour cent du chiffre d'affaires éditorial, malgré des fluctuations récentes. Cette place s'explique par la diversité des formes proposées, de l'album pour les tout-petits au roman pour adolescents, en passant par le documentaire. Le secteur est aussi un laboratoire graphique où l'illustration et la mise en page comptent autant que le texte. Longtemps jugé mineur, il fait désormais l'objet d'un véritable travail critique et universitaire."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Conte",
+   "url": "https://fr.wikipedia.org/wiki/Conte"
+  },
+  {
+   "titre": "Charles Perrault",
+   "url": "https://fr.wikipedia.org/wiki/Charles_Perrault"
+  },
+  {
+   "titre": "Frères Grimm",
+   "url": "https://fr.wikipedia.org/wiki/Fr%C3%A8res_Grimm"
+  },
+  {
+   "titre": "Littérature d'enfance et de jeunesse",
+   "url": "https://fr.wikipedia.org/wiki/Litt%C3%A9rature_d%27enfance_et_de_jeunesse"
+  }
+ ]
+}

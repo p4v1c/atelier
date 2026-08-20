@@ -1,0 +1,194 @@
+{
+ "titre": "L'agriculture et l'alimentation dans le monde",
+ "sections": [
+  {
+   "titre": "L'agriculture, première activité humaine",
+   "texte": "L'agriculture occupe une place considérable dans l'espace terrestre : en 2013, les terres agricoles, champs cultivés et prairies confondus, couvraient environ 37,7 pour cent des terres émergées, soit plus du tiers de la surface des continents. Elle mobilise aussi une main-d'œuvre immense, de l'ordre de 1,34 milliard de personnes, ce qui représentait environ 43 pour cent de la population active mondiale, même si cette part recule régulièrement au profit de l'industrie et des services. La géographie de cette activité est très contrastée : dans les pays développés, moins de 5 pour cent des actifs travaillent la terre, alors que la proportion dépasse encore la moitié dans plusieurs pays d'Afrique subsaharienne. Trois céréales assurent l'essentiel de l'alimentation de l'humanité. En 2014, le maïs arrivait en tête avec environ 1,04 milliard de tonnes produites, devant le riz avec 741 millions de tonnes et le blé avec 729 millions de tonnes. Le blé domine les régions tempérées d'Europe, d'Amérique du Nord et de Chine du Nord ; le riz est la base alimentaire des deltas et des plaines d'Asie de la mousson ; le maïs, originaire d'Amérique, sert autant à l'alimentation humaine qu'à celle du bétail et à la production d'agrocarburants. L'irrigation, enfin, ne concernait que 6,7 pour cent des terres agricoles en 2014, mais elle fournit une part beaucoup plus importante de la production mondiale.",
+   "visuel": {
+    "type": "barres",
+    "titre": "Les trois céréales qui nourrissent l'humanité (production 2014)",
+    "unite": "millions de tonnes",
+    "donnees": [
+     {
+      "label": "Maïs",
+      "valeur": 1040,
+      "affichage": "1,04 Md t"
+     },
+     {
+      "label": "Riz",
+      "valeur": 741,
+      "affichage": "741 Mt"
+     },
+     {
+      "label": "Blé",
+      "valeur": 729,
+      "affichage": "729 Mt"
+     }
+    ],
+    "note": "Le blé domine les régions tempérées, le riz les deltas et les plaines de l'Asie de la mousson, le maïs sert autant à l'alimentation humaine qu'au bétail et aux agrocarburants."
+   }
+  },
+  {
+   "titre": "Des systèmes agricoles très différents",
+   "texte": "Derrière le mot agriculture se cachent des réalités radicalement différentes. L'agriculture vivrière vise d'abord à nourrir la famille du cultivateur, avec peu d'intrants et des outils souvent manuels ; elle reste dominante dans de nombreuses régions d'Afrique et d'Asie du Sud, où elle est très vulnérable aux aléas climatiques. L'agriculture commerciale, au contraire, produit pour le marché national ou international. On distingue également l'agriculture intensive, qui cherche des rendements élevés à l'hectare grâce à un usage important de travail, d'engrais, de produits phytosanitaires et d'irrigation, et l'agriculture extensive, qui utilise de grandes surfaces avec peu d'intrants, comme les élevages bovins des Grandes Plaines nord-américaines ou de la Pampa argentine. Les plantations tropicales constituent un cas particulier : de vastes exploitations spécialisées dans une culture d'exportation comme le cacao, le café, la banane, le caoutchouc ou l'huile de palme. Depuis 1945, la mécanisation a bouleversé les campagnes d'Europe et d'Amérique du Nord, avec la généralisation du tracteur, des engrais chimiques et des pesticides, ce qui a permis à une population agricole en forte diminution de nourrir des sociétés urbaines toujours plus nombreuses. Une nouveauté mérite d'être signalée : environ 15 pour cent de la production alimentaire mondiale proviendrait aujourd'hui de zones urbaines, sous forme de jardins, de toitures cultivées et de ceintures maraîchères périurbaines.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Des agricultures qui n'ont presque rien en commun",
+    "colonnes": [
+     "Système",
+     "Pour qui l'on produit",
+     "Moyens mis en œuvre",
+     "Où"
+    ],
+    "lignes": [
+     [
+      "Vivrière",
+      "La famille du cultivateur",
+      "Peu d'intrants, outils souvent manuels",
+      "Afrique, Asie du Sud ; très vulnérable aux aléas climatiques"
+     ],
+     [
+      "Commerciale",
+      "Le marché national ou international",
+      "Variables selon les pays",
+      "Partout dans le monde"
+     ],
+     [
+      "Intensive",
+      "Le marché, avec de forts rendements à l'hectare",
+      "Beaucoup de travail, d'engrais, de produits phytosanitaires, d'irrigation",
+      "Europe de l'Ouest, Asie de l'Est"
+     ],
+     [
+      "Extensive",
+      "Le marché, sur de grandes surfaces",
+      "Peu d'intrants par hectare",
+      "Grandes Plaines nord-américaines, Pampa argentine"
+     ],
+     [
+      "Plantation tropicale",
+      "L'exportation",
+      "Vastes exploitations spécialisées dans une seule culture",
+      "Cacao, café, banane, caoutchouc, huile de palme"
+     ]
+    ],
+    "note": "Environ 15 % de la production alimentaire mondiale viendrait aujourd'hui de zones urbaines : jardins, toitures cultivées, ceintures maraîchères."
+   }
+  },
+  {
+   "titre": "La révolution verte",
+   "texte": "Entre 1960 et 1990, une profonde transformation agricole appelée révolution verte a touché de nombreux pays en développement. Elle reposait sur l'intensification et sur la diffusion de variétés de céréales à haut rendement, obtenues par hybridation, principalement pour le riz, le blé et le maïs. Son promoteur le plus connu est l'agronome américain Norman Borlaug, récompensé par le prix Nobel de la paix en 1970 pour ses travaux sur le blé et son rôle au centre de recherche CIMMYT. L'expérience a commencé au Mexique dès 1943 avec la création de l'Office of Special Studies, et le pays est devenu autosuffisant en blé dès 1951. L'Inde a été le deuxième grand pays à s'engager dans cette voie, suivie par le Pakistan, les Philippines, l'Indonésie et l'Asie du Sud-Est, dont la production céréalière a fortement progressé dans les années 1970 et 1980. Les résultats furent spectaculaires : l'Inde a multiplié par dix sa production de blé et par trois celle de riz, écartant le spectre des grandes famines. Le bilan comporte cependant de lourdes contreparties. Ces variétés exigent de lourds investissements en irrigation, en engrais et en pesticides, ce qui provoque pollution et épuisement des sols ainsi que la salinisation des eaux, et crée une dépendance vis-à-vis des énergies fossiles et de l'industrie chimique. Elle a aussi réduit la diversité des semences et des savoirs paysans, et creusé les inégalités entre gros et petits exploitants."
+  },
+  {
+   "titre": "Nourrir l'humanité : la sécurité alimentaire",
+   "texte": "La sécurité alimentaire a été définie par le Comité de la sécurité alimentaire mondiale en 1996 comme la situation dans laquelle tous les êtres humains ont, à tout moment, la possibilité physique, sociale et économique de se procurer une nourriture suffisante, saine et nutritive. Cette définition repose sur quatre piliers complémentaires. La disponibilité désigne l'existence de quantités suffisantes d'aliments ; l'accès concerne la capacité de chacun à les produire ou à les acheter ; la qualité renvoie aux aspects nutritionnels, sanitaires et socioculturels ; la stabilité exige que ces capacités soient constantes dans le temps. Les chiffres montrent l'ampleur du défi : environ 925 millions de personnes souffraient de la faim en 2010, et la FAO comptait encore 821 millions de personnes en insécurité alimentaire chronique en 2019. L'Afrique, l'Asie et l'Amérique latine sont les continents les plus concernés, le Yémen figurant parmi les pays les plus touchés au monde. Les causes sont multiples et se renforcent mutuellement : la pénurie d'eau et le stress hydrique, la dégradation des sols provoquée par la monoculture et l'érosion, le changement climatique qui rend la météo imprévisible, la croissance démographique, les épidémies qui désorganisent les travaux agricoles, ainsi qu'une gouvernance défaillante et l'accaparement des terres. La faim résulte donc rarement d'un manque global de nourriture, mais bien plus souvent d'un problème d'accès, de pouvoir d'achat et de conflit."
+  },
+  {
+   "titre": "Le gaspillage alimentaire et les défis de demain",
+   "texte": "Un paradoxe frappant accompagne la faim dans le monde : selon la FAO, environ 1,3 milliard de tonnes de nourriture sont perdues ou jetées chaque année, soit à peu près un tiers de tous les aliments produits pour la consommation humaine. La géographie de ce gaspillage varie fortement. Dans les pays développés d'Europe et d'Amérique du Nord, il atteint 280 à 295 kilogrammes par habitant et par an et se concentre au stade du commerce et du consommateur, qui jette pour des raisons d'apparence ou par mauvaise interprétation des dates de péremption. Dans les pays en développement d'Asie et d'Afrique, il se situe entre 125 et 160 kilogrammes par personne et intervient surtout lors de la production, du transport et du stockage, faute d'infrastructures de conservation. À l'échelle mondiale, l'étape de la production représente 54 pour cent des pertes totales, l'agriculture à elle seule en expliquant 33 pour cent. L'empreinte environnementale est vertigineuse : 1,4 milliard d'hectares de terres agricoles sont mobilisés pour produire des aliments jamais consommés, avec l'eau, les engrais et l'énergie correspondants, et les émissions de gaz à effet de serre associées plaçaient en 2019 le gaspillage alimentaire au troisième rang mondial. Réduire ces pertes constitue donc l'un des leviers les plus efficaces pour nourrir une population croissante sans étendre encore les surfaces cultivées ni aggraver la déforestation.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Un tiers des aliments produits est perdu ou jeté",
+    "colonnes": [
+     {
+      "titre": "Pays développés (Europe, Amérique du Nord)",
+      "points": [
+       "280 à 295 kg gaspillés par habitant et par an.",
+       "Le gaspillage se concentre au stade du commerce et du consommateur.",
+       "On jette pour des raisons d'apparence ou par mauvaise lecture des dates de péremption."
+      ]
+     },
+     {
+      "titre": "Pays en développement (Asie, Afrique)",
+      "points": [
+       "125 à 160 kg par habitant et par an.",
+       "Les pertes interviennent à la production, au transport et au stockage.",
+       "Elles tiennent au manque d'infrastructures de conservation."
+      ]
+     }
+    ],
+    "note": "1,3 milliard de tonnes perdues chaque année, et 1,4 milliard d'hectares mobilisés pour produire des aliments jamais consommés. Réduire ces pertes est l'un des leviers les plus efficaces pour nourrir davantage sans étendre les cultures."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quelle part des terres émergées était consacrée à l'agriculture en 2013 ?",
+   "choix": [
+    "Environ 10 %",
+    "Environ 20 %",
+    "Environ 37,7 %",
+    "Environ 60 %"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Les terres agricoles couvraient environ 37,7 pour cent des terres émergées en 2013, ce qui en fait le premier usage humain du sol devant les forêts exploitées et très loin devant les villes. Ce chiffre additionne les terres labourées et les prairies permanentes destinées à l'élevage, ces dernières occupant la plus grande part. Il faut le comparer aux 31 pour cent de terres émergées encore couvertes de forêts pour comprendre la concurrence entre ces deux usages. C'est précisément cette concurrence qui explique que l'agriculture soit responsable de plus de 90 pour cent de la déforestation mondiale. Parmi les terres agricoles, seuls 6,7 pour cent étaient irrigués en 2014, mais ces surfaces fournissent une part très supérieure de la production."
+  },
+  {
+   "q": "Quelle est la céréale la plus produite dans le monde ?",
+   "choix": [
+    "Le maïs, avec environ 1,04 milliard de tonnes en 2014",
+    "Le blé",
+    "Le riz",
+    "L'orge"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le maïs domine la production céréalière mondiale avec environ 1,04 milliard de tonnes en 2014, devant le riz avec 741 millions de tonnes et le blé avec 729 millions de tonnes. Cette première place s'explique par le fait qu'une grande partie du maïs n'est pas consommée directement par les humains : elle sert à nourrir le bétail et à produire des agrocarburants, notamment aux États-Unis et au Brésil. Le riz, lui, constitue la base alimentaire directe de plus de la moitié de l'humanité, principalement en Asie de la mousson. Le blé domine les régions tempérées d'Europe, d'Amérique du Nord et de Chine du Nord. Ces trois céréales sont précisément celles qu'a ciblées la révolution verte."
+  },
+  {
+   "q": "En quelle année Norman Borlaug, figure de la révolution verte, a-t-il reçu le prix Nobel de la paix ?",
+   "choix": [
+    "1945",
+    "1955",
+    "1962",
+    "1970"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Norman Borlaug a reçu le prix Nobel de la paix en 1970 pour ses travaux d'amélioration des variétés de blé, menés notamment au Mexique puis diffusés en Inde et au Pakistan. Le choix du prix de la paix, et non d'un prix scientifique, souligne que l'augmentation des rendements agricoles était perçue comme un moyen d'éviter les famines et les conflits qu'elles provoquent. Grâce à ces variétés, l'Inde a multiplié par dix sa production de blé et par trois celle de riz. Le Mexique était déjà devenu autosuffisant en blé dès 1951. Cette réussite productive s'est toutefois accompagnée d'une dépendance accrue aux engrais, aux pesticides et à l'irrigation, ainsi que d'un appauvrissement de la diversité des semences."
+  },
+  {
+   "q": "Quelle part de la nourriture produite dans le monde est perdue ou gaspillée ?",
+   "choix": [
+    "Environ 5 %",
+    "Environ un tiers",
+    "Environ la moitié",
+    "Environ 10 %"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Selon la FAO, environ 1,3 milliard de tonnes de nourriture sont perdues ou jetées chaque année, soit à peu près un tiers de tous les aliments produits pour la consommation humaine. Ce gaspillage prend des formes différentes selon les régions : dans les pays riches, il atteint 280 à 295 kilogrammes par habitant et par an, surtout au stade de la distribution et du consommateur, alors que dans les pays en développement il se situe entre 125 et 160 kilogrammes et concerne surtout la récolte, le transport et le stockage. À l'échelle mondiale, l'étape de la production représente 54 pour cent des pertes. L'impact environnemental est majeur, avec 1,4 milliard d'hectares mobilisés pour des aliments jamais consommés. Réduire ce gaspillage permettrait de nourrir davantage de personnes sans défricher de nouvelles terres."
+  },
+  {
+   "q": "Que signifie la sécurité alimentaire selon la définition de 1996 ?",
+   "choix": [
+    "La seule quantité totale de calories produites dans le monde",
+    "Le contrôle sanitaire des aliments et rien d'autre",
+    "La possibilité pour tous les êtres humains, à tout moment, de se procurer une nourriture suffisante, saine et nutritive",
+    "L'autosuffisance de chaque pays en céréales"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La définition adoptée par le Comité de la sécurité alimentaire mondiale en 1996 insiste sur la possibilité physique, sociale et économique pour chacun d'accéder à tout moment à une nourriture suffisante, saine et nutritive. Elle repose sur quatre piliers : la disponibilité des aliments, l'accès à ces aliments, leur qualité nutritionnelle et sanitaire, et la stabilité de ces conditions dans le temps. Cette formulation marque un tournant, car elle déplace le regard de la seule production vers l'accès réel des personnes. Elle explique pourquoi la faim persiste alors que la production mondiale suffirait théoriquement à nourrir tout le monde : le problème est souvent celui de la pauvreté, des conflits et de la logistique. La FAO comptait encore 821 millions de personnes en insécurité alimentaire chronique en 2019."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Agriculture",
+   "url": "https://fr.wikipedia.org/wiki/Agriculture"
+  },
+  {
+   "titre": "Révolution verte",
+   "url": "https://fr.wikipedia.org/wiki/Révolution_verte"
+  },
+  {
+   "titre": "Sécurité alimentaire",
+   "url": "https://fr.wikipedia.org/wiki/Sécurité_alimentaire"
+  },
+  {
+   "titre": "Gaspillage alimentaire",
+   "url": "https://fr.wikipedia.org/wiki/Gaspillage_alimentaire"
+  }
+ ]
+}

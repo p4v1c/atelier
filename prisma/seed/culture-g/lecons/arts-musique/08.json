@@ -1,0 +1,186 @@
+{
+ "titre": "Le baroque et le rococo en art",
+ "sections": [
+  {
+   "titre": "Naissance du baroque à Rome, au service de la Contre-Réforme",
+   "texte": "Le baroque apparaît en Italie vers 1580, principalement à Rome, mais aussi à Mantoue, Venise et Florence, avant de gagner presque toute l'Europe et de durer jusqu'au milieu du XVIIIe siècle. Son essor est indissociable de la Contre-Réforme catholique et des décisions du concile de Trente, réuni de 1545 à 1563 : face à l'austérité protestante, l'Église romaine choisit de toucher les fidèles par l'émotion, le spectacle et l'éloquence des images. L'art devient alors un instrument de persuasion. Le mot lui-même vient du portugais barroco, qui désigne une perle irrégulière ; longtemps péjoratif, il ne s'est imposé comme catégorie historique qu'au XXe siècle, l'historien suisse Heinrich Wölfflin l'ayant appliqué à cette période en 1915. Les traits du style sont reconnaissables : mouvement exagéré, compositions en diagonale, courbes multipliées, contrastes violents entre l'ombre et la lumière, ornementation abondante et recherche constante de l'intensité expressive. L'église du Gesù à Rome, dont la façade est achevée par Giacomo della Porta en 1584, offre un premier modèle architectural largement imité. Le baroque n'est cependant pas uniforme : l'Espagne et le Portugal l'adoptent avec ferveur, jusqu'au churrigueresque très orné développé par la famille Churriguera à Salamanque, tandis que la France lui préfère une version mesurée que l'on nomme volontiers classicisme, comme le montre le refus, en 1665, des projets du Bernin pour le Louvre. L'Allemagne et l'Autriche, en revanche, en font le langage de leurs palais et de leurs églises.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Du concile de Trente à la fin du rococo",
+    "evenements": [
+     {
+      "date": "1545-1563",
+      "label": "Concile de Trente",
+      "texte": "L'Église catholique choisit de toucher les fidèles par l'émotion et le spectacle."
+     },
+     {
+      "date": "1584",
+      "label": "Façade du Gesù",
+      "texte": "Giacomo della Porta achève à Rome un modèle architectural largement imité."
+     },
+     {
+      "date": "vers 1600",
+      "label": "Le Caravage",
+      "texte": "Les toiles de la chapelle Contarelli imposent le clair-obscur et le naturalisme."
+     },
+     {
+      "date": "1665",
+      "label": "Refus du Bernin au Louvre",
+      "texte": "La France préfère une version mesurée que l'on nomme classicisme."
+     },
+     {
+      "date": "1715-1723",
+      "label": "Naissance du rococo",
+      "texte": "Sous la Régence, la grandeur solennelle cède la place à l'intimité."
+     },
+     {
+      "date": "vers 1745",
+      "label": "Apogée du rococo",
+      "texte": "Boucher règne sur le goût ; Fragonard prend la suite."
+     },
+     {
+      "date": "vers 1785",
+      "label": "Disparition en France",
+      "texte": "Le néoclassicisme chasse le rococo, critiqué depuis 1760."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le Caravage et la révolution de la lumière",
+   "texte": "Michelangelo Merisi, dit le Caravage, né à Milan le 29 septembre 1571 et mort à Porto Ercole le 18 juillet 1610, à trente-huit ans, incarne le tournant décisif de la peinture vers 1600. Formé auprès de Simone Peterzano à partir de 1584, installé à Rome vers 1592, il y connaît une célébrité rapide, doublée d'une existence violente : après avoir mortellement blessé un adversaire en 1606, il fuit la ville et achève sa vie en exil, à Naples, à Malte et en Sicile. Son apport tient d'abord à l'usage appuyé du clair-obscur, poussé jusqu'au ténébrisme : une lumière crue tombe obliquement sur les figures, tandis que le fond se perd dans l'obscurité. Il tient ensuite à un naturalisme sans concession, qui donne aux saints et aux apôtres les visages, les vêtements et les pieds sales d'hommes du peuple. Les toiles de la chapelle Contarelli, dans l'église Saint-Louis-des-Français à Rome, avec « La Vocation de saint Matthieu », « Le Martyre de saint Matthieu » et « Saint Matthieu et l'Ange », font scandale autant qu'elles fascinent ; la chapelle Cerasi conserve « La Conversion de saint Paul » et « Le Crucifiement de saint Pierre ». « La Mort de la Vierge », peinte en 1606, est refusée par les commanditaires avant d'être achetée par le duc de Mantoue. De ce langage naît toute une école caravagesque, dont l'influence traverse le siècle jusqu'à Rubens, Rembrandt et Georges de La Tour.",
+   "visuel": {
+    "type": "image",
+    "image": "am-caravage-matthieu",
+    "legende": "Le Caravage, « La Vocation de saint Matthieu », vers 1600, chapelle Contarelli à Saint-Louis-des-Français, à Rome : une lumière crue et oblique désigne l'élu dans la pénombre d'une salle ordinaire.",
+    "alt": "Scène sombre : des hommes en costume du XVIe siècle sont attablés autour de pièces de monnaie ; un rai de lumière venu de la droite traverse la pièce et éclaire leurs visages surpris, tandis que deux figures debout dans l'ombre tendent la main vers eux."
+   }
+  },
+  {
+   "titre": "Le Bernin, Borromini et l'architecture du mouvement",
+   "texte": "Le baroque atteint sans doute sa plus grande force dans la sculpture et l'architecture, où il met en scène l'espace lui-même. Le Bernin, sculpteur et architecte, en est la figure dominante : son groupe de « L'Extase de sainte Thérèse », installé dans la chapelle Cornaro de l'église Santa Maria della Vittoria à Rome, mêle marbre, lumière naturelle dirigée et décor peint pour transformer la chapelle en un théâtre de la vision mystique. Le spectateur n'est plus devant l'œuvre, il est dedans. Francesco Borromini, son rival, pousse plus loin l'invention des plans : à Sant'Ivo alla Sapienza, il compose un édifice où les murs semblent onduler, où le sol et la coupole obéissent à une géométrie complexe. Carlo Maderno avait ouvert la voie avec la façade de l'église Santa Susanna, élevée entre 1585 et 1603, où les éléments se resserrent vers le centre pour concentrer le regard. Francesco Mochi, avec son groupe de « L'Annonciation » exécuté entre 1603 et 1608, donne au marbre une agitation d'étoffes et de gestes suspendus. Les traits communs sont partout les mêmes : coupoles imposantes, colonnades, jeux d'ombre et de lumière conçus comme en peinture, et surtout l'escalier monumental, inventé alors comme dispositif d'apparat, qui organise la montée du visiteur vers les appartements les plus somptueux. En Autriche et dans le monde germanique, Fischer von Erlach et Lucas von Hildebrandt transposent ce vocabulaire dans les résidences princières, tandis que Ludwigsbourg ou le Zwinger de Dresde en offrent des exemples éclatants."
+  },
+  {
+   "titre": "Rubens, Vélasquez et la diffusion européenne",
+   "texte": "Hors d'Italie, le baroque prend les couleurs des cours qui l'emploient. Pierre Paul Rubens, formé au contact de l'Italie, devient le peintre le plus recherché de l'Europe du Nord : ses compositions, dont « L'Adoration des Mages », déploient des corps puissants, des étoffes tourbillonnantes et une matière colorée dont la virtuosité fera école pendant deux siècles. En Espagne, Diego Vélasquez peint dès 1619 une « Adoration des Mages » qui montre l'assimilation précoce des leçons ténébristes, avant de devenir le peintre de la cour de Philippe IV. La sculpture française du siècle suivant conserve cette énergie : le « Prométhée » de Nicolas-Sébastien Adam, daté de 1737, est aujourd'hui conservé au Louvre. Le baroque ne se limite d'ailleurs pas aux arts visuels : il désigne aussi un moment de la musique et du théâtre. Claudio Monteverdi crée « L'Orfeo » en 1607, Jean-Baptiste Lully invente la tragédie lyrique française, et le siècle s'achève avec Antonio Vivaldi (1678-1741), Jean-Sébastien Bach (1685-1750) et Jean-Philippe Rameau (1683-1764). Sur les scènes, Pierre Corneille avec « L'Illusion comique », Molière avec « Dom Juan », Lope de Vega et Pedro Calderón de la Barca avec « La Vie est un songe » explorent les mêmes thèmes de l'illusion, du masque et de l'instabilité du monde. Cette unité de sensibilité entre les arts explique que l'on parle d'un âge baroque et non seulement d'un style décoratif."
+  },
+  {
+   "titre": "Du baroque au rococo : la grâce du XVIIIe siècle",
+   "texte": "Le rococo, aussi appelé style rocaille ou baroque tardif, naît en France sous la Régence, entre 1715 et 1723, et touche l'architecture, les arts décoratifs, la peinture et la sculpture. Son nom associe le mot français rocaille, qui désigne les décors de rochers et de coquillages, au portugais barroco ; longtemps péjoratif, il n'est accepté par les historiens de l'art que vers le milieu du XIXe siècle. Le style abandonne la grandeur solennelle pour l'intimité : espaces réduits, courbes fluides et asymétriques, blancs et tons pastel rehaussés d'or, moulures sculptées, fresques en trompe-l'œil, thèmes de loisir aristocratique et de pastorale. Antoine Watteau (1684-1721) en est le premier grand peintre, inventeur des fêtes galantes : « Le Pèlerinage à l'île de Cythère », peint en 1717, est conservé au Louvre, comme « Pierrot », longtemps appelé « Gilles », réalisé vers 1718-1719, tandis que « L'Enseigne de Gersaint », de 1720, se trouve au château de Charlottenburg à Berlin. François Boucher (1703-1770), protégé de Madame de Pompadour et nommé premier peintre du roi en 1765, multiplie les sujets mythologiques et pastoraux, tel « Diane sortant du bain » en 1742. Jean-Honoré Fragonard (1732-1806), élève de Boucher, donne « Les Hasards heureux de l'escarpolette » vers 1767-1768, aujourd'hui à la Wallace Collection de Londres, et « Le Verrou », vers 1774-1778, au Louvre. Le style culmine vers 1745, décline après 1760 sous les critiques de Voltaire et disparaît en France vers 1785, chassé par le néoclassicisme.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Baroque et rococo",
+    "colonnes": [
+     {
+      "titre": "Baroque (vers 1580-1750)",
+      "points": [
+       "Au service de l'Église et des princes",
+       "Grandeur solennelle, échelle monumentale",
+       "Contrastes violents d'ombre et de lumière",
+       "Mouvement exagéré, diagonales, ornementation abondante",
+       "Le Caravage, Le Bernin, Borromini, Rubens, Vélasquez"
+      ]
+     },
+     {
+      "titre": "Rococo (1715-1785)",
+      "points": [
+       "Au service d'une sociabilité aristocratique privée",
+       "Espaces réduits, recherche de l'intimité",
+       "Blancs et tons pastel rehaussés d'or",
+       "Courbes fluides et asymétriques, décors de rocaille",
+       "Watteau, Boucher, Fragonard"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "De quelle langue vient le mot baroque, et que désignait-il à l'origine ?",
+   "choix": [
+    "De l'italien, où il désignait une voûte irrégulière",
+    "Du portugais, où il désignait une perle irrégulière",
+    "De l'espagnol, où il désignait un ornement doré",
+    "Du latin, où il désignait un raisonnement faux"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Le terme vient du portugais barroco, qui nomme une perle de forme irrégulière. Le mot a d'abord servi d'insulte : il reprochait à cet art son manque de régularité et son excès d'ornement, par comparaison avec l'équilibre de la Renaissance. Il n'a été retenu comme catégorie historique neutre que tardivement, l'historien suisse Heinrich Wölfflin l'appliquant à la période en 1915. Beaucoup de noms de mouvements artistiques ont connu ce sort, du gothique à l'impressionnisme : nés d'une moquerie, ils sont devenus des désignations savantes. Le rococo suivra exactement le même chemin."
+  },
+  {
+   "q": "Quel événement religieux explique en grande partie l'essor du baroque en Italie ?",
+   "choix": [
+    "Le grand schisme d'Occident",
+    "Le concile de Vatican I",
+    "Le concile de Trente et la Contre-Réforme",
+    "La révocation de l'édit de Nantes"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le concile de Trente, réuni de 1545 à 1563, organise la réponse catholique à la Réforme protestante. Il réaffirme notamment la valeur des images religieuses, que les protestants rejetaient, et invite les artistes à représenter les mystères de la foi de manière claire et émouvante. Le baroque naît de cette commande : il cherche à convaincre par l'émotion, le mouvement et le spectacle plutôt que par le raisonnement. C'est pourquoi il s'épanouit d'abord à Rome, siège de la papauté, vers 1580. L'église du Gesù, dont Giacomo della Porta achève la façade en 1584, en fournit le modèle architectural."
+  },
+  {
+   "q": "Où se trouvent les toiles du Caravage consacrées à saint Matthieu ?",
+   "choix": [
+    "Dans la chapelle Contarelli de l'église Saint-Louis-des-Français, à Rome",
+    "Dans la chapelle Sixtine, au Vatican",
+    "Dans la galerie des Offices, à Florence",
+    "Dans l'église Santa Maria della Vittoria, à Rome"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La chapelle Contarelli, dans l'église Saint-Louis-des-Français à Rome, abrite « La Vocation de saint Matthieu », « Le Martyre de saint Matthieu » et « Saint Matthieu et l'Ange ». Ces toiles, qui rendent le Caravage célèbre autour de 1600, choquent par leur naturalisme : les personnages sacrés ont l'apparence d'hommes du peuple. La chapelle Cerasi conserve pour sa part « La Conversion de saint Paul » et « Le Crucifiement de saint Pierre ». Santa Maria della Vittoria, elle, abrite « L'Extase de sainte Thérèse » du Bernin, qui est une sculpture et non un tableau. Ne pas confondre ces deux lieux romains est un bon réflexe."
+  },
+  {
+   "q": "Quelle œuvre d'Antoine Watteau, peinte en 1717, est conservée au Louvre ?",
+   "choix": [
+    "« L'Enseigne de Gersaint »",
+    "« Les Hasards heureux de l'escarpolette »",
+    "« Diane sortant du bain »",
+    "« Le Pèlerinage à l'île de Cythère »"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "« Le Pèlerinage à l'île de Cythère », daté de 1717, est conservé au musée du Louvre et constitue le manifeste des fêtes galantes, ce genre que Watteau invente pour l'Académie. « L'Enseigne de Gersaint », peinte en 1720, se trouve au château de Charlottenburg, à Berlin. « Les Hasards heureux de l'escarpolette » est de Fragonard, vers 1767-1768, et appartient à la Wallace Collection de Londres. « Diane sortant du bain », de 1742, est de François Boucher. Watteau meurt très jeune, en 1721, à trente-six ans, après une carrière d'une quinzaine d'années seulement."
+  },
+  {
+   "q": "Quel style remplace le rococo en France à partir des années 1760-1780 ?",
+   "choix": [
+    "Le maniérisme",
+    "Le néoclassicisme",
+    "Le romantisme",
+    "Le réalisme"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Le rococo atteint son apogée vers 1745, sous Louis XV, puis décline dans les années 1760 sous les attaques de critiques comme Voltaire, qui le jugent superficiel. Vers 1785, il est passé de mode en France, remplacé par le néoclassicisme, qui prône le retour à la ligne droite, à la sobriété et aux modèles de l'Antiquité. Le style se maintient plus longtemps en Allemagne et en Italie, où il avait pris des formes plus exubérantes. Il connaîtra même un retour en faveur à la Belle Époque. Le maniérisme, lui, est antérieur : il précède le baroque au XVIe siècle."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Art baroque",
+   "url": "https://fr.wikipedia.org/wiki/Art_baroque"
+  },
+  {
+   "titre": "Rococo",
+   "url": "https://fr.wikipedia.org/wiki/Rococo"
+  },
+  {
+   "titre": "Le Caravage",
+   "url": "https://fr.wikipedia.org/wiki/Le_Caravage"
+  },
+  {
+   "titre": "Antoine Watteau",
+   "url": "https://fr.wikipedia.org/wiki/Antoine_Watteau"
+  },
+  {
+   "titre": "François Boucher",
+   "url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Boucher"
+  },
+  {
+   "titre": "Jean-Honoré Fragonard",
+   "url": "https://fr.wikipedia.org/wiki/Jean-Honor%C3%A9_Fragonard"
+  }
+ ]
+}

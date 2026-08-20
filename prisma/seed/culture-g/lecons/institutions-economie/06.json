@@ -1,0 +1,205 @@
+{
+  "titre": "L'entreprise, le travail et le droit du travail",
+  "sections": [
+    {
+      "titre": "Qu'est-ce qu'une entreprise ?",
+      "texte": "L'entreprise est une unité économique qui combine des facteurs de production, essentiellement le travail et le capital, afin de produire des biens ou des services destinés à être vendus sur un marché. Elle se distingue de l'administration publique, dont la production est financée par l'impôt et fournie gratuitement ou à un prix inférieur au coût, et des associations, dont l'objet n'est pas le partage des bénéfices. Les entreprises se classent selon plusieurs critères. Selon leur secteur d'activité, on distingue le secteur primaire, qui exploite les ressources naturelles, le secteur secondaire, qui transforme la matière, et le secteur tertiaire, qui produit des services et occupe aujourd'hui la majeure partie de l'emploi dans les pays développés. Selon leur taille, la statistique française retient les microentreprises, les petites et moyennes entreprises, les entreprises de taille intermédiaire et les grandes entreprises, en fonction du nombre de salariés et du chiffre d'affaires. Selon leur forme juridique, on trouve l'entreprise individuelle, où l'entrepreneur exerce en son nom propre, et les sociétés dotées d'une personnalité morale distincte, comme la société à responsabilité limitée, la société par actions simplifiée ou la société anonyme, dans lesquelles la responsabilité des associés est en principe limitée à leurs apports. La forme coopérative, où les décisions obéissent au principe une personne, une voix, constitue une autre modalité d'organisation.",
+      "visuel": {
+        "type": "tableau",
+        "titre": "Trois façons de classer les entreprises",
+        "colonnes": [
+          "Critère",
+          "Catégories"
+        ],
+        "lignes": [
+          [
+            "Secteur d'activité",
+            "Primaire, qui exploite les ressources naturelles ; secondaire, qui transforme la matière ; tertiaire, qui produit des services et occupe aujourd'hui la majeure partie de l'emploi dans les pays développés"
+          ],
+          [
+            "Taille",
+            "Microentreprises, petites et moyennes entreprises, entreprises de taille intermédiaire, grandes entreprises, selon le nombre de salariés et le chiffre d'affaires"
+          ],
+          [
+            "Forme juridique",
+            "Entreprise individuelle, où l'entrepreneur exerce en son nom propre ; sociétés dotées d'une personnalité morale distincte : société à responsabilité limitée, société par actions simplifiée, société anonyme"
+          ]
+        ],
+        "note": "L'entreprise vend sa production sur un marché, à la différence de l'administration, financée par l'impôt, et de l'association, dont l'objet n'est pas le partage des bénéfices. Dans une coopérative, les décisions obéissent au principe une personne, une voix."
+      }
+    },
+    {
+      "titre": "Le contrat de travail",
+      "texte": "Le contrat de travail est l'accord par lequel une personne, le salarié, s'engage à travailler pour le compte et sous la direction d'une autre, l'employeur, moyennant une rémunération. Trois éléments le caractérisent : une prestation de travail, une rémunération et un lien de subordination juridique. C'est ce dernier critère, défini par la jurisprudence comme le pouvoir de donner des ordres, d'en contrôler l'exécution et de sanctionner les manquements, qui distingue le salarié du travailleur indépendant. Le contrat à durée indéterminée constitue la forme normale et générale de la relation de travail. Le contrat à durée déterminée ne peut être conclu que dans des cas prévus par la loi, comme le remplacement d'un salarié absent ou un accroissement temporaire d'activité, et doit comporter un terme précis ou une durée minimale ; il ne peut avoir pour objet de pourvoir durablement un emploi lié à l'activité normale de l'entreprise. Le travail temporaire fait intervenir une troisième partie, l'entreprise de travail temporaire. Une période d'essai, dont la durée est encadrée, permet à chacun d'apprécier si l'emploi convient. La rupture du contrat obéit à des règles protectrices : la démission émane du salarié, le licenciement de l'employeur et doit reposer sur une cause réelle et sérieuse, tandis que la rupture conventionnelle, instituée en 2008, suppose l'accord des deux parties et une homologation administrative.",
+      "visuel": {
+        "type": "comparaison",
+        "titre": "Contrat à durée indéterminée et contrat à durée déterminée",
+        "colonnes": [
+          {
+            "titre": "Contrat à durée indéterminée",
+            "points": [
+              "Forme normale et générale de la relation de travail",
+              "Aucun terme fixé à l'avance",
+              "Rupture par démission du salarié",
+              "Rupture par licenciement, qui doit reposer sur une cause réelle et sérieuse",
+              "Rupture conventionnelle, instituée en 2008 : accord des deux parties et homologation administrative"
+            ]
+          },
+          {
+            "titre": "Contrat à durée déterminée",
+            "points": [
+              "Seulement dans les cas prévus par la loi : remplacement d'un salarié absent, accroissement temporaire d'activité",
+              "Doit comporter un terme précis ou une durée minimale",
+              "Ne peut avoir pour objet de pourvoir durablement un emploi lié à l'activité normale de l'entreprise",
+              "Le travail temporaire fait en outre intervenir une entreprise de travail temporaire",
+              "Une période d'essai, de durée encadrée, existe dans les deux cas"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Les sources et la construction du droit du travail",
+      "texte": "Le droit du travail s'est constitué progressivement, en réponse aux conditions de la révolution industrielle. La loi du 22 mars 1841 limite le travail des enfants dans les manufactures, celle de 1864 supprime le délit de coalition qui interdisait la grève, et la loi Waldeck-Rousseau du 21 mars 1884 autorise les syndicats professionnels. Le premier Code du travail est publié à partir de 1910. Les accords de Matignon de juin 1936 instaurent les congés payés et la semaine de quarante heures, puis les accords de Grenelle de 1968 revalorisent le salaire minimum. La durée légale hebdomadaire est fixée à trente-cinq heures par les lois de 1998 et 2000, la durée légale n'étant pas un maximum mais le seuil de déclenchement des heures supplémentaires. Les règles proviennent de plusieurs sources hiérarchisées : la Constitution et son préambule, les conventions internationales et notamment celles de l'Organisation internationale du travail créée en 1919, le droit de l'Union européenne, la loi et les règlements, les conventions et accords collectifs négociés par branche ou par entreprise, enfin le contrat de travail et les usages. Le principe de faveur veut qu'une norme inférieure puisse déroger à une norme supérieure lorsqu'elle est plus avantageuse pour le salarié, principe dont la portée a été aménagée par les réformes successives de la négociation collective.",
+      "visuel": {
+        "type": "frise",
+        "titre": "La construction du droit du travail",
+        "evenements": [
+          {
+            "date": "1841",
+            "label": "Travail des enfants",
+            "texte": "La loi du 22 mars le limite dans les manufactures."
+          },
+          {
+            "date": "1864",
+            "label": "Fin du délit de coalition",
+            "texte": "La grève cesse d'être une infraction."
+          },
+          {
+            "date": "1884",
+            "label": "Loi Waldeck-Rousseau",
+            "texte": "Le 21 mars, les syndicats professionnels sont autorisés."
+          },
+          {
+            "date": "1910",
+            "label": "Premier Code du travail",
+            "texte": "Sa publication commence."
+          },
+          {
+            "date": "1919",
+            "label": "Organisation internationale du travail",
+            "texte": "Ses conventions deviennent l'une des sources du droit du travail."
+          },
+          {
+            "date": "1936",
+            "label": "Accords de Matignon",
+            "texte": "En juin : congés payés et semaine de quarante heures."
+          },
+          {
+            "date": "1968",
+            "label": "Accords de Grenelle",
+            "texte": "Revalorisation du salaire minimum."
+          },
+          {
+            "date": "1998-2000",
+            "label": "Les trente-cinq heures",
+            "texte": "La durée légale hebdomadaire n'est pas un maximum, mais le seuil de déclenchement des heures supplémentaires."
+          }
+        ]
+      }
+    },
+    {
+      "titre": "Représentation des salariés et dialogue social",
+      "texte": "La liberté syndicale, reconnue par la loi de 1884 et garantie par le préambule de la Constitution de 1946, permet aux salariés de se regrouper pour défendre leurs intérêts professionnels. Les organisations syndicales représentatives négocient les conventions collectives, qui adaptent et complètent la loi dans une branche d'activité ou une entreprise, et peuvent prévoir des dispositions plus favorables en matière de salaires, de classifications ou de congés. Dans l'entreprise, les salariés disposent d'institutions représentatives. Les ordonnances de 2017 ont fusionné les anciens délégués du personnel, comité d'entreprise et comité d'hygiène, de sécurité et des conditions de travail au sein d'une instance unique, le comité social et économique, obligatoire à partir de onze salariés, avec des attributions élargies au-delà de cinquante salariés en matière économique, sociale et de santé au travail. Le droit de grève, reconnu par le préambule de 1946, s'exerce dans le cadre des lois qui le réglementent : il suppose une cessation collective et concertée du travail appuyée sur des revendications professionnelles, et il est encadré par des règles particulières dans les services publics, notamment un préavis. Les litiges individuels du travail relèvent du conseil de prud'hommes, juridiction paritaire composée à parts égales de représentants des salariés et des employeurs."
+    },
+    {
+      "titre": "Le marché du travail et l'emploi",
+      "texte": "La population active regroupe les personnes qui occupent un emploi et celles qui en recherchent un. Selon la définition retenue par le Bureau international du travail, est considérée comme chômeuse une personne en âge de travailler qui est sans emploi, disponible pour travailler et qui effectue des démarches actives de recherche. Cette définition, utilisée pour les comparaisons internationales, diffère du dénombrement administratif des demandeurs d'emploi inscrits auprès du service public de l'emploi, ce qui explique que les deux mesures ne coïncident pas. Les économistes distinguent plusieurs formes de chômage : le chômage frictionnel, lié au temps nécessaire pour trouver un emploi correspondant à ses qualifications, le chômage structurel, qui traduit une inadéquation durable entre les compétences disponibles et les besoins des entreprises, et le chômage conjoncturel, provoqué par un ralentissement de l'activité économique. Les politiques de l'emploi combinent des mesures dites passives, comme l'indemnisation du chômage, et des mesures actives, comme la formation professionnelle, l'apprentissage, l'accompagnement des demandeurs d'emploi ou les allégements de cotisations sur les bas salaires. Le salaire minimum interprofessionnel de croissance, créé en 1970 pour succéder au salaire minimum interprofessionnel garanti de 1950, fixe un plancher de rémunération revalorisé chaque année en fonction de l'inflation et de l'évolution des salaires.",
+      "visuel": {
+        "type": "tableau",
+        "titre": "Les formes du chômage",
+        "colonnes": [
+          "Forme",
+          "Ce qui l'explique"
+        ],
+        "lignes": [
+          [
+            "Chômage frictionnel",
+            "Le temps nécessaire pour trouver un emploi correspondant à ses qualifications"
+          ],
+          [
+            "Chômage structurel",
+            "Une inadéquation durable entre les compétences disponibles et les besoins des entreprises"
+          ],
+          [
+            "Chômage conjoncturel",
+            "Un ralentissement de l'activité économique"
+          ]
+        ],
+        "note": "Au sens du Bureau international du travail, est chômeuse une personne en âge de travailler, sans emploi, disponible et effectuant des démarches actives de recherche : cette mesure ne coïncide pas avec le dénombrement administratif des demandeurs d'emploi inscrits."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Quel élément caractérise juridiquement le contrat de travail et distingue le salarié de l'indépendant ?",
+      "choix": [
+        "La signature d'un document écrit",
+        "L'inscription au registre du commerce",
+        "La durée hebdomadaire de trente-cinq heures",
+        "Le lien de subordination juridique"
+      ],
+      "bonne": 3,
+      "difficulte": 2,
+      "explication": "Le contrat de travail suppose trois éléments : une prestation de travail, une rémunération et un lien de subordination. Ce dernier est le critère décisif retenu par la jurisprudence : il existe lorsque l'employeur peut donner des ordres et des directives, en contrôler l'exécution et sanctionner les manquements de la personne qui travaille pour lui. Un travailleur indépendant, à l'inverse, organise librement son activité et supporte lui-même le risque économique. L'écrit n'est pas toujours obligatoire, notamment pour un contrat à durée indéterminée à temps plein, et la durée légale du travail ne conditionne pas l'existence du contrat."
+    },
+    {
+      "q": "Que prévoient les accords de Matignon de juin 1936 ?",
+      "choix": [
+        "Les congés payés et la semaine de quarante heures",
+        "La création du salaire minimum de croissance",
+        "La liberté syndicale",
+        "La mise en place du comité social et économique"
+      ],
+      "bonne": 0,
+      "difficulte": 2,
+      "explication": "Signés en juin 1936 dans le contexte des grèves qui suivent la victoire du Front populaire, les accords de Matignon débouchent sur des lois instituant deux semaines de congés payés et la semaine de quarante heures, ainsi que sur la reconnaissance des délégués ouvriers et des conventions collectives. La liberté syndicale, elle, avait été reconnue plus tôt, par la loi Waldeck-Rousseau du 21 mars 1884. Le salaire minimum interprofessionnel de croissance date de 1970, succédant au salaire minimum garanti de 1950. Le comité social et économique est une création bien plus récente, issue des ordonnances de 2017."
+    },
+    {
+      "q": "Selon la définition du Bureau international du travail, qui est considéré comme chômeur ?",
+      "choix": [
+        "Toute personne inscrite auprès du service public de l'emploi",
+        "Toute personne sans emploi, y compris les retraités",
+        "Une personne sans emploi, disponible et recherchant activement du travail",
+        "Une personne travaillant à temps partiel contre son gré"
+      ],
+      "bonne": 2,
+      "difficulte": 2,
+      "explication": "Le Bureau international du travail retient trois conditions cumulatives : être sans emploi, même quelques heures, au cours d'une semaine de référence, être disponible pour travailler à court terme et avoir effectué des démarches actives de recherche. Cette définition est utilisée dans le monde entier pour rendre les statistiques comparables. Elle diffère du comptage administratif des demandeurs d'emploi inscrits, qui obéit à des règles nationales et inclut des personnes non disponibles immédiatement ou exerçant une activité réduite. Les retraités et les étudiants qui ne cherchent pas d'emploi appartiennent à la population inactive, et non au chômage."
+    },
+    {
+      "q": "Quelle instance a remplacé, depuis les ordonnances de 2017, les délégués du personnel et le comité d'entreprise ?",
+      "choix": [
+        "Le conseil de prud'hommes",
+        "La chambre de commerce",
+        "L'inspection du travail",
+        "Le comité social et économique"
+      ],
+      "bonne": 3,
+      "difficulte": 1,
+      "explication": "Les ordonnances de 2017 ont fusionné trois institutions représentatives distinctes, les délégués du personnel, le comité d'entreprise et le comité d'hygiène, de sécurité et des conditions de travail, en une instance unique appelée comité social et économique. Il est obligatoire dans les entreprises d'au moins onze salariés et ses attributions s'élargissent au-delà de cinquante salariés, où il est consulté sur les orientations stratégiques, la situation économique et la politique sociale. Le conseil de prud'hommes est une juridiction qui tranche les litiges individuels du travail, l'inspection du travail est un service de l'État chargé du contrôle, et les chambres de commerce représentent les entreprises."
+    },
+    {
+      "q": "Que signifie le principe de faveur en droit du travail ?",
+      "choix": [
+        "L'employeur choisit librement la règle applicable",
+        "Le juge tranche toujours en faveur de l'entreprise",
+        "Une norme inférieure peut s'appliquer si elle est plus avantageuse pour le salarié",
+        "Les conventions collectives priment sur la Constitution"
+      ],
+      "bonne": 2,
+      "difficulte": 3,
+      "explication": "Les sources du droit du travail sont hiérarchisées, de la Constitution et des traités jusqu'au contrat individuel, en passant par la loi et les accords collectifs. Le principe de faveur constitue une particularité de cette matière : lorsqu'une norme de rang inférieur, par exemple un accord d'entreprise ou un contrat, prévoit des dispositions plus avantageuses pour le salarié que la norme supérieure, c'est la disposition la plus favorable qui s'applique. Ce principe protège les acquis obtenus par la négociation. Les réformes successives de la négociation collective en ont toutefois aménagé la portée, en autorisant dans certains domaines des accords d'entreprise dérogatoires."
+    }
+  ]
+}

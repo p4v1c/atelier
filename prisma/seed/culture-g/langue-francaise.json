@@ -1,0 +1,1389 @@
+{
+ "id": "langue-francaise",
+ "nom": "Langue française",
+ "emoji": "📝",
+ "questions": [
+  {
+   "q": "Quel texte, daté de 842, est le plus ancien document conservé écrit dans une langue romane, ancêtre du français ?",
+   "choix": [
+    "La Chanson de Roland",
+    "Le Roman de Renart",
+    "Les Serments de Strasbourg",
+    "Les Fables de Marie de France"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "Le 14 février 842, Charles le Chauve et Louis le Germanique scellent une alliance contre leur frère Lothaire. Pour être compris des troupes adverses, chacun prête serment dans la langue de l'autre : l'un en langue romane, l'autre en langue germanique. Le chroniqueur Nithard, petit-fils de Charlemagne, en a transcrit le texte, qui commence par « Pro Deo amur et pro christian poblo et nostro commun salvament ». Ce n'est déjà plus du latin : on y voit une langue nouvelle, que les historiens appellent le roman. On parle souvent d'acte de naissance du français écrit, même si le premier texte littéraire est un peu plus tardif, la Séquence de sainte Eulalie, vers 880."
+  },
+  {
+   "q": "L'ordonnance de Villers-Cotterêts, signée en 1539, impose l'usage du français dans quel domaine ?",
+   "choix": [
+    "Les actes de justice et d'administration",
+    "Les sermons prononcés à l'église",
+    "L'enseignement des universités",
+    "Les traités conclus avec l'étranger"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Signée par François Ier en août 1539, cette ordonnance de 192 articles réforme la justice du royaume. Ses articles 110 et 111 exigent que les actes judiciaires soient rédigés « en langage maternel françois, et non autrement », c'est-à-dire en langue vulgaire plutôt qu'en latin. Les historiens rappellent que la formule visait d'abord à évacuer le latin, et non les langues régionales, encore largement parlées. Le même texte impose aux curés la tenue de registres de baptêmes, ancêtre de l'état civil. C'est le plus ancien texte normatif français encore en vigueur : ces articles n'ont jamais été abrogés."
+  },
+  {
+   "q": "Qui fonde l'Académie française en 1635 ?",
+   "choix": [
+    "Louis XIV",
+    "Jean-Baptiste Colbert",
+    "François Ier",
+    "Le cardinal de Richelieu"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "L'Académie naît d'un cercle d'écrivains qui se réunissaient chez Valentin Conrart. Richelieu, principal ministre de Louis XIII, décide en 1634 de placer ce groupe sous la protection royale et lui donne des statuts officiels en 1635. Sa mission est de donner à la langue des règles claires et de la rendre « pure, éloquente et capable de traiter les arts et les sciences ». Elle compte quarante membres élus par leurs pairs, souvent appelés les Immortels d'après sa devise, « À l'immortalité ». Elle siège aujourd'hui sous la coupole de l'Institut de France, quai de Conti à Paris."
+  },
+  {
+   "q": "Combien de fauteuils compte l'Académie française ?",
+   "choix": [
+    "20",
+    "40",
+    "30",
+    "36"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "L'Académie française compte quarante fauteuils depuis sa fondation, numérotés de 1 à 40. Chaque académicien occupe un fauteuil dont il retrace, dans son discours de réception, l'histoire et celle de ses prédécesseurs. On dit qu'un académicien est élu « au fauteuil de » celui qu'il remplace, et l'élection n'a lieu qu'après un décès. Plus de sept cents personnes y ont siégé depuis 1635. Le nombre de quarante a valu aux académiciens le surnom collectif des Quarante, à côté de celui d'Immortels."
+  },
+  {
+   "q": "Comment surnomme-t-on couramment les membres de l'Académie française ?",
+   "choix": [
+    "Les Immortels",
+    "Les Doctes",
+    "Les Vénérables",
+    "Les Gardiens du verbe"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le surnom vient de la devise gravée sur le sceau donné par Richelieu : « À l'immortalité ». Elle désigne l'immortalité de la langue française que l'institution est censée entretenir, et non celle des académiciens eux-mêmes, qui meurent comme tout le monde. Lors des séances solennelles, les membres portent l'habit vert, brodé de rameaux d'olivier, avec bicorne et épée. L'usage veut que les femmes et les ecclésiastiques soient dispensés de l'épée, même si certaines académiciennes ont choisi d'en porter une. Le surnom des Quarante, fondé sur le nombre de fauteuils, est également répandu."
+  },
+  {
+   "q": "Quelle femme est la première élue à l'Académie française, en 1980 ?",
+   "choix": [
+    "Simone de Beauvoir",
+    "Colette",
+    "Marguerite Yourcenar",
+    "Hélène Carrère d'Encausse"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Marguerite Yourcenar, autrice des Mémoires d'Hadrien, est élue en mars 1980, soit trois siècles et demi après la fondation de l'institution. Son élection a suscité des débats, certains académiciens s'y étant opposés au nom de la tradition. Colette, souvent citée, a bien été académicienne, mais de l'Académie royale de Belgique puis de l'académie Goncourt, jamais de l'Académie française. Hélène Carrère d'Encausse, élue en 1990, est en revanche devenue en 1999 la première femme secrétaire perpétuel. Depuis Yourcenar, plusieurs femmes ont été élues, mais elles restent minoritaires."
+  },
+  {
+   "q": "Que signifie l'adjectif « pusillanime » ?",
+   "choix": [
+    "Très généreux",
+    "Qui manque de courage, timoré",
+    "De petite taille",
+    "Qui parle beaucoup"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Le mot vient du latin chrétien pusillanimis, formé de pusillus, « tout petit », et animus, « esprit, courage » : littéralement, celui qui a l'âme petite. Il qualifie une personne qui n'ose pas prendre de décision ni affronter le risque. Son contraire exact est « magnanime », de magnus animus, « la grande âme ». Le rapprochement avec la petite taille physique est une fausse piste : pusillanime ne parle que du caractère. Le substantif correspondant est « pusillanimité »."
+  },
+  {
+   "q": "Au sens figuré, que désigne un « thuriféraire » ?",
+   "choix": [
+    "Un héritier légitime",
+    "Un savant de cabinet",
+    "Un traître",
+    "Un flatteur empressé"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Au sens propre, le thuriféraire est le clerc qui porte l'encensoir pendant une cérémonie religieuse ; le mot vient du latin thus, thuris, « encens ». Par métaphore, il désigne celui qui encense un puissant, c'est-à-dire le flatte sans retenue. Le mot appartient au registre soutenu et garde une nuance nettement critique. On le rencontre surtout dans la presse politique : « les thuriféraires du régime ». La même image explique le verbe « encenser », employé lui aussi au figuré."
+  },
+  {
+   "q": "Que signifie le verbe « procrastiner » ?",
+   "choix": [
+    "Remettre les choses au lendemain",
+    "Critiquer sans cesse",
+    "Marcher avec lenteur",
+    "Recopier un texte"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le verbe vient du latin procrastinare, formé de pro, « en avant », et cras, « demain » : reporter à demain. Il est attesté en français depuis le XVIe siècle, mais s'est banalisé récemment sous l'influence de l'anglais to procrastinate. La procrastination désigne la tendance à différer une tâche que l'on sait pourtant devoir accomplir. Le mot appartient d'abord au registre soutenu, mais il est aujourd'hui d'usage courant. Attention à sa graphie : deux r et un seul s."
+  },
+  {
+   "q": "Que signifie l'adjectif « obséquieux » ?",
+   "choix": [
+    "Qui obéit mal",
+    "Difficile à comprendre",
+    "Entêté",
+    "D'une politesse excessive et servile"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Le mot vient du latin obsequiosus, dérivé de obsequium, « complaisance, soumission ». Il ne décrit pas la politesse ordinaire mais son excès, qui devient gênant parce qu'il trahit un calcul. Un serviteur obséquieux courbe l'échine plus que nécessaire ; un courtisan obséquieux flatte pour obtenir une faveur. Le mot est proche de « servile » et de « mielleux », et il est toujours péjoratif. Le nom correspondant est « obséquiosité »."
+  },
+  {
+   "q": "Un discours « laconique » est un discours :",
+   "choix": [
+    "Ampoulé et solennel",
+    "Confus et décousu",
+    "Très bref, réduit à l'essentiel",
+    "Volontairement mensonger"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "L'adjectif vient de la Laconie, région du Péloponnèse dont Sparte était la capitale. Les Spartiates étaient réputés pour la brièveté tranchante de leurs réponses, dont l'Antiquité a conservé des exemples célèbres. Être laconique, c'est donc dire beaucoup en très peu de mots, parfois avec une nuance de sécheresse. Le mot appartient à la même famille de formations que « byzantin » ou « spartiate », tirés eux aussi de noms de lieux. On parle aussi de « laconisme » pour désigner cette qualité de style."
+  },
+  {
+   "q": "Que qualifie l'adjectif « velléitaire » ?",
+   "choix": [
+    "Une personne coléreuse",
+    "Une personne qui forme des intentions sans jamais les réaliser",
+    "Une personne trop crédule",
+    "Une personne rusée"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Le mot dérive de « velléité », emprunté au latin scolastique velleitas, lui-même formé sur velle, « vouloir ». Une velléité est une intention faible, qui n'atteint jamais le stade de la décision. Le velléitaire multiplie donc les projets et les abandonne tous : il veut sans vouloir vraiment. Le terme est nettement dépréciatif, contrairement à « rêveur » qui peut être neutre. On l'emploie aussi comme nom : « c'est un velléitaire »."
+  },
+  {
+   "q": "« Va, je ne te hais point », dit Chimène à Rodrigue dans Le Cid. De quelle figure de style s'agit-il ?",
+   "choix": [
+    "Une hyperbole",
+    "Une métaphore",
+    "Une anaphore",
+    "Une litote"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "La litote consiste à dire moins pour faire entendre plus. Chimène, qui aime Rodrigue mais ne peut l'avouer puisqu'il a tué son père, choisit la formule négative la plus faible possible : ne pas haïr. L'auditeur comprend évidemment le contraire de la modestie affichée, c'est-à-dire un amour intact. C'est l'exemple canonique de la litote dans l'enseignement français, tiré de la scène 4 de l'acte III du Cid de Corneille. Il ne faut pas la confondre avec l'euphémisme, qui atténue pour ne pas choquer, alors que la litote atténue pour renforcer."
+  },
+  {
+   "q": "« Cette obscure clarté qui tombe des étoiles » (Corneille) illustre quelle figure ?",
+   "choix": [
+    "Une antithèse",
+    "Un oxymore",
+    "Un chiasme",
+    "Une métonymie"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "L'oxymore réunit dans un même groupe de mots deux termes de sens contraires : ici l'obscurité et la clarté, accolées dans un seul syntagme nominal. La figure crée une image impossible qui frappe l'esprit et suggère la lumière incertaine d'une nuit étoilée. On la distingue de l'antithèse, qui oppose deux idées dans deux segments distincts de la phrase, du type « je vis, je meurs ». Le vers est tiré du Cid, où Rodrigue raconte la bataille contre les Maures. Le pluriel du mot est « des oxymores », et l'on rencontre aussi la forme savante « oxymoron »."
+  },
+  {
+   "q": "Dans « il a lu tout Zola », le nom de l'auteur est mis pour ses livres. Comment appelle-t-on cette figure ?",
+   "choix": [
+    "Une métonymie",
+    "Une synecdoque",
+    "Une hyperbole",
+    "Une périphrase"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La métonymie remplace un terme par un autre qui lui est logiquement lié : ici l'auteur pour l'œuvre. Elle repose sur une relation de contiguïté, et non de ressemblance comme la métaphore. On en trouve d'autres formes courantes : la cause pour l'effet, le lieu pour l'institution (« Matignon a répondu »), l'instrument pour celui qui l'utilise (« un bon violon »). La synecdoque, souvent présentée comme un cas particulier de métonymie, repose plus précisément sur un rapport d'inclusion entre la partie et le tout. La frontière entre les deux figures est discutée par les rhétoriciens."
+  },
+  {
+   "q": "« On aperçoit une voile à l'horizon » pour dire qu'on aperçoit un navire : de quelle figure s'agit-il ?",
+   "choix": [
+    "Une métaphore",
+    "Une litote",
+    "Une synecdoque",
+    "Un euphémisme"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La synecdoque désigne un objet en nommant l'une de ses parties : la voile pour le bateau tout entier. Elle fonctionne aussi dans l'autre sens, du tout vers la partie, ou du genre vers l'espèce. On la retrouve dans « gagner son pain », « demander la main de quelqu'un » ou « un troupeau de cent têtes ». Beaucoup de manuels la traitent comme une sous-catégorie de la métonymie, parce que les deux figures reposent sur un lien réel entre les termes et non sur une analogie. La distinction n'est pas toujours faite de la même façon selon les auteurs."
+  },
+  {
+   "q": "« Je me meurs, je suis mort, je suis enterré » (Molière) : quelle figure organise cette phrase ?",
+   "choix": [
+    "Une gradation",
+    "Une anaphore",
+    "Un chiasme",
+    "Un zeugme"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La gradation range plusieurs termes selon une intensité croissante, ou plus rarement décroissante. Ici, Harpagon passe de l'agonie à la mort puis à l'ensevelissement : chaque étape est plus définitive que la précédente, ce qui produit un effet comique par excès. La figure est fréquente dans le registre pathétique comme dans le registre burlesque. On l'appelle aussi climax quand la progression est ascendante. Elle se distingue de l'accumulation, qui juxtapose sans hiérarchiser."
+  },
+  {
+   "q": "« Il faut manger pour vivre et non vivre pour manger » : quelle figure reconnaît-on ?",
+   "choix": [
+    "Une anaphore",
+    "Un oxymore",
+    "Une hypallage",
+    "Un chiasme"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Le chiasme croise les termes selon le schéma AB / BA : manger-vivre, puis vivre-manger. Le nom vient de la lettre grecque khi, écrite X, dont la forme figure ce croisement. La figure met en valeur une opposition ou un renversement de sens, très utilisée dans les maximes et les formules politiques. Elle se distingue du parallélisme, qui répète le même ordre AB / AB. La formule citée est attribuée à Socrate et reprise par Molière dans L'Avare."
+  },
+  {
+   "q": "Comment nomme-t-on la répétition d'un même mot au début de plusieurs vers ou de plusieurs phrases ?",
+   "choix": [
+    "L'épiphore",
+    "L'assonance",
+    "L'anaphore",
+    "L'allitération"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "L'anaphore martèle un mot ou un groupe de mots en tête de segments successifs, ce qui crée un effet d'insistance et de rythme. L'exemple le plus connu en français est le « Rome, l'unique objet de mon ressentiment » de Corneille, ou l'appel du 18 juin. Quand la reprise a lieu à la fin des segments, on parle au contraire d'épiphore. L'anaphore rhétorique ne doit pas être confondue avec l'anaphore grammaticale, qui désigne la reprise d'un mot par un pronom. Le mot vient du grec anaphora, « action de porter en arrière »."
+  },
+  {
+   "q": "« Vêtu de probité candide et de lin blanc » (Victor Hugo) : quelle figure joue sur la coordination ?",
+   "choix": [
+    "Une hypallage",
+    "Un zeugme",
+    "Un oxymore",
+    "Une métonymie"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Le zeugme, ou attelage, coordonne deux compléments qui n'appartiennent pas au même plan, ici une qualité morale et un vêtement. Le verbe ou la préposition ne fonctionne littéralement que pour l'un des deux, ce qui produit une rupture volontaire. Hugo l'emploie dans Booz endormi pour peindre en un vers la droiture du personnage. La figure sert souvent l'ironie : « il prit son chapeau et la porte ». On écrit indifféremment zeugme ou zeugma."
+  },
+  {
+   "q": "Quelle est la formule correcte pour remercier par avance dans une lettre ?",
+   "choix": [
+    "Je vous serais gré",
+    "Je vous saurais gré",
+    "Je vous serai gréé",
+    "Je vous serais grès"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "La formule repose sur le verbe « savoir » employé au sens ancien de « être reconnaissant » : savoir gré à quelqu'un, c'est lui savoir bon gré. On écrit donc « je vous saurais gré de bien vouloir », au conditionnel, ou « je vous sais gré » au présent. La forme avec le verbe être, très répandue, est une faute d'analyse : le mot gré n'est pas un adjectif attribut. Le nom gré vient du latin gratum, « ce qui est agréable », et se retrouve dans « de bon gré », « bon gré mal gré » et « savoir mauvais gré ». Un moyen simple de vérifier est de remplacer par « je vous sais gré » au présent."
+  },
+  {
+   "q": "Quelle est la graphie correcte de ce nom qui désigne un choix entre deux options également fâcheuses ?",
+   "choix": [
+    "Dilemne",
+    "Dilème",
+    "Dylemme",
+    "Dilemme"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le mot vient du grec dilêmma, formé de di-, « deux », et lêmma, « proposition ». Il s'écrit donc avec deux m, comme lemme, théorème ou problème auxquels il est apparenté par le suffixe grec. La graphie fautive avec -mn- s'explique par l'attraction d'« indemne » et de « solennel ». Un dilemme oppose strictement deux termes ; quand il y en a trois, on parle parfois de trilemme. Le mot ne signifie pas simplement « problème difficile » mais bien « alternative fermée »."
+  },
+  {
+   "q": "Une seule de ces graphies existe en français. Laquelle ?",
+   "choix": [
+    "Connection",
+    "Conection",
+    "Connexion",
+    "Connéxion"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le français a hérité du latin connexio, avec un x, alors que l'anglais a retenu la forme connection. La graphie avec -ct- est donc un anglicisme orthographique, très fréquent dans les textes techniques. On retrouve le même x dans « flexion », « annexion », « réflexion » ou « inflexion ». Attention toutefois : le verbe correspondant est « connecter », avec -ct-, ce qui alimente la confusion. La règle tient à l'histoire des mots, pas à une logique interne du français."
+  },
+  {
+   "q": "Comment s'écrit correctement l'expression signifiant « prétendu, qui se dit tel » ?",
+   "choix": [
+    "Soi-disant",
+    "Soit-disant",
+    "Soit disant",
+    "Soie-disant"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'expression est formée du pronom réfléchi « soi » et du participe « disant » : celui qui se dit lui-même tel. La graphie avec « soit » est une réfection populaire qui n'a aucun fondement grammatical. L'ensemble est invariable : « des soi-disant experts », « une soi-disant amie ». Les puristes rappellent qu'au sens strict l'expression ne devrait s'appliquer qu'à des personnes capables de parler, et recommandent « prétendu » pour les choses ; l'usage, y compris littéraire, a largement effacé cette restriction. La forme rectifiée de 1990 ne change rien à ce mot."
+  },
+  {
+   "q": "Complétez : « Les lettres que j'ai ... ce matin. » (verbe écrire)",
+   "choix": [
+    "écrites",
+    "écrit",
+    "écrits",
+    "écrite"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Avec l'auxiliaire avoir, le participe passé s'accorde avec le complément d'objet direct lorsque celui-ci est placé avant le verbe. Ici, le pronom relatif « que » reprend « les lettres », féminin pluriel, et occupe la fonction de COD : le participe prend donc un e et un s. Si l'on retourne la phrase en « j'ai écrit des lettres », le complément suit le verbe et le participe reste invariable. Cette règle a été introduite en français au XVIe siècle par le poète Clément Marot, qui l'avait observée en italien. Le réflexe utile est de chercher le COD et de vérifier sa place."
+  },
+  {
+   "q": "Complétez : « Ces trois présidentes se sont ... à la tête de l'institution. » (verbe succéder)",
+   "choix": [
+    "succédées",
+    "succédés",
+    "succédé",
+    "succédée"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Le verbe « succéder » se construit avec un complément indirect : on succède à quelqu'un. Le pronom réfléchi « se » n'est donc pas un COD mais un complément d'objet indirect, et le participe reste invariable. Le même raisonnement s'applique à « elles se sont parlé », « ils se sont téléphoné », « elles se sont nui ». En revanche « elles se sont rencontrées » s'accorde, parce que l'on rencontre quelqu'un directement. Le test consiste à se demander si le verbe se construit avec « à » : si oui, pas d'accord."
+  },
+  {
+   "q": "Complétez : « Elle s'est ... les mains avant de passer à table. » (verbe laver)",
+   "choix": [
+    "lavée",
+    "lavées",
+    "lavés",
+    "lavé"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le COD du verbe est ici « les mains », placé après le participe : il n'y a donc pas d'accord. Le pronom « se » n'est qu'un complément second, indiquant à qui appartiennent les mains. Si l'on écrit « elle s'est lavée », sans autre complément, le pronom devient COD et l'accord se fait. On obtient la même opposition avec « elle s'est coupée » et « elle s'est coupé le doigt ». C'est l'un des rares cas où l'ordre des mots suffit à décider de l'accord."
+  },
+  {
+   "q": "Laquelle de ces quatre phrases est correctement orthographiée ?",
+   "choix": [
+    "Elle a de grands yeux marrons.",
+    "Elle a de grands yeux marron.",
+    "Elle a de grands yeux marrones.",
+    "Elle a de grands yeux marronts."
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Les adjectifs de couleur issus d'un nom de chose restent invariables : marron, orange, citron, turquoise, kaki, ocre. On écrit donc des yeux marron, des rideaux orange, des gants kaki. Deux exceptions sont entrées dans l'usage et s'accordent comme de vrais adjectifs : rose, mauve, pourpre, écarlate et fauve. Par ailleurs, les couleurs composées restent elles aussi invariables : des chemises bleu clair, des robes vert pomme. Les adjectifs de couleur ordinaires s'accordent normalement : des yeux verts, des cheveux blancs."
+  },
+  {
+   "q": "Comment écrit-on correctement les nombres 80 puis 82 ?",
+   "choix": [
+    "quatre-vingt et quatre-vingts-deux",
+    "quatre-vingts et quatre-vingts-deux",
+    "quatre-vingt et quatre-vingt-deux",
+    "quatre-vingts et quatre-vingt-deux"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "« Vingt » et « cent » prennent un s quand ils sont multipliés et qu'aucun autre nombre ne les suit : quatre-vingts, deux cents. Dès qu'un élément vient après, le s disparaît : quatre-vingt-deux, deux cent trois. « Mille » est toujours invariable, car il vient d'un pluriel latin, milia. Depuis les rectifications de 1990, on peut relier tous les éléments par des traits d'union, y compris « vingt-et-un », alors que l'usage traditionnel écrit « vingt et un » sans traits autour de la conjonction. Les deux graphies sont admises."
+  },
+  {
+   "q": "Complétez : « La maison qu'il a ... construire est immense. » (verbe faire)",
+   "choix": [
+    "fait",
+    "faite",
+    "faits",
+    "faites"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le participe passé du verbe « faire » suivi d'un infinitif est toujours invariable, quelle que soit la place du complément. On écrit donc « la maison qu'il a fait construire », « elle s'est fait mal », « ils se sont fait avoir ». La justification est que le groupe « fait construire » forme une seule unité verbale, comme un semi-auxiliaire. Pour « laissé » suivi d'un infinitif, l'usage traditionnel accordait selon la même règle que « vu » et « entendu » ; les rectifications de 1990 recommandent de le rendre invariable en toutes circonstances, et les deux usages coexistent aujourd'hui. Retenir que « fait » ne varie jamais devant un infinitif évite déjà beaucoup d'erreurs."
+  },
+  {
+   "q": "Le mot « travail » est rattaché au bas latin tripalium. Que désignait ce mot ?",
+   "choix": [
+    "Un champ cultivé",
+    "Un impôt seigneurial",
+    "Un instrument formé de trois pieux",
+    "Un atelier d'artisan"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le tripalium, formé de tri-, « trois », et palus, « pieu », désignait un appareil à trois montants servant à immobiliser les animaux difficiles, et employé aussi comme instrument de supplice. Le verbe roman qui en dérive a d'abord signifié « tourmenter », sens que garde encore l'expression « les travaux d'une accouchée ». Le sens moderne d'activité productive ne s'impose que progressivement à la fin du Moyen Âge. Cette étymologie, retenue par les dictionnaires de référence, explique la coloration pénible attachée au mot. Le mot « travail » au sens de dispositif de contention existe d'ailleurs toujours dans le vocabulaire vétérinaire, avec le pluriel « travails »."
+  },
+  {
+   "q": "Le mot « salaire » vient du latin salarium. Que désignait-il à l'origine ?",
+   "choix": [
+    "Une solde militaire annuelle",
+    "Une somme destinée à acheter du sel",
+    "Un contrat écrit",
+    "Une récompense honorifique"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Salarium est dérivé de sal, « le sel », denrée précieuse dans l'Antiquité parce qu'elle servait à conserver les aliments. Le mot désignait la ration ou l'indemnité de sel versée notamment aux soldats et aux fonctionnaires romains. Par élargissement, il en est venu à nommer toute rémunération régulière d'un service. Le français a conservé la racine dans « saler », « salé », « saumure » et « salaison ». On rencontre parfois l'affirmation que les légionnaires étaient payés en sel : le mécanisme exact est discuté par les historiens, mais le lien du mot avec le sel n'est pas contesté."
+  },
+  {
+   "q": "Le latin candidus, qui a donné « candidat », signifie :",
+   "choix": [
+    "élu",
+    "blanc",
+    "digne",
+    "ardent"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "À Rome, celui qui briguait une magistrature se présentait vêtu d'une toge blanchie à la craie, la toga candida, signe de la pureté de ses intentions. Le mot candidatus désignait donc littéralement l'homme vêtu de blanc. La même racine a donné « candeur » et « candide », qui gardent l'idée de blancheur morale, ainsi que « incandescent », lié à la blancheur du métal chauffé. C'est un bel exemple de mot dont le sens concret d'origine a totalement disparu de la conscience des locuteurs. Le mot est emprunté au latin à la Renaissance, non hérité par voie populaire."
+  },
+  {
+   "q": "D'où vient le mot « poubelle » ?",
+   "choix": [
+    "D'un mot d'argot parisien",
+    "D'un mot italien signifiant panier",
+    "Du latin pubella",
+    "Du nom du préfet Eugène Poubelle"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "Eugène Poubelle, préfet de la Seine, impose par un arrêté de 1884 aux propriétaires parisiens de fournir à leurs locataires des récipients fermés pour les ordures ménagères. La mesure est d'abord tournée en dérision par la presse, qui baptise l'objet du nom de son promoteur. L'antonomase, c'est-à-dire le passage d'un nom propre au nom commun, s'installe si bien que l'origine est vite oubliée. Le même phénomène a donné « silhouette », « guillotine », « macadam », « barème » ou « sandwich ». Le mot est aujourd'hui parfaitement lexicalisé et s'écrit sans majuscule."
+  },
+  {
+   "q": "Le mot « silhouette » vient du nom d'Étienne de Silhouette. Quelle était sa fonction ?",
+   "choix": [
+    "Contrôleur général des finances de Louis XV",
+    "Peintre de cour",
+    "Graveur sur bois",
+    "Ministre des Beaux-Arts"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Étienne de Silhouette occupe le poste de contrôleur général des finances quelques mois en 1759 et impose une politique d'économies très impopulaire. Son nom devient synonyme de tout ce qui est fait au rabais, y compris ces portraits d'ombre découpés dans du papier noir, alors à la mode et bon marché. Le mot passe ensuite du portrait d'ombre au contour d'un corps, sens dominant aujourd'hui. C'est un exemple d'antonomase née d'une moquerie politique. L'origine du surnom reste discutée dans le détail, mais le lien avec le personnage est bien établi."
+  },
+  {
+   "q": "Le mot « denim », qui désigne la toile du jean, viendrait de quelle expression ?",
+   "choix": [
+    "Un nom de tailleur anglais",
+    "La ville de Gênes",
+    "Serge de Nîmes",
+    "Le grec demnion"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "La serge de Nîmes était une étoffe de laine et de soie tissée dans le Languedoc et exportée vers l'Angleterre, où l'expression s'est agglutinée en denim. Le mot « jean », lui, vient d'une autre ville : Gênes, dont le nom se disait Gênes ou Jane en ancien français et Genoa en anglais, et dont la toile de coton habillait les marins. Ces deux mots, revenus en français par l'anglais, sont des emprunts en retour. Les historiens du textile discutent les détails de la filiation entre les deux étoffes, mais la piste nîmoise est celle que retiennent les dictionnaires. Un même vêtement porte donc les noms de deux villes."
+  },
+  {
+   "q": "Le mot anglais « budget » a été emprunté à un mot d'ancien français. Lequel ?",
+   "choix": [
+    "bougette, une petite bourse",
+    "bouger",
+    "budgeter",
+    "boujon"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "La bougette, diminutif de « bouge » qui désignait un sac de cuir, était la petite bourse que l'on portait à la ceinture. Le mot passe en anglais au Moyen Âge sous la forme bougett, puis budget, et prend le sens administratif de l'ensemble des recettes et des dépenses. Le français le réemprunte à l'anglais au début du XIXe siècle sans reconnaître son propre mot. On appelle ce trajet un emprunt en retour ou aller-retour lexical. Le même phénomène concerne « tunnel », issu du français « tonnelle », et « tennis », que l'on rattache généralement à l'impératif « tenez »."
+  },
+  {
+   "q": "Lequel de ces mots français vient de l'arabe ?",
+   "choix": [
+    "Algue",
+    "Algèbre",
+    "Alliage",
+    "Allée"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "« Algèbre » vient de l'arabe al-jabr, « la réduction », terme employé par le mathématicien al-Khwarizmi dans le titre de son traité du IXe siècle ; le nom du savant a par ailleurs donné « algorithme ». Le français compte plusieurs centaines de mots d'origine arabe, souvent transmis par l'espagnol, l'italien ou le latin médiéval : alcool, zéro, chiffre, azur, sucre, coton, matelas, magasin, amiral, girafe. L'article défini arabe al- est resté soudé dans beaucoup d'entre eux. « Algue » vient au contraire du latin alga, et « alliage » du latin alligare. L'apparence du mot ne suffit donc pas à trancher : il faut vérifier."
+  },
+  {
+   "q": "Le mot « hasard » vient de l'arabe az-zahr. Que désignait ce mot ?",
+   "choix": [
+    "La chance",
+    "Le destin écrit",
+    "Le jeu d'échecs",
+    "Le dé à jouer"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Az-zahr désignait le dé, et le mot est passé en français par l'espagnol azar au temps des croisades. Le hasard a donc d'abord nommé un jeu de dés, avant de désigner le coup imprévisible puis l'imprévisible en général. La graphie avec un z conservé dans l'espagnol azar rappelle l'origine. On retrouve la même famille sémantique dans « aléa », emprunté au latin alea, qui désignait lui aussi le dé. La formule « les jeux de hasard » conserve donc, sans qu'on y pense, son sens premier."
+  },
+  {
+   "q": "Lequel de ces quatre mots est d'origine gauloise ?",
+   "choix": [
+    "Maison",
+    "Route",
+    "Chêne",
+    "Village"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le gaulois n'a légué au français qu'une centaine de mots courants, essentiellement liés à la terre, aux arbres et aux animaux : chêne, bouleau, if, bruyère, alouette, mouton, charrue, soc, tonneau, caillou, chemin. « Maison » vient du latin mansionem, « route » de rupta via, la voie percée, et « village » de villa. La faible empreinte du gaulois s'explique par la romanisation rapide de la Gaule après la conquête de César. L'héritage celtique est en revanche massif dans les noms de lieux et de rivières. On estime le stock gaulois entre cent et cent cinquante mots selon les décomptes."
+  },
+  {
+   "q": "Le mot « guerre » vient :",
+   "choix": [
+    "Du latin bellum",
+    "Du grec polemos",
+    "Du gaulois catu",
+    "Du francique werra"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "Après les invasions, les Francs ont laissé environ quatre cents mots au français, surtout dans les domaines de la guerre, du droit et de la vie rurale : guerre, garder, guetter, gant, heaume, éperon, jardin, haie, blesser, honte, orgueil, riche, gagner, ainsi que les couleurs bleu, blanc, gris et brun. Le w initial germanique n'existait pas en gallo-roman : il a été rendu par gu-, d'où werra qui donne guerre et wardon qui donne garder. C'est pourquoi le français a « guerre » quand l'anglais, qui a emprunté au normand, a war. Le latin bellum n'a survécu que dans des mots savants comme « belliqueux » ou « belligérant ». Ce dépôt germanique est ce que les linguistes appellent un superstrat."
+  },
+  {
+   "q": "« Hôtel » et « hôpital » forment un doublet issu du même mot latin. Lequel ?",
+   "choix": [
+    "hostis",
+    "hospitale",
+    "hospitium",
+    "hostellum"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Un doublet réunit deux mots français issus d'un même étymon, l'un par voie populaire, l'autre par emprunt savant. Hospitale, « lieu où l'on reçoit des hôtes », a donné par usure phonétique ancien français ostel puis « hôtel », l'accent circonflexe signalant le s disparu. Emprunté plus tard directement au latin par les clercs, le même mot a donné « hôpital », qui reste plus proche de la forme d'origine. Le français compte des centaines de doublets : frêle et fragile, poison et potion, chétif et captif, écouter et ausculter, métier et ministère, essaim et examen. Le mot savant est toujours le plus proche du latin, le mot populaire le plus déformé."
+  },
+  {
+   "q": "« Poison » et « potion » viennent d'un même mot latin. Lequel ?",
+   "choix": [
+    "venenum",
+    "poculum",
+    "potionem",
+    "pocionis"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Potionem signifiait simplement « boisson, breuvage ». Par voie populaire, le mot a abouti à « poison », qui s'est spécialisé dans le sens du breuvage qui tue. Emprunté ensuite directement au latin par la langue médicale, il a donné « potion », le breuvage qui soigne. Le même étymon a donc produit deux mots aux valeurs presque opposées, ce qui montre à quel point le sens dérive au fil des siècles. Le latin venenum, qui désignait le poison, a de son côté donné « venin ». Le doublet potion / poison est l'un des plus commentés de la lexicologie française."
+  },
+  {
+   "q": "D'où vient l'expression « revenons à nos moutons » ?",
+   "choix": [
+    "De La Farce de Maître Pathelin",
+    "D'une fable de La Fontaine",
+    "D'un proverbe paysan du Moyen Âge",
+    "D'un sermon de Bossuet"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Cette farce anonyme du XVe siècle met en scène un procès où un berger est accusé d'avoir volé des moutons. L'avocat Pathelin embrouille les débats en y mêlant une affaire de drap, si bien que le juge, excédé, ramène tout le monde au sujet en réclamant qu'on revienne à ces moutons. La réplique est passée telle quelle dans la langue courante pour signifier qu'il est temps de reprendre le fil. C'est l'une des rares expressions françaises dont on connaît avec certitude le texte source. La Farce de Maître Pathelin est aussi l'un des premiers grands textes comiques en français."
+  },
+  {
+   "q": "Dans l'expression « à la queue leu leu », que signifie le mot « leu » ?",
+   "choix": [
+    "Loup",
+    "File",
+    "Lieu",
+    "Lien"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "« Leu » est la forme d'ancien français du mot loup, encore visible dans des noms propres comme Saint-Leu. La construction d'origine était « à la queue le leu », c'est-à-dire à la queue du loup, l'ancienne langue pouvant marquer la possession sans préposition, comme dans « Hôtel-Dieu » ou « fête-Dieu ». L'image est celle des loups qui se déplacent en file, chacun suivant la trace du précédent. La répétition de « leu » vient d'une réanalyse tardive de la formule, devenue opaque. L'expression est un fossile grammatical autant que lexical."
+  },
+  {
+   "q": "Dans « avoir maille à partir avec quelqu'un », que signifie le verbe « partir » ?",
+   "choix": [
+    "S'en aller",
+    "Échanger",
+    "Compter",
+    "Partager"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "En ancien français, « partir » signifiait diviser, sens conservé dans « partage », « partition » et dans l'expression « avoir maille à partir ». La maille était une monnaie de très faible valeur, un demi-denier, réputée impossible à couper en deux. Avoir maille à partir, c'est donc avoir à se partager une pièce indivisible, situation qui ne peut se régler que par une dispute. L'expression a gardé le sens de « être en conflit » alors que ses deux mots ont changé de sens ou disparu. On retrouve la maille dans « n'avoir ni sou ni maille »."
+  },
+  {
+   "q": "De quel texte vient l'expression « tirer les marrons du feu » ?",
+   "choix": [
+    "D'une coutume de Noël",
+    "D'une fable de La Fontaine",
+    "D'un conte de Perrault",
+    "D'un ancien métier de confiseur"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "La fable Le Singe et le Chat met en scène un singe qui persuade un chat de retirer pour lui des marrons du feu : le chat se brûle les pattes et le singe mange les marrons. Au sens strict, tirer les marrons du feu signifie donc prendre tous les risques au profit d'un autre. L'usage moderne a largement inversé la formule, qui s'emploie souvent au sens de « tirer avantage d'une situation ». Les deux emplois se rencontrent aujourd'hui, et les dictionnaires signalent le glissement sans le condamner. L'exemple montre qu'une expression peut se retourner tout en gardant sa forme."
+  },
+  {
+   "q": "Dans « sans coup férir », que signifie le verbe « férir » ?",
+   "choix": [
+    "Fuir",
+    "Céder",
+    "Frapper",
+    "Crier"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "« Férir » vient du latin ferire, « frapper », et a disparu du français courant à l'exception de cette locution et du participe « féru ». Sans coup férir signifie donc sans avoir eu besoin de porter un seul coup, c'est-à-dire sans rencontrer de résistance. Le participe « féru » a gardé le sens figuré d'être frappé par une passion : être féru d'histoire. La même racine se retrouve dans le mot savant « férule ». Les locutions figées sont ainsi de véritables conservatoires de mots disparus."
+  },
+  {
+   "q": "Que signifie rigoureusement l'expression « faire long feu » ?",
+   "choix": [
+    "Durer très longtemps",
+    "Prendre feu rapidement",
+    "S'emporter violemment",
+    "Échouer, ne pas produire l'effet attendu"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "L'expression vient des armes à feu anciennes : quand la poudre brûlait trop lentement, le coup ne partait pas et l'on disait que l'arme faisait long feu. Faire long feu signifie donc rater son effet, et non durer. La confusion est entretenue par la locution voisine « ne pas faire long feu », qui signifie ne pas durer, et qui n'est pas la négation logique de la première. Les dictionnaires enregistrent aujourd'hui les deux emplois, tout en rappelant le sens d'origine. C'est un cas où l'usage majoritaire s'écarte de l'étymologie sans qu'on puisse parler de faute caractérisée."
+  },
+  {
+   "q": "De quel mot « meuf » est-il le verlan ?",
+   "choix": [
+    "Femme",
+    "Mœurs",
+    "Meute",
+    "Muflée"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le verlan inverse les syllabes d'un mot : femme se prononce fam, se découpe en fa-me, et donne me-fa, réduit à meuf. Le nom même de ce procédé est le verlan de « l'envers ». Le mécanisme est ancien dans la langue, mais sa diffusion massive date des années 1970 et 1980, portée par la banlieue parisienne puis par le rap. Certains mots ont même été verlanisés deux fois, comme « beur », verlan d'arabe, redevenu « rebeu ». Le verlan est un argot à clé : il chiffre les mots plutôt que d'en inventer."
+  },
+  {
+   "q": "De quel mot « ripou » est-il le verlan ?",
+   "choix": [
+    "Ripaille",
+    "Roupie",
+    "Pourri",
+    "Poubelle"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Ripou est la forme verlanisée de pourri, popularisée par le film Les Ripoux de Claude Zidi en 1984. Le mot désigne un policier corrompu, et son pluriel s'écrit indifféremment ripous ou ripoux, cette dernière graphie étant la plus répandue. Il illustre le passage du verlan de l'argot des cités à la langue générale, phénomène qui lui fait souvent perdre sa fonction cryptique. D'autres exemples suivent le même chemin : keuf pour flic, teuf pour fête, relou pour lourd, chelou pour louche. Une fois compris de tous, un mot de verlan cesse d'être un code."
+  },
+  {
+   "q": "Comment appelle-t-on l'argot codé traditionnellement attribué aux bouchers parisiens ?",
+   "choix": [
+    "Le javanais",
+    "Le louchébem",
+    "Le verlan",
+    "Le joual"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Le louchébem est un argot à clé qui remplace la première consonne d'un mot par un l, la rejette à la fin et y ajoute un suffixe : boucher devient louchébem, fou devient loufoque. Le mot « loufoque », passé dans la langue courante, en est le témoin le plus visible. Le javanais est un autre argot à clé, qui insère une syllabe parasite comme av ou va à l'intérieur des mots. Le joual, lui, n'est pas un argot codé mais un parler populaire québécois. Ces procédés reposent tous sur une transformation régulière de la forme des mots plutôt que sur un vocabulaire secret."
+  },
+  {
+   "q": "En Belgique et en Suisse romande, que signifie « septante » ?",
+   "choix": [
+    "Soixante-dix",
+    "Soixante-sept",
+    "Soixante",
+    "Soixante-quinze"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Septante, octante et nonante sont les formes régulières héritées du latin septuaginta, octoginta et nonaginta. Le français de France leur a préféré à partir du XVIIe siècle un comptage partiellement vicésimal, c'est-à-dire par vingtaines : soixante-dix, quatre-vingts, quatre-vingt-dix. La Belgique et la Suisse romande ont conservé septante et nonante, mais disent comme la France quatre-vingts, à l'exception de certains cantons suisses. Ces formes ne sont pas des fautes : elles figurent dans les dictionnaires et sont enseignées à l'école dans ces pays. Elles sont aussi employées dans plusieurs régions de France et au Congo."
+  },
+  {
+   "q": "Dans quelle aire francophone dit-on couramment « huitante » pour 80 ?",
+   "choix": [
+    "En Belgique",
+    "Au Québec",
+    "En Suisse romande",
+    "Au Luxembourg"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Huitante est employé dans les cantons de Vaud, du Valais et de Fribourg, où il concurrence quatre-vingts. La Belgique francophone, elle, dit septante et nonante mais quatre-vingts, ce qui surprend souvent. On rencontre aussi la forme ancienne octante, aujourd'hui très rare et perçue comme archaïque. Le Québec, malgré son isolement précoce, suit sur ce point l'usage de France. Ces variantes rappellent qu'il n'existe pas un français unique mais un ensemble de normes régionales également légitimes."
+  },
+  {
+   "q": "Le mot « courriel », proposé pour remplacer l'anglicisme e-mail, a été forgé :",
+   "choix": [
+    "En France par l'Académie",
+    "En Belgique",
+    "En Suisse",
+    "Au Québec"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le mot est un mot-valise formé de « courrier » et « électronique », créé et diffusé par l'Office québécois de la langue française. La France l'a officiellement recommandé en 2003 par une publication au Journal officiel, longtemps après son adoption au Canada. Le Québec a produit d'autres néologismes largement repris : clavardage pour le chat, pourriel pour le spam, baladodiffusion pour le podcast. Cette politique s'appuie sur la Charte de la langue française de 1977, dite loi 101, qui fait du français la seule langue officielle de la province. La vitalité terminologique québécoise s'explique par la pression constante de l'anglais nord-américain."
+  }
+ ],
+ "cours": [
+  {
+   "titre": "Naissance et histoire de la langue française",
+   "sections": [
+    {
+     "titre": "Un latin de soldats et de marchands",
+     "texte": "Le français n'est pas né du latin des orateurs et des poètes, mais du latin parlé que les légionnaires, les commerçants et les fonctionnaires ont apporté en Gaule après la conquête de César, achevée en 51 avant notre ère. Ce latin parlé, que les linguistes appellent latin vulgaire, ignorait déjà en partie les subtilités de la langue écrite : il simplifiait les déclinaisons, préférait les prépositions aux cas, remplaçait des mots savants par des mots familiers. C'est ainsi que le latin equus, le cheval des textes classiques, a disparu au profit de caballus, le canasson des soldats, qui a donné cheval. De même, os a cédé la place à bucca, la bouche, et ignis à focus, le foyer, devenu feu. Les langues gauloises reculent lentement devant ce latin, sans disparaître d'un coup : on les parle encore dans les campagnes plusieurs siècles après la conquête. Le gaulois n'a finalement légué au français qu'une centaine de mots courants, presque tous liés à la terre et à la forêt : chêne, bouleau, if, bruyère, alouette, mouton, charrue, soc, tonneau, caillou, chemin. Son empreinte est en revanche massive dans les noms de lieux et de rivières. Ce latin transformé devient, du Ve au IXe siècle, une langue nouvelle que l'on nomme le gallo-roman, puis, dans le nord du pays, la langue d'oïl.",
+     "visuels": [
+      {
+       "type": "frise",
+       "titre": "Douze siècles de langue française",
+       "evenements": [
+        {
+         "date": "51 av. J.-C.",
+         "label": "Fin de la conquête de la Gaule",
+         "texte": "Le latin parlé se diffuse peu à peu"
+        },
+        {
+         "date": "842",
+         "label": "Serments de Strasbourg",
+         "texte": "Premier texte conservé en langue romane"
+        },
+        {
+         "date": "vers 1100",
+         "label": "Chanson de Roland",
+         "texte": "Apogée de l'ancien français"
+        },
+        {
+         "date": "XIVe siècle",
+         "label": "Chute de la déclinaison",
+         "texte": "Le moyen français fixe l'ordre des mots"
+        },
+        {
+         "date": "1539",
+         "label": "Ordonnance de Villers-Cotterêts",
+         "texte": "Le français langue de la justice"
+        },
+        {
+         "date": "1635",
+         "label": "Fondation de l'Académie française",
+         "texte": "La norme devient une institution"
+        },
+        {
+         "date": "1794",
+         "label": "Rapport de l'abbé Grégoire",
+         "texte": "Politique d'unification linguistique"
+        },
+        {
+         "date": "1990",
+         "label": "Rectifications orthographiques",
+         "texte": "Deux graphies désormais admises"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "842 : les Serments de Strasbourg",
+     "texte": "Le 14 février 842, deux petits-fils de Charlemagne, Charles le Chauve et Louis le Germanique, se retrouvent à Strasbourg pour sceller une alliance contre leur frère aîné Lothaire. Le problème est pratique : les troupes de l'un ne comprennent pas la langue de l'autre. Chacun prête donc serment dans la langue des soldats adverses, Louis en langue romane, Charles en langue germanique, puis les deux armées jurent à leur tour dans leur propre langue. Un chroniqueur, Nithard, lui aussi petit-fils de Charlemagne, a transcrit ces serments dans son récit latin des querelles entre les fils de Louis le Pieux. C'est ce document qui fait des Serments le plus ancien texte conservé écrit dans une langue romane. Le texte commence par la formule « Pro Deo amur et pro christian poblo et nostro commun salvament », que l'on peut rendre par « Pour l'amour de Dieu et pour le peuple chrétien et notre salut commun ». On y reconnaît des mots familiers, amur, poblo, salvament, mais la langue n'est plus du latin : les terminaisons ont fondu, la syntaxe a changé. On parle souvent d'acte de naissance du français, formule commode mais qu'il faut nuancer : ce roman n'est pas encore le français, et il était parlé depuis longtemps avant d'être écrit. Le premier texte littéraire en langue romane, la Séquence de sainte Eulalie, date des environs de 880.",
+     "visuels": [
+      {
+       "type": "image",
+       "image": "lf-serments-strasbourg",
+       "legende": "Le passage des Serments de Strasbourg dans le manuscrit du chroniqueur Nithard, conservé à la Bibliothèque nationale de France.",
+       "alt": "Page de manuscrit médiéval en écriture caroline, texte latin dense sur deux paragraphes, avec quelques lignes en langue romane"
+      }
+     ]
+    },
+    {
+     "titre": "L'ancien français, une langue à déclinaisons",
+     "texte": "L'ancien français, parlé du IXe au XIVe siècle environ, surprend le lecteur moderne : c'est une langue qui décline encore ses noms. Elle conserve du latin deux cas, hérités du nominatif et de l'accusatif. Le cas sujet sert pour le sujet et l'attribut, le cas régime pour tout le reste, complément d'objet ou complément de nom. On dit ainsi li murs quand le mur est sujet, mais le mur quand il est complément. Cette souplesse permettait des ordres de mots impossibles aujourd'hui, puisque la forme du nom suffisait à indiquer sa fonction. La déclinaison s'effondre au cours du XIVe siècle, à mesure que les consonnes finales cessent d'être prononcées et que le s ne se distingue plus à l'oreille. Le français doit alors compenser cette perte par un ordre des mots rigide, sujet-verbe-complément, qui est resté sa marque de fabrique. Quelques doublets modernes gardent la trace du système : on et homme viennent l'un du cas sujet, l'autre du cas régime de homo ; il en va de même pour sire et seigneur, gars et garçon, pâtre et pasteur, copain et compagnon. L'ancien français prononçait aussi ce qu'il écrivait, diphtongues comprises : le mot roi se disait à peu près roï, et les lettres finales de mes amis s'entendaient toutes. Il ne s'agissait pas d'une langue unique mais d'un ensemble de dialectes d'oïl, picard, normand, champenois, francien.",
+     "visuels": [
+      {
+       "type": "tableau",
+       "titre": "La déclinaison à deux cas de l'ancien français",
+       "colonnes": [
+        "Fonction",
+        "Singulier",
+        "Pluriel",
+        "Vestige moderne"
+       ],
+       "lignes": [
+        [
+         "Cas sujet",
+         "li murs",
+         "li mur",
+         "on (de homo)"
+        ],
+        [
+         "Cas régime",
+         "le mur",
+         "les murs",
+         "homme (de hominem)"
+        ],
+        [
+         "Cas sujet",
+         "li ber",
+         "li baron",
+         "sire, gars, pâtre"
+        ],
+        [
+         "Cas régime",
+         "le baron",
+         "les barons",
+         "seigneur, garçon, pasteur"
+        ]
+       ],
+       "note": "C'est le cas régime qui l'a presque toujours emporté : le pluriel français en -s en descend directement."
+      }
+     ]
+    },
+    {
+     "titre": "Du moyen français au français classique",
+     "texte": "Entre le XIVe et le XVIe siècle, le moyen français se dépouille de ses déclinaisons et s'enrichit d'un vocabulaire savant puisé directement dans le latin et le grec par les clercs et les traducteurs. C'est l'époque où se constituent les doublets, ces couples de mots issus d'un même étymon dont l'un a vieilli dans la bouche des gens et l'autre a été emprunté tout neuf aux livres : hôtel et hôpital, frêle et fragile, poison et potion, écouter et ausculter. La Renaissance ajoute environ deux mille mots venus d'Italie, dans les domaines de la guerre, de la banque, de l'architecture et de la musique : soldat, banque, banqueroute, balcon, façade, esquisse, sonate, carnaval. En 1539, l'ordonnance de Villers-Cotterêts impose le français dans les actes de justice, décision qui vise d'abord à chasser le latin des tribunaux. En 1549, la Deffence et illustration de la langue françoyse de Du Bellay revendique pour le français la dignité d'une langue littéraire. Le XVIIe siècle prend ensuite le contrepied de cette exubérance : Malherbe, Vaugelas et l'Académie française, fondée par Richelieu en 1635, trient, épurent et codifient. On rejette les mots trop crus, les archaïsmes, les régionalismes ; on érige en modèle le bon usage, défini par Vaugelas comme la façon de parler de la plus saine partie de la cour. Le français classique gagne en clarté ce qu'il perd en liberté.",
+     "visuels": [
+      {
+       "type": "comparaison",
+       "titre": "Deux moments opposés de la langue",
+       "colonnes": [
+        {
+         "titre": "XVIe siècle : l'expansion",
+         "points": [
+          "On emprunte massivement au latin, au grec, à l'italien",
+          "Rabelais invente des mots par centaines",
+          "Du Bellay défend l'enrichissement du français",
+          "L'orthographe est encore très flottante"
+         ]
+        },
+        {
+         "titre": "XVIIe siècle : la mise en ordre",
+         "points": [
+          "Malherbe et Vaugelas trient et proscrivent",
+          "L'Académie française codifie à partir de 1635",
+          "Le bon usage devient la référence unique",
+          "Le vocabulaire littéraire se restreint volontairement"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Le français moderne et la question de la norme",
+     "texte": "La Révolution transforme la langue en affaire politique. En 1794, l'abbé Grégoire remet un rapport intitulé Sur la nécessité et les moyens d'anéantir les patois et d'universaliser l'usage de la langue française : il estime alors qu'une minorité seulement des habitants du pays parle couramment le français. L'école de la Troisième République, avec les lois scolaires des années 1880, achève ce travail d'unification, souvent au prix d'une répression active des langues régionales. Au XXe siècle, le français cesse d'être la langue diplomatique dominante, concurrencé par l'anglais, mais son nombre de locuteurs augmente fortement grâce à l'Afrique. La question de la norme, elle, ne cesse de se poser. Les rectifications orthographiques publiées au Journal officiel en 1990 proposent une série d'aménagements limités ; l'Académie française a précisé qu'aucune des deux graphies, ancienne ou nouvelle, ne peut être tenue pour fautive. La féminisation des noms de métiers a suivi un chemin comparable : longtemps combattue par l'Académie, elle a fait l'objet en 2019 d'un rapport favorable adopté par l'institution, alors que l'usage l'avait déjà largement adoptée au Québec, en Belgique et en Suisse. Ces débats montrent que la langue n'appartient à aucune autorité en particulier : les institutions constatent et recommandent bien plus qu'elles ne décrètent, et c'est l'usage collectif qui tranche à la longue."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Quel peuple germanique a laissé au français environ quatre cents mots, dont guerre, jardin et blanc ?",
+     "choix": [
+      "Les Francs",
+      "Les Wisigoths",
+      "Les Vikings",
+      "Les Burgondes"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "L'installation des Francs en Gaule du Nord a déposé sur le gallo-roman ce que les linguistes appellent un superstrat : une couche de vocabulaire laissée par une langue de conquérants qui a fini par s'effacer. On leur doit des mots de guerre et de droit (guerre, garder, guetter, heaume, éperon), de vie rurale (jardin, haie, hameau, marais) et des couleurs (blanc, bleu, gris, brun). Le son w initial du germanique, inconnu du gallo-roman, a été rendu par gu-, ce qui explique que werra ait donné guerre. Les Vikings ont laissé un vocabulaire maritime en Normandie, mais bien moins abondant. Le nom même de la France vient de celui des Francs."
+    },
+    {
+     "q": "Que désigne le terme « langue d'oïl » ?",
+     "choix": [
+      "La langue de l'Église médiévale",
+      "L'ensemble des parlers romans du nord de la France",
+      "Le parler de la seule ville de Paris",
+      "Le latin des chancelleries"
+     ],
+     "bonne": 1,
+     "difficulte": 2,
+     "explication": "Oïl et oc sont deux façons de dire oui, la première au nord, la seconde au sud ; Dante lui-même classait ainsi les langues romanes. La langue d'oïl regroupe des dialectes comme le picard, le normand, le champenois, le wallon et le francien, parlé en Île-de-France. C'est ce dernier qui, pour des raisons politiques liées au pouvoir royal, est devenu la base du français commun. Les parlers d'oc, plus proches du latin, forment de leur côté l'occitan. Le franco-provençal, dans l'est et en Suisse romande, constitue un troisième ensemble."
+    },
+    {
+     "q": "Pourquoi le français a-t-il un ordre des mots très rigide ?",
+     "choix": [
+      "Parce que l'Académie française l'a imposé",
+      "Parce que le gaulois fonctionnait ainsi",
+      "Parce que l'imprimerie exigeait une syntaxe fixe",
+      "Parce que la perte des déclinaisons a supprimé les marques de fonction"
+     ],
+     "bonne": 3,
+     "difficulte": 3,
+     "explication": "Tant que l'ancien français distinguait un cas sujet et un cas régime, la forme du nom indiquait sa fonction et l'ordre des mots restait libre. Quand les consonnes finales ont cessé d'être prononcées, cette distinction est devenue inaudible, et la déclinaison s'est effondrée au XIVe siècle. Le français a alors dû confier à la position des mots ce que la morphologie ne disait plus : sujet, verbe, complément. C'est pourquoi « le chat mange la souris » et « la souris mange le chat » n'ont pas le même sens, là où le latin pouvait permuter librement. Cette évolution est commune à plusieurs langues romanes."
+    },
+    {
+     "q": "Quel académicien du XVIIe siècle a défini le bon usage comme la façon de parler de la plus saine partie de la cour ?",
+     "choix": [
+      "Claude Favre de Vaugelas",
+      "François de Malherbe",
+      "Nicolas Boileau",
+      "Antoine Furetière"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "Vaugelas publie en 1647 ses Remarques sur la langue françoise, recueil d'observations qui a durablement orienté la norme. Sa définition du bon usage repose sur l'imitation d'un groupe social restreint, la cour, corrigée par le jugement des bons auteurs. Malherbe, un peu plus tôt, avait mené le même travail d'épuration, mais sans traité systématique. Boileau a codifié la poétique dans son Art poétique de 1674, non la langue elle-même. Furetière, académicien exclu pour avoir publié son propre dictionnaire, illustre les tensions de l'époque autour de l'autorité linguistique."
+    },
+    {
+     "q": "En quelle année l'abbé Grégoire remet-il son rapport sur les patois ?",
+     "choix": [
+      "1789",
+      "1804",
+      "1794",
+      "1830"
+     ],
+     "bonne": 2,
+     "difficulte": 2,
+     "explication": "Le rapport est présenté à la Convention en juin 1794, en pleine Révolution, sous le titre Sur la nécessité et les moyens d'anéantir les patois et d'universaliser l'usage de la langue française. Il s'appuie sur une enquête envoyée aux quatre coins du pays et conclut qu'une part importante de la population ne comprend pas la langue des lois. Pour les révolutionnaires, l'unité linguistique est une condition de l'égalité entre citoyens. Cette politique, poursuivie par l'école de la Troisième République, a réduit fortement l'usage des langues régionales. Elle est aujourd'hui relue de façon critique, sans que l'objectif d'accès égal à la langue commune soit contesté."
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Histoire de la langue française",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_la_langue_fran%C3%A7aise"
+    },
+    {
+     "titre": "Serments de Strasbourg",
+     "url": "https://fr.wikipedia.org/wiki/Serments_de_Strasbourg"
+    },
+    {
+     "titre": "Ancien français",
+     "url": "https://fr.wikipedia.org/wiki/Ancien_fran%C3%A7ais"
+    },
+    {
+     "titre": "Ordonnance de Villers-Cotterêts",
+     "url": "https://fr.wikipedia.org/wiki/Ordonnance_de_Villers-Cotter%C3%AAts"
+    }
+   ]
+  },
+  {
+   "titre": "Orthographe et accords : les pièges du français",
+   "sections": [
+    {
+     "titre": "Pourquoi l'orthographe française est-elle si difficile ?",
+     "texte": "L'orthographe française n'est pas compliquée par caprice : elle est le résultat d'une histoire. Le français s'est écrit d'abord avec l'alphabet latin, mal adapté à ses sons ; puis la prononciation a beaucoup évolué alors que la graphie bougeait peu, si bien que les lettres finales muettes du mot temps ou du mot doigt notent des états de langue disparus. À partir du XIVe siècle, les copistes et les imprimeurs ont ajouté des lettres pour rapprocher visuellement les mots de leur origine latine : le g de doigt vient de digitus, le p de corps de corpus. Certains de ces ajouts sont des erreurs : le d de poids résulte d'un rapprochement fautif avec le latin pondus, alors que le mot descend en réalité de pensum, et l'ancien français écrivait pois. L'accent circonflexe, généralisé au XVIIIe siècle, signale le plus souvent un s disparu : forêt et forestier, hôpital et hospitalier, île et insulaire. Certaines graphies sont franchement fautives du point de vue historique : nénuphar, mot d'origine persane passé par l'arabe, n'a aucune raison de porter un ph grec, et c'est pourquoi les rectifications de 1990 recommandent nénufar, sans interdire l'autre forme. À cette sédimentation s'ajoute la richesse des homophones : le français prononce de la même manière ver, vers, vert, verre, vair et Vert. L'orthographe sert alors à distinguer à l'œil ce que l'oreille ne sépare plus. C'est une raison de la respecter, mais aussi une raison de comprendre pourquoi elle résiste à toute simplification radicale.",
+     "visuels": [
+      {
+       "type": "tableau",
+       "titre": "Ce que raconte une lettre muette",
+       "colonnes": [
+        "Mot",
+        "Lettre en cause",
+        "Origine",
+        "Famille qui la révèle"
+       ],
+       "lignes": [
+        [
+         "doigt",
+         "g",
+         "latin digitus",
+         "digital, digitale"
+        ],
+        [
+         "corps",
+         "p",
+         "latin corpus",
+         "corporel, corpulent"
+        ],
+        [
+         "forêt",
+         "accent circonflexe",
+         "ancien français forest",
+         "forestier"
+        ],
+        [
+         "hôpital",
+         "accent circonflexe",
+         "latin hospitale",
+         "hospitalier"
+        ],
+        [
+         "temps",
+         "p et s",
+         "latin tempus",
+         "temporel"
+        ],
+        [
+         "nénuphar",
+         "ph",
+         "ajout erroné du XIXe siècle",
+         "graphie rectifiée : nénufar"
+        ]
+       ],
+       "note": "Chercher un mot de la même famille est le meilleur moyen de retrouver une lettre muette."
+      }
+     ]
+    },
+    {
+     "titre": "L'accord du participe passé",
+     "texte": "Trois situations, trois règles. Avec l'auxiliaire être, le participe s'accorde avec le sujet : elles sont parties, ils sont venus. Avec l'auxiliaire avoir, il ne s'accorde qu'avec le complément d'objet direct, et seulement si celui-ci est placé avant le verbe : j'ai écrit des lettres, mais les lettres que j'ai écrites. Avec les verbes pronominaux, il faut se demander quelle fonction remplit le pronom réfléchi. S'il est complément d'objet direct, l'accord se fait : elle s'est lavée, ils se sont rencontrés. S'il est complément indirect, il n'y a pas d'accord : elles se sont parlé, ils se sont succédé, elle s'est lavé les mains, puisque le complément direct est ici les mains. La règle a été introduite en français au XVIe siècle par le poète Clément Marot, qui l'avait observée en italien ; elle n'a donc rien d'une nécessité logique, et sa complexité a suscité de nombreux projets de simplification. Une tolérance ministérielle de 1976 admet plusieurs cas litigieux. Quelques participes restent invariables en toutes circonstances : coûté, valu, pesé, vécu, marché quand ils sont employés au sens propre avec un complément de mesure, comme dans les mille euros que ce voyage m'a coûté. Le participe du verbe faire suivi d'un infinitif est toujours invariable : la maison qu'il a fait construire, elle s'est fait mal.",
+     "visuels": [
+      {
+       "type": "etapes",
+       "titre": "Accorder un participe passé en trois questions",
+       "etapes": [
+        {
+         "label": "Quel auxiliaire ?",
+         "texte": "Être : accord avec le sujet, c'est terminé."
+        },
+        {
+         "label": "Y a-t-il un COD ?",
+         "texte": "Avec avoir, cherchez le complément d'objet direct : qui ? quoi ?"
+        },
+        {
+         "label": "Où est-il placé ?",
+         "texte": "Avant le verbe, on accorde avec lui ; après ou absent, on n'accorde pas."
+        },
+        {
+         "label": "Verbe pronominal ?",
+         "texte": "Demandez-vous si le pronom se est COD (accord) ou COI (pas d'accord)."
+        }
+       ]
+      },
+      {
+       "type": "tableau",
+       "titre": "Les cas que l'on rate le plus souvent",
+       "colonnes": [
+        "Phrase correcte",
+        "Pourquoi"
+       ],
+       "lignes": [
+        [
+         "Elle s'est lavée.",
+         "se est COD du verbe laver"
+        ],
+        [
+         "Elle s'est lavé les mains.",
+         "le COD est les mains, placé après"
+        ],
+        [
+         "Elles se sont parlé.",
+         "on parle à quelqu'un : se est COI"
+        ],
+        [
+         "Ils se sont succédé.",
+         "on succède à quelqu'un : se est COI"
+        ],
+        [
+         "La maison qu'il a fait construire.",
+         "fait suivi d'un infinitif est invariable"
+        ],
+        [
+         "Les fleurs que j'ai vues éclore.",
+         "les fleurs font l'action d'éclore"
+        ]
+       ],
+       "note": "Comparez la dernière ligne avec « les fleurs que j'ai vu planter » : là, les fleurs subissent l'action, donc pas d'accord."
+      }
+     ]
+    },
+    {
+     "titre": "Couleurs, nombres, tout et demi",
+     "texte": "Certains accords obéissent à des règles particulières qu'il vaut mieux connaître une fois pour toutes. Les adjectifs de couleur qui sont à l'origine des noms de choses restent invariables : des yeux marron, des rideaux orange, des gants kaki, des tissus turquoise. Font exception, parce que l'usage les a pleinement adjectivés, rose, mauve, pourpre, écarlate et fauve, qui s'accordent normalement. Les couleurs composées ne varient pas non plus : des chemises bleu clair, des robes vert pomme, des yeux bleu-vert. Pour les nombres, vingt et cent prennent un s lorsqu'ils sont multipliés et terminent le nombre : quatre-vingts, trois cents ; ils le perdent dès qu'un autre élément suit : quatre-vingt-deux, trois cent dix. Mille est toujours invariable. L'adverbe tout ne varie pas, sauf devant un adjectif féminin commençant par une consonne ou un h aspiré : elles sont tout étonnées, mais elles sont toutes honteuses. Demi placé avant le nom reste invariable et se lie par un trait d'union : une demi-heure, deux demi-journées ; placé après, il s'accorde en genre seulement : deux heures et demie, trois jours et demi. Enfin, ci-joint, ci-inclus, vu, excepté et étant donné restent invariables quand ils précèdent le nom, et s'accordent quand ils le suivent : vous trouverez ci-joint la copie, mais la copie ci-jointe."
+    },
+    {
+     "titre": "Homophones et paronymes",
+     "texte": "Le français est riche en mots qui se prononcent de la même façon sans avoir ni le même sens ni la même orthographe. Les plus fréquents s'apprennent par un test de substitution. On distingue a et à en remplaçant par avait : il a faim devient il avait faim, donc pas d'accent. Ou et où se départagent en essayant ou bien : viens ou reste, mais le lieu où tu vas. Ce et se se distinguent par la personne : se accompagne toujours un verbe pronominal. Quant à, quand et qu'en s'analysent en remplaçant par au sujet de, lorsque ou que en. D'autres paires reposent sur le sens et non sur la grammaire. Voir et voire ne sont pas interchangeables : voire signifie et même. Différend, avec un d, est un désaccord ; différent, avec un t, est un adjectif. Censé veut dire supposé, sensé veut dire raisonnable. Plutôt en un mot marque la préférence, plus tôt en deux mots marque le temps. Notable désigne ce qui mérite d'être noté, notoire ce qui est connu de tous. Le français distingue également des paronymes, mots voisins par la forme mais non identiques, qui se confondent facilement : conjecture et conjoncture, éruption et irruption, prodige et prodigue, affleurer et effleurer, collision et collusion, éminent et imminent. Reformuler la phrase avec une définition est la méthode la plus sûre."
+    },
+    {
+     "titre": "Conjugaison : les formes qui trompent",
+     "texte": "Quelques points de conjugaison concentrent l'essentiel des erreurs. Le futur et le conditionnel de la première personne se distinguent d'une seule lettre : je chanterai est un futur, je chanterais un conditionnel. Le test consiste à changer de personne : si l'on peut dire il chanterait, c'est un conditionnel. Certains verbes doublent le r au futur, ce qui crée une opposition audible : je courrai et je mourrai sont des futurs, je courais et je mourais des imparfaits. Après si exprimant une condition, on n'emploie jamais le conditionnel : on écrit si j'avais su, et non si j'aurais su. À la deuxième personne du pluriel du présent, seuls trois verbes se terminent par -tes : vous dites, vous faites, vous êtes ; tous les composés de dire, sauf redire, suivent le modèle régulier, d'où vous contredisez et vous prédisez. À la troisième personne du pluriel, seuls quatre verbes se terminent par -ont : ils sont, ils ont, ils font, ils vont. À l'impératif, les verbes du premier groupe ne prennent pas de s à la deuxième personne, sauf devant en et y pour des raisons de prononciation : mange ta soupe, mais manges-en. Enfin, le verbe vaincre garde son c à la troisième personne du singulier, il vainc, et le passé simple de tenir et venir présente des formes nasales inattendues, il tint, ils vinrent.",
+     "visuels": [
+      {
+       "type": "tableau",
+       "titre": "Les listes fermées qu'il suffit de retenir",
+       "colonnes": [
+        "Terminaison",
+        "Verbes concernés",
+        "Piège associé"
+       ],
+       "lignes": [
+        [
+         "-tes à vous",
+         "vous dites, vous faites, vous êtes",
+         "vous contredisez, vous prédisez"
+        ],
+        [
+         "-ont à ils",
+         "ils sont, ils ont, ils font, ils vont",
+         "tous les autres font -ent"
+        ],
+        [
+         "double r au futur",
+         "je courrai, je mourrai, je pourrai, je verrai",
+         "un seul r à l'imparfait"
+        ],
+        [
+         "-s à l'impératif",
+         "manges-en, vas-y",
+         "mange ta soupe, va-t'en"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Dans quelle phrase le participe passé est-il correctement accordé ?",
+     "choix": [
+      "Elle s'est achetée une voiture.",
+      "Elle s'est achetés une voiture.",
+      "Elle s'est achetées une voiture.",
+      "Elle s'est acheté une voiture."
+     ],
+     "bonne": 3,
+     "difficulte": 3,
+     "explication": "Le complément d'objet direct du verbe acheter est ici « une voiture », placé après le participe : il n'y a donc pas d'accord. Le pronom réfléchi « se » indique seulement le bénéficiaire de l'achat, c'est un complément second. Si l'on inverse l'ordre, l'accord réapparaît : la voiture qu'elle s'est achetée. Le même mécanisme joue dans « elle s'est offert un voyage » et « ils se sont fixé un objectif ». Il faut donc toujours localiser le COD avant de décider."
+    },
+    {
+     "q": "Comment accorde-t-on correctement l'adjectif dans « des chemises bleu clair » ?",
+     "choix": [
+      "On n'accorde ni bleu ni clair",
+      "On accorde bleu seulement",
+      "On accorde clair seulement",
+      "On accorde les deux"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Les adjectifs de couleur composés, formés de deux mots, restent invariables : des chemises bleu clair, des yeux vert foncé, des robes bleu-vert. La règle vaut aussi quand la couleur est précisée par un nom : des rubans jaune paille, des murs rouge brique. En revanche un adjectif de couleur simple s'accorde normalement : des chemises bleues, des yeux verts. Et les couleurs issues de noms de choses sont invariables même employées seules : des yeux marron, des gants kaki. Trois cas distincts qu'il vaut mieux ne pas mélanger."
+    },
+    {
+     "q": "Laquelle de ces phrases est correcte ?",
+     "choix": [
+      "Si j'aurais su, je ne serais pas venu.",
+      "Si j'avais su, je ne serais pas venu.",
+      "Si j'aurais su, je ne serais pas venue.",
+      "Si j'avais su, je ne serai pas venu."
+     ],
+     "bonne": 1,
+     "difficulte": 1,
+     "explication": "Après un « si » de condition, le français emploie l'indicatif, jamais le conditionnel : si j'avais su, si tu venais, s'il pleuvait. Le conditionnel se place dans l'autre partie de la phrase, la proposition principale : je ne serais pas venu. La règle est purement grammaticale et n'admet pas d'exception dans cet emploi. Elle ne s'applique pas au « si » interrogatif indirect, où le conditionnel est possible : je me demande s'il viendrait. La quatrième proposition confond par ailleurs futur et conditionnel."
+    },
+    {
+     "q": "Combien de verbes français se terminent par -ont à la troisième personne du pluriel du présent ?",
+     "choix": [
+      "Deux",
+      "Trois",
+      "Quatre",
+      "Six"
+     ],
+     "bonne": 2,
+     "difficulte": 2,
+     "explication": "Ce sont exactement quatre : ils sont, ils ont, ils font, ils vont. Tous les autres verbes du français se terminent par -ent à cette personne, quelle que soit leur conjugaison. La liste symétrique existe à la deuxième personne du pluriel : seuls vous êtes, vous faites et vous dites se terminent par -tes. Ces listes fermées se retiennent facilement et évitent des fautes fréquentes comme « ils disent » écrit avec -ont. Les composés se comportent en général comme le verbe simple, à l'exception notable de vous contredisez et vous prédisez."
+    },
+    {
+     "q": "Que signale le plus souvent l'accent circonflexe dans un mot comme « forêt » ?",
+     "choix": [
+      "La disparition d'un s qui existait autrefois",
+      "Une voyelle qu'il faut allonger",
+      "Un mot emprunté au grec",
+      "Un pluriel irrégulier"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Forêt s'est écrit forest en ancien français, comme en témoignent les dérivés forestier et déforestation. Le même phénomène explique hôpital et hospitalier, île et insulaire, bête et bestiaire, château et castel, fenêtre et défenestrer. L'accent circonflexe joue aussi un autre rôle, celui de distinguer des homographes : du et dû, sur et sûr, mur et mûr. Les rectifications de 1990 proposent de le supprimer sur les lettres i et u, sauf lorsqu'il distingue deux mots ou marque une terminaison verbale ; l'Académie française précise qu'aucune des deux graphies n'est fautive. L'accent avait autrefois, dans certaines régions, une valeur d'allongement, mais ce n'est plus sa fonction principale."
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Orthographe française",
+     "url": "https://fr.wikipedia.org/wiki/Orthographe_fran%C3%A7aise"
+    },
+    {
+     "titre": "Accord du participe passé en français",
+     "url": "https://fr.wikipedia.org/wiki/Accord_du_participe_pass%C3%A9_en_fran%C3%A7ais"
+    },
+    {
+     "titre": "Rectifications orthographiques du français en 1990",
+     "url": "https://fr.wikipedia.org/wiki/Rectifications_orthographiques_du_fran%C3%A7ais_en_1990"
+    },
+    {
+     "titre": "Accent circonflexe en français",
+     "url": "https://fr.wikipedia.org/wiki/Accent_circonflexe_en_fran%C3%A7ais"
+    }
+   ]
+  },
+  {
+   "titre": "Les figures de style",
+   "sections": [
+    {
+     "titre": "Qu'est-ce qu'une figure de style ?",
+     "texte": "Une figure de style est un procédé qui écarte volontairement l'expression de son emploi le plus ordinaire, pour produire un effet de sens, de rythme ou d'image. Elle n'est ni une faute ni un ornement gratuit : dire d'une personne qu'elle est un lion en dit plus, et plus vite, qu'une description de son courage. La rhétorique antique, chez Aristote puis chez Quintilien, avait déjà répertorié et nommé ces procédés, pour former les orateurs. Le français a hérité de cette tradition un vocabulaire technique en grande partie grec, ce qui explique la difficulté des noms : anaphore, hypallage, prétérition, épanorthose. Les classifications varient beaucoup d'un manuel à l'autre, et les spécialistes reconnaissent qu'aucune ne fait autorité. La répartition la plus courante en France distingue les figures d'analogie, qui rapprochent deux réalités, les figures de substitution, qui remplacent un mot par un autre, les figures d'opposition, les figures d'insistance ou d'atténuation, les figures de construction, qui jouent sur l'ordre des mots, et les figures de sonorité. Une même phrase peut relever de plusieurs catégories à la fois, et une expression figée peut être une figure devenue invisible : le pied d'une table est une métaphore que personne ne perçoit plus. Repérer une figure suppose donc moins d'apprendre une liste que de remarquer l'écart entre ce qui est dit et ce qui pourrait être dit simplement."
+    },
+    {
+     "titre": "Les figures d'analogie",
+     "texte": "Les figures d'analogie rapprochent deux réalités différentes en s'appuyant sur ce qu'elles ont de commun. La comparaison le fait explicitement, à l'aide d'un mot outil : comme, tel, semblable à, pareil à, ressembler. Elle comporte donc quatre éléments : le comparé, le comparant, l'outil de comparaison et souvent le point commun, comme dans « il est fort comme un bœuf ». La métaphore supprime l'outil et présente le rapprochement comme une identification : « cet homme est un lion », ou, sans même que le comparé soit nommé, « le lion sortit du tribunal ». On parle alors de métaphore in absentia, plus audacieuse que la métaphore in praesentia. Quand une métaphore se prolonge sur plusieurs phrases en développant tout un champ lexical, on la dit filée : Baudelaire file l'image du navire dans plusieurs poèmes. La personnification prête à un objet, à un animal ou à une idée des attributs humains : « la nuit se penchait sur la ville ». L'allégorie va plus loin en donnant une figure concrète et suivie à une notion abstraite, comme la Mort armée d'une faux ou la Justice aux yeux bandés. Enfin la prosopopée fait parler un absent, un mort ou une chose. Ces figures sont le cœur du langage poétique, mais elles nourrissent aussi la langue quotidienne et le discours politique.",
+     "visuels": [
+      {
+       "type": "comparaison",
+       "titre": "Comparaison ou métaphore ?",
+       "colonnes": [
+        {
+         "titre": "Comparaison",
+         "points": [
+          "Un outil de comparaison est présent : comme, tel, semblable à",
+          "Les deux termes restent distincts",
+          "Cet homme est courageux comme un lion",
+          "Effet plus explicite, moins condensé"
+         ]
+        },
+        {
+         "titre": "Métaphore",
+         "points": [
+          "Aucun outil de comparaison",
+          "Les deux termes sont identifiés l'un à l'autre",
+          "Cet homme est un lion",
+          "Effet plus dense, parfois énigmatique"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Les figures de substitution",
+     "texte": "Ces figures désignent une chose par le nom d'une autre, non par ressemblance mais par un lien réel. La métonymie repose sur une relation de contiguïté : le contenant pour le contenu, l'auteur pour son œuvre, le lieu pour l'institution, l'instrument pour celui qui s'en sert. On dit ainsi qu'on a lu tout Zola, que Matignon a répondu, qu'un orchestre compte de bons violons. La synecdoque, souvent présentée comme un cas particulier de métonymie, repose plus précisément sur un rapport d'inclusion : la partie pour le tout dans « une voile à l'horizon », le tout pour la partie, le singulier pour le pluriel dans « l'ennemi approche », la matière pour l'objet dans « croiser le fer ». La frontière entre métonymie et synecdoque n'est pas tracée de la même façon par tous les théoriciens, et beaucoup de manuels les regroupent. La périphrase remplace un mot par une expression qui le décrit : la Ville lumière pour Paris, le roi des animaux pour le lion, l'astre du jour pour le soleil. Elle peut servir à éviter une répétition, à ennoblir ou à créer une devinette. L'antonomase, enfin, échange un nom propre et un nom commun dans les deux sens : un harpagon pour un avare, mais aussi une poubelle ou une silhouette, noms propres devenus noms communs. Toutes ces figures reposent sur un savoir partagé entre celui qui parle et celui qui écoute.",
+     "visuels": [
+      {
+       "type": "tableau",
+       "titre": "Reconnaître une figure de substitution",
+       "colonnes": [
+        "Figure",
+        "Relation",
+        "Exemple"
+       ],
+       "lignes": [
+        [
+         "Métonymie",
+         "Contiguïté logique",
+         "Boire un bordeaux, lire un Zola"
+        ],
+        [
+         "Synecdoque",
+         "La partie pour le tout",
+         "Une voile à l'horizon"
+        ],
+        [
+         "Périphrase",
+         "Description à la place du nom",
+         "La Ville lumière, l'astre du jour"
+        ],
+        [
+         "Antonomase",
+         "Nom propre et nom commun échangés",
+         "Un harpagon, une poubelle"
+        ],
+        [
+         "Métaphore",
+         "Ressemblance, non contiguïté",
+         "Cet homme est un lion"
+        ]
+       ],
+       "note": "Le test décisif : y a-t-il un lien réel entre les deux termes (substitution) ou une simple ressemblance (analogie) ?"
+      }
+     ]
+    },
+    {
+     "titre": "Opposition, insistance et atténuation",
+     "texte": "L'antithèse rapproche deux idées contraires dans deux segments distincts de la phrase, souvent construits en parallèle : « je vis, je meurs ; je me brûle et me noie », écrit Louise Labé. L'oxymore, lui, réunit les contraires à l'intérieur d'un même groupe de mots, ce qui produit une image impossible : l'obscure clarté de Corneille, ou l'expression courante un silence assourdissant. Le paradoxe pousse plus loin en énonçant une idée qui heurte l'opinion commune, comme dans la formule de La Rochefoucauld. Du côté de l'atténuation, la litote dit moins pour faire entendre plus : « je ne te hais point » signifie « je t'aime ». L'euphémisme, souvent confondu avec elle, atténue non pour renforcer mais pour ne pas heurter : on dit d'un mourant qu'il s'en est allé, d'un licenciement qu'il est un plan social. La différence est donc d'intention. Du côté de l'insistance, l'hyperbole exagère franchement : mourir de rire, un travail de titan, mille mercis. La gradation aligne des termes d'intensité croissante ou décroissante. L'accumulation entasse sans hiérarchie. La prétérition consiste à dire qu'on ne dira pas, tout en le disant : « je ne rappellerai pas ses erreurs passées ». Enfin l'antiphrase énonce le contraire de ce que l'on pense et constitue le support ordinaire de l'ironie : « c'est du joli ».",
+     "visuels": [
+      {
+       "type": "tableau",
+       "titre": "Quatre couples que l'on confond",
+       "colonnes": [
+        "Figures",
+        "Ce qui les distingue",
+        "Exemples"
+       ],
+       "lignes": [
+        [
+         "Antithèse / oxymore",
+         "Deux segments distincts ou un seul groupe de mots",
+         "Je vis, je meurs / une obscure clarté"
+        ],
+        [
+         "Litote / euphémisme",
+         "Atténuer pour renforcer ou pour ménager",
+         "Je ne te hais point / il nous a quittés"
+        ],
+        [
+         "Gradation / accumulation",
+         "Progression d'intensité ou simple entassement",
+         "Je me meurs, je suis mort / des cris, des rires, des pleurs"
+        ],
+        [
+         "Antiphrase / hyperbole",
+         "Dire le contraire ou exagérer",
+         "C'est du joli / mourir de rire"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Figures de construction et de sonorité",
+     "texte": "Certaines figures ne jouent ni sur le sens ni sur la substitution, mais sur l'ordre des mots et sur les sons. L'anaphore répète un même mot en tête de segments successifs, ce qui donne au discours une puissance rythmique : c'est le procédé favori des orateurs politiques. Sa symétrique, l'épiphore, répète en fin de segment. Le chiasme croise les termes selon le schéma AB puis BA, comme dans « il faut manger pour vivre et non vivre pour manger », alors que le parallélisme conserve le même ordre. L'anacoluthe rompt volontairement la construction syntaxique attendue, procédé fréquent chez La Fontaine et chez Proust. Le zeugme, ou attelage, coordonne deux compléments incompatibles, l'un concret et l'autre abstrait, comme dans le vers de Hugo « vêtu de probité candide et de lin blanc ». L'hypallage attribue à un mot ce qui devrait revenir à un autre : « ce marchand accoudé sur son comptoir avide ». Du côté des sons, l'allitération répète des consonnes, l'assonance des voyelles ; le vers de Racine « pour qui sont ces serpents qui sifflent sur vos têtes » est l'exemple d'allitération le plus cité en français, même si l'on se garde d'y voir automatiquement une imitation du sifflement. La paronomase, enfin, rapproche des mots de sonorités voisines et de sens différents, comme dans « qui se ressemble s'assemble ».",
+     "visuels": [
+      {
+       "type": "tableau",
+       "titre": "Figures d'ordre et de son",
+       "colonnes": [
+        "Figure",
+        "Principe",
+        "Exemple"
+       ],
+       "lignes": [
+        [
+         "Anaphore",
+         "Répétition en début de segment",
+         "Rome, l'unique objet de mon ressentiment"
+        ],
+        [
+         "Épiphore",
+         "Répétition en fin de segment",
+         "Je souhaite qu'il vienne, j'exige qu'il vienne"
+        ],
+        [
+         "Chiasme",
+         "Croisement AB / BA",
+         "Manger pour vivre, non vivre pour manger"
+        ],
+        [
+         "Zeugme",
+         "Coordination de deux plans différents",
+         "Vêtu de probité candide et de lin blanc"
+        ],
+        [
+         "Allitération",
+         "Répétition de consonnes",
+         "Ces serpents qui sifflent sur vos têtes"
+        ],
+        [
+         "Assonance",
+         "Répétition de voyelles",
+         "Tout m'afflige et me nuit et conspire à me nuire"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Quelle figure de style consiste à atténuer l'expression pour ne pas heurter la sensibilité de l'auditeur ?",
+     "choix": [
+      "La litote",
+      "L'euphémisme",
+      "L'hyperbole",
+      "La prétérition"
+     ],
+     "bonne": 1,
+     "difficulte": 2,
+     "explication": "L'euphémisme remplace un mot jugé brutal par une formule plus douce : il nous a quittés pour il est mort, un plan social pour des licenciements, une personne malentendante pour une personne sourde. Son intention est de ménager, ce qui le distingue nettement de la litote. Celle-ci atténue au contraire pour renforcer : « ce n'est pas mauvais » signifie « c'est très bon ». Les deux figures partagent la forme atténuée mais visent des effets opposés. C'est la confusion la plus courante dans les copies d'élèves."
+    },
+    {
+     "q": "Dans « le fer et le feu ravagèrent la ville », le mot fer désigne les armes. De quelle figure s'agit-il ?",
+     "choix": [
+      "Une synecdoque de matière",
+      "Une allégorie",
+      "Une hypallage",
+      "Une paronomase"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "La synecdoque de matière désigne un objet par la substance dont il est fait : le fer pour les armes, le cuir pour le ballon, l'acier pour la lame. Elle appartient à la famille des figures de substitution, où le lien entre les deux termes est réel et non fondé sur une ressemblance. On rencontre la même figure dans « croiser le fer » ou « les planches » pour la scène de théâtre. Beaucoup de manuels la rattachent à la métonymie, dont elle est traditionnellement présentée comme un cas particulier. La classification varie selon les auteurs, mais l'analyse du lien reste la même."
+    },
+    {
+     "q": "Comment appelle-t-on la figure qui consiste à annoncer que l'on ne parlera pas d'une chose, tout en en parlant ?",
+     "choix": [
+      "La prétérition",
+      "L'antiphrase",
+      "L'épanorthose",
+      "L'anacoluthe"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "La prétérition, ou paralipse, est un procédé rhétorique classique : « je ne rappellerai pas ici ses échecs répétés » revient précisément à les rappeler. Elle permet de dire une chose désagréable tout en se donnant l'air de s'en abstenir, ce qui explique sa fréquence dans le discours politique et judiciaire. Elle ne doit pas être confondue avec l'antiphrase, qui consiste à énoncer le contraire de ce que l'on pense. L'épanorthose est un retour sur ses propres mots pour les corriger ou les renforcer. L'anacoluthe, elle, est une rupture de construction grammaticale."
+    },
+    {
+     "q": "Quelle figure de style est présente dans l'expression « un silence assourdissant » ?",
+     "choix": [
+      "Une antithèse",
+      "Une hyperbole",
+      "Un oxymore",
+      "Une métonymie"
+     ],
+     "bonne": 2,
+     "difficulte": 1,
+     "explication": "L'oxymore associe dans un même groupe de mots deux termes contradictoires : ici le silence, absence de bruit, et l'assourdissement, excès de bruit. L'effet cherché est de signaler un silence si lourd qu'il en devient pesant. L'antithèse produirait la même opposition, mais répartie sur deux segments distincts de la phrase. L'expression est aujourd'hui très usée par le langage journalistique, au point d'être devenue un cliché. C'est le sort de beaucoup de figures : à force d'être répétées, elles cessent de surprendre."
+    },
+    {
+     "q": "Dans « la Ville lumière » pour désigner Paris, quelle figure reconnaît-on ?",
+     "choix": [
+      "Une antonomase",
+      "Une allégorie",
+      "Une prosopopée",
+      "Une périphrase"
+     ],
+     "bonne": 3,
+     "difficulte": 1,
+     "explication": "La périphrase remplace un nom par une expression qui le caractérise : la Ville lumière pour Paris, le roi des animaux pour le lion, la langue de Molière pour le français. Elle sert à varier l'expression, à ennoblir le propos ou à jouer sur la connivence avec le lecteur. L'antonomase, elle, échange un nom propre et un nom commun : un tartuffe, une poubelle. L'allégorie donne une forme concrète et suivie à une idée abstraite. La prosopopée fait parler un absent, un mort ou un objet."
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Figure de style",
+     "url": "https://fr.wikipedia.org/wiki/Figure_de_style"
+    },
+    {
+     "titre": "Métonymie",
+     "url": "https://fr.wikipedia.org/wiki/M%C3%A9tonymie"
+    },
+    {
+     "titre": "Litote",
+     "url": "https://fr.wikipedia.org/wiki/Litote"
+    },
+    {
+     "titre": "Oxymore",
+     "url": "https://fr.wikipedia.org/wiki/Oxymore"
+    }
+   ]
+  }
+ ]
+}

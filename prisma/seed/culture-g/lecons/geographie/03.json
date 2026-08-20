@@ -1,0 +1,155 @@
+{
+ "titre": "L'Europe : un continent et une union",
+ "sections": [
+  {
+   "titre": "Les limites et les reliefs de l'Europe",
+   "texte": "L'Europe est le plus petit des continents après l'Océanie, avec environ 10 millions de kilomètres carrés. Elle forme en réalité une vaste péninsule de l'Eurasie, et ses limites orientales sont conventionnelles : on retient traditionnellement la chaîne de l'Oural, le fleuve Oural, la mer Caspienne et la chaîne du Caucase. Au nord, elle est bordée par l'océan Arctique, à l'ouest par l'Atlantique, au sud par la Méditerranée. Son littoral est extrêmement découpé, avec des péninsules comme la Scandinavie, la péninsule Ibérique, l'Italie et les Balkans, et de nombreuses îles, des îles Britanniques à la Sicile. Le relief oppose une grande plaine du Nord, qui s'étend de la France à la Russie en passant par l'Allemagne et la Pologne, à un Sud montagneux. Les Alpes culminent au mont Blanc à 4808 mètres, les Pyrénées au pic d'Aneto à 3404 mètres, et le Caucase à l'Elbrouz, avec 5642 mètres, souvent considéré comme le point culminant du continent. Les principaux fleuves sont la Volga, la plus longue avec environ 3530 kilomètres, le Danube qui traverse dix pays sur 2850 kilomètres, le Rhin, grand axe de transport, ainsi que la Loire, l'Elbe et le Pô. Le climat, adouci par le Gulf Stream, est majoritairement tempéré, océanique à l'ouest, continental à l'est et méditerranéen au sud."
+  },
+  {
+   "titre": "Une mosaïque d'États et de peuples",
+   "texte": "L'Europe compte une cinquantaine d'États pour environ 745 millions d'habitants au début des années 2020, ce qui en fait un continent très morcelé. La Russie, dont la partie européenne concentre l'essentiel de la population, est de loin le plus vaste. Viennent ensuite l'Ukraine, la France, l'Espagne et la Suède par la superficie. Au bas de l'échelle figurent des micro-États comme le Vatican, qui occupe 0,44 kilomètre carré, Monaco, Saint-Marin, le Liechtenstein et Andorre. La diversité linguistique est très forte : la plupart des langues appartiennent à la famille indo-européenne, avec trois grands groupes, les langues romanes comme le français, l'italien et l'espagnol, les langues germaniques comme l'allemand, l'anglais et le suédois, et les langues slaves comme le russe, le polonais et le serbe. Quelques langues échappent à cette famille, notamment le hongrois, le finnois, l'estonien et le basque, dont l'origine reste isolée. Cette mosaïque est le produit d'une histoire faite d'empires, de guerres et de recompositions : les frontières actuelles de l'Europe centrale et orientale datent en grande partie du XXe siècle, après 1918, après 1945, puis après l'éclatement de l'Union soviétique et de la Yougoslavie dans les années 1990. La disparition de la Yougoslavie a ainsi donné naissance à sept États, dont le dernier reconnu, le Kosovo, a proclamé son indépendance en 2008.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les grandes familles linguistiques de l'Europe",
+    "colonnes": [
+     "Groupe",
+     "Exemples de langues",
+     "Aire principale"
+    ],
+    "lignes": [
+     [
+      "Langues romanes",
+      "Français, italien, espagnol",
+      "Ouest et sud du continent"
+     ],
+     [
+      "Langues germaniques",
+      "Allemand, anglais, suédois",
+      "Centre, nord-ouest et Scandinavie"
+     ],
+     [
+      "Langues slaves",
+      "Russe, polonais, serbe",
+      "Est et sud-est"
+     ],
+     [
+      "Hors famille indo-européenne",
+      "Hongrois, finnois, estonien, basque",
+      "Îlots dispersés ; le basque est d'origine isolée"
+     ]
+    ],
+    "note": "Une cinquantaine d'États pour environ 745 millions d'habitants : l'Europe est le continent le plus morcelé."
+   }
+  },
+  {
+   "titre": "L'Union européenne",
+   "texte": "L'Union européenne est née de la volonté de rendre la guerre impossible entre des pays qui s'étaient déchirés. Tout commence avec la Communauté européenne du charbon et de l'acier créée en 1951, puis le traité de Rome signé en 1957 par six pays fondateurs : la France, l'Allemagne de l'Ouest, l'Italie, la Belgique, les Pays-Bas et le Luxembourg. Le traité de Maastricht, en 1992, donne naissance à l'Union européenne proprement dite et prépare la monnaie unique. Après plusieurs élargissements, dont celui de 2004 qui intègre dix pays d'Europe centrale et orientale, l'Union compte 27 membres depuis le départ du Royaume-Uni, le Brexit, effectif en 2020. Elle rassemble environ 450 millions d'habitants. L'euro, mis en circulation sous forme de billets et de pièces en 2002, est utilisé par vingt pays. L'espace Schengen, distinct de l'Union, permet de circuler sans contrôle aux frontières intérieures entre la plupart des États membres et quelques voisins comme la Suisse et la Norvège. Les institutions principales sont la Commission à Bruxelles, qui propose les lois, le Parlement européen élu au suffrage universel qui siège à Strasbourg, et le Conseil, où se réunissent les gouvernements. L'Union reste marquée par de forts écarts de richesse entre ses membres.",
+   "visuel": {
+    "type": "frise",
+    "titre": "De la CECA à l'Union à 27",
+    "evenements": [
+     {
+      "date": "1951",
+      "label": "Communauté européenne du charbon et de l'acier",
+      "texte": "Mettre en commun les matières premières de la guerre pour la rendre impossible."
+     },
+     {
+      "date": "1957",
+      "label": "Traité de Rome",
+      "texte": "Six fondateurs : France, Allemagne de l'Ouest, Italie, Belgique, Pays-Bas, Luxembourg."
+     },
+     {
+      "date": "1992",
+      "label": "Traité de Maastricht",
+      "texte": "Naissance de l'Union européenne et préparation de la monnaie unique."
+     },
+     {
+      "date": "2002",
+      "label": "Billets et pièces en euros",
+      "texte": "L'euro est aujourd'hui utilisé par vingt pays."
+     },
+     {
+      "date": "2004",
+      "label": "Grand élargissement",
+      "texte": "Dix pays d'Europe centrale et orientale rejoignent l'Union."
+     },
+     {
+      "date": "2020",
+      "label": "Brexit effectif",
+      "texte": "Le départ du Royaume-Uni ramène l'Union à 27 membres, environ 450 millions d'habitants."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Villes, réseaux et espaces dynamiques",
+   "texte": "L'Europe est l'un des continents les plus urbanisés du monde : environ trois habitants sur quatre vivent en ville. Le réseau urbain est dense et ancien, hérité du Moyen Âge et de la révolution industrielle, mais il ne comporte que peu de mégapoles à l'échelle mondiale. Les plus grandes agglomérations sont Moscou, Istanbul, Londres et Paris, chacune dépassant les 10 millions d'habitants en comptant leurs banlieues. La richesse et l'activité se concentrent dans un axe souvent appelé la dorsale européenne, qui va du sud de l'Angleterre à l'Italie du Nord en passant par les Pays-Bas, la Belgique, la vallée du Rhin et la Suisse. On y trouve les grands ports comme Rotterdam, premier port européen, et Anvers, ainsi que des places financières comme Londres et Francfort. Les littoraux méditerranéens forment un second espace dynamique, porté par le tourisme : la France, l'Espagne et l'Italie figurent parmi les pays les plus visités du monde. À l'inverse, certaines régions restent en difficulté, comme les anciens bassins industriels du charbon et de l'acier, du nord de la France à la Ruhr, ou des zones rurales du sud de l'Italie et de l'est du continent qui perdent des habitants. Pour réduire ces écarts, l'Union européenne consacre une part importante de son budget à la politique régionale, qui finance routes, universités et rénovations urbaines dans les régions les moins riches."
+  },
+  {
+   "titre": "Les défis de l'Europe aujourd'hui",
+   "texte": "L'Europe fait face à plusieurs défis majeurs. Le premier est démographique : sa fécondité, autour de 1,5 enfant par femme, se situe bien en dessous du seuil de renouvellement des générations fixé à 2,1. Sa population vieillit et pourrait diminuer, ce qui pose la question du financement des retraites et de la main-d'œuvre disponible. Le deuxième défi est énergétique : le continent produit peu de pétrole et de gaz et dépend largement d'importations, une dépendance devenue très visible après le déclenchement de la guerre en Ukraine en 2022. Les pays européens développent l'éolien, notamment en mer du Nord, le solaire dans le sud, l'hydroélectricité dans les Alpes et la Scandinavie, ainsi que le nucléaire, très présent en France. Le troisième défi est climatique et environnemental : l'Union européenne s'est fixé pour objectif la neutralité carbone en 2050 et a déjà réduit ses émissions par rapport à 1990. Le quatrième est politique : gérer les migrations, réduire les écarts de développement entre l'ouest et l'est, et assurer sa sécurité dans un monde où la Chine et les États-Unis dominent l'économie mondiale. Enfin, la place de l'Europe dans le monde diminue relativement : elle représente aujourd'hui moins de 10 pour cent de la population mondiale, contre environ 25 pour cent en 1900."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quelle chaîne de montagnes marque traditionnellement la limite orientale de l'Europe ?",
+   "choix": [
+    "Les Carpates",
+    "L'Oural",
+    "Le Caucase",
+    "Les Alpes scandinaves"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "L'Europe n'étant pas séparée de l'Asie par une mer, sa limite orientale est une convention adoptée par les géographes. On retient la chaîne de l'Oural, qui traverse la Russie du nord au sud sur environ 2000 kilomètres, prolongée par le fleuve Oural, la mer Caspienne et la chaîne du Caucase. Cette limite fait de l'Europe une grande péninsule de l'ensemble eurasiatique. Les Carpates, elles, se trouvent bien à l'intérieur du continent, en Roumanie, en Slovaquie et en Pologne. Le Caucase, situé plus au sud, complète la limite mais ne la constitue pas à lui seul, et il abrite l'Elbrouz, souvent présenté comme le plus haut sommet d'Europe avec 5642 mètres."
+  },
+  {
+   "q": "Combien d'États comptait l'Union européenne après le départ du Royaume-Uni ?",
+   "choix": [
+    "15",
+    "21",
+    "25",
+    "27"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "L'Union européenne réunit 27 États membres depuis la sortie effective du Royaume-Uni, le Brexit, entré en vigueur en 2020. Elle était partie de six pays fondateurs en 1957 avec le traité de Rome : la France, l'Allemagne de l'Ouest, l'Italie, la Belgique, les Pays-Bas et le Luxembourg. Les élargissements successifs ont notamment intégré le Royaume-Uni, l'Irlande et le Danemark en 1973, puis l'Espagne et le Portugal en 1986, avant le grand élargissement de 2004 vers l'Europe centrale et orientale. L'ensemble représente environ 450 millions d'habitants. La monnaie unique, l'euro, n'est adoptée que par une partie des membres, une vingtaine de pays."
+  },
+  {
+   "q": "Quel est le premier port de l'Union européenne par le trafic de marchandises ?",
+   "choix": [
+    "Rotterdam",
+    "Marseille",
+    "Hambourg",
+    "Barcelone"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le port de Rotterdam, aux Pays-Bas, est de loin le premier port européen, avec un trafic de l'ordre de 430 à 470 millions de tonnes par an. Sa position à l'embouchure du Rhin lui permet de desservir par voie fluviale un immense arrière-pays industriel, de la Ruhr allemande à la Suisse. Il se situe au cœur de la dorsale européenne, l'axe le plus riche du continent, qui va du sud de l'Angleterre à l'Italie du Nord. Anvers, en Belgique, arrive juste derrière, suivi de Hambourg. Marseille reste le premier port français mais son trafic est nettement inférieur, autour de 80 millions de tonnes."
+  },
+  {
+   "q": "Quel fleuve traverse le plus grand nombre de pays européens ?",
+   "choix": [
+    "Le Rhin",
+    "La Volga",
+    "La Loire",
+    "Le Danube"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le Danube traverse ou borde dix pays, ce qui en fait le fleuve le plus international du monde. Il naît en Forêt-Noire, en Allemagne, puis passe par l'Autriche, la Slovaquie, la Hongrie, la Croatie, la Serbie, la Roumanie, la Bulgarie, la Moldavie et l'Ukraine avant de se jeter dans la mer Noire par un vaste delta. Long d'environ 2850 kilomètres, il arrose quatre capitales : Vienne, Bratislava, Budapest et Belgrade. La Volga, plus longue avec près de 3530 kilomètres, coule entièrement en Russie et se jette dans la mer Caspienne. Le Rhin, axe de transport majeur, traverse ou longe six pays."
+  },
+  {
+   "q": "Quelle langue européenne n'appartient pas à la famille indo-européenne ?",
+   "choix": [
+    "Le grec",
+    "Le polonais",
+    "Le hongrois",
+    "Le portugais"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Le hongrois appartient à la famille finno-ougrienne, comme le finnois et l'estonien, et non à la famille indo-européenne qui rassemble la grande majorité des langues du continent. Ces langues auraient été apportées par des populations venues de l'est au cours du premier millénaire. Le basque, parlé de part et d'autre de la frontière franco-espagnole, constitue un autre cas particulier : il est considéré comme un isolat, sans parenté connue avec aucune autre langue vivante. Le polonais appartient au groupe slave, le portugais au groupe roman issu du latin, et le grec forme à lui seul une branche de la famille indo-européenne. Cette diversité linguistique explique que l'Union européenne reconnaisse aujourd'hui vingt-quatre langues officielles."
+  }
+ ]
+}

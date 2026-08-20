@@ -45,7 +45,7 @@ function etatDe(r: CatalogueSkill): Etat {
   return r.box >= MASTERY_BOX ? "maitrisee" : "en-cours";
 }
 
-export function Catalogue({ engine, setScreen, setChrome }: ScreenProps) {
+export function Catalogue({ engine, moduleId, setScreen, setChrome }: ScreenProps) {
   const [data, setData] = useState<CataloguePayload | null>(null);
   const [categorie, setCategorie] = useState<string | null>(null);
   const [difficulte, setDifficulte] = useState<number | null>(null);
@@ -57,12 +57,17 @@ export function Catalogue({ engine, setScreen, setChrome }: ScreenProps) {
   const [message, setMessage] = useState<string | null>(null);
 
   useEffect(() => {
-    setChrome({
-      fil: "Les règles",
-      accroche: "Cherche une difficulté, ouvre sa fiche, entraîne-toi dessus.",
+    // Le catalogue est rechargé quand on change de matière : son titre et son
+    // vocabulaire viennent du module, pas de cet écran.
+    setData(null);
+    void engine.catalogue(moduleId).then((d) => {
+      setData(d);
+      setChrome({
+        fil: d.vocabulaire.catalogue,
+        accroche: `Cherche un point, ouvre sa fiche, entraîne-toi dessus.`,
+      });
     });
-    void engine.catalogue().then(setData);
-  }, [engine, setChrome]);
+  }, [engine, moduleId, setChrome]);
 
   const liste = useMemo(() => {
     if (!data) return [];
@@ -117,7 +122,7 @@ export function Catalogue({ engine, setScreen, setChrome }: ScreenProps) {
   const travailler = async (slug: string) => {
     setMessage(null);
     try {
-      const session = await engine.start({ mode: "skill", size: 10, category: null, skill: slug });
+      const session = await engine.start({ mode: "skill", size: 10, category: null, skill: slug, moduleId });
       setScreen({ name: "serie", session });
     } catch (e) {
       setMessage(e instanceof NoContentError || e instanceof Error ? e.message : "Entraînement impossible.");
@@ -127,7 +132,7 @@ export function Catalogue({ engine, setScreen, setChrome }: ScreenProps) {
   const travaillerDomaine = async (nom: string) => {
     setMessage(null);
     try {
-      const session = await engine.start({ mode: "targeted", size: 20, category: nom });
+      const session = await engine.start({ mode: "targeted", size: 20, category: nom, moduleId });
       setScreen({ name: "serie", session });
     } catch (e) {
       setMessage(e instanceof NoContentError || e instanceof Error ? e.message : "Entraînement impossible.");
@@ -308,9 +313,19 @@ export function Catalogue({ engine, setScreen, setChrome }: ScreenProps) {
                               : `palier ${r.box}/5 · ${r.correctCount} bonnes réponses sur ${r.seenCount}`}
                         </p>
                         {!r.disputed && (
-                          <button className="plein" style={{ marginTop: 14 }} onClick={() => travailler(r.slug)}>
-                            S’entraîner sur cette règle
-                          </button>
+                          <div className="actions-fiche">
+                            {r.hasLesson && (
+                              <button
+                                className="creux"
+                                onClick={() => setScreen({ name: "lecon", slug: r.slug })}
+                              >
+                                Lire le cours
+                              </button>
+                            )}
+                            <button className="plein" onClick={() => travailler(r.slug)}>
+                              S’entraîner sur ce point
+                            </button>
+                          </div>
                         )}
                       </div>
                     )}

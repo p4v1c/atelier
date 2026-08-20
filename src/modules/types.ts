@@ -74,7 +74,39 @@ export type SeedSkill = {
   difficulty: 1 | 2 | 3;
   status?: ContentStatus;
   exercises: SeedExercise[];
+  /**
+   * Un support de cours, quand la compétence en a un : le texte à lire avant
+   * de répondre. Sa forme regarde le module — voir `LessonDocument` pour celle
+   * que sait afficher l'écran de leçon fourni.
+   */
+  lesson?: unknown;
 };
+
+/**
+ * La forme de leçon que l'écran de lecture sait rendre.
+ *
+ * Un module peut en stocker une autre : ce sera à lui de fournir sa propre
+ * vue. Celle-ci couvre le cas courant — des sections de texte, des visuels
+ * structurés, des sources.
+ */
+export type LessonDocument = {
+  titre: string;
+  sections: {
+    titre: string;
+    texte: string;
+    visuels?: LessonVisuel[];
+  }[];
+  sources?: { titre: string; url: string }[];
+};
+
+export type LessonVisuel =
+  | { type: "frise"; titre: string; evenements: { date: string; label: string; texte?: string }[] }
+  | { type: "chiffres"; titre: string; items: { valeur: string; label: string; texte?: string }[] }
+  | { type: "etapes"; titre: string; etapes: { titre: string; texte: string }[] }
+  | { type: "tableau"; titre: string; colonnes: string[]; lignes: string[][]; note?: string }
+  | { type: "barres"; titre: string; donnees: { label: string; valeur: number; affichage?: string }[]; note?: string }
+  | { type: "comparaison"; titre: string; colonnes: { titre: string; points: string[] }[] }
+  | { type: "image"; src: string; legende?: string; alt?: string };
 
 export type SeedDictationLike = {
   text: string;

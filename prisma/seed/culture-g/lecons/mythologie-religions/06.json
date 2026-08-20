@@ -1,0 +1,184 @@
+{
+ "titre": "Le judaïsme : histoire, textes et pratiques",
+ "sections": [
+  {
+   "titre": "Les récits des origines",
+   "texte": "Le judaïsme est la plus ancienne des trois religions qui se réclament d'Abraham. Ses récits fondateurs sont rassemblés dans les premiers livres de la Bible hébraïque. Ils racontent qu'Abraham quitte la ville d'Our, en Mésopotamie, pour gagner le pays de Canaan à la suite d'un appel divin, et qu'une alliance est conclue entre Dieu et sa descendance. Ses fils et petits-fils, Isaac puis Jacob, également nommé Israël, sont présentés comme les ancêtres de douze tribus. Le récit se poursuit par l'installation en Égypte, l'esclavage, puis la sortie conduite par Moïse, épisode appelé Exode. La tradition situe au mont Sinaï le don de la Torah, ensemble de commandements dont les dix paroles gravées sur des tables constituent le noyau le plus connu. Après quarante années dans le désert, les tribus s'établissent en Canaan. Les livres suivants évoquent l'époque des juges, puis la royauté avec Saül, David et Salomon, à qui la tradition attribue la construction du premier Temple de Jérusalem. Les historiens et les archéologues étudient ces récits en les comparant aux sources extérieures et aux fouilles ; ils considèrent que les textes ont été composés et mis en forme sur plusieurs siècles, notamment entre le VIIIe et le Ve siècle avant notre ère, à partir de traditions plus anciennes. Ces récits ont façonné durablement la mémoire collective du peuple juif."
+  },
+  {
+   "titre": "Exil, Second Temple et naissance du judaïsme rabbinique",
+   "texte": "L'histoire du judaïsme est marquée par deux ruptures majeures. En 587 avant notre ère, le roi babylonien Nabuchodonosor prend Jérusalem, détruit le Temple et déporte une partie de la population : c'est l'exil à Babylone. Cette épreuve favorise, selon les historiens, la mise par écrit de nombreuses traditions et l'affirmation du culte d'un Dieu unique sans image. Après la conquête perse, l'édit de Cyrus autorise le retour et la reconstruction du sanctuaire, appelé Second Temple. Les siècles suivants voient l'influence grecque, la révolte des Maccabées au IIe siècle avant notre ère, puis la domination romaine. À cette époque coexistent plusieurs courants : les sadducéens, liés au Temple et au sacerdoce, les pharisiens, attachés à l'étude et à une tradition orale, les esséniens, groupe retiré souvent associé aux manuscrits découverts près de la mer Morte. La seconde rupture survient en 70 de notre ère, lorsque les armées romaines détruisent le Second Temple lors de la répression d'une révolte. Privé de sacrifices et de sanctuaire, le judaïsme se réorganise autour de l'étude, de la prière et de la synagogue, sous la direction de maîtres appelés rabbins. Cette forme, dite judaïsme rabbinique, s'impose progressivement dans toutes les communautés et constitue la matrice des traditions juives ultérieures.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Deux ruptures et la réorganisation du judaïsme",
+    "evenements": [
+     {
+      "date": "587 av. n. è.",
+      "label": "Prise de Jérusalem et exil",
+      "texte": "Le roi babylonien Nabuchodonosor détruit le Temple et déporte une partie de la population : c'est l'exil à Babylone."
+     },
+     {
+      "date": "Après la conquête perse",
+      "label": "L'édit de Cyrus",
+      "texte": "Le retour et la reconstruction du sanctuaire sont autorisés : c'est le Second Temple."
+     },
+     {
+      "date": "IIe s. av. n. è.",
+      "label": "La révolte des Maccabées",
+      "texte": "Elle suit les siècles d'influence grecque, avant la domination romaine."
+     },
+     {
+      "date": "70 de n. è.",
+      "label": "Destruction du Second Temple",
+      "texte": "Les armées romaines détruisent le sanctuaire lors de la répression d'une révolte."
+     },
+     {
+      "date": "À partir de 70",
+      "label": "Le judaïsme rabbinique",
+      "texte": "Privé de sacrifices et de sanctuaire, le judaïsme se réorganise autour de l'étude, de la prière et de la synagogue, sous la direction de maîtres appelés rabbins."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "La Torah, le Tanakh et le Talmud",
+   "texte": "Le corpus des textes juifs se compose de plusieurs ensembles. La Bible hébraïque est appelée Tanakh, mot formé à partir des initiales de ses trois parties. La première, la Torah, réunit les cinq livres attribués par la tradition à Moïse : Genèse, Exode, Lévitique, Nombres et Deutéronome. La deuxième, Neviim, rassemble les livres des prophètes, où figurent des figures comme Isaïe, Jérémie ou Amos, dont les paroles portent souvent sur la justice sociale et la fidélité à l'alliance. La troisième, Ketouvim, regroupe des écrits divers, parmi lesquels les Psaumes, le livre de Job, les Proverbes ou le rouleau d'Esther. Le rouleau de la Torah, copié à la main sur parchemin, est conservé dans la synagogue et lu publiquement selon un cycle annuel. À côté de ce texte, la tradition juive transmet une loi orale, mise par écrit à partir du IIe siècle de notre ère dans la Mishna, recueil organisé par thèmes. Les discussions ultérieures des maîtres, appelées Guemara, s'ajoutent à la Mishna pour former le Talmud, qui existe en deux versions, celle de Jérusalem et celle de Babylone, plus développée. L'étude du Talmud, faite de débats et de commentaires successifs, occupe une place centrale dans la vie intellectuelle juive traditionnelle.",
+   "visuels": [
+    {
+     "type": "tableau",
+     "titre": "Les trois parties du Tanakh",
+     "colonnes": [
+      "Partie",
+      "Contenu"
+     ],
+     "lignes": [
+      [
+       "La Torah",
+       "Les cinq livres attribués par la tradition à Moïse : Genèse, Exode, Lévitique, Nombres et Deutéronome"
+      ],
+      [
+       "Neviim",
+       "Les livres des prophètes, où figurent des figures comme Isaïe, Jérémie ou Amos, dont les paroles portent souvent sur la justice sociale et la fidélité à l'alliance"
+      ],
+      [
+       "Ketouvim",
+       "Des écrits divers, parmi lesquels les Psaumes, le livre de Job, les Proverbes ou le rouleau d'Esther"
+      ]
+     ],
+     "note": "Le mot Tanakh est formé à partir des initiales de ces trois parties. À côté de ce texte, la loi orale est mise par écrit à partir du IIe siècle de notre ère dans la Mishna ; les discussions ultérieures des maîtres, la Guemara, s'y ajoutent pour former le Talmud, qui existe en une version de Jérusalem et une version de Babylone."
+    },
+    {
+     "type": "image",
+     "image": "myt-rouleau-torah",
+     "legende": "Un rouleau de la Torah déroulé, copié à la main sur parchemin et monté sur deux rouleaux de bois, avec la main de lecture qui sert à suivre le texte. Il est conservé dans la synagogue et lu publiquement selon un cycle annuel.",
+     "alt": "Long parchemin déroulé entre deux rouleaux de bois, couvert de colonnes de texte hébreu ; devant lui, une baguette d'argent terminée par une petite main, reliée à une chaîne."
+    }
+   ]
+  },
+  {
+   "titre": "Le rythme de la vie religieuse",
+   "texte": "La pratique juive traditionnelle repose sur l'observance de commandements appelés mitsvot, que la tradition dénombre à six cent treize. Le chabbat, du vendredi soir au samedi soir, est un jour de repos et de prière durant lequel les travaux définis par la loi religieuse sont interrompus ; il est ouvert par l'allumage de bougies et la bénédiction sur le vin et le pain. Les règles alimentaires, la cacherout, distinguent les aliments permis et interdits, imposent un abattage particulier et séparent la viande des produits laitiers. Le calendrier, luni-solaire, est jalonné de fêtes : Roch Hachana, début de l'année, suivi dix jours plus tard de Yom Kippour, journée de jeûne et de demande de pardon ; Souccot, où l'on séjourne dans des cabanes ; Pessah, qui rappelle la sortie d'Égypte et se célèbre autour d'un repas ordonné, le seder ; Chavouot, associée au don de la Torah ; Hanoucca et Pourim, fêtes plus tardives. Les étapes de la vie sont également marquées par des rites, comme la circoncision des garçons au huitième jour et la cérémonie de bar-mitsva ou bat-mitsva à l'adolescence, qui marque l'entrée dans la responsabilité religieuse. La prière quotidienne, récitée en hébreu, peut se faire individuellement ou en assemblée de dix adultes, appelée minyan.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les fêtes du calendrier juif citées dans la leçon",
+    "colonnes": [
+     "Fête",
+     "Ce qu'elle marque"
+    ],
+    "lignes": [
+     [
+      "Roch Hachana",
+      "Le début de l'année"
+     ],
+     [
+      "Yom Kippour",
+      "Dix jours plus tard : journée de jeûne et de demande de pardon"
+     ],
+     [
+      "Souccot",
+      "On séjourne dans des cabanes"
+     ],
+     [
+      "Pessah",
+      "Rappelle la sortie d'Égypte ; se célèbre autour d'un repas ordonné, le seder"
+     ],
+     [
+      "Chavouot",
+      "Associée au don de la Torah"
+     ],
+     [
+      "Hanoucca et Pourim",
+      "Fêtes plus tardives"
+     ]
+    ],
+    "note": "Le calendrier est luni-solaire. La semaine est rythmée par le chabbat, du vendredi soir au samedi soir, jour de repos et de prière ouvert par l'allumage de bougies et la bénédiction sur le vin et le pain."
+   }
+  },
+  {
+   "titre": "Diaspora, persécutions et courants contemporains",
+   "texte": "Après la destruction du Second Temple, les communautés juives se dispersent autour de la Méditerranée puis dans une grande partie de l'Europe et du Proche-Orient, phénomène désigné par le mot diaspora. Deux grands ensembles culturels se forment : les Ashkénazes, installés dans le monde germanique puis en Europe centrale et orientale, qui développent la langue yiddish, et les Séfarades, issus de la péninsule Ibérique, parlant le judéo-espagnol et établis après leur expulsion de 1492 dans l'Empire ottoman et en Afrique du Nord. Ces communautés ont connu, selon les périodes et les lieux, des phases de coexistence et des épisodes de persécution, dont les expulsions médiévales, les massacres et les mesures discriminatoires. Au XVIIIe siècle apparaissent le hassidisme, mouvement de piété populaire né en Europe orientale, et les Lumières juives ou Haskala, favorables à l'intégration dans la société environnante. Au XIXe siècle se constituent des courants distincts, notamment le judaïsme réformé ou libéral, le judaïsme conservateur et l'orthodoxie. Le XXe siècle est marqué par la Shoah, extermination d'environ six millions de juifs par l'Allemagne nazie et ses complices, puis par la création de l'État d'Israël en 1948. On estime aujourd'hui le nombre de personnes juives à quinze millions environ, réparties principalement en Israël et en Amérique du Nord."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Que désigne le mot Tanakh ?",
+   "choix": [
+    "Le recueil des commentaires rabbiniques",
+    "Le rouleau lu pendant la fête de Pourim",
+    "Le calendrier des fêtes juives",
+    "L'ensemble de la Bible hébraïque, en trois parties"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le mot Tanakh est formé à partir des initiales des trois parties de la Bible hébraïque : la Torah, les Neviim ou prophètes et les Ketouvim ou autres écrits. Il ne désigne donc pas les commentaires, qui relèvent de la Mishna et du Talmud. Le rouleau lu à Pourim est le livre d'Esther, qui appartient aux Ketouvim mais n'en constitue qu'une partie. Le calendrier juif est luni-solaire mais porte un autre nom. La Torah proprement dite se compose des cinq premiers livres."
+  },
+  {
+   "q": "Quel événement de l'an 70 de notre ère transforme profondément le judaïsme ?",
+   "choix": [
+    "L'exil à Babylone",
+    "La destruction du Second Temple par les Romains",
+    "La révolte des Maccabées",
+    "L'édit de Cyrus"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "En 70 de notre ère, les armées romaines détruisent le Second Temple de Jérusalem lors de la répression d'une révolte. Privé de sanctuaire et de sacrifices, le judaïsme se réorganise autour de la synagogue, de la prière et de l'étude, sous la direction des rabbins. L'exil à Babylone est bien plus ancien et fait suite à la prise de Jérusalem en 587 avant notre ère. La révolte des Maccabées se situe au IIe siècle avant notre ère face aux souverains séleucides. L'édit de Cyrus, au VIe siècle avant notre ère, autorise le retour des exilés."
+  },
+  {
+   "q": "Comment appelle-t-on l'ensemble des règles alimentaires du judaïsme ?",
+   "choix": [
+    "La cacherout",
+    "La mitsva",
+    "Le minyan",
+    "Le seder"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "La cacherout désigne l'ensemble des règles distinguant les aliments permis et interdits, imposant un mode d'abattage particulier et séparant la viande des produits laitiers. Un aliment conforme à ces règles est dit casher. Une mitsva est un commandement religieux en général, la tradition en dénombrant six cent treize. Le minyan désigne le quorum de dix adultes requis pour certaines prières communautaires. Le seder est le repas ordonné célébré lors de la fête de Pessah."
+  },
+  {
+   "q": "Quelle fête juive rappelle la sortie d'Égypte racontée dans le livre de l'Exode ?",
+   "choix": [
+    "Yom Kippour",
+    "Hanoucca",
+    "Pessah",
+    "Roch Hachana"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Pessah commémore la sortie d'Égypte et se célèbre au printemps autour d'un repas ordonné appelé seder, durant lequel le récit est lu et où l'on consomme du pain sans levain. Yom Kippour est une journée de jeûne consacrée à la demande de pardon, dix jours après le début de l'année. Hanoucca, fête des lumières, rappelle un épisode lié à la réinauguration du Temple après la révolte des Maccabées. Roch Hachana marque le début de l'année dans le calendrier juif. Ces fêtes suivent un calendrier luni-solaire."
+  },
+  {
+   "q": "Quelle différence sépare les traditions ashkénaze et séfarade ?",
+   "choix": [
+    "Elles reconnaissent des bibles différentes",
+    "Elles correspondent à des aires géographiques et culturelles distinctes",
+    "L'une refuse l'étude du Talmud",
+    "L'une ne célèbre pas le chabbat"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Les Ashkénazes sont les communautés installées dans le monde germanique puis en Europe centrale et orientale, où s'est développée la langue yiddish. Les Séfarades sont issus de la péninsule Ibérique et se sont établis après 1492 dans l'Empire ottoman et en Afrique du Nord, en parlant notamment le judéo-espagnol. Leurs différences portent sur les usages liturgiques, la prononciation de l'hébreu, la cuisine et certaines coutumes, mais non sur le texte biblique, qui est commun. Les deux traditions étudient le Talmud et observent le chabbat. Ces distinctions sont culturelles et rituelles plutôt que doctrinales."
+  }
+ ]
+}

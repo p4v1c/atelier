@@ -1,0 +1,222 @@
+{
+ "titre": "Les instruments scientifiques : microscope, télescope, boussole",
+ "sections": [
+  {
+   "titre": "La lunette de 1608 et le ciel de Galilée",
+   "texte": "Une lunette astronomique est un tube portant à ses deux extrémités deux systèmes de lentilles convergentes : l'objectif, de grand diamètre, qui recueille la lumière et en forme une image, et l'oculaire, plus petit, qui sert de loupe pour examiner cette image. Le grand diamètre de l'objectif est essentiel : il collecte bien plus de lumière que la pupille de l'œil, si bien que l'instrument ne grossit pas seulement, il éclaircit, révélant des astres invisibles autrement. L'invention est disputée. L'astronome ottoman Taqi al-Din décrit vers 1574 un dispositif à deux lentilles permettant de voir en détail les objets lointains. En 1608, aux Provinces-Unies, plusieurs demandes se croisent : Hans Lippershey présente son instrument en septembre et dépose une demande de brevet le 2 octobre, Jacob Metius en fait autant quelques semaines plus tard, tandis que d'autres sources attribuent une réalisation antérieure à Zacharias Janssen. Aucune paternité ne peut être établie avec certitude. Ce qui est certain, c'est l'usage qu'en fait Galilée à partir de 1609 : il construit ses propres instruments, portant le grossissement de six à une trentaine de fois, et les pointe vers le ciel. Il découvre les montagnes de la Lune, quatre satellites en orbite autour de Jupiter et les phases de Vénus, autant d'observations qui ruinent l'idée que tout tourne autour de la Terre. Johannes Kepler propose en 1611 une autre combinaison optique, celle que l'on appelle aujourd'hui lunette astronomique.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "La lunette de 1608 : une invention sans inventeur certain",
+    "colonnes": [
+     "Qui",
+     "Quand",
+     "Ce que l'on sait"
+    ],
+    "lignes": [
+     [
+      "Taqi al-Din",
+      "vers 1574",
+      "Décrit un dispositif à deux lentilles permettant de voir en détail les objets lointains"
+     ],
+     [
+      "Hans Lippershey",
+      "1608",
+      "Présente son instrument en septembre et dépose une demande de brevet le 2 octobre"
+     ],
+     [
+      "Jacob Metius",
+      "1608",
+      "Dépose une demande semblable quelques semaines plus tard"
+     ],
+     [
+      "Zacharias Janssen",
+      "?",
+      "D'autres sources lui attribuent une réalisation antérieure"
+     ]
+    ],
+    "note": "Aucune paternité ne peut être établie avec certitude. Ce qui est certain, c'est l'usage qu'en fait Galilée dès 1609 : grossissement porté de six à une trentaine de fois, montagnes de la Lune, quatre satellites de Jupiter, phases de Vénus."
+   }
+  },
+  {
+   "titre": "Le télescope à miroir, de Newton aux géants modernes",
+   "texte": "Les lunettes se heurtent vite à un défaut du verre : il ne dévie pas de la même manière toutes les couleurs de la lumière. Le bleu et le rouge ne convergent donc pas exactement au même endroit, et les images se bordent de franges colorées : c'est l'aberration chromatique. Au XVIIe siècle, on la combattait en allongeant démesurément les tubes, jusqu'à des dizaines de mètres, ce qui rendait les instruments presque inutilisables. Isaac Newton propose une autre voie et construit en 1668 le premier télescope à réflexion. L'idée est simple et efficace : remplacer la lentille par un miroir concave, qui renvoie toutes les couleurs de la même façon, supprimant par construction l'aberration chromatique. Dans la formule dite de Newton, la lumière frappe un miroir primaire au fond du tube, remonte vers un petit miroir plan incliné à quarante-cinq degrés, puis sort latéralement vers l'oculaire. En français, l'usage distingue soigneusement la lunette, qui utilise des lentilles, du télescope, qui utilise des miroirs, tandis que certains montages combinent les deux. L'avantage du miroir est aussi pratique : on peut le soutenir par l'arrière, alors qu'une lentille ne peut être tenue que par le bord et fléchit sous son propre poids. C'est pourquoi tous les grands instruments actuels sont des télescopes, du Very Large Telescope aux télescopes Keck, sans oublier le télescope spatial Hubble, lancé en 1990.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Lunette ou télescope ?",
+    "colonnes": [
+     {
+      "titre": "La lunette (lentilles)",
+      "points": [
+       "L'objectif est une lentille qui recueille la lumière",
+       "Le verre ne dévie pas identiquement toutes les couleurs : les images se bordent de franges, c'est l'aberration chromatique",
+       "Au XVIIe siècle, on la combattait en allongeant les tubes jusqu'à des dizaines de mètres",
+       "Une lentille ne peut être tenue que par le bord et fléchit sous son poids"
+      ]
+     },
+     {
+      "titre": "Le télescope (miroirs)",
+      "points": [
+       "Newton construit le premier télescope à réflexion en 1668",
+       "Un miroir concave renvoie toutes les couleurs de la même façon : plus d'aberration chromatique",
+       "Le miroir peut être soutenu par l'arrière, donc être très grand",
+       "Tous les grands instruments actuels sont des télescopes : VLT, Keck, Hubble lancé en 1990"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le microscope : l'invention d'un monde invisible",
+   "texte": "Le mot vient du grec mikros, petit, et skopein, regarder. Le principe optique du microscope composé ressemble à celui de la lunette, mais avec un objet très proche : un objectif de très courte distance focale forme une image fortement agrandie de l'échantillon, et un oculaire permet de l'examiner comme à la loupe ; le grossissement total combine les deux étages. L'instrument naît aux Pays-Bas autour de 1600, mais son inventeur reste discuté : les noms de Zacharias Janssen, de Hans Lippershey et de Cornelis Drebbel sont avancés, sans preuve décisive. Galilée adapte sa lunette à l'observation des petits objets après 1610, et c'est Giovanni Faber qui propose en 1625 le mot microscope pour désigner son appareil. La révélation vient ensuite de deux hommes très différents. En 1665, l'Anglais Robert Hooke publie Micrographia, un ouvrage aux planches saisissantes, où figurent une puce et un œil de mouche vus de très près ; en observant une coupe de liège, il nomme cellules les petites logettes qu'il y distingue. Le Néerlandais Antoni van Leeuwenhoek, drapier de son état, taille lui-même de minuscules lentilles uniques d'une qualité exceptionnelle et atteint des grossissements de l'ordre de trois cents fois ; il découvre à partir de 1676 des micro-organismes vivants dans l'eau et la salive. Le monde compte désormais des habitants que nul n'avait jamais soupçonnés.",
+   "visuel": {
+    "type": "frise",
+    "titre": "La découverte du monde invisible",
+    "evenements": [
+     {
+      "date": "vers 1600",
+      "label": "Naissance du microscope composé",
+      "texte": "Aux Pays-Bas ; l'inventeur reste discuté entre Janssen, Lippershey et Drebbel, sans preuve décisive."
+     },
+     {
+      "date": "après 1610",
+      "label": "Galilée",
+      "texte": "Il adapte sa lunette à l'observation des petits objets."
+     },
+     {
+      "date": "1625",
+      "label": "Le mot microscope",
+      "texte": "Proposé par Giovanni Faber."
+     },
+     {
+      "date": "1665",
+      "label": "Micrographia",
+      "texte": "Robert Hooke publie ses planches de puce et d'œil de mouche, et nomme cellules les logettes qu'il voit dans le liège."
+     },
+     {
+      "date": "à partir de 1676",
+      "label": "Leeuwenhoek",
+      "texte": "Ce drapier taille des lentilles uniques atteignant trois cents fois et découvre des micro-organismes vivants dans l'eau et la salive."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "La limite de la lumière et le microscope électronique",
+   "texte": "Peut-on grossir indéfiniment ? Non, et la raison est profonde. La lumière est une onde, et une onde ne peut pas distinguer des détails beaucoup plus petits que sa propre longueur d'onde : elle les contourne au lieu de les révéler, phénomène appelé diffraction. Ernst Abbe établit à la fin du XIXe siècle la théorie de cette limite de résolution. En pratique, un microscope optique ordinaire ne sépare pas deux points distants de moins de deux cent cinquante nanomètres environ, soit un quart de millième de millimètre. Au-delà, augmenter le grossissement ne fait que produire une image plus grande et plus floue, sans information supplémentaire : on parle de grossissement vide. Franchir cette barrière suppose donc d'abandonner la lumière visible pour une onde de longueur bien plus courte. C'est ce que permettent les électrons : ces particules se comportent aussi comme des ondes, de longueur d'onde minuscule, et ils peuvent être déviés et focalisés par des champs électriques et magnétiques, qui jouent le rôle de lentilles. Ernst Ruska et Max Knoll construisent en 1931 le prototype du microscope électronique, dont la résolution dépasse de très loin celle des instruments optiques, au prix d'un fonctionnement sous vide et d'échantillons spécialement préparés. D'autres familles d'instruments sont apparues depuis, dites à sonde locale, comme le microscope à effet tunnel ou le microscope à force atomique, qui explorent la surface presque atome par atome.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "Pourquoi on ne grossit pas indéfiniment",
+    "etapes": [
+     {
+      "label": "La lumière est une onde",
+      "texte": "Elle ne peut pas distinguer des détails beaucoup plus petits que sa propre longueur d'onde : elle les contourne, c'est la diffraction."
+     },
+     {
+      "label": "Une limite calculable",
+      "texte": "Ernst Abbe en établit la théorie à la fin du XIXe siècle."
+     },
+     {
+      "label": "250 nanomètres",
+      "texte": "Un microscope optique ordinaire ne sépare pas deux points plus proches que cela, soit un quart de millième de millimètre."
+     },
+     {
+      "label": "Le grossissement vide",
+      "texte": "Au-delà, agrandir ne donne qu'une image plus grande et plus floue, sans information supplémentaire."
+     },
+     {
+      "label": "Changer d'onde",
+      "texte": "Les électrons se comportent aussi comme des ondes, de longueur d'onde minuscule, et se focalisent par des champs électriques et magnétiques."
+     },
+     {
+      "label": "1931",
+      "texte": "Ruska et Knoll construisent le prototype du microscope électronique, au prix du vide et d'échantillons préparés."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "La boussole : s'orienter loin de tout repère",
+   "texte": "Une boussole est un instrument de navigation constitué d'une aiguille aimantée, libre de tourner, qui s'aligne sur le champ magnétique terrestre. La Terre se comporte en effet comme un gigantesque aimant ; comme les pôles magnétiques contraires s'attirent, le pôle situé près du nord géographique se comporte en réalité comme un pôle sud magnétique, ce qui explique que la pointe nord de l'aiguille s'oriente vers lui. L'instrument vient de Chine. Dès le IVe siècle, des textes signalent la propriété de la magnétite d'attirer le fer, mais la première mention claire d'un usage pour la navigation figure dans un texte de Zhu Yu daté de 1117, qui explique que les marins consultent la boussole lorsque le ciel s'obscurcit. En Occident, la première description connue est celle d'Alexandre Neckam, vers 1190, qui évoque une aiguille aimantée employée par les navigateurs. L'attribution de l'invention au marin italien Flavio Gioja, vers 1300, est un mythe tenace que les historiens ont écarté. Une difficulté fondamentale demeure : le nord magnétique ne coïncide pas avec le nord géographique, et l'écart, appelé déclinaison, varie selon le lieu et l'époque ; tout marin doit en tenir compte. Le cadran gradué qui accompagne l'aiguille, la rose des vents, comportait traditionnellement trente-deux directions, soit un intervalle de onze degrés et quart, avant l'adoption des graduations en trois cent soixante degrés."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quelle est, en français, la différence entre une lunette astronomique et un télescope ?",
+   "choix": [
+    "La lunette sert le jour, le télescope la nuit",
+    "La lunette utilise des lentilles, le télescope des miroirs",
+    "La lunette grossit moins de dix fois, le télescope davantage",
+    "La lunette est portative, le télescope est fixe"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "L'usage français distingue nettement les deux instruments par leur principe optique. La lunette astronomique est un réfracteur : sa pièce maîtresse est un objectif formé de lentilles, qui dévient la lumière en la traversant. Le télescope est un réflecteur : la lumière est renvoyée par un miroir concave. Cette distinction n'est pas qu'un détail de vocabulaire, car les miroirs échappent à l'aberration chromatique, ce défaut qui borde les images de franges colorées dans les lunettes. C'est pourquoi tous les très grands instruments modernes, comme le Very Large Telescope ou le télescope spatial Hubble lancé en 1990, sont des télescopes à miroirs."
+  },
+  {
+   "q": "Pourquoi Newton a-t-il remplacé la lentille par un miroir dans son télescope de 1668 ?",
+   "choix": [
+    "Parce que le verre était devenu trop coûteux",
+    "Parce qu'un miroir est plus léger à transporter",
+    "Parce qu'un miroir renvoie toutes les couleurs de la même façon et supprime l'aberration chromatique",
+    "Parce que le miroir permet de voir aussi le jour"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Le verre ne dévie pas toutes les couleurs de la lumière du même angle : le bleu et le rouge ne convergent pas au même point, et l'image se borde de franges colorées. C'est l'aberration chromatique, principale limite des lunettes du XVIIe siècle, que l'on tentait de réduire en allongeant les tubes jusqu'à des longueurs absurdes. Isaac Newton contourne le problème en 1668 en construisant le premier télescope à réflexion : un miroir concave réfléchit toutes les couleurs de façon identique, donc le défaut disparaît par construction. Dans sa formule, un petit miroir plan incliné à quarante-cinq degrés renvoie la lumière sur le côté du tube, vers l'oculaire."
+  },
+  {
+   "q": "Qui publie en 1665 Micrographia et emploie le mot « cellule » à propos du liège ?",
+   "choix": [
+    "Antoni van Leeuwenhoek",
+    "Robert Hooke",
+    "Zacharias Janssen",
+    "Ernst Abbe"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Robert Hooke publie en 1665 Micrographia, un ouvrage qui frappe les contemporains par la précision de ses planches gravées, notamment celles d'une puce et d'un œil de mouche. En observant une fine coupe de liège au microscope, il y distingue de petites logettes régulières qu'il compare aux cellules d'un monastère : le mot est né, et fera fortune en biologie. Antoni van Leeuwenhoek, lui, travaillait avec des lentilles uniques de qualité exceptionnelle, atteignant environ trois cents fois de grossissement, et découvrit à partir de 1676 les micro-organismes. Ernst Abbe, bien plus tard, établira la théorie de la limite de résolution des instruments optiques."
+  },
+  {
+   "q": "Pourquoi un microscope optique ne peut-il pas distinguer des détails plus fins qu'environ 250 nanomètres ?",
+   "choix": [
+    "Parce que les lentilles de verre sont imparfaites",
+    "Parce que l'œil humain ne perçoit pas au-delà",
+    "Parce que l'échantillon serait détruit par la lumière",
+    "À cause de la diffraction, la lumière étant une onde de longueur d'onde non nulle"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "La limite n'est pas un défaut de fabrication : elle tient à la nature même de la lumière. Une onde ne peut pas révéler des détails nettement plus petits que sa longueur d'onde, car elle les contourne au lieu de s'y arrêter ; c'est la diffraction, dont Ernst Abbe a établi la théorie à la fin du XIXe siècle. Un microscope optique plafonne donc autour de deux cent cinquante nanomètres. Grossir davantage donne seulement une image plus grande et plus floue, sans détail nouveau : on parle de grossissement vide. Pour aller plus loin, Ernst Ruska et Max Knoll utilisent en 1931 des électrons, dont la longueur d'onde est bien plus courte."
+  },
+  {
+   "q": "Que sait-on de l'origine de la boussole ?",
+   "choix": [
+    "Elle vient de Chine, où son usage en navigation est attesté dans un texte de 1117",
+    "Elle a été inventée par l'Italien Flavio Gioja vers 1300",
+    "Elle a été mise au point par les navigateurs portugais au XVe siècle",
+    "Elle date de l'Antiquité grecque, à partir de la magnétite de Magnésie"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La boussole est d'origine chinoise. Les propriétés de la magnétite, qui attire le fer, sont mentionnées dès le IVe siècle, mais la première référence claire à un usage maritime figure dans un texte de Zhu Yu daté de 1117, expliquant que les marins la consultent quand le ciel se couvre. En Occident, la plus ancienne description connue est celle d'Alexandre Neckam, vers 1190. L'attribution à Flavio Gioja, souvent répétée, est considérée par les historiens comme un mythe. Il faut aussi retenir que l'aiguille indique le nord magnétique, décalé par rapport au nord géographique : cet écart, la déclinaison, varie selon le lieu et l'époque."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Lunette astronomique",
+   "url": "https://fr.wikipedia.org/wiki/Lunette_astronomique"
+  },
+  {
+   "titre": "Télescope",
+   "url": "https://fr.wikipedia.org/wiki/T%C3%A9lescope"
+  },
+  {
+   "titre": "Microscope",
+   "url": "https://fr.wikipedia.org/wiki/Microscope"
+  },
+  {
+   "titre": "Boussole",
+   "url": "https://fr.wikipedia.org/wiki/Boussole"
+  }
+ ]
+}

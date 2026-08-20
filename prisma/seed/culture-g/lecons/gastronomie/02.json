@@ -1,0 +1,187 @@
+{
+ "titre": "Le vin, les vignobles et les appellations",
+ "sections": [
+  {
+   "titre": "Vingt-six siècles de vigne",
+   "texte": "La vigne cultivée n'est pas née en France. Domestiquée au Proche-Orient plusieurs millénaires avant notre ère, elle atteint la Gaule méditerranéenne avec les Grecs de Phocée qui fondent Massalia, l'actuelle Marseille, vers 600 avant notre ère. Les Romains diffusent ensuite la culture vers le nord : la vallée du Rhône, le Bordelais, la Bourgogne, la Champagne et jusqu'à la Moselle sont plantés au cours des premiers siècles de notre ère. Au Moyen Âge, l'Église prend le relais. Les monastères ont besoin de vin pour la messe, disposent de main-d'œuvre et de terres, et surtout tiennent des registres : les cisterciens de Bourgogne observent parcelle par parcelle ce que donne chaque sol, jetant les bases de la notion de climat. Le commerce fait le reste. L'Aquitaine anglaise expédie ses vins vers Londres, la Hanse et les Hollandais achètent les blancs du Bordelais, la Champagne prospère grâce à ses foires. Le XIXe siècle apporte deux chocs : le chemin de fer, qui ouvre le marché national, et une série de fléaux venus d'Amérique — oïdium, mildiou et surtout phylloxéra, repéré dans le Gard en 1863. Ce puceron des racines détruit en trois décennies l'essentiel du vignoble français et contraint à replanter le pays entier sur des porte-greffes américains résistants."
+  },
+  {
+   "titre": "De la grappe au verre",
+   "texte": "Vinifier consiste à laisser des levures transformer le sucre du raisin en alcool et en gaz carbonique, puis à conduire ce vin jusqu'à la bouteille. Tout commence par la vendange, dont la date est décisive : trop tôt, le raisin manque de sucre et de maturité aromatique ; trop tard, l'acidité s'effondre et le degré d'alcool s'envole. Pour un vin rouge, les raisins sont éraflés et foulés, puis le jus fermente au contact des peaux pendant une à trois semaines. Cette macération est capitale, car la pulpe de presque tous les cépages est incolore : ce sont les peaux qui donnent la couleur, les tanins et une grande partie des arômes. On presse ensuite le marc, puis beaucoup de rouges subissent une seconde transformation, la fermentation malolactique, qui convertit l'acide malique en acide lactique plus doux. Pour un blanc, la logique s'inverse : on presse immédiatement, on ne fait fermenter que le jus clair, à basse température pour préserver la finesse. Le rosé s'obtient soit par un pressurage direct de raisins rouges, soit par une macération très brève suivie d'une saignée de la cuve. Vient enfin l'élevage, en cuve inox pour la fraîcheur ou en fût de chêne, où de légers échanges avec l'air et le bois arrondissent le vin.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "La vinification en rouge",
+    "etapes": [
+     {
+      "label": "Vendange",
+      "texte": "Récolte à maturité, à la main ou à la machine."
+     },
+     {
+      "label": "Éraflage et foulage",
+      "texte": "On sépare les rafles et on fait éclater les grains."
+     },
+     {
+      "label": "Macération et fermentation",
+      "texte": "Les levures transforment le sucre en alcool ; les peaux cèdent couleur et tanins."
+     },
+     {
+      "label": "Pressurage",
+      "texte": "On extrait le vin de presse, plus tannique, du marc restant."
+     },
+     {
+      "label": "Fermentation malolactique",
+      "texte": "L'acide malique devient acide lactique : le vin s'adoucit."
+     },
+     {
+      "label": "Élevage et mise",
+      "texte": "Cuve ou fût pendant quelques mois à plusieurs années, puis embouteillage."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Les grandes régions et leurs cépages",
+   "texte": "La France compte environ huit cent mille hectares de vigne et dispute chaque année à l'Italie le rang de premier producteur mondial, avec une récolte de l'ordre de quarante à quarante-cinq millions d'hectolitres. Chaque grand bassin s'est spécialisé dans les cépages que son climat autorise. Le Bordelais, océanique, assemble le cabernet sauvignon et le merlot en rouge, le sémillon et le sauvignon en blanc, et produit à Sauternes des liquoreux nés de la pourriture noble. La Bourgogne, continentale, ne travaille presque que deux cépages, le pinot noir et le chardonnay, mais découpe son vignoble en parcelles minutieusement hiérarchisées. La vallée du Rhône oppose un nord de coteaux escarpés dominé par la syrah à un sud plus chaud où domine le grenache assemblé. L'Alsace, protégée par les Vosges, est le domaine des blancs de cépage : riesling, gewurztraminer, pinot gris, muscat. La Loire aligne le muscadet, le chenin et le cabernet franc sur près de mille kilomètres. Le Languedoc-Roussillon, plus vaste vignoble de France par la surface, est passé en une génération du vin de masse à des appellations reconnues. La Champagne, enfin, assemble chardonnay, pinot noir et meunier pour ses vins effervescents. S'y ajoutent le Jura, la Savoie, le Sud-Ouest, la Provence et la Corse.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Sept régions, sept signatures",
+    "colonnes": [
+     "Région",
+     "Cépages emblématiques",
+     "Vin typique"
+    ],
+    "lignes": [
+     [
+      "Bordelais",
+      "Cabernet sauvignon, merlot, sémillon",
+      "Médoc rouge de garde, sauternes liquoreux"
+     ],
+     [
+      "Bourgogne",
+      "Pinot noir, chardonnay",
+      "Gevrey-Chambertin, chablis"
+     ],
+     [
+      "Champagne",
+      "Chardonnay, pinot noir, meunier",
+      "Champagne brut sans année"
+     ],
+     [
+      "Vallée du Rhône",
+      "Syrah au nord, grenache au sud",
+      "Côte-Rôtie, châteauneuf-du-pape"
+     ],
+     [
+      "Alsace",
+      "Riesling, gewurztraminer, pinot gris",
+      "Blancs secs de cépage"
+     ],
+     [
+      "Val de Loire",
+      "Chenin, cabernet franc, melon de Bourgogne",
+      "Vouvray, chinon, muscadet"
+     ],
+     [
+      "Languedoc-Roussillon",
+      "Grenache, syrah, carignan, mourvèdre",
+      "Rouges méditerranéens, vins doux naturels"
+     ]
+    ]
+   }
+  },
+  {
+   "titre": "Le système des appellations",
+   "texte": "Le classement des vins français répond à une idée simple et exigeante : le nom d'un lieu garantit un type de vin. Le principe s'invente dans la crise. Après le phylloxéra, la fraude prospère, et la loi de 1905 puis surtout la loi Capus du 30 juillet 1935 organisent la réponse en créant l'appellation d'origine contrôlée et le comité national qui deviendra l'INAO en 1947. Le premier vignoble à en bénéficier, en 1936, est le Châteauneuf-du-Pape, dont le baron Pierre Le Roy de Boiseaumarié avait fait délimiter l'aire dès 1923. Une AOC ne certifie pas la qualité d'une bouteille précise : elle impose une aire délimitée, des cépages autorisés, un rendement maximal, des pratiques de culture et de vinification, et un examen final. Depuis l'harmonisation européenne, ces appellations relèvent aussi de l'AOP, tandis que l'ancien vin de pays est devenu IGP et que les vins sans indication géographique portent la mention vin de France. Chaque région ajoute sa propre hiérarchie. La Bourgogne empile quatre niveaux, des appellations régionales aux grands crus qui n'occupent guère plus de un pour cent de la surface. Le Bordelais préfère classer des propriétés, comme le fit le classement de 1855 pour le Médoc, à partir des prix pratiqués depuis des décennies."
+  },
+  {
+   "titre": "Déguster et comprendre un vin",
+   "texte": "La dégustation suit un ordre convenu qui n'a rien de mystérieux. L'œil renseigne sur l'âge et la concentration : un rouge jeune tire sur le violet, un vieux vin vers la brique ; un blanc pâle et vert est souvent jeune, un blanc doré peut être élevé ou évolué. Le nez se pratique en deux temps, d'abord verre immobile, puis après agitation qui libère les composés volatils ; on cherche à situer les arômes par familles, fruits, fleurs, épices, notes boisées, notes animales dites tertiaires. En bouche, on juge d'abord l'équilibre entre l'acidité, l'alcool, le sucre éventuel et, pour les rouges, les tanins qui assèchent la langue. La longueur, mesurée en caudalies, désigne le temps pendant lequel la sensation persiste après avoir avalé. Un vocabulaire précis existe pour tout cela, mais l'essentiel reste de comparer et de mémoriser. Le vignoble français traverse aujourd'hui une double mutation. La consommation nationale a été divisée par plus de deux depuis les années 1960, ce qui contraint à arracher des surfaces, tandis que le réchauffement climatique avance les vendanges de plusieurs semaines par rapport au XXe siècle, augmente le degré d'alcool et fait réfléchir à des cépages plus tardifs. La carte des vins de demain ne ressemblera pas exactement à celle d'aujourd'hui.",
+   "visuel": {
+    "type": "image",
+    "image": "gas-vignoble-bourgogne",
+    "legende": "Les climats du vignoble de Bourgogne, parcelles délimitées inscrites au patrimoine mondial en 2015.",
+    "alt": "Coteau couvert de rangs de vigne descendant vers un village, sous un ciel clair."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Qui a introduit la vigne sur le littoral de la Gaule vers 600 avant notre ère ?",
+   "choix": [
+    "Les Grecs de Phocée, fondateurs de Massalia",
+    "Les Romains de Jules César",
+    "Les Celtes du Rhin",
+    "Les marchands carthaginois"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Les Grecs venus de Phocée fondent Massalia, l'actuelle Marseille, vers 600 avant notre ère et y implantent la vigne. Ce sont ensuite les Romains qui diffusent la culture vers le nord, jusqu'à la Bourgogne, la Champagne et la Moselle, au cours des premiers siècles de notre ère. Au Moyen Âge, les monastères prennent le relais et, en Bourgogne, observent parcelle par parcelle le comportement des sols. Cette longue accumulation d'observations est à l'origine de la notion de climat."
+  },
+  {
+   "q": "D'où proviennent la couleur et les tanins d'un vin rouge ?",
+   "choix": [
+    "Du bois du fût",
+    "De la peau des raisins pendant la macération",
+    "D'un colorant ajouté",
+    "De la pulpe du raisin, naturellement rouge"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "La pulpe de la quasi-totalité des cépages est incolore ; c'est la macération du jus au contact des peaux qui donne au vin sa couleur, ses tanins et une part de ses arômes. C'est pourquoi on peut produire un blanc à partir de raisins noirs, comme le blanc de noirs en Champagne, en pressant immédiatement. Le rosé s'obtient par un pressurage direct ou par une macération très brève. Le fût de chêne apporte, lui, des tanins et des arômes supplémentaires lors de l'élevage."
+  },
+  {
+   "q": "Que change la fermentation malolactique dans un vin ?",
+   "choix": [
+    "Elle augmente le degré d'alcool",
+    "Elle rend le vin effervescent",
+    "Elle transforme l'acide malique en acide lactique, plus doux",
+    "Elle élimine les tanins"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "La fermentation malolactique est une transformation bactérienne, distincte de la fermentation alcoolique conduite par les levures. Elle convertit l'acide malique, dur et vert comme celui de la pomme, en acide lactique nettement plus souple. Presque tous les rouges la subissent, ainsi que certains blancs comme les chardonnays de Bourgogne. On l'évite en revanche pour les blancs dont on veut préserver la vivacité, tel le riesling."
+  },
+  {
+   "q": "Quelle appellation est reconnue comme la première AOC, en 1936 ?",
+   "choix": [
+    "Le pommard",
+    "Le sauternes",
+    "Le muscadet",
+    "Le châteauneuf-du-pape"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Le châteauneuf-du-pape est la première appellation d'origine contrôlée reconnue après la loi Capus de 1935. Le baron Pierre Le Roy de Boiseaumarié, vigneron et juriste, avait fait délimiter l'aire de production et imposer des règles strictes dès 1923. Son syndicat a servi de modèle au système français des appellations. L'INAO, créé sous un autre nom en 1935, prend son appellation actuelle en 1947."
+  },
+  {
+   "q": "Quelle part du vignoble bourguignon les grands crus représentent-ils environ ?",
+   "choix": [
+    "Un quart",
+    "La moitié",
+    "Un pour cent",
+    "Les trois quarts"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "La hiérarchie bourguignonne compte quatre niveaux : appellations régionales, appellations village, premiers crus et grands crus. Ces derniers, qui portent le seul nom de la parcelle comme chambertin ou montrachet, ne couvrent guère plus de un pour cent de la surface du vignoble. Les appellations régionales en représentent au contraire près de la moitié. Cette pyramide très étroite au sommet explique en partie les prix atteints par certaines bouteilles."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Vignoble français",
+   "url": "https://fr.wikipedia.org/wiki/Vignoble_fran%C3%A7ais"
+  },
+  {
+   "titre": "Vin",
+   "url": "https://fr.wikipedia.org/wiki/Vin"
+  },
+  {
+   "titre": "Appellation d'origine contrôlée",
+   "url": "https://fr.wikipedia.org/wiki/Appellation_d%27origine_contr%C3%B4l%C3%A9e"
+  },
+  {
+   "titre": "Vignoble de Bourgogne",
+   "url": "https://fr.wikipedia.org/wiki/Vignoble_de_Bourgogne"
+  }
+ ]
+}

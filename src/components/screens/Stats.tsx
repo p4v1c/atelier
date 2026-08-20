@@ -17,7 +17,7 @@ import { MASTERY_BOX } from "@/lib/study/scheduler";
 
 type Tri = "domaine" | "faible";
 
-export function Stats({ engine, setScreen, setChrome }: ScreenProps) {
+export function Stats({ engine, moduleId, setScreen, setChrome }: ScreenProps) {
   const [progress, setProgress] = useState<ProgressPayload | null>(null);
   const [ouvert, setOuvert] = useState<string | null>(null);
   const [tri, setTri] = useState<Tri>("domaine");
@@ -28,8 +28,8 @@ export function Stats({ engine, setScreen, setChrome }: ScreenProps) {
       fil: "Statistiques",
       accroche: "Un palier se gagne à chaque bonne réponse et se perd de deux crans en cas d’erreur.",
     });
-    void engine.progress().then(setProgress);
-  }, [engine, setChrome]);
+    void engine.progress(moduleId).then(setProgress);
+  }, [engine, moduleId, setChrome]);
 
   const domaines = useMemo(() => {
     if (!progress) return [];
@@ -52,7 +52,7 @@ export function Stats({ engine, setScreen, setChrome }: ScreenProps) {
     setMessage(null);
     try {
       const taille = engine.isGuest ? loadGuestState().seriesLength : 20;
-      const session = await engine.start({ mode, size: taille, category });
+      const session = await engine.start({ mode, size: taille, category, moduleId });
       setScreen({ name: "serie", session });
     } catch (e) {
       setMessage(e instanceof NoContentError || e instanceof Error ? e.message : "Série impossible.");

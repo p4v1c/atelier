@@ -1,0 +1,185 @@
+{
+ "titre": "Les cinémas du monde : néoréalisme italien, Japon, Inde et nouveaux foyers",
+ "sections": [
+  {
+   "titre": "Le néoréalisme italien : filmer les ruines",
+   "texte": "À la fin de la Seconde Guerre mondiale, l'Italie sort ruinée du fascisme et de l'occupation. Les studios de Cinecittà, construits par le régime de Mussolini près de Rome, sont endommagés et servent un temps de camp de réfugiés. De ces contraintes naît un mouvement, le néoréalisme, qui fait de la pauvreté des moyens un choix esthétique. Les cinéastes tournent dans la rue plutôt qu'en décor, avec une lumière naturelle, une pellicule de qualité médiocre et des interprètes souvent non professionnels choisis pour leur visage et leur accent. Les sujets sont ceux de la vie ordinaire : le chômage, la faim, la débrouille, l'enfance abandonnée. Roberto Rossellini ouvre la voie avec «Rome ville ouverte» (1945), tourné dans une capitale à peine libérée, puis «Paisà» (1946). Vittorio De Sica, sur des scénarios de Cesare Zavattini, théoricien du mouvement, réalise «Le Voleur de bicyclette» (1948), où un père et son fils cherchent dans Rome le vélo indispensable au travail du premier, puis «Umberto D.» (1952). Luchino Visconti filme des pêcheurs siciliens parlant leur dialecte dans «La terre tremble» (1948). Le mouvement s'essouffle au début des années 1950, mais son influence est mondiale : on la retrouve chez Satyajit Ray en Inde, dans le cinéma brésilien et chez les futurs cinéastes de la Nouvelle Vague française, qui y voient la preuve qu'on peut filmer autrement."
+  },
+  {
+   "titre": "L'âge d'or du cinéma japonais",
+   "texte": "Le Japon possède l'une des plus anciennes et des plus abondantes industries cinématographiques du monde. À l'époque du muet, les projections y sont commentées en direct par un narrateur nommé benshi, véritable vedette du spectacle. Après la guerre, les studios Toho, Shochiku et Daiei produisent des centaines de films par an, et trois cinéastes s'imposent comme des maîtres. Akira Kurosawa mêle influence occidentale et tradition japonaise : «Rashomon» (1950), qui raconte quatre fois le même crime selon quatre témoins contradictoires, obtient le Lion d'or à Venise en 1951 et révèle brutalement ce cinéma à l'Occident, avant «Les Sept Samouraïs» (1954), modèle de film d'action souvent imité. Kenji Mizoguchi, attentif à la condition des femmes, pratique le plan-séquence et les longs mouvements d'appareil dans «Les Contes de la lune vague après la pluie» (1953). Yasujirō Ozu, à l'opposé, épure sa mise en scène : caméra posée très bas, plans fixes, récits familiaux d'une grande douceur comme «Voyage à Tokyo» (1953), sur des parents âgés délaissés par leurs enfants. La même décennie voit naître le film de monstre avec «Godzilla» (1954), métaphore du traumatisme atomique. Une nouvelle vague japonaise, autour de Nagisa Oshima, conteste ensuite les conventions dans les années 1960, tandis que l'animation, portée plus tard par le studio Ghibli, prend une place mondiale.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Trois maîtres de l'âge d'or japonais",
+    "colonnes": [
+     "Cinéaste",
+     "Manière de filmer",
+     "Film et consécration"
+    ],
+    "lignes": [
+     [
+      "Akira Kurosawa",
+      "Mêle influence occidentale et tradition japonaise, récit d'action très construit",
+      "« Rashomon » (1950), Lion d'or à Venise en 1951"
+     ],
+     [
+      "Kenji Mizoguchi",
+      "Plan-séquence et longs mouvements d'appareil, attention à la condition des femmes",
+      "« Les Contes de la lune vague après la pluie » (1953)"
+     ],
+     [
+      "Yasujirō Ozu",
+      "Mise en scène épurée : caméra posée très bas, plans fixes, récits familiaux",
+      "« Voyage à Tokyo » (1953)"
+     ]
+    ]
+   }
+  },
+  {
+   "titre": "L'Inde : du premier film muet à Bollywood",
+   "texte": "L'Inde est, depuis des décennies, le pays qui produit le plus de longs métrages au monde. Son premier film de fiction, «Raja Harishchandra», est réalisé en 1913 par Dadasaheb Phalke, à partir d'un épisode de la mythologie hindoue. Le parlant arrive en 1931 avec «Alam Ara», et la langue devient aussitôt un enjeu : le cinéma indien se fragmente en industries régionales, en hindi à Bombay, en télougou, en tamoul, en bengali ou en malayalam. Le terme Bollywood, formé sur Bombay et Hollywood, désigne la production commerciale en hindi. Ces films, souvent longs de près de trois heures avec un entracte, relèvent du genre dit masala, du nom d'un mélange d'épices : ils associent mélodrame familial, comédie, action, romance et surtout numéros chantés et dansés. Les acteurs ne chantent pas eux-mêmes : la voix est enregistrée par des chanteurs de play-back, dont Lata Mangeshkar fut la plus célèbre. Parmi les grands succès figurent «Mother India» (1957), «Sholay» (1975), film d'aventure inspiré du western, et «Dilwale Dulhania Le Jayenge» (1995), resté des années à l'affiche. Parallèlement existe un cinéma d'auteur reconnu dans le monde entier, illustré par le Bengali Satyajit Ray, dont «La Complainte du sentier» (1955) ouvre la trilogie d'Apu et adapte la leçon du néoréalisme italien à la campagne indienne.",
+   "visuel": {
+    "type": "frise",
+    "titre": "L'Inde, du premier film muet à Bollywood",
+    "evenements": [
+     {
+      "date": "1913",
+      "label": "« Raja Harishchandra »",
+      "texte": "Dadasaheb Phalke tire le premier film de fiction indien d'un épisode de la mythologie hindoue."
+     },
+     {
+      "date": "1931",
+      "label": "« Alam Ara »",
+      "texte": "Le parlant arrive et fragmente aussitôt le cinéma indien en industries régionales."
+     },
+     {
+      "date": "1955",
+      "label": "« La Complainte du sentier »",
+      "texte": "Satyajit Ray ouvre la trilogie d'Apu et adapte le néoréalisme à la campagne bengalie."
+     },
+     {
+      "date": "1957",
+      "label": "« Mother India »",
+      "texte": "L'un des grands succès du cinéma populaire en hindi."
+     },
+     {
+      "date": "1975",
+      "label": "« Sholay »",
+      "texte": "Film d'aventure inspiré du western, devenu un classique absolu."
+     },
+     {
+      "date": "1995",
+      "label": "« Dilwale Dulhania Le Jayenge »",
+      "texte": "Resté des années à l'affiche."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Afrique et Amérique latine : des cinémas de la décolonisation",
+   "texte": "Dans les pays colonisés, le cinéma a longtemps été un outil de l'administration européenne, et il fut même interdit aux Africains de réaliser des films dans les colonies françaises. Les indépendances des années 1960 changent la donne. Le Sénégalais Ousmane Sembène, d'abord écrivain, se tourne vers le film pour toucher un public largement non lecteur : «La Noire de...» (1966), qui suit une jeune domestique sénégalaise emmenée en France, est considéré comme le premier long métrage d'Afrique subsaharienne réalisé par un Africain. Sembène tourne ensuite en langue wolof. Pour diffuser ces oeuvres, le Festival panafricain du cinéma s'installe à Ouagadougou, au Burkina Faso, à partir de 1969 : le FESPACO devient le grand rendez-vous continental. Le Malien Souleymane Cissé et le Burkinabè Idrissa Ouédraogo prolongent ce mouvement dans les années 1980. En Amérique latine, le Mexique connaît un âge d'or dans les années 1940, où travaille notamment l'Espagnol exilé Luis Buñuel, auteur de «Los Olvidados» (1950) sur les enfants des rues. Au Brésil, le Cinema Novo revendique dans les années 1960 une caméra à la main et une idée en tête, formule de Glauber Rocha, dont «Le Dieu noir et le Diable blond» (1964) mêle mythes populaires et critique sociale. Ces cinémas affirment que raconter ses propres histoires est un enjeu politique."
+  },
+  {
+   "titre": "Les nouveaux foyers asiatiques et iraniens",
+   "texte": "À partir des années 1970, d'autres pôles s'imposent sur la scène internationale. Hong Kong exporte le film d'arts martiaux, popularisé par Bruce Lee, puis le polar chorégraphié de John Woo, tandis que Wong Kar-wai y développe un cinéma d'auteur raffiné avec «In the Mood for Love» (2000). En Chine continentale, la cinquième génération, formée après la Révolution culturelle, révèle Zhang Yimou et Chen Kaige, dont «Adieu ma concubine» reçoit la Palme d'or à Cannes en 1993. À Taïwan, Hou Hsiao-hsien et Edward Yang filment la mémoire et la ville dans de longs plans contemplatifs. L'Iran connaît, malgré une censure sévère, un rayonnement remarquable : Abbas Kiarostami, avec des films tournés souvent avec des enfants ou dans des voitures, obtient la Palme d'or en 1997 pour «Le Goût de la cerise», et Jafar Panahi poursuit ce travail dans des conditions difficiles. La Corée du Sud, dont l'industrie a été libéralisée après la fin de la dictature en 1987, s'affirme dans les années 2000 avec Park Chan-wook et Bong Joon-ho, dont «Parasite» remporte la Palme d'or en 2019 puis l'Oscar du meilleur film. Ces exemples montrent que la carte du cinéma mondial se redessine sans cesse, portée par les festivals, par les écoles nationales et, depuis peu, par les plateformes de diffusion en ligne.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les nouveaux foyers et leur consécration internationale",
+    "colonnes": [
+     "Foyer",
+     "Cinéastes",
+     "Reconnaissance"
+    ],
+    "lignes": [
+     [
+      "Hong Kong",
+      "Bruce Lee, John Woo, Wong Kar-wai",
+      "« In the Mood for Love » (2000)"
+     ],
+     [
+      "Chine continentale",
+      "Zhang Yimou, Chen Kaige",
+      "Palme d'or 1993 pour « Adieu ma concubine »"
+     ],
+     [
+      "Taïwan",
+      "Hou Hsiao-hsien, Edward Yang",
+      "Longs plans contemplatifs sur la mémoire et la ville"
+     ],
+     [
+      "Iran",
+      "Abbas Kiarostami, Jafar Panahi",
+      "Palme d'or 1997 pour « Le Goût de la cerise »"
+     ],
+     [
+      "Corée du Sud",
+      "Park Chan-wook, Bong Joon-ho",
+      "Palme d'or 2019 puis Oscar du meilleur film pour « Parasite »"
+     ]
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel film de Vittorio De Sica, sorti en 1948, suit un père et son fils cherchant dans Rome une bicyclette volée ?",
+   "choix": [
+    "«Le Voleur de bicyclette»",
+    "«Rome ville ouverte»",
+    "«La terre tremble»",
+    "«La Strada»"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "«Le Voleur de bicyclette» est réalisé par Vittorio De Sica en 1948, sur un scénario de Cesare Zavattini, le principal théoricien du néoréalisme. Le film est tourné dans les rues de Rome avec des interprètes non professionnels et raconte comment le vol d'un vélo prive un homme de son travail. Il est devenu le symbole du mouvement dans le monde entier. «Rome ville ouverte» (1945) est de Roberto Rossellini, «La terre tremble» (1948) de Luchino Visconti et «La Strada» (1954) de Federico Fellini, qui appartient déjà à l'après-néoréalisme."
+  },
+  {
+   "q": "Quel film d'Akira Kurosawa obtient le Lion d'or à Venise en 1951 et révèle le cinéma japonais au public occidental ?",
+   "choix": [
+    "«Les Sept Samouraïs»",
+    "«Voyage à Tokyo»",
+    "«Rashomon»",
+    "«Godzilla»"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "«Rashomon», réalisé en 1950, raconte un même crime à travers quatre témoignages incompatibles, ce qui pose la question de la vérité et du point de vue. Sa présentation à la Mostra de Venise en 1951, où il reçoit le Lion d'or, provoque la découverte du cinéma japonais en Europe et aux États-Unis. «Les Sept Samouraïs» est bien de Kurosawa, mais date de 1954. «Voyage à Tokyo» (1953) est de Yasujirō Ozu et «Godzilla» (1954) d'Ishirō Honda."
+  },
+  {
+   "q": "Le mot Bollywood est formé à partir du nom de quelle ville indienne ?",
+   "choix": [
+    "Delhi",
+    "Bombay",
+    "Calcutta",
+    "Madras"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Bollywood est un mot-valise construit sur Bombay, aujourd'hui appelée Mumbai, et sur Hollywood. Il désigne la production commerciale en langue hindi, concentrée dans cette ville. Il ne recouvre donc pas tout le cinéma indien : d'autres industries très importantes existent, notamment en télougou, en tamoul ou en bengali, avec leurs propres vedettes et leurs propres studios. Calcutta est plutôt associée au cinéma bengali et à Satyajit Ray, tandis que Madras, devenue Chennai, est un centre du cinéma tamoul."
+  },
+  {
+   "q": "Quel cinéaste sénégalais, auteur de «La Noire de...» (1966), est souvent présenté comme le pionnier du cinéma d'Afrique subsaharienne ?",
+   "choix": [
+    "Souleymane Cissé",
+    "Idrissa Ouédraogo",
+    "Djibril Diop Mambéty",
+    "Ousmane Sembène"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Ousmane Sembène était d'abord romancier ; il choisit le cinéma parce qu'il permettait de s'adresser à un public qui ne lisait pas le français. «La Noire de...», sorti en 1966, est considéré comme le premier long métrage réalisé par un cinéaste d'Afrique subsaharienne et suit une jeune domestique sénégalaise employée en France. Sembène tournera ensuite en wolof. Souleymane Cissé, malien, et Idrissa Ouédraogo, burkinabè, appartiennent à la génération suivante. Djibril Diop Mambéty, également sénégalais, est l'auteur de «Touki Bouki» (1973)."
+  },
+  {
+   "q": "Qui réalise «La Complainte du sentier» (1955), premier volet de la trilogie d'Apu, tourné en langue bengalie ?",
+   "choix": [
+    "Satyajit Ray",
+    "Raj Kapoor",
+    "Mrinal Sen",
+    "Dadasaheb Phalke"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Satyajit Ray réalise «La Complainte du sentier» en 1955, à Calcutta, avec très peu de moyens et une équipe largement débutante. Le film décrit l'enfance d'un garçon dans un village pauvre du Bengale et s'inspire ouvertement du néoréalisme italien, que Ray avait découvert, ainsi que du cinéma de Jean Renoir. Il ouvre une trilogie complétée par «L'Invaincu» et «Le Monde d'Apu». Raj Kapoor est une vedette et un réalisateur du cinéma populaire en hindi. Mrinal Sen est un autre cinéaste bengali, et Dadasaheb Phalke le pionnier du muet indien."
+  }
+ ]
+}

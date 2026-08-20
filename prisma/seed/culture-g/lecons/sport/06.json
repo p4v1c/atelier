@@ -1,0 +1,178 @@
+{
+ "titre": "Le basket-ball et le handball, deux sports collectifs de salle",
+ "sections": [
+  {
+   "titre": "L'invention du basket-ball",
+   "texte": "Le basket-ball est l'un des rares sports dont on connaisse précisément l'inventeur et la date de naissance. En décembre 1891, à Springfield dans le Massachusetts, un professeur d'éducation physique canadien nommé James Naismith cherche un jeu permettant d'occuper ses étudiants pendant l'hiver, à l'intérieur du gymnase, sans la brutalité du football américain. Il fixe deux paniers à pêches sur la coursive du gymnase, à environ trois mètres du sol, et rédige treize règles fondamentales. L'idée maîtresse est simple : puisque l'on ne peut pas courir avec le ballon, on doit le passer, ce qui limite les contacts violents. La cible étant placée en hauteur et horizontale, le tir doit être précis et non puissant. Au départ, chaque équipe compte neuf joueurs et il faut aller rechercher le ballon dans le panier après chaque point, avant que l'on ne songe à en découper le fond. Le dribble, absent des règles originelles, apparaît progressivement lorsque les joueurs prennent l'habitude de faire rebondir la balle pour se déplacer. Le jeu se répand très vite par le réseau des associations chrétiennes de jeunes gens, d'abord aux États-Unis puis dans le monde entier. Il arrive en France dès 1893, où le premier terrain est aménagé à Paris. La fédération internationale est fondée en 1932 et le basket-ball devient sport olympique en 1936, à Berlin, où Naismith lui-même assiste au tournoi."
+  },
+  {
+   "titre": "Les règles du basket-ball",
+   "texte": "Le basket-ball oppose deux équipes de cinq joueurs sur le terrain, sur une aire de vingt-huit mètres sur quinze selon les règles internationales. Le panier, un cercle de quarante-cinq centimètres de diamètre muni d'un filet, est fixé à trois mètres cinq du sol sur un panneau. Un panier réussi dans le jeu vaut deux points, ou trois points s'il est marqué au-delà de la ligne courbe tracée à distance du panier, dite ligne à trois points, introduite dans les années 1980 dans les compétitions internationales. Un lancer franc, accordé après certaines fautes, rapporte un point. Le déplacement obéit à des règles strictes : un joueur en possession du ballon doit dribbler, c'est-à-dire le faire rebondir, sous peine d'être sanctionné pour marcher ; il ne peut pas non plus reprendre son dribble après l'avoir interrompu. Plusieurs contraintes de temps accélèrent le jeu : l'équipe qui attaque dispose de vingt-quatre secondes pour tenter un tir, de huit secondes pour franchir la ligne médiane, et un attaquant ne peut rester plus de trois secondes dans la raquette adverse. Les contacts irréguliers sont sanctionnés par des fautes personnelles ; un joueur qui en accumule cinq est exclu de la rencontre. La partie se joue en quatre quart-temps de dix minutes dans les règles internationales, une prolongation départageant les équipes en cas d'égalité, car le match nul n'existe pas.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "Le basket-ball en chiffres",
+    "items": [
+     {
+      "valeur": "3,05 m",
+      "label": "hauteur du panier, un cercle de 45 cm de diamètre"
+     },
+     {
+      "valeur": "24 s",
+      "label": "pour tenter un tir, sinon le ballon change de camp"
+     },
+     {
+      "valeur": "8 s",
+      "label": "pour franchir la ligne médiane"
+     },
+     {
+      "valeur": "3 s",
+      "label": "temps maximal passé dans la raquette adverse"
+     },
+     {
+      "valeur": "5",
+      "label": "fautes personnelles avant l'exclusion"
+     },
+     {
+      "valeur": "4 x 10 min",
+      "label": "durée d'un match international ; le nul n'existe pas"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "La NBA et le rayonnement mondial du basket",
+   "texte": "Le championnat professionnel nord-américain, la NBA, est né en 1946 sous un autre nom et a pris sa forme actuelle en 1949 après une fusion. Il est devenu la vitrine mondiale du basket-ball et impose ses propres particularités réglementaires, comme des quart-temps de douze minutes. Les Boston Celtics dominent les premières décennies avec onze titres entre 1957 et 1969, portés par le pivot Bill Russell. Les années 1980 sont marquées par la rivalité entre Magic Johnson, meneur des Los Angeles Lakers, et Larry Bird, ailier des Celtics, qui relance la popularité de la ligue. Puis vient Michael Jordan, considéré par beaucoup comme le meilleur joueur de l'histoire, qui conduit les Chicago Bulls à six titres entre 1991 et 1998 et fait du basket un phénomène planétaire. Le tournant international a lieu aux Jeux de Barcelone, en 1992 : les joueurs professionnels de la NBA sont pour la première fois autorisés à participer, et la sélection américaine surnommée la Dream Team écrase la concurrence tout en suscitant un engouement mondial. En France, le basket s'est fortement développé : l'équipe masculine a remporté le championnat d'Europe en 2013 et décroché plusieurs médailles olympiques d'argent, notamment en 2000 et en 2020. Tony Parker, meneur de jeu passé par les San Antonio Spurs, y a remporté quatre titres NBA entre 2003 et 2014."
+  },
+  {
+   "titre": "La naissance et les règles du handball",
+   "texte": "Le handball moderne s'est constitué au début du XXe siècle en Europe du Nord, à partir de plusieurs jeux scolaires proches. L'Allemand Karl Schelenz en codifie les règles autour de 1919, dans une version pratiquée en plein air à onze joueurs par équipe sur un terrain de football, appelée handball à onze. C'est sous cette forme qu'il figure au programme des Jeux olympiques de Berlin en 1936. Parallèlement, les pays scandinaves, où le climat impose de jouer en salle, développent une variante à sept joueurs sur terrain réduit, plus rapide et plus technique, qui finit par s'imposer partout après la Seconde Guerre mondiale. La fédération internationale actuelle est fondée en 1946 ; le handball à sept devient olympique en 1972 à Munich pour les hommes et en 1976 à Montréal pour les femmes. Le jeu se dispute sur un terrain de quarante mètres sur vingt, entre deux équipes de sept joueurs dont un gardien. Devant chaque but, une zone délimitée par une ligne à six mètres est interdite aux joueurs de champ, qui doivent donc tirer en suspension au-dessus d'elle. Le porteur du ballon ne peut faire que trois pas sans dribbler et ne peut le garder plus de trois secondes. Les fautes graves sont sanctionnées par une exclusion temporaire de deux minutes, et un jet de sept mètres équivaut à un penalty.",
+   "visuels": [
+    {
+     "type": "comparaison",
+     "titre": "Deux sports de salle, deux logiques",
+     "colonnes": [
+      {
+       "titre": "Basket-ball",
+       "points": [
+        "Inventé par James Naismith en 1891 à Springfield.",
+        "Terrain de 28 m sur 15 m, cinq joueurs par équipe.",
+        "La cible est horizontale et placée en hauteur : le tir doit être précis plutôt que puissant.",
+        "Le porteur doit dribbler pour se déplacer, sous peine d'être sanctionné pour marcher.",
+        "Sanction : la faute personnelle, cinq entraînant l'exclusion définitive."
+       ]
+      },
+      {
+       "titre": "Handball",
+       "points": [
+        "Codifié par Karl Schelenz vers 1919, d'abord à onze joueurs en plein air.",
+        "Terrain de 40 m sur 20 m, sept joueurs par équipe dont un gardien.",
+        "La cible est un but vertical, protégé par une zone de 6 m interdite aux joueurs de champ : on tire en suspension au-dessus d'elle.",
+        "Le porteur ne peut faire que trois pas sans dribbler ni garder le ballon plus de trois secondes.",
+        "Sanction : l'exclusion temporaire de deux minutes ; le jet de sept mètres équivaut à un penalty."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "image",
+     "image": "sp-terrain-handball",
+     "legende": "Le terrain de handball, 40 m sur 20. La ligne de 6 m dessine devant chaque but une zone interdite aux joueurs de champ : c'est au-dessus d'elle que l'on tire, en suspension. La ligne pointillée de 9 m marque la distance des jets francs, et le trait de 7 m celle du penalty.",
+     "alt": "Schéma coté d'un terrain de handball de 40 m sur 20 m : ligne médiane, but de 3 m de large, zone de but délimitée par une ligne à 6 m, ligne de jet franc à 9 m et marque du jet de 7 m."
+    }
+   ]
+  },
+  {
+   "titre": "Le handball français, une école de champions",
+   "texte": "Longtemps discret, le handball est devenu l'un des grands succès du sport français. L'équipe nationale masculine se révèle au début des années 1990 avec une génération surnommée les Barjots, en raison de son style exubérant, qui décroche la médaille de bronze aux Jeux de Barcelone en 1992 puis la médaille d'argent au championnat du monde de 1993. Sous la direction de l'entraîneur Daniel Costantini, cette équipe remporte en 1995 le premier titre mondial de son histoire, en Islande, puis un second en 2001 à domicile. Une nouvelle génération, surnommée les Experts et dirigée par Claude Onesta, réalise ensuite une série de performances exceptionnelles : championne d'Europe en 2006 et en 2010, championne du monde en 2009, 2011, 2015 et 2017, et championne olympique à Pékin en 2008 puis à Londres en 2012. Ce cumul de titres mondiaux, européens et olympiques constitue une réussite sans équivalent dans les sports collectifs français. Des joueurs comme Jackson Richardson, le gardien Thierry Omeyer ou le demi-centre Nikola Karabatic sont devenus des figures nationales. L'équipe féminine a suivi le même chemin, avec des titres de championne du monde en 2003 et en 2017, un titre européen en 2018 et l'or olympique aux Jeux de Tokyo. Cette réussite s'appuie sur un réseau dense de clubs formateurs et sur des pôles de formation reconnus.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Le palmarès des équipes de France de handball",
+    "colonnes": [
+     "Compétition",
+     "Titres masculins",
+     "Titres féminins"
+    ],
+    "lignes": [
+     [
+      "Championnat du monde",
+      "1995, 2001, 2009, 2011, 2015, 2017",
+      "2003, 2017"
+     ],
+     [
+      "Championnat d'Europe",
+      "2006, 2010",
+      "2018"
+     ],
+     [
+      "Jeux olympiques",
+      "Pékin 2008, Londres 2012",
+      "Tokyo, disputés en 2021"
+     ]
+    ],
+    "note": "Les Barjots de Daniel Costantini ouvrent la voie avec le bronze olympique de 1992 et le premier titre mondial de 1995 ; les Experts de Claude Onesta cumulent ensuite titres mondiaux, européens et olympiques."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Qui a inventé le basket-ball en 1891 ?",
+   "choix": [
+    "James Naismith",
+    "Karl Schelenz",
+    "William Morgan",
+    "Walter Camp"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le basket-ball a été inventé en décembre 1891 par James Naismith, professeur d'éducation physique canadien travaillant à Springfield, dans le Massachusetts. Il cherchait un jeu d'intérieur pour l'hiver, moins brutal que le football américain, et rédigea treize règles fondamentales en fixant deux paniers à pêches en hauteur. Karl Schelenz est l'un des codificateurs du handball vers 1919. William Morgan, également issu du même réseau d'associations sportives, inventa le volley-ball en 1895. Walter Camp est considéré comme le père du football américain."
+  },
+  {
+   "q": "À quelle hauteur se situe le panier de basket-ball ?",
+   "choix": [
+    "2,50 mètres",
+    "2,80 mètres",
+    "3,05 mètres",
+    "3,50 mètres"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le panier de basket-ball est fixé à trois mètres cinq du sol, soit exactement dix pieds anglais, hauteur qui correspondait à celle de la coursive du gymnase où James Naismith accrocha ses premiers paniers à pêches. Cette hauteur n'a jamais changé depuis 1891, quelle que soit la taille des joueurs. Le cercle mesure quarante-cinq centimètres de diamètre et est fixé sur un panneau. Le fait que la cible soit horizontale et placée en hauteur oblige à privilégier l'adresse plutôt que la force."
+  },
+  {
+   "q": "Combien de temps une équipe de basket a-t-elle pour tenter un tir, selon les règles internationales ?",
+   "choix": [
+    "Trente secondes",
+    "Vingt-quatre secondes",
+    "Quinze secondes",
+    "Quarante-cinq secondes"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "L'équipe qui attaque dispose de vingt-quatre secondes pour tenter un tir au panier. Cette règle a été introduite pour empêcher les équipes de conserver indéfiniment le ballon et pour garantir un rythme de jeu soutenu et spectaculaire. D'autres contraintes de temps complètent ce dispositif : huit secondes pour franchir la ligne médiane et trois secondes maximum de présence d'un attaquant dans la raquette adverse. Un joueur qui commet cinq fautes personnelles est exclu de la rencontre dans les règles internationales."
+  },
+  {
+   "q": "Combien de joueurs compte une équipe de handball sur le terrain, gardien compris ?",
+   "choix": [
+    "Cinq",
+    "Six",
+    "Onze",
+    "Sept"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "Une équipe de handball aligne sept joueurs sur le terrain, soit six joueurs de champ et un gardien de but. Le handball se pratiquait à l'origine à onze joueurs, en plein air sur un terrain de football, et c'est sous cette forme qu'il figura aux Jeux de Berlin en 1936. La version en salle à sept joueurs, développée en Scandinavie, s'est imposée après la Seconde Guerre mondiale et est devenue olympique en 1972. Le terrain mesure quarante mètres sur vingt, avec une zone interdite aux joueurs de champ tracée à six mètres de chaque but."
+  },
+  {
+   "q": "Quel surnom portait la génération de handballeurs français championne du monde en 2009, 2011, 2015 et 2017 ?",
+   "choix": [
+    "Les Barjots",
+    "Les Bleuets",
+    "Les Experts",
+    "Les Mousquetaires"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La génération dirigée par Claude Onesta a été surnommée les Experts, en référence à une série télévisée alors très populaire. Elle a remporté les titres mondiaux de 2009, 2011, 2015 et 2017, les championnats d'Europe de 2006 et 2010 et les Jeux olympiques de 2008 et 2012. Les Barjots désignaient la génération précédente, celle des années 1990, médaillée de bronze à Barcelone en 1992 et championne du monde en 1995 sous la direction de Daniel Costantini. Les Mousquetaires renvoient au tennis français des années 1920."
+  }
+ ]
+}

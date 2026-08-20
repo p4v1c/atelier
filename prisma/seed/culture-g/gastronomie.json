@@ -1,0 +1,1267 @@
+{
+ "id": "gastronomie",
+ "nom": "Gastronomie & Art de vivre",
+ "emoji": "🍷",
+ "questions": [
+  {
+   "q": "Quel cuisinier du XIVe siècle est associé au « Viandier », l'un des plus anciens recueils de recettes rédigés en français ?",
+   "choix": [
+    "Guillaume Tirel, dit Taillevent",
+    "François Vatel",
+    "Bartolomeo Scappi",
+    "Menon"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Guillaume Tirel, surnommé Taillevent, a servi dans les cuisines royales françaises au cours du XIVe siècle, notamment auprès de Charles V. Son nom reste attaché au « Viandier », un recueil de recettes dont les plus anciens manuscrits sont antérieurs à sa carrière, ce qui laisse penser qu'il l'a enrichi plus qu'inventé. La cuisine qu'on y lit repose sur des sauces liées à la mie de pain, très épicées et acidulées au verjus ou au vinaigre, loin des sauces au beurre d'aujourd'hui. François Vatel, lui, est un maître d'hôtel du XVIIe siècle, et Bartolomeo Scappi un cuisinier italien de la Renaissance."
+  },
+  {
+   "q": "Quel ouvrage paru en 1651 est souvent considéré comme le premier livre de la cuisine française moderne ?",
+   "choix": [
+    "Le Ménagier de Paris",
+    "Le Cuisinier françois",
+    "La Physiologie du goût",
+    "Le Guide culinaire"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "« Le Cuisinier françois » de François Pierre de La Varenne paraît en 1651 et marque une rupture avec la cuisine médiévale. Les épices lointaines reculent au profit des herbes du jardin — persil, thym, laurier, estragon — et le beurre prend une place centrale. La Varenne y fixe des techniques encore enseignées aujourd'hui : le roux, les fonds, la réduction, la liaison des sauces. Le livre connaît des dizaines de rééditions et diffuse dans toute l'Europe l'idée d'une manière française de cuisiner."
+  },
+  {
+   "q": "Quel surnom la postérité a-t-elle donné à Marie-Antoine Carême ?",
+   "choix": [
+    "Le prince des gastronomes",
+    "Le pape de la cuisine",
+    "Le roi des chefs et le chef des rois",
+    "L'empereur des fourneaux"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Marie-Antoine Carême, mort en 1833, est passé à la postérité comme « le roi des chefs et le chef des rois ». Enfant abandonné devenu apprenti pâtissier, il a travaillé pour Talleyrand, pour le futur George IV d'Angleterre, pour le tsar Alexandre Ier puis pour les Rothschild. On lui doit la codification des sauces mères, la spectaculaire mode des pièces montées inspirées de l'architecture et, selon la tradition, la toque de cuisinier. Le titre de « prince des gastronomes » revient quant à lui au critique Curnonsky, élu par ses pairs en 1927."
+  },
+  {
+   "q": "Quel livre publié en 1903 par Auguste Escoffier est surnommé « la bible des cuisiniers » ?",
+   "choix": [
+    "Ma gastronomie",
+    "L'Art de la cuisine française au XIXe siècle",
+    "Le Répertoire de la cuisine",
+    "Le Guide culinaire"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "Le « Guide culinaire », publié par Auguste Escoffier en 1903, rassemble plusieurs milliers de recettes classées et normalisées. Son ambition est pédagogique : donner à chaque préparation un nom stable et une méthode reproductible, afin qu'une même sauce soit exécutée de la même façon à Londres, à Paris ou à New York. L'ouvrage reste réédité et sert encore de référence dans les écoles hôtelières. « Ma gastronomie » est le livre de Fernand Point, et « L'Art de la cuisine française au XIXe siècle » celui de Carême."
+  },
+  {
+   "q": "À qui Auguste Escoffier a-t-il dédié la pêche Melba, créée à Londres en 1893 ?",
+   "choix": [
+    "À la cantatrice australienne Nellie Melba",
+    "À la reine Victoria",
+    "À l'actrice Sarah Bernhardt",
+    "À la danseuse Anna Pavlova"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Escoffier crée la pêche Melba au Savoy de Londres en l'honneur de la cantatrice australienne Nellie Melba, qu'il avait entendue chanter Wagner. Le dessert associe une pêche pochée, de la glace à la vanille et un coulis de framboise, dans une composition volontairement simple. Le chef avait pour habitude de baptiser ses créations du nom de clients célèbres, ce qui a beaucoup fait pour sa notoriété. Le dessert pavlova, lui, honore effectivement la danseuse Anna Pavlova, mais il est né en Océanie et non des mains d'Escoffier."
+  },
+  {
+   "q": "Quelle organisation du travail en cuisine Auguste Escoffier a-t-il imposée dans la restauration de luxe ?",
+   "choix": [
+    "Le service à la française",
+    "La brigade de cuisine, divisée en parties",
+    "Le compagnonnage",
+    "La cuisine d'assemblage"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Escoffier a rationalisé le travail des cuisines en créant la brigade, un ensemble de postes spécialisés placés sous l'autorité d'un chef. Le saucier, le poissonnier, l'entremétier, le rôtisseur et le garde-manger se répartissent les tâches, chacun ne réalisant qu'une partie de chaque plat. Le gain de temps est considérable : un même service peut sortir des dizaines de plats différents sans désordre. Ce modèle, inspiré de l'organisation militaire qu'Escoffier avait connue pendant la guerre de 1870, structure encore aujourd'hui les cuisines professionnelles."
+  },
+  {
+   "q": "Qui a publié en 1825 « Physiologie du goût », ouvrage fondateur de la réflexion sur la gastronomie ?",
+   "choix": [
+    "Grimod de La Reynière",
+    "Alexandre Dumas",
+    "Jean Anthelme Brillat-Savarin",
+    "Charles Monselet"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Jean Anthelme Brillat-Savarin, magistrat né en 1755 à Belley, publie « Physiologie du goût » en décembre 1825, quelques semaines avant sa mort. Le livre n'est pas un recueil de recettes mais une méditation savante et souriante sur les plaisirs de la table, mêlant physiologie, souvenirs et aphorismes. On lui doit la formule « Dis-moi ce que tu manges, je te dirai ce que tu es ». Son nom a été donné à un fromage triple crème et à un gâteau imbibé de sirop, le savarin."
+  },
+  {
+   "q": "À qui la tradition attribue-t-elle l'ouverture, vers 1765 à Paris, du premier établissement du type restaurant ?",
+   "choix": [
+    "À Antoine Beauvilliers",
+    "Au traiteur Chevet",
+    "Au pâtissier Stohrer",
+    "Au bouillonnier Boulanger"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Un marchand de bouillons nommé Boulanger aurait ouvert vers 1765 à Paris une salle où il servait des « restaurants », c'est-à-dire des bouillons concentrés censés restaurer les forces. La nouveauté tenait moins au produit qu'au service : on choisissait son plat sur une carte, à prix affiché, à l'heure de son choix et sur de petites tables individuelles. Antoine Beauvilliers pousse le modèle vers le luxe en 1782 avec La Grande Taverne de Londres. La Révolution accélère le mouvement en jetant sur le pavé les cuisiniers des aristocrates émigrés."
+  },
+  {
+   "q": "En quelle année le repas gastronomique des Français a-t-il été inscrit au patrimoine culturel immatériel de l'humanité ?",
+   "choix": [
+    "2010",
+    "1995",
+    "2003",
+    "2016"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'UNESCO a inscrit le repas gastronomique des Français sur la liste représentative du patrimoine culturel immatériel de l'humanité le 16 novembre 2010, à Nairobi. Ce n'est pas la cuisine française en tant que telle qui est distinguée, mais une pratique sociale : le rituel du repas de fête, avec son ordre des plats, ses accords entre mets et vins et sa table dressée. Le dossier avait été porté par la Mission française du patrimoine et des cultures alimentaires, créée en 2008. La même session a également reconnu la cuisine traditionnelle mexicaine et le régime méditerranéen."
+  },
+  {
+   "q": "Qui a lancé et nommé le mouvement de la « nouvelle cuisine » en 1973 ?",
+   "choix": [
+    "Les frères Michelin",
+    "Les critiques Henri Gault et Christian Millau",
+    "Le chef Fernand Point",
+    "Le journaliste Curnonsky"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Les critiques gastronomiques Henri Gault et Christian Millau lancent l'expression en octobre 1973 dans leur revue, en publiant les dix commandements de la nouvelle cuisine. Ils y appellent à raccourcir les cuissons, à raccourcir aussi les cartes, à supprimer les sauces trop riches, à respecter le produit frais et à tenir compte de la diététique. Bocuse, les frères Troisgros, Alain Chapel, Michel Guérard ou Roger Vergé en deviennent les figures. Le mouvement a plus tard souffert de ses imitateurs, moqués pour leurs portions minuscules dans de grandes assiettes."
+  },
+  {
+   "q": "Où se trouvait le restaurant de Paul Bocuse, qui a conservé trois étoiles Michelin de 1965 à sa mort ?",
+   "choix": [
+    "À Vienne, dans l'Isère",
+    "À Roanne",
+    "À Collonges-au-Mont-d'Or, près de Lyon",
+    "À Vonnas"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Paul Bocuse, né en 1926 et mort en 2018, dirigeait L'Auberge du Pont de Collonges, à Collonges-au-Mont-d'Or, au nord de Lyon. Sa maison a détenu trois étoiles au guide Michelin de 1965 jusqu'à sa mort, une longévité sans équivalent. Bocuse a fait du chef une figure publique, voyageant dans le monde entier pour défendre la cuisine française. Vienne était la ville de Fernand Point, Roanne celle des frères Troisgros et Vonnas celle de Georges Blanc."
+  },
+  {
+   "q": "Quel plat Paul Bocuse a-t-il créé en 1975 à l'occasion d'un déjeuner à l'Élysée ?",
+   "choix": [
+    "Le loup en croûte",
+    "La volaille de Bresse en vessie",
+    "Le gratin de queues d'écrevisses",
+    "La soupe aux truffes noires VGE"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Le 25 février 1975, Paul Bocuse reçoit la Légion d'honneur des mains du président Valéry Giscard d'Estaing et compose pour le déjeuner une soupe aux truffes noires coiffée d'un dôme de pâte feuilletée. Le plat, resté à la carte sous le nom de soupe VGE, se casse à la cuillère pour libérer les parfums de truffe et de foie gras. Il illustre la manière de Bocuse : des produits somptueux, une technique classique et une mise en scène simple. Le loup en croûte est l'un des plats emblématiques de Paul Bocuse également, mais il n'est pas lié à cet épisode."
+  },
+  {
+   "q": "Quel concours culinaire international, créé en 1987, se tient tous les deux ans à Lyon ?",
+   "choix": [
+    "Le Bocuse d'Or",
+    "Le Taittinger",
+    "Le Meilleur Ouvrier de France",
+    "Le Bib Gourmand"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Paul Bocuse a créé le Bocuse d'Or en 1987 pour donner à la cuisine une compétition aussi spectaculaire qu'une épreuve sportive. Les candidats, sélectionnés par pays, travaillent en public pendant plusieurs heures et sont notés sur des thèmes imposés. L'épreuve se déroule à Lyon, dans le cadre du salon Sirha, et son palmarès est suivi par toute la profession. Le Meilleur Ouvrier de France, lui, est un titre national décerné par l'État, et le Bib Gourmand une distinction du guide Michelin récompensant le bon rapport qualité-prix."
+  },
+  {
+   "q": "Quelle entreprise a créé le guide rouge devenu la principale référence des restaurants ?",
+   "choix": [
+    "Le Bottin Mondain",
+    "La manufacture de pneumatiques Michelin",
+    "Le chemin de fer Paris-Lyon-Méditerranée",
+    "Les éditions Hachette"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Le Guide Michelin paraît pour la première fois en 1900, à l'initiative des frères André et Édouard Michelin, fabricants de pneumatiques à Clermont-Ferrand. Offert d'abord gratuitement aux automobilistes, il recensait garages, hôtels et médecins pour encourager les longs trajets, donc l'usure des pneus. Il devient payant en 1920, et les premières étoiles distinguant les bonnes tables apparaissent en 1926. La hiérarchie à trois niveaux telle qu'on la connaît est fixée en 1931."
+  },
+  {
+   "q": "Que signifie la troisième étoile dans le guide Michelin ?",
+   "choix": [
+    "Une très bonne cuisine dans sa catégorie",
+    "Une table qui mérite un détour",
+    "Une cuisine exceptionnelle qui vaut le voyage",
+    "Un excellent rapport qualité-prix"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le guide Michelin distingue trois niveaux : une étoile signale une très bonne table, deux étoiles une cuisine excellente qui mérite un détour, trois étoiles une cuisine exceptionnelle qui vaut le voyage. Cette formulation renvoie à l'origine automobile du guide, conçu pour faire rouler les voitures. Les inspecteurs visitent les restaurants anonymement et paient leurs additions. Le bon rapport qualité-prix relève d'une autre distinction, le Bib Gourmand, symbolisé par le visage du Bibendum."
+  },
+  {
+   "q": "Que porte au col de sa veste un cuisinier titulaire du titre de Meilleur Ouvrier de France ?",
+   "choix": [
+    "Une toque dorée",
+    "Un liseré d'or",
+    "Une médaille brodée",
+    "Un col bleu, blanc et rouge"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le titre de Meilleur Ouvrier de France, ou MOF, est décerné par l'État à l'issue d'un concours national organisé dans des dizaines de métiers, dont la cuisine et la pâtisserie. Les lauréats ont le droit de porter un col tricolore bleu, blanc et rouge, signe immédiatement reconnaissable en cuisine. Le concours est réputé pour sa dureté : nombre de candidats échouent plusieurs fois avant de l'obtenir. Paul Bocuse a été sacré MOF en 1961 et Joël Robuchon en 1976."
+  },
+  {
+   "q": "Quel chef, installé à Vienne dans l'Isère, a formé Bocuse, les frères Troisgros et Alain Chapel ?",
+   "choix": [
+    "Fernand Point",
+    "Alexandre Dumaine",
+    "Édouard Nignon",
+    "André Pic"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Fernand Point, né en 1897 et mort en 1955, tenait le restaurant La Pyramide à Vienne, sur la route nationale 7 qui menait les Parisiens vers le Midi. Sa maison obtient trois étoiles en 1933 et devient le passage obligé d'une génération entière de jeunes cuisiniers. Paul Bocuse, Jean et Pierre Troisgros, Alain Chapel ou Louis Outhier y ont travaillé avant d'ouvrir leurs propres tables. Son livre posthume, « Ma gastronomie », rassemble ses recettes et ses formules, dont son goût pour le beurre et la simplicité apparente."
+  },
+  {
+   "q": "Quelle préparation très riche en beurre a rendu célèbre le chef Joël Robuchon ?",
+   "choix": [
+    "Le soufflé au fromage",
+    "La purée de pommes de terre",
+    "Le velouté de châtaigne",
+    "La brandade de morue"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Joël Robuchon, né en 1945 et mort en 2018, a fait de la purée de pommes de terre un plat de grande cuisine dans son restaurant Jamin au début des années 1980. La recette repose sur des rattes passées au tamis et sur une proportion de beurre considérable, autour de 250 grammes par kilo de pommes de terre. Sacré cuisinier du siècle par Gault et Millau en 1990, il s'était retiré des fourneaux à cinquante ans avant de revenir avec le concept des Ateliers, où l'on mange au comptoir. Il a détenu le plus grand nombre d'étoiles Michelin jamais réunies par un chef."
+  },
+  {
+   "q": "Quelle loi française a créé en 1935 le régime de l'appellation d'origine contrôlée ?",
+   "choix": [
+    "La loi Naquet",
+    "La loi Le Chapelier",
+    "La loi Capus",
+    "La loi Évin"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "La loi Capus du 30 juillet 1935, du nom du sénateur et agronome Joseph Capus, institue l'appellation d'origine contrôlée et crée le comité national qui deviendra l'INAO en 1947. Elle répond à une crise profonde du vignoble, marquée par la fraude, la surproduction et les mélanges frauduleux. Le principe est simple : lier un produit à un terroir précis, à des cépages autorisés et à des pratiques définies, sous contrôle public. Le système, d'abord viticole, s'est étendu aux fromages, puis aux viandes, aux fruits et aux huiles."
+  },
+  {
+   "q": "Quel vin est généralement présenté comme la première appellation d'origine contrôlée reconnue, en 1936 ?",
+   "choix": [
+    "Le Chablis",
+    "Le Sauternes",
+    "Le Bandol",
+    "Le Châteauneuf-du-Pape"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Le Châteauneuf-du-Pape est la première appellation d'origine contrôlée officiellement reconnue, en 1936, après un long travail du baron Pierre Le Roy de Boiseaumarié. Vigneron et juriste, celui-ci avait fait délimiter l'aire de production dès 1923 et imposé des règles strictes sur les cépages et le rendement. Son syndicat a servi de modèle à l'ensemble du système français des appellations. Le décret consacre l'idée qu'un nom de lieu peut être une propriété collective protégée."
+  },
+  {
+   "q": "Quelle est la différence principale entre une AOP et une IGP ?",
+   "choix": [
+    "L'AOP exige que toutes les étapes se déroulent dans l'aire géographique, l'IGP une seule",
+    "L'AOP est française et l'IGP européenne",
+    "L'AOP concerne les vins et l'IGP les fromages",
+    "L'IGP garantit l'agriculture biologique"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "L'appellation d'origine protégée impose que la production de la matière première, la transformation et l'élaboration se déroulent toutes dans l'aire géographique délimitée. L'indication géographique protégée est plus souple : il suffit qu'une seule de ces étapes y ait lieu et que le produit tire du lieu une réputation ou une qualité déterminée. Les deux signes sont européens et gérés en France par l'INAO. Le lien au terroir est donc plus exigeant dans l'AOP, ce qui explique que les prix et les cahiers des charges y soient plus contraignants."
+  },
+  {
+   "q": "De quel lait est fabriqué le roquefort ?",
+   "choix": [
+    "De lait de vache",
+    "De lait de brebis",
+    "De lait de chèvre",
+    "D'un mélange de lait de vache et de chèvre"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Le roquefort est un fromage à pâte persillée fabriqué exclusivement avec du lait de brebis, principalement de race Lacaune. Son affinage se fait dans les caves naturelles du plateau du Combalou, à Roquefort-sur-Soulzon dans l'Aveyron, où des failles appelées fleurines assurent une ventilation constante. Les veines bleues proviennent du développement du champignon Penicillium roqueforti dans la pâte. Le roquefort a été le premier fromage français protégé par une appellation, dès 1925."
+  },
+  {
+   "q": "À quelle famille de fromages appartient le comté ?",
+   "choix": [
+    "Aux pâtes molles à croûte fleurie",
+    "Aux pâtes persillées",
+    "Aux pâtes pressées cuites",
+    "Aux fromages frais"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le comté est un fromage à pâte pressée cuite : le caillé est chauffé au-delà de cinquante degrés avant d'être pressé, ce qui donne une pâte ferme capable de vieillir longtemps. Il est produit dans le Massif jurassien à partir de lait cru de vaches montbéliardes ou de simmental françaises. Une meule pèse une quarantaine de kilos et demande le lait de plusieurs troupeaux, d'où le rôle historique des fruitières, ces coopératives de village. Le comté est l'une des AOP fromagères les plus produites en France."
+  },
+  {
+   "q": "Quel fromage à croûte fleurie est le plus célèbre des fromages normands ?",
+   "choix": [
+    "Le maroilles",
+    "Le livarot",
+    "Le pont-l'évêque",
+    "Le camembert"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "Le camembert est un fromage à pâte molle et à croûte fleurie, couverte du duvet blanc du Penicillium camemberti. La tradition attribue sa mise au point à Marie Harel, fermière du pays d'Auge, à la fin du XVIIIe siècle, même si le récit doit beaucoup à une reconstruction du XIXe siècle. Sa diffusion doit surtout à la boîte en bois inventée vers 1890, qui permit de l'expédier par le train. Seul le camembert de Normandie au lait cru bénéficie de l'AOP, le nom camembert seul n'étant pas protégé."
+  },
+  {
+   "q": "Comment appelle-t-on l'enzyme d'origine animale utilisée pour faire cailler le lait ?",
+   "choix": [
+    "La présure",
+    "La pepsine",
+    "La caséine",
+    "Le lactose"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La présure est un extrait prélevé dans la caillette des jeunes ruminants ; elle contient une enzyme, la chymosine, qui coagule les protéines du lait. Le fromager peut aussi obtenir un caillé par acidification lactique, plus lentement, ce qui donne des textures différentes. Après le caillage viennent l'égouttage, le moulage, le salage puis l'affinage, période durant laquelle la croûte et les arômes se forment. La caséine est la protéine coagulée elle-même, et le lactose le sucre du lait."
+  },
+  {
+   "q": "Dans quelle région produit-on le munster, fromage à croûte lavée orangée ?",
+   "choix": [
+    "En Normandie",
+    "Dans le Massif vosgien, entre Alsace et Lorraine",
+    "Dans le Cantal",
+    "En Savoie"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Le munster est né dans les vallées du massif des Vosges, où son nom vient du monastère qui aurait abrité les premiers fabricants. C'est un fromage à croûte lavée : pendant l'affinage, on frotte la croûte à l'eau salée, ce qui favorise des bactéries donnant la couleur orangée et l'odeur puissante. On le mange traditionnellement accompagné de cumin et d'un gewurztraminer. Il bénéficie d'une AOP sous le nom de munster ou munster-géromé, ce second nom renvoyant à Gérardmer, côté lorrain."
+  },
+  {
+   "q": "Quel fromage de Savoie, produit en haute montagne, est surnommé le prince des gruyères ?",
+   "choix": [
+    "Le reblochon",
+    "L'abondance",
+    "La tomme de Savoie",
+    "Le beaufort"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Le beaufort est une pâte pressée cuite fabriquée dans le Beaufortain, la Tarentaise et la Maurienne, à partir du lait de vaches de race tarine et abondance. Brillat-Savarin, originaire du Bugey voisin, l'aurait qualifié de prince des gruyères, formule restée attachée au fromage. Sa meule se reconnaît à son talon concave, dû au cercle de bois qui la moule. Le beaufort d'été, dit d'alpage, provient du lait d'un seul troupeau conduit en altitude."
+  },
+  {
+   "q": "Comment les bulles apparaissent-elles dans le champagne selon la méthode traditionnelle ?",
+   "choix": [
+    "Par une seconde fermentation en bouteille",
+    "Par ajout de gaz carbonique sous pression",
+    "Par fermentation en cuve close uniquement",
+    "Par agitation prolongée du vin"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La méthode traditionnelle, autrefois appelée méthode champenoise, consiste à provoquer une seconde fermentation dans la bouteille elle-même. On ajoute au vin tranquille une liqueur de tirage composée de sucre et de levures, puis on ferme la bouteille : le gaz carbonique produit ne peut s'échapper et se dissout dans le vin. Suivent le vieillissement sur lattes, le remuage qui rassemble les dépôts dans le col, puis le dégorgement qui les expulse. L'ajout direct de gaz caractérise au contraire les vins mousseux les plus ordinaires."
+  },
+  {
+   "q": "Quel rôle le moine Dom Pérignon a-t-il réellement joué en Champagne à la fin du XVIIe siècle ?",
+   "choix": [
+    "Il a inventé la bouteille en verre épais",
+    "Il a perfectionné l'assemblage et la vinification, sans inventer la bulle",
+    "Il a créé la première maison de champagne",
+    "Il a importé le cépage chardonnay d'Italie"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Dom Pierre Pérignon, moine bénédictin de l'abbaye de Hautvillers mort en 1715, était procureur chargé du vignoble et du cellier. Les historiens lui reconnaissent surtout un travail rigoureux sur le pressurage, la sélection des raisins et l'assemblage de vins de plusieurs parcelles. La légende qui fait de lui l'inventeur du vin à bulles est postérieure et largement construite au XIXe siècle par les maisons de champagne. La prise de mousse en bouteille avait d'ailleurs été décrite plus tôt en Angleterre, où l'on disposait de verre plus résistant."
+  },
+  {
+   "q": "À l'occasion de quel événement le classement des vins de Bordeaux a-t-il été établi en 1855 ?",
+   "choix": [
+    "Le sacre de Napoléon III",
+    "La création de l'INAO",
+    "L'Exposition universelle de Paris",
+    "La crise du phylloxéra"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le classement de 1855 a été demandé par Napoléon III pour l'Exposition universelle de Paris, afin de présenter les meilleurs vins bordelais aux visiteurs. Les courtiers de la place de Bordeaux ont établi la hiérarchie à partir des prix pratiqués depuis des décennies, répartissant les crus du Médoc et le Haut-Brion en cinq crus classés, plus un classement des vins liquoreux de Sauternes. Il n'a été modifié qu'une seule fois de façon notable, en 1973, avec la promotion de Mouton Rothschild au rang de premier cru. Sa stabilité en fait un document économique unique en son genre."
+  },
+  {
+   "q": "Comment le vignoble français a-t-il été sauvé du phylloxéra à la fin du XIXe siècle ?",
+   "choix": [
+    "En traitant les vignes au soufre",
+    "En arrachant les vignes malades",
+    "En irriguant massivement les parcelles",
+    "En greffant les cépages français sur des porte-greffes américains"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Le phylloxéra, un minuscule puceron venu d'Amérique du Nord, est repéré en France dès 1863 dans le Gard et détruit en trois décennies une grande partie du vignoble. Aucun traitement chimique ne s'est révélé décisif à grande échelle. La solution est venue de la greffe : on plante des racines de vignes américaines, résistantes à l'insecte, sur lesquelles on greffe les cépages européens qui donnent le raisin. Aujourd'hui encore, l'immense majorité des vignes françaises est greffée sur porte-greffe américain."
+  },
+  {
+   "q": "Quel cépage rouge domine les grands vins rouges de Bourgogne ?",
+   "choix": [
+    "Le pinot noir",
+    "Le cabernet sauvignon",
+    "La syrah",
+    "Le grenache"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le pinot noir est le cépage rouge des appellations bourguignonnes, du Chambertin au Romanée-Conti. C'est un raisin délicat, à peau fine, très sensible au climat et au sol, ce qui explique l'importance des climats, ces parcelles finement délimitées classées par l'UNESCO en 2015. Le cabernet sauvignon règne au contraire sur la rive gauche du Bordelais, la syrah dans le nord de la vallée du Rhône et le grenache dans le sud. En Bourgogne, le seul autre rouge admis en quantité est le gamay, cépage du Beaujolais."
+  },
+  {
+   "q": "Quel cépage donne les vins blancs de Chablis ?",
+   "choix": [
+    "Le sauvignon blanc",
+    "Le chardonnay",
+    "Le riesling",
+    "Le chenin"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Chablis, dans l'Yonne, produit ses vins blancs exclusivement à partir du chardonnay, cépage blanc emblématique de la Bourgogne. Le sous-sol y est riche en marnes kimméridgiennes contenant de petites huîtres fossiles, auxquelles on associe volontiers la minéralité des vins. Le riesling est le grand cépage blanc d'Alsace et d'Allemagne, le chenin celui de la Loire, le sauvignon celui de Sancerre et de Bordeaux. Le chardonnay entre aussi dans l'assemblage du champagne, où un vin issu de ce seul cépage porte le nom de blanc de blancs."
+  },
+  {
+   "q": "Quelle eau-de-vie est produite dans la région de Cognac par une double distillation du vin blanc ?",
+   "choix": [
+    "Le calvados",
+    "L'armagnac",
+    "Le cognac",
+    "Le marc de Bourgogne"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le cognac est obtenu en distillant deux fois, dans un alambic charentais en cuivre, un vin blanc acide issu principalement du cépage ugni blanc. L'eau-de-vie vieillit ensuite en fûts de chêne, ce qui lui donne sa couleur et ses arômes ; les mentions VS, VSOP ou XO indiquent la durée minimale de vieillissement. L'armagnac, produit en Gascogne, est en général distillé une seule fois en alambic continu. Le calvados provient de la distillation du cidre normand et le marc de celle des résidus de pressurage du raisin."
+  },
+  {
+   "q": "De quoi se compose un kir, apéritif rendu célèbre par un chanoine maire de Dijon ?",
+   "choix": [
+    "De vin rouge et de sirop de grenadine",
+    "De champagne et de jus d'orange",
+    "De vin blanc et de sirop de cassis industriel uniquement",
+    "De vin blanc aligoté et de crème de cassis"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le kir associe un vin blanc sec de Bourgogne, traditionnellement l'aligoté, et de la crème de cassis de Dijon. Il doit son nom au chanoine Félix Kir, maire de Dijon de 1945 à 1968, qui le servait systématiquement lors des réceptions officielles pour promouvoir deux produits de sa région. Le mélange existait auparavant sous le nom de blanc-cassis. Décliné au champagne, il prend le nom de kir royal."
+  },
+  {
+   "q": "Quel savoir-faire français a été inscrit au patrimoine culturel immatériel de l'UNESCO en 2022 ?",
+   "choix": [
+    "Les savoir-faire artisanaux et la culture de la baguette de pain",
+    "La fabrication du camembert",
+    "Le service à la française",
+    "La taille de la vigne en Champagne"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "L'UNESCO a inscrit le 30 novembre 2022 les savoir-faire artisanaux et la culture de la baguette de pain sur la liste représentative du patrimoine culturel immatériel de l'humanité. Le dossier insiste sur le geste du boulanger, sur le rôle social de la boulangerie de quartier et sur la disparition rapide des boulangeries rurales. Contrairement à une idée reçue, la baguette est récente : sa forme actuelle se fixe surtout dans la première moitié du XXe siècle et se généralise après 1950. Elle pèse environ 250 grammes pour une soixantaine de centimètres."
+  },
+  {
+   "q": "Que garantit le décret français de 1993 sur le pain de tradition française ?",
+   "choix": [
+    "Qu'il est vendu à un prix réglementé",
+    "Qu'il ne contient ni additif ni surgélation, avec quatre ingrédients seulement",
+    "Qu'il est cuit au feu de bois",
+    "Qu'il est fabriqué avec de la farine biologique"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Le décret du 13 septembre 1993 réserve l'appellation de pain de tradition française aux pains pétris, façonnés et cuits sur le lieu de vente, sans avoir jamais été surgelés et sans additif. Sa composition se limite à la farine de blé, à l'eau, au sel et à la levure ou au levain, quelques auxiliaires comme la farine de fève étant tolérés en très faible proportion. Le même texte protège l'appellation de boulanger, réservée à celui qui pétrit et cuit sur place. L'objectif était de répondre à la banalisation du pain industriel et à la chute de sa consommation."
+  },
+  {
+   "q": "De quelle ville d'Europe centrale la forme du croissant est-elle originaire ?",
+   "choix": [
+    "De Prague",
+    "De Budapest",
+    "De Vienne",
+    "De Munich"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le croissant descend du kipferl, une pâtisserie viennoise en forme de croissant de lune attestée bien avant son arrivée en France. C'est pourquoi on classe encore le croissant, le pain au chocolat et la brioche parmi les viennoiseries. La boulangerie viennoise ouverte à Paris en 1839 par August Zang est souvent citée comme le point de départ de sa diffusion française. Sa version au beurre et à la pâte levée feuilletée, telle qu'on la connaît, se met en place au début du XXe siècle."
+  },
+  {
+   "q": "Quelle pâte de base sert à préparer les éclairs, les choux à la crème et le Paris-Brest ?",
+   "choix": [
+    "La pâte sablée",
+    "La pâte feuilletée",
+    "La pâte à génoise",
+    "La pâte à choux"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "La pâte à choux se prépare en desséchant sur le feu un mélange d'eau, de beurre, de farine et de sel, avant d'y incorporer des œufs un à un. À la cuisson, l'eau contenue dans la pâte se transforme en vapeur et fait gonfler la préparation, qui devient creuse. On l'utilise pour les choux, les éclairs, les religieuses, le Paris-Brest et le saint-honoré, mais aussi pour des préparations salées comme les gougères. La pâte feuilletée, elle, repose sur l'alternance de couches de détrempe et de beurre obtenue par pliages successifs."
+  },
+  {
+   "q": "Quel gâteau en forme de couronne a été créé en l'honneur d'une course cycliste ?",
+   "choix": [
+    "Le Paris-Brest",
+    "Le saint-honoré",
+    "Le mille-feuille",
+    "L'opéra"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le Paris-Brest est un anneau de pâte à choux garni de crème pralinée, dont la forme évoque une roue de bicyclette. Il aurait été créé vers 1910 par un pâtissier de Maisons-Laffitte à la demande de l'organisateur de la course Paris-Brest-Paris, disputée pour la première fois en 1891. Le saint-honoré doit son nom au saint patron des boulangers, l'opéra a été mis au point par la maison Dalloyau au XXe siècle. Le mille-feuille, lui, est une superposition de pâte feuilletée et de crème pâtissière."
+  },
+  {
+   "q": "Quelle tarte doit son existence à une cuisson accidentelle dans une auberge du Loir-et-Cher ?",
+   "choix": [
+    "La tarte au citron meringuée",
+    "La tarte Tatin",
+    "La tarte tropézienne",
+    "La tarte Bourdaloue"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "La tarte Tatin est une tarte aux pommes caramélisées cuite à l'envers, la pâte étant posée sur les fruits puis le gâteau retourné au moment du service. La tradition l'attribue aux sœurs Stéphanie et Caroline Tatin, qui tenaient un hôtel à Lamotte-Beuvron, en Sologne, à la fin du XIXe siècle. Le récit d'une erreur de cuisson rattrapée relève sans doute en partie de la légende commerciale. Le restaurant parisien Maxim's a beaucoup contribué à sa notoriété en l'inscrivant à sa carte."
+  },
+  {
+   "q": "De quoi est composé un macaron parisien ?",
+   "choix": [
+    "De deux disques de pâte feuilletée collés au chocolat",
+    "D'une meringue cuite garnie de crème fouettée",
+    "De deux coques à base de poudre d'amande et de blanc d'œuf réunies par une ganache",
+    "D'une pâte à choux fourrée de crème pâtissière"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le macaron parisien associe deux coques lisses faites de poudre d'amande, de sucre glace et de blancs d'œufs montés, garnies d'une ganache, d'une crème ou d'une confiture. Cette version accolée en deux coques s'est imposée à Paris au début du XXe siècle, la maison Ladurée en revendiquant la paternité. Il existe de nombreux macarons régionaux plus anciens et sans garniture, comme ceux de Nancy, de Saint-Émilion ou d'Amiens. Le pâtissier Pierre Hermé lui a donné dans les années 1990 un répertoire de parfums beaucoup plus large."
+  },
+  {
+   "q": "Quel pâtissier français, mort en 2009, a fait de la pâtisserie de luxe une entreprise industrielle et une école ?",
+   "choix": [
+    "Pierre Hermé",
+    "Christophe Michalak",
+    "Yann Couvreur",
+    "Gaston Lenôtre"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Gaston Lenôtre, né en Normandie en 1920 et mort en 2009, ouvre une pâtisserie à Paris en 1957 puis développe traiteur, boutiques et surgélation contrôlée. Il fonde en 1971 une école de perfectionnement qui a formé des générations de pâtissiers du monde entier. On lui doit l'allègement des crèmes et des entremets, dans un esprit voisin de la nouvelle cuisine. Pierre Hermé, l'un de ses héritiers les plus connus, a lui-même commencé son apprentissage chez Lenôtre."
+  },
+  {
+   "q": "Combien de sauces mères la tradition culinaire française classique distingue-t-elle après Escoffier ?",
+   "choix": [
+    "Cinq : béchamel, velouté, espagnole, tomate et hollandaise",
+    "Trois : béchamel, velouté et espagnole",
+    "Sept, dont la mayonnaise et la vinaigrette",
+    "Deux : le fond blanc et le fond brun"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Carême avait dégagé quatre sauces de base : allemande, béchamel, espagnole et velouté. Escoffier reprend et modifie cette classification, retenant cinq sauces mères — béchamel, velouté, espagnole, tomate et hollandaise — dont dérivent toutes les autres. Une sauce mère sert de matrice : en lui ajoutant un élément aromatique, on obtient une sauce dite dérivée, comme la sauce Mornay à partir de la béchamel. Ce système de filiation est resté l'ossature de l'enseignement de la cuisine française."
+  },
+  {
+   "q": "Comment appelle-t-on le mélange de farine et de beurre cuits ensemble qui sert à lier une sauce ?",
+   "choix": [
+    "Un fumet",
+    "Un roux",
+    "Une julienne",
+    "Un chinois"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Le roux est obtenu en faisant cuire à parts égales du beurre et de la farine ; c'est l'amidon de la farine qui, en gonflant dans le liquide, épaissit la sauce. Selon la durée de cuisson, on distingue le roux blanc, le roux blond et le roux brun, ce dernier apportant une saveur plus prononcée. Un roux blanc mouillé au lait donne la béchamel, un roux blond mouillé au fond blanc donne un velouté. Le fumet est un bouillon concentré, la julienne une taille en fins bâtonnets et le chinois une passoire fine."
+  },
+  {
+   "q": "Que désigne une mirepoix en cuisine ?",
+   "choix": [
+    "Un fromage fondu servi sur les légumes",
+    "Une sauce au vin rouge",
+    "Un mélange de légumes taillés en dés servant de base aromatique",
+    "Une cuisson à l'étouffée en cocotte"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La mirepoix est un mélange de légumes coupés en dés — classiquement oignon, carotte et céleri — que l'on fait suer pour parfumer un fond, un braisé ou une sauce. Son nom viendrait du duc de Mirepoix, dont le cuisinier aurait mis la préparation à la mode au XVIIIe siècle. On y ajoute souvent du lard, du thym et du laurier selon la recette. La brunoise désigne une taille en dés beaucoup plus petits, et la julienne une taille en fins bâtonnets."
+  },
+  {
+   "q": "En quoi consiste la cuisson sous vide à basse température, développée en France dans les années 1970 ?",
+   "choix": [
+    "À congeler les aliments avant cuisson",
+    "À cuire à très haute température sous pression",
+    "À cuire les aliments dans un four à micro-ondes scellé",
+    "À cuire longuement un aliment scellé dans un sachet, à température maîtrisée"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "La cuisson sous vide consiste à enfermer un aliment dans un sachet dont on a retiré l'air, puis à le cuire dans un bain d'eau à température précise, souvent entre 55 et 85 degrés. Le procédé limite les pertes de jus et permet une cuisson d'une régularité impossible à obtenir autrement. Le chef Georges Pralus l'a mis au point vers 1974 pour la maison Troisgros, afin de réduire le retrait à la cuisson du foie gras. La technique s'est ensuite généralisée dans la restauration puis dans l'industrie alimentaire."
+  },
+  {
+   "q": "Quel est le nom scientifique de la truffe noire du Périgord, la plus recherchée des truffes françaises ?",
+   "choix": [
+    "Tuber melanosporum",
+    "Tuber magnatum",
+    "Tuber aestivum",
+    "Tuber brumale"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "La truffe noire du Périgord porte le nom scientifique de Tuber melanosporum. C'est un champignon souterrain qui vit en symbiose avec les racines de certains arbres, surtout les chênes, et que l'on récolte de décembre à mars. La truffe blanche d'Alba, Tuber magnatum, est italienne et encore plus coûteuse, tandis que la truffe d'été, Tuber aestivum, est nettement moins parfumée. La production française s'est effondrée depuis le début du XXe siècle, passant de plusieurs centaines de tonnes à quelques dizaines."
+  },
+  {
+   "q": "Quelle mention le code rural français réserve-t-il au foie gras ?",
+   "choix": [
+    "Un foie de volaille cuit en terrine",
+    "Le foie d'un canard ou d'une oie engraissé par gavage",
+    "Un foie de veau mariné",
+    "Une pâte de foie mélangée à de la crème"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Le droit français définit le foie gras comme le foie d'un canard ou d'une oie spécialement engraissé par gavage. Le Sud-Ouest et l'Alsace en sont les deux grandes régions productrices, et la France est de loin le premier producteur mondial. La loi distingue le foie gras entier, le foie gras et le bloc de foie gras, selon le degré de reconstitution du produit. Le gavage fait l'objet de contestations et se trouve interdit dans plusieurs pays européens."
+  },
+  {
+   "q": "Comment appelle-t-on la fine couche de cristaux récoltée à la surface des marais salants ?",
+   "choix": [
+    "Le gros sel",
+    "Le sel gemme",
+    "La fleur de sel",
+    "Le salpêtre"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La fleur de sel est la mince pellicule de cristaux qui se forme à la surface des œillets des marais salants quand le vent et le soleil sont favorables. Le paludier la récolte à la main, à l'aide d'une lousse, sans la laisser tomber au fond ; elle reste plus humide et plus fragile que le gros sel raclé au fond du bassin. Guérande, en Loire-Atlantique, et l'île de Ré comptent parmi les sites les plus réputés. Le sel gemme, lui, est extrait de mines, comme en Lorraine."
+  },
+  {
+   "q": "De quelle région du monde le caféier est-il originaire ?",
+   "choix": [
+    "Du Brésil",
+    "De l'Arabie du Sud",
+    "De l'Indonésie",
+    "Des hauts plateaux d'Éthiopie"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le caféier arabica pousse spontanément sur les hauts plateaux d'Éthiopie, d'où la boisson s'est diffusée vers le Yémen à partir du XVe siècle. Les confréries soufies l'utilisaient pour rester éveillées pendant les prières nocturnes, et le port de Moka a longtemps assuré l'essentiel du commerce. Le café atteint Constantinople, puis Venise et Paris au XVIIe siècle, où le Procope ouvre en 1686. Le Brésil, aujourd'hui premier producteur mondial, n'a reçu ses premiers plants qu'au XVIIIe siècle."
+  },
+  {
+   "q": "Quelle civilisation consommait le cacao sous forme d'une boisson amère et épicée avant l'arrivée des Européens ?",
+   "choix": [
+    "Les civilisations mésoaméricaines, dont les Mayas et les Aztèques",
+    "Les Incas du Pérou",
+    "Les royaumes d'Afrique de l'Ouest",
+    "Les dynasties chinoises"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le cacaoyer est originaire d'Amérique centrale et du bassin amazonien, et sa consommation est attestée en Mésoamérique depuis plusieurs millénaires. Mayas puis Aztèques préparaient une boisson amère, battue jusqu'à mousser, souvent relevée de piment ou de vanille ; les fèves servaient aussi de monnaie. Les Espagnols la rapportent au XVIe siècle et l'adoucissent au sucre, avant que le chocolat solide n'apparaisse au XIXe siècle. La Côte d'Ivoire et le Ghana, aujourd'hui premiers producteurs, ne cultivent le cacao que depuis l'époque coloniale."
+  },
+  {
+   "q": "Combien de pays ont porté ensemble, en 2020, l'inscription du couscous au patrimoine immatériel de l'UNESCO ?",
+   "choix": [
+    "Deux",
+    "Quatre : Algérie, Maroc, Mauritanie et Tunisie",
+    "Six pays du pourtour méditerranéen",
+    "Un seul, l'Algérie"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "L'UNESCO a inscrit en décembre 2020 les savoirs et pratiques liés à la production et à la consommation du couscous, dans un dossier déposé conjointement par l'Algérie, le Maroc, la Mauritanie et la Tunisie. Cette candidature commune a été saluée comme un geste diplomatique rare entre des pays parfois rivaux. Le couscous désigne à la fois la semoule roulée à la main et le plat complet cuit à la vapeur dans un couscoussier. Il figure régulièrement parmi les plats préférés des Français."
+  },
+  {
+   "q": "Quel nom porte la tradition culinaire japonaise inscrite à l'UNESCO en 2013 ?",
+   "choix": [
+    "Le kaiseki",
+    "L'izakaya",
+    "Le washoku",
+    "Le sushi-do"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Le washoku, littéralement la nourriture japonaise, a été inscrit en 2013 au patrimoine culturel immatériel de l'humanité. Le dossier met en avant le respect des ingrédients de saison, l'équilibre nutritionnel, la présentation soignée et le lien du repas avec les fêtes du calendrier, en particulier le Nouvel An. Il repose sur des bases simples : riz, soupe, plusieurs petits plats et le bouillon dashi. Le kaiseki désigne quant à lui le repas raffiné en plusieurs services, hérité de la cérémonie du thé."
+  },
+  {
+   "q": "Quelle soupe de poissons de roche est la grande spécialité de Marseille ?",
+   "choix": [
+    "La bourride",
+    "La cotriade",
+    "La bouillabaisse",
+    "La chaudrée"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "La bouillabaisse est un plat de pêcheurs marseillais fait de poissons de roche cuits dans un bouillon parfumé au safran, au fenouil et à l'ail. Elle se sert en deux temps : le bouillon avec des croûtons frottés d'ail et la rouille, puis les poissons découpés. Une charte de la bouillabaisse a été signée par des restaurateurs marseillais en 1980 pour fixer les espèces indispensables, dont la rascasse. La bourride est un autre plat provençal, lié à l'aïoli, tandis que la cotriade est bretonne et la chaudrée charentaise."
+  }
+ ],
+ "cours": [
+  {
+   "titre": "Une histoire de la cuisine française",
+   "sections": [
+    {
+     "titre": "Les fourneaux du Moyen Âge",
+     "texte": "La cuisine des cours médiévales ne ressemble guère à celle que nous appelons aujourd'hui française. Elle est dominée par les épices venues d'Orient — cannelle, gingembre, poivre long, safran, graine de paradis — dont l'usage massif signale la richesse de celui qui reçoit autant qu'il flatte le palais. Les sauces ne sont pas liées au beurre ni à la farine mais à la mie de pain trempée, et elles jouent sur l'acidité du verjus, ce jus de raisin vert, ou du vinaigre. On sert les viandes rôties et les pâtés en abondance, tandis que les légumes, jugés vulgaires, restent l'ordinaire des paysans. Le repas se déroule selon le principe du service à la française : de nombreux plats arrivent ensemble sur la table, chacun se servant de ce qui se trouve à sa portée. Le témoignage principal de cette cuisine est le Viandier, dont les plus anciens manuscrits remontent au tournant du XIVe siècle et dont le nom reste associé à Guillaume Tirel, dit Taillevent, queux des rois de France. Un autre texte, le Ménagier de Paris, rédigé vers 1393 par un bourgeois pour l'instruction de sa jeune épouse, mêle recettes, conseils de ménage et morale domestique. Ces livres circulent en manuscrit puis, dès la fin du XVe siècle, par l'imprimerie, ce qui fixe pour la première fois un répertoire commun.",
+     "visuel": {
+      "type": "frise",
+      "titre": "Sept siècles de cuisine française",
+      "evenements": [
+       {
+        "date": "vers 1300",
+        "label": "Le Viandier",
+        "texte": "Premier grand recueil de recettes en français, associé à Taillevent."
+       },
+       {
+        "date": "1651",
+        "label": "Le Cuisinier françois",
+        "texte": "La Varenne allège les épices et impose le beurre, le roux et les fonds."
+       },
+       {
+        "date": "1765",
+        "label": "Le premier restaurant",
+        "texte": "Le bouillonnier Boulanger sert des plats à la carte, à toute heure."
+       },
+       {
+        "date": "1833",
+        "label": "Mort de Carême",
+        "texte": "La haute cuisine devient un art codifié, avec ses sauces mères et ses pièces montées."
+       },
+       {
+        "date": "1903",
+        "label": "Le Guide culinaire",
+        "texte": "Escoffier normalise le répertoire et organise la brigade."
+       },
+       {
+        "date": "1973",
+        "label": "La nouvelle cuisine",
+        "texte": "Gault et Millau publient les dix commandements du mouvement."
+       },
+       {
+        "date": "2010",
+        "label": "UNESCO",
+        "texte": "Le repas gastronomique des Français entre au patrimoine immatériel."
+       }
+      ]
+     }
+    },
+    {
+     "titre": "La Renaissance et le mythe italien",
+     "texte": "Une idée très répandue veut que Catherine de Médicis, mariée en 1533 au futur Henri II, ait apporté dans ses bagages les cuisiniers, les fourchettes et les sorbets qui auraient civilisé la table française. Les historiens de l'alimentation ont largement démonté ce récit. Il n'existe aucune trace sérieuse d'une brigade florentine à la cour de France, la fourchette met encore plus d'un siècle à s'imposer et les recettes italiennes attestées à la même époque diffèrent peu de leurs équivalents français. Le mythe s'est construit au XIXe siècle, à un moment où l'on cherchait des origines prestigieuses à la gastronomie nationale. Cela ne signifie pas que la Renaissance n'a rien changé. Les échanges avec l'Italie sont réels et portent surtout sur l'art de recevoir : la mise en scène des banquets, la vaisselle, la musique, les entremets spectaculaires. Surtout, les produits venus d'Amérique commencent leur lente acclimatation. La tomate, le haricot, le maïs, le poivron, la dinde et le cacao arrivent au XVIe siècle, mais il faudra deux à trois siècles pour qu'ils entrent vraiment dans les cuisines ordinaires ; la tomate reste longtemps considérée comme une curiosité ornementale et potentiellement toxique. La grande rupture culinaire n'est donc ni italienne ni américaine : elle viendra du siècle suivant et de cuisiniers français.",
+     "visuel": {
+      "type": "comparaison",
+      "titre": "Deux manières de cuisiner",
+      "colonnes": [
+       {
+        "titre": "Cuisine médiévale",
+        "points": [
+         "Épices lointaines en grande quantité",
+         "Sauces liées à la mie de pain",
+         "Acidité du verjus et du vinaigre",
+         "Peu de légumes, beaucoup de rôts",
+         "Sucré et salé souvent mêlés"
+        ]
+       },
+       {
+        "titre": "Cuisine classique, après 1651",
+        "points": [
+         "Herbes du jardin et aromates locaux",
+         "Sauces liées au roux et au beurre",
+         "Fonds et jus de cuisson réduits",
+         "Légumes valorisés, potages soignés",
+         "Séparation du sucré et du salé"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "titre": "1651 : la rupture du Cuisinier françois",
+     "texte": "L'ouvrage que François Pierre de La Varenne publie en 1651 sous le titre Le Cuisinier françois est souvent présenté comme l'acte de naissance de la cuisine française moderne, et cette réputation est justifiée. La Varenne, qui a servi le marquis d'Uxelles, abandonne l'usage ostentatoire des épices lointaines pour les herbes fraîches du potager : persil, cerfeuil, thym, laurier, estragon, ciboulette. Le beurre remplace largement le lard, et surtout apparaît un principe technique nouveau, celui du fond de cuisson que l'on réduit et que l'on lie au roux, ce mélange de farine et de beurre. La sauce cesse d'être un condiment plaqué sur le plat pour devenir le prolongement de l'aliment lui-même. Le livre décrit aussi le bouquet garni, la duxelles de champignons qui porte le nom de son maître, et une organisation logique des recettes par famille de préparations. Le succès est européen : des dizaines d'éditions et des traductions font connaître partout un modèle français. D'autres suivent, comme Massialot avec Le Cuisinier roïal et bourgeois en 1691, puis Menon dont La Cuisinière bourgeoise, parue en 1746, s'adresse aux maisons de la bourgeoisie et non plus aux seules cours. La cuisine devient un savoir écrit, transmissible, discuté, et bientôt objet de fierté nationale.",
+     "visuel": {
+      "type": "tableau",
+      "titre": "Quatre livres qui ont fait la cuisine française",
+      "colonnes": [
+       "Ouvrage",
+       "Date",
+       "Apport"
+      ],
+      "lignes": [
+       [
+        "Le Viandier, Taillevent",
+        "vers 1300-1380",
+        "Fixe le répertoire médiéval : épices, sauces à la mie, grands rôts."
+       ],
+       [
+        "Le Cuisinier françois, La Varenne",
+        "1651",
+        "Herbes contre épices, beurre, roux, fonds réduits."
+       ],
+       [
+        "La Cuisinière bourgeoise, Menon",
+        "1746",
+        "Porte la cuisine soignée dans les maisons bourgeoises."
+       ],
+       [
+        "Le Guide culinaire, Escoffier",
+        "1903",
+        "Normalise plusieurs milliers de recettes et le vocabulaire professionnel."
+       ]
+      ]
+     }
+    },
+    {
+     "titre": "Les Lumières et l'invention du restaurant",
+     "texte": "Jusqu'au milieu du XVIIIe siècle, manger hors de chez soi signifiait s'asseoir à la table commune d'une auberge, à l'heure fixée par l'aubergiste et devant ce qu'il avait préparé. Vers 1765, un marchand de bouillons parisien nommé Boulanger ouvre une salle où il propose des « restaurants », c'est-à-dire des consommés censés restaurer les forces. La véritable nouveauté n'est pas le bouillon mais le dispositif : de petites tables individuelles, une carte affichant les plats et leurs prix, la liberté de venir à l'heure de son choix. En 1782, Antoine Beauvilliers, ancien cuisinier du comte de Provence, ouvre rue de Richelieu La Grande Taverne de Londres et introduit le luxe dans ce nouveau cadre : nappes, argenterie, cave, service attentif. La Révolution accélère le mouvement. Les aristocrates émigrent, leurs cuisiniers se retrouvent sans emploi et ouvrent boutique, tandis que les députés venus de province cherchent où dîner. Les galeries du Palais-Royal deviennent le premier quartier de la restauration au monde. Paris compte une centaine de restaurants à la fin de l'Ancien Régime et plusieurs milliers sous la Restauration. Une figure nouvelle apparaît alors, celle du critique gastronomique : Grimod de La Reynière publie son Almanach des gourmands à partir de 1803, et Brillat-Savarin donne en 1825 sa Physiologie du goût."
+    },
+    {
+     "titre": "Du XIXe siècle à la bistronomie",
+     "texte": "Le XIXe siècle est celui de la codification. Marie-Antoine Carême, passé au service de Talleyrand puis des cours européennes, hisse la cuisine au rang d'art : il classe les sauces, dessine des pièces montées inspirées de l'architecture et publie des traités monumentaux. Auguste Escoffier prolonge et simplifie ce travail au tournant du siècle. Associé à l'hôtelier César Ritz au Savoy de Londres puis au Carlton, il invente la brigade de cuisine, allège le répertoire de Carême et publie en 1903 Le Guide culinaire, qui donne à chaque plat un nom et une méthode stables. Parallèlement, l'automobile change la géographie de la table : le Guide Michelin, créé en 1900 pour vendre des pneus, attribue des étoiles aux bonnes tables à partir de 1926 et pousse les gourmets vers la province. Après 1945, la cuisine des régions gagne en prestige. Dans les années 1970, la nouvelle cuisine lancée par les critiques Gault et Millau réclame des cuissons plus courtes, des sauces plus légères et le respect du produit. Depuis les années 1990, un mouvement dit bistronomie propose la même exigence technique dans des lieux modestes et à des prix contenus, souvent portés par d'anciens seconds de grandes maisons. La cuisine française n'a donc jamais cessé de se redéfinir contre l'état antérieur d'elle-même.",
+     "visuel": {
+      "type": "image",
+      "image": "gas-careme",
+      "legende": "Marie-Antoine Carême, premier cuisinier à devenir une célébrité européenne.",
+      "alt": "Portrait gravé d'un homme en habit du début du XIXe siècle, cheveux bouclés, regardant de trois quarts."
+     }
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Quel texte de la fin du XIVe siècle mêle recettes de cuisine et conseils de tenue de maison ?",
+     "choix": [
+      "Le Ménagier de Paris",
+      "Le Viandier",
+      "Le Décaméron",
+      "Le Roman de la Rose"
+     ],
+     "bonne": 0,
+     "difficulte": 3,
+     "explication": "Le Ménagier de Paris a été rédigé vers 1393 par un bourgeois parisien âgé pour instruire sa jeune épouse. On y trouve aussi bien des recettes et des menus de banquet que des conseils sur le jardin, les domestiques et la morale conjugale. C'est une source majeure pour connaître l'alimentation urbaine de la fin du Moyen Âge. Le Viandier, lui, est un recueil de recettes de cour associé au nom de Taillevent."
+    },
+    {
+     "q": "Que dit l'historiographie moderne du rôle de Catherine de Médicis dans la cuisine française ?",
+     "choix": [
+      "Elle a introduit la fourchette et les sorbets",
+      "Son influence culinaire est un mythe forgé au XIXe siècle",
+      "Elle a écrit le premier livre de cuisine imprimé",
+      "Elle a fondé la première école de cuisine"
+     ],
+     "bonne": 1,
+     "difficulte": 3,
+     "explication": "Le récit d'une Catherine de Médicis apportant à la France ses cuisiniers florentins ne repose sur aucune source solide, comme l'ont montré les travaux des historiens de l'alimentation. Aucun document ne prouve la présence d'une brigade italienne à la cour, et la fourchette ne s'impose vraiment qu'au XVIIe siècle. Le mythe a été construit plus tard, quand on a cherché des origines flatteuses à la gastronomie nationale. Les échanges franco-italiens de la Renaissance ont surtout porté sur la mise en scène des banquets."
+    },
+    {
+     "q": "Quelle innovation technique le Cuisinier françois de 1651 diffuse-t-il durablement ?",
+     "choix": [
+      "La cuisson sous vide",
+      "La conserve appertisée",
+      "La liaison des sauces au roux et l'usage des fonds",
+      "La cuisson au micro-ondes"
+     ],
+     "bonne": 2,
+     "difficulte": 2,
+     "explication": "La Varenne substitue aux sauces médiévales liées à la mie de pain un système fondé sur les jus de cuisson réduits et sur le roux, mélange de beurre et de farine. La sauce devient ainsi le prolongement de l'aliment plutôt qu'un condiment ajouté. Il popularise également le bouquet garni et la duxelles de champignons. La conserve appertisée date, elle, du tout début du XIXe siècle et la cuisson sous vide des années 1970."
+    },
+    {
+     "q": "Qu'est-ce qui distinguait l'établissement du bouillonnier Boulanger des auberges de son temps ?",
+     "choix": [
+      "Il ne servait que des plats régionaux",
+      "Il était réservé à la noblesse",
+      "Il proposait des repas gratuits",
+      "On y choisissait son plat sur une carte, à prix affiché et à l'heure de son choix"
+     ],
+     "bonne": 3,
+     "difficulte": 2,
+     "explication": "Dans une auberge classique, on mangeait à heure fixe, tous ensemble, ce que la maison avait préparé. L'établissement ouvert vers 1765 par Boulanger propose au contraire des tables individuelles, une carte affichant plats et prix, et la liberté de l'horaire. Ce dispositif, et non la recette du bouillon, constitue l'invention du restaurant. Antoine Beauvilliers y ajoute le luxe en 1782 avec La Grande Taverne de Londres."
+    },
+    {
+     "q": "Que désigne le mot bistronomie apparu à la fin du XXe siècle ?",
+     "choix": [
+      "La cuisine moléculaire",
+      "Une cuisine de haute technicité proposée dans des lieux simples et à prix contenus",
+      "La restauration rapide industrielle",
+      "Le service de plats au comptoir des gares"
+     ],
+     "bonne": 1,
+     "difficulte": 2,
+     "explication": "La bistronomie désigne un mouvement apparu à Paris dans les années 1990, dans lequel des cuisiniers formés en grande maison ouvrent de petits établissements au décor de bistrot. L'exigence technique et le choix des produits y restent élevés, mais la carte est courte et les prix bien inférieurs à ceux des tables étoilées. Le terme est généralement attribué au journaliste Sébastien Demorand. Ce courant a durablement modifié le paysage de la restauration française."
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Cuisine française",
+     "url": "https://fr.wikipedia.org/wiki/Cuisine_fran%C3%A7aise"
+    },
+    {
+     "titre": "Le Cuisinier françois",
+     "url": "https://fr.wikipedia.org/wiki/Le_Cuisinier_fran%C3%A7ois"
+    },
+    {
+     "titre": "Restaurant",
+     "url": "https://fr.wikipedia.org/wiki/Restaurant"
+    },
+    {
+     "titre": "Guillaume Tirel",
+     "url": "https://fr.wikipedia.org/wiki/Guillaume_Tirel"
+    }
+   ]
+  },
+  {
+   "titre": "Les grands chefs et l'invention de la haute cuisine",
+   "sections": [
+    {
+     "titre": "Carême, l'architecte des fourneaux",
+     "texte": "Marie-Antoine Carême, mort en 1833 à moins de cinquante ans, est le premier cuisinier célèbre pour lui-même et non pour le maître qu'il sert. Abandonné enfant dans le Paris révolutionnaire, il entre en apprentissage dans une gargote puis chez le pâtissier Bailly, avant d'attirer l'attention de Talleyrand. Sa carrière se déroule ensuite dans les plus hautes sphères de l'Europe : le prince régent d'Angleterre, le tsar Alexandre Ier à Saint-Pétersbourg, l'ambassade d'Autriche, enfin le baron de Rothschild. Carême conçoit la cuisine comme un art savant, comparable à l'architecture dont il étudiait les traités au cabinet des estampes. Ses pièces montées en sucre et en pâte représentent des temples, des ruines et des rotondes, et couronnent les buffets diplomatiques de son temps. Sur le fond, son apport est une entreprise de classement : il ramène la multitude des sauces à quelques bases — allemande, béchamel, espagnole, velouté — dont toutes les autres dérivent. La tradition lui attribue également la haute toque blanche, adoptée vers 1821 pour distinguer le chef de ses commis. Ses ouvrages, du Pâtissier royal parisien à L'Art de la cuisine française au XIXe siècle, sont des sommes illustrées qui font de la cuisine un objet d'étude. On l'a résumé d'une formule : le roi des chefs et le chef des rois."
+    },
+    {
+     "titre": "Escoffier et l'invention de la brigade",
+     "texte": "Georges Auguste Escoffier, né en 1846 à Villeneuve-Loubet et mort en 1935 à Monte-Carlo, a transformé le métier plus que la cuisine elle-même. Son association avec l'hôtelier suisse César Ritz le conduit au Savoy de Londres à partir de 1890, puis au Ritz de Paris et au Carlton de Londres, où il dirige jusqu'à soixante cuisiniers. Pour servir plusieurs centaines de couverts sans désordre, il divise la cuisine en parties spécialisées : le saucier, le poissonnier, l'entremétier, le rôtisseur, le garde-manger et le pâtissier, chacun placé sous l'autorité d'un chef de partie et, au-dessus, d'un chef de cuisine. Un plat complexe n'est plus exécuté par une seule personne mais assemblé à partir d'éléments préparés simultanément. Escoffier impose en même temps une discipline nouvelle : hygiène, tenue impeccable, interdiction de l'alcool et des cris en cuisine, respect du personnel. Son Guide culinaire, paru en 1903, fixe le vocabulaire et les proportions de plusieurs milliers de préparations, et allège sensiblement l'héritage de Carême. Il baptise ses créations du nom de ses clientes célèbres, comme la pêche Melba composée en 1893 pour la cantatrice Nellie Melba. Il publie encore Le Livre des menus en 1912, puis Ma cuisine en 1934, ce dernier ouvrage s'adressant aux cuisiniers amateurs et non plus aux seuls professionnels. En 1928, il devient le premier cuisinier promu officier de la Légion d'honneur.",
+     "visuels": [
+      {
+       "type": "image",
+       "image": "gas-escoffier",
+       "legende": "Auguste Escoffier, organisateur de la cuisine professionnelle moderne.",
+       "alt": "Photographie ancienne d'un homme âgé en costume sombre, moustache blanche, posant de face."
+      },
+      {
+       "type": "etapes",
+       "titre": "Les postes de la brigade classique",
+       "etapes": [
+        {
+         "label": "Chef de cuisine",
+         "texte": "Conçoit la carte, commande, contrôle chaque assiette qui sort."
+        },
+        {
+         "label": "Saucier",
+         "texte": "Fonds, sauces et plats mijotés : le poste le plus prestigieux."
+        },
+        {
+         "label": "Poissonnier",
+         "texte": "Poissons et crustacés, avec leurs cuissons courtes."
+        },
+        {
+         "label": "Entremétier",
+         "texte": "Potages, légumes, œufs et féculents."
+        },
+        {
+         "label": "Rôtisseur",
+         "texte": "Rôtis, grillades et fritures."
+        },
+        {
+         "label": "Garde-manger",
+         "texte": "Préparations froides, découpe, stockage."
+        },
+        {
+         "label": "Pâtissier",
+         "texte": "Desserts, pâtes et pièces sucrées."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Le guide rouge et le pouvoir des étoiles",
+     "texte": "Le Guide Michelin est né en 1900 d'un calcul industriel : les frères André et Édouard Michelin, fabricants de pneumatiques à Clermont-Ferrand, offrent aux automobilistes un carnet recensant garages, hôtels, médecins et points d'eau, afin de les encourager à rouler davantage. Le guide devient payant en 1920, et les premières étoiles distinguant les bonnes tables apparaissent en 1926. La hiérarchie à trois niveaux est fixée en 1931, avec une formulation qui trahit son origine routière : une étoile pour une très bonne table, deux pour une cuisine excellente qui mérite un détour, trois pour une cuisine exceptionnelle qui vaut le voyage. Les inspecteurs visitent anonymement et règlent leurs additions, ce qui reste la règle. L'effet économique est considérable : l'obtention d'une étoile peut faire doubler la fréquentation d'une maison, sa perte provoquer des drames, comme l'ont montré plusieurs affaires très médiatisées. La France et Monaco comptent chaque année une vingtaine d'établissements trois étoiles seulement, sur plusieurs centaines de tables étoilées. Le guide a diversifié ses distinctions, notamment avec le Bib Gourmand qui récompense un bon rapport qualité-prix, et plus récemment avec une étoile verte pour les démarches durables. D'autres classements existent, du guide Gault et Millau à ses notes sur vingt jusqu'aux palmarès internationaux, mais aucun n'a la même autorité en France.",
+     "visuels": [
+      {
+       "type": "tableau",
+       "titre": "Ce que disent les étoiles",
+       "colonnes": [
+        "Distinction",
+        "Sens donné par le guide"
+       ],
+       "lignes": [
+        [
+         "Une étoile",
+         "Une très bonne table dans sa catégorie."
+        ],
+        [
+         "Deux étoiles",
+         "Une cuisine excellente, qui mérite un détour."
+        ],
+        [
+         "Trois étoiles",
+         "Une cuisine exceptionnelle, qui vaut le voyage."
+        ],
+        [
+         "Bib Gourmand",
+         "Un très bon repas à prix mesuré."
+        ],
+        [
+         "Étoile verte",
+         "Un engagement remarqué en faveur d'une gastronomie durable."
+        ]
+       ],
+       "note": "Les étoiles récompensent la cuisine seule, jamais le décor ni le service, notés séparément."
+      }
+     ]
+    },
+    {
+     "titre": "Fernand Point et la nouvelle cuisine",
+     "texte": "Entre les deux guerres, l'automobile déplace la haute cuisine hors de Paris. Fernand Point, installé à Vienne dans l'Isère, sur la route nationale 7 qui mène les Parisiens vers le Midi, obtient trois étoiles en 1933 pour son restaurant La Pyramide. Personnage énorme au sens propre comme au figuré, il pratique une cuisine apparemment simple mais d'une précision extrême, fondée sur le beurre, la fraîcheur et la maîtrise des cuissons. Surtout, il forme une génération entière : Paul Bocuse, Jean et Pierre Troisgros, Alain Chapel, Louis Outhier, François Bise passent par ses fourneaux avant d'ouvrir leurs propres maisons. Ce sont ces élèves qui, dans les années 1960 et 1970, portent le mouvement baptisé nouvelle cuisine par les critiques Henri Gault et Christian Millau en 1973. Leurs dix commandements tiennent en quelques principes : ne pas trop cuire, se fournir en produits frais, raccourcir les cartes, alléger les sauces en remplaçant la farine par des réductions et des herbes, tenir compte de la diététique et inventer. La présentation change aussi : le plat est dressé en cuisine, dans l'assiette, et non plus découpé en salle. Le mouvement a été victime de ses imitateurs, moqués pour de minuscules portions perdues au centre de grandes assiettes, mais ses acquis techniques n'ont jamais été abandonnés."
+    },
+    {
+     "titre": "Bocuse, Robuchon, Ducasse : le chef devient une marque",
+     "texte": "Paul Bocuse, né en 1926 et mort en 2018 à Collonges-au-Mont-d'Or, incarne la mutation du cuisinier en personnage public. Son auberge, près de Lyon, a conservé trois étoiles de 1965 à sa mort, une longévité unique. Meilleur Ouvrier de France en 1961, il crée en 1975 pour un déjeuner à l'Élysée la soupe aux truffes noires dite VGE, coiffée d'un dôme de feuilletage. Il voyage sans relâche pour défendre la cuisine française, ouvre des restaurants à l'étranger, fonde en 1987 le concours du Bocuse d'Or à Lyon et donne son nom à un institut de formation à Écully. Joël Robuchon, sacré cuisinier du siècle par Gault et Millau en 1990, pousse plus loin l'exigence technique : sa purée de pommes de terre, presque autant beurre que pomme de terre, devient un objet d'étude. Retiré des fourneaux à cinquante ans, il revient en 2003 avec le concept de l'Atelier, où l'on mange au comptoir face aux cuisiniers, et réunit dans le monde le plus grand nombre d'étoiles jamais obtenues par un chef. Alain Ducasse, né en 1956, construit quant à lui un groupe international mêlant restaurants, hôtels, école et édition. La haute cuisine française est ainsi devenue une industrie de savoir-faire exportée, où le nom du chef vaut signature.",
+     "visuels": [
+      {
+       "type": "image",
+       "image": "gas-bocuse",
+       "legende": "Paul Bocuse, figure publique de la cuisine française pendant plus de cinquante ans.",
+       "alt": "Photographie d'un chef âgé en veste blanche et haute toque, souriant."
+      }
+     ]
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Quelle innovation d'organisation Auguste Escoffier a-t-il imposée dans les grandes cuisines ?",
+     "choix": [
+      "La division du travail en parties spécialisées",
+      "La cuisine ouverte sur la salle",
+      "Le service à la française",
+      "Le buffet libre"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Escoffier a découpé la cuisine en postes spécialisés — saucier, poissonnier, entremétier, rôtisseur, garde-manger, pâtissier — placés sous l'autorité d'un chef. Chaque cuisinier ne réalise qu'une partie de chaque plat, ce qui permet d'envoyer simultanément des dizaines de préparations différentes. Ce modèle, inspiré de l'organisation militaire, s'est imposé dans toute la restauration professionnelle. Il s'accompagnait d'une exigence nouvelle d'hygiène et de tenue."
+    },
+    {
+     "q": "En quelle année les premières étoiles sont-elles apparues dans le Guide Michelin ?",
+     "choix": [
+      "1900",
+      "1926",
+      "1955",
+      "1973"
+     ],
+     "bonne": 1,
+     "difficulte": 3,
+     "explication": "Le Guide Michelin paraît dès 1900, mais il ne s'agit alors que d'un carnet pratique offert aux automobilistes. Les étoiles distinguant les bonnes tables apparaissent en 1926, et la hiérarchie à trois niveaux est fixée en 1931. La formulation retenue — mérite un détour, vaut le voyage — rappelle l'origine routière du guide. Le guide était devenu payant en 1920."
+    },
+    {
+     "q": "Quel chef installé à Vienne, dans l'Isère, a formé Bocuse et les frères Troisgros ?",
+     "choix": [
+      "Alexandre Dumaine",
+      "Raymond Oliver",
+      "Fernand Point",
+      "Michel Guérard"
+     ],
+     "bonne": 2,
+     "difficulte": 3,
+     "explication": "Fernand Point tenait La Pyramide, à Vienne, sur la route nationale 7 empruntée par les Parisiens descendant vers le Midi. Sa maison obtient trois étoiles en 1933 et les conserve jusqu'à sa mort en 1955. Paul Bocuse, Jean et Pierre Troisgros, Alain Chapel ou Louis Outhier y ont fait leurs armes. Ses recettes et ses formules ont été rassemblées après sa mort dans le livre Ma gastronomie."
+    },
+    {
+     "q": "Que réclamaient les dix commandements de la nouvelle cuisine publiés en 1973 ?",
+     "choix": [
+      "Le retour aux épices médiévales",
+      "La généralisation des surgelés",
+      "L'abandon des produits régionaux",
+      "Des cuissons plus courtes, des cartes réduites et des sauces allégées"
+     ],
+     "bonne": 3,
+     "difficulte": 2,
+     "explication": "Henri Gault et Christian Millau ont résumé le mouvement en dix règles : ne pas trop cuire, utiliser des produits frais, alléger les cartes, supprimer les sauces trop riches, s'intéresser à la diététique, rester inventif. Il s'agissait de rompre avec un répertoire figé hérité d'Escoffier et souvent mal exécuté. Le dressage passe alors de la salle à l'assiette préparée en cuisine. Les excès de certains imitateurs ont ensuite donné au terme une nuance moqueuse."
+    },
+    {
+     "q": "Quel concept de restaurant Joël Robuchon a-t-il lancé en 2003 ?",
+     "choix": [
+      "Le buffet à volonté de haute cuisine",
+      "Le restaurant entièrement végétarien",
+      "L'Atelier, où l'on mange au comptoir face aux cuisiniers",
+      "Le dîner dans l'obscurité"
+     ],
+     "bonne": 2,
+     "difficulte": 3,
+     "explication": "Après s'être retiré des fourneaux en 1995, Joël Robuchon revient en 2003 avec L'Atelier, inspiré des bars à tapas espagnols et des comptoirs à sushis japonais. Les clients y sont installés autour d'un comptoir et voient les cuisiniers travailler, dans un décor rouge et noir devenu reconnaissable. Le concept s'est décliné à Paris, Tokyo, Londres, Las Vegas ou Hong Kong. Robuchon a détenu le plus grand nombre d'étoiles Michelin jamais réunies par un chef."
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Auguste Escoffier",
+     "url": "https://fr.wikipedia.org/wiki/Auguste_Escoffier"
+    },
+    {
+     "titre": "Marie-Antoine Carême",
+     "url": "https://fr.wikipedia.org/wiki/Marie-Antoine_Car%C3%AAme"
+    },
+    {
+     "titre": "Guide Michelin",
+     "url": "https://fr.wikipedia.org/wiki/Guide_Michelin"
+    },
+    {
+     "titre": "Nouvelle cuisine",
+     "url": "https://fr.wikipedia.org/wiki/Nouvelle_cuisine"
+    },
+    {
+     "titre": "Paul Bocuse",
+     "url": "https://fr.wikipedia.org/wiki/Paul_Bocuse"
+    }
+   ]
+  },
+  {
+   "titre": "Le repas gastronomique des Français et les arts de la table",
+   "sections": [
+    {
+     "titre": "Une pratique sociale inscrite à l'UNESCO",
+     "texte": "Le 16 novembre 2010, à Nairobi, le comité intergouvernemental de l'UNESCO a inscrit le repas gastronomique des Français sur la liste représentative du patrimoine culturel immatériel de l'humanité. Il faut bien comprendre ce qui a été reconnu : non pas la cuisine française, ni ses recettes, ni ses chefs, mais une pratique sociale coutumière destinée à célébrer les moments importants de la vie — naissances, mariages, anniversaires, retrouvailles, fêtes de fin d'année. Le dossier décrit un rituel précis : le choix attentif des mets dans un répertoire qui ne cesse de s'enrichir, l'achat de produits de saison, l'accord entre les plats et les vins, le soin apporté à dresser la table, enfin un déroulement organisé pour ménager une progression des saveurs. La candidature a été portée par la Mission française du patrimoine et des cultures alimentaires, créée en 2008, avec l'appui de l'Institut européen d'histoire et des cultures de l'alimentation de Tours et la coordination scientifique de l'historienne Julia Csergo. La même session a reconnu la cuisine traditionnelle mexicaine et le régime méditerranéen, et l'UNESCO a par la suite inscrit le washoku japonais en 2013, le couscous maghrébin en 2020 et les savoir-faire de la baguette de pain en 2022. Ces distinctions ne créent aucune hiérarchie entre cuisines : elles reconnaissent des pratiques vivantes et menacées."
+    },
+    {
+     "titre": "Le déroulement du repas",
+     "texte": "Le repas de fête à la française suit un ordre qui n'a rien d'arbitraire : il organise une progression du léger vers le puissant, puis un retour vers la fraîcheur. Il s'ouvre par l'apéritif, moment de sociabilité où l'on boit debout et où l'on grignote, avant que les convives ne passent à table. Vient ensuite l'entrée, froide ou chaude, souvent légère, qui met l'appétit en éveil sans le saturer. Le plat principal associe une viande ou un poisson, une garniture et une sauce, et constitue le sommet du repas. Le fromage se sert ensuite, presque toujours avant le dessert, ce qui distingue nettement l'usage français des habitudes anglo-saxonnes ; il prolonge le vin rouge du plat ou appelle un blanc selon la pâte. Le dessert clôt la progression, suivi du café et parfois d'un digestif. Cette structure n'est pas figée : elle se contracte au quotidien en deux services, et s'étire dans les grandes occasions avec un poisson, un rôti, une salade et plusieurs desserts. Elle porte cependant une exigence constante : personne ne commence avant que tous soient servis, et le repas se déroule assis, ensemble, pendant un temps assez long pour que la conversation compte autant que le contenu des assiettes.",
+     "visuel": {
+      "type": "etapes",
+      "titre": "L'ordre classique d'un repas de fête",
+      "etapes": [
+       {
+        "label": "Apéritif",
+        "texte": "Debout, avec quelques amuse-bouches ; on ne s'assied qu'ensuite."
+       },
+       {
+        "label": "Entrée",
+        "texte": "Froide ou chaude, légère, elle ouvre l'appétit."
+       },
+       {
+        "label": "Plat",
+        "texte": "Viande ou poisson, garniture et sauce : le cœur du repas."
+       },
+       {
+        "label": "Fromage",
+        "texte": "Servi avant le dessert, usage propre à la France."
+       },
+       {
+        "label": "Dessert",
+        "texte": "Sucré, souvent accompagné d'un vin doux."
+       },
+       {
+        "label": "Café et digestif",
+        "texte": "Retour à la conversation, hors du service."
+       }
+      ]
+     }
+    },
+    {
+     "titre": "L'accord des mets et des vins",
+     "texte": "L'accord entre un plat et un vin figure explicitement dans le dossier UNESCO, car il constitue l'un des traits les plus caractéristiques du repas français. Le principe le plus ancien tient en une formule : accorder par la région, en servant avec un plat le vin du pays qui l'a vu naître, une choucroute avec un riesling ou un bœuf bourguignon avec un rouge de Bourgogne. La pratique moderne raisonne davantage en termes d'équilibre. On cherche soit une harmonie, en associant des intensités comparables, soit un contraste, comme le sucré d'un sauternes face au sel et à l'amertume d'un roquefort. Quelques règles techniques reviennent souvent : les tanins d'un rouge puissant s'assouplissent au contact des protéines d'une viande rouge, mais s'accordent mal avec le poisson ; l'acidité d'un blanc vif nettoie le gras d'une sauce au beurre ; un plat sucré demande un vin plus sucré encore, faute de quoi celui-ci paraîtra acide. L'ordre de service compte aussi : on va généralement des vins les plus légers vers les plus corsés, des blancs vers les rouges, des plus jeunes vers les plus vieux. Rien de tout cela n'a valeur de loi, et les accords les plus mémorables naissent souvent d'une transgression assumée.",
+     "visuel": {
+      "type": "tableau",
+      "titre": "Quelques accords classiques",
+      "colonnes": [
+       "Plat",
+       "Vin souvent servi",
+       "Pourquoi"
+      ],
+      "lignes": [
+       [
+        "Huîtres",
+        "Muscadet, chablis",
+        "L'acidité vive et la faible aromatique respectent l'iode."
+       ],
+       [
+        "Choucroute",
+        "Riesling d'Alsace",
+        "Accord régional ; l'acidité répond au chou et au gras."
+       ],
+       [
+        "Bœuf bourguignon",
+        "Bourgogne rouge",
+        "Les tanins s'assouplissent au contact de la viande."
+       ],
+       [
+        "Roquefort",
+        "Sauternes",
+        "Le sucre du vin contrebalance le sel et l'amertume du bleu."
+       ],
+       [
+        "Chocolat",
+        "Banyuls, maury",
+        "Vins doux naturels assez puissants pour tenir face au cacao."
+       ]
+      ]
+     }
+    },
+    {
+     "titre": "Du service à la française au service à la russe",
+     "texte": "Pendant des siècles, un dîner d'apparat se déroulait selon le service à la française : à chaque service, une vingtaine de plats étaient disposés simultanément sur la table, dans une symétrie soigneusement réglée, et chacun se servait de ce qui se trouvait devant lui. Le spectacle était magnifique, mais deux défauts sautaient aux yeux : les plats refroidissaient, et un convive mal placé ne goûtait jamais certaines préparations. Le service à la russe, que le prince Alexandre Kourakine, ambassadeur du tsar à Paris, aurait fait connaître vers 1810, propose l'inverse : la table ne porte que des fleurs, des surtouts et les couverts, tandis que les plats, découpés à l'office, sont présentés successivement et chauds à chaque convive. Le modèle s'impose en France au cours du XIXe siècle et devient la norme dans la restauration. Ses conséquences sur les arts de la table sont considérables. Puisque les plats défilent, il faut prévoir pour chacun son assiette et ses couverts, d'où l'apparition de couverts spécialisés — à poisson, à dessert, à fromage — et de séries de verres. Il faut aussi indiquer aux convives ce qui les attend : le menu écrit, posé sur la table, naît précisément de cette transformation. Enfin le rythme du repas devient linéaire, ce qui rend possible la progression des saveurs que décrit le dossier UNESCO.",
+     "visuel": {
+      "type": "comparaison",
+      "titre": "Deux manières de servir",
+      "colonnes": [
+       {
+        "titre": "Service à la française",
+        "points": [
+         "Tous les plats d'un service posés ensemble",
+         "Symétrie décorative de la table",
+         "Chacun se sert de ce qui est à sa portée",
+         "Plats souvent tièdes",
+         "Découpe spectaculaire devant les convives"
+        ]
+       },
+       {
+        "titre": "Service à la russe",
+        "points": [
+         "Plats présentés l'un après l'autre",
+         "Table dressée de fleurs et de couverts",
+         "Chaque convive reçoit la même chose",
+         "Plats servis chauds",
+         "Découpe à l'office, menu écrit sur la table"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "titre": "Porcelaine, cristal et couverts",
+     "texte": "Le repas français s'est doté d'un matériel qui constitue à lui seul une industrie de luxe. La porcelaine dure, longtemps secret chinois, devient possible en France après la découverte, en 1767 à Saint-Yrieix-la-Perche, d'un gisement de kaolin par le chirurgien Jean-Baptiste Darnet. Les premières manufactures s'installent à Limoges dès 1771 et la ville domine encore la production française ; la porcelaine de Limoges bénéficie depuis 2017 d'une indication géographique protégeant son nom. La manufacture royale de Sèvres, née à Vincennes en 1740, fournit pour sa part les services diplomatiques de l'État. Le cristal suit une histoire parallèle : la verrerie de Baccarat, autorisée par Louis XV en 1764 en Lorraine, se convertit au cristal en 1816 et livre dès 1823 des commandes royales. Le cristal se distingue du verre ordinaire par une teneur élevée en oxyde de plomb, qui lui donne son indice de réfraction et sa sonorité. Les couverts, longtemps réduits au couteau que chacun apportait, se sont multipliés avec le service à la russe. Le couteau de table à bout arrondi est traditionnellement attribué à une décision de Richelieu, et le couteau de Laguiole, né en Aveyron vers 1829, est devenu un objet identitaire. Cet équipement explique que dresser une table soit en France un savoir-faire à part entière."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Qu'est-ce qui a exactement été inscrit par l'UNESCO en 2010 ?",
+     "choix": [
+      "Le repas gastronomique des Français, comme pratique sociale",
+      "La cuisine française et ses recettes",
+      "Le Guide Michelin",
+      "Les fromages AOP français"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "L'inscription du 16 novembre 2010 porte sur une pratique sociale coutumière destinée à célébrer les moments importants de la vie, et non sur des recettes ou des produits. Le dossier décrit le choix des mets, l'accord avec les vins, la table dressée et l'ordre des plats. La candidature avait été portée par la Mission française du patrimoine et des cultures alimentaires, créée en 2008. La même session a reconnu la cuisine mexicaine et le régime méditerranéen."
+    },
+    {
+     "q": "À quel moment le fromage est-il servi dans un repas français traditionnel ?",
+     "choix": [
+      "En même temps que l'entrée",
+      "Après le plat et avant le dessert",
+      "Tout à la fin, après le café",
+      "Avec l'apéritif uniquement"
+     ],
+     "bonne": 1,
+     "difficulte": 1,
+     "explication": "L'usage français place le plateau de fromages entre le plat principal et le dessert, ce qui permet de prolonger le vin rouge du plat ou d'en ouvrir un autre. Cette position est une particularité nationale : dans le monde anglo-saxon, le fromage se sert souvent après le dessert. Brillat-Savarin résumait la chose en écrivant qu'un dessert sans fromage est une belle à qui il manque un œil. La progression des saveurs justifie cet ordre."
+    },
+    {
+     "q": "En quoi consistait le service à la française pratiqué jusqu'au XIXe siècle ?",
+     "choix": [
+      "Chaque plat était servi individuellement et chaud",
+      "Les convives se servaient au buffet",
+      "Tous les plats d'un même service étaient posés ensemble sur la table",
+      "Le repas se prenait debout"
+     ],
+     "bonne": 2,
+     "difficulte": 3,
+     "explication": "Dans le service à la française, chaque service consistait à couvrir la table de nombreux plats disposés symétriquement, dont les convives se servaient eux-mêmes. Le résultat était spectaculaire mais les plats tiédissaient et un convive mal placé restait privé de certaines préparations. Le service à la russe, diffusé en France à partir du début du XIXe siècle, y a substitué la présentation successive de plats découpés à l'office. Ce changement a entraîné l'apparition du menu écrit et des couverts spécialisés."
+    },
+    {
+     "q": "Quelle découverte a rendu possible la fabrication de porcelaine dure en France ?",
+     "choix": [
+      "Celle du verre au plomb en Lorraine",
+      "Celle de l'étain en Bretagne",
+      "Celle du bleu de cobalt",
+      "Celle d'un gisement de kaolin près de Limoges, en 1767"
+     ],
+     "bonne": 3,
+     "difficulte": 3,
+     "explication": "La porcelaine dure exige du kaolin, une argile blanche très pure dont l'Europe ignorait longtemps les gisements. En 1767, un dépôt est identifié à Saint-Yrieix-la-Perche, en Limousin, et les premières manufactures ouvrent à Limoges dès 1771. La ville est ainsi devenue la capitale française de la porcelaine, protégée depuis 2017 par une indication géographique. La manufacture de Sèvres, fondée à Vincennes en 1740, produisait auparavant de la porcelaine tendre."
+    },
+    {
+     "q": "Pourquoi sert-on traditionnellement un sauternes avec du roquefort ?",
+     "choix": [
+      "Parce que les deux viennent de la même région",
+      "Parce que le vin doit toujours être plus acide que le plat",
+      "Parce que le vin blanc accompagne tous les fromages",
+      "Parce que le sucre du vin équilibre le sel et l'amertume du fromage"
+     ],
+     "bonne": 3,
+     "difficulte": 2,
+     "explication": "Cet accord repose sur un contraste : la douceur d'un vin liquoreux comme le sauternes vient compenser la salinité et l'amertume d'une pâte persillée. Un rouge tannique, au contraire, se heurterait au sel et paraîtrait dur. Les deux produits ne viennent d'ailleurs pas de la même région, le roquefort étant aveyronnais et le sauternes bordelais. Le principe général veut qu'on cherche soit une harmonie d'intensité, soit un contraste maîtrisé."
+    }
+   ],
+   "sources": [
+    {
+     "titre": "Repas gastronomique des Français",
+     "url": "https://fr.wikipedia.org/wiki/Repas_gastronomique_des_Fran%C3%A7ais"
+    },
+    {
+     "titre": "Service à la française",
+     "url": "https://fr.wikipedia.org/wiki/Service_%C3%A0_la_fran%C3%A7aise"
+    },
+    {
+     "titre": "Porcelaine de Limoges",
+     "url": "https://fr.wikipedia.org/wiki/Porcelaine_de_Limoges"
+    },
+    {
+     "titre": "Baccarat (cristallerie)",
+     "url": "https://fr.wikipedia.org/wiki/Baccarat_(cristallerie)"
+    }
+   ]
+  }
+ ]
+}

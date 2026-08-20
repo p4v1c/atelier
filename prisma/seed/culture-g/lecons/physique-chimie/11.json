@@ -1,0 +1,161 @@
+{
+ "titre": "Machines simples et mécanique appliquée",
+ "sections": [
+  {
+   "titre": "Travail, énergie et principe des machines",
+   "texte": "Avant de comprendre une machine, il faut définir le travail d'une force. C'est la grandeur qui mesure le transfert d'énergie dû à l'action d'une force le long d'un déplacement. Pour une force constante et un déplacement rectiligne, ce travail vaut le produit de l'intensité de la force par la longueur du déplacement et par le cosinus de l'angle entre les deux : lorsque la force est dans le sens du mouvement, il se réduit simplement au produit de la force par la distance. Le travail s'exprime en joules, unité d'énergie, et se note habituellement W. On le dit moteur lorsqu'il est positif, c'est-à-dire quand la force accompagne le déplacement et augmente l'énergie cinétique, et résistant lorsqu'il est négatif et s'oppose au mouvement. Fait remarquable, une force perpendiculaire au déplacement ne travaille pas : son travail est nul, même si elle infléchit la trajectoire. Cette notion, introduite formellement par le physicien Gaspard-Gustave de Coriolis en 1826, éclaire tout le fonctionnement des machines. Une machine simple est un dispositif de mécanique élémentaire qui transforme l'intensité ou la direction d'une force en une autre configuration de force. Mais elle ne crée jamais d'énergie : le travail fourni se conserve, aux frottements près. Si la machine divise la force par deux, elle multiplie par deux la distance à parcourir. On ne gagne donc jamais sur les deux tableaux, ce qui constitue la règle d'or de toute la mécanique appliquée."
+  },
+  {
+   "titre": "Le levier, la plus ancienne des machines",
+   "texte": "Le levier est une pièce rigide et allongée, généralement montée en liaison pivot, qui permet de transformer un mouvement. Le point d'appui autour duquel il tourne porte un nom savant venu du grec, l'hypomochlion. On distingue sur le levier la force motrice, celle que l'on exerce, et la force résistante, celle que l'on cherche à vaincre ; la distance de chacune au point d'appui s'appelle son bras de levier. La loi fondamentale s'écrit alors très simplement : le produit de la première force par son bras est égal au produit de la seconde force par le sien. Il en découle que plus le bras de la force motrice est long, plus l'effort à fournir est faible. Comme toute machine simple, le levier obéit toutefois à un principe contraignant : il amplifie soit l'effort, soit l'amplitude du mouvement et la vitesse, mais jamais les deux à la fois. On classe les leviers en trois genres selon la position relative des trois points. Dans le levier du premier genre, dit inter-appui, le point d'appui se trouve entre les deux forces : c'est le cas des ciseaux, de la tenaille et de l'arrache-clou. Dans le levier du deuxième genre, inter-résistant, l'appui est à une extrémité et la charge se situe entre l'appui et l'effort : ainsi de la brouette et du décapsuleur. Dans le troisième genre, inter-moteur, la force motrice s'applique entre l'appui et la charge, comme pour le biceps ou la canne à pêche.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les trois genres de leviers",
+    "colonnes": [
+     "Genre",
+     "Disposition des trois points",
+     "Exemples"
+    ],
+    "lignes": [
+     [
+      "1er genre, inter-appui",
+      "L'appui est entre la force motrice et la charge",
+      "Ciseaux, tenaille, arrache-clou"
+     ],
+     [
+      "2e genre, inter-résistant",
+      "La charge est entre l'appui et la force motrice",
+      "Brouette, décapsuleur"
+     ],
+     [
+      "3e genre, inter-moteur",
+      "La force motrice est entre l'appui et la charge",
+      "Biceps, canne à pêche"
+     ]
+    ],
+    "note": "Loi du levier : force motrice × son bras = force résistante × son bras."
+   }
+  },
+  {
+   "titre": "Poulies, palans et démultiplication",
+   "texte": "La poulie est une machine simple en forme de roue qui redirige un mouvement. Sa plus ancienne représentation connue figure sur un bas-relief assyrien datant de 870 avant notre ère. Il faut distinguer soigneusement deux montages. Une poulie fixe, accrochée à un support, ne fait que changer la direction de la force appliquée : elle permet de tirer vers le bas pour soulever une charge vers le haut, ce qui est bien plus commode, mais l'effort demandé reste identique à celui d'un levage direct. Une poulie mobile, solidaire de la charge, fait bien mieux : le poids se répartit entre le support et le brin que l'on tire, si bien que l'effort nécessaire est divisé par deux. Conformément à la conservation du travail, la corde à tirer est alors deux fois plus longue que la hauteur de levage. En associant plusieurs poulies fixes et mobiles, on construit un palan, ou moufle, dans lequel la charge se répartit sur plusieurs brins de corde ; le rapport de démultiplication augmente d'autant, ce qui permet de soulever des masses considérables avec un effort modeste. Le prix à payer reste le même : une longueur de corde proportionnellement plus grande à tirer. Dans la pratique, l'efficacité d'une poulie dépend étroitement de la réduction des frottements, donc de la qualité des roulements et des matériaux. On retrouve ces dispositifs en marine pour la manœuvre des voiles, sur les moteurs d'automobile, dans le bâtiment et dans les techniques de secours en spéléologie.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Poulie fixe ou poulie mobile",
+    "colonnes": [
+     {
+      "titre": "Poulie fixe",
+      "points": [
+       "Accrochée à un support",
+       "Change seulement la direction de la force",
+       "L'effort reste égal au poids de la charge",
+       "On tire vers le bas pour monter : plus commode, pas plus facile"
+      ]
+     },
+     {
+      "titre": "Poulie mobile",
+      "points": [
+       "Solidaire de la charge",
+       "Le poids se répartit entre le support et le brin tiré",
+       "L'effort est divisé par deux",
+       "La corde à tirer est deux fois plus longue que la hauteur de levage"
+      ]
+     }
+    ],
+    "note": "La règle d'or ne se contourne pas : ce que l'on gagne en force, on le perd en distance. Un palan associe plusieurs poulies pour démultiplier davantage."
+   }
+  },
+  {
+   "titre": "Plan incliné, coin et vis",
+   "texte": "Un plan incliné est une surface plane rigide inclinée par rapport à l'horizontale. Son principe est le même que celui des autres machines simples : il réduit la force nécessaire pour déplacer un objet en répartissant l'effort sur une distance plus longue, au lieu de le soulever verticalement d'un seul coup. Plus la pente est douce, plus la force à fournir est faible, mais plus le chemin à parcourir est long. Les Anciens en avaient tiré tout le parti possible : on connaît une rampe de 29 pour cent aux carrières égyptiennes de Hatnoub, et le procédé a servi tant à l'édification des pyramides qu'à la construction du Parthénon d'Athènes. Aujourd'hui, il équipe les rampes d'accessibilité destinées aux personnes à mobilité réduite et les dispositifs de chargement des véhicules. Le plan incliné sert également d'instrument de mesure : en inclinant progressivement une surface jusqu'à ce que l'objet posé dessus commence à glisser, on obtient le coefficient de frottement, égal à la tangente de l'angle atteint ; des normes définissent précisément ce type d'essai. Deux autres machines simples reposent sur la même idée géométrique. Le coin, employé pour fendre le bois ou caler une porte, est un plan incliné mobile qui convertit une force d'enfoncement en un puissant écartement latéral. La vis, quant à elle, peut se lire comme un plan incliné enroulé autour d'un cylindre : un tour complet du filetage correspond à une avancée d'un pas, très courte, d'où une multiplication de force considérable."
+  },
+  {
+   "titre": "Puissance, rendement et machines composées",
+   "texte": "Deux machines peuvent accomplir le même travail sans se valoir : ce qui les distingue est la rapidité. La puissance mesure le travail effectué par unité de temps ; elle s'exprime en watts, un watt correspondant à un joule par seconde. Un treuil manuel et un treuil électrique peuvent hisser la même charge à la même hauteur, mais le second le fait en quelques secondes là où le premier demande plusieurs minutes. Dans le monde réel, aucune machine ne restitue intégralement l'énergie qu'on lui fournit. Une part du travail est dissipée par les frottements dans les axes, les paliers et les cordes, et se retrouve sous forme de chaleur. On appelle rendement le rapport entre le travail utile récupéré et le travail fourni ; il est toujours inférieur à un, et c'est pourquoi la conception soignée des roulements et le choix des matériaux comptent autant que la géométrie du mécanisme. La classification traditionnelle retenait cinq machines simples, le levier, la poulie, le coin, le treuil et la vis, à quoi la Renaissance ajouta le plan incliné ; Héron d'Alexandrie les avait déjà toutes étudiées dans ses Mécaniques. L'ingénieur Franz Reuleaux a montré plus tard que le levier, le treuil et la poulie relèvent au fond du même principe, tout comme le coin, le plan incliné et la vis. Les machines composées, telles la brouette ou le palan, combinent plusieurs de ces éléments. Avec l'industrialisation et l'essor des systèmes pneumatiques, hydrauliques et électriques, cette classification a perdu de son importance au profit de l'analyse vectorielle des forces."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Que gagne-t-on avec une machine simple comme une poulie mobile ?",
+   "choix": [
+    "De l'énergie, car la machine en produit davantage qu'on ne lui en fournit",
+    "Une force réduite, au prix d'une distance à parcourir plus grande",
+    "À la fois une force réduite et une distance plus courte",
+    "Rien du tout, la machine ne fait que compliquer le travail"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Une machine simple transforme l'intensité ou la direction d'une force, mais elle ne crée jamais d'énergie. Le travail se conserve, aux frottements près : si la force nécessaire est divisée par deux, la distance à parcourir est multipliée par deux. Avec une poulie mobile, l'effort à fournir tombe de moitié, mais la longueur de corde à tirer double par rapport à la hauteur de levage. Aucune machine ne permet donc de gagner sur les deux tableaux à la fois, ce qui est la règle d'or de la mécanique appliquée. Les machines restent pourtant précieuses, car elles rendent réalisables des efforts hors de portée d'un être humain."
+  },
+  {
+   "q": "Quelle relation exprime la loi du levier ?",
+   "choix": [
+    "La somme des forces est égale à la somme des bras de levier",
+    "La force est proportionnelle au carré du bras de levier",
+    "Le produit de chaque force par son bras de levier est le même des deux côtés",
+    "La force motrice est toujours supérieure à la force résistante"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La loi du levier s'écrit en égalant le produit de la première force par son bras de levier au produit de la seconde force par le sien. Le bras de levier est la distance qui sépare le point d'application de la force du point d'appui, appelé hypomochlion. Il en résulte qu'allonger le bras de la force motrice diminue proportionnellement l'effort à fournir : c'est tout l'intérêt d'une longue barre à mine. En contrepartie, le côté long parcourt une distance bien plus grande, ce qui illustre encore la conservation du travail. Le levier amplifie donc soit l'effort, soit l'amplitude du mouvement, mais jamais les deux ensemble."
+  },
+  {
+   "q": "La brouette est un exemple de levier de quel genre ?",
+   "choix": [
+    "Du deuxième genre, dit inter-résistant",
+    "Du premier genre, dit inter-appui",
+    "Du troisième genre, dit inter-moteur",
+    "Ce n'est pas un levier mais un plan incliné"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Dans un levier du deuxième genre, dit inter-résistant, le point d'appui se trouve à une extrémité et la charge se situe entre cet appui et la force motrice. C'est exactement la configuration de la brouette : la roue sert d'appui, la charge repose dans la benne, et les mains soulèvent les brancards à l'autre bout. Le décapsuleur relève du même genre. Dans le levier du premier genre, l'appui est situé entre les deux forces, comme pour les ciseaux ou l'arrache-clou. Dans le troisième genre, la force motrice s'applique entre l'appui et la charge, comme le fait le biceps sur l'avant-bras."
+  },
+  {
+   "q": "Une poulie simplement fixée au plafond, sans poulie mobile, permet de :",
+   "choix": [
+    "Diviser par deux l'effort nécessaire",
+    "Changer la direction de la force sans réduire son intensité",
+    "Diviser par quatre l'effort nécessaire",
+    "Supprimer complètement l'effort à fournir"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Une poulie fixe accrochée à un support ne modifie que la direction de la force appliquée. Elle permet de tirer vers le bas, en s'aidant éventuellement de son propre poids, pour faire monter une charge : c'est bien plus commode, mais l'effort demandé reste rigoureusement le même que lors d'un levage direct. Le gain en force apparaît avec la poulie mobile, solidaire de la charge, qui répartit le poids entre le support et le brin tiré et divise donc l'effort par deux. En associant plusieurs poulies fixes et mobiles, on construit un palan dont le rapport de démultiplication augmente avec le nombre de brins porteurs."
+  },
+  {
+   "q": "Comment définit-on la puissance en mécanique et en quelle unité s'exprime-t-elle ?",
+   "choix": [
+    "La force multipliée par le temps, en joules",
+    "L'énergie totale disponible, en newtons",
+    "Le travail effectué par unité de temps, en watts",
+    "Le rapport du travail utile au travail fourni, sans unité"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La puissance mesure le travail effectué par unité de temps et s'exprime en watts, un watt valant un joule par seconde. Deux machines peuvent accomplir exactement le même travail, donc transférer la même énergie en joules, tout en différant complètement par la rapidité : c'est la puissance qui les distingue. Le newton est l'unité de force, et le joule celle du travail et de l'énergie. Quant au rapport du travail utile au travail fourni, c'est le rendement, grandeur sans unité toujours inférieure à un du fait des frottements qui dissipent une partie de l'énergie sous forme de chaleur."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Machine simple",
+   "url": "https://fr.wikipedia.org/wiki/Machine_simple"
+  },
+  {
+   "titre": "Levier (mécanique)",
+   "url": "https://fr.wikipedia.org/wiki/Levier_(m%C3%A9canique)"
+  },
+  {
+   "titre": "Poulie",
+   "url": "https://fr.wikipedia.org/wiki/Poulie"
+  },
+  {
+   "titre": "Plan incliné",
+   "url": "https://fr.wikipedia.org/wiki/Plan_inclin%C3%A9"
+  },
+  {
+   "titre": "Travail d'une force",
+   "url": "https://fr.wikipedia.org/wiki/Travail_d%27une_force"
+  }
+ ]
+}

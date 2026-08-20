@@ -1,0 +1,205 @@
+{
+ "titre": "L'athlétisme, courir, sauter, lancer",
+ "sections": [
+  {
+   "titre": "Un sport aussi ancien que la civilisation",
+   "texte": "L'athlétisme repose sur trois gestes naturels, courir, sauter et lancer, ce qui en fait sans doute le plus ancien des sports codifiés. Dans la Grèce antique, les Jeux d'Olympie, dont la tradition situe la première édition en 776 avant notre ère, se limitaient à l'origine à une seule épreuve : la course du stade, soit environ cent quatre-vingt-douze mètres. Le programme s'enrichit ensuite du diaulos, course sur deux longueurs, du dolique, course de fond, et surtout du pentathlon, qui associait la course, le saut en longueur, le lancer du disque, le lancer du javelot et la lutte. Le vainqueur recevait une couronne d'olivier sauvage et une gloire considérable dans sa cité. Après la disparition des jeux antiques, l'athlétisme réapparaît sous une forme organisée dans l'Angleterre du XIXe siècle, où les collèges et les universités mettent au point des règlements précis et des installations spécialisées. L'Amateur Athletic Association britannique est fondée en 1880 et sert de modèle aux autres pays. Lorsque Pierre de Coubertin fait renaître les Jeux olympiques en 1896 à Athènes, l'athlétisme en constitue naturellement le cœur, et il n'a jamais cessé depuis d'être la discipline reine de la quinzaine olympique. La fédération internationale est créée en 1912 à Stockholm ; elle est chargée d'homologuer les records du monde et d'unifier les règles. Les championnats du monde d'athlétisme, plus tardifs, ont été organisés pour la première fois en 1983 à Helsinki."
+  },
+  {
+   "titre": "Les courses, du sprint au fond",
+   "texte": "Les épreuves de course se disputent sur une piste dont le tour mesure quatre cent mètres et qui comporte huit couloirs. On distingue d'abord le sprint, où l'athlète part de blocs de départ et court en couloir imposé : le cent mètres, le deux cents mètres et le quatre cents mètres. Ces épreuves exigent une puissance explosive et une réaction très rapide au coup de pistolet ; un départ effectué moins d'un dixième de seconde après le signal est considéré comme anticipé et entraîne la disqualification. Le demi-fond regroupe le huit cents et le mille cinq cents mètres, où s'ajoute une dimension tactique importante, les coureurs se plaçant en peloton avant d'accélérer dans le dernier tour. Le fond comprend le cinq mille et le dix mille mètres, épreuves d'endurance pure disputées respectivement sur douze et vingt-cinq tours. À ces courses plates s'ajoutent les épreuves d'obstacles : le cent dix mètres haies chez les hommes, le cent mètres haies chez les femmes, le quatre cents mètres haies, et le trois mille mètres steeple, où les concurrents franchissent des barrières fixes ainsi qu'une rivière. Les relais quatre fois cent mètres et quatre fois quatre cents mètres introduisent une dimension collective, la transmission du témoin devant s'effectuer dans une zone délimitée. Enfin, la marche athlétique impose un contact permanent avec le sol et une jambe tendue à l'appui.",
+   "visuels": [
+    {
+     "type": "tableau",
+     "titre": "Les familles de courses sur la piste",
+     "colonnes": [
+      "Famille",
+      "Épreuves",
+      "Ce qui la caractérise"
+     ],
+     "lignes": [
+      [
+       "Sprint",
+       "100 m, 200 m, 400 m",
+       "Départ dans des blocs, couloir imposé, puissance explosive."
+      ],
+      [
+       "Demi-fond",
+       "800 m, 1 500 m",
+       "Course en peloton et forte dimension tactique."
+      ],
+      [
+       "Fond",
+       "5 000 m (12 tours et demi), 10 000 m (25 tours)",
+       "Endurance pure."
+      ],
+      [
+       "Haies et steeple",
+       "110 m haies (hommes), 100 m haies (femmes), 400 m haies, 3 000 m steeple",
+       "Franchissement d'obstacles ; le steeple ajoute une rivière."
+      ],
+      [
+       "Relais",
+       "4 x 100 m, 4 x 400 m",
+       "Le témoin doit être transmis dans une zone délimitée."
+      ],
+      [
+       "Marche athlétique",
+       "Sur route ou sur piste",
+       "Contact permanent avec le sol et jambe tendue à l'appui."
+      ]
+     ],
+     "note": "La piste mesure 400 m par tour et compte huit couloirs. Un départ pris moins d'un dixième de seconde après le pistolet est jugé anticipé."
+    },
+    {
+     "type": "image",
+     "image": "sp-piste-athletisme",
+     "legende": "Un stade d'athlétisme vu du dessus : l'anneau de 400 m et ses huit couloirs, les départs échelonnés selon la distance, et au centre les aires réservées aux sauts et aux lancers.",
+     "alt": "Schéma d'un stade d'athlétisme : piste ovale à huit couloirs avec les marques de départ du 100 m, du 200 m, du 400 m, du 1 500 m et du steeple, et à l'intérieur les aires de saut à la perche, de saut en hauteur, de longueur, de javelot, de disque, de marteau et de poids."
+    }
+   ]
+  },
+  {
+   "titre": "Les sauts et les lancers",
+   "texte": "Les concours de sauts se répartissent en sauts verticaux et sauts horizontaux. Le saut en hauteur consiste à franchir une barre posée sur deux poteaux ; sa technique a été bouleversée en 1968 par l'Américain Dick Fosbury, qui inventa le franchissement en arrière, dos à la barre, aujourd'hui universellement utilisé sous le nom de rouleau dorsal ou fosbury flop. Le saut à la perche utilise une perche flexible en fibre de verre puis en carbone, qui a permis de faire progresser spectaculairement les performances depuis les années 1960. Le saut en longueur et le triple saut se mesurent depuis une planche d'appel : dépasser cette planche annule l'essai. Le triple saut se compose de trois bonds enchaînés, appelés cloche-pied, foulée bondissante et saut. Les lancers, eux, se font depuis un cercle ou une aire délimitée. Le poids, sphère métallique de 7,26 kilogrammes chez les hommes et de 4 kilogrammes chez les femmes, se pousse d'une seule main depuis l'épaule. Le disque et le marteau se lancent après une série de rotations qui donnent à l'engin une vitesse considérable, ce qui impose de protéger l'aire par une cage grillagée. Le javelot, seul lancer précédé d'une course d'élan, requiert une coordination très fine. Les épreuves combinées, décathlon masculin en dix disciplines et heptathlon féminin en sept, couronnent les athlètes les plus complets."
+  },
+  {
+   "titre": "Le marathon et la course sur route",
+   "texte": "Le marathon est l'épreuve la plus symbolique de l'athlétisme. Son nom vient d'une légende antique : après la victoire des Athéniens sur les Perses lors de la bataille de Marathon, en 490 avant notre ère, un messager aurait couru jusqu'à Athènes pour annoncer le succès avant de mourir d'épuisement. Cette histoire, dont l'authenticité est douteuse, inspira l'helléniste Michel Bréal, qui suggéra à Pierre de Coubertin d'inscrire une longue course au programme des premiers Jeux modernes. En 1896, à Athènes, le berger grec Spyridon Louis remporta cette épreuve d'environ quarante kilomètres, devenant un héros national. La distance officielle de 42,195 kilomètres, en apparence arbitraire, vient des Jeux de Londres de 1908 : le parcours devait partir du château de Windsor et s'achever devant la loge royale du stade. Cette longueur fut définitivement adoptée comme distance officielle en 1921. Le marathon se court sur route et clôt traditionnellement le programme olympique. Il exige une gestion précise de l'effort, du ravitaillement et de l'hydratation, car l'organisme épuise ses réserves de glucides autour du trentième kilomètre, phénomène que les coureurs appellent le mur. Depuis les années 1960, les athlètes est-africains, notamment kényans et éthiopiens, dominent largement les courses de fond et de route. Le premier grand champion de cette lignée fut l'Éthiopien Abebe Bikila, vainqueur pieds nus à Rome en 1960.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "D'où vient le marathon",
+    "items": [
+     {
+      "valeur": "490 av. J.-C.",
+      "label": "la bataille de Marathon, à l'origine de la légende du messager"
+     },
+     {
+      "valeur": "1896",
+      "label": "première course olympique, sur environ 40 km, gagnée par Spyridon Louis"
+     },
+     {
+      "valeur": "42,195 km",
+      "label": "distance fixée à Londres en 1908, du château de Windsor à la loge royale"
+     },
+     {
+      "valeur": "1921",
+      "label": "adoption définitive de cette distance"
+     },
+     {
+      "valeur": "30e km",
+      "label": "le mur : l'organisme épuise ses réserves de glucides"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Champions légendaires et records",
+   "texte": "L'histoire de l'athlétisme est jalonnée de figures devenues des symboles. Aux Jeux de Berlin de 1936, organisés par l'Allemagne nazie, l'Américain Jesse Owens remporte quatre médailles d'or et inflige un démenti éclatant aux théories raciales du régime. Le Tchécoslovaque Emil Zátopek réalise à Helsinki en 1952 un exploit jamais égalé en gagnant dans les mêmes Jeux le cinq mille mètres, le dix mille mètres et le marathon, qu'il courait pour la première fois. En 1968, à Mexico, l'Américain Bob Beamon porte le record du monde du saut en longueur à 8,90 mètres, améliorant la marque précédente de plus d'un demi-mètre. L'Américain Carl Lewis accumule neuf titres olympiques entre 1984 et 1996. L'Ukrainien Sergueï Bubka règne sur le saut à la perche et devient le premier homme à franchir six mètres, en 1985. Le Jamaïcain Usain Bolt établit lors des championnats du monde de Berlin, en 2009, des records du monde de 9 secondes 58 sur cent mètres et de 19 secondes 19 sur deux cents mètres, marques toujours en vigueur. Côté français, Alain Mimoun remporte le marathon olympique de Melbourne en 1956, Guy Drut le cent dix mètres haies à Montréal en 1976, Marie-José Pérec le quatre cents mètres à Barcelone en 1992 puis le doublé deux cents et quatre cents mètres à Atlanta en 1996.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Des exploits entrés dans l'histoire",
+    "colonnes": [
+     "Année",
+     "Athlète",
+     "Exploit"
+    ],
+    "lignes": [
+     [
+      "1936",
+      "Jesse Owens",
+      "Quatre médailles d'or aux Jeux de Berlin, démenti éclatant aux théories raciales nazies."
+     ],
+     [
+      "1952",
+      "Emil Zátopek",
+      "5 000 m, 10 000 m et marathon gagnés dans les mêmes Jeux, à Helsinki."
+     ],
+     [
+      "1968",
+      "Bob Beamon",
+      "8,90 m en longueur à Mexico, plus d'un demi-mètre au-dessus du record précédent."
+     ],
+     [
+      "1985",
+      "Sergueï Bubka",
+      "Premier homme à franchir 6 mètres à la perche."
+     ],
+     [
+      "1984-1996",
+      "Carl Lewis",
+      "Neuf titres olympiques."
+     ],
+     [
+      "2009",
+      "Usain Bolt",
+      "9 s 58 sur 100 m et 19 s 19 sur 200 m aux Mondiaux de Berlin."
+     ]
+    ],
+    "note": "Côté français : Alain Mimoun, marathon olympique en 1956 ; Guy Drut, 110 m haies en 1976 ; Marie-José Pérec, 400 m en 1992 puis doublé 200 m et 400 m en 1996."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quelle était la seule épreuve des premiers Jeux olympiques antiques d'Olympie ?",
+   "choix": [
+    "Le lancer du disque",
+    "La lutte",
+    "Le pentathlon",
+    "La course du stade"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Selon la tradition, les premiers Jeux d'Olympie, en 776 avant notre ère, ne comportaient qu'une seule épreuve : la course du stade, longue d'environ cent quatre-vingt-douze mètres. Le programme s'est ensuite élargi au fil des siècles avec le diaulos, course sur deux longueurs, puis le dolique, course de fond. Le pentathlon, qui associait course, saut en longueur, disque, javelot et lutte, ainsi que les sports de combat, furent ajoutés plus tard. Le vainqueur ne recevait pas de médaille mais une couronne d'olivier sauvage."
+  },
+  {
+   "q": "Quelle est la distance officielle du marathon ?",
+   "choix": [
+    "42,195 kilomètres",
+    "40 kilomètres",
+    "45 kilomètres",
+    "42,900 kilomètres"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "La distance officielle du marathon est de 42,195 kilomètres. Ce chiffre étrange vient des Jeux olympiques de Londres de 1908 : le parcours partait du château de Windsor et devait s'achever devant la loge royale à l'intérieur du stade, ce qui donna cette longueur précise. Elle fut adoptée comme distance officielle en 1921. Lors des premiers Jeux modernes, en 1896, la course faisait environ quarante kilomètres et fut remportée par le Grec Spyridon Louis. Le marathon clôt traditionnellement le programme olympique."
+  },
+  {
+   "q": "Qui a inventé la technique du franchissement dos à la barre au saut en hauteur ?",
+   "choix": [
+    "Carl Lewis",
+    "Dick Fosbury",
+    "Bob Beamon",
+    "Sergueï Bubka"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "L'Américain Dick Fosbury a révolutionné le saut en hauteur en franchissant la barre sur le dos, technique qu'il révéla au monde lors des Jeux de Mexico en 1968, où il remporta le titre olympique. Ce style, appelé rouleau dorsal ou fosbury flop, a totalement supplanté les techniques antérieures comme le rouleau ventral. Il n'a pu se généraliser que grâce à l'apparition de tapis de réception en mousse, la réception sur le dos étant impossible sur les fosses de sable. Bob Beamon s'illustra lors des mêmes Jeux au saut en longueur, et Sergueï Bubka domina le saut à la perche dans les années 1980 et 1990."
+  },
+  {
+   "q": "Combien d'épreuves comporte le décathlon masculin ?",
+   "choix": [
+    "Sept",
+    "Cinq",
+    "Dix",
+    "Douze"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "Le décathlon, comme son nom d'origine grecque l'indique, comporte dix épreuves réparties sur deux journées de compétition. Il associe courses, sauts et lancers afin de désigner l'athlète le plus complet, chaque performance étant convertie en points selon des tables officielles. L'équivalent féminin est l'heptathlon, qui compte sept épreuves. Le pentathlon antique, lui, en comportait cinq. Le vainqueur du décathlon olympique est traditionnellement considéré comme le meilleur athlète des Jeux."
+  },
+  {
+   "q": "Quel athlète a remporté quatre médailles d'or aux Jeux olympiques de Berlin en 1936 ?",
+   "choix": [
+    "Emil Zátopek",
+    "Jesse Owens",
+    "Paavo Nurmi",
+    "Abebe Bikila"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "L'Américain Jesse Owens remporte quatre médailles d'or aux Jeux de Berlin en 1936, sur cent mètres, deux cents mètres, saut en longueur et relais quatre fois cent mètres. Ces victoires prirent une portée politique considérable, car elles contredisaient publiquement les théories raciales du régime nazi qui organisait les Jeux. Emil Zátopek s'illustra à Helsinki en 1952 avec trois titres sur cinq mille mètres, dix mille mètres et marathon. Le Finlandais Paavo Nurmi domina le fond dans les années 1920. Abebe Bikila remporta le marathon de Rome en 1960 en courant pieds nus."
+  }
+ ]
+}

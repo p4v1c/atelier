@@ -46,7 +46,13 @@ export const qcm: ExerciseKind<QcmPayload, number, unknown> = {
     }
     // Deux propositions identiques rendent la question insoluble : l'une des
     // deux est juste, l'autre est fausse, et rien ne les distingue.
-    const vues = new Set(p.choices.map((c) => normalizeForDedupe(c)));
+    //
+    // La comparaison est littérale, aux espaces près, et c'est essentiel :
+    // « Un Belge néerlandophone » et « Un belge néerlandophone » sont deux
+    // propositions bien distinctes quand la question porte sur les majuscules,
+    // tout comme « U = R × I » et « U = R / I ». Normaliser ici reviendrait à
+    // interdire les questions d'orthographe et de formules.
+    const vues = new Set(p.choices.map((c) => c.trim().replace(/\s+/g, " ")));
     if (vues.size !== p.choices.length) erreurs.push("deux propositions identiques");
     return erreurs;
   },

@@ -1,0 +1,138 @@
+{
+ "titre": "Les empires africains précoloniaux : Ghana, Mali, Songhaï (IVe siècle - 1591)",
+ "sections": [
+  {
+   "titre": "Le Sahel et le commerce transsaharien",
+   "texte": "Entre le désert du Sahara au nord et les forêts humides du golfe de Guinée au sud s'étend une longue bande de savanes que l'on appelle le Sahel et le Soudan occidental. C'est là, le long du fleuve Niger et de ses affluents, que se sont formés du quatrième au seizième siècle trois grands États successifs : le Ghana, le Mali et le Songhaï. Leur richesse repose sur une position d'intermédiaire. Au sud, dans les régions forestières, on extrait l'or ; au nord, dans le désert, on exploite d'immenses gisements de sel gemme, produit indispensable à la conservation des aliments et rare dans les pays chauds. Les caravanes de chameaux, qui traversent le Sahara depuis les premiers siècles de notre ère, échangent le sel, les tissus, le cuivre et les chevaux venus du Maghreb contre l'or, l'ivoire, les cultures vivrières et des esclaves. Celui qui contrôle les villes-étapes et les routes prélève des taxes considérables : c'est le fondement de la puissance des empires sahéliens. Ces sociétés n'ont pas laissé d'écrits propres à l'origine : notre connaissance vient des récits de géographes et de voyageurs arabes, comme Al-Bakri au onzième siècle, des traditions orales transmises par les griots, et de fouilles archéologiques commencées en 1914. L'islam, apporté par les marchands, se diffuse d'abord dans les villes et les cours princières avant de gagner les campagnes.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Trois empires successifs le long du Niger",
+    "colonnes": [
+     "Empire",
+     "Durée",
+     "Capitale",
+     "Figure marquante"
+    ],
+    "lignes": [
+     [
+      "Ghana, ou Wagadou",
+      "IVe - XIIIe siècle",
+      "Koumbi Saleh",
+      "Décrit par le géographe Al-Bakri au XIe siècle"
+     ],
+     [
+      "Mali",
+      "XIIIe - XVe siècle",
+      "Mal localisée ; la tradition cite Niani",
+      "Soundiata Keïta vers 1235, puis Mansa Moussa de 1312 à 1337"
+     ],
+     [
+      "Songhaï",
+      "1464 - 1591",
+      "Gao",
+      "Sonni Ali Ber de 1464 à 1492, puis Askia Mohammed de 1493 à 1528"
+     ]
+    ],
+    "note": "Tous trois vivent du même monopole : le contrôle des routes qui échangent l'or du sud contre le sel du Sahara."
+   }
+  },
+  {
+   "titre": "L'empire du Ghana",
+   "texte": "Le premier de ces grands États est l'empire du Ghana, également appelé Wagadou, qui aurait existé approximativement du quatrième au treizième siècle sur des territoires correspondant aujourd'hui au sud de la Mauritanie et à l'ouest du Mali. Il ne faut pas le confondre avec l'actuel État du Ghana, situé bien plus au sud et qui a repris ce nom prestigieux au moment de son indépendance. Sa population dominante était le peuple soninké. Sa capitale, Koumbi Saleh, est décrite par le géographe arabe Al-Bakri comme un ensemble formé de deux agglomérations distinctes : l'une réservée aux marchands musulmans, avec ses mosquées, l'autre abritant la cour du roi et les cultes traditionnels. Cette dualité illustre la façon dont l'islam s'implante d'abord par le commerce, sans supprimer aussitôt les religions anciennes. La prospérité du Ghana vient du contrôle des routes transsahariennes et du monopole royal sur certaines formes d'or : Al-Bakri affirme que le souverain du Ghana est l'homme le plus riche de la terre grâce aux trésors accumulés par ses ancêtres. L'empire décline sous l'effet de plusieurs pressions convergentes. Vers 1070, des attaques almoravides venues du nord endommagent Koumbi Saleh ; des conflits religieux naissent des conversions imposées et plusieurs royaumes vassaux prennent leur indépendance. Au treizième siècle, ce qui reste du Ghana est absorbé par le Mali."
+  },
+  {
+   "titre": "L'empire du Mali et Mansa Moussa",
+   "texte": "L'empire du Mali naît au début du treizième siècle. Selon la tradition, Soundiata Keïta fédère les chefferies mandingues et remporte vers 1235 la bataille de Kirina, victoire fondatrice qui fait basculer l'équilibre régional. Un texte transmis oralement, la Charte du Manden, fixe les rapports entre les clans et les principes du gouvernement, définissant un ordre social fondé sur l'interdépendance des groupes. À son extension maximale, l'empire s'étend sur des territoires appartenant aujourd'hui au Mali, au Sénégal, à la Gambie, à la Guinée, au Burkina Faso, à la Côte d'Ivoire et à la Mauritanie, du Sahara jusqu'aux abords de la forêt équatoriale. Sa prospérité repose sur l'agriculture, l'exploitation minière, l'artisanat et le commerce transsaharien, avec l'or et le sel comme marchandises principales. L'apogée correspond au règne de Mansa Moussa, souverain de 1312 à 1337. Son pèlerinage à La Mecque en 1324 a frappé les contemporains : il aurait emporté environ dix tonnes d'or, distribuées et dépensées si largement en chemin que le cours du métal en fut perturbé. L'événement fit connaître le Mali jusqu'en Europe, où les cartographes représentèrent son roi tenant une pépite. À partir du quinzième siècle, l'empire recule sous l'effet des crises dynastiques, de la perte des routes commerciales au profit des Touaregs et du Songhaï, puis de la concurrence portugaise sur la côte ; il est finalement absorbé par le royaume bambara de Ségou vers 1670."
+  },
+  {
+   "titre": "L'empire songhaï, dernier grand État sahélien",
+   "texte": "Le troisième grand empire du Soudan occidental est issu de l'ancien royaume de Gao, sur le fleuve Niger, dont la ville demeure la capitale. Son essor est l'œuvre de Sonni Ali Ber, qui règne de 1464 à 1492 : à la tête d'une armée solide appuyée sur une flottille de pirogues de guerre remontant et descendant le Niger, il enlève les grandes villes marchandes, dont Tombouctou et Djenné, puis mène une longue série de campagnes qui assurent sa domination régionale. Son attitude ambiguë envers l'islam lui vaut la haine des chroniqueurs religieux. Son successeur Askia Mohammed, souverain de 1493 à 1528, prend au contraire le contrepied de la politique de son prédécesseur : il islamise beaucoup plus profondément le royaume, s'appuie sur les lettrés musulmans et effectue un pèlerinage à La Mecque en emmenant environ mille cinq cents soldats. Sous son règne, l'empire atteint son extension maximale, couvrant environ 1,4 million de kilomètres carrés sur des territoires appartenant aujourd'hui au Mali, au Niger et au Nigeria. L'organisation politique se centralise sur des modèles inspirés du monde musulman : l'askia est à la fois chef politique et autorité religieuse, entouré de ministres spécialisés, tandis que les provinces sont confiées à des gouverneurs. L'empire songhaï représente ainsi l'aboutissement d'une longue construction étatique dans le Sahel, avant un effondrement brutal."
+  },
+  {
+   "titre": "Tombouctou et la fin des empires sahéliens",
+   "texte": "Ces empires ne furent pas seulement des puissances marchandes et militaires : ils abritèrent de grands foyers intellectuels. Tombouctou, prise dans le mouvement d'islamisation, devint le principal centre culturel de la région. On y étudiait, notamment autour de la mosquée et de l'université de Sankoré, les sciences islamiques, le droit, la grammaire, la théologie, l'astronomie et les mathématiques. La ville abritait des bibliothèques privées et un important commerce de manuscrits, dont plusieurs dizaines de milliers ont été conservés jusqu'à aujourd'hui, témoignage rare d'une érudition africaine écrite. Djenné, avec sa grande mosquée de terre, joua un rôle comparable. Cette prospérité attira les convoitises. En 1591, une expédition envoyée par le sultan du Maroc, commandée par Yuder Pacha et dotée d'armes à feu que les Songhaï ne possédaient pas, écrasa l'armée impériale à la bataille de Tondibi. La défaite mit fin à l'indépendance du Songhaï et les Marocains organisèrent leur domination à travers le pachalik de Tombouctou, incapable toutefois de reconstituer l'unité de l'ancien empire. La région se fragmenta alors en principautés rivales. Dans le même temps, le déplacement du grand commerce vers les côtes atlantiques, où s'installaient les Européens, priva progressivement les routes transsahariennes de leur rôle central et fit perdre au Sahel la position d'intermédiaire qui avait fait sa richesse.",
+   "visuel": {
+    "type": "image",
+    "image": "hm-mosquee-tombouctou",
+    "legende": "Une mosquée de terre de Tombouctou : murs de banco hérissés de poutres de bois qui servent d'échafaudage lors des réenduits annuels. La ville, autour de l'université de Sankoré, fut le grand foyer intellectuel du Sahel.",
+    "alt": "Bâtiment de terre ocre aux contreforts arrondis et au minaret pyramidal, percé de poutres de bois saillantes, sous un ciel clair de désert."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Sur quel échange principal repose la richesse des grands empires sahéliens ?",
+   "choix": [
+    "L'échange de l'or du sud contre le sel du désert",
+    "L'exportation de blé vers l'Europe",
+    "Le commerce de la soie avec la Chine",
+    "La vente de bois précieux aux Portugais"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Les empires du Ghana, du Mali et du Songhaï se sont développés dans le Sahel, entre le Sahara et les régions forestières du sud. Ils tiraient l'essentiel de leurs revenus du contrôle des routes transsahariennes, sur lesquelles circulaient l'or extrait au sud et le sel gemme exploité dans le désert, produit indispensable à la conservation des aliments. Les caravanes de chameaux apportaient aussi du Maghreb des tissus, du cuivre et des chevaux. Les souverains prélevaient des taxes considérables sur ce trafic et sur les villes-étapes. Le déplacement du grand commerce vers les côtes atlantiques, à partir de l'époque moderne, ruina progressivement cette position d'intermédiaire."
+  },
+  {
+   "q": "Quelle était la capitale de l'empire du Ghana, décrite par le géographe Al-Bakri ?",
+   "choix": [
+    "Gao",
+    "Tombouctou",
+    "Koumbi Saleh",
+    "Djenné"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Koumbi Saleh était la capitale de l'empire du Ghana, également appelé Wagadou, État soninké qui aurait existé du quatrième au treizième siècle dans les régions correspondant au sud de la Mauritanie et à l'ouest du Mali actuels. Le géographe arabe Al-Bakri, au onzième siècle, la décrit comme formée de deux agglomérations distinctes, l'une pour les marchands musulmans, l'autre pour la cour du roi et les cultes traditionnels. Vers 1070, des attaques almoravides endommagent la ville, et l'empire est absorbé par le Mali au treizième siècle. Gao fut la capitale du Songhaï, tandis que Tombouctou et Djenné furent surtout des centres marchands et intellectuels."
+  },
+  {
+   "q": "Quel souverain du Mali accomplit en 1324 un pèlerinage à La Mecque resté célèbre ?",
+   "choix": [
+    "Soundiata Keïta",
+    "Sonni Ali Ber",
+    "Askia Mohammed",
+    "Mansa Moussa"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Mansa Moussa, qui règne sur l'empire du Mali de 1312 à 1337, effectue en 1324 un pèlerinage à La Mecque en emportant, selon les sources, environ dix tonnes d'or. Ses dépenses et ses dons furent tels sur son passage qu'ils perturbèrent le cours du métal précieux. Cet épisode fit connaître le Mali jusqu'en Europe, où les cartographes représentèrent son souverain tenant une pépite d'or. L'empire avait été fondé au début du treizième siècle par Soundiata Keïta, vainqueur de la bataille de Kirina vers 1235, et organisé selon les principes de la Charte du Manden. Sonni Ali Ber et Askia Mohammed appartiennent, eux, à l'empire songhaï."
+  },
+  {
+   "q": "Quelle bataille met fin en 1591 à l'indépendance de l'empire songhaï ?",
+   "choix": [
+    "La bataille de Tondibi",
+    "La bataille de Kirina",
+    "La bataille de Gao",
+    "La bataille de Koumbi Saleh"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "En 1591, une expédition envoyée par le sultan du Maroc et commandée par Yuder Pacha écrase l'armée songhaï à la bataille de Tondibi. La supériorité marocaine tient largement aux armes à feu, que les Songhaï ne possédaient pas. Les vainqueurs organisent ensuite leur domination à travers le pachalik de Tombouctou, sans parvenir à reconstituer l'unité de l'ancien empire, qui se fragmente en principautés rivales. Kirina est au contraire la victoire fondatrice de Soundiata Keïta vers 1235, à l'origine de l'empire du Mali. Gao était la capitale du Songhaï, et Koumbi Saleh celle du Ghana."
+  },
+  {
+   "q": "Pourquoi Tombouctou est-elle considérée comme un grand foyer intellectuel du Sahel ?",
+   "choix": [
+    "Elle abritait la plus grande bibliothèque romaine d'Afrique",
+    "Elle possédait des écoles coraniques et l'université de Sankoré",
+    "Elle produisait des livres imprimés en série",
+    "Elle formait des ingénieurs pour l'Europe"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Tombouctou devint, dans le mouvement d'islamisation de la région, le principal centre culturel du Soudan occidental. Autour de la mosquée et de l'université de Sankoré, on y étudiait les sciences islamiques, le droit, la grammaire, la théologie, l'astronomie et les mathématiques. La ville abritait de nombreuses bibliothèques privées et un actif commerce de manuscrits ; plusieurs dizaines de milliers d'entre eux ont été conservés jusqu'à aujourd'hui et constituent un témoignage rare de l'érudition écrite en Afrique subsaharienne. Djenné, avec sa grande mosquée de terre, joua un rôle comparable. Ces manuscrits sont copiés à la main : l'imprimerie n'y était pas employée."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Empire du Ghana",
+   "url": "https://fr.wikipedia.org/wiki/Empire_du_Ghana"
+  },
+  {
+   "titre": "Empire du Mali",
+   "url": "https://fr.wikipedia.org/wiki/Empire_du_Mali"
+  },
+  {
+   "titre": "Empire songhaï",
+   "url": "https://fr.wikipedia.org/wiki/Empire_songhai"
+  }
+ ]
+}

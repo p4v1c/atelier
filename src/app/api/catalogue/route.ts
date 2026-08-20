@@ -42,6 +42,8 @@ export async function GET(request: Request): Promise<Response> {
       status: true,
       category: { select: { name: true, position: true } },
       _count: { select: { exercises: true } },
+      // Uniquement l'existence du cours : le cours lui-même se charge à part.
+      lesson: true,
       progress: {
         where: { userId: auth.user.id },
         select: { box: true, isNew: true, seenCount: true, correctCount: true },
@@ -84,6 +86,7 @@ export async function GET(request: Request): Promise<Response> {
           category: r.category.name,
           disputed: r.status === "disputed",
           exerciseCount: r._count.exercises,
+          hasLesson: r.lesson !== null,
           box: p?.box ?? 0,
           isNew: p?.isNew ?? true,
           seenCount: p?.seenCount ?? 0,

@@ -1,0 +1,189 @@
+{
+  "titre": "Les collectivités territoriales et la décentralisation",
+  "sections": [
+    {
+      "titre": "D'un État centralisé à un État décentralisé",
+      "texte": "La France s'est construite autour d'un pouvoir central fort, hérité de la monarchie puis renforcé par la Révolution et l'Empire. La loi du 14 décembre 1789 crée les communes, la loi du 22 décembre de la même année institue les départements, découpés de manière à ce que chaque chef-lieu soit accessible en une journée de cheval. En 1800, Napoléon Bonaparte place à la tête de chaque département un préfet, représentant de l'État chargé d'appliquer les décisions du gouvernement : c'est le modèle de la déconcentration, qui rapproche les services de l'État du terrain sans transférer de pouvoir de décision autonome. La décentralisation est différente : elle consiste à confier des compétences propres à des collectivités dotées de la personnalité juridique et d'organes élus. Après la loi municipale de 1884, qui affirme l'élection des conseils municipaux et du maire, l'étape décisive intervient avec la loi du 2 mars 1982, dite loi Defferre, relative aux droits et libertés des communes, des départements et des régions. Elle supprime la tutelle a priori du préfet et transfère l'exécutif départemental et régional aux présidents élus des assemblées locales. La révision constitutionnelle du 28 mars 2003 inscrit à l'article 1er de la Constitution que l'organisation de la République est décentralisée et consacre le principe de libre administration des collectivités.",
+      "visuels": [
+        {
+          "type": "comparaison",
+          "titre": "Déconcentration et décentralisation",
+          "colonnes": [
+            {
+              "titre": "Déconcentration",
+              "points": [
+                "L'État reste seul maître de la décision",
+                "Il rapproche ses services du terrain",
+                "Le préfet, institué par Napoléon Bonaparte en 1800, représente l'État dans le département",
+                "Il applique les décisions du gouvernement",
+                "Aucun pouvoir de décision autonome n'est transféré"
+              ]
+            },
+            {
+              "titre": "Décentralisation",
+              "points": [
+                "L'État confie des compétences propres à des collectivités",
+                "Ces collectivités ont la personnalité juridique et des organes élus",
+                "La loi Defferre du 2 mars 1982 supprime la tutelle a priori du préfet",
+                "Elle transfère l'exécutif départemental et régional aux présidents élus",
+                "La révision du 28 mars 2003 inscrit la décentralisation à l'article 1er de la Constitution"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frise",
+          "titre": "Les grandes dates de l'organisation territoriale",
+          "evenements": [
+            {
+              "date": "1789",
+              "label": "Communes et départements",
+              "texte": "La loi du 14 décembre crée les communes, celle du 22 décembre les départements, découpés pour que chaque chef-lieu soit accessible en une journée de cheval."
+            },
+            {
+              "date": "1800",
+              "label": "Les préfets",
+              "texte": "Napoléon Bonaparte place à la tête de chaque département un représentant de l'État."
+            },
+            {
+              "date": "1884",
+              "label": "Loi municipale",
+              "texte": "Elle affirme l'élection des conseils municipaux et du maire."
+            },
+            {
+              "date": "1982",
+              "label": "Loi Defferre",
+              "texte": "Droits et libertés des communes, des départements et des régions : l'étape décisive de la décentralisation."
+            },
+            {
+              "date": "2003",
+              "label": "Révision constitutionnelle",
+              "texte": "L'organisation de la République est déclarée décentralisée ; le principe de libre administration est consacré."
+            },
+            {
+              "date": "2015",
+              "label": "Nouvelle carte régionale",
+              "texte": "La loi du 16 janvier réduit le nombre de régions métropolitaines de vingt-deux à treize."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "La commune, cellule de base",
+      "texte": "La commune est la plus ancienne et la plus proche des collectivités territoriales ; la France en compte plusieurs dizaines de milliers, un nombre très supérieur à celui de ses voisins européens. Ses habitants élisent pour six ans un conseil municipal au scrutin de liste, selon des règles qui varient avec la taille de la commune. Le conseil élit ensuite en son sein le maire et ses adjoints. Le maire occupe une position singulière car il exerce une double fonction. Il est d'abord l'exécutif de la commune : il prépare et exécute le budget, dirige les services municipaux, signe les contrats et représente la commune en justice. Il est en même temps agent de l'État : à ce titre, il célèbre les mariages, tient l'état civil, organise les élections et exerce des pouvoirs de police administrative pour assurer la sécurité, la salubrité et la tranquillité publiques. Les compétences communales couvrent l'urbanisme, avec la délivrance des permis de construire et l'élaboration du plan local d'urbanisme, les écoles maternelles et élémentaires pour ce qui concerne les bâtiments et le fonctionnement matériel, la voirie communale, l'action sociale de proximité par le centre communal d'action sociale, ainsi que la culture et les sports à travers bibliothèques, équipements et subventions aux associations locales."
+    },
+    {
+      "titre": "Le département et la région",
+      "texte": "Le département, créé en 1790, est administré par un conseil départemental élu pour six ans. Depuis la réforme appliquée en 2015, les conseillers départementaux sont élus par binômes composés d'une femme et d'un homme dans chaque canton, ce qui assure une stricte parité de l'assemblée. Le conseil élit son président, qui en est l'exécutif. Le département est traditionnellement le chef de file de l'action sociale : il verse le revenu de solidarité active, prend en charge l'aide sociale à l'enfance, l'allocation personnalisée d'autonomie pour les personnes âgées et les aides aux personnes handicapées. Il gère également les collèges, une partie de la voirie et les services départementaux d'incendie et de secours. La région est une collectivité beaucoup plus récente : elle apparaît comme établissement public en 1972 et ne devient collectivité territoriale de plein exercice qu'avec les lois de décentralisation de 1982, la première élection des conseils régionaux au suffrage universel direct ayant lieu en 1986. La loi du 16 janvier 2015 a réduit le nombre de régions métropolitaines de vingt-deux à treize. La région intervient dans le développement économique, l'aménagement du territoire, les transports régionaux, la formation professionnelle, l'apprentissage et la construction des lycées.",
+      "visuel": {
+        "type": "image",
+        "image": "ie-carte-regions",
+        "legende": "Les treize régions métropolitaines issues de la loi du 16 janvier 2015, et les départements qui les composent.",
+        "alt": "Carte de la France métropolitaine et de la Corse montrant le découpage en treize régions nommées, chacune subdivisée en départements numérotés."
+      }
+    },
+    {
+      "titre": "Compétences, intercommunalité et principes",
+      "texte": "La répartition des compétences obéit à plusieurs principes. Le principe de libre administration, consacré par l'article 72 de la Constitution, garantit que les collectivités s'administrent librement par des conseils élus, dans les conditions fixées par la loi. Le principe de non-tutelle interdit qu'une collectivité exerce une autorité sur une autre, même si la loi peut désigner une collectivité chef de file pour organiser une action commune. La révision de 2003 a également reconnu l'autonomie financière des collectivités et introduit le droit à l'expérimentation, qui permet de déroger temporairement à titre expérimental à certaines dispositions législatives. Depuis la loi du 27 janvier 2014 et la loi portant nouvelle organisation territoriale de la République de 2015, la clause générale de compétence a été supprimée pour les départements et les régions, dont les interventions sont désormais énumérées par la loi, tandis que les communes la conservent. Le morcellement communal a par ailleurs favorisé le développement de l'intercommunalité : communautés de communes, communautés d'agglomération, communautés urbaines et métropoles regroupent plusieurs communes pour exercer ensemble des compétences comme la collecte des déchets, l'eau, les transports urbains ou le développement économique. Ces établissements publics de coopération intercommunale sont administrés par des conseillers communautaires désignés lors des élections municipales.",
+      "visuel": {
+        "type": "tableau",
+        "titre": "Qui fait quoi ?",
+        "colonnes": [
+          "Collectivité",
+          "Organe élu",
+          "Compétences principales"
+        ],
+        "lignes": [
+          [
+            "Commune",
+            "Conseil municipal élu pour six ans au scrutin de liste, qui élit le maire et ses adjoints",
+            "Urbanisme et permis de construire, écoles maternelles et élémentaires, voirie communale, action sociale de proximité, culture et sports"
+          ],
+          [
+            "Département",
+            "Conseil départemental élu pour six ans, par binômes paritaires femme-homme depuis 2015",
+            "Chef de file de l'action sociale : revenu de solidarité active, aide sociale à l'enfance, allocation personnalisée d'autonomie, aides aux personnes handicapées ; collèges, voirie, services d'incendie et de secours"
+          ],
+          [
+            "Région",
+            "Conseil régional, élu au suffrage universel direct depuis 1986",
+            "Développement économique, aménagement du territoire, transports régionaux, formation professionnelle et apprentissage, lycées"
+          ],
+          [
+            "Intercommunalité",
+            "Conseillers communautaires désignés lors des élections municipales",
+            "Compétences exercées en commun : collecte des déchets, eau, transports urbains, développement économique"
+          ]
+        ],
+        "note": "Depuis les lois de 2014 et 2015, la clause générale de compétence a été supprimée pour les départements et les régions, dont les interventions sont énumérées par la loi ; les communes la conservent."
+      }
+    },
+    {
+      "titre": "Les finances locales et le contrôle",
+      "texte": "Les collectivités disposent de ressources de plusieurs natures. Les recettes fiscales proviennent d'impôts locaux dont elles votent parfois les taux, comme la taxe foncière sur les propriétés bâties, ainsi que de fractions d'impôts nationaux qui leur sont affectées. Les dotations de l'État, au premier rang desquelles la dotation globale de fonctionnement, complètent ces ressources et contribuent à réduire les écarts de richesse entre territoires par des mécanismes de péréquation. S'y ajoutent les redevances payées par les usagers de certains services, les subventions et l'emprunt, ce dernier ne pouvant financer que des investissements et non les dépenses courantes. Le budget local, voté par l'assemblée délibérante, distingue une section de fonctionnement et une section d'investissement, et doit être présenté et exécuté en équilibre réel. La décentralisation ne signifie pas absence de contrôle. Depuis 1982, la tutelle a priori du préfet a été remplacée par un contrôle de légalité a posteriori : les actes les plus importants sont transmis au représentant de l'État, qui peut, s'il les estime illégaux, les déférer au tribunal administratif. Les chambres régionales des comptes, créées par la même réforme, examinent la régularité des comptes et la bonne gestion des collectivités, et peuvent saisir le préfet en cas de déséquilibre budgétaire."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Quelle loi marque le tournant décisif de la décentralisation en France ?",
+      "choix": [
+        "La loi municipale de 1884",
+        "La loi de 1972 créant les établissements publics régionaux",
+        "La loi de 2015 sur la nouvelle organisation territoriale",
+        "La loi Defferre du 2 mars 1982"
+      ],
+      "bonne": 3,
+      "difficulte": 2,
+      "explication": "La loi du 2 mars 1982 relative aux droits et libertés des communes, des départements et des régions est considérée comme l'acte fondateur de la décentralisation moderne. Elle supprime la tutelle a priori exercée par le préfet sur les actes locaux, remplacée par un contrôle de légalité a posteriori devant le juge administratif. Elle transfère aussi l'exécutif du département et de la région aux présidents élus des assemblées, alors que le préfet exerçait auparavant cette fonction dans le département. La loi de 1884 avait certes démocratisé la commune, et celle de 1972 avait créé la région sous forme d'établissement public, mais sans autonomie comparable."
+    },
+    {
+      "q": "Quelle compétence relève principalement du département ?",
+      "choix": [
+        "L'action sociale et la gestion des collèges",
+        "La construction des lycées",
+        "La délivrance des permis de construire",
+        "La politique monétaire"
+      ],
+      "bonne": 0,
+      "difficulte": 1,
+      "explication": "Le département est le chef de file traditionnel de l'action sociale : il verse le revenu de solidarité active, gère l'aide sociale à l'enfance, l'allocation personnalisée d'autonomie et les aides aux personnes handicapées. Il a également la charge des collèges, ainsi que d'une partie de la voirie et des services d'incendie et de secours. Les lycées relèvent de la région, tout comme le développement économique, les transports régionaux et la formation professionnelle. Le permis de construire est délivré au nom de la commune par le maire. La politique monétaire, elle, n'est pas une compétence locale mais relève de la Banque centrale européenne."
+    },
+    {
+      "q": "En quoi consiste la déconcentration, à la différence de la décentralisation ?",
+      "choix": [
+        "Elle supprime les services de l'État en province",
+        "Elle donne aux régions un pouvoir législatif",
+        "Elle délègue des pouvoirs à des agents de l'État sur le terrain",
+        "Elle transfère des compétences à des élus locaux autonomes"
+      ],
+      "bonne": 2,
+      "difficulte": 3,
+      "explication": "La déconcentration et la décentralisation sont deux modes d'organisation distincts, souvent confondus. La déconcentration consiste à confier des pouvoirs de décision à des agents nommés par l'État et placés sous son autorité hiérarchique, comme les préfets et les directeurs des services déconcentrés : le pouvoir reste celui de l'État, seulement exercé plus près du terrain. La décentralisation transfère au contraire des compétences propres à des collectivités disposant de la personnalité juridique et d'organes élus, qui décident librement dans le cadre fixé par la loi. Aucune collectivité française ne dispose d'un pouvoir législatif, celui-ci appartenant au Parlement."
+    },
+    {
+      "q": "Quel contrôle le préfet exerce-t-il sur les actes des collectivités depuis 1982 ?",
+      "choix": [
+        "Une approbation préalable obligatoire de chaque délibération",
+        "Un contrôle de légalité a posteriori devant le juge administratif",
+        "Un droit de veto sur le budget municipal",
+        "Un pouvoir de révocation du maire"
+      ],
+      "bonne": 1,
+      "difficulte": 2,
+      "explication": "Avant 1982, le préfet exerçait une tutelle a priori : de nombreux actes locaux ne devenaient exécutoires qu'après son approbation. La loi Defferre a supprimé ce mécanisme au profit d'un contrôle de légalité a posteriori. Les actes les plus importants sont transmis au représentant de l'État, qui, s'il les juge contraires au droit, ne peut pas les annuler lui-même : il doit les déférer au tribunal administratif, seul compétent pour prononcer l'annulation. Ce déféré préfectoral concilie la libre administration des collectivités et le respect de la légalité. Les chambres régionales des comptes complètent ce dispositif sur le plan financier."
+    },
+    {
+      "q": "Qu'est-ce qu'un établissement public de coopération intercommunale ?",
+      "choix": [
+        "Une entreprise privée chargée des services publics locaux",
+        "Une juridiction spécialisée dans les litiges entre communes",
+        "Un service déconcentré du ministère de l'Intérieur",
+        "Un regroupement de communes exerçant ensemble certaines compétences"
+      ],
+      "bonne": 3,
+      "difficulte": 1,
+      "explication": "La France compte plusieurs dizaines de milliers de communes, dont beaucoup sont trop petites pour financer seules certains équipements. L'intercommunalité permet à des communes voisines de se regrouper au sein d'un établissement public afin d'exercer en commun des compétences telles que la collecte des déchets, l'eau et l'assainissement, les transports urbains ou le développement économique. Selon leur taille et leur degré d'intégration, ces structures prennent le nom de communauté de communes, communauté d'agglomération, communauté urbaine ou métropole. Elles sont administrées par des conseillers communautaires désignés lors des élections municipales, et ne constituent pas des collectivités territoriales au sens de la Constitution."
+    }
+  ]
+}

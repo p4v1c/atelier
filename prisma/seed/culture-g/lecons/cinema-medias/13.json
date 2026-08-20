@@ -1,0 +1,167 @@
+{
+ "titre": "Le cinéma d'horreur et le thriller",
+ "sections": [
+  {
+   "titre": "Deux genres voisins, deux émotions différentes",
+   "texte": "Le film d'horreur se définit par son objectif : provoquer chez le spectateur un sentiment de peur, de répulsion ou d'angoisse. Ce but est essentiel et le distingue du film fantastique, qui se contente d'introduire du merveilleux ou de l'étrange, comme du thriller, qui vise plutôt la tension et l'excitation. Le thriller, lui, est un genre qui utilise le suspense ou la tension narrative pour tenir le spectateur en haleine. La différence avec le film policier classique est instructive : l'enquête policière élucide un crime déjà commis, tandis que le thriller cherche le plus souvent à empêcher un crime à venir. Dans un récit à énigme, l'identité du coupable est cachée jusqu'au dénouement ; dans un thriller, elle est souvent connue dès le début, et l'angoisse naît de la course contre la montre. Le thriller met en scène un monde présenté comme corrompu et menaçant, où la victime se trouve prise au piège d'une situation sans issue apparente. Il recourt aux fausses pistes, à la rétention d'information, aux fins de séquence suspendues, aux poursuites et à la violence soudaine. On en distingue généralement trois familles : le thriller criminel, bâti sur un enlèvement, un casse ou une vengeance, le thriller psychologique, fondé sur la manipulation, l'obsession ou l'enfermement, et le thriller paranoïaque, qui repose sur le complot et l'accusation injustifiée.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Horreur et thriller : deux émotions visées",
+    "colonnes": [
+     {
+      "titre": "Le film d'horreur",
+      "points": [
+       "Il vise la peur, la répulsion ou l'angoisse",
+       "Il se distingue du fantastique, qui se contente d'introduire du merveilleux ou de l'étrange",
+       "La menace vient souvent d'un monstre, d'un tueur ou du surnaturel",
+       "Le hors-champ et l'attente comptent davantage que ce que l'on montre"
+      ]
+     },
+     {
+      "titre": "Le thriller",
+      "points": [
+       "Il vise la tension et l'excitation",
+       "L'enquête policière élucide un crime commis ; le thriller cherche à empêcher un crime à venir",
+       "Le coupable est souvent connu dès le début : l'angoisse naît de la course contre la montre",
+       "Trois familles : criminel, psychologique et paranoïaque"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Des ombres expressionnistes aux monstres d'Universal",
+   "texte": "Le cinéma s'est intéressé très tôt au surnaturel : dès les années 1890, Georges Méliès met en scène diables et apparitions grâce à ses trucages. Mais c'est l'Allemagne des années 1920 qui donne au genre sa première grammaire visuelle. « Le Cabinet du docteur Caligari », réalisé par Robert Wiene et présenté le 26 février 1920, est considéré comme la quintessence du cinéma expressionniste allemand. Ses décorateurs, Hermann Warm, Walter Reimann et Walter Röhrig, choisissent un style pictural et fantastique plutôt que naturaliste : perspectives déformées, lignes obliques, formes pointues, ombres directement peintes sur les toiles. Le récit, celui d'un hypnotiseur fou qui se sert d'un somnambule pour commettre des meurtres, interroge l'autorité brutale, la folie et la subjectivité de la perception. Le critique Roger Ebert y a vu le premier véritable film d'horreur, et son influence sur le cinéma américain, dans l'horreur comme dans le film noir, a été considérable. « Nosferatu » suit en 1922. Dans les années 1930, le studio Universal industrialise la peur avec sa galerie de monstres, « Dracula », « Frankenstein » ou « La Momie », qui fixent durablement des silhouettes reconnaissables par tous. Les années 1950 ajoutent une inflexion nouvelle en mêlant horreur et science-fiction, les créatures géantes et les invasions traduisant les angoisses de l'âge atomique.",
+   "visuel": {
+    "type": "image",
+    "image": "cin-caligari",
+    "legende": "L'affiche allemande du « Cabinet du docteur Caligari », présenté le 26 février 1920 : perspectives déformées, lignes obliques et formes pointues annoncent des décors où les ombres sont peintes directement sur les toiles.",
+    "alt": "Affiche de cinéma dessinée : un homme au visage blafard, vêtu de noir, se penche vers une femme étendue à terre ; derrière eux, des montagnes anguleuses, un réverbère tordu et un ciel rouge aux lettres déformées."
+   }
+  },
+  {
+   "titre": "Alfred Hitchcock, le maître du suspense",
+   "texte": "Né à Leytonstone, dans la banlieue de Londres, le 13 août 1899 et mort à Bel Air, près de Los Angeles, le 29 avril 1980, Alfred Hitchcock a mené une carrière de soixante ans qui traverse le muet britannique, les débuts du parlant et une longue période américaine ouverte en 1939. Il débute en dessinant des intertitres avant de passer à la réalisation, et se fait connaître en 1927 avec « The Lodger », inspiré des crimes de Jack l'Éventreur. Sa période anglaise donne encore « Les 39 Marches » en 1935 et « Une femme disparaît » en 1938. Engagé par le producteur David O. Selznick, il s'installe à Hollywood et y signe « Rebecca » en 1940, « Soupçons » en 1941, puis « Fenêtre sur cour » en 1954, « Sueurs froides » en 1958, « Psychose » en 1960 et « Les Oiseaux » en 1963. Son apport théorique est aussi important que ses films. Il a formalisé la notion de suspense, qui repose sur la maîtrise de l'information : le cinéaste choisit ce que savent les personnages et ce que sait le spectateur, et l'angoisse naît de l'écart entre les deux. Il a également popularisé le MacGuffin, ce prétexte narratif qui semble capital mais dont le contenu réel n'a aucune importance. Ses longs entretiens avec François Truffaut ont fait de lui une référence théorique autant qu'un cinéaste populaire."
+  },
+  {
+   "titre": "La rupture moderne, de 1960 aux années 1980",
+   "texte": "Le tournant décisif du cinéma d'horreur est « Psychose », réalisé par Hitchcock en 1960. Le film déplace la peur du château gothique et du monstre surnaturel vers un motel ordinaire et un être humain apparemment banal : l'horreur devient psychologique et réaliste, donc infiniment plus proche du spectateur. En 1968, « La Nuit des morts-vivants » refonde entièrement le film de zombies, en montrant des morts revenus dévorer les vivants et en glissant sous le récit une critique sociale de l'Amérique de son temps. Les années 1970 et 1980 produisent ensuite le canon du genre, avec « L'Exorciste » et son enfant possédée, « The Thing » et sa créature protéiforme, ou « Evil Dead ». C'est aussi le moment où se fixent les grands sous-genres. Le slasher met en scène un tueur masqué qui traque des adolescents, formule illustrée par « Halloween », « Vendredi 13 » et « Les Griffes de la nuit ». Le gore, aussi appelé splatter, mise sur la violence graphique et l'exhibition des corps. Le giallo italien mêle enquête et horreur dans une esthétique très stylisée, avec son tueur ganté de noir. En 1996, « Scream » ouvre une phase où le genre commente ses propres règles avec ironie. Les années 2000 voient enfin la percée internationale de l'horreur asiatique et le succès de franchises comme « Saw ».",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les grands sous-genres de l'horreur",
+    "colonnes": [
+     "Sous-genre",
+     "Sa règle du jeu",
+     "Exemples"
+    ],
+    "lignes": [
+     [
+      "Le slasher",
+      "Un tueur masqué traque des adolescents",
+      "« Halloween », « Vendredi 13 », « Les Griffes de la nuit »"
+     ],
+     [
+      "Le gore, ou splatter",
+      "Il mise sur la violence graphique et l'exhibition des corps",
+      "Films des années 1970 et 1980"
+     ],
+     [
+      "Le giallo italien",
+      "Enquête et horreur mêlées, esthétique très stylisée, tueur ganté de noir",
+      "Le cinéma italien des années 1960 et 1970"
+     ],
+     [
+      "L'horreur réflexive",
+      "Le genre commente ses propres règles avec ironie",
+      "« Scream » (1996)"
+     ]
+    ],
+    "note": "Le tournant est « Psychose » (1960) : la peur quitte le château gothique pour un motel ordinaire et un être humain apparemment banal."
+   }
+  },
+  {
+   "titre": "Pourquoi aime-t-on avoir peur au cinéma",
+   "texte": "Il peut sembler paradoxal de payer pour éprouver une émotion désagréable. Plusieurs explications se complètent. La première est physiologique : le spectateur éprouve la peur dans un cadre sûr, où il sait que rien ne peut lui arriver, et cette tension suivie de soulagement procure un plaisir comparable à celui des manèges. La deuxième est sociale : l'horreur, comme le thriller, fonctionne depuis toujours comme un commentaire de son époque. Les créatures géantes des années 1950 traduisent l'angoisse atomique, les zombies de 1968 renvoient à la violence et aux tensions de la société américaine, et le thriller paranoïaque prospère quand la confiance dans les institutions vacille. Le genre dit ainsi, sous une forme détournée, ce que le cinéma réaliste aborde difficilement. La troisième explication est esthétique : privés de moyens démesurés, ces films ont été des laboratoires de mise en scène, où le hors-champ, le montage, le son et l'attente comptent davantage que ce que l'on montre. Hitchcock l'avait compris avant tout le monde : la peur naît moins de l'image du monstre que du temps passé à en redouter l'apparition. C'est pourquoi horreur et thriller, longtemps méprisés par la critique et souvent produits avec de petits budgets, occupent aujourd'hui une place reconnue dans l'histoire des formes cinématographiques."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Qu'est-ce qui distingue le mieux le thriller du film policier à énigme ?",
+   "choix": [
+    "Le thriller se déroule toujours en ville",
+    "Le thriller cherche à empêcher un crime à venir plutôt qu'à élucider un crime passé",
+    "Le thriller ne comporte jamais de meurtre",
+    "Le thriller est toujours tiré d'un roman"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Le récit policier à énigme part d'un crime déjà commis et cache l'identité du coupable jusqu'au dénouement : le plaisir vient de la résolution. Le thriller fonctionne autrement : l'antagoniste est souvent connu dès le début et l'enjeu est d'empêcher un crime à venir, ce qui installe une course contre la montre. Il repose sur le suspense et la tension narrative, les fausses pistes, la rétention d'information et les fins de séquence suspendues. Il montre en général un monde corrompu et menaçant où la victime paraît prise au piège."
+  },
+  {
+   "q": "Quel film de 1920 est considéré comme la quintessence de l'expressionnisme allemand ?",
+   "choix": [
+    "« Nosferatu »",
+    "« Metropolis »",
+    "« Le Cabinet du docteur Caligari »",
+    "« Frankenstein »"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "« Le Cabinet du docteur Caligari », réalisé par Robert Wiene et présenté le 26 février 1920, est tenu pour l'oeuvre la plus représentative du cinéma expressionniste allemand. Ses décorateurs Hermann Warm, Walter Reimann et Walter Röhrig ont peint des perspectives déformées, des lignes obliques et jusqu'aux ombres directement sur les toiles, pour traduire l'état mental des personnages. Le récit d'un hypnotiseur fou manipulant un somnambule interroge l'autorité et la folie. Roger Ebert y voyait le premier vrai film d'horreur. « Nosferatu » lui est postérieur puisqu'il date de 1922."
+  },
+  {
+   "q": "Qu'appelle-t-on un MacGuffin chez Alfred Hitchcock ?",
+   "choix": [
+    "Un prétexte narratif qui semble capital mais dont le contenu importe peu",
+    "Un plan tourné à la grue au-dessus de la foule",
+    "La brève apparition du réalisateur dans son propre film",
+    "Un décor construit en trompe-l'oeil"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Le MacGuffin est un procédé qu'Hitchcock a popularisé et théorisé. Il désigne l'objet ou le secret que tout le monde poursuit dans le film, des plans militaires, une formule, une valise, mais dont la nature exacte n'a aucune importance réelle : il ne sert qu'à mettre les personnages en mouvement. L'essentiel se joue ailleurs, dans les relations et la tension. Hitchcock a aussi formalisé le suspense, qui repose sur la répartition de l'information entre les personnages et le spectateur. Sa courte apparition dans ses propres films s'appelle un caméo, ce qui est tout autre chose."
+  },
+  {
+   "q": "Pourquoi « Psychose », sorti en 1960, marque-t-il un tournant dans le cinéma d'horreur ?",
+   "choix": [
+    "Il est le premier film d'horreur en couleur",
+    "Il inaugure le cinéma gore",
+    "Il ancre la peur dans un cadre ordinaire et une explication psychologique",
+    "Il est le premier film de zombies"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Avant 1960, l'horreur reposait surtout sur des créatures surnaturelles et des décors gothiques, château, laboratoire ou crypte, hérités de l'expressionnisme allemand et des monstres d'Universal. Avec « Psychose », Hitchcock installe la terreur dans un motel banal et lui donne une explication psychologique : le monstre est un être humain d'apparence ordinaire. La peur devient réaliste, donc bien plus proche du spectateur. Le film de zombies moderne naîtra huit ans plus tard avec « La Nuit des morts-vivants » en 1968, tandis que le gore et le slasher se développeront surtout dans les années 1970 et 1980."
+  },
+  {
+   "q": "Quel sous-genre met en scène un tueur masqué traquant des adolescents ?",
+   "choix": [
+    "Le giallo",
+    "Le slasher",
+    "Le found footage",
+    "Le splatter"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Le slasher se caractérise par un tueur masqué qui poursuit et élimine un à un un groupe de jeunes gens, selon une mécanique très codifiée. « Halloween », « Vendredi 13 » et « Les Griffes de la nuit » en sont les exemples les plus célèbres. Le giallo est un genre italien qui mêle enquête policière et horreur dans une esthétique très stylisée, avec son tueur ganté de noir. Le gore, également appelé splatter, désigne quant à lui les films misant sur la violence graphique et l'exhibition des corps. En 1996, « Scream » jouera ouvertement avec les règles du slasher."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Film d'horreur",
+   "url": "https://fr.wikipedia.org/wiki/Film_d'horreur"
+  },
+  {
+   "titre": "Thriller (genre)",
+   "url": "https://fr.wikipedia.org/wiki/Thriller_(genre)"
+  },
+  {
+   "titre": "Alfred Hitchcock",
+   "url": "https://fr.wikipedia.org/wiki/Alfred_Hitchcock"
+  },
+  {
+   "titre": "Le Cabinet du docteur Caligari",
+   "url": "https://fr.wikipedia.org/wiki/Le_Cabinet_du_docteur_Caligari"
+  }
+ ]
+}

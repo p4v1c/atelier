@@ -1,0 +1,175 @@
+{
+ "titre": "Microbes, maladies et immunité",
+ "sections": [
+  {
+   "titre": "Le monde invisible des micro-organismes",
+   "texte": "Les micro-organismes, ou microbes, sont des êtres vivants trop petits pour être vus à l'œil nu. Ils forment un ensemble très divers. Les bactéries sont des cellules procaryotes, dépourvues de noyau, mesurant généralement de un à quelques micromètres ; elles se reproduisent en se divisant en deux, parfois toutes les vingt minutes dans des conditions favorables. Les champignons microscopiques, comme les levures et certaines moisissures, sont des eucaryotes. Les protozoaires, tel le plasmodium responsable du paludisme, sont des eucaryotes unicellulaires souvent mobiles. Les virus occupent une place à part : composés uniquement d'un matériel génétique enfermé dans une capsule de protéines, ils ne possèdent ni cellule ni métabolisme propre et ne peuvent se multiplier qu'en détournant la machinerie d'une cellule hôte. Beaucoup de biologistes hésitent donc à les considérer comme vivants. Il serait faux de croire que tous les microbes sont dangereux : l'immense majorité est inoffensive, et beaucoup sont indispensables. Le corps humain héberge environ autant de bactéries que de cellules propres, principalement dans l'intestin, où elles forment le microbiote. Celui-ci aide à digérer certains aliments, produit des vitamines et empêche l'installation d'espèces nuisibles. Dans la nature, les microbes recyclent la matière organique, fixent l'azote de l'air et permettent la fabrication du pain, du fromage, du yaourt et de nombreuses boissons fermentées.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Qui sont les micro-organismes ?",
+    "colonnes": [
+     "Type",
+     "Nature",
+     "Exemples"
+    ],
+    "lignes": [
+     [
+      "Bactéries",
+      "Cellules procaryotes sans noyau, de 1 à quelques micromètres, se divisant parfois toutes les 20 minutes",
+      "Bactéries du microbiote intestinal, bacille de la tuberculose"
+     ],
+     [
+      "Champignons microscopiques",
+      "Eucaryotes",
+      "Levures, certaines moisissures"
+     ],
+     [
+      "Protozoaires",
+      "Eucaryotes unicellulaires, souvent mobiles",
+      "Plasmodium, responsable du paludisme"
+     ],
+     [
+      "Virus",
+      "Ni cellule ni métabolisme : un matériel génétique dans une capsule de protéines",
+      "Grippe, rage — ils ne se multiplient qu'en détournant une cellule hôte"
+     ]
+    ],
+    "note": "L'immense majorité des microbes est inoffensive : le corps humain héberge environ autant de bactéries que de cellules propres."
+   }
+  },
+  {
+   "titre": "La naissance de la microbiologie",
+   "texte": "Pendant des siècles, on a attribué les maladies à des miasmes, vapeurs malsaines émanant des marécages et des immondices, ou à des déséquilibres des humeurs du corps. Le tournant décisif intervient au XIXe siècle. Louis Pasteur démontre d'abord, par ses expériences avec des ballons à col de cygne, que la fermentation et la putréfaction sont dues à des micro-organismes présents dans l'air et non à une génération spontanée. Il établit ensuite la théorie microbienne des maladies infectieuses et met au point la pasteurisation, chauffage modéré qui détruit les germes sans altérer les aliments. En 1885, il applique pour la première fois à un être humain, le jeune Joseph Meister, un vaccin contre la rage. Le médecin allemand Robert Koch identifie de son côté les bactéries responsables de la tuberculose en 1882 et du choléra en 1883, et formule des critères rigoureux pour attribuer une maladie à un germe précis. Le chirurgien britannique Joseph Lister introduit l'antisepsie dans les hôpitaux, faisant chuter la mortalité opératoire, tandis que le Hongrois Ignace Semmelweis avait montré dès 1847 que le simple lavage des mains réduisait considérablement la fièvre puerpérale. Enfin, en 1928, Alexander Fleming découvre par hasard la pénicilline, premier antibiotique, en constatant qu'une moisissure empêchait des bactéries de se développer autour d'elle.",
+   "visuel": {
+    "type": "frise",
+    "titre": "La naissance de la microbiologie",
+    "evenements": [
+     {
+      "date": "1847",
+      "label": "Semmelweis et le lavage des mains",
+      "texte": "Il montre que ce geste simple réduit considérablement la fièvre puerpérale."
+     },
+     {
+      "date": "1882",
+      "label": "Koch identifie le bacille de la tuberculose",
+      "texte": "Il formule aussi des critères rigoureux pour attribuer une maladie à un germe précis."
+     },
+     {
+      "date": "1883",
+      "label": "Koch identifie le vibrion du choléra"
+     },
+     {
+      "date": "1885",
+      "label": "Pasteur vaccine Joseph Meister contre la rage",
+      "texte": "Première application à un être humain, après ses travaux sur la fermentation et la pasteurisation."
+     },
+     {
+      "date": "1928",
+      "label": "Fleming découvre la pénicilline",
+      "texte": "Par hasard : une moisissure empêchait les bactéries de pousser autour d'elle."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Comment se transmettent les maladies infectieuses",
+   "texte": "Une maladie infectieuse survient lorsqu'un agent pathogène pénètre dans l'organisme, s'y multiplie et perturbe son fonctionnement. Les voies de contamination sont variées. La transmission par voie aérienne se fait par les gouttelettes émises en toussant, en éternuant ou en parlant : c'est le cas de la grippe, de la tuberculose ou de la rougeole. La transmission par contact direct concerne les mains, la peau ou les muqueuses. La voie digestive, dite oro-fécale, implique de l'eau ou des aliments souillés et provoque des maladies comme le choléra ou la salmonellose. Certains agents passent par le sang, lors de transfusions ou de blessures, d'autres se transmettent lors des rapports sexuels. Enfin de nombreux pathogènes utilisent des vecteurs, souvent des insectes : le moustique anophèle transmet le paludisme, le moustique tigre la dengue et le chikungunya, et la tique la maladie de Lyme. Après la contamination vient une période d'incubation, pendant laquelle l'agent se multiplie sans que les symptômes apparaissent encore, mais durant laquelle la personne peut déjà être contagieuse. Les mesures d'hygiène restent le moyen de prévention le plus efficace et le moins coûteux : lavage des mains au savon, accès à l'eau potable, assainissement, cuisson des aliments et lutte contre les vecteurs. L'amélioration de ces conditions au XXe siècle a sauvé plus de vies que n'importe quel médicament."
+  },
+  {
+   "titre": "Les défenses de l'organisme",
+   "texte": "Le corps humain se protège grâce à un système immunitaire organisé en plusieurs lignes. La première est constituée de barrières physiques et chimiques : la peau, imperméable tant qu'elle est intacte, les muqueuses recouvertes de mucus, les larmes et la salive qui contiennent une enzyme antibactérienne, l'acidité de l'estomac et les cils des voies respiratoires qui évacuent les particules. Lorsqu'un agent franchit ces défenses, l'immunité innée intervient immédiatement, sans distinguer précisément l'intrus. Des globules blancs appelés phagocytes, notamment les macrophages, englobent et digèrent les microbes, un processus décrit dès la fin du XIXe siècle par le biologiste russe Ilya Metchnikov. L'inflammation qui accompagne cette réaction, avec rougeur, chaleur, gonflement et douleur, traduit l'afflux de sang et de cellules de défense. Si l'infection persiste, l'immunité adaptative prend le relais en quelques jours. Les lymphocytes B fabriquent des anticorps, protéines en forme de Y qui se fixent spécifiquement sur l'agent reconnu, le neutralisent et facilitent sa destruction. Les lymphocytes T détruisent directement les cellules infectées et coordonnent l'ensemble de la réponse. Après la guérison, certaines de ces cellules survivent sous forme de cellules mémoire : lors d'un nouveau contact avec le même agent, la réaction est beaucoup plus rapide et intense. C'est cette mémoire immunitaire qui explique que l'on n'attrape en général qu'une seule fois certaines maladies.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "Les lignes de défense de l'organisme",
+    "etapes": [
+     {
+      "label": "Les barrières",
+      "texte": "Peau intacte, mucus des muqueuses, larmes et salive contenant une enzyme antibactérienne, acidité de l'estomac, cils des voies respiratoires."
+     },
+     {
+      "label": "L'immunité innée",
+      "texte": "Immédiate et sans distinguer l'intrus : les phagocytes, notamment les macrophages, englobent et digèrent les microbes."
+     },
+     {
+      "label": "L'inflammation",
+      "texte": "Rougeur, chaleur, gonflement et douleur traduisent l'afflux de sang et de cellules de défense."
+     },
+     {
+      "label": "L'immunité adaptative",
+      "texte": "En quelques jours : les lymphocytes B fabriquent des anticorps spécifiques, les lymphocytes T détruisent les cellules infectées."
+     },
+     {
+      "label": "La mémoire immunitaire",
+      "texte": "Des cellules mémoire survivent : au contact suivant, la réaction est bien plus rapide et intense."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Vaccins, antibiotiques et santé publique",
+   "texte": "La vaccination exploite la mémoire immunitaire. On introduit dans l'organisme un agent pathogène tué, atténué, un fragment de celui-ci, ou encore les instructions permettant à nos cellules d'en fabriquer un morceau, comme dans les vaccins à ARN messager. Le système immunitaire réagit et conserve la mémoire de cet ennemi, sans que la personne ait à subir la maladie. Le principe fut entrevu par Edward Jenner qui, en 1796, protégea un enfant de la variole en l'inoculant avec la vaccine, maladie bénigne des vaches, d'où vient le mot vaccin. Lorsqu'une proportion suffisante d'une population est vaccinée, la circulation du germe s'interrompt et protège même les personnes non immunisées : c'est l'immunité collective. Grâce à elle, la variole a été officiellement éradiquée en 1980, seule maladie humaine à l'avoir été. Les antibiotiques, eux, ne servent que contre les bactéries et sont totalement inefficaces contre les virus : les prescrire pour une grippe ou un rhume est inutile. Leur usage excessif favorise l'apparition de bactéries résistantes, capables de survivre au traitement, un phénomène que l'Organisation mondiale de la santé considère aujourd'hui comme une menace majeure. Utiliser les antibiotiques avec discernement, respecter les durées de traitement et maintenir une bonne hygiène restent donc des enjeux collectifs de première importance."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Pourquoi les antibiotiques sont-ils inefficaces contre la grippe ?",
+   "choix": [
+    "Parce que la grippe est causée par un virus, pas par une bactérie",
+    "Parce que la grippe est causée par un champignon",
+    "Parce que les antibiotiques agissent trop lentement",
+    "Parce que la grippe n'est pas une maladie infectieuse"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "La grippe est provoquée par un virus, alors que les antibiotiques n'agissent que sur les bactéries. Ils fonctionnent en attaquant des structures propres aux bactéries, comme la paroi cellulaire ou les ribosomes bactériens, structures que les virus ne possèdent pas. Un virus n'a d'ailleurs pas de métabolisme propre : il se multiplie en détournant la machinerie de nos cellules. Prescrire un antibiotique contre une grippe est donc inutile et contribue au développement de bactéries résistantes. Contre les virus, on utilise des antiviraux, et surtout la prévention par la vaccination."
+  },
+  {
+   "q": "Quel savant a démontré que la fermentation était due à des micro-organismes et a mis au point le vaccin contre la rage ?",
+   "choix": [
+    "Alexander Fleming",
+    "Edward Jenner",
+    "Robert Koch",
+    "Louis Pasteur"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "Louis Pasteur a montré, notamment grâce à ses expériences avec des ballons à col de cygne, que la fermentation et la putréfaction sont dues à des micro-organismes venus de l'air et non à une génération spontanée. Il a fondé la théorie microbienne des maladies infectieuses et inventé la pasteurisation. En 1885, il applique pour la première fois à un être humain, le jeune Joseph Meister, un vaccin contre la rage. Edward Jenner avait auparavant introduit la vaccination contre la variole, Robert Koch a identifié les bacilles de la tuberculose et du choléra, et Alexander Fleming a découvert la pénicilline en 1928."
+  },
+  {
+   "q": "Quelles cellules fabriquent les anticorps ?",
+   "choix": [
+    "Les globules rouges",
+    "Les lymphocytes B",
+    "Les plaquettes",
+    "Les macrophages"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Les anticorps sont produits par les lymphocytes B, une catégorie de globules blancs, lorsqu'ils reconnaissent un antigène étranger. Ce sont des protéines en forme de Y qui se fixent de façon très spécifique sur l'agent pathogène, le neutralisent et facilitent sa destruction par d'autres cellules. Les macrophages sont des phagocytes qui englobent et digèrent les microbes, mais ne produisent pas d'anticorps. Les globules rouges transportent l'oxygène et les plaquettes participent à la coagulation du sang. Les lymphocytes T, quant à eux, détruisent les cellules infectées et coordonnent la réponse immunitaire."
+  },
+  {
+   "q": "Sur quel mécanisme repose l'efficacité de la vaccination ?",
+   "choix": [
+    "Sur la destruction directe des microbes par le vaccin",
+    "Sur le renforcement de la barrière cutanée",
+    "Sur la mémoire immunitaire acquise après un premier contact",
+    "Sur la stérilisation permanente de l'organisme"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La vaccination consiste à présenter au système immunitaire un agent pathogène tué, atténué, un fragment de celui-ci, ou les instructions permettant de le fabriquer. L'organisme développe alors une réponse immunitaire complète, mais sans subir la maladie. À l'issue de cette réaction, des lymphocytes mémoire persistent parfois pendant des années. Lors d'un contact ultérieur avec le véritable agent, la réponse est beaucoup plus rapide et plus intense, si bien que l'infection est stoppée avant l'apparition des symptômes. Le vaccin ne détruit donc rien par lui-même : il entraîne les défenses naturelles."
+  },
+  {
+   "q": "Qu'est-ce que l'immunité collective ?",
+   "choix": [
+    "La protection indirecte des non-immunisés lorsque assez de personnes sont immunisées",
+    "Une immunité transmise par le sang entre membres d'une famille",
+    "La capacité de tous les êtres humains à résister à un même germe",
+    "Un traitement administré simultanément à toute une population"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "L'immunité collective, aussi appelée immunité de groupe, apparaît lorsqu'une proportion suffisante d'une population est immunisée, par vaccination ou par infection antérieure. Le germe ne trouve alors plus assez de personnes réceptives pour continuer de circuler, et sa transmission s'interrompt. Cela protège indirectement les individus qui ne peuvent pas être vaccinés, comme les nourrissons, les personnes immunodéprimées ou allergiques à un composant. Le seuil nécessaire dépend de la contagiosité de la maladie : il dépasse quatre-vingt-quinze pour cent pour la rougeole, très contagieuse, mais est plus bas pour d'autres infections. C'est grâce à ce mécanisme, associé à une campagne mondiale, que la variole a pu être éradiquée en 1980."
+  }
+ ]
+}

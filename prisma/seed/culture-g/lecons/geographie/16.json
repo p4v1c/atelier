@@ -1,0 +1,214 @@
+{
+ "titre": "La cartographie : lire et fabriquer une carte",
+ "sections": [
+  {
+   "titre": "Une longue histoire de la carte",
+   "texte": "La cartographie désigne la réalisation et l'étude des cartes géographiques, géologiques et astronomiques. Elle s'appuie sur la géodésie, science de la forme et des dimensions de la Terre, et poursuit un objectif exigeant : représenter sur une surface plane et réduite un espace réel courbe, tout en communiquant clairement des phénomènes complexes. L'envie de cartographier est très ancienne : certaines représentations d'étoiles peintes dans la grotte de Lascaux sont datées d'environ 16 500 avant notre ère. La cartographie scientifique naît véritablement au deuxième siècle avec Ptolémée, qui organise la représentation du monde connu à l'aide d'un système de coordonnées. Les grandes découvertes relancent la discipline, et Gérard Mercator publie en 1569 une projection cylindrique qui révolutionne la navigation. Au dix-huitième siècle, les levés systématiques réalisés en France par la méthode de la triangulation donnent naissance à la cartographie moderne, précise et fondée sur la mesure du terrain. Aujourd'hui, la cartographie s'est alliée à l'informatique dans une discipline appelée géomatique. Les systèmes d'information géographique organisent les données en couches thématiques superposables, tandis que l'imagerie satellitaire et le positionnement par satellite permettent une précision inédite. Cette évolution a démocratisé la carte : chacun en consulte plusieurs par jour sur son téléphone, souvent sans conscience du travail de mesure et de choix qu'elle représente.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Une longue histoire de la carte",
+    "evenements": [
+     {
+      "date": "≈ 16 500 av. J.-C.",
+      "label": "Lascaux",
+      "texte": "Des représentations d'étoiles peintes sur les parois : l'envie de cartographier est très ancienne."
+     },
+     {
+      "date": "IIe siècle",
+      "label": "Ptolémée",
+      "texte": "Il organise la représentation du monde connu à l'aide d'un système de coordonnées : la cartographie devient scientifique."
+     },
+     {
+      "date": "1569",
+      "label": "Projection de Mercator",
+      "texte": "Une projection cylindrique qui révolutionne la navigation."
+     },
+     {
+      "date": "XVIIIe siècle",
+      "label": "La triangulation en France",
+      "texte": "Des levés systématiques fondés sur la mesure du terrain : naissance de la cartographie moderne."
+     },
+     {
+      "date": "1826",
+      "label": "Charles Dupin",
+      "texte": "Sa carte figurative de l'instruction populaire est l'un des premiers exemples de cartographie thématique."
+     },
+     {
+      "date": "1967",
+      "label": "Sémiologie graphique",
+      "texte": "Jacques Bertin formalise les règles de construction des signes cartographiques."
+     },
+     {
+      "date": "Aujourd'hui",
+      "label": "La géomatique",
+      "texte": "Systèmes d'information géographique en couches superposables, imagerie et positionnement par satellite."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Le quadrillage de la Terre",
+   "texte": "Pour situer un point sur le globe, on utilise un système de coordonnées géographiques fondé sur deux angles. La latitude mesure la position nord-sud : elle vaut 0 degré à l'équateur et 90 degrés aux pôles. Les points de même latitude forment des cercles appelés parallèles, perpendiculaires à l'axe de rotation de la Terre. La longitude mesure la position est-ouest par rapport au méridien de référence : elle s'échelonne de 0 à 180 degrés vers l'est comme vers l'ouest. Les points de même longitude forment un demi-cercle appelé méridien, qui relie les deux pôles. Le méridien de Greenwich, du nom de l'observatoire londonien, sert de référence universelle pour la longitude, tandis que l'équateur constitue la référence naturelle de la latitude et partage la planète en deux hémisphères. Les coordonnées s'expriment traditionnellement en système sexagésimal : un degré vaut 60 minutes et 3 600 secondes. À l'équateur, un degré correspond à environ 111,3 kilomètres, une minute à environ 1,9 kilomètre et une seconde à une trentaine de mètres. La notation en degrés décimaux est aujourd'hui également courante. Quelques parallèles portent un nom particulier : les tropiques, à 23 degrés 26 minutes 13 secondes, marquent la déclinaison maximale du Soleil, et les cercles polaires, à 66 degrés 33 minutes 47 secondes, délimitent les régions polaires. L'altitude complète ces deux angles, et le système géodésique WGS 84 sert de référence au GPS.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Latitude et longitude : ne pas les confondre",
+    "colonnes": [
+     "",
+     "Latitude",
+     "Longitude"
+    ],
+    "lignes": [
+     [
+      "Ce qu'elle mesure",
+      "La position nord-sud",
+      "La position est-ouest"
+     ],
+     [
+      "Valeurs",
+      "De 0° à l'équateur à 90° aux pôles",
+      "De 0° à 180°, vers l'est comme vers l'ouest"
+     ],
+     [
+      "Référence",
+      "L'équateur, référence naturelle",
+      "Le méridien de Greenwich, référence conventionnelle"
+     ],
+     [
+      "Lignes formées",
+      "Les parallèles, cercles perpendiculaires à l'axe de rotation",
+      "Les méridiens, demi-cercles reliant les deux pôles"
+     ],
+     [
+      "Parallèles remarquables",
+      "Tropiques à 23° 26′ 13″, cercles polaires à 66° 33′ 47″",
+      "—"
+     ]
+    ],
+    "note": "Un degré vaut 60 minutes et 3 600 secondes. À l'équateur, un degré correspond à environ 111,3 km, une minute à 1,9 km et une seconde à une trentaine de mètres. Le système géodésique WGS 84 sert de référence au GPS."
+   }
+  },
+  {
+   "titre": "Les projections cartographiques",
+   "texte": "Représenter une sphère sur une feuille plane est mathématiquement impossible sans déformation : c'est le problème fondamental de la cartographie, et la raison pour laquelle des dizaines de projections différentes ont été inventées. Chacune choisit ce qu'elle conserve et ce qu'elle sacrifie. Les projections conformes préservent localement les angles et les formes, ce qui les rend précieuses pour les cartes topographiques et la navigation maritime. Les projections équivalentes préservent au contraire les rapports de surface, si bien qu'elles sont privilégiées dans les atlas lorsqu'il s'agit de comparer honnêtement la taille des pays. Les projections aphylactiques ne conservent ni les angles ni les surfaces, mais peuvent respecter les distances le long de certaines lignes. On classe aussi les projections selon leur construction géométrique : dans une projection cylindrique, les méridiens apparaissent comme des droites parallèles et les parallèles comme des droites perpendiculaires ; dans une projection conique, les méridiens convergent vers les pôles et les parallèles forment des arcs concentriques ; dans une projection azimutale, la surface est projetée sur un plan, ce qui convient bien aux régions polaires et aux routes aériennes. La projection de Mercator, cylindrique et conforme, conserve les angles de navigation mais agrandit énormément les hautes latitudes, au point de faire paraître le Groenland aussi grand que l'Afrique. La projection équivalente de Peters corrige les surfaces mais déforme fortement les formes. Toute carte est donc un compromis assumé, choisi en fonction de son usage.",
+   "visuel": {
+    "type": "image",
+    "image": "geo-projection-mercator",
+    "legende": "La projection de Mercator, avec les indicatrices de Tissot : chaque cercle a la même taille réelle sur le globe. Leur gonflement vers les pôles montre l'ampleur de la déformation, qui fait paraître le Groenland aussi grand que l'Afrique alors qu'il est environ quatorze fois plus petit.",
+    "alt": "Planisphère en projection de Mercator sur lequel des cercles rouges de taille identique sur le globe sont dessinés : minuscules près de l'équateur, ils deviennent énormes au Groenland et en Antarctique."
+   }
+  },
+  {
+   "titre": "L'échelle et les éléments d'une carte",
+   "texte": "L'échelle est le rapport entre une mesure sur la carte et la mesure correspondante dans la réalité. Une échelle de 1 sur 100 signifie que la représentation est cent fois plus petite que le réel, autrement dit qu'un centimètre sur le plan représente un mètre sur le terrain. L'échelle peut être numérique, exprimée sous forme de fraction, ou graphique, présentée par une règle dessinée sur la carte, ce qui présente l'avantage de rester valable même si le document est photocopié en agrandissement. Le vocabulaire réserve un piège fréquent. Dans le langage courant, à grande échelle veut dire vaste ; en cartographie, c'est l'inverse. Une grande échelle, comme le 1 sur 25 000, correspond à un dénominateur petit et montre donc un territoire restreint avec un maximum de détails. Une petite échelle, comme le 1 sur 1 000 000, couvre un territoire immense mais avec peu de détails : un planisphère est un document à très petite échelle, un plan de ville un document à très grande échelle. Pour être exploitable, une carte doit comporter un ensemble d'éléments obligatoires : un titre clair, qui annonce le sujet et souvent la date, l'indication de l'échelle, une légende expliquant tous les figurés utilisés, un repère d'orientation sous forme de rose des vents ou de quadrillage de coordonnées, et enfin la mention des sources des données.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Grande échelle et petite échelle : le contraire de l'usage courant",
+    "colonnes": [
+     {
+      "titre": "Grande échelle — par exemple 1 : 25 000",
+      "points": [
+       "Le dénominateur est petit.",
+       "Le territoire représenté est restreint.",
+       "Le niveau de détail est maximal.",
+       "Exemple : un plan de ville."
+      ]
+     },
+     {
+      "titre": "Petite échelle — par exemple 1 : 1 000 000",
+      "points": [
+       "Le dénominateur est grand.",
+       "Le territoire représenté est immense.",
+       "Les détails disparaissent.",
+       "Exemple : un planisphère."
+      ]
+     }
+    ],
+    "note": "Une carte exploitable comporte toujours un titre daté, l'échelle, une légende de tous les figurés, un repère d'orientation et la mention des sources."
+   }
+  },
+  {
+   "titre": "Fabriquer une carte et la regarder d'un œil critique",
+   "texte": "Construire une carte thématique suppose de traduire des données en signes visuels selon des règles précises. Le géographe Jacques Bertin a formalisé ces règles dans son ouvrage Sémiologie graphique, publié en 1967, qu'il définit comme l'ensemble des règles gouvernant la construction d'un système de signes. Il distingue trois modes d'implantation des figurés : ponctuelle, pour des villes ou des usines, linéaire, pour des routes ou des flux, et zonale, pour des surfaces comme des régions ou des types de sol. Il rappelle aussi que les données peuvent être quantitatives, ordonnées ou qualitatives, et que le choix des couleurs, des tailles et des formes doit respecter cette nature : on ne représente pas de la même manière un classement et une simple catégorie. Son principe directeur est simple : la meilleure représentation est celle qui permet de répondre le plus vite possible à la question posée. Cette approche prolonge une longue tradition, dont la carte figurative de l'instruction populaire de la France publiée par Charles Dupin en 1826 constitue l'un des premiers exemples de cartographie thématique. Il faut enfin garder un regard critique. Toute carte résulte de choix : un cadrage, une projection, une sélection des informations, une classification des valeurs. Elle ne montre que ce que le cartographe a décidé de montrer, si bien qu'elle peut être un formidable outil de connaissance comme un instrument de propagande."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "En quelle année Gérard Mercator a-t-il publié sa célèbre projection ?",
+   "choix": [
+    "En 1492",
+    "En 1569",
+    "En 1650",
+    "En 1780"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Mercator publie sa projection cylindrique en 1569, en pleine période des grandes découvertes. Son intérêt était avant tout pratique : cette projection est conforme, c'est-à-dire qu'elle conserve localement les angles, ce qui permet à un navigateur de tracer un cap constant sous forme de ligne droite sur la carte. Ce service rendu à la navigation explique son succès durable. Son défaut est en revanche considérable : les surfaces situées aux hautes latitudes sont énormément agrandies, si bien que le Groenland y paraît aussi vaste que l'Afrique alors qu'il est en réalité environ quatorze fois plus petit. Cette déformation a nourri de nombreuses critiques sur la vision du monde que la projection véhicule."
+  },
+  {
+   "q": "À quelle latitude se situent les tropiques ?",
+   "choix": [
+    "À 0 degré",
+    "À 45 degrés",
+    "À 66 degrés 33 minutes",
+    "À 23 degrés 26 minutes"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Les tropiques du Cancer et du Capricorne se situent à environ 23 degrés 26 minutes de latitude nord et sud. Cette valeur n'a rien d'arbitraire : elle correspond à l'inclinaison de l'axe de rotation de la Terre et marque donc la déclinaison maximale du Soleil, c'est-à-dire les latitudes les plus éloignées de l'équateur où le Soleil peut passer à la verticale, aux solstices. Les cercles polaires, à environ 66 degrés 33 minutes, sont le complément de cette valeur à 90 degrés, et délimitent les régions où le Soleil peut rester vingt-quatre heures au-dessus ou au-dessous de l'horizon. Ces quatre parallèles remarquables découpent les grandes zones climatiques de la planète. Ils constituent donc un repère fondamental pour comprendre la répartition des climats."
+  },
+  {
+   "q": "Que signifie une carte à grande échelle ?",
+   "choix": [
+    "Le 1 sur 1 000 000 est une grande échelle",
+    "Une grande échelle couvre toujours un très vaste territoire",
+    "Une grande échelle, comme le 1 sur 25 000, montre un petit territoire avec beaucoup de détails",
+    "L'échelle n'a aucun rapport avec le niveau de détail"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "En cartographie, le vocabulaire est l'inverse de celui du langage courant. Une grande échelle correspond à une fraction dont le dénominateur est petit, comme le 1 sur 25 000 : la réduction est faible, donc la carte représente un territoire restreint avec un grand niveau de détail. Une petite échelle, comme le 1 sur 1 000 000, correspond à une forte réduction : la carte embrasse un espace immense mais ne peut montrer que les éléments principaux. Un plan de ville est ainsi un document à très grande échelle, un planisphère un document à très petite échelle. Retenir cette règle évite un contresens fréquent, car dire qu'un phénomène se produit à grande échelle signifie en géographie qu'on l'observe très localement."
+  },
+  {
+   "q": "Que conserve une projection dite équivalente ?",
+   "choix": [
+    "Les rapports de surface entre les territoires",
+    "Les angles et les formes locales",
+    "Toutes les distances sans exception",
+    "Absolument tout, sans aucune déformation"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Une projection équivalente conserve les rapports de surface, ce qui permet de comparer honnêtement la taille réelle des pays et des continents : c'est pourquoi les atlas la privilégient pour les cartes thématiques. En contrepartie, elle déforme les formes et les angles, parfois de façon très visible, comme dans la projection de Peters où les continents apparaissent étirés. La projection conforme, au contraire, conserve localement les angles et les formes mais fausse les surfaces, comme le fait Mercator. La projection aphylactique ne conserve ni l'un ni l'autre, mais peut respecter les distances le long de certaines lignes. Aucune projection ne peut tout conserver à la fois, car il est mathématiquement impossible de mettre une sphère à plat sans déformation."
+  },
+  {
+   "q": "À combien de kilomètres correspond environ un degré de latitude ?",
+   "choix": [
+    "Environ 11 kilomètres",
+    "Environ 111 kilomètres",
+    "Environ 1 111 kilomètres",
+    "Environ 1 kilomètre"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Un degré correspond à environ 111,3 kilomètres à la surface du globe, ce qui découle directement du fait que la circonférence terrestre avoisine 40 000 kilomètres divisés en 360 degrés. Une minute d'angle vaut donc environ 1,9 kilomètre et une seconde une trentaine de mètres, ce qui donne une idée de la précision offerte par des coordonnées exprimées à la seconde près. Cette valeur reste stable pour la latitude quel que soit l'endroit, alors que pour la longitude elle diminue à mesure que l'on s'approche des pôles, jusqu'à devenir nulle. C'est d'ailleurs cette convergence des méridiens qui oblige les projections cylindriques à étirer les hautes latitudes. Connaître cet ordre de grandeur permet d'estimer rapidement une distance à partir de coordonnées."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Cartographie",
+   "url": "https://fr.wikipedia.org/wiki/Cartographie"
+  },
+  {
+   "titre": "Projection cartographique",
+   "url": "https://fr.wikipedia.org/wiki/Projection_cartographique"
+  },
+  {
+   "titre": "Coordonnées géographiques",
+   "url": "https://fr.wikipedia.org/wiki/Coordonnées_géographiques"
+  },
+  {
+   "titre": "Sémiologie graphique",
+   "url": "https://fr.wikipedia.org/wiki/Sémiologie_graphique"
+  }
+ ]
+}

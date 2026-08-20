@@ -1,0 +1,181 @@
+{
+ "titre": "La reproduction et le développement",
+ "sections": [
+  {
+   "titre": "Deux façons de se reproduire",
+   "texte": "Tout être vivant est mortel, mais toute espèce vivante se perpétue : c'est le rôle de la reproduction. Les biologistes en distinguent deux grandes formes. La reproduction asexuée regroupe tous les modes de multiplication qui ne font intervenir ni gamètes ni fécondation. Un individu unique donne naissance à des descendants par simple division cellulaire, la mitose, si bien que les nouveaux venus sont génétiquement identiques à leur parent : ce sont des clones. Une bactérie qui se divise, une fraise qui émet un stolon, une bouture de géranium illustrent ce procédé rapide et économique. La reproduction sexuée, elle, repose sur la fusion de deux cellules reproductrices, les gamètes, généralement un gamète mâle et un gamète femelle. Elle est plus coûteuse, puisqu'il faut trouver un partenaire, mais elle apporte un avantage considérable : le brassage génétique. Un descendant n'est jamais la copie de ses parents, il reçoit une combinaison unique de leurs caractères héréditaires, les allèles. Cette diversité fait toute la différence quand le milieu change : dans une population variée, il se trouvera peut-être quelques individus capables de résister à une maladie nouvelle ou à un climat plus sec. La reproduction sexuée est donc le moteur principal de l'adaptation des espèces sur de longues durées, ce qui explique son immense succès dans le monde vivant.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Deux façons de se perpétuer",
+    "colonnes": [
+     {
+      "titre": "Reproduction asexuée",
+      "points": [
+       "Ni gamètes ni fécondation : une simple mitose",
+       "Un seul parent suffit",
+       "Descendants génétiquement identiques : des clones",
+       "Bactérie qui se divise, stolon du fraisier, bouture de géranium",
+       "Rapide et économique, mais sans diversité"
+      ]
+     },
+     {
+      "titre": "Reproduction sexuée",
+      "points": [
+       "Fusion de deux gamètes, mâle et femelle",
+       "Il faut trouver un partenaire : c'est plus coûteux",
+       "Chaque descendant reçoit une combinaison unique d'allèles",
+       "Brassage génétique à chaque génération",
+       "Moteur principal de l'adaptation quand le milieu change"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "La fécondation, rencontre de deux cellules",
+   "texte": "La fécondation est l'étape de la reproduction sexuée où deux gamètes apportent chacun leurs chromosomes pour former une cellule unique, le zygote, ou œuf. Les gamètes sont des cellules particulières : elles sont haploïdes, ce qui signifie qu'elles ne possèdent qu'un seul exemplaire de chaque chromosome, alors que les cellules ordinaires du corps en possèdent deux. Chez l'être humain, un spermatozoïde et un ovule contiennent chacun 23 chromosomes, et leur fusion rétablit les 46 chromosomes de la cellule-œuf, qui est dite diploïde. Le patrimoine génétique de l'individu est ainsi fixé dès cet instant, moitié paternel, moitié maternel. Chez l'être humain, la fécondation comporte quatre phases : la reconnaissance spécifique entre les deux gamètes, qui empêche la fécondation par une cellule d'une autre espèce, la fusion des membranes puis des noyaux, l'achèvement de la division de l'ovule, et enfin la réunion des matériels génétiques qui déclenche le développement embryonnaire. Le monde animal connaît deux modes de fécondation. La fécondation externe, où les gamètes sont libérés dans le milieu, concerne surtout les espèces aquatiques comme de nombreux poissons et amphibiens ; elle exige un très grand nombre de gamètes. La fécondation interne, où le sperme est déposé dans les voies génitales de la femelle, caractérise les mammifères, les oiseaux, les reptiles et les insectes terrestres."
+  },
+  {
+   "titre": "Les premières semaines de la vie humaine",
+   "texte": "Chez l'être humain, la fécondation a lieu le plus souvent dans une trompe utérine. La cellule-œuf ne reste pas longtemps unique : elle se divise en deux cellules, qui se divisent à leur tour, formant un petit amas creux appelé blastocyste. Tout en se divisant, cet ensemble migre vers l'utérus, dont il s'implante dans la paroi environ une semaine après la fécondation : c'est la nidation. Se mettent alors en place trois feuillets embryonnaires, trois couches de cellules à partir desquelles se construiront toutes les structures du corps, du squelette au système nerveux. Le rythme du développement est saisissant : vers le vingt-quatrième jour après la fécondation, un cœur primitif s'est déjà formé et commence à battre, alors que l'embryon ne mesure encore que quelques millimètres. En parallèle se constituent le placenta et le cordon ombilical, qui relient l'embryon à sa mère. Le placenta est un organe d'échange remarquable : il permet au sang maternel de céder dioxygène et nutriments et de récupérer les déchets, sans que les deux circulations se mélangent. Passé le troisième mois, quand les organes principaux sont ébauchés, on ne parle plus d'embryon mais de fœtus : la suite du développement consistera surtout en une croissance et une maturation de ce qui existe déjà.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "Les premières semaines de la vie humaine",
+    "etapes": [
+     {
+      "label": "Fécondation",
+      "texte": "Le plus souvent dans une trompe utérine : le spermatozoïde et l'ovule, à 23 chromosomes chacun, forment une cellule-œuf à 46 chromosomes."
+     },
+     {
+      "label": "Divisions et blastocyste",
+      "texte": "L'œuf se divise sans cesse et forme un petit amas creux, tout en migrant vers l'utérus."
+     },
+     {
+      "label": "Nidation",
+      "texte": "Environ une semaine après la fécondation, le blastocyste s'implante dans la paroi utérine."
+     },
+     {
+      "label": "Trois feuillets embryonnaires",
+      "texte": "Trois couches de cellules d'où sortiront toutes les structures du corps, du squelette au système nerveux."
+     },
+     {
+      "label": "Vers le 24e jour",
+      "texte": "Un cœur primitif s'est formé et commence à battre, alors que l'embryon ne mesure que quelques millimètres."
+     },
+     {
+      "label": "Après le 3e mois",
+      "texte": "Les organes principaux sont ébauchés : on parle désormais de fœtus, et le développement devient croissance et maturation."
+     }
+    ]
+   }
+  },
+  {
+   "titre": "La grossesse et la naissance",
+   "texte": "La grossesse humaine dure en moyenne 38 semaines et deux jours à compter de la fécondation, ce qui correspond à environ neuf mois. Les médecins comptent cependant plus souvent en semaines d'aménorrhée, c'est-à-dire depuis les dernières règles : une grossesse est dite à terme entre 37 et 41 semaines d'aménorrhée. On la découpe habituellement en trois trimestres. Le corps de la mère se transforme profondément pendant cette période. Le débit cardiaque augmente de 30 à 40 %, car il faut irriguer un organe supplémentaire, le placenta, et alimenter un être en croissance. Le fonctionnement de la thyroïde est modifié par les hormones de la grossesse, et les systèmes digestif et immunitaire s'adaptent également, ce dernier devant tolérer un fœtus dont la moitié du patrimoine génétique est d'origine paternelle. En France, la grossesse fait l'objet d'un suivi médical systématique comprenant notamment trois échographies et des examens biologiques réguliers ; l'objectif de cette surveillance est de repérer précocement d'éventuelles complications afin de les traiter à temps. L'accouchement met fin à la grossesse par des contractions de l'utérus qui dilatent le col et expulsent l'enfant, suivi de la délivrance du placenta. Le nouveau-né doit alors accomplir en quelques secondes une révolution physiologique : respirer par lui-même."
+  },
+  {
+   "titre": "Stratégies de reproduction dans le vivant",
+   "texte": "Toutes les espèces ne misent pas sur la même stratégie pour assurer leur descendance. Les biologistes décrivent deux extrêmes. Dans les milieux instables et imprévisibles, où beaucoup de jeunes seront détruits quoi qu'il arrive, les espèces se reproduisent vite et en très grand nombre, en investissant peu dans chaque descendant : on parle de stratégie r, illustrée par la grenouille, qui pond des milliers d'œufs abandonnés à leur sort. Dans les milieux stables et prévisibles, où la place est comptée, les espèces produisent peu de jeunes mais consacrent beaucoup de ressources et de soins à chacun : c'est la stratégie K, illustrée par le cerf. Entre ces deux pôles se déploie toute la variété du vivant. La reproduction reste très sensible aux conditions extérieures, ce qui en fait un bon indicateur de la santé des milieux. Des insecticides ont ainsi perturbé la reproduction du faucon pèlerin en amincissant la coquille de ses œufs, qui se brisaient sous le poids des parents. De même, les barrages qui coupent les rivières empêchent les saumons de rejoindre leurs frayères, menaçant la survie de populations entières. Étudier la reproduction, ce n'est donc pas seulement comprendre comment naissent les individus, c'est aussi mesurer l'effet des activités humaines sur l'avenir des espèces.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Deux stratégies de descendance",
+    "colonnes": [
+     {
+      "titre": "Stratégie r",
+      "points": [
+       "Milieux instables et imprévisibles",
+       "Se reproduire vite et en très grand nombre",
+       "Peu d'investissement par descendant",
+       "La grenouille pond des milliers d'œufs abandonnés à leur sort"
+      ]
+     },
+     {
+      "titre": "Stratégie K",
+      "points": [
+       "Milieux stables et prévisibles, où la place est comptée",
+       "Peu de jeunes",
+       "Beaucoup de ressources et de soins pour chacun",
+       "Le cerf en est l'exemple type"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel est le principal avantage de la reproduction sexuée par rapport à la reproduction asexuée ?",
+   "choix": [
+    "Elle est plus rapide",
+    "Elle produit des clones parfaits",
+    "Elle assure le brassage génétique",
+    "Elle ne demande aucune énergie"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La reproduction sexuée fait fusionner deux gamètes venus de parents différents, si bien que chaque descendant reçoit une combinaison unique d'allèles. Ce brassage génétique crée de la diversité au sein des populations. Lorsque le milieu change, par exemple à cause d'une maladie nouvelle ou d'un climat plus sec, cette diversité augmente les chances qu'au moins certains individus survivent et se reproduisent : c'est un moteur essentiel de l'adaptation. La reproduction asexuée, plus rapide et moins coûteuse, produit au contraire des clones génétiquement identiques au parent, donc vulnérables aux mêmes menaces."
+  },
+  {
+   "q": "Combien de chromosomes contient un gamète humain ?",
+   "choix": [
+    "23",
+    "46",
+    "92",
+    "12"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Les gamètes humains, spermatozoïde et ovule, sont des cellules haploïdes : elles ne portent qu'un seul exemplaire de chaque chromosome, soit 23 chromosomes. Leur fusion lors de la fécondation reconstitue une cellule-œuf diploïde à 46 chromosomes, dont la moitié vient du père et la moitié de la mère. C'est ce mécanisme qui maintient constant le nombre de chromosomes d'une génération à l'autre : sans réduction préalable dans les gamètes, ce nombre doublerait à chaque génération. Le patrimoine génétique complet de l'individu est ainsi fixé dès l'instant de la fécondation."
+  },
+  {
+   "q": "Combien de temps après la fécondation le cœur primitif de l'embryon humain commence-t-il à battre ?",
+   "choix": [
+    "Vers le troisième mois",
+    "Vers le vingt-quatrième jour",
+    "Dès le premier jour",
+    "Vers le sixième mois"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Vers le vingt-quatrième jour après la fécondation, un cœur primitif s'est déjà constitué et commence à battre, alors que l'embryon ne mesure encore que quelques millimètres. Ce démarrage très précoce s'explique par une nécessité : un organisme qui grandit ne peut plus se contenter d'une diffusion passive des substances, il lui faut un système de transport. Auparavant, la cellule-œuf s'est divisée en un amas creux, le blastocyste, qui s'implante dans la paroi de l'utérus environ une semaine après la fécondation. C'est seulement après le troisième mois, une fois les organes ébauchés, que l'on parle de fœtus."
+  },
+  {
+   "q": "Quelle est la durée moyenne de la grossesse humaine à partir de la fécondation ?",
+   "choix": [
+    "Environ 30 semaines",
+    "Environ 45 semaines",
+    "Environ 38 semaines",
+    "Environ 52 semaines"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "La grossesse humaine dure en moyenne 38 semaines et deux jours à compter de la fécondation, soit environ neuf mois. Les médecins comptent toutefois le plus souvent en semaines d'aménorrhée, c'est-à-dire à partir des dernières règles, ce qui ajoute environ deux semaines : on considère alors une grossesse à terme entre 37 et 41 semaines d'aménorrhée. Cette différence de repère explique la confusion fréquente entre les chiffres. La grossesse se découpe habituellement en trois trimestres et s'accompagne de profondes transformations chez la mère, dont une augmentation du débit cardiaque de 30 à 40 %."
+  },
+  {
+   "q": "La grenouille, qui pond des milliers d'œufs sans s'en occuper, illustre quelle stratégie de reproduction ?",
+   "choix": [
+    "La stratégie K",
+    "La reproduction asexuée",
+    "La stratégie r",
+    "La fécondation interne"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "La grenouille illustre la stratégie r, propre aux milieux instables et imprévisibles : l'espèce produit un très grand nombre de descendants, en investissant très peu dans chacun, en pariant sur le fait que quelques-uns survivront. À l'opposé, la stratégie K, illustrée par le cerf, consiste à produire peu de jeunes mais à leur consacrer beaucoup de ressources et de soins ; elle convient aux milieux stables où la place est comptée. La grenouille pratique par ailleurs la fécondation externe, courante chez les espèces aquatiques, mais celle-ci désigne le mode de rencontre des gamètes, pas la stratégie démographique."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Reproduction (biologie)",
+   "url": "https://fr.wikipedia.org/wiki/Reproduction_(biologie)"
+  },
+  {
+   "titre": "Fécondation",
+   "url": "https://fr.wikipedia.org/wiki/F%C3%A9condation"
+  },
+  {
+   "titre": "Grossesse",
+   "url": "https://fr.wikipedia.org/wiki/Grossesse"
+  }
+ ]
+}

@@ -1,0 +1,215 @@
+{
+ "titre": "La conjugaison : modes, temps et verbes irréguliers",
+ "sections": [
+  {
+   "titre": "Trois groupes, une répartition trompeuse",
+   "texte": "Les grammaires scolaires classent les verbes français en trois groupes. Le premier réunit les verbes en -er : environ neuf dixièmes du lexique verbal, plusieurs milliers de formes, et c'est le seul groupe encore productif, puisque tous les verbes nouveaux le rejoignent comme « télécharger ». Le deuxième groupe rassemble les verbes en -ir dont le participe présent se termine par -issant : ils sont à peine trois cents, mais parfaitement réguliers, comme « finir » ou « grandir ». Le troisième groupe, avec environ 485 verbes, est au contraire une conjugaison morte : on n'en fabrique plus. Pourtant, c'est là que logent les dix verbes les plus employés de la langue — être, avoir, faire, dire, pouvoir, aller, voir, savoir, vouloir, venir. Un enfant rencontre donc les irrégularités bien avant les régularités. Le verbe « aller », malgré sa finale en -er, appartient au troisième groupe : rien dans sa conjugaison ne ressemble à celle de « parler ». Méfiance aussi devant les fausses évidences : « haïr » est du deuxième groupe (nous haïssons) mais son tréma modifie la prononciation du singulier, où l'on dit « je hais » en une syllabe ; « ouvrir », « offrir », « cueillir » se terminent en -ir sans en relever, car ils font « ouvrant » et non « ouvrissant », et prennent au présent les terminaisons du premier groupe : j'ouvre, tu ouvres. Beaucoup de linguistes jugent d'ailleurs ce découpage en trois groupes peu éclairant et lui préfèrent un classement par nombre de bases verbales.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Terminaisons du présent de l'indicatif",
+    "colonnes": [
+     "Personne",
+     "1er groupe (parler)",
+     "2e groupe (finir)",
+     "3e groupe (courant)"
+    ],
+    "lignes": [
+     [
+      "je",
+      "-e (parle)",
+      "-is (finis)",
+      "-s (cours)"
+     ],
+     [
+      "tu",
+      "-es (parles)",
+      "-is (finis)",
+      "-s (cours)"
+     ],
+     [
+      "il / elle",
+      "-e (parle)",
+      "-it (finit)",
+      "-t (court)"
+     ],
+     [
+      "nous",
+      "-ons (parlons)",
+      "-issons",
+      "-ons"
+     ],
+     [
+      "vous",
+      "-ez (parlez)",
+      "-issez",
+      "-ez"
+     ],
+     [
+      "ils / elles",
+      "-ent (parlent)",
+      "-issent",
+      "-ent"
+     ]
+    ],
+    "note": "Exceptions du 3e groupe : pouvoir, vouloir et valoir font -x, -x, -t (je peux, tu peux, il peut) ; les verbes en -dre gardent le d et ne prennent pas de t (il prend, il coud)."
+   }
+  },
+  {
+   "titre": "Modes et temps : la charpente du système verbal",
+   "texte": "Une forme verbale conjuguée porte plusieurs informations à la fois : la personne, le nombre, le temps, le mode, la voix et l'aspect. Le mode indique de quelle manière le locuteur envisage l'action. La tradition en distingue sept : quatre modes personnels, qui se conjuguent aux six personnes — indicatif, subjonctif, conditionnel, impératif — et trois modes impersonnels — infinitif, participe, gérondif. Le statut du conditionnel fait débat. Les grammaires classiques en font un mode à part entière ; beaucoup de descriptions modernes le rangent au contraire parmi les temps de l'indicatif, sous le nom de futur du passé, en observant que sa forme combine le radical du futur et les terminaisons de l'imparfait (je chanter-ais). Les deux analyses coexistent aujourd'hui dans les manuels, et aucune n'est fautive. À l'intérieur de chaque mode, les temps se répartissent en formes simples, faites d'un radical et d'une terminaison (je chantais), et en formes composées, faites d'un auxiliaire et d'un participe passé (j'avais chanté). Le français utilise deux auxiliaires, avoir et être, ce dernier servant aux verbes pronominaux, à la voix passive et à une liste fermée de verbes de mouvement ou de changement d'état : aller, venir, naître, mourir, rester, devenir. Les formes composées expriment moins un moment qu'un aspect : elles présentent l'action comme achevée au moment considéré. L'indicatif compte ainsi quatre temps simples et quatre temps composés qui leur correspondent un à un."
+  },
+  {
+   "titre": "Raconter le passé : imparfait, passé simple, passé composé",
+   "texte": "Trois formes se partagent le récit au passé, et leur répartition tient plus à l'aspect qu'à la chronologie. L'imparfait est le temps le plus régulier de toute la conjugaison : ses terminaisons -ais, -ais, -ait, -ions, -iez, -aient valent pour absolument tous les verbes, y compris être. Il installe un décor, une durée, une habitude : « il pleuvait, les rues étaient vides ». Le passé simple, lui, découpe des actions bornées qui font avancer le récit : « soudain, une porte claqua ». Sa formation suit quatre types, selon la voyelle caractéristique : -a- (je chantai), -i- (je finis), -u- (je courus) et -in- (je vins, il vint, ils vinrent, pour venir et tenir). Les première et deuxième personnes du pluriel prennent un accent circonflexe : nous chantâmes, vous finîtes. Les rectifications de 1990, qui suppriment l'accent circonflexe sur i et u dans beaucoup de mots, l'ont expressément maintenu dans ces terminaisons verbales. Depuis le XVIIe siècle, le passé simple a quitté la conversation, où le passé composé l'a remplacé partout. Il reste néanmoins vivant à l'écrit, surtout à la troisième personne, dans le roman, l'histoire et le conte, où il crée une distance temporelle nette. Une quatrième forme survit dans le sud-est et en Suisse, le passé surcomposé : « quand il a eu fini, il est parti ».",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Imparfait ou passé simple ?",
+    "colonnes": [
+     {
+      "titre": "Imparfait",
+      "points": [
+       "Terminaisons uniques pour tous les verbes : -ais, -ais, -ait, -ions, -iez, -aient",
+       "Action non bornée : durée, habitude, description",
+       "Pose le décor du récit, l'arrière-plan",
+       "« Il lisait quand le téléphone sonna »",
+       "Toujours vivant à l'oral comme à l'écrit"
+      ]
+     },
+     {
+      "titre": "Passé simple",
+      "points": [
+       "Quatre types de terminaisons : -ai, -is, -us, -ins",
+       "Action bornée, achevée, ponctuelle",
+       "Fait avancer le récit, au premier plan",
+       "« Il lut la lettre, puis sortit »",
+       "Quasi disparu de l'oral, réservé à l'écrit narratif"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Futur, conditionnel et systèmes hypothétiques",
+   "texte": "Le futur simple français n'existait pas en latin classique, qui possédait une forme propre (cantabo). Il vient d'une périphrase du latin tardif, infinitif suivi du verbe avoir : cantare habeo, littéralement « j'ai à chanter », soudée peu à peu en « chanterai ». C'est pourquoi les terminaisons du futur, -ai, -as, -a, -ons, -ez, -ont, reproduisent presque exactement le présent d'avoir. Le conditionnel s'est formé de la même façon, mais sur l'imparfait d'avoir : cantare habebam a donné « chanterais ». Le futur se construit donc sur l'infinitif, ce qui explique le e muet conservé de « je jouerai » ou « il remerciera ». Quelques radicaux résistent : j'irai, je ferai, je serai, j'aurai, je verrai, je viendrai, j'enverrai, et les doubles r de « je courrai » et « je mourrai », qui les distinguent à l'oral de « je courais » et « je mourais ». La règle la plus utile concerne le si de condition : il n'admet jamais après lui ni futur ni conditionnel. On écrit « si j'avais su », jamais « si j'aurais su ». Attention toutefois : cette interdiction ne vaut que pour le si hypothétique. Le si de l'interrogation indirecte accepte les deux (« je me demande s'il viendra », « je ne sais pas s'il accepterait »), car il équivaut alors à « est-ce que ».",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les trois systèmes hypothétiques",
+    "colonnes": [
+     "Après « si »",
+     "Dans la principale",
+     "Exemple",
+     "Valeur"
+    ],
+    "lignes": [
+     [
+      "présent",
+      "futur simple ou présent",
+      "S'il pleut, je resterai",
+      "fait possible"
+     ],
+     [
+      "imparfait",
+      "conditionnel présent",
+      "S'il pleuvait, je resterais",
+      "fait improbable ou imaginaire"
+     ],
+     [
+      "plus-que-parfait",
+      "conditionnel passé",
+      "S'il avait plu, je serais resté",
+      "fait passé non réalisé"
+     ]
+    ],
+    "note": "Jamais de futur ni de conditionnel juste après le « si » de condition."
+   }
+  },
+  {
+   "titre": "Subjonctif, impératif et formes en recul",
+   "texte": "Le subjonctif présente l'action non comme un fait, mais comme une éventualité, un souhait, une crainte. Il compte quatre temps : présent, passé, imparfait et plus-que-parfait. Les deux premiers sont d'usage courant, les deux autres appartiennent à la langue littéraire et sonnent aujourd'hui affectés — « je voulais qu'il vînt » se dit désormais « je voulais qu'il vienne ». L'imparfait du subjonctif se forme d'ailleurs sur le passé simple, et il décline avec lui. Le subjonctif s'impose après les verbes de volonté, de doute ou de sentiment, après « il faut que », et après des conjonctions comme « bien que », « avant que » ou « pourvu que ». Un cas reste disputé : après « après que », la règle traditionnelle et l'Académie française réclament l'indicatif, puisque l'action est réalisée, mais le subjonctif s'est tellement répandu, par analogie avec « avant que », que la plupart des grammairiens le constatent sans le condamner. L'impératif, lui, n'a que trois personnes et se passe de pronom sujet. Les verbes du premier groupe y perdent leur s final : mange, va. Ce s reparaît devant les pronoms en et y, pour éviter le heurt de deux voyelles : manges-en, vas-y. Enfin, quelques verbes défectifs n'ont qu'une poignée de formes survivantes : gésir se lit surtout dans « ci-gît », et braire, clore ou seoir se conjuguent à peine."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Laquelle de ces quatre phrases respecte la règle de concordance après le « si » de condition ?",
+   "choix": [
+    "Si j'aurais su, je ne serais pas venu.",
+    "Si j'avais su, je ne serais pas venu.",
+    "Si je saurais, je ne viendrais pas.",
+    "Si j'aurai su, je ne serai pas venu."
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Le « si » qui exprime une condition n'est jamais suivi d'un futur ni d'un conditionnel. Le système correct associe ici le plus-que-parfait dans la subordonnée et le conditionnel passé dans la principale : « si j'avais su, je ne serais pas venu ». Les deux autres systèmes usuels sont « si + présent » suivi du futur, et « si + imparfait » suivi du conditionnel présent. Cette interdiction ne vaut cependant que pour le « si » hypothétique : dans une interrogation indirecte, où « si » équivaut à « est-ce que », le futur et le conditionnel sont parfaitement corrects, comme dans « je me demande s'il viendra »."
+  },
+  {
+   "q": "On écrit « Va au marché » sans s, mais « Vas-y » avec un s. Pourquoi ?",
+   "choix": [
+    "Parce que le verbe change de groupe devant un pronom",
+    "Parce que le s empêche la rencontre de deux voyelles devant en et y",
+    "Parce que la forme avec s est la seule correcte, l'autre étant tolérée",
+    "Parce que l'impératif prend toujours un s à l'écrit"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "À l'impératif, les verbes du premier groupe et le verbe aller perdent le s de la deuxième personne du singulier : mange, ouvre, va. Ce s reparaît uniquement devant les pronoms en et y, pour éviter le heurt de deux voyelles : manges-en, vas-y, penses-y. On parle de s euphonique, c'est-à-dire ajouté pour la commodité de la prononciation. La règle disparaît dès que le pronom n'est plus directement rattaché au verbe : on écrit « va y voir » sans s, puisque y appartient alors au groupe infinitif qui suit."
+  },
+  {
+   "q": "Quelle est la forme correcte du passé simple du verbe venir à la troisième personne du pluriel ?",
+   "choix": [
+    "Ils vinrent",
+    "Ils vindrent",
+    "Ils venirent",
+    "Ils vintent"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Venir et tenir, ainsi que leurs composés, forment un type particulier de passé simple en -in- : je vins, tu vins, il vint, nous vînmes, vous vîntes, ils vinrent. C'est le quatrième modèle du passé simple, à côté des types en -a (je chantai), en -i (je finis) et en -u (je courus). Les première et deuxième personnes du pluriel prennent un accent circonflexe, que les rectifications orthographiques de 1990 ont expressément maintenu dans les terminaisons verbales. Le passé simple a quitté la conversation depuis le XVIIe siècle mais reste très employé à la troisième personne dans le récit écrit."
+  },
+  {
+   "q": "Le futur simple français (je chanterai) est issu d'une construction du latin tardif. Laquelle ?",
+   "choix": [
+    "Le futur latin classique cantabo, simplement déformé",
+    "Le subjonctif présent latin cantem",
+    "Un ancien impératif renforcé par un adverbe de temps",
+    "L'infinitif suivi du verbe avoir : cantare habeo, « j'ai à chanter »"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Le futur latin classique cantabo a disparu dans le latin parlé, remplacé par une périphrase formée de l'infinitif et du verbe habere : cantare habeo, littéralement « j'ai à chanter ». Cette tournure s'est soudée pour donner chanterai, ce qui explique que les terminaisons du futur reproduisent presque exactement le présent du verbe avoir : ai, as, a, ons, ez, ont. Le conditionnel s'est formé de la même manière, mais sur l'imparfait d'avoir : cantare habebam a donné chanterais. Toutes les langues romanes ont connu cette évolution, ce qui en fait un des traits les mieux établis de leur histoire commune."
+  },
+  {
+   "q": "Le verbe aller emprunte ses formes à trois radicaux latins différents (je vais, nous allons, j'irai). Comment nomme-t-on ce phénomène ?",
+   "choix": [
+    "La dérivation",
+    "La supplétion",
+    "L'assimilation",
+    "La métathèse"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "On parle de supplétion lorsqu'un même mot construit ses formes sur plusieurs radicaux d'origines distinctes au lieu d'en modifier un seul. Le verbe aller en est l'exemple français le plus célèbre : les formes en v- (je vais, il va, ils vont) viennent du latin vadere, celles en ir- (j'irai, j'irais) du latin ire, et celles en all- sont généralement rattachées à ambulare, « marcher », même si cette dernière filiation reste discutée par les étymologistes. Le verbe être est également supplétif : je suis, j'étais, je fus. La supplétion ne touche qu'un très petit nombre de mots, mais ce sont presque toujours les plus fréquents de la langue."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Morphologie du verbe en français",
+   "url": "https://fr.wikipedia.org/wiki/Morphologie_du_verbe_en_fran%C3%A7ais"
+  },
+  {
+   "titre": "Conjugaison des verbes du troisième groupe en français",
+   "url": "https://fr.wikipedia.org/wiki/Conjugaison_des_verbes_du_troisi%C3%A8me_groupe_en_fran%C3%A7ais"
+  },
+  {
+   "titre": "Passé simple en français",
+   "url": "https://fr.wikipedia.org/wiki/Pass%C3%A9_simple_en_fran%C3%A7ais"
+  },
+  {
+   "titre": "Subjonctif en français",
+   "url": "https://fr.wikipedia.org/wiki/Subjonctif_en_fran%C3%A7ais"
+  },
+  {
+   "titre": "Supplétion",
+   "url": "https://fr.wikipedia.org/wiki/Suppl%C3%A9tion"
+  }
+ ]
+}

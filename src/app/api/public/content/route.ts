@@ -75,9 +75,12 @@ export async function GET(request: Request): Promise<Response> {
     }),
   ]);
 
+  const mod = MODULE_BY_ID.get(moduleId);
   const payload = {
     moduleId,
-    vocabulaire: MODULE_BY_ID.get(moduleId)?.vocabulaire ?? null,
+    moduleName: mod?.name ?? moduleId,
+    moduleTagline: mod?.tagline ?? "",
+    vocabulaire: mod?.vocabulaire ?? null,
     categories: categories
       .filter((c) => skills.some((r) => r.category.name === c.name))
       .map((c) => c.name),

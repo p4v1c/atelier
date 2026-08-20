@@ -75,8 +75,13 @@ model Skill {
   difficulty Int // 1 à 3
   status     ContentStatus @default(active)
   batch      String? // lot de génération : "legacy" ou "batch-007"
-  createdAt  DateTime      @default(now())
-  updatedAt  DateTime      @updatedAt
+
+  /// Le support de cours, quand la compétence en a un. Le moteur ne le lit
+  /// jamais : il ne fait que le servir à l'écran de lecture.
+  lesson Json?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   module     Module          @relation(fields: [moduleId], references: [id], onDelete: Cascade)
   category   Category        @relation(fields: [categoryId], references: [id], onDelete: Restrict)

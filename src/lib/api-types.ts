@@ -118,6 +118,8 @@ export type ModuleSummary = {
   tagline: string;
   progression: string;
   skillCount: number;
+  /** 0 quand la matière ne se prête pas à la dictée. */
+  dictationCount: number;
   seen: number;
   mastered: number;
   due: number;
@@ -158,6 +160,8 @@ export type CatalogueSkill = {
   category: string;
   disputed: boolean;
   exerciseCount: number;
+  /** Un cours est attaché : l'écran propose de le lire avant de s'exercer. */
+  hasLesson?: boolean;
   box: number;
   isNew: boolean;
   seenCount: number;
@@ -169,6 +173,22 @@ export type CataloguePayload = {
   vocabulaire: ModuleVocabulaire;
   categories: { name: string; skills: number }[];
   skills: CatalogueSkill[];
+};
+
+/* ─────────────────────────── leçons ─────────────────────────── */
+
+export type { LessonDocument, LessonVisuel } from "../modules/types";
+
+export type LessonPayload = {
+  slug: string;
+  title: string;
+  moduleId: string;
+  category: string;
+  difficulty: number;
+  exerciseCount: number;
+  box: number;
+  isNew: boolean;
+  lesson: import("../modules/types").LessonDocument;
 };
 
 /* ─────────────────────────── dictées ─────────────────────────── */
@@ -214,6 +234,8 @@ export type DictationResultPayload = {
 
 export type PublicContent = {
   moduleId: string;
+  moduleName: string;
+  moduleTagline: string;
   vocabulaire: ModuleVocabulaire | null;
   categories: string[];
   skills: {

@@ -1,0 +1,206 @@
+{
+ "titre": "La biodiversité et sa préservation",
+ "sections": [
+  {
+   "titre": "Trois niveaux de diversité",
+   "texte": "La biodiversité désigne la variété des formes de vie sur la Terre. Ce mot, souvent employé comme un synonyme de nature, a en réalité un sens précis, car il englobe trois niveaux d'organisation interdépendants. Le premier est la diversité génétique, c'est-à-dire les différences qui existent entre les individus d'une même espèce : deux chiens, deux blés ou deux êtres humains ne portent pas exactement les mêmes gènes. Ce niveau, invisible à l'œil nu, est pourtant capital, car c'est sur lui que s'appuie l'adaptation d'une population confrontée à une maladie ou à un changement de climat. Le deuxième niveau est la diversité spécifique, la plus connue : le nombre d'espèces différentes présentes dans un milieu donné. Le troisième est la diversité écosystémique, c'est-à-dire la variété des systèmes écologiques eux-mêmes, forêt tropicale, tourbière, mangrove ou récif corallien, chacun formant un assemblage particulier d'espèces et de conditions physiques. Ces trois niveaux sont liés : appauvrir les milieux réduit le nombre d'espèces, et raréfier une espèce diminue sa diversité génétique, donc ses chances de survivre à la prochaine perturbation. Le mot lui-même est récent : contraction de l'expression anglaise diversité biologique, il s'est répandu à la fin des années 1980. Protéger la biodiversité ne se limite donc jamais à sauver quelques animaux emblématiques ; c'est préserver un ensemble d'échelles emboîtées, du gène au paysage.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les trois niveaux de la biodiversité",
+    "colonnes": [
+     "Niveau",
+     "Ce qu'il désigne",
+     "Pourquoi il compte"
+    ],
+    "lignes": [
+     [
+      "Diversité génétique",
+      "Les différences entre individus d'une même espèce",
+      "Invisible à l'œil nu, c'est sur elle que repose l'adaptation à une maladie ou à un climat qui change"
+     ],
+     [
+      "Diversité spécifique",
+      "Le nombre d'espèces différentes dans un milieu",
+      "Le niveau le plus connu, celui qu'on cite spontanément"
+     ],
+     [
+      "Diversité écosystémique",
+      "La variété des systèmes écologiques eux-mêmes",
+      "Forêt tropicale, tourbière, mangrove, récif corallien : chacun un assemblage unique"
+     ]
+    ],
+    "note": "Les trois sont liés : appauvrir les milieux réduit le nombre d'espèces, et raréfier une espèce diminue sa diversité génétique, donc ses chances de survivre à la perturbation suivante."
+   }
+  },
+  {
+   "titre": "Combien d'espèces sur Terre ?",
+   "texte": "Il peut sembler étonnant que les scientifiques ne sachent pas combien d'espèces peuplent la planète, mais c'est bien le cas. Environ 1,7 million d'espèces ont été formellement décrites, c'est-à-dire nommées et publiées selon les règles de la nomenclature scientifique. Les estimations du total réel varient considérablement, de 3 à 100 millions selon les méthodes employées, le chiffre d'environ 10 millions étant souvent jugé le plus plausible. Cette incertitude s'explique par plusieurs raisons. Les groupes les plus riches, comme les insectes, les champignons ou les micro-organismes, sont aussi les moins étudiés, et les régions les plus diversifiées, notamment les forêts tropicales, sont difficiles d'accès. Les océans illustrent parfaitement cette ignorance : environ 95 % du milieu marin reste inexploré, et l'on estime que 70 à 80 % des espèces marines attendent encore d'être découvertes. Décrire une espèce demande du temps, des spécialistes formés et des collections de référence, ressources qui manquent souvent. Cette situation crée un paradoxe redoutable pour la conservation : des espèces disparaissent aujourd'hui sans avoir jamais été nommées, et nous ignorons donc la véritable ampleur des pertes. Chaque année, plusieurs milliers d'espèces nouvelles sont pourtant décrites, y compris de grands animaux, preuve que l'exploration du vivant est loin d'être achevée. Inventorier le vivant est ainsi devenu une urgence scientifique autant qu'une entreprise de connaissance.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "Combien d'espèces sur Terre ?",
+    "items": [
+     {
+      "valeur": "1,7 M",
+      "label": "espèces formellement décrites"
+     },
+     {
+      "valeur": "3 à 100 M",
+      "label": "fourchette des estimations du total réel"
+     },
+     {
+      "valeur": "10 M",
+      "label": "le chiffre le plus souvent jugé plausible"
+     },
+     {
+      "valeur": "95 %",
+      "label": "du milieu marin reste inexploré"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Une érosion sans précédent",
+   "texte": "L'état de la biodiversité mondiale est aujourd'hui préoccupant. Le rapport publié en 2019 par l'IPBES, la plateforme intergouvernementale scientifique et politique sur la biodiversité, estime qu'un million d'espèces sont menacées d'extinction. Depuis 1900, l'érosion de la biodiversité a atteint un rythme sans précédent dans l'histoire humaine, et l'abondance locale des espèces a chuté d'au moins 20 % dans les principaux habitats terrestres : il ne s'agit donc pas seulement de disparitions définitives, mais aussi d'une raréfaction générale, moins spectaculaire et pourtant tout aussi grave pour le fonctionnement des écosystèmes. Cinq grandes menaces sont identifiées : la destruction des habitats, la surexploitation des ressources, les espèces invasives introduites hors de leur aire d'origine, le changement climatique et les pollutions. Une méta-analyse publiée en 2022 a montré que les deux facteurs les plus déterminants sont le changement d'usage des terres et le prélèvement direct de ressources. Ces menaces se renforcent souvent les unes les autres : un milieu déjà morcelé résiste par exemple bien moins bien au réchauffement. Beaucoup de chercheurs qualifient cette crise de sixième extinction, en référence aux cinq grandes crises du passé géologique, avec une différence essentielle : celle-ci est causée par une seule espèce, la nôtre, et se déroule à une vitesse bien supérieure à celle des extinctions naturelles.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Cinq menaces sur la biodiversité",
+    "colonnes": [
+     "Menace",
+     "De quoi il s'agit"
+    ],
+    "lignes": [
+     [
+      "Destruction des habitats",
+      "Le changement d'usage des terres : l'un des deux facteurs les plus déterminants selon une méta-analyse de 2022"
+     ],
+     [
+      "Surexploitation des ressources",
+      "Le prélèvement direct — l'autre facteur majeur"
+     ],
+     [
+      "Espèces invasives",
+      "Introduites hors de leur aire d'origine, elles bouleversent les milieux d'accueil"
+     ],
+     [
+      "Changement climatique",
+      "Un milieu déjà morcelé y résiste bien moins bien"
+     ],
+     [
+      "Pollutions",
+      "Elles se cumulent avec les autres menaces et les aggravent"
+     ]
+    ],
+    "note": "L'IPBES estimait en 2019 qu'un million d'espèces sont menacées d'extinction, et l'abondance locale a chuté d'au moins 20 % dans les principaux habitats terrestres."
+   }
+  },
+  {
+   "titre": "Mesurer la menace : la liste rouge",
+   "texte": "Pour agir, il faut d'abord évaluer. C'est le rôle de la liste rouge établie par l'UICN, l'Union internationale pour la conservation de la nature, qui classe les espèces selon leur risque de disparition. Une espèce menacée est une espèce susceptible de s'éteindre dans un avenir proche ; trois catégories désignent ce statut, par ordre de gravité décroissante : en danger critique, en danger, et vulnérable. Cet outil, fondé sur des critères précis comme la taille des populations ou la réduction de l'aire de répartition, permet des comparaisons dans le temps et entre pays. Le cas de la France est instructif, car il montre qu'un pays riche n'est nullement à l'abri. Selon le comité français de l'UICN, en 2024, 56 % des espèces animales et végétales évaluées sont menacées en France métropolitaine, soit 1 610 espèces sur 2 857. Plus surprenant encore, plus de la moitié des espèces menacées ne bénéficient d'aucune protection légale. Les protections existantes sont inégales : les amphibiens et la plupart des mammifères sont couverts, mais aucune araignée, aucun requin, aucune raie ne l'est, et les poissons, invertébrés, champignons et plantes sont peu concernés. L'UICN recommande donc d'actualiser ces listes, dont certaines remontent à 1982 pour les plantes et à 1988 pour les poissons d'eau douce."
+  },
+  {
+   "titre": "Protéger : les aires protégées et leurs limites",
+   "texte": "L'outil le plus répandu de la conservation est l'aire protégée, définie par l'UICN comme un espace géographique clairement défini, reconnu, consacré et géré par tout moyen efficace, juridique ou autre, afin d'assurer à long terme la conservation de la nature ainsi que les services et les valeurs culturelles qui lui sont associés. L'UICN en distingue six catégories, de la réserve intégrale, où toute activité est proscrite hors recherche scientifique, jusqu'aux espaces autorisant une utilisation durable des ressources. L'histoire de ces aires est ancienne : la forêt de Fontainebleau fut classée dès 1861, ce qui en fait la première réserve naturelle moderne, et Yellowstone reçut en 1872 le premier titre de parc national. En 2018, environ 15 % des terres émergées étaient protégées, contre 9 % en 1992, et la communauté internationale s'était fixé comme objectif d'Aichi de protéger au moins 17 % des zones terrestres et 10 % des zones marines. Ces succès apparents doivent cependant être nuancés. Environ un tiers des territoires protégés subissent une pression humaine intense, beaucoup n'existent que sur le papier, faute de moyens de gestion, et leur localisation privilégie souvent des espaces accessibles ou peu convoités plutôt que les régions les plus riches en espèces.",
+   "visuel": {
+    "type": "frise",
+    "titre": "L'histoire des aires protégées",
+    "evenements": [
+     {
+      "date": "1861",
+      "label": "La forêt de Fontainebleau est classée",
+      "texte": "La première réserve naturelle moderne."
+     },
+     {
+      "date": "1872",
+      "label": "Yellowstone, premier parc national"
+     },
+     {
+      "date": "1992",
+      "label": "9 % des terres émergées protégées"
+     },
+     {
+      "date": "2018",
+      "label": "15 % des terres émergées protégées",
+      "texte": "L'objectif d'Aichi visait au moins 17 % des zones terrestres et 10 % des zones marines."
+     }
+    ],
+    "note": "Un tiers environ des territoires protégés subit une pression humaine intense, et beaucoup n'existent que sur le papier faute de moyens de gestion."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quels sont les trois niveaux de la biodiversité ?",
+   "choix": [
+    "Végétal, animal et minéral",
+    "Terrestre, marin et aérien",
+    "Génétique, spécifique et écosystémique",
+    "Local, national et mondial"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "La biodiversité s'apprécie à trois niveaux interdépendants. La diversité génétique recouvre les différences entre individus d'une même espèce ; invisible à l'œil nu, elle conditionne la capacité d'une population à s'adapter à une maladie ou à un changement de climat. La diversité spécifique correspond au nombre d'espèces différentes, c'est le niveau le plus connu. La diversité écosystémique désigne la variété des systèmes écologiques eux-mêmes, forêt tropicale, tourbière, mangrove ou récif. Ces niveaux sont liés : détruire un milieu réduit le nombre d'espèces, et raréfier une espèce appauvrit son patrimoine génétique."
+  },
+  {
+   "q": "Combien d'espèces ont été formellement décrites par les scientifiques ?",
+   "choix": [
+    "Environ 1,7 million",
+    "Environ 10 000",
+    "Environ 100 millions",
+    "Environ 50 millions"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Environ 1,7 million d'espèces ont été formellement décrites, c'est-à-dire nommées et publiées selon les règles de la nomenclature scientifique. Le total réel est bien supérieur : les estimations vont de 3 à 100 millions d'espèces, le chiffre d'environ 10 millions étant souvent jugé le plus plausible. Cette incertitude tient au fait que les groupes les plus riches, insectes, champignons et micro-organismes, sont les moins étudiés, et que les milieux les plus divers sont difficiles d'accès. Dans les océans, 95 % du milieu reste inexploré et 70 à 80 % des espèces marines n'ont pas encore été décrites."
+  },
+  {
+   "q": "Combien d'espèces sont menacées d'extinction selon le rapport de l'IPBES de 2019 ?",
+   "choix": [
+    "Un millier",
+    "Cent mille",
+    "Un million",
+    "Dix millions"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le rapport de l'IPBES publié en 2019 estime qu'un million d'espèces sont menacées d'extinction. Depuis 1900, l'érosion de la biodiversité progresse à un rythme sans précédent dans l'histoire humaine, et l'abondance locale des espèces a diminué d'au moins 20 % dans les principaux habitats terrestres. Cinq grandes menaces sont identifiées : la destruction des habitats, la surexploitation des ressources, les espèces invasives, le changement climatique et les pollutions. Une méta-analyse de 2022 a établi que le changement d'usage des terres et le prélèvement direct de ressources en sont les deux moteurs principaux."
+  },
+  {
+   "q": "Quelle part des espèces évaluées est menacée en France métropolitaine selon le comité français de l'UICN en 2024 ?",
+   "choix": [
+    "5 %",
+    "20 %",
+    "56 %",
+    "90 %"
+   ],
+   "bonne": 2,
+   "difficulte": 3,
+   "explication": "Selon le comité français de l'UICN, en 2024, 56 % des espèces animales et végétales évaluées sont menacées en France métropolitaine, soit 1 610 espèces sur 2 857. Ce chiffre élevé s'accompagne d'un constat préoccupant : plus de la moitié de ces espèces menacées ne bénéficient d'aucune protection légale. Les protections sont par ailleurs très inégales selon les groupes, puisque les amphibiens et la plupart des mammifères sont couverts, alors qu'aucune araignée, aucun requin et aucune raie ne le sont. L'UICN recommande donc d'actualiser des listes dont certaines remontent à 1982 pour les plantes."
+  },
+  {
+   "q": "Quelle proportion des terres émergées était protégée en 2018 ?",
+   "choix": [
+    "Environ 15 %",
+    "Environ 2 %",
+    "Environ 40 %",
+    "Environ 60 %"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "En 2018, environ 15 % des terres émergées bénéficiaient d'un statut d'aire protégée, contre seulement 9 % en 1992 : la progression est réelle. L'objectif international dit d'Aichi visait au moins 17 % des zones terrestres et 10 % des zones marines. Ce résultat doit toutefois être nuancé, car environ un tiers de ces territoires subissent une pression humaine intense et beaucoup n'existent que sur le papier, faute de moyens de gestion. Leur localisation privilégie en outre des espaces accessibles ou peu convoités, plutôt que les régions les plus riches en biodiversité."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Biodiversité",
+   "url": "https://fr.wikipedia.org/wiki/Biodiversit%C3%A9"
+  },
+  {
+   "titre": "Espèce menacée",
+   "url": "https://fr.wikipedia.org/wiki/Esp%C3%A8ce_menac%C3%A9e"
+  },
+  {
+   "titre": "Aire protégée",
+   "url": "https://fr.wikipedia.org/wiki/Aire_prot%C3%A9g%C3%A9e"
+  }
+ ]
+}

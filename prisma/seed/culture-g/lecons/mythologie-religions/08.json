@@ -1,0 +1,190 @@
+{
+ "titre": "Les mythologies celtique et gauloise",
+ "sections": [
+  {
+   "titre": "Un monde presque sans écrits : les sources",
+   "texte": "La mythologie celtique pose un problème particulier à l'historien : les Celtes de l'Antiquité n'ont pratiquement rien écrit sur leurs dieux. Selon les auteurs anciens, les druides jugeaient l'écriture impropre à transmettre le savoir sacré, qu'ils qualifiaient de parole vivante, et confiaient tout à la mémoire. Les connaissances actuelles reposent donc sur trois ensembles de documents de nature très différente. Le premier regroupe les témoignages grecs et romains, d'Hécatée de Milet au VIe siècle avant notre ère jusqu'à Tacite au IIe siècle de notre ère, en passant par Diodore de Sicile, Strabon, Lucain et surtout la Guerre des Gaules de Jules César, dont les chercheurs estiment aujourd'hui qu'il s'est largement appuyé sur le philosophe grec Posidonios d'Apamée. Ces auteurs pratiquent l'interpretatio romana : ils désignent les divinités celtes par le nom de leurs équivalents romains supposés, ce qui masque les appellations indigènes. Le deuxième ensemble est archéologique : inscriptions, statues, noms de lieux, et surtout les sanctuaires fouillés depuis les années 1950, comme celui de Gournay-sur-Aronde, qui ont profondément renouvelé la compréhension des rites. Le troisième ensemble rassemble les manuscrits médiévaux d'Irlande et du pays de Galles, copiés par des clercs chrétiens entre le VIIIe et le XVe siècle, qui ont fixé par écrit des récits transmis oralement pendant des siècles. Ces textes sont précieux mais indirects, car retouchés par des moines : les récits gallois du Mabinogion apparaissent ainsi plus christianisés que les textes irlandais."
+  },
+  {
+   "titre": "Les dieux de la Gaule",
+   "texte": "César affirme que les Gaulois honoraient six grandes divinités et qu'ils vénéraient par-dessus tout celle qu'il appelle Mercure, présentée comme l'inventeur de tous les arts. Derrière ce nom romain, les spécialistes reconnaissent le dieu Lugus, ou Lug, figure pancéltique aux compétences multiples, que l'on retrouve dans de nombreux noms de villes comme Lugdunum, l'actuelle Lyon. Taranis est associé au tonnerre et rapproché de Jupiter ; Teutatès, dont le nom évoque la tribu, apparaît comme le protecteur de la communauté ; Ésus est lié au travail et à l'artisanat. L'archéologie révèle d'autres figures que les textes antiques ignorent presque : Cernunnos, dieu représenté avec des bois de cerf et associé à la nature sauvage et à la fécondité, et Épona, déesse liée aux chevaux, à l'abondance et à la protection, dont le culte s'est diffusé jusque dans l'armée romaine. Reconstituer ce panthéon reste délicat. Les chercheurs soulignent l'existence probable d'un tabou du nom : les divinités auraient été invoquées de manière allusive, par des surnoms ou des épithètes locales, plutôt que par leur nom véritable. Les inscriptions livrent ainsi des centaines de noms divins attestés une seule fois, souvent liés à une source, à une forêt ou à un territoire précis. La religion gauloise apparaît donc à la fois structurée par quelques grandes figures et extrêmement enracinée dans les réalités locales.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les divinités de la Gaule et la manière dont on les connaît",
+    "colonnes": [
+     "Divinité",
+     "Ce que les sources en disent"
+    ],
+    "lignes": [
+     [
+      "Lugus, ou Lug",
+      "César la désigne sous le nom de Mercure, la présente comme l'inventeur de tous les arts et affirme que les Gaulois la vénéraient par-dessus tout ; figure pancéltique que l'on retrouve dans des noms de villes comme Lugdunum, l'actuelle Lyon"
+     ],
+     [
+      "Taranis",
+      "Associé au tonnerre et rapproché de Jupiter"
+     ],
+     [
+      "Teutatès",
+      "Son nom évoque la tribu ; il apparaît comme le protecteur de la communauté"
+     ],
+     [
+      "Ésus",
+      "Lié au travail et à l'artisanat"
+     ],
+     [
+      "Cernunnos",
+      "Révélé par l'archéologie : représenté avec des bois de cerf, associé à la nature sauvage et à la fécondité"
+     ],
+     [
+      "Épona",
+      "Révélée par l'archéologie : liée aux chevaux, à l'abondance et à la protection ; son culte s'est diffusé jusque dans l'armée romaine"
+     ]
+    ],
+    "note": "Les auteurs antiques pratiquent l'interpretatio romana : ils désignent les divinités celtes par le nom de leurs équivalents romains supposés. Les chercheurs soulignent en outre l'existence probable d'un tabou du nom, les divinités étant invoquées par des surnoms ou des épithètes locales."
+   }
+  },
+  {
+   "titre": "Druides, vates et bardes",
+   "texte": "Chez les Celtes, la classe sacerdotale n'était pas seulement religieuse. Selon les sources antiques, notamment César et Pline l'Ancien, elle comprenait trois spécialités complémentaires : les druides, théologiens et juges ; les vates, chargés des rites, de la divination et de la médecine ; et les bardes, poètes et orateurs qui transmettaient les récits et la mémoire des lignages. Le druide est décrit comme un personnage occupant le sommet de la société : ministre du culte, philosophe, enseignant, historien, juriste et conseiller des chefs. César écrit qu'ils s'occupent des choses de la religion, président aux sacrifices publics et privés et règlent les pratiques religieuses. Leur autorité s'étendait à la justice, à l'éducation et à la médecine, et leur formation aurait duré de longues années, entièrement par apprentissage oral. Les auteurs anciens insistent sur une doctrine centrale : les Celtes auraient cru en l'immortalité de l'âme, croyance qui expliquerait selon eux le peu de crainte des guerriers devant la mort. Ce point a conduit certains commentateurs antiques à rapprocher les druides des pythagoriciens, hypothèse d'un échange intellectuel entre monde celtique et monde méditerranéen que les historiens discutent encore. Les lieux de culte, appelés nemeta, accueillaient des banquets rituels accompagnés de sacrifices animaux, des dépôts d'offrandes et des exhibitions de trophées guerriers. Le druidisme disparaît avec la romanisation de la Gaule puis la christianisation de l'Irlande, sans continuité directe jusqu'à l'époque contemporaine.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les trois spécialités de la classe sacerdotale celte",
+    "colonnes": [
+     "Spécialité",
+     "Fonction selon les sources antiques"
+    ],
+    "lignes": [
+     [
+      "Les druides",
+      "Théologiens et juges ; le druide est décrit comme ministre du culte, philosophe, enseignant, historien, juriste et conseiller des chefs"
+     ],
+     [
+      "Les vates",
+      "Chargés des rites, de la divination et de la médecine"
+     ],
+     [
+      "Les bardes",
+      "Poètes et orateurs, ils transmettaient les récits et la mémoire des lignages"
+     ]
+    ],
+    "note": "Leur formation aurait duré de longues années, entièrement par apprentissage oral. Les lieux de culte, appelés nemeta, accueillaient des banquets rituels, des dépôts d'offrandes et des exhibitions de trophées guerriers."
+   }
+  },
+  {
+   "titre": "L'Irlande mythique : les Tuatha Dé Danann",
+   "texte": "Les récits irlandais médiévaux mettent en scène un peuple surnaturel, les Tuatha Dé Danann, dont le nom se comprend comme les tribus de la déesse Dana, mère du groupe. Le Lebor Gabála Érenn, ou Livre des conquêtes de l'Irlande, raconte comment ces êtres divins abordent l'île le jour de Beltaine, le premier mai, et y trouvent installés les Fir Bolg. Ils apportent avec eux des objets merveilleux devenus célèbres : la lance de Lug, l'épée de Nuada, la massue et le chaudron du Dagda, ainsi que la pierre de Fal. Le panthéon irlandais est dominé par Lug, dieu polytechnicien maître de tous les arts, qui se tient à part de la répartition ordinaire des fonctions ; le Dagda, associé au druidisme et à la fonction sacerdotale, détenteur d'instruments magiques ; Nuada, lié à la royauté et à la guerre ; Brigit, déesse aux compétences multiples, patronne de la poésie, de la forge et de la médecine ; Ogme, dieu du combat magique et de l'éloquence ; ou encore Manannan Mac Lir, souverain de l'Autre Monde. Le texte du Cath Maighe Tuireadh, la bataille de Mag Tuired, raconte leur affrontement contre les Fomoires. Lorsque arrivent enfin les Milésiens, ancêtres mythiques des Gaëls, les Tuatha Dé Danann ne sont pas anéantis : ils se retirent dans le sidh, monde parallèle où le temps ne s'écoule pas comme ici, et deviennent les Aes sidhe, le peuple des fées."
+  },
+  {
+   "titre": "Les cycles narratifs et l'héritage gallois",
+   "texte": "La littérature irlandaise médiévale a classé ses récits en grands ensembles que les spécialistes appellent des cycles. Le cycle mythologique regroupe les textes consacrés aux races successives qui auraient occupé l'île et aux Tuatha Dé Danann, avec pour pièce maîtresse le Cath Maighe Tuireadh. Le cycle d'Ulster met en scène des héros humains dont les exploits sont sans cesse traversés d'interventions divines. Le cycle fenian, ou ossianique, raconte les aventures de Finn Mac Cumaill et de sa troupe de guerriers chasseurs. Le cycle historique, enfin, relie les rois d'Irlande à un passé légendaire, en s'appuyant notamment sur le Lebor Gabála Érenn et son récit d'invasions successives. Au pays de Galles, l'ensemble connu sous le nom de Mabinogion conserve d'autres traditions, où apparaissent Math, figure souveraine, le magicien Gwydion ou encore Llew Llaw Gyffes, que les comparatistes rapprochent du Lug irlandais. Ces textes ont subi une christianisation plus marquée, et les dieux y sont devenus des rois, des enchanteurs ou des seigneurs merveilleux. Pour lire cet ensemble, les chercheurs ont souvent mobilisé le modèle des trois fonctions indo-européennes proposé par Georges Dumézil, qui distingue le sacerdotal, le guerrier et le productif, et retrouve cette organisation aussi bien dans la société celtique que dans son panthéon. Ce cadre reste un outil d'interprétation discuté, mais il a durablement orienté l'étude comparée des mythologies celtiques.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les quatre cycles de la littérature irlandaise médiévale",
+    "colonnes": [
+     "Cycle",
+     "Ce qu'il regroupe"
+    ],
+    "lignes": [
+     [
+      "Cycle mythologique",
+      "Les races successives qui auraient occupé l'île et les Tuatha Dé Danann ; sa pièce maîtresse est le Cath Maighe Tuireadh"
+     ],
+     [
+      "Cycle d'Ulster",
+      "Des héros humains dont les exploits sont sans cesse traversés d'interventions divines"
+     ],
+     [
+      "Cycle fenian, ou ossianique",
+      "Les aventures de Finn Mac Cumaill et de sa troupe de guerriers chasseurs"
+     ],
+     [
+      "Cycle historique",
+      "Il relie les rois d'Irlande à un passé légendaire, en s'appuyant notamment sur le Lebor Gabála Érenn"
+     ]
+    ],
+    "note": "Au pays de Galles, le Mabinogion conserve d'autres traditions, où apparaissent Math, le magicien Gwydion ou Llew Llaw Gyffes, que les comparatistes rapprochent du Lug irlandais ; ces textes ont subi une christianisation plus marquée et les dieux y sont devenus des rois, des enchanteurs ou des seigneurs merveilleux."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Pourquoi les Celtes de l'Antiquité n'ont-ils presque pas laissé de textes sur leurs dieux ?",
+   "choix": [
+    "Parce que leurs manuscrits ont tous brûlé lors de la conquête romaine",
+    "Parce qu'ils ignoraient totalement l'existence de l'écriture",
+    "Parce que les druides réservaient la transmission du savoir sacré à la mémoire et à l'oral",
+    "Parce que leur religion interdisait de nommer les dieux à voix haute"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "La transmission du savoir religieux celtique était orale. Les druides estimaient que l'écriture ne convenait pas au savoir sacré et exigeaient de leurs élèves un très long apprentissage par cœur. Les Celtes connaissaient pourtant l'écriture et s'en servaient pour des usages pratiques, comptes ou inscriptions. C'est donc un choix religieux et non une ignorance. Résultat : l'essentiel de ce que l'on sait vient de sources extérieures, grecques et romaines, de l'archéologie, puis de manuscrits médiévaux copiés par des moines chrétiens bien après la disparition des druides."
+  },
+  {
+   "q": "Quel auteur antique constitue la source écrite la plus utilisée sur la religion des Gaulois ?",
+   "choix": [
+    "Jules César, dans la Guerre des Gaules",
+    "Hérodote, dans les Histoires",
+    "Homère, dans l'Odyssée",
+    "Saint Augustin, dans la Cité de Dieu"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La Guerre des Gaules de Jules César contient le passage le plus détaillé de l'Antiquité sur les druides et sur les grands dieux gaulois. César y affirme que les Gaulois honoraient six divinités principales et vénéraient surtout celle qu'il nomme Mercure. Les historiens rappellent toutefois que ce témoignage doit être manié avec prudence : César écrit en vainqueur, il utilise des noms romains pour des dieux celtes, et il s'est probablement inspiré du philosophe grec Posidonios d'Apamée. Hérodote et Homère sont bien antérieurs et ne traitent pas de la Gaule, et Augustin est un auteur chrétien du Ve siècle."
+  },
+  {
+   "q": "Que désigne l'expression interpretatio romana appliquée aux dieux celtes ?",
+   "choix": [
+    "La traduction en latin des poèmes des bardes gaulois",
+    "L'interdiction faite aux Gaulois de pratiquer leur culte",
+    "La reconstruction moderne du panthéon celte par les archéologues",
+    "L'habitude des auteurs romains de nommer les divinités étrangères par le nom de leurs équivalents romains supposés"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "L'interpretatio romana consiste à identifier un dieu étranger à un dieu romain jugé comparable, puis à l'appeler par ce nom romain. Ainsi César parle de Mercure, de Jupiter ou de Mars alors qu'il décrit des divinités celtes portant d'autres noms, comme Lugus ou Taranis. Ce procédé facilitait la compréhension pour un lecteur romain, mais il efface les noms indigènes et gomme les différences de fonctions. Les inscriptions retrouvées montrent parfois des noms doubles, associant le nom romain et l'épithète locale, ce qui permet aux chercheurs de rétablir en partie les identités celtiques."
+  },
+  {
+   "q": "Selon les récits irlandais, que deviennent les Tuatha Dé Danann après l'arrivée des Milésiens ?",
+   "choix": [
+    "Ils sont entièrement exterminés lors d'une dernière bataille",
+    "Ils se retirent dans le sidh, l'Autre Monde, et deviennent le peuple des fées",
+    "Ils quittent l'Irlande pour fonder un royaume au pays de Galles",
+    "Ils se convertissent et fondent les premiers monastères de l'île"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Le Lebor Gabála Érenn présente une succession de peuples venus occuper l'Irlande. Les Tuatha Dé Danann, arrivés le jour de Beltaine, y règnent après avoir affronté les Fir Bolg puis les Fomoires lors de la bataille de Mag Tuired. Quand débarquent les Milésiens, ancêtres légendaires des Gaëls, les êtres divins ne disparaissent pas mais se retirent dans le sidh, un monde parallèle où le temps ne s'écoule pas de la même manière. Ils y sont appelés Aes sidhe, le peuple des tertres, à l'origine des fées du folklore irlandais ultérieur."
+  },
+  {
+   "q": "Quelles sont les trois spécialités de la classe sacerdotale celtique décrites par les sources antiques ?",
+   "choix": [
+    "Les rois, les guerriers et les artisans",
+    "Les prêtres, les moines et les ermites",
+    "Les druides, les vates et les bardes",
+    "Les augures, les pontifes et les flamines"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Les auteurs anciens distinguent trois rôles au sein du sacerdoce celtique. Les druides sont les théologiens et les juges, chargés de la doctrine, du droit et de l'enseignement. Les vates exécutent les rites, pratiquent la divination et soignent. Les bardes composent et récitent les poèmes qui conservent la mémoire des lignages et des récits mythiques. Cette organisation ne doit pas être confondue avec la division sociale plus large entre prêtres, guerriers et producteurs, que Georges Dumézil a analysée comme le schéma des trois fonctions indo-européennes. Les augures, pontifes et flamines appartiennent quant à eux à la religion romaine."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Mythologie celtique",
+   "url": "https://fr.wikipedia.org/wiki/Mythologie_celtique"
+  },
+  {
+   "titre": "Religion gauloise",
+   "url": "https://fr.wikipedia.org/wiki/Religion_gauloise"
+  },
+  {
+   "titre": "Druide",
+   "url": "https://fr.wikipedia.org/wiki/Druide"
+  },
+  {
+   "titre": "Tuatha Dé Danann",
+   "url": "https://fr.wikipedia.org/wiki/Tuatha_Dé_Danann"
+  }
+ ]
+}

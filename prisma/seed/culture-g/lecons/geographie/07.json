@@ -1,0 +1,150 @@
+{
+ "titre": "Les risques naturels : séismes, volcans et cyclones",
+ "sections": [
+  {
+   "titre": "Aléa, vulnérabilité et risque",
+   "texte": "Les géographes distinguent trois notions souvent confondues. L'aléa est le phénomène naturel lui-même, par exemple une secousse sismique, une éruption ou une tempête tropicale. La vulnérabilité mesure la fragilité des populations, des bâtiments et des activités face à ce phénomène. Le risque naît de la rencontre entre les deux : un séisme puissant dans un désert inhabité ne constitue pas un risque, alors qu'un séisme plus modeste sous une grande ville mal construite peut faire des dizaines de milliers de victimes. Quand un aléa se réalise et provoque des dégâts, on parle de catastrophe. Cette distinction explique pourquoi, à intensité comparable, les conséquences varient énormément selon les pays. Le séisme d'Haïti en janvier 2010, de magnitude 7, a causé plus de 200 000 morts dans un pays pauvre aux constructions fragiles, tandis que des séismes de magnitude équivalente au Japon ou en Californie font parfois quelques victimes seulement. On classe habituellement les risques en risques naturels, d'origine géologique ou climatique, et en risques technologiques, liés aux activités humaines comme les accidents industriels. Certaines catastrophes combinent les deux, comme en mars 2011 au Japon, où un séisme de magnitude 9 et le tsunami qui a suivi ont entraîné l'accident nucléaire de Fukushima, montrant qu'un aléa naturel peut déclencher une catastrophe technologique en chaîne.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Trois notions à ne pas confondre",
+    "colonnes": [
+     "Notion",
+     "Ce qu'elle désigne",
+     "Exemple"
+    ],
+    "lignes": [
+     [
+      "Aléa",
+      "Le phénomène naturel lui-même, indépendamment des hommes",
+      "Une secousse sismique, une éruption, une tempête tropicale"
+     ],
+     [
+      "Vulnérabilité",
+      "La fragilité des populations, des bâtiments et des activités exposés",
+      "Des maisons non parasismiques, une ville dense bâtie en zone inondable"
+     ],
+     [
+      "Risque",
+      "La rencontre de l'aléa et de la vulnérabilité",
+      "Un séisme dans un désert vide n'est pas un risque ; sous une ville fragile, si"
+     ],
+     [
+      "Catastrophe",
+      "L'aléa réalisé, avec ses dégâts",
+      "Haïti 2010 : magnitude 7 et plus de 200 000 morts"
+     ]
+    ],
+    "note": "À magnitude comparable, un séisme fait parfois quelques victimes au Japon ou en Californie, et des dizaines de milliers ailleurs : c'est la vulnérabilité qui fait la différence."
+   }
+  },
+  {
+   "titre": "Les séismes et la tectonique des plaques",
+   "texte": "La surface de la Terre est découpée en une douzaine de grandes plaques rigides qui se déplacent de quelques centimètres par an sur un manteau visqueux. Les séismes se produisent presque tous à leurs limites, là où les plaques s'écartent, se frottent ou plongent l'une sous l'autre. Le point de rupture souterrain s'appelle le foyer ou hypocentre, et le point situé à la verticale en surface l'épicentre. On mesure l'énergie libérée par la magnitude, exprimée sur une échelle logarithmique : un séisme de magnitude 7 libère environ trente fois plus d'énergie qu'un séisme de magnitude 6. On décrit aussi les effets ressentis et les dégâts par l'intensité, notée en degrés sur l'échelle de Mercalli. Les régions les plus exposées forment de longues ceintures : le pourtour du Pacifique, la zone qui va de la Méditerranée à l'Himalaya, et les dorsales océaniques. Le séisme le plus puissant jamais enregistré a eu lieu au Chili en 1960, avec une magnitude de 9,5. Lorsqu'un séisme se produit sous la mer, il peut déplacer brutalement une énorme masse d'eau et engendrer un tsunami, dont les vagues traversent l'océan à la vitesse d'un avion et se dressent en arrivant près des côtes, comme en décembre 2004 dans l'océan Indien.",
+   "visuel": {
+    "type": "image",
+    "image": "geo-plaques-tectoniques",
+    "legende": "Les limites des grandes plaques de la lithosphère et le sens de leur déplacement. Presque tous les séismes se produisent le long de ces lignes : pourtour du Pacifique, ceinture Méditerranée-Himalaya, dorsales océaniques.",
+    "alt": "Planisphère montrant le découpage de la surface terrestre en une douzaine de grandes plaques tectoniques, leurs limites tracées en rouge et des flèches indiquant le sens de leur déplacement."
+   }
+  },
+  {
+   "titre": "Les volcans",
+   "texte": "Un volcan est un point de la surface terrestre où du magma venu des profondeurs parvient à s'échapper. Les géologues distinguent deux grands types d'éruptions. Les éruptions effusives émettent des laves fluides et pauvres en gaz qui s'écoulent en coulées : c'est le cas du Piton de la Fournaise à La Réunion, de l'Etna en Sicile ou des volcans d'Hawaï, qui construisent de larges cônes en pente douce appelés volcans boucliers. Les éruptions explosives, au contraire, concernent des magmas visqueux et riches en gaz qui bouchent la cheminée jusqu'à la faire éclater : elles projettent des cendres, des blocs et surtout des nuées ardentes, mélanges de gaz brûlants et de débris dévalant les pentes à plus de 100 kilomètres par heure. La montagne Pelée, en Martinique, a détruit ainsi la ville de Saint-Pierre le 8 mai 1902, tuant près de 30 000 personnes. On dénombre environ 1500 volcans actifs sur les continents, dont les trois quarts se situent sur la ceinture de feu du Pacifique. Certaines éruptions majeures ont eu des effets planétaires, comme celle du Tambora en Indonésie en 1815, suivie en 1816 d'une année sans été dans l'hémisphère nord. Aujourd'hui, la surveillance par sismomètres et satellites permet souvent d'anticiper les éruptions et d'évacuer les populations.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Deux façons d'entrer en éruption",
+    "colonnes": [
+     {
+      "titre": "Éruption effusive",
+      "points": [
+       "Lave fluide et pauvre en gaz, qui s'écoule en coulées.",
+       "Construit de larges cônes en pente douce, les volcans boucliers.",
+       "Piton de la Fournaise, Etna, volcans d'Hawaï.",
+       "Dangereuse pour les biens plus que pour les vies : on a le temps de fuir une coulée."
+      ]
+     },
+     {
+      "titre": "Éruption explosive",
+      "points": [
+       "Magma visqueux et riche en gaz, qui bouche la cheminée jusqu'à la faire éclater.",
+       "Projette cendres, blocs et nuées ardentes dévalant les pentes à plus de 100 km/h.",
+       "Montagne Pelée, 8 mai 1902 : la ville de Saint-Pierre détruite, près de 30 000 morts.",
+       "Tambora, 1815 : suivi en 1816 d'une année sans été dans l'hémisphère nord."
+      ]
+     }
+    ],
+    "note": "Environ 1 500 volcans actifs sur les continents, dont les trois quarts sur la ceinture de feu du Pacifique."
+   }
+  },
+  {
+   "titre": "Cyclones, tempêtes et inondations",
+   "texte": "Les cyclones tropicaux, appelés ouragans dans l'Atlantique et typhons dans le Pacifique nord-ouest, naissent au-dessus des mers chaudes dont la température dépasse 26 degrés sur une épaisseur suffisante. L'air humide s'élève en tourbillonnant autour d'une zone calme, l'œil du cyclone, tandis que le mur de nuages qui l'entoure concentre les vents les plus violents, parfois plus de 250 kilomètres par heure. Ces vents ne sont pas seuls en cause : les pluies diluviennes provoquent des inondations et des glissements de terrain, et la surélévation du niveau de la mer, appelée onde de tempête, submerge les côtes basses. Le cyclone Bhola, au Bangladesh en 1970, a fait plusieurs centaines de milliers de victimes, et l'ouragan Katrina a inondé La Nouvelle-Orléans en août 2005. Les cyclones se forment entre 5 et 20 degrés de latitude environ, jamais sur l'équateur lui-même, et leur intensité se mesure en cinq catégories sur l'échelle de Saffir-Simpson. Les inondations, elles, constituent le risque naturel le plus fréquent au monde : crues lentes des grands fleuves, crues éclair dans les vallées méditerranéennes, ou submersion marine. Elles sont aggravées par l'imperméabilisation des sols urbains, qui empêche l'eau de s'infiltrer, et par la construction dans les lits majeurs des rivières, ces espaces que le cours d'eau n'occupe qu'en période de crue."
+  },
+  {
+   "titre": "Prévoir, prévenir, protéger",
+   "texte": "Face aux risques, les sociétés disposent de trois grandes familles de réponses. La prévision consiste à surveiller les phénomènes pour alerter à temps : réseaux de sismomètres, balises de détection des tsunamis installées dans le Pacifique depuis les années 1960 puis dans l'océan Indien après 2004, satellites météorologiques qui suivent les cyclones plusieurs jours à l'avance. Les séismes restent cependant imprévisibles à court terme, contrairement aux éruptions et aux cyclones. La prévention consiste à réduire la vulnérabilité : normes parasismiques imposant des structures souples, plans d'occupation des sols interdisant de construire dans les zones inondables, digues et barrages, éducation de la population par des exercices réguliers. Le Japon en offre l'exemple le plus abouti, avec des immeubles conçus pour absorber les secousses et un système d'alerte qui coupe automatiquement les trains à grande vitesse. La protection intervient enfin pendant et après la catastrophe, avec les secours, l'aide internationale et la reconstruction. Les données montrent que le nombre de catastrophes déclarées a augmenté, en partie parce que la population mondiale s'est concentrée dans des zones exposées comme les littoraux et les grandes métropoles, mais que la mortalité par catastrophe a globalement baissé grâce aux progrès de l'alerte et de la prévention."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Comment appelle-t-on le point situé en surface, à la verticale du foyer d'un séisme ?",
+   "choix": [
+    "L'épicentre",
+    "L'hypocentre",
+    "La faille",
+    "La dorsale"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le foyer, ou hypocentre, est le lieu souterrain où se produit la rupture des roches, parfois à plusieurs dizaines de kilomètres de profondeur. L'épicentre est sa projection verticale à la surface, et c'est en général là que les dégâts sont les plus importants, car les ondes y arrivent en premier et avec le maximum d'énergie. Plus le foyer est profond, plus les effets se répartissent sur une large zone mais avec une intensité moindre. La magnitude mesure l'énergie totale libérée au foyer et ne dépend pas du lieu d'observation, tandis que l'intensité, notée sur l'échelle de Mercalli, décrit les effets ressentis et varie donc d'un point à un autre."
+  },
+  {
+   "q": "Quelle température minimale de la surface de la mer est nécessaire à la formation d'un cyclone tropical ?",
+   "choix": [
+    "Environ 10 degrés",
+    "Environ 18 degrés",
+    "Environ 26 degrés",
+    "Environ 40 degrés"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Un cyclone tropical se nourrit de la chaleur et de l'humidité fournies par l'océan, et il faut pour cela une eau d'au moins 26 à 27 degrés sur une épaisseur d'environ 50 mètres. C'est pourquoi ces phénomènes se forment uniquement dans les zones intertropicales et pendant la saison chaude, et pourquoi ils s'affaiblissent rapidement dès qu'ils touchent terre ou atteignent des eaux plus froides. Il faut aussi une force de Coriolis suffisante pour amorcer la rotation, ce qui explique qu'aucun cyclone ne se forme sur l'équateur même. Le réchauffement des océans fait craindre aux climatologues une proportion croissante de cyclones de forte intensité, mesurée en cinq catégories sur l'échelle de Saffir-Simpson."
+  },
+  {
+   "q": "Quel volcan a détruit la ville de Saint-Pierre en Martinique le 8 mai 1902 ?",
+   "choix": [
+    "La montagne Pelée",
+    "Le Vésuve",
+    "Le Piton de la Fournaise",
+    "Le Krakatoa"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "La montagne Pelée, dans le nord de la Martinique, a produit ce jour-là une nuée ardente qui a dévalé ses pentes à très grande vitesse et détruit Saint-Pierre en quelques minutes, faisant près de 30 000 victimes. Cette catastrophe a donné son nom au type d'éruption péléen, caractérisé par un magma visqueux qui forme un dôme puis explose latéralement. Le Piton de la Fournaise, à La Réunion, illustre au contraire le type effusif, avec des coulées de lave fluide et des éruptions fréquentes mais rarement meurtrières. Le Vésuve avait enseveli Pompéi en 79 après Jésus-Christ, et le Krakatoa, en Indonésie, avait explosé en 1883 en provoquant un tsunami dévastateur."
+  },
+  {
+   "q": "Un séisme de magnitude 7 libère environ combien de fois plus d'énergie qu'un séisme de magnitude 6 ?",
+   "choix": [
+    "2 fois plus",
+    "10 fois plus",
+    "1000 fois plus",
+    "30 fois plus"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "L'échelle de magnitude est logarithmique : chaque degré supplémentaire correspond à une amplitude des ondes dix fois plus grande, mais à une énergie libérée environ trente fois supérieure. Un séisme de magnitude 8 dégage donc à peu près mille fois plus d'énergie qu'un séisme de magnitude 6. Cela explique pourquoi les très grands séismes sont incomparablement plus destructeurs que les secousses courantes, alors que leurs chiffres semblent proches. Le plus puissant jamais mesuré, au Chili en 1960, atteignait 9,5. Il ne faut pas confondre cette magnitude, qui caractérise le séisme lui-même, avec l'intensité, qui décrit les effets observés en un lieu donné et dépend de la distance, de la nature du sol et de la qualité des constructions."
+  },
+  {
+   "q": "Que désigne exactement la vulnérabilité en géographie des risques ?",
+   "choix": [
+    "La puissance du phénomène naturel",
+    "La fragilité des populations et des biens exposés",
+    "Le nombre de victimes constatées",
+    "La fréquence des catastrophes"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "La vulnérabilité mesure à quel point une société, ses habitants, ses bâtiments et ses activités peuvent être endommagés par un phénomène naturel. Elle dépend de la densité de population, de la qualité des constructions, de l'existence de systèmes d'alerte et des moyens de secours disponibles. Le phénomène naturel lui-même s'appelle l'aléa, et le risque résulte du croisement de l'aléa et de la vulnérabilité. Cette distinction permet de comprendre pourquoi le séisme d'Haïti de 2010, de magnitude 7, a fait plus de 200 000 morts alors que des secousses comparables font très peu de victimes au Japon ou en Californie. Réduire le risque passe donc autant par la diminution de la vulnérabilité, grâce aux normes de construction et à l'éducation, que par la surveillance de l'aléa."
+  }
+ ]
+}

@@ -1,0 +1,173 @@
+{
+ "titre": "L'Inde, des Maurya au Raj britannique (321 av. J.-C. - 1947)",
+ "sections": [
+  {
+   "titre": "L'Empire maurya et le roi Ashoka",
+   "texte": "Le sous-continent indien connaît sa première grande unification politique à la fin du quatrième siècle avant Jésus-Christ. Vers 321 avant Jésus-Christ, Chandragupta Maurya renverse la dynastie des Nanda et fonde l'Empire maurya, dont la capitale est Pataliputra, dans la vallée du Gange. Profitant du retrait des troupes laissées par Alexandre le Grand, il annexe les régions de l'Indus. Son fils Bindusara, qui règne approximativement de 297 à 273 avant Jésus-Christ, poursuit l'expansion, mais c'est sous Ashoka, souverain de 273 à 232 avant Jésus-Christ environ, que l'empire atteint son apogée et couvre la plus grande partie du sous-continent. L'administration repose sur un réseau de vice-rois, de conseillers et d'inspecteurs chargés de surveiller les provinces. Le règne d'Ashoka est surtout resté célèbre pour un basculement moral. Vers 260 avant Jésus-Christ, la conquête du Kalinga, sur la côte orientale, s'accompagne d'un massacre dont son propre treizième édit donne la mesure : cent cinquante mille personnes déportées et cent mille tuées. Bouleversé, le roi se rapproche du bouddhisme, renonce aux guerres de conquête et fait graver sur des rochers et des piliers de pierre des édits proclamant une doctrine de non-violence, de tolérance religieuse et de devoirs envers les sujets. Après lui, l'empire se délite : son dernier souverain, Brihadratha, est assassiné vers 185 avant Jésus-Christ."
+  },
+  {
+   "titre": "L'âge classique des Gupta",
+   "texte": "Après plusieurs siècles de morcellement, l'Inde du Nord est de nouveau réunie sous la dynastie Gupta, qui domine de la fin du troisième siècle jusqu'au milieu du sixième siècle. Chandragupta premier, qui règne approximativement de 319 à 335, en est le fondateur et inaugure une ère nouvelle du calendrier. Son successeur Samudragupta, de 335 à 375, mène de vastes campagnes militaires, puis Chandragupta deuxième, de 375 à 415, porte l'empire d'une côte à l'autre. Kumaragupta premier, de 415 à 455, maintient la prospérité, tandis que Skandagupta, de 455 à 467, doit affronter les premières invasions des Huns. Les historiens désignent souvent la période comprise entre 400 et 500 environ comme l'âge classique de la civilisation indienne. Elle est marquée par des réussites intellectuelles considérables : les mathématiciens indiens développent la numération décimale de position et l'usage du zéro comme chiffre, système qui gagnera plus tard le monde arabe puis l'Europe ; l'astronome et mathématicien Aryabhata calcule avec une grande précision la durée de l'année. La littérature en sanskrit, la sculpture et la peinture connaissent un épanouissement remarquable. Sur le plan religieux, l'hindouisme se renforce, avec le développement d'une piété tournée vers les grands dieux plutôt que vers les anciens rites védiques, tandis que le bouddhisme reste vivace. À partir de 500 environ, les invasions des Huns blancs et les divisions internes emportent l'empire, qui disparaît vers 550."
+  },
+  {
+   "titre": "L'islam en Inde et l'Empire moghol",
+   "texte": "À partir du treizième siècle, des dynasties musulmanes venues d'Asie centrale s'installent durablement dans le nord de l'Inde et gouvernent depuis Delhi. Ce pouvoir est renversé en 1526 par Babur, prince descendant à la fois de Tamerlan et de Gengis Khan, qui écrase le sultan Ibrahim Lodi à la première bataille de Panipat et fonde l'Empire moghol. Six souverains, appelés les Grands Moghols, en assurent la grandeur : Babur de 1526 à 1530, Humayun de 1530 à 1540 puis de 1555 à 1556, Akbar de 1556 à 1605, Jahangir de 1605 à 1627, Shah Jahan de 1627 à 1658 et Aurangzeb de 1658 à 1707. Akbar donne à l'empire son extension maximale et une politique religieuse originale : minorité musulmane gouvernant une population majoritairement hindoue, il supprime la djizîa, impôt pesant sur les non-musulmans, associe des hindous au gouvernement et encourage un syncrétisme religieux. Shah Jahan fait édifier à Agra le Taj Mahal, mausolée de son épouse, chef-d'œuvre de l'architecture indo-islamique. Aurangzeb rompt avec cette tolérance et rétablit la djizîa en 1679, ce qui nourrit de vives résistances, notamment celle des Marathes. Après sa mort en 1707, l'empire se disloque, affaibli par les guerres intérieures, par des invasions venues de Perse et par la poussée européenne.",
+   "visuels": [
+    {
+     "type": "tableau",
+     "titre": "Les six Grands Moghols",
+     "colonnes": [
+      "Souverain",
+      "Règne",
+      "Ce qu'on en retient"
+     ],
+     "lignes": [
+      [
+       "Babur",
+       "1526-1530",
+       "Vainqueur d'Ibrahim Lodi à Panipat, il fonde l'Empire moghol"
+      ],
+      [
+       "Humayun",
+       "1530-1540, puis 1555-1556",
+       "Chassé du trône, il le reconquiert à la fin de sa vie"
+      ],
+      [
+       "Akbar",
+       "1556-1605",
+       "Extension maximale ; il supprime la djizîa et associe des hindous au gouvernement"
+      ],
+      [
+       "Jahangir",
+       "1605-1627",
+       "La cour moghole au sommet de son raffinement"
+      ],
+      [
+       "Shah Jahan",
+       "1627-1658",
+       "Il fait édifier le Taj Mahal à Agra"
+      ],
+      [
+       "Aurangzeb",
+       "1658-1707",
+       "Il rétablit la djizîa en 1679 ; après sa mort, l'empire se disloque"
+      ]
+     ],
+     "note": "Une minorité musulmane gouverne une population majoritairement hindoue : la politique religieuse est donc la grande question de l'empire."
+    },
+    {
+     "type": "image",
+     "image": "hm-taj-mahal",
+     "legende": "Le Taj Mahal d'Agra, mausolée que Shah Jahan fait bâtir pour son épouse : dôme de marbre blanc, quatre minarets et jardin d'eau, chef-d'œuvre de l'architecture indo-islamique.",
+     "alt": "Mausolée de marbre blanc à grand dôme central, encadré de quatre minarets, se reflétant dans un long bassin bordé de cyprès."
+    }
+   ]
+  },
+  {
+   "titre": "De la Compagnie des Indes au Raj britannique",
+   "texte": "Le déclin moghol laisse le champ libre aux compagnies de commerce européennes installées sur les côtes depuis le seizième siècle. Au milieu du dix-huitième siècle, la Compagnie anglaise des Indes orientales élimine ses concurrents et se transforme progressivement en puissance territoriale : elle lève des impôts, entretient une armée composée en grande partie de soldats indiens, les cipayes, et administre des provinces entières au nom d'une société privée. En 1857 éclate la révolte des cipayes, vaste soulèvement militaire et populaire réprimé avec une extrême dureté. Cette crise entraîne une réorganisation complète : en 1858, la Couronne britannique retire à la Compagnie ses pouvoirs et administre directement le pays. Commence alors le Raj britannique, qui dure de 1858 à 1947. En 1876, la reine Victoria reçoit le titre d'impératrice des Indes, et le pays devient le joyau de la Couronne : en 1941, il compte 388 millions d'habitants, soit environ soixante-dix pour cent de la population de tout l'Empire britannique. Le territoire est partagé entre des provinces administrées directement et des États princiers laissés à des souverains locaux sous contrôle britannique. Les Britanniques construisent un immense réseau ferroviaire, qui passe de 1 349 kilomètres en 1860 à 25 495 kilomètres en 1880, mais qui sert d'abord à l'exportation des matières premières, tandis que des famines meurtrières frappent plusieurs régions.",
+   "visuel": {
+    "type": "barres",
+    "titre": "Le réseau ferroviaire construit par les Britanniques",
+    "donnees": [
+     {
+      "label": "1860",
+      "valeur": 1349,
+      "affichage": "1 349 km"
+     },
+     {
+      "label": "1880",
+      "valeur": 25495,
+      "affichage": "25 495 km",
+      "focus": true
+     }
+    ],
+    "note": "Un réseau immense, mais tourné d'abord vers l'exportation des matières premières ; des famines meurtrières frappent plusieurs régions durant la même période."
+   }
+  },
+  {
+   "titre": "Le mouvement national et l'indépendance",
+   "texte": "La domination britannique fait naître, en particulier dans les milieux instruits formés aux idées libérales européennes, une revendication politique nouvelle. En 1885 est fondé le Congrès national indien, d'abord simple cercle réclamant une meilleure représentation des Indiens, qui devient peu à peu le principal mouvement d'émancipation. Le tournant décisif vient avec le retour en Inde, en 1915, de Mohandas Gandhi, avocat formé à Londres et forgé par ses combats contre la discrimination en Afrique du Sud. Il donne au mouvement une méthode originale, la non-violence associée à la désobéissance civile : boycott des produits et des institutions britanniques, refus de payer certains impôts, marches de masse, grèves. Cette stratégie transforme le nationalisme en mouvement populaire capable de mobiliser des millions de personnes. Les concessions britanniques restent limitées, et la répression parfois brutale. La Seconde Guerre mondiale affaiblit décisivement la puissance coloniale, engagée à fond dans le conflit et contestée en Inde même. La question religieuse devient centrale : la Ligue musulmane réclame un État séparé pour les musulmans. En 1947, le Parlement britannique vote la loi sur l'indépendance de l'Inde, qui aboutit à la partition du sous-continent entre l'Inde et le Pakistan. Cette séparation, accompagnée de déplacements de population et de massacres, laisse un héritage de tensions durables."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel événement pousse le roi Ashoka à se rapprocher du bouddhisme et à renoncer aux conquêtes ?",
+   "choix": [
+    "La perte de Pataliputra",
+    "La conquête sanglante du Kalinga",
+    "L'invasion d'Alexandre le Grand",
+    "La révolte de son fils"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "Vers 260 avant Jésus-Christ, Ashoka conquiert le royaume du Kalinga, sur la côte orientale de l'Inde, au prix d'un massacre dont son propre treizième édit donne la mesure : cent cinquante mille personnes déportées et cent mille tuées. Bouleversé, le souverain se rapproche du bouddhisme, renonce à la guerre de conquête et fait graver sur des rochers et des piliers des édits prêchant la non-violence et la tolérance. Ashoka règne approximativement de 273 à 232 avant Jésus-Christ sur l'Empire maurya, fondé vers 321 par Chandragupta Maurya et administré depuis Pataliputra. L'empire décline après lui et son dernier souverain est assassiné vers 185 avant Jésus-Christ."
+  },
+  {
+   "q": "Quelle invention mathématique, diffusée ensuite vers le monde arabe puis l'Europe, se développe dans l'Inde des Gupta ?",
+   "choix": [
+    "La géométrie euclidienne",
+    "Les chiffres romains",
+    "Le calcul de la circonférence",
+    "La numération de position avec le zéro"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "L'Empire gupta, qui domine l'Inde du Nord de la fin du troisième siècle au milieu du sixième, correspond à ce que les historiens appellent l'âge classique de la civilisation indienne, notamment entre 400 et 500. Les mathématiciens indiens y perfectionnent la numération décimale de position et l'usage du zéro comme chiffre à part entière, système qui gagnera le monde arabe puis l'Europe où on l'appellera chiffres arabes. L'astronome Aryabhata calcule alors avec précision la durée de l'année. La période voit aussi s'épanouir la littérature sanskrite, la sculpture et la peinture. L'empire s'effondre vers 550 sous les coups des Huns blancs et de ses divisions internes."
+  },
+  {
+   "q": "En quelle année Babur fonde-t-il l'Empire moghol après sa victoire à Panipat ?",
+   "choix": [
+    "En 1526",
+    "En 1556",
+    "En 1658",
+    "En 1707"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "En 1526, Babur, descendant de Tamerlan et de Gengis Khan, écrase le sultan de Delhi Ibrahim Lodi à la première bataille de Panipat et fonde l'Empire moghol. La dynastie compte six grands souverains : Babur de 1526 à 1530, Humayun, Akbar de 1556 à 1605, Jahangir, Shah Jahan de 1627 à 1658 et Aurangzeb de 1658 à 1707. Akbar donne à l'empire son extension maximale et supprime la djizîa, l'impôt sur les non-musulmans, tandis qu'Aurangzeb la rétablit en 1679, provoquant de fortes résistances. Après la mort de ce dernier en 1707, l'empire se disloque et laisse le champ libre aux Européens."
+  },
+  {
+   "q": "Quelle conséquence la révolte des cipayes de 1857 a-t-elle sur l'administration de l'Inde ?",
+   "choix": [
+    "L'Inde obtient une autonomie interne",
+    "L'Inde passe sous administration directe de la Couronne britannique",
+    "La Compagnie des Indes voit ses pouvoirs renforcés",
+    "Les Français reprennent pied dans le pays"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "La révolte des cipayes, en 1857, est un vaste soulèvement de soldats indiens au service de la Compagnie anglaise des Indes orientales, rejoint par des populations civiles et réprimé avec une extrême dureté. Elle démontre l'incapacité d'une société privée à gouverner un sous-continent : en 1858, la Couronne britannique lui retire ses pouvoirs et administre directement le pays. Commence alors le Raj britannique, qui dure de 1858 à 1947 ; la reine Victoria reçoit le titre d'impératrice des Indes en 1876. Le territoire est partagé entre provinces administrées directement et États princiers sous contrôle. En 1941, le Raj compte 388 millions d'habitants."
+  },
+  {
+   "q": "Quelle méthode Gandhi impose-t-il au mouvement national indien après son retour au pays en 1915 ?",
+   "choix": [
+    "La guérilla rurale",
+    "L'action parlementaire exclusive",
+    "La non-violence et la désobéissance civile",
+    "L'alliance militaire avec le Japon"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "Revenu en Inde en 1915 après ses combats contre la discrimination en Afrique du Sud, Mohandas Gandhi donne au Congrès national indien, fondé en 1885, une méthode originale fondée sur la non-violence et la désobéissance civile : boycott des produits et institutions britanniques, refus de certains impôts, marches et grèves de masse. Cette stratégie transforme un mouvement de notables instruits en mobilisation populaire de plusieurs millions de personnes. La Seconde Guerre mondiale affaiblit décisivement la puissance coloniale. En 1947, la loi sur l'indépendance de l'Inde aboutit à la partition du sous-continent entre l'Inde et le Pakistan, accompagnée de déplacements de population et de massacres."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Empire Maurya",
+   "url": "https://fr.wikipedia.org/wiki/Empire_Maurya"
+  },
+  {
+   "titre": "Empire Gupta",
+   "url": "https://fr.wikipedia.org/wiki/Empire_Gupta"
+  },
+  {
+   "titre": "Empire moghol",
+   "url": "https://fr.wikipedia.org/wiki/Empire_moghol"
+  },
+  {
+   "titre": "Raj britannique",
+   "url": "https://fr.wikipedia.org/wiki/Raj_britannique"
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "titre": "Le potager, les légumes et les terroirs",
+ "sections": [
+  {
+   "titre": "Ce que le mot légume veut dire",
+   "texte": "Le mot légume n'a pas le même sens pour le cuisinier et pour le botaniste. En cuisine, il désigne une plante potagère, ou la partie que l'on en mange, préparée le plus souvent en salé ; en botanique, le légume est tout autre chose, c'est le nom savant de la gousse, le fruit sec des plantes de la famille des pois et des haricots. Cette divergence explique un malentendu classique : la tomate, l'aubergine, le poivron, le concombre ou la courgette sont bel et bien des fruits, puisqu'ils naissent de l'ovaire d'une fleur et contiennent les graines, mais la cuisine les traite en légumes parce qu'on les sert salés. La question a même occupé une cour suprême : en 1893, aux États-Unis, un arrêt a classé la tomate parmi les légumes pour lui appliquer les taxes douanières correspondantes. L'usage culinaire préfère un classement par organe consommé : racines et tubercules comme la carotte, le navet ou la pomme de terre, feuilles comme la laitue et l'épinard, tiges comme l'asperge et le céleri, bulbes comme l'oignon et l'ail, fleurs comme le chou-fleur et l'artichaut, fruits comme la tomate, graines enfin comme le petit pois et la fève. La pomme de terre reste, de loin, le légume le plus cultivé au monde, suivie par la tomate.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Classer les légumes par ce qu'on en mange",
+    "colonnes": [
+     "Partie consommée",
+     "Exemples"
+    ],
+    "lignes": [
+     [
+      "Racine ou tubercule",
+      "Carotte, navet, betterave, pomme de terre"
+     ],
+     [
+      "Feuille",
+      "Laitue, épinard, chou, blette"
+     ],
+     [
+      "Tige",
+      "Asperge, céleri, poireau, fenouil"
+     ],
+     [
+      "Bulbe",
+      "Oignon, ail, échalote"
+     ],
+     [
+      "Fleur ou bouton",
+      "Chou-fleur, brocoli, artichaut"
+     ],
+     [
+      "Fruit ou graine",
+      "Tomate, courgette, petit pois, haricot"
+     ]
+    ],
+    "note": "Les cinq derniers exemples de la dernière ligne sont, pour le botaniste, des fruits ou des graines."
+   }
+  },
+  {
+   "titre": "Le Potager du roi, laboratoire de Versailles",
+   "texte": "Nourrir la cour de Louis XIV en légumes frais toute l'année relevait de la prouesse. Le roi confie la tâche à Jean-Baptiste de La Quintinie, magistrat devenu agronome, qui aménage entre 1678 et 1683 un jardin de neuf hectares aux portes du château de Versailles. Le terrain, marécageux, est drainé, remblayé et enrichi du fumier des écuries royales. La Quintinie y organise un damier de carrés clos par des murs qui emmagasinent la chaleur du jour et la restituent la nuit, créant autant de microclimats. Contre ces murs, il conduit les arbres fruitiers en espaliers, invente des tailles qui font entrer la lumière et publie ses méthodes dans une Instruction pour les jardins fruitiers et potagers parue après sa mort, en 1690. Il maîtrise surtout les cultures forcées : cloches de verre, châssis, couches de fumier en fermentation, qui donnent au roi des asperges en décembre, des fraises dès la fin mars et des figues en juin. Près de quatre cents variétés de légumes et de nombreux fruits y sont cultivés, une diversité considérable pour le XVIIe siècle. Le jardin n'a jamais cessé de produire : il abrite depuis 1995 l'École nationale supérieure de paysage et livre encore chaque année plusieurs dizaines de tonnes de fruits et de légumes.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "Le jardin de La Quintinie",
+    "items": [
+     {
+      "valeur": "1683",
+      "label": "achèvement du Potager du roi"
+     },
+     {
+      "valeur": "9 ha",
+      "label": "surface du jardin clos"
+     },
+     {
+      "valeur": "400",
+      "label": "variétés de légumes cultivées"
+     },
+     {
+      "valeur": "mars",
+      "label": "les premières fraises servies au roi"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Des légumes venus d'ailleurs",
+   "texte": "Le potager français doit presque tout à des plantes importées. La fève, le chou, le poireau, le navet et la carotte viennent du fonds méditerranéen et médiéval, mais l'essentiel du reste est arrivé après 1492. Le haricot, la courge, le poivron, la tomate et la pomme de terre sont américains ; la courgette elle-même n'apparaît qu'au XIXe siècle en Italie, par sélection de courges d'origine américaine. Ces plantes ont mis des siècles à s'imposer. La tomate, longtemps cultivée comme curiosité ornementale et soupçonnée d'être vénéneuse en raison de sa parenté avec la belladone, ne se répand en cuisine française qu'à la fin du XVIIIe siècle. La pomme de terre a connu un destin comparable : accusée de transmettre des maladies, elle est réservée au bétail jusqu'à ce qu'Antoine Parmentier, qui l'avait découverte comme prisonnier en Prusse pendant la guerre de Sept Ans, obtienne en 1772 que la faculté de médecine de Paris la déclare propre à la consommation humaine. Le 24 août 1786, il offre à Louis XVI un bouquet de fleurs de pomme de terre, geste de communication qui vaut caution royale. L'histoire des gardes postés autour de son champ des Sablons pour susciter la convoitise des voleurs relève, elle, largement de la légende."
+  },
+  {
+   "titre": "Terroirs, saisons et signes de qualité",
+   "texte": "Un légume n'est pas seulement une espèce : c'est une variété, un sol et un climat. Les signes officiels de qualité l'ont reconnu tardivement, car les appellations d'origine avaient d'abord été conçues pour le vin et le fromage. La lentille verte du Puy a été le premier légume français à obtenir une appellation d'origine contrôlée, le 7 août 1996, avant de devenir appellation d'origine protégée européenne en 2008 ; un jugement de 1935 avait déjà protégé son nom contre des lentilles importées vendues sous cette étiquette. Sur les plateaux du Velay, entre six cents et mille deux cents mètres d'altitude, des vents secs stressent la plante et donnent des graines à peau fine qui cuisent vite sans se défaire. D'autres productions ont suivi, du piment d'Espelette à l'oignon doux des Cévennes, en passant par le muscat du Ventoux et la noix de Grenoble, premier fruit reconnu par une appellation dès 1938. À ces signes s'ajoutent le label rouge, l'indication géographique protégée et l'agriculture biologique, dont le cahier des charges européen interdit les pesticides et engrais de synthèse. Reste la saison, repère plus simple : une tomate de pleine terre en août, un poireau en hiver, une asperge en avril demandent moins d'énergie et se défendent mieux en goût qu'un fruit hors saison venu de loin."
+  },
+  {
+   "titre": "Des halles aux circuits courts",
+   "texte": "Pendant huit siècles, Paris s'est nourri par ses Halles, marché créé au XIIe siècle et reconstruit sous Napoléon III par Victor Baltard en pavillons de fonte et de verre ; Émile Zola en fit le décor du Ventre de Paris, publié en 1873. L'engorgement du centre de la capitale conduit à leur transfert en 1969 à Rungis, dans le Val-de-Marne, où s'étend aujourd'hui le plus grand marché de produits frais du monde ; les pavillons parisiens sont démolis en 1971. Cette concentration a raccourci les délais mais allongé les distances. En réaction, des formes de vente directe se sont développées : marchés de plein vent, vente à la ferme, magasins de producteurs, paniers hebdomadaires. La première association pour le maintien d'une agriculture paysanne, ou AMAP, naît en 2001 dans les Bouches-du-Rhône, inspirée des teikei japonais et des community supported agriculture nord-américaines : le consommateur y achète à l'avance une part de la récolte et partage donc le risque du producteur. Un mouvement parallèle sauve des variétés anciennes que la standardisation avait écartées, panais, rutabaga, topinambour, tomates noires ou cornues, souvent conservées par des associations et des conservatoires. Ces circuits restent minoritaires en volume, mais ils ont modifié le regard des consommateurs sur l'origine de ce qu'ils mangent."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Qui a créé le Potager du roi à Versailles pour Louis XIV ?",
+   "choix": [
+    "André Le Nôtre",
+    "Olivier de Serres",
+    "Bernard Palissy",
+    "Jean-Baptiste de La Quintinie"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Magistrat devenu agronome, Jean-Baptiste de La Quintinie aménage entre 1678 et 1683 un jardin de neuf hectares aux portes du château. Il draine un terrain marécageux, l'enrichit du fumier des écuries royales et l'organise en carrés clos de murs qui restituent la nuit la chaleur du jour. Ses cultures forcées sous cloches et sur couches de fumier donnaient au roi des asperges en hiver et des fraises dès la fin mars. Le Nôtre, lui, dessinait les jardins d'agrément ; Olivier de Serres, agronome du siècle précédent, avait publié son Théâtre d'agriculture en 1600."
+  },
+  {
+   "q": "Botaniquement, la tomate, la courgette et le concombre sont…",
+   "choix": [
+    "des fruits",
+    "des tubercules",
+    "des baies sans graines",
+    "des racines charnues"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Un fruit, en botanique, est l'organe issu de l'ovaire d'une fleur et contenant les graines : la tomate, la courgette, le concombre, l'aubergine ou le poivron répondent exactement à cette définition. La cuisine les range pourtant parmi les légumes parce qu'elle les prépare en salé. Le mot légume, d'ailleurs, désigne en botanique un tout autre objet : la gousse des plantes de la famille du pois. La question a eu des conséquences concrètes, un arrêt américain de 1893 ayant classé la tomate comme légume pour lui appliquer un droit de douane."
+  },
+  {
+   "q": "Quel a été le rôle d'Antoine Parmentier à l'égard de la pomme de terre ?",
+   "choix": [
+    "Il l'a rapportée du Pérou",
+    "Il en a sélectionné les premières variétés résistantes",
+    "Il a obtenu sa reconnaissance comme aliment humain et l'a rendue prestigieuse",
+    "Il a inventé la culture en buttes"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "La pomme de terre était en Europe depuis le XVIe siècle, mais réservée au bétail et soupçonnée de transmettre des maladies. Parmentier, qui l'avait découverte comme prisonnier en Prusse pendant la guerre de Sept Ans, obtient en 1772 que la faculté de médecine de Paris la déclare propre à la consommation humaine. Il multiplie ensuite les opérations de prestige, dont le bouquet de fleurs de pomme de terre offert à Louis XVI le 24 août 1786. L'anecdote des gardes postés autour de son champ des Sablons pour attiser la convoitise des voleurs relève surtout de la légende."
+  },
+  {
+   "q": "Quel a été le premier légume français à obtenir une appellation d'origine contrôlée ?",
+   "choix": [
+    "Le piment d'Espelette",
+    "La lentille verte du Puy",
+    "L'oignon doux des Cévennes",
+    "L'ail rose de Lautrec"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "La lentille verte du Puy a obtenu son appellation d'origine contrôlée le 7 août 1996, ce qui en fait le premier légume reconnu par l'INAO, puis l'appellation d'origine protégée européenne en 2008. Un jugement de 1935 avait déjà protégé son nom contre des lentilles importées revendues sous cette étiquette. Elle pousse sur les plateaux du Velay, entre six cents et mille deux cents mètres, où des vents secs donnent des graines à peau fine qui cuisent vite sans se défaire. Les autres productions citées ont obtenu leurs signes de qualité plus tard."
+  },
+  {
+   "q": "Qu'est-ce qu'une AMAP ?",
+   "choix": [
+    "Un label public garantissant l'origine régionale d'un légume",
+    "Une coopérative de supermarchés vendant des produits fermiers",
+    "Un marché de gros réservé aux professionnels",
+    "Un partenariat où le consommateur achète à l'avance une part de la récolte"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "L'association pour le maintien d'une agriculture paysanne repose sur un contrat entre un producteur et un groupe de consommateurs : ces derniers paient d'avance une part de la récolte, reçue ensuite en paniers réguliers, et partagent donc le risque climatique et sanitaire de l'exploitation. La première AMAP française naît en 2001 dans les Bouches-du-Rhône, sur le modèle des teikei japonais et de la community supported agriculture nord-américaine. Ce n'est pas un label officiel, contrairement au label rouge ou à l'appellation d'origine protégée. Ces circuits restent minoritaires en volume mais ont changé le regard porté sur l'origine des aliments."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Légume",
+   "url": "https://fr.wikipedia.org/wiki/L%C3%A9gume"
+  },
+  {
+   "titre": "Potager du roi",
+   "url": "https://fr.wikipedia.org/wiki/Potager_du_roi"
+  },
+  {
+   "titre": "Antoine Parmentier",
+   "url": "https://fr.wikipedia.org/wiki/Antoine_Parmentier"
+  },
+  {
+   "titre": "Lentille verte du Puy",
+   "url": "https://fr.wikipedia.org/wiki/Lentille_verte_du_Puy"
+  }
+ ]
+}

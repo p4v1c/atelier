@@ -1,0 +1,201 @@
+{
+ "titre": "Les grands fleuves du monde",
+ "sections": [
+  {
+   "titre": "Le vocabulaire des cours d'eau",
+   "texte": "Un fleuve est un cours d'eau qui se termine dans la mer ou dans l'océan, tandis qu'une rivière se jette dans un autre cours d'eau. Le point où une rivière rejoint le fleuve s'appelle le confluent, et la rivière est alors qualifiée d'affluent. On parle d'amont pour la partie proche de la source et d'aval pour la partie proche de l'embouchure. L'ensemble du territoire dont les eaux de pluie s'écoulent vers un même cours d'eau forme son bassin versant ; deux bassins voisins sont séparés par une ligne de partage des eaux, qui suit généralement les crêtes du relief. Le débit désigne le volume d'eau qui passe en un point en une seconde, exprimé en mètres cubes par seconde. Il varie au cours de l'année selon le régime hydrologique : un régime pluvial dépend surtout des pluies, un régime nival de la fonte des neiges au printemps, un régime glaciaire de la fonte des glaciers en été. Les hautes eaux s'appellent la crue, les basses eaux l'étiage. À son embouchure, un fleuve peut former un estuaire, large ouverture envahie par la marée, ou un delta, éventail de bras séparés par les sédiments déposés. Mesurer précisément la longueur d'un fleuve reste difficile, car le choix de la source et le tracé sinueux du lit rendent les résultats variables selon les méthodes.",
+   "visuel": {
+    "type": "etapes",
+    "titre": "De la source à la mer : le vocabulaire du cours d'eau",
+    "etapes": [
+     {
+      "label": "La source, en amont",
+      "texte": "Le bassin versant rassemble tout le territoire dont les pluies s'écoulent vers ce cours d'eau ; la ligne de partage des eaux, qui suit les crêtes, le sépare du bassin voisin."
+     },
+     {
+      "label": "Le confluent",
+      "texte": "Là où une rivière rejoint le cours d'eau principal. Elle en devient un affluent."
+     },
+     {
+      "label": "Le cours moyen et son régime",
+      "texte": "Le débit, en mètres cubes par seconde, varie dans l'année : régime pluvial (les pluies), nival (fonte des neiges au printemps), glaciaire (fonte des glaciers en été). Hautes eaux : la crue ; basses eaux : l'étiage."
+     },
+     {
+      "label": "L'embouchure, en aval",
+      "texte": "Un estuaire, large ouverture envahie par la marée, ou un delta, éventail de bras séparés par les sédiments déposés."
+     }
+    ],
+    "note": "Un fleuve se jette dans la mer ou l'océan ; une rivière se jette dans un autre cours d'eau."
+   }
+  },
+  {
+   "titre": "L'Amazone, le fleuve le plus puissant",
+   "texte": "L'Amazone est sans conteste le fleuve le plus puissant de la planète. Son débit moyen à l'embouchure a été estimé à environ 209 000 mètres cubes par seconde pour la période 1973-1990, soit à lui seul près d'un cinquième de tout l'écoulement fluvial mondial vers les océans. Sa longueur, mesurée le long de la branche Ucayali-Apurímac, atteint environ 7 025 kilomètres, ce qui le place au coude à coude avec le Nil dans la course au titre de plus long fleuve du monde ; le classement dépend des conventions retenues et reste discuté. Son bassin versant couvre environ 6,1 millions de kilomètres carrés, soit près de 40 pour cent de la superficie de l'Amérique du Sud, et il est presque deux fois plus étendu que celui du Congo. La source la plus éloignée se trouve au Pérou, sur le glacier du Nevado Mismi, à 5 170 mètres d'altitude dans la région d'Arequipa. Le fleuve traverse ensuite le Pérou, longe la Colombie et parcourt le Brésil avant de rejoindre l'Atlantique près de Macapá. Plusieurs de ses affluents figureraient eux-mêmes parmi les plus grands fleuves du monde s'ils étaient indépendants : le rio Madeira débite environ 32 000 mètres cubes par seconde et le rio Negro environ 29 300. Cette abondance s'explique par les pluies très importantes de la zone équatoriale.",
+   "visuel": {
+    "type": "image",
+    "image": "carte-amazone",
+    "legende": "Le bassin de l'Amazone : environ 6,1 millions de kilomètres carrés, près de 40 % de la superficie de l'Amérique du Sud. La source la plus éloignée se trouve au Pérou, sur le glacier du Nevado Mismi, à 5 170 mètres.",
+    "alt": "Carte de l'Amérique du Sud sur laquelle le bassin versant de l'Amazone est teinté, avec le cours du fleuve tracé des Andes péruviennes jusqu'à l'Atlantique."
+   }
+  },
+  {
+   "titre": "Le Nil, un fleuve de désert",
+   "texte": "Le Nil traverse plus de 6 700 kilomètres depuis l'Afrique équatoriale jusqu'à la Méditerranée, et son bassin versant s'étend sur environ 3,35 millions de kilomètres carrés répartis entre onze pays. Son débit moyen n'est pourtant que d'environ 2 830 mètres cubes par seconde, soit près de soixante-dix fois moins que l'Amazone : sur une grande partie de son cours, il traverse en effet le Sahara sans recevoir le moindre affluent, et perd beaucoup d'eau par évaporation. Le fleuve naît de la réunion de deux branches. Le Nil Blanc provient de la région des Grands Lacs, aux environs du lac Victoria, entre Ouganda, Kenya et Tanzanie, et apporte un débit assez régulier. Le Nil Bleu descend du lac Tana, sur les hauts plateaux d'Éthiopie, et fournit à lui seul environ 70 pour cent du débit total et jusqu'à 96 pour cent des sédiments transportés. Sa crue d'été, liée à la mousson éthiopienne, provoquait autrefois l'inondation annuelle des terres égyptiennes et le dépôt d'un limon très fertile, ce qui a fait dire dans l'Antiquité que l'Égypte était un don du Nil. Le haut barrage d'Assouan, achevé en 1970, a mis fin à ce rythme naturel en régulant le fleuve et en créant l'immense lac Nasser. À son embouchure, le Nil se divise en deux branches principales, Rosette et Damiette, qui encadrent le delta.",
+   "visuel": {
+    "type": "barres",
+    "titre": "Débit moyen à l'embouchure : le Nil face aux géants",
+    "unite": "m³/s",
+    "donnees": [
+     {
+      "label": "Amazone",
+      "valeur": 209000,
+      "affichage": "209 000 m³/s"
+     },
+     {
+      "label": "Yangzi Jiang",
+      "valeur": 30000,
+      "affichage": "30 000 m³/s"
+     },
+     {
+      "label": "Nil",
+      "valeur": 2830,
+      "affichage": "2 830 m³/s",
+      "focus": true
+     }
+    ],
+    "note": "Le Nil débite environ soixante-dix fois moins que l'Amazone : sur une grande partie de son cours, il traverse le Sahara sans recevoir un seul affluent et perd beaucoup d'eau par évaporation."
+   }
+  },
+  {
+   "titre": "Le Yangzi Jiang et les fleuves d'Asie",
+   "texte": "Le Yangzi Jiang, ou fleuve Bleu, est le plus long fleuve d'Asie avec environ 6 380 kilomètres. Il prend sa source sur le mont Geladaindong, dans la province chinoise du Qinghai, à 5 395 mètres d'altitude sur le plateau tibétain, et se jette dans la mer de Chine orientale près de Shanghai. Son bassin versant couvre environ 1 800 000 kilomètres carrés et son débit moyen avoisine 30 000 mètres cubes par seconde. Ce bassin fait vivre plus de 430 millions d'habitants, ce qui en fait l'un des espaces fluviaux les plus peuplés du monde. Le fleuve traverse des métropoles majeures comme Chongqing, Wuhan, Nankin et Shanghai, la ville la plus peuplée de Chine, et il constitue un axe de transport de première importance pour l'acheminement des marchandises vers l'intérieur du pays. Le Yangzi est aussi un fleuve redouté : les inondations catastrophiques surviennent lorsque son débit dépasse 75 000 mètres cubes par seconde, comme lors de la crue meurtrière de 1931. Pour maîtriser ces crues, produire de l'électricité et améliorer la navigation, la Chine a inauguré en 2003 le barrage des Trois-Gorges, le plus grand jamais construit ; sa retenue s'étire sur 660 kilomètres jusqu'à Chongqing et permet le passage de navires de 10 000 tonnes. D'autres grands fleuves asiatiques, comme le Gange, l'Indus, le Mékong ou le Huang He, jouent un rôle comparable.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Trois grands fleuves comparés",
+    "colonnes": [
+     "",
+     "Amazone",
+     "Nil",
+     "Yangzi Jiang"
+    ],
+    "lignes": [
+     [
+      "Longueur",
+      "≈ 7 025 km (branche Ucayali-Apurímac)",
+      "Plus de 6 700 km",
+      "≈ 6 380 km, le plus long d'Asie"
+     ],
+     [
+      "Bassin versant",
+      "≈ 6,1 M km²",
+      "≈ 3,35 M km², onze pays",
+      "≈ 1,8 M km²"
+     ],
+     [
+      "Source",
+      "Nevado Mismi, Pérou, 5 170 m",
+      "Nil Blanc au lac Victoria, Nil Bleu au lac Tana",
+      "Mont Geladaindong, Tibet, 5 395 m"
+     ],
+     [
+      "Particularité",
+      "Un cinquième de l'écoulement fluvial mondial",
+      "Le Nil Bleu fournit 70 % du débit et jusqu'à 96 % des sédiments",
+      "Son bassin fait vivre plus de 430 millions d'habitants"
+     ],
+     [
+      "Grand aménagement",
+      "Peu de barrages sur le cours principal",
+      "Haut barrage d'Assouan, 1970, lac Nasser",
+      "Barrage des Trois-Gorges, 2003, retenue de 660 km"
+     ]
+    ],
+    "note": "Le classement du plus long fleuve du monde reste discuté : il dépend du choix de la source et de la façon de suivre les méandres."
+   }
+  },
+  {
+   "titre": "Les fleuves, axes de vie et enjeux de partage",
+   "texte": "Depuis l'Antiquité, les grandes civilisations se sont installées le long des fleuves : Mésopotamie entre le Tigre et l'Euphrate, Égypte le long du Nil, vallée de l'Indus, plaine du Huang He en Chine. Les fleuves apportent en effet l'eau d'irrigation, des sols alluviaux fertiles, du poisson et une voie de circulation naturelle. Aujourd'hui encore, les deltas comme celui du Gange-Brahmapoutre, du Nil ou du Mékong comptent parmi les espaces les plus densément peuplés du monde, malgré leur exposition aux inondations et à la montée des eaux. Les aménagements fluviaux se sont multipliés au vingtième siècle : barrages hydroélectriques, canaux, digues, prélèvements pour l'irrigation. Ils apportent de l'énergie et de la sécurité, mais bloquent aussi les sédiments, ce qui fragilise les deltas, et perturbent la migration des poissons. Comme la plupart des grands bassins sont partagés entre plusieurs États, l'eau devient un enjeu diplomatique : le bassin du Nil concerne onze pays, et la construction du grand barrage éthiopien de la Renaissance sur le Nil Bleu a suscité de longues négociations avec le Soudan et l'Égypte. Des tensions comparables existent sur le Mékong, l'Indus ou le Tigre. Enfin, la pollution industrielle, agricole et urbaine dégrade la qualité de l'eau de nombreux fleuves, et les plastiques transportés jusqu'à la mer forment une part importante des déchets océaniques."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Quel est approximativement le débit moyen de l'Amazone à son embouchure ?",
+   "choix": [
+    "Environ 2 830 m³/s",
+    "Environ 30 000 m³/s",
+    "Environ 209 000 m³/s",
+    "Environ 1 000 000 m³/s"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "Le débit moyen de l'Amazone a été évalué à environ 209 000 mètres cubes par seconde pour la période 1973-1990, ce qui représente à peu près un cinquième de tout l'écoulement fluvial de la planète vers les océans. Cette valeur est sans commune mesure avec celle du Nil, qui n'atteint qu'environ 2 830 mètres cubes par seconde, ou celle du Yangzi, proche de 30 000. Cette puissance s'explique par un bassin versant gigantesque de plus de six millions de kilomètres carrés et par des précipitations équatoriales très abondantes toute l'année. Certains affluents de l'Amazone, comme le rio Madeira ou le rio Negro, dépassent à eux seuls le débit des plus grands fleuves européens. C'est pourquoi l'Amazone est considéré comme le fleuve le plus puissant du monde, même si son titre de plus long reste discuté."
+  },
+  {
+   "q": "Quelle est la différence entre un fleuve et une rivière ?",
+   "choix": [
+    "Un fleuve se jette dans la mer, une rivière se jette dans un autre cours d'eau",
+    "Un fleuve est toujours plus long que 1 000 kilomètres",
+    "Un fleuve est navigable, une rivière ne l'est jamais",
+    "Un fleuve coule vers le sud, une rivière vers le nord"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Le critère retenu en géographie n'est ni la longueur ni le débit, mais la destination finale des eaux : un fleuve se jette directement dans la mer ou dans l'océan, alors qu'une rivière rejoint un autre cours d'eau. Ainsi, l'Orne, très courte, est bien un fleuve car elle atteint la Manche, tandis que la Saône, plus longue, n'est qu'un affluent du Rhône. Le point de rencontre entre deux cours d'eau s'appelle le confluent. L'ensemble des terres dont les eaux convergent vers un même fleuve constitue son bassin versant, délimité par la ligne de partage des eaux. Ce vocabulaire précis permet de décrire l'organisation hiérarchique d'un réseau hydrographique."
+  },
+  {
+   "q": "Où le Nil Bleu prend-il sa source ?",
+   "choix": [
+    "Au lac Victoria, en Ouganda",
+    "Au lac Tanganyika",
+    "Au lac Tchad",
+    "Au lac Tana, en Éthiopie"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le Nil Bleu descend du lac Tana, situé sur les hauts plateaux d'Éthiopie, alors que le Nil Blanc provient de la région des Grands Lacs, autour du lac Victoria. Cette distinction est essentielle car le Nil Bleu, alimenté par la mousson d'été éthiopienne, fournit environ 70 pour cent du débit total du fleuve et jusqu'à 96 pour cent des sédiments transportés. C'est donc lui qui provoquait la crue annuelle et le dépôt du limon fertile dans la vallée égyptienne. Le Nil Blanc, plus régulier, assure au contraire un débit de base pendant la saison sèche. La position stratégique du Nil Bleu explique les tensions actuelles autour du grand barrage éthiopien de la Renaissance."
+  },
+  {
+   "q": "Quelle est approximativement la superficie du bassin versant de l'Amazone ?",
+   "choix": [
+    "Environ 1,8 million de km²",
+    "Environ 6,1 millions de km²",
+    "Environ 3,35 millions de km²",
+    "Environ 10 millions de km²"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "Le bassin versant de l'Amazone couvre environ 6,1 millions de kilomètres carrés, soit près de 40 pour cent du continent sud-américain : c'est le plus vaste bassin fluvial du monde. À titre de comparaison, le bassin du Nil s'étend sur environ 3,35 millions de kilomètres carrés et celui du Yangzi sur environ 1,8 million. Cette immensité, associée à un climat équatorial très humide, explique le débit exceptionnel du fleuve. Le bassin de l'Amazone est également presque deux fois plus grand que celui du Congo, deuxième bassin mondial. Il abrite la plus vaste forêt tropicale de la planète, dont l'évapotranspiration alimente en retour les pluies de la région."
+  },
+  {
+   "q": "Quelle a été la principale conséquence du haut barrage d'Assouan, achevé en 1970 ?",
+   "choix": [
+    "Il a détourné le Nil vers la mer Rouge",
+    "Il a fortement augmenté l'ampleur des crues annuelles",
+    "Il n'a eu aucun effet sur le transport des sédiments",
+    "Il a supprimé la crue annuelle et retenu les limons, en créant le lac Nasser"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Le haut barrage d'Assouan a mis fin au rythme naturel du Nil en régulant son débit tout au long de l'année et en formant en amont l'immense réservoir du lac Nasser. Il a permis de sécuriser l'irrigation, de produire de l'électricité et de protéger la vallée des crues destructrices. En contrepartie, les limons fertiles qui se déposaient chaque année sur les champs égyptiens sont désormais piégés dans le réservoir, obligeant les agriculteurs à recourir aux engrais chimiques. Privé de ces sédiments, le delta du Nil s'enfonce et recule sous l'action de la mer. Ce cas illustre bien le fait qu'un grand aménagement fluvial produit toujours des effets positifs et négatifs qu'il faut évaluer ensemble."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Amazone (fleuve)",
+   "url": "https://fr.wikipedia.org/wiki/Amazone_(fleuve)"
+  },
+  {
+   "titre": "Nil",
+   "url": "https://fr.wikipedia.org/wiki/Nil"
+  },
+  {
+   "titre": "Fleuve",
+   "url": "https://fr.wikipedia.org/wiki/Fleuve"
+  },
+  {
+   "titre": "Yangzi Jiang",
+   "url": "https://fr.wikipedia.org/wiki/Yangzi_Jiang"
+  }
+ ]
+}

@@ -271,3 +271,215 @@
   .boite h2{font-family:'Bodoni Moda',serif;font-weight:500;font-size:22px;margin:0 0 12px;color:var(--papier)}
   .boite .bas{margin-top:24px}
   .quitter{margin-left:auto}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   L'ATELIER — le choix de la matière
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.retour-atelier { margin-top: 14px; font-size: 12px; }
+
+.bandeau { text-align: center; }
+
+.chiffres-atelier {
+  display: flex; justify-content: center; gap: 44px; flex-wrap: wrap;
+  margin-bottom: 26px;
+}
+.chiffres-atelier div { display: flex; flex-direction: column; }
+.chiffres-atelier b {
+  font-family: "Bodoni Moda", Georgia, serif; font-size: 38px; line-height: 1;
+  color: var(--or); font-variant-numeric: tabular-nums;
+}
+.chiffres-atelier span {
+  font-size: 10px; letter-spacing: .16em; text-transform: uppercase;
+  color: var(--mauve); font-weight: 700; margin-top: 8px;
+}
+
+.modules { display: flex; flex-direction: column; gap: 14px; margin-top: 22px; }
+
+.module {
+  display: flex; flex-direction: column; gap: 7px; width: 100%;
+  padding: 22px 24px; text-align: left; cursor: pointer;
+  background: var(--encre-2); border: 1px solid var(--encre-3); border-radius: 4px;
+  color: inherit; font: inherit;
+  transition: border-color .18s, transform .18s;
+}
+.module:hover, .module:focus-visible { border-color: var(--or); transform: translateY(-1px); }
+.module .titre { font-family: "Bodoni Moda", Georgia, serif; font-size: 23px; }
+.module .tagline { font-size: 13.5px; color: var(--mauve); }
+.module .detail { font-size: 12.5px; color: var(--mauve); }
+.module .detail b { color: var(--or); font-weight: 700; }
+.module .detail em { font-style: normal; color: var(--mauve); }
+.module .niveau {
+  font-size: 10px; letter-spacing: .16em; text-transform: uppercase;
+  font-weight: 700; color: var(--mauve);
+}
+.jauge-module {
+  display: block; height: 3px; background: var(--encre-3); border-radius: 2px; overflow: hidden;
+  margin: 4px 0 2px;
+}
+.jauge-module i { display: block; height: 100%; background: var(--or); }
+
+.centre { text-align: center; }
+
+/* ═══════════════════════════════════════════════════════════════════════
+   QUESTIONS À CHOIX MULTIPLE
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* Le QCM s'affiche sur la même page de cahier que le repérage de faute : donc
+   à l'encre sombre sur le papier crème, et non dans les couleurs de la page.
+   C'est la seule raison pour laquelle ces couleurs sont écrites en dur ici —
+   elles reprennent celles de .phrase, juste au-dessus. */
+.enonce {
+  position: relative;
+  font-family: "Bodoni Moda", serif; font-size: 23px; line-height: 1.5;
+  color: #1D1836; margin: 0 0 24px; text-wrap: balance;
+}
+
+.propositions {
+  position: relative; list-style: none; margin: 0; padding: 0;
+  display: flex; flex-direction: column; gap: 9px;
+}
+
+.proposition {
+  display: block; width: 100%; text-align: left;
+  padding: 13px 17px; font: inherit; font-size: 15.5px; line-height: 1.45;
+  color: #1D1836; background: rgba(255, 255, 255, .45);
+  border: 1px solid rgba(29, 24, 54, .18); border-radius: 3px;
+  cursor: pointer; transition: border-color .15s, background .15s;
+}
+.proposition:hover:not(:disabled) { border-color: var(--rouge); background: rgba(255, 255, 255, .75); }
+.proposition:focus-visible { outline: 2px solid var(--rouge); outline-offset: 2px; }
+.proposition:disabled { cursor: default; }
+
+/* La bonne réponse se montre toujours, même quand elle a été trouvée : c'est
+   ce qu'on relit avant de passer à la suite. */
+.proposition.juste {
+  border-color: var(--vert); background: rgba(62, 158, 110, .16); font-weight: 700;
+}
+.proposition.rate {
+  border-color: var(--rouge); background: rgba(214, 48, 42, .12);
+  color: #9A93AC; text-decoration: line-through; text-decoration-color: #C9C2D8;
+}
+
+.explication {
+  margin: 18px 0 0; padding: 16px 20px; font-size: 14.5px; line-height: 1.7;
+  background: var(--encre-2); border-left: 2px solid var(--mauve); border-radius: 0 3px 3px 0;
+}
+
+.actions-fiche { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+
+/* ═══════════════════════════════════════════════════════════════════════
+   LEÇONS
+   ═══════════════════════════════════════════════════════════════════════ */
+
+.lecon { max-width: 100%; }
+.lecon > header { margin-bottom: 34px; }
+.lecon h2 {
+  font-family: "Bodoni Moda", Georgia, serif; font-weight: 400;
+  font-size: clamp(26px, 4.5vw, 34px); line-height: 1.15; margin: 0 0 8px;
+  text-wrap: balance;
+}
+.lecon section { margin-bottom: 38px; }
+.lecon h3 {
+  font-size: 11.5px; letter-spacing: .16em; text-transform: uppercase;
+  font-weight: 700; color: var(--mauve); margin: 0 0 14px;
+}
+.lecon p { font-size: 15.5px; line-height: 1.75; margin: 0 0 15px; max-width: 68ch; }
+.lecon .sources ul { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; }
+.lecon .sources a { color: var(--mauve); }
+
+.fin-lecon {
+  display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+  margin-top: 44px; padding-top: 26px; border-top: 1px solid var(--encre-3);
+}
+
+/* ── visuels ── */
+
+.visuel {
+  margin: 24px 0; padding: 20px 22px;
+  background: var(--encre-2); border: 1px solid var(--encre-3); border-radius: 4px;
+}
+.visuel > figcaption {
+  font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase;
+  font-weight: 700; color: var(--mauve); margin-bottom: 16px;
+}
+.visuel .note { font-size: 12.5px; color: var(--mauve); margin: 14px 0 0; font-style: italic; }
+.visuel ul, .visuel ol { list-style: none; margin: 0; padding: 0; }
+.visuel .label { font-weight: 700; }
+.visuel .detail { font-size: 13.5px; color: var(--mauve); line-height: 1.6; }
+
+/* frise : une colonne de dates, un filet, le récit à droite */
+.frise ol { display: flex; flex-direction: column; gap: 0; }
+.frise li {
+  display: grid; grid-template-columns: 74px 1fr; gap: 18px;
+  padding: 12px 0 12px 0; border-left: 1px solid var(--encre-3); margin-left: 6px;
+  padding-left: 18px; position: relative;
+}
+.frise li::before {
+  content: ""; position: absolute; left: -4px; top: 19px;
+  width: 7px; height: 7px; border-radius: 50%; background: var(--or);
+}
+.frise .date {
+  font-family: "Bodoni Moda", Georgia, serif; font-size: 17px; color: var(--or);
+  font-variant-numeric: tabular-nums;
+}
+.frise li > .label, .frise li > .detail { grid-column: 2; }
+
+.chiffres ul { display: flex; flex-wrap: wrap; gap: 26px; }
+.chiffres li { flex: 1 1 150px; display: flex; flex-direction: column; gap: 5px; }
+.chiffres b {
+  font-family: "Bodoni Moda", Georgia, serif; font-size: 30px; line-height: 1;
+  color: var(--or); font-variant-numeric: tabular-nums;
+}
+
+.etapes ol { counter-reset: etape; display: flex; flex-direction: column; gap: 16px; }
+.etapes li {
+  counter-increment: etape; display: flex; flex-direction: column; gap: 4px;
+  padding-left: 34px; position: relative;
+}
+.etapes li::before {
+  content: counter(etape); position: absolute; left: 0; top: 0;
+  font-family: "Bodoni Moda", Georgia, serif; font-size: 19px; color: var(--or);
+}
+
+/* Un tableau large défile dans son cadre ; la page ne bouge pas. */
+.tableau .defilant { overflow-x: auto; }
+.tableau table { border-collapse: collapse; width: 100%; font-size: 14px; min-width: 420px; }
+.tableau th {
+  text-align: left; font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--mauve); font-weight: 700; padding: 0 16px 10px 0;
+  border-bottom: 1px solid var(--encre-3); white-space: nowrap;
+}
+.tableau td { padding: 11px 16px 11px 0; border-bottom: 1px solid var(--encre-3); vertical-align: top; }
+.tableau tr:last-child td { border-bottom: 0; }
+
+.barres ul { display: flex; flex-direction: column; gap: 11px; }
+.barres li { display: grid; grid-template-columns: minmax(90px, 1fr) 2fr auto; gap: 14px; align-items: center; }
+.barres .piste { height: 8px; background: var(--encre-3); border-radius: 4px; overflow: hidden; }
+.barres .remplissage { display: block; height: 100%; background: var(--or); }
+.barres .valeur { font-variant-numeric: tabular-nums; font-size: 13.5px; color: var(--mauve); }
+
+.comparaison .colonnes { display: flex; flex-wrap: wrap; gap: 26px; }
+.comparaison .colonnes > div { flex: 1 1 220px; }
+.comparaison h4 {
+  font-size: 11px; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--mauve); margin: 0 0 10px; font-weight: 700;
+}
+.comparaison ul { display: flex; flex-direction: column; gap: 8px; }
+.comparaison li { font-size: 14px; line-height: 1.6; padding-left: 16px; position: relative; }
+.comparaison li::before {
+  content: ""; position: absolute; left: 0; top: .62em;
+  width: 5px; height: 5px; border-radius: 50%; background: var(--or);
+}
+
+.visuel.image { padding: 0; overflow: hidden; }
+.visuel.image img { display: block; width: 100%; height: auto; }
+.visuel.image figcaption {
+  padding: 12px 18px; font-size: 12.5px; color: var(--mauve); font-style: italic;
+}
+
+@media (max-width: 560px) {
+  .chiffres-atelier { gap: 26px; }
+  .frise li { grid-template-columns: 60px 1fr; gap: 12px; }
+  .barres li { grid-template-columns: 1fr; gap: 5px; }
+}

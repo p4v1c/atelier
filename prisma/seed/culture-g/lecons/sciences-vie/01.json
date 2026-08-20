@@ -1,0 +1,169 @@
+{
+ "titre": "La cellule, unité du vivant",
+ "sections": [
+  {
+   "titre": "La découverte de la cellule",
+   "texte": "L'histoire de la cellule commence avec l'invention du microscope au XVIIe siècle. En 1665, le savant anglais Robert Hooke observe une fine lamelle de liège et y découvre une multitude de petites cavités régulières qui lui rappellent les cellules d'un monastère : il leur donne ce nom, qui est resté. Quelques années plus tard, le Néerlandais Antoni van Leeuwenhoek, grâce à des lentilles qu'il taille lui-même, observe pour la première fois des êtres vivants microscopiques dans une goutte d'eau, ainsi que des globules rouges et des spermatozoïdes. Il faut cependant attendre le XIXe siècle pour que le sens de ces observations soit compris. En 1838 et 1839, les Allemands Matthias Schleiden et Theodor Schwann formulent la théorie cellulaire : tous les êtres vivants, végétaux comme animaux, sont composés de cellules. En 1855, Rudolf Virchow y ajoute une phrase décisive : toute cellule provient d'une cellule préexistante. Autrement dit, la vie ne naît pas spontanément de la matière inerte, elle se transmet de cellule en cellule. Cette théorie cellulaire est aujourd'hui l'un des piliers de la biologie. Elle unifie le vivant : une bactérie, un chêne, une méduse et un être humain sont bâtis avec le même matériau de base. Les progrès techniques, notamment le microscope électronique inventé dans les années 1930, ont ensuite permis de voir l'intérieur de la cellule et d'y découvrir un monde d'une complexité insoupçonnée."
+  },
+  {
+   "titre": "L'architecture d'une cellule",
+   "texte": "Une cellule est un compartiment vivant délimité par une membrane plasmique, fine enveloppe faite de deux couches de molécules grasses appelées lipides. Cette membrane n'est pas un simple sac : elle est sélective, c'est-à-dire qu'elle laisse entrer certaines substances comme les nutriments et l'oxygène, et sortir les déchets. À l'intérieur se trouve le cytoplasme, un liquide gélatineux où baignent de petites structures spécialisées, les organites, comparables aux organes d'un corps. Le noyau, présent chez les cellules dites eucaryotes, contient l'ADN, la molécule qui porte l'information génétique et commande le fonctionnement de la cellule. Les mitochondries sont les centrales énergétiques : elles utilisent l'oxygène et les sucres pour fabriquer l'énergie chimique dont la cellule a besoin. Les ribosomes assemblent les protéines en suivant les instructions copiées depuis l'ADN. Le réticulum endoplasmique et l'appareil de Golgi forment un réseau de fabrication, de tri et d'expédition des molécules. Les cellules végétales possèdent en plus une paroi rigide de cellulose qui leur donne leur forme, une grande vacuole remplie d'eau qui assure leur rigidité, et des chloroplastes contenant la chlorophylle verte. Les cellules animales, elles, n'ont ni paroi ni chloroplastes et adoptent des formes plus variables. Cette organisation interne explique comment un espace de quelques millionièmes de mètre peut accomplir des tâches aussi complexes que respirer, se nourrir, se déplacer et se reproduire.",
+   "visuel": {
+    "type": "image",
+    "image": "svt-cellules-animale-vegetale",
+    "legende": "Cellule animale et cellule végétale : la seconde possède en plus une paroi, une grande vacuole et des chloroplastes.",
+    "alt": "Schéma en coupe de deux cellules côte à côte, animale et végétale, avec les légendes du noyau, du cytoplasme, de la membrane, des mitochondries, et pour la cellule végétale de la paroi, de la vacuole et des chloroplastes."
+   }
+  },
+  {
+   "titre": "Procaryotes et eucaryotes",
+   "texte": "Les biologistes classent les cellules en deux grands types selon la présence ou l'absence d'un noyau. Les cellules procaryotes, celles des bactéries et des archées, ne possèdent pas de noyau : leur ADN, généralement en forme d'anneau, flotte librement dans le cytoplasme. Elles sont petites, de un à quelques micromètres, et dépourvues d'organites entourés d'une membrane. Malgré cette apparente simplicité, elles sont extraordinairement efficaces et colonisent tous les milieux, des sources chaudes volcaniques aux glaces polaires. Les cellules eucaryotes, celles des animaux, des végétaux, des champignons et des protistes, sont dix à cent fois plus volumineuses. Leur ADN est enfermé dans un noyau délimité par une enveloppe percée de pores, et leur cytoplasme contient de nombreux organites spécialisés. Cette compartimentation permet une division du travail interne et rend possible la construction d'organismes pluricellulaires complexes. Une hypothèse aujourd'hui largement acceptée, la théorie endosymbiotique défendue par la biologiste américaine Lynn Margulis, propose que les mitochondries et les chloroplastes descendent de bactéries libres avalées par une cellule ancestrale il y a environ deux milliards d'années. Ces bactéries n'auraient pas été digérées mais conservées, apportant en échange l'énergie et la photosynthèse. Plusieurs indices soutiennent cette idée : ces organites possèdent leur propre ADN circulaire, leurs propres ribosomes, et se divisent indépendamment du reste de la cellule, exactement comme des bactéries.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Deux grands types de cellules",
+    "colonnes": [
+     {
+      "titre": "Procaryote",
+      "points": [
+       "Bactéries et archées",
+       "Pas de noyau : l'ADN, en anneau, flotte dans le cytoplasme",
+       "Pas d'organites entourés d'une membrane",
+       "Taille de 1 à quelques micromètres",
+       "Toujours unicellulaire"
+      ]
+     },
+     {
+      "titre": "Eucaryote",
+      "points": [
+       "Animaux, végétaux, champignons, protistes",
+       "ADN enfermé dans un noyau à enveloppe percée de pores",
+       "Nombreux organites spécialisés",
+       "Dix à cent fois plus volumineuse",
+       "Permet les organismes pluricellulaires"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titre": "La division cellulaire",
+   "texte": "Pour croître, se réparer et se reproduire, les cellules se divisent. Le mécanisme le plus répandu chez les eucaryotes est la mitose : une cellule mère donne deux cellules filles rigoureusement identiques, portant le même nombre de chromosomes et la même information génétique. Avant la division, l'ADN est entièrement recopié lors d'une étape appelée réplication, si bien que chaque chromosome est double. Puis les chromosomes se condensent, s'alignent au centre de la cellule, et sont tirés vers les deux pôles opposés par un réseau de filaments. La cellule se coupe enfin en deux. Chez l'être humain, des milliards de cellules se divisent ainsi chaque jour pour renouveler la peau, le sang ou la paroi de l'intestin. Un second mécanisme, la méiose, intervient uniquement dans la formation des cellules reproductrices, les gamètes. Elle comporte deux divisions successives et aboutit à quatre cellules contenant chacune moitié moins de chromosomes que la cellule de départ. Chez l'humain, les cellules ordinaires possèdent quarante-six chromosomes tandis que les spermatozoïdes et les ovules n'en ont que vingt-trois. La fécondation rétablit le compte en réunissant les deux lots. La méiose brasse aussi les chromosomes du père et de la mère, ce qui explique qu'aucun enfant ne soit identique à ses parents ni à ses frères et sœurs. Quand la division échappe à tout contrôle, elle peut donner naissance à une tumeur.",
+   "visuels": [
+    {
+     "type": "etapes",
+     "titre": "La mitose, étape par étape",
+     "etapes": [
+      {
+       "label": "Réplication",
+       "texte": "L'ADN est entièrement recopié : chaque chromosome devient double."
+      },
+      {
+       "label": "Condensation",
+       "texte": "Les chromosomes se compactent et deviennent visibles."
+      },
+      {
+       "label": "Alignement",
+       "texte": "Ils se rangent au centre de la cellule."
+      },
+      {
+       "label": "Séparation",
+       "texte": "Un réseau de filaments tire les chromosomes vers les deux pôles opposés."
+      },
+      {
+       "label": "Division",
+       "texte": "La cellule se coupe en deux cellules filles identiques."
+      }
+     ]
+    },
+    {
+     "type": "chiffres",
+     "titre": "Compter les chromosomes",
+     "items": [
+      {
+       "valeur": "46",
+       "label": "chromosomes dans une cellule humaine ordinaire"
+      },
+      {
+       "valeur": "23",
+       "label": "chromosomes dans un spermatozoïde ou un ovule"
+      },
+      {
+       "valeur": "4",
+       "label": "cellules produites par une méiose"
+      },
+      {
+       "valeur": "2",
+       "label": "cellules filles identiques produites par une mitose"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Des cellules aux organismes",
+   "texte": "Certains êtres vivants ne comptent qu'une seule cellule : les bactéries, les levures ou les paramécies sont dits unicellulaires. Cette unique cellule assure à elle seule toutes les fonctions vitales, se nourrir, respirer, se déplacer et se reproduire. D'autres organismes sont pluricellulaires et rassemblent un nombre considérable de cellules, estimé à environ trente-sept mille milliards chez un adulte humain. Toutes ces cellules descendent d'une seule cellule œuf issue de la fécondation, et possèdent donc le même ADN. Pourtant un neurone, une cellule musculaire et un globule blanc ne se ressemblent en rien. Cette différence vient de la spécialisation, ou différenciation : selon les gènes qu'elle utilise et ceux qu'elle laisse inactifs, chaque cellule fabrique des protéines particulières et acquiert une forme et un rôle propres. Les cellules de même type s'associent en tissus, comme le tissu musculaire ou le tissu nerveux. Les tissus s'assemblent en organes, tels que le cœur ou l'estomac, et les organes coopèrent au sein d'appareils ou systèmes, comme l'appareil digestif. Cette organisation emboîtée, de la cellule à l'organisme entier, est un principe fondamental de la biologie. Les cellules souches, restées indifférenciées, conservent la capacité de donner plusieurs types cellulaires et assurent le renouvellement des tissus tout au long de la vie ; elles sont au cœur de nombreuses recherches médicales actuelles."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Qui a utilisé pour la première fois le mot cellule en 1665 après avoir observé du liège au microscope ?",
+   "choix": [
+    "Louis Pasteur",
+    "Robert Hooke",
+    "Theodor Schwann",
+    "Antoni van Leeuwenhoek"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "C'est l'Anglais Robert Hooke qui, en 1665, observe une fine lamelle de liège avec un microscope de sa fabrication. Il y voit de petites cavités régulières, séparées par des cloisons, qui lui évoquent les cellules d'un monastère. Il emploie alors le mot cellule, qui est resté dans le vocabulaire scientifique. Il n'observait en réalité que les parois vides de cellules mortes. Antoni van Leeuwenhoek fut le premier à voir des micro-organismes vivants, et Schwann contribua bien plus tard à la théorie cellulaire."
+  },
+  {
+   "q": "Quel organite est surnommé la centrale énergétique de la cellule ?",
+   "choix": [
+    "Le ribosome",
+    "L'appareil de Golgi",
+    "La mitochondrie",
+    "Le noyau"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "La mitochondrie est l'organite qui produit l'essentiel de l'énergie chimique utilisable par la cellule. Elle utilise l'oxygène et des molécules issues des aliments, principalement le glucose, pour fabriquer de l'ATP, la monnaie énergétique du vivant. C'est la respiration cellulaire. Les cellules très actives, comme les cellules musculaires, en contiennent des milliers. Le noyau abrite l'ADN, le ribosome assemble les protéines et l'appareil de Golgi trie et expédie les molécules fabriquées."
+  },
+  {
+   "q": "Qu'est-ce qui distingue fondamentalement une cellule procaryote d'une cellule eucaryote ?",
+   "choix": [
+    "L'absence de noyau chez la procaryote",
+    "L'absence d'ADN chez la procaryote",
+    "La présence d'une membrane chez la seule eucaryote",
+    "La taille rigoureusement identique des deux types"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le mot eucaryote signifie littéralement vrai noyau, tandis que procaryote signifie avant le noyau. Chez les procaryotes, bactéries et archées, l'ADN est bien présent mais il flotte librement dans le cytoplasme sous forme d'un anneau, sans enveloppe qui l'isole. Chez les eucaryotes, l'ADN est enfermé dans un noyau délimité par une membrane percée de pores. Les deux types possèdent une membrane plasmique et de l'ADN. Les cellules eucaryotes sont en général dix à cent fois plus volumineuses que les procaryotes."
+  },
+  {
+   "q": "Combien de chromosomes contient une cellule humaine ordinaire, et combien un gamète ?",
+   "choix": [
+    "23 et 46",
+    "46 et 46",
+    "92 et 46",
+    "46 et 23"
+   ],
+   "bonne": 3,
+   "difficulte": 2,
+   "explication": "Les cellules ordinaires du corps humain, dites somatiques, contiennent quarante-six chromosomes répartis en vingt-trois paires. Les cellules reproductrices, ou gamètes, n'en contiennent que vingt-trois, soit un exemplaire de chaque paire. Cette réduction de moitié est réalisée par la méiose, une division particulière qui comporte deux étapes successives. Lors de la fécondation, la réunion d'un spermatozoïde et d'un ovule rétablit le nombre de quarante-six. Sans cette réduction, le nombre de chromosomes doublerait à chaque génération."
+  },
+  {
+   "q": "Selon la théorie endosymbiotique, d'où proviendraient les mitochondries ?",
+   "choix": [
+    "De virus intégrés au noyau",
+    "D'anciennes bactéries libres captées par une cellule ancestrale",
+    "De fragments de la membrane plasmique repliés",
+    "De morceaux du noyau détachés"
+   ],
+   "bonne": 1,
+   "difficulte": 3,
+   "explication": "La théorie endosymbiotique, défendue notamment par la biologiste américaine Lynn Margulis, propose qu'une cellule ancestrale ait englobé des bactéries sans les digérer, il y a environ deux milliards d'années. Ces bactéries auraient survécu à l'intérieur et fourni de l'énergie à leur hôte, donnant les mitochondries ; un scénario semblable avec des cyanobactéries expliquerait l'origine des chloroplastes. Plusieurs indices soutiennent cette hypothèse : ces organites possèdent leur propre ADN circulaire, semblable à celui des bactéries, ainsi que leurs propres ribosomes. Ils se divisent aussi de façon autonome, indépendamment de la division de la cellule entière. Cette théorie est aujourd'hui largement acceptée par la communauté scientifique."
+  }
+ ]
+}

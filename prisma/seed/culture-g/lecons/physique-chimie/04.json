@@ -1,0 +1,186 @@
+{
+ "titre": "La chimie du quotidien : acides, bases, combustions et plastiques",
+ "sections": [
+  {
+   "titre": "Solutions, concentrations et dissolution",
+   "texte": "La chimie de tous les jours est d'abord une chimie des solutions. Une solution est un mélange homogène formé par la dissolution d'un soluté dans un solvant, très souvent l'eau, que l'on appelle pour cette raison le solvant universel. Lorsqu'on dissout du sel de cuisine, le chlorure de sodium, ses ions sodium et chlorure se séparent et s'entourent de molécules d'eau : on obtient une solution ionique, capable de conduire le courant électrique. Le sucre, lui, se dissout sous forme de molécules entières et la solution obtenue ne conduit pas le courant. La concentration en masse est le quotient de la masse de soluté dissous par le volume de solution, exprimée en grammes par litre. Les chimistes préfèrent souvent la concentration molaire, ou molarité, exprimée en moles par litre, la mole étant la quantité de matière contenant environ 6,022 fois dix puissance vingt-trois entités, nombre appelé constante d'Avogadro. Toute dissolution a une limite : au-delà de la solubilité, le soluté ne se dissout plus et se dépose au fond, la solution est dite saturée. La solubilité dépend fortement de la température ; elle augmente en général pour les solides et diminue pour les gaz, ce qui explique qu'une boisson gazeuse tiède perde son gaz plus vite. Diluer une solution consiste à lui ajouter du solvant : la quantité de soluté ne change pas, seule la concentration diminue."
+  },
+  {
+   "titre": "Acides, bases et échelle de pH",
+   "texte": "Un acide est une espèce chimique capable de céder un proton, c'est-à-dire un ion hydrogène, tandis qu'une base est capable d'en capter un : c'est la définition proposée par Brönsted en 1923. En solution aqueuse, l'acidité se mesure par le pH, dont l'échelle usuelle s'étend de 0 à 14. Une solution de pH inférieur à 7 est acide, une solution de pH égal à 7 est neutre, et une solution de pH supérieur à 7 est basique. Cette échelle est logarithmique : une solution de pH 3 est dix fois plus acide qu'une solution de pH 4 et cent fois plus qu'une solution de pH 5. Le jus de citron a un pH voisin de 2, le vinaigre de 3, l'eau pure de 7, l'eau de mer d'environ 8, et une solution de soude peut dépasser 13. Le suc gastrique de l'estomac, très riche en acide chlorhydrique, atteint un pH de 1 à 2. On mesure le pH avec du papier indicateur, avec un indicateur coloré comme le bleu de bromothymol, ou plus précisément avec un pH-mètre. Lorsqu'un acide et une base réagissent, ils se neutralisent en formant de l'eau et un sel : cette réaction est exothermique, elle dégage de la chaleur. On l'utilise pour soulager les brûlures d'estomac avec des pansements à base de bicarbonate, ou pour corriger l'acidité des sols agricoles par chaulage.",
+   "visuel": {
+    "type": "barres",
+    "titre": "L'échelle de pH, du plus acide au plus basique",
+    "donnees": [
+     {
+      "label": "Suc gastrique",
+      "valeur": 1.5,
+      "affichage": "pH 1 à 2"
+     },
+     {
+      "label": "Jus de citron",
+      "valeur": 2,
+      "affichage": "pH 2"
+     },
+     {
+      "label": "Vinaigre",
+      "valeur": 3,
+      "affichage": "pH 3"
+     },
+     {
+      "label": "Eau pure (neutre)",
+      "valeur": 7,
+      "focus": true,
+      "affichage": "pH 7"
+     },
+     {
+      "label": "Eau de mer",
+      "valeur": 8,
+      "affichage": "pH 8"
+     },
+     {
+      "label": "Solution de soude",
+      "valeur": 13,
+      "affichage": "pH 13"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "Les combustions et leurs produits",
+   "texte": "Une combustion est une réaction chimique entre un combustible et un comburant, presque toujours le dioxygène de l'air, qui libère de l'énergie sous forme de chaleur et souvent de lumière. Pour qu'un feu prenne, il faut réunir trois éléments que l'on figure par le triangle du feu : un combustible, un comburant et une énergie d'activation apportée par une étincelle ou une flamme. Supprimer l'un des trois suffit à éteindre l'incendie, ce qui explique le fonctionnement des extincteurs à dioxyde de carbone, qui étouffent la flamme en chassant l'air. La combustion complète du carbone produit du dioxyde de carbone. Celle du méthane, principal composant du gaz naturel, s'écrit : une molécule de méthane réagit avec deux molécules de dioxygène pour donner une molécule de dioxyde de carbone et deux molécules d'eau. La combustion est dite incomplète lorsque le dioxygène manque : elle produit alors du carbone sous forme de suie, qui rend la flamme jaune et fumeuse, et surtout du monoxyde de carbone, gaz incolore et inodore. Ce dernier est un poison redoutable car il se fixe sur l'hémoglobine du sang à la place du dioxygène, provoquant chaque année des intoxications mortelles dans des logements mal ventilés. Toute combustion respecte la loi de conservation de la masse énoncée par Lavoisier vers 1789 : rien ne se perd, rien ne se crée, tout se transforme. La masse totale des réactifs égale celle des produits.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Combustion complète ou incomplète",
+    "colonnes": [
+     {
+      "titre": "Combustion complète",
+      "points": [
+       "Le dioxygène est en quantité suffisante",
+       "Produits : dioxyde de carbone et eau",
+       "Flamme bleue et propre",
+       "Le méthane donne du dioxyde de carbone et de l'eau"
+      ]
+     },
+     {
+      "titre": "Combustion incomplète",
+      "points": [
+       "Le dioxygène manque",
+       "Produits : suie et monoxyde de carbone",
+       "Flamme jaune et fumeuse",
+       "Le monoxyde de carbone, incolore et inodore, se fixe sur l'hémoglobine et tue"
+      ]
+     }
+    ],
+    "note": "Le triangle du feu : combustible, comburant, énergie d'activation. Supprimer l'un des trois éteint la flamme."
+   }
+  },
+  {
+   "titre": "Oxydation, corrosion et chimie de l'entretien",
+   "texte": "L'oxydation est une réaction au cours de laquelle une espèce chimique perd des électrons ; elle est toujours accompagnée d'une réduction, où une autre espèce les capte. On parle de réaction d'oxydoréduction. La rouille en est l'exemple le plus familier : en présence d'eau et de dioxygène, le fer s'oxyde lentement en oxyde de fer hydraté, poreux et friable, qui n'arrête pas la corrosion et laisse le métal se dégrader en profondeur. L'aluminium, au contraire, forme spontanément une couche d'alumine très fine, compacte et adhérente, qui le protège : on dit qu'il est passivé. Pour protéger l'acier, on utilise la peinture, la galvanisation par dépôt de zinc, ou des anodes sacrificielles en zinc ou en magnésium, métaux qui s'oxydent à la place de la pièce à préserver. La chimie domestique repose sur ces mêmes principes. Le savon est fabriqué par saponification, réaction entre un corps gras et une base forte ; sa molécule possède une extrémité hydrophile attirée par l'eau et une longue chaîne hydrophobe attirée par les graisses, ce qui lui permet de disperser les salissures en micelles. L'eau de Javel, à base d'hypochlorite de sodium, est un oxydant puissant qui désinfecte et décolore. Il ne faut jamais la mélanger à un produit acide comme un détartrant, car la réaction dégage du dichlore, un gaz toxique. Ces exemples montrent que la sécurité chimique commence par la lecture des étiquettes et des pictogrammes de danger."
+  },
+  {
+   "titre": "Les matières plastiques et les polymères",
+   "texte": "Un polymère est une très grande molécule formée par l'enchaînement répété d'un motif élémentaire appelé monomère. La nature en produit depuis toujours : la cellulose du bois, l'amidon, les protéines et le caoutchouc naturel sont des polymères. Depuis le début du XXe siècle, l'industrie fabrique des polymères de synthèse, obtenus le plus souvent à partir du pétrole. Le polyéthylène, issu de la polymérisation de l'éthylène, sert aux sacs et aux flacons ; le polychlorure de vinyle, ou PVC, aux canalisations et aux fenêtres ; le polystyrène aux emballages isolants ; le polyéthylène téréphtalate, ou PET, aux bouteilles de boisson ; le polyamide, connu sous le nom de nylon, aux textiles. On distingue les thermoplastiques, qui ramollissent en chauffant et peuvent donc être refondus et recyclés, des thermodurcissables, qui se figent définitivement lors de leur fabrication. Les plastiques doivent leur succès à leur légèreté, à leur faible coût, à leur résistance à la corrosion et à leur facilité de mise en forme. Ces mêmes qualités font aussi leur inconvénient majeur : leur stabilité chimique les rend très peu biodégradables, et leur dégradation mécanique produit des microplastiques que l'on retrouve aujourd'hui dans les océans, les sols et les organismes vivants. La production mondiale dépasse plusieurs centaines de millions de tonnes par an, alors que le taux de recyclage reste faible. Des recherches portent sur les bioplastiques issus de ressources végétales et sur le recyclage chimique, qui dépolymérise la matière pour reconstruire des molécules neuves.",
+   "visuel": {
+    "type": "tableau",
+    "titre": "Les grandes familles de plastiques",
+    "colonnes": [
+     "Polymère",
+     "Sigle",
+     "Usages courants"
+    ],
+    "lignes": [
+     [
+      "Polyéthylène",
+      "PE",
+      "Sacs, flacons"
+     ],
+     [
+      "Polychlorure de vinyle",
+      "PVC",
+      "Canalisations, fenêtres"
+     ],
+     [
+      "Polystyrène",
+      "PS",
+      "Emballages isolants"
+     ],
+     [
+      "Polyéthylène téréphtalate",
+      "PET",
+      "Bouteilles de boisson"
+     ],
+     [
+      "Polyamide",
+      "Nylon",
+      "Textiles"
+     ]
+    ],
+    "note": "Les thermoplastiques ramollissent en chauffant et se recyclent ; les thermodurcissables se figent définitivement."
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Une solution dont le pH vaut 3 est dix fois plus acide qu'une solution de pH :",
+   "choix": [
+    "pH 2",
+    "pH 4",
+    "pH 30",
+    "pH 7"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "L'échelle de pH est logarithmique en base dix : lorsque le pH diminue d'une unité, l'acidité est multipliée par dix. Une solution de pH 3 est donc dix fois plus acide qu'une solution de pH 4 et cent fois plus acide qu'une solution de pH 5. Inversement, une solution de pH 2 est dix fois plus acide que celle de pH 3. Le pH 7 correspond à la neutralité de l'eau pure à 25 degrés Celsius, et un pH de 30 n'a pas de sens sur l'échelle usuelle qui va de 0 à 14."
+  },
+  {
+   "q": "Quel gaz toxique, incolore et inodore, se forme lors d'une combustion incomplète ?",
+   "choix": [
+    "Le dioxyde de carbone",
+    "Le dioxygène",
+    "Le monoxyde de carbone",
+    "Le diazote"
+   ],
+   "bonne": 2,
+   "difficulte": 1,
+   "explication": "Lorsque le dioxygène est en quantité insuffisante, la combustion d'un composé carboné est incomplète : elle produit de la suie et du monoxyde de carbone. Ce gaz est particulièrement dangereux car il est à la fois incolore, inodore et non irritant, donc indétectable par les sens. Il se fixe sur l'hémoglobine du sang environ deux cents fois plus fortement que le dioxygène, empêchant le transport de ce dernier vers les organes. Il provoque chaque année des intoxications graves, souvent dues à des chauffages défectueux ou à des locaux mal ventilés. Le dioxyde de carbone, lui, est le produit d'une combustion complète."
+  },
+  {
+   "q": "Pourquoi l'aluminium résiste-t-il beaucoup mieux à la corrosion que le fer ?",
+   "choix": [
+    "Il forme une couche d'alumine compacte et adhérente qui protège le métal",
+    "Il ne réagit pas du tout avec le dioxygène de l'air",
+    "Il est un métal plus noble que l'or",
+    "Il est recouvert en usine d'une peinture invisible"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "L'aluminium est en réalité un métal très réactif, qui s'oxyde immédiatement au contact de l'air. Mais l'oxyde qu'il forme, l'alumine, constitue une pellicule extrêmement fine, compacte et fortement adhérente qui isole le métal sous-jacent et bloque la poursuite de l'oxydation : on parle de passivation. La rouille du fer, au contraire, est poreuse et friable, elle se détache et laisse constamment une surface neuve exposée à l'air humide, si bien que la corrosion progresse en profondeur. Pour protéger l'acier, on recourt donc à la peinture, à la galvanisation ou à des anodes sacrificielles."
+  },
+  {
+   "q": "Qu'est-ce qu'un polymère ?",
+   "choix": [
+    "Un mélange homogène de deux métaux fondus",
+    "Un gaz formé lors de la combustion des hydrocarbures",
+    "Un sel obtenu par réaction entre un acide et une base",
+    "Une très grande molécule formée par la répétition d'un motif appelé monomère"
+   ],
+   "bonne": 3,
+   "difficulte": 1,
+   "explication": "Un polymère est une macromolécule constituée par l'enchaînement, souvent des milliers de fois, d'une petite unité de base nommée monomère. Le polyéthylène résulte ainsi de la polymérisation de l'éthylène. La nature fabrique elle aussi des polymères, comme la cellulose, l'amidon, les protéines ou le caoutchouc naturel. Un mélange homogène de métaux est un alliage, et un sel provient d'une réaction acide-base. La longueur des chaînes explique les propriétés mécaniques des plastiques, mais aussi leur grande stabilité chimique et donc leur très lente dégradation dans l'environnement."
+  },
+  {
+   "q": "Pourquoi ne doit-on jamais mélanger l'eau de Javel avec un détartrant acide ?",
+   "choix": [
+    "Parce que le mélange devient inefficace pour désinfecter",
+    "Parce que la réaction dégage du dichlore, un gaz toxique",
+    "Parce que le mélange durcit et bouche les canalisations",
+    "Parce que le mélange devient inflammable et prend feu"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "L'eau de Javel est une solution d'hypochlorite de sodium. En présence d'un acide, comme un détartrant à base d'acide chlorhydrique ou sulfamique, elle libère du dichlore gazeux. Ce gaz jaune-vert est un poison respiratoire violent, qui attaque les muqueuses et les poumons, et qui fut employé comme arme chimique pendant la Première Guerre mondiale. Les accidents domestiques de ce type sont fréquents lors du nettoyage de sanitaires en espace confiné. C'est pourquoi les pictogrammes de danger et les consignes des étiquettes doivent toujours être lus avant d'associer deux produits d'entretien."
+  }
+ ]
+}

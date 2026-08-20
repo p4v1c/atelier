@@ -1,0 +1,170 @@
+{
+ "titre": "Le roman policier, du crime au thriller",
+ "sections": [
+  {
+   "titre": "Naissance d'un genre au XIXe siècle",
+   "texte": "Le roman policier, que l'on appelle familièrement le polar en France, est le genre littéraire construit autour de l'élucidation d'une énigme. Le critique Régis Messac en donnait en 1929 une définition restée célèbre : un crime mystérieux, progressivement éclairci par le raisonnement et les investigations d'un enquêteur. Le genre apparaît dans la littérature occidentale au XIXe siècle, et cette naissance n'a rien d'un hasard : elle accompagne l'industrialisation, la croissance des grandes villes, la création de polices modernes et le prestige nouveau de la démarche scientifique, qui fait de l'observation et de la déduction des vertus admirées. L'acte de naissance est traditionnellement fixé en 1841, avec les nouvelles d'Edgar Allan Poe, qui inventent la figure du détective raisonneur résolvant une affaire impossible par la seule force de l'analyse. En France, Émile Gaboriau donne en 1863 un roman fondateur qui installe le genre dans le feuilleton populaire. C'est ensuite Arthur Conan Doyle qui lui donne son visage le plus durable avec Sherlock Holmes, détective savant capable de lire tout un passé dans un détail matériel. Le succès public ne s'est jamais démenti depuis : en France, le roman policier représentait encore environ dix-sept pour cent des ventes de fiction en 2018, et il touche des lecteurs de tous les milieux sociaux, ce qui en fait l'un des rares genres véritablement transversaux.",
+   "visuel": {
+    "type": "frise",
+    "titre": "Les étapes de la fiction criminelle",
+    "evenements": [
+     {
+      "date": "1841",
+      "label": "Edgar Allan Poe",
+      "texte": "Acte de naissance du genre : le détective raisonneur"
+     },
+     {
+      "date": "1863",
+      "label": "Émile Gaboriau",
+      "texte": "Le genre entre dans le feuilleton populaire français"
+     },
+     {
+      "date": "1915",
+      "label": "« Les Trente-Neuf Marches »",
+      "texte": "John Buchan, aux origines du thriller"
+     },
+     {
+      "date": "1920",
+      "label": "« La Mystérieuse Affaire de Styles »",
+      "texte": "Agatha Christie et l'âge d'or du roman à énigme"
+     },
+     {
+      "date": "années 1920",
+      "label": "Les récits hard-boiled",
+      "texte": "Le roman noir américain naît dans les pulps"
+     },
+     {
+      "date": "1945",
+      "label": "La Série noire",
+      "texte": "Marcel Duhamel la fonde chez Gallimard"
+     },
+     {
+      "date": "années 1970",
+      "label": "Le néo-polar",
+      "texte": "Jean-Patrick Manchette lie roman noir et critique sociale"
+     }
+    ]
+   }
+  },
+  {
+   "titre": "L'âge d'or du roman à énigme",
+   "texte": "Les années 1920 et 1930 constituent l'âge d'or du roman à énigme, dominé par des auteurs britanniques et, fait notable, par de nombreuses femmes, qui s'imposent dans le genre à partir des années 1920 et en élargissent considérablement le public. Le principe est celui d'un jeu réglé entre l'auteur et le lecteur : un crime, un cercle fermé de suspects, des indices distribués honnêtement, et une solution qui doit surprendre sans jamais tricher. Agatha Christie, née en 1890 et morte en 1976, en reste la figure absolue. Son œuvre compte soixante-sept romans, cent quatre-vingt-dix nouvelles réunies en recueils et dix-huit pièces de théâtre. Elle crée deux enquêteurs opposés et complémentaires : Hercule Poirot, professionnel belge à la vanité méthodique, apparu dès « La Mystérieuse Affaire de Styles » en 1920, et Miss Marple, vieille dame anglaise qui déduit tout de sa connaissance de la nature humaine. « Le Meurtre de Roger Ackroyd », en 1926, l'installe au premier rang par un coup de force narratif resté fameux. Suivent « Le Crime de l'Orient-Express » en 1934, « Mort sur le Nil » en 1937 et « Dix Petits Nègres », publié en 1939 et aujourd'hui édité sous le titre « Ils étaient dix ». Sa pièce « La Souricière », créée en 1952, détient le record de longévité du théâtre britannique."
+  },
+  {
+   "titre": "Le roman noir américain",
+   "texte": "Pendant que le roman à énigme triomphe en Angleterre, l'Amérique invente autre chose. Dans les années 1920 paraissent dans les pulps, magazines populaires imprimés sur papier bon marché, des récits dits hard-boiled, littéralement durs à cuire. Dashiell Hammett et Carroll John Daly en sont les pionniers. Le roman noir qui en sort se définit moins par l'énigme que par un univers violent, un regard tragique et pessimiste sur la société et un fort ancrage dans le réel : crime organisé, corruption de la police, dérives du capitalisme y sont montrés non comme un simple décor mais comme le véritable sujet. La langue elle-même change, adoptant l'argot des rues pour restituer le parler des milieux qu'elle décrit. Le détective privé n'y est plus un pur esprit : il encaisse des coups, boit, doute, et découvre souvent que la vérité ne répare rien. Raymond Chandler prolongera cette veine en lui donnant une écriture d'une grande qualité littéraire. Ce basculement transforme durablement le genre : le lecteur n'attend plus seulement de savoir qui a tué, mais comprend en chemin comment une société produit ses crimes. Le roman noir devient ainsi un instrument de critique sociale, ce qui explique qu'il ait attiré des écrivains venus d'horizons très différents et qu'il ait été pris au sérieux par la critique bien avant le roman à énigme."
+  },
+  {
+   "titre": "La Série noire et le néo-polar français",
+   "texte": "Le roman noir américain arrive en France par une collection devenue légendaire. En 1945, Marcel Duhamel fonde chez Gallimard la Série noire, dont la couverture noire et jaune deviendra l'emblème du genre. Elle traduit d'abord les Américains, avant d'accueillir des auteurs français comme Léo Malet ou Jean Amila. Le mot polar lui doit une bonne part de sa fortune, et la collection impose en France l'idée qu'un roman criminel peut être une œuvre littéraire à part entière. Le tournant suivant se produit dans les années 1970. Sous l'impulsion de Jean-Patrick Manchette, qui est aussi critique et théoricien du genre, se développe ce que l'on a appelé le néo-polar. Ce mouvement noue le roman noir et l'engagement politique de gauche dans le sillage de mai 1968 : la fiction criminelle y sert à décrire les rapports de force sociaux, les violences policières, la marchandisation du monde. La forme reste tendue et efficace, mais le crime devient le symptôme d'un désordre collectif plutôt que l'affaire d'un coupable isolé. Cette tradition a durablement marqué la production française et lui a donné une identité distincte du modèle anglo-saxon. Le genre continue depuis de se diversifier, avec des variantes historiques, humoristiques ou d'espionnage, et des récits de procédure policière suivant le travail collectif d'une équipe."
+  },
+  {
+   "titre": "Le thriller, de l'énigme au suspense",
+   "texte": "Le thriller constitue aujourd'hui la branche la plus visible de la fiction criminelle, et il repose sur un principe presque inverse de celui du roman à énigme. Il vise avant tout à produire chez le lecteur une excitation continue, par le suspense et la tension narrative maintenus jusqu'au dénouement. Là où le roman policier classique cherche à découvrir qui a commis un crime déjà accompli, le thriller cherche à empêcher un malheur à venir : l'identité du criminel est souvent connue dès le début, et l'intérêt vient de la course contre la montre engagée pour l'arrêter. Le récit adopte fréquemment le point de vue de la victime menacée, voire celui du tueur, et joue sur les informations que le lecteur possède et que les personnages ignorent. On fait souvent remonter le genre à « Les Trente-Neuf Marches » de John Buchan, publié en 1915, avant qu'Alfred Hitchcock n'en porte les ressorts à la perfection au cinéma. Le thriller s'est ensuite ramifié en de nombreuses variantes : le thriller psychologique, centré sur la manipulation mentale et l'obsession et parfois proche de l'épouvante, le thriller paranoïaque bâti sur le complot et l'accusation injuste, ou encore les déclinaisons judiciaires, médicales et politiques. Patricia Highsmith en offre une version littéraire exigeante, tandis que des auteurs comme Dan Brown en ont fait un phénomène de librairie mondial.",
+   "visuel": {
+    "type": "comparaison",
+    "titre": "Roman à énigme et thriller",
+    "colonnes": [
+     {
+      "titre": "Le roman à énigme",
+      "points": [
+       "Un crime déjà accompli",
+       "La question est : qui a tué ?",
+       "Un cercle fermé de suspects et des indices distribués honnêtement",
+       "Le plaisir vient de la solution, qui doit surprendre sans tricher"
+      ]
+     },
+     {
+      "titre": "Le thriller",
+      "points": [
+       "Un malheur à venir, qu'il faut empêcher",
+       "Le criminel est souvent connu dès le début",
+       "Le point de vue de la victime menacée, parfois du tueur",
+       "Le plaisir vient du suspense et de la course contre la montre"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "q": "En quelle année Marcel Duhamel fonde-t-il la Série noire chez Gallimard ?",
+   "choix": [
+    "1929",
+    "1945",
+    "1958",
+    "1968"
+   ],
+   "bonne": 1,
+   "difficulte": 2,
+   "explication": "La Série noire est créée en 1945 par Marcel Duhamel aux éditions Gallimard. Elle publie d'abord des traductions d'auteurs américains du roman noir avant d'accueillir des écrivains français comme Léo Malet ou Jean Amila. Sa couverture noire et jaune est devenue l'emblème du genre en France, et le mot polar doit beaucoup à son succès. Elle a joué un rôle décisif en faisant admettre que le roman criminel pouvait être une véritable œuvre littéraire. C'est dans son sillage que naîtra, dans les années 1970, le néo-polar."
+  },
+  {
+   "q": "Quel roman d'Agatha Christie, paru en 1926, l'a imposée au premier rang du genre ?",
+   "choix": [
+    "« Le Crime de l'Orient-Express »",
+    "« Mort sur le Nil »",
+    "« Le Meurtre de Roger Ackroyd »",
+    "« La Mystérieuse Affaire de Styles »"
+   ],
+   "bonne": 2,
+   "difficulte": 2,
+   "explication": "« Le Meurtre de Roger Ackroyd », publié en 1926, a fait d'Agatha Christie une figure majeure du roman policier grâce à un procédé narratif audacieux qui a longtemps fait débat parmi les amateurs du genre. « La Mystérieuse Affaire de Styles », en 1920, était son premier roman et l'entrée en scène d'Hercule Poirot. « Le Crime de l'Orient-Express » date de 1934 et « Mort sur le Nil » de 1937. Son œuvre compte au total soixante-sept romans, cent quatre-vingt-dix nouvelles et dix-huit pièces de théâtre, dont « La Souricière », créée en 1952."
+  },
+  {
+   "q": "Qu'est-ce qui distingue principalement le thriller du roman à énigme ?",
+   "choix": [
+    "Il empêche un danger à venir plutôt que d'élucider un crime passé",
+    "Il se déroule toujours en huis clos",
+    "Il refuse toute présence policière",
+    "Il est écrit exclusivement à la première personne"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le roman à énigme part d'un crime déjà commis et progresse vers la découverte du coupable, tandis que le thriller met en scène une menace en cours qu'il faut arrêter. L'identité du criminel y est souvent révélée dès le début, et la tension naît de la course contre la montre. Le récit adopte fréquemment le point de vue de la victime, voire celui du tueur, ce qui donne au lecteur des informations que les personnages n'ont pas. On fait souvent remonter le genre à « Les Trente-Neuf Marches » de John Buchan, paru en 1915. Le huis clos est au contraire une figure typique du roman à énigme."
+  },
+  {
+   "q": "Quel critique et romancier est associé au néo-polar français des années 1970 ?",
+   "choix": [
+    "Régis Messac",
+    "Léo Malet",
+    "Marcel Duhamel",
+    "Jean-Patrick Manchette"
+   ],
+   "bonne": 3,
+   "difficulte": 3,
+   "explication": "Jean-Patrick Manchette, à la fois romancier, critique et théoricien, est la figure centrale du néo-polar, mouvement apparu dans les années 1970. Le néo-polar associe le roman noir à un engagement politique de gauche né dans le sillage de mai 1968 : le crime y devient le symptôme d'un désordre social plutôt que la faute d'un individu isolé. Régis Messac est l'auteur d'une définition classique du roman policier formulée en 1929. Marcel Duhamel a fondé la Série noire en 1945, et Léo Malet fut l'un des premiers auteurs français qu'elle publia."
+  },
+  {
+   "q": "Dans quel type de publication naît le roman noir américain des années 1920 ?",
+   "choix": [
+    "Les grands quotidiens du soir",
+    "Les pulps, magazines populaires à bas prix",
+    "Les revues universitaires",
+    "Les almanachs illustrés pour la jeunesse"
+   ],
+   "bonne": 1,
+   "difficulte": 1,
+   "explication": "Le roman noir américain naît dans les pulps, magazines bon marché imprimés sur un papier de mauvaise qualité qui leur a donné leur nom. On y publie dans les années 1920 les récits dits hard-boiled, dont Dashiell Hammett et Carroll John Daly sont les pionniers. Ces textes rompent avec le jeu intellectuel du roman à énigme pour montrer un univers violent, la corruption policière et le crime organisé, avec un regard pessimiste sur la société. Ils adoptent aussi l'argot des rues pour restituer la langue des milieux décrits. Raymond Chandler donnera ensuite à cette veine une véritable ambition littéraire."
+  }
+ ],
+ "sources": [
+  {
+   "titre": "Roman policier",
+   "url": "https://fr.wikipedia.org/wiki/Roman_policier"
+  },
+  {
+   "titre": "Roman noir",
+   "url": "https://fr.wikipedia.org/wiki/Roman_noir"
+  },
+  {
+   "titre": "Agatha Christie",
+   "url": "https://fr.wikipedia.org/wiki/Agatha_Christie"
+  },
+  {
+   "titre": "Thriller (genre)",
+   "url": "https://fr.wikipedia.org/wiki/Thriller_(genre)"
+  }
+ ]
+}
