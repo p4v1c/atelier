@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import "./globals.css";
+import "./modules/culture-g.css";
 
 export const metadata = {
   title: "La Règle",

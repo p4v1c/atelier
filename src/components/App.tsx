@@ -26,6 +26,8 @@ import { Catalogue } from "./screens/Catalogue";
 import { Dictees } from "./screens/Dictees";
 import { Dictee } from "./screens/Dictee";
 import { Connexion, Inscription, Compte } from "./screens/Auth";
+import { presentation } from "./modules";
+import type { EcranModule } from "./modules/types";
 
 export type Screen =
   | { name: "atelier" }
@@ -96,6 +98,17 @@ export function App() {
     };
   }, [engine]);
 
+  /** Lance une série dans le module courant, depuis la navigation du module. */
+  const demarrerSerie = useCallback(async () => {
+    if (!engine) return;
+    try {
+      const session = await engine.start({ mode: "training", size: 20, category: null, moduleId });
+      setScreen({ name: "serie", session });
+    } catch {
+      setScreen({ name: "accueil" });
+    }
+  }, [engine, moduleId]);
+
   const choisirModule = useCallback((id: string) => {
     setModuleId(id);
     try {
@@ -152,8 +165,55 @@ export function App() {
   const nomModule = modules.find((m) => m.id === moduleId)?.name ?? "La Règle";
   const [debut, fin] = surAtelier ? ["L’", "Atelier"] : titreModule(nomModule);
 
+  /**
+   * L'apparence du module ouvert.
+   *
+   * L'Atelier lui-même n'en a pas : c'est le vestibule, il garde le sien.
+   * Un module qui dessine son propre en-tête fait taire celui de l'ossature —
+   * c'est ce qui lui permet de ressembler à un autre site plutôt qu'à une
+   * page de plus.
+   */
+  const look = surAtelier ? {} : presentation(moduleId);
+  const enteteCachee = Boolean(look.enteteAutonome) && !surAtelier;
+
+  /**
+   * Où la navigation du module doit-elle se croire ?
+   *
+   * On traduit l'écran courant vers le vocabulaire du module, pour que son
+   * onglet actif reste juste même sur un écran générique.
+   */
+  const ongletActif: EcranModule =
+    screen.name === "serie" || screen.name === "bilan"
+      ? "serie"
+      : screen.name === "catalogue" || screen.name === "lecon"
+        ? "catalogue"
+        : screen.name === "stats"
+          ? "stats"
+          : "accueil";
+
+  /** Pose l'enveloppe du module autour de l'écran, quand il en fournit une. */
+  const enveloppe = (contenu: React.ReactNode): React.ReactNode => {
+    const Enveloppe = surAtelier ? undefined : look.enveloppe;
+    if (!Enveloppe) return contenu;
+    return (
+      <Enveloppe
+        actif={ongletActif}
+        onde={(destination) => {
+          if (destination === "serie") {
+            void demarrerSerie();
+            return;
+          }
+          setScreen({ name: destination } as Screen);
+        }}
+      >
+        {contenu}
+      </Enveloppe>
+    );
+  };
+
   return (
-    <div className="app">
+    <div className="app" data-module={surAtelier ? undefined : (look.theme ?? undefined)}>
+      {!enteteCachee && (
       <div className="entete">
         <p className="eyebrow">{chrome.fil}</p>
         <h1>
@@ -167,8 +227,9 @@ export function App() {
           </button>
         )}
       </div>
+      )}
       <div id="scene">
-        {erreur ? (
+        {enveloppe(erreur ? (
           <div className="carte">
             <p className="alerte">{erreur}</p>
           </div>
@@ -177,28 +238,45 @@ export function App() {
         ) : screen.name === "atelier" ? (
           <Atelier {...props} choisirModule={choisirModule} />
         ) : screen.name === "accueil" ? (
-          <Accueil {...props} />
+          // L'écran du module s'il en fournit un, sinon le générique.
+          look.ecrans?.accueil ? (
+            <look.ecrans.accueil {...props} />
+          ) : (
+            <Accueil {...props} />
+          )
         ) : screen.name === "serie" ? (
           <Serie {...props} session={screen.session} />
         ) : screen.name === "bilan" ? (
           <Bilan {...props} summary={screen.summary} category={screen.category} />
         ) : screen.name === "stats" ? (
-          <Stats {...props} />
+          look.ecrans?.stats ? (
+            <look.ecrans.stats {...props} />
+          ) : (
+            <Stats {...props} />
+          )
         ) : screen.name === "catalogue" ? (
-          <Catalogue {...props} />
+          look.ecrans?.catalogue ? (
+            <look.ecrans.catalogue {...props} />
+          ) : (
+            <Catalogue {...props} />
+          )
         ) : screen.name === "dictees" ? (
           <Dictees {...props} />
         ) : screen.name === "dictee" ? (
           <Dictee {...props} id={screen.id} />
         ) : screen.name === "lecon" ? (
-          <Lecon {...props} slug={screen.slug} />
+          look.ecrans?.lecon ? (
+            <look.ecrans.lecon {...props} slug={screen.slug} />
+          ) : (
+            <Lecon {...props} slug={screen.slug} />
+          )
         ) : screen.name === "connexion" ? (
           <Connexion {...props} />
         ) : screen.name === "inscription" ? (
           <Inscription {...props} />
         ) : (
           <Compte {...props} />
-        )}
+        ))}
       </div>
     </div>
   );

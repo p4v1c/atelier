@@ -80,6 +80,11 @@ model Skill {
   /// jamais : il ne fait que le servir à l'écran de lecture.
   lesson Json?
 
+  /// Niveau du cadre européen : "A1" à "C2". Null hors des langues.
+  /// Sert à situer l'apprenant, pas à ordonner les séries — ça, c'est le
+  /// palier qui s'en charge.
+  level String?
+
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
@@ -90,6 +95,7 @@ model Skill {
   dictations Dictation[]     @relation("DictationSkills")
 
   @@index([moduleId, status])
+  @@index([moduleId, level, status])
   @@index([categoryId, status])
   @@index([status, difficulty])
 }
@@ -125,21 +131,30 @@ model Exercise {
 }
 
 model Dictation {
-  id         String        @id @default(cuid())
-  moduleId   String        @default("francais")
+  id         String @id @default(cuid())
+  moduleId   String @default("francais")
   /// Unique : garde-fou anti-doublon, et clé d'idempotence du seed.
-  text       String        @unique
+  text       String @unique
   theme      String
   difficulty Int // 1 à 3
-  status     ContentStatus @default(active)
-  batch      String?
-  createdAt  DateTime      @default(now())
+
+  /// Étiquette de voix pour la lecture : "fr-FR", "en-GB", "en-US", "es-MX".
+  /// Varier l'accent d'une dictée à l'autre est le seul moyen d'habituer
+  /// l'oreille à autre chose qu'à une seule prononciation.
+  voice String  @default("fr-FR")
+  /// Niveau du cadre européen, comme pour les compétences.
+  level String?
+
+  status    ContentStatus @default(active)
+  batch     String?
+  createdAt DateTime      @default(now())
 
   module   Module             @relation(fields: [moduleId], references: [id], onDelete: Cascade)
   skills   Skill[]            @relation("DictationSkills")
   attempts DictationAttempt[]
 
   @@index([moduleId, difficulty, status])
+  @@index([moduleId, level])
   @@index([difficulty, status])
 }
 
