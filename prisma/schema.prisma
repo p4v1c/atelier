@@ -1,0 +1,257 @@
+// La Règle — schéma de données
+// Postgres uniquement (dev et prod), voir README pour le pourquoi.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+/* ─────────────────────────── CONTENU ─────────────────────────── */
+
+enum ContentStatus {
+  active // servi en exercice, compté dans le score
+  draft // rédigé mais pas encore relu, jamais servi
+  disputed // usage partagé : présenté comme point de débat, jamais compté comme faute
+}
+
+model Category {
+  id        String   @id @default(cuid())
+  slug      String   @unique
+  name      String   @unique
+  position  Int
+  createdAt DateTime @default(now())
+
+  rules            Rule[]
+  defaultForUsers  UserSettings[]
+
+  @@index([position])
+}
+
+model Rule {
+  id         String        @id @default(cuid())
+  slug       String        @unique // identifiant lisible, ex. "a-à" — repris du fichier d'origine
+  categoryId String
+  title      String // t
+  statement  String // r — HTML léger, <b> uniquement
+  tip        String // astuce
+  difficulty Int // 1 à 3
+  status     ContentStatus @default(active)
+  batch      String? // lot de génération : "legacy" ou "batch-007"
+  createdAt  DateTime      @default(now())
+  updatedAt  DateTime      @updatedAt
+
+  category   Category       @relation(fields: [categoryId], references: [id], onDelete: Restrict)
+  sentences  Sentence[]
+  progress   RuleProgress[]
+  dictations Dictation[]    @relation("DictationRules")
+
+  @@index([categoryId, status])
+  @@index([status, difficulty])
+}
+
+model Sentence {
+  id     String @id @default(cuid())
+  ruleId String
+
+  /// Texte propre, SANS crochets. Les crochets sont un format d'import, pas de stockage.
+  text String
+
+  /// Texte normalisé (minuscules, accents et ponctuation retirés) — garde-fou anti-doublon en base.
+  textNormalized String @unique
+
+  /// Index du token fautif dans tokenize(text). -1 si la phrase est correcte.
+  faultyTokenIndex Int
+
+  /// Forme correcte attendue. null si et seulement si faultyTokenIndex === -1.
+  correction String?
+
+  /// Redondant avec faultyTokenIndex mais explicite, et indexable.
+  isCorrect  Boolean
+
+  difficulty Int
+  status     ContentStatus @default(active)
+  batch      String?
+  createdAt  DateTime      @default(now())
+  updatedAt  DateTime      @updatedAt
+
+  rule     Rule      @relation(fields: [ruleId], references: [id], onDelete: Cascade)
+  attempts Attempt[]
+
+  @@index([ruleId, status])
+}
+
+model Dictation {
+  id         String        @id @default(cuid())
+  /// Unique : garde-fou anti-doublon, et clé d'idempotence du seed.
+  text       String        @unique
+  theme      String
+  difficulty Int // 1 à 3
+  status     ContentStatus @default(active)
+  batch      String?
+  createdAt  DateTime      @default(now())
+
+  rules    Rule[]              @relation("DictationRules")
+  attempts DictationAttempt[]
+
+  @@index([difficulty, status])
+}
+
+/* ──────────────────── UTILISATEURS ET SESSIONS ──────────────────── */
+
+model User {
+  id            String    @id @default(cuid())
+  /// Email tel que saisi (affichage).
+  email         String
+  /// Email en minuscules — c'est LUI qui porte l'unicité (insensibilité à la casse).
+  emailKey      String    @unique
+  passwordHash  String
+  pseudo        String
+  createdAt     DateTime  @default(now())
+  lastLoginAt   DateTime?
+
+  /// Compteur global de questions répondues : l'horloge du planificateur.
+  answerCounter Int       @default(0)
+  /// Date du test de positionnement, null s'il n'a pas été passé.
+  placementDoneAt DateTime?
+
+  sessions          Session[]
+  progress          RuleProgress[]
+  attempts          Attempt[]
+  studySessions     StudySession[]
+  dictationAttempts DictationAttempt[]
+  settings          UserSettings?
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  userId    String
+  /// SHA-256 du token de session. Le token en clair ne touche jamais la base.
+  tokenHash String   @unique
+  expiresAt DateTime
+  userAgent String?
+  ip        String?
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([expiresAt])
+}
+
+model UserSettings {
+  userId            String  @id
+  /// Longueur de série préférée : 10, 20 ou 35.
+  seriesLength      Int     @default(20)
+  defaultCategoryId String?
+  /// Options d'affichage (son des dictées, animations…), libre.
+  options           Json    @default("{}")
+
+  user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  defaultCategory Category? @relation(fields: [defaultCategoryId], references: [id], onDelete: SetNull)
+}
+
+/* ─────────────────────────── PROGRESSION ─────────────────────────── */
+
+model RuleProgress {
+  userId String
+  ruleId String
+
+  /// Palier 0 à 5.
+  box            Int      @default(0)
+  /// Échéance exprimée en nombre de questions répondues (User.answerCounter), pas en date.
+  dueAtCounter   Int      @default(0)
+  seenCount      Int      @default(0)
+  correctCount   Int      @default(0)
+  lastReviewedAt DateTime?
+  isNew          Boolean  @default(true)
+  /// Dernière phrase servie pour cette règle : évite de la resservir deux fois de suite.
+  lastSentenceId String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  rule Rule @relation(fields: [ruleId], references: [id], onDelete: Cascade)
+
+  @@id([userId, ruleId])
+  @@index([userId, dueAtCounter]) // la requête du planificateur
+  @@index([userId, isNew])
+}
+
+model Attempt {
+  id             String   @id @default(cuid())
+  userId         String
+  sentenceId     String
+  /// Index du token cliqué, -1 pour « Aucune faute ».
+  answerIndex    Int
+  isCorrect      Boolean
+  studySessionId String?
+  createdAt      DateTime @default(now())
+
+  user         User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  sentence     Sentence      @relation(fields: [sentenceId], references: [id], onDelete: Cascade)
+  studySession StudySession? @relation(fields: [studySessionId], references: [id], onDelete: SetNull)
+
+  @@index([userId, createdAt])
+  @@index([sentenceId])
+}
+
+enum StudySessionType {
+  test
+  training
+  targeted
+  weakness
+  dictation
+  /// Entraînement sur une seule règle, lancé depuis sa fiche au catalogue.
+  rule
+}
+
+model StudySession {
+  id            String           @id @default(cuid())
+  userId        String
+  type          StudySessionType
+  category      String?
+  /// Slug de la règle travaillée, pour les séries de type `rule`.
+  ruleSlug      String?
+  questionCount Int
+  score         Int? // pourcentage, null tant que la série n'est pas finie
+  startedAt     DateTime         @default(now())
+  finishedAt    DateTime?
+
+  user     User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  attempts Attempt[]
+
+  @@index([userId, startedAt])
+}
+
+model DictationAttempt {
+  id          String   @id @default(cuid())
+  userId      String
+  dictationId String
+  /// Texte saisi par l'utilisateur.
+  text        String
+  score       Int // pourcentage de mots justes
+  createdAt   DateTime @default(now())
+
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  dictation Dictation @relation(fields: [dictationId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+}
+
+/* ───────────────── LIMITATION DE DÉBIT (sans Redis) ───────────────── */
+
+enum AuthAction {
+  login
+  register
+}
+
+model AuthAttempt {
+  id        String     @id @default(cuid())
+  ip        String
+  action    AuthAction
+  createdAt DateTime   @default(now())
+
+  @@index([ip, action, createdAt])
+}

@@ -1,0 +1,11 @@
+node_modules
+.next
+dist
+.env.local
+prisma/seed/legacy.json
+tsconfig.tsbuildinfo
+
+# voix neuronale locale (piper) — non versionnées
+.venv-tts
+.voices
+sauvegardes

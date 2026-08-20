@@ -1,0 +1,5 @@
+#!/bin/sh
+# Validation du contenu avant chaque commit.
+# Activation : git config core.hooksPath .githooks
+set -e
+npm run --silent validate:content
