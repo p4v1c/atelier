@@ -37,6 +37,20 @@ type LeconSource = {
   sources?: { titre: string; url: string }[];
 };
 
+/**
+ * Un fichier de matière.
+ *
+ * Il porte les questions libres ET trois leçons, écrites avant que les autres
+ * ne soient sorties dans lecons/. Les oublier coûtait 42 leçons et 210
+ * questions — c'est exactement ce qui est arrivé au premier import.
+ */
+type SujetSource = {
+  id: string;
+  nom: string;
+  questions?: QuestionSource[];
+  cours?: LeconSource[];
+};
+
 function lireJson<T>(chemin: string): T {
   return JSON.parse(readFileSync(chemin, "utf8")) as T;
 }
@@ -163,42 +177,83 @@ function exercice(q: QuestionSource, batch: string): SeedExercise {
 
 /* ────────────────────────────── chargement ────────────────────────────── */
 
+/** Une leçon, d'où qu'elle vienne, traduite en compétence. */
+function leconEnSkill(
+  source: LeconSource,
+  sujet: { slug: string; name: string },
+  slug: string,
+  batch: string
+): SeedSkill | null {
+  const quiz = source.quiz ?? [];
+  // Une leçon sans quiz n'est pas jouable : elle serait servie en série sans
+  // aucune question. On la laisse de côté plutôt que de fabriquer du vide.
+  if (quiz.length < 2) return null;
+
+  const sections = (source.sections ?? []).map((s) => {
+    const bruts = s.visuel ? [s.visuel] : (s.visuels ?? []);
+    const visuels = bruts.map(convertirVisuel).filter((v): v is LessonVisuel => v !== null);
+    return { titre: s.titre, texte: s.texte, ...(visuels.length > 0 ? { visuels } : {}) };
+  });
+
+  const lesson: LessonDocument = {
+    titre: source.titre,
+    sections,
+    ...(source.sources?.length ? { sources: source.sources } : {}),
+  };
+
+  return {
+    slug,
+    category: sujet.name,
+    title: source.titre,
+    statement: accroche(sections[0]?.texte ?? source.titre),
+    tip: sections.length
+      ? `Cette leçon couvre : ${sections.map((s) => s.titre).join(" · ")}`
+      : "Lis le cours, puis teste-toi dessus.",
+    difficulty: niveauMoyen(quiz),
+    exercises: quiz.map((q) => exercice(q, batch)),
+    lesson,
+  };
+}
+
 function chargerLecons(sujet: { slug: string; name: string }): SeedSkill[] {
-  const dossier = join(RACINE, "lecons", sujet.slug);
-  if (!existsSync(dossier)) return [];
-
   const skills: SeedSkill[] = [];
-  for (const fichier of readdirSync(dossier).filter((f) => f.endsWith(".json")).sort()) {
-    const numero = fichier.replace(/\.json$/, "");
-    const source = lireJson<LeconSource>(join(dossier, fichier));
-    const quiz = source.quiz ?? [];
-    // Une leçon sans quiz n'est pas jouable : elle serait servie en série sans
-    // aucune question. On la laisse de côté plutôt que de fabriquer du vide.
-    if (quiz.length < 2) continue;
+  const vus = new Set<string>();
 
-    const sections = source.sections.map((s) => {
-      const bruts = s.visuel ? [s.visuel] : (s.visuels ?? []);
-      const visuels = bruts.map(convertirVisuel).filter((v): v is LessonVisuel => v !== null);
-      return { titre: s.titre, texte: s.texte, ...(visuels.length > 0 ? { visuels } : {}) };
-    });
-
-    const lesson: LessonDocument = {
-      titre: source.titre,
-      sections,
-      ...(source.sources?.length ? { sources: source.sources } : {}),
-    };
-
-    skills.push({
-      slug: `cg-${sujet.slug}-${numero}`,
-      category: sujet.name,
-      title: source.titre,
-      statement: accroche(source.sections[0]?.texte ?? source.titre),
-      tip: `Cette leçon couvre : ${sections.map((s) => s.titre).join(" · ")}`,
-      difficulty: niveauMoyen(quiz),
-      exercises: quiz.map((q) => exercice(q, `cg-lecons-${sujet.slug}`)),
-      lesson,
-    });
+  // 1. Les trois leçons rangées dans le fichier de matière.
+  const fichierSujet = join(RACINE, `${sujet.slug}.json`);
+  if (existsSync(fichierSujet)) {
+    const source = lireJson<SujetSource>(fichierSujet);
+    for (const [i, cours] of (source.cours ?? []).entries()) {
+      const skill = leconEnSkill(
+        cours,
+        sujet,
+        `cg-${sujet.slug}-c${String(i + 1).padStart(2, "0")}`,
+        `cg-lecons-${sujet.slug}`
+      );
+      if (skill) {
+        skills.push(skill);
+        vus.add(cours.titre.trim().toLowerCase());
+      }
+    }
   }
+
+  // 2. Celles sorties dans lecons/. Une leçon présente aux deux endroits n'est
+  //    prise qu'une fois — même règle d'appariement que le build d'origine.
+  const dossier = join(RACINE, "lecons", sujet.slug);
+  if (existsSync(dossier)) {
+    for (const fichier of readdirSync(dossier).filter((f) => f.endsWith(".json")).sort()) {
+      const source = lireJson<LeconSource>(join(dossier, fichier));
+      if (vus.has(source.titre.trim().toLowerCase())) continue;
+      const skill = leconEnSkill(
+        source,
+        sujet,
+        `cg-${sujet.slug}-${fichier.replace(/\.json$/, "")}`,
+        `cg-lecons-${sujet.slug}`
+      );
+      if (skill) skills.push(skill);
+    }
+  }
+
   return skills;
 }
 
@@ -213,7 +268,7 @@ function chargerLecons(sujet: { slug: string; name: string }): SeedSkill[] {
 function chargerLibres(sujet: { slug: string; name: string }): SeedSkill[] {
   const fichier = join(RACINE, `${sujet.slug}.json`);
   if (!existsSync(fichier)) return [];
-  const source = lireJson<{ questions?: QuestionSource[] }>(fichier);
+  const source = lireJson<SujetSource>(fichier);
   const questions = source.questions ?? [];
 
   const NIVEAUX: { n: 1 | 2 | 3; nom: string }[] = [
