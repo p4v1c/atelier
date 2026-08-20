@@ -499,6 +499,7 @@ export class GuestEngine implements Engine {
       categories: this.content.categories
         .filter((c) => counts.has(c))
         .map((name) => ({ name, skills: counts.get(name) ?? 0 })),
+      niveaux: [],
       skills: this.content.skills.map((r) => {
         const p = stored[r.slug];
         return {

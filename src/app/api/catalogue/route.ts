@@ -40,6 +40,7 @@ export async function GET(request: Request): Promise<Response> {
       tip: true,
       difficulty: true,
       status: true,
+      level: true,
       category: { select: { name: true, position: true } },
       _count: { select: { exercises: true } },
       // Uniquement l'existence du cours : le cours lui-même se charge à part.
@@ -49,7 +50,14 @@ export async function GET(request: Request): Promise<Response> {
         select: { box: true, isNew: true, seenCount: true, correctCount: true },
       },
     },
-    orderBy: [{ category: { position: "asc" } }, { difficulty: "asc" }, { slug: "asc" }],
+    // Le niveau d'abord quand il existe : un catalogue de langue se lit comme
+    // une progression, pas comme un index alphabétique.
+    orderBy: [
+      { level: { sort: "asc", nulls: "last" } },
+      { category: { position: "asc" } },
+      { difficulty: "asc" },
+      { slug: "asc" },
+    ],
   });
 
   const categories = await prisma.category.findMany({
@@ -75,6 +83,8 @@ export async function GET(request: Request): Promise<Response> {
       categories: categories
         .filter((c) => c._count.skills > 0)
         .map((c) => ({ name: c.name, skills: c._count.skills })),
+      /** Les niveaux présents, dans l'ordre du cadre. Vide hors des langues. */
+      niveaux: [...new Set(skills.map((s) => s.level).filter((n): n is string => n !== null))].sort(),
       skills: skills.map((r) => {
         const p = r.progress[0];
         return {
@@ -87,6 +97,7 @@ export async function GET(request: Request): Promise<Response> {
           disputed: r.status === "disputed",
           exerciseCount: r._count.exercises,
           hasLesson: r.lesson !== null,
+          level: r.level,
           box: p?.box ?? 0,
           isNew: p?.isNew ?? true,
           seenCount: p?.seenCount ?? 0,

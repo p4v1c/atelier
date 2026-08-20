@@ -78,8 +78,8 @@ export const ANGLAIS_BASES: LotCartes[] = [
       },
       { etranger: "What time does it start?", francais: "Ça commence à quelle heure ?" },
       {
-        etranger: "How much does it cost?",
-        francais: "Ça coûte combien ?",
+        etranger: "How much sugar do you take?",
+        francais: "Tu prends combien de sucre ?",
         note: "How much pour ce qui ne se compte pas, how many pour ce qui se compte.",
       },
       { etranger: "How many people are coming?", francais: "Combien de personnes viennent ?" },

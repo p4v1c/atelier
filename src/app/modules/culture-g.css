@@ -348,3 +348,15 @@ body:has(.app[data-module="culture-g"]) {
 [data-module="culture-g"] .confirmation, [data-module="culture-g"] .boite {
   background: var(--cg-releve); color: var(--cg-encre); border-color: var(--cg-filet);
 }
+
+[data-module="culture-g"] .niveau-puce { background: var(--cg-bic-pale); color: var(--cg-bic); }
+[data-module="culture-g"] .a-cours { background: var(--cg-creux); color: var(--cg-encre-douce); }
+[data-module="culture-g"] .puce { border-color: var(--cg-filet); color: var(--cg-encre-douce); }
+[data-module="culture-g"] .puce.active { background: var(--cg-bic); color: #fff; border-color: var(--cg-bic); }
+[data-module="culture-g"] .etiquette { color: var(--cg-encre-pale); }
+
+[data-module="culture-g"] .domaine-nom, [data-module="culture-g"] .fiche-t {
+  font-family: var(--cg-serif); font-weight: 700;
+}
+[data-module="culture-g"] .fiche-t em { font-family: var(--cg-mono); font-style: normal; color: var(--cg-encre-pale); }
+[data-module="culture-g"] .jalon { font-family: var(--cg-mono); font-size: .72rem; }

@@ -373,3 +373,20 @@ body:has(.app[data-langue]) {
   background: var(--lg-surface); color: var(--lg-encre);
   border: 1px solid var(--lg-filet); border-radius: 10px;
 }
+
+[data-langue] .niveau-puce { background: var(--lg-accent); color: #fff; font-family: var(--lg-mono); }
+[data-langue] .a-cours { background: var(--lg-creux); color: var(--lg-douce); }
+[data-langue] .puce { border-color: var(--lg-filet); color: var(--lg-douce); }
+[data-langue] .puce.active { background: var(--lg-accent); color: #fff; border-color: var(--lg-accent); }
+[data-langue] .puce i { color: inherit; opacity: .7; }
+[data-langue] .etiquette { color: var(--lg-pale); font-family: var(--lg-mono); }
+
+/* Les titres de domaine gardaient la police de l'Atelier : ici, c'est Archivo. */
+[data-langue] .domaine-nom, [data-langue] .fiche-t {
+  font-family: var(--lg-titre); font-weight: 700; letter-spacing: -.01em;
+}
+[data-langue] .fiche-t { font-size: 1rem; }
+[data-langue] .fiche-t em { font-family: var(--lg-mono); font-style: normal; color: var(--lg-pale); }
+[data-langue] .groupe-bouton { border-color: var(--lg-filet); }
+[data-langue] .jalon { font-family: var(--lg-mono); font-size: .72rem; }
+[data-langue] .chercher input::placeholder { color: var(--lg-pale); }

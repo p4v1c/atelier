@@ -73,7 +73,7 @@ export const ESPAGNOL_BASES: LotCartes[] = [
       { etranger: "¿A qué hora hay que dejar la habitación?", francais: "À quelle heure faut-il libérer la chambre ?" },
       { etranger: "¿Está incluido el desayuno?", francais: "Le petit-déjeuner est compris ?" },
       { etranger: "¿Cómo se llega al centro?", francais: "Comment on va au centre-ville ?" },
-      { etranger: "¿Está lejos de aquí?", francais: "C'est loin d'ici ?" },
+      { etranger: "¿Hay que hacer transbordo?", francais: "Il faut changer ?", aussi: ["Il y a une correspondance ?"], note: "hacer transbordo : changer de train ou de ligne." },
       { etranger: "Se puede ir andando.", francais: "On peut y aller à pied.", aussi: ["C'est accessible à pied."], note: "En Amérique latine : caminando." },
       { etranger: "¿Me lo puede apuntar?", francais: "Vous pouvez me l'écrire ?", note: "Apuntar : noter. Escribir marcherait aussi." },
     ],

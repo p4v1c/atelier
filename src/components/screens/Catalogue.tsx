@@ -49,6 +49,8 @@ export function Catalogue({ engine, moduleId, setScreen, setChrome }: ScreenProp
   const [data, setData] = useState<CataloguePayload | null>(null);
   const [categorie, setCategorie] = useState<string | null>(null);
   const [difficulte, setDifficulte] = useState<number | null>(null);
+  /** Niveau du cadre européen. Ne s'affiche que dans les matières qui en ont. */
+  const [niveau, setNiveau] = useState<string | null>(null);
   const [etat, setEtat] = useState<Etat>("tous");
   const [recherche, setRecherche] = useState("");
   const [ouverte, setOuverte] = useState<string | null>(null);
@@ -75,11 +77,12 @@ export function Catalogue({ engine, moduleId, setScreen, setChrome }: ScreenProp
     return data.skills.filter((r) => {
       if (categorie && r.category !== categorie) return false;
       if (difficulte && r.difficulty !== difficulte) return false;
+      if (niveau && r.level !== niveau) return false;
       if (etat !== "tous" && etatDe(r) !== etat) return false;
       if (!q) return true;
       return normaliser(`${r.title} ${r.statement} ${r.tip}`).includes(q);
     });
-  }, [data, categorie, difficulte, etat, recherche]);
+  }, [data, categorie, difficulte, niveau, etat, recherche]);
 
   /**
    * Regroupement par catégorie : le seul repère qui tienne sur six cents règles.
@@ -119,6 +122,7 @@ export function Catalogue({ engine, moduleId, setScreen, setChrome }: ScreenProp
     });
   };
 
+  /** Le niveau, affiché sur chaque fiche quand la matière en a. */
   const travailler = async (slug: string) => {
     setMessage(null);
     try {
@@ -144,7 +148,24 @@ export function Catalogue({ engine, moduleId, setScreen, setChrome }: ScreenProp
   // Le vocabulaire du module : « règle » en français, « notion » ailleurs.
   const voc = data.vocabulaire;
 
-  const filtre = categorie !== null || difficulte !== null || etat !== "tous" || recherche.trim() !== "";
+  /**
+   * Le champ de recherche s'illustre avec le contenu du module lui-même.
+   * Proposer « participe » et « virgule » dans un module d'anglais donnait
+   * l'impression d'un écran recyclé — parce qu'il l'était.
+   */
+  const exemples = (() => {
+    const titres = data.skills.slice(0, 400).map((s) => s.title);
+    const pris = [titres[1], titres[Math.floor(titres.length / 2)], titres[titres.length - 2]]
+      .filter((t): t is string => Boolean(t))
+      .map((t) => t.split(/[:,—(]/)[0]!.trim().toLowerCase())
+      .filter((t) => t.length > 3 && t.length < 34);
+    return pris.length
+      ? `Chercher : « ${pris.join(" », « ")} »…`
+      : `Chercher parmi les ${voc.skillPluriel}…`;
+  })();
+
+  const filtre =
+    categorie !== null || difficulte !== null || niveau !== null || etat !== "tous" || recherche.trim() !== "";
 
   return (
     <>
@@ -154,10 +175,33 @@ export function Catalogue({ engine, moduleId, setScreen, setChrome }: ScreenProp
             type="search"
             value={recherche}
             onChange={(e) => setRecherche(e.target.value)}
-            placeholder={`Chercher un point : « participe », « virgule », « à ou a »…`}
+            placeholder={exemples}
             autoComplete="off"
           />
         </label>
+
+        {(data.niveaux?.length ?? 0) > 1 && (
+          <>
+            <p className="etiquette" style={{ marginTop: 22 }}>
+              Niveau
+            </p>
+            <div className="puces">
+              <button className={`puce ${niveau === null ? "active" : ""}`} onClick={() => setNiveau(null)}>
+                Tous
+              </button>
+              {data.niveaux!.map((n) => (
+                <button
+                  key={n}
+                  className={`puce ${niveau === n ? "active" : ""}`}
+                  onClick={() => setNiveau(niveau === n ? null : n)}
+                >
+                  {n}
+                  <i>{data.skills.filter((s) => s.level === n).length}</i>
+                </button>
+              ))}
+            </div>
+          </>
+        )}
 
         <p className="etiquette" style={{ marginTop: 22 }}>
           Domaine
@@ -287,8 +331,10 @@ export function Catalogue({ engine, moduleId, setScreen, setChrome }: ScreenProp
                   <div className={`fiche ${fiche ? "ouverte" : ""}`} key={r.slug}>
                     <button className="fiche-entete" onClick={() => setOuverte(fiche ? null : r.slug)}>
                       <span className="fiche-t">
+                        {r.level && <span className="niveau-puce">{r.level}</span>}
                         {r.title} <em>{"●".repeat(r.difficulty)}</em>
                         {r.disputed && <span className="discute">usage partagé</span>}
+                        {r.hasLesson && <span className="a-cours">cours</span>}
                       </span>
                       <span
                         className={`jalon ${r.disputed ? "debat" : r.isNew ? "" : r.box >= MASTERY_BOX ? "acquis" : "cours"}`}

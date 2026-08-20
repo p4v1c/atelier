@@ -194,6 +194,8 @@ export type CatalogueSkill = {
   exerciseCount: number;
   /** Un cours est attaché : l'écran propose de le lire avant de s'exercer. */
   hasLesson?: boolean;
+  /** Niveau du cadre européen. Null hors des langues. */
+  level?: string | null;
   box: number;
   isNew: boolean;
   seenCount: number;
@@ -204,6 +206,8 @@ export type CataloguePayload = {
   moduleId: string;
   vocabulaire: ModuleVocabulaire;
   categories: { name: string; skills: number }[];
+  /** Les niveaux présents. Vide hors des langues. */
+  niveaux?: string[];
   skills: CatalogueSkill[];
 };
 

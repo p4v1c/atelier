@@ -81,7 +81,7 @@ export const ESPAGNOL_CONJUGAISON: LotCartes[] = [
       { etranger: "¿Dónde vives?", francais: "Tu habites où ?", note: "vivir, deuxième personne : vives." },
       { etranger: "Pienso que sí.", francais: "Je pense que oui.", note: "pensar → pienso : diphtongue e → ie." },
       { etranger: "No puedo ahora.", francais: "Je ne peux pas maintenant.", note: "poder → puedo : diphtongue o → ue." },
-      { etranger: "Tengo dos hermanos.", francais: "J'ai deux frères.", note: "tener → tengo : le -go de la première personne." },
+      { etranger: "Tengo mucha hambre.", francais: "J'ai très faim.", note: "tener → tengo, le -go de la première personne. Et mucha hambre, pas « muy hambre » : hambre est un nom." },
       { etranger: "Hago la comida.", francais: "Je fais à manger.", note: "hacer → hago." },
       { etranger: "Vamos al cine.", francais: "On va au cinéma.", note: "ir → vamos, qui sert aussi à dire « allons-y »." },
       { etranger: "Somos cuatro.", francais: "Nous sommes quatre.", note: "ser → somos. À apprendre par cœur." },
