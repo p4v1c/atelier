@@ -14,6 +14,31 @@ Le moteur ne sait pas ce qu'est une faute d'orthographe ni une capitale : il
 connaît des modules, des compétences et des exercices. Ce qu'un exercice veut
 dire regarde son **type**, déclaré par le module qui l'emploie.
 
+## Où ça tourne
+
+**L'Atelier n'est pas hébergé.** Il tourne sur la machine de son auteur, en
+local :
+
+```bash
+npm run db:up && npm run dev     # http://localhost:3000
+```
+
+C'est un choix, pas un oubli : l'application a besoin de Node et de PostgreSQL,
+que GitHub Pages ne sait pas servir. L'héberger demanderait Vercel avec une base
+distante, ou un serveur — voir `docker-compose.yml` et le `Dockerfile`, qui sont
+prêts pour le jour où.
+
+**En revanche <https://p4v1c.github.io/atelier/> est bien en ligne — et c'est
+l'ANCIEN cahier**, celui de `heritage/culture-g/`, pas la plateforme. Il reste
+publié à dessein : c'est l'application de révision qui marche depuis n'importe
+quel navigateur, et elle continue d'être reconstruite à chaque changement de son
+contenu.
+
+Deux applications, deux progressions, deux adresses. Celle de l'Atelier est
+`localhost`.
+
+---
+
 Le dépôt réunit deux projets : l'application (issue de « La Règle ») et le
 cahier de culture générale, fusionné en sous-arbre avec tout son historique.
 Les commits des deux restent atteignables — voir `heritage/README.md` pour
