@@ -1,0 +1,2293 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La Règle</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,ital,wght@6..96,0,400;6..96,0,500;6..96,1,400&family=Karla:wght@400;500;700&family=Caveat:wght@600&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --encre:#16112E; --encre-2:#211A44; --encre-3:#2C2456;
+    --papier:#F7F3E8; --seyes:#B9CCE8; --rouge:#D6302A;
+    --vert:#3E9E6E; --craie:#EDE8F5; --mauve:#9084C9; --or:#E3B04B;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--encre);
+    background-image:radial-gradient(120% 90% at 50% -10%, #2A2158 0%, #16112E 60%);
+    background-attachment:fixed;
+    color:var(--craie); font-family:'Karla',system-ui,sans-serif;
+    min-height:100vh; padding:26px 20px 60px; display:flex; justify-content:center;
+  }
+  .app{width:100%;max-width:680px}
+
+  .eyebrow{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--mauve);font-weight:700;margin:0 0 8px}
+  h1{font-family:'Bodoni Moda',serif;font-weight:400;font-size:38px;line-height:1;margin:0 0 4px;color:var(--papier)}
+  h1 em{font-style:italic}
+  .sub{color:var(--mauve);font-size:14px;margin:0 0 26px;line-height:1.6}
+  .entete{margin-bottom:26px}
+
+  /* jauge de session */
+  .jauge{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+  .barre{flex:1;height:2px;background:var(--encre-3);position:relative;overflow:hidden}
+  .barre span{position:absolute;inset:0 auto 0 0;width:0%;background:var(--seyes);transition:width .45s cubic-bezier(.2,.8,.2,1)}
+  .compte{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--mauve);font-weight:700;white-space:nowrap}
+  .compte b{color:var(--papier)}
+
+  /* cahier */
+  .cahier{position:relative;background:var(--papier);border-radius:2px;padding:38px 30px 34px;
+    box-shadow:0 18px 40px -18px rgba(0,0,0,.65)}
+  .cahier::before{content:"";position:absolute;inset:0;pointer-events:none;border-radius:2px;
+    background:repeating-linear-gradient(to bottom,transparent 0 27px,var(--seyes) 27px 28px);opacity:.35}
+  .marge{position:absolute;top:0;bottom:0;left:22px;width:1px;background:#E0A9A4;opacity:.8}
+  .categorie{position:relative;font-size:10px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:#8A7FA8;margin:0 0 18px}
+  .phrase{position:relative;font-family:'Bodoni Moda',serif;font-size:27px;line-height:56px;color:#1D1836}
+  .mot{font:inherit;color:inherit;background:none;border:0;padding:0 1px;margin:0;cursor:pointer;border-radius:2px;transition:background .15s,color .15s}
+  .mot:hover{background:rgba(214,48,42,.1)}
+  .mot:focus-visible{outline:2px solid var(--rouge);outline-offset:2px}
+  .fige .mot{cursor:default}
+  .fige .mot:hover{background:none}
+  .mot.rate{color:#9A93AC;text-decoration:line-through;text-decoration-color:#C9C2D8}
+  .calque{position:absolute;inset:0;pointer-events:none;overflow:visible}
+  .trait{fill:none;stroke:var(--rouge);stroke-width:2.4;stroke-linecap:round;animation:tracer .55s cubic-bezier(.4,0,.3,1) forwards}
+  @keyframes tracer{to{stroke-dashoffset:0}}
+  .annote{position:absolute;font-family:'Caveat',cursive;font-size:26px;color:var(--rouge);
+    transform:translate(-50%,-100%) rotate(-3deg);white-space:nowrap;opacity:0;animation:apparait .3s .45s forwards}
+  @keyframes apparait{to{opacity:1}}
+
+  .consigne{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:16px;flex-wrap:wrap}
+  .indice{font-size:13px;color:var(--mauve);margin:0}
+
+  /* boutons */
+  button{font-family:'Karla',sans-serif}
+  .creux{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--craie);
+    background:none;border:1px solid var(--encre-3);border-radius:999px;padding:11px 20px;cursor:pointer;
+    transition:border-color .18s,color .18s}
+  .creux:hover{border-color:var(--seyes);color:#fff}
+  .creux:focus-visible{outline:2px solid var(--seyes);outline-offset:3px}
+  .creux[disabled]{opacity:.3;cursor:default}
+  .plein{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--encre);
+    background:var(--papier);border:0;border-radius:999px;padding:13px 26px;cursor:pointer}
+  .plein:hover{background:#fff}
+  .plein:focus-visible{outline:2px solid var(--seyes);outline-offset:3px}
+
+  /* règle */
+  .regle{margin-top:18px;background:var(--encre-2);border-left:3px solid var(--rouge);padding:22px 24px;border-radius:0 3px 3px 0;
+    animation:monte .32s cubic-bezier(.2,.8,.2,1)}
+  .regle.juste{border-left-color:var(--vert)}
+  @keyframes monte{from{opacity:0;transform:translateY(10px)}}
+  .verdict{font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--rouge);margin:0 0 10px;
+    display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+  .regle.juste .verdict{color:var(--vert)}
+  .verdict .palier{color:var(--mauve);letter-spacing:.1em}
+  .regle h2{font-family:'Bodoni Moda',serif;font-weight:500;font-size:21px;margin:0 0 8px;color:var(--papier)}
+  .regle p{margin:0;font-size:15px;line-height:1.65;color:#C6BEE0}
+  .regle p b{color:var(--papier)}
+  .astuce{margin-top:12px!important;padding-left:14px;border-left:1px solid var(--encre-3);font-style:italic;color:var(--mauve)!important}
+  .suite{display:block;margin:20px 0 0 auto}
+
+  /* accueil */
+  .carte{background:var(--encre-2);border-radius:3px;padding:26px 28px;margin-bottom:16px}
+  .niveau{display:flex;align-items:baseline;gap:14px;margin:0 0 4px}
+  .niveau b{font-family:'Bodoni Moda',serif;font-weight:400;font-size:30px;color:var(--papier)}
+  .niveau span{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--mauve);font-weight:700}
+  .anneau{height:3px;background:var(--encre-3);margin:16px 0 10px}
+  .anneau i{display:block;height:100%;background:var(--or);transition:width .6s}
+  .legende{font-size:13px;color:var(--mauve);margin:0}
+  .menu{display:grid;gap:10px;grid-template-columns:1fr 1fr}
+  @media(max-width:560px){.menu{grid-template-columns:1fr}}
+  .tuile{text-align:left;background:var(--encre-2);border:1px solid transparent;border-radius:3px;padding:20px 22px;cursor:pointer;
+    transition:border-color .18s,background .18s;color:var(--craie)}
+  .tuile:hover{border-color:var(--encre-3);background:var(--encre-3)}
+  .tuile:focus-visible{outline:2px solid var(--seyes);outline-offset:2px}
+  .tuile b{display:block;font-family:'Bodoni Moda',serif;font-weight:500;font-size:19px;color:var(--papier);margin-bottom:4px}
+  .tuile span{font-size:13px;color:var(--mauve);line-height:1.5}
+  .tuile[disabled]{opacity:.4;cursor:default}
+  .bas{margin-top:22px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  .lien{background:none;border:0;color:var(--mauve);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+    font-weight:700;cursor:pointer;padding:8px 0;text-decoration:underline;text-underline-offset:4px}
+  .lien:hover{color:var(--craie)}
+
+  /* stats */
+  .ligne{margin-bottom:14px}
+  .ligne .tete{display:flex;justify-content:space-between;gap:12px;font-size:13px;margin-bottom:6px}
+  .ligne .tete span:last-child{color:var(--mauve);white-space:nowrap}
+  .piste{height:3px;background:var(--encre-3)}
+  .piste i{display:block;height:100%;background:var(--seyes);transition:width .5s}
+  .piste i.fort{background:var(--vert)}
+  .piste i.faible{background:var(--rouge)}
+  .note{font-family:'Bodoni Moda',serif;font-size:64px;line-height:1;color:var(--papier);margin:0}
+  .note small{font-size:22px;color:var(--mauve)}
+  h3{font-family:'Bodoni Moda',serif;font-weight:500;font-size:20px;color:var(--papier);margin:28px 0 14px}
+  h3:first-child{margin-top:0}
+
+  /* dictée */
+  .ardoise{background:var(--papier);border-radius:2px;padding:30px;position:relative}
+  .ardoise textarea{width:100%;min-height:120px;border:0;background:transparent;resize:vertical;
+    font-family:'Bodoni Moda',serif;font-size:22px;line-height:34px;color:#1D1836;outline:none}
+  .ardoise textarea::placeholder{color:#B7AFC9}
+  .correction{font-family:'Bodoni Moda',serif;font-size:22px;line-height:40px;color:#1D1836}
+  .correction .ok{color:#1D1836}
+  .correction .ko{color:var(--rouge);text-decoration:line-through;text-decoration-thickness:1px;margin-right:6px}
+  .correction .vrai{color:var(--vert)}
+  .haut-parleur{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+  .avert{font-size:13px;color:var(--or);margin:14px 0 0}
+
+  @media(max-width:520px){
+    .phrase{font-size:22px;line-height:44px}
+    .cahier{padding:30px 20px 26px}
+    h1{font-size:30px}
+    body{padding:20px 14px 50px}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{animation-duration:.001s!important;transition-duration:.001s!important}
+    .trait{stroke-dashoffset:0!important}
+    .annote{opacity:1}
+  }
+</style>
+
+<div class="app">
+  <div class="entete">
+    <p class="eyebrow" id="fil">Entraînement personnel</p>
+    <h1>La <em>Règle</em></h1>
+    <p class="sub" id="accroche">Repérer la faute, comprendre pourquoi, ne plus la refaire.</p>
+  </div>
+  <div id="scene"></div>
+</div>
+
+
+<style>
+  .etiquette{font-size:10px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--mauve);margin:0 0 12px}
+  .puces{display:flex;flex-wrap:wrap;gap:8px}
+  .puce{display:inline-flex;align-items:center;gap:8px;background:none;border:1px solid var(--encre-3);
+    border-radius:999px;padding:9px 15px;font-size:13px;color:var(--craie);cursor:pointer;transition:border-color .18s,background .18s}
+  .puce:hover{border-color:var(--seyes)}
+  .puce:focus-visible{outline:2px solid var(--seyes);outline-offset:2px}
+  .puce.active{background:var(--papier);border-color:var(--papier);color:var(--encre);font-weight:700}
+  .puce i{font-style:normal;font-size:11px;opacity:.65;letter-spacing:.04em}
+  .fiche{padding:16px 0;border-bottom:1px solid var(--encre-3)}
+  .fiche:last-child{border-bottom:0;padding-bottom:0}
+  .fiche-t{font-family:'Bodoni Moda',serif;font-size:18px;color:var(--papier);margin:0 0 6px}
+  .fiche-t em{font-style:normal;font-size:9px;color:var(--or);letter-spacing:2px;vertical-align:middle}
+  .fiche-e{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--mauve);margin:10px 0 0;font-weight:700}
+</style>
+
+<script>
+/* ═══════════ BANQUE DE RÈGLES ═══════════ */
+const REGLES = [
+/* ─── HOMOPHONES GRAMMATICAUX ─── */
+ {id:"a-à", cat:"Homophones", n:1, t:"a ou à",
+  r:"<b>a</b> est le verbe avoir conjugué, <b>à</b> est une préposition invariable.",
+  astuce:"Remplace par « avait ». Si la phrase tient, c'est « a ».",
+  p:[{s:"Il commence [a] comprendre la règle.", fix:"à"},
+     {s:"Elle [à] beaucoup travaillé cette semaine.", fix:"a"},
+     {s:"Ce chien [à] mordu le facteur.", fix:"a"},
+     {s:"Il a promis à sa sœur de venir demain.", fix:null}]},
+
+ {id:"ou-où", cat:"Homophones", n:1, t:"ou ou où",
+  r:"<b>ou</b> propose un choix, <b>où</b> indique le lieu ou le moment.",
+  astuce:"Remplace par « ou bien ». Si ça marche, pas d'accent.",
+  p:[{s:"Je ne sais pas [ou] il est parti hier.", fix:"où"},
+     {s:"Le jour [ou] je l'ai rencontré, il pleuvait.", fix:"où"},
+     {s:"Tu préfères le thé ou le café ?", fix:null}]},
+
+ {id:"ce-se", cat:"Homophones", n:1, t:"ce ou se",
+  r:"<b>ce</b> accompagne un nom, <b>se</b> accompagne un verbe pronominal.",
+  astuce:"Remplace par « me » ou « te ». Si ça marche, c'est « se ».",
+  p:[{s:"[Se] livre est vraiment passionnant.", fix:"Ce"},
+     {s:"Il [ce] demande si la réponse est bonne.", fix:"se"},
+     {s:"Elle [ce] souvient très bien de lui.", fix:"se"},
+     {s:"Ce matin, il se lève avant tout le monde.", fix:null}]},
+
+ {id:"ces-ses", cat:"Homophones", n:1, t:"ces ou ses",
+  r:"<b>ces</b> montre (démonstratif), <b>ses</b> possède (possessif).",
+  astuce:"Ajoute « -là » au nom. Si ça sonne juste, c'est « ces ».",
+  p:[{s:"[Ses] gens-là ne me plaisent pas du tout.", fix:"Ces"},
+     {s:"Chacun range [ces] affaires avant de partir.", fix:"ses"},
+     {s:"Il a rangé ses affaires dans ces cartons.", fix:null}]},
+
+ {id:"leur", cat:"Homophones", n:1, t:"leur ou leurs",
+  r:"Devant un verbe, <b>leur</b> est un pronom (= à eux) et ne prend jamais de s. Devant un nom, c'est un déterminant qui s'accorde.",
+  astuce:"Remplace par « lui ». Si ça marche, c'est « leur » sans s.",
+  p:[{s:"Je [leurs] ai dit la vérité hier soir.", fix:"leur"},
+     {s:"Ils ont oublié [leur] manteaux au vestiaire.", fix:"leurs"},
+     {s:"Le professeur [leurs] a rendu les copies.", fix:"leur"},
+     {s:"Ils ont pris leurs affaires et je leur ai ouvert.", fix:null}]},
+
+ {id:"on-ont", cat:"Homophones", n:1, t:"on ou ont",
+  r:"<b>on</b> est un pronom sujet, <b>ont</b> est le verbe avoir au pluriel.",
+  astuce:"Mets à l'imparfait : « avaient » donne ont, « il » donne on.",
+  p:[{s:"Ils [on] terminé le travail avant midi.", fix:"ont"},
+     {s:"Les voisins [on] encore fait du bruit.", fix:"ont"},
+     {s:"On a compris ce qu'ils ont voulu dire.", fix:null}]},
+
+ {id:"son-sont", cat:"Homophones", n:1, t:"son ou sont",
+  r:"<b>son</b> est un possessif, <b>sont</b> est le verbe être au pluriel.",
+  astuce:"Remplace par « étaient » : si ça tient, c'est « sont ».",
+  p:[{s:"Les enfants [son] arrivés en avance.", fix:"sont"},
+     {s:"Il a oublié [sont] parapluie au bureau.", fix:"son"},
+     {s:"Son frère et sa sœur sont déjà partis.", fix:null}]},
+
+ {id:"et-est", cat:"Homophones", n:1, t:"et ou est",
+  r:"<b>et</b> relie deux éléments, <b>est</b> est le verbe être.",
+  astuce:"Remplace par « était » : si ça marche, c'est « est ».",
+  p:[{s:"Mon frère [et] plus grand que moi.", fix:"est"},
+     {s:"Il est fatigué [est] il rentre.", fix:"et"},
+     {s:"Elle est prête et son sac est bouclé.", fix:null}]},
+
+ {id:"ni-ny", cat:"Homophones", n:2, t:"ni ou n'y",
+  r:"<b>ni</b> est une conjonction de négation, <b>n'y</b> est la négation « ne » suivie du pronom « y ».",
+  astuce:"Remplace par « ne… pas à cela ». Si ça marche, c'est « n'y ».",
+  p:[{s:"Il [ni] pense même pas une seconde.", fix:"n'y"},
+     {s:"Je [n'y] veux ni sucre ni lait.", fix:"ne"},
+     {s:"Il n'y a ni sel ni poivre sur la table.", fix:null}]},
+
+ {id:"si-sy", cat:"Homophones", n:2, t:"si ou s'y",
+  r:"<b>si</b> introduit une condition, <b>s'y</b> est le pronom « se » suivi de « y ».",
+  astuce:"Remplace par « se… à cela ». Si ça marche, c'est « s'y ».",
+  p:[{s:"Il [si] est pris beaucoup trop tard.", fix:"s'y"},
+     {s:"Elle [si] connaît mieux que personne.", fix:"s'y"},
+     {s:"Si tu veux, il s'y mettra demain.", fix:null}]},
+
+ {id:"la-là-la", cat:"Homophones", n:2, t:"la, là ou l'a",
+  r:"<b>la</b> est un déterminant ou un pronom, <b>là</b> indique le lieu, <b>l'a</b> contient le verbe avoir.",
+  astuce:"« l'a » se remplace par « l'avait », « là » par « ici ».",
+  p:[{s:"Il [la] rangée dans le tiroir du bas.", fix:"l'a"},
+     {s:"Pose le carton [la], contre le mur.", fix:"là"},
+     {s:"Elle l'a posée là, sur la table.", fix:null}]},
+
+ {id:"cest-sest", cat:"Homophones", n:2, t:"c'est ou s'est",
+  r:"<b>c'est</b> équivaut à « cela est », <b>s'est</b> accompagne un verbe pronominal.",
+  astuce:"Remplace par « cela est ». Si ça ne marche pas, c'est « s'est ».",
+  p:[{s:"Il [c'est] trompé de chemin deux fois.", fix:"s'est"},
+     {s:"[S'est] une très bonne nouvelle.", fix:"C'est"},
+     {s:"C'est vrai qu'il s'est trompé.", fix:null}]},
+
+ {id:"sais-sait", cat:"Homophones", n:2, t:"sais, sait ou c'est",
+  r:"<b>sais</b> et <b>sait</b> viennent du verbe savoir, <b>c'est</b> équivaut à « cela est ».",
+  astuce:"Remplace par « savait » : si ça marche, c'est le verbe savoir.",
+  p:[{s:"Personne ne [c'est] où il est passé.", fix:"sait"},
+     {s:"Je ne [c'est] pas quoi répondre.", fix:"sais"},
+     {s:"C'est étrange, personne ne sait pourquoi.", fix:null}]},
+
+ {id:"ça-sa", cat:"Homophones", n:1, t:"ça ou sa",
+  r:"<b>ça</b> équivaut à « cela », <b>sa</b> est un possessif féminin.",
+  astuce:"Remplace par « cela » : si ça marche, c'est « ça ».",
+  p:[{s:"Il a repris [ça] veste au vestiaire.", fix:"sa"},
+     {s:"[Sa] ne me dérange pas du tout.", fix:"Ça"},
+     {s:"Ça ne va pas, sa voiture est en panne.", fix:null}]},
+
+ {id:"quand-quant", cat:"Homophones", n:2, t:"quand, quant ou qu'en",
+  r:"<b>quand</b> marque le temps, <b>quant à</b> signifie « en ce qui concerne », <b>qu'en</b> contient « que » et « en ».",
+  astuce:"« quant » est toujours suivi de à, au ou aux.",
+  p:[{s:"[Quant] tu voudras, préviens-moi.", fix:"Quand"},
+     {s:"[Quand] à moi, je préfère rester ici.", fix:"Quant"},
+     {s:"Quant à lui, il partira quand il pourra.", fix:null}]},
+
+ {id:"quelle-quelle", cat:"Homophones", n:2, t:"quelle ou qu'elle",
+  r:"<b>quelle</b> accompagne un nom, <b>qu'elle</b> contient le pronom « elle ».",
+  astuce:"Remplace par « qu'il » : si ça marche, c'est « qu'elle ».",
+  p:[{s:"Je crois [quelle] viendra demain matin.", fix:"qu'elle"},
+     {s:"Tu sais [qu'elle] heure il est ?", fix:"quelle"},
+     {s:"Quelle heure est-il ? Je crois qu'elle arrive.", fix:null}]},
+
+ {id:"peu-peut", cat:"Homophones", n:1, t:"peu, peux ou peut",
+  r:"<b>peu</b> est un adverbe de quantité, <b>peux</b> et <b>peut</b> viennent du verbe pouvoir.",
+  astuce:"Remplace par « pouvait » : si ça marche, c'est le verbe.",
+  p:[{s:"Il [peu] venir dès ce soir.", fix:"peut"},
+     {s:"Ajoute un [peut] de sel dans la sauce.", fix:"peu"},
+     {s:"Je peux dormir un peu plus longtemps.", fix:null}]},
+
+ {id:"plutot", cat:"Homophones", n:2, t:"plutôt ou plus tôt",
+  r:"<b>plutôt</b> exprime une préférence, <b>plus tôt</b> est le contraire de « plus tard ».",
+  astuce:"Oppose à « plus tard » : si ça fonctionne, deux mots.",
+  p:[{s:"Il est arrivé [plutôt] que prévu.", fix:"plus tôt"},
+     {s:"Elle se lève [plutôt] que d'habitude en été.", fix:"plus tôt"},
+     {s:"Viens plus tôt, ou plutôt reste chez toi.", fix:null}]},
+
+ {id:"quel-que", cat:"Homophones", n:3, t:"quel que ou quelque",
+  r:"Devant le verbe être au subjonctif, on écrit <b>quel que</b> en deux mots, et « quel » s'accorde avec le sujet.",
+  astuce:"quel que soit, quelle que soit, quels que soient.",
+  p:[{s:"[Quelque] soit ton choix, je te soutiendrai.", fix:"Quel que"},
+     {s:"[Quelques] soient les obstacles, il avance.", fix:"Quels que"},
+     {s:"Quelles que soient tes raisons, préviens-moi.", fix:null}]},
+
+ {id:"quoi-que", cat:"Homophones", n:3, t:"quoi que ou quoique",
+  r:"<b>quoi que</b> en deux mots signifie « peu importe ce que ». <b>quoique</b> en un mot signifie « bien que ».",
+  astuce:"Remplace par « bien que ». Si ça marche, un seul mot.",
+  p:[{s:"[Quoique] tu fasses, fais-le sérieusement.", fix:"Quoi que"},
+     {s:"Quoiqu'il soit fatigué, il continue.", fix:null}]},
+
+ {id:"censé", cat:"Homophones", n:2, t:"censé ou sensé",
+  r:"<b>censé</b> veut dire « supposé, réputé ». <b>sensé</b> veut dire « qui a du bon sens ».",
+  astuce:"Remplace par « supposé » : si ça marche, c'est « censé ».",
+  p:[{s:"Tu es [sensé] arriver à huit heures.", fix:"censé"},
+     {s:"C'est un homme [censé] et raisonnable.", fix:"sensé"},
+     {s:"Personne n'est censé ignorer la loi.", fix:null}]},
+
+ {id:"dans-den", cat:"Homophones", n:3, t:"dans ou d'en",
+  r:"<b>dans</b> est une préposition de lieu, <b>d'en</b> contient « de » et le pronom « en ».",
+  astuce:"« d'en » est toujours suivi d'un verbe à l'infinitif.",
+  p:[{s:"Il vient [dans] parler à son collègue.", fix:"d'en"},
+     {s:"Elle est [d'en] la cuisine depuis une heure.", fix:"dans"},
+     {s:"Il est dans la cuisine et vient d'en sortir.", fix:null}]},
+
+ {id:"pres-pret", cat:"Homophones", n:2, t:"près ou prêt",
+  r:"<b>près</b> indique la proximité, <b>prêt</b> signifie « préparé » et s'accorde.",
+  astuce:"Remplace par « proche » ou par « préparé ».",
+  p:[{s:"Il est [près] à partir dans dix minutes.", fix:"prêt"},
+     {s:"La gare est tout [prêt] d'ici.", fix:"près"},
+     {s:"Il est prêt, tout près de la sortie.", fix:null}]},
+
+ {id:"tout-tous", cat:"Homophones", n:2, t:"tout ou tous",
+  r:"<b>tous</b> est le pluriel de « tout » quand il désigne des personnes ou des choses comptables.",
+  astuce:"Si tu peux dire « chacun », écris « tous ».",
+  p:[{s:"Ils sont [tout] arrivés à l'heure.", fix:"tous"},
+     {s:"[Tout] les invités ont apprécié le repas.", fix:"Tous"},
+     {s:"Tous les invités sont tout étonnés.", fix:null}]},
+
+ {id:"tout-adverbe", cat:"Homophones", n:3, t:"tout adverbe devant un adjectif",
+  r:"Adverbe, <b>tout</b> reste invariable, sauf devant un adjectif féminin commençant par une consonne : il devient alors « toute ».",
+  astuce:"Elle est tout étonnée, mais toute contente.",
+  p:[{s:"Elle est [tout] contente de sa journée.", fix:"toute"},
+     {s:"Elles sont [toutes] émues par la nouvelle.", fix:"tout"},
+     {s:"Elle est tout étonnée et toute rouge.", fix:null}]},
+
+ {id:"meme", cat:"Homophones", n:2, t:"même : accord",
+  r:"Placé après un nom pluriel, <b>même</b> s'accorde. Devant un nom ou un adverbe, il reste invariable.",
+  astuce:"« les mêmes erreurs » s'accorde, « même les experts » non.",
+  p:[{s:"Ils ont commis les [même] erreurs qu'hier.", fix:"mêmes"},
+     {s:"Les enfants eux-[même] ont compris.", fix:"mêmes"},
+     {s:"Même les experts font les mêmes erreurs.", fix:null}]},
+
+ {id:"sans-sen", cat:"Homophones", n:3, t:"sans ou s'en",
+  r:"<b>sans</b> marque le manque, <b>s'en</b> contient le pronom « se » suivi de « en ».",
+  astuce:"Remplace par « avec » : si l'opposition marche, c'est « sans ».",
+  p:[{s:"Il est parti [sans] rendre compte de rien.", fix:"s'en"},
+     {s:"Elle a réussi [s'en] aucune aide.", fix:"sans"},
+     {s:"Il est parti sans rien dire et s'en est voulu.", fix:null}]},
+
+ {id:"mais-mes", cat:"Homophones", n:1, t:"mais ou mes",
+  r:"<b>mais</b> exprime une opposition, <b>mes</b> est un possessif pluriel.",
+  astuce:"Remplace par « cependant » : si ça marche, c'est « mais ».",
+  p:[{s:"J'ai pris [mais] affaires en partant.", fix:"mes"},
+     {s:"Il est venu, [mes] sans prévenir.", fix:"mais"},
+     {s:"Mes amis sont venus, mais sans prévenir.", fix:null}]},
+
+ {id:"notre-notre", cat:"Homophones", n:2, t:"notre ou nôtre",
+  r:"<b>notre</b> accompagne un nom, <b>le nôtre</b> le remplace et prend un accent circonflexe.",
+  astuce:"L'accent apparaît quand le mot est précédé de « le », « la » ou « les ».",
+  p:[{s:"Ce jardin est le [notre] depuis dix ans.", fix:"nôtre"},
+     {s:"[Nôtre] maison est au bout de la rue.", fix:"Notre"},
+     {s:"Notre maison est plus petite que la vôtre.", fix:null}]},
+
+ {id:"peut-etre", cat:"Homophones", n:3, t:"peut-être ou peut être",
+  r:"<b>peut-être</b> avec trait d'union signifie « probablement ». <b>peut être</b> sans trait d'union est le verbe pouvoir suivi de être.",
+  astuce:"Remplace par « probablement » : si ça marche, mets le trait d'union.",
+  p:[{s:"Cela [peut-être] vrai, après tout.", fix:"peut être"},
+     {s:"Elle [peut-être] absente demain.", fix:"peut être"},
+     {s:"Il viendra peut-être, cela peut être long.", fix:null}]},
+
+ {id:"voie-voix", cat:"Homophones", n:2, t:"voie, voix ou vois",
+  r:"La <b>voix</b> est le son, la <b>voie</b> est le chemin, <b>vois</b> vient du verbe voir.",
+  astuce:"Pense à « vocal » pour la voix et à « voyage » pour la voie.",
+  p:[{s:"Il a élevé la [voie] pour se faire entendre.", fix:"voix"},
+     {s:"Le train arrive [voix] numéro trois.", fix:"voie"},
+     {s:"La voix du peuple ouvre la voie.", fix:null}]},
+
+/* ─── ACCORDS ─── */
+ {id:"pp-avoir", cat:"Accords", n:2, t:"Participe passé avec « avoir »",
+  r:"Avec l'auxiliaire avoir, le participe s'accorde avec le complément d'objet direct <b>seulement s'il est placé avant</b> le verbe.",
+  astuce:"Cherche le COD : s'il est après le verbe, aucun accord.",
+  p:[{s:"Les lettres que j'ai [écrit] sont parties.", fix:"écrites"},
+     {s:"Les fleurs qu'il lui a [offert] ont fané.", fix:"offertes"},
+     {s:"La chanson que tu as [chanté] m'a plu.", fix:"chantée"},
+     {s:"J'ai rangé les valises hier soir.", fix:null},
+     {s:"Les documents qu'elle m'a envoyés sont complets.", fix:null}]},
+
+ {id:"pp-être", cat:"Accords", n:1, t:"Participe passé avec « être »",
+  r:"Avec l'auxiliaire être, le participe s'accorde toujours avec le <b>sujet</b>.",
+  astuce:"Demande-toi qui fait l'action, puis accorde avec lui.",
+  p:[{s:"Elles sont [parti] très tôt ce matin.", fix:"parties"},
+     {s:"Mes sœurs sont [rentré] avant la nuit.", fix:"rentrées"},
+     {s:"Les colis sont [arrivé] ce matin.", fix:"arrivés"},
+     {s:"Elle est arrivée en retard à la réunion.", fix:null}]},
+
+ {id:"adj-distance", cat:"Accords", n:2, t:"Accord de l'adjectif à distance",
+  r:"L'adjectif s'accorde avec le nom qu'il qualifie, même quand plusieurs mots les séparent.",
+  astuce:"Pose la question : qu'est-ce qui est mouillé, ouvert, cassé ?",
+  p:[{s:"Elle est rentrée les cheveux [mouillé] par la pluie.", fix:"mouillés"},
+     {s:"Il a laissé les fenêtres du salon [ouvert].", fix:"ouvertes"},
+     {s:"Les fenêtres sont restées ouvertes toute la nuit.", fix:null}]},
+
+ {id:"pronominaux", cat:"Accords", n:3, t:"Participe passé des verbes pronominaux",
+  r:"Le participe reste <b>invariable</b> quand le verbe se construit avec « à » : parler à, succéder à, téléphoner à, sourire à.",
+  astuce:"Se parler, c'est parler à soi : complément indirect, donc pas d'accord.",
+  p:[{s:"Elles se sont [parlées] pendant une heure.", fix:"parlé"},
+     {s:"Ils se sont [succédés] à ce poste.", fix:"succédé"},
+     {s:"Elles se sont [téléphonées] tous les soirs.", fix:"téléphoné"},
+     {s:"Elles se sont regardées sans rien dire.", fix:null}]},
+
+ {id:"rendu-compte", cat:"Accords", n:3, t:"Se rendre compte",
+  r:"Dans « se rendre compte », le participe reste toujours <b>invariable</b> : « compte » est déjà le complément d'objet direct.",
+  astuce:"On rend compte à quelqu'un : le pronom est indirect.",
+  p:[{s:"Elle s'est [rendue] compte de son erreur.", fix:"rendu"},
+     {s:"Ils se sont [rendus] compte trop tard.", fix:"rendu"},
+     {s:"Elle s'est rendu compte de son oubli.", fix:null}]},
+
+ {id:"fait-infinitif", cat:"Accords", n:3, t:"« fait » suivi d'un infinitif",
+  r:"Devant un infinitif, le participe <b>fait</b> reste toujours invariable.",
+  astuce:"Elle s'est fait couper les cheveux, jamais « faite ».",
+  p:[{s:"Elle s'est [faite] couper les cheveux.", fix:"fait"},
+     {s:"Ils se sont [faits] renvoyer du club.", fix:"fait"},
+     {s:"Elle s'est fait mal au genou.", fix:null}]},
+
+ {id:"pp-infinitif", cat:"Accords", n:3, t:"Participe passé suivi d'un infinitif",
+  r:"Le participe s'accorde si le complément placé avant <b>fait</b> l'action de l'infinitif ; sinon il reste invariable.",
+  astuce:"Les musiciens jouent, donc accord. Les airs ne jouent pas, donc rien.",
+  p:[{s:"Les musiciens que j'ai [entendu] jouer étaient bons.", fix:"entendus"},
+     {s:"Les airs que j'ai entendu jouer étaient beaux.", fix:null}]},
+
+ {id:"sujet-éloigné", cat:"Accords", n:2, t:"Accord du verbe avec un sujet éloigné",
+  r:"Le verbe s'accorde avec le <b>noyau</b> du groupe sujet, pas avec le complément qui le suit.",
+  astuce:"Supprime le complément : « la qualité… est excellente ».",
+  p:[{s:"La qualité des produits [sont] excellente.", fix:"est"},
+     {s:"Le tiroir des couverts [sont] ouvert.", fix:"est"},
+     {s:"Le prix des billets a beaucoup augmenté.", fix:null}]},
+
+ {id:"cest-moi-qui", cat:"Accords", n:3, t:"C'est moi qui…",
+  r:"Après <b>qui</b>, le verbe s'accorde avec l'antécédent du pronom, donc avec la personne désignée.",
+  astuce:"C'est moi qui ai, c'est toi qui as, c'est nous qui avons.",
+  p:[{s:"C'est moi qui [a] préparé le repas.", fix:"ai"},
+     {s:"C'est vous qui avez tort.", fix:null},
+     {s:"C'est toi qui [a] gagné la partie.", fix:"as"}]},
+
+ {id:"la-plupart", cat:"Accords", n:2, t:"La plupart, beaucoup, peu",
+  r:"Après <b>la plupart</b>, <b>beaucoup</b> ou <b>peu</b>, le verbe se met au pluriel.",
+  astuce:"C'est le complément qui commande : la plupart des élèves ont compris.",
+  p:[{s:"La plupart des élèves [a] compris la règle.", fix:"ont"},
+     {s:"Beaucoup de gens [pense] le contraire.", fix:"pensent"},
+     {s:"La plupart d'entre eux sont déjà partis.", fix:null}]},
+
+ {id:"plus-dun", cat:"Accords", n:3, t:"Plus d'un, moins de deux",
+  r:"<b>Plus d'un</b> commande le singulier, <b>moins de deux</b> commande le pluriel. L'usage suit la forme, pas le sens.",
+  astuce:"Plus d'un est venu, moins de deux minutes sont passées.",
+  p:[{s:"Plus d'un candidat [sont] venus se plaindre.", fix:"est"},
+     {s:"Plus d'un spectateur s'est découragé.", fix:null}]},
+
+ {id:"aucun", cat:"Accords", n:2, t:"aucun et nul",
+  r:"<b>aucun</b> et <b>nul</b> s'emploient au singulier, sauf devant un nom qui n'existe qu'au pluriel.",
+  astuce:"Aucune erreur, aucun doute, mais aucuns frais.",
+  p:[{s:"Il n'a commis aucune [erreurs] dans sa copie.", fix:"erreur"},
+     {s:"Aucun [élèves] n'a échoué cette année.", fix:"élève"},
+     {s:"Aucun élève n'a manqué le cours.", fix:null}]},
+
+ {id:"vingt-cent", cat:"Accords", n:3, t:"vingt et cent",
+  r:"<b>vingt</b> et <b>cent</b> prennent un s quand ils sont multipliés et terminent le nombre.",
+  astuce:"Quatre-vingts, mais quatre-vingt-trois ; deux cents, mais deux cent dix.",
+  p:[{s:"La facture s'élève à quatre-[vingt] euros.", fix:"vingts"},
+     {s:"Le livre compte trois [cent] pages exactement.", fix:"cents"},
+     {s:"Il a compté deux cents pages et quatre-vingt-trois lignes.", fix:null}]},
+
+ {id:"couleurs", cat:"Accords", n:3, t:"Adjectifs de couleur",
+  r:"Les noms employés comme couleurs restent <b>invariables</b> : marron, orange, crème, olive. Les vrais adjectifs, eux, s'accordent.",
+  astuce:"Si le mot désigne d'abord une chose (un marron, une orange), pas d'accord.",
+  p:[{s:"Elle a les yeux [marrons] et les cheveux noirs.", fix:"marron"},
+     {s:"Il portait des chaussettes [oranges].", fix:"orange"},
+     {s:"Elle a les yeux marron et des gants verts.", fix:null}]},
+
+ {id:"demi", cat:"Accords", n:3, t:"demi",
+  r:"Placé avant le nom, <b>demi</b> est invariable et se lie par un trait d'union. Placé après, il s'accorde en genre seulement.",
+  astuce:"Une demi-heure, mais deux heures et demie.",
+  p:[{s:"Il a attendu une [demie-heure] entière.", fix:"demi-heure"},
+     {s:"Il est deux heures et [demi].", fix:"demie"},
+     {s:"Une demi-journée et trois heures et demie.", fix:null}]},
+
+ {id:"ci-joint", cat:"Accords", n:3, t:"ci-joint et ci-inclus",
+  r:"<b>ci-joint</b> reste invariable en tête de phrase ou devant le nom ; il s'accorde quand il suit le nom.",
+  astuce:"Ci-joint la facture, mais la facture ci-jointe.",
+  p:[{s:"[Ci-jointe] la facture du mois dernier.", fix:"Ci-joint"},
+     {s:"Vous trouverez la facture [ci-joint].", fix:"ci-jointe"},
+     {s:"Veuillez trouver ci-joint les deux documents.", fix:null}]},
+
+ {id:"pluriel-al", cat:"Accords", n:2, t:"Pluriel des noms en -al",
+  r:"Les noms en <b>-al</b> font leur pluriel en <b>-aux</b>, sauf bal, carnaval, festival, chacal, récital et régal.",
+  astuce:"Les exceptions se retiennent en série : bals, carnavals, festivals.",
+  p:[{s:"Il a assisté à trois [festivaux] cet été.", fix:"festivals"},
+     {s:"Les [chevals] galopaient dans le pré.", fix:"chevaux"},
+     {s:"Les journaux annoncent des bals et des carnavals.", fix:null}]},
+
+ {id:"pluriel-ou", cat:"Accords", n:2, t:"Pluriel des noms en -ou",
+  r:"Les noms en <b>-ou</b> prennent un s, sauf sept d'entre eux : bijou, caillou, chou, genou, hibou, joujou, pou.",
+  astuce:"Ces sept-là prennent un x au pluriel.",
+  p:[{s:"Il est tombé sur les [genous].", fix:"genoux"},
+     {s:"Elle a acheté deux choux et trois clous.", fix:null},
+     {s:"Les [hibous] hululaient dans la nuit.", fix:"hiboux"}]},
+
+ {id:"pluriel-eu", cat:"Accords", n:2, t:"Pluriel des noms en -eu et -au",
+  r:"Les noms en <b>-eu</b> et <b>-au</b> prennent un x, sauf pneu, bleu, landau et sarrau.",
+  astuce:"Des pneus et des bleus, mais des jeux et des tuyaux.",
+  p:[{s:"Le garagiste a changé les [pneux].", fix:"pneus"},
+     {s:"Les [tuyaus] du chauffage ont gelé.", fix:"tuyaux"},
+     {s:"Il a acheté des pneus neufs et deux jeux.", fix:null}]},
+
+ {id:"noms-composés", cat:"Accords", n:3, t:"Pluriel des noms composés",
+  r:"Dans un nom composé d'un verbe et d'un nom, le <b>verbe reste invariable</b> ; seul le nom peut se mettre au pluriel.",
+  astuce:"Un porte-monnaie, des porte-monnaie : on ne pluralise pas le verbe.",
+  p:[{s:"Il collectionne les [portes-monnaie] anciens.", fix:"porte-monnaie"},
+     {s:"Le rayon vend des [sèches-cheveux].", fix:"sèche-cheveux"},
+     {s:"Elle a rangé les porte-clés dans le tiroir.", fix:null}]},
+
+ {id:"accord-on", cat:"Accords", n:3, t:"Accord avec « on »",
+  r:"Le verbe qui suit <b>on</b> se met toujours au singulier, même quand « on » désigne plusieurs personnes.",
+  astuce:"On est arrivés est toléré pour l'attribut, jamais pour le verbe.",
+  p:[{s:"On [sont] tous d'accord sur ce point.", fix:"est"},
+     {s:"On a compris ce qu'il fallait faire.", fix:null}]},
+
+ {id:"nu-demi", cat:"Accords", n:3, t:"nu devant le nom",
+  r:"Devant le nom, <b>nu</b> reste invariable et se lie par un trait d'union ; après le nom, il s'accorde.",
+  astuce:"Nu-pieds, mais les pieds nus.",
+  p:[{s:"Elle marchait [nus-pieds] sur le sable.", fix:"nu-pieds"},
+     {s:"Il courait les pieds [nu] dans l'herbe.", fix:"nus"},
+     {s:"Elle marchait nu-pieds, les bras nus.", fix:null}]},
+
+/* ─── CONJUGAISON ─── */
+ {id:"é-er", cat:"Conjugaison", n:1, t:"-é ou -er",
+  r:"L'infinitif se termine en <b>-er</b>, le participe passé en <b>-é</b> et s'accorde éventuellement.",
+  astuce:"Remplace par « mordre » : si ça passe, c'est l'infinitif.",
+  p:[{s:"N'oublie pas de [fermé] la porte en partant.", fix:"fermer"},
+     {s:"Il a [manger] beaucoup trop vite.", fix:"mangé"},
+     {s:"Elle vient de [rentré] du travail.", fix:"rentrer"},
+     {s:"Il faut penser à réserver une table.", fix:null}]},
+
+ {id:"ez-er", cat:"Conjugaison", n:1, t:"-ez ou -er",
+  r:"<b>-ez</b> est la terminaison de la deuxième personne du pluriel ; <b>-er</b> est l'infinitif.",
+  astuce:"Remplace par « mordre » : si ça passe, c'est l'infinitif.",
+  p:[{s:"Il faut [travaillez] davantage cette année.", fix:"travailler"},
+     {s:"Vous [parler] trop vite pour moi.", fix:"parlez"},
+     {s:"Vous travaillez trop, il faut vous reposer.", fix:null}]},
+
+ {id:"pp-i", cat:"Conjugaison", n:2, t:"Participe passé en -i",
+  r:"Le participe passé des verbes du deuxième groupe se termine par <b>-i</b>, sans t. Le t appartient au présent.",
+  astuce:"Mets au féminin : « elle a agi », pas « agite ».",
+  p:[{s:"Il a [agit] avec beaucoup de courage.", fix:"agi"},
+     {s:"Le gâteau a cuit trop longtemps.", fix:null},
+     {s:"Elle a [réfléchit] avant de répondre.", fix:"réfléchi"}]},
+
+ {id:"futur-cond", cat:"Conjugaison", n:2, t:"-ai ou -ais à la première personne",
+  r:"Au futur simple on écrit <b>-ai</b>, au conditionnel <b>-ais</b>.",
+  astuce:"Passe à « nous » : « nous serons » indique le futur, donc -ai.",
+  p:[{s:"Demain, je [serais] chez toi vers midi.", fix:"serai"},
+     {s:"Si je pouvais, je [partirai] tout de suite.", fix:"partirais"},
+     {s:"Si j'avais le temps, je serais venu.", fix:null}]},
+
+ {id:"impératif", cat:"Conjugaison", n:2, t:"Impératif des verbes en -er",
+  r:"À la deuxième personne du singulier, les verbes du premier groupe perdent leur <b>s</b> à l'impératif.",
+  astuce:"Le s ne revient que devant « en » et « y » : vas-y, manges-en.",
+  p:[{s:"[Manges] ta soupe avant qu'elle refroidisse.", fix:"Mange"},
+     {s:"Va chercher le pain, puis reviens.", fix:null},
+     {s:"[Écoutes]-moi une seconde, s'il te plaît.", fix:"Écoute"}]},
+
+ {id:"verbes-ger", cat:"Conjugaison", n:2, t:"Verbes en -ger",
+  r:"Les verbes en <b>-ger</b> gardent le e devant a et o pour conserver le son [j].",
+  astuce:"Nous mangeons, nous partageons, il voyageait.",
+  p:[{s:"Nous [mangons] toujours à midi.", fix:"mangeons"},
+     {s:"Il [voyagait] beaucoup à cette époque.", fix:"voyageait"},
+     {s:"Nous voyageons et nous partageons tout.", fix:null}]},
+
+ {id:"verbes-cer", cat:"Conjugaison", n:2, t:"Verbes en -cer",
+  r:"Les verbes en <b>-cer</b> prennent une cédille devant a et o pour garder le son [s].",
+  astuce:"Nous plaçons, il commençait, nous avançons.",
+  p:[{s:"Nous [placons] les chaises en cercle.", fix:"plaçons"},
+     {s:"Il [commencait] à faire nuit.", fix:"commençait"},
+     {s:"Nous commençons et nous avançons vite.", fix:null}]},
+
+ {id:"verbes-yer", cat:"Conjugaison", n:2, t:"Verbes en -yer",
+  r:"Les verbes en <b>-oyer</b> et <b>-uyer</b> changent le y en i devant un e muet.",
+  astuce:"Il envoie, il nettoie, mais nous envoyons.",
+  p:[{s:"Elle [envoit] un message à son frère.", fix:"envoie"},
+     {s:"Il [nettoit] la table après le repas.", fix:"nettoie"},
+     {s:"Il envoie un mot et nettoie la table.", fix:null}]},
+
+ {id:"subj-falloir", cat:"Conjugaison", n:2, t:"Subjonctif après « il faut que »",
+  r:"<b>Il faut que</b> entraîne toujours le subjonctif.",
+  astuce:"Il faut que tu viennes, que tu fasses, que tu sois.",
+  p:[{s:"Il faut que tu [viens] demain matin.", fix:"viennes"},
+     {s:"Il faut que je [fais] les courses.", fix:"fasse"},
+     {s:"Il faut que tu sois là et que tu fasses vite.", fix:null}]},
+
+ {id:"subj-bienque", cat:"Conjugaison", n:3, t:"Subjonctif après « bien que »",
+  r:"<b>bien que</b>, <b>quoique</b>, <b>avant que</b> et <b>pour que</b> entraînent le subjonctif.",
+  astuce:"Bien qu'il soit, avant qu'il parte, pour qu'elle comprenne.",
+  p:[{s:"Bien qu'il [est] fatigué, il continue.", fix:"soit"},
+     {s:"Avant qu'il [part], dis-lui au revoir.", fix:"parte"},
+     {s:"Bien qu'elle soit jeune, elle comprend vite.", fix:null}]},
+
+ {id:"si-conditionnel", cat:"Conjugaison", n:1, t:"Jamais de conditionnel après « si »",
+  r:"Après <b>si</b> de condition, on emploie l'imparfait, jamais le conditionnel.",
+  astuce:"Si j'avais su. Les si n'aiment pas les rais.",
+  p:[{s:"Si j'[aurais] su, je serais resté.", fix:"avais"},
+     {s:"Si tu [serais] venu, tu aurais compris.", fix:"étais"},
+     {s:"Si j'avais su, je ne serais pas venu.", fix:null}]},
+
+ {id:"imparfait-ions", cat:"Conjugaison", n:3, t:"Les verbes en -yer et -ier à l'imparfait",
+  r:"À l'imparfait et au subjonctif, les verbes dont le radical finit par i ou y prennent un <b>double i</b> aux deux premières personnes du pluriel.",
+  astuce:"Nous riions, vous criiez, que nous voyions.",
+  p:[{s:"Autrefois, nous [rions] beaucoup ensemble.", fix:"riions"},
+     {s:"Il faudrait que vous [voyez] ce film.", fix:"voyiez"},
+     {s:"Nous croyions vraiment à cette histoire.", fix:null}]},
+
+ {id:"vaincre", cat:"Conjugaison", n:3, t:"vaincre et convaincre",
+  r:"À la troisième personne du singulier, ces verbes se terminent par <b>-c</b>, sans t.",
+  astuce:"Il vainc, il convainc : le c suffit.",
+  p:[{s:"Il [vaint] toujours ses adversaires.", fix:"vainc"},
+     {s:"Elle [convaint] son public sans effort.", fix:"convainc"},
+     {s:"Il convainc et il vainc sans jamais forcer.", fix:null}]},
+
+ {id:"verbes-indre", cat:"Conjugaison", n:2, t:"Verbes en -indre",
+  r:"Les verbes en <b>-indre</b> perdent le d et prennent un <b>t</b> à la troisième personne du singulier.",
+  astuce:"Il peint, il craint, il rejoint, il éteint.",
+  p:[{s:"Il [crain] le froid plus que tout.", fix:"craint"},
+     {s:"Elle [peind] les murs de sa chambre.", fix:"peint"},
+     {s:"Il peint le mur puis rejoint sa famille.", fix:null}]},
+
+ {id:"participe-présent", cat:"Conjugaison", n:3, t:"Participe présent ou adjectif verbal",
+  r:"Le <b>participe présent</b> est invariable et marque l'action ; l'<b>adjectif verbal</b> décrit un état et s'accorde. Leur orthographe diffère parfois.",
+  astuce:"Négligeant les consignes (action), mais des élèves négligents (état).",
+  p:[{s:"Ce sont des élèves [négligeant] et bruyants.", fix:"négligents"},
+     {s:"Négligeant les consignes, il a tout raté.", fix:null},
+     {s:"Ce sont des arguments [convainquant].", fix:"convaincants"}]},
+
+ {id:"aie-ait", cat:"Conjugaison", n:2, t:"Subjonctif du verbe avoir",
+  r:"Au subjonctif : que j'<b>aie</b>, que tu <b>aies</b>, qu'il <b>ait</b>, que nous <b>ayons</b>.",
+  astuce:"Après « que », le verbe avoir ne s'écrit jamais « ai » tout court.",
+  p:[{s:"Il faut que j'[ai] plus de courage.", fix:"aie"},
+     {s:"Il faut qu'il [a] terminé avant midi.", fix:"ait"},
+     {s:"Il faut que tu aies confiance en toi.", fix:null}]},
+
+ {id:"passé-simple", cat:"Conjugaison", n:3, t:"Passé simple ou imparfait",
+  r:"À la première personne, le passé simple s'écrit <b>-ai</b> et l'imparfait <b>-ais</b>. Le passé simple raconte une action ponctuelle.",
+  astuce:"« Souvent », « toujours », « chaque jour » appellent l'imparfait.",
+  p:[{s:"Quand j'étais jeune, je [mangeai] souvent chez eux.", fix:"mangeais"},
+     {s:"Ce jour-là, je fermai la porte et je partis.", fix:null}]},
+
+ {id:"futur-ir", cat:"Conjugaison", n:3, t:"Futur des verbes en -ir",
+  r:"Au futur, on ajoute la terminaison à l'infinitif entier : cour<b>ir</b> donne « courra » avec deux r, mais fini<b>r</b> donne « finira ».",
+  astuce:"Courir, mourir et acquérir doublent le r au futur.",
+  p:[{s:"Demain, il courra le marathon.", fix:null},
+     {s:"Elle [finiras] son travail ce soir.", fix:"finira"},
+     {s:"Nous [courons] plus vite demain qu'aujourd'hui.", fix:"courrons"}]},
+
+ {id:"accord-verbe-sujet", cat:"Conjugaison", n:1, t:"Accord du verbe avec son sujet",
+  r:"Le verbe s'accorde en personne et en nombre avec son sujet, même quand celui-ci est placé après.",
+  astuce:"Pose la question « qui est-ce qui ? » avant le verbe.",
+  p:[{s:"Les enfants [joue] dans le jardin.", fix:"jouent"},
+     {s:"Ainsi [commence] les difficultés.", fix:"commencent"},
+     {s:"Dans la cour jouent les enfants du quartier.", fix:null}]},
+
+/* ─── ORTHOGRAPHE D'USAGE ─── */
+ {id:"parmi-malgré", cat:"Orthographe d'usage", n:1, t:"parmi et malgré",
+  r:"<b>parmi</b> et <b>malgré</b> ne prennent jamais de s.",
+  astuce:"Le couple inverse prend un s : après et hormis.",
+  p:[{s:"Il figure [parmis] les meilleurs de sa promotion.", fix:"parmi"},
+     {s:"Il est sorti [malgrés] la pluie battante.", fix:"malgré"},
+     {s:"Malgré tout, il est resté parmi nous.", fix:null}]},
+
+ {id:"appeler", cat:"Orthographe d'usage", n:2, t:"appeler, jeter : quand doubler ?",
+  r:"La consonne double <b>seulement</b> quand on entend le son [è] : j'appe<b>ll</b>e, mais nous appe<b>l</b>ons.",
+  astuce:"Si tu entends « eu », une seule consonne.",
+  p:[{s:"Il faut [appeller] le médecin sans tarder.", fix:"appeler"},
+     {s:"Elle va [jetter] les vieux journaux.", fix:"jeter"},
+     {s:"Nous appelons souvent, mais elle appelle rarement.", fix:null}]},
+
+ {id:"ent-ant", cat:"Orthographe d'usage", n:2, t:"Adjectifs en -ent",
+  r:"Certains adjectifs s'écrivent <b>-ent</b> et non -ant.",
+  astuce:"Pense au nom de la famille : pertinence, cohérence, différence.",
+  p:[{s:"C'est un argument tout à fait [pertinant].", fix:"pertinent"},
+     {s:"Son discours n'est pas très [cohérant].", fix:"cohérent"},
+     {s:"Son raisonnement est cohérent et pertinent.", fix:null}]},
+
+ {id:"amment-emment", cat:"Orthographe d'usage", n:3, t:"-amment ou -emment",
+  r:"L'adverbe se forme sur l'adjectif : <b>-ant</b> donne <b>-amment</b>, <b>-ent</b> donne <b>-emment</b>. Les deux se prononcent pareil.",
+  astuce:"Prudent donne prudemment, courant donne couramment.",
+  p:[{s:"Il conduit [prudamment] sur le verglas.", fix:"prudemment"},
+     {s:"Elle parle [courrament] trois langues.", fix:"couramment"},
+     {s:"Il parle couramment et répond prudemment.", fix:null}]},
+
+ {id:"circonflexe", cat:"Orthographe d'usage", n:2, t:"L'accent circonflexe distinctif",
+  r:"L'accent sépare deux mots identiques à l'oreille : <b>sûr</b> et <b>sur</b>, <b>dû</b> et <b>du</b>, <b>mûr</b> et <b>mur</b>.",
+  astuce:"Remplace par « certain » : si ça marche, mets l'accent.",
+  p:[{s:"Il viendra bien [sur] demain matin.", fix:"sûr"},
+     {s:"Il a [du] partir plus tôt que prévu.", fix:"dû"},
+     {s:"Bien sûr, le livre est sur la table.", fix:null}]},
+
+ {id:"connexion", cat:"Orthographe d'usage", n:2, t:"connexion, réflexion, flexion",
+  r:"Ces mots s'écrivent avec un <b>x</b>, jamais avec « ct ». L'anglais influence à tort l'orthographe.",
+  astuce:"Pense à « flexible » : la famille garde le x.",
+  p:[{s:"Ma [connection] internet est très lente.", fix:"connexion"},
+     {s:"Après [reflexion], je préfère décliner.", fix:"réflexion"},
+     {s:"La connexion demande un peu de réflexion.", fix:null}]},
+
+ {id:"professionnel", cat:"Orthographe d'usage", n:2, t:"Les doubles consonnes fréquentes",
+  r:"<b>professionnel</b> prend deux s et deux n, <b>développement</b> deux p et un l, <b>apercevoir</b> un seul p.",
+  astuce:"Ces mots s'apprennent un par un : lis-les à voix haute en épelant.",
+  p:[{s:"Il a un rendez-vous [profesionnel] demain.", fix:"professionnel"},
+     {s:"Le [dévelopement] du projet a pris du retard.", fix:"développement"},
+     {s:"Il l'a [apperçu] de loin dans la foule.", fix:"aperçu"},
+     {s:"Le développement professionnel prend du temps.", fix:null}]},
+
+ {id:"accueillir", cat:"Orthographe d'usage", n:2, t:"Le groupe -ueil",
+  r:"Après c et g, on écrit <b>-ueil</b> et non -euil : accueil, cueillir, orgueil, recueil.",
+  astuce:"Le u se glisse derrière le c pour garder le son [k].",
+  p:[{s:"Ils vont nous [acceuillir] à la gare.", fix:"accueillir"},
+     {s:"Il faut [ceuillir] les cerises maintenant.", fix:"cueillir"},
+     {s:"L'accueil est ouvert, viens cueillir des fleurs.", fix:null}]},
+
+ {id:"langage", cat:"Orthographe d'usage", n:2, t:"langage, dilemme, acompte",
+  r:"Trois pièges classiques : <b>langage</b> sans u, <b>dilemme</b> avec deux m, <b>acompte</b> avec un seul c.",
+  astuce:"Langage vient de langue, mais perd son u.",
+  p:[{s:"Il apprend un nouveau [language] de programmation.", fix:"langage"},
+     {s:"C'est un vrai [dilemne] pour lui.", fix:"dilemme"},
+     {s:"Il a versé un [accompte] de deux cents euros.", fix:"acompte"},
+     {s:"Le langage administratif pose un dilemme.", fix:null}]},
+
+ {id:"week-end", cat:"Orthographe d'usage", n:2, t:"Les mots à trait d'union",
+  r:"Certains mots empruntés ou composés gardent leur <b>trait d'union</b> : week-end, c'est-à-dire, vis-à-vis, après-midi.",
+  astuce:"En cas de doute, le trait d'union est plus souvent requis qu'on ne croit.",
+  p:[{s:"Il part en [weekend] à la montagne.", fix:"week-end"},
+     {s:"Nous nous voyons cet [aprèsmidi].", fix:"après-midi"},
+     {s:"Bon week-end, à cet après-midi.", fix:null}]},
+
+ {id:"t-euphonique", cat:"Orthographe d'usage", n:3, t:"Le t euphonique",
+  r:"Dans une question inversée, le <b>t</b> ajouté se place entre deux traits d'union, et le mot qui précède reste séparé.",
+  astuce:"Y a-t-il, va-t-il, pense-t-elle : trois blocs bien séparés.",
+  p:[{s:"[Y-a-t-il] quelqu'un dans la salle ?", fix:"Y a-t-il"},
+     {s:"[Va-t'il] pleuvoir cet après-midi ?", fix:"Va-t-il"},
+     {s:"Y a-t-il une raison ? Viendra-t-elle ?", fix:null}]},
+
+ {id:"majuscule-nationalité", cat:"Orthographe d'usage", n:2, t:"Majuscule aux noms de peuples",
+  r:"Le nom d'habitant prend une <b>majuscule</b>, l'adjectif et le nom de langue prennent une <b>minuscule</b>.",
+  astuce:"Un Français parle français à des amis français.",
+  p:[{s:"Il a rencontré un [français] à Rome.", fix:"Français"},
+     {s:"La cuisine [Italienne] est réputée.", fix:"italienne"},
+     {s:"Un Italien parle italien avec ses voisins.", fix:null}]},
+
+ {id:"etc", cat:"Orthographe d'usage", n:2, t:"etc.",
+  r:"<b>etc.</b> s'écrit avec un point abréviatif unique, jamais suivi de points de suspension, et n'est jamais répété.",
+  astuce:"Un seul point suffit : etc.",
+  p:[{s:"Des pommes, des poires, [etc...] à volonté.", fix:"etc."},
+     {s:"Il faut du pain, du lait, etc.", fix:null}]},
+
+ {id:"cent-mille", cat:"Orthographe d'usage", n:3, t:"mille et millier",
+  r:"<b>mille</b> adjectif numéral est toujours invariable ; <b>millier</b>, <b>million</b> et <b>milliard</b> sont des noms et prennent un s.",
+  astuce:"Deux mille personnes, mais deux milliers de personnes.",
+  p:[{s:"Il y avait deux [milles] spectateurs.", fix:"mille"},
+     {s:"Le stade a accueilli trois [million] de visiteurs.", fix:"millions"},
+     {s:"Deux mille euros, soit deux milliers de billets.", fix:null}]},
+
+ {id:"sceptique", cat:"Orthographe d'usage", n:3, t:"sceptique ou septique",
+  r:"<b>sceptique</b> se dit de qui doute ; <b>septique</b> concerne les microbes, comme la fosse septique.",
+  astuce:"Le scepticisme garde son sc, comme la science.",
+  p:[{s:"Il reste [septique] devant cette promesse.", fix:"sceptique"},
+     {s:"Il est sceptique, mais la fosse septique fonctionne.", fix:null}]},
+
+ {id:"quelquefois", cat:"Orthographe d'usage", n:3, t:"quelquefois ou quelques fois",
+  r:"<b>quelquefois</b> en un mot signifie « parfois » ; <b>quelques fois</b> en deux mots se compte.",
+  astuce:"Remplace par « parfois » : si ça marche, un seul mot.",
+  p:[{s:"Il vient [quelquesfois] le samedi matin.", fix:"quelquefois"},
+     {s:"Je l'ai croisé quelques fois cette année.", fix:null}]},
+
+ {id:"bientot", cat:"Orthographe d'usage", n:2, t:"bientôt ou bien tôt",
+  r:"<b>bientôt</b> signifie « dans peu de temps » ; <b>bien tôt</b> signifie « très tôt ».",
+  astuce:"Si tu peux ajouter « trop » devant « tôt », écris deux mots.",
+  p:[{s:"Tu arrives [bientôt], il n'est que six heures.", fix:"bien tôt"},
+     {s:"Tu arrives bien tôt, il n'est que six heures.", fix:null}]},
+
+ {id:"hyphen-nombres", cat:"Orthographe d'usage", n:3, t:"Trait d'union dans les nombres",
+  r:"Depuis 1990, tous les éléments d'un nombre composé se lient par des <b>traits d'union</b>.",
+  astuce:"Vingt-et-un, trois-cent-quatre : on relie tout.",
+  p:[{s:"Il a fêté ses [vingtetun] ans hier.", fix:"vingt-et-un"},
+     {s:"Le compteur affiche trente-deux mille kilomètres.", fix:null}]},
+
+/* ─── VOCABULAIRE ─── */
+ {id:"conjoncture", cat:"Vocabulaire", n:3, t:"conjoncture ou conjecture",
+  r:"La <b>conjoncture</b> est la situation d'ensemble à un moment donné. Une <b>conjecture</b> est une supposition non vérifiée.",
+  astuce:"Conjoncture comme jonction : tout ce qui se rejoint.",
+  p:[{s:"La [conjecture] économique reste difficile.", fix:"conjoncture"},
+     {s:"Ce n'est qu'une conjecture, rien n'est prouvé.", fix:null}]},
+
+ {id:"irruption", cat:"Vocabulaire", n:2, t:"irruption ou éruption",
+  r:"Faire <b>irruption</b>, c'est entrer brusquement. Une <b>éruption</b> concerne un volcan ou la peau.",
+  astuce:"Irruption comme intrusion : on entre.",
+  p:[{s:"Le directeur a fait [éruption] dans la salle.", fix:"irruption"},
+     {s:"Le volcan est entré en éruption cette nuit.", fix:null}]},
+
+ {id:"voire", cat:"Vocabulaire", n:2, t:"voire ou voir",
+  r:"<b>voire</b> signifie « et même ». <b>voir</b> est le verbe.",
+  astuce:"Remplace par « et même » : si ça marche, un e à la fin.",
+  p:[{s:"Le trajet dure deux heures, [voir] trois.", fix:"voire"},
+     {s:"Il faudra voir, voire revenir demain.", fix:null}]},
+
+ {id:"davantage", cat:"Vocabulaire", n:2, t:"davantage ou d'avantage",
+  r:"<b>davantage</b> en un mot signifie « plus ». <b>d'avantage</b> en deux mots suppose un bénéfice.",
+  astuce:"Remplace par « plus » : si ça marche, un seul mot.",
+  p:[{s:"Il faudrait travailler [d'avantage] cette année.", fix:"davantage"},
+     {s:"Il n'y voit pas d'avantage à déménager.", fix:null}]},
+
+ {id:"savoir-gré", cat:"Vocabulaire", n:3, t:"savoir gré",
+  r:"L'expression est <b>savoir gré</b>, jamais « être gré ».",
+  astuce:"Je vous saurais gré, je lui sais gré.",
+  p:[{s:"Je vous [serais] gré de me répondre vite.", fix:"saurais"},
+     {s:"Je vous sais gré de votre aide précieuse.", fix:null}]},
+
+ {id:"amener", cat:"Vocabulaire", n:2, t:"amener ou apporter",
+  r:"On <b>amène</b> une personne ou un animal, on <b>apporte</b> une chose.",
+  astuce:"Mener conduit quelqu'un, porter tient un objet.",
+  p:[{s:"Il a [amené] un gâteau pour le dessert.", fix:"apporté"},
+     {s:"Il a amené son frère et apporté le dessert.", fix:null}]},
+
+ {id:"emmener", cat:"Vocabulaire", n:2, t:"emmener ou emporter",
+  r:"On <b>emmène</b> quelqu'un avec soi, on <b>emporte</b> un objet.",
+  astuce:"Même logique que amener et apporter.",
+  p:[{s:"N'oublie pas d'[emmener] ton parapluie.", fix:"emporter"},
+     {s:"Elle emmène sa fille et emporte son sac.", fix:null}]},
+
+ {id:"éminent", cat:"Vocabulaire", n:3, t:"éminent ou imminent",
+  r:"<b>éminent</b> signifie remarquable ; <b>imminent</b> signifie sur le point d'arriver.",
+  astuce:"Imminent comme immédiat : c'est une question de temps.",
+  p:[{s:"Le départ est [éminent], dépêche-toi.", fix:"imminent"},
+     {s:"C'est un [imminent] professeur de droit.", fix:"éminent"},
+     {s:"Un éminent chercheur annonce une découverte imminente.", fix:null}]},
+
+ {id:"collision", cat:"Vocabulaire", n:3, t:"collision ou collusion",
+  r:"Une <b>collision</b> est un choc ; une <b>collusion</b> est une entente secrète.",
+  astuce:"Collision comme collide : deux choses se percutent.",
+  p:[{s:"Les deux voitures sont entrées en [collusion].", fix:"collision"},
+     {s:"On soupçonne une collusion entre les deux groupes.", fix:null}]},
+
+ {id:"effraction", cat:"Vocabulaire", n:3, t:"effraction ou infraction",
+  r:"Une <b>effraction</b> est un bris de serrure ; une <b>infraction</b> est une violation de la loi.",
+  astuce:"Effraction comme fracture : quelque chose est cassé.",
+  p:[{s:"Ils sont entrés par [infraction] dans le garage.", fix:"effraction"},
+     {s:"Cette infraction lui a valu une amende.", fix:null}]},
+
+ {id:"original", cat:"Vocabulaire", n:3, t:"original ou originel",
+  r:"<b>original</b> signifie inédit ou de première main ; <b>originel</b> signifie qui remonte à l'origine.",
+  astuce:"Le péché originel, mais une idée originale.",
+  p:[{s:"Le texte [originel] de ce contrat est perdu.", fix:"original"},
+     {s:"Le sens originel du mot s'est perdu.", fix:null}]},
+
+ {id:"littéral", cat:"Vocabulaire", n:2, t:"littéral ou littoral",
+  r:"<b>littéral</b> concerne la lettre, le texte ; <b>littoral</b> désigne le bord de mer.",
+  astuce:"Littoral comme le rivage, littéral comme la littérature.",
+  p:[{s:"Il en a fait une traduction [littorale].", fix:"littérale"},
+     {s:"Le littoral breton est très découpé.", fix:null}]},
+
+ {id:"tache", cat:"Vocabulaire", n:2, t:"tache ou tâche",
+  r:"Une <b>tache</b> est une salissure ; une <b>tâche</b> est un travail à faire.",
+  astuce:"L'accent est la charge de travail qui pèse sur le a.",
+  p:[{s:"Il a une [tache] difficile à accomplir.", fix:"tâche"},
+     {s:"Il y a une [tâche] de café sur ta chemise.", fix:"tache"},
+     {s:"Nettoyer cette tache est une vraie tâche.", fix:null}]},
+
+ {id:"cession", cat:"Vocabulaire", n:3, t:"cession ou session",
+  r:"Une <b>cession</b> est la vente d'un bien ; une <b>session</b> est une période de travail.",
+  astuce:"Céder donne cession, s'asseoir donne session.",
+  p:[{s:"La [cession] de rattrapage aura lieu en juin.", fix:"session"},
+     {s:"La cession des parts a été signée hier.", fix:null}]},
+
+ {id:"dessein", cat:"Vocabulaire", n:3, t:"dessein ou dessin",
+  r:"Un <b>dessein</b> est une intention ; un <b>dessin</b> est une image.",
+  astuce:"À dessein signifie exprès.",
+  p:[{s:"Il l'a fait à [dessin], pour provoquer.", fix:"dessein"},
+     {s:"Son dessin illustre parfaitement son dessein.", fix:null}]},
+
+ {id:"balade", cat:"Vocabulaire", n:2, t:"balade ou ballade",
+  r:"Une <b>balade</b> est une promenade ; une <b>ballade</b> est un poème ou une chanson.",
+  astuce:"La ballade a deux l comme la mélodie a deux notes tenues.",
+  p:[{s:"Ils sont partis en [ballade] dans la forêt.", fix:"balade"},
+     {s:"Cette ballade médiévale accompagne bien la balade.", fix:null}]},
+
+ {id:"acception", cat:"Vocabulaire", n:3, t:"acception ou acceptation",
+  r:"Une <b>acception</b> est un sens de mot ; l'<b>acceptation</b> est le fait d'accepter.",
+  astuce:"Le dictionnaire donne les acceptions d'un terme.",
+  p:[{s:"Ce mot a plusieurs [acceptations] en droit.", fix:"acceptions"},
+     {s:"Son acceptation du poste a surpris tout le monde.", fix:null}]},
+
+ {id:"compréhensif", cat:"Vocabulaire", n:2, t:"compréhensif ou compréhensible",
+  r:"<b>compréhensif</b> se dit d'une personne indulgente ; <b>compréhensible</b> se dit de ce qu'on peut comprendre.",
+  astuce:"Un chef compréhensif donne des consignes compréhensibles.",
+  p:[{s:"Son explication n'était pas très [compréhensive].", fix:"compréhensible"},
+     {s:"Un directeur compréhensif écoute ses équipes.", fix:null}]},
+
+ {id:"perpétrer", cat:"Vocabulaire", n:3, t:"perpétrer ou perpétuer",
+  r:"<b>perpétrer</b>, c'est commettre un acte ; <b>perpétuer</b>, c'est faire durer.",
+  astuce:"Perpétuer comme perpétuel : cela continue.",
+  p:[{s:"Ils veulent [perpétrer] la tradition familiale.", fix:"perpétuer"},
+     {s:"Le crime a été perpétré pendant la nuit.", fix:null}]},
+
+ {id:"recouvrer", cat:"Vocabulaire", n:3, t:"recouvrer ou recouvrir",
+  r:"<b>recouvrer</b>, c'est retrouver ou encaisser ; <b>recouvrir</b>, c'est couvrir entièrement.",
+  astuce:"Recouvrer la vue, recouvrir un mur.",
+  p:[{s:"Il a enfin [recouvert] la santé.", fix:"recouvré"},
+     {s:"La neige a recouvert tout le jardin.", fix:null}]},
+
+ {id:"inclinaison", cat:"Vocabulaire", n:3, t:"inclinaison ou inclination",
+  r:"L'<b>inclinaison</b> est un angle ; une <b>inclination</b> est un penchant.",
+  astuce:"L'inclinaison se mesure, l'inclination se ressent.",
+  p:[{s:"Il a une nette [inclinaison] pour la musique.", fix:"inclination"},
+     {s:"L'inclinaison du toit facilite l'écoulement.", fix:null}]},
+
+ {id:"notable", cat:"Vocabulaire", n:3, t:"notable ou notoire",
+  r:"<b>notable</b> signifie important, digne d'être noté ; <b>notoire</b> signifie connu de tous.",
+  astuce:"Un fait notoire est public, un progrès notable est net.",
+  p:[{s:"C'est un menteur [notable], tout le monde le sait.", fix:"notoire"},
+     {s:"On observe une amélioration notable des résultats.", fix:null}]},
+
+ {id:"pallier", cat:"Vocabulaire", n:3, t:"pallier",
+  r:"<b>pallier</b> se construit sans préposition : on pallie quelque chose, pas « à » quelque chose.",
+  astuce:"Pallier un manque, comme compenser un manque.",
+  p:[{s:"Il faut pallier [à] ce manque de personnel.", fix:"à supprimer"},
+     {s:"Cette mesure pallie le manque de moyens.", fix:null}]},
+
+ {id:"se-rappeler", cat:"Vocabulaire", n:3, t:"se rappeler ou se souvenir",
+  r:"On <b>se rappelle</b> quelque chose, mais on <b>se souvient de</b> quelque chose.",
+  astuce:"Se rappeler se construit directement, sans « de ».",
+  p:[{s:"Je me rappelle [de] cette journée d'été.", fix:"à supprimer"},
+     {s:"Je me souviens de ce jour et je me le rappelle bien.", fix:null}]},
+
+ {id:"attention-intention", cat:"Vocabulaire", n:3, t:"à l'attention ou à l'intention",
+  r:"<b>à l'attention de</b> s'emploie pour adresser un courrier ; <b>à l'intention de</b> signifie « en l'honneur de, pour ».",
+  astuce:"Une note administrative à l'attention, un cadeau à l'intention.",
+  p:[{s:"Il a acheté ce livre à l'[attention] de sa mère.", fix:"intention"},
+     {s:"Note à l'attention du service comptable.", fix:null}]},
+
+ {id:"en-termes", cat:"Vocabulaire", n:3, t:"en termes de",
+  r:"L'expression s'écrit toujours au pluriel : <b>en termes de</b>.",
+  astuce:"Elle vient du vocabulaire : les termes d'un domaine.",
+  p:[{s:"En [terme] de budget, tout est correct.", fix:"termes"},
+     {s:"En termes de qualité, rien à redire.", fix:null}]},
+
+ {id:"espèce", cat:"Vocabulaire", n:2, t:"une espèce de",
+  r:"<b>espèce</b> est toujours féminin, quel que soit le mot qui suit.",
+  astuce:"Une espèce de bruit, une espèce d'imbécile.",
+  p:[{s:"C'était [un] espèce de grondement sourd.", fix:"une"},
+     {s:"Il a entendu une espèce de craquement.", fix:null}]},
+
+ {id:"prodige", cat:"Vocabulaire", n:3, t:"prodige ou prodigue",
+  r:"Un <b>prodige</b> est un phénomène extraordinaire ; <b>prodigue</b> qualifie qui dépense sans compter.",
+  astuce:"Le fils prodigue dépense, l'enfant prodige étonne.",
+  p:[{s:"C'est un enfant [prodigue] au piano.", fix:"prodige"},
+     {s:"Ce fils prodigue a dilapidé son héritage.", fix:null}]},
+
+ {id:"évoquer", cat:"Vocabulaire", n:3, t:"évoquer ou invoquer",
+  r:"<b>évoquer</b>, c'est mentionner ou rappeler ; <b>invoquer</b>, c'est faire appel à quelque chose pour se justifier.",
+  astuce:"On invoque un argument, on évoque un souvenir.",
+  p:[{s:"Il a [invoqué] de vieux souvenirs d'enfance.", fix:"évoqué"},
+     {s:"Il invoque la loi pour justifier son refus.", fix:null}]},
+
+ {id:"martyr", cat:"Vocabulaire", n:3, t:"martyr ou martyre",
+  r:"Le <b>martyr</b> est la personne ; le <b>martyre</b> est le supplice qu'elle subit.",
+  astuce:"Le e final désigne l'épreuve, pas la personne.",
+  p:[{s:"Il a souffert le [martyr] pendant des mois.", fix:"martyre"},
+     {s:"Ce martyr a enduré un long martyre.", fix:null}]},
+
+/* ─── HOMOPHONES LEXICAUX ─── */
+ {id:"cour-cours", cat:"Homophones", n:2, t:"cour, cours ou court",
+  r:"La <b>cour</b> est un espace clos, un <b>cours</b> est une leçon ou un écoulement, <b>court</b> vient de courir ou signifie « bref ».",
+  astuce:"Mets au féminin : « courte » confirme l'adjectif.",
+  p:[{s:"Il traverse la [court] de récréation.", fix:"cour"},
+     {s:"Le [cour] d'histoire commence à dix heures.", fix:"cours"},
+     {s:"Le cours d'eau longe la cour de la ferme.", fix:null}]},
+
+ {id:"compte-conte", cat:"Homophones", n:2, t:"compte, conte ou comte",
+  r:"Un <b>compte</b> se calcule, un <b>conte</b> se raconte, un <b>comte</b> est un noble.",
+  astuce:"Conte comme raconter, compte comme compter.",
+  p:[{s:"Il lit un [compte] de fées à sa fille.", fix:"conte"},
+     {s:"Elle a ouvert un [conte] en banque.", fix:"compte"},
+     {s:"Le comte a réglé son compte au conteur.", fix:null}]},
+
+ {id:"champ-chant", cat:"Homophones", n:1, t:"champ ou chant",
+  r:"Un <b>champ</b> est une étendue de terre, un <b>chant</b> est une mélodie.",
+  astuce:"Chant comme chanter, champ comme champêtre.",
+  p:[{s:"Le [chant] de blé s'étend jusqu'à la colline.", fix:"champ"},
+     {s:"Le chant des oiseaux traverse le champ.", fix:null}]},
+
+ {id:"faim-fin", cat:"Homophones", n:1, t:"faim, fin ou feint",
+  r:"La <b>faim</b> est le besoin de manger, la <b>fin</b> est le terme de quelque chose, <b>feint</b> vient de feindre.",
+  astuce:"Faim comme affamé, fin comme finir.",
+  p:[{s:"J'ai une [fin] de loup depuis ce matin.", fix:"faim"},
+     {s:"À la [faim] du repas, il s'est levé.", fix:"fin"},
+     {s:"À la fin du dîner, je n'avais plus faim.", fix:null}]},
+
+ {id:"mettre-maitre", cat:"Homophones", n:2, t:"mettre, mètre ou maître",
+  r:"<b>mettre</b> est un verbe, un <b>mètre</b> est une unité, un <b>maître</b> enseigne ou dirige.",
+  astuce:"Remplace par « poser » : si ça marche, c'est le verbe mettre.",
+  p:[{s:"Il faut [mètre] la table avant midi.", fix:"mettre"},
+     {s:"Il mesure un [maître] quatre-vingts.", fix:"mètre"},
+     {s:"Le maître fait mettre un mètre de tissu.", fix:null}]},
+
+ {id:"seau-sceau", cat:"Homophones", n:3, t:"seau, sceau, saut ou sot",
+  r:"Un <b>seau</b> se remplit, un <b>sceau</b> est un cachet officiel, un <b>saut</b> se fait en l'air, un <b>sot</b> est un imbécile.",
+  astuce:"Sceau comme sceller, seau comme seaux d'eau.",
+  p:[{s:"Il remplit le [sot] d'eau froide.", fix:"seau"},
+     {s:"Le document porte le [seau] du ministère.", fix:"sceau"},
+     {s:"Ce sot a fait tomber le seau d'un saut.", fix:null}]},
+
+ {id:"tant-temps", cat:"Homophones", n:2, t:"tant, temps ou t'en",
+  r:"<b>tant</b> exprime la quantité, le <b>temps</b> se mesure, <b>t'en</b> contient les pronoms « te » et « en ».",
+  astuce:"Remplace par « tellement » : si ça marche, c'est « tant ».",
+  p:[{s:"Je n'ai pas le [tant] de t'attendre.", fix:"temps"},
+     {s:"Il a [temps] travaillé qu'il s'est épuisé.", fix:"tant"},
+     {s:"Il a tant plu que le temps s'est rafraîchi.", fix:null}]},
+
+ {id:"verre-vers", cat:"Homophones", n:2, t:"verre, vers, vert ou ver",
+  r:"Un <b>verre</b> se boit, <b>vers</b> indique la direction, <b>vert</b> est une couleur, un <b>ver</b> est un animal.",
+  astuce:"Le verre a deux r comme le récipient a deux anses.",
+  p:[{s:"Il a bu un [vert] d'eau glacée.", fix:"verre"},
+     {s:"Il marche [verre] la sortie du jardin.", fix:"vers"},
+     {s:"Il marche vers le pré vert, un verre à la main.", fix:null}]},
+
+ {id:"amande-amende", cat:"Homophones", n:2, t:"amande ou amende",
+  r:"Une <b>amande</b> se mange, une <b>amende</b> se paie.",
+  astuce:"L'amende est une sanction, comme un amendement.",
+  p:[{s:"Il a payé une [amande] de cent euros.", fix:"amende"},
+     {s:"Elle croque une [amende] grillée.", fix:"amande"},
+     {s:"Il croque une amande en payant son amende.", fix:null}]},
+
+ {id:"air-aire", cat:"Homophones", n:2, t:"air, aire ou ère",
+  r:"L'<b>air</b> se respire, une <b>aire</b> est une surface, une <b>ère</b> est une époque.",
+  astuce:"Aire comme superficie, ère comme période historique.",
+  p:[{s:"Ils se garent sur l'[air] de repos.", fix:"aire"},
+     {s:"Nous entrons dans une nouvelle [air].", fix:"ère"},
+     {s:"L'air est frais sur cette aire de jeux.", fix:null}]},
+
+ {id:"cane-canne", cat:"Homophones", n:2, t:"cane ou canne",
+  r:"La <b>cane</b> est la femelle du canard, la <b>canne</b> est un bâton.",
+  astuce:"La canne a deux n comme deux appuis.",
+  p:[{s:"Il marche avec une [cane] depuis sa chute.", fix:"canne"},
+     {s:"La [canne] traverse la mare avec ses petits.", fix:"cane"},
+     {s:"La cane suit le vieil homme et sa canne.", fix:null}]},
+
+ {id:"date-datte", cat:"Homophones", n:2, t:"date ou datte",
+  r:"Une <b>date</b> se situe dans le temps, une <b>datte</b> est un fruit.",
+  astuce:"La datte a deux t comme le dattier.",
+  p:[{s:"Il a mangé une [date] séchée au petit-déjeuner.", fix:"datte"},
+     {s:"À cette date, il achète toujours des dattes.", fix:null}]},
+
+ {id:"foi-foie", cat:"Homophones", n:2, t:"foi, foie ou fois",
+  r:"La <b>foi</b> est la croyance, le <b>foie</b> est un organe, une <b>fois</b> se compte.",
+  astuce:"Le foie est masculin, la foi féminine, la fois se multiplie.",
+  p:[{s:"Il a mal au [foi] depuis hier soir.", fix:"foie"},
+     {s:"Il l'a répété trois [foie] de suite.", fix:"fois"},
+     {s:"Une fois encore, sa foi l'a porté.", fix:null}]},
+
+ {id:"pain-pin", cat:"Homophones", n:1, t:"pain, pin ou peint",
+  r:"Le <b>pain</b> se mange, le <b>pin</b> est un arbre, <b>peint</b> vient de peindre.",
+  astuce:"Pain comme panier, pin comme pinède.",
+  p:[{s:"Il achète du [pin] frais tous les matins.", fix:"pain"},
+     {s:"La forêt de [pain] descend jusqu'à la mer.", fix:"pin"},
+     {s:"Il a peint la table en pin avant le repas.", fix:null}]},
+
+ {id:"paire-pere", cat:"Homophones", n:2, t:"paire, père, pair ou perd",
+  r:"Une <b>paire</b> compte deux éléments, le <b>père</b> est le parent, <b>pair</b> se dit d'un nombre divisible par deux, <b>perd</b> vient de perdre.",
+  astuce:"Paire comme deux, père comme parent.",
+  p:[{s:"Il a acheté une [père] de chaussures.", fix:"paire"},
+     {s:"Son [paire] travaille à l'étranger.", fix:"père"},
+     {s:"Son père range une paire de gants.", fix:null}]},
+
+ {id:"port-porc", cat:"Homophones", n:2, t:"port, porc ou pore",
+  r:"Un <b>port</b> accueille les bateaux, le <b>porc</b> est un animal, un <b>pore</b> est un orifice de la peau.",
+  astuce:"Le porc finit par c comme cochon.",
+  p:[{s:"Le bateau entre dans le [porc] au matin.", fix:"port"},
+     {s:"Il a mangé du [port] rôti.", fix:"porc"},
+     {s:"Le port sent le porc grillé.", fix:null}]},
+
+ {id:"sale-salle", cat:"Homophones", n:1, t:"sale ou salle",
+  r:"<b>sale</b> est un adjectif, une <b>salle</b> est une pièce.",
+  astuce:"La salle a deux l comme quatre murs.",
+  p:[{s:"La [sale] de classe est déjà vide.", fix:"salle"},
+     {s:"Son manteau est [salle] et déchiré.", fix:"sale"},
+     {s:"La salle de bains est vraiment sale.", fix:null}]},
+
+ {id:"cygne-signe", cat:"Homophones", n:2, t:"cygne ou signe",
+  r:"Le <b>cygne</b> est un oiseau, un <b>signe</b> est un geste ou une marque.",
+  astuce:"Le cygne garde le y du grec kuknos.",
+  p:[{s:"Un [signe] blanc glisse sur le lac.", fix:"cygne"},
+     {s:"Il lui a fait un [cygne] de la main.", fix:"signe"},
+     {s:"Il fait signe au cygne de s'approcher.", fix:null}]},
+
+ {id:"choeur-coeur", cat:"Homophones", n:2, t:"chœur ou cœur",
+  r:"Le <b>chœur</b> est un ensemble de chanteurs ou une partie de l'église, le <b>cœur</b> est l'organe.",
+  astuce:"Le chœur chante en chorale.",
+  p:[{s:"Elle chante dans le [cœur] de la paroisse.", fix:"chœur"},
+     {s:"Il a le [chœur] serré depuis la nouvelle.", fix:"cœur"},
+     {s:"Le chœur chante de tout son cœur.", fix:null}]},
+
+ {id:"hors-or", cat:"Homophones", n:2, t:"hors ou or",
+  r:"<b>hors</b> signifie « en dehors de », <b>or</b> est une conjonction qui marque une opposition ou le métal précieux.",
+  astuce:"Remplace par « pourtant » : si ça marche, c'est « or ».",
+  p:[{s:"C'est [or] de question de partir maintenant.", fix:"hors"},
+     {s:"Il est hors de danger, or personne ne le sait.", fix:null}]},
+
+ {id:"pourquoi", cat:"Homophones", n:3, t:"pourquoi ou pour quoi",
+  r:"<b>pourquoi</b> en un mot demande la cause, <b>pour quoi</b> en deux mots interroge sur l'objet ou le but.",
+  astuce:"Si tu peux répondre « pour cela », écris deux mots.",
+  p:[{s:"Je ne sais pas [pourquoi] opter.", fix:"pour quoi"},
+     {s:"Pourquoi hésites-tu encore autant ?", fix:null}]},
+
+ {id:"aussitot", cat:"Homophones", n:3, t:"aussitôt ou aussi tôt",
+  r:"<b>aussitôt</b> signifie « immédiatement », <b>aussi tôt</b> se compare à « aussi tard ».",
+  astuce:"Oppose à « aussi tard » : si ça marche, deux mots.",
+  p:[{s:"Il est arrivé [aussitôt] que moi ce matin.", fix:"aussi tôt"},
+     {s:"Aussitôt dit, aussitôt fait.", fix:null}]},
+
+ {id:"sitot", cat:"Homophones", n:3, t:"sitôt ou si tôt",
+  r:"<b>sitôt</b> signifie « dès que », <b>si tôt</b> s'oppose à « si tard ».",
+  astuce:"Oppose à « si tard » : si ça marche, deux mots.",
+  p:[{s:"Je ne pensais pas te voir [sitôt].", fix:"si tôt"},
+     {s:"Sitôt rentré, il s'est mis au travail.", fix:null}]},
+
+ {id:"quelque-environ", cat:"Homophones", n:3, t:"quelque au sens de « environ »",
+  r:"Devant un nombre, <b>quelque</b> signifie « environ » et reste invariable.",
+  astuce:"Remplace par « environ » : si ça marche, pas de s.",
+  p:[{s:"Il y a de cela [quelques] vingt ans.", fix:"quelque"},
+     {s:"Quelque cent personnes ont assisté au concert.", fix:null}]},
+
+ {id:"ma-ma", cat:"Homophones", n:1, t:"ma ou m'a",
+  r:"<b>ma</b> est un possessif, <b>m'a</b> contient le verbe avoir.",
+  astuce:"Remplace par « m'avait » : si ça marche, c'est « m'a ».",
+  p:[{s:"Il [ma] dit toute la vérité hier.", fix:"m'a"},
+     {s:"[M'a] sœur habite à Lyon.", fix:"Ma"},
+     {s:"Ma sœur m'a téléphoné ce matin.", fix:null}]},
+
+ {id:"ta-ta", cat:"Homophones", n:1, t:"ta ou t'a",
+  r:"<b>ta</b> est un possessif, <b>t'a</b> contient le verbe avoir.",
+  astuce:"Remplace par « t'avait » : si ça marche, c'est « t'a ».",
+  p:[{s:"Il [ta] menti pendant des mois.", fix:"t'a"},
+     {s:"Ta mère t'a appelé deux fois.", fix:null}]},
+
+ {id:"différend", cat:"Homophones", n:3, t:"différend ou différent",
+  r:"Un <b>différend</b> est un désaccord ; <b>différent</b> est un adjectif.",
+  astuce:"Le différend se règle, le différent se compare.",
+  p:[{s:"Ils ont un [différent] à régler depuis des mois.", fix:"différend"},
+     {s:"Un différend les oppose sur des points différents.", fix:null}]},
+
+ {id:"plan-plant", cat:"Homophones", n:2, t:"plan ou plant",
+  r:"Un <b>plan</b> est un dessin ou un projet ; un <b>plant</b> est un jeune végétal.",
+  astuce:"Le plant se plante, le plan se dessine.",
+  p:[{s:"Il a repiqué un [plan] de tomate.", fix:"plant"},
+     {s:"Le plan du jardin prévoit vingt plants.", fix:null}]},
+
+ {id:"davantage-2", cat:"Homophones", n:3, t:"quand même",
+  r:"L'expression correcte est <b>quand même</b>, jamais « comme même ».",
+  astuce:"Elle vient de « quand bien même ».",
+  p:[{s:"Il est venu [comme] même, malgré la pluie.", fix:"quand"},
+     {s:"Merci quand même pour ton aide.", fix:null}]},
+
+/* ─── ACCORDS DIFFICILES ─── */
+ {id:"pp-impersonnel", cat:"Accords", n:3, t:"Participe passé des verbes impersonnels",
+  r:"Le participe passé d'un verbe impersonnel reste toujours <b>invariable</b> : il a fallu, il a plu, il a fait.",
+  astuce:"Le « il » de ces verbes ne représente personne, donc rien à accorder.",
+  p:[{s:"Les efforts qu'il a [fallus] fournir étaient énormes.", fix:"fallu"},
+     {s:"Les chaleurs qu'il a fait cet été étaient rares.", fix:null}]},
+
+ {id:"pp-couté", cat:"Accords", n:3, t:"coûté, valu, pesé, vécu",
+  r:"Ces participes restent <b>invariables</b> quand ils expriment une mesure, mais s'accordent au sens figuré.",
+  astuce:"Les euros que cela a coûté (prix) ; les efforts que cela m'a coûtés (peine).",
+  p:[{s:"Les cent euros que ce livre a [coûtés] sont perdus.", fix:"coûté"},
+     {s:"Les efforts que ce travail m'a coûtés étaient immenses.", fix:null}]},
+
+ {id:"pp-en", cat:"Accords", n:3, t:"Participe passé précédé de « en »",
+  r:"Quand le complément est le pronom <b>en</b>, le participe reste invariable.",
+  astuce:"Des pommes, j'en ai mangé : jamais d'accord avec « en ».",
+  p:[{s:"Des pommes, j'en ai [mangées] trois.", fix:"mangé"},
+     {s:"Des livres, il en a lu beaucoup cette année.", fix:null}]},
+
+ {id:"essentiellement-pronominaux", cat:"Accords", n:3, t:"Verbes essentiellement pronominaux",
+  r:"Les verbes qui n'existent qu'à la forme pronominale (s'enfuir, se souvenir, s'apercevoir) accordent leur participe avec le <b>sujet</b>.",
+  astuce:"Ces verbes n'existent pas sans « se » : l'accord suit donc le sujet.",
+  p:[{s:"Elles se sont [enfui] par la porte de service.", fix:"enfuies"},
+     {s:"Elle s'est [aperçu] de son erreur trop tard.", fix:"aperçue"},
+     {s:"Ils se sont souvenus de tout, jusqu'au moindre détail.", fix:null}]},
+
+ {id:"excepté-vu", cat:"Accords", n:3, t:"excepté, vu, passé, attendu",
+  r:"Placés <b>avant</b> le nom, ces mots jouent le rôle de préposition et restent invariables.",
+  astuce:"Après le nom, en revanche, ils s'accordent.",
+  p:[{s:"[Exceptés] les enfants, tous ont payé leur place.", fix:"Excepté"},
+     {s:"Vu les circonstances, la réunion est annulée.", fix:null}]},
+
+ {id:"y-compris", cat:"Accords", n:3, t:"y compris",
+  r:"<b>y compris</b> reste invariable devant le nom et s'accorde seulement après lui.",
+  astuce:"Y compris les taxes, mais les taxes y comprises.",
+  p:[{s:"Le prix est de cent euros, taxes y [compris].", fix:"comprises"},
+     {s:"Y compris les frais de port, cela fait cent euros.", fix:null}]},
+
+ {id:"possible", cat:"Accords", n:3, t:"possible après un superlatif",
+  r:"Après <b>le plus</b>, <b>le moins</b> ou <b>le meilleur</b>, l'adjectif « possible » reste invariable.",
+  astuce:"Il sous-entend « qu'il est possible », donc rien à accorder.",
+  p:[{s:"Il a fait le moins d'erreurs [possibles].", fix:"possible"},
+     {s:"Prends les meilleures places possible.", fix:null}]},
+
+ {id:"cest-ce-sont", cat:"Accords", n:2, t:"c'est ou ce sont",
+  r:"Devant un nom pluriel de la troisième personne, on écrit <b>ce sont</b>.",
+  astuce:"Ce sont mes amis, mais c'est nous.",
+  p:[{s:"[C'est] les enfants qui ont gagné la partie.", fix:"Ce sont"},
+     {s:"Ce sont mes amis qui arrivent les premiers.", fix:null}]},
+
+ {id:"un-des-qui", cat:"Accords", n:3, t:"un des… qui",
+  r:"Après <b>un des</b> suivi de « qui », le verbe se met au pluriel : c'est le groupe qui fait l'action.",
+  astuce:"Parmi les livres qui méritent d'être lus, celui-ci en est un.",
+  p:[{s:"C'est un des rares livres qui [mérite] d'être lu.", fix:"méritent"},
+     {s:"C'est une des chansons qui me plaisent le plus.", fix:null}]},
+
+ {id:"tout-le-monde", cat:"Accords", n:1, t:"tout le monde, chacun, personne",
+  r:"Ces sujets sont grammaticalement <b>singuliers</b>, même s'ils désignent plusieurs personnes.",
+  astuce:"Tout le monde est venu, chacun a payé, personne n'est resté.",
+  p:[{s:"Tout le monde [sont] venus à la fête.", fix:"est"},
+     {s:"Ils sont partis [chacuns] de leur côté.", fix:"chacun"},
+     {s:"Tout le monde est arrivé à l'heure.", fix:null}]},
+
+ {id:"quelque-chose-de", cat:"Accords", n:2, t:"quelque chose de, rien de, personne de",
+  r:"Après ces expressions, l'adjectif se met toujours au <b>masculin singulier</b>.",
+  astuce:"Quelque chose de beau, rien de nouveau, personne de sérieux.",
+  p:[{s:"Il a vu quelque chose de [belle] dans la vitrine.", fix:"beau"},
+     {s:"Rien de [nouvelle] à signaler aujourd'hui.", fix:"nouveau"},
+     {s:"Il n'y a rien de nouveau ni personne de disponible.", fix:null}]},
+
+ {id:"oeil-yeux", cat:"Accords", n:1, t:"Pluriels irréguliers",
+  r:"Certains noms changent complètement au pluriel : œil devient <b>yeux</b>, ciel devient <b>cieux</b>, aïeul devient <b>aïeux</b>.",
+  astuce:"Ces pluriels s'apprennent par cœur, il n'y a pas de règle.",
+  p:[{s:"Il a de très beaux [œils] verts.", fix:"yeux"},
+     {s:"Les yeux levés vers les cieux, il attendait.", fix:null}]},
+
+ {id:"grand-mere", cat:"Accords", n:3, t:"Pluriel des mots en grand-",
+  r:"Dans les noms composés avec <b>grand</b>, l'adjectif s'accorde aujourd'hui normalement : des grands-mères, des grands-parents.",
+  astuce:"L'ancienne forme invariable « grand-mères » n'est plus recommandée.",
+  p:[{s:"Ses deux [grand-mères] vivent encore ici.", fix:"grands-mères"},
+     {s:"Ses grands-parents habitent la campagne.", fix:null}]},
+
+ {id:"adj-invariables", cat:"Accords", n:3, t:"Adjectifs invariables",
+  r:"Certains adjectifs empruntés ou tirés de noms ne s'accordent pas : chic, standard, sexy, super, extra.",
+  astuce:"S'ils viennent d'un nom ou d'une autre langue, méfie-toi de l'accord.",
+  p:[{s:"Elle porte des vêtements très [chics].", fix:"chic"},
+     {s:"Des modèles standard et des tenues chic.", fix:null}]},
+
+ {id:"mi-semi", cat:"Accords", n:3, t:"mi-, semi-, demi-",
+  r:"Devant un nom ou un adjectif, <b>mi</b>, <b>semi</b> et <b>demi</b> restent invariables et prennent un trait d'union.",
+  astuce:"À mi-chemin, une semi-remorque, une demi-heure.",
+  p:[{s:"Elle travaille à [mie-temps] depuis janvier.", fix:"mi-temps"},
+     {s:"Une semi-remorque bloque la route à mi-chemin.", fix:null}]},
+
+ {id:"deux-genres", cat:"Accords", n:2, t:"Adjectif qualifiant deux noms de genres différents",
+  r:"Quand l'adjectif qualifie un nom masculin et un nom féminin, il se met au <b>masculin pluriel</b>.",
+  astuce:"Le masculin l'emporte : place le nom masculin près de l'adjectif pour que ce soit naturel.",
+  p:[{s:"Une veste et un pantalon [neuves] l'attendaient.", fix:"neufs"},
+     {s:"Une chemise et une cravate neuves.", fix:null}]},
+
+ {id:"des-plus", cat:"Accords", n:3, t:"des plus, des moins, des mieux",
+  r:"Après <b>des plus</b>, l'adjectif se met au pluriel : l'expression signifie « parmi les plus ».",
+  astuce:"Une histoire des plus curieuses, sous-entendu parmi les plus curieuses.",
+  p:[{s:"C'est une histoire des plus [curieuse].", fix:"curieuses"},
+     {s:"Ce cas est des plus étranges.", fix:null}]},
+
+ {id:"pluriel-ail", cat:"Accords", n:2, t:"Pluriel des noms en -ail",
+  r:"Les noms en <b>-ail</b> prennent un s, sauf sept d'entre eux dont travail, vitrail, corail et bail, qui font <b>-aux</b>.",
+  astuce:"Des détails et des chandails, mais des travaux et des vitraux.",
+  p:[{s:"Les [travails] de rénovation sont terminés.", fix:"travaux"},
+     {s:"Les [vitrails] de la cathédrale sont anciens.", fix:"vitraux"},
+     {s:"Les détails des travaux ont été discutés.", fix:null}]},
+
+ {id:"leur-possessif", cat:"Accords", n:2, t:"leur devant un nom",
+  r:"Déterminant, <b>leur</b> s'accorde avec le nom qu'il précède, pas avec les possesseurs.",
+  astuce:"S'ils ont chacun un seul chapeau, on écrit « leur chapeau ».",
+  p:[{s:"Ils ont mis [leurs] chapeau avant de sortir.", fix:"leur"},
+     {s:"Elles ont rangé [leur] affaires dans le placard.", fix:"leurs"},
+     {s:"Ils ont pris leur temps et rangé leurs outils.", fix:null}]},
+
+ {id:"nombreux-sujet", cat:"Accords", n:2, t:"Accord avec un titre ou un nom propre pluriel",
+  r:"Le verbe s'accorde avec le sujet réel : un titre d'œuvre au pluriel commande le pluriel s'il désigne plusieurs éléments.",
+  astuce:"Les Misérables sont un roman célèbre : le pluriel du titre l'emporte.",
+  p:[{s:"Les Trois Mousquetaires [est] un roman d'aventures.", fix:"sont"},
+     {s:"Les Misérables ont été adaptés au cinéma.", fix:null}]},
+
+/* ─── CONJUGAISON AVANCÉE ─── */
+ {id:"acheter-geler", cat:"Conjugaison", n:2, t:"acheter, geler : accent grave",
+  r:"Contrairement à appeler et jeter, ces verbes ne doublent pas la consonne : ils prennent un <b>accent grave</b>.",
+  astuce:"J'achète, il gèle, elle pèle, nous achetons.",
+  p:[{s:"Il [achette] son pain à la boulangerie.", fix:"achète"},
+     {s:"L'eau [gelle] déjà dans les tuyaux.", fix:"gèle"},
+     {s:"Il achète du sel quand il gèle.", fix:null}]},
+
+ {id:"verbes-eer", cat:"Conjugaison", n:3, t:"Verbes en -éer",
+  r:"Les verbes en <b>-éer</b> gardent leur é au participe passé, qui se termine donc par <b>-éé</b> au féminin.",
+  astuce:"Créer donne créé, créée, créés, créées.",
+  p:[{s:"Il a [crée] une société l'an dernier.", fix:"créé"},
+     {s:"L'association qu'il a créée fonctionne bien.", fix:null}]},
+
+ {id:"faire-dire", cat:"Conjugaison", n:1, t:"vous faites, vous dites",
+  r:"Trois verbes seulement se terminent par <b>-tes</b> à la deuxième personne du pluriel : être, faire et dire.",
+  astuce:"Vous êtes, vous faites, vous dites : le reste prend -ez.",
+  p:[{s:"Vous [faisez] beaucoup trop de bruit.", fix:"faites"},
+     {s:"Vous [disez] toujours la même chose.", fix:"dites"},
+     {s:"Vous faites et vous dites ce que vous voulez.", fix:null}]},
+
+ {id:"predire", cat:"Conjugaison", n:3, t:"vous prédisez, vous contredisez",
+  r:"Seul <b>dire</b> donne « vous dites ». Ses composés font <b>-disez</b> : prédisez, contredisez, interdisez.",
+  astuce:"L'exception ne se transmet pas aux dérivés, sauf « redites ».",
+  p:[{s:"Vous [prédites] toujours le pire.", fix:"prédisez"},
+     {s:"Vous interdisez ce que vous dites autoriser.", fix:null}]},
+
+ {id:"resoudre", cat:"Conjugaison", n:3, t:"résoudre, absoudre",
+  r:"À la troisième personne du singulier, ces verbes se terminent par <b>-out</b> : il résout, il absout.",
+  astuce:"Le d disparaît, le t apparaît.",
+  p:[{s:"Il [résoud] le problème en une minute.", fix:"résout"},
+     {s:"Il résout tout, mais il absout rarement.", fix:null}]},
+
+ {id:"battre-rompre", cat:"Conjugaison", n:2, t:"battre et rompre",
+  r:"<b>battre</b> perd un t au singulier (il bat) ; <b>rompre</b> garde son p et prend un t (il rompt).",
+  astuce:"Il bat les cartes, il rompt le silence.",
+  p:[{s:"Il [bas] les cartes avant de distribuer.", fix:"bat"},
+     {s:"Il [romp] le silence d'un mot.", fix:"rompt"},
+     {s:"Il bat les cartes et rompt le silence.", fix:null}]},
+
+ {id:"verbes-dre", cat:"Conjugaison", n:2, t:"Verbes en -dre",
+  r:"Les verbes en <b>-dre</b> gardent leur d à la troisième personne du singulier : il répond, il perd, il coud, il prend.",
+  astuce:"Pas de t ajouté quand le d est déjà là.",
+  p:[{s:"Il [répon] toujours à côté de la question.", fix:"répond"},
+     {s:"Elle [couds] un bouton à sa veste.", fix:"coud"},
+     {s:"Il perd son temps et coud un bouton.", fix:null}]},
+
+ {id:"futurs-irreguliers", cat:"Conjugaison", n:2, t:"Futurs irréguliers",
+  r:"Certains verbes ont un futur imprévisible : il <b>verra</b>, il <b>fera</b>, il <b>enverra</b>, il <b>saura</b>, il <b>viendra</b>.",
+  astuce:"Envoyer fait enverra, comme voir fait verra : deux r.",
+  p:[{s:"Demain, il [voira] le médecin.", fix:"verra"},
+     {s:"Elle t'[envoiera] le document ce soir.", fix:"enverra"},
+     {s:"Il verra, il fera et il enverra tout demain.", fix:null}]},
+
+ {id:"acquerir", cat:"Conjugaison", n:3, t:"acquérir",
+  r:"Le participe passé est <b>acquis</b>, avec c et q, comme dans « acquisition ».",
+  astuce:"Il acquiert au présent, il a acquis au passé.",
+  p:[{s:"Il a [aquis] beaucoup d'expérience.", fix:"acquis"},
+     {s:"Il acquiert vite et n'oublie rien.", fix:null}]},
+
+ {id:"asseoir", cat:"Conjugaison", n:3, t:"s'asseoir",
+  r:"Deux formes coexistent : il <b>s'assied</b> et il <b>s'assoit</b>. Ni « s'assois » ni « s'assoie » à la troisième personne.",
+  astuce:"Je m'assois, tu t'assois, il s'assoit : le s ne va qu'aux deux premières personnes.",
+  p:[{s:"Il s'[assois] sur le banc du parc.", fix:"assoit"},
+     {s:"Il s'assied près de la fenêtre.", fix:null}]},
+
+ {id:"subj-pouvoir", cat:"Conjugaison", n:2, t:"Subjonctif de pouvoir et savoir",
+  r:"Au subjonctif : que je <b>puisse</b>, que je <b>sache</b>, que je <b>fasse</b>, que j'<b>aille</b>.",
+  astuce:"Ces formes ne ressemblent pas au présent : elles s'apprennent à part.",
+  p:[{s:"Bien que je [peux] t'aider, je préfère attendre.", fix:"puisse"},
+     {s:"Il faut que tu [vas] à la mairie.", fix:"ailles"},
+     {s:"Bien que je sache tout, je préfère me taire.", fix:null}]},
+
+ {id:"esperer-que", cat:"Conjugaison", n:3, t:"espérer que + indicatif",
+  r:"À la forme affirmative, <b>espérer que</b> est suivi de l'indicatif, pas du subjonctif.",
+  astuce:"J'espère qu'il viendra, mais je souhaite qu'il vienne.",
+  p:[{s:"J'espère qu'il [vienne] demain matin.", fix:"viendra"},
+     {s:"J'espère qu'il viendra et je souhaite qu'il reste.", fix:null}]},
+
+ {id:"passé-simple-pluriel", cat:"Conjugaison", n:3, t:"Passé simple à la troisième personne du pluriel",
+  r:"Au passé simple, les verbes du deuxième groupe font <b>-irent</b> : ils finirent, ils partirent.",
+  astuce:"L'imparfait donne « finissaient », le passé simple « finirent ».",
+  p:[{s:"Ils [finissèrent] leur travail très tard.", fix:"finirent"},
+     {s:"Ils finirent tard et rentrèrent à pied.", fix:null}]},
+
+ {id:"auxiliaire", cat:"Conjugaison", n:2, t:"Auxiliaire être ou avoir",
+  r:"Certains verbes changent d'auxiliaire selon le sens : <b>être</b> quand ils sont intransitifs, <b>avoir</b> quand ils ont un complément d'objet.",
+  astuce:"Il est monté à l'étage, mais il a monté la valise.",
+  p:[{s:"Il [a] tombé dans l'escalier hier soir.", fix:"est"},
+     {s:"Elle [est] descendu les poubelles.", fix:"a"},
+     {s:"Il est tombé après avoir descendu la valise.", fix:null}]},
+
+ {id:"hair", cat:"Conjugaison", n:3, t:"haïr",
+  r:"<b>haïr</b> perd son tréma aux trois personnes du singulier du présent : je hais, tu hais, il hait ; mais nous haïssons.",
+  astuce:"Le tréma revient dès que la prononciation sépare les deux voyelles.",
+  p:[{s:"Nous [haissons] le mensonge par-dessus tout.", fix:"haïssons"},
+     {s:"Je hais le mensonge et nous haïssons l'hypocrisie.", fix:null}]},
+
+ {id:"fatigant", cat:"Conjugaison", n:3, t:"fatigant ou fatiguant",
+  r:"L'<b>adjectif</b> perd le u : fatigant, intrigant, navigant. Le <b>participe présent</b> le garde : fatiguant, intriguant.",
+  astuce:"Si tu peux mettre au féminin, c'est l'adjectif : une journée fatigante.",
+  p:[{s:"C'est un travail vraiment [fatiguant].", fix:"fatigant"},
+     {s:"En fatiguant ses jambes, il est devenu fatigant.", fix:null}]},
+
+ {id:"ouvrir-passé", cat:"Conjugaison", n:3, t:"Passé simple des verbes en -rir",
+  r:"Ouvrir, offrir et couvrir font leur passé simple en <b>-it</b> : il ouvrit, il offrit, il couvrit.",
+  astuce:"Leur participe passé, lui, se termine par -ert : ouvert, offert.",
+  p:[{s:"Il [ouvra] la porte sans faire de bruit.", fix:"ouvrit"},
+     {s:"Il ouvrit la porte et offrit son bras.", fix:null}]},
+
+ {id:"pronominaux-etre", cat:"Conjugaison", n:2, t:"Auxiliaire des verbes pronominaux",
+  r:"Aux temps composés, un verbe pronominal se conjugue <b>toujours</b> avec l'auxiliaire être, jamais avoir.",
+  astuce:"Elle s'est lavée, ils se sont vus : jamais « elle s'a ».",
+  p:[{s:"Elle s'[a] lavé les mains avant de manger.", fix:"est"},
+     {s:"Ils se sont parlé toute la soirée.", fix:null},
+     {s:"Nous nous [avons] trompés de route.", fix:"sommes"}]},
+
+/* ─── ORTHOGRAPHE D'USAGE : ACCENTS ET CONSONNES ─── */
+ {id:"accent-grave", cat:"Orthographe d'usage", n:2, t:"è devant une syllabe muette",
+  r:"Le e prend un <b>accent grave</b> quand la syllabe suivante contient un e muet : règlement, collège, sévère.",
+  astuce:"Compare règle et régler : l'accent suit la prononciation.",
+  p:[{s:"Le [réglement] intérieur a été affiché.", fix:"règlement"},
+     {s:"Il entre au [collége] en septembre.", fix:"collège"},
+     {s:"Le règlement du collège est très strict.", fix:null}]},
+
+ {id:"cedille", cat:"Orthographe d'usage", n:1, t:"La cédille",
+  r:"La cédille s'ajoute au c devant <b>a</b>, <b>o</b> et <b>u</b> pour garder le son [s] : reçu, façon, aperçu.",
+  astuce:"Devant e et i, la cédille est inutile : ceci, cinéma.",
+  p:[{s:"Il a [recu] une lettre recommandée.", fix:"reçu"},
+     {s:"Il a agi de cette [facon] toute sa vie.", fix:"façon"},
+     {s:"Il a reçu une leçon de français.", fix:null}]},
+
+ {id:"h-aspire", cat:"Orthographe d'usage", n:3, t:"h muet ou h aspiré",
+  r:"Devant un <b>h aspiré</b>, pas d'élision ni de liaison : le hasard, le hall, la hauteur. Devant un h muet, l'élision est obligatoire : l'hôtel, l'habitude.",
+  astuce:"Si tu dis « le » naturellement, le h est aspiré.",
+  p:[{s:"Je l'ai croisé par [l'hasard] dans la rue.", fix:"le hasard"},
+     {s:"Il attend dans le hall de l'hôtel.", fix:null}]},
+
+ {id:"elision", cat:"Orthographe d'usage", n:1, t:"L'élision",
+  r:"Devant une voyelle ou un h muet, <b>le</b>, <b>la</b>, <b>de</b>, <b>ne</b> et <b>que</b> perdent leur voyelle.",
+  astuce:"On n'écrit jamais « le arbre » ni « de eau ».",
+  p:[{s:"Il attend [le] arrivée du train de Lyon.", fix:"l'"},
+     {s:"Il attend l'arrivée de l'avion de Rome.", fix:null}]},
+
+ {id:"aujourdhui", cat:"Orthographe d'usage", n:1, t:"aujourd'hui",
+  r:"<b>aujourd'hui</b> s'écrit en un seul mot avec une apostrophe. « Au jour d'aujourd'hui » est un pléonasme à éviter.",
+  astuce:"Le mot contient déjà « au jour de ».",
+  p:[{s:"Nous sommes [aujourdhui] le premier mars.", fix:"aujourd'hui"},
+     {s:"Aujourd'hui, tout est prêt pour la fête.", fix:null}]},
+
+ {id:"adresse", cat:"Orthographe d'usage", n:2, t:"adresse, apercevoir, agrandir",
+  r:"Ces mots ne prennent <b>qu'une seule consonne</b> après le a initial, contrairement à ce que l'anglais suggère.",
+  astuce:"Adresse a un d, comme adresser.",
+  p:[{s:"Il a changé d'[addresse] le mois dernier.", fix:"adresse"},
+     {s:"Son adresse est correcte, il faut la vérifier.", fix:null}]},
+
+ {id:"nourrir", cat:"Orthographe d'usage", n:2, t:"courir, mourir, nourrir",
+  r:"<b>courir</b> et <b>mourir</b> ne prennent qu'un r ; <b>nourrir</b> et <b>pourrir</b> en prennent deux.",
+  astuce:"On meurt une fois avec un r, on se nourrit tous les jours avec deux.",
+  p:[{s:"Il faut [nourir] le chat avant de partir.", fix:"nourrir"},
+     {s:"Il va [courrir] son premier marathon.", fix:"courir"},
+     {s:"Il va courir puis nourrir le chien.", fix:null}]},
+
+ {id:"souffrir", cat:"Orthographe d'usage", n:2, t:"Les doubles f",
+  r:"<b>souffrir</b>, <b>offrir</b>, <b>siffler</b> et <b>suffire</b> prennent deux f.",
+  astuce:"Le préfixe latin sub- s'assimile au f suivant : suf-frir.",
+  p:[{s:"Il fait [soufrir] tout le monde autour de lui.", fix:"souffrir"},
+     {s:"Cela ne [sufit] pas à le convaincre.", fix:"suffit"},
+     {s:"Souffrir ne suffit pas à excuser.", fix:null}]},
+
+ {id:"honneur", cat:"Orthographe d'usage", n:3, t:"honneur mais honorer",
+  r:"<b>honneur</b> prend deux n, mais <b>honorer</b>, <b>honorable</b> et <b>honoraire</b> n'en prennent qu'un.",
+  astuce:"La famille du mot ne garde pas toujours la double consonne.",
+  p:[{s:"Il faut l'[honnorer] pour son courage.", fix:"honorer"},
+     {s:"C'est un honneur de l'honorer ce soir.", fix:null}]},
+
+ {id:"national", cat:"Orthographe d'usage", n:2, t:"national mais rationnel",
+  r:"<b>national</b> et <b>rational</b> s'écrivent avec un seul n ; <b>rationnel</b>, <b>traditionnel</b> et <b>professionnel</b> en prennent deux.",
+  astuce:"Les adjectifs en -onnel prennent deux n, ceux en -onal un seul.",
+  p:[{s:"C'est un projet [nationnal] d'envergure.", fix:"national"},
+     {s:"Son choix n'est pas très [rationel].", fix:"rationnel"},
+     {s:"Un plan national fondé sur un choix rationnel.", fix:null}]},
+
+ {id:"occasion", cat:"Orthographe d'usage", n:2, t:"occasion, occuper, occurrence",
+  r:"Les mots formés sur le préfixe <b>ob-</b> doublent le c : occasion, occuper, occurrence.",
+  astuce:"Ob- devant c donne oc-c.",
+  p:[{s:"C'est une [ocasion] à ne pas manquer.", fix:"occasion"},
+     {s:"Cette occasion l'occupe depuis des jours.", fix:null}]},
+
+ {id:"chariot", cat:"Orthographe d'usage", n:3, t:"chariot et charrette",
+  r:"<b>chariot</b> ne prend qu'un r, alors que <b>charrette</b>, <b>charrue</b> et <b>charrier</b> en prennent deux.",
+  astuce:"C'est la seule exception de la famille : le chariot est solitaire.",
+  p:[{s:"Il pousse le [charriot] dans les allées.", fix:"chariot"},
+     {s:"Le chariot suit la charrette sur le chemin.", fix:null}]},
+
+ {id:"combatif", cat:"Orthographe d'usage", n:3, t:"combatif mais combattre",
+  r:"<b>combattre</b> et <b>combattant</b> prennent deux t, mais <b>combatif</b> et <b>combativité</b> n'en prennent qu'un.",
+  astuce:"Même piège que honneur et honorer.",
+  p:[{s:"Il a gardé un esprit [combattif].", fix:"combatif"},
+     {s:"Ce combattant reste combatif malgré tout.", fix:null}]},
+
+ {id:"imbecile", cat:"Orthographe d'usage", n:3, t:"imbécile et atterrir",
+  r:"<b>imbécile</b> ne prend qu'un l, mais <b>imbécillité</b> en prend deux. <b>atterrir</b> prend deux t et deux r.",
+  astuce:"Ces irrégularités n'ont pas de logique : il faut les mémoriser.",
+  p:[{s:"Ne fais pas l'[imbécille] devant les invités.", fix:"imbécile"},
+     {s:"L'avion va [aterrir] dans dix minutes.", fix:"atterrir"},
+     {s:"Cet imbécile a regardé l'avion atterrir.", fix:null}]},
+
+ {id:"emment", cat:"Orthographe d'usage", n:3, t:"Les adverbes en -emment",
+  r:"Les adjectifs en <b>-ent</b> donnent des adverbes en <b>-emment</b> : évident donne évidemment, apparent donne apparemment.",
+  astuce:"Remonte à l'adjectif : sa terminaison décide de celle de l'adverbe.",
+  p:[{s:"[Apparament], il a changé d'avis.", fix:"Apparemment"},
+     {s:"Il a [évidament] raison sur ce point.", fix:"évidemment"},
+     {s:"Apparemment, il a évidemment tout compris.", fix:null}]},
+
+ {id:"decision", cat:"Orthographe d'usage", n:2, t:"-sion, -ssion ou -tion",
+  r:"Le son [sj] s'écrit <b>-sion</b> après une consonne ou une voyelle simple, et <b>-ssion</b> entre deux voyelles quand le son est [s].",
+  astuce:"Remonte au verbe : décider donne décision, discuter donne discussion.",
+  p:[{s:"C'est une [décition] difficile à prendre.", fix:"décision"},
+     {s:"La [discution] a duré deux heures.", fix:"discussion"},
+     {s:"La décision est née d'une longue discussion.", fix:null}]},
+
+ {id:"orthographe", cat:"Orthographe d'usage", n:2, t:"Le groupe ph",
+  r:"Les mots d'origine grecque s'écrivent avec <b>ph</b> : orthographe, photographie, philosophie, pharmacie.",
+  astuce:"Si le mot vient du grec, le son [f] s'écrit ph.",
+  p:[{s:"L'[ortographe] française est difficile.", fix:"orthographe"},
+     {s:"L'orthographe et la photographie l'intéressent.", fix:null}]},
+
+ {id:"gymnastique", cat:"Orthographe d'usage", n:2, t:"Le y d'origine grecque",
+  r:"Les mots venus du grec conservent le <b>y</b> : rythme, gymnastique, symbole, système.",
+  astuce:"Même origine que le ph : le grec laisse ses traces.",
+  p:[{s:"Il fait de la [gimnastique] tous les matins.", fix:"gymnastique"},
+     {s:"Le [ritme] de la musique est entraînant.", fix:"rythme"},
+     {s:"Le rythme de la gymnastique lui convient.", fix:null}]},
+
+ {id:"consequence", cat:"Orthographe d'usage", n:2, t:"-ance ou -ence",
+  r:"Les noms formés sur un adjectif en <b>-ent</b> prennent <b>-ence</b> : conséquent donne conséquence, absent donne absence.",
+  astuce:"Ceux formés sur -ant prennent -ance : vaillant donne vaillance.",
+  p:[{s:"La [conséquance] de son retard est lourde.", fix:"conséquence"},
+     {s:"Son [absance] a été remarquée.", fix:"absence"},
+     {s:"La conséquence de son absence est claire.", fix:null}]},
+
+ {id:"monsieur-abrev", cat:"Orthographe d'usage", n:3, t:"Abréviations de civilité",
+  r:"On abrège <b>M.</b> pour monsieur, <b>MM.</b> pour messieurs, <b>Mme</b> et <b>Mmes</b> sans point.",
+  astuce:"« Mr » est l'abréviation anglaise, pas la française.",
+  p:[{s:"[Mr] Dupont vous attend dans son bureau.", fix:"M."},
+     {s:"M. et Mme Dupont sont déjà arrivés.", fix:null}]},
+
+ {id:"jours-mois", cat:"Orthographe d'usage", n:1, t:"Jours et mois en minuscule",
+  r:"Les noms de jours et de mois s'écrivent avec une <b>minuscule</b> en français.",
+  astuce:"Seul l'anglais met des majuscules à Monday et January.",
+  p:[{s:"Nous sommes [Lundi] matin, il pleut.", fix:"lundi"},
+     {s:"Il part en vacances en [Août].", fix:"août"},
+     {s:"Le premier lundi de janvier, tout rouvre.", fix:null}]},
+
+ {id:"trema", cat:"Orthographe d'usage", n:3, t:"Le tréma",
+  r:"Le tréma indique qu'une voyelle se prononce séparément : maïs, naïf, aiguë, Noël.",
+  astuce:"Sans tréma, « mais » et « maïs » se confondraient.",
+  p:[{s:"Il a semé du [mais] dans le champ.", fix:"maïs"},
+     {s:"Il est un peu [naif] pour son âge.", fix:"naïf"},
+     {s:"Ce naïf a récolté du maïs à Noël.", fix:null}]},
+
+/* ─── VOCABULAIRE : PARONYMES ─── */
+ {id:"acquit", cat:"Vocabulaire", n:3, t:"acquit ou acquis",
+  r:"Un <b>acquit</b> est une quittance, d'où « par acquit de conscience ». Un <b>acquis</b> est ce que l'on a acquis.",
+  astuce:"On s'acquitte d'une dette, on acquiert un savoir.",
+  p:[{s:"Il a vérifié par [acquis] de conscience.", fix:"acquit"},
+     {s:"Ses acquis professionnels sont solides.", fix:null}]},
+
+ {id:"consumer", cat:"Vocabulaire", n:3, t:"consommer ou consumer",
+  r:"<b>consommer</b>, c'est utiliser ou manger ; <b>consumer</b>, c'est détruire par le feu.",
+  astuce:"Le feu consume, le client consomme.",
+  p:[{s:"L'incendie a [consommé] toute la grange.", fix:"consumé"},
+     {s:"Il consomme peu d'électricité en hiver.", fix:null}]},
+
+ {id:"decennie", cat:"Vocabulaire", n:3, t:"décade ou décennie",
+  r:"Une <b>décade</b> dure dix jours ; une <b>décennie</b> dure dix ans.",
+  astuce:"Décennie contient « an » comme dans annuel.",
+  p:[{s:"Il a vécu là-bas pendant une [décade].", fix:"décennie"},
+     {s:"Une décade compte dix jours seulement.", fix:null}]},
+
+ {id:"detonant", cat:"Vocabulaire", n:3, t:"détonant ou détonnant",
+  r:"<b>détonant</b> vient de détoner (exploser) ; <b>détonnant</b> vient de détonner (sortir du ton).",
+  astuce:"Deux n pour le ton, un seul pour l'explosion.",
+  p:[{s:"C'est un mélange [détonnant] de saveurs.", fix:"détonant"},
+     {s:"Sa voix détonne au milieu du chœur.", fix:null}]},
+
+ {id:"emigrer", cat:"Vocabulaire", n:3, t:"émigrer ou immigrer",
+  r:"On <b>émigre</b> quand on quitte son pays, on <b>immigre</b> quand on entre dans un autre.",
+  astuce:"É comme sortir, im comme entrer.",
+  p:[{s:"Il a quitté son pays pour [immigrer] vers l'Europe.", fix:"émigrer"},
+     {s:"Les personnes qui immigrent en France doivent s'inscrire.", fix:null}]},
+
+ {id:"elucider", cat:"Vocabulaire", n:3, t:"élucider ou éluder",
+  r:"<b>élucider</b>, c'est éclaircir ; <b>éluder</b>, c'est éviter.",
+  astuce:"Élucider contient « lucide ».",
+  p:[{s:"La police a [éludé] le mystère en deux jours.", fix:"élucidé"},
+     {s:"Il élude la question depuis le début.", fix:null}]},
+
+ {id:"habilete", cat:"Vocabulaire", n:3, t:"habileté ou habilité",
+  r:"L'<b>habileté</b> est l'adresse ; l'<b>habilité</b> est le fait d'être autorisé.",
+  astuce:"Habileté comme habile, habilité comme habiliter.",
+  p:[{s:"Son [habilité] manuelle est remarquable.", fix:"habileté"},
+     {s:"Il est habilité à signer les contrats.", fix:null}]},
+
+ {id:"hiberner", cat:"Vocabulaire", n:3, t:"hiberner ou hiverner",
+  r:"<b>hiberner</b>, c'est passer l'hiver en léthargie ; <b>hiverner</b>, c'est passer l'hiver à l'abri.",
+  astuce:"L'ours hiberne, le troupeau hiverne.",
+  p:[{s:"L'ours [hiverne] dans sa tanière jusqu'en mars.", fix:"hiberne"},
+     {s:"Les troupeaux hivernent à l'étable.", fix:null}]},
+
+ {id:"infester", cat:"Vocabulaire", n:3, t:"infecter ou infester",
+  r:"<b>infecter</b>, c'est contaminer ; <b>infester</b>, c'est envahir en grand nombre.",
+  astuce:"Les parasites infestent, les microbes infectent.",
+  p:[{s:"La cave est [infectée] de souris.", fix:"infestée"},
+     {s:"La plaie s'est infectée en trois jours.", fix:null}]},
+
+ {id:"partiel", cat:"Vocabulaire", n:2, t:"partial ou partiel",
+  r:"<b>partial</b> signifie qui prend parti ; <b>partiel</b> signifie incomplet.",
+  astuce:"Partial comme parti pris, partiel comme partie.",
+  p:[{s:"Il a obtenu un remboursement [partial].", fix:"partiel"},
+     {s:"Un jugement partial et un examen partiel.", fix:null}]},
+
+ {id:"pecuniaire", cat:"Vocabulaire", n:3, t:"pécuniaire",
+  r:"L'adjectif est <b>pécuniaire</b> aux deux genres. La forme « pécunier » n'existe pas.",
+  astuce:"Il vient du latin pecunia, l'argent.",
+  p:[{s:"Il traverse des difficultés [pécunières].", fix:"pécuniaires"},
+     {s:"Une aide pécuniaire lui a été accordée.", fix:null}]},
+
+ {id:"prescrire", cat:"Vocabulaire", n:3, t:"prescrire ou proscrire",
+  r:"<b>prescrire</b>, c'est recommander ; <b>proscrire</b>, c'est interdire.",
+  astuce:"Pro comme prohiber.",
+  p:[{s:"Le médecin lui a [proscrit] un traitement léger.", fix:"prescrit"},
+     {s:"Ce produit est proscrit dans les hôpitaux.", fix:null}]},
+
+ {id:"prolongation", cat:"Vocabulaire", n:3, t:"prolongation ou prolongement",
+  r:"Une <b>prolongation</b> concerne la durée ; un <b>prolongement</b> concerne l'espace.",
+  astuce:"Le match part en prolongation, la ligne connaît un prolongement.",
+  p:[{s:"Le [prolongement] du match a duré trente minutes.", fix:"prolongation"},
+     {s:"Le prolongement de la ligne est prévu en juin.", fix:null}]},
+
+ {id:"rebattre", cat:"Vocabulaire", n:3, t:"rebattre les oreilles",
+  r:"L'expression est <b>rebattre les oreilles</b>, du verbe rebattre, répéter sans cesse.",
+  astuce:"Rabattre, c'est replier : on rabat un col.",
+  p:[{s:"Il m'a [rabattu] les oreilles avec cette histoire.", fix:"rebattu"},
+     {s:"Il rabat le col de sa veste et se tait.", fix:null}]},
+
+ {id:"somptuaire", cat:"Vocabulaire", n:3, t:"somptueux ou somptuaire",
+  r:"<b>somptueux</b> signifie magnifique ; <b>somptuaire</b> se dit d'une dépense excessive.",
+  astuce:"Une loi somptuaire limite les dépenses de luxe.",
+  p:[{s:"Ils ont offert un repas [somptuaire] à leurs invités.", fix:"somptueux"},
+     {s:"Ces dépenses somptuaires ont été critiquées.", fix:null}]},
+
+ {id:"subvenir", cat:"Vocabulaire", n:3, t:"subvenir ou survenir",
+  r:"<b>subvenir</b>, c'est pourvoir aux besoins ; <b>survenir</b>, c'est arriver soudainement.",
+  astuce:"Sub comme soutenir par en dessous.",
+  p:[{s:"Il doit [survenir] aux besoins de sa famille.", fix:"subvenir"},
+     {s:"Un incident est survenu pendant la nuit.", fix:null}]},
+
+ {id:"veneneux", cat:"Vocabulaire", n:2, t:"vénéneux ou venimeux",
+  r:"Est <b>vénéneux</b> ce qui contient du poison quand on l'ingère ; est <b>venimeux</b> l'animal qui injecte son venin.",
+  astuce:"Le venin s'injecte, le poison s'avale.",
+  p:[{s:"Ce champignon est [venimeux], ne le mange pas.", fix:"vénéneux"},
+     {s:"Un serpent venimeux vit dans ces rochers.", fix:null}]},
+
+ {id:"eminent-2", cat:"Vocabulaire", n:3, t:"affluence ou influence",
+  r:"L'<b>affluence</b> est l'arrivée en grand nombre ; l'<b>influence</b> est le pouvoir d'agir sur quelqu'un.",
+  astuce:"Affluence comme afflux.",
+  p:[{s:"Il y a beaucoup d'[influence] dans le magasin.", fix:"affluence"},
+     {s:"Son influence sur l'équipe est réelle.", fix:null}]},
+
+ {id:"alternative", cat:"Vocabulaire", n:3, t:"alternative",
+  r:"Une <b>alternative</b> est déjà un choix entre deux possibilités : parler d'« autre alternative » est un pléonasme.",
+  astuce:"Dis « une autre solution » ou « une autre possibilité ».",
+  p:[{s:"Il n'a pas d'autre [alternative] que d'accepter.", fix:"solution"},
+     {s:"L'alternative est simple : partir ou rester.", fix:null}]},
+
+ {id:"conséquent", cat:"Vocabulaire", n:3, t:"conséquent",
+  r:"<b>conséquent</b> signifie « qui raisonne avec logique ». Au sens de « important », l'emploi reste critiqué à l'écrit soigné.",
+  astuce:"Préfère « important » ou « considérable » pour une somme.",
+  p:[{s:"Ils ont voté un budget [conséquent] cette année.", fix:"important"},
+     {s:"Il est conséquent avec lui-même depuis toujours.", fix:null}]},
+
+ {id:"realiser", cat:"Vocabulaire", n:3, t:"réaliser au sens de comprendre",
+  r:"<b>réaliser</b> signifie « rendre réel ». Au sens de « se rendre compte », c'est un anglicisme que l'écrit soigné évite.",
+  astuce:"On réalise un projet, on comprend une situation.",
+  p:[{s:"Il a [réalisé] qu'il s'était trompé de train.", fix:"compris"},
+     {s:"Il a réalisé son rêve après dix ans d'efforts.", fix:null}]},
+
+ {id:"digital", cat:"Vocabulaire", n:3, t:"digital ou numérique",
+  r:"En français, <b>digital</b> se rapporte au doigt (empreinte digitale). Pour la technologie, le mot juste est <b>numérique</b>.",
+  astuce:"Digital vient de digitus, le doigt.",
+  p:[{s:"L'entreprise revoit sa stratégie [digitale].", fix:"numérique"},
+     {s:"Son empreinte digitale ouvre le téléphone.", fix:null}]},
+
+ {id:"solutionner", cat:"Vocabulaire", n:2, t:"solutionner",
+  r:"<b>solutionner</b> existe mais reste lourd et critiqué : le verbe usuel est <b>résoudre</b>.",
+  astuce:"On résout un problème, on trouve une solution.",
+  p:[{s:"Il faut [solutionner] ce problème rapidement.", fix:"résoudre"},
+     {s:"Il a résolu le problème en une matinée.", fix:null}]},
+
+ {id:"voire-meme", cat:"Vocabulaire", n:3, t:"voire même",
+  r:"<b>voire</b> signifie déjà « et même » : ajouter « même » fait un pléonasme.",
+  astuce:"Choisis l'un ou l'autre, jamais les deux.",
+  p:[{s:"Il est doué, voire [même] génial.", fix:"à supprimer"},
+     {s:"Le trajet dure deux heures, voire trois.", fix:null}]},
+
+ {id:"malgre-que", cat:"Vocabulaire", n:3, t:"malgré que",
+  r:"<b>malgré que</b> est critiqué sauf avec le verbe avoir. On écrit <b>bien que</b> suivi du subjonctif.",
+  astuce:"Malgré s'emploie devant un nom : malgré la pluie.",
+  p:[{s:"[Malgré] qu'il soit tard, il travaille encore.", fix:"Bien"},
+     {s:"Bien qu'il soit tard, il travaille encore.", fix:null}]},
+
+ {id:"savérer", cat:"Vocabulaire", n:3, t:"s'avérer",
+  r:"<b>s'avérer</b> contient déjà l'idée de vérité : « s'avérer vrai » est un pléonasme et « s'avérer faux » une contradiction.",
+  astuce:"Dis simplement « se révéler exact » ou « s'avérer exact ».",
+  p:[{s:"La rumeur s'est avérée [vraie] dès le lendemain.", fix:"exacte"},
+     {s:"Cette hypothèse s'est avérée après vérification.", fix:null}]},
+
+ {id:"affaire-a", cat:"Vocabulaire", n:3, t:"avoir affaire à",
+  r:"L'expression est <b>avoir affaire à</b>, au singulier et sans s.",
+  astuce:"Elle signifie « être en rapport avec ».",
+  p:[{s:"Tu auras [affaires] à moi si tu recommences.", fix:"affaire"},
+     {s:"Nous avons affaire à un dossier complexe.", fix:null}]},
+
+ {id:"plain-pied", cat:"Vocabulaire", n:3, t:"de plain-pied",
+  r:"L'expression s'écrit <b>de plain-pied</b>, de « plain » qui signifie plat, comme dans « plaine ».",
+  astuce:"Rien à voir avec « plein » : le sol est plat.",
+  p:[{s:"Ils ont acheté une maison de [plein-pied].", fix:"plain-pied"},
+     {s:"Cette maison de plain-pied convient aux enfants.", fix:null}]},
+
+ {id:"for-interieur", cat:"Vocabulaire", n:3, t:"en son for intérieur",
+  r:"Le <b>for</b> intérieur désigne le tribunal de la conscience, du latin forum. Rien à voir avec « fort ».",
+  astuce:"C'est un for, comme un forum intérieur.",
+  p:[{s:"Dans son [fort] intérieur, il savait la vérité.", fix:"for"},
+     {s:"En son for intérieur, il hésitait encore.", fix:null}]},
+
+ {id:"a-lenvi", cat:"Vocabulaire", n:3, t:"à l'envi",
+  r:"<b>à l'envi</b> signifie « à qui mieux mieux » et s'écrit sans e final.",
+  astuce:"Rien à voir avec l'envie de faire quelque chose.",
+  p:[{s:"Ils en parlent à l'[envie] depuis des semaines.", fix:"envi"},
+     {s:"Les journaux le répètent à l'envi.", fix:null}]},
+
+ {id:"dores-deja", cat:"Vocabulaire", n:3, t:"d'ores et déjà",
+  r:"L'expression s'écrit <b>d'ores et déjà</b> : « ores » est un vieux mot signifiant « maintenant ».",
+  astuce:"Ni « hors », ni « or » : c'est bien ores.",
+  p:[{s:"Il est [d'hors] et déjà prêt à partir.", fix:"d'ores"},
+     {s:"D'ores et déjà, tout est organisé.", fix:null}]},
+
+ {id:"au-fur", cat:"Vocabulaire", n:3, t:"au fur et à mesure",
+  r:"L'expression complète est <b>au fur et à mesure</b>, jamais « à fur et à mesure ».",
+  astuce:"« Fur » vient de forum et signifiait « taux, mesure ».",
+  p:[{s:"Il range [à] fur et à mesure de la journée.", fix:"au"},
+     {s:"Au fur et à mesure, la salle s'est remplie.", fix:null}]},
+
+ {id:"mettre-au-jour", cat:"Vocabulaire", n:3, t:"mettre à jour ou au jour",
+  r:"<b>mettre à jour</b>, c'est actualiser ; <b>mettre au jour</b>, c'est découvrir, faire sortir de terre.",
+  astuce:"Les archéologues mettent au jour, les informaticiens mettent à jour.",
+  p:[{s:"Les fouilles ont mis à [jour] une nécropole.", fix:"jour"},
+     {s:"Il met à jour son logiciel chaque semaine.", fix:null}]},
+
+ {id:"chez-le", cat:"Vocabulaire", n:2, t:"aller chez ou aller au",
+  r:"Devant un nom de personne ou de métier, on emploie <b>chez</b> : chez le coiffeur, chez le médecin.",
+  astuce:"« Au » s'emploie devant un lieu : au restaurant, au cinéma.",
+  p:[{s:"Elle va [au] coiffeur tous les mois.", fix:"chez le"},
+     {s:"Elle va chez le médecin puis au marché.", fix:null}]},
+
+];
+
+const DICTEES = [
+ "Les élèves que j'ai rencontrés hier m'ont paru très motivés.",
+ "Quelles que soient les difficultés, nous continuerons malgré tout.",
+ "Je vous saurais gré de bien vouloir m'envoyer ces documents.",
+ "Elle s'est aperçue que ses collègues étaient déjà partis.",
+ "Il a fallu deux heures, voire trois, pour appeler tout le monde.",
+ "Ces arguments-là sont pertinents, mais leur conclusion me surprend.",
+ "On leur a demandé de fermer les fenêtres avant de sortir.",
+ "Les fleurs qu'il lui a offertes ont fané en quelques jours.",
+ "Bien qu'elle soit fatiguée, elle a tenu à finir son travail.",
+ "Quant à moi, je préfère attendre qu'ils aient tous répondu.",
+ "Elle s'est rendu compte trop tard de son erreur de calcul.",
+ "Les enfants se sont parlé longuement avant de se quitter.",
+ "Il est parti sans rien dire et s'en est voulu toute la soirée.",
+ "Nous commençons à comprendre pourquoi ils ont changé d'avis.",
+ "Si j'avais su, je ne serais jamais venu à cette réunion.",
+ "Vous trouverez ci-joint les deux devis que vous m'avez demandés.",
+ "La plupart des candidats ont réussi malgré un sujet difficile.",
+ "Il a acheté quatre-vingts enveloppes et deux cents timbres.",
+ "Elle marchait nu-pieds sur les cailloux du chemin.",
+ "Ils se sont fait couper les cheveux avant la cérémonie.",
+ "C'est moi qui ai proposé cette idée, quoi que tu en penses.",
+ "Les journaux annoncent des festivals et des carnavals cet été.",
+ "Il faut que tu sois là avant qu'ils ne commencent la réunion.",
+ "Aucune des solutions envisagées ne me paraît vraiment satisfaisante."
+];
+
+/* ═══════════ ÉTAT ET SAUVEGARDE ═══════════ */
+const CLE = "la-regle:progression";
+const INTERVALLES = [3, 12, 35, 90, 220, 500];   // en nombre de questions répondues
+const TAILLES = [10, 20, 35];
+const TAILLE_TEST = 25;
+const NEUVES_MAX = 6;                            // règles inédites par série
+
+let etat = null, sauvegardeOK = true, filtre = null;
+
+function etatNeuf(){
+  return {v:2, compteur:0, testFait:false, taille:20, regles:{}, dictees:{}, sessions:[]};
+}
+function fiche(id){
+  if(!etat.regles[id]) etat.regles[id] = {b:0, du:0, vus:0, ok:0, neuf:true, derniere:-1};
+  return etat.regles[id];
+}
+async function charger(){
+  try{
+    const r = await window.storage.get(CLE);
+    etat = r && r.value ? JSON.parse(r.value) : etatNeuf();
+  }catch(e){ etat = etatNeuf(); }
+  if(!etat.taille || !TAILLES.includes(etat.taille)) etat.taille = 20;
+  if(!etat.dictees) etat.dictees = {};
+  if(!etat.sessions) etat.sessions = [];
+  REGLES.forEach(r=>fiche(r.id));
+}
+async function sauver(){
+  try{ await window.storage.set(CLE, JSON.stringify(etat)); }
+  catch(e){ sauvegardeOK = false; }
+}
+
+/* ═══════════ OUTILS ═══════════ */
+const scene = document.getElementById('scene');
+const fil = document.getElementById('fil');
+const accroche = document.getElementById('accroche');
+const CATS = [...new Set(REGLES.map(r=>r.cat))];
+
+function melanger(t){const c=t.slice();for(let i=c.length-1;i>0;i--){const j=(Math.random()*(i+1))|0;[c[i],c[j]]=[c[j],c[i]];}return c;}
+function maitrisees(liste){ return (liste||REGLES).filter(r=>fiche(r.id).b>=4).length; }
+function niveau(){
+  const p = maitrisees()/REGLES.length;
+  if(p>=.9) return "Expert"; if(p>=.7) return "Confirmé";
+  if(p>=.45) return "Solide"; if(p>=.2) return "En progrès"; return "Débutant";
+}
+function decouper(phrase){
+  return phrase.split(' ').map(brut=>{
+    const cible = brut.includes('[');
+    const nu = brut.replace('[','').replace(']','');
+    const m = nu.match(/^([«"']*)(.+?)([.,;:!?»"']*)$/);
+    return {avant:m[1], mot:m[2], apres:m[3], cible};
+  });
+}
+function tirerPhrase(r){
+  const f = fiche(r.id);
+  const choix = r.p.map((_,i)=>i).filter(i=>i!==f.derniere);
+  const i = choix[(Math.random()*choix.length)|0];
+  f.derniere = i;
+  return r.p[i];
+}
+function echapper(t){ return t.replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
+
+/* ═══════════ PLANIFICATION (répétition espacée) ═══════════ */
+function construireSession(n, cat){
+  const bassin = cat ? REGLES.filter(r=>r.cat===cat) : REGLES;
+  const dues = [], neuves = [], reste = [];
+  bassin.forEach(r=>{
+    const f = fiche(r.id);
+    if(f.neuf) neuves.push(r);
+    else if(f.du <= etat.compteur) dues.push(r);
+    else reste.push(r);
+  });
+  dues.sort((a,b)=> (fiche(a.id).b - fiche(b.id).b) || (fiche(a.id).du - fiche(b.id).du));
+  const liste = dues.slice(0, n);
+  neuves.sort((a,b)=> a.n - b.n);                     // les plus simples d'abord
+  const place = Math.min(NEUVES_MAX, n - liste.length);
+  for(let i=0;i<place && i<neuves.length;i++) liste.push(neuves[i]);
+  reste.sort((a,b)=> fiche(a.id).du - fiche(b.id).du);
+  for(const r of reste){ if(liste.length>=n) break; liste.push(r); }
+  for(const r of neuves){ if(liste.length>=n) break; if(!liste.includes(r)) liste.push(r); }
+  return melanger(liste);
+}
+function noter(id, bon){
+  const f = fiche(id);
+  f.neuf = false; f.vus++; if(bon) f.ok++;
+  f.b = bon ? Math.min(5, f.b+1) : Math.max(0, f.b-2);
+  etat.compteur++;
+  f.du = etat.compteur + INTERVALLES[f.b];
+}
+function construireTest(){
+  const paquets = CATS.map(c=>melanger(REGLES.filter(r=>r.cat===c)).sort((a,b)=>a.n-b.n));
+  const liste = []; let i = 0;
+  while(liste.length < TAILLE_TEST && i < 40){
+    for(const p of paquets){ if(p[i]){ liste.push(p[i]); if(liste.length>=TAILLE_TEST) break; } }
+    i++;
+  }
+  return melanger(liste);
+}
+
+/* ═══════════ ÉCRAN : ACCUEIL ═══════════ */
+function accueil(){
+  fil.textContent = "Entraînement personnel";
+  accroche.textContent = "Repérer la faute, comprendre pourquoi, ne plus la refaire.";
+  const m = maitrisees(), tot = REGLES.length;
+  const dues = REGLES.filter(r=>!fiche(r.id).neuf && fiche(r.id).du<=etat.compteur).length;
+  const neuves = REGLES.filter(r=>fiche(r.id).neuf).length;
+
+  const puces = CATS.map(c=>{
+    const liste = REGLES.filter(r=>r.cat===c);
+    return `<button class="puce ${filtre===c?'active':''}" data-cat="${c}">${c}
+      <i>${maitrisees(liste)}/${liste.length}</i></button>`;
+  }).join('');
+
+  scene.innerHTML = `
+    <div class="carte">
+      <p class="niveau"><b>${niveau()}</b><span>Niveau estimé</span></p>
+      <div class="anneau"><i style="width:${m/tot*100}%"></i></div>
+      <p class="legende">${m} règle${m>1?'s':''} maîtrisée${m>1?'s':''} sur ${tot} ·
+        ${dues} à réviser${neuves>0?` · ${neuves} jamais vue${neuves>1?'s':''}`:''}</p>
+    </div>
+    ${etat.testFait ? '' : `
+    <div class="carte" style="border-left:3px solid var(--or)">
+      <p class="legende" style="color:var(--craie)">Commence par le test de positionnement : ${TAILLE_TEST} phrases pour situer ton niveau dans chaque domaine et calibrer le parcours.</p>
+      <button class="plein" id="lancer-test" style="margin-top:16px">Passer le test</button>
+    </div>`}
+
+    <div class="carte">
+      <p class="etiquette">Cibler un domaine</p>
+      <div class="puces">
+        <button class="puce ${filtre===null?'active':''}" data-cat="">Tout mélanger</button>
+        ${puces}
+      </div>
+      <p class="etiquette" style="margin-top:22px">Longueur de la série</p>
+      <div class="puces">
+        ${TAILLES.map(t=>`<button class="puce ${etat.taille===t?'active':''}" data-taille="${t}">${t} phrases</button>`).join('')}
+      </div>
+      <button class="plein" id="go-entrainement" style="margin-top:22px">Commencer l'entraînement</button>
+    </div>
+
+    <div class="menu">
+      <button class="tuile" id="go-dictee">
+        <b>Dictée audio</b><span>${DICTEES.length} phrases lues à voix haute, corrigées mot à mot.</span></button>
+      <button class="tuile" id="go-stats">
+        <b>Statistiques</b><span>Ton palier règle par règle et tes lacunes en tête de liste.</span></button>
+      <button class="tuile" id="go-regles">
+        <b>Les règles</b><span>Les ${tot} difficultés du parcours, à consulter librement.</span></button>
+      <button class="tuile" id="go-faiblesses">
+        <b>Mes points faibles</b><span>Une série composée uniquement de ce que tu rates.</span></button>
+    </div>
+
+    <div class="bas">
+      <button class="lien" id="raz">Effacer ma progression</button>
+      ${sauvegardeOK ? '' : '<span class="avert">Sauvegarde indisponible : la progression sera perdue en fermant.</span>'}
+    </div>`;
+
+  scene.querySelectorAll('[data-cat]').forEach(b=>b.onclick=()=>{ filtre = b.dataset.cat || null; accueil(); });
+  scene.querySelectorAll('[data-taille]').forEach(b=>b.onclick=async()=>{ etat.taille = +b.dataset.taille; await sauver(); accueil(); });
+  const bt = document.getElementById('lancer-test');
+  if(bt) bt.onclick = ()=>lancerSerie(construireTest(), true);
+  document.getElementById('go-entrainement').onclick = ()=>lancerSerie(construireSession(etat.taille, filtre), false);
+  document.getElementById('go-faiblesses').onclick = ()=>{
+    const faibles = REGLES.filter(r=>{const f=fiche(r.id); return !f.neuf && f.b<=2;});
+    if(!faibles.length){ alert("Aucune faiblesse enregistrée pour l'instant : lance une série normale."); return; }
+    lancerSerie(melanger(faibles).slice(0, etat.taille), false);
+  };
+  document.getElementById('go-dictee').onclick = dicteeAccueil;
+  document.getElementById('go-stats').onclick = stats;
+  document.getElementById('go-regles').onclick = catalogue;
+  document.getElementById('raz').onclick = async ()=>{
+    etat = etatNeuf(); REGLES.forEach(r=>fiche(r.id)); await sauver(); accueil();
+  };
+}
+
+/* ═══════════ ÉCRAN : SÉRIE DE QUESTIONS ═══════════ */
+let serie = [], curseur = 0, justes = 0, releve = {}, modeTest = false;
+
+function lancerSerie(liste, test){
+  serie = liste; curseur = 0; justes = 0; releve = {}; modeTest = test;
+  fil.textContent = test ? "Test de positionnement" : "Entraînement";
+  accroche.textContent = test
+    ? "Ne devine pas : si tu hésites, réponds au mieux, ça sert à te situer."
+    : "Clique sur le mot fautif, ou déclare la phrase correcte.";
+  question();
+}
+
+function question(){
+  if(curseur >= serie.length) return bilan();
+  const r = serie[curseur];
+  const ph = tirerPhrase(r);
+  const jetons = decouper(ph.s);
+
+  scene.innerHTML = `
+    <div class="jauge">
+      <div class="barre"><span style="width:${curseur/serie.length*100}%"></span></div>
+      <p class="compte"><b>${curseur}</b> / ${serie.length}</p>
+    </div>
+    <div class="cahier" id="cahier">
+      <div class="marge"></div>
+      <p class="categorie">${r.cat}</p>
+      <p class="phrase" id="phrase"></p>
+      <svg class="calque" id="calque"></svg>
+    </div>
+    <div class="consigne">
+      <p class="indice">Clique sur le mot qui te semble fautif.</p>
+      <button class="creux" id="rien">Aucune faute</button>
+    </div>
+    <div id="retour"></div>`;
+
+  const phrase = document.getElementById('phrase');
+  jetons.forEach((j,i)=>{
+    if(j.avant) phrase.append(j.avant);
+    const b = document.createElement('button');
+    b.className='mot'; b.textContent=j.mot; b.dataset.i=i;
+    b.onclick = ()=>repondre(r, ph, jetons, i, b);
+    phrase.append(b);
+    if(j.apres) phrase.append(j.apres);
+    phrase.append(' ');
+  });
+  document.getElementById('rien').onclick = ()=>repondre(r, ph, jetons, -1, null);
+}
+
+async function repondre(r, ph, jetons, choix, bouton){
+  const phrase = document.getElementById('phrase');
+  phrase.parentElement.classList.add('fige');
+  document.getElementById('rien').disabled = true;
+  phrase.querySelectorAll('.mot').forEach(b=>b.disabled=true);
+
+  const iFaute = jetons.findIndex(j=>j.cible);
+  const bon = (ph.fix === null) ? (choix === -1) : (choix === iFaute);
+  if(bon) justes++;
+  const c = releve[r.cat] || (releve[r.cat]={bon:0,tot:0});
+  c.tot++; if(bon) c.bon++;
+
+  const avant = fiche(r.id).b;
+  noter(r.id, bon);
+  const apres = fiche(r.id).b;
+  await sauver();
+
+  if(!bon && bouton) bouton.classList.add('rate');
+  if(iFaute > -1) entourer(phrase.querySelector('[data-i="'+iFaute+'"]'), ph.fix);
+
+  const verdict = bon ? "Juste" : (ph.fix===null ? "La phrase était correcte" : "Ce n'était pas ça");
+  const palier = modeTest ? "" :
+    (apres>=4 && avant<4 ? "Règle maîtrisée" : (apres>avant ? `Palier ${apres} / 5` : `Retour au palier ${apres} / 5`));
+
+  document.getElementById('retour').innerHTML = `
+    <div class="regle ${bon?'juste':''}">
+      <p class="verdict"><span>${verdict}</span><span class="palier">${palier}</span></p>
+      <h2>${r.t}</h2>
+      <p>${r.r}</p>
+      <p class="astuce">${r.astuce}</p>
+      <button class="plein suite" id="suite">${curseur+1<serie.length?'Phrase suivante':'Voir le bilan'}</button>
+    </div>`;
+  const s = document.getElementById('suite');
+  s.onclick = ()=>{ curseur++; question(); };
+  s.focus();
+}
+
+function entourer(el, correction){
+  if(!el) return;
+  const calque = document.getElementById('calque');
+  const cahier = document.getElementById('cahier');
+  const b = el.getBoundingClientRect(), c = cahier.getBoundingClientRect();
+  const x=b.left-c.left, y=b.top-c.top, cx=x+b.width/2, cy=y+b.height/2;
+  const rx=b.width/2+11, ry=b.height/2+3, k=0.5523;
+  const d = `M ${cx} ${cy-ry}
+    C ${cx+rx*k} ${cy-ry} ${cx+rx} ${cy-ry*k} ${cx+rx} ${cy}
+    C ${cx+rx} ${cy+ry*k} ${cx+rx*k} ${cy+ry} ${cx} ${cy+ry}
+    C ${cx-rx*k} ${cy+ry} ${cx-rx} ${cy+ry*k} ${cx-rx} ${cy}
+    C ${cx-rx} ${cy-ry*k} ${cx-rx*k} ${cy-ry*1.08} ${cx+rx*0.3} ${cy-ry*0.98}`;
+  const p = document.createElementNS('http://www.w3.org/2000/svg','path');
+  p.setAttribute('d',d); p.setAttribute('class','trait');
+  p.setAttribute('transform',`rotate(-2 ${cx} ${cy})`);
+  calque.append(p);
+  const L = p.getTotalLength();
+  p.style.strokeDasharray = L; p.style.strokeDashoffset = L;
+  if(correction){
+    const a = document.createElement('span');
+    a.className='annote'; a.textContent=correction;
+    a.style.left = cx+'px'; a.style.top = (y-4)+'px';
+    cahier.append(a);
+  }
+}
+
+async function bilan(){
+  if(modeTest) etat.testFait = true;
+  etat.sessions.push({q:serie.length, ok:justes});
+  if(etat.sessions.length>40) etat.sessions.shift();
+  await sauver();
+
+  const lignes = Object.entries(releve).map(([cat,c])=>`
+    <div class="ligne">
+      <div class="tete"><span>${cat}</span><span>${c.bon} / ${c.tot}</span></div>
+      <div class="piste"><i class="${c.bon/c.tot>=.75?'fort':(c.bon/c.tot<.5?'faible':'')}" style="width:${c.bon/c.tot*100}%"></i></div>
+    </div>`).join('');
+
+  const faibles = serie.filter(r=>fiche(r.id).b<=1).slice(0,5);
+
+  scene.innerHTML = `
+    <div class="carte">
+      <p class="note">${justes}<small> / ${serie.length}</small></p>
+      <p class="legende" style="margin:6px 0 26px">
+        ${modeTest ? `Ton parcours est calibré. Niveau estimé : <b style="color:var(--papier)">${niveau()}</b>.`
+                   : `Niveau estimé : <b style="color:var(--papier)">${niveau()}</b> · ${maitrisees()} / ${REGLES.length} règles maîtrisées.`}
+      </p>
+      ${lignes}
+      ${faibles.length ? `<h3>À retravailler en priorité</h3>
+        <p class="legende">${faibles.map(r=>r.t).join(' · ')}</p>` : ''}
+      <div class="bas">
+        <button class="plein" id="encore">${modeTest?"Commencer l'entraînement":"Nouvelle série"}</button>
+        <button class="creux" id="retour-accueil">Accueil</button>
+      </div>
+    </div>`;
+  document.getElementById('encore').onclick = ()=>lancerSerie(construireSession(etat.taille, filtre), false);
+  document.getElementById('retour-accueil').onclick = accueil;
+}
+
+/* ═══════════ ÉCRAN : STATISTIQUES ═══════════ */
+function stats(){
+  fil.textContent = "Statistiques";
+  accroche.textContent = "Un palier se gagne à chaque bonne réponse et se perd de deux crans en cas d'erreur.";
+
+  const vues = REGLES.filter(r=>!fiche(r.id).neuf);
+  const pires = vues.slice().sort((a,b)=> fiche(a.id).b - fiche(b.id).b || (fiche(a.id).ok/fiche(a.id).vus) - (fiche(b.id).ok/fiche(b.id).vus)).slice(0,8);
+
+  const bloc = CATS.map(cat=>{
+    const liste = REGLES.filter(r=>r.cat===cat);
+    return `<h3>${cat} <span style="font-family:'Karla';font-size:12px;color:var(--mauve);letter-spacing:.1em">${maitrisees(liste)}/${liste.length}</span></h3>
+    ${liste.map(r=>{
+      const f = fiche(r.id);
+      const info = f.neuf ? 'jamais vue' : `palier ${f.b}/5 · ${f.ok}/${f.vus}`;
+      return `<div class="ligne">
+        <div class="tete"><span>${r.t}</span><span>${info}</span></div>
+        <div class="piste"><i class="${f.b>=4?'fort':(f.b<=1&&!f.neuf?'faible':'')}" style="width:${f.b/5*100}%"></i></div>
+      </div>`;
+    }).join('')}`;
+  }).join('');
+
+  const s = etat.sessions.slice(-12);
+  const total = s.reduce((a,x)=>a+x.q,0), reussi = s.reduce((a,x)=>a+x.ok,0);
+
+  scene.innerHTML = `
+    <div class="carte">
+      <p class="niveau"><b>${niveau()}</b><span>${maitrisees()} / ${REGLES.length} maîtrisées</span></p>
+      <p class="legende" style="margin-top:10px">
+        ${total ? `${Math.round(reussi/total*100)} % de réussite sur tes ${s.length} dernières séries · ${etat.compteur} phrases traitées en tout.` : 'Aucune série terminée pour le moment.'}
+      </p>
+    </div>
+    ${pires.length ? `<div class="carte">
+      <h3>Tes points faibles du moment</h3>
+      ${pires.map(r=>{const f=fiche(r.id);return `<div class="ligne">
+        <div class="tete"><span>${r.t}</span><span>${r.cat} · palier ${f.b}/5</span></div>
+        <div class="piste"><i class="${f.b<=1?'faible':''}" style="width:${f.b/5*100}%"></i></div></div>`;}).join('')}
+      <button class="plein" id="attaquer" style="margin-top:18px">S'entraîner là-dessus</button>
+    </div>` : ''}
+    <div class="carte">${bloc}</div>
+    <div class="bas"><button class="creux" id="retour-accueil">Accueil</button></div>`;
+
+  const a = document.getElementById('attaquer');
+  if(a) a.onclick = ()=>lancerSerie(melanger(pires.concat(pires)).slice(0, etat.taille), false);
+  document.getElementById('retour-accueil').onclick = accueil;
+}
+
+/* ═══════════ ÉCRAN : CATALOGUE DES RÈGLES ═══════════ */
+let catCatalogue = null;
+function catalogue(){
+  fil.textContent = "Les règles";
+  accroche.textContent = "Toutes les difficultés du parcours, avec leur astuce de vérification.";
+  const liste = REGLES.filter(r=>!catCatalogue || r.cat===catCatalogue);
+  scene.innerHTML = `
+    <div class="carte">
+      <div class="puces">
+        <button class="puce ${catCatalogue===null?'active':''}" data-c="">Toutes</button>
+        ${CATS.map(c=>`<button class="puce ${catCatalogue===c?'active':''}" data-c="${c}">${c}</button>`).join('')}
+      </div>
+    </div>
+    <div class="carte">
+      ${liste.map(r=>{
+        const f = fiche(r.id);
+        return `<div class="fiche">
+          <p class="fiche-t">${r.t} <em>${'●'.repeat(r.n)}</em></p>
+          <p class="legende" style="line-height:1.6">${r.r}</p>
+          <p class="legende astuce">${r.astuce}</p>
+          <p class="fiche-e">${f.neuf?'jamais travaillée':`palier ${f.b}/5`}</p>
+        </div>`;
+      }).join('')}
+    </div>
+    <div class="bas"><button class="creux" id="retour-accueil">Accueil</button></div>`;
+  scene.querySelectorAll('[data-c]').forEach(b=>b.onclick=()=>{ catCatalogue = b.dataset.c || null; catalogue(); });
+  document.getElementById('retour-accueil').onclick = accueil;
+}
+
+/* ═══════════ ÉCRAN : DICTÉE ═══════════ */
+function normaliser(t){ return t.replace(/[’´]/g,"'").replace(/[«»"]/g,'').replace(/\s+/g,' ').trim(); }
+function mots(t){
+  return normaliser(t).split(' ')
+    .map(m=>m.replace(/^[.,;:!?()]+|[.,;:!?()]+$/g,''))
+    .filter(Boolean);
+}
+function dicteeAccueil(){
+  fil.textContent = "Dictée audio";
+  accroche.textContent = "Écoute, écris, puis compare mot à mot. Les accents comptent.";
+  const faites = Object.keys(etat.dictees).length;
+  const parfaites = Object.values(etat.dictees).filter(s=>s===100).length;
+  scene.innerHTML = `
+    <div class="carte">
+      <p class="legende">${faites} dictée${faites>1?'s':''} travaillée${faites>1?'s':''} sur ${DICTEES.length}${parfaites?` · ${parfaites} sans faute`:''}.</p>
+      <div class="menu" style="margin-top:18px">
+        ${DICTEES.map((_,i)=>{
+          const sc = etat.dictees[i];
+          return `<button class="tuile" data-d="${i}">
+            <b>Dictée ${i+1}</b><span>${sc!==undefined?`Meilleur score : ${sc} %`:'Jamais tentée'}</span></button>`;
+        }).join('')}
+      </div>
+    </div>
+    <div class="bas"><button class="creux" id="retour-accueil">Accueil</button></div>`;
+  scene.querySelectorAll('[data-d]').forEach(b=>b.onclick=()=>dictee(+b.dataset.d));
+  document.getElementById('retour-accueil').onclick = accueil;
+}
+
+function dictee(i){
+  const texte = DICTEES[i];
+  const dispo = 'speechSynthesis' in window;
+  fil.textContent = `Dictée ${i+1} sur ${DICTEES.length}`;
+  scene.innerHTML = `
+    <div class="ardoise">
+      <textarea id="saisie" placeholder="Écris la phrase que tu entends…" spellcheck="false" autocorrect="off" autocapitalize="off"></textarea>
+    </div>
+    <div class="haut-parleur">
+      <button class="creux" id="ecouter">Réécouter</button>
+      <button class="creux" id="lent">Lentement</button>
+      <button class="plein" id="corriger" style="margin-left:auto">Corriger</button>
+    </div>
+    ${dispo?'':'<p class="avert">La synthèse vocale est indisponible ici. Demande à quelqu\'un de te dicter la phrase, ou passe à l\'entraînement.</p>'}
+    <div id="verdict"></div>
+    <div class="bas"><button class="creux" id="retour-dictees">Retour aux dictées</button></div>`;
+
+  const dire = (vitesse)=>{
+    if(!dispo) return;
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(texte);
+    u.lang = 'fr-FR'; u.rate = vitesse;
+    const v = speechSynthesis.getVoices().find(x=>x.lang && x.lang.startsWith('fr'));
+    if(v) u.voice = v;
+    speechSynthesis.speak(u);
+  };
+  document.getElementById('ecouter').onclick = ()=>dire(0.95);
+  document.getElementById('lent').onclick = ()=>dire(0.6);
+  document.getElementById('retour-dictees').onclick = ()=>{ if(dispo) speechSynthesis.cancel(); dicteeAccueil(); };
+  document.getElementById('saisie').focus();
+  setTimeout(()=>dire(0.95), 400);
+
+  document.getElementById('corriger').onclick = async ()=>{
+    if(dispo) speechSynthesis.cancel();
+    const attendu = mots(texte), donne = mots(document.getElementById('saisie').value);
+    let bons = 0;
+    const rendu = attendu.map((m,j)=>{
+      const d = donne[j];
+      if(d && d.toLowerCase() === m.toLowerCase()){ bons++; return `<span class="ok">${echapper(m)}</span>`; }
+      return `${d?`<span class="ko">${echapper(d)}</span>`:''}<span class="vrai">${echapper(m)}</span>`;
+    }).join(' ');
+    const score = Math.round(bons/attendu.length*100);
+    if(etat.dictees[i] === undefined || score > etat.dictees[i]){ etat.dictees[i] = score; await sauver(); }
+
+    document.getElementById('verdict').innerHTML = `
+      <div class="regle ${score===100?'juste':''}" style="margin-top:18px">
+        <p class="verdict"><span>${score===100?'Sans faute':`${bons} mots justes sur ${attendu.length}`}</span><span class="palier">${score} %</span></p>
+        <div class="ardoise" style="margin-top:14px"><p class="correction">${rendu}</p></div>
+        <p class="astuce" style="margin-top:16px">En rouge barré ce que tu as écrit, en vert la forme attendue.</p>
+        ${i+1<DICTEES.length?'<button class="plein suite" id="dictee-suivante">Dictée suivante</button>':''}
+      </div>`;
+    const n = document.getElementById('dictee-suivante');
+    if(n) n.onclick = ()=>dictee(i+1);
+  };
+}
+
+/* ═══════════ DÉMARRAGE ═══════════ */
+(async function(){
+  scene.innerHTML = '<p class="legende">Chargement de ta progression…</p>';
+  await charger();
+  accueil();
+})();
+
+</script>

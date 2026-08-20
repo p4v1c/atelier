@@ -13,7 +13,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
-const source = process.argv[2] ?? path.resolve(here, "../../la-regle.html");
+const source = process.argv[2] ?? path.resolve(here, "../heritage/la-regle/la-regle.html");
 const out = path.resolve(here, "../prisma/seed/legacy.json");
 
 const html = fs.readFileSync(source, "utf8");

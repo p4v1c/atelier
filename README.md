@@ -21,6 +21,8 @@ déplacement.
 
 ```
 src/ prisma/ tests/        l'application
+heritage/la-regle/         le fichier autonome d'origine : source du lot
+                           « legacy » et référence visuelle du projet
 heritage/culture-g/        le cahier d'origine — scripts Python, gabarit HTML,
                            et data/ qui reste la SOURCE du module Culture
                            générale : le loader y lit directement, il n'y a
@@ -96,15 +98,16 @@ casser.
 npm install
 npm run db:up                 # Postgres 16 dans Docker, port 55432
 npm run prisma:migrate        # applique les migrations
-npm run extract:legacy        # lit ../la-regle.html -> prisma/seed/legacy.json
+npm run extract:legacy        # relit heritage/la-regle/ -> prisma/seed/legacy.json
 npm run validate:content      # compte-rendu + anomalies
 npm run seed                  # remplit la base
 npm test                      # 163 tests
 npm run dev                   # http://localhost:3000
 ```
 
-`npm run extract:legacy -- /autre/chemin/la-regle.html` si le fichier d'origine
-est ailleurs. Les tests d'API parlent au vrai Postgres : `npm run db:up` doit
+`npm run extract:legacy -- /autre/chemin/la-regle.html` pour repartir d'un autre
+fichier. Le résultat est versionné : un clone suffit à tout reconstruire, sans
+dépendre d'un fichier posé à côté du dépôt. Les tests d'API parlent au vrai Postgres : `npm run db:up` doit
 tourner. Ils créent des comptes préfixés `vitest-` et les effacent en sortant.
 
 ## Variables d'environnement
