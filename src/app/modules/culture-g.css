@@ -360,3 +360,7 @@ body:has(.app[data-module="culture-g"]) {
 }
 [data-module="culture-g"] .fiche-t em { font-family: var(--cg-mono); font-style: normal; color: var(--cg-encre-pale); }
 [data-module="culture-g"] .jalon { font-family: var(--cg-mono); font-size: .72rem; }
+
+[data-module="culture-g"] .visuel .note {
+  font-family: var(--cg-sans); font-style: normal; color: var(--cg-encre-pale); font-size: .8rem;
+}

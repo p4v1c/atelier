@@ -3,12 +3,13 @@
 Une plateforme d'apprentissage à modules : un compte, un planificateur de
 répétition espacée, et autant de matières qu'on veut y mettre.
 
-| Module           | Contenu                                                    |
-| ---------------- | ---------------------------------------------------------- |
-| Français         | 618 règles · 4 336 phrases · 310 dictées                    |
-| Culture générale | 322 notions · 2 209 questions · 280 leçons                  |
-| Anglais          | 16 séries · 430 cartes                                      |
-| Espagnol         | 12 séries · 320 cartes                                      |
+| Module           | Contenu                                                      | Apparence          |
+| ---------------- | ------------------------------------------------------------ | ------------------ |
+| Français         | 618 règles · 4 336 phrases · 310 dictées                      | cahier d'écolier   |
+| Culture générale | 322 notions · 2 209 questions · 280 leçons                    | carnet de révision |
+| Anglais          | 25 séries · 920 cartes · 10 dictées · 3 cours de conjugaison   | signalétique       |
+| Espagnol         | 20 séries · 730 cartes · 10 dictées · 3 cours de conjugaison   | signalétique       |
+| Géographie       | 2 notions · 14 questions — le gabarit à copier                | par défaut         |
 
 Le moteur ne sait pas ce qu'est une faute d'orthographe ni une capitale : il
 connaît des modules, des compétences et des exercices. Ce qu'un exercice veut
@@ -87,6 +88,49 @@ Le contenu vit à part du registre pour une raison précise : `src/modules/index
 est importé par les routes **et par le navigateur**, alors que le contenu pèse
 des centaines de kilo-octets et ne sert qu'au seed et au validateur.
 
+### L'apparence
+
+Un module n'est pas qu'un jeu de données : c'est une identité. Le français a son
+cahier d'écolier, la culture générale son carnet bleu bic, les langues leur
+signalétique. Rien n'oblige deux matières à se ressembler — c'est même le
+contraire qu'on veut.
+
+```
+src/components/modules/<nom>/     ses écrans
+src/app/modules/<nom>.css         son CSS, accroché à [data-module="<nom>"]
+src/components/modules/index.tsx  une ligne de registre
+```
+
+Une présentation déclare quatre choses, toutes facultatives :
+
+| Champ            | Ce que ça fait                                                        |
+| ---------------- | --------------------------------------------------------------------- |
+| `theme`          | pose `data-module` sur la racine ; le CSS du module s'y accroche       |
+| `ecrans`         | ses propres écrans ; ce qui manque retombe sur les génériques          |
+| `enveloppe`      | posée autour de TOUS ses écrans — c'est elle qui porte sa navigation   |
+| `enteteAutonome` | l'ossature se tait quand le module dessine son en-tête                  |
+
+Un module absent du registre garde l'apparence par défaut. C'est le cas normal,
+pas un défaut : le module de géographie n'a pas une ligne de CSS et fonctionne.
+
+### Les langues
+
+Elles partagent une fabrique — `moduleLangue()` — et ne diffèrent que par leur
+nom, leurs accents et leur couleur. Ajouter le thaï demandera un fichier de
+vocabulaire, pas un module.
+
+Chaque série porte son **niveau du cadre européen**. Un niveau est compté acquis
+à 80 % ; le niveau annoncé est le premier qui ne l'est pas encore. Être « A2 »
+veut donc dire qu'on tient le A1 et qu'on travaille le A2.
+
+Quatre façons de réviser la même carte : la reconnaître (`flashcard`), la
+produire (`traduction`), l'entendre (`ecoute`), la dire (`prononciation`).
+
+**La prononciation mesure si un logiciel te comprend, pas la qualité de ton
+accent.** C'est un révélateur honnête — dire « sheep » quand on visait « ship »
+se voit — mais ce n'est pas un professeur. Elle n'existe que sur Chrome et Edge,
+et Chrome envoie l'audio à ses serveurs pour le transcrire. L'écran le dit.
+
 ### Le vocabulaire
 
 Chaque module nomme ses objets. Le moteur dit « compétence » et « exercice » ;
@@ -108,7 +152,13 @@ src/components/exercices/<Type>.tsx  la vue
 src/components/exercices/index.tsx   une ligne de registre
 ```
 
-Types existants : `spot-error`, `qcm`, `flashcard`, `traduction`, `ecoute`.
+Types existants : `spot-error`, `qcm`, `flashcard`, `traduction`, `ecoute`,
+`prononciation`.
+
+Deux exceptions documentées à la règle « la question ne contient jamais la
+réponse » : la carte mémoire, où l'on se juge soi-même après avoir vu le verso,
+et l'écoute, dont le texte doit atteindre le navigateur pour être prononcé. Dans
+les deux cas, aller chercher la réponse dans l'onglet réseau ne trompe que soi.
 
 ### Un module qui ne relève pas de la répétition espacée
 
@@ -127,6 +177,7 @@ npm run extract:legacy        # relit heritage/la-regle/ -> prisma/seed/legacy.j
 npm run validate:content      # compte-rendu + anomalies
 npm run seed                  # remplit la base
 npm test                      # 163 tests
+npm run tts:voices            # voix neuronales locales (facultatif, ~300 Mo)
 npm run dev                   # http://localhost:3000
 ```
 

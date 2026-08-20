@@ -20,7 +20,8 @@
     "test": "vitest run",
     "tts:check": "tsx scripts/tts-check.ts",
     "relire": "tsx scripts/relire-corrections.ts",
-    "tts:prepare": "tsx scripts/tts-prepare.ts"
+    "tts:prepare": "tsx scripts/tts-prepare.ts",
+    "tts:voices": "bash scripts/telecharger-voix.sh"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
