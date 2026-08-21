@@ -6,6 +6,7 @@
  */
 import type { DicteeLangue, LotCartes } from "../../../../src/modules/langues/commun";
 import { ANGLAIS_AVANCE_B2 } from "./avance-b2";
+import { ANGLAIS_AVANCE_C2 } from "./avance-c2";
 import { ANGLAIS_BASES } from "./bases";
 import { ANGLAIS_CONJUGAISON } from "./conjugaison";
 import { ANGLAIS_CONJUGAISON_2 } from "./conjugaison-2";
@@ -25,6 +26,7 @@ import { ANGLAIS_VOCABULAIRE_C1 } from "./vocabulaire-c1";
 import { ANGLAIS_VOCABULAIRE_IDEES } from "./vocabulaire-idees";
 import { ANGLAIS_VOCABULAIRE_METIERS } from "./vocabulaire-metiers";
 import { ANGLAIS_VOCABULAIRE_MONDE } from "./vocabulaire-monde";
+import { ANGLAIS_VOCABULAIRE_VIE } from "./vocabulaire-vie";
 
 export const LOTS_ANGLAIS: LotCartes[] = [
   ...ANGLAIS_DEBUTANT,
@@ -44,6 +46,8 @@ export const LOTS_ANGLAIS: LotCartes[] = [
   ...ANGLAIS_VOCABULAIRE_IDEES,
   ...ANGLAIS_VOCABULAIRE_METIERS,
   ...ANGLAIS_VOCABULAIRE_C1,
+  ...ANGLAIS_VOCABULAIRE_VIE,
+  ...ANGLAIS_AVANCE_C2,
   ...ANGLAIS_PRONONCIATION,
   ...ANGLAIS_EXPRESSIONS,
 ];

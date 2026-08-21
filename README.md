@@ -7,8 +7,8 @@ répétition espacée, et autant de matières qu'on veut y mettre.
 | ---------------- | ------------------------------------------------------------ | ------------------ |
 | Français         | 618 règles · 4 336 phrases · 310 dictées                      | cahier d'écolier   |
 | Culture générale | 322 notions · 2 209 questions · 280 leçons                    | carnet de révision |
-| Anglais          | 88 séries · 3 420 cartes · 10 dictées · 60 cours                | signalétique       |
-| Espagnol         | 86 séries · 3 350 cartes · 10 dictées · 58 cours                | signalétique       |
+| Anglais          | 102 séries · 3 980 cartes · 10 dictées · 61 cours · A1→C2       | signalétique       |
+| Espagnol         | 100 séries · 3 910 cartes · 10 dictées · 59 cours · A1→C2       | signalétique       |
 | Géographie       | 20 séries · 613 questions · 5 cartes × 4 jeux                 | atlas              |
 
 Le moteur ne sait pas ce qu'est une faute d'orthographe ni une capitale : il
@@ -153,6 +153,16 @@ pas un défaut : une matière peut vivre sans une ligne de CSS.
 géographie, qui tient sur un écran.
 
 ### Les langues
+
+Une **carte** donne jusqu'à quatre exercices — reconnaître, produire, entendre,
+prononcer — et c'est pourquoi le tableau ci-dessus compte quatre fois plus
+d'exercices que de cartes. Le chiffre qui compte pour un apprenant est celui
+des cartes : **995 en anglais, 978 en espagnol**. C'est le volume d'un B1 bien
+tenu qui mord sur le B2 ; ce n'est pas encore celui d'un C1, qui demanderait
+plusieurs milliers de mots. Les niveaux vont de A1 à **C2**, avec quatre séries
+par langue à ce dernier — le C2 n'y est pas « du C1 en plus dur » : la langue y
+cesse d'être un instrument pour devenir un objet, et l'on y apprend ce qu'une
+phrase fait en plus de ce qu'elle dit.
 
 Elles partagent une fabrique — `moduleLangue()` — et ne diffèrent que par leur
 nom, leurs accents et leur couleur. Ajouter le thaï demandera un fichier de
