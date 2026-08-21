@@ -32,6 +32,7 @@ function PrononciationVue({ question, verdict, repondre, exerciceId }: VueExerci
   const [ecoute, setEcoute] = useState<Ecoute | null>(null);
   const [partiel, setPartiel] = useState("");
   const [erreur, setErreur] = useState<string | null>(null);
+  const [panne, setPanne] = useState(false);
   const [modele, setModele] = useState<SpeechSynthesisVoice | null>(null);
   const [serveur, setServeur] = useState<EtatServeur | null>(null);
   const enCours = useRef(false);
@@ -61,7 +62,15 @@ function PrononciationVue({ question, verdict, repondre, exerciceId }: VueExerci
     setErreur(null);
   }, [question]);
 
-  const possible = reconnaissancePossible();
+  /**
+   * La reconnaissance est-elle utilisable ICI ?
+   *
+   * L'API peut exister et ne pas marcher : un Chromium compilé sans les clés
+   * de Google expose bien `webkitSpeechRecognition`, mais chaque tentative
+   * échoue sur le réseau. On bascule alors sur l'auto-évaluation, plutôt que
+   * de laisser l'utilisateur devant un bouton qui ne fait rien.
+   */
+  const possible = reconnaissancePossible() && !panne;
 
   /** Le serveur sait-il lire cette langue ? */
   const modeleServeur =
@@ -77,7 +86,11 @@ function PrononciationVue({ question, verdict, repondre, exerciceId }: VueExerci
     const session = ecouter({
       langue,
       onPartiel: setPartiel,
-      onErreur: setErreur,
+      onErreur: (m) => {
+        setErreur(m);
+        // Une panne de réseau ou de service ne se réglera pas au coup suivant.
+        if (/réseau|échoué/i.test(m)) setPanne(true);
+      },
       onFinal: (texte) => {
         enCours.current = false;
         setEcoute(null);
@@ -88,6 +101,7 @@ function PrononciationVue({ question, verdict, repondre, exerciceId }: VueExerci
     if (!session) {
       enCours.current = false;
       setErreur("La reconnaissance n’a pas pu démarrer.");
+      setPanne(true);
       return;
     }
     setEcoute(session);
@@ -119,11 +133,27 @@ function PrononciationVue({ question, verdict, repondre, exerciceId }: VueExerci
           </button>
         )}
 
+        {/* Sans reconnaissance vocale, l'exercice ne s'arrête pas là : on écoute
+            le modèle, on répète, et on se juge — le même pacte que la carte
+            mémoire. Un écran mort n'apprend rien ; une auto-évaluation, si. */}
         {!possible ? (
-          <p className="sans-voix">
-            Ce navigateur ne sait pas écouter. La reconnaissance vocale n’existe que sur Chrome et
-            Edge — sur les autres, cet exercice reste consultable mais ne peut pas être noté.
-          </p>
+          verdict ? null : (
+            <>
+              <div className="micro">
+                <button className="creux" onClick={() => repondre("")}>
+                  Je n’y arrive pas
+                </button>
+                <button className="plein" onClick={() => repondre(q.recto ?? "")}>
+                  Je l’ai bien dit
+                </button>
+              </div>
+              <p className="sans-voix">
+                Ce navigateur ne transcrit pas la parole — la reconnaissance vocale demande Chrome
+                ou Edge, et le réseau. Écoute le modèle, répète à voix haute, et juge-toi
+                honnêtement : c’est le même pacte que la carte mémoire.
+              </p>
+            </>
+          )
         ) : verdict ? null : (
           <div className="micro">
             <button className="plein" onClick={ecoute ? () => ecoute.arreter() : parler}>

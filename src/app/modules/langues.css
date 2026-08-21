@@ -26,11 +26,20 @@
   flex-wrap: wrap;
   margin-bottom: 28px;
 }
+/* Le badge de niveau.
+   En Bodoni, un « A1 » de 62 px n'a que des déliés : sur fond sombre il
+   disparaît. Il devient donc un vrai jeton — fond plein, capitales serrées,
+   monospace — qui se lit d'un mètre. */
 .lg-badge {
-  font-family: "Bodoni Moda", serif;
-  font-size: 62px;
-  line-height: 0.85;
-  color: var(--or);
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: var(--encre);
+  background: var(--or);
+  border-radius: 3px;
+  padding: 14px 18px;
   font-variant-numeric: tabular-nums;
 }
 .lg-niveau-texte { flex: 1 1 200px; max-width: 34ch; }
@@ -200,24 +209,82 @@
   color: var(--mauve);
 }
 
-/* Les écrans partagés prennent l'accent de la langue. */
+/* ── les exercices ──
+   Le papier seyès est l'identité du FRANÇAIS. Une carte d'anglais posée sur
+   une page de cahier d'écolier français est incohérente, et illisible par-
+   dessus le marché : les boutons de l'Atelier y disparaissaient. Les langues
+   ont donc leur propre surface, sombre comme le reste de leur écran. */
+
+[data-langue] .cahier {
+  background: var(--encre-2);
+  border: 1px solid var(--encre-3);
+  border-radius: 3px;
+  box-shadow: none;
+  padding: 30px 32px;
+}
+[data-langue] .cahier::before { display: none; }
+[data-langue] .marge { display: none; }
+[data-langue] .cahier .creux {
+  color: var(--lg-accent);
+  border-color: var(--encre-3);
+  background: none;
+}
+[data-langue] .cahier .creux:hover:not(:disabled) {
+  border-color: var(--lg-accent);
+  color: var(--papier);
+  background: none;
+}
+[data-langue] .cahier .plein { background: var(--lg-accent); color: var(--encre); }
+[data-langue] .cahier .plein:hover:not(:disabled) { filter: brightness(1.15); background: var(--lg-accent); }
+[data-langue] .cahier .lien, [data-langue] .cahier .legende, [data-langue] .cahier .indice {
+  color: var(--mauve);
+}
+
 [data-langue] .proposition:hover:not(:disabled) { border-color: var(--lg-accent); }
 [data-langue] .point-ligne.choisi { border-left-color: var(--lg-accent); }
+
+/* Le mot à travailler : la vedette de l'écran. */
 [data-langue] .recto {
   font-family: "Bodoni Moda", serif;
-  font-size: 30px;
-  line-height: 1.25;
-  color: #1d1836;
-  margin: 0 0 8px;
+  font-size: clamp(26px, 3.6vw, 38px);
+  line-height: 1.2;
+  color: var(--papier);
+  margin: 0 0 10px;
 }
 [data-langue] .recto.muet {
   font-family: "Karla", sans-serif;
   font-size: 15px;
-  color: #6b6280;
+  color: var(--mauve);
 }
+[data-langue] .traduction-aide { font-size: 15px; color: var(--mauve); margin: 0 0 18px; }
 [data-langue] .verso {
   font-family: "Caveat", cursive;
-  font-size: 30px;
-  color: var(--rouge);
-  margin: 16px 0 0;
+  font-size: 34px;
+  color: var(--or);
+  margin: 18px 0 0;
 }
+[data-langue] .saisie input {
+  background: var(--encre);
+  border: 1px solid var(--encre-3);
+  color: var(--craie);
+  font-family: "Bodoni Moda", serif;
+  font-size: 20px;
+  padding: 13px 16px;
+}
+[data-langue] .saisie input::placeholder { color: #6f6790; font-family: "Karla", sans-serif; font-size: 15px; }
+[data-langue] .saisie input:focus { outline: 2px solid var(--lg-accent); outline-offset: 0; border-color: transparent; }
+[data-langue] .attendu { color: var(--mauve); font-size: 15px; }
+[data-langue] .attendu b { font-family: "Caveat", cursive; font-size: 28px; font-weight: 400; }
+[data-langue] .attendu.juste b { color: var(--vert); }
+[data-langue] .attendu.rate b { color: var(--rouge); }
+[data-langue] .attendu .variantes { color: #6f6790; font-size: 13px; }
+[data-langue] .sans-voix, [data-langue] .avertissement-micro {
+  font-size: 13px;
+  color: #6f6790;
+  font-style: normal;
+  line-height: 1.6;
+  margin: 14px 0 0;
+  max-width: 62ch;
+}
+[data-langue] .partiel { font-family: "IBM Plex Mono", monospace; font-size: 14px; color: var(--lg-accent); margin: 0; }
+[data-langue] .micro { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 20px; }

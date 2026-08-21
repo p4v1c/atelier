@@ -514,3 +514,28 @@ body.coque-active {
   margin-right: 8px;
   vertical-align: 1px;
 }
+
+/* ═══════════════════════════════════════════════════════════════════════
+   CONTRASTE SUR LE PAPIER
+   ═══════════════════════════════════════════════════════════════════════
+
+   Les boutons de l'Atelier sont pensés pour l'encre violette : craie sur
+   sombre. Posés sur la page de cahier, qui est crème, ils devenaient
+   illisibles — clair sur clair. Dans le cahier, ils reprennent donc l'encre. */
+
+.cahier .creux {
+  color: #1d1836;
+  border-color: rgba(29, 24, 54, 0.3);
+  background: rgba(255, 255, 255, 0.5);
+}
+.cahier .creux:hover:not(:disabled) {
+  border-color: var(--rouge);
+  color: var(--rouge);
+  background: rgba(255, 255, 255, 0.85);
+}
+.cahier .creux:disabled { color: #6b6280; border-color: rgba(29, 24, 54, 0.16); }
+.cahier .plein { background: #1d1836; color: var(--papier); }
+.cahier .plein:hover:not(:disabled) { background: var(--rouge); }
+.cahier .lien { color: #6b6280; }
+.cahier .lien:hover { color: var(--rouge); }
+.cahier .legende, .cahier .indice { color: #6b6280; }
