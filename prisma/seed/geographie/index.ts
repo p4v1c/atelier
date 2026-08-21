@@ -1,27 +1,14 @@
 /**
  * Le contenu du module Géographie.
  *
- * Un fichier par famille, agrégé ici. Le lot s'appelle « geo-atlas » : le lot
- * d'origine, « geo-essai », a servi à prouver qu'ajouter une matière était
- * bon marché, et cette démonstration est faite.
+ * Trois séries, un seul geste : cliquer sur la carte. Le module a longtemps
+ * porté onze familles et une dizaine de types de questions ; on s'y perdait,
+ * et le catalogue faisait écran à ce que la matière a de particulier. Ce qui
+ * reste est ce qu'aucun questionnaire ne sait faire — la position.
  */
 import type { SeedSkill } from "../../../src/modules/types";
 import { GEO_CAPITALES } from "./capitales";
-import { GEO_CARTE } from "./carte";
 import { GEO_DRAPEAUX } from "./drapeaux";
-import { GEO_FRANCE } from "./france";
-import { GEO_MILIEUX } from "./milieux";
-import { GEO_POLITIQUE } from "./politique";
-import { GEO_RELIEFS } from "./reliefs";
-import { GEO_REPERES } from "./reperes";
+import { GEO_MERS } from "./mers";
 
-export const GEO_SKILLS: SeedSkill[] = [
-  ...GEO_CAPITALES,
-  ...GEO_DRAPEAUX,
-  ...GEO_RELIEFS,
-  ...GEO_POLITIQUE,
-  ...GEO_MILIEUX,
-  ...GEO_FRANCE,
-  ...GEO_REPERES,
-  ...GEO_CARTE,
-];
+export const GEO_SKILLS: SeedSkill[] = [...GEO_DRAPEAUX, ...GEO_CAPITALES, ...GEO_MERS];

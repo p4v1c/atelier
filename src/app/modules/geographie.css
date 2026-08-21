@@ -12,7 +12,9 @@
 
 [data-module="geographie"] {
   --geo-mer: #2a4a7c;
+  --geo-mer-clair: #3f6ba8;
   --geo-terre: #6fa88a;
+  --geo-terre-sourde: #5b7c6b;
   --geo-cote: #d8a44b;
   --geo-trace: #c96f4a;
 
@@ -57,11 +59,6 @@
 [data-module="geographie"] .explication { border-left-color: var(--geo-mer); }
 [data-module="geographie"] .niveau-puce { background: var(--geo-cote); }
 
-/* Les drapeaux sont des caractères : ils doivent respirer, et ne pas hériter
-   de la fonte à empattements des énoncés. */
-[data-module="geographie"] .appariement .paire .texte {
-  font-variant-emoji: emoji;
-}
 [data-module="geographie"] .enonce { font-size: 21px; }
 
 /* ═══════════════════════════════════════════════════════════════════════
@@ -139,8 +136,42 @@
   stroke: var(--exo-encre);
   stroke-width: 1.2;
 }
+/* ── Les mers ────────────────────────────────────────────────────────────
+   Une zone marine est de la même couleur que la mer : on ne la voit pas, et
+   c'est voulu. La carte ne doit pas dessiner les limites que l'on demande de
+   retrouver — sinon il suffirait de compter les cases.
+
+   Elles sont dessinées SOUS les terres. Une zone un peu large est donc rognée
+   par le dessin des pays, sans que le générateur ait à découper quoi que ce
+   soit le long des côtes. */
+.carte-monde .mer {
+  fill: var(--geo-mer);
+  stroke: none;
+  cursor: pointer;
+  transition: fill 0.12s;
+}
+.carte-monde .mer.survole { fill: var(--geo-mer-clair); }
+.carte-monde .mer.juste { fill: var(--vert); }
+.carte-monde .mer.rate { fill: var(--rouge); }
+
+/* L'eau libre : elle attrape les clics tombés à côté pour qu'ils comptent
+   comme une réponse fausse, au lieu de ne rien faire. */
+.carte-monde .ailleurs { fill: transparent; cursor: pointer; }
+
+/* Quand la question porte sur l'eau, la terre n'est plus le sujet : elle
+   s'éteint d'un ton. Sans cela, le vert d'une bonne réponse marine se confond
+   avec le vert des continents, et l'on ne voit pas ce qu'on a trouvé. */
+.carte-monde.vise-mer .pays { fill: var(--geo-terre-sourde); }
+
+/* La couche qu'on n'interroge pas reste dessinée, mais sourde : elle ne prend
+   ni le clic ni le survol, et laisse passer l'un et l'autre vers le dessous. */
+.carte-monde .inerte { pointer-events: none; }
+.carte-monde.vise-mer .pays { cursor: default; }
+
 /* Une fois répondu, la carte n'est plus un bouton. */
-.fige .carte-monde .pays { cursor: default; }
+.fige .carte-monde .pays,
+.fige .carte-monde .mer,
+.fige .carte-monde .ailleurs { cursor: default; }
 
 /* L'amorce : un drapeau, une silhouette. Elle doit se voir de loin. */
 .carte-amorce {
@@ -191,4 +222,157 @@
 
 @media (max-width: 560px) {
   .carte-amorce { font-size: 42px; }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   L'ÉCRAN UNIQUE
+   ═══════════════════════════════════════════════════════════════════════
+
+   Les autres matières ont quatre onglets, et c'est la bonne forme quand il y
+   a soixante séries à parcourir. La géographie a trois façons de lire la même
+   carte : trois portes derrière un couloir, c'était trois portes de trop.
+
+   D'où un écran sans navigation. Trois cartouches côte à côte, chacune se
+   suffisant — ce qu'elle est, où elle en est, et un bouton qui lance la partie
+   sans passer par un catalogue. */
+
+.atlas {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  padding: 34px 30px 30px;
+}
+
+.atlas-tete h2 {
+  margin: 0;
+  font-family: "Bodoni Moda", serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--papier);
+  letter-spacing: -0.01em;
+}
+.atlas-tete p {
+  margin: 8px 0 0;
+  max-width: 62ch;
+  font-size: 14.5px;
+  color: var(--mauve-2);
+}
+
+.atlas-modes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  align-items: stretch;
+}
+
+.mode-carte {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  padding: 22px 20px 20px;
+  background: var(--encre-2);
+  border: 1px solid var(--encre-3);
+  /* Le filet d'or à gauche : la même marque que l'onglet actif et le lien de
+     matière. Trois endroits, une seule idée. */
+  border-left: 3px solid var(--geo-cote);
+  border-radius: 0 3px 3px 0;
+}
+.mode-carte.due { background: var(--encre-3); }
+
+.mode-carte .embleme svg {
+  width: 30px;
+  height: 30px;
+  fill: none;
+  stroke: var(--geo-cote);
+  stroke-width: 1.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.mode-carte .embleme svg .noyau { fill: var(--geo-cote); stroke: none; }
+
+.mode-carte h3 {
+  margin: 4px 0 0;
+  font-family: "Bodoni Moda", serif;
+  font-size: 21px;
+  font-weight: 400;
+  color: var(--papier);
+}
+.mode-carte .dit {
+  margin: 0;
+  font-size: 14px;
+  color: var(--craie);
+}
+
+.mode-carte .chiffre {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: var(--mauve-2);
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.mode-carte .chiffre b {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--papier);
+}
+.mode-carte .fanion {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--encre);
+  background: var(--geo-cote);
+  padding: 2px 7px;
+  border-radius: 2px;
+}
+
+.mode-carte .piste {
+  display: block;
+  height: 3px;
+  background: var(--encre);
+  margin-top: 2px;
+}
+.mode-carte .piste i { display: block; height: 100%; background: var(--geo-terre); transition: width 0.5s; }
+
+/* --mauve-3 ne passe pas le seuil sur ce fond : 3,67:1 à douze pixels. Le ton
+   au-dessus, oui. La hiérarchie se tient ici par la taille, pas par la
+   couleur. */
+.mode-carte .legende { margin: 0; font-size: 12px; color: var(--mauve-2); }
+
+/* Le bouton ferme la cartouche : il pousse le reste vers le haut, si bien que
+   les trois boutons s'alignent même quand les textes n'ont pas la même
+   longueur. */
+.mode-carte .plein { align-self: flex-start; }
+.mode-carte .plein:disabled { opacity: 0.45; cursor: default; }
+
+/* L'astuce pousse tout le reste vers le haut : les trois boutons s'alignent
+   alors même que les textes n'ont pas la même longueur. */
+.mode-carte .astuce {
+  margin: 14px 0 0;
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid var(--encre-3);
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: var(--mauve-2);
+}
+
+.atlas-pied {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--encre-3);
+  font-size: 12.5px;
+  color: var(--mauve-2);
+}
+.atlas-pied b { font-family: "IBM Plex Mono", monospace; color: var(--craie); font-weight: 400; }
+.atlas-pied .source { color: var(--mauve-2); text-align: right; }
+
+@media (max-width: 900px) {
+  .atlas-modes { grid-template-columns: 1fr; }
+  .atlas-pied { flex-direction: column; gap: 6px; }
+  .atlas-pied .source { text-align: left; }
 }

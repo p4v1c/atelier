@@ -35,8 +35,14 @@ export type PresentationModule = {
   /** Sous la marque : la nature de la matière, en petites capitales. */
   sousMarque?: string;
 
-  /** Les onglets de l'en-tête. Sans eux, les onglets génériques. */
+  /**
+   * Les onglets de l'en-tête. Sans eux, les onglets génériques ; un tableau
+   * VIDE en supprime la barre — pour un module qui tient sur un seul écran.
+   */
   onglets?: Onglet[];
+
+  /** Le nom de l'écran d'accueil dans le fil d'Ariane. « Aujourd'hui » sinon. */
+  nomAccueil?: string;
 
   /**
    * Écrans propres au module. Chacun est facultatif : ce qui manque retombe

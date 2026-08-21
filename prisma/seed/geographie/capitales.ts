@@ -1,295 +1,85 @@
 /**
- * Géographie — les capitales, continent par continent.
+ * Géographie — de la capitale au pays.
  *
- * Une capitale se retient mal seule et bien par contraste : c'est en
- * départageant Ljubljana de Bratislava, Nairobi de Kampala, qu'on les fixe.
- * D'où la place de l'appariement dans ces notions.
+ * Savoir que Lima est la capitale du Pérou sans savoir où est le Pérou, c'est
+ * connaître une liste, pas une carte. La série pose donc la question dans ce
+ * sens-là : on donne la ville, on clique le pays.
+ *
+ * Ici la consigne PEUT nommer le pays — elle ne le fait pas, mais rien ne
+ * l'interdirait, puisqu'il n'y a pas d'amorce. C'est la formulation qui tient
+ * l'exigence : « Lima est la capitale de quel pays ? » et non « clique sur le
+ * Pérou ».
  */
 import type { SeedSkill } from "../../../src/modules/types";
-import { q, relie } from "./commun";
+import { pays } from "./commun";
+
+/** [carte, code ISO numérique, nom sur le fond, capitale, ce qu'on apprend] */
+type Ligne = [string, string, string, string, string, (1 | 2 | 3)?];
+
+const CAPITALES: Ligne[] = [
+  ["europe", "620", "Portugal", "Lisbonne", "Sur l'estuaire du Tage, face à l'Atlantique. Le tremblement de terre de 1755 l'a détruite aux trois quarts et a fait reconstruire son centre en damier.", 1],
+  ["europe", "616", "Pologne", "Varsovie", "Sur la Vistule. Rasée à plus de quatre-vingts pour cent en 1944, sa vieille ville a été rebâtie à l'identique d'après des tableaux du XVIIIᵉ siècle.", 2],
+  ["europe", "300", "Grèce", "Athènes", "Habitée sans interruption depuis plus de trois mille ans. Elle n'est capitale que depuis 1834 : la première capitale du royaume grec fut Nauplie.", 1],
+  ["europe", "40", "Autriche", "Vienne", "Sur le Danube, au débouché des Alpes. Elle a été assiégée deux fois par les Ottomans, en 1529 et en 1683 — c'est la limite de leur avancée en Europe.", 2],
+  ["europe", "756", "Suisse", "Berne", "Ni la plus grande ville, ni la plus riche : choisie en 1848 comme compromis entre Zurich l'alémanique et Genève la francophone.", 2],
+  ["europe", "578", "Norvège", "Oslo", "Au fond d'un fjord de cent kilomètres. Elle s'est appelée Christiania pendant trois siècles, du nom d'un roi danois, avant de reprendre son nom en 1925.", 2],
+  ["europe", "246", "Finlande", "Helsinki", "Sur le golfe de Finlande, en face de Tallinn. Sa rade gèle chaque hiver, et des brise-glaces y tiennent le port ouvert toute l'année.", 2],
+  ["europe", "642", "Roumanie", "Bucarest", "Sur la plaine du Danube. Son palais du Parlement, bâti par Ceaușescu, est le bâtiment administratif le plus lourd du monde.", 2],
+  ["europe", "191", "Croatie", "Zagreb", "À l'intérieur des terres, loin de la côte dalmate à laquelle on associe le pays — deux Croaties que trois heures de route séparent.", 3],
+  ["europe", "372", "Irlande", "Dublin", "Sur la mer d'Irlande, fondée par les Vikings au IXᵉ siècle. Son nom irlandais, Baile Átha Cliath, n'a rien à voir avec le nom anglais.", 2],
+  ["europe", "203", "Tchéquie", "Prague", "Sur la Vltava, au centre du bassin de Bohême. Capitale du Saint-Empire sous Charles IV, elle en garde une université fondée en 1348.", 2],
+  ["europe", "100", "Bulgarie", "Sofia", "Au pied du mont Vitocha, à cinq cents mètres d'altitude. C'est l'une des plus anciennes villes d'Europe encore habitées.", 3],
+  ["europe", "428", "Lettonie", "Riga", "Sur la Baltique, à l'embouchure de la Daugava. La plus grande ville des trois États baltes, et la plus grande concentration d'Art nouveau d'Europe.", 3],
+  ["europe", "792", "Turquie", "Ankara", "En Anatolie centrale, loin de la mer. Atatürk l'a préférée à Istanbul en 1923 : trop exposée, trop ottomane, trop tournée vers l'Europe.", 2],
+  ["europe", "56", "Belgique", "Bruxelles", "Officiellement bilingue, dans une enclave néerlandophone. Elle abrite la Commission européenne et le Conseil, ce qui lui vaut son autre titre.", 1],
+
+  ["afrique", "818", "Égypte", "Le Caire", "Sur le Nil, à la pointe du delta. La plus grande agglomération d'Afrique, et l'une des plus denses du monde.", 1],
+  ["afrique", "404", "Kenya", "Nairobi", "À mille sept cents mètres d'altitude, ce qui lui donne un climat tempéré à deux degrés de l'équateur. Un parc national commence à sept kilomètres du centre.", 2],
+  ["afrique", "504", "Maroc", "Rabat", "Sur l'Atlantique, à l'embouchure du Bouregreg. Ni Casablanca la plus peuplée, ni Marrakech la plus visitée : le protectorat français l'a choisie en 1912.", 2],
+  ["afrique", "566", "Nigéria", "Abuja", "Construite de toutes pièces à partir de 1980, au centre géographique du pays, pour remplacer Lagos — trop au sud, trop peuplée, trop marquée.", 3],
+  ["afrique", "231", "Éthiopie", "Addis-Abeba", "À deux mille cinq cents mètres, la troisième capitale la plus haute du monde. Siège de l'Union africaine.", 2],
+  ["afrique", "686", "Sénégal", "Dakar", "Sur la presqu'île du Cap-Vert, le point le plus occidental du continent africain. En face, l'île de Gorée.", 2],
+  ["afrique", "288", "Ghana", "Accra", "Sur le golfe de Guinée. Le méridien de Greenwich passe à quelques kilomètres à l'est : la ville est presque à longitude zéro.", 3],
+  ["afrique", "12", "Algérie", "Alger", "Sur la Méditerranée, adossée aux collines du Sahel algérois. Sa casbah, bâtie en amphithéâtre, domine la baie.", 1],
+  ["afrique", "710", "Afrique du Sud", "Pretoria", "Capitale administrative seulement : Le Cap est capitale législative, Bloemfontein capitale judiciaire. Le pays en compte trois, ce qui est unique.", 3],
+  ["afrique", "450", "Madagascar", "Antananarivo", "Sur les hautes terres centrales, à mille deux cents mètres, loin des côtes — ce qui a longtemps protégé le royaume merina.", 3],
+
+  ["asie", "392", "Japon", "Tokyo", "Sur la baie du même nom. Elle s'appelait Edo jusqu'en 1868 ; l'empereur y a transféré sa cour depuis Kyoto, et le nom signifie « capitale de l'est ».", 1],
+  ["asie", "410", "Corée du Sud", "Séoul", "Sur le fleuve Han, à quarante kilomètres de la frontière nord — une capitale à portée d'artillerie de son voisin.", 1],
+  ["asie", "156", "Chine", "Pékin", "Son nom signifie « capitale du nord », par opposition à Nankin, « capitale du sud ». La Cité interdite en occupe le centre.", 1],
+  ["asie", "356", "Inde", "New Delhi", "Construite par les Britanniques à partir de 1911 à côté de la vieille Delhi, dont elle est aujourd'hui un district.", 2],
+  ["asie", "704", "Viêt Nam", "Hanoï", "Sur le fleuve Rouge, dans le nord. Le sud a Hô Chi Minh-Ville, plus peuplée : la capitale politique n'est pas la capitale économique.", 2],
+  ["asie", "764", "Thaïlande", "Bangkok", "Sur le Chao Phraya. Son nom cérémoniel complet, en thaï, est le plus long nom de lieu du monde.", 1],
+  ["asie", "364", "Iran", "Téhéran", "Au pied de l'Elbourz, à mille deux cents mètres. Elle n'est capitale que depuis 1786 : Ispahan et Chiraz l'ont précédée.", 2],
+  ["asie", "682", "Arabie Saoudite", "Riyad", "Au centre du plateau du Nedjd, en plein désert, à sept cents kilomètres de toute côte. Son nom signifie « les jardins ».", 2],
+  ["asie", "524", "Népal", "Katmandou", "Dans une vallée himalayenne à mille trois cents mètres. Le séisme de 2015 y a détruit une partie des temples classés.", 3],
+  ["asie", "360", "Indonésie", "Jakarta", "Sur l'île de Java. Elle s'enfonce de plusieurs centimètres par an, ce qui a décidé le pays à bâtir une nouvelle capitale à Bornéo.", 2],
+  ["asie", "398", "Kazakhstan", "Astana", "Sortie de la steppe en 1997, à la place d'Akmola. L'une des capitales les plus froides du monde, avec des hivers à moins quarante.", 3],
+  ["asie", "496", "Mongolie", "Oulan-Bator", "La capitale la plus froide du monde en moyenne annuelle. Près de la moitié de la population du pays y vit.", 3],
+
+  ["ameriques", "76", "Brésil", "Brasília", "Bâtie en quarante et un mois au milieu du plateau central, inaugurée en 1960, pour tirer le pays vers l'intérieur. Son plan a la forme d'un avion.", 2],
+  ["ameriques", "32", "Argentine", "Buenos Aires", "Sur le Río de la Plata, un estuaire si large qu'on ne voit pas l'autre rive. Un tiers de la population du pays vit dans son agglomération.", 1],
+  ["ameriques", "124", "Canada", "Ottawa", "Choisie par la reine Victoria en 1857, entre Toronto l'anglophone et Montréal la francophone — et à bonne distance de la frontière américaine.", 2],
+  ["ameriques", "604", "Pérou", "Lima", "Sur la côte désertique du Pacifique. Il n'y pleut presque jamais : quelques millimètres par an, compensés par un brouillard permanent l'hiver.", 1],
+  ["ameriques", "170", "Colombie", "Bogota", "Sur un plateau andin à deux mille six cents mètres, à quatre degrés de l'équateur : quinze degrés toute l'année, sans saison chaude.", 2],
+  ["ameriques", "152", "Chili", "Santiago", "Dans une cuvette entre la cordillère des Andes et la cordillère de la Côte — d'où une pollution hivernale que le relief empêche d'évacuer.", 2],
+  ["ameriques", "68", "Bolivie", "La Paz", "Siège du gouvernement à trois mille six cents mètres, la plus haute du monde à ce titre. Sucre reste la capitale constitutionnelle.", 3],
+  ["ameriques", "858", "Uruguay", "Montevideo", "Sur le Río de la Plata, en face de Buenos Aires. Plus de la moitié des habitants du pays y vivent.", 3],
+];
 
 export const GEO_CAPITALES: SeedSkill[] = [
   {
-    slug: "geo-capitales-europe",
+    slug: "geo-capitales",
     category: "Capitales",
-    title: "Capitales d'Europe",
+    title: "Les capitales, sur la carte",
     statement:
-      "Les capitales qu'on confond : celles des pays baltes, des Balkans, et les quelques États où la plus grande ville n'est pas le siège du pouvoir.",
-    tip: "Quand un pays a une grande ville célèbre, méfie-toi : ce n'est pas toujours elle la capitale. Berne, Ankara, Ottawa, Canberra suivent toutes cette règle.",
+      "Quarante-cinq capitales, posées dans l'autre sens : on donne la ville, on cherche le pays. C'est la question que les listes n'apprennent pas à traiter.",
+    tip: "Beaucoup de capitales ne sont pas la plus grande ville du pays. Quand une ville vous surprend, c'est souvent qu'elle a été choisie pour arbitrer entre deux autres.",
     difficulty: 2,
-    exercises: [
-      q(
-        "Quelle est la capitale de la Suisse ?",
-        ["Zurich", "Genève", "Berne", "Bâle"],
-        2,
-        "Berne. Zurich est la plus grande ville et Genève la plus internationale, mais le siège fédéral est à Berne depuis 1848. La Suisse n'a d'ailleurs pas de capitale au sens constitutionnel : Berne est officiellement la ville fédérale."
-      ),
-      q(
-        "Quelle est la capitale de la Turquie ?",
-        ["Istanbul", "Ankara", "Izmir", "Bursa"],
-        1,
-        "Ankara, choisie par Mustafa Kemal en 1923 pour marquer la rupture avec l'Empire ottoman et pour son emplacement au centre de l'Anatolie. Istanbul reste de très loin la plus peuplée."
-      ),
-      q(
-        "Quelle est la capitale de la Slovénie ?",
-        ["Zagreb", "Bratislava", "Ljubljana", "Sarajevo"],
-        2,
-        "Ljubljana. Zagreb est croate, Bratislava slovaque : la confusion entre Slovénie et Slovaquie est si tenace que leurs ambassades ont longtemps réexpédié le courrier de l'autre."
-      ),
-      q(
-        "Quelle est la capitale des Pays-Bas ?",
-        ["La Haye", "Rotterdam", "Amsterdam", "Utrecht"],
-        2,
-        "Amsterdam est la capitale inscrite dans la Constitution, mais le gouvernement, les États généraux, la Cour suprême et le roi siègent à La Haye. Le cas est unique en Europe."
-      ),
-      q(
-        "Quelle est la capitale de la Lettonie ?",
-        ["Vilnius", "Riga", "Tallinn", "Kaunas"],
-        1,
-        "Riga, et c'est aussi la plus grande ville de la Baltique. Du nord au sud : Tallinn en Estonie, Riga en Lettonie, Vilnius en Lituanie — l'ordre alphabétique inverse aide à s'en souvenir."
-      ),
-      q(
-        "Quelle est la capitale de la Bosnie-Herzégovine ?",
-        ["Belgrade", "Podgorica", "Sarajevo", "Skopje"],
-        2,
-        "Sarajevo. Belgrade est serbe, Podgorica monténégrine, Skopje macédonienne. Les quatre capitales tiennent dans un rayon de trois cents kilomètres."
-      ),
-      relie(
-        "Relie chaque pays balte ou nordique à sa capitale.",
-        [
-          ["Estonie", "Tallinn"],
-          ["Lituanie", "Vilnius"],
-          ["Finlande", "Helsinki"],
-          ["Norvège", "Oslo"],
-          ["Danemark", "Copenhague"],
-        ],
-        "Helsinki et Tallinn se font face de part et d'autre du golfe de Finlande : quatre-vingts kilomètres, deux heures de ferry."
-      ),
-      relie(
-        "Relie chaque pays des Balkans à sa capitale.",
-        [
-          ["Croatie", "Zagreb"],
-          ["Serbie", "Belgrade"],
-          ["Albanie", "Tirana"],
-          ["Bulgarie", "Sofia"],
-          ["Roumanie", "Bucarest"],
-        ],
-        "Belgrade et Bucarest sont toutes deux sur le Danube ou tout près : le fleuve traverse ou borde dix pays, plus qu'aucun autre au monde.",
-        3
-      ),
-    ],
-  },
-
-  {
-    slug: "geo-capitales-afrique",
-    category: "Capitales",
-    title: "Capitales d'Afrique",
-    statement:
-      "Le continent où la capitale est le plus souvent une ville créée pour l'être — et où la plus grande ville est le plus souvent une autre.",
-    tip: "Plusieurs pays africains ont déplacé leur capitale vers l'intérieur : Abuja, Dodoma, Yamoussoukro. La ville côtière historique reste la plus peuplée.",
-    difficulty: 2,
-    exercises: [
-      q(
-        "Quelle est la capitale du Nigeria ?",
-        ["Lagos", "Abuja", "Kano", "Ibadan"],
-        1,
-        "Abuja, capitale depuis 1991. Elle a été bâtie au centre du pays, sur un site neutre entre le nord musulman et le sud chrétien. Lagos, sur la côte, reste la plus grande ville d'Afrique."
-      ),
-      q(
-        "Quelle est la capitale de la Tanzanie ?",
-        ["Dar es Salaam", "Dodoma", "Arusha", "Zanzibar"],
-        1,
-        "Dodoma, désignée en 1974 et effectivement siège du gouvernement depuis 1996. Dar es Salaam, sur l'océan Indien, garde l'activité économique et la population."
-      ),
-      q(
-        "Quelle est la capitale de l'Afrique du Sud ?",
-        ["Le Cap", "Johannesburg", "Pretoria", "Les trois se partagent le rôle"],
-        3,
-        "Le pays a trois capitales : Pretoria pour l'exécutif, Le Cap pour le Parlement, Bloemfontein pour la Cour suprême d'appel. Johannesburg, la plus grande ville, n'en est aucune."
-      ),
-      q(
-        "Quelle est la capitale du Maroc ?",
-        ["Casablanca", "Marrakech", "Rabat", "Fès"],
-        2,
-        "Rabat. Casablanca est le poumon économique et la plus peuplée, Marrakech la plus visitée, Fès l'ancienne capitale impériale."
-      ),
-      q(
-        "Quelle est la capitale du Kenya ?",
-        ["Mombasa", "Nairobi", "Kisumu", "Nakuru"],
-        1,
-        "Nairobi, née d'un dépôt ferroviaire en 1899 sur la ligne Mombasa-Kampala. Elle est aujourd'hui l'un des sièges africains des Nations unies."
-      ),
-      q(
-        "Quelle est la capitale du Sénégal ?",
-        ["Saint-Louis", "Thiès", "Dakar", "Touba"],
-        2,
-        "Dakar, sur la presqu'île du Cap-Vert — le point le plus occidental du continent africain. Saint-Louis fut la capitale de l'Afrique-Occidentale française jusqu'en 1902."
-      ),
-      relie(
-        "Relie chaque pays d'Afrique de l'Est à sa capitale.",
-        [
-          ["Éthiopie", "Addis-Abeba"],
-          ["Ouganda", "Kampala"],
-          ["Rwanda", "Kigali"],
-          ["Soudan", "Khartoum"],
-          ["Érythrée", "Asmara"],
-        ],
-        "Addis-Abeba abrite le siège de l'Union africaine. Khartoum est bâtie au confluent du Nil Blanc et du Nil Bleu — son nom viendrait de la trompe d'éléphant que dessine la langue de terre."
-      ),
-      relie(
-        "Relie chaque pays d'Afrique de l'Ouest à sa capitale.",
-        [
-          ["Ghana", "Accra"],
-          ["Mali", "Bamako"],
-          ["Côte d'Ivoire", "Yamoussoukro"],
-          ["Burkina Faso", "Ouagadougou"],
-          ["Guinée", "Conakry"],
-        ],
-        "Yamoussoukro est capitale depuis 1983, mais Abidjan garde le gouvernement et les ambassades : le déplacement n'a jamais été mené à son terme.",
-        3
-      ),
-    ],
-  },
-
-  {
-    slug: "geo-capitales-asie",
-    category: "Capitales",
-    title: "Capitales d'Asie",
-    statement:
-      "Le continent le plus peuplé, et celui où plusieurs capitales ont été déplacées récemment — parfois avec un nom neuf, parfois avant même d'être construites.",
-    tip: "Une capitale peut changer : le Kazakhstan a rebaptisé la sienne deux fois en vingt ans, le Myanmar a bâti la sienne de toutes pièces, l'Indonésie déplace la sienne.",
-    difficulty: 2,
-    exercises: [
-      q(
-        "Quelle est la capitale du Kazakhstan ?",
-        ["Almaty", "Astana", "Chymkent", "Karaganda"],
-        1,
-        "Astana, capitale depuis 1997. Elle s'est appelée Astana, puis Noursoultan de 2019 à 2022, puis de nouveau Astana. Almaty, l'ancienne capitale, reste la plus grande ville."
-      ),
-      q(
-        "Quelle est la capitale du Myanmar ?",
-        ["Rangoun", "Naypyidaw", "Mandalay", "Bago"],
-        1,
-        "Naypyidaw, bâtie ex nihilo et proclamée capitale en 2005. Ses avenues à vingt voies restent presque vides ; Rangoun garde la population et l'activité."
-      ),
-      q(
-        "Quelle est la capitale du Sri Lanka ?",
-        ["Colombo", "Kandy", "Sri Jayawardenepura Kotte", "Galle"],
-        2,
-        "Sri Jayawardenepura Kotte, siège du Parlement depuis 1985. Colombo reste la capitale économique et le siège de la plupart des ministères — le partage est plus théorique que réel."
-      ),
-      q(
-        "Quelle est la capitale du Viêt Nam ?",
-        ["Hô Chi Minh-Ville", "Hanoï", "Da Nang", "Hué"],
-        1,
-        "Hanoï, au nord. Hô Chi Minh-Ville, l'ancienne Saïgon, est plus peuplée et plus active économiquement. Hué fut la capitale impériale jusqu'en 1945."
-      ),
-      q(
-        "Quelle est la capitale des Philippines ?",
-        ["Quezon City", "Manille", "Cebu", "Davao"],
-        1,
-        "Manille. Quezon City, voisine et plus peuplée, fut capitale de 1948 à 1976 — les deux appartiennent aujourd'hui à la même agglomération, Metro Manila."
-      ),
-      q(
-        "Quelle est la capitale de l'Ouzbékistan ?",
-        ["Samarcande", "Boukhara", "Tachkent", "Khiva"],
-        2,
-        "Tachkent. Samarcande et Boukhara sont les villes de la route de la soie, bien plus célèbres, mais le pouvoir est à Tachkent depuis l'époque russe."
-      ),
-      relie(
-        "Relie chaque pays d'Asie du Sud-Est à sa capitale.",
-        [
-          ["Thaïlande", "Bangkok"],
-          ["Malaisie", "Kuala Lumpur"],
-          ["Cambodge", "Phnom Penh"],
-          ["Laos", "Vientiane"],
-          ["Indonésie", "Jakarta"],
-        ],
-        "L'Indonésie a voté en 2022 le transfert de sa capitale vers Nusantara, à Bornéo : Jakarta s'enfonce de plusieurs centimètres par an sous le poids de ses immeubles et du pompage de sa nappe."
-      ),
-      relie(
-        "Relie chaque pays d'Asie centrale ou du Caucase à sa capitale.",
-        [
-          ["Géorgie", "Tbilissi"],
-          ["Arménie", "Erevan"],
-          ["Azerbaïdjan", "Bakou"],
-          ["Kirghizistan", "Bichkek"],
-          ["Tadjikistan", "Douchanbé"],
-        ],
-        "Bakou est la plus grande ville de la Caspienne, et son centre historique est à vingt-huit mètres sous le niveau de la mer.",
-        3
-      ),
-    ],
-  },
-
-  {
-    slug: "geo-capitales-ameriques",
-    category: "Capitales",
-    title: "Capitales des Amériques et d'Océanie",
-    statement:
-      "Deux continents où la capitale est presque toujours un compromis entre deux grandes villes rivales — Ottawa, Canberra, Brasília, Washington.",
-    tip: "Quand deux villes se disputaient le rôle, on en a souvent choisi une troisième, plus petite et neutre. C'est la règle des jeunes fédérations.",
-    difficulty: 2,
-    exercises: [
-      q(
-        "Quelle est la capitale du Canada ?",
-        ["Toronto", "Montréal", "Ottawa", "Vancouver"],
-        2,
-        "Ottawa, choisie par la reine Victoria en 1857 précisément parce qu'elle n'était ni Toronto ni Montréal, et parce qu'elle se tenait sur la frontière entre le Haut et le Bas-Canada."
-      ),
-      q(
-        "Quelle est la capitale de l'Australie ?",
-        ["Sydney", "Melbourne", "Canberra", "Brisbane"],
-        2,
-        "Canberra, dessinée à partir de rien entre 1913 et 1927, à mi-chemin de Sydney et Melbourne, qui se disputaient le titre. Le compromis a coûté vingt ans de construction."
-      ),
-      q(
-        "Quelle est la capitale du Brésil ?",
-        ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador"],
-        2,
-        "Brasília, inaugurée en 1960 sur un plateau vide du centre du pays pour tirer le peuplement vers l'intérieur. Rio fut capitale jusque-là, São Paulo reste la plus peuplée."
-      ),
-      q(
-        "Quelle est la capitale de la Bolivie ?",
-        ["La Paz", "Sucre", "Santa Cruz", "Cochabamba"],
-        1,
-        "Sucre est la capitale constitutionnelle et le siège de la Cour suprême. La Paz abrite le gouvernement et le Parlement, et se trouve à 3 640 mètres — le siège de gouvernement le plus haut du monde."
-      ),
-      q(
-        "Quelle est la capitale de la Nouvelle-Zélande ?",
-        ["Auckland", "Wellington", "Christchurch", "Dunedin"],
-        1,
-        "Wellington, à la pointe sud de l'île du Nord, choisie en 1865 pour son emplacement plus central. Auckland, qui fut capitale avant elle, reste trois fois plus peuplée."
-      ),
-      q(
-        "Quelle est la capitale de l'Équateur ?",
-        ["Guayaquil", "Quito", "Cuenca", "Manta"],
-        1,
-        "Quito, à 2 850 mètres et à vingt-cinq kilomètres de l'équateur. Guayaquil, sur la côte, est le premier port et la ville la plus peuplée."
-      ),
-      relie(
-        "Relie chaque pays d'Amérique centrale à sa capitale.",
-        [
-          ["Guatemala", "Guatemala"],
-          ["Costa Rica", "San José"],
-          ["Panama", "Panama"],
-          ["Nicaragua", "Managua"],
-          ["Honduras", "Tegucigalpa"],
-        ],
-        "Deux de ces pays donnent leur nom à leur capitale — Guatemala et Panama. Le cas est fréquent en Amérique centrale et rare ailleurs."
-      ),
-      relie(
-        "Relie chaque pays d'Amérique du Sud à sa capitale.",
-        [
-          ["Pérou", "Lima"],
-          ["Chili", "Santiago"],
-          ["Colombie", "Bogota"],
-          ["Uruguay", "Montevideo"],
-          ["Paraguay", "Asuncion"],
-        ],
-        "Lima, Santiago et Bogota sont toutes trois des fondations espagnoles du XVIᵉ siècle. Bogota culmine à 2 640 mètres, Lima est au niveau de la mer.",
-        3
-      ),
-    ],
+    exercises: CAPITALES.map(([region, cible, nom, ville, explication, difficulty]) =>
+      pays(region, cible, nom, `${ville} est la capitale de quel pays ? Clique dessus.`, explication, {
+        difficulty,
+      })
+    ),
   },
 ];

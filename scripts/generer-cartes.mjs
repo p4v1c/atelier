@@ -139,6 +139,240 @@ const REGIONS = {
   },
 };
 
+/**
+ * Les mers et les océans.
+ *
+ * Ils ne viennent PAS de Natural Earth : le paquet ne distribue que les
+ * terres, et aucun paquet npm ne redistribue ses polygones marins. Ces zones
+ * sont donc écrites ici, à la main, et c'est un choix qu'il faut assumer à
+ * voix haute.
+ *
+ * Une frontière terrestre inventée serait un mensonge : le tracé du Portugal
+ * est un fait. Les limites d'une mer, non. Elles sont CONVENTIONNELLES —
+ * l'Organisation hydrographique internationale les fixe par des lignes droites
+ * entre des caps, et les cartes ne s'accordent pas toutes. Ce que ces zones
+ * approchent est une convention, pas un contour ; l'exercice ne demande donc
+ * pas de suivre un rivage au pixel, mais de savoir OÙ se trouve une mer.
+ *
+ * Deux règles tiennent l'ensemble honnête. Les zones ne se chevauchent jamais,
+ * sans quoi un clic aurait deux bonnes réponses. Et elles passent SOUS les
+ * terres : le dessin des pays les recouvre, si bien qu'une zone un peu large
+ * ne déborde jamais visiblement sur un continent.
+ */
+const MERS = [
+  {
+    id: "mediterranee",
+    nom: "Mer Méditerranée",
+    regions: ["europe", "afrique", "asie", "monde"],
+    zone: [[[-6, 35], [-6, 44], [4, 44], [13, 46], [19, 46], [26, 41], [30, 37], [36, 37], [36, 31], [20, 31], [10, 32]]],
+  },
+  {
+    id: "mer-du-nord",
+    nom: "Mer du Nord",
+    regions: ["europe"],
+    zone: [[[-4, 51], [-4, 61], [8, 61], [9, 57], [8, 53.5], [1, 51]]],
+  },
+  {
+    id: "mer-baltique",
+    nom: "Mer Baltique",
+    regions: ["europe"],
+    zone: [[[10, 54], [10, 60], [16, 66], [25, 66], [30, 60], [21, 53.5]]],
+  },
+  {
+    id: "la-manche",
+    nom: "La Manche",
+    regions: ["europe"],
+    zone: [[[-6, 48.2], [-6, 51], [2, 51.8], [2, 49.2]]],
+  },
+  {
+    id: "mer-noire",
+    nom: "Mer Noire",
+    regions: ["europe", "asie"],
+    zone: [[[27, 40.5], [27, 47], [42, 47], [42, 40.5]]],
+  },
+  {
+    id: "mer-de-norvege",
+    nom: "Mer de Norvège",
+    regions: ["europe"],
+    zone: [[[-6, 63], [-6, 71.5], [22, 71.5], [18, 68], [8, 63]]],
+  },
+  {
+    id: "mer-rouge",
+    nom: "Mer Rouge",
+    regions: ["afrique", "asie"],
+    zone: [[[32.2, 29.5], [35.5, 29.5], [44, 12.8], [43, 11.5], [37, 13.5], [32.2, 26]]],
+  },
+  {
+    id: "golfe-de-guinee",
+    nom: "Golfe de Guinée",
+    regions: ["afrique"],
+    zone: [[[-5, -6], [-5, 6], [9, 6], [9, -6]]],
+  },
+  {
+    id: "canal-du-mozambique",
+    nom: "Canal du Mozambique",
+    regions: ["afrique"],
+    zone: [[[34, -26], [34, -11], [46, -11], [46, -26]]],
+  },
+  {
+    id: "golfe-persique",
+    nom: "Golfe Persique",
+    regions: ["asie"],
+    zone: [[[47.5, 29], [51, 31], [57, 26], [56, 23.5], [50, 26.5]]],
+  },
+  {
+    id: "mer-caspienne",
+    nom: "Mer Caspienne",
+    regions: ["asie"],
+    zone: [[[46.5, 36.5], [46.5, 47], [55, 47], [55, 36.5]]],
+  },
+  {
+    id: "mer-d-arabie",
+    nom: "Mer d'Arabie",
+    regions: ["asie"],
+    zone: [[[52, 3], [52, 21], [57, 22], [70, 25], [76, 8], [62, 2]]],
+  },
+  {
+    id: "golfe-du-bengale",
+    nom: "Golfe du Bengale",
+    regions: ["asie"],
+    zone: [[[78, 3], [80, 22], [94, 22], [97, 5]]],
+  },
+  {
+    id: "mer-de-chine-meridionale",
+    nom: "Mer de Chine méridionale",
+    regions: ["asie"],
+    zone: [[[105, -3], [105, 22], [122, 22], [120, 4], [112, -3]]],
+  },
+  {
+    id: "mer-de-chine-orientale",
+    nom: "Mer de Chine orientale",
+    regions: ["asie"],
+    zone: [[[118, 24], [120, 32.5], [131, 32.5], [129, 24]]],
+  },
+  {
+    id: "mer-jaune",
+    nom: "Mer Jaune",
+    regions: ["asie"],
+    zone: [[[118, 33.5], [118, 41], [126, 41], [126, 33.5]]],
+  },
+  {
+    id: "mer-du-japon",
+    nom: "Mer du Japon",
+    regions: ["asie"],
+    zone: [[[128, 34], [128, 46], [142, 46], [141, 34]]],
+  },
+  {
+    id: "mer-des-caraibes",
+    nom: "Mer des Caraïbes",
+    regions: ["ameriques"],
+    zone: [[[-88, 9], [-88, 21], [-60, 19], [-60, 9]]],
+  },
+  {
+    id: "golfe-du-mexique",
+    nom: "Golfe du Mexique",
+    regions: ["ameriques"],
+    zone: [[[-97, 18], [-97, 30.5], [-81, 30.5], [-81, 22], [-90, 18]]],
+  },
+  {
+    id: "baie-d-hudson",
+    nom: "Baie d'Hudson",
+    regions: ["ameriques"],
+    zone: [[[-95, 51], [-95, 66], [-76, 66], [-76, 51]]],
+  },
+  {
+    id: "mer-de-bering",
+    nom: "Mer de Béring",
+    regions: ["ameriques"],
+    zone: [[[-169.5, 52.5], [-169.5, 65], [-158, 65], [-162, 52.5]]],
+  },
+  {
+    id: "ocean-atlantique",
+    nom: "Océan Atlantique",
+    regions: ["europe", "afrique", "ameriques", "monde"],
+    parRegion: {
+      europe: [[[-25, 34], [-25, 63], [-14, 63], [-13, 55], [-10, 52], [-10, 44], [-9, 36], [-16, 34]]],
+      afrique: [[[-20, -36], [-20, -4], [-8, -4], [5, -24], [14, -36]]],
+      ameriques: [[[-58, -56], [-58, 2], [-50, 10], [-58, 20], [-70, 33], [-70, 44], [-56, 48], [-44, 58], [-34, 62], [-34, -56]]],
+      monde: [[[-65, -55], [-65, 8], [-80, 25], [-70, 45], [-45, 58], [-10, 58], [-10, 36], [-18, 15], [12, -5], [18, -35], [15, -55]]],
+    },
+  },
+  {
+    id: "ocean-indien",
+    nom: "Océan Indien",
+    regions: ["afrique", "asie", "monde"],
+    parRegion: {
+      afrique: [[[20, -36], [53, -36], [53, -8], [48, -12], [47, -26], [40, -31], [30, -35]]],
+      asie: [[[55, -11], [55, -1], [80, 0], [100, -3], [110, -11]]],
+      monde: [[[22, -55], [22, -30], [40, -10], [52, 10], [75, 20], [95, 10], [115, -10], [115, -55]]],
+    },
+  },
+  {
+    id: "ocean-pacifique",
+    nom: "Océan Pacifique",
+    regions: ["ameriques", "monde"],
+    parRegion: {
+      ameriques: [[[-169.5, -56], [-169.5, 52], [-140, 52], [-126, 40], [-116, 25], [-100, 12], [-84, 2], [-78, -18], [-72, -56]]],
+      /* Le Pacifique est coupé en deux par le bord de la carte : une seule
+         boucle ne peut pas l'entourer. Deux anneaux, un de chaque côté. */
+      monde: [
+        [[-179.9, -55], [-179.9, 60], [-125, 50], [-105, 15], [-80, 0], [-72, -30], [-70, -55]],
+        [[120, -10], [120, 50], [179.9, 60], [179.9, -55], [150, -50], [135, -10]],
+      ],
+    },
+  },
+];
+
+/**
+ * Une arête de deux degrés au plus.
+ *
+ * d3 relie deux sommets par une géodésique, qui bombe vers le pôle en
+ * Mercator : un rectangle en longitude/latitude s'y déformerait, et deux zones
+ * voisines finiraient par se chevaucher. En posant soi-même les points
+ * intermédiaires, il ne reste rien à interpoler.
+ */
+function densifier(anneau, pas = 2) {
+  const points = [];
+  for (let i = 0; i < anneau.length; i++) {
+    const [x1, y1] = anneau[i];
+    const [x2, y2] = anneau[(i + 1) % anneau.length];
+    const n = Math.max(1, Math.ceil(Math.max(Math.abs(x2 - x1), Math.abs(y2 - y1)) / pas));
+    for (let k = 0; k < n; k++) points.push([x1 + ((x2 - x1) * k) / n, y1 + ((y2 - y1) * k) / n]);
+  }
+  points.push(points[0]);
+  return points;
+}
+
+/**
+ * L'enroulement, et le piège qu'il tend.
+ *
+ * Sur une sphère, un anneau fermé délimite DEUX régions : la zone et tout le
+ * reste du globe. Seul le sens de parcours dit laquelle. d3-geo attend le sens
+ * HORAIRE en longitude/latitude — l'inverse de ce que prescrit la norme
+ * GeoJSON, et l'inverse de l'intuition. Les tracés de Natural Earth arrivent
+ * déjà dans ce sens ; les zones écrites à la main, non.
+ *
+ * À l'envers, rien ne plante : la zone remplit toute la carte. Les mers
+ * s'empilaient alors les unes sur les autres, chaque clic tombait sur celle du
+ * dessus, et la correction annonçait l'océan Pacifique où qu'on ait cliqué.
+ */
+function sensHoraire(anneau) {
+  let aire = 0;
+  for (let i = 0; i < anneau.length - 1; i++) {
+    aire += anneau[i][0] * anneau[i + 1][1] - anneau[i + 1][0] * anneau[i][1];
+  }
+  return aire < 0 ? anneau : [...anneau].reverse();
+}
+
+function geometrieMer(mer, cle) {
+  const anneaux = mer.parRegion?.[cle] ?? mer.zone;
+  if (!anneaux) return null;
+  const polygones = anneaux.map((a) => [sensHoraire(densifier(a))]);
+  return polygones.length === 1
+    ? { type: "Polygon", coordinates: polygones[0] }
+    : { type: "MultiPolygon", coordinates: polygones };
+}
+
 const A2_VERS_NUM = {};
 for (const a2 of Object.keys(countries.getAlpha2Codes())) {
   A2_VERS_NUM[a2] = String(Number(countries.alpha2ToNumeric(a2)));
@@ -204,7 +438,7 @@ for (const [cle, region] of Object.entries(REGIONS)) {
      lui, le Svalbard et les Açores restent dans le tracé de la Norvège et du
      Portugal : invisibles hors du viewBox, mais bien présents dans le fichier
      — et à cette échelle, en Mercator, leurs coordonnées pèsent lourd. */
-  if (region.cadre) projection.clipExtent([[0, 0], [region.largeur, region.hauteur]]);
+  projection.clipExtent([[0, 0], [region.largeur, region.hauteur]]);
 
   /* Le pixel entier suffit : le viewBox fait moins de mille unités de large,
      et une carte rendue à cette taille ne montre pas le dixième de pixel.
@@ -233,7 +467,36 @@ for (const [cle, region] of Object.entries(REGIONS)) {
   const perdus = tous.filter((p) => p.d.length === 0).map((p) => p.nom);
   if (perdus.length) console.log(`  ⚠ hors cadre, retirés : ${perdus.join(", ")}`);
 
-  const lignes = pays.map((p) => `  { id: "${p.id}", nom: ${JSON.stringify(p.nom)}, d: "${p.d}" },`);
+  /* Les mers passent par le même chemin que les terres : projetées, rognées,
+     arrondies. Elles sortent AVANT les pays dans le fichier, et le composant
+     les dessine dans cet ordre — les terres par-dessus. */
+  const mers = MERS.filter((m) => m.regions.includes(cle))
+    .map((m) => ({ id: m.id, nom: m.nom, d: arrondir(tracer(geometrieMer(m, cle)) ?? "") }))
+    .filter((m) => m.d.length > 0)
+    .sort((a, b) => a.nom.localeCompare(b.nom, "fr"));
+
+  /* Le garde-fou de l'enroulement : une zone retournée couvre exactement le
+     cadre. On mesure la surface projetée, et on refuse de livrer une carte où
+     une mer avale la carte entière. */
+  const aire = geoPath(projection).area;
+  const cadreAire = region.largeur * region.hauteur;
+  for (const m of MERS.filter((m) => m.regions.includes(cle))) {
+    const part = aire(geometrieMer(m, cle)) / cadreAire;
+    if (part > 0.85) {
+      throw new Error(
+        `${cle} : « ${m.nom} » couvre ${Math.round(part * 100)} % de la carte — anneau à l'envers ?`
+      );
+    }
+  }
+
+  const attendues = MERS.filter((m) => m.regions.includes(cle)).length;
+  if (mers.length !== attendues) {
+    console.log(`  ⚠ ${attendues - mers.length} mer(s) hors cadre, retirée(s)`);
+  }
+
+  const ligne = (t) => `  { id: "${t.id}", nom: ${JSON.stringify(t.nom)}, d: "${t.d}" },`;
+  const lignes = pays.map(ligne);
+  const lignesMers = mers.map(ligne);
 
   const fichier = `/**
  * ${region.titre} — fond de carte.
@@ -243,7 +506,7 @@ for (const [cle, region] of Object.entries(REGIONS)) {
  *
  * Tracés : Natural Earth (domaine public), via world-atlas.
  * Projection : ${region.projection === "naturalEarth" ? "Natural Earth I" : "Mercator"}, ajustée à la région.
- * ${pays.length} pays · viewBox 0 0 ${region.largeur} ${region.hauteur}
+ * ${pays.length} pays · ${mers.length} mers · viewBox 0 0 ${region.largeur} ${region.hauteur}
  */
 import type { FondDeCarte } from "./types";
 
@@ -252,6 +515,9 @@ export const ${cle.toUpperCase()}: FondDeCarte = {
   titre: ${JSON.stringify(region.titre)},
   largeur: ${region.largeur},
   hauteur: ${region.hauteur},
+  mers: [
+${lignesMers.join("\n")}
+  ],
   pays: [
 ${lignes.join("\n")}
   ],
@@ -260,7 +526,9 @@ ${lignes.join("\n")}
 
   writeFileSync(`src/lib/cartes/${cle}.ts`, fichier);
   const poids = Math.round(Buffer.byteLength(fichier) / 1024);
-  console.log(`${cle.padEnd(10)} ${String(pays.length).padStart(3)} pays · ${String(poids).padStart(4)} Ko`);
+  console.log(
+    `${cle.padEnd(10)} ${String(pays.length).padStart(3)} pays · ${String(mers.length).padStart(2)} mers · ${String(poids).padStart(4)} Ko`
+  );
   index.push({ cle, titre: region.titre, largeur: region.largeur, hauteur: region.hauteur });
 }
 
@@ -305,9 +573,12 @@ writeFileSync(
  * cartographie : tout le calcul a eu lieu dans scripts/generer-cartes.mjs.
  */
 
-/** Un pays sur la carte : son identifiant, son nom, son tracé. */
-export type PaysTrace = {
-  /** Code ISO 3166-1 numérique, en chaîne. Les territoires sans code ont un id « x-… ». */
+/** Un pays ou une mer sur la carte : son identifiant, son nom, son tracé. */
+export type Trace = {
+  /**
+   * Pour un pays : le code ISO 3166-1 numérique, en chaîne — ou « x-… » pour
+   * les territoires qui n'en ont pas. Pour une mer : un mot-clé.
+   */
   id: string;
   nom: string;
   /** L'attribut d d'un <path>, déjà projeté dans le viewBox du fond. */
@@ -319,7 +590,15 @@ export type FondDeCarte = {
   titre: string;
   largeur: number;
   hauteur: number;
-  pays: PaysTrace[];
+  /**
+   * Les zones marines, dessinées SOUS les terres.
+   *
+   * Elles n'ont pas la même nature que les pays, et le code ne doit pas
+   * l'oublier : un tracé de côte est un fait, les limites d'une mer sont une
+   * convention. L'en-tête de scripts/generer-cartes.mjs dit laquelle.
+   */
+  mers: Trace[];
+  pays: Trace[];
 };
 `
 );

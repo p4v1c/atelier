@@ -5,9 +5,12 @@
  * cartographie : tout le calcul a eu lieu dans scripts/generer-cartes.mjs.
  */
 
-/** Un pays sur la carte : son identifiant, son nom, son tracé. */
-export type PaysTrace = {
-  /** Code ISO 3166-1 numérique, en chaîne. Les territoires sans code ont un id « x-… ». */
+/** Un pays ou une mer sur la carte : son identifiant, son nom, son tracé. */
+export type Trace = {
+  /**
+   * Pour un pays : le code ISO 3166-1 numérique, en chaîne — ou « x-… » pour
+   * les territoires qui n'en ont pas. Pour une mer : un mot-clé.
+   */
   id: string;
   nom: string;
   /** L'attribut d d'un <path>, déjà projeté dans le viewBox du fond. */
@@ -19,5 +22,13 @@ export type FondDeCarte = {
   titre: string;
   largeur: number;
   hauteur: number;
-  pays: PaysTrace[];
+  /**
+   * Les zones marines, dessinées SOUS les terres.
+   *
+   * Elles n'ont pas la même nature que les pays, et le code ne doit pas
+   * l'oublier : un tracé de côte est un fait, les limites d'une mer sont une
+   * convention. L'en-tête de scripts/generer-cartes.mjs dit laquelle.
+   */
+  mers: Trace[];
+  pays: Trace[];
 };

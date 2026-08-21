@@ -1,272 +1,85 @@
 /**
- * Géographie — les drapeaux.
+ * Géographie — du drapeau au pays.
  *
- * Les drapeaux sont ici des caractères Unicode, pas des images : ils ne pèsent
- * rien, ne demandent aucun fichier et suivent la police du système. Le revers
- * est qu'ils se ressemblent à petite taille — raison de plus pour les
- * travailler par contraste, en appariement, plutôt qu'un par un.
+ * Reconnaître un drapeau et savoir où est le pays sont deux savoirs, et le
+ * second manque presque toujours. La série ne pose donc qu'une question :
+ * le drapeau s'affiche, et l'on clique le pays sur la carte.
+ *
+ * Le nom n'apparaît nulle part — ni dans la consigne, ni sur le dessin. C'est
+ * le contrôle du type d'exercice qui l'impose, pas la bonne volonté de
+ * l'auteur : une consigne qui nommerait la cible sous une amorce est refusée.
  */
 import type { SeedSkill } from "../../../src/modules/types";
-import { q, relie } from "./commun";
+import { pays } from "./commun";
+
+const CONSIGNE = "Quel pays porte ce drapeau ? Clique dessus sur la carte.";
+
+/** [carte, code ISO numérique, nom sur le fond, drapeau, ce qu'on apprend] */
+type Ligne = [string, string, string, string, string, (1 | 2 | 3)?];
+
+const DRAPEAUX: Ligne[] = [
+  ["europe", "250", "France", "🇫🇷", "Le bleu et le rouge sont les couleurs de Paris, le blanc celui de la monarchie : le drapeau de 1794 place la ville de part et d'autre du roi.", 1],
+  ["europe", "276", "Allemagne", "🇩🇪", "Noir, rouge, or : les couleurs des volontaires de 1813, reprises par la révolution de 1848, puis par la République fédérale en 1949.", 1],
+  ["europe", "380", "Italie", "🇮🇹", "Vert, blanc, rouge, adoptés en 1797 sur le modèle du tricolore français — la disposition verticale vient de là.", 1],
+  ["europe", "724", "Espagne", "🇪🇸", "Rouge et jaune choisis en 1785 par Charles III pour une raison pratique : reconnaître ses navires de loin, en mer, sans confusion possible.", 1],
+  ["europe", "620", "Portugal", "🇵🇹", "La sphère armillaire, au centre, est l'instrument des navigateurs : le pays a mis sur son drapeau l'outil qui l'a fait connaître le monde.", 2],
+  ["europe", "300", "Grèce", "🇬🇷", "Neuf bandes pour les neuf syllabes de « Eleftheria i thanatos » — la liberté ou la mort, mot d'ordre de la guerre d'indépendance.", 2],
+  ["europe", "752", "Suède", "🇸🇪", "La croix scandinave est décalée vers la hampe. Tous les drapeaux nordiques la portent ainsi : c'est ce décalage qui fait la famille.", 2],
+  ["europe", "756", "Suisse", "🇨🇭", "Carré, ce qui n'arrive qu'à deux États au monde — l'autre est le Vatican. Le pavillon maritime, lui, est rectangulaire.", 1],
+  ["europe", "616", "Pologne", "🇵🇱", "Blanc au-dessus, rouge en dessous. Retourné, c'est celui de Monaco et de l'Indonésie : l'ordre des bandes est tout ce qui les sépare.", 2],
+  ["europe", "528", "Pays-Bas", "🇳🇱", "La bande du haut était orange, couleur de la maison régnante. Le pigment virait au rouge en mer, et l'usage a fini par l'emporter.", 2],
+  ["europe", "372", "Irlande", "🇮🇪", "Vert pour les catholiques, orange pour les protestants, blanc pour la paix entre les deux. Le drapeau dit un programme, pas un paysage.", 2],
+  ["europe", "578", "Norvège", "🇳🇴", "Une croix scandinave bleue bordée de blanc sur fond rouge : les trois couleurs de la France, dans la grammaire du Nord.", 2],
+  ["europe", "40", "Autriche", "🇦🇹", "Rouge, blanc, rouge : l'un des plus anciens d'Europe, attesté au XIIIᵉ siècle. La légende veut qu'il vienne d'une tunique ensanglantée sauf sous la ceinture.", 2],
+  ["europe", "191", "Croatie", "🇭🇷", "Le damier rouge et blanc, la šahovnica, est l'emblème du pays depuis le Moyen Âge — bien avant l'État moderne.", 2],
+  ["europe", "792", "Turquie", "🇹🇷", "Croissant et étoile hérités de l'Empire ottoman. Le motif a essaimé de là vers une bonne partie du monde musulman.", 2],
+
+  ["afrique", "504", "Maroc", "🇲🇦", "L'étoile verte à cinq branches, ajoutée en 1915, est un sceau de Salomon : le fond rouge, lui, est celui des chérifs depuis le XVIIᵉ siècle.", 2],
+  ["afrique", "818", "Égypte", "🇪🇬", "Rouge, blanc, noir : les couleurs panarabes. L'aigle de Saladin au centre distingue le pays de la Syrie, du Yémen et de l'Irak, qui partagent les mêmes bandes.", 2],
+  ["afrique", "404", "Kenya", "🇰🇪", "Un bouclier et deux lances masaï au centre — le seul drapeau national à porter une arme traditionnelle plutôt qu'un symbole abstrait.", 2],
+  ["afrique", "710", "Afrique du Sud", "🇿🇦", "Six couleurs et un Y couché, adoptés en 1994 : le motif dit deux histoires qui convergent, et c'est le seul drapeau à six couleurs sans blason.", 2],
+  ["afrique", "566", "Nigéria", "🇳🇬", "Vert, blanc, vert. Le vert dit les terres cultivées d'un pays qui compte le plus grand nombre d'habitants du continent.", 2],
+  ["afrique", "686", "Sénégal", "🇸🇳", "Vert, jaune, rouge — les couleurs panafricaines — avec une étoile verte au centre, qui le sépare du Mali et de la Guinée.", 3],
+  ["afrique", "231", "Éthiopie", "🇪🇹", "C'est de lui que viennent les couleurs panafricaines : seul État du continent à n'avoir jamais été durablement colonisé, il a servi de modèle aux autres.", 2],
+  ["afrique", "288", "Ghana", "🇬🇭", "Rouge, jaune, vert avec une étoile noire : premier pays d'Afrique subsaharienne indépendant, en 1957, il a repris les couleurs éthiopiennes.", 3],
+  ["afrique", "788", "Tunisie", "🇹🇳", "Croissant et étoile rouges dans un disque blanc sur fond rouge — un dessin ottoman, adopté dès 1831.", 2],
+
+  ["asie", "392", "Japon", "🇯🇵", "Le Hinomaru : un disque rouge, rien d'autre. Le nom du pays s'écrit « origine du soleil », et le drapeau ne dit que cela.", 1],
+  ["asie", "410", "Corée du Sud", "🇰🇷", "Le taegeuk au centre, quatre trigrammes du Yi King aux angles : le ciel, la terre, l'eau et le feu.", 2],
+  ["asie", "156", "Chine", "🇨🇳", "Une grande étoile et quatre petites, disposées en arc. Les quatre représentent les classes sociales rassemblées autour du Parti.", 1],
+  ["asie", "356", "Inde", "🇮🇳", "La roue d'Ashoka, au centre, compte vingt-quatre rayons. Elle a remplacé le rouet de Gandhi à l'indépendance, en 1947.", 2],
+  ["asie", "704", "Viêt Nam", "🇻🇳", "Une étoile jaune à cinq branches sur fond rouge, adoptée en 1945 — les cinq branches pour les cinq groupes sociaux.", 2],
+  ["asie", "764", "Thaïlande", "🇹🇭", "Cinq bandes, dont la bleue centrale est deux fois plus large : elle représente la monarchie, entre la nation et la religion.", 2],
+  ["asie", "376", "Israël", "🇮🇱", "Les deux bandes bleues rappellent le talit, le châle de prière ; l'étoile de David au centre date du XIXᵉ siècle comme emblème national.", 2],
+  ["asie", "422", "Liban", "🇱🇧", "Le cèdre, arbre du pays, cité dans la Bible et exploité depuis l'Antiquité pour la marine phénicienne puis égyptienne.", 2],
+  ["asie", "682", "Arabie Saoudite", "🇸🇦", "Il porte la profession de foi musulmane et un sabre. Parce qu'il porte un texte sacré, il n'est jamais mis en berne.", 2],
+  ["asie", "524", "Népal", "🇳🇵", "Le seul drapeau national qui ne soit pas rectangulaire : deux fanions superposés, avec un soleil et une lune.", 2],
+  ["asie", "360", "Indonésie", "🇮🇩", "Rouge sur blanc — presque exactement celui de Monaco, à quelques centimètres de proportion près. Les deux États s'en accommodent depuis 1945.", 2],
+
+  ["ameriques", "76", "Brésil", "🇧🇷", "Le ciel de Rio le 15 novembre 1889, au moment de la proclamation de la République : vingt-sept étoiles, une par État, à leur position réelle.", 1],
+  ["ameriques", "32", "Argentine", "🇦🇷", "Le soleil de Mai, au centre, rappelle le soulèvement de mai 1810 contre l'Espagne. Le bleu ciel serait celui du ciel de Buenos Aires ce jour-là.", 2],
+  ["ameriques", "124", "Canada", "🇨🇦", "La feuille d'érable date de 1965 seulement : avant, le pays arborait un pavillon britannique. Elle compte onze pointes, sans signification particulière.", 1],
+  ["ameriques", "484", "Mexique", "🇲🇽", "Un aigle dévorant un serpent sur un cactus : la vision qui, selon la légende aztèque, désignait l'emplacement de Tenochtitlán.", 2],
+  ["ameriques", "192", "Cuba", "🇨🇺", "Trois bandes bleues, deux blanches, un triangle rouge à l'étoile solitaire. Le dessin date de 1849, bien avant l'indépendance.", 2],
+  ["ameriques", "604", "Pérou", "🇵🇪", "Rouge, blanc, rouge en bandes verticales. La tradition veut que San Martín ait choisi ces couleurs après avoir vu des flamants roses.", 2],
+  ["ameriques", "170", "Colombie", "🇨🇴", "La bande jaune occupe la moitié du drapeau. Les couleurs viennent de la Grande Colombie, que le pays a partagée avec le Venezuela et l'Équateur.", 3],
+  ["ameriques", "152", "Chili", "🇨🇱", "Une étoile blanche dans un carré bleu, une bande blanche, une bande rouge. Il précède de trente ans le drapeau du Texas, qui lui ressemble.", 2],
+
+  ["monde", "36", "Australie", "🇦🇺", "L'Union Jack au canton, la Croix du Sud à droite, et sous le drapeau britannique une étoile à sept branches : six États et les territoires.", 2],
+  ["monde", "643", "Russie", "🇷🇺", "Blanc, bleu, rouge, repris de Pierre le Grand en 1699 et rétabli en 1991. Ces couleurs ont essaimé dans presque tout le monde slave.", 1],
+];
 
 export const GEO_DRAPEAUX: SeedSkill[] = [
   {
-    slug: "geo-drapeaux-europe",
+    slug: "geo-drapeaux",
     category: "Drapeaux",
-    title: "Drapeaux d'Europe",
+    title: "Les drapeaux, sur la carte",
     statement:
-      "Trois bandes verticales, trois bandes horizontales, une croix scandinave : l'Europe a peu de motifs et beaucoup de pays. Tout se joue sur l'ordre des couleurs.",
-    tip: "Cinq pays nordiques portent la même croix décalée vers la hampe : Danemark, Suède, Norvège, Finlande, Islande. Seules les couleurs les séparent.",
+      "Quarante-cinq drapeaux. Reconnaître celui du Ghana est une chose ; savoir où poser le doigt en est une autre, et c'est celle qui reste.",
+    tip: "Les familles aident plus que la mémoire : croix décalée au nord de l'Europe, vert-jaune-rouge en Afrique, croissant et étoile dans l'ancien monde ottoman.",
     difficulty: 2,
-    exercises: [
-      q(
-        "Quel pays porte un drapeau à trois bandes verticales verte, blanche et orange ?",
-        ["Italie", "Irlande", "Côte d'Ivoire", "Inde"],
-        1,
-        "L'Irlande. Le vert y désigne les catholiques, l'orange les protestants, et le blanc la paix entre eux. La Côte d'Ivoire porte les mêmes couleurs dans l'ordre inverse : orange, blanc, vert."
-      ),
-      q(
-        "Quel drapeau européen ne comporte ni bande ni croix ?",
-        ["🇨🇭 la Suisse", "🇦🇹 l'Autriche", "🇧🇪 la Belgique", "🇱🇺 le Luxembourg"],
-        0,
-        "La Suisse, dont le drapeau est carré — le seul avec celui du Vatican — et porte une croix blanche centrée, sans déport vers la hampe."
-      ),
-      q(
-        "Qu'est-ce qui distingue le drapeau des Pays-Bas de celui du Luxembourg ?",
-        [
-          "L'ordre des bandes",
-          "La nuance du bleu et les proportions",
-          "Le sens des bandes",
-          "Rien, ils sont identiques",
-        ],
-        1,
-        "Les deux sont rouge, blanc, bleu en bandes horizontales. Le bleu néerlandais est plus foncé, et le drapeau luxembourgeois est plus allongé. La ressemblance a valu au Luxembourg un long débat parlementaire."
-      ),
-      q(
-        "Le drapeau 🇵🇱 de la Pologne se lit blanc en haut, rouge en bas. Quel pays porte l'inverse ?",
-        ["🇦🇹 l'Autriche", "🇲🇨 Monaco", "🇭🇺 la Hongrie", "🇱🇻 la Lettonie"],
-        1,
-        "Monaco — et l'Indonésie, dont le drapeau est identique à celui de Monaco aux proportions près. L'Autriche ajoute une seconde bande rouge en bas."
-      ),
-      q(
-        "Combien d'étoiles porte le drapeau de l'Union européenne ?",
-        ["Autant que d'États membres", "Douze, quel que soit le nombre d'États", "Quinze", "Vingt-sept"],
-        1,
-        "Douze, et ce nombre n'a jamais bougé depuis 1955 : il n'a jamais désigné les États membres mais la perfection et la plénitude. L'élargissement ne le change pas."
-      ),
-      relie(
-        "Relie chaque drapeau nordique à son pays.",
-        [
-          ["🇩🇰", "Danemark"],
-          ["🇸🇪", "Suède"],
-          ["🇳🇴", "Norvège"],
-          ["🇫🇮", "Finlande"],
-          ["🇮🇸", "Islande"],
-        ],
-        "Le Dannebrog danois est le plus ancien drapeau national encore en usage. Les quatre autres croix scandinaves en dérivent toutes."
-      ),
-      relie(
-        "Relie chaque drapeau à trois bandes à son pays.",
-        [
-          ["🇫🇷", "France"],
-          ["🇮🇹", "Italie"],
-          ["🇩🇪", "Allemagne"],
-          ["🇧🇪", "Belgique"],
-          ["🇷🇴", "Roumanie"],
-        ],
-        "Belgique et Allemagne portent noir, jaune et rouge : la première en bandes verticales, la seconde en bandes horizontales."
-      ),
-      relie(
-        "Relie chaque drapeau d'Europe centrale à son pays.",
-        [
-          ["🇵🇱", "Pologne"],
-          ["🇨🇿", "Tchéquie"],
-          ["🇸🇰", "Slovaquie"],
-          ["🇭🇺", "Hongrie"],
-          ["🇦🇹", "Autriche"],
-        ],
-        "Tchéquie et Slovaquie ont partagé le même drapeau jusqu'en 1993. La Tchéquie l'a gardé tel quel, la Slovaquie a ajouté ses armes.",
-        3
-      ),
-    ],
-  },
-
-  {
-    slug: "geo-drapeaux-monde",
-    category: "Drapeaux",
-    title: "Drapeaux du monde : les cas remarquables",
-    statement:
-      "Le seul drapeau non rectangulaire, le seul à deux faces différentes, celui qui porte une arme, celui qui porte un arbre. Les exceptions se retiennent mieux que les règles.",
-    tip: "Un drapeau raconte presque toujours une histoire tenue en trois éléments : une couleur héritée, un symbole religieux ou dynastique, et une date.",
-    difficulty: 2,
-    exercises: [
-      q(
-        "Quel est le seul drapeau national qui ne soit pas rectangulaire ?",
-        ["🇨🇭 la Suisse", "🇳🇵 le Népal", "🇻🇦 le Vatican", "🇶🇦 le Qatar"],
-        1,
-        "Le Népal, formé de deux fanions triangulaires superposés. La Suisse et le Vatican sont carrés, ce qui est rare mais reste rectangulaire au sens strict."
-      ),
-      q(
-        "Quel drapeau porte un arbre en son centre ?",
-        ["🇱🇧 le Liban", "🇨🇦 le Canada", "🇬🇭 le Ghana", "🇧🇷 le Brésil"],
-        0,
-        "Le Liban, dont le cèdre est mentionné dans la Bible et figure sur le drapeau depuis 1943. Le Canada porte une feuille d'érable, pas un arbre."
-      ),
-      q(
-        "Quel drapeau national porte une arme à feu ?",
-        ["🇿🇼 le Zimbabwe", "🇲🇿 le Mozambique", "🇦🇴 l'Angola", "🇨🇺 Cuba"],
-        1,
-        "Le Mozambique, dont le drapeau porte un fusil d'assaut croisé avec une houe et posé sur un livre — les trois symboles de la lutte, du travail et de l'éducation."
-      ),
-      q(
-        "Que représentent les vingt-sept étoiles du drapeau brésilien ?",
-        [
-          "Les vingt-sept présidents de la République",
-          "Le ciel de Rio le 15 novembre 1889",
-          "Les vingt-sept langues parlées dans le pays",
-          "Les vingt-sept premiers États fondateurs",
-        ],
-        1,
-        "Le ciel austral tel qu'il se présentait au-dessus de Rio le matin de la proclamation de la République. Chaque étoile correspond à un État, mais leur disposition est celle des constellations."
-      ),
-      q(
-        "Le drapeau du Japon 🇯🇵 porte un disque rouge. Que représente-t-il ?",
-        ["La lune", "Le soleil", "Un sceau impérial", "Une fleur de cerisier"],
-        1,
-        "Le soleil — le pays s'appelle en japonais Nihon, l'origine du soleil. Le disque se dit hinomaru, littéralement « le cercle du soleil »."
-      ),
-      relie(
-        "Relie chaque drapeau d'Amérique à son pays.",
-        [
-          ["🇨🇦", "Canada"],
-          ["🇲🇽", "Mexique"],
-          ["🇧🇷", "Brésil"],
-          ["🇦🇷", "Argentine"],
-          ["🇨🇱", "Chili"],
-        ],
-        "Le drapeau argentin porte un soleil de Mai, celui de l'Uruguay aussi : les deux pays sont nés de la même révolution de 1810."
-      ),
-      relie(
-        "Relie chaque drapeau d'Asie à son pays.",
-        [
-          ["🇯🇵", "Japon"],
-          ["🇰🇷", "Corée du Sud"],
-          ["🇮🇳", "Inde"],
-          ["🇹🇭", "Thaïlande"],
-          ["🇻🇳", "Viêt Nam"],
-        ],
-        "Le drapeau sud-coréen porte le taegeuk, symbole du yin et du yang, entouré de quatre trigrammes tirés du Livre des mutations."
-      ),
-      relie(
-        "Relie chaque drapeau d'Afrique à son pays.",
-        [
-          ["🇿🇦", "Afrique du Sud"],
-          ["🇪🇬", "Égypte"],
-          ["🇰🇪", "Kenya"],
-          ["🇳🇬", "Nigeria"],
-          ["🇪🇹", "Éthiopie"],
-        ],
-        "Le vert, le jaune et le rouge éthiopiens sont devenus les couleurs panafricaines : l'Éthiopie était le seul État africain jamais durablement colonisé.",
-        3
-      ),
-    ],
-  },
-
-  {
-    slug: "geo-drapeaux-pieges",
-    category: "Drapeaux",
-    title: "Les drapeaux qu'on confond",
-    statement:
-      "Roumanie et Tchad, Monaco et Indonésie, Irlande et Côte d'Ivoire, Australie et Nouvelle-Zélande. Des paires si proches qu'un détail seul les sépare.",
-    tip: "Quand deux drapeaux se ressemblent, cherche le détail : une nuance de bleu, un nombre d'étoiles, le sens des bandes.",
-    difficulty: 3,
-    exercises: [
-      q(
-        "Quelle différence sépare le drapeau de la Roumanie de celui du Tchad ?",
-        [
-          "Le sens des bandes",
-          "La nuance du bleu, presque rien d'autre",
-          "Le nombre de bandes",
-          "Une étoile centrale",
-        ],
-        1,
-        "Les deux portent bleu, jaune et rouge en bandes verticales. Le bleu tchadien est plus foncé. Le Tchad a saisi l'ONU en 2004 pour faire changer le drapeau roumain, sans succès."
-      ),
-      q(
-        "Qu'est-ce qui distingue le drapeau australien de celui de la Nouvelle-Zélande ?",
-        [
-          "Le nombre et la couleur des étoiles",
-          "La présence de l'Union Jack",
-          "La couleur du fond",
-          "Le sens de la Croix du Sud",
-        ],
-        0,
-        "L'Australie porte six étoiles blanches, dont une grande à sept branches sous l'Union Jack. La Nouvelle-Zélande n'en porte que quatre, rouges bordées de blanc."
-      ),
-      q(
-        "Quel pays porte un drapeau identique à celui de Monaco, aux proportions près ?",
-        ["🇵🇱 la Pologne", "🇮🇩 l'Indonésie", "🇦🇹 l'Autriche", "🇸🇬 Singapour"],
-        1,
-        "L'Indonésie. Rouge en haut, blanc en bas dans les deux cas ; le drapeau indonésien est simplement plus allongé. Monaco l'emploie depuis 1881, l'Indonésie depuis 1945."
-      ),
-      q(
-        "Les drapeaux du Sénégal, du Mali et de la Guinée portent les mêmes couleurs. Comment se distinguent-ils ?",
-        [
-          "Par l'ordre des bandes et une étoile",
-          "Par la forme",
-          "Par la nuance du vert",
-          "Ils sont identiques",
-        ],
-        0,
-        "Les trois portent vert, jaune et rouge en bandes verticales. La Guinée les met dans l'ordre inverse du Mali, et le Sénégal ajoute une étoile verte au centre."
-      ),
-      q(
-        "Quelle différence sépare le drapeau de l'Indonésie de celui de la Pologne ?",
-        [
-          "Les couleurs sont inversées",
-          "La Pologne ajoute un aigle",
-          "Le rouge n'est pas le même",
-          "Les proportions seulement",
-        ],
-        0,
-        "L'Indonésie porte le rouge en haut, la Pologne le blanc. Une inversion, et deux pays que rien d'autre ne rapproche."
-      ),
-      relie(
-        "Relie chaque drapeau à son pays : attention aux voisins.",
-        [
-          ["🇮🇪", "Irlande"],
-          ["🇨🇮", "Côte d'Ivoire"],
-          ["🇮🇹", "Italie"],
-          ["🇲🇽", "Mexique"],
-          ["🇮🇳", "Inde"],
-        ],
-        "Irlande et Côte d'Ivoire portent les mêmes trois couleurs dans l'ordre inverse. Italie et Mexique partagent le vert, blanc, rouge — le Mexique y ajoute ses armes.",
-        3
-      ),
-      relie(
-        "Relie chaque drapeau à croix ou à bandes à son pays.",
-        [
-          ["🇬🇧", "Royaume-Uni"],
-          ["🇬🇷", "Grèce"],
-          ["🇵🇹", "Portugal"],
-          ["🇪🇸", "Espagne"],
-          ["🇹🇷", "Turquie"],
-        ],
-        "Le drapeau grec porte neuf bandes, une par syllabe de la devise de l'indépendance. Le portugais est l'un des rares à porter une sphère armillaire, instrument de navigation.",
-        3
-      ),
-      relie(
-        "Relie chaque drapeau du Moyen-Orient à son pays.",
-        [
-          ["🇮🇱", "Israël"],
-          ["🇸🇦", "Arabie saoudite"],
-          ["🇦🇪", "Émirats arabes unis"],
-          ["🇯🇴", "Jordanie"],
-          ["🇮🇷", "Iran"],
-        ],
-        "Le drapeau saoudien porte la profession de foi musulmane : il ne se met jamais en berne, et il est imprimé sur ses deux faces pour rester lisible dans le bon sens.",
-        3
-      ),
-    ],
+    exercises: DRAPEAUX.map(([region, cible, nom, drapeau, explication, difficulty]) =>
+      pays(region, cible, nom, CONSIGNE, explication, { amorce: drapeau, difficulty })
+    ),
   },
 ];

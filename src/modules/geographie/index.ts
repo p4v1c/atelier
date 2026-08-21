@@ -1,88 +1,75 @@
 /**
  * Géographie — l'Atlas.
  *
- * Le module était un gabarit : deux notions, quatorze questions, écrites pour
- * vérifier qu'ajouter une matière ne demandait qu'un fichier de contenu et deux
- * lignes de registre. La démonstration a tenu ; il devient une matière.
+ * ─────────────────────────────────────────────────────────────────────────
+ * UN SEUL GESTE
  *
- * Il emploie deux types d'exercices, et le second est neuf. Le QCM sait poser
- * une question et proposer un intrus. L'appariement en pose cinq d'un coup et
- * les fait tenir ensemble — pays et capitale, drapeau et pays, fleuve et
- * embouchure. C'est la mécanique des jeux de géographie, et elle apprend autre
- * chose : elle oblige à départager cinq voisins plutôt qu'à reconnaître un
- * intrus parmi quatre.
+ * Le module a porté onze familles et trois types de questions. Il y avait de
+ * quoi réviser, et pourtant on s'y perdait : le catalogue faisait écran à ce
+ * que la matière a de particulier. Un QCM sur les climats est un QCM ; il
+ * n'apprend rien qu'une autre matière n'apprendrait aussi bien.
  *
- * Le troisième est la carte elle-même : « clique sur le Portugal ». Elle
- * apprend ce qu'aucun QCM ne peut apprendre — la position. Savoir que Lima est
- * la capitale du Pérou sans savoir où est le Pérou, c'est connaître une liste,
- * pas une carte.
+ * Ce qui reste est ce qu'aucun questionnaire ne sait faire — la POSITION.
+ * Savoir que Lima est la capitale du Pérou sans savoir où est le Pérou, c'est
+ * connaître une liste, pas une carte. Trois séries, un seul type d'exercice,
+ * et tout se joue en cliquant sur le fond.
  *
- * Les fonds viennent de Natural Earth, qui est dans le domaine public, projetés
- * une fois pour toutes par scripts/generer-cartes.mjs. Rien n'est dessiné de
- * mémoire : une frontière inventée serait pire que pas de carte du tout.
+ * Les tracés viennent de Natural Earth, qui est dans le domaine public,
+ * projetés une fois pour toutes par scripts/generer-cartes.mjs. Rien n'est
+ * dessiné de mémoire : une frontière inventée serait pire que pas de carte.
+ * Les zones marines, elles, sont écrites à la main — parce que les limites
+ * d'une mer sont une convention et non un relevé, et le fichier le dit.
  */
-import { appariement } from "../kinds/appariement";
-import { carteMonde } from "../kinds/carte-monde";
-import { qcm } from "../kinds/qcm";
+import { carteMonde, type CarteMondePayload } from "../kinds/carte-monde";
 import type { LearningModule, ModuleFinding } from "../types";
-import type { QcmPayload } from "../kinds/qcm";
 
 export const geographie: LearningModule = {
   id: "geographie",
   name: "Géographie",
-  tagline: "Capitales, drapeaux, fleuves et frontières",
+  tagline: "Drapeaux, capitales et mers — sur la carte",
   position: 5,
 
   vocabulaire: {
-    skill: "notion",
-    skillPluriel: "notions",
+    skill: "série",
+    skillPluriel: "séries",
     exercise: "question",
     exercisePluriel: "questions",
     catalogue: "L'atlas",
   },
 
-  kinds: [qcm, appariement, carteMonde],
+  kinds: [carteMonde],
 
   categories: [
-    { slug: "capitales", name: "Capitales" },
     { slug: "drapeaux", name: "Drapeaux" },
-    { slug: "frontieres", name: "Frontières et voisins" },
-    { slug: "reliefs", name: "Reliefs et fleuves" },
+    { slug: "capitales", name: "Capitales" },
     { slug: "mers", name: "Mers et océans" },
-    { slug: "milieux", name: "Climats et milieux" },
-    { slug: "villes", name: "Villes et populations" },
-    { slug: "etats", name: "États et territoires" },
-    { slug: "france", name: "France et outre-mer" },
-    { slug: "reperes", name: "Repères et cartographie" },
-    { slug: "carte", name: "Sur la carte" },
   ],
 
   validateSkill(skill): ModuleFinding[] {
     const anomalies: ModuleFinding[] = [];
+    const cartes = skill.exercises.map((e) => e.payload as CarteMondePayload);
 
     /* Une question de géographie sans explication ne fait rien apprendre : on
-       coche, on a bon ou faux, et l'on repart avec la même carte mentale.
-       C'est ce qui sépare un questionnaire d'un atlas. */
-    const qcms = skill.exercises.filter((e) => e.kind === qcm.id);
-    const sansMot = qcms.filter((e) => !(e.payload as QcmPayload).explanation?.trim());
-    if (sansMot.length > 0) {
+       clique, on a bon ou faux, et l'on repart avec la même carte mentale.
+       C'est ce qui sépare un atlas d'un jeu d'adresse. */
+    const muettes = cartes.filter((p) => !p.explication?.trim());
+    if (muettes.length > 0) {
       anomalies.push({
         severity: "error",
-        code: "qcm-sans-explication",
-        message: `${sansMot.length} question(s) sans explication`,
-        exercise: (sansMot[0]!.payload as QcmPayload).question,
+        code: "carte-sans-explication",
+        message: `${muettes.length} question(s) sans explication`,
+        exercise: muettes[0]!.consigne,
       });
     }
 
-    /* Une notion tout en QCM se parcourt sans jamais avoir à produire quoi que
-       ce soit : on reconnaît un intrus parmi quatre, et c'est tout. Un
-       appariement ou une carte au moins par notion tient l'exigence. */
-    const actifs = [appariement.id, carteMonde.id];
-    if (skill.exercises.length >= 6 && !skill.exercises.some((e) => actifs.includes(e.kind))) {
+    /* Une série qui ne se joue que sur une carte n'apprend qu'un continent.
+       Trois fonds au moins, sinon la série est une région déguisée en série. */
+    const fonds = new Set(cartes.map((p) => p.region));
+    if (skill.exercises.length >= 12 && fonds.size < 3) {
       anomalies.push({
         severity: "warn",
-        code: "sans-exercice-actif",
-        message: "ni appariement ni carte : la notion ne se travaille qu'en reconnaissance",
+        code: "serie-mono-carte",
+        message: `${skill.exercises.length} questions sur ${fonds.size} fond(s) : la série ne fait travailler qu'une région`,
       });
     }
 

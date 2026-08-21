@@ -8,7 +8,6 @@
  * L'écran de série n'a pas à changer.
  * ─────────────────────────────────────────────────────────────────────────
  */
-import { appariementVue } from "./Appariement";
 import { ecouteVue, flashcardVue, traductionVue } from "./Carte";
 import { carteMondeVue } from "./CarteMonde";
 import { prononciationVue } from "./Prononciation";
@@ -23,7 +22,6 @@ export const VUES: Record<string, VueExercice> = {
   traduction: traductionVue,
   ecoute: ecouteVue,
   prononciation: prononciationVue,
-  appariement: appariementVue,
   "carte-monde": carteMondeVue,
 };
 

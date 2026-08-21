@@ -9,7 +9,7 @@ répétition espacée, et autant de matières qu'on veut y mettre.
 | Culture générale | 322 notions · 2 209 questions · 280 leçons                    | carnet de révision |
 | Anglais          | 88 séries · 3 420 cartes · 10 dictées · 60 cours                | signalétique       |
 | Espagnol         | 86 séries · 3 350 cartes · 10 dictées · 58 cours                | signalétique       |
-| Géographie       | 24 notions · 192 questions · 2 cours · 5 cartes cliquables    | atlas              |
+| Géographie       | 3 séries · 124 questions, toutes sur la carte                 | atlas              |
 
 Le moteur ne sait pas ce qu'est une faute d'orthographe ni une capitale : il
 connaît des modules, des compétences et des exercices. Ce qu'un exercice veut
@@ -147,7 +147,10 @@ Une présentation déclare quatre choses, toutes facultatives :
 | `ecrans`     | ses propres écrans ; ce qui manque retombe sur les génériques    |
 
 Un module absent du registre garde l'apparence par défaut. C'est le cas normal,
-pas un défaut : le module de géographie n'a pas une ligne de CSS et fonctionne.
+pas un défaut : une matière peut vivre sans une ligne de CSS.
+
+`onglets: []` supprime la barre de navigation. Un seul module s'en sert — la
+géographie, qui tient sur un écran.
 
 ### Les langues
 
@@ -196,18 +199,25 @@ accent.** C'est un révélateur honnête — dire « sheep » quand on visait «
 se voit — mais ce n'est pas un professeur. Elle n'existe que sur Chrome et Edge,
 et Chrome envoie l'audio à ses serveurs pour le transcrire. L'écran le dit.
 
-### La géographie, et la carte cliquable
+### La géographie : un seul geste
 
-Le module était le gabarit à copier : deux notions, quatorze questions, écrites
-pour prouver qu'ajouter une matière ne coûtait qu'un fichier et deux lignes de
-registre. La démonstration faite, il est devenu une matière — vingt-quatre
-notions, cent quatre-vingt-douze questions, deux cours, et son propre thème.
+Le module a porté onze familles et trois types de questions — capitales,
+drapeaux, fleuves, climats, projections. Il y avait de quoi réviser, et
+pourtant on s'y perdait. Un QCM sur les climats est un QCM : il n'apprend rien
+qu'une autre matière n'apprendrait aussi bien, et le catalogue faisait écran à
+ce que la géographie a de particulier.
 
-Le type `carte-monde` pose la question qu'aucun QCM ne peut poser : **où**.
-Savoir que Lima est la capitale du Pérou sans savoir où est le Pérou, c'est
-connaître une liste, pas une carte. Une série entière ferme la boucle des
-drapeaux : on voit le drapeau, on clique le pays, et son nom n'apparaît nulle
-part — ni dans la consigne, ni sur la carte.
+Il ne reste que ce qu'aucun questionnaire ne sait faire : **où**. Savoir que
+Lima est la capitale du Pérou sans savoir où est le Pérou, c'est connaître une
+liste, pas une carte. Trois séries, un seul type d'exercice, et tout se joue en
+cliquant sur un fond muet — le drapeau puis le pays, la capitale puis le pays,
+et le nom d'une mer sur une étendue que rien ne signale.
+
+C'est aussi le seul module sans onglets. Les autres matières ont soixante
+séries à parcourir et des cours à lire avant de s'exercer ; celle-ci a trois
+portes, et les mettre au bout d'un couloir de quatre onglets, c'était trois
+portes de trop. Son écran unique les pose côte à côte, et la partie commence au
+clic.
 
 ```bash
 npm run cartes     # régénère src/lib/cartes/ depuis Natural Earth
@@ -217,7 +227,17 @@ Les tracés viennent de **Natural Earth**, qui est dans le domaine public, via
 le paquet `world-atlas`. Rien n'est dessiné à la main : une frontière inventée
 de mémoire serait pire que pas de carte du tout.
 
-Trois choix méritent d'être expliqués.
+**Les mers font exception, et le fichier le dit.** Aucun paquet npm ne
+redistribue les polygones marins de Natural Earth ; les zones sont donc écrites
+à la main. Ce n'est pas le même geste que d'inventer une frontière : le tracé
+du Portugal est un fait, les limites d'une mer sont une **convention** — fixées
+par l'Organisation hydrographique internationale à coups de lignes droites
+entre des caps, et les cartes ne s'accordent pas toutes. Deux règles tiennent
+l'ensemble honnête : les zones ne se chevauchent jamais, et elles passent
+**sous** les terres, si bien qu'une zone un peu large est rognée par le dessin
+des pays.
+
+Quatre choix méritent d'être expliqués.
 
 `world-atlas`, `d3-geo`, `topojson-client` et `i18n-iso-countries` sont des
 dépendances de **développement**. Le script projette une fois pour toutes et
@@ -225,11 +245,17 @@ n'écrit que des chemins SVG : le navigateur reçoit des `d="M…"`, pas une
 bibliothèque de cartographie. Le résultat est versionné — un clone a ses cartes
 sans réseau et sans installation.
 
-Les cinq fonds pèsent ensemble quatre cents kilo-octets, et ils ne sont
-**jamais** dans le paquet d'un écran de français : le catalogue des régions,
-lui, tient en vingt lignes et c'est le seul fichier que le registre des types
-importe. Les tracés se chargent par `import()` dynamique, un morceau par
-région, à l'ouverture d'une carte.
+Les cinq fonds pèsent ensemble un demi-méga-octet, et ils ne sont **jamais**
+dans le paquet d'un écran de français : le catalogue des régions, lui, tient en
+vingt lignes et c'est le seul fichier que le registre des types importe. Les
+tracés se chargent par `import()` dynamique, un morceau par région, à
+l'ouverture d'une carte.
+
+Le cadrage est une **fenêtre** en longitude et latitude, pas la boîte des pays
+retenus. Les Açores, les Canaries et le Svalbard appartiennent au tracé du
+Portugal, de l'Espagne et de la Norvège : cadrer sur les pays laissait l'Europe
+minuscule au milieu d'une mer vide, trois confettis ayant fait reculer tout le
+continent. Ce qui déborde est rogné, comme dans n'importe quel atlas imprimé.
 
 La cible ne quitte jamais le serveur. Le fond de carte, lui, est bien dans le
 navigateur : c'est le plateau de jeu, pas la réponse. Le lire revient à
@@ -257,16 +283,21 @@ src/components/exercices/index.tsx   une ligne de registre
 ```
 
 Types existants : `spot-error`, `qcm`, `flashcard`, `traduction`, `ecoute`,
-`prononciation`, `appariement`, `carte-monde`.
+`prononciation`, `carte-monde`.
 
-L'appariement est le seul qui pose plusieurs questions à la fois : cinq paires
-à relier, et le verdict compte les paires justes. La colonne de droite est
-mélangée par une permutation **tirée du contenu lui-même** — pas au hasard.
-L'auteur n'a donc pas de permutation à écrire, le même exercice se présente
-toujours pareil, et le serveur comme le client la recalculent à l'identique
-sans avoir à la transporter. Le contrôle qui compte est celui du doublon à
-droite : deux fois la même réponse rend une paire indécidable, et le validateur
-le refuse — il a bloqué trois exercices de géographie à l'écriture.
+`carte-monde` est le seul dont la réponse soit un endroit. Le fond porte deux
+couches — les terres et les mers — et `couche` dit laquelle répond au clic :
+sans elle, cliquer la Méditerranée quand on cherche l'Italie compterait comme
+une réponse. Ce n'est pas divulguer la solution, la consigne annonçant déjà
+« clique sur la mer ».
+
+Son empreinte est instructive. Elle a d'abord porté la région et la cible
+seules, et le validateur a bloqué trente-deux exercices d'un coup : il tenait
+« 🇵🇹 » et « Lisbonne est la capitale de quel pays ? » pour le même exercice,
+au motif qu'on y clique le même pays. Ce sont deux questions qui partagent une
+réponse, et un contrôle qui l'interdit empêche de parler d'un pays plus d'une
+fois. L'empreinte porte donc aussi la question. Ce qui reste interdit — et doit
+l'être — c'est de poser deux fois la même question sur le même fond.
 
 Deux exceptions documentées à la règle « la question ne contient jamais la
 réponse » : la carte mémoire, où l'on se juge soi-même après avoir vu le verso,

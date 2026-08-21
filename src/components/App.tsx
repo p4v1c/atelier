@@ -74,6 +74,17 @@ function titreModule(nom: string): [string, string] {
   return [`${mots.slice(0, -1).join(" ")} `, mots[mots.length - 1]!];
 }
 
+/** De quoi nommer un écran quand aucun onglet ne le fait. */
+const NOMS_ECRAN: Record<string, string> = {
+  serie: "Série",
+  bilan: "Bilan",
+  stats: "Progression",
+  catalogue: "Catalogue",
+  dictees: "Dictées",
+  dictee: "Dictée",
+  lecon: "Leçon",
+};
+
 /** Les onglets par défaut. Un module peut fournir les siens. */
 const ONGLETS_BASE: Onglet[] = [
   { cle: "accueil", libelle: "Accueil" },
@@ -217,10 +228,17 @@ export function App() {
     setScreen({ name: cle } as Screen);
   };
 
+  /* Le fil d'Ariane emprunte d'ordinaire son dernier mot à l'onglet courant.
+     Un module qui n'a pas d'onglets n'a rien à lui emprunter : ces noms-là
+     prennent le relais, faute de quoi tous ses écrans s'annonceraient pareil. */
   const nomEcran =
     ongletActif === "accueil"
-      ? "Aujourd’hui"
-      : (onglets.find((o) => o.cle === ongletActif)?.libelle ?? "Aujourd’hui");
+      ? screen.name === "accueil"
+        ? (look.nomAccueil ?? "Aujourd’hui")
+        : "Aujourd’hui"
+      : (onglets.find((o) => o.cle === ongletActif)?.libelle ??
+        NOMS_ECRAN[screen.name] ??
+        "Aujourd’hui");
 
   const contenu = erreur ? (
     <div className="plateau">

@@ -16,11 +16,11 @@
  * quatre : elle ne rend pas l'exercice trivial.
  */
 import { useEffect, useState } from "react";
-import type { FondDeCarte } from "@/lib/cartes/types";
+import type { FondDeCarte, Trace } from "@/lib/cartes/types";
 import { regionCarte } from "@/lib/cartes/regions";
 import type { VueExercice, VueExerciceProps } from "./types";
 
-type Question = { region: string; consigne: string; amorce: string | null };
+type Question = { region: string; couche: "pays" | "mer"; consigne: string; amorce: string | null };
 type Reveal = { cible: string; cibleNom: string; explication: string | null };
 
 /**
@@ -66,6 +66,12 @@ function CarteMondeVue({ question, verdict, choix, repondre }: VueExerciceProps)
   const fige = verdict !== null;
   const clique = typeof choix === "string" ? choix : null;
 
+  /* Une seule couche répond au clic. L'autre reste dessinée — c'est la carte —
+     mais sourde : cliquer l'Italie quand on cherche la Méditerranée ne doit
+     pas valider une réponse qui n'était pas posée. */
+  const cibles = q.couche === "mer" ? fond?.mers : fond?.pays;
+  const vivante = (couche: "pays" | "mer") => couche === q.couche;
+
   /* La carte réserve sa place avant d'être chargée : sans cela, l'écran saute
      au moment où le fond arrive, et le clic part sur le mauvais pays. Le
      rapport vient du catalogue des régions, qui ne pèse rien — le fond, lui,
@@ -77,12 +83,28 @@ function CarteMondeVue({ question, verdict, choix, repondre }: VueExerciceProps)
      l'écran sans se retrouver bordée de mer vide. */
   const ratioNum = gabarit ? gabarit.largeur / gabarit.hauteur : 1.5;
 
-  const classePays = (id: string) => {
-    if (!reveal) return survole === id ? "pays survole" : "pays";
-    if (id === reveal.cible) return "pays juste";
-    if (id === clique) return "pays rate";
-    return "pays";
+  const classe = (base: "pays" | "mer", id: string) => {
+    if (!reveal) return survole === id ? `${base} survole` : base;
+    if (id === reveal.cible) return `${base} juste`;
+    if (id === clique) return `${base} rate`;
+    return base;
   };
+
+  /* Les traits d'une couche sourde ne doivent pas non plus intercepter le
+     survol du dessous : « inerte » coupe les événements de pointeur. */
+  const couche = (base: "pays" | "mer", traces: Trace[]) =>
+    traces.map((t) => (
+      <path
+        key={t.id}
+        d={t.d}
+        className={`${classe(base, t.id)} ${vivante(base) ? "" : "inerte"}`}
+        aria-label={vivante(base) ? t.nom : undefined}
+        aria-hidden={vivante(base) ? undefined : true}
+        onMouseEnter={() => vivante(base) && !fige && setSurvole(t.id)}
+        onMouseLeave={() => vivante(base) && !fige && setSurvole(null)}
+        onClick={() => vivante(base) && !fige && repondre(t.id)}
+      />
+    ));
 
   return (
     <>
@@ -101,33 +123,41 @@ function CarteMondeVue({ question, verdict, choix, repondre }: VueExerciceProps)
 
           {fond && (
             <svg
-              className="carte-monde"
+              className={`carte-monde vise-${q.couche}`}
               viewBox={`0 0 ${fond.largeur} ${fond.hauteur}`}
               role="group"
-              aria-label={`${fond.titre} — ${fond.pays.length} pays`}
+              aria-label={`${fond.titre} — ${(cibles ?? []).length} réponses possibles`}
             >
-              {fond.pays.map((p) => (
-                <path
-                  key={p.id}
-                  d={p.d}
-                  className={classePays(p.id)}
-                  aria-label={p.nom}
-                  onMouseEnter={() => !fige && setSurvole(p.id)}
-                  onMouseLeave={() => !fige && setSurvole(null)}
-                  onClick={() => !fige && repondre(p.id)}
-                />
-              ))}
+              {/* Sous tout le reste, l'eau libre. Sans elle, un clic tombé
+                  à côté ne ferait rien du tout : on cliquerait, l'écran ne
+                  bougerait pas, et l'on croirait l'application bloquée. Là,
+                  toute la carte répond — à côté, c'est une réponse fausse. */}
+              <rect
+                className="ailleurs"
+                x={0}
+                y={0}
+                width={fond.largeur}
+                height={fond.hauteur}
+                aria-hidden
+                onClick={() => !fige && repondre("ailleurs")}
+              />
+
+              {/* Les mers ensuite : les terres se posent par-dessus, si bien
+                  qu'une zone marine un peu large ne déborde jamais sur un
+                  continent — c'est le dessin qui la rogne. */}
+              {couche("mer", fond.mers)}
+              {couche("pays", fond.pays)}
             </svg>
           )}
         </div>
 
-        {fond && !fige && (
+        {cibles && !fige && (
           <details className="carte-repli">
             <summary>Répondre sans la carte</summary>
             <div className="puces">
-              {fond.pays.map((p) => (
-                <button key={p.id} className="puce" onClick={() => repondre(p.id)}>
-                  {p.nom}
+              {cibles.map((t) => (
+                <button key={t.id} className="puce" onClick={() => repondre(t.id)}>
+                  {t.nom}
                 </button>
               ))}
             </div>
@@ -148,11 +178,8 @@ function CarteMondeVue({ question, verdict, choix, repondre }: VueExerciceProps)
           ) : (
             <>
               La bonne réponse : <b>{reveal.cibleNom}</b>
-              {clique && fond && clique !== reveal.cible && (
-                <>
-                  {" "}
-                  · ton clic : {fond.pays.find((p) => p.id === clique)?.nom ?? "un autre pays"}
-                </>
+              {clique && cibles && clique !== reveal.cible && (
+                <> · ton clic : {cibles.find((t) => t.id === clique)?.nom ?? "en pleine eau"}</>
               )}
               .
             </>
@@ -167,5 +194,5 @@ function CarteMondeVue({ question, verdict, choix, repondre }: VueExerciceProps)
 
 export const carteMondeVue: VueExercice = {
   Vue: CarteMondeVue,
-  consigne: "Clique sur le pays, directement sur la carte.",
+  consigne: "Réponds en cliquant directement sur la carte.",
 };
