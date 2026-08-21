@@ -102,6 +102,7 @@ Deux routes publiques y pourvoient :
 | ------------------------------------ | ---------------------------------------------------- |
 | `/api/public/modules`                | le catalogue des matières — noms et volumes, léger    |
 | `/api/public/content?module=…`       | le contenu d'UNE matière, téléchargé à son ouverture  |
+| `/api/public/lessons/<slug>`         | un cours, servi à l'unité                             |
 
 La séparation compte : afficher « Espagnol » dans une liste ne doit pas coûter
 le téléchargement des 4 336 phrases du français.

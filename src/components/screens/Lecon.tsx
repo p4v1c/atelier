@@ -9,7 +9,6 @@
  */
 import { useEffect, useState } from "react";
 import type { LessonPayload, LessonVisuel } from "@/lib/api-types";
-import { apiGet } from "@/lib/client/api";
 import { NoContentError } from "@/lib/client/engine";
 import type { ScreenProps } from "../App";
 
@@ -157,13 +156,16 @@ export function Lecon({ engine, slug, moduleId, setScreen, setChrome }: Props) {
 
   useEffect(() => {
     let vivant = true;
-    apiGet<LessonPayload>(`/api/lessons/${encodeURIComponent(slug)}`)
+    // Par le moteur, et non par l'API : c'est lui qui sait si l'on est
+    // connecté, et donc quelle route interroger.
+    engine
+      .lesson(slug)
       .then((d) => vivant && setData(d))
       .catch(() => vivant && setMessage("Ce cours n’a pas pu être chargé."));
     return () => {
       vivant = false;
     };
-  }, [slug]);
+  }, [engine, slug]);
 
   useEffect(() => {
     setChrome({

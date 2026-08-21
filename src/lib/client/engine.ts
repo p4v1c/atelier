@@ -19,6 +19,7 @@ import type {
   DictationDetail,
   DictationResultPayload,
   DictationsPayload,
+  LessonPayload,
   ModulePublic,
   ModuleSummary,
   ProgressPayload,
@@ -74,6 +75,8 @@ export interface Engine {
   progress(moduleId?: string): Promise<ProgressPayload>;
   catalogue(moduleId?: string): Promise<CataloguePayload>;
   dictations(moduleId?: string): Promise<DictationsPayload>;
+  /** Le cours attaché à une compétence, quand elle en a un. */
+  lesson(slug: string): Promise<LessonPayload>;
   dictation(id: string): Promise<DictationDetail>;
   gradeDictation(id: string, text: string): Promise<DictationResultPayload>;
   /** Efface la progression. Le mode connecté ne le propose pas. */
@@ -108,6 +111,9 @@ export class ServerEngine implements Engine {
   }
   dictations(moduleId?: string): Promise<DictationsPayload> {
     return apiGet<DictationsPayload>(`/api/dictations${moduleId ? `?module=${moduleId}` : ""}`);
+  }
+  lesson(slug: string): Promise<LessonPayload> {
+    return apiGet<LessonPayload>(`/api/lessons/${encodeURIComponent(slug)}`);
   }
   dictation(id: string): Promise<DictationDetail> {
     return apiGet<DictationDetail>(`/api/dictations/${id}`);
@@ -653,6 +659,16 @@ private save() {
         lastAttemptAt: null,
       })),
     };
+  }
+
+  /**
+   * Le cours, par la route publique.
+   *
+   * Un cours se lit, il ne se corrige pas : il n'y a rien à protéger dedans,
+   * et rien ne justifie d'en priver un invité.
+   */
+  async lesson(slug: string): Promise<LessonPayload> {
+    return apiGet<LessonPayload>(`/api/public/lessons/${encodeURIComponent(slug)}`);
   }
 
   async dictation(id: string): Promise<DictationDetail> {
