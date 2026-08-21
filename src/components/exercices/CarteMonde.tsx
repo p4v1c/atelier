@@ -72,6 +72,10 @@ function CarteMondeVue({ question, verdict, choix, repondre }: VueExerciceProps)
      arrive plus tard. */
   const gabarit = regionCarte(q.region);
   const ratio = gabarit ? `${gabarit.largeur} / ${gabarit.hauteur}` : "3 / 2";
+  /* Le même rapport, en nombre : `aspect-ratio` accepte la fraction, `calc()`
+     non, et c'est `calc()` qui borne la largeur pour que la carte tienne dans
+     l'écran sans se retrouver bordée de mer vide. */
+  const ratioNum = gabarit ? gabarit.largeur / gabarit.hauteur : 1.5;
 
   const classePays = (id: string) => {
     if (!reveal) return survole === id ? "pays survole" : "pays";
@@ -88,7 +92,10 @@ function CarteMondeVue({ question, verdict, choix, repondre }: VueExerciceProps)
         {q.amorce && <p className="carte-amorce">{q.amorce}</p>}
         <p className="enonce">{q.consigne}</p>
 
-        <div className="carte-cadre" style={{ "--carte-ratio": ratio } as React.CSSProperties}>
+        <div
+          className="carte-cadre"
+          style={{ "--carte-ratio": ratio, "--carte-ratio-num": ratioNum } as React.CSSProperties}
+        >
           {erreur && <p className="legende carte-etat">Ce fond de carte n’a pas pu être chargé.</p>}
           {!erreur && !fond && <p className="legende carte-etat attente">Chargement de la carte…</p>}
 

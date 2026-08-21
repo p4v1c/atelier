@@ -84,6 +84,14 @@ const NOMS_COURANTS = {
  * Le découpage est éditorial, pas géographique : la Russie est retirée de la
  * carte d'Europe parce qu'elle en écrase l'échelle à elle seule, et la Turquie
  * y figure parce qu'on l'y cherche. Ces choix se discutent ; ils sont ici.
+ *
+ * `cadre` est la FENÊTRE en longitude/latitude, et non la liste des pays.
+ * Cadrer sur les pays retenus donnait une carte minuscule au milieu d'une mer
+ * vide : les Açores, les Canaries et le Svalbard appartiennent au tracé du
+ * Portugal, de l'Espagne et de la Norvège, et trois confettis à deux mille
+ * kilomètres suffisaient à faire reculer toute l'Europe. La fenêtre est donc
+ * choisie à la main, et ce qui déborde est rogné — comme dans n'importe quel
+ * atlas imprimé.
  */
 const REGIONS = {
   monde: {
@@ -97,16 +105,18 @@ const REGIONS = {
   europe: {
     titre: "L'Europe",
     projection: "mercator",
-    largeur: 900,
-    hauteur: 620,
+    largeur: 820,
+    hauteur: 790,
+    cadre: [[-25, 34], [45, 71.5]],
     codes: `PT ES FR IE GB BE NL LU DE CH AT IT MT SI HR BA RS ME AL MK GR BG RO HU SK CZ PL
             LT LV EE FI SE NO DK IS UA BY MD CY TR AD LI`,
   },
   afrique: {
     titre: "L'Afrique",
     projection: "mercator",
-    largeur: 760,
-    hauteur: 760,
+    largeur: 700,
+    hauteur: 765,
+    cadre: [[-20, -36], [53, 38]],
     codes: `MA DZ TN LY EG MR ML NE TD SD SS ER DJ SO ET KE UG RW BI TZ MZ MW ZM ZW BW NA ZA
             LS SZ AO CD CG GA GQ CM CF NG BJ TG GH CI LR SL GN GW SN GM BF MG EH`,
   },
@@ -114,15 +124,17 @@ const REGIONS = {
     titre: "L'Asie",
     projection: "mercator",
     largeur: 940,
-    hauteur: 700,
+    hauteur: 608,
+    cadre: [[25, -11], [147, 56]],
     codes: `TR SY LB IL JO IQ IR SA YE OM AE QA KW GE AM AZ KZ UZ TM TJ KG AF PK IN NP BT BD
             LK MM TH LA KH VN MY ID PH CN MN KP KR JP TW BN`,
   },
   ameriques: {
     titre: "Les Amériques",
     projection: "mercator",
-    largeur: 700,
-    hauteur: 900,
+    largeur: 640,
+    hauteur: 816,
+    cadre: [[-170, -56], [-34, 72]],
     codes: `CA US MX GT BZ SV HN NI CR PA CU DO HT JM TT CO VE GY SR EC PE BR BO PY UY AR CL`,
   },
 };
@@ -170,15 +182,29 @@ for (const [cle, region] of Object.entries(REGIONS)) {
     return codes.has(String(Number(f.id)));
   });
 
-  const collection = { type: "FeatureCollection", features: retenues };
-  const marge = 12;
+  /* Sur quoi la projection se cale.
+     Un cadre est donné en quatre POINTS, pas en polygone : d3 relierait les
+     sommets d'un polygone par des géodésiques, qui bombent en Mercator et
+     décaleraient la fenêtre. Quatre points isolés ne s'interpolent pas, et en
+     Mercator leur boîte englobante est exactement le rectangle voulu. */
+  const [[ouest, sud], [est, nord]] = region.cadre ?? [[0, 0], [0, 0]];
+  const repere = region.cadre
+    ? { type: "MultiPoint", coordinates: [[ouest, sud], [est, sud], [est, nord], [ouest, nord]] }
+    : { type: "FeatureCollection", features: retenues };
+  const marge = region.cadre ? 0 : 12;
   const projection = (region.projection === "naturalEarth" ? geoNaturalEarth1() : geoMercator()).fitExtent(
     [
       [marge, marge],
       [region.largeur - marge, region.hauteur - marge],
     ],
-    collection
+    repere
   );
+
+  /* Le rognage se pose APRÈS l'ajustement, que d3 fait à cadre libre. Sans
+     lui, le Svalbard et les Açores restent dans le tracé de la Norvège et du
+     Portugal : invisibles hors du viewBox, mais bien présents dans le fichier
+     — et à cette échelle, en Mercator, leurs coordonnées pèsent lourd. */
+  if (region.cadre) projection.clipExtent([[0, 0], [region.largeur, region.hauteur]]);
 
   /* Le pixel entier suffit : le viewBox fait moins de mille unités de large,
      et une carte rendue à cette taille ne montre pas le dixième de pixel.
@@ -195,10 +221,17 @@ for (const [cle, region] of Object.entries(REGIONS)) {
       .replace(/L(-?\d+),(-?\d+)(?=L\1,\2(?:[LZ]|$))/g, "")
       .replace(/M(-?\d+),(-?\d+)Z/g, "");
 
-  const pays = retenues
+  const tous = retenues
     .map((f) => ({ id: identifiant(f), nom: nomFrancais(f), d: arrondir(tracer(f) ?? "") }))
-    .filter((p) => p.d.length > 0)
     .sort((a, b) => a.nom.localeCompare(b.nom, "fr"));
+
+  /* Un pays que le rognage a fait disparaître ne doit surtout pas rester dans
+     la liste : il serait invisible sur la carte et pourtant cliquable dans le
+     repli d'accessibilité — un exercice injouable. On le retire, et on le dit,
+     parce qu'un pays perdu en silence est un cadre à revoir. */
+  const pays = tous.filter((p) => p.d.length > 0);
+  const perdus = tous.filter((p) => p.d.length === 0).map((p) => p.nom);
+  if (perdus.length) console.log(`  ⚠ hors cadre, retirés : ${perdus.join(", ")}`);
 
   const lignes = pays.map((p) => `  { id: "${p.id}", nom: ${JSON.stringify(p.nom)}, d: "${p.d}" },`);
 

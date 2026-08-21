@@ -78,17 +78,21 @@
 /* Le cadre réserve sa place avant que le fond n'arrive : sans lui, l'écran
    saute au chargement et le premier clic part sur le mauvais pays.
 
-   Il est aussi PLAFONNÉ en hauteur. Les Amériques font 700 sur 900 : à pleine
-   largeur, la carte dépassait l'écran et poussait le verdict sous la ligne de
-   flottaison — on cliquait sans jamais voir la correction. Le plafond garde
-   la carte et sa réponse dans le même coup d'œil, et le SVG se centre dans ce
-   qui reste. */
+   Il est aussi plafonné en hauteur : les Amériques sont plus hautes que larges,
+   et à pleine largeur la carte poussait le verdict sous la ligne de flottaison
+   — on cliquait sans jamais voir la correction.
+
+   Le plafond porte sur la LARGEUR, pas sur la hauteur. Un `max-height` aurait
+   raccourci la boîte en la laissant large : le SVG s'y serait centré entre deux
+   bandes de mer vide. En bornant la largeur par la hauteur voulue multipliée
+   par le rapport de la carte, la boîte garde ses proportions, et le dessin la
+   remplit d'un bord à l'autre. */
 .carte-cadre {
   position: relative;
   width: 100%;
+  max-width: calc(58vh * var(--carte-ratio-num, 1.5));
   aspect-ratio: var(--carte-ratio, 3 / 2);
-  max-height: 54vh;
-  margin: 4px 0 2px;
+  margin: 4px auto 2px;
   border-radius: 3px;
   overflow: hidden;
   background: var(--geo-mer);

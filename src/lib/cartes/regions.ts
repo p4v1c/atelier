@@ -14,10 +14,10 @@ export type RegionCarte = { cle: string; titre: string; largeur: number; hauteur
 
 export const REGIONS_CARTE: RegionCarte[] = [
   { cle: "monde", titre: "Le monde", largeur: 980, hauteur: 500 },
-  { cle: "europe", titre: "L'Europe", largeur: 900, hauteur: 620 },
-  { cle: "afrique", titre: "L'Afrique", largeur: 760, hauteur: 760 },
-  { cle: "asie", titre: "L'Asie", largeur: 940, hauteur: 700 },
-  { cle: "ameriques", titre: "Les Amériques", largeur: 700, hauteur: 900 },
+  { cle: "europe", titre: "L'Europe", largeur: 820, hauteur: 790 },
+  { cle: "afrique", titre: "L'Afrique", largeur: 700, hauteur: 765 },
+  { cle: "asie", titre: "L'Asie", largeur: 940, hauteur: 608 },
+  { cle: "ameriques", titre: "Les Amériques", largeur: 640, hauteur: 816 },
 ];
 
 export const CLES_REGION: string[] = REGIONS_CARTE.map((r) => r.cle);
