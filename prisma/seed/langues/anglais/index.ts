@@ -13,7 +13,10 @@ import { ANGLAIS_CONJUGAISON_2 } from "./conjugaison-2";
 import { ANGLAIS_COURS_AVANCE } from "./cours-avance";
 import { ANGLAIS_COURS_GRAMMAIRE } from "./cours-grammaire";
 import { ANGLAIS_GRAMMAIRE_C1 } from "./grammaire-c1";
+import { ANGLAIS_IDIOMES_CARACTERE } from "./idiomes-caractere";
+import { ANGLAIS_MONDE_2 } from "./monde-2";
 import { ANGLAIS_PHRASAL_COLLOCATIONS } from "./phrasal-collocations";
+import { ANGLAIS_SENSATIONS } from "./sensations";
 import { ANGLAIS_PRECISION } from "./precision";
 import { ANGLAIS_COURS_TOURNURES } from "./cours-tournures";
 import { ANGLAIS_COURS_USAGE } from "./cours-usage";
@@ -55,6 +58,9 @@ export const LOTS_ANGLAIS: LotCartes[] = [
   ...ANGLAIS_GRAMMAIRE_C1,
   ...ANGLAIS_PHRASAL_COLLOCATIONS,
   ...ANGLAIS_PRECISION,
+  ...ANGLAIS_SENSATIONS,
+  ...ANGLAIS_MONDE_2,
+  ...ANGLAIS_IDIOMES_CARACTERE,
   ...ANGLAIS_AVANCE_C2,
   ...ANGLAIS_PRONONCIATION,
   ...ANGLAIS_EXPRESSIONS,

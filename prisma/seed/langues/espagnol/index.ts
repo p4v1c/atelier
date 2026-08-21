@@ -3,6 +3,9 @@
  */
 import type { DicteeLangue, LotCartes } from "../../../../src/modules/langues/commun";
 import { ESPAGNOL_BASES } from "./bases";
+import { ESPAGNOL_MODISMOS_CARACTER } from "./modismos-caracter";
+import { ESPAGNOL_MUNDO_2 } from "./mundo-2";
+import { ESPAGNOL_SENSACIONES } from "./sensaciones";
 import { ESPAGNOL_PERIFRASIS_COLOCACIONES } from "./perifrasis-colocaciones";
 import { ESPAGNOL_PRECISION } from "./precision";
 import { ESPAGNOL_GRAMATICA_C1 } from "./gramatica-c1";
@@ -52,6 +55,9 @@ export const LOTS_ESPAGNOL: LotCartes[] = [
   ...ESPAGNOL_GRAMATICA_C1,
   ...ESPAGNOL_PERIFRASIS_COLOCACIONES,
   ...ESPAGNOL_PRECISION,
+  ...ESPAGNOL_SENSACIONES,
+  ...ESPAGNOL_MUNDO_2,
+  ...ESPAGNOL_MODISMOS_CARACTER,
   ...ESPAGNOL_AVANZADO_C2,
 ];
 
