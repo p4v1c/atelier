@@ -15,7 +15,9 @@ import { ANGLAIS_COURS_TOURNURES } from "./cours-tournures";
 import { ANGLAIS_COURS_USAGE } from "./cours-usage";
 import { ANGLAIS_DEBUTANT } from "./debutant";
 import { ANGLAIS_DICTEES } from "./dictees";
+import { ANGLAIS_EXPRESSIONS } from "./expressions";
 import { ANGLAIS_FAUX_AMIS } from "./faux-amis";
+import { ANGLAIS_PRONONCIATION } from "./prononciation";
 import { ANGLAIS_QUOTIDIEN_A1 } from "./quotidien-a1";
 import { ANGLAIS_TRAVAIL } from "./travail";
 import { ANGLAIS_VERBES } from "./verbes";
@@ -42,6 +44,8 @@ export const LOTS_ANGLAIS: LotCartes[] = [
   ...ANGLAIS_VOCABULAIRE_IDEES,
   ...ANGLAIS_VOCABULAIRE_METIERS,
   ...ANGLAIS_VOCABULAIRE_C1,
+  ...ANGLAIS_PRONONCIATION,
+  ...ANGLAIS_EXPRESSIONS,
 ];
 
 export const DICTEES_ANGLAIS: DicteeLangue[] = ANGLAIS_DICTEES;

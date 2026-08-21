@@ -7,8 +7,8 @@ répétition espacée, et autant de matières qu'on veut y mettre.
 | ---------------- | ------------------------------------------------------------ | ------------------ |
 | Français         | 618 règles · 4 336 phrases · 310 dictées                      | cahier d'écolier   |
 | Culture générale | 322 notions · 2 209 questions · 280 leçons                    | carnet de révision |
-| Anglais          | 77 séries · 2 980 cartes · 10 dictées · 49 cours                | signalétique       |
-| Espagnol         | 75 séries · 2 910 cartes · 10 dictées · 47 cours                | signalétique       |
+| Anglais          | 88 séries · 3 420 cartes · 10 dictées · 60 cours                | signalétique       |
+| Espagnol         | 86 séries · 3 350 cartes · 10 dictées · 58 cours                | signalétique       |
 | Géographie       | 18 notions · 144 questions · 2 cours                          | atlas              |
 
 Le moteur ne sait pas ce qu'est une faute d'orthographe ni une capitale : il
@@ -183,6 +183,13 @@ espeak, un synthétiseur à formants qui apprend une mauvaise prononciation.
 attend quatre secondes le temps que Piper charge son modèle ; avec, c'est
 immédiat. La préparation groupe les textes par langue — un chargement de modèle
 au lieu de huit cents, dix minutes au lieu de quarante.
+
+La catégorie **Prononciation** compte sept séries par langue, toutes avec un
+cours : les voyelles, le TH, les terminaisons, l'accent de mot, le schwa et les
+lettres muettes côté anglais ; les cinq voyelles, la jota et le R, le seseo,
+l'enchaînement, les diphtongues et l'intonation côté espagnol. C'est le domaine
+où l'on ne se corrige pas tout seul — personne ne signale qu'il n'a pas
+compris, il répète simplement sa phrase.
 
 **La prononciation mesure si un logiciel te comprend, pas la qualité de ton
 accent.** C'est un révélateur honnête — dire « sheep » quand on visait « ship »

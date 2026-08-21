@@ -11,7 +11,9 @@ import { ESPAGNOL_COURS_GRAMMAIRE } from "./cours-grammaire";
 import { ESPAGNOL_COURS_USAGE } from "./cours-usage";
 import { ESPAGNOL_DEBUTANT } from "./debutant";
 import { ESPAGNOL_DICTEES } from "./dictees";
+import { ESPAGNOL_EXPRESIONES } from "./expresiones";
 import { ESPAGNOL_FAUX_AMIS } from "./faux-amis";
+import { ESPAGNOL_PRONUNCIACION } from "./pronunciacion";
 import { ESPAGNOL_QUOTIDIEN_A2 } from "./quotidien-a2";
 import { ESPAGNOL_REGISTRES } from "./registres";
 import { ESPAGNOL_VOCABULAIRE_C1 } from "./vocabulaire-c1";
@@ -37,6 +39,8 @@ export const LOTS_ESPAGNOL: LotCartes[] = [
   ...ESPAGNOL_VOCABULAIRE_IDEAS,
   ...ESPAGNOL_VOCABULAIRE_OFICIOS,
   ...ESPAGNOL_VOCABULAIRE_C1,
+  ...ESPAGNOL_PRONUNCIACION,
+  ...ESPAGNOL_EXPRESIONES,
 ];
 
 export const DICTEES_ESPAGNOL: DicteeLangue[] = ESPAGNOL_DICTEES;
