@@ -4,6 +4,9 @@
 import type { DicteeLangue, LotCartes } from "../../../../src/modules/langues/commun";
 import { ESPAGNOL_BASES } from "./bases";
 import { ESPAGNOL_CONJUGAISON } from "./conjugaison";
+import { ESPAGNOL_AVANCE } from "./avance";
+import { ESPAGNOL_COURS_GRAMMAIRE } from "./cours-grammaire";
+import { ESPAGNOL_COURS_USAGE } from "./cours-usage";
 import { ESPAGNOL_DEBUTANT } from "./debutant";
 import { ESPAGNOL_DICTEES } from "./dictees";
 import { ESPAGNOL_FAUX_AMIS } from "./faux-amis";
@@ -13,6 +16,9 @@ export const LOTS_ESPAGNOL: LotCartes[] = [
   ...ESPAGNOL_DEBUTANT,
   ...ESPAGNOL_BASES,
   ...ESPAGNOL_CONJUGAISON,
+  ...ESPAGNOL_COURS_GRAMMAIRE,
+  ...ESPAGNOL_COURS_USAGE,
+  ...ESPAGNOL_AVANCE,
   ...ESPAGNOL_VERBES,
   ...ESPAGNOL_FAUX_AMIS,
 ];

@@ -7,8 +7,8 @@ répétition espacée, et autant de matières qu'on veut y mettre.
 | ---------------- | ------------------------------------------------------------ | ------------------ |
 | Français         | 618 règles · 4 336 phrases · 310 dictées                      | cahier d'écolier   |
 | Culture générale | 322 notions · 2 209 questions · 280 leçons                    | carnet de révision |
-| Anglais          | 25 séries · 920 cartes · 10 dictées · 3 cours de conjugaison   | signalétique       |
-| Espagnol         | 20 séries · 730 cartes · 10 dictées · 3 cours de conjugaison   | signalétique       |
+| Anglais          | 36 séries · 1 340 cartes · 10 dictées · 14 cours                | signalétique       |
+| Espagnol         | 34 séries · 1 270 cartes · 10 dictées · 12 cours                | signalétique       |
 | Géographie       | 2 notions · 14 questions — le gabarit à copier                | par défaut         |
 
 Le moteur ne sait pas ce qu'est une faute d'orthographe ni une capitale : il

@@ -7,6 +7,9 @@
 import type { DicteeLangue, LotCartes } from "../../../../src/modules/langues/commun";
 import { ANGLAIS_BASES } from "./bases";
 import { ANGLAIS_CONJUGAISON } from "./conjugaison";
+import { ANGLAIS_COURS_AVANCE } from "./cours-avance";
+import { ANGLAIS_COURS_GRAMMAIRE } from "./cours-grammaire";
+import { ANGLAIS_COURS_USAGE } from "./cours-usage";
 import { ANGLAIS_DEBUTANT } from "./debutant";
 import { ANGLAIS_DICTEES } from "./dictees";
 import { ANGLAIS_FAUX_AMIS } from "./faux-amis";
@@ -17,6 +20,9 @@ export const LOTS_ANGLAIS: LotCartes[] = [
   ...ANGLAIS_DEBUTANT,
   ...ANGLAIS_BASES,
   ...ANGLAIS_CONJUGAISON,
+  ...ANGLAIS_COURS_GRAMMAIRE,
+  ...ANGLAIS_COURS_AVANCE,
+  ...ANGLAIS_COURS_USAGE,
   ...ANGLAIS_VERBES,
   ...ANGLAIS_FAUX_AMIS,
   ...ANGLAIS_TRAVAIL,
