@@ -761,3 +761,100 @@
 .deux-volets > .volet-liste { display: flex; flex-direction: column; min-height: 0; }
 .deux-volets > .volet-liste > .liste-points { overflow-y: auto; min-height: 0; }
 .deux-volets > .volet-fiche { display: flex; flex-direction: column; overflow-y: auto; }
+
+/* ═══════════════════════════════════════════════════════════════════════
+   MON COMPTE
+   ═══════════════════════════════════════════════════════════════════════
+
+   Deux volets, et le partage n'est pas décoratif. À gauche ce qu'on peut
+   CHANGER — identité, mot de passe, présence ; à droite ce qu'on peut SAVOIR
+   — données, sessions ouvertes, ce que l'application ne fera pas. Un écran de
+   compte qui mélange les deux se lit deux fois. */
+
+/* `ecran-compte` et non `compte` : `.compte` existe déjà dans globals.css —
+   un libellé en petites capitales, en `nowrap`. Le nom pris deux fois faisait
+   hériter tout l'écran de onze pixels en majuscules, et la phrase sous la
+   déconnexion sortait de la colonne sans pouvoir se replier. */
+.principal.ecran-compte {
+  display: flex;
+  flex-direction: column;
+  max-width: 640px;
+}
+.principal.ecran-compte .mono-titre { margin-top: 26px; }
+.principal.ecran-compte > .mono-titre:first-child { margin-top: 0; }
+.principal.ecran-compte .fiche-faits { margin-bottom: 0; }
+
+/* Deux champs qui se remplissent d'un même geste : ils tiennent sur une
+   ligne. Un formulaire de deux entrées n'a pas à occuper un écran. */
+.duo-champs { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 14px; }
+
+/* Le bouton et ce qu'il fera, sur la même ligne : la conséquence se lit au
+   moment de cliquer, pas après. */
+.rang-action { display: flex; align-items: center; gap: 16px; margin-top: 16px; }
+/* La conséquence du bouton, à côté du bouton. `min-width: 0` la laisse se
+   replier plutôt que de pousser la colonne. */
+.rang-action .aide {
+  margin: 0;
+  flex: 1;
+  min-width: 0;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--mauve-2);
+}
+
+/* La déconnexion ferme la page. Elle va tout en bas, séparée par un filet,
+   là où l'on ne clique pas par accident en cherchant autre chose. */
+.rang-action.sortie {
+  margin-top: auto;
+  padding-top: 20px;
+  border-top: 1px solid var(--encre-3);
+}
+
+.rail .creux.large { width: 100%; }
+
+/* Le rail enchaîne trois sections : sans marge, le titre de la suivante colle
+   au bouton de la précédente et l'on ne voit plus la coupure. */
+.rail .mono-titre { margin-top: 26px; }
+.rail > .mono-titre:first-child { margin-top: 0; }
+
+/* Les sessions ouvertes : ce qu'on lit ici, c'est « est-ce bien moi ? ».
+   L'appareil et le navigateur d'un côté, depuis quand de l'autre. */
+.sessions { list-style: none; margin: 0; padding: 0; }
+.sessions li {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--encre-3);
+  font-size: 13px;
+  color: var(--mauve-2);
+}
+.sessions li:last-child { border-bottom: 0; }
+.sessions .quoi { min-width: 0; }
+.sessions .quoi b { color: var(--craie); font-weight: 400; }
+.sessions .quand {
+  flex: none;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  color: var(--mauve-2);
+}
+/* Celle depuis laquelle on regarde : la seule qu'on n'a pas à vérifier. */
+.sessions .quand.ici { color: var(--vert); }
+
+.note-technique {
+  margin: 12px 0 0;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10.5px;
+  line-height: 1.7;
+  color: var(--mauve-2);
+}
+
+/* Ce qui doit rester en bas du rail sans être une note en petits caractères. */
+.rail-fin { margin-top: auto; padding-top: 22px; }
+.rail-fin .mono-titre { margin-top: 0; }
+
+@media (max-width: 720px) {
+  .duo-champs { grid-template-columns: 1fr; }
+  .rang-action { flex-direction: column; align-items: flex-start; gap: 8px; }
+}

@@ -83,6 +83,9 @@ const NOMS_ECRAN: Record<string, string> = {
   dictees: "Dictées",
   dictee: "Dictée",
   lecon: "Leçon",
+  connexion: "Connexion",
+  inscription: "Inscription",
+  compte: "Mon compte",
 };
 
 /** Les onglets par défaut. Un module peut fournir les siens. */
@@ -235,7 +238,7 @@ export function App() {
     ongletActif === "accueil"
       ? screen.name === "accueil"
         ? (look.nomAccueil ?? "Aujourd’hui")
-        : "Aujourd’hui"
+        : (NOMS_ECRAN[screen.name] ?? "Aujourd’hui")
       : (onglets.find((o) => o.cle === ongletActif)?.libelle ??
         NOMS_ECRAN[screen.name] ??
         "Aujourd’hui");

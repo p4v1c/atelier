@@ -6,22 +6,23 @@
  * puisqu'ils viennent de la même ligne.
  *
  * ─────────────────────────────────────────────────────────────────────────
- * DEUX PROBLÈMES DE FRANÇAIS, RÉSOLUS PAR LA FORMULATION
+ * DEUX PROBLÈMES DE FRANÇAIS
  *
- * « Quelle est la capitale de … ? » demande un article, qui dépend du genre et
- * de l'initiale : le Portugal, la Chine, l'Iran, les Pays-Bas. Cent soixante et
- * une fiches, c'est cent soixante et une occasions de se tromper. La question
- * met donc le nom en tête — « Portugal — quelle est sa capitale ? ». « Sa »
- * s'accorde avec « capitale », jamais avec le pays : le problème disparaît.
+ * « Quel est le drapeau de … ? » demande une préposition contractée : du
+ * Portugal, de la France, de l'Iran, des Pays-Bas, de Cuba. Une version
+ * précédente contournait la difficulté en mettant le nom en tête —
+ * « Kiribati — quel est son drapeau ? » —, ce qui marchait pour toutes les
+ * fiches et ne ressemblait à rien. La table des pays porte donc l'article, un
+ * par pays, et `de()` fait la contraction.
  *
- * Pour la carte, le nom passe en amorce, au-dessus du fond, et la consigne ne
- * le prononce pas. Même effet, et c'est en plus la forme la plus lisible : on
- * voit ce qu'on cherche, on cherche où c'est.
+ * Pour la carte, le nom passe en amorce au-dessus du fond, et la consigne ne
+ * le prononce pas. Le problème ne se pose pas, et c'est en plus la forme la
+ * plus lisible : on voit ce qu'on cherche, on cherche où c'est.
  */
 import { carteMonde } from "../../../src/modules/kinds/carte-monde";
 import { qcm } from "../../../src/modules/kinds/qcm";
 import type { SeedExercise } from "../../../src/modules/types";
-import { drapeauDe, type Fiche } from "./pays";
+import { de, drapeauDe, type Fiche } from "./pays";
 
 export const LOT = "geo-atlas";
 
@@ -65,7 +66,7 @@ function poser<T>(bonne: T, leurresRendus: T[], cible: Fiche): { choices: T[]; a
   return { choices, answerIndex };
 }
 
-/** « Portugal — quel est son drapeau ? », et quatre drapeaux à départager. */
+/** « Quel est le drapeau du Portugal ? », et quatre drapeaux à départager. */
 export function quizDrapeau(cible: Fiche, continent: Fiche[]): SeedExercise {
   const { choices, answerIndex } = poser(
     drapeauDe(cible.a2),
@@ -75,7 +76,7 @@ export function quizDrapeau(cible: Fiche, continent: Fiche[]): SeedExercise {
   return {
     kind: qcm.id,
     payload: {
-      question: `${cible.nom} — quel est son drapeau ?`,
+      question: `Quel est le drapeau ${de(cible)} ?`,
       choices,
       answerIndex,
       explanation: cible.drapeau ?? `${cible.nom} : ${cible.ou}.`,
@@ -85,7 +86,7 @@ export function quizDrapeau(cible: Fiche, continent: Fiche[]): SeedExercise {
   };
 }
 
-/** « Portugal — quelle est sa capitale ? », et quatre villes du même continent. */
+/** « Quelle est la capitale du Portugal ? », et quatre villes du même continent. */
 export function quizCapitale(cible: Fiche, continent: Fiche[]): SeedExercise {
   const { choices, answerIndex } = poser(
     cible.capitale,
@@ -95,7 +96,7 @@ export function quizCapitale(cible: Fiche, continent: Fiche[]): SeedExercise {
   return {
     kind: qcm.id,
     payload: {
-      question: `${cible.nom} — quelle est sa capitale ?`,
+      question: `Quelle est la capitale ${de(cible)} ?`,
       choices,
       answerIndex,
       /* Les deux points, encore : « le pays EST une principauté de… » serait

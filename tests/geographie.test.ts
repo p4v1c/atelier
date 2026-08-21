@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { GEO_SKILLS } from "../prisma/seed/geographie";
 import {
+  de,
   drapeauDe,
   EUROPE,
   AFRIQUE,
@@ -78,13 +79,22 @@ describe("la couverture", () => {
   /* Un pays présent dans la table mais dans aucune série n'existerait que sur
      le papier : personne ne le verrait jamais passer. */
   it("interroge chaque pays de la table au moins une fois", () => {
+    /* La reconnaissance est EXACTE, pas par sous-chaîne : « Guinée » se lit
+       dans « Guinée-Bissau », et un pays jamais interrogé passerait alors pour
+       couvert par son voisin. */
+    const attendus = new Map<string, string>();
+    for (const f of FICHES) {
+      attendus.set(`Quel est le drapeau ${de(f)} ?`, f.nom);
+      attendus.set(`Quelle est la capitale ${de(f)} ?`, f.nom);
+    }
+
     const vus = new Set<string>();
     for (const s of GEO_SKILLS) {
       for (const e of s.exercises) {
         const p = e.payload as { question?: string; cibleNom?: string };
-        for (const f of FICHES) {
-          if (p.question?.startsWith(`${f.nom} —`) || p.cibleNom === f.nom) vus.add(f.nom);
-        }
+        const parQuestion = p.question ? attendus.get(p.question) : undefined;
+        if (parQuestion) vus.add(parQuestion);
+        if (p.cibleNom) vus.add(p.cibleNom);
       }
     }
     const oublies = FICHES.filter((f) => !vus.has(f.nom)).map((f) => f.nom);

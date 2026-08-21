@@ -10,8 +10,8 @@
  * de deux champs étalé sur douze cents pixels ne se remplit pas plus vite — et
  * les faits du compte en lignes denses, comme la fiche du catalogue.
  */
-import { useEffect, useState, type FormEvent } from "react";
-import type { PublicUser } from "@/lib/api-types";
+import { useCallback, useEffect, useState, type FormEvent } from "react";
+import type { PublicUser, SessionOuverte } from "@/lib/api-types";
 import { ApiError, apiGet, apiPost } from "@/lib/client/api";
 import { clearGuestState, hasGuestProgress, loadGuestState, toTransferPayload } from "@/lib/client/guest-store";
 import type { ScreenProps } from "../App";
@@ -202,6 +202,37 @@ export function Inscription({ setScreen, setChrome, seConnecter }: ScreenProps) 
 
 /* ─────────────────────────── mon compte ─────────────────────────── */
 
+/**
+ * Depuis quand, en français et sans dépendance.
+ *
+ * `Intl.RelativeTimeFormat` existe dans tous les navigateurs visés et sait
+ * dire « il y a 3 jours » ; il ne sait pas dire « maintenant », qu'il rend
+ * « il y a 0 seconde ». Le premier palier est donc écrit à la main.
+ */
+function depuis(iso: string): string {
+  const secondes = Math.max(0, Math.round((Date.now() - new Date(iso).getTime()) / 1000));
+  if (secondes < 90) return "maintenant";
+  const fmt = new Intl.RelativeTimeFormat("fr", { numeric: "auto" });
+  const paliers: [number, Intl.RelativeTimeFormatUnit][] = [
+    [60, "minute"],
+    [3600, "hour"],
+    [86400, "day"],
+  ];
+  for (const [taille, unite] of paliers) {
+    const suivant = taille === 60 ? 3600 : taille === 3600 ? 86400 : Infinity;
+    if (secondes < suivant) return fmt.format(-Math.round(secondes / taille), unite);
+  }
+  return fmt.format(-Math.round(secondes / 86400), "day");
+}
+
+/**
+ * Mon compte.
+ *
+ * Deux volets, et le partage n'est pas décoratif. À gauche ce qu'on peut
+ * CHANGER : son identité, son mot de passe, sa présence. À droite ce qu'on
+ * peut SAVOIR : ses données, ses sessions ouvertes, ce que l'application ne
+ * fera pas pour lui. Un écran de compte qui mélange les deux se lit deux fois.
+ */
 export function Compte({ user, setScreen, setChrome, seDeconnecter }: ScreenProps) {
   const [actuel, setActuel] = useState("");
   const [nouveau, setNouveau] = useState("");
@@ -209,10 +240,30 @@ export function Compte({ user, setScreen, setChrome, seDeconnecter }: ScreenProp
   const [succes, setSucces] = useState<string | null>(null);
   const [champs, setChamps] = useState<Champs>({});
   const [occupe, setOccupe] = useState(false);
+  const [sessions, setSessions] = useState<SessionOuverte[] | null>(null);
+  /* Le compteur de réponses date du chargement de l'application : il peut
+     avoir trois séries de retard. On le relit en ouvrant l'écran. */
+  const [compteur, setCompteur] = useState<number | null>(null);
+  const [exporte, setExporte] = useState(false);
 
   useEffect(() => {
     setChrome({ fil: "Mon compte", accroche: "Tes identifiants et tes données." });
   }, [setChrome]);
+
+  /* Les sessions se rechargent après un changement de mot de passe : il en
+     ferme toutes les autres, et une liste qui les montrerait encore ferait
+     douter que la serrure ait vraiment changé. */
+  const chargerSessions = useCallback(() => {
+    if (!user) return;
+    void apiGet<{ sessions: SessionOuverte[] }>("/api/account/sessions")
+      .then((r) => setSessions(r.sessions))
+      .catch(() => setSessions([]));
+    void apiGet<{ user: PublicUser }>("/api/auth/me")
+      .then((r) => setCompteur(r.user.answerCounter))
+      .catch(() => undefined);
+  }, [user]);
+
+  useEffect(chargerSessions, [chargerSessions]);
 
   const changer = async (e: FormEvent) => {
     e.preventDefault();
@@ -232,6 +283,7 @@ export function Compte({ user, setScreen, setChrome, seDeconnecter }: ScreenProp
           ? `Mot de passe changé. ${r.revokedSessions} autre(s) session(s) déconnectée(s).`
           : "Mot de passe changé."
       );
+      chargerSessions();
     } catch (e) {
       if (e instanceof ApiError) {
         setErreur(e.message);
@@ -243,6 +295,7 @@ export function Compte({ user, setScreen, setChrome, seDeconnecter }: ScreenProp
   };
 
   const exporter = async () => {
+    setExporte(false);
     const data = await apiGet<unknown>("/api/account/export");
     const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
     const url = URL.createObjectURL(blob);
@@ -251,6 +304,7 @@ export function Compte({ user, setScreen, setChrome, seDeconnecter }: ScreenProp
     a.download = `la-regle-${new Date().toISOString().slice(0, 10)}.json`;
     a.click();
     URL.revokeObjectURL(url);
+    setExporte(true);
   };
 
   if (!user) {
@@ -271,12 +325,35 @@ export function Compte({ user, setScreen, setChrome, seDeconnecter }: ScreenProp
 
   return (
     <div className="plateau avec-rail">
-      <div className="principal">
-        <div className="colonne-formulaire">
-          <p className="mono-titre">Changer de mot de passe</p>
-          {erreur && <p className="alerte">{erreur}</p>}
-          {succes && <p className="alerte bonne">{succes}</p>}
-          <form onSubmit={changer}>
+      <div className="principal ecran-compte">
+        <p className="mono-titre">Compte</p>
+        <div className="fiche-faits">
+          <p className="fiche-fait">
+            <span>Pseudo</span>
+            <b>{user.pseudo}</b>
+          </p>
+          <p className="fiche-fait">
+            <span>Adresse</span>
+            <b>{user.email}</b>
+          </p>
+          <p className="fiche-fait">
+            <span>Inscription</span>
+            <b>{new Date(user.createdAt).toLocaleDateString("fr-FR")}</b>
+          </p>
+          <p className="fiche-fait">
+            <span>Réponses traitées</span>
+            <b>{compteur ?? user.answerCounter}</b>
+          </p>
+        </div>
+
+        <p className="mono-titre">Changer de mot de passe</p>
+        {erreur && <p className="alerte">{erreur}</p>}
+        {succes && <p className="alerte bonne">{succes}</p>}
+
+        <form onSubmit={changer}>
+          {/* Les deux champs côte à côte : ils se remplissent d'un même geste,
+              et un formulaire de deux lignes n'a pas à occuper un écran. */}
+          <div className="duo-champs">
             <label className="champ">
               <span>Mot de passe actuel</span>
               <input
@@ -297,52 +374,64 @@ export function Compte({ user, setScreen, setChrome, seDeconnecter }: ScreenProp
                 autoComplete="new-password"
                 required
               />
-              <span className="aide">Les autres appareils seront déconnectés.</span>
               <Erreurs champs={champs} nom="newPassword" />
             </label>
+          </div>
+
+          <div className="rang-action">
             <button className="plein" type="submit" disabled={occupe}>
-              Changer
+              {occupe ? "Un instant…" : "Changer"}
             </button>
-          </form>
+            <span className="aide">Les autres appareils seront déconnectés.</span>
+          </div>
+        </form>
+
+        {/* La déconnexion ferme la page : elle va tout en bas, là où l'on ne
+            clique pas par accident en cherchant autre chose. */}
+        <div className="rang-action sortie">
+          <button className="creux" onClick={seDeconnecter}>
+            Se déconnecter
+          </button>
+          <span className="aide">La session est supprimée côté serveur, le cookie est vidé.</span>
         </div>
       </div>
 
       <aside className="rail">
-        <p className="mono-titre">Compte</p>
-        <div className="fiche-faits" style={{ borderTop: 0, paddingTop: 0 }}>
-          <p className="fiche-fait">
-            <span>Pseudo</span>
-            <b>{user.pseudo}</b>
-          </p>
-          <p className="fiche-fait">
-            <span>Adresse</span>
-            <b>{user.email}</b>
-          </p>
-          <p className="fiche-fait">
-            <span>Inscription</span>
-            <b>{new Date(user.createdAt).toLocaleDateString("fr-FR")}</b>
-          </p>
-          <p className="fiche-fait">
-            <span>Réponses traitées</span>
-            <b>{user.answerCounter}</b>
+        <p className="mono-titre">Mes données</p>
+        <p className="legende">
+          Tout ce que l’application sait de toi : progression, tentatives, séries, dictées. Ni mot de
+          passe ni jeton de session — ce sont des secrets, pas des données.
+        </p>
+        <button className="creux large" onClick={exporter}>
+          {exporte ? "Exporté" : "Exporter en JSON"}
+        </button>
+
+        <p className="mono-titre">Sessions ouvertes</p>
+        {sessions === null && <p className="legende attente">Chargement…</p>}
+        {sessions?.length === 0 && <p className="legende">Aucune, ce qui ne devrait pas arriver ici.</p>}
+        <ul className="sessions">
+          {sessions?.map((s) => (
+            <li key={s.id}>
+              <span className="quoi">
+                <b>{s.courante ? "Ce navigateur" : s.appareil}</b> · {s.logiciel}
+              </span>
+              <span className={`quand ${s.courante ? "ici" : ""}`}>{depuis(s.ouverteLe)}</span>
+            </li>
+          ))}
+        </ul>
+        <p className="note-technique">
+          Cookie de session · 30 jours glissants
+          <br />
+          La base ne stocke que le SHA-256 du jeton
+        </p>
+
+        <div className="rail-fin">
+          <p className="mono-titre">À savoir</p>
+          <p className="legende">
+            Pas de réinitialisation par courriel : un mot de passe perdu est un compte perdu, sauf
+            intervention en base.
           </p>
         </div>
-
-        <p className="mono-titre" style={{ marginTop: 26 }}>
-          Mes données
-        </p>
-        <p className="legende" style={{ marginBottom: 14 }}>
-          Tout ce que l’application sait de toi : progression, tentatives, séries, dictées. Ni mot de passe
-          ni jeton de session — ce sont des secrets, pas des données.
-        </p>
-        <button className="creux" style={{ width: "100%", marginBottom: 10 }} onClick={exporter}>
-          Exporter en JSON
-        </button>
-        <button className="creux" style={{ width: "100%" }} onClick={seDeconnecter}>
-          Se déconnecter
-        </button>
-
-        <p className="rail-bas">Un mot de passe perdu est un compte perdu : il n’y a pas de courriel de reprise.</p>
       </aside>
     </div>
   );

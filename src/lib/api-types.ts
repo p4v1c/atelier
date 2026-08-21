@@ -23,6 +23,19 @@ export type PublicUser = {
   placementDone: boolean;
 };
 
+/** Une session ouverte, telle que l'écran du compte la montre. */
+export type SessionOuverte = {
+  id: string;
+  /** Celle depuis laquelle on regarde. On ne propose pas de la fermer. */
+  courante: boolean;
+  /** « Ordinateur », « Téléphone », « Tablette » — ou l'aveu qu'on ne sait pas. */
+  appareil: string;
+  /** « Firefox, Linux ». */
+  logiciel: string;
+  ouverteLe: string;
+  expireLe: string;
+};
+
 /* ─────────────────────── questions, par type d'exercice ─────────────────── */
 
 /** « Repère la faute » : les mots cliquables, rien qui désigne le fautif. */

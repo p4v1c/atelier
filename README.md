@@ -250,6 +250,15 @@ les mers » — l'Organisation hydrographique internationale en nomme une centai
 — et le nombre est celui qu'une carte à cette échelle peut rendre cliquable
 sans que deux zones se marchent dessus.
 
+La table porte aussi l'**article** de chaque pays. « Quel est le drapeau de… ? »
+demande une préposition contractée — du Portugal, de la France, de l'Iran, des
+Pays-Bas, de Cuba — et il n'y a pas de règle : le genre ne se déduit pas de la
+terminaison, et une trentaine d'États insulaires n'en prennent aucun. Une
+version précédente contournait la difficulté en mettant le nom en tête,
+« Kiribati — quel est son drapeau ? » : ça marchait pour toutes les fiches et
+ça ne ressemblait à rien. Cent quatre-vingt-quatorze entrées écrites à la main
+coûtent moins qu'une question qui sonne faux à chaque passage.
+
 Une fabrique se relit mal : une erreur s'y répète cinq cents fois sans que rien
 ne dépasse. Les contrôles portent donc sur elle, et trois choses valent d'être
 dites. Les leurres d'un quiz sont **tirés du contenu**, par un hachage du nom du
@@ -417,11 +426,18 @@ jetable en trois secondes.
 | `GET  /api/auth/me`        |  ✓   | utilisateur courant + réglages                                    |
 | `POST /api/auth/password`  |  ✓   | change le mot de passe, révoque les autres sessions               |
 | `GET  /api/account/export` |  ✓   | export JSON complet, en pièce jointe                              |
+| `GET  /api/account/sessions` | ✓ | les sessions ouvertes : appareil, navigateur, depuis quand      |
 
 - **argon2id**, profil OWASP (19 Mio, 2 passes, parallélisme 1).
 - **Cookie** `la_regle_session`, `HttpOnly`, `SameSite=Lax`, `Secure` en
   production, 30 jours **glissants**.
-- La base ne stocke que le **SHA-256** du token de session.
+- La base ne stocke que le **SHA-256** du token de session. La liste des
+  sessions ne le renvoie pas — même haché, c'est le secret qui ouvre la
+  session — ni l'adresse IP, qui ne dit rien d'utile à qui lit sa propre liste
+  et beaucoup à qui lirait son écran par-dessus l'épaule. L'agent utilisateur
+  est réduit à « Téléphone · Chrome, Android » par une lecture volontairement
+  sommaire : on veut « est-ce bien moi ? », pas une empreinte de navigateur.
+  Un agent inconnu se dit inconnu plutôt que de se faire passer pour Chrome.
 - **Zod** sur toutes les entrées. Aucune route ne lit un champ brut.
 - **5 tentatives par IP et par quart d'heure** sur `login` et `register`,
   comptées dans la table `AuthAttempt` — pas de Redis. Une connexion réussie

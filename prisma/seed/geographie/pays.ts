@@ -271,6 +271,76 @@ export const MONDE_RESTE = fiches([
   ["548", "VU", "Vanuatu", "Port-Vila", "quatre-vingts îles du Pacifique sud, à l'est de l'Australie"],
 ]);
 
+/**
+ * L'ARTICLE, PAYS PAR PAYS
+ *
+ * « Quel est le drapeau de … ? » demande une préposition contractée, et il n'y
+ * a pas de règle : du Portugal, de la France, de l'Iran, des Pays-Bas, de Cuba.
+ * Le genre ne se déduit pas de la terminaison — le Mexique et le Cambodge
+ * finissent par un e, le Zimbabwe aussi — et une trentaine d'États insulaires
+ * ne prennent aucun article : Cuba, Malte, Chypre, Israël, Madagascar, Maurice,
+ * Singapour, Monaco, Kiribati.
+ *
+ * La table est donc écrite à la main, une entrée par pays, et un test vérifie
+ * qu'aucune fiche n'en manque. C'est plus long qu'une règle, et c'est la seule
+ * façon d'écrire des questions en français plutôt qu'en gabarit.
+ */
+export type Article = "le" | "la" | "l'" | "les" | "";
+
+export const ARTICLE: Record<string, Article> = {
+  // Europe
+  AL: "l'", DE: "l'", AD: "", AT: "l'", BE: "la", BY: "la", BA: "la", BG: "la",
+  CY: "", HR: "la", DK: "le", ES: "l'", EE: "l'", FI: "la", FR: "la", GR: "la",
+  HU: "la", IE: "l'", IS: "l'", IT: "l'", LV: "la", LI: "le", LT: "la", LU: "le",
+  MK: "la", MT: "", MD: "la", ME: "le", NO: "la", NL: "les", PL: "la", PT: "le",
+  RO: "la", GB: "le", RS: "la", SK: "la", SI: "la", SE: "la", CH: "la", CZ: "la",
+  TR: "la", UA: "l'",
+
+  // Afrique
+  ZA: "l'", DZ: "l'", AO: "l'", BJ: "le", BW: "le", BF: "le", BI: "le", CM: "le",
+  CI: "la", DJ: "", EG: "l'", ER: "l'", ET: "l'", GA: "le", GM: "la", GH: "le",
+  GN: "la", GQ: "la", GW: "la", KE: "le", LS: "le", LR: "le", LY: "la", MG: "",
+  MW: "le", ML: "le", MA: "le", MR: "la", MZ: "le", NA: "la", NE: "le", NG: "le",
+  UG: "l'", CF: "la", CD: "la", CG: "la", SZ: "le", RW: "le", SN: "le", SL: "la",
+  SO: "la", SD: "le", SS: "le", TZ: "la", TD: "le", TG: "le", TN: "la", ZM: "la",
+  ZW: "le",
+
+  // Asie
+  AF: "l'", SA: "l'", AM: "l'", AZ: "l'", BD: "le", BT: "le", BN: "le", KH: "le",
+  CN: "la", KP: "la", KR: "la", AE: "les", GE: "la", IN: "l'", ID: "l'", IQ: "l'",
+  IR: "l'", IL: "", JP: "le", JO: "la", KZ: "le", KG: "le", KW: "le", LA: "le",
+  LB: "le", MY: "la", MN: "la", MM: "le", NP: "le", OM: "", UZ: "l'", PK: "le",
+  PH: "les", QA: "le", LK: "", SY: "la", TJ: "le", TW: "", TH: "la", TM: "le",
+  VN: "le", YE: "le",
+
+  // Amériques
+  AR: "l'", BZ: "le", BO: "la", BR: "le", CA: "le", CL: "le", CO: "la", CR: "le",
+  CU: "", SV: "", EC: "l'", US: "les", GT: "le", GY: "le", HT: "", HN: "le",
+  JM: "la", MX: "le", NI: "le", PA: "le", PY: "le", PE: "le", DO: "la", SR: "le",
+  TT: "", UY: "l'", VE: "le",
+
+  // Le reste du monde
+  AU: "l'", RU: "la", NZ: "la", PG: "la",
+  AG: "", BS: "les", BH: "le", BB: "la", CV: "le", KM: "les", DM: "la", FJ: "les",
+  GD: "la", KI: "", MV: "les", MH: "les", MU: "", FM: "la", MC: "", NR: "",
+  PW: "les", KN: "", SM: "", VC: "", LC: "", SB: "les", WS: "les", ST: "",
+  SC: "les", SG: "", TL: "le", TO: "les", TV: "", VU: "le",
+};
+
+/**
+ * « du Portugal », « de la France », « de l'Iran », « des Pays-Bas », « de
+ * Cuba » — et « d'Israël », parce qu'un pays sans article devant une voyelle
+ * élide quand même.
+ */
+export function de(f: Fiche): string {
+  const article = ARTICLE[f.a2];
+  if (article === "le") return `du ${f.nom}`;
+  if (article === "la") return `de la ${f.nom}`;
+  if (article === "l'") return `de l'${f.nom}`;
+  if (article === "les") return `des ${f.nom}`;
+  return /^[aeiouyàâäéèêëîïôöùûüh]/i.test(f.nom) ? `d'${f.nom}` : `de ${f.nom}`;
+}
+
 /** Les quatre continents jouables, dans l'ordre où l'écran les propose. */
 export const CONTINENTS = [
   { cle: "europe", nom: "Europe", pays: EUROPE },
