@@ -10,11 +10,78 @@
    le reste pour la scène. Les couleurs ne changent pas ; seule la disposition
    change. */
 
-body.coque-active {
-  padding: 0;
-  display: block;
-  min-height: 100vh;
+/* ── les deux tons secondaires ──────────────────────────────────────────
+
+   var(--mauve-2) et var(--mauve-3) tenaient lieu de « gris de l'Atelier ». Mesurés dans le
+   navigateur, ils donnaient 3,1:1 sur --encre-2, 3,5:1 sur --encre et 2,1:1
+   pour le second : sous le seuil AA dans tous les cas. Ils deviennent deux
+   jetons, choisis pour passer sur les DEUX fonds de l'application.
+
+   Le second ne porte que de l'accessoire — un tiret « rien à revoir », des
+   points de difficulté — et vise 3:1, le seuil des éléments non textuels.
+
+   La hiérarchie ne se lit plus par la clarté, qui n'a plus de marge à ce
+   niveau de contraste, mais par la saturation : --craie, puis --mauve
+   franchement violet, puis ces deux-ci, de plus en plus gris.
+
+   Vérification : node scripts/mesurer-contraste.mjs */
+:root {
+  /* 4,69:1 sur --encre-2 · 5,27:1 sur --encre */
+  --mauve-2: #8c86a6;
+  /* 3,67:1 sur --encre-2 · 4,13:1 sur --encre · 3,33:1 sur une ligne choisie */
+  --mauve-3: #7a739c;
 }
+
+/* ── la surface d'exercice ─────────────────────────────────────────────
+
+   Trois matières faisaient trois choses. Le français posait ses exercices sur
+   son papier crème réglé seyès. Les langues avaient dû se redessiner une
+   surface sombre dans leur propre CSS — les boutons compris, en double, avec
+   leurs propres valeurs. Et la culture générale, faute d'en déclarer une,
+   héritait en silence du cahier d'écolier FRANÇAIS : lignes seyès et marge
+   rouge sur son carnet, l'identité de la matière voisine.
+
+   Une seule mécanique désormais. La surface est décrite par des jetons, et
+   chaque matière les pose. Deux familles — le papier et l'encre — mais une
+   seule façon d'en changer, et rien à redessiner pour ajouter la troisième. */
+.app {
+  --exo-fond: var(--papier);
+  --exo-encre: #1d1836;
+  --exo-encre-2: #4a4265;
+  --exo-attenue: #6b6280;
+  --exo-bord: rgba(29, 24, 54, 0.22);
+  --exo-champ: rgba(255, 255, 255, 0.55);
+  --exo-champ-fort: rgba(255, 255, 255, 0.85);
+  --exo-accent: var(--rouge);
+  --exo-rate: #9a93ac;
+  --exo-rate-trait: #c9c2d8;
+  --exo-plein-fond: #1d1836;
+  --exo-plein-encre: var(--papier);
+  /* La réglure du papier, et le filet de marge. */
+  --exo-reglure: var(--seyes);
+  --exo-reglure-pas: 27px;
+  --exo-reglure-opacite: 0.35;
+  --exo-marge: #e0a9a4;
+}
+
+/* Le papier ne connaît que l'encre sombre : les boutons de la coque, pensés
+   pour le fond violet, y disparaîtraient. Ils prennent les jetons. */
+.cahier .creux {
+  color: var(--exo-encre);
+  border-color: var(--exo-bord);
+  background: var(--exo-champ);
+}
+.cahier .creux:hover:not(:disabled) {
+  border-color: var(--exo-accent);
+  color: var(--exo-accent);
+  background: var(--exo-champ-fort);
+}
+.cahier .creux:disabled { color: var(--exo-attenue); border-color: var(--exo-bord); }
+.cahier .plein { background: var(--exo-plein-fond); color: var(--exo-plein-encre); }
+.cahier .plein:hover:not(:disabled) { background: var(--exo-accent); color: var(--exo-plein-encre); }
+.cahier .lien { color: var(--exo-attenue); }
+.cahier .lien:hover { color: var(--exo-accent); }
+.cahier .legende, .cahier .indice { color: var(--exo-attenue); }
 
 .coque {
   display: grid;
@@ -67,7 +134,7 @@ body.coque-active {
   font-size: 10px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: #6f6790;
+  color: var(--mauve-2);
   margin: 0;
   padding: 20px 22px 10px;
 }
@@ -128,7 +195,11 @@ body.coque-active {
   color: var(--mauve);
 }
 .matiere-lien.active .marque { color: var(--or); }
-.matiere-lien .marque.neuf { color: #6f6790; }
+.matiere-lien .marque.neuf { color: var(--mauve-2); }
+/* Sur la ligne active, le fond s'éclaircit : le ton secondaire y retombait à
+   2,5:1. La ligne active dit déjà « or » pour sa marque — « neuf » le dit
+   aussi, au lieu de repasser au gris. */
+.matiere-lien.active .marque.neuf { color: var(--or); }
 
 .flanc-pied {
   border-top: 1px solid var(--encre-3);
@@ -174,12 +245,18 @@ body.coque-active {
   font-size: 11px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #6f6790;
+  color: var(--mauve-2);
   white-space: nowrap;
 }
 .fil-ariane b { color: var(--craie); font-weight: 500; }
 
 .onglets { display: flex; gap: 4px; flex-wrap: wrap; }
+/* L'onglet courant se marquait par un fond légèrement plus clair — et le
+   survol en posait un presque identique. Sur l'écran des dictées, où la souris
+   traîne dans la barre, deux onglets paraissaient actifs en même temps.
+   Le fond revient donc au survol seul, et l'onglet courant porte un filet
+   plein sous son libellé : un marqueur que le survol ne pose jamais, sur un
+   canal — la bordure — que rien d'autre n'emprunte ici. */
 .onglet {
   font-family: "IBM Plex Mono", monospace;
   font-size: 11px;
@@ -188,12 +265,24 @@ body.coque-active {
   color: var(--mauve);
   background: none;
   border: 0;
-  padding: 6px 11px;
-  border-radius: 3px;
+  /* La place du filet est réservée dès l'état inactif : sans elle, les
+     libellés sautent d'un pixel au changement d'onglet. */
+  border-bottom: 2px solid transparent;
+  padding: 6px 11px 5px;
+  border-radius: 3px 3px 0 0;
   cursor: pointer;
 }
-.onglet:hover { color: var(--craie); background: rgba(144, 132, 201, 0.1); }
-.onglet.actif { background: var(--encre-3); color: var(--papier); }
+/* Le survol n'emprunte plus le fond : il éclaircit le libellé, et rien
+   d'autre. Deux signaux distincts — la clarté du texte pour « la souris est
+   ici », le filet pour « c'est l'écran ouvert ». */
+.onglet:hover { color: var(--craie); }
+.onglet.actif {
+  background: none;
+  color: var(--papier);
+  border-bottom-color: var(--or);
+  font-weight: 600;
+}
+.onglet:focus-visible { outline: 2px solid var(--mauve); outline-offset: 2px; }
 
 .coque-fin {
   margin-left: auto;
@@ -230,7 +319,7 @@ body.coque-active {
   border-top: 1px solid var(--encre-3);
   font-family: "IBM Plex Mono", monospace;
   font-size: 10.5px;
-  color: #6f6790;
+  color: var(--mauve-2);
 }
 .pied-coque .droite { margin-left: auto; }
 
@@ -241,7 +330,7 @@ body.coque-active {
   font-size: 10.5px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: #6f6790;
+  color: var(--mauve-2);
   margin: 0 0 12px;
 }
 
@@ -291,7 +380,7 @@ body.coque-active {
   cursor: pointer;
 }
 .segment.actif { background: var(--encre-3); color: var(--papier); }
-.reglages-serie .fin { margin-left: auto; font-size: 12px; color: #6f6790; }
+.reglages-serie .fin { margin-left: auto; font-size: 12px; color: var(--mauve-2); }
 
 /* Le tableau des domaines : tout le module en un écran. */
 .table-domaines { width: 100%; border-collapse: collapse; font-size: 14px; }
@@ -300,7 +389,7 @@ body.coque-active {
   font-size: 10px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #6f6790;
+  color: var(--mauve-2);
   font-weight: 400;
   text-align: right;
   padding: 0 0 9px 14px;
@@ -326,7 +415,7 @@ body.coque-active {
   color: var(--craie);
 }
 .table-domaines td.du { color: var(--or); }
-.table-domaines td.rien { color: #4e4478; }
+.table-domaines td.rien { color: var(--mauve-3); }
 .table-domaines .avancement { width: 130px; }
 .table-domaines .piste {
   display: block;
@@ -372,7 +461,7 @@ body.coque-active {
   padding-top: 18px;
   font-family: "IBM Plex Mono", monospace;
   font-size: 10.5px;
-  color: #6f6790;
+  color: var(--mauve-2);
 }
 
 /* ── catalogue en deux volets ── */
@@ -403,7 +492,7 @@ body.coque-active {
   font-size: 14px;
   padding: 11px 14px;
 }
-.chercher-barre input::placeholder { color: #6f6790; }
+.chercher-barre input::placeholder { color: var(--mauve-2); }
 .chercher-barre input:focus { outline: 1px solid var(--mauve); outline-offset: 0; }
 .chercher-barre .combien {
   font-family: "IBM Plex Mono", monospace;
@@ -433,8 +522,12 @@ body.coque-active {
   background: rgba(144, 132, 201, 0.16);
   border-left-color: var(--or);
 }
+/* La ligne choisie éclaircit son fond : ce qui passait de justesse dessus n'y
+   passait plus. Les deux colonnes de droite montent d'un cran. */
+.point-ligne.choisi .palier { color: var(--craie); }
+.point-ligne.choisi .diff { color: var(--mauve-2); }
 .point-ligne .titre { font-size: 14.5px; color: var(--craie); }
-.point-ligne .diff { text-align: center; color: #4e4478; font-size: 11px; letter-spacing: 0.12em; }
+.point-ligne .diff { text-align: center; color: var(--mauve-3); font-size: 11px; letter-spacing: 0.12em; }
 .point-ligne .palier {
   text-align: right;
   font-family: "IBM Plex Mono", monospace;
@@ -471,7 +564,7 @@ body.coque-active {
   padding: 6px 0;
   font-family: "IBM Plex Mono", monospace;
   font-size: 11.5px;
-  color: #6f6790;
+  color: var(--mauve-2);
 }
 .fiche-fait b { color: var(--craie); font-weight: 400; }
 
@@ -483,6 +576,14 @@ body.coque-active {
 }
 @media (max-width: 780px) {
   .coque { grid-template-columns: minmax(0, 1fr); }
+  /* Le flanc passe au-dessus : la scène ne fait plus une fenêtre à elle
+     seule, et c'est la page qui reprend le défilement. */
+  .scene { height: auto; min-height: 0; overflow: visible; }
+  .plateau, .plateau.avec-rail, .plateau.avec-rail > .principal,
+  .plateau.avec-rail > .rail, .deux-volets, .deux-volets > .volet-liste,
+  .deux-volets > .volet-liste > .liste-points, .deux-volets > .volet-fiche {
+    overflow: visible;
+  }
   .flanc { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--encre-3); }
   .flanc-matieres { flex-direction: row; overflow-x: auto; padding-bottom: 12px; }
   .matiere-lien { white-space: nowrap; }
@@ -516,26 +617,147 @@ body.coque-active {
 }
 
 /* ═══════════════════════════════════════════════════════════════════════
-   CONTRASTE SUR LE PAPIER
+   CE QUE LES ÉCRANS REPRIS DEMANDENT EN PLUS
    ═══════════════════════════════════════════════════════════════════════
 
-   Les boutons de l'Atelier sont pensés pour l'encre violette : craie sur
-   sombre. Posés sur la page de cahier, qui est crème, ils devenaient
-   illisibles — clair sur clair. Dans le cahier, ils reprennent donc l'encre. */
+   Progression, dictées, bilan, cours et compte empilaient des .carte : la
+   mise en page d'avant la coque. Ils emploient désormais le plateau, le rail,
+   le titre en petites capitales et les tableaux denses — restaient cinq
+   éléments qui n'existaient nulle part. */
 
-.cahier .creux {
-  color: #1d1836;
-  border-color: rgba(29, 24, 54, 0.3);
-  background: rgba(255, 255, 255, 0.5);
+/* Le rail est une colonne : sans quoi le « margin-top:auto » de .rail-bas,
+   qui pousse la note en bas, n'a rien à quoi s'accrocher. */
+.plateau.avec-rail > .rail {
+  display: flex;
+  flex-direction: column;
 }
-.cahier .creux:hover:not(:disabled) {
-  border-color: var(--rouge);
-  color: var(--rouge);
-  background: rgba(255, 255, 255, 0.85);
+
+/* Le détail d'un domaine, ouvert dans le tableau lui-même plutôt que dans un
+   bloc dépliant : une seule grille de colonnes, donc des chiffres qui restent
+   alignés sur ceux du domaine au-dessus. */
+.table-domaines tbody tr.ouverte td { color: var(--craie); }
+.table-domaines tbody tr.ouverte td:first-child { color: var(--papier); }
+.table-domaines tbody tr.detail { cursor: default; }
+.table-domaines tbody tr.detail:hover { background: none; }
+.table-domaines tbody tr.detail td {
+  font-size: 11.5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-bottom-color: rgba(44, 36, 86, 0.35);
 }
-.cahier .creux:disabled { color: #6b6280; border-color: rgba(29, 24, 54, 0.16); }
-.cahier .plein { background: #1d1836; color: var(--papier); }
-.cahier .plein:hover:not(:disabled) { background: var(--rouge); }
-.cahier .lien { color: #6b6280; }
-.cahier .lien:hover { color: var(--rouge); }
-.cahier .legende, .cahier .indice { color: #6b6280; }
+.table-domaines tbody tr.detail td:first-child {
+  font-size: 13px;
+  color: var(--mauve);
+  padding-left: 22px;
+}
+.table-domaines tbody tr.detail.action td { padding: 12px 0 18px 22px; }
+.table-domaines .chevron {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-right: 10px;
+  vertical-align: 1px;
+  border-left: 5px solid var(--mauve-2);
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  transition: transform 0.18s ease;
+}
+.table-domaines .chevron.ouvert { transform: rotate(90deg); }
+
+/* La répartition des paliers, dans le rail de la progression : six colonnes,
+   la forme réelle de l'avancement — qu'un pourcentage écrase. */
+.paliers {
+  display: flex;
+  align-items: flex-end;
+  gap: 7px;
+  height: 96px;
+  margin-bottom: 12px;
+}
+.paliers span {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  gap: 4px;
+}
+.paliers i {
+  display: block;
+  width: 100%;
+  background: var(--mauve);
+  border-radius: 1px;
+  min-height: 2px;
+}
+.paliers span.neuf i { background: var(--encre-3); }
+.paliers span.acquis i { background: var(--vert); }
+.paliers b {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10.5px;
+  font-weight: 400;
+  color: var(--craie);
+  font-variant-numeric: tabular-nums;
+  order: -1;
+}
+.paliers em {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-size: 10px;
+  color: var(--mauve-2);
+}
+
+/* Le sommaire d'un cours, dans son rail : de quoi sauter à une section sans
+   remonter tout le texte. */
+.sommaire {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 24px;
+}
+.sommaire a {
+  font-size: 13.5px;
+  line-height: 1.45;
+  color: var(--mauve);
+  text-decoration: none;
+  padding: 6px 0 6px 12px;
+  border-left: 2px solid var(--encre-3);
+}
+.sommaire a:hover { color: var(--craie); border-left-color: var(--mauve); }
+
+/* Un formulaire de deux champs ne se remplit pas plus vite étalé sur douze
+   cents pixels : il garde la mesure d'un champ. */
+.colonne-formulaire { max-width: 420px; }
+.colonne-formulaire .champ input[type="checkbox"] { width: auto; }
+.champ.case {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+.champ.case input { width: auto; margin-top: 3px; }
+.champ.case span {
+  letter-spacing: 0;
+  text-transform: none;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--craie);
+  margin: 0;
+}
+
+/* ── ce qui défile, et ce qui ne défile pas ──
+   Le catalogue promet une fiche « qui reste à la même place » pendant qu'on
+   balaie la liste. Elle ne restait pas : c'est la page entière qui défilait,
+   et à la centième ligne la fiche était sortie par le haut. Avec trois cent
+   dix dictées le défaut saute aux yeux, mais il vient du gabarit.
+
+   La scène tient donc la hauteur de la fenêtre : l'en-tête et le pied ne
+   bougent plus, et ce qui déborde défile là où il déborde — le plateau, ou
+   chacun des deux volets pour son compte. */
+.scene { height: 100vh; overflow: hidden; }
+.plateau { overflow-y: auto; }
+.plateau.avec-rail { overflow: hidden; }
+.plateau.avec-rail > .principal,
+.plateau.avec-rail > .rail { overflow-y: auto; }
+.deux-volets { overflow: hidden; }
+.deux-volets > .volet-liste { display: flex; flex-direction: column; min-height: 0; }
+.deux-volets > .volet-liste > .liste-points { overflow-y: auto; min-height: 0; }
+.deux-volets > .volet-fiche { display: flex; flex-direction: column; overflow-y: auto; }

@@ -14,7 +14,7 @@
 [data-langue] .matiere-lien.active { border-left-color: var(--lg-accent); }
 [data-langue] .matiere-lien.active .nom::after { background: var(--lg-accent); }
 [data-langue] .matiere-lien.active .marque { color: var(--lg-accent); }
-[data-langue] .onglet.actif { background: color-mix(in srgb, var(--lg-accent) 22%, transparent); }
+[data-langue] .onglet.actif { border-bottom-color: var(--lg-accent); }
 [data-langue] .coque-fin b { color: var(--lg-accent); }
 
 /* ── le badge de niveau et l'échelle ── */
@@ -49,7 +49,7 @@
   font-size: 10.5px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: #6f6790;
+  color: var(--mauve-2);
   font-weight: 400;
   margin-bottom: 7px;
 }
@@ -71,7 +71,7 @@
   text-align: right;
   font-family: "IBM Plex Mono", monospace;
   font-size: 11px;
-  color: #6f6790;
+  color: var(--mauve-2);
 }
 
 /* ── les façons de réviser ── */
@@ -116,7 +116,7 @@
   margin-top: auto;
   font-family: "IBM Plex Mono", monospace;
   font-size: 11px;
-  color: #6f6790;
+  color: var(--mauve-2);
 }
 
 [data-langue] h2.lg-section {
@@ -186,7 +186,7 @@
   text-align: right;
   font-family: "IBM Plex Mono", monospace;
   font-size: 11px;
-  color: #6f6790;
+  color: var(--mauve-2);
 }
 
 .lg-muted { color: var(--mauve); }
@@ -213,74 +213,58 @@
    Le papier seyès est l'identité du FRANÇAIS. Une carte d'anglais posée sur
    une page de cahier d'écolier français est incohérente, et illisible par-
    dessus le marché : les boutons de l'Atelier y disparaissaient. Les langues
-   ont donc leur propre surface, sombre comme le reste de leur écran. */
+   ont donc leur propre surface, sombre comme le reste de leur écran.
+
+   Elles ne la redessinent plus : elles posent les jetons --exo-* de la coque,
+   et tout ce qui vit sur la surface — texte, propositions, champs, boutons —
+   suit sans qu'une seule règle soit réécrite ici. */
+
+[data-langue] {
+  --exo-fond: var(--encre-2);
+  --exo-encre: var(--craie);
+  --exo-encre-2: var(--mauve);
+  --exo-attenue: var(--mauve-2);
+  --exo-bord: var(--encre-3);
+  --exo-champ: var(--encre);
+  --exo-champ-fort: var(--encre);
+  --exo-accent: var(--lg-accent);
+  --exo-rate: var(--mauve-2);
+  --exo-rate-trait: var(--encre-3);
+  --exo-plein-fond: var(--lg-accent);
+  --exo-plein-encre: var(--encre);
+  /* Pas de réglure sur l'encre : la signalétique n'est pas un cahier. */
+  --exo-reglure: transparent;
+  --exo-reglure-opacite: 0;
+  --exo-marge: transparent;
+}
 
 [data-langue] .cahier {
-  background: var(--encre-2);
   border: 1px solid var(--encre-3);
   border-radius: 3px;
   box-shadow: none;
   padding: 30px 32px;
 }
-[data-langue] .cahier::before { display: none; }
-[data-langue] .marge { display: none; }
-[data-langue] .cahier .creux {
-  color: var(--lg-accent);
-  border-color: var(--encre-3);
-  background: none;
-}
-[data-langue] .cahier .creux:hover:not(:disabled) {
-  border-color: var(--lg-accent);
-  color: var(--papier);
-  background: none;
-}
-[data-langue] .cahier .plein { background: var(--lg-accent); color: var(--encre); }
+[data-langue] .cahier .creux { background: none; color: var(--lg-accent); }
+[data-langue] .cahier .creux:hover:not(:disabled) { color: var(--papier); background: none; }
 [data-langue] .cahier .plein:hover:not(:disabled) { filter: brightness(1.15); background: var(--lg-accent); }
-[data-langue] .cahier .lien, [data-langue] .cahier .legende, [data-langue] .cahier .indice {
-  color: var(--mauve);
-}
 
-[data-langue] .proposition:hover:not(:disabled) { border-color: var(--lg-accent); }
 [data-langue] .point-ligne.choisi { border-left-color: var(--lg-accent); }
 
-/* Le mot à travailler : la vedette de l'écran. */
-[data-langue] .recto {
-  font-family: "Bodoni Moda", serif;
-  font-size: clamp(26px, 3.6vw, 38px);
-  line-height: 1.2;
-  color: var(--papier);
-  margin: 0 0 10px;
-}
-[data-langue] .recto.muet {
-  font-family: "Karla", sans-serif;
-  font-size: 15px;
-  color: var(--mauve);
-}
+/* Le mot à travailler : la vedette de l'écran. Seules la taille et la fonte
+   sont dites ici ; les couleurs viennent des jetons de surface. */
+[data-langue] .recto { font-size: clamp(26px, 3.6vw, 38px); line-height: 1.2; color: var(--papier); }
+[data-langue] .recto.muet { font-family: "Karla", sans-serif; font-size: 15px; color: var(--mauve); }
 [data-langue] .traduction-aide { font-size: 15px; color: var(--mauve); margin: 0 0 18px; }
-[data-langue] .verso {
-  font-family: "Caveat", cursive;
-  font-size: 34px;
-  color: var(--or);
-  margin: 18px 0 0;
-}
-[data-langue] .saisie input {
-  background: var(--encre);
-  border: 1px solid var(--encre-3);
-  color: var(--craie);
-  font-family: "Bodoni Moda", serif;
-  font-size: 20px;
-  padding: 13px 16px;
-}
-[data-langue] .saisie input::placeholder { color: #6f6790; font-family: "Karla", sans-serif; font-size: 15px; }
-[data-langue] .saisie input:focus { outline: 2px solid var(--lg-accent); outline-offset: 0; border-color: transparent; }
-[data-langue] .attendu { color: var(--mauve); font-size: 15px; }
+[data-langue] .verso { font-size: 34px; color: var(--or); }
+[data-langue] .saisie input { font-size: 20px; padding: 13px 16px; }
+[data-langue] .saisie input::placeholder { color: var(--mauve-2); font-family: "Karla", sans-serif; font-size: 15px; }
+[data-langue] .attendu { font-size: 15px; }
 [data-langue] .attendu b { font-family: "Caveat", cursive; font-size: 28px; font-weight: 400; }
 [data-langue] .attendu.juste b { color: var(--vert); }
 [data-langue] .attendu.rate b { color: var(--rouge); }
-[data-langue] .attendu .variantes { color: #6f6790; font-size: 13px; }
 [data-langue] .sans-voix, [data-langue] .avertissement-micro {
   font-size: 13px;
-  color: #6f6790;
+  color: var(--mauve-2);
   font-style: normal;
   line-height: 1.6;
   margin: 14px 0 0;

@@ -21,7 +21,9 @@
     "tts:check": "tsx scripts/tts-check.ts",
     "relire": "tsx scripts/relire-corrections.ts",
     "tts:prepare": "tsx scripts/tts-prepare.ts",
-    "tts:voices": "bash scripts/telecharger-voix.sh"
+    "tts:voices": "bash scripts/telecharger-voix.sh",
+    "contraste": "node scripts/mesurer-contraste.mjs",
+    "classes-mortes": "node scripts/classes-mortes.mjs"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"

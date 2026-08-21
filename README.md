@@ -338,6 +338,42 @@ Le mode `rule` est le seul qui tire plusieurs phrases de la même règle ; tous
 les autres en servent une par règle. Le palier bouge normalement à chaque
 réponse.
 
+### Contraste et classes mortes
+
+Deux contrôles se lancent à la main, parce qu'ils demandent un navigateur ou
+une lecture croisée des sources :
+
+```bash
+npm run db:up && npm run dev            # les deux veulent l'application debout
+npm run contraste                       # mode invité
+MODE_CONNECTE=1 npm run contraste       # invité ET connecté
+npm run classes-mortes
+```
+
+`contraste` ouvre quinze écrans dans Chromium, recompose le fond **effectif**
+de chaque texte — les `rgba` empilés compris, c'est là que se cachaient les
+vrais écarts — et rend le ratio WCAG. Il vise 4,5:1, sauf pour deux rôles
+purement accessoires (le tiret « rien à revoir », les points de difficulté)
+qui visent 3:1 et sont nommés dans le script. Le contraste **se mesure** : à
+l'œil, `#6f6790` sur `#211A44` paraissait passer, il était à 3,1:1.
+
+Les deux tons secondaires sont des jetons, `--mauve-2` et `--mauve-3`. À ce
+niveau de contraste il n'y a plus de marge en clarté sous `--mauve` : la
+hiérarchie se lit à la **saturation**, de plus en plus grise.
+
+`classes-mortes` compare les sélecteurs de classe des quatre feuilles aux
+`className` réellement écrits — y compris ceux posés par un ternaire. Le CSS
+ne se plaint jamais d'une règle inutile.
+
+### La surface d'exercice
+
+Le français a son papier crème réglé seyès, la culture générale son carnet au
+bic, les langues leur surface sombre. Ces trois apparences ne sont **pas**
+trois mises en œuvre : la surface est décrite par les jetons `--exo-*` posés
+sur `.app` (fond, encre, accent, réglure, bouton plein…), et chaque matière
+n'en redéclare que ce qui change. Une matière qui n'en déclare aucun hérite du
+papier, sans hériter par accident de la réglure d'une autre.
+
 Le CSS des deux blocs `<style>` d'origine est repris **tel quel** dans
 `src/app/globals.css` : mêmes variables, mêmes classes, mêmes valeurs. Les
 polices sont chargées par `<link>` dans `layout.tsx` — un `@import` serait retiré
@@ -456,6 +492,8 @@ appartiennent aux douze règles « cas discutés »).
 | `npm run seed`              | remplit la base (idempotent, ne supprime rien)     |
 | `npm run seed -- --prune`   | supprime en plus les phrases et dictées orphelines |
 | `npm run typecheck`         | `tsc --noEmit`                                     |
+| `npm run contraste`         | mesure les contrastes dans un vrai navigateur      |
+| `npm run classes-mortes`    | les règles CSS que plus aucun composant ne rend    |
 | `npm test`                  | suite de tests                                     |
 
 ## Tests

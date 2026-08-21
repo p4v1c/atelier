@@ -1,6 +1,14 @@
 "use client";
 
-/** Bilan de fin de série : note, détail par catégorie, points faibles. */
+/**
+ * Bilan de fin de série : la note, le détail par domaine, ce qu'il faut
+ * reprendre.
+ *
+ * Il tenait dans une .carte, avec une note de soixante-quatre pixels posée sur
+ * rien. Il emploie maintenant le plateau à rail comme le reste : le grand
+ * nombre de la coque à gauche, au-dessus du tableau dense des domaines, et à
+ * droite ce qui se décide — reprendre, ou passer à la suite.
+ */
 import { useEffect, useState } from "react";
 import type { SessionSummary } from "@/lib/api-types";
 import type { ScreenProps } from "../App";
@@ -37,58 +45,93 @@ export function Bilan({ engine, summary, category, setScreen, setChrome }: Props
   };
 
   return (
-    <div className="carte">
-      <p className="note">
-        {summary.correct}
-        <small> / {summary.total}</small>
-      </p>
-      <p className="legende" style={{ margin: "6px 0 26px" }}>
-        {test ? (
+    <div className="plateau avec-rail">
+      <div className="principal">
+        <p className="mono-titre">{test ? "Test de positionnement" : "Série terminée"}</p>
+        <div className="compte-du">
+          <span className="nombre">{summary.correct}</span>
+          <span className="quoi">
+            sur {summary.total} · {summary.score} %
+            <br />
+            {test
+              ? "Ton parcours est calibré."
+              : `${summary.mastered} / ${summary.skillCount} points acquis.`}
+          </span>
+        </div>
+
+        <p className="mono-titre">Par domaine</p>
+        <table className="table-domaines">
+          <thead>
+            <tr>
+              <th>Domaine</th>
+              <th>Juste</th>
+              <th>Posées</th>
+              <th className="avancement">Réussite</th>
+            </tr>
+          </thead>
+          <tbody>
+            {summary.byCategory.map((c) => {
+              const part = c.total ? c.correct / c.total : 0;
+              return (
+                <tr key={c.category}>
+                  <td>{c.category}</td>
+                  <td className={c.correct === 0 ? "rien" : ""}>{c.correct}</td>
+                  <td>{c.total}</td>
+                  <td className="avancement">
+                    <span className="piste">
+                      <i
+                        className={part >= 0.75 ? "bien" : part < 0.5 ? "mal" : ""}
+                        style={{ width: `${Math.max(2, part * 100)}%` }}
+                      />
+                    </span>
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+
+      <aside className="rail">
+        <p className="mono-titre">Niveau estimé</p>
+        <p className="fiche-entete-titre" style={{ marginBottom: 20 }}>
+          {summary.level}
+        </p>
+
+        {summary.weakest.length > 0 && (
           <>
-            Ton parcours est calibré. Niveau estimé : <b style={{ color: "var(--papier)" }}>{summary.level}</b>.
-          </>
-        ) : (
-          <>
-            Niveau estimé : <b style={{ color: "var(--papier)" }}>{summary.level}</b> · {summary.mastered} /{" "}
-            {summary.skillCount} points acquis.
+            <p className="mono-titre">À retravailler en priorité</p>
+            <div className="faiblesse">
+              {summary.weakest.map((w) => (
+                <div key={w.slug} className="faiblesse-ligne">
+                  <span className="nom">{w.title}</span>
+                  <span className="taux">{w.box}/5</span>
+                  <span className="piste">
+                    <i className={w.box <= 1 ? "faible" : ""} style={{ width: `${(w.box / 5) * 100}%` }} />
+                  </span>
+                </div>
+              ))}
+            </div>
           </>
         )}
-      </p>
 
-      {summary.byCategory.map((c) => (
-        <div className="ligne" key={c.category}>
-          <div className="tete">
-            <span>{c.category}</span>
-            <span>
-              {c.correct} / {c.total}
-            </span>
-          </div>
-          <div className="piste">
-            <i
-              className={c.correct / c.total >= 0.75 ? "fort" : c.correct / c.total < 0.5 ? "faible" : ""}
-              style={{ width: `${(c.correct / c.total) * 100}%` }}
-            />
-          </div>
-        </div>
-      ))}
+        {message && <p className="alerte">{message}</p>}
 
-      {summary.weakest.length > 0 && (
-        <>
-          <h3>À retravailler en priorité</h3>
-          <p className="legende">{summary.weakest.map((w) => w.title).join(" · ")}</p>
-        </>
-      )}
-
-      {message && <p className="alerte" style={{ marginTop: 18 }}>{message}</p>}
-
-      <div className="bas">
-        <button className="plein" onClick={relancer}>
+        <button className="plein" style={{ width: "100%", marginBottom: 10 }} onClick={relancer}>
           {test ? "Commencer l’entraînement" : "Nouvelle série"}
         </button>
-        <button className="creux" onClick={() => setScreen({ name: "accueil" })}>
-          Accueil
+        <button
+          className="creux"
+          style={{ width: "100%" }}
+          onClick={() => setScreen({ name: "accueil" })}
+        >
+          Revenir à l’accueil
         </button>
-      </div>
+
+        <p className="rail-bas">
+          Une erreur fait reculer de deux paliers : ce qui vient d’être raté reviendra vite.
+        </p>
+      </aside>
     </div>
   );
 }

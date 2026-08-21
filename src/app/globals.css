@@ -9,6 +9,15 @@
  * Seule addition, en fin de fichier : les quelques classes des écrans qui
  * n'existaient pas dans le fichier autonome (connexion, inscription, compte).
  *
+ * Deux divergences assumées depuis :
+ *  — les couleurs de la surface d'exercice passent par les jetons --exo-*
+ *    définis dans coque.css, pour que trois matières cessent d'en faire trois
+ *    choses. Sur le français, ces jetons valent exactement les couleurs
+ *    d'origine : à l'écran, rien n'a bougé ;
+ *  — les deux gris secondaires, #6F6790 et #4E4478, sont remplacés par
+ *    --mauve-2 et --mauve-3, qui passent le seuil AA. Les originaux étaient
+ *    à 3,5:1 et 2,1:1.
+ *
  * Les polices sont chargées par <link> dans layout.tsx, comme dans le fichier
  * d'origine : un @import ici serait retiré par l'optimiseur CSS de Next, et
  * Bodoni Moda retomberait silencieusement sur un serif générique.
@@ -30,11 +39,8 @@
   }
   .app{width:100%}
 
-  .eyebrow{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--mauve);font-weight:700;margin:0 0 8px}
   h1{font-family:'Bodoni Moda',serif;font-weight:400;font-size:38px;line-height:1;margin:0 0 4px;color:var(--papier)}
   h1 em{font-style:italic}
-  .sub{color:var(--mauve);font-size:14px;margin:0 0 26px;line-height:1.6}
-  .entete{margin-bottom:26px}
 
   /* jauge de session */
   .jauge{display:flex;align-items:center;gap:14px;margin-bottom:18px}
@@ -44,23 +50,27 @@
   .compte b{color:var(--papier)}
 
   /* cahier */
-  .cahier{position:relative;background:var(--papier);border-radius:2px;padding:38px 30px 34px;
+  .cahier{position:relative;background:var(--exo-fond);border-radius:2px;padding:38px 30px 34px;
     box-shadow:0 18px 40px -18px rgba(0,0,0,.65)}
   .cahier::before{content:"";position:absolute;inset:0;pointer-events:none;border-radius:2px;
-    background:repeating-linear-gradient(to bottom,transparent 0 27px,var(--seyes) 27px 28px);opacity:.35}
-  .marge{position:absolute;top:0;bottom:0;left:22px;width:1px;background:#E0A9A4;opacity:.8}
-  .categorie{position:relative;font-size:10px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:#8A7FA8;margin:0 0 18px}
-  .phrase{position:relative;font-family:'Bodoni Moda',serif;font-size:27px;line-height:56px;color:#1D1836}
+    background:repeating-linear-gradient(to bottom,transparent 0 var(--exo-reglure-pas),
+      var(--exo-reglure) var(--exo-reglure-pas),var(--exo-reglure) calc(var(--exo-reglure-pas) + 1px));
+    opacity:var(--exo-reglure-opacite)}
+  .marge{position:absolute;top:0;bottom:0;left:22px;width:1px;background:var(--exo-marge);opacity:.8}
+  /* Le nom du domaine se pose AU-DESSUS du cahier, sur le fond de la scène :
+     il relève des jetons de la coque, pas de ceux de la surface. */
+  .categorie{position:relative;font-size:10px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--mauve-2);margin:0 0 18px}
+  .phrase{position:relative;font-family:'Bodoni Moda',serif;font-size:27px;line-height:56px;color:var(--exo-encre)}
   .mot{font:inherit;color:inherit;background:none;border:0;padding:0 1px;margin:0;cursor:pointer;border-radius:2px;transition:background .15s,color .15s}
-  .mot:hover{background:rgba(214,48,42,.1)}
-  .mot:focus-visible{outline:2px solid var(--rouge);outline-offset:2px}
+  .mot:hover{background:color-mix(in srgb,var(--exo-accent) 12%,transparent)}
+  .mot:focus-visible{outline:2px solid var(--exo-accent);outline-offset:2px}
   .fige .mot{cursor:default}
   .fige .mot:hover{background:none}
-  .mot.rate{color:#9A93AC;text-decoration:line-through;text-decoration-color:#C9C2D8}
+  .mot.rate{color:var(--exo-rate);text-decoration:line-through;text-decoration-color:var(--exo-rate-trait)}
   .calque{position:absolute;inset:0;pointer-events:none;overflow:visible}
-  .trait{fill:none;stroke:var(--rouge);stroke-width:2.4;stroke-linecap:round;animation:tracer .55s cubic-bezier(.4,0,.3,1) forwards}
+  .trait{fill:none;stroke:var(--exo-accent);stroke-width:2.4;stroke-linecap:round;animation:tracer .55s cubic-bezier(.4,0,.3,1) forwards}
   @keyframes tracer{to{stroke-dashoffset:0}}
-  .annote{position:absolute;font-family:'Caveat',cursive;font-size:26px;color:var(--rouge);
+  .annote{position:absolute;font-family:'Caveat',cursive;font-size:26px;color:var(--exo-accent);
     transform:translate(-50%,-100%) rotate(-3deg);white-space:nowrap;opacity:0;animation:apparait .3s .45s forwards}
   @keyframes apparait{to{opacity:1}}
 
@@ -95,48 +105,26 @@
   .astuce{margin-top:12px!important;padding-left:14px;border-left:1px solid var(--encre-3);font-style:italic;color:var(--mauve)!important}
   .suite{display:block;margin:20px 0 0 auto}
 
-  /* accueil */
-  .carte{background:var(--encre-2);border-radius:3px;padding:26px 28px;margin-bottom:16px}
-  .niveau{display:flex;align-items:baseline;gap:14px;margin:0 0 4px}
-  .niveau b{font-family:'Bodoni Moda',serif;font-weight:400;font-size:30px;color:var(--papier)}
-  .niveau span{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--mauve);font-weight:700}
-  .anneau{height:3px;background:var(--encre-3);margin:16px 0 10px}
-  .anneau i{display:block;height:100%;background:var(--or);transition:width .6s}
   .legende{font-size:13px;color:var(--mauve);margin:0}
-  .menu{display:grid;gap:10px;grid-template-columns:1fr 1fr}
-  @media(max-width:560px){.menu{grid-template-columns:1fr}}
-  .tuile{text-align:left;background:var(--encre-2);border:1px solid transparent;border-radius:3px;padding:20px 22px;cursor:pointer;
-    transition:border-color .18s,background .18s;color:var(--craie)}
-  .tuile:hover{border-color:var(--encre-3);background:var(--encre-3)}
-  .tuile:focus-visible{outline:2px solid var(--seyes);outline-offset:2px}
-  .tuile b{display:block;font-family:'Bodoni Moda',serif;font-weight:500;font-size:19px;color:var(--papier);margin-bottom:4px}
-  .tuile span{font-size:13px;color:var(--mauve);line-height:1.5}
-  .tuile[disabled]{opacity:.4;cursor:default}
   .bas{margin-top:22px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
   .lien{background:none;border:0;color:var(--mauve);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
     font-weight:700;cursor:pointer;padding:8px 0;text-decoration:underline;text-underline-offset:4px}
   .lien:hover{color:var(--craie)}
 
-  /* stats */
-  .ligne{margin-bottom:14px}
-  .ligne .tete{display:flex;justify-content:space-between;gap:12px;font-size:13px;margin-bottom:6px}
-  .ligne .tete span:last-child{color:var(--mauve);white-space:nowrap}
+  /* la piste d'avancement, partagée par le rail, le tableau et les visuels */
   .piste{height:3px;background:var(--encre-3)}
   .piste i{display:block;height:100%;background:var(--seyes);transition:width .5s}
-  .piste i.fort{background:var(--vert)}
   .piste i.faible{background:var(--rouge)}
-  .note{font-family:'Bodoni Moda',serif;font-size:64px;line-height:1;color:var(--papier);margin:0}
-  .note small{font-size:22px;color:var(--mauve)}
   h3{font-family:'Bodoni Moda',serif;font-weight:500;font-size:20px;color:var(--papier);margin:28px 0 14px}
   h3:first-child{margin-top:0}
 
   /* dictée */
-  .ardoise{background:var(--papier);border-radius:2px;padding:30px;position:relative}
+  .ardoise{background:var(--exo-fond);border-radius:2px;padding:30px;position:relative}
   .ardoise textarea{width:100%;min-height:120px;border:0;background:transparent;resize:vertical;
-    font-family:'Bodoni Moda',serif;font-size:22px;line-height:34px;color:#1D1836;outline:none}
-  .ardoise textarea::placeholder{color:#B7AFC9}
-  .correction{font-family:'Bodoni Moda',serif;font-size:22px;line-height:40px;color:#1D1836}
-  .correction .ok{color:#1D1836}
+    font-family:'Bodoni Moda',serif;font-size:22px;line-height:34px;color:var(--exo-encre);outline:none}
+  .ardoise textarea::placeholder{color:var(--exo-attenue)}
+  .correction{font-family:'Bodoni Moda',serif;font-size:22px;line-height:40px;color:var(--exo-encre)}
+  .correction .ok{color:var(--exo-encre)}
   .correction .ko{color:var(--rouge);text-decoration:line-through;text-decoration-thickness:1px;margin-right:6px}
   .correction .vrai{color:var(--vert)}
   .haut-parleur{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
@@ -146,14 +134,12 @@
     .phrase{font-size:22px;line-height:44px}
     .cahier{padding:30px 20px 26px}
     h1{font-size:30px}
-    body{padding:20px 14px 50px}
   }
   @media (prefers-reduced-motion:reduce){
     *{animation-duration:.001s!important;transition-duration:.001s!important}
     .trait{stroke-dashoffset:0!important}
     .annote{opacity:1}
   }
-  .etiquette{font-size:10px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--mauve);margin:0 0 12px}
   .puces{display:flex;flex-wrap:wrap;gap:8px}
   .puce{display:inline-flex;align-items:center;gap:8px;background:none;border:1px solid var(--encre-3);
     border-radius:999px;padding:9px 15px;font-size:13px;color:var(--craie);cursor:pointer;transition:border-color .18s,background .18s}
@@ -161,11 +147,6 @@
   .puce:focus-visible{outline:2px solid var(--seyes);outline-offset:2px}
   .puce.active{background:var(--papier);border-color:var(--papier);color:var(--encre);font-weight:700}
   .puce i{font-style:normal;font-size:11px;opacity:.65;letter-spacing:.04em}
-  .fiche{padding:16px 0;border-bottom:1px solid var(--encre-3)}
-  .fiche:last-child{border-bottom:0;padding-bottom:0}
-  .fiche-t{font-family:'Bodoni Moda',serif;font-size:18px;color:var(--papier);margin:0 0 6px}
-  .fiche-t em{font-style:normal;font-size:9px;color:var(--or);letter-spacing:2px;vertical-align:middle}
-  .fiche-e{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--mauve);margin:10px 0 0;font-weight:700}
 
   /* ─── écrans ajoutés : connexion, inscription, compte ─── */
   .champ{display:block;margin-bottom:16px}
@@ -178,79 +159,8 @@
   .alerte{background:var(--encre-3);border-left:3px solid var(--rouge);padding:14px 16px;border-radius:0 3px 3px 0;
     font-size:13px;color:var(--craie);margin-bottom:18px;line-height:1.5}
   .alerte.bonne{border-left-color:var(--vert)}
-  .compte-ligne{display:flex;justify-content:space-between;gap:12px;font-size:13px;padding:12px 0;border-bottom:1px solid var(--encre-3)}
-  .compte-ligne:last-child{border-bottom:0}
-  .compte-ligne span:last-child{color:var(--mauve);text-align:right}
-  .discute{display:inline-block;font-size:9px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;
-    color:var(--or);border:1px solid var(--or);border-radius:999px;padding:2px 8px;vertical-align:middle;margin-left:8px}
   .attente{color:var(--mauve);font-size:13px}
 
-  /* ─── catalogue : recherche, filtres, fiches repliables ─── */
-  .chercher{display:block}
-  .chercher input{width:100%;background:var(--encre);border:1px solid var(--encre-3);border-radius:999px;
-    padding:13px 20px;color:var(--craie);font-family:'Karla',sans-serif;font-size:15px;transition:border-color .18s}
-  .chercher input::placeholder{color:#6F6790}
-  .chercher input:focus{outline:0;border-color:var(--seyes)}
-  .chercher input::-webkit-search-cancel-button{filter:invert(.7)}
-  .compte-resultats{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;
-    color:var(--mauve);margin:22px 0 0;display:flex;align-items:center;flex-wrap:wrap}
-  .groupe-tete{display:flex;justify-content:space-between;align-items:baseline;gap:12px;
-    padding-bottom:14px;border-bottom:1px solid var(--encre-3);margin-bottom:4px}
-  .groupe-tete span{letter-spacing:.1em;color:#6F6790}
-
-  .fiche-entete{display:flex;align-items:center;justify-content:space-between;gap:14px;width:100%;
-    background:none;border:0;padding:0;text-align:left;cursor:pointer;color:inherit}
-  .fiche-entete:focus-visible{outline:2px solid var(--seyes);outline-offset:4px;border-radius:2px}
-  .fiche-entete .fiche-t{margin:0;flex:1}
-  .fiche-entete:hover .fiche-t{color:#fff}
-  .fiche.ouverte .fiche-t{color:#fff}
-  .fiche-corps{margin-top:12px;padding-left:14px;border-left:2px solid var(--encre-3);
-    animation:monte .28s cubic-bezier(.2,.8,.2,1)}
-  .fiche-corps .fiche-e{margin-bottom:0}
-
-  /* pastille d'avancement, à droite du titre */
-  .jalon{flex:none;font-size:11px;letter-spacing:.1em;font-weight:700;color:var(--mauve);
-    border:1px solid var(--encre-3);border-radius:999px;padding:3px 11px;white-space:nowrap}
-  .jalon.cours{color:var(--seyes);border-color:var(--seyes)}
-  .jalon.acquis{color:var(--vert);border-color:var(--vert)}
-  .jalon.debat{color:var(--or);border-color:var(--or)}
-
-  /* ─── statistiques : domaines repliables ─── */
-  .chiffres{display:flex;gap:26px;margin-top:20px;flex-wrap:wrap}
-  .chiffres span{display:flex;flex-direction:column;font-size:11px;letter-spacing:.14em;
-    text-transform:uppercase;color:var(--mauve);font-weight:700}
-  .chiffres b{font-family:'Bodoni Moda',serif;font-weight:400;font-size:28px;color:var(--papier);
-    letter-spacing:0;text-transform:none;margin-bottom:2px}
-  .domaine{padding:16px 0;border-bottom:1px solid var(--encre-3)}
-  .domaine:last-child{border-bottom:0;padding-bottom:0}
-  .domaine-tete{display:flex;align-items:baseline;justify-content:space-between;gap:12px;width:100%;
-    background:none;border:0;padding:0 0 8px;text-align:left;cursor:pointer;color:inherit}
-  .domaine-tete:focus-visible{outline:2px solid var(--seyes);outline-offset:3px;border-radius:2px}
-  .domaine-nom{font-family:'Bodoni Moda',serif;font-size:19px;color:var(--papier)}
-  .domaine-tete:hover .domaine-nom,.domaine.ouvert .domaine-nom{color:#fff}
-  .domaine-compte{font-size:12px;letter-spacing:.12em;color:var(--mauve);font-weight:700;white-space:nowrap}
-  .domaine-detail{font-size:12px;color:#6F6790;margin:8px 0 0}
-  .mini{background:none;border:0;color:#6F6790;font-family:'Karla',sans-serif;font-size:10px;
-    letter-spacing:.14em;text-transform:uppercase;font-weight:700;cursor:pointer;padding:0 0 0 14px}
-  .mini:hover{color:var(--craie)}
-  .mini.active{color:var(--papier);text-decoration:underline;text-underline-offset:4px}
-  .groupe-bouton{display:flex;align-items:baseline;justify-content:space-between;gap:12px;width:100%;
-    background:none;border:0;padding:0 0 10px;text-align:left;cursor:pointer;color:inherit}
-  .groupe-bouton:focus-visible{outline:2px solid var(--seyes);outline-offset:3px;border-radius:2px}
-  .groupe-bouton:hover .domaine-nom{color:#fff}
-  .groupe-bouton[disabled]{cursor:default}
-  .groupe-bouton + .piste{margin-bottom:6px}
-  .domaine-nom .chevron{display:inline-block;width:0;height:0;margin-right:11px;vertical-align:middle;
-    border-left:6px solid var(--mauve);border-top:4px solid transparent;border-bottom:4px solid transparent;
-    transition:transform .2s ease}
-  .groupe-bouton.ouvert .chevron{transform:rotate(90deg)}
-  .groupe-bouton:hover .chevron{border-left-color:var(--papier)}
-  .domaine-action{margin:14px 0 4px;font-size:11px;padding:9px 16px}
-  .domaine-tete.ouvert .chevron{transform:rotate(90deg)}
-  .domaine-tete:hover .chevron{border-left-color:var(--papier)}
-
-  /* ─── dictée : réglages de lecture ─── */
-  .reglages{margin-top:16px}
   .curseur{-webkit-appearance:none;appearance:none;width:100%;height:3px;background:var(--encre-3);
     border-radius:2px;outline:none;margin:4px 0 0}
   .curseur::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:16px;height:16px;
@@ -258,7 +168,7 @@
   .curseur::-moz-range-thumb{width:16px;height:16px;border-radius:50%;background:var(--papier);
     cursor:pointer;border:0}
   .curseur:focus-visible{outline:2px solid var(--seyes);outline-offset:6px}
-  .voix-info{margin-top:22px;font-size:12px;color:#6F6790}
+  .voix-info{margin-top:22px;font-size:12px;color:var(--mauve-2)}
   .alerte code{display:inline-block;margin:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
     font-size:12px;color:var(--craie);background:var(--encre);padding:6px 10px;border-radius:3px;
     word-break:break-all}
@@ -270,56 +180,10 @@
     box-shadow:0 24px 60px -20px rgba(0,0,0,.7);animation:monte .26s cubic-bezier(.2,.8,.2,1)}
   .boite h2{font-family:'Bodoni Moda',serif;font-weight:500;font-size:22px;margin:0 0 12px;color:var(--papier)}
   .boite .bas{margin-top:24px}
-  .quitter{margin-left:auto}
 
 /* ═══════════════════════════════════════════════════════════════════════
    L'ATELIER — le choix de la matière
    ═══════════════════════════════════════════════════════════════════════ */
-
-.retour-atelier { margin-top: 14px; font-size: 12px; }
-
-.bandeau { text-align: center; }
-
-.chiffres-atelier {
-  display: flex; justify-content: center; gap: 44px; flex-wrap: wrap;
-  margin-bottom: 26px;
-}
-.chiffres-atelier div { display: flex; flex-direction: column; }
-.chiffres-atelier b {
-  font-family: "Bodoni Moda", Georgia, serif; font-size: 38px; line-height: 1;
-  color: var(--or); font-variant-numeric: tabular-nums;
-}
-.chiffres-atelier span {
-  font-size: 10px; letter-spacing: .16em; text-transform: uppercase;
-  color: var(--mauve); font-weight: 700; margin-top: 8px;
-}
-
-.modules { display: flex; flex-direction: column; gap: 14px; margin-top: 22px; }
-
-.module {
-  display: flex; flex-direction: column; gap: 7px; width: 100%;
-  padding: 22px 24px; text-align: left; cursor: pointer;
-  background: var(--encre-2); border: 1px solid var(--encre-3); border-radius: 4px;
-  color: inherit; font: inherit;
-  transition: border-color .18s, transform .18s;
-}
-.module:hover, .module:focus-visible { border-color: var(--or); transform: translateY(-1px); }
-.module .titre { font-family: "Bodoni Moda", Georgia, serif; font-size: 23px; }
-.module .tagline { font-size: 13.5px; color: var(--mauve); }
-.module .detail { font-size: 12.5px; color: var(--mauve); }
-.module .detail b { color: var(--or); font-weight: 700; }
-.module .detail em { font-style: normal; color: var(--mauve); }
-.module .niveau {
-  font-size: 10px; letter-spacing: .16em; text-transform: uppercase;
-  font-weight: 700; color: var(--mauve);
-}
-.jauge-module {
-  display: block; height: 3px; background: var(--encre-3); border-radius: 2px; overflow: hidden;
-  margin: 4px 0 2px;
-}
-.jauge-module i { display: block; height: 100%; background: var(--or); }
-
-.centre { text-align: center; }
 
 /* ═══════════════════════════════════════════════════════════════════════
    QUESTIONS À CHOIX MULTIPLE
@@ -332,7 +196,7 @@
 .enonce {
   position: relative;
   font-family: "Bodoni Moda", serif; font-size: 23px; line-height: 1.5;
-  color: #1D1836; margin: 0 0 24px; text-wrap: balance;
+  color: var(--exo-encre); margin: 0 0 24px; text-wrap: balance;
 }
 
 .propositions {
@@ -343,12 +207,12 @@
 .proposition {
   display: block; width: 100%; text-align: left;
   padding: 13px 17px; font: inherit; font-size: 15.5px; line-height: 1.45;
-  color: #1D1836; background: rgba(255, 255, 255, .45);
-  border: 1px solid rgba(29, 24, 54, .18); border-radius: 3px;
+  color: var(--exo-encre); background: var(--exo-champ);
+  border: 1px solid var(--exo-bord); border-radius: 3px;
   cursor: pointer; transition: border-color .15s, background .15s;
 }
-.proposition:hover:not(:disabled) { border-color: var(--rouge); background: rgba(255, 255, 255, .75); }
-.proposition:focus-visible { outline: 2px solid var(--rouge); outline-offset: 2px; }
+.proposition:hover:not(:disabled) { border-color: var(--exo-accent); background: var(--exo-champ-fort); }
+.proposition:focus-visible { outline: 2px solid var(--exo-accent); outline-offset: 2px; }
 .proposition:disabled { cursor: default; }
 
 /* La bonne réponse se montre toujours, même quand elle a été trouvée : c'est
@@ -358,15 +222,13 @@
 }
 .proposition.rate {
   border-color: var(--rouge); background: rgba(214, 48, 42, .12);
-  color: #9A93AC; text-decoration: line-through; text-decoration-color: #C9C2D8;
+  color: var(--exo-rate); text-decoration: line-through; text-decoration-color: var(--exo-rate-trait);
 }
 
 .explication {
   margin: 18px 0 0; padding: 16px 20px; font-size: 14.5px; line-height: 1.7;
   background: var(--encre-2); border-left: 2px solid var(--mauve); border-radius: 0 3px 3px 0;
 }
-
-.actions-fiche { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
 
 /* ═══════════════════════════════════════════════════════════════════════
    LEÇONS
@@ -387,11 +249,6 @@
 .lecon p { font-size: 15.5px; line-height: 1.75; margin: 0 0 15px; max-width: 68ch; }
 .lecon .sources ul { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; }
 .lecon .sources a { color: var(--mauve); }
-
-.fin-lecon {
-  display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
-  margin-top: 44px; padding-top: 26px; border-top: 1px solid var(--encre-3);
-}
 
 /* ── visuels ── */
 
@@ -479,7 +336,6 @@
 }
 
 @media (max-width: 560px) {
-  .chiffres-atelier { gap: 26px; }
   .frise li { grid-template-columns: 60px 1fr; gap: 12px; }
   .barres li { grid-template-columns: 1fr; gap: 5px; }
 }
@@ -492,14 +348,14 @@
 .recto {
   position: relative;
   font-family: "Bodoni Moda", serif; font-size: 30px; line-height: 1.4;
-  color: #1D1836; margin: 0 0 10px; text-wrap: balance;
+  color: var(--exo-encre); margin: 0 0 10px; text-wrap: balance;
 }
-.recto.muet { font-size: 17px; font-family: "Karla", sans-serif; color: #6B6280; }
+.recto.muet { font-size: 17px; font-family: "Karla", sans-serif; color: var(--exo-attenue); }
 
 .verso {
   position: relative;
   font-family: "Caveat", cursive; font-size: 30px; line-height: 1.3;
-  color: var(--rouge); margin: 18px 0 0;
+  color: var(--exo-accent); margin: 18px 0 0;
 }
 
 .carte-memoire { min-height: 190px; display: flex; flex-direction: column; justify-content: center; }
@@ -514,7 +370,7 @@
 
 .sans-voix {
   position: relative;
-  font-size: 13px; line-height: 1.6; color: #6B6280; font-style: italic;
+  font-size: 13px; line-height: 1.6; color: var(--exo-attenue); font-style: italic;
   margin: 0 0 14px; max-width: 60ch;
 }
 
@@ -522,17 +378,17 @@
 .saisie input {
   flex: 1 1 220px; min-width: 0;
   padding: 12px 15px; font-family: "Bodoni Moda", serif; font-size: 19px;
-  color: #1D1836; background: rgba(255, 255, 255, .55);
-  border: 1px solid rgba(29, 24, 54, .22); border-radius: 3px;
+  color: var(--exo-encre); background: var(--exo-champ);
+  border: 1px solid var(--exo-bord); border-radius: 3px;
 }
-.saisie input:focus { outline: 2px solid var(--rouge); outline-offset: 1px; border-color: transparent; }
+.saisie input:focus { outline: 2px solid var(--exo-accent); outline-offset: 1px; border-color: transparent; }
 .saisie input:disabled { background: transparent; }
 
-.attendu { position: relative; margin: 16px 0 0; font-size: 15px; color: #4A4265; }
+.attendu { position: relative; margin: 16px 0 0; font-size: 15px; color: var(--exo-encre-2); }
 .attendu b { font-family: "Caveat", cursive; font-size: 25px; font-weight: 400; }
 .attendu.juste b { color: var(--vert); }
 .attendu.rate b { color: var(--rouge); }
-.attendu .variantes { color: #7A7391; font-size: 13.5px; }
+.attendu .variantes { color: var(--exo-attenue); font-size: 13.5px; }
 
 @media (max-width: 560px) {
   .recto { font-size: 24px; }
@@ -545,9 +401,4 @@
   display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: .06em;
   padding: 2px 7px; margin-right: 8px; border-radius: 3px;
   background: var(--encre-3); color: var(--or); vertical-align: middle;
-}
-.a-cours {
-  display: inline-block; font-size: 9.5px; letter-spacing: .12em; text-transform: uppercase;
-  font-weight: 700; padding: 2px 7px; margin-left: 8px; border-radius: 3px;
-  background: var(--encre-3); color: var(--mauve); vertical-align: middle;
 }

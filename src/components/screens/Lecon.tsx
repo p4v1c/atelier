@@ -6,6 +6,12 @@
  * L'écran est générique : il rend n'importe quelle `LessonDocument`, d'où
  * qu'elle vienne. Le module Culture générale y range ses 238 leçons ; un futur
  * module de cours personnels y rangera les siens sans écrire une ligne d'écran.
+ *
+ * Il s'ouvrait en pleine largeur, avec ses actions tout en bas, hors de vue
+ * après trois écrans de lecture. Il prend maintenant le plateau à rail : le
+ * texte à gauche, borné à sa mesure de lecture, et à droite le sommaire des
+ * sections, les faits du point et les deux boutons — visibles où qu'on en soit
+ * dans le cours.
  */
 import { useEffect, useState } from "react";
 import type { LessonPayload, LessonVisuel } from "@/lib/api-types";
@@ -194,7 +200,7 @@ export function Lecon({ engine, slug, moduleId, setScreen, setChrome }: Props) {
 
   if (message && !data) {
     return (
-      <div className="carte">
+      <div className="plateau">
         <p className="alerte">{message}</p>
         <button className="lien" onClick={() => setScreen({ name: "catalogue" })}>
           Retour au catalogue
@@ -202,55 +208,94 @@ export function Lecon({ engine, slug, moduleId, setScreen, setChrome }: Props) {
       </div>
     );
   }
-  if (!data) return <p className="legende attente">Chargement du cours…</p>;
+  if (!data) {
+    return (
+      <div className="plateau">
+        <p className="legende attente">Chargement du cours…</p>
+      </div>
+    );
+  }
 
   return (
-    <article className="lecon">
-      <header>
-        <h2>{data.lesson.titre}</h2>
-        <p className="legende">
-          {data.category} · niveau {data.difficulty} ·{" "}
-          {data.isNew ? "jamais travaillé" : `palier ${data.box}/5`}
-        </p>
-      </header>
+    <div className="plateau avec-rail">
+      <article className="principal lecon">
+        <header>
+          <p className="mono-titre">{data.category}</p>
+          <h2>{data.lesson.titre}</h2>
+        </header>
 
-      {data.lesson.sections.map((section, i) => (
-        <section key={i}>
-          <h3>{section.titre}</h3>
-          {section.texte.split(/\n{2,}/).map((paragraphe, j) => (
-            <p key={j}>{paragraphe}</p>
-          ))}
-          {section.visuels?.map((v, j) => (
-            <Visuel key={j} v={v} />
-          ))}
-        </section>
-      ))}
-
-      {data.lesson.sources && data.lesson.sources.length > 0 && (
-        <section className="sources">
-          <h3>Pour aller voir plus loin</h3>
-          <ul>
-            {data.lesson.sources.map((s, i) => (
-              <li key={i}>
-                <a href={s.url} target="_blank" rel="noopener noreferrer">
-                  {s.titre}
-                </a>
-              </li>
+        {data.lesson.sections.map((section, i) => (
+          <section key={i} id={`section-${i}`}>
+            <h3>{section.titre}</h3>
+            {section.texte.split(/\n{2,}/).map((paragraphe, j) => (
+              <p key={j}>{paragraphe}</p>
             ))}
-          </ul>
-        </section>
-      )}
+            {section.visuels?.map((v, j) => (
+              <Visuel key={j} v={v} />
+            ))}
+          </section>
+        ))}
 
-      {message && <p className="alerte">{message}</p>}
+        {data.lesson.sources && data.lesson.sources.length > 0 && (
+          <section className="sources">
+            <h3>Pour aller voir plus loin</h3>
+            <ul>
+              {data.lesson.sources.map((s, i) => (
+                <li key={i}>
+                  <a href={s.url} target="_blank" rel="noopener noreferrer">
+                    {s.titre}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+      </article>
 
-      <div className="fin-lecon">
-        <button className="plein" onClick={seTester}>
-          Me tester sur cette leçon
+      <aside className="rail">
+        <p className="mono-titre">Dans ce cours</p>
+        <nav className="sommaire">
+          {data.lesson.sections.map((section, i) => (
+            <a key={i} href={`#section-${i}`}>
+              {section.titre}
+            </a>
+          ))}
+        </nav>
+
+        <div className="fiche-faits">
+          <p className="fiche-fait">
+            <span>Domaine</span>
+            <b>{data.category}</b>
+          </p>
+          <p className="fiche-fait">
+            <span>Difficulté</span>
+            <b>{"\u25cf".repeat(Math.max(1, data.difficulty))}</b>
+          </p>
+          <p className="fiche-fait">
+            <span>Palier</span>
+            <b>{data.isNew ? "jamais travaillé" : `${data.box}/5`}</b>
+          </p>
+          <p className="fiche-fait">
+            <span>Questions</span>
+            <b>{data.exerciseCount}</b>
+          </p>
+        </div>
+
+        {message && <p className="alerte">{message}</p>}
+
+        <button className="plein" style={{ width: "100%", marginBottom: 10 }} onClick={seTester}>
+          Me tester sur ce cours
         </button>
-        <button className="lien" onClick={() => setScreen({ name: "catalogue" })}>
+        <button
+          className="creux"
+          style={{ width: "100%" }}
+          onClick={() => setScreen({ name: "catalogue" })}
+        >
           Retour au catalogue
         </button>
-      </div>
-    </article>
+
+        <p className="rail-bas">Le cours se relit autant de fois qu’on veut : il ne compte pas de palier.</p>
+      </aside>
+    </div>
   );
 }

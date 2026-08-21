@@ -119,6 +119,9 @@ export function Coque({
                 <button
                   key={o.cle}
                   className={`onglet ${o.cle === ongletActif ? "actif" : ""}`}
+                  /* Le filet dit l'onglet courant à l'œil ; aria-current le dit
+                     au lecteur d'écran, qui ne voit pas les bordures. */
+                  aria-current={o.cle === ongletActif ? "page" : undefined}
                   onClick={() => onOnglet(o.cle)}
                 >
                   {o.libelle}
@@ -127,7 +130,7 @@ export function Coque({
             </nav>
           )}
 
-          {compteur && <span className="barre-fin">{compteur}</span>}
+          {compteur && <span className="coque-fin">{compteur}</span>}
         </header>
 
         {children}

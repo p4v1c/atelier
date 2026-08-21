@@ -239,13 +239,13 @@ export function App() {
   ) : screen.name === "serie" ? (
     <Serie {...props} session={screen.session} />
   ) : screen.name === "bilan" ? (
-    <div className="plateau">
-      <Bilan {...props} summary={screen.summary} category={screen.category} />
-    </div>
+    <Bilan {...props} summary={screen.summary} category={screen.category} />
   ) : screen.name === "stats" ? (
-    <div className="plateau">
-      {look.ecrans?.stats ? <look.ecrans.stats {...props} /> : <Stats {...props} />}
-    </div>
+    look.ecrans?.stats ? (
+      <look.ecrans.stats {...props} />
+    ) : (
+      <Stats {...props} />
+    )
   ) : screen.name === "catalogue" ? (
     look.ecrans?.catalogue ? (
       <look.ecrans.catalogue {...props} />
@@ -253,33 +253,21 @@ export function App() {
       <Catalogue {...props} />
     )
   ) : screen.name === "dictees" ? (
-    <div className="plateau">
-      <Dictees {...props} />
-    </div>
+    <Dictees {...props} />
   ) : screen.name === "dictee" ? (
-    <div className="plateau">
-      <Dictee {...props} id={screen.id} />
-    </div>
+    <Dictee {...props} id={screen.id} />
   ) : screen.name === "lecon" ? (
-    <div className="plateau">
-      {look.ecrans?.lecon ? (
-        <look.ecrans.lecon {...props} slug={screen.slug} />
-      ) : (
-        <Lecon {...props} slug={screen.slug} />
-      )}
-    </div>
+    look.ecrans?.lecon ? (
+      <look.ecrans.lecon {...props} slug={screen.slug} />
+    ) : (
+      <Lecon {...props} slug={screen.slug} />
+    )
   ) : screen.name === "connexion" ? (
-    <div className="plateau">
-      <Connexion {...props} />
-    </div>
+    <Connexion {...props} />
   ) : screen.name === "inscription" ? (
-    <div className="plateau">
-      <Inscription {...props} />
-    </div>
+    <Inscription {...props} />
   ) : (
-    <div className="plateau">
-      <Compte {...props} />
-    </div>
+    <Compte {...props} />
   );
 
   return (

@@ -12,6 +12,18 @@
   --cg-rouge: #e4705f;
   --cg-vert: #5dbe8a;
   --cg-or: #d9b75f;
+
+  /* Le carnet reste sur papier crème — c'est son identité, pas celle du
+     français. Il ne déclarait rien et héritait donc du cahier d'écolier
+     voisin : réglure seyès et marge rouge, qui ne sont pas les siennes. Il
+     pose maintenant sa propre surface : le même papier, réglé au bic, sans
+     marge d'écolier, et le rouge de correction devient le sien. */
+  --exo-accent: var(--cg-rouge);
+  --exo-reglure: var(--cg-bic);
+  --exo-reglure-pas: 30px;
+  --exo-reglure-opacite: 0.16;
+  --exo-marge: transparent;
+  --exo-plein-fond: #1d2a5e;
 }
 
 /* La marque : « Le Cahier » à l'encre, « de culture G » au rouge de marge. */
@@ -19,7 +31,7 @@
 [data-module="culture-g"] .matiere-lien.active { border-left-color: var(--cg-bic); }
 [data-module="culture-g"] .matiere-lien.active .nom::after { background: var(--cg-bic); }
 [data-module="culture-g"] .matiere-lien.active .marque { color: var(--cg-bic); }
-[data-module="culture-g"] .onglet.actif { background: rgba(127, 151, 255, 0.2); color: var(--papier); }
+[data-module="culture-g"] .onglet.actif { border-bottom-color: var(--cg-bic); }
 [data-module="culture-g"] .coque-fin b { color: var(--cg-bic); }
 
 /* ── l'accueil du cahier ── */

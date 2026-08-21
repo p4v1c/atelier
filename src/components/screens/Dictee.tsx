@@ -13,6 +13,12 @@
  * voix — "fr-FR", "en-GB", "es-MX" — et c'est elle qui décide de l'accent,
  * côté serveur comme côté navigateur. Une dictée d'anglais lue par une voix
  * française n'apprendrait qu'à mal prononcer.
+ *
+ * La mise en page suit celle du reste : plateau à rail. L'ardoise et la
+ * correction occupent le principal ; la vitesse, le volume, le diagnostic de
+ * voix et le passage à la dictée suivante tiennent dans le rail — trois .carte
+ * empilées les poussaient auparavant sous la ligne de flottaison, alors qu'on
+ * s'en sert pendant l'écoute, pas après.
  */
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { DictationDetail, DictationResultPayload, DictationsPayload } from "@/lib/api-types";
@@ -226,7 +232,12 @@ export function Dictee({ engine, id, moduleId, setScreen, setChrome }: Props) {
     return () => clearTimeout(t);
   }, [dictee, voixInfo, serveurSaitLire, serveur, dispo, dire, reglages.vitesse, reglages.volume]);
 
-  if (!dictee || !liste) return <p className="legende attente">Chargement de la dictée…</p>;
+  if (!dictee || !liste)
+    return (
+      <div className="plateau">
+        <p className="legende attente">Chargement de la dictée…</p>
+      </div>
+    );
 
   const index = liste.dictations.findIndex((d) => d.id === id);
   const courante = liste.dictations[index];
@@ -252,42 +263,97 @@ export function Dictee({ engine, id, moduleId, setScreen, setChrome }: Props) {
     setConfirmation(vers);
   };
 
+  const numero = courante?.number ?? "?";
+  const rang = index >= 0 ? index + 1 : 1;
+
   return (
-    <>
-      <div className="ardoise">
-        <textarea
-          ref={zone}
-          value={saisie}
-          onChange={(e) => setSaisie(e.target.value)}
-          placeholder="Écris le texte que tu entends…"
-          spellCheck={false}
-          autoCorrect="off"
-          autoCapitalize="off"
-          style={{ minHeight: courante && courante.wordCount > 25 ? 200 : 120 }}
-        />
-      </div>
+    <div className="plateau avec-rail">
+      <div className="principal">
+        <p className="mono-titre" style={{ display: "flex", justifyContent: "space-between" }}>
+          <span>
+            Dictée {numero} · {dictee.theme}
+          </span>
+          <span>
+            {rang} sur {liste.dictations.length}
+          </span>
+        </p>
 
-      <div className="haut-parleur">
-        <button className="creux" onClick={relire} disabled={prepare}>
-          {prepare ? "Préparation…" : enLecture ? "Réécouter" : "Écouter"}
-        </button>
-        {enLecture && (
-          <button className="creux" onClick={stopper}>
-            Arrêter
+        <div className="ardoise">
+          <textarea
+            ref={zone}
+            value={saisie}
+            onChange={(e) => setSaisie(e.target.value)}
+            placeholder="Écris le texte que tu entends…"
+            spellCheck={false}
+            autoCorrect="off"
+            autoCapitalize="off"
+            style={{ minHeight: courante && courante.wordCount > 25 ? 220 : 130 }}
+          />
+        </div>
+
+        <div className="haut-parleur">
+          <button className="creux" onClick={relire} disabled={prepare}>
+            {prepare ? "Préparation…" : enLecture ? "Réécouter" : "Écouter"}
           </button>
+          {enLecture && (
+            <button className="creux" onClick={stopper}>
+              Arrêter
+            </button>
+          )}
+          <button className="plein" style={{ marginLeft: "auto" }} onClick={corriger}>
+            Corriger
+          </button>
+        </div>
+
+        {!dispo && !serveurSaitLire && (
+          <p className="avert">
+            La synthèse vocale est indisponible ici. Demande à quelqu’un de te dicter le texte, ou passe à
+            l’entraînement.
+          </p>
         )}
-        <button className="plein" style={{ marginLeft: "auto" }} onClick={corriger}>
-          Corriger
-        </button>
+
+        {resultat && (
+          <div className={`regle ${resultat.score === 100 ? "juste" : ""}`} style={{ marginTop: 22 }}>
+            <p className="verdict">
+              <span>
+                {resultat.score === 100
+                  ? "Sans faute"
+                  : `${resultat.correctWords} mots justes sur ${resultat.totalWords}`}
+              </span>
+              <span className="palier">{resultat.score} %</span>
+            </p>
+            <div className="ardoise" style={{ marginTop: 14 }}>
+              <p className="correction">
+                {resultat.words.map((w, i) => (
+                  <span key={i}>
+                    {w.status === "ok" ? (
+                      <span className="ok">{w.expected}</span>
+                    ) : w.status === "extra" ? (
+                      <span className="ko">{w.given}</span>
+                    ) : (
+                      <>
+                        {w.status === "wrong" && <span className="ko">{w.given}</span>}
+                        <span className="vrai">{w.expected}</span>
+                      </>
+                    )}{" "}
+                  </span>
+                ))}
+              </p>
+            </div>
+            <p className="astuce" style={{ marginTop: 16 }}>
+              En rouge barré ce que tu as écrit, en vert la forme attendue.
+            </p>
+          </div>
+        )}
       </div>
 
-      <div className="carte reglages">
-        <p className="etiquette">Vitesse de lecture</p>
-        <div className="puces">
+      <aside className="rail">
+        <p className="mono-titre">Vitesse de lecture</p>
+        <div className="segments" style={{ marginBottom: 24 }}>
           {VITESSES.map((v) => (
             <button
               key={v.valeur}
-              className={`puce ${reglages.vitesse === v.valeur ? "active" : ""}`}
+              className={`segment ${reglages.vitesse === v.valeur ? "actif" : ""}`}
               onClick={() => {
                 const suivant = { ...reglages, vitesse: v.valeur };
                 enregistrerReglages(suivant);
@@ -299,9 +365,7 @@ export function Dictee({ engine, id, moduleId, setScreen, setChrome }: Props) {
           ))}
         </div>
 
-        <p className="etiquette" style={{ marginTop: 22 }}>
-          Volume · {Math.round(reglages.volume * 100)} %
-        </p>
+        <p className="mono-titre">Volume · {Math.round(reglages.volume * 100)} %</p>
         <input
           className="curseur"
           type="range"
@@ -312,6 +376,27 @@ export function Dictee({ engine, id, moduleId, setScreen, setChrome }: Props) {
           onChange={(e) => enregistrerReglages({ ...reglages, volume: Number(e.target.value) })}
           onMouseUp={() => dire(dictee.text, reglages.vitesse, reglages.volume, voixInfo?.voix ?? null, dictee.id)}
         />
+
+        <div className="fiche-faits" style={{ marginTop: 24 }}>
+          <p className="fiche-fait">
+            <span>Longueur</span>
+            <b>{courante?.wordCount ?? "—"} mots</b>
+          </p>
+          <p className="fiche-fait">
+            <span>Voix</span>
+            <b>{etiquette}</b>
+          </p>
+          <p className="fiche-fait">
+            <span>Meilleur score</span>
+            <b>
+              {resultat
+                ? `${resultat.bestScore} %`
+                : dictee.bestScore === null
+                  ? "jamais tentée"
+                  : `${dictee.bestScore} %`}
+            </b>
+          </p>
+        </div>
 
         <p className="legende voix-info">
           {serveurSaitLire
@@ -329,78 +414,38 @@ export function Dictee({ engine, id, moduleId, setScreen, setChrome }: Props) {
 
         {!serveurSaitLire && (
           <p className="legende voix-info" style={{ marginTop: 8 }}>
-            Une voix neuronale bien plus naturelle peut être installée en local, sans réseau :
-            voir la section « Dictée audio » du README.
+            Une voix neuronale bien plus naturelle peut être installée en local, sans réseau : voir la
+            section « Dictée audio » du README.
           </p>
         )}
 
         {!serveurSaitLire && dispo && voixInfo && (voixInfo.voix === null || !voixInfo.francaise) && (
-          <p className="alerte" style={{ marginTop: 14, marginBottom: 0 }}>
+          <p className="alerte" style={{ marginTop: 14 }}>
             Sur Linux, les voix viennent de <b>speech-dispatcher</b> et d’<b>espeak-ng</b> :
             <br />
             <code>sudo apt install speech-dispatcher speech-dispatcher-espeak-ng espeak-ng-data</code>
             <br />
-            Redémarre ensuite le navigateur. Sinon, demande à quelqu’un de te dicter le texte.
+            Redémarre ensuite le navigateur.
           </p>
         )}
-      </div>
 
-      {!dispo && (
-        <p className="avert">
-          La synthèse vocale est indisponible ici. Demande à quelqu’un de te dicter le texte, ou passe à
-          l’entraînement.
-        </p>
-      )}
-
-      {resultat && (
-        <div className={`regle ${resultat.score === 100 ? "juste" : ""}`} style={{ marginTop: 18 }}>
-          <p className="verdict">
-            <span>
-              {resultat.score === 100
-                ? "Sans faute"
-                : `${resultat.correctWords} mots justes sur ${resultat.totalWords}`}
-            </span>
-            <span className="palier">{resultat.score} %</span>
-          </p>
-          <div className="ardoise" style={{ marginTop: 14 }}>
-            <p className="correction">
-              {resultat.words.map((w, i) => (
-                <span key={i}>
-                  {w.status === "ok" ? (
-                    <span className="ok">{w.expected}</span>
-                  ) : w.status === "extra" ? (
-                    <span className="ko">{w.given}</span>
-                  ) : (
-                    <>
-                      {w.status === "wrong" && <span className="ko">{w.given}</span>}
-                      <span className="vrai">{w.expected}</span>
-                    </>
-                  )}{" "}
-                </span>
-              ))}
-            </p>
-          </div>
-          <p className="astuce" style={{ marginTop: 16 }}>
-            En rouge barré ce que tu as écrit, en vert la forme attendue.
-          </p>
+        <div style={{ marginTop: 24 }}>
           {suivante && (
-            <button className="plein suite" onClick={() => setScreen({ name: "dictee", id: suivante.id })}>
-              Dictée suivante
+            <button
+              className={resultat ? "plein" : "creux"}
+              style={{ width: "100%", marginBottom: 10 }}
+              onClick={() => (resultat ? setScreen({ name: "dictee", id: suivante.id }) : partir("suivante"))}
+            >
+              {resultat ? "Dictée suivante" : "Passer cette dictée"}
             </button>
           )}
-        </div>
-      )}
-
-      <div className="bas">
-        <button className="creux" onClick={() => partir("liste")}>
-          Retour aux dictées
-        </button>
-        {suivante && resultat === null && (
-          <button className="lien" onClick={() => partir("suivante")}>
-            Passer cette dictée
+          <button className="creux" style={{ width: "100%" }} onClick={() => partir("liste")}>
+            Retour aux dictées
           </button>
-        )}
-      </div>
+        </div>
+
+        <p className="rail-bas">Les accents et la ponctuation comptent dans la note.</p>
+      </aside>
 
       {confirmation && (
         <Confirmation
@@ -429,6 +474,6 @@ export function Dictee({ engine, id, moduleId, setScreen, setChrome }: Props) {
           ]}
         />
       )}
-    </>
+    </div>
   );
 }
