@@ -237,6 +237,20 @@ C'est aussi le seul module sans onglets : un tableau au bout d'un couloir de
 quatre onglets ne se voit pas. `onglets: []` supprime la barre, et l'écran
 unique pose la grille.
 
+Sous les jeux, **l'atlas de référence** : quatre pages qu'on lit au lieu de les
+passer. Les capitales par continent, le mur des drapeaux, les vingt-neuf
+étendues d'eau, et une carte muette par région où la souris fait apparaître le
+nom. Rien n'y est compté, et c'est délibéré : on ne lit pas une table de
+capitales du début à la fin, on y cherche ce qu'on ne sait pas. Les cases de
+jeu, elles non plus, ne portent plus de barre d'avancement — un entraînement
+n'a pas de bout, et « 12 % » laissait croire le contraire.
+
+`GET /api/public/atlas` sert cette table. Elle est lue côté serveur plutôt que
+livrée au navigateur : les fiches portent aussi les notes d'auteur qui composent
+les corrections d'exercices, et les envoyer reviendrait à publier une moitié des
+réponses. Ce qu'on dit d'une mer, en revanche, est repris de la correction
+elle-même — deux textes séparés finiraient par se contredire.
+
 Six cent treize questions, et pas une écrite à la main. Elles se déduisent
 d'une **table de cent quatre-vingt-quatorze pays** — code ISO, capitale, une
 phrase de situation — et ajouter un pays ajoute trois questions dans les trois
@@ -436,6 +450,7 @@ jetable en trois secondes.
 | `POST /api/auth/password`  |  ✓   | change le mot de passe, révoque les autres sessions               |
 | `GET  /api/account/export` |  ✓   | export JSON complet, en pièce jointe                              |
 | `GET  /api/account/sessions` | ✓ | les sessions ouvertes : appareil, navigateur, depuis quand      |
+| `GET  /api/public/atlas`   |  —   | l'atlas de référence : pays, capitales, mers                      |
 
 - **argon2id**, profil OWASP (19 Mio, 2 passes, parallélisme 1).
 - **Cookie** `la_regle_session`, `HttpOnly`, `SameSite=Lax`, `Secure` en

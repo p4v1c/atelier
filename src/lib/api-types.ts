@@ -23,6 +23,24 @@ export type PublicUser = {
   placementDone: boolean;
 };
 
+/* ─────────────────────────── l'atlas de référence ─────────────────────── */
+
+/** Un pays, tel que la page de consultation le montre. */
+export type FicheAtlas = {
+  id: string;
+  /** Code à deux lettres : le drapeau s'en déduit, sans image à charger. */
+  a2: string;
+  nom: string;
+  capitale: string;
+  /** Où c'est, en une phrase. */
+  ou: string;
+};
+
+export type AtlasPayload = {
+  continents: { cle: string; nom: string; pays: FicheAtlas[] }[];
+  mers: { id: string; nom: string; note: string }[];
+};
+
 /** Une session ouverte, telle que l'écran du compte la montre. */
 export type SessionOuverte = {
   id: string;

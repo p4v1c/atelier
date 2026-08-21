@@ -17,26 +17,12 @@
  */
 import { useEffect, useState } from "react";
 import type { FondDeCarte, Trace } from "@/lib/cartes/types";
+import { FONDS } from "@/lib/cartes/charger";
 import { regionCarte } from "@/lib/cartes/regions";
 import type { VueExercice, VueExerciceProps } from "./types";
 
 type Question = { region: string; couche: "pays" | "mer"; consigne: string; amorce: string | null };
 type Reveal = { cible: string; cibleNom: string; explication: string | null };
-
-/**
- * Un morceau par région.
- *
- * Le tableau est écrit à la main plutôt que calculé : un `import()` dont le
- * chemin est une variable empêche l'empaqueteur de découper quoi que ce soit,
- * et le gain disparaît.
- */
-const FONDS: Record<string, () => Promise<FondDeCarte>> = {
-  monde: () => import("@/lib/cartes/monde").then((m) => m.MONDE),
-  europe: () => import("@/lib/cartes/europe").then((m) => m.EUROPE),
-  afrique: () => import("@/lib/cartes/afrique").then((m) => m.AFRIQUE),
-  asie: () => import("@/lib/cartes/asie").then((m) => m.ASIE),
-  ameriques: () => import("@/lib/cartes/ameriques").then((m) => m.AMERIQUES),
-};
 
 function CarteMondeVue({ question, verdict, choix, repondre }: VueExerciceProps) {
   const q = question as Question;

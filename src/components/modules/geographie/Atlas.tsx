@@ -26,6 +26,7 @@ import { useEffect, useState } from "react";
 import type { CatalogueSkill, SkillProgressView } from "@/lib/api-types";
 import { SERIES_SIZES } from "@/lib/study/scheduler";
 import type { ScreenProps } from "../../App";
+import { Fiches, PAGES, type PageFiche } from "./Fiches";
 
 const CARTES = [
   { cle: "europe", nom: "Europe" },
@@ -93,6 +94,10 @@ export function Atlas({ engine, moduleId, setScreen, setChrome }: ScreenProps) {
   const [series, setSeries] = useState<CatalogueSkill[]>([]);
   const [avancement, setAvancement] = useState<SkillProgressView[]>([]);
   const [attente, setAttente] = useState<string | null>(null);
+  /* La page de référence ouverte, s'il y en a une. Elle n'est pas un écran de
+     l'application : elle ne se retient pas, ne s'enregistre pas, et se ferme
+     par un bouton. C'est de la consultation, pas de la navigation. */
+  const [fiche, setFiche] = useState<PageFiche | null>(null);
 
   useEffect(() => {
     setChrome({ fil: "", accroche: "drapeaux · capitales · cartes" });
@@ -134,7 +139,8 @@ export function Atlas({ engine, moduleId, setScreen, setChrome }: ScreenProps) {
     }
   };
 
-  const total = series.reduce((n, s) => n + s.exerciseCount, 0);
+  if (fiche) return <Fiches page={fiche} ouvrir={setFiche} revenir={() => setFiche(null)} />;
+
   const posees = avancement.reduce((n, s) => n + s.seenCount, 0);
   const aRevoir = avancement.filter((s) => s.due).length;
 
@@ -195,28 +201,23 @@ export function Atlas({ engine, moduleId, setScreen, setChrome }: ScreenProps) {
                   }
 
                   const suivi = avancement.find((s) => s.slug === serie.slug);
-                  const vu = Math.min(suivi?.seenCount ?? 0, serie.exerciseCount);
-                  const part = serie.exerciseCount ? Math.round((vu / serie.exerciseCount) * 100) : 0;
 
+                  /* Pas de barre d'avancement ici. Un jeu ne se termine pas :
+                     on y revient, et « 12 % » sur une série d'entraînement
+                     laisserait croire qu'il y a un bout. Ce qui informe, c'est
+                     le nombre de questions, et le fait qu'une série soit due. */
                   return (
                     <td key={carte.cle}>
                       <button
                         className={`case ${suivi?.due ? "due" : ""} ${suivi && !suivi.isNew ? "entamee" : ""}`}
                         disabled={attente !== null}
                         onClick={() => void jouer(serie.slug)}
-                        title={
-                          suivi?.isNew
-                            ? "Jamais ouverte"
-                            : `${vu} question(s) vue(s) sur ${serie.exerciseCount} · palier ${suivi?.box ?? 0}`
-                        }
-                        aria-label={`${jeu.nom} sur ${carte.nom} — ${serie.exerciseCount} questions, ${
-                          suivi?.isNew ? "jamais ouverte" : `${part} % vues`
+                        title={`${serie.exerciseCount} questions${suivi?.due ? " · à revoir" : ""}`}
+                        aria-label={`${jeu.nom} sur ${carte.nom} — ${serie.exerciseCount} questions${
+                          suivi?.due ? ", à revoir" : ""
                         }`}
                       >
                         <b>{serie.exerciseCount}</b>
-                        <span className="piste" aria-hidden>
-                          <i style={{ width: `${Math.max(part, 2)}%` }} />
-                        </span>
                         {suivi?.due && (
                           <span className="fanion" aria-hidden>
                             à revoir
@@ -232,9 +233,27 @@ export function Atlas({ engine, moduleId, setScreen, setChrome }: ScreenProps) {
         </table>
       </div>
 
+      {/* La consultation, sous les jeux : on lit avant de jouer, et rien ici
+          ne se compte. */}
+      <section className="atlas-fiches">
+        <p className="mono-titre">Consulter l’atlas</p>
+        <p className="legende">
+          Quatre pages à lire, sans exercice ni progression. On ne retient pas les capitales du monde
+          en se trompant dix fois : on les lit d’abord.
+        </p>
+        <div className="rangee-fiches">
+          {PAGES.map((f) => (
+            <button key={f.cle} className="lien-fiche" onClick={() => setFiche(f.cle)}>
+              <b>{f.nom}</b>
+              <span>{f.quoi}</span>
+            </button>
+          ))}
+        </div>
+      </section>
+
       <footer className="atlas-pied">
         <span>
-          <b>{posees}</b> réponses posées sur {total} questions
+          <b>{posees}</b> réponses posées
           {aRevoir > 0 && (
             <>
               {" · "}

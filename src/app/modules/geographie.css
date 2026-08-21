@@ -387,10 +387,6 @@
 /* Une série entamée compte : son nombre passe au premier plan. */
 .atlas-grille .case.entamee b { color: var(--papier); }
 
-.atlas-grille .case .piste { display: block; width: 100%; height: 3px; background: var(--encre); }
-.atlas-grille .case .piste i { display: block; height: 100%; background: var(--geo-terre); transition: width 0.5s; }
-.atlas-grille tbody tr:not(.sur-carte) .case .piste i { background: var(--geo-cote); }
-
 .atlas-grille .case .fanion {
   font-family: "IBM Plex Mono", monospace;
   font-size: 9px;
@@ -418,4 +414,224 @@
   .atlas { padding: 24px 18px; }
   .atlas-pied { flex-direction: column; gap: 6px; }
   .atlas-pied .source { text-align: left; }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   L'ATLAS DE RÉFÉRENCE
+   ═══════════════════════════════════════════════════════════════════════
+
+   Ce qu'on consulte, par opposition à ce qu'on passe. Rien ne s'y compte : on
+   ne lit pas une table de capitales du début à la fin, on y cherche ce qu'on
+   ne sait pas. Une barre d'avancement n'y informerait de rien. */
+
+.atlas-fiches { padding-top: 22px; border-top: 1px solid var(--encre-3); }
+.atlas-fiches .legende { margin: 0 0 14px; max-width: 70ch; }
+
+.rangee-fiches {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+.lien-fiche {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: left;
+  padding: 14px 16px;
+  background: var(--encre-2);
+  border: 1px solid var(--encre-3);
+  border-radius: 3px;
+  cursor: pointer;
+  transition: border-color 0.12s, background 0.12s;
+}
+.lien-fiche:hover { border-color: var(--geo-cote); background: var(--encre-3); }
+.lien-fiche:focus-visible { outline: 2px solid var(--geo-cote); outline-offset: 2px; }
+.lien-fiche b {
+  font-family: "Bodoni Moda", serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--papier);
+}
+.lien-fiche span { font-size: 12.5px; line-height: 1.5; color: var(--mauve-2); }
+
+/* ── La page de référence ─────────────────────────────────────────────── */
+
+.fiches { display: flex; flex-direction: column; gap: 18px; padding: 30px 30px 40px; }
+
+.fiches-tete .retour {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--mauve-2);
+  background: none;
+  border: 0;
+  padding: 0 0 10px;
+  cursor: pointer;
+}
+.fiches-tete .retour:hover { color: var(--craie); }
+.fiches-tete h2 {
+  margin: 0;
+  font-family: "Bodoni Moda", serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: var(--papier);
+}
+.fiches-tete p { margin: 6px 0 0; max-width: 70ch; font-size: 14px; color: var(--mauve-2); }
+
+.fiches-onglets { display: flex; flex-wrap: wrap; gap: 4px; border-bottom: 1px solid var(--encre-3); }
+.fiche-onglet {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--mauve-2);
+  background: none;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  padding: 9px 14px;
+  margin-bottom: -1px;
+  cursor: pointer;
+}
+.fiche-onglet:hover { color: var(--craie); }
+.fiche-onglet.actif { color: var(--papier); border-bottom-color: var(--geo-cote); }
+.fiche-onglet:focus-visible { outline: 2px solid var(--geo-cote); outline-offset: -2px; }
+
+.fiches-corps { display: flex; flex-direction: column; gap: 26px; }
+.fiches-corps .mono-titre { margin: 0 0 10px; }
+
+/* Le tableau des capitales : dense, lisible en diagonale, et la colonne « où »
+   se replie la première quand la place manque. */
+.table-atlas { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+.table-atlas thead th {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: var(--mauve-2);
+  text-align: left;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--encre-3);
+}
+.table-atlas tbody th {
+  text-align: left;
+  font-weight: 400;
+  color: var(--craie);
+  padding: 8px 14px 8px 0;
+  white-space: nowrap;
+}
+.table-atlas .drapeau { margin-right: 9px; font-variant-emoji: emoji; }
+.table-atlas td { padding: 8px 14px 8px 0; color: var(--mauve-2); vertical-align: baseline; }
+.table-atlas .valeur { color: var(--papier); white-space: nowrap; }
+.table-atlas .ou { width: 55%; line-height: 1.5; }
+.table-atlas tbody tr + tr th,
+.table-atlas tbody tr + tr td { border-top: 1px solid var(--encre-3); }
+
+/* Le mur de drapeaux : des caractères, pas des images. */
+.mur-drapeaux {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+.mur-drapeaux li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 9px 12px;
+  background: var(--encre-2);
+  border: 1px solid var(--encre-3);
+  border-radius: 3px;
+}
+.mur-drapeaux .embleme { font-size: 30px; line-height: 1; font-variant-emoji: emoji; }
+.mur-drapeaux .nom { font-size: 13px; color: var(--craie); min-width: 0; }
+
+.liste-mers { list-style: none; margin: 0; padding: 0; }
+.liste-mers li {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 18px;
+  padding: 11px 0;
+  border-bottom: 1px solid var(--encre-3);
+  font-size: 13.5px;
+}
+.liste-mers b {
+  font-family: "Bodoni Moda", serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--papier);
+}
+.liste-mers span { color: var(--mauve-2); line-height: 1.6; }
+
+.avertissement {
+  margin: 0;
+  padding: 12px 16px;
+  border-left: 3px solid var(--geo-cote);
+  background: var(--encre-2);
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--craie);
+}
+.avertissement b { color: var(--papier); font-weight: 500; }
+
+/* ── La carte muette ──────────────────────────────────────────────────── */
+
+/* Le choix de la carte : des onglets à plat, sans boîte. C'est le premier
+   geste de la page, il doit se voir avant le dessin. */
+.continents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  border-bottom: 1px solid var(--encre-3);
+}
+.continents .continent {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--mauve-2);
+  background: none;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  padding: 8px 14px;
+  margin-bottom: -1px;
+  cursor: pointer;
+}
+.continents .continent:hover { color: var(--craie); }
+.continents .continent.actif { color: var(--papier); border-bottom-color: var(--geo-cote); }
+.continents .continent:focus-visible { outline: 2px solid var(--geo-cote); outline-offset: -2px; }
+
+/* Le nom réserve sa ligne, même vide : sans cela, la carte monte et descend
+   d'un cran chaque fois que la souris entre ou sort d'un pays. */
+.carte-etiquette {
+  margin: 0;
+  min-height: 34px;
+  font-family: "Bodoni Moda", serif;
+  font-size: 24px;
+  line-height: 34px;
+  color: var(--papier);
+}
+.carte-etiquette.vide { font-family: "Karla", sans-serif; font-size: 13px; color: var(--mauve-2); }
+.carte-etiquette.eau { color: var(--geo-cote); }
+
+/* La carte de consultation vit hors du cahier : elle prend le fond de la
+   coque, pas celui du papier d'exercice. */
+/* Plus basse que la carte d'exercice : ici, la liste et la légende doivent
+   tenir sous le dessin sans qu'on ait à faire défiler. */
+.fiches .carte-cadre { margin: 0; max-width: calc(46vh * var(--carte-ratio-num, 1.5)); }
+.carte-monde.muette .pays { cursor: default; }
+.carte-monde.muette .mer { cursor: default; }
+.fiches .carte-repli .puce { cursor: default; }
+.fiches .carte-repli .puce:hover { border-color: var(--exo-bord); }
+.fiches .carte-repli summary { color: var(--mauve-2); }
+.fiches .carte-repli summary:hover { color: var(--craie); }
+.fiches .carte-repli .puce { color: var(--craie); border-color: var(--encre-3); background: var(--encre-2); }
+
+@media (max-width: 1000px) {
+  .rangee-fiches { grid-template-columns: repeat(2, 1fr); }
+  .liste-mers li { grid-template-columns: 1fr; gap: 4px; }
+  .table-atlas .ou { display: none; }
 }
