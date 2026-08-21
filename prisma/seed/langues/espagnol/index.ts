@@ -3,6 +3,8 @@
  */
 import type { DicteeLangue, LotCartes } from "../../../../src/modules/langues/commun";
 import { ESPAGNOL_BASES } from "./bases";
+import { ESPAGNOL_GRAMATICA_C1 } from "./gramatica-c1";
+import { ESPAGNOL_VOCABULARIO_SOCIEDAD } from "./vocabulario-sociedad";
 import { ESPAGNOL_AVANZADO_C2 } from "./avanzado-c2";
 import { ESPAGNOL_VOCABULARIO_VIDA } from "./vocabulario-vida";
 import { ESPAGNOL_CONJUGAISON } from "./conjugaison";
@@ -44,6 +46,8 @@ export const LOTS_ESPAGNOL: LotCartes[] = [
   ...ESPAGNOL_PRONUNCIACION,
   ...ESPAGNOL_EXPRESIONES,
   ...ESPAGNOL_VOCABULARIO_VIDA,
+  ...ESPAGNOL_VOCABULARIO_SOCIEDAD,
+  ...ESPAGNOL_GRAMATICA_C1,
   ...ESPAGNOL_AVANZADO_C2,
 ];
 

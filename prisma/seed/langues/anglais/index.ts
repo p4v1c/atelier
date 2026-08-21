@@ -12,6 +12,7 @@ import { ANGLAIS_CONJUGAISON } from "./conjugaison";
 import { ANGLAIS_CONJUGAISON_2 } from "./conjugaison-2";
 import { ANGLAIS_COURS_AVANCE } from "./cours-avance";
 import { ANGLAIS_COURS_GRAMMAIRE } from "./cours-grammaire";
+import { ANGLAIS_GRAMMAIRE_C1 } from "./grammaire-c1";
 import { ANGLAIS_COURS_TOURNURES } from "./cours-tournures";
 import { ANGLAIS_COURS_USAGE } from "./cours-usage";
 import { ANGLAIS_DEBUTANT } from "./debutant";
@@ -26,6 +27,7 @@ import { ANGLAIS_VOCABULAIRE_C1 } from "./vocabulaire-c1";
 import { ANGLAIS_VOCABULAIRE_IDEES } from "./vocabulaire-idees";
 import { ANGLAIS_VOCABULAIRE_METIERS } from "./vocabulaire-metiers";
 import { ANGLAIS_VOCABULAIRE_MONDE } from "./vocabulaire-monde";
+import { ANGLAIS_VOCABULAIRE_SOCIETE } from "./vocabulaire-societe";
 import { ANGLAIS_VOCABULAIRE_VIE } from "./vocabulaire-vie";
 
 export const LOTS_ANGLAIS: LotCartes[] = [
@@ -47,6 +49,8 @@ export const LOTS_ANGLAIS: LotCartes[] = [
   ...ANGLAIS_VOCABULAIRE_METIERS,
   ...ANGLAIS_VOCABULAIRE_C1,
   ...ANGLAIS_VOCABULAIRE_VIE,
+  ...ANGLAIS_VOCABULAIRE_SOCIETE,
+  ...ANGLAIS_GRAMMAIRE_C1,
   ...ANGLAIS_AVANCE_C2,
   ...ANGLAIS_PRONONCIATION,
   ...ANGLAIS_EXPRESSIONS,
