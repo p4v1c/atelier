@@ -3,107 +3,43 @@
 /**
  * L'accueil d'un module de langue.
  *
- * Il répond à trois questions dans cet ordre : où j'en suis (le niveau), qu'est-ce
- * que je fais maintenant (le bouton), et par quoi je peux travailler (les modes).
- *
- * Ce n'est pas une liste de leçons : apprendre une langue, c'est alterner les
- * façons de la pratiquer. D'où les six modes, qui tapent tous dans le même
- * contenu par des angles différents.
+ * Il répond à trois questions dans cet ordre : où j'en suis (le niveau du
+ * cadre européen), comment travailler (les quatre façons de réviser la même
+ * carte), et par quoi commencer (le programme, série par série).
  */
 import { useEffect, useState } from "react";
-import type { DictationsPayload, ProgressPayload } from "@/lib/api-types";
+import type { ProgressPayload } from "@/lib/api-types";
 import { NoContentError } from "@/lib/client/engine";
-import { complementDe } from "@/lib/elision";
 import { SENS_NIVEAU, type Niveau } from "@/modules/langues/commun";
 import type { ScreenProps } from "../../App";
 
 type Props = ScreenProps & { accents: { etiquette: string; nom: string }[] };
 
-const MODES: {
-  cle: string;
-  pictogramme: string;
-  nom: string;
-  quoi: string;
-  categorie?: string;
-}[] = [
-  {
-    cle: "vocabulaire",
-    pictogramme: "📇",
-    nom: "Vocabulaire",
-    quoi: "Cartes à retourner et traductions à écrire, choisies par le planificateur.",
-  },
-  {
-    cle: "conjugaison",
-    pictogramme: "🔀",
-    nom: "Conjugaison",
-    quoi: "Un cours rédigé, puis les formes en situation.",
-    categorie: "Conjugaison",
-  },
-  {
-    cle: "grammaire",
-    pictogramme: "📐",
-    nom: "Grammaire",
-    quoi: "Articles, modaux, conditionnelles, pronoms — chaque série a son chapitre.",
-    categorie: "Grammaire en contexte",
-  },
+/** Les quatre façons de réviser la même carte. */
+const FACONS = [
+  { cle: "flashcard", nom: "Reconnaître", quoi: "La carte à l’endroit : tu te juges toi-même." },
+  { cle: "traduction", nom: "Produire", quoi: "Écrire le mot, sans le voir d’abord." },
+  { cle: "ecoute", nom: "Entendre", quoi: "La carte est lue, tu écris ce que tu entends." },
   {
     cle: "prononciation",
-    pictogramme: "🗣️",
-    nom: "Prononciation",
-    quoi: "Accent tonique et sons qui piègent. On lit à voix haute, le navigateur écoute.",
-    categorie: "Prononciation",
-  },
-  {
-    cle: "faux-amis",
-    pictogramme: "⚠️",
-    nom: "Faux amis",
-    quoi: "Les mots qui ressemblent au français et disent autre chose.",
-    categorie: "Faux amis",
-  },
-  {
-    cle: "expressions",
-    pictogramme: "💬",
-    nom: "Expressions",
-    quoi: "Les tournures qu'on entend partout et qu'aucun cours n'enseigne.",
-    categorie: "Expressions",
-  },
-  {
-    cle: "faiblesses",
-    pictogramme: "🎯",
-    nom: "Mes lacunes",
-    quoi: "Uniquement ce que tu rates. C'est là qu'on progresse le plus vite.",
+    nom: "Dire",
+    quoi: "Mesure si un logiciel te comprend, pas ton accent.",
   },
 ];
 
-export function AccueilLangue({
-  engine,
-  user,
-  moduleId,
-  accents,
-  setScreen,
-  setChrome,
-}: Props) {
+export function AccueilLangue({ engine, moduleId, accents, setScreen, setChrome }: Props) {
   const [progress, setProgress] = useState<ProgressPayload | null>(null);
-  const [dictees, setDictees] = useState<DictationsPayload | null>(null);
   const [message, setMessage] = useState<string | null>(null);
   const [occupe, setOccupe] = useState(false);
 
-  useEffect(() => setChrome({ fil: "", accroche: "" }), [setChrome]);
-
   useEffect(() => {
-    let vivant = true;
-    engine
+    setChrome({ fil: "", accroche: "" });
+    setProgress(null);
+    void engine
       .progress(moduleId)
-      .then((p) => vivant && setProgress(p))
-      .catch(() => vivant && setMessage("Progression indisponible."));
-    engine
-      .dictations(moduleId)
-      .then((d) => vivant && setDictees(d))
-      .catch(() => undefined);
-    return () => {
-      vivant = false;
-    };
-  }, [engine, moduleId]);
+      .then(setProgress)
+      .catch(() => setMessage("Progression indisponible."));
+  }, [engine, moduleId, setChrome]);
 
   const lancer = async (options: { mode: "training" | "weakness"; categorie?: string }) => {
     setOccupe(true);
@@ -122,164 +58,116 @@ export function AccueilLangue({
     }
   };
 
-  if (!progress) return <p className="lg-muted">Chargement…</p>;
+  if (!progress) {
+    return (
+      <div className="plateau">
+        <p className="lg-muted">Chargement…</p>
+      </div>
+    );
+  }
 
   const niveaux = progress.niveaux ?? [];
   const enCours = progress.niveauEstime;
   const tenu = progress.niveauAcquis;
-  const aRevoir = progress.due;
-  const jamaisVues = progress.unseen;
 
-  const avecCours = progress.skills.filter((s) => s.hasLesson).length;
-
-  /* Combien de séries par catégorie, pour ne proposer que ce qui existe. */
-  const parCategorie = new Map<string, number>();
-  for (const s of progress.skills) {
-    parCategorie.set(s.category, (parCategorie.get(s.category) ?? 0) + 1);
-  }
+  /* Les catégories, avec leur avancement : c'est le programme. */
+  const series = progress.categories
+    .map((c) => {
+      const dedans = progress.skills.filter((s) => s.category === c.category);
+      const niveau = dedans.find((s) => s.level)?.level ?? null;
+      return {
+        ...c,
+        niveau,
+        part: c.skills ? (c.mastered / c.skills) * 100 : 0,
+      };
+    })
+    .sort((a, b) => (a.niveau ?? "Z").localeCompare(b.niveau ?? "Z"));
 
   return (
-    <>
-      <p className="lg-eyebrow">{user ? complementDe("Le carnet", user.pseudo) : "Sans compte"}</p>
-      <h1>
-        {aRevoir > 0
-          ? `${aRevoir} série${aRevoir > 1 ? "s" : ""} à revoir aujourd’hui.`
-          : jamaisVues > 0
-            ? "Rien à revoir : prends de l’avance."
-            : "Tout est à jour."}
-      </h1>
-
-      <div className="lg-niveau-bandeau">
+    <div className="plateau">
+      <div className="lg-niveau">
         <span className="lg-badge">{enCours ?? "—"}</span>
         <span className="lg-niveau-texte">
-          <b>
-            {tenu
-              ? `${tenu} tenu, ${enCours} en cours`
-              : enCours
-                ? `${enCours} en cours`
-                : "Niveau pas encore établi"}
-          </b>
-          <span>{enCours ? SENS_NIVEAU[enCours as Niveau] : "Fais une première série pour te situer."}</span>
+          <b>Cadre européen</b>
+          <span>
+            {enCours
+              ? `Niveau ${enCours} : ${tenu ? `le ${tenu} est tenu, le ${enCours} est en cours.` : "premières séries."} ${SENS_NIVEAU[enCours as Niveau] ?? ""}`
+              : "Fais une première série pour te situer."}
+          </span>
         </span>
-        <button
-          className="lg-btn"
-          disabled={occupe}
-          onClick={() => lancer({ mode: aRevoir > 0 ? "training" : "training" })}
-        >
-          {aRevoir > 0 ? "Réviser maintenant" : "Commencer"}
-        </button>
+        <span className="lg-echelle">
+          {niveaux.map((n) => (
+            <span
+              key={n.niveau}
+              className={`lg-echelon ${n.part >= 80 ? "tenu" : n.niveau === enCours ? "encours" : ""}`}
+            >
+              <span className="n">{n.niveau}</span>
+              <span className="piste">
+                <i style={{ width: `${Math.max(1, n.part)}%` }} />
+              </span>
+              <span className="p">{n.part} %</span>
+            </span>
+          ))}
+        </span>
       </div>
 
       {message && <p className="lg-alerte">{message}</p>}
 
-      {niveaux.length > 0 && (
-        <>
-          <h2>Où tu en es</h2>
-          <div className="lg-echelle">
-            {niveaux.map((n) => (
-              <div
-                key={n.niveau}
-                className={`lg-echelon ${n.part >= 80 ? "tenu" : n.niveau === enCours ? "encours" : ""}`}
-              >
-                <span className="n">{n.niveau}</span>
-                <span className="p">
-                  {n.acquis} / {n.total} séries
-                </span>
-                <span className="piste">
-                  <i style={{ width: `${n.part}%` }} />
-                </span>
-              </div>
-            ))}
-          </div>
-        </>
-      )}
-
-      <h2>Comment travailler</h2>
+      <p className="mono-titre">Quatre façons de réviser la même carte</p>
       <div className="lg-modes">
-        {MODES.filter((m) => !m.categorie || (parCategorie.get(m.categorie) ?? 0) > 0).map((m) => {
-          const compte = m.categorie ? parCategorie.get(m.categorie) : progress.skills.length;
-          const inactif = m.cle === "faiblesses" && aRevoir === 0;
-          return (
-            <button
-              key={m.cle}
-              className="lg-mode"
-              disabled={occupe || inactif}
-              onClick={() =>
-                lancer(
-                  m.cle === "faiblesses"
-                    ? { mode: "weakness" }
-                    : { mode: "training", categorie: m.categorie }
-                )
-              }
-            >
-              <span className="pictogramme" aria-hidden="true">
-                {m.pictogramme}
-              </span>
-              <span className="nom">{m.nom}</span>
-              <span className="quoi">{m.quoi}</span>
-              <span className="compte">
-                {m.cle === "faiblesses"
-                  ? aRevoir > 0
-                    ? `${aRevoir} en attente`
-                    : "rien en attente"
-                  : `${compte} série${(compte ?? 0) > 1 ? "s" : ""}`}
-              </span>
-            </button>
-          );
-        })}
-
-        {dictees && dictees.dictations.length > 0 && (
-          <button className="lg-mode" onClick={() => setScreen({ name: "dictees" })}>
-            <span className="pictogramme" aria-hidden="true">
-              🎧
-            </span>
-            <span className="nom">Dictées</span>
-            <span className="quoi">
-              Un texte lu à voix haute, à retranscrire. L’accent change d’une dictée à l’autre.
-            </span>
-            <span className="compte">{dictees.dictations.length} dictées</span>
+        {FACONS.map((f) => (
+          <button key={f.cle} className="lg-mode" disabled={occupe} onClick={() => lancer({ mode: "training" })}>
+            <span className="pictogramme">{f.cle}</span>
+            <span className="nom">{f.nom}</span>
+            <span className="quoi">{f.quoi}</span>
           </button>
-        )}
+        ))}
+      </div>
 
-        <button className="lg-mode" onClick={() => setScreen({ name: "catalogue" })}>
-          <span className="pictogramme" aria-hidden="true">
-            📖
-          </span>
-          <span className="nom">Les cours</span>
-          <span className="quoi">
-            Des chapitres rédigés — conjugaison, grammaire, écrit — puis les formes en situation.
-          </span>
-          <span className="compte">{avecCours} cours</span>
-        </button>
-
-        <button className="lg-mode" onClick={() => setScreen({ name: "catalogue" })}>
-          <span className="pictogramme" aria-hidden="true">
-            📚
-          </span>
-          <span className="nom">Le programme</span>
-          <span className="quoi">
-            Toutes les séries, par niveau et par thème, avec les cours qui vont avec.
-          </span>
-          <span className="compte">{progress.skills.length} séries</span>
-        </button>
+      <h2 className="lg-section" style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
+        <span>Le programme</span>
+        <span className="mono-titre" style={{ margin: 0 }}>
+          Cliquer pour réviser la série
+        </span>
+      </h2>
+      <div className="lg-programme">
+        {series.map((s) => (
+          <button
+            key={s.category}
+            className="lg-serie-ligne"
+            disabled={occupe}
+            onClick={() => lancer({ mode: "training", categorie: s.category })}
+          >
+            {s.niveau ? <span className="niveau">{s.niveau}</span> : <span />}
+            <span className="titre" style={{ "--part": `${s.part}%` } as React.CSSProperties}>
+              {s.category}
+              <i />
+            </span>
+            <span className="part">
+              {s.mastered}/{s.skills}
+            </span>
+          </button>
+        ))}
       </div>
 
       {accents.length > 1 && (
         <>
-          <h2>Les accents que tu entendras</h2>
+          <p className="mono-titre" style={{ marginTop: 30 }}>
+            Les accents que tu entendras
+          </p>
           <div className="lg-accents">
             {accents.map((a) => (
-              <span key={a.etiquette} className="lg-accent-puce actif">
+              <span key={a.etiquette} className="lg-accent-puce">
                 {a.nom} · {a.etiquette}
               </span>
             ))}
           </div>
           <p className="lg-muted lg-small">
-            Les dictées alternent délibérément. Une oreille habituée à un seul accent ne comprend
+            Ils alternent d’une carte à l’autre. Une oreille habituée à un seul accent ne comprend
             que celui-là.
           </p>
         </>
       )}
-    </>
+    </div>
   );
 }

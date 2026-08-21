@@ -1,35 +1,53 @@
 /**
  * Les présentations des modules de langue.
  *
- * L'anglais et l'espagnol partagent tout — l'enveloppe, l'accueil, le CSS — et
- * ne diffèrent que par leur nom et leur couleur d'accent, celle-ci posée en
- * CSS sur [data-langue]. Ajouter le thaï ne demandera qu'une ligne ici et une
- * couleur là-bas.
+ * L'anglais et l'espagnol partagent tout — la peau, l'accueil, les onglets — et
+ * ne diffèrent que par leur marque et leur couleur d'accent, celle-ci posée en
+ * CSS sur [data-langue]. Ajouter le thaï ne demandera qu'une ligne ici.
  */
 import { AccueilLangue } from "./Accueil";
-import { EnveloppeLangue } from "./Enveloppe";
 import type { PresentationModule } from "../types";
 
 function presentationLangue(
-  nom: string,
+  marque: React.ReactNode,
+  sousMarque: string,
   accents: { etiquette: string; nom: string }[]
 ): PresentationModule {
   return {
     theme: "langue",
-    enteteAutonome: true,
-    enveloppe: (props) => <EnveloppeLangue {...props} nom={nom} />,
+    langue: true,
+    marque,
+    sousMarque,
+    onglets: [
+      { cle: "accueil", libelle: "Accueil" },
+      { cle: "serie", libelle: "S’entraîner" },
+      { cle: "catalogue", libelle: "Programme" },
+      { cle: "stats", libelle: "Progression" },
+    ],
     ecrans: {
       accueil: (props) => <AccueilLangue {...props} accents={accents} />,
     },
   };
 }
 
-export const anglaisPresentation = presentationLangue("Learn English", [
-  { etiquette: "en-GB", nom: "Britannique" },
-  { etiquette: "en-US", nom: "Américain" },
-]);
+export const anglaisPresentation = presentationLangue(
+  <>
+    Learn <em>English</em>
+  </>,
+  "en-GB · en-US",
+  [
+    { etiquette: "en-GB", nom: "Britannique" },
+    { etiquette: "en-US", nom: "Américain" },
+  ]
+);
 
-export const espagnolPresentation = presentationLangue("Aprender Español", [
-  { etiquette: "es-ES", nom: "Espagne" },
-  { etiquette: "es-MX", nom: "Amérique latine" },
-]);
+export const espagnolPresentation = presentationLangue(
+  <>
+    Aprender <em>Español</em>
+  </>,
+  "es-ES · es-MX",
+  [
+    { etiquette: "es-ES", nom: "Espagne" },
+    { etiquette: "es-MX", nom: "Amérique latine" },
+  ]
+);

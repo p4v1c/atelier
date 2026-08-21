@@ -1,366 +1,168 @@
 /* ═══════════════════════════════════════════════════════════════════════
-   LE CAHIER DE CULTURE G — la présentation propre au module
+   LE CAHIER DE CULTURE G — l'accent du module
    ═══════════════════════════════════════════════════════════════════════
 
-   Palette, typographie et structures reprises de heritage/culture-g/web :
-   c'est l'apparence que le cahier avait, et qu'il garde. Tout est accroché à
-   [data-module="culture-g"] pour ne rien déborder sur les autres matières.
-
-   Le cahier est clair là où l'Atelier est sombre. Ce n'est pas une
-   incohérence : deux matières ont le droit de ne pas se ressembler. */
-
-/* L'ossature de l'Atelier peint un fond violet et borne la page à 680 px.
-   Le cahier reprend la main sur les deux : c'est une autre page, pas une
-   variante. `:has()` permet de repeindre le corps depuis l'enfant. */
-body:has(.app[data-module="culture-g"]) {
-  background: #FAFAF8;
-  background-image: none;
-  padding: 0;
-  display: block;
-}
-@media (prefers-color-scheme: dark) {
-  body:has(.app[data-module="culture-g"]) { background: #131622; }
-}
-
-.app[data-module="culture-g"] { max-width: none; width: 100%; }
+   Depuis la refonte, toutes les matières partagent la coque. Ce fichier ne
+   redessine donc plus une page entière : il pose la couleur du cahier — le
+   bleu bic et le rouge de marge — et habille les quelques éléments qui lui
+   sont propres. */
 
 [data-module="culture-g"] {
-  --cg-papier: #FAFAF8;
-  --cg-releve: #FFFFFF;
-  --cg-creux: #F1F1EC;
-  --cg-encre: #1C2030;
-  --cg-encre-douce: #565B6E;
-  --cg-encre-pale: #9297A8;
-  --cg-filet: #E3E3DC;
-  --cg-bic: #2743C7;
-  --cg-bic-pale: #E8ECFB;
-  --cg-rouge: #D94F3D;
-  --cg-vert: #1E7A46;
-  --cg-vert-pale: #E3F2E9;
-  --cg-ko: #B23A2E;
-  --cg-ko-pale: #F9E8E5;
-  --cg-or: #9A7B2D;
-  --cg-ombre: 0 1px 3px rgba(28, 32, 48, .08), 0 4px 16px rgba(28, 32, 48, .05);
-
-  --cg-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
-  --cg-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --cg-mono: ui-monospace, "SF Mono", "Cascadia Mono", Consolas, monospace;
-
-  background: var(--cg-papier);
-  color: var(--cg-encre);
-  font-family: var(--cg-sans);
-  font-size: 16px;
-  line-height: 1.6;
-  min-height: 100vh;
+  --cg-bic: #7f97ff;
+  --cg-rouge: #e4705f;
+  --cg-vert: #5dbe8a;
+  --cg-or: #d9b75f;
 }
 
-/* Le cahier suivait le thème du système ; on garde ce comportement. */
-@media (prefers-color-scheme: dark) {
-  [data-module="culture-g"]:not([data-clair]) {
-    --cg-papier: #131622;
-    --cg-releve: #1B1F30;
-    --cg-creux: #0E111B;
-    --cg-encre: #E8E9F0;
-    --cg-encre-douce: #A7ACC0;
-    --cg-encre-pale: #6C7288;
-    --cg-filet: #2A2F44;
-    --cg-bic: #93A5FF;
-    --cg-bic-pale: #232A4A;
-    --cg-rouge: #E4705F;
-    --cg-vert: #5DBE8A;
-    --cg-vert-pale: #14301F;
-    --cg-ko: #E0776A;
-    --cg-ko-pale: #2E1815;
-    --cg-or: #D9B75F;
-    --cg-ombre: 0 1px 3px rgba(0, 0, 0, .4), 0 4px 16px rgba(0, 0, 0, .3);
-  }
-}
+/* La marque : « Le Cahier » à l'encre, « de culture G » au rouge de marge. */
+[data-module="culture-g"] .flanc-marque h1 em { color: var(--cg-rouge); }
+[data-module="culture-g"] .matiere-lien.active { border-left-color: var(--cg-bic); }
+[data-module="culture-g"] .matiere-lien.active .nom::after { background: var(--cg-bic); }
+[data-module="culture-g"] .matiere-lien.active .marque { color: var(--cg-bic); }
+[data-module="culture-g"] .onglet.actif { background: rgba(127, 151, 255, 0.2); color: var(--papier); }
+[data-module="culture-g"] .coque-fin b { color: var(--cg-bic); }
 
-/* ── ossature ── */
-
-.cg-wrap { max-width: 880px; margin: 0 auto; padding: 0 20px 96px; }
-
-.cg-topbar {
-  display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
-  padding: 18px 0 16px; border-bottom: 2px solid var(--cg-encre); margin-bottom: 30px;
-}
-.cg-brand {
-  font-family: var(--cg-serif); font-size: 1.35rem; font-weight: 700;
-  letter-spacing: -.01em; background: none; border: 0; padding: 0;
-  color: inherit; cursor: pointer;
-}
-.cg-brand .rouge { color: var(--cg-rouge); }
-.cg-tag {
-  font-size: .7rem; letter-spacing: .14em; text-transform: uppercase;
-  color: var(--cg-encre-pale); font-weight: 600;
-}
-.cg-nav { margin-left: auto; display: flex; gap: 2px; flex-wrap: wrap; }
-.cg-navbtn {
-  border: none; background: none; color: var(--cg-encre-douce); cursor: pointer;
-  font: inherit; font-size: .88rem; padding: 6px 12px; border-radius: 6px;
-}
-.cg-navbtn:hover { background: var(--cg-creux); color: var(--cg-encre); }
-.cg-navbtn.on { background: var(--cg-bic-pale); color: var(--cg-bic); font-weight: 600; }
+/* ── l'accueil du cahier ── */
 
 .cg-eyebrow {
-  font-size: .72rem; text-transform: uppercase; letter-spacing: .14em;
-  color: var(--cg-rouge); font-weight: 600; margin: 0 0 6px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--cg-rouge);
+  font-weight: 600;
+  margin: 0 0 8px;
 }
-[data-module="culture-g"] h1 {
-  font-family: var(--cg-serif); font-size: 1.9rem; line-height: 1.2;
-  margin: 0 0 22px; text-wrap: balance; font-weight: 700;
+.cg-titre {
+  font-family: "Bodoni Moda", serif;
+  font-weight: 400;
+  font-size: clamp(26px, 3.4vw, 38px);
+  line-height: 1.12;
+  color: var(--papier);
+  margin: 0 0 26px;
+  max-width: 20ch;
+  text-wrap: balance;
 }
-[data-module="culture-g"] h2 {
-  font-family: var(--cg-serif); font-size: 1.35rem; margin: 0 0 14px; text-wrap: balance;
-}
-.cg-muted { color: var(--cg-encre-douce); }
-.cg-faint { color: var(--cg-encre-pale); }
-.cg-small { font-size: .85rem; }
-
-/* ── chiffres du haut ── */
 
 .cg-statrow {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 12px; margin-bottom: 26px;
-}
-.cg-stat {
-  background: var(--cg-releve); border: 1px solid var(--cg-filet);
-  border-radius: 8px; padding: 14px 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 26px;
+  padding: 20px 0;
+  border-top: 1px solid var(--encre-3);
+  border-bottom: 1px solid var(--encre-3);
+  margin-bottom: 26px;
 }
 .cg-stat .n {
-  font-family: var(--cg-mono); font-size: 1.6rem; font-weight: 600;
-  line-height: 1.1; font-variant-numeric: tabular-nums; display: block;
+  display: block;
+  font-family: "Bodoni Moda", serif;
+  font-size: 32px;
+  line-height: 1;
+  color: var(--cg-or);
+  font-variant-numeric: tabular-nums;
 }
-.cg-stat .l { font-size: .78rem; color: var(--cg-encre-douce); margin-top: 4px; display: block; }
-
-/* ── les trois modes ── */
+.cg-stat .l {
+  display: block;
+  font-size: 12px;
+  color: var(--mauve);
+  margin-top: 7px;
+}
 
 .cg-modes {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 14px; margin-bottom: 34px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+  margin-bottom: 32px;
 }
 .cg-modecard {
-  background: var(--cg-releve); border: 1px solid var(--cg-filet);
-  border-left: 3px solid var(--cg-bic); border-radius: 8px; padding: 16px 18px;
-  cursor: pointer; text-align: left; font: inherit; color: inherit;
-  display: flex; flex-direction: column; gap: 8px;
-  transition: transform .12s ease, box-shadow .12s ease;
+  background: var(--encre-2);
+  border: 1px solid var(--encre-3);
+  border-left: 2px solid var(--cg-bic);
+  border-radius: 3px;
+  padding: 18px 20px;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  transition: border-color 0.14s, transform 0.14s;
 }
-.cg-modecard:hover { transform: translateY(-2px); box-shadow: var(--cg-ombre); }
+.cg-modecard:hover:not(:disabled) { transform: translateY(-1px); }
+.cg-modecard:disabled { opacity: 0.55; cursor: default; }
 .cg-modecard.cours { border-left-color: var(--cg-rouge); }
 .cg-modecard.revision { border-left-color: var(--cg-or); }
 .cg-modecard .cg-eyebrow { color: var(--cg-bic); margin: 0; }
 .cg-modecard.cours .cg-eyebrow { color: var(--cg-rouge); }
 .cg-modecard.revision .cg-eyebrow { color: var(--cg-or); }
-.cg-modecard h2 { margin: 0; }
-.cg-modecard p { margin: 0; font-size: .88rem; color: var(--cg-encre-douce); line-height: 1.55; }
-.cg-modecard .go { font-size: .85rem; color: var(--cg-bic); font-weight: 600; margin-top: auto; }
+.cg-modecard h2 {
+  font-family: "Bodoni Moda", serif;
+  font-weight: 400;
+  font-size: 21px;
+  margin: 0;
+  color: var(--papier);
+}
+.cg-modecard p { margin: 0; font-size: 13.5px; color: var(--mauve); line-height: 1.55; }
+.cg-modecard .go {
+  margin-top: auto;
+  font-size: 12.5px;
+  color: var(--cg-bic);
+  font-family: "IBM Plex Mono", monospace;
+}
 .cg-modecard.cours .go { color: var(--cg-rouge); }
 .cg-modecard.revision .go { color: var(--cg-or); }
 
-/* ── grille des matières ── */
+[data-module="culture-g"] h2.cg-section {
+  font-family: "Bodoni Moda", serif;
+  font-weight: 400;
+  font-size: 23px;
+  color: var(--papier);
+  margin: 0 0 14px;
+}
 
 .cg-catgrid {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 12px; margin-top: 14px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 10px;
 }
 .cg-catcard {
-  background: var(--cg-releve); border: 1px solid var(--cg-filet); border-radius: 8px;
-  padding: 14px 16px; cursor: pointer; text-align: left; font: inherit; color: inherit;
-  display: flex; flex-direction: column; gap: 8px;
-  transition: transform .12s ease, box-shadow .12s ease;
+  background: var(--encre-2);
+  border: 1px solid var(--encre-3);
+  border-radius: 3px;
+  padding: 14px 16px;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
 }
-.cg-catcard:hover { transform: translateY(-2px); box-shadow: var(--cg-ombre); }
-.cg-catcard .tete { display: flex; align-items: center; gap: 10px; }
-.cg-catcard .emoji { font-size: 1.25rem; line-height: 1; }
-.cg-catcard .nom { font-weight: 600; font-size: .95rem; }
-.cg-catcard .meta { font-size: .78rem; color: var(--cg-encre-douce); }
-
-.cg-bar { height: 6px; background: var(--cg-creux); border-radius: 3px; overflow: hidden; }
-.cg-bar i { display: block; height: 100%; background: var(--cg-bic); border-radius: 3px; }
-
-.cg-footer {
-  margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--cg-filet);
-  font-size: .78rem; color: var(--cg-encre-pale); line-height: 1.6;
+.cg-catcard:hover { border-color: var(--cg-bic); }
+.cg-catcard .tete { display: flex; align-items: center; gap: 9px; }
+.cg-catcard .emoji { font-size: 17px; line-height: 1; }
+.cg-catcard .nom { font-size: 14px; color: var(--craie); }
+.cg-catcard .meta {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  color: var(--mauve);
 }
+.cg-bar { height: 2px; background: var(--encre-3); border-radius: 1px; overflow: hidden; }
+.cg-bar i { display: block; height: 100%; background: var(--cg-bic); }
 
-.cg-btn {
-  background: var(--cg-bic); color: #fff; border: 0; border-radius: 6px;
-  padding: 10px 18px; font: inherit; font-size: .9rem; font-weight: 600; cursor: pointer;
-}
-.cg-btn.creux { background: none; color: var(--cg-bic); border: 1px solid var(--cg-filet); }
-.cg-btn:hover { filter: brightness(1.08); }
-
+.cg-muted { color: var(--mauve); }
 .cg-alerte {
-  background: var(--cg-ko-pale); color: var(--cg-ko); border-radius: 6px;
-  padding: 12px 16px; font-size: .9rem; margin: 0 0 16px;
+  background: rgba(228, 112, 95, 0.12);
+  color: var(--cg-rouge);
+  border-radius: 3px;
+  padding: 12px 16px;
+  font-size: 14px;
+  margin: 0 0 16px;
 }
 
-@media (max-width: 560px) {
-  .cg-topbar { gap: 10px; }
-  .cg-tag { display: none; }
-  [data-module="culture-g"] h1 { font-size: 1.5rem; }
-}
-
-/* ═══════════════════════════════════════════════════════════════════════
-   LES ÉCRANS PARTAGÉS, HABILLÉS EN CAHIER
-   ═══════════════════════════════════════════════════════════════════════
-
-   La série, le catalogue, les leçons et les statistiques sont les mêmes
-   composants pour toutes les matières. Ce qui change ici, c'est leur peau :
-   ni papier seyès, ni encre violette, ni Bodoni — le cahier a son manuel à
-   lui. Aucune ligne de composant n'est dupliquée pour autant. */
-
-[data-module="culture-g"] .jauge { margin: 0 0 22px; gap: 12px; }
-[data-module="culture-g"] .barre { height: 6px; background: var(--cg-creux); border-radius: 3px; }
-[data-module="culture-g"] .barre span { background: var(--cg-bic); }
-[data-module="culture-g"] .compte { color: var(--cg-encre-douce); font-family: var(--cg-mono); font-size: .85rem; }
-[data-module="culture-g"] .compte b { color: var(--cg-encre); }
-
-[data-module="culture-g"] .categorie {
-  color: var(--cg-rouge); font-size: .72rem; letter-spacing: .14em; margin: 0 0 12px;
-}
-
-/* La page de cahier d'écolier devient une fiche de manuel. */
-[data-module="culture-g"] .cahier {
-  background: var(--cg-releve); border: 1px solid var(--cg-filet); border-radius: 8px;
-  box-shadow: none; padding: 24px 26px;
-}
-[data-module="culture-g"] .cahier::before { display: none; }
-[data-module="culture-g"] .marge { display: none; }
-
-[data-module="culture-g"] .enonce {
-  font-family: var(--cg-serif); font-size: 1.2rem; line-height: 1.45;
-  color: var(--cg-encre); margin: 0 0 18px;
-}
-[data-module="culture-g"] .propositions { gap: 8px; }
-[data-module="culture-g"] .proposition {
-  background: var(--cg-papier); color: var(--cg-encre);
-  border: 1px solid var(--cg-filet); border-radius: 6px;
-  padding: 12px 15px; font-size: .95rem;
-}
-[data-module="culture-g"] .proposition:hover:not(:disabled) {
-  border-color: var(--cg-bic); background: var(--cg-bic-pale);
-}
-[data-module="culture-g"] .proposition:focus-visible { outline-color: var(--cg-bic); }
-[data-module="culture-g"] .proposition.juste {
-  border-color: var(--cg-vert); background: var(--cg-vert-pale); color: var(--cg-vert);
-}
-[data-module="culture-g"] .proposition.rate {
-  border-color: var(--cg-ko); background: var(--cg-ko-pale); color: var(--cg-ko);
-  text-decoration: line-through; text-decoration-color: var(--cg-ko);
-}
-
-[data-module="culture-g"] .explication {
-  background: var(--cg-bic-pale); border-left: 3px solid var(--cg-bic);
-  border-radius: 0 6px 6px 0; color: var(--cg-encre); font-size: .92rem; line-height: 1.65;
-}
-
-/* Le panneau de correction : le mini-cours du cahier. */
-[data-module="culture-g"] .regle {
-  background: var(--cg-releve); border: 1px solid var(--cg-filet);
-  border-left: 3px solid var(--cg-ko); border-radius: 0 8px 8px 0;
-  padding: 20px 24px; margin-top: 18px; color: var(--cg-encre);
-}
-[data-module="culture-g"] .regle.juste { border-left-color: var(--cg-vert); }
-[data-module="culture-g"] .verdict { color: var(--cg-ko); }
-[data-module="culture-g"] .regle.juste .verdict { color: var(--cg-vert); }
-[data-module="culture-g"] .verdict .palier { color: var(--cg-encre-pale); }
-/* Le titre héritait du crème de l'Atelier, invisible sur fond clair. */
-[data-module="culture-g"] .regle h2 {
-  font-family: var(--cg-serif); font-size: 1.15rem; margin: 4px 0 10px;
-  color: var(--cg-encre); font-weight: 700;
-}
-[data-module="culture-g"] .regle p b, [data-module="culture-g"] .regle p strong { color: var(--cg-encre); }
-[data-module="culture-g"] .regle p { font-size: .92rem; line-height: 1.65; color: var(--cg-encre-douce); }
-[data-module="culture-g"] .astuce {
-  border-left: 2px solid var(--cg-filet); padding-left: 14px;
-  color: var(--cg-encre-pale); font-style: italic;
-}
-
-/* Boutons */
-[data-module="culture-g"] .plein {
-  background: var(--cg-bic); color: #fff; border: 0; border-radius: 6px;
-  padding: 10px 18px; font-size: .9rem; font-weight: 600; letter-spacing: 0; text-transform: none;
-}
-[data-module="culture-g"] .creux {
-  background: none; color: var(--cg-bic); border: 1px solid var(--cg-filet);
-  border-radius: 6px; padding: 10px 18px; font-size: .9rem; letter-spacing: 0; text-transform: none;
-}
-[data-module="culture-g"] .lien {
-  color: var(--cg-encre-douce); letter-spacing: 0; text-transform: none; font-size: .85rem;
-}
-[data-module="culture-g"] .lien:hover { color: var(--cg-bic); }
-
-/* Catalogue, fiches, recherche */
-[data-module="culture-g"] .carte {
-  background: var(--cg-releve); border: 1px solid var(--cg-filet); border-radius: 8px;
-  padding: 18px 20px; box-shadow: none;
-}
-[data-module="culture-g"] .chercher input,
-[data-module="culture-g"] .champ input,
-[data-module="culture-g"] select {
-  background: var(--cg-papier); color: var(--cg-encre);
-  border: 1px solid var(--cg-filet); border-radius: 6px;
-}
-[data-module="culture-g"] .fiche { border-color: var(--cg-filet); }
-[data-module="culture-g"] .fiche-t { color: var(--cg-encre); }
-[data-module="culture-g"] .fiche-e, [data-module="culture-g"] .legende { color: var(--cg-encre-douce); }
-[data-module="culture-g"] .groupe-bouton { color: var(--cg-encre); border-color: var(--cg-filet); }
-[data-module="culture-g"] .domaine-nom { color: var(--cg-encre); }
-[data-module="culture-g"] .domaine-compte { color: var(--cg-encre-pale); }
-
-/* Leçons : le manuel. */
-[data-module="culture-g"] .lecon h2 { font-family: var(--cg-serif); color: var(--cg-encre); }
-[data-module="culture-g"] .lecon h3 { color: var(--cg-rouge); }
-[data-module="culture-g"] .lecon p { color: var(--cg-encre-douce); font-size: .98rem; }
-[data-module="culture-g"] .lecon .sources a { color: var(--cg-bic); }
-[data-module="culture-g"] .fin-lecon { border-top-color: var(--cg-filet); }
-
-[data-module="culture-g"] .visuel {
-  background: var(--cg-creux); border: 1px solid var(--cg-filet); border-radius: 8px;
-}
-[data-module="culture-g"] .visuel > figcaption { color: var(--cg-encre-pale); }
-[data-module="culture-g"] .visuel .detail { color: var(--cg-encre-douce); }
-[data-module="culture-g"] .frise li { border-left-color: var(--cg-filet); }
-[data-module="culture-g"] .frise li::before { background: var(--cg-rouge); }
-[data-module="culture-g"] .frise .date { font-family: var(--cg-mono); color: var(--cg-bic); font-size: .95rem; }
-[data-module="culture-g"] .chiffres b { font-family: var(--cg-mono); color: var(--cg-bic); }
-[data-module="culture-g"] .etapes li::before { font-family: var(--cg-mono); color: var(--cg-bic); }
-[data-module="culture-g"] .tableau th { color: var(--cg-encre-pale); border-bottom-color: var(--cg-filet); }
-[data-module="culture-g"] .tableau td { border-bottom-color: var(--cg-filet); }
-[data-module="culture-g"] .barres .piste { background: var(--cg-creux); }
-[data-module="culture-g"] .barres .remplissage { background: var(--cg-bic); }
-[data-module="culture-g"] .comparaison h4 { color: var(--cg-rouge); }
-[data-module="culture-g"] .comparaison li::before { background: var(--cg-bic); }
-
-/* Statistiques et bilan */
-[data-module="culture-g"] .anneau { background: var(--cg-creux); }
-[data-module="culture-g"] .anneau i { background: var(--cg-bic); }
-[data-module="culture-g"] .tuile {
-  background: var(--cg-releve); border: 1px solid var(--cg-filet); border-radius: 8px;
-}
-[data-module="culture-g"] .tuile b { font-family: var(--cg-serif); color: var(--cg-encre); }
-[data-module="culture-g"] .tuile span { color: var(--cg-encre-douce); }
-[data-module="culture-g"] .alerte { background: var(--cg-ko-pale); color: var(--cg-ko); }
-
-/* La modale de confirmation */
-[data-module="culture-g"] .confirmation, [data-module="culture-g"] .boite {
-  background: var(--cg-releve); color: var(--cg-encre); border-color: var(--cg-filet);
-}
-
-[data-module="culture-g"] .niveau-puce { background: var(--cg-bic-pale); color: var(--cg-bic); }
-[data-module="culture-g"] .a-cours { background: var(--cg-creux); color: var(--cg-encre-douce); }
-[data-module="culture-g"] .puce { border-color: var(--cg-filet); color: var(--cg-encre-douce); }
-[data-module="culture-g"] .puce.active { background: var(--cg-bic); color: #fff; border-color: var(--cg-bic); }
-[data-module="culture-g"] .etiquette { color: var(--cg-encre-pale); }
-
-[data-module="culture-g"] .domaine-nom, [data-module="culture-g"] .fiche-t {
-  font-family: var(--cg-serif); font-weight: 700;
-}
-[data-module="culture-g"] .fiche-t em { font-family: var(--cg-mono); font-style: normal; color: var(--cg-encre-pale); }
-[data-module="culture-g"] .jalon { font-family: var(--cg-mono); font-size: .72rem; }
-
-[data-module="culture-g"] .visuel .note {
-  font-family: var(--cg-sans); font-style: normal; color: var(--cg-encre-pale); font-size: .8rem;
-}
+/* Les écrans partagés prennent l'accent du cahier. */
+[data-module="culture-g"] .proposition:hover:not(:disabled) { border-color: var(--cg-bic); }
+[data-module="culture-g"] .explication { border-left-color: var(--cg-bic); }
+[data-module="culture-g"] .point-ligne.choisi { border-left-color: var(--cg-bic); }
+[data-module="culture-g"] .table-domaines .piste i { background: var(--cg-bic); }

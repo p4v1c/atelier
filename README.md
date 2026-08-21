@@ -88,6 +88,22 @@ Le contenu vit à part du registre pour une raison précise : `src/modules/index
 est importé par les routes **et par le navigateur**, alors que le contenu pèse
 des centaines de kilo-octets et ne sert qu'au seed et au validateur.
 
+### La coque
+
+Toutes les matières partagent une même ossature — flanc, en-tête, scène, pied.
+Ce qui sert à toute heure y reste visible : les matières et ce qu'elles
+réclament dans le flanc, l'onglet courant et les compteurs dans l'en-tête, le
+rappel du planificateur dans le pied.
+
+```
+src/components/Coque.tsx   l'ossature
+src/app/coque.css          sa mise en page
+```
+
+Un écran ne dessine donc que son contenu. `.plateau` pour une page simple,
+`.plateau.avec-rail` pour un contenu et son commentaire — la série met sa
+correction dans le rail, l'accueil y met les points faibles.
+
 ### L'apparence
 
 Un module n'est pas qu'un jeu de données : c'est une identité. Le français a son
@@ -105,10 +121,11 @@ Une présentation déclare quatre choses, toutes facultatives :
 
 | Champ            | Ce que ça fait                                                        |
 | ---------------- | --------------------------------------------------------------------- |
-| `theme`          | pose `data-module` sur la racine ; le CSS du module s'y accroche       |
-| `ecrans`         | ses propres écrans ; ce qui manque retombe sur les génériques          |
-| `enveloppe`      | posée autour de TOUS ses écrans — c'est elle qui porte sa navigation   |
-| `enteteAutonome` | l'ossature se tait quand le module dessine son en-tête                  |
+| `theme`      | pose `data-module` sur la racine ; le CSS du module s'y accroche |
+| `marque`     | son nom, en haut du flanc                                        |
+| `sousMarque` | sa nature, en petites capitales sous la marque                   |
+| `onglets`    | ses onglets ; sans eux, les onglets génériques                   |
+| `ecrans`     | ses propres écrans ; ce qui manque retombe sur les génériques    |
 
 Un module absent du registre garde l'apparence par défaut. C'est le cas normal,
 pas un défaut : le module de géographie n'a pas une ligne de CSS et fonctionne.

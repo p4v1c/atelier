@@ -138,7 +138,8 @@ export function Serie({ engine, session, setScreen, setChrome }: Props) {
   const { Vue } = vue;
 
   return (
-    <>
+    <div className="plateau avec-rail">
+      <div className="principal">
       <div className="jauge">
         <div className="barre">
           <span style={{ width: `${(curseur / session.questions.length) * 100}%` }} />
@@ -175,26 +176,41 @@ export function Serie({ engine, session, setScreen, setChrome }: Props) {
         />
       )}
 
-      {verdict && (
-        <div className={`regle ${verdict.correct ? "juste" : ""}`}>
-          <p className="verdict">
-            <span>{titreVerdict}</span>
-            <span className="palier">{palier}</span>
-          </p>
-          <h2>{verdict.skill.title}</h2>
-          <p dangerouslySetInnerHTML={{ __html: verdict.skill.statement }} />
-          <p className="astuce">{verdict.skill.tip}</p>
-          <button className="plein suite" ref={suiteRef} onClick={suivante}>
-            {curseur + 1 < session.questions.length ? "Question suivante" : "Voir le bilan"}
-          </button>
-        </div>
-      )}
 
       <div className="bas">
         <button className="lien" onClick={quitter}>
           Arrêter la série
         </button>
       </div>
-    </>
+      </div>
+
+      {/* La correction s'affiche toujours au même endroit : la question ne
+          bouge pas quand on répond, ce qui évite de perdre des yeux le mot
+          qu'on vient de cliquer. */}
+      <aside className="rail">
+        {verdict ? (
+          <div className={`regle ${verdict.correct ? "juste" : ""}`}>
+            <p className="verdict">
+              <span>{titreVerdict}</span>
+              <span className="palier">{palier}</span>
+            </p>
+            <h2>{verdict.skill.title}</h2>
+            <p dangerouslySetInnerHTML={{ __html: verdict.skill.statement }} />
+            <p className="astuce">{verdict.skill.tip}</p>
+            <button className="plein suite" ref={suiteRef} onClick={suivante}>
+              {curseur + 1 < session.questions.length ? "Question suivante" : "Voir le bilan"}
+            </button>
+          </div>
+        ) : (
+          <>
+            <p className="mono-titre">En attente de ta réponse</p>
+            <p className="legende">
+              La correction s’affiche ici, à la même place à chaque question — la question ne bouge
+              jamais.
+            </p>
+          </>
+        )}
+      </aside>
+    </div>
   );
 }

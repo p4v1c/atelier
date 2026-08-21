@@ -1,22 +1,19 @@
 import type { ComponentType } from "react";
 import type { ScreenProps } from "../App";
+import type { Onglet } from "../Coque";
 
 /**
  * La présentation d'un module.
  *
  * ─────────────────────────────────────────────────────────────────────────
- * Un module n'est pas qu'un jeu de données : c'est aussi une identité. Le
- * français a son cahier d'écolier, la culture générale a son carnet de
- * révision, une langue aura autre chose encore. Rien n'oblige deux matières
- * à se ressembler — c'est même le contraire qu'on veut.
+ * Un module n'est pas qu'un jeu de données : c'est une identité. Le français
+ * a son cahier d'écolier, la culture générale son carnet bleu bic, les
+ * langues leur signalétique. Rien n'oblige deux matières à se ressembler.
  *
- * `theme` pose un attribut sur la racine, et le CSS du module s'accroche
- * dessus. `ecrans` va plus loin : le module fournit ses propres écrans, avec
- * sa navigation et sa mise en page. Ceux qu'il ne fournit pas retombent sur
- * les écrans génériques, qui marchent pour tout le monde.
- *
- * Le moteur, lui, ne change pas : même planificateur, même compte, même
- * progression. C'est l'enveloppe qui diffère, pas la mécanique.
+ * Depuis la refonte, elles partagent en revanche la même COQUE — flanc,
+ * en-tête, pied. Ce qui distingue une matière, c'est sa marque, ses onglets,
+ * sa couleur d'accent, et au besoin ses écrans. Pas une page entière à
+ * redessiner.
  * ─────────────────────────────────────────────────────────────────────────
  *
  * Ce fichier est à part du registre de données (src/modules/) parce qu'il
@@ -25,10 +22,21 @@ import type { ScreenProps } from "../App";
  */
 export type PresentationModule = {
   /**
-   * Valeur posée dans `data-module` sur `.app`. Le CSS du module s'y accroche.
-   * Sans thème, le module hérite de l'apparence par défaut.
+   * Valeur posée dans `data-module` sur la racine. Le CSS du module s'y
+   * accroche. Sans thème, le module hérite de l'apparence par défaut.
    */
   theme?: string;
+
+  /** Pose aussi `data-langue` : les modules de langue partagent une peau. */
+  langue?: boolean;
+
+  /** La marque, en haut du flanc. Sans elle, le nom du module suffit. */
+  marque?: React.ReactNode;
+  /** Sous la marque : la nature de la matière, en petites capitales. */
+  sousMarque?: string;
+
+  /** Les onglets de l'en-tête. Sans eux, les onglets génériques. */
+  onglets?: Onglet[];
 
   /**
    * Écrans propres au module. Chacun est facultatif : ce qui manque retombe
@@ -40,26 +48,4 @@ export type PresentationModule = {
     stats?: ComponentType<ScreenProps>;
     lecon?: ComponentType<ScreenProps & { slug: string }>;
   };
-
-  /**
-   * Le module dessine son propre en-tête : l'ossature masque alors le sien.
-   * C'est ce qui permet à une matière de ressembler vraiment à un autre site.
-   */
-  enteteAutonome?: boolean;
-
-  /**
-   * Une enveloppe posée autour de TOUS les écrans du module.
-   *
-   * C'est elle qui porte la barre de navigation, la largeur de page et le pied
-   * de page. Sans elle, un module au look propre le perdrait dès qu'on quitte
-   * son accueil pour un écran générique.
-   */
-  enveloppe?: ComponentType<{
-    children: React.ReactNode;
-    onde: (destination: EcranModule) => void;
-    actif: EcranModule;
-  }>;
 };
-
-/** Les destinations de la navigation d'un module. */
-export type EcranModule = "accueil" | "serie" | "catalogue" | "stats" | "atelier";

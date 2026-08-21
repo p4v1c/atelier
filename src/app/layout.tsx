@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import "./globals.css";
+import "./coque.css";
 import "./modules/culture-g.css";
 import "./modules/langues.css";
 

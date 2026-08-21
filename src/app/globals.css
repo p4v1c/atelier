@@ -21,14 +21,14 @@
   }
   *{box-sizing:border-box}
   html,body{margin:0;padding:0}
+  /* La coque occupe toute la page : plus de colonne centrée ni de marge.
+     Le dégradé disparaît aussi — il n'a de sens que sur une page courte. */
   body{
     background:var(--encre);
-    background-image:radial-gradient(120% 90% at 50% -10%, #2A2158 0%, #16112E 60%);
-    background-attachment:fixed;
     color:var(--craie); font-family:'Karla',system-ui,sans-serif;
-    min-height:100vh; padding:26px 20px 60px; display:flex; justify-content:center;
+    min-height:100vh; margin:0; padding:0;
   }
-  .app{width:100%;max-width:680px}
+  .app{width:100%}
 
   .eyebrow{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--mauve);font-weight:700;margin:0 0 8px}
   h1{font-family:'Bodoni Moda',serif;font-weight:400;font-size:38px;line-height:1;margin:0 0 4px;color:var(--papier)}

@@ -3,13 +3,9 @@
 /**
  * L'accueil du Cahier de culture G.
  *
- * Repris de l'application d'origine, à laquelle il ressemble volontairement :
- * la barre de navigation, les quatre chiffres, les trois modes, la grille des
- * matières avec leurs emoji. C'est la matière qui a son identité, pas
- * l'Atelier qui la lui impose.
- *
- * Sous le capot, rien de propre au cahier : la progression vient du même
- * planificateur que le français, et les séries se lancent par le même moteur.
+ * Il garde ce qui faisait son identité — les quatre chiffres, les trois modes,
+ * la grille des matières à emoji — et l'installe dans la coque commune. Sous
+ * le capot, rien de propre au cahier : même planificateur, même compte.
  */
 import { useEffect, useState } from "react";
 import type { ProgressPayload } from "@/lib/api-types";
@@ -24,20 +20,13 @@ export function AccueilCultureG({ engine, user, moduleId, setScreen, setChrome }
   const [occupe, setOccupe] = useState(false);
 
   useEffect(() => {
-    // Le module dessine son propre en-tête : celui de l'ossature se tait.
     setChrome({ fil: "", accroche: "" });
-  }, [setChrome]);
-
-  useEffect(() => {
-    let vivant = true;
-    engine
+    setProgress(null);
+    void engine
       .progress(moduleId)
-      .then((p) => vivant && setProgress(p))
-      .catch(() => vivant && setMessage("Progression indisponible."));
-    return () => {
-      vivant = false;
-    };
-  }, [engine, moduleId]);
+      .then(setProgress)
+      .catch(() => setMessage("Progression indisponible."));
+  }, [engine, moduleId, setChrome]);
 
   const lancer = async (mode: "training" | "weakness", category: string | null = null) => {
     setOccupe(true);
@@ -56,10 +45,15 @@ export function AccueilCultureG({ engine, user, moduleId, setScreen, setChrome }
     }
   };
 
-  if (!progress) return <p className="cg-muted">Chargement de ton cahier…</p>;
+  if (!progress) {
+    return (
+      <div className="plateau">
+        <p className="cg-muted">Chargement de ton cahier…</p>
+      </div>
+    );
+  }
 
-  const notionsTotal = progress.skills.length;
-  const acquis = progress.mastered;
+  const total = progress.skills.length;
   const vues = progress.skills.filter((s) => !s.isNew);
   const reussite = vues.length
     ? Math.round(
@@ -68,7 +62,7 @@ export function AccueilCultureG({ engine, user, moduleId, setScreen, setChrome }
           100
       )
     : 0;
-  const couverture = notionsTotal ? Math.round((vues.length / notionsTotal) * 100) : 0;
+  const couverture = total ? Math.round((vues.length / total) * 100) : 0;
   const aRevoir = progress.due;
 
   const matieres = SUJETS.map((sujet) => {
@@ -77,31 +71,32 @@ export function AccueilCultureG({ engine, user, moduleId, setScreen, setChrome }
     return {
       ...sujet,
       notions: notions.length,
-      acquises,
       part: notions.length ? Math.round((acquises / notions.length) * 100) : 0,
     };
   }).filter((m) => m.notions > 0);
 
   return (
-    <>
-      <p className="cg-eyebrow">{user ? complementDe("Le carnet", user.pseudo) : "Ton carnet de révision"}</p>
-      <h1>Toute la culture générale, un cahier à la fois.</h1>
+    <div className="plateau">
+      <p className="cg-eyebrow">
+        {user ? complementDe("Le carnet", user.pseudo) : "Ton carnet de révision"}
+      </p>
+      <h1 className="cg-titre">Toute la culture générale, un cahier à la fois.</h1>
 
       <div className="cg-statrow">
         <div className="cg-stat">
-          <span className="n">{notionsTotal.toLocaleString("fr-FR")}</span>
+          <span className="n">{total.toLocaleString("fr-FR")}</span>
           <span className="l">notions au programme</span>
         </div>
         <div className="cg-stat">
-          <span className="n">{acquis}</span>
+          <span className="n">{progress.mastered}</span>
           <span className="l">notions acquises</span>
         </div>
         <div className="cg-stat">
-          <span className="n">{reussite}%</span>
+          <span className="n">{reussite} %</span>
           <span className="l">taux de bonnes réponses</span>
         </div>
         <div className="cg-stat">
-          <span className="n">{couverture}%</span>
+          <span className="n">{couverture} %</span>
           <span className="l">du programme couvert</span>
         </div>
       </div>
@@ -112,20 +107,14 @@ export function AccueilCultureG({ engine, user, moduleId, setScreen, setChrome }
         <button className="cg-modecard" disabled={occupe} onClick={() => lancer("training")}>
           <span className="cg-eyebrow">Mode quiz</span>
           <h2>Interro surprise</h2>
-          <p>
-            Une question, quatre réponses — et après chaque réponse, un mini-cours pour vraiment
-            retenir.
-          </p>
+          <p>Une question, quatre réponses — et un mini-cours après chaque réponse.</p>
           <span className="go">Commencer →</span>
         </button>
 
         <button className="cg-modecard cours" onClick={() => setScreen({ name: "catalogue" })}>
           <span className="cg-eyebrow">Mode cours</span>
           <h2>Les leçons</h2>
-          <p>
-            Des chapitres rédigés comme un manuel, ta progression en %, et un mini-quiz à la fin de
-            chaque leçon.
-          </p>
+          <p>280 chapitres rédigés comme un manuel, avec un mini-quiz à la fin.</p>
           <span className="go">Ouvrir le manuel →</span>
         </button>
 
@@ -139,13 +128,13 @@ export function AccueilCultureG({ engine, user, moduleId, setScreen, setChrome }
           <p>
             {aRevoir > 0
               ? `${aRevoir} notion${aRevoir > 1 ? "s" : ""} à revoir. C'est là que tu progresses le plus vite.`
-              : "Rien à revoir pour l'instant. Fais une interro pour alimenter cette pile."}
+              : "Rien à revoir. Fais une interro pour alimenter cette pile."}
           </p>
           <span className="go">Repasser dessus →</span>
         </button>
       </div>
 
-      <h2>Les matières</h2>
+      <h2 className="cg-section">Les matières</h2>
       <div className="cg-catgrid">
         {matieres.map((m) => (
           <button key={m.slug} className="cg-catcard" onClick={() => lancer("training", m.name)}>
@@ -156,15 +145,14 @@ export function AccueilCultureG({ engine, user, moduleId, setScreen, setChrome }
               <span className="nom">{m.name}</span>
             </span>
             <span className="meta">
-              {m.notions} notions · {m.part}% acquis
+              {m.notions} notions · {m.part} %
             </span>
             <span className="cg-bar">
-              <i style={{ width: `${m.part}%` }} />
+              <i style={{ width: `${Math.max(1, m.part)}%` }} />
             </span>
           </button>
         ))}
       </div>
-
-    </>
+    </div>
   );
 }
