@@ -21,6 +21,7 @@ import { ANGLAIS_TRAVAIL } from "./travail";
 import { ANGLAIS_VERBES } from "./verbes";
 import { ANGLAIS_VOCABULAIRE_C1 } from "./vocabulaire-c1";
 import { ANGLAIS_VOCABULAIRE_IDEES } from "./vocabulaire-idees";
+import { ANGLAIS_VOCABULAIRE_METIERS } from "./vocabulaire-metiers";
 import { ANGLAIS_VOCABULAIRE_MONDE } from "./vocabulaire-monde";
 
 export const LOTS_ANGLAIS: LotCartes[] = [
@@ -39,6 +40,7 @@ export const LOTS_ANGLAIS: LotCartes[] = [
   ...ANGLAIS_AVANCE_B2,
   ...ANGLAIS_VOCABULAIRE_MONDE,
   ...ANGLAIS_VOCABULAIRE_IDEES,
+  ...ANGLAIS_VOCABULAIRE_METIERS,
   ...ANGLAIS_VOCABULAIRE_C1,
 ];
 

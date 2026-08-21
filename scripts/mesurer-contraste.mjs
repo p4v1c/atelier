@@ -94,6 +94,9 @@ const ECRANS = [
   { nom: "catalogue-culture-g", url: "/", module: "culture-g", onglet: "cours" },
   { nom: "lecon-culture-g", url: "/", module: "culture-g", onglet: "cours", clic: ".volet-fiche .creux" },
   { nom: "serie-culture-g", url: "/", module: "culture-g", onglet: "quiz" },
+  { nom: "accueil-geographie", url: "/", module: "géographie" },
+  { nom: "catalogue-geographie", url: "/", module: "géographie", onglet: "atlas" },
+  { nom: "serie-geographie", url: "/", module: "géographie", onglet: "jouer" },
 ];
 
 async function allerA(page, e) {

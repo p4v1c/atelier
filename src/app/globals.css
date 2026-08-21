@@ -225,6 +225,72 @@
   color: var(--exo-rate); text-decoration: line-through; text-decoration-color: var(--exo-rate-trait);
 }
 
+/* ═══════════════════════════════════════════════════════════════════════
+   APPARIEMENT
+   ═══════════════════════════════════════════════════════════════════════
+
+   Deux colonnes, un jeton par paire formée. Le jeton porte une lettre plutôt
+   qu'un trait : relier deux colonnes par des traits demande de savoir où
+   chaque bouton se trouve, ce qui casse au moindre retour à la ligne. */
+
+.appariement {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 18px;
+  margin-top: 4px;
+}
+.appariement .colonne { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 9px; }
+
+.appariement .paire {
+  display: flex; align-items: center; gap: 10px; width: 100%;
+  padding: 12px 14px; font: inherit; font-size: 15px; line-height: 1.4;
+  color: var(--exo-encre); background: var(--exo-champ);
+  border: 1px solid var(--exo-bord); border-radius: 3px;
+  cursor: pointer; text-align: left;
+  transition: border-color .15s, background .15s;
+}
+.appariement .droite .paire { justify-content: flex-start; }
+.appariement .paire:hover:not(:disabled) { border-color: var(--exo-accent); background: var(--exo-champ-fort); }
+.appariement .paire:focus-visible { outline: 2px solid var(--exo-accent); outline-offset: 2px; }
+.appariement .paire:disabled { cursor: default; }
+.appariement .paire .texte { flex: 1; min-width: 0; }
+
+/* La ligne en attente de sa correspondance : le seul état clignotant du jeu. */
+.appariement .paire.attente { border-color: var(--exo-accent); border-style: dashed; }
+.appariement .paire.reliee { background: var(--exo-champ-fort); }
+
+.appariement .jeton {
+  flex: none;
+  font-family: "IBM Plex Mono", monospace; font-size: 11px; font-weight: 600;
+  min-width: 20px; text-align: center;
+  padding: 2px 5px; border-radius: 2px;
+  background: var(--exo-encre); color: var(--exo-fond);
+}
+.appariement .paire.juste { border-color: var(--vert); background: rgba(62, 158, 110, .16); }
+.appariement .paire.juste .jeton { background: var(--vert); }
+.appariement .paire.rate { border-color: var(--rouge); background: rgba(214, 48, 42, .12); }
+.appariement .paire.rate .jeton { background: var(--rouge); }
+
+/* La correction : les paires attendues, remises côte à côte. */
+.correction-paires {
+  margin: 18px 0 0; display: flex; flex-direction: column; gap: 2px;
+}
+.ligne-paire {
+  display: flex; justify-content: space-between; gap: 14px; margin: 0;
+  padding: 8px 12px; font-size: 14px; border-radius: 3px;
+  background: var(--encre-2);
+}
+.ligne-paire span { color: var(--mauve); }
+.ligne-paire b { color: var(--craie); font-weight: 400; text-align: right; }
+.ligne-paire.juste b { color: var(--vert); }
+.ligne-paire.rate b { color: var(--rouge); }
+
+@media (max-width: 560px) {
+  .appariement { grid-template-columns: 1fr; gap: 6px; }
+  .appariement .colonne.droite { margin-top: 8px; }
+}
+
 .explication {
   margin: 18px 0 0; padding: 16px 20px; font-size: 14.5px; line-height: 1.7;
   background: var(--encre-2); border-left: 2px solid var(--mauve); border-radius: 0 3px 3px 0;

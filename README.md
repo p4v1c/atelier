@@ -7,9 +7,9 @@ répétition espacée, et autant de matières qu'on veut y mettre.
 | ---------------- | ------------------------------------------------------------ | ------------------ |
 | Français         | 618 règles · 4 336 phrases · 310 dictées                      | cahier d'écolier   |
 | Culture générale | 322 notions · 2 209 questions · 280 leçons                    | carnet de révision |
-| Anglais          | 71 séries · 2 740 cartes · 10 dictées · 43 cours                | signalétique       |
-| Espagnol         | 69 séries · 2 670 cartes · 10 dictées · 41 cours                | signalétique       |
-| Géographie       | 2 notions · 14 questions — le gabarit à copier                | par défaut         |
+| Anglais          | 77 séries · 2 980 cartes · 10 dictées · 49 cours                | signalétique       |
+| Espagnol         | 75 séries · 2 910 cartes · 10 dictées · 47 cours                | signalétique       |
+| Géographie       | 18 notions · 144 questions · 2 cours                          | atlas              |
 
 Le moteur ne sait pas ce qu'est une faute d'orthographe ni une capitale : il
 connaît des modules, des compétences et des exercices. Ce qu'un exercice veut
@@ -189,6 +189,19 @@ accent.** C'est un révélateur honnête — dire « sheep » quand on visait «
 se voit — mais ce n'est pas un professeur. Elle n'existe que sur Chrome et Edge,
 et Chrome envoie l'audio à ses serveurs pour le transcrire. L'écran le dit.
 
+### La géographie
+
+Le module était le gabarit à copier : deux notions, quatorze questions, écrites
+pour prouver qu'ajouter une matière ne coûtait qu'un fichier et deux lignes de
+registre. La démonstration faite, il est devenu une matière — dix-huit notions,
+cent quarante-quatre questions, deux cours, et son propre thème.
+
+Ce qu'il n'a **pas** : la carte cliquable. Elle demanderait un fond
+cartographique — tracés de côtes et de frontières — que ce dépôt n'a pas, et
+qu'on ne dessine pas de mémoire sans mentir sur la forme des pays. Les
+drapeaux, eux, sont des caractères Unicode : ils ne pèsent rien, ne demandent
+aucun fichier et suivent la police du système.
+
 ### Le vocabulaire
 
 Chaque module nomme ses objets. Le moteur dit « compétence » et « exercice » ;
@@ -211,7 +224,16 @@ src/components/exercices/index.tsx   une ligne de registre
 ```
 
 Types existants : `spot-error`, `qcm`, `flashcard`, `traduction`, `ecoute`,
-`prononciation`.
+`prononciation`, `appariement`.
+
+L'appariement est le seul qui pose plusieurs questions à la fois : cinq paires
+à relier, et le verdict compte les paires justes. La colonne de droite est
+mélangée par une permutation **tirée du contenu lui-même** — pas au hasard.
+L'auteur n'a donc pas de permutation à écrire, le même exercice se présente
+toujours pareil, et le serveur comme le client la recalculent à l'identique
+sans avoir à la transporter. Le contrôle qui compte est celui du doublon à
+droite : deux fois la même réponse rend une paire indécidable, et le validateur
+le refuse — il a bloqué trois exercices de géographie à l'écriture.
 
 Deux exceptions documentées à la règle « la question ne contient jamais la
 réponse » : la carte mémoire, où l'on se juge soi-même après avoir vu le verso,

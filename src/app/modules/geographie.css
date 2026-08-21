@@ -1,0 +1,65 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   L'ATLAS — l'accent du module de géographie
+   ═══════════════════════════════════════════════════════════════════════
+
+   Le français a son cahier d'écolier, la culture générale son carnet au bic,
+   les langues leur signalétique. La géographie a la carte : fond de mer, terres
+   vertes, trait de côte en or, et un graticule en filigrane — les méridiens et
+   les parallèles d'un atlas imprimé.
+
+   Comme les autres, ce fichier ne redessine pas une page. Il pose une couleur,
+   une trame, et les jetons --exo-* de la surface d'exercice. */
+
+[data-module="geographie"] {
+  --geo-mer: #2a4a7c;
+  --geo-terre: #6fa88a;
+  --geo-cote: #d8a44b;
+  --geo-trace: #c96f4a;
+
+  /* La surface d'exercice : le papier d'un atlas, un peu plus froid que le
+     cahier d'écolier, et son graticule à la place de la réglure seyès. */
+  --exo-accent: var(--geo-trace);
+  --exo-reglure: var(--geo-mer);
+  --exo-reglure-pas: 26px;
+  --exo-reglure-opacite: 0.1;
+  --exo-marge: transparent;
+  --exo-plein-fond: #123055;
+}
+
+[data-module="geographie"] .flanc-marque h1 em { color: var(--geo-cote); }
+[data-module="geographie"] .matiere-lien.active { border-left-color: var(--geo-cote); }
+[data-module="geographie"] .matiere-lien.active .nom::after { background: var(--geo-cote); }
+[data-module="geographie"] .matiere-lien.active .marque { color: var(--geo-cote); }
+[data-module="geographie"] .onglet.actif { border-bottom-color: var(--geo-cote); }
+[data-module="geographie"] .coque-fin b { color: var(--geo-cote); }
+
+/* Le graticule : deux trames croisées, à peine visibles, qui donnent au
+   papier son quadrillage d'atlas. La réglure seule ne ferait que des
+   parallèles ; il manque les méridiens. */
+[data-module="geographie"] .cahier::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: 2px;
+  background: repeating-linear-gradient(
+    to right,
+    transparent 0 var(--exo-reglure-pas),
+    var(--exo-reglure) var(--exo-reglure-pas),
+    var(--exo-reglure) calc(var(--exo-reglure-pas) + 1px)
+  );
+  opacity: var(--exo-reglure-opacite);
+}
+
+/* Les écrans partagés prennent l'accent de l'atlas. */
+[data-module="geographie"] .point-ligne.choisi { border-left-color: var(--geo-cote); }
+[data-module="geographie"] .table-domaines .piste i { background: var(--geo-terre); }
+[data-module="geographie"] .explication { border-left-color: var(--geo-mer); }
+[data-module="geographie"] .niveau-puce { background: var(--geo-cote); }
+
+/* Les drapeaux sont des caractères : ils doivent respirer, et ne pas hériter
+   de la fonte à empattements des énoncés. */
+[data-module="geographie"] .appariement .paire .texte {
+  font-variant-emoji: emoji;
+}
+[data-module="geographie"] .enonce { font-size: 21px; }

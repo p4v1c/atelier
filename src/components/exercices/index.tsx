@@ -8,6 +8,7 @@
  * L'écran de série n'a pas à changer.
  * ─────────────────────────────────────────────────────────────────────────
  */
+import { appariementVue } from "./Appariement";
 import { ecouteVue, flashcardVue, traductionVue } from "./Carte";
 import { prononciationVue } from "./Prononciation";
 import { qcmVue } from "./Qcm";
@@ -21,6 +22,7 @@ export const VUES: Record<string, VueExercice> = {
   traduction: traductionVue,
   ecoute: ecouteVue,
   prononciation: prononciationVue,
+  appariement: appariementVue,
 };
 
 export function vuePour(kind: string): VueExercice | null {

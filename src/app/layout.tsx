@@ -3,6 +3,7 @@ import "./globals.css";
 import "./coque.css";
 import "./modules/culture-g.css";
 import "./modules/langues.css";
+import "./modules/geographie.css";
 
 export const metadata = {
   title: "La Règle",

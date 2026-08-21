@@ -13,6 +13,7 @@
  */
 import { cultureG } from "./culture-g";
 import { francais } from "./francais";
+import { geographiePresentation } from "./geographie";
 import { anglaisPresentation, espagnolPresentation } from "./langues";
 import type { PresentationModule } from "./types";
 
@@ -21,6 +22,7 @@ export const PRESENTATIONS: Record<string, PresentationModule> = {
   "culture-g": cultureG,
   anglais: anglaisPresentation,
   espagnol: espagnolPresentation,
+  geographie: geographiePresentation,
 };
 
 export function presentation(moduleId: string): PresentationModule {
