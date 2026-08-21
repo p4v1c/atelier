@@ -7,8 +7,8 @@ répétition espacée, et autant de matières qu'on veut y mettre.
 | ---------------- | ------------------------------------------------------------ | ------------------ |
 | Français         | 618 règles · 4 336 phrases · 310 dictées                      | cahier d'écolier   |
 | Culture générale | 322 notions · 2 209 questions · 280 leçons                    | carnet de révision |
-| Anglais          | 158 séries · 6 220 cartes · 10 dictées · 64 cours · A1→C2       | signalétique       |
-| Espagnol         | 156 séries · 6 150 cartes · 10 dictées · 62 cours · A1→C2       | signalétique       |
+| Anglais          | 182 séries · 7 180 cartes · 10 dictées · 64 cours · A1→C2       | signalétique       |
+| Espagnol         | 180 séries · 7 110 cartes · 10 dictées · 62 cours · A1→C2       | signalétique       |
 | Géographie       | 20 séries · 613 questions · 5 cartes × 4 jeux                 | atlas              |
 
 Le moteur ne sait pas ce qu'est une faute d'orthographe ni une capitale : il
@@ -157,7 +157,8 @@ géographie, qui tient sur un écran.
 Une **carte** donne jusqu'à quatre exercices — reconnaître, produire, entendre,
 prononcer — et c'est pourquoi le tableau ci-dessus compte quatre fois plus
 d'exercices que de cartes. Le chiffre qui compte pour un apprenant est celui
-des cartes : **1 555 en anglais, 1 538 en espagnol**. Les niveaux vont de A1 à **C2**, avec neuf séries
+des cartes : **1 795 en anglais, 1 778 en espagnol**, réparties du A1 au C2 avec
+le B2 et le C1 pour niveaux les mieux fournis. Les niveaux vont de A1 à **C2**, avec neuf séries
 par langue à ce dernier — le C2 n'y est pas « du C1 en plus dur » : la langue y
 cesse d'être un instrument pour devenir un objet, et l'on y apprend ce qu'une
 phrase fait en plus de ce qu'elle dit.
