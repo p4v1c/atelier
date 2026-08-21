@@ -274,6 +274,17 @@ export type DictationResultPayload = {
 
 /* ─────────────────────────── mode invité ─────────────────────────── */
 
+/** Ce que le flanc a besoin de savoir avant d'ouvrir une matière. */
+export type ModulePublic = {
+  id: string;
+  name: string;
+  tagline: string;
+  progression: string;
+  skillCount: number;
+  dictationCount: number;
+  vocabulaire: ModuleVocabulaire | null;
+};
+
 export type PublicContent = {
   moduleId: string;
   moduleName: string;
@@ -289,6 +300,10 @@ export type PublicContent = {
     difficulty: number;
     category: string;
     disputed: boolean;
+    /** Niveau du cadre européen, quand la matière en a. */
+    level: string | null;
+    /** Un cours est attaché : l'écran propose de le lire. */
+    hasLesson: boolean;
     exercises: { id: string; kind: string; payload: unknown }[];
   }[];
   dictations: {

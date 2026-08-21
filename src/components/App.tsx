@@ -13,7 +13,13 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import type { ModuleSummary, PublicUser, SessionSummary, StartedSession } from "@/lib/api-types";
 import { ApiError, apiGet, apiPost } from "@/lib/client/api";
-import { GuestEngine, ServerEngine, loadPublicContent, type Engine } from "@/lib/client/engine";
+import {
+  GuestEngine,
+  ServerEngine,
+  loadPublicContent,
+  loadPublicModules,
+  type Engine,
+} from "@/lib/client/engine";
 import { INTERVALS, MASTERY_BOX } from "@/lib/study/scheduler";
 import { Coque, type Onglet } from "./Coque";
 import { Accueil } from "./screens/Accueil";
@@ -98,9 +104,15 @@ export function App() {
         setErreur("Impossible de joindre le serveur.");
         return;
       }
-      // Pas de compte : mode invité, tout reste dans le navigateur.
+      // Pas de compte : mode invité, tout reste dans le navigateur. Toutes
+      // les matières sont listées ; seule celle qu'on ouvre est téléchargée.
       setUser(null);
-      setEngine(new GuestEngine(await loadPublicContent()));
+      const depart = moduleMemorise();
+      const [contenu, matieres] = await Promise.all([
+        loadPublicContent(depart),
+        loadPublicModules().catch(() => []),
+      ]);
+      setEngine(new GuestEngine(contenu, matieres));
     }
   }, []);
 
@@ -132,7 +144,11 @@ export function App() {
   const seDeconnecter = useCallback(async () => {
     await apiPost("/api/auth/logout").catch(() => undefined);
     setUser(null);
-    setEngine(new GuestEngine(await loadPublicContent()));
+    const [contenu, matieres] = await Promise.all([
+      loadPublicContent(moduleMemorise()),
+      loadPublicModules().catch(() => []),
+    ]);
+    setEngine(new GuestEngine(contenu, matieres));
     setScreen({ name: "accueil" });
   }, []);
 

@@ -88,6 +88,24 @@ Le contenu vit à part du registre pour une raison précise : `src/modules/index
 est importé par les routes **et par le navigateur**, alors que le contenu pèse
 des centaines de kilo-octets et ne sert qu'au seed et au validateur.
 
+### Le mode invité
+
+Sans compte, TOUTES les matières sont accessibles — le flanc les liste, on
+passe de l'une à l'autre, la progression est gardée par matière dans
+localStorage. Le planificateur qui tourne alors dans le navigateur est le même
+fichier que celui du serveur, et les exercices sont corrigés par le même
+registre de types : les deux modes ne peuvent pas diverger sur ce qui est juste.
+
+Deux routes publiques y pourvoient :
+
+| Route                                | Ce qu'elle sert                                      |
+| ------------------------------------ | ---------------------------------------------------- |
+| `/api/public/modules`                | le catalogue des matières — noms et volumes, léger    |
+| `/api/public/content?module=…`       | le contenu d'UNE matière, téléchargé à son ouverture  |
+
+La séparation compte : afficher « Espagnol » dans une liste ne doit pas coûter
+le téléchargement des 4 336 phrases du français.
+
 ### La coque
 
 Toutes les matières partagent une même ossature — flanc, en-tête, scène, pied.

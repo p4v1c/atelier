@@ -61,6 +61,8 @@ export async function GET(request: Request): Promise<Response> {
         tip: true,
         difficulty: true,
         status: true,
+        level: true,
+        lesson: true,
         category: { select: { name: true } },
         exercises: {
           where: { status: "active" },
@@ -101,6 +103,8 @@ export async function GET(request: Request): Promise<Response> {
       difficulty: r.difficulty,
       category: r.category.name,
       disputed: r.status === "disputed",
+      level: r.level,
+      hasLesson: r.lesson !== null,
       exercises: r.exercises,
     })),
     dictations: dictations.map((d, i) => ({

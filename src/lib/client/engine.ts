@@ -19,6 +19,8 @@ import type {
   DictationDetail,
   DictationResultPayload,
   DictationsPayload,
+  ModulePublic,
+  ModuleSummary,
   ProgressPayload,
   PublicContent,
   SkillProgressView,
@@ -127,6 +129,20 @@ export function loadPublicContent(moduleId = "francais"): Promise<PublicContent>
   return p;
 }
 
+let modulesPublics: Promise<ModulePublic[]> | null = null;
+
+/**
+ * La liste des matières, sans compte.
+ *
+ * Elle sert au flanc, qui doit toutes les montrer avant d'en ouvrir une :
+ * charger les 4 336 phrases du français pour afficher « Espagnol » dans une
+ * liste serait absurde.
+ */
+export function loadPublicModules(): Promise<ModulePublic[]> {
+  modulesPublics ??= apiGet<{ modules: ModulePublic[] }>("/api/public/modules").then((r) => r.modules);
+  return modulesPublics;
+}
+
 export class GuestEngine implements Engine {
   readonly isGuest = true;
   private state: GuestState;
@@ -143,30 +159,72 @@ export class GuestEngine implements Engine {
   >();
   private counter = 0;
 
-  constructor(private readonly content: PublicContent) {
+  /**
+   * Le contenu déjà chargé, par matière.
+   *
+   * Un invité ouvre rarement les cinq : on ne descend une matière que
+   * lorsqu'il y entre. Le catalogue des matières, lui, est connu d'emblée.
+   */
+  private readonly contenus = new Map<string, PublicContent>();
+  private courant: string;
+
+  constructor(
+    content: PublicContent,
+    private readonly matieres: ModulePublic[] = []
+  ) {
     this.state = loadGuestState();
+    this.contenus.set(content.moduleId ?? MODULE_PAR_DEFAUT, content);
+    this.courant = content.moduleId ?? MODULE_PAR_DEFAUT;
+  }
+
+  /** Le contenu d'une matière, téléchargé au besoin. */
+  private async ouvrir(moduleId?: string): Promise<PublicContent> {
+    const id = moduleId ?? this.courant;
+    const deja = this.contenus.get(id);
+    if (deja) {
+      this.courant = id;
+      return deja;
+    }
+    const contenu = await loadPublicContent(id);
+    this.contenus.set(id, contenu);
+    this.courant = id;
+    return contenu;
+  }
+
+  /** La matière qui porte cet exercice, parmi celles déjà ouvertes. */
+  private trouverParExercice(exerciseId: string): PublicContent | null {
+    for (const c of this.contenus.values()) {
+      if (c.skills.some((s) => s.exercises.some((e) => e.id === exerciseId))) return c;
+    }
+    return null;
+  }
+
+  private trouverParDictee(id: string): PublicContent | null {
+    for (const c of this.contenus.values()) {
+      if (c.dictations.some((d) => d.id === id)) return c;
+    }
+    return null;
   }
 
   private get moduleId() {
-    return this.content.moduleId ?? MODULE_PAR_DEFAUT;
+    return this.courant;
   }
-
-  private save() {
+private save() {
     saveGuestState(this.state);
   }
 
-  private progressOf(slug: string) {
-    return guestSkill(this.state, this.moduleId, slug);
+  private progressOf(moduleId: string, slug: string) {
+    return guestSkill(this.state, moduleId, slug);
   }
 
   /** Compétences jouables : les « cas discutés » sont consultables, jamais servis. */
-  private playableSkills() {
-    return this.content.skills.filter((r) => !r.disputed && r.exercises.length > 0);
+  private playableSkills(contenu: PublicContent) {
+    return contenu.skills.filter((r) => !r.disputed && r.exercises.length > 0);
   }
 
-  private candidates(category: string | null): Candidate[] {
-    const skills = guestModule(this.state, this.moduleId).skills;
-    return this.playableSkills()
+  private candidates(contenu: PublicContent, category: string | null): Candidate[] {
+    const skills = guestModule(this.state, contenu.moduleId).skills;
+    return this.playableSkills(contenu)
       .filter((r) => !category || r.category === category)
       .map((r) => {
         const p = skills[r.slug];
@@ -187,10 +245,12 @@ export class GuestEngine implements Engine {
   }
 
   async start(options: StartOptions): Promise<StartedSession> {
-    // Série sur une seule compétence : tous ses exercices, dans le désordre.
-    if (options.mode === "skill") return this.startSingleSkill(options);
+    const contenu = await this.ouvrir(options.moduleId);
 
-    const pool = this.candidates(options.mode === "test" ? null : options.category);
+    // Série sur une seule compétence : tous ses exercices, dans le désordre.
+    if (options.mode === "skill") return this.startSingleSkill(contenu, options);
+
+    const pool = this.candidates(contenu, options.mode === "test" ? null : options.category);
     const selection =
       options.mode === "test"
         ? buildPlacementTest(pool, TEST_SIZE)
@@ -206,12 +266,15 @@ export class GuestEngine implements Engine {
       );
     }
 
-    const bySlug = new Map(this.content.skills.map((r) => [r.slug, r]));
+    const bySlug = new Map(contenu.skills.map((r) => [r.slug, r]));
     const skillByExercise = new Map<string, string>();
     const questions = selection.flatMap((candidate, i) => {
       const skill = bySlug.get(candidate.ruleId);
       if (!skill) return [];
-      const exercise = pickSentence(skill.exercises, this.progressOf(skill.slug).lastExerciseId);
+      const exercise = pickSentence(
+        skill.exercises,
+        this.progressOf(contenu.moduleId, skill.slug).lastExerciseId
+      );
       if (!exercise) return [];
       skillByExercise.set(exercise.id, skill.slug);
       return [
@@ -229,7 +292,7 @@ export class GuestEngine implements Engine {
     const studySessionId = `invite-${++this.counter}`;
     this.series.set(studySessionId, {
       mode: options.mode,
-      moduleId: this.moduleId,
+      moduleId: contenu.moduleId,
       category: options.category,
       skillByExercise,
       results: new Map(),
@@ -237,15 +300,15 @@ export class GuestEngine implements Engine {
     return {
       studySessionId,
       mode: options.mode,
-      moduleId: this.moduleId,
+      moduleId: contenu.moduleId,
       category: options.category,
       skill: null,
       questions,
     };
   }
 
-  private startSingleSkill(options: StartOptions): StartedSession {
-    const skill = this.content.skills.find((r) => r.slug === options.skill && !r.disputed);
+  private startSingleSkill(contenu: PublicContent, options: StartOptions): StartedSession {
+    const skill = contenu.skills.find((r) => r.slug === options.skill && !r.disputed);
     if (!skill || skill.exercises.length === 0) {
       throw new NoContentError("Ce point ne peut pas être travaillé seul.");
     }
@@ -267,7 +330,7 @@ export class GuestEngine implements Engine {
     const studySessionId = `invite-${++this.counter}`;
     this.series.set(studySessionId, {
       mode: "skill" as const,
-      moduleId: this.moduleId,
+      moduleId: contenu.moduleId,
       category: skill.category,
       skillByExercise,
       results: new Map(),
@@ -275,7 +338,7 @@ export class GuestEngine implements Engine {
     return {
       studySessionId,
       mode: "skill",
-      moduleId: this.moduleId,
+      moduleId: contenu.moduleId,
       category: skill.category,
       skill: { slug: skill.slug, title: skill.title },
       questions,
@@ -284,24 +347,26 @@ export class GuestEngine implements Engine {
 
   async answer(input: AnswerInput): Promise<AnswerVerdict> {
     const series = this.series.get(input.studySessionId);
+    const contenu = series ? this.contenus.get(series.moduleId) : this.trouverParExercice(input.exerciseId);
     const slug = series?.skillByExercise.get(input.exerciseId);
-    const skill = this.content.skills.find((r) => r.slug === slug);
+    const skill = contenu?.skills.find((r) => r.slug === slug);
     const exercise = skill?.exercises.find((s) => s.id === input.exerciseId);
-    if (!series || !skill || !exercise) throw new NoContentError("Question introuvable.");
+    if (!series || !contenu || !skill || !exercise) throw new NoContentError("Question introuvable.");
 
+    const moduleId = contenu.moduleId;
     const skillView = {
       slug: skill.slug,
       title: skill.title,
       statement: skill.statement,
       tip: skill.tip,
       category: skill.category,
-      moduleId: this.moduleId,
+      moduleId,
     };
 
     // Exactement la correction du serveur — le même fichier, le même verdict.
     const { correct, reveal } = kindById(exercise.kind).grade(exercise.payload, input.answer);
 
-    const progress = this.progressOf(skill.slug);
+    const progress = this.progressOf(moduleId, skill.slug);
     if (series.results.has(input.exerciseId)) {
       return {
         correct: series.results.get(input.exerciseId)!,
@@ -320,7 +385,7 @@ export class GuestEngine implements Engine {
     const before = progress.box;
     const after = nextBox(before, correct);
     this.state.answerCounter++;
-    guestModule(this.state, this.moduleId).skills[skill.slug] = {
+    guestModule(this.state, moduleId).skills[skill.slug] = {
       slug: skill.slug,
       box: after,
       dueAtCounter: dueAfter(this.state.answerCounter, after),
@@ -347,8 +412,10 @@ export class GuestEngine implements Engine {
 
   async finish(studySessionId: string): Promise<SessionSummary> {
     const series = this.series.get(studySessionId);
+    const moduleId = series?.moduleId ?? this.courant;
+    const contenu = this.contenus.get(moduleId);
     const results = [...(series?.results ?? new Map<string, boolean>())];
-    const bySlug = new Map(this.content.skills.map((r) => [r.slug, r]));
+    const bySlug = new Map((contenu?.skills ?? []).map((r) => [r.slug, r]));
 
     const buckets = new Map<string, { correct: number; total: number }>();
     for (const [exerciseId, correct] of results) {
@@ -363,17 +430,12 @@ export class GuestEngine implements Engine {
     const total = results.length;
     const correct = results.filter(([, ok]) => ok).length;
     if (series?.mode === "test") this.state.placementDone = true;
-    this.state.sessions.push({
-      total,
-      correct,
-      at: new Date().toISOString(),
-      module: this.moduleId,
-    });
+    this.state.sessions.push({ total, correct, at: new Date().toISOString(), module: moduleId });
     if (this.state.sessions.length > 40) this.state.sessions.shift();
     this.save();
 
-    const playable = this.playableSkills();
-    const skills = guestModule(this.state, this.moduleId).skills;
+    const playable = contenu ? this.playableSkills(contenu) : [];
+    const skills = guestModule(this.state, moduleId).skills;
     const mastered = playable.filter((r) => isMastered(skills[r.slug]?.box ?? 0)).length;
 
     const weakest = [...(series?.skillByExercise.values() ?? [])]
@@ -385,7 +447,7 @@ export class GuestEngine implements Engine {
     return {
       studySessionId,
       mode: series?.mode ?? "training",
-      moduleId: this.moduleId,
+      moduleId,
       score: total === 0 ? 0 : Math.round((correct / total) * 100),
       correct,
       total,
@@ -397,10 +459,39 @@ export class GuestEngine implements Engine {
     };
   }
 
-  async progress(): Promise<ProgressPayload> {
-    const playable = this.playableSkills();
+  /**
+   * Le récapitulatif de TOUTES les matières, même celles jamais ouvertes.
+   *
+   * Le flanc doit les montrer sans avoir à télécharger leur contenu : les
+   * volumes viennent du catalogue public, la progression de localStorage.
+   */
+  private resumeDesModules(counter: number): ModuleSummary[] {
+    return this.matieres.map((m) => {
+      const skills = Object.values(guestModule(this.state, m.id).skills);
+      const acquises = skills.filter((s) => isMastered(s.box)).length;
+      const dues = skills.filter((s) => s.dueAtCounter <= counter).length;
+      return {
+        id: m.id,
+        name: m.name,
+        tagline: m.tagline,
+        progression: m.progression,
+        skillCount: m.skillCount,
+        dictationCount: m.dictationCount,
+        seen: skills.length,
+        mastered: acquises,
+        due: dues,
+        unseen: Math.max(0, m.skillCount - skills.length),
+        level: estimateLevel(acquises, m.skillCount),
+      };
+    });
+  }
+
+  async progress(moduleId?: string): Promise<ProgressPayload> {
+    const contenu = await this.ouvrir(moduleId);
+    const id = contenu.moduleId;
+    const playable = this.playableSkills(contenu);
     const counter = this.state.answerCounter;
-    const stored = guestModule(this.state, this.moduleId).skills;
+    const stored = guestModule(this.state, id).skills;
 
     const skills: SkillProgressView[] = playable.map((r) => {
       const p = stored[r.slug];
@@ -411,6 +502,8 @@ export class GuestEngine implements Engine {
         title: r.title,
         category: r.category,
         difficulty: r.difficulty,
+        level: r.level ?? null,
+        hasLesson: r.hasLesson ?? false,
         box,
         isNew,
         mastered: !isNew && isMastered(box),
@@ -436,28 +529,41 @@ export class GuestEngine implements Engine {
     }
 
     const mastered = skills.filter((r) => r.mastered).length;
-    const seen = skills.filter((r) => !r.isNew).length;
+
+    /* Les niveaux du cadre européen, même règle que côté serveur : un niveau
+       est tenu à 80 %, et le niveau annoncé est le premier qui ne l'est pas. */
+    const parNiveau = new Map<string, { total: number; acquis: number; vus: number }>();
+    for (const s of skills) {
+      if (!s.level) continue;
+      const b = parNiveau.get(s.level) ?? { total: 0, acquis: 0, vus: 0 };
+      b.total++;
+      if (s.mastered) b.acquis++;
+      if (!s.isNew) b.vus++;
+      parNiveau.set(s.level, b);
+    }
+    const ORDRE = ["A1", "A2", "B1", "B2", "C1", "C2"];
+    const niveaux = ORDRE.filter((n) => parNiveau.has(n)).map((n) => {
+      const b = parNiveau.get(n)!;
+      return {
+        niveau: n,
+        total: b.total,
+        acquis: b.acquis,
+        vus: b.vus,
+        part: b.total ? Math.round((b.acquis / b.total) * 100) : 0,
+      };
+    });
+    const tenus = niveaux.filter((n) => n.part >= 80);
 
     return {
-      moduleId: this.moduleId,
-      // Un invité n'a qu'un module chargé à la fois : le tableau de bord ne lui
-      // montre que celui-là, et l'invite à créer un compte pour les autres.
-      modules: [
-        {
-          id: this.moduleId,
-          name: this.content.moduleName,
-          tagline: this.content.moduleTagline,
-          progression: "repetition-espacee",
-          skillCount: skills.length,
-          dictationCount: this.content.dictations.length,
-          seen,
-          mastered,
-          due: skills.filter((r) => r.due).length,
-          unseen: skills.length - seen,
-          level: estimateLevel(mastered, skills.length),
-        },
-      ],
+      moduleId: id,
+      modules: this.resumeDesModules(counter),
       level: estimateLevel(mastered, skills.length),
+      niveaux,
+      niveauEstime:
+        niveaux.length === 0
+          ? null
+          : (niveaux.find((n) => n.part < 80)?.niveau ?? niveaux[niveaux.length - 1]!.niveau),
+      niveauAcquis: tenus.length ? tenus[tenus.length - 1]!.niveau : null,
       masteryBox: MASTERY_BOX,
       answerCounter: counter,
       skillCount: skills.length,
@@ -471,6 +577,7 @@ export class GuestEngine implements Engine {
         .sort((a, b) => a.box - b.box || a.correctCount / a.seenCount - b.correctCount / b.seenCount)
         .slice(0, 8),
       recentSessions: this.state.sessions
+        .filter((s) => (s.module ?? MODULE_PAR_DEFAUT) === id)
         .slice(-12)
         .reverse()
         .map((s) => ({
@@ -483,24 +590,27 @@ export class GuestEngine implements Engine {
     };
   }
 
-  async catalogue(): Promise<CataloguePayload> {
+  async catalogue(moduleId?: string): Promise<CataloguePayload> {
+    const contenu = await this.ouvrir(moduleId);
     const counts = new Map<string, number>();
-    for (const r of this.content.skills) counts.set(r.category, (counts.get(r.category) ?? 0) + 1);
-    const stored = guestModule(this.state, this.moduleId).skills;
+    for (const r of contenu.skills) counts.set(r.category, (counts.get(r.category) ?? 0) + 1);
+    const stored = guestModule(this.state, contenu.moduleId).skills;
     return {
-      moduleId: this.moduleId,
-      vocabulaire: this.content.vocabulaire ?? {
+      moduleId: contenu.moduleId,
+      vocabulaire: contenu.vocabulaire ?? {
         skill: "point",
         skillPluriel: "points",
         exercise: "exercice",
         exercisePluriel: "exercices",
         catalogue: "Le catalogue",
       },
-      categories: this.content.categories
+      categories: contenu.categories
         .filter((c) => counts.has(c))
         .map((name) => ({ name, skills: counts.get(name) ?? 0 })),
-      niveaux: [],
-      skills: this.content.skills.map((r) => {
+      niveaux: [
+        ...new Set(contenu.skills.map((s) => s.level).filter((n): n is string => Boolean(n))),
+      ].sort(),
+      skills: contenu.skills.map((r) => {
         const p = stored[r.slug];
         return {
           slug: r.slug,
@@ -511,6 +621,8 @@ export class GuestEngine implements Engine {
           category: r.category,
           disputed: r.disputed,
           exerciseCount: r.exercises.length,
+          hasLesson: r.hasLesson ?? false,
+          level: r.level ?? null,
           box: p?.box ?? 0,
           isNew: p === undefined,
           seenCount: p?.seenCount ?? 0,
@@ -520,11 +632,12 @@ export class GuestEngine implements Engine {
     };
   }
 
-  async dictations(): Promise<DictationsPayload> {
-    const scores = guestModule(this.state, this.moduleId).dictations;
+  async dictations(moduleId?: string): Promise<DictationsPayload> {
+    const contenu = await this.ouvrir(moduleId);
+    const scores = guestModule(this.state, contenu.moduleId).dictations;
     return {
-      themes: [...new Set(this.content.dictations.map((d) => d.theme))].sort(),
-      dictations: this.content.dictations.map((d) => ({
+      themes: [...new Set(contenu.dictations.map((d) => d.theme))].sort(),
+      dictations: contenu.dictations.map((d) => ({
         id: d.id,
         number: d.number,
         theme: d.theme,
@@ -534,7 +647,7 @@ export class GuestEngine implements Engine {
         wordCount: dictationWords(d.text).length,
         skills: d.skills.map((slug) => ({
           slug,
-          title: this.content.skills.find((r) => r.slug === slug)?.title ?? slug,
+          title: contenu.skills.find((r) => r.slug === slug)?.title ?? slug,
         })),
         bestScore: scores[d.id] ?? null,
         lastAttemptAt: null,
@@ -543,7 +656,8 @@ export class GuestEngine implements Engine {
   }
 
   async dictation(id: string): Promise<DictationDetail> {
-    const d = this.content.dictations.find((x) => x.id === id);
+    const contenu = this.trouverParDictee(id) ?? (await this.ouvrir());
+    const d = contenu.dictations.find((x) => x.id === id);
     if (!d) throw new NoContentError("Dictée introuvable.");
     return {
       id: d.id,
@@ -552,15 +666,16 @@ export class GuestEngine implements Engine {
       difficulty: d.difficulty,
       voice: d.voice,
       level: d.level,
-      bestScore: guestModule(this.state, this.moduleId).dictations[d.id] ?? null,
+      bestScore: guestModule(this.state, contenu.moduleId).dictations[d.id] ?? null,
     };
   }
 
   async gradeDictation(id: string, text: string): Promise<DictationResultPayload> {
-    const d = this.content.dictations.find((x) => x.id === id);
+    const contenu = this.trouverParDictee(id) ?? (await this.ouvrir());
+    const d = contenu.dictations.find((x) => x.id === id);
     if (!d) throw new NoContentError("Dictée introuvable.");
     const result = gradeDictation(d.text, text);
-    const scores = guestModule(this.state, this.moduleId).dictations;
+    const scores = guestModule(this.state, contenu.moduleId).dictations;
     const best = Math.max(scores[id] ?? 0, result.score);
     scores[id] = best;
     this.save();
