@@ -23,7 +23,8 @@
     "tts:prepare": "tsx scripts/tts-prepare.ts",
     "tts:voices": "bash scripts/telecharger-voix.sh",
     "contraste": "node scripts/mesurer-contraste.mjs",
-    "classes-mortes": "node scripts/classes-mortes.mjs"
+    "classes-mortes": "node scripts/classes-mortes.mjs",
+    "cartes": "node scripts/generer-cartes.mjs"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
@@ -40,10 +41,14 @@
     "@types/node": "^22.10.5",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",
+    "d3-geo": "^3.1.1",
+    "i18n-iso-countries": "^7.14.0",
     "playwright": "^1.62.1",
     "prisma": "^6.2.1",
+    "topojson-client": "^3.1.0",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3",
-    "vitest": "^2.1.8"
+    "vitest": "^2.1.8",
+    "world-atlas": "^2.0.2"
   }
 }

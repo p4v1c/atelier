@@ -7,6 +7,7 @@
  */
 import type { SeedSkill } from "../../../src/modules/types";
 import { GEO_CAPITALES } from "./capitales";
+import { GEO_CARTE } from "./carte";
 import { GEO_DRAPEAUX } from "./drapeaux";
 import { GEO_FRANCE } from "./france";
 import { GEO_MILIEUX } from "./milieux";
@@ -22,4 +23,5 @@ export const GEO_SKILLS: SeedSkill[] = [
   ...GEO_MILIEUX,
   ...GEO_FRANCE,
   ...GEO_REPERES,
+  ...GEO_CARTE,
 ];

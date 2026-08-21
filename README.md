@@ -9,7 +9,7 @@ répétition espacée, et autant de matières qu'on veut y mettre.
 | Culture générale | 322 notions · 2 209 questions · 280 leçons                    | carnet de révision |
 | Anglais          | 88 séries · 3 420 cartes · 10 dictées · 60 cours                | signalétique       |
 | Espagnol         | 86 séries · 3 350 cartes · 10 dictées · 58 cours                | signalétique       |
-| Géographie       | 18 notions · 144 questions · 2 cours                          | atlas              |
+| Géographie       | 24 notions · 192 questions · 2 cours · 5 cartes cliquables    | atlas              |
 
 Le moteur ne sait pas ce qu'est une faute d'orthographe ni une capitale : il
 connaît des modules, des compétences et des exercices. Ce qu'un exercice veut
@@ -196,18 +196,44 @@ accent.** C'est un révélateur honnête — dire « sheep » quand on visait «
 se voit — mais ce n'est pas un professeur. Elle n'existe que sur Chrome et Edge,
 et Chrome envoie l'audio à ses serveurs pour le transcrire. L'écran le dit.
 
-### La géographie
+### La géographie, et la carte cliquable
 
 Le module était le gabarit à copier : deux notions, quatorze questions, écrites
 pour prouver qu'ajouter une matière ne coûtait qu'un fichier et deux lignes de
-registre. La démonstration faite, il est devenu une matière — dix-huit notions,
-cent quarante-quatre questions, deux cours, et son propre thème.
+registre. La démonstration faite, il est devenu une matière — vingt-quatre
+notions, cent quatre-vingt-douze questions, deux cours, et son propre thème.
 
-Ce qu'il n'a **pas** : la carte cliquable. Elle demanderait un fond
-cartographique — tracés de côtes et de frontières — que ce dépôt n'a pas, et
-qu'on ne dessine pas de mémoire sans mentir sur la forme des pays. Les
-drapeaux, eux, sont des caractères Unicode : ils ne pèsent rien, ne demandent
-aucun fichier et suivent la police du système.
+Le type `carte-monde` pose la question qu'aucun QCM ne peut poser : **où**.
+Savoir que Lima est la capitale du Pérou sans savoir où est le Pérou, c'est
+connaître une liste, pas une carte. Une série entière ferme la boucle des
+drapeaux : on voit le drapeau, on clique le pays, et son nom n'apparaît nulle
+part — ni dans la consigne, ni sur la carte.
+
+```bash
+npm run cartes     # régénère src/lib/cartes/ depuis Natural Earth
+```
+
+Les tracés viennent de **Natural Earth**, qui est dans le domaine public, via
+le paquet `world-atlas`. Rien n'est dessiné à la main : une frontière inventée
+de mémoire serait pire que pas de carte du tout.
+
+Trois choix méritent d'être expliqués.
+
+`world-atlas`, `d3-geo`, `topojson-client` et `i18n-iso-countries` sont des
+dépendances de **développement**. Le script projette une fois pour toutes et
+n'écrit que des chemins SVG : le navigateur reçoit des `d="M…"`, pas une
+bibliothèque de cartographie. Le résultat est versionné — un clone a ses cartes
+sans réseau et sans installation.
+
+Les cinq fonds pèsent ensemble quatre cents kilo-octets, et ils ne sont
+**jamais** dans le paquet d'un écran de français : le catalogue des régions,
+lui, tient en vingt lignes et c'est le seul fichier que le registre des types
+importe. Les tracés se chargent par `import()` dynamique, un morceau par
+région, à l'ouverture d'une carte.
+
+La cible ne quitte jamais le serveur. Le fond de carte, lui, est bien dans le
+navigateur : c'est le plateau de jeu, pas la réponse. Le lire revient à
+regarder un atlas — ce qui est précisément l'exercice.
 
 ### Le vocabulaire
 
@@ -231,7 +257,7 @@ src/components/exercices/index.tsx   une ligne de registre
 ```
 
 Types existants : `spot-error`, `qcm`, `flashcard`, `traduction`, `ecoute`,
-`prononciation`, `appariement`.
+`prononciation`, `appariement`, `carte-monde`.
 
 L'appariement est le seul qui pose plusieurs questions à la fois : cinq paires
 à relier, et le verdict compte les paires justes. La colonne de droite est
@@ -535,6 +561,7 @@ appartiennent aux douze règles « cas discutés »).
 | `npm run typecheck`         | `tsc --noEmit`                                     |
 | `npm run contraste`         | mesure les contrastes dans un vrai navigateur      |
 | `npm run classes-mortes`    | les règles CSS que plus aucun composant ne rend    |
+| `npm run cartes`            | régénère les fonds de carte depuis Natural Earth   |
 | `npm test`                  | suite de tests                                     |
 
 ## Tests

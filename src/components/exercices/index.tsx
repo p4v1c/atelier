@@ -10,6 +10,7 @@
  */
 import { appariementVue } from "./Appariement";
 import { ecouteVue, flashcardVue, traductionVue } from "./Carte";
+import { carteMondeVue } from "./CarteMonde";
 import { prononciationVue } from "./Prononciation";
 import { qcmVue } from "./Qcm";
 import { spotErrorVue } from "./SpotError";
@@ -23,6 +24,7 @@ export const VUES: Record<string, VueExercice> = {
   ecoute: ecouteVue,
   prononciation: prononciationVue,
   appariement: appariementVue,
+  "carte-monde": carteMondeVue,
 };
 
 export function vuePour(kind: string): VueExercice | null {

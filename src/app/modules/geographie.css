@@ -63,3 +63,128 @@
   font-variant-emoji: emoji;
 }
 [data-module="geographie"] .enonce { font-size: 21px; }
+
+/* ═══════════════════════════════════════════════════════════════════════
+   LA CARTE CLIQUABLE
+   ═══════════════════════════════════════════════════════════════════════
+
+   Les tracés viennent de Natural Earth, projetés une fois pour toutes par
+   scripts/generer-cartes.mjs. Le navigateur ne reçoit que des chemins SVG :
+   il n'a ni projection à calculer ni bibliothèque de cartographie à charger.
+
+   Les couleurs sont celles d'un atlas : la mer en fond, les terres en vert
+   pâle, les frontières au trait fin, et l'or pour ce qu'on a trouvé. */
+
+/* Le cadre réserve sa place avant que le fond n'arrive : sans lui, l'écran
+   saute au chargement et le premier clic part sur le mauvais pays.
+
+   Il est aussi PLAFONNÉ en hauteur. Les Amériques font 700 sur 900 : à pleine
+   largeur, la carte dépassait l'écran et poussait le verdict sous la ligne de
+   flottaison — on cliquait sans jamais voir la correction. Le plafond garde
+   la carte et sa réponse dans le même coup d'œil, et le SVG se centre dans ce
+   qui reste. */
+.carte-cadre {
+  position: relative;
+  width: 100%;
+  aspect-ratio: var(--carte-ratio, 3 / 2);
+  max-height: 54vh;
+  margin: 4px 0 2px;
+  border-radius: 3px;
+  overflow: hidden;
+  background: var(--geo-mer);
+}
+.carte-cadre .carte-etat {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--craie);
+  margin: 0;
+}
+
+.carte-monde {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.carte-monde .pays {
+  fill: var(--geo-terre);
+  stroke: var(--geo-mer);
+  stroke-width: 0.6;
+  /* Le trait garde son épaisseur quelle que soit l'échelle du viewBox. */
+  vector-effect: non-scaling-stroke;
+  cursor: pointer;
+  transition: fill 0.12s;
+}
+.carte-monde .pays.survole {
+  fill: var(--geo-cote);
+  stroke: var(--exo-encre);
+  stroke-width: 1;
+}
+.carte-monde .pays.juste {
+  fill: var(--vert);
+  stroke: var(--exo-encre);
+  stroke-width: 1.2;
+}
+.carte-monde .pays.rate {
+  fill: var(--rouge);
+  stroke: var(--exo-encre);
+  stroke-width: 1.2;
+}
+/* Une fois répondu, la carte n'est plus un bouton. */
+.fige .carte-monde .pays { cursor: default; }
+
+/* L'amorce : un drapeau, une silhouette. Elle doit se voir de loin. */
+.carte-amorce {
+  position: relative;
+  font-size: 54px;
+  line-height: 1.1;
+  margin: 0 0 6px;
+  text-align: center;
+}
+
+/* Le verdict, sous la carte : ce qu'il fallait trouver, et ce qu'on a cliqué. */
+.carte-verdict {
+  margin: 14px 0 0;
+  padding: 12px 16px;
+  border-radius: 0 3px 3px 0;
+  border-left: 3px solid var(--mauve);
+  background: var(--encre-2);
+  font-size: 14.5px;
+  color: var(--craie);
+}
+.carte-verdict.juste { border-left-color: var(--vert); }
+.carte-verdict.rate { border-left-color: var(--rouge); }
+.carte-verdict b { color: var(--papier); font-weight: 500; }
+
+/* Le repli d'accessibilité : une carte ne se clique pas au clavier, et un
+   lecteur d'écran n'y voit rien. La liste est longue à dessein — quarante
+   entrées ne font pas un QCM à quatre. */
+.carte-repli {
+  position: relative;
+  margin-top: 14px;
+  font-size: 13px;
+}
+.carte-repli summary {
+  cursor: pointer;
+  color: var(--exo-attenue);
+  padding: 4px 0;
+}
+.carte-repli summary:hover { color: var(--exo-encre); }
+.carte-repli .puces { margin-top: 10px; max-height: 210px; overflow-y: auto; }
+.carte-repli .puce {
+  font-size: 12px;
+  padding: 5px 10px;
+  color: var(--exo-encre);
+  border-color: var(--exo-bord);
+  background: var(--exo-champ);
+}
+.carte-repli .puce:hover { border-color: var(--exo-accent); }
+
+@media (max-width: 560px) {
+  .carte-amorce { font-size: 42px; }
+}

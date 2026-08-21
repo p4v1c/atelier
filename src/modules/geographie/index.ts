@@ -12,12 +12,17 @@
  * chose : elle oblige à départager cinq voisins plutôt qu'à reconnaître un
  * intrus parmi quatre.
  *
- * Ce qu'il n'a pas : la carte cliquable. Elle demanderait un fond
- * cartographique — des tracés de côtes et de frontières — que ce dépôt n'a pas
- * et qu'on ne dessine pas de mémoire. Les drapeaux, eux, sont des caractères
- * Unicode : ils ne pèsent rien et voyagent partout.
+ * Le troisième est la carte elle-même : « clique sur le Portugal ». Elle
+ * apprend ce qu'aucun QCM ne peut apprendre — la position. Savoir que Lima est
+ * la capitale du Pérou sans savoir où est le Pérou, c'est connaître une liste,
+ * pas une carte.
+ *
+ * Les fonds viennent de Natural Earth, qui est dans le domaine public, projetés
+ * une fois pour toutes par scripts/generer-cartes.mjs. Rien n'est dessiné de
+ * mémoire : une frontière inventée serait pire que pas de carte du tout.
  */
 import { appariement } from "../kinds/appariement";
+import { carteMonde } from "../kinds/carte-monde";
 import { qcm } from "../kinds/qcm";
 import type { LearningModule, ModuleFinding } from "../types";
 import type { QcmPayload } from "../kinds/qcm";
@@ -36,7 +41,7 @@ export const geographie: LearningModule = {
     catalogue: "L'atlas",
   },
 
-  kinds: [qcm, appariement],
+  kinds: [qcm, appariement, carteMonde],
 
   categories: [
     { slug: "capitales", name: "Capitales" },
@@ -49,6 +54,7 @@ export const geographie: LearningModule = {
     { slug: "etats", name: "États et territoires" },
     { slug: "france", name: "France et outre-mer" },
     { slug: "reperes", name: "Repères et cartographie" },
+    { slug: "carte", name: "Sur la carte" },
   ],
 
   validateSkill(skill): ModuleFinding[] {
@@ -68,13 +74,15 @@ export const geographie: LearningModule = {
       });
     }
 
-    /* Une notion tout en QCM se parcourt sans jamais avoir à départager deux
-       voisins. Un appariement au moins par notion tient l'exigence. */
-    if (skill.exercises.length >= 6 && !skill.exercises.some((e) => e.kind === appariement.id)) {
+    /* Une notion tout en QCM se parcourt sans jamais avoir à produire quoi que
+       ce soit : on reconnaît un intrus parmi quatre, et c'est tout. Un
+       appariement ou une carte au moins par notion tient l'exigence. */
+    const actifs = [appariement.id, carteMonde.id];
+    if (skill.exercises.length >= 6 && !skill.exercises.some((e) => actifs.includes(e.kind))) {
       anomalies.push({
         severity: "warn",
-        code: "sans-appariement",
-        message: "aucun appariement : la notion ne se travaille qu'en reconnaissance",
+        code: "sans-exercice-actif",
+        message: "ni appariement ni carte : la notion ne se travaille qu'en reconnaissance",
       });
     }
 
