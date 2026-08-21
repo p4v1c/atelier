@@ -224,6 +224,53 @@ export const MONDE_SEUL = fiches([
   ["598", "PG", "Papouasie-Nouvelle-Guinée", "Port Moresby", "la moitié est de la Nouvelle-Guinée, au nord de l'Australie"],
 ]);
 
+/**
+ * Ce qu'aucune carte régionale ne porte.
+ *
+ * Trente États souverains manquaient à l'appel, et pour une raison de dessin :
+ * ce sont presque tous des archipels ou des micro-États. Nauru fait vingt et un
+ * kilomètres carrés, Monaco deux — à l'échelle d'une carte d'Europe ou du
+ * Pacifique, ils tiennent dans un pixel, et Natural Earth ne les trace pas
+ * tous. On ne peut donc pas demander de cliquer dessus.
+ *
+ * Les quiz, eux, n'ont pas besoin de carte. Le drapeau des Seychelles et la
+ * capitale de Tuvalu se demandent très bien sans fond, et c'est ce qui permet
+ * à la matière de couvrir les cent quatre-vingt-treize États membres de l'ONU
+ * plutôt que les cent soixante-quatre qui se laissent dessiner.
+ */
+export const MONDE_RESTE = fiches([
+  ["28", "AG", "Antigua-et-Barbuda", "Saint John's", "deux îles des Petites Antilles, à l'est de la Guadeloupe"],
+  ["44", "BS", "Bahamas", "Nassau", "sept cents îles au nord-est de Cuba, dans l'Atlantique"],
+  ["48", "BH", "Bahreïn", "Manama", "un archipel du golfe Persique, relié à l'Arabie Saoudite par une digue de vingt-cinq kilomètres"],
+  ["52", "BB", "Barbade", "Bridgetown", "la plus orientale des Petites Antilles, seule en plein Atlantique"],
+  ["132", "CV", "Cap-Vert", "Praia", "dix îles volcaniques à cinq cents kilomètres au large du Sénégal"],
+  ["174", "KM", "Comores", "Moroni", "un archipel du canal du Mozambique, entre Madagascar et le continent"],
+  ["212", "DM", "Dominique", "Roseau", "une île montagneuse des Petites Antilles, entre la Guadeloupe et la Martinique"],
+  ["242", "FJ", "Fidji", "Suva", "trois cents îles du Pacifique sud, à l'est de l'Australie"],
+  ["308", "GD", "Grenade", "Saint-Georges", "au sud des Petites Antilles, à cent cinquante kilomètres de Trinité"],
+  ["296", "KI", "Kiribati", "Tarawa", "trente-trois atolls étalés sur trois fuseaux horaires, à cheval sur l'équateur et sur la ligne de changement de date"],
+  ["462", "MV", "Maldives", "Malé", "mille deux cents îles de l'océan Indien, au sud-ouest de l'Inde ; le pays le plus plat du monde"],
+  ["584", "MH", "Îles Marshall", "Majuro", "des atolls du Pacifique nord, à mi-chemin entre Hawaï et les Philippines"],
+  ["480", "MU", "Maurice", "Port-Louis", "une île de l'océan Indien, à huit cents kilomètres à l'est de Madagascar"],
+  ["583", "FM", "Micronésie", "Palikir", "six cents îles du Pacifique ouest, au nord de la Nouvelle-Guinée"],
+  ["492", "MC", "Monaco", "Monaco", "deux kilomètres carrés sur la Méditerranée, enclavés dans la France", "Rouge sur blanc, comme celui de l'Indonésie à quelques centimètres de proportion près."],
+  ["520", "NR", "Nauru", "Yaren", "un seul atoll de vingt et un kilomètres carrés, en plein Pacifique ; le plus petit État insulaire du monde"],
+  ["585", "PW", "Palaos", "Ngerulmud", "un archipel du Pacifique ouest, à l'est des Philippines"],
+  ["659", "KN", "Saint-Christophe-et-Niévès", "Basseterre", "deux îles des Petites Antilles ; le plus petit État des Amériques"],
+  ["674", "SM", "Saint-Marin", "Saint-Marin", "soixante et un kilomètres carrés enclavés dans l'Italie ; la plus ancienne république du monde"],
+  ["670", "VC", "Saint-Vincent-et-les-Grenadines", "Kingstown", "une île et un chapelet d'îlots des Petites Antilles"],
+  ["662", "LC", "Sainte-Lucie", "Castries", "une île des Petites Antilles, juste au sud de la Martinique"],
+  ["90", "SB", "Îles Salomon", "Honiara", "un millier d'îles du Pacifique sud, à l'est de la Papouasie"],
+  ["882", "WS", "Samoa", "Apia", "deux grandes îles du Pacifique sud, à l'est des Fidji"],
+  ["678", "ST", "São Tomé-et-Principe", "São Tomé", "deux îles du golfe de Guinée, posées sur l'équateur"],
+  ["690", "SC", "Seychelles", "Victoria", "cent quinze îles de l'océan Indien, au nord-est de Madagascar"],
+  ["702", "SG", "Singapour", "Singapour", "une cité-État à la pointe de la péninsule malaise, sur le détroit de Malacca"],
+  ["626", "TL", "Timor oriental", "Dili", "la moitié est de l'île de Timor, au nord de l'Australie"],
+  ["776", "TO", "Tonga", "Nuku'alofa", "un archipel du Pacifique sud, au sud des Samoa"],
+  ["798", "TV", "Tuvalu", "Funafuti", "neuf atolls du Pacifique ; l'un des pays les plus menacés par la montée des eaux"],
+  ["548", "VU", "Vanuatu", "Port-Vila", "quatre-vingts îles du Pacifique sud, à l'est de l'Australie"],
+]);
+
 /** Les quatre continents jouables, dans l'ordre où l'écran les propose. */
 export const CONTINENTS = [
   { cle: "europe", nom: "Europe", pays: EUROPE },

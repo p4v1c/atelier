@@ -9,7 +9,7 @@ répétition espacée, et autant de matières qu'on veut y mettre.
 | Culture générale | 322 notions · 2 209 questions · 280 leçons                    | carnet de révision |
 | Anglais          | 88 séries · 3 420 cartes · 10 dictées · 60 cours                | signalétique       |
 | Espagnol         | 86 séries · 3 350 cartes · 10 dictées · 58 cours                | signalétique       |
-| Géographie       | 17 séries · 542 questions · 4 continents × 4 jeux             | atlas              |
+| Géographie       | 20 séries · 613 questions · 5 cartes × 4 jeux                 | atlas              |
 
 Le moteur ne sait pas ce qu'est une faute d'orthographe ni une capitale : il
 connaît des modules, des compétences et des exercices. Ce qu'un exercice veut
@@ -223,12 +223,27 @@ C'est aussi le seul module sans onglets : une grille au bout d'un couloir de
 quatre onglets ne se voit pas. `onglets: []` supprime la barre, l'écran unique
 pose la grille, et la partie commence au clic.
 
-Cinq cent quarante-deux questions, et pas une écrite à la main. Elles se
-déduisent d'une **table de cent soixante-cinq pays** — code ISO, capitale, une
+Six cent treize questions, et pas une écrite à la main. Elles se déduisent
+d'une **table de cent quatre-vingt-quatorze pays** — code ISO, capitale, une
 phrase de situation — et ajouter un pays ajoute trois questions dans les trois
 jeux de son continent. Le drapeau lui-même n'est pas recopié : un émoji de
 drapeau est le code à deux lettres écrit en symboles indicateurs régionaux,
 donc `PT` donne 🇵🇹.
+
+**Les cent quatre-vingt-treize États membres de l'ONU y sont**, et un test le
+vérifie contre une liste écrite à la main — les tables ISO comptent aussi les
+territoires, et « tous les pays » n'aurait plus de sens vérifiable. Trente
+d'entre eux ne se laissent pas dessiner : Nauru fait vingt et un kilomètres
+carrés, Monaco deux, et Natural Earth ne trace pas tous les atolls. On ne peut
+donc pas demander de cliquer dessus — mais le drapeau des Seychelles et la
+capitale de Tuvalu se demandent très bien sans fond de carte. C'est ce que
+portent les quiz du **monde** : ce qu'aucune carte régionale ne montre.
+
+Les eaux, elles, sont **vingt-neuf** : les océans, les grandes mers fermées,
+les golfes et les détroits qu'un francophone rencontre. Ce n'est pas « toutes
+les mers » — l'Organisation hydrographique internationale en nomme une centaine
+— et le nombre est celui qu'une carte à cette échelle peut rendre cliquable
+sans que deux zones se marchent dessus.
 
 Une fabrique se relit mal : une erreur s'y répète cinq cents fois sans que rien
 ne dépasse. Les contrôles portent donc sur elle, et trois choses valent d'être

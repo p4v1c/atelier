@@ -1,6 +1,15 @@
 import { describe, expect, it } from "vitest";
 import { GEO_SKILLS } from "../prisma/seed/geographie";
-import { drapeauDe, EUROPE, AFRIQUE, ASIE, AMERIQUES, MONDE_SEUL, type Fiche } from "../prisma/seed/geographie/pays";
+import {
+  drapeauDe,
+  EUROPE,
+  AFRIQUE,
+  ASIE,
+  AMERIQUES,
+  MONDE_SEUL,
+  MONDE_RESTE,
+  type Fiche,
+} from "../prisma/seed/geographie/pays";
 import type { QcmPayload } from "@/modules/kinds/qcm";
 
 /**
@@ -10,7 +19,7 @@ import type { QcmPayload } from "@/modules/kinds/qcm";
  * fois sans que rien ne dépasse. Ces contrôles portent donc sur la fabrique.
  */
 
-const FICHES: Fiche[] = [...EUROPE, ...AFRIQUE, ...ASIE, ...AMERIQUES, ...MONDE_SEUL];
+const FICHES: Fiche[] = [...EUROPE, ...AFRIQUE, ...ASIE, ...AMERIQUES, ...MONDE_SEUL, ...MONDE_RESTE];
 const quiz = GEO_SKILLS.flatMap((s) =>
   s.exercises.filter((e) => e.kind === "qcm").map((e) => ({ slug: s.slug, p: e.payload as QcmPayload }))
 );
@@ -28,7 +37,7 @@ describe("la table des pays", () => {
   /* Deux fiches du même identifiant se contrediraient sans bruit : le quiz
      dirait une capitale, la carte en annoncerait une autre. */
   it("ne décrit chaque pays qu'une fois par continent", () => {
-    for (const lot of [EUROPE, AFRIQUE, ASIE, AMERIQUES, MONDE_SEUL]) {
+    for (const lot of [EUROPE, AFRIQUE, ASIE, AMERIQUES, MONDE_SEUL, MONDE_RESTE]) {
       const ids = lot.map((f) => f.id);
       expect(new Set(ids).size).toBe(ids.length);
     }
@@ -40,6 +49,46 @@ describe("la table des pays", () => {
     /* Deux points de code, et c'est ce qui permet à la vue de reconnaître une
        proposition « symbole » et de l'afficher en grand. */
     expect([...drapeauDe("FR")].length).toBe(2);
+  });
+});
+
+/**
+ * Les cent quatre-vingt-treize États membres de l'ONU, par leur code ISO à
+ * deux lettres. La liste est écrite ici plutôt que déduite d'un paquet : les
+ * tables ISO comptent aussi les territoires — la Réunion, Porto Rico, les
+ * Malouines — et « tous les pays » n'aurait alors plus de sens vérifiable.
+ */
+const ONU = `AF ZA AL DZ DE AD AO AG SA AR AM AU AT AZ BS BH BD BB BE BZ BJ BT BY BO BA BW BR
+BN BG BF BI KH CM CA CV CF CL CN CY CO KM CG CD KR KP CR CI HR CU DK DJ DO DM EG AE EC ER ES
+EE US ET FJ FI FR GA GM GE GH GR GD GT GN GQ GW GY HT HN HU IN ID IQ IR IE IS IL IT JM JP JO
+KZ KE KG KI KW LA LS LV LB LR LY LI LT LU MK MG MY MW MV ML MT MA MH MU MR MX FM MD MC MN ME
+MZ MM NA NR NP NI NE NG NO NZ OM UG UZ PK PW PA PG PY NL PE PH PL PT QA RO GB RU RW KN SM VC
+LC SB WS ST SN RS SC SL SG SK SI SB SO SD SS LK SE CH SR SZ SY TJ TZ TD CZ TH TL TG TO TT TN
+TM TR TV UA UY VU VE VN YE ZM ZW SV`
+  .trim()
+  .split(/\s+/);
+
+describe("la couverture", () => {
+  it("connaît les cent quatre-vingt-treize États membres de l'ONU", () => {
+    const connus = new Set(FICHES.map((f) => f.a2));
+    const manquants = [...new Set(ONU)].filter((c) => !connus.has(c));
+    expect(manquants, `manquants : ${manquants.join(", ")}`).toEqual([]);
+  });
+
+  /* Un pays présent dans la table mais dans aucune série n'existerait que sur
+     le papier : personne ne le verrait jamais passer. */
+  it("interroge chaque pays de la table au moins une fois", () => {
+    const vus = new Set<string>();
+    for (const s of GEO_SKILLS) {
+      for (const e of s.exercises) {
+        const p = e.payload as { question?: string; cibleNom?: string };
+        for (const f of FICHES) {
+          if (p.question?.startsWith(`${f.nom} —`) || p.cibleNom === f.nom) vus.add(f.nom);
+        }
+      }
+    }
+    const oublies = FICHES.filter((f) => !vus.has(f.nom)).map((f) => f.nom);
+    expect(oublies, `jamais interrogés : ${oublies.join(", ")}`).toEqual([]);
   });
 });
 

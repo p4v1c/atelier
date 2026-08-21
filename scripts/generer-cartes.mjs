@@ -236,7 +236,7 @@ const MERS = [
     id: "golfe-du-bengale",
     nom: "Golfe du Bengale",
     regions: ["asie"],
-    zone: [[[78, 3], [80, 22], [94, 22], [97, 5]]],
+    zone: [[[78, 3], [80, 22], [92, 22], [92, 5]]],
   },
   {
     id: "mer-de-chine-meridionale",
@@ -285,6 +285,39 @@ const MERS = [
     nom: "Mer de Béring",
     regions: ["ameriques"],
     zone: [[[-169.5, 52.5], [-169.5, 65], [-158, 65], [-162, 52.5]]],
+  },
+  {
+    id: "mer-d-irlande",
+    nom: "Mer d'Irlande",
+    regions: ["europe"],
+    zone: [[[-6.6, 51.7], [-6.6, 55], [-2.6, 55], [-2.6, 51.7]]],
+  },
+  {
+    id: "golfe-de-gascogne",
+    nom: "Golfe de Gascogne",
+    regions: ["europe"],
+    zone: [[[-8, 43.4], [-8, 48], [-1.2, 48], [-1.2, 43.4]]],
+  },
+  {
+    id: "golfe-d-aden",
+    nom: "Golfe d'Aden",
+    regions: ["afrique", "asie"],
+    zone: [[[44, 10.5], [44, 15], [52, 15], [52, 10.5]]],
+  },
+  {
+    id: "mer-d-andaman",
+    nom: "Mer d'Andaman",
+    regions: ["asie"],
+    zone: [[[92.5, 5], [92.5, 17], [99, 17], [99, 5]]],
+  },
+  {
+    id: "ocean-arctique",
+    nom: "Océan Arctique",
+    regions: ["ameriques", "monde"],
+    parRegion: {
+      ameriques: [[[-169, 67], [-169, 72], [-60, 72], [-60, 67]]],
+      monde: [[[-170, 68], [170, 68], [170, 84], [-170, 84]]],
+    },
   },
   {
     id: "ocean-atlantique",

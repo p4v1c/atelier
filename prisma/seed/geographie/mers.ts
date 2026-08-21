@@ -53,10 +53,17 @@ const MERS: L[] = [
   ["ameriques", "ameriques", "mer-de-bering", "Mer de Béring", "Clique sur la mer de Béring.", "Son détroit sépare l'Asie de l'Amérique par quatre-vingts kilomètres. Au dernier maximum glaciaire, c'était une plaine, et les premiers Américains l'ont franchie à pied.", 3],
   ["ameriques", "ameriques", "ocean-pacifique", "Océan Pacifique", "Clique sur l'océan Pacifique.", "Plus vaste que toutes les terres émergées réunies. Sa bordure américaine fait partie de la ceinture de feu : c'est là que se produisent la plupart des séismes du globe.", 1],
   ["ameriques", "ameriques", "ocean-atlantique", "Océan Atlantique", "Clique sur l'océan Atlantique.", "Côté américain, il reçoit l'Amazone, qui déverse assez d'eau douce pour dessaler la mer à cent cinquante kilomètres au large.", 2],
-  ["ameriques", "monde", "ocean-pacifique", "Océan Pacifique", "Clique sur l'océan Pacifique.", "Sur un planisphère centré sur l'Europe, il est coupé en deux et apparaît des deux côtés de l'image : c'est le premier piège des cartes, et la meilleure façon de comprendre qu'une projection découpe.", 2],
-  ["europe", "monde", "ocean-atlantique", "Océan Atlantique", "Clique sur l'océan Atlantique.", "Le seul océan qui s'étende d'un pôle à l'autre en une seule pièce, entre deux continents qui se sont séparés il y a cent quatre-vingts millions d'années.", 1],
-  ["asie", "monde", "ocean-indien", "Océan Indien", "Clique sur l'océan Indien.", "Presque entièrement dans l'hémisphère sud, fermé au nord par l'Asie : c'est cette fermeture qui empêche ses eaux chaudes de s'échapper et qui gouverne la mousson.", 2],
-  ["afrique", "monde", "mediterranee", "Mer Méditerranée", "Clique sur la mer Méditerranée.", "À l'échelle du planisphère, elle n'est plus qu'un trait entre l'Europe et l'Afrique — et c'est pourtant la mer intérieure la plus grande du monde.", 2],
+  ["monde", "monde", "ocean-pacifique", "Océan Pacifique", "Clique sur l'océan Pacifique.", "Sur un planisphère centré sur l'Europe, il est coupé en deux et apparaît des deux côtés de l'image : c'est le premier piège des cartes, et la meilleure façon de comprendre qu'une projection découpe.", 2],
+  ["monde", "monde", "ocean-atlantique", "Océan Atlantique", "Clique sur l'océan Atlantique.", "Le seul océan qui s'étende d'un pôle à l'autre en une seule pièce, entre deux continents qui se sont séparés il y a cent quatre-vingts millions d'années.", 1],
+  ["monde", "monde", "ocean-indien", "Océan Indien", "Clique sur l'océan Indien.", "Presque entièrement dans l'hémisphère sud, fermé au nord par l'Asie : c'est cette fermeture qui empêche ses eaux chaudes de s'échapper et qui gouverne la mousson.", 2],
+  ["monde", "monde", "mediterranee", "Mer Méditerranée", "Clique sur la mer Méditerranée.", "À l'échelle du planisphère, elle n'est plus qu'un trait entre l'Europe et l'Afrique — et c'est pourtant la mer intérieure la plus grande du monde.", 2],
+  ["europe", "europe", "mer-d-irlande", "Mer d'Irlande", "Clique sur la mer d'Irlande.", "Entre l'Irlande et la Grande-Bretagne. Au dernier maximum glaciaire, c'était une plaine : on passait d'une île à l'autre à pied sec.", 3],
+  ["europe", "europe", "golfe-de-gascogne", "Golfe de Gascogne", "Clique sur le golfe de Gascogne.", "Entre la Bretagne et la Galice. Sa forme en angle droit y concentre les houles d'ouest, ce qui en fait l'une des mers les plus dures d'Europe.", 3],
+  ["afrique", "afrique", "golfe-d-aden", "Golfe d'Aden", "Clique sur le golfe d'Aden.", "Entre la corne de l'Afrique et le Yémen. Tout ce qui passe par Suez le traverse, ce qui explique la piraterie qui l'a occupé dans les années 2000.", 3],
+  ["asie", "asie", "golfe-d-aden", "Golfe d'Aden", "Clique sur le golfe d'Aden.", "Vu depuis l'Asie, il borde le Yémen au sud. Il ouvre sur la mer d'Arabie à l'est et sur Bab el-Mandeb à l'ouest.", 3],
+  ["asie", "asie", "mer-d-andaman", "Mer d'Andaman", "Clique sur la mer d'Andaman.", "Entre la Birmanie et les îles du même nom. Le tsunami de 2004 y est né, au large de Sumatra, à sa pointe sud.", 3],
+  ["ameriques", "ameriques", "ocean-arctique", "Océan Arctique", "Clique sur l'océan Arctique.", "Le plus petit et le moins profond des océans. Sa banquise d'été a perdu près de la moitié de sa surface depuis 1980, ce qui ouvre des routes maritimes au nord du Canada.", 2],
+  ["monde", "monde", "ocean-arctique", "Océan Arctique", "Clique sur l'océan Arctique.", "Sur un planisphère, il se lit comme une mer intérieure cernée par la Russie, le Canada et le Groenland — ce qu'il est presque.", 2],
 ];
 
 const TITRES: Record<string, string> = {
@@ -64,6 +71,7 @@ const TITRES: Record<string, string> = {
   afrique: "Afrique",
   asie: "Asie",
   ameriques: "Amériques",
+  monde: "le planisphère",
 };
 
 export const GEO_MERS: SeedSkill[] = Object.entries(TITRES).map(([cle, nom]) => {

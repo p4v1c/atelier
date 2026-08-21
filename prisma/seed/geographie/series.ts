@@ -12,7 +12,7 @@
  */
 import type { SeedSkill } from "../../../src/modules/types";
 import { quizCapitale, quizDrapeau, situer } from "./commun";
-import { AMERIQUES, ASIE, CONTINENTS, EUROPE, MONDE_SEUL, type Fiche } from "./pays";
+import { AMERIQUES, ASIE, CONTINENTS, EUROPE, MONDE_RESTE, MONDE_SEUL, type Fiche } from "./pays";
 
 /** Ce qui distingue un continent d'un autre, en une phrase par jeu. */
 const REPERES: Record<string, { drapeaux: string; capitales: string; situer: string }> = {
@@ -102,13 +102,21 @@ function serieSituer(cle: string, nom: string, pays: Fiche[], region = cle): See
 }
 
 /**
- * Le planisphère.
+ * Le monde.
  *
- * Il ne rejoue pas les quiz : sur une carte du monde, le drapeau et la
- * capitale ne demanderaient rien de plus qu'à l'échelle d'un continent. Ce qui
- * change, c'est de retrouver un pays quand la carte porte le monde entier —
- * une trentaine de repères choisis pour couvrir tous les continents.
+ * Ses quiz ne rejouent pas ceux des continents — « Kenya — quelle est sa
+ * capitale ? » est la même question quelle que soit la carte, et la poser deux
+ * fois serait un doublon. Ils portent sur ce qu'aucune carte régionale ne
+ * montre : les archipels, les micro-États, et les trois grands que le
+ * découpage laissait de côté. C'est là que la matière atteint les cent
+ * quatre-vingt-treize États membres de l'ONU.
+ *
+ * Le jeu de localisation, lui, change de nature plutôt que de sujet : trouver
+ * la France sur un planisphère n'est pas le même geste que la trouver sur une
+ * carte d'Europe.
  */
+const RESTE_DU_MONDE: Fiche[] = [...MONDE_SEUL, ...MONDE_RESTE];
+
 const MONDE: Fiche[] = [
   ...MONDE_SEUL,
   ...["250", "724", "620", "826", "578", "616", "380", "792", "804"].map((id) => trouver(EUROPE, id)),
@@ -124,8 +132,10 @@ function trouver(source: readonly Fiche[], id: string): Fiche {
 }
 
 REPERES.monde = {
-  drapeaux: "",
-  capitales: "",
+  drapeaux:
+    "Beaucoup de ces drapeaux portent des étoiles ou des bandes bleues : la mer est le sujet commun des États insulaires.",
+  capitales:
+    "Sur un atoll, la capitale est souvent le seul vrai bourg du pays — et porte parfois le nom de l'île entière.",
   situer:
     "Sur un planisphère, la difficulté n'est plus de reconnaître une forme mais de savoir dans quel quart du monde regarder.",
 };
@@ -160,5 +170,7 @@ export const GEO_SERIES: SeedSkill[] = [
       serieSituer(c.cle, c.nom, [...c.pays]),
     ];
   }),
+  serieDrapeaux("monde", "le reste du monde", RESTE_DU_MONDE),
+  serieCapitales("monde", "le reste du monde", RESTE_DU_MONDE),
   serieSituer("monde", "le planisphère", MONDE, "monde"),
 ];
