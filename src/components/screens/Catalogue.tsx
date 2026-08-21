@@ -51,6 +51,8 @@ export function Catalogue({ engine, moduleId, setScreen, setChrome }: ScreenProp
   const [difficulte, setDifficulte] = useState<number | null>(null);
   /** Niveau du cadre européen. Ne s'affiche que dans les matières qui en ont. */
   const [niveau, setNiveau] = useState<string | null>(null);
+  /** N'afficher que ce qui a un cours attaché. */
+  const [avecCours, setAvecCours] = useState(false);
   const [etat, setEtat] = useState<Etat>("tous");
   const [recherche, setRecherche] = useState("");
   const [ouverte, setOuverte] = useState<string | null>(null);
@@ -78,11 +80,12 @@ export function Catalogue({ engine, moduleId, setScreen, setChrome }: ScreenProp
       if (categorie && r.category !== categorie) return false;
       if (difficulte && r.difficulty !== difficulte) return false;
       if (niveau && r.level !== niveau) return false;
+      if (avecCours && !r.hasLesson) return false;
       if (etat !== "tous" && etatDe(r) !== etat) return false;
       if (!q) return true;
       return normaliser(`${r.title} ${r.statement} ${r.tip}`).includes(q);
     });
-  }, [data, categorie, difficulte, niveau, etat, recherche]);
+  }, [data, categorie, difficulte, niveau, avecCours, etat, recherche]);
 
   /**
    * Regroupement par catégorie : le seul repère qui tienne sur six cents règles.
@@ -165,7 +168,12 @@ export function Catalogue({ engine, moduleId, setScreen, setChrome }: ScreenProp
   })();
 
   const filtre =
-    categorie !== null || difficulte !== null || niveau !== null || etat !== "tous" || recherche.trim() !== "";
+    categorie !== null ||
+    difficulte !== null ||
+    niveau !== null ||
+    avecCours ||
+    etat !== "tous" ||
+    recherche.trim() !== "";
 
   return (
     <>
@@ -199,6 +207,23 @@ export function Catalogue({ engine, moduleId, setScreen, setChrome }: ScreenProp
                   <i>{data.skills.filter((s) => s.level === n).length}</i>
                 </button>
               ))}
+            </div>
+          </>
+        )}
+
+        {data.skills.some((s) => s.hasLesson) && (
+          <>
+            <p className="etiquette" style={{ marginTop: 22 }}>
+              Support
+            </p>
+            <div className="puces">
+              <button className={`puce ${!avecCours ? "active" : ""}`} onClick={() => setAvecCours(false)}>
+                Tout
+              </button>
+              <button className={`puce ${avecCours ? "active" : ""}`} onClick={() => setAvecCours(true)}>
+                Avec un cours
+                <i>{data.skills.filter((s) => s.hasLesson).length}</i>
+              </button>
             </div>
           </>
         )}

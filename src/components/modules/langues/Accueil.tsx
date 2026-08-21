@@ -40,6 +40,20 @@ const MODES: {
     categorie: "Conjugaison",
   },
   {
+    cle: "grammaire",
+    pictogramme: "📐",
+    nom: "Grammaire",
+    quoi: "Articles, modaux, conditionnelles, pronoms — chaque série a son chapitre.",
+    categorie: "Grammaire en contexte",
+  },
+  {
+    cle: "prononciation",
+    pictogramme: "🗣️",
+    nom: "Prononciation",
+    quoi: "Accent tonique et sons qui piègent. On lit à voix haute, le navigateur écoute.",
+    categorie: "Prononciation",
+  },
+  {
     cle: "faux-amis",
     pictogramme: "⚠️",
     nom: "Faux amis",
@@ -115,6 +129,8 @@ export function AccueilLangue({
   const tenu = progress.niveauAcquis;
   const aRevoir = progress.due;
   const jamaisVues = progress.unseen;
+
+  const avecCours = progress.skills.filter((s) => s.hasLesson).length;
 
   /* Combien de séries par catégorie, pour ne proposer que ce qui existe. */
   const parCategorie = new Map<string, number>();
@@ -224,6 +240,17 @@ export function AccueilLangue({
             <span className="compte">{dictees.dictations.length} dictées</span>
           </button>
         )}
+
+        <button className="lg-mode" onClick={() => setScreen({ name: "catalogue" })}>
+          <span className="pictogramme" aria-hidden="true">
+            📖
+          </span>
+          <span className="nom">Les cours</span>
+          <span className="quoi">
+            Des chapitres rédigés — conjugaison, grammaire, écrit — puis les formes en situation.
+          </span>
+          <span className="compte">{avecCours} cours</span>
+        </button>
 
         <button className="lg-mode" onClick={() => setScreen({ name: "catalogue" })}>
           <span className="pictogramme" aria-hidden="true">
