@@ -4,29 +4,30 @@
  * L'Atlas — l'écran unique du module de géographie.
  *
  * ─────────────────────────────────────────────────────────────────────────
- * POURQUOI IL NE RESSEMBLE PAS AUX AUTRES
+ * POURQUOI UNE GRILLE, ET PAS DES ONGLETS
  *
- * Les autres matières ont quatre onglets : accueil, série, catalogue,
- * progression. C'est la bonne forme quand il y a soixante séries à parcourir
- * et un cours à lire avant de s'exercer. La géographie n'a pas cette forme :
- * elle a une GRILLE — un continent, puis un jeu.
+ * Le contenu est un produit : quatre jeux × cinq cartes. La première version
+ * mettait les cartes en onglets et redessinait les quatre mêmes cartouches à
+ * chaque changement — mêmes titres, mêmes phrases, seuls les nombres
+ * bougeaient. Vingt cases décrites cinq fois, et l'on ne voyait jamais plus du
+ * cinquième de la matière.
  *
- * Reprendre la coque à quatre onglets ici, c'était mettre la grille au bout
- * d'un couloir. On s'y perdait, et l'on s'y perdait d'autant plus que la
- * carte, qui est tout l'intérêt du module, se trouvait au bout du chemin le
- * plus long. Le module ne déclare donc aucun onglet, et cet écran est le seul.
+ * Un produit se montre en tableau. Chaque jeu s'explique UNE fois, sur sa
+ * ligne ; chaque carte est une colonne ; chaque case est une partie. On voit
+ * l'atlas entier, on voit où l'on en est partout, et il n'y a plus d'état à
+ * retenir entre deux visites.
  *
- * Les deux natures de jeu sont annoncées sur les cartouches, parce qu'elles
- * n'apprennent pas la même chose : un QUIZ fait reconnaître et départager,
- * une CARTE fait situer. Confondre les deux, c'est croire qu'on connaît un
- * pays parce qu'on sait le nom de sa capitale.
+ * Les deux natures de jeu restent annoncées, parce qu'elles n'apprennent pas
+ * la même chose : un QUIZ fait reconnaître et départager, une CARTE fait
+ * situer. Confondre les deux, c'est croire qu'on connaît un pays parce qu'on
+ * sait le nom de sa capitale.
  */
 import { useEffect, useState } from "react";
 import type { CatalogueSkill, SkillProgressView } from "@/lib/api-types";
 import { SERIES_SIZES } from "@/lib/study/scheduler";
 import type { ScreenProps } from "../../App";
 
-const CONTINENTS = [
+const CARTES = [
   { cle: "europe", nom: "Europe" },
   { cle: "afrique", nom: "Afrique" },
   { cle: "asie", nom: "Asie" },
@@ -88,28 +89,13 @@ const JEUX: Jeu[] = [
   },
 ];
 
-/** Le continent ouvert la dernière fois. Revenir sur l'Europe à chaque visite
- *  serait rageant quand on travaille l'Afrique depuis trois jours. */
-const CLE_CONTINENT = "atelier:geo:continent";
-
-function continentMemorise(): string {
-  if (typeof window === "undefined") return "europe";
-  try {
-    return window.localStorage.getItem(CLE_CONTINENT) ?? "europe";
-  } catch {
-    return "europe";
-  }
-}
-
 export function Atlas({ engine, moduleId, setScreen, setChrome }: ScreenProps) {
   const [series, setSeries] = useState<CatalogueSkill[]>([]);
   const [avancement, setAvancement] = useState<SkillProgressView[]>([]);
-  const [continent, setContinent] = useState("europe");
   const [attente, setAttente] = useState<string | null>(null);
 
   useEffect(() => {
     setChrome({ fil: "", accroche: "drapeaux · capitales · cartes" });
-    setContinent(continentMemorise());
   }, [setChrome]);
 
   useEffect(() => {
@@ -125,15 +111,6 @@ export function Atlas({ engine, moduleId, setScreen, setChrome }: ScreenProps) {
       vivant = false;
     };
   }, [engine, moduleId]);
-
-  const choisirContinent = (cle: string) => {
-    setContinent(cle);
-    try {
-      window.localStorage.setItem(CLE_CONTINENT, cle);
-    } catch {
-      /* navigation privée : on continue sans mémoire */
-    }
-  };
 
   /* Une seule série part à la fois : sans ce verrou, deux clics rapides
      ouvrent deux parties et la première se perd sans rien enregistrer. */
@@ -157,78 +134,113 @@ export function Atlas({ engine, moduleId, setScreen, setChrome }: ScreenProps) {
     }
   };
 
-  const nomContinent = CONTINENTS.find((c) => c.cle === continent)?.nom ?? "";
-  const cartes = JEUX.map((jeu) => ({ jeu, serie: series.find((s) => s.slug === `geo-${jeu.cle}-${continent}`) }))
-    /* Le planisphère n'a ni quiz de drapeaux ni quiz de capitales : à cette
-       échelle, ils ne demanderaient rien de plus qu'à celle d'un continent. */
-    .filter((c) => c.serie);
-
   const total = series.reduce((n, s) => n + s.exerciseCount, 0);
   const posees = avancement.reduce((n, s) => n + s.seenCount, 0);
+  const aRevoir = avancement.filter((s) => s.due).length;
 
   return (
     <div className="plateau atlas">
       <header className="atlas-tete">
-        <h2>Choisis un continent, puis un jeu</h2>
+        <h2>Quatre jeux, cinq cartes</h2>
         <p>
-          Deux jeux se répondent en reconnaissant, deux se jouent en cliquant sur la carte. La partie
-          commence tout de suite.
+          Chaque case est une partie : le nombre est celui des questions, le trait sous lui ce qui a
+          déjà été vu. Deux jeux se répondent en reconnaissant, deux se jouent en cliquant sur la carte.
         </p>
       </header>
 
-      <nav className="continents" aria-label="Continent">
-        {CONTINENTS.map((c) => (
-          <button
-            key={c.cle}
-            className={`continent ${c.cle === continent ? "actif" : ""}`}
-            aria-current={c.cle === continent ? "true" : undefined}
-            onClick={() => choisirContinent(c.cle)}
-          >
-            {c.nom}
-          </button>
-        ))}
-      </nav>
+      <div className="atlas-defile">
+        <table className="atlas-grille">
+          <thead>
+            <tr>
+              <th scope="col">
+                <span className="visuellement-cache">Jeu</span>
+              </th>
+              {CARTES.map((c) => (
+                <th key={c.cle} scope="col">
+                  {c.nom}
+                </th>
+              ))}
+            </tr>
+          </thead>
 
-      <div className="atlas-jeux">
-        {cartes.length === 0 && <p className="legende attente">Chargement de l’atlas…</p>}
+          <tbody>
+            {JEUX.map((jeu) => (
+              <tr key={jeu.cle} className={jeu.genre === "Carte" ? "sur-carte" : ""}>
+                {/* Le drapeau et le texte sont dans une boîte À L'INTÉRIEUR de la
+                    cellule : un `display: flex` posé sur le <th> lui-même le
+                    sortirait du tableau, et les colonnes cesseraient de
+                    s'aligner d'une ligne à l'autre. */}
+                <th scope="row">
+                  <span className="ligne-jeu">
+                    <span className="embleme">{jeu.embleme}</span>
+                    <span className="quoi">
+                      <span className="genre">{jeu.genre}</span>
+                      <b>{jeu.nom}</b>
+                      <span className="dit">{jeu.phrase}</span>
+                    </span>
+                  </span>
+                </th>
 
-        {cartes.map(({ jeu, serie }) => {
-          const suivi = avancement.find((s) => s.slug === serie!.slug);
-          const questions = serie!.exerciseCount;
-          const vu = Math.min(suivi?.seenCount ?? 0, questions);
-          const part = questions ? Math.round((vu / questions) * 100) : 0;
+                {CARTES.map((carte) => {
+                  const serie = series.find((s) => s.slug === `geo-${jeu.cle}-${carte.cle}`);
+                  if (!serie) {
+                    return (
+                      <td key={carte.cle} className="vide">
+                        <span aria-hidden>—</span>
+                        <span className="visuellement-cache">
+                          {jeu.nom} : rien sur {carte.nom}
+                        </span>
+                      </td>
+                    );
+                  }
 
-          return (
-            <article key={jeu.cle} className={`jeu-carte ${jeu.genre === "Carte" ? "sur-carte" : ""}`}>
-              <span className="embleme">{jeu.embleme}</span>
-              <span className="genre">{jeu.genre}</span>
+                  const suivi = avancement.find((s) => s.slug === serie.slug);
+                  const vu = Math.min(suivi?.seenCount ?? 0, serie.exerciseCount);
+                  const part = serie.exerciseCount ? Math.round((vu / serie.exerciseCount) * 100) : 0;
 
-              <h3>{jeu.nom}</h3>
-              <p className="dit">{jeu.phrase}</p>
-
-              <p className="chiffre">
-                <b>{questions}</b> questions
-                {suivi?.due && <span className="fanion">à revoir</span>}
-              </p>
-
-              <span className="piste" aria-hidden>
-                <i style={{ width: `${Math.max(part, 2)}%` }} />
-              </span>
-              <p className="legende">
-                {suivi?.isNew ? "jamais ouverte" : `${vu} sur ${questions} déjà vues · palier ${suivi?.box ?? 0}`}
-              </p>
-
-              <button className="plein" disabled={attente !== null} onClick={() => void jouer(serie!.slug)}>
-                {attente === serie!.slug ? "Un instant…" : "Jouer"}
-              </button>
-            </article>
-          );
-        })}
+                  return (
+                    <td key={carte.cle}>
+                      <button
+                        className={`case ${suivi?.due ? "due" : ""} ${suivi && !suivi.isNew ? "entamee" : ""}`}
+                        disabled={attente !== null}
+                        onClick={() => void jouer(serie.slug)}
+                        title={
+                          suivi?.isNew
+                            ? "Jamais ouverte"
+                            : `${vu} question(s) vue(s) sur ${serie.exerciseCount} · palier ${suivi?.box ?? 0}`
+                        }
+                        aria-label={`${jeu.nom} sur ${carte.nom} — ${serie.exerciseCount} questions, ${
+                          suivi?.isNew ? "jamais ouverte" : `${part} % vues`
+                        }`}
+                      >
+                        <b>{serie.exerciseCount}</b>
+                        <span className="piste" aria-hidden>
+                          <i style={{ width: `${Math.max(part, 2)}%` }} />
+                        </span>
+                        {suivi?.due && (
+                          <span className="fanion" aria-hidden>
+                            à revoir
+                          </span>
+                        )}
+                      </button>
+                    </td>
+                  );
+                })}
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
 
       <footer className="atlas-pied">
         <span>
-          <b>{nomContinent}</b> · {posees} réponses posées sur {total} questions dans l’atlas
+          <b>{posees}</b> réponses posées sur {total} questions
+          {aRevoir > 0 && (
+            <>
+              {" · "}
+              <b>{aRevoir}</b> série{aRevoir > 1 ? "s" : ""} à revoir
+            </>
+          )}
         </span>
         <span className="source">
           Tracés : Natural Earth, domaine public. Les limites des mers sont conventionnelles.

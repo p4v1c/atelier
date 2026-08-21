@@ -206,11 +206,16 @@ climats, projections, outre-mer. Il y avait de quoi réviser, et pourtant on s'y
 perdait : rien ne disait où l'on en était, et la carte, qui est tout l'intérêt
 de la matière, se trouvait au bout du chemin le plus long.
 
-Il tient maintenant sur deux axes. **Quatre continents** en colonnes — Europe,
-Afrique, Asie, Amériques, plus le planisphère — et **quatre jeux** en lignes.
-On choisit un continent, puis ce qu'on veut y travailler. C'est la forme des
-jeux de géographie, et elle vaut mieux qu'un catalogue non parce qu'elle offre
-moins, mais parce qu'elle se lit d'un coup d'œil.
+Il tient maintenant sur deux axes, et c'est littéralement un tableau : **cinq
+cartes** en colonnes — Europe, Afrique, Asie, Amériques, le monde — et **quatre
+jeux** en lignes. Chaque case est une partie, qui commence au clic.
+
+La première version mettait les cartes en onglets et redessinait les quatre
+mêmes cartouches à chaque changement : mêmes titres, mêmes phrases, seuls les
+nombres bougeaient. Vingt cases décrites cinq fois, et jamais plus du cinquième
+de la matière sous les yeux. Un produit se montre en tableau — le jeu s'explique
+une fois, sur sa ligne ; la carte est une colonne. Il n'y a plus d'onglet, plus
+d'état à retenir entre deux visites, et l'atlas entier se lit d'un coup d'œil.
 
 Les jeux ne sont pas de même nature, et l'écran le dit sur chaque cartouche.
 **Drapeaux** et **Capitales** sont des quiz : le pays est donné, la bonne
@@ -219,9 +224,9 @@ réponse est à départager de trois voisines du même continent. **Situer** et
 savoir que Lima est la capitale du Pérou sans savoir où est le Pérou, c'est
 connaître une liste, pas une carte.
 
-C'est aussi le seul module sans onglets : une grille au bout d'un couloir de
-quatre onglets ne se voit pas. `onglets: []` supprime la barre, l'écran unique
-pose la grille, et la partie commence au clic.
+C'est aussi le seul module sans onglets : un tableau au bout d'un couloir de
+quatre onglets ne se voit pas. `onglets: []` supprime la barre, et l'écran
+unique pose la grille.
 
 Six cent treize questions, et pas une écrite à la main. Elles se déduisent
 d'une **table de cent quatre-vingt-quatorze pays** — code ISO, capitale, une
