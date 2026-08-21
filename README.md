@@ -7,8 +7,8 @@ répétition espacée, et autant de matières qu'on veut y mettre.
 | ---------------- | ------------------------------------------------------------ | ------------------ |
 | Français         | 618 règles · 4 336 phrases · 310 dictées                      | cahier d'écolier   |
 | Culture générale | 322 notions · 2 209 questions · 280 leçons                    | carnet de révision |
-| Anglais          | 48 séries · 1 820 cartes · 10 dictées · 20 cours                | signalétique       |
-| Espagnol         | 46 séries · 1 750 cartes · 10 dictées · 18 cours                | signalétique       |
+| Anglais          | 71 séries · 2 740 cartes · 10 dictées · 43 cours                | signalétique       |
+| Espagnol         | 69 séries · 2 670 cartes · 10 dictées · 41 cours                | signalétique       |
 | Géographie       | 2 notions · 14 questions — le gabarit à copier                | par défaut         |
 
 Le moteur ne sait pas ce qu'est une faute d'orthographe ni une capitale : il
@@ -158,6 +158,18 @@ vocabulaire, pas un module.
 Chaque série porte son **niveau du cadre européen**. Un niveau est compté acquis
 à 80 % ; le niveau annoncé est le premier qui ne l'est pas encore. Être « A2 »
 veut donc dire qu'on tient le A1 et qu'on travaille le A2.
+
+Les deux modules vont de A1 à **C1**. Le C1 n'est pas « du B2 en plus dur » :
+c'est le niveau où deux formulations sont justes et où il faut choisir. Ses
+séries portent donc sur le degré, le registre, l'idiome et la presse — ce qui
+ne se devine pas et qu'aucun exercice de grammaire n'enseigne.
+
+Une catégorie **Vocabulaire** tient les champs lexicaux — la cuisine, la
+nature, l'argent, la médecine, la vie publique. Elle existe à part parce qu'on
+la cherche à part : « je veux les mots de la cuisine » n'est pas la même
+demande que « je veux le présent simple ». Chacune de ses séries porte un
+cours, parce qu'un champ lexical a presque toujours une règle qui l'organise —
+un suffixe, une famille de sons, un partage entre deux continents.
 
 Quatre façons de réviser la même carte : la reconnaître (`flashcard`), la
 produire (`traduction`), l'entendre (`ecoute`), la dire (`prononciation`).

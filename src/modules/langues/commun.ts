@@ -46,6 +46,12 @@ export const SENS_NIVEAU: Record<Niveau, string> = {
  */
 export const CATEGORIES_LANGUE: ModuleCategory[] = [
   { slug: "bases", name: "Les bases" },
+  /* Le vocabulaire thématique a sa catégorie propre. Il était jusqu'ici
+     dispersé entre « Les bases » et « Vie quotidienne », qui portent des
+     tournures et non des champs lexicaux : on ne pouvait ni le parcourir ni
+     s'entraîner dessus seul, alors que c'est ce qu'on cherche le plus souvent
+     — « je veux les mots de la cuisine », pas « je veux le présent simple ». */
+  { slug: "vocabulaire", name: "Vocabulaire" },
   { slug: "faux-amis", name: "Faux amis" },
   { slug: "pieges", name: "Pièges du français" },
   { slug: "quotidien", name: "Vie quotidienne" },
