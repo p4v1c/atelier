@@ -89,7 +89,10 @@ export const ESPAGNOL_VERBES: LotCartes[] = [
     niveau: "B2",
     oral: true,
     cartes: [
-      { etranger: "Vale.", francais: "D'accord.", aussi: ["OK."], note: "Le mot le plus employé d'Espagne. En Amérique latine on dira plutôt bueno ou listo." },
+      // « Vale. » seul était le seul mot isolé d'un lot déclaré oral : à la
+      // dictée, un mot de quatre lettres sans contexte se joue à pile ou face.
+      // Remis dans une phrase, il s'entend et s'apprend.
+      { etranger: "Vale, quedamos así.", francais: "D'accord, on fait comme ça.", aussi: ["Entendu, on fait comme ça."], note: "Vale est le mot le plus employé d'Espagne. En Amérique latine, on dira plutôt bueno ou listo." },
       { etranger: "No pasa nada.", francais: "Ce n'est pas grave.", aussi: ["Pas de souci."] },
       { etranger: "Ni idea.", francais: "Aucune idée." },
       { etranger: "Me da igual.", francais: "Ça m'est égal.", aussi: ["Peu importe."] },

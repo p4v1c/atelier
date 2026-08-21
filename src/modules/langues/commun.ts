@@ -235,6 +235,26 @@ export function dicteesEnSeed(dictees: DicteeLangue[]): SeedDictationLike[] {
 
 /* ─────────────────────────── le module ─────────────────────────── */
 
+/**
+ * Les signes diacritiques que la langue étudiée n'emploie pas.
+ *
+ * `aussi` liste des variantes FRANÇAISES, `aussiEtranger` des variantes dans
+ * la langue étudiée. Les confondre fait accepter « Bien à vous » comme
+ * traduction anglaise de « Kind regards » — une faute déjà commise ici, et
+ * que rien ne rattrapait : la carte reste bien formée, le validateur passe,
+ * et c'est l'apprenant qui découvre le problème.
+ *
+ * Le contrôle est un signal, pas une preuve : un accent français dans une
+ * variante anglaise est presque toujours du français mal rangé. Il ne voit
+ * rien d'une variante sans accent — d'où l'avertissement plutôt que l'erreur.
+ * L'espagnol garde ses propres accents (á é í ó ú ñ ü) : seuls ceux qu'il
+ * n'écrit jamais sont retenus.
+ */
+const SIGNES_ABSENTS: Record<string, RegExp> = {
+  en: /[àâäèéêëîïôöùûüçœ]/,
+  es: /[àâäèêëîïôöùûçœ]/,
+};
+
 export type OptionsLangue = {
   id: string;
   name: string;
@@ -292,6 +312,80 @@ export function moduleLangue(o: OptionsLangue): LearningModule {
             code: "traduction-contradictoire",
             message: `« ${recto} » a deux traductions dans la même série : ${[...versos].join(" / ")}`,
           });
+        }
+      }
+
+      /* ── ce qui n'était écrit que dans la consigne ──
+         Trois règles d'écriture tenaient dans le prompt et dans la tête de qui
+         écrivait : dix cartes par série, la prononciation réservée aux phrases,
+         l'écoute jamais sur un mot nu. Rien ne les vérifiait, donc rien
+         n'empêchait de les enfreindre. Elles descendent ici. */
+
+      // La carte, c'est la paire : une flashcard par carte, toujours.
+      const nbCartes = skill.exercises.filter((e) => e.kind === flashcard.id).length;
+      if (nbCartes < 5) {
+        anomalies.push({
+          severity: "error",
+          code: "serie-trop-courte",
+          message: `${nbCartes} carte(s) : une série en demande cinq au minimum, dix en principe`,
+        });
+      } else if (nbCartes !== 10) {
+        anomalies.push({
+          severity: "warn",
+          code: "serie-hors-gabarit",
+          message: `${nbCartes} cartes : le gabarit est de dix`,
+        });
+      }
+
+      const mots = (texte: string) => texte.trim().split(/\s+/).filter(Boolean).length;
+
+      /* Se faire noter sur la prononciation d'un mot isolé n'apprend rien : ni
+         liaison, ni rythme, ni accent de phrase. Au-delà d'une quinzaine de
+         mots, la reconnaissance vocale décroche et sanctionne le souffle. */
+      for (const e of skill.exercises) {
+        if (e.kind !== prononciation.id) continue;
+        const n = mots((e.payload as CartePayload).recto);
+        if (n < 2 || n > 14) {
+          anomalies.push({
+            severity: "error",
+            code: "prononciation-hors-mesure",
+            message: `${n} mot(s) à prononcer : la prononciation ne vaut qu'entre 2 et 14`,
+            exercise: (e.payload as CartePayload).recto,
+          });
+        }
+      }
+
+      /* Un mot entendu hors contexte ne se replace pas, et la dictée d'un mot
+         nu se joue à pile ou face sur l'orthographe. */
+      for (const e of skill.exercises) {
+        if (e.kind !== ecoute.id) continue;
+        const recto = (e.payload as CartePayload).recto;
+        if (mots(recto) < 2) {
+          anomalies.push({
+            severity: "error",
+            code: "ecoute-mot-isole",
+            message: "l'écoute ne se pose que sur des phrases, jamais sur un mot isolé",
+            exercise: recto,
+          });
+        }
+      }
+
+      /* Les variantes acceptées dans le sens français → langue étudiée : elles
+         doivent être dans cette langue, pas dans la nôtre. */
+      const absents = SIGNES_ABSENTS[o.langue.split("-")[0]!.toLowerCase()];
+      if (absents) {
+        for (const e of skill.exercises) {
+          if (e.kind === flashcard.id) continue; // là, les variantes SONT françaises
+          for (const v of (e.payload as CartePayload).variantes ?? []) {
+            if (absents.test(v)) {
+              anomalies.push({
+                severity: "warn",
+                code: "variante-francaise",
+                message: `« ${v} » porte un accent que ${o.name.toLowerCase()} n'écrit pas : variante française rangée dans aussiEtranger ?`,
+                exercise: (e.payload as CartePayload).recto,
+              });
+            }
+          }
         }
       }
 
