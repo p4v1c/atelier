@@ -12,6 +12,10 @@
 import type { QcmQuestion, QcmReveal } from "@/lib/api-types";
 import type { VueExercice, VueExerciceProps } from "./types";
 
+/** Aucune proposition ne dépasse deux points de code : ce sont des symboles.
+ *  Un émoji de drapeau en compte exactement deux. */
+const symboles = (choix: string[]) => choix.every((c) => [...c].length <= 2);
+
 function QcmVue({ question, verdict, choix, repondre }: VueExerciceProps) {
   const q = question as QcmQuestion;
   const reveal = verdict?.reveal as QcmReveal | undefined;
@@ -21,7 +25,10 @@ function QcmVue({ question, verdict, choix, repondre }: VueExerciceProps) {
       <div className={`cahier ${verdict ? "fige" : ""}`}>
         <div className="marge" />
         <p className="enonce">{q.question}</p>
-        <ul className="propositions">
+        {/* Une proposition peut n'être qu'un symbole — un drapeau, un signe.
+            À la taille du texte, deux tricolores ne se distinguent pas. La
+            liste le signale, et le module décide quoi en faire. */}
+        <ul className="propositions" data-forme={symboles(q.choices) ? "symboles" : undefined}>
           {q.choices.map((texte, rang) => {
             const juste = reveal !== undefined && rang === reveal.answerIndex;
             const rate = verdict !== null && choix === rang && !verdict.correct;

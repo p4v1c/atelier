@@ -173,13 +173,41 @@
 .fige .carte-monde .mer,
 .fige .carte-monde .ailleurs { cursor: default; }
 
-/* L'amorce : un drapeau, une silhouette. Elle doit se voir de loin. */
+/* L'amorce : un drapeau, ou le nom du pays cherché. Elle doit se voir de
+   loin — mais un nom à cinquante pixels ne tiendrait pas sur la ligne. */
 .carte-amorce {
   position: relative;
   font-size: 54px;
   line-height: 1.1;
   margin: 0 0 6px;
   text-align: center;
+}
+.carte-amorce.mot {
+  font-family: "Bodoni Moda", serif;
+  font-size: 30px;
+  color: var(--exo-encre);
+  margin-bottom: 10px;
+}
+
+/* Les propositions d'un quiz de drapeaux ne sont pas du texte : ce sont des
+   émojis, et à quinze pixels deux tricolores se ressemblent. Elles passent
+   donc en grand, et sur une grille — quatre drapeaux alignés en colonne
+   feraient une liste de courses. */
+.propositions[data-forme="symboles"] {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.propositions[data-forme="symboles"] .proposition {
+  font-size: 44px;
+  line-height: 1.25;
+  text-align: center;
+  font-variant-emoji: emoji;
+  padding: 14px 6px;
+}
+
+@media (max-width: 560px) {
+  .propositions[data-forme="symboles"] { grid-template-columns: repeat(2, 1fr); }
 }
 
 /* Le verdict, sous la carte : ce qu'il fallait trouver, et ce qu'on a cliqué. */
@@ -258,14 +286,39 @@
   color: var(--mauve-2);
 }
 
-.atlas-modes {
+/* Le choix du continent : des onglets à plat, sans boîte. C'est le premier
+   geste, il doit se voir avant les cartouches. */
+.continents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  border-bottom: 1px solid var(--encre-3);
+}
+.continents .continent {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--mauve-2);
+  background: none;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  padding: 9px 14px;
+  margin-bottom: -1px;
+  cursor: pointer;
+}
+.continents .continent:hover { color: var(--craie); }
+.continents .continent.actif { color: var(--papier); border-bottom-color: var(--geo-cote); }
+.continents .continent:focus-visible { outline: 2px solid var(--geo-cote); outline-offset: -2px; }
+
+.atlas-jeux {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 18px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
   align-items: stretch;
 }
 
-.mode-carte {
+.jeu-carte {
   display: flex;
   flex-direction: column;
   gap: 9px;
@@ -277,9 +330,23 @@
   border-left: 3px solid var(--geo-cote);
   border-radius: 0 3px 3px 0;
 }
-.mode-carte.due { background: var(--encre-3); }
+.jeu-carte.due { background: var(--encre-3); }
+/* Le filet dit la nature du jeu : l'or pour ce qui se reconnaît, le vert des
+   terres pour ce qui se joue sur la carte. Deux gestes, deux couleurs. */
+.jeu-carte.sur-carte { border-left-color: var(--geo-terre); }
+.jeu-carte.sur-carte .embleme svg { stroke: var(--geo-terre); }
+.jeu-carte.sur-carte .embleme svg .noyau { fill: var(--geo-terre); }
+.jeu-carte.sur-carte .genre { color: var(--geo-terre); }
 
-.mode-carte .embleme svg {
+.jeu-carte .genre {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--geo-cote);
+}
+
+.jeu-carte .embleme svg {
   width: 30px;
   height: 30px;
   fill: none;
@@ -288,22 +355,22 @@
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-.mode-carte .embleme svg .noyau { fill: var(--geo-cote); stroke: none; }
+.jeu-carte .embleme svg .noyau { fill: var(--geo-cote); stroke: none; }
 
-.mode-carte h3 {
+.jeu-carte h3 {
   margin: 4px 0 0;
   font-family: "Bodoni Moda", serif;
   font-size: 21px;
   font-weight: 400;
   color: var(--papier);
 }
-.mode-carte .dit {
+.jeu-carte .dit {
   margin: 0;
   font-size: 14px;
   color: var(--craie);
 }
 
-.mode-carte .chiffre {
+.jeu-carte .chiffre {
   margin: 6px 0 0;
   font-size: 13px;
   color: var(--mauve-2);
@@ -311,13 +378,13 @@
   align-items: baseline;
   gap: 10px;
 }
-.mode-carte .chiffre b {
+.jeu-carte .chiffre b {
   font-family: "IBM Plex Mono", monospace;
   font-size: 22px;
   font-weight: 400;
   color: var(--papier);
 }
-.mode-carte .fanion {
+.jeu-carte .fanion {
   font-family: "IBM Plex Mono", monospace;
   font-size: 10px;
   letter-spacing: 0.12em;
@@ -328,36 +395,27 @@
   border-radius: 2px;
 }
 
-.mode-carte .piste {
+.jeu-carte .piste {
   display: block;
   height: 3px;
   background: var(--encre);
   margin-top: 2px;
 }
-.mode-carte .piste i { display: block; height: 100%; background: var(--geo-terre); transition: width 0.5s; }
+.jeu-carte .piste i { display: block; height: 100%; background: var(--geo-terre); transition: width 0.5s; }
 
 /* --mauve-3 ne passe pas le seuil sur ce fond : 3,67:1 à douze pixels. Le ton
    au-dessus, oui. La hiérarchie se tient ici par la taille, pas par la
    couleur. */
-.mode-carte .legende { margin: 0; font-size: 12px; color: var(--mauve-2); }
+.jeu-carte .legende { margin: 0; font-size: 12px; color: var(--mauve-2); }
 
 /* Le bouton ferme la cartouche : il pousse le reste vers le haut, si bien que
    les trois boutons s'alignent même quand les textes n'ont pas la même
    longueur. */
-.mode-carte .plein { align-self: flex-start; }
-.mode-carte .plein:disabled { opacity: 0.45; cursor: default; }
+.jeu-carte .plein:disabled { opacity: 0.45; cursor: default; }
 
-/* L'astuce pousse tout le reste vers le haut : les trois boutons s'alignent
-   alors même que les textes n'ont pas la même longueur. */
-.mode-carte .astuce {
-  margin: 14px 0 0;
-  margin-top: auto;
-  padding-top: 12px;
-  border-top: 1px solid var(--encre-3);
-  font-size: 12.5px;
-  line-height: 1.55;
-  color: var(--mauve-2);
-}
+/* Le bouton ferme la cartouche et pousse le reste vers le haut : les quatre
+   s'alignent alors même que les textes n'ont pas la même longueur. */
+.jeu-carte .plein { margin-top: auto; }
 
 .atlas-pied {
   display: flex;
@@ -371,8 +429,12 @@
 .atlas-pied b { font-family: "IBM Plex Mono", monospace; color: var(--craie); font-weight: 400; }
 .atlas-pied .source { color: var(--mauve-2); text-align: right; }
 
-@media (max-width: 900px) {
-  .atlas-modes { grid-template-columns: 1fr; }
+@media (max-width: 1180px) {
+  .atlas-jeux { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 720px) {
+  .atlas-jeux { grid-template-columns: 1fr; }
   .atlas-pied { flex-direction: column; gap: 6px; }
   .atlas-pied .source { text-align: left; }
 }

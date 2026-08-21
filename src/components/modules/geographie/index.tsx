@@ -9,9 +9,9 @@ import { Atlas } from "./Atlas";
  * vert des terres, le graticule en filigrane et le trait de côte en or.
  *
  * Elle ne déclare AUCUN onglet, et c'est le seul module dans ce cas. Les
- * autres matières ont des séries à parcourir et des cours à lire avant de
- * s'exercer ; celle-ci a trois façons de lire la même carte. Trois portes
- * derrière un couloir de quatre onglets, c'était trois portes de trop.
+ * autres matières ont soixante séries à parcourir et des cours à lire avant
+ * de s'exercer ; celle-ci est une grille — un continent, puis un jeu — et une
+ * grille au bout d'un couloir de quatre onglets ne se voit pas.
  */
 export const geographiePresentation: PresentationModule = {
   theme: "geographie",
@@ -20,7 +20,7 @@ export const geographiePresentation: PresentationModule = {
       L’<em>Atlas</em>
     </>
   ),
-  sousMarque: "cartes · drapeaux · mers",
+  sousMarque: "drapeaux · capitales · cartes",
   onglets: [],
   nomAccueil: "L’atlas",
   ecrans: { accueil: Atlas },

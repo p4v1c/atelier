@@ -9,7 +9,7 @@ répétition espacée, et autant de matières qu'on veut y mettre.
 | Culture générale | 322 notions · 2 209 questions · 280 leçons                    | carnet de révision |
 | Anglais          | 88 séries · 3 420 cartes · 10 dictées · 60 cours                | signalétique       |
 | Espagnol         | 86 séries · 3 350 cartes · 10 dictées · 58 cours                | signalétique       |
-| Géographie       | 3 séries · 124 questions, toutes sur la carte                 | atlas              |
+| Géographie       | 17 séries · 542 questions · 4 continents × 4 jeux             | atlas              |
 
 Le moteur ne sait pas ce qu'est une faute d'orthographe ni une capitale : il
 connaît des modules, des compétences et des exercices. Ce qu'un exercice veut
@@ -199,25 +199,45 @@ accent.** C'est un révélateur honnête — dire « sheep » quand on visait «
 se voit — mais ce n'est pas un professeur. Elle n'existe que sur Chrome et Edge,
 et Chrome envoie l'audio à ses serveurs pour le transcrire. L'écran le dit.
 
-### La géographie : un seul geste
+### La géographie : une grille
 
-Le module a porté onze familles et trois types de questions — capitales,
-drapeaux, fleuves, climats, projections. Il y avait de quoi réviser, et
-pourtant on s'y perdait. Un QCM sur les climats est un QCM : il n'apprend rien
-qu'une autre matière n'apprendrait aussi bien, et le catalogue faisait écran à
-ce que la géographie a de particulier.
+Le module a porté onze familles hétéroclites — capitales, drapeaux, fleuves,
+climats, projections, outre-mer. Il y avait de quoi réviser, et pourtant on s'y
+perdait : rien ne disait où l'on en était, et la carte, qui est tout l'intérêt
+de la matière, se trouvait au bout du chemin le plus long.
 
-Il ne reste que ce qu'aucun questionnaire ne sait faire : **où**. Savoir que
-Lima est la capitale du Pérou sans savoir où est le Pérou, c'est connaître une
-liste, pas une carte. Trois séries, un seul type d'exercice, et tout se joue en
-cliquant sur un fond muet — le drapeau puis le pays, la capitale puis le pays,
-et le nom d'une mer sur une étendue que rien ne signale.
+Il tient maintenant sur deux axes. **Quatre continents** en colonnes — Europe,
+Afrique, Asie, Amériques, plus le planisphère — et **quatre jeux** en lignes.
+On choisit un continent, puis ce qu'on veut y travailler. C'est la forme des
+jeux de géographie, et elle vaut mieux qu'un catalogue non parce qu'elle offre
+moins, mais parce qu'elle se lit d'un coup d'œil.
 
-C'est aussi le seul module sans onglets. Les autres matières ont soixante
-séries à parcourir et des cours à lire avant de s'exercer ; celle-ci a trois
-portes, et les mettre au bout d'un couloir de quatre onglets, c'était trois
-portes de trop. Son écran unique les pose côte à côte, et la partie commence au
-clic.
+Les jeux ne sont pas de même nature, et l'écran le dit sur chaque cartouche.
+**Drapeaux** et **Capitales** sont des quiz : le pays est donné, la bonne
+réponse est à départager de trois voisines du même continent. **Situer** et
+**Mers et océans** se jouent sur la carte, et n'apprennent pas la même chose —
+savoir que Lima est la capitale du Pérou sans savoir où est le Pérou, c'est
+connaître une liste, pas une carte.
+
+C'est aussi le seul module sans onglets : une grille au bout d'un couloir de
+quatre onglets ne se voit pas. `onglets: []` supprime la barre, l'écran unique
+pose la grille, et la partie commence au clic.
+
+Cinq cent quarante-deux questions, et pas une écrite à la main. Elles se
+déduisent d'une **table de cent soixante-cinq pays** — code ISO, capitale, une
+phrase de situation — et ajouter un pays ajoute trois questions dans les trois
+jeux de son continent. Le drapeau lui-même n'est pas recopié : un émoji de
+drapeau est le code à deux lettres écrit en symboles indicateurs régionaux,
+donc `PT` donne 🇵🇹.
+
+Une fabrique se relit mal : une erreur s'y répète cinq cents fois sans que rien
+ne dépasse. Les contrôles portent donc sur elle, et trois choses valent d'être
+dites. Les leurres d'un quiz sont **tirés du contenu**, par un hachage du nom du
+pays : le même exercice se présente toujours pareil, sans qu'aucune permutation
+n'ait à être écrite ni transportée. La bonne réponse ne reste pas au même rang,
+et un test vérifie qu'elle se répartit sur les quatre. Enfin, un pays dont la
+capitale se lit dans le nom sort du quiz — Tunis dans Tunisie, Bissau dans
+Guinée-Bissau : ce n'est pas une question, c'est une ligne à cocher.
 
 ```bash
 npm run cartes     # régénère src/lib/cartes/ depuis Natural Earth
@@ -284,6 +304,12 @@ src/components/exercices/index.tsx   une ligne de registre
 
 Types existants : `spot-error`, `qcm`, `flashcard`, `traduction`, `ecoute`,
 `prononciation`, `carte-monde`.
+
+Le QCM sait afficher des propositions qui ne sont pas du texte. Quand aucune ne
+dépasse deux points de code — un émoji de drapeau en compte exactement deux —
+la liste se signale par `data-forme="symboles"`, et le module décide quoi en
+faire : la géographie les met en grille et en grand, parce qu'à la taille du
+texte deux tricolores se ressemblent.
 
 `carte-monde` est le seul dont la réponse soit un endroit. Le fond porte deux
 couches — les terres et les mers — et `couche` dit laquelle répond au clic :

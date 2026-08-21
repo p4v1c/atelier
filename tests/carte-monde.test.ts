@@ -185,10 +185,21 @@ describe("le contenu de géographie", () => {
   const traces = ({ region, couche }: CarteMondePayload) =>
     couche === "mer" ? FONDS[region]?.mers : FONDS[region]?.pays;
 
-  it("n'a plus que des exercices de carte", () => {
-    const total = GEO_SKILLS.reduce((n, s) => n + s.exercises.length, 0);
-    expect(cartes.length).toBe(total);
-    expect(cartes.length).toBeGreaterThanOrEqual(100);
+  it("joue une bonne part de la matière sur la carte", () => {
+    expect(cartes.length).toBeGreaterThanOrEqual(150);
+  });
+
+  /* Le nom du pays s'affiche en amorce : c'est le principe du jeu. Il ne doit
+     donc surtout pas se retrouver AUSSI dans la consigne, sans quoi la carte
+     ne servirait plus qu'à confirmer ce qui est déjà écrit deux fois. */
+  it("ne redit jamais dans la consigne ce que l'amorce montre déjà", () => {
+    for (const { slug, payload } of cartes) {
+      if (!payload.amorce) continue;
+      expect(
+        payload.consigne.toLowerCase().includes(payload.cibleNom.toLowerCase()),
+        `${slug} : « ${payload.consigne} »`
+      ).toBe(false);
+    }
   });
 
   it("vise une cible qui existe vraiment sur la couche employée", () => {

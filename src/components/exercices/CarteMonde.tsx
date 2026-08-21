@@ -111,7 +111,12 @@ function CarteMondeVue({ question, verdict, choix, repondre }: VueExerciceProps)
       <div className={`cahier ${fige ? "fige" : ""}`}>
         <div className="marge" />
 
-        {q.amorce && <p className="carte-amorce">{q.amorce}</p>}
+        {/* L'amorce est tantôt un drapeau, tantôt un nom de pays. Un émoji de
+            drapeau tient en deux points de code ; au-delà, c'est du texte, et
+            du texte à cinquante pixels ne tiendrait pas sur la ligne. */}
+        {q.amorce && (
+          <p className={`carte-amorce ${[...q.amorce].length > 2 ? "mot" : ""}`}>{q.amorce}</p>
+        )}
         <p className="enonce">{q.consigne}</p>
 
         <div
