@@ -9,7 +9,17 @@
  */
 import { useEffect, useRef, useState } from "react";
 import type { AnswerVerdict, CarteQuestion } from "@/lib/api-types";
-import { arreterLecture, chargerVoix, choisirVoix, lire, synthesePossible } from "@/lib/client/speech";
+import {
+  arreterLecture,
+  chargerVoix,
+  choisirVoix,
+  etatVoixServeur,
+  lire,
+  lireExerciceParServeur,
+  synthesePossible,
+  type EtatServeur,
+  type LectureServeur,
+} from "@/lib/client/speech";
 import type { VueExercice, VueExerciceProps } from "./types";
 
 type Reveal = { recto?: string; verso: string; variantes?: string[]; note: string | null };
@@ -19,17 +29,25 @@ type Reveal = { recto?: string; verso: string; variantes?: string[]; note: strin
 /**
  * Un bouton qui lit un texte dans sa langue.
  *
- * Si aucune voix de cette langue n'est installée, on le dit au lieu de lire le
- * texte avec l'accent d'à côté : entendre « the weather » prononcé à la
- * française apprend une mauvaise prononciation, ce qui est pire que le silence.
+ * La voix neuronale du serveur passe AVANT celle du navigateur : sous Linux,
+ * cette dernière est espeak, un synthétiseur à formants qui apprend une
+ * mauvaise prononciation. Les dictées passaient déjà par le serveur ; les
+ * cartes et l'écoute restaient au robot, et ça s'entendait.
+ *
+ * Si aucune voix de cette langue n'existe nulle part, on le dit au lieu de
+ * lire le texte avec l'accent d'à côté : entendre « the weather » prononcé à
+ * la française est pire que le silence.
  */
 function BoutonEcoute({
+  exerciceId,
   texte,
   langue,
   auto,
   libelle = "Écouter",
   essentiel = false,
 }: {
+  /** Identifiant de l'exercice : le serveur lit son texte en base. */
+  exerciceId?: string;
   texte: string;
   langue: string;
   auto?: boolean;
@@ -39,14 +57,19 @@ function BoutonEcoute({
 }) {
   const [voix, setVoix] = useState<SpeechSynthesisVoice | null>(null);
   const [disponible, setDisponible] = useState<boolean | null>(null);
+  const [serveur, setServeur] = useState<EtatServeur | null>(null);
   const [enCours, setEnCours] = useState(false);
   const deja = useRef(false);
+  const lecture = useRef<LectureServeur | null>(null);
 
   useEffect(() => {
     let vivant = true;
+    void etatVoixServeur().then((e) => vivant && setServeur(e));
     if (!synthesePossible()) {
       setDisponible(false);
-      return;
+      return () => {
+        vivant = false;
+      };
     }
     void chargerVoix().then((liste) => {
       if (!vivant) return;
@@ -57,12 +80,36 @@ function BoutonEcoute({
     return () => {
       vivant = false;
       arreterLecture();
+      lecture.current?.arreter();
     };
   }, [langue]);
 
+  /** Le serveur sait-il lire CETTE langue ? */
+  const serveurSaitLire =
+    serveur?.disponible === true &&
+    exerciceId !== undefined &&
+    (serveur.langues === undefined ||
+      serveur.langues.some((l) => l.toLowerCase().startsWith(langue.split("-")[0]!.toLowerCase())));
+
   const jouer = () => {
-    if (!voix) return;
     setEnCours(true);
+    if (serveurSaitLire) {
+      lecture.current?.arreter();
+      const l = lireExerciceParServeur(exerciceId!, "moyen", 1, () => setEnCours(false));
+      lecture.current = l;
+      // Le serveur peut échouer — voix absente, synthèse en erreur : on
+      // retombe sur le navigateur sans rien dire à l'utilisateur.
+      l.finie.catch(() => {
+        lecture.current = null;
+        if (voix) lire(texte, { voix, vitesse: 0.92, volume: 1, onFin: () => setEnCours(false) });
+        else setEnCours(false);
+      });
+      return;
+    }
+    if (!voix) {
+      setEnCours(false);
+      return;
+    }
     lire(texte, { voix, vitesse: 0.92, volume: 1, onFin: () => setEnCours(false) });
   };
 
@@ -89,7 +136,11 @@ function BoutonEcoute({
   }
 
   return (
-    <button className="creux ecouter" onClick={jouer} disabled={!voix || enCours}>
+    <button
+      className="creux ecouter"
+      onClick={jouer}
+      disabled={enCours || (!serveurSaitLire && !voix)}
+    >
       {enCours ? "Lecture…" : libelle}
     </button>
   );
@@ -97,7 +148,7 @@ function BoutonEcoute({
 
 /* ─────────────────────────── carte mémoire ─────────────────────────── */
 
-function FlashcardVue({ question, verdict, repondre }: VueExerciceProps) {
+function FlashcardVue({ question, verdict, repondre, exerciceId }: VueExerciceProps) {
   const q = question as CarteQuestion;
   const reveal = verdict?.reveal as Reveal | undefined;
   const [retournee, setRetournee] = useState(false);
@@ -109,7 +160,7 @@ function FlashcardVue({ question, verdict, repondre }: VueExerciceProps) {
       <div className={`cahier carte-memoire ${verdict ? "fige" : ""}`}>
         <div className="marge" />
         <p className="recto">{q.recto}</p>
-        {q.langue && <BoutonEcoute texte={q.recto ?? ""} langue={q.langue} />}
+        {q.langue && <BoutonEcoute exerciceId={exerciceId} texte={q.recto ?? ""} langue={q.langue} />}
         {(retournee || reveal) && <p className="verso">{q.verso ?? reveal?.verso ?? "…"}</p>}
       </div>
 
@@ -148,6 +199,7 @@ function Saisie({
   verdict,
   choix,
   repondre,
+  exerciceId,
   ecoute,
 }: VueExerciceProps & { ecoute: boolean }) {
   const q = question as CarteQuestion;
@@ -199,7 +251,14 @@ function Saisie({
             </p>
             {muetteFaute && <p className="recto">{q.aLire}</p>}
             {q.langue && (
-              <BoutonEcoute texte={q.aLire ?? ""} langue={q.langue} auto libelle="Réécouter" essentiel />
+              <BoutonEcoute
+                exerciceId={exerciceId}
+                texte={q.aLire ?? ""}
+                langue={q.langue}
+                auto
+                libelle="Réécouter"
+                essentiel
+              />
             )}
           </div>
         ) : (

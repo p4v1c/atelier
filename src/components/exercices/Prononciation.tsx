@@ -9,13 +9,22 @@
  */
 import { useEffect, useRef, useState } from "react";
 import type { CarteQuestion } from "@/lib/api-types";
-import { arreterLecture, chargerVoix, choisirVoix, lire, synthesePossible } from "@/lib/client/speech";
+import {
+  arreterLecture,
+  chargerVoix,
+  choisirVoix,
+  etatVoixServeur,
+  lire,
+  lireExerciceParServeur,
+  synthesePossible,
+  type EtatServeur,
+} from "@/lib/client/speech";
 import { ecouter, reconnaissancePossible, type Ecoute } from "@/lib/client/reconnaissance";
 import type { VueExercice, VueExerciceProps } from "./types";
 
 type Reveal = { recto: string; verso: string; note: string | null; entendu: string };
 
-function PrononciationVue({ question, verdict, repondre }: VueExerciceProps) {
+function PrononciationVue({ question, verdict, repondre, exerciceId }: VueExerciceProps) {
   const q = question as CarteQuestion;
   const reveal = verdict?.reveal as Reveal | undefined;
   const langue = q.langue ?? "en-GB";
@@ -24,12 +33,18 @@ function PrononciationVue({ question, verdict, repondre }: VueExerciceProps) {
   const [partiel, setPartiel] = useState("");
   const [erreur, setErreur] = useState<string | null>(null);
   const [modele, setModele] = useState<SpeechSynthesisVoice | null>(null);
+  const [serveur, setServeur] = useState<EtatServeur | null>(null);
   const enCours = useRef(false);
 
   /* Une voix pour le modèle : on doit pouvoir entendre avant de répéter. */
   useEffect(() => {
-    if (!synthesePossible()) return;
     let vivant = true;
+    void etatVoixServeur().then((e) => vivant && setServeur(e));
+    if (!synthesePossible()) {
+      return () => {
+        vivant = false;
+      };
+    }
     void chargerVoix().then((liste) => {
       if (!vivant) return;
       const info = choisirVoix(liste, langue);
@@ -47,6 +62,12 @@ function PrononciationVue({ question, verdict, repondre }: VueExerciceProps) {
   }, [question]);
 
   const possible = reconnaissancePossible();
+
+  /** Le serveur sait-il lire cette langue ? */
+  const modeleServeur =
+    serveur?.disponible === true &&
+    (serveur.langues === undefined ||
+      serveur.langues.some((l) => l.toLowerCase().startsWith(langue.split("-")[0]!.toLowerCase())));
 
   const parler = () => {
     if (enCours.current || verdict) return;
@@ -79,10 +100,20 @@ function PrononciationVue({ question, verdict, repondre }: VueExerciceProps) {
         <p className="recto">{q.recto}</p>
         <p className="traduction-aide">{q.verso}</p>
 
-        {modele && (
+        {(modeleServeur || modele) && (
           <button
             className="creux ecouter"
-            onClick={() => lire(q.recto ?? "", { voix: modele, vitesse: 0.9, volume: 1 })}
+            onClick={() => {
+              // La voix neuronale d'abord : c'est un MODÈLE de prononciation,
+              // le robot du navigateur ferait exactement l'inverse du but.
+              if (modeleServeur) {
+                lireExerciceParServeur(exerciceId, "moyen", 1).finie.catch(() => {
+                  if (modele) lire(q.recto ?? "", { voix: modele, vitesse: 0.9, volume: 1 });
+                });
+                return;
+              }
+              if (modele) lire(q.recto ?? "", { voix: modele, vitesse: 0.9, volume: 1 });
+            }}
           >
             Écouter le modèle
           </button>

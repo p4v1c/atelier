@@ -8,10 +8,12 @@
 set -euo pipefail
 
 BASE="https://huggingface.co/rhasspy/piper-voices/resolve/main"
+# La qualité « high » est préférée quand elle existe : le moteur choisit
+# toujours le modèle le plus fin pour une étiquette donnée.
 VOIX=(
   "fr/fr_FR/siwis/medium/fr_FR-siwis-medium"
-  "en/en_GB/alba/medium/en_GB-alba-medium"
-  "en/en_US/amy/medium/en_US-amy-medium"
+  "en/en_GB/cori/high/en_GB-cori-high"
+  "en/en_US/lessac/high/en_US-lessac-high"
   "es/es_ES/davefx/medium/es_ES-davefx-medium"
   "es/es_MX/claude/high/es_MX-claude-high"
 )

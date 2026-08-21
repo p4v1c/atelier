@@ -254,7 +254,28 @@ export function lireParServeur(
   volume: number,
   onFin?: () => void
 ): LectureServeur {
-  const audio = new Audio(`/api/tts/${encodeURIComponent(dictationId)}?vitesse=${vitesse}`);
+  return jouerUrl(`/api/tts/${encodeURIComponent(dictationId)}?vitesse=${vitesse}`, volume, onFin);
+}
+
+/**
+ * L'énoncé d'un exercice, lu par la voix neuronale du serveur.
+ *
+ * Même mécanique que pour les dictées, et pour la même raison : la voix du
+ * navigateur sous Linux est espeak, un synthétiseur à formants qui apprend
+ * une mauvaise prononciation. Le client retombe dessus si le serveur ne sait
+ * pas lire la langue demandée.
+ */
+export function lireExerciceParServeur(
+  exerciseId: string,
+  vitesse: VitesseServeur,
+  volume: number,
+  onFin?: () => void
+): LectureServeur {
+  return jouerUrl(`/api/tts/exercice/${encodeURIComponent(exerciseId)}?vitesse=${vitesse}`, volume, onFin);
+}
+
+function jouerUrl(url: string, volume: number, onFin?: () => void): LectureServeur {
+  const audio = new Audio(url);
   audio.volume = Math.min(1, Math.max(0, volume));
   audio.preload = "auto";
 

@@ -118,10 +118,33 @@ export type LotCartes = {
  * Les quatre portent des empreintes distinctes : la même carte revient donc
  * sous une autre forme sans qu'on ait l'impression de se répéter.
  */
-export function cartesEnExercices(lot: LotCartes, langue: string, batch: string): SeedExercise[] {
+/**
+ * L'accent d'une carte, tiré de son texte.
+ *
+ * Déterministe : la même carte sonne toujours pareil, mais deux cartes
+ * voisines n'ont pas le même accent. Sans cela, tout un module se lirait
+ * d'une seule voix, et l'oreille n'apprendrait qu'une prononciation —
+ * exactement ce qu'on cherche à éviter.
+ */
+function accentPour(texte: string, accents: string[]): string {
+  if (accents.length <= 1) return accents[0] ?? "";
+  let h = 2166136261;
+  for (let i = 0; i < texte.length; i++) {
+    h = Math.imul(h ^ texte.charCodeAt(i), 16777619) >>> 0;
+  }
+  return accents[h % accents.length]!;
+}
+
+export function cartesEnExercices(
+  lot: LotCartes,
+  langueOuAccents: string | string[],
+  batch: string
+): SeedExercise[] {
+  const accents = Array.isArray(langueOuAccents) ? langueOuAccents : [langueOuAccents];
   const exercices: SeedExercise[] = [];
   for (const carte of lot.cartes) {
     const difficulty = carte.difficulte ?? lot.difficulty;
+    const langue = accentPour(carte.etranger, accents);
 
     const versFrancais: CartePayload = {
       recto: carte.etranger,
@@ -164,7 +187,11 @@ export function cartesEnExercices(lot: LotCartes, langue: string, batch: string)
   return exercices;
 }
 
-export function lotsEnSkills(lots: LotCartes[], langue: string, batch: string): SeedSkill[] {
+export function lotsEnSkills(
+  lots: LotCartes[],
+  langueOuAccents: string | string[],
+  batch: string
+): SeedSkill[] {
   return lots.map((lot) => ({
     slug: lot.slug,
     category: lot.category,
@@ -173,7 +200,7 @@ export function lotsEnSkills(lots: LotCartes[], langue: string, batch: string): 
     tip: lot.tip,
     difficulty: lot.difficulty,
     level: lot.niveau,
-    exercises: cartesEnExercices(lot, langue, batch),
+    exercises: cartesEnExercices(lot, langueOuAccents, batch),
     ...(lot.cours ? { lesson: lot.cours } : {}),
   }));
 }

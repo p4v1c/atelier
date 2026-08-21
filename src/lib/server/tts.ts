@@ -52,20 +52,35 @@ function trouverBinaire(): string | null {
   ]);
 }
 
+/** Piper publie ses modèles en trois qualités. On veut la meilleure. */
+const QUALITES = ["x_low", "low", "medium", "high"];
+
+function qualite(fichier: string): number {
+  const rang = QUALITES.findIndex((q) => fichier.includes(`-${q}.onnx`));
+  return rang === -1 ? 0 : rang;
+}
+
 /**
  * Les modèles installés, rangés par étiquette de langue.
  *
- * Un fichier `en_GB-alba-medium.onnx` donne l'entrée "en-gb". On garde aussi
- * une entrée pour la langue seule — "en" — qui sert de repli quand l'accent
+ * Un fichier `en_GB-cori-high.onnx` donne l'entrée "en-gb". On garde aussi une
+ * entrée pour la langue seule — "en" — qui sert de repli quand l'accent
  * demandé n'est pas installé : mieux vaut de l'anglais américain que pas
  * d'anglais du tout.
+ *
+ * Quand plusieurs modèles couvrent la même étiquette, c'est le plus fin qui
+ * gagne. Un classement alphabétique aurait retenu `alba-medium` plutôt que
+ * `cori-high`, soit exactement le contraire de ce qu'on veut.
  */
 function catalogueVoix(): Map<string, string> {
   const index = new Map<string, string>();
   const dossier = path.join(RACINE, ".voices");
   let fichiers: string[] = [];
   try {
-    fichiers = fs.readdirSync(dossier).filter((f) => f.endsWith(".onnx")).sort();
+    fichiers = fs
+      .readdirSync(dossier)
+      .filter((f) => f.endsWith(".onnx"))
+      .sort((a, b) => qualite(b) - qualite(a) || a.localeCompare(b));
   } catch {
     return index;
   }
@@ -175,4 +190,93 @@ export async function synthetiser(
   // Écriture atomique : deux requêtes simultanées ne peuvent pas se marcher dessus.
   await fs.promises.rename(partiel, fichier);
   return fs.promises.readFile(fichier);
+}
+
+/* ─────────────────────────── synthèse par lots ─────────────────────────── */
+
+/**
+ * Synthétise plusieurs textes d'une même langue en un seul appel à Piper.
+ *
+ * Le gain est considérable : Piper recharge son modèle à chaque lancement, et
+ * un modèle « high » pèse une centaine de mégaoctets. Sur 780 textes, un appel
+ * par texte demandait quarante minutes ; un appel par langue en demande
+ * quelques-unes.
+ *
+ * Réservé à la préparation hors ligne (`npm run tts:prepare`). À l'exécution,
+ * on sert le cache, et on ne synthétise à l'unité que ce qui y manque.
+ *
+ * Rend le nombre de textes effectivement écrits.
+ */
+export async function synthetiserLot(
+  textes: string[],
+  vitesse: Vitesse,
+  etiquette: string,
+  onProgres?: (faits: number) => void
+): Promise<number> {
+  const binaire = trouverBinaire();
+  const voix = trouverVoix(etiquette);
+  if (!binaire || !voix || textes.length === 0) return 0;
+
+  const echelle = ECHELLES[vitesse] ?? ECHELLES.moyen!;
+  const cache = dossierCache();
+
+  // Ne demander que ce qui manque : relancer la préparation ne doit rien
+  // resynthétiser.
+  const aFaire: { texte: string; cible: string }[] = [];
+  for (const texte of textes) {
+    const propre = texte.replace(/\s+/g, " ").trim();
+    if (!propre) continue;
+    const cle = createHash("sha256").update(`${voix}|${echelle}|${propre}`).digest("hex").slice(0, 32);
+    const cible = path.join(cache, `${cle}.wav`);
+    if (fs.existsSync(cible)) continue;
+    aFaire.push({ texte: propre, cible });
+  }
+  if (aFaire.length === 0) return 0;
+
+  const provisoire = fs.mkdtempSync(path.join(os.tmpdir(), "piper-lot-"));
+  try {
+    // Piper journalise « Wrote <chemin> » dans l'ordre des lignes reçues :
+    // c'est ce journal qui permet de rattacher chaque fichier à son texte.
+    const ecrits: string[] = [];
+    await new Promise<void>((resolve, reject) => {
+      const p = spawn(
+        binaire,
+        ["-m", voix, "--length-scale", String(echelle), "-d", provisoire, "--output-dir-naming", "timestamp"],
+        { stdio: ["pipe", "ignore", "pipe"] }
+      );
+      let tampon = "";
+      p.stderr.on("data", (d) => {
+        tampon += String(d);
+        let saut: number;
+        while ((saut = tampon.indexOf("\n")) !== -1) {
+          const ligne = tampon.slice(0, saut);
+          tampon = tampon.slice(saut + 1);
+          const m = /Wrote (.+\.wav)\s*$/.exec(ligne);
+          if (m?.[1]) {
+            ecrits.push(m[1]);
+            onProgres?.(ecrits.length);
+          }
+        }
+      });
+      p.on("error", reject);
+      p.on("close", (code) => (code === 0 ? resolve() : reject(new Error(`piper a échoué (${code})`))));
+      p.stdin.write(aFaire.map((x) => x.texte).join("\n") + "\n");
+      p.stdin.end();
+    });
+
+    // Un décalage entre les lignes envoyées et les fichiers écrits rendrait
+    // le cache faux, ce qui est pire que lent : on refuse plutôt que de deviner.
+    if (ecrits.length !== aFaire.length) {
+      throw new Error(`piper a écrit ${ecrits.length} fichiers pour ${aFaire.length} textes`);
+    }
+
+    let faits = 0;
+    for (const [i, x] of aFaire.entries()) {
+      await fs.promises.rename(ecrits[i]!, x.cible);
+      faits++;
+    }
+    return faits;
+  } finally {
+    fs.rmSync(provisoire, { recursive: true, force: true });
+  }
 }

@@ -126,6 +126,16 @@ veut donc dire qu'on tient le A1 et qu'on travaille le A2.
 Quatre façons de réviser la même carte : la reconnaître (`flashcard`), la
 produire (`traduction`), l'entendre (`ecoute`), la dire (`prononciation`).
 
+Tout ce qui se lit à voix haute — dictées, cartes, écoute, modèle de
+prononciation — passe par les voix neuronales de Piper, en local et sans
+réseau. La voix du navigateur ne sert que de secours : sous Linux c'est
+espeak, un synthétiseur à formants qui apprend une mauvaise prononciation.
+
+`npm run tts:prepare` synthétise tout à l'avance. Sans lui, la première écoute
+attend quatre secondes le temps que Piper charge son modèle ; avec, c'est
+immédiat. La préparation groupe les textes par langue — un chargement de modèle
+au lieu de huit cents, dix minutes au lieu de quarante.
+
 **La prononciation mesure si un logiciel te comprend, pas la qualité de ton
 accent.** C'est un révélateur honnête — dire « sheep » quand on visait « ship »
 se voit — mais ce n'est pas un professeur. Elle n'existe que sur Chrome et Edge,
@@ -177,7 +187,8 @@ npm run extract:legacy        # relit heritage/la-regle/ -> prisma/seed/legacy.j
 npm run validate:content      # compte-rendu + anomalies
 npm run seed                  # remplit la base
 npm test                      # 163 tests
-npm run tts:voices            # voix neuronales locales (facultatif, ~300 Mo)
+npm run tts:voices            # voix neuronales locales (facultatif, ~460 Mo)
+npm run tts:prepare           # pré-génère l'audio : sans ça, la 1re écoute attend
 npm run dev                   # http://localhost:3000
 ```
 

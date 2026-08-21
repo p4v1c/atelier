@@ -2,6 +2,14 @@ import type { ComponentType } from "react";
 import type { AnswerVerdict } from "@/lib/api-types";
 
 export type VueExerciceProps = {
+  /**
+   * L'identifiant de l'exercice en base.
+   *
+   * Sert à la synthèse vocale du serveur : la route lit le texte en base
+   * plutôt que de l'accepter du client, ce qui évite d'ouvrir un service de
+   * synthèse à tout venant.
+   */
+  exerciceId: string;
   /** La question telle que le type d'exercice l'a fabriquée. À lire selon le type. */
   question: unknown;
   /** null tant que l'utilisateur n'a pas répondu. */

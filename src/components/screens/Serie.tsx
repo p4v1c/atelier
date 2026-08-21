@@ -150,7 +150,13 @@ export function Serie({ engine, session, setScreen, setChrome }: Props) {
 
       <p className="categorie">{question.category}</p>
 
-      <Vue question={question.question} verdict={verdict} choix={choix} repondre={repondre} />
+      <Vue
+        exerciceId={question.exerciseId}
+        question={question.question}
+        verdict={verdict}
+        choix={choix}
+        repondre={repondre}
+      />
 
       {confirmation && (
         <Confirmation
