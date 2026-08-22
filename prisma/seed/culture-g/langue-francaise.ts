@@ -139,7 +139,7 @@ export const CG_LANGUE_FRANCAISE: SeedSkill[] = [
      "L'une est réservée à l'écrit et aux situations formelles, l'autre au quotidien. Le cas de l'arabe en est l'exemple classique.", 3],
   ]),
 
-  notion("lf-langues-france", S, "Les langues régionales de France",
+  notion("lf-langues-france", S, "Les langues de France",
     "Breton, basque, occitan, alsacien, corse, créoles : leur statut, leur histoire, leur situation.",
     "La France a signé la Charte européenne des langues régionales en 1999 sans jamais la ratifier.",
     2, [

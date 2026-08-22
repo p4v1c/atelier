@@ -7,7 +7,7 @@ import type { SeedSkill } from "../../../src/modules/types";
 const S = "Histoire du monde";
 
 export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
-  notion("hm4-mesopotamie", S, "La Mésopotamie",
+  notion("hm4-mesopotamie", S, "Entre Tigre et Euphrate",
     "Cités, lois, écriture.",
     "Les premières cités-États du monde sont apparues entre le Tigre et l'Euphrate.",
     2, [
@@ -111,7 +111,7 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
      "Il a fini par décliner en Inde même, tout en s'implantant durablement ailleurs.", 3],
   ]),
 
-  notion("hm4-chine-imperiale", S, "La Chine impériale",
+  notion("hm4-chine-imperiale", S, "Les dynasties chinoises",
     "Dynasties, administration, inventions.",
     "L'empire chinois a duré plus de deux mille ans sous des dynasties successives.",
     2, [
@@ -137,7 +137,7 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
      "Elle s'achève avec l'abdication de Puyi en 1912.", 3],
   ]),
 
-  notion("hm4-japon-histoire", S, "L'histoire du Japon",
+  notion("hm4-japon-histoire", S, "Le Japon, des shoguns à Meiji",
     "Shogunats, isolement, modernisation.",
     "Le Japon a connu près de sept siècles de gouvernement militaire.",
     2, [
@@ -215,7 +215,7 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
      "Variole, rougeole et typhus ont décimé des populations sans immunité.", 3],
   ]),
 
-  notion("hm4-empire-byzantin", S, "L'Empire byzantin",
+  notion("hm4-empire-byzantin", S, "Byzance, mille ans d'empire",
     "Constantinople, Justinien, chute.",
     "L'Empire romain d'Orient a survécu mille ans à la chute de Rome.",
     2, [
@@ -267,7 +267,7 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
      "Les traductions de l'arabe vers le latin ont irrigué l'Europe médiévale.", 3],
   ]),
 
-  notion("hm4-mongols", S, "L'empire mongol",
+  notion("hm4-mongols", S, "Gengis Khan et ses successeurs",
     "Conquêtes, organisation, héritage.",
     "L'empire mongol fut le plus vaste empire terrestre continu de l'histoire.",
     2, [
@@ -319,7 +319,7 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
      "La République est proclamée en 1923 par Mustafa Kemal.", 3],
   ]),
 
-  notion("hm4-decouvertes", S, "Les grandes découvertes",
+  notion("hm4-decouvertes", S, "Explorations et conquêtes maritimes",
     "Navigations, conquêtes, conséquences.",
     "Les voyages du XVe siècle ont mis en relation des mondes jusque-là séparés.",
     2, [

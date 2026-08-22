@@ -215,7 +215,7 @@ export const CG_GASTRONOMIE_3: SeedSkill[] = [
      "Sen no Rikyū en a fixé les principes esthétiques au XVIe siècle.", 3],
   ]),
 
-  notion("ga3-fromages-monde", S, "Les fromages",
+  notion("ga3-fromages-monde", S, "Fromages du monde",
     "Familles, affinage, appellations.",
     "La France, l'Italie et la Suisse comptent parmi les grandes traditions fromagères.",
     2, [
@@ -371,7 +371,7 @@ export const CG_GASTRONOMIE_3: SeedSkill[] = [
      "Il évalue la qualité nutritionnelle, non le degré de transformation.", 3],
   ]),
 
-  notion("ga3-agriculture-alimentation", S, "Produire ce que l'on mange",
+  notion("ga3-agriculture-alimentation", S, "Agricultures et filières alimentaires",
     "Agricultures, labels, filières.",
     "Le contenu de l'assiette dépend de choix agricoles faits en amont.",
     2, [

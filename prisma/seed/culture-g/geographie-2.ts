@@ -475,7 +475,7 @@ export const CG_GEOGRAPHIE_2: SeedSkill[] = [
      "Il sert de cadre à la politique de développement et de surveillance de la déforestation.", 3],
   ]),
 
-  notion("geo2-oceanie-poles", S, "L'Océanie et les régions polaires",
+  notion("geo2-oceanie-poles", S, "Océanie et zones polaires",
     "Îles du Pacifique, Australie, Arctique et Antarctique : les marges du peuplement.",
     "L'Arctique est un océan entouré de continents, l'Antarctique un continent entouré d'océans.",
     2, [

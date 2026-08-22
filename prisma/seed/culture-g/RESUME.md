@@ -1,7 +1,10 @@
 # Culture G — lot de questions sans cours
 
-Ce dossier contient **1 820 questions de quiz** réparties en **182 notions**, écrites
+Ce dossier contient **7 820 questions de quiz** réparties en **782 notions**, écrites
 sans leçon associée. Une prochaine session pourra rédiger les cours correspondants.
+
+Avec les 2 209 questions héritées (`heritage/culture-g/data/*.json`), le module
+culture générale totalise **10 029 questions** et **1 104 sujets**.
 
 ## Comment retrouver ce lot
 
@@ -18,29 +21,36 @@ Pour lister les notions :
 npx tsx -e "import {CG_NEUF} from './prisma/seed/culture-g'; CG_NEUF.forEach(n => console.log(n.slug, '·', n.title))"
 ```
 
-## Ce qui est fait
+## Ce qui est fait, par catégorie
 
-| Fichier | Catégorie | Notions | Questions |
-| --- | --- | --- | --- |
-| `histoire-france.ts` | Histoire de France | 13 | 130 |
-| `histoire-monde.ts` | Histoire du monde | 13 | 130 |
-| `geographie.ts` | Géographie | 13 | 130 |
-| `institutions-economie.ts` | Institutions & Économie | 13 | 130 |
-| `litterature.ts` | Littérature | 13 | 130 |
-| `langue-francaise.ts` | Langue française | 13 | 130 |
-| `arts-musique.ts` | Arts & Musique | 13 | 130 |
-| `cinema-medias.ts` | Cinéma & Médias | 13 | 130 |
-| `mythologie-religions.ts` | Mythologie & Religions | 13 | 130 |
-| `sciences-vie.ts` | Sciences de la vie & Terre | 13 | 130 |
-| `physique-chimie.ts` | Physique & Chimie | 13 | 130 |
-| `sciences-tech.ts` | Inventions & Technologie | 13 | 130 |
-| `gastronomie.ts` | Gastronomie & Art de vivre | 13 | 130 |
-| `sport.ts` | Sport | 13 | 130 |
-| **Total** | **14 catégories** | **182** | **1 820** |
+| Catégorie | Notions | Questions |
+| --- | --- | --- |
+| Histoire du monde | 76 | 760 |
+| Histoire de France | 75 | 750 |
+| Langue française | 56 | 560 |
+| Gastronomie & Art de vivre | 54 | 540 |
+| Sport | 54 | 540 |
+| Géographie | 53 | 530 |
+| Cinéma & Médias | 53 | 530 |
+| Sciences de la vie & Terre | 52 | 520 |
+| Physique & Chimie | 52 | 520 |
+| Institutions & Économie | 52 | 520 |
+| Littérature | 52 | 520 |
+| Arts & Musique | 52 | 520 |
+| Mythologie & Religions | 52 | 520 |
+| Inventions & Technologie | 49 | 490 |
+| **Total** | **782** | **7 820** |
 
-Les quatorze catégories du module sont couvertes. Chaque notion porte déjà son
-`title`, son `statement` (une ou deux phrases de cadrage) et son `tip` (le point
-qui fait trébucher), mais **pas de `lesson`** : c'est ce qui reste à écrire.
+Les volumes sont volontairement inégaux : les catégories où le contenu vérifiable
+abonde (histoire, langue) ont reçu quatre lots, les autres deux ou trois.
+
+Un fichier par catégorie et par lot : `histoire-monde.ts`, `histoire-monde-2.ts`,
+`histoire-monde-3.ts`, `histoire-monde-4.ts`, et ainsi de suite. `index.ts` les
+agrège dans `CG_NEUF`.
+
+Chaque notion porte déjà son `title`, son `statement` (une ou deux phrases de
+cadrage) et son `tip` (le point qui fait trébucher), mais **pas de `lesson`** :
+c'est ce qui reste à écrire.
 
 ## L'étape suivante : rédiger les cours
 
@@ -71,7 +81,30 @@ npx vitest run
 
 `npm run validate:content` compare l'énoncé normalisé de **toutes** les questions
 du dépôt, tous modules confondus, et refuse le seed au premier jumeau. Il a
-attrapé une vingtaine de doublons pendant la rédaction de ce lot. Ne jamais le
-contourner : si une erreur remonte, soit la question est en trop, soit le contrôle
-est trop strict — et dans ce second cas, c'est le contrôle qu'il faut corriger, en
-expliquant pourquoi.
+attrapé environ cent cinquante doublons pendant la rédaction de ce lot. Ne jamais
+le contourner : si une erreur remonte, soit la question est en trop, soit le
+contrôle est trop strict — et dans ce second cas, c'est le contrôle qu'il faut
+corriger, en expliquant pourquoi.
+
+Attention : le validateur n'affiche que les huit premières erreurs de chaque type.
+Pour obtenir la liste complète des doublons d'un lot, un script jetable rend
+service :
+
+```ts
+import { chargerContenuCultureG } from "./src/modules/culture-g/contenu";
+import { normalizeForDedupe } from "./src/lib/tokenize";
+const vus = new Map<string, string>();
+for (const lot of chargerContenuCultureG())
+  for (const s of lot.skills)
+    for (const e of s.exercises) {
+      const q = (e.payload as any).question;
+      if (!q) continue;
+      const k = normalizeForDedupe(q);
+      if (vus.has(k)) console.log(s.slug, "::", q, "<-", vus.get(k));
+      else vus.set(k, s.slug);
+    }
+```
+
+Le même script, appliqué aux `title` des sujets, sert à vérifier qu'aucun sujet ne
+porte le même intitulé qu'un autre : les titres sont visibles au catalogue, deux
+sujets homonymes s'y verraient immédiatement.

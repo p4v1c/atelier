@@ -33,7 +33,7 @@ export const CG_SCIENCES_VIE_3: SeedSkill[] = [
      "Une étude allemande de 2017 a mesuré une baisse de plus de soixante-quinze pour cent en trente ans sur des sites protégés.", 3],
   ]),
 
-  notion("sv3-oiseaux", S, "Les oiseaux",
+  notion("sv3-oiseaux", S, "Le monde des oiseaux",
     "Vol, migration, chant, diversité.",
     "Les oiseaux sont les seuls dinosaures encore vivants.",
     2, [

@@ -293,7 +293,7 @@ export const CG_SPORT_3: SeedSkill[] = [
      "Les Coupes du monde de football féminin de 2019 et 2023 ont battu des records d'audience.", 3],
   ]),
 
-  notion("sp3-economie-sport", S, "L'économie du sport",
+  notion("sp3-economie-sport", S, "Le sport comme industrie",
     "Droits télé, sponsors, transferts.",
     "Les droits de diffusion constituent la première ressource des grands sports.",
     2, [
@@ -371,7 +371,7 @@ export const CG_SPORT_3: SeedSkill[] = [
      "Un échauffement dynamique est aujourd'hui privilégié avant la performance.", 3],
   ]),
 
-  notion("sp3-sports-mecaniques", S, "Les sports mécaniques",
+  notion("sp3-sports-mecaniques", S, "Automobile et moto de compétition",
     "Formule 1, rallye, moto.",
     "La Formule 1 est le championnat de sport automobile le plus suivi au monde.",
     2, [
@@ -475,7 +475,7 @@ export const CG_SPORT_3: SeedSkill[] = [
      "Kévin Mayer détient le record du monde du décathlon depuis 2018.", 3],
   ]),
 
-  notion("sp3-gymnastique", S, "La gymnastique",
+  notion("sp3-gymnastique", S, "Gymnastique et disciplines acrobatiques",
     "Agrès, notation, champions.",
     "La gymnastique artistique figure au programme olympique depuis 1896.",
     2, [

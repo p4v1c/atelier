@@ -345,7 +345,7 @@ export const CG_SCIENCES_VIE_2: SeedSkill[] = [
      "La maladie de Parkinson résulte de la dégénérescence de neurones dopaminergiques.", 3],
   ]),
 
-  notion("sv2-sommeil-rythmes", S, "Le sommeil et les rythmes biologiques",
+  notion("sv2-sommeil-rythmes", S, "Sommeil et horloge biologique",
     "Horloge interne, cycles, effets de la privation.",
     "L'horloge biologique tourne sur un cycle légèrement supérieur à vingt-quatre heures, recalé chaque jour par la lumière.",
     2, [

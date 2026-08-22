@@ -345,7 +345,7 @@ export const CG_ARTS_MUSIQUE_2: SeedSkill[] = [
      "Elle est traditionnellement l'instrument des griots, dépositaires de la mémoire des familles.", 3],
   ]),
 
-  notion("am2-photographie-histoire", S, "L'histoire de la photographie",
+  notion("am2-photographie-histoire", S, "La photographie, des origines à aujourd'hui",
     "Procédés, courants, reconnaissance comme art.",
     "Il a fallu près d'un siècle pour que la photographie soit admise comme un art à part entière.",
     2, [

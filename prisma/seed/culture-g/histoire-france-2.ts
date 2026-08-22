@@ -501,7 +501,7 @@ export const CG_HISTOIRE_FRANCE_2: SeedSkill[] = [
      "Elle prévoit aussi que ces sujets trouvent une place dans les programmes scolaires.", 3],
   ]),
 
-  notion("hf2-symboles-republique", S, "Les symboles de la République",
+  notion("hf2-symboles-republique", S, "Emblèmes et devise de la République",
     "Drapeau, hymne, devise, Marianne : d'où viennent-ils et que disent les textes.",
     "La Marseillaise n'est devenue hymne national définitif qu'en 1879.",
     2, [

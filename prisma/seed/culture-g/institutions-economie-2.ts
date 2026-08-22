@@ -267,7 +267,7 @@ export const CG_INSTITUTIONS_ECONOMIE_2: SeedSkill[] = [
      "Les réseaux REP et REP+ bénéficient d'effectifs réduits et de moyens supplémentaires.", 3],
   ]),
 
-  notion("ie2-sante-systeme", S, "Le système de santé français",
+  notion("ie2-sante-systeme", S, "L'organisation de la santé en France",
     "Financement, acteurs, accès aux soins.",
     "La France combine une offre libérale et un financement largement socialisé.",
     2, [

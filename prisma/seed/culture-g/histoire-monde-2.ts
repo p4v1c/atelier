@@ -293,7 +293,7 @@ export const CG_HISTOIRE_MONDE_2: SeedSkill[] = [
      "Venise et Gênes en tirent un profit considérable, notamment par le transport et le crédit.", 3],
   ]),
 
-  notion("hm2-mongols", S, "L'Empire mongol",
+  notion("hm2-mongols", S, "Les conquêtes mongoles",
     "Le plus vaste empire terrestre continu de l'histoire, constitué en moins d'un siècle.",
     "L'Empire mongol a rendu possible une circulation continentale sans précédent avant sa fragmentation.",
     2, [

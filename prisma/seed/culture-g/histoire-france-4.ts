@@ -33,7 +33,7 @@ export const CG_HISTOIRE_FRANCE_4: SeedSkill[] = [
      "L'archéologie a révélé des villes, un artisanat avancé et une monnaie propre.", 3],
   ]),
 
-  notion("hf4-gaule-romaine", S, "La Gaule romaine",
+  notion("hf4-gaule-romaine", S, "Cinq siècles de Gaule romaine",
     "Conquête, villes, romanisation.",
     "La Gaule est restée romaine pendant près de cinq siècles.",
     2, [
@@ -111,7 +111,7 @@ export const CG_HISTOIRE_FRANCE_4: SeedSkill[] = [
      "Le dernier carolingien, Louis V, meurt sans héritier direct.", 3],
   ]),
 
-  notion("hf4-capetiens", S, "Les premiers Capétiens",
+  notion("hf4-capetiens", S, "L'affirmation des Capétiens",
     "Domaine royal, sacre, affirmation.",
     "Les Capétiens ont patiemment agrandi un domaine royal d'abord minuscule.",
     2, [
@@ -189,7 +189,7 @@ export const CG_HISTOIRE_FRANCE_4: SeedSkill[] = [
      "Ses restaurations, parfois très interprétatives, ont été discutées.", 3],
   ]),
 
-  notion("hf4-guerre-cent-ans", S, "La guerre de Cent Ans",
+  notion("hf4-guerre-cent-ans", S, "Le long conflit franco-anglais",
     "Causes, batailles, issue.",
     "Le conflit franco-anglais a duré, avec des trêves, de 1337 à 1453.",
     2, [
@@ -215,7 +215,7 @@ export const CG_HISTOIRE_FRANCE_4: SeedSkill[] = [
      "L'impôt permanent et l'armée de métier en sont les principaux héritages.", 3],
   ]),
 
-  notion("hf4-renaissance-france", S, "La Renaissance française",
+  notion("hf4-renaissance-france", S, "Les rois de la Renaissance",
     "Italie, châteaux, humanisme.",
     "Les guerres d'Italie ont ouvert la France aux formes de la Renaissance.",
     2, [
@@ -267,7 +267,7 @@ export const CG_HISTOIRE_FRANCE_4: SeedSkill[] = [
      "La révocation provoque l'exil de centaines de milliers de protestants.", 3],
   ]),
 
-  notion("hf4-richelieu-mazarin", S, "Richelieu, Mazarin et la Fronde",
+  notion("hf4-richelieu-mazarin", S, "Le temps des cardinaux-ministres",
     "Ministériat, absolutisme, révolte.",
     "Deux cardinaux-ministres ont façonné l'État royal au XVIIe siècle.",
     2, [
@@ -319,7 +319,7 @@ export const CG_HISTOIRE_FRANCE_4: SeedSkill[] = [
      "Les dernières années du règne sont marquées par des famines et des dettes considérables.", 3],
   ]),
 
-  notion("hf4-lumieres-france", S, "La France des Lumières",
+  notion("hf4-lumieres-france", S, "Philosophes et salons du XVIIIe siècle",
     "Philosophes, salons, contestation.",
     "Le XVIIIe siècle français est celui de la critique des institutions.",
     2, [
@@ -345,7 +345,7 @@ export const CG_HISTOIRE_FRANCE_4: SeedSkill[] = [
      "Les philosophes n'ont pas préconisé la révolution ; leurs idées ont été mobilisées ensuite.", 3],
   ]),
 
-  notion("hf4-1789", S, "1789 et la fin de l'Ancien Régime",
+  notion("hf4-1789", S, "L'année 1789",
     "États généraux, prise de la Bastille, nuit du 4 août.",
     "L'année 1789 fait basculer la France en quelques mois.",
     2, [
@@ -501,7 +501,7 @@ export const CG_HISTOIRE_FRANCE_4: SeedSkill[] = [
      "Son interprétation a fait l'objet de lectures très divergentes.", 3],
   ]),
 
-  notion("hf4-troisieme-republique", S, "La Troisième République",
+  notion("hf4-troisieme-republique", S, "La République de 1870 à 1940",
     "École, laïcité, Dreyfus.",
     "La Troisième République est le régime le plus durable de l'histoire de France.",
     2, [
@@ -553,7 +553,7 @@ export const CG_HISTOIRE_FRANCE_4: SeedSkill[] = [
      "Son programme a inspiré les réformes sociales de la Libération.", 3],
   ]),
 
-  notion("hf4-quatrieme-republique", S, "La Quatrième République",
+  notion("hf4-quatrieme-republique", S, "La France de 1946 à 1958",
     "Reconstruction, instabilité, décolonisation.",
     "La Quatrième République a reconstruit le pays malgré une grande instabilité.",
     2, [
@@ -579,7 +579,7 @@ export const CG_HISTOIRE_FRANCE_4: SeedSkill[] = [
      "Une nouvelle constitution est approuvée par référendum en septembre 1958.", 3],
   ]),
 
-  notion("hf4-cinquieme-republique", S, "La Cinquième République",
+  notion("hf4-cinquieme-republique", S, "Les institutions depuis 1958",
     "Institutions, alternances, évolutions.",
     "La Cinquième République est marquée par un exécutif fort.",
     2, [

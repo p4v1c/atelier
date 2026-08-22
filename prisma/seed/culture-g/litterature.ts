@@ -59,7 +59,7 @@ export const CG_LITTERATURE: SeedSkill[] = [
      "Apollinaire en fait un recueil en 1918, mais la forme remonte à l'Antiquité grecque.", 3],
   ]),
 
-  notion("li-figures-style", S, "Les figures de style",
+  notion("li-figures-style", S, "Les figures de style en littérature",
     "Comparaison, métaphore, métonymie, ironie : nommer précisément ce que fait une phrase.",
     "La comparaison montre l'outil de comparaison ; la métaphore le supprime.",
     2, [
