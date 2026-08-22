@@ -960,4 +960,187 @@ La Russie des années 1990 connaît une transition économique brutale : libéra
 
 Cette décennie, vécue comme une humiliation nationale et un désastre social, explique une grande part de l'adhésion ultérieure à un pouvoir promettant l'ordre et la restauration du rang du pays.`],
   ],
+
+  "hm3-moyen-orient": [
+    ["Des frontières tracées à Londres et à Paris", `Les frontières du Moyen-Orient actuel datent en grande partie de l'après-Première Guerre mondiale, et non d'une histoire longue.
+
+Les accords Sykes-Picot, négociés secrètement en 1916 entre la France et le Royaume-Uni, partagent par avance les provinces arabes de l'Empire ottoman en zones d'influence. Ils sont révélés au monde en 1917 par les bolcheviks, qui publient les archives diplomatiques tsaristes — les Arabes, à qui les Britanniques avaient promis un royaume unifié en échange de leur révolte contre les Ottomans, découvrent ainsi le double jeu.
+
+La déclaration Balfour, la même année, exprime le soutien britannique à l'établissement d'un foyer national juif en Palestine, tout en affirmant que rien ne devra porter atteinte aux droits des communautés existantes. Les deux engagements se révéleront inconciliables.
+
+Le système des mandats de la Société des Nations habille juridiquement ce partage : la France reçoit la Syrie et le Liban, le Royaume-Uni l'Irak, la Transjordanie et la Palestine, avec mission de préparer ces territoires à l'indépendance.
+
+Les frontières qui en résultent découpent des ensembles humains sans logique interne, et plusieurs conflits ultérieurs y trouvent leur origine.`],
+    ["1948 et ses suites", `L'État d'Israël est proclamé en mai 1948, au terme du mandat britannique et après un plan de partage voté par l'ONU que les États arabes rejettent. La guerre éclate immédiatement.
+
+La Nakba — « catastrophe » en arabe — désigne l'exode et l'expulsion de centaines de milliers de Palestiniens au cours de ce conflit. Les historiens s'accordent sur le nombre, autour de sept cent mille, et divergent sur la part respective de la fuite devant les combats, des expulsions délibérées et de la panique. Les archives israéliennes ouvertes depuis les années 1980 ont considérablement documenté cette question.
+
+La guerre des Six Jours, en juin 1967, modifie durablement la carte : Israël prend le Sinaï, la bande de Gaza, la Cisjordanie, Jérusalem-Est et le Golan. La question des territoires occupés naît de cette semaine, et elle structure tout le conflit depuis.
+
+Les accords de Camp David, en 1978, conduisent à une paix séparée entre Israël et l'Égypte : restitution du Sinaï contre reconnaissance. C'est le premier traité entre Israël et un État arabe, et il vaudra à Sadate d'être exclu de la Ligue arabe puis assassiné en 1981.
+
+Les accords d'Oslo de 1993 créeront une Autorité palestinienne sans résoudre les questions de fond — frontières, Jérusalem, réfugiés, colonies.`],
+    ["Le pétrole et les révolutions", `Le pétrole transforme la région à partir des années 1930 et surtout après 1945. Il donne aux États du Golfe une richesse sans rapport avec leur population, attire l'attention des grandes puissances, et fait de la stabilité de la région un enjeu mondial.
+
+Le choc pétrolier de 1973, décidé par l'OPEP en représailles au soutien occidental à Israël, démontre ce pouvoir : quadruplement des prix en quelques mois et récession mondiale.
+
+La révolution iranienne de 1979 renverse le chah, souverain modernisateur et autoritaire soutenu par les États-Unis, et instaure une république islamique dirigée par le clergé chiite. Elle inverse un rapport de force régional, inquiète les monarchies sunnites, et introduit un modèle politique inédit — une théocratie dotée d'institutions élues.
+
+La guerre Iran-Irak, de 1980 à 1988, oppose l'Irak de Saddam Hussein, soutenu par les puissances occidentales et les monarchies du Golfe, à l'Iran révolutionnaire. Huit ans de combats, emploi massif d'armes chimiques, environ un million de morts, et aucun changement de frontière.`],
+    ["Le printemps et l'hiver", `Le printemps arabe de 2011 est une vague de soulèvements populaires partie de Tunisie après l'immolation d'un vendeur ambulant, et gagnant l'Égypte, la Libye, le Yémen, la Syrie, Bahreïn et le Maroc.
+
+Ses revendications initiales sont sociales et politiques : dignité, emploi, fin de la corruption, libertés. Les réseaux sociaux y jouent un rôle de coordination, souvent surestimé dans les récits occidentaux.
+
+Ses issues divergent radicalement. La Tunisie établit une démocratie, seul cas durable, avant un net recul institutionnel une décennie plus tard. L'Égypte connaît une transition puis un coup d'État militaire. La Libye et le Yémen s'effondrent en guerres civiles internationalisées. La Syrie sombre dans un conflit qui fera des centaines de milliers de morts et des millions de réfugiés, avec l'intervention de puissances régionales et mondiales.
+
+Ce contraste interdit toute lecture unique : les mêmes revendications ont produit une démocratie, des restaurations autoritaires et des États effondrés, selon la cohésion de l'armée, la structure sociale et l'intervention extérieure.
+
+L'émergence de l'organisation État islamique, dans les décombres irakiens et syriens, et sa défaite territoriale en 2019, constituent la séquence suivante — dont les causes remontent directement à l'invasion de l'Irak en 2003 et à la dissolution de son armée.`],
+  ],
+
+  "hm3-inde-pakistan": [
+    ["La partition", `La partition de 1947 a provoqué l'un des plus grands déplacements de population de l'histoire : plus de dix millions de personnes traversent les nouvelles frontières en quelques mois, dans les deux sens.
+
+Le principe retenu — un État à majorité hindoue et un État à majorité musulmane — se heurtait à une réalité de terrain où les communautés étaient partout imbriquées. Le tracé fut confié à un juriste britannique arrivé sur place cinq semaines plus tôt, qui n'avait jamais mis les pieds en Inde, et sa ligne ne fut publiée qu'après l'indépendance.
+
+Les violences font entre cinq cent mille et un million de morts, avec massacres réciproques, trains entiers arrivant sans survivants, enlèvements de femmes par dizaines de milliers.
+
+Le Pakistan naît en deux morceaux séparés par mille cinq cents kilomètres de territoire indien, configuration qui ne survivra pas : le Pakistan oriental fait sécession en 1971, après une répression sanglante et une intervention indienne, et devient le Bangladesh.
+
+Jawaharlal Nehru devient le premier Premier ministre de l'Inde indépendante. Gandhi, qui avait fait grève de la faim contre les violences et refusé de célébrer l'indépendance, est assassiné en janvier 1948 par un nationaliste hindou qui lui reprochait sa conciliation envers les musulmans.`],
+    ["Nourrir et développer", `La révolution verte transforme l'agriculture indienne dans les années 1960 : variétés à haut rendement, engrais, irrigation, mécanisation. L'Inde, qui dépendait de l'aide alimentaire américaine et connaissait des famines récurrentes, devient autosuffisante en céréales en une quinzaine d'années.
+
+Ses limites sont aujourd'hui documentées : concentration des gains sur les régions déjà favorisées et les exploitations les plus grandes, épuisement des nappes phréatiques du Pendjab, salinisation, dépendance aux intrants et endettement paysan.
+
+L'Inde possède l'arme nucléaire depuis 1974, essai qu'elle avait présenté comme une « explosion nucléaire pacifique ». Le Pakistan la teste en 1998, quelques jours après une série d'essais indiens. Deux voisins en conflit territorial ouvert disposent donc de l'arme, situation unique et durablement inquiétante.
+
+Le Cachemire est ce conflit territorial : revendiqué par les deux pays depuis 1947, divisé par une ligne de cessez-le-feu, il a provoqué plusieurs guerres et d'innombrables incidents. L'Inde y a supprimé en 2019 le statut d'autonomie constitutionnelle de la région.`],
+    ["Une démocratie sous tension", `L'Inde est la plus grande démocratie du monde par le nombre d'électeurs, avec des scrutins d'une ampleur logistique inégalée — plusieurs centaines de millions de votants, sur plusieurs semaines.
+
+Elle a connu une interruption : l'état d'urgence décrété par Indira Gandhi de 1975 à 1977, avec suspension des libertés, emprisonnement des opposants et campagne de stérilisations forcées. Elle perd les élections suivantes, ce qui atteste la solidité du système.
+
+Indira Gandhi est assassinée en 1984 par ses gardes du corps sikhs, en représailles à l'assaut donné au Temple d'Or ; son assassinat déclenche des pogroms antisikhs faisant des milliers de morts.
+
+Le système des castes, discrimination fondée sur la naissance, est interdit par la Constitution depuis 1950, qui prévoit en outre des quotas dans l'administration et l'université pour les castes défavorisées. Il persiste néanmoins dans les pratiques sociales, matrimoniales et professionnelles, avec des violences régulières contre les dalits.
+
+L'essor des services informatiques depuis les années 1990 a fait de l'Inde un acteur mondial du logiciel et de l'externalisation, à partir d'un vivier d'ingénieurs anglophones formés dans des instituts d'excellence. Cette réussite spectaculaire concerne toutefois une fraction réduite de la population, et le développement industriel et agricole reste très en deçà.`],
+  ],
+
+  "hm3-afrique-independance": [
+    ["Construire des États", `L'Afrique compte aujourd'hui cinquante-quatre États membres de l'ONU, soit plus du quart des membres de l'organisation.
+
+Leur construction s'est faite dans des conditions difficiles : frontières héritées de la colonisation et sans rapport avec les réalités humaines, économies tournées vers l'exportation de matières premières, administrations embryonnaires, et élites formées en très petit nombre — certains pays comptaient moins d'une dizaine de diplômés du supérieur à l'indépendance.
+
+L'Organisation de l'unité africaine, créée en 1963, a posé un principe décisif : l'intangibilité des frontières héritées. Ce choix, contestable en théorie, a probablement évité une multiplication de guerres territoriales.
+
+L'Union africaine lui succède en 2002 avec une innovation majeure : le droit d'intervenir dans un État membre en cas de crimes de guerre, de génocide ou de crimes contre l'humanité. L'OUA s'interdisait au contraire toute ingérence, principe qui l'avait rendue impuissante face aux pires situations.
+
+La CEDEAO, créée en 1975 en Afrique de l'Ouest, combine intégration économique et, depuis les années 1990, interventions de maintien de la paix.`],
+    ["Les crises majeures", `Le génocide des Tutsi au Rwanda, en 1994, fait environ huit cent mille morts en cent jours. Il est planifié, préparé par une propagande radiophonique, et exécuté largement à l'arme blanche par une mobilisation massive de la population.
+
+La communauté internationale ne l'a pas empêché alors qu'elle disposait d'informations précises : la force de l'ONU présente sur place est réduite au lieu d'être renforcée, et le mot « génocide » est évité pendant des semaines parce que son emploi aurait créé une obligation d'agir. Le rôle de la France, alliée du régime en place, fait l'objet de travaux et d'une reconnaissance officielle de responsabilités en 2021.
+
+Les guerres du Congo, depuis 1996, prolongent en partie cette crise : arrivée de réfugiés et de génocidaires dans l'est du pays, intervention de plusieurs pays voisins, effondrement de l'État, et exploitation des minerais par des groupes armés. Le bilan cumulé se compte en millions de morts, essentiellement de faim et de maladie.
+
+L'apartheid sud-africain prend fin entre 1991 et 1994 : abrogation des lois de ségrégation, négociations, puis élections libres. Nelson Mandela, emprisonné vingt-sept ans, en devient le premier président noir.
+
+La Commission vérité et réconciliation, présidée par Desmond Tutu, recueille des milliers de témoignages sur les crimes de l'apartheid et propose l'amnistie contre l'aveu complet. Ce dispositif, préférant la vérité à la punition, a été étudié et imité dans une trentaine de pays.`],
+    ["Une jeunesse et des sauts", `L'Afrique connaît la croissance démographique la plus rapide du monde : sa population a plus que quadruplé depuis 1960 et devrait doubler encore d'ici 2050, pour atteindre un quart de l'humanité.
+
+Cette dynamique est le fait le plus déterminant pour l'avenir du continent et du monde. Elle peut constituer un dividende démographique — une population active nombreuse soutenant la croissance — à condition que la création d'emplois et la scolarisation suivent ; elle constitue sinon une pression insoutenable sur les services et les ressources.
+
+Le saut technologique désigne le passage direct au téléphone mobile sans être passé par le réseau filaire, que la plupart des pays n'avaient pas les moyens de déployer. Il a produit une innovation dont le continent est l'inventeur : le paiement mobile, né au Kenya en 2007, permet à des dizaines de millions de personnes sans compte bancaire de transférer de l'argent, d'épargner et d'emprunter par téléphone.
+
+D'autres sauts s'observent : électrification décentralisée par le solaire plutôt que par un réseau national, services de santé par téléphone, cartographie participative.
+
+Le continent reste marqué par de fortes inégalités entre États, par la persistance de conflits, notamment au Sahel, et par une dépendance aux matières premières que la volatilité des cours rend précaire. Il connaît aussi une urbanisation parmi les plus rapides du monde et un dynamisme culturel — musique, littérature, cinéma, mode — dont l'audience mondiale n'a jamais été aussi large.`],
+  ],
+
+  "hm3-amerique-nord-contemporaine": [
+    ["Les droits civiques", `Le mouvement des droits civiques a transformé la société américaine en une décennie, entre le milieu des années 1950 et le milieu des années 1960.
+
+Son point de départ juridique est l'arrêt *Brown contre Board of Education*, en 1954, par lequel la Cour suprême déclare inconstitutionnelle la ségrégation scolaire. Il renverse une jurisprudence de 1896 qui admettait le principe « séparés mais égaux », en jugeant que des installations séparées sont intrinsèquement inégales.
+
+Rosa Parks refuse en 1955 de céder sa place à un passager blanc dans un bus de Montgomery. Son geste n'était pas spontané : militante formée, elle avait été choisie par l'association locale pour porter l'affaire, une adolescente arrêtée quelques mois plus tôt ayant été jugée moins présentable. Le boycott des bus qui suit dure trois cent quatre-vingt-un jours et fait connaître un jeune pasteur, Martin Luther King.
+
+Celui-ci prononce en août 1963, devant le Lincoln Memorial, le discours « I have a dream » devant deux cent cinquante mille personnes. Les lois sur les droits civiques de 1964 et sur le droit de vote de 1965 suivent.
+
+Il est assassiné en 1968 à Memphis. Le mouvement s'était alors élargi à la question sociale et à l'opposition à la guerre du Vietnam, ce qui lui avait fait perdre une partie de ses soutiens.`],
+    ["Assassinats et scandales", `John Fitzgerald Kennedy est assassiné à Dallas en novembre 1963. La commission Warren conclut à l'action d'un tireur isolé ; les zones d'ombre de l'enquête ont nourri depuis soixante ans une production considérable de théories, et l'événement a durablement affecté la confiance des Américains dans leurs institutions.
+
+Son frère Robert est assassiné en 1968, deux mois après Martin Luther King. Ces trois morts en cinq ans, dans un pays traversé par les émeutes urbaines et la guerre du Vietnam, marquent la fin d'une période d'optimisme.
+
+Le scandale du Watergate éclate en 1972 : des hommes liés à la campagne de réélection de Nixon sont arrêtés dans le siège du Parti démocrate. L'enquête, portée par deux journalistes du *Washington Post* et une source interne, révèle un système d'espionnage politique et surtout une obstruction organisée depuis la Maison-Blanche.
+
+Nixon démissionne en 1974 pour éviter une destitution certaine — seul président américain à l'avoir fait. L'affaire renforce durablement le contre-pouvoir de la presse et du Congrès, et le suffixe « -gate » désigne depuis tout scandale politique.
+
+Le programme Apollo aboutit en juillet 1969 au premier alunissage, aboutissement d'un effort engagé par Kennedy en 1961 dans le contexte de la compétition avec l'URSS.`],
+    ["Un continent intégré, un monde changé", `L'ALENA, entré en vigueur en 1994 et devenu ACEUM en 2020, est un accord de libre-échange entre États-Unis, Canada et Mexique. Il a intensifié l'intégration productive du continent, avec des chaînes de valeur transfrontalières, et il a nourri un débat politique durable sur les délocalisations industrielles.
+
+Les attentats du 11 septembre 2001 transforment la politique américaine : création d'un vaste dispositif de sécurité intérieure, extension des pouvoirs de surveillance par le Patriot Act, guerres en Afghanistan puis en Irak, et prison de Guantánamo dont le statut juridique est resté contesté.
+
+L'élection présidentielle américaine présente une particularité institutionnelle : c'est un scrutin indirect par grands électeurs attribués État par État, presque partout selon la règle du gagnant qui rafle tout.
+
+Il en résulte deux conséquences. La campagne se concentre sur une poignée d'États indécis, les autres étant acquis d'avance. Et un candidat peut être élu en ayant obtenu moins de voix que son adversaire à l'échelle nationale — cas qui s'est produit cinq fois, dont deux depuis 2000.
+
+Ce système, conçu en 1787 comme un compromis entre grands et petits États et comme un filtre entre le peuple et le pouvoir, est régulièrement contesté et pratiquement impossible à modifier, sa réforme exigeant l'accord de trois quarts des États dont beaucoup y trouvent leur avantage.`],
+  ],
+
+  "hm3-japon-asie-est": [
+    ["De la ruine au deuxième rang", `Le Japon est passé de la ruine totale au deuxième rang économique mondial en vingt-cinq ans. En 1945, ses villes sont détruites, son industrie anéantie, son empire perdu ; en 1968, il dépasse la RFA et devient la deuxième économie du monde derrière les États-Unis.
+
+Ce miracle économique repose sur plusieurs facteurs : une main-d'œuvre qualifiée et disciplinée, un taux d'épargne très élevé, des dépenses militaires quasi nulles du fait de la Constitution, un État planificateur orientant le crédit vers les secteurs jugés stratégiques, et un accès facilité au marché américain dans le contexte de la guerre froide.
+
+La guerre de Corée, à partir de 1950, y contribue directement : les commandes américaines relancent l'industrie japonaise.
+
+Le keiretsu est le groupe d'entreprises lié par des participations croisées, une banque commune et des relations de long terme entre donneurs d'ordres et sous-traitants. Cette structure permet des stratégies à long terme et rend les prises de contrôle étrangères pratiquement impossibles — elle a été admirée puis critiquée pour son opacité.
+
+La bulle des années 1980 met fin à cette trajectoire : envolée spéculative de l'immobilier et de la Bourse — les terrains du palais impérial valaient alors, disait-on, autant que toute la Californie — suivie d'un krach en 1990 et de trois décennies de croissance atone, de déflation et de vieillissement démographique.`],
+    ["La Corée divisée", `La guerre de Corée, de 1950 à 1953, divise durablement la péninsule. Occupée par les Soviétiques au nord et les Américains au sud après 1945, elle avait été partagée provisoirement au 38e parallèle ; l'invasion du Sud par le Nord déclenche une guerre internationale sous mandat de l'ONU.
+
+Le conflit fait plusieurs millions de morts, ravage la péninsule, et s'achève par un armistice — non par un traité de paix. Techniquement, les deux Corées sont toujours en guerre.
+
+La Corée du Nord présente depuis 1948 une singularité : un régime communiste devenu dynastique, transmis sur trois générations, doté d'une idéologie propre — le Juche, ou autosuffisance — et d'un isolement quasi total. Elle s'est dotée de l'arme nucléaire, ce qui rend toute pression extérieure très délicate.
+
+La Corée du Sud, dictature militaire pendant trois décennies, devient une démocratie à la fin des années 1980, sous la pression de mobilisations étudiantes et populaires et à la faveur des Jeux olympiques de Séoul en 1988.
+
+Son essor économique est spectaculaire : partie d'un niveau de vie inférieur à celui de nombreux pays africains en 1960, elle figure aujourd'hui parmi les économies les plus avancées, avec une spécialisation dans l'électronique, l'automobile et la construction navale.`],
+    ["Dragons et bascule régionale", `Les quatre dragons asiatiques — Corée du Sud, Taïwan, Hong Kong et Singapour — connaissent à partir des années 1960 une industrialisation rapide fondée sur l'exportation, l'éducation et un État interventionniste. Leur trajectoire a alimenté un débat économique durable sur le rôle de l'État dans le développement.
+
+La vague culturelle sud-coréenne — la hallyu — désigne la diffusion mondiale de la musique, des séries et du cinéma coréens depuis les années 2000. Elle est le produit d'une politique publique délibérée, l'État ayant identifié la culture comme secteur d'exportation après la crise asiatique de 1997, et elle constitue un cas rare de puissance douce construite méthodiquement.
+
+Le Cambodge connaît dans les années 1970 l'un des régimes les plus meurtriers du siècle : les Khmers rouges vident les villes, abolissent la monnaie, l'école et la propriété, et font périr environ un quart de la population en moins de quatre ans, par exécution, famine et travail forcé.
+
+L'ASEAN, association des nations d'Asie du Sud-Est fondée en 1967, réunit dix pays aux régimes politiques très différents. Son principe de non-ingérence et de décision par consensus la rend prudente et durable — elle a contribué à stabiliser une région qui sortait de guerres, ce qui n'était pas acquis.
+
+L'ensemble régional s'est déplacé depuis vers la Chine, devenue la deuxième économie mondiale et le partenaire commercial principal de tous ses voisins, y compris de ceux avec lesquels elle a des différends territoriaux.`],
+  ],
+
+  "hm3-decolonisation-conflits": [
+    ["Sortir de l'empire par les armes", `Toutes les décolonisations n'ont pas été négociées. Là où la puissance coloniale refusait de partir, ou lorsqu'une population de colons était installée, la sortie s'est faite par la guerre.
+
+Ces guerres ont souvent été aussi des guerres civiles. Elles opposaient rarement un bloc colonial à un bloc colonisé : elles divisaient les sociétés colonisées entre mouvements rivaux, entre partisans de l'indépendance et auxiliaires de la puissance coloniale, et elles divisaient également les métropoles.
+
+L'Indochine ouvre la série. Le Viêt-minh, qui avait proclamé l'indépendance dès 1945, affronte le corps expéditionnaire français pendant huit ans. La bataille de Diên Biên Phu, en 1954, met fin à la présence française : un camp retranché installé dans une cuvette, sur l'hypothèse erronée que l'adversaire ne pourrait y acheminer d'artillerie, est écrasé après cinquante-sept jours de siège.
+
+Les accords de Genève de 1954 décident la division provisoire du Vietnam au dix-septième parallèle, avec des élections prévues deux ans plus tard. Elles n'auront jamais lieu, et cette division provisoire ouvrira la guerre du Vietnam.`],
+    ["L'Algérie", `La guerre d'Algérie débute le 1er novembre 1954 par une série d'attentats coordonnés du Front de libération nationale.
+
+Sa spécificité tient au statut du territoire : l'Algérie n'est pas une colonie mais trois départements français, peuplés d'un million d'Européens installés depuis plusieurs générations. Aucun gouvernement ne pouvait envisager de s'en séparer, et le conflit a été qualifié d'« opérations de maintien de l'ordre » — la France ne l'a officiellement nommé guerre qu'en 1999.
+
+La bataille d'Alger, en 1957, est une opération de police et de contre-terrorisme urbain menée par l'armée avec des pouvoirs de police complets. Elle démantèle le réseau FLN de la ville par un usage systématique de la torture, dont la révélation divise profondément l'opinion métropolitaine et pose la question, toujours discutée, de l'efficacité obtenue et de son prix moral et politique.
+
+L'OAS est une organisation clandestine formée en 1961 par des partisans de l'Algérie française, y compris des militaires, qui mène attentats et assassinats contre les partisans de l'indépendance, en Algérie et en métropole.
+
+Les accords d'Évian, en mars 1962, mettent fin à la guerre. Ils sont suivis du départ de près d'un million de rapatriés en quelques mois.
+
+Les harkis — Algériens engagés comme supplétifs de l'armée française — sont pour beaucoup abandonnés sur place malgré les engagements pris, et massacrés par milliers ; ceux qui parviennent en France sont longtemps parqués dans des camps. La France a reconnu sa responsabilité en 2021.`],
+    ["Les autres théâtres", `Les colonies portugaises accèdent tardivement à l'indépendance, en 1975. Le Portugal, sous la dictature de Salazar puis de Caetano, refusait toute décolonisation et considérait l'Angola et le Mozambique comme des provinces d'outre-mer.
+
+Il mène simultanément trois guerres coloniales pendant treize ans, mobilisant une part considérable de sa population et de son budget. Ce sont ces guerres qui provoquent la chute du régime : la révolution des Œillets, en avril 1974, est menée par des officiers lassés d'un conflit sans issue. Les indépendances suivent en quelques mois — et l'Angola comme le Mozambique entrent aussitôt dans des guerres civiles alimentées par la guerre froide.
+
+Au Cameroun, la France a mené avant et après l'indépendance une guerre contre l'Union des populations du Cameroun, mouvement indépendantiste interdit en 1955. Ce conflit, qui a fait des dizaines de milliers de morts, a été longtemps occulté des deux côtés, et sa reconnaissance historique est très récente.
+
+L'héritage de ces guerres est fait de mémoires conflictuelles et de reconnaissances tardives. Les archives s'ouvrent lentement, les qualifications juridiques restent disputées, et les commémorations diffèrent selon les pays et les groupes concernés. Chaque avancée mémorielle — reconnaissance des disparitions forcées, accès aux archives, restitution d'objets ou de restes humains — intervient des décennies après les faits, et souvent après le décès des principaux témoins.`],
+  ],
 };
