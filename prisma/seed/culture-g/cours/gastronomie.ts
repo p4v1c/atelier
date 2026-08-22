@@ -585,4 +585,126 @@ En cuisine thaïe, la salade de papaye verte se règle ainsi au moment du servic
 
 Cette logique se retrouve dans la disposition des condiments sur la table, où chacun rectifie son bol. Elle contraste avec la tradition française, où l'assaisonnement est arrêté en cuisine et où corriger dans l'assiette est presque une critique du cuisinier. Deux conceptions du plat achevé, l'une close, l'autre ouverte.`],
   ],
+
+  "ga3-cuisines-moyen-orient": [
+    ["Le repas qui se partage", `Le partage des mezzés structure le repas dans une grande partie du Levant : une succession de petits plats disposés ensemble sur la table, dont chacun se sert au fil de la conversation. Il n'y a pas d'entrée ni de plat principal au sens français, mais un ensemble qui s'étale dans le temps.
+
+Le houmous en est le pilier : une purée de pois chiches au tahini — pâte de sésame —, relevée de citron et d'ail, servie avec un filet d'huile d'olive et du pain. Sa paternité fait l'objet d'une rivalité régionale sérieuse entre Liban, Israël, Syrie et Palestine, qui a donné lieu à des records du monde du plus grand plat et à des demandes de protection commerciale.
+
+Le taboulé libanais est une salade dominée par le persil finement ciselé, avec très peu de boulgour, de la tomate, de la menthe, du citron et de l'huile d'olive. La version française, où la semoule domine et le persil se réduit à quelques brins, en est une transformation complète — utile à connaître pour éviter un malentendu à table.`],
+    ["Les épices du Levant", `Le za'atar désigne à la fois une plante — une origanée sauvage — et un mélange d'herbes séchées, de sumac et de sésame grillé, parfois additionné de sel. Il se consomme mêlé à l'huile d'olive sur du pain, au petit-déjeuner. Sa cueillette sauvage est réglementée dans plusieurs pays en raison de la surexploitation.
+
+Le sumac est une épice acidulée obtenue en broyant les baies séchées d'un arbuste. Il apporte une acidité fruitée sans liquide, ce qui le rend précieux là où le citron détremperait — sur une salade, une viande grillée, un houmous. Il tenait, avant l'arrivée du citron, le rôle acidifiant principal de la cuisine du Levant.
+
+Ces mélanges appartiennent à une famille plus vaste, où chaque région a le sien : baharat, dukkah, ras el-hanout au Maghreb — mélange dont le nom signifie « le meilleur de la boutique » et dont la composition varie selon le marchand, de quelques épices à plus de vingt.`],
+    ["Le Maghreb", `Le couscous est une semoule de blé dur roulée à la main, cuite à la vapeur au-dessus du bouillon dans un couscoussier. La cuisson à la vapeur en plusieurs passages, avec un égrenage entre chacun, est ce qui donne des grains séparés et gonflés ; la semoule instantanée réhydratée à l'eau chaude en est une simplification qui ne donne ni la texture ni le goût. Ses savoir-faire ont été inscrits au patrimoine culturel immatériel de l'humanité en 2020, par une candidature commune de l'Algérie, du Maroc, de la Tunisie et de la Mauritanie — geste diplomatique remarquable après des années de revendications concurrentes.
+
+Le tajine désigne à la fois un plat mijoté et le récipient conique en terre qui lui donne son nom. La forme du couvercle n'est pas décorative : elle condense la vapeur, qui retombe sur les aliments, permettant une cuisson longue avec très peu de liquide — technique adaptée à un pays sec et à un combustible rare.
+
+La harissa est une pâte de piment tunisienne, relevée d'ail, de carvi et de coriandre. Le citron confit au sel, laissé plusieurs semaines jusqu'à ce que l'écorce s'attendrisse, apporte aux tajines une amertume parfumée que le citron frais ne donne pas.`],
+    ["La pâtisserie", `La pâtisserie orientale au miel rassemble un ensemble de préparations construites sur trois éléments : une pâte très fine — feuilles de brick, pâte filo, ou pâte travaillée à la main —, des fruits secs pilés — amandes, pistaches, noix — et un sirop de sucre ou de miel dont on imbibe la pièce après cuisson.
+
+Baklava, cornes de gazelle, makrout, ktaïef relèvent de cette famille, avec des frontières régionales qui suivent moins les États actuels que l'ancienne aire ottomane. La finesse de la pâte est le critère de maîtrise : une pâte filo étirée à la main jusqu'à la transparence sur une table entière est un geste d'artisan, et son remplacement par des feuilles industrielles a uniformisé le résultat.
+
+Ces pâtisseries sont associées aux fêtes et à l'hospitalité, et se servent avec un café ou un thé dont l'amertume compense la puissance du sirop. Leur logique gustative n'est pas celle du dessert français, où le sucre est modéré au profit du fondant : elle assume une intensité franche, et se consomme en très petites quantités.`],
+  ],
+
+  "ga3-cuisines-ameriques": [
+    ["Le maïs et sa chimie", `La cuisine mexicaine traditionnelle est inscrite au patrimoine culturel immatériel de l'humanité — la première cuisine à l'avoir été, en 2010 —, et ce qui a été reconnu est un système complet, du champ à la table, autour du maïs, du haricot et du piment.
+
+La nixtamalisation est le traitement du maïs à l'eau alcaline, additionnée de chaux ou de cendres, avant mouture. Le procédé, mis au point en Mésoamérique il y a plus de trois mille ans, ramollit l'enveloppe des grains, permet de faire une pâte qui se travaille, et surtout libère la niacine — vitamine B3 — que le maïs contient sous une forme non assimilable.
+
+Sa portée est considérable et son ignorance a coûté cher : le maïs a été diffusé en Europe et en Amérique du Nord sans le procédé qui l'accompagnait, provoquant des épidémies de pellagre, maladie de carence en niacine, chez les populations qui en dépendaient. Un aliment transféré sans sa technique de préparation cesse d'être le même aliment.`],
+    ["Mexique et Pérou", `Le mole est une sauce mexicaine complexe mêlant piments, épices, fruits secs, graines et parfois chocolat, mijotée longuement. Le mole poblano peut compter plus de vingt ingrédients, et le chocolat n'y apporte ni sucre ni goût de dessert mais de l'amertume et du liant. Le chipotle, autre pilier de cette cuisine, est un jalapeño mûri puis fumé, ce qui lui donne une saveur profonde absente du piment frais.
+
+Le ceviche péruvien est du poisson cru mariné dans du jus d'agrume — traditionnellement du citron vert —, avec oignon rouge, piment et coriandre. La marinade y est brève, quelques minutes, à la différence des versions prolongées qui rendent la chair cotonneuse.
+
+Le Pérou cultive plusieurs milliers de variétés de pommes de terre, patrimoine génétique sans équivalent conservé par les communautés andines et par un centre international dédié. Cette diversité est une assurance contre les maladies et le climat — exactement ce qui manquait à l'Irlande de 1845. Le pisco, eau-de-vie de raisin, fait par ailleurs l'objet d'un litige d'appellation ancien entre le Pérou et le Chili, qui le revendiquent tous deux.`],
+    ["Brésil et États-Unis", `La feijoada brésilienne est un ragoût de haricots noirs et de morceaux de porc, mijoté longuement et servi avec riz, farine de manioc, chou et orange. Le récit qui en fait un plat inventé par les esclaves à partir des bas morceaux dédaignés par les maîtres est largement une reconstruction du XXe siècle : le plat descend plutôt des ragoûts de légumineuses portugais, et son statut de plat national a été construit à l'époque où le Brésil cherchait à célébrer son métissage.
+
+Le barbecue du sud des États-Unis est une cuisson lente à basse température et à la fumée, pendant de nombreuses heures. Il n'a rien à voir avec la grillade rapide que le mot désigne en français : le principe est exactement celui appliqué aux morceaux fermes — transformer le collagène en gélatine par une cuisson longue et douce. Chaque État en revendique une variante, différant par la viande, le bois et la sauce.
+
+Le Coca-Cola, inventé à Atlanta en 1886 par un pharmacien qui cherchait un tonique, est devenu le produit alimentaire le plus distribué de la planète et l'un des symboles les plus contestés de la mondialisation alimentaire.`],
+    ["Ce que les Amériques ont donné", `L'apport des Amériques à la cuisine mondiale est probablement le plus important de toute l'histoire alimentaire : tomate, pomme de terre, maïs, cacao, piment, vanille, haricot, courge, avocat, arachide, ananas, dinde.
+
+Il suffit d'imaginer les conséquences de leur absence pour en mesurer la portée. Pas de sauce tomate en Italie, pas de paprika en Hongrie, pas de piment en Inde ni en Thaïlande, pas de frites en Belgique, pas de chocolat en Suisse. Les cuisines qui nous paraissent les plus enracinées reposent sur des plantes arrivées il y a moins de cinq siècles.
+
+L'échange fut réciproque et non moins lourd de conséquences : blé, riz, canne à sucre, café, bovins, porcs et chevaux traversèrent en sens inverse, transformant les paysages et les sociétés américaines — et l'introduction de maladies européennes y provoqua l'effondrement démographique le plus massif de l'histoire connue. L'échange colombien a redistribué les plantes du monde entier, et cette redistribution est la base de presque toutes les cuisines nationales actuelles.`],
+  ],
+
+  "ga3-cuisine-afrique": [
+    ["Les bases céréalières", `Le mil, le sorgho et l'igname sont des bases alimentaires anciennes en Afrique subsaharienne, domestiquées sur le continent bien avant l'arrivée des cultures importées. Le mil et le sorgho supportent la sécheresse et des sols pauvres là où le maïs et le riz échouent, ce qui leur donne un rôle stratégique dans les régions sahéliennes.
+
+Le teff, céréale à très petits grains cultivée sur les hauts plateaux éthiopiens, en est un autre exemple : ses grains, à peine plus gros qu'une tête d'épingle, se moulent entiers, ce qui en fait une farine complète riche en fer et sans gluten.
+
+L'injera éthiopienne en est faite : une galette spongieuse obtenue par fermentation de la pâte de teff pendant plusieurs jours, cuite sur une plaque. Sa surface criblée d'alvéoles retient les sauces, et elle sert à la fois d'assiette, de pain et de couvert — on déchire un morceau pour saisir la nourriture disposée dessus. Un repas éthiopien se partage à plusieurs autour d'une même injera, ce qui en fait un objet social autant qu'alimentaire.`],
+    ["Manioc et tubercules", `Le fufu, en Afrique de l'Ouest et centrale, est une pâte obtenue en pilant longuement des tubercules cuits — igname, manioc, plantain — jusqu'à obtenir une masse lisse et élastique. Il se consomme en prélevant une boulette entre les doigts, qu'on creuse et qu'on trempe dans la sauce, sans mâcher.
+
+L'attiéké ivoirien est une semoule de manioc fermenté : le tuber est râpé, ensemencé, fermenté, pressé, granulé puis cuit à la vapeur. Cette fermentation n'est pas seulement gustative — elle réduit la teneur en composés cyanogènes naturellement présents dans le manioc amer, qui sont toxiques. Toutes les préparations traditionnelles du manioc comportent une étape de détoxification, par trempage, fermentation ou cuisson prolongée, et son introduction sans ces techniques a provoqué des intoxications collectives.
+
+C'est le même enseignement que la nixtamalisation du maïs, dans une autre partie du monde : une plante et sa technique de préparation forment un ensemble indissociable, patiemment mis au point, et l'une ne voyage pas sans l'autre.`],
+    ["Les sauces", `La cuisine ouest-africaine s'organise très largement autour du couple féculent-sauce, la sauce concentrant le goût et le féculent apportant les calories.
+
+Le maafe est un ragoût à la pâte d'arachide, épais et onctueux, préparé avec viande ou poisson et des légumes. L'arachide, arrivée d'Amérique du Sud, est devenue en Afrique de l'Ouest une culture alimentaire et d'exportation majeure — au point d'avoir structuré des économies coloniales entières, le « bassin arachidier » sénégalais en gardant l'empreinte.
+
+La sauce gombo est liée par la texture mucilagineuse du gombo, légume dont les mucilages s'échappent à la cuisson et donnent une consistance filante caractéristique, recherchée ici et déconcertante ailleurs. C'est un bon exemple de propriété texturale valorisée dans une culture et rejetée dans une autre — comme le natto japonais ou certains fromages coulants.`],
+    ["Les plats emblèmes", `Le thiéboudienne sénégalais est un plat de riz cuit dans un bouillon de poisson et de légumes, souvent considéré comme le plat national du pays. Son nom signifie littéralement « riz au poisson » en wolof. La cuisson du riz dans le bouillon, après retrait du poisson et des légumes, lui donne sa couleur et sa profondeur. Ses savoir-faire sont inscrits au patrimoine culturel immatériel de l'humanité.
+
+Le jollof rice est un riz cuit dans une base tomatée épicée, populaire dans toute l'Afrique de l'Ouest anglophone et au-delà. Il fait l'objet d'une rivalité amicale et durable entre le Nigeria, le Ghana et le Sénégal, chacun revendiquant la meilleure version — la « jollof war » est devenue un phénomène culturel en ligne, avec ses concours et ses provocations.
+
+Ces rivalités culinaires méritent d'être notées : elles signalent que la cuisine sert partout de marqueur identitaire, et que la question de l'origine d'un plat est rarement une question historique innocente.`],
+  ],
+
+  "ga3-vins-monde": [
+    ["Qui produit quoi", `L'Italie, la France et l'Espagne restent les trois premiers producteurs mondiaux de vin, le classement des deux premiers changeant d'une année à l'autre selon les millésimes et les aléas climatiques. L'Espagne domine en surface plantée, avec des rendements plus faibles.
+
+Le nouveau monde viticole — Amériques, Océanie, Afrique du Sud — a bouleversé le marché à partir des années 1980, en imposant une logique différente : des vins identifiés par leur cépage plutôt que par leur origine géographique. Un consommateur qui sait ce qu'est un cabernet-sauvignon n'a pas besoin d'apprendre la hiérarchie des appellations bordelaises.
+
+Cette lisibilité a longtemps désarçonné la France, dont le système repose sur l'idée inverse : c'est le lieu qui fait le vin, et le cépage n'en est qu'un des facteurs, aux côtés du sol, du climat et des usages. Les deux approches ont depuis convergé, les étiquettes françaises mentionnant plus volontiers les cépages et le nouveau monde revendiquant ses terroirs.`],
+    ["Les cépages emblèmes", `Chaque pays s'est identifié à un cépage. Le malbec a fait la réputation de l'Argentine, dont les vignobles d'altitude de Mendoza lui donnent une concentration que sa région d'origine, Cahors, produit différemment.
+
+Le carménère, cépage bordelais disparu d'Europe après le phylloxéra, a été redécouvert au Chili en 1994 : on y cultivait sous le nom de merlot des vignes qui n'en étaient pas, l'erreur ayant duré plus d'un siècle. C'est l'une des plus belles résurrections de l'histoire de la vigne, permise par l'ampélographie puis confirmée par la génétique.
+
+Le sauvignon blanc néo-zélandais, en particulier celui de Marlborough, a créé en une génération un style reconnaissable entre tous — intensément aromatique, sur le fruit exotique et le buis. Le pinotage sud-africain est un croisement créé en 1925 entre pinot noir et cinsault, cas rare de cépage inventé de toutes pièces devenu emblème national.
+
+La Chine est aujourd'hui le premier producteur de vin d'Asie et figure parmi les tout premiers vignobles mondiaux en surface, réalité encore peu perçue en Europe.`],
+    ["Le jugement de Paris", `En 1976, un marchand de vin britannique installé à Paris organise une dégustation à l'aveugle opposant des vins californiens à des grands crus français, devant un jury exclusivement français composé de sommeliers et de critiques réputés.
+
+Les vins californiens l'emportent dans les deux catégories, rouge et blanc. Le résultat, rapporté par un unique journaliste présent, fait scandale et met plusieurs années à être admis. Il ne prouvait pas que la Californie faisait de meilleurs vins que la France ; il prouvait qu'à l'aveugle, des experts français plaçaient en tête des vins qu'ils n'auraient pas défendus en connaissance de cause.
+
+Sa portée est double. Commercialement, il a ouvert le marché mondial aux vins du nouveau monde et brisé un présupposé de supériorité. Méthodologiquement, il a fait entrer la dégustation à l'aveugle dans les habitudes, et ouvert une réflexion durable sur les biais du jugement gustatif — la connaissance de l'étiquette modifiant démontrablement la perception.
+
+Un vin de garage désigne, dans un tout autre registre, un vin produit en très petite quantité, souvent à Bordeaux, avec des méthodes très interventionnistes et vendu à prix élevé. Le phénomène des années 1990 a suscité un débat sur le rôle de la rareté et de la note des critiques dans la formation des prix.`,
+      { image: "gas-vignoble-bourgogne", legende: "Le vignoble bourguignon : un système fondé sur le lieu, quand le nouveau monde a construit le sien sur le cépage.", alt: "Rangs de vigne en Bourgogne" }],
+    ["Une viticulture qui se déplace", `Le réchauffement climatique modifie la viticulture plus vite que presque toute autre production agricole, parce que la vigne est extrêmement sensible aux températures et que les appellations figent des pratiques et des lieux.
+
+Ses effets sont déjà mesurés : les vendanges ont avancé de deux à trois semaines en un demi-siècle dans la plupart des vignobles français ; les degrés d'alcool ont augmenté, le raisin accumulant plus de sucre ; l'acidité baisse, ce qui modifie l'équilibre et la capacité de garde ; et les gelées tardives font davantage de dégâts, le débourrement précoce exposant les bourgeons.
+
+Les zones favorables se déplacent vers le nord et vers l'altitude : l'Angleterre produit désormais des vins effervescents de qualité sur les mêmes sols crayeux que la Champagne, et des plantations apparaissent en Belgique et en Scandinavie méridionale.
+
+Les réponses de la filière sont de trois ordres : agronomiques — hauteur de taille, ombrage, gestion de l'eau —, variétales, avec l'autorisation de cépages plus tardifs ou plus résistants dans certaines appellations, et géographiques, avec le déplacement progressif des parcelles. La difficulté est qu'une appellation est un cadre juridique fondé sur la stabilité, confronté à un climat qui ne l'est plus.`],
+  ],
+
+  "ga3-bieres-monde": [
+    ["La boisson la plus bue", `La bière est la boisson alcoolisée la plus consommée au monde, loin devant le vin et les spiritueux. Elle est aussi l'une des plus anciennes : des traces de brassage remontent à plusieurs millénaires en Mésopotamie et en Égypte, où elle était à la fois aliment, salaire et offrande.
+
+La République tchèque détient le record de consommation par habitant, position qu'elle occupe sans interruption depuis des décennies. Ce n'est pas un hasard géographique : c'est à Plzeň qu'est née en 1842 la pilsner, bière blonde de fermentation basse dont la limpidité dorée a supplanté en quelques décennies les bières troubles et sombres qui dominaient jusque-là.
+
+Cette révolution doit autant à la technique qu'au goût : elle a supposé la maîtrise du froid, la sélection de levures adaptées, et la généralisation du verre transparent, qui a rendu l'apparence du breuvage soudain visible et donc importante.`],
+    ["Trois façons de fermenter", `La fermentation basse se conduit à basse température, autour de dix degrés, avec des levures qui sédimentent au fond. Elle donne des bières nettes, sobres en arômes de fermentation, dont la pilsner et l'ensemble des lagers — c'est-à-dire l'écrasante majorité de la production mondiale.
+
+La fermentation haute se conduit à température plus élevée, autour de vingt degrés, avec des levures qui remontent en surface. Elle produit des esters et des phénols qui donnent des bières plus aromatiques, sur le fruit, l'épice ou la banane selon les souches : ales britanniques, bières d'abbaye, blanches allemandes.
+
+La fermentation spontanée renonce à ensemencer : le moût est laissé à l'air libre dans un bac peu profond, et fermente grâce aux levures et bactéries présentes dans l'air et dans les poutres de la brasserie. C'est le lambic belge, produit dans une aire géographique restreinte autour de Bruxelles, dont le microbiote local fait toute la spécificité. La gueuze est un assemblage de lambics d'âges différents, refermenté en bouteille : le jeune apporte les sucres et le gaz, le vieux la complexité.`],
+    ["Ingrédients et règles", `Le houblon joue trois rôles dans la bière : il apporte l'amertume qui équilibre le sucre du malt, des arômes très variés selon les variétés, et une action antiseptique qui améliore la conservation. Ce dernier point explique son adoption historique — il a supplanté les mélanges d'herbes antérieurs parce qu'il faisait tenir la bière plus longtemps.
+
+La loi de pureté allemande de 1516 limitait les ingrédients de la bière à l'eau, l'orge et le houblon — la levure n'y figure pas, son existence étant alors inconnue. Souvent présentée comme une exigence de qualité, elle avait aussi des motifs économiques et sanitaires : réserver le blé et le seigle à la boulangerie, et interdire des additifs douteux voire toxiques employés par certains brasseurs. Elle a durablement façonné le paysage brassicole allemand, en interdisant des styles pratiqués ailleurs.
+
+Une bière trappiste est brassée dans un monastère trappiste, sous le contrôle des moines et au bénéfice de la communauté et d'œuvres caritatives. L'appellation est protégée et ne concerne qu'une poignée d'abbayes dans le monde ; elle ne désigne pas un style mais une origine et un mode de production.`],
+    ["La vague artisanale", `Une IPA — India Pale Ale — est une bière fortement houblonnée d'origine britannique. Le récit selon lequel le houblon aurait été augmenté pour conserver la bière pendant le voyage vers l'Inde est une simplification : des bières houblonnées existaient déjà, et d'autres styles voyageaient aussi bien. Le style a en tout cas été réinventé aux États-Unis à la fin du XXe siècle, avec des houblons aromatiques américains aux notes d'agrumes et de résine, très éloignés des originaux.
+
+La bière artisanale désigne une production indépendante, en petite quantité, aux styles variés. Son essor depuis les années 2000 a transformé le paysage : la France est passée de quelques dizaines de brasseries dans les années 1980 à plusieurs milliers aujourd'hui, ce qui en fait le pays européen comptant le plus de brasseries.
+
+Ce mouvement a rouvert des styles oubliés, réintroduit des ingrédients locaux, et remis en cause l'uniformisation produite par un siècle de concentration industrielle. Il rencontre aujourd'hui ses limites économiques — saturation du marché, coûts des matières, concurrence des grands groupes rachetant des marques artisanales tout en conservant leur image d'indépendance.`],
+  ],
 };
