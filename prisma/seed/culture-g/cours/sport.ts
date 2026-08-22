@@ -360,4 +360,78 @@ L'entraînement en altitude vise à stimuler la production de globules rouges pa
 
 Le steeple, course de trois mille mètres avec barrières fixes et rivière, complète le tableau des épreuves de fond sur piste. Le débat le plus vif du moment porte sur les chaussures à plaque de carbone, dont le gain de performance mesuré — plusieurs pour cent d'économie d'énergie — a conduit la fédération internationale à réglementer l'épaisseur des semelles, sans clore la discussion sur l'équité.`],
   ],
+
+  "sp3-natation": [
+    ["Quatre nages, un ordre", `La natation olympique comprend quatre nages et de nombreuses distances, du cinquante mètres au mille cinq cents. La nage libre autorise toute technique, mais tous les nageurs y choisissent le crawl, le plus rapide ; s'y ajoutent le dos, la brasse et le papillon.
+
+En quatre nages individuel, l'ordre est imposé : papillon, dos, brasse, nage libre. Il diffère de celui du relais quatre nages, qui commence par le dos — parce que le départ du dos se fait dans l'eau, ce qui interdit de le placer après un relais. Un bassin olympique mesure cinquante mètres ; les performances en petit bassin de vingt-cinq mètres font l'objet de records distincts, les virages y étant deux fois plus nombreux.`],
+    ["Les grandes carrières", `Michael Phelps détient le record de médailles olympiques toutes disciplines confondues : vingt-huit, dont vingt-trois en or, sur quatre olympiades. Son total dépasse celui de la plupart des pays participants.
+
+Il a battu à Pékin en 2008 le record de Mark Spitz, qui avait remporté sept titres en une seule édition à Munich en 1972 — performance restée insurpassée pendant trente-six ans. Côté français, Laure Manaudou devient championne olympique du quatre cents mètres nage libre à Athènes en 2004, et Camille Muffat remporte cette même épreuve à Londres en 2012, avant sa disparition accidentelle en 2015.`],
+    ["Quand le matériel décide", `En 2008 et 2009, les combinaisons en polyuréthane provoquent une avalanche de records : quarante-trois lors des seuls championnats du monde de Rome. Elles apportaient une flottabilité et une réduction de traînée jugées déloyales, transformant la performance en question d'équipement.
+
+La fédération internationale les a interdites à partir de 2010, en imposant des matériaux textiles et en limitant la surface couverte. Une partie des records établis avec ces combinaisons tient encore aujourd'hui, ce qui fausse durablement la comparaison entre générations — c'est le principal argument de ceux qui réclamaient leur annulation.`],
+    ["Au-delà du bassin", `La nage artistique — appelée natation synchronisée jusqu'en 2017 — combine natation, chorégraphie et musique, en solo, duo ou équipe. Sa difficulté principale est invisible : les figures s'exécutent en apnée, tête en bas, sans appui, avec une dépense énergétique comparable à celle d'un demi-fond.
+
+La natation en eau libre est entrée au programme olympique en 2008 : une épreuve de dix kilomètres en milieu naturel, avec courants, température variable et contacts entre nageurs. Elle exige une gestion tactique — se placer dans le sillage d'un concurrent, choisir sa trajectoire aux bouées — absente des courses en bassin.`],
+  ],
+
+  "sp3-tennis-3": [
+    ["1968, l'année charnière", `L'ère open, ouverte aux professionnels, commence en 1968. Avant elle, les tournois du Grand Chelem étaient réservés aux amateurs : les joueurs qui passaient professionnels en étaient exclus et disputaient un circuit parallèle. Plusieurs des meilleurs joueurs mondiaux n'ont ainsi jamais pu jouer Wimbledon pendant leurs années de sommet.
+
+Cette césure explique la prudence avec laquelle il faut lire les palmarès : comparer des totaux de titres d'avant et d'après 1968 revient à comparer deux compétitions différentes.`],
+    ["Trois surfaces, quatre tournois", `Le Grand Chelem réunit quatre tournois sur trois surfaces. Roland-Garros est le seul disputé sur terre battue, surface lente qui ralentit la balle, élève les rebonds et favorise les échanges longs et les défenseurs. Wimbledon se joue sur gazon, surface rapide aux rebonds bas qui récompense le service et la prise d'initiative. L'Open d'Australie et l'US Open se disputent sur dur, aux caractéristiques intermédiaires.
+
+Cette diversité explique la rareté du Grand Chelem calendaire — remporter les quatre tournois la même année — réussi par très peu de joueurs. Rafael Nadal détient à Roland-Garros un record sans équivalent dans le sport avec quatorze titres, et Serena Williams détient le record de titres du Grand Chelem en simple à l'ère open avec vingt-trois.`],
+    ["Les règles du jeu", `Le tie-break, jeu décisif disputé à six jeux partout, a été introduit dans les années 1970 pour éviter les sets interminables — un match de Wimbledon s'était achevé en 2010 sur un score de soixante-dix jeux à soixante-huit dans le dernier set, après onze heures de jeu réparties sur trois jours.
+
+Le Hawk-Eye est un dispositif de traçage vidéo qui reconstitue la trajectoire de la balle à partir de plusieurs caméras et détermine son point d'impact. D'abord utilisé comme recours limité à la contestation d'un joueur, il a remplacé entièrement les juges de ligne dans plusieurs tournois majeurs — l'un des rares cas où une technologie d'arbitrage a supprimé des postes plutôt que de les assister.`],
+    ["Les compétitions par équipes et les Françaises", `La Coupe Davis oppose des sélections nationales masculines depuis 1900 ; son équivalent féminin, la Billie Jean King Cup, porte le nom de la joueuse qui a mené le combat pour l'égalité des primes. Le format de la Coupe Davis, longtemps fondé sur des rencontres à domicile et à l'extérieur réparties sur l'année, a été réformé en 2019 vers une phase finale groupée, changement très contesté par les joueurs et les fédérations.
+
+Côté français, Mary Pierce remporte Roland-Garros en 2000 : elle reste à ce jour la dernière Française titrée en simple dans son tournoi national, ce qui, un quart de siècle plus tard, en dit long sur la difficulté de la transformation d'un vivier en champions.`],
+  ],
+  "sp3-basket-3": [
+    ["Une ligue devenue mondiale", `La NBA a été fondée en 1946 sous le nom de Basketball Association of America, et prend son nom actuel en 1949 après la fusion avec une ligue concurrente. Elle est devenue la ligue de basket la plus suivie au monde, avec une audience internationale qui dépasse largement son marché national.
+
+Son palmarès est dominé par deux franchises, les Boston Celtics et les Los Angeles Lakers, au coude à coude en tête. Parmi les exploits individuels, celui de Wilt Chamberlain reste hors d'atteinte : cent points en un match, en 1962, sans qu'aucune image télévisée n'en subsiste — seul un enregistrement radio partiel témoigne de la performance.`],
+    ["Le basket olympique", `La sélection américaine de 1992, surnommée la Dream Team, fut la première à aligner des joueurs NBA aux Jeux, l'olympisme s'étant ouvert aux professionnels. L'équipe — Jordan, Magic Johnson, Bird, Barkley — a remporté ses matchs avec des écarts moyens supérieurs à quarante points, sans jamais demander de temps mort.
+
+Les États-Unis dominent le basket olympique depuis l'origine, avec pour principale interruption la finale contestée de 1972 contre l'Union soviétique, dont les trois dernières secondes furent rejouées deux fois. L'écart s'est réduit depuis, l'Espagne, la France et la Serbie ayant produit des générations capables de rivaliser.`],
+    ["L'Europe et la France", `L'EuroLeague est la compétition européenne de clubs la plus prestigieuse : elle réunit les meilleures équipes du continent selon un système de licences pluriannuelles, qui garantit la participation de grands clubs indépendamment de leurs résultats nationaux — modèle plus proche des ligues fermées américaines que du football européen.
+
+Le basket français connaît une visibilité inédite depuis que Victor Wembanyama a été choisi en première position de la draft NBA en 2023. Il n'est pas le premier Français premier choix — Joakim Noah avait été sélectionné en neuvième position en 2007 — mais l'attente créée par son profil, plus de deux mètres vingt avec des qualités de meneur, était sans précédent.`],
+    ["Les règles qui ont changé le jeu", `La ligne à trois points, adoptée en NBA en 1979, a transformé la tactique plus qu'aucune autre règle : elle a rendu le tir lointain plus rentable que le tir à mi-distance, et l'analyse statistique des années 2010 en a tiré toutes les conséquences, jusqu'à modifier la morphologie des équipes.
+
+Le pick and roll — un joueur pose un écran sur le défenseur du porteur, puis se dirige vers le panier — reste le système d'attaque le plus utilisé du basket moderne, parce qu'il crée une situation de supériorité momentanée impossible à défendre parfaitement. Le trois contre trois, disputé sur un demi-terrain avec un seul panier, est entré aux Jeux en 2021 : issu du basket de rue, il a été codifié par la FIBA et se joue en dix minutes ou vingt et un points.`],
+  ],
+
+  "sp3-rugby-3": [
+    ["Quinze, et sept", `Une équipe de rugby à quinze aligne quinze joueurs : huit avants, chargés de la conquête, et sept trois-quarts, chargés du mouvement. Le rugby à sept, ou rugby seven, en est une variante disputée sur le même terrain avec sept joueurs et deux mi-temps de sept minutes — ce qui produit un jeu d'espaces, très rapide, où la moindre erreur se paie immédiatement.
+
+Le sept est entré au programme olympique à Rio en 2016, ce qui a considérablement accéléré son développement mondial, notamment dans des pays sans tradition de rugby : les circuits mondiaux masculins et féminins ont ouvert la voie à des sélections africaines et asiatiques.`],
+    ["Les compétitions", `La première Coupe du monde de rugby n'a eu lieu qu'en 1987, organisée conjointement par la Nouvelle-Zélande et l'Australie. Ce retard s'explique par l'attachement des fédérations à l'amateurisme, qui n'a pris fin officiellement qu'en 1995. L'Afrique du Sud et la Nouvelle-Zélande dominent le palmarès à égalité de titres.
+
+Le Tournoi des Six Nations oppose chaque hiver l'Angleterre, l'Écosse, le pays de Galles, l'Irlande, la France et l'Italie. Réussir le Grand Chelem consiste à battre les cinq autres équipes la même année. Les All Blacks, eux, exécutent avant chaque match un haka, danse rituelle maorie dont le Ka Mate est la version la plus connue ; ils en ont plusieurs, et son exécution fait l'objet d'un protocole précis avec l'adversaire.`],
+    ["Les phases et les points", `Un essai vaut cinq points au rugby à quinze, la transformation qui le suit deux points supplémentaires, la pénalité et le drop trois points. Cette hiérarchie a évolué au fil du temps : l'essai valait trois points jusqu'en 1971, et sa valorisation progressive a visé à encourager le jeu d'attaque plutôt que le jeu au pied.
+
+La mêlée est une phase de reprise du jeu qui oppose les avants des deux équipes en poussée après une faute mineure. C'est la phase la plus technique et la plus surveillée du jeu : la séquence d'engagement a été modifiée plusieurs fois pour réduire les blessures cervicales, les forces en jeu dépassant plusieurs tonnes.`],
+    ["Le sujet qui domine tout", `L'évolution la plus préoccupante du rugby contemporain concerne les conséquences neurologiques des chocs à la tête. Plusieurs anciens joueurs internationaux ont développé des maladies neurodégénératives précoces, et des actions collectives ont été engagées contre les fédérations pour manquement à la protection des joueurs.
+
+Les réponses réglementaires s'accélèrent : abaissement de la hauteur de plaquage autorisée, protocole commotion imposant le retrait immédiat et un délai de retour, limitation du nombre de contacts à l'entraînement, suivi longitudinal des joueurs. Le sport professionnel modifie ses règles plus vite qu'à aucun moment de son histoire, et la question posée est de savoir si un rugby de haut niveau peut rester à la fois spectaculaire et sûr.`],
+  ],
+
+  "sp3-cyclisme-3": [
+    ["Trois semaines, trois fois par an", `Les trois grands tours sont le Tour de France, le Tour d'Italie — le Giro — et le Tour d'Espagne — la Vuelta. Chacun dure environ trois semaines et alterne étapes de plaine, de montagne et contre-la-montre. Réaliser les trois dans une même saison est théoriquement possible et pratiquement jamais tenté par les leaders, tant l'effort est destructeur.
+
+Le contre-la-montre fait partir les coureurs séparément contre le chronomètre, sans aspiration ni tactique de groupe : c'est la vérité de l'effort individuel, et souvent le terrain où se décide un classement général. Miguel Indurain, cinq fois vainqueur du Tour entre 1991 et 1995, y construisait l'essentiel de son avance avant de contrôler la montagne.`],
+    ["Les maillots et les classiques", `Le maillot à pois du Tour de France récompense le meilleur grimpeur, classé selon les points attribués au sommet des cols. Le maillot vert distingue le classement par points, souvent remporté par un sprinteur, et le maillot blanc le meilleur jeune coureur.
+
+Les classiques sont des courses d'un jour, souvent plus anciennes que les grands tours. Paris-Roubaix, surnommée l'Enfer du Nord, se dispute en partie sur une trentaine de secteurs pavés, avec un taux d'abandon et de crevaison sans équivalent. Les cinq courses les plus prestigieuses — Milan-San Remo, le Tour des Flandres, Paris-Roubaix, Liège-Bastogne-Liège et le Tour de Lombardie — sont appelées les monuments du cyclisme.`],
+    ["Les géants", `Deux Français ont remporté cinq Tours de France : Jacques Anquetil et Bernard Hinault. Le Belge Eddy Merckx, surnommé le Cannibale pour son appétit de victoires, domine toutes les statistiques du sport : cinq Tours, cinq Giros, une Vuelta, dix-neuf monuments, plus de cinq cents victoires professionnelles. Aucun coureur moderne, spécialisé sur un objectif, ne s'en approche.
+
+Cette différence d'époque n'est pas anodine : la spécialisation extrême du cyclisme contemporain, où un coureur prépare deux ou trois objectifs dans l'année, rend les palmarès incomparables entre générations.`],
+    ["Les tricheries", `Aucun sport n'a été autant marqué par le dopage. De 1998 à 2012, l'affaire Festina, puis les enquêtes sur l'EPO, puis la déchéance de Lance Armstrong de ses sept Tours de France ont installé le soupçon comme grille de lecture par défaut. Les éditions concernées n'ont pas été réattribuées, faute de vainqueur crédible dans les classements.
+
+Le dopage mécanique est une tricherie d'une autre nature : la dissimulation d'un petit moteur d'assistance dans le cadre ou dans une roue. Un premier cas a été sanctionné en cyclo-cross en 2016, et les vélos font désormais l'objet de contrôles par balayage magnétique et imagerie sur les grandes épreuves. La fréquence réelle du phénomène reste inconnue, ce qui alimente les rumeurs autant que les démentis.`],
+  ],
 };
