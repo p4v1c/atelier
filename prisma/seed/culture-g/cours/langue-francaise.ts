@@ -648,4 +648,132 @@ Les explications avancées tiennent moins au support qu'aux repères spatiaux �
 
 Ces résultats n'imposent aucune conclusion tranchée : ils invitent à choisir le support selon l'usage, et à traiter la lecture longue sur écran comme une pratique qui demande des conditions particulières plutôt que comme un équivalent automatique du papier.`],
   ],
+
+  "lf3-ancien-francais": [
+    ["Mille ans avant le français classique", `L'ancien français couvre approximativement du IXe au XIVe siècle. Son acte de naissance conventionnel est le Serment de Strasbourg de 842, premier texte conservé dans une langue romane distincte du latin — prêté par deux petits-fils de Charlemagne, chacun dans la langue de l'autre pour être compris des troupes.
+
+Il ne s'agit pas d'une langue unique mais d'un ensemble de dialectes. Un dialecte d'oïl est une variété romane du nord de la France — picard, normand, champenois, bourguignon, francien — nommée d'après la façon de dire « oui », par opposition aux parlers d'oc du sud.
+
+Le francien, parler de la région parisienne, s'est imposé comme base du français parce qu'il était celui du domaine royal et du pouvoir. Aucune supériorité linguistique n'est en cause : c'est la centralisation politique, l'administration et plus tard l'imprimerie qui ont fait d'un dialecte parmi d'autres la langue commune.
+
+Le moyen français, du XIVe au XVIe siècle, prolonge cette évolution. Le français devient proche de sa forme moderne au XVIIe siècle, avec la fixation du bon usage par les grammairiens et l'Académie.`],
+    ["Une grammaire différente", `L'ancien français possédait encore une déclinaison à deux cas, dernier vestige du système latin : un cas sujet et un cas régime, distingués le plus souvent par un *s* placé à l'inverse de ce que nous connaissons. Au singulier, *li murs* était sujet et *le mur* complément ; au pluriel, l'inverse.
+
+Ce système permettait un ordre des mots bien plus libre qu'aujourd'hui, la fonction étant marquée sur le mot. Sa disparition au XIVe siècle a rendu l'ordre sujet-verbe-complément obligatoire — c'est la conséquence la plus lourde de toute l'histoire grammaticale du français, et elle explique la rigidité actuelle de la phrase.
+
+Il subsiste quelques doublets issus des deux cas : *sire* et *seigneur*, *pâtre* et *pasteur*, *on* et *homme*, *gars* et *garçon* — anciens cas sujets et cas régimes fossilisés en mots distincts.`],
+    ["Des sons qui changent", `Le passage du latin au français se caractérise par une réduction importante des syllabes finales et par une usure phonétique beaucoup plus forte que dans les autres langues romanes. Le latin *augustum* donne l'italien *agosto*, l'espagnol *agosto*, et le français *août* — réduit à une ou deux voyelles. Cette accentuation forte de la syllabe tonique, qui a fait tomber tout ce qui suivait, distingue nettement le français de ses langues sœurs.
+
+La diphtongaison est un autre trait de l'ancien français : une voyelle simple accentuée se transforme en une suite de deux sons. Le latin *pedem* donne *pied*, *cor* donne *cuer* — devenu *cœur* —, *florem* donne *fleur*. Ces diphtongues se sont ensuite simplifiées à l'oral tout en restant écrites, ce qui explique une partie des graphies actuelles.
+
+Un mot savant est un mot emprunté tardivement au latin, sans avoir subi ces évolutions. D'où l'existence de doublets : *hôpital* est populaire et *hospitalier* savant, *frêle* est populaire et *fragile* savant, *entier* et *intègre*, *loyal* et *légal*. Le mot savant est toujours plus proche du latin, et le mot populaire toujours plus déformé — la déformation étant la marque d'un usage continu.`],
+    ["Lire l'ancien français", `Ce qui rend l'ancien français difficile à lire aujourd'hui est la conjonction de trois obstacles : le lexique, dont une part importante a disparu ou changé de sens ; la graphie, non fixée et variable d'un manuscrit à l'autre ; et la syntaxe, avec ses cas, son ordre libre et ses constructions perdues.
+
+La littérature de cette période est pourtant considérable. *La Chanson de Roland*, au XIe siècle, ouvre le genre épique en langue d'oïl. Chrétien de Troyes invente au XIIe siècle le roman arthurien et une bonne part de la matière romanesque européenne. *Le Roman de Renart*, ensemble de récits composés du XIIe au XIIIe siècle, met en scène des animaux dans une satire féroce de la société féodale — et son succès a été tel que le nom propre du goupil, Renart, a fini par remplacer le nom commun de l'animal.
+
+C'est l'un des rares cas où un personnage de fiction a fait disparaître un mot de la langue courante : le goupil est devenu un renard.`],
+  ],
+
+  "lf3-vocabulaire-formation": [
+    ["Dériver", `Le français forme surtout ses mots nouveaux par dérivation : l'ajout d'un préfixe ou d'un suffixe à un radical existant.
+
+Un préfixe se place avant le radical et modifie le sens sans changer la catégorie grammaticale : *dé-*, *re-*, *in-*, *pré-*, *sur-*. *Faire*, *défaire*, *refaire* restent des verbes.
+
+Un suffixe se place après et détermine le plus souvent la catégorie : *-tion* et *-ment* font des noms, *-able* et *-eux* des adjectifs, *-iser* et *-ifier* des verbes. C'est la différence fonctionnelle essentielle entre les deux — le préfixe joue sur le sens, le suffixe sur la nature.
+
+La productivité des affixes varie beaucoup et évolue. *-iser* est aujourd'hui extrêmement productif — on fabrique sans effort *sécuriser*, *fiabiliser*, *digitaliser* —, tandis que d'autres suffixes autrefois vivants ne servent plus à rien créer. Un locuteur reconnaît immédiatement un dérivé qu'il n'a jamais entendu, ce qui prouve que ces règles sont actives et non simplement mémorisées.`],
+    ["Composer", `Un mot composé réunit plusieurs mots autonomes : *porte-monnaie*, *chou-fleur*, *arc-en-ciel*, *pomme de terre*. Sa marque est l'unité de sens — un porte-monnaie n'est pas un monnaie qu'on porte — et son orthographe hésite entre soudure, trait d'union et séparation, sans logique constante. C'est l'un des points que les rectifications de 1990 ont cherché à régulariser.
+
+La composition savante forme des mots à partir d'éléments grecs ou latins qui n'existent pas isolément en français : *bio-*, *géo-*, *-logie*, *-graphie*, *-phobe*, *hydro-*, *thermo-*. C'est le procédé qui domine la création dans les langues techniques et scientifiques.
+
+Son avantage est double : les éléments sont transparents pour qui les connaît, et ils sont internationaux — *biologie*, *biology*, *Biologie*, *biología* se reconnaissent d'une langue à l'autre. Cette internationalité explique sa persistance : la science a besoin d'un vocabulaire qui traverse les frontières, et le grec le lui fournit depuis deux siècles.
+
+Une particularité mérite d'être notée : ces composés mélangent souvent grec et latin, ce que les puristes du XIXe siècle jugeaient barbare. *Télévision* associe un préfixe grec et un radical latin, et personne ne s'en émeut plus.`],
+    ["Abréger", `Un sigle est une abréviation formée des initiales et épelée lettre à lettre : SNCF, HLM, PIB. Un acronyme est un sigle prononcé comme un mot ordinaire : OTAN, sida, laser, radar.
+
+La distinction n'est pas académique : elle détermine le comportement du mot. Un acronyme devient un mot comme les autres, perd ses majuscules, se dérive et s'oublie comme sigle — *laser*, *radar*, *sonar* et *sida* sont dans ce cas, et presque personne ne sait plus ce qu'ils abrègent.
+
+Une siglaison productive forme de nouveaux mots à partir de sigles : *cégétiste* à partir de CGT, *smicard* à partir de SMIC, *onusien* à partir d'ONU. Le sigle se comporte alors comme un radical ordinaire, preuve de son intégration complète.
+
+Une conversion fait passer un mot d'une catégorie à une autre sans aucune modification de forme : l'adjectif *le beau*, le verbe *le manger*, le nom *un rouge*. C'est un procédé silencieux et très productif, particulièrement pour transformer des participes en adjectifs et des adjectifs en noms.`],
+  ],
+
+  "lf3-semantique": [
+    ["Plusieurs sens, plusieurs mots", `La polysémie est le fait qu'un mot possède plusieurs sens apparentés, dérivés les uns des autres. *Une glace* désigne une eau gelée, un miroir et un dessert : les trois se rattachent à une même origine par des glissements successifs.
+
+L'homonymie est différente : des mots de forme identique mais d'origines et de sens sans aucun lien. *Le vol* de l'oiseau et *le vol* du voleur, *la mousse* de la bière et *le mousse* du navire sont des homonymes — deux mots distincts qui se trouvent coïncider.
+
+La distinction est parfois délicate et repose sur l'étymologie plutôt que sur l'intuition : les locuteurs perçoivent souvent comme sans rapport des sens historiquement liés. Les dictionnaires tranchent en séparant les homonymes en entrées distinctes et en regroupant les sens polysémiques sous une entrée unique — ce qui explique pourquoi *voler* apparaît deux fois.
+
+Le sens d'un mot n'est jamais fixé une fois pour toutes. C'est le constat central de la sémantique historique, et il vaut aussi bien pour les mots anciens que pour ceux de la conversation quotidienne.`],
+    ["Ce qu'un mot dit en plus", `La dénotation est le sens objectif et partagé d'un mot, celui que donne le dictionnaire. La connotation est la valeur affective, sociale ou culturelle qui s'y attache.
+
+*Maison*, *demeure*, *baraque*, *résidence* et *taudis* dénotent tous un lieu d'habitation ; ils ne connotent pas la même chose. C'est sur cet écart que se joue l'essentiel de la rhétorique politique et publicitaire : choisir entre deux synonymes revient à choisir un jugement sans avoir à l'énoncer.
+
+Un champ lexical est un ensemble de mots se rapportant à un même thème dans un texte donné — le champ lexical de la mer dans un poème rassemble *vague*, *écume*, *large*, *voile*. Il ne faut pas le confondre avec la famille de mots, qui rassemble les mots partageant un même radical : *terre*, *terrestre*, *enterrer*, *souterrain*. Le premier relève du sens, le second de la forme, et ils ne coïncident pratiquement jamais.`],
+    ["Comment un sens évolue", `Un glissement de sens est l'évolution progressive de la signification d'un mot. Ses mécanismes sont réguliers : extension — *panier* désignait un contenant à pain —, restriction — *viande* désignait toute nourriture, du latin *vivenda*, ce qui sert à vivre —, métaphore — le *pied* d'une table —, métonymie — *boire un verre*.
+
+La péjoration est l'évolution d'un sens vers une valeur négative. *Vilain* désignait le paysan libre, *rustre* l'habitant de la campagne, *idiot* le simple particulier en grec, *imbécile* le faible physique. Le mécanisme social est visible : les mots désignant les catégories dominées glissent régulièrement vers l'insulte, et il faut périodiquement en changer.
+
+L'amélioration est le mouvement inverse, bien plus rare. *Formidable* signifiait effrayant, *fabuleux* relevait de la fable, *énorme* désignait ce qui sort de la norme, donc le monstrueux.
+
+Un euphémisme lexicalisé est un mot atténuant devenu le terme courant, au point qu'on ne perçoit plus l'atténuation. *Toilettes* désignait le meuble de toilette, *décéder* signifiait s'en aller. Le processus se répète indéfiniment : l'euphémisme s'use au contact de la réalité qu'il désigne, et il faut en fabriquer un nouveau — ce que les linguistes appellent le tapis roulant des euphémismes.`],
+  ],
+
+  "lf3-normes-usages": [
+    ["Qui décide", `La norme du français est un usage particulier érigé en référence, non une vérité de la langue. Cette formulation, qui surprend, résume le consensus de la linguistique depuis un siècle.
+
+Une norme linguistique est un usage socialement valorisé, celui d'un groupe dont le prestige lui a permis d'imposer sa façon de parler comme la bonne. Vaugelas le disait sans détour au XVIIe siècle : le bon usage est celui de la plus saine partie de la Cour, conformément à celui des meilleurs auteurs. Le critère est explicitement social, non logique.
+
+Une faute de français est donc, techniquement, un écart par rapport à cette norme de référence — et non une erreur au sens où une opération mathématique serait fausse. Beaucoup de constructions considérées comme fautives sont parfaitement régulières du point de vue du système : « je m'en rappelle » applique la construction de « je m'en souviens », et le sujet parlant qui la produit n'a commis aucune incohérence.
+
+Cette analyse ne dispense pas d'enseigner la norme : elle est un capital social réel, et l'ignorer pénalise. Elle invite à l'enseigner pour ce qu'elle est — une convention utile — plutôt que comme une loi naturelle.`],
+    ["Deux façons de faire une grammaire", `Une grammaire descriptive décrit les usages effectifs, en observant ce que les locuteurs produisent réellement. Une grammaire prescriptive énonce ce qu'il faut dire.
+
+Les deux ont leur utilité et ne répondent pas à la même question. La confusion commence quand une prescription se présente comme une description — quand on affirme qu'une construction « n'existe pas » alors qu'elle est employée par des millions de locuteurs.
+
+Le purisme est l'attitude qui défend une norme stricte contre les évolutions. Il est ancien et constant : chaque génération dénonce la dégradation de la langue par la suivante, et l'on trouve des textes du XVIIe siècle déplorant en termes identiques ce que déplorent les tribunes contemporaines. Si ces craintes étaient fondées, le français serait inintelligible depuis longtemps.
+
+La position dominante des linguistes est que l'évolution d'une langue est naturelle et n'implique aucune dégradation. Une langue change parce qu'elle s'adapte aux besoins et aux contacts de ses locuteurs ; ce qui se perd d'un côté se compense de l'autre, et aucune langue n'a jamais été observée en train de perdre sa capacité expressive.`],
+    ["Les effets sociaux de la norme", `L'hypercorrection est une erreur produite par excès de souci de bien parler : on applique une règle là où elle ne s'applique pas. Prononcer une liaison interdite, dire « au niveau de » pour faire savant, employer un subjonctif où l'indicatif convient, ou dire « entre vous et je » par crainte du « moi » relèvent de ce mécanisme.
+
+Elle est révélatrice : elle ne se produit que chez ceux qui cherchent à se conformer à une norme qu'ils ne maîtrisent pas entièrement — donc précisément chez ceux qui l'ont apprise plutôt que reçue.
+
+L'insécurité linguistique est le sentiment de ne pas maîtriser la norme légitime. Elle se mesure et se cartographie : elle est plus forte chez les locuteurs des régions périphériques, chez les milieux populaires et chez les femmes, et elle produit des comportements caractéristiques — évitement de la prise de parole, correction excessive, dévalorisation de son propre parler.
+
+Ses effets pratiques sont considérables et rarement discutés : elle décourage l'expression publique de ceux qui ont le plus à dire sur leur propre situation. C'est l'un des rares domaines où une question de grammaire a des conséquences politiques directes.`],
+    ["Registres", `Un registre soutenu se caractérise par un lexique recherché, une syntaxe complexe et le respect strict des règles écrites — inversion interrogative, négation complète, subjonctif après les conjonctions qui l'exigent.
+
+Le registre courant est celui de la conversation ordinaire et de la plupart des écrits professionnels ; le registre familier admet l'argot, l'ellipse du *ne*, les tours segmentés.
+
+L'erreur consiste à hiérarchiser ces registres en qualité plutôt qu'en usage. Un registre n'est pas meilleur qu'un autre : il est adapté ou non à la situation. Employer le registre soutenu au café est aussi inapproprié qu'employer le familier dans une lettre officielle, et la compétence consiste précisément à disposer de plusieurs registres et à choisir.
+
+C'est ce que la sociolinguistique appelle le répertoire du locuteur. Sa richesse — savoir passer d'un registre à l'autre selon l'interlocuteur — est une compétence bien plus utile que la maîtrise exclusive du registre le plus élevé.`],
+  ],
+
+  "lf3-francais-quebec": [
+    ["Une langue reconquise", `Plus de six millions de personnes parlent français au Québec, où il est la langue maternelle d'environ quatre-vingts pour cent de la population. Le Québec mène l'une des politiques linguistiques les plus volontaristes au monde, et cette situation résulte d'une histoire précise.
+
+Après la conquête britannique de 1763, la population francophone se maintient par la démographie et par l'Église, mais l'économie et le commerce passent progressivement à l'anglais. Jusqu'aux années 1960, les francophones du Québec sont majoritaires en nombre et minoritaires dans les positions économiques ; à Montréal, on travaille en anglais.
+
+La Révolution tranquille, dans les années 1960, transforme rapidement cette situation : l'État québécois se modernise, prend en charge l'éducation et la santé jusque-là confiées à l'Église, et la question de la langue devient politique. Deux référendums sur la souveraineté seront tenus, en 1980 et 1995, le second échouant de moins d'un pour cent.`],
+    ["La Charte de la langue française", `Adoptée en 1977, la Charte de la langue française — dite loi 101 — fait du français la langue officielle du travail, du commerce, de l'affichage, de l'administration et de l'enseignement.
+
+Ses dispositions les plus structurantes concernent l'école : les enfants d'immigrants doivent être scolarisés en français, ce qui a inversé une tendance où l'immigration se dirigeait majoritairement vers l'anglais. C'est probablement la mesure qui a eu le plus d'effet démographique.
+
+L'affichage commercial doit donner au français une place prépondérante, et les entreprises d'une certaine taille doivent obtenir un certificat de francisation attestant que le travail s'y déroule en français.
+
+L'Office québécois de la langue française veille à l'application de ces règles, produit la terminologie officielle et instruit les plaintes. Sa banque terminologique, le Grand dictionnaire terminologique, est consultée bien au-delà du Québec — c'est l'une des ressources terminologiques francophones les plus utilisées au monde.`],
+    ["Un français qui a ses raisons", `Le français québécois se caractérise par des archaïsmes conservés et par des créations propres.
+
+Les archaïsmes viennent de ce que la colonie a été séparée de la France en 1763, avant plusieurs évolutions métropolitaines : *présentement*, *à cause que*, *magasiner*, *espérer* au sens d'attendre relèvent du français classique et non d'une déformation. La prononciation conserve de même des traits du XVIIe siècle.
+
+Le Québec francise plus systématiquement les anglicismes que la France, et pour une raison structurelle : le contact quotidien avec l'anglais y rend chaque emprunt plus lourd de conséquences. Là où la France emprunte sans y voir de risque, le Québec traduit — *stop* devient *arrêt* sur les panneaux, *email* devient *courriel*, *chat* devient *clavardage*, *shopping* devient *magasinage*.
+
+Le paradoxe amuse souvent les Français : le québécois compte davantage d'anglicismes dans la langue familière — calques de structure, emprunts oraux — et beaucoup moins dans la langue officielle et technique.
+
+Le joual est une variété populaire du français montréalais, marquée par une prononciation particulière et par de nombreux emprunts à l'anglais. Longtemps stigmatisé, il a été revendiqué dans les années 1960 par des écrivains et des dramaturges — Michel Tremblay au premier chef — comme la langue réelle d'un peuple, ce qui en a fait un enjeu littéraire et politique autant que linguistique.
+
+Le Québec joue enfin un rôle actif dans la francophonie institutionnelle, où il dispose d'une représentation propre distincte de celle du Canada — situation rare pour une entité fédérée, et obtenue de haute lutte.`],
+  ],
 };
