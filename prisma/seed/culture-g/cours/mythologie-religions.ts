@@ -431,4 +431,78 @@ Le mont Athos, presqu'île grecque, est le centre monastique de l'orthodoxie : u
 
 La crise la plus grave du monde orthodoxe contemporain porte sur l'Ukraine : la reconnaissance en 2019 d'une Église orthodoxe ukrainienne autocéphale par le patriarcat de Constantinople a provoqué la rupture de communion du patriarcat de Moscou avec lui. Le conflit, canonique en apparence, est indissociable de la guerre et de la question nationale ukrainienne.`],
   ],
+
+  "mr3-protestantismes": [
+    ["Trois principes, mille Églises", `Le protestantisme n'est pas une Église mais une famille de confessions très diverses, unies par trois principes issus de la Réforme : l'Écriture seule, la foi seule, la grâce seule. Le premier écarte la tradition et le magistère comme sources d'autorité ; le deuxième affirme que le salut ne s'obtient pas par les œuvres ; le troisième que Dieu seul en décide.
+
+Le sacerdoce universel des croyants en découle : tout croyant a un accès direct à Dieu sans médiateur, ce qui supprime la distinction entre clercs et laïcs telle que la connaît le catholicisme. Un pasteur n'est pas ordonné pour recevoir un pouvoir sacramentel : il est appelé par une communauté après une formation théologique, pour un ministère de prédication et d'accompagnement.`],
+    ["Les grandes familles historiques", `Le luthéranisme, issu de Luther, est majoritaire en Allemagne du Nord et en Scandinavie ; il conserve une liturgie proche de la messe catholique et une hiérarchie souvent épiscopale. Le calvinisme, ou tradition réformée, insiste sur la souveraineté absolue de Dieu et sur une organisation de l'Église par des assemblées de représentants plutôt que par des évêques.
+
+L'anabaptisme, plus radical, refuse le baptême des enfants au profit du baptême d'adultes ayant fait profession de foi : ce refus, qui remettait en cause l'appartenance automatique au corps social, lui a valu des persécutions de la part des catholiques comme des autres protestants. Ses héritiers — mennonites, amish — pratiquent souvent un retrait du monde et le refus de la violence.`],
+    ["Les réveils", `Le méthodisme naît au XVIIIe siècle au sein de l'anglicanisme, autour de John Wesley : il met l'accent sur la conversion personnelle, la prédication en plein air et l'organisation en petits groupes. Il touche massivement les classes populaires anglaises, et a joué un rôle dans les combats abolitionnistes.
+
+Le pentecôtisme, apparu au début du XXe siècle, insiste sur les dons de l'Esprit — guérison, prophétie, parler en langues — et sur l'expérience personnelle immédiate. C'est aujourd'hui le courant chrétien qui croît le plus vite au monde, en Afrique, en Amérique latine et en Asie. Le terme évangélique, plus large, désigne les Églises protestantes qui insistent sur la conversion personnelle, l'autorité de la Bible et l'engagement missionnaire.`],
+    ["Ce qui a changé au XXe siècle", `Beaucoup d'Églises protestantes ordonnent des femmes pasteures depuis le XXe siècle : les Églises luthériennes et réformées d'Europe l'ont fait à partir des années 1930 et surtout après 1945, l'anglicanisme plus tardivement et avec des divisions internes durables.
+
+Cette évolution est cohérente avec le sacerdoce universel : si aucun pouvoir sacramentel n'est transmis, l'exclusion des femmes du ministère perd son fondement théologique le plus solide. Elle n'est cependant pas universelle — plusieurs Églises évangéliques et pentecôtistes maintiennent des positions différentes, et la diversité reste ici la règle.`],
+  ],
+
+  "mr3-hindouisme-pratiques": [
+    ["Ni fondateur, ni credo", `L'hindouisme n'a ni fondateur, ni credo unique, ni autorité centrale : c'est le terme, forgé par les Occidentaux au XIXe siècle, qui donne l'illusion d'un ensemble homogène. Il recouvre en réalité des traditions, des divinités et des pratiques extrêmement diverses, parfois sans point commun autre qu'une géographie et un ensemble de textes anciens.
+
+La pratique quotidienne s'organise autour de la puja, rite d'offrande et de vénération à une divinité, accompli au temple ou à la maison : fleurs, encens, nourriture, lumière. Le darshan en est le cœur — le fait de voir la divinité et surtout d'en être vu, l'échange de regards constituant l'essentiel de la rencontre.`],
+    ["Les cadres de vie", `La tradition définit quatre buts légitimes de l'existence : le devoir, la prospérité, le désir et la libération. Leur coexistence est notable — la recherche du plaisir et de la richesse n'y est pas condamnée mais encadrée, à condition de respecter le devoir et de ne pas perdre de vue la libération finale.
+
+Le système des varnas propose une division idéale de la société en quatre catégories, à distinguer des castes réelles, bien plus nombreuses et fondées sur des critères de métier et d'endogamie. La discrimination fondée sur la caste est interdite par la Constitution indienne depuis 1950, ce qui n'a pas fait disparaître ses effets sociaux. Un ashram est un lieu de retraite spirituelle organisé autour d'un maître.`],
+    ["Le corps, l'eau, le feu", `Le Gange est un fleuve sacré dont les eaux purifient : s'y baigner efface les fautes, y disperser les cendres favorise la libération. Cette sacralité coexiste avec une pollution industrielle et domestique majeure, contradiction que des programmes publics successifs tentent de traiter.
+
+La crémation est le mode ordinaire de traitement du corps : elle libère l'âme du corps et permet la poursuite du cycle. La vache, elle, est vénérée et protégée, statut lié à sa place dans l'économie rurale ancienne autant qu'à la symbolique ; sa protection fait aujourd'hui l'objet de législations et de tensions politiques dans plusieurs États indiens.`],
+    ["Le yoga, et les malentendus", `Le yoga, dans son sens traditionnel, est une discipline spirituelle visant la libération, dont les postures ne constituent qu'un aspect parmi huit — avec les règles morales, la respiration, le retrait des sens, la concentration et la méditation. Sa réduction occidentale à une gymnastique est une transformation récente, largement opérée au XXe siècle.
+
+Un dernier point illustre la diversité de l'ensemble : Diwali, la fête des lumières, n'a pas la même signification partout en Inde. Chaque région y rattache un récit et une divinité différents — retour de Rama au nord, culte de Lakshmi ailleurs, victoire de Krishna au sud. C'est une même date qui célèbre des choses distinctes, ce qui résume assez bien la nature de l'hindouisme.`],
+  ],
+  "mr3-taoisme-confucianisme": [
+    ["Plusieurs traditions à la fois", `Un Chinois pouvait traditionnellement relever de plusieurs traditions à la fois : confucéen dans ses rapports sociaux et familiaux, taoïste dans son rapport à la nature et à la santé, bouddhiste pour les funérailles. Cette compatibilité déroute les catégories occidentales, où l'appartenance religieuse est exclusive.
+
+Elle s'explique par la nature des traditions concernées : le confucianisme est d'abord une doctrine morale et politique, sans dieu ni au-delà ; le taoïsme comporte une part philosophique et une part religieuse organisée ; le bouddhisme apporte une eschatologie qui manquait aux deux autres. Elles se répartissent des domaines plutôt qu'elles ne se concurrencent.`],
+    ["Le Tao", `Le Tao-tö king, attribué à Laozi, est l'un des textes les plus traduits au monde : quatre-vingt-un courts chapitres, d'une concision volontairement obscure, sur la voie et la vertu. Sa notion centrale, le wu wei, désigne le non-agir — non l'inaction, mais l'action conforme au cours naturel des choses, sans forcer ni contrarier.
+
+Zhuangzi, second grand nom du taoïsme philosophique, procède par paraboles et par humour : le rêve du papillon, où il ne sait plus s'il est un homme ayant rêvé qu'il était papillon ou l'inverse, est devenu un classique de la philosophie mondiale. Sa manière — décentrer par l'anecdote plutôt que démontrer — s'oppose radicalement à la tradition argumentative grecque.`],
+    ["L'ordre confucéen", `Les Entretiens rassemblent les propos de Confucius rapportés par ses disciples : un recueil de conversations, sans système, dont l'influence sur l'Asie orientale est comparable à celle de la Bible en Occident.
+
+Deux notions y sont centrales. Le ren est la vertu d'humanité, la bienveillance envers autrui, le sens de ce que l'on doit aux autres. La piété filiale est le respect dû aux parents et aux ancêtres, cellule fondatrice d'un ordre qui s'étend de la famille à l'État : l'obéissance au père prépare celle au souverain, et le bon gouvernement repose sur l'exemplarité plus que sur la loi. C'est cette doctrine qui a fourni pendant deux millénaires le programme des examens impériaux, donc la culture des gouvernants.`],
+    ["Le sol, les ancêtres et les mutations", `Le Yi Jing, ou Livre des mutations, est à la fois un manuel de divination et un texte philosophique : soixante-quatre figures obtenues par tirage, commentées pour décrire des situations en transformation. Sa notion de changement permanent irrigue toute la pensée chinoise.
+
+Le culte des ancêtres organise le lien avec les défunts de la lignée par des rites domestiques et des fêtes annuelles : c'est probablement la pratique la plus continue de l'histoire chinoise, antérieure aux trois traditions et ayant survécu à toutes les ruptures politiques. Le feng shui, enfin, est un art d'harmoniser l'implantation des constructions avec leur environnement, qui a réellement gouverné l'urbanisme et l'architecture funéraire.`],
+  ],
+
+  "mr3-textes-sacres-2": [
+    ["Copier", `La transmission des textes sacrés a mobilisé des institutions entières pendant des siècles. Le scriptorium est l'atelier monastique de copie de manuscrits, où travaillaient copistes, enlumineurs et relieurs, souvent en silence et sous dictée. Copier une Bible complète à la main demandait environ un an de travail à un copiste — ce qui explique le prix d'un livre avant l'imprimerie et l'ampleur de la rupture introduite par Gutenberg.
+
+Le support a lui aussi changé. Le codex — livre à pages reliées — remplace progressivement le rouleau à partir des premiers siècles de notre ère : il permet de retrouver un passage sans tout dérouler, d'écrire des deux côtés et de relier des textes longs. Le christianisme l'a adopté très tôt, ce qui a contribué à sa diffusion.`],
+    ["Effacer et retrouver", `Un palimpseste est un parchemin gratté et réutilisé pour un nouveau texte, le support coûtant plus cher que ce qu'on y écrivait. Cette pratique économique a détruit d'innombrables textes anciens — et en a paradoxalement sauvé quelques-uns, l'écriture effacée restant partiellement lisible.
+
+L'imagerie multispectrale permet aujourd'hui de récupérer ces couches inférieures sans toucher au manuscrit. Elle a permis de retrouver des traités perdus d'Archimède sous un livre de prières, et continue de livrer des textes qu'on croyait définitivement disparus.`],
+    ["Traduire, ou ne pas traduire", `La Vulgate est la traduction latine de la Bible réalisée par saint Jérôme à la fin du IVe siècle : elle a servi de référence à l'Occident pendant plus de mille ans. La version anglaise du roi Jacques, publiée en 1611, a joué un rôle comparable pour la langue anglaise, qu'elle a durablement façonnée.
+
+La traduction des textes sacrés a souvent été interdite, et pour une raison précise : elle échappait au contrôle de l'institution religieuse, en permettant à chacun de lire et d'interpréter sans clergé. Plusieurs traducteurs ont été exécutés pour cela, dont William Tyndale en 1536 — dont le texte fut pourtant largement repris, sans mention, dans la version du roi Jacques.`],
+    ["La voix plutôt que l'écrit", `Le Coran obéit à une logique différente : sa transmission repose sur une récitation codifiée, apprise de maître à disciple selon des chaînes de transmission attestées, avec des règles précises de prononciation et de rythme. Le texte écrit sert d'appui à une oralité qui reste première.
+
+Un hafiz est une personne ayant mémorisé intégralement le Coran, soit environ six cents pages : la mémorisation reste une pratique répandue, avec des concours internationaux. La numérisation des manuscrits religieux a récemment changé la donne pour la recherche : des fonds jusque-là réservés à quelques chercheurs autorisés sont désormais consultables en haute définition depuis n'importe où, ce qui a accéléré les travaux de datation et de comparaison des variantes.`],
+  ],
+
+  "mr3-monachisme": [
+    ["Se retirer", `Le retrait du monde existe dans presque toutes les grandes traditions religieuses, avec des formes très différentes. L'ermite vit en solitaire ; le moine, en communauté. Les deux formes coexistent depuis l'origine et se sont souvent critiquées mutuellement.
+
+Les Pères du désert sont des ascètes chrétiens retirés dans les déserts d'Égypte à partir du IIIe siècle : ils fuient une Église devenue officielle et confortable, et inventent par la même occasion le monachisme chrétien. Leurs apophtegmes — sentences brèves rapportées par leurs disciples — constituent l'un des recueils spirituels les plus lus de la tradition chrétienne.`],
+    ["La règle", `La règle de saint Benoît, rédigée au VIe siècle, prescrit un équilibre entre prière, travail et lecture, avec un horaire précis et un principe de modération qui la distingue des ascèses orientales extrêmes. Elle a structuré le monachisme occidental pendant quinze siècles.
+
+Elle impose aussi la stabilité : l'engagement à demeurer dans le même monastère à vie, disposition qui met fin à l'errance des moines vagabonds et fait du monastère une institution durable. Les vœux monastiques — obéissance, pauvreté, chasteté selon les ordres — encadrent cette existence. Les cisterciens, au XIIe siècle, réagissent au luxe de Cluny en revenant à la simplicité et au travail manuel : architecture dépouillée, autarcie, défrichements.`],
+    ["Ailleurs", `Un moine bouddhiste theravada vit de la mendicité quotidienne et suit plusieurs centaines de règles, dont l'interdiction de manier de l'argent et de manger après midi. La communauté dépend matériellement des laïcs, et ce lien constitue une part essentielle de la vie religieuse dans ces pays.
+
+L'ordination temporaire, pratiquée notamment en Thaïlande et au Myanmar, permet à un homme de passer quelques semaines ou quelques mois en monastère avant de revenir à la vie ordinaire. C'est un rite de passage social autant que spirituel, sans équivalent dans le monachisme chrétien où l'engagement est définitif.`],
+    ["Ce que les monastères ont fait", `Les monastères médiévaux ont joué un rôle économique considérable : défrichement de terres, drainage de marais, élevage, viticulture, moulins, forges. Plusieurs innovations agricoles et techniques s'y sont diffusées, et leur organisation comptable préfigure des méthodes de gestion modernes.
+
+La vie monastique féminine est une tradition ancienne et importante dans plusieurs religions : abbayes chrétiennes dirigées par des abbesses aux pouvoirs étendus, communautés bouddhistes de nonnes attestées dès l'origine. Elle a souvent constitué, dans des sociétés où les femmes n'avaient guère d'autonomie, l'un des rares espaces de pouvoir, d'études et de vie hors mariage.`],
+  ],
 };
