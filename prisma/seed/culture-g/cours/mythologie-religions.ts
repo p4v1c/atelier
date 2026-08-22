@@ -505,4 +505,63 @@ L'ordination temporaire, pratiquée notamment en Thaïlande et au Myanmar, perme
 
 La vie monastique féminine est une tradition ancienne et importante dans plusieurs religions : abbayes chrétiennes dirigées par des abbesses aux pouvoirs étendus, communautés bouddhistes de nonnes attestées dès l'origine. Elle a souvent constitué, dans des sociétés où les femmes n'avaient guère d'autonomie, l'un des rares espaces de pouvoir, d'études et de vie hors mariage.`],
   ],
+
+  "mr3-fetes-religieuses": [
+    ["Les fêtes chrétiennes", `Pâques commémore la résurrection du Christ et constitue la fête centrale du christianisme, plus importante théologiquement que Noël. Sa date est mobile — le premier dimanche après la pleine lune suivant l'équinoxe de printemps — et entraîne avec elle l'Ascension et la Pentecôte.
+
+La Toussaint honore tous les saints, y compris ceux qui n'ont pas de jour dédié ; elle est suivie le lendemain de la commémoration des défunts, ce qui explique la confusion courante entre les deux. De nombreuses fêtes religieuses recouvrent d'ailleurs des célébrations saisonnières plus anciennes : la date de Noël, le solstice, les feux de la Saint-Jean ou la Chandeleur en portent les traces.`],
+    ["Le calendrier juif", `Roch Hachana est le nouvel an juif, célébré à l'automne : il ouvre une période de dix jours de retour sur soi qui s'achève par Yom Kippour, le Grand Pardon, jour de jeûne complet et de repentir — le plus solennel de l'année, où même les Juifs peu pratiquants se rendent à la synagogue.
+
+Souccot, la fête des cabanes, suit peu après : on construit et l'on prend ses repas dans une cabane au toit végétal, en souvenir de la traversée du désert. Pourim, au printemps, est à l'opposé exact : fête joyeuse commémorant le salut des Juifs de Perse, avec déguisements, bruit et consommation d'alcool encouragée — l'une des rares fêtes religieuses où le renversement des règles est prescrit.`],
+    ["Islam, bouddhisme, hindouisme", `L'Aïd el-Adha, ou fête du sacrifice, commémore le sacrifice interrompu d'Abraham : un animal est sacrifié et sa viande partagée en trois, dont un tiers pour les nécessiteux. Elle coïncide avec la fin du pèlerinage à La Mecque. L'autre grande fête, l'Aïd el-Fitr, clôt le mois de ramadan.
+
+Vesak commémore dans le bouddhisme theravada la naissance, l'éveil et la mort du Bouddha, réunis en un seul jour de pleine lune. Holi, en Inde, est une fête printanière marquée par des lancers de poudres colorées : elle suspend temporairement les hiérarchies sociales, chacun pouvant asperger n'importe qui — ce que les études anthropologiques rangent parmi les rituels d'inversion.`],
+    ["Pourquoi les dates bougent", `Certaines fêtes tombent à date fixe et d'autres non, parce que les calendriers religieux ne suivent pas tous le calendrier solaire. Le calendrier musulman est purement lunaire : ses fêtes se décalent d'environ onze jours par an et parcourent toutes les saisons. Le calendrier juif est luni-solaire, avec un mois intercalaire qui maintient les fêtes dans leur saison.
+
+Le christianisme combine les deux : Noël est fixe, Pâques est calculée sur un cycle lunaire hérité du calendrier juif. Cette hybridation explique qu'un même pays puisse avoir des jours fériés à dates fixes et d'autres qui varient de plus d'un mois d'une année sur l'autre.`],
+  ],
+
+  "mr3-croyances-populaires": [
+    ["Ce que les institutions ne contrôlent pas", `La religiosité populaire déborde souvent le cadre fixé par les institutions : elle privilégie l'efficacité concrète — guérir, protéger, obtenir — sur la doctrine, et se transmet par l'usage plutôt que par l'enseignement.
+
+Un saint patron est un protecteur attribué à un métier, un lieu ou un groupe : les mineurs ont sainte Barbe, les voyageurs saint Christophe, chaque village son saint local. Cette spécialisation répond à une logique pratique : on ne s'adresse pas à une puissance générale mais à celle qui a compétence sur le problème. Les Églises ont réagi à ces pratiques par une alternance d'encadrement, de tolérance et de condamnation, selon les époques et selon ce qu'elles jugeaient conciliable avec la doctrine.`],
+    ["Les reliques", `La possession de reliques avait au Moyen Âge un effet économique direct : elle attirait pèlerins et donations, et enrichissait le sanctuaire qui les détenait. Cela explique la concurrence entre églises, les translations de reliques, les vols — un vol de relique pouvait même être présenté comme voulu par le saint lui-même — et la prolifération de fragments dont l'authenticité additionnée dépasse largement le possible.
+
+Le reliquaire, contenant précieux qui abrite la relique, constitue à lui seul un chapitre de l'histoire de l'orfèvrerie : châsses, bras-reliquaires, ostensoirs. Sa richesse manifeste la valeur de ce qu'il protège, et sert d'argument dans la compétition entre sanctuaires.`],
+    ["Les gestes collectifs", `Une procession est un déplacement rituel collectif : elle sort le sacré de l'édifice, traverse le territoire et le sanctifie au passage. Elle a aussi une fonction sociale explicite — l'ordre du cortège reproduit la hiérarchie de la communauté, et les conflits de préséance y étaient fréquents.
+
+Le pardon breton en est une forme locale vivace : fête religieuse avec procession, bannières et pèlerinage vers une chapelle, souvent suivie d'une fête profane. L'ex-voto, objet offert en remerciement d'un vœu exaucé, complète ce paysage ; dans les chapelles littorales, on trouve fréquemment des maquettes de navires, offertes par des marins ou leurs familles après un naufrage évité.`],
+    ["Les manifestations et les recours", `Une apparition mariale est une manifestation de la Vierge rapportée par des témoins, généralement des enfants ou des personnes modestes. L'Église en examine les cas avec une prudence extrême et n'en reconnaît qu'une infime minorité — reconnaissance qui n'oblige d'ailleurs personne à y croire.
+
+Dans les campagnes françaises, les guérisseurs exercent des pratiques traditionnelles de soin : prières, gestes, formules transmises, souvent pour des affections précises comme les brûlures ou les verrues. Ni médecins ni religieux officiels, ils occupent une position intermédiaire tolérée, et leur persistance dans un pays doté d'un système de santé développé indique que leur fonction n'est pas seulement thérapeutique.`],
+  ],
+  "mr3-nouvelles-spiritualites": [
+    ["Croire sans appartenir", `La baisse de la pratique institutionnelle ne signifie pas la disparition du croire. Les sociologues des religions ont forgé pour le décrire la formule croire sans appartenir : une religiosité individuelle, détachée des institutions, qui conserve des croyances — en une force supérieure, en une vie après la mort, en des signes — sans fréquenter de lieu de culte ni se reconnaître dans une confession.
+
+Le bricolage religieux en est la forme la plus courante : une composition individuelle d'éléments issus de traditions diverses, assemblés selon ce qui parle à la personne. Cette liberté d'assemblage aurait été impensable dans une société où l'appartenance religieuse était héritée et exclusive.`],
+    ["Le New Age et ses suites", `Le mouvement New Age, apparu dans les années 1970, est un ensemble diffus de croyances mêlant spiritualité, ésotérisme, psychologie et développement personnel : énergies, cristaux, astrologie, réincarnation, médecines parallèles. Il n'a ni doctrine, ni clergé, ni frontière — ce qui rend son étude difficile et sa diffusion aisée.
+
+Ses éléments se sont depuis dispersés dans la culture générale, souvent sans le nom : on retrouve son vocabulaire dans le bien-être, la parentalité, l'alimentation et le management. La croyance aux médecines alternatives relève en partie de cette nébuleuse : il s'agit de pratiques dont l'efficacité n'est pas démontrée scientifiquement, et dont l'attrait tient souvent à la qualité de la relation proposée autant qu'à la promesse thérapeutique.`],
+    ["Détacher les pratiques de leur cadre", `La méditation laïque est une pratique détachée de son cadre religieux d'origine : les protocoles de pleine conscience employés en clinique conservent la technique et écartent la cosmologie bouddhiste. Le procédé a permis une diffusion massive et suscite deux critiques opposées — appauvrissement pour les uns, récupération commerciale pour les autres.
+
+La même logique s'applique au pèlerinage laïcisé, marche accomplie pour des motifs personnels non religieux, et à la spiritualité en entreprise, ensemble de pratiques de bien-être parfois issues de traditions religieuses et proposées dans un cadre professionnel. Ce dernier cas soulève une question spécifique : la frontière entre le soin apporté aux salariés et l'injonction à s'adapter à des conditions de travail inchangées.`],
+    ["Marquer les étapes autrement", `Une célébration laïque de mariage ou de funérailles est une cérémonie sans référence religieuse marquant une étape de vie, souvent conduite par un officiant qui compose avec la famille textes, musiques et gestes. Leur développement récent montre que le besoin de rite ne disparaît pas avec la croyance.
+
+C'est pourquoi les sociologues parlent de recomposition plutôt que de disparition du religieux : les croyances persistent en dehors des cadres institutionnels, se déplacent et changent de forme. Chez les jeunes générations européennes, les enquêtes constatent à la fois une baisse marquée de l'affiliation déclarée et le maintien de croyances diffuses — les deux mouvements étant simultanés et non contradictoires.`],
+  ],
+
+  "mr3-symboles-religieux": [
+    ["Un signe n'a pas de sens en soi", `Un même symbole peut avoir des significations opposées selon les traditions, les époques et les usages — c'est la première règle de leur lecture. Un signe ne porte pas son sens en lui : il le reçoit d'un contexte.
+
+La croix chrétienne en fournit l'exemple le plus net. Instrument de supplice romain, réservé aux esclaves et aux séditieux, elle était un objet d'infamie ; les premiers chrétiens ne la représentaient d'ailleurs pas. Il a fallu plusieurs siècles pour qu'elle devienne le signe du salut et l'emblème de la religion. Le poisson les avait précédés comme signe de reconnaissance discret entre chrétiens, les lettres du mot grec formant l'acronyme d'une profession de foi.`],
+    ["Des adoptions tardives", `L'étoile de David est un symbole identitaire juif adopté tardivement : le motif géométrique existe depuis l'Antiquité dans de nombreuses cultures, mais son association exclusive au judaïsme date de l'époque moderne, avec une généralisation au XIXe siècle et une charge tragique ajoutée par son usage comme marque d'infamie sous le nazisme.
+
+Le croissant est d'origine ottomane et n'a aucun fondement coranique : il figurait sur les enseignes de Constantinople bien avant la conquête turque, et s'est répandu comme emblème avec l'Empire. Ces deux exemples rappellent qu'un symbole religieux est souvent un emprunt politique devenu identitaire.`],
+    ["L'Inde et l'Asie", `La roue, dans le bouddhisme, est la roue de la loi : elle symbolise la mise en mouvement de l'enseignement par le Bouddha lors de son premier sermon, et ses huit rayons renvoient au chemin octuple. Elle figure au centre du drapeau indien.
+
+Le lotus, présent dans toutes les traditions indiennes, représente la pureté naissant de la boue : la fleur croît dans l'eau stagnante et s'ouvre à la surface sans en être souillée. Le om est une syllabe sacrée de l'hindouisme, tenue pour le son originel dont procède l'univers, et employée au début et à la fin des récitations. Le yin et le yang, chinois, figurent deux principes complémentaires et interdépendants, chacun contenant un point de l'autre.`],
+    ["Un cas d'école", `La svastika était, avant son détournement au XXe siècle, un symbole de bon augure largement présent en Inde, en Chine, au Japon et jusque dans l'Europe antique : on la trouve sur des temples, des monnaies et des objets domestiques depuis des millénaires. Elle reste aujourd'hui d'usage courant en Asie, où elle signale par exemple les temples sur les cartes.
+
+Son appropriation par le nazisme l'a rendue inutilisable en Occident et pénalement sanctionnée dans plusieurs pays. C'est l'illustration la plus brutale du principe posé au début : l'interprétation d'un symbole religieux exige toujours de savoir qui l'emploie, où, quand et dans quelle intention. Le même dessin peut orner un seuil de maison en Inde et constituer un délit en Allemagne.`],
+  ],
 };
