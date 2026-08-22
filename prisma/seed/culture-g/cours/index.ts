@@ -20,6 +20,7 @@ import { COURS_INSTITUTIONS_ECONOMIE } from "./institutions-economie";
 import { COURS_LANGUE_FRANCAISE } from "./langue-francaise";
 import { COURS_LITTERATURE } from "./litterature";
 import { COURS_MYTHOLOGIE_RELIGIONS } from "./mythologie-religions";
+import { COURS_PHYSIQUE_CHIMIE } from "./physique-chimie";
 import { COURS_SCIENCES_TECH } from "./sciences-tech";
 import { COURS_SCIENCES_VIE } from "./sciences-vie";
 import { COURS_SPORT } from "./sport";
@@ -33,6 +34,7 @@ export const COURS_TOUS: LotCours = {
   ...COURS_LANGUE_FRANCAISE,
   ...COURS_LITTERATURE,
   ...COURS_MYTHOLOGIE_RELIGIONS,
+  ...COURS_PHYSIQUE_CHIMIE,
   ...COURS_SCIENCES_TECH,
   ...COURS_SCIENCES_VIE,
   ...COURS_SPORT,
