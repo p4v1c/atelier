@@ -125,7 +125,8 @@ export const FUSIONS: Record<string, string> = {
   "pc-etats-matiere": "cg-physique-chimie-03", // 82% Les états de la matière et leurs changements <- Les états de la matière et les changements d'état
   "sp3-jo-hiver": "cg-sport-c01", // 82% Les Jeux olympiques d'hiver <- Histoire des Jeux olympiques
   "hf4-louis-xiv": "cg-histoire-france-06", // 81% Le siècle de Louis XIV <- Louis XIV et l'absolutisme (1643-1715)
-  "ie-securite-sociale": "cg-institutions-economie-03", // 80% La protection sociale française <- La protection sociale et la Sécurité sociale
+  "ie-securite-sociale": "cg-institutions-economie-03",
+  "ie3-securite-sociale-branches": "cg-institutions-economie-03", // 72% Les branches de la protection sociale // 80% La protection sociale française <- La protection sociale et la Sécurité sociale
   "geo-fleuves-monde": "cg-geographie-09", // 77% Les grands fleuves et leurs bassins <- Les grands fleuves du monde
   "lf-expressions-francaises": "cg-langue-francaise-02", // 77% Les expressions et locutions françaises <- Expressions et locutions : enquête sur leurs origines
   "ie3-transition-economie": "cg-institutions-economie-17", // 77% Économie et transition écologique <- Le développement durable et la transition écologique
