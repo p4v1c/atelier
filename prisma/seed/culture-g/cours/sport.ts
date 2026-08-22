@@ -286,4 +286,78 @@ Le fair-play, ensemble de comportements respectant l'adversaire et l'esprit du j
 
 C'est ce qui explique la raréfaction des candidatures : le coût et les dépassements budgétaires, systématiques dans l'histoire des Jeux, ont dissuadé de nombreuses villes, plusieurs ayant renoncé après un référendum local négatif. Le CIO a réagi en assouplissant ses exigences, en encourageant l'usage d'équipements existants et en attribuant deux éditions à la fois pour sécuriser le calendrier.`],
   ],
+
+  "sp2-nutrition-sportive": [
+    ["Le carburant", `Le principal carburant de l'effort intense est le glycogène musculaire, forme de stockage du glucose dans le muscle et le foie. Les réserves sont limitées : environ quatre-vingt-dix minutes d'effort soutenu, ce qui explique la défaillance brutale des coureurs de marathon vers le trentième kilomètre.
+
+La recharge glucidique consiste à augmenter fortement les apports en glucides dans les jours précédant une épreuve d'endurance, afin de saturer ces réserves. Les protocoles anciens, qui associaient une phase de privation à une phase de charge, ont été abandonnés : une simple augmentation des glucides sur deux à trois jours suffit, sans l'inconfort de la privation préalable.`],
+    ["Boire, ni trop ni trop peu", `La déshydratation dégrade la performance dès une perte de deux pour cent du poids corporel et augmente le risque de coup de chaleur, urgence vitale. Mais l'excès inverse est tout aussi dangereux : l'hyponatrémie d'effort est une chute du sodium sanguin liée à une consommation excessive d'eau pure, qui provoque nausées, confusion et, dans les cas graves, un œdème cérébral.
+
+Plusieurs décès de marathoniens lui sont attribués, souvent chez des coureurs lents et prudents qui buvaient à chaque ravitaillement. C'est la raison d'être des boissons de l'effort, qui apportent eau, glucides et sodium dans des proportions adaptées : le sodium n'y est pas un détail, il conditionne la rétention de l'eau ingérée.`],
+    ["Ce qui ne change pas", `L'alimentation du sportif diffère surtout par les quantités, non par la nature des aliments. Un sportif d'endurance a des besoins accrus en protéines, mais ces besoins sont couverts par une alimentation variée et suffisante : la supplémentation systématique n'apporte rien de démontré chez la plupart des pratiquants.
+
+La fenêtre métabolique — période courte après l'effort supposée optimale pour la récupération — a été largement relativisée par les travaux récents : ce qui compte est l'apport total sur la journée, bien plus que le timing précis. Pour la grande majorité des pratiquants, la base reste une alimentation variée et suffisante, ajustée en quantité à la dépense.`],
+    ["Les compléments", `Très peu de compléments alimentaires ont une efficacité démontrée dans le sport. La liste courte tient en quelques produits — caféine, créatine, nitrates, bicarbonate — avec des effets modestes et dépendants de la discipline. Tout le reste relève au mieux d'un effet placebo, au pire d'une dépense inutile.
+
+Un risque spécifique s'y ajoute pour les athlètes soumis au contrôle antidopage : la contamination. Des analyses menées sur des compléments du commerce ont trouvé des substances interdites non mentionnées sur l'étiquette, dans des proportions non négligeables. La responsabilité étant objective en matière de dopage — l'athlète répond de ce qu'on trouve dans ses urines, quelle qu'en soit l'origine —, plusieurs carrières ont été détruites par un produit acheté en pharmacie.`],
+  ],
+
+  "sp2-violence-sport": [
+    ["Une culture, pas seulement un problème", `Le supporterisme n'est pas réductible à la violence : il constitue une culture organisée, avec ses codes, ses chants, ses productions visuelles et ses réseaux. Un groupe ultra est un collectif structuré, qui anime la tribune, prépare les déplacements et entretient une identité — souvent avec une conception exigeante du soutien, hostile au football-spectacle et à la commercialisation.
+
+Le tifo en est la production la plus visible : une animation visuelle collective, préparée pendant des semaines, déployée sur toute une tribune à l'entrée des joueurs. Ces réalisations mobilisent des dizaines de bénévoles et des budgets financés par les groupes eux-mêmes.`],
+    ["Deux drames fondateurs", `Le 29 mai 1985, au stade du Heysel à Bruxelles, avant la finale de la Coupe d'Europe, une charge de supporters provoque un mouvement de foule contre un mur qui s'effondre : trente-neuf morts. La rencontre est jouée malgré tout, et les clubs anglais sont exclus des compétitions européennes pendant cinq ans.
+
+Le 15 avril 1989, à Hillsborough, quatre-vingt-seize personnes meurent écrasées dans des tribunes debout surchargées, à la suite d'une ouverture mal gérée des accès. La police accuse d'abord les supporters ; il faudra vingt-sept ans d'enquêtes et de mobilisation des familles pour établir la responsabilité de l'organisation. Le rapport Taylor qui suit impose la suppression des places debout dans l'élite anglaise, mesure qui a transformé les stades britanniques.`],
+    ["Réprimer ou dialoguer", `L'interdiction administrative de stade est une mesure préfectorale qui interdit à un individu l'accès aux enceintes sportives, sans passer par un juge. Rapide et efficace, elle est critiquée pour sa nature administrative et pour les recours limités qu'elle laisse.
+
+Une autre approche s'est développée à partir des expériences allemandes et scandinaves : le dialogue avec les supporters, qui privilégie la médiation, la présence de référents et l'association des groupes à l'organisation. Les pays qui l'ont adoptée constatent une baisse durable des incidents. La lutte contre le racisme dans les stades relève des mêmes tensions : les dispositifs existent — protocoles d'interruption de match, sanctions, campagnes — et sont jugés insuffisants par les joueurs concernés, faute d'application systématique.`],
+    ["Le terrain ordinaire", `La violence dans le sport amateur ne ressemble pas à celle des tribunes professionnelles : elle concerne surtout les rapports avec les arbitres et entre joueurs, lors de matchs de district sans public.
+
+Ses effets sont mesurables. L'arbitrage amateur connaît une crise de recrutement dans plusieurs fédérations : les incivilités, insultes et agressions découragent les vocations, et les jeunes arbitres abandonnent en majorité dans leurs premières saisons. Sans arbitres, les championnats amateurs ne peuvent pas se tenir — ce qui fait de ce phénomène un problème structurel et non anecdotique.`],
+  ],
+  "sp2-sport-environnement": [
+    ["D'où viennent les émissions", `Le poste qui domine l'empreinte carbone d'un grand événement sportif n'est ni la construction ni l'énergie des stades : c'est le déplacement des spectateurs, et particulièrement les vols internationaux. Il peut représenter les trois quarts du total.
+
+Ce constat oriente les leviers d'action. Réduire l'empreinte d'un événement suppose d'abord de limiter les déplacements longs — en concentrant les sites, en favorisant le train, en renonçant aux compétitions éclatées sur plusieurs continents. La sobriété appliquée aux événements consiste précisément à réduire la taille, les déplacements et les constructions neuves, en utilisant des équipements existants ou temporaires.`],
+    ["Les sports d'hiver menacés", `Le réchauffement climatique remet en cause la tenue de certaines compétitions historiques. Il réduit l'enneigement naturel et menace directement les stations de basse et moyenne altitude, dont plusieurs ont déjà fermé leurs remontées. Des travaux estiment qu'une minorité seulement des villes ayant accueilli les Jeux d'hiver disposera encore de conditions fiables à la fin du siècle.
+
+La neige de culture — produite à partir d'eau et d'air comprimé à basse température — permet de compenser partiellement, au prix d'une consommation d'eau et d'énergie considérable, et à condition qu'il fasse assez froid. Elle repousse l'échéance sans la supprimer, et déplace le problème vers la ressource en eau, elle-même sous tension.`],
+    ["La chaleur, l'autre contrainte", `Les épreuves d'endurance estivales sont menacées par les vagues de chaleur, avec un risque sanitaire réel pour les concurrents comme pour le public. Plusieurs marathons olympiques ont été déplacés ou avancés de plusieurs heures ; certaines compétitions ont été délocalisées vers des villes plus fraîches.
+
+Cette contrainte modifie les calendriers internationaux, avec des conséquences en cascade sur les saisons, les diffusions télévisées et les contrats. Elle illustre une réalité que le sport découvre : sa dépendance aux conditions naturelles n'est pas négociable, contrairement à ses formats.`],
+    ["Les sports de nature", `L'érosion des sentiers par la fréquentation sportive dégrade les sols, notamment en montagne où la végétation se reconstitue très lentement. Le dérangement de la faune est plus insidieux : la seule présence humaine perturbe le repos et la reproduction des animaux sauvages, avec des effets mesurables sur la survie hivernale.
+
+Les zones de quiétude répondent à ce problème en limitant la fréquentation de certains secteurs à certaines périodes, sur une base souvent volontaire. Quant à la compensation carbone — financement de projets censés compenser les émissions produites —, elle est de plus en plus critiquée : les projets de compensation tiennent rarement leurs promesses, et l'argument sert souvent à éviter la réduction. Le sport reste néanmoins un porte-voix efficace, par sa visibilité et par le fait que ses pratiquants constatent eux-mêmes les changements sur le terrain.`],
+  ],
+
+  "sp3-paralympiques": [
+    ["De l'hôpital au stade", `Les Jeux paralympiques sont nés de la rééducation de blessés de guerre. Ludwig Guttmann, neurologue allemand réfugié au Royaume-Uni, dirige l'unité des blessés médullaires de l'hôpital de Stoke Mandeville et fait du sport un outil thérapeutique, à une époque où l'espérance de vie après une lésion de la moelle se comptait en mois.
+
+Les premiers jeux de Stoke Mandeville se tiennent en 1948, le jour de l'ouverture des Jeux de Londres. Douze ans plus tard, en 1960, les premiers Jeux paralympiques ont lieu à Rome. Depuis Séoul en 1988, ils se déroulent dans la même ville et sur les mêmes installations que les Jeux olympiques, en vertu d'un accord entre les deux comités.`],
+    ["Classer", `La classification en sport paralympique regroupe les athlètes selon l'impact de leur déficience sur la performance dans une discipline donnée. Elle est propre à chaque sport et repose sur des évaluations conduites par des classificateurs formés — médicales, techniques et parfois en situation de compétition.
+
+Son objectif est que le résultat dépende de l'entraînement et du talent plutôt que du degré de déficience. Elle est aussi le point le plus contesté du mouvement : un changement de classe peut anéantir une carrière, et les soupçons de sous-évaluation volontaire, comme les contestations de classement, alimentent des contentieux réguliers.`],
+    ["Des disciplines spécifiques", `Plusieurs sports paralympiques n'ont pas d'équivalent olympique. Le goalball oppose deux équipes de trois joueurs déficients visuels qui font rouler un ballon sonore vers un but de neuf mètres ; tous portent un masque opaque et le silence du public est requis. Le boccia, sport de précision proche de la pétanque, s'adresse aux athlètes présentant un handicap moteur sévère, y compris ceux qui jouent à l'aide d'une rampe et d'un assistant.
+
+Le rugby-fauteuil est un sport de contact mixte destiné aux tétraplégiques, où les chocs entre fauteuils font partie du jeu. En cyclisme, le tandem associe un pilote voyant et un athlète déficient visuel : les deux forment une équipe, et le pilote est un athlète à part entière, non un accompagnateur.`],
+    ["Les figures et les limites", `En France, Marie-Amélie Le Fur a marqué l'athlétisme paralympique avec plusieurs titres et records du monde, avant de présider le Comité paralympique et sportif français. Sa trajectoire illustre un mouvement plus large : les athlètes prennent la direction des institutions qui les représentent.
+
+L'enjeu principal reste économique et médiatique. Malgré les progrès considérables enregistrés lors des Jeux de Paris 2024, la médiatisation et le financement du sport paralympique restent inférieurs à ceux du sport olympique, ce qui se traduit par des différences de primes, de contrats et d'accès aux structures d'entraînement.`],
+  ],
+
+  "sp3-athletisme-fond": [
+    ["Une distance née d'un hasard", `Le marathon mesure 42,195 kilomètres depuis les Jeux de Londres de 1908, où le parcours fut tracé du château de Windsor à la loge royale du stade. La distance fut officialisée en 1921 et n'a plus bougé : elle ne correspond donc à aucune réalité antique, la course de Marathon à Athènes faisant une quarantaine de kilomètres selon les itinéraires.
+
+En 2019, à Vienne, Eliud Kipchoge est devenu le premier homme à courir cette distance en moins de deux heures — hors compétition officielle, avec des relais de lièvres, une voiture pilote et un tracé optimisé, ce qui interdit l'homologation. La performance reste un jalon physiologique, même si le record officiel demeure supérieur.`],
+    ["Pourquoi le Kenya", `Le Kenya domine les courses de fond depuis les années 1990, avec l'Éthiopie pour principale rivale. Les explications avancées se cumulent sans qu'aucune ne suffise : altitude d'entraînement autour de deux mille mètres, morphologies longilignes économiques en course, marche ou course quotidienne dès l'enfance, et surtout une organisation sociale où la réussite en athlétisme représente une voie de mobilité économique majeure, avec des groupes d'entraînement structurés.
+
+Les explications purement génétiques sont contestées : elles n'expliquent pas la concentration des champions dans quelques districts précis, ni le rôle des filières d'entraînement et des agents internationaux.`],
+    ["Ce que mesure le corps", `La VO2 max mesure la consommation maximale d'oxygène d'un individu, exprimée en millilitres par kilo et par minute. Elle constitue un plafond mais ne suffit pas à prédire la performance : l'économie de course — l'énergie dépensée pour une vitesse donnée — et le seuil auquel le lactate s'accumule comptent au moins autant.
+
+L'entraînement en altitude vise à stimuler la production de globules rouges par l'exposition à un air pauvre en oxygène. La formule la plus documentée consiste à vivre en altitude et à s'entraîner plus bas, afin de conserver l'intensité des séances. Le mur du marathon, effondrement brutal survenant généralement après trente kilomètres, correspond à l'épuisement des réserves de glycogène : le corps bascule sur les lipides, moins efficaces, et l'allure s'effondre.`],
+    ["Les figures et le matériel", `L'Éthiopien Abebe Bikila remporte le marathon olympique de Rome en 1960 pieds nus, faute de chaussures à sa taille, et récidive quatre ans plus tard à Tokyo, chaussé. Le Tchèque Emil Zátopek réalise en 1952 un exploit jamais égalé : trois titres olympiques dans la même édition sur cinq mille mètres, dix mille mètres et marathon — ce dernier couru pour la première fois de sa vie.
+
+Le steeple, course de trois mille mètres avec barrières fixes et rivière, complète le tableau des épreuves de fond sur piste. Le débat le plus vif du moment porte sur les chaussures à plaque de carbone, dont le gain de performance mesuré — plusieurs pour cent d'économie d'énergie — a conduit la fédération internationale à réglementer l'épaisseur des semelles, sans clore la discussion sur l'équité.`],
+  ],
 };
