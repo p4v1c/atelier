@@ -475,7 +475,7 @@ export const CG_INSTITUTIONS_ECONOMIE_3: SeedSkill[] = [
      "La Commission nationale du débat public en est l'autorité indépendante organisatrice.", 3],
   ]),
 
-  notion("ie3-crises-contemporaines", S, "Crises économiques récentes",
+  notion("ie3-crises-contemporaines", S, "Les crises de 2008 à aujourd'hui",
     "2008, 2020, inflation : mécanismes et réponses.",
     "Chaque crise récente a modifié le rôle attendu des banques centrales et des États.",
     2, [

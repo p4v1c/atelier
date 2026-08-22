@@ -475,7 +475,7 @@ export const CG_PHYSIQUE_CHIMIE_3: SeedSkill[] = [
      "Il est faible en moyenne, mais suffisant pour animer la tectonique des plaques.", 3],
   ]),
 
-  notion("pc3-mesure-quantite", S, "Ordres de grandeur et estimation",
+  notion("pc3-mesure-quantite", S, "Estimer avant de calculer",
     "Savoir estimer avant de calculer.",
     "Une estimation par ordres de grandeur permet de détecter une erreur de calcul absurde.",
     2, [

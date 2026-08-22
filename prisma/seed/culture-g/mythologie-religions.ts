@@ -319,7 +319,7 @@ export const CG_MYTHOLOGIE_RELIGIONS: SeedSkill[] = [
      "Vingt monastères y forment un État autonome au sein de la Grèce, dont l'accès est interdit aux femmes depuis des siècles.", 3],
   ]),
 
-  notion("mr-textes-sacres", S, "Les textes sacrés et leur transmission",
+  notion("mr-textes-sacres", S, "Canon, exégèse et interprétation",
     "Comment un texte devient canonique, comment il se transmet et comment on l'étudie.",
     "Un canon est le résultat d'un processus historique de sélection, souvent long et disputé.",
     2, [

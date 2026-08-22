@@ -61,7 +61,7 @@ export const CG_LANGUE_FRANCAISE: SeedSkill[] = [
      "Le Québec et la Belgique l'avaient adoptée bien plus tôt, dès les années 1980.", 3],
   ]),
 
-  notion("lf-etymologie", S, "L'étymologie et l'origine des mots",
+  notion("lf-etymologie", S, "Étymologie et doublets lexicaux",
     "D'où viennent les mots, comment ils voyagent, et pourquoi certains changent de sens.",
     "Un doublet est un même mot latin arrivé deux fois : une fois par l'usage, une fois par les savants.",
     2, [

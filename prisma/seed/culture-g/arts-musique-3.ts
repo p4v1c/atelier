@@ -137,7 +137,7 @@ export const CG_ARTS_MUSIQUE_3: SeedSkill[] = [
      "A Love Supreme, enregistré en 1964, est l'un des albums les plus commentés du genre.", 3],
   ]),
 
-  notion("am3-rock-pop", S, "Rock et musiques populaires",
+  notion("am3-rock-pop", S, "Du rock britannique au grunge",
     "Courants, groupes, industrie.",
     "Le rock s'est fragmenté en dizaines de sous-genres à partir des années 1970.",
     2, [
