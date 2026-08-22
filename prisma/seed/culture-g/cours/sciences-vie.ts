@@ -366,4 +366,115 @@ Les schistes de Burgess, en Colombie-Britannique, en donnent l'image la plus com
 Les découvertes chinoises des trente dernières années ont depuis transformé le tableau : des dizaines d'espèces de dinosaures à plumes ont été mises au jour, montrant que le plumage précède le vol et servait probablement d'abord à l'isolation ou à la parade. La conclusion est désormais consensuelle et vaut d'être formulée sans détour : les oiseaux ne descendent pas des dinosaures, ils sont des dinosaures — le seul groupe à avoir traversé la crise du Crétacé.`,
       { image: "svt-archaeopteryx", legende: "L'Archaeopteryx : plumes, dents, queue osseuse et griffes — la forme intermédiaire arrivée au moment opportun.", alt: "Fossile d'Archaeopteryx" }],
   ],
+
+  "sv2-sommeil-rythmes": [
+    ["Une horloge qui retarde", `Un rythme circadien est un cycle biologique d'environ vingt-quatre heures — le mot vient du latin *circa diem*, « environ un jour », et cette approximation est essentielle. Isolé de tout repère temporel, un être humain adopte spontanément un rythme légèrement supérieur à vingt-quatre heures, généralement autour de vingt-quatre heures et quart. L'horloge biologique tourne donc un peu trop lentement, et se recale chaque jour sur la lumière.
+
+Cette horloge principale se situe dans l'hypothalamus, dans un noyau de quelques milliers de neurones qui reçoit directement l'information lumineuse de la rétine par une voie distincte de celle de la vision. Elle synchronise ensuite des horloges secondaires présentes dans presque tous les organes — foie, intestin, muscles —, ce qui explique que le décalage horaire ne perturbe pas seulement le sommeil mais aussi la digestion et la température corporelle, chaque organe se recalant à son propre rythme.
+
+La lumière est donc le signal maître. La lumière bleue des écrans en soirée retarde la sécrétion de mélatonine, l'hormone qui signale la nuit : le cerveau reçoit l'information qu'il fait encore jour, et l'endormissement se décale.`],
+    ["Ce qui se passe pendant la nuit", `Le sommeil s'organise en cycles d'environ quatre-vingt-dix minutes, répétés quatre à six fois par nuit. Chaque cycle traverse des stades de sommeil lent de plus en plus profond, puis une phase de sommeil paradoxal.
+
+Le sommeil lent profond est le plus réparateur physiquement : c'est là que se produit l'essentiel de la sécrétion d'hormone de croissance, de la réparation tissulaire et du nettoyage cérébral par le système glymphatique. Il domine les premiers cycles de la nuit, ce qui explique qu'un coucher tardif ampute d'abord cette phase.
+
+Le sommeil paradoxal se caractérise par une activité cérébrale intense, proche de l'éveil, associée à une atonie musculaire complète — d'où son nom. C'est la phase des rêves les plus élaborés, et l'atonie est un mécanisme de protection qui empêche de les mettre en acte. Il occupe une part croissante des cycles de fin de nuit, et joue un rôle majeur dans la consolidation de la mémoire et la régulation émotionnelle.`],
+    ["La dette", `Un adulte a besoin en moyenne de sept à neuf heures de sommeil. La moyenne masque des variations individuelles réelles, mais les personnes réellement capables de bien fonctionner avec cinq heures sont rarissimes — bien plus rares que celles qui le croient, les tests objectifs montrant chez ces dernières des performances dégradées qu'elles ne perçoivent plus.
+
+C'est là l'effet le plus insidieux d'une dette de sommeil chronique : elle dégrade l'attention, le temps de réaction, la mémorisation et l'humeur, tout en altérant la capacité à s'en rendre compte. S'y ajoutent des effets métaboliques bien documentés — dérèglement des hormones de l'appétit, résistance à l'insuline, augmentation du risque cardiovasculaire — et un affaiblissement de la réponse immunitaire.
+
+Le sommeil de récupération ne compense que partiellement : on rattrape assez bien le sommeil lent profond, beaucoup moins le reste, et une nuit longue le samedi n'annule pas cinq nuits courtes.`],
+    ["Vivre à contretemps", `Le décalage horaire social désigne l'écart entre les horaires imposés en semaine et le rythme naturel du corps. Un adolescent, dont l'horloge se décale physiologiquement vers le tard à la puberté, est réveillé à sept heures pour un organisme qui en est au milieu de sa nuit ; il compense le week-end en dormant tard, ce qui décale encore l'horloge, et la semaine recommence. Le phénomène équivaut à traverser un ou deux fuseaux horaires chaque week-end, et il est associé à de moins bons résultats scolaires et à un risque accru de troubles de l'humeur. Plusieurs pays ont expérimenté un décalage des horaires scolaires du secondaire, avec des résultats favorables.
+
+Le travail posté, et surtout le travail de nuit, pousse cette désynchronisation à l'extrême : l'horloge interne ne se recale jamais complètement, l'alternance des postes empêchant toute stabilisation. Il augmente les risques cardiovasculaires et métaboliques, et le travail de nuit a été classé cancérogène probable par le Centre international de recherche sur le cancer. Cela ne signifie pas qu'il faille le supprimer — beaucoup d'activités l'exigent — mais qu'il relève d'une surveillance médicale et d'une organisation des rotations qui ne sont pas partout appliquées.`],
+  ],
+
+  "sv2-agriculture-sols": [
+    ["Un milieu vivant, pas un support", `Un sol est composé de minéraux issus de la roche mère, de matière organique, d'eau, d'air et d'organismes vivants. Cette dernière catégorie est décisive : une poignée de sol fertile contient plus d'organismes que la planète ne compte d'humains — bactéries, champignons, protozoaires, nématodes, acariens, vers.
+
+Un sol n'est donc pas un support inerte où l'on plante, mais un écosystème complet dont la fertilité résulte d'une activité biologique. C'est ce qui distingue radicalement un sol d'un substrat, et ce qui explique qu'on ne le fabrique pas.
+
+Sa formation est extraordinairement lente : il faut plusieurs centaines d'années pour former un centimètre de sol fertile, par altération de la roche et accumulation de matière organique. À l'échelle d'une vie humaine, un sol est une ressource non renouvelable — rapide à perdre, impossible à reconstituer.`],
+    ["Ce qui retient la fertilité", `L'humus est la matière organique décomposée et stabilisée d'un sol : ce qui reste des débris végétaux et animaux après que les décomposeurs ont fait leur travail, sous forme de molécules complexes très résistantes.
+
+Son rôle devient décisif lorsqu'il s'associe à l'argile pour former le complexe argilo-humique. Argile et humus portent tous deux des charges négatives, qui retiennent les ions nutritifs positifs — calcium, magnésium, potassium, ammonium — et les empêchent d'être emportés par la pluie tout en les laissant disponibles pour les racines. C'est ce complexe qui fait la différence entre un sol qui garde ce qu'on lui apporte et un sable qui laisse tout filer.
+
+Il structure aussi le sol en agrégats, ménageant une porosité où circulent l'eau et l'air. La fertilité est donc autant une affaire de structure que de composition chimique — un sol riche mais compact nourrit mal.`],
+    ["Comment on perd un sol", `L'érosion entraîne les particules par l'eau ou par le vent. Elle est massivement accélérée par le sol nu : une parcelle couverte de végétation perd des quantités négligeables, la même parcelle laissée nue en perd des tonnes par hectare et par an. C'est pourquoi les couverts végétaux intermédiaires et les haies sont devenus des enjeux agronomiques et non seulement paysagers.
+
+Le tassement est une compaction qui réduit la porosité, donc la circulation de l'eau et de l'air : les racines ne descendent plus, l'eau stagne en surface et ruisselle. Il résulte du passage d'engins lourds, particulièrement sur sol humide, et se corrige mal — les couches profondes tassées peuvent le rester des décennies.
+
+La salinisation accumule des sels jusqu'à rendre la terre stérile. Elle frappe surtout les zones irriguées en climat sec : l'eau d'irrigation contient toujours un peu de sel, elle s'évapore, le sel reste. Elle a ruiné des civilisations entières, en Mésopotamie notamment, et affecte aujourd'hui des surfaces considérables.
+
+La désertification enfin désigne la dégradation des terres en zones sèches, souvent d'origine humaine — surpâturage, déboisement, mise en culture de terres fragiles. Le mot ne désigne pas l'avancée d'un désert existant mais l'apparition de conditions désertiques là où elles n'étaient pas.`],
+    ["Un stock de carbone considérable", `Le ver de terre est l'indicateur le plus commode de la qualité biologique d'un sol : il ne survit ni au tassement excessif, ni à l'absence de matière organique, ni à certains traitements. Sa présence en nombre signale un sol fonctionnel. Son action est en outre directe — il ingère la terre, la mélange à la matière organique, creuse des galeries qui structurent et drainent. Darwin y a consacré son dernier livre, estimant que ces animaux avaient retourné toute la couche superficielle des terres britanniques.
+
+Le fait le plus lourd de conséquences climatiques est ailleurs : les sols stockent environ deux à trois fois plus de carbone que l'atmosphère n'en contient, sous forme de matière organique. La conséquence est à double tranchant. Une pratique qui dégrade ce stock relâche du CO₂ en quantités considérables — le labour intensif et la mise en culture de prairies ont ainsi émis, historiquement, autant que certaines industries. Inversement, des pratiques qui l'augmentent séquestrent du carbone : c'est le fondement de l'initiative internationale visant une hausse annuelle de quatre pour mille du stock des sols agricoles, ordre de grandeur qui suffirait à compenser une part notable des émissions.`],
+  ],
+
+  "sv2-virus": [
+    ["Vivant ou non ?", `Un virus est constitué au minimum d'un matériel génétique — ADN ou ARN — entouré d'une capside protéique, parfois d'une enveloppe lipidique empruntée à la cellule hôte. Il n'a ni métabolisme, ni ribosomes, ni moyen de produire de l'énergie.
+
+Il ne se reproduit qu'en détournant la machinerie d'une cellule hôte : il y injecte son génome, qui fait fabriquer par la cellule ses propres protéines et ses copies. C'est ce qui le place à la frontière du vivant — il possède un patrimoine génétique et évolue par sélection naturelle, mais il ne fait rien tout seul.
+
+Cette absence de métabolisme propre explique pourquoi les antibiotiques sont inefficaces contre les virus : ils ciblent des structures bactériennes — paroi, ribosome bactérien, synthèse de l'acide folique — que les virus ne possèdent pas. Prescrire un antibiotique pour une grippe ou un rhume n'apporte donc aucun bénéfice et entretient les résistances bactériennes. C'est l'un des messages de santé publique les plus répétés et les moins intégrés.`],
+    ["Pourquoi certains mutent si vite", `Un virus à ARN a un génome fait d'ARN et non d'ADN. La différence est décisive : les enzymes qui copient l'ARN ne disposent pas des mécanismes de correction d'erreurs qui accompagnent la réplication de l'ADN. Le taux de mutation est donc des milliers de fois supérieur.
+
+Il en résulte une évolution extrêmement rapide : le VIH, la grippe, les coronavirus et les entérovirus sont tous des virus à ARN, et tous posent le même problème — un vaccin ou un traitement ciblé peut être contourné en quelques saisons.
+
+Un variant est une version du virus portant des mutations distinctives. La plupart n'ont aucune conséquence ; certaines modifient la transmissibilité, la sévérité ou la reconnaissance par les anticorps. Le suivi des variants par séquençage systématique, devenu routinier depuis 2020, est une capacité de surveillance entièrement nouvelle à cette échelle.`],
+    ["D'où viennent les épidémies", `Une zoonose est une maladie transmissible de l'animal à l'humain. La majorité des maladies infectieuses émergentes en relèvent — grippes, VIH, Ebola, coronavirus, rage. Le mécanisme suppose un contact suffisant et une adaptation du virus à un nouvel hôte, ce que favorisent la déforestation, l'élargissement des zones d'élevage et le commerce d'animaux sauvages.
+
+Un réservoir est une espèce hébergeant durablement un virus sans en être gravement affectée. Les chauves-souris jouent ce rôle pour de nombreux virus, en raison de particularités de leur système immunitaire liées au vol. Un réservoir rend l'éradication d'une maladie pratiquement impossible : on ne peut éliminer que les maladies strictement humaines, ce qui explique que la variole ait pu être éradiquée et pas la fièvre jaune.`],
+    ["Les chiffres d'une épidémie", `Le taux de reproduction de base mesure le nombre moyen de personnes infectées par un malade dans une population entièrement non immunisée. En dessous de un, l'épidémie s'éteint ; au-dessus, elle croît. Ce n'est pas une constante du virus mais le produit d'une biologie et d'un comportement social — densité, contacts, ventilation —, ce qui explique qu'il varie d'un pays à l'autre et qu'on puisse agir dessus.
+
+La période d'incubation est le délai entre l'infection et l'apparition des symptômes. Elle détermine la durée des quarantaines et la difficulté du traçage : plus elle est longue, plus le virus circule avant qu'on ne le sache.
+
+Un porteur asymptomatique est infecté et parfois contagieux sans présenter de symptômes. C'est le facteur qui rend certaines épidémies impossibles à contenir par le seul isolement des malades — on ne peut isoler que ceux qu'on repère.
+
+Le virus influenza, responsable de la grippe saisonnière, illustre ces mécanismes : ses mutations progressives imposent une révision annuelle du vaccin, et ses réassortiments entre souches humaines et animales, plus rares et plus brutaux, sont à l'origine des pandémies grippales du XXe siècle.`],
+  ],
+
+  "sv2-eau-potable": [
+    ["La mesure de santé publique la plus efficace", `L'accès à l'eau potable et à l'assainissement a sauvé plus de vies que n'importe quel médicament. La chute de la mortalité infantile dans les villes européennes du XIXe siècle doit davantage aux réseaux d'égouts et à la filtration de l'eau qu'à toute la pharmacopée de l'époque — et l'épisode fondateur est l'enquête de John Snow à Londres en 1854, qui, en cartographiant les cas de choléra autour d'une pompe de Broad Street, établit la transmission hydrique avant même qu'on ne connaisse le vibrion responsable.
+
+La chaîne de traitement commence par le dégrillage et la clarification : on retire les gros débris, puis les matières en suspension. Vient la coagulation-floculation, qui agglomère les particules fines — trop légères pour décanter seules — en flocons assez lourds pour tomber, grâce à un réactif qui neutralise leurs charges répulsives. Filtration sur sable et parfois sur charbon actif achèvent la clarification.`],
+    ["Désinfecter, et le rester", `L'eau du robinet contient du chlore résiduel non pour désinfecter au moment du traitement — l'ozone ou les ultraviolets le font parfois mieux — mais pour maintenir une désinfection tout au long du réseau. Entre l'usine et le robinet, l'eau parcourt parfois des dizaines de kilomètres de canalisations pendant plusieurs jours, avec des risques de contamination par une fuite ou un retour d'eau. Le chlore garantit qu'aucune bactérie ne s'y développe.
+
+C'est un arbitrage assumé : un léger goût contre une sécurité microbiologique continue. Les pays qui distribuent une eau sans résiduel désinfectant, comme les Pays-Bas, y parviennent au prix d'une exigence extrême sur l'étanchéité et le renouvellement des réseaux.`],
+    ["Ce que devient l'eau usée", `Une station d'épuration traite les eaux usées avant leur rejet dans le milieu naturel. Après des étapes physiques — dégrillage, dessablage, déshuilage, décantation —, le cœur du traitement est biologique : des bactéries dégradent la matière organique dissoute, dans un bassin brassé et aéré où on les maintient en population dense.
+
+Ce sont donc des bactéries qui font le travail, et la station n'est en réalité qu'un dispositif pour les héberger dans de bonnes conditions. D'où sa vulnérabilité : un rejet toxique en amont — solvant, biocide, métal — tue la flore et met la station hors service pendant des semaines. Des traitements complémentaires éliminent ensuite l'azote et le phosphore, responsables de l'eutrophisation.
+
+Environ un tiers de la population mondiale n'a toujours pas accès à un assainissement géré en toute sécurité. C'est la statistique la plus lourde du domaine, et elle explique une part majeure de la mortalité infantile par diarrhées dans les pays à faible revenu.`],
+    ["Produire de l'eau, protéger les ressources", `Le dessalement retire le sel de l'eau de mer pour produire de l'eau douce, principalement par osmose inverse : on force l'eau à traverser une membrane semi-perméable qui retient les sels, en appliquant une pression supérieure à la pression osmotique. Le procédé est énergivore et produit une saumure concentrée dont le rejet pose des problèmes locaux, mais il alimente désormais des pays entiers du Golfe et des régions méditerranéennes.
+
+Un périmètre de protection de captage est une zone où les activités sont réglementées autour d'un point de prélèvement — épandage, stockage de produits, construction. C'est la mesure la plus économique de toute la filière : protéger la ressource coûte infiniment moins cher que traiter une eau dégradée, et la ville de New York a fait l'économie d'une usine de plusieurs milliards en achetant et protégeant les bassins versants qui l'alimentent.
+
+Un polluant émergent est une substance récemment détectée dont les effets sont encore mal connus : résidus médicamenteux, hormones, composés perfluorés, microplastiques. Le mot « émergent » est trompeur — beaucoup étaient présents depuis longtemps, ce sont les instruments d'analyse qui les révèlent. Leur traitement exige des procédés complémentaires que la plupart des stations ne possèdent pas encore.`],
+  ],
+
+  "sv2-toxicologie": [
+    ["La dose fait le poison", `Paracelse énonce au XVIe siècle le principe fondateur de la toxicologie : toute substance est un poison, seule la dose fait qu'une chose n'est pas un poison. L'eau, l'oxygène et le sel tuent à dose suffisante ; le venin de serpent et l'arsenic sont sans effet à dose assez faible.
+
+La conséquence pratique est qu'aucune substance n'est « toxique » ou « inoffensive » dans l'absolu : la question est toujours celle de la dose et de l'exposition. C'est ce qui rend absurde tout raisonnement fondé sur la seule présence d'une substance, la chimie analytique détectant aujourd'hui des concentrations qui étaient invisibles hier.
+
+La dose journalière admissible traduit ce principe en réglementation : c'est la quantité qu'une personne peut ingérer chaque jour toute sa vie sans risque appréciable. Elle est établie à partir de la plus forte dose sans effet observé chez l'animal, divisée par un facteur de sécurité important — typiquement cent — pour couvrir les différences entre espèces et entre individus.`],
+    ["Là où le principe se complique", `Certains effets ne suivent pas une relation dose-réponse simple, et c'est là que la toxicologie classique atteint ses limites.
+
+Un perturbateur endocrinien interfère avec le système hormonal, en imitant une hormone, en bloquant son récepteur ou en modifiant sa production. Or les hormones agissent à des concentrations infimes, et leur système de régulation est non linéaire : une faible dose peut produire un effet qu'une forte dose ne produit pas, ce qui contredit le postulat « plus la dose est élevée, plus l'effet l'est ». S'y ajoutent des fenêtres de vulnérabilité — vie fœtale, puberté — où une exposition brève a des conséquences durables.
+
+L'effet cocktail désigne l'interaction entre plusieurs substances, dont les effets combinés diffèrent de la somme des effets isolés. L'évaluation réglementaire, conduite substance par substance, ne le capture pas — et une personne réelle est exposée à des centaines de composés simultanément. C'est l'une des principales critiques adressées au dispositif actuel, et l'un des chantiers ouverts.`],
+    ["Classer le risque", `Le Centre international de recherche sur le cancer classe des agents selon le niveau de preuve de leur caractère cancérogène : groupe 1 pour les cancérogènes avérés, 2A pour les probables, 2B pour les possibles, 3 pour les non classables.
+
+Cette classification est massivement mal comprise. Elle porte sur la force des preuves, non sur l'ampleur du risque. Le tabac et la charcuterie figurent tous deux au groupe 1 : cela signifie qu'il est établi que les deux causent des cancers, pas qu'ils en causent autant. Le risque attribuable au tabac est sans commune mesure. Confondre les deux dimensions conduit à des titres de presse absurdes et, plus grave, à une banalisation du risque réel.
+
+Le principe ALARA, venu de la radioprotection, propose une réponse pragmatique : réduire l'exposition au niveau le plus bas raisonnablement possible, compte tenu des contraintes techniques et économiques. Il évite à la fois l'inaction et l'exigence irréaliste du risque nul.`],
+    ["Ce que l'histoire a enseigné", `Le saturnisme est une intoxication au plomb, qui atteint le système nerveux et provoque chez l'enfant des troubles cognitifs irréversibles. Longtemps banalisé — canalisations, peintures, essence plombée, vaisselle —, il illustre la lenteur avec laquelle une exposition massive a été reconnue puis supprimée. Le retrait du plomb des carburants a produit une baisse mesurable de la plombémie de populations entières.
+
+La maladie de Minamata révèle au Japon, à partir des années 1950, la toxicité du mercure : une usine chimique rejette du méthylmercure dans la baie, il se bioaccumule dans les poissons, et des milliers d'habitants développent des atteintes neurologiques sévères, y compris des enfants exposés pendant la grossesse. La reconnaissance officielle a demandé des décennies de lutte, et la convention internationale sur le mercure porte aujourd'hui ce nom.
+
+L'amiante est un minéral fibreux dont les qualités d'isolation et de résistance au feu ont conduit à un usage massif. L'inhalation de ses fibres provoque des cancers, dont le mésothéliome, avec un délai de latence pouvant dépasser quarante ans. Sa dangerosité était documentée dès les années 1950 ; son interdiction en France date de 1997, et les décès continueront pendant des décennies. C'est le cas de référence du décalage entre le savoir scientifique et la décision publique.
+
+Un polluant persistant, enfin, se dégrade très lentement dans l'environnement : le temps devient alors un facteur du risque, indépendamment de la dose émise. Une substance peu toxique mais éternelle finit par poser un problème qu'une substance très toxique et fugace ne pose pas.`],
+  ],
 };
