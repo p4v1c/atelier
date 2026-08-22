@@ -135,4 +135,78 @@ L'écrit a ses propres garde-fous. La massore, dans la tradition juive, est un a
 
 Les deux disciplines sont nées dans le domaine religieux avant de s'étendre au droit, à la littérature et à l'histoire. Un dernier détail rappelle que ces textes sont des objets matériels autant que spirituels : le colophon, note finale d'un manuscrit ancien, indique le nom du copiste, le lieu ou la date de l'achèvement, et fournit aux historiens l'une de leurs sources les plus précieuses.`],
   ],
+
+  "mr2-mythologie-grecque-recits": [
+    ["Des versions qui se contredisent", `Les mythes grecs ne forment pas un système cohérent : les versions se contredisent souvent, et c'est normal. Il n'existait ni texte sacré, ni clergé chargé de fixer une orthodoxie, ni dogme. Chaque cité, chaque poète, chaque époque adaptait les récits — au point qu'un même héros peut mourir de trois façons différentes selon les sources.
+
+Hésiode, poète du VIIIe siècle avant notre ère, raconte dans sa Théogonie la naissance des dieux et l'ordre du monde : du Chaos initial aux Titans, puis aux Olympiens. Les Titans sont les divinités de la génération précédant Zeus et ses frères ; leur défaite, la Titanomachie, fonde l'ordre olympien — schéma d'une succession violente qu'on retrouve dans plusieurs mythologies proche-orientales.`],
+    ["La guerre de Troie", `Selon le mythe, la guerre de Troie est déclenchée par l'enlèvement d'Hélène, épouse du roi de Sparte, par le prince troyen Pâris. La cause est en réalité un enchaînement de promesses divines, remontant à la pomme de discorde et au jugement de Pâris entre trois déesses — récit qui met en place une des règles du genre : ce sont les querelles des dieux qui décident du sort des hommes.
+
+Achille en est le héros grec, invulnérable sauf au talon par lequel sa mère le tenait en le plongeant dans le Styx. Il tue Hector, principal défenseur de Troie, et traîne son corps autour des murs — scène qui occupe la fin de l'Iliade et dont l'enjeu, la restitution du cadavre au père, constitue le sommet moral du poème. La ville tombe enfin par la ruse du cheval de bois, épisode qui ne figure pas dans l'Iliade mais dans l'Odyssée et l'Énéide.`],
+    ["Les suites", `Énée, héros troyen, fuit la ville en flammes en portant son père sur son dos, et fonde après un long voyage la lignée dont sortira Rome. Le récit, repris et fixé par Virgile dans l'Énéide, offre à Rome une origine prestigieuse et troyenne — donc antérieure et étrangère aux Grecs qu'elle avait conquis.
+
+D'autres cycles complètent l'ensemble. Jason part conquérir la Toison d'or avec les Argonautes, et n'y parvient que grâce à Médée, magicienne qui trahit son père pour lui et qu'il abandonnera ensuite — la vengeance qu'elle en tire a fourni à Euripide l'une des tragédies les plus terribles du répertoire. Orphée, poète dont le chant charme les Enfers, obtient de ramener Eurydice à condition de ne pas se retourner : il se retourne.`],
+    ["Le mal, et la faute", `La jarre de Pandore — traduite par erreur en boîte à la Renaissance — libère sur l'humanité tous les maux lorsqu'elle est ouverte. Seule l'espérance reste au fond, détail dont le sens divise les commentateurs depuis l'Antiquité : est-elle un ultime réconfort conservé, ou au contraire le pire des maux, retenu pour que les hommes continuent de souffrir en espérant ?
+
+Le mythe forme couple avec celui de Prométhée : c'est en punition du vol du feu que Zeus envoie Pandore aux hommes. L'ensemble raconte une chose simple et sombre — chaque progrès technique se paie, et le savoir n'a pas d'usage sans contrepartie.`],
+  ],
+
+  "mr2-mythologie-celte": [
+    ["Un savoir qu'on n'écrivait pas", `Les Celtes n'écrivaient pas leurs traditions religieuses : nos sources sont extérieures ou tardives. César rapporte explicitement que les druides interdisaient de mettre par écrit leur savoir, pour deux raisons selon lui — éviter la divulgation, et forcer l'exercice de la mémoire.
+
+Il en résulte que la mythologie celtique continentale est très mal connue : nous en savons ce qu'en ont dit des auteurs grecs et romains, souvent hostiles, et ce qu'en montre l'archéologie, qui ne parle pas. Les druides y apparaissent comme une élite exerçant à la fois les fonctions de prêtres, de juges et de dépositaires du savoir — un statut sans équivalent dans le monde romain, où ces rôles étaient séparés.`],
+    ["Ce que disent les sources romaines", `Pline l'Ancien rapporte le culte du chêne et la cueillette rituelle du gui à la serpe d'or, description dont l'exactitude est invérifiable mais qui a durablement façonné l'imaginaire du druide.
+
+La question des sacrifices humains est plus délicate. Des indices archéologiques existent — dépôts de corps, traces de mise à mort rituelle — mais les récits romains de bûchers d'osier remplis de victimes sont sujets à caution : ils servaient à justifier la conquête en présentant les Gaulois comme des barbares. La prudence s'impose donc dans les deux sens : ni négation, ni reprise littérale de la propagande.`],
+    ["L'Irlande, seule à avoir écrit", `L'essentiel de ce que nous appelons mythologie celtique vient en réalité de manuscrits irlandais médiévaux, rédigés par des moines chrétiens plusieurs siècles après la christianisation. Le Livre des conquêtes raconte les invasions mythiques successives de l'Irlande, en tentant d'articuler ces traditions avec l'histoire biblique.
+
+Le cycle d'Ulster a pour héros Cúchulainn, guerrier surhumain dont les fureurs guerrières le transforment physiquement, et qui meurt attaché à un pilier pour rester debout. Lug, dieu aux talents multiples, est associé à la lumière et à la maîtrise de tous les arts ; son nom se lit encore dans Lyon, Lugdunum, et dans plusieurs toponymes européens.`],
+    ["Le temps et l'ailleurs", `Samain, célébrée à la fin octobre, marque le début de la saison sombre et le moment où la frontière avec l'Autre Monde s'amincit. C'est de cette fête, croisée avec la Toussaint chrétienne, que descend Halloween — passé d'Irlande aux États-Unis avec l'émigration, puis revenu en Europe sous forme commerciale.
+
+L'Autre Monde des traditions celtiques n'est ni un paradis ni un enfer : c'est un monde parallèle, accessible en certains lieux — tertres, lacs, îles à l'ouest — et à certaines dates, où le temps ne s'écoule pas de la même façon. Ce motif a irrigué toute la littérature arthurienne, où Merlin apparaît comme un enchanteur d'origine celtique christianisé par les auteurs médiévaux.`],
+  ],
+  "mr2-mythologies-ameriques": [
+    ["Ce qui a survécu", `Les mythologies américaines nous parviennent à travers un filtre brutal : la conquête a détruit la quasi-totalité des livres mésoaméricains. Quelques codex seulement ont échappé aux autodafés, et l'essentiel de ce que nous savons vient de récits transcrits après la conquête, souvent par des religieux ou par des indigènes convertis.
+
+Le Popol Vuh est l'une des rares sources écrites de la mythologie maya : rédigé en langue quiché avec l'alphabet latin au XVIe siècle, il raconte la création du monde et les aventures des jumeaux héroïques affrontant les seigneurs du monde souterrain. Sa valeur tient à ce qu'il transmet un corpus antérieur, malgré la médiation de l'écriture européenne.`],
+    ["Les dieux mésoaméricains", `Quetzalcóatl, le serpent à plumes, est l'une des figures les plus répandues de Mésoamérique, associé au vent, au savoir et à la civilisation. Tlaloc, dieu de la pluie, occupe une place capitale dans une région où l'agriculture dépend entièrement des précipitations : les sacrifices qui lui étaient destinés concernaient souvent des enfants, dont les pleurs étaient tenus pour un présage favorable.
+
+Huitzilopochtli, dieu tutélaire des Aztèques, est associé au soleil et à la guerre. C'est lui qui, selon la tradition, indiqua le lieu de fondation de leur capitale par un signe : un aigle posé sur un cactus dévorant un serpent — image qui figure aujourd'hui au centre du drapeau mexicain, exemple rare d'un mythe fondateur devenu emblème national.`],
+    ["Les Andes", `Viracocha est le dieu créateur vénéré dans les Andes avant et pendant l'Empire inca : il aurait créé les hommes, puis serait parti vers l'ouest en marchant sur les eaux. Les Incas ont intégré ce dieu antérieur à leur propre panthéon solaire, procédé habituel d'un empire qui absorbait les cultes des peuples soumis plutôt que de les détruire.
+
+Pachamama est la divinité de la terre nourricière, à qui l'on doit des offrandes avant de labourer, de bâtir ou de boire. Son culte a survécu à la christianisation en se mêlant à celui de la Vierge, et il reste vivant aujourd'hui dans les Andes — au point d'avoir été inscrit dans la Constitution bolivienne au titre des droits de la Terre mère.`],
+    ["L'Amérique du Nord", `Chez plusieurs peuples de la côte nord-ouest, le totem est un emblème animal lié à un clan et aux récits qui en fondent l'origine. Les mâts sculptés qui le représentent ne sont pas des idoles : ce sont des généalogies visibles, qui racontent les droits et les alliances d'une famille.
+
+Deux motifs traversent les traditions du continent. Le trickster est une figure de farceur, souvent coyote ou corbeau selon les régions, qui transgresse, ruse, échoue et crée le monde par ses maladresses — personnage moralement ambigu, à la fois créateur et fripon. La quête de vision, pratiquée notamment dans les Plaines, est une retraite solitaire, avec jeûne, visant à recevoir une révélation personnelle qui orientera la vie de celui qui l'entreprend.`],
+  ],
+
+  "mr2-bible-textes": [
+    ["Une bibliothèque, pas un livre", `La Bible est une bibliothèque : des dizaines de livres écrits sur près d'un millénaire, dans plusieurs langues — hébreu, araméen, grec — et dans des genres radicalement différents : récits, lois, poèmes, chroniques, prophéties, lettres. Le mot lui-même vient du grec ta biblia, les livres, au pluriel.
+
+Elle s'ouvre par la Genèse, qui raconte la création, le déluge et les patriarches, et s'achève dans le Nouveau Testament par l'Apocalypse, texte visionnaire dont le titre signifie révélation et non catastrophe. Entre les deux, les canons varient selon les confessions : le nombre de livres n'est pas le même chez les juifs, les catholiques, les protestants et les orthodoxes.`],
+    ["Sortir d'Égypte", `Le livre de l'Exode raconte la sortie d'Égypte du peuple hébreu, conduit par Moïse, et le don de la Loi au Sinaï. Selon la tradition, Moïse y reçoit dix commandements gravés sur des tables de pierre — le Décalogue, dont la numérotation diffère d'ailleurs selon les traditions religieuses.
+
+Ce récit occupe une place à part : il fonde à la fois une libération et une législation, et son motif — un peuple asservi qui quitte l'oppression pour une terre promise — a été repris dans d'innombrables contextes politiques, des spirituals afro-américains aux théologies de la libération.`],
+    ["Rois et prophètes", `Saül est présenté comme le premier roi d'Israël, choisi puis rejeté ; David lui succède, et son fils Salomon règne avec une réputation de sagesse, illustrée par le jugement où il propose de couper un enfant en deux pour identifier sa vraie mère.
+
+Les prophètes forment une autre voix : ils critiquent les rois, annoncent des malheurs et rappellent des exigences morales. Jonas, envoyé prêcher à Ninive, fuit sa mission et est avalé par un grand poisson — le texte est un des plus brefs et des plus ironiques de la Bible. Job, quant à lui, voit sa foi éprouvée par des malheurs successifs et conteste Dieu en face : le livre refuse toute explication simple de la souffrance du juste, et reste l'un des textes les plus vertigineux du corpus.`],
+    ["La poésie", `Les Psaumes forment un recueil de cent cinquante chants attribués par la tradition à David : louanges, supplications, plaintes, malédictions parfois violentes. Ils constituent le socle de la prière juive et chrétienne, et ont nourri la musique occidentale de manière ininterrompue.
+
+Le Cantique des cantiques est le texte le plus déroutant de la Bible : un poème d'amour entre deux amants, d'un érotisme explicite, où Dieu n'est jamais nommé. Son admission dans le canon a fait débat, et il a été très tôt lu comme une allégorie de l'amour entre Dieu et son peuple — lecture qui a permis de le conserver, sans effacer ce que le texte dit littéralement.`],
+  ],
+
+  "mr2-bouddhisme-pratiques": [
+    ["S'asseoir", `La méditation de pleine conscience consiste en une attention soutenue au moment présent, sans jugement : observer la respiration, les sensations, les pensées qui passent, sans les suivre ni les repousser. Issue des pratiques bouddhistes, elle a été sécularisée à partir des années 1970 et employée en protocoles médicaux, avec des résultats documentés sur le stress et la prévention des rechutes dépressives.
+
+Le zen est l'école du bouddhisme mahayana qui a poussé le plus loin la centralité de la méditation assise : la posture y est l'essentiel, et non un moyen. Le kōan, énigme paradoxale — quel est le bruit d'une seule main ? — sert à épuiser la pensée discursive plutôt qu'à être résolu.`],
+    ["Les supports", `Un mantra est une formule répétée servant de support à la méditation ; sa force tient à la répétition et au son autant qu'au sens. Un mandala est une représentation symbolique de l'univers, souvent circulaire, utilisée comme support de visualisation — les mandalas de sable coloré tibétains sont détruits une fois achevés, ce qui fait partie de l'enseignement.
+
+Un stupa est un monument reliquaire de forme hémisphérique, élevé à l'origine sur des reliques du Bouddha. Sa forme s'est transformée en circulant : il devient pagode en Chine et au Japon, en gardant sa fonction de reliquaire et de centre de circumambulation.`],
+    ["La communauté", `La sangha est la communauté des pratiquants, et particulièrement la communauté monastique. Elle constitue l'un des trois joyaux dans lesquels le bouddhiste prend refuge, avec le Bouddha et le dharma — ce dernier terme désignant à la fois l'enseignement du Bouddha et l'ordre des choses tel qu'il est.
+
+Le monachisme bouddhiste repose sur une règle ancienne, avec des variations considérables selon les traditions : mendicité quotidienne et célibat strict dans le theravada, monastères propriétaires et parfois clergé marié ailleurs. Le dalaï-lama est la figure spirituelle majeure du bouddhisme tibétain, à la fois chef religieux et, jusqu'en 2011, autorité politique du gouvernement tibétain en exil.`],
+    ["S'adapter partout", `Le bouddhisme s'est adapté à chaque culture qu'il a rencontrée, au point que ses formes chinoise, tibétaine, japonaise et sri-lankaise sont difficilement reconnaissables les unes dans les autres. C'est l'une de ses caractéristiques constantes : il absorbe les divinités locales, les intègre à un rang subalterne et conserve son noyau doctrinal.
+
+Sa diffusion en Occident a suivi deux voies. D'abord les traductions savantes du XIXe siècle, qui en ont donné une image philosophique et désincarnée, largement construite par les orientalistes européens. Puis, à partir des années 1960, les diasporas asiatiques et les mouvements de contre-culture, qui en ont fait une pratique vécue. La méditation sécularisée constitue une troisième voie, où la technique est retenue et le cadre religieux écarté — évolution que certains maîtres saluent et que d'autres jugent appauvrissante.`],
+  ],
 };
