@@ -331,4 +331,92 @@ En Inde, Satyajit Ray est reconnu internationalement pour la trilogie d'Apu, qui
 
 Jafar Panahi, son ancien assistant, a été condamné à ne plus tourner ni écrire de scénarios, ni quitter le pays. Il a continué malgré tout, tournant chez lui, dans un taxi, sur un téléphone, et faisant sortir ses films clandestinement — l'un d'eux, dit-on, sur une clé cachée dans un gâteau. Son cas illustre une réalité du cinéma iranien : une créativité formelle largement née de la contrainte politique.`],
   ],
+
+  "cm3-television-histoire-monde": [
+    ["Deux modèles fondateurs", `Les modèles télévisuels nationaux ont longtemps opposé service public et modèle commercial. Le premier est incarné par la BBC britannique, financée par une redevance payée par les foyers équipés : indépendance vis-à-vis des annonceurs, obligations de qualité, contrôle par une charte. Le modèle a été copié dans toute l'Europe.
+
+Le second domine historiquement la télévision américaine : financement par la publicité, concurrence entre réseaux, programmes conçus pour maximiser l'audience. Un network américain est un réseau national qui diffuse via des stations affiliées locales, chacune insérant ses propres écrans publicitaires — structure qui explique le découpage des programmes américains en segments réguliers.`],
+    ["Le câble change la donne", `La télévision par câble, diffusion par réseau filaire souvent payante, a brisé le monopole des trois grands réseaux américains à partir des années 1980. Financée par abonnement plutôt que par publicité, elle n'a plus besoin de plaire à tout le monde : elle peut viser un public restreint et exigeant.
+
+C'est ce qui a permis à HBO de transformer la fiction télévisée dans les années 2000, avec des séries longues, adultes et coûteuses, sans coupures publicitaires ni contrainte de format. Le slogan de la chaîne — ce n'est pas de la télévision — résumait le pari. La même logique a produit CNN en 1980, première chaîne d'information continue, qui a imposé le direct permanent et changé le rythme de l'information mondiale.`],
+    ["D'autres voix", `Al Jazeera, lancée en 1996 depuis le Qatar, a introduit une couverture du monde arabe qui ne dépendait ni des chaînes occidentales ni des télévisions d'État de la région. Sa version anglophone a élargi son audience, et son statut ambigu — chaîne influente financée par un émirat — nourrit un débat permanent sur son indépendance.
+
+En Europe, les télévisions publiques partagent un financement public assorti d'obligations de service public : information, culture, éducation, représentation de la diversité. Elles coopèrent au sein de l'Eurovision, qui n'est pas d'abord un concours de chansons mais un réseau d'échange de programmes et d'images entre télévisions publiques européennes — ce sont ses infrastructures qui permettent à un journal télévisé de diffuser des images tournées ailleurs.`],
+    ["La concurrence mondiale", `Les plateformes mondiales ont bouleversé cet équilibre : elles concurrencent les chaînes nationales sur les audiences, sur les talents et sur les droits, avec des budgets sans commune mesure. Un scénariste ou un acteur national peut désormais travailler pour un diffuseur mondial sans quitter son pays.
+
+Les réponses publiques ont été réglementaires : obligations d'investissement dans la production locale, quotas d'œuvres européennes dans les catalogues, contribution au financement de la création. Elles ont partiellement fonctionné — les plateformes produisent aujourd'hui beaucoup en Europe — sans résoudre la question de fond : qui décide de ce qui est produit, et selon quels critères.`],
+  ],
+
+  "cm3-photographie-mode": [
+    ["Une image entièrement fabriquée", `L'image de mode est entièrement construite, du casting à la retouche. Rien n'y est laissé au hasard : le choix du mannequin, le lieu, la lumière, la posture, le stylisme, et enfin le traitement numérique. Elle ne documente pas un vêtement, elle fabrique un imaginaire auquel le vêtement sera associé.
+
+C'est ce qui la distingue radicalement de la photographie documentaire, et ce qui explique qu'elle emploie des moyens considérables pour une image destinée à être vue quelques secondes. Une campagne publicitaire visuelle est un ensemble cohérent d'images diffusées sur plusieurs supports — presse, affichage, réseaux — avec une déclinaison calculée pour chaque format.`],
+    ["Trois regards", `Richard Avedon a marqué à la fois la mode et le portrait au XXe siècle : il sort les mannequins du studio, les met en mouvement, puis revient à des fonds blancs implacables pour ses portraits, où le moindre défaut devient un trait de caractère.
+
+Helmut Newton impose dans les années 1970 des mises en scène provocantes, souvent en noir et blanc, où le rapport de pouvoir et le regard sont le sujet — travail admiré et durement critiqué, et qui continue de faire débat. Peter Lindbergh, à l'inverse, contribue dans les années 1990 à imposer un style plus naturel : peu de maquillage, noir et blanc, refus de la retouche lourde, mannequins photographiées de près et sans artifice.`],
+    ["Retoucher, et le dire", `La retouche numérique est devenue systématique dans la photographie de mode : correction de peau, modification de silhouette, recomposition de l'image à partir de plusieurs prises. Le débat porte moins sur son existence — la retouche argentique existait déjà — que sur son ampleur et sur son effet.
+
+La France a légiféré : depuis 2017, une mention photographie retouchée est obligatoire sur les images publicitaires dont la silhouette du mannequin a été modifiée, sous peine d'amende. La mesure vise les troubles du comportement alimentaire chez les adolescentes ; son efficacité réelle est discutée, mais elle a installé l'idée que ces images relèvent d'une information du public.`],
+    ["Les droits sur l'image", `Le droit à l'image du mannequin est encadré par un contrat qui définit précisément la durée d'exploitation, le territoire et les supports autorisés : une image achetée pour une campagne presse en France pendant un an ne peut pas être réutilisée cinq ans plus tard sur un affichage mondial sans nouvel accord et nouvelle rémunération.
+
+Une banque d'images est un catalogue de photographies sous licence pour un usage commercial, avec des tarifs selon l'usage. Elle a transformé le métier : beaucoup d'images publicitaires ne sont plus commandées mais achetées sur catalogue, ce qui pèse sur les revenus des photographes. Le placement de marque, intégration visible d'un produit dans un contenu, prolonge cette logique en insérant la publicité dans ce qui n'en a pas l'air.`],
+  ],
+  "cm3-radio-france": [
+    ["Trois familles de stations", `La radio française combine service public, réseaux privés et radios associatives — répartition héritée de la loi de 1981 qui a mis fin au monopole d'État.
+
+Radio France, l'entreprise publique, compte sept chaînes nationales aux identités très distinctes : France Inter, généraliste ; France Info, information continue ; France Culture, consacrée à la création et au savoir ; France Musique ; Fip, qui diffuse de la musique sans animation parlée, avec une programmation éclectique devenue culte ; Mouv' ; et le réseau ici, anciennement France Bleu, composé de stations locales de service public implantées dans les régions.`],
+    ["Le secteur privé et ses origines", `RTL est la plus ancienne des grandes stations généralistes privées françaises. Comme Europe 1 et RMC, c'est historiquement une radio dite périphérique : elle émettait depuis l'étranger — Luxembourg, Sarre, Monaco — précisément pour contourner le monopole d'État français sur la radiodiffusion, qui interdisait toute station privée sur le territoire.
+
+Cette situation a duré jusqu'en 1981. Elle explique une singularité du paysage français : les grandes stations privées se sont construites hors du pays, avec des capitaux et des implantations étrangères, avant de devenir des acteurs centraux de la vie médiatique nationale.`],
+    ["Les radios associatives", `Une radio associative de catégorie A est une radio locale non commerciale, dont les ressources publicitaires sont plafonnées et qui bénéficie en contrepartie d'un fonds de soutien à l'expression radiophonique, alimenté par une taxe sur la publicité des autres médias.
+
+Ce dispositif fait vivre plusieurs centaines de radios en France : radios de quartier, radios communautaires, radios scolaires, radios thématiques. Leur audience individuelle est faible, leur fonction sociale considérable — elles constituent souvent le seul média de proximité dans des territoires que la presse locale a quittés.`],
+    ["Écouter, et mesurer", `La radio se distingue en France par un usage très spécifique : une écoute majoritairement en direct, et souvent en voiture. C'est ce qui explique la survie du direct dans un paysage où tout le reste est passé à la demande — l'auditeur qui conduit ne choisit pas un programme, il allume.
+
+Le podcast natif, conçu directement pour l'écoute à la demande, s'est développé en parallèle sans cannibaliser cette écoute. La mesure d'audience, elle, repose sur une enquête déclarative : des dizaines de milliers d'entretiens où les personnes reconstituent leur écoute de la veille. La méthode a ses limites — la mémoire est faillible, les stations très écoutées sont surdéclarées — mais aucune alternative technique n'a réussi à s'imposer.`],
+  ],
+
+  "cm3-medias-numeriques": [
+    ["Des médias sans papier", `Un média pure player existe uniquement en ligne, sans édition imprimée. Le modèle a permis l'apparition de titres nouveaux avec des coûts de lancement bien plus faibles, mais il les prive aussi des revenus stables de l'abonnement papier.
+
+Certains ont choisi un modèle sans publicité, reposant sur les seuls abonnements et dons : le pari est qu'un nombre restreint de lecteurs payant réellement vaut mieux qu'une large audience mal monétisée. Il impose une exigence — offrir ce qu'on ne trouve pas gratuitement ailleurs — et fonctionne pour les titres à forte identité éditoriale. Le paywall, dispositif qui conditionne l'accès aux articles à un paiement, en est l'outil, avec des variantes : accès total, quota d'articles gratuits, ou sélection payante.`],
+    ["Des formats nés du numérique", `La newsletter éditoriale est revenue au premier plan : un contenu envoyé directement par courrier électronique, sans dépendre d'un algorithme de recommandation. Sa force tient précisément à ce contournement — l'auteur touche son lecteur sans intermédiaire, et connaît son audience.
+
+À l'opposé du texte long, la vidéo verticale est conçue pour un écran de téléphone tenu à la verticale, et la vidéo courte, de quelques secondes à quelques minutes, est pensée pour la boucle et le défilement. Ces formats imposent une grammaire propre : accroche dans les deux premières secondes, sous-titres systématiques puisque le son est souvent coupé, et information condensée. Les médias traditionnels s'y adaptent difficilement.`],
+    ["Des approches nouvelles", `Le data journalisme fonde l'enquête sur l'analyse et la visualisation de données : bases publiques, fichiers obtenus, documents fuités. Il a permis des enquêtes internationales de grande ampleur, où des centaines de journalistes exploitent des millions de documents.
+
+Le journalisme de solutions rend compte des réponses apportées à un problème, et non seulement du problème : ce n'est pas du journalisme positif, mais une exigence supplémentaire — enquêter aussi rigoureusement sur ce qui fonctionne que sur ce qui échoue. Le journalisme automatisé, enfin, produit des textes courts par algorithme à partir de données structurées : résultats sportifs, résultats électoraux, publications financières. Il traite en quelques secondes des volumes qu'aucune rédaction ne couvrirait.`],
+    ["Le défi de fond", `Le principal défi économique des médias en ligne est de capter une part suffisante de la valeur face aux plateformes. L'essentiel des recettes publicitaires numériques est capté par quelques acteurs mondiaux, qui distribuent les contenus des médias sans les produire.
+
+Les réponses tentées sont juridiques — droits voisins obligeant les plateformes à rémunérer la reprise de contenus de presse — et éditoriales, avec le retour à la relation directe : abonnements, newsletters, applications, événements. La leçon des vingt dernières années est claire : un média dont l'audience dépend entièrement d'un intermédiaire est à la merci d'un changement d'algorithme.`],
+  ],
+  "cm3-cinema-technique-image": [
+    ["L'objectif décide de l'espace", `Le choix de l'objectif conditionne la perception de l'espace autant que le cadrage. Une focale courte, ou grand angle, élargit le champ et accentue les perspectives : les distances paraissent plus grandes, les mouvements vers la caméra plus rapides, et les visages proches se déforment. Elle donne une sensation d'espace et d'immersion.
+
+Un téléobjectif fait l'inverse : il écrase les plans les uns sur les autres, isole le sujet et supprime la profondeur. Un personnage qui court vers la caméra semble ne pas avancer, effet régulièrement employé pour figurer l'impuissance. Deux objectifs différents filmant le même acteur au même endroit racontent deux choses distinctes.`],
+    ["La netteté comme outil", `La profondeur de champ est l'étendue de netteté dans l'image. Faible, elle isole un visage dans un fond flou et impose au spectateur où regarder ; grande, elle laisse plusieurs plans nets et permet de hiérarchiser autrement, par la composition et le mouvement.
+
+La mise au point suivie déplace la zone de netteté en accompagnant un déplacement : c'est un métier à part entière sur un plateau, l'assistant opérateur devant anticiper le mouvement de l'acteur au centimètre, sans voir l'image. Les mises au point ratées comptent parmi les premières causes de reprise d'un plan.`],
+    ["Bouger la caméra", `Une grue permet des mouvements verticaux amples : s'élever au-dessus d'une foule, plonger d'un toit vers la rue. Le stabilisateur d'image porté isole la caméra des mouvements du corps de l'opérateur, ce qui autorise des travellings fluides sans rails, y compris dans des escaliers.
+
+La caméra portée à l'épaule fait le choix inverse : elle assume l'instabilité pour renforcer l'impression de réel et d'urgence. Devenue une convention du documentaire, puis de la fiction réaliste, elle est aujourd'hui si répandue qu'elle a perdu une part de son effet — le spectateur y lit un code plutôt qu'une captation.`],
+    ["Jouer avec le temps", `Le ralenti s'obtient en enregistrant à cadence élevée — cent, mille images par seconde ou davantage — puis en restituant à vitesse normale : plus la cadence de prise est haute, plus le mouvement paraît lent et fluide. Le time-lapse procède à l'inverse, avec une cadence très lente, une image toutes les quelques secondes ou minutes, restituée à vitesse normale : nuages qui défilent, chantier qui s'élève, fleur qui s'ouvre.
+
+Aujourd'hui, le format d'acquisition est un fichier numérique brut, qui conserve un maximum d'information issue du capteur et laisse un large travail en postproduction : la colorimétrie, l'exposition et une part du cadrage se décident après le tournage. Cette souplesse a modifié l'équilibre du métier, en déplaçant vers la salle de montage des décisions autrefois prises sur le plateau.`],
+  ],
+
+  "cm3-fiction-serie": [
+    ["Un système, pas un film long", `Une série se conçoit comme un système, non comme un film long. Il ne s'agit pas d'étirer une histoire mais de construire une mécanique capable de produire des épisodes pendant des années : des personnages dont les conflits ne se résolvent pas, un lieu qui autorise des situations variées, et une logique de renouvellement.
+
+La bible de série est le document qui fixe cet univers : personnages, décors, règles narratives, ton, ce qui peut arriver et ce qui ne peut pas. Elle sert à vendre le projet, puis à coordonner une équipe qui écrira sans le créateur à ses côtés en permanence.`],
+    ["Écrire à plusieurs", `L'atelier d'écriture, ou writers' room, réunit une équipe d'auteurs travaillant collectivement sous la direction d'un responsable. On y construit ensemble l'architecture de la saison, on répartit les épisodes, puis chacun écrit le sien avant retour du groupe. Le modèle, né aux États-Unis, a longtemps été inexistant en France, où la tradition d'auteur unique dominait ; il s'y est largement implanté depuis quinze ans.
+
+C'est cette organisation qui permet de produire vingt épisodes par an avec une cohérence de ton. Elle suppose des professionnels capables d'écrire dans la voix d'une série plutôt que dans la leur — compétence qui ne va pas de soi et qui s'apprend.`],
+    ["Les outils narratifs", `Un arc narratif de saison est une trame se déployant sur l'ensemble des épisodes, par-dessus les intrigues propres à chacun. La combinaison des deux — une affaire résolue par épisode, un fil qui court sur la saison — est la structure la plus répandue, parce qu'elle satisfait à la fois le spectateur occasionnel et le fidèle.
+
+Le cliffhanger suspend l'épisode sur une situation non résolue, pour relancer l'attente. Efficace, il s'use vite s'il devient systématique. Une série anthologique échappe à ces contraintes : chaque saison ou chaque épisode raconte une histoire indépendante, ce qui permet de changer d'acteurs et de ton. La mini-série, elle, est une fiction en un nombre limité d'épisodes formant un tout, sans suite prévue — format qui attire les acteurs et réalisateurs de cinéma, puisqu'il n'engage pas des années.`],
+    ["L'économie et le prestige", `Le spin-off dérive une nouvelle série d'un personnage ou d'un univers existant : il réduit le risque en s'appuyant sur un public acquis. La co-production internationale partage le financement entre diffuseurs de plusieurs pays, ce qui permet des budgets élevés au prix de compromis sur le casting et les lieux de tournage.
+
+Les séries ont gagné en prestige depuis vingt ans pour trois raisons cumulées : des budgets rapprochés de ceux du cinéma, l'arrivée d'auteurs et d'acteurs reconnus, et surtout une liberté narrative que la durée autorise — quarante heures permettent une complexité qu'aucun film ne peut atteindre. Le format court, séries d'épisodes de quelques minutes, occupe l'autre extrémité et a trouvé son public sur le web et les réseaux.`],
+  ],
 };
