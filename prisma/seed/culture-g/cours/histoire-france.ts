@@ -1231,4 +1231,190 @@ Le raisonnement en solde net est toutefois trompeur, et les économistes le soul
 
 La France a par ailleurs un poids institutionnel supérieur à son poids démographique, par la place du français comme langue de travail, la localisation d'institutions sur son sol, et son statut de membre permanent du Conseil de sécurité — seul État de l'Union à l'être depuis le Brexit, situation qui alimente le débat sur une représentation européenne commune.`],
   ],
+
+  "hf3-personnages-france": [
+    ["Gouverner sans régner", `L'histoire nationale a longtemps réduit la place des femmes à quelques figures exceptionnelles. Le récit scolaire en retenait deux ou trois, présentées comme des anomalies, alors que l'exercice féminin du pouvoir a été fréquent — par la régence, par le mariage, par l'héritage de fiefs.
+
+La loi salique, invoquée à partir du XIVe siècle pour exclure les femmes du trône de France, n'interdisait pas la régence : une reine mère pouvait donc gouverner sans jamais régner.
+
+Blanche de Castille gouverne la France pendant la minorité de Louis IX, à partir de 1226, dans une situation critique — un roi de douze ans, des grands barons en révolte, un royaume convoité. Elle mate les coalitions, négocie, et laisse à son fils un royaume consolidé. Elle assurera à nouveau la régence pendant sa croisade.
+
+Aliénor d'Aquitaine est successivement reine de France par Louis VII, puis reine d'Angleterre par Henri II Plantagenêt après l'annulation de son premier mariage. Elle apporte à son second époux un duché plus vaste que le domaine royal français, ce qui est à l'origine de trois siècles de conflit. Elle sera aussi mère de deux rois d'Angleterre et régente à plus de soixante-dix ans.
+
+Anne de Bretagne épouse successivement Charles VIII puis Louis XII, ce qui prépare le rattachement du duché à la couronne — elle-même s'était employée à en préserver l'autonomie jusqu'au bout.`],
+    ["Le pouvoir et les salons", `Catherine de Médicis dirige la France de fait pendant les guerres de religion, comme régente puis comme conseillère de trois de ses fils successivement rois. Sa politique constante est la conciliation entre catholiques et protestants — édits de tolérance, colloques, mariages destinés à apaiser.
+
+Son nom reste attaché au massacre de la Saint-Barthélemy en 1572, dont sa responsabilité exacte est débattue par les historiens. La légende noire construite à son sujet par les pamphlétaires protestants — l'Italienne empoisonneuse — a longtemps tenu lieu d'analyse.
+
+Madame Geoffrin tient au XVIIIe siècle l'un des salons les plus influents de Paris : les encyclopédistes s'y retrouvent, elle finance l'Encyclopédie, et les souverains européens la consultent. Les salons, dirigés presque exclusivement par des femmes, constituaient un espace intellectuel où elles exerçaient une influence réelle sur les carrières, les élections académiques et la circulation des idées — hors de toute institution qui leur était fermée.
+
+Olympe de Gouges rédige en 1791 la *Déclaration des droits de la femme et de la citoyenne*, décalque article par article du texte de 1789 : « la femme naît libre et demeure égale à l'homme en droits ». Elle y ajoute une formule restée célèbre — la femme a le droit de monter à l'échafaud, elle doit avoir également celui de monter à la tribune. Elle sera guillotinée en 1793.`],
+    ["Reconnaître, tardivement", `Marie Curie est la première personne à recevoir deux prix Nobel, et la seule à ce jour à les avoir obtenus dans deux disciplines scientifiques distinctes — physique en 1903, chimie en 1911.
+
+Son parcours illustre les obstacles de l'époque : elle n'avait pas été initialement nommée pour le Nobel de 1903, son mari ayant dû intervenir pour qu'elle y soit associée ; elle sera refusée à l'Académie des sciences en 1911, qui n'élira sa première femme qu'en 1979.
+
+Elle est en 1995 la première femme à entrer au Panthéon pour ses propres mérites — la seule autre femme qui s'y trouvait y avait été admise comme épouse.
+
+Trois entrées récentes ont élargi ce cercle. Germaine Tillion, ethnologue, résistante, déportée à Ravensbrück, puis opposante à la torture pendant la guerre d'Algérie, y entre en 2015 avec Geneviève de Gaulle-Anthonioz. Simone Veil, rescapée d'Auschwitz, ministre ayant fait légaliser l'IVG et première présidente du Parlement européen, y entre en 2018 avec son mari. Joséphine Baker, artiste, agente de renseignement de la France libre et militante antiraciste, y entre en 2021 — première femme noire au Panthéon, et sans dépouille, à sa demande familiale.`],
+  ],
+
+  "hf3-langue-etat-france": [
+    ["Un pays qui ne parlait pas français", `L'unification linguistique de la France s'est achevée bien plus tard qu'on ne le croit souvent.
+
+L'abbé Grégoire conduit en 1790 une enquête auprès de correspondants dans tout le pays, et son rapport de 1794 conclut qu'une minorité seulement de la population parle français — peut-être un quart, avec de fortes réserves méthodologiques sur ce chiffre. Le reste parle breton, basque, flamand, alsacien, corse, ou l'une des nombreuses langues d'oc et d'oïl.
+
+Le titre du rapport dit son programme : *Sur la nécessité et les moyens d'anéantir les patois et d'universaliser l'usage de la langue française*. Sa justification est politique et démocratique dans l'esprit du temps : une république où les citoyens ne comprennent pas les lois n'est pas une république, et les langues locales sont soupçonnées de favoriser le fédéralisme et la contre-révolution.
+
+Le mot « patois » lui-même est un choix : il désigne comme dégradé ce qui est une langue.`],
+    ["Les instruments de l'unification", `L'école a été l'instrument principal. Les lois Ferry imposent le français comme unique langue d'enseignement, et la pratique pédagogique y ajoute des méthodes de dissuasion — le symbole, objet remis à l'élève surpris à parler sa langue et dont il ne se débarrassait qu'en le passant à un camarade fautif, le dernier détenteur étant puni.
+
+Ces pratiques, attestées dans plusieurs régions jusqu'au milieu du XXe siècle, ont laissé une mémoire durable et une honte transmise : beaucoup de familles ont cessé de transmettre leur langue à leurs enfants pour leur épargner cette expérience et leur assurer une promotion sociale.
+
+Le service militaire a joué un rôle au moins aussi important : il brassait pendant plusieurs années des jeunes hommes de toutes les régions, dans un cadre où seul le français était utilisable. La Première Guerre mondiale a accéléré ce processus de façon décisive.
+
+L'exode rural, la presse, la radio puis la télévision ont achevé le mouvement. Le basculement générationnel se situe autour des années 1950 : les grands-parents parlaient leur langue entre eux, les parents la comprenaient, les enfants ne l'ont pas apprise.`],
+    ["Protéger le français, reconnaître les autres", `La loi Toubon de 1994 encadre l'usage du français : elle l'impose dans la publicité, l'étiquetage, les contrats de travail, les modes d'emploi, l'enseignement et les congrès organisés en France. Elle vise moins les langues régionales que l'anglais dans la vie économique.
+
+Le Conseil constitutionnel en a censuré une partie : l'État peut imposer le français dans la sphère publique, il ne peut pas imposer une terminologie officielle aux personnes privées, la liberté d'expression s'y opposant.
+
+La France n'a pas ratifié la Charte européenne des langues régionales ou minoritaires, signée en 1999. L'obstacle est constitutionnel : le Conseil constitutionnel a jugé que la Charte conférait des droits spécifiques à des groupes de locuteurs, ce qui contredit l'indivisibilité de la République et le principe d'unicité du peuple français, ainsi que l'article 2 disposant que la langue de la République est le français.
+
+La révision de 2008 a néanmoins inscrit dans la Constitution que les langues régionales appartiennent au patrimoine de la France — formulation patrimoniale et non normative, placée à dessein dans un article relatif aux collectivités et non à l'article 2.
+
+La loi Molac de 2021 organise la protection et la promotion des langues régionales : signalétique bilingue, enseignement, signes diacritiques dans l'état civil. Ses dispositions sur l'enseignement immersif ont été censurées par le Conseil constitutionnel, sur le même fondement.`],
+    ["La langue au-delà des frontières", `La francophonie institutionnelle est pour la France un instrument de politique culturelle et diplomatique. L'Organisation internationale de la francophonie réunit quatre-vingt-huit États et gouvernements, dont beaucoup où le français est minoritaire.
+
+Sa fondation doit d'ailleurs peu à la France : ce sont trois chefs d'État africains — Senghor, Bourguiba, Diori — qui l'ont portée dans les années 1960, la France étant réticente par crainte qu'on y voie du néocolonialisme.
+
+Le déplacement du centre de gravité vers l'Afrique modifie la donne de fond : une langue dont les locuteurs seront majoritairement africains au milieu du siècle ne peut durablement voir sa norme fixée à Paris. Les dictionnaires enregistrent d'ailleurs de plus en plus d'usages africains.
+
+À l'intérieur, la situation actuelle combine une reconnaissance croissante des langues régionales — enseignement, médias, signalétique, vitalité associative — et un statut juridique limité, qui les maintient dans le registre du patrimoine plutôt que dans celui des droits. C'est un équilibre spécifiquement français, régulièrement contesté et jusqu'ici stable.`],
+  ],
+
+  "hf3-sciences-france": [
+    ["Des institutions plutôt que des universités", `La France a longtemps organisé sa recherche autour de grandes institutions publiques, plutôt qu'au sein des universités comme dans le monde anglo-saxon ou allemand.
+
+L'Académie des sciences est fondée en 1666 par Colbert. Elle rassemble des savants pensionnés par le roi, avec une mission d'expertise pour l'État autant que de recherche. Elle établit une tradition durable : la science française est organisée par le pouvoir central, financée par lui, et lui rend des services.
+
+Le CNRS est créé en 1939, à la veille de la guerre, par fusion d'organismes antérieurs. Il devient le plus grand organisme de recherche fondamentale d'Europe, couvrant toutes les disciplines, avec des chercheurs recrutés à vie par concours. Cette structure garantit une liberté de recherche à long terme et rend en contrepartie l'orientation des programmes plus lente.
+
+S'y ajoutent des organismes spécialisés : le CEA en 1945 pour l'énergie atomique, l'INSERM pour la recherche médicale, l'INRAE pour l'agronomie et l'environnement, l'INRIA pour le numérique, l'IRD pour le développement.
+
+Cette architecture explique une particularité française : la plupart des laboratoires sont mixtes, associant un organisme et une université, avec deux tutelles et parfois davantage.`],
+    ["Une tradition mathématique", `La France occupe en mathématiques une position sans rapport avec sa taille, et cette réussite est ancienne.
+
+Évariste Galois meurt en duel à vingt ans en 1832, après avoir été refusé deux fois à Polytechnique et emprisonné pour ses activités républicaines. Il laisse quelques dizaines de pages, rédigées en partie la nuit précédant le duel, qui fondent la théorie des groupes et déterminent quelles équations sont résolubles par radicaux. Ses travaux ne seront compris qu'une quinzaine d'années après sa mort.
+
+Henri Lebesgue développe au début du XXe siècle une théorie de l'intégration qui remplace celle de Riemann et devient l'outil de base de l'analyse moderne et des probabilités.
+
+Nicolas Bourbaki est un mathématicien qui n'existe pas : c'est le pseudonyme collectif d'un groupe fondé en 1935 par de jeunes normaliens — Weil, Cartan, Dieudonné et d'autres — qui entreprennent de refonder l'ensemble des mathématiques sur des bases axiomatiques rigoureuses. Leurs *Éléments de mathématique*, publiés pendant des décennies, ont marqué durablement le style mathématique mondial, et leur influence sur les programmes scolaires — les mathématiques modernes des années 1970 — fut plus contestée.
+
+La médaille Fields, équivalent du Nobel pour les mathématiques, a été attribuée à une douzaine de Français, ce qui place la France au deuxième rang mondial derrière les États-Unis.`],
+    ["L'état de la recherche", `Les rapports récents convergent sur un constat : la France investit environ deux virgule deux pour cent de son PIB dans la recherche, en deçà de l'objectif européen de trois pour cent fixé en 2000 et jamais atteint.
+
+Le déficit porte principalement sur la recherche privée, plus faible qu'en Allemagne, en Corée du Sud ou aux États-Unis, malgré un crédit d'impôt recherche parmi les plus généreux au monde.
+
+S'y ajoutent des difficultés structurelles régulièrement documentées : rémunération des chercheurs en début de carrière inférieure à la moyenne de l'OCDE, précarité des jeunes docteurs, financement de plus en plus par appels à projets à faible taux de succès — ce qui conduit à consacrer un temps considérable à rédiger des dossiers rejetés —, et complexité administrative des laboratoires à tutelles multiples.
+
+Les résultats restent pourtant solides en volume de publications et remarquables dans certaines disciplines. La question posée par ces rapports n'est donc pas celle d'un effondrement mais d'un décrochage progressif, dont les effets se manifestent avec le décalage propre à la recherche — une décennie ou davantage.`],
+  ],
+
+  "hf3-france-monde": [
+    ["Un réseau et un siège", `La France dispose du troisième réseau diplomatique mondial, derrière les États-Unis et la Chine : plus de cent soixante ambassades, quatre-vingts consulats généraux, et des représentations auprès de toutes les organisations internationales.
+
+Ce réseau est un héritage de l'empire colonial et d'une conception de la présence universelle. Il est régulièrement l'objet de rapports proposant sa rationalisation, et il a été réduit à la marge sans jamais l'être en profondeur.
+
+La France occupe un siège permanent au Conseil de sécurité des Nations unies, avec droit de veto, aux côtés des États-Unis, de la Russie, de la Chine et du Royaume-Uni. Ce siège est un héritage de 1945 — la France y a été admise à l'insistance de Churchill, alors qu'elle avait été vaincue en 1940 et n'était pas présente aux conférences décisives.
+
+Sa légitimité est régulièrement contestée : elle reflète l'ordre de 1945 et non les rapports de force actuels, et elle donne à un pays européen de taille moyenne une capacité de blocage qu'aucune puissance émergente ne possède. Toute réforme du Conseil se heurte cependant au fait que les membres permanents disposent d'un veto sur cette réforme même.`],
+    ["L'indépendance comme doctrine", `La France quitte le commandement militaire intégré de l'OTAN en 1966, à l'initiative de De Gaulle, tout en restant membre de l'Alliance. Les bases américaines quittent le territoire français et le siège de l'organisation déménage de Paris à Bruxelles.
+
+La logique est explicite : une défense qui dépend d'un allié n'est pas une défense souveraine. La France réintègre le commandement intégré en 2009, sous Nicolas Sarkozy, sans revenir sur son autonomie nucléaire.
+
+La force de dissuasion française est un arsenal nucléaire autonome développé à partir des années 1960 — premier essai en 1960, sous-marins lanceurs d'engins à partir de 1971. Son autonomie complète, depuis la conception jusqu'à la décision d'emploi, est l'élément central de la position internationale française, et elle fait de la France le seul État de l'Union européenne doté de l'arme nucléaire.
+
+Le discours de Dominique de Villepin devant le Conseil de sécurité, en février 2003, s'oppose à l'intervention américaine en Irak au nom du droit international et de l'insuffisance des preuves. Il est applaudi dans l'enceinte, ce qui ne s'était jamais vu, et il incarne une conception française d'une voix indépendante — position dont les faits ont confirmé le bien-fondé sur les armes de destruction massive.`],
+    ["Les instruments d'influence", `Le couple franco-allemand structure la construction européenne depuis le traité de l'Élysée de 1963. Sa logique n'est pas l'accord spontané — les deux pays ont des intérêts et des cultures économiques souvent opposés — mais l'obligation de trouver un compromis, lequel devient ensuite acceptable pour les autres.
+
+L'Institut français et le réseau des alliances françaises portent l'action culturelle à l'étranger : cours de langue, programmation culturelle, soutien aux traductions et à la diffusion des œuvres françaises.
+
+Le réseau scolaire de l'AEFE est une singularité française : près de six cents établissements dans plus de cent trente pays, scolarisant des centaines de milliers d'élèves dont une majorité d'étrangers. Aucun autre pays ne dispose d'un réseau éducatif de cette ampleur hors de ses frontières.
+
+La présence outre-mer confère enfin à la France une caractéristique unique : elle est présente sur tous les océans, et sa zone économique exclusive, plus de dix millions de kilomètres carrés, est la deuxième du monde après celle des États-Unis. Cette dimension maritime, longtemps négligée dans le récit national, structure aujourd'hui sa stratégie indo-pacifique.`],
+    ["Une relation en question", `La Françafrique désigne l'ensemble des relations politiques, économiques et militaires étroites que la France a entretenues avec ses anciennes colonies africaines après les indépendances de 1960.
+
+Ses caractéristiques sont documentées : accords de défense parfois secrets, interventions militaires, réseaux personnels court-circuitant les canaux diplomatiques, soutien à des régimes autoritaires, intérêts économiques dans les matières premières, et franc CFA arrimé au franc puis à l'euro.
+
+Le terme, forgé par le président ivoirien Houphouët-Boigny dans un sens positif, a été repris par les critiques dans un sens accusatoire.
+
+Chaque président français depuis les années 1990 a annoncé sa fin, et chacun a été rattrapé par des continuités. Les évolutions récentes sont en revanche substantielles et subies plutôt que choisies : réforme du franc CFA en Afrique de l'Ouest, retrait militaire du Sahel après des ruptures diplomatiques, montée de sentiments antifrançais dans plusieurs pays, et concurrence de la Russie, de la Chine et de la Turquie.
+
+C'est probablement la transformation la plus profonde de la position internationale française des dernières décennies, et elle est loin d'être achevée.`],
+  ],
+
+  "hf3-medias-france": [
+    ["La presse de masse", `*Le Petit Journal*, fondé en 1863, est le premier quotidien français à grand tirage : vendu un sou au numéro plutôt que par abonnement, il atteint le million d'exemplaires dans les années 1890.
+
+Sa formule associe faits divers, feuilletons, illustrations et informations pratiques, et elle invente le journalisme populaire français. Son supplément illustré, avec ses gravures en couleurs de catastrophes et de crimes, est resté l'image de la presse de la Belle Époque.
+
+Cette presse de masse repose sur trois innovations convergentes : la rotative, qui abaisse le coût d'impression ; le télégraphe et les agences, qui accélèrent la collecte ; et la loi de 1881, qui pose une liberté de la presse quasi complète.
+
+Le bourrage de crâne désigne la propagande de la presse pendant la Première Guerre mondiale : minimisation des pertes, affirmation que les balles allemandes ne pénètrent pas, victoires imminentes annoncées pendant quatre ans. La censure — l'Anastasie et ses ciseaux — laissait des blancs dans les colonnes. Cette expérience a durablement altéré la confiance des Français dans leur presse, et elle est régulièrement citée comme le premier grand discrédit du journalisme français.`],
+    ["Guerre et refondation", `Sous l'Occupation, la presse légale est contrôlée, et l'information libre passe par deux canaux.
+
+La BBC diffuse depuis Londres des émissions en français — « Ici Londres, les Français parlent aux Français » — écoutées malgré le brouillage et l'interdiction. Elles combinaient information, propagande alliée et messages personnels codés pour la Résistance.
+
+La presse clandestine se développe en France : *Combat*, *Libération*, *Défense de la France*, *Franc-Tireur* et des dizaines d'autres, imprimés dans des conditions périlleuses et diffusés de la main à la main.
+
+À la Libération, les titres ayant continué de paraître sous l'Occupation sont interdits, et leurs biens transférés aux journaux issus de la Résistance. C'est une refondation complète du paysage : *Le Monde* naît en 1944 dans les locaux du *Temps*, *Le Figaro* reparaît, *Combat* et *Libération* deviennent des quotidiens.
+
+Une ordonnance de 1944 organise en outre la transparence financière des titres et lutte contre les concentrations — dispositif dont l'application effective a été très inégale.`],
+    ["La télévision sous contrôle", `L'information audiovisuelle française a été sous contrôle direct de l'État jusqu'aux années 1970. La radio et la télévision publiques relevaient d'un monopole, et le ministre de l'Information intervenait sur les contenus — la formule attribuée à Peyrefitte selon laquelle la télévision est « la voix de la France » résume la doctrine.
+
+Les journalistes de l'ORTF ont fait grève en 1968 sur cette question précise, et plusieurs dizaines ont été licenciés.
+
+La publicité de marque est autorisée à la télévision en 1968, ce qui introduit un financement commercial à côté de la redevance.
+
+L'ORTF est démantelé en 1974 en sept sociétés concurrentes, première tentative de desserrement du contrôle.
+
+Le tournant est 1981-1986. La fin du monopole d'État sur la radio en 1981 autorise les radios locales privées — les radios libres, jusque-là clandestines et brouillées. Canal Plus, première chaîne privée payante, est créée en 1984. TF1 est privatisée en 1987.
+
+La loi de 1986 pose la liberté de communication audiovisuelle et crée une autorité de régulation indépendante, devenue le CSA puis l'Arcom. Le paysage passe ainsi en cinq ans d'un monopole public à un système mixte régulé.`],
+    ["La confiance", `Les enquêtes annuelles sur la confiance des Français dans les médias établissent un constat stable : un niveau durablement bas, inférieur à celui de la plupart des pays comparables, et sans amélioration nette depuis trente ans.
+
+Une majorité de personnes interrogées estiment que les journalistes ne sont indépendants ni des pouvoirs politiques ni des pouvoirs économiques.
+
+Plusieurs facteurs sont avancés par les travaux disponibles. La concentration capitalistique de la presse française, détenue en grande partie par quelques industriels dont les activités principales sont ailleurs. La proximité sociale et géographique entre journalistes politiques et responsables politiques. La mémoire d'affaires où l'information s'est révélée fausse. Et la déstabilisation économique du secteur, qui a réduit les moyens d'enquête au moment où la demande de vérification augmentait.
+
+Cette défiance n'est pas propre à la France mais elle y est particulièrement marquée, et elle constitue le principal enjeu du secteur — davantage que la concurrence des plateformes, qui l'aggrave sans l'avoir créée.`],
+  ],
+
+  "hf3-catastrophes-france": [
+    ["Les catastrophes industrielles", `Chaque grande catastrophe française a produit une réforme de la prévention. C'est la régularité la plus nette de cette histoire, et elle dit aussi que la réforme précède rarement le drame.
+
+La catastrophe de Courrières, en mars 1906, fait plus de mille cent morts dans un coup de poussier — l'inflammation des poussières de charbon en suspension. C'est la plus grave catastrophe minière européenne. Les secours sont mal organisés, des rescapés sont retrouvés vingt jours après, et une équipe de sauveteurs allemands arrive avant les moyens français. Une grève massive suit, et l'événement accélère la création du ministère du Travail et la législation sur la sécurité minière.
+
+L'explosion de l'usine AZF à Toulouse, en septembre 2001, fait trente et un morts et des milliers de blessés, avec une onde de choc ressentie à des kilomètres. Elle survient dix jours après les attentats du 11 septembre, ce qui a nourri des hypothèses jamais étayées ; l'enquête a conclu à un accident chimique.
+
+Sa conséquence législative est la loi de 2003 sur les risques technologiques, qui instaure les plans de prévention des risques technologiques : ils imposent des servitudes d'urbanisme autour des sites dangereux, expropriations comprises, et concernent des centaines de sites en France.`],
+    ["L'eau et les tempêtes", `La rupture du barrage de Malpasset, dans le Var en décembre 1959, libère cinquante millions de mètres cubes d'eau qui détruisent une partie de Fréjus et font plus de quatre cents morts. La cause est géologique : la roche d'appui du barrage-voûte a cédé, sa faiblesse n'ayant pas été détectée. Elle a transformé les exigences de reconnaissance géologique préalable pour tous les grands ouvrages.
+
+Les tempêtes Lothar et Martin, fin décembre 1999, traversent la France avec des rafales dépassant deux cents kilomètres par heure. Plus de quatre-vingt-dix morts, des millions de foyers privés d'électricité pendant des semaines, et des centaines de millions d'arbres abattus — les jardins de Versailles perdent une grande partie de leurs arbres. Elles ont conduit à réviser les référentiels de dimensionnement des réseaux électriques et les normes de construction.
+
+La tempête Xynthia, en février 2010, provoque des submersions marines meurtrières en Vendée et en Charente-Maritime : quarante-sept morts, dont beaucoup dans des maisons de plain-pied construites en zone submersible derrière des digues. Elle a mis en évidence la responsabilité des documents d'urbanisme et conduit à des expropriations et à une refonte de la cartographie du risque littoral.`],
+    ["Les marées noires", `L'Amoco Cadiz s'échoue en mars 1978 au large du Finistère : deux cent vingt mille tonnes de pétrole souillent quatre cents kilomètres de côtes bretonnes. C'est l'une des plus importantes marées noires de l'histoire.
+
+Le retentissement fut considérable, et l'action judiciaire aussi : les communes bretonnes ont poursuivi le propriétaire américain devant un tribunal de Chicago et obtenu, après quatorze ans de procédure, une indemnisation.
+
+L'Erika, en décembre 1999, se brise au large de la Bretagne et pollue quatre cents kilomètres de littoral atlantique. Son apport juridique est majeur : l'arrêt de la Cour de cassation de 2012 a consacré la notion de préjudice écologique — un dommage à l'environnement lui-même, indépendant de tout préjudice économique ou moral subi par une personne. Cette notion a été inscrite dans le Code civil en 2016.
+
+Ces deux naufrages ont également conduit aux paquets européens Erika, qui ont accéléré l'élimination des pétroliers à simple coque, renforcé le contrôle des navires par l'État du port et créé une agence européenne de sécurité maritime.`],
+    ["Indemniser et reconstruire", `La canicule d'août 2003 provoque environ quinze mille décès en excès, concentrés sur les personnes âgées isolées. Elle révèle deux défaillances : l'absence de système d'alerte capable de détecter une surmortalité en temps réel, et la vulnérabilité de personnes que rien ne signalait. Elle a produit le plan canicule, le registre communal des personnes fragiles, la journée de solidarité et une surveillance sanitaire réactive.
+
+L'incendie de Notre-Dame de Paris, en avril 2019, détruit la charpente médiévale et la flèche de Viollet-le-Duc. La cathédrale a été reconstruite en cinq ans, avec un débat nourri sur la restitution à l'identique ou la création contemporaine — la première option a été retenue.
+
+Le régime français de catastrophe naturelle, institué en 1982, est une singularité efficace : toute police d'assurance dommages comporte obligatoirement une garantie catastrophes naturelles, financée par une surprime uniforme, et l'État apporte sa garantie par l'intermédiaire de la Caisse centrale de réassurance. L'indemnisation est déclenchée par un arrêté interministériel constatant l'état de catastrophe naturelle.
+
+Ce mécanisme mutualise un risque que les assureurs privés ne pourraient porter seuls. Son équilibre est aujourd'hui menacé par la multiplication des sinistres climatiques, notamment le retrait-gonflement des argiles qui fissure des centaines de milliers de maisons — premier poste d'indemnisation en France.`],
+  ],
 };
