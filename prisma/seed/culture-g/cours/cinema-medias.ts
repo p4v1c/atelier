@@ -145,4 +145,16 @@ Ces distinctions ont un rôle documentaire autant que professionnel : elles cons
 
 La légende sert de garde-fou : elle indique qui, quoi, où et quand, et crédite l'auteur. Une image sans légende vérifiable est une image dont on ne sait rien. Pour une image circulant en ligne, la vérification passe par la recherche d'image inversée, qui retrouve ses apparitions antérieures, et par l'examen des métadonnées, qui portent parfois date et appareil. Enfin, le droit encadre la diffusion : en France, le droit à l'image permet à chacun de s'opposer à la publication de son image, et l'architecte détient un droit d'auteur sur un bâtiment récent, ce qui limite la libre publication de ses photographies.`],
   ],
+
+  "cm-publicite": [
+    ["Ce que la loi encadre", `En France, la déontologie publicitaire relève de l'ARPP, l'Autorité de régulation professionnelle de la publicité : une autorégulation de la profession, qui édicte des recommandations et examine les campagnes avant diffusion télévisée.
+
+La loi impose par ailleurs des limites. La loi Évin de 1991 encadre strictement la publicité pour l'alcool et interdit celle pour le tabac. La publicité comparative, qui cite explicitement un concurrent ou son produit, est légale depuis 1992 mais très encadrée : elle doit porter sur des caractéristiques vérifiables et ne pas dénigrer. Une pratique commerciale trompeuse — reposant sur des allégations fausses ou de nature à induire en erreur — est un délit.`],
+    ["Les formes contemporaines", `Le placement de produit est l'intégration payante d'une marque dans une fiction ; il est autorisé en France depuis 2010 sous condition de signalement au téléspectateur.
+
+Le marketing d'influence a fait l'objet d'une loi spécifique en 2023, qui définit l'influenceur comme une personne mobilisant son audience pour promouvoir des biens ou services contre rémunération, et lui impose de signaler tout contenu commercial. Le greenwashing, communication qui surestime l'engagement écologique d'un produit, relève lui de la pratique trompeuse lorsque l'allégation n'est pas justifiée.`],
+    ["Mesurer et protéger un nom", `En ligne, l'efficacité se mesure au taux de conversion : la part des personnes exposées à une publicité qui accomplissent réellement l'action visée — achat, inscription, clic. C'est ce chiffre, et non l'audience brute, qui détermine la valeur d'un espace publicitaire.
+
+Une marque déposée est un signe enregistré qui confère un monopole d'exploitation dans des classes de produits déterminées, pour dix ans renouvelables. Elle peut se perdre : la dégénérescence survient quand le nom devient le terme courant du produit et cesse d'être perçu comme une marque. Frigidaire, Thermos ou Escalator en ont fait les frais, ce qui explique la vigilance des titulaires à faire corriger les usages génériques de leur nom.`],
+  ],
 };

@@ -147,4 +147,16 @@ Ailleurs, Borobudur, à Java, est le plus grand temple bouddhiste du monde : un 
 
 Ces lieux ont en commun d'être fabriqués autant que trouvés. Un lieu devient sacré parce qu'un récit s'y attache, qu'on y bâtit, qu'on y revient et qu'on s'y compte : la fréquentation fait le lieu autant que le lieu attire la fréquentation.`],
   ],
+
+  "mr-textes-sacres": [
+    ["Fabriquer un canon", `Un canon est la liste des textes reconnus comme faisant autorité par une communauté. Il n'est jamais donné d'emblée : c'est le résultat d'un processus historique de sélection, souvent long et disputé, où l'on écarte autant qu'on retient.
+
+Un texte apocryphe est précisément un texte écarté du canon — ce qui ne signifie ni qu'il soit tardif ni qu'il ait été ignoré : certains apocryphes ont été très lus et ont durablement nourri l'iconographie. Deux découvertes du XXe siècle ont bouleversé la connaissance de ces corpus : les manuscrits de Qumrân, retrouvés près de la mer Morte en 1947, qui éclairent le judaïsme du tournant de notre ère ; et les codex de Nag Hammadi, découverts en Égypte en 1945, qui ont livré une bibliothèque de textes gnostiques jusque-là connus par leurs seuls réfutateurs.`],
+    ["Transmettre sans erreur", `Avant l'écrit, la transmission repose sur la mémoire. Les Védas ont été conservés oralement pendant des siècles grâce à des techniques de mémorisation extraordinairement codifiées : récitation du texte dans plusieurs ordres entrelacés, de façon qu'une erreur devienne détectable — une redondance comparable à celle des codes correcteurs modernes.
+
+L'écrit a ses propres garde-fous. La massore, dans la tradition juive, est un appareil de notes marginales qui compte les lettres, signale les formes rares et fixe la vocalisation, afin de garantir l'exactitude du texte biblique copié. Le Coran, lui, a été fixé par une recension écrite ordonnée sous le calife Othman, qui fit détruire les versions concurrentes pour éviter les divergences.`],
+    ["Lire et interpréter", `L'exégèse est l'étude critique et l'interprétation d'un texte : elle en examine la langue, le contexte, les sources et les strates de composition. L'herméneutique désigne, à un niveau plus général, une théorie de l'interprétation — ce que signifie comprendre un texte, et selon quelles règles.
+
+Les deux disciplines sont nées dans le domaine religieux avant de s'étendre au droit, à la littérature et à l'histoire. Un dernier détail rappelle que ces textes sont des objets matériels autant que spirituels : le colophon, note finale d'un manuscrit ancien, indique le nom du copiste, le lieu ou la date de l'achèvement, et fournit aux historiens l'une de leurs sources les plus précieuses.`],
+  ],
 };

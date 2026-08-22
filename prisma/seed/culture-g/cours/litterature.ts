@@ -145,4 +145,16 @@ L'ironie relève d'un autre mécanisme : faire entendre le contraire de ce que l
 
 Deux autres notions servent à décrire les emboîtements. La mise en abyme est le procédé par lequel une œuvre contient une reproduction d'elle-même — une pièce jouée dans la pièce, un tableau représentant le tableau. L'intertextualité désigne la présence d'un texte dans un autre, par citation, allusion, pastiche ou parodie : aucun texte n'est écrit dans le vide, et repérer ses dettes fait partie de la lecture.`],
   ],
+
+  "li-langues-traduction": [
+    ["Le traducteur est un auteur", `La loi française reconnaît au traducteur littéraire le statut d'auteur : sa traduction est une œuvre dérivée, protégée à part entière, et il perçoit des droits sur les ventes. Ce n'est pas une subtilité juridique — cela signifie qu'une traduction est une création, avec ses choix, son style et sa date, et non un décalque neutre.
+
+C'est ce qui justifie les retraductions : traduire à nouveau une œuvre déjà traduite n'est pas corriger une erreur, c'est proposer une autre lecture, dans une langue d'arrivée qui a elle-même changé. Les grands textes sont retraduits toutes les deux ou trois générations.`],
+    ["Deux fidélités", `L'histoire de la traduction oscille entre deux exigences contradictoires. Au XVIIe siècle, on appelait les belles infidèles ces traductions élégantes mais éloignées de l'original, qui adaptaient les Anciens au goût du temps quitte à les réécrire.
+
+La tension subsiste sous d'autres noms. Une traduction cibliste privilégie la fluidité dans la langue d'arrivée : le lecteur ne doit pas sentir qu'il lit une traduction. Une traduction sourcière conserve au contraire les aspérités de l'original, quitte à malmener le français. Aucune des deux positions n'est absurde, et le choix engage tout le texte. Le piège technique le plus banal reste le faux ami : un mot qui ressemble à un autre dans une autre langue mais n'en a pas le sens.`],
+    ["Les traductions qui ont fait des langues", `Certaines traductions ont eu plus d'effet que des œuvres originales. La Septante est la traduction en grec de la Bible hébraïque, réalisée à Alexandrie à partir du IIIe siècle avant notre ère : elle rend le texte accessible au monde hellénistique et servira de base aux premiers chrétiens. Au IVe siècle, saint Jérôme traduit la Bible en latin — la Vulgate — qui restera la référence occidentale pendant mille ans.
+
+La traduction de la Bible par Martin Luther, au XVIe siècle, a contribué à fixer l'allemand moderne en imposant une norme écrite commune. Aujourd'hui, la traduction automatique neuronale produit des résultats convaincants à partir de modèles statistiques entraînés sur d'immenses corpus, mais bute précisément sur ce que la théorie appelle l'intraduisible : ce qui résiste au passage d'une langue à l'autre et oblige à choisir plutôt qu'à rendre.`],
+  ],
 };
