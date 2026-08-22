@@ -893,4 +893,144 @@ Une métaphore pédagogique facilite la compréhension au prix d'une approximati
 
 Les termes scientifiques passent enfin fréquemment dans la langue courante, et ils y perdent leur précision. *Théorie* désigne en science un cadre explicatif éprouvé et dans l'usage courant une simple hypothèse — malentendu au cœur de bien des controverses. *Énergie*, *quantique*, *chimique*, *naturel*, *significatif*, *paranoïaque* ont tous subi le même sort. Le glissement est inévitable et il vaut la peine d'en avoir conscience : employer un mot savant ne garantit jamais qu'on parle de la même chose que le savant.`],
   ],
+
+  "lf3-emprunts-langues": [
+    ["Le français dans l'anglais", `L'anglais contient des dizaines de milliers de mots d'origine française : selon les décomptes, entre un quart et un tiers de son vocabulaire, davantage encore si l'on inclut les emprunts au latin passés par le français.
+
+La raison est historique et précise. Après la conquête normande de 1066, la cour, l'administration, la justice et l'Église d'Angleterre ont parlé français pendant près de trois siècles. La population continuait de parler l'anglais ; la superposition des deux langues a produit une stratification qui subsiste dans le vocabulaire actuel.
+
+Elle est particulièrement visible dans trois domaines. Le droit d'abord — *justice*, *jury*, *judge*, *court*, *attorney*, *plaintiff*, *verdict* —, au point que le français juridique anglais a survécu comme langue de procédure jusqu'au XVIIIe siècle. La vie de cour ensuite — *royal*, *noble*, *sovereign*, *chivalry*, *courtesy*. La cuisine enfin, avec le contraste le plus parlant : l'animal vivant porte un nom germanique et sa viande un nom français — *cow* et *beef*, *pig* et *pork*, *sheep* et *mutton*, *calf* et *veal*. Le paysan élevait la bête, le seigneur la mangeait.
+
+Plusieurs mots français s'emploient tels quels en anglais avec un sens spécialisé : *impasse* pour une situation diplomatique bloquée, *rendezvous*, *déjà-vu*, *cliché*, *entrepreneur*, *fiancé*.`],
+    ["Le français ailleurs", `Le russe a massivement emprunté au français au XIXe siècle, la noblesse russe le parlant couramment — les premières pages de *Guerre et Paix* sont écrites en français, et Tolstoï comptait sur ses lecteurs pour les comprendre.
+
+Beaucoup de ces emprunts ont glissé de sens, ce qui produit des faux amis : *magazine* désigne en russe un magasin, du français *magasin* ; *chantage*, *bagage*, *pardon*, *fourchette*, *abat-jour* y sont courants avec des nuances propres.
+
+La diplomatie internationale conserve un vocabulaire largement français : *attaché*, *chargé d'affaires*, *communiqué*, *démarche*, *aide-mémoire*, *rapporteur*, *accord*. Le français a été la langue diplomatique dominante du XVIIe au début du XXe siècle, et il demeure l'une des deux langues de travail des Nations unies.
+
+La danse classique constitue le cas le plus complet : sa terminologie est intégralement française dans le monde entier — *plié*, *jeté*, *pas de deux*, *arabesque*, *entrechat*, *battement* — parce que la codification est due à l'Académie royale de danse fondée par Louis XIV en 1661. Un cours de danse à Tokyo ou à Moscou emploie ces mots sans les traduire.
+
+L'escrime, la cuisine professionnelle, l'équitation et la mode conservent des vocabulaires comparables.`],
+    ["Ce que les emprunts démontrent", `L'ampleur des échanges entre langues établit un fait que les débats sur la « pureté » ignorent régulièrement : aucune langue vivante ne s'est développée en vase clos.
+
+L'anglais, souvent présenté en France comme un envahisseur, est la langue européenne la plus massivement empruntée de toutes. Le français lui a pris quelques milliers de mots en un siècle après lui en avoir donné plusieurs dizaines de milliers en trois. Le japonais a emprunté au chinois, au portugais, au néerlandais puis à l'anglais ; le turc au persan et à l'arabe ; le persan à l'arabe ; l'arabe au grec et au syriaque.
+
+Le seul cas d'isolement durable connu concerne des langues de communautés très petites et géographiquement fermées — et cet isolement s'accompagne d'une fragilité extrême, non d'une force.
+
+Ce constat ne rend pas indifférent au sort des langues : une langue peut effectivement disparaître, et cela arrive constamment. Mais elle disparaît par cessation de transmission aux enfants, non par emprunt de vocabulaire. Une langue qui emprunte est une langue qui vit ; une langue qu'on n'apprend plus à ses enfants est une langue qui meurt, quel que soit l'état de son lexique.`],
+  ],
+
+  "lf3-sociolinguistique": [
+    ["La langue dit d'où l'on vient", `La sociolinguistique étudie les rapports entre langue et société. Son constat fondateur est que la variation linguistique n'est pas du désordre : elle est structurée, et elle corrèle avec des facteurs sociaux identifiables.
+
+La façon de parler renseigne autant sur l'origine sociale que sur l'origine géographique. Un auditeur français situe en quelques phrases son interlocuteur sur les deux axes, avec une précision qui l'étonnerait s'il devait l'expliciter.
+
+Une variable sociolinguistique est un trait de langue dont l'usage varie selon des facteurs sociaux : la prononciation d'une consonne, une construction syntaxique, un choix lexical. Le travail fondateur de William Labov sur les grands magasins new-yorkais l'a démontré expérimentalement : la prononciation d'un *r* variait systématiquement selon le magasin, donc selon la clientèle visée, et selon le degré d'attention portée à la parole.
+
+On distingue plusieurs axes de variation. La variation diatopique est géographique, la variation diastratique est liée à l'appartenance sociale, la variation diaphasique dépend de la situation de communication — on ne parle pas de la même façon à un ami et à un supérieur.`],
+    ["La valeur inégale des façons de parler", `Le prestige linguistique ouvert désigne la valorisation publique des formes standard : celles que l'école enseigne, que les médias emploient et que chacun reconnaît comme correctes.
+
+Il coexiste avec un prestige couvert, moins visible : les formes non standard ont une valeur dans certains groupes, où parler trop correctement signale une distance ou une trahison. C'est ce qui explique que des formes stigmatisées se maintiennent malgré des décennies de correction scolaire — elles remplissent une fonction identitaire que la forme standard ne peut pas remplir.
+
+Pierre Bourdieu a formalisé cette économie sous le nom de marché linguistique : un espace où les façons de parler ont une valeur inégale, convertible en avantages réels — un entretien d'embauche, un examen oral, une prise de parole publique. La compétence linguistique devient un capital, inégalement distribué et transmis par la famille avant l'école.
+
+Cette analyse explique pourquoi les jugements sur les façons de parler sont si chargés : ils visent les locuteurs autant que les formes. Dire qu'une prononciation est laide ou qu'une construction est vulgaire revient presque toujours à porter un jugement sur ceux qui l'emploient — ce que révèle un test simple : les mêmes traits paraissent charmants chez un groupe valorisé et fautifs chez un autre.`],
+    ["S'ajuster à l'autre", `L'accommodation linguistique est l'ajustement de sa façon de parler à celle de son interlocuteur. Elle est largement inconsciente et se mesure sur le débit, l'accent, le lexique, la longueur des phrases.
+
+Elle prend deux formes opposées. La convergence rapproche : on adopte des traits de l'autre pour marquer la proximité, ce qui explique qu'un accent régional se renforce au contact d'un compatriote ou qu'on simplifie son vocabulaire face à un enfant. La divergence éloigne : on accentue ses propres traits pour marquer la distance ou l'appartenance à un autre groupe.
+
+Un parler jeune est un ensemble d'usages associés à une classe d'âge, en renouvellement constant. Sa fonction est identitaire, et sa vitesse de renouvellement s'explique par cette fonction : un terme adopté par les adultes cesse de marquer l'appartenance et doit être remplacé.
+
+Il faut se garder d'y voir un appauvrissement : ces parlers ne remplacent pas la langue commune, ils s'y ajoutent. Les mêmes locuteurs disposent d'un répertoire et en changent selon la situation — capacité qui est une compétence supplémentaire, non un déficit.`],
+    ["Langue et rapports sociaux", `Le sexisme dans la langue désigne des usages qui invisibilisent ou hiérarchisent les femmes : masculin générique, absence de formes féminines pour les fonctions prestigieuses, asymétries lexicales entre termes masculins et féminins de même origine.
+
+Ces asymétries sont documentées et systématiques. Plusieurs paires de mots ont des valeurs opposées selon le genre — *un professionnel* et *une professionnelle*, *un homme public* et *une femme publique*, *un courtisan* et *une courtisane*. Dans presque tous les cas, c'est la forme féminine qui a subi une péjoration, ce qui n'est pas un hasard de l'évolution lexicale mais la trace d'un rapport social.
+
+La question de savoir si la langue produit ces rapports ou les reflète est débattue. La position la plus solide est intermédiaire : la langue ne détermine pas la pensée, mais elle oriente l'attention et rend certaines choses plus faciles à dire que d'autres.
+
+Les études expérimentales apportent ici un élément concret : le masculin générique évoque majoritairement des hommes chez les lecteurs, y compris lorsqu'ils savent qu'il est censé désigner un ensemble mixte. Cet effet se mesure par les temps de lecture et par les représentations spontanées, et il est constant d'une étude à l'autre.`],
+  ],
+
+  "lf3-acquisition-langage": [
+    ["Apprendre sans être enseigné", `Un enfant acquiert sa langue maternelle sans enseignement explicite. Personne ne lui apprend les règles d'accord ni la place des pronoms ; il les extrait de ce qu'il entend, et il y parvient en quelques années, sur des données incomplètes et partiellement erronées.
+
+C'est ce constat qui a conduit Chomsky à postuler une capacité linguistique innée : l'apprentissage par simple imitation ne suffirait pas à expliquer la rapidité de l'acquisition ni la production de phrases jamais entendues. Cette position a été discutée, et les approches fondées sur l'usage montrent que les mécanismes généraux d'apprentissage statistique expliquent davantage qu'on ne le pensait. Le débat reste ouvert ; le fait, lui, ne l'est pas.
+
+Les étapes sont remarquablement régulières d'une langue à l'autre. Le babillage vers six mois, les premiers mots vers douze mois, les premières combinaisons de deux mots vers dix-huit à vingt-quatre mois, puis une complexification rapide.
+
+L'explosion lexicale désigne l'accélération de l'acquisition du vocabulaire autour de dix-huit mois : l'enfant passe de quelques mots par semaine à plusieurs par jour, rythme qu'il maintiendra pendant des années.`],
+    ["Ce que les erreurs révèlent", `La surgénéralisation est l'application d'une règle régulière à des formes irrégulières : un enfant qui dit « il a prendu », « des chevals » ou « vous disez » ne répète rien de ce qu'il a entendu.
+
+Ces erreurs sont donc la meilleure preuve que l'enfant construit des règles au lieu de mémoriser des formes. Elles suivent en outre une courbe caractéristique : l'enfant produit d'abord la forme correcte, apprise par cœur, puis se met à produire la forme régularisée quand il extrait la règle, puis retrouve la forme correcte en apprenant l'exception. Une erreur qui apparaît après une réussite est ici un progrès.
+
+Le parler adressé à l'enfant est un registre simplifié et mélodique employé spontanément par les adultes : voix plus aiguë, intonation exagérée, phrases courtes, répétitions, débit ralenti. On l'a longtemps jugé infantilisant ; les travaux montrent qu'il facilite au contraire la segmentation du flux de parole et l'attention, et qu'il se retrouve dans des cultures très éloignées.
+
+La période sensible désigne la phase de l'enfance où l'acquisition est particulièrement efficace, notamment pour la phonologie. Ce n'est pas une fermeture brutale mais une décroissance progressive de la plasticité — un adulte apprend une langue, avec plus d'effort et généralement un accent.`],
+    ["Quand l'acquisition ne se fait pas", `Un trouble développemental du langage — anciennement dysphasie — est une difficulté durable et sévère d'acquisition, sans cause identifiable : ni déficit auditif, ni trouble intellectuel, ni carence d'exposition, ni trouble du spectre autistique. Il concerne environ cinq à sept pour cent des enfants, ce qui en fait l'un des troubles neurodéveloppementaux les plus fréquents et l'un des moins connus du public.
+
+La dyslexie est un trouble spécifique de l'apprentissage de la lecture, persistant malgré un enseignement adapté et une intelligence normale. Elle touche principalement l'automatisation du décodage, ce qui mobilise durablement l'attention et pénalise la compréhension par effet indirect.
+
+Ces troubles se distinguent d'un simple retard : ils persistent, ils résistent aux méthodes ordinaires, et ils exigent une prise en charge spécifique, orthophonique le plus souvent. Leur repérage précoce améliore nettement le pronostic.
+
+L'aphasie relève d'un tout autre mécanisme : c'est une perte du langage consécutive à une lésion cérébrale, le plus souvent un accident vasculaire. Elle a joué un rôle historique majeur, l'étude des aphasiques par Broca puis Wernicke au XIXe siècle ayant permis de localiser les premières fonctions cérébrales et fondé la neuropsychologie.
+
+L'ensemble de ces observations converge vers une conclusion : le langage est une aptitude humaine spécifique et robuste, activée par l'exposition, et dont la défaillance suppose une cause identifiable — ce qui la distingue nettement d'un apprentissage culturel ordinaire comme la lecture, qu'aucun enfant n'acquiert spontanément.`],
+  ],
+
+  "lf3-ecriture-inclusive": [
+    ["Un débat ancien", `Le débat sur la langue et le genre est ancien et déborde largement la question du point médian, à laquelle il est souvent réduit.
+
+Le masculin générique est l'emploi du masculin pour désigner un ensemble mixte ou une personne dont le genre n'est pas spécifié : « les électeurs », « le lecteur », « les droits de l'homme ».
+
+La règle dite du masculin qui l'emporte a été énoncée aux XVIIe et XVIIIe siècles. Les justifications alors avancées sont documentées et ne se citent plus qu'avec embarras : le grammairien Bouhours affirmait que le masculin est le genre le plus noble, et Beauzée, en 1767, que la supériorité du mâle sur la femelle le justifie. Ces formulations n'invalident pas la règle par elles-mêmes, mais elles interdisent de la présenter comme une nécessité logique de la langue.
+
+Elle a d'ailleurs remplacé un usage antérieur : l'accord de proximité, qui fait accorder l'adjectif avec le nom le plus proche, était courant en français classique et se rencontre chez Racine et Corneille.`],
+    ["Les procédés", `L'écriture inclusive n'est pas un procédé unique mais une famille, qu'il vaut la peine de distinguer car ils ne soulèvent pas les mêmes objections.
+
+La féminisation des noms de métiers emploie des formes féminines pour désigner des femmes : *une autrice*, *une professeure*, *une ambassadrice*. Elle est aujourd'hui largement entrée dans l'usage administratif et journalistique, et l'Académie française a levé en 2019 son opposition de principe. Elle restaure souvent des formes anciennes disparues au XVIIe siècle.
+
+Un nom épicène a une forme identique aux deux genres, seul le déterminant variant : *une architecte*, *un ou une juge*, *une ministre*.
+
+Un doublet mentionne les deux formes : « les électrices et les électeurs ». Il est parfaitement lisible et allonge le texte.
+
+Le point médian abrège ces doublets à l'intérieur du mot : *les étudiant·es*. C'est le procédé le plus récent, le plus visible et le seul réellement contesté.`],
+    ["Ce qui est reproché au point médian", `Les objections au point médian sont de trois ordres, et elles ne sont pas de même nature.
+
+La première est technique et sérieuse : des associations de personnes en situation de handicap signalent qu'il gêne les logiciels de lecture d'écran, qui butent sur un mot fragmenté, et qu'il complique la lecture pour les personnes dyslexiques. Cette objection porte sur l'accessibilité et non sur l'idéologie.
+
+La deuxième est pédagogique : le mot ainsi coupé n'a pas de forme orale, et son apprentissage s'ajoute à un système orthographique déjà complexe. L'Éducation nationale française en proscrit l'usage dans les documents scolaires depuis 2017, position réaffirmée depuis.
+
+La troisième est politique, et c'est celle qui occupe le débat public : le procédé est perçu par ses opposants comme une intervention militante sur la langue, et par ses partisans comme une correction d'une intervention militante antérieure — celle des grammairiens du XVIIe siècle.
+
+Un élément factuel mérite d'être versé au débat : les études expérimentales montrent que le masculin générique évoque majoritairement des hommes chez les lecteurs, y compris quand ceux-ci savent qu'il désigne un ensemble mixte. L'effet est mesuré, constant et indépendant des opinions des participants. Il n'impose aucune solution particulière, mais il établit que la question porte sur un phénomène réel et non sur une susceptibilité — ce qui est le minimum pour qu'un débat soit utile.`],
+  ],
+
+  "lf3-argumentation-langue": [
+    ["Les articulations du raisonnement", `Un raisonnement écrit se lit d'abord dans ses connecteurs logiques. Ce sont eux qui explicitent la relation entre les idées, relation qui resterait invisible autrement — juxtaposer deux phrases ne dit pas si la seconde est une conséquence, une cause, une opposition ou un exemple.
+
+Un connecteur d'opposition signale une contradiction ou une restriction : *cependant*, *néanmoins*, *toutefois*, *en revanche*, *or*, *pourtant*. Ils ne sont pas interchangeables — *or* introduit un élément nouveau dans un raisonnement, *en revanche* oppose deux termes symétriques, *pourtant* marque une contradiction avec l'attente.
+
+Un connecteur de cause introduit la raison d'un fait : *car*, *parce que*, *puisque*, *étant donné que*, *en effet*.
+
+La différence entre *parce que* et *puisque* mérite d'être connue : *parce que* apporte une information nouvelle, *puisque* invoque un fait que l'interlocuteur est censé connaître déjà. « Il est parti parce qu'il pleuvait » informe ; « puisqu'il pleuvait, il est parti » s'appuie sur un fait admis. Employer *puisque* pour une information inconnue produit un effet d'imposition — on présente comme acquis ce qui devrait être démontré, procédé rhétorique courant et souvent involontaire.`],
+    ["Dire à quel point on est sûr", `La modalisation est l'expression du degré de certitude du locuteur. Elle passe par des verbes — *sembler*, *paraître*, *devoir* —, des adverbes — *probablement*, *sans doute*, *certainement*, *peut-être* —, des modes verbaux — le conditionnel —, et des tournures impersonnelles.
+
+Sa maîtrise est l'une des marques les plus sûres d'un raisonnement honnête. Un texte qui affirme tout au même niveau de certitude n'est pas plus convaincant : il est moins crédible, parce qu'il ne distingue pas ce qui est établi de ce qui est probable et de ce qui est conjecturé.
+
+Elle est aussi la première chose que la vulgarisation supprime et que la communication efface. Comparer un résumé d'étude scientifique et l'article original suffit à mesurer combien de précautions ont disparu en chemin.
+
+Un lecteur attentif traque donc les modalisateurs : leur absence dans un texte qui traite d'un sujet incertain est en soi une information.`],
+    ["La structure d'une argumentation", `La thèse est la position défendue par l'auteur. Elle peut être annoncée d'emblée ou construite progressivement, mais un texte argumentatif dont on ne peut formuler la thèse en une phrase a probablement échoué.
+
+Un argument est une raison qui soutient cette thèse ; un exemple l'illustre sans la démontrer. Cette distinction est la plus utile de toute l'analyse argumentative : un texte riche en exemples et pauvre en arguments donne une impression de solidité qu'il n'a pas, et c'est un procédé rhétorique fréquent. Un exemple ne prouve rien — il montre qu'un cas existe, jamais qu'il est représentatif.
+
+Un argument d'autorité s'appuie sur la parole d'une personne reconnue. Il n'est pas fallacieux par nature : invoquer un consensus scientifique établi est légitime, et nul ne peut tout vérifier soi-même. Il le devient dans trois cas — quand l'autorité invoquée n'est pas compétente sur la question, quand elle est isolée contre un consensus, ou quand elle remplace un raisonnement disponible.`],
+    ["Traiter l'objection", `Une concession admet un point adverse avant de le dépasser : « il est vrai que… mais ». Loin d'affaiblir, elle renforce — elle montre que l'objection a été considérée, elle désarme le lecteur réticent, et elle permet de circonscrire ce qu'on accorde.
+
+Sa forme grammaticale suit un schéma constant : proposition concessive introduite par *certes*, *bien que*, *sans doute*, puis retournement par un connecteur d'opposition. C'est probablement la structure argumentative la plus efficace, et la plus enseignée depuis la rhétorique antique.
+
+Une réfutation démontre qu'un argument adverse ne tient pas. Elle peut porter sur les faits invoqués, sur la validité du raisonnement, ou sur la pertinence de l'argument au regard de la question. Une réfutation solide reformule d'abord fidèlement l'argument qu'elle combat — le procédé inverse, qui consiste à déformer la position adverse pour la réfuter plus facilement, est l'épouvantail, et il se repère au fait que l'adversaire ne se reconnaît pas dans ce qu'on lui prête.
+
+L'ensemble de ces outils n'a rien de spécifique à l'exercice scolaire : ce sont les instruments ordinaires du débat public, et savoir les repérer chez les autres est la contrepartie de savoir les employer soi-même.`],
+  ],
 };
