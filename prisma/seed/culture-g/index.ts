@@ -6,6 +6,7 @@
  */
 import type { SeedSkill } from "../../../src/modules/types";
 import { CG_HISTOIRE_FRANCE } from "./histoire-france";
+import { CG_ARTS_MUSIQUE_2 } from "./arts-musique-2";
 import { CG_ARTS_MUSIQUE } from "./arts-musique";
 import { CG_CINEMA_MEDIAS } from "./cinema-medias";
 import { CG_GASTRONOMIE } from "./gastronomie";
@@ -26,4 +27,4 @@ import { CG_SCIENCES_TECH } from "./sciences-tech";
 import { CG_SCIENCES_VIE_2 } from "./sciences-vie-2";
 import { CG_SCIENCES_VIE } from "./sciences-vie";
 
-export const CG_NEUF: SeedSkill[] = [...CG_HISTOIRE_FRANCE, ...CG_HISTOIRE_MONDE, ...CG_GEOGRAPHIE, ...CG_SCIENCES_VIE, ...CG_PHYSIQUE_CHIMIE, ...CG_INSTITUTIONS_ECONOMIE, ...CG_LITTERATURE, ...CG_LANGUE_FRANCAISE, ...CG_ARTS_MUSIQUE, ...CG_CINEMA_MEDIAS, ...CG_MYTHOLOGIE_RELIGIONS, ...CG_SCIENCES_TECH, ...CG_GASTRONOMIE, ...CG_SPORT, ...CG_HISTOIRE_MONDE_2, ...CG_HISTOIRE_FRANCE_2, ...CG_GEOGRAPHIE_2, ...CG_LITTERATURE_2, ...CG_SCIENCES_VIE_2, ...CG_PHYSIQUE_CHIMIE_2];
+export const CG_NEUF: SeedSkill[] = [...CG_HISTOIRE_FRANCE, ...CG_HISTOIRE_MONDE, ...CG_GEOGRAPHIE, ...CG_SCIENCES_VIE, ...CG_PHYSIQUE_CHIMIE, ...CG_INSTITUTIONS_ECONOMIE, ...CG_LITTERATURE, ...CG_LANGUE_FRANCAISE, ...CG_ARTS_MUSIQUE, ...CG_CINEMA_MEDIAS, ...CG_MYTHOLOGIE_RELIGIONS, ...CG_SCIENCES_TECH, ...CG_GASTRONOMIE, ...CG_SPORT, ...CG_HISTOIRE_MONDE_2, ...CG_HISTOIRE_FRANCE_2, ...CG_GEOGRAPHIE_2, ...CG_LITTERATURE_2, ...CG_SCIENCES_VIE_2, ...CG_PHYSIQUE_CHIMIE_2, ...CG_ARTS_MUSIQUE_2];
