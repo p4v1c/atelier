@@ -776,4 +776,121 @@ Le joual est une variété populaire du français montréalais, marquée par une
 
 Le Québec joue enfin un rôle actif dans la francophonie institutionnelle, où il dispose d'une représentation propre distincte de celle du Canada — situation rare pour une entité fédérée, et obtenue de haute lutte.`],
   ],
+
+  "lf3-francais-belgique-suisse": [
+    ["Deux pays plurilingues", `La Belgique compte trois langues officielles — le néerlandais, le français et l'allemand — et la Suisse quatre : l'allemand, le français, l'italien et le romanche, langue romane parlée dans les Grisons par quelques dizaines de milliers de personnes.
+
+Les deux organisations diffèrent radicalement. La Belgique applique le principe de territorialité : chaque région a sa langue officielle, et un habitant qui déménage change de régime linguistique. La frontière linguistique, fixée en 1962 et devenue quasiment intangible, sépare la Flandre néerlandophone de la Wallonie francophone, avec une petite communauté germanophone à l'est.
+
+Bruxelles fait exception : officiellement bilingue français-néerlandais, la région est majoritairement francophone dans l'usage tout en étant enclavée en territoire flamand — configuration qui est au cœur des difficultés institutionnelles belges.
+
+La Suisse combine territorialité et pragmatisme : chaque canton fixe sa ou ses langues officielles, et la Confédération fonctionne dans les quatre. Sa stabilité linguistique contraste avec la situation belge, pour des raisons qui tiennent à l'histoire et à l'absence de superposition entre clivage linguistique et clivage économique.
+
+En Belgique, l'enseignement francophone relève de la Fédération Wallonie-Bruxelles, entité qui exerce les compétences culturelles et éducatives sur la Wallonie et les francophones de Bruxelles.`],
+    ["Les particularismes", `Un belgicisme est un mot ou un tour propre au français de Belgique ; un helvétisme, propre à celui de Suisse romande. Ce ne sont pas des fautes mais des variantes régionales, enregistrées comme telles par les dictionnaires.
+
+Le cas le plus connu concerne les numéraux : *septante* pour soixante-dix et *nonante* pour quatre-vingt-dix sont employés dans les deux pays, la Suisse romande ajoutant *huitante* dans plusieurs cantons. Ces formes ne sont pas des innovations mais des conservations — elles étaient courantes en français jusqu'au XVIIe siècle, et c'est le système vigésimal parisien, hérité d'un comptage par vingtaines, qui constitue l'anomalie.
+
+D'autres particularismes concernent le vocabulaire quotidien : *déjeuner*, *dîner* et *souper* y désignent les trois repas dans leur ordre ancien, ce qui produit des malentendus fréquents avec la France. La Belgique dit *drache* pour une averse, *s'il vous plaît* pour « voici », *tirer un plan* pour élaborer un projet ; la Suisse dit *natel* pour un téléphone mobile, *panosse* pour une serpillière, *foehn* pour un sèche-cheveux.
+
+Les variétés belge et suisse ont leurs propres normes reconnues, avec des dictionnaires et des ouvrages de référence propres, et la Suisse romande assume un français très proche de celui de France assorti de particularismes revendiqués plutôt que corrigés.`],
+  ],
+
+  "lf3-francais-afrique": [
+    ["Le centre de gravité se déplace", `Une vingtaine de pays africains ont le français comme langue officielle ou co-officielle, du Maghreb à l'Afrique centrale en passant par le Sahel et le golfe de Guinée.
+
+La projection démographique est le fait le plus important du sujet : la majorité des francophones du monde vivront en Afrique au milieu du siècle, et la part de la France dans l'ensemble francophone deviendra minoritaire. Ce déplacement du centre de gravité est déjà largement engagé, et il modifie la question de la norme : une langue dont les locuteurs sont majoritairement ailleurs ne peut durablement voir sa norme fixée à Paris.
+
+Le statut du français y est particulier : langue officielle et langue de scolarisation, elle est une langue seconde pour la plupart des locuteurs, qui parlent d'abord une ou plusieurs langues africaines. Le nombre de francophones y varie donc considérablement selon qu'on compte les locuteurs courants ou occasionnels.
+
+Ces pays sont massivement plurilingues, avec des langues véhiculaires puissantes : le wolof au Sénégal, le bambara au Mali, le lingala et le swahili en Afrique centrale et orientale — cette dernière étant parlée par plus de cent millions de personnes.`],
+    ["Un français qui invente", `Le français populaire africain désigne des variétés urbaines créatives et largement autonomes, nées du contact entre le français scolaire et les langues locales. Elles ne sont pas du français approximatif : elles ont leurs règles, leur lexique et leur stabilité.
+
+Le nouchi ivoirien en est l'exemple le plus étudié. Né dans les quartiers populaires d'Abidjan, il mêle français, dioula, baoulé, anglais et créations propres, et il s'est diffusé bien au-delà de son milieu d'origine par la musique et l'humour. Il a la particularité rare d'être devenu un marqueur identitaire national plutôt que le parler d'un groupe.
+
+L'alternance codique est la règle plutôt que l'exception : le passage du français aux langues locales au sein d'un même échange, voire d'une même phrase, obéit à des règles précises et remplit des fonctions — connivence, précision, changement d'interlocuteur, marquage de registre. Ce que la norme scolaire traite comme un mélange fautif est en réalité une compétence supplémentaire.
+
+Ahmadou Kourouma, écrivain ivoirien, a fait de ce contact une matière littéraire. Dans *Les Soleils des indépendances* puis *Allah n'est pas obligé*, il transpose en français les structures et les images du malinké, produisant une langue qui n'est ni du français standard ni une transcription — il disait « penser en malinké et écrire en français ». Son apport est comparable à celui de Céline pour l'oral populaire : une reconstruction littéraire, non un relevé.`],
+    ["L'école et la langue", `L'enseignement en français pose en Afrique un enjeu considérable : la scolarisation se fait dans une langue qui n'est pas la langue maternelle de la plupart des élèves.
+
+Les recherches en éducation convergent sur ce point : un enfant apprend à lire plus vite et mieux dans une langue qu'il parle déjà, et les compétences acquises se transfèrent ensuite à une seconde langue. Un enseignement initial en langue première, suivi d'une transition progressive vers le français, produit de meilleurs résultats — y compris en français — qu'une immersion immédiate.
+
+Sa mise en œuvre se heurte à des obstacles réels : nombre de langues à couvrir, absence de matériel pédagogique, formation des enseignants, et souvent la préférence des familles pour un enseignement direct en français, perçu comme la langue de la promotion sociale.
+
+Plusieurs pays ont engagé des programmes d'enseignement bilingue avec des résultats encourageants. C'est probablement l'un des chantiers éducatifs les plus déterminants du continent, et l'un des moins visibles depuis l'Europe.`],
+  ],
+
+  "lf3-litterature-langue-3": [
+    ["Des centaines de mots", `Des centaines de mots français courants ont été créés par des écrivains. Le phénomène est particulièrement dense aux périodes où la langue devait se doter d'un vocabulaire abstrait dont elle manquait.
+
+Rabelais est le plus prolifique : *automate*, *encyclopédie*, *frugal*, *misanthrope*, *quintessence*, *trépignement* et des centaines d'autres lui sont attribués, forgés sur le grec et le latin ou empruntés aux dialectes et aux jargons de métiers.
+
+Thomas More crée *utopie* en 1516, en latin, à partir du grec : *ou-topos*, le lieu qui n'est nulle part — avec un jeu sur *eu-topos*, le lieu du bien, que la prononciation anglaise rend homophone. Le mot a donné un genre littéraire entier et un adjectif d'usage courant.
+
+Alfred Jarry forge *pataphysique*, science des solutions imaginaires et des lois régissant les exceptions. Guillaume Apollinaire crée *surréalisme* en 1917 pour qualifier le ballet *Parade*, mot qu'André Breton reprendra trois ans plus tard pour baptiser son mouvement — l'un des rares cas où un néologisme a désigné un courant avant qu'il n'existe.`],
+    ["Des personnages devenus des noms", `Un second procédé enrichit la langue : le personnage littéraire dont le nom devient un mot commun.
+
+Molière en a fourni plusieurs. *Tartuffe* désigne un hypocrite affectant la dévotion — la pièce fut interdite plusieurs années, ce qui contribua à installer le mot. *Harpagon*, personnage de *L'Avare*, désigne un avare ; le nom vient du grec signifiant crochet, ce qui était déjà une indication.
+
+*Don Juan*, personnage venu du théâtre espagnol et repris par Molière puis par Mozart, désigne un séducteur. Le mot a donné *donjuanesque* et, en psychologie, *donjuanisme*.
+
+Ces antonomases exigent trois conditions : un personnage réduit à un trait unique, une œuvre largement diffusée, et un besoin lexical que le mot vient combler. C'est pourquoi elles se concentrent sur les types comiques et satiriques, dont le trait est par construction unique et outré.`],
+    ["Des œuvres devenues des adjectifs", `Le troisième procédé est plus récent et plus abstrait : l'œuvre entière fournit un adjectif désignant une atmosphère ou une condition.
+
+*Bovarysme*, forgé par le philosophe Jules de Gaultier à partir de *Madame Bovary*, désigne l'insatisfaction chronique de qui se rêve autre qu'il n'est, nourrie de lectures et de représentations idéalisées. Le mot a été repris en psychologie et en sociologie.
+
+*Kafkaïen* ne vient pas d'une œuvre particulière mais de l'ensemble de celle de Kafka : il qualifie une situation d'absurdité administrative où l'individu se heurte à une machine incompréhensible, sans interlocuteur ni recours, et finit par intérioriser sa culpabilité. Le mot est employé bien au-delà du monde littéraire, y compris dans la presse juridique.
+
+*Orwellien* vient de *1984* et désigne un régime de surveillance et de manipulation du langage. Il s'accompagne de plusieurs créations propres au roman passées telles quelles dans l'usage — *Big Brother*, *novlangue*, *doublepensée* —, cas rare d'un vocabulaire fictionnel devenu outil d'analyse politique.
+
+Ces adjectifs ont un point commun instructif : ils nomment des expériences que la langue n'avait pas de mot pour désigner. C'est ce qui explique leur adoption durable, là où des milliers de néologismes littéraires ont disparu — un mot ne survit que s'il comble un manque.`],
+  ],
+
+  "lf3-ponctuation-usages": [
+    ["Écrire sans espaces", `La ponctuation n'a pas toujours existé : les textes antiques grecs et latins s'écrivaient sans espaces entre les mots, sans ponctuation et souvent sans distinction de majuscules. Cette *scriptio continua* paraît illisible aujourd'hui, et elle l'était en partie : la lecture antique se faisait à voix haute, et le lecteur découvrait le découpage en oralisant.
+
+Les premiers signes apparaissent chez les grammairiens alexandrins, comme aides à la lecture publique — ils indiquaient où respirer plus que la structure logique.
+
+L'espace entre les mots se généralise au Moyen Âge, à partir des scriptoria insulaires — Irlande, Angleterre, VIIe et VIIIe siècles. La raison en est concrète : ces moines copiaient du latin sans le parler, et ne pouvaient donc pas s'appuyer sur la reconnaissance orale pour segmenter. Ils ont dû découper visuellement ce qu'ils ne pouvaient découper auditivement.
+
+La conséquence de cette innovation est considérable et rarement soulignée : elle a rendu possible la lecture silencieuse, donc rapide, donc individuelle. Le rapport occidental à l'écrit en découle directement.`],
+    ["Fixer les signes", `L'imprimerie a stabilisé ce que le manuscrit laissait flotter. Alde Manuce, imprimeur vénitien du tournant du XVIe siècle, contribue de façon décisive à fixer la ponctuation moderne : il régularise l'usage de la virgule, du point-virgule et des parenthèses, et invente le format de poche et l'italique.
+
+Le point d'interrogation apparaît au Moyen Âge, dérivé selon l'hypothèse la plus répandue d'une abréviation du latin *quaestio* placée en fin de phrase, le *q* au-dessus du *o*. Le point d'exclamation viendrait de même d'une abréviation du latin *io*, interjection d'admiration ou de joie.
+
+Le point-virgule est un signe intermédiaire entre le point et la virgule : il sépare des propositions plus liées que ne le permettrait un point, et plus autonomes qu'une virgule. C'est le signe le plus délicat et le plus déclinant — beaucoup d'auteurs contemporains ne l'emploient plus, ce que d'autres déplorent comme une perte de nuance.
+
+Les guillemets apparaissent en français au XVIe siècle, d'abord comme marque marginale signalant un passage remarquable, puis comme signe du discours rapporté. Le français a conservé les chevrons doubles, là où l'anglais emploie des apostrophes doubles.`],
+    ["Ce que la ponctuation change", `La ponctuation compte pour le sens parce qu'elle structure la phrase et peut en changer entièrement l'interprétation. Les exemples classiques sont éloquents : la présence ou l'absence d'une virgule dans une relative en modifie la portée, et une virgule mal placée dans un contrat en modifie les obligations — plusieurs litiges commerciaux ont été tranchés sur ce seul point.
+
+Le point d'ironie a été proposé à plusieurs reprises depuis le XIXe siècle — par Alcanter de Brahm puis par d'autres — sans jamais être adopté. Son échec répété est instructif : l'ironie fonctionne précisément parce qu'elle n'est pas signalée, et un signe qui l'annoncerait la supprimerait.
+
+Ce qui n'a pas empêché l'écrit numérique de résoudre le problème autrement. La ponctuation expressive détourne les signes existants pour marquer un ton : la répétition des points d'exclamation, les points de suspension pour l'hésitation ou le sous-entendu, les majuscules pour le cri, l'absence de ponctuation finale dans un message court — dont l'ajout d'un point est aujourd'hui perçu comme sec ou fâché par les jeunes locuteurs.
+
+C'est un système de conventions entièrement nouveau, apparu en une génération, et qui remplit exactement la fonction que le point d'ironie n'avait pas su remplir : rendre à l'écrit ce que la voix porte.`],
+  ],
+
+  "lf3-langue-sciences": [
+    ["Trois langues successives", `La science européenne s'est écrite en latin jusqu'au XVIIIe siècle. Newton publie ses *Principia* en latin en 1687, et les échanges savants se faisaient dans cette langue commune qui permettait à un Suédois et à un Italien de se lire.
+
+Le français devient langue scientifique dominante aux XVIIIe et XIXe siècles, avec l'Encyclopédie, l'Académie des sciences et le prestige de la recherche française. Il était alors la langue de la diplomatie et de la science européenne, position qui paraissait aussi solide que celle de l'anglais aujourd'hui.
+
+L'anglais domine la publication scientifique depuis 1945, pour des raisons de poids scientifique et éditorial des pays anglophones : concentration des financements, des universités de recherche et surtout des grandes revues. L'effet est cumulatif — publier dans la langue la plus lue augmente les citations, ce qui renforce la position de cette langue.
+
+L'histoire enseigne au moins ceci : aucune de ces dominations n'a été éternelle, et chacune paraissait naturelle à ses contemporains.`],
+    ["Nommer avec précision", `Un terme scientifique est un mot dont le sens est défini précisément dans un domaine, avec une définition explicite et une seule référence. C'est ce qui le distingue d'un mot ordinaire, polysémique et contextuel.
+
+La terminologie est la discipline qui étudie et organise ces vocabulaires spécialisés : elle recense les notions d'un domaine, les définit, les hiérarchise et leur attribue une dénomination — travail indispensable dès qu'une communauté doit s'entendre sans ambiguïté.
+
+La nomenclature binomiale, établie par Linné au XVIIIe siècle, en offre le modèle le plus abouti : chaque espèce vivante reçoit un nom de genre suivi d'un nom d'espèce, en latin, valable dans le monde entier. *Homo sapiens*, *Quercus robur*, *Escherichia coli* désignent la même chose partout, quelle que soit la langue de celui qui écrit.
+
+Son avantage sur les noms vernaculaires est décisif : un même nom courant désigne des espèces différentes selon les régions, et une même espèce porte des dizaines de noms. La nomenclature supprime cette ambiguïté au prix d'un apprentissage.`],
+    ["Transmettre", `La vulgarisation scientifique transmet des savoirs à un public non spécialiste. Ce n'est ni une simplification ni une trahison : c'est une traduction, avec les mêmes contraintes que toute traduction — quelque chose se perd, et l'enjeu est de choisir quoi.
+
+Le piège principal est de transformer une hypothèse en certitude. Le discours scientifique est saturé de précautions — les résultats *suggèrent*, l'association est *observée*, l'effet est *possible* — et la vulgarisation les supprime pour gagner en lisibilité. Un résultat préliminaire sur quelques souris devient ainsi une découverte majeure, et l'écart entre l'article original et sa reprise médiatique est parfois considérable.
+
+Une métaphore pédagogique facilite la compréhension au prix d'une approximation. L'atome comme système solaire, l'ADN comme programme, le cerveau comme ordinateur ont tous rendu de grands services et tous induit des erreurs durables. La bonne métaphore est celle dont on annonce les limites en même temps qu'on la propose.
+
+Les termes scientifiques passent enfin fréquemment dans la langue courante, et ils y perdent leur précision. *Théorie* désigne en science un cadre explicatif éprouvé et dans l'usage courant une simple hypothèse — malentendu au cœur de bien des controverses. *Énergie*, *quantique*, *chimique*, *naturel*, *significatif*, *paranoïaque* ont tous subi le même sort. Le glissement est inévitable et il vaut la peine d'en avoir conscience : employer un mot savant ne garantit jamais qu'on parle de la même chose que le savant.`],
+  ],
 };
