@@ -18,6 +18,7 @@ import { COURS_GASTRONOMIE } from "./gastronomie";
 import { COURS_LANGUE_FRANCAISE } from "./langue-francaise";
 import { COURS_LITTERATURE } from "./litterature";
 import { COURS_MYTHOLOGIE_RELIGIONS } from "./mythologie-religions";
+import { COURS_SCIENCES_TECH } from "./sciences-tech";
 import { COURS_SPORT } from "./sport";
 
 export const COURS_TOUS: LotCours = {
@@ -27,5 +28,6 @@ export const COURS_TOUS: LotCours = {
   ...COURS_LANGUE_FRANCAISE,
   ...COURS_LITTERATURE,
   ...COURS_MYTHOLOGIE_RELIGIONS,
+  ...COURS_SCIENCES_TECH,
   ...COURS_SPORT,
 };
