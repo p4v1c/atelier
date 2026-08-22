@@ -753,4 +753,163 @@ Le CNR adopte en mars 1944 un programme de réformes pour l'après-guerre : nati
 La répression s'intensifie à mesure que la Libération approche. Le 10 juin 1944, quatre jours après le débarquement, une division SS détruit Oradour-sur-Glane et massacre six cent quarante-deux habitants — hommes fusillés, femmes et enfants brûlés dans l'église. Le village a été laissé en l'état sur décision de De Gaulle, comme village martyr.`,
       { image: "hf-liberation-paris", legende: "La Libération de Paris, août 1944 : le programme du Conseil national de la Résistance est déjà écrit depuis cinq mois.", alt: "Libération de Paris en août 1944" }],
   ],
+
+  "hf2-quatrieme-republique": [
+    ["Refonder à la Libération", `La Quatrième République est instaurée en 1946, après le rejet d'un premier projet de constitution par référendum. Elle hérite d'un pays détruit et d'un programme de réformes déjà écrit — celui du Conseil national de la Résistance.
+
+Les femmes votent pour la première fois en France en 1945, aux élections municipales, en application de l'ordonnance d'avril 1944 prise à Alger. La France est l'un des derniers grands pays occidentaux à franchir ce pas, un quart de siècle après le Royaume-Uni et l'Allemagne — retard imputable au Sénat de la Troisième République, qui avait bloqué à plusieurs reprises un texte voté par la Chambre.
+
+La Sécurité sociale est créée en 1945 pour couvrir les risques sociaux — maladie, vieillesse, accidents du travail, charges de famille — selon un principe d'unité et de solidarité professionnelle, financée par des cotisations et gérée avec les représentants des assurés.
+
+Les nationalisations de la Libération portent sur les banques de dépôt, l'électricité, le gaz, le charbon, les assurances et Renault, sanctionnée pour collaboration. L'idée est que les secteurs stratégiques doivent échapper aux intérêts privés qui avaient, aux yeux des résistants, failli avant-guerre.`],
+    ["Reconstruire et croître", `Le plan Monnet, à partir de 1946, organise la modernisation économique. C'est une planification indicative et non autoritaire : l'État fixe des priorités — charbon, électricité, acier, ciment, machinisme agricole, transports — et oriente les investissements par le crédit et l'aide américaine du plan Marshall, sans commander la production.
+
+Ce dispositif ouvre les Trente Glorieuses, expression forgée après coup par Jean Fourastié pour désigner les trois décennies de forte croissance de 1945 à 1975. Le pays connaît alors une croissance annuelle de l'ordre de cinq pour cent, le plein emploi, l'équipement massif des ménages et un exode rural qui achève de transformer la société.
+
+Le traité de Rome, signé en 1957, fonde la Communauté économique européenne à six. Il crée un marché commun, une politique agricole commune et une union douanière. Il est signé par une Quatrième République souvent décrite comme impuissante — rappel utile que son bilan économique et européen contredit largement sa réputation d'échec.`],
+    ["Les guerres coloniales", `La guerre d'Indochine, engagée dès 1946, s'achève en 1954 par la défaite de Diên Biên Phu. L'état-major français y avait installé un camp retranché dans une cuvette, convaincu que le Viêt-minh ne pourrait acheminer d'artillerie lourde dans les montagnes environnantes. Il l'a fait, à dos d'homme et de bicyclette, et a écrasé le camp après cinquante-sept jours de siège. Les accords de Genève actent le retrait français.
+
+Le Maroc et la Tunisie, protectorats et non colonies de peuplement, accèdent à l'indépendance en 1956, par négociation et sans guerre — ce qui contraste avec l'Algérie, département français peuplé d'un million d'Européens.
+
+L'insurrection algérienne commence le 1er novembre 1954, quelques mois après Diên Biên Phu. Le conflit, longtemps qualifié d'« opérations de maintien de l'ordre » et reconnu comme guerre par la loi seulement en 1999, mobilise des centaines de milliers d'appelés et s'accompagne d'une torture systématique dont la révélation divise profondément la métropole.`],
+    ["Un régime qui ne gouverne pas", `La Quatrième République a connu vingt-quatre gouvernements en douze ans, soit une durée moyenne de six mois.
+
+La cause est institutionnelle : un exécutif faible face à une Assemblée toute-puissante. Le président du Conseil doit obtenir l'investiture puis la confiance, l'Assemblée peut le renverser sans limite, et la dissolution est pratiquement impossible — elle n'a été employée qu'une fois. À quoi s'ajoute un scrutin proportionnel produisant des majorités de coalition fragiles, avec deux partis d'opposition — communistes et gaullistes — qui refusent tout compromis.
+
+Le régime peut donc administrer et planifier, ce qu'il fait bien, mais il ne peut pas trancher une crise politique majeure.
+
+La crise algérienne du 13 mai 1958 le démontre : un coup de force à Alger, un comité de salut public, une menace d'intervention militaire sur la métropole. Le président du Conseil ne dispose d'aucun moyen. De Gaulle, retiré depuis douze ans, est investi le 1er juin avec mission de rédiger une nouvelle constitution — laquelle corrigera méthodiquement chacune des faiblesses identifiées ici.`],
+  ],
+
+  "hf2-cinquieme-republique": [
+    ["Une constitution contre la précédente", `La Constitution de la Cinquième République est adoptée par référendum en septembre 1958 et promulguée en octobre. Elle est écrite en quelques mois par une équipe autour de Michel Debré, avec un objectif explicite : donner à l'exécutif les moyens de gouverner.
+
+Chaque disposition répond à une faiblesse de la Quatrième. Le gouvernement maîtrise l'ordre du jour parlementaire ; le domaine de la loi est délimité, le reste relevant du règlement ; le vote de confiance est encadré ; la motion de censure exige la majorité absolue des membres et seules les voix favorables sont comptées ; et la dissolution est laissée à la libre appréciation du président.
+
+L'article 49 alinéa 3 permet au gouvernement d'engager sa responsabilité sur un texte, qui est alors adopté sans vote sauf si une motion de censure est déposée et votée. Ce n'est donc pas un passage en force sans contrepartie : il met le gouvernement en jeu — mais il transfère à l'opposition la charge de réunir une majorité pour le renverser, ce qui change tout.
+
+L'article 16 confère au président des pouvoirs exceptionnels lorsque les institutions et l'indépendance de la nation sont menacées de façon grave et immédiate. Il n'a été employé qu'une fois, en 1961, lors du putsch des généraux à Alger.`],
+    ["Le président élu par le peuple", `La réforme de 1962 fait élire le président au suffrage universel direct — l'élection date bien de 1962 et non de 1958, où il était choisi par un collège d'environ quatre-vingt mille élus.
+
+De Gaulle l'obtient par un référendum organisé selon une procédure contestée, en utilisant l'article 11 plutôt que la voie de révision de l'article 89. Le président du Sénat parle de forfaiture, une motion de censure renverse le gouvernement — la seule adoptée sous la Cinquième République —, et de Gaulle dissout puis gagne les législatives.
+
+La portée de cette réforme est considérable. Elle fait du président l'élu le plus légitime du pays, ce qui déplace le centre de gravité du régime vers lui et donne à la Cinquième son caractère hybride, ni parlementaire ni présidentiel.
+
+Le passage au quinquennat, en 2000, aligne la durée du mandat présidentiel sur celle de la législature. Combiné à l'inversion du calendrier électoral qui place la présidentielle avant les législatives, il rend la cohabitation improbable et renforce encore la présidentialisation.
+
+Une cohabitation est une configuration où le président et le gouvernement appartiennent à des bords politiques opposés. Elle s'est produite trois fois entre 1986 et 2002, et elle a démontré que la Constitution pouvait fonctionner dans les deux lectures — le président se repliant alors sur ses domaines réservés.`],
+    ["Mai 68", `Mai 1968 commence comme une contestation étudiante — conditions d'études, autorité universitaire, guerre du Vietnam, mœurs — et se transforme en la plus grande grève générale de l'histoire française, avec sept à neuf millions de grévistes et une paralysie du pays pendant plusieurs semaines.
+
+Le mouvement est composite et sans direction unique : étudiants, ouvriers, syndicats souvent débordés, et une contestation culturelle qui vise autant la société que le pouvoir.
+
+Il se dénoue par les accords de Grenelle, refusés à la base puis largement appliqués — hausse du SMIG de trente-cinq pour cent, reconnaissance de la section syndicale d'entreprise —, par la manifestation gaulliste du 30 mai, et par des élections législatives que la droite remporte largement.
+
+Son effet politique immédiat est donc nul, voire contraire à ce que cherchaient les manifestants. Son effet social et culturel est considérable et s'étale sur une décennie : transformation des rapports d'autorité dans la famille, l'école et l'entreprise, évolution de la condition des femmes, changement des mœurs.
+
+De Gaulle démissionne l'année suivante, après l'échec d'un référendum sur la régionalisation, restant fidèle à sa conception d'un pouvoir qui doit être constamment reconfirmé.`],
+    ["Un régime qui se corrige", `La Cinquième République a été révisée plus de vingt fois, et trois révisions ont significativement rééquilibré ses pouvoirs.
+
+La réforme de 1974 élargit la saisine du Conseil constitutionnel à soixante députés ou soixante sénateurs. Auparavant réservée à quatre autorités qui n'avaient guère intérêt à s'en servir, la saisine devient un outil de l'opposition, et le Conseil passe de quelques décisions par décennie à plusieurs par an. C'est la réforme qui a fait naître le contrôle de constitutionnalité effectif en France.
+
+La question prioritaire de constitutionnalité, entrée en vigueur en 2010, permet à tout justiciable de contester devant le juge une loi déjà en vigueur qui porterait atteinte à ses droits constitutionnels. La France rattrapait là un retard considérable : jusqu'alors, une loi promulguée était incontestable, quelle que soit son ancienneté.
+
+La révision de 2008 limite enfin le président à deux mandats consécutifs, renforce les droits du Parlement — partage de l'ordre du jour, encadrement du 49-3 aux textes budgétaires et à un texte par session, avis des commissions sur les nominations — et crée le Défenseur des droits.
+
+Le régime né d'une crise algérienne est ainsi devenu, par corrections successives, le plus durable depuis la Troisième République.`],
+  ],
+
+  "hf3-societe-ancien-regime": [
+    ["Un statut, pas une fortune", `La société d'ordres reposait sur des statuts juridiques et non sur la richesse. C'est le point le plus difficile à saisir aujourd'hui, et le plus important : un noble ruiné restait noble, avec tous ses droits, tandis qu'un négociant immensément riche restait roturier.
+
+Trois ordres composent le royaume : le clergé, qui prie ; la noblesse, qui combat ; le tiers état, qui travaille — soit environ quatre-vingt-dix-sept pour cent de la population, du plus riche banquier au plus misérable journalier.
+
+Un privilège est un droit particulier attaché à un statut, à une ville, à une province ou à une corporation. Le mot n'a pas le sens péjoratif qu'il a pris : *privilegium* signifie loi privée, et le royaume en était tissé. Chaque province, chaque ville, chaque métier avait les siens, souvent obtenus par achat ou par service, et confirmés à chaque règne.
+
+Il en résultait un royaume juridiquement hétérogène, où les mêmes faits ne relevaient pas des mêmes règles selon le lieu et la personne. C'est cette architecture que la nuit du 4 août 1789 fera s'effondrer en quelques heures.`],
+    ["Payer", `La taille est le principal impôt direct, et les privilégiés en étaient largement exemptés — la noblesse par principe, le clergé par un consentement négocié sous forme de don gratuit, de nombreuses villes et officiers par privilège particulier.
+
+L'exemption avait une justification ancienne : la noblesse payait l'impôt du sang, le clergé celui de la prière. Elle avait cessé de correspondre à la réalité depuis longtemps quand elle est devenue politiquement insupportable.
+
+La gabelle est l'impôt sur le sel, et elle est le meilleur exemple de l'inégalité territoriale. Le royaume était divisé en pays de grande gabelle, où le prix était très élevé et où chaque foyer devait acheter un minimum obligatoire, en pays de petite gabelle, et en provinces franches comme la Bretagne. Un écart de prix de un à dix entre provinces voisines alimentait une contrebande massive — les faux-sauniers — et une répression féroce.
+
+La dîme est une redevance en nature versée à l'Église, prélevée sur la récolte à un taux variable selon les régions.
+
+Une corvée seigneuriale est un travail gratuit dû au seigneur. S'y ajoute au XVIIIe siècle la corvée royale, pour la construction des routes, particulièrement mal supportée.`],
+    ["Travailler et servir", `Une corporation de métier encadre l'exercice d'une profession : elle fixe les techniques, la qualité, les prix, le nombre d'apprentis, et contrôle l'accès à la maîtrise par le chef-d'œuvre.
+
+Ses défenseurs y voyaient une garantie de qualité et de solidarité ; ses adversaires, un frein à l'innovation et à la liberté du travail. Turgot les supprime en 1776 ; elles sont rétablies quelques mois plus tard, puis définitivement abolies en 1791 par le décret d'Allarde et la loi Le Chapelier — laquelle interdira du même coup toute coalition ouvrière pour près d'un siècle.
+
+La vénalité des offices est l'achat de charges publiques — judiciaires, financières, municipales — devenues patrimoine transmissible moyennant le paiement d'une taxe annuelle, la paulette. Le système a résolu un problème de trésorerie royale au prix d'un désastre administratif : le roi ne peut plus révoquer ses propres officiers, qui sont propriétaires de leur fonction. C'est précisément pour contourner cet obstacle qu'ont été créés les intendants, commissaires révocables.
+
+La noblesse de robe est issue de ce mécanisme : certaines charges anoblissaient au bout d'une ou deux générations. Elle se distinguait de la noblesse d'épée, plus ancienne, qui la méprisait tout en la fréquentant — et elle a fourni une grande partie des magistrats, des administrateurs et des esprits éclairés du siècle.`],
+    ["Les parlements", `Un parlement d'Ancien Régime n'a rien d'une assemblée législative : c'est une cour de justice souveraine, jugeant en dernier ressort dans son ressort territorial. Il y en avait treize, celui de Paris couvrant à lui seul le tiers du royaume.
+
+Leur pouvoir politique vient de deux prérogatives. L'enregistrement : un édit royal n'était applicable qu'après enregistrement par le parlement. Et la remontrance : le parlement pouvait exposer au roi les raisons pour lesquelles il jugeait un texte contraire aux lois fondamentales du royaume.
+
+Le roi pouvait passer outre par un lit de justice, mais l'opération était coûteuse politiquement et le bras de fer pouvait durer des années.
+
+Les parlements se sont ainsi opposés à presque toutes les réformes fiscales du XVIIIe siècle, au nom de la défense des libertés contre le despotisme ministériel — argument dans lequel se mêlaient un souci réel du droit et la défense de leurs propres exemptions.
+
+Ce blocage est l'une des causes directes de la convocation des états généraux en 1789 : le roi, incapable de faire enregistrer un impôt sur les privilégiés, a dû s'adresser à la nation. Les parlements, qui croyaient défendre l'ordre ancien, ont ainsi ouvert la porte à sa disparition — et ils seront supprimés en 1790.`],
+  ],
+
+  "hf3-marine-empire-colonial": [
+    ["Le premier empire", `Samuel de Champlain fonde Québec en 1608 et donne à la présence française en Amérique du Nord sa base durable. La Nouvelle-France désigne l'ensemble de ces possessions : vallée du Saint-Laurent, Acadie, Grands Lacs, puis Louisiane après la descente du Mississippi par Cavelier de La Salle.
+
+Sur la carte, l'empire est immense — de Terre-Neuve au golfe du Mexique. Dans les faits, il est peuplé de quelques dizaines de milliers de colons face à plus d'un million de colons britanniques sur la côte atlantique. Il repose sur la traite des fourrures et sur des alliances avec les nations amérindiennes, non sur le peuplement.
+
+Le traité de Paris de 1763, qui clôt la guerre de Sept Ans, fait perdre à la France l'essentiel de cet empire : Canada, Louisiane orientale, comptoirs indiens réduits. La France conserve en revanche ses îles à sucre des Antilles, choix délibéré — elles rapportaient infiniment plus. Voltaire évoquant « quelques arpents de neige » résume un calcul économique alors largement partagé.
+
+Saint-Domingue, l'actuelle Haïti, était en effet la colonie la plus riche du monde au XVIIIe siècle : elle produisait à elle seule une part majeure du sucre et du café consommés en Europe, avec une économie de plantation reposant sur l'esclavage de plusieurs centaines de milliers de personnes. Sa révolution, à partir de 1791, aboutira à l'indépendance en 1804 — première république noire issue d'une révolte d'esclaves victorieuse.`],
+    ["Le commerce lointain", `La Compagnie française des Indes orientales, fondée par Colbert en 1664, détient le monopole du commerce avec l'Asie. Comme ses homologues anglaise et néerlandaise, elle est une entreprise privée dotée de prérogatives régaliennes : elle lève des troupes, signe des traités, administre des territoires.
+
+Sa réussite est réelle sous Dupleix, qui construit au milieu du XVIIIe siècle un système d'alliances avec les princes indiens. Elle s'effondre avec la défaite face aux Britanniques et le rappel de Dupleix, désavoué par une métropole qui refusait le coût de cette politique.
+
+Cinq comptoirs français subsistent en Inde jusqu'en 1954 : Pondichéry, Chandernagor, Karikal, Mahé et Yanaon. Ils sont rétrocédés à l'Inde par accord négocié, sans conflit — contraste notable avec l'Indochine au même moment. Pondichéry conserve un quartier français, un lycée et une architecture reconnaissables.
+
+Le commerce triangulaire structure par ailleurs l'économie atlantique française : produits manufacturés vers l'Afrique, captifs vers les Antilles, denrées coloniales vers l'Europe. Nantes, Bordeaux, La Rochelle et Le Havre en tirent une prospérité dont l'architecture témoigne encore, et la France a déporté environ un million trois cent mille personnes.`],
+    ["Le second empire colonial", `La France s'empare d'Alger en 1830, dans les dernières semaines du règne de Charles X, sur un prétexte diplomatique — le coup d'éventail du dey à un consul — et pour des motifs de politique intérieure. La conquête du reste du territoire prendra des décennies, contre la résistance d'Abd el-Kader puis les insurrections successives.
+
+L'Algérie devient un cas unique : divisée en départements français, peuplée d'une importante population européenne, elle n'est juridiquement pas une colonie — ce qui rendra son indépendance infiniment plus difficile à envisager qu'ailleurs.
+
+Le protectorat français en Tunisie est établi en 1881 par le traité du Bardo, suivi du Maroc en 1912. Le protectorat maintient formellement le souverain local et son administration sous contrôle français — formule juridiquement plus souple, et qui facilitera les indépendances négociées de 1956.
+
+L'expansion s'accélère sous la Troisième République, en Afrique subsaharienne, à Madagascar et en Indochine. Ses justifications mêlent intérêts économiques, rivalité avec le Royaume-Uni et discours de « mission civilisatrice » — que Jules Ferry défend explicitement devant la Chambre en 1885, contre Clemenceau qui lui oppose que rien n'autorise les races dites supérieures à disposer des autres.`],
+    ["Un empire exhibé", `L'Exposition coloniale internationale de 1931, à Vincennes, célèbre l'empire devant plus de huit millions de visiteurs. On y reconstitue un temple d'Angkor grandeur nature, des pavillons de chaque territoire, et l'on y expose des populations dans des villages reconstitués.
+
+Le message est explicite : la France est un empire de cent millions d'habitants, et la métropole n'en compte que quarante. Cette formule, largement diffusée à la veille de la guerre, exprimait une puissance apparente que 1940 démentira brutalement.
+
+Une contre-exposition organisée par les surréalistes, intitulée « la vérité sur les colonies », attira quelques milliers de visiteurs — écart révélateur de l'état de l'opinion.
+
+L'empire fournira aux deux guerres mondiales des centaines de milliers de soldats, et c'est en partie depuis l'Afrique que la France libre se reconstituera. Cette contribution, longtemps sous-représentée dans le récit national, a nourri après 1945 une revendication d'égalité puis d'indépendance — et le décalage entre les promesses faites et les réponses apportées explique une grande part des décolonisations qui suivront.`],
+  ],
+
+  "hf3-industrialisation-france": [
+    ["Un rythme propre", `L'industrialisation française a été plus tardive et plus progressive qu'en Angleterre. Elle démarre vers 1830, un demi-siècle après sa voisine, et progresse sans les ruptures brutales du modèle britannique.
+
+Plusieurs facteurs l'expliquent. La démographie d'abord : la France, qui avait la population la plus nombreuse d'Europe au XVIIIe siècle, entre très tôt dans la transition démographique, ce qui limite la main-d'œuvre disponible et maintient les salaires. La structure agraire ensuite : la Révolution a consolidé une paysannerie propriétaire, attachée à la terre et peu encline à l'exode. Les ressources enfin : le charbon français est de moindre qualité et plus difficile d'accès que le charbon anglais.
+
+Le résultat n'est pas un retard mais une trajectoire différente : croissance régulière, maintien d'un tissu de petites entreprises, spécialisation dans les produits de qualité plutôt que dans la production de masse, et coexistence durable de l'usine et de l'atelier.`],
+    ["Les régions industrielles", `Le bassin houiller du Nord-Pas-de-Calais est le plus important de France, avec plus de la moitié de la production nationale. Il structure une société entière : corons, compagnies minières, hiérarchie sociale, syndicalisme puissant. Il façonne aussi un paysage — les terrils, aujourd'hui inscrits au patrimoine mondial.
+
+La catastrophe de Courrières, en 1906, y fait plus de mille cent morts dans un coup de poussier — explosion de poussières de charbon en suspension. C'est la plus grave catastrophe minière d'Europe. Elle provoque une grève massive et accélère la législation sur la sécurité minière et la création d'un ministère du Travail.
+
+La Lorraine se spécialise dans la sidérurgie grâce à son minerai de fer, la minette, dont la teneur en phosphore rendait longtemps l'acier cassant — jusqu'au procédé Thomas, en 1878, qui rend ce minerai exploitable et transforme la région.
+
+Le Nord développe par ailleurs le textile autour de Roubaix-Tourcoing, coton et laine, avec une industrie de la laine peignée qui domine l'Europe.`],
+    ["Le travail et son organisation", `La journée de huit heures est instaurée en France en 1919, dans un contexte de crainte sociale — la révolution russe est récente, les grèves nombreuses — et d'engagement pris envers les mobilisés.
+
+Le taylorisme est introduit dans les années 1910 : c'est une organisation scientifique du travail qui décompose les tâches en gestes élémentaires chronométrés, sépare la conception de l'exécution, et rémunère au rendement. Il augmente considérablement la productivité et déqualifie l'ouvrier de métier, ce qui explique la résistance syndicale qu'il rencontre.
+
+Citroën symbolise dans l'entre-deux-guerres l'automobile de masse. André Citroën, ingénieur formé aux méthodes américaines, applique la production en série, la standardisation et une politique commerciale agressive — publicité sur la tour Eiffel, réseau de concessionnaires, crédit à l'achat. Il fait faillite en 1934 et l'entreprise passe à Michelin, son créancier.
+
+La sidérurgie sur l'eau, dans les années 1960, implante de grands complexes dans les ports — Dunkerque, Fos-sur-Mer — pour traiter directement le minerai importé, désormais moins cher que la minette lorraine. Cette délocalisation intérieure préfigure la crise des bassins traditionnels.`],
+    ["La désindustrialisation", `La désindustrialisation française commence dans les années 1970 et se poursuit sans interruption : l'emploi industriel est passé de plus de six millions à moins de trois millions, et la part de l'industrie dans la valeur ajoutée a été divisée par deux.
+
+Ses causes se combinent : concurrence internationale, gains de productivité qui réduisent l'emploi à production constante, externalisation de services autrefois comptés dans l'industrie, et choix de spécialisation.
+
+La Lorraine est le bassin le plus durement touché. La sidérurgie s'y effondre à partir de 1978, avec des plans successifs, des grèves massives et la disparition de dizaines de milliers d'emplois en une décennie. La fermeture du dernier haut fourneau lorrain en 2011 a clos un cycle de deux siècles.
+
+Ces reconversions ont laissé des traces profondes : friches à dépolluer, affaissements miniers, chômage durable, et un sentiment d'abandon dont la persistance politique se mesure encore. Les bassins qui s'en sont le mieux sortis disposaient d'une métropole proche, d'une université ou d'une bonne accessibilité — les autres portent encore le poids d'une spécialisation qui avait fait leur prospérité.`],
+  ],
 };
