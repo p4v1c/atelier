@@ -364,4 +364,111 @@ La location meublée touristique — hébergement loué à une clientèle de pas
 
 Une chambre d'hôtes relève d'un régime distinct : un hébergement chez l'habitant, limité à cinq chambres et quinze personnes, avec petit-déjeuner compris et présence de l'hôte. Ce plafond est ce qui la sépare juridiquement d'un hôtel, et il conditionne son régime fiscal comme ses obligations.`],
   ],
+
+  "ga2-parfum": [
+    ["La pyramide olfactive", `Un parfum se construit comme un accord musical, en trois étages qui se révèlent successivement. Les notes de tête s'évaporent en quelques minutes : ce sont les molécules les plus volatiles, agrumes et aromatiques, qui font la première impression. Les notes de cœur tiennent quelques heures et donnent son caractère au parfum : florales, épicées, fruitées. Les notes de fond persistent une journée entière et parfois davantage : bois, résines, musc, ambre.
+
+Cette architecture n'est pas une convention poétique mais une conséquence physique — les molécules ne s'évaporent pas à la même vitesse selon leur masse et leur volatilité. Un parfum change donc sur la peau, et le juger au premier vaporisation revient à juger un morceau sur ses trois premières notes.
+
+Le vocabulaire du domaine emprunte massivement à la musique : accord, note, harmonie, et le compositeur lui-même se nomme un nez. C'est une profession rare, exigeant des années de formation à la mémoire olfactive, et qui compte quelques centaines de praticiens dans le monde.`],
+    ["Grasse, des peaux aux fleurs", `Grasse est la capitale historique du parfum, et son histoire commence par une odeur qu'il fallait masquer. La ville vivait de la tannerie, activité pestilentielle qui traitait les peaux ; la mode italienne des gants parfumés au XVIe siècle amena les gantiers-parfumeurs à cultiver dans l'arrière-pays les fleurs nécessaires. Quand la tannerie déclina, la parfumerie resta.
+
+Le climat et les sols y permettaient la rose centifolia, le jasmin, la tubéreuse, la lavande et la fleur d'oranger. La ville concentre encore aujourd'hui une grande part du savoir-faire mondial de la composition, même si l'essentiel des matières premières vient désormais d'ailleurs. Ses savoir-faire liés au parfum sont inscrits au patrimoine culturel immatériel de l'humanité.`],
+    ["Extraire l'odeur d'une fleur", `Toutes les fleurs ne supportent pas la chaleur de la distillation. L'enfleurage répondait à ce problème : on déposait les pétales sur une couche de graisse froide qui absorbait leurs composés odorants, en renouvelant les fleurs jusqu'à saturation. Le procédé, employé pour le jasmin et la tubéreuse, exigeait des quantités de fleurs et un travail considérables ; il a disparu de la production industrielle, remplacé par l'extraction aux solvants volatils.
+
+Celle-ci donne d'abord une concrète, cireuse, puis une absolue : un extrait très concentré obtenu en reprenant la concrète à l'alcool. C'est la forme la plus fidèle et la plus coûteuse des matières florales — il faut des centaines de kilos de fleurs pour un kilo d'absolue.
+
+Les concentrations du produit fini se distinguent de la même façon. Un extrait ou parfum contient le plus de matières odorantes, une eau de parfum moins, une eau de toilette moins encore, une eau de Cologne moins que tout. La différence n'est pas une question de qualité mais de tenue et de puissance — et de prix, la matière odorante étant l'essentiel du coût.`],
+    ["L'industrie et ses molécules", `Chanel numéro cinq, lancé en 1921, est devenu emblématique pour une raison technique autant que commerciale : il fut l'un des premiers grands parfums à employer massivement des aldéhydes de synthèse, qui lui donnent son caractère abstrait — il ne sent aucune fleur identifiable, il sent le parfum. Cette rupture avec les soliflores du XIXe siècle a ouvert la parfumerie moderne.
+
+La parfumerie utilise des molécules de synthèse pour trois raisons. Le coût, d'abord : certaines matières naturelles valent des milliers d'euros le kilo. La constance, ensuite : une récolte varie d'une année à l'autre, une molécule de synthèse est identique. La préservation des ressources, enfin — le musc était extrait d'une glande de chevrotain tué pour cela, l'ambre gris vient du cachalot, et plusieurs bois précieux sont menacés. La synthèse a sauvé des espèces autant qu'elle a servi les marges.
+
+Les parfums se classent enfin en familles olfactives — hespéridée, florale, fougère, chyprée, boisée, orientale — qui regroupent des compositions aux caractères voisins. Cette classification aide à s'orienter, sans rien dire de la qualité : elle décrit un genre, pas une réussite.`],
+  ],
+
+  "ga2-artisanat-art-vivre": [
+    ["Un métier d'art, c'est quoi", `Un métier d'art est une activité de production, de création ou de restauration qui associe maîtrise technique, savoir-faire manuel et dimension créative. La liste officielle française en recense près de trois cents, réparties en une quinzaine de domaines — céramique, verre, métal, textile, bois, cuir, pierre, restauration du patrimoine.
+
+Ce qui distingue un métier d'art d'un artisanat ordinaire est cette part de création et le caractère unique ou en très petite série de la production. Ce qui le distingue de l'art est la maîtrise d'un savoir-faire technique transmissible et l'existence d'un usage.
+
+Le titre d'artisan, lui, est réglementé : il est conditionné à un diplôme professionnel ou à une expérience de plusieurs années, et son usage abusif est sanctionné. Les titres de maître artisan et de meilleur ouvrier de France couronnent des niveaux supérieurs, ce dernier étant un concours d'État dont le col bleu-blanc-rouge est l'une des distinctions professionnelles les plus reconnues en France.`],
+    ["Transmettre", `Le compagnonnage est un système de formation par le voyage et la transmission entre pairs, dont les origines remontent au moins au Moyen Âge et qui est inscrit au patrimoine culturel immatériel de l'humanité. Il ne relève ni de l'école ni de l'entreprise : c'est une communauté qui forme, héberge et évalue.
+
+Le tour de France des compagnons est un parcours itinérant de plusieurs années : l'aspirant change de ville tous les six mois à un an, travaille chez un employeur différent, loge dans une maison de compagnons et suit des cours le soir. Il apprend ainsi des tours de main régionaux qu'aucun programme ne pourrait rassembler.
+
+Le chef-d'œuvre est la pièce réalisée pour prouver sa maîtrise et être reçu compagnon. Le mot a pris en français le sens d'œuvre admirable, mais son sens d'origine est celui-ci : la preuve technique par laquelle un ouvrier accède au rang supérieur. Les chefs-d'œuvre conservés dans les maisons compagnonniques — escaliers miniatures, charpentes complexes, serrures — sont autant des démonstrations de géométrie que des objets.`],
+    ["Quelques savoir-faire", `L'ébénisterie se distingue de la menuiserie par son objet et sa technique : elle fabrique des meubles fins, avec placages et bois précieux collés sur un bâti, quand la menuiserie travaille le bois massif pour l'agencement et les ouvrages du bâtiment. Le mot vient de l'ébène, bois exotique dont le placage fit la mode au XVIIe siècle.
+
+La marqueterie de paille compose des décors avec des brins de paille de seigle fendus, aplatis et assemblés. Le matériau, d'une pauvreté absolue, produit par sa surface soyeuse des jeux de lumière que ni le bois ni le métal ne donnent. Redécouverte dans les années 1920 par les décorateurs Art déco, la technique est aujourd'hui pratiquée par une poignée d'ateliers.
+
+Les dentelles du Puy et d'Alençon relèvent de deux familles techniques distinctes : la première est une dentelle aux fuseaux, où des fils tendus sur un carreau sont croisés et tordus ; la seconde est une dentelle à l'aiguille, brodée point par point sur un tracé. La dentelle d'Alençon demande sept étapes successives réalisées par des mains différentes, et plusieurs heures pour un centimètre carré.`],
+    ["Ce qui menace ces métiers", `De nombreux savoir-faire artisanaux sont menacés pour une raison arithmétique avant d'être économique : le nombre de praticiens formés devient trop faible pour assurer la transmission. Un métier qui compte cinq praticiens de plus de soixante ans et aucun apprenti disparaîtra, quelle que soit la demande.
+
+La transmission de ces savoirs est essentiellement gestuelle et tacite. Elle ne se consigne pas dans un manuel : elle passe par des années d'observation et de correction côte à côte, ce qui rend la rupture définitive. Un savoir-faire perdu ne se retrouve pas dans les archives, il se réinvente au prix d'un travail considérable — les chantiers de restauration du patrimoine en font régulièrement l'expérience.
+
+Le label Entreprise du patrimoine vivant est une distinction d'État qui reconnaît un savoir-faire rare, ancien ou d'excellence, attribuée pour cinq ans et assortie d'avantages fiscaux. Il concerne plus d'un millier d'entreprises françaises, de l'atelier d'une personne à la manufacture. Son mérite principal est de rendre visible un tissu productif que la statistique économique classe mal, et qui repose souvent sur quelques individus.`],
+  ],
+
+  "ga2-jardins-remarquables": [
+    ["Une œuvre qui ne s'achève jamais", `Un jardin est une œuvre qui change tous les jours et qu'il faut recommencer sans cesse. C'est ce qui le distingue de toutes les autres formes d'art : abandonné un an, il disparaît ; conservé à l'identique, il meurt. Les jardins historiques que l'on visite ne sont donc jamais l'œuvre d'origine mais une restitution constamment refaite.
+
+Le label Jardin remarquable, créé par le ministère de la Culture, distingue des jardins ouverts au public présentant un intérêt de composition, d'histoire, de collection botanique ou d'entretien. Il concerne quelques centaines de sites en France et est attribué pour cinq ans, renouvelables — durée qui traduit précisément cette fragilité.`],
+    ["Deux idées opposées du jardin", `Les jardins de Versailles, dessinés par André Le Nôtre, sont l'expression la plus achevée du jardin à la française : symétrie, perspectives, parterres géométriques, eaux contraintes, végétal taillé. Leur principe est intellectuel avant d'être esthétique — la nature y est soumise à une composition qui se comprend depuis un point de vue unique, celui du château, c'est-à-dire du roi. Le jardin est une démonstration d'ordre.
+
+Le jardin japonais sec, ou jardin de pierres, procède exactement à l'inverse : un espace de gravier ratissé où quelques rochers sont disposés, sans eau, sans fleurs, sans symétrie. Il ne se parcourt pas mais se contemple depuis une véranda, et sa composition asymétrique refuse d'être embrassée d'un seul coup — au Ryōan-ji de Kyoto, on ne peut jamais voir les quinze pierres à la fois. L'un met en scène la maîtrise, l'autre suggère l'incomplétude.
+
+Entre les deux, le jardin de curé est un jardin clos et modeste, mêlant sans hiérarchie légumes, fleurs et plantes médicinales, souvent près d'une église. Sa logique est l'usage : on y cultivait ce dont on avait besoin, et son charme actuel vient précisément de cette absence de composition savante.`],
+    ["Conserver le végétal", `Un arboretum est une collection d'arbres cultivés à des fins scientifiques ou pédagogiques, chaque sujet étant identifié et suivi. Il permet d'observer sur des décennies le comportement d'espèces exotiques sous un climat donné, question devenue centrale avec le réchauffement : les gestionnaires forestiers y cherchent aujourd'hui les essences capables de remplacer celles qui dépérissent.
+
+Un conservatoire botanique national est chargé de la connaissance et de la protection de la flore sauvage sur un territoire agréé : inventaire, suivi des espèces menacées, conservation de graines, expertise auprès des collectivités. Il travaille sur la flore spontanée et non sur les plantes ornementales — distinction importante, la protection de la biodiversité végétale ne passant pas par les jardins.
+
+Une plante invasive dans un jardin est une espèce introduite qui se propage au détriment de la flore locale. Renouée du Japon, buddleia, herbe de la pampa, jussie ont souvent été plantés pour leur agrément avant de s'échapper. Le jardin est l'une des principales portes d'entrée des espèces envahissantes, ce qui donne au choix des plantations une portée qui dépasse la clôture.`],
+    ["Laisser faire, et le paysage", `Le jardin en mouvement, conçu par Gilles Clément, laisse une large part à la dynamique spontanée du végétal : le jardinier observe où les plantes s'installent d'elles-mêmes et intervient en conséquence, déplaçant les allées plutôt que les plantes. La formule qui le résume — faire le plus possible avec, le moins possible contre — inverse le rapport de force du jardin classique.
+
+Cette conception a durablement influencé le paysagisme public, où l'entretien intensif recule au profit d'une gestion différenciée : tonte rase seulement là où l'usage l'exige, fauche tardive ailleurs.
+
+À l'échelle du paysage, la haie bocagère est une haie champêtre qui structure l'espace agricole en délimitant les parcelles. Ses rôles écologiques sont multiples et bien documentés : abri et nourriture pour la faune, brise-vent qui réduit l'évapotranspiration des cultures, frein au ruissellement et à l'érosion, filtre à nitrates, et corridor biologique reliant des habitats isolés. Des centaines de milliers de kilomètres de haies ont été arrachées en France lors des remembrements, et les programmes de replantation actuels peinent à compenser les destructions qui se poursuivent.`],
+  ],
+
+  "ga2-fetes-traditions": [
+    ["Le calendrier des gourmandises", `La galette des rois se consomme à l'Épiphanie, le 6 janvier ou le dimanche voisin. Elle prolonge des fêtes romaines de tirage au sort d'un roi éphémère, christianisées ensuite ; la fève était à l'origine une véritable graine, remplacée par une figurine de porcelaine au XIXe siècle. Le partage suit un rituel : le plus jeune se glisse sous la table et attribue les parts, pour garantir que personne ne choisit.
+
+La Chandeleur, le 2 février, est une fête chrétienne — la présentation de Jésus au Temple — à laquelle sont associées les crêpes. Leur forme ronde et dorée a été rapprochée du soleil qui revient, et la date correspond à des fêtes de mi-hiver bien antérieures. La tradition de faire sauter la crêpe en tenant une pièce d'or promettait la prospérité pour l'année.
+
+Le Nouvel An alsacien associe la carpe frite ou le foie gras selon les familles, et les treize desserts provençaux clôturent le repas de Noël : leur nombre évoque le Christ et les douze apôtres, et l'assortiment — fruits secs, nougats, fruits confits, pompe à l'huile — devait rester sur la table trois jours.`],
+    ["Des identités régionales", `Chaque région a construit un répertoire dont quelques éléments sont devenus des emblèmes. Bayonne est associée au jambon, salé au sel de Salies-de-Béarn, et au chocolat, dont la ville fut la première place française — les chocolatiers juifs chassés de la péninsule ibérique s'y étaient installés au XVIIe siècle.
+
+Le camembert est un fromage normand à croûte fleurie, dont la version moderne doit autant à la boîte en bois inventée à la fin du XIXe siècle, qui permit son transport par chemin de fer, qu'à la fabrication elle-même.
+
+Le bouchon désigne à Lyon un petit restaurant traditionnel servant une cuisine de cochonnailles et d'abats. Le piment d'Espelette est un piment doux du Pays basque protégé par une appellation d'origine, l'une des rares en France pour une épice. Le cidre est traditionnellement associé à la Normandie et à la Bretagne, où le pommier prospère là où la vigne échoue — la géographie des boissons suit celle du climat avec une fidélité remarquable.`,
+      { image: "gas-plateau-fromages", legende: "Les fromages régionaux : des produits d'usage local devenus emblèmes identitaires.", alt: "Plateau de fromages français" }],
+    ["Des traditions plus jeunes qu'elles n'en ont l'air", `Beaucoup de spécialités régionales sont des inventions récentes présentées comme séculaires. Elles ont souvent été codifiées au XIXe ou au XXe siècle, à un moment précis : celui où le chemin de fer, le tourisme et la construction des identités régionales ont donné un intérêt à posséder un plat reconnaissable.
+
+Les exemples sont nombreux. La bouillabaisse marseillaise, soupe de pêcheurs faite des poissons invendables, devient un plat de restaurant codifié à la fin du XIXe siècle. La fondue savoyarde telle qu'on la connaît doit beaucoup à la promotion touristique des sports d'hiver et à un office suisse du fromage. Le kouign-amann, la tartiflette — créée dans les années 1980 pour écouler du reblochon — ou le vin chaud des marchés de Noël relèvent du même processus.
+
+Ce constat n'enlève rien à leur valeur : une tradition inventée reste une tradition dès lors qu'elle est vécue, transmise et partagée. Il invite seulement à la prudence devant l'argument d'ancienneté, souvent brandi dans les querelles de recette. L'historien Eric Hobsbawm a fait de ces « traditions inventées » un objet d'étude à part entière, et la cuisine en offre l'un des terrains les plus riches.`],
+  ],
+
+  "ga2-securite-alimentaire": [
+    ["Une réglementation née des crises", `Les grandes crises alimentaires européennes ont façonné la réglementation actuelle, et l'ordre chronologique importe : c'est l'échec qui a produit les dispositifs, non l'anticipation.
+
+La crise de la vache folle en est le pivot. L'encéphalopathie spongiforme bovine, maladie neurodégénérative provoquée par un prion et propagée par des farines animales incorporées à l'alimentation des bovins, s'est révélée transmissible à l'homme sous une forme variante mortelle. Découverte au Royaume-Uni dans les années 1980, longtemps minimisée, elle a provoqué l'effondrement de la confiance et l'embargo sur le bœuf britannique.
+
+Ses conséquences institutionnelles sont considérables : interdiction des farines animales, traçabilité obligatoire de chaque bovin, et surtout séparation de l'évaluation scientifique du risque et de sa gestion politique. Cette séparation est le principe fondateur du dispositif actuel — l'expertise ne décide pas, et le décideur ne choisit pas ses résultats.`],
+    ["Qui évalue quoi", `L'EFSA, autorité européenne de sécurité des aliments, évalue les risques à l'échelle de l'Union : elle rend des avis scientifiques sur les substances, les procédés et les dangers, sans pouvoir réglementaire. La décision appartient à la Commission et aux États.
+
+L'ANSES joue le même rôle en France, avec un champ élargi à l'environnement et au travail. Elle évalue, délivre les autorisations de mise sur le marché des produits phytosanitaires et alerte ; les décisions de police sanitaire relèvent des ministères.
+
+Cette architecture est régulièrement mise à l'épreuve sur deux points : l'indépendance des experts, ce qui a conduit à des règles strictes de déclaration des liens d'intérêts, et l'écart entre l'avis scientifique et la décision politique, chacune des deux étant parfois reprochée à l'autre.`],
+    ["Trois bactéries à connaître", `La listériose est due à une bactérie qui se développe même au froid, ce qui la rend redoutable : la réfrigération, barrière habituelle, ne l'arrête pas. Elle est rare mais grave, avec une mortalité élevée, et vise particulièrement les femmes enceintes — chez qui elle peut provoquer une fausse couche —, les nourrissons, les personnes âgées et immunodéprimées. D'où les recommandations d'éviter fromages au lait cru, charcuteries de coupe et poissons fumés pendant la grossesse.
+
+La salmonellose est bien plus fréquente, liée aux œufs, aux volailles et aux produits contaminés. Elle provoque une gastro-entérite généralement bénigne chez l'adulte sain, sévère chez les personnes fragiles. Elle est détruite par la cuisson, ce qui explique la prudence sur les préparations à base d'œufs crus insuffisamment refroidies.
+
+La toxine botulique est produite par une bactérie qui se développe en l'absence d'oxygène, notamment dans les conserves mal stérilisées et les charcuteries artisanales. C'est la substance la plus toxique connue, et elle agit en bloquant la transmission nerveuse. Un couvercle bombé, une odeur suspecte doivent conduire à jeter sans goûter. Elle est détruite par un chauffage à cent degrés pendant plusieurs minutes, ce qui justifie de faire bouillir une conserve familiale douteuse.`],
+    ["Réagir vite", `La date limite de consommation, formulée « à consommer jusqu'au », marque une date au-delà de laquelle le produit présente un risque sanitaire : elle concerne les denrées périssables et ne se dépasse pas. Elle diffère de la date de durabilité minimale, formulée « à consommer de préférence avant », qui ne signale qu'une perte possible de qualité — un paquet de pâtes ou une boîte de conserve restent parfaitement consommables au-delà. La confusion entre les deux mentions représente une part significative du gaspillage alimentaire domestique.
+
+Le système d'alerte rapide européen pour les denrées permet à un État qui détecte un produit dangereux d'en informer immédiatement tous les autres, avec la nature du danger et la traçabilité des lots. Il déclenche les retraits et les rappels à l'échelle du continent en quelques heures.
+
+Un rappel de produit demande aux consommateurs de rapporter ou détruire un article déjà vendu — mesure plus lourde qu'un simple retrait des rayons. La France a créé un site public unique recensant tous les rappels, après que l'affaire des laits infantiles contaminés eut montré que l'information n'atteignait pas les familles. L'efficacité réelle reste limitée : une fraction seulement des produits rappelés revient.`],
+  ],
 };
