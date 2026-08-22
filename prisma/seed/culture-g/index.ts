@@ -16,7 +16,8 @@ import { CG_LANGUE_FRANCAISE } from "./langue-francaise";
 import { CG_LITTERATURE } from "./litterature";
 import { CG_MYTHOLOGIE_RELIGIONS } from "./mythologie-religions";
 import { CG_PHYSIQUE_CHIMIE } from "./physique-chimie";
+import { CG_SPORT } from "./sport";
 import { CG_SCIENCES_TECH } from "./sciences-tech";
 import { CG_SCIENCES_VIE } from "./sciences-vie";
 
-export const CG_NEUF: SeedSkill[] = [...CG_HISTOIRE_FRANCE, ...CG_HISTOIRE_MONDE, ...CG_GEOGRAPHIE, ...CG_SCIENCES_VIE, ...CG_PHYSIQUE_CHIMIE, ...CG_INSTITUTIONS_ECONOMIE, ...CG_LITTERATURE, ...CG_LANGUE_FRANCAISE, ...CG_ARTS_MUSIQUE, ...CG_CINEMA_MEDIAS, ...CG_MYTHOLOGIE_RELIGIONS, ...CG_SCIENCES_TECH, ...CG_GASTRONOMIE];
+export const CG_NEUF: SeedSkill[] = [...CG_HISTOIRE_FRANCE, ...CG_HISTOIRE_MONDE, ...CG_GEOGRAPHIE, ...CG_SCIENCES_VIE, ...CG_PHYSIQUE_CHIMIE, ...CG_INSTITUTIONS_ECONOMIE, ...CG_LITTERATURE, ...CG_LANGUE_FRANCAISE, ...CG_ARTS_MUSIQUE, ...CG_CINEMA_MEDIAS, ...CG_MYTHOLOGIE_RELIGIONS, ...CG_SCIENCES_TECH, ...CG_GASTRONOMIE, ...CG_SPORT];
