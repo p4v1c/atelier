@@ -503,4 +503,149 @@ Un rébus représente des sons par des images. Il repose sur le même principe q
 
 Tous ces jeux ont un point commun : ils traitent la langue comme une matière plutôt que comme un véhicule. Ils rappellent que les mots ont une épaisseur sonore et graphique dont la communication ordinaire fait abstraction — et c'est précisément cette épaisseur qu'exploite la poésie.`],
   ],
+
+  "lf2-communication-orale": [
+    ["Une compétence, pas un don", `Parler en public s'apprend : ce n'est ni un don ni une simple question de confiance. C'est une technique, avec des règles identifiables et des exercices qui produisent des progrès mesurables — ce que confirme l'expérience de toutes les formations sérieuses au sujet.
+
+Le trac est une réaction physiologique de stress, normale et gérable : décharge d'adrénaline, accélération cardiaque, respiration courte, mains moites. Il n'est pas le signe d'une incompétence mais d'un enjeu perçu, et il concerne aussi les orateurs les plus expérimentés.
+
+Deux conséquences pratiques en découlent. D'abord, chercher à le supprimer est vain et contre-productif : l'objectif est de l'utiliser, l'activation physiologique améliorant la vigilance. Ensuite, ses effets se réduisent par la préparation et par la respiration — un expiration longue ralentit le rythme cardiaque, effet vérifiable en quelques secondes.
+
+Un point mérite d'être connu : le trac est massivement surestimé par celui qui l'éprouve. Les auditoires perçoivent une fraction seulement des signes que l'orateur croit afficher, phénomène documenté sous le nom d'illusion de transparence.`],
+    ["Ce qu'il faut travailler d'abord", `La priorité absolue est la structure du propos et son fil conducteur. Un discours mal dit mais bien construit passe ; un discours bien dit et sans structure ne laisse rien.
+
+Concrètement, cela suppose de savoir en une phrase ce qu'on veut que l'auditoire retienne, de ne pas dépasser trois ou quatre idées principales, et d'annoncer explicitement les articulations. L'auditeur, contrairement au lecteur, ne peut pas revenir en arrière : c'est à l'orateur de porter la structure.
+
+L'accroche est l'entrée en matière qui capte immédiatement l'attention : un fait surprenant, une question, une anecdote précise, un chiffre. Les premières secondes déterminent l'écoute, et commencer par se présenter et remercier l'assistance est le meilleur moyen de les gâcher.
+
+L'adaptation à l'auditoire consiste à ajuster le vocabulaire, les exemples et le niveau de détail au public visé. C'est le point où échouent le plus souvent les experts, qui sous-estiment systématiquement l'écart entre ce qu'ils savent et ce que sait leur auditoire — biais si constant qu'il porte un nom, la malédiction du savoir.`],
+    ["La voix et le corps", `Le débit est la vitesse d'élocution. L'erreur la plus fréquente est d'aller trop vite, le stress accélérant naturellement. Un débit adapté se situe autour de cent trente à cent cinquante mots par minute pour un exposé ; au-delà, l'auditeur décroche faute de temps pour traiter.
+
+Le silence est l'outil le plus sous-employé. Il souligne ce qui vient d'être dit, laisse le temps d'assimiler, marque les articulations et remplace avantageusement les tics de langage. Une pause de deux secondes paraît interminable à l'orateur et naturelle à l'auditoire — encore un effet du décalage de perception.
+
+Le contact visuel consiste à distribuer le regard sur l'ensemble de l'auditoire, en s'arrêtant quelques secondes sur une personne à la fois plutôt qu'en balayant. Il maintient l'attention, renseigne l'orateur sur la compréhension, et transforme un exposé en échange.
+
+Le support de projection s'utilise en appui, jamais comme transcription du discours. Un auditeur ne peut pas lire et écouter simultanément — les deux activités mobilisent le même canal verbal —, si bien qu'une diapositive chargée de texte annule la parole. Une image, un schéma ou trois mots suffisent.`],
+    ["Écouter", `La communication orale n'est pas seulement l'émission : la moitié se joue dans l'écoute, et c'est vrai d'un entretien comme d'une réunion.
+
+L'écoute active se manifeste par des signaux verbaux et non verbaux : regard, posture orientée, acquiescements, relances brèves. Ces signaux ne sont pas une politesse — ils modifient réellement ce que dit l'interlocuteur, qui développe davantage lorsqu'il se sent écouté.
+
+La reformulation reprend ce qui vient d'être dit, avec d'autres mots, pour vérifier la compréhension : « si je comprends bien, vous dites que… ». Elle remplit trois fonctions simultanées — elle contrôle qu'on a compris, elle montre qu'on a écouté, et elle permet à l'interlocuteur de préciser ou de corriger. C'est l'outil le plus efficace de la conduite d'entretien, et il ne coûte que quelques secondes.
+
+Ces techniques sont enseignées en médiation, en négociation et en soins. Leur simplicité apparente masque une exigence réelle : reformuler suppose d'avoir écouté au lieu de préparer sa réponse pendant que l'autre parle.`],
+  ],
+
+  "lf2-numerique-langue": [
+    ["Écrire comme on parle", `Les usages écrits en ligne ont créé des formes hybrides entre oral et écrit. Un message instantané est écrit par son support et oral par ses conditions : échange rapide, interlocuteur présent, alternance des tours de parole, absence de révision.
+
+Il en résulte une écriture qui emprunte à la parole ses procédés — phrases courtes, ellipses, marques d'hésitation, segmentation — tout en devant compenser l'absence d'intonation et de visage.
+
+L'écriture SMS est née de contraintes matérielles précises : cent soixante caractères par message, saisie sur clavier à neuf touches, facturation à l'unité. Ses abréviations — *koi*, *bcp*, *slt*, *a+* — répondaient à un coût réel. Ces contraintes ayant disparu avec les forfaits illimités et les claviers tactiles, l'écriture SMS a largement reflué, ce qui contredit les prédictions alarmistes des années 2000 sur une dégradation généralisée de l'orthographe.
+
+L'émoji, du point de vue linguistique, apporte un ton et une intention à un message. Il ne remplace pas les mots mais supplée à ce que l'écrit ne porte pas : il désamorce, ironise, adoucit, signale le second degré. Il occupe la fonction qu'assurent à l'oral l'intonation et le sourire — d'où sa présence massive dans les échanges informels et son absence dans les textes où le registre est déjà clair.`],
+    ["Les outils de correction", `Un correcteur orthographique compare les mots d'un texte à un dictionnaire et applique des règles grammaticales. Il signale ce qui n'existe pas et ce qui contredit une règle formelle.
+
+Il ne détecte pas toutes les fautes, et ses limites sont structurelles : il analyse mal le sens et le contexte. Un homophone correctement orthographié mais employé à tort — *ces* pour *ses*, *a* pour *à*, *quelle* pour *qu'elle* — passe inaperçu si la construction reste grammaticalement possible. De même, un accord juste mais absurde ne déclenche rien.
+
+Les correcteurs récents, fondés sur des modèles statistiques plutôt que sur des règles, améliorent nettement ce point en évaluant la probabilité d'une suite de mots. Ils introduisent en contrepartie un risque nouveau : proposer une correction plausible mais fausse, avec une assurance que l'ancien correcteur n'avait pas.
+
+Le principe pratique reste le même qu'avec un correcteur ancien : un outil signale des candidats, il ne décide pas. Accepter toutes les suggestions sans les évaluer produit régulièrement des textes plus fautifs qu'avant.`],
+    ["Faire traiter la langue par des machines", `Le traitement automatique du langage vise à faire analyser et produire du texte par des machines. Il regroupe des tâches très différentes : analyse syntaxique, extraction d'information, traduction, résumé, génération, classification.
+
+La synthèse vocale produit de la parole à partir d'un texte. Longtemps mécanique, elle atteint aujourd'hui un naturel qui rend la détection difficile — ce qui pose des questions nouvelles d'usurpation d'identité vocale. La reconnaissance automatique de la parole opère dans l'autre sens, transcrivant un signal sonore en texte ; ses performances sont excellentes sur une parole claire et se dégradent nettement sur les accents peu représentés, les conversations superposées et les environnements bruyants.
+
+Un modèle de langue est un système statistique qui prédit la suite probable d'un texte. Cette formulation minimale décrit le principe des systèmes actuels : ils n'accèdent pas au sens mais aux régularités statistiques d'immenses corpus. Ce qui surprend est l'ampleur de ce que cette prédiction permet de produire.`],
+    ["Ce que valent les données", `La qualité des données d'entraînement détermine tout, car ces systèmes reproduisent les biais et les lacunes de leurs corpus. Un modèle entraîné sur des textes majoritairement masculins, occidentaux et récents reproduira ces caractéristiques, y compris dans ses associations implicites — attribuer certaines professions à un genre, par exemple.
+
+Ce point n'est pas un défaut accidentel : c'est la conséquence directe du principe. Un système qui apprend des régularités d'un corpus apprend aussi ses régularités indésirables, et il ne dispose d'aucun moyen interne de les distinguer.
+
+Une langue peu dotée numériquement est une langue disposant de peu de ressources écrites exploitables — textes numérisés, corpus annotés, dictionnaires électroniques. La majorité des langues du monde sont dans ce cas.
+
+L'écart qui en résulte est considérable et cumulatif : les outils fonctionnent d'autant mieux que la langue est déjà dotée, ce qui renforce son usage, ce qui produit davantage de données. Une fracture linguistique numérique se creuse ainsi entre une poignée de langues très outillées et toutes les autres, avec des conséquences directes sur l'accès à l'information, à la traduction et aux services en ligne.`],
+  ],
+
+  "lf2-noms-lieux-france": [
+    ["Une archive au sol", `La carte des noms de lieux est une archive de deux mille ans de peuplement. Chaque vague d'installation a laissé ses formations, et leur répartition géographique dessine des cartes qui recoupent l'histoire des migrations avec une précision que peu de sources écrites atteignent.
+
+La méthode de la toponymie est celle de la linguistique historique : identifier les éléments récurrents, établir leur origine par les formes anciennes attestées dans les cartulaires, et cartographier leur distribution. Les formes actuelles sont souvent trompeuses, l'usure phonétique et les réinterprétations populaires ayant considérablement déformé les noms d'origine.
+
+Les couches les plus anciennes sont les plus stables : les noms de cours d'eau et de montagnes remontent souvent à des langues pré-celtiques dont on ne sait presque rien. Les noms d'habitats, plus récents, sont mieux déchiffrables.`],
+    ["Les domaines", `Une part importante des noms de communes désigne à l'origine un domaine agricole.
+
+Les noms en *-ac* du Sud-Ouest et du Massif central — Cognac, Aurillac, Jarnac — viennent d'un suffixe gaulois latinisé accolé à un nom de propriétaire gallo-romain : c'est le domaine d'un tel. Leur équivalent au nord donne les formes en *-y* et *-ay*, et en Bretagne en *-é*. La frontière entre ces zones dessine assez fidèlement la limite entre langue d'oc et langue d'oïl.
+
+Les noms en *-ville* viennent du latin *villa*, qui désigne non une ville mais un grand domaine rural. Ils sont concentrés en Normandie et dans le Nord, souvent précédés d'un nom de personne germanique ou scandinave. Les noms en *-court*, du latin *cortem*, la cour du domaine, sont fréquents en Lorraine, en Picardie et en Franche-Comté, généralement d'origine franque.
+
+Le suffixe *-ing* de Moselle et d'Alsace bossue — Hagondange, Woustviller — désigne le domaine des gens d'un chef germanique. Sa présence marque nettement l'ancienne frontière linguistique entre roman et germanique, et cette frontière toponymique est restée pratiquement stable depuis le haut Moyen Âge.`],
+    ["Le relief, l'eau, le défrichement", `Beaucoup de noms décrivent simplement le lieu. *Mont* désigne une hauteur, souvent modeste — un mont toponymique peut être une butte de quelques dizaines de mètres, l'échelle étant celle du piéton et non du géographe. *Val* et les composés en *-val* désignent une vallée. On trouve de même *combe*, *puy*, *serre*, *bois*, *plan*, *pré*, chacun avec sa répartition régionale.
+
+Le préfixe breton *Plou-* — Plougastel, Plouescat — désigne une paroisse primitive, unité fondatrice de l'organisation bretonne du haut Moyen Âge, généralement suivie du nom du saint fondateur. *Lan-*, *Tre-* et *Ker-* forment des séries comparables, cette dernière désignant un hameau et étant de loin la plus abondante.
+
+Les toponymes en *-sart*, *-essart*, *Les Essarts*, ainsi que les *Rupt*, *Ronce* et *Brûlé*, signalent un défrichement médiéval. Leur concentration date les grands essartages des XIe et XIIIe siècles, période d'expansion agricole où la forêt européenne a reculé plus qu'à aucune autre époque avant l'ère industrielle.
+
+Le préfixe *Saint-* signale une fondation ou une dédicace religieuse, et il est extrêmement fréquent — plusieurs milliers de communes françaises. Sa diffusion accompagne la christianisation puis la multiplication des paroisses.`],
+    ["Les renommages", `De nombreuses communes ont changé de nom au XIXe siècle pour éviter les homonymies dans l'administration postale. La création d'un service national de distribution rendait ingérables les dizaines de Saint-Martin et de Neuville.
+
+D'où l'ajout massif de compléments : Saint-Martin-de-Ré, Neuville-sur-Saône, Château-Thierry. Ces déterminants font aujourd'hui partie du nom officiel, mais ils sont récents et administratifs — ce qui explique que les habitants les omettent le plus souvent dans l'usage local.
+
+La Révolution avait produit une vague antérieure, idéologique celle-là, débaptisant les communes portant un nom de saint ou une référence royale — Saint-Tropez devenant Héraclée, Montmartre devenant Mont-Marat. La quasi-totalité de ces noms révolutionnaires a été abandonnée après 1800.
+
+Plus récemment, les fusions de communes ont produit des noms composés, parfois trois ou quatre éléments accolés. Ces créations administratives, sans profondeur historique, s'ajoutent à des noms parfois deux fois millénaires — et la carte toponymique continue ainsi de s'écrire.`],
+  ],
+
+  "lf2-langue-medias": [
+    ["Le titre décide de la lecture", `Le choix des mots dans un titre oriente la lecture avant même l'article. Les études d'attention le confirment : une majorité de lecteurs ne lit que les titres, et ceux qui lisent l'article y entrent avec le cadrage que le titre a installé.
+
+Un titre informatif livre l'essentiel de l'information — qui, quoi, où. Un titre incitatif suscite au contraire la curiosité sans la livrer, obligeant à ouvrir. Le second domine sur les supports où la rémunération dépend du nombre de clics, et sa dérive extrême — l'appât à clics — promet plus qu'elle ne tient, avec un coût de crédibilité que les rédactions mesurent.
+
+Le titre s'accompagne d'un chapô, court texte introductif placé sous lui, qui résume et donne envie ; puis d'une accroche, première phrase de l'article, destinée à retenir le lecteur au-delà des premières lignes.
+
+Une brève est un article très court donnant l'essentiel d'une information sans développement. Un encadré est un texte complémentaire séparé du corps de l'article — définition, chronologie, témoignage — qui allège le texte principal. Une accroche visuelle en une est l'élément graphique qui attire l'œil sur un sujet.`],
+    ["Choisir un angle", `Un angle est le point de vue retenu pour traiter un sujet : la même information peut être abordée sous l'angle du coût, des personnes concernées, de la technique, de l'histoire ou de la controverse.
+
+Le choix de l'angle n'est pas un ornement : c'est la décision éditoriale principale, celle qui détermine ce qui sera dit et ce qui restera hors champ. Un même événement traité sous deux angles différents produit deux articles également exacts et pourtant opposés dans leur effet.
+
+Cette réalité est au cœur de la critique des médias, et elle mérite d'être formulée sans naïveté dans les deux sens : il n'existe pas d'article sans angle, l'absence de choix produirait un texte illisible ; et le choix de l'angle est bien un acte éditorial, qui peut être discuté et dont on peut demander compte.
+
+Le vocabulaire employé participe du même effet. Nommer un même mouvement « manifestants » ou « émeutiers », une même mesure « réforme » ou « recul », un même acteur « expert » ou « militant » oriente le jugement sans énoncer aucune opinion — c'est le cadrage, et il est d'autant plus efficace qu'il est invisible.`],
+    ["Les précautions et leurs usages", `Les journalistes emploient le conditionnel pour signaler une information non confirmée : « le suspect aurait reconnu les faits ». Le procédé est légitime — il distingue ce qui est établi de ce qui est rapporté — et il est régulièrement détourné, servant à publier une information invérifiée tout en s'en dédouanant grammaticalement.
+
+L'attribution est la précaution symétrique et généralement préférable : indiquer la source — « selon le parquet », « d'après plusieurs témoins » — permet au lecteur d'évaluer lui-même le crédit à accorder.
+
+Le langage euphémisé atténue la réalité décrite : « frappes chirurgicales » pour des bombardements, « plan social » pour des licenciements, « dommages collatéraux » pour des civils tués, « ajustement » pour une baisse. Ces formules ne sont pas neutres : elles réduisent la charge émotionnelle et facilitent l'acceptation. Elles proviennent le plus souvent des communicants et sont reprises telles quelles, ce qui constitue l'une des critiques les plus constantes adressées au traitement de l'information.`],
+    ["Les éléments de langage", `Un élément de langage est une formule préparée par des communicants et répétée à l'identique par plusieurs porte-parole. Sa fonction est double : garantir la cohérence du discours d'une organisation, et occuper le terrain avec une formulation choisie plutôt que subie.
+
+Il se repère assez facilement : c'est la phrase que plusieurs responsables prononcent presque mot pour mot dans la même journée, sur des supports différents. Sa répétition, loin d'être un défaut, est l'objectif — une formule ne s'installe que par la redondance.
+
+Sa contrepartie est connue des journalistes : un interlocuteur qui répond par éléments de langage ne répond pas à la question posée mais à celle qu'il souhaitait qu'on lui pose. D'où les techniques de relance et de reformulation, et d'où aussi l'exercice consistant à signaler explicitement au public qu'une question est restée sans réponse.
+
+Savoir repérer ces formules est l'une des compétences les plus utiles de l'éducation aux médias. Elle ne suppose aucune méfiance systématique — beaucoup d'informations sont exactes et vérifiées — mais la capacité à distinguer ce qui est constaté, ce qui est rapporté et ce qui est promu.`],
+  ],
+
+  "lf2-litteracie": [
+    ["Comprendre n'est pas déchiffrer", `Comprendre un texte suppose de mobiliser des connaissances qui n'y figurent pas. C'est le résultat le plus important de la recherche sur la lecture, et le moins intuitif.
+
+La compréhension en lecture est la construction d'une représentation mentale du contenu : le lecteur ne stocke pas les phrases mais bâtit une scène, un raisonnement ou un enchaînement, en reliant ce qu'il lit à ce qu'il sait déjà.
+
+Une inférence est une information déduite sans être écrite explicitement. « Il ouvrit son parapluie en sortant » suppose qu'il pleuvait, ce que le texte ne dit pas. Un texte est ainsi troué en permanence, et le lecteur comble ces trous avec ses connaissances du monde. Un lecteur qui ne dispose pas de ces connaissances déchiffre correctement et ne comprend pas — d'où l'effet massif du bagage culturel sur les performances de compréhension, indépendamment des compétences techniques de lecture.
+
+La fluence est la capacité à lire avec exactitude, à vitesse suffisante et avec une expression appropriée. Son rôle est indirect et décisif : tant que le déchiffrage mobilise l'attention, il n'en reste pas assez pour comprendre. C'est pourquoi l'automatisation du décodage est un préalable, et pourquoi la lecture à voix haute régulière améliore la compréhension silencieuse.`],
+    ["Suivre un raisonnement", `Un connecteur logique relie des idées en indiquant leur relation : *donc*, *car*, *cependant*, *en effet*, *or*, *par conséquent*. Ce sont les panneaux de signalisation du texte, et leur méconnaissance produit des contresens majeurs — un lecteur qui ne perçoit pas la valeur d'opposition de *or* ou de *pourtant* inverse le raisonnement.
+
+Un texte argumentatif vise à convaincre par des raisons. Son analyse suppose d'identifier la thèse défendue, les arguments qui la soutiennent, les exemples qui illustrent, et les objections traitées. Distinguer un argument d'un exemple est l'exercice le plus formateur : un exemple n'est jamais une preuve, il illustre un argument qui, lui, peut être discuté.
+
+Le plan d'un texte est l'organisation logique de ses parties. Le repérer suppose de suivre les connecteurs, les paragraphes et les reprises. C'est la première opération de toute lecture méthodique, et elle conditionne tout le reste.`],
+    ["Réduire et confronter", `Un résumé réduit un texte tout en respectant son organisation, son point de vue et ses proportions. Trois règles le distinguent d'un simple raccourcissement : il conserve le système d'énonciation de l'auteur — on ne dit pas « l'auteur affirme » —, il respecte l'ordre du raisonnement, et il reformule au lieu de recopier.
+
+Sa difficulté est une opération de hiérarchisation : il faut décider ce qui est principal et ce qui est illustratif, décision qui suppose d'avoir compris la structure argumentative. Un résumé raté révèle presque toujours une compréhension défaillante plutôt qu'un manque de concision.
+
+Une synthèse de documents est un exercice différent : elle confronte plusieurs textes sur un même sujet, en dégageant des axes de comparaison plutôt qu'en les résumant successivement. Elle exige de repérer les points d'accord, les divergences et les compléments, puis de construire un plan qui ne soit celui d'aucun des documents. C'est l'exercice qui se rapproche le plus du travail intellectuel réel — nul ne lit jamais une seule source sur un sujet.`],
+    ["Lire autrement", `La lecture sélective cherche une information précise sans lire l'ensemble : on balaie, on repère des indices — titres, mots-clés, chiffres, mise en forme — et on ne lit intégralement que le passage utile. C'est une compétence à part entière, distincte de la lecture linéaire, et elle est indispensable face au volume d'information disponible.
+
+La lecture sur écran diffère de la lecture sur papier de plusieurs façons documentées. Elle favorise le survol et le balayage plutôt que la lecture continue ; elle fragmente davantage l'attention, notamment par les liens et les notifications ; et plusieurs études constatent une compréhension légèrement inférieure pour les textes longs et argumentés, l'écart étant faible pour les textes courts et informatifs.
+
+Les explications avancées tiennent moins au support qu'aux repères spatiaux — le papier donne une position physique dans le texte, utile à la mémorisation — et aux habitudes acquises, l'écran étant associé à une lecture rapide.
+
+Ces résultats n'imposent aucune conclusion tranchée : ils invitent à choisir le support selon l'usage, et à traiter la lecture longue sur écran comme une pratique qui demande des conditions particulières plutôt que comme un équivalent automatique du papier.`],
+  ],
 };
