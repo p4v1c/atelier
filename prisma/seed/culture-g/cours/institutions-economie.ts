@@ -460,4 +460,127 @@ Le plan Écophyto vise à réduire l'usage des produits phytosanitaires. Lancé 
 
 Le foncier agricole — les terres et les règles régissant leur accès — est devenu un enjeu central pour une raison arithmétique : l'installation d'un jeune agriculteur suppose l'accès à des terres dont le prix a fortement augmenté, alors que le renouvellement des générations s'impose, près de la moitié des agriculteurs devant partir à la retraite dans la décennie. Qui reprendra ces exploitations, et sous quelle forme, est probablement la question qui déterminera le plus l'agriculture française des trente prochaines années.`],
   ],
+
+  "ie2-transports-politiques": [
+    ["Le premier secteur émetteur", `Le transport est le premier secteur émetteur de gaz à effet de serre en France, devant l'industrie, l'agriculture et le bâtiment. C'est aussi le seul dont les émissions n'ont pas baissé depuis 1990 : les gains d'efficacité des moteurs ont été absorbés par l'augmentation des distances parcourues et par l'alourdissement des véhicules.
+
+Au sein du secteur, la voiture individuelle domine largement les émissions, devant les poids lourds ; l'aérien intérieur et le ferroviaire ne pèsent que marginalement. Cette répartition oriente toute politique sérieuse : agir sur la voiture particulière est arithmétiquement indispensable, quelles que soient les mesures prises ailleurs.
+
+Elle explique aussi pourquoi les politiques de transport sont politiquement si difficiles. La voiture n'est pas un choix libre pour une grande part de la population : dans les territoires peu denses, sans alternative, elle conditionne l'accès à l'emploi, aux soins et aux services. Toute mesure qui en renchérit l'usage sans offrir d'alternative est vécue comme une injustice, et l'a été.`],
+    ["Organiser les réseaux", `SNCF Réseau gère l'infrastructure ferroviaire française — voies, signalisation, gares de triage — et attribue les sillons, c'est-à-dire les créneaux de circulation. Sa séparation d'avec l'exploitant historique découle du droit européen, qui impose de distinguer le gestionnaire d'infrastructure de l'entreprise ferroviaire pour permettre l'ouverture à la concurrence.
+
+Celle-ci autorise plusieurs opérateurs à exploiter des lignes, soit librement pour les services commerciaux comme la grande vitesse, soit par appel d'offres pour les services conventionnés par les régions. Ses premiers effets se lisent surtout sur les liaisons rentables ; les conséquences sur le maillage fin restent à évaluer.
+
+Une autorité organisatrice de mobilité est la collectivité chargée d'organiser les transports sur son territoire : la région pour les trains régionaux et les cars, l'intercommunalité pour les réseaux urbains. Elle définit l'offre, les tarifs et confie l'exploitation. Le versement mobilité, contribution assise sur la masse salariale des employeurs d'une certaine taille, en constitue la principale ressource : ce sont donc largement les entreprises qui financent les transports publics urbains français, particularité peu répandue à l'étranger.`],
+    ["Reporter et restreindre", `Le report modal est le transfert de trafic d'un mode de transport vers un autre, en général de la route vers le rail, le fluvial ou le vélo. C'est le levier privilégié des politiques publiques, et le plus difficile à obtenir : il suppose que l'alternative soit compétitive en temps, en coût et en fiabilité, ce qui est rarement le cas simultanément.
+
+Le fret ferroviaire illustre cette difficulté. Sa part dans le transport de marchandises a fortement reculé en France depuis les années 1980, alors qu'elle se maintenait chez plusieurs voisins. Ses causes sont connues : priorité donnée aux voyageurs sur un réseau partagé, disparition des embranchements particuliers desservant les usines, souplesse supérieure du camion. Le transport combiné, qui achemine une même unité de charge — conteneur ou caisse mobile — par plusieurs modes successifs, cherche à concilier la massification du rail et la souplesse de la route sur le dernier kilomètre.
+
+Une zone à faibles émissions est un périmètre urbain où la circulation des véhicules les plus polluants est restreinte selon leur classement. Généralisées en Europe, ces zones améliorent mesurablement la qualité de l'air, et posent une question sociale directe : les véhicules les plus anciens appartiennent aux ménages les plus modestes, ce qui a conduit à en repousser ou assouplir plusieurs calendriers.`],
+    ["Changer de motorisation", `Une infrastructure de recharge conditionne l'usage réel des véhicules électriques bien davantage que l'autonomie des batteries. La majorité des recharges s'effectue au domicile ou sur le lieu de travail, ce qui avantage nettement les propriétaires de maison individuelle et laisse en difficulté les habitants d'immeubles collectifs sans place attitrée — inégalité peu discutée mais déterminante pour la diffusion du véhicule électrique.
+
+Le maillage en recharge rapide sur les axes longue distance a beaucoup progressé, et son enjeu n'est plus tant le nombre de points que leur fiabilité, leur puissance et la simplicité du paiement.
+
+La transition du parc pose enfin une question de rythme : un véhicule dure une quinzaine d'années, si bien que le parc en circulation reflète les ventes de la décennie écoulée. Même en supposant une bascule complète des ventes neuves, le renouvellement complet du parc prendrait des décennies — ce qui explique que les politiques de transport combinent nécessairement le changement de motorisation, le report modal et la réduction des distances parcourues, aucune des trois ne suffisant seule.`],
+  ],
+
+  "ie2-culture-politiques": [
+    ["Le premier ministère de la Culture", `La France a créé en 1959 le premier ministère de la Culture au monde, confié à André Malraux. Sa mission, définie par le décret fondateur, était de rendre accessibles les œuvres capitales de l'humanité au plus grand nombre possible de Français.
+
+Cette formulation contient toute l'ambition et toute la difficulté de la politique culturelle française : elle suppose que les œuvres existent indépendamment des publics, et que l'obstacle est l'accès. Les maisons de la culture, équipements de proximité implantés en province sous Malraux, en furent l'instrument principal — un lieu par département, conçu comme une cathédrale du XXe siècle où l'œuvre rencontrerait le public.
+
+Le bilan de cette conception a été discuté dès les années 1960 par des sociologues montrant que la fréquentation restait fortement déterminée par le milieu social et le capital scolaire, et que la gratuité ne suffisait pas à lever les barrières symboliques. Le débat entre démocratisation — élargir l'accès aux œuvres reconnues — et démocratie culturelle — reconnaître la diversité des pratiques — structure depuis lors la politique culturelle française.`],
+    ["L'exception culturelle", `L'exception culturelle française désigne le refus de traiter les biens culturels comme des marchandises ordinaires soumises au seul libre-échange. Elle a été défendue lors des négociations commerciales internationales des années 1990, où la France a obtenu que l'audiovisuel soit exclu des engagements de libéralisation.
+
+Son argument est double : un film ou un livre ne sont pas des biens comme les autres parce qu'ils portent une identité et une langue, et parce que le marché seul conduirait à la domination des productions les plus capitalisées.
+
+Le cinéma français en est le principal bénéficiaire. Il est soutenu par un mécanisme original : une taxe sur les billets de cinéma et sur les diffuseurs, redistribuée par le Centre national du cinéma sous forme d'avances et de soutiens automatiques. Le système est circulaire — le succès commercial finance la création — et a permis à la France de conserver l'une des rares industries cinématographiques nationales durablement productives en Europe.
+
+La chronologie des médias fixe les délais entre la sortie en salle et les autres modes de diffusion : vidéo, télévision, plateformes. Elle protège la salle, premier maillon du financement, et fait l'objet de renégociations constantes depuis l'arrivée des plateformes de diffusion en continu, qui contestent des délais conçus pour un autre paysage.`],
+    ["Les publics", `Le pass Culture est une aide financière créditée sur une application, destinée à l'accès des jeunes aux biens et sorties culturels, avec une part individuelle et une part collective mobilisée par les établissements scolaires. Son évaluation a montré un effet réel sur les dépenses, et une concentration importante sur le livre — notamment la bande dessinée et le manga —, ce qui a conduit à en ajuster les règles pour orienter davantage vers la diversification des pratiques.
+
+La gratuité des collections permanentes des musées nationaux pour les moins de vingt-six ans s'applique aux résidents de l'Union européenne, sur présentation d'un justificatif. Instaurée en 2009, elle a nettement augmenté la fréquentation de cette tranche d'âge, sans transformer sa composition sociale — confirmation que le prix n'est qu'une barrière parmi d'autres.
+
+Une scène nationale est un label attribué par l'État à des établissements de spectacle vivant répartis sur le territoire, avec un cahier des charges de création, de diffusion et d'action culturelle. Le réseau, avec les centres dramatiques nationaux et les centres chorégraphiques, constitue l'ossature de la décentralisation théâtrale engagée dès l'après-guerre.`],
+    ["Le financement privé", `Le mécénat culturel est un soutien privé — d'entreprise ou de particulier — ouvrant droit à une réduction d'impôt substantielle, soixante pour cent du versement pour les entreprises dans la limite d'un plafond. Il se distingue du parrainage, qui est une prestation publicitaire relevant d'une logique commerciale et d'un traitement fiscal différent.
+
+Ce dispositif, l'un des plus généreux au monde, a considérablement développé le financement privé de la culture et du patrimoine en France. Il soulève deux questions récurrentes. La première est budgétaire : une réduction d'impôt est une dépense publique indirecte, si bien que l'État finance une part majoritaire d'un choix décidé par un donateur privé. La seconde porte sur l'orientation : le mécénat se dirige vers les institutions et les projets les plus visibles, ce qui peut accentuer les écarts entre grandes institutions et structures modestes.
+
+Ces débats ne remettent pas en cause l'apport du mécénat, mais rappellent qu'il complète une politique publique sans s'y substituer — et que le choix des projets soutenus est un pouvoir en soi.`],
+  ],
+
+  "ie2-associations-economie-sociale": [
+    ["Une autre règle de décision", `Dans une coopérative, chaque associé dispose d'une voix, quel que soit son apport en capital. Cette règle — une personne, une voix — est la différence fondamentale avec une société classique, où le pouvoir est proportionnel au capital détenu.
+
+Elle emporte des conséquences en chaîne. Le capital n'est plus le critère du pouvoir, ce qui rend la coopérative peu attractive pour un investisseur cherchant le contrôle ; les réserves sont impartageables, c'est-à-dire qu'elles ne peuvent être distribuées même en cas de dissolution ; et la finalité déclarée n'est pas la maximisation du profit mais le service rendu aux membres.
+
+Une SCOP est une société coopérative dont les salariés sont associés majoritaires : ils détiennent au moins la majorité du capital et des droits de vote, et élisent leurs dirigeants. Le modèle a fait la preuve d'une résistance particulière aux crises — les salariés y acceptent des ajustements de rémunération plutôt que des licenciements — et d'un taux de survie à cinq ans supérieur à la moyenne des entreprises.`],
+    ["Les autres familles", `Une mutuelle est une organisation à but non lucratif qui couvre des risques pour ses adhérents, lesquels en sont à la fois les assurés et les propriétaires. Née des sociétés de secours mutuel du XIXe siècle, elle précède la sécurité sociale et en a préparé les principes.
+
+Une association loi 1901 est un groupement de personnes à but non lucratif, fondé sur la liberté d'association consacrée cette année-là. Sa souplesse explique son succès : quelques formalités suffisent à la créer, elle peut employer des salariés, exercer une activité économique, et seule la non-distribution des bénéfices la distingue d'une entreprise. La France en compte plus d'un million en activité.
+
+Une fondation est l'affectation irrévocable de biens à une œuvre d'intérêt général. Son point de départ n'est donc pas un groupement de personnes mais un patrimoine dédié, ce qui la distingue nettement de l'association.
+
+L'ensemble de ces structures — coopératives, mutuelles, associations, fondations — forme l'économie sociale et solidaire, qui représente environ un dixième de l'emploi salarié français, avec une présence dominante dans l'action sociale, le sport, la culture et une part importante de la banque et de l'assurance.`],
+    ["Employer autrement", `L'insertion par l'activité économique emploie des personnes durablement éloignées de l'emploi dans une structure de production, avec un accompagnement social et professionnel et un encadrement renforcé. Le travail y est un support, non une fin : l'objectif est le retour vers l'emploi ordinaire.
+
+Ces structures — associations intermédiaires, ateliers et chantiers d'insertion, entreprises d'insertion — bénéficient d'aides compensant l'écart de productivité et le coût de l'accompagnement. Les évaluations montrent des taux de sortie vers l'emploi variables selon les publics et les secteurs, et une efficacité supérieure lorsque la structure travaille sur un marché réel plutôt que sur des activités occupationnelles.
+
+Une entreprise à mission est une société commerciale ordinaire qui inscrit dans ses statuts une raison d'être et des objectifs sociaux ou environnementaux, avec un comité de mission chargé du suivi et une vérification par un tiers indépendant. Introduit par la loi Pacte en 2019, ce statut ne relève pas de l'économie sociale — le capital y garde le pouvoir — mais il en emprunte l'idée d'une finalité inscrite dans les statuts.`],
+    ["Donner de son temps", `Le bénévolat est une activité librement consentie et non rémunérée, au bénéfice d'autrui ou d'un projet collectif. Il représente en France un volume de travail considérable, équivalent à plusieurs centaines de milliers d'emplois à temps plein, et fait fonctionner l'essentiel du tissu associatif sportif, culturel et social.
+
+Sa frontière avec le salariat est juridiquement précise : l'absence de lien de subordination et de rémunération. Un remboursement de frais réels est admis, une indemnisation déguisée requalifiée.
+
+Le service civique est un engagement volontaire de six à douze mois, indemnisé par l'État, ouvert aux jeunes de seize à vingt-cinq ans sans condition de diplôme, sur des missions d'intérêt général. Il n'est ni un stage ni un emploi : la mission doit être complémentaire de l'action des salariés et non se substituer à un poste — règle centrale, dont le respect fait l'objet d'un contrôle et de critiques récurrentes.
+
+Créé en 2010, il accueille chaque année plusieurs dizaines de milliers de jeunes, et ses évaluations montrent un effet positif sur la confiance en soi et l'orientation, plus incertain sur l'insertion professionnelle immédiate.`],
+  ],
+
+  "ie3-partis-politiques": [
+    ["Ce que dit la Constitution", `La Constitution française consacre les partis politiques dans son article 4 : ils concourent à l'expression du suffrage, se forment et exercent leur activité librement, et doivent respecter les principes de la souveraineté nationale et de la démocratie.
+
+Cette reconnaissance est plus tardive et plus prudente qu'on ne l'imagine. Les constitutions antérieures ignoraient les partis, et une méfiance ancienne, remontant à la Révolution et à sa condamnation des factions, a longtemps pesé sur leur légitimité. La Ve République les reconnaît tout en étant conçue pour limiter leur emprise sur les institutions.
+
+Un groupe parlementaire est le prolongement d'un parti dans l'assemblée : un regroupement de parlementaires partageant des orientations communes, qui donne accès aux temps de parole, aux postes dans les commissions, aux moyens matériels et à certains droits de procédure. Un député non inscrit, qui n'appartient à aucun groupe, dispose de droits considérablement réduits — ce qui rend l'appartenance à un groupe déterminante pour l'efficacité d'un élu.`],
+    ["L'argent public des partis", `Les partis politiques français sont financés en grande partie sur fonds publics, choix opéré au début des années 1990 après une série d'affaires de financement occulte. Le raisonnement est explicite : si les partis ont besoin d'argent, mieux vaut qu'il vienne d'une source transparente que d'entreprises attendant une contrepartie.
+
+Ce financement se décompose en deux fractions. La première dépend des résultats obtenus aux élections législatives, calculée sur le nombre de suffrages, à condition d'avoir présenté des candidats dans un nombre suffisant de circonscriptions. La seconde dépend du nombre de parlementaires qui se rattachent au parti. La première fraction est modulée en fonction du respect de la parité des candidatures — les partis qui présentent trop peu de femmes voient leur dotation réduite, mécanisme qui a fait progresser la parité sans la garantir.
+
+Les dons de personnes morales aux partis et aux campagnes sont interdits depuis 1995. Les dons de particuliers sont plafonnés à sept mille cinq cents euros par an et par personne, tous partis confondus, et ouvrent droit à une réduction d'impôt.`],
+    ["Contrôler les campagnes", `Le plafonnement des dépenses de campagne fixe une limite légale au montant qu'un candidat peut engager, variable selon l'élection et le nombre d'habitants. Son objectif est double : éviter que la richesse détermine l'issue du scrutin, et contenir la course à la dépense.
+
+La Commission nationale des comptes de campagne et des financements politiques est l'autorité indépendante qui contrôle ces comptes. Chaque candidat doit déposer un compte certifié par un expert-comptable, retraçant recettes et dépenses. La Commission peut l'approuver, le réformer ou le rejeter.
+
+Les conséquences d'un rejet sont sérieuses : perte du remboursement forfaitaire de l'État, et saisine du juge de l'élection, qui peut prononcer l'inéligibilité et l'annulation du scrutin. Ce dispositif a fait l'objet d'applications retentissantes, y compris à des campagnes présidentielles.`],
+    ["Désigner et décider", `Une primaire est une élection interne désignant le candidat d'un parti ou d'un camp. Ouverte, elle associe des sympathisants au-delà des adhérents ; fermée, elle est réservée à ces derniers. Importée du modèle américain, la pratique s'est développée en France dans les années 2010 avec des résultats contrastés : elle légitime le candidat désigné, et elle expose les divisions internes et peut porter au premier plan un candidat mal placé pour l'élection générale.
+
+La démocratie interne d'un parti désigne les procédures permettant aux adhérents de participer aux décisions : élection des dirigeants, votes sur les orientations, désignation des candidats. Elle varie considérablement d'une organisation à l'autre, et son affaiblissement accompagne partout la chute du nombre d'adhérents — les partis français comptent aujourd'hui une fraction des effectifs qu'ils réunissaient dans les années 1970.
+
+Le clivage gauche-droite, enfin, tire son origine d'une circonstance matérielle : lors des débats de l'Assemblée constituante en 1789 sur le veto royal, les partisans se sont regroupés à droite du président de séance et les opposants à gauche. Une disposition physique devenue une catégorie politique universelle, dont la pertinence est régulièrement contestée sans qu'aucune autre ne s'impose durablement.`],
+  ],
+
+  "ie3-fiscalite": [
+    ["Progressif, proportionnel, régressif", `Un impôt progressif prélève une part croissante du revenu à mesure que celui-ci augmente. Un impôt proportionnel applique un taux identique quel que soit le montant imposé. Un impôt est dit régressif lorsque sa charge, rapportée au revenu, pèse davantage sur les revenus modestes.
+
+L'impôt sur le revenu français est progressif et fonctionne par tranches : chaque fraction du revenu est taxée à son propre taux, et non l'ensemble au taux le plus élevé atteint. C'est le malentendu le plus répandu en matière fiscale — franchir une tranche n'a jamais fait baisser un revenu net, puisque seul l'euro supplémentaire est taxé au taux supérieur.
+
+La TVA est proportionnelle dans son taux et régressive dans ses effets : elle frappe la consommation, or les ménages modestes consomment la quasi-totalité de leur revenu quand les plus aisés en épargnent une part. Rapportée au revenu, la charge est donc plus lourde en bas de l'échelle. Les taux réduits sur l'alimentation, les livres ou les transports atténuent partiellement cet effet, sans le supprimer.`],
+    ["L'impôt sur le revenu en pratique", `Le quotient familial divise le revenu imposable par un nombre de parts dépendant de la composition du foyer — deux parts pour un couple, une demi-part par enfant pour les deux premiers, une part au-delà. Le barème progressif s'applique ensuite au revenu par part, ce qui réduit l'impôt d'autant plus que le foyer est nombreux.
+
+Son avantage est plafonné, précisément parce que le mécanisme profite mécaniquement davantage aux hauts revenus, chez qui la baisse du revenu par part fait franchir des tranches à taux élevé. Ce plafonnement est l'objet de débats récurrents entre logique familiale et logique redistributive.
+
+Un peu moins de la moitié des foyers fiscaux français acquitte l'impôt sur le revenu. Ce chiffre alimente des lectures opposées, et son interprétation exige de rappeler que l'impôt sur le revenu n'est pas le principal prélèvement en France : la TVA et les cotisations sociales rapportent bien davantage, et sont acquittées par tous.
+
+Le prélèvement à la source, entré en vigueur en 2019, collecte l'impôt directement sur le revenu au moment de son versement. Il supprime le décalage d'un an entre la perception du revenu et le paiement de l'impôt, ce qui protège en cas de baisse brutale de revenu.`],
+    ["Les autres impôts", `La taxe foncière est un impôt local dû par les propriétaires de biens immobiliers, calculée sur une valeur locative cadastrale multipliée par des taux votés par les collectivités. Sa base est ancienne — les valeurs locatives datent pour l'essentiel des années 1970, revalorisées forfaitairement — ce qui produit des écarts considérables avec la réalité du marché et une inégalité entre contribuables. Sa révision est annoncée depuis des décennies et sans cesse repoussée, tant elle produirait de perdants identifiables.
+
+Elle a pris une importance croissante avec la suppression de la taxe d'habitation sur les résidences principales, qui a privé les communes de leur principal impôt lié aux habitants et renforcé leur dépendance aux dotations de l'État.
+
+L'impôt sur la fortune immobilière a remplacé en 2018 l'impôt de solidarité sur la fortune, en restreignant l'assiette au seul patrimoine immobilier au-delà d'un seuil. Les actifs financiers en sont sortis, l'argument avancé étant qu'ils financent l'économie productive. L'évaluation de cette réforme reste discutée, les effets attendus sur l'investissement et ceux constatés sur les recettes n'ayant pas fait l'objet de conclusions consensuelles.`],
+    ["Les dérogations", `Une niche fiscale est un dispositif dérogatoire réduisant l'impôt dû : exonération, déduction, réduction ou crédit d'impôt. La France en compte plusieurs centaines, pour un coût budgétaire annuel de plusieurs dizaines de milliards d'euros.
+
+Chacune poursuit un objectif défendable — soutenir l'emploi à domicile, l'investissement locatif, la recherche, le don aux associations, l'outre-mer. Leur accumulation pose trois problèmes bien identifiés. Elles réduisent le rendement de l'impôt, ce qui oblige à des taux plus élevés sur ceux qui n'en bénéficient pas. Elles bénéficient souvent davantage aux contribuables les mieux informés et les mieux conseillés. Et leur efficacité est rarement évaluée sérieusement, alors même qu'une dépense fiscale équivaut économiquement à une dépense budgétaire.
+
+C'est ce dernier point qui distingue une dépense fiscale d'une subvention : la seconde figure dans un budget, se discute chaque année et se supprime ; la première est inscrite dans le code des impôts, se reconduit tacitement et crée des situations acquises difficiles à défaire. Un plafonnement global des avantages a été instauré, avec de nombreuses exceptions qui en limitent la portée.`],
+  ],
 };
