@@ -39,6 +39,8 @@
  * doute sur une date ou un chiffre, on écarte la question plutôt que de la
  * risquer : une erreur apprise est pire qu'une question de moins.
  */
+import { existsSync, readFileSync } from "node:fs";
+import { join } from "node:path";
 import type { LessonDocument, LessonVisuel, SeedExercise, SeedSkill } from "../../../src/modules/types";
 
 /** [énoncé, propositions, rang de la bonne, explication, difficulté ?] */
@@ -86,7 +88,48 @@ export function notion(
  * Le texte est du texte brut : l'écran de lecture coupe les paragraphes sur
  * les lignes vides et n'interprète aucune balise.
  */
-export type Sec = [string, string] | [string, string, LessonVisuel];
+/**
+ * Une illustration du cahier d'origine, désignée par son slug.
+ *
+ * Les images sont stockées en data-URI dans heritage/culture-g/data/images/.
+ * On les désigne ici par leur slug plutôt que par leur contenu : un cours
+ * reste lisible, et le fichier n'est ouvert que si le cours est chargé.
+ */
+export type Illustration = { image: string; legende?: string; alt?: string };
+
+export type Sec = [string, string] | [string, string, LessonVisuel | Illustration];
+
+/** Le dossier des images héritées. */
+const IMAGES = join(process.cwd(), "heritage", "culture-g", "data", "images");
+
+const cacheImages = new Map<string, string | null>();
+
+/** La data-URI d'une image héritée, ou null si le slug n'existe pas. */
+function dataUri(slug: string): string | null {
+  if (!cacheImages.has(slug)) {
+    const fichier = join(IMAGES, `${slug}.json`);
+    if (!existsSync(fichier)) {
+      cacheImages.set(slug, null);
+    } else {
+      const v = JSON.parse(readFileSync(fichier, "utf8")) as { data?: string };
+      cacheImages.set(slug, v.data ?? null);
+    }
+  }
+  return cacheImages.get(slug) ?? null;
+}
+
+/** Traduit un visuel de cours vers la forme que sait afficher l'écran. */
+function visuel(v: LessonVisuel | Illustration): LessonVisuel | null {
+  if (!("image" in v)) return v;
+  const src = dataUri(v.image);
+  if (!src) {
+    throw new Error(
+      `Illustration inconnue : « ${v.image} ». ` +
+        "Les slugs disponibles sont les noms de fichiers de heritage/culture-g/data/images/."
+    );
+  }
+  return { type: "image", src, legende: v.legende, alt: v.alt };
+}
 
 /** Les cours d'un fichier, rangés par slug de notion — sans le préfixe. */
 export type LotCours = Record<string, Sec[]>;
@@ -119,11 +162,10 @@ export function attacherCours(skills: SeedSkill[], cours: LotCours): SeedSkill[]
 
     const lesson: LessonDocument = {
       titre: skill.title,
-      sections: sections.map(([titre, texte, visuel]) => ({
-        titre,
-        texte,
-        ...(visuel ? { visuels: [visuel] } : {}),
-      })),
+      sections: sections.map(([titre, texte, v]) => {
+        const rendu = v ? visuel(v) : null;
+        return { titre, texte, ...(rendu ? { visuels: [rendu] } : {}) };
+      }),
     };
 
     return {
