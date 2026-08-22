@@ -39,7 +39,7 @@
  * doute sur une date ou un chiffre, on écarte la question plutôt que de la
  * risquer : une erreur apprise est pire qu'une question de moins.
  */
-import type { SeedExercise, SeedSkill } from "../../../src/modules/types";
+import type { LessonDocument, LessonVisuel, SeedExercise, SeedSkill } from "../../../src/modules/types";
 
 /** [énoncé, propositions, rang de la bonne, explication, difficulté ?] */
 export type Q = [string, string[], number, string, (1 | 2 | 3)?];
@@ -75,4 +75,61 @@ export function notion(
       batch: LOT_SANS_COURS,
     })),
   };
+}
+
+/* ──────────────────────────────── les cours ──────────────────────────────── */
+
+/**
+ * Une section de cours : son titre, son texte, et un visuel quand il apporte
+ * quelque chose que la phrase ne dit pas aussi bien.
+ *
+ * Le texte est du texte brut : l'écran de lecture coupe les paragraphes sur
+ * les lignes vides et n'interprète aucune balise.
+ */
+export type Sec = [string, string] | [string, string, LessonVisuel];
+
+/** Les cours d'un fichier, rangés par slug de notion — sans le préfixe. */
+export type LotCours = Record<string, Sec[]>;
+
+export const LOT_AVEC_COURS = "cg-cours";
+
+/**
+ * Attache leurs cours aux notions qui en ont un.
+ *
+ * Les cours vivent dans des fichiers séparés (`cours/<matière>.ts`) et se
+ * rattachent par slug : les fichiers de questions ne bougent plus une fois
+ * écrits, et on voit d'un coup d'œil ce qui a déjà son cours.
+ *
+ * Une clé qui ne correspond à aucune notion est une faute de frappe qui
+ * passerait inaperçue — on la signale bruyamment plutôt que de l'ignorer.
+ */
+export function attacherCours(skills: SeedSkill[], cours: LotCours): SeedSkill[] {
+  const connus = new Set(skills.map((s) => s.slug.replace(/^cg-neuf-/, "")));
+  const orphelins = Object.keys(cours).filter((k) => !connus.has(k));
+  if (orphelins.length > 0) {
+    throw new Error(
+      `Cours sans notion correspondante : ${orphelins.join(", ")}. ` +
+        "Vérifie le slug — il s'écrit sans le préfixe cg-neuf-."
+    );
+  }
+
+  return skills.map((skill) => {
+    const sections = cours[skill.slug.replace(/^cg-neuf-/, "")];
+    if (!sections) return skill;
+
+    const lesson: LessonDocument = {
+      titre: skill.title,
+      sections: sections.map(([titre, texte, visuel]) => ({
+        titre,
+        texte,
+        ...(visuel ? { visuels: [visuel] } : {}),
+      })),
+    };
+
+    return {
+      ...skill,
+      lesson,
+      exercises: skill.exercises.map((e) => ({ ...e, batch: LOT_AVEC_COURS })),
+    };
+  });
 }

@@ -54,6 +54,7 @@ export function AccueilCultureG({ engine, user, moduleId, setScreen, setChrome }
   }
 
   const total = progress.skills.length;
+  const avecCours = progress.skills.filter((s) => s.hasLesson).length;
   const vues = progress.skills.filter((s) => !s.isNew);
   const reussite = vues.length
     ? Math.round(
@@ -114,7 +115,10 @@ export function AccueilCultureG({ engine, user, moduleId, setScreen, setChrome }
         <button className="cg-modecard cours" onClick={() => setScreen({ name: "catalogue" })}>
           <span className="cg-eyebrow">Mode cours</span>
           <h2>Les leçons</h2>
-          <p>280 chapitres rédigés comme un manuel, avec un mini-quiz à la fin.</p>
+          <p>
+            {avecCours.toLocaleString("fr-FR")} chapitres rédigés comme un manuel, avec un mini-quiz à la
+            fin.
+          </p>
           <span className="go">Ouvrir le manuel →</span>
         </button>
 
