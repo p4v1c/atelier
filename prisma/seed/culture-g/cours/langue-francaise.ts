@@ -369,4 +369,138 @@ Une anacoluthe est une rupture de construction syntaxique : la phrase commence s
 
 Elle est fautive quand elle est involontaire — le participe initial dont le sujet ne correspond pas à celui de la principale en est le cas le plus fréquent : « ayant beaucoup plu, les rues étaient inondées ». Elle est une figure de style quand elle est maîtrisée, produisant un effet d'oralité ou d'émotion que la construction régulière n'obtiendrait pas. C'est le propre de plusieurs figures : ce sont des écarts, et seule l'intention distingue l'effet de la faute.`],
   ],
+
+  "lf2-litterature-langue": [
+    ["Les créateurs de mots", `De nombreux mots français courants ont été forgés ou popularisés par des écrivains. Le phénomène est massif au XVIe siècle, où la langue française, en train de supplanter le latin dans les usages savants, manquait de vocabulaire abstrait et technique.
+
+Rabelais est le plus fécond de ces créateurs : on lui attribue plusieurs centaines de mots, forgés sur le grec et le latin ou tirés des dialectes — *automate*, *encyclopédie*, *frugal*, *misanthrope*, *quintessence*, *trépignement*. Tous n'ont pas survécu, et beaucoup de ses créations les plus extravagantes sont mortes avec lui, mais son apport au lexique abstrait est considérable.
+
+Le procédé se poursuit ensuite. Alfred Jarry invente la *pataphysique*, « science des solutions imaginaires », et donne au mot *ubuesque* un adjectif tiré de son personnage. Guillaume Apollinaire forge *surréalisme* en 1917 pour qualifier un ballet, mot qu'André Breton reprendra pour son mouvement. Rabelais avait déjà fourni *gargantuesque*, formé sur son géant.
+
+Ces créations se diffusent par la lecture et par l'école : c'est parce que ces textes sont lus, cités et enseignés que leurs inventions passent dans l'usage commun.`],
+    ["Fixer le bon usage", `Le XVIIe siècle procède à l'inverse : il épure plutôt qu'il n'invente.
+
+Malherbe, poète et théoricien, prône l'épuration de la langue poétique : suppression des néologismes, des archaïsmes, des termes techniques et régionaux, rigueur métrique, clarté. Boileau résumera son rôle d'une formule restée célèbre — « Enfin Malherbe vint ». Le programme est explicitement réducteur : il s'agit de rendre la langue commune à tous les honnêtes gens, au prix de son abondance.
+
+Claude Favre de Vaugelas codifie ce mouvement dans ses *Remarques sur la langue françoise* de 1647. Sa définition du bon usage est restée célèbre : « la façon de parler de la plus saine partie de la Cour, conformément à la façon d'écrire de la plus saine partie des Auteurs du temps ». Le critère n'est ni la logique ni l'étymologie mais l'usage d'un groupe social restreint — ce qui explique le caractère largement arbitraire de règles encore enseignées aujourd'hui.
+
+La préciosité, dans les salons contemporains, pousse au contraire vers le raffinement extrême : périphrases élégantes, vocabulaire recherché, refus du terme direct. Moliérisée dans *Les Précieuses ridicules*, elle a laissé une réputation de ridicule qui masque son apport réel — plusieurs mots et tours courants en viennent, et ces salons furent l'un des rares espaces intellectuels ouverts aux femmes.`],
+    ["Faire entrer la parole", `Le XXe siècle inverse à nouveau le mouvement en faisant entrer dans l'écrit ce que trois siècles de purisme en avaient exclu.
+
+Céline revendique une langue proche de l'oral populaire, avec l'argot, la syntaxe segmentée et les ruptures de rythme. Son apport n'est pas documentaire mais technique : il reconstruit à l'écrit une impression d'oralité par des moyens purement littéraires, ce qu'il appelait « le petit truc » — l'illusion du parlé obtenue par un travail considérable.
+
+Raymond Queneau explore la voie opposée, celle de la contrainte. Ses *Exercices de style* racontent quatre-vingt-dix-neuf fois le même incident anodin dans quatre-vingt-dix-neuf variations — en alexandrins, en langage administratif, par métaphores, en verlan, du point de vue d'un géomètre. L'ouvrage démontre par l'exemple qu'un contenu identique change entièrement de nature selon sa forme, ce qui est probablement la meilleure introduction pratique à la stylistique jamais écrite.
+
+Queneau fonde en 1960, avec François Le Lionnais, l'Oulipo — ouvroir de littérature potentielle —, atelier consacré à l'invention de contraintes formelles. Georges Perec en tirera *La Disparition*, roman de trois cents pages écrit sans la lettre *e*.`],
+  ],
+
+  "lf2-apprentissage-langues": [
+    ["Six niveaux communs", `Le Cadre européen commun de référence pour les langues, publié en 2001, définit six niveaux de compétence — A1 et A2 pour l'utilisateur élémentaire, B1 et B2 pour l'utilisateur indépendant, C1 et C2 pour l'utilisateur expérimenté.
+
+Son innovation n'est pas la graduation mais la formulation : chaque niveau est décrit par ce que l'apprenant est capable de faire, non par ce qu'il ignore. Les descripteurs sont rédigés en « peut faire » — peut comprendre un exposé sur un sujet familier, peut rédiger un texte argumenté, peut suivre une conversation animée entre locuteurs natifs.
+
+Le niveau B2 marque le seuil décisif : l'utilisateur indépendant comprend un discours complexe, peut communiquer avec spontanéité et aisance, et rédiger des textes clairs sur des sujets variés. C'est le niveau exigé pour la plupart des études universitaires et des emplois qualifiés en langue étrangère.
+
+Le cadre a permis une comparabilité inédite des certifications entre pays et entre langues, et il structure aujourd'hui l'ensemble des programmes et des examens européens.`],
+    ["Les méthodes", `La méthode audio-orale, développée après-guerre, repose sur la répétition intensive de structures orales, sans passer par la grammaire explicite ni par la langue maternelle. Fondée sur le behaviorisme, elle visait à installer des automatismes. Elle produit une bonne fluidité sur les structures travaillées et une faible capacité à s'en écarter — critique qui a conduit à son abandon progressif.
+
+L'approche actionnelle, retenue par le Cadre européen, fonde l'enseignement sur la réalisation de tâches concrètes : réserver un hébergement, organiser une réunion, résoudre un problème en groupe. La langue n'y est pas l'objet d'étude mais l'outil d'une action, ce qui rapproche l'apprentissage de l'usage réel et donne un critère de réussite objectif — la tâche est accomplie ou non.
+
+L'immersion linguistique consiste à enseigner des matières ordinaires dans la langue cible. Ses résultats sont parmi les mieux documentés : à volume horaire égal, elle produit une compétence supérieure à un enseignement de la langue pour elle-même, parce qu'elle multiplie l'exposition et donne à la langue une fonction réelle.`],
+    ["Ce que fait un apprenant", `L'interlangue est le système intermédiaire que construit l'apprenant entre sa langue maternelle et la langue cible. Le concept, formulé en 1972, a transformé la façon de considérer les erreurs.
+
+Une interlangue n'est pas un français abîmé : c'est un système cohérent, doté de ses propres règles, qui évolue par étapes régulières et prévisibles. Les erreurs d'un apprenant ne sont donc pas aléatoires — elles révèlent la règle qu'il s'est construite, laquelle est souvent une surgénéralisation logique. Un apprenant qui dit « il a vendu » puis « il a prendu » applique correctement une règle qu'il a extraite ; son erreur est un progrès.
+
+Cette approche a modifié le traitement pédagogique de l'erreur, passée du statut de faute à corriger à celui d'indicateur du stade d'acquisition.
+
+Un faux débutant est un apprenant ayant déjà des connaissances passives inégales — souvent un scolaire ancien largement oublié. Sa difficulté propre est le décalage entre une compréhension résiduelle correcte et une production bloquée, qui exige un traitement différent de celui du débutant complet.`],
+    ["Deux langues à la fois", `Le bilinguisme précoce ne cause pas de retard durable dans l'acquisition du langage. C'est l'un des résultats les mieux établis et les plus contredits par le sens commun : on a longtemps déconseillé aux familles bilingues de parler leur langue à leurs enfants, conseil sans aucun fondement et dont les effets sur la transmission des langues d'origine ont été considérables.
+
+Les enfants bilingues peuvent produire leurs premiers mots légèrement plus tard et disposent d'un vocabulaire un peu plus restreint dans chaque langue prise isolément — mais leur vocabulaire total est équivalent ou supérieur. Les écarts se comblent, et plusieurs travaux suggèrent des avantages sur les fonctions exécutives, résultat toutefois discuté.
+
+L'alternance codique est le passage d'une langue à l'autre au sein d'un même échange, voire d'une même phrase. Longtemps interprétée comme une confusion ou une carence, elle est aujourd'hui décrite comme une compétence : elle obéit à des règles grammaticales strictes et remplit des fonctions précises — citation, connivence, précision, changement de destinataire.
+
+Quant à l'accent, l'enfance est effectivement la période la plus favorable pour en acquérir un proche du natif, avec une décroissance progressive ensuite plutôt qu'une fermeture brutale. Cette limite ne concerne que la prononciation : le vocabulaire, la grammaire et la compréhension s'acquièrent à tout âge, et un adulte motivé progresse souvent plus vite qu'un enfant.`],
+  ],
+
+  "lf2-textes-officiels": [
+    ["Pourquoi c'est écrit ainsi", `Le langage administratif et juridique obéit à des exigences de précision qui expliquent une partie de sa lourdeur — une partie seulement, le reste relevant de l'habitude et du corporatisme.
+
+Les formules figées du droit ne sont pas des ornements : leur sens a été précisé par des décennies de jurisprudence. Une expression comme « en tant que de besoin » ou « sans préjudice de » a une portée exacte, établie par des décisions successives. La reformuler en langage courant reviendrait à rouvrir une question tranchée et à créer de l'incertitude — c'est le principal argument opposé à la simplification, et il n'est pas négligeable.
+
+Deux termes reviennent dans toute décision de justice. Un considérant est un paragraphe exposant un motif du raisonnement — le juge y expose successivement les faits, les règles applicables et leur application. Le dispositif est la partie finale qui énonce la décision proprement dite : c'est elle seule qui a autorité de chose jugée, les motifs ne servant qu'à l'éclairer.
+
+Le vocabulaire juridique comporte en outre de nombreux faux amis. *Meuble*, en droit, désigne tout bien susceptible d'être déplacé — y compris une somme d'argent, des actions ou un animal — par opposition aux immeubles. Un lecteur non averti comprend « table et chaises » et manque l'essentiel.`],
+    ["La chaîne des textes", `Le Journal officiel de la République française publie les textes et les rend opposables : nul n'est censé ignorer la loi à compter de sa publication. C'est une fiction juridique indispensable — sans elle, aucune règle ne pourrait s'appliquer — mais elle repose sur une accessibilité réelle, ce que la publication en ligne gratuite depuis 2004 a considérablement améliorée.
+
+Un décret d'application précise les modalités de mise en œuvre d'une loi. Son importance pratique est décisive : une loi votée dont les décrets ne paraissent pas reste largement inappliquée, et le délai moyen de publication se compte souvent en mois voire en années. C'est l'un des points de contrôle exercés par le Parlement sur le gouvernement.
+
+Une circulaire est une instruction adressée par un ministre à ses services pour expliquer comment appliquer un texte. Elle ne crée pas de droit et ne peut ajouter à la loi — quand elle le fait, elle est illégale et peut être annulée. En pratique, c'est pourtant elle que lisent les agents et qui détermine ce que vit l'usager.
+
+Un formulaire Cerfa est un formulaire administratif normalisé, identifié par un numéro. Sa standardisation garantit qu'une même demande est traitée partout de la même façon — application concrète du principe d'égalité devant le service public.`],
+    ["Écrire pour être compris", `La légistique est l'art et la technique de rédiger les textes normatifs. Elle a ses règles : une phrase par idée, un terme par notion et une notion par terme, présent de l'indicatif, formulation positive, articulation en articles numérotés. Le Conseil d'État publie un guide qui fait autorité et dont l'ambition est explicite — un texte mal rédigé produit du contentieux.
+
+La démarche du langage clair vise à rendre les textes compréhensibles par leurs destinataires : phrases courtes, vocabulaire courant, voix active, ordre logique, mise en page aérée, exemples. Elle est appliquée depuis longtemps dans plusieurs pays anglophones et nordiques, où des services publics ont réécrit l'intégralité de leurs courriers.
+
+Les résultats mesurés sont considérables : la réécriture d'un courrier réduit fortement les appels au service de renseignements, les erreurs de dossier et les recours. C'est l'un des rares champs où une amélioration purement rédactionnelle produit des économies vérifiables.
+
+Ce qu'on reproche principalement à la langue administrative française est précisément son opacité pour les usagers non spécialistes — nominalisations en chaîne, sigles non explicités, renvois à des articles de codes, phrases de dix lignes. Le grief n'est pas esthétique : un texte incompris est une décision qui ne peut être contestée, donc un droit qui ne peut être exercé.`],
+  ],
+
+  "lf2-traduction-litteraire": [
+    ["Deux métiers distincts", `La traduction écrite et l'interprétation orale sont deux métiers distincts, exercés par des professionnels différemment formés, avec des compétences et des rythmes sans rapport.
+
+Le traducteur travaille sur un texte, dispose de temps, révise, documente, consulte. L'interprète travaille en temps contraint, sans retour possible, et doit produire immédiatement.
+
+L'interprétation simultanée s'effectue en cabine, l'interprète parlant pendant que l'orateur parle, avec un décalage de quelques secondes. C'est une activité cognitive d'une intensité telle que les interprètes travaillent obligatoirement par équipes de deux et se relaient toutes les vingt à trente minutes.
+
+L'interprétation consécutive procède autrement : l'interprète écoute une séquence complète en prenant des notes selon un système symbolique personnel, puis restitue après l'orateur. Elle double la durée de l'échange mais permet une restitution plus fidèle et plus construite ; c'est la technique des négociations bilatérales et des discours officiels.
+
+Un traducteur assermenté, ou expert judiciaire, est habilité par une cour d'appel : ses traductions de documents officiels — actes d'état civil, diplômes, jugements — ont valeur légale. C'est une fonction, non un niveau de compétence supérieur.`],
+    ["Traduire des produits", `La localisation d'un logiciel ou d'un jeu dépasse la traduction : c'est une adaptation linguistique et culturelle à un marché. Elle porte sur les textes, mais aussi sur les formats de date et de monnaie, les unités de mesure, l'ordre alphabétique, le sens de lecture, les couleurs et les références culturelles.
+
+Elle comporte des contraintes techniques propres : un bouton d'interface a une largeur fixe, et l'allemand est en moyenne trente pour cent plus long que l'anglais. Le traducteur travaille en outre souvent sur des chaînes isolées, sans voir le contexte — d'où des contresens qui ne relèvent pas de son incompétence mais de l'organisation du travail.
+
+Une mémoire de traduction est une base qui enregistre les segments déjà traduits et les propose lorsqu'un segment identique ou proche réapparaît. Elle garantit la cohérence terminologique sur des documentations volumineuses, et elle a transformé l'économie du métier : les agences facturent moins les segments répétés, ce qui a fait baisser les revenus.
+
+La post-édition est la révision humaine d'une traduction produite par une machine. Elle est devenue une part importante de l'activité depuis les progrès de la traduction neuronale, et pose une question de fond sur le métier : réviser un texte médiocre est un exercice différent — et souvent plus ingrat — que traduire.`],
+    ["Ce qui résiste à la traduction", `L'humour est le domaine où la traduction atteint ses limites, parce qu'il repose sur la langue elle-même et sur des références partagées.
+
+Un jeu de mots ne se traduit pas : il se remplace. Le traducteur doit renoncer à la fidélité littérale pour recréer un effet équivalent, ce qui suppose d'inventer un autre jeu de mots au même endroit — ou ailleurs, si la place ne s'y prête pas. Les traductions d'Astérix en sont l'exemple canonique, avec des noms de personnages entièrement refaits dans chaque langue.
+
+Les références culturelles posent le même problème. Une allusion à une émission de télévision, à une marque ou à un personnage historique connu de tous dans un pays ne dit rien ailleurs. Le traducteur choisit alors entre l'équivalent local — qui trahit le contexte — et la note — qui tue l'effet.
+
+Ces difficultés expliquent la formule italienne *traduttore, traditore* : traduire, c'est trahir. Elle est excessive mais elle pointe une vérité — toute traduction est un ensemble de choix, et chaque choix perd quelque chose.`],
+    ["Traduire sous contrainte", `Le sous-titrage impose des contraintes qu'aucune autre traduction ne connaît. Le lecteur doit lire tout en regardant l'image, ce qui limite la vitesse de lecture admissible à une quinzaine de caractères par seconde ; le sous-titre ne doit pas dépasser deux lignes ni une quarantaine de caractères par ligne ; et il doit rester à l'écran assez longtemps pour être lu, sans déborder sur le plan suivant.
+
+Le sous-titreur doit donc condenser, souvent de trente à cinquante pour cent, sans perdre l'information essentielle ni le ton. C'est un exercice de réécriture bien plus que de traduction, et les spectateurs qui comprennent la langue d'origine reprochent régulièrement au sous-titre des omissions qui sont en réalité des contraintes.
+
+L'adaptation en doublage ajoute une contrainte visuelle : le texte français doit tenir dans la durée de la réplique originale et respecter le mouvement des lèvres, particulièrement sur les gros plans et les labiales. L'adaptateur travaille sur une bande rythmo qui défile en synchronisation avec l'image.
+
+Ces deux métiers illustrent une caractéristique générale de la traduction : la fidélité n'est jamais littérale, elle est fonctionnelle. Ce qu'il s'agit de transporter n'est pas la suite des mots mais l'effet produit sur le destinataire.`],
+  ],
+
+  "lf2-poesie-langue": [
+    ["Une langue faite pour les jeux sonores", `Le français est particulièrement propice aux jeux d'homophonie en raison de ses nombreuses finales muettes et de la réduction de ses sons. *Vers*, *ver*, *verre*, *vert* et *vair* se prononcent identiquement ; *sans*, *sang*, *cent*, *sens* et *s'en* aussi. Une langue qui distingue davantage à l'oral offre bien moins de matière au calembour.
+
+Un calembour est un jeu de mots fondé sur cette ressemblance sonore. Longtemps méprisé — Victor Hugo le qualifiait de fiente de l'esprit qui vole —, il est aussi le ressort de la publicité, du titre de presse et d'une part importante de la poésie moderne.
+
+Une contrepèterie intervertit des sons entre deux mots pour produire un second sens, presque toujours grivois. Sa règle tacite veut qu'on ne l'explique jamais, et sa tradition française est ancienne et savante — Rabelais en pratiquait déjà.
+
+Une assonance est la répétition d'une même voyelle dans une suite de mots ; l'allitération fait de même avec les consonnes. Ces figures structurent le vers avant que la rime ne s'impose : la *Chanson de Roland* est assonancée, non rimée.`],
+    ["Jouer avec les lettres", `Un palindrome se lit identiquement dans les deux sens — *ressasser*, *kayak*, ou la phrase attribuée à Napoléon, « élu par cette crapule ». Le plus long palindrome français connu dépasse plusieurs milliers de lettres, exercice d'endurance plus que de sens.
+
+Une anagramme réarrange les lettres d'un mot pour en former un autre : *chien* et *niche*, *Marie* et *aimer*. Les auteurs s'en servent volontiers pour construire des pseudonymes — Pascal Obispo signant Captain Samouraï Flower, ou Boris Vian écrivant sous le nom de Bison Ravi.
+
+Un pangramme contient toutes les lettres de l'alphabet. Le plus connu en français — « portez ce vieux whisky au juge blond qui fume » — sert à tester polices et claviers depuis des décennies.
+
+Un acrostiche compose un mot avec les initiales de chaque vers. Le procédé sert la dédicace galante, la signature dissimulée et, à l'occasion, le message clandestin — plusieurs textes publiés sous censure en ont fait usage.`],
+    ["Imiter et deviner", `Une onomatopée est un mot qui imite un son. Sa particularité est de varier considérablement d'une langue à l'autre alors qu'elle prétend reproduire le réel : le coq français fait cocorico, l'anglais cock-a-doodle-doo, l'allemand kikeriki, le japonais kokekokko. La conclusion s'impose — l'onomatopée n'imite pas le son brut, elle l'interprète avec les sons disponibles dans la langue.
+
+Une charade décompose un mot en syllabes définies séparément : « mon premier est un animal, mon second… ». Elle exige que la décomposition sonore soit exacte et que la définition finale surprenne.
+
+Un rébus représente des sons par des images. Il repose sur le même principe que les écritures anciennes, où un signe figuratif finit par noter un son indépendamment de son sens — le procédé rébus est probablement l'étape décisive de l'invention de l'écriture phonétique.
+
+Tous ces jeux ont un point commun : ils traitent la langue comme une matière plutôt que comme un véhicule. Ils rappellent que les mots ont une épaisseur sonore et graphique dont la communication ordinaire fait abstraction — et c'est précisément cette épaisseur qu'exploite la poésie.`],
+  ],
 };
