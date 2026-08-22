@@ -301,4 +301,162 @@ En 1312, Philippe le Bel fait supprimer l'ordre du Temple. Les Templiers, ordre 
 
 L'affaire réunit tous les traits du règne : une administration capable d'exécuter une opération simultanée dans tout le royaume, des légistes formés au droit romain pour la justifier, et une conception du pouvoir royal qui ne reconnaît plus d'autorité concurrente.`],
   ],
+
+  "hf4-societe-feodale": [
+    ["Des liens plutôt qu'un État", `La féodalité repose sur des liens personnels autant que sur la terre. C'est ce qui la distingue radicalement d'un État : il n'y a pas de rapport direct entre un souverain et des sujets, mais une chaîne de relations d'homme à homme, chacune contractée individuellement.
+
+L'hommage vassalique est le rituel qui noue ce lien. Le vassal, à genoux et mains jointes dans celles du seigneur, se déclare son homme ; il prête ensuite serment de fidélité sur les Évangiles ou des reliques ; le seigneur lui remet enfin un objet symbolisant le fief. Chacun de ces gestes a une portée juridique, et leur ordre importe.
+
+Un fief est une terre — parfois un droit ou une rente — concédée en échange de services : service militaire, conseil, aide financière dans des cas définis. Le vassal n'en est pas propriétaire mais en a la jouissance tant qu'il remplit ses obligations.
+
+Le système est réciproque et contractuel : un seigneur qui manque à ses devoirs de protection et de justice peut être renié, et la procédure existe. C'est un point souvent négligé — la féodalité n'est pas l'arbitraire, c'est un droit dense et procédurier.`],
+    ["La seigneurie et les paysans", `Une seigneurie est un ensemble de terres et de droits exercés sur des paysans. Elle se divise classiquement en réserve, exploitée directement par le seigneur, et tenures, concédées aux paysans contre redevances.
+
+Ces redevances prennent plusieurs formes. Le cens est une redevance fixe en argent. Le champart prélève une part de la récolte. La corvée est un travail gratuit dû au seigneur — quelques jours par an sur la réserve, ou pour l'entretien des chemins.
+
+Les banalités sont l'obligation d'utiliser le moulin, le four et le pressoir du seigneur, contre paiement. Elles reposent sur un monopole : le seigneur a construit l'équipement, il en interdit d'autres. C'est l'une des charges les plus détestées, et l'une des premières abolies en 1789.
+
+Un serf est un paysan attaché à la terre, qui ne peut la quitter ni se marier hors de la seigneurie sans autorisation, et dont l'héritage est soumis à des prélèvements particuliers. Le servage recule à partir du XIIe siècle, souvent par affranchissement contre paiement — les seigneurs ayant besoin de numéraire y trouvaient leur compte.
+
+Une charte de franchise accorde des libertés à une communauté : suppression de certaines charges, droit de se gouverner, tarifs fixés. Ces chartes se multiplient aux XIIe et XIIIe siècles, dans les villes comme dans les campagnes, et constituent la matrice des libertés communales.`],
+    ["Combattre et encadrer la violence", `La chevalerie est un groupe social de combattants à cheval, dont l'équipement — destrier, armure, armes — représente un investissement considérable, équivalent à plusieurs dizaines de bœufs. Elle se dote progressivement de valeurs propres : courage, loyauté, protection des faibles, respect de l'adversaire.
+
+Cette éthique est en partie une construction de l'Église et de la littérature. Face à une aristocratie militaire dont la violence désorganisait la société, l'Église entreprend de l'encadrer.
+
+La paix de Dieu, à partir du Xe siècle, interdit sous peine d'excommunication de s'en prendre aux clercs, aux paysans, aux marchands et aux pèlerins. La trêve de Dieu y ajoute une limitation temporelle : plus de combats du mercredi soir au lundi matin, ni pendant l'Avent et le Carême.
+
+L'efficacité de ces mesures fut inégale, mais leur portée est double : elles font de l'Église un acteur politique de premier plan, et elles orientent la violence vers l'extérieur — la croisade, prêchée en 1095, offre un exutoire à cette même chevalerie.`],
+    ["Se représenter la société", `La société des trois ordres est une représentation formulée vers l'an mil par des évêques : ceux qui prient, ceux qui combattent, ceux qui travaillent. Chacun remplit une fonction indispensable, et l'ensemble forme un corps harmonieux.
+
+Cette théorie est un instrument idéologique avant d'être une description. Elle légitime la position des deux premiers ordres, justifie que le troisième les entretienne, et présente cette organisation comme voulue par Dieu, donc immuable.
+
+Elle est en outre largement inexacte dès sa formulation : elle ignore les marchands, les artisans, les villes, les femmes, et elle range dans un même « ordre » un riche laboureur et un serf.
+
+Sa fortune fut pourtant immense. Elle a structuré la représentation de la société française jusqu'à la Révolution, et les États généraux de 1789 se réunissent encore selon ce découpage en clergé, noblesse et tiers état. C'est en refusant de siéger séparément que les députés du tiers ont ouvert la Révolution — geste dont toute la portée tient à ce qu'il congédiait une représentation vieille de huit siècles.`],
+  ],
+
+  "hf4-cathedrales": [
+    ["Une invention française", `L'art gothique naît en Île-de-France au milieu du XIIe siècle. Le terme lui-même est péjoratif et postérieur : les critiques de la Renaissance italienne l'employaient pour désigner un art qu'ils jugeaient barbare, l'attribuant aux Goths. Les contemporains parlaient d'*opus francigenum*, l'œuvre française.
+
+Trois innovations techniques le caractérisent, et elles fonctionnent ensemble. La croisée d'ogives concentre le poids de la voûte sur quatre points d'appui au lieu de le répartir sur toute la longueur des murs. L'arc brisé permet de couvrir des travées de largeurs différentes à hauteur égale, ce que le plein cintre roman interdisait. L'arc-boutant reporte la poussée des voûtes vers l'extérieur, jusqu'à des contreforts placés à distance.
+
+L'effet combiné est décisif : les murs cessent de porter. Ils peuvent alors être percés de baies immenses, et l'édifice peut monter. Tout le gothique tient dans ce transfert des charges des murs vers une ossature.
+
+L'abbé Suger lance vers 1135 le chantier de Saint-Denis, généralement considéré comme le premier édifice gothique. Sa motivation est théologique autant que technique : il voyait dans la lumière une manifestation du divin, et voulait une église où elle pénètre.`],
+    ["Des chantiers de plusieurs générations", `Les cathédrales gothiques ont été bâties sur plusieurs générations. Notre-Dame de Paris, commencée en 1163, n'est achevée que vers 1345 — près de deux siècles, soit six ou sept générations d'ouvriers.
+
+Cette durée a des conséquences concrètes. Le maître d'œuvre qui commence ne verra jamais l'achèvement ; les styles évoluent en cours de chantier, ce qui explique les différences visibles entre les parties d'un même édifice ; et le financement doit être assuré sur des décennies, par les revenus du chapitre, les dons, les indulgences et les quêtes itinérantes avec reliques.
+
+Les chantiers rassemblaient des centaines de personnes — carriers, tailleurs de pierre, maçons, charpentiers, forgerons, verriers, sculpteurs — organisées en loges. Les tailleurs marquaient leurs pierres d'un signe personnel, qui servait au décompte de leur paie et qui reste visible aujourd'hui.
+
+L'ambition a parfois dépassé le savoir-faire : Beauvais, dont le chœur culmine à plus de quarante-huit mètres sous voûte, est la plus haute nef gothique de France. Elle s'est effondrée partiellement en 1284, puis sa tour-lanterne en 1573, et la cathédrale n'a jamais été achevée — sa nef n'existe pas.`,
+      { image: "am-amiens-nef", legende: "La nef d'Amiens : les murs ne portent plus, l'ossature travaille, et la lumière entre.", alt: "Nef gothique de la cathédrale d'Amiens" }],
+    ["Lire un édifice", `Un vitrail est un assemblage de verres colorés maintenus par un réseau de plomb. La couleur est obtenue dans la masse par des oxydes métalliques ajoutés au verre en fusion, et les détails — visages, plis — sont peints à la grisaille puis cuits.
+
+Sa fonction dépasse l'ornement. Dans une population très majoritairement illettrée, les vitraux et les sculptures constituent un enseignement : cycles bibliques, vies de saints, calendrier des travaux agricoles, métiers. On a parlé de « bible des pauvres », formule commode et un peu simpliste — beaucoup de programmes sont trop complexes ou trop hauts pour être lus par un fidèle.
+
+Un tympan sculpté occupe l'espace en demi-cercle au-dessus d'un portail. Il porte généralement une scène narrative — Jugement dernier, Christ en majesté, vie de la Vierge — et il s'adresse à celui qui entre. Sa position et sa taille en font l'élément le plus visible du programme iconographique.
+
+La cathédrale jouait dans la ville un rôle religieux, civique et économique central : siège de l'évêque, lieu d'assemblée, refuge, marché sur le parvis, et chantier employant une part notable de la population pendant des décennies. Sa construction était un projet urbain autant qu'un acte de foi, et la rivalité entre villes explique la course à la hauteur.`],
+    ["Restaurer, et inventer", `Eugène Viollet-le-Duc restaure au XIXe siècle un très grand nombre d'édifices médiévaux français : Notre-Dame de Paris, Vézelay, Carcassonne, Pierrefonds, Amiens.
+
+Sa doctrine est explicite et discutée : restaurer un édifice, écrivait-il, c'est le rétablir dans un état complet qui peut n'avoir jamais existé à un moment donné. Il ne s'agit donc pas de conserver l'état existant mais de rétablir une cohérence stylistique idéale, quitte à compléter, corriger et inventer.
+
+Il en résulte des créations souvent prises pour des originaux : la flèche de Notre-Dame, détruite par l'incendie de 2019, était de lui ; les gargouilles et chimères de la galerie sont de son invention ; les toitures de Carcassonne suivent un modèle du Nord sans rapport avec la région.
+
+Cette approche a été violemment critiquée dès l'époque par John Ruskin, partisan de la conservation en l'état, et la doctrine internationale actuelle lui donne raison — la charte de Venise de 1964 impose la réversibilité et la distinction visible des ajouts.
+
+On lui doit néanmoins la survie de dizaines d'édifices qui menaçaient ruine, et un travail de documentation considérable. Le débat sur la reconstruction de la flèche après 2019 a rejoué exactement les mêmes arguments, à cent cinquante ans de distance.`],
+  ],
+
+  "hf4-guerre-cent-ans": [
+    ["Une querelle de succession", `Le conflit franco-anglais a duré, avec de longues trêves, de 1337 à 1453 — cent seize ans, ce qui rend l'appellation approximative.
+
+Son origine est dynastique : à l'extinction des Capétiens directs en 1328, Édouard III d'Angleterre revendique le trône de France comme petit-fils de Philippe le Bel par sa mère. Les grands du royaume préfèrent Philippe de Valois, cousin par les hommes, en excluant la transmission par les femmes — c'est à cette occasion que la loi salique sera exhumée pour justifier après coup une décision politique.
+
+S'y ajoutent des causes structurelles : le roi d'Angleterre est duc d'Aquitaine, donc vassal du roi de France, situation intenable ; et la Flandre, dont l'industrie drapière dépend de la laine anglaise, est un enjeu économique majeur.
+
+Les débuts sont catastrophiques pour la France. À Crécy en 1346, la chevalerie française charge en désordre contre des archers gallois retranchés et se fait massacrer. À Poitiers en 1356, le roi Jean II le Bon est capturé et emmené en Angleterre, où il faudra payer une rançon écrasante.`],
+    ["Reconquérir, puis tout perdre", `Bertrand Du Guesclin, connétable de Charles V, reconquiert entre 1370 et 1380 une grande partie du royaume. Sa méthode rompt avec l'éthique chevaleresque : il refuse les batailles rangées, harcèle, assiège, reprend place par place. C'est efficace et mal vu — les chroniqueurs contemporains lui reprochent de ne pas se battre loyalement.
+
+Tout est perdu à nouveau sous Charles VI. Sa folie — des crises de démence récurrentes à partir de 1392, entrecoupées de périodes lucides — laisse le pouvoir vacant et ouvre une guerre civile entre Armagnacs et Bourguignons, qui se disputent la régence et finiront par s'assassiner mutuellement.
+
+Henri V d'Angleterre exploite cette division : victoire écrasante à Azincourt en 1415, alliance avec les Bourguignons, puis traité de Troyes en 1420. Ce traité déshérite le dauphin Charles au profit du roi d'Angleterre, qui épouse la fille de Charles VI et devient héritier du royaume. La France est alors sur le point de disparaître comme royaume indépendant.`],
+    ["Jeanne d'Arc", `Jeanne d'Arc apparaît en 1429, dans une situation où le dauphin Charles ne contrôle plus que le sud de la Loire et où Orléans, verrou de ce dispositif, est assiégée.
+
+Fille de laboureurs lorrains, âgée d'environ dix-sept ans, elle obtient d'être conduite au dauphin, le convainc, et reçoit une place dans l'armée envoyée secourir Orléans. Le siège est levé en neuf jours.
+
+Elle conduit ensuite Charles VII à Reims, où il est sacré en juillet 1429. C'est là que se joue l'essentiel : le sacre lui confère la légitimité que le traité de Troyes lui contestait, et il transforme un prétendant en roi de France aux yeux de tous.
+
+Capturée par les Bourguignons en 1430, vendue aux Anglais, jugée par un tribunal d'Église à Rouen, elle est brûlée en 1431. Le procès, dont les minutes sont conservées, est un procès politique mené selon les formes — et un procès en révision, vingt-cinq ans plus tard, l'annulera.
+
+Sa figure a été récupérée par à peu près tous les courants politiques français depuis le XIXe siècle, ce qui rend son étude historique particulièrement difficile — chaque époque y a projeté ce qu'elle cherchait.`,
+      { image: "hf-jeanne-darc", legende: "Jeanne d'Arc : ce qui change tout n'est pas la levée du siège d'Orléans, c'est le sacre de Reims.", alt: "Représentation de Jeanne d'Arc en armure" }],
+    ["Ce que la guerre a construit", `La bataille de Castillon, en 1453, met fin au conflit. Elle est remarquable techniquement : l'artillerie française, retranchée dans un camp fortifié, détruit la charge anglaise. C'est l'une des premières batailles décidées par le canon, et elle annonce la fin de la prééminence de la chevalerie.
+
+Les Anglais ne conservent que Calais, qu'ils perdront en 1558. Aucun traité de paix n'a jamais été signé.
+
+La conséquence durable de la guerre est le renforcement de l'État royal. Pour financer une guerre longue, le roi obtient des États généraux le droit de lever l'impôt de façon permanente — la taille, en 1439 — au lieu de le solliciter à chaque campagne. Un impôt permanent finance une armée permanente, les compagnies d'ordonnance, première armée régulière soldée d'Europe occidentale.
+
+Impôt permanent et armée permanente : les deux instruments de l'État moderne sont en place, et le roi cesse de dépendre du service féodal de ses vassaux. La guerre qui devait opposer deux dynasties a surtout accéléré la construction d'un État.`],
+  ],
+
+  "hf4-renaissance-france": [
+    ["L'Italie comme révélation", `Les guerres d'Italie sont une série de conflits pour le contrôle de la péninsule, de 1494 à 1559, engagés par Charles VIII sur des droits dynastiques discutables et poursuivis par ses successeurs.
+
+Militairement, le bilan est nul : la France en sort épuisée et sans aucune possession italienne durable, après le traité du Cateau-Cambrésis de 1559.
+
+Culturellement, l'effet est considérable. Les guerres d'Italie ont ouvert la France aux formes de la Renaissance : les rois et les nobles découvrent les palais, les jardins, la peinture, le mobilier et l'art de vivre italiens, et rapportent tout ce qu'ils peuvent — œuvres, artistes, artisans, jardiniers.
+
+François Ier remporte Marignan en 1515, victoire acquise en deux jours contre les redoutables mercenaires suisses, qui installe sa réputation. Il subit dix ans plus tard le désastre de Pavie, où il est capturé et emmené prisonnier en Espagne — « tout est perdu fors l'honneur », résume la lettre qu'il écrit à sa mère, dont la formule exacte est en réalité plus longue.`],
+    ["Un roi bâtisseur et mécène", `François Ier accueille Léonard de Vinci en 1516 et l'installe au Clos Lucé, près d'Amboise, avec une pension et sans obligation. Le peintre y passe ses trois dernières années et y apporte plusieurs tableaux, dont *La Joconde* — c'est ainsi qu'elle est en France.
+
+Le château de Chambord, commencé en 1519, est le manifeste architectural du règne : plan centré d'inspiration italienne, escalier à double révolution où deux personnes peuvent monter et descendre sans se croiser, et une forêt de cheminées et de lucarnes au sommet. Quatre cent vingt-six pièces pour un château où le roi n'a séjourné que quelques semaines au total — c'était un instrument de prestige, non une résidence.
+
+L'ordonnance de Villers-Cotterêts, en 1539, impose le français dans les actes officiels et judiciaires à la place du latin. Sa portée dépasse la langue : elle rend le droit accessible aux justiciables, et elle instaure aussi la tenue obligatoire des registres de baptêmes, ancêtres de l'état civil. C'est le plus ancien texte législatif français encore partiellement en vigueur.`],
+    ["L'humanisme et la langue", `Guillaume Budé, helléniste et bibliothécaire du roi, obtient de François Ier la fondation en 1530 du Collège royal — futur Collège de France. Son principe est révolutionnaire : un enseignement libre, gratuit, sans examen ni diplôme, dans des disciplines que la Sorbonne n'enseignait pas — grec, hébreu, mathématiques.
+
+Il s'agissait de contourner l'université, jugée figée et hostile aux nouveautés. La devise de l'institution, *docet omnia*, et sa règle de gratuité et d'ouverture à tous n'ont pas changé depuis cinq siècles.
+
+La Pléiade est un groupe de sept poètes du milieu du XVIe siècle, autour de Ronsard et Du Bellay. Leur manifeste, *Défense et illustration de la langue française* de 1549, soutient que le français peut égaler le latin et le grec, à condition de l'enrichir : emprunts aux dialectes et aux métiers, créations savantes, imitation des Anciens.
+
+C'est un programme politique autant que littéraire, et il coïncide avec l'ordonnance de Villers-Cotterêts : le français devient à la fois langue de l'administration et langue de la haute littérature.
+
+L'imprimerie diffuse rapidement ces idées, humanistes comme religieuses. Elle est aussi ce qui rend la Réforme incontrôlable : les textes de Luther et de Calvin circulent plus vite que la censure, et Calvin publie en français son *Institution de la religion chrétienne*. Les guerres de religion, à partir de 1562, refermeront brutalement cette période d'ouverture.`],
+  ],
+
+  "hf2-henri-iv-richelieu": [
+    ["Sortir des guerres de religion", `Henri IV accède au trône en 1589 dans une situation impossible : roi légitime, il est protestant, et la majorité catholique du royaume lui refuse Paris.
+
+Sa conversion au catholicisme en 1593 dénoue la situation. La formule « Paris vaut bien une messe » lui est attribuée sans qu'aucune source contemporaine ne l'atteste — elle résume néanmoins exactement le calcul.
+
+L'édit de Nantes, en 1598, met fin à trente-six ans de guerre civile. Il accorde aux protestants la liberté de conscience, un culte encadré, l'égalité civile et des places de sûreté — villes fortifiées qu'ils tiennent militairement. C'est cette dernière disposition qui en fait moins un édit de tolérance qu'un traité de paix entre deux partis armés.
+
+Sully, son ministre, redresse les finances par un travail d'assainissement méthodique : réduction de la dette, réforme de la perception, développement des routes et des canaux, encouragement de l'agriculture — « labourage et pâturage sont les deux mamelles dont la France est alimentée ».
+
+Henri IV est assassiné en 1610 par Ravaillac, catholique exalté. Il est le troisième roi de France tué en un demi-siècle, ce qui dit assez la violence de la période.`],
+    ["Richelieu et l'État", `Richelieu, principal ministre de Louis XIII de 1624 à 1642, poursuit un objectif qu'il formule lui-même : ruiner le parti huguenot, abaisser l'orgueil des grands, et relever le nom du roi en Europe.
+
+Sa politique religieuse est souvent mal comprise. Il ne combat pas le protestantisme comme religion mais comme puissance politique armée — un État dans l'État, avec ses places fortes, ses assemblées et ses relations extérieures. Le siège de La Rochelle, en 1627-1628, dure quatorze mois et se conclut par une digue barrant le port pour empêcher tout secours anglais.
+
+La paix d'Alès, en 1629, retire aux protestants leurs places de sûreté et leurs privilèges militaires, tout en maintenant la liberté de culte. La distinction est parfaitement cohérente avec son objectif : c'est l'autonomie politique qui est visée, non la foi.
+
+La même logique explique sa politique extérieure. Pendant la guerre de Trente Ans, la France catholique soutient financièrement puis militairement les princes protestants allemands et la Suède contre les Habsbourg catholiques. La raison d'État l'emporte sur la solidarité confessionnelle — principe qui scandalisait le parti dévot et qui fonde la diplomatie moderne.`],
+    ["Gouverner les provinces", `Les intendants sont des commissaires royaux envoyés administrer les provinces. Leur statut est l'essentiel : ils sont nommés, révocables à tout moment, sans lien avec la région où ils exercent, et leur charge n'est ni vénale ni héréditaire.
+
+C'est précisément ce qui les distingue des officiers, dont les charges s'achetaient et se transmettaient — et qui échappaient donc largement au contrôle royal. Un intendant ne dépend que du pouvoir central, ce qui en fait l'instrument de l'absolutisme administratif.
+
+Ils cumulent des attributions considérables : justice, police, finances, levée des troupes, contrôle des municipalités, grands travaux. Leur généralisation au XVIIe siècle marque le moment où l'État royal cesse de négocier avec les corps intermédiaires pour administrer directement.
+
+Richelieu fait par ailleurs créer *La Gazette* en 1631, premier périodique français, confié à Théophraste Renaudot. Il y écrit lui-même des articles, comme le roi. C'est un instrument d'information et d'orientation de l'opinion — le premier organe de communication gouvernementale, et une innovation dont la portée n'a pas échappé aux contemporains.`],
+    ["La Fronde", `Mazarin, cardinal d'origine italienne formé par Richelieu, gouverne la France pendant la minorité de Louis XIV, aux côtés de la régente Anne d'Autriche.
+
+La Fronde, entre 1648 et 1653, est une révolte en deux temps. La Fronde parlementaire d'abord : le Parlement de Paris, magistrats propriétaires de leurs charges, s'oppose aux créations d'offices et aux impôts nouveaux, et exige un droit de regard sur les finances. La Fronde des princes ensuite : les grands nobles, dont Condé, vainqueur de Rocroi, prennent les armes pour leurs intérêts personnels.
+
+L'épisode est confus, changeant d'alliances, et il échoue faute de projet commun — parlementaires et princes n'avaient rien à se dire au-delà de leur hostilité à Mazarin.
+
+Ses conséquences sont durables et tiennent à l'expérience d'un enfant. Louis XIV, âgé de dix ans, doit fuir Paris de nuit, connaît la peur et l'humiliation, voit des émeutiers pénétrer dans sa chambre pour vérifier qu'il dort. Il en tirera trois convictions qui gouverneront son règne : ne jamais partager le pouvoir, ne jamais laisser la noblesse s'organiser, et ne jamais résider à Paris.
+
+Versailles, l'absence de premier ministre après 1661 et la domestication de la haute noblesse découlent directement de ces cinq années.`],
+  ],
 };
