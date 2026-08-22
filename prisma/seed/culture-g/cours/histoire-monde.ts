@@ -598,4 +598,183 @@ Les bombes atomiques sont larguées sur Hiroshima le 6 août 1945 et sur Nagasak
 
 La Constitution de 1947, rédigée sous occupation américaine, comporte un article 9 par lequel le Japon renonce à la guerre comme droit souverain de la nation et à l'entretien de forces armées. Le pays a interprété cette disposition de façon évolutive, se dotant de « forces d'autodéfense » dont le statut constitutionnel reste l'un des débats politiques les plus vifs du pays.`],
   ],
+
+  "hm2-afrique-precoloniale": [
+    ["Une histoire longtemps ignorée", `L'Afrique précoloniale comptait de vastes États organisés, dotés d'universités, de monnaies et de réseaux commerciaux continentaux. Ce constat, banal aujourd'hui pour les historiens, a longtemps été absent des manuels européens.
+
+L'affirmation selon laquelle l'Afrique serait restée hors de l'histoire, formulée par Hegel et reprise pendant un siècle et demi, reposait sur trois erreurs : la confusion entre absence d'écriture et absence d'histoire — alors que plusieurs régions écrivaient en arabe ou en ge'ez —, l'ignorance des sources arabes et africaines disponibles, et la justification rétrospective de la colonisation.
+
+L'archéologie, les sources écrites arabes, les traditions orales collectées et les analyses génétiques ont depuis reconstitué une histoire dense, dont les grandes lignes sont désormais établies.
+
+L'empire du Ghana médiéval, du VIIIe au XIe siècle, prospère par le commerce transsaharien. Il n'a aucun rapport géographique avec le Ghana actuel, qui a repris ce nom à l'indépendance en hommage à ce passé.`],
+    ["L'or, le sel et le désert", `Le commerce transsaharien reliait l'Afrique de l'Ouest à la Méditerranée par un échange fondamental : l'or du sud contre le sel du Sahara.
+
+L'asymétrie est frappante et s'explique par la géographie. L'Afrique de l'Ouest disposait d'or en abondance et manquait cruellement de sel, indispensable à la conservation des aliments et à la santé en climat chaud. Il s'échangeait par endroits à poids égal.
+
+Les caravanes de chameaux traversaient le désert en plusieurs semaines, avec des étapes obligées aux oasis. Ce commerce fit la richesse des empires du Sahel, qui contrôlaient les points de passage et prélevaient des taxes.
+
+L'Empire du Mali domine ce système au XIVe siècle. Fondé par Soundiata Keïta au XIIIe siècle — dont l'épopée, transmise oralement par les griots pendant sept siècles, est aujourd'hui inscrite au patrimoine de l'humanité —, il atteint son apogée sous Mansa Moussa.
+
+Son pèlerinage à La Mecque, en 1324, est resté célèbre : il traverse le Caire avec une caravane considérable et distribue tant d'or que le cours du métal s'effondre en Égypte pour plusieurs années. C'est à la suite de ce voyage que le Mali apparaît sur les cartes européennes, son souverain représenté tenant une pépite.
+
+L'Empire songhaï lui succède dans la vallée du Niger au XVe siècle et étend encore ce domaine, avant d'être défait en 1591 par une expédition marocaine dotée d'armes à feu.`],
+    ["Villes et savoirs", `Tombouctou fut un grand centre intellectuel médiéval. Ses universités et ses écoles coraniques accueillaient des milliers d'étudiants, et la ville abritait un commerce du livre si important qu'il constituait, selon les voyageurs, la marchandise la plus rentable.
+
+Ses bibliothèques conservent des centaines de milliers de manuscrits en arabe et en langues africaines transcrites en caractères arabes : droit, théologie, astronomie, mathématiques, médecine, poésie, correspondances commerciales. Leur sauvetage en 2012, lors de l'occupation de la ville par des groupes armés, a été mené clandestinement par des bibliothécaires qui en ont évacué la majeure partie vers Bamako.
+
+Le Grand Zimbabwe, en Afrique australe, est un vaste ensemble de constructions en pierres sèches assemblées sans mortier, capitale d'un royaume prospérant du XIe au XVe siècle par l'or et le commerce avec la côte. Les colons européens ont longtemps refusé d'en attribuer la construction à des Africains, allant jusqu'à interdire les publications contraires — cas d'école de l'idéologie appliquée à l'archéologie.
+
+Kilwa, cité-État swahilie de la côte est-africaine, participait au commerce de l'océan Indien avec l'Arabie, la Perse, l'Inde et la Chine. Des porcelaines chinoises y ont été retrouvées, et des girafes africaines furent offertes à l'empereur de Chine par ces réseaux.`,
+      { image: "hm-mosquee-tombouctou", legende: "Tombouctou : le commerce du livre y était, selon les voyageurs, plus rentable que celui de l'or.", alt: "Mosquée de terre à Tombouctou" }],
+    ["Des États et une catastrophe", `Le royaume du Bénin, dans l'actuel Nigeria, est célèbre pour ses bronzes du XVIe siècle : des plaques et des têtes coulées à la cire perdue, d'une maîtrise technique qui stupéfia les Européens. Plusieurs milliers furent pillés lors de l'expédition punitive britannique de 1897 et dispersés dans les musées occidentaux ; leur restitution est aujourd'hui l'un des dossiers les plus avancés en la matière.
+
+Le royaume du Kongo envoie des ambassadeurs au Vatican dès le XVIe siècle, entretient une correspondance diplomatique avec le Portugal, et son souverain converti au christianisme écrit au roi portugais pour protester contre la traite qui vide son royaume.
+
+L'Éthiopie constitue un cas à part : royaume chrétien depuis le IVe siècle, doté de sa propre Église, de son alphabet et de sa littérature, elle est le seul État africain à avoir conservé son indépendance face à la colonisation européenne — sa victoire sur l'Italie à Adoua, en 1896, eut un retentissement mondial.
+
+La traite atlantique a déporté environ douze millions de personnes entre le XVIe et le XIXe siècle, dont près de deux millions moururent pendant la traversée. Ses effets sur l'Afrique furent démographiques, économiques et politiques : ponction sur les populations en âge de travailler, militarisation des sociétés côtières, guerres pour la capture, et déstabilisation d'États entiers.
+
+C'est ce contexte, autant que la supériorité technique européenne du XIXe siècle, qui explique la vulnérabilité du continent au moment du partage colonial.`],
+  ],
+
+  "hm4-amerique-precolombienne": [
+    ["Trois civilisations, des milliers d'années", `Trois grandes civilisations dominaient l'Amérique à l'arrivée des Européens — Mayas, Aztèques, Incas — mais elles ne sont ni contemporaines ni comparables, et elles s'inscrivent dans une histoire bien plus longue.
+
+La civilisation olmèque est la plus ancienne grande civilisation mésoaméricaine connue, entre 1200 et 400 avant notre ère. Elle a laissé d'énormes têtes de basalte sculptées, transportées sur des dizaines de kilomètres sans roue ni animal de trait, et elle a probablement transmis aux cultures suivantes le calendrier, le jeu de balle rituel et une organisation religieuse.
+
+Les Mayas se développent ensuite sur plus de mille cinq cents ans, en cités-États rivales plutôt qu'en empire unifié. Leur période classique s'achève par un effondrement au IXe siècle, dont les causes — sécheresses prolongées, guerres, épuisement des sols — font toujours l'objet de recherches.
+
+Ils ont développé une écriture complète, capable de noter n'importe quel énoncé de leur langue, ce qui les distingue de toutes les autres civilisations américaines. Son déchiffrement, achevé dans les années 1980 après un siècle d'efforts, a fait passer les Mayas du statut d'astronomes pacifiques et anonymes à celui de dynasties documentées, avec des rois nommés, des guerres et des alliances.`],
+    ["Compter le temps", `Le calendrier maya à compte long date les événements depuis une date d'origine fixe, correspondant à 3114 avant notre ère. C'est un système linéaire, qui permet de situer un événement à un jour près sur plusieurs millénaires — ce qu'aucun autre calendrier américain ne faisait.
+
+Il s'ajoutait à deux cycles combinés, l'un de deux cent soixante jours et l'autre de trois cent soixante-cinq, dont l'engrenage produisait une période de cinquante-deux ans après laquelle la même combinaison revenait.
+
+La prétendue prophétie de la fin du monde en 2012 reposait sur un malentendu : la fin d'un cycle de treize baktuns n'annonçait rien d'autre que le début du suivant, comme un compteur kilométrique qui repasse à zéro.
+
+L'astronomie maya était d'une précision remarquable : leur année vénusienne et leur année solaire sont plus exactes que celles du calendrier julien alors en usage en Europe. Ils disposaient du zéro, indépendamment de l'Inde, et utilisaient une numération vigésimale.`],
+    ["Aztèques et Incas", `Tenochtitlan, capitale aztèque, est fondée en 1325 sur une île du lac Texcoco. Elle comptait à l'arrivée des Espagnols probablement deux cent mille habitants, davantage que toute ville européenne de l'époque, avec chaussées, aqueduc, marché quotidien et propreté qui stupéfièrent les conquistadors.
+
+Une chinampa est un jardin cultivé sur des radeaux de vase et de végétaux ancrés dans le lac — technique d'une productivité exceptionnelle, permettant plusieurs récoltes annuelles et nourrissant la ville.
+
+Teotihuacan, immense cité aux pyramides du Soleil et de la Lune, était déjà en ruines depuis sept siècles quand les Aztèques la découvrirent : ils lui donnèrent son nom, qui signifie « lieu où l'on devient dieu », et la tinrent pour le berceau de leurs divinités. Personne ne sait qui l'a bâtie ni quelle langue on y parlait.
+
+L'empire inca s'appelait le Tawantinsuyu, « les quatre régions réunies ». Il s'étendait sur plus de quatre mille kilomètres le long des Andes, relié par un réseau routier de dizaines de milliers de kilomètres avec relais de coureurs, ponts suspendus et greniers d'État.
+
+Il n'avait pas d'écriture mais des quipus : des ensembles de cordelettes nouées, dont la position, le type de nœud et la couleur enregistraient des données comptables et probablement davantage. Le Machu Picchu, site d'altitude construit au XVe siècle, était vraisemblablement un domaine royal.`,
+      { image: "hm-machu-picchu", legende: "Le Machu Picchu : un empire de quatre mille kilomètres sans écriture, sans roue et sans animal de trait.", alt: "Site inca du Machu Picchu" }],
+    ["L'effondrement", `La cause qui a le plus contribué à l'effondrement démographique amérindien n'est pas la guerre mais les maladies apportées par les Européens : variole, rougeole, grippe, typhus.
+
+Les populations américaines n'avaient jamais été exposées à ces agents infectieux, faute d'élevage dense — la plupart des maladies humaines viennent d'animaux domestiques, et l'Amérique n'avait ni bovins, ni porcs, ni volailles au sens de l'Ancien Monde.
+
+La mortalité fut sans équivalent connu : les estimations les plus courantes évoquent une réduction de la population de quatre-vingt à quatre-vingt-dix pour cent en un siècle et demi. Plusieurs études ont même mesuré un effet climatique global, l'abandon massif des terres cultivées ayant entraîné une reforestation suffisante pour abaisser le taux de CO₂ atmosphérique.
+
+Cet effondrement explique en grande partie la facilité des conquêtes. Cortés ne renverse pas l'Empire aztèque avec quelques centaines d'hommes : il le renverse avec des dizaines de milliers d'alliés indigènes hostiles à la domination aztèque, et avec une épidémie de variole qui frappe Tenochtitlan pendant le siège.
+
+Cette perspective ne diminue pas la violence de la conquête ; elle en corrige le récit, longtemps construit autour du courage de quelques Européens face à des empires supposés fragiles.`],
+  ],
+
+  "hm4-decouvertes": [
+    ["Le Portugal ouvre la route", `Le Portugal a lancé les premières grandes expéditions atlantiques, à partir du début du XVe siècle, sous l'impulsion du prince Henri dit le Navigateur — qui ne navigua jamais lui-même mais organisa méthodiquement les campagnes.
+
+Sa motivation est double : contourner les intermédiaires musulmans du commerce des épices et de l'or, et prendre à revers le monde islamique.
+
+Le programme est technique autant que géographique. Il fallait mettre au point un navire capable de remonter au vent, la caravelle ; améliorer la navigation astronomique avec l'astrolabe et les tables de déclinaison ; et surtout comprendre le régime des vents de l'Atlantique — la découverte du grand détour par le large pour revenir vers le nord, la volta do mar, fut plus décisive qu'aucune terre atteinte.
+
+Bartolomeu Dias contourne le cap de Bonne-Espérance en 1488, ouvrant la route de l'océan Indien. Vasco de Gama atteint l'Inde dix ans plus tard.
+
+Colomb, entre-temps, propose à l'Espagne d'atteindre l'Asie par l'ouest, sur la base d'une sous-estimation considérable de la circonférence terrestre. Les savants portugais avaient rejeté son projet pour cette raison — ils avaient raison sur le calcul, et Colomb rencontra un continent dont personne n'avait prévu l'existence.`],
+    ["Partager et faire le tour", `Le traité de Tordesillas, en 1494, partage le monde entre l'Espagne et le Portugal le long d'un méridien situé à l'ouest des îles du Cap-Vert. Tout ce qui sera découvert à l'ouest revient à l'Espagne, tout ce qui sera à l'est au Portugal.
+
+Deux puissances européennes, arbitrées par le pape, se répartissent ainsi des terres dont elles ignorent tout et dont les habitants ne sont pas consultés. C'est l'acte fondateur d'une conception du monde comme objet d'appropriation.
+
+La ligne explique un fait de géographie linguistique : le Brésil, situé à l'est du méridien, est portugais quand le reste de l'Amérique du Sud est espagnol.
+
+Le premier tour du monde est réalisé par l'expédition de Magellan, partie en 1519 avec cinq navires et deux cent trente-sept hommes. Magellan est tué aux Philippines ; c'est Juan Sebastián Elcano qui ramène en 1522 le seul navire survivant avec dix-huit hommes.
+
+L'expédition prouve définitivement la rotondité de la Terre — que les savants ne discutaient plus depuis l'Antiquité — et surtout son immensité, très supérieure à ce qu'on estimait. Elle établit aussi l'existence du décalage d'une journée pour qui fait le tour vers l'ouest, ce qui déconcerta l'équipage à son retour.`],
+    ["Conquérir", `Hernán Cortés conquiert l'Empire aztèque entre 1519 et 1521, avec quelques centaines d'Espagnols, des dizaines de milliers d'alliés indigènes révoltés contre la domination de Tenochtitlan, des chevaux et des armes à feu — et une épidémie de variole qui décime les défenseurs pendant le siège.
+
+Francisco Pizarro conquiert l'Empire inca à partir de 1532, dans des circonstances comparables : l'empire sortait d'une guerre civile de succession, et une épidémie l'avait déjà frappé avant tout contact direct. Il capture l'empereur Atahualpa par traîtrise lors d'une entrevue, exige une rançon de plusieurs tonnes d'or et d'argent, l'obtient, puis le fait exécuter.
+
+L'encomienda est le système d'exploitation mis en place : une attribution de main-d'œuvre indigène à un colon espagnol, en principe contre protection et évangélisation. En pratique, c'est un travail forcé qui contribue lourdement à l'effondrement démographique.
+
+Bartolomé de Las Casas, dominicain d'abord encomendero lui-même, dénonce ce traitement et consacre sa vie à défendre les Amérindiens. Son plaidoyer aboutit aux Lois nouvelles de 1542 et à la controverse de Valladolid, où il soutient contre Sepúlveda que les Indiens sont pleinement des hommes dotés de raison. Ses écrits ont nourri la « légende noire » espagnole et, par un retournement tragique, il a un temps proposé d'importer des esclaves africains pour soulager les Indiens — position qu'il a plus tard reniée.`],
+    ["Un monde relié", `L'échange colombien désigne le transfert d'espèces, de maladies, de personnes et de techniques entre les continents après 1492. Le concept, forgé par l'historien Alfred Crosby, est probablement le plus utile pour saisir la portée de ces voyages.
+
+De l'Amérique vers l'Ancien Monde : maïs, pomme de terre, tomate, haricot, courge, cacao, piment, vanille, tabac, arachide. Leur adoption transforme l'alimentation mondiale et permet une croissance démographique considérable en Europe, en Afrique et en Asie.
+
+De l'Ancien Monde vers l'Amérique : blé, riz, canne à sucre, café, bovins, chevaux, porcs — et les maladies, dont l'effet fut catastrophique.
+
+Les conséquences pour l'Europe furent multiples : afflux de métaux précieux d'Amérique, qui provoqua une inflation durable et finança les guerres du XVIe siècle ; déplacement des routes commerciales de la Méditerranée vers l'Atlantique, au détriment de Venise et au profit de Lisbonne, Séville puis Amsterdam et Londres ; et essor d'une économie de plantation reposant sur la traite atlantique.
+
+Les voyages du XVe siècle ont mis en relation des mondes jusque-là séparés depuis la fin de la dernière glaciation. Cette mise en contact est probablement l'événement le plus lourd de conséquences de l'histoire moderne — et l'un des plus inégalement partagés.`],
+  ],
+
+  "hm2-reforme-guerres-religion": [
+    ["Une rupture que l'imprimerie propage", `La Réforme éclate en 1517 avec les thèses de Luther contre les indulgences, mais elle prolonge des contestations bien antérieures — Wyclif en Angleterre, Hus en Bohême — qui avaient échoué.
+
+Ce qui change tout est l'imprimerie. Les thèses de Luther sont diffusées dans toute l'Allemagne en quelques semaines, ses traités se vendent à des centaines de milliers d'exemplaires, et sa traduction de la Bible en allemand rend le texte accessible sans intermédiaire clérical.
+
+Aucune autorité ne peut plus contrôler la circulation des idées : c'est le premier grand conflit d'opinion de l'ère de l'imprimé, et il en établit les caractéristiques — rapidité, images satiriques, pamphlets, guerre des versions.
+
+Henri VIII rompt avec Rome en 1534 pour un motif différent : l'annulation de son mariage, refusée par le pape. L'Acte de suprématie fait du roi le chef de l'Église d'Angleterre, ce qui lui permet accessoirement de confisquer les biens monastiques. La Réforme anglaise est donc d'abord politique et dynastique, et sa théologie s'élaborera ensuite.
+
+La Compagnie de Jésus est fondée en 1540 par Ignace de Loyola pour porter la Contre-Réforme : ordre discipliné, voué à l'enseignement, à la prédication et aux missions, il devient l'instrument le plus efficace de la reconquête catholique.`],
+    ["Chacun sa religion", `La paix d'Augsbourg, en 1555, met fin aux premiers conflits dans le Saint-Empire en posant un principe : la religion du prince détermine celle de ses sujets. La formule latine — *cuius regio, eius religio* — a été forgée plus tard, mais elle résume exactement le dispositif.
+
+C'est un compromis pragmatique, et non une reconnaissance de la liberté de conscience. Les sujets en désaccord n'ont d'autre droit que celui d'émigrer.
+
+Le principe présente en outre deux défauts qui provoqueront la guerre suivante : il ne reconnaît que catholiques et luthériens, laissant les calvinistes hors du cadre, et il fige une carte religieuse que les conversions ultérieures des princes remettront en cause.
+
+En France, les guerres de religion s'étendent sur trente-six ans. Le massacre de la Saint-Barthélemy, dans la nuit du 24 août 1572, tue plusieurs milliers de protestants à Paris puis en province. Il survient au moment où un mariage royal devait sceller la réconciliation, ce qui en fit un symbole durable de la trahison.
+
+L'édit de Nantes, en 1598, accorde aux protestants la liberté de conscience, un culte encadré et des places de sûreté. Louis XIV le révoque en 1685, provoquant l'exil de centaines de milliers de personnes.`],
+    ["La guerre de Trente Ans", `La guerre de Trente Ans se déroule de 1618 à 1648, principalement sur le sol du Saint-Empire. Elle commence comme un conflit religieux et devient une guerre européenne où les motifs politiques l'emportent — la France catholique y soutient les princes protestants contre les Habsbourg.
+
+Son caractère le plus marquant est la dévastation. Les armées vivaient sur le pays, se payaient par le pillage, et les mercenaires changeaient de camp selon la solde. Entre un cinquième et un tiers de la population du Saint-Empire aurait péri selon les régions — famines et épidémies faisant bien plus de victimes que les combats.
+
+Certaines régions ne retrouveront leur population d'avant-guerre qu'un siècle plus tard, et l'Allemagne en garde une mémoire comparable à celle des guerres mondiales pour d'autres pays.
+
+Les traités de Westphalie, en 1648, y mettent fin. Ils reconnaissent le calvinisme, confirment le principe d'Augsbourg, consacrent l'indépendance des Provinces-Unies et de la Suisse, et affaiblissent durablement l'autorité impériale au profit des principautés.`],
+    ["Ce qui en sort", `Les traités de Westphalie sont considérés comme l'acte de naissance du système international moderne, fondé sur la souveraineté des États : chaque État est maître chez lui, aucune autorité supérieure ne peut intervenir dans ses affaires intérieures, et les relations entre États relèvent de la négociation et de l'équilibre des puissances plutôt que d'une hiérarchie religieuse.
+
+Les historiens ont nuancé cette lecture — le concept de « souveraineté westphalienne » doit beaucoup aux juristes du XIXe siècle — mais le tournant est réel : après 1648, aucun conflit européen majeur ne sera plus mené au nom de la religion.
+
+La Réforme laisse par ailleurs une Europe durablement divisée entre un nord protestant et un sud catholique, division dont les effets culturels et économiques ont fait l'objet d'analyses célèbres, dont celle de Max Weber sur l'éthique protestante et l'esprit du capitalisme — thèse discutée mais jamais épuisée.
+
+Elle a enfin produit, par ses conflits mêmes, l'idée que la coexistence de croyances différentes dans un même État est possible. La tolérance n'a pas été conquise par conviction mais par épuisement — c'est le constat que fait explicitement l'édit de Nantes, et il vaut pour toute l'Europe du XVIIe siècle.`],
+  ],
+
+  "hm4-revolutions-atlantiques": [
+    ["Une vague, deux rives", `Une vague révolutionnaire a traversé l'Atlantique entre 1776 et 1825. Indépendance américaine, Révolution française, révolution haïtienne, indépendances hispano-américaines : ces mouvements sont distincts et liés, par la circulation des hommes, des textes et des idées.
+
+Les États-Unis déclarent leur indépendance le 4 juillet 1776. Le texte, rédigé pour l'essentiel par Thomas Jefferson, ne se contente pas de rompre avec la Grande-Bretagne : il énonce des principes universels — tous les hommes sont créés égaux, dotés de droits inaliénables, et les gouvernements tirent leur pouvoir du consentement des gouvernés.
+
+La France joue un rôle militaire et financier décisif dans cette indépendance : flotte, corps expéditionnaire, subsides. La victoire de Yorktown en 1781 est obtenue grâce au blocus de la flotte française.
+
+Cet engagement a deux conséquences pour la France : il achève de ruiner ses finances, ce qui conduira aux états généraux de 1789 ; et il ramène des officiers, dont La Fayette, convaincus qu'une république fondée sur des droits est possible.`],
+    ["Fonder un État", `La Constitution américaine de 1787 institue un régime fédéral et présidentiel, fondé sur la séparation des pouvoirs et sur un système de freins et contrepoids : chaque pouvoir peut bloquer partiellement les autres.
+
+Elle est la plus ancienne constitution écrite encore en vigueur, et sa brièveté — sept articles à l'origine — explique en partie sa longévité, l'interprétation par la Cour suprême ayant fait l'essentiel du travail d'adaptation.
+
+Le Bill of Rights, adopté en 1791, en constitue les dix premiers amendements : liberté de religion, d'expression, de presse et de réunion, droit de porter des armes, protection contre les perquisitions arbitraires, garanties procédurales, interdiction des châtiments cruels.
+
+Son adoption fut la condition posée par plusieurs États pour ratifier la Constitution, jugée insuffisamment protectrice des libertés individuelles. Le débat entre fédéralistes et antifédéralistes qui l'a précédé est l'un des plus riches de l'histoire de la pensée politique.`],
+    ["Libérer l'Amérique du Sud", `Les indépendances hispano-américaines s'engagent à partir de 1810, à la faveur de l'occupation de l'Espagne par Napoléon, qui prive les colonies de souverain légitime.
+
+Simón Bolívar dirige l'indépendance de plusieurs pays du nord du continent — Venezuela, Colombie, Équateur, Pérou, et la Bolivie qui porte son nom. Il rêve d'une grande confédération hispano-américaine et échoue : les rivalités régionales et les distances la rendent impraticable. Sa lettre de la fin de sa vie — « ceux qui ont servi la révolution ont labouré la mer » — dit son amertume.
+
+José de San Martín libère l'Argentine, le Chili et le Pérou par le sud, avec une traversée des Andes qui reste un exploit logistique. Il rencontre Bolívar à Guayaquil en 1822, s'efface devant lui et se retire en Europe.
+
+Le Brésil suit une voie unique et pacifique : la cour portugaise, fuyant Napoléon, s'y était installée en 1808 ; lorsqu'elle rentre à Lisbonne, l'héritier reste et proclame l'indépendance en 1822 en se faisant couronner empereur. Le Brésil devient ainsi le seul empire d'Amérique, et il conservera l'esclavage jusqu'en 1888.`],
+    ["Ce que ces révolutions ont fait et n'ont pas fait", `L'idée qui circule d'une révolution à l'autre est celle de la souveraineté du peuple et des droits naturels : le pouvoir ne vient plus de Dieu ni de la naissance mais du consentement, et les individus possèdent des droits antérieurs à tout gouvernement.
+
+Ces textes circulent, se traduisent, se citent. La Déclaration d'indépendance américaine influence celle de 1789, qui influence à son tour les constitutions latino-américaines.
+
+La limite de ces révolutions est massive et connue : elles ont souvent maintenu l'esclavage et exclu les femmes des droits qu'elles proclamaient universels. Jefferson, qui écrit que tous les hommes naissent égaux, possède des centaines d'esclaves. La France abolit l'esclavage en 1794 et le rétablit en 1802.
+
+Une seule révolution a poussé les principes jusqu'au bout : Haïti. Partie d'une insurrection d'esclaves en 1791, elle aboutit en 1804 à la première république noire indépendante et à la seule abolition obtenue par les esclaves eux-mêmes.
+
+Son sort en dit long : boycottée par les puissances esclavagistes, elle dut verser à la France une indemnité colossale pour obtenir sa reconnaissance en 1825 — dette qu'elle a fini de rembourser au XXe siècle, et qui a durablement compromis son développement.`],
+  ],
 };
