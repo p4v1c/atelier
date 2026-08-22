@@ -371,7 +371,7 @@ export const CG_SCIENCES_VIE_3: SeedSkill[] = [
      "Plus de quatre-vingts pour cent de la biodiversité française s'y trouve.", 3],
   ]),
 
-  notion("sv3-alimentation-sante", S, "Alimentation et santé publique",
+  notion("sv3-alimentation-sante", S, "Épidémiologie de l'alimentation",
     "Recommandations, épidémiologie nutritionnelle, limites.",
     "L'épidémiologie nutritionnelle est difficile car on ne peut isoler un aliment de son contexte.",
     2, [

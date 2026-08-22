@@ -345,7 +345,7 @@ export const CG_GASTRONOMIE_3: SeedSkill[] = [
      "Les pertes se situent surtout à la production dans les pays pauvres, à la consommation dans les pays riches.", 3],
   ]),
 
-  notion("ga3-alimentation-sante", S, "Alimentation et santé",
+  notion("ga3-alimentation-sante", S, "Nutriments et repères nutritionnels",
     "Nutriments, régimes, repères.",
     "Les besoins nutritionnels varient selon l'âge, l'activité et l'état de santé.",
     2, [

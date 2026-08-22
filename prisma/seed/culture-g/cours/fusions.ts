@@ -167,5 +167,17 @@ export const FUSIONS_INTERNES: Record<string, string> = {
   "hm4-migrations-histoire": "hm3-migrations-histoire",
   "hf4-revolution-terreur": "hf2-terreur-directoire",
   "lf3-langue-droit": "lf2-textes-officiels",
+  "hf4-richelieu-mazarin": "hf-richelieu-mazarin",
+  "hf4-lumieres-france": "hf-lumieres-france",
+  "hf2-symboles-republique": "hf-symboles-republique",
+  "ga-agriculture-alimentation": "ga3-agriculture-alimentation",
+  "hm4-mesopotamie": "hm2-mesopotamie",
+  "hm4-mongols": "hm2-mongols",
+  "hm4-japon-histoire": "hm2-japon-histoire",
+  "hf4-capetiens": "hf2-capetiens",
+  "hf4-troisieme-republique": "hf2-troisieme-republique",
+  "hf4-quatrieme-republique": "hf2-quatrieme-republique",
+  "hf4-cinquieme-republique": "hf2-cinquieme-republique",
+  "sp3-gymnastique": "sp2-gymnastique",
 };
 

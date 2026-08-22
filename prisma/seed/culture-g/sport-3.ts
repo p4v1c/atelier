@@ -345,7 +345,7 @@ export const CG_SPORT_3: SeedSkill[] = [
      "La conservation des échantillons permet toutefois des réanalyses des années plus tard.", 3],
   ]),
 
-  notion("sp3-sport-sante", S, "Sport, corps et santé",
+  notion("sp3-sport-sante", S, "Entraînement, récupération et blessures",
     "Physiologie, entraînement, blessures.",
     "L'activité physique régulière est l'un des principaux déterminants de santé.",
     2, [
