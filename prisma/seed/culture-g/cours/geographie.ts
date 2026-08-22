@@ -263,4 +263,63 @@ Un récif corallien est une structure calcaire construite par des animaux vivant
 
 Une trentaine de ces points chauds ont été identifiés — bassin méditerranéen, Madagascar, forêts atlantiques du Brésil, Sundaland, Caucase. Ils couvrent une fraction minime des terres émergées et abritent une proportion considérable des espèces de plantes et de vertébrés terrestres. C'est cette disproportion qui fonde la stratégie : protéger peu de surface pour sauver beaucoup d'espèces.`],
   ],
+
+  "geo2-europe-geographie": [
+    ["La mer, partout", `Aucun point de l'Europe de l'Ouest n'est très éloigné de la mer : c'est une clé de son histoire. Un continent morcelé en péninsules, îles et mers intérieures, avec un développement côtier considérable rapporté à sa surface — l'inverse exact de l'Asie ou de l'Afrique, massives et continentales.
+
+Cette configuration a favorisé la navigation, le commerce, la pêche et la fragmentation politique : les mers y relient plus qu'elles ne séparent, et aucune puissance continentale n'a jamais réussi à unifier durablement l'ensemble. La mer Baltique sépare la Suède du Danemark et de l'Allemagne ; la Méditerranée, la mer du Nord et l'Atlantique bordent le reste.`],
+    ["Les reliefs", `Les Alpes séparent la France de l'Italie et forment la principale barrière du continent, avec les plus hauts sommets d'Europe occidentale. Les Apennins parcourent l'Italie du nord au sud comme une épine dorsale, ce qui explique le morcellement historique de la péninsule et la localisation des voies de communication.
+
+Les Pyrénées ferment la péninsule Ibérique, les Carpates arquent l'Europe centrale, la Scandinavie porte ses propres chaînes. Entre ces massifs s'étendent de grandes plaines — la plaine germano-polonaise, le bassin parisien, la plaine du Pô — qui ont été à la fois les greniers et les couloirs d'invasion du continent.`],
+    ["Les hommes", `L'Allemagne est le pays européen le plus peuplé hors Russie ; l'Ukraine en est le plus vaste, toujours hors Russie. Les Pays-Bas figurent parmi les plus fortes densités des grands pays européens, ce qui tient autant à leur petite taille qu'à une occupation dense et ancienne.
+
+La dorsale européenne désigne un axe fortement urbanisé et industrialisé courant de Londres à Milan, en passant par les Pays-Bas, la vallée du Rhin et la Suisse. Longtemps appelée banane bleue, cette concentration de population, de richesse et d'activité structure l'économie du continent et explique la géographie des grands réseaux de transport.`],
+    ["Deux singularités", `Le Danube traverse ou borde dix pays et quatre capitales — Vienne, Bratislava, Budapest et Belgrade — ce qu'aucun autre fleuve au monde ne fait. Il relie l'Europe centrale à la mer Noire et a servi d'axe de circulation et de limite d'empire depuis l'Antiquité.
+
+Aux latitudes extrêmes, la Finlande est traversée par le cercle polaire arctique, comme la Suède et la Norvège. À l'autre bout, les Pays-Bas ont inventé le polder : une terre gagnée sur la mer, asséchée et protégée par des digues. Un quart du pays se situe sous le niveau de la mer, ce qui en fait le territoire européen le plus directement exposé à l'élévation du niveau marin.`],
+  ],
+
+  "geo2-asie-geographie": [
+    ["Les extrêmes", `L'Asie réunit à la fois le point le plus haut et le point émergé le plus bas de la planète : l'Everest à près de huit mille neuf cents mètres, et les rives de la mer Morte à plus de quatre cents mètres sous le niveau des mers. Aucun autre continent ne présente une telle amplitude.
+
+Le plateau tibétain, surnommé le toit du monde, s'étend sur plus de deux millions de kilomètres carrés à une altitude moyenne supérieure à quatre mille mètres. Il joue un rôle climatique majeur : il détourne la circulation atmosphérique et alimente en eau, par ses glaciers, plusieurs des plus grands fleuves d'Asie — Indus, Gange, Brahmapoutre, Mékong, Yangzi, Fleuve Jaune.`],
+    ["Les milieux", `Le désert de Gobi couvre une grande partie de la Mongolie et du nord de la Chine : désert froid, continental, où les températures descendent très bas en hiver. Le Népal est enclavé entre la Chine et l'Inde dans l'Himalaya, et concentre huit des quatorze sommets de plus de huit mille mètres.
+
+La mer Caspienne, plus grande étendue d'eau fermée du monde, sépare l'Europe de l'Asie au sud du Caucase ; son statut juridique — mer ou lac — a fait l'objet d'un contentieux de trente ans entre riverains. Le bassin de la mer d'Aral, plus à l'est, a subi le désastre écologique le plus documenté du siècle, provoqué par le détournement de ses fleuves pour irriguer le coton.`],
+    ["Les eaux et les îles", `L'Indonésie est composée de plus de dix-sept mille îles, réparties sur cinq mille kilomètres d'est en ouest — un État-archipel dont la seule administration constitue un défi. Le détroit de Corée sépare la péninsule coréenne du Japon.
+
+La ligne de mousson en Asie du Sud désigne la limite qu'atteignent les pluies de mousson : sa position et sa date d'arrivée varient fortement d'une année à l'autre, et de cette variabilité dépendent les récoltes de centaines de millions de personnes. Un retard de deux semaines ou un déficit de vingt pour cent suffisent à provoquer une crise alimentaire.`],
+    ["Les hommes", `La mégalopole du Tokaido s'étend le long de la côte pacifique du Japon, de Tokyo à Osaka : plusieurs dizaines de millions d'habitants sur une bande étroite coincée entre montagne et mer, reliée par le premier train à grande vitesse du monde.
+
+Sur le plan démographique, l'Asie connaît des trajectoires opposées : le Japon et la Corée du Sud vieillissent et voient leur population décliner, tandis que le Pakistan figure parmi les grands pays à la plus forte croissance récente. L'Inde est devenue en 2023 le pays le plus peuplé du monde, dépassant la Chine dont la population a commencé à décroître.`],
+  ],
+  "geo2-afrique-geographie": [
+    ["Un continent qu'on sous-estime", `L'Afrique est trois fois plus vaste que l'Europe, ce que les cartes usuelles masquent. La projection de Mercator, qui conserve les angles au prix des surfaces, y étire les hautes latitudes : le Groenland y paraît aussi grand que l'Afrique alors qu'il est quatorze fois plus petit. Cette déformation, purement mathématique, a durablement faussé les représentations mentales.
+
+Le continent porte le plus vaste désert chaud du monde, le Sahara, qui couvre à lui seul une surface comparable à celle des États-Unis. Au sud s'étend le Sahel, bande semi-aride de transition entre le désert et les savanes, exposée à une variabilité pluviométrique extrême et à une forte pression démographique.`],
+    ["Les grandes structures", `Le grand rift traverse l'Afrique de l'Est du nord au sud sur plusieurs milliers de kilomètres : c'est une zone où la croûte terrestre s'étire et se fracture, jalonnée de volcans et de lacs profonds. À terme géologique, elle séparera une partie de l'Afrique orientale du reste du continent.
+
+Le lac Victoria est le plus vaste lac d'Afrique en superficie et l'un des plus grands du monde. Le lac Tchad offre à l'inverse un cas d'école de dégradation : il a perdu la majeure partie de sa surface depuis les années 1960, sous l'effet combiné de la sécheresse et des prélèvements pour l'irrigation, avec des conséquences majeures sur les populations riveraines de quatre pays.`],
+    ["L'eau et les villes", `Le Niger décrit une grande boucle vers le nord, jusqu'aux abords du Sahara, avant de redescendre vers le golfe de Guinée — trajectoire déroutante qui s'explique par la capture de deux anciens fleuves distincts.
+
+Le Nigeria est le pays africain le plus peuplé, avec plus de deux cents millions d'habitants. La ville la plus peuplée du continent est Le Caire ou Lagos selon les définitions retenues — agglomération, aire urbaine ou limites administratives — ce qui illustre la difficulté des comparaisons urbaines internationales. La corne de l'Afrique présente enfin une singularité climatique : une aridité marquée malgré sa position équatoriale, due à la configuration des vents et des reliefs.`],
+    ["Réparer", `La grande muraille verte africaine est un projet de restauration des terres à travers le Sahel, lancé en 2007 par l'Union africaine : il ne s'agit plus, comme dans la version initiale, de planter une bande d'arbres continue de l'Atlantique à la mer Rouge, mais d'une mosaïque d'actions de reforestation, d'agroforesterie et de gestion des sols.
+
+Son avancement est très en retard sur les objectifs annoncés, pour des raisons de financement, de coordination entre onze pays et d'instabilité sécuritaire dans plusieurs zones concernées. Les réussites documentées viennent souvent d'initiatives locales antérieures au programme, fondées sur la régénération naturelle assistée plutôt que sur la plantation.`],
+  ],
+
+  "geo2-ameriques-geographie": [
+    ["Quinze mille kilomètres", `Le continent américain s'étend sur plus de quinze mille kilomètres du nord au sud, du cercle polaire arctique au cap Horn : il traverse toutes les zones climatiques de la planète, ce qu'aucun autre continent ne fait dans cette continuité.
+
+Deux sous-continents sont reliés par l'isthme de Panama, étroit passage formé il y a environ trois millions d'années. Sa fermeture a eu des conséquences considérables : elle a séparé deux océans, modifié les courants marins et le climat mondial, et permis un immense échange d'espèces entre les deux Amériques, jusque-là isolées.`],
+    ["L'Amérique du Nord", `Les montagnes Rocheuses parcourent l'ouest de l'Amérique du Nord et constituent la ligne de partage des eaux du continent. À l'est s'étendent les Grandes Plaines, immense plaine céréalière traversant le centre des États-Unis, dont la mise en culture au XIXe siècle a provoqué dans les années 1930 les tempêtes de poussière du Dust Bowl.
+
+Le système Mississippi-Missouri est le plus long fleuve du continent, et draine une grande part du territoire américain. Les Grands Lacs forment la plus grande réserve d'eau douce de surface d'Amérique du Nord, partagée entre les États-Unis et le Canada, et ont servi d'axe majeur à l'industrialisation des deux pays.`],
+    ["L'Amérique du Sud", `Le désert d'Atacama, au Chili, est le plus aride du monde : certaines stations n'y ont jamais enregistré de précipitations mesurables, en raison d'une double barrière — l'anticyclone du Pacifique et le courant froid de Humboldt d'un côté, la cordillère de l'autre.
+
+Le plateau brésilien occupe une grande partie du Brésil et porte l'essentiel de sa population et de ses villes ; la pampa argentine, plaine herbeuse fertile, constitue le cœur agricole du pays et la base de son économie d'exportation. Au sud, le détroit de Magellan sépare le continent de la Terre de Feu : longtemps unique passage maritime avant le canal de Panama, il reste l'une des routes les plus difficiles du monde.`],
+    ["Un périmètre administratif", `L'Amazonie légale est un découpage administratif brésilien qui couvre plus de la moitié du territoire national : il a été créé pour appliquer des politiques spécifiques de développement et de protection, et ne correspond pas exactement à l'étendue de la forêt.
+
+Cette distinction a des conséquences pratiques : les chiffres de déforestation publiés portent sur ce périmètre, qui inclut des zones de savane et des régions déjà largement défrichées. Les comparaisons internationales exigent donc de savoir de quel périmètre on parle — Amazonie légale brésilienne, bassin amazonien complet réparti sur neuf pays, ou couvert forestier mesuré par satellite.`],
+  ],
 };
