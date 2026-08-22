@@ -357,4 +357,78 @@ En Europe occidentale, la sécularisation se traduit par un recul de la pratique
 
 Les indices de restriction gouvernementale mesurent le degré de contrainte légale et administrative exercée sur les pratiques religieuses : lois sur le blasphème, enregistrement obligatoire des cultes, interdictions de conversion, surveillance des lieux de culte. Ils sont complétés par des indices d'hostilité sociale, qui mesurent les violences et discriminations émanant non de l'État mais de la population — les deux ne coïncidant pas nécessairement.`],
   ],
+
+  "mr3-mythologie-mesopotamienne": [
+    ["Écrits sur de l'argile", `Les mythes mésopotamiens nous sont parvenus sur des tablettes d'argile, et ce support explique presque tout de leur conservation. L'argile crue se délite, mais l'argile cuite résiste au temps, au feu et à l'humidité : les incendies qui ont détruit les palais ont cuit les archives et les ont sauvées. Les papyrus égyptiens et les parchemins grecs ont massivement disparu ; les tablettes, non.
+
+La plus grande collection connue est la bibliothèque d'Assurbanipal, retrouvée à Ninive : des dizaines de milliers de tablettes et de fragments, constitués délibérément par un roi qui faisait copier les textes de tout son empire. C'est là qu'a été identifiée l'Épopée de Gilgamesh.`],
+    ["Le panthéon", `Les panthéons mésopotamiens évoluent sur trois millénaires, avec des divinités qui montent et descendent selon les cités dominantes. An règne sur le ciel dans les traditions les plus anciennes, figure lointaine et peu active. Enki, associé à l'eau douce et à la sagesse, est le dieu rusé qui sauve l'humanité et invente les techniques.
+
+Marduk devient la divinité principale lorsque Babylone s'impose politiquement : sa promotion est explicitement racontée dans l'Enuma Elish, poème babylonien de la création où il tue la déesse primordiale du chaos et façonne le monde avec son corps. Le texte est autant théologique que politique — il justifie la suprématie d'une cité par celle de son dieu. Ishtar, déesse de l'amour et de la guerre, associe deux domaines que les panthéons ultérieurs sépareront.`],
+    ["Gilgamesh", `L'Épopée de Gilgamesh est le plus ancien grand récit littéraire connu. Le roi d'Uruk, tyrannique, se voit opposer par les dieux un égal, Enkidu, homme sauvage élevé parmi les bêtes. Après un combat, les deux deviennent inséparables et accomplissent ensemble des exploits.
+
+La mort d'Enkidu fait basculer le poème : Gilgamesh, terrifié par la mort qu'il découvre, part chercher le secret de l'immortalité. Il rencontre Utnapishtim, survivant du déluge à qui les dieux ont accordé la vie éternelle, et échoue à obtenir la même faveur — une plante de jouvence lui est même volée par un serpent au retour. Il rentre à Uruk et contemple ses murailles : ce qui reste d'un homme, ce sont ses œuvres.`],
+    ["Le déluge, mille ans avant la Bible", `Le récit du déluge fait par Utnapishtim présente avec celui de la Genèse des correspondances si précises — l'avertissement divin, l'arche, les animaux, l'oiseau lâché pour trouver la terre, le sacrifice au sortir — qu'une transmission ne fait guère de doute. Le texte mésopotamien est antérieur de plus de mille ans.
+
+Sa découverte au XIXe siècle a provoqué un choc considérable en Europe : elle établissait qu'un récit tenu pour révélé avait des antécédents. Elle a ouvert la voie à l'étude comparée des textes bibliques et proche-orientaux, discipline qui a transformé la connaissance des origines de la Bible.`],
+  ],
+
+  "mr3-cultes-antiques": [
+    ["Faire, plutôt que croire", `Les cultes antiques ne demandaient pas de croyance au sens moderne : ils reposaient sur l'accomplissement correct des rites. On ne demandait pas à un Romain s'il croyait en Jupiter, mais s'il avait fait les sacrifices prescrits — l'adhésion intérieure n'était pas le critère.
+
+Un temple antique n'était pas un lieu de rassemblement des fidèles mais la maison du dieu : il abritait principalement la statue de la divinité, et les cérémonies se déroulaient à l'extérieur, autour de l'autel. Le sacrifice y était une offrande rituelle partagée entre les dieux et les hommes — la part brûlée pour la divinité, la viande consommée par les participants. C'était donc aussi, très concrètement, l'une des rares occasions de manger de la viande.`],
+    ["Les mystères", `Une religion à mystères est un culte à initiation qui promet à ses membres un sort meilleur après la mort. La différence avec les cultes civiques est majeure : ceux-ci concernaient la cité et sa prospérité collective, les mystères s'adressaient à l'individu et à son destin personnel.
+
+Les mystères d'Éleusis, près d'Athènes, célébraient Déméter et sa fille Perséphone, enlevée aux Enfers et rendue une partie de l'année. Ils étaient ouverts à tous, y compris aux esclaves et aux femmes, et le secret sur leur contenu a été si bien tenu que nous ignorons encore ce qui s'y passait. L'orphisme, courant grec centré sur la purification et la survie de l'âme, a laissé des textes et des lamelles d'or déposées dans les tombes avec des instructions pour l'au-delà.`],
+    ["Les cultes venus d'ailleurs", `Le monde romain a accueilli des cultes orientaux qui ont connu un immense succès. Celui d'Isis, déesse égyptienne, s'est répandu dans tout l'Empire, avec des temples jusqu'en Gaule et en Bretagne : il offrait une déesse protectrice, une liturgie quotidienne et une promesse de salut.
+
+Le mithraïsme, culte à mystères d'origine iranienne, s'est particulièrement répandu dans l'armée romaine. Réservé aux hommes, organisé en sept grades initiatiques, il se pratiquait dans de petits sanctuaires souterrains dont on a retrouvé des dizaines. Sa diffusion, exactement contemporaine de celle du christianisme, en a fait un concurrent sérieux — et une source d'analogies dont les historiens débattent encore.`],
+    ["Consulter les dieux", `Un oracle est un lieu où une divinité rendait des réponses aux consultants, particuliers comme cités. Le plus célèbre, à Delphes, était rendu par la Pythie, prêtresse d'Apollon, dont les paroles étaient interprétées par des prêtres et rendues en vers ambigus — l'ambiguïté n'étant pas un défaut mais une caractéristique du système, puisqu'elle rendait l'oracle infalsifiable.
+
+Delphes disposait d'une influence politique considérable : les cités la consultaient avant de fonder une colonie ou d'engager une guerre, et le sanctuaire accumulait des richesses et des informations venues de tout le monde grec. Il fonctionnait ainsi comme un centre de renseignement autant que comme un lieu de culte.`],
+  ],
+  "mr3-islam-pratiques": [
+    ["Les actes prescrits", `Les pratiques islamiques varient considérablement selon les régions et les écoles, mais quelques actes structurent le quotidien. L'islam sunnite prescrit cinq prières quotidiennes, à des moments définis par la position du soleil ; le chiisme duodécimain en regroupe certaines, ce qui donne trois moments de prière.
+
+La qibla est la direction de La Mecque vers laquelle on prie : elle est indiquée dans les mosquées par une niche, et sa détermination a occupé les astronomes et les mathématiciens musulmans, qui ont développé pour cela des méthodes de géométrie sphérique très en avance sur leur temps. La zakat, aumône obligatoire calculée sur le patrimoine et non sur le revenu, complète ces obligations : c'est un prélèvement annuel à taux fixe, redistribué à des catégories définies.`],
+    ["Le temps du jeûne", `Le ramadan est un mois de jeûne du lever au coucher du soleil : ni nourriture, ni boisson, ni tabac pendant les heures de clarté. Le calendrier étant lunaire, il se décale d'environ onze jours par an et parcourt toutes les saisons — un ramadan d'été aux latitudes nordiques impose des jeûnes de dix-huit heures, ce qui a donné lieu à des avis juridiques spécifiques.
+
+La nuit du Destin, située dans les dix derniers jours du mois, commémore la première révélation du Coran ; elle est tenue pour la nuit la plus sacrée de l'année. La fin du mois est marquée par l'Aïd el-Fitr, l'une des deux grandes fêtes de l'année musulmane.`],
+    ["Le licite", `Le halal désigne ce qui est licite selon la loi islamique — le terme ne concerne pas que l'alimentation, même si c'est là son usage le plus connu en Occident. Son opposé est le haram, l'illicite. Entre les deux existent plusieurs degrés intermédiaires : recommandé, neutre, déconseillé.
+
+Cette gradation est caractéristique du raisonnement juridique islamique, qui classe les actes plutôt que de les répartir en deux catégories. Elle explique la diversité des avis, puisque le classement d'un acte donné dépend de l'école et du raisonnement suivi.`],
+    ["Qui dit le droit", `Un imam, dans l'islam sunnite, est celui qui dirige la prière : la fonction n'implique aucun statut sacerdotal, aucune ordination et aucune médiation entre le fidèle et Dieu. N'importe quel musulman informé peut la remplir. Le mot a un sens tout autre dans le chiisme, où il désigne des figures successorales dotées d'une autorité spirituelle éminente.
+
+Une fatwa est un avis juridique donné par un savant qualifié en réponse à une question : c'est une consultation, non une sentence, et elle n'a de force que celle reconnue à son auteur. L'usage médiatique du terme, associé à des condamnations, en donne une image trompeuse. L'enseignement se transmet dans les madrasas, et le droit sunnite s'organise en quatre écoles juridiques principales, dont les divergences portent sur la méthode d'interprétation autant que sur les conclusions.`],
+  ],
+
+  "mr3-christianisme-pratiques": [
+    ["Les sacrements", `Les Églises chrétiennes ne reconnaissent pas le même nombre de sacrements. L'Église catholique en compte sept — baptême, confirmation, eucharistie, pénitence, onction des malades, ordre, mariage — nombre fixé au Moyen Âge et confirmé au concile de Trente. Les Églises orthodoxes en reconnaissent également sept, avec des variantes. Les Églises issues de la Réforme n'en retiennent généralement que deux, le baptême et la Cène, au motif que seuls ceux-là sont institués explicitement dans les Évangiles.
+
+Le baptême est le rite d'entrée dans la communauté chrétienne par l'eau, pratiqué selon les traditions sur les nourrissons ou seulement sur les adultes ayant fait profession de foi. L'eucharistie commémore la Cène par le pain et le vin ; son interprétation — présence réelle, symbole, consubstantiation — a été l'un des points de rupture majeurs de la Réforme.`],
+    ["Le calendrier", `Le carême est une période de quarante jours de préparation à Pâques, marquée par le jeûne et l'aumône, dont la durée renvoie aux quarante jours du Christ au désert. Il commence le mercredi des Cendres, précédé du carnaval — dont le nom signifie littéralement l'adieu à la viande.
+
+Deux fêtes suivent Pâques à date fixe par rapport à elle. L'Ascension commémore l'élévation du Christ au ciel quarante jours après Pâques ; la Pentecôte, cinquante jours après, la descente de l'Esprit saint sur les apôtres, considérée comme l'acte de naissance de l'Église. Ces fêtes mobiles expliquent que le calendrier des jours fériés français varie chaque année.`],
+    ["Croire et célébrer", `Le Credo est une profession de foi qui énonce les articles essentiels de la doctrine : il a été formulé lors des premiers conciles précisément pour trancher des débats, ce qui explique la précision de certaines formules apparemment redondantes.
+
+La liturgie est l'organisation réglée du culte public : ordre des lectures, prières, chants, gestes. Son évolution est un enjeu récurrent — Vatican II a autorisé la célébration en langue vernaculaire, réforme majeure qui a durablement divisé, une minorité restant attachée à la messe en latin selon le rite antérieur.`],
+    ["Vivre à part", `Un ordre monastique contemplatif est voué à la prière et au retrait du monde, par opposition aux ordres actifs qui enseignent, soignent ou prêchent. Cette distinction structure la vie religieuse catholique depuis le Moyen Âge, et les deux formes ont connu des rapports tendus — les ordres mendiants ayant bousculé les monastères établis au XIIIe siècle.
+
+Le célibat ecclésiastique dans l'Église catholique latine est une discipline imposée aux prêtres, et non un dogme : c'est une règle qui pourrait être modifiée sans toucher à la doctrine. Elle ne s'applique d'ailleurs pas aux Églises catholiques orientales ni aux Églises orthodoxes, où les prêtres de paroisse peuvent être mariés — seuls les évêques y sont choisis parmi les moines.`],
+  ],
+
+  "mr3-orthodoxie": [
+    ["Sans centre unique", `L'orthodoxie est composée d'Églises autocéphales, sans autorité centrale unique : une Église autocéphale est indépendante et dirigée par son propre primat, patriarche ou archevêque. Il n'existe pas d'équivalent orthodoxe du pape.
+
+Le patriarche œcuménique de Constantinople détient une primauté d'honneur — le premier parmi ses pairs — mais aucune juridiction sur les autres Églises. Cette structure explique à la fois la souplesse de l'orthodoxie et sa vulnérabilité aux tensions nationales, chaque Église étant étroitement liée à un État ou à une nation. L'Église orthodoxe russe compte de loin le plus grand nombre de fidèles.`],
+    ["La liturgie", `La Divine Liturgie est la célébration eucharistique principale, d'une durée souvent supérieure à deux heures, chantée intégralement et sans instruments — la voix humaine seule est admise dans la tradition byzantine.
+
+L'iconostase sépare le sanctuaire de la nef ; ses portes centrales, dites royales, ne s'ouvrent qu'à certains moments de la liturgie, ce qui rythme la célébration par des dévoilements successifs. Le fidèle ne voit pas tout, et cette économie du visible fait partie du sens : le mystère est ce qui se dérobe.`],
+    ["La prière du cœur", `L'hésychasme est une tradition mystique orthodoxe centrée sur la prière du cœur : la répétition continue d'une brève invocation, associée au souffle, jusqu'à ce qu'elle devienne incessante. Développée au mont Athos, elle a fait l'objet au XIVe siècle d'un débat théologique majeur sur la possibilité de percevoir les énergies divines.
+
+Le mont Athos, presqu'île grecque, est le centre monastique de l'orthodoxie : une vingtaine de monastères y forment une république autonome, interdite aux femmes depuis plus de mille ans. Sur le plan doctrinal, la théologie apophatique — définir Dieu par ce qu'il n'est pas — occupe dans l'orthodoxie une place plus centrale qu'en Occident : on dit ce que Dieu n'est pas, parce que toute affirmation positive le limiterait.`],
+    ["Le calendrier et la crise", `Certaines Églises orthodoxes fêtent Noël le 7 janvier parce qu'elles suivent le calendrier julien pour les fêtes fixes : l'écart avec le calendrier grégorien atteint aujourd'hui treize jours. D'autres Églises ont adopté un calendrier révisé, ce qui a provoqué des schismes internes chez les partisans de l'ancien comput.
+
+La crise la plus grave du monde orthodoxe contemporain porte sur l'Ukraine : la reconnaissance en 2019 d'une Église orthodoxe ukrainienne autocéphale par le patriarcat de Constantinople a provoqué la rupture de communion du patriarcat de Moscou avec lui. Le conflit, canonique en apparence, est indissociable de la guerre et de la question nationale ukrainienne.`],
+  ],
 };
