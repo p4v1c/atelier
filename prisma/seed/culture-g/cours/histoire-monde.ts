@@ -145,4 +145,141 @@ En mer du Nord et en Baltique, la Hanse regroupe à partir du XIIIe siècle des 
 
 Deux percements raccourcissent ensuite le monde : le canal de Suez, ouvert en 1869, supprime le contournement de l'Afrique ; le canal de Panama, ouvert en 1914, relie l'Atlantique au Pacifique. Mais l'innovation du XXe siècle qui a le plus transformé le transport maritime n'est ni un canal ni un navire : c'est le conteneur normalisé, qui a fait s'effondrer le coût de la manutention et rendu la production mondialement fragmentée.`],
   ],
+
+  "hm2-mesopotamie": [
+    ["Le pays entre les fleuves", `La Mésopotamie — le mot grec signifie « entre les fleuves » — désigne la plaine du Tigre et de l'Euphrate, dans l'actuel Irak. Sa fertilité ne doit rien à la pluie, très faible, et tout à l'irrigation organisée à grande échelle.
+
+C'est ce point qui explique tout le reste. Creuser et entretenir des canaux, répartir l'eau entre les champs, arbitrer les conflits d'usage, stocker les récoltes supposent une coordination durable, un pouvoir capable de l'imposer et une comptabilité pour en garder trace. La cité, l'État et l'écriture naissent ensemble de cette contrainte hydraulique.
+
+Une précision d'échelle est nécessaire : Sumer, Akkad, Babylone et l'Assyrie ne sont pas des voisins mais des époques successives sur le même territoire, réparties sur près de trois millénaires. Confondre leur chronologie est l'erreur la plus fréquente sur le sujet.`],
+    ["Écrire et compter", `Les Sumériens inventent l'écriture cunéiforme vers 3300 avant notre ère. Elle naît de la comptabilité : les premières tablettes enregistrent des quantités de grain, de bétail et de bière, et non des poèmes ou des lois.
+
+Le support est l'argile locale, marquée par un calame taillé en biseau qui laisse des empreintes en forme de coins — d'où le nom. Cette écriture note d'abord des choses, puis des sons, ce qui la rend adaptable : elle servira à noter plusieurs langues sans parenté, sumérien, akkadien, hittite, perse.
+
+Sa fragilité apparente est en réalité une chance pour les historiens : l'argile cuite se conserve indéfiniment, et les incendies qui détruisaient les archives sur papyrus ont cuit et sauvé celles de Mésopotamie. Des centaines de milliers de tablettes ont été retrouvées.
+
+Le système de numération est sexagésimal, en base soixante. Il s'est transmis jusqu'à nous par l'astronomie grecque : nos soixante minutes, nos soixante secondes et nos trois cent soixante degrés sont un héritage direct des scribes mésopotamiens.`,
+      { image: "hm-tablette-cuneiforme", legende: "Une tablette cunéiforme : l'écriture naît de la comptabilité des grains, non de la littérature.", alt: "Tablette d'argile couverte d'écriture cunéiforme" }],
+    ["Les empires successifs", `Sargon d'Akkad fonde vers 2300 avant notre ère ce qu'on considère comme le premier empire connu : il soumet les cités sumériennes, unifie un territoire allant du Golfe à la Méditerranée, impose une langue administrative et nomme des gouverneurs. Sa dynastie durera moins de deux siècles, mais elle fournit un modèle que tous ses successeurs reprendront.
+
+Hammurabi, roi de Babylone, fait graver vers 1750 avant notre ère un code de lois sur une stèle de basalte de plus de deux mètres. Ses quelque deux cent quatre-vingts articles règlent le commerce, la famille, le travail, les honoraires et les peines. Le principe du talion y figure — œil pour œil — mais modulé selon le statut social : une même blessure ne se compense pas de la même façon selon qu'elle atteint un homme libre ou un esclave.
+
+Ce n'est pas le plus ancien recueil de lois connu, mais c'est le plus complet et le seul conservé intégralement — la stèle, emportée comme butin par les Élamites, a été retrouvée à Suse en 1901.
+
+Assurbanipal, roi assyrien du VIIe siècle, constitue à Ninive une bibliothèque de plusieurs dizaines de milliers de tablettes, réunies systématiquement dans tout l'empire. C'est là qu'a été retrouvée l'*Épopée de Gilgamesh*, dont le récit du déluge présente des parallèles frappants avec le texte biblique.`],
+    ["Babylone et sa fin", `Babylone est la cité la plus célèbre de Mésopotamie, et celle dont l'image est la plus déformée. Ses jardins suspendus figurent parmi les sept merveilles du monde antique ; aucune trace archéologique n'en a jamais été trouvée, aucun texte babylonien ne les mentionne, et plusieurs spécialistes les situent à Ninive, chez les Assyriens.
+
+Nabuchodonosor II, au VIe siècle avant notre ère, y fait construire la porte d'Ishtar aux briques émaillées bleues. Il prend Jérusalem, détruit le Temple et déporte les élites judéennes en 587 avant notre ère — l'exil à Babylone, épisode fondateur du judaïsme, pendant lequel une part importante des textes bibliques prend sa forme.
+
+L'indépendance de Babylone prend fin en 539 avant notre ère : Cyrus, roi de l'Empire perse achéménide, s'empare de la ville presque sans combat. Il autorise les déportés à rentrer et à reconstruire leur temple, geste rapporté à la fois par la Bible et par le cylindre de Cyrus.
+
+La Mésopotamie cesse alors d'être un centre politique autonome. Elle a légué à l'humanité l'écriture, la ville, le droit écrit, l'astronomie et la division du temps — un héritage dont on mesure mal l'ampleur parce qu'il est devenu invisible à force d'être ordinaire.`],
+  ],
+
+  "hm2-egypte-pharaonique": [
+    ["Trois millénaires", `L'Égypte pharaonique s'étend sur plus de trois mille ans, de l'unification vers 3100 avant notre ère à la conquête romaine en 30 avant notre ère. Cette durée est difficile à concevoir : Cléopâtre est plus proche de nous dans le temps que de la construction de la grande pyramide.
+
+Narmer unifie la Haute et la Basse-Égypte selon la tradition — la palette qui porte son nom le montre coiffé successivement des deux couronnes. Cette dualité restera inscrite dans la titulature royale pendant trois millénaires : le pharaon est toujours celui des Deux Terres.
+
+L'histoire égyptienne se découpe en trois grandes périodes de stabilité — Ancien, Moyen et Nouvel Empire — séparées par des périodes intermédiaires de division, d'invasion ou d'effondrement du pouvoir central. Cette alternance est le rythme de fond de l'histoire égyptienne, et elle est comptée par les Égyptiens eux-mêmes en dynasties, découpage transmis par le prêtre Manéthon au IIIe siècle avant notre ère.
+
+Tout repose sur la crue annuelle du Nil, qui déposait le limon fertile et dont la mesure conditionnait l'impôt. Un nilomètre gradué en enregistrait la hauteur, et une crue insuffisante annonçait la disette autant que la contestation du pouvoir.`],
+    ["Bâtir pour l'éternité", `La grande pyramide de Gizeh est édifiée pour Khéops, vers 2560 avant notre ère, à l'Ancien Empire. Haute de cent quarante-six mètres à l'origine, elle est restée le plus haut monument construit par l'homme pendant près de quatre millénaires.
+
+Les théories fantaisistes sur sa construction ne résistent pas aux découvertes récentes : le papyrus de Merer, retrouvé en 2013, est le journal de bord d'un chef d'équipe chargé du transport des blocs de calcaire de Tourah, et il documente l'organisation logistique, les rotations et le ravitaillement. Les bâtisseurs étaient des travailleurs recrutés et nourris, non des esclaves.
+
+Le complexe funéraire répondait à une conception précise de la mort : le tombeau devait préserver le corps et fournir au défunt de quoi subsister éternellement. La momification est la préparation du corps à cette fin, avec extraction des viscères conservés séparément, dessiccation au natron pendant soixante-dix jours, et bandelettes.
+
+Le Livre des Morts n'est pas un livre unique mais un recueil de formules déposé auprès du défunt pour l'aider à franchir les épreuves de l'au-delà, dont la pesée du cœur contre la plume de Maât.`,
+      { image: "myt-pesee-du-coeur", legende: "La pesée du cœur : le défunt est jugé sur ses actes, le cœur pesé contre la plume de la justice.", alt: "Scène de pesée du cœur sur un papyrus égyptien" }],
+    ["Les grands règnes", `Hatchepsout règne comme pharaon au XVe siècle avant notre ère, d'abord comme régente de son beau-fils puis en assumant la titulature royale complète, avec la barbe postiche des représentations officielles. Son règne est prospère et pacifique, marqué par l'expédition commerciale au pays de Pount et par son temple de Deir el-Bahari. Ses images ont été martelées après sa mort, sans qu'on sache avec certitude si l'effacement visait la femme ou la branche dynastique.
+
+Akhenaton, au siècle suivant, tente d'imposer le culte quasi exclusif d'un dieu unique, le disque solaire Aton, ferme les temples des autres divinités et fonde une nouvelle capitale. La rupture est aussi artistique — les représentations deviennent réalistes et intimes. Sa réforme ne lui survit pas : les temples rouvrent, et son nom est effacé des listes royales.
+
+Ramsès II règne soixante-six ans et couvre l'Égypte de monuments, dont Abou Simbel. Il livre aux Hittites la bataille de Qadesh, dont il fait graver partout le récit d'une victoire éclatante ; les archives hittites, retrouvées depuis, en donnent une version différente, et l'issue fut probablement indécise. Le traité conclu ensuite est le plus ancien traité de paix international dont on possède les deux versions.
+
+Toutânkhamon, souverain mineur mort adolescent, doit sa célébrité au fait que son tombeau a été découvert presque intact en 1922 — seul cas connu dans la Vallée des Rois, tous les autres ayant été pillés dès l'Antiquité.`],
+    ["La fin d'un monde", `Après la conquête d'Alexandre en 332 avant notre ère, l'Égypte passe à l'un de ses généraux et à sa descendance : les Lagides, ou Ptolémées, dynastie d'origine macédonienne qui règne près de trois siècles.
+
+Ils gouvernent en pharaons pour les Égyptiens et en rois hellénistiques pour les Grecs, avec deux administrations, deux langues et deux systèmes juridiques. Aucun d'eux n'apprend l'égyptien avant Cléopâtre VII.
+
+Alexandrie devient la capitale intellectuelle du monde méditerranéen. Le Mouseion abrite la bibliothèque la plus célèbre de l'Antiquité, où travaillent Euclide, Ératosthène et Archimède. Sa destruction n'est pas un événement unique mais une série de dégradations étalées sur des siècles.
+
+Cléopâtre VII, dernière souveraine indépendante, joue sa survie sur les guerres civiles romaines : alliée de César, puis de Marc Antoine. La défaite navale d'Actium, en 31 avant notre ère, scelle leur sort. L'Égypte est annexée par Rome et devient une province impériale au statut particulier, propriété personnelle de l'empereur.
+
+Les hiéroglyphes cessent d'être écrits au Ve siècle et leur lecture se perd pendant treize siècles. Jean-François Champollion les déchiffre en 1822, grâce à la pierre de Rosette et à sa connaissance du copte, dernière forme de la langue égyptienne.`],
+  ],
+
+  "hm2-grece-classique": [
+    ["Les guerres médiques", `Le Ve siècle avant notre ère s'ouvre par l'affrontement entre les cités grecques et l'Empire perse, alors la plus grande puissance du monde connu.
+
+À Marathon, en 490, les Athéniens repoussent seuls un corps expéditionnaire perse débarqué à quarante kilomètres de la ville. La légende du coureur annonçant la victoire avant de mourir est une construction tardive, mais elle a donné son nom à l'épreuve olympique moderne.
+
+Dix ans plus tard, Xerxès revient avec des forces considérables. Aux Thermopyles, le roi spartiate Léonidas et son arrière-garde meurent en retardant l'avance perse dans un défilé étroit — épisode dont la valeur militaire fut nulle et la portée symbolique immense.
+
+La bataille navale de Salamine, la même année, décide de la guerre. Thémistocle attire la flotte perse dans un détroit où sa supériorité numérique devient un handicap, et les trières athéniennes l'y détruisent.
+
+Ces victoires ont une conséquence politique majeure à Athènes : la flotte était armée par les citoyens les plus pauvres, qui ne pouvaient s'offrir l'équipement de l'hoplite. Leur rôle décisif dans la victoire justifie leur poids politique croissant.`],
+    ["La démocratie athénienne", `Périclès domine la vie politique athénienne au milieu du Ve siècle, réélu stratège année après année. Sous lui, Athènes achève le Parthénon, développe la démocratie et transforme la ligue de Délos en empire maritime dont elle détourne le trésor.
+
+La démocratie athénienne fonctionne par une assemblée de citoyens qui délibère et vote directement, par un conseil de cinq cents membres tirés au sort, et par des tribunaux populaires. L'essentiel des magistratures est attribué par tirage au sort, l'élection étant réservée aux fonctions techniques comme la stratégie — car l'élection était jugée aristocratique, favorisant les notables.
+
+Une indemnité est versée aux citoyens siégeant dans les tribunaux, pour que les pauvres puissent y participer.
+
+Ce système excluait pourtant la grande majorité des habitants : seuls votaient les citoyens mâles adultes de naissance athénienne, soit environ un habitant sur dix. Femmes, métèques — étrangers résidents, parfois installés depuis des générations — et esclaves n'avaient aucun droit politique.
+
+L'ostracisme permettait à l'assemblée de bannir pour dix ans un citoyen jugé dangereux pour la cité, sans procès ni accusation, par un vote inscrivant son nom sur un tesson de poterie. C'était une soupape contre la tyrannie et un instrument de règlement de comptes.`,
+      { image: "am-parthenon", legende: "Le Parthénon : financé par le trésor de la ligue de Délos, détourné de sa destination militaire.", alt: "Le Parthénon sur l'Acropole d'Athènes" }],
+    ["Athènes et Sparte", `Sparte offre le contre-modèle exact d'Athènes. Sa réputation tient à son organisation militaire et à son éducation collective : les garçons sont retirés à leur famille à sept ans et élevés en commun jusqu'à l'âge adulte, dans un système de dureté délibérée.
+
+Sa société repose sur les hilotes, population asservie qui cultive les terres et permet aux Spartiates de se consacrer entièrement à la guerre. Leur nombre, très supérieur à celui des citoyens, explique la militarisation permanente de la cité — Sparte vivait dans la crainte d'une révolte.
+
+Les femmes spartiates jouissaient en revanche d'une liberté et d'une éducation physique qui scandalisaient les Athéniens.
+
+La guerre du Péloponnèse oppose les deux cités et leurs alliés de 431 à 404 avant notre ère. Thucydide, qui y participa, en a écrit l'histoire et y a fondé une méthode : recherche des causes profondes, souci des sources, refus du merveilleux. Il identifie la cause réelle du conflit dans la crainte inspirée à Sparte par la puissance croissante d'Athènes — analyse toujours citée en relations internationales.
+
+Athènes est vaincue, épuisée par une peste qui emporta Périclès et par l'expédition désastreuse de Sicile.`],
+    ["La fin des cités", `Socrate est condamné à boire la ciguë en 399 avant notre ère, quelques années après la défaite. L'accusation porte sur l'impiété et la corruption de la jeunesse ; le contexte politique compte au moins autant, plusieurs de ses proches ayant participé au régime oligarchique imposé par Sparte.
+
+Il n'a rien écrit, et tout ce qu'on sait de lui vient de Platon, de Xénophon et d'Aristophane, dont les portraits diffèrent. Sa condamnation par un tribunal démocratique a nourri chez Platon une méfiance durable envers la démocratie.
+
+Les cités grecques épuisent leurs forces dans des conflits incessants au IVe siècle, pendant que le royaume de Macédoine se renforce au nord.
+
+La bataille de Chéronée, en 338 avant notre ère, met fin à leur indépendance : Philippe II de Macédoine y écrase une coalition menée par Athènes et Thèbes, avec son fils Alexandre à la tête de la cavalerie. Les cités subsistent comme entités locales sous domination macédonienne.
+
+Ce qu'elles laissent est sans commune mesure avec leur durée : la démocratie comme forme politique, la philosophie, l'histoire critique, le théâtre, la géométrie démonstrative, et un vocabulaire politique que nous employons encore — politique, démocratie, tyrannie, oligarchie, anarchie sont tous grecs.`],
+  ],
+
+  "hm4-perse": [
+    ["Le plus vaste empire de son temps", `Cyrus II fonde l'empire achéménide au milieu du VIe siècle avant notre ère, en soumettant successivement les Mèdes, la Lydie de Crésus et Babylone en 539. Ses successeurs y ajoutent l'Égypte et une partie de l'Inde.
+
+L'empire achéménide fut le plus vaste que le monde ait connu à son époque : de la mer Égée à l'Indus, de l'Égypte à l'Asie centrale, avec peut-être un habitant sur trois de la planète.
+
+Le cylindre de Cyrus est une inscription babylonienne en cunéiforme relatant sa prise de Babylone. Il y présente sa conquête comme une libération voulue par le dieu Marduk, et il annonce la restauration des cultes et le retour des populations déportées.
+
+Ce texte a été qualifié de première déclaration des droits de l'homme, notamment par le régime iranien des années 1970, et cette lecture est anachronique : c'est un document de propagande royale conforme aux usages mésopotamiens. Il n'en reste pas moins qu'il énonce une politique réelle, dont la Bible se fait l'écho en présentant Cyrus comme l'oint du Seigneur.`],
+    ["Administrer l'immense", `Une satrapie est une province de l'empire perse dirigée par un satrape, gouverneur nommé par le roi, chargé de la justice, de l'impôt et de l'ordre. L'empire en comptait une vingtaine.
+
+Le contrôle de ces gouverneurs reposait sur une séparation des pouvoirs : le commandement militaire et la trésorerie relevaient d'officiers distincts, nommés séparément, et des inspecteurs royaux — « les yeux et les oreilles du roi » — parcouraient les provinces.
+
+La route royale reliait Suse à Sardes sur plus de deux mille kilomètres, avec des relais de poste réguliers. Un courrier royal pouvait la parcourir en une semaine, là où un voyageur ordinaire mettait trois mois. Hérodote la décrit avec admiration, et sa phrase sur les messagers que ni la neige ni la pluie n'arrêtent est devenue la devise officieuse de la poste américaine.
+
+Persépolis est la capitale cérémonielle, construite par Darius et ses successeurs. Ses bas-reliefs représentent les délégations des peuples de l'empire apportant leur tribut, chacune identifiable à son costume — image d'un empire qui se conçoit comme une addition de peuples et non comme une nation.`],
+    ["Croire et affronter", `Le zoroastrisme domine la religion de l'empire : fondé sur l'enseignement de Zarathoustra, il oppose un principe de vérité et de lumière à un principe de mensonge, et fait de la vie humaine un combat entre les deux.
+
+Ses éléments — dualisme, jugement individuel après la mort, résurrection, sauveur final — ont probablement influencé le judaïsme pendant la période perse, puis par lui le christianisme et l'islam. Le zoroastrisme survit aujourd'hui dans de petites communautés en Iran et en Inde, chez les Parsis.
+
+L'empire affronte les cités grecques lors des guerres médiques. La bataille de Marathon, en 490, voit un corps expéditionnaire perse repoussé par les Athéniens. Xerxès Ier mène en 480 la seconde guerre médique, avec des forces bien supérieures, et échoue à Salamine puis à Platées.
+
+Ces défaites sont considérables dans la mémoire grecque et marginales à l'échelle de l'empire, qui perd une expédition à sa périphérie occidentale et continue de prospérer un siècle et demi. Le récit qui nous est parvenu est grec, ce qui explique la place démesurée qu'y occupent ces batailles.
+
+L'empire achéménide tombe en 330 avant notre ère devant Alexandre.`],
+    ["Un modèle durable", `L'empire sassanide, du IIIe au VIIe siècle de notre ère, restaure une puissance perse indépendante et devient le rival principal de Rome puis de Byzance. Les deux empires s'affrontent pendant quatre siècles, s'épuisant mutuellement — ce qui explique en partie la rapidité des conquêtes arabes du VIIe siècle, qui trouvent deux adversaires exsangues.
+
+Les Sassanides développent une culture brillante, un droit élaboré, et transmettent au monde islamique une grande partie de la science grecque traduite en pehlevi puis en arabe.
+
+L'héritage perse le plus durable est un modèle d'administration impériale : gouverner un ensemble immense de peuples divers sans chercher à les uniformiser, en respectant les langues, les cultes et les droits locaux, tout en imposant un impôt, une monnaie, un réseau routier et une loyauté au souverain.
+
+Ce modèle sera repris par les Séleucides, par Rome dans une certaine mesure, et par les empires musulmans. Il s'oppose au modèle assyrien de la déportation et de la terreur, et il a probablement été la condition de la durée de l'empire — deux siècles de stabilité pour un ensemble que rien d'autre ne tenait ensemble.`],
+  ],
 };
