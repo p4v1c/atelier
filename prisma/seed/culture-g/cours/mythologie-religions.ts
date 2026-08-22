@@ -623,4 +623,33 @@ Le même texte marque une rupture décisive sur le judaïsme : il récuse l'accu
 
 C'est précisément la distinction que pose le droit français : la liberté de critiquer une religion, ses dogmes et ses institutions est protégée, y compris sous forme satirique ou blasphématoire ; l'injure et la provocation à la haine envers des personnes en raison de leur religion sont sanctionnées. La frontière passe entre les idées, qui se discutent sans limite, et les personnes, qui sont protégées.`],
   ],
+
+  "mr2-mythologie-grecque-dieux": [
+    ["Le partage du monde", `Après avoir renversé les Titans, trois frères se partagent l'univers par tirage au sort. Zeus obtient le ciel et règne sur l'Olympe, roi des dieux, maître de la foudre et garant des serments. Poséidon reçoit la mer et porte l'épithète d'« ébranleur de la terre », les Grecs attribuant les séismes à ses coups de trident — une explication cohérente dans un pays qui tremble souvent. Hadès reçoit le monde des morts, dont il ne sort presque jamais ; son nom désigne à la fois le dieu et le royaume, et les Grecs préféraient l'appeler Plouton, « le riche », par crainte de le nommer.
+
+La terre et l'Olympe restent communs aux trois. Ce partage n'est pas une hiérarchie de dignité mais de domaine : Poséidon conteste à plusieurs reprises l'autorité de son frère, et Hadès n'est pas un dieu du mal — le christianisme opérera plus tard une confusion que la mythologie grecque ignore.`],
+    ["Reconnaître un dieu", `Chaque divinité possède un attribut qui permet de l'identifier dans les représentations, convention indispensable dans un art où les visages sont idéalisés et se ressemblent. Athéna, déesse de la sagesse et de la guerre stratégique — par opposition à Arès, qui incarne la fureur du combat — porte casque, égide et chouette. Aphrodite, déesse de l'amour et de la beauté, va avec la colombe, le miroir et la coquille. Artémis, sœur jumelle d'Apollon, chasse avec arc et croissant de lune.
+
+Cette grammaire visuelle traverse ensuite toute l'histoire de l'art occidental : un tableau du XVIIe siècle se déchiffre encore avec elle, et beaucoup de sculptures antiques n'ont été identifiées que par leurs attributs.`,
+      { type: "tableau", titre: "Douze dieux, leurs domaines, leurs attributs", colonnes: ["Dieu", "Domaine", "Attribut", "Nom romain"], lignes: [
+        ["Zeus", "Ciel, souveraineté", "Foudre, aigle, sceptre", "Jupiter"],
+        ["Héra", "Mariage, femmes", "Paon, diadème", "Junon"],
+        ["Poséidon", "Mer, séismes", "Trident, cheval", "Neptune"],
+        ["Déméter", "Moissons, récoltes", "Épi de blé, torche", "Cérès"],
+        ["Athéna", "Sagesse, guerre stratégique", "Casque, égide, chouette", "Minerve"],
+        ["Apollon", "Lumière, musique, oracles", "Lyre, arc, laurier", "Apollon"],
+        ["Artémis", "Chasse, nature sauvage", "Arc, croissant de lune, biche", "Diane"],
+        ["Arès", "Guerre furieuse", "Lance, casque, vautour", "Mars"],
+        ["Aphrodite", "Amour, beauté", "Colombe, miroir, coquille", "Vénus"],
+        ["Héphaïstos", "Forge, feu", "Marteau, enclume", "Vulcain"],
+        ["Hermès", "Messages, voyageurs, commerce", "Caducée, sandales ailées, pétase", "Mercure"],
+        ["Dionysos", "Vin, extase, théâtre", "Thyrse, vigne, panthère", "Bacchus"],
+      ] }],
+    ["Les dieux du travail et du passage", `Héphaïstos, dieu de la forge et du feu, est le seul Olympien difforme et le seul qui travaille. Boiteux, précipité de l'Olympe dans sa jeunesse selon les versions, il fabrique les armes des dieux, les automates de bronze et le palais des Immortels. Sa place est significative : la mythologie grecque, produite par une société qui méprisait le travail manuel, lui réserve la disgrâce physique tout en lui devant tous ses objets merveilleux.
+
+Hermès, messager des dieux, franchit toutes les frontières — entre l'Olympe et la terre, entre les vivants et les morts qu'il conduit aux Enfers. Il est de ce fait le patron des voyageurs, des commerçants, des orateurs et des voleurs, activités qui ont en commun le passage et la ruse. Ses sandales ailées et son caducée le rendent immédiatement reconnaissable.`],
+    ["Le cycle et le débordement", `Déméter protège les moissons et les récoltes. Son mythe explique les saisons : sa fille Perséphone, enlevée par Hadès, ne lui est rendue qu'une partie de l'année, et la terre se stérilise pendant l'absence. Ce récit fondait les mystères d'Éleusis, culte à initiation dont le contenu est resté secret pendant mille ans — l'un des plus grands silences réussis de l'Antiquité.
+
+Dionysos, associé au vin et à l'extase, occupe une position à part : venu d'ailleurs, arrivé tardivement dans le panthéon, il est le dieu de ce qui déborde. Ses fidèles, les ménades, quittent la cité pour la montagne et la transe. Le théâtre grec naît de son culte, et cette origine n'est pas anecdotique : la tragédie met en scène la perte de contrôle, la démesure et le châtiment, exactement ce que Dionysos incarne. La liste des douze grands dieux a d'ailleurs varié selon les époques et les cités, Hestia lui cédant parfois sa place.`],
+  ],
 };
