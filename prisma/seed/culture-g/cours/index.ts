@@ -15,6 +15,7 @@ import type { LotCours } from "../commun";
 import { COURS_ARTS_MUSIQUE } from "./arts-musique";
 import { COURS_CINEMA_MEDIAS } from "./cinema-medias";
 import { COURS_GASTRONOMIE } from "./gastronomie";
+import { COURS_INSTITUTIONS_ECONOMIE } from "./institutions-economie";
 import { COURS_LANGUE_FRANCAISE } from "./langue-francaise";
 import { COURS_LITTERATURE } from "./litterature";
 import { COURS_MYTHOLOGIE_RELIGIONS } from "./mythologie-religions";
@@ -25,6 +26,7 @@ export const COURS_TOUS: LotCours = {
   ...COURS_ARTS_MUSIQUE,
   ...COURS_CINEMA_MEDIAS,
   ...COURS_GASTRONOMIE,
+  ...COURS_INSTITUTIONS_ECONOMIE,
   ...COURS_LANGUE_FRANCAISE,
   ...COURS_LITTERATURE,
   ...COURS_MYTHOLOGIE_RELIGIONS,
