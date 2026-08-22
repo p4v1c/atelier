@@ -183,5 +183,6 @@ export const FUSIONS_INTERNES: Record<string, string> = {
   "hm4-afrique-royaumes": "hm2-afrique-precoloniale",
   "hm4-imperialismes": "hm2-colonisation",
   "hm4-decolonisations": "hm2-colonisation",
+  "hf4-1789": "hf2-revolution-1789",
 };
 
