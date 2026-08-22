@@ -15,6 +15,7 @@ import { join } from "node:path";
 import { qcm, type QcmPayload } from "../kinds/qcm";
 import type { LessonDocument, LessonVisuel, ModuleBatch, SeedExercise, SeedSkill } from "../types";
 import { SUJETS } from "./index";
+import { CG_NEUF } from "../../../prisma/seed/culture-g";
 
 /**
  * Le contenu du cahier d'origine, tel qu'il est arrivé par la fusion.
@@ -325,9 +326,14 @@ export function chargerContenuCultureG(): ModuleBatch[] {
     skill.exercises = skill.exercises.filter((e) => !vues.has(cleQuestion(e.payload)));
   }
 
+  /* Les notions écrites à la main, qui n'ont pas encore de cours. Elles sont
+     dans un lot à part pour qu'on puisse les retrouver d'un coup d'œil —
+     c'est un chantier en cours, pas un état définitif. Voir
+     prisma/seed/culture-g/RESUME.md. */
   return [
     { id: "cg-lecons", skills: lecons },
     // Un groupe vidé de ses doublons peut tomber sous le minimum jouable.
     { id: "cg-libre", skills: libres.filter((s) => s.exercises.length >= 2) },
+    { id: "cg-neuf", skills: CG_NEUF },
   ];
 }
