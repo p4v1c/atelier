@@ -16,6 +16,7 @@ import { COURS_ARTS_MUSIQUE } from "./arts-musique";
 import { COURS_CINEMA_MEDIAS } from "./cinema-medias";
 import { COURS_GASTRONOMIE } from "./gastronomie";
 import { COURS_GEOGRAPHIE } from "./geographie";
+import { COURS_HISTOIRE_FRANCE } from "./histoire-france";
 import { COURS_INSTITUTIONS_ECONOMIE } from "./institutions-economie";
 import { COURS_LANGUE_FRANCAISE } from "./langue-francaise";
 import { COURS_LITTERATURE } from "./litterature";
@@ -30,6 +31,7 @@ export const COURS_TOUS: LotCours = {
   ...COURS_CINEMA_MEDIAS,
   ...COURS_GASTRONOMIE,
   ...COURS_GEOGRAPHIE,
+  ...COURS_HISTOIRE_FRANCE,
   ...COURS_INSTITUTIONS_ECONOMIE,
   ...COURS_LANGUE_FRANCAISE,
   ...COURS_LITTERATURE,
