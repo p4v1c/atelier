@@ -507,4 +507,78 @@ Deux phénomènes érodent le modèle. Les bloqueurs de publicité empêchent l'
 
 D'autres pays sont allés plus loin — la Suède et la Norvège interdisent toute publicité télévisée destinée aux moins de douze ans. Le débat s'est déplacé vers le numérique, où l'exposition est moins encadrée et où la frontière entre contenu et publicité est brouillée par les recommandations d'influenceurs, ce qui a justifié la loi française de 2023 sur le marketing d'influence.`],
   ],
+
+  "cm2-scenario": [
+    ["Un document qui doit disparaître", `Un scénario n'est pas une œuvre littéraire mais un document de travail destiné à disparaître : personne ne le lira une fois le film terminé. Il doit être lisible, précis et utilisable par des dizaines de professionnels — d'où sa forme normalisée, avec ses indications de lieu, ses actions au présent et ses dialogues centrés.
+
+Le développement passe par plusieurs états. Le synopsis résume l'histoire en une à deux pages. Le traitement en fait un récit détaillé en prose, sans dialogues, qui permet de juger la construction. Vient ensuite la continuité dialoguée, puis le découpage technique, qui transcrit le scénario en plans avec les indications de mise en scène — c'est le passage de l'histoire au tournage. Le storyboard en donne la version dessinée, indispensable pour les scènes complexes ou à effets.`],
+    ["La charpente", `La structure en trois actes — exposition, confrontation, résolution — n'est ni une loi ni une invention hollywoodienne : on la trouve chez Aristote. Sa force est pratique : elle indique où placer les ruptures pour que l'attention ne retombe pas.
+
+Un point de bascule est un événement qui fait basculer l'action dans une nouvelle direction et interdit le retour en arrière : le héros accepte la mission, découvre la trahison, perd ce qu'il protégeait. Les manuels en placent deux, à la fin du premier et du deuxième acte. Ces recettes ont produit autant de bons films que de films interchangeables — elles décrivent une mécanique, elles ne fournissent pas un sujet.`],
+    ["Le prétexte et la transformation", `Un MacGuffin est un objet ou un enjeu qui motive l'intrigue sans importer en lui-même : les documents secrets, la valise, le microfilm. Hitchcock, qui a popularisé le terme, insistait sur le fait que le contenu de la valise n'a aucune importance — seule compte l'énergie que sa poursuite donne au récit.
+
+L'arc narratif de personnage désigne au contraire ce qui compte vraiment : la transformation intérieure du personnage au fil du récit. Un personnage qui traverse l'histoire sans changer laisse un film plat, quelle que soit l'ingéniosité de l'intrigue. La règle admet des exceptions notables — certains héros de série sont précisément définis par leur incapacité à changer.`],
+    ["Adapter, et réécrire", `Une adaptation transpose une œuvre préexistante à l'écran : roman, pièce, bande dessinée, fait divers. La difficulté n'est pas de condenser mais de traduire — un roman dispose de l'intériorité, le cinéma doit la rendre visible. Les adaptations les plus fidèles à la lettre sont souvent les plus infidèles à l'effet.
+
+Le doctorat de script, ou script doctoring, est une réécriture confiée à un scénariste extérieur, le plus souvent non crédité au générique. La pratique est courante et largement invisible : des films à gros budget passent entre les mains de cinq ou six auteurs successifs. Elle explique en partie l'homogénéité de certaines productions, et la difficulté d'y identifier une voix.`],
+  ],
+
+  "cm3-medias-societe": [
+    ["Ce dont on parle", `Les médias ne dictent pas les opinions, mais ils orientent ce dont on parle : c'est la théorie de l'agenda, formulée dans les années 1970. Ils ne réussissent pas à dire aux gens quoi penser, mais très bien à leur dire à quoi penser. Un sujet absent des médias n'existe pas dans le débat public, quelle que soit son importance objective.
+
+Le cadrage médiatique complète cet effet : la manière dont un sujet est présenté oriente son interprétation. Une même mesure économique décrite comme un effort ou comme une ponction produit deux réceptions différentes, sans qu'aucune information ne soit fausse dans l'un ou l'autre cas.`],
+    ["Ce qu'on n'ose plus dire", `La spirale du silence décrit la tendance à taire une opinion que l'on perçoit comme minoritaire, par crainte de l'isolement. L'effet est cumulatif : moins l'opinion s'exprime, plus elle paraît minoritaire, moins elle s'exprime. Il en résulte que le climat d'opinion perçu peut différer sensiblement de l'opinion réelle.
+
+À l'inverse, le modèle de la réception active rappelle que le public n'absorbe pas passivement les messages : il les interprète, les discute, les détourne, en fonction de son milieu et de son expérience. Les études d'audience ont montré qu'un même programme est compris de façons opposées selon les groupes sociaux. L'exposition sélective ajoute un filtre en amont : chacun choisit majoritairement des contenus conformes à ses convictions.`],
+    ["Qui apparaît, et comment", `La question de la représentation des minorités dans les médias ne se réduit pas à un décompte : elle porte autant sur la visibilité que sur la qualité des rôles attribués — protagoniste ou figurant, sujet ou décor, individu ou type.
+
+Le test de Bechdel propose un critère volontairement minimal pour les personnages féminins d'une fiction : deux personnages féminins nommés, qui se parlent, d'autre chose que d'un homme. Il n'évalue pas la qualité d'une œuvre et son auteure ne l'a jamais prétendu ; sa force est de montrer combien d'œuvres échouent à un test aussi rudimentaire. La parité dans le cinéma français reste elle aussi loin d'être atteinte parmi les réalisateurs, malgré des dispositifs incitatifs mis en place ces dernières années.`],
+    ["Les effets, et leur mesure", `Le mouvement MeToo, à partir de 2017, a produit dans l'audiovisuel une vague de témoignages sur les violences sexuelles et les abus de pouvoir. Ses effets institutionnels sont concrets : conditionnement de certaines aides publiques à des formations, cellules d'écoute, coordinateurs d'intimité sur les tournages, réforme des instances professionnelles.
+
+Sur la question plus ancienne de l'influence des médias sur les comportements — violence, consommation, opinions — la recherche conclut à un effet réel mais indirect, médiatisé par de nombreux facteurs : milieu, entourage, prédispositions, contexte d'exposition. Les modèles d'influence directe, du type message reçu égale comportement adopté, ont été abandonnés depuis longtemps, sans que le débat public en tienne toujours compte.`],
+  ],
+  "cm3-son-cinema": [
+    ["Un univers fabriqué", `Le son représente une part considérable de l'expérience du spectateur, souvent inconsciente. La conception sonore d'un film consiste à construire un univers complet et cohérent : chaque lieu a sa signature, chaque objet son grain, et l'ensemble doit sembler naturel alors que tout a été fabriqué.
+
+Le son direct est celui enregistré pendant la prise de vue. Il capte les voix et l'énergie du jeu, mais aussi les avions, les groupes électrogènes et les bruits de plateau : sur un film de fiction, une part importante en sera remplacée. L'ambiance sonore, fond continu qui situe le lieu et l'époque, est presque toujours construite en postproduction à partir de sons enregistrés ailleurs.`],
+    ["Recréer chaque geste", `Le bruitage recrée en studio les sons d'action synchronisés avec l'image : pas, vêtements, portes, vaisselle, coups. Les bruiteurs travaillent avec un stock d'objets sans rapport avec ce qu'on voit — des noix de coco pour des sabots, du cuir froissé pour des ailes, de la fécule pour la neige.
+
+Ce travail n'est pas un supplément de réalisme : c'est une nécessité technique. Les sons captés au tournage sont inutilisables séparément, et le mixage international exige de pouvoir remplacer les dialogues sans perdre le reste. Chaque film doit donc exister sous forme d'une bande sans paroles, où tout le reste est présent.`],
+    ["Où est la source", `Un son hors champ a sa source dans l'univers du film mais hors de l'image : c'est l'un des outils dramatiques les plus économiques, puisqu'il fait exister sans montrer. Une voix off est extérieure à l'espace de la scène — narrateur, pensée, commentaire — et n'est entendue que du spectateur.
+
+Un son subjectif restitue la perception d'un personnage : assourdissement après une explosion, acouphène, battement de cœur amplifié, disparition de tous les bruits sauf un. Il fait basculer le spectateur dans une tête, plus efficacement qu'aucun plan subjectif ne le ferait à l'image.`],
+    ["Le silence, et l'espace", `Le silence au cinéma est un élément de dramaturgie aussi construit que le bruit : le silence absolu n'existe pas dans un film, il est composé — on retire les ambiances, on garde un souffle, une respiration. Placé après une saturation sonore, il produit un effet physique immédiat.
+
+La spatialisation en salle répartit les sons entre des enceintes multiples, autour et au-dessus du public, ce qui permet de placer une source à un endroit précis de l'espace. Toute cette architecture agit largement en dessous du seuil de l'attention consciente : le spectateur croit regarder un film, et une part considérable de ce qu'il ressent lui vient par les oreilles. C'est pourquoi les professionnels disent que le son fait la moitié de l'image.`],
+  ],
+
+  "cm3-cinema-economie-mondiale": [
+    ["Produire n'est pas dominer", `Le cinéma américain domine le marché mondial mais ne produit pas le plus de films : c'est l'Inde qui détient ce record, avec plus de mille cinq cents à deux mille longs métrages par an dans une douzaine de langues. La domination américaine tient à la distribution, au marketing et à l'accès aux écrans, non au volume.
+
+Le Nigeria constitue le troisième pôle mondial en nombre de films, avec une industrie surnommée Nollywood : production très rapide, budgets minimes, diffusion d'abord en vidéo puis en ligne. Le modèle, longtemps ignoré des statistiques officielles, fait vivre des centaines de milliers de personnes. La Chine, elle, a connu la croissance la plus rapide du siècle : de quelques centaines de salles à plus de quatre-vingt mille écrans en vingt ans.`],
+    ["Protéger sa production", `Un quota d'écran oblige les salles à projeter une part minimale de films nationaux. Plusieurs pays l'appliquent — la Corée du Sud lui doit en partie la vitalité de son cinéma — et le dispositif est régulièrement contesté par les États-Unis dans les négociations commerciales.
+
+C'est le sens de l'exception culturelle défendue par la France : le refus de traiter les biens culturels comme des marchandises ordinaires dans les accords de libre-échange. L'argument est qu'un film n'est pas un produit interchangeable et qu'un pays doit pouvoir soutenir sa production sans que cela soit qualifié d'entrave à la concurrence. Le principe a été inscrit dans une convention de l'UNESCO en 2005.`],
+    ["Circuler", `Un accord de coproduction permet à un film de bénéficier des aides de plusieurs pays s'il respecte des critères de participation artistique et technique. La France en a signé des dizaines, ce qui explique la fréquence des mentions de plusieurs pays au générique.
+
+La vente traditionnelle se fait par territoire : un distributeur achète les droits pour un pays donné. Ce marché de droits territoire par territoire est aujourd'hui concurrencé par les plateformes mondiales, qui achètent des droits globaux et court-circuitent les distributeurs locaux. La sortie mondiale simultanée, coordonnée le même jour dans des dizaines de pays, répond à une autre logique : limiter le piratage en supprimant le délai d'attente.`],
+    ["Voir ailleurs", `Un festival de catégorie A est un festival international compétitif reconnu par la fédération internationale des associations de producteurs : Cannes, Berlin, Venise, Locarno, Karlovy Vary et quelques autres. Le label impose des règles — première mondiale des films en compétition, jury international — et confère une visibilité déterminante pour les cinématographies peu distribuées.
+
+Le streaming a eu sur ce point un effet positif rarement souligné : il a élargi l'accès à des cinématographies jusque-là quasi invisibles hors des festivals. Un spectateur français peut voir des films coréens, argentins ou sénégalais qui n'auraient jamais atteint sa salle de quartier — même si la mise en avant algorithmique tend, en sens inverse, à concentrer l'attention sur un petit nombre de titres.`],
+  ],
+
+  "cm3-education-image": [
+    ["Lire une image", `Savoir lire une image s'apprend autant que savoir lire un texte : rien dans une photographie n'est évident, et la sensation d'immédiateté qu'elle produit est précisément ce qui la rend trompeuse. L'éducation à l'image est un apprentissage double — analyser les images reçues, et fabriquer les siennes pour comprendre de l'intérieur les choix qu'elles supposent.
+
+L'analyse de plan en est l'exercice de base : examiner le cadrage, l'échelle, la lumière, la composition, le mouvement et la durée, avant toute interprétation. Le point de vue — la position depuis laquelle l'image est prise — n'est jamais neutre : filmer une manifestation depuis les forces de l'ordre ou depuis le cortège produit deux récits.`],
+    ["Voir ensemble", `École et cinéma, avec ses équivalents pour les collèges et les lycées, fait découvrir aux élèves des films en salle, choisis dans un catalogue exigeant, avec une préparation et un travail en classe. Le dispositif touche chaque année des centaines de milliers d'élèves, et repose sur un principe qui n'est pas négociable pour ses concepteurs : la projection en salle, et non en classe sur un écran.
+
+Le Prix Jean Renoir des lycéens fonctionne autrement : des classes voient les sorties de l'année et décernent un prix, ce qui suppose de débattre, d'argumenter et de choisir collectivement. Un atelier de pratique audiovisuelle complète le dispositif par le geste : réaliser soi-même un film, même très court, apprend en une semaine ce qu'un cours n'obtient pas.`],
+    ["Décoder ce qui nous entoure", `L'analyse ne se limite pas au cinéma. Lire une affiche de film revient à examiner des choix graphiques entièrement stratégiques : ce qui est montré, la taille relative des noms, les couleurs, le genre suggéré. Analyser une une de journal, de même, met au jour une hiérarchie — ce qui occupe la moitié de la page, ce qui est relégué en bas, ce qui est absent.
+
+La manipulation par le cadrage est le procédé le plus simple et le plus répandu : inclure ou exclure des éléments suffit à changer le sens sans rien truquer. Une foule cadrée serrée paraît nombreuse ; la même, cadrée large, paraît clairsemée. Aucune retouche n'a eu lieu.`],
+    ["À tout âge", `L'éducation à l'image concerne tous les âges, parce que la production et la circulation des images évoluent constamment. Les compétences acquises devant la télévision des années 1990 ne suffisent pas devant un flux vertical algorithmique, et celles d'aujourd'hui ne suffiront pas devant les images générées.
+
+Cela déplace l'objectif : il ne s'agit pas d'apprendre une liste de pièges, qui sera périmée, mais d'acquérir des réflexes durables — d'où vient cette image, qui l'a produite, pour quel usage, que ne montre-t-elle pas. Ces quatre questions valent pour une gravure du XVIIe siècle comme pour une vidéo publiée ce matin.`],
+  ],
 };
