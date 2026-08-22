@@ -817,4 +817,120 @@ Le dulce de leche est une confiture de lait sud-américaine, obtenue en chauffan
 
 La pavlova, meringue croustillante à cœur moelleux garnie de crème et de fruits, oppose depuis un siècle l'Australie et la Nouvelle-Zélande, qui en revendiquent chacune l'invention en l'honneur de la ballerine russe. La recherche a tranché en faveur de la Nouvelle-Zélande, sans que le débat s'apaise.`],
   ],
+
+  "ga3-alimentation-sante": [
+    ["De quoi se compose un aliment", `Les macronutriments sont les glucides, les lipides et les protéines : les trois familles qui apportent l'énergie et la matière de construction. Les micronutriments — vitamines, minéraux, oligoéléments — n'apportent pas d'énergie mais sont indispensables au fonctionnement.
+
+Un acide aminé essentiel est un acide aminé que l'organisme ne peut pas synthétiser et qu'il doit donc trouver dans l'alimentation. Ils sont neuf chez l'humain adulte. Une protéine est dite complète lorsqu'elle les contient tous en proportions suffisantes — ce qui est le cas des protéines animales, du soja et du quinoa, et non de la plupart des protéines végétales prises isolément, d'où l'intérêt d'associer céréales et légumineuses.
+
+Un acide gras oméga-3 est un acide gras insaturé essentiel, lui aussi non synthétisable. Les formes à longue chaîne, les plus actives, se trouvent principalement dans les poissons gras ; la forme végétale, présente dans les noix, le colza et le lin, n'est convertie qu'en faible proportion.
+
+Une fibre alimentaire est un glucide non digéré par l'intestin grêle, qui parvient donc intact au côlon où il nourrit le microbiote intestinal — l'ensemble des micro-organismes du tube digestif. Les fibres ne sont pas un simple lest : elles ralentissent l'absorption des sucres, régulent le transit et fournissent le substrat d'une flore dont le rôle sur l'immunité et le métabolisme est de mieux en mieux documenté.`],
+    ["Des repères plutôt que des règles", `Les besoins nutritionnels varient selon l'âge, l'activité et l'état de santé : un adolescent en croissance, une femme enceinte, un sportif d'endurance et une personne âgée n'ont ni les mêmes apports recommandés ni les mêmes risques de carence. Toute recommandation générale est donc une moyenne, utile pour orienter et insuffisante pour prescrire.
+
+L'indice glycémique mesure la vitesse d'élévation de la glycémie après consommation d'un aliment, par rapport à une référence. Il nuance la vieille opposition entre sucres lents et sucres rapides, qui reposait sur la longueur des molécules et s'est révélée fausse : une purée de pomme de terre élève la glycémie plus vite que du sucre de table. Il ne s'applique cependant pas à un aliment isolé de son repas, la présence de fibres, de graisses et de protéines ralentissant considérablement l'absorption.
+
+Le régime méditerranéen — abondance de végétaux, légumineuses, huile d'olive, poisson, peu de viande rouge et de produits transformés — reste le mode alimentaire le mieux soutenu par les données épidémiologiques, avec des bénéfices cardiovasculaires confirmés par au moins un grand essai contrôlé.`],
+    ["Le degré de transformation", `Un aliment ultra-transformé est un produit issu de procédés industriels et contenant des ingrédients d'usage non domestique : isolats de protéines, amidons modifiés, arômes, émulsifiants, colorants.
+
+La classification NOVA range les aliments selon leur degré de transformation, en quatre groupes, et non selon leur composition nutritionnelle. C'est ce qui la rend originale et discutée : deux produits de composition analogue peuvent être classés différemment, et l'on a reproché à cette approche son imprécision. Les données épidémiologiques accumulées depuis dix ans lui ont néanmoins donné une utilité prédictive réelle, une consommation élevée d'ultra-transformés étant associée à plusieurs pathologies chroniques indépendamment de la composition nutritionnelle.
+
+Le Nutri-Score, lui, est un étiquetage nutritionnel simplifié à cinq classes, de A à E, calculé à partir de la composition pour cent grammes : il pénalise énergie, sucres, graisses saturées et sel, et valorise fibres, protéines, fruits et légumes. Il est efficace pour comparer deux produits d'une même catégorie et sert mal à comparer des catégories différentes. Les deux outils sont donc complémentaires et répondent à des questions distinctes : l'un dit ce que contient l'aliment, l'autre comment il a été fabriqué.`],
+  ],
+
+  "ga3-agriculture-alimentation": [
+    ["Ce qui se décide avant l'assiette", `Le contenu de l'assiette dépend de choix agricoles faits en amont : la variété semée, le mode de culture, le calibre exigé par l'acheteur, la race élevée. Le consommateur choisit dans un ensemble déjà largement déterminé par des décisions prises des mois ou des années plus tôt.
+
+L'agriculture biologique est un mode de production excluant les produits chimiques de synthèse — engrais et pesticides — ainsi que les organismes génétiquement modifiés, avec un cahier des charges européen et une certification par organisme tiers. Elle n'est pas définie par des objectifs de résultat mais par des moyens autorisés ou interdits, ce qui explique certains débats — le cuivre, minéral naturel mais persistant dans les sols, y reste autorisé.
+
+L'agroécologie procède d'une autre logique : elle mobilise les processus écologiques dans la production elle-même — fertilité biologique du sol, régulation naturelle des ravageurs, diversité des cultures, associations végétales. Ce n'est pas un label mais une démarche, qui peut être conduite en bio comme en conventionnel.`],
+    ["Les signes de qualité", `Une AOP, appellation d'origine protégée, lie un produit à un terroir et à un savoir-faire : toutes les étapes de production, de transformation et d'élaboration doivent avoir lieu dans l'aire délimitée, et les qualités du produit doivent être dues à ce milieu. C'est le signe le plus exigeant.
+
+Une IGP, indication géographique protégée, est moins contraignante : il suffit qu'une seule étape ait lieu dans l'aire, et le lien au territoire peut reposer sur une réputation plutôt que sur des caractéristiques du milieu. Un jambon peut ainsi être séché sous IGP dans une région à partir de porcs élevés ailleurs.
+
+Le Label rouge est un signe français d'un ordre différent : il n'atteste aucune origine mais une qualité gustative supérieure, établie par comparaison à un produit courant et vérifiée par des tests. Un poulet Label rouge se définit par une souche à croissance lente, une durée d'élevage minimale et un accès au plein air.
+
+Le commerce équitable garantit aux producteurs un prix minimum couvrant les coûts de production, une prime de développement collective et des relations contractuelles durables. Il concerne surtout les filières d'importation — café, cacao, banane — où le rapport de force est le plus défavorable.`],
+    ["Vendre autrement, et le cadre commun", `Un circuit court est une vente comportant au plus un intermédiaire — critère qui porte sur le nombre d'intermédiaires et non sur la distance parcourue.
+
+Une AMAP, association pour le maintien d'une agriculture paysanne, repose sur un engagement réciproque : les consommateurs souscrivent à l'avance pour une saison entière et reçoivent chaque semaine une part de la récolte, quelle qu'elle soit. Le producteur obtient une trésorerie et une visibilité qui le libèrent du marché ; les consommateurs partagent le risque climatique. C'est une inversion complète de la relation commerciale ordinaire.
+
+La politique agricole commune couvre l'agriculture de l'Union européenne. Créée en 1962 pour garantir l'autosuffisance alimentaire d'un continent qui sortait des pénuries, elle a atteint cet objectif au point de produire des excédents, puis s'est réorientée vers le soutien au revenu et, plus récemment, vers des conditions environnementales. Elle représente encore une part majeure du budget européen, et chaque réforme est un arbitrage entre revenu agricole, prix pour le consommateur et exigences écologiques.
+
+L'enjeu majeur reste celui que la FAO formule depuis des décennies : nourrir tous les humains sans épuiser les ressources qui permettront de nourrir les suivants.`],
+  ],
+
+  "ga3-restauration-metiers": [
+    ["La brigade d'Escoffier", `Auguste Escoffier a organisé la cuisine professionnelle en brigade hiérarchisée, à la fin du XIXe siècle, en s'inspirant explicitement de l'organisation militaire qu'il avait connue. Avant lui, une cuisine de grande maison était un ensemble bruyant où chacun préparait un plat de bout en bout, avec des redondances et des à-coups.
+
+La brigade répartit le travail non par plat mais par technique et par famille de préparations. Chaque chef de partie dirige un poste spécifique : le saucier prépare les sauces et souvent les plats mijotés — poste le plus prestigieux de la brigade classique ; le garde-manger s'occupe des préparations froides, des découpes et des entrées ; l'entremétier des légumes et des potages ; le poissonnier, le rôtisseur, le pâtissier tiennent leur domaine.
+
+Le gain est celui de toute division du travail : spécialisation, parallélisation, régularité. Un plat traverse plusieurs postes qui travaillent simultanément, ce qui permet de servir cent couverts en une heure. Escoffier a aussi imposé la discipline, la sobriété et le silence dans des cuisines qui en manquaient — la profession lui doit une part de sa respectabilité.`],
+    ["La salle", `Le service en salle constitue une hiérarchie parallèle, dirigée par le maître d'hôtel. Son rôle dépasse l'accueil : il organise le rang des tables, cadence l'envoi des plats en liaison avec la cuisine, gère les incidents et forme le personnel. Un service se juge autant à sa fluidité invisible qu'à sa courtoisie.
+
+Le sommelier conseille et sert les vins, construit la carte, gère la cave et les achats. Le métier suppose une connaissance des vins mais aussi des accords, du budget du client et de la carte du chef — un sommelier qui impose ses préférences échoue.
+
+Ces métiers de salle ont longtemps souffert d'un déficit de reconnaissance face à la cuisine, dont la médiatisation a fait la vedette. Le déséquilibre s'est accentué avec les émissions culinaires, qui montrent presque exclusivement les cuisines, et il pèse sur le recrutement.`],
+    ["Se former, se distinguer", `Le CAP cuisine est le diplôme professionnel de niveau initial, préparé en deux ans après la troisième ou en un an après un autre diplôme, souvent en apprentissage. Il reste la porte d'entrée principale du métier, complétée par des bacs professionnels, des brevets professionnels et des mentions complémentaires.
+
+Le concours Meilleur Ouvrier de France distingue l'excellence dans les métiers manuels, tous domaines confondus. Ce n'est pas un classement mais un examen : tous les candidats atteignant le niveau exigé sont reçus, et il arrive qu'aucun ne le soit. Le col bleu-blanc-rouge qui en résulte est protégé, et son usurpation sanctionnée.
+
+Le Bocuse d'Or, créé en 1987 par Paul Bocuse, est un concours international de cuisine organisé tous les deux ans à Lyon, après des sélections continentales. Sa singularité est d'avoir donné à la cuisine le format d'une compétition sportive — équipes nationales, entraînement de plusieurs mois, épreuve chronométrée devant un public.
+
+Le secteur connaît malgré ces attraits des tensions durables de recrutement, liées aux conditions de travail : horaires en coupure, travail le soir et le week-end, pénibilité physique, rémunérations d'entrée modestes. La crise sanitaire a accéléré des départs et obligé une partie de la profession à revoir l'organisation du travail.`],
+  ],
+
+  "ga3-histoire-repas": [
+    ["Des mots qui ont glissé", `Le nombre et l'heure des repas ont changé plusieurs fois au cours de l'histoire, et le vocabulaire en garde la trace.
+
+Le déjeuner désignait à l'origine le repas rompant le jeûne de la nuit — le mot le dit littéralement, comme l'anglais *breakfast*. Le dîner désignait quant à lui le repas du milieu de journée, et ce jusqu'au XIXe siècle en France ; le souper fermait la journée. Le glissement de tous ces repas vers des heures plus tardives, avec l'éclairage et le travail urbain, a décalé les mots d'un cran — et la Belgique, la Suisse et le Québec ont conservé l'usage ancien, ce qui explique bien des malentendus.
+
+Le nombre de repas a lui aussi varié : deux repas quotidiens étaient la norme dans une grande partie de l'Europe médiévale, le troisième s'ajoutant à mesure que la journée de travail s'allongeait et que le petit-déjeuner s'installait.`],
+    ["Manger dehors", `Le banquet grec, ou symposion, mêlait boisson, conversation et divertissement : les convives, allongés, buvaient du vin coupé d'eau selon des proportions décidées collectivement, écoutaient de la musique et discutaient. C'était une institution masculine et codifiée, dont Platon a fait le cadre d'un de ses dialogues — la sociabilité y comptait autant que la nourriture, servie plus tôt et à part.
+
+Les restaurants apparaissent à Paris à la fin du XVIIIe siècle, et la Révolution favorise leur essor en libérant les cuisiniers des grandes maisons. Le café, installé plus tôt, est devenu au XVIIIe siècle un lieu de sociabilité et de discussion intellectuelle : on y lisait les gazettes, on y débattait, et la police y plaçait des indicateurs — le Procope a vu passer Voltaire, Diderot et les révolutionnaires.
+
+Un bouillon parisien est un restaurant populaire du XIXe siècle servant une cuisine simple à bas prix, avec un service rapide et une salle immense. Né pour nourrir les ouvriers et les employés des Halles, le genre a laissé des salles Art nouveau remarquables, et connaît depuis quelques années une renaissance commerciale.`],
+    ["Le repas comme lien", `La commensalité est le fait de partager un repas, envisagé comme un lien social. Le mot dit l'essentiel : *cum mensa*, avec la table. Toutes les sociétés connues ritualisent le repas partagé, et le refus de manger avec quelqu'un est partout un signal fort.
+
+Le repas gastronomique des Français a été inscrit en 2010 au patrimoine culturel immatériel de l'humanité. Ce qui est reconnu n'est ni une cuisine ni une liste de plats, mais une pratique sociale : le choix des mets, l'accord des vins, la mise en table, la succession codifiée apéritif, entrée, plat, fromage, dessert, et la conversation qui l'accompagne. C'est le rituel qui est protégé, non la recette.
+
+L'évolution récente va pourtant dans un autre sens : une déstructuration partielle du repas au profit de prises alimentaires plus courtes, plus individuelles et plus dispersées dans la journée. La France y résiste mieux que la plupart des pays comparables — la synchronisation des repas y reste remarquable, avec un pic de population attablée à des heures très concentrées — mais le mouvement est réel, particulièrement chez les jeunes actifs urbains.`],
+  ],
+
+  "ga3-terroirs-france-3": [
+    ["Le Nord et l'Est", `Chaque région française revendique des produits et des plats identitaires, et l'Alsace en offre le répertoire le plus reconnaissable. La choucroute y associe le chou fermenté — technique de conservation venue d'Europe centrale — aux salaisons et pommes de terre. La tarte flambée, ou *flammekueche*, est une pâte très fine garnie de crème, d'oignons et de lardons, cuite quelques minutes dans un four à pain très chaud : elle utilisait à l'origine la chaleur résiduelle du four et servait à en tester la température.
+
+Ces deux plats illustrent une constante des cuisines régionales : ce sont des préparations d'économie devenues emblèmes. Le chou fermenté conservait la seule verdure disponible en hiver ; la tarte flambée utilisait ce qui restait de pâte et une chaleur qui serait perdue.`],
+    ["L'Ouest et le Sud-Ouest", `La Bretagne se reconnaît à la galette de sarrasin et au far. Le sarrasin n'est pas une céréale mais une polygonacée, cultivable sur des sols pauvres et acides où le blé échouait, ce qui explique son implantation bretonne ; sa farine sans gluten donne une pâte non levée, d'où la galette. Le far est un flan épais, à l'origine sans pruneaux, dont le nom vient du latin désignant une bouillie de céréales.
+
+Le cassoulet est emblématique du Languedoc, avec une rivalité durable entre Castelnaudary, Carcassonne et Toulouse, chacune revendiquant sa version et son ordre d'ingrédients. Sa base commune est le haricot blanc mijoté longuement avec des viandes de porc et de volaille, et la croûte qu'on enfonce plusieurs fois pendant la cuisson.
+
+La piperade basque associe piment doux, poivrons, tomates et oignons, souvent liés à l'œuf. Le piment d'Espelette y joue le rôle que le poivre tient ailleurs — le Pays basque n'ayant jamais eu accès facilement au poivre importé, il a adopté un piment américain devenu son signe distinctif.`],
+    ["Le Massif central et les Alpes", `L'aligot vient de l'Aubrac, à cheval sur l'Aveyron et la Lozère : une purée de pomme de terre travaillée avec de la tomme fraîche jusqu'à obtenir une masse filante qu'on tire à la spatule. Il était servi aux pèlerins par les moines de l'Aubrac, à l'origine à base de pain, la pomme de terre l'ayant remplacé plus tard.
+
+La fondue savoyarde associe fromages fondus, vin blanc et pain. Sa version actuelle doit beaucoup à la promotion des sports d'hiver et à des campagnes de l'union suisse du fromage dans les années 1930 — plat de partage idéal pour une clientèle touristique, il a été codifié bien après ses ancêtres paysans.
+
+Ce que ces exemples ont en commun mérite d'être formulé : la diversité des cuisines régionales françaises s'explique par la variété des climats, des sols et des histoires locales, mais aussi par le fait que la France est restée longtemps un pays de terroirs mal reliés. Chaque bassin devait vivre de ce qu'il produisait, ce qui a figé des répertoires distincts que le chemin de fer, puis le tourisme, ont ensuite transformés en identités revendiquées.`],
+  ],
+
+  "ga3-alimentation-futur": [
+    ["Le poids de l'assiette", `L'alimentation représente environ un quart des émissions mondiales de gaz à effet de serre, si l'on comptabilise l'ensemble du système : production agricole, changement d'usage des sols, transformation, transport, distribution et déchets. C'est comparable au secteur de l'énergie domestique, et davantage que l'ensemble du transport de personnes.
+
+L'élevage bovin y occupe une place particulière : la fermentation entérique de leur rumen produit du méthane, gaz à effet de serre dont le pouvoir de réchauffement à vingt ans est plusieurs dizaines de fois supérieur à celui du CO₂. Sa durée de vie atmosphérique est en revanche courte — une douzaine d'années —, ce qui a une conséquence importante : stabiliser les effectifs de ruminants stabilise leur contribution au réchauffement, quand le CO₂ s'accumule indéfiniment.
+
+Le levier qui réduit le plus l'empreinte d'une alimentation est la réduction de la part des produits animaux, en particulier de la viande de ruminant. Les autres leviers — saisonnalité, réduction du gaspillage, limitation des produits transportés par avion — comptent, mais d'un ordre de grandeur inférieur.`],
+    ["D'autres sources de protéines", `Une protéine alternative est une source de protéines destinée à remplacer tout ou partie de la viande.
+
+Les légumineuses en constituent la voie la plus immédiate et la mieux établie : riches en protéines, elles fixent en outre l'azote de l'air grâce à leurs bactéries symbiotiques, ce qui réduit les besoins en engrais et améliore le sol pour la culture suivante. Elles cumulent donc l'intérêt nutritionnel et l'intérêt agronomique, et leur consommation a fortement baissé en France au XXe siècle — le potentiel de progression est là.
+
+Les insectes comestibles d'élevage sont autorisés en Europe depuis 2021 pour quelques espèces. Leur efficacité de conversion alimentaire est excellente et leur empreinte faible, mais l'acceptabilité culturelle reste le principal obstacle en Europe, et les usages actuels portent surtout sur l'alimentation animale.
+
+La viande cultivée est produite à partir de cellules animales multipliées en bioréacteur, sans abattage. Autorisée à la vente dans quelques pays, elle reste au stade des volumes anecdotiques et des coûts très élevés ; son bilan environnemental dépendra entièrement de l'énergie utilisée pour les cultures cellulaires, point encore incertain.`],
+    ["Produire autrement, et pour tous", `L'agriculture urbaine désigne la production alimentaire en ville ou à sa périphérie : toitures, friches, fermes verticales, jardins partagés. Elle raccourcit les circuits, recrée un lien alimentaire et participe à la végétalisation, sans pouvoir couvrir les besoins d'une métropole — les surfaces disponibles sont sans commune mesure avec les surfaces agricoles nécessaires.
+
+La culture hors sol se pratique sur substrat inerte ou en solution nutritive, avec un contrôle précis de l'eau et des nutriments. Elle économise l'eau et l'espace et permet de produire hors saison, au prix d'une consommation énergétique importante si elle est chauffée et éclairée. Son bilan dépend donc entièrement du mix énergétique et de la culture concernée.
+
+La FAO définit enfin la sécurité alimentaire comme l'accès de tous, à tout moment, à une nourriture suffisante, saine et adaptée à leurs besoins et à leurs préférences culturelles, pour mener une vie active et saine. Cette définition, adoptée en 1996, mérite d'être lue en entier : elle ne parle pas seulement de calories mais aussi de qualité sanitaire, de régularité de l'accès et d'acceptabilité culturelle. C'est ce qui la rend exigeante — et c'est à cette aune, plutôt qu'au tonnage produit, que se mesure la réussite d'un système alimentaire.`],
+  ],
 };
