@@ -459,4 +459,134 @@ Ses conséquences sont durables et tiennent à l'expérience d'un enfant. Louis 
 
 Versailles, l'absence de premier ministre après 1661 et la domestication de la haute noblesse découlent directement de ces cinq années.`],
   ],
+
+  "hf2-louis-xiv": [
+    ["Gouverner seul", `Le règne personnel de Louis XIV commence en 1661, à la mort de Mazarin. Le roi a vingt-deux ans et annonce à ses ministres stupéfaits qu'il gouvernera sans premier ministre — décision qu'il tiendra pendant cinquante-quatre ans.
+
+Son premier acte est spectaculaire : l'arrestation de Nicolas Fouquet, surintendant des finances, quelques semaines après la fête somptueuse que celui-ci avait donnée à Vaux-le-Vicomte. Le motif officiel est la malversation, réelle mais banale à l'époque ; le motif politique est plus clair — Fouquet avait un réseau, une place forte et une fortune supérieure à celle du roi. Il mourra après dix-neuf ans de forteresse, et Louis XIV emploiera son architecte, son décorateur et son jardinier pour Versailles.
+
+Le règne dure soixante-douze ans, le plus long de l'histoire européenne. Cette durée est en soi un facteur politique : le roi a survécu à ses ministres, à ses généraux, à son fils et à son petit-fils, et il a formé plusieurs générations de serviteurs.`],
+    ["Les instruments du règne", `Colbert organise le mercantilisme français : puisque la quantité de métal précieux dans le monde est considérée comme fixe, l'enrichissement d'un État suppose de vendre plus qu'il n'achète. D'où le protectionnisme douanier, l'encouragement des manufactures royales — Gobelins, Saint-Gobain, Beauvais —, la réglementation minutieuse de la qualité des produits, et le développement de la marine et des compagnies coloniales.
+
+Le système a produit une industrie de luxe durable et une bureaucratie économique dont la France a gardé le goût. Il reposait sur une erreur d'analyse — le commerce n'est pas un jeu à somme nulle — que les économistes du siècle suivant démontreront.
+
+Vauban fortifie les frontières du royaume selon un système cohérent : une double ligne de places fortes, le « pré carré », conçue pour donner à la France des frontières défendables. Il construit ou remanie plus de cent cinquante places, conduit une cinquantaine de sièges, et n'en perd aucun. Ses fortifications en étoile aux murailles basses répondent à l'artillerie ; douze de ses sites sont inscrits au patrimoine mondial.
+
+Il finira en disgrâce pour avoir publié un projet de réforme fiscale, la *Dîme royale*, proposant un impôt unique et proportionnel payé par tous — texte saisi et interdit.`],
+    ["Versailles", `La cour s'installe définitivement à Versailles en 1682. Le choix n'est pas esthétique mais politique : loin de Paris, dont Louis XIV garde le souvenir de la Fronde, et dans un lieu où la noblesse peut être rassemblée et surveillée.
+
+Le mécanisme est celui de l'étiquette. Vivre à la cour, obtenir une charge, tenir la chemise du roi à son lever, assister à son coucher deviennent des marques de faveur qui s'obtiennent par la présence permanente. Une noblesse occupée à ces rivalités de préséance n'organise pas de révolte dans ses provinces — elle s'y ruine même, ce qui la rend dépendante des pensions royales.
+
+Le château accueillait plusieurs milliers de personnes, dans des conditions matérielles fort éloignées de l'image qu'on en a : logements exigus, froid, saleté, absence de commodités.
+
+L'affaire des Poisons, dans les années 1670, révèle l'envers de cette société : une enquête sur des empoisonnements met au jour un réseau de devineresses, de messes noires et de poisons impliquant des dizaines de personnes de la haute noblesse, et jusqu'à la maîtresse en titre du roi. Louis XIV fait brûler une partie du dossier et étouffe l'affaire.
+
+Il protège par ailleurs Molière contre les attaques du parti dévot, notamment lors de la querelle du *Tartuffe*, interdit cinq ans — le mécénat royal servait aussi à tenir le clergé.`],
+    ["Ce que le règne laisse", `La révocation de l'édit de Nantes, en 1685, interdit le culte protestant et provoque l'exil de plusieurs centaines de milliers de personnes vers l'Angleterre, la Hollande, la Prusse et la Suisse — souvent des artisans, des commerçants et des officiers, dont les pays d'accueil profiteront durablement. Ceux qui restent se soulèvent dans les Cévennes : la guerre des Camisards, à partir de 1702, oppose pendant plusieurs années des paysans protestants à des troupes régulières.
+
+La guerre de Succession d'Espagne, de 1701 à 1714, occupe la fin du règne. Elle place un Bourbon sur le trône d'Espagne au prix d'une coalition européenne, de défaites, de famines et d'un épuisement financier. L'hiver 1709, le grand hiver, tue des dizaines de milliers de personnes.
+
+Le règne laisse une dette considérable et un système fiscal profondément inéquitable, où la noblesse et le clergé sont largement exemptés des principaux impôts directs. C'est ce déséquilibre, jamais corrigé malgré plusieurs tentatives, qui conduira la monarchie à convoquer les états généraux en 1789.
+
+Le mot attribué au roi mourant à son arrière-petit-fils — n'imitez pas son goût pour la guerre et les bâtiments — n'est peut-être pas authentique. Il résume néanmoins le jugement de ses successeurs immédiats.`,
+      { image: "hf-louis-xiv-rigaud", legende: "Le portrait de Rigaud : un roi de soixante-trois ans représenté en majesté, jambes de danseur et manteau de sacre.", alt: "Portrait de Louis XIV par Hyacinthe Rigaud" }],
+  ],
+
+  "hf2-revolution-1789": [
+    ["Une crise financière", `La Révolution commence par une crise financière que la monarchie ne parvient pas à résoudre. L'État est en faillite : les guerres, dont le soutien coûteux à l'indépendance américaine, ont creusé une dette dont le seul service absorbe la moitié des recettes.
+
+La solution était connue : faire payer l'impôt aux privilégiés. Plusieurs contrôleurs généraux successifs le proposent ; chacun se heurte au refus des parlements et de la noblesse, qui exigent la convocation des états généraux pour consentir tout impôt nouveau.
+
+Louis XVI les convoque en 1789 — ils ne s'étaient pas réunis depuis 1614. La convocation s'accompagne de la rédaction, dans chaque paroisse et chaque corporation du royaume, de cahiers de doléances recueillant plaintes et vœux. Des dizaines de milliers de textes sont produits, et ils constituent une source historique exceptionnelle sur ce que la France pensait à la veille de la Révolution.
+
+Leur contenu surprend : ils demandent des réformes, non l'abolition de la monarchie. C'est le blocage de la procédure — le vote par ordre, qui donnait deux voix aux privilégiés contre une au tiers état — qui va tout précipiter.`],
+    ["Six mois qui changent tout", `Le tiers état, rejoint par des membres du clergé, se proclame Assemblée nationale en juin 1789. Le 20 juin, trouvant leur salle fermée, les députés se réunissent dans une salle de jeu de paume et jurent de ne pas se séparer avant d'avoir donné une constitution au royaume. Le serment transfère la souveraineté : elle n'est plus au roi mais à la nation représentée.
+
+La prise de la Bastille, le 14 juillet, symbolise la chute de l'arbitraire royal. La forteresse ne contenait que sept prisonniers et devait être démolie ; ce que la foule y cherchait était de la poudre. Sa portée est symbolique et immédiate : elle montre que le peuple parisien peut faire échec à la troupe, et elle sauve l'Assemblée d'une dissolution qui se préparait.
+
+Dans la nuit du 4 août, l'Assemblée abolit les privilèges. La séance est improvisée, portée par la peur des révoltes paysannes de la Grande Peur, et les députés de la noblesse et du clergé renoncent successivement à leurs droits dans une surenchère d'enthousiasme. Le texte adopté les jours suivants sera plus mesuré — certains droits devaient être rachetés —, mais l'édifice féodal est atteint.
+
+Le 26 août est adoptée la Déclaration des droits de l'homme et du citoyen. Ses dix-sept articles posent l'égalité en droit, la souveraineté nationale, la liberté d'opinion, la propriété, la légalité des délits et des peines. Elle est aujourd'hui encore, par le préambule de la Constitution, du droit positif français.`,
+      { image: "hf-prise-bastille", legende: "Le 14 juillet 1789 : sept prisonniers, une forteresse promise à la démolition, et un basculement politique immédiat.", alt: "La prise de la Bastille" }],
+    ["Réorganiser le royaume", `L'Assemblée entreprend en deux ans une refonte complète des institutions.
+
+La création des départements, en 1790, remplace les provinces d'Ancien Régime par des circonscriptions d'étendue comparable, découpées pour qu'on puisse rejoindre le chef-lieu dans la journée, et nommées d'après la géographie physique afin d'effacer les héritages féodaux.
+
+Les biens du clergé sont déclarés biens nationaux et vendus, rejoints plus tard par ceux des émigrés. L'opération répond à la dette et transfère la propriété : la bourgeoisie et les paysans aisés en sont les principaux acquéreurs, ce qui crée un groupe social durablement attaché aux acquis de la Révolution — revenir en arrière signifierait leur reprendre ces terres.
+
+L'assignat est un papier-monnaie gagé sur ces biens. Émis d'abord comme bon du Trésor, il devient monnaie, puis est émis en quantités croissantes jusqu'à s'effondrer — l'hyperinflation des années 1795-1796 ruinera les rentiers et discréditera durablement le papier-monnaie en France.
+
+La Constitution civile du clergé, en 1790, fait des prêtres des fonctionnaires élus et salariés, et exige d'eux un serment. Sa condamnation par le pape divise l'Église de France entre jureurs et réfractaires, et cette fracture, présente jusque dans les familles, alimentera la contre-révolution — c'est probablement la décision la plus lourde de conséquences de toute la période.`],
+  ],
+
+  "hf2-terreur-directoire": [
+    ["La République et la guerre", `La guerre, déclarée en avril 1792 à l'Autriche, transforme tout. Elle radicalise la Révolution, justifie les mesures d'exception et fait du sort du régime une question militaire.
+
+Valmy, le 20 septembre 1792, arrête l'invasion prussienne. Ce n'est militairement qu'une canonnade sans assaut, mais son effet est immense : l'armée révolutionnaire a tenu. Goethe, témoin dans le camp adverse, y voit le début d'une ère nouvelle.
+
+Le lendemain, la République est proclamée — le 22 septembre 1792 deviendra le premier jour de l'an I du calendrier républicain.
+
+Louis XVI, jugé par la Convention, est exécuté le 21 janvier 1793. Le vote sur la mort est acquis à une courte majorité, et il est décisif à un autre titre : il rend tout retour en arrière impossible et unit l'Europe monarchique contre la France.`],
+    ["La Terreur", `La Terreur est un régime d'exception assumé comme tel, et non un simple débordement. Elle est formellement décrétée « à l'ordre du jour » en septembre 1793, et ses instruments sont des lois : loi des suspects, tribunal révolutionnaire, loi de prairial supprimant la défense.
+
+Le Comité de salut public, où domine Robespierre, dirige la France. Sa justification est explicite dans les discours de l'époque : le régime est en guerre extérieure sur toutes ses frontières et en guerre civile à l'intérieur, et le salut public autorise la suspension des libertés qu'on vient de proclamer.
+
+Son bilan est de l'ordre de quarante mille exécutions, très inégalement réparties — la moitié dans les départements insurgés.
+
+La Vendée se soulève en mars 1793, contre la conscription, la Constitution civile du clergé et le pouvoir des villes. La guerre est d'une violence extrême des deux côtés. En 1794, les colonnes infernales du général Turreau mènent une répression systématique consistant à détruire villages, récoltes et populations. Le débat historiographique sur la qualification de ces faits — génocide, populicide, massacre — est vif ; l'ampleur, elle, ne fait pas débat, avec plus de cent mille morts.
+
+Le calendrier républicain, adopté en 1793, illustre l'ambition de refonder jusqu'à la mesure du temps : douze mois de trente jours aux noms tirés des saisons, décades de dix jours, an I à la proclamation de la République. Il durera treize ans.`],
+    ["Chercher un ordre stable", `Robespierre tombe le 9 thermidor an II — 27 juillet 1794 — renversé par une coalition de conventionnels que sa politique menaçait et qui craignaient d'être les prochains. Il est exécuté le lendemain sans jugement réel.
+
+La Terreur prend fin, et avec elle le gouvernement révolutionnaire. La Convention thermidorienne démantèle les institutions d'exception, réprime à son tour les militants du mouvement populaire, et prépare une constitution.
+
+Le Directoire gouverne de 1795 à 1799 : deux conseils législatifs et cinq directeurs, avec un système censitaire et des mécanismes conçus pour empêcher toute concentration du pouvoir. Il est pris entre deux dangers permanents — le retour des royalistes et la résurgence jacobine — et il y répond par des coups d'État à répétition, annulant des élections quand elles lui déplaisent.
+
+Cette instabilité chronique, jointe au poids croissant des généraux victorieux, explique le 18 brumaire. Le régime n'est pas renversé par un mouvement populaire mais par une partie de ses propres dirigeants, qui cherchaient un sabre et ont trouvé Bonaparte.`],
+    ["Ce que la Révolution lègue à la guerre", `L'innovation militaire la plus durable de la période est la conscription de masse. La levée en masse d'août 1793 met en réquisition permanente l'ensemble des citoyens, et la loi Jourdan de 1798 institue la conscription obligatoire.
+
+Le changement d'échelle est considérable : les armées d'Ancien Régime comptaient quelques dizaines de milliers de professionnels coûteux qu'on ménageait ; la France révolutionnaire aligne des centaines de milliers d'hommes qu'elle peut remplacer.
+
+La tactique s'adapte à cette ressource : colonnes d'assaut plutôt que lignes savantes, tirailleurs, vitesse de manœuvre, et acceptation de pertes qu'aucune armée de métier n'aurait supportées. La promotion au mérite, ouverte par le départ des officiers nobles, fournit un encadrement jeune et efficace.
+
+C'est cet outil que Napoléon héritera et portera à son point de perfection — et c'est aussi ce modèle que toute l'Europe devra adopter pour lui résister, faisant entrer le continent dans l'ère de la guerre entre nations.`],
+  ],
+
+  "hf2-napoleon": [
+    ["Prendre le pouvoir", `Le coup d'État du 18 brumaire an VIII — 9 novembre 1799 — porte Bonaparte au pouvoir. Il est préparé par des directeurs et des parlementaires cherchant à réviser la constitution, et Bonaparte y est d'abord le bras armé d'une opération dont il prend le contrôle.
+
+La journée se passe mal : au Conseil des Cinq-Cents, il est hué et manque de tout perdre ; c'est son frère Lucien, président de l'assemblée, qui sauve l'opération en faisant évacuer la salle par les grenadiers.
+
+Le Consulat qui en sort concentre rapidement le pouvoir sur un homme : Premier consul en 1799, consul à vie en 1802, empereur en 1804. Chaque étape est validée par un plébiscite aux résultats considérablement arrangés.
+
+L'essentiel de son œuvre intérieure est accompli dès le Consulat, en cinq ans, et c'est cette période qui compte le plus durablement — l'essentiel des institutions administratives françaises actuelles en date.`],
+    ["Refonder l'État", `Le Code civil des Français, promulgué en 1804, unifie un droit jusque-là éclaté entre coutumes du nord et droit romain du sud. Il consacre l'égalité civile, la propriété, la liberté contractuelle, le divorce et la laïcité de l'état civil. Napoléon y participe personnellement à de nombreuses séances et le tiendra pour son œuvre la plus durable — jugement que l'histoire a confirmé, le code ayant été adopté ou imité dans des dizaines de pays.
+
+Ses dispositions sur les femmes marquent en revanche un net recul sur la Révolution : la femme mariée est frappée d'incapacité juridique, doit obéissance à son mari, et ne pourra ouvrir un compte bancaire sans autorisation maritale qu'en 1965.
+
+La Banque de France est créée en 1800 pour stabiliser la monnaie et financer l'État. Le franc germinal, institué en 1803, restera stable jusqu'en 1914.
+
+La Légion d'honneur, créée en 1802, récompense les mérites civils et militaires sans distinction de naissance — première distinction ouverte à tous, et instrument de ralliement des élites.
+
+Le Concordat de 1801 règle les rapports avec l'Église catholique : les évêques sont nommés par le chef de l'État et institués par le pape, le clergé est salarié, et la vente des biens nationaux est acceptée. C'est une pacification religieuse et un instrument de contrôle ; il restera en vigueur jusqu'en 1905, et demeure applicable en Alsace-Moselle.
+
+S'y ajoutent les préfets, les lycées, la Cour des comptes, le baccalauréat et le Conseil d'État — tous nés ou refondés à cette période.`,
+      { image: "hf-sacre-napoleon", legende: "Le sacre de 1804 : le pape est présent, l'empereur se couronne lui-même — la scène résume tout le Concordat.", alt: "Le Sacre de Napoléon, par David" }],
+    ["L'Europe conquise", `Austerlitz, le 2 décembre 1805, est considérée comme le chef-d'œuvre tactique de Napoléon : il abandonne volontairement une position dominante pour attirer les Austro-Russes, puis reprend le plateau de Pratzen au centre et coupe leur armée en deux. La bataille est étudiée dans toutes les écoles militaires.
+
+Six semaines plus tôt, Trafalgar avait détruit la flotte franco-espagnole et ruiné définitivement tout projet d'invasion de l'Angleterre. C'est la contradiction du règne : invaincu sur terre, incapable d'atteindre son adversaire principal.
+
+Le blocus continental, décrété en 1806, en découle : puisqu'on ne peut envahir l'Angleterre, on l'asphyxiera commercialement en interdisant à toute l'Europe de commercer avec elle. Le résultat est inverse — la contrebande prospère, les économies continentales souffrent, et la nécessité de faire respecter le blocus entraîne la France dans des interventions toujours plus lointaines : Espagne en 1808, Russie en 1812.
+
+La campagne de Russie marque le tournant. La Grande Armée, forte de plusieurs centaines de milliers d'hommes, atteint Moscou et n'y trouve ni ennemi à battre ni paix à signer. La retraite, dans l'hiver, la détruit presque entièrement. L'Europe se soulève, et la France recule.`],
+    ["La fin", `L'Empire s'effondre en dix-huit mois. Défaite à Leipzig en 1813, campagne de France en 1814, abdication et exil à l'île d'Elbe. Le retour de mars 1815 — les Cent-Jours — s'achève à Waterloo le 18 juin.
+
+Napoléon meurt en 1821 à Sainte-Hélène, île de l'Atlantique sud où les Britanniques l'avaient placé pour qu'aucun retour ne soit possible. Il y dicte ses mémoires, construisant méthodiquement sa propre légende — celle d'un héritier de la Révolution défenseur des peuples, très éloignée de sa politique réelle.
+
+Le bilan est double et se discute encore. Les institutions administratives, juridiques et éducatives qu'il a créées structurent la France jusqu'à aujourd'hui, et leur diffusion en Europe a emporté avec elle l'égalité civile et la fin de la féodalité.
+
+Le coût humain est de l'ordre du million de morts français et de plusieurs millions d'Européens. Il a rétabli l'esclavage aux colonies en 1802, aboli en 1794 — décision qui provoque la guerre d'indépendance haïtienne et dont la portée est rarement mise au premier plan.
+
+L'historiographie française oscille depuis deux siècles entre ces deux bilans, et le fait qu'elle continue de le faire est en soi la meilleure description du personnage.`],
+  ],
 };
