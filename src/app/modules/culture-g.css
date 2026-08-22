@@ -13,6 +13,15 @@
   --cg-vert: #5dbe8a;
   --cg-or: #d9b75f;
 
+  /* Ces quatre couleurs sont celles du CARNET : elles vivent sur papier crème
+     et n'en bougent pas. Sur la coque, en revanche, elles se posent sur le
+     fond du thème — et un bleu bic pensé pour le violet nuit tombe à 2,9:1 sur
+     un fond clair. Les trois jetons ci-dessous portent donc l'accent tel qu'il
+     apparaît SUR LA COQUE, et les thèmes clairs les redéfinissent. */
+  --accent-coque: var(--cg-bic);
+  --accent-coque-2: var(--cg-rouge);
+  --accent-coque-3: var(--cg-or);
+
   /* Le carnet reste sur papier crème — c'est son identité, pas celle du
      français. Il ne déclarait rien et héritait donc du cahier d'écolier
      voisin : réglure seyès et marge rouge, qui ne sont pas les siennes. Il
@@ -27,12 +36,12 @@
 }
 
 /* La marque : « Le Cahier » à l'encre, « de culture G » au rouge de marge. */
-[data-module="culture-g"] .flanc-marque h1 em { color: var(--cg-rouge); }
-[data-module="culture-g"] .matiere-lien.active { border-left-color: var(--cg-bic); }
-[data-module="culture-g"] .matiere-lien.active .nom::after { background: var(--cg-bic); }
-[data-module="culture-g"] .matiere-lien.active .marque { color: var(--cg-bic); }
-[data-module="culture-g"] .onglet.actif { border-bottom-color: var(--cg-bic); }
-[data-module="culture-g"] .coque-fin b { color: var(--cg-bic); }
+[data-module="culture-g"] .flanc-marque h1 em { color: var(--accent-coque-2); }
+[data-module="culture-g"] .matiere-lien.active { border-left-color: var(--accent-coque); }
+[data-module="culture-g"] .matiere-lien.active .nom::after { background: var(--accent-coque); }
+[data-module="culture-g"] .matiere-lien.active .marque { color: var(--accent-coque); }
+[data-module="culture-g"] .onglet.actif { border-bottom-color: var(--accent-coque); }
+[data-module="culture-g"] .coque-fin b { color: var(--accent-coque); }
 
 /* ── l'accueil du cahier ── */
 
@@ -41,7 +50,7 @@
   font-size: 10.5px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--cg-rouge);
+  color: var(--accent-coque-2);
   font-weight: 600;
   margin: 0 0 8px;
 }
@@ -70,7 +79,7 @@
   font-family: "Bodoni Moda", serif;
   font-size: 32px;
   line-height: 1;
-  color: var(--cg-or);
+  color: var(--accent-coque-3);
   font-variant-numeric: tabular-nums;
 }
 .cg-stat .l {
@@ -89,7 +98,7 @@
 .cg-modecard {
   background: var(--encre-2);
   border: 1px solid var(--encre-3);
-  border-left: 2px solid var(--cg-bic);
+  border-left: 2px solid var(--accent-coque);
   border-radius: 3px;
   padding: 18px 20px;
   text-align: left;
@@ -103,11 +112,11 @@
 }
 .cg-modecard:hover:not(:disabled) { transform: translateY(-1px); }
 .cg-modecard:disabled { opacity: 0.55; cursor: default; }
-.cg-modecard.cours { border-left-color: var(--cg-rouge); }
-.cg-modecard.revision { border-left-color: var(--cg-or); }
-.cg-modecard .cg-eyebrow { color: var(--cg-bic); margin: 0; }
-.cg-modecard.cours .cg-eyebrow { color: var(--cg-rouge); }
-.cg-modecard.revision .cg-eyebrow { color: var(--cg-or); }
+.cg-modecard.cours { border-left-color: var(--accent-coque-2); }
+.cg-modecard.revision { border-left-color: var(--accent-coque-3); }
+.cg-modecard .cg-eyebrow { color: var(--accent-coque); margin: 0; }
+.cg-modecard.cours .cg-eyebrow { color: var(--accent-coque-2); }
+.cg-modecard.revision .cg-eyebrow { color: var(--accent-coque-3); }
 .cg-modecard h2 {
   font-family: "Bodoni Moda", serif;
   font-weight: 400;
@@ -119,11 +128,11 @@
 .cg-modecard .go {
   margin-top: auto;
   font-size: 12.5px;
-  color: var(--cg-bic);
+  color: var(--accent-coque);
   font-family: "IBM Plex Mono", monospace;
 }
-.cg-modecard.cours .go { color: var(--cg-rouge); }
-.cg-modecard.revision .go { color: var(--cg-or); }
+.cg-modecard.cours .go { color: var(--accent-coque-2); }
+.cg-modecard.revision .go { color: var(--accent-coque-3); }
 
 [data-module="culture-g"] h2.cg-section {
   font-family: "Bodoni Moda", serif;
@@ -151,7 +160,7 @@
   flex-direction: column;
   gap: 7px;
 }
-.cg-catcard:hover { border-color: var(--cg-bic); }
+.cg-catcard:hover { border-color: var(--accent-coque); }
 .cg-catcard .tete { display: flex; align-items: center; gap: 9px; }
 .cg-catcard .emoji { font-size: 17px; line-height: 1; }
 .cg-catcard .nom { font-size: 14px; color: var(--craie); }
@@ -161,12 +170,12 @@
   color: var(--mauve);
 }
 .cg-bar { height: 2px; background: var(--encre-3); border-radius: 1px; overflow: hidden; }
-.cg-bar i { display: block; height: 100%; background: var(--cg-bic); }
+.cg-bar i { display: block; height: 100%; background: var(--accent-coque); }
 
 .cg-muted { color: var(--mauve); }
 .cg-alerte {
   background: rgba(228, 112, 95, 0.12);
-  color: var(--cg-rouge);
+  color: var(--accent-coque-2);
   border-radius: 3px;
   padding: 12px 16px;
   font-size: 14px;
@@ -176,5 +185,5 @@
 /* Les écrans partagés prennent l'accent du cahier. */
 [data-module="culture-g"] .proposition:hover:not(:disabled) { border-color: var(--cg-bic); }
 [data-module="culture-g"] .explication { border-left-color: var(--cg-bic); }
-[data-module="culture-g"] .point-ligne.choisi { border-left-color: var(--cg-bic); }
-[data-module="culture-g"] .table-domaines .piste i { background: var(--cg-bic); }
+[data-module="culture-g"] .point-ligne.choisi { border-left-color: var(--accent-coque); }
+[data-module="culture-g"] .table-domaines .piste i { background: var(--accent-coque); }

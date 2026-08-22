@@ -114,7 +114,10 @@ function CarteMondeVue({ question, verdict, choix, repondre }: VueExerciceProps)
 
           {fond && (
             <svg
-              className={`carte-monde vise-${q.couche}`}
+              /* Écrit en toutes lettres, et non composé par interpolation :
+                 une classe fabriquée à la volée est invisible au script qui
+                 traque les règles CSS que plus rien ne rend. */
+              className={`carte-monde ${q.couche === "mer" ? "vise-mer" : "vise-pays"}`}
               viewBox={`0 0 ${fond.largeur} ${fond.hauteur}`}
               role="group"
               aria-label={`${fond.titre} — ${(cibles ?? []).length} réponses possibles`}

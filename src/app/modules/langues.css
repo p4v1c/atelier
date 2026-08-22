@@ -6,16 +6,21 @@
    couleur et les quelques éléments qui leur sont propres : le badge de niveau,
    l'échelle du cadre européen, les cartes de méthode. */
 
-[data-langue] { --lg-accent: #9084c9; }
+/* La surface d'exercice des langues n'est PAS un papier : elle est faite du
+   fond de la coque (voir --exo-fond plus bas). L'accent d'une langue suit donc
+   le thème comme le reste, à la différence du bleu bic du carnet ou du vert de
+   la carte, qui vivent sur leur propre support. --accent-coque le recopie
+   plutôt que de le doubler : un seul endroit à changer. */
+[data-langue] { --lg-accent: #9084c9; --accent-coque: var(--lg-accent); }
 [data-langue="anglais"] { --lg-accent: #7ba6e0; }
 [data-langue="espagnol"] { --lg-accent: #e0705b; }
 
-[data-langue] .flanc-marque h1 em { color: var(--lg-accent); }
-[data-langue] .matiere-lien.active { border-left-color: var(--lg-accent); }
-[data-langue] .matiere-lien.active .nom::after { background: var(--lg-accent); }
-[data-langue] .matiere-lien.active .marque { color: var(--lg-accent); }
-[data-langue] .onglet.actif { border-bottom-color: var(--lg-accent); }
-[data-langue] .coque-fin b { color: var(--lg-accent); }
+[data-langue] .flanc-marque h1 em { color: var(--accent-coque); }
+[data-langue] .matiere-lien.active { border-left-color: var(--accent-coque); }
+[data-langue] .matiere-lien.active .nom::after { background: var(--accent-coque); }
+[data-langue] .matiere-lien.active .marque { color: var(--accent-coque); }
+[data-langue] .onglet.actif { border-bottom-color: var(--accent-coque); }
+[data-langue] .coque-fin b { color: var(--accent-coque); }
 
 /* ── le badge de niveau et l'échelle ── */
 

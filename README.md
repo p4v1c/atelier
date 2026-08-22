@@ -123,6 +123,45 @@ Un écran ne dessine donc que son contenu. `.plateau` pour une page simple,
 `.plateau.avec-rail` pour un contenu et son commentaire — la série met sa
 correction dans le rail, l'accueil y met les points faibles.
 
+### Les quatre thèmes
+
+Une pastille de vingt-deux pixels, partagée en quatre quartiers, en haut à
+droite de la barre. On clique, quatre thèmes s'affichent — celui qui est actif
+compris —, on en choisit un. **Nuit** et **Charbon** sont sombres, **Jour** et
+**Sépia** sont clairs.
+
+Le nom des variables vient du thème d'origine et décrit une matière — l'encre,
+le papier, la craie. Il faut les lire comme des **rôles** : `--encre` est le
+fond de la page, `--papier` le texte le plus marqué. En thème clair, `--encre`
+devient donc presque blanc et `--papier` presque noir, et les boutons pleins
+tiennent parce qu'ils s'écrivent toujours `background: var(--papier); color:
+var(--encre)` — les deux basculent ensemble.
+
+Trois choses ne changent jamais de couleur. Le papier du cahier, parce que le
+cahier est une feuille posée sur un bureau : on change le bureau, pas la
+feuille. Le bleu bic du carnet de culture générale. Et les couleurs de la
+carte — un atlas ne change pas de teintes parce qu'on allume la lumière.
+
+Chaque matière garde en revanche un **accent de coque**, et celui-là suit le
+thème. Le bleu bic à 2,9:1 sur un fond clair, l'or de l'atlas à 2,1:1 : les
+accents avaient été choisis pour un fond de nuit, et il a fallu leur donner une
+valeur claire. Les langues font exception dans l'autre sens — leur surface
+d'exercice est faite du fond de la coque, si bien que c'est l'accent lui-même
+qui bascule, cahier compris.
+
+L'attribut est posé sur `<html>`, pas sur `.app` : le fond de page est peint
+sur `body`, et un thème posé plus bas laisserait une bande de l'ancien tout
+autour. Conséquence, le choix ne peut pas être rendu côté serveur, et un script
+inline dans `layout.tsx` l'applique avant la première peinture — sans lui, la
+page clignote une fraction de seconde.
+
+```bash
+THEME=tous node scripts/mesurer-contraste.mjs
+```
+
+Les quatre thèmes sont mesurés, pas choisis à l'œil : six mille cinq cents
+textes par thème, zéro sous le seuil.
+
 ### L'apparence
 
 Un module n'est pas qu'un jeu de données : c'est une identité. Le français a son

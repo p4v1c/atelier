@@ -18,6 +18,14 @@
   --geo-cote: #d8a44b;
   --geo-trace: #c96f4a;
 
+  /* Les couleurs ci-dessus sont celles de la CARTE : le bleu de mer, le vert
+     des terres, l'or du trait de côte. Elles ne bougent pas d'un thème à
+     l'autre — un atlas ne change pas de couleurs parce qu'on allume la
+     lumière. Sur la coque, en revanche, ces mêmes tons se posent sur le fond
+     du thème, et l'or tombe à 2,1:1 sur un fond clair. */
+  --accent-coque: var(--geo-cote);
+  --accent-coque-2: var(--geo-terre);
+
   /* La surface d'exercice : le papier d'un atlas, un peu plus froid que le
      cahier d'écolier, et son graticule à la place de la réglure seyès. */
   --exo-accent: var(--geo-trace);
@@ -28,12 +36,12 @@
   --exo-plein-fond: #123055;
 }
 
-[data-module="geographie"] .flanc-marque h1 em { color: var(--geo-cote); }
-[data-module="geographie"] .matiere-lien.active { border-left-color: var(--geo-cote); }
-[data-module="geographie"] .matiere-lien.active .nom::after { background: var(--geo-cote); }
-[data-module="geographie"] .matiere-lien.active .marque { color: var(--geo-cote); }
-[data-module="geographie"] .onglet.actif { border-bottom-color: var(--geo-cote); }
-[data-module="geographie"] .coque-fin b { color: var(--geo-cote); }
+[data-module="geographie"] .flanc-marque h1 em { color: var(--accent-coque); }
+[data-module="geographie"] .matiere-lien.active { border-left-color: var(--accent-coque); }
+[data-module="geographie"] .matiere-lien.active .nom::after { background: var(--accent-coque); }
+[data-module="geographie"] .matiere-lien.active .marque { color: var(--accent-coque); }
+[data-module="geographie"] .onglet.actif { border-bottom-color: var(--accent-coque); }
+[data-module="geographie"] .coque-fin b { color: var(--accent-coque); }
 
 /* Le graticule : deux trames croisées, à peine visibles, qui donnent au
    papier son quadrillage d'atlas. La réglure seule ne ferait que des
@@ -54,10 +62,10 @@
 }
 
 /* Les écrans partagés prennent l'accent de l'atlas. */
-[data-module="geographie"] .point-ligne.choisi { border-left-color: var(--geo-cote); }
-[data-module="geographie"] .table-domaines .piste i { background: var(--geo-terre); }
+[data-module="geographie"] .point-ligne.choisi { border-left-color: var(--accent-coque); }
+[data-module="geographie"] .table-domaines .piste i { background: var(--accent-coque-2); }
 [data-module="geographie"] .explication { border-left-color: var(--geo-mer); }
-[data-module="geographie"] .niveau-puce { background: var(--geo-cote); }
+[data-module="geographie"] .niveau-puce { background: var(--accent-coque); }
 
 [data-module="geographie"] .enonce { font-size: 21px; }
 
@@ -316,23 +324,23 @@
   text-align: left;
   font-weight: 400;
   padding: 18px 22px 18px 14px;
-  border-left: 3px solid var(--geo-cote);
+  border-left: 3px solid var(--accent-coque);
 }
 .atlas-grille .ligne-jeu { display: flex; gap: 12px; align-items: flex-start; }
-.atlas-grille tbody tr.sur-carte th { border-left-color: var(--geo-terre); }
+.atlas-grille tbody tr.sur-carte th { border-left-color: var(--accent-coque-2); }
 
 .atlas-grille tbody th .embleme svg {
   width: 26px;
   height: 26px;
   fill: none;
-  stroke: var(--geo-cote);
+  stroke: var(--accent-coque);
   stroke-width: 1.4;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-.atlas-grille tbody tr.sur-carte th .embleme svg { stroke: var(--geo-terre); }
-.atlas-grille tbody th .embleme svg .noyau { fill: var(--geo-cote); stroke: none; }
-.atlas-grille tbody tr.sur-carte th .embleme svg .noyau { fill: var(--geo-terre); }
+.atlas-grille tbody tr.sur-carte th .embleme svg { stroke: var(--accent-coque-2); }
+.atlas-grille tbody th .embleme svg .noyau { fill: var(--accent-coque); stroke: none; }
+.atlas-grille tbody tr.sur-carte th .embleme svg .noyau { fill: var(--accent-coque-2); }
 
 .atlas-grille .quoi { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
 .atlas-grille .genre {
@@ -340,9 +348,9 @@
   font-size: 10px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--geo-cote);
+  color: var(--accent-coque);
 }
-.atlas-grille tbody tr.sur-carte .genre { color: var(--geo-terre); }
+.atlas-grille tbody tr.sur-carte .genre { color: var(--accent-coque-2); }
 .atlas-grille .quoi b {
   font-family: "Bodoni Moda", serif;
   font-size: 20px;
@@ -373,7 +381,7 @@
   cursor: pointer;
   transition: background 0.12s, border-color 0.12s;
 }
-.atlas-grille .case:hover:not(:disabled) { background: var(--encre-3); border-color: var(--geo-cote); }
+.atlas-grille .case:hover:not(:disabled) { background: var(--encre-3); border-color: var(--accent-coque); }
 .atlas-grille .case:focus-visible { outline: 2px solid var(--geo-cote); outline-offset: 2px; }
 .atlas-grille .case:disabled { opacity: 0.5; cursor: default; }
 

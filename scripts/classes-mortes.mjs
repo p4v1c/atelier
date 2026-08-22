@@ -13,12 +13,25 @@
 import { readFileSync, readdirSync, statSync } from "fs";
 import { join } from "path";
 
-const FEUILLES = [
-  "src/app/globals.css",
-  "src/app/coque.css",
-  "src/app/modules/culture-g.css",
-  "src/app/modules/langues.css",
-];
+/**
+ * Toutes les feuilles, trouvées et non listées.
+ *
+ * La liste était écrite à la main, et elle a vieilli sans bruit : ni le CSS de
+ * la géographie ni celui des thèmes n'y figuraient, si bien que l'outil
+ * annonçait « aucune classe sans emploi » sans les avoir regardés. Un
+ * vérificateur qui oublie un fichier ment plus qu'il n'informe.
+ */
+function feuilles(dir) {
+  const trouvees = [];
+  for (const e of readdirSync(dir)) {
+    const chemin = join(dir, e);
+    if (statSync(chemin).isDirectory()) trouvees.push(...feuilles(chemin));
+    else if (e.endsWith(".css")) trouvees.push(chemin);
+  }
+  return trouvees.sort();
+}
+
+const FEUILLES = feuilles("src/app");
 
 const classes = new Map();
 for (const f of FEUILLES) {

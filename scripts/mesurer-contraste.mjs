@@ -134,10 +134,30 @@ async function allerA(page, e) {
 
 const nav = await chromium.launch({ executablePath: CHROME });
 const modes = process.env.MODE_CONNECTE ? ["invite", "connecte"] : ["invite"];
+
+/**
+ * Le thème change TOUS les fonds de la coque.
+ *
+ * Mesurer un seul thème et conclure que l'application passe le seuil serait
+ * une garantie pour un quart de ce qu'on livre. THEME=ardoise n'en mesure
+ * qu'un, THEME=tous les mesure les quatre — c'est la forme à passer avant de
+ * toucher à une couleur.
+ */
+const TOUS = ["nuit", "charbon", "jour", "sepia"];
+const themes = process.env.THEME === "tous" ? TOUS : [process.env.THEME ?? "nuit"];
 const tout = [];
-for (const mode of modes) {
+for (const mode of modes) for (const theme of themes) {
   const ctx = await nav.newContext({ viewport: { width: 1440, height: 950 } });
   const page = await ctx.newPage();
+  /* Posé avant le premier chargement : le script inline de layout.tsx le lira
+     et l'appliquera dès la première peinture, comme pour un vrai visiteur. */
+  await ctx.addInitScript((t) => {
+    try {
+      localStorage.setItem("atelier:theme", t);
+    } catch {
+      /* rien à faire : le thème par défaut sera mesuré */
+    }
+  }, theme);
   if (mode === "connecte") {
     const email = `vitest-contraste-${Date.now()}@exemple.test`;
     await page.goto(BASE, { waitUntil: "networkidle" });
@@ -154,7 +174,7 @@ for (const mode of modes) {
   for (const e of ECRANS) {
     await allerA(page, e);
     const lignes = await page.evaluate(MESURE);
-    for (const l of lignes) tout.push({ mode, ecran: e.nom, ...l });
+    for (const l of lignes) tout.push({ mode, theme, ecran: e.nom, ...l });
   }
   await ctx.close();
 }
@@ -169,19 +189,23 @@ const rates = tout.filter((l) => l.ratio < seuil(l));
 const parNom = new Map();
 for (const l of rates) {
   const k = l.nom + " | " + l.couleur + " sur " + l.fond;
-  if (!parNom.has(k)) parNom.set(k, { ...l, n: 0, ecrans: new Set(), modes: new Set() });
+  if (!parNom.has(k)) parNom.set(k, { ...l, n: 0, ecrans: new Set(), modes: new Set(), themes: new Set() });
   const e = parNom.get(k);
   e.n++;
   e.ecrans.add(l.ecran);
   e.modes.add(l.mode);
+  e.themes.add(l.theme);
   e.ratio = Math.min(e.ratio, l.ratio);
 }
 const liste = [...parNom.values()].sort((a, b) => a.ratio - b.ratio);
-console.log(`${tout.length} éléments texte mesurés — ${rates.length} sous le seuil (${liste.length} distincts)\n`);
+console.log(
+  `${tout.length} éléments texte mesurés sur ${themes.length} thème(s) — ` +
+    `${rates.length} sous le seuil (${liste.length} distincts)\n`
+);
 for (const l of liste) {
   console.log(
     `${String(l.ratio).padStart(5)}:1  (seuil ${seuil(l)})  ${l.nom}\n` +
-      `         ${l.couleur} sur ${l.fond}  ${l.px}px  ×${l.n}  [${[...l.modes].join(",")}] ${[...l.ecrans].join(" ")}\n` +
+      `         ${l.couleur} sur ${l.fond}  ${l.px}px  ×${l.n}  [${[...l.modes].join(",")}·${[...l.themes].join(",")}] ${[...l.ecrans].join(" ")}\n` +
       `         « ${l.texte} »`
   );
 }

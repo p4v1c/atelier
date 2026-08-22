@@ -1,0 +1,238 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   LES QUATRE THÈMES
+   ═══════════════════════════════════════════════════════════════════════
+
+   Deux sombres, deux clairs. Un thème change la COQUE entière — le fond, ses
+   nuances, le texte, les accents. Le papier de l'exercice, lui, ne bouge
+   jamais : le cahier est une feuille posée sur un bureau, et l'on change le
+   bureau, pas la feuille.
+
+   ─────────────────────────────────────────────────────────────────────────
+   CE QUE LES JETONS VEULENT DIRE
+
+   Le nom des variables vient du thème d'origine et décrit une matière —
+   l'encre, le papier, la craie. Il faut les lire comme des RÔLES :
+
+     --encre    le fond de la page          --craie   le texte courant
+     --encre-2  le fond d'un panneau        --papier  le texte le plus marqué
+     --encre-3  les filets et les survols   --mauve   l'accent
+
+   En thème clair, --encre devient donc presque blanc et --papier presque
+   noir. Les boutons pleins tiennent parce qu'ils s'écrivent toujours
+   `background: var(--papier); color: var(--encre)` : les deux basculent
+   ensemble.
+
+   ─────────────────────────────────────────────────────────────────────────
+   LES VALEURS SONT MESURÉES, PAS CHOISIES À L'ŒIL
+
+   Vérification : THEME=tous node scripts/mesurer-contraste.mjs
+
+   Le fond des deux thèmes clairs est volontairement plus SOMBRE que le
+   papier du cahier : sans cet écart, la feuille se fondrait dans le bureau
+   et le cahier disparaîtrait.
+
+   La spécificité fait le reste : `:root[data-theme="x"]` l'emporte sur le
+   `:root` nu de coque.css quel que soit l'ordre des fichiers. */
+
+/* ── Nuit — le thème d'origine ──────────────────────────────────────── */
+:root[data-theme="nuit"] {
+  --encre: #16112E;
+  --encre-2: #211A44;
+  --encre-3: #2C2456;
+  --craie: #EDE8F5;
+  --papier: #F7F3E8;
+  --mauve: #9084C9;
+  --mauve-2: #8c86a6;
+  --mauve-3: #7a739c;
+  --or: #E3B04B;
+  --seyes: #B9CCE8;
+  --vert: #3E9E6E;
+  --rouge: #D6302A;
+}
+
+/* ── Charbon — sombre neutre, plus contrasté que Nuit ───────────────── */
+:root[data-theme="charbon"] {
+  --encre: #0B0B0D;
+  --encre-2: #141417;
+  --encre-3: #232327;
+  --craie: #F2F2F4;
+  --papier: #FFFFFF;
+  --mauve: #9EA6F0;
+  --mauve-2: #9A9AA4;
+  --mauve-3: #84848F;
+  --or: #E9B950;
+  --seyes: #A8B4D8;
+  --vert: #48B47E;
+  --rouge: #F0564D;
+}
+
+/* ── Jour — clair et froid ──────────────────────────────────────────── */
+:root[data-theme="jour"] {
+  --encre: #E6E4DF;
+  --encre-2: #DCD9D2;
+  --encre-3: #C6C1B7;
+  --craie: #2A2634;
+  --papier: #14111F;
+  --mauve: #493E88;
+  --mauve-2: #4E495C;
+  --mauve-3: #6B6474;
+  --or: #6D5008;
+  --seyes: #4C6A93;
+  --vert: #196038;
+  --rouge: #9E1E15;
+}
+
+/* ── Sépia — clair et chaud, un mode lecture ────────────────────────── */
+:root[data-theme="sepia"] {
+  --encre: #E3D8C4;
+  --encre-2: #D8CBB2;
+  --encre-3: #BFAF93;
+  --craie: #3A2E20;
+  --papier: #241B10;
+  --mauve: #4F3568;
+  --mauve-2: #524533;
+  --mauve-3: #6F5F49;
+  --or: #63430A;
+  --seyes: #5C6A7A;
+  --vert: #17593A;
+  --rouge: #8F1E14;
+}
+
+/* ── Les accents des matières, en thème clair ───────────────────────────
+
+   Chaque module a son accent — le bleu bic du carnet, le violet des langues,
+   l'or de l'atlas — choisi pour se poser sur un fond de nuit. Sur un fond
+   clair, le même ton tombe entre 1,9:1 et 3:1 : illisible.
+
+   Les jetons --accent-coque ne servent QUE sur la coque. La couleur du
+   carnet, celle de la carte et celle du papier restent ce qu'elles sont : un
+   atlas ne change pas de couleurs parce qu'on allume la lumière. */
+
+:root[data-theme="jour"] [data-module="culture-g"],
+:root[data-theme="sepia"] [data-module="culture-g"] {
+  /* Sépia est plus foncé que Jour : le même bleu y tombait à 4,48:1 sur la
+     ligne de matière active, à deux centièmes du seuil. Une seule valeur,
+     tenue pour les deux, vaut mieux qu'un jeu de nuances par thème. */
+  --accent-coque: #253695;
+  --accent-coque-2: #96301F;
+  --accent-coque-3: #6B5008;
+  /* Le papier du carnet garde son bic et son rouge de correction. */
+  --exo-reglure: #7f97ff;
+  --exo-accent: #e4705f;
+}
+
+/* Pour les langues, c'est --lg-accent lui-même qu'on redéfinit : leur surface
+   d'exercice est faite du fond de la coque, donc l'accent y tombe aussi bien
+   sur la coque que sur le cahier. --accent-coque le recopie. */
+:root[data-theme="jour"] [data-langue],
+:root[data-theme="sepia"] [data-langue] { --lg-accent: #4A3F8C; }
+:root[data-theme="jour"] [data-langue="anglais"],
+:root[data-theme="sepia"] [data-langue="anglais"] { --lg-accent: #17416F; }
+:root[data-theme="jour"] [data-langue="espagnol"],
+:root[data-theme="sepia"] [data-langue="espagnol"] { --lg-accent: #96301F; }
+
+:root[data-theme="jour"] [data-module="geographie"],
+:root[data-theme="sepia"] [data-module="geographie"] {
+  --accent-coque: #6B4A08;
+  --accent-coque-2: #1E6146;
+}
+
+/* Les ombres portées sont dessinées pour un fond sombre : sur un fond clair,
+   elles font une tache grise sous chaque panneau. On les allège. */
+:root[data-theme="jour"] .cahier,
+:root[data-theme="sepia"] .cahier {
+  box-shadow: 0 10px 26px -16px rgba(36, 27, 16, 0.5);
+}
+:root[data-theme="jour"] .menu-theme,
+:root[data-theme="sepia"] .menu-theme {
+  box-shadow: 0 10px 22px -12px rgba(36, 27, 16, 0.4);
+}
+
+/* ── Le sélecteur ──────────────────────────────────────────────────────
+
+   Un rond de vingt-deux pixels partagé en quatre quartiers. Il ne porte
+   aucun libellé : la pastille EST son propre aperçu, et l'on reconnaît le
+   thème courant à ses couleurs avant d'avoir lu quoi que ce soit. */
+
+/* La pastille se colle à droite de la barre. Quand le compteur est là, c'est
+   LUI qui a déjà poussé jusqu'au bord : deux marges automatiques se
+   partageraient l'espace et renverraient le compteur au milieu. Le sélecteur
+   frère remet donc la sienne à zéro. */
+.choix-theme { position: relative; display: flex; align-items: center; margin-left: auto; }
+.coque-fin ~ .choix-theme { margin-left: 0; }
+
+.pastille {
+  display: block;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid var(--encre-3);
+  cursor: pointer;
+  background: conic-gradient(
+    var(--t1) 0 25%,
+    var(--t2) 0 50%,
+    var(--t3) 0 75%,
+    var(--t4) 0
+  );
+  transition: transform 0.12s, border-color 0.12s;
+}
+.pastille:hover { transform: scale(1.12); border-color: var(--mauve); }
+.pastille:focus-visible { outline: 2px solid var(--or); outline-offset: 2px; }
+
+.menu-theme {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  z-index: 20;
+  min-width: 178px;
+  padding: 6px;
+  background: var(--encre-2);
+  border: 1px solid var(--encre-3);
+  border-radius: 3px;
+  box-shadow: 0 12px 30px -12px rgba(0, 0, 0, 0.7);
+}
+
+.menu-theme button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 7px 9px;
+  background: none;
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--craie);
+  text-align: left;
+}
+.menu-theme button:hover { background: var(--encre-3); }
+.menu-theme button:focus-visible { outline: 2px solid var(--or); outline-offset: -2px; }
+
+/* La pastille de chaque ligne porte les couleurs de SON thème, pas de celui
+   qui est actif : on voit ce qu'on va obtenir avant de cliquer. */
+.menu-theme .rond {
+  flex: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid var(--encre-3);
+  background: conic-gradient(
+    var(--t1) 0 25%,
+    var(--t2) 0 50%,
+    var(--t3) 0 75%,
+    var(--t4) 0
+  );
+}
+
+.menu-theme .coche {
+  margin-left: auto;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  color: var(--or);
+}
+
+@media (max-width: 720px) {
+  .menu-theme { right: -8px; }
+}

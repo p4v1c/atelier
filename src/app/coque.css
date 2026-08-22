@@ -45,7 +45,11 @@
    chaque matière les pose. Deux familles — le papier et l'encre — mais une
    seule façon d'en changer, et rien à redessiner pour ajouter la troisième. */
 .app {
-  --exo-fond: var(--papier);
+  /* Le papier de l'exercice ne suit PAS le thème, et c'est délibéré : le
+     cahier est une feuille posée sur un bureau. On change le bureau, pas la
+     feuille. D'où des valeurs littérales ici plutôt que var(--papier) — qui,
+     en thème clair, devient la couleur du texte le plus foncé. */
+  --exo-fond: #F7F3E8;
   --exo-encre: #1d1836;
   --exo-encre-2: #4a4265;
   --exo-attenue: #6b6280;
@@ -56,9 +60,9 @@
   --exo-rate: #9a93ac;
   --exo-rate-trait: #c9c2d8;
   --exo-plein-fond: #1d1836;
-  --exo-plein-encre: var(--papier);
+  --exo-plein-encre: #F7F3E8;
   /* La réglure du papier, et le filet de marge. */
-  --exo-reglure: var(--seyes);
+  --exo-reglure: #B9CCE8;
   --exo-reglure-pas: 27px;
   --exo-reglure-opacite: 0.35;
   --exo-marge: #e0a9a4;

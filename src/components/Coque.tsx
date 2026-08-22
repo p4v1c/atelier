@@ -12,6 +12,7 @@
  * page entière.
  */
 import type { ModuleSummary, PublicUser } from "@/lib/api-types";
+import { ChoixTheme } from "./ChoixTheme";
 
 export type Onglet = { cle: string; libelle: string };
 
@@ -131,6 +132,7 @@ export function Coque({
           )}
 
           {compteur && <span className="coque-fin">{compteur}</span>}
+          <ChoixTheme />
         </header>
 
         {children}
