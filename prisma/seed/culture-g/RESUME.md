@@ -13,10 +13,18 @@ dépôt, tous modules confondus, et refuse le seed au premier jumeau.
 **2. Les fusions — terminé.** Le corpus avait été composé sans être confronté
 aux 322 leçons du cahier d'origine, ni confronté à lui-même d'un lot à l'autre.
 Résultat : des sujets en double au catalogue, alors qu'aucune question ne l'était.
-Cent trente-deux notions ont donc été versées dans le chapitre qui traitait déjà
-leur sujet — voir `cours/fusions.ts`. Il reste **650 notions autonomes**.
+Cent quarante-neuf notions ont été versées dans le chapitre qui traitait déjà
+leur sujet — voir `cours/fusions.ts` — et six titres trop proches ont été rendus
+distincts. Il reste **633 notions autonomes**, soit 955 sujets au catalogue avec
+les leçons héritées.
 
-**3. Les cours — en cours.** Voir l'état ci-dessous.
+Une remarque pour la suite : `doublons-internes.ts` compare les *titres*, et il
+laisse donc passer deux notions au même sujet titrées différemment — « Les
+premiers Capétiens » et « L'affirmation des Capétiens », par exemple. Le contrôle
+qui les a trouvées compare la **fin des slugs** après le préfixe de lot, et il
+mérite d'être relancé à la main après tout nouveau lot de questions.
+
+**3. Les cours — terminé.** Les 633 notions ont leur cours.
 
 ## Comment retrouver ce lot
 
@@ -29,22 +37,22 @@ leur sujet — voir `cours/fusions.ts`. Il reste **650 notions autonomes**.
 ## Où en sont les cours
 
 ```
-███·················   7/44  Physique & Chimie
-████················   9/50  Langue française
-████················   8/42  Institutions & Économie
-████················  12/58  Histoire du monde
-████················  13/61  Histoire de France
-████················  10/46  Gastronomie & Art de vivre
-█████···············  13/49  Sciences de la vie & Terre
-█████···············  12/45  Géographie
-█████···············  12/45  Inventions & Technologie
-████████████████████  44/45  Mythologie & Religions
+████████████████████  53/53  Histoire de France
+████████████████████  51/51  Histoire du monde
+████████████████████  45/45  Géographie
+████████████████████  49/49  Sciences de la vie & Terre
+████████████████████  44/44  Physique & Chimie
+████████████████████  42/42  Institutions & Économie
 ████████████████████  39/39  Littérature
+████████████████████  50/50  Langue française
 ████████████████████  43/43  Arts & Musique
 ████████████████████  41/41  Cinéma & Médias
-████████████████████  42/42  Sport
+████████████████████  45/45  Mythologie & Religions
+████████████████████  45/45  Inventions & Technologie
+████████████████████  45/45  Gastronomie & Art de vivre
+████████████████████  41/41  Sport
 
-305 / 650 notions ont leur cours (47 %).
+633 / 633 notions ont leur cours (100 %).
 ```
 
 Le décompte se relit à tout moment :
@@ -123,3 +131,7 @@ npm run validate:content -- --module=culture-g
 npm run seed -- --prune
 npx vitest run
 ```
+
+Et pour un lot terminé, la porte complète : `npm run build`, puis une lecture
+dans le navigateur en invité **et** connecté (`verif@atelier.test`), onglet
+COURS → un chapitre → *Lire le cours*.
