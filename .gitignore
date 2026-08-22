@@ -12,3 +12,7 @@ sauvegardes
 # scripts de vérification jetables (Playwright)
 f[0-9]*.mjs
 fumee*.mjs
+
+# fichiers de travail de la rédaction des cours (hors dépôt, mais hors /tmp)
+.travail-cours
+scratch-perimetre.ts
