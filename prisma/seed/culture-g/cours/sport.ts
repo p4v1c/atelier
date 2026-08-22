@@ -212,4 +212,78 @@ L'encadrement contre rémunération est réglementé : il exige un diplôme d'É
 
 Reste un constat massif : la pratique sportive baisse fortement à l'adolescence, particulièrement chez les filles. Les causes se combinent — charge scolaire, concurrence des écrans, rapport au corps et au regard des autres, offre inadaptée, coût. Le savoir nager, attestation validant des compétences aquatiques de sécurité, illustre l'enjeu inverse : c'est une compétence de survie que l'école cherche à garantir à tous, et que tous les élèves ne maîtrisent pas en sortant du collège.`],
   ],
+
+  "sp2-records-performance": [
+    ["Ce qui a fait progresser les records", `L'amélioration des records au XXe siècle tient d'abord à un facteur démographique et social : l'élargissement du bassin de pratiquants. Quand un sport passe de quelques milliers de pratiquants dans deux pays à des millions sur cinq continents, la probabilité de trouver des morphologies et des talents exceptionnels augmente mécaniquement.
+
+S'y ajoute la professionnalisation : un athlète qui vit de son sport s'entraîne deux fois par jour, dispose d'un encadrement médical, technique et nutritionnel, et récupère au lieu de travailler. L'écart avec l'amateur du début du siècle, qui s'entraînait après sa journée, explique une part considérable des progrès — sans qu'aucune capacité physiologique nouvelle soit apparue.`],
+    ["Le ralentissement", `Depuis les années 1990, la progression des records ralentit nettement dans la plupart des disciplines, et plusieurs semblent avoir atteint un plateau. Des travaux de physiologie ont modélisé des asymptotes, c'est-à-dire des limites théoriques dont on s'approcherait par paliers de plus en plus petits.
+
+Ce constat est brouillé par une question gênante : certains records d'athlétisme des années 1980, notamment féminins, tiennent toujours et n'ont jamais été approchés. Le contexte de contrôle antidopage de l'époque est ouvertement mis en cause par les fédérations elles-mêmes, sans que ces records aient été annulés — les preuves manquent, la prescription joue, et la question reste ouverte.`],
+    ["Le matériel et les conditions", `Le matériel joue un rôle déterminant dans certaines disciplines, ce qui impose des règles d'homologation strictes. Les combinaisons de natation en polyuréthane ont été interdites en 2010 après que quarante-trois records du monde furent battus en une seule année : elles amélioraient la flottabilité et réduisaient la traînée, transformant la performance en question d'équipement. Le même débat s'est rouvert avec les chaussures à plaque de carbone en course à pied.
+
+Les conditions comptent autant. L'altitude améliore les sprints, la résistance de l'air étant réduite, et dégrade les épreuves d'endurance, l'oxygène disponible étant moindre — c'est pourquoi les records établis à Mexico en 1968 restent commentés. Un record homologué suppose donc des conditions réglementaires vérifiées : vent inférieur à deux mètres par seconde, piste conforme, chronométrage électronique, contrôle antidopage immédiat.`],
+    ["Les auxiliaires et les limites", `Un lièvre est un coureur payé pour imposer un rythme régulier sur les premiers kilomètres, puis abandonner. La pratique est admise et organisée : sans elle, très peu de records de fond seraient tombés, la gestion de l'allure en solitaire coûtant trop cher.
+
+Quant à la performance humaine maximale théorique, elle reste une estimation débattue : les modèles physiologiques donnent des fourchettes, régulièrement démenties par les faits. L'histoire du sport est faite de limites annoncées puis franchies — la barre des quatre minutes au mile, longtemps jugée physiologiquement impossible, a été battue en 1954, puis par des milliers de coureurs depuis.`],
+  ],
+
+  "sp2-sport-sante": [
+    ["Les recommandations", `L'OMS recommande à l'adulte cent cinquante à trois cents minutes d'activité physique d'intensité modérée par semaine, ou la moitié en intensité soutenue, avec deux séances de renforcement musculaire. L'inactivité physique figure parmi les principaux facteurs de risque de mortalité évitable dans le monde.
+
+Deux notions doivent être distinguées. L'inactivité physique est un manque d'activité au regard de ces recommandations. La sédentarité désigne le temps passé assis ou allongé en éveil, avec une dépense énergétique minimale. Elles sont indépendantes : on peut courir une heure le matin et rester sédentaire dix heures ensuite, et les études montrent que ce cumul reste défavorable.`],
+    ["Ce que cela change", `L'activité physique régulière réduit le risque cardiovasculaire, métabolique, et celui de plusieurs cancers — côlon et sein notamment. Elle améliore aussi le sommeil, l'humeur et les fonctions cognitives, avec des effets mesurables sur la dépression légère à modérée comparables à ceux de certains traitements.
+
+Dans le diabète de type 2, elle améliore directement la sensibilité à l'insuline : le muscle en activité capte le glucose sans avoir besoin d'autant d'insuline. C'est l'un des rares domaines où l'activité physique agit sur le mécanisme même de la maladie, et non seulement sur ses conséquences.`],
+    ["À tout âge", `Les bénéfices existent à tout âge, y compris très avancé, et c'est chez les plus âgés que le rapport bénéfice-effort est le plus élevé. La sarcopénie — perte de masse et de force musculaires liée au vieillissement — commence dès la quarantaine et s'accélère ensuite ; elle conditionne l'autonomie, puisque c'est la force des jambes qui permet de se relever d'une chaise et de ne pas chuter.
+
+L'activité physique adaptée désigne une pratique encadrée par des professionnels formés, conçue pour des personnes atteintes de pathologies chroniques ou en perte d'autonomie. Le sport sur ordonnance en est le prolongement : depuis 2016, un médecin peut prescrire une activité physique adaptée à un patient en affection de longue durée.`],
+    ["Les risques réels", `La mort subite du sportif est un événement rare, le plus souvent lié à une anomalie cardiaque préexistante non détectée — cardiomyopathie, anomalie coronaire, trouble du rythme. Elle frappe davantage les hommes et survient souvent lors d'une reprise intense après une période d'inactivité. Le risque global de l'activité physique reste très inférieur à celui de l'inactivité.
+
+Le syndrome de surentraînement constitue l'autre écueil, à l'opposé : un état de fatigue durable avec baisse des performances, troubles du sommeil et de l'humeur, qui peut demander des mois d'arrêt. Il rappelle que la progression vient de l'alternance entre charge et récupération, et non de l'accumulation de séances.`],
+  ],
+  "sp2-sport-collectif-tactique": [
+    ["Le système n'est qu'un point de départ", `Un système de jeu au football désigne la répartition initiale des joueurs sur le terrain — quatre-quatre-deux, quatre-trois-trois, trois-cinq-deux. Il ne décrit qu'une position de départ : dès le coup d'envoi, les joueurs se déplacent, et la même équipe adopte des formes différentes selon qu'elle attaque ou défend.
+
+C'est pourquoi les analystes ont largement abandonné la lecture par systèmes au profit des principes de jeu : comment l'équipe cherche à progresser, où elle veut récupérer le ballon, quelles zones elle protège. Un système n'est qu'un point de départ ; c'est le mouvement qui compte.`],
+    ["Les principes défensifs et offensifs", `Le pressing est une pression collective et coordonnée sur le porteur du ballon, destinée à le récupérer haut sur le terrain, près du but adverse. Il exige une synchronisation totale : un seul joueur qui ne suit pas ouvre un espace et rend le dispositif contre-productif.
+
+La défense de zone attribue à chaque joueur un espace à protéger plutôt qu'un adversaire à suivre, par opposition à la défense individuelle. La contre-attaque, elle, est une attaque rapide lancée immédiatement après récupération, en exploitant le déséquilibre de l'adversaire encore engagé. Certaines équipes en font leur identité, et la statistique montre qu'elle reste l'une des séquences les plus efficaces du football.`],
+    ["Ce que les chiffres disent, et ne disent pas", `La possession de balle est l'indicateur le plus cité et l'un des moins prédictifs : sa corrélation avec la victoire est faible, et des équipes construisent leur jeu sur une possession volontairement basse. Elle mesure une quantité, pas une menace.
+
+Les statistiques utiles sont ailleurs : qualité des occasions créées, zones de récupération, distances parcourues à haute intensité. Les données de suivi des joueurs — position, vitesse, accélérations, charge — sont désormais collectées par capteurs et vidéo à chaque match et chaque entraînement. Elles servent autant à la tactique qu'à la prévention des blessures, la charge d'entraînement mal dosée étant l'un des premiers facteurs de blessure musculaire.`],
+    ["Les limites du modèle", `L'analyse vidéo est devenue un métier à part entière : étude des adversaires, des schémas sur coups de pied arrêtés, des comportements individuels répétés. Un club professionnel emploie plusieurs analystes à plein temps.
+
+Le sport collectif résiste pourtant à la modélisation statistique bien mieux que le baseball ou le basket, où l'analyse chiffrée a bouleversé les stratégies. La raison est structurelle : les interactions entre joueurs y sont trop nombreuses, trop simultanées et trop dépendantes du contexte pour être isolées. Une passe réussie dépend de vingt-deux positions, d'une trajectoire, d'un état de fatigue et d'une intention — que les données décrivent mal. Une précision utile au passage : il n'existe pas de hors-jeu au handball, contrairement à une confusion fréquente avec le football.`],
+  ],
+
+  "sp2-jeux-traditionnels": [
+    ["Ce que le sport moderne n'a pas effacé", `De nombreux jeux traditionnels ont survécu à la standardisation sportive du XIXe siècle, souvent en se dotant à leur tour de fédérations et de règles écrites. Ils ont en commun d'être antérieurs au sport moderne, liés à un territoire, et longtemps transmis sans codification uniforme.
+
+La pétanque fait exception par sa jeunesse : née à La Ciotat au début du XXe siècle, elle dérive du jeu provençal en supprimant l'élan — pieds tanqués, c'est-à-dire ancrés. Elle compte aujourd'hui des centaines de milliers de licenciés et prétend régulièrement à une reconnaissance olympique.`],
+    ["Le Sud-Ouest et la Bretagne", `La pelote basque désigne une famille de jeux de balle contre un mur ou un fronton, avec des variantes utilisant la main nue, un gant d'osier, une raquette ou un chistera. Certaines de ses formes comptent parmi les jeux de balle les plus rapides du monde.
+
+En Bretagne, le gouren est une lutte traditionnelle dont la règle interdit les prises brutales et impose de porter l'adversaire sur les deux omoplates ; les lutteurs prêtent serment avant le combat. Le palet breton, jeu d'adresse où l'on lance des disques métalliques sur une planche, et le jeu de quilles au maillet du Sud-Ouest relèvent de la même famille de jeux d'estaminet devenus disciplines fédérées.`],
+    ["Ailleurs", `La course landaise est un spectacle taurin sans mise à mort : l'homme y évite la vache par des écarts et des sauts codifiés, jugés par un jury. Elle se distingue radicalement de la corrida, tant par l'absence de mise à mort que par l'animal utilisé.
+
+En Irlande, le hurling est un sport de crosse d'origine gaélique, réputé pour être l'un des jeux de balle les plus rapides ; il est resté strictement amateur, les joueurs des équipes de comté n'étant pas rémunérés. Au Japon, le sumo garde une forte dimension rituelle héritée du shintoïsme : jet de sel purificateur, tenue et gestes codifiés, hiérarchie stricte des lutteurs.`],
+    ["Pourquoi ils ont reculé", `Les jeux traditionnels ont reculé sous l'effet conjugué de deux mouvements. La standardisation des sports modernes, portée par les fédérations internationales, l'école et la presse, a imposé des règles uniformes et des compétitions hiérarchisées auxquelles les jeux locaux ne pouvaient pas prétendre. L'exode rural a ensuite vidé les villages où ils se pratiquaient.
+
+Leur survie tient souvent à un travail associatif de conservation, parfois soutenu au titre du patrimoine culturel immatériel. Ce statut change leur nature : d'une pratique ordinaire, ils deviennent un héritage à préserver — ce qui les sauve et les fige à la fois.`],
+  ],
+
+  "sp2-organisation-competitions": [
+    ["Le format décide", `Le format d'une compétition détermine largement les chances des participants, bien avant que le jeu ne commence. Le tournoi à élimination directe est le plus spectaculaire et le plus injuste : une défaite élimine, et un mauvais jour suffit à sortir le meilleur. Le championnat en poules, où chaque équipe rencontre toutes les autres, est plus fiable statistiquement mais plus long et moins tendu.
+
+Le système suisse offre un compromis employé aux échecs et dans plusieurs sports : personne n'est éliminé, et chaque ronde apparie des concurrents de niveau proche selon leurs résultats précédents. Il permet de classer un grand nombre de participants en peu de rondes, sans que chacun ait à affronter tous les autres.`],
+    ["Aménager le tableau", `Une tête de série est un concurrent placé dans le tableau de façon à ne pas affronter les autres favoris avant les tours avancés. Le mécanisme protège le spectacle et l'équité perçue, mais il avantage objectivement les mieux classés — deux joueurs de même niveau n'ont pas le même parcours selon leur position au tirage.
+
+Une wild card est une invitation accordée à un concurrent non qualifié, à la discrétion de l'organisateur. Elle sert à réintégrer un joueur revenant de blessure, à honorer une figure locale ou à garantir la présence d'une vedette — pouvoir discrétionnaire régulièrement critiqué. Le calendrier international, enfin, coordonne les dates entre fédérations, ligues et compétitions continentales : c'est l'un des terrains de conflit les plus âpres du sport professionnel, chaque acteur voulant ses dates.`],
+    ["Faire tenir l'événement", `L'organisation d'une grande compétition mobilise sécurité, transports, hébergement, accréditations, diffusion et bénévoles — ces derniers constituant souvent la moitié des effectifs. La billetterie nominative, qui associe chaque billet à l'identité de son détenteur, s'est généralisée après les drames de stade et vise à lutter contre la revente et à permettre l'identification en cas d'incident.
+
+Le fair-play, ensemble de comportements respectant l'adversaire et l'esprit du jeu, fait l'objet de dispositifs formels — prix, chartes, protocoles d'avant-match. Sa promotion institutionnelle coexiste avec une pression à la performance qui le contredit régulièrement.`],
+    ["L'après", `L'héritage olympique désigne les effets durables d'un événement sur la ville hôte : équipements, transports, logements, image, pratique sportive. Les bilans réels sont très inférieurs aux promesses initiales, avec des équipements coûteux à entretenir et parfois abandonnés — Athènes 2004 et Rio 2016 en fournissent les exemples les plus documentés.
+
+C'est ce qui explique la raréfaction des candidatures : le coût et les dépassements budgétaires, systématiques dans l'histoire des Jeux, ont dissuadé de nombreuses villes, plusieurs ayant renoncé après un référendum local négatif. Le CIO a réagi en assouplissant ses exigences, en encourageant l'usage d'équipements existants et en attribuant deux éditions à la fois pour sécuriser le calendrier.`],
+  ],
 };
