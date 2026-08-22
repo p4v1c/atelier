@@ -419,4 +419,92 @@ Le cliffhanger suspend l'épisode sur une situation non résolue, pour relancer 
 
 Les séries ont gagné en prestige depuis vingt ans pour trois raisons cumulées : des budgets rapprochés de ceux du cinéma, l'arrivée d'auteurs et d'acteurs reconnus, et surtout une liberté narrative que la durée autorise — quarante heures permettent une complexité qu'aucun film ne peut atteindre. Le format court, séries d'épisodes de quelques minutes, occupe l'autre extrémité et a trouvé son public sur le web et les réseaux.`],
   ],
+
+  "cm3-image-verite": [
+    ["Une image ne prouve rien seule", `Une photographie ne prouve rien par elle-même : elle exige un contexte. Elle dépend du cadrage — ce qui a été laissé dehors —, du moment choisi dans une séquence, et des conditions de sa production. Une même scène produit des images contradictoires selon l'endroit où se tient le photographe.
+
+Cette fragilité est ancienne. La photographie mise en scène présentée comme spontanée est documentée dès les débuts du photojournalisme : cadavres déplacés sur les champs de bataille du XIXe siècle pour composer une meilleure image, drapeaux rejoués pour la caméra. Le procédé n'a jamais cessé, et la distinction entre reconstitution avouée et tricherie tient à ce qu'on dit au public.`],
+    ["Effacer et détourner", `La photographie de propagande est produite pour servir un pouvoir ou une cause, ce qui n'implique pas nécessairement le truquage : le choix du sujet, de l'angle et de la légende suffit souvent. L'Union soviétique a poussé la technique plus loin en effaçant systématiquement des photographies les dirigeants tombés en disgrâce — des clichés officiels étaient republiés, année après année, avec un personnage de moins.
+
+La manipulation la plus courante aujourd'hui ne truque rien : c'est l'image sortie de son contexte, authentique mais réutilisée pour illustrer un autre événement, un autre pays ou une autre époque. Elle résiste à toute analyse technique du fichier, puisque l'image est vraie. L'hypertrucage vidéo, qui synthétise une personne réelle, ajoute une menace différente et plus récente.`],
+    ["Les outils de vérification", `Établir la provenance d'une image consiste à identifier sa première publication et son auteur : c'est le geste fondamental, car il date l'image et permet de la rattacher à un événement. La recherche inversée y suffit dans une majorité de cas.
+
+La géolocalisation identifie le lieu en comparant les repères visibles — relief, bâtiments, panneaux, végétation, ombres — avec des images satellites et des vues de rue. L'enquête en sources ouvertes généralise cette méthode : une investigation menée entièrement à partir de données publiquement accessibles, qui a produit des résultats considérables sur des conflits où aucun journaliste ne pouvait se rendre.`],
+    ["Certifier plutôt que détecter", `Face aux images générées, la détection après coup est une course perdue d'avance : chaque progrès des détecteurs entraîne un progrès des générateurs. C'est pourquoi l'industrie s'oriente vers la certification d'origine — un procédé technique attestant la provenance d'un fichier et enregistrant les modifications successives, inscrit dans le fichier dès la prise de vue.
+
+Le principe déplace la charge de la preuve : au lieu de démontrer qu'une image est fausse, il s'agit d'établir qu'elle est authentique et de traiter comme suspect ce qui ne porte aucune signature. Le dispositif ne fonctionnera que s'il est largement adopté par les fabricants d'appareils, les logiciels et les plateformes — condition qui reste incertaine.`],
+  ],
+
+  "cm3-metiers-medias": [
+    ["La rédaction", `Un journal ou une chaîne repose sur des dizaines de métiers distincts, dont la plupart ne signent jamais. Le rédacteur en chef dirige la ligne éditoriale et coordonne la rédaction : il arbitre les sujets, hiérarchise, tranche les conflits et assume les choix devant la direction.
+
+Le secrétaire de rédaction relit, titre et met en forme les articles : c'est lui qui corrige les erreurs, harmonise le style, coupe aux dimensions et écrit les titres — souvent la partie la plus lue d'un article, et rarement l'œuvre de son auteur. Le documentaliste recherche, vérifie et archive l'information et les documents : dans les rédactions qui en ont conservé, il constitue le premier rempart contre l'erreur factuelle.`],
+    ["L'image et le son", `L'iconographe recherche et sélectionne les images d'une publication, négocie les droits et vérifie les crédits. Son travail détermine largement ce que le lecteur retiendra, l'image étant vue avant le texte.
+
+Le journaliste reporter d'images filme, monte et parfois commente ses propres sujets — figure née de l'allègement du matériel, qui a fusionné des métiers autrefois séparés. Le monteur assemble images et sons pour construire le sujet : c'est au montage que se décide le sens, par l'ordre, la durée et ce qu'on retire. En direct, le réalisateur de télévision choisit en temps réel les images diffusées parmi plusieurs caméras, décision prise en une fraction de seconde et sans retour possible.`],
+    ["Produire et publier", `Le producteur audiovisuel monte le financement et porte la responsabilité du projet : il réunit les diffuseurs, les aides et les partenaires, engage les équipes et assume les dépassements. Sans lui, aucun documentaire ni aucune série n'existe, et son rôle est presque toujours invisible au public.
+
+Le community manager anime la présence et les échanges d'un média sur les réseaux sociaux : il ne se contente pas de relayer, il reformule pour chaque plateforme et modère les discussions. Le métier, apparu il y a une quinzaine d'années, est devenu un poste éditorial à part entière, puisqu'une large part de l'audience arrive désormais par là.`],
+    ["Celui qui répond devant la loi", `Le directeur de la publication assume la responsabilité juridique de ce qui est publié. En droit français de la presse, c'est lui qui est poursuivi en premier en cas de diffamation ou d'injure, avant même l'auteur de l'article — mécanisme dit de responsabilité en cascade, institué par la loi de 1881.
+
+Cette règle a une conséquence pratique : la fonction ne peut être occupée par n'importe qui, et elle donne à son titulaire un pouvoir de dernier recours sur ce qui paraît. Elle explique aussi pourquoi tout site d'information doit mentionner un directeur de publication identifiable — l'anonymat éditorial n'est pas admis.`],
+  ],
+  "cm3-censure-liberte": [
+    ["Avant, ou après", `La censure préalable contrôle les contenus avant leur publication. Elle a disparu en France pour la presse avec la loi de 1881, qui a fait le choix inverse : on publie librement, et l'on répond ensuite de ce qu'on a publié. Cette distinction gouverne tout le droit français de l'expression.
+
+Le cinéma fait exception partielle : un film ne peut sortir en salle sans visa d'exploitation délivré par le ministère de la Culture, assorti d'une classification par âge — tous publics, moins de douze ans, moins de seize ans, moins de dix-huit ans. Le visa peut être refusé, ce qui reste rarissime. La classification, elle, a des effets économiques considérables, une interdiction aux moins de seize ans fermant l'accès à la télévision aux heures de grande écoute.`],
+    ["Les limites légales", `La loi française pose des limites précises à la liberté d'expression : la diffamation, l'injure, l'incitation à la haine et l'apologie de certains crimes. Ces infractions sont définies strictement, et leur poursuite obéit à des délais courts.
+
+La diffamation est l'allégation d'un fait précis portant atteinte à l'honneur ou à la considération d'une personne : elle suppose un fait vérifiable, et son auteur peut s'exonérer en prouvant sa véracité ou sa bonne foi. L'injure est une expression outrageante qui ne contient l'imputation d'aucun fait : traiter quelqu'un d'incompétent relève de l'injure, dire qu'il a détourné des fonds relève de la diffamation. La distinction est technique et décide de la procédure.`],
+    ["Faire taire autrement", `Un procès-bâillon est une action en justice engagée non pour gagner mais pour intimider : les frais, la durée et la charge psychologique suffisent à décourager un journaliste indépendant ou une petite rédaction, même quand l'action est vouée à l'échec. L'Union européenne a adopté en 2024 une directive visant à permettre le rejet rapide de ces procédures.
+
+À l'inverse, la protection des sources journalistiques garantit le droit de ne pas révéler l'identité de ses informateurs. Renforcée en France en 2010, elle admet des exceptions en matière de sécurité, ce qui en limite la portée. Sans elle, aucune enquête reposant sur des témoignages internes ne serait possible.`],
+    ["Ce qu'on ne dit pas", `L'autocensure est une restriction que l'on s'impose par anticipation d'une sanction ou d'une réaction — juridique, économique, professionnelle ou sociale. Elle est par nature invisible et donc impossible à mesurer : on ne peut pas recenser les articles non écrits.
+
+Elle rappelle que la liberté d'expression ne se réduit pas à l'absence d'interdiction. Le code Hays américain, qui a régi le contenu des films de 1934 à 1968, était précisément une autocensure de la profession, adoptée pour devancer une réglementation publique : la contrainte la plus efficace est souvent celle que l'on s'applique soi-même.`],
+  ],
+
+  "cm3-archives-audiovisuelles": [
+    ["Ce qui a disparu", `Une part importante du patrimoine audiovisuel du XXe siècle a été perdue, et pour une raison prosaïque : les bandes coûtaient cher, on les effaçait et on les réutilisait. Des émissions entières, des directs, des interviews uniques ont ainsi été enregistrés par-dessus. Des chaînes majeures ont perdu de cette façon des années de programmes.
+
+Le cinéma a subi d'autres pertes, matérielles celles-là. Les pellicules nitrate, utilisées jusqu'aux années 1950, sont extrêmement inflammables — elles brûlent même sous l'eau — et se dégradent en dégageant des gaz : de nombreux incendies d'archives ont détruit des collections entières. Les pellicules acétate qui leur ont succédé souffrent du syndrome du vinaigre, dégradation chimique reconnaissable à son odeur, qui rend le film cassant et illisible.`],
+    ["Conserver aujourd'hui", `En France, l'INA conserve les archives de la radio et de la télévision et assure le dépôt légal de l'audiovisuel, étendu depuis 2006 au dépôt légal du web : une collecte automatisée de sites internet à des fins patrimoniales, qui archive des milliards de pages.
+
+La conservation numérique pose un problème inattendu : un fichier ne se dégrade pas comme une pellicule, il devient illisible d'un coup quand le format ou le support disparaît. D'où la migration périodique — transfert régulier des données vers des formats et supports actuels — et la préférence donnée aux formats ouverts, dont la spécification est publique et documentée, seuls à garantir qu'on pourra encore les lire dans trente ans.`],
+    ["Restaurer", `La restauration numérique d'un film consiste à le numériser à très haute définition, puis à corriger image par image les rayures, les taches, les instabilités et la colorimétrie. Le travail est considérable — un long métrage compte plus de cent trente mille images — et pose les mêmes questions déontologiques que la restauration d'un tableau : jusqu'où corriger, et vers quel état revenir.
+
+Les cinémathèques, institutions qui collectent, conservent et projettent les films, sont au cœur de ce travail. La Cinémathèque française, fondée par Henri Langlois, a sauvé pendant la guerre des centaines de films que leur destruction menaçait, parfois en les cachant.`],
+    ["Le verrou des droits", `L'accès aux archives audiovisuelles est souvent limité, et rarement pour des raisons techniques : ce sont les droits d'auteur et les droits voisins qui restreignent la diffusion. Une émission ancienne mobilise des dizaines d'ayants droit — auteurs, réalisateurs, interprètes, musiciens, agences d'images — dont l'accord est nécessaire pour toute rediffusion.
+
+Le résultat est paradoxal : des documents conservés, numérisés et parfaitement accessibles techniquement restent invisibles au public. C'est l'un des arguments avancés en faveur d'exceptions patrimoniales élargies, qui autoriseraient au moins la consultation sur place à des fins de recherche.`],
+  ],
+  "cm3-cinema-documentaire-france": [
+    ["Qui paie", `Le documentaire français est largement soutenu par les diffuseurs télévisés : leurs obligations d'investissement dans la production, combinées aux aides du CNC et des régions, constituent l'essentiel du financement. Peu de documentaires se montent sans qu'une chaîne s'engage.
+
+Cette dépendance a un effet direct sur les formats : durée calibrée sur la case de diffusion, structure attendue, commentaire souvent exigé. Elle explique aussi la vitalité du secteur — la France produit chaque année plusieurs centaines de documentaires, volume sans équivalent en Europe — et sa fragilité, puisqu'un recul des obligations des diffuseurs assèche immédiatement la production.`],
+    ["Filmer la France", `Raymond Depardon a filmé les paysans, les hôpitaux psychiatriques, les tribunaux et les commissariats, avec une méthode constante : rester longtemps, ne pas intervenir, laisser venir. Sa trilogie sur le monde paysan s'étend sur dix ans. Nicolas Philibert, avec Être et avoir, filme une année dans une classe unique rurale et obtient un succès considérable en salle, rare pour le genre.
+
+Agnès Varda a mêlé toute sa vie documentaire et fiction, jusqu'aux Glaneurs et la Glaneuse, où elle filme ceux qui récupèrent ce que les autres jettent, et s'inclut elle-même dans le sujet en filmant ses propres mains vieillissantes.`],
+    ["Regarder le siècle", `Trois films ont changé le rapport français à son histoire. Nuit et brouillard, d'Alain Resnais, sorti en 1956, confronte des images d'archives des camps à des vues en couleur des lieux vides ; le film fut menacé de censure pour un plan montrant un gendarme français dans un camp de transit.
+
+Le Chagrin et la Pitié, de Marcel Ophuls, sorti en 1969, démonte par des témoignages le récit d'une France unanimement résistante : il resta interdit d'antenne à la télévision française pendant douze ans. Shoah, de Claude Lanzmann, interroge pendant plus de neuf heures des témoins — survivants, bourreaux, riverains — sans utiliser une seule image d'archive : il n'y a que des visages, des lieux d'aujourd'hui et de la parole.`],
+    ["Où le voir", `La case documentaire est un créneau de programmation dédié dans une grille : elle garantit une exposition régulière, souvent à des horaires tardifs. Sa position dans la soirée en dit long sur la place accordée au genre par les chaînes généralistes.
+
+En salle, la diffusion reste difficile, mais les festivals compensent partiellement : le Festival international du documentaire de Marseille est le principal rendez-vous français du genre, aux côtés du Cinéma du réel à Paris et des États généraux du documentaire de Lussas, village ardéchois de mille habitants qui accueille chaque été des milliers de professionnels.`],
+  ],
+
+  "cm3-publicite-medias": [
+    ["Ce qui finance le gratuit", `La publicité finance une part majeure des médias gratuits : télévision hertzienne, radio commerciale, sites d'information en accès libre. Le modèle est ancien et son principe simple — le média rassemble une audience, l'annonceur achète l'accès à cette audience.
+
+Un spot publicitaire télévisé est diffusé dans un écran, à des tarifs qui varient selon l'heure : le prime time publicitaire correspond aux tranches où les tarifs sont les plus élevés, c'est-à-dire aux plus fortes audiences. Le parrainage fonctionne autrement : une marque finance un programme et y est associée par une mention, sans message commercial direct — formule qui contourne partiellement la saturation publicitaire.`],
+    ["Compter l'audience", `Le coût pour mille mesure ce qu'il en coûte pour atteindre mille personnes ou obtenir mille affichages. C'est l'unité de comparaison entre supports : elle permet de mettre en regard une page de magazine, un spot radio et une bannière web.
+
+La publicité programmatique a bouleversé cette économie : l'achat d'espaces y est automatisé et ciblé en temps réel, une enchère se déroulant en quelques millisecondes pendant le chargement d'une page pour déterminer quelle annonce sera montrée à quel internaute. L'annonceur n'achète plus un support mais un profil, ce qui a fait chuter la valeur des espaces des médias au profit des plateformes qui détiennent les données.`],
+    ["Suivre, et ses limites", `Le ciblage comportemental fonde la publicité sur l'historique de navigation de l'utilisateur. En Europe, il est soumis au consentement aux cookies : une autorisation préalable, libre et informée, est requise pour tout suivi à des fins publicitaires — d'où les bandeaux omniprésents, dont la conception a fait l'objet de nombreuses mises en demeure pour non-respect de la liberté du choix.
+
+Deux phénomènes érodent le modèle. Les bloqueurs de publicité empêchent l'affichage des annonces, avec des taux d'utilisation élevés chez les publics jeunes et technophiles. La fraude publicitaire, affichages ou clics générés artificiellement par des robots sur des sites fantômes, détourne une part significative des budgets — plusieurs milliards par an à l'échelle mondiale, selon les estimations.`],
+    ["Protéger les publics", `L'encadrement de la publicité pour les enfants limite certains messages dans les programmes jeunesse : en France, la publicité est interdite dans et autour des programmes jeunesse des chaînes publiques, et des règles restreignent les messages sur les aliments trop gras, sucrés ou salés.
+
+D'autres pays sont allés plus loin — la Suède et la Norvège interdisent toute publicité télévisée destinée aux moins de douze ans. Le débat s'est déplacé vers le numérique, où l'exposition est moins encadrée et où la frontière entre contenu et publicité est brouillée par les recommandations d'influenceurs, ce qui a justifié la loi française de 2023 sur le marketing d'influence.`],
+  ],
 };
