@@ -714,4 +714,136 @@ Son intérêt tient précisément au moment : intervenir avant la cessation de p
 
 La transmission d'entreprise est le transfert de propriété à un repreneur externe, à un salarié ou à un héritier. C'est un enjeu de masse en France : une part importante des dirigeants de PME approche de l'âge de la retraite, et une transmission ratée détruit une entreprise viable. Sa difficulté est autant humaine que financière — valorisation, financement du repreneur, fiscalité de la transmission, mais aussi préparation du départ d'un dirigeant qui incarne souvent l'entreprise à lui seul.`],
   ],
+
+  "ie3-services-publics": [
+    ["Ce qui fait un service public", `Un service public est une activité d'intérêt général assurée ou contrôlée par une personne publique. La définition combine deux critères : une finalité — l'intérêt général — et un lien organique avec une autorité publique, qui l'exerce elle-même ou en contrôle l'exercice.
+
+Ce second critère est décisif : un service public peut être géré directement ou délégué à un opérateur privé sans cesser d'être un service public. L'eau, les transports urbains, les cantines scolaires sont très souvent exploités par des entreprises privées, sous le contrôle de la collectivité qui en reste responsable.
+
+Une régie municipale correspond à la gestion directe : la collectivité assure elle-même le service avec ses agents et ses moyens. Une délégation de service public est un contrat par lequel elle en confie la gestion à un tiers, dont la rémunération est substantiellement liée aux résultats de l'exploitation — critère qui la distingue du marché public, où le prestataire est payé un prix convenu quel que soit le succès.
+
+Le choix entre les deux n'est pas idéologique mais pratique : la régie donne la maîtrise et exige des compétences internes ; la délégation apporte un savoir-faire et suppose une capacité à négocier et à contrôler, faute de quoi l'asymétrie d'information joue contre la collectivité.`],
+    ["Le cadre européen", `Le droit européen ignore la catégorie française de service public et raisonne en termes de services d'intérêt économique général : des activités économiques soumises à des obligations particulières que le marché seul n'assurerait pas.
+
+Cette approche autorise des dérogations aux règles de concurrence, à condition qu'elles soient nécessaires et proportionnées à la mission. Elle a néanmoins conduit à l'ouverture progressive à la concurrence des grands services en réseau — télécommunications, énergie, rail, poste.
+
+Cette ouverture repose partout sur le même schéma : séparer l'infrastructure, souvent monopole naturel qu'on ne duplique pas, et les services exploités dessus, ouverts à plusieurs opérateurs. Le réseau reste régulé, l'accès est garanti à tous les opérateurs à des conditions non discriminatoires.
+
+Le service universel des télécommunications illustre la contrepartie exigée : l'obligation d'assurer à tous, sur tout le territoire, un service de base à un prix abordable. De même, un opérateur postal désigné est soumis à des obligations de distribution partout, y compris là où ce n'est pas rentable — obligation dont le financement, à mesure que le courrier décline, est devenu l'un des sujets les plus difficiles du secteur.`],
+    ["Le territoire", `La continuité territoriale est le principe selon lequel l'accès aux services publics doit être garanti depuis les territoires éloignés — outre-mer, zones de montagne, îles. Elle se traduit par des aides au transport de personnes et de marchandises, et par des obligations de desserte.
+
+Elle est l'une des déclinaisons du principe d'égalité, et elle entre régulièrement en tension avec la rationalisation budgétaire : fermer une ligne, un guichet ou une maternité peu fréquentés est financièrement défendable et rompt une continuité que la population perçoit comme un droit.
+
+Cette tension explique une part importante des conflits territoriaux des dernières décennies. Elle se joue moins sur le niveau global du service public que sur sa répartition, et les indicateurs nationaux — nombre de médecins, de classes, de bureaux — masquent des écarts locaux considérables.`],
+    ["Le guichet devenu écran", `La dématérialisation des services publics fait passer les démarches administratives au format numérique. Elle apporte des gains réels : disponibilité permanente, suppression des déplacements, traitement plus rapide, économies de fonctionnement.
+
+Elle produit aussi une exclusion documentée. Une part significative de la population rencontre des difficultés avec les démarches en ligne, pour des raisons d'équipement, de connexion, de compétences, de langue ou de handicap. Or la dématérialisation s'est souvent accompagnée de la fermeture des guichets physiques, supprimant l'alternative au moment même où elle devenait nécessaire. Le Défenseur des droits a consacré plusieurs rapports à cette question, en rappelant qu'un service inaccessible n'est pas un service rendu.
+
+L'accessibilité numérique des sites publics est une obligation légale d'adapter les sites et applications aux personnes en situation de handicap, selon un référentiel technique précis — navigation au clavier, compatibilité avec les lecteurs d'écran, contrastes suffisants, sous-titrage. Le taux de conformité effective reste faible, et les sanctions prévues sont rarement appliquées. C'est l'un des écarts les plus nets entre l'obligation affichée et la réalité constatée.`],
+  ],
+
+  "ie3-economie-comportementale": [
+    ["L'agent économique réel", `L'économie comportementale intègre les apports de la psychologie à l'analyse économique pour expliquer les décisions réellement observées. Son point de départ est un constat : les individus ne se comportent pas comme l'agent parfaitement rationnel des manuels, capable de calculer sans erreur, de traiter toute l'information disponible et de maintenir des préférences cohérentes.
+
+Ces écarts ne sont pas des erreurs aléatoires qui se compenseraient : ce sont des biais systématiques, prévisibles et reproductibles. C'est ce caractère systématique qui les rend scientifiquement intéressants et opérationnellement utiles.
+
+Le champ s'est constitué à partir des travaux de Daniel Kahneman et Amos Tversky dans les années 1970, et a été consacré par plusieurs prix Nobel d'économie — attribués à des chercheurs dont l'un était psychologue de formation et n'avait jamais suivi de cours d'économie.`],
+    ["Les biais liés à la possession", `L'aversion à la perte désigne le fait qu'une perte est ressentie environ deux fois plus intensément qu'un gain de même montant. Perdre cinquante euros affecte davantage que gagner cinquante euros ne réjouit.
+
+Cette asymétrie a des conséquences en cascade. Elle explique l'effet de dotation : on surévalue ce que l'on possède déjà, parce que s'en séparer est vécu comme une perte. Des expériences classiques montrent que des personnes à qui l'on offre un objet réclament pour le vendre bien plus qu'elles n'auraient accepté de payer pour l'acquérir quelques minutes plus tôt.
+
+Elle explique aussi le biais du statu quo, préférence pour l'état actuel des choses : tout changement comporte des pertes identifiables et des gains incertains, et l'asymétrie fait pencher la balance vers l'inaction. C'est l'un des obstacles les mieux documentés aux réformes, indépendamment de leur contenu.
+
+L'escalade d'engagement relève d'une logique voisine : on poursuit une action désastreuse en raison des investissements déjà consentis, alors que ceux-ci sont perdus quoi qu'il arrive. Économiquement, un coût irrécupérable ne devrait jamais entrer dans une décision ; psychologiquement, il pèse énormément.`],
+    ["Les biais de jugement et de temps", `Le biais de disponibilité conduit à surestimer la probabilité des événements dont des exemples viennent facilement à l'esprit. Une catastrophe médiatisée paraît plus probable qu'un risque statistiquement bien supérieur mais discret — on craint davantage l'accident d'avion que l'accident domestique, alors que le second est infiniment plus fréquent.
+
+La comptabilité mentale décrit le fait de traiter l'argent différemment selon son origine ou sa destination, alors qu'un euro est un euro. On dépense plus facilement une prime qu'un salaire, on maintient un livret d'épargne tout en payant les intérêts d'un découvert, on répartit son budget en enveloppes dont on ne veut pas déplacer le contenu.
+
+La procrastination s'analyse, du point de vue économique, comme un décalage entre les préférences présentes et futures : on souhaite sincèrement épargner, faire du sport ou arrêter de fumer demain, et l'on choisit systématiquement l'inverse aujourd'hui. Ce n'est pas une préférence stable pour le présent — auquel cas il n'y aurait pas de regret — mais une incohérence temporelle, qui explique la demande d'engagement contraignant : on cherche à se lier soi-même à l'avance.`],
+    ["Les politiques publiques", `Un nudge est un aménagement du contexte de choix qui oriente les décisions sans contraindre ni modifier les incitations économiques. La définition exige que toutes les options restent disponibles et que le coût de s'écarter du chemin suggéré soit négligeable.
+
+Le levier le plus puissant est l'option par défaut. Dans les pays où le don d'organes suppose une inscription volontaire, les taux de consentement plafonnent ; dans ceux où il est présumé sauf refus exprimé, ils dépassent quatre-vingt-dix pour cent — pour des populations aux valeurs comparables. Le même mécanisme fait varier massivement les taux d'adhésion à un plan d'épargne retraite selon que l'inscription est automatique ou volontaire.
+
+La présentation de l'information compte tout autant : rendre une démarche plus simple, envoyer un rappel au bon moment, indiquer ce que font les autres, formuler un choix en termes de gain ou de perte modifient les comportements pour un coût quasi nul.
+
+Ces outils suscitent une critique sérieuse et légitime : ils exploitent des biais plutôt que de les corriger, et supposent que quelqu'un décide de la direction dans laquelle il est bon d'orienter. Leur défense est qu'aucune présentation n'est neutre — il faut bien une option par défaut — et que le choix reste ouvert. Le débat porte donc moins sur la technique que sur qui la manie et à quelles fins.`],
+  ],
+
+  "ie3-collectivites-finances": [
+    ["Qui investit en France", `Les collectivités locales réalisent environ deux tiers de l'investissement public civil en France : écoles, collèges, lycées, voirie, réseaux d'eau et d'assainissement, équipements sportifs et culturels, transports urbains. L'État conserve les grandes infrastructures nationales et la défense.
+
+Cette part explique le rôle contracyclique des collectivités : quand leurs finances se contractent, l'investissement public s'effondre, avec des effets immédiats sur le bâtiment et les travaux publics. Le cycle électoral municipal produit d'ailleurs une oscillation régulière et bien documentée, l'investissement culminant en fin de mandat et chutant l'année suivante.
+
+Leur budget obéit à une règle stricte : la règle d'or budgétaire impose de voter un budget en équilibre réel, section de fonctionnement et section d'investissement séparément, et interdit d'emprunter pour financer des dépenses de fonctionnement. Une collectivité ne peut donc s'endetter que pour investir — contrainte que l'État ne s'applique pas à lui-même.`],
+    ["Les ressources", `Les principales ressources fiscales des communes sont aujourd'hui la taxe foncière et diverses taxes locales. Leur structure a été profondément modifiée par deux réformes successives : la suppression de la taxe professionnelle en 2010, remplacée par des impositions dont les communes maîtrisent moins les taux, puis la suppression de la taxe d'habitation sur les résidences principales, compensée par des transferts.
+
+Ces compensations posent une question de principe. L'autonomie financière des collectivités est un principe de valeur constitutionnelle depuis 2003 : leurs ressources propres doivent représenter une part déterminante de leurs recettes. Mais une part croissante de ces « ressources propres » consiste en fractions d'impôts nationaux dont elles ne votent pas le taux — ce qui préserve le ratio et vide le principe d'une partie de sa substance, l'autonomie fiscale supposant de pouvoir décider du niveau du prélèvement.
+
+Les dotations de l'État ont par ailleurs été fortement réduites dans les années 2010, dans le cadre du redressement des comptes publics : plusieurs milliards d'euros de baisse cumulée, absorbés par les collectivités surtout au détriment de l'investissement.`],
+    ["Gérer et rééquilibrer", `La capacité d'autofinancement est l'excédent dégagé par la section de fonctionnement, disponible pour rembourser la dette et financer l'investissement. C'est l'indicateur central de la santé financière d'une collectivité : une capacité d'autofinancement nulle signifie qu'aucun investissement n'est possible sans emprunt supplémentaire, et qu'un ajustement s'impose.
+
+La péréquation horizontale transfère des ressources entre collectivités riches et pauvres, par opposition à la péréquation verticale opérée par l'État à travers ses dotations. Elle est indispensable parce que les bases fiscales sont extrêmement inégales : une commune accueillant une zone d'activités et une commune résidentielle voisine peuvent avoir des ressources par habitant dans un rapport de plusieurs unités, pour des charges comparables.
+
+Un emprunt toxique est un prêt structuré dont le taux dépend d'un indice complexe — écart entre devises, entre taux longs et courts — et qui peut s'envoler brutalement. Des centaines de collectivités françaises en ont souscrit dans les années 2000, séduites par un taux d'appel très bas, avant de voir leurs charges d'intérêt exploser après 2008. Le contentieux a duré des années et s'est soldé par un fonds de soutien public, c'est-à-dire par une prise en charge collective d'engagements mal évalués de part et d'autre.`],
+    ["Les contrôles", `Le contrôle de légalité est exercé par le préfet sur les actes des collectivités. Depuis les lois de décentralisation de 1982, il s'exerce a posteriori : les actes sont exécutoires dès leur transmission, et le préfet qui les estime illégaux ne peut les annuler lui-même mais doit les déférer au tribunal administratif. Le changement est majeur — auparavant, la tutelle administrative approuvait avant exécution.
+
+Ce contrôle porte sur la légalité, jamais sur l'opportunité : un préfet ne peut contester un choix politique, seulement sa conformité au droit.
+
+La chambre régionale des comptes est une juridiction financière qui contrôle les comptes et la gestion des collectivités et de leurs satellites. Elle juge les comptes des comptables publics, et surtout examine la gestion, c'est-à-dire l'économie des moyens, l'efficacité et la régularité des choix. Ses rapports d'observations définitives sont publics et présentés devant l'assemblée délibérante, ce qui en fait un instrument de débat local autant qu'un contrôle. Elle ne peut ni sanctionner un élu ni annuler une décision — sa force est celle de la publicité.`],
+  ],
+
+  "ie3-europe-politiques": [
+    ["Comment l'Union agit", `L'Union européenne agit surtout par la réglementation et par un budget, non par l'impôt. Elle ne lève pas d'impôt propre : ses ressources proviennent des contributions des États assises sur leur revenu national, de droits de douane et d'une fraction de TVA. Son budget représente environ un pour cent du revenu national brut de l'Union — très peu au regard des budgets nationaux.
+
+Sa puissance est donc ailleurs : dans la norme. Un règlement s'applique directement dans tous les États ; une directive fixe un résultat que chacun transpose. Cette capacité normative, appliquée à un marché de plus de quatre cents millions de consommateurs, produit un effet d'entraînement mondial — les entreprises préférant souvent appliquer partout la norme européenne plutôt que de gérer plusieurs standards.
+
+La politique agricole commune représente encore environ un tiers de ce budget, part en baisse continue mais qui reste la première. Elle est le domaine où l'Union dispose des moyens financiers les plus substantiels, ce qui explique son importance historique et politique.`],
+    ["La concurrence, compétence forte", `La politique européenne de concurrence est l'une des rares compétences où la Commission dispose d'un pouvoir de décision direct et immédiat. Elle contrôle trois choses : les ententes entre concurrents, les abus de position dominante, et les concentrations d'entreprises.
+
+Elle contrôle en outre les aides d'État. Une aide d'État est un avantage accordé par une autorité publique, sélectif — bénéficiant à certaines entreprises et pas à d'autres — et susceptible de fausser la concurrence. Elle est en principe interdite, avec de nombreuses dérogations : recherche, régions en difficulté, environnement, services d'intérêt économique général.
+
+Ce contrôle est l'un des plus contestés politiquement. Il empêche les États de soutenir librement leurs entreprises, ce qui est précisément son objet — éviter une surenchère de subventions où gagneraient les États les plus riches. Il a été assoupli en situation de crise, en 2020 puis face aux plans de soutien américains, ce qui a rouvert le débat sur l'articulation entre concurrence et politique industrielle.
+
+La politique commerciale commune est, elle, une compétence exclusive : seule l'Union négocie les accords commerciaux, les États membres n'ayant pas le droit de conclure des accords bilatéraux. C'est ce qui donne à l'Europe son poids dans les négociations mondiales.`],
+    ["Former, chercher, verdir", `Le programme Erasmus finance la mobilité étudiante et de formation en Europe. Lancé en 1987, il a concerné plusieurs millions de personnes et constitue probablement la politique européenne la plus populaire et la plus visible. Son effet dépasse la formation : il crée une expérience concrète de l'Europe, et les études montrent un effet mesurable sur les carrières et sur les rencontres.
+
+Le programme-cadre de recherche est le principal instrument de financement de la recherche européenne, doté de plusieurs dizaines de milliards d'euros par cycle. Il finance des projets collaboratifs entre équipes de plusieurs pays, et à travers le Conseil européen de la recherche des projets individuels sélectionnés sur la seule excellence — dispositif qui a considérablement élevé le niveau d'exigence de la recherche européenne.
+
+Le pacte vert européen est une stratégie visant la neutralité climatique de l'Union en 2050, avec un objectif intermédiaire de réduction de cinquante-cinq pour cent des émissions en 2030. Il se décline en dizaines de textes touchant l'énergie, les transports, le bâtiment, l'agriculture et la finance.
+
+Le mécanisme d'ajustement carbone aux frontières en constitue le complément logique : il taxe le contenu carbone de certaines importations — acier, ciment, aluminium, engrais, électricité — pour éviter que la production ne se délocalise vers des pays moins exigeants. C'est la première tentative d'articuler politique climatique et commerce international à cette échelle, et elle est contestée par plusieurs partenaires commerciaux.`],
+    ["Coordonner et emprunter", `Le semestre européen est un cycle annuel de coordination des politiques économiques : les États soumettent leurs programmes budgétaires et de réformes, la Commission les évalue et formule des recommandations, le Conseil les adopte. Ces recommandations ne sont pas contraignantes au sens strict, mais elles s'articulent avec les règles budgétaires communes, dont le non-respect peut théoriquement entraîner des sanctions — jamais appliquées à ce jour.
+
+Le plan de relance adopté en 2020 constitue une rupture. Pour financer la reprise après la pandémie, l'Union a emprunté en commun sur les marchés, à hauteur de plusieurs centaines de milliards d'euros, et redistribué ces fonds aux États sous forme de subventions et de prêts, avec un remboursement assuré par le budget européen.
+
+Ce que cela change tient en peu de mots : une dette commune garantie par tous, pour financer des dépenses nationales. C'est ce que plusieurs États refusaient depuis des décennies, et ce qu'un précédent unique ne suffit pas à rendre permanent. La question de savoir si ce mécanisme sera reconduit, et donc si l'Union se dote durablement d'une capacité budgétaire propre, est l'un des débats structurants des prochaines années.`],
+  ],
+
+  "ie3-organisation-internationale-economie": [
+    ["Deux institutions nées ensemble", `Le Fonds monétaire international et la Banque mondiale ont été créés en 1944 à Bretton Woods, et leurs missions sont distinctes malgré une confusion fréquente.
+
+Le FMI a pour mission d'assurer la stabilité du système monétaire international et de prêter aux États confrontés à une crise de balance des paiements — c'est-à-dire incapables d'honorer leurs paiements extérieurs. Il intervient dans l'urgence, sur des durées courtes, avec des prêts destinés à rétablir un équilibre macroéconomique.
+
+La Banque mondiale finance des projets de développement à long terme dans les pays à faible et moyen revenu : infrastructures, santé, éducation, agriculture. Elle prête sur des décennies, à des conditions concessionnelles pour les plus pauvres.
+
+La formule est commode : le FMI prête aux États en difficulté, la Banque mondiale finance le développement. L'un traite un déséquilibre, l'autre construit.
+
+Les droits de vote y sont répartis selon des quotes-parts liées au poids économique des États, ce qui donne un pouvoir décisif aux pays avancés, avec une minorité de blocage américaine sur les décisions importantes. Cette gouvernance est contestée depuis des décennies par les économies émergentes, dont le poids réel a beaucoup augmenté sans que les quotes-parts suivent au même rythme.`],
+    ["Les conditions du prêt", `Un plan d'ajustement structurel est l'ensemble des réformes exigées par le FMI en contrepartie d'un prêt : réduction des déficits publics, libéralisation des prix et du commerce, privatisations, dévaluation.
+
+Ces programmes, appliqués massivement en Amérique latine et en Afrique dans les années 1980 et 1990, ont fait l'objet de critiques durables et en partie reconnues par l'institution elle-même. Leur reproche principal est d'avoir imposé des coupes dans les dépenses de santé et d'éducation, avec des conséquences sociales lourdes et des effets récessifs qui compromettaient le redressement même qu'ils visaient. Le FMI a depuis infléchi sa doctrine, en intégrant des planchers de dépenses sociales et en reconnaissant que les inégalités nuisent à la croissance — évolution notable pour une institution longtemps réputée dogmatique.
+
+Le Club de Paris est d'une autre nature : un groupe informel de créanciers publics — sans traité ni personnalité juridique, avec un secrétariat au Trésor français — qui renégocie collectivement les dettes souveraines. Son efficacité tenait à ce qu'il réunissait l'essentiel des créanciers publics ; elle s'est réduite avec la montée de créanciers extérieurs au Club et de détenteurs privés, qui rend la coordination bien plus difficile.
+
+Le droit de tirage spécial est un actif de réserve international créé par le FMI, dont la valeur repose sur un panier de monnaies. Il n'est pas une monnaie utilisable dans les échanges mais un droit d'obtenir des devises auprès d'autres membres. Une allocation exceptionnelle en 2021 a fourni des liquidités à tous les pays face à la pandémie — mécanisme rare et efficace, dont l'inconvénient est d'être réparti au prorata des quotes-parts, donc majoritairement vers les pays qui en avaient le moins besoin.`],
+    ["Les enceintes de coordination", `L'OCDE réunit une quarantaine d'économies développées et émergentes autour d'une activité d'analyse, de comparaison et de coordination. Elle ne dispose d'aucun pouvoir contraignant, et son influence tient à la qualité de ses données et à l'effet de comparaison entre pays — l'enquête PISA sur les acquis des élèves en est l'exemple le plus connu, et sa capacité à déclencher des débats nationaux illustre le pouvoir d'un simple classement.
+
+Elle a par ailleurs porté les négociations sur l'impôt minimum mondial et sur l'échange automatique d'informations fiscales, deux avancées majeures obtenues sans aucun pouvoir de contrainte.
+
+Le G7 est un forum informel réunissant sept grandes économies avancées, sans secrétariat permanent ni pouvoir de décision. Le G20, créé au niveau des chefs d'État en 2008 face à la crise financière, réunit vingt économies majeures représentant l'essentiel du PIB mondial, avancées et émergentes. Son élargissement traduisait un constat : les décisions économiques mondiales ne pouvaient plus se prendre entre pays occidentaux.
+
+Ces forums produisent des communiqués et non des normes. Leur utilité est celle de la coordination : en 2009, l'engagement simultané de relance budgétaire a probablement évité une dépression, ce qu'aucun État n'aurait fait seul de cette ampleur.
+
+L'aide liée, enfin, est une aide conditionnée à l'achat de biens ou de services du pays donateur. Elle réduit mécaniquement la valeur de l'aide pour le bénéficiaire, qui ne peut acheter au meilleur prix, et son déliement fait l'objet de recommandations internationales inégalement suivies.`],
+  ],
 };
