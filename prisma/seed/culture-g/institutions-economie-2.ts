@@ -39,8 +39,8 @@ export const CG_INSTITUTIONS_ECONOMIE_2: SeedSkill[] = [
     2, [
     ["Combien de députés l'Assemblée nationale compte-t-elle ?", ["Cinq cent soixante-dix-sept", "Trois cent quarante-huit", "Six cents", "Cinq cents"], 0,
      "Élus pour cinq ans au scrutin majoritaire à deux tours dans des circonscriptions."],
-    ["Comment les sénateurs français sont-ils élus ?", ["Au suffrage indirect par des grands électeurs", "Au suffrage universel direct", "Par les conseils régionaux", "Par les députés"], 0,
-     "Le collège électoral est composé à environ quatre-vingt-quinze pour cent de délégués des conseils municipaux."],
+    ["De qui le collège électoral sénatorial est-il très majoritairement composé ?", ["De délégués des conseils municipaux", "De conseillers régionaux", "De députés", "De maires uniquement"], 0,
+     "Environ quatre-vingt-quinze pour cent, ce qui explique la surreprésentation des communes rurales au Sénat."],
     ["Quelle chambre a le dernier mot en cas de désaccord législatif persistant ?", ["L'Assemblée nationale", "Le Sénat", "Aucune, le texte est abandonné", "Le Conseil constitutionnel tranche"], 0,
      "Le gouvernement doit toutefois le demander explicitement."],
     ["Qu'est-ce qu'une commission mixte paritaire ?", ["Une réunion de députés et de sénateurs cherchant un texte de compromis", "Une commission d'enquête", "Une commission permanente", "Une commission de contrôle budgétaire"], 0,
@@ -471,8 +471,8 @@ export const CG_INSTITUTIONS_ECONOMIE_2: SeedSkill[] = [
      "Le conteneur en est l'unité de base, transférée sans rupture de charge entre navire, train et camion."],
     ["Qu'est-ce qu'une infrastructure de recharge pour véhicules électriques ?", ["Un réseau de bornes conditionnant l'usage de ces véhicules", "Un parking équipé", "Une station-service adaptée", "Un dispositif domestique de charge"], 0,
      "Son déploiement inégal sur le territoire est l'un des principaux freins à l'adoption."],
-    ["Quel secteur émet le plus de gaz à effet de serre en France ?", ["Les transports", "l'industrie", "l'agriculture", "Le résidentiel"], 0,
-     "Environ un tiers des émissions nationales, dominées par la voiture individuelle.", 3],
+    ["Quel mode de transport domine les émissions du secteur en France ?", ["La voiture individuelle", "Le transport aérien intérieur", "Le fret ferroviaire", "Le transport maritime"], 0,
+     "Elle en représente à elle seule plus de la moitié, loin devant les poids lourds et l'aérien.", 3],
   ]),
 
   notion("ie2-culture-politiques", S, "Les politiques culturelles",
