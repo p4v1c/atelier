@@ -322,4 +322,89 @@ Le plateau brésilien occupe une grande partie du Brésil et porte l'essentiel d
 
 Cette distinction a des conséquences pratiques : les chiffres de déforestation publiés portent sur ce périmètre, qui inclut des zones de savane et des régions déjà largement défrichées. Les comparaisons internationales exigent donc de savoir de quel périmètre on parle — Amazonie légale brésilienne, bassin amazonien complet réparti sur neuf pays, ou couvert forestier mesuré par satellite.`],
   ],
+
+  "geo2-relief-france": [
+    ["Trois âges de montagnes", `Le relief français se lit comme un empilement d'époques. Les massifs anciens — Massif central, Massif armoricain, Vosges, Ardennes — datent de l'orogenèse hercynienne, il y a plus de trois cents millions d'années : ils ont été de hautes chaînes, puis l'érosion les a rabotés. Ils se reconnaissent à leurs sommets arrondis, leurs plateaux et leurs roches cristallines.
+
+Les chaînes récentes — Alpes et Pyrénées — sont nées de la collision entre l'Afrique et l'Europe au Tertiaire, il y a quelques dizaines de millions d'années seulement. Trop jeunes pour avoir été usées, elles culminent haut et présentent des versants abrupts, des crêtes découpées et des vallées glaciaires en auge. Les Pyrénées séparent la France de l'Espagne sur près de quatre cents kilomètres.`,
+      { type: "tableau", titre: "Reconnaître un massif à son allure", colonnes: ["Type", "Âge de la formation", "Silhouette", "Exemples"], lignes: [
+        ["Massif ancien", "Ère primaire (hercynien)", "Sommets ronds, plateaux, roches cristallines", "Massif central, Armoricain, Vosges"],
+        ["Chaîne récente", "Ère tertiaire (alpin)", "Sommets aigus, forte dénivelée, glaciers", "Alpes, Pyrénées"],
+        ["Chaîne plissée moyenne", "Tertiaire, calcaire", "Plis réguliers en lanières parallèles", "Jura"],
+        ["Bassin sédimentaire", "Comblement continu depuis le Secondaire", "Plaines et plateaux étagés", "Bassin parisien, Bassin aquitain"],
+      ] }],
+    ["Entre les massifs, les bassins", `Un bassin sédimentaire est une vaste dépression comblée par des couches déposées au fil des ères géologiques. Le Bassin parisien en est l'exemple le plus lisible : les couches y sont disposées en assiettes emboîtées, les plus récentes au centre. Comme elles n'ont pas toutes la même résistance, l'érosion dégage des reliefs dissymétriques appelés cuestas — un front abrupt tourné vers l'extérieur, un revers en pente douce. La côte de Meuse et la côte d'Île-de-France en sont les exemples classiques.
+
+Le Jura, lui, appartient à un troisième type : une chaîne de plis calcaires réguliers, formée en même temps que les Alpes mais bien moins soulevée. Ses crêtes parallèles et ses combles internes lui donnent une géométrie presque dessinée.`],
+    ["Le volcanisme endormi", `Le Massif central occupe le centre de la France et porte le plus grand champ volcanique du pays. La chaîne des Puys aligne quelque quatre-vingts édifices sur une trentaine de kilomètres, dominés par le puy de Dôme. Le volcanisme y est récent à l'échelle géologique : certaines éruptions remontent à moins de dix mille ans, ce qui range ces volcans parmi les endormis plutôt que les éteints.
+
+Un détail illustre la difficulté de la mesure en montagne : l'altitude officielle du mont Blanc varie d'une campagne à l'autre. Ce n'est pas la roche qui bouge, mais l'épaisseur de la calotte glaciaire qui coiffe le sommet ; les relevés au GPS différentiel, réalisés tous les deux ans, donnent des valeurs oscillant de plus d'un mètre.`,
+      { image: "mont-blanc", legende: "Le mont Blanc : le sommet rocheux est fixe, la neige qui le coiffe ne l'est pas.", alt: "Le massif du Mont-Blanc enneigé" }],
+    ["L'eau descend", `Le réseau hydrographique découle directement de cette architecture. La Loire naît au mont Gerbier-de-Jonc, en Ardèche, sur le flanc est du Massif central, puis part vers le nord avant de tourner brutalement à l'ouest : c'est le plus long fleuve de France.
+
+Le Rhône, lui, détient le débit le plus élevé. La différence tient à l'alimentation : la Loire dépend surtout des pluies océaniques, capricieuses, quand le Rhône reçoit la fonte des neiges et des glaciers alpins, plus régulière et bien plus abondante. Longueur et puissance sont deux choses distinctes — une confusion fréquente que la géographie physique tranche sans ambiguïté.`],
+  ],
+
+  "geo2-oceanie-poles": [
+    ["Deux pôles opposés", `La symétrie apparente des pôles est trompeuse. L'Arctique est un océan gelé entouré de continents ; l'Antarctique est un continent entouré d'océans. Toute la suite en découle.
+
+Une banquise arctique flotte : sa fonte ne fait pas monter le niveau des mers, puisqu'elle déplace déjà son propre poids d'eau. L'Antarctique, lui, porte une calotte posée sur de la roche, épaisse de plusieurs kilomètres et contenant environ quatre-vingt-dix pour cent des glaces mondiales — soit, si elle fondait entièrement, plusieurs dizaines de mètres de hausse du niveau marin. C'est la raison pour laquelle les climatologues surveillent en priorité les glaciers de l'Antarctique occidental.`,
+      { image: "geo-antarctique-calotte", legende: "La calotte antarctique repose sur un continent : c'est ce qui rend sa fonte irréversible à échelle humaine.", alt: "Vue de la calotte glaciaire antarctique" }],
+    ["Habiter le froid", `L'Arctique est habité depuis des millénaires. Les Inuits occupent l'Arctique nord-américain, du Groenland à l'Alaska, avec une continuité culturelle et linguistique remarquable sur plusieurs milliers de kilomètres. L'Antarctique, à l'inverse, n'a jamais eu de population autochtone : il n'accueille que des bases scientifiques, sous un régime international qui gèle les revendications territoriales.
+
+Le réchauffement rouvre un vieux rêve de navigateurs : le passage du Nord-Ouest, route maritime arctique reliant l'Atlantique au Pacifique par le nord du Canada. Longtemps mortel — l'expédition Franklin y disparut au XIXe siècle —, il devient praticable quelques semaines par an, ce qui soulève des questions de souveraineté, d'environnement et de sécurité maritime encore largement ouvertes.`],
+    ["Le Pacifique en trois noms", `L'Océanie se divise traditionnellement en trois ensembles culturels : la Mélanésie, la Micronésie et la Polynésie — respectivement les « îles noires », les « petites îles » et les « nombreuses îles ». Ce découpage, forgé par un navigateur français au XIXe siècle, mêle critères géographiques et jugements sur les populations ; il reste employé, mais il est aujourd'hui discuté.
+
+L'Australie est de loin le plus grand pays d'Océanie. Elle est aussi le territoire habité en continuité depuis le plus longtemps : les Aborigènes y vivent depuis au moins soixante-cinq mille ans, ce qui en fait la plus ancienne culture vivante documentée. Sa côte nord-est est longée par la Grande Barrière de corail, plus vaste structure d'origine biologique de la planète, visible depuis l'orbite.`],
+    ["Des îles à hauteur d'eau", `Un atoll est un anneau corallien entourant un lagon. Sa formation, comprise dès Darwin, tient en trois temps : un récif se développe autour d'une île volcanique, l'île s'affaisse lentement, le corail continue de croître vers la lumière — jusqu'à ce qu'il ne reste qu'une couronne et une lagune centrale.
+
+C'est une architecture magnifique et fragile : un atoll culmine à quelques mètres au-dessus du niveau de la mer. Tuvalu, État polynésien entièrement bâti sur ce modèle, figure parmi les pays les plus directement menacés par la montée des eaux — non par une submersion spectaculaire, mais par la salinisation des nappes, les submersions de tempête et la perte des terres cultivables, qui rendent une île inhabitable bien avant qu'elle ne disparaisse.`],
+  ],
+
+  "geo2-cartographie": [
+    ["Le problème de départ", `On ne peut pas aplatir une sphère sans la déformer : c'est un théorème, démontré par Gauss, et non une limite technique qu'un progrès viendrait lever. Toute carte plane ment donc nécessairement, et la seule question est de savoir sur quoi.
+
+Une projection choisit ce qu'elle conserve. Une projection conforme préserve les angles, donc les formes locales, au prix des surfaces. Une projection équivalente préserve les rapports de surface, au prix des formes. Aucune ne conserve simultanément les formes, les surfaces et les distances. Choisir une projection, c'est donc décider ce que l'on accepte de fausser — un arbitrage cartographique, parfois politique.`],
+    ["Mercator et ses conséquences", `La projection de Mercator, publiée en 1569, est conforme : une route à cap constant y est une ligne droite, ce qui en fit pendant quatre siècles l'outil de la navigation. Sa contrepartie est un étirement croissant vers les pôles. Le Groenland y est le cas le plus spectaculaire : il paraît aussi vaste que l'Afrique alors qu'il est quatorze fois plus petit.
+
+Comme cette projection a longtemps illustré les manuels scolaires, les atlas et les murs des classes, elle a durablement gonflé l'Europe et l'Amérique du Nord dans les représentations mentales, et rétréci les régions équatoriales. Les projections équivalentes proposées depuis en réponse déforment franchement les formes, ce qui les rend impopulaires : le débat n'est pas clos.`,
+      { image: "geo-projection-mercator", legende: "Sur Mercator, le Groenland égale l'Afrique. En surface réelle, il en fait un quatorzième.", alt: "Planisphère en projection de Mercator" }],
+    ["Se repérer, se mesurer", `Un point du globe se repère par deux angles. La latitude se compte depuis l'équateur et monte jusqu'à quatre-vingt-dix degrés vers chaque pôle ; la longitude se compte depuis un méridien de référence, fixé à Greenwich par une conférence internationale en 1884 — un choix de convention, non de nature.
+
+L'échelle d'une carte exprime le rapport entre une distance sur la carte et la distance réelle : au 1/25 000, un centimètre vaut deux cent cinquante mètres. Le relief, lui, se rend par des courbes de niveau, lignes joignant les points de même altitude : leur resserrement signale une pente forte, leur écartement un terrain plat. Lire une carte topographique, c'est d'abord lire cet espacement.`],
+    ["La carte devient base de données", `Un système d'information géographique est un outil de gestion et d'analyse de données localisées : il superpose des couches — réseau routier, bâti, relief, population, pollution — et permet de les interroger ensemble. La carte cesse d'être une image pour devenir une base de données consultable, ce qui a transformé l'urbanisme, l'épidémiologie et la logistique.
+
+Le positionnement par satellite repose sur un principe simple : chaque satellite émet un signal horodaté, le récepteur mesure le temps de trajet, en déduit une distance, et croise quatre mesures pour obtenir position et heure. Le GPS américain a longtemps été seul opérationnel ; l'Union européenne a déployé Galileo pour ne pas dépendre d'un système militaire étranger, aux côtés du russe GLONASS et du chinois BeiDou.`],
+  ],
+
+  "geo3-departements-france": [
+    ["Un découpage de 1790", `Les départements naissent en 1790 d'une volonté de table rase : remplacer les provinces d'Ancien Régime, d'étendue et de statuts très inégaux, par des circonscriptions comparables où l'on puisse rejoindre le chef-lieu dans la journée à cheval. Leurs noms sont pris à la géographie physique — fleuves, montagnes, côtes — précisément pour effacer les héritages féodaux.
+
+De là vient leur numérotation, qui déroute au premier abord : elle suit l'ordre alphabétique des noms d'origine. C'est pourquoi l'Ain porte le numéro un et l'Yonne le numéro quatre-vingt-neuf. Les renommages ultérieurs — la Seine-Inférieure devenue Seine-Maritime, les Basses-Alpes devenues Alpes-de-Haute-Provence — ont brouillé la logique sans que les numéros ne bougent.`],
+    ["Un découpage retouché", `La carte n'a pas été figée pour autant. En 1964, les départements de la Seine et de la Seine-et-Oise, devenus ingérables avec la croissance de l'agglomération parisienne, sont divisés : les départements d'Île-de-France actuels en sortent. En 1976, la Corse est scindée en Corse-du-Sud et Haute-Corse. En 2011, Mayotte devient le cent unième département, à l'issue d'un référendum local.
+
+La France compte donc aujourd'hui cent un départements, dont cinq outre-mer. La Gironde est le plus vaste des départements métropolitains ; le Nord, le plus peuplé, approche les deux millions six cent mille habitants — davantage que plusieurs États membres de l'Union européenne.`,
+      { image: "carte-france-regions", legende: "Le maillage départemental, redécoupé en régions successives, reste la trame administrative de base.", alt: "Carte administrative de la France" }],
+    ["Curiosités de frontières", `Aucun département français n'est entièrement enclavé dans un autre, mais le Vaucluse possède une enclave : le canton de Valréas, séparé du reste du département et entouré par la Drôme. Cette anomalie remonte au Comtat Venaissin, territoire pontifical rattaché à la France en 1791 dont on a conservé les contours.
+
+D'autres irrégularités racontent la même histoire de compromis : des limites qui suivent d'anciens diocèses plutôt que des cours d'eau, des chefs-lieux choisis par arbitrage entre villes rivales, des communes coupées en deux. Le découpage rationnel de 1790 s'est heurté partout au terrain, et la carte porte encore les cicatrices de ces négociations.`],
+    ["À quoi sert un département", `La principale compétence du département est l'action sociale : revenu de solidarité active, allocation personnalisée d'autonomie pour les personnes âgées, prestation de compensation du handicap, protection de l'enfance. Ce bloc représente l'essentiel de son budget de fonctionnement.
+
+S'y ajoutent la gestion des collèges, l'entretien d'une grande part du réseau routier et le service départemental d'incendie et de secours. Les lois de décentralisation successives, et la montée en puissance des régions comme des intercommunalités, ont plusieurs fois relancé le débat sur la suppression de l'échelon. Il a chaque fois survécu, porté par son ancrage électoral et par la difficulté pratique de transférer ces missions ailleurs.`],
+  ],
+
+  "geo3-littoraux": [
+    ["Une ligne qui bouge", `Un littoral est la zone de contact entre la terre et la mer — non une ligne, mais une bande où alternent submersion et émersion. Le trait de côte en est la limite conventionnelle, et il n'est jamais figé : il recule ici, avance là, au rythme des tempêtes, des apports sédimentaires et des marées.
+
+L'énergie qui l'entretient vient de la houle. Là où elle frappe une côte rocheuse, elle sape le pied de la paroi jusqu'à l'effondrement : une falaise vive est une falaise activement érodée par la mer, reconnaissable à son profil abrupt et à ses éboulis frais. Les falaises crayeuses du pays de Caux reculent ainsi de plusieurs dizaines de centimètres par an en moyenne.`],
+    ["Le sable en transit", `Sur les côtes meubles, le mécanisme central est la dérive littorale : les vagues abordant la plage en biais transportent les sédiments parallèlement à la côte, par une succession de trajets en dents de scie. Une plage n'est donc pas un stock immobile mais un flux — du sable arrive d'un côté, repart de l'autre.
+
+Toute construction qui intercepte ce flux — épi, digue, port — engraisse l'amont et affame l'aval, déplaçant le problème plutôt que le résolvant. En arrière, un cordon dunaire protège l'arrière-pays : réservoir de sable mobilisable pendant les tempêtes, il n'assure ce rôle que si sa végétation fixatrice reste intacte, ce que le piétinement suffit à compromettre.`],
+    ["Là où l'eau douce rencontre l'eau salée", `Un estuaire est une embouchure élargie où la marée pénètre dans le fleuve : eaux douce et salée s'y mélangent en un gradient mobile qui se déplace deux fois par jour. Cette instabilité en fait des milieux d'une productivité biologique exceptionnelle, nurseries pour de nombreuses espèces marines.
+
+Une lagune littorale relève d'une autre logique : c'est une étendue d'eau séparée de la mer par un cordon, communiquant avec elle par des passes étroites. Les étangs du Languedoc en offrent la série la plus complète. Leur salinité, leur température et leur oxygénation varient fortement, ce qui y sélectionne une faune spécialisée — et les rend très sensibles aux apports de nutriments venus des bassins versants.`],
+    ["Protéger un espace convoité", `La pression humaine sur les littoraux est sans commune mesure avec leur surface. La loi Littoral de 1986 encadre l'urbanisation des communes côtières : elle interdit en principe les constructions dans une bande de cent mètres à partir du rivage hors espaces déjà urbanisés, et impose l'extension en continuité de l'existant. Contestée, contournée, elle a néanmoins évité le mitage complet des côtes françaises.
+
+Le Conservatoire du littoral suit une voie différente : établissement public, il acquiert des terrains côtiers pour les soustraire définitivement au marché et les confie en gestion aux collectivités. La montée du niveau marin, qui accélère l'érosion et la submersion des zones basses, ajoute aujourd'hui une question que ni l'une ni l'autre n'avait anticipée : celle du repli, c'est-à-dire du déplacement organisé des activités et des habitations vers l'intérieur.`],
+  ],
 };
