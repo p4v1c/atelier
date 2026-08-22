@@ -236,4 +236,137 @@ Une marque d'usage indique un registre — familier, vulgaire, littéraire —, 
 
 Le Trésor de la langue française occupe une place à part : dictionnaire du français des XIXe et XXe siècles en seize volumes, fruit de plusieurs décennies de travail collectif et de l'un des premiers grands corpus informatisés, il est intégralement consultable en ligne gratuitement. C'est l'un des ouvrages de référence les plus riches jamais produits sur une langue vivante.`],
   ],
+
+  "lf2-oral-ecrit": [
+    ["Deux systèmes, pas une transcription", `L'écrit n'est pas de l'oral transcrit : chacun obéit à des règles et à des contraintes propres. L'oral se déroule dans le temps, sans retour possible, avec un interlocuteur présent qui réagit ; il dispose de l'intonation, du débit, des pauses, du geste et du regard. L'écrit permet la relecture et la révision, s'adresse à un lecteur absent, et ne dispose que de la ponctuation et de la mise en page pour rendre ce que la voix portait.
+
+De cette différence de conditions découlent des grammaires différentes. L'oral segmente, reprend, hésite, abandonne une construction en route ; l'écrit condense, subordonne, hiérarchise. Un même locuteur cultivé produit spontanément à l'oral des phrases qu'il ne signerait jamais par écrit — non par négligence, mais parce que les deux systèmes n'ont pas les mêmes exigences.
+
+Cette distinction est récente en linguistique. Pendant des siècles, l'écrit fut tenu pour la langue véritable et l'oral pour sa version dégradée ; l'inversion s'est produite au XXe siècle, la linguistique posant que l'oral est premier — historiquement, dans l'acquisition, et dans les milliers de langues sans écriture.`],
+    ["Les sons du français", `Une liaison est la prononciation d'une consonne finale normalement muette devant un mot commençant par une voyelle : « les_amis », « un petit_enfant ». Certaines sont obligatoires, d'autres facultatives et marquent un registre soutenu, d'autres enfin interdites — « les haricots » sans liaison. Leur maîtrise est l'un des marqueurs sociaux les plus fins de la prononciation française, et le cuir — une liaison fautive — se remarque immédiatement.
+
+Une élision supprime une voyelle finale devant une voyelle initiale : *l'ami*, *j'arrive*, *qu'il*. Elle est marquée à l'écrit par l'apostrophe, ce qui en fait l'un des rares phénomènes oraux visibles dans l'orthographe.
+
+L'accent tonique se place en français sur la dernière syllabe prononcée du groupe rythmique, et non du mot isolé. C'est une particularité forte : le français accentue des groupes, là où l'anglais, l'espagnol ou l'italien accentuent chaque mot. Cette caractéristique donne à la phrase française son rythme régulier et explique la difficulté des francophones à placer l'accent dans les langues étrangères.
+
+Le *e* caduc — celui de *petit*, de *samedi*, de *je le dis* — peut être prononcé ou non selon le contexte, le débit et la région. Sa chute produit des groupes de consonnes que l'orthographe ne laisse pas prévoir.
+
+Une distinction s'est perdue chez de nombreux locuteurs : celle entre *brin* et *brun*, la voyelle nasale de *un* s'alignant sur celle de *in*. Le français métropolitain compte donc aujourd'hui trois voyelles nasales là où il en comptait quatre.`],
+    ["La grammaire de l'oral", `Trois traits distinguent nettement l'oral spontané de l'écrit standard, et tous trois sont réguliers plutôt que fautifs.
+
+La négation à deux éléments, *ne… pas*, perd son premier terme dans la quasi-totalité de l'oral spontané : « je sais pas », « il vient pas ». Le *ne* était à l'origine la négation, et *pas* un renfort — comme *point*, *goutte*, *mie* dans l'ancienne langue. L'oral achève simplement un mouvement commencé il y a des siècles, où le renfort a supplanté l'élément d'origine.
+
+La phrase segmentée détache un élément et le reprend par un pronom : « mon frère, il est venu », « le livre, je l'ai lu ». Elle sépare ce dont on parle de ce qu'on en dit, fonction que l'écrit assure autrement. C'est probablement la construction la plus fréquente de l'oral français, et elle est systématiquement corrigée à l'école.
+
+L'interrogation, enfin, se forme le plus souvent par la seule intonation — « tu viens ? » — ou par *est-ce que*. L'inversion sujet-verbe, seule forme enseignée comme correcte, est devenue rare à l'oral hors registre soutenu.
+
+Si l'oral spontané paraît incorrect une fois transcrit, c'est parce qu'on le juge à l'aune de normes écrites — comme on jugerait une photographie à l'aune des règles de la peinture.`],
+  ],
+
+  "lf2-noms-communs-origines": [
+    ["Des objets disparus dans les mots", `L'histoire d'un mot révèle souvent une réalité matérielle disparue depuis longtemps.
+
+*Travail* vient du latin populaire *tripalium*, instrument à trois pieux servant à immobiliser les animaux difficiles à ferrer, puis employé comme instrument de torture. Le mot a d'abord désigné une souffrance — le sens subsiste dans « le travail » de l'accouchement — avant de désigner l'activité laborieuse. Cette étymologie est souvent invoquée dans les débats sur le rapport au travail ; elle décrit un glissement de sens, non une vérité sur la nature de l'activité.
+
+*Bureau* vient de *bure*, étoffe de laine grossière dont on recouvrait les tables de comptes. Le mot a désigné successivement le tissu, le meuble qu'il couvrait, la pièce où se trouvait le meuble, puis le service administratif qui l'occupe — quatre glissements successifs par contiguïté, mécanisme extrêmement fréquent dans l'histoire du vocabulaire.
+
+*Candidat* vient du latin *candidatus*, « vêtu de blanc » : à Rome, le postulant à une magistrature portait une toge blanchie à la craie pour signaler sa pureté d'intention. Le mot est apparenté à *candeur* et à *candide*, ce qui donne à la vie politique moderne une étymologie sur laquelle chacun ironisera à sa guise.`],
+    ["Les héritages latins directs", `Beaucoup de mots du quotidien viennent du latin sans détour, avec des évolutions phonétiques régulières.
+
+*Fenêtre* vient de *fenestra*, mot latin dont le *s* subsiste dans *défenestrer* et dont le circonflexe garde la trace. L'allemand a emprunté le même mot latin — *Fenster* —, tandis que l'anglais a préféré un terme scandinave, *window*, littéralement « œil du vent ».
+
+*Dimanche* vient de *dies dominicus*, le jour du Seigneur, qui a remplacé le *dies solis* romain — jour du soleil, que l'anglais et l'allemand ont conservé sous *Sunday* et *Sonntag*. Les noms des autres jours ont gardé leurs divinités païennes : lundi la Lune, mardi Mars, mercredi Mercure, jeudi Jupiter, vendredi Vénus. Seuls le premier et le dernier ont été christianisés, samedi venant du sabbat.
+
+*Salade* vient de l'italien *insalata*, « mets salé » : la salade se définissait par son assaisonnement, non par les feuilles qui la composent. Le mot est entré en français à la Renaissance, avec toute la cuisine italienne apportée par la cour des Médicis.`],
+    ["Les noms devenus mots", `Certains mots communs sont d'anciens noms propres, phénomène que les linguistes appellent antonomase.
+
+Eugène Poubelle, préfet de la Seine, impose en 1884 aux propriétaires parisiens de fournir à leurs locataires des récipients couverts pour les ordures ménagères. La mesure, d'abord tournée en dérision par la presse, était une décision de salubrité publique majeure. Le nom du préfet est passé à l'objet en quelques années, exemple rare d'un fonctionnaire devenu nom commun de son vivant.
+
+*Silhouette* vient d'Étienne de Silhouette, contrôleur général des finances en 1759, dont l'austérité budgétaire fut si impopulaire que son nom servit à désigner tout ce qui était réduit à l'essentiel — d'où les portraits d'ombre découpés qu'on appelait « à la silhouette ».
+
+*Boycott* vient du capitaine Charles Boycott, régisseur irlandais qui, en 1880, fut mis à l'écart par toute la population locale — plus personne ne travaillait pour lui, ne lui vendait rien, ne lui parlait. La méthode fut nommée d'après sa victime et passa dans toutes les langues européennes en quelques mois.
+
+*Sandwich* vient du comte de Sandwich, joueur invétéré qui se faisait servir sa viande entre deux tranches de pain pour ne pas quitter la table de jeu. L'anecdote est peut-être embellie, mais l'origine du mot est certaine.`],
+  ],
+
+  "lf2-argot-francais": [
+    ["Une langue faite pour n'être pas comprise", `L'argot a pour rôle historique de rendre le discours incompréhensible aux non-initiés. Il naît dans des groupes qui ont intérêt au secret — malfaiteurs, corporations itinérantes, marginaux — et il fonctionne comme un mot de passe permanent : parler la langue prouve l'appartenance.
+
+Cette fonction explique son trait le plus constant : l'argot se renouvelle sans cesse, parce qu'il perd sa raison d'être dès qu'il est compris de tous. Un mot d'argot connu du grand public n'est plus de l'argot mais du français familier.
+
+Le processus est donc cyclique : création, diffusion restreinte, élargissement, banalisation, remplacement. Des dizaines de mots parfaitement ordinaires viennent de l'argot ancien — *bagarre*, *cambrioleur*, *flic*, *maquiller*, *fric*, *bosser*, *balade* — et plus personne n'y perçoit de marque.`],
+    ["Les procédés de déformation", `L'argot dispose de procédés systématiques pour transformer les mots ordinaires.
+
+Le largonji et le javanais insèrent des syllabes parasites ou substituent des consonnes selon une règle fixe. Le loucherbem, argot des bouchers de La Villette, déplace la consonne initiale à la fin, la remplace par un *l* et ajoute un suffixe : *boucher* devient *loucherbem*, *à poil* devient *à loilpé*, *jargon* devient *largonji* — le nom du procédé étant lui-même produit par le procédé.
+
+Le verlan inverse les syllabes : *l'envers* devient *verlan*, *femme* devient *meuf*, *arabe* devient *beur*. Attesté dès le XIXe siècle mais massivement diffusé à partir des années 1970, il illustre parfaitement le cycle : *meuf* et *beur* étant devenus transparents, ils ont été reverlanisés en *feum* et *rebeu*.
+
+D'autres procédés relèvent de la troncation. Une apocope supprime la fin d'un mot — *ciné*, *manif*, *appart*, *prof* — et c'est de loin la plus fréquente en français. Une aphérèse supprime le début — *bus* pour *autobus*, *blème* pour *problème*, *ricain* pour *américain*. La première est ordinaire dans toute la langue, la seconde reste marquée comme familière.`],
+    ["L'argot en littérature", `Louis-Ferdinand Céline introduit massivement l'argot et la syntaxe orale en littérature avec *Voyage au bout de la nuit* en 1932. Son apport n'est pas seulement lexical : il transpose le rythme, les ruptures et l'émotion de la parole dans la phrase écrite, ce qu'il appelait rendre l'émotion du parlé à travers l'écrit. L'influence sur la littérature française du XXe siècle est considérable, et elle est indépendante des positions de l'auteur, dont l'antisémitisme et les pamphlets font l'objet d'une condamnation qui n'a jamais été discutée.
+
+Frédéric Dard, sous le nom de San-Antonio, procède autrement : il invente un argot qui n'a jamais existé, forgeant des milliers de mots, de calembours et de constructions qui n'appartiennent qu'à lui. C'est une langue littéraire déguisée en langue populaire, et l'un des exercices de virtuosité lexicale les plus soutenus de la littérature française — près de deux cents volumes.
+
+Ces deux exemples montrent que l'argot littéraire n'est jamais une transcription : c'est une reconstruction, plus dense et plus régulière que la parole réelle.`],
+    ["Les parlers d'aujourd'hui", `Le parler des cités contemporain n'est pas un argot au sens classique mais un ensemble de variétés qui combinent plusieurs sources : le verlan, des emprunts à l'arabe maghrébin — *kiffer*, *seum*, *wesh*, *miskine* —, aux langues d'Afrique subsaharienne, au romani — *chourave*, *gadjo* —, à l'anglais, ainsi que des innovations propres et des glissements de sens.
+
+Il partage avec l'argot ancien la fonction identitaire et le renouvellement rapide, et il s'en distingue par sa diffusion : les réseaux sociaux et la musique le répandent en quelques semaines à l'échelle du pays, ce qui accélère considérablement le cycle de banalisation. Un terme peut naître dans un quartier, être national en un mois et démodé en un an.
+
+Comme toujours, une partie de ce lexique passera dans la langue courante et perdra sa marque. *Kiffer* figure déjà dans les dictionnaires généraux, comme y figuraient il y a un siècle des mots d'argot dont plus personne ne soupçonne l'origine. C'est le mécanisme ordinaire d'enrichissement d'une langue vivante, et il n'a jamais fonctionné autrement.`],
+  ],
+
+  "lf2-genres-noms": [
+    ["Un genre largement arbitraire", `Le genre grammatical n'est pas lié au sens du mot : il est très largement arbitraire. Le soleil est masculin en français et féminin en allemand, la lune l'inverse ; *la table* est féminine en français et neutre en allemand ; *le fauteuil* et *la chaise* désignent des objets voisins avec des genres opposés.
+
+Cette arbitrarité se vérifie par comparaison : si le genre découlait de la nature de l'objet, les langues s'accorderaient. Elles ne s'accordent pas, y compris entre langues sœurs — *le lait* est masculin en français, *la leche* féminin en espagnol.
+
+Le genre est donc une propriété grammaticale du mot, héritée de son histoire, et non une propriété de la chose. Le latin comptait trois genres — masculin, féminin et neutre —, et les langues romanes ont perdu le neutre, dont les mots se sont répartis entre les deux autres, souvent au masculin.
+
+Une réserve s'impose pour les êtres animés, où le genre grammatical rejoint fréquemment le sexe. Fréquemment, non systématiquement : *une sentinelle*, *une recrue*, *une victime*, *un mannequin* le rappellent.`],
+    ["Les cas litigieux", `Quelques mots changent de sens selon leur genre : *un livre* et *une livre*, *un mode* et *une mode*, *un tour* et *une tour*, *un voile* et *une voile*, *un mémoire* et *une mémoire*. Ce sont en réalité des homonymes distincts, que le genre suffit à séparer.
+
+*Après-midi* admet les deux genres, l'usage hésitant depuis longtemps sans qu'aucun ne s'impose. *Amour* est masculin au singulier et féminin au pluriel dans l'usage soutenu — « les amours enfantines » —, particularité qu'il partage avec *délice* et *orgue*, et qui vient de leur histoire latine.
+
+Certains mots sont couramment employés au mauvais genre. *Autoroute* est féminin, comme *route*. *Après-guerre*, *effluve*, *pétale*, *tentacule*, *astérisque*, *en-tête* sont masculins ; *oasis*, *échappatoire*, *acné*, *primeur*, *anagramme* sont féminins. Ces hésitations ne trahissent aucune ignorance : elles signalent des mots dont la forme n'oriente pas clairement vers un genre, et où l'usage lui-même flotte.`],
+    ["Féminiser les noms de métiers", `Le féminin des noms de métiers se forme généralement par ajout d'un *e* — *avocate*, *présidente*, *agente* — ou par un suffixe spécifique — *directrice*, *ambassadrice*. Certains noms sont épicènes, c'est-à-dire identiques aux deux genres, seul le déterminant variant : *une ministre*, *une juge*, *une architecte*.
+
+Ces formes ne sont pas des créations récentes : le français médiéval disposait de *doctoresse*, *mairesse*, *chirurgienne*, *autrice*. Leur disparition date du XVIIe siècle, lorsque l'Académie et les grammairiens ont favorisé le masculin pour les fonctions prestigieuses, à mesure que les femmes en étaient écartées. La féminisation contemporaine restaure donc en grande partie des formes anciennes plutôt qu'elle n'innove.
+
+L'Académie française, longtemps hostile, a adopté en 2019 un rapport concluant qu'elle ne voit plus d'obstacle de principe à la féminisation des noms de métiers, de fonctions et de titres — retournement notable après plusieurs décennies de prises de position contraires.`],
+    ["Les procédés en débat", `L'accord de proximité fait accorder l'adjectif avec le nom le plus proche plutôt qu'avec le masculin : « ces hommes et ces femmes sont belles ». Cette règle a existé en français classique et se rencontre chez Racine ; elle a été supplantée par la règle du masculin générique, dont la justification donnée au XVIIe siècle — le masculin étant « le genre le plus noble » — n'est plus défendable aujourd'hui.
+
+L'écriture inclusive, au sens large, désigne un ensemble de procédés visant à rendre les femmes visibles dans la langue. Le point médian — *les étudiant·es* — n'en est qu'un parmi plusieurs, et de loin le plus contesté : il est illisible pour les lecteurs d'écran, complique l'apprentissage et n'a pas d'oralisation.
+
+Les autres procédés sont beaucoup moins discutés et souvent employés sans être remarqués : la féminisation des noms de métiers, les doublets complets — « les électrices et les électeurs » —, les termes englobants — « la population » plutôt que « les habitants » —, et l'accord de proximité.
+
+Le débat gagne à distinguer ces procédés plutôt qu'à les traiter en bloc : ce qui est reproché au point médian ne vaut pas pour la féminisation des titres, largement entrée dans l'usage administratif et journalistique.`],
+  ],
+
+  "lf2-syntaxe-phrase": [
+    ["L'ordre des mots", `L'ordre canonique du français est sujet, verbe, complément. Il souffre de nombreuses exceptions, et cette rigidité relative est une conséquence historique directe : le latin, qui marquait les fonctions par des désinences, pouvait placer les mots dans presque n'importe quel ordre. La chute des cas a transféré cette information à la position, et l'ordre est devenu porteur de sens.
+
+C'est pourquoi « le chien mord l'homme » et « l'homme mord le chien » diffèrent en français, alors que les phrases latines correspondantes seraient identiques quel que soit l'ordre.
+
+Les exceptions sont néanmoins nombreuses et régulières : inversion dans l'interrogation, inversion après certains adverbes en tête — « à peine était-il arrivé » —, antéposition du pronom complément — « je le vois » —, et toutes les constructions de mise en relief.`],
+    ["Subordonner", `Une proposition subordonnée complétive est introduite par *que* et occupe la fonction de complément du verbe : « je pense qu'il viendra ». Elle est indispensable à la phrase — la supprimer laisse le verbe incomplet.
+
+Une proposition subordonnée circonstancielle exprime au contraire une circonstance — temps, cause, but, condition, conséquence, opposition — et pourrait être retirée sans rendre la phrase agrammaticale : « il est parti parce qu'il pleuvait ». Elle est introduite par une conjonction ou une locution qui indique le rapport logique, et c'est le choix de cette conjonction qui commande souvent le mode du verbe.
+
+Une proposition relative, enfin, complète un nom et est introduite par un pronom relatif. La distinction entre relative déterminative — « les élèves qui avaient révisé ont réussi », qui restreint l'ensemble — et relative explicative — « les élèves, qui avaient révisé, ont réussi », qui les concerne tous — se marque uniquement par la virgule. C'est l'un des rares cas où la ponctuation change le sens de façon décisive.`],
+    ["Les fonctions et les détachements", `Un complément d'objet indirect est relié au verbe par une préposition : « il parle à son frère ». La préposition n'est pas un ornement mais la marque de la fonction, héritière du cas latin disparu.
+
+Un complément d'agent désigne celui qui accomplit l'action dans une phrase passive : « le livre a été écrit par Camus ». Il correspond au sujet de la phrase active, et son absence fréquente est précisément ce qui rend le passif utile — ou suspect, quand il sert à ne pas nommer le responsable.
+
+Une apposition est un élément détaché qui caractérise un nom sans mot de liaison : « Paris, capitale de la France ». Elle équivaut à une relative attributive condensée.
+
+Une phrase nominale ne comporte aucun verbe conjugué : « Magnifique. » « Fin de partie. » « Rien à signaler. » Fréquente dans les titres, les slogans et la langue littéraire, elle produit une concentration que la phrase verbale n'atteint pas.
+
+La mise en relief détache un élément pour l'accentuer, par présentatif — « c'est lui qui a parlé » — ou par détachement avec reprise pronominale — « ce livre, je l'ai adoré ». Elle compense à l'écrit ce que l'intonation fait à l'oral.`],
+    ["Ponctuer et rompre", `La virgule sépare obligatoirement les éléments d'une énumération et isole les propositions ou groupes détachés. Elle marque une articulation logique et non une respiration, contrairement à ce que l'école enseigne parfois — c'est pourquoi elle ne se place jamais entre un sujet et son verbe, même longs.
+
+Son omission ou son ajout modifient le sens dans des proportions considérables : la relative explicative citée plus haut, mais aussi l'apostrophe — « allons manger les enfants » —, et l'énumération finale.
+
+Une anacoluthe est une rupture de construction syntaxique : la phrase commence sur une construction et se poursuit sur une autre. « Le nez de Cléopâtre : s'il eût été plus court, toute la face de la terre aurait changé » en offre un exemple célèbre chez Pascal.
+
+Elle est fautive quand elle est involontaire — le participe initial dont le sujet ne correspond pas à celui de la principale en est le cas le plus fréquent : « ayant beaucoup plu, les rues étaient inondées ». Elle est une figure de style quand elle est maîtrisée, produisant un effet d'oralité ou d'émotion que la construction régulière n'obtiendrait pas. C'est le propre de plusieurs figures : ce sont des écarts, et seule l'intention distingue l'effet de la faute.`],
+  ],
 };
