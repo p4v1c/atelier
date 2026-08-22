@@ -158,4 +158,147 @@ Côté royal, Louis XIV fait bâtir Versailles dans sa forme monumentale à part
 
 L'Arc de triomphe de l'Étoile, commandé par Napoléon en 1806 et achevé en 1836, célèbre les victoires des armées de la Révolution et de l'Empire ; il abrite depuis 1921 la tombe du Soldat inconnu. La tour Eiffel, enfin, est construite pour l'Exposition universelle de 1889, comme démonstration technique destinée à être démontée au bout de vingt ans : c'est son utilité comme antenne de télégraphie sans fil qui l'a sauvée.`],
   ],
+
+  "hf4-gaule-celtique": [
+    ["Ni barbares, ni forestiers", `L'image des Gaulois comme barbares primitifs vivant dans les forêts est une construction tardive, forgée à partir de la propagande de César et amplifiée au XIXe siècle. L'archéologie l'a démentie point par point depuis cinquante ans.
+
+La Gaule indépendante était un ensemble d'une soixantaine de peuples distincts, aux structures politiques élaborées : certains avaient des rois, d'autres des magistrats élus annuellement, avec des assemblées et des systèmes de clientèle. Les Éduens frappaient monnaie et entretenaient des relations diplomatiques avec Rome bien avant la conquête.
+
+Un oppidum est un habitat fortifié de hauteur, entouré d'un rempart massif à armature de bois et de pierre — le *murus gallicus* que César décrit avec admiration pour sa résistance. Ces sites atteignaient plusieurs dizaines d'hectares et abritaient artisanat, commerce et pouvoir politique. Bibracte, capitale éduenne, comptait probablement plusieurs milliers d'habitants.
+
+Le royaume arverne fut le plus puissant de Gaule au IIe siècle avant notre ère, avant d'être brisé par Rome — et c'est de ce peuple que viendra Vercingétorix.`],
+    ["Des artisans remarquables", `Les Gaulois maîtrisaient le travail du fer à un niveau qui n'a pas d'équivalent en Méditerranée. Leurs épées longues, leurs cottes de mailles — invention celtique adoptée par les Romains —, leurs jantes de roue cerclées à chaud témoignent d'une métallurgie sophistiquée.
+
+Plusieurs inventions agricoles leur sont attribuées : le tonneau, qui remplace l'amphore pour le transport des liquides et sera adopté dans tout l'Empire ; la moissonneuse à roues, ou vallus, décrite par Pline ; le soc de charrue amélioré ; le savon.
+
+Leur agriculture était productive, leurs céréales exportées, leur réseau de chemins dense — les Romains ont largement repris le tracé des voies gauloises. La Gaule était riche, ce qui explique d'ailleurs largement l'intérêt de Rome.
+
+Ce niveau technique contraste avec l'image transmise, et il a été redécouvert par l'archéologie préventive : les grands travaux d'aménagement des dernières décennies ont mis au jour des milliers de sites qui ont renouvelé complètement la connaissance de cette période.`],
+    ["Une religion sans archives", `Un druide était membre d'une élite religieuse, judiciaire et éducative. Ses fonctions dépassaient largement le culte : il rendait la justice, arbitrait les conflits entre peuples, formait la jeunesse aristocratique, et pouvait interdire à un individu l'accès aux sacrifices — excommunication qui faisait de lui un paria.
+
+On connaît mal cette religion pour une raison précise : les druides refusaient de mettre leur savoir par écrit, alors même qu'ils connaissaient l'écriture et l'employaient pour les comptes. César rapporte que leur formation durait vingt ans et se faisait entièrement de mémoire, et que la mise par écrit était jugée incompatible avec l'effort mnémonique et avec le caractère réservé du savoir.
+
+Il en résulte que presque tout ce que nous savons vient de sources extérieures — grecques et romaines, donc hostiles ou mal informées — et de l'archéologie, qui documente les sanctuaires et les dépôts d'armes sans livrer les croyances.
+
+Les Gaulois parlaient le gaulois, langue celtique dont il ne reste que quelques centaines d'inscriptions et une poignée de mots passés en français : *chêne*, *alouette*, *charrue*, *bruyère*, *mouton*, *lieue*, et une part importante des noms de lieux et de rivières.`],
+    ["Rome et les Gaulois avant la conquête", `Les relations entre Gaulois et Romains sont anciennes et n'ont pas commencé en 58 avant notre ère.
+
+Vers 390 avant notre ère, les Sénons conduits par Brennus battent l'armée romaine à l'Allia et prennent Rome, à l'exception du Capitole. L'épisode a laissé dans la mémoire romaine un traumatisme durable — les oies du Capitole, la rançon et le fameux « malheur aux vaincus » en font partie — et il a nourri pendant des siècles la crainte du *tumultus gallicus*.
+
+Rome prend sa revanche progressivement : conquête de la Gaule cisalpine au IIIe siècle, puis de la Gaule transalpine méditerranéenne en 121 avant notre ère, qui devient la Narbonnaise. Une partie de la Gaule est donc romaine depuis deux générations quand César entre en scène.
+
+Sa conquête, entre 58 et 51 avant notre ère, exploite les divisions entre peuples : il intervient d'abord comme allié des Éduens contre les Helvètes, puis s'installe. La coalition tardive menée par Vercingétorix en 52 échoue à Alésia, et César raconte lui-même l'ensemble dans ses *Commentaires* — texte de propagande destiné à son électorat romain, et pourtant notre principale source.`,
+      { image: "hf-vercingetorix-alesia", legende: "Alésia : la coalition gauloise arrive trop tard, après six ans de conquête menée sur les divisions entre peuples.", alt: "Vercingétorix rendant les armes à César" }],
+  ],
+
+  "hf4-gaule-romaine": [
+    ["Cinq siècles", `La Gaule est restée romaine pendant près de cinq siècles — de la conquête de César au milieu du Ve siècle. C'est une durée qu'on peine à se représenter : plus longue que la période qui nous sépare de la Renaissance, et bien plus longue que toute l'histoire des États-Unis.
+
+Cette durée explique la profondeur de la romanisation. Elle ne fut ni immédiate ni imposée uniformément : la Narbonnaise était romanisée dès 121 avant notre ère, une génération et demie avant la conquête du reste, et elle servit de modèle et de relais.
+
+Lugdunum, l'actuelle Lyon, devient la capitale des Trois Gaules — Aquitaine, Lyonnaise et Belgique. Fondée en 43 avant notre ère à la confluence du Rhône et de la Saône, elle accueille chaque année l'assemblée des délégués des soixante peuples gaulois au sanctuaire fédéral, dispositif qui associe les élites locales à l'Empire tout en les surveillant.`],
+    ["Ce que Rome a construit", `L'urbanisation est la transformation la plus visible. Rome dote la Gaule de villes selon un modèle standardisé — forum, thermes, théâtre, amphithéâtre, temple, égouts, réseau de rues en damier — et les élites gauloises financent elles-mêmes ces équipements, l'évergétisme étant le moyen d'accéder aux honneurs.
+
+Le pont du Gard est le vestige le plus spectaculaire de ces travaux : ce n'est pas un pont mais un aqueduc, franchissant la vallée du Gardon pour alimenter Nîmes depuis une source distante de cinquante kilomètres. Sa pente moyenne est d'environ vingt-cinq centimètres par kilomètre, régularité obtenue avec des instruments élémentaires.
+
+À la campagne, la villa gallo-romaine est un domaine agricole associant une résidence, parfois luxueuse, et des bâtiments d'exploitation. Elle remplace progressivement les fermes gauloises et structure le paysage rural — de très nombreux villages français en sont les héritiers directs, comme l'atteste la toponymie en *-ac*, *-y* et *-ville*.
+
+Le latin s'est diffusé progressivement, par les villes, l'armée et l'administration, plutôt que par contrainte. Le gaulois a subsisté dans les campagnes jusqu'au Ve siècle au moins, situation de bilinguisme longue dont le français a hérité un substrat.`],
+    ["Une nouvelle religion", `Le christianisme s'implante en Gaule dès le IIe siècle, d'abord dans les villes et par les communautés orientales installées le long des routes commerciales. Le premier témoignage documenté est le martyre des chrétiens de Lyon en 177, dont la lettre adressée aux communautés d'Asie constitue un texte majeur.
+
+L'évangélisation des campagnes est bien plus tardive, et le mot le dit : *paganus* désigne l'habitant du *pagus*, la campagne — le païen est d'abord le rural.
+
+Saint Martin de Tours, évêque du IVe siècle, en est la figure décisive. Ancien soldat, il fonde le premier monastère de Gaule, parcourt les campagnes, détruit les sanctuaires et implante des paroisses rurales. Son culte devient si populaire que des milliers de communes et d'églises françaises portent son nom, et que sa chape — *cappella* — a donné les mots chapelle et chapelain.
+
+Le christianisme devient religion autorisée en 313, puis religion officielle de l'Empire en 380.`],
+    ["L'effacement", `La crise du IIIe siècle frappe durement la Gaule : incursions germaniques, insécurité, effondrement monétaire, repli des populations. Les villes se rétractent derrière des enceintes hâtivement construites avec les pierres des monuments démolis — beaucoup de blocs sculptés sont ainsi conservés, réemployés dans les murailles.
+
+L'Empire des Gaules, entre 260 et 274, est un État sécessionniste dirigé par des empereurs gaulois qui assurent la défense du limes rhénan pendant que Rome est occupée ailleurs. Il n'est pas un mouvement d'indépendance nationale mais un ajustement pragmatique, et il se rallie sans grande résistance quand l'Empire se réorganise.
+
+La fin de la Gaule romaine n'est pas un événement mais un effacement progressif de l'autorité impériale au profit de royaumes barbares, entre le début du Ve siècle et 486. Les peuples germaniques installés comme fédérés — Wisigoths en Aquitaine, Burgondes dans la vallée du Rhône, Francs au nord — deviennent progressivement souverains sans que personne ne proclame la fin de quoi que ce soit.
+
+Les structures romaines survivent longtemps à l'Empire : le droit, la langue, l'Église et son maillage épiscopal, le découpage des cités — dont les diocèses puis les départements conserveront partiellement les contours.`],
+  ],
+
+  "hf4-merovingiens": [
+    ["Clovis et le royaume franc", `Clovis fonde le royaume franc en réunissant sous son autorité les différents groupes francs, puis en éliminant les royaumes concurrents. Il n'hérite que d'un petit territoire autour de Tournai et laisse à sa mort un ensemble couvrant l'essentiel de la Gaule.
+
+Son succès repose sur une série de victoires : contre Syagrius, dernier représentant de l'autorité romaine en Gaule du Nord, puis contre les Alamans, puis contre les Wisigoths à Vouillé en 507, victoire qui lui livre l'Aquitaine et repousse les Wisigoths en Espagne.
+
+Son baptême est l'acte politique décisif. En se convertissant au christianisme dans sa forme romaine — et non à l'arianisme, adopté par la plupart des rois germaniques —, il rallie l'Église et l'aristocratie gallo-romaine, qui disposaient des cadres administratifs, de l'écrit et de l'autorité morale. Ses adversaires ariens deviennent du même coup des hérétiques qu'il est légitime de combattre.
+
+La date exacte du baptême est discutée entre 496 et 508. Son lieu, Reims, deviendra celui du sacre des rois de France pour treize siècles.`],
+    ["Un royaume qui se divise", `Le royaume franc est souvent divisé pour une raison structurelle : il était partagé entre les fils à chaque succession, selon une conception patrimoniale du pouvoir — le royaume est un bien, et un bien se partage entre héritiers.
+
+Ce mécanisme produit une instabilité permanente : à chaque mort d'un roi, le royaume éclate, puis se reconstitue par guerres et par extinctions de branches, puis se divise à nouveau. La Neustrie, à l'ouest, et l'Austrasie, à l'est, sont les deux grandes divisions récurrentes, auxquelles s'ajoutent la Bourgogne et l'Aquitaine.
+
+Brunehaut et Frédégonde incarnent la violence de ces rivalités : reines respectivement d'Austrasie et de Neustrie, elles s'affrontent pendant quarante ans par assassinats et par guerres interposées. Brunehaut, capturée à quatre-vingts ans passés, sera exécutée en 613 dans des conditions atroces. Les récits de Grégoire de Tours, notre principale source, ont durablement construit l'image d'une époque sanglante — image que l'historiographie récente nuance en soulignant la continuité administrative et la vitalité économique de la période.
+
+La loi salique est un recueil de droit franc rédigé sous Clovis, essentiellement pénal, qui fixe des compensations pour chaque délit. Un de ses articles, qui écarte les femmes de l'héritage de la terre salique, sera exhumé au XIVe siècle et invoqué pour exclure les femmes de la succession au trône de France — usage sans rapport avec son objet initial.`],
+    ["Le pouvoir glisse", `Un maire du palais est à l'origine l'intendant de la maison royale. Sa fonction évolue jusqu'à en faire le principal officier du royaume, chef de l'administration et de l'armée, détenteur du pouvoir réel.
+
+Ce glissement s'explique par la conjonction de plusieurs facteurs : rois accédant au trône très jeunes, règnes courts, nécessité d'une continuité administrative, et surtout constitution d'un patrimoine foncier considérable par les maires du palais d'Austrasie, la famille des Pippinides.
+
+Les derniers Mérovingiens sont désignés comme les rois fainéants — expression qui vient de Éginhard, biographe de Charlemagne, donc d'une source intéressée à justifier le changement de dynastie. Ils règnent sans gouverner, se déplaçant en char à bœufs et présidant les assemblées pendant que le maire du palais décide.
+
+La dynastie prend fin en 751 : Pépin le Bref, maire du palais, dépose le dernier roi mérovingien après avoir obtenu du pape une réponse favorable à une question habile — vaut-il mieux que porte le titre de roi celui qui en exerce le pouvoir ou celui qui n'en a que le nom. Il se fait sacrer, innovation majeure qui introduit l'onction religieuse dans la royauté franque et lie durablement la dynastie à la papauté.`],
+  ],
+
+  "hf4-carolingiens": [
+    ["Une dynastie qui monte", `Charles Martel, maire du palais d'Austrasie, arrête en 732 près de Poitiers une incursion arabe venue d'Espagne. La portée de cette bataille a été considérablement amplifiée par l'historiographie du XIXe siècle : il s'agissait d'une razzia et non d'une tentative de conquête, et les opérations en Gaule méridionale se poursuivront des décennies. Son importance réelle est intérieure — elle consacre le prestige militaire de la famille et prépare la prise du pouvoir.
+
+Son fils Pépin le Bref dépose le dernier Mérovingien en 751 et fonde la dynastie carolingienne, ainsi nommée d'après Charles — Charles Martel et surtout Charlemagne.
+
+Ce dernier règne quarante-six ans et mène une cinquantaine de campagnes : Lombardie, Saxe — conquise après trente ans d'une guerre d'une brutalité extrême et de conversions forcées —, Bavière, marches d'Espagne. L'empire qu'il constitue couvre l'essentiel de l'Occident chrétien continental.`],
+    ["Un empereur en Occident", `Charlemagne est couronné empereur le 25 décembre 800 à Rome par le pape Léon III. L'événement restaure un titre impérial disparu en Occident depuis 476, et il a une signification qui dépasse le protocole : il pose que la légitimité impériale peut être conférée par le pape, ce qui nourrira huit siècles de conflits entre papauté et empire.
+
+L'empereur réside principalement à Aix-la-Chapelle, choix qui rompt avec l'itinérance des rois francs et fixe une capitale, dotée d'un palais et d'une chapelle inspirée des modèles byzantins et ravennates.
+
+Le gouvernement d'un tel ensemble sans administration écrite développée repose sur deux instruments. Les comtes administrent les circonscriptions locales, avec le risque constant qu'ils s'approprient leur charge. Les missi dominici, envoyés impériaux circulant par deux — un laïc et un ecclésiastique —, inspectent ces comtes, recueillent les plaintes et rappellent les capitulaires. C'est un système de contrôle ingénieux et fragile, entièrement dépendant de l'autorité personnelle du souverain.`],
+    ["Une renaissance des lettres", `La renaissance carolingienne est un renouveau des lettres, des écoles et de la copie des manuscrits, organisé autour de la cour et des monastères. Charlemagne, qui savait lire et probablement pas écrire, y attache une importance politique : un empire chrétien a besoin de clercs capables de lire correctement les textes sacrés et de fonctionnaires capables de rédiger.
+
+Alcuin, savant venu d'York, en est le maître d'œuvre. Des écoles sont créées auprès des cathédrales et des monastères, les textes antiques sont recherchés et recopiés.
+
+C'est là que se joue l'essentiel : la quasi-totalité de la littérature latine antique qui nous est parvenue l'a été par des copies carolingiennes. Sans cet effort, une part immense de Cicéron, de Tacite, de Virgile ou de Sénèque aurait disparu.
+
+La minuscule caroline est l'outil de cette diffusion : une écriture claire, régulière, avec séparation des mots et ponctuation, bien plus lisible que les cursives antérieures. Redécouverte par les humanistes italiens qui la crurent romaine, elle a servi de modèle aux caractères d'imprimerie de la Renaissance — nos minuscules romaines en descendent directement.`],
+    ["Le partage et la fin", `Le traité de Verdun de 843 partage l'empire entre les trois petits-fils de Charlemagne : la Francie occidentale à Charles le Chauve, la Francie orientale à Louis le Germanique, et une longue bande médiane à Lothaire, de la mer du Nord à l'Italie.
+
+Ce partage est l'un des actes fondateurs de la géographie politique européenne. La Francie occidentale deviendra la France, la Francie orientale l'Allemagne, et la bande centrale — Lotharingie — sera l'objet de conflits pendant onze siècles, de la Bourgogne à l'Alsace-Lorraine.
+
+L'année précédente, les serments de Strasbourg avaient scellé l'alliance de deux des frères contre le troisième. Chacun avait prêté serment dans la langue des troupes de l'autre, afin d'être compris : l'un en langue romane, l'autre en langue germanique. Le texte roman constitue le plus ancien document conservé dans une langue romane distincte du latin — acte de naissance conventionnel du français.
+
+L'empire s'affaiblit ensuite sous les incursions vikings, sarrasines et hongroises. L'incapacité du pouvoir central à assurer la défense transfère l'autorité réelle aux comtes et aux seigneurs locaux, qui fortifient et protègent — c'est le mécanisme même de la féodalité.
+
+La dynastie s'achève en Francie occidentale en 987, avec l'élection d'Hugues Capet par les grands du royaume.`],
+  ],
+
+  "hf2-capetiens": [
+    ["Élus, puis héréditaires", `Hugues Capet est élu roi en 987 par les grands du royaume, après la mort du dernier Carolingien. Son domaine royal se limitait à une région restreinte autour de Paris et d'Orléans — quelques comtés au milieu de principautés bien plus puissantes, Normandie, Aquitaine, Flandre, Bourgogne.
+
+Les premiers Capétiens ne contrôlaient donc qu'un petit territoire, et rien ne laissait prévoir qu'ils régneraient huit siècles.
+
+Leur première réussite est dynastique. La royauté étant élective, ils instaurent la pratique du sacre du fils aîné du vivant du père : le successeur est désigné et sacré avant toute vacance, ce qui rend l'élection formelle puis inutile. Répété sur sept générations, le procédé transforme une royauté élective en royauté héréditaire sans qu'aucun texte ne l'ait décidé.
+
+Le sacre a lieu à Reims, en mémoire du baptême de Clovis, et il confère au roi un caractère quasi sacerdotal — l'onction du saint chrême le distingue de tous les autres seigneurs, y compris de ceux qui sont infiniment plus puissants que lui.`],
+    ["Philippe Auguste", `Philippe Auguste, qui règne de 1180 à 1223, allonge considérablement le domaine royal. Il profite du conflit avec les Plantagenêts — rois d'Angleterre et maîtres de la moitié occidentale de la France — pour confisquer leurs fiefs continentaux après une procédure féodale en bonne et due forme, puis pour les conquérir : Normandie, Anjou, Maine, Touraine, Poitou.
+
+La bataille de Bouvines, en 1214, consolide ces gains face à une coalition réunissant l'empereur, le comte de Flandre et l'Angleterre. C'est l'une des rares batailles rangées du Moyen Âge à avoir eu des conséquences politiques décisives, et elle a été construite au XIXe siècle comme une victoire nationale — les contemporains y voyaient surtout un jugement de Dieu favorable au roi.
+
+Il met en place les baillis et les sénéchaux pour administrer le royaume : des officiers salariés, révocables, sans attache locale, chargés de rendre la justice et de percevoir les revenus. C'est une innovation majeure — un embryon d'administration d'État, opposé au système féodal où chaque charge tend à devenir héréditaire.`],
+    ["Le roi saint", `Louis IX règne de 1226 à 1270 et sera canonisé en 1297, moins de trente ans après sa mort — délai très court, obtenu par la pression de son petit-fils Philippe le Bel, qui y trouvait un intérêt politique évident.
+
+Son règne construit l'image d'un roi justicier : il rend la justice, arbitre les conflits entre princes européens, réforme l'administration, interdit le duel judiciaire et développe l'appel devant les cours royales. La justice devient l'attribut central de la royauté française, ce qu'elle restera.
+
+Il fait construire la Sainte-Chapelle pour abriter les reliques de la Passion, achetées à l'empereur latin de Constantinople pour une somme supérieure au coût de l'édifice lui-même. Le bâtiment est un reliquaire monumental, et sa possession place le roi de France au premier rang de la chrétienté.
+
+Son règne comporte des aspects que l'hagiographie a longtemps atténués : deux croisades désastreuses, dont il mourra ; une répression sévère du blasphème ; et des mesures discriminatoires contre les juifs, dont l'obligation du signe distinctif et la confiscation des dettes.`],
+    ["L'affrontement avec le pape", `Philippe le Bel, qui règne de 1285 à 1314, pousse la construction de l'État royal jusqu'à l'affrontement direct avec la papauté.
+
+Le conflit avec Boniface VIII porte sur la taxation du clergé — le roi entend imposer les biens ecclésiastiques pour financer ses guerres — et, plus profondément, sur la primauté du pouvoir spirituel ou temporel. Il se conclut par l'attentat d'Anagni en 1303, où des envoyés du roi arrêtent le pape ; celui-ci meurt peu après. La papauté s'installera ensuite à Avignon pour près de soixante-dix ans.
+
+En 1312, Philippe le Bel fait supprimer l'ordre du Temple. Les Templiers, ordre militaire devenu banquier de la chrétienté et créancier du roi, sont arrêtés en une seule journée en 1307, jugés sur des aveux obtenus sous torture, et leurs biens confisqués. Le grand maître Jacques de Molay est brûlé en 1314.
+
+L'affaire réunit tous les traits du règne : une administration capable d'exécuter une opération simultanée dans tout le royaume, des légistes formés au droit romain pour la justifier, et une conception du pouvoir royal qui ne reconnaît plus d'autorité concurrente.`],
+  ],
 };
