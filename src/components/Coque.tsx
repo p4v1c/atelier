@@ -11,6 +11,7 @@
  * d'accent — trois choses que le module déclare, sans avoir à redessiner une
  * page entière.
  */
+import { HORS_LIGNE } from "@/lib/hors-ligne";
 import type { ModuleSummary, PublicUser } from "@/lib/api-types";
 import { ChoixTheme } from "./ChoixTheme";
 
@@ -92,7 +93,14 @@ export function Coque({
         </nav>
 
         <div className="flanc-pied">
-          {user ? (
+          {/* Hors ligne, il n'y a pas de serveur à qui demander un compte :
+              le bouton mènerait à un écran qui ne peut rien faire. La
+              progression reste dans le téléphone, et l'écran « Mon
+              application » prend la place — il porte la mise à jour du
+              contenu, qui est ce qu'on vient y chercher. */}
+          {HORS_LIGNE ? (
+            <button onClick={onCompte}>Mon application</button>
+          ) : user ? (
             <>
               <span className="qui">{user.pseudo}</span>
               <button onClick={onCompte}>Mon compte</button>

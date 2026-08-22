@@ -19,3 +19,18 @@
 
 ## Phase 3 — APK hors ligne : à faire
 - Contenu figé depuis /api/public/*, export statique sans src/app/api, Capacitor, MAJ GitHub.
+
+## Phase 3 — APK hors ligne : TERMINÉE
+- `src/lib/hors-ligne.ts` (aiguillage), `src/lib/client/api.ts` (détournement),
+  `depot-hors-ligne.ts` (IndexedDB), `mise-a-jour.ts` (GitHub), `sauvegarde.ts`.
+- `src/components/screens/Application.tsx` : progression (sauvegarde/restauration),
+  contenu (version, mise à jour), application (version, publications).
+- `scripts/exporter-hors-ligne.ts` — appelle les gestionnaires de route eux-mêmes.
+- `scripts/publier-contenu.ts` — prépare publication/, n'envoie rien.
+- `scripts/construire-apk.sh` — copie de travail, export statique, Capacitor, Gradle.
+- `ressources/icone.svg` + `generer-icones.mjs`.
+- APK : atelier-1.0.0.apk, 21 Mo, fr.atelier.app, minSdk 24, 1039 fichiers de contenu.
+- SDK installé dans ~/Android/sdk (platforms 35 et 36, build-tools 35 et 36).
+- Vérifié : série jouée hors réseau, progression conservée après redémarrage,
+  sauvegarde téléchargée, mise à jour complète depuis un faux GitHub (25 Mo,
+  1033 cours éclatés), 227 tests, 0 contraste sous le seuil.

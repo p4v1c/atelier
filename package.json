@@ -1,6 +1,6 @@
 {
   "name": "la-regle",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -24,12 +24,18 @@
     "tts:voices": "bash scripts/telecharger-voix.sh",
     "contraste": "node scripts/mesurer-contraste.mjs",
     "classes-mortes": "node scripts/classes-mortes.mjs",
-    "cartes": "node scripts/generer-cartes.mjs"
+    "cartes": "node scripts/generer-cartes.mjs",
+    "apk": "bash scripts/construire-apk.sh",
+    "apk:site": "bash scripts/construire-apk.sh site",
+    "contenu:hors-ligne": "tsx scripts/exporter-hors-ligne.ts",
+    "contenu:publier": "tsx scripts/publier-contenu.ts"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
   },
   "dependencies": {
+    "@capacitor/filesystem": "^8.1.3",
+    "@capacitor/share": "^8.0.1",
     "@node-rs/argon2": "^2.1.0",
     "@prisma/client": "^6.2.1",
     "next": "^16.3.1",
@@ -38,6 +44,9 @@
     "zod": "^3.24.1"
   },
   "devDependencies": {
+    "@capacitor/android": "^8.5.0",
+    "@capacitor/cli": "^8.5.0",
+    "@capacitor/core": "^8.5.0",
     "@types/node": "^22.10.5",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",

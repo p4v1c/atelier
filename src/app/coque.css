@@ -936,3 +936,59 @@
   .duo-champs { grid-template-columns: 1fr; }
   .rang-action { flex-direction: column; align-items: flex-start; gap: 8px; }
 }
+
+/* ═══════════════════════════════════════════════════════════════════════
+   MON APPLICATION — l'écran propre à l'APK
+   ═══════════════════════════════════════════════════════════════════════
+
+   Trois blocs, un par chose dont la personne est seule responsable quand il
+   n'y a pas de serveur : sa progression, son contenu, son application. */
+
+.appli-page { max-width: 640px; display: flex; flex-direction: column; gap: 34px; }
+
+.appli-bloc {
+  border-top: 1px solid var(--encre-3);
+  padding-top: 18px;
+}
+.appli-texte {
+  font-size: 14.5px; line-height: 1.7; color: var(--craie);
+  margin: 0 0 20px; max-width: 62ch;
+}
+.appli-note {
+  font-size: 12.5px; line-height: 1.6; color: var(--mauve);
+  margin: 14px 0 0; max-width: 62ch;
+}
+
+.appli-chiffres {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 18px; margin: 0 0 22px;
+}
+.appli-chiffres dt {
+  font-size: 10px; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--mauve-2); font-weight: 700; margin-bottom: 6px;
+}
+.appli-chiffres dd {
+  margin: 0; font-family: "Bodoni Moda", serif; font-size: 26px; line-height: 1;
+  color: var(--or); font-variant-numeric: tabular-nums;
+}
+.appli-chiffres dd.petit {
+  font-family: "IBM Plex Mono", monospace; font-size: 13px; color: var(--craie);
+}
+
+.appli-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+/* Un lien qui agit comme un bouton en prend l'allure : sans ça, « Voir les
+   publications » serait le seul de la rangée à ne pas ressembler aux autres. */
+.appli-actions a.creux { text-decoration: none; display: inline-block; }
+
+.appli-jauge {
+  height: 3px; background: var(--encre-3); border-radius: 2px;
+  overflow: hidden; margin-top: 18px;
+}
+.appli-jauge i {
+  display: block; height: 100%; background: var(--or);
+  transform-origin: left center; transition: transform .2s linear;
+}
+
+@media (max-width: 560px) {
+  .appli-actions > * { width: 100%; text-align: center; }
+}

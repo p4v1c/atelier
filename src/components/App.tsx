@@ -11,6 +11,8 @@
  * matières et les compteurs vivent ici, une fois pour toutes.
  */
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { Application } from "./screens/Application";
+import { HORS_LIGNE } from "@/lib/hors-ligne";
 import type { ModuleSummary, PublicUser, SessionSummary, StartedSession } from "@/lib/api-types";
 import { ApiError, apiGet, apiPost } from "@/lib/client/api";
 import {
@@ -85,7 +87,7 @@ const NOMS_ECRAN: Record<string, string> = {
   lecon: "Leçon",
   connexion: "Connexion",
   inscription: "Inscription",
-  compte: "Mon compte",
+  compte: HORS_LIGNE ? "Mon application" : "Mon compte",
 };
 
 /** Les onglets par défaut. Un module peut fournir les siens. */
@@ -110,6 +112,9 @@ export function App() {
   /** Bascule vers le moteur qui correspond à l'état de connexion. */
   const boot = useCallback(async () => {
     try {
+      // Hors ligne, il n'y a pas de session à retrouver : on part directement
+      // en mode invité, sans requête qui échouerait au premier écran.
+      if (HORS_LIGNE) throw new ApiError(401, "hors_ligne", "Pas de compte hors ligne.");
       const me = await apiGet<{ user: PublicUser }>("/api/auth/me");
       setUser(me.user);
       setEngine(new ServerEngine());
@@ -283,10 +288,14 @@ export function App() {
     ) : (
       <Lecon {...props} slug={screen.slug} />
     )
-  ) : screen.name === "connexion" ? (
+  ) : screen.name === "connexion" && !HORS_LIGNE ? (
     <Connexion {...props} />
-  ) : screen.name === "inscription" ? (
+  ) : screen.name === "inscription" && !HORS_LIGNE ? (
     <Inscription {...props} />
+  ) : HORS_LIGNE ? (
+    // Hors ligne, « Mon compte » n'a personne à qui parler : l'écran de
+    // l'application prend sa place, avec la sauvegarde et les mises à jour.
+    <Application {...props} />
   ) : (
     <Compte {...props} />
   );
@@ -307,7 +316,11 @@ export function App() {
         moduleCourant={moduleId}
         onModule={choisirModule}
         user={user}
-        onCompte={() => setScreen(user ? { name: "compte" } : { name: "inscription" })}
+        onCompte={() =>
+          // Hors ligne, « compte » mène à l'écran de l'application : il n'y a
+          // pas d'inscription à proposer, faute d'interlocuteur.
+          setScreen(HORS_LIGNE || user ? { name: "compte" } : { name: "inscription" })
+        }
         fil={[nomModule, nomEcran]}
         onglets={onglets}
         ongletActif={ongletActif}

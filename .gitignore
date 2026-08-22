@@ -13,3 +13,17 @@ sauvegardes
 f[0-9]*.mjs
 fumee*.mjs
 
+
+# construction hors ligne (APK)
+.hors-ligne/
+public/hors-ligne/
+out/
+android/app/build/
+android/.gradle/
+android/build/
+android/local.properties
+android/app/src/main/assets/public/
+publication/
+atelier-*.apk
+ressources/*.png
+.travail/

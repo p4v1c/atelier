@@ -702,6 +702,90 @@ phrases toutes marquées correctes.
 Comptes exacts : **4 326 phrases en base, dont 4 242 jouables** (les 84 autres
 appartiennent aux douze règles « cas discutés »).
 
+## L'application Android
+
+L'APK ne parle à aucun serveur. Tout le contenu y est embarqué, la progression
+reste dans le téléphone, et l'application fonctionne en avion. Ce n'était pas
+une réécriture : le **mode invité** faisait déjà tourner le planificateur dans
+le navigateur, avec la progression en `localStorage` et le contenu chargé en un
+bloc par `/api/public/content`. Il ne restait qu'à remplacer ce bloc — servi par
+une route — par un fichier posé à côté de la page.
+
+```
+npm run apk          contenu → site statique → APK
+npm run apk:site     s'arrête après le site statique (pour vérifier au navigateur)
+```
+
+L'APK sort dans `atelier-<version>.apk`, environ 21 Mo.
+
+### Ce qui change hors ligne
+
+| | En ligne | Dans l'APK |
+| --- | --- | --- |
+| Contenu | Postgres, par `/api/public/*` | fichiers de `public/hors-ligne/` |
+| Progression | en base, par compte | `localStorage` du téléphone |
+| Comptes | inscription, connexion | aucun — l'écran « Mon application » prend la place |
+| Mise à jour | déploiement | publication GitHub, téléchargée depuis l'application |
+
+Le drapeau `NEXT_PUBLIC_HORS_LIGNE=1` est figé à la compilation, et non deviné à
+l'exécution : une application qui hésiterait entre deux origines chercherait un
+serveur au premier écran, et échouerait dans un avion. Tout tient en trois
+fichiers — `src/lib/hors-ligne.ts` dit quelle route a un fichier,
+`src/lib/client/api.ts` fait l'aiguillage, `src/lib/client/depot-hors-ligne.ts`
+range le contenu téléchargé. Le reste du code ignore la distinction.
+
+`output: "export"` refuse tout gestionnaire de route. Plutôt que de déplacer
+`src/app/api` le temps de la construction — un ctrl-C au mauvais moment
+laisserait le dépôt amputé —, `scripts/construire-apk.sh` bâtit dans une COPIE,
+qui n'a pas ces routes. Le dépôt n'est jamais modifié.
+
+### La progression
+
+Elle vit dans `localStorage`, comme en mode invité, et **elle n'est nulle part
+ailleurs**. L'écran « Mon application » porte donc une sauvegarde vers un
+fichier et une restauration depuis un fichier : c'est le seul filet quand il n'y
+a pas de serveur. Sur Android, le fichier passe par le greffon de système de
+fichiers puis par le partage — une sauvegarde qui reste sur l'appareil qu'elle
+est censée protéger ne protège pas de grand-chose.
+
+### La mise à jour du contenu par GitHub
+
+L'idée tenait de l'impossible tant qu'on imaginait un serveur. Or GitHub
+distribue déjà des fichiers — les pièces jointes d'une publication — et sait les
+servir à un navigateur.
+
+```
+npm run contenu:hors-ligne    fige le contenu depuis la base
+npm run contenu:publier       prépare publication/ et imprime la commande gh
+```
+
+Sept pièces : `manifeste.json`, la liste des matières, un fichier par matière, et
+les 1033 cours groupés en un seul. L'application lit le manifeste de la dernière
+publication, compare sa version, télécharge, puis **éclate** le fichier groupé en
+1033 entrées d'IndexedDB — un téléchargement au lieu de mille, une lecture ciblée
+au lieu de quinze mégaoctets relus à chaque cours ouvert. La version n'est posée
+qu'à la fin : un téléchargement coupé laisse l'ancienne en service, plutôt qu'un
+contenu à trous que l'application croirait complet.
+
+`publier-contenu.ts` **ne publie rien** : il imprime la commande `gh release`.
+Publier est une décision, pas un effet de bord.
+
+L'APK, lui, ne se remplace pas tout seul : Android ne l'autorise pas sans un
+geste explicite, et c'est heureux. L'écran renvoie vers la page des publications.
+
+### Outillage
+
+JDK 21, et le SDK Android (`platforms;android-36`, `build-tools;36.0.0`).
+Sans `ANDROID_HOME`, Gradle ne trouve rien :
+
+```
+export ANDROID_HOME=$HOME/Android/sdk
+```
+
+L'APK produit est signé avec la clé de débogage : il s'installe en autorisant les
+sources inconnues. Pour une distribution large, il faudrait une clé de
+publication — ce n'est pas fait ici.
+
 ## Commandes
 
 | Commande                    | Effet                                             |
@@ -719,10 +803,13 @@ appartiennent aux douze règles « cas discutés »).
 | `npm run classes-mortes`    | les règles CSS que plus aucun composant ne rend    |
 | `npm run cartes`            | régénère les fonds de carte depuis Natural Earth   |
 | `npm test`                  | suite de tests                                     |
+| `npm run apk`               | construit l'application Android hors ligne         |
+| `npm run apk:site`          | seulement le site statique de l'APK                |
+| `npm run contenu:publier`   | prépare les pièces jointes de mise à jour          |
 
 ## Tests
 
-163 tests, concentrés sur ce qui casse en silence : calcul des paliers et
+227 tests, concentrés sur ce qui casse en silence : calcul des paliers et
 composition des séries, tokenisation, vérification des réponses, hachage des
 mots de passe et sessions, correction des dictées, intégrité du contenu. Les
 composants d'affichage ne sont pas testés — leur conformité visuelle a été
