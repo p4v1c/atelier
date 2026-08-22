@@ -1074,4 +1074,161 @@ Son implantation est significative : elle occupe le Palais de la Porte Dorée, c
 
 L'établissement a connu des débuts difficiles — inauguration sans président de la République, démission de plusieurs historiens de son conseil scientifique en 2007 pour protester contre la création d'un ministère de l'Immigration et de l'Identité nationale — qui illustrent assez bien la charge politique du sujet en France.`],
   ],
+
+  "hf3-decentralisation-territoires": [
+    ["Un livre qui a fait une politique", `L'expression « Paris et le désert français » date de 1947. C'est le titre d'un ouvrage de Jean-François Gravier, géographe, qui dénonce la concentration des richesses, des décisions et des populations dans la capitale au détriment du reste du pays.
+
+Son diagnostic était partiellement exact — la macrocéphalie parisienne est réelle et ancienne —, ses explications discutables, et son influence considérable : le livre a fourni pendant trente ans le cadre de pensée de l'aménagement du territoire français.
+
+La DATAR, Délégation à l'aménagement du territoire et à l'action régionale, est créée en 1963 pour mettre en œuvre cette politique. Rattachée au Premier ministre, dotée de crédits d'intervention et d'une capacité de coordination interministérielle, elle a piloté la décentralisation industrielle, les infrastructures et les grands équipements.
+
+Son existence même illustre une conception française : l'aménagement du territoire est une politique volontariste de l'État, qui corrige les tendances spontanées de l'économie plutôt qu'il ne les accompagne.`],
+    ["Les grands instruments", `Une métropole d'équilibre est une grande ville de province soutenue par l'État pour contrebalancer Paris. Huit sont désignées en 1964 — Lyon, Marseille, Lille, Toulouse, Bordeaux, Nantes, Strasbourg, Nancy — et reçoivent universités, équipements culturels, sièges administratifs et infrastructures.
+
+L'objectif était de créer des contrepoids ; le résultat a été double. Ces villes ont effectivement grandi et se sont dotées de fonctions supérieures, au point de devenir aujourd'hui des métropoles attractives. Mais elles ont aussi capté les ressources de leur propre région, reproduisant à leur échelle le déséquilibre qu'elles devaient corriger.
+
+Cinq villes nouvelles sont créées en région parisienne à partir de 1965 — Cergy-Pontoise, Évry, Marne-la-Vallée, Melun-Sénart, Saint-Quentin-en-Yvelines — pour organiser la croissance de l'agglomération autrement que par un étalement continu. Trois autres sont créées en province.
+
+Leur bilan est contrasté : elles ont accueilli des centaines de milliers d'habitants et créé de vrais bassins d'emploi, mais leur urbanisme des années 1970, très automobile, a mal vieilli.`],
+    ["Les quartiers", `La politique de la ville est une action publique ciblée sur les quartiers en difficulté, née au début des années 1980 après les premiers troubles urbains dans les banlieues lyonnaises.
+
+Sa logique est celle de la discrimination positive territoriale : concentrer des moyens supplémentaires — éducation, sécurité, rénovation urbaine, emploi, santé — sur des territoires identifiés, plutôt que de répartir uniformément.
+
+Le zonage en quartiers prioritaires a été plusieurs fois refondu. Le critère actuel est simple et unique : le revenu médian des habitants, ce qui a mis fin à un empilement de zonages devenu illisible. Environ mille cinq cents quartiers sont concernés, abritant plus de cinq millions de personnes.
+
+Son bilan fait l'objet d'évaluations contradictoires. La rénovation urbaine a transformé le bâti, souvent avec des résultats visibles ; les écarts d'emploi, de réussite scolaire et de santé avec le reste du pays se sont peu réduits. La critique la plus solide porte sur la contradiction entre des moyens ciblés et un droit commun qui, dans ces mêmes quartiers, fonctionne moins bien qu'ailleurs — moins d'enseignants expérimentés, moins de médecins, moins de services.`],
+    ["Le vide et la fracture", `La diagonale du vide est une bande de faible densité traversant la France des Ardennes aux Landes, en passant par la Champagne, le Berry, le Limousin et les Causses. Le terme est employé par les géographes depuis les années 1990, et certains lui préfèrent « diagonale des faibles densités », jugeant le premier péjoratif — un territoire peu peuplé n'est pas vide.
+
+Une zone de revitalisation rurale est un dispositif d'exonérations fiscales et sociales destiné à soutenir l'installation d'activités dans les territoires ruraux fragiles. Son efficacité est débattue : les évaluations montrent des effets d'aubaine importants, les entreprises se serait souvent installées de toute façon.
+
+Un parc naturel régional est un territoire habité, à patrimoine naturel et culturel remarquable, géré par une charte négociée entre les communes, le département et la région pour une durée de quinze ans. Il se distingue du parc national par l'absence de réglementation contraignante : il repose entièrement sur un projet volontaire, ce qui en fait un outil de développement autant que de protection.
+
+La fracture territoriale désigne l'écart croissant d'accès aux services, aux emplois et aux mobilités entre territoires. Elle recoupe imparfaitement l'opposition ville-campagne, et elle est devenue une catégorie politique majeure — les mobilisations de 2018 en ont fourni la traduction la plus visible.`],
+  ],
+
+  "hf3-culture-france-xxe": [
+    ["Une politique publique de la culture", `La France a fait de la culture une politique publique bien avant la plupart de ses voisins. Le ministère des Affaires culturelles est créé en 1959 pour André Malraux, et c'est le premier au monde à porter ce nom et ce périmètre.
+
+Sa mission fondatrice, formulée dans le décret, est de rendre accessibles les œuvres capitales de l'humanité au plus grand nombre possible de Français, d'assurer la plus vaste audience au patrimoine culturel et de favoriser la création des œuvres.
+
+Cette conception suppose que l'accès est l'obstacle principal, et elle a été discutée dès les années 1960 par les travaux de sociologie qui montraient le poids du capital scolaire dans la fréquentation.
+
+Elle a néanmoins produit un modèle singulier : un budget d'État significatif, un réseau d'institutions labellisées sur tout le territoire, une intervention publique dans le cinéma, le livre et le spectacle vivant, et un statut spécifique pour les artistes — l'intermittence.`],
+    ["Décentraliser le spectacle", `La décentralisation théâtrale d'après-guerre crée des centres dramatiques en province, à partir de 1946 : Colmar, Saint-Étienne, Toulouse, Rennes, Aix. L'idée est de rompre avec la concentration parisienne de la création théâtrale.
+
+Jean Vilar dirige à partir de 1951 le Théâtre national populaire au palais de Chaillot, avec un projet explicite : un théâtre visant un public large avec un répertoire exigeant, sans concession sur les textes. Prix bas, horaires adaptés aux ouvriers, suppression du pourboire aux ouvreuses, abonnements par comités d'entreprise, et Gérard Philipe en tête d'affiche.
+
+Vilar avait fondé quatre ans plus tôt le Festival d'Avignon, autre manière de sortir le théâtre des salles à l'italienne et des publics habituels.
+
+Les scènes nationales, les centres dramatiques et les centres chorégraphiques nationaux constituent aujourd'hui l'ossature de ce réseau, avec des cahiers des charges de création, de diffusion et d'action culturelle. Aucun autre pays européen ne dispose d'un maillage comparable.`],
+    ["Les grands équipements", `Le Centre Pompidou ouvre en 1977. Son architecture — structure et fluides apparents, façade colorée selon la fonction des conduits — a choqué et l'a rendu immédiatement identifiable. Il réunit musée d'art moderne, bibliothèque publique en accès libre, centre de création industrielle et institut de recherche musicale, combinaison alors inédite.
+
+Les années 1980 et 1990 voient une série de grands travaux parisiens : la pyramide du Louvre, l'Opéra Bastille, la Grande Arche, la Cité des sciences, l'Institut du monde arabe et la Bibliothèque nationale de France site François-Mitterrand, ouverte en 1996 avec ses quatre tours en forme de livres ouverts.
+
+Ces projets ont suscité des polémiques comparables à chaque fois, et ils sont aujourd'hui des repères ordinaires — trajectoire habituelle des équipements culturels contestés.
+
+Le musée du quai Branly, ouvert en 2006, est consacré aux arts d'Afrique, d'Asie, d'Océanie et des Amériques. Sa création a soulevé un débat de fond sur la présentation de ces objets : œuvres d'art ou documents ethnographiques, et selon quel récit. La question de la restitution des biens acquis en contexte colonial y a trouvé une actualité qui ne s'est plus éteinte.`],
+    ["Faire venir le public", `La Fête de la musique est créée en 1982 par le ministère de la Culture. Son principe tient en peu de mots : le 21 juin, n'importe qui peut jouer n'importe où, gratuitement. C'est probablement l'initiative culturelle française la plus exportée — elle est reprise dans plus de cent pays.
+
+Les Journées du patrimoine sont créées en 1984, avec un principe voisin : ouvrir au public des lieux habituellement fermés, notamment ceux du pouvoir. Elles attirent chaque année plusieurs millions de visiteurs et ont été étendues à l'échelle européenne.
+
+Ces dispositifs relèvent d'une stratégie précise : plutôt que d'attendre les publics dans les institutions, aller vers eux et supprimer les barrières symboliques autant que financières.
+
+Les enquêtes sur les pratiques culturelles des Français, conduites tous les dix ans depuis 1973, permettent d'en mesurer l'effet. Leur constat principal est constant sur cinquante ans : la fréquentation culturelle reste fortement corrélée au niveau de diplôme, davantage qu'au revenu. Les écarts se sont peu réduits malgré la massification scolaire et les politiques d'accès — résultat qui invite à la modestie sur ce qu'une politique culturelle peut accomplir seule, et qui renvoie à l'école la part principale du problème.`],
+  ],
+
+  "hf3-justice-france-histoire": [
+    ["Juger sous l'Ancien Régime", `La question judiciaire est la torture employée pour obtenir des aveux, encadrée par une procédure précise : question préparatoire pour arracher l'aveu avant jugement, question préalable pour obtenir les noms des complices avant l'exécution.
+
+Elle repose sur une conception de la preuve où l'aveu est la reine des preuves, et sur l'idée qu'un innocent résistera. Sa pratique était réglementée — durée, intensité, présence d'un médecin, procès-verbal — ce qui ne la rendait ni rare ni moins arbitraire.
+
+La torture judiciaire a été abolie en France en 1788, un an avant la Révolution : Louis XVI supprime la question préalable après avoir aboli la préparatoire en 1780. La monarchie avait donc engagé la réforme pénale avant sa chute.
+
+Cesare Beccaria, juriste milanais, avait publié en 1764 *Des délits et des peines*, ouvrage bref et immédiatement traduit dans toute l'Europe. Il y démontre l'inutilité de la torture, plaide contre la peine de mort, et pose deux principes devenus fondamentaux : la légalité des délits et des peines, et la proportionnalité — mieux vaut une peine modérée et certaine qu'une peine terrible et rare.`],
+    ["Le code et le bagne", `Le Code pénal de 1810 organise le droit pénal français pour un siècle et demi. Il applique la légalité des délits et des peines, distingue crimes, délits et contraventions, et prévoit une échelle de peines graduée.
+
+Il reste sévère : il maintient la peine de mort pour de nombreux crimes, les travaux forcés, la marque au fer jusqu'en 1832, et le carcan. Sa philosophie est celle de l'intimidation, non de l'amendement.
+
+Le bagne est un lieu de détention avec travaux forcés. D'abord installé dans les ports — Toulon, Brest, Rochefort —, il est transféré aux colonies à partir de 1852 : Guyane et Nouvelle-Calédonie. Les conditions y sont mortelles, l'espérance de vie du condamné se comptant souvent en années.
+
+La relégation, instaurée en 1885, aggrave encore le dispositif : elle prévoit la déportation à vie des multirécidivistes, même pour des délits mineurs — quatre condamnations pour vol pouvaient suffire. Sa logique est explicitement l'élimination sociale plutôt que la sanction proportionnée, et elle a été inspirée par les théories de l'époque sur les criminels-nés. Les bagnes coloniaux ne fermeront qu'en 1938, et les derniers bagnards seront rapatriés en 1953.`],
+    ["Juger autrement", `L'ordonnance du 2 février 1945 spécialise la justice des mineurs. Elle pose trois principes : la primauté de l'éducatif sur le répressif, l'atténuation de la responsabilité selon l'âge, et l'existence de juridictions spécialisées avec un juge des enfants qui suit le mineur dans la durée.
+
+Ce texte, plusieurs dizaines de fois modifié puis remplacé en 2021 par un code de la justice pénale des mineurs, reste fondateur : il fait du mineur délinquant un enfant à protéger avant d'être un coupable à punir.
+
+La guillotine avait été adoptée en 1792 sur proposition d'un médecin député, Joseph Guillotin, qui souhaitait une exécution égale pour tous — jusqu'alors les nobles étaient décapités et les roturiers pendus — et instantanée, donc moins cruelle. C'est un objet issu des Lumières, ce qui a de quoi surprendre, et son nom a fait le désespoir de la famille Guillotin, qui demanda sans succès à en changer.
+
+La dernière exécution capitale en France a lieu en 1977. La peine de mort est abolie en 1981 par la loi portée par Robert Badinter, alors que les sondages y étaient majoritairement favorables, et elle est inscrite dans la Constitution en 2007.`],
+    ["Les garanties de l'État de droit", `La loi du 15 juin 2000 renforce la présomption d'innocence par un ensemble de garanties procédurales : présence de l'avocat dès la première heure de garde à vue, enregistrement des interrogatoires de mineurs, création de l'appel en matière criminelle — jusque-là, un verdict de cour d'assises était sans appel —, et encadrement de la détention provisoire par un juge distinct du juge d'instruction.
+
+Cette dernière innovation, le juge des libertés et de la détention, répond à une critique ancienne : le juge d'instruction ne pouvait pas être à la fois celui qui enquête et celui qui décide de l'incarcération.
+
+Le Conseil supérieur de la magistrature veille à l'indépendance de l'autorité judiciaire. Il propose ou donne un avis sur les nominations et statue en matière disciplinaire.
+
+Sa composition et ses pouvoirs ont été plusieurs fois révisés, et le débat n'est pas clos : le parquet, chargé des poursuites, reste hiérarchiquement rattaché au ministre de la Justice, et la Cour européenne des droits de l'homme a jugé à plusieurs reprises qu'il ne pouvait être considéré comme une autorité judiciaire indépendante au sens de la Convention. C'est le point sur lequel l'architecture judiciaire française demeure la plus contestée.`],
+  ],
+
+  "hf3-vie-quotidienne": [
+    ["Un confort qui arrive", `L'équipement des logements français a changé plus vite entre 1950 et 1975 qu'en un siècle auparavant.
+
+En 1954, environ six logements sur dix disposaient de l'eau courante, un quart d'une baignoire ou d'une douche, et un quart de toilettes intérieures. Le chauffage central était rare. Une part importante du parc datait du XIXe siècle et n'avait pratiquement pas évolué.
+
+Vingt ans plus tard, l'essentiel des logements dispose de l'eau, du sanitaire et du chauffage. Cette transformation, plus rapide qu'aucune autre dans l'histoire de l'habitat français, tient à la reconstruction, à la construction massive et à l'élévation générale du niveau de vie.
+
+Le grand ensemble est l'instrument de cette production : ensembles de logements collectifs construits rapidement en périphérie, selon des méthodes industrialisées — préfabrication, chemin de grue, plans répétitifs. Ils offraient un confort très supérieur aux taudis qu'ils remplaçaient, et leurs premiers habitants en témoignent avec enthousiasme. Leur dégradation ultérieure tient moins à leur conception qu'à l'absence d'équipements, à l'enclavement et au départ des ménages les plus mobiles.`],
+    ["Le baby-boom et les objets", `Le baby-boom français désigne la forte hausse de la natalité de 1945 au milieu des années 1960. Sa particularité est d'avoir commencé en France dès 1942, avant la fin de la guerre, et d'avoir duré plus longtemps qu'ailleurs en Europe.
+
+Ses effets démographiques structurent tout ce qui suit : construction d'écoles dans les années 1950, de collèges et lycées dans les années 1960, universités surchargées à la fin de la décennie — mai 1968 est aussi une conséquence du baby-boom —, arrivée massive sur le marché du travail dans les années 1970, et départs en retraite à partir de 2006.
+
+Les équipements domestiques se généralisent dans l'ordre : réfrigérateur et machine à laver dans les années 1960, télévision qui devient majoritaire au milieu de la même décennie, automobile, puis téléphone dans les années 1970 et 1980 — la France accusait alors un retard téléphonique considérable, corrigé par le programme de rattrapage lancé en 1974.
+
+Le premier hypermarché ouvre en 1963 à Sainte-Geneviève-des-Bois. Le format — grande surface, parking, tout sous un même toit, prix bas — transforme le commerce, la mobilité et l'urbanisme périphérique en une génération.`],
+    ["Le temps libre", `La réduction du temps de travail scande le siècle : quarante heures en 1936, trente-neuf heures en 1982, trente-cinq heures par les lois Aubry de 1998 et 2000.
+
+Les congés payés suivent la même progression : deux semaines en 1936, trois en 1956, quatre en 1969, cinq en 1982.
+
+Ces conquêtes ont créé un temps social nouveau, et avec lui des industries entières : tourisme de masse, camping, résidences secondaires — la France en compte la proportion la plus élevée d'Europe —, sports de loisir, télévision.
+
+Le passage aux trente-cinq heures reste l'une des mesures les plus discutées de la période récente. Ses évaluations divergent : création d'emplois réelle mais coûteuse selon la plupart des travaux, intensification du travail pour une partie des salariés, et effet très inégal selon les secteurs. Les jours de RTT qu'elle a introduits sont en revanche entrés durablement dans l'organisation du travail des cadres.`],
+    ["Une innovation française", `Le Minitel est un terminal télématique diffusé à partir de 1980, distribué gratuitement aux abonnés du téléphone en remplacement de l'annuaire papier.
+
+Son modèle était complet et en avance de quinze ans sur le web : un terminal, un réseau, un annuaire, et surtout un système de facturation intégré — le kiosque — qui prélevait la communication sur la facture téléphonique et reversait aux services. Ce dernier point, que l'internet n'a jamais réglé aussi simplement, explique la prospérité des services minitel.
+
+Vingt-cinq mille services y ont existé : réservation de train, banque, petites annonces, messageries — dont les fameuses messageries roses, qui ont financé une part importante de l'écosystème.
+
+Son succès a produit un effet pervers documenté : la France a adopté l'internet plus tardivement que ses voisins, disposant déjà d'un système qui fonctionnait et rapportait. Le Minitel a été arrêté en 2012, après trente-deux ans de service — belle longévité pour un objet devenu le symbole d'une innovation nationale à la fois pionnière et impasse.`],
+  ],
+
+  "hf3-france-europe": [
+    ["Une initiative française", `La France a proposé la première étape de la construction européenne. La déclaration Schuman, le 9 mai 1950, propose de placer l'ensemble de la production franco-allemande de charbon et d'acier sous une Haute Autorité commune, ouverte aux autres pays européens.
+
+Son idée directrice est explicite dans le texte : rendre la guerre entre la France et l'Allemagne non seulement impensable mais matériellement impossible, en mettant en commun les industries de l'armement. Elle procède par étapes concrètes plutôt que par un plan d'ensemble — « l'Europe ne se fera pas d'un coup, ni dans une construction d'ensemble : elle se fera par des réalisations concrètes créant d'abord une solidarité de fait ».
+
+Rédigée par Jean Monnet, la déclaration aboutit à la Communauté européenne du charbon et de l'acier en 1951, à six. Le 9 mai est depuis la journée de l'Europe.
+
+La France rejette en revanche en 1954 la Communauté européenne de défense, qu'elle avait pourtant proposée : l'Assemblée nationale refuse de ratifier, une coalition de gaullistes et de communistes s'opposant à une armée européenne intégrée. Le projet de défense commune ne sera pas repris avant des décennies.`],
+    ["Une participation exigeante", `La politique de la chaise vide, en 1965, est le refus français de siéger dans les instances européennes pendant six mois. De Gaulle s'oppose à deux évolutions : le passage au vote à la majorité qualifiée, qui priverait la France de veto, et le renforcement des pouvoirs de la Commission et du Parlement.
+
+Le compromis de Luxembourg, en 1966, met fin à la crise par une formule diplomatique : lorsqu'un intérêt très important est en jeu pour un État, le Conseil s'efforcera de parvenir à des solutions acceptables par tous. Ce n'est pas un droit de veto juridiquement établi, mais il en a longtemps eu l'effet, et il a considérablement ralenti l'intégration.
+
+Les premières élections européennes au suffrage universel direct ont lieu en 1979. Les Français y élisent des députés européens tous les cinq ans, avec un taux de participation durablement inférieur à celui des élections nationales — écart qui alimente le débat sur le déficit démocratique européen.
+
+Le Parlement européen tient ses sessions plénières à Strasbourg, siège fixé par les traités, tout en travaillant à Bruxelles — arrangement coûteux que la France défend fermement et que le Parlement lui-même a plusieurs fois demandé de modifier.`],
+    ["Deux référendums", `Le traité de Maastricht est ratifié par référendum en septembre 1992 avec 51,04 pour cent des voix. Il crée l'Union européenne, la citoyenneté européenne et prévoit la monnaie unique.
+
+L'étroitesse du résultat a marqué durablement la vie politique française : elle a révélé une fracture qui ne recoupait pas le clivage gauche-droite, et qui traversait les deux principaux partis.
+
+Le traité établissant une Constitution pour l'Europe est rejeté par référendum en mai 2005, avec près de 55 pour cent de non et une participation élevée. Le texte est également rejeté aux Pays-Bas.
+
+Une grande partie de son contenu est reprise deux ans plus tard dans le traité de Lisbonne, ratifié cette fois par voie parlementaire. Ce contournement, juridiquement régulier, a nourri durablement le soupçon que le vote populaire ne compterait pas en matière européenne — c'est l'un des arguments les plus fréquemment repris depuis, et il pèse sur tout débat de ratification.
+
+L'euro entre en circulation sous forme de pièces et de billets en janvier 2002, après trois ans d'existence scripturale. Le passage s'est fait sans incident technique majeur, avec un débat persistant sur son effet inflationniste perçu — les mesures statistiques montrent un effet faible sur l'indice global, et important sur les produits du quotidien les plus fréquemment achetés, ce qui explique l'écart entre la perception et la mesure.`],
+    ["Ce que la France apporte et reçoit", `La France est contributrice nette au budget européen : elle verse davantage qu'elle ne reçoit directement, comme l'Allemagne, l'Italie ou les Pays-Bas.
+
+Elle est en même temps la première bénéficiaire des aides de la politique agricole commune, qui reste le premier poste du budget européen. Cette position explique la constance de la défense française de cette politique, quels que soient les gouvernements.
+
+Le raisonnement en solde net est toutefois trompeur, et les économistes le soulignent régulièrement : il ne compte que les flux budgétaires et ignore les bénéfices du marché unique, de l'union douanière et de la monnaie commune, qui sont sans commune mesure avec les sommes en jeu.
+
+La France a par ailleurs un poids institutionnel supérieur à son poids démographique, par la place du français comme langue de travail, la localisation d'institutions sur son sol, et son statut de membre permanent du Conseil de sécurité — seul État de l'Union à l'être depuis le Brexit, situation qui alimente le débat sur une représentation européenne commune.`],
+  ],
 };
