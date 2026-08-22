@@ -109,4 +109,131 @@ Un sophisme, à l'inverse, est un raisonnement fallacieux qui a l'apparence de l
 
 Deux principes servent de garde-fous. La charge de la preuve pèse sur celui qui affirme, non sur celui qui doute : ce n'est pas au contradicteur de prouver qu'une assertion est fausse. Et l'effet de halo décrit la contamination du jugement par une impression globale : un orateur jugé sympathique voit chacun de ses arguments mieux reçu, indépendamment de leur valeur.`],
   ],
+
+  "lf2-familles-langues": [
+    ["Une parenté, pas une ressemblance", `Deux langues appartiennent à la même famille si elles descendent d'une langue commune. Le critère n'est ni la ressemblance apparente ni le voisinage géographique : c'est la filiation, établie par la comparaison systématique.
+
+La méthode a été mise au point au XIXe siècle et repose sur les correspondances régulières. Si le latin *pater* donne le français *père* et l'anglais *father*, ce n'est pas par emprunt mais parce que la même consonne initiale a évolué de la même façon dans tous les mots concernés — *pes/pied/foot*, *piscis/poisson/fish*. C'est la régularité de la correspondance, et non la ressemblance d'un mot isolé, qui prouve la parenté.
+
+Cette méthode a permis de reconstituer une langue jamais attestée par l'écrit, l'indo-européen commun, parlé il y a plusieurs millénaires quelque part entre la mer Noire et la Caspienne selon l'hypothèse dominante.`],
+    ["La famille du français", `Le français appartient aux langues indo-européennes, la famille la plus parlée au monde, et à l'intérieur de celle-ci à la branche romane, issue du latin parlé : français, italien, espagnol, portugais, roumain, catalan, occitan, sarde, romanche et plusieurs autres.
+
+Toutes descendent non du latin classique de Cicéron mais du latin populaire des soldats, colons et marchands, ce qui explique bien des différences — le mot latin classique pour cheval était *equus*, et les langues romanes descendent toutes de *caballus*, terme familier désignant plutôt une rosse.
+
+L'anglais appartient à la branche germanique, avec l'allemand, le néerlandais et les langues scandinaves. Son apparence est trompeuse : une grande partie de son vocabulaire vient du français, importé après la conquête normande de 1066, mais sa grammaire et son vocabulaire de base restent germaniques. C'est le rappel qu'une langue se classe par sa structure et son fonds ancien, non par le nombre de ses emprunts.
+
+Le basque, lui, n'appartient à aucune famille connue : c'est un isolat, seul survivant probable des langues parlées en Europe occidentale avant l'arrivée des Indo-Européens. L'arabe et l'hébreu relèvent des langues sémitiques, dans la famille afro-asiatique.`],
+    ["Compter les langues", `On parle environ sept mille langues dans le monde, chiffre approximatif pour une raison de principe : la frontière entre langue et dialecte n'est pas linguistique. Le critère d'intercompréhension échoue régulièrement — un Suédois et un Norvégien se comprennent et parlent deux langues, deux locuteurs de « chinois » ne se comprennent pas et parlent officiellement la même. La formule attribuée au linguiste Max Weinreich reste la plus honnête : une langue est un dialecte doté d'une armée et d'une marine.
+
+Le mandarin compte le plus grand nombre de locuteurs natifs, devant l'espagnol et l'anglais ; ce dernier reprend la première place si l'on ajoute les locuteurs qui l'ont appris comme seconde langue.
+
+Cette diversité se réduit rapidement : les estimations les plus courantes prévoient la disparition de près de la moitié des langues actuelles avant la fin du siècle. Une langue meurt lorsqu'elle cesse d'être transmise aux enfants, et le processus est irréversible bien avant la mort du dernier locuteur.`],
+    ["Trois façons de construire une phrase", `Au-delà des familles, les linguistes classent aussi les langues par leur fonctionnement, indépendamment de toute parenté.
+
+Une langue isolante, comme le chinois, ne décline ni ne conjugue : chaque mot reste invariable, et les relations grammaticales s'expriment par l'ordre des mots et par des particules. Le temps se marque par un adverbe, non par une désinence.
+
+Une langue agglutinante, comme le turc, le finnois ou le japonais, empile des suffixes dont chacun porte un sens unique et reste identifiable. Un seul mot turc peut ainsi correspondre à une phrase française entière, chaque élément se lisant comme une brique distincte.
+
+Une langue flexionnelle, comme le latin ou le russe, fond plusieurs informations dans une même terminaison : une désinence latine indique à la fois le cas, le nombre et le genre, sans qu'on puisse les séparer. Le français est flexionnel en voie d'isolement — il a perdu ses cas et exprime de plus en plus par des mots séparés ce qu'il exprimait par des terminaisons.
+
+Une langue à tons, enfin, utilise la hauteur de la voix pour distinguer le sens : en mandarin, une même syllabe prononcée sur quatre mélodies différentes donne quatre mots sans rapport. Environ la moitié des langues du monde sont tonales, ce qui fait de l'absence de tons, en français, une particularité plutôt qu'une norme.`],
+  ],
+
+  "lf2-anglicismes": [
+    ["Une langue qui a toujours emprunté", `Le français a emprunté à des dizaines de langues, l'anglais n'étant que la plus récente. Un tiers environ du vocabulaire courant vient d'ailleurs que du latin.
+
+L'arabe a fourni le vocabulaire des sciences et du commerce médiéval : algèbre, alcool, amiral, chiffre, zéro, coton, sucre, magasin, tarif. Beaucoup sont entrés par l'Espagne ou par l'Italie, et l'article arabe *al* reste soudé dans plusieurs d'entre eux.
+
+Le néerlandais a fourni l'essentiel du vocabulaire maritime : bâbord, tribord, matelot, cabillaud, foc, amarrer, écoutille — héritage des marines flamandes et hollandaises. L'italien a donné la musique, l'art et la banque ; l'espagnol, les produits d'Amérique ; l'allemand, une partie du lexique militaire ; les langues amérindiennes, africaines et asiatiques, des dizaines de mots devenus si ordinaires qu'on les croit français.
+
+L'anglais lui-même a beaucoup pris au français après 1066. Certains mots ont fait l'aller-retour : le tennis vient du français *tenez*, lancé par le serveur au jeu de paume, passé en anglais puis revenu. Le mot *bistrot*, souvent attribué au russe *bystro* lancé par les cosaques en 1814, vient plus probablement d'un mot dialectal français — le terme n'apparaissant par écrit que dans les années 1880.`],
+    ["Les recommandations officielles", `Un dispositif public élabore des équivalents français : des commissions de terminologie propres à chaque domaine, coordonnées par une commission d'enrichissement de la langue française, dont les termes sont publiés au Journal officiel après avis de l'Académie française. Leur usage est obligatoire dans les administrations et recommandé ailleurs.
+
+Certains ont réussi : *courriel*, formé au Québec pour *email*, s'est largement imposé, de même que *logiciel*, *ordinateur*, *baladeur* ou *covoiturage*. D'autres n'ont jamais pris : *mot-dièse* pour *hashtag* et *ordiphone* pour *smartphone* sont restés lettre morte.
+
+Les raisons de ce succès inégal sont assez claires. Un équivalent s'impose s'il arrive avant l'usage anglais, s'il est bref, et s'il est formé de façon transparente. *Mot-dièse* est arrivé après que *hashtag* était installé, et il est en outre inexact — le signe employé n'est pas un dièse mais un croisillon.`],
+    ["Les faux amis de l'emprunt", `Un faux anglicisme est un mot d'apparence anglaise qui n'existe pas en anglais ou y désigne autre chose. Le français en compte beaucoup : *un baby-foot* se dit *table football*, *un brushing* est un *blow-dry*, *un relooking* n'existe pas, *un footing* se dit *jogging*, et *un smoking* désigne en anglais l'action de fumer.
+
+Ces formations montrent que l'emprunt n'est pas une importation passive : la langue emprunteuse fabrique avec des matériaux étrangers des mots qui lui sont propres. C'est un signe de vitalité plutôt que de soumission.
+
+Un emprunt intégré est un mot étranger adapté à la prononciation et à l'orthographe françaises, souvent au point qu'on ne le reconnaît plus : *paquebot* vient de *packet boat*, *redingote* de *riding coat*, *boulingrin* de *bowling green*. Cette francisation était la norme jusqu'au XIXe siècle ; elle est devenue rare, l'orthographe d'origine étant aujourd'hui conservée, ce qui rend les emprunts plus visibles qu'autrefois — et alimente l'impression d'une invasion sans précédent.`],
+    ["Pourquoi l'emprunt gagne parfois", `Certains emprunts s'imposent malgré l'existence d'un équivalent, pour des raisons qui tiennent à l'économie de la langue plutôt qu'au snobisme.
+
+La brièveté d'abord : *mail* fait une syllabe contre trois pour *courrier électronique*, et une langue privilégie systématiquement la forme courte pour ce qui est fréquent. La spécialisation ensuite : un emprunt permet souvent de distinguer une nuance — *un manager* n'est pas exactement *un cadre*, *le design* n'est pas *le dessin*. La circulation professionnelle enfin : un terme déjà connu de tous dans un secteur international coûte moins cher à employer qu'un équivalent qu'il faudrait expliquer.
+
+Ces mécanismes ne dispensent pas de l'effort terminologique, qui reste utile là où il intervient tôt et là où la précision compte. Ils invitent seulement à distinguer ce qui relève de l'appauvrissement — remplacer un mot existant et employé par un équivalent anglais sans gain — de ce qui relève du fonctionnement ordinaire d'une langue vivante, qui emprunte depuis toujours et n'en est pas morte.`],
+  ],
+
+  "lf2-conjugaison-systeme": [
+    ["Temps, mode, aspect", `Le français distingue trois notions que l'école confond souvent : le temps, le mode et l'aspect.
+
+Le temps situe l'action par rapport au moment où l'on parle : passé, présent, futur. Le mode indique la manière dont le locuteur envisage l'action — comme un fait avec l'indicatif, comme envisagée ou soumise à une appréciation avec le subjonctif, comme hypothétique avec le conditionnel, comme un ordre avec l'impératif. L'aspect traduit le déroulement de l'action : achevée ou en cours, ponctuelle ou répétée, commencée ou terminée.
+
+La distinction entre temps et aspect est la plus utile. Imparfait et passé simple situent tous deux dans le passé — ils ne diffèrent que par l'aspect : l'imparfait présente l'action en cours ou répétée, le passé simple la présente comme un point achevé. « Il marchait » et « il marcha » ne diffèrent pas par le moment mais par le regard porté sur l'action.
+
+Le français compte quatre modes personnels — indicatif, subjonctif, conditionnel, impératif — auxquels s'ajoutent les modes impersonnels que sont l'infinitif, le participe et le gérondif. La grammaire scolaire répartit par ailleurs les verbes en trois groupes, classement pratique mais imparfait : le troisième est un ensemble hétérogène qui rassemble tout ce qui ne rentre pas ailleurs, et il contient les verbes les plus fréquents de la langue.`],
+    ["Les temps du passé", `L'imparfait présente une action en cours ou répétée dans le passé : c'est le temps du décor, de l'habitude et de la description. Il sert aussi à d'autres emplois éloignés du passé — l'imparfait d'hypothèse après *si*, l'imparfait de politesse dans « je voulais vous demander », l'imparfait ludique des enfants qui distribuent les rôles : « moi j'étais le pirate ».
+
+Le passé simple s'emploie aujourd'hui surtout à l'écrit littéraire et historique. Il a pratiquement disparu de l'oral, remplacé par le passé composé, qui cumule désormais deux valeurs : celle d'un passé achevé et celle d'un résultat présent. Cette disparition est ancienne et n'a rien d'un appauvrissement : elle correspond à une évolution générale des langues romanes.
+
+Le passé simple garde une valeur stylistique précise : il détache le récit du moment de l'énonciation et produit une distance que le passé composé ne donne pas. Comparer l'ouverture de *L'Étranger* — « Aujourd'hui, maman est morte » — avec ce qu'aurait donné un passé simple suffit à mesurer l'écart.`],
+    ["Subjonctif et conditionnel", `Le conditionnel présent exprime trois valeurs distinctes qu'il faut séparer : l'hypothèse — « si j'avais le temps, je viendrais » —, l'atténuation polie — « je voudrais un renseignement » — et le futur dans le passé — « il annonça qu'il viendrait ». Cette dernière valeur est purement temporelle et n'a rien d'hypothétique, ce qui explique que les grammaires hésitent à classer le conditionnel parmi les modes ou parmi les temps de l'indicatif.
+
+Le subjonctif est généralement requis après certaines conjonctions : *bien que*, *quoique*, *avant que*, *pour que*, *à moins que*, *jusqu'à ce que*. Il s'emploie aussi après les verbes exprimant la volonté, le sentiment, le doute — mais non après ceux qui expriment une certitude, d'où l'opposition entre « je pense qu'il vient » et « je ne pense pas qu'il vienne ».
+
+Son recul est régulièrement déploré. Il est réel pour l'imparfait du subjonctif, effectivement sorti de l'usage courant, et beaucoup plus limité pour le présent, encore parfaitement vivant à l'oral dans les constructions les plus fréquentes.`],
+    ["Les cas particuliers", `Un verbe pronominal s'emploie avec un pronom réfléchi de la même personne que le sujet. Il recouvre en réalité plusieurs constructions très différentes : le réfléchi véritable — il se lave, l'action revient sur le sujet —, le réciproque — ils se parlent —, le passif — ce livre se vend bien —, et l'essentiellement pronominal — s'évanouir, se souvenir, qui n'existent pas autrement. C'est cette diversité, et non la forme, qui commande les règles d'accord du participe.
+
+Un verbe défectif est un verbe dont certaines formes n'existent pas dans l'usage : *falloir* n'existe qu'à la troisième personne du singulier, *gésir* n'a plus que quelques formes — dont le célèbre « ci-gît » —, *frire* et *clore* sont incomplets. Ces lacunes n'ont rien de logique : elles résultent de l'usure de l'usage, certaines formes ayant cessé d'être employées jusqu'à sonner faux.
+
+La voix passive, enfin, est parfois ambiguë parce que sa forme se confond avec celle d'un attribut du sujet. « La porte est fermée » peut décrire une action subie — quelqu'un vient de la fermer — ou un état. Seul le contexte, ou l'ajout d'un complément d'agent, permet de trancher. Cette ambiguïté est propre au français, où l'auxiliaire du passif est le même que celui de l'attribution.`],
+  ],
+
+  "lf2-orthographe-histoire": [
+    ["Une écriture en retard sur la parole", `L'orthographe française conserve des lettres qui ne se prononcent plus depuis des siècles. La raison est simple : la prononciation a évolué et la graphie est restée.
+
+Au XIIe siècle, on prononçait à peu près toutes les lettres de *chevaus*, de *tempeste* et de *roi*. Les consonnes finales, les *s* devant consonne et de nombreuses voyelles se sont amuïs au fil des siècles, sans que l'écriture suive. L'orthographe française n'est donc pas absurde : elle est une photographie de la prononciation d'une époque révolue, conservée pour des raisons de tradition, de reconnaissance visuelle des mots et de distinction des homophones.
+
+L'accent circonflexe garde la trace la plus visible de ce processus : il remplace le plus souvent un *s* disparu de l'ancien français. *Forêt* vient de *forest*, *hôpital* de *hospital*, *fête* de *feste*, *île* de *isle*. La comparaison avec les mots dérivés le confirme immédiatement : *forestier*, *hospitalier*, *festif*, *insulaire*.`],
+    ["Les lettres ajoutées", `Certains mots comportent des lettres qui n'ont jamais été prononcées : des humanistes de la Renaissance les ont ajoutées pour rappeler l'origine latine.
+
+Le *d* de *poids* vient d'un rapprochement — erroné — avec le latin *pondus*, alors que le mot vient de *pensum*. Le *g* de *doigt* rappelle *digitus*, le *p* de *sept* et de *compter* rappelle *septem* et *computare*, le *h* de *homme* rappelle *homo*, le *b* de *doubter* — devenu *douter* — rappelait *dubitare*.
+
+Cette relatinisation savante avait un objet : rendre visible l'étymologie et rapprocher le français du prestige du latin. Elle a produit un écart supplémentaire entre l'écrit et l'oral, et parfois des erreurs, comme le *d* de *poids*.
+
+L'Académie française publie en 1694 la première édition de son dictionnaire, qui fixe une orthographe officielle après un siècle de flottement. Elle en a publié neuf éditions, chacune ajustant des graphies. La réforme de 1835, la plus notable, généralise le passage de *-ois* à *-ais* dans les mots comme *françois* devenu *français*, et impose le *t* au pluriel des mots en *-ant* et *-ent*.`],
+    ["Difficultés et exercices de virtuosité", `L'accord du participe passé avec l'auxiliaire *avoir* est régulièrement cité comme la difficulté majeure : le participe s'accorde avec le complément d'objet direct seulement si celui-ci précède le verbe. Cette règle est une invention de Clément Marot au XVIe siècle, importée de l'italien, et elle n'a jamais correspondu à un usage oral spontané — c'est une règle purement graphique, que la réforme a plusieurs fois proposé de supprimer sans y parvenir.
+
+La dictée de Mérimée, écrite pour la cour de Napoléon III, est le monument de cette difficulté cultivée : truffée de pièges, elle aurait été fautée plusieurs dizaines de fois par l'empereur et par l'impératrice. Elle témoigne d'une époque où la maîtrise orthographique était devenue un marqueur social explicite, ce qu'elle est restée.
+
+Ce rôle social explique la résistance aux réformes. Plusieurs projets de simplification ont été proposés sans aboutir, notamment dans les années 1890 et 1970, chacun se heurtant à l'opposition de ceux qui avaient déjà payé le prix de l'apprentissage.`],
+    ["Les rectifications de 1990", `Les rectifications orthographiques de 1990 portent sur quelques points limités : le trait d'union dans les numéraux composés et certains mots, le pluriel régularisé des noms composés, la suppression de l'accent circonflexe sur *i* et *u* sauf lorsqu'il distingue deux mots, la francisation de la graphie de certains emprunts, et la correction d'une série d'anomalies isolées.
+
+Elles concernent au total quelques milliers de mots, la plupart rares. Contrairement à ce que les polémiques récurrentes laissent croire, elles ne suppriment pas le circonflexe — *dû*, *sûr*, *mûr* et les formes verbales le conservent là où il distingue.
+
+En France, elles sont recommandées, et les deux graphies sont admises : ni l'ancienne ni la nouvelle ne peut être comptée comme fautive. Les programmes scolaires les mentionnent comme référence depuis 2008, et les dictionnaires les enregistrent progressivement. Leur adoption réelle reste très partielle, ce qui produit une situation durable de double norme — probablement la plus inconfortable des solutions, mais aussi la seule qui ait pu être acceptée.`],
+  ],
+
+  "lf2-lexicographie": [
+    ["Enregistrer, ne pas décréter", `Un dictionnaire ne crée pas les mots : il enregistre un usage déjà établi. Cette phrase, que les lexicographes répètent à chaque parution médiatisée, contredit une croyance tenace selon laquelle un mot n'existerait qu'une fois « entré dans le dictionnaire ».
+
+L'ordre est inverse : un mot est employé, il se répand, il dure, et le dictionnaire le constate. Les lexicographes s'appuient pour cela sur trois critères convergents — un usage attesté par des sources écrites variées, durable sur plusieurs années, et suffisamment répandu au-delà d'un cercle restreint.
+
+Cette approche descriptive s'oppose à une approche normative, qui prescrirait le bon usage. Les dictionnaires de langue français sont majoritairement descriptifs, y compris pour les mots que leurs rédacteurs jugent laids : ils décrivent la langue telle qu'elle est parlée et écrite. Le Dictionnaire de l'Académie française occupe une position particulière, plus normative, ce qui explique qu'il enregistre les nouveautés avec un retard considérable.`],
+    ["La matière première", `Un corpus est un vaste ensemble de textes rassemblés pour observer les usages réels. Sa constitution est un choix méthodologique lourd : un corpus fait de presse nationale ne donne pas la même langue qu'un corpus incluant des forums, des romans et des transcriptions d'oral.
+
+L'informatisation a transformé le métier. On peut désormais compter les occurrences d'un mot année par année, observer ses contextes d'emploi, repérer ses cooccurrences habituelles, et dater son apparition avec une précision inaccessible aux générations précédentes, qui travaillaient sur fiches manuscrites.
+
+Ces méthodes ont produit des surprises : plusieurs mots réputés récents sont attestés depuis longtemps, et plusieurs usages dénoncés comme des fautes modernes se trouvent chez les auteurs classiques.`],
+    ["Ce que contient une entrée", `Une entrée de dictionnaire est l'unité constituée d'un mot vedette et de tout son traitement : prononciation, catégorie grammaticale, étymologie, définitions numérotées, exemples, expressions, éventuellement synonymes et homonymes.
+
+L'ordre des sens obéit à deux logiques concurrentes. L'ordre historique part du sens le plus ancien et suit l'évolution, ce qui donne à lire la vie du mot ; l'ordre par fréquence commence par l'acception la plus courante, ce qui sert mieux le lecteur pressé. Les dictionnaires de langue choisissent l'un ou l'autre et l'annoncent en préface — information que personne ne lit et qui explique pourtant bien des surprises.
+
+Une marque d'usage indique un registre — familier, vulgaire, littéraire —, un domaine — médecine, marine, droit — ou une aire géographique — Belgique, Québec, Afrique. Ces marques constituent l'apport le plus utile et le plus délicat du dictionnaire : dire qu'un mot est familier est une observation sociale autant que linguistique, et elle vieillit vite.`],
+    ["Une famille d'ouvrages", `Un dictionnaire général de langue française contient entre soixante mille et cent mille mots. Ce nombre paraît faible au regard des centaines de milliers de mots que compte la langue si l'on inclut les termes techniques, les noms propres et les dérivés — et il est très supérieur au vocabulaire actif d'un locuteur, généralement estimé à quelques milliers de mots.
+
+À côté des dictionnaires généraux, plusieurs familles répondent à des besoins distincts. Un dictionnaire étymologique retrace l'origine et l'évolution des mots. Un dictionnaire de synonymes groupe des mots de sens voisins en explicitant leurs nuances — car les synonymes parfaits n'existent pratiquement pas, et c'est précisément l'écart qui intéresse. Un dictionnaire analogique permet de retrouver un mot à partir d'une idée, opération inverse de la consultation ordinaire, précieuse pour qui cherche le terme qu'il a sur le bout de la langue.
+
+Le Trésor de la langue française occupe une place à part : dictionnaire du français des XIXe et XXe siècles en seize volumes, fruit de plusieurs décennies de travail collectif et de l'un des premiers grands corpus informatisés, il est intégralement consultable en ligne gratuitement. C'est l'un des ouvrages de référence les plus riches jamais produits sur une langue vivante.`],
+  ],
 };
