@@ -221,4 +221,122 @@ Akerlof l'a illustrée par le marché des voitures d'occasion : le vendeur conna
 
 Le même mécanisme opère en assurance — les plus risqués s'assurent le plus —, en crédit et sur le marché du travail. Les réponses sont connues : signaux crédibles et coûteux à imiter comme le diplôme, garanties, certifications, réputation, obligations légales d'information. Une bonne part du droit de la consommation et du droit financier consiste précisément à corriger cette asymétrie.`],
   ],
+
+  "ie2-emploi-chomage": [
+    ["Compter les chômeurs", `Le chômage se mesure selon des définitions précises, et tous les sans-emploi n'y entrent pas. Un chômeur au sens du Bureau international du travail est une personne sans aucun emploi — pas même une heure dans la semaine —, disponible pour travailler sous deux semaines, et ayant effectué une démarche active de recherche dans le mois écoulé. Les trois conditions sont cumulatives.
+
+Cette définition, harmonisée à l'échelle internationale, permet les comparaisons entre pays. Elle diffère du nombre d'inscrits à France Travail, qui obéit à une logique administrative : on peut être inscrit sans être chômeur au sens du BIT — parce qu'on a travaillé quelques heures — et être chômeur sans être inscrit. Les deux chiffres sont justes et ne mesurent pas la même chose, ce qui explique bien des polémiques.
+
+La population active regroupe les personnes en emploi et les chômeurs. Le taux de chômage rapporte les chômeurs à cette population active, non à la population totale. Le taux d'emploi mesure autrement : la part des personnes en emploi dans la population en âge de travailler. Il est moins sensible aux effets de découragement, et souvent plus révélateur — un pays où beaucoup renoncent à chercher affiche un chômage bas et un taux d'emploi médiocre.`],
+    ["Les zones grises", `Deux notions complètent le tableau et sont indispensables pour ne pas se tromper sur la réalité du marché du travail.
+
+Le halo autour du chômage regroupe les personnes qui souhaitent travailler mais ne remplissent pas l'un des critères du BIT : elles n'ont pas cherché activement, ou ne sont pas immédiatement disponibles — pour cause de garde d'enfant, de formation, de santé, ou par découragement. Elles représentent en France près de deux millions de personnes, un ordre de grandeur comparable à celui du chômage lui-même.
+
+Le sous-emploi désigne les personnes en emploi qui travaillent moins qu'elles ne le souhaiteraient : temps partiel subi, chômage technique. Ce n'est pas du chômage, mais ce n'est pas non plus un emploi satisfaisant.
+
+Additionner chômage, halo et sous-emploi donne une image bien plus complète que le seul taux de chômage — et c'est ce que fait l'INSEE lorsqu'il publie ces indicateurs conjointement.`],
+    ["Deux chômages qui n'appellent pas les mêmes réponses", `Le chômage frictionnel est le chômage de courte durée lié aux transitions entre emplois : le temps de chercher, de comparer, de déménager. Il est inévitable et même souhaitable — un marché où personne ne change jamais d'emploi serait un marché figé. Les politiques qui le visent portent sur l'information, l'appariement et l'accompagnement.
+
+Le chômage structurel tient à une inadéquation durable entre les emplois offerts et les compétences ou la localisation des demandeurs. Il résiste à la croissance : des postes restent vacants pendant que des personnes restent sans emploi. Ses remèdes sont lents — formation, mobilité, logement, transport — et supposent d'agir sur autre chose que le marché du travail lui-même.
+
+S'y ajoute le chômage conjoncturel, lié à un ralentissement de l'activité, seul à répondre rapidement à une relance. Confondre ces trois chômages conduit à appliquer le mauvais remède, et c'est l'une des sources les plus constantes de désaccord entre économistes et responsables politiques.`],
+    ["Les instruments", `Le SMIC est le salaire minimum légal en France, en dessous duquel aucun employeur ne peut rémunérer. Il est revalorisé au moins une fois par an selon une formule tenant compte de l'inflation constatée pour les ménages modestes et de la moitié du gain de pouvoir d'achat du salaire horaire de base ouvrier, avec possibilité de coup de pouce gouvernemental. Environ un salarié sur huit en France est rémunéré à son niveau.
+
+Son effet sur l'emploi est l'un des débats les plus disputés de l'économie. La théorie standard prédit qu'un salaire minimum élevé détruit des emplois peu qualifiés ; les études empiriques, depuis les travaux de Card et Krueger, montrent des effets bien plus faibles qu'attendu aux niveaux observés. La France a répondu par une voie propre : maintenir un SMIC élevé tout en allégeant massivement les cotisations sociales à son niveau.
+
+La formation professionnelle continue est un droit à se former tout au long de la vie active, financé par les employeurs et mobilisable notamment par le compte personnel de formation. Le taux d'activité des seniors — part des cinquante-cinq à soixante-quatre ans en emploi ou au chômage — reste inférieur en France à la moyenne européenne, ce qui pèse sur l'équilibre du système de retraites et constitue l'un des enjeux centraux des réformes successives.`],
+  ],
+
+  "ie2-finance": [
+    ["Propriétaire ou créancier", `Une action est une part de propriété d'une société ; une obligation est une créance sur elle. La différence est essentielle et commande tout le reste.
+
+L'actionnaire est copropriétaire : il possède une fraction du capital, dispose d'un droit de vote en assemblée générale, et perçoit éventuellement un dividende, c'est-à-dire la part du bénéfice que la société décide de distribuer. Il n'a droit à rien de garanti : si la société ne gagne rien, il ne reçoit rien, et en cas de liquidation il est remboursé en dernier, après tous les créanciers. En contrepartie, sa participation aux gains est illimitée.
+
+L'obligataire est prêteur : il perçoit un intérêt fixé au départ et récupère son capital à l'échéance. Il est payé avant les actionnaires en cas de difficulté. Son gain est plafonné, son risque plus faible.
+
+Cette asymétrie explique la hiérarchie du risque et du rendement, qui est la règle la plus constante de la finance : un placement ne peut offrir un rendement supérieur sans un risque supérieur. Toute promesse contraire signale une fraude ou une information manquante.`],
+    ["Les marchés", `Une introduction en Bourse est la première mise sur le marché des actions d'une société, qui lui permet de lever des capitaux auprès du public et à ses actionnaires historiques de céder une partie de leurs titres. Elle s'accompagne d'obligations de transparence considérables — publication des comptes, information sur les risques, communication permanente.
+
+Le CAC 40 est l'indice des quarante principales capitalisations de la Bourse de Paris, pondéré par le flottant. Il est souvent lu comme un baromètre de l'économie française, ce qu'il n'est pas : ses entreprises réalisent l'essentiel de leur chiffre d'affaires hors de France, et il ne dit rien des petites entreprises ni de l'emploi domestique.
+
+Un produit dérivé est un contrat dont la valeur dépend d'un actif sous-jacent — action, matière première, taux, devise. Sa fonction première est la couverture : un agriculteur ou une compagnie aérienne y sécurisent un prix futur. Sa fonction spéculative est la contrepartie, l'effet de levier permettant d'engager des positions considérables pour une mise faible.
+
+L'Autorité des marchés financiers régule ces marchés en France : elle agrée les acteurs, contrôle l'information délivrée aux investisseurs, surveille les transactions et sanctionne les abus de marché, dont le délit d'initié.`],
+    ["Quand tout s'emballe", `Une bulle spéculative est une hausse des prix déconnectée de la valeur fondamentale de l'actif, entretenue par l'anticipation que quelqu'un rachètera plus cher. Elle suit une mécanique bien décrite : innovation ou nouveauté, afflux de crédit, entrée d'investisseurs non professionnels, euphorie, puis retournement brutal. La tulipomanie hollandaise, la bulle internet et l'immobilier des années 2000 en offrent des versions séparées par des siècles et pourtant très semblables.
+
+La crise des subprimes débute en 2007 avec les crédits immobiliers américains accordés à des ménages peu solvables, à taux variable, sur l'hypothèse d'une hausse continue des prix. Ces créances ont été titrisées — transformées en titres négociables, découpées et mélangées — puis notées de façon trop favorable et diffusées dans tout le système financier mondial. Quand les défauts sont survenus, plus personne ne savait qui portait le risque.
+
+C'est la définition même du risque systémique : le risque qu'une défaillance individuelle se propage à l'ensemble du système. Il justifie une régulation particulière des établissements dont la faillite serait insupportable, avec des exigences de fonds propres renforcées — et il pose le problème de l'aléa moral, une banque qui se sait indispensable étant incitée à prendre plus de risques.
+
+Le trading à haute fréquence, enfin, exécute des transactions automatisées en fractions de seconde pour exploiter des écarts minimes. Il apporte de la liquidité en temps normal et l'a retirée brutalement lors de plusieurs décrochages éclairs, ce qui a conduit à instaurer des coupe-circuits sur les places.`],
+  ],
+
+  "ie2-logement": [
+    ["Le premier poste de dépense", `Le logement et les charges associées constituent le premier poste de dépense des ménages français, devant l'alimentation et les transports. Sa part dans le budget a environ doublé depuis les années 1960.
+
+Le taux d'effort mesure la part du revenu consacrée à se loger. Sa moyenne masque une dispersion considérable : il dépasse largement le tiers du revenu pour les ménages modestes du parc locatif privé en zone tendue, et reste faible pour les propriétaires ayant achevé de rembourser leur emprunt. C'est cette dispersion, plus que la moyenne, qui décrit la réalité du problème.
+
+Cette évolution tient moins au coût de la construction qu'à celui du foncier, et à un décalage durable entre la construction et la demande dans les zones où l'emploi se concentre. Le logement est ainsi devenu l'un des principaux facteurs d'inégalité entre ceux qui possédaient déjà et ceux qui arrivent sur le marché.`],
+    ["Les politiques du logement social", `Un logement social est un logement à loyer plafonné, attribué sous conditions de ressources, construit et géré par des organismes agréés. Il représente environ un logement sur six en France, proportion élevée en comparaison européenne, et abrite des ménages dont les revenus vont bien au-delà des plus modestes — les plafonds concernent une majorité de la population.
+
+La loi SRU de 2000 impose un quota de logements sociaux — vingt à vingt-cinq pour cent selon les cas — aux communes d'une certaine taille situées dans des agglomérations tendues, sous peine de pénalités financières. Son objectif est autant la mixité sociale que le volume : elle vise à empêcher que certaines communes concentrent les logements sociaux et d'autres aucun.
+
+Son bilan est contrasté. Elle a produit des dizaines de milliers de logements et fait bouger des communes récalcitrantes ; plusieurs préfèrent cependant payer la pénalité, dont le montant reste inférieur au coût politique et foncier de la construction.`],
+    ["Encadrer et protéger", `L'encadrement des loyers plafonne le loyer au mètre carré dans les zones tendues, par référence à un loyer médian constaté, avec un complément possible pour des caractéristiques exceptionnelles. Appliqué à Paris puis étendu à plusieurs agglomérations, il fait l'objet d'un débat empirique nourri : il protège les locataires en place, et son effet sur l'offre et sur la qualité de l'entretien est discuté.
+
+La trêve hivernale suspend les expulsions locatives du 1er novembre au 31 mars. Elle ne supprime pas la dette ni la décision de justice : elle en diffère l'exécution, avec des exceptions notamment pour les squats et les logements dangereux.
+
+Le droit au logement opposable, institué en 2007, permet à une personne mal logée ou sans logement de saisir une commission puis, en cas d'échec, d'exercer un recours contre l'État devant le juge administratif. Il transforme un objectif politique en obligation juridiquement sanctionnable — innovation notable, dont l'efficacité bute sur le nombre de logements disponibles : l'État est condamné à des astreintes sans pour autant pouvoir reloger.`],
+    ["Le logement et l'environnement", `Une passoire thermique est un logement très mal isolé, classé F ou G au diagnostic de performance énergétique. Ce diagnostic évalue de manière standardisée la consommation d'énergie et les émissions d'un logement, sur une échelle de A à G, et il est obligatoire à la vente comme à la location.
+
+Sa portée est devenue juridique : les logements les plus énergivores sont progressivement interdits à la location, par étapes successives. La mesure vise à sortir du marché les logements les plus coûteux à chauffer, qui sont aussi ceux qu'occupent les ménages les plus modestes — d'où sa difficulté, car un logement retiré du marché sans être rénové aggrave la pénurie.
+
+L'artificialisation des sols liée à l'habitat désigne la transformation de terres naturelles ou agricoles en surfaces construites ou imperméabilisées. L'étalement pavillonnaire en est le principal moteur en France, avec des effets sur les sols, l'eau, la biodiversité et les déplacements. L'objectif de « zéro artificialisation nette » à l'horizon 2050 impose de compenser toute artificialisation nouvelle par une renaturation — ce qui suppose de construire davantage sur des espaces déjà urbanisés, et heurte de plein fouet le modèle de la maison individuelle avec jardin.`],
+  ],
+
+  "ie2-sante-systeme": [
+    ["Une offre libérale, un financement socialisé", `La France combine une offre de soins largement libérale — médecins de ville installés à leur compte, cliniques privées — et un financement massivement socialisé. Cette combinaison est une singularité : la plupart des pays ont soit un système national de santé public, soit un système d'assurance privée.
+
+Les soins sont principalement financés par l'assurance maladie obligatoire, qui couvre en moyenne près de huit euros sur dix de la dépense de santé, complétée par les mutuelles et assurances complémentaires. Le reste à charge des ménages est l'un des plus faibles au monde, ce qui explique un accès financier aux soins comparativement bon.
+
+Cette architecture a une conséquence directe : le financeur ne dirige pas l'offre. L'assurance maladie paie des actes qu'elle ne prescrit pas et n'implante pas les cabinets, ce qui limite fortement sa capacité à orienter la répartition territoriale des professionnels.`],
+    ["Le parcours du patient", `Le parcours de soins coordonné organise l'accès aux soins autour du médecin traitant, qui suit le patient et l'oriente vers les spécialistes. Consulter hors de ce parcours entraîne une moindre prise en charge. Son objectif était double : améliorer la coordination et limiter le nomadisme médical.
+
+Une affection de longue durée est une maladie chronique ouvrant droit à une prise en charge à cent pour cent des soins liés à cette pathologie. Une trentaine d'affections figurent sur la liste — diabète, cancer, insuffisance cardiaque. Ce dispositif concentre une part majeure des dépenses de l'assurance maladie sur une minorité d'assurés, et c'est précisément l'objet d'une assurance sociale : le partage du risque.
+
+Le tiers payant dispense le patient de faire l'avance des frais, le professionnel étant payé directement. Généralisé pour la part assurance maladie sur les médicaments et pour certains publics, sa généralisation complète a été plusieurs fois annoncée puis reportée, la profession médicale y voyant une charge administrative et une perte de lien avec le coût réel.`],
+    ["Les tensions sur l'accès", `Un désert médical est un territoire où l'offre de soins est très insuffisante au regard de la population. Le phénomène ne concerne pas seulement le rural : des quartiers urbains denses en sont également touchés.
+
+Sa cause principale est démographique. Le numerus clausus, qui limitait strictement le nombre d'étudiants admis en deuxième année de médecine, a été maintenu à un niveau très bas des années 1970 aux années 2000, dans l'idée qu'une offre réduite réduirait la dépense. Le résultat s'est manifesté vingt ans plus tard, au moment où partait à la retraite une génération nombreuse. Le dispositif a été remplacé en 2020 par un numerus apertus fixant des objectifs régionaux, mais l'effet d'une formation qui dure une décennie ne se fera sentir que tardivement.
+
+Le secteur 2 autorise certains médecins à pratiquer des dépassements d'honoraires, avec « tact et mesure ». Sa généralisation dans certaines spécialités et certaines villes crée une barrière financière, en partie couverte par les complémentaires — ce qui rend l'accès effectif dépendant du niveau de couverture complémentaire.`],
+    ["Évaluer et surveiller", `Un générique est une copie d'un médicament dont le brevet a expiré, contenant le même principe actif à la même dose, et dont la bioéquivalence est démontrée. Son prix est nettement inférieur puisqu'il n'a pas à amortir la recherche. Sa diffusion représente une économie considérable pour l'assurance maladie, et la France a longtemps été en retard sur ses voisins en la matière.
+
+La Haute Autorité de santé est une autorité publique indépendante qui évalue les médicaments, dispositifs et actes en vue de leur remboursement, élabore des recommandations de bonne pratique et certifie les établissements. Son avis sur le service médical rendu conditionne le taux de prise en charge.
+
+La pharmacovigilance surveille les effets indésirables des médicaments après leur commercialisation. Elle est indispensable parce qu'un essai clinique, même large, ne détecte pas les effets rares ni ceux qui apparaissent après des années d'usage. Le scandale du Mediator a montré ce qui arrive quand les signaux remontés ne sont pas traités : le dispositif a été profondément réformé en 2011, avec une agence rénovée, une transparence accrue des liens d'intérêts et une possibilité de signalement direct par les patients.`],
+  ],
+
+  "ie2-defense-securite": [
+    ["Qui commande", `Le président de la République est le chef des armées en France, aux termes de la Constitution. Il préside les conseils de défense, dispose de la décision d'emploi de l'arme nucléaire, et décide de l'engagement des forces. Le Premier ministre est responsable de la défense nationale, et le Parlement autorise la prolongation au-delà de quatre mois d'une intervention extérieure — sans avoir à autoriser son déclenchement.
+
+Cette concentration est l'une des caractéristiques les plus marquées de la Ve République, souvent qualifiée de « domaine réservé » — expression qui n'a aucun fondement constitutionnel mais décrit une pratique constante depuis 1958.
+
+Le service militaire obligatoire a été suspendu — et non supprimé — en 1997, la conscription pouvant être rétablie par la loi. L'armée est depuis professionnelle. La journée défense et citoyenneté en est le vestige : une journée obligatoire de sensibilisation pour tous les jeunes Français, qui conditionne l'inscription aux examens et aux concours.`],
+    ["La dissuasion", `La dissuasion nucléaire française repose sur le principe de stricte suffisance : disposer du minimum d'armes nécessaire pour infliger à un agresseur des dommages inacceptables, et pas davantage. Elle se distingue ainsi d'une logique de parité ou de supériorité numérique, et explique un arsenal de quelques centaines de têtes là où d'autres puissances en comptent des milliers.
+
+Elle repose sur deux composantes complémentaires. La composante océanique, portée par des sous-marins nucléaires lanceurs d'engins dont l'un au moins est en permanence à la mer, assure l'invulnérabilité : un adversaire ne peut détruire une force qu'il ne localise pas. La composante aéroportée, portée par des avions de combat, apporte la souplesse et la possibilité d'un avertissement gradué.
+
+La doctrine française est strictement défensive et vise les intérêts vitaux du pays, notion volontairement laissée imprécise — l'ambiguïté fait partie du dispositif, un adversaire ne devant pas pouvoir calculer jusqu'où il peut aller.`],
+    ["Les forces intérieures", `La gendarmerie nationale est une force armée exerçant des missions de police, statut hybride sans équivalent dans beaucoup de pays. Militaire par son statut, sa discipline et ses règles d'emploi, elle est rattachée au ministère de l'Intérieur pour ses missions de sécurité intérieure depuis 2009. Elle couvre environ la moitié de la population et la grande majorité du territoire, la police nationale exerçant en zone urbaine.
+
+Ce statut militaire lui donne des capacités propres : disponibilité permanente, logement en caserne, projection en opérations extérieures, unités spécialisées comme le GIGN.
+
+La DGSE assure le renseignement extérieur, c'est-à-dire la recherche et l'exploitation d'informations hors du territoire national, et relève du ministère des Armées. La DGSI est son homologue pour le renseignement intérieur, rattachée à l'Intérieur. La communauté du renseignement française compte plusieurs autres services, et son activité a été encadrée par une loi de 2015 instaurant un contrôle par une commission indépendante — auparavant, ces techniques s'exerçaient largement hors de tout cadre légal.`],
+    ["Se protéger, se doter", `Le plan Vigipirate est un dispositif national permanent de vigilance et de protection contre le terrorisme, articulé en niveaux d'alerte qui déclenchent des mesures graduées : contrôles renforcés, patrouilles, protection de sites sensibles. Créé en 1978, il est devenu une composante visible du paysage urbain, avec la question récurrente de l'accoutumance à un dispositif permanent.
+
+La cyberdéfense protège les systèmes d'information contre les attaques, et constitue depuis une quinzaine d'années une priorité affirmée. Elle se distingue de la cybersécurité par sa dimension d'action de l'État, et associe une agence chargée de la protection des systèmes critiques et un commandement militaire disposant de capacités offensives assumées depuis 2019.
+
+Une loi de programmation militaire fixe les moyens des armées sur plusieurs années : effectifs, équipements, crédits. Son intérêt est de donner de la visibilité à des programmes d'armement dont le cycle dépasse largement une législature — un porte-avions ou un avion de combat se conçoivent sur des décennies. Sa faiblesse historique était son inexécution, les crédits étant régulièrement révisés à la baisse en cours de route ; les dernières programmations ont été exécutées plus fidèlement, dans un contexte de remontée des budgets de défense en Europe.`],
+  ],
 };
