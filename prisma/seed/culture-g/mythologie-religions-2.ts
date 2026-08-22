@@ -29,8 +29,6 @@ export const CG_MYTHOLOGIE_RELIGIONS_2: SeedSkill[] = [
      "L'enlèvement de sa fille Perséphone explique mythologiquement le cycle des saisons."],
     ["Quel dieu grec est associé au vin et à l'extase ?", ["Dionysos", "Apollon", "Pan", "Silène"], 0,
      "Son culte comportait des rites de transe, très différents de la mesure apollinienne."],
-    ["Quelle déesse grecque est la sœur jumelle d'Apollon ?", ["Artémis", "Athéna", "Hébé", "Perséphone"], 0,
-     "Déesse de la chasse et de la nature sauvage, elle correspond à la Diane romaine.", 3],
   ]),
 
   notion("mr2-mythologie-grecque-recits", S, "Les grands récits grecs",
@@ -65,8 +63,6 @@ export const CG_MYTHOLOGIE_RELIGIONS_2: SeedSkill[] = [
     2, [
     ["Quel dieu romain correspond au Zeus grec ?", ["Jupiter", "Mars", "Mercure", "Saturne"], 0,
      "Il forme avec Junon et Minerve la triade capitoline, au cœur du culte de l'État romain."],
-    ["Quel dieu romain est celui de la guerre ?", ["Mars", "Vulcain", "Quirinus", "Bellone seule"], 0,
-     "Il est aussi le père mythique de Romulus et Rémus, donc de Rome elle-même."],
     ["Quelle déesse romaine correspond à Aphrodite ?", ["Vénus", "Junon", "Diane", "Cérès"], 0,
      "La gens Julia, celle de César, prétendait descendre d'elle par Énée."],
     ["Qui sont les fondateurs mythiques de Rome ?", ["Romulus et Rémus", "Énée et Ascagne", "Numa et Tullus", "Évandre et Faunus"], 0,

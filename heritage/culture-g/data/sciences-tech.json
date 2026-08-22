@@ -815,18 +815,6 @@
      "explication": "Le condenseur séparé permet de condenser la vapeur hors du cylindre, qui reste ainsi chaud en permanence. Le gain de rendement est considérable par rapport à la machine atmosphérique de Newcomen de 1712. Watt s'associe à Matthew Boulton pour équiper l'industrie britannique. Il invente également le régulateur à boules et un mécanisme de transformation du mouvement alternatif en rotation. L'unité de puissance du Système international porte son nom."
     },
     {
-     "q": "Comment appelle-t-on les livres imprimés en Europe avant 1501 ?",
-     "choix": [
-      "Des codex",
-      "Des manuscrits",
-      "Des incunables",
-      "Des in-folios"
-     ],
-     "bonne": 2,
-     "difficulte": 3,
-     "explication": "Le mot incunable vient du latin incunabula, le berceau : il désigne les ouvrages issus des tout premiers temps de l'imprimerie, entre 1450 et la fin de l'année 1500. On en recense environ 30 000 éditions différentes. Le codex désigne la forme du livre à cahiers reliés, qui remplace le rouleau dès l'Antiquité tardive. L'in-folio, lui, renvoie à un format de pliage de la feuille, non à une époque."
-    },
-    {
      "q": "Quel avantage décisif du courant alternatif a permis sa victoire sur le courant continu ?",
      "choix": [
       "Le transport à haute tension grâce aux transformateurs",
@@ -861,6 +849,18 @@
      "bonne": 0,
      "difficulte": 1,
      "explication": "La chaîne de montage mobile fait défiler le châssis devant des ouvriers spécialisés dans un geste unique, au lieu de faire circuler les ouvriers autour d'un véhicule immobile. Le temps d'assemblage de la Ford T passe de plusieurs heures à quelques dizaines de minutes et son prix chute fortement. Ford double parallèlement les salaires en 1914, à cinq dollars par jour, pour limiter la rotation du personnel. Ce modèle est appelé fordisme."
+    },
+    {
+     "q": "Quelle invention de Gutenberg vers 1450 a rendu le livre reproductible en série ?",
+     "choix": [
+      "Les caractères mobiles en alliage métallique",
+      "Le papier",
+      "L'encre grasse",
+      "La reliure cousue"
+     ],
+     "bonne": 0,
+     "difficulte": 1,
+     "explication": "L'idée des caractères mobiles existait en Chine et en Corée depuis des siècles. L'apport de Gutenberg est un système complet : un alliage de plomb, d'étain et d'antimoine qui coule finement et résiste à la presse, un moule permettant de fondre des caractères parfaitement calibrés, une encre grasse adhérant au métal, et une presse dérivée du pressoir. Le papier, lui, était déjà connu en Europe depuis deux siècles."
     }
    ]
   },

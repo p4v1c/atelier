@@ -303,8 +303,6 @@ export const CG_LANGUE_FRANCAISE_3: SeedSkill[] = [
      "La prescription acquisitive permet au contraire d'acquérir un droit par la possession."],
     ["Que signifie moyen en procédure ?", ["Un argument juridique invoqué à l'appui d'une demande", "Une ressource financière", "Un procédé technique", "Une voie de recours"], 0,
      "Le juge doit répondre à chacun des moyens soulevés par les parties."],
-    ["Que signifie attendu dans une décision de justice ?", ["Un paragraphe exposant un motif du raisonnement", "Une attente procédurale", "Un délai", "Une conclusion"], 0,
-     "La rédaction en style direct tend à le remplacer dans les juridictions françaises."],
     ["Que signifie débouter une partie ?", ["Rejeter ses demandes", "L'exclure de la procédure", "La condamner", "La déclarer irrecevable"], 0,
      "L'irrecevabilité, distincte, écarte la demande sans l'examiner au fond."],
     ["Que signifie l'expression sous seing privé ?", ["Un acte signé sans intervention d'un officier public", "Un acte secret", "Un acte notarié", "Un acte confidentiel"], 0,

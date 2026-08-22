@@ -100,18 +100,6 @@
  ],
  "quiz": [
   {
-   "q": "Quel film des studios Disney, sorti en 1937, est le premier long métrage d'animation américain ?",
-   "choix": [
-    "«Pinocchio»",
-    "«Blanche-Neige et les Sept Nains»",
-    "«Fantasia»",
-    "«Bambi»"
-   ],
-   "bonne": 1,
-   "difficulte": 1,
-   "explication": "«Blanche-Neige et les Sept Nains» sort en 1937 après trois ans de travail et un budget si élevé que la presse parlait de la folie de Disney. Son succès mondial finance la construction d'un nouveau studio et lance la série des grands longs métrages du studio. «Pinocchio» et «Fantasia» datent de 1940, «Bambi» de 1942. Il faut noter qu'à l'échelle mondiale, «Les Aventures du prince Ahmed» de l'Allemande Lotte Reiniger, réalisé en silhouettes découpées en 1926, est plus ancien encore."
-  },
-  {
    "q": "Quel studio d'animation japonais est fondé en 1985 par Hayao Miyazaki et Isao Takahata ?",
    "choix": [
     "Toei Animation",

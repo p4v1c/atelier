@@ -176,6 +176,11 @@ Un point chaud fonctionne autrement : c'est une remontée de magma indépendante
 Cette distinction entre chaînes jeunes et massifs anciens se lit dans les formes : les premières présentent des arêtes vives, des vallées en auge et des sommets aigus ; les seconds, des reliefs arrondis et des altitudes modestes. La frontière Europe-Asie sur l'Oural, elle, relève d'une convention géographique et non d'une réalité géologique — les deux ensembles appartiennent à la même plaque.`],
   ],
   "geo2-oceans-mers": [
+    ["Les marées", `La marée est la déformation de la surface des océans sous l'attraction de la Lune et, pour un tiers environ, du Soleil. Il y a deux marées hautes par jour et non une seule : l'eau se soulève du côté de la Lune, attirée plus fortement que le centre de la Terre, et du côté opposé, où elle est au contraire moins attirée que lui.
+
+Le marnage — l'écart entre pleine et basse mer — varie considérablement selon la configuration des côtes : quelques dizaines de centimètres en Méditerranée, presque fermée, plus de quatorze mètres dans la baie du Mont-Saint-Michel, et jusqu'à seize dans la baie de Fundy au Canada, où l'onde entre en résonance avec la forme de la baie.
+
+Les marées de vive-eau surviennent aux syzygies, quand Lune et Soleil s'alignent aux nouvelles et pleines lunes ; celles de morte-eau aux quadratures, quand leurs effets se contrarient. Le coefficient publié dans les annuaires français mesure cette amplitude sur une échelle de vingt à cent vingt.`],
     ["Cinq océans, dont un récent", `L'océan Austral n'a été officiellement reconnu comme cinquième océan qu'en 2000 par l'Organisation hydrographique internationale, et son adoption reste inégale selon les pays. Il se définit non par des côtes mais par un courant : le courant circumpolaire antarctique, seul à faire le tour du globe sans obstacle continental.
 
 Le Pacifique est de loin le plus vaste : il couvre à lui seul près d'un tiers de la surface du globe, davantage que toutes les terres émergées réunies. C'est aussi là que se trouve la fosse des Mariannes, point le plus profond des océans, à près de onze kilomètres — davantage que la hauteur de l'Everest.`],

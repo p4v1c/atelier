@@ -181,18 +181,6 @@
       "explication": "Le système issu de la conférence de Bretton Woods, tenue du 1er au 22 juillet 1944, est un étalon de change-or fondé sur une seule monnaie. Le dollar était convertible en or au taux de trente-cinq dollars l'once, et les autres monnaies étaient rattachées au dollar par des parités fixes mais ajustables. Les changes flottants ne s'imposeront qu'après l'effondrement du système, en mars 1973, entériné par les accords de la Jamaïque du 8 janvier 1976. Le bancor était le projet de monnaie de réserve internationale défendu par Keynes, mais il n'a pas été retenu : c'est le plan américain de Harry Dexter White qui l'a emporté."
     },
     {
-      "q": "Quelles sont les trois fonctions traditionnellement attribuées à la monnaie ?",
-      "choix": [
-        "Unité de compte, intermédiaire des échanges, réserve de valeur",
-        "Épargne, investissement, consommation",
-        "Émission, circulation, destruction",
-        "Or, argent, papier"
-      ],
-      "bonne": 0,
-      "difficulte": 1,
-      "explication": "La monnaie se définit par trois fonctions. Comme unité de compte, elle permet d'exprimer la valeur de biens hétérogènes dans une mesure commune. Comme intermédiaire des échanges, elle évite les difficultés du troc, qui suppose de trouver un partenaire ayant exactement le besoin inverse du sien. Comme réserve de valeur, elle permet de reporter un pouvoir d'achat dans le temps, à condition que sa valeur demeure assez stable. Épargne, investissement et consommation sont des emplois du revenu, et non des fonctions monétaires. L'or, l'argent et le papier ne sont que des supports historiques de la monnaie."
-    },
-    {
       "q": "Que s'est-il passé le 15 août 1971 dans l'histoire monétaire ?",
       "choix": [
         "La Banque de France a été créée",
@@ -215,6 +203,18 @@
       "bonne": 3,
       "difficulte": 3,
       "explication": "Entre 1716 et 1720, l'Écossais John Law met en place en France un système associant une banque d'émission de billets et une compagnie coloniale. Son effondrement ruine de nombreux épargnants et laisse une méfiance durable envers le papier-monnaie, renforcée ensuite par la dépréciation des assignats émis pendant la Révolution. Le franc germinal, institué en 1803, marque au contraire le retour à une définition métallique stable de la monnaie, un an après la création de la Banque de France en 1800. La Banque d'Angleterre a été fondée en 1694 et la Suède avait émis les premiers billets européens en 1661 : ces expériences étrangères sont antérieures au système de Law."
+    },
+    {
+      "q": "Que garantit aujourd'hui la valeur d'une monnaie fiduciaire ?",
+      "choix": [
+        "La confiance dans l'émetteur et l'acceptation de la monnaie pour payer l'impôt",
+        "Une réserve d'or équivalente",
+        "Le stock de devises étrangères de la banque centrale",
+        "La valeur du papier et du métal des billets et des pièces"
+      ],
+      "bonne": 0,
+      "difficulte": 2,
+      "explication": "Depuis la fin de la convertibilité du dollar en or, en 1971, aucune monnaie n'est convertible en un métal. Ce qui les fait tenir est un ensemble de conventions : l'État accepte sa monnaie en paiement de l'impôt, la loi lui donne cours légal, et une banque centrale en défend la stabilité. Le mot fiduciaire vient du latin fiducia, la confiance. Une monnaie s'effondre quand cette confiance disparaît, quelles que soient les réserves détenues."
     }
   ],
   "sources": [

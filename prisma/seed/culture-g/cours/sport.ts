@@ -510,6 +510,11 @@ Dans les années 1960 et 1970, les pilotes mouraient à un rythme qui serait auj
   ],
 
   "sp3-athletisme-lancers": [
+    ["Courir", `Le marathon mesure quarante-deux kilomètres cent quatre-vingt-quinze mètres. Cette distance étrange a été fixée aux Jeux de Londres en 1908 : le parcours partait du château de Windsor pour s'achever devant la loge royale, et l'usage l'a ensuite figée.
+
+Sur les courses courtes, un record n'est homologué que si le vent favorable ne dépasse pas deux mètres par seconde — au-delà, la poussée fausse la comparaison. Un faux départ se définit par la physiologie autant que par le règlement : réagir en moins d'un dixième de seconde après le coup de pistolet est jugé impossible, donc anticipé.
+
+Le relais quatre fois cent mètres fait circuler un témoin dans une zone de transmission délimitée, d'où viennent la plupart des disqualifications ; le trois mille mètres steeple ajoute au fond des barrières fixes et une rivière.`],
     ["Les sauts", `Les concours regroupent quatre sauts et quatre lancers au programme olympique. Le saut en hauteur a connu une révolution technique en une soirée : à Mexico en 1968, Dick Fosbury franchit la barre sur le dos et remporte l'or. Le Fosbury flop s'est imposé partout en quelques années, parce qu'il permet au centre de gravité du sauteur de passer sous la barre pendant que le corps passe dessus.
 
 Au saut à la perche, le Suédois Armand Duplantis détient le record du monde, qu'il a relevé de centimètre en centimètre depuis 2020 — pratique liée aux primes attribuées à chaque record. Le Français Renaud Lavillenie l'avait précédé en battant en 2014, en salle, le record de Sergueï Bubka vieux de vingt et un ans. Le triple saut, lui, enchaîne trois bonds — cloche-pied, foulée bondissante, saut — avant la réception dans le sable.`],

@@ -39,8 +39,6 @@ export const CG_INSTITUTIONS_ECONOMIE: SeedSkill[] = [
     2, [
     ["Quelles sont les deux grandes branches de la justice française ?", ["l'ordre judiciaire et l'ordre administratif", "Le civil et le pénal", "Le droit privé et le droit constitutionnel", "Les juridictions ordinaires et d'exception"], 0,
      "La séparation remonte à la Révolution, qui interdit aux juges de connaître des actes de l'administration."],
-    ["Quelle est la plus haute juridiction de l'ordre judiciaire ?", ["La Cour de cassation", "Le Conseil d'État", "Le Conseil constitutionnel", "La cour d'appel"], 0,
-     "Elle ne rejuge pas les faits : elle vérifie la bonne application du droit."],
     ["Quelle est la plus haute juridiction de l'ordre administratif ?", ["Le Conseil d'État", "La Cour de cassation", "Le tribunal administratif", "La Cour des comptes"], 0,
      "Il est à la fois juge suprême de l'administration et conseiller du gouvernement pour la rédaction des textes."],
     ["Quelle juridiction juge les crimes en France ?", ["La cour d'assises", "Le tribunal correctionnel", "Le tribunal de police", "La cour d'appel"], 0,
@@ -75,8 +73,6 @@ export const CG_INSTITUTIONS_ECONOMIE: SeedSkill[] = [
      "Il est piloté par les partenaires sociaux, sous un encadrement croissant de l'État depuis 2018."],
     ["Qu'est-ce que le ticket modérateur ?", ["La part des frais de santé qui reste à la charge de l'assuré", "Une avance de frais", "Un forfait hospitalier", "La part remboursée par la mutuelle"], 0,
      "Il est souvent pris en charge par une complémentaire santé."],
-    ["Qu'est-ce que le système de retraite par répartition ?", ["Les cotisations des actifs financent les pensions des retraités", "Chacun épargne pour sa propre retraite", "l'État verse une pension uniforme", "Les entreprises capitalisent pour leurs salariés"], 0,
-     "La capitalisation, à l'inverse, place l'épargne sur les marchés financiers. La France a choisi la répartition en 1945."],
     ["Qu'est-ce que le RSA ?", ["Un revenu minimum versé sous conditions de ressources", "Une allocation chômage", "Une pension d'invalidité", "Une aide au logement"], 0,
      "Créé en 2009, il a remplacé le revenu minimum d'insertion instauré en 1988."],
     ["Quelle réforme de 1999 étend la couverture maladie aux plus démunis ?", ["La couverture maladie universelle", "L'aide médicale d'État", "La complémentaire santé solidaire", "Le tiers payant généralisé"], 0,
@@ -89,8 +85,6 @@ export const CG_INSTITUTIONS_ECONOMIE: SeedSkill[] = [
     "Qui crée la monnaie, à quoi sert une banque centrale, et pourquoi l'inflation se pilote par les taux.",
     "Ce sont les banques commerciales qui créent l'essentiel de la monnaie, en accordant des crédits.",
     2, [
-    ["Quelles sont les trois fonctions de la monnaie ?", ["Unité de compte, intermédiaire des échanges, réserve de valeur", "Épargne, crédit, paiement", "Échange, thésaurisation, spéculation", "Mesure, transfert, garantie"], 0,
-     "Cette définition remonte à Aristote et reste la référence des manuels."],
     ["Qui crée l'essentiel de la monnaie en circulation ?", ["Les banques commerciales, par le crédit", "La banque centrale seule", "l'État par le Trésor", "l'imprimerie des billets"], 0,
      "Les billets ne représentent qu'une faible part de la masse monétaire."],
     ["Quel est le principal objectif de la Banque centrale européenne ?", ["La stabilité des prix", "Le plein-emploi", "La croissance", "L'équilibre budgétaire des États"], 0,

@@ -11,8 +11,6 @@ export const CG_HISTOIRE_MONDE_3: SeedSkill[] = [
     "Causes, fronts, sortie de guerre : le premier conflit industriel de masse.",
     "La guerre devait durer quelques mois : elle a duré cinquante-deux.",
     2, [
-    ["Quel événement déclenche la Première Guerre mondiale en juin 1914 ?", ["L'assassinat de l'archiduc François-Ferdinand à Sarajevo", "L'invasion de la Belgique", "La mobilisation russe", "La crise marocaine"], 0,
-     "L'attentat déclenche un enchaînement d'ultimatums et d'alliances en quelques semaines."],
     ["Quelles sont les deux grandes alliances de 1914 ?", ["La Triple-Entente et la Triple-Alliance", "L'OTAN et le pacte de Varsovie", "Les Alliés et l'Axe", "La Sainte-Alliance et la Quadruple-Alliance"], 0,
      "L'Italie, pourtant membre de la Triple-Alliance, entre en guerre aux côtés de l'Entente en 1915."],
     ["Qu'est-ce que le plan Schlieffen ?", ["Un plan allemand visant à battre la France par la Belgique avant de se retourner contre la Russie", "Un plan de défense des frontières", "Un plan naval allemand", "Un plan d'alliance avec l'Autriche"], 0,
@@ -89,8 +87,6 @@ export const CG_HISTOIRE_MONDE_3: SeedSkill[] = [
     "De la révolution de 1949 à la puissance actuelle.",
     "La Chine a connu en quarante ans la plus rapide sortie de pauvreté de l'histoire.",
     2, [
-    ["Qui proclame la République populaire de Chine en 1949 ?", ["Mao Zedong", "Zhou Enlai", "Deng Xiaoping", "Sun Yat-sen"], 0,
-     "Les nationalistes de Tchang Kaï-chek se replient sur Taïwan."],
     ["Qu'est-ce que le Grand Bond en avant ?", ["Une campagne d'industrialisation forcée aux conséquences catastrophiques", "Un plan de modernisation agricole réussi", "Une réforme éducative", "Un plan quinquennal soviétique"], 0,
      "Lancé en 1958, il a provoqué une famine causant des dizaines de millions de morts."],
     ["Qu'est-ce que la Révolution culturelle ?", ["Une campagne de mobilisation politique et de purges de 1966 à 1976", "Une réforme de l'enseignement", "Un mouvement artistique officiel", "Une campagne d'alphabétisation"], 0,
@@ -169,8 +165,6 @@ export const CG_HISTOIRE_MONDE_3: SeedSkill[] = [
     2, [
     ["Combien de personnes ont été déplacées lors de la partition de 1947 ?", ["Plus de dix millions", "Environ un million", "Environ cent mille", "Environ cinquante millions"], 0,
      "Les violences intercommunautaires ont causé plusieurs centaines de milliers de morts."],
-    ["Qui devient le premier Premier ministre de l'Inde indépendante ?", ["Jawaharlal Nehru", "Gandhi", "Sardar Patel", "Indira Gandhi"], 0,
-     "Il oriente le pays vers une économie planifiée et un non-alignement diplomatique."],
     ["Qui assassine Gandhi en janvier 1948 ?", ["Un nationaliste hindou", "Un militant musulman", "Un agent britannique", "Un opposant sikh"], 0,
      "Nathuram Godse lui reprochait sa conciliation envers les musulmans lors de la partition."],
     ["Quel pays naît de la sécession du Pakistan oriental en 1971 ?", ["Le Bangladesh", "Le Sri Lanka", "Le Népal", "Le Bhoutan"], 0,

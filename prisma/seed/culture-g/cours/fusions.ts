@@ -184,5 +184,11 @@ export const FUSIONS_INTERNES: Record<string, string> = {
   "hm4-imperialismes": "hm2-colonisation",
   "hm4-decolonisations": "hm2-colonisation",
   "hf4-1789": "hf2-revolution-1789",
+  "sp-cyclisme": "sp3-cyclisme-3",
+  "sp-athletisme": "sp3-athletisme-lancers",
+  "geo-mers-oceans": "geo2-oceans-mers",
+  "geo-cartographie-outils": "geo2-cartographie",
+  "sp3-paralympiques": "sp2-handisport",
+  "sp3-rugby-3": "sp2-rugby",
 };
 

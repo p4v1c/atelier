@@ -249,8 +249,6 @@ export const CG_ARTS_MUSIQUE: SeedSkill[] = [
      "Il dépasse habituellement les huit millions de visiteurs annuels avant la pandémie."],
     ["Quand le Louvre devient-il un musée ouvert au public ?", ["En 1793, sous la Révolution", "Sous Louis XIV", "En 1848", "Sous Napoléon Ier"], 0,
      "Les collections royales deviennent bien national et sont exposées dans la Grande Galerie."],
-    ["Quel musée parisien est installé dans une ancienne gare ?", ["Le musée d'Orsay", "Le Centre Pompidou", "Le musée du quai Branly", "Le Petit Palais"], 0,
-     "La gare d'Orsay, construite pour l'Exposition universelle de 1900, devenue musée en 1986."],
     ["Quel musée espagnol conserve Les Ménines de Vélasquez ?", ["Le musée du Prado", "Le musée Reina Sofía", "Le musée Thyssen", "Le musée Guggenheim de Bilbao"], 0,
      "Le Reina Sofía conserve Guernica, transféré depuis New York en 1981."],
     ["Quelle convention de l'UNESCO crée la liste du patrimoine mondial ?", ["La convention de 1972", "La convention de 1954", "La convention de 1970", "La convention de 2003"], 0,

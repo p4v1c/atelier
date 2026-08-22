@@ -93,10 +93,6 @@ export const CG_SPORT_3: SeedSkill[] = [
      "La nage libre autorise toute technique, mais tous les nageurs choisissent le crawl."],
     ["Par quelle nage un quatre nages individuel commence-t-il ?", ["Papillon, dos, brasse, nage libre", "Dos, brasse, papillon, nage libre", "Brasse, dos, papillon, nage libre", "Papillon, brasse, dos, nage libre"], 0,
      "L'ordre diffère du relais quatre nages, qui commence par le dos."],
-    ["Quelle longueur fait un bassin olympique ?", ["Cinquante mètres", "Vingt-cinq mètres", "Cent mètres", "Trente-trois mètres"], 0,
-     "Les records en petit bassin de vingt-cinq mètres sont homologués séparément."],
-    ["Quel nageur détient le record de médailles olympiques ?", ["Michael Phelps", "Mark Spitz", "Ian Thorpe", "Caeleb Dressel"], 0,
-     "Vingt-huit médailles dont vingt-trois en or, sur quatre olympiades."],
     ["Combien de titres Mark Spitz a-t-il remportés à Munich en 1972 ?", ["Sept", "Cinq", "Six", "Huit"], 0,
      "Un record battu par Michael Phelps à Pékin en 2008 avec huit titres."],
     ["Quelle nageuse française a été championne olympique du huit cents mètres ?", ["Laure Manaudou", "Camille Muffat", "Charlotte Bonnet", "Coralie Balmy"], 0,
@@ -189,7 +185,7 @@ export const CG_SPORT_3: SeedSkill[] = [
      "Des protocoles commotion et des évolutions de règles ont été introduits en conséquence.", 3],
   ]),
 
-  notion("sp3-cyclisme-3", S, "Le cyclisme sur route",
+  notion("sp3-cyclisme-3", S, "Le cyclisme",
     "Grands tours, classiques, coureurs.",
     "Le Tour de France, le Giro et la Vuelta forment les trois grands tours.",
     2, [
@@ -247,8 +243,6 @@ export const CG_SPORT_3: SeedSkill[] = [
     2, [
     ["Quand le surf est-il devenu olympique ?", ["À Tokyo en 2021", "À Rio en 2016", "À Paris en 2024", "À Londres en 2012"], 0,
      "L'épreuve de Paris 2024 s'est déroulée à Teahupo'o, en Polynésie française."],
-    ["D'où le surf est-il originaire ?", ["De Polynésie, notamment d'Hawaï", "De Californie", "d'Australie", "Du Pérou"], 0,
-     "Les missionnaires ont failli le faire disparaître au XIXe siècle."],
     ["Quel Hawaïen a diffusé le surf au XXe siècle ?", ["Duke Kahanamoku", "Eddie Aikau", "George Freeth", "Tom Blake"], 0,
      "Également champion olympique de natation, il a fait connaître le surf dans le monde."],
     ["Quand le skateboard est-il devenu olympique ?", ["À Tokyo en 2021", "À Rio en 2016", "À Paris en 2024", "À Pékin en 2022"], 0,
@@ -279,8 +273,6 @@ export const CG_SPORT_3: SeedSkill[] = [
      "Les quotas de participation ont été strictement paritaires pour la première fois."],
     ["Quelle athlète française a marqué l'athlétisme féminin des années 1990 ?", ["Marie-José Pérec", "Christine Arron", "Muriel Hurtis", "Eunice Barber"], 0,
      "Triple championne olympique sur deux cents et quatre cents mètres."],
-    ["Quand la première Coupe du monde féminine de football a-t-elle eu lieu ?", ["En 1991", "En 1999", "En 1987", "En 1995"], 0,
-     "Organisée en Chine, elle a réuni douze équipes."],
     ["Quel pays a remporté le plus de Coupes du monde féminines de football ?", ["Les États-Unis", "l'Allemagne", "La Norvège", "Le Japon"], 0,
      "Ils ont dominé la compétition depuis sa création."],
     ["Qu'est-ce que le test de féminité en sport ?", ["Un contrôle du sexe des athlètes, abandonné puis remplacé par des règles hormonales", "Un test médical obligatoire", "Un contrôle génétique systématique", "Une vérification administrative"], 0,
@@ -375,8 +367,6 @@ export const CG_SPORT_3: SeedSkill[] = [
     "Formule 1, rallye, moto.",
     "La Formule 1 est le championnat de sport automobile le plus suivi au monde.",
     2, [
-    ["Quand le championnat du monde de Formule 1 a-t-il été créé ?", ["En 1950", "En 1946", "En 1958", "En 1960"], 0,
-     "La première course s'est tenue à Silverstone."],
     ["Quel pilote détient le record de titres mondiaux de Formule 1 ?", ["Michael Schumacher et Lewis Hamilton à égalité", "Michael Schumacher seul", "Lewis Hamilton seul", "Juan Manuel Fangio"], 0,
      "Chacun compte sept titres."],
     ["Quel pilote français a été champion du monde de Formule 1 ?", ["Alain Prost", "Jean Alesi", "François Cevert", "Jacques Laffite"], 0,
@@ -405,8 +395,6 @@ export const CG_SPORT_3: SeedSkill[] = [
      "Le beach-volley se joue à deux contre deux."],
     ["Qu'est-ce que le libéro au volley-ball ?", ["Un joueur spécialisé en défense qui ne peut pas attaquer", "Un joueur remplaçant libre", "Un passeur défensif", "Un capitaine de terrain"], 0,
      "Il porte un maillot de couleur différente et peut entrer librement."],
-    ["Combien de joueurs compte une équipe de handball sur le terrain ?", ["Sept", "Six", "Cinq", "Huit"], 0,
-     "Dont un gardien, seul autorisé dans la zone."],
     ["Quel pays a dominé le handball masculin des années 2000 et 2010 ?", ["La France", "l'Allemagne", "Le Danemark", "l'Espagne"], 0,
      "Les Experts ont cumulé titres mondiaux, européens et olympiques."],
     ["Qu'est-ce que le hockey sur gazon ?", ["Un sport collectif olympique joué avec une crosse sur gazon synthétique", "Un hockey d'extérieur amateur", "Une variante du hockey sur glace", "Un sport britannique traditionnel"], 0,
@@ -449,7 +437,7 @@ export const CG_SPORT_3: SeedSkill[] = [
      "Les travaux sociologiques montrent des effets réels mais conditionnés par l'encadrement.", 3],
   ]),
 
-  notion("sp3-athletisme-lancers", S, "Sauts et lancers",
+  notion("sp3-athletisme-lancers", S, "L'athlétisme",
     "Techniques, records, disciplines.",
     "Les concours regroupent quatre sauts et quatre lancers aux Jeux olympiques.",
     2, [

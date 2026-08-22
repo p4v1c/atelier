@@ -149,8 +149,6 @@ export const CG_HISTOIRE_FRANCE_3: SeedSkill[] = [
      "Le succès du vaccin contre la rage avait suscité des dons du monde entier."],
     ["Quelle maladie a été combattue par le BCG mis au point en France ?", ["La tuberculose", "La variole", "La diphtérie", "La poliomyélite"], 0,
      "Calmette et Guérin le mettent au point à l'Institut Pasteur de Lille en 1921."],
-    ["Quand la Sécurité sociale française est-elle créée ?", ["En 1945", "En 1930", "En 1958", "En 1936"], 0,
-     "Elle généralise et unifie des assurances sociales instaurées dès 1930."],
     ["Qu'est-ce que la loi Veil de 1975 ?", ["La légalisation de l'interruption volontaire de grossesse", "La légalisation de la contraception", "La création de la Sécurité sociale", "La réforme hospitalière"], 0,
      "La contraception avait été légalisée par la loi Neuwirth en 1967."],
     ["Quel scandale sanitaire des années 1980 concerne les transfusions ?", ["L'affaire du sang contaminé", "L'affaire du Mediator", "L'affaire de l'amiante", "L'affaire de l'hormone de croissance"], 0,

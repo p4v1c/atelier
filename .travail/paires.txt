@@ -1,0 +1,851 @@
+[MEME-NOTION] 57%
+  cg-neuf-ga3-terroirs-france-3 (Gastronomie & Art de vivre) — De quelle région la choucroute est-elle emblématique ?  → l'Alsace
+  cg-neuf-ga3-terroirs-france-3 (Gastronomie & Art de vivre) — De quelle région la tarte flambée est-elle emblématique ?  → l'Alsace
+
+[MEME-NOTION] 60%
+  cg-neuf-sp2-sports-glisse (Sport) — Quand le surf est-il devenu olympique ?  → À Tokyo en 2021
+  cg-neuf-sp2-sports-glisse (Sport) — Quand le skateboard est-il devenu olympique ?  → À Tokyo en 2021
+
+[MEME-NOTION] 50%
+  cg-neuf-ga3-terroirs-france-3 (Gastronomie & Art de vivre) — De quelle région la galette de sarrasin est-elle emblématique ?  → La Bretagne
+  cg-neuf-ga3-terroirs-france-3 (Gastronomie & Art de vivre) — De quelle région le far est-il emblématique ?  → La Bretagne
+
+[MEME-NOTION] 50%
+  cg-neuf-geo-france-regions (Géographie) — Quelle région française est la plus peuplée ?  → l'Île-de-France
+  cg-neuf-geo-france-regions (Géographie) — Quelle région française attire le plus de touristes étrangers ?  → l'Île-de-France
+
+[MEME-NOTION] 50%
+  cg-neuf-geo-france-regions (Géographie) — Quelle région française est la plus peuplée ?  → l'Île-de-France
+  cg-neuf-geo-france-regions (Géographie) — Quelle région française a la plus forte densité de population ?  → l'Île-de-France
+
+[MEME-NOTION] 50%
+  cg-neuf-hf-francois-premier (Histoire de France) — Quel artiste italien François Ier accueille-t-il en France ?  → Léonard de Vinci
+  cg-neuf-hf-francois-premier (Histoire de France) — Quel artiste italien meurt en France en 1519 sous la protection de François Ier ?  → Léonard de Vinci
+
+[meme-matiere] 78%
+  cg-histoire-monde-20 (Histoire du monde) — Quelle ville, prise en 1291, marque par sa chute la fin des États latins d'Orient ?  → Saint-Jean-d'Acre
+  cg-neuf-hm2-croisades (Histoire du monde) — Quelle ville marque en 1291 la fin des États latins d'Orient ?  → Saint-Jean-d'Acre
+
+[inter-matiere] 78%
+  cg-institutions-economie-02 (Institutions & Économie) — En quelle année les femmes ont-elles obtenu le droit de vote en France ?  → 1944
+  cg-libre-histoire-france-2 (Histoire de France) — En quelle année les femmes obtiennent-elles le droit de vote en France ?  → 1944
+
+[meme-matiere] 75%
+  cg-histoire-france-c01 (Histoire de France) — Quelle victoire du 20 septembre 1792 arrête l'invasion prussienne ?  → Valmy
+  cg-neuf-hf2-terreur-directoire (Histoire de France) — Quelle bataille de septembre 1792 arrête l'invasion prussienne ?  → Valmy
+
+[meme-matiere] 75%
+  cg-histoire-monde-11 (Histoire du monde) — Quelle bataille marque le tournant du Pacifique en juin 1942 ?  → Midway
+  cg-neuf-hm2-japon-histoire (Histoire du monde) — Quelle bataille navale de 1942 marque le tournant du Pacifique ?  → Midway
+
+[inter-matiere] 75%
+  cg-geographie-c02 (Géographie) — Quel département français abrite le centre spatial de Kourou ?  → La Guyane
+  cg-neuf-hf-outre-mer-histoire (Histoire de France) — Quel territoire français abrite le centre spatial de Kourou ?  → La Guyane
+
+[meme-matiere] 75%
+  cg-geographie-06 (Géographie) — Quel fleuve possède le débit le plus important du monde ?  → L'Amazone
+  cg-libre-geographie-2 (Géographie) — Quel fleuve possède le plus grand débit du monde ?  → L'Amazone
+
+[meme-matiere] 75%
+  cg-libre-arts-musique-2 (Arts & Musique) — Quel album de Miles Davis, enregistré en 1959, est l'un des disques de jazz les plus vendus de l'histoire ?  → « Kind of Blue »
+  cg-neuf-am-musiques-actuelles (Arts & Musique) — Quel album de Miles Davis, paru en 1959, est l'un des plus vendus de l'histoire du jazz ?  → Kind of Blue
+
+[meme-matiere] 75%
+  cg-cinema-medias-06 (Cinéma & Médias) — Quel studio américain a produit le premier long métrage entièrement en images de synthèse ?  → Pixar
+  cg-neuf-cm-hollywood-industrie (Cinéma & Médias) — Quel studio d'animation a produit Toy Story, premier long métrage entièrement en images de synthèse ?  → Pixar
+
+[meme-matiere] 75%
+  cg-physique-chimie-c02 (Physique & Chimie) — Où se concentre l'essentiel de la masse d'un atome ?  → Dans le noyau
+  cg-neuf-pc2-atome-structure (Physique & Chimie) — Où se concentre la masse d'un atome ?  → Dans le noyau
+
+[meme-matiere] 75%
+  cg-physique-chimie-02 (Physique & Chimie) — En synthèse additive des lumières, quelles sont les trois couleurs primaires ?  → Rouge, vert et bleu
+  cg-neuf-pc2-lumiere-couleur (Physique & Chimie) — Quelles sont les couleurs primaires de la synthèse additive ?  → Rouge, vert et bleu
+
+[inter-matiere] 75%
+  cg-libre-histoire-france-1 (Histoire de France) — En quelle année les pièces et billets en euros sont-ils mis en circulation en France ?  → 2002
+  cg-libre-institutions-economie-1 (Institutions & Économie) — En quelle année les pièces et billets en euros ont-ils été mis en circulation ?  → 2002
+
+[meme-matiere] 75%
+  cg-libre-institutions-economie-2 (Institutions & Économie) — Quel est l'objectif principal assigné par les traités à la Banque centrale européenne ?  → La stabilité des prix
+  cg-neuf-ie-monnaie-banques (Institutions & Économie) — Quel est le principal objectif de la Banque centrale européenne ?  → La stabilité des prix
+
+[meme-matiere] 75%
+  cg-libre-arts-musique-3 (Arts & Musique) — Quel architecte américain a conçu la maison sur la cascade, dite « Fallingwater » ?  → Frank Lloyd Wright
+  cg-neuf-am2-architecture-contemporaine (Arts & Musique) — Quel architecte américain a conçu la maison sur la cascade ?  → Frank Lloyd Wright
+
+[meme-matiere] 75%
+  cg-neuf-hm-empire-mongol (Histoire du monde) — Quelle bataille arrête l'expansion mongole en 1260 ?  → Aïn Djalout
+  cg-neuf-hm2-mongols (Histoire du monde) — Quelle bataille de 1260 arrête l'expansion mongole vers l'Égypte ?  → Aïn Djalout
+
+[meme-matiere] 73%
+  cg-sport-c01 (Sport) — Quand les femmes participent-elles pour la première fois aux Jeux olympiques modernes ?  → En 1900, à Paris
+  cg-neuf-sp3-sport-femmes (Sport) — Quand les femmes ont-elles participé aux Jeux olympiques pour la première fois ?  → En 1900, à Paris
+
+[meme-matiere] 71%
+  cg-histoire-monde-11 (Histoire du monde) — Quel événement force l'ouverture du Japon en 1853 ?  → L'arrivée des navires du commodore Perry
+  cg-neuf-hm2-japon-histoire (Histoire du monde) — Quel événement de 1853 force le Japon à s'ouvrir ?  → L'arrivée des navires du commodore Perry
+
+[meme-matiere] 71%
+  cg-cinema-medias-03 (Cinéma & Médias) — Quel pays produit le plus grand nombre de films par an ?  → l'Inde
+  cg-neuf-cm3-cinema-economie-mondiale (Cinéma & Médias) — Quel pays produit le plus de films par an ?  → l'Inde
+
+[meme-matiere] 71%
+  cg-institutions-economie-01 (Institutions & Économie) — Quelle juridiction juge les crimes en France, comme le meurtre ?  → La cour d'assises
+  cg-neuf-ie-justice-france (Institutions & Économie) — Quelle juridiction juge les crimes en France ?  → La cour d'assises
+
+[inter-matiere] 71%
+  cg-libre-sciences-vie-1 (Sciences de la vie & Terre) — Quelle est la plus grande planète du système solaire ?  → Jupiter
+  cg-neuf-pc-astronomie-systeme (Physique & Chimie) — Quelle est la plus grosse planète du système solaire ?  → Jupiter
+
+[inter-matiere] 71%
+  cg-libre-histoire-monde-3 (Histoire du monde) — Quel empereur romain autorise le christianisme par l'édit de Milan en 313 ?  → Constantin
+  cg-neuf-mr-christianisme (Mythologie & Religions) — Quel empereur romain autorise le christianisme en 313 ?  → Constantin
+
+[meme-matiere] 71%
+  cg-sciences-vie-05 (Sciences de la vie & Terre) — Qui a proposé en 1912 la théorie de la dérive des continents ?  → Alfred Wegener
+  cg-libre-sciences-vie-2 (Sciences de la vie & Terre) — Quel scientifique a proposé la théorie de la dérive des continents en 1912 ?  → Alfred Wegener
+
+[meme-matiere] 71%
+  cg-physique-chimie-c01 (Physique & Chimie) — Quelle est l'unité d'énergie du Système international ?  → Le joule
+  cg-neuf-pc-energie (Physique & Chimie) — Quelle unité mesure l'énergie dans le Système international ?  → Le joule
+
+[inter-matiere] 71%
+  cg-libre-sciences-tech-2 (Inventions & Technologie) — Combien y a-t-il d'unités de base dans le Système international d'unités ?  → Sept
+  cg-neuf-pc-mesures-unites (Physique & Chimie) — Combien d'unités de base compte le Système international ?  → Sept
+
+[meme-matiere] 71%
+  cg-sport-02 (Sport) — Sur quelle surface se dispute le tournoi de Roland-Garros ?  → La terre battue
+  cg-libre-sport-1 (Sport) — Sur quelle surface se joue le tournoi de Roland-Garros ?  → La terre battue
+
+[meme-matiere] 71%
+  cg-libre-geographie-1 (Géographie) — Quel est le plus long fleuve entièrement situé en France ?  → La Loire
+  cg-neuf-geo-france-regions (Géographie) — Quel est le plus long fleuve de France ?  → La Loire
+
+[meme-matiere] 71%
+  cg-libre-geographie-1 (Géographie) — Quel est le plus grand désert chaud du monde ?  → Le Sahara
+  cg-neuf-geo2-afrique-geographie (Géographie) — Quel désert est le plus vaste désert chaud du monde ?  → Le Sahara
+
+[meme-matiere] 71%
+  cg-neuf-hf-francois-premier (Histoire de France) — Quel artiste italien François Ier accueille-t-il en France ?  → Léonard de Vinci
+  cg-neuf-hf4-renaissance-france (Histoire de France) — Quel artiste italien François Ier a-t-il accueilli en France ?  → Léonard de Vinci
+
+[inter-matiere] 71%
+  cg-libre-physique-chimie-1 (Physique & Chimie) — Quelle est l'unité de puissance dans le Système international ?  → Le watt
+  cg-libre-sciences-tech-1 (Inventions & Technologie) — Quelle unité du Système international mesure la puissance ?  → Le watt
+
+[meme-matiere] 70%
+  cg-histoire-france-05 (Histoire de France) — Quelle ordonnance de 1539 impose l'usage du français dans les actes de justice ?  → L'ordonnance de Villers-Cotterêts
+  cg-neuf-hf-francois-premier (Histoire de France) — Quelle ordonnance de 1539 impose le français dans les actes officiels ?  → L'ordonnance de Villers-Cotterêts
+
+[meme-matiere] 70%
+  cg-histoire-monde-c01 (Histoire du monde) — Quel général carthaginois franchit les Alpes avec ses éléphants pour attaquer Rome en 218 av. J.-C. ?  → Hannibal
+  cg-neuf-hm2-rome-republique (Histoire du monde) — Quel général carthaginois franchit les Alpes avec des éléphants ?  → Hannibal
+
+[meme-matiere] 70%
+  cg-histoire-monde-c02 (Histoire du monde) — Quelle expédition réalise le premier tour du monde entre 1519 et 1522 ?  → Celle de Magellan, achevée par Elcano
+  cg-libre-histoire-monde-2 (Histoire du monde) — Quelle expédition partie en 1519 réalise le premier tour du monde ?  → Celle de Magellan, achevée par Elcano
+
+[meme-matiere] 70%
+  cg-geographie-03 (Géographie) — Quel fleuve traverse le plus grand nombre de pays européens ?  → Le Danube
+  cg-libre-geographie-3 (Géographie) — Quel fleuve traverse ou borde le plus grand nombre de pays au monde ?  → Le Danube
+
+[meme-matiere] 70%
+  cg-cinema-medias-c03 (Cinéma & Médias) — Quel organisme, issu de l'éclatement de l'ORTF, conserve les archives de la radio et de la télévision françaises ?  → L'INA
+  cg-neuf-cm3-archives-audiovisuelles (Cinéma & Médias) — Quel organisme conserve les archives de la radio et de la télévision françaises ?  → l'INA
+
+[inter-matiere] 70%
+  cg-libre-histoire-monde-1 (Histoire du monde) — Vers 1450, quel Allemand met au point l'imprimerie à caractères mobiles en Europe ?  → Johannes Gutenberg
+  cg-libre-sciences-tech-1 (Inventions & Technologie) — Qui a mis au point l'imprimerie à caractères mobiles métalliques en Europe vers 1450 ?  → Johannes Gutenberg
+
+[meme-matiere] 67%
+  cg-histoire-france-03 (Histoire de France) — Quelle victoire de 1214 consolide durablement le pouvoir de Philippe Auguste ?  → Bouvines
+  cg-neuf-hf2-capetiens (Histoire de France) — Quelle bataille de 1214 consolide le pouvoir de Philippe Auguste ?  → Bouvines
+
+[meme-matiere] 67%
+  cg-libre-histoire-monde-2 (Histoire du monde) — Quel philosophe grec fut le précepteur d'Alexandre le Grand ?  → Aristote
+  cg-neuf-hm-alexandre (Histoire du monde) — Quel philosophe fut le précepteur d'Alexandre ?  → Aristote
+
+[meme-matiere] 67%
+  cg-geographie-05 (Géographie) — Quel pays africain est le plus peuplé ?  → Le Nigeria
+  cg-libre-geographie-2 (Géographie) — Quel est le pays le plus peuplé d'Afrique ?  → Le Nigeria
+
+[meme-matiere] 67%
+  cg-neuf-geo-ressources (Géographie) — Quel pays possède les plus grandes réserves de gaz naturel ?  → La Russie
+  cg-neuf-geo2-energie-ressources (Géographie) — Quel pays détient les plus grandes réserves prouvées de gaz naturel ?  → La Russie
+
+[meme-matiere] 67%
+  cg-geographie-15 (Géographie) — Quelle est l'agglomération la plus peuplée du monde ?  → Tokyo
+  cg-neuf-geo-villes-monde (Géographie) — Quelle est la plus grande agglomération du monde ?  → Tokyo
+
+[inter-matiere] 67%
+  cg-institutions-economie-04 (Institutions & Économie) — Combien de régions métropolitaines la France compte-t-elle depuis 2016 ?  → Treize
+  cg-neuf-geo-france-regions (Géographie) — Combien de régions compte la France métropolitaine depuis 2016 ?  → Treize
+
+[meme-matiere] 67%
+  cg-litterature-01 (Littérature) — Quel écrivain refuse le prix Nobel de littérature en 1964 ?  → Jean-Paul Sartre
+  cg-libre-litterature-2 (Littérature) — Quel écrivain français a refusé le prix Nobel de littérature en 1964 ?  → Jean-Paul Sartre
+
+[meme-matiere] 67%
+  cg-litterature-01 (Littérature) — Quelle écrivaine obtient le prix Nobel de littérature en 2022 ?  → Annie Ernaux
+  cg-libre-litterature-2 (Littérature) — Quelle écrivaine française a reçu le prix Nobel de littérature en 2022 ?  → Annie Ernaux
+
+[inter-matiere] 67%
+  cg-langue-francaise-c01 (Langue française) — Quel texte de 842 est le plus ancien document connu en langue romane ?  → Les Serments de Strasbourg
+  cg-neuf-hf-charlemagne-empire (Histoire de France) — Quel serment de 842 est le plus ancien texte en langue romane ?  → Les Serments de Strasbourg
+
+[meme-matiere] 67%
+  cg-arts-musique-c02 (Arts & Musique) — Qui a construit la coupole de la cathédrale de Florence, achevée en 1436 ?  → Filippo Brunelleschi
+  cg-arts-musique-03 (Arts & Musique) — Qui a construit la coupole de la cathédrale Santa Maria del Fiore à Florence, achevée en 1436 ?  → Filippo Brunelleschi
+
+[inter-matiere] 67%
+  cg-arts-musique-12 (Arts & Musique) — Quel royaume africain est célèbre pour ses bronzes de cour ?  → Le royaume du Bénin
+  cg-neuf-hm2-afrique-precoloniale (Histoire du monde) — Quel royaume africain est célèbre pour ses bronzes du XVIe siècle ?  → Le royaume du Bénin
+
+[meme-matiere] 67%
+  cg-cinema-medias-03 (Cinéma & Médias) — Quel studio d'animation japonais Hayao Miyazaki cofonde-t-il ?  → Le studio Ghibli
+  cg-libre-cinema-medias-1 (Cinéma & Médias) — Quel studio d'animation japonais Hayao Miyazaki a-t-il cofondé en 1985 ?  → Le studio Ghibli
+
+[meme-matiere] 67%
+  cg-mythologie-religions-07 (Mythologie & Religions) — Qui est le fondateur historique du bouddhisme ?  → Siddhartha Gautama
+  cg-libre-mythologie-religions-1 (Mythologie & Religions) — Qui est le fondateur du bouddhisme ?  → Siddhartha Gautama
+
+[meme-matiere] 67%
+  cg-sciences-vie-04 (Sciences de la vie & Terre) — Qu'appelle-t-on une espèce clé de voûte ?  → Une espèce dont la disparition bouleverse tout l'écosystème
+  cg-neuf-sv2-ecosystemes (Sciences de la vie & Terre) — Qu'est-ce qu'une espèce clé de voûte ?  → Une espèce dont la disparition bouleverse tout l'écosystème
+
+[meme-matiere] 67%
+  cg-sciences-vie-05 (Sciences de la vie & Terre) — Qui a proposé en 1912 la théorie de la dérive des continents ?  → Alfred Wegener
+  cg-neuf-sv-geologie-terre (Sciences de la vie & Terre) — Qui a formulé la théorie de la dérive des continents en 1912 ?  → Alfred Wegener
+
+[meme-matiere] 67%
+  cg-sciences-tech-17 (Inventions & Technologie) — Qui met au point le premier vaccin contre la rage ?  → Louis Pasteur
+  cg-libre-sciences-tech-1 (Inventions & Technologie) — Qui a mis au point en 1885 le vaccin contre la rage ?  → Louis Pasteur
+
+[meme-matiere] 67%
+  cg-physique-chimie-c03 (Physique & Chimie) — Quelle unité mesure l'intensité du courant ?  → l'ampère
+  cg-libre-physique-chimie-1 (Physique & Chimie) — Quelle est l'unité d'intensité du courant électrique ?  → L'ampère
+
+[meme-matiere] 67%
+  cg-gastronomie-03 (Gastronomie & Art de vivre) — Quel gâteau doit sa forme de couronne à une course cycliste ?  → Le Paris-Brest
+  cg-libre-gastronomie-2 (Gastronomie & Art de vivre) — Quel gâteau en forme de couronne a été créé en l'honneur d'une course cycliste ?  → Le Paris-Brest
+
+[meme-matiere] 67%
+  cg-gastronomie-09 (Gastronomie & Art de vivre) — Qu'est-ce que le clou de girofle botaniquement ?  → Un bouton floral séché
+  cg-neuf-ga2-epices (Gastronomie & Art de vivre) — Qu'est-ce que le clou de girofle ?  → Un bouton floral séché
+
+[meme-matiere] 67%
+  cg-neuf-sp-sports-collectifs (Sport) — Que vaut un essai au rugby à quinze ?  → Cinq points
+  cg-neuf-sp3-rugby-3 (Sport) — Combien de points vaut un essai au rugby à quinze ?  → Cinq points
+
+[meme-matiere] 67%
+  cg-sport-07 (Sport) — Quel pilote français a été sacré quatre fois champion du monde de Formule 1 ?  → Alain Prost
+  cg-neuf-sp3-sports-mecaniques (Sport) — Quel pilote français a été champion du monde de Formule 1 ?  → Alain Prost
+
+[meme-matiere] 67%
+  cg-libre-geographie-1 (Géographie) — Quel détroit sépare la France du Royaume-Uni ?  → Le pas de Calais
+  cg-neuf-geo-detroits (Géographie) — Quel détroit sépare la France de l'Angleterre ?  → Le pas de Calais
+
+[meme-matiere] 67%
+  cg-libre-geographie-2 (Géographie) — Quel est le département le plus peuplé de France ?  → Le Nord
+  cg-neuf-geo-france-regions (Géographie) — Quel département français est le plus peuplé ?  → Le Nord
+
+[meme-matiere] 67%
+  cg-libre-geographie-2 (Géographie) — Quelle est la plus grande île du monde (hors continent) ?  → Le Groenland
+  cg-neuf-geo-iles (Géographie) — Quelle est la plus grande île du monde ?  → Le Groenland
+
+[inter-matiere] 67%
+  cg-libre-institutions-economie-1 (Institutions & Économie) — Quel traité, signé en 1957, a créé la Communauté économique européenne ?  → Le traité de Rome
+  cg-neuf-hf2-quatrieme-republique (Histoire de France) — Quel traité de 1957 fonde la Communauté économique européenne ?  → Le traité de Rome
+
+[meme-matiere] 67%
+  cg-libre-arts-musique-1 (Arts & Musique) — Quel compositeur russe a écrit les ballets « Le Lac des cygnes » et « Casse-Noisette » ?  → Piotr Ilitch Tchaïkovski
+  cg-neuf-am-danse (Arts & Musique) — Quel compositeur écrit la musique du Lac des cygnes et de Casse-Noisette ?  → Piotr Ilitch Tchaïkovski
+
+[meme-matiere] 67%
+  cg-libre-arts-musique-2 (Arts & Musique) — Quel compositeur italien est l'auteur des opéras « La Traviata », « Rigoletto » et « Aïda » ?  → Giuseppe Verdi
+  cg-neuf-am-opera (Arts & Musique) — Quel compositeur italien écrit La Traviata, Rigoletto et Aïda ?  → Giuseppe Verdi
+
+[inter-matiere] 67%
+  cg-libre-cinema-medias-2 (Cinéma & Médias) — Quelle autorité régule l'audiovisuel et le numérique en France depuis 2022, en remplacement du CSA ?  → L'Arcom
+  cg-neuf-ie-medias-information (Institutions & Économie) — Quelle autorité régule l'audiovisuel et le numérique en France ?  → l'Arcom
+
+[meme-matiere] 67%
+  cg-neuf-hm-decolonisation-afrique (Histoire du monde) — Quelle guerre d'indépendance oppose l'Algérie à la France de 1954 à 1962 ?  → La guerre d'Algérie
+  cg-neuf-hm2-colonisation (Histoire du monde) — Quelle guerre d'indépendance se déroule en Algérie de 1954 à 1962 ?  → La guerre d'Algérie
+
+[meme-matiere] 67%
+  cg-neuf-geo-mers-oceans (Géographie) — Quelle mer est la plus salée du monde ?  → La mer Morte
+  cg-neuf-geo2-oceans-mers (Géographie) — Quelle mer est la plus salée du monde parmi ces étendues ?  → La mer Morte
+
+[meme-matiere] 67%
+  cg-neuf-sv-sante-publique (Sciences de la vie & Terre) — Qu'est-ce qu'un dépistage organisé ?  → Un programme systématique proposé à une population cible
+  cg-neuf-sv3-cancer (Sciences de la vie & Terre) — Qu'est-ce qu'un dépistage organisé du cancer ?  → Un programme systématique proposé à une population cible
+
+[meme-matiere] 67%
+  cg-neuf-sp-sport-societe (Sport) — Qu'est-ce que le sport-santé sur ordonnance ?  → La prescription d'activité physique adaptée par un médecin
+  cg-neuf-sp2-sport-sante (Sport) — Qu'est-ce que le sport sur ordonnance ?  → La prescription d'activité physique adaptée par un médecin
+
+[inter-matiere] 67%
+  cg-neuf-sv2-toxicologie (Sciences de la vie & Terre) — Qu'est-ce que le principe ALARA en radioprotection ?  → Réduire l'exposition au niveau le plus bas raisonnablement possible
+  cg-neuf-pc3-nucleaire-medecine (Physique & Chimie) — Qu'est-ce que le principe ALARA ?  → Réduire l'exposition au niveau le plus bas raisonnablement possible
+
+[meme-matiere] 64%
+  cg-cinema-medias-c02 (Cinéma & Médias) — Quel film de Marcel Carné, tourné sous l'Occupation, est souvent élu meilleur film français ?  → Les Enfants du paradis
+  cg-libre-cinema-medias-3 (Cinéma & Médias) — Quel film de Marcel Carné, tourné sous l'Occupation, est souvent élu plus grand film français de tous les temps ?  → Les Enfants du paradis
+
+[meme-matiere] 64%
+  cg-litterature-02 (Littérature) — Quelle pièce de Victor Hugo provoque en 1830 une célèbre bataille entre classiques et romantiques ?  → Hernani
+  cg-neuf-li-theatre-francais (Littérature) — Quelle pièce de Victor Hugo provoque une bataille en 1830 ?  → Hernani
+
+[meme-matiere] 64%
+  cg-litterature-15 (Littérature) — Qui fut, en 1986, le premier écrivain africain à recevoir le prix Nobel de littérature ?  → Wole Soyinka
+  cg-neuf-li-litteratures-monde (Littérature) — Quel écrivain africain reçoit le premier prix Nobel de littérature du continent, en 1986 ?  → Wole Soyinka
+
+[meme-matiere] 64%
+  cg-cinema-medias-06 (Cinéma & Médias) — Quel studio d'animation japonais est fondé en 1985 par Hayao Miyazaki et Isao Takahata ?  → le studio Ghibli
+  cg-libre-cinema-medias-1 (Cinéma & Médias) — Quel studio d'animation japonais Hayao Miyazaki a-t-il cofondé en 1985 ?  → Le studio Ghibli
+
+[meme-matiere] 63%
+  cg-histoire-france-03 (Histoire de France) — En quelle année Hugues Capet est-il élu roi des Francs ?  → 987
+  cg-libre-histoire-france-2 (Histoire de France) — En quelle année Hugues Capet est-il élu roi des Francs, fondant la dynastie capétienne ?  → 987
+
+[meme-matiere] 63%
+  cg-histoire-monde-02 (Histoire du monde) — Quel philosophe, élève de Platon, fut le précepteur d'Alexandre le Grand ?  → Aristote
+  cg-libre-histoire-monde-2 (Histoire du monde) — Quel philosophe grec fut le précepteur d'Alexandre le Grand ?  → Aristote
+
+[inter-matiere] 63%
+  cg-histoire-monde-04 (Histoire du monde) — Quel événement de 622 marque le point de départ du calendrier musulman ?  → L'Hégire, le départ de La Mecque vers Médine
+  cg-neuf-mr-islam (Mythologie & Religions) — Quel événement marque le début du calendrier musulman ?  → L'hégire, le départ de La Mecque vers Médine
+
+[inter-matiere] 63%
+  cg-mythologie-religions-05 (Mythologie & Religions) — Quel sultan reprend Jérusalem en 1187 et fonde une dynastie ?  → Saladin
+  cg-neuf-hm2-croisades (Histoire du monde) — Quel sultan reprend Jérusalem aux croisés en 1187 ?  → Saladin
+
+[meme-matiere] 63%
+  cg-neuf-geo-ressources (Géographie) — Quel pays domine la production de terres rares ?  → La Chine
+  cg-neuf-geo2-energie-ressources (Géographie) — Quel pays domine largement le raffinage des terres rares ?  → La Chine
+
+[meme-matiere] 63%
+  cg-libre-geographie-1 (Géographie) — Quel est le pays le plus peuplé du monde depuis 2023 ?  → L'Inde
+  cg-neuf-geo-population (Géographie) — Quel pays est aujourd'hui le plus peuplé du monde ?  → L'Inde
+
+[meme-matiere] 63%
+  cg-geographie-03 (Géographie) — Quel fleuve traverse le plus grand nombre de pays européens ?  → Le Danube
+  cg-geographie-09 (Géographie) — Quel fleuve traverse le plus de pays ?  → Le Danube
+
+[meme-matiere] 63%
+  cg-neuf-sp-sports-collectifs (Sport) — Combien de joueurs une équipe de rugby à quinze aligne-t-elle ?  → Quinze
+  cg-neuf-sp3-rugby-3 (Sport) — Combien de joueurs compte une équipe de rugby à quinze ?  → Quinze
+
+[meme-matiere] 63%
+  cg-arts-musique-16 (Arts & Musique) — Quel auteur-compositeur belge a écrit Ne me quitte pas ?  → Jacques Brel
+  cg-libre-arts-musique-1 (Arts & Musique) — Quel auteur-compositeur belge est l'auteur des chansons « Ne me quitte pas » et « Amsterdam » ?  → Jacques Brel
+
+[meme-matiere] 63%
+  cg-cinema-medias-04 (Cinéma & Médias) — Quelle récompense suprême est décernée au festival de Cannes ?  → la Palme d'or
+  cg-libre-cinema-medias-1 (Cinéma & Médias) — Quelle est la plus haute récompense décernée par le Festival de Cannes ?  → La Palme d'or
+
+[meme-matiere] 63%
+  cg-mythologie-religions-02 (Mythologie & Religions) — Qui est le père des dieux dans la mythologie nordique ?  → Odin
+  cg-libre-mythologie-religions-1 (Mythologie & Religions) — Quel dieu est le père et le souverain des dieux dans la mythologie nordique ?  → Odin
+
+[inter-matiere] 63%
+  cg-libre-sciences-vie-2 (Sciences de la vie & Terre) — Quel savant français a mis au point le vaccin contre la rage en 1885 ?  → Louis Pasteur
+  cg-libre-sciences-tech-1 (Inventions & Technologie) — Qui a mis au point en 1885 le vaccin contre la rage ?  → Louis Pasteur
+
+[meme-matiere] 63%
+  cg-sport-03 (Sport) — Quel journal est à l'origine de la création du Tour de France en 1903 ?  → L'Auto
+  cg-sport-16 (Sport) — Quel journal a créé le Tour de France en 1903 ?  → L'Auto
+
+[meme-matiere] 63%
+  cg-sport-03 (Sport) — Que récompense le maillot à pois rouges sur le Tour de France ?  → Le meilleur grimpeur
+  cg-libre-sport-1 (Sport) — Sur le Tour de France, qui porte le maillot blanc à pois rouges ?  → Le meilleur grimpeur
+
+[inter-matiere] 63%
+  cg-libre-histoire-monde-1 (Histoire du monde) — Qui est le premier homme à marcher sur la Lune, le 21 juillet 1969 (heure française) ?  → Neil Armstrong
+  cg-libre-sciences-vie-1 (Sciences de la vie & Terre) — Qui a été le premier homme à marcher sur la Lune en 1969 ?  → Neil Armstrong
+
+[meme-matiere] 63%
+  cg-libre-mythologie-religions-1 (Mythologie & Religions) — Quel dieu grec est le messager des dieux, reconnaissable à ses sandales ailées ?  → Hermès
+  cg-neuf-mr2-mythologie-grecque-dieux (Mythologie & Religions) — Quel dieu grec est le messager des dieux ?  → Hermès
+
+[meme-matiere] 63%
+  cg-libre-mythologie-religions-1 (Mythologie & Religions) — Quel dieu égyptien à tête de chacal préside à la momification ?  → Anubis
+  cg-neuf-mr-mythologie-egyptienne (Mythologie & Religions) — Quel dieu à tête de chacal préside à l'embaumement ?  → Anubis
+
+[meme-matiere] 63%
+  cg-neuf-hf-france-1970-2000 (Histoire de France) — Quelle réforme de 2000 raccourcit le mandat présidentiel ?  → Le passage au quinquennat
+  cg-neuf-hf2-cinquieme-republique (Histoire de France) — Quelle réforme de 2000 réduit la durée du mandat présidentiel ?  → Le passage au quinquennat
+
+[inter-matiere] 63%
+  cg-neuf-hm-espagne-or (Histoire du monde) — Quel roman de Cervantès paraît en 1605 ?  → Don Quichotte
+  cg-neuf-li2-litterature-hispanique (Littérature) — Quel roman de Cervantès paraît en deux parties en 1605 et 1615 ?  → Don Quichotte
+
+[meme-matiere] 63%
+  cg-neuf-sp-cyclisme (Sport) — Quels sont les trois grands tours du cyclisme professionnel ?  → Le Tour de France, le Giro et la Vuelta
+  cg-neuf-sp3-cyclisme-3 (Sport) — Quels sont les trois grands tours cyclistes ?  → Le Tour de France, le Giro et la Vuelta
+
+[meme-matiere] 63%
+  cg-neuf-sp2-rugby (Sport) — Quand la Coupe du monde de rugby a-t-elle été créée ?  → En 1987
+  cg-neuf-sp3-rugby-3 (Sport) — Quand la première Coupe du monde de rugby a-t-elle eu lieu ?  → En 1987
+
+[meme-matiere] 62%
+  cg-cinema-medias-c02 (Cinéma & Médias) — Quel film de François Truffaut lance la Nouvelle Vague en 1959 ?  → Les Quatre Cents Coups
+  cg-libre-cinema-medias-2 (Cinéma & Médias) — Quel film de François Truffaut, sorti en 1959, lance la Nouvelle Vague avec le personnage d'Antoine Doinel ?  → Les Quatre Cents Coups
+
+[meme-matiere] 60%
+  cg-institutions-economie-08 (Institutions & Économie) — Quelle juridiction veille au respect de la Convention européenne des droits de l'homme ?  → La Cour européenne des droits de l'homme, à Strasbourg
+  cg-neuf-ie2-droits-libertes (Institutions & Économie) — Quelle juridiction fait appliquer la Convention européenne des droits de l'homme ?  → La Cour européenne des droits de l'homme, à Strasbourg
+
+[meme-matiere] 60%
+  cg-institutions-economie-14 (Institutions & Économie) — Selon la Constitution, qui est le chef des armées en France ?  → Le président de la République
+  cg-neuf-ie2-defense-securite (Institutions & Économie) — Qui est le chef des armées en France ?  → Le président de la République
+
+[inter-matiere] 60%
+  cg-litterature-c01 (Littérature) — Qui publie le Manifeste du surréalisme en 1924 ?  → André Breton
+  cg-arts-musique-05 (Arts & Musique) — Qui a publié en 1924 le Manifeste du surréalisme ?  → André Breton
+
+[meme-matiere] 60%
+  cg-litterature-c01 (Littérature) — Qui publie le Manifeste du surréalisme en 1924 ?  → André Breton
+  cg-libre-litterature-2 (Littérature) — Qui a rédigé le « Manifeste du surréalisme » en 1924 ?  → André Breton
+
+[inter-matiere] 60%
+  cg-arts-musique-05 (Arts & Musique) — Qui a publié en 1924 le Manifeste du surréalisme ?  → André Breton
+  cg-libre-litterature-2 (Littérature) — Qui a rédigé le « Manifeste du surréalisme » en 1924 ?  → André Breton
+
+[meme-matiere] 60%
+  cg-litterature-12 (Littérature) — Qui écrit Le Petit Prince, publié en 1943 ?  → Antoine de Saint-Exupéry
+  cg-libre-litterature-1 (Littérature) — Qui a écrit « Le Petit Prince » ?  → Antoine de Saint-Exupéry
+
+[meme-matiere] 60%
+  cg-langue-francaise-10 (Langue française) — À quelle famille l'alsacien appartient-il ?  → Aux langues germaniques
+  cg-neuf-lf2-familles-langues (Langue française) — À quelle famille l'anglais appartient-il ?  → Aux langues germaniques
+
+[meme-matiere] 60%
+  cg-libre-arts-musique-1 (Arts & Musique) — Dans quelle ville américaine le jazz est-il né au tournant du XXe siècle ?  → La Nouvelle-Orléans
+  cg-neuf-am-musiques-actuelles (Arts & Musique) — Dans quelle ville américaine le jazz prend-il forme au début du XXe siècle ?  → La Nouvelle-Orléans
+
+[meme-matiere] 60%
+  cg-sciences-vie-c01 (Sciences de la vie & Terre) — Quelles cellules produisent les anticorps ?  → Les lymphocytes B
+  cg-sciences-vie-07 (Sciences de la vie & Terre) — Quelles cellules fabriquent les anticorps ?  → Les lymphocytes B
+
+[meme-matiere] 60%
+  cg-physique-chimie-c02 (Physique & Chimie) — Qu'appelle-t-on demi-vie d'un isotope radioactif ?  → La durée au bout de laquelle la moitié des noyaux se sont désintégrés
+  cg-physique-chimie-05 (Physique & Chimie) — Que représente la demi-vie d'un isotope radioactif ?  → La durée au bout de laquelle la moitié des noyaux se sont désintégrés
+
+[meme-matiere] 60%
+  cg-sciences-tech-c02 (Inventions & Technologie) — Que constate la loi de Moore, énoncée en 1965 ?  → Le doublement régulier du nombre de transistors par puce
+  cg-libre-sciences-tech-2 (Inventions & Technologie) — Que désigne la « loi de Moore », énoncée en 1965 ?  → Le doublement régulier du nombre de transistors par puce
+
+[meme-matiere] 60%
+  cg-sport-06 (Sport) — Qui a inventé le basket-ball en 1891 ?  → James Naismith
+  cg-neuf-sp-sports-collectifs (Sport) — Qui invente le basket-ball en 1891 ?  → James Naismith
+
+[meme-matiere] 60%
+  cg-libre-litterature-3 (Littérature) — Qui a reçu le tout premier prix Nobel de littérature, en 1901 ?  → Sully Prudhomme
+  cg-neuf-li2-prix-litteraires (Littérature) — Quel écrivain français a reçu le premier prix Nobel de littérature en 1901 ?  → Sully Prudhomme
+
+[inter-matiere] 60%
+  cg-neuf-hf-femmes-france (Histoire de France) — Quelle femme reçoit deux prix Nobel scientifiques ?  → Marie Curie
+  cg-neuf-st-histoire-sciences (Inventions & Technologie) — Quelle femme reçoit deux prix Nobel dans deux disciplines différentes ?  → Marie Curie
+
+[meme-matiere] 60%
+  cg-libre-sciences-tech-1 (Inventions & Technologie) — Quelle mission a permis aux premiers hommes de marcher sur la Lune en juillet 1969 ?  → Apollo 11
+  cg-neuf-st-espace-exploration (Inventions & Technologie) — Quelle mission dépose les premiers hommes sur la Lune en 1969 ?  → Apollo 11
+
+[meme-matiere] 60%
+  cg-libre-gastronomie-1 (Gastronomie & Art de vivre) — De quel lait est fabriqué le roquefort ?  → De lait de brebis
+  cg-neuf-ga3-fromages-monde (Gastronomie & Art de vivre) — De quel lait le roquefort est-il fait ?  → De lait de brebis
+
+[meme-matiere] 60%
+  cg-neuf-hm-decolonisation-afrique (Histoire du monde) — Quel pays d'Afrique subsaharienne devient indépendant le premier, en 1957 ?  → Le Ghana
+  cg-neuf-hm2-colonisation (Histoire du monde) — Quel pays d'Afrique subsaharienne accède le premier à l'indépendance en 1957 ?  → Le Ghana
+
+[inter-matiere] 60%
+  cg-neuf-hm-inde-independance (Histoire du monde) — Quel territoire reste disputé entre l'Inde et le Pakistan depuis 1947 ?  → Le Cachemire
+  cg-neuf-geo2-frontieres-conflits (Géographie) — Quel territoire est disputé entre l'Inde, le Pakistan et la Chine ?  → Le Cachemire
+
+[meme-matiere] 60%
+  cg-neuf-lf2-litterature-langue (Langue française) — Quel écrivain a inventé le mot pataphysique ?  → Alfred Jarry
+  cg-neuf-lf3-litterature-langue-3 (Langue française) — Quel écrivain a créé le mot pataphysique ?  → Alfred Jarry
+
+[meme-matiere] 58%
+  cg-sport-c01 (Sport) — Quel athlète afro-américain remporte quatre médailles d'or aux Jeux de Berlin en 1936 ?  → Jesse Owens
+  cg-sport-04 (Sport) — Quel athlète a remporté quatre médailles d'or aux Jeux olympiques de Berlin en 1936 ?  → Jesse Owens
+
+[meme-matiere] 58%
+  cg-libre-sciences-tech-1 (Inventions & Technologie) — Quelle station spatiale internationale, assemblée à partir de 1998, est occupée en permanence depuis l'an 2000 ?  → L'ISS
+  cg-neuf-st-espace-exploration (Inventions & Technologie) — Quelle station spatiale internationale est occupée en continu depuis 2000 ?  → l'ISS
+
+[meme-matiere] 58%
+  cg-libre-sciences-tech-2 (Inventions & Technologie) — Quel mathématicien britannique a formalisé en 1936 un modèle théorique de calcul devenu fondamental en informatique ?  → Alan Turing
+  cg-neuf-st-informatique-fondements (Inventions & Technologie) — Quel mathématicien britannique formalise en 1936 un modèle théorique de calcul ?  → Alan Turing
+
+[meme-matiere] 57%
+  cg-histoire-france-04 (Histoire de France) — Quel roi de France est fait prisonnier à Poitiers en 1356 ?  → Jean II le Bon
+  cg-neuf-hf4-guerre-cent-ans (Histoire de France) — Quel roi de France a été capturé à Poitiers en 1356 ?  → Jean II le Bon
+
+[meme-matiere] 57%
+  cg-histoire-monde-02 (Histoire du monde) — Quel philosophe, élève de Platon, fut le précepteur d'Alexandre le Grand ?  → Aristote
+  cg-neuf-hm-alexandre (Histoire du monde) — Quel philosophe fut le précepteur d'Alexandre ?  → Aristote
+
+[inter-matiere] 57%
+  cg-neuf-hf-outre-mer-histoire (Histoire de France) — Qui obtient l'abolition définitive de l'esclavage en 1848 ?  → Victor Schœlcher
+  cg-neuf-hm3-esclavage-abolitions (Histoire du monde) — Qui porte l'abolition définitive de l'esclavage en France en 1848 ?  → Victor Schœlcher
+
+[meme-matiere] 57%
+  cg-geographie-05 (Géographie) — Quel pays africain est le plus peuplé ?  → Le Nigeria
+  cg-neuf-geo2-afrique-geographie (Géographie) — Quel pays africain a la plus forte population ?  → Le Nigeria
+
+[meme-matiere] 57%
+  cg-neuf-geo-ressources (Géographie) — Quel pays produit le plus de cobalt ?  → La République démocratique du Congo
+  cg-neuf-geo2-energie-ressources (Géographie) — Quel pays produit la majorité du cobalt mondial ?  → La République démocratique du Congo
+
+[meme-matiere] 57%
+  cg-litterature-c03 (Littérature) — Quel roman de James Joyce, publié en 1922, transpose l'Odyssée dans le Dublin d'une seule journée ?  → Ulysse
+  cg-litterature-07 (Littérature) — Quel roman publié en 1922 se déroule en une seule journée dans les rues de Dublin ?  → Ulysse
+
+[meme-matiere] 57%
+  cg-litterature-01 (Littérature) — Quel roman de 1678 est souvent tenu pour le premier roman d'analyse psychologique français ?  → La Princesse de Clèves
+  cg-litterature-04 (Littérature) — Quel roman publié en 1678 est souvent présenté comme le premier grand roman d'analyse psychologique français ?  → La Princesse de Clèves
+
+[meme-matiere] 57%
+  cg-sciences-vie-03 (Sciences de la vie & Terre) — Quel gaz les plantes rejettent-elles lors de la photosynthèse ?  → Le dioxygène
+  cg-libre-sciences-vie-1 (Sciences de la vie & Terre) — Quel gaz est produit par les plantes lors de la photosynthèse ?  → Le dioxygène
+
+[meme-matiere] 57%
+  cg-sciences-vie-20 (Sciences de la vie & Terre) — Quel gaz est de loin le plus abondant dans l'air sec ?  → L'azote
+  cg-libre-sciences-vie-2 (Sciences de la vie & Terre) — Quel gaz est le plus abondant dans l'atmosphère terrestre ?  → L'azote
+
+[meme-matiere] 57%
+  cg-gastronomie-c03 (Gastronomie & Art de vivre) — Quand la fourchette s'impose-t-elle en France ?  → Au XVIIe siècle
+  cg-neuf-ga-art-table (Gastronomie & Art de vivre) — Quand la fourchette s'impose-t-elle à la table française ?  → Au XVIIe siècle
+
+[meme-matiere] 57%
+  cg-libre-mythologie-religions-2 (Mythologie & Religions) — Combien de « piliers » fondamentaux compte la pratique de l'islam ?  → Cinq
+  cg-neuf-mr-islam (Mythologie & Religions) — Combien de piliers l'islam sunnite compte-t-il ?  → Cinq
+
+[meme-matiere] 57%
+  cg-neuf-hf-femmes-france (Histoire de France) — Quelle résistante et ethnologue entre au Panthéon en 2015 ?  → Germaine Tillion
+  cg-neuf-hf3-personnages-france (Histoire de France) — Quelle résistante est entrée au Panthéon en 2015 ?  → Germaine Tillion
+
+[inter-matiere] 57%
+  cg-neuf-li2-moliere (Littérature) — Quel personnage de Molière est un avare obsédé par sa cassette ?  → Harpagon
+  cg-neuf-lf3-litterature-langue-3 (Langue française) — Quel nom de personnage de Molière désigne un avare ?  → Harpagon
+
+[meme-matiere] 56%
+  cg-libre-litterature-2 (Littérature) — Quelle pièce d'Eugène Ionesco, créée en 1950, est jouée sans interruption à Paris depuis 1957 ?  → La Cantatrice chauve
+  cg-neuf-li-theatre-francais (Littérature) — Quelle pièce d'Eugène Ionesco est jouée sans interruption dans le même théâtre parisien depuis 1957 ?  → La Cantatrice chauve
+
+[meme-matiere] 56%
+  cg-geographie-09 (Géographie) — Quel fleuve traverse le plus de pays ?  → Le Danube
+  cg-libre-geographie-3 (Géographie) — Quel fleuve traverse ou borde le plus grand nombre de pays au monde ?  → Le Danube
+
+[meme-matiere] 56%
+  cg-libre-histoire-france-2 (Histoire de France) — Quel écrivain publie « J'accuse...! » en 1898 pour défendre le capitaine Dreyfus ?  → Émile Zola
+  cg-neuf-hf2-troisieme-republique (Histoire de France) — Quel écrivain publie J'accuse en 1898 ?  → Émile Zola
+
+[meme-matiere] 56%
+  cg-arts-musique-16 (Arts & Musique) — Quelle chanteuse surnommée la Môme a marqué la chanson française ?  → Édith Piaf
+  cg-libre-arts-musique-1 (Arts & Musique) — Quelle chanteuse française, surnommée « la Môme », a interprété « La Vie en rose » ?  → Édith Piaf
+
+[meme-matiere] 56%
+  cg-neuf-cm-television (Cinéma & Médias) — Quelle institution conserve les archives de la radio et de la télévision françaises ?  → l'INA
+  cg-neuf-cm3-archives-audiovisuelles (Cinéma & Médias) — Quel organisme conserve les archives de la radio et de la télévision françaises ?  → l'INA
+
+[meme-matiere] 56%
+  cg-cinema-medias-03 (Cinéma & Médias) — Quel réalisateur japonais tourne Rashômon et Les Sept Samouraïs ?  → Akira Kurosawa
+  cg-libre-cinema-medias-2 (Cinéma & Médias) — Quel réalisateur japonais a signé « Les Sept Samouraïs » (1954) ?  → Akira Kurosawa
+
+[inter-matiere] 56%
+  cg-sciences-vie-20 (Sciences de la vie & Terre) — Dans quelle couche de l'atmosphère se déroulent les phénomènes météorologiques ?  → La troposphère
+  cg-neuf-pc2-air-atmosphere (Physique & Chimie) — Quelle couche de l'atmosphère contient l'essentiel des phénomènes météorologiques ?  → La troposphère
+
+[meme-matiere] 56%
+  cg-libre-institutions-economie-3 (Institutions & Économie) — Quel économiste a théorisé la « destruction créatrice » liée à l'innovation ?  → Joseph Schumpeter
+  cg-neuf-ie2-histoire-economique (Institutions & Économie) — Quel économiste décrit l'innovation comme une destruction créatrice ?  → Joseph Schumpeter
+
+[meme-matiere] 56%
+  cg-libre-mythologie-religions-2 (Mythologie & Religions) — Quelle déesse égyptienne, épouse d'Osiris, est célèbre pour ses pouvoirs magiques ?  → Isis
+  cg-neuf-mr-mythologie-egyptienne (Mythologie & Religions) — Quelle déesse égyptienne est l'épouse d'Osiris ?  → Isis
+
+[inter-matiere] 56%
+  cg-libre-sciences-vie-1 (Sciences de la vie & Terre) — Comment s'appelle la galaxie dans laquelle se trouve le système solaire ?  → La Voie lactée
+  cg-neuf-pc-univers-cosmologie (Physique & Chimie) — Dans quelle galaxie se trouve le système solaire ?  → La Voie lactée
+
+[meme-matiere] 56%
+  cg-neuf-hf-femmes-france (Histoire de France) — Quelle femme reçoit deux prix Nobel scientifiques ?  → Marie Curie
+  cg-neuf-hf3-personnages-france (Histoire de France) — Quelle femme est la première à recevoir deux prix Nobel ?  → Marie Curie
+
+[meme-matiere] 55%
+  cg-litterature-c03 (Littérature) — Pour quel roman Marguerite Duras a-t-elle reçu le prix Goncourt en 1984 ?  → L'Amant
+  cg-litterature-01 (Littérature) — Quel roman de Marguerite Duras obtient le Goncourt en 1984 ?  → L'Amant
+
+[meme-matiere] 55%
+  cg-cinema-medias-03 (Cinéma & Médias) — Quel studio d'animation japonais Hayao Miyazaki cofonde-t-il ?  → Le studio Ghibli
+  cg-cinema-medias-06 (Cinéma & Médias) — Quel studio d'animation japonais est fondé en 1985 par Hayao Miyazaki et Isao Takahata ?  → le studio Ghibli
+
+[meme-matiere] 55%
+  cg-sport-06 (Sport) — Combien de joueurs compte une équipe de handball sur le terrain, gardien compris ?  → Sept
+  cg-sport-08 (Sport) — Combien de joueurs, gardien compris, compte une équipe de water-polo dans l'eau ?  → Sept
+
+[meme-matiere] 55%
+  cg-sport-07 (Sport) — Quelle course d'endurance se dispute chaque année en Sarthe ?  → Les 24 Heures du Mans
+  cg-libre-sport-1 (Sport) — Quelle célèbre course automobile d'endurance se déroule chaque année dans la Sarthe ?  → Les 24 Heures du Mans
+
+[meme-matiere] 55%
+  cg-libre-histoire-monde-3 (Histoire du monde) — Quelle conférence internationale de 1884-1885 fixe les règles du partage colonial de l'Afrique ?  → La conférence de Berlin
+  cg-neuf-hm2-colonisation (Histoire du monde) — Quelle conférence de 1884-1885 organise le partage de l'Afrique ?  → La conférence de Berlin
+
+[inter-matiere] 55%
+  cg-libre-sciences-vie-2 (Sciences de la vie & Terre) — Quelle vitamine notre peau fabrique-t-elle sous l'action du soleil ?  → La vitamine D
+  cg-neuf-ga-nutrition (Gastronomie & Art de vivre) — Quelle vitamine la peau synthétise-t-elle sous l'effet du soleil ?  → La vitamine D
+
+[meme-matiere] 55%
+  cg-libre-sport-2 (Sport) — En quelle année et dans quel pays s'est déroulée la première Coupe du monde de football ?  → 1930 en Uruguay
+  cg-neuf-sp-football (Sport) — En quelle année se tient la première Coupe du monde de football ?  → 1930, en Uruguay
+
+[inter-matiere] 55%
+  cg-neuf-hm-organisations-internationales (Histoire du monde) — Quel organisme siège à La Haye et juge les différends entre États ?  → La Cour internationale de justice
+  cg-neuf-ie-onu-organisations (Institutions & Économie) — Quelle juridiction internationale siège à La Haye et juge les différends entre États ?  → La Cour internationale de justice
+
+[inter-matiere] 54%
+  cg-histoire-france-01 (Histoire de France) — Quel texte impérial accorde en 212 la citoyenneté romaine à la quasi-totalité des hommes libres de l'Empire ?  → L'édit de Caracalla
+  cg-histoire-monde-c01 (Histoire du monde) — Quel édit de 212 accorde la citoyenneté romaine à tous les hommes libres de l'Empire ?  → L'édit de Caracalla
+
+[meme-matiere] 54%
+  cg-litterature-c03 (Littérature) — Quel roman de James Joyce, publié en 1922, transpose l'Odyssée dans le Dublin d'une seule journée ?  → Ulysse
+  cg-neuf-li-litterature-anglaise (Littérature) — Quel roman de James Joyce raconte une seule journée à Dublin ?  → Ulysse
+
+[meme-matiere] 54%
+  cg-arts-musique-07 (Arts & Musique) — Quel album de Miles Davis, enregistré en 1959, est le manifeste du jazz modal ?  → Kind of Blue
+  cg-libre-arts-musique-2 (Arts & Musique) — Quel album de Miles Davis, enregistré en 1959, est l'un des disques de jazz les plus vendus de l'histoire ?  → « Kind of Blue »
+
+[meme-matiere] 54%
+  cg-libre-histoire-monde-3 (Histoire du monde) — Quelle conférence de 1955 réunit les pays d'Asie et d'Afrique récemment décolonisés autour du non-alignement ?  → La conférence de Bandung
+  cg-neuf-hm2-colonisation (Histoire du monde) — Quelle conférence de 1955 réunit des pays d'Asie et d'Afrique nouvellement indépendants ?  → La conférence de Bandung
+
+[meme-matiere] 50%
+  cg-histoire-france-02 (Histoire de France) — Qui couronne Charlemagne empereur le 25 décembre 800 ?  → Le pape Léon III
+  cg-neuf-hf-charlemagne-empire (Histoire de France) — Qui couronne Charlemagne empereur le jour de Noël 800 ?  → Le pape Léon III
+
+[meme-matiere] 50%
+  cg-histoire-monde-c02 (Histoire du monde) — Quel conquistador détruit l'Empire inca à partir de 1532 ?  → Francisco Pizarro
+  cg-neuf-hm-espagne-or (Histoire du monde) — Quel conquistador abat l'Empire inca ?  → Francisco Pizarro
+
+[meme-matiere] 50%
+  cg-histoire-monde-c03 (Histoire du monde) — Quand le mur de Berlin est-il tombé ?  → Le 9 novembre 1989
+  cg-neuf-hm-chute-urss (Histoire du monde) — Quand le mur de Berlin tombe-t-il ?  → Le 9 novembre 1989
+
+[meme-matiere] 50%
+  cg-histoire-monde-01 (Histoire du monde) — Contre quel peuple Ramsès II a-t-il combattu à la bataille de Qadesh en 1274 avant Jésus-Christ ?  → Les Hittites
+  cg-neuf-hm2-egypte-pharaonique (Histoire du monde) — Contre quel peuple Ramsès II livre-t-il la bataille de Qadesh ?  → Les Hittites
+
+[meme-matiere] 50%
+  cg-libre-histoire-monde-2 (Histoire du monde) — Quel philosophe grec fut le précepteur d'Alexandre le Grand ?  → Aristote
+  cg-neuf-hm-alexandre (Histoire du monde) — Qui fut le précepteur d'Alexandre le Grand ?  → Aristote
+
+[meme-matiere] 50%
+  cg-histoire-monde-07 (Histoire du monde) — Quelle bataille marque le tournant du front de l'Est ?  → Stalingrad
+  cg-libre-histoire-monde-2 (Histoire du monde) — Quelle bataille de l'hiver 1942-1943 marque le grand tournant de la guerre sur le front de l'Est ?  → Stalingrad
+
+[meme-matiere] 50%
+  cg-histoire-monde-10 (Histoire du monde) — Quelle dynastie mongole règne sur la Chine au XIIIe siècle ?  → Les Yuan
+  cg-neuf-hm4-chine-imperiale (Histoire du monde) — Quelle dynastie mongole a régné sur la Chine ?  → Les Yuan
+
+[meme-matiere] 50%
+  cg-histoire-monde-11 (Histoire du monde) — Quelle guerre le Japon gagne-t-il en 1905 ?  → La guerre russo-japonaise
+  cg-neuf-hm2-japon-histoire (Histoire du monde) — Quelle guerre le Japon a-t-il gagnée contre la Russie en 1905 ?  → La guerre russo-japonaise
+
+[inter-matiere] 50%
+  cg-neuf-hf-croisades-france (Histoire de France) — Quelle place tombe en 1291, mettant fin aux États latins d'Orient ?  → Saint-Jean-d'Acre
+  cg-neuf-hm2-croisades (Histoire du monde) — Quelle ville marque en 1291 la fin des États latins d'Orient ?  → Saint-Jean-d'Acre
+
+[meme-matiere] 50%
+  cg-histoire-monde-20 (Histoire du monde) — Quel empereur du VIe siècle reconquiert une partie de l'Occident ?  → Justinien
+  cg-neuf-hm4-empire-byzantin (Histoire du monde) — Quel empereur byzantin a reconquis une partie de l'Occident ?  → Justinien
+
+[meme-matiere] 50%
+  cg-geographie-02 (Géographie) — Quel pays est devenu au milieu des années 2020 le plus peuplé du monde ?  → L'Inde
+  cg-neuf-geo-population (Géographie) — Quel pays est aujourd'hui le plus peuplé du monde ?  → L'Inde
+
+[meme-matiere] 50%
+  cg-geographie-02 (Géographie) — Quel continent connaît la croissance démographique la plus rapide ?  → L'Afrique
+  cg-neuf-geo-population (Géographie) — Quel continent connaîtra la plus forte croissance démographique d'ici 2050 ?  → L'Afrique
+
+[inter-matiere] 50%
+  cg-geographie-04 (Géographie) — Quel pays compte la plus importante population musulmane du monde ?  → L'Indonésie
+  cg-neuf-mr2-religions-chiffres (Mythologie & Religions) — Dans quel pays vit la plus grande population musulmane ?  → l'Indonésie
+
+[meme-matiere] 50%
+  cg-neuf-geo-ressources (Géographie) — Quel bassin fluvial fait l'objet d'un contentieux entre l'Éthiopie et l'Égypte ?  → Le Nil
+  cg-neuf-geo3-eau-conflits (Géographie) — Quel fleuve fait l'objet de tensions entre l'Égypte, le Soudan et l'Éthiopie ?  → Le Nil
+
+[meme-matiere] 50%
+  cg-institutions-economie-c02 (Institutions & Économie) — Quel traité crée l'Union européenne et la citoyenneté européenne ?  → Le traité de Maastricht
+  cg-libre-institutions-economie-1 (Institutions & Économie) — Quel traité a créé l'Union européenne en 1992 ?  → Le traité de Maastricht
+
+[meme-matiere] 50%
+  cg-institutions-economie-04 (Institutions & Économie) — Quelle collectivité gère les collèges ?  → Le département
+  cg-institutions-economie-15 (Institutions & Économie) — Quelle collectivité territoriale a la charge des collèges ?  → Le département
+
+[meme-matiere] 50%
+  cg-libre-litterature-2 (Littérature) — Quelle comédie de Molière, dénonçant la fausse dévotion, fut interdite pendant cinq ans ?  → Tartuffe
+  cg-neuf-li2-moliere (Littérature) — Quelle pièce de Molière fut interdite pendant cinq ans ?  → Tartuffe
+
+[meme-matiere] 50%
+  cg-langue-francaise-c01 (Langue française) — Quel texte de 842 est le plus ancien document connu en langue romane ?  → Les Serments de Strasbourg
+  cg-libre-langue-francaise-1 (Langue française) — Quel texte, daté de 842, est le plus ancien document conservé écrit dans une langue romane, ancêtre du français ?  → Les Serments de Strasbourg
+
+[meme-matiere] 50%
+  cg-arts-musique-05 (Arts & Musique) — Quel tableau de Pablo Picasso, peint en 1907, est considéré comme l'œuvre annonciatrice du cubisme ?  → Les Demoiselles d'Avignon
+  cg-neuf-am-peinture-moderne (Arts & Musique) — Quel tableau de Picasso, peint en 1907, annonce le cubisme ?  → Les Demoiselles d'Avignon
+
+[meme-matiere] 50%
+  cg-arts-musique-06 (Arts & Musique) — Quel compositeur est l'auteur de l'Orfeo, créé à Mantoue en 1607 et considéré comme le premier grand opéra ?  → Claudio Monteverdi
+  cg-neuf-am-opera (Arts & Musique) — Quel compositeur écrit L'Orfeo en 1607, premier grand opéra conservé ?  → Claudio Monteverdi
+
+[meme-matiere] 50%
+  cg-arts-musique-07 (Arts & Musique) — Dans quelle ville des États-Unis le jazz est-il traditionnellement considéré comme né, au tournant du XXe siècle ?  → La Nouvelle-Orléans
+  cg-libre-arts-musique-1 (Arts & Musique) — Dans quelle ville américaine le jazz est-il né au tournant du XXe siècle ?  → La Nouvelle-Orléans
+
+[inter-matiere] 50%
+  cg-cinema-medias-c01 (Cinéma & Médias) — Quel appareil les frères Lumière brevettent-ils en 1895 ?  → Le cinématographe
+  cg-libre-sciences-tech-1 (Inventions & Technologie) — Quel appareil les frères Lumière ont-ils présenté publiquement à Paris en décembre 1895 ?  → Le cinématographe
+
+[meme-matiere] 50%
+  cg-cinema-medias-04 (Cinéma & Médias) — En quelle année le Festival de Cannes est-il créé ?  → 1946
+  cg-libre-cinema-medias-2 (Cinéma & Médias) — En quelle année s'est tenue la première édition du Festival de Cannes ?  → 1946
+
+[inter-matiere] 50%
+  cg-cinema-medias-07 (Cinéma & Médias) — Quelle loi constitue en France le texte fondateur de la liberté de la presse ?  → la loi du 29 juillet 1881
+  cg-neuf-ie-medias-information (Institutions & Économie) — Quelle loi fonde la liberté de la presse en France ?  → La loi du 29 juillet 1881
+
+[meme-matiere] 50%
+  cg-mythologie-religions-c02 (Mythologie & Religions) — Quel loup monstrueux dévore Odin lors du Ragnarök ?  → Fenrir
+  cg-mythologie-religions-02 (Mythologie & Religions) — Quel loup géant doit dévorer Odin lors du Ragnarök ?  → Fenrir
+
+[meme-matiere] 50%
+  cg-mythologie-religions-17 (Mythologie & Religions) — Dans quel recueil les disciples ont-ils rassemblé les propos de Confucius ?  → les Entretiens
+  cg-neuf-mr3-taoisme-confucianisme (Mythologie & Religions) — Quel recueil rassemble les propos de Confucius ?  → Les Entretiens
+
+[inter-matiere] 50%
+  cg-sciences-vie-c01 (Sciences de la vie & Terre) — Quel médecin anglais a décrit la circulation sanguine au XVIIe siècle ?  → William Harvey
+  cg-neuf-hm3-histoire-sciences-monde (Histoire du monde) — Quel médecin anglais décrit la circulation du sang en 1628 ?  → William Harvey
+
+[meme-matiere] 50%
+  cg-libre-sciences-vie-2 (Sciences de la vie & Terre) — Quel scientifique a proposé la théorie de la dérive des continents en 1912 ?  → Alfred Wegener
+  cg-neuf-sv-geologie-terre (Sciences de la vie & Terre) — Qui a formulé la théorie de la dérive des continents en 1912 ?  → Alfred Wegener
+
+[inter-matiere] 50%
+  cg-sciences-vie-14 (Sciences de la vie & Terre) — Qu'est-ce que le chalutage de fond ?  → Une technique traînant un filet sur le fond marin
+  cg-neuf-ga2-produits-mer (Gastronomie & Art de vivre) — En quoi consiste le chalutage de fond ?  → Une technique traînant un filet sur le fond marin
+
+[meme-matiere] 50%
+  cg-sport-06 (Sport) — Combien de joueurs compte une équipe de handball sur le terrain, gardien compris ?  → Sept
+  cg-neuf-sp-sports-collectifs (Sport) — Combien de joueurs une équipe de handball aligne-t-elle sur le terrain ?  → Sept
+
+[inter-matiere] 50%
+  cg-physique-chimie-04 (Physique & Chimie) — Quel gaz gonfle une pâte à pain ?  → Le dioxyde de carbone
+  cg-gastronomie-03 (Gastronomie & Art de vivre) — Quel gaz fait lever la pâte à pain ?  → Le dioxyde de carbone
+
+[inter-matiere] 50%
+  cg-sciences-tech-07 (Inventions & Technologie) — Quel est le premier plastique entièrement synthétique, c'est-à-dire ne dérivant d'aucune matière naturelle ?  → La bakélite
+  cg-neuf-pc2-polymeres-plastiques (Physique & Chimie) — Quel est le premier plastique entièrement synthétique ?  → La bakélite
+
+[inter-matiere] 50%
+  cg-gastronomie-11 (Gastronomie & Art de vivre) — Que suppose le respect de la chaîne du froid ?  → Le maintien continu d'une température basse de la production à la consommation
+  cg-neuf-st2-alimentation-techniques (Inventions & Technologie) — Qu'est-ce que la chaîne du froid ?  → Le maintien continu d'une température basse de la production à la consommation
+
+[meme-matiere] 50%
+  cg-sport-c03 (Sport) — Quelle course à la voile, créée en 1989, consiste en un tour du monde en solitaire sans escale et sans assistance ?  → Le Vendée Globe
+  cg-neuf-sp-sports-hiver-nautiques (Sport) — Quelle est la principale course à la voile en solitaire autour du monde sans escale ?  → Le Vendée Globe
+
+[meme-matiere] 50%
+  cg-libre-histoire-france-3 (Histoire de France) — En quelle année Louis XIV installe-t-il officiellement la cour et le gouvernement à Versailles ?  → 1682
+  cg-neuf-hf2-louis-xiv (Histoire de France) — En quelle année la cour s'installe-t-elle définitivement à Versailles ?  → 1682
+
+[meme-matiere] 50%
+  cg-libre-histoire-monde-1 (Histoire du monde) — Qui devient en 1994 le premier président noir de l'Afrique du Sud, après la fin de l'apartheid ?  → Nelson Mandela
+  cg-neuf-hm2-colonisation (Histoire du monde) — Qui a été le premier président noir d'Afrique du Sud ?  → Nelson Mandela
+
+[meme-matiere] 50%
+  cg-libre-histoire-monde-2 (Histoire du monde) — Quel roi de Babylone fait graver vers 1750 av. J.-C. l'un des plus anciens codes de lois connus ?  → Hammurabi
+  cg-neuf-hm2-mesopotamie (Histoire du monde) — Quel roi de Babylone fait graver un code de lois vers 1750 avant notre ère ?  → Hammurabi
+
+[meme-matiere] 50%
+  cg-libre-histoire-monde-2 (Histoire du monde) — Quel conquistador espagnol s'empare de l'Empire aztèque en 1521 ?  → Hernán Cortés
+  cg-neuf-hm-espagne-or (Histoire du monde) — Quel conquistador abat l'Empire aztèque ?  → Hernán Cortés
+
+[inter-matiere] 50%
+  cg-libre-institutions-economie-2 (Institutions & Économie) — Quelle organisation internationale, créée en 1995, régule le commerce mondial ?  → L'OMC
+  cg-neuf-hm-organisations-internationales (Histoire du monde) — Quelle organisation régit le commerce mondial depuis 1995 ?  → L'OMC
+
+[meme-matiere] 50%
+  cg-libre-litterature-2 (Littérature) — Qui a écrit la pièce « En attendant Godot » ?  → Samuel Beckett
+  cg-neuf-li-theatre-francais (Littérature) — Qui écrit En attendant Godot, créée en 1953 ?  → Samuel Beckett
+
+[meme-matiere] 50%
+  cg-neuf-hf-francois-premier (Histoire de France) — Quel artiste italien meurt en France en 1519 sous la protection de François Ier ?  → Léonard de Vinci
+  cg-neuf-hf4-renaissance-france (Histoire de France) — Quel artiste italien François Ier a-t-il accueilli en France ?  → Léonard de Vinci
+
+[meme-matiere] 50%
+  cg-libre-arts-musique-1 (Arts & Musique) — Quel sculpteur français est l'auteur du « Penseur » ?  → Auguste Rodin
+  cg-neuf-am-sculpture (Arts & Musique) — Quel sculpteur français réalise Le Penseur et La Porte de l'Enfer ?  → Auguste Rodin
+
+[meme-matiere] 50%
+  cg-libre-arts-musique-2 (Arts & Musique) — Quel peintre français, ancien agent de change, a passé la fin de sa vie en Polynésie ?  → Paul Gauguin
+  cg-neuf-am3-peinture-france (Arts & Musique) — Quel peintre français a passé les dernières années de sa vie en Polynésie ?  → Paul Gauguin
+
+[meme-matiere] 50%
+  cg-libre-arts-musique-2 (Arts & Musique) — Quelle célèbre statue antique, découverte en 1820, est conservée au Louvre sans ses bras ?  → La Vénus de Milo
+  cg-neuf-am-sculpture (Arts & Musique) — Quelle célèbre statue antique du Louvre est une Aphrodite aux bras manquants ?  → La Vénus de Milo
+
+[meme-matiere] 50%
+  cg-libre-mythologie-religions-2 (Mythologie & Religions) — Quel héros athénien tua le Minotaure dans le labyrinthe de Crète ?  → Thésée
+  cg-neuf-mr-mythes-fondateurs (Mythologie & Religions) — Quel héros grec doit affronter le Minotaure dans un labyrinthe ?  → Thésée
+
+[meme-matiere] 50%
+  cg-libre-sciences-vie-1 (Sciences de la vie & Terre) — Quel est le plus grand oiseau du monde, incapable de voler ?  → L'autruche
+  cg-neuf-sv3-oiseaux (Sciences de la vie & Terre) — Quel est le plus grand oiseau vivant ?  → l'autruche
+
+[meme-matiere] 50%
+  cg-libre-sciences-vie-2 (Sciences de la vie & Terre) — Qui a découvert la pénicilline en 1928 ?  → Alexander Fleming
+  cg-neuf-sv-sante-publique (Sciences de la vie & Terre) — Qui découvre la pénicilline en 1928 ?  → Alexander Fleming
+
+[meme-matiere] 50%
+  cg-libre-sciences-vie-2 (Sciences de la vie & Terre) — Quels chercheurs ont décrit la structure en double hélice de l'ADN en 1953 ?  → Watson et Crick
+  cg-neuf-sv-adn-heredite (Sciences de la vie & Terre) — Qui publie la structure en double hélice de l'ADN en 1953 ?  → Watson et Crick
+
+[meme-matiere] 50%
+  cg-libre-sciences-tech-2 (Inventions & Technologie) — Qui a construit en 1886 ce qui est considéré comme la première automobile à moteur à essence ?  → Karl Benz
+  cg-neuf-st-transports (Inventions & Technologie) — Qui dépose en 1886 le brevet de la première automobile à moteur à essence ?  → Karl Benz
+
+[meme-matiere] 50%
+  cg-libre-sciences-tech-2 (Inventions & Technologie) — Quel réseau américain financé par la défense est considéré comme l'ancêtre d'Internet ?  → ARPANET
+  cg-neuf-st-internet-reseaux (Inventions & Technologie) — Quel réseau militaire américain est l'ancêtre d'Internet ?  → ARPANET
+
+[meme-matiere] 50%
+  cg-neuf-st-internet-reseaux (Inventions & Technologie) — Quel réseau militaire américain est l'ancêtre d'Internet ?  → ARPANET
+  cg-neuf-st2-armement (Inventions & Technologie) — Quel réseau informatique militaire est à l'origine d'internet ?  → ARPANET
+
+[meme-matiere] 50%
+  cg-libre-sciences-tech-3 (Inventions & Technologie) — Quel théorème, énoncé par un magistrat français au XVIIe siècle, n'a été démontré qu'en 1994 ?  → Le dernier théorème de Fermat
+  cg-neuf-st-mathematiques (Inventions & Technologie) — Quel théorème énoncé en 1637 n'a été démontré qu'en 1994 ?  → Le dernier théorème de Fermat
+
+[meme-matiere] 50%
+  cg-neuf-hf-femmes-france (Histoire de France) — Quelle femme entre au Panthéon en 2018 ?  → Simone Veil
+  cg-neuf-hf3-personnages-france (Histoire de France) — Quelle femme politique française est entrée au Panthéon en 2018 ?  → Simone Veil
+
+[meme-matiere] 50%
+  cg-neuf-cm2-documentaire (Cinéma & Médias) — Quel documentaire français de 2002 filme une classe unique rurale ?  → Être et avoir
+  cg-neuf-cm3-cinema-documentaire-france (Cinéma & Médias) — Quel documentaire de Nicolas Philibert filme une classe unique ?  → Être et avoir
+
+[meme-matiere] 50%
+  cg-neuf-lf2-genres-noms (Langue française) — Qu'est-ce que l'accord de proximité ?  → L'accord de l'adjectif avec le nom le plus proche
+  cg-neuf-lf3-ecriture-inclusive (Langue française) — Sur quel nom l'accord de proximité se fait-il ?  → L'accord de l'adjectif avec le nom le plus proche
+
+[meme-matiere] 50%
+  cg-neuf-hf3-societe-ancien-regime (Histoire de France) — Qu'est-ce qu'une corvée seigneuriale ?  → Un travail gratuit dû au seigneur
+  cg-neuf-hf4-societe-feodale (Histoire de France) — Qu'est-ce que la corvée ?  → Un travail gratuit dû au seigneur

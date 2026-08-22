@@ -147,18 +147,6 @@
  ],
  "quiz": [
   {
-   "q": "Quel événement du 28 juin 1914 déclenche l'engrenage menant à la guerre ?",
-   "choix": [
-    "L'invasion de la Belgique par l'Allemagne",
-    "La mobilisation générale russe",
-    "L'assassinat de l'archiduc François-Ferdinand à Sarajevo",
-    "La bataille de la Marne"
-   ],
-   "bonne": 2,
-   "difficulte": 1,
-   "explication": "L'héritier du trône d'Autriche-Hongrie est tué à Sarajevo, capitale de la Bosnie annexée par Vienne en 1908, par Gavrilo Princip, nationaliste serbe de Bosnie. L'Autriche-Hongrie adresse un ultimatum à la Serbie puis lui déclare la guerre le 28 juillet. Le jeu des alliances entraîne ensuite la Russie, l'Allemagne, la France et le Royaume-Uni en une semaine. L'invasion de la Belgique neutre, début août, provoque l'entrée en guerre britannique. La bataille de la Marne, elle, a lieu en septembre 1914 et arrête l'avance allemande."
-  },
-  {
    "q": "Qu'est-ce que la course à la mer, à l'automne 1914 ?",
    "choix": [
     "Une bataille navale entre flottes allemande et britannique",

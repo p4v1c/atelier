@@ -837,18 +837,6 @@
      "explication": "Denis Diderot dirigea avec le mathématicien d'Alembert l'« Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers », publiée à partir de 1751. Diderot y consacra une vingtaine d'années, poursuivant seul la direction après le retrait de d'Alembert. L'ouvrage, qui compta 17 volumes de textes et 11 volumes de planches, mobilisa environ 150 collaborateurs, dont Voltaire, Rousseau et Montesquieu. Malgré les condamnations et la censure, il diffusa les savoirs techniques et l'esprit critique des Lumières. C'est l'une des plus grandes aventures éditoriales de l'histoire."
     },
     {
-     "q": "Quelle pièce de Victor Hugo a déclenché en 1830 une célèbre « bataille » entre classiques et romantiques ?",
-     "choix": [
-      "Ruy Blas",
-      "Hernani",
-      "Lucrèce Borgia",
-      "Marion de Lorme"
-     ],
-     "bonne": 1,
-     "difficulte": 2,
-     "explication": "La création d'« Hernani » à la Comédie-Française, le 25 février 1830, provoqua la « bataille d'Hernani ». Les jeunes romantiques, menés par Théophile Gautier et son fameux gilet rouge, s'affrontèrent aux partisans du théâtre classique, choqués par les libertés que Hugo prenait avec l'alexandrin et les règles. Le tumulte accompagna les représentations pendant des semaines. Cette victoire du drame romantique consacra Hugo, alors âgé de 28 ans, comme chef d'école. La préface de « Cromwell » (1827) avait déjà exposé son programme de liberté dans l'art."
-    },
-    {
      "q": "Quel sous-titre Zola a-t-il donné au cycle des Rougon-Macquart ?",
      "choix": [
       "Histoire naturelle et sociale d'une famille sous le Second Empire",
@@ -871,6 +859,18 @@
      "bonne": 1,
      "difficulte": 2,
      "explication": "Guillaume Apollinaire forgea le mot « surréalisme » en 1917, à propos de sa pièce « Les Mamelles de Tirésias » ; André Breton le reprit en 1924 pour baptiser son mouvement. Poète de la modernité, Apollinaire publia « Alcools » en 1913, recueil sans ponctuation ouvert par le long poème « Zone », qui contient aussi « Le Pont Mirabeau ». Ses « Calligrammes » dessinent des images avec les mots. Ami de Picasso et défenseur du cubisme, blessé à la tête pendant la Grande Guerre, il mourut de la grippe espagnole en novembre 1918, deux jours avant l'armistice."
+    },
+    {
+     "q": "Quel manifeste de 1830 a opposé les romantiques aux classiques lors d'une bataille restée célèbre ?",
+     "choix": [
+      "La préface de Cromwell, dont la pièce Hernani fut l'application",
+      "L'Art poétique de Boileau",
+      "Le Manifeste du surréalisme",
+      "La Défense et illustration de la langue française"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Victor Hugo expose en 1827 dans la préface de « Cromwell » le programme du drame romantique : mêler le sublime et le grotesque, renoncer aux unités, prendre l'histoire pour matière. La première d'« Hernani », en février 1830, en fut l'application scénique et le champ de bataille : partisans et adversaires s'affrontèrent bruyamment pendant des dizaines de représentations. Boileau, un siècle et demi plus tôt, avait au contraire fixé les règles classiques."
     }
    ]
   },

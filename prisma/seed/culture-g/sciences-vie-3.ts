@@ -71,8 +71,6 @@ export const CG_SCIENCES_VIE_3: SeedSkill[] = [
      "Kangourous, koalas et opossums en font partie."],
     ["Quel est le plus grand mammifère terrestre ?", ["l'éléphant d'Afrique", "Le rhinocéros blanc", "l'hippopotame", "La girafe"], 0,
      "Jusqu'à six ou sept tonnes pour les plus grands mâles."],
-    ["Quel mammifère est le seul capable de vol battu ?", ["La chauve-souris", "L'écureuil volant", "Le colugo", "Le phalanger volant"], 0,
-     "Les autres pratiquent le vol plané, non le vol actif."],
     ["Comment les chauves-souris se repèrent-elles dans l'obscurité ?", ["Par écholocalisation", "Par vision infrarouge", "Par l'odorat", "Par magnétoréception"], 0,
      "Elles émettent des ultrasons et analysent leur écho pour cartographier leur environnement."],
     ["Qu'est-ce que l'hibernation ?", ["Un ralentissement profond du métabolisme pendant l'hiver", "Un sommeil prolongé", "Une réduction d'activité saisonnière", "Une migration hivernale"], 0,

@@ -89,8 +89,6 @@ export const CG_SPORT: SeedSkill[] = [
     "Le Tour de France, les grands tours, le vocabulaire des courses.",
     "Le maillot jaune du Tour de France doit sa couleur au papier du journal organisateur.",
     2, [
-    ["En quelle année le Tour de France est-il créé ?", ["1903", "1896", "1919", "1911"], 0,
-     "Par le journal L'Auto, pour concurrencer un titre rival. La course était d'abord un coup de publicité."],
     ["Pourquoi le maillot du leader du Tour de France est-il jaune ?", ["C'était la couleur du papier du journal organisateur", "C'était la couleur du drapeau de la course", "Pour être visible de loin", "En hommage au premier vainqueur"], 0,
      "L'Auto était imprimé sur papier jaune. Le maillot apparaît en 1919."],
     ["Que récompense le maillot blanc sur le Tour de France ?", ["Le meilleur jeune coureur", "Le meilleur grimpeur", "Le plus combatif", "Le meilleur équipier"], 0,

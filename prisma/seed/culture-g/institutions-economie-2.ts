@@ -299,8 +299,6 @@ export const CG_INSTITUTIONS_ECONOMIE_2: SeedSkill[] = [
     2, [
     ["Qui est le chef des armées en France ?", ["Le président de la République", "Le Premier ministre", "Le ministre des Armées", "Le chef d'état-major des armées"], 0,
      "L'article 15 de la Constitution le prévoit ; il préside les conseils de défense."],
-    ["Quand le service militaire obligatoire a-t-il été suspendu en France ?", ["En 1997", "En 1990", "En 2001", "En 2005"], 0,
-     "La suspension, décidée par Jacques Chirac, a pris effet progressivement jusqu'en 2001."],
     ["Qu'est-ce que la journée défense et citoyenneté ?", ["Une journée obligatoire de sensibilisation pour les jeunes Français", "Un rappel des réservistes", "Une commémoration nationale", "Une formation militaire volontaire"], 0,
      "Elle a succédé aux trois jours du service national et conditionne l'inscription aux examens."],
     ["Sur quel principe repose la dissuasion nucléaire française ?", ["La stricte suffisance : disposer du minimum nécessaire pour dissuader", "La supériorité numérique", "La frappe préventive", "La parité avec les autres puissances"], 0,

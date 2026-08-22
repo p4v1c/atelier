@@ -47,8 +47,6 @@ export const CG_SCIENCES_VIE: SeedSkill[] = [
      "Ce peut être une protéine virale, une molécule de surface bactérienne ou un composant d'un greffon."],
     ["Sur quel principe repose la vaccination ?", ["Provoquer une réponse immunitaire mémoire sans la maladie", "Détruire directement les microbes", "Renforcer la barrière cutanée", "Neutraliser les toxines une fois la maladie déclarée"], 0,
      "Le vaccin présente l'antigène sans le pouvoir pathogène. La mémoire immunitaire permet une réponse rapide en cas de contact réel."],
-    ["Qui met au point le vaccin contre la rage en 1885 ?", ["Louis Pasteur", "Edward Jenner", "Robert Koch", "Alexander Fleming"], 0,
-     "Jenner avait inventé la vaccination contre la variole en 1796. Pasteur généralise le principe à d'autres maladies."],
     ["Qu'est-ce qu'une maladie auto-immune ?", ["Le système immunitaire attaque les propres cellules du corps", "Une infection qui se transmet d'elle-même", "Une allergie sévère", "Une immunodéficience héréditaire"], 0,
      "Diabète de type 1, sclérose en plaques et polyarthrite rhumatoïde en sont des exemples."],
     ["Quelle cellule le VIH détruit-il principalement ?", ["Les lymphocytes T CD4", "Les globules rouges", "Les plaquettes", "Les macrophages seuls"], 0,
@@ -141,8 +139,6 @@ export const CG_SCIENCES_VIE: SeedSkill[] = [
     "Fixées au sol, sans muscles ni système nerveux, les plantes ont inventé d'autres réponses : chimie, symbiose et architecture.",
     "Une plante ne fuit pas : elle se défend par la chimie, ou coopère avec des animaux et des champignons.",
     2, [
-    ["Quel gaz les plantes absorbent-elles pour la photosynthèse ?", ["Le dioxyde de carbone", "L'oxygène", "L'azote", "Le méthane"], 0,
-     "Elles rejettent de l'oxygène. La nuit, en revanche, elles respirent comme tous les êtres vivants."],
     ["Quel pigment capte la lumière dans les feuilles ?", ["La chlorophylle", "La mélanine", "Le carotène seul", "L'anthocyane"], 0,
      "Elle absorbe surtout le bleu et le rouge et réfléchit le vert, d'où la couleur des feuilles."],
     ["Pourquoi les feuilles rougissent-elles en automne ?", ["La chlorophylle se dégrade et laisse voir d'autres pigments", "Elles produisent un pigment rouge de défense uniquement", "Le froid brûle les tissus", "La sève remonte dans les feuilles"], 0,

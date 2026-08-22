@@ -1,0 +1,40 @@
+80% cg-histoire-france-c03 [15q]
+   A Quel événement du 28 juin 1914 déclenche l'engrenage menant à la Première Guerre mondiale ?   « heritage/culture-g/data/histoire-france.json »
+   B Quel événement du 28 juin 1914 déclenche l'engrenage menant à la guerre ?   « ? »
+   → L'assassinat de l'archiduc François-Ferdinand à Sarajevo
+89% cg-histoire-france-05 [15q]
+   A Quelle ordonnance de 1539 impose l'usage du français dans les actes de justice ?   « ? »
+   B Quelle ordonnance de 1539 impose le français dans les actes de justice ?   « prisma/seed/culture-g/langue-francaise.ts »
+   → L'ordonnance de Villers-Cotterêts
+83% cg-neuf-hf-france-1970-2000 [10q]
+   A Quand le service militaire obligatoire est-il suspendu ?   « prisma/seed/culture-g/histoire-france.ts »
+   B Quand le service militaire obligatoire a-t-il été suspendu en France ?   « prisma/seed/culture-g/institutions-economie-2.ts »
+   → En 1997
+83% cg-geographie-c02 [5q]
+   A Quel volcan très actif se trouve sur l'île de La Réunion ?   « heritage/culture-g/data/geographie.json »
+   B Quel volcan actif se trouve à La Réunion ?   « prisma/seed/culture-g/histoire-france-2.ts »
+   → Le piton de la Fournaise
+100% cg-libre-histoire-monde-2 [35q]
+   A En quelle année l'Organisation des Nations unies est-elle fondée ?   « heritage/culture-g/data/histoire-monde.json »
+   B En quelle année l'Organisation des Nations unies a-t-elle été fondée ?   « heritage/culture-g/data/institutions-economie.json »
+   → 1945
+80% cg-litterature-06 [5q]
+   A Qui publie en 1949 l'essai « Le Deuxième Sexe » ?   « ? »
+   B Qui publie Le Deuxième Sexe en 1949 ?   « prisma/seed/culture-g/histoire-france.ts »
+   → Simone de Beauvoir
+86% cg-litterature-17 [15q]
+   A Comment appelle-t-on les livres imprimés avant 1501 ?   « ? »
+   B Comment appelle-t-on les livres imprimés en Europe avant 1501 ?   « heritage/culture-g/data/sciences-tech.json »
+   → Des incunables
+88% cg-litterature-17 [15q]
+   A Qui met au point l'imprimerie à caractères mobiles en Europe vers 1450 ?   « prisma/seed/culture-g/litterature.ts »
+   B Qui a mis au point l'imprimerie à caractères mobiles métalliques en Europe vers 1450 ?   « heritage/culture-g/data/sciences-tech.json »
+   → Johannes Gutenberg
+100% cg-libre-sciences-tech-1 [18q]
+   A Qui a mis au point en 1885 le vaccin contre la rage ?   « heritage/culture-g/data/sciences-tech.json »
+   B Qui met au point le vaccin contre la rage en 1885 ?   « prisma/seed/culture-g/sciences-vie.ts »
+   → Louis Pasteur
+100% cg-libre-sciences-vie-1 [32q]
+   A Quelle est la planète la plus proche du Soleil ?   « heritage/culture-g/data/sciences-vie.json »
+   B Quelle planète est la plus proche du Soleil ?   « prisma/seed/culture-g/physique-chimie.ts »
+   → Mercure

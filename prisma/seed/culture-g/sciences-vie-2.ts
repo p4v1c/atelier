@@ -63,8 +63,6 @@ export const CG_SCIENCES_VIE_2: SeedSkill[] = [
     "Comment l'oxygène atteint les cellules et le dioxyde de carbone en repart.",
     "Le sang effectue deux circuits : un vers les poumons, un vers le reste du corps.",
     2, [
-    ["Combien de cavités le cœur humain compte-t-il ?", ["Quatre", "Deux", "Trois", "Six"], 0,
-     "Deux oreillettes et deux ventricules, séparant strictement sang oxygéné et sang appauvri."],
     ["Que transporte l'hémoglobine ?", ["L'oxygène", "Le glucose", "Les lipides", "Les hormones"], 0,
      "Chaque molécule peut fixer quatre molécules de dioxygène grâce à ses atomes de fer."],
     ["Où ont lieu les échanges gazeux dans les poumons ?", ["Dans les alvéoles", "Dans les bronches", "Dans la trachée", "Dans la plèvre"], 0,
@@ -91,8 +89,6 @@ export const CG_SCIENCES_VIE_2: SeedSkill[] = [
     2, [
     ["Combien d'os compte un squelette humain adulte ?", ["Environ deux cent six", "Environ trois cents", "Environ cent cinquante", "Environ deux cent cinquante"], 0,
      "Un nouveau-né en compte davantage : certains fusionnent au cours de la croissance."],
-    ["Quel est le plus long os du corps humain ?", ["Le fémur", "Le tibia", "L'humérus", "Le radius"], 0,
-     "Il peut supporter plusieurs fois le poids du corps en compression."],
     ["Quel est le plus petit os du corps humain ?", ["L'étrier, dans l'oreille moyenne", "Le pisiforme du poignet", "La phalange du petit orteil", "L'os hyoïde"], 0,
      "Il transmet les vibrations du tympan à l'oreille interne avec les deux autres osselets."],
     ["Qu'est-ce que le cartilage articulaire ?", ["Un tissu lisse recouvrant les extrémités osseuses", "Un ligament renforcé", "Une membrane synoviale", "Un tissu osseux jeune"], 0,

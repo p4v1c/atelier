@@ -75,8 +75,6 @@ export const CG_MYTHOLOGIE_RELIGIONS_3: SeedSkill[] = [
      "Beaucoup se réfugient dans l'Empire ottoman, qui les accueille."],
     ["Qu'est-ce qu'un ghetto au sens historique ?", ["Un quartier d'assignation forcée des Juifs dans certaines villes", "Un quartier pauvre", "Un quartier commerçant", "Une communauté volontaire"], 0,
      "Le mot vient du quartier vénitien où les Juifs furent assignés à partir de 1516."],
-    ["Quand les Juifs obtiennent-ils la citoyenneté en France ?", ["En 1791, pendant la Révolution", "En 1789", "En 1848", "En 1808"], 0,
-     "La France est le premier État européen à leur accorder l'égalité des droits."],
     ["Qu'est-ce que la Haskala ?", ["Un mouvement des Lumières juives prônant l'ouverture au monde moderne", "Un courant mystique", "Une école talmudique", "Un mouvement sioniste"], 0,
      "Elle se développe en Europe centrale à partir de la fin du XVIIIe siècle."],
     ["Qu'est-ce que le sionisme politique ?", ["Un mouvement visant la création d'un État juif", "Un courant religieux messianique", "Une organisation communautaire", "Un mouvement culturel"], 0,

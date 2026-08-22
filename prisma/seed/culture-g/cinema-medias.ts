@@ -115,8 +115,6 @@ export const CG_CINEMA_MEDIAS: SeedSkill[] = [
     "Cannes, Venise, Berlin, les César, les Oscars : qui décerne quoi et sur quels critères.",
     "La Palme d'or récompense un film, pas un réalisateur : elle est remise au metteur en scène pour l'œuvre.",
     2, [
-    ["Quelle est la récompense suprême du Festival de Cannes ?", ["La Palme d'or", "Le Lion d'or", "l'Ours d'or", "Le Grand Prix"], 0,
-     "Le Grand Prix est la deuxième distinction du palmarès, souvent confondue avec elle."],
     ["En quelle année le Festival de Cannes est-il créé ?", ["1946", "1939", "1955", "1968"], 0,
      "Prévu en 1939 en réponse à la Mostra de Venise jugée trop favorable aux régimes fasciste et nazi, il fut ajourné par la guerre."],
     ["Quelle est la récompense suprême de la Mostra de Venise ?", ["Le Lion d'or", "La Palme d'or", "l'Ours d'or", "Le Grand Prix du jury"], 0,

@@ -227,8 +227,6 @@ export const CG_MYTHOLOGIE_RELIGIONS: SeedSkill[] = [
      "Le texte grec parle d'une jarre ; la traduction en boîte est une erreur du XVIe siècle devenue courante."],
     ["Que symbolise la tour de Babel dans le récit biblique ?", ["L'origine de la diversité des langues", "La chute d'un empire", "La naissance des villes", "Le premier temple"], 0,
      "Le récit lie l'orgueil humain à la confusion des langues et à la dispersion des peuples."],
-    ["Quel héros grec accomplit douze travaux ?", ["Héraclès", "Thésée", "Persée", "Jason"], 0,
-     "Imposés en expiation d'un meurtre commis dans une crise de folie envoyée par Héra."],
     ["Quel héros grec doit affronter le Minotaure dans un labyrinthe ?", ["Thésée", "Héraclès", "Persée", "Bellérophon"], 0,
      "Ariane lui donne un fil pour retrouver la sortie. Dédale avait conçu le labyrinthe."],
     ["Que raconte le mythe d'Icare ?", ["Un vol trop proche du soleil qui fait fondre la cire des ailes", "Une chute dans un labyrinthe", "Une traversée de la mer à la nage", "Un enlèvement par un aigle"], 0,

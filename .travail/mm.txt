@@ -1,0 +1,212 @@
+80% cg-histoire-monde-c01 [5q]
+   A Quel édit de 212 accorde la citoyenneté romaine à tous les hommes libres de l'Empire ?   « heritage/culture-g/data/histoire-monde.json »
+   B Quel édit de 212 accorde la citoyenneté à presque tous les hommes libres de l'Empire ?   « prisma/seed/culture-g/histoire-monde-2.ts »
+   → L'édit de Caracalla
+100% cg-histoire-france-02 [5q]
+   A Que partage le traité de Verdun de 843 ?   « ? »
+   B Que partage le traité de Verdun en 843 ?   « prisma/seed/culture-g/histoire-france.ts »
+   → L'Empire carolingien entre les trois petits-fils de Charlemagne
+80% cg-histoire-france-03 [5q]
+   A En quelle année Hugues Capet est-il élu roi des Francs ?   « ? »
+   B En quelle année Hugues Capet est-il élu roi ?   « prisma/seed/culture-g/histoire-france-2.ts »
+   → 987
+100% cg-histoire-france-04 [14q]
+   A Quelle ville Jeanne d'Arc délivre-t-elle en 1429 ?   « prisma/seed/culture-g/histoire-france-2.ts »
+   B Quelle ville Jeanne délivre-t-elle en mai 1429 ?   « prisma/seed/culture-g/histoire-france.ts »
+   → Orléans
+80% cg-neuf-hm2-amerique-latine [20q]
+   A Quelle était la capitale de l'Empire aztèque ?   « prisma/seed/culture-g/histoire-monde-2.ts »
+   B Quelle était la capitale aztèque ?   « prisma/seed/culture-g/histoire-monde-4.ts »
+   → Tenochtitlan
+89% cg-histoire-monde-c02 [14q]
+   A Quel traité de 1494 partage le monde entre Espagne et Portugal ?   « prisma/seed/culture-g/histoire-monde-2.ts »
+   B Quel traité de 1494 partage le Nouveau Monde entre l'Espagne et le Portugal ?   « heritage/culture-g/data/histoire-monde.json »
+   → Le traité de Tordesillas
+86% cg-histoire-monde-c02 [14q]
+   A Quel conquistador s'empare de l'Empire aztèque en 1521 ?   « prisma/seed/culture-g/histoire-monde-2.ts »
+   B Quel conquistador espagnol s'empare de l'Empire aztèque en 1521 ?   « heritage/culture-g/data/histoire-monde.json »
+   → Hernán Cortés
+80% cg-histoire-monde-11 [15q]
+   A Quelle attaque fait entrer les États-Unis en guerre en décembre 1941 ?   « prisma/seed/culture-g/histoire-monde.ts »
+   B Quelle attaque de 1941 fait entrer les États-Unis dans la guerre ?   « prisma/seed/culture-g/histoire-monde-2.ts »
+   → Pearl Harbor
+86% cg-histoire-monde-15 [15q]
+   A Quel amendement abolit l'esclavage aux États-Unis en 1865 ?   « prisma/seed/culture-g/histoire-monde-2.ts »
+   B Quel amendement abolit l'esclavage aux États-Unis ?   « prisma/seed/culture-g/histoire-monde.ts »
+   → Le treizième
+100% cg-histoire-monde-21 [5q]
+   A Quels traités mettent fin en 1648 à la guerre de Trente Ans ?   « ? »
+   B Quels traités mettent fin à la guerre de Trente Ans en 1648 ?   « prisma/seed/culture-g/histoire-monde-2.ts »
+   → Les traités de Westphalie
+83% cg-histoire-monde-23 [15q]
+   A Qui proclame la République populaire de Chine en 1949 ?   « prisma/seed/culture-g/histoire-monde-3.ts »
+   B Qui proclame la République populaire de Chine le 1er octobre 1949 ?   « heritage/culture-g/data/histoire-monde.json »
+   → Mao Zedong
+86% cg-geographie-06 [5q]
+   A Quel fleuve possède le débit le plus important du monde ?   « ? »
+   B Quel fleuve a le débit le plus important du monde ?   « prisma/seed/culture-g/geographie.ts »
+   → L'Amazone
+86% cg-institutions-economie-10 [5q]
+   A Quelles sont les trois fonctions traditionnellement attribuées à la monnaie ?   « ? »
+   B Quelles sont traditionnellement les trois fonctions de la monnaie ?   « heritage/culture-g/data/institutions-economie.json »
+   → Unité de compte, intermédiaire des échanges, réserve de valeur
+83% cg-libre-institutions-economie-2 [32q]
+   A Quelles sont traditionnellement les trois fonctions de la monnaie ?   « heritage/culture-g/data/institutions-economie.json »
+   B Quelles sont les trois fonctions de la monnaie ?   « prisma/seed/culture-g/institutions-economie.ts »
+   → Unité de compte, intermédiaire des échanges, réserve de valeur
+83% cg-litterature-c01 [15q]
+   A Quelle pièce de Victor Hugo a déclenché en 1830 une célèbre « bataille » entre classiques et romantiques ?   « heritage/culture-g/data/litterature.json »
+   B Quelle pièce de Victor Hugo provoque en 1830 une célèbre bataille entre classiques et romantiques ?   « ? »
+   → Hernani
+100% cg-sciences-vie-10 [5q]
+   A Combien de cavités compte le cœur humain ?   « ? »
+   B Combien de cavités le cœur humain compte-t-il ?   « prisma/seed/culture-g/sciences-vie-2.ts »
+   → Quatre
+86% cg-langue-francaise-03 [15q]
+   A Quelle est la première femme élue à l'Académie française ?   « prisma/seed/culture-g/langue-francaise.ts »
+   B Quelle femme est la première élue à l'Académie française, en 1980 ?   « heritage/culture-g/data/langue-francaise.json »
+   → Marguerite Yourcenar
+88% cg-libre-arts-musique-1 [27q]
+   A Quel musée parisien est installé dans une ancienne gare ferroviaire ?   « heritage/culture-g/data/arts-musique.json »
+   B Quel musée parisien est installé dans une ancienne gare ?   « prisma/seed/culture-g/arts-musique.ts »
+   → Le musée d'Orsay
+82% cg-cinema-medias-06 [15q]
+   A Quel film des studios Disney, sorti en 1937, est le premier long métrage d'animation américain ?   « ? »
+   B Quel est le premier long métrage d'animation des studios Disney, sorti en 1937 ?   « heritage/culture-g/data/cinema-medias.json »
+   → «Blanche-Neige et les Sept Nains»
+80% cg-mythologie-religions-01 [15q]
+   A Quel dieu romain est celui de la guerre ?   « prisma/seed/culture-g/mythologie-religions-2.ts »
+   B Quel dieu romain est le dieu de la guerre ?   « heritage/culture-g/data/mythologie-religions.json »
+   → Mars
+83% cg-mythologie-religions-06 [15q]
+   A Quand les Juifs obtiennent-ils la citoyenneté en France ?   « prisma/seed/culture-g/mythologie-religions-3.ts »
+   B Quand les Juifs obtiennent-ils la pleine citoyenneté en France ?   « prisma/seed/culture-g/mythologie-religions-2.ts »
+   → En 1791, pendant la Révolution
+83% cg-sciences-vie-c03 [5q]
+   A Quelle réaction produit l'énergie du Soleil ?   « heritage/culture-g/data/sciences-vie.json »
+   B Quelle réaction produit l'énergie rayonnée par le Soleil ?   « ? »
+   → La fusion de l'hydrogène en hélium
+86% cg-sciences-vie-01 [5q]
+   A Quel organite est surnommé la centrale énergétique de la cellule ?   « ? »
+   B Quel organite cellulaire est surnommé la « centrale énergétique » de la cellule ?   « heritage/culture-g/data/sciences-vie.json »
+   → La mitochondrie
+83% cg-physique-chimie-01 [15q]
+   A Comment varie la force gravitationnelle entre deux corps si l'on double la distance qui les sépare ?   « ? »
+   B Selon la loi de Newton, comment varie la force gravitationnelle entre deux corps si l'on double la distance qui les sépare ?   « ? »
+   → Elle est divisée par quatre
+86% cg-libre-sciences-vie-1 [32q]
+   A Quel gaz les plantes absorbent-elles pour réaliser la photosynthèse ?   « heritage/culture-g/data/sciences-vie.json »
+   B Quel gaz les plantes absorbent-elles pour la photosynthèse ?   « prisma/seed/culture-g/sciences-vie.ts »
+   → Le dioxyde de carbone
+83% cg-gastronomie-c02 [5q]
+   A Quel chef installé à Vienne, dans l'Isère, a formé Bocuse et les frères Troisgros ?   « heritage/culture-g/data/gastronomie.json »
+   B Quel chef, installé à Vienne dans l'Isère, a formé Bocuse, les frères Troisgros et Alain Chapel ?   « heritage/culture-g/data/gastronomie.json »
+   → Fernand Point
+100% cg-sport-07 [15q]
+   A Quand le championnat du monde de Formule 1 est-il créé ?   « prisma/seed/culture-g/sport-2.ts »
+   B Quand le championnat du monde de Formule 1 a-t-il été créé ?   « prisma/seed/culture-g/sport-3.ts »
+   → En 1950
+100% cg-sport-14 [15q]
+   A Quand la première Coupe du monde féminine de football a-t-elle lieu ?   « prisma/seed/culture-g/sport-2.ts »
+   B Quand la première Coupe du monde féminine de football a-t-elle eu lieu ?   « prisma/seed/culture-g/sport-3.ts »
+   → En 1991
+80% cg-libre-histoire-france-1 [19q]
+   A De quel roi le cardinal de Richelieu est-il le principal ministre ?   « heritage/culture-g/data/histoire-france.json »
+   B De quel roi Richelieu est-il le principal ministre ?   « prisma/seed/culture-g/histoire-france.ts »
+   → Louis XIII
+86% cg-libre-histoire-france-1 [19q]
+   A En quelle année est adoptée la Constitution de la Cinquième République ?   « heritage/culture-g/data/histoire-france.json »
+   B En quelle année la Constitution de la Cinquième République est-elle adoptée ?   « prisma/seed/culture-g/histoire-france-2.ts »
+   → 1958
+100% cg-libre-histoire-france-2 [25q]
+   A Quand la Déclaration des droits de l'homme et du citoyen est-elle adoptée ?   « heritage/culture-g/data/histoire-france.json »
+   B Quand la Déclaration des droits de l'homme et du citoyen a-t-elle été adoptée ?   « prisma/seed/culture-g/histoire-france-4.ts »
+   → Le 26 août 1789
+80% cg-libre-geographie-1 [27q]
+   A Quel est le point culminant de la France ?   « heritage/culture-g/data/geographie.json »
+   B Quel est le point culminant de la France métropolitaine ?   « prisma/seed/culture-g/geographie.ts »
+   → Le mont Blanc
+83% cg-libre-geographie-1 [27q]
+   A Quelle chaîne de montagnes sépare la France de l'Espagne ?   « heritage/culture-g/data/geographie.json »
+   B Quelle chaîne sépare la France de l'Espagne ?   « prisma/seed/culture-g/geographie-2.ts »
+   → Les Pyrénées
+86% cg-libre-geographie-1 [27q]
+   A Quelle ville est la préfecture de la région Auvergne-Rhône-Alpes ?   « heritage/culture-g/data/geographie.json »
+   B Quelle est la préfecture de la région Auvergne-Rhône-Alpes ?   « prisma/seed/culture-g/geographie.ts »
+   → Lyon
+100% cg-libre-geographie-1 [27q]
+   A Quel canal relie la mer Méditerranée à la mer Rouge ?   « heritage/culture-g/data/geographie.json »
+   B Quel canal relie la mer Rouge à la Méditerranée ?   « prisma/seed/culture-g/geographie.ts »
+   → Le canal de Suez
+100% cg-libre-geographie-1 [27q]
+   A Quel canal relie la mer Méditerranée à la mer Rouge ?   « heritage/culture-g/data/geographie.json »
+   B Quel canal relie la Méditerranée à la mer Rouge ?   « prisma/seed/culture-g/geographie-2.ts »
+   → Le canal de Suez
+100% cg-neuf-geo-detroits [10q]
+   A Quel canal relie la mer Rouge à la Méditerranée ?   « prisma/seed/culture-g/geographie.ts »
+   B Quel canal relie la Méditerranée à la mer Rouge ?   « prisma/seed/culture-g/geographie-2.ts »
+   → Le canal de Suez
+86% cg-libre-institutions-economie-2 [32q]
+   A Quelle est la plus haute juridiction de l'ordre judiciaire en France ?   « heritage/culture-g/data/institutions-economie.json »
+   B Quelle est la plus haute juridiction de l'ordre judiciaire ?   « prisma/seed/culture-g/institutions-economie.ts »
+   → La Cour de cassation
+83% cg-libre-sport-2 [29q]
+   A En quelle année le Tour de France cycliste a-t-il été créé ?   « heritage/culture-g/data/sport.json »
+   B En quelle année le Tour de France est-il créé ?   « prisma/seed/culture-g/sport.ts »
+   → 1903
+100% cg-libre-mythologie-religions-1 [26q]
+   A Quel héros grec accomplit les douze travaux ?   « heritage/culture-g/data/mythologie-religions.json »
+   B Quel héros grec accomplit douze travaux ?   « prisma/seed/culture-g/mythologie-religions.ts »
+   → Héraclès
+86% cg-libre-mythologie-religions-2 [24q]
+   A Quelle déesse grecque de la chasse est la sœur jumelle d'Apollon ?   « heritage/culture-g/data/mythologie-religions.json »
+   B Quelle déesse grecque est la sœur jumelle d'Apollon ?   « prisma/seed/culture-g/mythologie-religions-2.ts »
+   → Artémis
+100% cg-libre-sciences-vie-1 [32q]
+   A Quel est l'os le plus long du corps humain ?   « heritage/culture-g/data/sciences-vie.json »
+   B Quel est le plus long os du corps humain ?   « prisma/seed/culture-g/sciences-vie-2.ts »
+   → Le fémur
+83% cg-libre-sciences-vie-1 [32q]
+   A Quel est le seul mammifère capable de vol battu (vol actif) ?   « heritage/culture-g/data/sciences-vie.json »
+   B Quel mammifère est le seul capable de vol battu ?   « prisma/seed/culture-g/sciences-vie-3.ts »
+   → La chauve-souris
+83% cg-libre-physique-chimie-1 [25q]
+   A Quel est l'élément chimique le plus abondant de l'Univers ?   « heritage/culture-g/data/physique-chimie.json »
+   B Quel est l'élément le plus abondant de l'univers ?   « prisma/seed/culture-g/physique-chimie.ts »
+   → L'hydrogène
+100% cg-libre-physique-chimie-2 [22q]
+   A Quel métal est liquide à température ambiante ?   « heritage/culture-g/data/physique-chimie.json »
+   B Quel est le métal liquide à température ambiante ?   « prisma/seed/culture-g/physique-chimie.ts »
+   → Le mercure
+100% cg-libre-gastronomie-1 [6q]
+   A De quel lait est fabriqué le roquefort ?   « heritage/culture-g/data/gastronomie.json »
+   B De quel lait le roquefort est-il fabriqué ?   « prisma/seed/culture-g/gastronomie.ts »
+   → De lait de brebis
+88% cg-libre-gastronomie-2 [33q]
+   A Quel cépage rouge domine les grands vins rouges de Bourgogne ?   « heritage/culture-g/data/gastronomie.json »
+   B Quel cépage domine les grands vins rouges de Bourgogne ?   « prisma/seed/culture-g/gastronomie.ts »
+   → Le pinot noir
+83% cg-libre-sport-2 [29q]
+   A Quelle est la nage la plus lente en compétition de natation ?   « heritage/culture-g/data/sport.json »
+   B Quelle nage est la plus lente en compétition ?   « prisma/seed/culture-g/sport-2.ts »
+   → La brasse
+83% cg-neuf-hf-etat-providence [10q]
+   A Quand la Sécurité sociale est-elle créée ?   « prisma/seed/culture-g/histoire-france.ts »
+   B Quand la Sécurité sociale française est-elle créée ?   « prisma/seed/culture-g/histoire-france-3.ts »
+   → En 1945
+80% cg-neuf-hm-inde-independance [10q]
+   A Qui devient le premier Premier ministre de l'Inde ?   « prisma/seed/culture-g/histoire-monde.ts »
+   B Qui devient le premier Premier ministre de l'Inde indépendante ?   « prisma/seed/culture-g/histoire-monde-3.ts »
+   → Jawaharlal Nehru
+86% cg-neuf-sp-sports-hiver-nautiques [10q]
+   A Quel nageur américain détient le record de médailles olympiques ?   « prisma/seed/culture-g/sport.ts »
+   B Quel nageur détient le record de médailles olympiques ?   « prisma/seed/culture-g/sport-3.ts »
+   → Michael Phelps
+86% cg-neuf-ie2-histoire-economique [10q]
+   A Quelle particularité économique la crise de 2020 présente-t-elle ?   « prisma/seed/culture-g/institutions-economie-2.ts »
+   B Quelle particularité la crise de 2020 présente-t-elle ?   « prisma/seed/culture-g/institutions-economie-3.ts »
+   → Un arrêt volontaire de l'activité pour raisons sanitaires
+80% cg-neuf-sp2-natation-eau [10q]
+   A Quelle est la longueur d'un bassin olympique ?   « prisma/seed/culture-g/sport-2.ts »
+   B Quelle longueur fait un bassin olympique ?   « prisma/seed/culture-g/sport-3.ts »
+   → Cinquante mètres

@@ -13,8 +13,6 @@ export const CG_GEOGRAPHIE_3: SeedSkill[] = [
     2, [
     ["Quelle région française est la plus peuplée ?", ["l'Île-de-France", "l'Auvergne-Rhône-Alpes", "Les Hauts-de-France", "l'Occitanie"], 0,
      "Environ douze millions d'habitants, soit près d'un Français sur cinq."],
-    ["Quelle région métropolitaine est la plus vaste ?", ["La Nouvelle-Aquitaine", "l'Occitanie", "l'Auvergne-Rhône-Alpes", "Le Grand Est"], 0,
-     "Elle dépasse la superficie de l'Autriche."],
     ["Quelle région française est issue de la fusion de trois anciennes régions en 2016 ?", ["La Nouvelle-Aquitaine", "La Bretagne", "La Normandie", "Les Pays de la Loire"], 0,
      "Aquitaine, Limousin et Poitou-Charentes. Le Grand Est et l'Occitanie ont aussi fusionné trois régions."],
     ["Quelle région française n'a pas été modifiée par la réforme de 2016 ?", ["La Bretagne", "La Normandie", "Le Grand Est", "l'Occitanie"], 0,

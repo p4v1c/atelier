@@ -271,8 +271,6 @@ export const CG_LITTERATURE: SeedSkill[] = [
     "De l'imprimerie au format de poche : comment un texte devient un objet, et qui en détient les droits.",
     "L'auteur ne vend pas son œuvre : il cède des droits d'exploitation, pour une durée et un territoire donnés.",
     2, [
-    ["Qui met au point l'imprimerie à caractères mobiles en Europe vers 1450 ?", ["Johannes Gutenberg", "Aldo Manuzio", "William Caxton", "Nicolas Jenson"], 0,
-     "Le procédé existait en Chine et en Corée bien avant, mais son adaptation à l'alphabet latin change l'échelle."],
     ["Qu'est-ce qu'un incunable ?", ["Un livre imprimé avant 1501", "Un manuscrit enluminé", "Un livre à tirage unique", "Un ouvrage sans nom d'auteur"], 0,
      "Du latin incunabula, le berceau : les tout premiers pas de l'imprimerie."],
     ["Qu'est-ce que le dépôt légal ?", ["L'obligation de déposer un exemplaire de tout ouvrage publié", "L'enregistrement du droit d'auteur", "Le dépôt d'un manuscrit chez un notaire", "Une taxe sur l'édition"], 0,

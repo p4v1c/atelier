@@ -117,8 +117,6 @@ export const CG_SPORT_2: SeedSkill[] = [
     2, [
     ["Quelle nage est la plus rapide ?", ["Le crawl", "Le dos", "La brasse", "Le papillon"], 0,
      "Le papillon est le deuxième plus rapide, mais bien plus coûteux en énergie."],
-    ["Quelle nage est la plus lente en compétition ?", ["La brasse", "Le dos", "Le papillon", "Le crawl"], 0,
-     "Le temps de glisse et la résistance de la position expliquent cette lenteur relative."],
     ["Dans quel ordre les nages s'enchaînent-elles en quatre nages individuel ?", ["Papillon, dos, brasse, nage libre", "Crawl, dos, brasse, papillon", "Dos, brasse, papillon, crawl", "Brasse, papillon, dos, crawl"], 0,
      "L'ordre diffère en relais quatre nages, qui commence par le dos."],
     ["Quelle est la longueur d'un bassin olympique ?", ["Cinquante mètres", "Vingt-cinq mètres", "Cent mètres", "Trente-trois mètres"], 0,

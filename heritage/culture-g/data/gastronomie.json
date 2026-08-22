@@ -1007,18 +1007,6 @@
      "explication": "Le Guide Michelin paraît dès 1900, mais il ne s'agit alors que d'un carnet pratique offert aux automobilistes. Les étoiles distinguant les bonnes tables apparaissent en 1926, et la hiérarchie à trois niveaux est fixée en 1931. La formulation retenue — mérite un détour, vaut le voyage — rappelle l'origine routière du guide. Le guide était devenu payant en 1920."
     },
     {
-     "q": "Quel chef installé à Vienne, dans l'Isère, a formé Bocuse et les frères Troisgros ?",
-     "choix": [
-      "Alexandre Dumaine",
-      "Raymond Oliver",
-      "Fernand Point",
-      "Michel Guérard"
-     ],
-     "bonne": 2,
-     "difficulte": 3,
-     "explication": "Fernand Point tenait La Pyramide, à Vienne, sur la route nationale 7 empruntée par les Parisiens descendant vers le Midi. Sa maison obtient trois étoiles en 1933 et les conserve jusqu'à sa mort en 1955. Paul Bocuse, Jean et Pierre Troisgros, Alain Chapel ou Louis Outhier y ont fait leurs armes. Ses recettes et ses formules ont été rassemblées après sa mort dans le livre Ma gastronomie."
-    },
-    {
      "q": "Que réclamaient les dix commandements de la nouvelle cuisine publiés en 1973 ?",
      "choix": [
       "Le retour aux épices médiévales",
@@ -1041,6 +1029,18 @@
      "bonne": 2,
      "difficulte": 3,
      "explication": "Après s'être retiré des fourneaux en 1995, Joël Robuchon revient en 2003 avec L'Atelier, inspiré des bars à tapas espagnols et des comptoirs à sushis japonais. Les clients y sont installés autour d'un comptoir et voient les cuisiniers travailler, dans un décor rouge et noir devenu reconnaissable. Le concept s'est décliné à Paris, Tokyo, Londres, Las Vegas ou Hong Kong. Robuchon a détenu le plus grand nombre d'étoiles Michelin jamais réunies par un chef."
+    },
+    {
+     "q": "Quel cuisinier a codifié les sauces mères de la cuisine française au début du XIXe siècle ?",
+     "choix": [
+      "Marie-Antoine Carême",
+      "Auguste Escoffier",
+      "François Vatel",
+      "Fernand Point"
+     ],
+     "bonne": 0,
+     "difficulte": 2,
+     "explication": "Marie-Antoine Carême, surnommé le « roi des chefs et le chef des rois », a classé les sauces en quatre familles mères — béchamel, velouté, espagnole et allemande — dont toutes les autres dérivent. Escoffier reprendra cette architecture un siècle plus tard en la simplifiant, en remplaçant l'allemande par la sauce tomate et la hollandaise. Cette codification est ce qui a fait de la cuisine française un système enseignable plutôt qu'une collection de recettes."
     }
    ],
    "sources": [

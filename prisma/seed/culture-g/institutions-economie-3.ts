@@ -489,8 +489,6 @@ export const CG_INSTITUTIONS_ECONOMIE_3: SeedSkill[] = [
      "Elle a conduit à créer le Mécanisme européen de stabilité."],
     ["Qu'est-ce que la formule prononcée par Mario Draghi en 2012 ?", ["Faire tout ce qu'il faudra pour préserver l'euro", "Sauver les banques à tout prix", "Réduire les déficits publics", "Racheter la dette grecque"], 0,
      "Cette seule déclaration a suffi à calmer durablement les marchés."],
-    ["Quelle particularité la crise de 2020 présente-t-elle ?", ["Un arrêt volontaire de l'activité pour raisons sanitaires", "Une crise financière", "Une crise énergétique", "Une crise de la dette"], 0,
-     "Les soutiens publics massifs ont limité les faillites au prix d'un fort endettement."],
     ["Qu'est-ce que le chômage partiel massif de 2020 ?", ["Un dispositif prenant en charge les salaires pour éviter les licenciements", "Une allocation chômage renforcée", "Un congé forcé", "Une suspension des contrats"], 0,
      "Il a concerné plusieurs millions de salariés simultanément en France."],
     ["Quelle cause principale explique la poussée d'inflation de 2021 et 2022 ?", ["Des tensions d'approvisionnement et une flambée des prix de l'énergie", "Une hausse des salaires", "Une création monétaire excessive seule", "Une baisse de la production agricole"], 0,

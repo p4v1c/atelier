@@ -110,18 +110,6 @@
    "explication": "La première loi de Kepler, dite loi des orbites, affirme que les planètes du système solaire parcourent des trajectoires elliptiques dont le Soleil occupe l'un des deux foyers. Elle rompt avec le dogme antique du mouvement circulaire uniforme. Kepler l'a obtenue empiriquement à partir des observations très précises de Tycho Brahe, notamment sur Mars, et l'a publiée dans l'Astronomia nova en 1609. Les orbites des planètes sont en réalité peu excentriques, donc proches de cercles, ce qui explique que l'écart n'ait été détecté qu'avec des mesures de grande qualité. Newton démontra plus tard que cette loi découle de la gravitation universelle."
   },
   {
-   "q": "Selon la loi de Newton, comment varie la force gravitationnelle entre deux corps si l'on double la distance qui les sépare ?",
-   "choix": [
-    "Elle est divisée par deux",
-    "Elle reste inchangée",
-    "Elle est divisée par quatre",
-    "Elle est multipliée par deux"
-   ],
-   "bonne": 2,
-   "difficulte": 2,
-   "explication": "La loi universelle de la gravitation énonce que la force est proportionnelle au produit des masses et inversement proportionnelle au carré de la distance. Doubler la distance divise donc la force par deux au carré, soit par quatre. Cette dépendance en carré inverse est la signature du phénomène et avait été pressentie avant Newton, notamment par Robert Hooke, mais c'est Newton qui en donna la formulation rigoureuse dans les Principia de 1687. La constante gravitationnelle qui intervient dans la formule vaut environ 6,674 fois dix puissance moins onze dans les unités du système international, valeur très petite qui rend l'attraction entre objets ordinaires imperceptible."
-  },
-  {
    "q": "Pourquoi observe-t-on deux marées hautes par jour et non une seule ?",
    "choix": [
     "Parce que la Lune fait deux fois le tour de la Terre chaque jour",
@@ -156,6 +144,18 @@
    "bonne": 0,
    "difficulte": 2,
    "explication": "La vitesse de libération est la vitesse minimale qui permet à un objet lancé de s'échapper de l'attraction d'un astre ; pour la Terre, elle vaut environ 11,2 kilomètres par seconde, soit plus de 40 000 kilomètres par heure. La valeur de 7,9 kilomètres par seconde correspond à autre chose : c'est la vitesse nécessaire pour se maintenir sur une orbite circulaire basse. Les 2,4 kilomètres par seconde sont la vitesse de libération de la Lune, et les 617 kilomètres par seconde celle du Soleil. Il faut noter qu'un engin à propulsion continue pourrait théoriquement s'éloigner sans jamais atteindre cette vitesse : c'est une condition suffisante, non nécessaire."
+  },
+  {
+   "q": "Quelle grandeur reste identique pour deux corps en chute libre dans le vide ?",
+   "choix": [
+    "L'accélération, quelle que soit leur masse",
+    "La force de gravitation qu'ils subissent",
+    "Leur quantité de mouvement",
+    "Leur énergie cinétique à l'arrivée"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Un corps deux fois plus lourd subit une force gravitationnelle deux fois plus grande, mais il oppose aussi une inertie deux fois plus grande : les deux effets se compensent exactement, et l'accélération est la même pour tous les corps. C'est ce que Galilée avait établi et que l'équipage d'Apollo 15 a vérifié sur la Lune en lâchant simultanément un marteau et une plume, qui ont touché le sol ensemble. Sur Terre, seule la résistance de l'air brise cette égalité."
   }
  ],
  "sources": [
