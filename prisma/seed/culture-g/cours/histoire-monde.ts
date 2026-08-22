@@ -777,4 +777,187 @@ Une seule révolution a poussé les principes jusqu'au bout : Haïti. Partie d'u
 
 Son sort en dit long : boycottée par les puissances esclavagistes, elle dut verser à la France une indemnité colossale pour obtenir sa reconnaissance en 1825 — dette qu'elle a fini de rembourser au XXe siècle, et qui a durablement compromis son développement.`],
   ],
+
+  "hm4-nationalismes": [
+    ["Deux idées de la nation", `Le XIXe siècle voit naître ou s'unifier de nombreux États-nations, et il oppose deux conceptions de ce qu'est une nation.
+
+Le nationalisme romantique, formulé dans l'espace allemand par Herder puis Fichte, fonde la nation sur la langue, la culture et une origine commune. Une nation existe avant l'État et lui préexiste ; l'État doit se conformer à elle. Cette conception justifie l'unification de peuples parlant la même langue et la revendication de territoires où vivent des « frères de sang ».
+
+La conception française, telle que la formule Ernest Renan en 1882 dans sa conférence *Qu'est-ce qu'une nation ?*, la fonde sur une adhésion politique volontaire : la nation est « un plébiscite de tous les jours », un désir de vivre ensemble et un héritage de souvenirs partagés, non une donnée ethnique ou linguistique.
+
+Ce débat n'est pas académique : Renan répond directement à l'annexion de l'Alsace-Lorraine, justifiée par l'Allemagne au motif que ses habitants parlaient un dialecte germanique. Renan objecte que ce qui compte est leur volonté, et qu'elle est française.
+
+Ces deux conceptions structurent encore les débats contemporains sur la nationalité et l'appartenance.`],
+    ["Faire l'Italie et l'Allemagne", `L'unité italienne est proclamée en 1861, au terme d'un processus mené par le royaume de Piémont-Sardaigne. Cavour en est le stratège diplomatique, obtenant l'alliance française contre l'Autriche au prix de la cession de la Savoie et de Nice.
+
+Giuseppe Garibaldi en est la figure militaire et populaire : parti de Gênes avec un millier de volontaires en chemise rouge, il conquiert la Sicile puis le royaume de Naples en quelques mois, et remet ses conquêtes au roi de Piémont plutôt que d'y fonder une république. Rome ne sera intégrée qu'en 1870.
+
+L'unification allemande est menée par Otto von Bismarck, chancelier de Prusse, en trois guerres calculées : contre le Danemark en 1864, l'Autriche en 1866 pour exclure celle-ci de l'Allemagne, et la France en 1870.
+
+L'Empire allemand est proclamé le 18 janvier 1871 dans la galerie des Glaces de Versailles, choix délibérément humiliant pour la France vaincue. Ce lieu sera repris symétriquement en 1919 pour la signature du traité de Versailles.
+
+Bismarck avait résumé sa méthode d'une formule restée célèbre : les grandes questions de l'époque ne se règlent pas par des discours et des votes de majorité, mais par le fer et par le sang.`],
+    ["1848 et les empires multinationaux", `Le printemps des peuples, en 1848, est une vague révolutionnaire qui traverse l'Europe en quelques semaines : Paris, Vienne, Berlin, Milan, Budapest, Prague. Ses revendications mêlent libéralisme constitutionnel, question sociale et aspirations nationales.
+
+Toutes ces révolutions échouent militairement dans l'année, et toutes laissent des traces durables — abolition du servage en Autriche, suffrage universel masculin en France, prise de conscience nationale en Italie, Allemagne et Hongrie.
+
+Les empires multinationaux sont les grands perdants du siècle. L'Empire d'Autriche doit composer avec les Hongrois et devient en 1867 une double monarchie austro-hongroise : deux gouvernements, deux parlements, un souverain commun. Le compromis satisfait les Hongrois et mécontente les Tchèques, les Slovaques, les Croates, les Roumains et les Polonais de l'empire.
+
+Dans les Balkans, le recul de l'Empire ottoman ouvre la question de l'émancipation des peuples : Grèce, Serbie, Roumanie, Bulgarie accèdent successivement à l'indépendance, avec des frontières disputées et des minorités partout. La région devient la « poudrière de l'Europe ».`],
+    ["Ce que le nationalisme a produit", `Le nationalisme du XIXe siècle a deux visages, et il faut les tenir ensemble pour comprendre le siècle suivant.
+
+Il est d'abord émancipateur : il fournit aux peuples dominés par les empires un langage pour revendiquer leur autodétermination, et il accompagne partout des mouvements libéraux et démocratiques. Les révolutionnaires de 1848 étaient nationalistes et libéraux sans y voir de contradiction.
+
+Il devient ensuite exclusif et agressif à la fin du siècle : la nation se définit contre d'autres, les minorités deviennent suspectes, et la compétition entre puissances se pare de justifications raciales et darwiniennes.
+
+C'est cette seconde forme qui contribue au déclenchement de la Première Guerre mondiale. L'attentat de Sarajevo en 1914 est un acte nationaliste serbe ; l'enchaînement des alliances fait le reste ; et l'enthousiasme des foules à la mobilisation, dans tous les pays belligérants, montre à quel point l'identification nationale s'était imposée en une génération.
+
+Le paradoxe le plus cruel est que la guerre menée au nom des nations détruira les empires multinationaux, et que les États successeurs, tracés au nom du principe des nationalités, comporteront tous des minorités qui deviendront à leur tour l'enjeu du conflit suivant.`],
+  ],
+
+  "hm2-colonisation": [
+    ["Partager un continent", `L'essentiel des empires coloniaux européens s'est constitué et dissous en moins d'un siècle, ce qui rend cette histoire exceptionnellement dense.
+
+La conférence de Berlin, en 1884-1885, fixe les règles du partage de l'Afrique entre puissances européennes. Aucun Africain n'y participe. Elle ne trace pas les frontières mais pose les principes : pour revendiquer un territoire, il faut l'occuper effectivement et le notifier aux autres puissances — ce qui déclenche une course accélérée à l'occupation.
+
+Les tracés qui en résultent suivent des méridiens, des parallèles et des cours d'eau plutôt que des réalités humaines. Environ la moitié des frontières africaines actuelles sont des lignes droites, et elles séparent des peuples ou en réunissent d'antagonistes. C'est l'héritage le plus durable et le plus lourd du partage colonial.
+
+Léopold II, roi des Belges, obtient à titre personnel l'État indépendant du Congo — non pas une colonie belge mais sa propriété privée. Le système d'extraction du caoutchouc par quotas, appliqué par la terreur, y provoque une catastrophe démographique dont les estimations varient de plusieurs millions de morts. Les révélations d'un rapport britannique et la campagne internationale qui suit obligent la Belgique à reprendre le territoire en 1908.`],
+    ["Résister", `La colonisation n'a jamais été acceptée passivement, et les résistances furent constantes — militaires d'abord, politiques ensuite.
+
+L'Éthiopie est le seul État africain à avoir victorieusement résisté à une conquête européenne. À Adoua, en 1896, l'armée de Ménélik II écrase les forces italiennes. La défaite est retentissante : c'est la première fois qu'une puissance européenne est battue par une armée africaine dans une bataille rangée, et l'événement aura un écho considérable dans tout le monde colonisé et parmi les diasporas.
+
+En Inde, la révolte des cipayes en 1857 — soldats indiens de la Compagnie britannique — devient une insurrection générale, réprimée avec une extrême dureté. Elle conduit à la dissolution de la Compagnie et au passage de l'Inde sous administration directe de la Couronne.
+
+En Chine, les guerres de l'opium imposent par la force l'ouverture des ports au commerce britannique, dont l'opium indien que Pékin voulait interdire. La révolte des Boxers, autour de 1900, est un soulèvement antiétranger réprimé par une expédition internationale de huit puissances.
+
+Fachoda, en 1898, oppose la France et le Royaume-Uni au Soudan : deux expéditions se rencontrent, les gouvernements frôlent la guerre, et la France recule. L'incident marque la fin des ambitions françaises est-ouest en Afrique et prépare paradoxalement l'Entente cordiale.`],
+    ["Justifier et administrer", `La colonisation invoquait une prétendue mission civilisatrice : apporter aux peuples colonisés le progrès, la médecine, l'éducation et le christianisme. Jules Ferry la défend explicitement devant la Chambre en 1885, affirmant que les races supérieures ont le devoir de civiliser les races inférieures — formulation à laquelle Clemenceau oppose que la conquête n'est que la loi du plus fort déguisée.
+
+Cette justification s'appuyait sur les théories raciales alors dominantes dans les milieux savants, et elle coexistait avec des motifs économiques et stratégiques bien plus déterminants.
+
+Après 1919, la Société des Nations institue le mandat colonial : l'administration de territoires détachés des empires vaincus est confiée à des puissances, avec obligation de rendre compte et de préparer l'autonomie. C'est formellement un progrès et pratiquement une redistribution des dépouilles — les mandats du Proche-Orient français et britannique en dessinent les frontières actuelles.
+
+Le bilan sanitaire, éducatif et infrastructurel de la colonisation est régulièrement invoqué dans les débats. Les travaux les mieux établis soulignent que ces apports furent réels, tardifs, très inégalement répartis, et orientés vers les besoins de l'économie coloniale — les voies ferrées reliant les zones de production aux ports plutôt que les régions entre elles.`],
+    ["Le démantèlement", `La décolonisation s'effectue pour l'essentiel en trente ans, entre 1945 et 1975.
+
+L'Inde ouvre le mouvement en 1947, après une lutte largement non violente dirigée par Gandhi — désobéissance civile, boycott, marche du sel. L'indépendance s'accompagne de la partition entre Inde et Pakistan, avec des déplacements de population de plus de dix millions de personnes et des massacres réciproques. L'Indonésie proclame la sienne en 1945, arrachée aux Pays-Bas après quatre ans de conflit.
+
+La conférence de Bandung, en 1955, réunit vingt-neuf pays d'Asie et d'Afrique. Elle affirme l'émancipation des peuples colonisés, condamne le colonialisme, et pose les bases de ce qui deviendra le non-alignement — un tiers-monde refusant de choisir entre les deux blocs.
+
+1960 est appelée l'année de l'Afrique : dix-sept pays y accèdent à l'indépendance, dont la plupart des colonies françaises. Le Ghana avait ouvert la voie en Afrique subsaharienne dès 1957.
+
+D'autres décolonisations passent par la guerre : Indochine jusqu'en 1954, Algérie de 1954 à 1962, colonies portugaises jusqu'en 1975. En Afrique du Sud, l'apartheid — régime de ségrégation légale institué en 1948 — ne prendra fin qu'en 1991, et Nelson Mandela deviendra en 1994 le premier président noir du pays après vingt-sept ans de prison.
+
+Les États nouvellement indépendants héritent d'économies dépendantes, tournées vers l'exportation de matières premières, et d'institutions fragiles dans des frontières héritées. La théorie de la dépendance, formulée dans les années 1960, soutient que le sous-développement n'est pas un retard mais le produit de la place occupée dans l'économie mondiale — analyse discutée, et qui a durablement marqué le débat sur le développement.`],
+  ],
+
+  "hm2-amerique-latine": [
+    ["Avant et après la conquête", `Les grandes civilisations précolombiennes se distinguent par des solutions techniques originales, souvent développées sans les outils que l'Ancien Monde tenait pour indispensables.
+
+Les Mayas ont développé la seule écriture complète d'Amérique, capable de noter n'importe quel énoncé. Tenochtitlan, capitale aztèque, comptait plus d'habitants que Paris ou Londres à la même époque. Les Incas administraient quatre mille kilomètres d'empire sans écriture, avec des quipus — jeux de cordelettes nouées enregistrant recensements, stocks et tributs — et un réseau routier parcouru par des relais de coureurs.
+
+Machu Picchu, site inca d'altitude abandonné après la conquête, est redécouvert en 1911 par Hiram Bingham, qui cherchait tout autre chose et croyait avoir trouvé la dernière capitale de la résistance inca.
+
+Les indépendances latino-américaines sont presque toutes acquises entre 1810 et 1825, à la faveur de l'effondrement de la métropole espagnole occupée par Napoléon. Simón Bolívar, surnommé le Libertador, en est la figure centrale au nord du continent.
+
+Le Brésil fait exception : la cour portugaise s'y était réfugiée en 1808, et son indépendance en 1822 donne naissance à un empire dirigé par le prince héritier portugais lui-même — seule monarchie durable du continent, et dernier pays d'Amérique à abolir l'esclavage, en 1888.`],
+    ["Un siècle de dominations", `Le XXe siècle latino-américain est marqué par la tutelle des États-Unis et par une alternance de régimes autoritaires et de mouvements révolutionnaires.
+
+Le canal de Panama en est l'emblème : les États-Unis soutiennent la sécession du Panama de la Colombie en 1903 pour obtenir la concession, construisent le canal, et en gardent le contrôle jusqu'en 1999.
+
+La révolution mexicaine éclate en 1910 contre une dictature de trente ans. Elle dure une décennie, fait des centaines de milliers de morts, et produit une constitution avancée — réforme agraire, droits sociaux, nationalisation du sous-sol — appliquée inégalement par un parti qui gouvernera ensuite pendant soixante et onze ans.
+
+Cuba bascule en 1959 : la révolution menée par Fidel Castro renverse Batista et instaure un régime qui se rapproche de l'URSS après l'embargo américain. La crise des missiles de 1962 y amènera le monde au bord de la guerre nucléaire.
+
+Le Chili offre le cas le plus documenté de renversement : Salvador Allende, élu démocratiquement en 1970, est renversé en 1973 par un coup d'État militaire soutenu par les États-Unis, ouvrant dix-sept ans de dictature.`],
+    ["Les dictatures et leurs victimes", `Les années 1970 voient une série de dictatures militaires s'installer dans le cône sud : Brésil, Chili, Argentine, Uruguay, Paraguay, Bolivie.
+
+L'opération Condor coordonne ces régimes contre leurs opposants : échange de renseignements, arrestations transfrontalières, transferts clandestins de prisonniers, assassinats à l'étranger. Le dispositif, révélé par des archives découvertes au Paraguay en 1992, a permis d'établir juridiquement ce qui n'était qu'un soupçon.
+
+La dictature argentine, de 1976 à 1983, se désignait elle-même comme « Processus de réorganisation nationale ». Elle a fait disparaître des dizaines de milliers de personnes, souvent jetées vivantes à la mer lors de « vols de la mort », et a organisé l'enlèvement des nourrissons de détenues, adoptés par des familles proches du régime.
+
+Les Mères de la place de Mai commencent en 1977 à tourner chaque jeudi devant le palais présidentiel, foulard blanc sur la tête, réclamant des nouvelles de leurs enfants. Leur persévérance a rendu visible ce que le régime niait, et les Grands-Mères ont depuis retrouvé plus de cent trente petits-enfants grâce à des tests génétiques.
+
+La guerre des Malouines, en 1982, est une tentative de la junte argentine de restaurer sa popularité par une opération extérieure contre le Royaume-Uni. Sa défaite précipite la chute du régime.`],
+    ["Sortir des conflits", `D'autres pays connaissent des guerres civiles prolongées. Les sandinistes prennent le pouvoir au Nicaragua en 1979 et affrontent ensuite une guérilla financée par les États-Unis. Le Sentier lumineux, mouvement maoïste, ensanglante le Pérou dans les années 1980 avec une violence extrême des deux côtés.
+
+La Colombie a connu la plus longue guerre civile du continent, plus d'un demi-siècle, mêlant guérillas, paramilitaires, armée et trafic de drogue. L'accord de paix de 2016 avec les FARC, salué par un prix Nobel, a été rejeté de justesse par référendum avant d'être révisé et appliqué.
+
+La démocratisation s'est généralisée dans les années 1980 et 1990, accompagnée de politiques d'ajustement structurel dont les effets sociaux ont été lourds.
+
+La vague rose des années 2000 désigne l'arrivée au pouvoir de gouvernements de gauche dans une majorité de pays du continent — Brésil, Argentine, Venezuela, Bolivie, Équateur, Chili, Uruguay. Portée par la hausse des cours des matières premières, elle a réduit la pauvreté de façon mesurable, avant de refluer avec le retournement des cours et des crises politiques.
+
+Le Mercosur, marché commun créé en 1991, et l'UNASUR, organisation régionale créée en 2008, illustrent les tentatives d'intégration continentale — dont l'histoire, faite d'élans et de blocages, rappelle le rêve inabouti de Bolívar.`],
+  ],
+
+  "hm3-entre-deux-guerres": [
+    ["Une paix fragile", `Vingt et un ans séparent les deux guerres mondiales. Cette brièveté a conduit plusieurs historiens à parler d'une guerre de trente ans du XXe siècle, avec une longue trêve au milieu.
+
+La Société des Nations est créée en 1919 pour préserver la paix par la sécurité collective : toute agression contre un membre devait entraîner une réaction de tous. L'idée vient du président américain Wilson.
+
+Ses faiblesses sont structurelles. Les États-Unis n'y adhèrent jamais, le Sénat ayant refusé de ratifier ; l'Allemagne et l'URSS n'y entrent que tardivement ; les décisions exigent l'unanimité ; et l'organisation ne dispose d'aucune force armée.
+
+Elle règle plusieurs différends mineurs et échoue sur tous les cas majeurs : invasion de la Mandchourie par le Japon en 1931, de l'Éthiopie par l'Italie en 1935, remilitarisation de la Rhénanie en 1936. Chaque échec discrédite un peu plus le système et encourage l'agresseur suivant.
+
+L'hyperinflation frappe l'Allemagne en 1923 : la monnaie perd toute valeur, au point qu'un timbre coûte des milliards de marks et qu'on transporte les billets en brouette. Elle ruine les classes moyennes et laisse une trace durable dans la mémoire économique allemande — la crainte de l'inflation y reste, un siècle plus tard, un déterminant de la politique monétaire.`],
+    ["La crise", `Le krach de Wall Street, en octobre 1929, déclenche la crise économique mondiale. La spéculation boursière alimentée par le crédit s'effondre, les banques font faillite, le crédit se contracte, la demande s'effondre, et le chômage explose.
+
+La propagation est mondiale : les États-Unis rapatrient les capitaux prêtés à l'Europe, chaque pays réagit par le protectionnisme, et le commerce international est divisé par trois en quatre ans. C'est le premier exemple d'une crise financière devenue crise mondiale par les canaux de l'interdépendance.
+
+Ses effets politiques sont considérables. Le chômage de masse — un quart de la population active en Allemagne et aux États-Unis — discrédite les régimes en place et les solutions libérales, et il alimente partout les extrêmes.
+
+Les réponses divergent : New Deal aux États-Unis, autarcie et réarmement en Allemagne, dévaluations en chaîne, repli sur les empires coloniaux. Aucune coordination internationale n'aboutit, la conférence de Londres de 1933 échouant complètement.`],
+    ["Les totalitarismes", `Mussolini prend le pouvoir en Italie en 1922, après une marche sur Rome largement mise en scène et une nomination parfaitement légale par le roi. Le fascisme invente le modèle : parti unique, milices, culte du chef, corporatisme, encadrement de la jeunesse, nationalisme expansionniste.
+
+Hitler devient chancelier d'Allemagne en janvier 1933, également par une nomination légale, à la tête d'un parti arrivé en tête aux élections. En quelques mois, l'incendie du Reichstag sert de prétexte à la suspension des libertés, les pleins pouvoirs sont votés, les partis et les syndicats sont dissous.
+
+Ce point mérite d'être souligné : les deux régimes accèdent au pouvoir par des voies constitutionnelles avant de détruire la constitution.
+
+La persécution des Juifs est systématique dès 1933 : exclusion de la fonction publique, lois de Nuremberg de 1935 les privant de la citoyenneté, puis la Nuit de Cristal en novembre 1938 — pogrom organisé à l'échelle du pays, synagogues incendiées, magasins détruits, dizaines de milliers d'arrestations, et amende collective imposée aux victimes.
+
+En URSS, le stalinisme conduit dans le même temps la collectivisation forcée, les famines et la Grande Terreur.`],
+    ["L'engrenage", `La politique d'apaisement est la stratégie des démocraties occidentales : céder aux exigences des dictatures pour éviter la guerre, dans l'espoir que chaque concession serait la dernière.
+
+Elle culmine à la conférence de Munich, en septembre 1938, où la France et le Royaume-Uni livrent à l'Allemagne les Sudètes tchécoslovaques, sans que la Tchécoslovaquie soit consultée. Chamberlain rentre en annonçant « la paix pour notre temps » ; Hitler occupe le reste du pays six mois plus tard.
+
+Les motifs de l'apaisement se comprennent : mémoire de la saignée de 1914-1918, opinions publiques pacifistes, retard du réarmement, illusion que les revendications allemandes étaient limitées et en partie fondées au regard du traité de Versailles.
+
+La guerre civile espagnole, de 1936 à 1939, en est le laboratoire : l'Allemagne et l'Italie soutiennent militairement Franco, l'URSS soutient la République, et les démocraties s'en tiennent à une non-intervention qui favorise objectivement les insurgés. Guernica, bombardée par la légion Condor allemande en 1937, annonce les bombardements de civils de la guerre suivante.
+
+Le pacte germano-soviétique du 23 août 1939 stupéfie le monde : deux régimes ennemis irréductibles signent une non-agression, assortie d'un protocole secret partageant la Pologne et l'Europe orientale. Une semaine plus tard, la Wehrmacht entre en Pologne.`],
+  ],
+
+  "hm3-russie-urss": [
+    ["Deux révolutions en un an", `L'année 1917 comporte deux révolutions russes. Celle de février renverse le tsar et installe un gouvernement provisoire ; celle d'octobre porte les bolcheviks au pouvoir.
+
+Le décalage des calendriers explique une confusion fréquente : la Russie utilisait alors le calendrier julien, en retard de treize jours. La révolution d'Octobre a donc eu lieu en novembre 1917 du calendrier grégorien, celui que l'URSS adoptera quelques mois plus tard.
+
+Les bolcheviks prennent le pouvoir par un coup de force organisé, dans une capitale où le gouvernement provisoire n'avait plus ni autorité ni soutien. Leurs mots d'ordre — la paix, la terre, le pain — répondaient exactement aux attentes d'un pays épuisé par trois ans de guerre.
+
+Suit une guerre civile de quatre ans, avec interventions étrangères, terreur des deux camps, famine et effondrement économique. La nouvelle politique économique de 1921 marque un repli tactique : après le communisme de guerre et les réquisitions, elle rétablit partiellement le marché, autorise le petit commerce et rend l'initiative aux paysans. L'économie se redresse, et Staline y mettra fin en 1928.`],
+    ["Le stalinisme", `La collectivisation des campagnes, à partir de 1929, regroupe de force les terres en fermes collectives. Les paysans résistent, abattent leur bétail, et les plus aisés — les koulaks — sont déportés par millions comme classe à éliminer.
+
+La conséquence est une famine catastrophique en 1932-1933, en Ukraine, au Kazakhstan et dans le sud de la Russie, aggravée par des réquisitions maintenues malgré la disette. Les estimations font état de plusieurs millions de morts. L'Ukraine la désigne sous le nom de Holodomor et la qualifie de génocide, qualification reconnue par de nombreux États et discutée par une partie des historiens.
+
+Le Goulag est le système de camps de travail forcé, administré comme une branche économique à part entière : exploitation forestière, mines, canaux, chemins de fer dans les régions les plus inhospitalières. Des millions de personnes y sont passées, et Soljenitsyne en a fait connaître l'ampleur en Occident.
+
+La Grande Terreur de 1937-1938 est une vague de purges frappant le parti, l'armée, les administrations et la population : plus de sept cent mille exécutions en deux ans, sur quotas fixés par région. Elle décapite notamment l'état-major soviétique, ce qui pèsera lourd en 1941.`],
+    ["Déstaliniser sans démocratiser", `La déstalinisation commence en 1956 : Khrouchtchev dénonce les crimes de Staline dans un rapport présenté à huis clos au XXe congrès du Parti. Le texte, qui décrit les purges et le culte de la personnalité, fuite rapidement et provoque un séisme dans les partis communistes du monde entier.
+
+Elle produit une libéralisation réelle et limitée : libération de millions de détenus, assouplissement de la censure, réhabilitations. Elle ne touche pas au monopole du Parti, et la répression de l'insurrection hongroise la même année en marque la limite.
+
+La période suivante, sous Brejnev, est celle de la stagnation : stabilité politique, immobilisme économique, écart croissant avec l'Occident, et une dissidence qui s'organise autour de la défense des droits inscrits dans la Constitution soviétique elle-même.
+
+La catastrophe de Tchernobyl, en avril 1986, joue un rôle politique majeur. L'explosion du réacteur et le nuage radioactif sont d'abord dissimulés, y compris aux populations voisines, et l'information ne vient que des mesures effectuées en Suède. Le mensonge devient impossible à tenir, et Gorbatchev y verra lui-même l'un des déclencheurs de sa politique de transparence.`],
+    ["La fin et l'après", `La glasnost signifie la transparence : ouverture de l'information, liberté de la presse, révélation du passé, débat public. Elle accompagne la perestroïka, restructuration économique.
+
+Gorbatchev pensait sauver le système en le réformant. L'effet fut inverse : la liberté d'information a révélé l'ampleur des crimes et de l'échec économique, et les nationalités ont saisi l'occasion pour revendiquer leur indépendance. Un régime qui reposait sur le contrôle de l'information ne pouvait pas survivre à sa libération.
+
+L'URSS est dissoute en décembre 1991 et se sépare en quinze États indépendants, sans guerre à cette date — situation remarquable pour la disparition d'un empire de cette taille, et dont les conflits ultérieurs du Caucase et d'Ukraine montreront qu'elle n'était pas achevée.
+
+La Russie des années 1990 connaît une transition économique brutale : libéralisation des prix, privatisation massive par distribution de coupons rapidement rachetés à bas prix, effondrement de la production, hyperinflation, non-paiement des salaires et des retraites. L'espérance de vie masculine chute de plusieurs années, phénomène sans précédent en temps de paix.
+
+Cette décennie, vécue comme une humiliation nationale et un désastre social, explique une grande part de l'adhésion ultérieure à un pouvoir promettant l'ordre et la restauration du rang du pays.`],
+  ],
 };
