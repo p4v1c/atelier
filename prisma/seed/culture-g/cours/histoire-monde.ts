@@ -418,4 +418,184 @@ Ces découvertes passent aux mathématiciens arabes, qui les transmettent à l'E
 
 Le bouddhisme, né en Inde au VIe siècle avant notre ère, s'y diffuse puis décline, tout en se répandant hors du sous-continent par les routes commerciales — vers l'Asie centrale, la Chine, la Corée et le Japon. Il finira par pratiquement disparaître de son pays d'origine tout en devenant l'une des grandes religions d'Asie.`],
   ],
+
+  "hm2-islam-conquetes": [
+    ["Un siècle, un empire", `L'expansion arabe du VIIe siècle est l'une des plus rapides de l'histoire militaire. En un siècle, un ensemble politique s'étend de l'Atlantique à l'Indus — plus vaste que l'Empire romain à son apogée, et constitué en trois fois moins de temps.
+
+Deux batailles de 636 en fixent le cadre. Le Yarmouk, en Syrie, brise l'armée byzantine et ouvre le Levant. Qadisiyya, en Mésopotamie, marque l'effondrement de l'Empire perse sassanide, qui disparaîtra entièrement quinze ans plus tard.
+
+La rapidité de ces conquêtes s'explique moins par une supériorité militaire que par l'état des adversaires : Byzance et la Perse sortaient d'une guerre de vingt-six ans qui les avait épuisés, et les populations de Syrie et d'Égypte, souvent en conflit religieux avec Constantinople, n'avaient guère de raison de défendre leur souverain.
+
+Les armées franchissent le détroit de Gibraltar en 711 et soumettent la péninsule Ibérique en quelques années. À l'est, elles atteignent l'Indus et l'Asie centrale.`],
+    ["Deux limites", `Deux batailles fixent approximativement les limites de cette expansion, et leur importance relative a été inversée par les historiographies nationales.
+
+Poitiers, en 732, voit Charles Martel arrêter une incursion arabe en Gaule. Il s'agissait d'une razzia et non d'une entreprise de conquête, et les opérations en Gaule méridionale se poursuivront des décennies. L'historiographie européenne du XIXe siècle en a fait le salut de la chrétienté, lecture que les travaux récents ont considérablement nuancée.
+
+Talas, en 751, oppose en Asie centrale les armées abbassides à celles de la Chine des Tang. La victoire arabe fixe durablement la frontière entre les deux mondes et détermine l'orientation islamique de l'Asie centrale.
+
+Une conséquence en est restée célèbre : des artisans chinois faits prisonniers auraient transmis le secret de la fabrication du papier, qui se diffuse ensuite à Bagdad, puis dans tout le monde musulman, et atteint l'Europe cinq siècles plus tard par l'Espagne.`],
+    ["Se diviser et rayonner", `Les Omeyyades établissent leur capitale à Damas au VIIe siècle, puis sont renversés par les Abbassides en 750, qui fondent Bagdad. Un rescapé omeyyade s'établit en Espagne et y fonde une dynastie, laquelle prend le titre califal à Cordoue au Xe siècle.
+
+L'unité politique du monde musulman ne dure donc guère plus d'un siècle. Sa cohésion devient culturelle, religieuse et commerciale plutôt que politique.
+
+Cette période est celle d'un rayonnement scientifique considérable. Bagdad abrite une maison de la sagesse où l'on traduit systématiquement le grec, le persan et le sanskrit ; c'est par ces traductions que l'Occident latin retrouvera Aristote, Galien et Ptolémée.
+
+Avicenne, médecin et philosophe persan du XIe siècle, rédige un *Canon de la médecine* qui restera un manuel de référence dans les universités européennes jusqu'au XVIIe siècle. Averroès, juriste et philosophe andalou du XIIe siècle, commente Aristote avec une rigueur qui fera de lui, en Occident, « le Commentateur » par excellence — ses traductions latines nourriront les débats scolastiques et thomistes.
+
+L'algèbre, les chiffres dits arabes, l'optique d'Alhazen, l'astronomie et la chimie relèvent du même mouvement.`],
+    ["La fin d'un cycle", `Le califat abbasside de Bagdad prend fin en 1258 : les Mongols de Hülegü prennent la ville, exécutent le calife et détruisent les bibliothèques. Le choc est immense dans le monde musulman, et il marque la fin d'une centralité de cinq siècles.
+
+Le pouvoir passe ensuite à d'autres ensembles : Mamelouks en Égypte, sultanats turcs, puis Ottomans, Safavides et Moghols — trois empires qui domineront le monde musulman à l'époque moderne.
+
+En Espagne, la Reconquista chrétienne progresse par étapes du XIe au XVe siècle, jusqu'à la prise de Grenade en 1492.
+
+Ce qu'il faut retenir de ces huit siècles dépasse la chronologie militaire : le monde musulman a constitué, du VIIIe au XIIIe siècle, l'espace le plus dynamique de l'hémisphère occidental — par le commerce reliant la Chine à l'Atlantique, par la circulation des savoirs entre les traditions grecque, persane et indienne, et par une urbanisation sans équivalent en Europe à la même époque.
+
+L'histoire des sciences a longtemps présenté cette période comme une simple transmission ; elle est aujourd'hui reconnue comme une période de production originale, notamment en mathématiques, en astronomie et en optique.`,
+      { image: "hm-mosquee-cordoue", legende: "La mosquée de Cordoue : capitale d'un califat rival de Bagdad, et l'une des villes les plus peuplées du monde au Xe siècle.", alt: "Arcs de la Grande Mosquée de Cordoue" }],
+  ],
+
+  "hm2-croisades": [
+    ["L'appel de 1095", `Le pape Urbain II appelle à la première croisade en 1095, au concile de Clermont. Son discours, dont plusieurs versions divergentes ont été conservées, invoque le secours aux chrétiens d'Orient, la libération de Jérusalem et la rémission des péchés pour ceux qui partiront.
+
+Les motifs se superposent. Religieux d'abord : le pèlerinage armé comme voie de salut. Politiques ensuite : l'empereur byzantin avait demandé des renforts contre les Turcs seldjoukides, et la papauté y voyait l'occasion d'affirmer son autorité et de réunifier la chrétienté. Sociaux enfin : détourner vers l'extérieur la violence d'une chevalerie sans terre, cadets de famille exclus de l'héritage.
+
+La première croisade dure environ trois ans, du départ à la prise de Jérusalem en 1099. Elle réussit contre toute attente, favorisée par la division des pouvoirs musulmans, et s'achève par un massacre des habitants de la ville que les chroniqueurs des deux camps décrivent.
+
+Quatre États latins sont fondés en Orient : le royaume de Jérusalem, la principauté d'Antioche, les comtés d'Édesse et de Tripoli.`],
+    ["Deux siècles d'expéditions", `Ces États se maintiennent tant que leurs adversaires restent divisés. L'unification du monde musulman par Nur ad-Din puis Saladin change la donne.
+
+Saladin, sultan d'origine kurde, reprend Jérusalem en 1187 après la victoire de Hattin. Son traitement des vaincus — rançons négociées, pas de massacre — a construit en Occident même une réputation de chevalerie qui a traversé les siècles, jusqu'à Dante qui le place aux Limbes plutôt qu'en enfer.
+
+Les croisades suivantes échouent à reprendre durablement la ville. Louis IX meurt lors de la huitième croisade en 1270, devant Tunis, de maladie.
+
+Saint-Jean-d'Acre tombe en 1291, ce qui met fin aux États latins d'Orient. Deux siècles d'expéditions n'auront laissé aucune possession durable.
+
+Trois ordres militaires naissent de ces conflits, associant vœux monastiques et fonction combattante : les Templiers, les Hospitaliers et les Teutoniques. Ils développent des réseaux, des forteresses et, pour les Templiers, une activité financière — dépôts, transferts, prêts — qui préfigure la banque et qui causera leur perte.`],
+    ["Un mot qui s'étend", `Les croisades ne visaient pas seulement l'Orient : la notion s'est étendue à d'autres théâtres, avec les mêmes indulgences et le même vocabulaire.
+
+La Reconquista désigne la reconquête chrétienne progressive de la péninsule Ibérique, étalée sur près de huit siècles. Le terme lui-même est une construction tardive : les royaumes chrétiens y ont mené des guerres, des alliances et des trêves avec les pouvoirs musulmans, et le récit d'une entreprise continue et unifiée date du XIXe siècle.
+
+Les croisades baltes, aux XIIe et XIIIe siècles, sont menées contre les peuples païens de la Baltique — Prussiens, Lives, Estoniens, Lituaniens. Conduites principalement par l'ordre Teutonique, elles combinent conversion forcée, conquête et colonisation, et elles ont durablement façonné la carte de l'Europe du Nord-Est.
+
+La croisade contre les Albigeois, au XIIIe siècle, applique enfin le dispositif à des chrétiens jugés hérétiques, dans le sud de la France. Elle aboutit à l'anéantissement du catharisme et au rattachement du Languedoc à la couronne — croisade dont le bénéficiaire principal fut le roi de France.`],
+    ["Ce qu'elles ont produit", `Le bilan des croisades est difficile à établir, et il a été alourdi dans les deux sens par des lectures contemporaines.
+
+La conséquence économique la plus nette est l'essor du commerce méditerranéen des cités italiennes. Venise, Gênes et Pise ont transporté les croisés, ravitaillé les États latins, obtenu des comptoirs et des privilèges, et bâti sur cette activité des fortunes qui financeront la Renaissance. La quatrième croisade, détournée par Venise vers Constantinople, illustre jusqu'où allait cet intérêt.
+
+Les transferts culturels sont réels mais souvent surestimés : l'essentiel de la transmission scientifique du monde musulman vers l'Europe est passé par l'Espagne et la Sicile, non par la Terre sainte.
+
+L'effet le plus durable est peut-être mémoriel. Les croisades ont été très peu présentes dans la mémoire musulmane jusqu'au XIXe siècle, où le mot est réintroduit à partir des historiographies européennes. Elles sont depuis mobilisées de part et d'autre comme grille de lecture des relations entre Occident et monde musulman — usage qui doit davantage aux besoins du présent qu'aux événements du Moyen Âge.`],
+  ],
+
+  "hm2-mongols": [
+    ["Un empire en un siècle", `Gengis Khan unifie les tribus mongoles en 1206, à l'issue de deux décennies de guerres. Ses successeurs constituent en moins d'un siècle le plus vaste empire terrestre continu de l'histoire : de la mer de Chine à la Hongrie, du Pacifique aux portes de l'Égypte.
+
+Sa force militaire tient à la cavalerie d'archers, extraordinairement mobile. Chaque guerrier disposait de plusieurs montures de rechange, ce qui permettait des marches de plusieurs dizaines de kilomètres par jour pendant des semaines. L'arc composite, tiré à cheval au galop, avait une portée et une cadence supérieures à celles des armes européennes.
+
+À quoi s'ajoutent une discipline stricte, une organisation décimale des unités, un système de renseignement méthodique, et une tactique de retraite feinte destinée à rompre les formations adverses — dont les chroniqueurs occidentaux ont mis longtemps à comprendre qu'elle était délibérée.
+
+Gengis Khan promeut par ailleurs au mérite, sans considération d'origine tribale, et recrute massivement les compétences des vaincus : ingénieurs chinois pour les sièges, administrateurs persans, marchands ouïghours.`],
+    ["Diviser l'héritage", `À la mort de Gengis Khan, l'empire est partagé entre ses descendants en plusieurs khanats, théoriquement soumis à un grand khan.
+
+Kubilai Khan, son petit-fils, achève la conquête de la Chine et fonde la dynastie Yuan en 1271. C'est la première fois que la Chine entière est gouvernée par une dynastie étrangère. Marco Polo, s'il a bien fait le voyage — ce que quelques historiens contestent —, décrit sa cour dans un récit qui fascinera l'Europe pendant des siècles.
+
+La Horde d'Or domine la Russie pendant plus de deux siècles. Les principautés russes conservent leurs princes mais paient tribut, et cette période — le « joug tatar » — a durablement marqué l'historiographie russe. Moscou doit d'ailleurs son ascension à sa fonction de collecteur du tribut pour le compte des khans.
+
+Deux limites arrêtent l'expansion. À Aïn Djalout, en 1260, les Mamelouks d'Égypte infligent aux Mongols leur première défaite majeure et bloquent leur avance vers l'Afrique.
+
+En Europe centrale, l'armée mongole écrase les Hongrois et les Polonais en 1241, puis se retire brusquement en 1242 : le grand khan Ögödei est mort, et les chefs doivent rentrer pour l'élection de son successeur. L'Europe a été sauvée par une règle de succession.`],
+    ["La Pax Mongolica", `La Pax Mongolica désigne la sécurité des routes commerciales sous domination mongole, du milieu du XIIIe au milieu du XIVe siècle.
+
+Pour la première et unique fois, un seul ensemble politique contrôlait l'ensemble des routes terrestres entre la Chine et la Méditerranée. Les marchands, les diplomates et les missionnaires pouvaient traverser le continent avec une sécurité relative — un dicton contemporain affirmait qu'une jeune fille portant un plat d'or pouvait aller d'un bout à l'autre de l'empire sans être inquiétée.
+
+Les Mongols généralisent sur leurs routes un réseau de relais de poste, le yam : des stations espacées d'une journée de cheval, avec montures fraîches, vivres et logement, et un système de tablettes d'autorisation. Un messager pouvait parcourir plusieurs centaines de kilomètres par jour.
+
+L'empire n'imposait aucune religion aux peuples conquis : la tolérance religieuse était la règle, et les cultes exemptés d'impôt. La famille de Gengis Khan comptait des chamanistes, des bouddhistes, des chrétiens nestoriens et des musulmans, et les khanats se convertiront séparément selon les régions.
+
+Cette circulation a un revers : la peste noire, partie d'Asie centrale, emprunte les mêmes routes et atteint l'Europe en 1347.`],
+    ["L'héritage", `L'empire se fragmente au XIVe siècle, chaque khanat suivant sa propre trajectoire et s'assimilant aux populations dominées.
+
+Tamerlan, conquérant turco-mongol se réclamant de Gengis Khan, ravage l'Asie centrale, la Perse et l'Inde du Nord à la fin du XIVe siècle avec une violence dont les chroniques ont conservé le souvenir — pyramides de crânes, villes anéanties. Son empire ne lui survit pas, mais sa descendance fonde en Inde l'Empire moghol, dont le nom même vient de « mongol ».
+
+Le bilan des conquêtes mongoles est double et ne se laisse pas simplifier. Les destructions sont immenses : plusieurs villes majeures rasées, des systèmes d'irrigation détruits qui ne seront jamais reconstruits, une démographie effondrée dans plusieurs régions.
+
+Et l'empire a permis une circulation continentale sans précédent : techniques, marchandises, idées, personnes ont traversé l'Eurasie comme jamais auparavant. La poudre, la boussole, l'imprimerie et le papier-monnaie arrivent en Occident à cette période.
+
+C'est l'un des cas où l'historien ne peut pas conclure d'un seul mot, et où la réponse dépend entièrement de l'échelle et du lieu d'observation.`],
+  ],
+
+  "hm4-chine-imperiale": [
+    ["Unifier et durer", `L'empire chinois a duré plus de deux mille ans, de 221 avant notre ère à 1912, sous des dynasties successives. Aucune autre construction politique n'a connu une telle continuité.
+
+Qin Shi Huang unifie la Chine en 221 avant notre ère, après avoir soumis les royaumes rivaux. Son règne est bref et fondateur : il unifie l'écriture, les poids et mesures, l'écartement des essieux, la monnaie, et fait relier les fortifications du nord.
+
+Sa tombe est gardée par l'armée de terre cuite : plusieurs milliers de statues de soldats grandeur nature, chacune au visage individualisé, enterrées avec chevaux et chars. Découverte fortuitement en 1974 par des paysans creusant un puits, elle n'a été fouillée que partiellement, et le tombeau lui-même reste inviolé.
+
+Sa dynastie s'effondre quatre ans après sa mort, et les Han lui succèdent pour environ quatre siècles. C'est sous eux que se fixent les traits durables de l'empire — confucianisme d'État, bureaucratie, route de la soie — et les Chinois se désignent encore aujourd'hui comme Han.`],
+    ["Gouverner par l'examen", `Le système des examens impériaux recrute les fonctionnaires par concours, sur la connaissance des classiques confucéens. Esquissé sous les Han, systématisé sous les Tang et les Song, il fonctionnera jusqu'en 1905.
+
+Son principe est remarquable pour l'époque : l'accès aux charges dépend d'un savoir vérifié par épreuve anonyme, et non de la naissance. Les copies étaient recopiées par des scribes pour que l'écriture ne trahisse pas le candidat.
+
+Sa portée réelle doit être nuancée. Préparer ces examens exigeait des années d'études et des ressources que seules les familles aisées pouvaient fournir, et les taux de réussite étaient infimes. Le système a néanmoins permis une mobilité sociale réelle, et il a surtout créé une classe de lettrés partageant la même culture d'un bout à l'autre de l'empire — facteur de cohésion sans équivalent.
+
+L'Europe s'en est explicitement inspirée : les concours de la fonction publique britannique puis française du XIXe siècle citent le modèle chinois.`],
+    ["Les grandes dynasties", `Les Tang, aux VIIe et IXe siècles, marquent un apogée culturel : ouverture aux influences étrangères, cosmopolitisme de la capitale Chang'an — alors probablement la plus grande ville du monde —, âge d'or de la poésie avec Li Bai et Du Fu.
+
+Les Song voient un essor économique et technique considérable : imprimerie à caractères mobiles, monnaie de papier, boussole, poudre, sidérurgie au charbon, agriculture intensive du riz. Plusieurs historiens y voient une révolution industrielle avortée, l'ensemble des conditions techniques semblant réunies sans que la rupture se produise.
+
+Les Yuan sont la dynastie mongole fondée par Kubilai Khan, première domination étrangère sur la Chine entière.
+
+Les Ming la renversent en 1368 et rétablissent un pouvoir chinois. Ils font construire la Cité interdite à Pékin, achèvent la Grande Muraille dans sa forme actuelle, et envoient l'amiral Zheng He mener sept grandes expéditions maritimes, jusqu'à l'Afrique orientale, avec des flottes de plusieurs centaines de navires bien plus grands que ceux des Européens.
+
+Ces expéditions sont interrompues et les archives détruites — décision dont les causes sont débattues, entre coût, priorité donnée à la défense terrestre et hostilité des lettrés au commerce. La Chine se détourne de la mer une génération avant que les Portugais n'y arrivent.`,
+      { image: "hm-grande-muraille", legende: "La Grande Muraille dans sa forme actuelle est une construction Ming, bien postérieure aux premiers remparts des Qin.", alt: "La Grande Muraille de Chine" }],
+    ["La dernière dynastie", `Les Qing, d'origine mandchoue, prennent le pouvoir en 1644 et règnent jusqu'en 1912. Ils portent l'empire à son extension maximale — Mongolie, Tibet, Xinjiang, Taïwan — et sa population passe de cent cinquante à plus de quatre cents millions d'habitants.
+
+Étrangers, ils imposent des marques de soumission comme la natte obligatoire, tout en adoptant les institutions et la culture chinoises. Leur légitimité repose sur cette double appartenance.
+
+Le XIXe siècle voit l'effondrement. Les guerres de l'opium, à partir de 1839, imposent par la force l'ouverture des ports au commerce britannique — dont l'opium indien, dont la Chine voulait interdire l'importation. Les traités inégaux qui suivent concèdent des territoires, des tarifs douaniers imposés et l'extraterritorialité des étrangers.
+
+S'y ajoutent des révoltes intérieures d'une ampleur considérable — celle des Taiping fait des dizaines de millions de morts —, des défaites face au Japon, et des tentatives de réforme avortées.
+
+L'empire prend fin en 1912. Deux mille cent trente-trois ans après Qin Shi Huang, la Chine devient une république — et le pays entrera dans quatre décennies de guerres civiles et étrangères avant de retrouver une unité politique.`],
+  ],
+
+  "hm2-japon-histoire": [
+    ["Le pouvoir derrière le trône", `Le shogun est un chef militaire qui exerce le pouvoir réel au nom de l'empereur. Cette dualité est la caractéristique la plus durable de l'histoire politique japonaise : l'empereur règne sans gouverner, source de légitimité religieuse et symbolique, tandis qu'une dynastie militaire administre.
+
+Le premier shogunat s'établit à la fin du XIIe siècle, et le système durera près de sept cents ans, avec trois dynasties shogunales successives et des périodes de guerre civile.
+
+La société est organisée en ordres stricts sous les Tokugawa, à partir de 1603 : guerriers, paysans, artisans, marchands, avec une mobilité pratiquement nulle et un code de conduite pour les samouraïs.
+
+Le pays connaît alors deux siècles et demi de paix intérieure complète, situation rare, qui permet l'essor des villes, du commerce, de l'alphabétisation — l'un des taux les plus élevés du monde à l'époque — et d'une culture urbaine raffinée dont les estampes témoignent.`,
+      { image: "hm-estampe-hokusai", legende: "L'estampe de l'époque d'Edo : produit d'une culture urbaine née de deux siècles et demi de paix intérieure.", alt: "La Grande Vague de Kanagawa, estampe de Hokusai" }],
+    ["Se fermer, puis s'ouvrir de force", `Le sakoku est la politique de fermeture adoptée à partir des années 1630 : interdiction aux Japonais de quitter le pays sous peine de mort, expulsion des Européens, interdiction du christianisme, et commerce extérieur limité à un comptoir néerlandais sur l'îlot de Dejima, à Nagasaki, plus des échanges avec la Chine et la Corée.
+
+Le motif principal était politique : le christianisme, introduit par les missionnaires, était perçu comme un cheval de Troie de puissances étrangères et une menace pour la cohésion du régime.
+
+La fermeture ne fut jamais totale — les études hollandaises, le rangaku, permirent de suivre les progrès scientifiques occidentaux — mais elle isola le pays pendant plus de deux siècles.
+
+L'arrivée du commodore Perry en 1853, avec quatre navires de guerre américains dans la baie d'Edo, met fin à cette situation. Sa démonstration de force et son ultimatum obligent le shogunat à signer des traités d'ouverture, puis d'autres avec les puissances européennes, aux conditions inégales.
+
+Cette humiliation discrédite le shogunat, incapable de protéger le pays, et déclenche une crise politique de quinze ans.`],
+    ["La modernisation accélérée", `La restauration Meiji, en 1868, rétablit formellement le pouvoir de l'empereur et engage une transformation d'une rapidité sans équivalent.
+
+En une génération : abolition des ordres et des privilèges des samouraïs, conscription universelle, système scolaire obligatoire, code civil inspiré du droit français puis allemand, constitution, chemins de fer, industrie lourde, banque centrale, calendrier grégorien.
+
+Le Japon est passé d'une société féodale fermée à une puissance industrielle en une cinquantaine d'années. La méthode fut délibérée : des missions officielles parcoururent l'Europe et les États-Unis pour sélectionner ce qu'il fallait importer — armée sur le modèle prussien, marine sur le modèle britannique, éducation sur le modèle français puis américain.
+
+La victoire dans la guerre russo-japonaise de 1904-1905 en est la démonstration éclatante : pour la première fois, une puissance asiatique bat une puissance européenne. L'écho en fut immense dans tout le monde colonisé.
+
+Le Japon annexe la Corée en 1910, après l'avoir placée sous protectorat, et entame une politique impériale en Asie.`],
+    ["La guerre et l'après", `L'expansionnisme japonais s'accélère dans les années 1930 : Mandchourie en 1931, guerre totale contre la Chine à partir de 1937, avec des atrocités massives dont le massacre de Nankin.
+
+L'attaque de Pearl Harbor, en décembre 1941, fait entrer les États-Unis dans la guerre. Elle réussit tactiquement et échoue stratégiquement : les porte-avions américains étaient absents, et l'agression unifie une opinion américaine jusque-là divisée sur l'entrée en guerre.
+
+La bataille de Midway, en juin 1942, marque le tournant du Pacifique : la marine japonaise y perd quatre porte-avions et l'initiative, six mois seulement après Pearl Harbor.
+
+Les bombes atomiques sont larguées sur Hiroshima le 6 août 1945 et sur Nagasaki le 9 août. Le Japon capitule le 15 août. Le débat sur la nécessité de ces bombardements — face à une invasion terrestre annoncée comme très meurtrière, et face à l'entrée en guerre soviétique — n'est pas clos.
+
+La Constitution de 1947, rédigée sous occupation américaine, comporte un article 9 par lequel le Japon renonce à la guerre comme droit souverain de la nation et à l'entretien de forces armées. Le pays a interprété cette disposition de façon évolutive, se dotant de « forces d'autodéfense » dont le statut constitutionnel reste l'un des débats politiques les plus vifs du pays.`],
+  ],
 };
