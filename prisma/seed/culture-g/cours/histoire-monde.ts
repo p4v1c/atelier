@@ -362,7 +362,7 @@ Constantinople est fondée comme capitale en 330 par Constantin, sur le site de 
 L'Orient dispose en outre d'une base fiscale bien supérieure à l'Occident — Égypte, Syrie, Asie Mineure — ce qui lui permet d'entretenir armée et administration là où l'Occident s'effondrait.
 
 L'Empire parle grec, se pense romain, et professe un christianisme dont l'empereur est le protecteur.`],
-    ["Justinien", `Justinien, au VIe siècle, entreprend de reconquérir l'Occident perdu. Ses généraux reprennent l'Afrique du Nord aux Vandales, l'Italie aux Ostrogoths et une partie de l'Espagne.
+    ["Justinien", `Justinien, au VIe siècle, veut restaurer l'Empire dans ses limites d'autrefois. L'entreprise réussit militairement et échoue financièrement : les campagnes vident le trésor, la peste des années 540 emporte une part considérable de la population, et l'essentiel des territoires repris est perdu en une génération.
 
 L'entreprise épuise l'Empire pour un résultat éphémère : les conquêtes italiennes seront perdues en une génération, et l'effort financier et militaire affaiblit durablement les défenses orientales.
 
@@ -462,7 +462,7 @@ Les motifs se superposent. Religieux d'abord : le pèlerinage armé comme voie d
 
 La première croisade dure environ trois ans, du départ à la prise de Jérusalem en 1099. Elle réussit contre toute attente, favorisée par la division des pouvoirs musulmans, et s'achève par un massacre des habitants de la ville que les chroniqueurs des deux camps décrivent.
 
-Quatre États latins sont fondés en Orient : le royaume de Jérusalem, la principauté d'Antioche, les comtés d'Édesse et de Tripoli.`],
+De la conquête naissent des principautés franques installées durablement sur la côte, qui vivent moins de la guerre que du commerce et finissent par nouer avec leurs voisins musulmans des trêves, des traités et des échanges que la prédication de départ n'avait pas prévus.`],
     ["Deux siècles d'expéditions", `Ces États se maintiennent tant que leurs adversaires restent divisés. L'unification du monde musulman par Nur ad-Din puis Saladin change la donne.
 
 Saladin, sultan d'origine kurde, reprend Jérusalem en 1187 après la victoire de Hattin. Son traitement des vaincus — rançons négociées, pas de massacre — a construit en Occident même une réputation de chevalerie qui a traversé les siècles, jusqu'à Dante qui le place aux Limbes plutôt qu'en enfer.
@@ -1007,7 +1007,7 @@ Les violences font entre cinq cent mille et un million de morts, avec massacres 
 
 Le Pakistan naît en deux morceaux séparés par mille cinq cents kilomètres de territoire indien, configuration qui ne survivra pas : le Pakistan oriental fait sécession en 1971, après une répression sanglante et une intervention indienne, et devient le Bangladesh.
 
-Jawaharlal Nehru devient le premier Premier ministre de l'Inde indépendante. Gandhi, qui avait fait grève de la faim contre les violences et refusé de célébrer l'indépendance, est assassiné en janvier 1948 par un nationaliste hindou qui lui reprochait sa conciliation envers les musulmans.`],
+Jawaharlal Nehru devient le premier Premier ministre de l'Inde indépendante, Muhammad Ali Jinnah le gouverneur général du Pakistan. Aucun des deux n'a obtenu ce qu'il voulait vraiment : Nehru refusait la partition, Jinnah recevait un pays coupé en deux moitiés séparées par mille cinq cents kilomètres de territoire indien.`],
     ["Nourrir et développer", `La révolution verte transforme l'agriculture indienne dans les années 1960 : variétés à haut rendement, engrais, irrigation, mécanisation. L'Inde, qui dépendait de l'aide alimentaire américaine et connaissait des famines récurrentes, devient autosuffisante en céréales en une quinzaine d'années.
 
 Ses limites sont aujourd'hui documentées : concentration des gains sur les régions déjà favorisées et les exploitations les plus grandes, épuisement des nappes phréatiques du Pendjab, salinisation, dépendance aux intrants et endettement paysan.
@@ -1036,7 +1036,7 @@ L'Organisation de l'unité africaine, créée en 1963, a posé un principe déci
 L'Union africaine lui succède en 2002 avec une innovation majeure : le droit d'intervenir dans un État membre en cas de crimes de guerre, de génocide ou de crimes contre l'humanité. L'OUA s'interdisait au contraire toute ingérence, principe qui l'avait rendue impuissante face aux pires situations.
 
 La CEDEAO, créée en 1975 en Afrique de l'Ouest, combine intégration économique et, depuis les années 1990, interventions de maintien de la paix.`],
-    ["Les crises majeures", `Le génocide des Tutsi au Rwanda, en 1994, fait environ huit cent mille morts en cent jours. Il est planifié, préparé par une propagande radiophonique, et exécuté largement à l'arme blanche par une mobilisation massive de la population.
+    ["Les crises majeures", `Le génocide des Tutsi au Rwanda, en 1994, met à nu ce que les frontières héritées et les catégories administratives coloniales avaient figé : une distinction sociale ancienne, transformée en identité inscrite sur les papiers, sert de grille à une extermination planifiée et exécutée en cent jours par une mobilisation de masse.
 
 La communauté internationale ne l'a pas empêché alors qu'elle disposait d'informations précises : la force de l'ONU présente sur place est réduite au lieu d'être renforcée, et le mot « génocide » est évité pendant des semaines parce que son emploi aurait créé une obligation d'agir. Le rôle de la France, alliée du régime en place, fait l'objet de travaux et d'une reconnaissance officielle de responsabilités en 2021.
 
@@ -1243,7 +1243,7 @@ Elle fuit la ségrégation, les violences racistes et la misère du métayage, e
 
 L'immigration de travail en France après 1945 relève d'une autre logique : un recrutement organisé de main-d'œuvre étrangère pendant les Trente Glorieuses, pour les mines, le bâtiment et l'automobile, avec un Office national d'immigration chargé de la sélection.
 
-La suspension de l'immigration de travail décidée en 1974, après le choc pétrolier, produit un effet inverse à celui recherché : les travailleurs présents, craignant de ne plus pouvoir revenir, cessent les allers-retours et font venir leur famille. Une immigration de rotation devient une immigration d'installation.
+Les politiques de fermeture illustrent une régularité que les démographes observent partout : restreindre l'entrée ne réduit pas la présence, elle la fige. Tant qu'un va-et-vient reste possible, une partie des migrants repart ; dès qu'il devient risqué de repartir, chacun s'installe et fait venir les siens. Les fermetures décidées en Europe occidentale au milieu des années 1970 ont ainsi transformé des migrations de travail temporaires en immigrations de peuplement.
 
 C'est un enseignement récurrent des politiques migratoires : fermer une voie ne supprime pas le mouvement, elle en modifie la forme.`],
     ["Réfugiés", `Un réfugié, au sens de la convention de Genève de 1951, est une personne qui, craignant avec raison d'être persécutée du fait de sa race, de sa religion, de sa nationalité, de son appartenance à un groupe social ou de ses opinions politiques, se trouve hors de son pays et ne peut s'en réclamer.
@@ -1329,18 +1329,18 @@ Les banques centrales développent en réponse des monnaies numériques de banqu
   "hm2-inde-histoire": [
     ["Des villes avant l'écriture lisible", `La civilisation harappéenne se développe dans la vallée de l'Indus vers 2600 avant notre ère, contemporaine de l'Égypte des pyramides et de Sumer, et plus étendue que les deux réunies.
 
-Ses villes — Mohenjo-daro, Harappa — présentent un urbanisme planifié : plan en damier, briques standardisées, greniers, bains publics, et surtout un réseau d'évacuation des eaux usées avec canalisations couvertes que l'Europe ne connaîtra pas avant le XIXe siècle.
+Ses villes couvrent plusieurs dizaines d'hectares et abritent des dizaines de milliers d'habitants, mais on n'y a trouvé ni palais, ni temple monumental, ni tombe princière — rien qui signale un pouvoir personnel. Cette absence, unique parmi les grandes civilisations de l'âge du bronze, reste inexpliquée.
 
 Son écriture n'a jamais été déchiffrée, faute de texte bilingue et parce que les inscriptions connues sont très courtes. On ignore la langue parlée, l'organisation politique et les croyances de cette civilisation.
 
 Elle décline vers 1900 avant notre ère, probablement sous l'effet de changements hydrologiques. Lui succède la période védique, marquée par la composition des Veda en sanskrit, transmis oralement avec une exactitude remarquable pendant des siècles avant toute mise par écrit.`],
-    ["Empires et savoirs", `Ashoka, empereur maurya du IIIe siècle avant notre ère, se convertit au bouddhisme après la conquête sanglante du Kalinga, dont il exprime lui-même le remords dans ses inscriptions.
+    ["Empires et savoirs", `L'empire maurya, au IIIe siècle avant notre ère, est le premier à réunir presque tout le sous-continent sous une même autorité. Son administration nous est connue par un traité de gouvernement, l'Arthashastra, d'un réalisme politique que l'on a souvent comparé à Machiavel, et par les inscriptions gravées que son souverain le plus célèbre fit dresser aux carrefours de ses routes.
 
-Il fait graver ses édits sur des piliers et des rochers dans tout l'empire, prônant la non-violence, la tolérance entre religions et le respect des animaux. Ces textes sont les plus anciens documents indiens déchiffrables, et leur redécouverte au XIXe siècle a fait réapparaître un souverain que la tradition avait oublié. Le chapiteau aux lions d'un de ses piliers est aujourd'hui l'emblème de l'Inde.
+Converti au bouddhisme après une conquête dont il dit lui-même le remords, il fait proclamer dans tout son empire une politique de non-violence, de tolérance entre religions et de respect des animaux, et fonde hôpitaux et puits le long des routes. Son cas est rare dans l'histoire : un souverain qui renonce publiquement à la guerre après l'avoir gagnée.
 
 La dynastie des Gupta marque du IVe au VIe siècle un âge d'or classique : littérature, sculpture, temples, et surtout mathématiques.
 
-Aryabhata, au Ve siècle, calcule une valeur de pi exacte à quatre décimales, propose la rotation de la Terre sur elle-même et explique correctement les éclipses. C'est également à cette époque que se fixent la numération de position et le zéro comme nombre — inventions transmises au monde arabe puis à l'Europe, et sans lesquelles le calcul moderne serait impossible.`],
+L'Inde gupta lègue à l'humanité une invention dont l'usage est devenu si banal qu'on n'y voit plus une découverte : une écriture des nombres où la position d'un chiffre détermine sa valeur, et un signe pour l'absence de quantité. Transmise au monde arabe puis à l'Europe, elle a rendu possible le calcul écrit — essayer une multiplication en chiffres romains suffit à mesurer ce qu'elle a changé.`],
     ["Les Moghols", `L'Empire moghol domine l'Inde du XVIe au XVIIIe siècle. Fondé par Babur, descendant de Tamerlan et de Gengis Khan, il atteint son apogée sous Akbar, qui règne un demi-siècle et pratique une politique de conciliation religieuse remarquable pour son époque : suppression de l'impôt sur les non-musulmans, mariages hindous, débats interreligieux à sa cour.
 
 Shah Jahan fait construire le Taj Mahal, mausolée édifié à Agra pour son épouse Mumtaz Mahal, morte en couches. Vingt mille ouvriers, vingt ans de travaux, marbre blanc incrusté de pierres semi-précieuses, et une symétrie parfaite à l'exception d'un détail — le cénotaphe de l'empereur, ajouté après coup par son fils.

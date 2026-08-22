@@ -111,7 +111,7 @@ Reste une énigme quotidienne : pourquoi sept jours ? L'héritage est babylonien
   ],
 
   "mr-lieux-sacres": [
-    ["La Mecque et Jérusalem", `À La Mecque, la Kaaba est l'édifice cubique vers lequel les musulmans du monde entier orientent leur prière. Le pèlerinage annuel y rassemble aujourd'hui plus de deux millions de personnes en quelques jours, ce qui en fait l'un des plus grands rassemblements humains réguliers.
+    ["La Mecque et Jérusalem", `À La Mecque, la Kaaba est l'édifice cubique vers lequel les musulmans du monde entier orientent leur prière — cette orientation, la qibla, s'est fixée après avoir d'abord visé Jérusalem. L'édifice lui-même n'est pas un lieu de culte que l'on pénètre : il est le point de convergence d'un espace, et les fidèles en font le tour sans y entrer.
 
 Jérusalem est un lieu saint pour les trois monothéismes, ce qui explique la complexité de son statut. Le mur occidental, dernier vestige de l'enceinte du second Temple, est un lieu de prière majeur du judaïsme. Sur l'esplanade qui le surplombe se trouvent le Dôme du Rocher et la mosquée al-Aqsa, troisième lieu saint de l'islam. À quelques centaines de mètres, le Saint-Sépulcre est vénéré par les chrétiens comme le lieu de la crucifixion et de la résurrection, et se partage entre plusieurs confessions selon un statu quo minutieusement réglé.`],
     ["Rome, Bénarès et les autres", `La basilique Saint-Pierre du Vatican est le plus grand édifice religieux catholique, bâtie sur ce que la tradition tient pour le tombeau de l'apôtre Pierre ; Michel-Ange, Bramante et Le Bernin y ont travaillé pendant plus d'un siècle.

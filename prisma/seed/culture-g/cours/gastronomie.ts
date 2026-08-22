@@ -49,7 +49,7 @@ Une émulsion est la dispersion stable d'un liquide dans un autre qui ne se mél
     ["Thé et café", `Le thé vert et le thé noir viennent du même arbuste, Camellia sinensis : seule l'oxydation des feuilles les distingue. Le thé vert est chauffé rapidement après la cueillette pour l'empêcher, le thé noir est au contraire complètement oxydé, l'oolong ne l'est que partiellement.
 
 Le caféier est originaire d'Éthiopie, d'où il gagne le Yémen puis le monde. Deux espèces dominent la production : l'arabica, plus aromatique, plus fragile et moins riche en caféine, qui représente environ soixante pour cent du marché ; et le robusta, plus rustique, plus amer et plus caféiné. Le grain vert n'a presque aucun arôme : tout se joue à la torréfaction.`],
-    ["La bière", `La loi allemande de pureté de 1516 limite les ingrédients de la bière à l'eau, l'orge et le houblon. La levure n'y figure pas, pour une raison simple : son rôle était alors inconnu, la fermentation étant tenue pour spontanée.
+    ["La bière", `La bière est la boisson fermentée la plus consommée au monde. Le houblon, entré tardivement dans sa composition, n'y apporte pas seulement l'amertume : il conserve, ce qui a permis à la bière de voyager et de se vendre loin de sa brasserie.
 
 Le houblon apporte l'amertume, une part des arômes et un pouvoir conservateur — c'est cette dernière propriété qui a d'abord justifié son emploi. La distinction majeure entre bières tient à la levure et à la température : la fermentation haute, autour de vingt degrés, donne les ales, plus aromatiques ; la fermentation basse, autour de dix degrés, donne les lagers, dont la pilsner, style né en 1842 qui représente aujourd'hui l'essentiel de la production mondiale.`],
     ["Les spiritueux", `Un spiritueux naît d'un liquide déjà fermenté, que la distillation concentre : l'alcool s'évaporant avant l'eau, on le sépare par évaporation puis condensation. La matière première change tout. Le whisky écossais est fait d'orge maltée, éventuellement mêlée d'autres céréales ; le cognac vient du vin blanc, le calvados du cidre, le rhum de la canne à sucre — de sa mélasse le plus souvent, de son jus frais pour le rhum agricole.
@@ -709,7 +709,7 @@ Ce mouvement a rouvert des styles oubliés, réintroduit des ingrédients locaux
   ],
 
   "ga3-spiritueux": [
-    ["Concentrer l'alcool", `Un spiritueux est obtenu par distillation d'un liquide déjà fermenté. La distillation ne crée pas d'alcool : elle le concentre. La fermentation, préalable indispensable, produit un liquide titrant au mieux une quinzaine de degrés, au-delà desquels les levures meurent dans leur propre production.
+    ["Concentrer l'alcool", `Un spiritueux est obtenu par distillation d'un liquide déjà fermenté : aucun appareil ne fabrique de l'alcool, il ne fait que le séparer de l'eau. Le plafond vient donc de la fermentation, qui s'arrête vers une quinzaine de degrés, les levures mourant dans leur propre production.
 
 Le principe physique est une séparation par évaporation puis condensation, fondée sur la différence de volatilité : l'alcool bout à soixante-dix-huit degrés, l'eau à cent. En chauffant le liquide fermenté, les vapeurs produites sont plus riches en alcool ; refroidies, elles donnent un distillat concentré.
 
@@ -831,7 +831,7 @@ Une fibre alimentaire est un glucide non digéré par l'intestin grêle, qui par
 L'indice glycémique mesure la vitesse d'élévation de la glycémie après consommation d'un aliment, par rapport à une référence. Il nuance la vieille opposition entre sucres lents et sucres rapides, qui reposait sur la longueur des molécules et s'est révélée fausse : une purée de pomme de terre élève la glycémie plus vite que du sucre de table. Il ne s'applique cependant pas à un aliment isolé de son repas, la présence de fibres, de graisses et de protéines ralentissant considérablement l'absorption.
 
 Le régime méditerranéen — abondance de végétaux, légumineuses, huile d'olive, poisson, peu de viande rouge et de produits transformés — reste le mode alimentaire le mieux soutenu par les données épidémiologiques, avec des bénéfices cardiovasculaires confirmés par au moins un grand essai contrôlé.`],
-    ["Le degré de transformation", `Un aliment ultra-transformé est un produit issu de procédés industriels et contenant des ingrédients d'usage non domestique : isolats de protéines, amidons modifiés, arômes, émulsifiants, colorants.
+    ["Le degré de transformation", `Le degré de transformation se lit dans la liste des ingrédients plus que dans le tableau nutritionnel : la présence de composants qu'aucune cuisine domestique ne possède — isolats, amidons modifiés, émulsifiants — signale un produit reconstruit à partir de fractions, et non préparé à partir d'aliments.
 
 La classification NOVA range les aliments selon leur degré de transformation, en quatre groupes, et non selon leur composition nutritionnelle. C'est ce qui la rend originale et discutée : deux produits de composition analogue peuvent être classés différemment, et l'on a reproché à cette approche son imprécision. Les données épidémiologiques accumulées depuis dix ans lui ont néanmoins donné une utilité prédictive réelle, une consommation élevée d'ultra-transformés étant associée à plusieurs pathologies chroniques indépendamment de la composition nutritionnelle.
 
@@ -851,7 +851,7 @@ Une IGP, indication géographique protégée, est moins contraignante : il suffi
 Le Label rouge est un signe français d'un ordre différent : il n'atteste aucune origine mais une qualité gustative supérieure, établie par comparaison à un produit courant et vérifiée par des tests. Un poulet Label rouge se définit par une souche à croissance lente, une durée d'élevage minimale et un accès au plein air.
 
 Le commerce équitable garantit aux producteurs un prix minimum couvrant les coûts de production, une prime de développement collective et des relations contractuelles durables. Il concerne surtout les filières d'importation — café, cacao, banane — où le rapport de force est le plus défavorable.`],
-    ["Vendre autrement, et le cadre commun", `Un circuit court est une vente comportant au plus un intermédiaire — critère qui porte sur le nombre d'intermédiaires et non sur la distance parcourue.
+    ["Vendre autrement, et le cadre commun", `Vente à la ferme, marchés, paniers hebdomadaires, magasins de producteurs : ces formes de commercialisation redonnent au producteur la marge captée par la distribution, mais lui transfèrent aussi le travail de vente, de logistique et de relation client, qui n'est pas son métier.
 
 Une AMAP, association pour le maintien d'une agriculture paysanne, repose sur un engagement réciproque : les consommateurs souscrivent à l'avance pour une saison entière et reçoivent chaque semaine une part de la récolte, quelle qu'elle soit. Le producteur obtient une trésorerie et une visibilité qui le libèrent du marché ; les consommateurs partagent le risque climatique. C'est une inversion complète de la relation commerciale ordinaire.
 

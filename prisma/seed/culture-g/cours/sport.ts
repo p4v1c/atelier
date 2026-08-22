@@ -9,7 +9,7 @@ Une équipe aligne onze joueurs ; en dessous de sept, le match ne peut pas se po
     ["Les grandes compétitions", `La première Coupe du monde se tient en 1930 en Uruguay, à l'initiative du Français Jules Rimet, alors président de la FIFA ; le pays hôte l'emporte. Le Brésil en détient le record avec cinq titres. La France l'a remportée pour la première fois en 1998, chez elle, puis en 2018 en Russie.
 
 Côté clubs, la Coupe des clubs champions européens est créée en 1955 sur une idée du journal L'Équipe ; devenue Ligue des champions en 1992, elle est aujourd'hui la compétition de clubs la plus riche du monde. Le Real Madrid en domine largement le palmarès.`],
-    ["L'arbitrage assisté", `Deux technologies ont modifié l'arbitrage. La technologie sur la ligne de but, adoptée après un but non accordé à l'Angleterre en 2010, détermine automatiquement si le ballon a entièrement franchi la ligne et prévient l'arbitre en une seconde. L'assistance vidéo, elle, permet de revoir certaines décisions à l'image ; elle a été utilisée pour la première fois en Coupe du monde en 2018.
+    ["L'arbitrage assisté", `L'arbitrage du football s'est doté d'auxiliaires techniques que le règlement encadre strictement : ils n'interviennent que sur quatre types de décisions — but, penalty, carton rouge direct, erreur d'identité — et l'arbitre central reste seul juge. C'est ce périmètre limité, plus que la technologie elle-même, qui explique les controverses : beaucoup de situations discutées n'entrent tout simplement pas dans le champ de la vidéo.
 
 Son périmètre est volontairement étroit : buts, penaltys, cartons rouges directs et erreurs d'identité. Elle ne réexamine pas tout le match, et son usage reste discuté, autant pour la précision qu'elle apporte que pour les interruptions qu'elle impose au jeu.`],
   ],
@@ -75,7 +75,7 @@ La Coupe de l'America est plus ancienne encore : disputée pour la première foi
   ],
 
   "sp-corps-performance": [
-    ["Ce que consomme l'effort", `La VO2 max mesure la consommation maximale d'oxygène d'un organisme à l'effort : c'est un plafond, exprimé en millilitres par kilo et par minute. Élevée chez les athlètes d'endurance, elle ne suffit pas à prédire la performance, car l'économie de course, c'est-à-dire l'énergie dépensée pour une vitesse donnée, compte au moins autant.
+    ["Ce que consomme l'effort", `L'effort prolongé puise dans deux réservoirs : le glycogène, abondant mais limité à une heure et demie d'exercice soutenu, et les graisses, quasi inépuisables mais lentes à mobiliser. Tout l'entraînement d'endurance consiste à apprendre au corps à préférer le second le plus longtemps possible — le fameux mur du marathonien n'est rien d'autre que l'épuisement du premier.
 
 Le seuil anaérobie désigne l'intensité au-delà de laquelle le lactate s'accumule dans le sang plus vite qu'il n'est éliminé : au-dessus, l'effort ne peut être maintenu longtemps. Les fibres musculaires de type I, dites lentes, sont endurantes et peu puissantes ; les fibres de type II, rapides, produisent beaucoup de force sur peu de temps. Leur proportion varie selon les individus et se modifie peu à l'entraînement.`],
     ["S'entraîner, c'est récupérer", `L'entraînement ne rend pas plus fort pendant l'effort : il crée une fatigue, et c'est pendant la récupération que l'organisme reconstruit un peu au-delà du niveau initial. Ce phénomène s'appelle la surcompensation, et il donne son rythme à toute planification sérieuse : sans récupération suffisante, l'effet s'inverse.
@@ -186,7 +186,7 @@ Sur la neige et l'eau, le snowboard freestyle juge des figures acrobatiques en h
   "sp2-handisport": [
     ["De la rééducation au sport", `Les premiers jeux pour athlètes handicapés sont organisés en 1948 à Stoke Mandeville, en Angleterre, par le neurologue Ludwig Guttmann, le jour même de l'ouverture des Jeux de Londres. Il s'agissait d'abord d'un outil de rééducation pour des blessés médullaires de guerre, dont on découvrait que l'activité physique améliorait considérablement le pronostic.
 
-Douze ans plus tard, en 1960, les premiers Jeux paralympiques d'été se tiennent à Rome, avec quatre cents athlètes de vingt-trois pays. Depuis 1988, ils se déroulent dans la même ville et sur les mêmes installations que les Jeux olympiques, quelques semaines après eux.`],
+Douze ans plus tard, en 1960, la compétition quitte l'hôpital pour la ville : Rome accueille quatre cents athlètes venus de vingt-trois pays. Le sport cesse d'être un moyen de rééducation pour devenir une fin, avec ses records, ses sélections et ses spectateurs.`],
     ["Classer pour rendre la compétition possible", `La classification en para-sport regroupe les athlètes selon l'impact de leur handicap sur la performance dans la discipline considérée — et non selon un diagnostic médical. L'objectif est que le résultat dépende de l'entraînement, du talent et de la tactique, non du degré de limitation.
 
 Le système est complexe, propre à chaque sport, et régulièrement contesté : une classification mal ajustée peut fausser une compétition entière, et les recours sont fréquents. En France, une distinction institutionnelle s'ajoute : le handisport concerne les handicaps physiques et sensoriels, tandis que le sport adapté s'adresse au handicap mental et psychique, avec deux fédérations distinctes.`],
@@ -460,7 +460,7 @@ Le fair-play financier, introduit par l'UEFA en 2011, procède autrement : il li
     ["Le marché des joueurs", `L'arrêt Bosman, rendu en 1995 par la Cour de justice des Communautés européennes, a libéré les joueurs en fin de contrat : ils peuvent depuis changer de club sans indemnité de transfert. La décision a aussi supprimé les quotas de joueurs communautaires.
 
 Ses effets ont été considérables et durables : hausse des salaires, pouvoir accru des agents, concentration des meilleurs joueurs dans un petit nombre de clubs. Elle rappelle qu'une décision juridique portant sur la libre circulation des travailleurs a transformé l'économie d'un sport plus profondément qu'aucune réforme sportive.`],
-    ["L'image et le coût", `Le sportwashing désigne l'usage du sport pour améliorer l'image d'un État ou d'une entreprise et détourner l'attention de critiques. Le terme s'est répandu autour de l'attribution de grandes compétitions et du rachat de clubs européens ; il pose une question difficile, puisque tout investissement dans le sport comporte une dimension d'image.
+    ["L'image et le coût", `Une part de ces investissements ne cherche pas de rentabilité directe : acheter un club ou accueillir une compétition se justifie par le rayonnement attendu. L'économiste parle alors de dépense d'image, difficile à évaluer puisque son rendement n'apparaît dans aucun compte de résultat.
 
 Côté villes hôtes, l'héritage d'un grand événement — effets durables sur les équipements, l'économie et la pratique — se révèle presque toujours inférieur aux promesses. Les surcoûts sont systématiques dans l'histoire des Jeux, et plusieurs équipements construits pour une quinzaine de jours sont restés sous-utilisés. C'est ce constat qui a raréfié les candidatures et poussé le CIO à assouplir ses exigences.`],
   ],

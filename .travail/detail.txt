@@ -1,0 +1,191 @@
+
+==============================================================================
+30%  cg-neuf-sp-football / L'arbitrage assisté   ↔   cg-neuf-sp3-arbitrage-technologie / La vidéo au football
+--- A ---
+Deux technologies ont modifié l'arbitrage. La technologie sur la ligne de but, adoptée après un but non accordé à l'Angleterre en 2010, détermine automatiquement si le ballon a entièrement franchi la ligne et prévient l'arbitre en une seconde. L'assistance vidéo, elle, permet de revoir certaines décisions à l'image ; elle a été utilisée pour la première fois en Coupe du monde en 2018.
+--- B ---
+Elle a été utilisée pour la première fois en Coupe du monde en 2018, en Russie, après des expérimentations en championnats. Deux autres dispositifs l'accompagnent : la goal-line technology, qui détermine automatiquement si le ballon a entièrement franchi la ligne de but et prévient l'arbitre en une seconde ; et le hors-jeu semi-automatisé, qui combine capteurs dans le ballon et suivi optique des joueurs pour réduire à quelques secondes une vérification qui en prenait parfois plusieurs minutes.
+
+==============================================================================
+36%  cg-neuf-hm2-inde-histoire / Empires et savoirs   ↔   cg-neuf-hm4-inde-ancienne / L'âge classique
+--- A ---
+Aryabhata, au Ve siècle, calcule une valeur de pi exacte à quatre décimales, propose la rotation de la Terre sur elle-même et explique correctement les éclipses. C'est également à cette époque que se fixent la numération de position et le zéro comme nombre — inventions transmises au monde arabe puis à l'Europe, et sans lesquelles le calcul moderne serait impossible.
+--- B ---
+L'apport scientifique est considérable. La numération de position et le zéro comme nombre à part entière — et non comme simple absence — sont mis au point en Inde à cette époque. Aryabhata, au Ve siècle, calcule une valeur de pi exacte à quatre décimales, propose que la Terre tourne sur elle-même et explique correctement les éclipses.
+
+==============================================================================
+60%  cg-histoire-monde-20 / De Rome à Byzance   ↔   cg-neuf-hm4-empire-byzantin / Justinien
+--- A ---
+En 330, l'empereur Constantin inaugure sur le site de l'ancienne Byzance une nouvelle capitale qui porte son nom : Constantinople. Placée sur le détroit du Bosphore, entre Europe et Asie, elle contrôle le passage entre la Méditerranée et la mer Noire et se protège derrière des murailles réputées imprenables. En 395, à la mort de Théodose Ier, l'Empire romain est partagé entre ses deux fils : la partie orientale, plus peuplée et plus riche, survit alors que l'Occident se désagrège au Ve siècle. Ses habitants ne se sont jamais appelés byzantins, mot forgé bien plus tard par les historiens : ils se disaient Romains. L'apogée territorial est atteint sous Justinien, qui règne de 527 à 565. Ses généraux reprennent l'Afrique du Nord aux Vandales, l'Italie aux Ostrogoths et une partie de l'Espagne, redonnant à la Méditerranée un air de lac romain. Justinien fait édifier entre 532 et 537 la basilique Sainte-Sophie, dont l'immense coupole reste l'un des chefs-d'œuvre de l'architecture mondiale. Il fait surtout compiler l'ensemble du droit romain dans le Corpus juris civilis, monument juridique qui nourrira les facultés de droit européennes bien après la disparition de l'empire. Ces conquêtes coûtent cependant très cher et la grande épidémie de peste des années 540 ruine le pays : les successeurs de Justinien perdront rapidement une bonne part de ses gains.
+--- B ---
+Justinien, au VIe siècle, entreprend de reconquérir l'Occident perdu. Ses généraux reprennent l'Afrique du Nord aux Vandales, l'Italie aux Ostrogoths et une partie de l'Espagne.
+
+==============================================================================
+61%  cg-histoire-monde-20 / 1095 : l'appel de Clermont   ↔   cg-neuf-hm2-croisades / L'appel de 1095
+--- A ---
+En 1071, la défaite de Manzikert, en Arménie, ouvre l'Anatolie aux Turcs seldjoukides et prive Byzance de son principal réservoir de soldats et d'impôts. Vingt ans plus tard, l'empereur Alexis Ier Comnène demande à l'Occident des renforts militaires. La réponse dépasse de très loin sa demande. En novembre 1095, au concile de Clermont, le pape Urbain II appelle les chrétiens à marcher vers Jérusalem pour délivrer le tombeau du Christ, en promettant à ceux qui partent la rémission de leurs péchés. Une croisade est un pèlerinage armé, béni par la papauté : la nouveauté est d'unir la piété du pèlerin et la violence du guerrier. Les motivations se mêlent, foi sincère, désir de terres pour des cadets de familles nobles, ambitions marchandes des cités italiennes. Le départ s'accompagne de massacres de communautés juives dans les villes de la vallée du Rhin, premières violences d'un mouvement qui en comptera beaucoup. Après une marche épuisante, les croisés s'emparent d'Antioche en 1098, puis de Jérusalem en juillet 1099, au terme d'un assaut suivi d'un massacre de la population. Quatre États latins d'Orient sont fondés : le royaume de Jérusalem, la principauté d'Antioche, les comtés d'Édesse et de Tripoli, défendus notamment par des ordres religieux et militaires comme les Templiers et les Hospitaliers.
+--- B ---
+Quatre États latins sont fondés en Orient : le royaume de Jérusalem, la principauté d'Antioche, les comtés d'Édesse et de Tripoli.
+
+==============================================================================
+35%  cg-neuf-mr-lieux-sacres / La Mecque et Jérusalem   ↔   cg-neuf-mr2-pelerinages / Marcher pour changer
+--- A ---
+À La Mecque, la Kaaba est l'édifice cubique vers lequel les musulmans du monde entier orientent leur prière. Le pèlerinage annuel y rassemble aujourd'hui plus de deux millions de personnes en quelques jours, ce qui en fait l'un des plus grands rassemblements humains réguliers.
+--- B ---
+Le hajj de La Mecque rassemble chaque année environ deux millions de personnes en quelques jours, ce qui en fait l'un des plus grands rassemblements humains réguliers au monde et un défi logistique considérable. En Inde, la Kumbh Mela dépasse ces chiffres d'un ordre de grandeur : elle rassemble des dizaines de millions de personnes venues se baigner au confluent de fleuves sacrés, et constitue probablement le plus grand rassemblement humain de la planète.
+
+==============================================================================
+58%  cg-neuf-hm2-inde-histoire / Empires et savoirs   ↔   cg-neuf-hm4-inde-ancienne / Les textes et les empires
+--- A ---
+Il fait graver ses édits sur des piliers et des rochers dans tout l'empire, prônant la non-violence, la tolérance entre religions et le respect des animaux. Ces textes sont les plus anciens documents indiens déchiffrables, et leur redécouverte au XIXe siècle a fait réapparaître un souverain que la tradition avait oublié. Le chapiteau aux lions d'un de ses piliers est aujourd'hui l'emblème de l'Inde.
+--- B ---
+Ces inscriptions sont les plus anciens documents écrits déchiffrables de l'histoire indienne, et leur déchiffrement au XIXe siècle a fait réapparaître un souverain que la tradition avait oublié. Le chapiteau aux lions d'un de ses piliers est aujourd'hui l'emblème de la République indienne.
+
+==============================================================================
+48%  cg-langue-francaise-05 / Parler la même langue de quatre façons   ↔   cg-neuf-lf3-normes-usages / Registres
+--- A ---
+Un locuteur ne s'exprime pas de la même manière selon la situation, l'interlocuteur et l'enjeu : c'est ce que l'on appelle le registre, ou niveau de langue. On en distingue traditionnellement trois, auxquels on ajoute souvent un quatrième. Le registre soutenu privilégie un vocabulaire recherché, des temps rares comme le passé simple ou le subjonctif imparfait, et des constructions complètes : « je crains fort que vous n'eussiez commis une erreur ». Le registre courant est celui de la conversation ordinaire et de la plupart des écrits professionnels : « je crois que vous vous êtes trompé ». Le registre familier relâche la syntaxe, supprime le ne de la négation, recourt à des mots expressifs : « tu t'es planté ». Le registre argotique ou populaire ajoute un vocabulaire de groupe volontairement écarté de la norme. Aucun de ces registres n'est bon ou mauvais en soi : ce qui compte est l'adéquation à la situation. Employer le registre soutenu entre amis paraît affecté, employer le registre familier dans une lettre de candidature dessert celui qui écrit. La compétence linguistique consiste précisément à savoir passer de l'un à l'autre. Les registres se reconnaissent au vocabulaire, mais aussi à la syntaxe, à la prononciation et même à la ponctuation : l'oral spontané n'obéit pas aux mêmes règles que l'écrit préparé.
+--- B ---
+Le registre courant est celui de la conversation ordinaire et de la plupart des écrits professionnels ; le registre familier admet l'argot, l'ellipse du *ne*, les tours segmentés.
+
+==============================================================================
+32%  cg-sciences-vie-21 / Les stades et les cycles de la nuit   ↔   cg-neuf-sv2-sommeil-rythmes / Ce qui se passe pendant la nuit
+--- A ---
+L'électroencéphalogramme, qui enregistre l'activité électrique du cerveau, a permis de découper la nuit en stades bien identifiés. On distingue d'abord le sommeil lent, lui-même divisé en trois phases. Le stade N1 est la somnolence, cette bascule de quelques minutes où l'on décroche sans vraiment dormir. Le stade N2, sommeil léger, occupe environ la moitié de la nuit et se reconnaît à de brèves bouffées d'activité rapide, les fuseaux du sommeil. Le stade N3, sommeil lent profond, est marqué par de grandes ondes lentes ; c'est le sommeil le plus réparateur, le plus difficile à interrompre, et celui d'où l'on émerge hébété. Vient ensuite le sommeil paradoxal, ainsi nommé parce qu'il associe deux traits contradictoires : le cerveau y est presque aussi actif qu'à l'éveil, les yeux bougent rapidement sous les paupières, mais les muscles du corps sont totalement relâchés, comme paralysés. C'est le stade où se produisent les rêves les plus longs et les plus élaborés, et l'atonie musculaire empêche de les mettre en actes. Ces stades s'enchaînent en cycles d'environ quatre-vingt-dix minutes, répétés quatre à six fois par nuit. Leur composition évolue au fil des heures : le sommeil profond domine en début de nuit, le sommeil paradoxal s'allonge au petit matin. Découvert dans les années 1950, il fut baptisé sommeil paradoxal par le Français Michel Jouvet.
+--- B ---
+Le sommeil s'organise en cycles d'environ quatre-vingt-dix minutes, répétés quatre à six fois par nuit. Chaque cycle traverse des stades de sommeil lent de plus en plus profond, puis une phase de sommeil paradoxal.
+
+==============================================================================
+33%  cg-sport-13 / L'organisation du mouvement paralympique   ↔   cg-neuf-sp2-handisport / De la rééducation au sport
+--- A ---
+Le mouvement paralympique s'est doté d'une institution comparable au Comité international olympique. Le Comité international paralympique est fondé le 22 septembre 1989 à Düsseldorf, en Allemagne, en remplacement d'une organisation antérieure créée en 1982 ; son siège se trouve aujourd'hui à Bonn. Il représente plus de cent quatre-vingts comités paralympiques nationaux et travaille avec une quinzaine de fédérations internationales spécialisées. Ses missions sont l'organisation des Jeux, le développement du sport pour les personnes handicapées, la garantie de l'équité des compétitions et la lutte contre le dopage. Depuis la fin des années quatre-vingt, un principe s'est imposé : les Jeux paralympiques se déroulent dans la même ville et sur les mêmes installations que les Jeux olympiques, quelques semaines après ceux-ci, ce qui leur assure une visibilité et des équipements de tout premier plan. Les Jeux paralympiques d'été réunissent aujourd'hui environ quatre mille quatre cents athlètes pour près de cinq cents épreuves réparties dans une vingtaine de disciplines, tandis que l'édition d'hiver rassemble environ cinq cent soixante-dix concurrents pour six disciplines. Il faut noter qu'un mouvement distinct existe pour les athlètes sourds, avec des jeux propres dont la première édition internationale s'est tenue à Paris en 1924 sous le nom de Jeux silencieux, la surdité ne relevant pas des classifications paralympiques.
+--- B ---
+Douze ans plus tard, en 1960, les premiers Jeux paralympiques d'été se tiennent à Rome, avec quatre cents athlètes de vingt-trois pays. Depuis 1988, ils se déroulent dans la même ville et sur les mêmes installations que les Jeux olympiques, quelques semaines après eux.
+
+==============================================================================
+41%  cg-neuf-hm3-afrique-independance / Les crises majeures   ↔   cg-neuf-hm4-monde-contemporain / La paix qui n'est pas venue
+--- A ---
+Le génocide des Tutsi au Rwanda, en 1994, fait environ huit cent mille morts en cent jours. Il est planifié, préparé par une propagande radiophonique, et exécuté largement à l'arme blanche par une mobilisation massive de la population.
+--- B ---
+Le génocide des Tutsi au Rwanda, en 1994, fait environ huit cent mille morts en cent jours pendant que la communauté internationale réduit sa présence sur place et évite le mot qui l'obligerait à agir.
+
+==============================================================================
+32%  cg-neuf-hm-inde-independance / Après   ↔   cg-neuf-hm3-inde-pakistan / La partition
+--- A ---
+Gandhi, lui, est assassiné en janvier 1948 par un nationaliste hindou qui lui reprochait sa conciliation envers les musulmans. Le Cachemire, État princier à souverain hindou et population majoritairement musulmane, reste disputé entre l'Inde et le Pakistan depuis 1947 : il a provoqué trois guerres et demeure l'un des points de tension les plus dangereux du monde, les deux pays étant dotés de l'arme nucléaire.
+--- B ---
+Jawaharlal Nehru devient le premier Premier ministre de l'Inde indépendante. Gandhi, qui avait fait grève de la faim contre les violences et refusé de célébrer l'indépendance, est assassiné en janvier 1948 par un nationaliste hindou qui lui reprochait sa conciliation envers les musulmans.
+
+==============================================================================
+35%  cg-neuf-hf3-industrialisation-france / Les régions industrielles   ↔   cg-neuf-hf3-catastrophes-france / Les catastrophes industrielles
+--- A ---
+La catastrophe de Courrières, en 1906, y fait plus de mille cent morts dans un coup de poussier — explosion de poussières de charbon en suspension. C'est la plus grave catastrophe minière d'Europe. Elle provoque une grève massive et accélère la législation sur la sécurité minière et la création d'un ministère du Travail.
+--- B ---
+La catastrophe de Courrières, en mars 1906, fait plus de mille cent morts dans un coup de poussier — l'inflammation des poussières de charbon en suspension. C'est la plus grave catastrophe minière européenne. Les secours sont mal organisés, des rescapés sont retrouvés vingt jours après, et une équipe de sauveteurs allemands arrive avant les moyens français. Une grève massive suit, et l'événement accélère la création du ministère du Travail et la législation sur la sécurité minière.
+
+==============================================================================
+39%  cg-neuf-ga-boissons / La bière   ↔   cg-neuf-ga3-bieres-monde / Ingrédients et règles
+--- A ---
+La loi allemande de pureté de 1516 limite les ingrédients de la bière à l'eau, l'orge et le houblon. La levure n'y figure pas, pour une raison simple : son rôle était alors inconnu, la fermentation étant tenue pour spontanée.
+--- B ---
+La loi de pureté allemande de 1516 limitait les ingrédients de la bière à l'eau, l'orge et le houblon — la levure n'y figure pas, son existence étant alors inconnue. Souvent présentée comme une exigence de qualité, elle avait aussi des motifs économiques et sanitaires : réserver le blé et le seigle à la boulangerie, et interdire des additifs douteux voire toxiques employés par certains brasseurs. Elle a durablement façonné le paysage brassicole allemand, en interdisant des styles pratiqués ailleurs.
+
+==============================================================================
+31%  cg-neuf-sp-corps-performance / Ce que consomme l'effort   ↔   cg-neuf-sp3-athletisme-fond / Ce que mesure le corps
+--- A ---
+La VO2 max mesure la consommation maximale d'oxygène d'un organisme à l'effort : c'est un plafond, exprimé en millilitres par kilo et par minute. Élevée chez les athlètes d'endurance, elle ne suffit pas à prédire la performance, car l'économie de course, c'est-à-dire l'énergie dépensée pour une vitesse donnée, compte au moins autant.
+--- B ---
+La VO2 max mesure la consommation maximale d'oxygène d'un individu, exprimée en millilitres par kilo et par minute. Elle constitue un plafond mais ne suffit pas à prédire la performance : l'économie de course — l'énergie dépensée pour une vitesse donnée — et le seuil auquel le lactate s'accumule comptent au moins autant.
+
+==============================================================================
+35%  cg-neuf-sp-sport-societe / Le sport comme image   ↔   cg-neuf-sp3-economie-sport / L'image et le coût
+--- A ---
+Le sportwashing désigne l'usage d'événements ou de clubs sportifs par un État ou une organisation pour améliorer son image et détourner l'attention de critiques qui lui sont adressées. Le terme s'est répandu autour de l'attribution de grandes compétitions et du rachat de clubs européens dans les années 2010.
+--- B ---
+Le sportwashing désigne l'usage du sport pour améliorer l'image d'un État ou d'une entreprise et détourner l'attention de critiques. Le terme s'est répandu autour de l'attribution de grandes compétitions et du rachat de clubs européens ; il pose une question difficile, puisque tout investissement dans le sport comporte une dimension d'image.
+
+==============================================================================
+49%  cg-neuf-hm2-inde-histoire / Des villes avant l'écriture lisible   ↔   cg-neuf-hm4-inde-ancienne / Une civilisation muette
+--- A ---
+Ses villes — Mohenjo-daro, Harappa — présentent un urbanisme planifié : plan en damier, briques standardisées, greniers, bains publics, et surtout un réseau d'évacuation des eaux usées avec canalisations couvertes que l'Europe ne connaîtra pas avant le XIXe siècle.
+--- B ---
+Ses villes — Mohenjo-daro, Harappa — présentent un urbanisme planifié saisissant : plan orthogonal, briques cuites de dimensions standardisées, greniers, bains publics, et surtout un réseau d'évacuation des eaux usées avec canalisations couvertes et puits, dont aucune autre civilisation ancienne n'offre l'équivalent.
+
+==============================================================================
+32%  cg-neuf-hm2-inde-histoire / Empires et savoirs   ↔   cg-neuf-hm4-inde-ancienne / Les textes et les empires
+--- A ---
+Ashoka, empereur maurya du IIIe siècle avant notre ère, se convertit au bouddhisme après la conquête sanglante du Kalinga, dont il exprime lui-même le remords dans ses inscriptions.
+--- B ---
+Ashoka se convertit au bouddhisme après la conquête sanglante du Kalinga, dont il dit lui-même le remords. Il fait graver ses édits sur des piliers et des rochers dans tout l'empire, en plusieurs langues et alphabets : ils prônent la non-violence, la tolérance religieuse, le respect des animaux, et annoncent la création d'hôpitaux et de puits.
+
+==============================================================================
+67%  cg-neuf-hf2-second-empire / Deux conquêtes de 1848   ↔   cg-neuf-hm3-esclavage-abolitions / Abolir
+--- A ---
+Le texte prévoit une indemnisation, versée non aux affranchis mais aux propriétaires — disposition longtemps passée sous silence et aujourd'hui au cœur des débats mémoriels.
+--- B ---
+L'abolition définitive intervient en 1848, portée par Victor Schœlcher, sous-secrétaire d'État aux colonies du gouvernement provisoire. Le décret est immédiat, mais il prévoit une indemnisation — versée non aux affranchis mais aux propriétaires, disposition longtemps passée sous silence et aujourd'hui centrale dans les débats mémoriels.
+
+==============================================================================
+45%  cg-neuf-geo2-climats-monde / Les échelles fines et le classement   ↔   cg-neuf-geo3-glaciers-cryosphere / Le sol gelé qui se réveille
+--- A ---
+Le permafrost est un sol gelé en permanence depuis au moins deux ans consécutifs ; il couvre un quart des terres émergées de l'hémisphère nord. Son dégel libère du méthane et déstabilise les infrastructures bâties dessus. Pour ordonner tout cela, la classification de Köppen, établie au début du XXe siècle et plusieurs fois révisée, répartit les climats selon les températures et les précipitations : c'est elle qu'on lit derrière les couleurs des cartes climatiques.
+--- B ---
+Le permafrost est un sol gelé en permanence depuis au moins deux années consécutives. Il couvre environ un quart des terres émergées de l'hémisphère nord, en Sibérie, au Canada et en Alaska.
+
+==============================================================================
+63%  cg-neuf-ie2-histoire-economique / Les crises récentes   ↔   cg-neuf-ie3-crises-contemporaines / 2020 : l'arrêt volontaire
+--- A ---
+La crise de 2020 présente une particularité inédite : un arrêt volontaire de l'activité pour raisons sanitaires. Ce n'est ni un choc financier ni un choc d'offre ordinaire, mais une interruption décidée. Cette nature explique la réponse — soutien massif des revenus et de la trésorerie plutôt que relance de la demande — et la rapidité du rebond, l'appareil productif n'ayant pas été détruit. Elle a laissé en héritage un endettement public sans précédent en temps de paix, et le retour de l'inflation deux ans plus tard.
+--- B ---
+La crise de 2020 présente une particularité qui la distingue de toutes les précédentes : un arrêt volontaire de l'activité pour raisons sanitaires. Ce n'est ni un choc financier ni un choc d'offre ordinaire, mais une interruption décidée par les pouvoirs publics.
+
+==============================================================================
+33%  cg-neuf-ie2-culture-politiques / Le premier ministère de la Culture   ↔   cg-neuf-hf3-culture-france-xxe / Une politique publique de la culture
+--- A ---
+La France a créé en 1959 le premier ministère de la Culture au monde, confié à André Malraux. Sa mission, définie par le décret fondateur, était de rendre accessibles les œuvres capitales de l'humanité au plus grand nombre possible de Français.
+--- B ---
+Sa mission fondatrice, formulée dans le décret, est de rendre accessibles les œuvres capitales de l'humanité au plus grand nombre possible de Français, d'assurer la plus vaste audience au patrimoine culturel et de favoriser la création des œuvres.
+
+==============================================================================
+32%  cg-neuf-lf2-genres-noms / Les procédés en débat   ↔   cg-neuf-lf3-ecriture-inclusive / Un débat ancien
+--- A ---
+L'accord de proximité fait accorder l'adjectif avec le nom le plus proche plutôt qu'avec le masculin : « ces hommes et ces femmes sont belles ». Cette règle a existé en français classique et se rencontre chez Racine ; elle a été supplantée par la règle du masculin générique, dont la justification donnée au XVIIe siècle — le masculin étant « le genre le plus noble » — n'est plus défendable aujourd'hui.
+--- B ---
+Elle a d'ailleurs remplacé un usage antérieur : l'accord de proximité, qui fait accorder l'adjectif avec le nom le plus proche, était courant en français classique et se rencontre chez Racine et Corneille.
+
+==============================================================================
+35%  cg-neuf-lf2-numerique-langue / Écrire comme on parle   ↔   cg-neuf-lf3-francais-numerique-usages / Un écrit qui parle
+--- A ---
+L'émoji, du point de vue linguistique, apporte un ton et une intention à un message. Il ne remplace pas les mots mais supplée à ce que l'écrit ne porte pas : il désamorce, ironise, adoucit, signale le second degré. Il occupe la fonction qu'assurent à l'oral l'intonation et le sourire — d'où sa présence massive dans les échanges informels et son absence dans les textes où le registre est déjà clair.
+--- B ---
+Un émoji apporte du ton et de l'intention : il désamorce, ironise, adoucit, signale le second degré. Il ne remplace pas les mots, il ajoute ce que la voix aurait donné — d'où sa présence massive dans les échanges informels et son absence là où le registre est déjà établi.
+
+==============================================================================
+43%  cg-neuf-ga2-economie-alimentaire / Vendre autrement   ↔   cg-neuf-ga3-agriculture-alimentation / Vendre autrement, et le cadre commun
+--- A ---
+Un circuit court est une vente comportant au plus un intermédiaire entre le producteur et le consommateur. La définition est officielle et porte sur le nombre d'intermédiaires, non sur la distance — un produit vendu directement à cinq cents kilomètres relève du circuit court, un produit local passant par trois grossistes n'en relève pas.
+--- B ---
+Un circuit court est une vente comportant au plus un intermédiaire — critère qui porte sur le nombre d'intermédiaires et non sur la distance parcourue.
+
+==============================================================================
+74%  cg-neuf-hm3-migrations-histoire / Migrations internes et de travail   ↔   cg-neuf-hf3-immigration-france / Les vagues successives
+--- A ---
+La suspension de l'immigration de travail décidée en 1974, après le choc pétrolier, produit un effet inverse à celui recherché : les travailleurs présents, craignant de ne plus pouvoir revenir, cessent les allers-retours et font venir leur famille. Une immigration de rotation devient une immigration d'installation.
+--- B ---
+L'arrêt de l'immigration de travail en 1974, décidé après le choc pétrolier, produit un effet inverse à celui recherché : les travailleurs présents, craignant de ne plus pouvoir revenir, cessent les allers-retours et font venir leur famille.
+
+==============================================================================
+35%  cg-neuf-hf3-sciences-france / L'état de la recherche   ↔   cg-neuf-st3-innovation-france / Combien, et par qui
+--- A ---
+Les rapports récents convergent sur un constat : la France investit environ deux virgule deux pour cent de son PIB dans la recherche, en deçà de l'objectif européen de trois pour cent fixé en 2000 et jamais atteint.
+--- B ---
+La France consacre environ deux virgule deux pour cent de son PIB à la recherche et développement, en deçà de l'objectif européen de trois pour cent fixé il y a vingt ans, et derrière l'Allemagne, la Corée du Sud ou Israël. La répartition compte autant que le total : la part financée par les entreprises y est plus faible que chez ses concurrents, ce qui déplace le déficit vers la recherche appliquée plutôt que fondamentale.
+
+==============================================================================
+48%  cg-neuf-sv3-alimentation-sante / Deux dossiers surveillés   ↔   cg-neuf-ga3-alimentation-sante / Le degré de transformation
+--- A ---
+L'alimentation ultra-transformée désigne des produits industriels contenant des ingrédients d'usage non domestique : isolats de protéines, amidons modifiés, arômes, émulsifiants, colorants. La classification NOVA qui la définit ne porte pas sur la composition nutritionnelle mais sur le degré de transformation, ce qui a d'abord surpris.
+--- B ---
+Un aliment ultra-transformé est un produit issu de procédés industriels et contenant des ingrédients d'usage non domestique : isolats de protéines, amidons modifiés, arômes, émulsifiants, colorants.
+
+27 paires

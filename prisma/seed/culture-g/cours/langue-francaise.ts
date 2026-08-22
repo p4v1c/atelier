@@ -744,7 +744,7 @@ L'insécurité linguistique est le sentiment de ne pas maîtriser la norme légi
 Ses effets pratiques sont considérables et rarement discutés : elle décourage l'expression publique de ceux qui ont le plus à dire sur leur propre situation. C'est l'un des rares domaines où une question de grammaire a des conséquences politiques directes.`],
     ["Registres", `Un registre soutenu se caractérise par un lexique recherché, une syntaxe complexe et le respect strict des règles écrites — inversion interrogative, négation complète, subjonctif après les conjonctions qui l'exigent.
 
-Le registre courant est celui de la conversation ordinaire et de la plupart des écrits professionnels ; le registre familier admet l'argot, l'ellipse du *ne*, les tours segmentés.
+Ce que la norme scolaire décrit comme des fautes relève souvent d'un registre : l'ellipse du *ne*, la question sans inversion, les tours segmentés appartiennent à un français oral cohérent, doté de ses propres régularités.
 
 L'erreur consiste à hiérarchiser ces registres en qualité plutôt qu'en usage. Un registre n'est pas meilleur qu'un autre : il est adapté ou non à la situation. Employer le registre soutenu au café est aussi inapproprié qu'employer le familier dans une lettre officielle, et la compétence consiste précisément à disposer de plusieurs registres et à choisir.
 
@@ -984,7 +984,7 @@ Le masculin générique est l'emploi du masculin pour désigner un ensemble mixt
 
 La règle dite du masculin qui l'emporte a été énoncée aux XVIIe et XVIIIe siècles. Les justifications alors avancées sont documentées et ne se citent plus qu'avec embarras : le grammairien Bouhours affirmait que le masculin est le genre le plus noble, et Beauzée, en 1767, que la supériorité du mâle sur la femelle le justifie. Ces formulations n'invalident pas la règle par elles-mêmes, mais elles interdisent de la présenter comme une nécessité logique de la langue.
 
-Elle a d'ailleurs remplacé un usage antérieur : l'accord de proximité, qui fait accorder l'adjectif avec le nom le plus proche, était courant en français classique et se rencontre chez Racine et Corneille.`],
+La règle qu'elle conteste n'a rien d'immémorial : elle a été imposée par les grammairiens du XVIIe siècle contre des usages concurrents, avec une justification — le masculin serait « le genre le plus noble » — que plus personne ne reprend aujourd'hui.`],
     ["Les procédés", `L'écriture inclusive n'est pas un procédé unique mais une famille, qu'il vaut la peine de distinguer car ils ne soulèvent pas les mêmes objections.
 
 La féminisation des noms de métiers emploie des formes féminines pour désigner des femmes : *une autrice*, *une professeure*, *une ambassadrice*. Elle est aujourd'hui largement entrée dans l'usage administratif et journalistique, et l'Académie française a levé en 2019 son opposition de principe. Elle restaure souvent des formes anciennes disparues au XVIIe siècle.
@@ -1167,7 +1167,7 @@ Les défis actuels sont de deux ordres. La concurrence d'autres langues d'abord 
 
 Il doit en outre compenser ce que l'écrit ne porte pas. L'intonation, le sourire, le regard qui accompagnent la parole disparaissent, et le message risque en permanence d'être lu plus sèchement qu'il n'était pensé. Les conventions numériques répondent précisément à ce manque.
 
-Un émoji apporte du ton et de l'intention : il désamorce, ironise, adoucit, signale le second degré. Il ne remplace pas les mots, il ajoute ce que la voix aurait donné — d'où sa présence massive dans les échanges informels et son absence là où le registre est déjà établi.
+Les usages numériques ont surtout créé des marques de ponctuation nouvelles : un point final en fin de message court y est lu comme sec ou fâché, l'absence de ponctuation comme neutre, la majuscule prolongée comme un cri. Ces valeurs ne sont écrites dans aucune grammaire et s'apprennent par la pratique.
 
 La majuscule intégrale est perçue comme un cri ou une insistance forte, convention si bien installée qu'elle est enseignée dans les chartes d'usage. La ponctuation a de même acquis des valeurs nouvelles : un point final dans un message court est lu comme sec ou fâché par les jeunes locuteurs, alors qu'il ne signalait rien d'autre qu'une fin de phrase.`],
     ["Les codes des plateformes", `Le registre écrit sur les réseaux sociaux varie fortement selon la plateforme et le public visé. Un même locuteur écrit différemment sur un réseau professionnel, sur un réseau d'images, dans un groupe familial et dans un forum spécialisé — et cette adaptation est une compétence, non une incohérence.

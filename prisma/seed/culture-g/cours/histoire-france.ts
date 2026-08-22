@@ -626,7 +626,7 @@ Cette fracture entre républicains modérés et mouvement ouvrier pèsera longte
 
 Le décret d'avril 1848, porté par Victor Schœlcher, abolit définitivement l'esclavage dans les colonies françaises. « Définitivement » importe : l'abolition de 1794 avait été annulée par Napoléon en 1802, et Schœlcher fait adopter le principe qu'aucun sol français ne peut plus porter d'esclave.
 
-Le texte prévoit une indemnisation, versée non aux affranchis mais aux propriétaires — disposition longtemps passée sous silence et aujourd'hui au cœur des débats mémoriels.
+Le décret est immédiat et sans condition — il n'organise ni période transitoire ni apprentissage obligatoire, contrairement à ce qu'avaient prévu les Britanniques quinze ans plus tôt.
 
 La République n'aura duré que quatre ans. Le 2 décembre 1851, Louis-Napoléon Bonaparte, président élu et non rééligible, dissout l'Assemblée par un coup d'État. La date est choisie — anniversaire du sacre et d'Austerlitz. La résistance, réelle en province, est écrasée, et un plébiscite ratifie l'opération. L'Empire est proclamé un an plus tard.`],
     ["Moderniser un pays", `Le Second Empire est une période de transformation économique d'une intensité sans précédent, et l'État y joue un rôle moteur.
@@ -892,7 +892,7 @@ Plusieurs facteurs l'expliquent. La démographie d'abord : la France, qui avait 
 Le résultat n'est pas un retard mais une trajectoire différente : croissance régulière, maintien d'un tissu de petites entreprises, spécialisation dans les produits de qualité plutôt que dans la production de masse, et coexistence durable de l'usine et de l'atelier.`],
     ["Les régions industrielles", `Le bassin houiller du Nord-Pas-de-Calais est le plus important de France, avec plus de la moitié de la production nationale. Il structure une société entière : corons, compagnies minières, hiérarchie sociale, syndicalisme puissant. Il façonne aussi un paysage — les terrils, aujourd'hui inscrits au patrimoine mondial.
 
-La catastrophe de Courrières, en 1906, y fait plus de mille cent morts dans un coup de poussier — explosion de poussières de charbon en suspension. C'est la plus grave catastrophe minière d'Europe. Elle provoque une grève massive et accélère la législation sur la sécurité minière et la création d'un ministère du Travail.
+Le bassin du Nord-Pas-de-Calais paie ce rythme au prix fort : l'accident minier de 1906, le plus meurtrier d'Europe, déclenche une grève de plusieurs semaines et pèse directement sur la naissance du ministère du Travail la même année.
 
 La Lorraine se spécialise dans la sidérurgie grâce à son minerai de fer, la minette, dont la teneur en phosphore rendait longtemps l'acier cassant — jusqu'au procédé Thomas, en 1878, qui rend ce minerai exploitable et transforme la région.
 
@@ -1109,7 +1109,7 @@ La fracture territoriale désigne l'écart croissant d'accès aux services, aux 
   "hf3-culture-france-xxe": [
     ["Une politique publique de la culture", `La France a fait de la culture une politique publique bien avant la plupart de ses voisins. Le ministère des Affaires culturelles est créé en 1959 pour André Malraux, et c'est le premier au monde à porter ce nom et ce périmètre.
 
-Sa mission fondatrice, formulée dans le décret, est de rendre accessibles les œuvres capitales de l'humanité au plus grand nombre possible de Français, d'assurer la plus vaste audience au patrimoine culturel et de favoriser la création des œuvres.
+L'idée neuve n'est pas de subventionner les artistes — les États le font depuis longtemps — mais de considérer l'accès à la culture comme un droit à organiser, au même titre que l'école ou la santé. De là les maisons de la culture, implantées en province pour rompre avec la concentration parisienne.
 
 Cette conception suppose que l'accès est l'obstacle principal, et elle a été discutée dès les années 1960 par les travaux de sociologie qui montraient le poids du capital scolaire dans la fréquentation.
 
@@ -1310,7 +1310,7 @@ Henri Lebesgue développe au début du XXe siècle une théorie de l'intégratio
 Nicolas Bourbaki est un mathématicien qui n'existe pas : c'est le pseudonyme collectif d'un groupe fondé en 1935 par de jeunes normaliens — Weil, Cartan, Dieudonné et d'autres — qui entreprennent de refonder l'ensemble des mathématiques sur des bases axiomatiques rigoureuses. Leurs *Éléments de mathématique*, publiés pendant des décennies, ont marqué durablement le style mathématique mondial, et leur influence sur les programmes scolaires — les mathématiques modernes des années 1970 — fut plus contestée.
 
 La médaille Fields, équivalent du Nobel pour les mathématiques, a été attribuée à une douzaine de Français, ce qui place la France au deuxième rang mondial derrière les États-Unis.`],
-    ["L'état de la recherche", `Les rapports récents convergent sur un constat : la France investit environ deux virgule deux pour cent de son PIB dans la recherche, en deçà de l'objectif européen de trois pour cent fixé en 2000 et jamais atteint.
+    ["L'état de la recherche", `Les rapports récents convergent sur un autre constat : la France forme beaucoup de docteurs mais en emploie peu dans ses entreprises, où le diplôme d'ingénieur reste la voie royale. Cette particularité française n'existe ni en Allemagne ni aux États-Unis, et elle prive la recherche privée d'une partie de ses compétences.
 
 Le déficit porte principalement sur la recherche privée, plus faible qu'en Allemagne, en Corée du Sud ou aux États-Unis, malgré un crédit d'impôt recherche parmi les plus généreux au monde.
 

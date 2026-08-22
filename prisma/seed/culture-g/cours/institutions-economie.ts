@@ -360,7 +360,7 @@ Les chocs pétroliers de 1973 et 1979 ajoutent une difficulté que la théorie d
 
 Sa résolution passe par des plans d'aide assortis de programmes d'austérité aux effets sociaux sévères, puis par l'engagement de la Banque centrale européenne en 2012 de faire « tout ce qu'il faudra » pour préserver l'euro — trois mots qui ont calmé les marchés sans qu'un euro soit dépensé, illustration de ce que vaut la crédibilité d'une banque centrale.
 
-La crise de 2020 présente une particularité inédite : un arrêt volontaire de l'activité pour raisons sanitaires. Ce n'est ni un choc financier ni un choc d'offre ordinaire, mais une interruption décidée. Cette nature explique la réponse — soutien massif des revenus et de la trésorerie plutôt que relance de la demande — et la rapidité du rebond, l'appareil productif n'ayant pas été détruit. Elle a laissé en héritage un endettement public sans précédent en temps de paix, et le retour de l'inflation deux ans plus tard.
+La crise de 2020 déroge à toutes les grilles d'analyse antérieures : l'activité s'arrête sur décision publique, et non parce qu'un marché s'effondre. La riposte s'en déduit — soutenir les revenus et la trésorerie le temps de l'arrêt, au lieu de relancer une demande qui n'avait pas disparu — et le rebond est rapide, l'outil de production étant intact. Restent deux héritages : une dette publique sans équivalent en temps de paix, et le retour de l'inflation deux ans plus tard.
 
 Chaque grande crise a ainsi produit une remise en cause des idées dominantes de son époque : c'est probablement la régularité la plus solide de l'histoire de la pensée économique.`],
   ],
