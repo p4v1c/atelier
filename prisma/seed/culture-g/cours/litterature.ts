@@ -534,4 +534,34 @@ L'office est un envoi régulier de nouveautés adressé automatiquement au libra
 
 Le label Librairie indépendante de référence, attribué par le ministère de la Culture, reconnaît les librairies dont le travail de sélection et d'animation dépasse la simple vente : il ouvre droit à des avantages fiscaux et à des aides. La France compte environ trois mille librairies indépendantes, densité sans équivalent en Europe, et l'un des rares pays où ce commerce n'a pas été laminé par la vente en ligne.`],
   ],
+
+  "li2-litterature-hispanique": [
+    ["Le premier roman moderne", `Don Quichotte paraît en deux parties, en 1605 et 1615, et est souvent tenu pour le premier roman moderne européen. Un hidalgo pauvre, rendu fou par ses lectures de romans de chevalerie, part sur les routes redresser des torts imaginaires, accompagné d'un paysan qui voit le monde tel qu'il est.
+
+Ce qui en fait un roman moderne tient à trois choses. Le décalage permanent entre ce que le héros voit et ce qui est, dont naît le comique et la mélancolie. La présence, dans la seconde partie, de personnages qui ont lu la première — Don Quichotte y rencontre des gens qui connaissent ses aventures. Et le refus de trancher : Cervantès ne dit jamais si son personnage est fou ou lucide. Le livre a été lu comme une farce pendant deux siècles avant qu'on n'y voie autre chose.`],
+    ["Le Siècle d'or", `Le Siècle d'or espagnol désigne une période de floraison littéraire et artistique s'étendant du XVIe au XVIIe siècle, qui coïncide avec l'apogée politique de l'Espagne et se prolonge dans son déclin.
+
+Au théâtre, Lope de Vega écrit un nombre de pièces si considérable qu'on lui en attribue plusieurs centaines — le chiffre exact reste incertain. Il fixe la comedia espagnole, en trois actes et en vers, avec un mélange de tons que le classicisme français refusera. Calderón de la Barca, une génération plus tard, écrit La vie est un songe, méditation sur l'illusion de l'existence dont le monologue final compte parmi les sommets du théâtre européen.`],
+    ["Le pícaro", `Le roman picaresque est un récit à la première personne suivant un marginal — le pícaro — qui passe de maître en maître et raconte sa survie dans une société qu'il décrit d'en bas. Le genre naît en Espagne au milieu du XVIe siècle avec le Lazarillo de Tormes, publié anonymement, sans doute pour éviter l'Inquisition.
+
+Sa forme a fait souche : la narration à la première personne, la structure en épisodes, le regard cynique sur les puissants et la mobilité sociale du héros se retrouvent dans le roman anglais du XVIIIe siècle, chez Voltaire, et jusque dans le road movie contemporain.`],
+    ["Le XXe siècle et le boom", `Federico García Lorca, poète et dramaturge, est assassiné en 1936 dans les premières semaines de la guerre civile espagnole ; son corps n'a jamais été retrouvé. Son œuvre, ancrée dans l'Andalousie et le flamenco, allie tradition populaire et modernité surréaliste.
+
+De l'autre côté de l'Atlantique, le Chilien Pablo Neruda reçoit le Nobel en 1971 pour une œuvre qui va du lyrisme amoureux à l'épopée continentale. Le boom latino-américain désigne l'essor international du roman latino-américain dans les années 1960 : García Márquez, Vargas Llosa, Cortázar, Fuentes sont traduits partout en quelques années. Cortázar y apporte l'expérimentation formelle avec Marelle, roman dont l'auteur propose deux ordres de lecture — linéaire, ou en sautant de chapitre en chapitre selon une table. Vargas Llosa, Péruvien, reçoit le Nobel en 2010.`],
+  ],
+
+  "li3-litterature-scolaire": [
+    ["Qu'est-ce qu'un classique", `Un classique littéraire est une œuvre dont la valeur est reconnue durablement par une tradition de lecture. La définition est circulaire, et c'est assumé : est classique ce qu'on continue de lire, d'éditer, de citer et d'enseigner. Aucune qualité intrinsèque ne garantit ce statut, et des auteurs immenses de leur temps ont disparu.
+
+Le canon littéraire est l'ensemble des œuvres tenues pour essentielles par une culture à un moment donné. Le mot vient du domaine religieux, et le parallèle est éclairant : il y a des textes retenus, des textes écartés, et des débats sur les frontières. Le corpus scolaire n'est donc pas figé — il change à chaque génération, en fonction de choix culturels et pédagogiques qui se discutent, et l'entrée d'autrices, d'auteurs francophones ou de littératures de genre y est un enjeu récurrent.`],
+    ["Les exercices", `Trois exercices structurent l'enseignement littéraire français. L'explication de texte procède de façon linéaire : elle suit l'extrait pas à pas pour en montrer le fonctionnement, mot à mot s'il le faut. Le commentaire composé fait le même travail mais l'organise en axes de lecture, ce qui exige de construire un plan plutôt que de suivre le texte.
+
+La dissertation littéraire, enfin, est une réflexion argumentée sur une question générale, appuyée sur des œuvres. Ces exercices sont propres à la tradition française et déroutent souvent les élèves venus d'autres systèmes ; ils supposent une gymnastique qui n'est pas la lecture ordinaire, ce qui est à la fois leur intérêt et leur limite.`],
+    ["Lire en entier, lire pour soi", `Une œuvre intégrale au programme est étudiée dans sa totalité et non par extraits — distinction importante, l'enseignement français ayant longtemps reposé sur des morceaux choisis découpés dans des anthologies. Lire un roman entier et lire dix pages d'un roman ne produisent pas la même expérience.
+
+La lecture cursive désigne une lecture personnelle et suivie, hors étude détaillée : on lit l'œuvre pour elle-même, sans en analyser chaque page. Le carnet de lecture accompagne souvent ce travail : un support où l'élève consigne ses réactions, ses citations et ses observations, sans format imposé. Ces dispositifs cherchent à préserver un rapport direct au texte que l'exercice technique peut décourager.`],
+    ["Le débat qui ne se referme pas", `Un débat traverse tout l'enseignement de la littérature : l'équilibre entre l'analyse technique et le plaisir de lire. Trop d'appareil critique, et l'on dégoûte des élèves qui n'ont jamais eu l'occasion d'aimer un livre ; trop peu, et l'on renonce à donner les outils qui permettent de lire des textes difficiles, ceux que précisément on ne lira jamais seul.
+
+Les enquêtes montrent que la lecture personnelle chute fortement à l'adolescence, au moment même où l'école intensifie l'analyse. Corrélation n'est pas causalité, et l'école n'est pas seule en cause face à la concurrence des écrans. Mais le constat suffit à expliquer que les programmes oscillent d'une réforme à l'autre entre les deux exigences, sans qu'aucune génération d'enseignants n'ait trouvé la formule qui les concilie.`],
+  ],
 };
