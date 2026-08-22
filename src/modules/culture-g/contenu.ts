@@ -16,6 +16,7 @@ import { qcm, type QcmPayload } from "../kinds/qcm";
 import type { LessonDocument, LessonVisuel, ModuleBatch, SeedExercise, SeedSkill } from "../types";
 import { SUJETS } from "./index";
 import { CG_NEUF } from "../../../prisma/seed/culture-g";
+import { FUSIONS } from "../../../prisma/seed/culture-g/cours/fusions";
 
 /**
  * Le contenu du cahier d'origine, tel qu'il est arrivé par la fusion.
@@ -326,14 +327,56 @@ export function chargerContenuCultureG(): ModuleBatch[] {
     skill.exercises = skill.exercises.filter((e) => !vues.has(cleQuestion(e.payload)));
   }
 
-  /* Les notions écrites à la main, qui n'ont pas encore de cours. Elles sont
-     dans un lot à part pour qu'on puisse les retrouver d'un coup d'œil —
-     c'est un chantier en cours, pas un état définitif. Voir
-     prisma/seed/culture-g/RESUME.md. */
+  /* Les notions écrites à la main. Celles dont le sujet a déjà son chapitre
+     dans le cahier d'origine sont versées dedans plutôt que de lui faire
+     concurrence — voir prisma/seed/culture-g/cours/fusions.ts. Le reste forme
+     un lot à part, repérable d'un coup d'œil. */
+  const neuves = fusionner(lecons, CG_NEUF);
+
   return [
     { id: "cg-lecons", skills: lecons },
     // Un groupe vidé de ses doublons peut tomber sous le minimum jouable.
     { id: "cg-libre", skills: libres.filter((s) => s.exercises.length >= 2) },
-    { id: "cg-neuf", skills: CG_NEUF },
+    { id: "cg-neuf", skills: neuves },
   ];
+}
+
+/**
+ * Verse les questions des notions fusionnées dans la leçon qui traite déjà
+ * leur sujet, et renvoie celles qui restent autonomes.
+ *
+ * Les skills de `lecons` sont modifiés sur place : ils gagnent les exercices,
+ * sous leur propre batch, pour que le seed les range avec le reste du chapitre.
+ * Une question déjà présente dans la leçon d'accueil n'est pas ajoutée deux
+ * fois — le validateur la refuserait, et elle n'apprendrait rien de plus.
+ *
+ * Une cible introuvable est une faute de frappe qu'il vaut mieux voir tout de
+ * suite : on la signale plutôt que de perdre les questions en silence.
+ */
+function fusionner(lecons: SeedSkill[], neuves: SeedSkill[]): SeedSkill[] {
+  const parSlug = new Map(lecons.map((s) => [s.slug, s]));
+
+  const ciblesInconnues = [...new Set(Object.values(FUSIONS))].filter((c) => !parSlug.has(c));
+  if (ciblesInconnues.length > 0) {
+    throw new Error(
+      `Fusion impossible, leçon d'accueil introuvable : ${ciblesInconnues.join(", ")}. ` +
+        "Vérifie les slugs dans prisma/seed/culture-g/cours/fusions.ts."
+    );
+  }
+
+  const restantes: SeedSkill[] = [];
+  for (const notion of neuves) {
+    const cible = parSlug.get(FUSIONS[notion.slug.replace(/^cg-neuf-/, "")] ?? "");
+    if (!cible) {
+      restantes.push(notion);
+      continue;
+    }
+    const deja = new Set(cible.exercises.map((e) => cleQuestion(e.payload)));
+    for (const exercice of notion.exercises) {
+      if (deja.has(cleQuestion(exercice.payload))) continue;
+      deja.add(cleQuestion(exercice.payload));
+      cible.exercises.push({ ...exercice, batch: cible.exercises[0]?.batch ?? exercice.batch });
+    }
+  }
+  return restantes;
 }

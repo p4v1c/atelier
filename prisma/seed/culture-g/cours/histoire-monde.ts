@@ -62,18 +62,6 @@ Le Brésil se sépare sans guerre : la cour portugaise, réfugiée à Rio pendan
 Deux projets échouent. Celui de Bolívar d'une union continentale, dont la Grande Colombie fondée en 1819 était l'amorce, se défait sous l'effet des rivalités régionales, des distances et de l'absence d'élites communes. Et la doctrine Monroe, énoncée par les États-Unis en 1823, qui affirme que l'Europe ne doit plus intervenir dans les Amériques, se révélera moins une protection qu'un titre d'intervention pour Washington lui-même.`],
   ],
 
-  "hm-meiji-japon": [
-    ["S'ouvrir et se transformer", `En 1853, les navires du commodore américain Perry entrent dans la baie d'Edo et exigent l'ouverture du pays, fermé depuis deux siècles. L'incapacité du shogunat à résister provoque sa chute.
-
-L'ère Meiji, commencée en 1868, restaure formellement le pouvoir impérial et engage une modernisation d'une rapidité inédite : constitution, armée de conscription, chemin de fer, industrie, système scolaire. Les samouraïs perdent leurs privilèges, leur pension et le droit de porter le sabre ; certains se révoltent, sans succès. En une génération, le Japon passe d'une société d'ordres à un État industriel.`],
-    ["Devenir une puissance", `Trois guerres jalonnent l'ascension. En 1894-1895, le Japon bat la Chine et prend Taïwan. En 1905, il bat la Russie : c'est la première victoire d'une puissance asiatique sur une puissance européenne moderne, et le retentissement en est mondial. En 1910, il annexe la Corée, qu'il administrera brutalement jusqu'en 1945.
-
-Le modèle suivi est explicitement occidental : industrialisation, marine, empire colonial. Le Japon obtient l'abrogation des traités inégaux et siège parmi les vainqueurs de 1918.`],
-    ["L'engrenage", `Dans les années 1930, l'armée impose sa ligne au pouvoir civil. Le Japon envahit la Mandchourie en 1931 et y installe un État fantoche ; la Société des Nations condamne, il en sort. La guerre ouverte avec la Chine commence en 1937 et s'accompagne d'atrocités massives, dont le massacre de Nankin.
-
-L'embargo américain sur le pétrole pousse Tokyo à l'attaque : le 7 décembre 1941, Pearl Harbor fait entrer les États-Unis en guerre. Le tournant vient en juin 1942 à Midway, où la marine japonaise perd quatre porte-avions en une journée. Trois ans plus tard, deux bombes atomiques et l'entrée en guerre soviétique achèvent l'empire.`],
-  ],
-
   "hm-etats-unis-19e": [
     ["S'étendre", `En 1803, les États-Unis achètent la Louisiane à la France de Napoléon, doublant leur superficie pour quinze millions de dollars. L'expansion devient ensuite une idéologie : la Destinée manifeste énonce que les États-Unis ont vocation à s'étendre jusqu'au Pacifique.
 

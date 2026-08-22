@@ -38,18 +38,6 @@ Deux autres figures procèdent par contiguïté et non par ressemblance. La mét
 La prétérition relève d'une autre logique, celle de la feinte : annoncer qu'on ne dira pas ce qu'on dit malgré tout — je ne mentionnerai pas ses échecs répétés. Elle permet de formuler une accusation tout en affichant la délicatesse de s'en abstenir, ce qui la rend redoutable en rhétorique judiciaire et politique.`],
   ],
 
-  "li-mouvements-litteraires": [
-    ["De l'humanisme au classicisme", `Un mouvement littéraire se reconnaît généralement à un texte programmatique : manifeste, préface, revue. L'humanisme du XVIe siècle replace l'homme et les textes antiques au centre du savoir, à la faveur de l'imprimerie et de la redécouverte des sources grecques. La Pléiade, groupe de poètes mené par Ronsard et Du Bellay, veut illustrer la langue française et lui donner la dignité du latin.
-
-Le classicisme du XVIIe siècle impose au contraire la règle : au théâtre, la règle des trois unités — un jour, un lieu, une action — et un idéal de mesure, de clarté et de vraisemblance. Il ne s'agit pas d'un carcan subi, mais d'une contrainte revendiquée comme condition de l'intensité.`],
-    ["Lumières et romantisme", `Le siècle des Lumières place la raison et l'esprit critique au premier plan, et fait de la littérature un instrument : conte philosophique, dictionnaire, lettres fictives servent à mettre en cause l'autorité, la religion et les institutions.
-
-Le romantisme, au début du XIXe siècle, opère le renversement : c'est le moi et ses émotions qui passent au centre, avec le goût de la nature, du passé médiéval et de l'exception. La préface de Cromwell, écrite par Hugo en 1827, en fixe le programme théâtral, et la bataille d'Hernani en 1830 en marque la victoire bruyante.`],
-    ["Voir le réel, ou s'en affranchir", `Le réalisme veut peindre la société telle qu'elle est, avec ses milieux, ses métiers et ses conditionnements. Émile Zola pousse le programme plus loin en théorisant le naturalisme : appliquer au roman la méthode expérimentale des sciences, en étudiant l'effet du milieu et de l'hérédité sur des personnages traités comme des cas.
-
-À l'inverse, le Parnasse résume sa doctrine par la formule l'art pour l'art : la poésie ne doit servir ni la morale, ni la politique, ni l'émotion personnelle, mais viser la perfection formelle. Au XXe siècle, André Breton publie en 1924 le Manifeste du surréalisme et donne à l'écriture automatique, au rêve et au hasard une valeur de méthode. Les années 1950 voient enfin le Nouveau Roman rompre avec l'intrigue et le personnage traditionnels, jugés conventions périmées.`],
-  ],
-
   "li-theatre-francais": [
     ["Une institution", `La Comédie-Française est fondée en 1680 par une décision de Louis XIV, qui fusionne les troupes parisiennes existantes en une seule compagnie dotée d'un monopole. Elle est aujourd'hui la plus ancienne troupe de théâtre permanente au monde encore en activité.
 
@@ -60,30 +48,6 @@ En 1830, la première d'Hernani, de Victor Hugo, tourne à l'affrontement organi
     ["Le XXe siècle", `Après-guerre, le théâtre se réinvente sur deux fronts. Samuel Beckett écrit En attendant Godot, créée en 1953 : deux vagabonds attendent quelqu'un qui ne viendra pas, l'intrigue est abolie et l'attente devient le sujet. Eugène Ionesco pousse l'absurde vers la mécanique du langage ; sa Cantatrice chauve, créée en 1950, est jouée sans interruption depuis 1957 dans le même petit théâtre parisien.
 
 Sur le plan des idées, Antonin Artaud avait appelé dès 1938, dans Le Théâtre et son double, à un théâtre de la cruauté agissant physiquement sur le spectateur. Bertolt Brecht propose une voie inverse avec la distanciation : empêcher l'identification, rappeler au spectateur qu'il est au théâtre, pour qu'il juge au lieu de s'émouvoir. Côté institutions, Jean Vilar donne au Théâtre national populaire sa forme d'après-guerre et crée en 1947 le Festival d'Avignon, avec l'ambition d'un théâtre exigeant pour un public large.`],
-  ],
-
-  "li-roman-francais": [
-    ["Naissance et ambition", `La Princesse de Clèves, publiée anonymement en 1678 par Madame de La Fayette, est souvent tenue pour le premier roman d'analyse psychologique français : l'intrigue y compte moins que le mouvement intérieur d'une femme qui renonce.
-
-Au XIXe siècle, le roman devient une entreprise de connaissance sociale. Balzac construit à partir de 1830 La Comédie humaine, ensemble de près de cent romans reliés par le retour des personnages, qui prétend décrire une société entière. Zola reprend le projet avec Les Rougon-Macquart, histoire naturelle et sociale d'une famille sous le Second Empire, en vingt volumes.`],
-    ["Le scandale et la forme", `En 1857, Flaubert est poursuivi pour outrage à la morale publique après la parution de Madame Bovary : il est acquitté, la même année que Les Fleurs du mal de Baudelaire sont condamnées. Le procès a fait la fortune du livre, mais c'est le travail sur le style indirect libre qui a fait sa postérité.
-
-Marcel Proust publie à partir de 1913 À la recherche du temps perdu, sept volumes où la mémoire involontaire et la durée deviennent le sujet même du roman. Refusé par plusieurs éditeurs, le premier volume paraît à compte d'auteur.`],
-    ["Le XXe siècle et après", `L'Étranger, d'Albert Camus, s'ouvre en 1942 sur la mort d'une mère et l'indifférence apparente du narrateur : la neutralité du ton fait toute la charge du livre. Jean-Paul Sartre, en 1964, refuse le prix Nobel de littérature, estimant qu'un écrivain ne doit pas se laisser transformer en institution — il est à ce jour le seul à l'avoir refusé volontairement.
-
-Marguerite Duras obtient le Goncourt en 1984 pour L'Amant, récit d'une adolescence en Indochine. Annie Ernaux reçoit le prix Nobel de littérature en 2022 pour une œuvre qui fait du récit de soi un instrument d'analyse sociale. Le Goncourt, décerné chez Drouant depuis 1903, reste le prix le plus suivi : sa dotation est symbolique, son effet sur les ventes considérable.`],
-  ],
-
-  "li-poesie-francaise": [
-    ["Avant le XIXe siècle", `François Villon, poète du XVe siècle dont la biographie est faite de vols, de rixes et de condamnations, écrit la Ballade des pendus alors qu'il attend la potence : la voix qui parle est celle des cadavres s'adressant aux vivants. C'est la première grande voix personnelle de la poésie française.
-
-Le XIXe siècle produit la rupture. Les Fleurs du mal, publiées par Baudelaire en 1857, sont condamnées pour outrage aux bonnes mœurs et six pièces en sont retirées — la même année où Flaubert est acquitté. Baudelaire y invente une poésie de la ville moderne, de l'ennui et de la beauté trouvée dans le laid.`],
-    ["Les modernes", `Arthur Rimbaud écrit Le Bateau ivre à seize ans et cesse toute activité littéraire avant vingt et un ans, partant pour l'Afrique où il finira négociant : une œuvre entière tient en quatre ans. Verlaine, son compagnon de dérive, cherche au contraire une musique de la langue, dans des poèmes comme les Ariettes oubliées, qui s'ouvre sur il pleure dans mon cœur.
-
-Mallarmé pousse la recherche formelle à son terme avec Un coup de dés jamais n'abolira le hasard, poème disposé librement sur la double page, en corps et en polices variables : la page devient un espace, non une ligne. Apollinaire, au début du XXe siècle, mêle vers libre et lyrisme dans Le Pont Mirabeau, où la Seine et l'amour passé se confondent.`],
-    ["Engagements et matières", `Sous l'Occupation, Paul Éluard écrit un poème d'une vingtaine de strophes qui s'achève sur un seul mot, Liberté : parachuté par la Royal Air Force au-dessus de la France, il devient un texte de résistance.
-
-La même période voit naître la négritude, mouvement porté par des écrivains noirs francophones. Aimé Césaire, poète martiniquais, en est l'un des fondateurs avec le Cahier d'un retour au pays natal ; Léopold Sédar Senghor, poète sénégalais, en est l'autre, et devient président de son pays en 1960. Dans un tout autre registre, Francis Ponge consacre Le Parti pris des choses aux objets les plus ordinaires — un cageot, une huître, un galet — traités avec la précision d'un naturaliste et l'attention d'un poète.`],
   ],
 
   "li-litterature-anglaise": [
@@ -108,30 +72,6 @@ Jorge Luis Borges, Argentin, travaille au format court : les nouvelles réunies 
     ["L'Asie, l'Afrique, et les origines", `Le Dit du Genji, écrit vers l'an mille par Murasaki Shikibu, femme de la cour japonaise, est souvent tenu pour le premier roman du monde : plus de mille pages, une psychologie fine, une construction qui n'a pas d'équivalent à cette date. Yasunari Kawabata obtient en 1968 le premier prix Nobel de littérature japonais.
 
 En Afrique, Chinua Achebe publie en 1958 Le Monde s'effondre, qui raconte l'arrivée des colons britanniques du point de vue d'un village igbo : le roman inaugure une littérature africaine de langue anglaise écrite depuis l'intérieur. Wole Soyinka, Nigérian lui aussi, reçoit en 1986 le premier prix Nobel de littérature décerné à un écrivain africain. Bien avant tout cela, L'Épopée de Gilgamesh, écrite en Mésopotamie, reste l'un des plus anciens textes littéraires connus.`],
-  ],
-
-  "li-contes-jeunesse": [
-    ["Fixer les contes", `Charles Perrault publie en 1697 les Histoires ou contes du temps passé, qui rassemblent Cendrillon, Le Petit Chaperon rouge, La Belle au bois dormant. Il ne les invente pas : il fixe par écrit des contes populaires bien plus anciens, en les adaptant au goût de la cour — moralités en vers, détails adoucis, style poli.
-
-Un siècle plus tard, en Allemagne, les frères Grimm mènent une entreprise d'un autre esprit : philologues, ils recueillent Blanche-Neige, Hansel et Gretel et des centaines d'autres récits avec une intention de conservation. Leurs premières éditions sont nettement plus rudes que les suivantes, qu'ils adouciront eux aussi. Hans Christian Andersen, Danois, fait un pas de plus en écrivant des contes originaux — La Petite Sirène, Le Vilain Petit Canard — dont les fins malheureuses tranchent avec la tradition.`],
-    ["Venus d'ailleurs", `Les Mille et Une Nuits sont un ensemble de contes arabes, persans et indiens agrégés au fil des siècles, que le français Antoine Galland traduit et fait connaître à l'Europe au début du XVIIIe siècle. Il y ajoute des récits recueillis oralement, dont Aladin et Ali Baba, qui ne figuraient dans aucun manuscrit connu : la version européenne a en partie créé son objet.
-
-Rudyard Kipling, né en Inde, écrit Le Livre de la jungle en 1894 : le recueil mêle récits animaliers et réflexion sur la loi et l'appartenance, dans un contexte colonial dont l'œuvre porte la marque.`],
-    ["Les classiques modernes", `Carlo Collodi crée en 1881 Pinocchio, pantin de bois dont le nez s'allonge quand il ment : le conte italien est autant un roman d'apprentissage qu'une fable morale. Lewis Carroll, mathématicien anglais, publie Alice au pays des merveilles, où une fillette suit un lapin pressé dans un monde régi par la logique du non-sens.
-
-Antoine de Saint-Exupéry écrit Le Petit Prince, publié en 1943 à New York alors qu'il est en exil : c'est l'un des livres les plus traduits au monde. Astrid Lindgren crée en Suède le personnage de Fifi Brindacier, fillette libre, forte et sans parents, qui bouscule l'idée même de littérature enfantine sage. Maurice Sendak, enfin, publie en 1963 Max et les Maximonstres, album où un enfant puni voyage chez les monstres : longtemps jugé trop inquiétant, il est devenu un classique de l'album illustré.`],
-  ],
-
-  "li-edition-livre": [
-    ["Fabriquer le livre", `Johannes Gutenberg met au point vers 1450 l'imprimerie à caractères mobiles en Europe : l'innovation ne tient pas à un seul élément mais à leur combinaison — alliage de fonte, moule à caractères, presse à vis, encre grasse. Les livres imprimés avant 1501 sont appelés incunables, du latin désignant le berceau : on en connaît quelques dizaines de milliers d'éditions.
-
-En France, le dépôt légal date de 1537 : l'obligation de déposer un exemplaire de tout ouvrage publié, à l'origine pour surveiller la production, aujourd'hui pour la conserver. Il est aujourd'hui géré par la Bibliothèque nationale de France et étendu aux sites web. L'ISBN, plus récent, est un numéro international identifiant une édition précise d'un livre — une réédition en poche a le sien.`],
-    ["Les droits", `L'auteur ne vend pas son œuvre : il cède des droits d'exploitation, pour une durée, un territoire et des usages définis par contrat. Un à-valoir est une avance sur les droits d'auteur à venir, versée à la signature et récupérée sur les ventes.
-
-En France, les droits patrimoniaux durent soixante-dix ans après la mort de l'auteur, après quoi l'œuvre entre dans le domaine public. Le droit moral, lui, est perpétuel, incessible et imprescriptible : il protège la paternité de l'œuvre et son intégrité, et se transmet aux héritiers. C'est ce qui permet de s'opposer à une adaptation dénaturante longtemps après la mort d'un auteur. Certains auteurs choisissent à l'inverse le domaine public volontaire, en renonçant par avance à leurs droits patrimoniaux.`],
-    ["Le marché", `La loi Lang de 1981 instaure en France le prix unique du livre : l'éditeur fixe le prix, et tout détaillant doit le respecter à cinq pour cent de remise près. L'objectif est de protéger les librairies indépendantes d'une guerre des prix que seuls les grands distributeurs pourraient soutenir, et de maintenir la diversité éditoriale. Le dispositif a été étendu au livre numérique en 2011.
-
-Le format de poche est une réédition à bas prix d'un titre déjà paru en grand format, généralement un à deux ans plus tard, sur un papier et une fabrication moins coûteux. Ce délai n'est pas un hasard : il permet d'exploiter successivement deux publics et deux niveaux de prix pour le même texte.`],
   ],
 
   "li-critique-lecture": [

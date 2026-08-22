@@ -2,18 +2,6 @@
 import type { LotCours } from "../commun";
 
 export const COURS_INSTITUTIONS_ECONOMIE: LotCours = {
-  "ie-collectivites": [
-    ["Trois niveaux et une exception", `La France compte environ trente-quatre mille communes, plus que tout autre pays européen — davantage que l'Allemagne, l'Italie et l'Espagne réunies. Le maire n'est pas élu directement par les habitants : il est élu par le conseil municipal, lui-même issu du scrutin de liste.
-
-Chaque niveau a ses compétences. Le département gère les collèges et surtout l'action sociale, dont le revenu de solidarité active : c'est son premier poste de dépenses. La région, dont le nombre en métropole est passé à treize en 2016, gère les lycées, la formation professionnelle et les transports régionaux. Depuis 2015, la clause de compétence générale — qui permettait à une collectivité de traiter toute affaire d'intérêt local — n'existe plus que pour les communes.`],
-    ["Coopérer", `Le morcellement communal a conduit à multiplier les structures de coopération. La forme la plus intégrée est la métropole, qui exerce des compétences que les communes lui ont transférées : urbanisme, transports, développement économique. Communautés de communes, communautés d'agglomération et communautés urbaines constituent les échelons intermédiaires.
-
-Cette intercommunalité est devenue le véritable lieu de décision pour de nombreuses politiques locales, sans que ses instances soient élues au suffrage universel direct — ce qui constitue l'une des critiques récurrentes adressées au système.`],
-    ["Décentraliser", `Jusqu'aux années 1980, la France est un État très centralisé, où le préfet exerce une tutelle sur les actes des collectivités. La première grande loi de décentralisation, votée en 1982 à l'initiative de Gaston Defferre, supprime cette tutelle a priori, transfère l'exécutif départemental du préfet au président du conseil général, et engage les transferts de compétences.
-
-Le préfet demeure, mais dans un rôle différent : il représente l'État dans le département, dirige les services déconcentrés et contrôle a posteriori la légalité des actes locaux. En 2003, une révision constitutionnelle inscrit à l'article premier que l'organisation de la République est décentralisée — formulation symbolique, mais qui a servi de fondement à des transferts ultérieurs.`],
-  ],
-
   "ie-justice-france": [
     ["Deux ordres", `La justice française est organisée en deux ordres distincts, ce qui la singularise. L'ordre judiciaire juge les litiges entre personnes privées et les infractions pénales ; l'ordre administratif juge les litiges opposant les particuliers à l'administration. Cette séparation remonte à la Révolution et à la méfiance envers des juges qui entraveraient l'action publique.
 
@@ -26,18 +14,6 @@ Au pénal, la cour d'assises juge les crimes — les infractions les plus graves
 Depuis 2010, la question prioritaire de constitutionnalité permet à un justiciable de contester, à l'occasion d'un procès, la constitutionnalité d'une loi déjà en vigueur. Avant cette réforme, le contrôle ne pouvait intervenir qu'avant la promulgation, sur saisine d'autorités politiques : des lois anciennes pouvaient donc violer des droits sans qu'aucun juge puisse s'en saisir.`],
   ],
 
-  "ie-securite-sociale": [
-    ["1945", `La Sécurité sociale française est créée par les ordonnances de 1945, dans le prolongement du programme du Conseil national de la Résistance. Le ministre du Travail, le communiste Ambroise Croizat, en porte la mise en place, avec l'idée d'une couverture généralisée financée par le travail.
-
-Elle n'est pas l'État : elle est gérée par des caisses dotées de conseils où siègent représentants des salariés et des employeurs, sous tutelle publique. Ses branches historiques sont la maladie, la famille, la retraite et les accidents du travail ; une cinquième branche, l'autonomie, a été créée en 2020. L'assurance chômage constitue un régime distinct, géré de façon paritaire.`],
-    ["Comment ça se finance", `À l'origine, le financement repose entièrement sur les cotisations assises sur les salaires. Il s'est progressivement fiscalisé : la CSG, créée en 1991, est un impôt affecté au financement de la protection sociale, prélevé sur l'ensemble des revenus — y compris ceux du capital et les pensions — et non sur les seuls salaires.
-
-Cette évolution répond à un double constat : la masse salariale ne suffit plus à financer des dépenses qui croissent avec l'âge de la population, et faire peser la charge sur le seul travail renchérit l'emploi. La protection sociale représente aujourd'hui environ trente pour cent du PIB français, l'un des niveaux les plus élevés au monde.`],
-    ["Les mécanismes", `Le ticket modérateur est la part des frais de santé qui reste à la charge de l'assuré après remboursement : il est le plus souvent pris en charge par une complémentaire santé. La retraite fonctionne par répartition : les cotisations des actifs financent directement les pensions des retraités, sans capitalisation — ce qui rend le système dépendant du rapport entre cotisants et pensionnés.
-
-Deux dispositifs de solidarité complètent l'édifice. La couverture maladie universelle, créée en 1999 et devenue depuis la protection universelle maladie puis la complémentaire santé solidaire, étend l'accès aux soins aux plus démunis. Le RSA est un revenu minimum versé sous conditions de ressources, qui a succédé au RMI en 2009.`],
-  ],
-
   "ie-monnaie-banques": [
     ["Qu'est-ce que la monnaie", `La monnaie remplit trois fonctions : unité de compte, qui permet d'exprimer les prix ; intermédiaire des échanges, qui évite le troc ; réserve de valeur, qui permet de reporter un pouvoir d'achat dans le temps. Une monnaie qui cesse d'assurer la troisième — en cas d'hyperinflation — perd rapidement les deux autres.
 
@@ -48,30 +24,6 @@ Son outil ordinaire est le taux directeur. Quand elle le relève, le crédit dev
     ["Prix, changes et fragilités", `L'inflation se mesure par un indice des prix à la consommation calculé sur un panier de biens représentatif, dont la composition est révisée régulièrement — ce qui explique les écarts entre inflation mesurée et inflation ressentie. La déflation, baisse générale et durable des prix, est plus redoutée que l'inflation modérée : elle incite à reporter les achats et alourdit le poids réel des dettes.
 
 Le taux de change est le prix d'une monnaie exprimé dans une autre. Vingt pays utilisent l'euro comme monnaie officielle au sein de la zone euro. Enfin, une crise de liquidité bancaire survient lorsqu'une banque solvable ne parvient plus à se financer à court terme : ses actifs valent davantage que ses dettes, mais elle ne peut pas les vendre assez vite — d'où le rôle de prêteur en dernier ressort de la banque centrale.`],
-  ],
-
-  "ie-entreprise-travail": [
-    ["Ce qui définit le salariat", `Un contrat de travail se caractérise juridiquement par le lien de subordination : le salarié exécute un travail sous l'autorité d'un employeur qui donne des ordres, en contrôle l'exécution et sanctionne les manquements. Ce n'est ni le mode de rémunération ni le lieu de travail qui distinguent un salarié d'un indépendant, mais ce lien — d'où les contentieux sur la requalification des travailleurs de plateformes.
-
-Le contrat à durée indéterminée est la forme de droit commun en France : le contrat à durée déterminée et l'intérim sont des exceptions, dont les cas de recours sont limitativement énumérés. La durée légale du travail hebdomadaire est de trente-cinq heures — durée de référence à partir de laquelle se déclenchent les majorations, et non maximum autorisé.`],
-    ["Les formes de l'entreprise", `Une entreprise individuelle est une activité exercée par une personne physique, sans création de société : depuis 2022, son patrimoine professionnel est automatiquement séparé de son patrimoine personnel.
-
-Les sociétés se distinguent par leur taille cible et leur gouvernance. La SARL convient aux structures de taille modeste, avec des parts sociales dont la cession est encadrée. La SA est conçue pour de grandes structures et un actionnariat large, avec un capital minimum et un conseil d'administration ; la SAS, plus récente et très souple, a largement supplanté les deux en nombre de créations.`],
-    ["Représentation et ruptures", `Dans les entreprises d'au moins onze salariés, le comité social et économique représente le personnel : créé en 2017, il a fusionné les délégués du personnel, le comité d'entreprise et le comité d'hygiène et de sécurité. Une convention collective, négociée au niveau de la branche, complète le code du travail et s'impose à l'employeur lorsqu'elle est plus favorable.
-
-Les litiges individuels entre employeur et salarié relèvent du conseil de prud'hommes, juridiction paritaire composée de juges élus, employeurs et salariés à parts égales. Deux dispositifs récents encadrent les fins de contrat et les crises : la rupture conventionnelle, créée en 2008, permet de rompre un CDI d'un commun accord tout en ouvrant droit à l'assurance chômage ; l'activité partielle, ou chômage partiel, indemnise une réduction d'activité pour éviter les licenciements — son usage massif en 2020 a fortement limité les destructions d'emplois.`],
-  ],
-
-  "ie-commerce-mondial": [
-    ["Pourquoi échanger", `David Ricardo formule au début du XIXe siècle la théorie des avantages comparatifs : deux pays ont intérêt à se spécialiser et à échanger même si l'un est plus efficace que l'autre dans toutes les productions, car ce qui compte est le coût relatif, non le coût absolu. C'est le fondement théorique du libre-échange, et l'un des rares résultats économiques à la fois contre-intuitif et solidement établi.
-
-Le commerce mondial est régulé depuis 1995 par l'Organisation mondiale du commerce, qui a succédé au GATT. Elle fixe des règles, arbitre les différends et anime des cycles de négociation — dont le dernier, ouvert en 2001, n'a jamais abouti, ce qui a favorisé les accords bilatéraux et régionaux.`],
-    ["Les instruments", `Un droit de douane est une taxe sur les produits importés : il renchérit le bien étranger pour protéger la production nationale, au prix d'un coût pour le consommateur. Les négociations multilatérales les ont fortement abaissés, ce qui a déplacé la protection vers les barrières non tarifaires — normes techniques, sanitaires, procédures de certification — qui entravent l'importation sans taxer.
-
-Le dumping consiste à vendre à l'étranger en dessous du prix pratiqué sur le marché intérieur, voire en dessous du coût : les règles de l'OMC autorisent des droits antidumping en réponse. Deux grands accords régionaux structurent aujourd'hui les échanges occidentaux : l'ACEUM, qui lie depuis 2020 les États-Unis, le Mexique et le Canada, et le CETA entre l'Union européenne et le Canada.`],
-    ["Lire les chiffres", `La balance commerciale est la différence entre exportations et importations de biens sur une période. Un déficit commercial n'est pas une dette : c'est un solde de flux, qui peut être financé par des entrées de capitaux et se maintenir durablement sans crise — les États-Unis en sont l'exemple permanent.
-
-La Chine est aujourd'hui le premier exportateur mondial de marchandises. Mais la statistique nationale d'exportation dit de moins en moins qui a créé la valeur : dans une chaîne de valeur mondiale, les étapes de production d'un bien sont réparties entre plusieurs pays, et un produit exporté depuis un pays peut n'y avoir gagné qu'une faible part de sa valeur. C'est ce qui a conduit à développer des statistiques en valeur ajoutée.`],
   ],
 
   "ie-croissance-inegalites": [
@@ -132,18 +84,6 @@ Le référendum, consultation directe des citoyens sur un texte ou une question,
     ["Compter les voix, et compter les contre-pouvoirs", `Le mode de scrutin façonne le paysage politique. Le scrutin majoritaire à deux tours fait gagner celui qui arrive en tête au second tour : il favorise les grandes formations et produit des majorités nettes, au prix d'une sous-représentation des minorités. La représentation proportionnelle répartit les sièges selon le pourcentage de voix : elle représente mieux la diversité et rend les coalitions nécessaires.
 
 Une notion récente complète ce vocabulaire : la démocratie illibérale désigne un régime issu des urnes qui affaiblit progressivement les contre-pouvoirs — justice, presse, opposition, société civile — sans supprimer les élections. Elle rappelle qu'un vote majoritaire ne suffit pas à définir une démocratie.`],
-  ],
-
-  "ie-energie-transition": [
-    ["Énergie n'est pas électricité", `Énergie et électricité ne sont pas la même chose : l'électricité ne représente qu'environ un quart de l'énergie finale consommée en France. Le reste va aux carburants des transports et à la chaleur, largement issue des énergies fossiles. C'est ce qui explique qu'un mix électrique très décarboné ne suffise pas à décarboner un pays.
-
-En France, le nucléaire produit la majorité de l'électricité, ce qui est une exception mondiale. À l'échelle du globe, la première source d'énergie primaire reste le pétrole, devant le charbon et le gaz. Le mix énergétique d'un pays désigne précisément la répartition des sources qu'il consomme.`],
-    ["Les mots de la transition", `Une énergie renouvelable est une source dont le stock se reconstitue à l'échelle humaine : soleil, vent, eau, biomasse, géothermie. Renouvelable ne signifie pas sans impact — matériaux, emprise au sol et fin de vie comptent aussi.
-
-Certaines de ces sources sont intermittentes : leur production dépend du vent ou du soleil et ne se commande pas. Cette caractéristique impose du stockage, des interconnexions et de la flexibilité de la demande, non l'abandon de la source. La neutralité carbone, enfin, désigne un équilibre entre les émissions de gaz à effet de serre et les absorptions par les puits naturels ou technologiques — c'est un solde, pas une absence d'émissions.`],
-    ["Agir, et les effets pervers", `En France, le secteur qui émet le plus de gaz à effet de serre est celui des transports, devant l'agriculture et l'industrie : c'est la conséquence directe d'une électricité peu carbonée et d'une dépendance persistante aux carburants.
-
-Deux leviers coexistent. Le mécanisme européen d'échange de quotas d'émission crée un marché où les industriels achètent des droits à émettre du CO2, dont le nombre total diminue : le prix du carbone incite à réduire là où c'est le moins coûteux. La sobriété énergétique agit autrement, en réduisant la consommation par les usages et l'organisation plutôt que par la technique. Elle répond à une limite bien identifiée de l'efficacité seule, l'effet rebond : les gains d'efficacité sont partiellement annulés par une hausse de l'usage qu'ils rendent possible.`],
   ],
 
   "ie-consommation-droit": [

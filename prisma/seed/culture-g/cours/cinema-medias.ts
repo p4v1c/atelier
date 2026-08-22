@@ -2,18 +2,6 @@
 import type { LotCours } from "../commun";
 
 export const COURS_CINEMA_MEDIAS: LotCours = {
-  "cm-naissance-cinema": [
-    ["Une invention à plusieurs mains", `Le cinéma n'a pas un inventeur mais une dizaine. Dans les années 1890, plusieurs équipes travaillent en parallèle sur l'enregistrement et la restitution du mouvement. Edison met au point le kinétoscope, une visionneuse individuelle où l'on regarde le film par un œilleton, une personne à la fois.
-
-Ce que les frères Lumière brevettent en 1895, avec le cinématographe, est autre chose : un appareil léger, à la fois caméra et projecteur, qui permet la projection collective. Le 28 décembre 1895, au Grand Café à Paris, ils organisent la première projection publique payante. L'invention décisive n'est donc pas technique mais économique et sociale : faire payer un public assemblé dans une salle.`],
-    ["Raconter avec des images", `Les Lumière filment le réel ; Georges Méliès, illusionniste de métier, invente la fiction et le trucage. Son Voyage dans la Lune, en 1902, enchaîne substitutions, surimpressions et décors peints : le cinéma découvre qu'il peut mentir, donc raconter.
-
-Les Soviétiques théorisent ensuite le montage. Sergueï Eisenstein développe le montage des attractions, où le choc entre deux plans produit une idée que ni l'un ni l'autre ne contient. L'expérience dite effet Koulechov le démontre : un même visage neutre paraît affamé, triste ou attendri selon qu'on le fait précéder d'une assiette, d'un cercueil ou d'un enfant. Le sens naît de la succession, pas du plan.`],
-    ["Les grandes ruptures", `Le cinéma muet développe un art propre avant d'y renoncer. Charlie Chaplin crée le personnage du vagabond au chapeau melon, universellement compris parce que sans paroles. En Allemagne, l'expressionnisme des années 1920 impose des décors déformés, des perspectives fausses et des ombres peintes à même le décor : une manière de rendre visible un état psychique.
-
-Le parlant arrive en 1927 avec Le Chanteur de jazz, premier film à succès à synchroniser son et image. La transition ruine des carrières et immobilise d'abord les caméras, enfermées dans des cabines insonorisées. Quatorze ans plus tard, Citizen Kane rassemble les acquis : profondeur de champ étendue, narration éclatée entre plusieurs témoignages, plafonds visibles dans le cadre. Il figure depuis en tête de la plupart des classements critiques.`],
-  ],
-
   "cm-langage-cinematographique": [
     ["Cadrer", `L'échelle des plans se définit par la place du corps humain dans le cadre. Le plan d'ensemble montre un décor entier et les personnages en pied, situant l'action. Le plan moyen coupe à mi-cuisses, le plan rapproché à la poitrine, et le gros plan isole un visage ou un détail — c'est le plan de l'émotion et de l'information cachée.
 
@@ -26,18 +14,6 @@ Le montage impose ses figures. Le champ-contrechamp alterne deux plans opposés,
 Presque tous les sons d'un film sont recréés en studio : le bruitage, ou foley, du nom de son inventeur, consiste à refabriquer pas, froissements et chocs en synchronisation avec l'image, avec des objets qui n'ont souvent aucun rapport avec ce qu'on voit. Le son direct capté au tournage est le plus souvent inutilisable tel quel.`],
   ],
 
-  "cm-cinema-francais": [
-    ["Le réalisme poétique", `Les années 1930 voient s'imposer un courant reconnaissable entre tous : le réalisme poétique. Décors urbains stylisés, brumes, pavés mouillés, personnages du peuple emportés par un destin qui ne leur laisse pas d'issue. Marcel Carné et le dialoguiste Jacques Prévert en sont le tandem le plus célèbre.
-
-Leur film le plus fameux, Les Enfants du paradis, est tourné sous l'Occupation dans des conditions difficiles et sort en 1945. Il figure régulièrement en tête des classements du meilleur film français jamais réalisé.`],
-    ["La Nouvelle Vague", `À la fin des années 1950, une génération de critiques passe derrière la caméra. Leur foyer est une revue, Les Cahiers du cinéma, où ils ont défendu la politique des auteurs : l'idée que le réalisateur, et non le scénariste ou le studio, est le véritable auteur du film, reconnaissable d'une œuvre à l'autre.
-
-Les Quatre Cents Coups, de François Truffaut, lance le mouvement en 1959. Tournages en décors réels, caméras légères, budgets réduits, acteurs peu connus, montage qui assume ses ruptures : la Nouvelle Vague change autant la manière de produire que la manière de filmer. À côté du groupe des Cahiers, celui dit de la Rive gauche compte Agnès Varda, seule femme du noyau, qui tourne Cléo de 5 à 7 en 1962 et poursuivra une œuvre singulière pendant soixante ans.`],
-    ["Un système et un public", `La France finance son cinéma par un mécanisme original : une taxe prélevée sur chaque billet de cinéma, étendue depuis aux diffuseurs et aux plateformes, alimente un fonds redistribué aux films à venir. Le Centre national du cinéma et de l'image animée, le CNC, en est l'opérateur. L'avance sur recettes, créée en 1959, est sa composante la plus sélective : une aide accordée avant tournage sur lecture du scénario, remboursable sur les recettes futures.
-
-La conservation a elle aussi son institution : la Cinémathèque française, fondée par Henri Langlois, qui collecte et projette les films — sa tentative d'éviction en 1968 provoqua une mobilisation retentissante. Côté public, le record absolu d'entrées en France pour un film français revient à Bienvenue chez les Ch'tis, avec plus de vingt millions de spectateurs en 2008.`],
-  ],
-
   "cm-hollywood-industrie": [
     ["Pourquoi la Californie", `Les studios se sont installés en Californie au début du XXe siècle pour trois raisons cumulées : un climat permettant de tourner en extérieur toute l'année, une lumière abondante à une époque où la pellicule était peu sensible, et l'éloignement de la côte Est, où Edison faisait valoir ses brevets avec agressivité. La distance rendait les poursuites judiciaires plus difficiles.
 
@@ -48,30 +24,6 @@ La censure politique s'y ajoute après-guerre avec la liste noire : des artistes
     ["L'industrie contemporaine", `En 1975, Les Dents de la mer invente le blockbuster estival moderne : sortie simultanée dans des centaines de salles, campagne télévisée nationale, exploitation dérivée. Le modèle domine depuis, avec ses franchises et ses suites.
 
 L'animation suit sa propre trajectoire : Walt Disney fonde son studio avec son frère Roy en 1923, et l'entreprise devient un empire ; Pixar produit en 1995 Toy Story, premier long métrage entièrement en images de synthèse. Quant aux récompenses, l'Oscar du meilleur film est remis aux producteurs, non au réalisateur — une distinction qui dit à qui appartient l'œuvre dans le système américain. En 2020, Parasite est devenu le premier film non anglophone à le remporter.`],
-  ],
-
-  "cm-festivals-recompenses": [
-    ["Les trois grands festivals", `Trois festivals européens dominent le calendrier. Cannes, créé en 1946 après une première tentative avortée en 1939, décerne la Palme d'or. Venise, le plus ancien, remonte à 1932 et remet le Lion d'or. Berlin, né en 1951 dans une ville divisée, attribue l'Ours d'or.
-
-La Palme d'or récompense un film, pas une carrière ni un réalisateur : elle est remise au metteur en scène pour l'œuvre présentée. Cannes a connu une interruption marquante : en 1968, le festival est interrompu en solidarité avec le mouvement social, sur l'intervention de cinéastes dont Truffaut et Godard. Jane Campion est en 1993 la première femme à recevoir la Palme, pour La Leçon de piano.`],
-    ["Les prix nationaux", `En France, les principales récompenses du cinéma sont les César, créés en 1976 sur le modèle des Oscars et remis par une académie de professionnels. Le nom vient du sculpteur César, auteur de la statuette. Il ne faut pas les confondre avec les Molière, qui récompensent le théâtre, ni avec les Victoires de la musique.
-
-Aux États-Unis, les Oscars sont décernés par l'Académie des arts et des sciences du cinéma, association professionnelle dont les membres votent. La composition de ce corps électoral — longtemps très majoritairement masculin, âgé et blanc — a fait l'objet de critiques répétées et d'un élargissement à partir de 2016.`],
-    ["Les prix qui lancent", `Tous les prix ne récompensent pas des carrières établies. La Caméra d'or de Cannes distingue le meilleur premier film, toutes sections confondues : elle peut donc aller à un film présenté hors de la compétition principale, et a révélé nombre de cinéastes.
-
-Les festivals jouent d'ailleurs un rôle qui dépasse la remise de trophées : ils constituent un marché où s'achètent et se vendent les droits de distribution, et une caisse de résonance critique sans laquelle beaucoup de films n'atteindraient jamais les salles. Une sélection vaut souvent davantage qu'un prix.`],
-  ],
-
-  "cm-cinemas-monde": [
-    ["L'Italie et le Japon", `Le néoréalisme italien naît dans les ruines de l'après-guerre : on tourne dans la rue, en lumière naturelle, souvent avec des acteurs non professionnels, sur des sujets ordinaires — un vol de bicyclette, un enfant qui cherche son père. La contrainte matérielle devient une esthétique, puis une école imitée dans le monde entier. Federico Fellini vient de ce courant avant de s'en écarter vers l'onirisme de La Dolce Vita et de Huit et demi.
-
-Au Japon, Akira Kurosawa impose une maîtrise du récit et du cadre avec Rashômon, qui raconte un même événement selon quatre versions incompatibles, puis Les Sept Samouraïs, dont Hollywood tirera un western. Plus tard, Hayao Miyazaki cofonde le studio Ghibli et donne à l'animation japonaise une audience mondiale.`],
-    ["L'Inde et l'Iran", `L'Inde produit chaque année plus de films que n'importe quel autre pays, dans une douzaine de langues. Bollywood désigne précisément le cinéma en hindi produit à Mumbai — une part importante mais minoritaire de cette production, à côté des cinémas tamoul, télougou ou bengali.
-
-Le cinéma iranien s'est imposé dans les festivals malgré une censure pesante, en développant un art de la suggestion et du récit épuré. Abbas Kiarostami reçoit la Palme d'or en 1997 pour Le Goût de la cerise ; d'autres cinéastes iraniens ont depuis tourné clandestinement ou en exil.`],
-    ["L'Afrique et l'Asie de l'Est", `Ousmane Sembène, écrivain sénégalais venu au cinéma pour toucher un public non lecteur, est considéré comme le père du cinéma africain francophone : ses films posent la question du pouvoir, de la langue et de l'indépendance réelle. Le FESPACO, festival panafricain de Ouagadougou au Burkina Faso, se tient tous les deux ans depuis 1969 et reste la principale vitrine du continent.
-
-Le cinéma de Hong Kong, enfin, a exporté dans les années 1980 un style d'action reconnaissable, entre chorégraphies d'arts martiaux et films de gangsters stylisés, qui a nourri une génération entière de réalisateurs américains.`],
   ],
 
   "cm-television": [

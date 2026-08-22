@@ -2,18 +2,6 @@
 import type { LotCours } from "../commun";
 
 export const COURS_MYTHOLOGIE_RELIGIONS: LotCours = {
-  "mr-mythologie-nordique": [
-    ["Les dieux et les mondes", `La mythologie nordique distingue deux familles divines, les Ases et les Vanes, longtemps rivales avant de s'allier. Odin, père des dieux, règne sur Asgard, le domaine des Ases ; borgne pour avoir sacrifié un œil contre la sagesse, il est autant dieu de la guerre que de la poésie et de la magie. Son fils Thor, dieu du tonnerre, tient le marteau Mjöllnir, arme qui revient toujours dans sa main.
-
-Neuf mondes s'articulent autour d'Yggdrasil, le frêne cosmique dont les racines plongent vers les sources du destin et dont les branches soutiennent les cieux. Les guerriers morts au combat sont conduits par les Valkyries au Valhalla, la halle d'Odin, où ils festoient et combattent en attendant la bataille finale.`],
-    ["Loki et le destin des dieux", `Loki occupe une place unique : ni tout à fait dieu, ni tout à fait géant, rusé, changeant, tantôt allié tantôt saboteur. C'est par lui que le destin des dieux se noue, et ses enfants monstrueux — le loup Fenrir, le serpent de Midgard, la souveraine des morts — sont les instruments de leur perte.
-
-Car la mythologie nordique se distingue nettement des mythes grecs sur un point : elle programme la destruction de ses propres dieux. Le Ragnarök, précédé d'un hiver terrible de trois ans, le Fimbulvetr, verra Fenrir dévorer Odin, Thor tuer le serpent avant de succomber à son venin, et le monde sombrer. Un monde renaîtra ensuite, peuplé par quelques survivants : la fin est un cycle, non un terme.`],
-    ["Ce qu'il en reste", `Nous connaissons ces récits par des textes tardifs, écrits en Islande longtemps après la christianisation. L'Edda de Snorri Sturluson, composée au XIIIe siècle, en est la principale source : son auteur est un chrétien lettré qui compile et ordonne des traditions orales, ce qui impose de lire ces textes avec précaution.
-
-L'héritage le plus quotidien tient dans les noms des jours de la semaine anglaise et germanique. Thursday est le jour de Thor, Wednesday celui de Woden, autre nom d'Odin, Friday celui de la déesse Frigg ou Freyja. Le français, passé par le latin, a gardé les dieux romains : jeudi vient de Jupiter, l'équivalent romain de Thor.`],
-  ],
-
   "mr-mythologie-egyptienne": [
     ["Le soleil et la mort d'Osiris", `Rê est le dieu solaire principal de l'Égypte antique : chaque nuit il traverse le monde souterrain sur sa barque et affronte le serpent du chaos, chaque matin il renaît. Ce cycle donne son modèle à toute la pensée égyptienne, où la mort est un passage et non un terme.
 
@@ -60,18 +48,6 @@ Le soufisme n'est pas une branche mais une voie mystique, présente dans les deu
     ["Le droit et l'empire", `La charia n'est pas un code écrit mais un ensemble de normes tirées du Coran et de la Sunna, dont l'interprétation a produit plusieurs écoles juridiques distinctes. Les positions varient considérablement selon les époques, les écoles et les pays : parler de la charia au singulier, comme d'un texte unique, est une simplification trompeuse.
 
 Politiquement, la dynastie abbasside établit Bagdad comme capitale au VIIIe siècle et y organise un âge d'or intellectuel : traductions du grec, du persan et du sanskrit, mathématiques, médecine, astronomie. C'est dans cet ensemble que travaillent al-Khwarizmi, dont le nom a donné algorithme, et plus tard Avicenne.`],
-  ],
-
-  "mr-hindouisme-bouddhisme": [
-    ["L'hindouisme", `Les Védas, composés à partir du deuxième millénaire avant notre ère, sont les textes les plus anciens de la tradition hindoue : hymnes, formules et commentaires transmis oralement avec une précision extrême avant d'être fixés par écrit.
-
-Deux notions structurent la pensée. Le karma est la loi selon laquelle les actes déterminent les existences futures ; le samsara est le cycle des renaissances dans lequel ces actes enferment. La trimurti réunit trois figures majeures : Brahma le créateur, Vishnou le préservateur et Shiva le destructeur, ce dernier terme désignant moins une malveillance qu'une fin nécessaire à tout recommencement. L'épopée du Mahabharata, l'un des plus longs poèmes du monde, contient en son sein la Bhagavad-Gîtâ, dialogue devenu le texte hindou le plus lu hors de l'Inde.`],
-    ["Le bouddhisme", `Le bouddhisme naît en Inde autour du Ve siècle avant notre ère, avec Siddhartha Gautama, prince qui quitte son palais, cherche l'ascèse, la juge inutile et trouve l'éveil. Il en tire les quatre nobles vérités : le constat de la souffrance, son origine dans la soif et l'attachement, la possibilité de sa cessation, et la voie qui y mène.
-
-Le bouddhisme partage le vocabulaire de la tradition védique — karma, samsara — mais le réinterprète, et écarte l'autorité des Védas comme celle des castes. Le nirvana n'est pas un paradis : c'est l'extinction de la soif et la sortie du cycle des renaissances.`],
-    ["Diffusions", `L'empereur Ashoka, au IIIe siècle avant notre ère, joue un rôle décisif : converti après une guerre dont il déplore la violence, il fait graver des édits sur des piliers et envoie des missions au-delà de ses frontières. Le bouddhisme se diffuse ensuite par les routes commerciales vers l'Asie centrale, la Chine, la Corée et le Japon, tout en déclinant en Inde même.
-
-Trois grands ensembles se distinguent aujourd'hui : le theravada, majoritaire en Asie du Sud-Est, le mahayana en Asie de l'Est, et le vajrayana, majoritaire au Tibet et en Mongolie, caractérisé par ses pratiques rituelles et sa transmission de maître à disciple.`],
   ],
 
   "mr-religions-monde": [

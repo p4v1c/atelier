@@ -86,18 +86,6 @@ La soul prolonge cette veine en y mêlant l'héritage du gospel. À Detroit, le 
 La techno naît à Detroit dans les années 1980, dans une ville sinistrée par la crise industrielle : des machines bon marché, boîtes à rythmes et synthétiseurs, y produisent une musique répétitive et instrumentale, d'abord diffusée en club. Chicago avec la house et Détroit avec la techno forment les deux foyers d'où sortiront toutes les musiques électroniques de danse.`],
   ],
 
-  "am-instruments": [
-    ["Classer les instruments", `La classification savante, dite Hornbostel-Sachs, ne repose ni sur le matériau ni sur le geste du musicien, mais sur la nature de ce qui vibre : une corde, une colonne d'air, le corps même de l'instrument, une membrane, ou de l'électricité. Elle permet de comparer des instruments de toutes les cultures, là où la répartition en cordes, vents et percussions reste tributaire de l'orchestre occidental.
-
-Dans les cordes frottées de l'orchestre, quatre instruments se succèdent du plus aigu au plus grave : violon, alto, violoncelle, contrebasse. Le violon possède quatre cordes ; sa forme est stabilisée depuis le XVIIe siècle et n'a plus guère évolué.`],
-    ["Souffler", `À la famille des bois appartiennent la flûte, le hautbois, la clarinette et le basson — la clarinette y figure malgré ses clés métalliques, car la classification suit le mode de production du son, non le matériau. La colonne d'air y est mise en vibration par une anche ou par un biseau.
-
-Les cuivres fonctionnent autrement : ce sont les lèvres du musicien, tendues et vibrant dans une embouchure, qui produisent le son. Les pistons ou la coulisse changent la longueur du tube, mais c'est la tension des lèvres qui permet de passer d'une harmonique à l'autre — un cuivre sans piston, comme le clairon, ne joue que ces harmoniques.`],
-    ["Frapper et brancher", `Le piano est classé parmi les cordes frappées : des marteaux, actionnés par les touches, frappent des cordes tendues. Un piano standard compte quatre-vingt-huit touches, soit un peu plus de sept octaves. La plupart des percussions ne produisent pas de hauteur définie ; les timbales font exception, leur peau tendue étant accordable, ce qui leur donne un rôle harmonique dans l'orchestre.
-
-L'orgue est surnommé le roi des instruments pour son ampleur et son étendue : une console commande des milliers de tuyaux répartis en jeux, dont la combinaison change entièrement le timbre. À l'autre extrême, le thérémine, inventé en 1920 par un physicien russe, se joue sans être touché : les mains, déplacées près de deux antennes, modifient un champ électromagnétique qui règle hauteur et volume.`],
-  ],
-
   "am-theorie-musicale": [
     ["Notes et intervalles", `Une gamme diatonique compte sept notes avant de revenir à la première, à l'octave. Cette octave est divisée en douze demi-tons, unité de base du système occidental : les cinq notes supplémentaires sont les altérations, dièses et bémols.
 

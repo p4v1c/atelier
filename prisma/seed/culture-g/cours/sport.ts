@@ -2,27 +2,6 @@
 import type { LotCours } from "../commun";
 
 export const COURS_SPORT: LotCours = {
-  "sp-jeux-olympiques": [
-    ["Olympie, puis Coubertin", `Les Jeux antiques se tenaient à Olympie, sanctuaire dédié à Zeus dans le Péloponnèse, tous les quatre ans. Ils réservaient la compétition aux hommes libres de langue grecque et duraient près de mille ans avant d'être interdits à la fin du IVe siècle. Une trêve sacrée devait suspendre les conflits entre cités le temps que les athlètes et les pèlerins voyagent : c'est l'ancêtre de la trêve olympique, que l'ONU rappelle encore avant chaque édition sans qu'elle ait jamais eu force contraignante.
-
-Les Jeux modernes ne sont pas la continuation de ceux-là. Ce sont une reconstitution, imaginée à la fin du XIXe siècle par Pierre de Coubertin, pédagogue français convaincu que le sport formait le caractère. Le Comité international olympique naît en 1894, les premiers Jeux se tiennent à Athènes en 1896. Entre les deux, quinze siècles de rien : l'idée d'une continuité ininterrompue est une reconstruction de la fin du XIXe siècle.`],
-    ["Les symboles et le calendrier", `Les cinq anneaux, dessinés par Coubertin en 1913, figurent les cinq continents unis par l'olympisme ; leurs couleurs, avec le fond blanc, permettaient alors de composer tous les drapeaux du monde. La devise traditionnelle, plus vite, plus haut, plus fort, vient d'un religieux dominicain ami de Coubertin ; un quatrième terme, ensemble, lui a été ajouté en 2021.
-
-Les femmes participent dès 1900 à Paris, mais dans quelques disciplines seulement, et il aura fallu attendre 2012 pour que toutes les délégations comptent des athlètes féminines, puis 2024 pour une stricte parité des quotas. Les Jeux d'hiver naissent en 1924 à Chamonix, sous le nom de Semaine internationale des sports d'hiver, reconnue après coup. Trois éditions ont été annulées, en 1916, 1940 et 1944, à cause des deux guerres mondiales.`],
-    ["Un théâtre du monde", `Les Jeux ont très tôt servi de scène politique. À Berlin en 1936, dans une édition mise en scène par le régime nazi, l'Américain Jesse Owens remporte quatre médailles d'or, démentant par les faits la propagande raciale de ses hôtes. Boycotts, protestations sur les podiums et attentats ont ensuite ponctué presque chaque décennie.
-
-Les Jeux paralympiques constituent le second grand rendez-vous du mouvement. Nés de la rééducation de blessés de guerre à l'hôpital britannique de Stoke Mandeville, ils prennent leur forme actuelle à Rome en 1960 et se tiennent depuis 1988 dans la même ville que les Jeux olympiques, quelques semaines après eux.`,
-      { type: "frise", titre: "Quelques repères", evenements: [
-        { date: "776 av. J.-C.", label: "Premiers Jeux à Olympie", texte: "Selon la tradition antique." },
-        { date: "1894", label: "Création du CIO", texte: "À l'initiative de Pierre de Coubertin." },
-        { date: "1896", label: "Athènes", texte: "Premiers Jeux modernes." },
-        { date: "1900", label: "Paris", texte: "Premières participantes féminines." },
-        { date: "1924", label: "Chamonix", texte: "Premiers Jeux d'hiver." },
-        { date: "1960", label: "Rome", texte: "Premiers Jeux paralympiques." },
-        { date: "2024", label: "Paris", texte: "Parité des quotas de participation." },
-      ] }],
-  ],
-
   "sp-football": [
     ["Une codification anglaise", `Le football moderne naît en Angleterre en 1863, quand des clubs londoniens fondent la Football Association et se mettent d'accord sur un jeu commun : le ballon au pied, sans porter la balle à la main. Ceux qui refusent cette règle partiront fonder le rugby. La FIFA, créée en 1904 à Paris, fédère aujourd'hui plus de deux cents associations nationales et organise la Coupe du monde.
 
@@ -107,18 +86,6 @@ Le surentraînement est précisément cet effet inversé : un état de fatigue d
 L'échauffement élève progressivement la température musculaire et la vigilance neuromusculaire ; on le distingue aujourd'hui nettement des étirements passifs, qui, tenus longtemps avant l'effort, peuvent au contraire réduire la puissance disponible. La déshydratation dégrade la performance dès une perte de quelques pour cent du poids corporel. Enfin, le RED-S, ou déficit énergétique relatif dans le sport, désigne les conséquences d'apports alimentaires durablement inférieurs à la dépense : troubles hormonaux, fragilité osseuse, blessures à répétition.`],
   ],
 
-  "sp-dopage-ethique": [
-    ["Qui décide de ce qui est interdit", `L'Agence mondiale antidopage, créée en 1999 et financée à parts égales par le mouvement sportif et les États, harmonise les règles et publie chaque année la liste des substances et méthodes interdites. Une substance y est inscrite si elle remplit au moins deux critères parmi trois : améliorer la performance, présenter un risque pour la santé, contrevenir à l'esprit sportif.
-
-Ce mécanisme explique qu'un produit puisse être interdit sans être dangereux, et qu'un autre, dangereux mais sans effet sur la performance, ne le soit pas. Une autorisation d'usage à des fins thérapeutiques permet à un athlète réellement malade d'utiliser une substance interdite, après examen d'un dossier médical documenté.`],
-    ["Contrôler", `Les contrôles les plus efficaces ne sont pas ceux des jours de compétition, mais les contrôles inopinés, réalisés à l'entraînement et sans préavis. Ils supposent que les athlètes du groupe cible indiquent en permanence où ils seront joignables : c'est l'obligation de localisation, ou whereabouts, dont trois manquements en un an valent sanction.
-
-En cas de contrôle positif, l'athlète peut demander l'analyse du second échantillon prélevé, dit échantillon B, qui confirme ou infirme le premier. Les litiges internationaux sont jugés en dernier ressort par le Tribunal arbitral du sport, installé à Lausanne, dont les décisions s'imposent aux fédérations.`],
-    ["Quand c'est l'État qui triche", `Le dopage d'État désigne un dopage organisé par des institutions publiques, avec la complicité des laboratoires chargés des contrôles. La République démocratique allemande l'a pratiqué à grande échelle dans les années 1970 et 1980 ; la Russie a été sanctionnée collectivement après le rapport McLaren de 2016, ses athlètes ayant dû concourir sous drapeau neutre pendant plusieurs éditions.
-
-L'éthique sportive ne se limite pas au dopage. Le fair-play financier, introduit par l'UEFA en 2011, encadre les dépenses des clubs par rapport à leurs recettes, au nom d'une équité de la compétition : là encore, il s'agit d'empêcher qu'un avantage extérieur au terrain ne décide du résultat.`],
-  ],
-
   "sp-sport-societe": [
     ["Une tribune politique", `Le sport a servi de vitrine politique bien avant d'être une industrie. Aux Jeux de Mexico en 1968, deux athlètes américains, Tommie Smith et John Carlos, lèvent sur le podium un poing ganté de noir pour dénoncer la ségrégation ; ils sont exclus des Jeux dans les heures qui suivent. À Munich en 1972, un commando palestinien prend en otage puis tue onze membres de la délégation israélienne. En 1980, les États-Unis et une soixantaine de pays boycottent les Jeux de Moscou après l'invasion soviétique de l'Afghanistan ; le bloc de l'Est rendra la pareille à Los Angeles en 1984.
 
@@ -155,15 +122,4 @@ Le tir sportif à dix mètres se dispute à la carabine ou au pistolet à air co
 Aujourd'hui, aucun humain ne bat plus les meilleurs programmes, et les joueurs les utilisent comme outils d'analyse et d'entraînement. Le débat sur le statut sportif des échecs, du bridge ou du sport électronique reste ouvert : leur point commun est de reposer sur la codification et la compétition plus que sur la dépense physique.`],
   ],
 
-  "sp-sport-economie": [
-    ["D'où vient l'argent", `La première source de revenus des grandes ligues sportives n'est ni la billetterie ni le maillot, mais les droits de retransmission télévisée, qui représentent souvent près de la moitié des recettes d'un club européen de football et davantage encore en Amérique du Nord. Ce basculement date des années 1990 et de l'arrivée des chaînes payantes.
-
-Le sponsoring et le naming complètent le tableau. Le naming consiste à vendre le nom d'une enceinte à un annonceur pour une durée déterminée : la pratique est ancienne et généralisée en Amérique du Nord, plus récente et plus discutée en Europe, où les stades portent souvent des noms chargés d'histoire locale. Du côté des dépenses, la masse salariale constitue de loin le premier poste d'un club professionnel.`],
-    ["Le marché des joueurs", `Une indemnité de transfert n'achète pas un joueur : elle rémunère la rupture anticipée de son contrat avec son club. C'est ce qui explique qu'un joueur en fin de contrat puisse partir librement, sans qu'aucune somme soit versée.
-
-Cette liberté date de l'arrêt Bosman, rendu par la Cour de justice des Communautés européennes en 1995 : il consacre la libre circulation des joueurs européens en fin de contrat et supprime les quotas de joueurs communautaires. Il a bouleversé l'équilibre économique du football européen, en déplaçant le pouvoir de négociation vers les joueurs et leurs agents. En France, un club formateur est un club disposant d'un centre de formation agréé par l'État, ce qui lui donne des droits particuliers sur les jeunes qu'il forme.`],
-    ["Deux modèles de compétition", `Les ligues nord-américaines fonctionnent en circuit fermé : ni promotion ni relégation, un nombre d'équipes fixe, et des mécanismes destinés à maintenir l'incertitude du résultat. Le plafond salarial limite le total des salaires qu'une franchise peut verser, et la draft attribue les meilleurs jeunes joueurs en priorité aux équipes les moins bien classées.
-
-Le modèle européen repose au contraire sur l'ouverture : toute équipe peut théoriquement monter des divisions inférieures jusqu'à l'élite. Le projet de Superligue de football, lancé et abandonné en 2021, proposait d'importer le modèle fermé en Europe, ce qui explique l'ampleur du rejet qu'il a suscité. Enfin, les paris sportifs en ligne, autorisés en France depuis 2010, sont soumis à l'agrément d'une autorité de régulation, qui encadre à la fois les opérateurs et la publicité.`],
-  ],
 };

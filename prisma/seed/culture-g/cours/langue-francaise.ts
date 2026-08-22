@@ -2,30 +2,6 @@
 import type { LotCours } from "../commun";
 
 export const COURS_LANGUE_FRANCAISE: LotCours = {
-  "lf-histoire-langue": [
-    ["Du latin au roman", `Le français descend du latin populaire parlé en Gaule, non du latin classique de Cicéron : c'est la langue des soldats, des marchands et des colons qui s'est transmise, avec ses simplifications et ses écarts. Le substrat gaulois n'a laissé qu'une centaine de mots, souvent liés à la terre et aux transports — char, chêne, alouette, charrue.
-
-L'apport suivant vient des Francs : le francique germanique est, après le latin, ce qui a le plus enrichi le vocabulaire médiéval, notamment dans les domaines de la guerre, du droit et de la vie rurale. Le plus ancien document connu en langue romane date de 842 : les Serments de Strasbourg, prêtés par deux petits-fils de Charlemagne, rédigés en roman et en tudesque pour être compris des deux armées. Le nord parle alors les langues d'oïl, ensemble de parlers romans dont le francien, celui de la région parisienne, s'imposera par le prestige politique.`],
-    ["Imposer une langue", `L'ordonnance de Villers-Cotterêts, signée par François Ier en 1539, impose le français dans les actes de justice, en remplacement du latin : c'est une décision administrative avant d'être culturelle, mais elle installe la langue dans l'appareil d'État.
-
-Dix ans plus tard, Joachim du Bellay publie La Défense et illustration de la langue française, manifeste de la Pléiade qui revendique pour le français la dignité littéraire jusque-là réservée au latin et au grec. La Renaissance est aussi le moment où l'italien enrichit massivement le vocabulaire, par la guerre, la cour, la banque et les arts : banque, balcon, soldat, façade en viennent.`],
-    ["Le français aujourd'hui", `La loi Toubon, adoptée en 1994, impose l'usage du français dans certains actes publics, dans la publicité, l'étiquetage et les contrats de travail. Elle vise moins à interdire les autres langues qu'à garantir un droit au français pour le consommateur et le salarié.
-
-Selon l'Organisation internationale de la Francophonie, environ trois cent vingt millions de personnes parlent français dans le monde. La croissance de ce chiffre dépend presque entièrement de la démographie et de la scolarisation africaines : les projections les plus citées, qui annoncent des chiffres bien supérieurs pour le milieu du siècle, reposent sur des hypothèses de scolarisation qu'il faut prendre pour ce qu'elles sont — des hypothèses.`],
-  ],
-
-  "lf-academie-norme": [
-    ["Une institution et ses limites", `L'Académie française n'a pas été créée ex nihilo : un cercle privé de lettrés se réunissait déjà quand Richelieu, en 1635, lui donne un statut officiel et une mission. Elle compte quarante membres, élus par leurs pairs à un fauteuil laissé vacant par un décès — d'où l'expression les immortels, qui désigne la continuité des fauteuils, non celle des personnes.
-
-Sa mission statutaire principale est de rédiger le dictionnaire de la langue française, entreprise si lente que la neuvième édition, commencée en 1986, s'est achevée en 2024. Point capital : ses décisions n'ont pas force de loi. Ce sont des avis, qui constatent l'usage autant qu'ils le prescrivent, et que rien n'oblige à suivre.`],
-    ["Réformer l'orthographe", `Les rectifications orthographiques de 1990, élaborées par le Conseil supérieur de la langue française et approuvées par l'Académie, proposent des simplifications : soudure de certains mots composés, régularisation d'accents circonflexes, pluriels normalisés. Elles sont facultatives — les deux graphies sont admises — ce qui explique qu'elles se soient diffusées lentement, malgré leur inscription dans les programmes scolaires en 2016.
-
-L'enrichissement du vocabulaire technique relève, lui, d'un autre organisme : la Commission d'enrichissement de la langue française publie au Journal officiel des termes destinés à remplacer les anglicismes. Certains prennent — logiciel, courriel, ordinateur — d'autres non.`],
-    ["Dictionnaires et évolutions", `Le Littré paraît pour la première fois en 1863 : Émile Littré y adopte une démarche historique, en datant les emplois et en citant les auteurs, ce qui en fait autant un ouvrage d'érudition qu'un usuel. Le Larousse et le Robert le suivront avec des partis pris différents.
-
-Sur la féminisation des noms de métiers, l'Académie a longtemps opposé une résistance frontale avant d'admettre en 2019 qu'il n'existe aucun obstacle de principe à ces formes. Le revirement est significatif : les formes féminines existaient largement en ancien français et avaient été écartées par la norme du XVIIe siècle, non par la structure de la langue.`],
-  ],
-
   "lf-etymologie": [
     ["Deux voies pour un même mot", `Un doublet lexical, ce sont deux mots français issus d'un même mot latin par des voies différentes : l'une populaire, par transmission orale continue et déformation progressive ; l'autre savante, par emprunt tardif au latin écrit, presque sans usure. Hôpital et hôtel viennent tous deux de hospitale ; frêle et fragile de fragilis ; entier et intègre d'integer.
 
@@ -62,18 +38,6 @@ Le jargon désigne le vocabulaire technique propre à un métier : fonctionnel e
 Deux notions plus techniques complètent le tableau. Le français fondamental, établi dans les années 1950 à partir d'enquêtes sur la langue parlée, est une liste des mots les plus fréquents, conçue pour l'enseignement du français aux étrangers : elle a fondé une pédagogie de la progression lexicale. La diglossie, elle, désigne la coexistence de deux variétés d'une même langue aux usages hiérarchisés, l'une réservée aux situations formelles et à l'écrit, l'autre à la vie quotidienne.`],
   ],
 
-  "lf-langues-france": [
-    ["Quatre familles sur un territoire", `Les langues de France relèvent de familles très différentes. Le basque n'est pas indo-européen : c'est un isolat, sans parenté établie avec aucune langue connue, ce qui en fait un objet d'étude à part. Le breton appartient aux langues celtiques, importé d'outre-Manche au haut Moyen Âge. L'alsacien et le francique mosellan sont des parlers germaniques.
-
-Le reste est roman : l'occitan, parlé du Limousin à la Provence sous des formes diverses, le catalan, le corse, le franco-provençal, et les langues d'oïl elles-mêmes. Frédéric Mistral, poète de langue provençale et animateur du Félibrige, a reçu le prix Nobel de littérature en 1904 — seul lauréat pour une œuvre en langue régionale de France.`],
-    ["Un cadre juridique restrictif", `L'article 2 de la Constitution française, modifié en 1992, dispose que la langue de la République est le français. C'est sur ce fondement que le Conseil constitutionnel a jugé que la France ne pouvait ratifier la Charte européenne des langues régionales, signée en 1999 : elle est donc signée mais non ratifiée, et n'a aucun effet juridique.
-
-Une révision constitutionnelle de 2008 a néanmoins inscrit à l'article 75-1 que les langues régionales appartiennent au patrimoine de la France — formule symbolique dont le Conseil constitutionnel a précisé qu'elle ne créait aucun droit opposable.`],
-    ["Enseigner et compter", `La loi Deixonne, adoptée en 1951, autorise pour la première fois l'enseignement facultatif des langues régionales, après un siècle et demi de politique d'éradication scolaire. Les écoles Diwan, associatives et gratuites, pratiquent depuis 1977 l'enseignement en breton par immersion ; leur intégration à l'enseignement public s'est heurtée à la question constitutionnelle.
-
-En nombre de locuteurs, la langue régionale la plus parlée de France n'est ni le breton ni l'occitan : ce sont les créoles des outre-mer, qui comptent plus d'un million de locuteurs, essentiellement aux Antilles et à La Réunion.`],
-  ],
-
   "lf-ecriture-alphabets": [
     ["Des premiers signes à l'alphabet", `La plus ancienne écriture connue est le cunéiforme sumérien, apparu en Mésopotamie vers 3300 avant notre ère, d'abord pour compter des marchandises : l'écriture naît de la comptabilité, non de la littérature. L'Égypte développe presque simultanément les hiéroglyphes, restés indéchiffrables jusqu'à ce que Jean-François Champollion en établisse le système en 1822, à partir de la pierre de Rosette.
 
@@ -96,18 +60,6 @@ Il distingue dans le signe deux faces indissociables : le signifiant, image acou
     ["Les sons et les règles", `La phonétique décrit les sons effectivement produits, avec leurs propriétés physiques et articulatoires ; la phonologie s'intéresse à leur rôle dans le système d'une langue donnée. Le phonème est l'unité de cette seconde discipline : la plus petite unité sonore qui permet de distinguer deux mots. Deux sons différents ne sont pas forcément deux phonèmes — encore faut-il qu'ils changent le sens.
 
 Au XXe siècle, Noam Chomsky propose la grammaire générative : une théorie qui cherche à décrire les règles permettant d'engendrer toutes les phrases possibles d'une langue, et seulement celles-là. Elle déplace encore l'objet, de la description des énoncés produits vers la compétence qui les rend possibles.`],
-  ],
-
-  "lf-expressions-francaises": [
-    ["Des mots disparus dans des phrases vivantes", `Beaucoup d'expressions restent opaques parce qu'elles conservent un mot sorti de l'usage. Avoir maille à partir n'a rien à voir avec le tricot : la maille était une petite monnaie médiévale, la plus petite de toutes, et partir signifiait partager — se disputer une maille, c'était se quereller pour une somme impossible à diviser.
-
-Faire chou blanc vient d'une déformation de coup blanc, au jeu de quilles, un coup qui n'abat rien. Avoir voix au chapitre renvoie aux assemblées de chanoines, appelées chapitres, où seuls certains membres avaient droit de vote. Dans les trois cas, l'expression a survécu à la disparition de ce qui la rendait claire.`],
-    ["L'argot du XIXe siècle", `Une part importante des expressions courantes vient de l'argot parisien du XIXe siècle. Poser un lapin s'y disait d'un paiement non honoré, notamment à une prostituée, avant de désigner tout rendez-vous manqué. Courir sur le haricot, importuner quelqu'un, s'appuie sur un ancien sens argotique du mot haricot, désignant l'orteil, croisé avec le verbe haricoter, qui signifiait ergoter.
-
-Rendre son tablier, démissionner, vient du monde de la domesticité, où le tablier était l'attribut de la fonction : le rendre, c'était quitter la place. Tomber dans les pommes, s'évanouir, resterait une déformation de pâmes, forme ancienne de pâmoison — l'hypothèse est la plus solide, sans être certaine.`],
-    ["Le sens vivant", `D'autres expressions sont plus récentes ou plus transparentes. Être au taquet, être à sa limite maximale, vient d'une pièce mécanique qui bloque une course. Les carottes sont cuites dit qu'il n'y a plus rien à faire : un plat trop cuit ne se rattrape pas — la formule a servi de message codé pendant la Seconde Guerre mondiale, ce qui a renforcé sa charge.
-
-À la Saint-Glinglin, enfin, signifie jamais : le saint est fictif, forgé sur un croisement entre le mot saint et un terme dialectal désignant la cloche. L'expression relève de la même famille que la semaine des quatre jeudis — nommer une date qui n'existe pas est une façon plaisante de dire l'impossible.`],
   ],
 
   "lf-ponctuation-typographie": [

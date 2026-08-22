@@ -48,4 +48,9 @@ const liste = [...best.values()].sort((a, b) => b.s - a.s);
 const v1 = liste.filter((p) => !/^cg-neuf-[a-z]+[234]-/.test(p.n.slug)).length;
 console.log("notions neuves dont le sujet recoupe fortement une leçon héritée :", liste.length, "/", neuf.length);
 console.log("  dont premier lot (cours déjà écrits) :", v1, "· lots suivants :", liste.length - v1, "\n");
-for (const p of liste) console.log(`  ${(p.s * 100).toFixed(0)}%  [${p.n.cat}]\n     neuf   : ${p.n.titre}\n     hérité : ${p.h.titre}`);
+if (process.argv[2] === "--paires") {
+  for (const p of liste)
+    console.log(`"${p.n.slug.replace("cg-neuf-", "")}": "${p.h.slug}", // ${(p.s * 100).toFixed(0)}% ${p.n.titre} <- ${p.h.titre}`);
+} else {
+  for (const p of liste) console.log(`  ${(p.s * 100).toFixed(0)}%  [${p.n.cat}]\n     neuf   : ${p.n.titre}\n     hérité : ${p.h.titre}`);
+}

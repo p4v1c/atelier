@@ -26,18 +26,6 @@ Comme les adresses numériques sont impraticables pour un humain, le système DN
 La neutralité du net est un principe de gouvernance : les opérateurs ne doivent pas discriminer les flux selon leur origine, leur destination ou leur contenu. Inscrite dans le droit européen en 2015, elle vise à empêcher qu'un fournisseur d'accès favorise ses propres services ou ceux qui le rémunèrent.`],
   ],
 
-  "st-intelligence-artificielle": [
-    ["Apprendre au lieu d'être programmé", `Le terme intelligence artificielle apparaît en 1956, lors d'une conférence d'été au Dartmouth College : il désigne alors un programme de recherche, plus qu'une technologie existante. La différence essentielle avec la programmation classique tient à ceci : un modèle d'apprentissage n'est pas programmé pour une tâche, il ajuste des paramètres à partir d'exemples.
-
-Trois grandes familles se distinguent. L'apprentissage supervisé travaille sur des exemples étiquetés, dont on connaît la réponse attendue. L'apprentissage non supervisé cherche des structures dans des données non étiquetées. L'apprentissage par renforcement procède par essais, guidé par des récompenses et des pénalités. Un réseau de neurones artificiels, quant à lui, est un modèle de calcul organisé en couches de fonctions pondérées, dont l'inspiration biologique est lointaine.`],
-    ["Les jalons", `En 1997, le programme Deep Blue bat le champion du monde d'échecs Garry Kasparov, essentiellement par force de calcul et bibliothèques d'ouvertures. En 2016, AlphaGo bat un champion de go, jeu dont l'espace de possibilités interdit l'exploration exhaustive : la victoire repose cette fois sur l'apprentissage et l'évaluation statistique de positions, ce qui en fait une rupture d'une autre nature.
-
-Le test de Turing, proposé en 1950, imaginait une épreuve où une machine tenterait de se faire passer pour un humain dans une conversation écrite. Longtemps tenu pour l'horizon du domaine, il est aujourd'hui jugé peu informatif : imiter une conversation ne dit rien de la compréhension.`],
-    ["Les limites et le cadre", `Un biais algorithmique est une discrimination systématique héritée des données d'entraînement ou de la conception du système : un modèle appris sur des décisions passées reproduit les inégalités qu'elles contenaient. Le problème n'est pas la malveillance mais la fidélité aux données.
-
-L'hallucination désigne la production, par un modèle de langage, d'une affirmation plausible mais fausse : le système optimise la vraisemblance de la suite de mots, non sa véracité. C'est une propriété du fonctionnement, non un défaut accidentel. Face à ces risques, le règlement européen adopté en 2024 met en place un encadrement gradué selon le niveau de risque des usages : interdiction pour certains, obligations lourdes pour les systèmes à haut risque, transparence pour les autres.`],
-  ],
-
   "st-transports": [
     ["La vapeur et le rail", `James Watt met au point dans les années 1760 une machine à vapeur réellement efficace, en ajoutant un condenseur séparé qui évite de refroidir le cylindre à chaque cycle. Le rendement change d'ordre de grandeur, et la machine cesse d'être cantonnée au pompage des mines.
 

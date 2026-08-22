@@ -38,18 +38,6 @@ Il faut distinguer ce cas d'un pays sans littoral, qu'on dit enclavé au sens la
 La ligne Durand, tracée en 1893 entre l'Empire britannique et l'Afghanistan, sépare aujourd'hui l'Afghanistan du Pakistan en coupant en deux l'aire de peuplement pachtoune : l'Afghanistan ne l'a jamais reconnue. La bande de Caprivi, corridor namibien étroit s'étirant vers le Zambèze, résulte d'une négociation coloniale de 1890 par laquelle l'Allemagne cherchait un accès fluvial vers l'océan Indien — accès rendu illusoire par les chutes Victoria, situées en aval.`],
   ],
 
-  "geo-fleuves-monde": [
-    ["Trois classements, trois vainqueurs", `Classer les fleuves donne des résultats différents selon le critère. Au débit, l'Amazone écrase toute concurrence : elle déverse à elle seule près d'un cinquième de l'eau douce apportée aux océans, davantage que les six fleuves suivants réunis. Au bassin versant, elle domine également.
-
-À la longueur, la réponse dépend de la source retenue et de la définition de l'embouchure : le Nil et l'Amazone se disputent le titre, et les mesures publiées ont varié de plusieurs centaines de kilomètres. Le Nil prend sa source la plus lointaine au Burundi ou au Rwanda selon les auteurs, bien au-delà du lac Victoria auquel on l'associe souvent.`],
-    ["Les fleuves d'Europe et d'Asie", `Le Danube traverse ou borde dix pays, plus qu'aucun autre fleuve au monde, et relie l'Allemagne à la mer Noire. Le Rhin relie les Alpes à la mer du Nord et constitue l'axe fluvial le plus emprunté d'Europe. La Volga, plus long fleuve d'Europe, ne rejoint aucun océan : elle se jette dans la mer Caspienne, qui est un bassin fermé.
-
-En Asie, le Tigre arrose Bagdad et forme avec l'Euphrate la Mésopotamie, littéralement le pays entre les fleuves. Le Yangzi Jiang traverse la Chine d'ouest en est et se jette près de Shanghai : c'est le plus long fleuve d'Asie et l'axe économique majeur du pays.`],
-    ["Afrique et Amérique", `Le Niger décrit une trajectoire déroutante : né à quelques centaines de kilomètres de l'Atlantique, il part vers le nord-est jusqu'aux abords du Sahara avant de redescendre vers le golfe de Guinée. Cette boucle s'explique par la capture, à l'époque géologique, de deux fleuves distincts.
-
-Le Congo est le seul grand fleuve à traverser deux fois l'équateur, ce qui lui assure un débit remarquablement régulier : quand un hémisphère est en saison sèche, l'autre est en saison des pluies. Aux États-Unis, le Mississippi draine le centre du pays et se jette dans le golfe du Mexique, formant avec le Missouri l'un des plus longs systèmes fluviaux du monde.`],
-  ],
-
   "geo-iles": [
     ["Les plus grandes, les plus peuplées", `Le Groenland est la plus grande île du monde — l'Australie, plus vaste, est classée comme continent, ce qui relève d'une convention et non d'un critère physique. La Nouvelle-Guinée vient en deuxième position, partagée entre l'Indonésie et la Papouasie-Nouvelle-Guinée.
 

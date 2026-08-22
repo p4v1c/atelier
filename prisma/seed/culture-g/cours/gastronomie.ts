@@ -33,30 +33,6 @@ Le terroir désigne l'ensemble formé par un sol, un climat et le savoir-faire a
 Le vignoble européen a failli disparaître à la fin du XIXe siècle : le phylloxéra, un puceron venu d'Amérique du Nord, détruit les racines des vignes européennes à partir de 1863. La solution a été de greffer les cépages européens sur des porte-greffes américains résistants — c'est encore ainsi qu'on plante aujourd'hui. Plus récemment, la biodynamie propose une viticulture suivant un cahier des charges qui ajoute au bio des préparations spécifiques et un calendrier lunaire ; ses résultats agronomiques font débat, sa diffusion est réelle.`],
   ],
 
-  "ga-cuisine-francaise": [
-    ["Deux codificateurs", `La cuisine française doit son statut de référence à un effort de codification. Antonin Carême, au début du XIXe siècle, sort la cuisine de l'empirisme : il classe les sauces, dessine des pièces montées spectaculaires et écrit des traités. Surnommé le roi des cuisiniers et le cuisinier des rois, il travaille pour Talleyrand, le tsar et les Rothschild.
-
-Auguste Escoffier reprend et simplifie l'édifice au début du XXe siècle. Son Guide culinaire, publié en 1903, fixe un répertoire commun que les cuisines professionnelles emploieront pendant des décennies. Il invente aussi le système de brigade, une organisation hiérarchisée par postes spécialisés — saucier, poissonnier, entremétier, pâtissier — inspirée du modèle militaire, qui permet de servir vite et régulièrement.`],
-    ["Les sauces et la rupture", `La cuisine classique s'organise autour de cinq sauces mères, dont toutes les autres dérivent : la béchamel, le velouté, l'espagnole, la sauce tomate et la hollandaise. Apprendre ces cinq bases, c'est disposer d'un système génératif plutôt que d'une liste de recettes.
-
-Les années 1970 apportent la rupture. La nouvelle cuisine, portée par des chefs comme Paul Bocuse, Michel Guérard ou les frères Troisgros, prône des cuissons plus courtes, des sauces allégées débarrassées des liaisons à la farine, le respect du produit frais et des assiettes dressées en cuisine. Le mouvement a été moqué pour ses portions, mais la plupart de ses principes sont devenus la norme.`],
-    ["Les plats et la reconnaissance", `Les plats régionaux forment l'autre versant de cette cuisine. Le bœuf bourguignon associe bœuf, vin rouge, lardons et champignons dans un mijotage long. Le cassoulet, originaire du Languedoc, réunit haricots blancs et viandes confites, Castelnaudary, Carcassonne et Toulouse en revendiquant chacune une version. La bouillabaisse marseillaise, née comme une soupe de pêcheurs faite des poissons invendables, se sert avec sa rouille et ses croûtons.
-
-Deux reconnaissances institutionnelles complètent le tableau. Le titre de Meilleur Ouvrier de France, créé en 1924, est un titre d'État décerné après un concours d'excellence, dans plus de deux cents métiers. Et depuis 2010, c'est le repas gastronomique des Français qui est inscrit au patrimoine immatériel de l'UNESCO : non pas la cuisine elle-même, mais une pratique sociale, avec ses rites, son ordonnancement des plats et son accord des vins.`],
-  ],
-
-  "ga-cuisines-monde": [
-    ["Ce que 1492 a changé", `Les cuisines du monde telles que nous les connaissons datent en grande partie de l'échange colombien. La tomate, la pomme de terre, le piment, le maïs, le cacao et la vanille viennent tous du continent américain. Sans eux, ni la cuisine italienne, ni la cuisine indienne, ni la cuisine hongroise actuelles n'existeraient : il n'y avait ni sauce tomate à Naples, ni curry pimenté à Madras avant le XVIe siècle.
-
-Cette diffusion a pris du temps et n'a rien eu d'évident : la tomate a longtemps été cultivée en Europe comme plante ornementale, soupçonnée d'être toxique par parenté avec la belladone.`],
-    ["L'Asie", `La cuisine japonaise repose sur des fondamentaux discrets : le sushi associe un riz vinaigré à du poisson cru ou à d'autres garnitures, le mot désignant d'abord le riz et non le poisson. Le miso, pâte de soja fermentée, sert de base à la soupe quotidienne. C'est d'ailleurs en étudiant un bouillon japonais que le chimiste Kikunae Ikeda a identifié en 1908 l'umami, cinquième saveur fondamentale liée au glutamate, aux côtés du sucré, du salé, de l'acide et de l'amer.
-
-En Corée, le kimchi est un chou fermenté au piment, dont la préparation collective d'automne est inscrite au patrimoine immatériel. En Inde du Nord, le garam masala, mélange d'épices grillées et moulues, structure une grande partie des préparations ; sa composition varie d'une famille à l'autre.`],
-    ["La Méditerranée et l'Amérique", `Au Maghreb, le tajine tire son nom du plat en terre à couvercle conique où il cuit : la vapeur condense sur les parois et retombe sur les aliments. Le couscous, préparé à partir de semoule de blé dur roulée puis cuite à la vapeur, est inscrit au patrimoine immatériel par quatre pays du Maghreb conjointement.
-
-Au Mexique, la tortilla de maïs est la base de tout ; le maïs y est d'abord nixtamalisé, c'est-à-dire cuit dans une eau alcaline, procédé qui libère la vitamine B3 et a permis aux civilisations mésoaméricaines d'éviter la pellagre. En Italie, la cuisson al dente, qui laisse aux pâtes une résistance sous la dent, n'est pas qu'une préférence de texture : elle ralentit aussi la digestion des amidons.`],
-  ],
-
   "ga-techniques-cuisine": [
     ["Ce qui donne le goût", `Saisir une viande ne scelle aucun jus : l'idée, popularisée au XIXe siècle, a été démentie par l'expérience. Ce que la saisie produit, c'est la réaction de Maillard, une réaction entre les sucres et les acides aminés qui se déclenche vers cent quarante degrés et engendre des centaines de composés aromatiques en même temps qu'un brunissement. C'est elle qui donne son goût à la croûte du pain, au café torréfié, à la viande grillée.
 
@@ -67,18 +43,6 @@ Blanchir un légume, c'est le plonger brièvement dans l'eau bouillante puis le 
     ["Lier, émulsionner, récupérer", `Un roux est un mélange cuit de farine et de matière grasse, servant à lier une sauce ; sa couleur, blanche, blonde ou brune, dépend du temps de cuisson et détermine son goût autant que son pouvoir épaississant.
 
 Une émulsion est la dispersion stable d'un liquide dans un autre qui ne se mélange pas à lui : l'huile dans l'eau du jaune d'œuf pour la mayonnaise, où la lécithine sert d'agent stabilisant. Monter une sauce au beurre consiste à incorporer du beurre froid en fouettant hors du feu : c'est encore une émulsion, que la chaleur ferait retomber. Déglacer, enfin, c'est verser un liquide dans une poêle chaude pour dissoudre les sucs caramélisés collés au fond — c'est là que se trouve l'essentiel des arômes développés pendant la cuisson.`],
-  ],
-
-  "ga-pain-patisserie": [
-    ["Quatre ingrédients", `Le pain ne contient que quatre ingrédients : farine, eau, sel et ferment. Tout le reste est technique. Le décret français de 1993 sur le pain de tradition l'a inscrit dans le droit : la baguette de tradition interdit tout additif, toute congélation de la pâte et n'admet qu'une courte liste d'ingrédients — ce qui explique qu'elle se distingue d'une baguette ordinaire.
-
-Le levain est une culture de levures et de bactéries lactiques entretenue par le boulanger, qui en prélève une part à chaque fournée. Les bactéries lui donnent son acidité et améliorent la conservation. C'est le dioxyde de carbone dégagé par la fermentation qui fait lever la pâte, retenu par le gluten : ce réseau de protéines, formé au pétrissage, donne à la pâte son élasticité et sa capacité à emprisonner le gaz.`],
-    ["Les pâtes de la pâtisserie", `La pâte feuilletée s'obtient par une alternance de couches : un pâton de détrempe enferme du beurre, et une série de tours et de pliages multiplie les feuillets, qui se séparent à la cuisson sous l'effet de la vapeur. Une pâte feuilletée classique compte plusieurs centaines de couches.
-
-La pâte à choux se fabrique en deux temps : la farine est d'abord desséchée sur le feu dans un mélange d'eau et de beurre, puis enrichie d'œufs hors du feu. À la cuisson, l'eau se transforme en vapeur et gonfle la pâte, laissant une cavité. La crème pâtissière, faite de lait, de jaunes d'œufs, de sucre et d'amidon, en est la garniture la plus courante. Le Paris-Brest, choux en couronne garni de praliné, a été créé en 1910 en hommage à la course cycliste du même nom — sa forme évoque une roue.`],
-    ["Chocolat et diététique", `Le tempérage du chocolat est un cycle précis de températures — fondre, refroidir, remonter — qui force le beurre de cacao à cristalliser sous la seule forme stable parmi les six possibles. C'est elle qui donne le brillant, le craquant et la bonne tenue au démoulage ; un chocolat mal tempéré blanchit et fond au doigt.
-
-Côté nutrition, l'index glycémique d'un pain mesure la vitesse à laquelle il élève la glycémie après ingestion. Il varie beaucoup selon la mouture de la farine, la présence de son et le type de fermentation : un pain au levain complet a un index nettement plus bas qu'une baguette blanche, à quantité de glucides identique.`],
   ],
 
   "ga-boissons": [
