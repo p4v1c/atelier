@@ -846,4 +846,120 @@ Ces forums produisent des communiqués et non des normes. Leur utilité est cell
 
 L'aide liée, enfin, est une aide conditionnée à l'achat de biens ou de services du pays donateur. Elle réduit mécaniquement la valeur de l'aide pour le bénéficiaire, qui ne peut acheter au meilleur prix, et son déliement fait l'objet de recommandations internationales inégalement suivies.`],
   ],
+
+  "ie3-droit-numerique": [
+    ["Un droit venu d'Europe", `Le droit du numérique français repose largement sur des règlements européens directement applicables, sans transposition. Ce choix de l'instrument est significatif : un règlement s'impose de la même façon dans tous les États, là où une directive laisse des marges nationales qui fragmentent le marché — inadapté à des services qui ignorent les frontières.
+
+Le RGPD, entré en application en 2018, en est le pilier. Il définit une donnée à caractère personnel comme toute information se rapportant à une personne identifiée ou identifiable, directement ou indirectement. La définition est volontairement large : une adresse IP, un identifiant publicitaire, une donnée de géolocalisation en relèvent, même sans nom associé.
+
+Une donnée sensible bénéficie d'une protection renforcée : santé, opinions politiques, convictions religieuses, origine, appartenance syndicale, orientation sexuelle, données biométriques et génétiques. Leur traitement est en principe interdit, sauf exceptions strictement encadrées — consentement explicite, motif de santé publique, obligation légale.`],
+    ["Consentir et récupérer", `Le consentement au sens du RGPD est une manifestation de volonté libre, spécifique, éclairée et univoque. Chacun de ces quatre adjectifs a une portée précise et écarte des pratiques courantes.
+
+Libre exclut un consentement obtenu sous la menace d'une perte d'accès au service, si celui-ci n'exige pas le traitement. Spécifique interdit un consentement global couvrant des finalités distinctes. Éclairé suppose une information compréhensible. Univoque exige un acte positif — une case pré-cochée ou l'inaction ne valent pas consentement.
+
+Le consentement n'est d'ailleurs que l'une des six bases légales possibles : contrat, obligation légale, intérêt vital, mission d'intérêt public et intérêt légitime en sont les autres. Une confusion répandue veut que tout traitement exige un consentement, alors qu'un employeur traite les données de ses salariés sur une autre base.
+
+Le droit à la portabilité permet de récupérer ses données dans un format structuré et lisible par machine, et de les transmettre à un autre service. Son objectif est autant concurrentiel que protecteur : réduire le coût de sortie d'une plateforme.`],
+    ["Qui répond des contenus", `La responsabilité d'un hébergeur est limitée : il n'est pas tenu de surveiller a priori les contenus stockés, et n'engage sa responsabilité que s'il n'a pas agi promptement après avoir eu connaissance d'un contenu manifestement illicite. Ce régime, posé en 2000, distingue l'hébergeur passif de l'éditeur, responsable de ce qu'il publie.
+
+Sa justification est pratique : une obligation de contrôle préalable généralisée conduirait à une censure massive par précaution, l'hébergeur ayant intérêt à retirer au moindre doute.
+
+Le règlement sur les services numériques, applicable depuis 2023, conserve ce principe en l'assortissant d'obligations nouvelles : mécanismes de signalement, motivation des retraits, voies de recours pour les utilisateurs, transparence sur les algorithmes de recommandation, et pour les très grandes plateformes une évaluation annuelle des risques systémiques auditée par des tiers.
+
+Le règlement sur les marchés numériques poursuit un objectif distinct : il désigne des contrôleurs d'accès — plateformes incontournables pour atteindre les utilisateurs — et leur impose des obligations et interdictions précises, définies à l'avance plutôt que sanctionnées après coup.`],
+    ["Propriété intellectuelle et intelligence artificielle", `La contrefaçon numérique est la reproduction ou la diffusion non autorisée d'une œuvre protégée. Le droit d'auteur s'applique dès la création, sans dépôt ni formalité, et protège la forme et non l'idée.
+
+Le droit d'auteur appliqué aux logiciels protège le code source comme œuvre de l'esprit, avec un régime particulier : les droits appartiennent automatiquement à l'employeur pour un logiciel créé par un salarié dans ses fonctions, dérogation notable au principe général. Ce choix de protéger le logiciel par le droit d'auteur plutôt que par le brevet est une caractéristique européenne, les brevets logiciels y étant en principe exclus.
+
+Le règlement européen sur l'intelligence artificielle, adopté en 2024, organise les obligations selon le niveau de risque. Certaines pratiques sont interdites — notation sociale généralisée, manipulation exploitant des vulnérabilités, identification biométrique en temps réel dans l'espace public à des fins répressives hors exceptions strictes. Les systèmes à haut risque — recrutement, crédit, éducation, justice, infrastructures — sont soumis à des exigences de données, de documentation, de supervision humaine et de robustesse. Les autres relèvent d'obligations légères de transparence.
+
+Cette approche graduée est l'apport principal du texte : ce n'est pas la technologie qui est réglementée, mais l'usage qui en est fait et les conséquences pour les personnes.`],
+  ],
+
+  "ie3-inegalites-france": [
+    ["Revenu et patrimoine", `Les inégalités de patrimoine sont bien plus fortes que les inégalités de revenu, et cet écart est la donnée la plus importante du sujet. Le rapport entre les déciles extrêmes se compte en unités pour les revenus et en dizaines pour le patrimoine ; les dix pour cent les mieux dotés détiennent près de la moitié du patrimoine total, tandis que la moitié la moins dotée en possède une part très faible.
+
+Trois raisons expliquent cette différence. Le patrimoine s'accumule sur toute une vie et se transmet, quand le revenu est un flux annuel. Il produit lui-même des revenus, ce qui entretient l'écart. Et il est bien moins redistribué : la France taxe fortement les revenus du travail et modestement les transmissions au regard des masses concernées.
+
+Le niveau de vie médian est le niveau qui sépare la population en deux moitiés égales. Il est préféré à la moyenne, que quelques très hauts revenus suffisent à tirer vers le haut sans que la situation du plus grand nombre ait changé.
+
+Le taux de pauvreté mesure en France la part de la population dont le niveau de vie est inférieur à soixante pour cent du niveau de vie médian. C'est donc une mesure relative : elle décrit un écart à la norme sociale du pays, non un dénuement absolu, et elle peut baisser lors d'une récession qui appauvrit tout le monde.`],
+    ["Qui est pauvre", `Les familles monoparentales et les jeunes sont les groupes les plus touchés par la pauvreté en France. Le premier cas s'explique par la combinaison d'un seul revenu, de charges de logement complètes et de contraintes de garde qui limitent l'accès à l'emploi à temps plein — et il concerne très majoritairement des femmes.
+
+Le second tient à l'entrée tardive dans l'emploi stable, à la faiblesse des droits ouverts avant vingt-cinq ans et à l'exclusion des moins de vingt-cinq ans du revenu de solidarité active, singularité française régulièrement discutée.
+
+À l'inverse, les personnes âgées connaissent en France un taux de pauvreté inférieur à la moyenne, résultat de la montée en charge du système de retraite — situation qui distingue nettement la France de plusieurs voisins et qui pourrait s'inverser avec les carrières hachées des générations suivantes.
+
+La redistribution désigne l'effet combiné des prélèvements et des prestations sur les inégalités. Son ampleur en France est parmi les plus fortes de l'OCDE : les inégalités de revenu avant redistribution y sont comparables à celles de nombreux pays, et nettement réduites après. Ce sont les prestations, davantage que la progressivité de l'impôt, qui expliquent l'essentiel de cet effet.`],
+    ["Hériter d'une position", `La mobilité sociale est la capacité à occuper une position différente de celle de ses parents. Elle se mesure par des tables comparant l'origine et la destination sociale, et distingue la mobilité structurelle — due à la transformation de la structure des emplois — de la mobilité nette, seule véritablement révélatrice de fluidité.
+
+En France, la mobilité existe mais reste fortement contrainte aux extrémités : les enfants de cadres deviennent très majoritairement cadres, les enfants d'ouvriers accèdent bien plus rarement aux positions supérieures. Le système scolaire, censé corriger ces écarts, les reproduit largement.
+
+Pierre Bourdieu en a proposé l'analyse la plus influente. Selon lui, l'école reproduit les positions sociales tout en les légitimant : elle valorise des dispositions culturelles — langage, rapport au savoir, familiarité avec la culture savante — que les familles favorisées transmettent hors de l'école, et qu'elle traite comme des dons individuels. L'inégalité sociale se convertit ainsi en inégalité de mérite apparent, ce qui la rend acceptable.
+
+Cette analyse a été discutée et nuancée — elle sous-estime les trajectoires ascendantes et l'effet propre de l'école — mais son constat central résiste : l'origine sociale reste en France l'un des prédicteurs les plus forts de la réussite scolaire, avec un poids supérieur à la moyenne des pays comparables.`],
+    ["Femmes et hommes", `L'écart salarial entre femmes et hommes en France est d'environ quinze pour cent à temps de travail comparable, et de près d'un quart en tenant compte du temps partiel. Il se décompose en plusieurs effets : différences de secteurs et de métiers, de temps de travail, d'ancienneté et d'interruptions de carrière — et une part résiduelle, de l'ordre de quelques pour cent, qu'aucune caractéristique observable n'explique et qui constitue la discrimination pure.
+
+Le plafond de verre désigne l'obstacle invisible qui limite l'accès des femmes aux postes de direction : elles sont majoritaires parmi les diplômés du supérieur et minoritaires dans les comités exécutifs. L'image du plafond est complétée par celle des parois de verre — la concentration dans certaines fonctions, ressources humaines ou communication, qui mènent moins souvent à la direction générale.
+
+L'index de l'égalité professionnelle, obligatoire depuis 2019 pour les entreprises d'au moins cinquante salariés, note sur cent points cinq indicateurs : écart de rémunération, écart de répartition des augmentations et des promotions, augmentation au retour de congé maternité, et parité parmi les dix plus hautes rémunérations. Les entreprises sous un seuil de soixante-quinze points doivent corriger sous trois ans sous peine de pénalité.
+
+Son mérite est de rendre les écarts publics et comparables ; sa limite est que la moyenne des notes est élevée alors que les écarts persistent — signe que les indicateurs choisis mesurent mal ce qui résiste.`],
+  ],
+
+  "ie3-associations-democratie": [
+    ["Un tissu considérable", `La France compte plus d'un million et demi d'associations actives et plus de vingt millions de bénévoles, chiffres qui font du secteur associatif l'une des réalités sociales les plus massives et les moins visibles du pays.
+
+Leur répartition est très inégale : le sport, la culture et les loisirs rassemblent le plus grand nombre de structures, l'action sociale et la santé l'essentiel des emplois salariés et des budgets. La grande majorité des associations n'emploie personne et fonctionne entièrement au bénévolat.
+
+Une association reconnue d'utilité publique bénéficie d'un statut accordé par décret en Conseil d'État, après plusieurs années d'existence et un examen approfondi de son objet, de sa gouvernance et de ses finances. Ce statut, obtenu par quelques milliers d'associations seulement, permet notamment de recevoir des legs et des donations — capacité juridique refusée aux associations ordinaires.
+
+Le financement du secteur repose sur un équilibre fragile entre cotisations, dons, produits d'activité et subventions publiques. Le glissement de la subvention vers la commande publique, où l'association répond à un appel d'offres pour exécuter une prestation définie par l'administration, a modifié la relation en profondeur : d'un soutien à un projet associatif, on est passé à l'achat d'un service, avec une perte d'initiative que le secteur signale depuis des années.`],
+    ["Faire participer", `Un budget participatif confie aux habitants la décision d'affectation d'une part du budget d'investissement local. Le procédé, né à Porto Alegre au Brésil à la fin des années 1980, s'est diffusé dans des centaines de villes françaises. Les montants concernés restent modestes — souvent quelques pour cent de l'investissement — et son intérêt tient moins à la somme qu'à l'apprentissage de la contrainte budgétaire par les participants.
+
+Une convention citoyenne réunit des citoyens tirés au sort, formés par des experts pendant plusieurs sessions, pour formuler des propositions sur un sujet complexe. La Convention citoyenne pour le climat, en 2019 et 2020, a produit cent quarante-neuf propositions dont le sort a nourri une controverse durable sur l'engagement de reprise « sans filtre » et sur ce qui a effectivement été mis en œuvre.
+
+Le tirage au sort en démocratie n'est pas une nouveauté : c'était le mode de désignation ordinaire des magistratures athéniennes, l'élection étant alors jugée aristocratique parce qu'elle sélectionne les notables. Son retour contemporain se limite à des assemblées consultatives, avec un argument précis : il produit une assemblée statistiquement représentative de la population, ce que l'élection ne fait pas.`],
+    ["Les procédures d'initiative", `L'initiative citoyenne européenne permet à un million de citoyens issus d'au moins sept États membres de demander à la Commission de proposer un acte juridique. La Commission n'est pas tenue de le faire, mais doit répondre publiquement et motiver sa position. Quelques initiatives ont abouti à des textes, la plupart n'ont pas dépassé le seuil de signatures.
+
+Le référendum d'initiative partagée, introduit en France en 2008, exige le soutien d'un cinquième des parlementaires puis d'un dixième des électeurs inscrits — soit environ quatre millions et demi de signatures en neuf mois. Ce seuil, l'un des plus élevés au monde, n'a jamais été atteint. Le dispositif existe donc sans avoir jamais fonctionné, ce qui alimente la demande récurrente d'un référendum d'initiative citoyenne aux conditions plus accessibles.
+
+Le débat public est une procédure organisée pour les grands projets d'aménagement, sous l'égide de la Commission nationale du débat public, autorité indépendante. Il intervient en amont, quand le projet peut encore être modifié ou abandonné, et il ne décide de rien : il éclaire. Son bilan montre des projets réellement infléchis, et une frustration constante lorsque la décision finale ignore les enseignements du débat.`],
+    ["Alerter", `Un lanceur d'alerte est une personne physique qui signale, de bonne foi et sans contrepartie financière, une menace ou une atteinte à l'intérêt général — crime, délit, violation d'un engagement international, menace grave.
+
+Son statut a été construit progressivement, sous l'effet d'affaires où des salariés ayant révélé des faits graves avaient été licenciés et poursuivis. La loi Sapin II de 2016 puis sa réforme de 2022, transposant une directive européenne, ont abouti à une protection parmi les plus complètes d'Europe : interdiction des représailles, nullité des sanctions, irresponsabilité pénale pour la divulgation, prise en charge des frais de justice, et suppression de l'obligation de signaler d'abord en interne.
+
+La difficulté demeure pratique plutôt que juridique. Le lanceur d'alerte reste exposé à une mise à l'écart informelle, à des procédures longues et à un coût personnel considérable, que la protection légale n'annule pas. Les affaires connues montrent des parcours de plusieurs années, souvent au prix de la carrière — ce qui explique que le statut protège moins qu'il ne dissuade encore de se taire.`],
+  ],
+
+  "ie3-crises-contemporaines": [
+    ["2008 : la crise financière", `Un crédit subprime est un crédit immobilier accordé à des emprunteurs à faible solvabilité, à taux souvent variable et sur l'hypothèse d'une hausse continue des prix de l'immobilier — hypothèse qui permettait de refinancer le prêt en cas de difficulté.
+
+La titrisation a transformé ces créances en titres négociables : les prêts étaient regroupés, découpés en tranches de risque et vendus à des investisseurs du monde entier. Le mécanisme est légitime en soi — il disperse le risque — mais il a produit deux effets pervers. Il a rompu le lien entre celui qui accorde le crédit et celui qui en supporte le risque, supprimant l'incitation à vérifier la solvabilité. Et il a rendu le risque illisible, les titres étant si complexes que ni les acheteurs ni les agences de notation ne savaient réellement ce qu'ils contenaient.
+
+En septembre 2008, la faillite de Lehman Brothers a provoqué une panique financière mondiale. Le marché interbancaire s'est bloqué, chaque banque soupçonnant les autres de porter des pertes inconnues. Le choc s'est transmis à l'économie réelle par le crédit, et la récession qui a suivi a été la plus grave depuis les années 1930.
+
+La réponse a associé sauvetage bancaire, relance budgétaire coordonnée et politique monétaire non conventionnelle — et une refonte de la régulation, avec des exigences de fonds propres relevées et une supervision renforcée.`],
+    ["2010 : la dette souveraine", `La crise de la dette souveraine européenne débute en 2010 avec la révélation de l'ampleur réelle du déficit grec, et s'étend par contagion à l'Irlande, au Portugal, à l'Espagne et à l'Italie.
+
+Son mécanisme est différent de celui de 2008 : c'est une crise de confiance sur la capacité de certains États à rembourser, qui fait diverger brutalement les taux d'intérêt entre pays partageant la même monnaie. Elle révèle un défaut de construction de la zone euro — une monnaie unique sans budget commun, sans mutualisation de la dette, et sans prêteur en dernier ressort clairement désigné pour les États.
+
+Les plans d'aide, assortis de programmes d'austérité sévères, ont produit des effets sociaux lourds et une contraction supplémentaire de l'activité, le multiplicateur budgétaire ayant été sous-estimé — le FMI l'a reconnu publiquement en 2013.
+
+Le tournant vient en juillet 2012, quand Mario Draghi, président de la Banque centrale européenne, déclare qu'elle fera « tout ce qu'il faudra » pour préserver l'euro, et ajoute : « croyez-moi, ce sera suffisant ». Les taux se détendent immédiatement, sans qu'aucun achat n'ait encore eu lieu. C'est la démonstration la plus nette de ce que vaut la crédibilité d'une banque centrale : trois mots ont fait ce que des mois de sommets n'avaient pas obtenu.`],
+    ["2020 : l'arrêt volontaire", `La crise de 2020 présente une particularité qui la distingue de toutes les précédentes : un arrêt volontaire de l'activité pour raisons sanitaires. Ce n'est ni un choc financier ni un choc d'offre ordinaire, mais une interruption décidée par les pouvoirs publics.
+
+Cette nature a commandé la réponse. Il ne s'agissait pas de relancer une demande défaillante mais de maintenir en vie un appareil productif temporairement à l'arrêt — d'où une logique d'assurance plutôt que de relance. Le chômage partiel massif a pris en charge les salaires pour éviter les licenciements, préservant le lien entre l'entreprise et ses salariés ; les prêts garantis par l'État ont soutenu la trésorerie ; les reports de charges ont évité les faillites en chaîne.
+
+Le résultat est un rebond rapide, l'appareil productif n'ayant pas été détruit et les compétences n'ayant pas été dispersées. Son coût est un endettement public sans précédent en temps de paix, et un soutien parfois indifférencié — plusieurs évaluations ont relevé qu'une part des aides était allée à des entreprises qui n'en avaient pas besoin, prix payé à la rapidité.`],
+    ["2021-2022 : le retour de l'inflation", `La poussée d'inflation de 2021 et 2022 s'explique principalement par des tensions d'approvisionnement et une flambée des prix de l'énergie. La reprise simultanée de toutes les économies après les confinements a saturé les chaînes logistiques et les capacités de production ; l'invasion de l'Ukraine a fait s'envoler les prix du gaz, du pétrole et des céréales.
+
+S'y sont ajoutés des facteurs de demande — l'épargne accumulée pendant les confinements — et, selon plusieurs travaux, une part de reconstitution voire d'accroissement des marges dans certains secteurs.
+
+Les banques centrales ont réagi par une hausse rapide des taux directeurs, la plus brutale depuis quarante ans, après avoir d'abord jugé l'inflation transitoire. Ce diagnostic initial erroné et la vitesse du rattrapage ont produit un choc considérable sur le crédit immobilier et sur l'investissement.
+
+En France, le bouclier tarifaire a limité la hausse des prix de l'énergie pour les consommateurs, par gel puis plafonnement des tarifs réglementés. Il a contenu l'inflation mesurée à un niveau inférieur à celui de la plupart des voisins européens, pour un coût budgétaire de plusieurs dizaines de milliards d'euros, et avec l'objection habituelle à ce type de dispositif : en atténuant le signal-prix, il réduit l'incitation à la sobriété qu'il aurait fallu encourager.
+
+Chaque crise récente a ainsi modifié le rôle attendu des banques centrales et des États — assureur en dernier ressort en 2008, garant de la monnaie unique en 2012, payeur des salaires en 2020, amortisseur des prix en 2022. Le périmètre de ce qui est jugé de leur ressort n'a cessé de s'élargir.`],
+  ],
 };
