@@ -823,4 +823,144 @@ Le préenregistrement répond directement à ce problème : le protocole complet
 
 Il est obligatoire pour les essais cliniques et se répand ailleurs. Là où il a été appliqué, la proportion d'études rapportant des résultats positifs a chuté spectaculairement — ce qui en dit long sur ce qu'était la littérature antérieure.`],
   ],
+
+  "sv3-especes-france": [
+    ["Un territoire plus riche qu'on ne croit", `La France métropolitaine abrite une biodiversité plus riche que la moyenne européenne, pour une raison géographique : elle est le seul pays d'Europe à réunir quatre domaines biogéographiques — atlantique, continental, méditerranéen et alpin. Cette position de carrefour, à la charnière des flores nordiques et méridionales, multiplie les milieux et les espèces.
+
+Cette richesse s'accompagne d'une responsabilité que peu connaissent : les outre-mer concentrent l'essentiel des espèces endémiques françaises, celles qui n'existent nulle part ailleurs. La Nouvelle-Calédonie, la Guyane, La Réunion et la Polynésie hébergent des milliers d'espèces uniques, et placent la France parmi les pays les plus riches du monde en biodiversité — un fait presque absent du débat public métropolitain.`],
+    ["Ceux qui reviennent", `Le loup est revenu naturellement en France en 1992, dans le Mercantour, depuis la population italienne qui n'avait jamais été totalement éradiquée. Il n'a été ni réintroduit ni lâché, contrairement à une rumeur tenace : le suivi génétique établit la continuité avec les meutes des Abruzzes. Son retour, protégé par la convention de Berne, entretient un conflit durable avec l'élevage ovin, où se mêlent pertes réelles, difficultés de protection des troupeaux en alpage et enjeux symboliques.
+
+L'ours brun a suivi une trajectoire inverse : la population pyrénéenne étant tombée à quelques individus, des ours d'origine slovène ont été réintroduits à partir de 1996 pour éviter l'extinction par consanguinité.
+
+Le vautour fauve a été réintroduit avec succès dans les Grands Causses puis dans d'autres massifs, après avoir disparu de la plupart de ses sites. Ces oiseaux rendent un service d'équarrissage naturel, et leur retour a permis de restaurer des placettes d'alimentation légales pour les éleveurs.
+
+Le faucon pèlerin a failli disparaître à cause du DDT, qui amincissait la coquille de ses œufs au point qu'ils se brisaient sous le poids des parents. L'interdiction de l'insecticide a suffi à faire remonter les populations, qui nichent aujourd'hui jusque sur les cathédrales et les tours des villes.`],
+    ["Les outils de protection", `Une espèce protégée en France est une espèce dont la destruction, la capture, le transport et la perturbation intentionnelle sont interdits, ainsi souvent que la destruction de son habitat. La protection porte sur l'espèce et non sur un lieu : elle s'applique partout où l'animal se trouve.
+
+Le réseau Natura 2000 procède autrement : c'est un réseau européen de sites désignés pour protéger des habitats et des espèces d'intérêt communautaire. Sa philosophie n'est pas la mise sous cloche mais la gestion concertée — les activités humaines y continuent, encadrées par un document d'objectifs élaboré localement.
+
+Un parc national français combine deux niveaux : un cœur réglementé, où les activités sont strictement encadrées, et une aire d'adhésion où les communes s'engagent volontairement dans un projet de territoire. Cette architecture, issue de la réforme de 2006, cherche à sortir de l'opposition entre protection et habitants qui avait marqué la création des premiers parcs.`],
+    ["Savoir ce qui disparaît", `La liste rouge des espèces menacées en France dresse l'état des lieux du risque de disparition des espèces du territoire, selon les critères standardisés de l'Union internationale pour la conservation de la nature — préoccupation mineure, quasi menacée, vulnérable, en danger, en danger critique, éteinte.
+
+Sa valeur tient à sa méthode : les catégories reposent sur des critères quantitatifs — taille de population, aire de répartition, vitesse de déclin — et non sur une appréciation d'expert. Elle permet de comparer dans le temps et entre pays, et d'identifier les espèces pour lesquelles agir maintenant change quelque chose.
+
+Ses résultats en France sont sévères : une part importante des oiseaux nicheurs, des amphibiens, des reptiles et des poissons d'eau douce y figure dans une catégorie de menace. Le grand dauphin, mammifère marin fréquentant régulièrement les côtes françaises, illustre la difficulté de protéger des espèces mobiles — la population de Méditerranée est suivie et fragile, alors même que l'animal paraît commun aux observateurs occasionnels.`],
+  ],
+
+  "sv3-alimentation-sante": [
+    ["Une science difficile", `L'épidémiologie nutritionnelle est l'une des disciplines les plus délicates de la santé publique, pour une raison simple : on ne peut isoler un aliment de son contexte. Les personnes qui mangent beaucoup de légumes fument moins, bougent davantage, sont plus diplômées et consultent plus souvent. Attribuer aux légumes ce qui revient à l'ensemble de ce mode de vie est le piège permanent du domaine.
+
+S'y ajoute la difficulté de la mesure. Un questionnaire de fréquence alimentaire estime la consommation habituelle à partir de déclarations, et les déclarations sont imprécises : on oublie, on approxime les portions, et l'on sous-déclare systématiquement ce qu'on juge peu vertueux. Les biomarqueurs sanguins corrigent une partie de ce biais, mais n'existent que pour certains nutriments.
+
+Enfin, on ne randomise pas facilement un régime sur trente ans. Les essais contrôlés en nutrition portent sur des durées courtes et des critères intermédiaires, quand les effets recherchés se jouent sur des décennies. D'où une littérature abondante, contradictoire en apparence, et une prudence nécessaire face à toute étude isolée annonçant qu'un aliment sauve ou tue.`],
+    ["Ce qui fait consensus", `Quelques recommandations résistent pourtant à l'examen, parce qu'elles sont soutenues par des faisceaux convergents.
+
+Le Programme national nutrition santé recommande au moins cinq portions de fruits et légumes par jour. Le chiffre est un repère de communication plus qu'un seuil biologique, mais la relation entre consommation de végétaux et réduction du risque cardiovasculaire est l'une des plus robustes du domaine.
+
+La limitation du sel à environ cinq grammes par jour vise la pression artérielle, dont le lien avec les accidents vasculaires est établi. La difficulté est que l'essentiel du sel consommé n'est pas ajouté à table mais contenu dans les produits transformés, pain en tête — d'où l'intérêt des accords de reformulation avec les industriels, plus efficaces que les conseils individuels.
+
+Sur l'alcool, la recommandation française est de ne pas dépasser dix verres par semaine, deux par jour, avec des jours sans. Le seuil a été abaissé en 2017 et la formulation a changé : il n'existe pas de consommation sans risque, seulement des niveaux de risque acceptés.`],
+    ["Deux dossiers surveillés", `La viande transformée — charcuterie, jambon, saucisses — est classée cancérogène avéré pour le côlon-rectum par le Centre international de recherche sur le cancer, la viande rouge étant classée cancérogène probable. La distinction rappelée plus haut vaut ici pleinement : ce classement porte sur la solidité de la preuve, pas sur l'ampleur du risque, qui reste sans commune mesure avec celui du tabac. La recommandation qui en découle est modérée — limiter, non supprimer.
+
+L'alimentation ultra-transformée désigne des produits industriels contenant des ingrédients d'usage non domestique : isolats de protéines, amidons modifiés, arômes, émulsifiants, colorants. La classification NOVA qui la définit ne porte pas sur la composition nutritionnelle mais sur le degré de transformation, ce qui a d'abord surpris.
+
+Les études suggèrent une association entre consommation élevée d'ultra-transformé et plusieurs pathologies chroniques — obésité, diabète, maladies cardiovasculaires, certains cancers. Les mécanismes candidats sont multiples : densité calorique, pauvreté en fibres, additifs, matrice alimentaire dégradée qui accélère l'absorption, vitesse d'ingestion. Le lien est cohérent et répété, mais reste principalement observationnel — un essai contrôlé a toutefois montré qu'à composition nutritionnelle équivalente, un régime ultra-transformé conduisait à consommer spontanément davantage de calories.`],
+    ["Deux notions utiles", `L'index glycémique mesure la vitesse à laquelle un aliment élève la glycémie, par rapport à une référence. Il nuance la distinction entre sucres lents et rapides, aujourd'hui abandonnée : une purée de pomme de terre élève la glycémie plus vite qu'un sucre de table, et la présence de fibres, de graisses ou de protéines dans le repas modifie considérablement le résultat. C'est donc un indicateur utile mais qui ne s'applique pas à un aliment isolé de son repas.
+
+La carence en fer est le déficit nutritionnel le plus répandu au monde et pouvant entraîner une anémie, avec fatigue, essoufflement et baisse des performances cognitives. Elle touche particulièrement les femmes en âge de procréer, du fait des pertes menstruelles, et les jeunes enfants. Le fer d'origine animale est bien mieux absorbé que le fer végétal, dont l'absorption est améliorée par la vitamine C et réduite par le thé et le café pris au même repas — un exemple concret de ce que la nutrition ne se réduit pas à additionner des teneurs.`],
+  ],
+
+  "sv3-vieillissement": [
+    ["Ce que vieillir veut dire", `Le vieillissement n'est pas une maladie mais un ensemble de processus : accumulation de dommages moléculaires, déclin progressif des capacités de réparation, perte d'efficacité des régulations. Il n'a pas de cause unique, et c'est ce qui rend l'idée d'un traitement du vieillissement si difficile à formuler.
+
+La sénescence cellulaire en est l'un des mécanismes : une cellule cesse définitivement de se diviser tout en restant vivante et métaboliquement active. Elle sécrète alors des molécules inflammatoires qui altèrent son voisinage. Ce mécanisme est protecteur à court terme — une cellule endommagée qui ne se divise plus ne devient pas cancéreuse — et délétère à long terme, l'accumulation de cellules sénescentes contribuant au vieillissement des tissus.
+
+La limite de Hayflick est le nombre maximal de divisions qu'une cellule humaine peut accomplir en culture, une cinquantaine environ. Sa cause tient aux télomères, extrémités protectrices des chromosomes qui se raccourcissent à chaque division jusqu'à ne plus assurer leur fonction. Ce compteur explique une partie du vieillissement cellulaire, sans en épuiser l'explication — les cellules cancéreuses réactivent l'enzyme qui reconstitue les télomères, et deviennent immortelles en culture.`],
+    ["Vivre vieux, vivre bien", `L'espérance de vie à la naissance atteint en France environ quatre-vingt-cinq ans pour les femmes et soixante-dix-neuf pour les hommes, parmi les plus élevées du monde. Cet écart entre sexes, présent partout, combine des facteurs biologiques et comportementaux — le tabac et l'alcool en expliquent une part importante, et l'écart se réduit à mesure que les comportements convergent.
+
+Un second indicateur compte davantage pour les politiques publiques : l'espérance de vie en bonne santé, c'est-à-dire sans incapacité. L'écart entre les deux se creuse, car les années gagnées le sont souvent avec des limitations fonctionnelles. Vivre plus longtemps ne signifie donc pas mécaniquement vivre mieux, et l'enjeu s'est déplacé de la durée vers la qualité.
+
+La fragilité désigne un état de vulnérabilité accrue face aux agressions : une personne fragile encaisse mal ce qu'une autre surmonte — une infection, une hospitalisation, un deuil peuvent déclencher une cascade de décompensations. Elle se repère par des critères simples — perte de poids, lenteur de marche, faiblesse de préhension, épuisement, faible activité — et elle est en partie réversible, ce qui en fait une cible d'intervention.`],
+    ["Compenser", `La perte d'autonomie est l'incapacité à réaliser seul les actes de la vie quotidienne — se laver, s'habiller, se déplacer, gérer ses affaires. Elle est évaluée en France par une grille qui conditionne l'allocation personnalisée d'autonomie, et constitue le principal enjeu financier du vieillissement démographique.
+
+La réserve cognitive désigne la capacité du cerveau à compenser les lésions liées à l'âge. Elle explique une observation troublante : des personnes présentant à l'autopsie des lésions typiques d'Alzheimer n'avaient manifesté aucun symptôme de leur vivant. Le niveau d'éducation, la complexité de l'activité professionnelle, le bilinguisme, l'activité intellectuelle et sociale sont associés à une réserve plus élevée. Elle ne prévient pas les lésions ; elle retarde le moment où elles deviennent invalidantes.
+
+La polymédication est la prise simultanée de nombreux médicaments, fréquente après quatre-vingts ans et source majeure d'iatrogénie : interactions, effets indésirables, chutes, confusions. Chaque prescription se justifie isolément, l'ensemble beaucoup moins — et la déprescription raisonnée est devenue une compétence gériatrique à part entière.`],
+    ["Ce qui marche vraiment", `Le marché des interventions anti-âge est immense, et l'écart entre les promesses et les preuves l'est tout autant. Restriction calorique, metformine, rapamycine, sénolytiques, suppléments divers : les pistes explorées sont sérieuses, les résultats chez l'animal parfois spectaculaires, et la démonstration chez l'humain à peu près inexistante à ce jour.
+
+Une seule intervention est solidement documentée : l'activité physique. Ses effets sont mesurables sur la masse musculaire, la densité osseuse, l'équilibre et donc les chutes, la fonction cardiovasculaire, le métabolisme, le sommeil, l'humeur et la cognition. Elle est efficace à tout âge, y compris commencée très tard, et le renforcement musculaire compte autant que l'endurance chez la personne âgée.
+
+S'y ajoutent, avec un niveau de preuve moindre mais convergent, le maintien des liens sociaux — l'isolement étant associé à une surmortalité comparable à celle de facteurs de risque classiques — et la correction des déficits sensoriels, la surdité non appareillée figurant parmi les facteurs de risque modifiables de démence les mieux identifiés.`],
+  ],
+
+  "sv3-eau-corps": [
+    ["Une chimie en milieu aqueux", `Le corps humain adulte est composé d'environ soixante pour cent d'eau, avec des variations importantes : davantage chez le nourrisson, moins chez la personne âgée et chez les personnes ayant une masse grasse élevée, le tissu adipeux contenant peu d'eau.
+
+Cette eau n'est pas un simple remplissage. Elle est le solvant de toutes les réactions biochimiques, le milieu de transport du sang et de la lymphe, le régulateur thermique et le support des équilibres ioniques dont dépend l'activité nerveuse et musculaire. Sa répartition entre l'intérieur des cellules et les compartiments extracellulaires est étroitement contrôlée, et les déplacements d'eau entre ces compartiments expliquent l'essentiel des désordres graves — œdème cérébral, déshydratation intracellulaire.
+
+L'homéostasie est précisément ce maintien de conditions internes stables malgré les variations externes : température, pH, glycémie, volume et composition des liquides corporels. Le concept, formulé par Claude Bernard sous le nom de constance du milieu intérieur, est l'un des principes organisateurs de toute la physiologie — un organisme complexe ne s'adapte pas au milieu extérieur, il s'en protège.`],
+    ["Le rein, régulateur en chef", `Le rein régule principalement l'équilibre hydrique. Il filtre chaque jour environ cent quatre-vingts litres de plasma et n'en élimine qu'un ou deux : plus de quatre-vingt-dix-neuf pour cent du filtrat est réabsorbé, avec un ajustement fin de ce qui est gardé et de ce qui part. C'est un dispositif de tri par excès, coûteux en énergie, mais qui permet un contrôle très précis.
+
+L'hormone antidiurétique, sécrétée par l'hypophyse, commande cette réabsorption : elle limite la perte d'eau en rendant perméables les tubes collecteurs du rein. Sa sécrétion augmente dès que le sang se concentre, et l'urine devient alors foncée et concentrée — signal visible d'un déficit hydrique. L'alcool inhibe cette hormone, ce qui explique la diurèse abondante et la déshydratation qui suit.
+
+Le rein régule aussi le sodium, le potassium, le calcium, le pH sanguin et la pression artérielle, et produit l'hormone commandant la fabrication des globules rouges. Sa défaillance touche donc simultanément l'eau, les ions, l'acidité, la tension et le sang — ce qui explique la lourdeur de la dialyse, qui n'en remplace qu'une partie.`],
+    ["Tenir sa température", `La température interne normale du corps humain avoisine trente-sept degrés, avec une variation circadienne d'environ un degré — minimale en fin de nuit, maximale en fin d'après-midi. La valeur moyenne mesurée dans les populations a d'ailleurs légèrement baissé depuis le XIXe siècle, phénomène attribué à la réduction des inflammations chroniques.
+
+Le refroidissement se fait principalement par l'évaporation de la sueur : c'est le changement d'état, et non la sueur elle-même, qui prend de la chaleur au corps. D'où une conséquence pratique décisive — la sueur qui ruisselle sans s'évaporer ne refroidit pas. Par forte humidité, l'évaporation est empêchée et le mécanisme échoue, ce qui rend une chaleur humide bien plus dangereuse qu'une chaleur sèche de même température. Au-delà d'un certain seuil combinant température et humidité, aucune adaptation comportementale ne suffit et l'organisme ne peut plus se refroidir.
+
+Un coup de chaleur est la défaillance de cette thermorégulation : la température corporelle s'élève au-delà de quarante degrés, la sudation peut cesser, et des troubles neurologiques apparaissent. C'est une urgence vitale dont le traitement est le refroidissement immédiat, avant même le transport.`],
+    ["Boire, et quand", `Un adulte perd en moyenne environ deux litres et demi d'eau par jour : urines pour l'essentiel, mais aussi transpiration, respiration — l'air expiré est saturé en vapeur — et selles. Ces pertes augmentent fortement avec la chaleur, l'altitude, l'effort et la fièvre.
+
+Les apports viennent de trois sources : les boissons, les aliments — fruits, légumes, soupes en contiennent beaucoup —, et le métabolisme lui-même, l'oxydation des nutriments produisant de l'eau. Le célèbre conseil de boire un litre et demi ne concerne donc que la part des boissons, et il n'a jamais reposé sur une base expérimentale solide : les besoins varient trop d'une personne et d'un jour à l'autre pour qu'un chiffre unique ait un sens.
+
+La soif est un signal tardif : elle apparaît lorsque le déficit hydrique est déjà installé, l'osmolarité sanguine ayant dépassé un seuil. Chez l'adulte en bonne santé et libre de boire, c'est sans conséquence. Elle le devient chez la personne âgée, dont la sensation de soif s'émousse, et chez le sportif d'endurance — ce qui justifie de boire régulièrement sans attendre la soif dans ces situations, sans tomber dans l'excès inverse : l'hyponatrémie par ingestion massive d'eau pure a tué des coureurs de marathon.`],
+  ],
+
+  "sv3-symbioses": [
+    ["Vivre ensemble", `Une symbiose est une association durable entre deux espèces. Le mot, au sens large, ne préjuge pas du bénéfice : il désigne la cohabitation, et l'on distingue ensuite selon qui y gagne.
+
+Le mutualisme bénéficie aux deux partenaires. Le commensalisme bénéficie à l'un sans effet notable sur l'autre — le rémora transporté par le requin, les oiseaux qui nichent dans les arbres. Le parasitisme bénéficie à l'un au détriment de l'autre.
+
+Ces catégories sont commodes et poreuses. Une même association peut basculer d'une case à l'autre selon les conditions : un champignon mycorhizien devient parasite si la plante est bien pourvue en nutriments, une bactérie commensale devient pathogène chez un hôte immunodéprimé. La nature des relations est un équilibre dynamique, pas une étiquette.
+
+Un parasitoïde occupe une position intermédiaire singulière : son développement tue son hôte, ce qui le distingue du parasite, qui a intérêt à le maintenir en vie. Les guêpes parasitoïdes pondent dans une chenille que leurs larves dévorent de l'intérieur — spectacle qui, rapporté à Darwin, lui inspira des doutes sur la bienveillance d'un créateur.`],
+    ["Les symbioses qui nourrissent la planète", `Les nodosités des légumineuses sont de petites structures racinaires abritant des bactéries du genre *Rhizobium*, capables de fixer l'azote de l'air et de le rendre assimilable. La plante fournit sucres et abri, la bactérie fournit l'azote — ressource limitante par excellence.
+
+Cette association a une portée agronomique majeure : elle est la raison pour laquelle les rotations incluant pois, luzerne, trèfle ou féverole enrichissent le sol sans engrais de synthèse. Elle a nourri l'agriculture européenne pendant des siècles avant le procédé Haber-Bosch, et redevient centrale à mesure que le coût énergétique des engrais azotés est réévalué.
+
+La mycorhize arbusculaire associe les racines de la grande majorité des plantes terrestres à des champignons dont les filaments pénètrent à l'intérieur des cellules racinaires. Le champignon prolonge le système racinaire de plusieurs ordres de grandeur et capte phosphore et eau ; la plante lui fournit des sucres. Cette symbiose est très ancienne — elle est probablement ce qui a permis aux plantes de coloniser les continents, dépourvus alors de sol véritable.`],
+    ["Quand la symbiose est l'organisme", `Un corail est un animal vivant en symbiose avec des algues photosynthétiques, les zooxanthelles, hébergées dans ses propres tissus. Les algues fournissent jusqu'à quatre-vingt-dix pour cent des besoins énergétiques du corail ; le corail fournit abri et nutriments. C'est cette association qui permet aux récifs de prospérer dans des eaux tropicales pauvres en nutriments — un désert biologique où se dresse le milieu le plus divers de l'océan.
+
+Sa fragilité est le revers exact de son efficacité. Un excès de température de un à deux degrés au-dessus du maximum habituel suffit à rompre l'association : le corail expulse ses algues, perd sa couleur — c'est le blanchissement — et meurt s'il ne les récupère pas en quelques semaines. Les épisodes de blanchissement massif se répètent désormais à des intervalles plus courts que le temps nécessaire à la récupération.
+
+Le microbiote d'un termite lui permet de digérer la cellulose du bois, qu'aucune enzyme animale ne dégrade efficacement : des protozoaires et des bactéries de son intestin s'en chargent. Le termite ne mange pas le bois, il nourrit des micro-organismes qui le font pour lui — et un termite privé de son microbiote meurt de faim au milieu du bois.`],
+    ["S'ajuster mutuellement", `La coévolution dans une symbiose est l'évolution réciproque des partenaires au fil des générations : chacun exerce sur l'autre une pression de sélection, et les ajustements s'accumulent jusqu'à l'interdépendance.
+
+Elle produit des associations d'une spécificité extrême — figuiers et guêpes du figuier, chacune espèce de figuier ayant sa guêpe pollinisatrice propre — et parfois la fusion complète : les mitochondries et les chloroplastes sont d'anciennes bactéries symbiotiques devenues organites, ayant transféré la plupart de leurs gènes au noyau de leur hôte. La symbiose n'est donc pas seulement une interaction entre organismes ; elle a produit les organismes eux-mêmes.
+
+Ce constat corrige une lecture répandue de l'évolution qui n'y verrait que compétition et lutte. La coopération entre espèces est aussi répandue que la compétition, et les innovations les plus décisives de l'histoire du vivant — la cellule complexe, la conquête des continents, la fixation de l'azote, les récifs — sont toutes nées d'associations. Ce qui ne les rend pas harmonieuses : chaque partenaire y poursuit son propre intérêt, et l'association tient tant qu'elle reste avantageuse pour les deux.`],
+  ],
+
+  "sv3-terre-atmosphere-histoire": [
+    ["Une atmosphère sans oxygène", `L'atmosphère primitive de la Terre était composée principalement de dioxyde de carbone, d'azote et de vapeur d'eau, avec du méthane et diverses traces — mais pratiquement pas d'oxygène libre. C'est un point qu'il faut retenir fermement : l'oxygène atmosphérique est un produit du vivant, non une condition initiale.
+
+La vie est donc apparue dans un monde sans oxygène, et les premiers organismes tiraient leur énergie de réactions chimiques minérales. L'oxygène leur était même toxique, comme il l'est encore pour les bactéries anaérobies strictes — un gaz extrêmement réactif, qui oxyde tout ce qu'il touche.
+
+Les cyanobactéries ont changé le monde en inventant la photosynthèse oxygénique : produire de l'énergie à partir de la lumière en utilisant l'eau comme donneur d'électrons, et rejeter l'oxygène comme déchet. C'est probablement l'innovation métabolique la plus lourde de conséquences de l'histoire de la planète.`],
+    ["La grande oxydation", `L'oxygène produit n'est pas resté dans l'air immédiatement : il a d'abord oxydé le fer dissous dans les océans, qui a précipité et formé les gisements de fer rubané exploités aujourd'hui — l'essentiel du minerai de fer mondial est un déchet de cette pollution primitive.
+
+Une fois ces puits saturés, l'oxygène s'est accumulé dans l'atmosphère il y a environ deux milliards quatre cents millions d'années : c'est la grande oxydation. Elle a probablement provoqué la première extinction de masse, en empoisonnant la quasi-totalité des organismes anaérobies alors dominants, et déclenché une glaciation globale en détruisant le méthane atmosphérique qui réchauffait la planète.
+
+Elle a aussi permis tout ce qui a suivi. La respiration aérobie fournit bien plus d'énergie par molécule de nutriment que les métabolismes anaérobies, ce qui a rendu possibles les cellules complexes puis les organismes pluricellulaires. Et l'oxygène accumulé a formé, dans la haute atmosphère, la couche d'ozone qui filtre les ultraviolets — sans laquelle aucune vie n'aurait pu quitter la protection de l'eau.`],
+    ["Sortir de l'eau, et enfouir du carbone", `Les plantes ont colonisé les continents il y a environ quatre cent cinquante millions d'années, une fois cette protection en place. Leur installation a transformé la surface terrestre : formation des premiers sols véritables, altération accélérée des roches, modification du cycle de l'eau et du carbone.
+
+Le Carbonifère, cent millions d'années plus tard, a laissé une trace massive : le charbon. Il révèle une accumulation considérable de matière végétale non décomposée, dans des forêts marécageuses où les troncs s'enfouissaient sans pourrir. Une explication longtemps avancée voulait que les champignons capables de dégrader la lignine n'aient pas encore existé ; les travaux récents nuancent, en attribuant un rôle majeur aux conditions géologiques — bassins subsidents et climat humide. Quoi qu'il en soit, cet enfouissement a retiré de l'atmosphère des quantités énormes de carbone, fait chuter le CO₂ et monter l'oxygène à des niveaux jamais retrouvés.
+
+C'est très exactement ce carbone que la combustion des énergies fossiles restitue aujourd'hui à l'atmosphère, en quelques siècles, après trois cents millions d'années de stockage.`],
+    ["Lire les climats du passé", `On mesure les climats du passé lointain par les isotopes contenus dans les roches, les glaces et les fossiles. Le rapport entre isotopes de l'oxygène dans une coquille fossile dépend de la température de l'eau au moment de sa formation ; celui du carbone renseigne sur la productivité biologique. Ces thermomètres indirects permettent de reconstituer des températures vieilles de centaines de millions d'années.
+
+Une carotte de glace est un cylindre prélevé dans une calotte polaire, où chaque couche annuelle de neige comprimée a piégé des bulles d'air. Ces bulles sont des échantillons directs de l'atmosphère du passé — non un modèle, non une reconstitution, mais l'air lui-même. Les carottes antarctiques les plus profondes remontent à environ huit cent mille ans.
+
+Ce qu'elles montrent est sans ambiguïté : la concentration actuelle de CO₂ dépasse tout niveau atteint pendant ces huit cent mille ans, et sa vitesse d'augmentation n'a aucun équivalent dans cet enregistrement. La principale cause en est la combustion des énergies fossiles, ce qu'établissent indépendamment plusieurs indices — la baisse simultanée de la concentration en oxygène, et la signature isotopique du carbone ajouté, dépourvu de carbone 14 et appauvri en carbone 13, caractéristique d'un carbone fossile très ancien.`],
+  ],
 };
