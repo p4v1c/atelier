@@ -477,4 +477,118 @@ L'amiante est un minéral fibreux dont les qualités d'isolation et de résistan
 
 Un polluant persistant, enfin, se dégrade très lentement dans l'environnement : le temps devient alors un facteur du risque, indépendamment de la dose émise. Une substance peu toxique mais éternelle finit par poser un problème qu'une substance très toxique et fugace ne pose pas.`],
   ],
+
+  "sv2-domestication": [
+    ["Le chien, avant tout le reste", `Le chien est la première espèce domestiquée, et de loin : les estimations situent la séparation d'avec le loup gris entre quinze mille et quarante mille ans, soit bien avant l'agriculture. La domestication n'est donc pas née de l'élevage — elle l'a précédé de plusieurs millénaires, chez des chasseurs-cueilleurs.
+
+Le scénario le plus admis n'est pas celui d'une capture délibérée de louveteaux mais d'une auto-domestication : les loups les moins craintifs se sont approchés des campements pour en exploiter les déchets, et cette moindre crainte, avantageuse dans ce contexte, a été sélectionnée. L'association précède l'intention.
+
+Les autres domestications accompagnent la révolution néolithique. Le mouton et la chèvre sont domestiqués au Proche-Orient, dans le Croissant fertile, il y a environ dix mille ans. Le bœuf descend de l'aurochs, grand bovidé sauvage dont le dernier individu est mort en Pologne en 1627. Le cheval a probablement été domestiqué dans les steppes d'Eurasie occidentale, et sa diffusion a transformé la guerre, le transport et les langues — l'expansion indo-européenne lui doit beaucoup.`],
+    ["Des animaux venus d'ailleurs", `Toutes les régions n'ont pas offert les mêmes candidats. L'Amérique du Sud a domestiqué le lama et l'alpaga avant l'arrivée des Européens, mais aucun animal de trait ni de monte comparable au cheval — absence qui a pesé lourdement sur les techniques agricoles et militaires précolombiennes, et que Jared Diamond a placée au cœur de son explication des déséquilibres entre continents.
+
+Le chat suit une trajectoire différente. Domestiqué au Proche-Orient puis largement diffusé depuis l'Égypte, où il fut vénéré et momifié par centaines de milliers, il s'est associé aux humains par l'intermédiaire des greniers à grains et des rongeurs qu'ils attiraient. Il reste, génétiquement, très proche de son ancêtre sauvage — bien moins transformé que le chien, et le seul animal domestique dont on puisse dire qu'il s'est domestiqué lui-même à peu près sans notre concours.`],
+    ["Un même ensemble de transformations", `Le syndrome de domestication désigne un ensemble de traits qui apparaissent conjointement chez des espèces domestiquées très différentes : robe tachetée, oreilles tombantes, queue enroulée, museau raccourci, maturité sexuelle précoce, cycles de reproduction plus fréquents, réduction de la taille du cerveau.
+
+Cette convergence est troublante, car rien ne relie a priori la couleur du pelage à la docilité. L'expérience de Dmitri Beliaev sur les renards argentés, commencée en Sibérie en 1959, l'a démontrée expérimentalement : en sélectionnant uniquement sur la tolérance à l'humain, sans jamais sélectionner l'apparence, il a vu apparaître en quelques dizaines de générations des renards tachetés, aux oreilles tombantes, qui remuaient la queue et cherchaient le contact.
+
+L'explication avancée fait intervenir les cellules de la crête neurale, population embryonnaire qui contribue à la fois aux glandes surrénales — donc à la réaction de peur —, aux pigments, aux cartilages du museau et de l'oreille. Sélectionner la docilité revient à sélectionner une crête neurale moins active, et le reste suit sans avoir été voulu.`],
+    ["Ce que l'élevage occupe", `La conséquence écologique majeure de l'élevage mondial est spatiale : il occupe, entre pâtures et cultures fourragères, la majeure partie des terres agricoles de la planète, pour une contribution bien moindre à l'apport calorique et protéique de l'humanité. S'y ajoutent des émissions importantes — méthane de la fermentation entérique des ruminants, protoxyde d'azote des effluents et des engrais, dioxyde de carbone lié à la déforestation pour les surfaces fourragères.
+
+Un chiffre résume la transformation : la biomasse des mammifères terrestres est aujourd'hui constituée à plus de quatre-vingt-dix pour cent d'humains et de leurs animaux d'élevage, les mammifères sauvages ne représentant plus qu'une fraction résiduelle. En dix mille ans, une poignée d'espèces domestiquées et l'espèce qui les a domestiquées ont remplacé l'essentiel de la faune de grande taille.
+
+Ces constats n'imposent pas une conclusion unique — les systèmes d'élevage diffèrent radicalement entre un pâturage extensif sur des terres non cultivables et un engraissement au soja importé — mais ils fixent les ordres de grandeur de toute discussion sérieuse sur le sujet.`],
+  ],
+
+  "sv2-evolution-mecanismes": [
+    ["Darwin et son prédécesseur", `Charles Darwin publie *L'Origine des espèces* en 1859, après vingt ans de retard volontaire et sous la pression d'un mémoire d'Alfred Russel Wallace parvenu aux mêmes conclusions. Son mécanisme est d'une simplicité redoutable : les individus varient, ces variations sont héritables, il naît plus d'individus que le milieu n'en peut nourrir, et ceux dont les variations conviennent le mieux laissent davantage de descendants.
+
+Lamarck avait proposé un demi-siècle plus tôt un mécanisme différent : la transmission des caractères acquis, l'organe se développant par l'usage et cette modification se transmettant. L'hypothèse était rationnelle et fut réfutée expérimentalement — un caractère acquis au cours de la vie ne modifie pas les gamètes. L'épigénétique a depuis montré que certaines marques chimiques sur l'ADN peuvent se transmettre sur quelques générations, ce qui nuance le tableau sans réhabiliter le lamarckisme : il ne s'agit pas d'une adaptation dirigée par le besoin.
+
+Le point le plus difficile à intégrer reste que l'évolution n'a pas de but : elle trie ce qui existe, elle ne crée pas ce qui serait utile. Un organisme ne développe pas un caractère parce qu'il en aurait besoin ; les variations surviennent au hasard, et le tri seul est orienté.`],
+    ["Le hasard compte aussi", `La sélection n'est pas le seul moteur. La dérive génétique est une variation purement aléatoire des fréquences d'allèles d'une génération à l'autre : dans une petite population, un allèle peut disparaître ou devenir majoritaire sans aucun avantage, par simple effet d'échantillonnage. Plus la population est petite, plus la dérive l'emporte sur la sélection.
+
+L'effet de fondation en est un cas particulier : quand un petit groupe colonise un nouveau milieu, il n'emporte qu'un échantillon de la diversité de la population d'origine, et cet échantillon devient la totalité du patrimoine de la nouvelle population. Certaines maladies génétiques rares sont anormalement fréquentes dans des populations issues d'un petit nombre de fondateurs, sans que cela traduit le moindre avantage — Québécois, Afrikaners, Amish et Finlandais en offrent des exemples bien documentés.
+
+La sélection sexuelle, enfin, porte sur l'accès aux partenaires plutôt que sur la survie. Elle peut favoriser des caractères manifestement coûteux — la queue du paon, les bois du cerf, le chant qui attire les prédateurs. Darwin en fit une théorie distincte précisément parce que ces ornements contredisaient la sélection naturelle simple.`],
+    ["Comment naissent les espèces", `La spéciation allopatrique est le mécanisme le mieux établi : une barrière géographique — mer, montagne, rivière — sépare deux populations, qui évoluent indépendamment jusqu'à ne plus pouvoir se reproduire entre elles si elles se retrouvent. Les archipels en offrent les laboratoires naturels, et les pinsons des Galápagos observés par Darwin en sont l'illustration canonique.
+
+La coévolution décrit un autre moteur : l'évolution réciproque de deux espèces en interaction, chacune exerçant une pression de sélection sur l'autre. Fleurs et pollinisateurs, prédateurs et proies, parasites et hôtes s'entraînent dans une course sans fin où chaque progrès de l'un appelle une réponse de l'autre. L'orchidée de Madagascar à long éperon, dont Darwin prédit qu'un papillon à trompe démesurée devait exister, en donne le cas le plus célèbre — le papillon fut découvert quarante ans après sa mort.
+
+Un organe vestigial, enfin, est une structure héritée ayant perdu sa fonction d'origine : appendice humain, os du bassin des baleines, yeux atrophiés des poissons cavernicoles. Ce sont des traces d'histoire, et ils constituent l'un des arguments les plus directs en faveur de la descendance commune — un ingénieur n'aurait aucune raison de les dessiner.`],
+    ["La théorie s'est construite en un siècle", `La théorie synthétique de l'évolution réunit dans les années 1930 et 1940 le darwinisme et la génétique mendélienne, longtemps perçus comme incompatibles. Darwin ignorait comment l'hérédité fonctionnait, et les premiers généticiens croyaient que les mutations à effet fort rendaient la sélection graduelle inutile. La génétique des populations, en montrant mathématiquement comment la sélection agit sur les fréquences d'allèles, a réconcilié les deux.
+
+L'hypothèse des équilibres ponctués, proposée par Gould et Eldredge en 1972, ajoute une nuance tirée du registre fossile : l'évolution alternerait de longues périodes de stabilité et des changements rapides concentrés sur de courts intervalles, plutôt que de progresser à rythme constant. La controverse qu'elle a suscitée a souvent été mal rapportée : il ne s'agissait jamais de contester la sélection naturelle, mais de discuter du tempo. C'est un désaccord interne à la biologie évolutive, non une remise en cause de l'évolution.`],
+  ],
+
+  "sv3-insectes": [
+    ["Le groupe le plus divers", `Les insectes constituent le groupe animal le plus divers de la planète : environ un million d'espèces décrites, et probablement plusieurs millions restant à décrire. Trois espèces animales connues sur quatre sont des insectes.
+
+Leur plan d'organisation est immédiatement reconnaissable : six pattes, et un corps divisé en trois parties — tête, thorax et abdomen. Ce critère suffit à écarter les confusions courantes : une araignée a huit pattes et deux parties, un mille-pattes en a beaucoup plus, un cloporte est un crustacé. Le thorax porte les pattes et, le cas échéant, les ailes ; les insectes sont d'ailleurs les seuls invertébrés à avoir conquis le vol, et l'ont fait bien avant les vertébrés.
+
+Les coléoptères — coccinelles, scarabées, charançons — forment de loin l'ordre le plus riche en espèces, avec près de quatre cent mille décrites. Le généticien Haldane, interrogé sur ce que l'étude de la nature lui apprenait du Créateur, aurait répondu qu'il devait avoir une affection démesurée pour les coléoptères.`],
+    ["Respirer et se transformer", `Les insectes ne possèdent pas de poumons ni de sang transporteur d'oxygène : ils respirent par un réseau de trachées, tubes ramifiés qui conduisent l'air directement jusqu'aux cellules, débouchant à l'extérieur par des orifices appelés stigmates.
+
+Ce système est efficace à petite échelle et devient limitant au-delà : l'oxygène doit diffuser passivement sur toute la longueur des trachées. C'est l'une des explications avancées à la taille modeste des insectes — et au fait que les libellules du Carbonifère, à une époque où l'atmosphère était bien plus riche en oxygène, aient pu atteindre soixante-dix centimètres d'envergure.
+
+La métamorphose complète fait passer par un stade nymphal, entre la larve et l'adulte, pendant lequel l'organisme est entièrement réorganisé. Son intérêt évolutif est considérable : larve et adulte occupent des niches écologiques totalement différentes et ne se concurrencent pas — la chenille mange des feuilles, le papillon boit du nectar. Cette séparation des rôles explique une bonne part du succès des groupes qui la pratiquent.`,
+      { image: "svt-anatomie-insecte", legende: "Six pattes, trois parties du corps : le plan d'organisation qui distingue un insecte d'une araignée ou d'un mille-pattes.", alt: "Schéma anatomique d'un insecte" }],
+    ["Les sociétés", `Une société d'insectes eusociaux se reconnaît à trois critères : coopération dans le soin aux jeunes, chevauchement des générations, et division reproductive du travail — certaines castes ne se reproduisent pas. Abeilles, fourmis, termites et quelques guêpes relèvent de ce modèle.
+
+Ce renoncement à la reproduction personnelle a longtemps paru contredire la sélection naturelle. L'altruisme de parentèle en donne la clé : les ouvrières étant très apparentées entre elles, élever leurs sœurs transmet une part de leur patrimoine génétique comparable à celle qu'une descendance directe transmettrait.
+
+La communication y atteint un raffinement remarquable. Une abeille indique la position d'une source de nourriture par une danse en huit codant la direction — l'angle par rapport à la verticale du rayon correspond à l'angle par rapport au soleil — et la distance, par la durée du frétillement. C'est un système symbolique, capable de désigner un lieu absent, ce qu'on croyait réservé au langage humain.`],
+    ["Un déclin documenté", `Les études convergent sur un déclin marqué de la biomasse d'insectes dans plusieurs régions du monde. L'étude allemande de 2017, portant sur vingt-sept ans de piégeage standardisé dans des réserves naturelles, a mesuré une baisse de plus de soixante-quinze pour cent de la biomasse volante — un résultat d'autant plus frappant qu'il portait sur des espaces protégés.
+
+Les abeilles domestiques concentrent l'attention médiatique, avec le syndrome d'effondrement des colonies : une disparition massive d'ouvrières dont les causes sont multiples et intriquées — pesticides néonicotinoïdes affectant l'orientation et la mémoire à doses non létales, appauvrissement des ressources florales, pratiques apicoles intensives, virus, et surtout le varroa, acarien parasite qui affaiblit les abeilles et leur transmet des virus.
+
+Il faut cependant garder une distinction : l'abeille domestique est un animal d'élevage, dont les effectifs sont gérés et parfois en hausse. Le déclin le plus préoccupant concerne les insectes sauvages — abeilles solitaires, syrphes, papillons, coléoptères —, qui assurent une grande part de la pollinisation et n'ont personne pour les repeupler.`],
+  ],
+
+  "sv3-oiseaux": [
+    ["Des dinosaures survivants", `Les oiseaux sont les seuls dinosaures encore vivants. Ce n'est pas une image : ils descendent des théropodes, le groupe qui comprend aussi le tyrannosaure, et les découvertes de dinosaures à plumes des trois dernières décennies ont établi la filiation au point qu'aucune définition cohérente du groupe des dinosaures ne peut les en exclure.
+
+Le vol a exigé une refonte complète de l'organisme : os creux mais renforcés de travées internes, réduction et fusion de nombreux os, disparition des dents au profit d'un bec léger, sacs aériens prolongeant les poumons et assurant une ventilation unidirectionnelle bien plus efficace que la nôtre, métabolisme et température corporelle élevés, et bien sûr les plumes — apparues avant le vol, d'abord pour l'isolation et la parade.
+
+On compte environ onze mille espèces d'oiseaux dans le monde, chiffre qui augmente à mesure que la génétique scinde des espèces jusque-là confondues. L'autruche, plus grand oiseau vivant, a renoncé au vol et atteint deux mètres cinquante — le vol impose une limite de masse que les oiseaux terrestres seuls peuvent franchir.`],
+    ["Traverser la planète", `La sterne arctique effectue la plus longue migration connue : elle niche dans l'Arctique et hiverne en Antarctique, parcourant chaque année plusieurs dizaines de milliers de kilomètres. Elle voit ainsi plus de lumière du jour que tout autre animal, en suivant l'été d'un pôle à l'autre.
+
+Les oiseaux migrateurs nocturnes s'orientent notamment grâce aux étoiles — des expériences en planétarium ont montré qu'ils repèrent la rotation du ciel autour de l'étoile polaire, apprise pendant leur jeunesse — et grâce au champ magnétique terrestre, perçu par un mécanisme encore débattu impliquant probablement des protéines photosensibles de la rétine. Le soleil, les repères visuels et l'odorat complètent ce dispositif.
+
+Cette redondance rend la navigation robuste, mais elle ne protège pas de tout : l'éclairage artificiel désoriente massivement les migrateurs nocturnes, et les collisions avec les bâtiments vitrés tuent des centaines de millions d'oiseaux par an à l'échelle d'un continent.`],
+    ["Chanter", `Le chant est un signal complexe servant à défendre un territoire et à attirer un partenaire — deux fonctions qui expliquent qu'il soit surtout produit par les mâles, au printemps, et à l'aube quand l'air porte le mieux. Il se distingue du cri, plus bref, qui signale l'alarme ou maintient le contact.
+
+L'organe qui le produit est le syrinx, situé à la jonction des bronches et non dans la gorge comme notre larynx. Sa position lui donne une propriété remarquable : ses deux branches peuvent vibrer indépendamment, si bien qu'un oiseau peut produire deux sons simultanément et chanter en duo avec lui-même.
+
+Le chant s'apprend chez de nombreuses espèces, avec une période sensible pendant la jeunesse et des dialectes régionaux transmis culturellement — l'un des rares cas documentés de tradition non humaine.
+
+Une distinction utile pour l'observation : un oisillon nidifuge est capable de quitter le nid peu après l'éclosion, déjà couvert de duvet et capable de se nourrir — canards, poules, échassiers ; un nidicole naît nu et aveugle et dépend entièrement de ses parents — passereaux, rapaces.`],
+    ["Un déclin silencieux", `La principale cause de déclin des oiseaux communs en Europe est la transformation des milieux agricoles : disparition des haies et des jachères, agrandissement des parcelles, cultures d'hiver ne laissant plus de chaumes, et surtout effondrement des ressources en insectes dû aux pesticides. Les oiseaux des champs — alouette, perdrix, bruant, linotte — ont perdu en France près d'un tiers de leurs effectifs en une quinzaine d'années.
+
+Ce constat repose sur le suivi temporel des oiseaux communs, programme de sciences participatives où des observateurs bénévoles formés recensent chaque année les oiseaux sur des points fixes, selon un protocole standardisé. Reconduit depuis plusieurs décennies, il fournit l'une des séries de données écologiques les plus longues et les plus solides dont on dispose.
+
+Sa force tient à sa méthode : ce ne sont pas des impressions accumulées mais des comptages reproductibles, aux mêmes points, aux mêmes dates, dans les mêmes conditions. C'est ce qui permet de distinguer un déclin réel d'une variation locale, et cela illustre ce que des amateurs organisés peuvent produire comme connaissance scientifique.`],
+  ],
+
+  "sv3-mammiferes": [
+    ["Un caractère, un nom", `Le trait qui définit les mammifères est la présence de glandes mammaires produisant du lait — c'est ce caractère qui a donné son nom au groupe, choisi par Linné. S'y ajoutent des poils, une température corporelle régulée, un cœur à quatre cavités, trois osselets dans l'oreille moyenne et une mâchoire inférieure d'une seule pièce.
+
+Ces deux derniers caractères sont liés par une histoire remarquable : les osselets de l'oreille moyenne dérivent d'os qui, chez les reptiles ancestraux, appartenaient à l'articulation de la mâchoire. Le registre fossile documente cette transition os par os — l'un des enchaînements les plus complets dont dispose la paléontologie.
+
+L'allaitement est universel dans le groupe, mais pas la gestation. Les monotrèmes, comme l'ornithorynque et l'échidné, pondent des œufs et allaitent ensuite leurs petits, par des pores cutanés dépourvus de mamelons. L'ornithorynque cumule d'ailleurs assez de particularités — bec, venin, électroréception, ponte — pour que les premiers spécimens envoyés en Europe aient été soupçonnés d'être des faux.`],
+    ["Trois façons de mettre au monde", `Un marsupial est un mammifère dont le jeune naît à un stade très précoce et achève son développement dans une poche, accroché à une mamelle. Un nouveau-né kangourou mesure quelques centimètres et pèse moins d'un gramme ; il rampe seul jusqu'à la poche. Cette stratégie mise sur une gestation brève et un investissement post-natal long, l'inverse des mammifères placentaires.
+
+L'Australie, isolée depuis des dizaines de millions d'années, a vu ses marsupiaux occuper toutes les niches que les placentaires occupent ailleurs, produisant des convergences frappantes — un « loup » marsupial, une « taupe » marsupiale, un « écureuil » planeur. C'est l'une des plus belles démonstrations de l'évolution convergente : des contraintes semblables produisent des solutions semblables à partir d'ancêtres différents.`],
+    ["Voler, plonger, dormir", `La chauve-souris est le seul mammifère capable de vol battu — les écureuils volants et autres planeurs ne font que planer. Les chiroptères représentent à eux seuls environ un cinquième des espèces de mammifères.
+
+Elles se repèrent dans l'obscurité par écholocalisation : elles émettent des ultrasons et analysent les échos pour reconstituer leur environnement, avec une précision suffisante pour attraper un insecte en vol. Certains papillons ont développé en réponse des organes capables de détecter ces ultrasons, voire de les brouiller — course aux armements évolutive documentée en direct.
+
+Les cétacés — baleines, dauphins, cachalots — sont retournés vivre entièrement dans l'eau, à partir d'ancêtres terrestres proches des artiodactyles, l'hippopotame étant leur plus proche parent vivant. Ils ont conservé la respiration aérienne, l'allaitement et une thermorégulation, et développé eux aussi l'écholocalisation.
+
+L'hibernation, enfin, est un ralentissement profond du métabolisme pendant l'hiver : température corporelle abaissée de plusieurs dizaines de degrés, rythme cardiaque réduit à quelques battements par minute. Elle se distingue de la simple léthargie hivernale de l'ours, dont la température baisse peu et qui peut se réveiller rapidement.`],
+    ["Nous, et ceux qui disparaissent", `Un primate est un mammifère à mains préhensiles, doigts munis d'ongles plutôt que de griffes, vision binoculaire développée et cerveau volumineux rapporté à la masse corporelle. Ces caractères s'expliquent par une origine arboricole : saisir une branche et évaluer une distance sont les compétences de base d'un animal qui vit dans les arbres, et elles se sont révélées commodes pour bien d'autres usages.
+
+L'éléphant d'Afrique est le plus grand mammifère terrestre actuel, et il est aussi l'une des espèces clés de ses écosystèmes, dont il façonne la végétation.
+
+En France métropolitaine, le vison d'Europe figure parmi les mammifères les plus menacés, réduit à quelques dizaines d'individus dans le Sud-Ouest. Ses causes de déclin cumulent la destruction des zones humides, la mortalité routière, et la concurrence du vison d'Amérique échappé des élevages — cas exemplaire où plusieurs pressions se combinent, et où aucune action isolée ne suffit.`],
+  ],
 };
