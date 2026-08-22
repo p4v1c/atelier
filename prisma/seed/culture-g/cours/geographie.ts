@@ -145,4 +145,63 @@ En France, la vallée de la Vézère est inscrite pour ses grottes ornées, dont
 
 Un site mal protégé risque son inscription sur la liste du patrimoine mondial en péril, puis, dans les cas extrêmes, son retrait pur et simple. Cela est arrivé deux fois : à une réserve d'oryx d'Oman, dont le périmètre avait été réduit, et à la vallée de l'Elbe à Dresde, après la construction d'un pont contesté.`],
   ],
+
+  "geo2-climats-monde": [
+    ["La latitude, et le reste", `La latitude explique les grandes zones climatiques, mais l'altitude, la proximité de la mer et les courants font le reste — au point que deux villes situées sur le même parallèle peuvent connaître des climats sans rapport.
+
+Près de l'équateur règne le climat équatorial : chaud et humide toute l'année, sans saison sèche marquée, avec des précipitations quotidiennes. Le climat méditerranéen, lui, se caractérise par des étés chauds et secs et des hivers doux et pluvieux ; il se rencontre autour de la Méditerranée mais aussi en Californie, au Chili central, en Afrique du Sud et en Australie méridionale — toujours sur les façades occidentales des continents, aux latitudes moyennes.`],
+    ["Pourquoi les déserts sont là où ils sont", `Les grands déserts se situent souvent vers trente degrés de latitude, au nord comme au sud. La raison tient à la circulation atmosphérique : l'air chaud et humide s'élève à l'équateur, se déleste de son humidité en pluies, puis redescend vers ces latitudes, sec et réchauffé par la compression. Ce sont les cellules de Hadley, et elles expliquent l'alignement du Sahara, de l'Arabie, du Kalahari et des déserts australiens.
+
+D'autres déserts ont d'autres causes : l'éloignement de toute mer pour les déserts continentaux d'Asie centrale, un courant froid côtier pour l'Atacama, ou l'effet d'abri d'une chaîne pour les déserts situés sous le vent des montagnes.`],
+    ["Les mécanismes régionaux", `La mousson est un renversement saisonnier des vents : en été, le continent surchauffé aspire l'air humide de l'océan et déclenche des pluies massives ; en hiver, le flux s'inverse. Plus d'un milliard de personnes dépendent de sa régularité pour leur agriculture, ce qui rend sa variabilité redoutable.
+
+La dérive nord-atlantique, prolongement du Gulf Stream, adoucit considérablement le climat de l'Europe de l'Ouest : Paris et Montréal sont à des latitudes comparables pour des hivers sans commune mesure. El Niño et son inverse La Niña désignent deux phases d'une oscillation du Pacifique équatorial qui déplace pluies et sécheresses sur plusieurs continents. L'effet de fœhn, enfin, est un vent chaud et sec descendant sous le vent d'une montagne, après que l'air s'est délesté de son humidité au passage du relief.`],
+    ["Les échelles fines et le classement", `Un îlot de chaleur urbain désigne l'élévation de température des villes par rapport aux campagnes voisines : bitume et béton stockent la chaleur, la végétation manque, et l'écart peut dépasser plusieurs degrés la nuit. Il transforme les canicules en risque sanitaire majeur, ce qui explique la place prise par la végétalisation dans les politiques urbaines.
+
+Le permafrost est un sol gelé en permanence depuis au moins deux ans consécutifs ; il couvre un quart des terres émergées de l'hémisphère nord. Son dégel libère du méthane et déstabilise les infrastructures bâties dessus. Pour ordonner tout cela, la classification de Köppen, établie au début du XXe siècle et plusieurs fois révisée, répartit les climats selon les températures et les précipitations : c'est elle qu'on lit derrière les couleurs des cartes climatiques.`],
+  ],
+
+  "geo2-montagnes-monde": [
+    ["Des collisions en cours", `Les plus hautes chaînes du monde sont toutes le résultat de collisions de plaques encore actives : elles continuent de s'élever, de quelques millimètres par an, tandis que l'érosion les rabote.
+
+L'Himalaya naît de la collision de la plaque indienne contre la plaque eurasiatique, engagée il y a une cinquantaine de millions d'années et toujours en cours — l'Inde continue d'avancer vers le nord. Les Andes longent toute la côte ouest de l'Amérique du Sud et résultent d'une subduction : la plaque océanique plonge sous le continent, ce qui soulève le relief et alimente un volcanisme intense.`],
+    ["Les sommets et les records", `L'Everest culmine à 8 849 mètres selon la mesure conjointe sino-népalaise publiée en 2020, qui a mis fin à un désaccord de plusieurs décennies entre les deux pays sur la prise en compte de la calotte de neige.
+
+Le plus haut sommet d'Amérique est l'Aconcagua, en Argentine ; celui d'Afrique le Kilimandjaro, volcan isolé dont les glaciers reculent rapidement. Le Chimborazo, en Équateur, détient un titre différent : bien qu'il culmine à environ six mille trois cents mètres, il est le point de la surface terrestre le plus éloigné du centre de la Terre, parce que notre planète est aplatie aux pôles et renflée à l'équateur. Quatorze sommets dépassent huit mille mètres, tous situés dans l'Himalaya et le Karakoram.`],
+    ["Le volcanisme", `La ceinture de feu du Pacifique est un alignement de volcans et de zones sismiques qui encercle l'océan sur plus de quarante mille kilomètres : elle concentre la majorité des volcans actifs et des séismes les plus puissants, et correspond aux limites de subduction du Pacifique.
+
+Un point chaud fonctionne autrement : c'est une remontée de magma indépendante des limites de plaques, fixe dans le manteau, au-dessus de laquelle la plaque défile. Il en résulte des chaînes d'îles volcaniques dont l'âge croît régulièrement avec la distance — Hawaï en est l'exemple canonique, et la Réunion en France en relève également.`],
+    ["Les massifs anciens", `Toutes les montagnes ne sont pas jeunes. L'Oural, qui sépare traditionnellement l'Europe de l'Asie, est une chaîne ancienne, formée il y a près de trois cents millions d'années et depuis longtemps érodée : ses sommets dépassent à peine mille neuf cents mètres.
+
+Cette distinction entre chaînes jeunes et massifs anciens se lit dans les formes : les premières présentent des arêtes vives, des vallées en auge et des sommets aigus ; les seconds, des reliefs arrondis et des altitudes modestes. La frontière Europe-Asie sur l'Oural, elle, relève d'une convention géographique et non d'une réalité géologique — les deux ensembles appartiennent à la même plaque.`],
+  ],
+  "geo2-oceans-mers": [
+    ["Cinq océans, dont un récent", `L'océan Austral n'a été officiellement reconnu comme cinquième océan qu'en 2000 par l'Organisation hydrographique internationale, et son adoption reste inégale selon les pays. Il se définit non par des côtes mais par un courant : le courant circumpolaire antarctique, seul à faire le tour du globe sans obstacle continental.
+
+Le Pacifique est de loin le plus vaste : il couvre à lui seul près d'un tiers de la surface du globe, davantage que toutes les terres émergées réunies. C'est aussi là que se trouve la fosse des Mariannes, point le plus profond des océans, à près de onze kilomètres — davantage que la hauteur de l'Everest.`],
+    ["Le relief sous-marin", `Une dorsale océanique est une chaîne de montagnes sous-marine où remonte du magma et où se forme en permanence une nouvelle croûte : la dorsale médio-atlantique s'étend sur plus de quinze mille kilomètres et écarte l'Amérique de l'Europe de quelques centimètres par an.
+
+Le plateau continental est le prolongement immergé et peu profond d'un continent, avant la rupture de pente vers les grands fonds. Sa faible profondeur et sa richesse biologique en font la zone de pêche et d'exploitation la plus convoitée — et le fondement juridique des revendications maritimes, une zone économique exclusive s'étendant sur deux cents milles marins où l'État côtier détient les droits d'exploitation des ressources.`],
+    ["Ce qui fait circuler l'eau", `La circulation thermohaline est un mouvement océanique global entraîné par les différences de température et de salinité : les eaux froides et salées, plus denses, plongent aux hautes latitudes et alimentent un lent circuit profond qui met un millier d'années à faire le tour du globe. Son ralentissement figure parmi les points de bascule climatiques étudiés.
+
+Un upwelling est une remontée locale d'eaux profondes froides et riches en nutriments le long de certaines côtes : il alimente les pêcheries les plus productives du monde, notamment au large du Pérou, de la Namibie et de la Mauritanie. Sa perturbation par El Niño effondre périodiquement ces pêcheries.`],
+    ["Les mers en danger", `La mer Morte est la plus salée des grandes étendues d'eau — près de dix fois la salinité océanique — ce qui interdit toute vie animale ; son niveau baisse d'environ un mètre par an, le Jourdain qui l'alimente étant largement prélevé.
+
+La mer d'Aral offre le cas le plus documenté d'une catastrophe environnementale d'origine humaine : le détournement de ses fleuves d'alimentation pour irriguer le coton, à partir des années 1960, l'a réduite à une fraction de sa surface, laissant des bateaux échoués dans un désert salé. Enfin, ce qu'on appelle le septième continent de plastique n'est pas une île mais une concentration de microplastiques en suspension dans un gyre océanique : invisible sur les images satellites, et d'autant plus difficile à nettoyer.`],
+  ],
+
+  "geo2-energie-ressources": [
+    ["Produire n'est pas détenir", `La localisation des ressources ne coïncide presque jamais avec celle de la consommation, ce qui fait de leur transport et de leur contrôle un enjeu géopolitique permanent.
+
+Il faut par ailleurs distinguer réserves et production. Les États-Unis sont depuis quelques années le premier producteur mondial de pétrole, grâce aux hydrocarbures de schiste, alors que les plus grandes réserves prouvées se trouvent au Venezuela. La Russie détient les plus grandes réserves de gaz naturel. L'OPEP, organisation de pays exportateurs de pétrole fondée en 1960, coordonne les niveaux de production de ses membres pour peser sur les prix — pouvoir démontré lors du choc de 1973 et depuis partiellement érodé par les producteurs extérieurs.`],
+    ["Les métaux de la transition", `Une terre rare est l'un des dix-sept métaux d'un groupe chimique essentiel aux technologies modernes : aimants permanents des éoliennes et des moteurs électriques, écrans, catalyseurs. Leur nom est trompeur — ils ne sont pas rares dans la croûte terrestre, mais dispersés et coûteux à séparer.
+
+La Chine domine largement leur raffinage, étape polluante que les pays occidentaux ont laissé partir. C'est cette concentration industrielle, plus que la géologie, qui crée la dépendance. Le lithium, indispensable aux batteries des véhicules électriques, est extrait principalement en Australie et en Amérique du Sud ; le cobalt vient majoritairement de République démocratique du Congo, dans des conditions sociales et environnementales régulièrement dénoncées.`],
+    ["Épuiser ou pas", `Une ressource non renouvelable est une ressource dont le stock ne se reconstitue pas à l'échelle des temps humains : hydrocarbures, minerais. La question n'est pas seulement leur épuisement physique mais leur coût croissant d'extraction, les gisements les plus accessibles étant exploités en premier.
+
+Le pic pétrolier désigne le moment où la production mondiale atteindrait son maximum avant de décliner. Annoncé plusieurs fois et repoussé à chaque nouvelle technique d'extraction, il reste un concept discuté — d'autant que la contrainte climatique pourrait imposer de laisser des réserves inexploitées bien avant qu'elles ne s'épuisent.`],
+    ["La rente et ses effets", `La malédiction des ressources désigne un constat statistique : les pays richement dotés en ressources naturelles connaissent souvent une croissance plus faible et des institutions plus fragiles que les autres.
+
+Trois mécanismes sont avancés. La rente surévalue la monnaie et handicape les autres secteurs exportateurs — c'est le syndrome hollandais. Elle rend les recettes publiques dépendantes de cours volatils, donc les budgets instables. Et elle affaiblit le lien fiscal entre l'État et les citoyens : un gouvernement qui vit du pétrole n'a pas besoin de lever l'impôt, donc pas besoin de rendre des comptes. La Norvège fait figure de contre-exemple, en ayant placé sa rente dans un fonds souverain et maintenu une fiscalité ordinaire.`],
+  ],
 };
