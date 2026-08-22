@@ -589,4 +589,168 @@ Le coût humain est de l'ordre du million de morts français et de plusieurs mil
 
 L'historiographie française oscille depuis deux siècles entre ces deux bilans, et le fait qu'elle continue de le faire est en soi la meilleure description du personnage.`],
   ],
+
+  "hf4-restauration": [
+    ["Trois régimes en trente-trois ans", `Trois régimes se succèdent entre 1815 et 1848, chacun renversé par une révolution parisienne : la Restauration, la monarchie de Juillet, la Deuxième République.
+
+La Restauration est le retour des Bourbons après la chute de Napoléon — Louis XVIII en 1814, revenu définitivement en 1815, puis Charles X en 1824. Elle n'est pas un retour à l'Ancien Régime : la Charte de 1814 est une constitution octroyée par le roi, qui instaure une monarchie limitée avec deux chambres, la garantie des libertés publiques et la reconnaissance des acquis révolutionnaires — égalité civile, Code civil, vente des biens nationaux.
+
+Le mot « octroyée » porte tout l'enjeu : le roi accorde la constitution, il ne la reçoit pas de la nation. C'est sur ce point que se joueront tous les conflits de la période.
+
+Le suffrage y est censitaire : le droit de vote est réservé aux plus imposés, soit environ cent mille électeurs sur trente millions d'habitants — un homme sur trois cents. L'éligibilité exige un cens plus élevé encore.`],
+    ["Deux révolutions", `Charles X, plus intransigeant que son frère, engage une politique de restauration religieuse et d'indemnisation des émigrés, puis, en 1830, dissout la Chambre, restreint le corps électoral et suspend la liberté de la presse par ordonnances.
+
+Les Trois Glorieuses — 27, 28 et 29 juillet 1830 — sont la révolution parisienne qui le renverse. Les barricades tiennent trois jours, la troupe se retire, et Charles X abdique. La révolution est faite par des ouvriers et des étudiants ; elle profite à la bourgeoisie libérale, qui installe Louis-Philippe d'Orléans.
+
+La monarchie de Juillet, de 1830 à 1848, est le régime de ce roi des Français — et non de France, le titre change. Le drapeau tricolore est rétabli, le cens abaissé, la Charte devenue un pacte accepté et non octroyé. Le régime se veut le juste milieu entre absolutisme et république, et il gouverne pour une bourgeoisie censitaire dont Guizot résume la philosophie d'une formule restée célèbre : enrichissez-vous par le travail et par l'épargne.
+
+La campagne des banquets, en 1847-1848, contourne l'interdiction des réunions politiques en organisant des dîners où l'on porte des toasts réformateurs. L'interdiction du banquet du 22 février 1848 déclenche la révolution qui emporte le régime en trois jours.`],
+    ["Le monde du travail apparaît", `La révolte des canuts, à Lyon en 1831, est l'un des premiers grands mouvements ouvriers de l'ère industrielle. Les canuts sont des tisserands de soie travaillant à domicile sur des métiers Jacquard, payés à la pièce par des négociants qui fixent les tarifs.
+
+Ils réclament un tarif minimum, l'obtiennent, puis voient les négociants refuser de l'appliquer. L'insurrection prend la ville pendant plusieurs jours, sous une banderole devenue célèbre : « vivre en travaillant ou mourir en combattant ». L'armée reprend Lyon, et une seconde révolte en 1834 est écrasée.
+
+L'épisode marque l'entrée de la question sociale dans la politique française, et il révèle un vide : la loi Le Chapelier de 1791, en interdisant les coalitions et les corporations au nom de la liberté du travail, a laissé les ouvriers sans aucun moyen légal de négociation collective. Cette interdiction ne sera levée qu'en 1864 pour la grève et en 1884 pour les syndicats.
+
+La conquête de l'Algérie commence en 1830, dans les dernières semaines de Charles X, comme opération de prestige destinée à redresser un pouvoir affaibli. Elle se poursuit sous la monarchie de Juillet et durera des décennies, avec une guerre de conquête d'une grande dureté contre la résistance d'Abd el-Kader, et l'installation d'une colonisation de peuplement.`],
+    ["1848", `La Deuxième République naît en février 1848 et instaure immédiatement le suffrage universel masculin : le corps électoral passe de deux cent cinquante mille à neuf millions d'électeurs en quelques semaines. C'est le changement politique le plus considérable de la période, et il ne sera jamais remis en cause.
+
+Le gouvernement provisoire proclame aussi le droit au travail, ouvre des ateliers nationaux pour les chômeurs, abolit la peine de mort en matière politique, et abolit définitivement l'esclavage dans les colonies.
+
+Les journées de juin 1848 brisent cet élan. La fermeture des ateliers nationaux, décidée pour des raisons budgétaires, provoque une insurrection ouvrière parisienne. Elle est réprimée en quatre jours par l'armée avec plusieurs milliers de morts et des milliers de déportations.
+
+Cette fracture entre républicains modérés et mouvement ouvrier pèsera longtemps. Elle explique la victoire écrasante de Louis-Napoléon Bonaparte à l'élection présidentielle de décembre 1848, portée par un électorat rural qui cherchait l'ordre — et elle ouvre la voie au coup d'État de 1851.`],
+  ],
+
+  "hf2-second-empire": [
+    ["Deux conquêtes de 1848", `Le suffrage universel masculin, instauré en 1848, n'a jamais été supprimé depuis. Aucun régime ultérieur, y compris le Second Empire et Vichy, n'a osé y revenir formellement — ils l'ont contourné, encadré ou vidé de sa substance, jamais aboli. C'est l'acquis le plus solide de la Deuxième République.
+
+Le décret d'avril 1848, porté par Victor Schœlcher, abolit définitivement l'esclavage dans les colonies françaises. « Définitivement » importe : l'abolition de 1794 avait été annulée par Napoléon en 1802, et Schœlcher fait adopter le principe qu'aucun sol français ne peut plus porter d'esclave.
+
+Le texte prévoit une indemnisation, versée non aux affranchis mais aux propriétaires — disposition longtemps passée sous silence et aujourd'hui au cœur des débats mémoriels.
+
+La République n'aura duré que quatre ans. Le 2 décembre 1851, Louis-Napoléon Bonaparte, président élu et non rééligible, dissout l'Assemblée par un coup d'État. La date est choisie — anniversaire du sacre et d'Austerlitz. La résistance, réelle en province, est écrasée, et un plébiscite ratifie l'opération. L'Empire est proclamé un an plus tard.`],
+    ["Moderniser un pays", `Le Second Empire est une période de transformation économique d'une intensité sans précédent, et l'État y joue un rôle moteur.
+
+Haussmann, préfet de la Seine de 1853 à 1870, transforme Paris : percement de grands axes, égouts, adduction d'eau, parcs, gares, immeubles à façades réglementées. Les objectifs sont mêlés — hygiène publique, circulation, prestige, et contrôle de l'ordre, les larges avenues rendant les barricades plus difficiles. Le coût social est lourd : des dizaines de milliers de logements populaires détruits, et le rejet des habitants modestes vers la périphérie.
+
+Les grandes banques de dépôt se développent : Crédit lyonnais, Société générale, Crédit foncier, Crédit mobilier. Elles collectent l'épargne des particuliers et financent l'industrie et les chemins de fer, dont le réseau passe de trois mille à dix-sept mille kilomètres.
+
+Le traité de commerce Cobden-Chevalier, en 1860, ouvre brutalement la France à la concurrence britannique en abaissant les droits de douane. Négocié en secret et imposé sans débat parlementaire, il est vécu comme un coup d'État commercial par les industriels protectionnistes ; il stimule néanmoins la modernisation des secteurs qui y survivent.`],
+    ["Une politique extérieure ambitieuse", `L'Empire cherche à restaurer le prestige français en Europe et outre-mer, avec des résultats très inégaux.
+
+Le succès le plus net est l'annexion de la Savoie et du comté de Nice en 1860, obtenue de Cavour en contrepartie du soutien français à l'unité italienne, et ratifiée par plébiscite.
+
+Le canal de Suez, inauguré en 1869, est l'œuvre de Ferdinand de Lesseps, diplomate devenu promoteur. Le chantier dure dix ans et emploie des dizaines de milliers de travailleurs égyptiens, d'abord réquisitionnés. L'ouvrage raccourcit de plusieurs milliers de kilomètres la route vers l'Asie et devient immédiatement un enjeu stratégique majeur — les Britanniques, qui s'y étaient opposés, en prendront le contrôle en 1875.
+
+L'expédition du Mexique, entre 1862 et 1867, se solde par un échec complet. Napoléon III y installe un empereur autrichien, Maximilien, sur la foi d'informations erronées ; les États-Unis, sortis de leur guerre civile, exigent le retrait français ; Maximilien, abandonné, est fusillé. L'affaire coûte cher, immobilise des troupes et ruine le crédit diplomatique du régime.`],
+    ["La chute", `La guerre franco-prussienne de 1870 provoque la chute du Second Empire en six semaines.
+
+Bismarck a manœuvré pour l'obtenir, notamment par la dépêche d'Ems dont il modifie la rédaction pour la rendre offensante. La France déclare la guerre, ce qui range les États allemands du sud aux côtés de la Prusse — résultat exactement recherché.
+
+L'armée française est inférieure en nombre, en organisation, en artillerie et en état-major. Encerclée à Sedan, elle capitule le 2 septembre ; l'empereur est fait prisonnier. La République est proclamée à Paris le 4 septembre.
+
+La guerre continue pourtant cinq mois : siège de Paris, famine, gouvernement de la Défense nationale, armées de la Loire. L'armistice de janvier 1871 est suivi du traité de Francfort, qui cède l'Alsace et une partie de la Lorraine et impose une indemnité colossale.
+
+L'Empire laisse un pays transformé économiquement et amputé territorialement. Le régime suivant naîtra de cette défaite, et la question de l'Alsace-Lorraine pèsera sur la politique française pendant quarante-sept ans.`],
+  ],
+
+  "hf2-troisieme-republique": [
+    ["Une république par défaut", `La Troisième République a été instaurée par des monarchistes incapables de s'entendre sur un roi. C'est la circonstance la plus étonnante de son histoire.
+
+L'assemblée élue en 1871 est majoritairement monarchiste, mais divisée entre légitimistes partisans du comte de Chambord et orléanistes partisans du comte de Paris. Un compromis est trouvé — Chambord, sans enfant, régnerait puis laisserait la place aux Orléans — et il échoue sur un point : Chambord refuse le drapeau tricolore et exige le drapeau blanc. Le pays ne suivrait pas, et l'affaire s'enlise jusqu'à ce que le prétendant vieillisse.
+
+L'amendement Wallon, adopté en 1875 à une voix de majorité, mentionne pour la première fois le président « de la République » et organise son élection. Cette mention incidente, sur un point de procédure, fait de la France une république.
+
+Les lois constitutionnelles de 1875 sont brèves et purement organiques — la Troisième République n'a jamais eu de constitution proclamant des principes, ce qui explique sa souplesse et sa longévité.
+
+Elle a duré environ soixante-dix ans, de 1870 à 1940 : le régime le plus durable de l'histoire française depuis 1789.`],
+    ["Deux crises fondatrices", `La Commune de Paris, en mars-mai 1871, naît du refus parisien de la capitulation et de la défiance envers l'assemblée conservatrice réfugiée à Versailles. Elle met en œuvre en soixante-douze jours un programme radical : séparation des Églises et de l'État, école laïque et gratuite, coopératives ouvrières, remise des loyers, élus révocables.
+
+Sa répression, la Semaine sanglante, fait plusieurs milliers de morts — les estimations vont de six mille à vingt mille —, suivis de milliers de condamnations et de déportations. Le mouvement ouvrier français en sera décapité pour une décennie, et l'événement pèsera durablement sur la mémoire politique des deux camps.
+
+La crise boulangiste, à la fin des années 1880, menace ensuite le régime. Le général Boulanger, ministre de la Guerre populaire, fédère autour de lui les mécontentements les plus divers — revanchards, monarchistes, bonapartistes, et une partie de la gauche radicale. Élu triomphalement à Paris en janvier 1889, il pouvait tenter un coup de force ; il ne le fait pas, s'enfuit devant une menace de poursuites, et le mouvement s'effondre.
+
+L'épisode a nourri l'analyse du bonapartisme et de ce que la science politique appellera plus tard le populisme.`],
+    ["L'affaire Dreyfus", `L'affaire Dreyfus divise la France à partir de 1894. Un capitaine d'état-major, juif et alsacien, est condamné pour espionnage sur la foi d'une pièce attribuée à tort à son écriture, dégradé publiquement et déporté au bagne.
+
+Les preuves de son innocence apparaissent dès 1896, quand le colonel Picquart identifie le véritable auteur. L'état-major choisit d'étouffer, fabrique de faux documents et fait acquitter le coupable.
+
+Émile Zola publie en janvier 1898 « J'accuse… ! » en une de *L'Aurore*, lettre ouverte au président de la République nommant les responsables. Il est condamné pour diffamation et s'exile ; l'affaire devient publique et coupe le pays en deux.
+
+Ce qui se joue dépasse un cas judiciaire : c'est l'opposition entre la raison d'État et les droits de l'individu, entre l'armée et la justice civile, et la révélation d'un antisémitisme puissant. C'est aussi la naissance de la figure de l'intellectuel — le mot prend son sens moderne à cette occasion, employé d'abord comme une insulte.
+
+Dreyfus est gracié en 1899, réhabilité en 1906, réintégré, et servira pendant la Grande Guerre.`,
+      { image: "hf-dreyfus-degradation", legende: "La dégradation de 1895 : une erreur judiciaire devenue le procès de l'armée, de la justice et de la République.", alt: "Dégradation du capitaine Dreyfus" }],
+    ["Les lois qui restent", `La République victorieuse de l'affaire produit en quelques années un ensemble législatif dont beaucoup est encore en vigueur.
+
+La loi de 1901 sur les associations pose que toute association se crée librement, par simple déclaration, et sans autorisation préalable. Sa portée dépasse largement son objet immédiat — elle visait aussi les congrégations religieuses, soumises à un régime spécial — et elle est devenue le cadre d'un million et demi d'associations françaises.
+
+La loi de 1905 sépare les Églises et l'État. Elle pose deux principes : la République assure la liberté de conscience et garantit le libre exercice des cultes ; elle ne reconnaît, ne salarie ni ne subventionne aucun culte. Négociée avec pragmatisme par Aristide Briand contre les tenants d'une laïcité de combat, elle apaise un conflit vieux d'un siècle et demeure le texte de référence.
+
+Jean Jaurès, principal dirigeant socialiste et infatigable adversaire de la guerre, est assassiné le 31 juillet 1914, trois jours avant la mobilisation. Son meurtre prive le mouvement pacifiste de sa voix au moment décisif.
+
+Le Front populaire, en 1936, obtient enfin les congés payés, la semaine de quarante heures et les conventions collectives — acquis conquis en quelques semaines après une vague de grèves avec occupation d'usines, et qui transformeront la vie quotidienne des Français plus que bien des changements de régime.`],
+  ],
+
+  "hf2-france-1914-1918": [
+    ["Arrêter l'invasion", `La bataille de la Marne, en septembre 1914, arrête l'avance allemande à cinquante kilomètres de Paris. Le plan allemand prévoyait d'écraser la France en six semaines avant de se retourner contre la Russie ; son échec condamne l'Allemagne à la guerre sur deux fronts qu'elle voulait éviter.
+
+L'épisode des taxis de la Marne, qui transportèrent quelques milliers d'hommes, a été considérablement amplifié par la mémoire nationale — son importance militaire fut marginale, son importance symbolique immense.
+
+Le front se stabilise ensuite et s'enterre. De la mer du Nord à la Suisse, sept cents kilomètres de tranchées se creusent, et la guerre de mouvement laisse place à quatre ans d'immobilité meurtrière. La puissance de feu défensive — mitrailleuse, artillerie, barbelés — l'emporte sur toute tentative d'assaut, et chaque offensive coûte des dizaines de milliers d'hommes pour quelques kilomètres.`],
+    ["Verdun", `Verdun, en 1916, dure près de dix mois autour d'une place forte sans grande valeur stratégique. L'état-major allemand choisit ce secteur précisément parce qu'il sait que les Français le défendront à tout prix pour des raisons de prestige : l'objectif déclaré est de « saigner à blanc » l'armée française.
+
+La bataille tient de la machine à broyer : plus de soixante millions d'obus tirés, un relief entièrement bouleversé, neuf villages rayés de la carte et jamais reconstruits.
+
+La Voie sacrée ravitaille la place : une route secondaire sur laquelle circule un camion toutes les quatorze secondes jour et nuit, avec des équipes de territoriaux qui jettent en permanence des pierres sous les roues pour maintenir la chaussée. Le système de noria fait passer les trois quarts de l'armée française par Verdun, ce qui explique que la bataille soit devenue le souvenir commun de toute une génération.
+
+Le Chemin des Dames, en 1917, provoque la crise la plus grave de l'armée française. L'offensive Nivelle, annoncée comme décisive, échoue à un coût effroyable ; des mutineries éclatent dans des dizaines d'unités. Ce ne sont pas des révoltes politiques mais des refus de monter à l'assaut. Pétain, nommé pour y répondre, combine sanctions limitées — quelques dizaines d'exécutions — et amélioration des permissions, du ravitaillement et du rythme des relèves.`,
+      { image: "hf-tranchee-verdun", legende: "Verdun : dix mois, soixante millions d'obus, et neuf villages qui n'ont jamais été reconstruits.", alt: "Soldats français dans une tranchée à Verdun" }],
+    ["Tenir jusqu'au bout", `Georges Clemenceau, surnommé le Tigre, prend la tête du gouvernement en novembre 1917, dans un moment de lassitude générale et de tentations de paix négociée. Son programme tient en une phrase : « je fais la guerre ».
+
+Il réprime le défaitisme, soutient l'effort de production, impose l'unité de commandement allié confiée à Foch, et visite constamment le front — d'où le surnom de Père la Victoire.
+
+Le char d'assaut apparaît en 1916, d'abord côté britannique sur la Somme, puis côté français. Conçu pour franchir les tranchées et les barbelés en résistant aux mitrailleuses, il est peu fiable et employé en trop petit nombre pour être décisif ; il annonce néanmoins la fin de la suprématie défensive, et les théoriciens de l'entre-deux-guerres en tireront les conclusions — inégalement selon les pays.
+
+Le traité de Versailles, en 1919, met fin à la guerre avec l'Allemagne. Il impose des pertes territoriales, un désarmement, des réparations considérables et l'article 231 attribuant à l'Allemagne la responsabilité du conflit. Sa dureté et son application inégale nourriront le ressentiment allemand ; l'expression « paix de vainqueurs » a été employée dès sa signature, y compris par des économistes alliés comme Keynes.`],
+    ["Une société transformée", `La France a perdu proportionnellement plus d'hommes que tout autre grand belligérant occidental : environ un million quatre cent mille morts, soit près d'un mobilisé sur six et une classe d'âge décimée. S'y ajoutent plus de trois millions de blessés.
+
+Les gueules cassées sont les soldats défigurés par les blessures au visage, particulièrement nombreuses dans une guerre où le corps est protégé par la tranchée mais où la tête dépasse. Cinq d'entre eux siégeront à la signature du traité de Versailles, placés là volontairement. Leur cas a fait progresser la chirurgie reconstructrice et posé la question du retour à la vie civile de mutilés que la société ne voulait pas voir.
+
+Les femmes occupent massivement pendant la guerre des emplois industriels et agricoles : usines d'armement, transports, administration, exploitations laissées sans hommes. Cette expérience a nourri l'idée d'un droit de vote — la Chambre le vote en 1919, le Sénat le refuse, et les Françaises devront attendre 1944, un quart de siècle après les Britanniques et les Allemandes.
+
+Le pays sort de la guerre avec des régions entières détruites, une monnaie affaiblie, une dette massive, trente-six mille monuments aux morts, et une génération marquée dont le pacifisme profond pèsera lourd en 1940.`],
+  ],
+
+  "hf2-france-1940-1944": [
+    ["La défaite", `La percée blindée par les Ardennes, en mai 1940, décide de la campagne en quelques jours. L'état-major français jugeait le massif infranchissable par des blindés et y avait laissé un dispositif léger, concentrant ses meilleures unités au nord en prévision d'une attaque par la Belgique.
+
+Les divisions allemandes traversent, atteignent la Meuse à Sedan, la franchissent et foncent vers la Manche, coupant les armées alliées engagées en Belgique. La ligne Maginot, jamais forcée, est simplement contournée.
+
+La défaite n'est pas due à une infériorité matérielle — les chars français étaient aussi nombreux et souvent mieux blindés — mais à une doctrine d'emploi dépassée, à des transmissions défaillantes et à une chaîne de commandement trop lente pour un adversaire qui manœuvrait à la radio.
+
+L'armistice est signé le 22 juin. Le pays est coupé en deux zones, un million huit cent mille prisonniers partent en Allemagne pour cinq ans, et une indemnité d'occupation écrasante est imposée.`],
+    ["Vichy", `L'État français s'installe en juillet 1940 : les parlementaires réunis à Vichy votent les pleins pouvoirs constituants à Pétain par une large majorité. La République n'est pas renversée par un coup de force mais dissoute par son propre parlement — fait qui pèsera dans la rédaction des constitutions ultérieures.
+
+La devise Travail, Famille, Patrie remplace Liberté, Égalité, Fraternité. Le régime engage une Révolution nationale : autoritaire, cléricale, corporatiste, hostile au parlementarisme, aux syndicats, aux francs-maçons et aux étrangers.
+
+Le régime de Vichy n'a pas seulement subi les demandes allemandes : il en a devancé certaines. Le statut des Juifs d'octobre 1940, qui exclut les Juifs de la fonction publique, de l'enseignement, de la presse et de nombreuses professions, est promulgué sans aucune demande allemande, sur la seule initiative française. Un second statut aggrave le dispositif en 1941, et un Commissariat général aux questions juives organise l'aryanisation des biens.
+
+Cette responsabilité propre a été officiellement reconnue par la France en 1995, après cinquante ans d'une doctrine officielle selon laquelle Vichy n'engageait pas la République.`],
+    ["La persécution", `La rafle du Vélodrome d'Hiver, les 16 et 17 juillet 1942, est exécutée à Paris par la police française : plus de treize mille personnes arrêtées, dont plus de quatre mille enfants que les Allemands n'avaient pas demandés et dont Vichy propose la déportation.
+
+Drancy, cité inachevée de la banlieue nord, sert de principal camp de transit vers Auschwitz : environ soixante-trois mille des soixante-seize mille Juifs déportés de France y transitent. Moins de trois pour cent reviendront.
+
+Environ un quart des Juifs de France ont été déportés — proportion inférieure à celle des Pays-Bas ou de Belgique, ce qui s'explique par la superficie du pays, l'existence d'une zone non occupée jusqu'en novembre 1942, et l'aide d'une partie de la population : des milliers de personnes ont caché, hébergé, fourni des papiers, et le village du Chambon-sur-Lignon en offre l'exemple collectif le plus connu.
+
+Le Service du travail obligatoire, institué en février 1943, réquisitionne les jeunes Français pour travailler en Allemagne. Il produit un effet que Vichy n'avait pas prévu : des dizaines de milliers de réfractaires prennent le maquis, et le STO devient le principal pourvoyeur de la Résistance armée.`],
+    ["Résister, et préparer l'après", `Jean Moulin, ancien préfet révoqué, unifie les mouvements de résistance. Envoyé par de Gaulle, il obtient en mai 1943 la création du Conseil national de la Résistance, réunissant les huit grands mouvements, les six principaux partis politiques et les deux syndicats.
+
+L'enjeu est politique autant que militaire : cette unification, sous l'autorité de la France libre, donne à de Gaulle une légitimité intérieure face aux Alliés, qui envisageaient une administration militaire de la France libérée. Moulin est arrêté le mois suivant, torturé, et meurt sans avoir parlé.
+
+Le CNR adopte en mars 1944 un programme de réformes pour l'après-guerre : nationalisations des grandes banques et sources d'énergie, sécurité sociale, retraites, comités d'entreprise, liberté de la presse, droit de vote des femmes. Il sera largement appliqué à la Libération et constitue l'acte fondateur du modèle social français.
+
+La répression s'intensifie à mesure que la Libération approche. Le 10 juin 1944, quatre jours après le débarquement, une division SS détruit Oradour-sur-Glane et massacre six cent quarante-deux habitants — hommes fusillés, femmes et enfants brûlés dans l'église. Le village a été laissé en l'état sur décision de De Gaulle, comme village martyr.`,
+      { image: "hf-liberation-paris", legende: "La Libération de Paris, août 1944 : le programme du Conseil national de la Résistance est déjà écrit depuis cinq mois.", alt: "Libération de Paris en août 1944" }],
+  ],
 };
