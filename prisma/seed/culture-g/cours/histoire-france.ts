@@ -912,4 +912,166 @@ La Lorraine est le bassin le plus durement touché. La sidérurgie s'y effondre 
 
 Ces reconversions ont laissé des traces profondes : friches à dépolluer, affaissements miniers, chômage durable, et un sentiment d'abandon dont la persistance politique se mesure encore. Les bassins qui s'en sont le mieux sortis disposaient d'une métropole proche, d'une université ou d'une bonne accessibilité — les autres portent encore le poids d'une spécialisation qui avait fait leur prospérité.`],
   ],
+
+  "hf3-mouvement-ouvrier": [
+    ["Un siècle d'interdiction", `Les syndicats ont été interdits en France pendant près d'un siècle, et cette interdiction est venue de la Révolution elle-même.
+
+La loi Le Chapelier, en 1791, supprime les corporations et interdit toute coalition — c'est-à-dire toute association professionnelle, patronale comme ouvrière. Sa justification est libérale et cohérente avec l'esprit du temps : entre l'individu et l'État, aucun corps intermédiaire ne doit s'interposer, et le contrat de travail doit être négocié librement entre deux personnes égales.
+
+Cette égalité est une fiction. Un ouvrier isolé face à un employeur n'a aucun pouvoir de négociation, et l'interdiction de se coaliser a de fait supprimé pendant des décennies tout contre-pouvoir dans l'entreprise. La loi était en outre appliquée de façon asymétrique : les ententes patronales étaient tolérées, les coalitions ouvrières poursuivies.
+
+Deux textes desserrent progressivement l'étau. La loi Ollivier de 1864 supprime le délit de coalition et rend donc la grève licite — sans pour autant autoriser les organisations permanentes. La loi Waldeck-Rousseau de 1884 autorise enfin les syndicats professionnels.`],
+    ["S'organiser", `La CGT est fondée en 1895, onze ans après la légalisation. Elle réunit des syndicats de métier et des bourses du travail, structures locales qui combinaient placement, entraide, éducation ouvrière et coordination des luttes.
+
+La charte d'Amiens, adoptée en 1906, est le texte fondateur du syndicalisme français. Elle affirme l'indépendance du syndicalisme à l'égard des partis politiques : le syndicat mène l'action revendicative au quotidien et prépare la transformation sociale par ses propres moyens, sans se subordonner à aucune organisation politique.
+
+Ce principe distingue durablement le syndicalisme français de ses homologues britannique ou allemand, étroitement liés à des partis. Il n'a jamais été appliqué à la lettre — les relations entre la CGT et le Parti communiste, à partir des années 1920, en sont l'exemple le plus net — mais il reste invoqué et structure encore les débats internes.
+
+Cette période voit aussi la naissance des grandes lois sociales : repos hebdomadaire en 1906, retraites ouvrières et paysannes en 1910, journée de huit heures en 1919.`],
+    ["1936", `Les accords Matignon, en juin 1936, sont signés après une vague de grèves avec occupation d'usines d'une ampleur inédite — plus de deux millions de grévistes, dans une atmosphère souvent festive plutôt qu'insurrectionnelle.
+
+Ils accordent des hausses de salaires de sept à quinze pour cent, la reconnaissance du droit syndical dans l'entreprise, l'institution de délégués du personnel élus, et l'obligation de conclure des conventions collectives par branche.
+
+Les lois votées dans la foulée y ajoutent les congés payés — douze jours, soit deux semaines — et la semaine de quarante heures.
+
+L'effet des congés payés dépasse largement leur durée : c'est la première fois que la classe ouvrière accède au loisir organisé, et les images de départs en tandem vers la mer sont restées comme le symbole du Front populaire. Les auberges de jeunesse, les billets de train à tarif réduit et les premières politiques de tourisme social en découlent.
+
+La semaine de quarante heures sera en revanche assouplie dès 1938, dans un contexte de réarmement et de difficultés économiques.`],
+    ["Le programme du CNR et après", `Le Conseil national de la Résistance adopte en mars 1944 un programme social ambitieux : un plan complet de sécurité sociale, des retraites pour tous les travailleurs, le droit au travail et au repos, et la participation des travailleurs à la direction de l'économie.
+
+Il est largement appliqué à la Libération. La Sécurité sociale est créée en 1945. Le comité d'entreprise, institué la même année, est une instance de représentation du personnel obligatoirement consultée sur la marche générale de l'entreprise, la situation économique et l'emploi, et gérant les activités sociales et culturelles. C'est une innovation majeure : la représentation du personnel entre dans la gouvernance, sans pouvoir de décision.
+
+Mai 1968 reste le mouvement social ayant mobilisé le plus de grévistes de l'histoire française — sept à neuf millions, soit bien davantage qu'en 1936. Les accords de Grenelle, d'abord rejetés par la base, seront appliqués pour l'essentiel : forte hausse du salaire minimum et reconnaissance de la section syndicale d'entreprise, laquelle achève de faire entrer le syndicat dans l'entreprise.
+
+Le taux de syndicalisation français est aujourd'hui l'un des plus faibles des pays comparables — moins de dix pour cent — alors que la couverture par les conventions collectives y est l'une des plus élevées, autour de quatre-vingt-dix pour cent. Ce paradoxe s'explique par l'extension administrative des accords de branche à toutes les entreprises du secteur, syndiquées ou non.`],
+  ],
+
+  "hf3-ecole-republique": [
+    ["Avant Jules Ferry", `L'école républicaine ne naît pas en 1881 : elle achève un mouvement engagé un demi-siècle plus tôt.
+
+La loi Guizot de 1833 impose à chaque commune d'entretenir une école primaire de garçons et à chaque département une école normale d'instituteurs. Elle ne rend l'école ni gratuite ni obligatoire, mais elle crée le réseau — sans lequel les lois ultérieures n'auraient rien pu appliquer. Le taux d'alphabétisation progresse fortement dans les décennies suivantes.
+
+La loi Falloux de 1850, votée dans le contexte réactionnaire qui suit 1848, renforce le rôle de l'Église dans l'enseignement : elle facilite l'ouverture d'écoles congréganistes, place les instituteurs sous surveillance et permet aux communes de confier leur école à des religieux. Son nom reste attaché au financement public de l'enseignement privé, question toujours vive.
+
+La loi Duruy de 1867 encourage l'ouverture d'écoles de filles dans les communes d'une certaine taille. L'écart d'alphabétisation entre garçons et filles, considérable au début du siècle, se comble au cours de cette période.`],
+    ["Les lois Ferry", `Les lois Ferry rendent l'école primaire gratuite en 1881, puis obligatoire et laïque en 1882.
+
+Trois principes, trois portées distinctes. La gratuité supprime la rétribution scolaire versée par les familles. L'obligation porte sur l'instruction de six à treize ans, et non sur la fréquentation de l'école publique — l'instruction dans la famille ou dans le privé reste possible, principe encore en vigueur. La laïcité supprime l'enseignement religieux du programme, remplacé par l'instruction morale et civique, et institue un jour libre dans la semaine pour permettre le catéchisme hors de l'école.
+
+La loi Goblet de 1886 achève le dispositif en laïcisant le personnel des écoles publiques.
+
+L'école de la Troisième République est aussi un instrument politique assumé : elle unifie la nation, diffuse le français contre les langues régionales — parfois avec brutalité —, forme des citoyens et des soldats, et transmet un récit national. L'instituteur, « hussard noir de la République » selon Péguy, en est la figure centrale.
+
+Les lycées de jeunes filles sont créés en 1880 par la loi Camille Sée. Leur programme n'est cependant pas identique à celui des garçons, et ils ne préparent pas au baccalauréat avant 1924.`],
+    ["Un système à deux vitesses", `L'école obligatoire ne signifiait pas l'école pour tous jusqu'au baccalauréat. Le système est longtemps resté cloisonné en deux réseaux parallèles et étanches.
+
+D'un côté, l'école primaire, gratuite, sanctionnée par le certificat d'études primaires — diplôme qui marquait la fin de la scolarité pour l'immense majorité et qui avait une réelle valeur sociale, avec des épreuves de dictée, de calcul et d'histoire d'un niveau souvent sous-estimé aujourd'hui.
+
+De l'autre, le lycée, payant jusqu'en 1930, avec ses propres petites classes élémentaires. On n'y entrait pas depuis le primaire : on y entrait dès le début, et l'orientation était donc décidée par la naissance.
+
+La scolarité obligatoire est prolongée à quatorze ans en 1936, puis à seize ans en 1959.
+
+Le collège unique, instauré en 1975 par la réforme Haby, supprime les filières séparées après le primaire et fait suivre à tous les élèves le même cursus jusqu'à la troisième. C'est l'aboutissement d'un siècle d'unification, et il reste discuté — sur sa capacité à traiter l'hétérogénéité qu'il a réunie dans une même classe.`],
+    ["La massification", `L'objectif d'amener quatre-vingts pour cent d'une classe d'âge au niveau du baccalauréat est fixé en 1985 par la loi d'orientation.
+
+La formulation exacte importe et a été constamment déformée : il s'agissait du niveau du baccalauréat, c'est-à-dire de la classe de terminale, et non de l'obtention du diplôme. L'objectif visait à élever le niveau général de formation d'une génération à un moment où le chômage des non-qualifiés explosait.
+
+Il a été largement atteint : environ huit jeunes sur dix obtiennent aujourd'hui le baccalauréat, contre moins d'un sur cinq en 1970. La massification s'est faite principalement par le développement des baccalauréats technologiques et professionnels, créés en 1985 précisément à cette fin.
+
+Ses effets sont doubles. L'élévation du niveau de formation est réelle et mesurable. Mais la valeur relative du diplôme a mécaniquement baissé, ce qui a déplacé la sélection vers l'enseignement supérieur, et l'origine sociale continue de peser lourdement sur l'orientation — les enquêtes internationales placent régulièrement la France parmi les pays où le lien entre milieu d'origine et résultats scolaires est le plus fort.`],
+  ],
+
+  "hf3-sante-france": [
+    ["De l'accueil au soin", `L'hôpital français est passé d'un lieu d'accueil des pauvres à un lieu de soin technique, et ce changement de nature est récent.
+
+L'hôtel-Dieu médiéval accueillait indistinctement pauvres, malades, vieillards, pèlerins et enfants abandonnés. Sa fonction était charitable avant d'être médicale : on y soulageait et on y préparait à mourir, dans des salles communes où plusieurs personnes partageaient un lit. Les médecins y passaient ; les soignants étaient des religieuses.
+
+L'Hôpital général, créé à Paris en 1656, marque un tournant d'un autre ordre. Il ne s'agit plus d'accueillir mais d'enfermer : mendiants, vagabonds, prostituées, fous et infirmes y sont internés par mesure de police, dans ce que Michel Foucault a appelé le grand renfermement. La Salpêtrière et Bicêtre en font partie.
+
+La médicalisation de l'hôpital date de la Révolution et du XIXe siècle : formation clinique au lit du malade, spécialisation des services, asepsie, puis équipement technique. L'hôpital cesse alors d'être un lieu où l'on va mourir pour devenir un lieu où l'on va guérir — et où l'on naît, la naissance à l'hôpital ne se généralisant qu'après 1950.`],
+    ["Pasteur et l'hygiène", `Louis Pasteur crée l'Institut Pasteur en 1888, financé par une souscription internationale ouverte après le succès du vaccin contre la rage. C'est une fondation privée à but non lucratif, associant recherche, enseignement et santé publique — modèle inédit, décliné depuis dans une trentaine de pays.
+
+Ses travaux ont établi que les maladies infectieuses sont causées par des micro-organismes, ce qui a fondé l'asepsie chirurgicale, la pasteurisation et la vaccination.
+
+Le BCG, mis au point à l'Institut Pasteur de Lille par Calmette et Guérin, est un vaccin contre la tuberculose obtenu après treize ans de repiquages successifs d'une souche bovine jusqu'à en supprimer la virulence. La tuberculose était alors la première cause de mortalité chez l'adulte jeune en Europe.
+
+Cette période voit également se développer l'hygiénisme : adduction d'eau potable, égouts, réglementation du logement insalubre, dispensaires, éducation sanitaire. Son effet sur la mortalité, notamment infantile, a été supérieur à celui de la médecine curative de la même époque.`],
+    ["Protéger et légiférer", `La Sécurité sociale est créée en 1945, en application du programme du Conseil national de la Résistance. Son ambition initiale est l'universalité — un régime unique pour tous — objectif que les résistances corporatistes empêcheront d'atteindre, d'où la coexistence durable de régimes distincts.
+
+Elle transforme l'accès aux soins : ce qui relevait de la charité ou de la prévoyance individuelle devient un droit financé par des cotisations.
+
+La loi Veil de 1975 légalise l'interruption volontaire de grossesse, après un débat parlementaire d'une violence rare — Simone Veil, ministre de la Santé, y est personnellement attaquée, et le texte est adopté grâce aux voix de l'opposition de gauche, une majorité de sa propre majorité ayant voté contre. La loi était initialement votée pour cinq ans, à titre provisoire, avant d'être reconduite définitivement en 1979.
+
+Ce que ces deux textes ont en commun : ils font entrer dans le droit des réalités que la société pratiquait déjà — les soins pour ceux qui pouvaient payer, les avortements clandestins pour celles qui pouvaient les trouver — en en supprimant l'inégalité.`],
+    ["Les crises et leurs leçons", `L'affaire du sang contaminé, révélée à la fin des années 1980, concerne la transfusion de produits sanguins non chauffés à des hémophiles et à des transfusés, après que le risque de transmission du VIH était connu et que des procédés d'inactivation existaient. Plusieurs milliers de personnes ont été contaminées.
+
+Elle a produit une réforme complète du dispositif sanitaire : création d'agences d'expertise indépendantes du ministère, dont l'Agence du médicament en 1993, devenue l'ANSM ; séparation de l'évaluation scientifique et de la décision politique ; obligation de transparence sur les liens d'intérêts. Le principe est le même que celui adopté après la vache folle : celui qui évalue le risque ne doit pas être celui qui gère les conséquences politiques de l'évaluation.
+
+La canicule de 2003 a révélé une vulnérabilité d'un autre ordre : quinze mille décès en excès, concentrés sur les personnes âgées isolées, et un système d'alerte incapable de détecter la surmortalité en temps réel. Elle a conduit à la création d'un plan canicule, d'un registre des personnes fragiles en mairie, et d'une surveillance sanitaire réactive.
+
+Le système français conserve enfin sa particularité : une médecine largement libérale associée à un financement socialisé, combinaison rare qui explique à la fois la liberté de choix du patient et la difficulté de l'État à agir sur la répartition territoriale des professionnels.`,
+      { image: "st-pasteur", legende: "Pasteur : la démonstration que les maladies infectieuses ont une cause identifiable a fondé l'hygiène publique autant que la médecine.", alt: "Portrait de Louis Pasteur dans son laboratoire" }],
+  ],
+
+  "hf3-agriculture-france": [
+    ["Un monde qui a disparu", `La France comptait plus de six millions d'agriculteurs en 1950 ; ils sont moins de quatre cent mille aujourd'hui. Aucun autre groupe social français n'a connu une contraction de cette ampleur.
+
+En 1900, environ quatre actifs sur dix travaillaient dans l'agriculture. La France était un pays de paysans, et sa société, sa politique et sa géographie en portaient la marque : villages nombreux, exploitations familiales de petite taille, polyculture-élevage, autoconsommation importante.
+
+La transformation s'opère en une génération, entre 1950 et 1980 : mécanisation, engrais, sélection variétale, spécialisation, agrandissement. La productivité par actif est multipliée par plusieurs unités, et l'exode rural vide les campagnes vers les villes et l'industrie.
+
+Cette mutation a été portée par une politique publique explicite et par une génération de responsables agricoles issus de la Jeunesse agricole catholique, convaincus qu'il fallait moderniser ou disparaître.`],
+    ["Les outils de la modernisation", `Le remembrement regroupe des parcelles morcelées en unités plus grandes et mieux desservies. Il était indispensable à la mécanisation — un tracteur ne peut travailler des lanières de quelques ares dispersées — et il a été mené massivement à partir des années 1950.
+
+Son coût environnemental n'a été mesuré que tardivement : arrachage de dizaines de milliers de kilomètres de haies, suppression de mares et de chemins, accélération du ruissellement et de l'érosion, effondrement de la biodiversité ordinaire. Les programmes actuels de replantation de haies réparent, à grands frais, ce que la puissance publique avait subventionné.
+
+La politique des structures des années 1960 — lois d'orientation agricole de 1960 et 1962 — organise cette modernisation : elle encourage le départ des exploitants âgés par une indemnité viagère, favorise l'agrandissement, développe la formation et le crédit.
+
+Les SAFER, créées à cette occasion, sont des sociétés qui peuvent préempter des terres agricoles mises en vente pour les réattribuer selon des objectifs d'installation et de structuration. C'est un instrument rare : un droit de préemption au service d'une politique foncière, qui existe encore et joue un rôle dans l'installation des jeunes.`],
+    ["S'organiser collectivement", `Le Crédit agricole naît à la fin du XIXe siècle comme réseau de caisses locales mutualistes destinées à financer des agriculteurs que les banques ordinaires ignoraient. Sa structure — caisses locales détenues par les sociétaires, caisses régionales, organe central — est restée, et il est devenu l'une des premières banques mondiales.
+
+Une coopérative agricole est détenue par les agriculteurs eux-mêmes, selon la règle d'une personne une voix, pour mutualiser la collecte, le stockage, la transformation ou l'approvisionnement. Les coopératives représentent aujourd'hui une part majeure de la collecte française en céréales, en lait et en vin, et plusieurs sont devenues des groupes agroalimentaires de dimension européenne — évolution qui interroge le lien avec leurs sociétaires d'origine.
+
+La FNSEA est le syndicat agricole majoritaire depuis l'après-guerre. Sa cogestion avec l'État, particulièrement étroite des années 1960 aux années 1980, lui a donné un rôle de partenaire quasi institutionnel dans la conduite de la politique agricole — situation sans équivalent dans les autres secteurs, et contestée par des syndicats minoritaires qui défendent d'autres modèles.
+
+La révolte des vignerons du Languedoc, en 1907, rappelle que ces organisations sont nées de crises : surproduction, effondrement des cours et fraude massive au vinage avaient jeté des centaines de milliers de personnes dans la rue, avec mutinerie d'un régiment et démissions municipales en chaîne.`],
+    ["Les défis actuels", `La France est le premier producteur agricole de l'Union européenne, position qu'elle doit à la diversité de ses climats, à la qualité de ses sols et à un demi-siècle de politique volontariste.
+
+Cette position s'érode pourtant : la balance commerciale agroalimentaire se dégrade hors vins et spiritueux, et les parts de marché reculent face à des concurrents européens plus spécialisés.
+
+L'enjeu le plus déterminant est le renouvellement des générations. Près de la moitié des exploitants ont plus de cinquante-cinq ans, et chaque départ pose la question de la reprise : le prix des terres et du matériel rend l'installation difficile hors cadre familial, et le métier souffre d'une image dégradée, de revenus faibles et très variables, et d'astreintes lourdes.
+
+S'y ajoutent des transitions à conduire simultanément — réduction des pesticides, adaptation au changement climatique, bien-être animal, stockage de carbone — dans un contexte de revenus insuffisants pour financer les investissements correspondants. C'est cette accumulation, plus qu'une exigence isolée, qui explique la tension récurrente entre le monde agricole et les politiques publiques.`],
+  ],
+
+  "hf3-immigration-france": [
+    ["Le plus ancien pays d'immigration", `La France est le plus ancien pays d'immigration d'Europe continentale, et pour une raison démographique précise.
+
+Elle entre dans la transition démographique dès la fin du XVIIIe siècle, un siècle avant ses voisines : sa natalité baisse tôt, sa population stagne au XIXe siècle alors que celles de l'Allemagne et du Royaume-Uni doublent. Au moment de l'industrialisation, la main-d'œuvre manque.
+
+Le recours à l'immigration est donc structurel et ancien : Belges dans le Nord, Italiens dans le Sud-Est, Espagnols dans le Sud-Ouest, Polonais dans les mines après 1918. Dans l'entre-deux-guerres, la France est le premier pays d'immigration du monde en proportion de sa population, devant les États-Unis.
+
+Ces vagues ont toutes suscité les mêmes réactions : accusations de concurrence sur les salaires, de non-assimilation, de criminalité, et violences — les massacres d'Aigues-Mortes en 1893 firent une dizaine de morts italiens. Les mêmes populations sont aujourd'hui considérées comme parfaitement intégrées, ce qui constitue l'enseignement le plus solide de cette histoire.`],
+    ["Les vagues successives", `La Retirada, en 1939, amène en quelques semaines près d'un demi-million de républicains espagnols fuyant la victoire franquiste. Ils sont internés dans des camps de fortune sur les plages du Roussillon, dans des conditions qui ont laissé une mémoire durable. Beaucoup rejoindront la Résistance, et la première unité entrée dans Paris libéré, la Nueve, était composée majoritairement de républicains espagnols.
+
+L'Office national d'immigration, créé en 1945, reçoit le monopole du recrutement de la main-d'œuvre étrangère. Il devait organiser une immigration planifiée et sélectionnée ; dans les faits, l'essentiel des entrées se fera hors de son circuit, par régularisation après coup, tant les besoins de la reconstruction et des Trente Glorieuses étaient pressants.
+
+L'immigration de travail des années 1960 est d'abord portugaise — fuyant la dictature et la guerre coloniale — puis maghrébine, algérienne surtout. Elle est masculine, jeune, destinée au bâtiment et à l'automobile, et pensée comme temporaire par tous les acteurs, y compris par les migrants eux-mêmes.
+
+L'arrêt de l'immigration de travail en 1974, décidé après le choc pétrolier, produit un effet inverse à celui recherché : les travailleurs présents, craignant de ne plus pouvoir revenir, cessent les allers-retours et font venir leur famille.`],
+    ["S'installer, revendiquer", `Le regroupement familial est le droit pour un résident étranger en situation régulière de faire venir son conjoint et ses enfants mineurs, sous conditions de ressources, de logement et de durée de séjour. Consacré en 1976 et confirmé par le Conseil d'État en 1978 comme découlant du droit à mener une vie familiale normale, il transforme une immigration de travailleurs isolés en immigration de peuplement.
+
+La Marche pour l'égalité et contre le racisme, en 1983, part de Marseille et arrive à Paris deux mois plus tard avec plus de cent mille personnes. Partie d'un quartier lyonnais après une série de violences racistes et de bavures, elle est la première mobilisation nationale portée par les enfants de l'immigration maghrébine, nés en France et français.
+
+Sa revendication est l'égalité des droits, non la reconnaissance d'une différence. Elle obtient la carte de séjour de dix ans, et elle est rapidement récupérée puis marginalisée — ses initiateurs ayant vu leur mouvement leur échapper.
+
+Le droit du sol lie l'acquisition de la nationalité à la naissance et à la résidence sur le territoire. En France, il est double : est français à la naissance l'enfant né en France d'un parent lui-même né en France ; et l'enfant né en France de parents étrangers devient français à sa majorité s'il y réside. Ce mécanisme, ancien et lié aux besoins démographiques et militaires du XIXe siècle, distingue la conception française de la nationalité de celle des pays fondés sur la seule ascendance.`],
+    ["Une histoire longtemps invisible", `Environ un quart de la population française a au moins un grand-parent immigré. Cette proportion, mesurée par l'INSEE, situe l'immigration au cœur de l'histoire démographique française et non à sa marge.
+
+Elle est pourtant restée longtemps absente du récit national et des programmes scolaires. La Cité nationale de l'histoire de l'immigration, ouverte en 2007 et devenue Musée national de l'histoire de l'immigration, répond à ce manque.
+
+Son implantation est significative : elle occupe le Palais de la Porte Dorée, construit pour l'Exposition coloniale de 1931, dont les bas-reliefs monumentaux célèbrent les colonies. Installer l'histoire de l'immigration dans le bâtiment de l'exposition coloniale est un geste dont la portée n'a échappé à personne.
+
+L'établissement a connu des débuts difficiles — inauguration sans président de la République, démission de plusieurs historiens de son conseil scientifique en 2007 pour protester contre la création d'un ministère de l'Immigration et de l'Identité nationale — qui illustrent assez bien la charge politique du sujet en France.`],
+  ],
 };
