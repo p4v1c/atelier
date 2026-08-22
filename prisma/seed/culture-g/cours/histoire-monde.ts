@@ -282,4 +282,140 @@ L'héritage perse le plus durable est un modèle d'administration impériale : g
 
 Ce modèle sera repris par les Séleucides, par Rome dans une certaine mesure, et par les empires musulmans. Il s'oppose au modèle assyrien de la déportation et de la terreur, et il a probablement été la condition de la durée de l'empire — deux siècles de stabilité pour un ensemble que rien d'autre ne tenait ensemble.`],
   ],
+
+  "hm2-rome-republique": [
+    ["Une république très inégale", `La tradition situe la fondation de Rome en 753 avant notre ère, et le début de la République en 509, avec l'expulsion du dernier roi étrusque. Les deux dates sont conventionnelles et l'archéologie décrit une évolution plus progressive.
+
+La République romaine n'était pas une démocratie : le vote y était pondéré par la fortune. Les citoyens votaient répartis en centuries, et l'ordre de vote comme le poids de chaque centurie favoraient les plus riches — les classes supérieures votant les premières, le scrutin s'arrêtait souvent avant que les plus pauvres n'aient à s'exprimer.
+
+Deux consuls dirigeaient la République, élus pour un an, disposant chacun d'un droit de veto sur l'autre. Cette collégialité et cette annualité visaient explicitement à empêcher tout retour à la royauté — obsession fondatrice de la culture politique romaine.
+
+Le Sénat, assemblée d'anciens magistrats siégeant à vie, n'avait formellement qu'un rôle consultatif et détenait en pratique l'essentiel du pouvoir : finances, politique extérieure, religion.`],
+    ["Le conflit des ordres", `La société romaine oppose initialement les patriciens, familles détenant les magistratures et les sacerdoces, et les plébéiens, exclus du pouvoir.
+
+Le conflit des ordres, étalé sur deux siècles, se règle par une méthode singulière : la sécession. Les plébéiens quittaient collectivement la ville et cessaient de servir dans l'armée, ce qui paralysait Rome sans verser de sang. Chaque sécession arrachait une concession.
+
+Le tribun de la plèbe naît de ce mouvement : magistrat chargé de défendre les plébéiens, sa personne est déclarée sacro-sainte et il dispose d'un droit de veto sur les actes des autres magistrats. C'est une institution sans équivalent — un pouvoir de blocage confié à un représentant des dominés à l'intérieur même du système.
+
+Le conflit s'achève par l'accès des plébéiens à toutes les magistratures. Il ne produit pas l'égalité : une nouvelle élite se forme, mêlant patriciens et familles plébéiennes enrichies, et le fossé entre riches et pauvres se creuse à mesure que la conquête enrichit les premiers.`],
+    ["Conquérir la Méditerranée", `Les guerres puniques opposent Rome à Carthage, puissance commerciale phénicienne d'Afrique du Nord, entre 264 et 146 avant notre ère.
+
+La deuxième est la plus célèbre. Hannibal franchit les Alpes avec ses éléphants et écrase les armées romaines pendant quinze ans en Italie, notamment à Cannes où il détruit la plus grande armée jamais alignée par Rome par un mouvement d'encerclement toujours étudié. Il ne prend pourtant jamais Rome, faute de moyens de siège et de renforts.
+
+Scipion l'Africain met fin à la guerre en portant le conflit en Afrique : Hannibal, rappelé, est battu à Zama en 202. La troisième guerre s'achève par la destruction complète de Carthage.
+
+Ces victoires transforment Rome. L'afflux de richesses et d'esclaves ruine la petite paysannerie, qui fournissait les légions ; les grands domaines s'étendent ; et une plèbe urbaine sans terre s'accumule à Rome.
+
+La révolte de Spartacus, en 73 avant notre ère, révèle l'ampleur du système esclavagiste : un gladiateur thrace rassemble des dizaines de milliers d'esclaves et tient tête aux légions pendant deux ans avant d'être écrasé — six mille crucifiés le long de la voie Appienne.`],
+    ["La fin de la République", `Le premier triumvirat, conclu en 60 avant notre ère, est un accord privé entre César, Pompée et Crassus pour se partager le pouvoir. Il n'a aucune existence légale : trois hommes s'entendent pour contrôler les élections et les provinces, et cela suffit.
+
+C'est le symptôme du mal : les institutions républicaines, conçues pour une cité, ne peuvent plus gouverner un empire méditerranéen, et le pouvoir réel appartient aux généraux dont les armées sont loyales à leur chef plutôt qu'à l'État.
+
+César franchit le Rubicon en 49 avant notre ère avec sa légion, ce qu'aucun général n'avait le droit de faire — franchir cette rivière en armes équivalait à déclarer la guerre à la République. La formule qui lui est attribuée, « le sort en est jeté », est passée en proverbe.
+
+Il l'emporte, se fait nommer dictateur à vie, et est assassiné aux ides de mars 44 par des sénateurs se réclamant de la liberté républicaine.
+
+Leur geste ne restaure rien : il ouvre treize années de guerres civiles supplémentaires, au terme desquelles son fils adoptif Octave restera seul et fondera l'Empire. La République meurt d'avoir trop bien réussi — ses conquêtes ont créé un État que ses institutions ne savaient plus tenir.`],
+  ],
+
+  "hm2-empire-romain": [
+    ["Un régime qui ne dit pas son nom", `Octave devient le premier empereur en 27 avant notre ère sous le nom d'Auguste. Son génie politique est d'avoir maintenu toutes les apparences républicaines : le Sénat siège, les magistrats sont élus, et lui-même se présente comme le *princeps*, le premier des citoyens.
+
+Il concentre en réalité les pouvoirs par le cumul de fonctions républicaines — imperium sur les provinces frontalières où stationnent les légions, puissance tribunicienne, grand pontificat. Aucune loi ne crée l'Empire ; il naît d'un empilement de prérogatives légales.
+
+Cette fiction durera. Les empereurs continueront pendant des siècles de dater leur pouvoir en années de puissance tribunicienne, comme des magistrats républicains.
+
+La Pax Romana désigne les deux siècles de stabilité relative qui suivent, du règne d'Auguste à celui de Marc Aurèle. La Méditerranée est un lac romain, le commerce circule sans entrave, les villes se développent partout. Ce n'est pas une paix universelle — les frontières sont constamment en guerre — mais une paix intérieure sans équivalent avant l'époque contemporaine.`],
+    ["Étendre et fixer", `L'Empire atteint son extension maximale sous Trajan, au début du IIe siècle, avec la conquête de la Dacie et une expédition en Mésopotamie. Il couvre alors environ cinq millions de kilomètres carrés et compte peut-être soixante millions d'habitants.
+
+Son successeur Hadrien renonce aux conquêtes orientales et fixe les frontières. Il fait construire au nord de la Bretagne romaine un mur de cent dix-sept kilomètres, avec forts et tours, qui matérialise la limite de l'Empire.
+
+Ce choix marque un tournant doctrinal : Rome cesse de croître et passe à une posture défensive. Le limes — frontière fortifiée — devient un objet permanent d'entretien et de coût.
+
+L'édit de Caracalla, en 212, accorde la citoyenneté romaine à presque tous les hommes libres de l'Empire. La mesure est probablement fiscale — les citoyens payaient certains impôts dont les autres étaient exempts — mais sa portée est considérable : elle achève un processus d'intégration commencé quatre siècles plus tôt, et fait disparaître la distinction entre conquérants et conquis.`,
+      { image: "hm-colisee", legende: "Le Colisée : cinquante mille spectateurs, entrée gratuite, et un instrument politique autant qu'un divertissement.", alt: "Le Colisée à Rome" }],
+    ["Réorganiser un empire en crise", `Le IIIe siècle est celui d'une crise générale : invasions sur toutes les frontières, empereurs proclamés et assassinés par leurs troupes — une cinquantaine en cinquante ans —, effondrement monétaire, épidémies, repli des villes derrière des remparts.
+
+Dioclétien réorganise l'Empire en 293 par la tétrarchie : quatre gouvernements, deux augustes et deux césars, chacun responsable d'une portion du territoire, avec un mécanisme de succession programmée. Le système résout le problème de la défense et échoue sur celui de la succession dès sa disparition.
+
+Constantin réunifie l'Empire, se convertit au christianisme et fait de Byzance sa capitale en 330, rebaptisée Constantinople. Le déplacement est stratégique : la ville contrôle les détroits, est facile à défendre, et se situe près des frontières orientales, alors les plus riches et les plus menacées.
+
+Théodose fait du christianisme la religion officielle en 380 et interdit les cultes traditionnels. En un siècle, une religion persécutée est devenue seule autorisée — retournement dont les conséquences dépassent de loin l'histoire romaine.
+
+À sa mort en 395, l'Empire est partagé entre ses deux fils, partage qui deviendra définitif.`],
+    ["Une chute très discutée", `En 476, le dernier empereur d'Occident, Romulus Augustule, est déposé par le chef germanique Odoacre, qui renvoie les insignes impériaux à Constantinople et gouverne l'Italie en son nom.
+
+L'événement fut peu remarqué par les contemporains : il n'y eut ni bataille ni rupture visible, et l'administration romaine continua de fonctionner. Sa qualification de fin de l'Empire est une construction d'historiens postérieurs.
+
+Les causes de l'effondrement occidental font l'objet d'un débat continu depuis Gibbon. Les historiens retiennent un faisceau : pression militaire des peuples eux-mêmes poussés par les migrations venues d'Asie centrale, coût insoutenable de la défense, crise fiscale et monétaire, dépeuplement, dépendance croissante à des troupes fédérées dont la loyauté était incertaine, et instabilité politique chronique.
+
+Aucune de ces causes ne suffit seule, et les explications monocausales — la décadence morale, le christianisme, le plomb des canalisations — ont toutes été écartées.
+
+Surtout, l'Empire ne tombe pas en 476 : sa moitié orientale survit encore mille ans, jusqu'en 1453. Ses habitants se sont appelés Romains jusqu'au bout, et c'est nous qui les nommons Byzantins.`],
+  ],
+
+  "hm4-empire-byzantin": [
+    ["Mille ans de plus", `L'Empire romain d'Orient a survécu mille ans à la chute de Rome. C'est le fait le plus mal connu de l'histoire européenne, et il tient à un décalage de vocabulaire : le mot « byzantin » est une invention d'érudits du XVIe siècle. Les intéressés se nommaient Romains, et leurs voisins aussi.
+
+Constantinople est fondée comme capitale en 330 par Constantin, sur le site de l'ancienne Byzance. Sa position lui donne des avantages décisifs : elle contrôle le passage entre Méditerranée et mer Noire, elle est protégée par la mer sur trois côtés, et ses murailles terrestres, achevées au Ve siècle, resteront imprenables pendant mille ans.
+
+L'Orient dispose en outre d'une base fiscale bien supérieure à l'Occident — Égypte, Syrie, Asie Mineure — ce qui lui permet d'entretenir armée et administration là où l'Occident s'effondrait.
+
+L'Empire parle grec, se pense romain, et professe un christianisme dont l'empereur est le protecteur.`],
+    ["Justinien", `Justinien, au VIe siècle, entreprend de reconquérir l'Occident perdu. Ses généraux reprennent l'Afrique du Nord aux Vandales, l'Italie aux Ostrogoths et une partie de l'Espagne.
+
+L'entreprise épuise l'Empire pour un résultat éphémère : les conquêtes italiennes seront perdues en une génération, et l'effort financier et militaire affaiblit durablement les défenses orientales.
+
+Son œuvre durable est ailleurs. Le Code Justinien, plus exactement le *Corpus juris civilis*, compile et ordonne le droit romain accumulé depuis des siècles : le Code rassemble les constitutions impériales, le Digeste les avis des jurisconsultes, les Institutes servent de manuel.
+
+Redécouvert en Italie au XIe siècle, ce corpus a fondé l'enseignement du droit dans les universités médiévales et, par elles, la tradition juridique de l'Europe continentale. Le Code civil français en descend directement.
+
+Sainte-Sophie, construite en cinq ans sous son règne, est un exploit technique : sa coupole de trente et un mètres de diamètre repose sur des pendentifs qui reportent le poids sur quatre piliers, solution nouvelle qui donne l'impression d'un dôme suspendu. Elle restera pendant près de mille ans la plus grande église du monde.`],
+    ["Croire et se diviser", `La querelle des images, aux VIIIe et IXe siècles, oppose les partisans des icônes et ceux qui les jugent idolâtres. Deux périodes iconoclastes voient la destruction d'un grand nombre d'œuvres et la persécution des moines qui les défendaient.
+
+Le conflit est théologique — peut-on représenter le divin ? — et politique, l'empereur y affirmant son autorité sur l'Église. Il se conclut par la victoire des partisans des images, dont le triomphe est encore célébré dans la liturgie orthodoxe.
+
+Le schisme de 1054 divise la chrétienté entre Rome et Constantinople. Ses causes s'accumulent depuis des siècles : divergence sur l'autorité du pape, sur une formule du Credo, sur des usages liturgiques, et surtout éloignement linguistique et politique.
+
+L'excommunication mutuelle de 1054 fut sur le moment un incident diplomatique parmi d'autres ; c'est rétrospectivement qu'elle est devenue la date de la rupture. Les excommunications ont été levées en 1965, sans que l'unité soit rétablie.
+
+Le feu grégeois est une arme incendiaire navale dont la composition exacte reste inconnue — un mélange projeté par siphon, qui brûlait sur l'eau et que l'eau n'éteignait pas. Il a sauvé Constantinople de plusieurs sièges arabes, et son secret était si bien gardé qu'il s'est perdu.`],
+    ["La chute et l'héritage", `La quatrième croisade, en 1204, devait reprendre Jérusalem. Détournée par les intérêts vénitiens et par une querelle dynastique byzantine, elle aboutit au sac de Constantinople par les croisés : trois jours de pillage, destruction ou vol d'une part immense du patrimoine antique, et installation d'un empire latin qui durera cinquante-sept ans.
+
+C'est le coup dont l'Empire ne se relèvera pas. Restauré en 1261, il n'est plus qu'une puissance régionale amputée, entourée par les Ottomans.
+
+Constantinople tombe le 29 mai 1453, après un siège de deux mois où l'artillerie ottomane, servie par des canons d'une taille inédite, finit par ouvrir les murailles. Le dernier empereur meurt les armes à la main. La ville devient la capitale ottomane, et Sainte-Sophie une mosquée.
+
+L'héritage byzantin est considérable et souvent invisible. Il a transmis le droit romain à l'Europe, conservé et copié la littérature grecque antique — l'essentiel de ce que nous avons de Platon, d'Homère et des tragiques vient de manuscrits byzantins —, christianisé les Slaves en leur donnant un alphabet, et servi de rempart pendant huit siècles.
+
+La fuite des savants byzantins vers l'Italie après 1453 a par ailleurs nourri la Renaissance, en y apportant des textes grecs que l'Occident ne connaissait que par des traductions arabes.`],
+  ],
+
+  "hm4-inde-ancienne": [
+    ["Une civilisation muette", `La civilisation de l'Indus est l'une des trois grandes civilisations urbaines primitives, avec la Mésopotamie et l'Égypte, et la plus étendue des trois. Elle se développe dans le bassin de l'Indus, dans l'actuel Pakistan et le nord-ouest de l'Inde, au IIIe millénaire avant notre ère.
+
+Ses villes — Mohenjo-daro, Harappa — présentent un urbanisme planifié saisissant : plan orthogonal, briques cuites de dimensions standardisées, greniers, bains publics, et surtout un réseau d'évacuation des eaux usées avec canalisations couvertes et puits, dont aucune autre civilisation ancienne n'offre l'équivalent.
+
+Aucun palais ni temple monumental n'a été identifié, ni aucune représentation de souverain ou de scène guerrière — ce qui distingue nettement cette civilisation des deux autres et rend son organisation politique énigmatique.
+
+Son écriture n'a jamais été déchiffrée. Les inscriptions connues sont très courtes, quelques signes sur des sceaux, sans texte bilingue comparable à la pierre de Rosette. On ignore donc même la famille linguistique de cette langue, et l'essentiel de cette civilisation nous reste inaccessible.`],
+    ["Les textes et les empires", `La période védique succède au déclin de l'Indus. Elle tire son nom des Veda, ensemble de textes religieux composés en sanskrit et transmis oralement avec une exactitude extraordinaire — des générations de récitants les ont conservés mot à mot bien avant leur mise par écrit.
+
+Cette transmission orale explique un paradoxe : l'Inde ancienne dispose d'une littérature immense et de très peu de documents datables, l'écrit n'étant pas le support de la mémoire savante.
+
+Chandragupta Maurya fonde vers 320 avant notre ère le premier grand empire indien, en profitant du vide laissé par le retrait d'Alexandre. Son petit-fils Ashoka règne sur presque tout le sous-continent.
+
+Ashoka se convertit au bouddhisme après la conquête sanglante du Kalinga, dont il dit lui-même le remords. Il fait graver ses édits sur des piliers et des rochers dans tout l'empire, en plusieurs langues et alphabets : ils prônent la non-violence, la tolérance religieuse, le respect des animaux, et annoncent la création d'hôpitaux et de puits.
+
+Ces inscriptions sont les plus anciens documents écrits déchiffrables de l'histoire indienne, et leur déchiffrement au XIXe siècle a fait réapparaître un souverain que la tradition avait oublié. Le chapiteau aux lions d'un de ses piliers est aujourd'hui l'emblème de la République indienne.`],
+    ["L'âge classique", `L'empire gupta, du IVe au VIe siècle, est considéré comme l'âge classique de l'Inde. Le pouvoir y est moins centralisé que sous les Maurya, avec de nombreux royaumes vassaux, et cette souplesse s'accompagne d'un épanouissement culturel remarquable.
+
+C'est la période de Kalidasa en littérature, de la fixation des grandes épopées, de l'architecture des temples et des peintures d'Ajanta.
+
+L'apport scientifique est considérable. La numération de position et le zéro comme nombre à part entière — et non comme simple absence — sont mis au point en Inde à cette époque. Aryabhata, au Ve siècle, calcule une valeur de pi exacte à quatre décimales, propose que la Terre tourne sur elle-même et explique correctement les éclipses.
+
+Ces découvertes passent aux mathématiciens arabes, qui les transmettent à l'Europe — d'où le nom trompeur de « chiffres arabes », que les Arabes eux-mêmes appelaient chiffres indiens. Sans elles, ni le calcul moderne ni l'algèbre ne seraient possibles.
+
+Le bouddhisme, né en Inde au VIe siècle avant notre ère, s'y diffuse puis décline, tout en se répandant hors du sous-continent par les routes commerciales — vers l'Asie centrale, la Chine, la Corée et le Japon. Il finira par pratiquement disparaître de son pays d'origine tout en devenant l'une des grandes religions d'Asie.`],
+  ],
 };
