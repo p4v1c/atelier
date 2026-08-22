@@ -584,13 +584,65 @@
      seule, et c'est la page qui reprend le défilement. */
   .scene { height: auto; min-height: 0; overflow: visible; }
   .plateau, .plateau.avec-rail, .plateau.avec-rail > .principal,
+  .plateau.avec-rail > .manuel-colonne,
   .plateau.avec-rail > .rail, .deux-volets, .deux-volets > .volet-liste,
   .deux-volets > .volet-liste > .liste-points, .deux-volets > .volet-fiche {
     overflow: visible;
   }
   .flanc { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--encre-3); }
-  .flanc-matieres { flex-direction: row; overflow-x: auto; padding-bottom: 12px; }
-  .matiere-lien { white-space: nowrap; }
+
+  /* Le flanc devient un bandeau : la marque se resserre, le mot « matières »
+     disparaît — cinq noms de matières en file n'ont pas besoin qu'on les
+     annonce — et la liste passe en rail horizontal. Sans le flex:none, chaque
+     matière se laisse comprimer sous son texte et les cinq noms se
+     chevauchent. */
+  .flanc-marque { padding: 16px 18px 14px; }
+  .flanc-marque h1 { font-size: 21px; }
+  .flanc-marque .sous { display: none; }
+  .flanc-titre { display: none; }
+  .flanc-matieres {
+    flex: none;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 4px;
+    padding: 10px 12px;
+    scrollbar-width: none;
+  }
+  .flanc-matieres::-webkit-scrollbar { display: none; }
+  .matiere-lien {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    display: flex;
+    align-items: baseline;
+    gap: 7px;
+    padding: 7px 12px 6px;
+    border-left: 0;
+    border-bottom: 2px solid transparent;
+    border-radius: 3px 3px 0 0;
+  }
+  .matiere-lien.active { border-left-color: transparent; border-bottom-color: var(--or); }
+  .matiere-lien .nom { font-size: 15px; padding-bottom: 4px; }
+  .flanc-pied { padding: 10px 18px 12px; flex-direction: row; flex-wrap: wrap; gap: 16px; }
+
+  /* La barre de scène tenait sur trois lignes : le fil, les onglets, le
+     compte. Le fil et le compte partagent maintenant la première, les onglets
+     prennent la seconde et défilent s'ils débordent. Six cents pixels de
+     chrome avant le contenu, sur un écran qui en fait huit cents, c'est la
+     moitié de l'écran perdue. */
+  .coque-barre { gap: 8px 14px; padding: 10px 16px; }
+  .fil-ariane { font-size: 10px; }
+  .coque-fin { font-size: 10px; }
+  .onglets {
+    order: 3;
+    flex-basis: 100%;
+    gap: 2px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scrollbar-width: none;
+  }
+  .onglets::-webkit-scrollbar { display: none; }
+  .onglet { font-size: 10.5px; padding: 6px 9px 5px; white-space: nowrap; }
 }
 
 /* Les puces de filtre, dans les volets. */
@@ -760,11 +812,33 @@
 .plateau { overflow-y: auto; }
 .plateau.avec-rail { overflow: hidden; }
 .plateau.avec-rail > .principal,
+.plateau.avec-rail > .manuel-colonne,
 .plateau.avec-rail > .rail { overflow-y: auto; }
 .deux-volets { overflow: hidden; }
 .deux-volets > .volet-liste { display: flex; flex-direction: column; min-height: 0; }
 .deux-volets > .volet-liste > .liste-points { overflow-y: auto; min-height: 0; }
 .deux-volets > .volet-fiche { display: flex; flex-direction: column; overflow-y: auto; }
+
+/* Sur téléphone, c'est la PAGE qui défile, et non chaque colonne pour son
+   compte : sur un écran étroit, deux zones de défilement imbriquées rendent
+   le geste imprévisible, et une colonne haute de trois cents pixels ne se lit
+   pas. Le bloc de la ligne 586 le disait déjà ; il était écrit avant celui
+   ci-dessus, à spécificité égale, et se faisait donc écraser depuis. Le
+   voici après, où il agit. */
+@media (max-width: 780px) {
+  .scene { height: auto; min-height: 0; overflow: visible; }
+  .plateau,
+  .plateau.avec-rail,
+  .plateau.avec-rail > .principal,
+  .plateau.avec-rail > .manuel-colonne,
+  .plateau.avec-rail > .rail,
+  .deux-volets,
+  .deux-volets > .volet-liste,
+  .deux-volets > .volet-liste > .liste-points,
+  .deux-volets > .volet-fiche {
+    overflow: visible;
+  }
+}
 
 /* ═══════════════════════════════════════════════════════════════════════
    MON COMPTE

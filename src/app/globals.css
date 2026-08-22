@@ -244,53 +244,187 @@
 }
 
 /* ═══════════════════════════════════════════════════════════════════════
-   LEÇONS
-   ═══════════════════════════════════════════════════════════════════════ */
+   LEÇONS — la page de manuel
+   ═══════════════════════════════════════════════════════════════════════
 
-.lecon { max-width: 100%; }
-.lecon > header { margin-bottom: 34px; }
-.lecon h2 {
+   Un cours ne se lit pas comme une interface : il se lit comme une page
+   imprimée. D'où le renversement de valeurs ici — encre sombre sur papier
+   crème, au milieu d'une coque qui reste nuit. Le papier n'est pas une
+   couleur choisie pour la leçon : ce sont les jetons --exo-*, ceux de la
+   surface d'exercice. Le cours et le cahier tiennent sur la même feuille.
+
+   Les codes repris du manuel scolaire sont ceux que tout le monde reconnaît
+   sans les avoir appris : parties numérotées, lettrine d'ouverture, documents
+   appelés « Doc. 1 », repères en tête de chapitre, encadré et colophon de
+   fin. On s'arrête là. La critique la mieux établie des manuels réels est
+   qu'ils empilent tant de signaux de distinction — jusqu'à dix styles de
+   caractère sur une double page — que la lecture s'y perd ; ici il n'y a
+   qu'un seul chemin, du haut vers le bas.
+
+   Deux familles seulement : Bodoni Moda pour le texte de la leçon, à son
+   dessin de labeur (l'axe optique de la fonte descend jusqu'au corps 6), et
+   Karla pour tout l'appareil — étiquettes, tableaux, notes. C'est le partage
+   de n'importe quel manuel. */
+
+/* La colonne de lecture défile pour son compte, comme le rail : elle doit
+   donc pouvoir rétrécir sous la hauteur de son contenu, ce qu'un enfant de
+   grille refuse par défaut. Sans ce min-height, la page entière déborde du
+   plateau et plus rien ne défile. */
+.manuel-colonne { min-width: 0; min-height: 0; padding: 26px; }
+
+/* Le filet d'avancée : combien de page reste-t-il ? Il ne dit rien d'autre,
+   et se tient là où l'œil revient de toute façon. */
+.manuel-progression {
+  position: sticky; top: 0; z-index: 4;
+  height: 2px; background: var(--encre-3); border-radius: 2px;
+  margin: -6px 0 18px; overflow: hidden;
+}
+.manuel-progression i {
+  display: block; height: 100%; background: var(--seyes);
+  transform-origin: left center; transform: scaleX(0);
+  transition: transform .12s linear;
+}
+
+.manuel {
+  position: relative;
+  max-width: 820px; margin: 0 auto; padding: clamp(30px, 5vw, 64px) clamp(24px, 5vw, 62px) 48px;
+  background: var(--exo-fond); color: var(--exo-encre);
+  border-radius: 2px;
+  box-shadow: 0 22px 46px -22px rgba(0, 0, 0, .7);
+
+  /* La palette de la page. Le rouge n'est pas celui du module : sur crème,
+     l'accent d'un module clair tombe sous le seuil de lisibilité. Celui-ci
+     est le rouge d'imprimerie des manuels d'histoire, à 6:1 sur le papier. */
+  --m-accent: #9e2b25;
+  --m-filet: rgba(29, 24, 54, .16);
+  --m-doc: rgba(255, 255, 255, .55);
+}
+/* La marge du typographe : un filet vertical, à gauche, là où le manuel
+   imprimé laisse respirer la page. Décoratif, et seulement au large. */
+.manuel::before {
+  content: ""; position: absolute; top: 0; bottom: 0; left: 26px;
+  width: 1px; background: var(--m-filet); opacity: .55;
+}
+
+/* ── ouverture de chapitre ── */
+
+.manuel-ouverture { margin-bottom: 42px; }
+.manuel-eyebrow {
+  font-family: "IBM Plex Mono", monospace; font-size: 10.5px; letter-spacing: .18em;
+  text-transform: uppercase; color: var(--m-accent); font-weight: 600; margin: 0 0 12px;
+}
+.manuel-eyebrow .sep { opacity: .5; margin: 0 4px; }
+.manuel h2 {
   font-family: "Bodoni Moda", Georgia, serif; font-weight: 400;
-  font-size: clamp(26px, 4.5vw, 34px); line-height: 1.15; margin: 0 0 8px;
+  font-size: clamp(30px, 5vw, 46px); line-height: 1.08; margin: 0 0 26px;
+  color: var(--exo-encre); text-wrap: balance;
+}
+
+/* Les repères : ce que la page contient, avant d'y entrer. */
+.manuel-reperes {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(96px, 1fr)); margin: 0;
+  border-top: 1px solid var(--m-filet); border-bottom: 1px solid var(--m-filet);
+}
+.manuel-reperes > div { padding: 13px 18px 13px 0; }
+.manuel-reperes dt {
+  font-size: 10px; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--exo-attenue); font-weight: 700; margin-bottom: 5px;
+}
+.manuel-reperes dd {
+  margin: 0; font-family: "Bodoni Moda", Georgia, serif; font-size: 22px;
+  line-height: 1; color: var(--exo-encre); font-variant-numeric: tabular-nums;
+}
+.manuel-reperes dd.pastilles { font-family: inherit; font-size: 12px; color: var(--m-accent); letter-spacing: .18em; }
+
+/* Le plan replié : il remplace le rail là où le rail n'a plus de place. */
+.manuel-plan { display: none; margin-top: 20px; }
+.manuel-plan > summary {
+  font-family: "IBM Plex Mono", monospace; font-size: 10.5px; letter-spacing: .16em;
+  text-transform: uppercase; font-weight: 600; color: var(--m-accent);
+  cursor: pointer; padding: 10px 0; list-style: none;
+}
+.manuel-plan > summary::-webkit-details-marker { display: none; }
+.manuel-plan > summary::after { content: " ▾"; opacity: .6; }
+.manuel-plan[open] > summary::after { content: " ▴"; }
+.manuel-plan ol {
+  margin: 4px 0 0; padding: 0 0 0 22px;
+  display: flex; flex-direction: column; gap: 9px;
+}
+.manuel-plan li { font-size: 14.5px; line-height: 1.4; }
+.manuel-plan li::marker { color: var(--m-accent); font-family: "Bodoni Moda", Georgia, serif; }
+.manuel-plan a { color: var(--exo-encre); text-underline-offset: 3px; }
+.manuel-plan a:hover { color: var(--m-accent); }
+
+/* ── parties ── */
+
+.manuel-partie { margin-bottom: 44px; scroll-margin-top: 24px; }
+.manuel-partie h3 {
+  display: flex; align-items: baseline; gap: 16px;
+  margin: 0 0 18px; padding-bottom: 10px;
+  border-bottom: 1px solid var(--m-filet);
+}
+.manuel-num::after { content: "."; }
+.manuel-num {
+  font-family: "Bodoni Moda", Georgia, serif; font-size: 34px; line-height: .9;
+  color: var(--m-accent); font-weight: 400; flex: none;
+  font-variant-numeric: lining-nums;
+}
+.manuel-titre-partie {
+  font-family: "Bodoni Moda", Georgia, serif; font-weight: 400;
+  font-size: clamp(19px, 2.6vw, 24px); line-height: 1.2;
+  color: var(--exo-encre); text-transform: none; letter-spacing: 0;
   text-wrap: balance;
 }
-.lecon section { margin-bottom: 38px; }
-.lecon h3 {
-  font-size: 11.5px; letter-spacing: .16em; text-transform: uppercase;
-  font-weight: 700; color: var(--mauve); margin: 0 0 14px;
-}
-.lecon p { font-size: 15.5px; line-height: 1.75; margin: 0 0 15px; max-width: 68ch; }
-.lecon .sources ul { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; }
-.lecon .sources a { color: var(--mauve); }
 
-/* ── visuels ── */
+.manuel p {
+  font-family: "Bodoni Moda", Georgia, serif; font-optical-sizing: auto;
+  font-size: 17.5px; line-height: 1.72; margin: 0 0 16px;
+  max-width: 66ch; color: var(--exo-encre); hyphens: auto;
+}
+
+/* La lettrine ouvre le chapitre, une seule fois. */
+.manuel p.lettrine::first-letter {
+  float: left; font-family: "Bodoni Moda", Georgia, serif; font-weight: 500;
+  font-size: 3.6em; line-height: .82; padding: .06em .09em 0 0;
+  color: var(--m-accent);
+}
+
+/* ── documents ── */
 
 .visuel {
-  margin: 24px 0; padding: 20px 22px;
-  background: var(--encre-2); border: 1px solid var(--encre-3); border-radius: 4px;
+  margin: 28px 0; padding: 20px 22px;
+  background: var(--m-doc); border: 1px solid var(--m-filet); border-radius: 3px;
+  border-top: 2px solid var(--m-accent);
 }
 .visuel > figcaption {
-  font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase;
-  font-weight: 700; color: var(--mauve); margin-bottom: 16px;
+  display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap;
+  margin-bottom: 16px; padding-bottom: 10px; border-bottom: 1px solid var(--m-filet);
 }
-.visuel .note { font-size: 12.5px; color: var(--mauve); margin: 14px 0 0; font-style: italic; }
+.visuel .doc-num {
+  font-family: "IBM Plex Mono", monospace; font-size: 10.5px; letter-spacing: .1em;
+  text-transform: uppercase; font-weight: 600; color: var(--m-accent); white-space: nowrap;
+}
+.visuel .doc-titre {
+  font-size: 13.5px; line-height: 1.4; font-weight: 700; color: var(--exo-encre);
+}
+.visuel .note { font-size: 12.5px; color: var(--exo-attenue); margin: 14px 0 0; font-style: italic; }
 .visuel ul, .visuel ol { list-style: none; margin: 0; padding: 0; }
-.visuel .label { font-weight: 700; }
-.visuel .detail { font-size: 13.5px; color: var(--mauve); line-height: 1.6; }
+.visuel .label { font-weight: 700; color: var(--exo-encre); }
+.visuel .detail { font-size: 13.5px; color: var(--exo-encre-2); line-height: 1.6; }
 
 /* frise : une colonne de dates, un filet, le récit à droite */
 .frise ol { display: flex; flex-direction: column; gap: 0; }
 .frise li {
-  display: grid; grid-template-columns: 74px 1fr; gap: 18px;
-  padding: 12px 0 12px 0; border-left: 1px solid var(--encre-3); margin-left: 6px;
+  display: grid; grid-template-columns: 78px 1fr; gap: 18px;
+  padding: 12px 0; border-left: 1px solid var(--m-filet); margin-left: 6px;
   padding-left: 18px; position: relative;
 }
 .frise li::before {
   content: ""; position: absolute; left: -4px; top: 19px;
-  width: 7px; height: 7px; border-radius: 50%; background: var(--or);
+  width: 7px; height: 7px; border-radius: 50%; background: var(--m-accent);
 }
 .frise .date {
-  font-family: "Bodoni Moda", Georgia, serif; font-size: 17px; color: var(--or);
+  font-family: "Bodoni Moda", Georgia, serif; font-size: 17px; color: var(--m-accent);
   font-variant-numeric: tabular-nums;
 }
 .frise li > .label, .frise li > .detail { grid-column: 2; }
@@ -298,8 +432,8 @@
 .chiffres ul { display: flex; flex-wrap: wrap; gap: 26px; }
 .chiffres li { flex: 1 1 150px; display: flex; flex-direction: column; gap: 5px; }
 .chiffres b {
-  font-family: "Bodoni Moda", Georgia, serif; font-size: 30px; line-height: 1;
-  color: var(--or); font-variant-numeric: tabular-nums;
+  font-family: "Bodoni Moda", Georgia, serif; font-size: 32px; line-height: 1;
+  color: var(--m-accent); font-variant-numeric: tabular-nums; font-weight: 500;
 }
 
 .etapes ol { counter-reset: etape; display: flex; flex-direction: column; gap: 16px; }
@@ -309,48 +443,136 @@
 }
 .etapes li::before {
   content: counter(etape); position: absolute; left: 0; top: 0;
-  font-family: "Bodoni Moda", Georgia, serif; font-size: 19px; color: var(--or);
+  font-family: "Bodoni Moda", Georgia, serif; font-size: 19px; color: var(--m-accent);
 }
 
 /* Un tableau large défile dans son cadre ; la page ne bouge pas. */
 .tableau .defilant { overflow-x: auto; }
+.defilant-indice { display: none; }
 .tableau table { border-collapse: collapse; width: 100%; font-size: 14px; min-width: 420px; }
 .tableau th {
   text-align: left; font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase;
-  color: var(--mauve); font-weight: 700; padding: 0 16px 10px 0;
-  border-bottom: 1px solid var(--encre-3); white-space: nowrap;
+  color: var(--exo-attenue); font-weight: 700; padding: 0 16px 10px 0;
+  border-bottom: 1px solid var(--m-filet); white-space: nowrap;
 }
-.tableau td { padding: 11px 16px 11px 0; border-bottom: 1px solid var(--encre-3); vertical-align: top; }
+.tableau td {
+  padding: 11px 16px 11px 0; border-bottom: 1px solid var(--m-filet);
+  vertical-align: top; color: var(--exo-encre);
+}
+.tableau tbody tr:nth-child(even) { background: rgba(29, 24, 54, .035); }
 .tableau tr:last-child td { border-bottom: 0; }
 
 .barres ul { display: flex; flex-direction: column; gap: 11px; }
 .barres li { display: grid; grid-template-columns: minmax(90px, 1fr) 2fr auto; gap: 14px; align-items: center; }
-.barres .piste { height: 8px; background: var(--encre-3); border-radius: 4px; overflow: hidden; }
-.barres .remplissage { display: block; height: 100%; background: var(--or); }
-.barres .valeur { font-variant-numeric: tabular-nums; font-size: 13.5px; color: var(--mauve); }
+.barres .piste { height: 9px; background: rgba(29, 24, 54, .1); border-radius: 4px; overflow: hidden; }
+.barres .remplissage { display: block; height: 100%; background: var(--m-accent); opacity: .85; }
+.barres .valeur { font-variant-numeric: tabular-nums; font-size: 13.5px; color: var(--exo-encre-2); }
 
 .comparaison .colonnes { display: flex; flex-wrap: wrap; gap: 26px; }
 .comparaison .colonnes > div { flex: 1 1 220px; }
 .comparaison h4 {
   font-size: 11px; letter-spacing: .14em; text-transform: uppercase;
-  color: var(--mauve); margin: 0 0 10px; font-weight: 700;
+  color: var(--m-accent); margin: 0 0 10px; font-weight: 700;
 }
 .comparaison ul { display: flex; flex-direction: column; gap: 8px; }
-.comparaison li { font-size: 14px; line-height: 1.6; padding-left: 16px; position: relative; }
+.comparaison li { font-size: 14px; line-height: 1.6; padding-left: 16px; position: relative; color: var(--exo-encre); }
 .comparaison li::before {
   content: ""; position: absolute; left: 0; top: .62em;
-  width: 5px; height: 5px; border-radius: 50%; background: var(--or);
+  width: 5px; height: 5px; border-radius: 50%; background: var(--m-accent);
 }
 
 .visuel.image { padding: 0; overflow: hidden; }
 .visuel.image img { display: block; width: 100%; height: auto; }
 .visuel.image figcaption {
-  padding: 12px 18px; font-size: 12.5px; color: var(--mauve); font-style: italic;
+  padding: 12px 18px; border-bottom: 0; margin-bottom: 0;
+}
+.visuel.image .doc-titre { font-weight: 400; font-style: italic; color: var(--exo-encre-2); }
+
+/* ── fin de chapitre ── */
+
+.manuel-encadre {
+  margin: 40px 0 0; padding: 22px 24px;
+  background: rgba(158, 43, 37, .06);
+  border-left: 3px solid var(--m-accent); border-radius: 0 3px 3px 0;
+}
+.manuel-encadre h3 {
+  font-size: 10.5px; letter-spacing: .16em; text-transform: uppercase;
+  font-weight: 700; color: var(--m-accent); margin: 0 0 12px;
+}
+.manuel-encadre ul { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; }
+.manuel-encadre a { color: var(--exo-encre); font-size: 14.5px; text-underline-offset: 3px; }
+.manuel-encadre a:hover { color: var(--m-accent); }
+
+.manuel-colophon {
+  margin: 44px 0 0; text-align: center;
+  font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: .22em;
+  text-transform: uppercase; color: var(--exo-attenue);
+}
+.manuel-colophon::before,
+.manuel-colophon::after { content: "—"; margin: 0 12px; opacity: .5; }
+
+/* Les actions sous la page : elles ne servent qu'au format téléphone, où le
+   rail n'existe plus. Au large, le rail les porte déjà. */
+.manuel-fin { display: none; margin-top: 34px; gap: 10px; flex-direction: column; }
+.manuel-fin .plein { background: var(--exo-plein-fond); color: var(--exo-plein-encre); }
+.manuel-fin .plein:hover { background: var(--m-accent); }
+.manuel-fin .creux { color: var(--exo-encre); border-color: var(--m-filet); }
+.manuel-fin .creux:hover { border-color: var(--m-accent); color: var(--m-accent); }
+.manuel-fin .alerte {
+  background: rgba(158, 43, 37, .08); border-left-color: var(--m-accent); color: var(--exo-encre);
+}
+
+/* ── le sommaire du rail ── */
+
+.manuel-sommaire a {
+  display: grid; grid-template-columns: 22px 1fr; gap: 10px; align-items: baseline;
+}
+.manuel-sommaire .n {
+  font-family: "Bodoni Moda", Georgia, serif; font-size: 15px; line-height: 1.2;
+  color: var(--mauve-2); font-variant-numeric: tabular-nums;
+}
+.manuel-sommaire a.actif { color: var(--papier); border-left-color: var(--or); }
+.manuel-sommaire a.actif .n { color: var(--or); }
+
+@media (max-width: 1080px) {
+  /* Le rail passerait sous la page, où un sommaire n'a plus d'usage : on le
+     retire, et la page reprend le plan en tête et les actions en pied. C'est
+     le même seuil que celui de la coque, pour qu'il n'y ait jamais un état
+     intermédiaire où les deux boutons existent en double. */
+  .plateau.avec-rail.lecon-plateau > .rail { display: none; }
+  .manuel-plan { display: block; }
+  .manuel-fin { display: flex; }
+}
+
+@media (max-width: 900px) {
+  /* Sur téléphone la page prend toute la largeur : plus de marge de
+     typographe, plus d'ombre portée, les documents vont bord à bord. */
+  .manuel-colonne { padding: 14px 0 0; }
+  .manuel {
+    border-radius: 0; box-shadow: none;
+    padding: 26px 20px 40px; max-width: none;
+  }
+  .manuel::before { display: none; }
+  .manuel-progression { margin: 0 0 14px; }
+  .manuel p { font-size: 17px; max-width: none; }
+  /* Trois colonnes, et non quatre : à quatre, le cinquième repère reste seul
+     sur sa ligne. À trois, la seconde ligne en porte deux. */
+  .manuel-reperes { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .manuel-reperes > div { padding-right: 12px; }
+  .visuel { margin-left: -20px; margin-right: -20px; border-radius: 0; border-left: 0; border-right: 0; }
+  .defilant-indice {
+    display: block; margin: 10px 0 0; padding: 0 22px;
+    font-size: 11.5px; font-style: italic; color: var(--exo-attenue);
+  }
+  .visuel.image { margin-left: -20px; margin-right: -20px; }
 }
 
 @media (max-width: 560px) {
-  .frise li { grid-template-columns: 60px 1fr; gap: 12px; }
+  .frise li { grid-template-columns: 62px 1fr; gap: 12px; }
   .barres li { grid-template-columns: 1fr; gap: 5px; }
+  .manuel h2 { font-size: clamp(26px, 7.5vw, 34px); }
+  .manuel-num { font-size: 28px; }
+  .manuel p.lettrine::first-letter { font-size: 3.1em; }
 }
 
 /* ═══════════════════════════════════════════════════════════════════════
