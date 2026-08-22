@@ -704,4 +704,123 @@ La convention de Ramsar, signée en 1971 dans la ville iranienne du même nom, e
 
 Or ces milieux rendent des services considérables : épuration naturelle, écrêtement des crues, soutien des étiages, réserves de biodiversité, stockage de carbone. Longtemps perçues comme des terres perdues et insalubres — le vocabulaire l'atteste, marais et marécage étant péjoratifs dans toutes les langues européennes —, elles font l'objet depuis peu de programmes de restauration qui coûtent infiniment plus cher que ne l'aurait coûté leur préservation.`],
   ],
+
+  "sv3-agriculture-biologie": [
+    ["Faire travailler le vivant", `La lutte biologique utilise des organismes vivants pour contrôler des ravageurs, au lieu de molécules de synthèse. Elle prend trois formes : introduire un ennemi naturel absent, en lâcher massivement une population élevée en insectarium, ou aménager le milieu pour favoriser ceux qui sont déjà là.
+
+Un auxiliaire de culture est précisément cet organisme utile : coccinelle et syrphe consommant les pucerons, chrysope, carabe du sol, trichogramme parasitant les œufs de pyrale du maïs, mésange dévorant les chenilles. Leur efficacité dépend de la présence d'abris et de ressources hors période de culture — haies, bandes fleuries, couverts —, ce qui relie directement la lutte biologique à la structure du paysage.
+
+Ses limites méritent d'être dites : elle est plus lente qu'un traitement chimique, elle régule sans éradiquer, et les introductions d'espèces exotiques ont produit des catastrophes lorsqu'elles se sont attaquées à d'autres cibles que prévu. Le crapaud buffle introduit en Australie contre un coléoptère du sucre en reste l'exemple le plus cité.`],
+    ["Pourquoi les traitements s'usent", `La résistance aux pesticides est l'apparition de populations de ravageurs insensibles au traitement. Son mécanisme est une démonstration d'évolution en temps réel : dans une population nombreuse, quelques individus portent par hasard une variation qui les rend moins sensibles ; le traitement élimine tous les autres et leur laisse la place ; en quelques générations, la population est majoritairement résistante.
+
+Plus le traitement est efficace et systématique, plus la sélection est forte — d'où le paradoxe qu'un usage intensif accélère sa propre obsolescence. Les stratégies de gestion consistent donc à alterner les modes d'action, à maintenir des zones refuges non traitées, et à ne traiter qu'au-delà d'un seuil de nuisibilité plutôt que par calendrier.
+
+Un fongicide vise les champignons parasites — mildiou, oïdium, rouilles — qui causent en Europe l'essentiel des pertes en vigne et en céréales. La bouillie bordelaise, à base de sulfate de cuivre, est l'un des plus anciens : découverte par hasard à la fin du XIXe siècle lorsqu'on s'aperçut que les ceps badigeonnés de bleu pour décourager les voleurs résistaient mieux au mildiou. Utilisable en agriculture biologique parce que le cuivre est un minéral naturel, il pose néanmoins un problème réel : le cuivre ne se dégrade pas et s'accumule dans les sols, où il devient toxique pour la vie du sol. C'est un rappel utile que « naturel » ne signifie pas « sans effet ».`],
+    ["Sélectionner", `La sélection variétale classique procède par croisement de parents complémentaires, puis tri des générations successives selon les caractères observés. Elle est lente — huit à douze ans pour une variété de blé — parce qu'il faut attendre l'expression du caractère, donc une saison complète par génération, et parce que beaucoup de caractères ne se voient qu'à maturité.
+
+La sélection assistée par marqueurs accélère considérablement ce tri : on repère dans l'ADN des jeunes plants des marqueurs associés aux caractères recherchés, et l'on écarte dès le stade plantule ceux qui ne les portent pas. Ce n'est pas une modification génétique — aucun gène n'est introduit — mais un test de dépistage appliqué à la sélection classique.
+
+La culture in vitro multiplie des plantes à partir de fragments de tissus en milieu stérile et nutritif. Elle produit des clones identiques en grand nombre et à partir de très peu de matériel, et permet surtout d'obtenir des plants indemnes de virus en prélevant l'apex, zone que les virus n'ont pas encore colonisée. La filière du plant de pomme de terre et celle de la vigne en dépendent entièrement.`],
+    ["Cultiver un système", `Un biostimulant agricole favorise les processus naturels de la plante — absorption des nutriments, tolérance au stress hydrique, développement racinaire — sans être un engrais ni un produit phytosanitaire. Extraits d'algues, acides humiques, micro-organismes bénéfiques : la catégorie est vaste et son efficacité très inégale, le cadre réglementaire n'ayant été harmonisé que récemment.
+
+La biodiversité fonctionnelle désigne la diversité d'organismes rendant des services utiles à la culture : pollinisateurs, auxiliaires, vers de terre, mycorhizes, micro-organismes du sol. La notion opère un déplacement du regard — la biodiversité cesse d'être un objectif de conservation extérieur à la production pour devenir un facteur de production à part entière.
+
+C'est le fondement de l'agroécologie : plutôt que de compenser par des intrants ce que l'écosystème ne fait plus, réorganiser le système pour qu'il le fasse à nouveau. Rotations longues, associations d'espèces, couverts permanents, haies et bandes enherbées ne relèvent alors plus d'une préoccupation environnementale ajoutée, mais de l'agronomie elle-même.`],
+  ],
+
+  "sv3-cancer": [
+    ["Une famille, pas une maladie", `Le cancer n'est pas une maladie mais une famille de maladies. Un cancer du pancréas, une leucémie de l'enfant et un carcinome cutané n'ont ni les mêmes causes, ni les mêmes traitements, ni le même pronostic — parler du cancer au singulier a autant de sens que parler de « l'infection ».
+
+Le point commun tient au mécanisme : une prolifération incontrôlée de cellules qui ont perdu les garde-fous régulant leur division, échappent à l'apoptose, et acquièrent la capacité d'envahir d'autres tissus. Ce dernier point distingue une tumeur maligne d'une tumeur bénigne, qui grossit sans franchir les limites de son tissu d'origine.
+
+Une métastase est une colonisation à distance par des cellules détachées de la tumeur d'origine, qui migrent par le sang ou la lymphe et s'implantent ailleurs. C'est elle qui fait la gravité de la plupart des cancers : une tumeur localisée est souvent curable par chirurgie, une maladie disséminée l'est rarement. D'où toute la logique du diagnostic précoce.`],
+    ["Ce qui augmente le risque", `Le tabac est le premier facteur de risque évitable, responsable à lui seul d'environ un cancer sur cinq en France, et pas seulement du poumon — vessie, gorge, œsophage, pancréas, rein figurent aussi dans la liste. L'alcool, l'alimentation déséquilibrée, le surpoids, la sédentarité, les expositions professionnelles, les infections chroniques et les rayonnements ultraviolets complètent le tableau.
+
+Un point mérite d'être formulé sans ambiguïté : le hasard joue un rôle important. Chaque division cellulaire comporte un risque d'erreur de copie, et un cancer peut survenir sans aucun facteur identifiable. Attribuer systématiquement une maladie à un comportement est faux et culpabilisant ; nier l'existence de facteurs évitables l'est tout autant.
+
+En France, le cancer du sein est le plus fréquent chez la femme, celui de la prostate chez l'homme. Le cancer du poumon reste le plus meurtrier dans les deux sexes, sa fréquence chez les femmes augmentant depuis des décennies avec le décalage de la diffusion du tabagisme féminin.`],
+    ["Dépister, et ses limites", `Un dépistage organisé est un programme systématique proposé à une population cible définie par l'âge et le sexe, avec un protocole standardisé et une double lecture. La France en compte trois : sein, côlon-rectum et col de l'utérus.
+
+Son bénéfice n'est pas automatique et se démontre par essais : détecter plus tôt n'améliore le pronostic que si un traitement précoce change l'issue. C'est pourquoi certains dépistages ont été abandonnés malgré leur apparente logique.
+
+Le surdiagnostic est la difficulté centrale de ces programmes : c'est la détection de lésions réelles qui n'auraient jamais causé de symptômes ni de décès du vivant de la personne. Ces cancers existent — certains évoluent très lentement, d'autres régressent — mais on ne sait pas les distinguer des autres au moment du diagnostic, si bien qu'ils sont traités. La personne concernée est alors exposée aux effets d'un traitement dont elle n'avait pas besoin, et se compte parmi les « vies sauvées » des statistiques. Ce n'est pas un argument contre le dépistage : c'est un élément de la balance, qui justifie une information honnête plutôt qu'une injonction.`],
+    ["Traiter, et compter", `La chimiothérapie vise les cellules à division rapide par des médicaments circulant dans tout l'organisme. Son efficacité et ses effets indésirables ont la même cause : les cellules saines à division rapide — moelle osseuse, muqueuse digestive, follicules pileux — sont touchées aussi, d'où l'immunodépression, les nausées et la chute des cheveux.
+
+La radiothérapie détruit les cellules tumorales par des rayonnements ionisants qui endommagent leur ADN, avec un ciblage géométrique précis. Elle est locale, là où la chimiothérapie est générale, et les deux se combinent souvent avec la chirurgie. S'y ajoutent depuis vingt ans les thérapies ciblées et l'immunothérapie, qui ont transformé le pronostic de certains cancers.
+
+Le taux de survie à cinq ans est la proportion de patients vivants cinq ans après le diagnostic. C'est l'indicateur le plus employé, et le plus piégeux : il est mécaniquement amélioré par un diagnostic plus précoce, même sans aucun progrès thérapeutique — avancer la date du diagnostic de trois ans fait passer un patient survivant quatre ans sous la barre des cinq ans. Ce biais d'avance au diagnostic impose de comparer aussi la mortalité rapportée à la population, seul indicateur insensible au moment du diagnostic.`],
+  ],
+
+  "sv3-microbiote-sante": [
+    ["Un organe qu'on n'avait pas vu", `Le microbiote intestinal rassemble des dizaines de milliers de milliards de micro-organismes, essentiellement des bactéries, dont le nombre est du même ordre que celui de nos propres cellules — le fameux rapport de dix pour un, longtemps cité, a été révisé à environ un pour un. Leur patrimoine génétique collectif dépasse largement le nôtre.
+
+Il se constitue dès la naissance par contact avec la mère et l'environnement : la flore vaginale et cutanée maternelle, le lait, puis l'alimentation et le milieu de vie. Le mode d'accouchement et l'allaitement modifient cette colonisation initiale, avec des différences mesurables qui s'atténuent au fil des années.
+
+Les bactéries intestinales rendent des services réels : elles dégradent les fibres que nos enzymes ne savent pas digérer, produisent certaines vitamines, occupent l'espace face aux pathogènes et éduquent le système immunitaire. À partir des fibres, elles produisent des acides gras à chaîne courte — butyrate, propionate, acétate — qui nourrissent directement les cellules du côlon et exercent des effets anti-inflammatoires. C'est le mécanisme le mieux établi du domaine.`],
+    ["Nourrir la flore", `Un prébiotique est une fibre qui nourrit les bactéries bénéfiques déjà présentes, à distinguer d'un probiotique, qui apporte des micro-organismes vivants. Les prébiotiques abondent dans les légumes, les légumineuses, les céréales complètes, l'oignon, le poireau et la banane.
+
+Un régime pauvre en fibres appauvrit la diversité du microbiote, et cet appauvrissement est cumulatif : des travaux sur plusieurs générations de souris ont montré qu'une flore appauvrie ne se restaure pas complètement même après réintroduction des fibres. Les populations occidentales présentent une diversité nettement inférieure à celle des populations à alimentation traditionnelle riche en végétaux.
+
+Les antibiotiques répétés dans l'enfance pourraient modifier durablement ce microbiote, avec des conséquences encore à l'étude sur l'immunité, l'allergie et le métabolisme. Le conditionnel est ici pleinement justifié : les associations statistiques sont réelles, les mécanismes plausibles, la démonstration causale incomplète. Cela suffit à motiver la prudence dans la prescription, non à affirmer un lien.`],
+    ["Ce qu'on sait faire", `La transplantation de microbiote fécal transfère la flore intestinale d'un donneur sain à un patient. C'est le seul usage médical du microbiote dont l'efficacité soit solidement établie, et elle l'est spectaculairement : dans les infections récidivantes à *Clostridioides difficile*, souvent consécutives à une antibiothérapie, elle guérit plus de neuf patients sur dix là où les antibiotiques échouent.
+
+Cette réussite a nourri des espoirs dans de nombreuses autres indications — maladies inflammatoires de l'intestin, obésité, troubles métaboliques, troubles neurologiques — où les essais sont en cours et les résultats jusqu'ici bien plus modestes.
+
+La dysbiose désigne un déséquilibre du microbiote associé à divers troubles. Le mot est utile mais glissant : il n'existe pas de composition « normale » de référence, la variabilité entre individus sains étant considérable, et constater une différence entre malades et bien portants ne dit pas laquelle des deux est cause de l'autre.`],
+    ["Pourquoi rester prudent", `Les recherches sur le microbiote sont prometteuses mais souvent surinterprétées, et il vaut la peine de comprendre pourquoi.
+
+D'abord parce que beaucoup de résultats viennent d'études animales. Transplanter le microbiote de souris obèses à des souris axéniques — élevées sans aucune flore — et les voir grossir est un résultat frappant ; l'extrapoler à l'humain, dont l'alimentation, la génétique et le mode de vie diffèrent, est un saut considérable.
+
+Ensuite parce que les études humaines sont majoritairement observationnelles : elles constatent une association entre un profil de microbiote et un état de santé. Or l'alimentation, l'activité physique, les traitements et la maladie elle-même modifient le microbiote — le sens de la causalité est rarement établi.
+
+L'axe intestin-cerveau, ensemble de communications entre système digestif et système nerveux par voies nerveuse, hormonale et immunitaire, existe bel et bien. Mais l'écart entre ce fait et les allégations commerciales sur les probiotiques censés traiter l'anxiété ou la dépression est immense. Le domaine est l'un des plus actifs de la biologie actuelle, et l'un de ceux où le marketing devance le plus largement les preuves.`],
+  ],
+
+  "sv3-geologie-france": [
+    ["Des montagnes disparues", `Le sous-sol français conserve la trace de plusieurs chaînes de montagnes aujourd'hui effacées. La chaîne hercynienne, formée il y a environ trois cent cinquante millions d'années lors de la collision qui a assemblé la Pangée, culminait probablement à des altitudes himalayennes. Il n'en reste que les racines, mises à nu par des centaines de millions d'années d'érosion : le Massif central, le Massif armoricain, les Vosges, les Ardennes et la Corse.
+
+Ce qu'on y voit aujourd'hui — granites, gneiss, schistes — s'est formé à plusieurs kilomètres de profondeur, sous des pressions et des températures considérables. Marcher sur le plateau du Limousin, c'est marcher sur ce qui était le cœur profond d'une chaîne alpine.
+
+Les Alpes, elles, sont jeunes : leur formation a commencé il y a environ soixante millions d'années, par la fermeture d'un océan et la collision entre les plaques africaine et eurasienne. Elle se poursuit — les Alpes s'élèvent encore de quelques millimètres par an, compensés à peu près par l'érosion.`],
+    ["Les bassins et leurs pierres", `Le Bassin parisien est géologiquement un empilement de couches sédimentaires disposées en cuvette, les plus récentes au centre. Elles se sont déposées pendant des dizaines de millions d'années, sous des mers qui ont avancé et reculé à répétition — chaque couche enregistre un environnement, plage, lagune, mer ouverte ou marais.
+
+Cette structure explique la géographie régionale : les couches dures forment les plateaux et les cuestas, les couches tendres les vallées et les plaines, et l'alternance donne les paysages en auréoles concentriques autour de Paris.
+
+Le calcaire lutétien, extrait dans la région parisienne, a bâti la capitale : Notre-Dame, le Louvre, les immeubles haussmanniens en sont faits. Il tire son nom de Lutèce, et s'est formé il y a environ quarante-cinq millions d'années dans une mer chaude et peu profonde — les blocs des façades parisiennes contiennent des coquilles fossiles visibles à l'œil nu. Les carrières souterraines qui l'ont fourni constituent aujourd'hui le réseau des catacombes et posent des problèmes récurrents d'effondrement.`],
+    ["Feu récent et roches dissoutes", `La chaîne des Puys aligne en Auvergne environ quatre-vingts volcans sur une trentaine de kilomètres. Sa dernière activité remonte à environ sept mille ans, ce qui, à l'échelle géologique, signifie hier : ces volcans sont endormis, non éteints, et des humains ont assisté à leurs éruptions. Le site est inscrit au patrimoine mondial avec la faille de Limagne, dont il illustre le fonctionnement.
+
+Le karst est un relief creusé par la dissolution des roches calcaires par les eaux légèrement acides. Le calcaire se dissout, l'eau s'infiltre au lieu de ruisseler, et il en résulte un paysage caractéristique : plateaux secs et pierreux en surface, réseaux de grottes, rivières souterraines, résurgences, avens et canyons.
+
+Les Causses et les gorges du Tarn en offrent l'exemple français le plus spectaculaire — plateaux arides percés d'un canyon de plusieurs centaines de mètres de profondeur. Le karst pose une difficulté particulière pour la ressource en eau : les nappes y sont abondantes mais très vulnérables, une pollution de surface pouvant atteindre une source à plusieurs kilomètres en quelques heures, sans la filtration qu'assurerait un sol.`],
+    ["Ressources et risques", `La houille est un charbon formé au Carbonifère, il y a plus de trois cents millions d'années, à partir de forêts marécageuses enfouies. Ses bassins — Nord-Pas-de-Calais, Lorraine, Loire, Cévennes — ont fait l'industrialisation française, façonné des paysages et des sociétés entières, et l'exploitation s'est achevée en 2004 avec la fermeture du dernier puits lorrain. Il en reste des terrils, des affaissements miniers, des remontées de nappe à gérer sur des siècles, et un patrimoine reconnu au titre de l'Unesco.
+
+Le risque sismique de la France métropolitaine est modéré, mais non nul. Il se concentre dans les Alpes, les Pyrénées, le fossé rhénan alsacien et, plus discrètement, en Provence et dans le Massif armoricain. Le séisme de Lambesc en 1909 fit une quarantaine de morts, et celui de Bâle en 1356 détruisit la ville. Les Antilles françaises relèvent d'un tout autre niveau d'exposition, à la limite entre deux plaques.
+
+Un risque modéré n'autorise pas l'insouciance : c'est précisément là que le bâti n'est pas conçu pour résister, et qu'un séisme de magnitude moyenne peut faire des dégâts hors de proportion avec son énergie.`],
+  ],
+
+  "sv3-mesures-biologie": [
+    ["Comparer à quoi ?", `Une observation biologique n'a de sens qu'associée à un protocole explicite. Constater qu'un traitement est suivi d'une amélioration ne prouve rien : la plupart des maladies évoluent spontanément, et beaucoup guérissent seules.
+
+D'où le témoin : un groupe non soumis au traitement testé, comparable au groupe traité sur tous les autres points. Sans lui, on ne mesure pas l'effet du traitement mais l'évolution naturelle, l'effet placebo et le hasard réunis.
+
+La randomisation attribue les sujets aux groupes de façon aléatoire. Son intérêt est subtil et décisif : elle répartit également entre les groupes non seulement les facteurs connus, mais aussi tous ceux qu'on ignore. Aucune autre méthode ne permet cela.
+
+Le double aveugle ajoute que ni le sujet ni l'expérimentateur ne connaissent l'attribution. Le premier aveugle neutralise l'attente du patient ; le second neutralise celle du soignant, dont les mesures et les jugements sont influencés à son insu — un effet documenté et de grande ampleur, y compris sur des critères qu'on croirait objectifs.`],
+    ["Observer, et ce que cela ne prouve pas", `Une étude observationnelle n'intervient pas sur l'exposition : elle observe des personnes qui fument ou non, mangent ceci ou cela, et compare les résultats. Elle est souvent la seule possible — on ne randomise pas le tabagisme —, et elle a établi des liens majeurs.
+
+Sa faiblesse est le facteur de confusion : une variable liée à la fois à l'exposition et au résultat, qui crée une association trompeuse. L'exemple classique est celui du café et du cancer du poumon : les gros buveurs de café fumaient davantage, et c'est le tabac qui expliquait tout. Les méthodes statistiques permettent d'ajuster sur les facteurs connus, jamais sur ceux qu'on n'a pas mesurés.
+
+C'est pourquoi une corrélation observée ne suffit pas à établir une causalité, et pourquoi les critères de Bradford Hill — force de l'association, cohérence, relation dose-effet, plausibilité biologique, antériorité — servent à évaluer si un lien mérite d'être tenu pour causal.`],
+    ["Ce que dit un résultat", `Un intervalle de confiance est une plage de valeurs compatibles avec les données observées. Il est bien plus informatif qu'un simple « significatif ou non » : un effet estimé à trois pour cent avec un intervalle allant de deux à quatre est solide, le même effet avec un intervalle allant de zéro virgule un à quarante ne l'est pas, bien que les deux soient statistiquement significatifs.
+
+La puissance statistique est la capacité d'une étude à détecter un effet réel s'il existe. Elle dépend surtout du nombre de sujets. Une étude sous-dimensionnée produit deux erreurs symétriques : elle rate des effets réels, et, quand elle en trouve, elle en surestime l'ampleur — c'est ce qui explique une bonne part des résultats spectaculaires qui ne se reproduisent jamais.
+
+Une méta-analyse combine statistiquement plusieurs études sur une même question, ce qui augmente la puissance et permet d'examiner la cohérence entre travaux. Sa qualité dépend entièrement de celle des études incluses : agréger des travaux médiocres ne produit pas une conclusion solide.`],
+    ["Ce que la littérature ne montre pas", `Le biais de publication est la tendance à publier davantage les résultats positifs. Une étude ne trouvant aucun effet est jugée moins intéressante par les auteurs, les relecteurs et les revues, et reste souvent dans un tiroir. Il en résulte une littérature systématiquement optimiste : si vingt équipes testent un traitement inefficace, une trouvera par hasard un résultat significatif, et c'est celle-là qu'on lira.
+
+Le préenregistrement répond directement à ce problème : le protocole complet — hypothèse, critère principal, méthode d'analyse, taille de l'échantillon — est déposé publiquement avant la collecte des données. Il rend impossible de changer de critère après coup pour obtenir un résultat présentable, pratique connue sous le nom de pêche aux résultats, et permet de savoir quelles études ont été menées, y compris celles qui n'ont jamais été publiées.
+
+Il est obligatoire pour les essais cliniques et se répand ailleurs. Là où il a été appliqué, la proportion d'études rapportant des résultats positifs a chuté spectaculairement — ce qui en dit long sur ce qu'était la littérature antérieure.`],
+  ],
 };
