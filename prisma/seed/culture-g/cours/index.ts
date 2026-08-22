@@ -13,9 +13,11 @@
  */
 import type { LotCours } from "../commun";
 import { COURS_GASTRONOMIE } from "./gastronomie";
+import { COURS_MYTHOLOGIE_RELIGIONS } from "./mythologie-religions";
 import { COURS_SPORT } from "./sport";
 
 export const COURS_TOUS: LotCours = {
   ...COURS_GASTRONOMIE,
+  ...COURS_MYTHOLOGIE_RELIGIONS,
   ...COURS_SPORT,
 };
