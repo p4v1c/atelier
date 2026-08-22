@@ -434,4 +434,78 @@ Cette différence d'époque n'est pas anodine : la spécialisation extrême du c
 
 Le dopage mécanique est une tricherie d'une autre nature : la dissimulation d'un petit moteur d'assistance dans le cadre ou dans une roue. Un premier cas a été sanctionné en cyclo-cross en 2016, et les vélos font désormais l'objet de contrôles par balayage magnétique et imagerie sur les grandes épreuves. La fréquence réelle du phénomène reste inconnue, ce qui alimente les rumeurs autant que les démentis.`],
   ],
+
+  "sp3-sport-femmes": [
+    ["Une exclusion organisée", `Les femmes ont longtemps été exclues de la plupart des compétitions officielles, non par accident mais par décision. Pierre de Coubertin, rénovateur des Jeux, y était explicitement opposé : il jugeait la participation féminine inesthétique, inintéressante et contraire à sa conception de l'olympisme, dont il voulait faire l'exaltation de l'athlétisme masculin avec l'applaudissement féminin pour récompense.
+
+Les femmes participent malgré tout dès 1900 à Paris, dans quelques disciplines seulement — tennis, golf, croquet, voile. Il faudra attendre 2012 pour que toutes les délégations comptent des athlètes féminines, et 2024 à Paris pour que la parité stricte des quotas de participation soit atteinte.`],
+    ["Le contrôle des corps", `Les tests de féminité ont été imposés aux athlètes féminines à partir des années 1960 : examens gynécologiques imposés, puis tests chromosomiques. Humiliants et scientifiquement infondés — le sexe biologique ne se réduit ni aux chromosomes ni à une frontière nette — ils ont été abandonnés comme dépistage systématique dans les années 1990.
+
+Ils ont été remplacés par des règles portant sur les taux hormonaux, appliquées à des athlètes présentant des variations du développement sexuel. Ces règles ont écarté de la compétition des championnes qui n'avaient jamais trichée, et font l'objet de contentieux devant les juridictions sportives et les cours des droits humains. La question n'est pas tranchée : elle oppose l'équité de la compétition, la non-discrimination et la définition même des catégories.`],
+    ["Les leviers qui ont marché", `Le titre IX, loi américaine de 1972, interdit toute discrimination fondée sur le sexe dans les programmes éducatifs recevant des fonds fédéraux — donc dans le sport universitaire. Son effet a été spectaculaire : le nombre de sportives universitaires a été multiplié par plus de dix en une génération, et c'est de ce vivier que sont sorties les équipes américaines qui dominent le football et le basket féminins.
+
+La première Coupe du monde féminine de football se tient en 1991 en Chine, avec douze équipes. Les États-Unis en détiennent le record de titres. En France, Marie-José Pérec a marqué les années 1990 avec trois titres olympiques, dont le doublé quatre cents et deux cents mètres à Atlanta en 1996.`],
+    ["Ce qui reste", `L'écart de rémunération et de médiatisation demeure important dans presque tous les sports professionnels. Il se justifie souvent par les recettes générées, argument circulaire puisque ces recettes dépendent de l'exposition, elle-même longtemps refusée.
+
+Les évolutions récentes le montrent : la Coupe du monde féminine de football de 2019, puis celle de 2023, ont battu des records d'audience, et les droits télévisés du sport féminin ont fortement progressé là où ils ont été négociés séparément plutôt que bradés en complément des droits masculins. Le tennis fait figure d'exception ancienne : les quatre tournois du Grand Chelem versent des primes égales depuis 2007, à l'issue d'un combat mené depuis les années 1970 par Billie Jean King.`],
+  ],
+
+  "sp3-economie-sport": [
+    ["D'où vient l'argent", `Les droits de diffusion constituent la première ressource des grands sports : pour un club européen de football de premier plan, ils représentent souvent près de la moitié des recettes, devant la billetterie et le sponsoring. C'est la raison pour laquelle les calendriers, les horaires et les formats de compétition sont ajustés aux exigences des diffuseurs plutôt qu'à celles des spectateurs présents.
+
+La Coupe du monde de football rapporte plusieurs milliards d'euros à la FIFA par édition, dont l'essentiel provient des droits télévisés et du marketing. Le naming, vente du nom d'une enceinte à un sponsor, complète ces revenus : ancien et généralisé en Amérique du Nord, il progresse en Europe malgré les résistances liées à l'attachement aux noms historiques.`],
+    ["Encadrer les dépenses", `Deux mécanismes tentent de limiter la course aux dépenses. Le plafond salarial, employé dans les ligues nord-américaines, limite le total des salaires qu'une franchise peut verser : il maintient une incertitude sportive et empêche qu'une équipe achète durablement la victoire.
+
+Le fair-play financier, introduit par l'UEFA en 2011, procède autrement : il limite les dépenses d'un club à ses recettes propres, afin d'éviter l'endettement et le dopage financier par un propriétaire. Plusieurs fois réformé, il est critiqué pour un effet secondaire : en interdisant d'investir au-delà de ses revenus, il fige la hiérarchie au profit des clubs déjà riches.`],
+    ["Le marché des joueurs", `L'arrêt Bosman, rendu en 1995 par la Cour de justice des Communautés européennes, a libéré les joueurs en fin de contrat : ils peuvent depuis changer de club sans indemnité de transfert. La décision a aussi supprimé les quotas de joueurs communautaires.
+
+Ses effets ont été considérables et durables : hausse des salaires, pouvoir accru des agents, concentration des meilleurs joueurs dans un petit nombre de clubs. Elle rappelle qu'une décision juridique portant sur la libre circulation des travailleurs a transformé l'économie d'un sport plus profondément qu'aucune réforme sportive.`],
+    ["L'image et le coût", `Le sportwashing désigne l'usage du sport pour améliorer l'image d'un État ou d'une entreprise et détourner l'attention de critiques. Le terme s'est répandu autour de l'attribution de grandes compétitions et du rachat de clubs européens ; il pose une question difficile, puisque tout investissement dans le sport comporte une dimension d'image.
+
+Côté villes hôtes, l'héritage d'un grand événement — effets durables sur les équipements, l'économie et la pratique — se révèle presque toujours inférieur aux promesses. Les surcoûts sont systématiques dans l'histoire des Jeux, et plusieurs équipements construits pour une quinzaine de jours sont restés sous-utilisés. C'est ce constat qui a raréfié les candidatures et poussé le CIO à assouplir ses exigences.`],
+  ],
+  "sp3-dopage": [
+    ["Une organisation mondiale", `La lutte antidopage s'est structurée mondialement à partir de 1999 avec la création de l'Agence mondiale antidopage, financée à parts égales par le mouvement sportif et les États. Elle publie chaque année la liste des substances et méthodes interdites, harmonise les procédures et coordonne les laboratoires accrédités.
+
+Avant elle, chaque fédération appliquait ses propres règles, avec des sanctions incohérentes et des conflits d'intérêts évidents — une fédération étant peu encline à sanctionner ses propres champions. C'est l'affaire Festina, en 1998 sur le Tour de France, qui a rendu cette réforme politiquement possible.`],
+    ["Les produits et les méthodes", `L'EPO est une hormone qui stimule la production de globules rouges et augmente donc le transport d'oxygène : elle a bouleversé les sports d'endurance dans les années 1990, avant qu'un test ne soit disponible en 2000. Les stéroïdes anabolisants favorisent le développement musculaire, avec des effets secondaires lourds et durables.
+
+L'autotransfusion sanguine ne fait appel à aucune substance étrangère : l'athlète se fait prélever son propre sang, le conserve, puis se le réinjecte avant l'épreuve pour augmenter sa masse de globules rouges. Indétectable par les tests classiques, elle a été l'une des raisons de développer le passeport biologique — un suivi longitudinal des paramètres sanguins qui détecte les variations physiologiquement improbables sans identifier de substance.`],
+    ["Contrôler", `Le contrôle inopiné, réalisé hors compétition et sans préavis, est l'outil le plus efficace : le dopage se pratique à l'entraînement, pas la veille d'une course. Il suppose que les athlètes du groupe cible déclarent en permanence leur localisation, obligation contraignante dont trois manquements en un an valent sanction.
+
+L'autorisation d'usage à des fins thérapeutiques permet à un athlète réellement malade d'utiliser une substance interdite, après examen d'un dossier médical. Le dispositif est nécessaire — un asthmatique doit pouvoir se soigner — et a été détourné, comme l'ont montré des fuites de dossiers médicaux d'athlètes de premier plan.`],
+    ["Les grandes affaires", `L'affaire Balco, révélée au début des années 2000, portait sur un laboratoire californien fournissant à des athlètes de haut niveau un stéroïde conçu pour être indétectable. Elle a touché l'athlétisme et le baseball américains, et n'a été résolue qu'après qu'un entraîneur eut envoyé anonymement une seringue au laboratoire antidopage.
+
+En 2015 et 2016, les rapports Pound puis McLaren établissent l'existence d'un dopage d'État russe, organisé avec la complicité du laboratoire antidopage de Moscou et des services de sécurité, y compris pendant les Jeux de Sotchi. La Russie a été sanctionnée collectivement, ses athlètes concourant sous drapeau neutre pendant plusieurs éditions. La difficulté de fond demeure : les méthodes de dopage évoluent plus vite que les tests, ce qui a conduit à conserver les échantillons dix ans pour permettre des réanalyses rétroactives.`],
+  ],
+
+  "sp3-sport-sante": [
+    ["Ce que recommande la santé publique", `L'activité physique régulière est l'un des principaux déterminants de santé. L'OMS recommande au moins cent cinquante minutes hebdomadaires d'activité modérée, ou soixante-quinze minutes d'activité soutenue, complétées par du renforcement musculaire.
+
+La sédentarité — temps prolongé passé assis ou allongé en éveil — constitue un facteur de risque distinct : elle n'est pas compensée par une séance de sport quotidienne. Les recommandations récentes insistent donc sur deux objectifs indépendants : bouger davantage, et rester assis moins longtemps d'affilée.`],
+    ["Les régimes d'effort", `L'endurance fondamentale est un effort prolongé à intensité modérée, où la conversation reste possible. Elle constitue la base de la préparation dans tous les sports d'endurance, et représente l'essentiel du volume d'entraînement des athlètes de haut niveau — contrairement à l'intuition, qui pousse les amateurs à courir trop vite trop souvent.
+
+L'entraînement fractionné alterne efforts intenses et récupérations : il développe efficacement les qualités cardiovasculaires en peu de temps, mais coûte cher en fatigue. L'équilibre entre les deux est l'objet central de la planification.`],
+    ["Progresser, ou s'épuiser", `La surcompensation désigne l'amélioration des capacités qui survient après la récupération d'un effort : le corps ne se contente pas de revenir à son niveau initial, il le dépasse légèrement. C'est le mécanisme fondamental de l'entraînement, et il implique que le repos fait partie du travail.
+
+Sans récupération suffisante, l'effet s'inverse. Le surentraînement est un état de fatigue durable avec baisse des performances, troubles du sommeil, de l'humeur et de l'appétit, dont la sortie demande des semaines ou des mois. Il touche particulièrement les athlètes motivés qui interprètent la baisse de performance comme un signal d'en faire davantage.`],
+    ["Se blesser, et se préparer", `La rupture du ligament croisé antérieur est une lésion grave du genou, fréquente dans les sports de pivot — football, handball, ski. Elle touche significativement plus les femmes que les hommes, pour des raisons anatomiques, hormonales et neuromusculaires encore débattues, et impose environ neuf mois d'arrêt.
+
+La commotion cérébrale est un traumatisme crânien qui perturbe temporairement le fonctionnement du cerveau, sans lésion visible à l'imagerie : elle ne suppose pas de perte de connaissance. Les commotions répétées sont associées à des lésions neurologiques durables, ce qui a conduit à imposer des protocoles de retrait immédiat. Côté préparation, l'échauffement élève progressivement la température musculaire et la vigilance ; en revanche, les étirements passifs prolongés juste avant l'effort peuvent réduire la puissance disponible — un échauffement dynamique leur est préféré.`],
+  ],
+
+  "sp3-sports-mecaniques": [
+    ["La Formule 1", `Le championnat du monde de Formule 1 a été créé en 1950, avec une première course à Silverstone. Michael Schumacher et Lewis Hamilton détiennent à égalité le record de titres mondiaux, avec sept couronnes chacun. Côté français, Alain Prost a été quadruple champion du monde entre 1985 et 1993, dans une rivalité avec Ayrton Senna devenue légendaire.
+
+Le Grand Prix de Monaco, disputé depuis 1929 dans les rues de la principauté, reste l'épreuve la plus emblématique : circuit étroit, sans dégagement, où le dépassement est presque impossible et où la qualification décide de la course. Il illustre une tension permanente du sport automobile entre patrimoine et spectacle.`],
+    ["L'endurance et le hors-piste", `Les Vingt-Quatre Heures du Mans, créées en 1923, opposent des équipages qui se relaient au volant pendant une journée entière. La course a fait progresser la technique automobile de série — freins à disque, phares, aérodynamique, hybridation — bien plus que la Formule 1, précisément parce que la fiabilité y compte autant que la vitesse.
+
+Le championnat du monde des rallyes se dispute sur routes fermées, en spéciales chronométrées, sur terre, asphalte, neige et gravier. Les Français Sébastien Loeb et Sébastien Ogier en ont dominé le palmarès pendant deux décennies. Le Dakar, rallye-raid longue distance largement hors-piste, s'est déroulé en Afrique jusqu'en 2007, puis en Amérique du Sud, et se tient depuis 2020 en Arabie saoudite.`],
+    ["Deux roues, et l'électrique", `Le MotoGP est la catégorie reine du championnat du monde de vitesse moto, qui a succédé en 2002 à la catégorie cinq cents centimètres cubes. Les pilotes y atteignent des angles d'inclinaison supérieurs à soixante degrés, avec le genou et le coude au sol.
+
+La Formule E, créée en 2014, est un championnat de monoplaces entièrement électriques, disputé essentiellement sur des circuits urbains. Son intérêt sportif a été discuté à ses débuts — les voitures manquaient d'autonomie au point d'imposer un changement de véhicule en course — mais elle a servi de laboratoire pour les batteries et la gestion d'énergie, et l'autonomie a doublé en quelques saisons.`],
+    ["La sécurité, transformation majeure", `Le progrès qui a le plus réduit la mortalité en Formule 1 n'est pas une invention unique mais un ensemble : cellule de survie en fibre de carbone, structures déformables, crash-tests obligatoires, dégagements et barrières absorbantes, extraction rapide, présence médicale immédiate.
+
+Dans les années 1960 et 1970, les pilotes mouraient à un rythme qui serait aujourd'hui inconcevable — plusieurs par saison. La dernière étape marquante est le halo, arceau de protection au-dessus du cockpit introduit en 2018 malgré les critiques esthétiques : il a depuis évité plusieurs accidents mortels, ce qui a clos le débat.`],
+  ],
 };
