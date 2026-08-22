@@ -252,4 +252,116 @@ Une légumineuse est une plante de la famille des fabacées dont on consomme les
 
 Associer légumineuses et céréales dans un repas répond à une complémentarité précise : les céréales sont pauvres en lysine et riches en acides aminés soufrés, les légumineuses l'inverse. Ensemble, elles fournissent un profil protéique complet. Toutes les cuisines traditionnelles du monde ont trouvé cette combinaison sans connaître les acides aminés — riz et soja, maïs et haricot, semoule et pois chiche, pain et lentilles. C'est l'un des plus beaux exemples de savoir empirique validé longtemps après par la biochimie.`],
   ],
+
+  "ga2-restauration": [
+    ["Un bouillon devenu un lieu", `Le mot restaurant désignait à l'origine un bouillon réputé restaurer les forces, et non un établissement. Au XVIIIe siècle, des marchands parisiens vendent ces consommés fortifiants à une clientèle soucieuse de sa santé ; l'enseigne annonce des « restaurants », et le mot glisse peu à peu du plat au lieu qui le sert.
+
+L'essor du restaurant tel qu'on l'entend doit beaucoup à la Révolution, qui libère les cuisiniers des maisons nobles : privés d'employeurs émigrés ou guillotinés, ils s'établissent à leur compte. Paris compte quelques dizaines de restaurants avant 1789 et plusieurs centaines vingt ans plus tard.
+
+L'innovation est autant sociale que culinaire. Avant eux, l'auberge servait à heure fixe un menu unique à une tablée commune. Le restaurant apporte trois nouveautés qui nous paraissent évidentes : une table individuelle, un horaire libre, et une carte permettant de choisir — le service à la carte, avec des plats tarifés séparément.`],
+    ["Des établissements aux noms précis", `Un bistrot est un petit établissement servant boissons et plats simples, à l'origine tenu souvent par des Auvergnats montés à Paris, qui cumulaient charbon et vin. L'étymologie populaire le fait venir du russe *bystro*, « vite », lancé par les cosaques occupant Paris en 1814 — jolie histoire, mais le mot n'apparaît par écrit que dans les années 1880, ce qui la rend improbable.
+
+Une brasserie était à l'origine un établissement servant de la bière produite sur place, d'où son nom. Les brasseries parisiennes ouvertes après 1870 par des Alsaciens et des Lorrains ayant quitté les territoires annexés ont fixé le genre : bière, choucroute, huîtres, service continu et grandes salles.
+
+La bistronomie, apparue dans les années 1990, désigne une cuisine soignée servie dans un cadre de bistrot, à prix modéré. Elle est née de chefs formés dans la haute gastronomie qui ont voulu s'affranchir des coûts du luxe — nappage, argenterie, brigade nombreuse — pour ne garder que l'assiette. Elle a durablement modifié le paysage de la restauration française.`],
+    ["Ce que garantissent les mentions", `La mention « fait maison » est réservée aux plats élaborés sur place à partir de produits bruts. Rendue obligatoire depuis 2014 pour les plats concernés, elle répond à un constat que le public découvrait : une part importante des restaurants sert des préparations industrielles réchauffées, sans que rien ne l'indique. Ses exemptions — certains produits sont réputés bruts même transformés — ont été critiquées, et son affichage reste inégalement contrôlé.
+
+Le titre de maître restaurateur va plus loin : c'est un titre d'État, délivré après audit, qui atteste que l'essentiel de la carte est cuisiné sur place à partir de produits frais, et impose aussi des critères de qualification du chef et de qualité de l'accueil. Il est valable quatre ans et renouvelable.
+
+Ces deux dispositifs répondent à la même question — comment distinguer un cuisinier d'un assembleur — et illustrent la difficulté de réglementer une qualité que le client ne peut pas vérifier lui-même.`],
+    ["Le métier vu de la salle des comptes", `Le taux de rotation des tables est le nombre de fois qu'une table est occupée par service. C'est l'indicateur central de l'économie d'un restaurant : avec une salle de dix tables et deux services par soir, on sert quarante couverts si l'on tourne deux fois, vingt si l'on tourne une fois. La marge dépend donc autant de la durée des repas que du prix des plats — ce qui explique les stratégies de réservation par créneaux, mal vécues par la clientèle française.
+
+Le principe HACCP est une méthode d'analyse et de maîtrise des risques sanitaires, obligatoire en restauration : elle identifie les points où un danger peut survenir — rupture de la chaîne du froid, cuisson insuffisante, contamination croisée — et impose pour chacun une mesure de maîtrise et un enregistrement. Elle vient de l'agroalimentaire et, plus anciennement, des programmes spatiaux américains, où l'on ne pouvait pas se permettre d'intoxiquer un équipage.
+
+Le secteur cumule enfin des difficultés structurelles qu'aucune mention ne résout : marges faibles, horaires décalés, pénibilité, et une crise de recrutement devenue chronique après 2020.`],
+  ],
+
+  "ga2-guides-critique": [
+    ["Un guide vendu par un fabricant de pneus", `Le guide Michelin est né en 1900 d'un calcul commercial simple : encourager les automobilistes à voyager, donc à user leurs pneumatiques. Distribué gratuitement, il recensait d'abord garagistes, médecins et hôtels, la table n'y venant qu'ensuite. Les frères Michelin le firent payer à partir de 1920 après avoir vu un exemplaire caler un établi — jugeant qu'on ne respecte que ce qu'on paie.
+
+Les étoiles apparaissent progressivement dans les années 1920 et 1930, avec une hiérarchie restée inchangée : une étoile signale une cuisine de grande qualité qui vaut l'étape ; deux, une cuisine excellente valant le détour ; trois, une cuisine exceptionnelle valant le voyage. Le vocabulaire trahit encore l'origine automobile du guide.
+
+Le Bib Gourmand, créé plus tard, récompense un bon rapport qualité-prix : c'est la distinction la plus utile au quotidien, et la moins commentée.
+
+Les inspecteurs travaillent anonymement et payent leurs repas — règle qui distingue le guide de la plupart des classements et qui coûte cher à maintenir. Leur anonymat est réputé absolu, ce qui n'empêche pas les cuisines de guetter les indices : un client seul, qui commande beaucoup et prend des notes discrètes.`],
+    ["Les autres juges", `Le Gault et Millau, fondé en 1969 par deux critiques, a introduit une notation sur vingt et un ton éditorial assumé, là où Michelin se contentait de symboles. Il a surtout accompagné et théorisé la nouvelle cuisine, dont il a publié le manifeste en 1973 : cuissons plus courtes, sauces allégées, produits de saison, créativité du chef. Un guide n'a jamais aussi directement influencé un mouvement culinaire.
+
+Le classement des cinquante meilleurs restaurants du monde, publié depuis 2002, procède tout autrement : il repose sur les votes d'un collège de chefs, journalistes et gastronomes du monde entier, sans inspection ni critère explicite. Il a considérablement gagné en influence internationale, et il est critiqué pour l'opacité de ses votes, la surreprésentation de certaines régions et l'effet de mode qu'il amplifie.
+
+Les avis d'utilisateurs publiés sur les plateformes constituent aujourd'hui la troisième force, et de loin la plus consultée. Leur défaut est connu : la fraude aux avis, c'est-à-dire la publication d'avis rémunérés ou fictifs, à charge comme à décharge, contre laquelle les plateformes luttent avec des résultats inégaux.`],
+    ["Ce que pèse une étoile", `Une étoile Michelin peut transformer l'économie d'un restaurant du jour au lendemain : réservations saturées pour des mois, hausse du ticket moyen, notoriété internationale. Elle impose en retour des coûts considérables — produits plus chers, personnel plus nombreux, cadre à la hauteur — qui rendent la position difficile à tenir.
+
+La perte d'une étoile provoque une chute de fréquentation et, parfois, de graves conséquences personnelles. Le cas de Bernard Loiseau, qui s'est donné la mort en 2003 dans un contexte de rumeurs de rétrogradation, a durablement marqué la profession et ouvert un débat sur la responsabilité des guides. Plusieurs chefs ont depuis demandé le retrait volontaire de leurs étoiles, geste rare mais devenu concevable, invoquant la pression et la liberté de cuisiner autrement.
+
+Le guide a répondu en assouplissant sa communication, sans renoncer au principe d'un classement — car c'est précisément le caractère tranchant du jugement qui fait sa valeur et son danger.`],
+    ["Un jugement qui se présente comme une mesure", `La critique gastronomique est contestée pour une raison de fond : elle repose sur un jugement subjectif présenté sous la forme d'une évaluation objective. Une étoile ou une note sur vingt ont l'apparence d'une mesure, alors qu'aucun instrument ne mesure le plaisir d'un repas.
+
+Les guides se défendent par la méthode : critères explicites, pluralité des inspecteurs, visites répétées, anonymat. C'est une réponse sérieuse, qui rapproche la critique d'une évaluation reproductible sans jamais l'y réduire.
+
+Restent deux biais structurels. Les guides jugent presque exclusivement une certaine idée de la haute cuisine, longtemps française, ce qui a marginalisé des traditions entières — un excellent restaurant populaire n'entre dans aucune grille. Et la critique influence ce qu'elle mesure : les chefs cuisinent en connaissant les critères, ce qui uniformise. La question n'est donc pas de savoir si la critique gastronomique est objective — elle ne l'est pas — mais si elle est honnête sur ce qu'elle fait.`],
+  ],
+
+  "ga2-boissons-sans-alcool": [
+    ["Trois eaux, trois statuts", `Une eau minérale naturelle doit avoir une composition stable dans le temps et provenir d'une source protégée ; elle est reconnue comme ayant des propriétés favorables à la santé, et cette reconnaissance suit une procédure officielle. Elle ne peut subir aucun traitement de désinfection.
+
+Une eau de source répond aux mêmes exigences de pureté originelle et d'absence de traitement, mais sa composition minérale n'a pas à être constante et aucune propriété particulière ne lui est reconnue. C'est la seule différence, et elle est de nature réglementaire plus que qualitative.
+
+L'eau du robinet est une eau traitée, désinfectée et contrôlée, soumise aux normes sanitaires les plus strictes de toutes les denrées alimentaires — plusieurs dizaines de paramètres analysés régulièrement, avec des résultats publics commune par commune. Elle coûte environ cent à trois cents fois moins cher que l'eau embouteillée, et son empreinte environnementale est sans commune mesure, l'essentiel de celle des bouteilles venant du contenant et du transport.`],
+    ["Infusions et théine", `Une infusion verse l'eau chaude sur la plante et laisse extraire ; une décoction fait bouillir la plante dans l'eau. La distinction n'est pas cosmétique : les feuilles et les fleurs, fragiles, s'infusent ; les racines, écorces et graines, dures, exigent la décoction pour libérer leurs composés.
+
+La théine est exactement la même molécule que la caféine — le mot ne subsiste que par tradition, les chimistes du XIXe siècle ayant cru isoler deux substances distinctes avant de reconnaître leur identité. Ses effets diffèrent pourtant dans le vécu : les tanins du thé ralentissent son absorption, ce qui donne un effet plus progressif et plus long qu'un café.
+
+Le thé vert se prépare à température modérée — soixante-dix à quatre-vingts degrés selon les crus — parce qu'une eau trop chaude en extrait rapidement les tanins et les catéchines les plus amères, écrasant les arômes délicats. Le thé noir, oxydé, supporte l'eau frémissante.
+
+Un rooibos est une infusion sud-africaine issue d'un arbuste sans aucun lien avec le théier, et naturellement dépourvue de théine — ce qui explique son succès pour la soirée.`],
+    ["Sodas et jus", `Un soda est une boisson gazeuse sucrée aromatisée. Une canette standard de trente-trois centilitres contient l'équivalent de sept à huit morceaux de sucre, soit à elle seule la limite journalière recommandée pour les sucres ajoutés. Sa consommation sous forme liquide pose un problème particulier : les calories liquides rassasient beaucoup moins que les mêmes calories solides, si bien qu'elles s'ajoutent aux apports au lieu de s'y substituer.
+
+Un jus de fruit « pur jus » est un jus sans sucre ni eau ajoutés, obtenu directement par pressage. Il se distingue du jus à base de concentré, reconstitué par ajout d'eau, et du nectar, qui contient de l'eau et du sucre. Le pur jus n'est pas pour autant équivalent au fruit : le pressage supprime les fibres, ce qui accélère l'absorption des sucres, et sa teneur en sucres naturels reste proche de celle d'un soda. Les recommandations nutritionnelles ne comptent d'ailleurs qu'un verre de jus par jour comme portion de fruit, et pas davantage.
+
+Le kombucha est une boisson fermentée à base de thé sucré, obtenue grâce à une culture symbiotique de levures et de bactéries. La fermentation consomme une partie du sucre et produit acides organiques et un peu de gaz — et une trace d'alcool, qui impose un contrôle pour rester sous le seuil des boissons non alcoolisées.`],
+  ],
+
+  "ga2-culture-table-monde": [
+    ["Manger avec les mains", `Une part importante de l'humanité mange principalement avec les mains, notamment en Asie du Sud, au Moyen-Orient et en Afrique. Ce n'est pas une absence d'usages mais un code précis : on mange de la main droite, la gauche étant réservée à d'autres tâches ; on n'utilise que le bout des doigts ; on se lave avant et après, ce qui explique les aiguières et les bassines apportées à table.
+
+Le monde se partage grossièrement en trois aires — la main, les baguettes, les couverts —, et chacune juge volontiers les autres. Manger avec les mains est perçu comme rustre par les usagers de la fourchette, laquelle a pourtant été longtemps combattue en Europe : introduite d'Italie à la Renaissance, elle fut jugée efféminée, voire diabolique par des ecclésiastiques qui y voyaient un refus des doigts que Dieu avait donnés.
+
+Ce qui passe pour poli à une table peut donc être grossier à une autre, et l'inverse est tout aussi vrai. Finir son assiette signale la satisfaction en France et le manque de générosité de l'hôte dans plusieurs pays d'Asie ; roter est un signe d'appréciation dans quelques traditions et une faute ailleurs.`],
+    ["Gestes chargés de sens", `Au Japon, on ne plante pas ses baguettes verticalement dans le riz : le geste reproduit l'offrande de riz déposée devant l'autel des défunts lors des rites funéraires. Passer un aliment de baguettes à baguettes est également proscrit pour la même raison, ce geste évoquant le transfert des ossements après la crémation. Ces interdits ne sont pas des règles d'étiquette mais des évitements funéraires — d'où la gêne réelle qu'ils provoquent.
+
+Trinquer avant de boire est un geste de convivialité aux origines multiples et incertaines. L'explication répandue selon laquelle on faisait déborder les verres l'un dans l'autre pour prouver l'absence de poison est une reconstruction tardive, sans appui documentaire. Le geste tient plus probablement à une pratique d'offrande partagée et à la volonté d'associer l'ouïe aux quatre autres sens déjà sollicités par le vin.
+
+Le pourboire aux États-Unis relève d'une autre logique encore : ce n'est pas un supplément facultatif mais une part essentielle du revenu du personnel, le salaire minimum des serveurs pouvant être légalement inférieur au minimum général. Ne pas laisser quinze à vingt pour cent n'est pas une économie, c'est une amputation de salaire.`],
+    ["Servir et partager", `Le service à la russe présente les plats l'un après l'autre, dans un ordre fixé, chacun étant servi chaud à son moment. Il s'est imposé en Europe au XIXe siècle contre le service à la française, où tous les plats d'un même service étaient disposés simultanément sur la table dans une composition symétrique — spectaculaire, mais où l'on mangeait tiède et où l'on ne goûtait que ce qui se trouvait à portée. Le menu séquentiel qui nous paraît naturel est donc un usage récent et importé.
+
+À l'inverse, les cuisines d'Asie de l'Est pratiquent le repas partagé : les plats sont disposés au centre et chacun se sert au fil du repas, avec le riz comme base individuelle. Il n'y a pas de succession d'assiettes personnelles, et la notion même de « plat principal » y perd son sens.
+
+Le thé se prend au Maghreb versé de haut pour former une mousse en surface — le geste aère le thé et refroidit légèrement — et se sert traditionnellement en trois verres, dont un proverbe maghrébin dit qu'ils sont doux comme la vie, fort comme l'amour et amer comme la mort. La cérémonie du thé japonaise pousse la codification à l'extrême : un rituel où chaque geste, chaque objet et chaque disposition de la pièce relèvent d'une esthétique et d'une éthique de l'hospitalité, l'ensemble demandant des années d'apprentissage.`],
+    ["Les interdits alimentaires", `Presque toutes les religions comportent des règles alimentaires : interdits sur certaines espèces, sur des associations, sur des périodes. Le porc est prohibé dans le judaïsme et l'islam, le bœuf l'est dans l'hindouisme, le mélange lait-viande est séparé dans la cacherout, et le carême, le ramadan ou le jeûne du Yom Kippour imposent des périodes d'abstinence.
+
+Les explications par l'hygiène — le porc porterait des parasites sous climat chaud — sont séduisantes et insuffisantes : elles n'expliquent ni pourquoi d'autres viandes également risquées restent permises, ni pourquoi ces règles ont survécu à la disparition du risque. Des raisons rituelles, symboliques et parfois pratiques s'y mêlent, et l'anthropologie a montré que ces classifications organisent surtout un ordre du monde : est impur ce qui brouille les catégories.
+
+Leur fonction sociale est en tout cas manifeste. Partager ou refuser un aliment marque une appartenance, et manger ensemble scelle une relation. C'est pourquoi les règles alimentaires résistent bien mieux que d'autres pratiques religieuses à la sécularisation : elles se pratiquent quotidiennement, en famille, et disent qui l'on est.`],
+  ],
+
+  "ga2-hotellerie": [
+    ["Compter les étoiles", `Le classement hôtelier français compte cinq étoiles, auxquelles s'ajoute la distinction de palace, créée en 2010 pour un très petit nombre d'établissements cinq étoiles présentant un caractère d'exception.
+
+Il est attribué par Atout France, l'agence de développement touristique, sur la base d'un audit réalisé par un organisme accrédité et payé par l'hôtelier. Le référentiel porte sur des critères objectifs — surface des chambres, équipements, services, accessibilité, développement durable —, ce qui en fait un classement de confort et non de qualité perçue : un deux étoiles impeccablement tenu peut satisfaire davantage qu'un quatre étoiles négligé.
+
+Sa révision est quinquennale, ce qui oblige à maintenir le niveau et distingue le système français de classifications étrangères parfois attribuées à vie. Le classement est en outre volontaire : un hôtel peut choisir de ne pas être classé, ce que font certains établissements haut de gamme qui préfèrent une identité propre.`],
+    ["Les métiers et les chiffres", `Le concierge d'hôtel est chargé des services et des demandes des clients : réservations, transports, recommandations, résolution de l'imprévu. Le métier a sa confrérie internationale, les Clefs d'Or, dont l'insigne se porte au revers et signale un professionnel reconnu par ses pairs. Sa valeur tient à un réseau local que rien ne remplace, et la comparaison avec les applications de recommandation tourne souvent à son avantage sur les demandes complexes.
+
+Le revenu par chambre disponible est l'indicateur central de l'hôtellerie : il combine le taux d'occupation et le prix moyen, et se calcule sur l'ensemble des chambres, occupées ou non. Sa supériorité sur les deux mesures prises isolément est évidente — remplir à cent pour cent en cassant les prix ou vendre très cher trois chambres sur vingt donnent tous deux un mauvais résultat, que seul cet indicateur révèle.`],
+    ["Indépendants et chaînes", `Un hôtel indépendant n'appartient à aucune chaîne et assume seul sa commercialisation, sa marque et ses standards. Il représente encore la majorité du parc français en nombre d'établissements, avec une taille moyenne bien plus faible.
+
+Un contrat de franchise hôtelière permet à un exploitant d'utiliser une marque et ses méthodes contre une redevance, tout en restant propriétaire de son fonds. Il apporte visibilité, système de réservation et clientèle d'affaires, au prix d'une redevance et de contraintes de standards. Les grands groupes hôteliers sont ainsi devenus, pour l'essentiel, des gestionnaires de marques plutôt que des propriétaires de murs.
+
+La taxe de séjour est une taxe locale perçue sur les nuitées touristiques, reversée à la commune ou à l'intercommunalité pour financer l'accueil touristique. Elle est payée par le client et collectée par l'hébergeur, y compris désormais par les plateformes de location, ce qui a nettement augmenté son rendement.`],
+    ["Ce que les plateformes ont changé", `Les plateformes de réservation ont apporté à l'hôtellerie une visibilité considérable, notamment aux indépendants qui n'auraient jamais atteint une clientèle internationale. Elles prélèvent en contrepartie des commissions élevées, de l'ordre de quinze à vingt-cinq pour cent, et concentrent la relation client entre leurs mains — l'hôtelier ne sait plus toujours qui vient chez lui ni pourquoi. Les clauses de parité tarifaire, qui interdisaient de proposer un prix inférieur en direct, ont été partiellement invalidées en France et en Europe.
+
+La location meublée touristique — hébergement loué à une clientèle de passage pour de courtes durées — a constitué la seconde rupture. Son essor a fait sortir des dizaines de milliers de logements du marché locatif ordinaire dans les villes touristiques, ce qui a conduit plusieurs municipalités à instaurer autorisations, quotas et limitation à cent vingt jours par an pour les résidences principales.
+
+Une chambre d'hôtes relève d'un régime distinct : un hébergement chez l'habitant, limité à cinq chambres et quinze personnes, avec petit-déjeuner compris et présence de l'hôte. Ce plafond est ce qui la sépare juridiquement d'un hôtel, et il conditionne son régime fiscal comme ses obligations.`],
+  ],
 };
