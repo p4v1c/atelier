@@ -179,5 +179,9 @@ export const FUSIONS_INTERNES: Record<string, string> = {
   "hf4-quatrieme-republique": "hf2-quatrieme-republique",
   "hf4-cinquieme-republique": "hf2-cinquieme-republique",
   "sp3-gymnastique": "sp2-gymnastique",
+  "hm4-egypte-ancienne": "hm2-egypte-pharaonique",
+  "hm4-afrique-royaumes": "hm2-afrique-precoloniale",
+  "hm4-imperialismes": "hm2-colonisation",
+  "hm4-decolonisations": "hm2-colonisation",
 };
 
