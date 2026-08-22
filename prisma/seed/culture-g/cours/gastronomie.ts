@@ -707,4 +707,114 @@ La bière artisanale désigne une production indépendante, en petite quantité,
 
 Ce mouvement a rouvert des styles oubliés, réintroduit des ingrédients locaux, et remis en cause l'uniformisation produite par un siècle de concentration industrielle. Il rencontre aujourd'hui ses limites économiques — saturation du marché, coûts des matières, concurrence des grands groupes rachetant des marques artisanales tout en conservant leur image d'indépendance.`],
   ],
+
+  "ga3-spiritueux": [
+    ["Concentrer l'alcool", `Un spiritueux est obtenu par distillation d'un liquide déjà fermenté. La distillation ne crée pas d'alcool : elle le concentre. La fermentation, préalable indispensable, produit un liquide titrant au mieux une quinzaine de degrés, au-delà desquels les levures meurent dans leur propre production.
+
+Le principe physique est une séparation par évaporation puis condensation, fondée sur la différence de volatilité : l'alcool bout à soixante-dix-huit degrés, l'eau à cent. En chauffant le liquide fermenté, les vapeurs produites sont plus riches en alcool ; refroidies, elles donnent un distillat concentré.
+
+Le distillateur doit trier ce qui sort de l'alambic en trois parties. Les têtes contiennent les composés les plus volatils, dont le méthanol, toxique ; les queues, les plus lourds et souvent désagréables. Seul le cœur est conservé. Cette coupe est le geste décisif du métier, et les accidents mortels de distillation clandestine viennent presque toujours de sa négligence.`],
+    ["Une matière première, un nom", `Chaque spiritueux se définit par ce qu'on distille. Le whisky vient de céréales — orge, maïs, seigle, blé selon les traditions. Un single malt est un whisky issu d'une seule distillerie et de la seule orge maltée : le mot « single » désigne l'unicité du lieu de production, non celle du fût ni du millésime.
+
+Le cognac est distillé de vin blanc, issu de cépages peu alcooliques et très acides qui donneraient de médiocres vins de table mais d'excellentes eaux-de-vie. Le calvados est distillé de cidre, le rhum agricole de jus de canne frais — par opposition au rhum de mélasse, produit à partir du résidu de la fabrication du sucre, qui représente l'essentiel de la production mondiale. La tequila est distillée de l'agave bleu, plante qui met de sept à dix ans à mûrir et dont on cuit le cœur avant de le presser.
+
+L'absinthe fait exception : c'est un spiritueux aromatisé aux plantes, dont la grande absinthe, l'anis et le fenouil, macérées puis redistillées. Interdite en France en 1915 après une campagne où se mêlaient inquiétudes sanitaires et intérêts du lobby viticole, elle fut accusée de méfaits en réalité imputables à son degré d'alcool très élevé et à des falsifications ; elle est de nouveau autorisée depuis 2011.`],
+    ["Le bois et le temps", `Le vieillissement en fût est un échange entre l'alcool et le bois qui modifie profondément couleur et arômes. Un distillat sort incolore de l'alambic ; toute la couleur d'un whisky, d'un cognac ou d'un rhum vieux vient du fût.
+
+Trois phénomènes s'y produisent. Le bois cède des composés — tanins, vanilline, lactones donnant les notes de noix de coco, composés grillés issus de la chauffe du fût. Il retient et absorbe certaines molécules indésirables. Et il laisse respirer : l'oxygène pénètre lentement et transforme les arômes, tandis qu'une part s'évapore chaque année — la « part des anges », qui peut atteindre plusieurs pour cent par an sous climat chaud.
+
+C'est pourquoi un rhum vieilli cinq ans aux Antilles a subi une évolution comparable à un whisky vieilli quinze ans en Écosse. L'âge en années n'est pas une mesure comparable d'une région à l'autre, et le premier fût cède bien plus que le troisième.`],
+    ["Protéger un nom", `Certains spiritueux portent une appellation protégée afin de lier le produit à une origine géographique et à un mode de production défini. Le cognac ne peut être produit qu'en Charente, à partir de cépages autorisés, par double distillation en alambic charentais, avec une durée de vieillissement minimale. Le scotch whisky doit être distillé et vieilli au moins trois ans en Écosse. La tequila ne peut venir que de zones définies du Mexique.
+
+Ces protections ont deux fonctions. Elles évitent l'usurpation d'une réputation construite sur des décennies, et elles fixent un cahier des charges qui garantit un mode de production. Elles sont aussi un enjeu commercial de premier ordre, et les accords de libre-échange comportent systématiquement des listes d'appellations reconnues réciproquement.
+
+Leur limite est connue : elles garantissent une origine et un procédé, pas une qualité. Un cognac médiocre reste un cognac, et d'excellentes eaux-de-vie n'ont droit à aucune appellation.`],
+  ],
+
+  "ga3-cafe-the": [
+    ["Deux boissons, deux origines", `Le café et le thé sont les deux boissons chaudes les plus consommées au monde, après l'eau elle-même. Toutes deux doivent leur diffusion à la caféine, et toutes deux ont été des enjeux commerciaux et politiques majeurs.
+
+Le café est originaire de l'actuelle Éthiopie, où le caféier pousse spontanément dans les forêts d'altitude. La légende du berger Kaldi observant ses chèvres excitées après avoir brouté des baies rouges est tardive et invérifiable ; la culture est en revanche attestée au Yémen dès le XVe siècle, d'où le nom de la variété moka, du port par lequel il s'exportait.
+
+Le thé est originaire du sud-ouest de la Chine, où le théier est également un arbre forestier. Son usage y est attesté depuis plus de deux millénaires, d'abord médicinal puis quotidien, et sa diffusion vers le Japon, puis l'Europe au XVIIe siècle, a suivi des routes commerciales et religieuses distinctes.`],
+    ["Du grain à la tasse", `Deux espèces de café dominent la production. L'arabica, cultivé en altitude, plus délicat et plus aromatique, moins riche en caféine, représente environ les deux tiers du marché. Le robusta, cultivé en plaine, plus résistant aux maladies et à la chaleur, plus amer et plus caféiné, fournit le reste et l'essentiel du café soluble. Le Brésil est de loin le premier producteur mondial, devant le Vietnam.
+
+Ce qu'on appelle un grain de café est en réalité la graine d'un fruit rouge, la cerise, dont il faut séparer la pulpe — par voie humide ou par séchage — avant d'obtenir le café vert, inodore et sans goût.
+
+Tout se joue ensuite à la torréfaction : la cuisson des grains verts, entre deux cents et deux cent trente degrés, développe par réaction de Maillard et par pyrolyse les centaines de composés aromatiques du café. Une torréfaction claire préserve l'acidité et les notes florales, une torréfaction foncée développe l'amertume et les notes de cacao grillé en effaçant les caractères d'origine.
+
+Un espresso est un café extrait sous forte pression — environ neuf bars — en vingt-cinq à trente secondes. La pression extrait des composés que l'infusion ne mobilise pas et émulsionne les huiles, ce qui donne la crème en surface. Ce n'est pas un café plus fort : une tasse d'espresso contient moins de caféine qu'un grand café filtre, la quantité de boisson étant bien moindre.`],
+    ["Une plante, tous les thés", `Thé vert, thé noir, oolong et pu-erh proviennent tous du même arbuste. Ce qui les distingue n'est ni la variété ni l'origine, mais le traitement de la feuille après cueillette — et principalement le degré d'oxydation.
+
+Le thé vert est chauffé rapidement après la cueillette, à la vapeur au Japon ou à la poêle en Chine, ce qui détruit les enzymes et bloque l'oxydation : la feuille reste verte. Le thé noir est au contraire laissé s'oxyder complètement, ce qui brunit la feuille et transforme ses composés — les Chinois l'appellent d'ailleurs thé rouge, d'après la couleur de l'infusion.
+
+Le thé oolong est partiellement oxydé, avec une palette allant de dix à quatre-vingts pour cent selon les crus, ce qui en fait la famille la plus variée. Le pu-erh est à part : c'est un thé fermenté par des micro-organismes puis vieilli, parfois pendant des décennies, dont la valeur augmente avec l'âge comme celle d'un vin.
+
+La cérémonie du thé japonaise est organisée autour du matcha, thé vert réduit en poudre fine et fouetté dans l'eau plutôt qu'infusé — on consomme la feuille entière. Le rituel codifie chaque geste, chaque objet et chaque déplacement, et son apprentissage occupe des années.`],
+  ],
+
+  "ga3-fromages-monde": [
+    ["Séparer le solide du liquide", `Faire du fromage consiste à concentrer les protéines et la matière grasse du lait en éliminant l'eau. La coagulation est la première étape : la transformation du lait liquide en un caillé solide.
+
+Elle s'obtient de deux façons. Par acidification, lorsque des bactéries lactiques transforment le lactose en acide lactique et font floculer les caséines — c'est la voie des fromages frais et des fromages lactiques comme le chèvre. Par action enzymatique, grâce à la présure, enzyme d'origine animale extraite de la caillette des jeunes ruminants, qui coupe une protéine de surface et fait s'agréger les caséines — c'est la voie de la plupart des fromages affinés. Des coagulants microbiens ou végétaux existent, employés notamment pour les fromages destinés aux végétariens.
+
+Le caillé est ensuite tranché, brassé, éventuellement chauffé, moulé, pressé et salé. Chacune de ces opérations modifie l'humidité résiduelle, et l'humidité détermine la famille du fromage : plus on retire d'eau, plus la pâte est dure et plus la conservation est longue.`],
+    ["Les grandes familles", `Un fromage à pâte pressée cuite voit son caillé chauffé au-delà de cinquante degrés puis fortement pressé : très peu d'eau, très longue conservation, meules de grande taille. Comté, beaufort, gruyère et parmigiano reggiano en relèvent — ce dernier, affiné de douze à trente-six mois et davantage, développe des cristaux de tyrosine qui craquent sous la dent et signalent un long affinage.
+
+Un fromage à pâte persillée est veiné de moisissures bleues, ensemencées puis développées grâce à un piquage qui laisse entrer l'air dans la pâte — sans oxygène, le champignon ne pousse pas. Le roquefort, fait de lait de brebis, est affiné dans les caves naturelles de Roquefort-sur-Soulzon, dont les fissures, les fleurines, assurent une ventilation, une température et une humidité constantes. C'est la plus ancienne appellation française, protégée par un arrêt du Parlement de Toulouse en 1666.
+
+Un fromage à croûte lavée est régulièrement frotté à la saumure pendant l'affinage, ce qui favorise une flore de surface donnant une croûte orangée et un parfum puissant : munster, époisses, maroilles. Une pâte filée, comme la mozzarella di bufala au lait de bufflonne, est obtenue en étirant le caillé dans l'eau chaude jusqu'à obtenir une texture fibreuse et élastique.`,
+      { image: "gas-plateau-fromages", legende: "Les familles de fromages se lisent d'abord à l'humidité de la pâte, conséquence directe du traitement du caillé.", alt: "Plateau de fromages variés" }],
+    ["Le lait, l'affinage, le nom", `La France, l'Italie et la Suisse comptent parmi les grandes traditions fromagères, avec des logiques différentes : la France cultive la diversité des petits formats et des laits crus, l'Italie associe de très grandes meules d'affinage long et des fromages frais, la Suisse s'est spécialisée dans les pâtes pressées cuites de montagne.
+
+Une cinquantaine de fromages français bénéficient d'une appellation d'origine protégée, qui définit une zone, des races laitières, une alimentation du troupeau, une technique et une durée d'affinage. Le lait cru y tient une place importante et disputée : il conserve une flore microbienne qui donne au fromage sa complexité et son lien au terroir, et il présente un risque sanitaire réel pour les populations fragiles.
+
+L'affinage est un métier distinct de la fabrication. L'affineur reçoit des fromages jeunes et conduit leur maturation en jouant sur la température, l'humidité, la ventilation, les frottages et les retournements. Deux meules issues de la même fabrication peuvent devenir très différentes selon la cave où elles ont mûri — ce qui explique que certaines maisons d'affinage aient une réputation propre.`],
+  ],
+
+  "ga3-pains-monde": [
+    ["Ce qui fait lever une pâte", `Le pain existe sous des formes très différentes sur tous les continents, mais tous les pains levés reposent sur le même principe : un gaz produit à l'intérieur de la pâte, retenu par un réseau élastique.
+
+Le gluten est ce réseau : deux protéines du blé, la gliadine et la gluténine, s'associent au contact de l'eau et sous l'effet du pétrissage pour former une trame à la fois extensible et résistante. Elle emprisonne le dioxyde de carbone produit par la fermentation, ce qui fait gonfler la pâte et donne l'alvéolage de la mie. Les céréales pauvres en gluten — seigle, maïs, riz, teff — donnent des pains denses ou plats, ce qui explique la géographie des formes.
+
+Un levain naturel est une culture de levures et de bactéries lactiques entretenue par le boulanger, obtenue simplement en laissant fermenter un mélange de farine et d'eau. Les levures produisent le gaz, les bactéries l'acidité qui donne le goût, améliore la conservation et rend le pain plus digeste. La levure de boulanger, sélectionnée et vendue pure, fait lever plus vite mais n'apporte pas cette acidité ni cette complexité.`],
+    ["Le pain français et ses règles", `La baguette de tradition française est définie par un décret de 1993 : elle ne peut contenir que de la farine, de l'eau, du sel et de la levure ou du levain, ne peut subir aucune surgélation et n'admet qu'une liste très courte d'auxiliaires. Le texte a été pris en réaction à une dégradation généralisée de la qualité, due à des pétrissages intensifiés et à des fermentations raccourcies.
+
+Cette réglementation a produit un effet rare : elle a fait remonter la qualité moyenne d'un produit de consommation courante. Les savoir-faire et la culture de la baguette ont été inscrits en 2022 au patrimoine culturel immatériel de l'humanité.
+
+Le pain au levain de seigle, typique d'Europe du Nord et de l'Est, illustre la voie inverse : peu de gluten, mie serrée et dense, acidité marquée, conservation de plusieurs semaines. Sa fermentation au levain n'est pas un choix esthétique mais une nécessité technique — l'acidité est indispensable pour que la pâte de seigle se tienne.`],
+    ["Les pains plats", `Une grande partie de l'humanité mange des pains plats, plus anciens que les pains levés et cuits en quelques minutes.
+
+Le naan indien est cuit collé contre la paroi brûlante d'un four tandoor, cylindre d'argile chauffé au charbon, ce qui lui donne sa forme allongée et ses cloques. Le pita gonfle en cuisson à très haute température : la vapeur produite à l'intérieur sépare brutalement les deux faces et forme une poche, qui se referme en refroidissant — d'où sa fonction de contenant.
+
+La tortilla mexicaine est une galette de maïs nixtamalisé, ou de blé dans le nord du pays, cuite sur une plaque. Le mantou chinois, enfin, échappe à la cuisson au four : c'est un pain cuit à la vapeur, à la mie très blanche et sans croûte, dont la texture moelleuse est sans équivalent occidental. La cuisson à la vapeur est la norme dans une grande partie de l'Asie de l'Est, où le four domestique était absent.`],
+    ["Ce qui se passe au four", `La cuisson d'un pain de tradition suppose une injection de vapeur en début de cuisson. Son rôle est précis : elle maintient la surface humide et souple pendant les premières minutes, ce qui retarde la formation de la croûte et laisse au pain le temps de se développer sous la poussée du gaz. Sans vapeur, la croûte se fixe trop tôt et le pain reste petit, avec des déchirures.
+
+La croûte se forme ensuite par déshydratation de surface, et sa couleur vient de la réaction de Maillard : une réaction entre les sucres et les acides aminés, au-delà de cent quarante degrés, qui produit des centaines de composés colorés et aromatiques. C'est la même réaction qui donne la croûte d'une viande saisie, la couleur du café torréfié et celle d'une bière brune.
+
+Une part importante du goût du pain se trouve donc dans la croûte, et c'est ce qui rend l'épaisseur et la coloration de celle-ci décisives. Un boulanger qui cuit un peu plus longtemps ne fait pas seulement un pain plus foncé : il fait un pain différent.`,
+      { image: "gas-baguette", legende: "La croûte n'est pas une enveloppe : c'est là que la réaction de Maillard produit l'essentiel des arômes du pain.", alt: "Baguettes de pain" }],
+  ],
+
+  "ga3-desserts-monde": [
+    ["Le sucre, du luxe à l'ordinaire", `Le sucre a longtemps été un produit de luxe avant de devenir un ingrédient courant. Vendu en pharmacie au Moyen Âge, dosé en grammes, il servait de médicament et de marque de richesse. La pâtisserie médiévale européenne était donc rare, épicée, et réservée aux tables princières.
+
+Deux ruptures ont changé cela. La première est l'économie de plantation aux Amériques, fondée sur l'esclavage, qui a fait chuter les prix aux XVIIe et XVIIIe siècles — l'essor du goût sucré européen est indissociable de cette histoire. La seconde est le sucre de betterave : développé sous le blocus continental, industrialisé au XIXe siècle, il a rendu le sucre accessible à tous et affranchi l'Europe de l'importation.
+
+La pâtisserie moderne naît de cette abondance, en même temps que la maîtrise du froid, du four à température réglée et de la levure chimique. Presque tous les grands classiques que nous connaissons datent de cette période ou lui sont postérieurs.`],
+    ["L'Europe", `Le tiramisu est un entremets italien à base de mascarpone, d'œufs et de biscuits imbibés de café. Son ancienneté est souvent exagérée : il apparaît en Vénétie dans les années 1960 ou 1970, ce qui en fait l'un des desserts les plus récents parmi les plus célèbres — nouvelle illustration des traditions plus jeunes qu'elles n'en ont l'air.
+
+Le pastel de nata est une tartelette portugaise à la crème, sur pâte feuilletée, dont la surface est caramélisée par une cuisson à très haute température. Il aurait été créé par les moines du monastère des Hiéronymites de Belém, qui utilisaient les blancs d'œufs pour amidonner les habits religieux et cherchaient un emploi aux jaunes.
+
+La Sachertorte est un gâteau au chocolat viennois, dense, comportant une couche d'abricot sous un glaçage. Sa recette exacte a fait l'objet d'un procès de sept ans entre l'hôtel Sacher et la pâtisserie Demel, tranché sur la question de savoir si la couche d'abricot devait se trouver au milieu ou seulement sous le glaçage.
+
+Le kouign-amann breton est un feuilletage au beurre et au sucre, dont le nom signifie littéralement « gâteau au beurre ». Sa caractéristique est le caramel formé par le sucre inclus dans le feuilletage, qui fond et se recristallise à la cuisson.`],
+    ["Le reste du monde", `Le mochi japonais est une pâte de riz gluant cuit puis longuement pilé, jusqu'à obtenir une masse extrêmement élastique. Sa préparation traditionnelle au maillet, à deux personnes travaillant en alternance rapide, est un spectacle de Nouvel An. Sa texture collante en fait chaque année une cause d'étouffement chez les personnes âgées, au point que les autorités japonaises publient des recommandations avant les fêtes.
+
+Le baklava est une pâtisserie de pâte filo, de fruits secs pilés et de sirop, commune à toute l'ancienne aire ottomane et revendiquée par plusieurs pays. Le gulab jamun indien consiste en boulettes de lait réduit, frites puis imbibées d'un sirop parfumé à la cardamome et à l'eau de rose.
+
+Le dulce de leche est une confiture de lait sud-américaine, obtenue en chauffant longuement du lait sucré : la couleur et le goût viennent d'une réaction de Maillard lente, la même que celle de la croûte du pain, mais conduite en milieu humide pendant des heures.
+
+La pavlova, meringue croustillante à cœur moelleux garnie de crème et de fruits, oppose depuis un siècle l'Australie et la Nouvelle-Zélande, qui en revendiquent chacune l'invention en l'honneur de la ballerine russe. La recherche a tranché en faveur de la Nouvelle-Zélande, sans que le débat s'apaise.`],
+  ],
 };
