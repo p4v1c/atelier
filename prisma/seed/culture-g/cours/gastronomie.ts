@@ -471,4 +471,118 @@ Le système d'alerte rapide européen pour les denrées permet à un État qui d
 
 Un rappel de produit demande aux consommateurs de rapporter ou détruire un article déjà vendu — mesure plus lourde qu'un simple retrait des rayons. La France a créé un site public unique recensant tous les rappels, après que l'affaire des laits infantiles contaminés eut montré que l'information n'atteignait pas les familles. L'efficacité réelle reste limitée : une fraction seulement des produits rappelés revient.`],
   ],
+
+  "ga2-cuisines-europe": [
+    ["L'Italie, une somme de régions", `La cuisine italienne est avant tout une somme de cuisines régionales, et l'idée d'une cuisine nationale y est aussi récente que l'unité politique du pays. Le beurre et le riz au nord, l'huile d'olive et le blé dur au sud ; les pâtes fraîches aux œufs en Émilie, les pâtes sèches en Campanie. Un Italien parle de cuisine sicilienne ou piémontaise bien avant de parler de cuisine italienne.
+
+Son principe le plus constant est la retenue : un petit nombre d'ingrédients de qualité par plat, préparés simplement. Une sauce tomate n'a pas besoin de dix composants, un plat de pâtes en compte souvent trois. Cette économie de moyens exige en retour une exigence absolue sur le produit — elle ne pardonne rien.
+
+Le risotto illustre une technique plus qu'une recette : un riz rond, riche en amidon, cuit progressivement par ajouts successifs de bouillon en remuant, ce qui libère l'amidon et lie le plat sans crème. La pizza napolitaine traditionnelle repose sur une pâte fine à bord épais, longuement levée, cuite très brièvement — une minute environ — dans un four à bois à plus de quatre cents degrés, ce qui produit ses cloques caractéristiques.`],
+    ["L'Espagne", `La paella est un plat valencien de riz cuit dans une poêle large et peu profonde, dont elle tire son nom — *paella* désigne l'ustensile. Sa cuisson sans remuer permet la formation d'une couche de riz caramélisé au fond, le *socarrat*, considérée localement comme la meilleure partie. La recette valencienne d'origine associe lapin, poulet, haricots et escargots, non les fruits de mer que le tourisme a imposés.
+
+Le gaspacho est une soupe froide andalouse de légumes crus mixés — tomate, concombre, poivron, ail, pain, huile d'olive, vinaigre. Sa forme d'origine, antérieure à la tomate, était une simple émulsion de pain, d'ail, d'huile et d'eau, nourriture de journaliers agricoles adaptée à la chaleur.
+
+Le jambon ibérique de bellota provient de porcs de race ibérique nourris de glands pendant la période d'engraissement, dans les pâturages de chênes de l'ouest péninsulaire. Le régime aux glands modifie la composition de la graisse, riche en acide oléique, ce qui donne au jambon sa texture fondante et son goût de noisette. L'affinage dure plusieurs années.`],
+    ["Le Nord et l'Est", `La cuisine des rivages de la Baltique et de Scandinavie a un dénominateur commun imposé par le climat : un usage important de la conservation par le sel, le fumage et la fermentation. Six mois sans récolte fraîche obligeaient à traiter tout ce qui pouvait l'être, et ces techniques ont produit un répertoire de goûts puissants qui subsiste bien après que la nécessité a disparu.
+
+Le hareng en est l'emblème : conservé par salaison, marinade ou fumage, décliné en dizaines de préparations, il a nourri l'Europe du Nord et fait la fortune des villes hanséatiques. Sa pêche et son commerce ont structuré des économies entières.
+
+Le smørrebrød danois est une tartine ouverte sur pain de seigle dense, garnie et composée avec un soin qui en fait un plat à part entière — hareng, saumon, rôti froid, œuf, crevettes, avec une grammaire précise des accompagnements.
+
+Le goulasch hongrois est une soupe ou un ragoût de viande au paprika, plat de bergers à l'origine. Il rappelle que le piment, arrivé d'Amérique via les Ottomans, est devenu en quelques siècles l'ingrédient identitaire d'une cuisine d'Europe centrale — les traditions culinaires les plus affirmées reposent souvent sur des emprunts.`],
+  ],
+
+  "ga2-cuisine-technique-froid": [
+    ["Ce que fait l'acide", `L'acide d'une marinade ne cuit pas le poisson : il en dénature les protéines. Le résultat visuel est comparable — la chair blanchit et raffermit — parce que la dénaturation, c'est-à-dire le dépliement des protéines et leur agrégation, est exactement ce que produit la chaleur. Mais le mécanisme diffère, et surtout les conséquences.
+
+La chaleur détruit les micro-organismes et les parasites ; l'acidité, non. Un ceviche n'est pas un poisson cuit du point de vue sanitaire : il exige un poisson d'une fraîcheur irréprochable et, pour les espèces concernées, une congélation préalable contre l'anisakis.
+
+Cette distinction vaut pour toutes les préparations sans cuisson, et elle commande la prudence. Un tartare est une préparation de viande ou de poisson cru haché et assaisonné ; un carpaccio, de fines tranches crues assaisonnées, servi pour la première fois à Venise en 1950 et nommé d'après le peintre pour ses rouges. Dans les deux cas, le hachage ou la découpe multiplient les surfaces exposées, ce qui rend la fraîcheur et l'hygiène d'autant plus critiques.`],
+    ["Le sel et la fumée", `Le gravlax est un saumon mariné au sel, au sucre et à l'aneth, pressé pendant un à trois jours. Son nom scandinave signifie « saumon enterré » : on l'enfouissait autrefois dans le sable pour le laisser fermenter légèrement. Le sel déshydrate en surface et modifie la texture, le sucre équilibre et retient un peu d'eau, l'aneth parfume.
+
+Le fumage à froid se pratique à basse température, généralement sous trente degrés, et ne cuit pas le produit : il l'imprègne des composés aromatiques et antimicrobiens de la fumée tout en le déshydratant lentement. C'est la technique du saumon fumé et de nombreuses charcuteries. Le fumage à chaud, au contraire, cuit — un maquereau fumé à chaud est cuit, un saumon fumé à froid ne l'est pas.
+
+Le confisage à froid conserve dans le sucre ou dans le sel sur une longue durée, par déplacement progressif de l'eau du produit. Les fruits confits d'Apt subissent ainsi des bains successifs de sirops de plus en plus concentrés pendant des semaines, une immersion trop brutale faisant éclater les cellules.`],
+    ["Faire travailler les bactéries", `La lactofermentation est une fermentation conduite par des bactéries lactiques en milieu salé. Le principe est d'une élégance remarquable : on ne stérilise rien, on sélectionne. Le sel, à une concentration de deux à trois pour cent, inhibe la plupart des micro-organismes mais pas les lactobacilles présents naturellement sur les légumes ; ceux-ci se développent et transforment les sucres en acide lactique.
+
+C'est cette acidité qui conserve, en abaissant le pH sous le seuil auquel la plupart des micro-organismes indésirables peuvent se développer, y compris la bactérie du botulisme. Le milieu se protège donc lui-même, sans chaleur ni conservateur.
+
+Choucroute, cornichons, kimchi, olives, pain au levain, yaourt et une bonne part des fromages relèvent de cette famille. La lactofermentation présente en outre l'avantage d'améliorer la valeur nutritionnelle — elle produit des vitamines, dégrade certains anti-nutriments et rend les aliments plus digestes.`],
+    ["Émulsionner sans chauffer", `Une émulsion froide est une dispersion stable de deux liquides qui ne se mélangent pas, obtenue sans chauffage. La mayonnaise en est le cas d'école : de l'huile dispersée en gouttelettes minuscules dans une phase aqueuse, stabilisée par la lécithine du jaune d'œuf, dont les molécules se placent à l'interface.
+
+Sa réussite tient à deux gestes : verser l'huile lentement au départ, pour que chaque goutte soit dispersée avant l'arrivée de la suivante, et fouetter assez énergiquement pour réduire la taille des gouttelettes. Une mayonnaise qui « tranche » n'est pas ratée mais inversée — on la rattrape en repartant d'un peu de moutarde et en y réincorporant progressivement le mélange raté.
+
+Toutes ces préparations sans cuisson imposent les mêmes précautions : une chaîne du froid stricte, des produits d'une fraîcheur irréprochable, un matériel et des mains d'une hygiène rigoureuse, et une consommation rapide. La cuisson est une barrière sanitaire ; s'en passer suppose d'en dresser d'autres.`],
+  ],
+
+  "ga2-economie-alimentaire": [
+    ["Qui touche quoi", `Une filière alimentaire rassemble l'ensemble des acteurs qui interviennent de la production à la consommation d'un produit : agriculteurs, collecteurs, transformateurs, distributeurs, restaurateurs.
+
+La part du prix payé par le consommateur qui revient à l'agriculteur est minoritaire et très variable selon les produits — élevée pour un œuf ou un légume brut, faible pour un produit très transformé où l'agriculture ne fournit qu'une matière première parmi d'autres. Pour une baguette, le blé représente quelques centimes ; pour un plat cuisiné, la part agricole se compte en pourcents.
+
+Cette part a fortement diminué au cours du dernier siècle, non par captation malveillante mais par allongement de la chaîne : le consommateur achète de plus en plus de service — transformation, conditionnement, logistique, mise en rayon — et de moins en moins de matière première. Ce constat structurel ne dispense pas d'examiner la répartition à l'intérieur de la chaîne, qui dépend des rapports de force.`],
+    ["Le poids de la distribution", `La grande distribution rassemble les enseignes de vente au détail à grande surface, qui écoulent en France les deux tiers environ de l'alimentation. Sa force tient à sa concentration : quelques centrales d'achat — structures qui négocient les achats pour l'ensemble des magasins d'un groupe, voire de plusieurs alliés — font face à des milliers de fournisseurs.
+
+Ce déséquilibre a motivé plusieurs lois françaises successives visant à encadrer les négociations commerciales et à protéger le revenu agricole, avec des résultats limités. La difficulté est réelle : imposer un prix minimum d'achat se répercute sur le prix de vente, ce qui pèse sur les ménages modestes.
+
+Un produit d'appel est vendu à très faible marge pour attirer la clientèle, la marge étant reconstituée sur le reste du panier. Une marque de distributeur est un produit vendu sous la marque de l'enseigne, fabriqué le plus souvent par un industriel tiers : elle offre au distributeur une marge supérieure et un levier de négociation face aux grandes marques.`],
+    ["Vendre autrement", `Un circuit court est une vente comportant au plus un intermédiaire entre le producteur et le consommateur. La définition est officielle et porte sur le nombre d'intermédiaires, non sur la distance — un produit vendu directement à cinq cents kilomètres relève du circuit court, un produit local passant par trois grossistes n'en relève pas.
+
+Ses formes sont nombreuses : vente à la ferme, marchés, associations pour le maintien d'une agriculture paysanne, magasins de producteurs, vente en ligne directe. Le producteur y capte une part bien plus grande de la valeur, mais il assume aussi le conditionnement, la logistique et la commercialisation — c'est-à-dire un travail qui n'est pas gratuit et qui n'est pas son métier d'origine.
+
+Son bilan environnemental n'est pas automatiquement meilleur : une multiplication de trajets en camionnette peu remplie peut peser davantage, par kilogramme transporté, qu'un camion complet. Le circuit court se justifie par la répartition de la valeur et le lien social plus sûrement que par le seul argument carbone.`],
+    ["Des prix qui bougent", `La volatilité des prix agricoles désigne des variations fortes et rapides des cours. Elle s'explique par trois caractéristiques du secteur : l'offre dépend du climat et ne s'ajuste pas en cours de saison ; la demande alimentaire est peu élastique, on ne mange pas deux fois plus parce que le blé baisse ; et les stocks mondiaux sont limités. Un déficit de quelques pour cent de la récolte mondiale peut donc doubler un cours.
+
+Un marché à terme agricole permet de s'engager aujourd'hui sur un prix pour une livraison future. Son rôle premier est la couverture : un agriculteur ou un meunier sécurise son prix et supprime l'incertitude. Il attire aussi des intervenants purement financiers, dont le rôle est débattu — ils apportent de la liquidité, et sont accusés d'amplifier les mouvements lors des crises, comme en 2008.
+
+La valeur ajoutée est la richesse créée à chaque étape de transformation, c'est-à-dire la différence entre la valeur du produit sortant et celle des intrants consommés. Suivre sa répartition le long d'une filière est le seul moyen de savoir où va l'argent — et c'est précisément ce que fait l'Observatoire de la formation des prix et des marges, créé en France pour objectiver un débat qui se menait auparavant sur des impressions.`],
+  ],
+
+  "ga2-alimentation-durable": [
+    ["Ce qui pèse vraiment", `Ce que l'on mange pèse davantage sur le climat que la façon dont on le transporte. Le constat surprend, car le transport est visible et l'élevage ne l'est pas. Les analyses de cycle de vie convergent pourtant : le transport ne représente en moyenne qu'une faible part de l'empreinte d'un aliment, la production agricole en concentrant l'essentiel.
+
+Le facteur dominant est la nature des aliments, et particulièrement la part de produits animaux. L'écart entre un kilogramme de bœuf et un kilogramme de légumineuses se compte en dizaines de fois, quand l'écart entre local et importé par bateau se compte en pourcents. Un produit importé par avion fait exception — les denrées très périssables transportées par voie aérienne ont une empreinte considérable — mais elles restent une part minime des volumes.
+
+La viande de ruminant a l'empreinte la plus élevée parce que la fermentation entérique de leur rumen produit du méthane, gaz à effet de serre très puissant à court terme. S'y ajoutent la surface mobilisée et la déforestation liée aux cultures fourragères. Ce constat est robuste, et il n'annule pas les différences entre systèmes d'élevage : un pâturage extensif sur des prairies non cultivables stocke du carbone dans le sol et entretient des milieux ouverts, ce qu'un engraissement au soja importé ne fait pas.`],
+    ["Les régimes et leurs noms", `Un régime flexitarien réduit la consommation de viande sans l'exclure. C'est, en pratique, le levier le plus efficace à l'échelle d'une population : diviser par deux la consommation de viande d'un grand nombre de personnes produit un effet bien supérieur à la suppression totale par une minorité.
+
+Le végétarisme exclut la chair animale, avec des variantes selon qu'il accepte œufs et produits laitiers. Le véganisme va plus loin et exclut tout produit d'origine animale, y compris hors alimentation — cuir, laine, cosmétiques testés, miel. La différence n'est pas de degré mais de nature : le premier est un choix alimentaire, le second une position éthique sur l'usage des animaux.
+
+L'empreinte eau d'un aliment est la quantité d'eau mobilisée tout au long de sa production. Elle se décompose utilement en eau de pluie, eau prélevée dans les nappes et rivières, et eau polluée. Cette distinction évite les comparaisons absurdes : un aliment gourmand en eau de pluie dans une région humide ne pose pas le même problème qu'un aliment irrigué dans une région en stress hydrique.
+
+La saisonnalité, enfin, est la période de production naturelle d'un produit sans forçage. Une tomate de serre chauffée en hiver peut avoir une empreinte supérieure à une tomate importée d'Espagne en pleine terre — la saison compte souvent davantage que la distance.`],
+    ["Ne pas jeter", `Le gaspillage alimentaire domestique désigne les aliments achetés puis jetés sans avoir été consommés. Il représente en France plusieurs dizaines de kilogrammes par personne et par an, dont une part importante de produits encore emballés. Son coût climatique est double : on a produit pour rien, et le déchet organique émet en se décomposant.
+
+Les leviers domestiques sont simples et documentés : planifier ses achats et faire une liste, ce qui réduit les achats impulsifs ; comprendre les dates — la date de durabilité minimale, « à consommer de préférence avant », n'impose aucun rejet ; ranger le réfrigérateur de façon à voir ce qui doit partir ; et accommoder les restes, savoir-faire que la cuisine bourgeoise a longtemps cultivé et que l'abondance a fait perdre.
+
+À l'échelle de la filière, les pertes se situent surtout au champ, au stockage et à la distribution, avec des causes très différentes selon les pays — pertes post-récolte faute d'infrastructures dans les pays à faible revenu, gaspillage au stade de la consommation dans les pays riches.`],
+    ["L'emballage", `Un emballage recyclable est un emballage effectivement pris en charge par une filière de recyclage — précision qui compte, car un matériau techniquement recyclable sans filière ni débouché ne l'est pas en pratique. Le verre, l'acier, l'aluminium et le carton se recyclent bien ; les plastiques inégalement, et les emballages multicouches presque pas.
+
+La consigne pour réemploi suit une autre logique, souvent confondue avec la consigne pour recyclage : l'emballage est repris, lavé et réutilisé tel quel, sans être refondu. Une bouteille de verre réemployée une dizaine de fois présente un bilan nettement meilleur qu'une bouteille recyclée à chaque usage, à condition que les distances de collecte restent raisonnables — le verre est lourd, et le transport peut annuler le gain.
+
+Le système a existé partout en France jusqu'aux années 1980 et fonctionne encore en Allemagne. Sa reconstitution suppose une standardisation des contenants, un réseau de collecte et des laveries industrielles — c'est-à-dire une infrastructure qu'il avait fallu des décennies à bâtir et quelques années à démanteler.`],
+  ],
+
+  "ga3-cuisines-asie": [
+    ["La Chine au pluriel", `La cuisine chinoise réunit des traditions régionales très différentes entre elles, à la mesure d'un pays continent. On distingue classiquement huit grandes écoles, dont deux dominent la représentation qu'on en a.
+
+La cuisine cantonaise, du sud, est celle qui a le plus influencé les restaurants chinois d'Occident, parce que l'émigration chinoise des XIXe et XXe siècles est partie majoritairement du Guangdong. Elle privilégie la vapeur, les cuissons courtes, les sauces légères et une recherche de la fraîcheur du produit. Le dim sum en est l'expression la plus connue : un ensemble de petites préparations servies à la vapeur ou frites, consommées le matin ou à midi avec du thé.
+
+La cuisine sichuanaise, de l'ouest, est réputée pour son usage du piment et du poivre du Sichuan. Ce dernier n'est pas un poivre et ne pique pas : il produit une sensation d'engourdissement et de picotement électrique, due à une molécule qui stimule les récepteurs tactiles. L'association du piquant du piment et de cet engourdissement porte un nom propre, *málà*, et constitue une catégorie de sensation à part entière que le français ne sait pas nommer.`],
+    ["Le Japon et le goût fondamental", `Le dashi est le bouillon de base de la cuisine japonaise, préparé à partir d'algue kombu et de copeaux de bonite séchée. Sa préparation prend quelques minutes et il est présent partout — soupes, sauces, cuissons, marinades.
+
+Son importance dépasse la cuisine japonaise : c'est en cherchant à comprendre pourquoi le dashi avait ce goût si particulier qu'un chimiste japonais isola en 1908 le glutamate et identifia l'umami comme cinquième saveur fondamentale, aux côtés du sucré, du salé, de l'acide et de l'amer. Il fallut près d'un siècle pour que l'existence de récepteurs spécifiques soit confirmée et que la découverte soit universellement acceptée.
+
+Le miso est une pâte fermentée de soja, obtenue avec un ferment de riz ou d'orge, dont les variétés vont du blanc doux et jeune au rouge puissant longuement affiné. C'est un condiment, un assaisonnement et une source d'umami. Une règle de cuisine s'y attache : on ne fait pas bouillir une soupe après y avoir dissous le miso, la chaleur détruisant ses arômes et ses ferments.`],
+    ["Corée et Asie du Sud-Est", `Le kimchi coréen est un légume fermenté, le plus souvent du chou chinois salé puis enrobé d'une pâte de piment, d'ail, de gingembre et de saumure de poisson. Il en existe des centaines de variantes, et il accompagne pratiquement tous les repas. Sa préparation collective à l'automne, le *kimjang*, est inscrite au patrimoine culturel immatériel de l'humanité — ce qui est reconnu n'est pas la recette mais le moment social de partage entre voisines et familles.
+
+Le nuoc-mâm est une sauce de poisson fermenté vietnamienne, obtenue par salaison longue d'anchois dont on recueille le liquide. Elle joue le rôle du sel et de l'umami dans toute la cuisine du Sud-Est asiatique, et son ancêtre romain, le *garum*, occupait exactement la même fonction dans l'Antiquité méditerranéenne — deux inventions indépendantes du même principe.
+
+Le pho vietnamien est une soupe de nouilles de riz au bouillon longuement mijoté, parfumé d'épices grillées — badiane, cannelle, gingembre —, servie avec des herbes fraîches ajoutées au dernier moment. Le curry thaï vert repose sur une pâte d'épices fraîches pilées — piments verts, citronnelle, galanga, coriandre — délayée dans du lait de coco.`],
+    ["Le principe de l'équilibre", `De nombreuses cuisines d'Asie du Sud-Est sont structurées par la recherche d'un équilibre entre l'acide, le sucré, le salé et le pimenté, parfois complété par l'amer. Ce n'est pas une préférence esthétique mais une méthode de composition : chaque plat s'ajuste en fin de préparation en corrigeant l'une des dimensions, comme on accorde un instrument.
+
+En cuisine thaïe, la salade de papaye verte se règle ainsi au moment du service — un trait de citron vert pour l'acide, de la sauce de poisson pour le salé, du sucre de palme pour le sucré, du piment pilé pour le feu. Le cuisinier goûte et ajuste, et deux versions du même plat diffèrent selon le mangeur.
+
+Cette logique se retrouve dans la disposition des condiments sur la table, où chacun rectifie son bol. Elle contraste avec la tradition française, où l'assaisonnement est arrêté en cuisine et où corriger dans l'assiette est presque une critique du cuisinier. Deux conceptions du plat achevé, l'une close, l'autre ouverte.`],
+  ],
 };
