@@ -1143,4 +1143,186 @@ Au Cameroun, la France a mené avant et après l'indépendance une guerre contre
 
 L'héritage de ces guerres est fait de mémoires conflictuelles et de reconnaissances tardives. Les archives s'ouvrent lentement, les qualifications juridiques restent disputées, et les commémorations diffèrent selon les pays et les groupes concernés. Chaque avancée mémorielle — reconnaissance des disparitions forcées, accès aux archives, restitution d'objets ou de restes humains — intervient des décennies après les faits, et souvent après le décès des principaux témoins.`],
   ],
+
+  "hm3-histoire-sciences-monde": [
+    ["Ce qui fait la science moderne", `La science moderne naît de la rencontre entre trois éléments : l'expérimentation, la mathématisation et la publication.
+
+Aucun n'est nouveau isolément. Les Grecs mathématisaient, les artisans expérimentaient, les savants correspondaient. Ce qui change au XVIIe siècle est leur combinaison systématique : une hypothèse s'énonce en langage mathématique, se teste par une expérience reproductible, et se soumet au jugement d'une communauté qui peut la vérifier.
+
+La publication est la clé la moins visible. La Royal Society, fondée à Londres en 1660, adopte une devise significative — *nullius in verba*, ne croire personne sur parole — et publie à partir de 1665 les *Philosophical Transactions*, première revue scientifique. Le protocole doit être décrit assez précisément pour qu'un autre puisse refaire l'expérience.
+
+Nicolas Copernic publie en 1543, l'année de sa mort, un modèle héliocentrique du système solaire. Son ouvrage n'est pas immédiatement révolutionnaire — il conserve les orbites circulaires et une machinerie complexe — mais il déplace le centre.
+
+Kepler énonce au début du XVIIe siècle les lois du mouvement elliptique des planètes, en renonçant au cercle après des années de calculs sur les observations de Tycho Brahe. Newton unifie l'ensemble dans les *Principia* de 1687 : une même loi de gravitation explique la chute des corps et le mouvement des planètes.`],
+    ["Le vivant et la matière", `William Harvey décrit en 1628 la circulation du sang, contre une doctrine galénique vieille de quinze siècles. Sa démonstration est remarquable par sa méthode : il calcule le volume de sang expulsé par battement, le multiplie par le nombre de battements quotidiens, et constate que le corps ne peut pas produire une telle quantité — donc le sang circule en boucle.
+
+Lavoisier fonde la chimie moderne à la fin du XVIIIe siècle en pesant systématiquement réactifs et produits : il établit la conservation de la masse, identifie le rôle de l'oxygène dans la combustion et la respiration, et crée une nomenclature où le nom dit la composition.
+
+Darwin publie en 1859 *L'Origine des espèces*, qui expose l'évolution par sélection naturelle. Sa force tient à un mécanisme simple appliqué à une masse d'observations, et il attendra vingt ans avant de publier, conscient des conséquences.
+
+Pasteur établit dans les années 1860 que les micro-organismes ne naissent pas spontanément et qu'ils causent des maladies. Ses expériences avec les ballons à col de cygne réfutent la génération spontanée par un dispositif d'une élégance qui en fait un modèle d'expérience cruciale.
+
+Le début du XXe siècle apporte une double révolution : la relativité, qui redéfinit espace, temps et gravitation, et la mécanique quantique, qui décrit le monde atomique avec des règles probabilistes contredisant toute intuition.`],
+    ["Comment la science change", `Thomas Kuhn propose en 1962 une description du progrès scientifique qui rompt avec l'image d'une accumulation régulière.
+
+Selon lui, la science alterne des périodes de science normale — où une communauté partage un paradigme, un ensemble de théories, de méthodes et de problèmes légitimes, et résout des énigmes à l'intérieur de ce cadre — et des révolutions, où l'accumulation d'anomalies inexplicables provoque un changement de paradigme.
+
+Le point le plus discuté de sa thèse est l'incommensurabilité : deux paradigmes successifs ne parlent pas exactement du même monde, et le passage de l'un à l'autre relève en partie de la conversion. Le mot « paradigme », popularisé par ce livre, est aujourd'hui employé partout dans un sens beaucoup plus vague.
+
+Cette analyse a été critiquée pour son relativisme apparent, et elle a durablement modifié la façon dont l'histoire des sciences est écrite : non plus comme une marche vers la vérité, mais comme une succession de cadres qui rendent certaines questions posables et d'autres invisibles.`],
+    ["Une science qui circule", `L'histoire des sciences a longtemps été racontée comme une affaire européenne, avec une antiquité grecque suivie d'un silence médiéval puis d'un réveil à la Renaissance. Cette narration est aujourd'hui abandonnée.
+
+Notre système de chiffres vient d'Inde, où la numération de position et le zéro comme nombre sont mis au point vers le Ve siècle. Il est transmis par le monde arabe, qui le diffuse en Occident — d'où l'appellation trompeuse de chiffres arabes, que les mathématiciens arabes appelaient eux-mêmes chiffres indiens.
+
+L'algèbre, l'optique, l'astronomie de position, la médecine clinique et la chimie doivent au monde islamique des VIIIe-XIIIe siècles bien plus qu'une transmission : la production y fut originale, et les traductions latines du XIIe siècle ont nourri l'université médiévale.
+
+La Chine a inventé le papier, la boussole, la poudre, l'imprimerie, la fonte, l'écluse à sas et la variolisation, souvent des siècles avant l'Europe. La question de savoir pourquoi la révolution scientifique n'y a pas eu lieu — le problème de Needham — occupe les historiens depuis des décennies sans réponse consensuelle.
+
+La science moderne est donc née en Europe d'un héritage largement importé, et ce constat est aujourd'hui la position ordinaire de la discipline.`],
+  ],
+
+  "hm3-esclavage-abolitions": [
+    ["Un phénomène universel, une forme particulière", `L'esclavage a existé sur tous les continents et dans presque toutes les sociétés historiques : Mésopotamie, Grèce, Rome, mondes africains, musulmans, asiatiques et américains précolombiens.
+
+Sa forme atlantique en fut une variante particulière par deux traits. Son ampleur d'abord : environ douze millions de personnes déportées en quatre siècles. Sa racialisation ensuite : elle a lié le statut d'esclave à une origine géographique et à une couleur de peau, et l'a rendu héréditaire par la mère — ce qui n'était pas la règle dans la plupart des systèmes serviles antérieurs, où l'affranchissement et l'intégration restaient possibles.
+
+Le commerce triangulaire relie l'Europe, l'Afrique et l'Amérique : produits manufacturés et armes vers les côtes africaines, captifs vers les colonies américaines, denrées coloniales — sucre, café, coton, indigo — vers l'Europe. Chaque étape était bénéficiaire, ce qui explique l'enrichissement des ports atlantiques.
+
+Le passage du milieu désigne la traversée atlantique : plusieurs semaines dans des entreponts où les captifs étaient enchaînés, avec une mortalité moyenne de l'ordre de quinze pour cent, montant bien au-delà lors des traversées difficiles.
+
+Le Code noir de 1685 réglemente l'esclavage dans les colonies françaises. Il définit l'esclave comme un bien meuble, encadre les châtiments, impose le baptême — et interdit certaines pratiques, ce qui a permis à quelques auteurs d'y voir une protection. Sa qualification juridique de l'être humain comme meuble rend cette lecture difficile à soutenir.`],
+    ["Se libérer", `La révolution de Saint-Domingue est l'événement le plus considérable de cette histoire. Partie en 1791 d'une insurrection d'esclaves dans la colonie française la plus riche du monde, elle aboutit en 1804 à l'indépendance d'Haïti.
+
+C'est la seule révolte d'esclaves de l'histoire ayant abouti à la fondation d'un État, et la première république dirigée par d'anciens esclaves.
+
+Toussaint Louverture, ancien esclave affranchi devenu général puis gouverneur, en est la figure centrale. Il obtient l'abolition, gouverne la colonie et promulgue une constitution autonome. Bonaparte envoie une expédition en 1802 pour rétablir l'esclavage ; Toussaint est arrêté par traîtrise et déporté en France, où il meurt au fort de Joux dans le Jura.
+
+La lutte se poursuit sans lui et l'emporte contre le corps expéditionnaire, décimé par les combats et la fièvre jaune.
+
+Haïti paiera cette victoire pendant plus d'un siècle : les puissances esclavagistes l'isolent diplomatiquement, et la France n'accorde sa reconnaissance en 1825 qu'en échange d'une indemnité colossale destinée à dédommager les anciens propriétaires. La dette qui en résulte, refinancée par des banques françaises puis américaines, a été remboursée jusqu'au XXe siècle et a durablement compromis le développement du pays.`],
+    ["Abolir", `La France abolit l'esclavage une première fois en 1794, sous la Convention, sur pression des insurgés de Saint-Domingue et des commissaires envoyés sur place. Bonaparte le rétablit en 1802.
+
+L'abolition définitive intervient en 1848, portée par Victor Schœlcher, sous-secrétaire d'État aux colonies du gouvernement provisoire. Le décret est immédiat, mais il prévoit une indemnisation — versée non aux affranchis mais aux propriétaires, disposition longtemps passée sous silence et aujourd'hui centrale dans les débats mémoriels.
+
+Le Royaume-Uni procède en deux temps : abolition de la traite en 1807, puis de l'esclavage en 1833. Le mouvement abolitionniste britannique, animé par des Quakers, des évangéliques et d'anciens esclaves comme Olaudah Equiano, avait inventé les méthodes de la campagne d'opinion moderne : pétitions massives, boycott du sucre, images, témoignages. L'indemnisation des propriétaires britanniques fut telle que l'emprunt contracté à cette occasion n'a été soldé qu'en 2015.
+
+Les États-Unis abolissent l'esclavage en 1865, au terme d'une guerre civile qui fait plus de six cent mille morts.
+
+Le Brésil est le dernier pays américain à abolir, en 1888. Il avait aussi été le premier importateur de captifs — environ quatre millions, soit plus du tiers du total.`],
+    ["Aujourd'hui", `L'esclavage est interdit dans tous les pays du monde, le dernier — la Mauritanie — l'ayant pénalisé en 2007.
+
+Les organisations internationales estiment pourtant à plusieurs dizaines de millions le nombre de personnes en situation d'esclavage contemporain : travail forcé, servitude pour dettes, mariages forcés, exploitation d'enfants, traite des êtres humains.
+
+Ces situations diffèrent de l'esclavage historique par un point juridique décisif : aucun droit de propriété n'est reconnu sur la personne. Elles en partagent la caractéristique essentielle — une personne est contrainte de travailler sans pouvoir partir, sous menace ou par piège économique.
+
+Les secteurs les plus concernés sont documentés : agriculture, pêche, construction, textile, travail domestique, exploitation minière artisanale. Les chaînes d'approvisionnement mondiales en font une question qui concerne les entreprises et les consommateurs des pays riches, ce qu'ont reconnu plusieurs législations sur le devoir de vigilance.
+
+La reconnaissance mémorielle de la traite a progressé tardivement : la France l'a reconnue comme crime contre l'humanité par la loi Taubira de 2001, et le 10 mai est devenu journée nationale de commémoration.`],
+  ],
+
+  "hm3-migrations-histoire": [
+    ["Une constante, non une exception", `Les migrations sont une constante de l'histoire humaine, et non un phénomène moderne exceptionnel.
+
+Homo sapiens a peuplé la planète par des migrations successives depuis l'Afrique, à partir d'environ soixante-dix mille ans avant le présent, atteignant l'Australie, l'Europe, l'Asie puis les Amériques. La génétique des populations a reconstitué ces trajets avec une précision croissante, et elle a établi que toutes les populations actuelles descendent de ces vagues.
+
+L'histoire ultérieure est faite de déplacements : invasions, colonisations, déportations, migrations commerciales, exils religieux, fuites devant la famine ou la guerre.
+
+Le fait notable n'est donc pas l'existence des migrations mais leur encadrement. Le passeport généralisé, les visas, les quotas et les frontières contrôlées sont des inventions récentes, pour l'essentiel du XXe siècle — avant 1914, on circulait en Europe et vers les Amériques sans document dans la plupart des cas.`],
+    ["La grande vague atlantique", `Environ cinquante millions d'Européens ont émigré vers les Amériques entre 1815 et 1930. C'est probablement le plus grand mouvement migratoire volontaire de l'histoire, et il a durablement peuplé les États-Unis, le Canada, l'Argentine, le Brésil et l'Australie.
+
+Ses causes se combinent : croissance démographique européenne, industrialisation détruisant l'artisanat rural, disponibilité de terres, et surtout baisse du coût de la traversée avec le bateau à vapeur.
+
+La grande famine irlandaise, après 1845, provoque une émigration massive : le mildiou de la pomme de terre, dont dépendait presque exclusivement la population pauvre, anéantit les récoltes plusieurs années de suite. Un million de morts, un million d'émigrés, et une population de l'île qui n'a jamais retrouvé son niveau d'avant.
+
+Ellis Island, dans la baie de New York, a accueilli entre 1892 et 1954 plus de douze millions d'immigrants. La procédure y était rapide — quelques heures — et le taux de refus faible, de l'ordre de deux pour cent, essentiellement pour raisons médicales.
+
+La loi américaine sur les quotas de 1924 met fin à cette ouverture : elle limite l'immigration selon des quotas nationaux calculés pour favoriser l'Europe du Nord et de l'Ouest, et exclut presque totalement l'Asie. Elle restera en vigueur jusqu'en 1965.`],
+    ["Migrations internes et de travail", `La Grande Migration déplace au XXe siècle environ six millions d'Afro-Américains du Sud rural vers les villes du Nord et de l'Ouest des États-Unis, en deux vagues séparées par la crise de 1929.
+
+Elle fuit la ségrégation, les violences racistes et la misère du métayage, et répond à la demande de main-d'œuvre industrielle. Elle transforme la géographie sociale et culturelle du pays — le jazz de Chicago, la Motown de Détroit et le mouvement des droits civiques en sont directement issus.
+
+L'immigration de travail en France après 1945 relève d'une autre logique : un recrutement organisé de main-d'œuvre étrangère pendant les Trente Glorieuses, pour les mines, le bâtiment et l'automobile, avec un Office national d'immigration chargé de la sélection.
+
+La suspension de l'immigration de travail décidée en 1974, après le choc pétrolier, produit un effet inverse à celui recherché : les travailleurs présents, craignant de ne plus pouvoir revenir, cessent les allers-retours et font venir leur famille. Une immigration de rotation devient une immigration d'installation.
+
+C'est un enseignement récurrent des politiques migratoires : fermer une voie ne supprime pas le mouvement, elle en modifie la forme.`],
+    ["Réfugiés", `Un réfugié, au sens de la convention de Genève de 1951, est une personne qui, craignant avec raison d'être persécutée du fait de sa race, de sa religion, de sa nationalité, de son appartenance à un groupe social ou de ses opinions politiques, se trouve hors de son pays et ne peut s'en réclamer.
+
+La définition est précise et restrictive. Elle n'inclut ni les personnes fuyant la misère, ni celles fuyant une catastrophe naturelle ou climatique — lacune de plus en plus discutée.
+
+Son principe cardinal est le non-refoulement : nul ne peut être renvoyé vers un pays où sa vie ou sa liberté serait menacée.
+
+Un déplacé interne fuit les mêmes dangers sans avoir franchi de frontière internationale. Il n'est donc pas couvert par la convention et relève de son propre État — celui-là même qui est souvent à l'origine de sa fuite. Les déplacés internes sont aujourd'hui plus nombreux que les réfugiés.
+
+Un fait est constamment absent du débat européen : la majorité des réfugiés du monde résident dans des pays voisins de leur pays d'origine, souvent à revenu faible ou intermédiaire. Turquie, Iran, Colombie, Pakistan, Ouganda et Liban en accueillent davantage que l'ensemble de l'Union européenne, et le Liban a compté jusqu'à un réfugié pour quatre habitants.`],
+  ],
+
+  "hm3-epidemies-histoire": [
+    ["Ce qu'une épidémie transforme", `Une épidémie ne se limite jamais à ses effets sanitaires : elle reconfigure l'économie, la société, les croyances et le pouvoir.
+
+La peste d'Athènes, pendant la guerre du Péloponnèse, est décrite par Thucydide qui l'a contractée et en a réchappé. Son récit est le premier compte rendu clinique et social d'une épidémie : symptômes, contagion des soignants, effondrement des règles funéraires, dissolution des normes morales devant l'imminence de la mort. Elle emporte Périclès et affaiblit durablement Athènes.
+
+La peste de Justinien, au VIe siècle, frappe l'Empire byzantin au moment de sa tentative de reconquête de l'Occident. Elle contribue à faire échouer le projet et affaiblit l'Empire face aux conquêtes ultérieures.
+
+La peste noire, au XIVe siècle, tue entre un tiers et la moitié de la population européenne en quelques années. Son effet économique est contre-intuitif et bien documenté : la pénurie de main-d'œuvre qui s'ensuit fait monter les salaires, accélère la fin du servage en Europe occidentale, et améliore matériellement la condition des survivants — au point que plusieurs pouvoirs légifèrent pour bloquer les salaires, sans succès.
+
+Elle produit aussi des persécutions massives contre les Juifs, accusés d'empoisonner les puits.`],
+    ["Les épidémies et la conquête", `La variole a contribué plus que tout autre facteur à l'effondrement démographique amérindien après 1492. Les populations américaines n'y avaient jamais été exposées, faute d'élevage dense — la plupart des maladies humaines venant d'animaux domestiques.
+
+L'ampleur de cette mortalité, souvent estimée à quatre-vingt-dix pour cent en un siècle et demi, explique largement la facilité des conquêtes espagnoles : les empires aztèque et inca étaient déjà frappés avant l'arrivée des conquistadors dans leurs capitales.
+
+C'est la même maladie qui donne lieu à la première vaccination. Edward Jenner observe en 1796 que les vachères ayant contracté la vaccine, maladie bénigne du bétail, ne contractent pas la variole. Il inocule le pus d'une vachère à un enfant, puis l'expose à la variole sans effet.
+
+Le mot « vaccin » vient de là — de *vacca*, la vache. La variole est aujourd'hui la seule maladie humaine éradiquée, déclarée telle en 1980 au terme d'une campagne mondiale.
+
+Le choléra frappe l'Europe par vagues au XIXe siècle et transforme les villes. C'est en cartographiant les cas autour d'une pompe à eau de Londres en 1854 que John Snow établit la transmission hydrique, avant même la découverte du germe. Les grands travaux d'égouts et d'adduction d'eau des capitales européennes en découlent directement — la santé publique naît du choléra.`],
+    ["Le XXe siècle et après", `La grippe de 1918, improprement dite espagnole — l'Espagne, neutre, ne censurait pas l'information et fut donc la première à en parler — a causé entre cinquante et cent millions de morts dans le monde, davantage que la guerre qui s'achevait.
+
+Sa particularité épidémiologique est d'avoir frappé lourdement les adultes jeunes, probablement par une réaction immunitaire excessive. La censure de guerre a retardé les mesures dans les pays belligérants, et l'événement a été singulièrement peu commémoré par la suite, éclipsé par le conflit.
+
+Le sida apparaît au début des années 1980. Il combine une transmission sexuelle et sanguine, une longue phase asymptomatique et une mortalité alors totale, ce qui produit une épidémie mondiale de plus de quarante millions de morts. Il a aussi transformé les rapports entre malades et médecine : les associations de patients ont obtenu un accès accéléré aux traitements et une place dans les protocoles de recherche, ce qui a fait précédent pour toutes les autres maladies.
+
+La quarantaine, mesure sanitaire ancienne, tire son nom des quarante jours d'isolement imposés aux navires à Venise et à Raguse au XIVe siècle. Ce dispositif, purement empirique, précède de cinq siècles la compréhension des mécanismes de contagion.
+
+Une pandémie se distingue d'une épidémie par son extension à plusieurs continents. La distinction n'est pas de gravité mais de géographie, ce que la déclaration de pandémie de 2020 a rappelé à un public qui y a souvent vu une échelle de danger.`],
+  ],
+
+  "hm3-monnaie-histoire": [
+    ["Le mythe du troc", `Le troc pur n'a probablement jamais constitué le régime dominant d'une économie. C'est pourtant le récit standard des manuels : d'abord le troc, puis la monnaie inventée pour en résoudre les inconvénients.
+
+Les anthropologues n'ont jamais trouvé de société fonctionnant ainsi. Ce qu'on observe dans les sociétés sans monnaie, ce sont des systèmes de dette et de réciprocité : on donne, on note mentalement, on rend plus tard. Le troc immédiat apparaît surtout entre étrangers ou lorsqu'une monnaie disparaît.
+
+La monnaie serait donc née de la comptabilisation des dettes plutôt que de la difficulté à échanger deux marchandises — thèse développée notamment par David Graeber, et discutée.
+
+Les premières monnaies frappées apparaissent en Lydie, en Asie Mineure, au VIIe siècle avant notre ère : des pastilles d'électrum, alliage naturel d'or et d'argent, marquées d'un sceau garantissant le poids et le titre. L'innovation n'est pas le métal précieux, employé depuis longtemps, mais la garantie publique qui dispense de peser et d'éprouver à chaque transaction.
+
+Le denier romain devient la référence de tout l'Empire, et sa dévaluation progressive — la teneur en argent passant de plus de quatre-vingt-dix pour cent à quelques pour cent en deux siècles — accompagne la crise du IIIe siècle.`],
+    ["Payer sans transporter", `La lettre de change, au Moyen Âge, permet de transférer de l'argent sans transporter de métal : un marchand verse une somme à un banquier dans une ville, et son correspondant la retire dans une autre, dans une autre monnaie.
+
+L'instrument résout deux problèmes à la fois : le risque du transport sur des routes peu sûres, et l'interdiction canonique du prêt à intérêt — le change entre monnaies permettant de dissimuler une rémunération dans le taux appliqué.
+
+Les banquiers italiens dominent ce système. Les Médicis, à Florence au XVe siècle, en font une puissance financière et politique : réseau de succursales européennes, comptabilité en partie double, gestion de la trésorerie pontificale, et une famille qui donnera des papes et des reines de France.
+
+L'afflux d'argent américain, à partir du XVIe siècle, perturbe profondément l'économie européenne. Les mines de Potosí, dans l'actuelle Bolivie, produisent à elles seules une part considérable de l'argent mondial, extrait par un travail forcé qui a coûté d'innombrables vies.
+
+La masse monétaire européenne triple, et les prix montent fortement pendant un siècle et demi. Cette « révolution des prix » ruine les rentiers, enrichit les producteurs, et a fourni aux économistes leur premier objet d'analyse quantitative — Jean Bodin établit dès 1568 le lien entre afflux de métal et hausse des prix.`],
+    ["Papier et confiance", `Le système de Law, en France, est la première expérience européenne de papier-monnaie à grande échelle. John Law, financier écossais, obtient de la Régence la création d'une banque émettant des billets, puis d'une compagnie coloniale dont les actions sont adossées à ces billets.
+
+Le mécanisme s'emballe en 1719 : la spéculation sur les actions de la compagnie du Mississippi atteint des sommets, la banque émet massivement pour la soutenir, et tout s'effondre en 1720 quand les porteurs veulent convertir en métal.
+
+Les conséquences dépassent la ruine des spéculateurs : la France se méfiera du papier-monnaie et des banques pendant plus d'un siècle, ce qui la placera en retard sur l'Angleterre dans le financement de l'industrie.
+
+L'étalon-or, généralisé au XIXe siècle, fixe la valeur de chaque monnaie en or et rend les changes stables. Il impose une discipline stricte : un pays en déficit perd son or, ce qui contracte sa masse monétaire et déprime son économie jusqu'au rééquilibrage. Cette rigueur, admirée pour la stabilité qu'elle apporte, s'est révélée insoutenable lors de la crise de 1929, où elle a aggravé la déflation.
+
+Le système de Bretton Woods de 1944 en conserve une version indirecte : le dollar est convertible en or, les autres monnaies sont fixées par rapport au dollar. Nixon suspend cette convertibilité en 1971, et les changes deviennent flottants.`],
+    ["Ce qui donne sa valeur à la monnaie", `La monnaie fiduciaire tire sa valeur de la confiance et non d'un métal — *fiducia* signifie confiance en latin. Depuis 1971, toutes les monnaies du monde sont dans ce cas : aucune n'est convertible en quoi que ce soit.
+
+Ce qui les fait tenir est un ensemble de conventions : l'État accepte la monnaie en paiement de l'impôt, la loi lui donne cours légal, et une banque centrale indépendante en garantit la stabilité. Une monnaie s'effondre quand cette confiance disparaît, indépendamment de toute réserve.
+
+Une cryptomonnaie est une monnaie numérique reposant sur un registre distribué, tenu collectivement par un réseau plutôt que par une autorité centrale, et sécurisé par la cryptographie.
+
+Sa promesse initiale était de se passer de tiers de confiance. Sa réalité s'en est éloignée : la volatilité de ces actifs les rend impropres au rôle d'unité de compte, l'essentiel des transactions passe par des plateformes centralisées, et l'usage dominant est spéculatif plutôt que monétaire. La consommation énergétique de certains protocoles constitue en outre un problème documenté.
+
+Les banques centrales développent en réponse des monnaies numériques de banque centrale, qui reprennent la forme technique sans l'idée de décentralisation — une monnaie officielle sous forme numérique, dont les enjeux portent sur la traçabilité et la place des banques commerciales.`],
+  ],
 };
