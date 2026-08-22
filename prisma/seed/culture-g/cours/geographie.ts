@@ -204,4 +204,63 @@ Le pic pétrolier désigne le moment où la production mondiale atteindrait son 
 
 Trois mécanismes sont avancés. La rente surévalue la monnaie et handicape les autres secteurs exportateurs — c'est le syndrome hollandais. Elle rend les recettes publiques dépendantes de cours volatils, donc les budgets instables. Et elle affaiblit le lien fiscal entre l'État et les citoyens : un gouvernement qui vit du pétrole n'a pas besoin de lever l'impôt, donc pas besoin de rendre des comptes. La Norvège fait figure de contre-exemple, en ayant placé sa rente dans un fonds souverain et maintenu une fiscalité ordinaire.`],
   ],
+
+  "geo2-transports-mondialisation": [
+    ["La mer, d'abord", `Environ quatre-vingts pour cent du commerce mondial en volume passe par la mer. Ce chiffre, souvent cité et rarement mesuré, dit l'essentiel : l'économie mondiale repose sur une infrastructure maritime que presque personne ne voit.
+
+L'innovation décisive n'est ni un navire ni un moteur, mais une boîte. Le conteneur normalisé, généralisé à partir des années 1960, a supprimé la manutention pièce par pièce : le chargement d'un navire est passé de plusieurs jours à quelques heures, et le coût du fret s'est effondré. C'est ce qui a rendu rentable la fragmentation de la production entre continents.`],
+    ["Les points de passage", `Quelques passages étroits concentrent l'essentiel des flux. Le détroit de Gibraltar relie la Méditerranée à l'Atlantique. Le canal de Suez relie la Méditerranée à la mer Rouge et évite le contournement de l'Afrique — son blocage accidentel par un porte-conteneurs en 2021 a désorganisé le commerce mondial en quelques jours.
+
+Le détroit d'Ormuz contrôle la sortie du golfe Persique et voit passer une part majeure du pétrole mondial. Le détroit de Malacca, entre la péninsule malaise et Sumatra, concentre le trafic entre l'océan Indien et l'Asie orientale. Ces goulets sont les points de vulnérabilité les plus commentés de l'économie mondiale, et la raison d'être de plusieurs dispositifs militaires permanents.`],
+    ["Concentrer pour distribuer", `Un hub est une plateforme de correspondance qui concentre les flux pour les redistribuer : au lieu de relier chaque point à tous les autres, on fait converger vers un nœud. Le principe vaut pour le transport aérien de passagers comme pour le fret maritime.
+
+Shanghai est le premier port mondial pour le trafic de conteneurs, devant plusieurs autres ports chinois — l'Asie orientale concentre la quasi-totalité du classement. Rotterdam reste le premier port européen, grâce à sa position à l'embouchure du Rhin et à son accès direct à l'arrière-pays industriel allemand.`],
+    ["L'air, et les nouvelles routes", `Le fret aérien représente une très faible part du volume du commerce mondial — moins d'un pour cent — mais une part importante de sa valeur, autour du tiers. Il transporte ce qui est urgent, périssable ou coûteux : composants électroniques, médicaments, pièces détachées critiques, fleurs coupées.
+
+La Chine a lancé en 2013 un vaste programme d'infrastructures reliant l'Asie à l'Europe et à l'Afrique, souvent appelé nouvelle route de la soie : ports, voies ferrées, routes, financés par des prêts chinois. Son ampleur est considérable et son évaluation contestée — outil de développement pour les uns, instrument d'influence et piège d'endettement pour les autres.`],
+  ],
+
+  "geo2-frontieres-conflits": [
+    ["Aucune frontière n'est naturelle", `Une frontière n'est jamais naturelle : même un fleuve suppose une convention sur la ligne exacte — rive, milieu du lit, chenal navigable — et le lit d'un fleuve se déplace. L'expression frontière naturelle relève de la rhétorique politique, non de la géographie.
+
+Une frontière artificielle, tracée sans suivre un élément du relief, est simplement plus visible sur une carte : les lignes droites des frontières africaines et proche-orientales trahissent leur origine coloniale. Elles ont été négociées entre puissances européennes, souvent sans connaissance du terrain ni des peuples concernés.`],
+    ["Les cas particuliers", `Une enclave est un territoire entièrement entouré par un autre État. Un couloir territorial est à l'inverse une bande de territoire donnant accès à la mer ou reliant deux parties d'un même État — le couloir de Dantzig, le corridor de Wakhan afghan, l'accès bolivien à la mer perdu au XIXe siècle et toujours revendiqué.
+
+Le statut d'État non reconnu désigne un territoire disposant d'un pouvoir effectif, d'une population et de frontières, mais sans reconnaissance internationale large. Ces entités existent de fait sans exister en droit, ce qui les prive d'accès aux organisations internationales, aux financements et souvent au commerce légal.`],
+    ["Les grands contentieux", `Le Cachemire est disputé entre l'Inde, le Pakistan et la Chine depuis 1947 : trois guerres et une ligne de contrôle qui n'est pas une frontière reconnue, dans une zone où deux puissances nucléaires se font face. Le Sahara occidental est administré par le Maroc et revendiqué par un mouvement indépendantiste, dans un conflit gelé depuis un cessez-le-feu de 1991.
+
+Taïwan est revendiquée par la Chine comme partie de son territoire ; l'île dispose d'un gouvernement, d'une armée et d'élections, mais d'une reconnaissance diplomatique très limitée. La mer de Chine méridionale voit s'affronter plusieurs revendications sur des îlots et des récifs, dont l'enjeu réel est le contrôle des ressources et des voies maritimes — la Chine y a construit des îles artificielles militarisées.`],
+    ["Les zones à statut particulier", `La zone démilitarisée qui sépare les deux Corées depuis l'armistice de 1953 n'est pas une frontière internationale mais une ligne de cessez-le-feu : la guerre n'a jamais été formellement close par un traité de paix. Paradoxalement, l'absence humaine y a créé une réserve écologique involontaire.
+
+L'Antarctique relève d'un régime unique : le traité de 1959 gèle les revendications territoriales, interdit toute activité militaire et réserve le continent à la recherche scientifique. Personne n'y exerce de souveraineté, et sept États maintiennent des revendications suspendues — modèle souvent cité comme précédent pour la gouvernance des espaces communs.`],
+  ],
+  "geo2-tourisme-mondial": [
+    ["Des flux très concentrés", `Le tourisme international reste très concentré : une poignée de pays capte la majorité des flux. L'Europe reçoit à elle seule environ la moitié des arrivées mondiales, grâce à sa densité de sites, à la proximité des marchés émetteurs et à la facilité de circulation intracontinentale.
+
+Le tourisme balnéaire, centré sur les littoraux et la baignade, constitue le premier segment mondial ; il concentre les flux sur des bandes côtières étroites et saisonnières, avec les conséquences que cela suppose sur l'artificialisation et la ressource en eau. En France, les sites les plus visités varient selon les années et les modes de comptage — Notre-Dame de Paris dominait avant l'incendie de 2019, le Louvre reste en tête des musées.`],
+    ["Trop de monde", `La capacité de charge d'un site est le nombre de visiteurs qu'il peut accueillir sans dégradation — physique pour le site, et acceptable pour les habitants. Sa mesure est délicate et son dépassement visible : sentiers érodés, files d'attente, saturation des transports.
+
+Venise a instauré un droit d'entrée pour les visiteurs à la journée, mesure inédite pour une ville habitée, afin de limiter les flux d'excursionnistes qui consomment l'espace sans rien dépenser sur place. D'autres sites ont opté pour des quotas ou la réservation obligatoire. Le tourisme de croisière concentre les critiques : il débarque plusieurs milliers de personnes en quelques heures, avec des retombées locales faibles puisque les passagers dorment et mangent à bord.`],
+    ["Ce que le tourisme fait aux lieux", `Les effets économiques locaux sont ambivalents. Le tourisme crée des emplois, mais souvent saisonniers, peu qualifiés et mal rémunérés ; il fait monter les prix, notamment immobiliers, ce qui peut chasser les habitants permanents.
+
+L'effet le plus documenté concerne le logement : dans les villes très visitées, la location de courte durée réduit l'offre de logements permanents et renchérit les loyers. Plusieurs métropoles ont réglementé — quotas de nuitées, autorisation de changement d'usage, compensation obligatoire — avec des résultats inégaux.`],
+    ["Se souvenir, et compter le carbone", `Le tourisme mémoriel désigne la visite de lieux liés à des événements historiques douloureux : camps de concentration, champs de bataille, sites de catastrophes. Il pose des questions propres — respect dû aux victimes, tenue et comportement des visiteurs, frontière avec le voyeurisme — que les gestionnaires de ces lieux traitent par une médiation étroitement encadrée.
+
+Enfin, le tourisme représente environ huit pour cent des émissions mondiales de gaz à effet de serre, dont l'essentiel provient du transport aérien longue distance. Le rapport est très inégal : une minorité de voyageurs effectuant des vols longs produit une part disproportionnée du total. C'est ce constat qui oriente les débats actuels vers la distance et la fréquence des voyages plutôt que vers le comportement sur place.`],
+  ],
+
+  "geo2-biomes": [
+    ["Le climat, puis le sol", `Un biome est un grand ensemble écologique défini par son climat et sa végétation dominante. Leur répartition suit d'abord le climat, ensuite les sols et le relief : c'est pourquoi les cartes des biomes et des climats se ressemblent, avec des nuances locales importantes.
+
+Aux hautes latitudes de l'hémisphère nord s'étend la taïga, immense forêt de conifères qui forme la plus vaste étendue forestière continue du monde. Au-delà, là où les arbres ne poussent plus, la toundra couvre le sol de mousses, de lichens et d'arbustes nains sur un substrat gelé en profondeur.`],
+    ["Les zones chaudes", `L'Amazonie est la plus étendue des forêts tropicales humides : elle abrite une part considérable de la biodiversité mondiale et joue un rôle majeur dans les cycles de l'eau et du carbone. Sa déforestation, mesurée annuellement par satellite, varie fortement selon les politiques publiques en vigueur.
+
+La savane est une formation herbacée parsemée d'arbres, caractéristique des climats à saison sèche marquée ; le feu y joue un rôle écologique structurant, en empêchant la forêt de s'installer. La garrigue méditerranéenne, formation basse sur sol calcaire, résulte au contraire largement de l'action humaine : défrichement, pâturage et incendies répétés ont remplacé la forêt de chênes d'origine.`],
+    ["Les milieux de l'interface", `La mangrove est une forêt littorale tropicale adaptée à l'eau salée, dont les racines aériennes retiennent les sédiments. Elle protège les côtes de l'érosion et des tempêtes, sert de nurserie à de nombreuses espèces marines et stocke des quantités de carbone considérables ; elle a été massivement détruite pour l'aquaculture crevettière.
+
+Un récif corallien est une structure calcaire construite par des animaux vivant en symbiose avec des algues microscopiques. Cette symbiose est sa force et sa fragilité : au-delà d'un certain seuil de température, l'animal expulse l'algue et blanchit, puis meurt si l'épisode se prolonge. Une zone humide, enfin, est un milieu saturé d'eau au moins une partie de l'année — marais, tourbière, prairie inondable — longtemps considérée comme insalubre et asséchée, et dont on a redécouvert les fonctions d'épuration, de régulation des crues et de stockage de carbone.`],
+    ["Où se concentre la vie", `Un point chaud de biodiversité est une région qui combine deux critères : une richesse exceptionnelle en espèces endémiques, et une perte déjà considérable de son habitat d'origine. Le concept, formulé en 1988, sert à orienter les priorités de conservation avec des moyens limités.
+
+Une trentaine de ces points chauds ont été identifiés — bassin méditerranéen, Madagascar, forêts atlantiques du Brésil, Sundaland, Caucase. Ils couvrent une fraction minime des terres émergées et abritent une proportion considérable des espèces de plantes et de vertébrés terrestres. C'est cette disproportion qui fonde la stratégie : protéger peu de surface pour sauver beaucoup d'espèces.`],
+  ],
 };
