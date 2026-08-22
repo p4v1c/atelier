@@ -1033,4 +1033,158 @@ Une réfutation démontre qu'un argument adverse ne tient pas. Elle peut porter 
 
 L'ensemble de ces outils n'a rien de spécifique à l'exercice scolaire : ce sont les instruments ordinaires du débat public, et savoir les repérer chez les autres est la contrepartie de savoir les employer soi-même.`],
   ],
+
+  "lf3-lexique-emotions": [
+    ["Nommer ce qui est continu", `Les émotions sont difficiles à nommer parce qu'elles sont continues et mêlées, là où les mots découpent. Un état affectif ne se présente jamais à l'état pur ni avec des frontières nettes ; le vocabulaire, lui, impose des catégories discrètes.
+
+Le vocabulaire des émotions est un domaine où le français est particulièrement nuancé, avec des séries de termes voisins que rien ne distingue formellement mais que l'usage sépare finement.
+
+La distinction entre peur et angoisse en donne le modèle : la peur a un objet identifié — on a peur de quelque chose —, l'angoisse n'en a pas, et c'est précisément cette absence d'objet qui la caractérise et la rend insaisissable. La distinction est reprise en psychiatrie, où elle oriente le diagnostic.
+
+Des séries comparables organisent le champ : *tristesse*, *chagrin*, *peine*, *affliction*, *deuil*, *désespoir* ne diffèrent ni par la nature ni seulement par l'intensité, mais par la durée, la cause et la part d'acceptation.`],
+    ["Des mots qui ont une histoire", `Plusieurs termes d'émotion conservent la trace d'une théorie médicale ou d'une expérience historique oubliée.
+
+*Mélancolie* signifie littéralement « bile noire » : la médecine antique des humeurs attribuait la tristesse durable à un excès de cette humeur. Le mot a survécu à la théorie de mille cinq cents ans, et il a désigné successivement une maladie, un tempérament, une disposition artistique, puis un état d'âme diffus.
+
+*Nostalgie* est plus récent et plus précis : forgé en 1688 par un médecin suisse à partir du grec — *nostos*, le retour, et *algos*, la douleur —, il désignait une maladie observée chez les mercenaires suisses éloignés de leur pays, avec des symptômes physiques réels et parfois mortels. Le mal du pays était alors un diagnostic ; il est devenu un sentiment, et son objet s'est déplacé de l'espace vers le temps — on est aujourd'hui nostalgique d'une époque plus que d'un lieu.
+
+Le *spleen* de Baudelaire désigne un ennui existentiel profond, sans cause identifiable, mêlé de dégoût et d'angoisse. Le mot est anglais et désigne la rate, autre organe des humeurs — la boucle avec la mélancolie est complète.`],
+    ["Ce qu'une langue ne dit pas", `Un mot intraduisible est un mot dont aucun équivalent simple n'existe dans une autre langue. Il ne s'agit pas d'un concept inaccessible — on peut toujours l'expliquer en une phrase — mais d'une notion qu'une langue a jugé utile de lexicaliser et l'autre non.
+
+La *saudade* portugaise mêle nostalgie, mélancolie et désir de ce qui est absent, avec une nuance de douceur que le français ne rend pas d'un seul mot. Le *hygge* danois, la *morriña* galicienne, le *toska* russe décrit par Nabokov, le *mono no aware* japonais relèvent de la même catégorie.
+
+Ce que révèlent ces mots n'est pas que leurs locuteurs éprouvent des émotions inaccessibles aux autres — hypothèse invérifiable et probablement fausse — mais qu'une culture accorde assez d'importance à une nuance pour lui donner un nom, ce qui la rend plus facile à identifier et à partager. Nommer ne crée pas l'expérience ; il la rend disponible.`],
+    ["Sensations et métaphores", `Le vocabulaire des sensations procède massivement par emprunt d'un sens à un autre. La synesthésie désigne cette association : une couleur *chaude*, un son *clair*, un goût *rond*, une voix *douce*, un parfum *lourd*.
+
+Le goût en offre le cas le plus net : le français n'a pratiquement aucun terme propre pour décrire les saveurs au-delà des quatre ou cinq fondamentales. Tout le vocabulaire de la dégustation est emprunté — au toucher pour la texture, à la vue pour la couleur, à l'ouïe pour l'attaque, et à des comparaisons pour les arômes. C'est ce qui explique le caractère apparemment extravagant du vocabulaire œnologique : il n'a pas d'autre ressource que la comparaison.
+
+Les expressions figées liées au corps illustrent le même mécanisme à l'échelle des locutions : *avoir le cœur gros*, *prendre ses jambes à son cou*, *avoir l'estomac noué*, *garder la tête froide*. Elles ancrent l'abstrait dans le corporel, et l'on retrouve des équivalents dans toutes les langues — souvent avec un organe différent, ce qui rappelle que la métaphore est motivée sans être universelle.`],
+  ],
+
+  "lf3-oralite-traditions": [
+    ["Ce que l'écrit ne conservait pas", `La tradition orale a transmis pendant des siècles ce que l'écrit ne conservait pas. Dans une société où l'alphabétisation restait minoritaire et le livre rare, l'essentiel du savoir pratique, des récits et des normes circulait par la parole.
+
+Un conte populaire est un récit transmis oralement, existant en de multiples versions sans texte original. C'est sa caractéristique la plus importante et la plus contre-intuitive : il n'y a pas de version authentique dont les autres seraient des altérations. Chaque conteur recompose à partir d'une trame, adapte à son auditoire, ajoute et retranche.
+
+Les collectes du XIXe siècle ont figé cette matière mouvante. En France, Paul Sébillot, Achille Millien, Jean-François Bladé et d'autres folkloristes ont recueilli des milliers de versions, souvent auprès de femmes âgées, dans un mouvement européen dont les frères Grimm avaient donné le modèle.
+
+Ces collectes ont sauvé un patrimoine et l'ont transformé : le passage à l'écrit sélectionne une version, corrige la langue, atténue les éléments jugés choquants — les versions publiées sont souvent bien plus sages que celles qui ont été recueillies.`],
+    ["Classer l'innombrable", `La classification Aarne-Thompson, complétée par Uther, range les contes par types narratifs : chaque trame reçoit un numéro, indépendamment de la langue et du pays.
+
+Son intérêt est comparatif. Elle fait apparaître que les mêmes trames se retrouvent sur des continents entiers : le conte type 510A, celui de Cendrillon, est attesté en Europe, en Asie, en Afrique du Nord, avec une version chinoise du IXe siècle antérieure de sept siècles à celle de Perrault.
+
+Cette diffusion pose une question que les folkloristes n'ont jamais complètement tranchée : ces récits circulent-ils par emprunt le long des routes commerciales, ou naissent-ils indépendamment de structures narratives universelles ? Les deux explications ont leurs partisans et sont probablement toutes deux vraies selon les cas.
+
+Vladimir Propp a proposé en 1928 une autre approche : plutôt que de classer par contenu, il a analysé la structure des contes merveilleux russes et identifié une trentaine de fonctions narratives se succédant toujours dans le même ordre. Son travail a fondé l'analyse structurale du récit et influencé bien au-delà du conte — jusqu'aux manuels de scénario contemporains.`],
+    ["Chanter et travailler", `Une veillée était une réunion nocturne où l'on travaillait ensemble — filage, épluchage, réparations — en écoutant des récits et des chansons. Elle remplissait plusieurs fonctions à la fois : économiser le chauffage et l'éclairage, exécuter des tâches répétitives, transmettre le répertoire, et socialiser. Sa disparition, avec l'électricité et le travail salarié, a supprimé le principal lieu de transmission orale.
+
+Une chanson traditionnelle est transmise oralement, souvent sans auteur connu, et existe elle aussi en versions multiples. Une complainte est une chanson narrative racontant un fait tragique — crime, naufrage, catastrophe — et remplissait une fonction d'information autant que de divertissement : c'était la presse populaire avant la presse.
+
+Un chant de travail rythme un effort collectif : chants de marins pour hisser, de bûcherons, de moissonneurs, de lavandières. Le rythme y est fonctionnel, il synchronise les gestes ; la mécanisation les a fait disparaître en supprimant l'effort collectif cadencé qu'ils accompagnaient.`],
+    ["Les formes brèves", `Un proverbe est une formule figée exprimant une sagesse commune, généralement rythmée et souvent rimée : « qui vole un œuf vole un bœuf », « la nuit porte conseil ». Sa forme est stable et son autorité vient de son anonymat — il ne s'appuie sur personne et sur tout le monde.
+
+Un dicton est une formule brève souvent liée au calendrier ou à la météorologie : « à la Sainte-Catherine, tout bois prend racine », « Noël au balcon, Pâques aux tisons ». Certains encodent une observation agronomique réelle, d'autres reposent sur la rime plutôt que sur l'observation — et les vérifications statistiques donnent des résultats très inégaux.
+
+Ces formes brèves ont deux propriétés remarquables. Elles sont conçues pour la mémoire : rythme, rime, parallélisme, brièveté sont des dispositifs mnémotechniques, non des ornements. Et elles sont contradictoires entre elles — « tel père tel fils » et « à père avare fils prodigue » —, ce qui montre qu'un proverbe n'énonce pas une loi mais fournit un argument disponible pour interpréter une situation.
+
+La tradition orale a largement décliné parce que l'écrit, l'école obligatoire et les médias ont transformé les modes de transmission. Elle ne s'est pas éteinte pour autant : blagues, rumeurs, légendes urbaines et récits circulant sur les réseaux obéissent aux mêmes mécanismes de variation, d'anonymat et d'adaptation à l'auditoire.`],
+  ],
+
+  "lf3-langue-travail": [
+    ["Écrire pour agir", `Les écrits professionnels ont une particularité qui les distingue de tout autre écrit : ils servent à agir. Un compte rendu déclenche des tâches, une note oriente une décision, un courriel obtient ou non une réponse. Leur qualité ne se juge donc pas esthétiquement mais fonctionnellement.
+
+La clarté y compte pour une raison mesurable : un écrit ambigu génère des erreurs, des relances et des pertes de temps. Le coût d'un message mal rédigé se paie en aller-retours, et il est supporté par le destinataire — asymétrie qui explique pourquoi tant d'écrits sont rédigés pour l'émetteur plutôt que pour le lecteur.
+
+Un compte rendu de réunion restitue les échanges et surtout les décisions. Sa règle d'or est de distinguer nettement ce qui a été décidé, qui fait quoi et pour quand — le reste est du contexte. Un compte rendu qui rapporte fidèlement une discussion sans dégager ses conclusions n'a rendu aucun service.
+
+Un courriel professionnel efficace tient en quelques principes : un objet explicite qui permet de décider s'il faut ouvrir, une demande claire dès les premières lignes, un message par sujet, et une réponse attendue formulée sans ambiguïté.`],
+    ["Synthétiser", `Une note de synthèse présente l'essentiel d'un dossier de façon structurée, à destination d'un décideur qui n'a pas le temps de lire les sources. Elle suppose de lire beaucoup pour écrire peu, et sa difficulté n'est pas la réduction mais la hiérarchisation.
+
+Sa règle fondamentale est l'objectivité : elle restitue les positions en présence sans prendre parti, sauf si une recommandation est explicitement demandée — auquel cas elle doit être séparée de l'exposé. Confondre les deux discrédite l'ensemble.
+
+Un rapport d'activité rend compte de l'action menée sur une période. Son piège est symétrique : il tend à énumérer ce qui a été fait plutôt qu'à exposer ce que cela a produit. Un rapport utile compare l'objectif et le résultat, explique les écarts, et mentionne ce qui n'a pas fonctionné — cette dernière partie étant celle que tout le monde évite et celle qui a le plus de valeur.
+
+Une prise de notes efficace est une sélection structurée, non une transcription exhaustive. Les études sur la mémorisation le confirment : noter moins et reformuler retient davantage que noter tout, parce que la sélection oblige à traiter l'information au lieu de la transcrire mécaniquement.`],
+    ["Les langages de métier", `Chaque métier développe un vocabulaire qui l'identifie autant qu'il le sert. Le jargon professionnel est un vocabulaire technique commun à un métier, et il remplit une fonction réelle : il permet de désigner précisément et rapidement des notions que le langage courant rendrait par une périphrase.
+
+Il devient problématique quand il s'adresse à des non-spécialistes, où il produit exclusion et malentendu, et quand il sert à impressionner plutôt qu'à préciser. Le test est simple : un terme technique employé devant un pair est un gain de temps ; le même employé devant un usager est une barrière.
+
+Le novlangue managérial désigne un usage critiqué de formules abstraites qui masquent des réalités concrètes : « accompagner le changement » pour réorganiser, « ajuster les effectifs » pour licencier, « mobiliser les synergies » pour rien de précis.
+
+La critique porte sur deux points distincts. Le premier est l'euphémisation, qui atténue ce que l'on décrit et facilite son acceptation. Le second est le vide : des formules qui paraissent dire quelque chose sans rien affirmer de vérifiable, et dont on ne peut donc contester le contenu. Le test de la reformulation concrète est ici décisif — une phrase qu'on ne peut pas traduire en actions identifiables n'en décrit probablement aucune.
+
+Une lettre de motivation argumente l'adéquation entre un parcours et un poste. Sa faiblesse la plus fréquente est de raconter le candidat plutôt que de démontrer cette adéquation : elle doit répondre à la question du recruteur — pourquoi vous pour ce poste — et non à celle du candidat — pourquoi j'aimerais ce poste.`],
+  ],
+
+  "lf3-jeux-langue": [
+    ["Une tradition culturelle", `Les jeux de langue français constituent une véritable tradition culturelle, avec ses auteurs reconnus, ses concours, ses revues et ses publics.
+
+Les mots croisés apparaissent en 1913 dans un journal new-yorkais, sous la forme d'une grille en losange. Le genre traverse l'Atlantique dans les années 1920 et prend en France une orientation propre : là où la tradition anglo-saxonne privilégie la définition cryptique à structure codifiée, la tradition française cultive la définition à double sens, l'humour et l'allusion.
+
+L'auteur de grilles se nomme un verbicruciste. Georges Perec, membre de l'Oulipo, en a été l'un des plus réputés : il publia pendant des années des grilles hebdomadaires dont les définitions sont devenues des objets littéraires. Sa règle affichée était de ne jamais tromper le solveur — la définition devait être exacte, l'énigme venant du choix des mots et non d'un mensonge.
+
+Une définition cryptique repose sur une double lecture : elle décrit le mot d'une façon qui égare puis paraît évidente une fois trouvée. Sa réussite se mesure au soupir de satisfaction plutôt qu'à la difficulté.`],
+    ["Les jeux de lettres", `Le Scrabble combine vocabulaire, placement et calcul. Sa version compétitive — le Scrabble duplicate, où tous les joueurs disposent du même tirage et où seul compte le meilleur coup — élimine le hasard et transforme le jeu en exercice purement combinatoire. La France y compte plusieurs milliers de licenciés et domine régulièrement les compétitions internationales.
+
+La dictée comme exercice ludique est une particularité française : concours publics, retransmissions télévisées, dictées de célébrités. Bernard Pivot en a fait dans les années 1980 un spectacle national suivi par des millions de téléspectateurs. Le phénomène dit quelque chose du rapport français à l'orthographe — elle y est vécue comme une épreuve, un sport et un marqueur, ce qui n'a pas d'équivalent dans les pays voisins.
+
+Un mot-valise fusionne deux mots en un : *courriel* de courrier et électronique, *franglais*, *informatique* d'information et automatique, *brunch*. Lewis Carroll en a théorisé le procédé dans *De l'autre côté du miroir*, et il reste l'un des mécanismes les plus productifs de création lexicale contemporaine.`],
+    ["Les contraintes", `Un lipogramme est un texte qui s'interdit une lettre. *La Disparition* de Georges Perec, roman de plus de trois cents pages écrit sans la lettre *e* — la plus fréquente du français —, en constitue l'exemple extrême. La contrainte y est signifiante : le roman raconte une disparition, et plusieurs recensions ont manqué le procédé sans que leur lecture en soit rendue impossible.
+
+Perec a écrit ensuite *Les Revenentes*, où *e* est la seule voyelle autorisée — le complément exact.
+
+Un tautogramme fait commencer tous les mots par la même lettre. Un palindrome se lit dans les deux sens. L'Oulipo a formalisé des dizaines de contraintes de ce type, avec un principe explicite : la contrainte n'entrave pas la création, elle la déclenche en interdisant les solutions les plus immédiates.
+
+Ces jeux sont utiles pédagogiquement pour une raison précise : ils font manipuler la langue consciemment, en la traitant comme une matière, et sans enjeu d'évaluation. Un élève qui cherche un synonyme sans *e* explore son lexique avec une intensité qu'aucun exercice de vocabulaire n'obtient — et il le fait pour gagner, non pour être noté.`],
+  ],
+
+  "lf3-francais-monde-diffusion": [
+    ["Cent trente millions d'apprenants", `Environ cent trente millions de personnes apprennent le français dans le monde, ce qui en fait la deuxième langue la plus enseignée après l'anglais.
+
+Cette position doit peu au nombre de locuteurs natifs et beaucoup au statut institutionnel : le français est langue officielle ou co-officielle dans une trentaine d'États et langue de travail dans la plupart des grandes organisations internationales — Nations unies, Union européenne, Union africaine, Comité international olympique, Croix-Rouge, Organisation internationale de normalisation.
+
+Ce statut entretient une demande d'apprentissage indépendante du poids démographique, notamment chez les fonctionnaires internationaux, les diplomates et les juristes.
+
+Le français langue étrangère est la discipline qui organise cet enseignement à des non-francophones. Elle s'est constituée comme un champ autonome, avec ses méthodes, ses manuels, sa recherche et ses formations universitaires — un professeur de français en France et un enseignant de FLE n'exercent pas le même métier.`],
+    ["Certifier", `Le DELF — diplôme d'études en langue française — atteste des niveaux A1 à B2 du Cadre européen commun. Le DALF, diplôme approfondi, correspond aux niveaux C1 et C2. Tous deux sont délivrés par le ministère français de l'Éducation nationale, valables à vie et reconnus internationalement.
+
+Le TCF — test de connaissance du français — répond à un autre besoin : c'est un test, non un diplôme, dont le résultat positionne sur l'échelle des niveaux et n'est valable que deux ans. Cette distinction entre diplôme permanent et test à validité limitée est celle qui sépare partout la certification de l'évaluation.
+
+Ces certifications ont des enjeux très concrets : accès aux universités françaises, demandes de naturalisation, immigration au Québec, recrutements internationaux. Elles constituent un instrument de politique linguistique autant qu'un service pédagogique.
+
+Le label Qualité français langue étrangère certifie les centres d'enseignement implantés en France, sur des critères de formation des enseignants, de locaux et d'accueil.`],
+    ["Le réseau et ses défis", `L'Alliance française, fondée en 1883, est un réseau associatif présent dans plus de cent trente pays avec plusieurs centaines d'implantations. Sa particularité est son statut : chaque alliance est une association de droit local, dirigée par des membres du pays concerné, et non un service de l'État français. Ce montage lui donne un ancrage que n'aurait pas un établissement officiel, et explique sa longévité dans des contextes politiques variés.
+
+Les Instituts français, eux, relèvent directement du ministère des Affaires étrangères et combinent cours de langue et action culturelle.
+
+Le français sur objectifs spécifiques cible un domaine professionnel précis — français du tourisme, des affaires, de la médecine, du droit, de l'aéronautique. Il inverse la logique habituelle : on part des besoins réels d'un public identifié pour construire le programme, au lieu d'enseigner la langue générale en espérant qu'elle serve.
+
+Les défis actuels sont de deux ordres. La concurrence d'autres langues d'abord — l'espagnol, le chinois et le portugais gagnent des positions, et l'anglais reste le premier choix presque partout. Le besoin d'enseignants formés ensuite, particulièrement en Afrique subsaharienne où la demande croît le plus vite et où le déficit de professeurs qualifiés est le plus marqué. C'est là que se jouera l'avenir de la langue, bien plus que dans les débats métropolitains sur les anglicismes.`],
+  ],
+
+  "lf3-francais-numerique-usages": [
+    ["Un écrit qui parle", `L'écrit numérique a créé des formes intermédiaires entre l'oral et l'écrit. L'écrit conversationnel — messagerie instantanée, commentaires, messages courts — reprend des traits de l'oral tout en restant graphique : tours de parole rapides, phrases courtes, ellipses, marques d'hésitation, absence de révision.
+
+Il doit en outre compenser ce que l'écrit ne porte pas. L'intonation, le sourire, le regard qui accompagnent la parole disparaissent, et le message risque en permanence d'être lu plus sèchement qu'il n'était pensé. Les conventions numériques répondent précisément à ce manque.
+
+Un émoji apporte du ton et de l'intention : il désamorce, ironise, adoucit, signale le second degré. Il ne remplace pas les mots, il ajoute ce que la voix aurait donné — d'où sa présence massive dans les échanges informels et son absence là où le registre est déjà établi.
+
+La majuscule intégrale est perçue comme un cri ou une insistance forte, convention si bien installée qu'elle est enseignée dans les chartes d'usage. La ponctuation a de même acquis des valeurs nouvelles : un point final dans un message court est lu comme sec ou fâché par les jeunes locuteurs, alors qu'il ne signalait rien d'autre qu'une fin de phrase.`],
+    ["Les codes des plateformes", `Le registre écrit sur les réseaux sociaux varie fortement selon la plateforme et le public visé. Un même locuteur écrit différemment sur un réseau professionnel, sur un réseau d'images, dans un groupe familial et dans un forum spécialisé — et cette adaptation est une compétence, non une incohérence.
+
+Un hashtag est un mot-clé précédé d'un croisillon, servant à indexer un contenu et à le rendre trouvable. Sa fonction s'est doublée d'un usage expressif : il commente, ironise, ou signale l'appartenance à une conversation collective — un mot-dièse qui ne sert à aucune indexation réelle mais qui affiche un positionnement.
+
+Un fil de discussion est une suite de messages liés formant un échange, dont la lecture non linéaire pose des problèmes de cohérence inédits : les réponses arrivent dans le désordre, les messages se croisent, et le contexte d'un message isolé se perd — d'où les malentendus caractéristiques de ces échanges.
+
+L'écriture collaborative en ligne permet à plusieurs personnes de rédiger simultanément un même document. Elle a transformé les pratiques professionnelles et éducatives, et posé une question nouvelle : celle de l'auteur d'un texte dont chaque phrase a été retouchée par plusieurs mains.`],
+    ["Ce que les données montrent", `L'écrit numérique dégrade-t-il l'orthographe des jeunes ? C'est l'inquiétude la plus répandue, et les études ne montrent pas d'effet négatif établi.
+
+Plusieurs travaux ont mesuré la corrélation entre pratique de l'écriture abrégée et performances orthographiques : elle est nulle ou légèrement positive, les plus gros utilisateurs de messagerie n'écrivant pas moins bien que les autres. L'explication proposée est que l'abréviation suppose de connaître la forme correcte pour la déformer de façon compréhensible — *koi* suppose de savoir écrire *quoi*.
+
+S'y ajoute un argument volumétrique rarement mentionné : les adolescents d'aujourd'hui écrivent quotidiennement bien davantage que les générations précédentes, qui n'écrivaient guère hors de l'école. Cette pratique massive, même dans un registre relâché, constitue un entraînement à l'écrit sans précédent historique.
+
+L'écriture SMS elle-même a d'ailleurs largement reflué depuis la disparition de ses causes matérielles — coût du message et saisie sur neuf touches. Les alarmes des années 2000 sur son extension irréversible se sont révélées infondées, ce qui invite à une certaine prudence devant les prédictions actuelles sur la dégradation de la langue.
+
+Le point qui mérite en revanche attention est la capacité à changer de registre : l'enjeu n'est pas que les jeunes écrivent en abrégé entre eux, mais qu'ils sachent produire un écrit formel quand la situation l'exige. C'est une compétence à enseigner explicitement, et elle ne s'acquiert pas en interdisant l'autre registre.`],
+  ],
 };
