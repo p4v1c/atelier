@@ -1325,4 +1325,184 @@ Sa promesse initiale était de se passer de tiers de confiance. Sa réalité s'e
 
 Les banques centrales développent en réponse des monnaies numériques de banque centrale, qui reprennent la forme technique sans l'idée de décentralisation — une monnaie officielle sous forme numérique, dont les enjeux portent sur la traçabilité et la place des banques commerciales.`],
   ],
+
+  "hm2-inde-histoire": [
+    ["Des villes avant l'écriture lisible", `La civilisation harappéenne se développe dans la vallée de l'Indus vers 2600 avant notre ère, contemporaine de l'Égypte des pyramides et de Sumer, et plus étendue que les deux réunies.
+
+Ses villes — Mohenjo-daro, Harappa — présentent un urbanisme planifié : plan en damier, briques standardisées, greniers, bains publics, et surtout un réseau d'évacuation des eaux usées avec canalisations couvertes que l'Europe ne connaîtra pas avant le XIXe siècle.
+
+Son écriture n'a jamais été déchiffrée, faute de texte bilingue et parce que les inscriptions connues sont très courtes. On ignore la langue parlée, l'organisation politique et les croyances de cette civilisation.
+
+Elle décline vers 1900 avant notre ère, probablement sous l'effet de changements hydrologiques. Lui succède la période védique, marquée par la composition des Veda en sanskrit, transmis oralement avec une exactitude remarquable pendant des siècles avant toute mise par écrit.`],
+    ["Empires et savoirs", `Ashoka, empereur maurya du IIIe siècle avant notre ère, se convertit au bouddhisme après la conquête sanglante du Kalinga, dont il exprime lui-même le remords dans ses inscriptions.
+
+Il fait graver ses édits sur des piliers et des rochers dans tout l'empire, prônant la non-violence, la tolérance entre religions et le respect des animaux. Ces textes sont les plus anciens documents indiens déchiffrables, et leur redécouverte au XIXe siècle a fait réapparaître un souverain que la tradition avait oublié. Le chapiteau aux lions d'un de ses piliers est aujourd'hui l'emblème de l'Inde.
+
+La dynastie des Gupta marque du IVe au VIe siècle un âge d'or classique : littérature, sculpture, temples, et surtout mathématiques.
+
+Aryabhata, au Ve siècle, calcule une valeur de pi exacte à quatre décimales, propose la rotation de la Terre sur elle-même et explique correctement les éclipses. C'est également à cette époque que se fixent la numération de position et le zéro comme nombre — inventions transmises au monde arabe puis à l'Europe, et sans lesquelles le calcul moderne serait impossible.`],
+    ["Les Moghols", `L'Empire moghol domine l'Inde du XVIe au XVIIIe siècle. Fondé par Babur, descendant de Tamerlan et de Gengis Khan, il atteint son apogée sous Akbar, qui règne un demi-siècle et pratique une politique de conciliation religieuse remarquable pour son époque : suppression de l'impôt sur les non-musulmans, mariages hindous, débats interreligieux à sa cour.
+
+Shah Jahan fait construire le Taj Mahal, mausolée édifié à Agra pour son épouse Mumtaz Mahal, morte en couches. Vingt mille ouvriers, vingt ans de travaux, marbre blanc incrusté de pierres semi-précieuses, et une symétrie parfaite à l'exception d'un détail — le cénotaphe de l'empereur, ajouté après coup par son fils.
+
+Ce fils, Aurangzeb, rompt avec la tolérance de ses prédécesseurs, rétablit l'impôt sur les non-musulmans et étend l'empire jusqu'à son extension maximale, au prix de guerres continuelles qui l'épuisent.
+
+L'empire se désagrège au XVIIIe siècle en principautés rivales, et cette fragmentation ouvre la voie à une compagnie commerciale étrangère.`,
+      { image: "hm-taj-mahal", legende: "Le Taj Mahal : vingt ans de travaux et une symétrie parfaite, à l'exception d'un cénotaphe ajouté après coup.", alt: "Le Taj Mahal à Agra" }],
+    ["De la Compagnie à l'indépendance", `La Compagnie anglaise des Indes orientales prend le contrôle de larges parties de l'Inde au XVIIIe siècle. C'est une entreprise privée dotée d'une armée, de tribunaux et du droit de lever l'impôt — cas unique d'une société commerciale gouvernant des dizaines de millions de personnes.
+
+Sa méthode combine alliances avec des princes locaux, endettement de ceux-ci et annexions successives. La bataille de Plassey, en 1757, lui livre le Bengale et ses revenus fiscaux.
+
+La révolte des cipayes, en 1857, est une insurrection de soldats indiens de la Compagnie qui s'étend à une partie du nord du pays. Sa répression est féroce, et elle conduit à la dissolution de la Compagnie : l'Inde passe sous administration directe de la Couronne, et la reine Victoria devient impératrice des Indes.
+
+L'Inde britannique comprenait aussi les actuels Pakistan, Bangladesh et Birmanie — précision indispensable pour comprendre les partitions ultérieures.
+
+Gandhi promeut à partir des années 1910 une méthode de lutte fondée sur la non-violence et la désobéissance civile : boycott des produits britanniques, refus de coopérer, marche du sel de 1930 contre le monopole fiscal sur ce produit. Sa stratégie rend la domination coûteuse et illégitime sans fournir de prétexte à la répression.
+
+En août 1947, l'Inde accède à l'indépendance, accompagnée de la partition avec le Pakistan — dix millions de déplacés et des centaines de milliers de morts en quelques mois.`],
+  ],
+
+  "hm3-villes-histoire": [
+    ["La ville avant l'État", `La ville précède l'État dans plusieurs régions du monde. Jéricho, occupée depuis plus de dix mille ans, présente des murailles et une tour bien avant toute organisation politique territoriale connue. Çatal Höyük, en Anatolie, réunissait des milliers d'habitants au VIIe millénaire avant notre ère sans hiérarchie visible.
+
+Ce constat contredit le schéma classique selon lequel l'agriculture produirait des surplus, qui produiraient des villes, qui produiraient des États. Les recherches récentes montrent des séquences beaucoup plus variées — des villes sans agriculture intensive, des surplus sans hiérarchie, des monuments collectifs avant toute royauté.
+
+Ce qui définit une ville n'est ni sa taille ni sa forme mais sa fonction : concentrer des activités que la campagne ne produit pas — échange, artisanat spécialisé, culte, pouvoir, savoir.
+
+Rome atteint à son apogée environ un million d'habitants, seuil qu'aucune ville européenne ne retrouvera avant Londres au XIXe siècle. Son approvisionnement en blé, en eau et en matériaux mobilisait toute la Méditerranée, et son effondrement démographique après l'Empire — quelques dizaines de milliers d'habitants au haut Moyen Âge — donne la mesure de ce que coûtait cette concentration.`],
+    ["Fonder et affranchir", `Le Moyen Âge européen fonde des villes en grand nombre, particulièrement aux XIIe et XIIIe siècles.
+
+Une bastide est une ville neuve fondée selon un plan régulier, avec place centrale à couverts, îlots orthogonaux et lots de dimensions égales. Plusieurs centaines ont été créées dans le sud-ouest de la France, souvent par contrat entre un seigneur et un roi, chacun y trouvant revenus et peuplement.
+
+Une ville franche est dotée par charte de privilèges et de libertés : droit de se gouverner, d'avoir une justice, un marché, des remparts, et surtout affranchissement des charges seigneuriales. L'adage allemand — l'air de la ville rend libre — résume l'attrait : un serf ayant résidé un an et un jour dans une ville franche devenait libre.
+
+Ces chartes sont souvent achetées, et elles constituent le fondement des libertés communales européennes.
+
+Venise pousse le modèle jusqu'à la souveraineté : république marchande dominant la Méditerranée orientale pendant des siècles, dotée d'une flotte d'État, d'un arsenal produisant un navire par jour, d'un système politique complexe conçu pour empêcher toute prise de pouvoir personnelle, et d'un empire commercial reliant l'Europe à l'Orient.`],
+    ["Ordonner la ville industrielle", `L'industrialisation du XIXe siècle produit des villes surpeuplées, insalubres et meurtrières. Les réponses urbanistiques varient.
+
+Le plan Cerdà transforme Barcelone à partir de 1859 : une extension en damier régulier sur l'ancienne plaine agricole, avec des îlots aux angles coupés pour dégager la visibilité, une densité limitée, des espaces verts et une hiérarchie de voies. Cerdà, ingénieur, avait mené une enquête statistique sur les conditions de vie ouvrières et forgé le mot « urbanisation ». Son plan sera partiellement dénaturé par la spéculation, les cours intérieures prévues étant construites.
+
+La cité-jardin, théorisée par Ebenezer Howard en 1898, propose des villes nouvelles de taille limitée, entourées d'une ceinture agricole inconstructible, associant logement individuel, verdure, emploi local et propriété collective du sol. Le modèle a inspiré des réalisations dans le monde entier, souvent réduites à leur dimension esthétique — des lotissements verdoyants sans autonomie économique.
+
+Les villes coloniales, elles, adoptent presque partout un plan orthogonal autour d'une place centrale, hérité des ordonnances espagnoles du XVIe siècle, souvent doublé d'une séparation entre quartiers européens et quartiers indigènes.`],
+    ["Séparer, puis recoudre", `La Charte d'Athènes, publiée en 1933 à l'issue d'un congrès d'architectes modernes et diffusée par Le Corbusier, prône la séparation des fonctions urbaines : habiter, travailler, se recréer, circuler — chacune dans une zone dédiée, reliée par des voies rapides, avec des immeubles hauts espacés dans la verdure.
+
+Elle a inspiré une grande part de l'urbanisme d'après-guerre, en Europe comme ailleurs : grands ensembles, zones industrielles, zones commerciales, réseau routier structurant.
+
+Ses effets sont aujourd'hui bien identifiés : dépendance à l'automobile, absence de vie urbaine dans les quartiers monofonctionnels, ségrégation spatiale, et vieillissement rapide des ensembles construits.
+
+Le renouvellement urbain désigne la démarche inverse : transformer les quartiers existants plutôt qu'étendre la ville. Il combine démolition-reconstruction, réhabilitation, réintroduction de la mixité des fonctions, densification et reconquête des friches.
+
+Sa justification est aujourd'hui autant environnementale que sociale, l'objectif de limitation de l'artificialisation des sols imposant de construire sur la ville plutôt qu'autour d'elle. Sa difficulté est de renouveler sans chasser les habitants — la gentrification étant l'effet secondaire le mieux documenté de ces opérations.`],
+  ],
+
+  "hm3-droit-international": [
+    ["Un droit sans législateur", `Le droit international repose principalement sur le consentement des États, ce qui en fait à la fois la force et la faiblesse.
+
+Il n'existe ni parlement mondial ni gouvernement supérieur aux États. Les règles naissent donc de ce que les États acceptent : par traité, qui n'engage que ses signataires, ou par coutume.
+
+La coutume internationale est une pratique générale acceptée comme étant le droit. Elle exige deux éléments : une pratique constante et répétée, et la conviction des États qu'ils agissent par obligation juridique et non par simple convenance. Cette seconde condition est ce qui distingue une coutume d'une habitude, et son établissement est souvent l'objet de débats devant les juridictions.
+
+Le jus cogens fait exception au consentement : ce sont des normes impératives auxquelles aucun traité ne peut déroger — interdiction du génocide, de l'esclavage, de la torture, de l'agression. Un accord contraire serait nul, quelle que soit la volonté des parties.
+
+C'est le seul point où le droit international admet une hiérarchie absolue, et la liste de ces normes reste courte et discutée.`],
+    ["Limiter la guerre", `Les conventions de Genève régissent le droit humanitaire applicable aux conflits armés. La première date de 1864, née de l'initiative d'Henry Dunant après la bataille de Solférino, et les quatre conventions actuelles datent de 1949, complétées par des protocoles.
+
+Le droit international humanitaire ne dit pas si une guerre est légitime — cela relève d'un autre corps de règles — mais comment elle doit être menée. Ses principes sont peu nombreux et exigeants : distinction entre combattants et civils, proportionnalité entre l'avantage militaire attendu et les dommages causés, interdiction des maux superflus, protection des blessés, des prisonniers et du personnel médical.
+
+Sa particularité est de s'appliquer à toutes les parties, indépendamment de la cause défendue et de qui a commencé. Une partie qui subit une agression reste tenue par les mêmes règles.
+
+Il est constamment violé, ce qui conduit à en contester l'utilité. L'argument inverse est que sans lui, aucune violation ne serait qualifiable, aucun secours ne serait organisé, et aucun responsable ne pourrait être poursuivi.`],
+    ["Juger les individus", `Le tribunal de Nuremberg juge en 1945-1946 vingt-quatre dirigeants nazis. Son innovation est double : il crée la catégorie de crime contre l'humanité, et il pose que des individus, y compris des chefs d'État, peuvent être tenus pénalement responsables devant une juridiction internationale — l'ordre reçu n'étant pas une excuse absolutoire.
+
+Ses critiques sont connues et sérieuses : justice des vainqueurs, rétroactivité des incriminations, absence de poursuites pour les crimes alliés. Elles n'ont pas empêché ses principes de devenir le fondement du droit pénal international.
+
+La Cour pénale internationale, créée par le statut de Rome en 1998 et opérationnelle depuis 2002, est la première juridiction permanente jugeant des individus pour crimes de guerre, génocide, crimes contre l'humanité et agression.
+
+Elle n'est compétente qu'à titre complémentaire — elle n'intervient que si l'État concerné ne veut ou ne peut pas juger — et sa juridiction dépend de la ratification du statut. Plusieurs puissances majeures ne l'ont pas ratifié, dont les États-Unis, la Chine, la Russie et l'Inde, ce qui limite considérablement sa portée et alimente le reproche d'une justice à géométrie variable.`],
+    ["Ce qui manque", `La responsabilité de protéger est un principe adopté par les Nations unies en 2005 : lorsqu'un État manque manifestement à son obligation de protéger sa population contre le génocide, les crimes de guerre, le nettoyage ethnique et les crimes contre l'humanité, la communauté internationale peut agir, y compris par la force, sous mandat du Conseil de sécurité.
+
+Il tente de concilier souveraineté et protection des populations. Son application en Libye en 2011, où l'intervention autorisée pour protéger des civils a débouché sur un changement de régime, a durablement discrédité le principe auprès de plusieurs États et bloqué son usage ultérieur.
+
+La convention de Montego Bay de 1982 fonde le droit international de la mer : eaux territoriales, zone économique exclusive de deux cents milles, liberté de navigation, statut des fonds marins comme patrimoine commun de l'humanité. C'est l'un des traités les plus complets et les plus universellement appliqués — y compris par des États qui ne l'ont pas ratifié.
+
+Le droit international est souvent jugé faible parce qu'il manque d'un mécanisme de contrainte indépendant des États. Le Conseil de sécurité, seul habilité à autoriser la force, est paralysé par le veto de ses cinq membres permanents dès que l'un d'eux est concerné.
+
+Ce constat est exact et incomplet. L'écrasante majorité du droit international — commerce, transport aérien et maritime, télécommunications, santé, environnement, poste — est appliquée quotidiennement sans contrainte, parce que les États y ont intérêt. Ce qui échoue, c'est le droit qui contredit l'intérêt immédiat d'une grande puissance — soit une part visible et minoritaire de l'ensemble.`],
+  ],
+
+  "hm3-memoire-histoire": [
+    ["Deux rapports au passé", `La mémoire n'est pas l'histoire : l'une est vécue et sélective, l'autre est méthodique et critique.
+
+La mémoire est le souvenir qu'un groupe entretient de son passé. Elle est affective, sélective, évolutive, et elle sert le présent : elle fonde une identité, justifie des revendications, entretient une solidarité. Elle n'a pas à être exacte pour être efficace.
+
+L'histoire est une discipline : elle établit des faits à partir de sources critiquées, contextualise, compare, et accepte d'être réfutée. Elle peut contredire une mémoire, y compris celle des victimes.
+
+Cette distinction, formulée notamment par Pierre Nora, est constamment mise à l'épreuve : les historiens sont sollicités comme experts dans des débats mémoriels où leurs conclusions sont attendues pour trancher des conflits qui ne sont pas historiques.
+
+Un lieu de mémoire est un objet, un lieu ou une pratique où se cristallise la mémoire d'une collectivité : un monument, un drapeau, une date, un manuel, une chanson. La notion, forgée par Nora dans un vaste ouvrage collectif, a fait école et a été appliquée à de nombreux pays.`],
+    ["Se souvenir, par obligation", `Le devoir de mémoire est une injonction morale à se souvenir de crimes passés, formulée notamment à propos de la Shoah, pour empêcher leur répétition et honorer les victimes.
+
+Il a produit des politiques publiques considérables : commémorations, monuments, programmes scolaires, voyages de mémoire, témoignages filmés.
+
+Il fait aussi l'objet de critiques argumentées, y compris d'historiens. Elles portent sur trois points : une injonction n'est pas une compréhension, l'accumulation des commémorations peut saturer plutôt qu'éveiller, et l'usage politique du passé tend à figer les identités de victime et de bourreau.
+
+Une loi mémorielle qualifie officiellement un événement historique. La France en compte plusieurs : loi Gayssot de 1990, reconnaissance du génocide arménien, loi Taubira qualifiant la traite de crime contre l'humanité.
+
+La loi Gayssot sanctionne la contestation des crimes contre l'humanité jugés à Nuremberg. Son objet n'est pas d'écrire l'histoire mais de réprimer le négationnisme — la négation de faits historiques établis, employée comme instrument de propagande antisémite plutôt que comme thèse historique.
+
+Un appel d'historiens en 2005 a demandé l'abrogation de ces lois, au motif que le législateur n'a pas à dire l'histoire ; le débat n'est pas clos, et il distingue généralement la loi Gayssot, adossée à une décision de justice, des lois de qualification postérieures.`],
+    ["Conserver et transmettre", `Une archive publique est un document produit ou reçu par une administration dans l'exercice de ses fonctions. Sa conservation est obligatoire, et sa communication soumise à des délais : immédiate en principe, différée de vingt-cinq à cent ans pour les documents touchant à la vie privée, à la sûreté de l'État ou à la défense.
+
+Ces délais sont l'objet de conflits récurrents entre historiens et administrations, particulièrement sur les périodes sensibles — Vichy, guerre d'Algérie, essais nucléaires, Rwanda. Plusieurs ouvertures anticipées ont été décidées par le pouvoir politique, et chacune a produit des travaux qui ont modifié la connaissance établie.
+
+Le patrimoine mondial de l'UNESCO est une liste de biens jugés d'une valeur universelle exceptionnelle, culturels ou naturels. L'inscription impose à l'État un engagement de protection et lui apporte une visibilité — et parfois une fréquentation touristique qui menace le bien inscrit.
+
+La liste est critiquée pour son déséquilibre géographique, l'Europe y étant largement surreprésentée, ce qui reflète autant la capacité administrative à monter des dossiers que la répartition réelle du patrimoine mondial.`],
+    ["Le passé colonial", `La restitution d'objets patrimoniaux désigne le retour de biens culturels à leur pays ou communauté d'origine.
+
+La question concerne principalement les objets acquis en contexte colonial : prises de guerre, expéditions punitives, collectes ethnographiques sous contrainte. Les bronzes du Bénin, pillés en 1897, en sont le cas le plus documenté, et plusieurs musées européens en ont engagé la restitution.
+
+Les obstacles sont juridiques — l'inaliénabilité des collections publiques françaises impose une loi pour chaque restitution — et muséaux, avec la crainte d'un précédent qui viderait les collections. L'argument de conservation, longtemps avancé, est aujourd'hui difficile à soutenir.
+
+Le passé colonial suscite des débats mémoriels particulièrement vifs parce que les mémoires des groupes concernés divergent profondément : anciens colonisés, descendants d'immigrés, rapatriés, harkis, anciens combattants, militaires. Chacun porte une expérience réelle et incompatible avec celle des autres.
+
+L'histoire ne peut pas réconcilier ces mémoires, et ce n'est pas son objet. Elle peut établir des faits, documenter les responsabilités, ouvrir les archives et montrer la complexité — travail dont les avancées récentes, sur la torture en Algérie, sur le rôle de la France au Rwanda ou sur les massacres de Sétif et de Madagascar, ont toutes suivi le même chemin : accès aux archives, commission d'historiens, reconnaissance politique.`],
+  ],
+
+  "hm4-monde-contemporain": [
+    ["La paix qui n'est pas venue", `La fin de la guerre froide n'a pas mis fin aux conflits. L'idée d'une « fin de l'histoire », popularisée en 1989, supposait la victoire définitive de la démocratie libérale et du marché ; les trois décennies suivantes l'ont démentie.
+
+La guerre du Golfe de 1991 en offre le premier exemple. L'Irak envahit le Koweït, et une coalition de trente-cinq pays, mandatée par le Conseil de sécurité, l'en chasse en six semaines. L'opération est présentée comme le modèle d'un nouvel ordre international fondé sur le droit — la première et pratiquement la dernière fois que le Conseil de sécurité a fonctionné comme prévu.
+
+La guerre de Bosnie, de 1992 à 1995, montre l'inverse. L'éclatement de la Yougoslavie s'accompagne de nettoyages ethniques, de sièges de villes et du massacre de Srebrenica, où plus de huit mille hommes et adolescents sont tués en juillet 1995 dans une zone déclarée protégée par l'ONU, sous les yeux d'un contingent incapable d'intervenir.
+
+Le génocide des Tutsi au Rwanda, en 1994, fait environ huit cent mille morts en cent jours pendant que la communauté internationale réduit sa présence sur place et évite le mot qui l'obligerait à agir.
+
+Ces deux échecs ont produit les tribunaux pénaux internationaux ad hoc, puis la Cour pénale internationale permanente en 1998.`],
+    ["Un monde intégré", `L'Organisation mondiale du commerce, créée en 1995, régule le commerce international : elle administre les accords, sert d'enceinte de négociation et dispose d'un organe de règlement des différends dont les décisions sont contraignantes.
+
+C'est ce dernier point qui en fait une institution singulière — une juridiction commerciale à laquelle les États acceptent de se soumettre. Son fonctionnement est aujourd'hui bloqué, les États-Unis refusant depuis 2019 de nommer les juges d'appel, ce qui paralyse le mécanisme.
+
+Les décennies 1990 et 2000 sont celles d'une intégration économique accélérée : entrée de la Chine dans l'OMC en 2001, fragmentation des chaînes de production, explosion des flux de capitaux et d'information.
+
+La crise financière de 2008, partie du marché immobilier américain et propagée par la titrisation, montre le revers de cette interdépendance : un problème localisé devient mondial en quelques semaines. Elle provoque la plus grave récession depuis 1929, une intervention massive des États, et une remise en cause durable de la régulation financière — ainsi qu'une défiance politique dont les effets se manifestent encore.`],
+    ["Les ruptures des années 2000", `Les attentats du 11 septembre 2001 font près de trois mille morts aux États-Unis et transforment la politique internationale : intervention en Afghanistan, puis invasion de l'Irak en 2003 sur la base d'allégations d'armes de destruction massive qui se révéleront infondées.
+
+Les conséquences de cette seconde guerre se déploient sur deux décennies : déstabilisation régionale, dissolution de l'armée irakienne fournissant des cadres aux insurrections, et émergence ultérieure de l'organisation État islamique.
+
+Le printemps arabe, à partir de 2010, produit des issues opposées selon les pays — une démocratie en Tunisie, une restauration autoritaire en Égypte, des guerres civiles en Libye, en Syrie et au Yémen.
+
+L'accord de Paris sur le climat, en 2015, engage la quasi-totalité des États à limiter le réchauffement bien en dessous de deux degrés et à viser un degré et demi. Son architecture est nouvelle : chaque pays fixe lui-même ses engagements, révisés à la hausse tous les cinq ans, avec un mécanisme de transparence. Cette souplesse a permis l'universalité, au prix du caractère non contraignant des objectifs — dont la somme actuelle reste très en deçà de la cible.`],
+    ["Le basculement", `La recomposition majeure du début du XXIe siècle est la montée en puissance de la Chine et le basculement du centre de gravité économique vers l'Asie.
+
+En quatre décennies, la Chine est passée d'une économie fermée et pauvre au rang de deuxième puissance mondiale, premier exportateur, premier partenaire commercial de la plupart des pays, et acteur technologique de premier plan. Plusieurs centaines de millions de personnes y sont sorties de la pauvreté, mouvement qui explique à lui seul l'essentiel de la baisse de la pauvreté mondiale.
+
+Cette montée s'accompagne d'une affirmation stratégique — projets d'infrastructures transcontinentaux, présence en mer de Chine, investissements en Afrique et en Amérique latine — et d'un durcissement politique intérieur.
+
+Les États-Unis y ont répondu par une politique de confrontation commerciale et technologique que les alternances n'ont pas remise en cause, ce qui en fait probablement la ligne structurante des prochaines décennies.
+
+Trois autres évolutions se conjuguent : le retour de la guerre de haute intensité en Europe avec l'invasion de l'Ukraine en 2022, l'affirmation d'États intermédiaires refusant l'alignement, et l'urgence climatique qui exige une coopération mondiale au moment même où celle-ci se dégrade. C'est cette tension — des problèmes globaux et une gouvernance fragmentée — qui définit la période présente.`],
+  ],
 };
