@@ -16,7 +16,7 @@ import { qcm, type QcmPayload } from "../kinds/qcm";
 import type { LessonDocument, LessonVisuel, ModuleBatch, SeedExercise, SeedSkill } from "../types";
 import { SUJETS } from "./index";
 import { CG_NEUF } from "../../../prisma/seed/culture-g";
-import { FUSIONS } from "../../../prisma/seed/culture-g/cours/fusions";
+import { FUSIONS, FUSIONS_INTERNES } from "../../../prisma/seed/culture-g/cours/fusions";
 
 /**
  * Le contenu du cahier d'origine, tel qu'il est arrivé par la fusion.
@@ -364,19 +364,37 @@ function fusionner(lecons: SeedSkill[], neuves: SeedSkill[]): SeedSkill[] {
     );
   }
 
-  const restantes: SeedSkill[] = [];
-  for (const notion of neuves) {
-    const cible = parSlug.get(FUSIONS[notion.slug.replace(/^cg-neuf-/, "")] ?? "");
-    if (!cible) {
-      restantes.push(notion);
-      continue;
-    }
+  const verser = (source: SeedSkill, cible: SeedSkill) => {
     const deja = new Set(cible.exercises.map((e) => cleQuestion(e.payload)));
-    for (const exercice of notion.exercises) {
+    for (const exercice of source.exercises) {
       if (deja.has(cleQuestion(exercice.payload))) continue;
       deja.add(cleQuestion(exercice.payload));
       cible.exercises.push({ ...exercice, batch: cible.exercises[0]?.batch ?? exercice.batch });
     }
+  };
+
+  // 1. Vers les leçons du cahier d'origine.
+  const restantes: SeedSkill[] = [];
+  for (const notion of neuves) {
+    const cible = parSlug.get(FUSIONS[notion.slug.replace(/^cg-neuf-/, "")] ?? "");
+    if (!cible) restantes.push(notion);
+    else verser(notion, cible);
   }
-  return restantes;
+
+  // 2. Entre notions écrites ici. La cible garde le chapitre ; la source
+  //    disparaît du catalogue après avoir cédé ses questions.
+  const parSlugNeuf = new Map(restantes.map((s) => [s.slug.replace(/^cg-neuf-/, ""), s]));
+  const absentes = Object.values(FUSIONS_INTERNES).filter((c) => !parSlugNeuf.has(c));
+  if (absentes.length > 0) {
+    throw new Error(
+      `Fusion interne impossible, notion d'accueil introuvable : ${absentes.join(", ")}. ` +
+        "Vérifie les slugs dans prisma/seed/culture-g/cours/fusions.ts."
+    );
+  }
+  return restantes.filter((notion) => {
+    const cible = parSlugNeuf.get(FUSIONS_INTERNES[notion.slug.replace(/^cg-neuf-/, "")] ?? "");
+    if (!cible) return true;
+    verser(notion, cible);
+    return false;
+  });
 }

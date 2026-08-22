@@ -132,3 +132,39 @@ export const FUSIONS: Record<string, string> = {
   "ie-collectivites": "cg-institutions-economie-04", // 76% Les collectivités territoriales françaises <- Les collectivités territoriales et la décentralisation
   "ie-energie-transition": "cg-institutions-economie-17", // 75% Énergie et transition écologique <- Le développement durable et la transition écologique
 };
+
+/**
+ * Les notions écrites ici qui traitent le même sujet qu'une autre notion
+ * écrite ici — même angle mort, un lot plus loin.
+ *
+ * Les lots ont été composés l'un après l'autre sans être confrontés entre
+ * eux : « Le jeu vidéo » du premier lot et « L'industrie du jeu vidéo » du
+ * troisième ont fini par cohabiter. Même remède que pour les leçons héritées :
+ * la notion la plus tardive est versée dans la plus ancienne, qui garde le
+ * chapitre.
+ *
+ *   clé   : slug absorbé          valeur : slug d'accueil
+ */
+export const FUSIONS_INTERNES: Record<string, string> = {
+  "hf2-carolingiens": "hf-charlemagne-empire",
+  "hf2-renaissance-francaise": "hf-francois-premier",
+  "hf2-lumieres-france": "hf-lumieres-france",
+  "hf2-france-outre-mer": "hf-outre-mer-histoire",
+  "hm2-alexandre-hellenistique": "hm-alexandre",
+  "geo3-regions-france": "geo-france-regions",
+  "li3-litterature-orientale": "li-litteratures-monde",
+  "cm2-reseaux-sociaux": "cm-numerique-reseaux",
+  "cm2-jeux-video-culture": "cm-jeu-video",
+  "cm3-jeu-video-industrie": "cm-jeu-video",
+  "ga3-cuisine-technique": "ga-techniques-cuisine",
+  "ga3-produits-mer": "ga2-produits-mer",
+  "sp3-sports-collectifs-divers": "sp-sports-collectifs",
+  "sp3-sport-societe": "sp-sport-societe",
+  "sp3-sports-glisse": "sp2-sports-glisse",
+  "hm3-amerique-latine-contemporaine": "hm2-amerique-latine",
+  "hm4-histoire-sciences-monde": "hm3-histoire-sciences-monde",
+  "hm4-migrations-histoire": "hm3-migrations-histoire",
+  "hf4-revolution-terreur": "hf2-terreur-directoire",
+  "lf3-langue-droit": "lf2-textes-officiels",
+};
+
