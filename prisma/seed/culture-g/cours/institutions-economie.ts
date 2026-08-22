@@ -583,4 +583,135 @@ Chacune poursuit un objectif défendable — soutenir l'emploi à domicile, l'in
 
 C'est ce dernier point qui distingue une dépense fiscale d'une subvention : la seconde figure dans un budget, se discute chaque année et se supprime ; la première est inscrite dans le code des impôts, se reconduit tacitement et crée des situations acquises difficiles à défaire. Un plafonnement global des avantages a été instauré, avec de nombreuses exceptions qui en limitent la portée.`],
   ],
+
+  "ie3-protection-consommateur": [
+    ["Protéger la partie faible", `Le droit de la consommation repose sur un postulat explicite : entre un professionnel et un consommateur, les positions ne sont pas équivalentes. Le premier connaît son produit, rédige le contrat, dispose de conseils juridiques ; le second contracte occasionnellement, sans expertise. Le droit protège donc la partie présumée la plus faible, en dérogeant au principe civiliste selon lequel les parties sont libres et égales.
+
+Un contrat d'adhésion illustre ce déséquilibre : ses clauses ne sont pas négociables, le consommateur ne peut qu'accepter ou renoncer. Abonnements, assurances, conditions générales d'utilisation en relèvent. Le droit y répond par la notion de clause abusive : une clause créant un déséquilibre significatif entre les droits des parties est réputée non écrite, c'est-à-dire supprimée sans que le reste du contrat tombe.
+
+L'obligation d'information précontractuelle impose au professionnel de communiquer avant l'achat les caractéristiques essentielles du bien ou du service, son prix total, les délais et les modalités d'exécution. Son manquement engage la responsabilité du vendeur et peut permettre l'annulation.`],
+    ["Les délais", `Deux délais sont constamment confondus alors qu'ils s'appliquent à des moments opposés. Un délai de réflexion précède la signature : le consommateur reçoit une offre et ne peut l'accepter avant l'expiration du délai — c'est le cas du crédit immobilier, où l'offre ne peut être acceptée avant onze jours. Un délai de rétractation suit la conclusion : le contrat est formé, et le consommateur peut revenir dessus sans motif ni pénalité.
+
+Le délai de rétractation est de quatorze jours pour les achats à distance et le démarchage. Il ne s'applique pas aux achats en magasin — un commerçant qui accepte un retour le fait commercialement, non par obligation légale, ce qui est l'une des méprises les plus répandues.
+
+Le démarchage téléphonique est encadré en France par des horaires autorisés, une limite du nombre d'appels et un registre d'opposition sur lequel tout consommateur peut s'inscrire gratuitement. Certains secteurs, comme la rénovation énergétique, y sont purement interdits après des abus massifs.`],
+    ["Quand le produit est défectueux", `Trois protections se superposent et se cumulent, ce que les vendeurs signalent rarement.
+
+La garantie légale de conformité oblige le vendeur professionnel à livrer un bien conforme au contrat, pendant deux ans pour un bien neuf, avec présomption que tout défaut apparu dans ce délai existait à la livraison — c'est donc au vendeur de prouver le contraire.
+
+La garantie légale des vices cachés protège contre un défaut non apparent au moment de l'achat, qui rend le bien impropre à son usage ou en diminue fortement l'usage. Elle s'exerce dans les deux ans de la découverte du vice, y compris longtemps après l'achat, et vaut aussi entre particuliers.
+
+La garantie commerciale, enfin, est celle que propose le vendeur ou le fabricant. Elle est facultative, souvent payante, et ne peut jamais réduire les deux précédentes. Un service après-vente qui renvoie le client vers une extension de garantie payante pour un défaut couvert par la garantie légale commet une pratique commerciale trompeuse.`],
+    ["Régler un litige, et l'argent", `La médiation de la consommation est un dispositif gratuit de résolution amiable des litiges, obligatoirement proposé par tout professionnel. Le consommateur saisit le médiateur après une réclamation écrite restée sans réponse satisfaisante ; la proposition du médiateur ne lie personne, mais elle règle une majorité des dossiers sans recours au juge.
+
+Le surendettement est l'impossibilité manifeste de faire face à l'ensemble de ses dettes non professionnelles. La procédure, gratuite, se conduit devant une commission départementale présidée par la Banque de France, qui peut rééchelonner, geler les intérêts, effacer partiellement, ou prononcer un rétablissement personnel effaçant les dettes lorsque la situation est irrémédiablement compromise.
+
+Le fichier des incidents de remboursement des crédits aux particuliers recense les défauts de paiement et les mesures de surendettement. Consulté obligatoirement par les banques avant tout crédit, il joue un rôle préventif — et son inscription rend l'accès au crédit très difficile pendant plusieurs années.
+
+Le droit au compte bancaire garantit enfin que toute personne à qui les banques refusent l'ouverture d'un compte puisse faire désigner un établissement par la Banque de France, qui devra fournir gratuitement des services bancaires de base. C'est une réponse directe à l'exclusion bancaire, un compte étant devenu indispensable pour percevoir un salaire ou une prestation.`],
+  ],
+
+  "ie3-monde-travail": [
+    ["Des formes d'emploi diversifiées", `Les formes d'emploi se sont fortement diversifiées depuis les années 1980. Le contrat à durée indéterminée à temps plein reste largement majoritaire dans l'emploi total — plus des trois quarts des salariés — mais il ne représente qu'une petite minorité des embauches, l'essentiel des recrutements passant par des contrats courts.
+
+Un contrat à durée déterminée est conclu pour une durée limitée et doit répondre à un motif prévu par la loi : remplacement, accroissement temporaire d'activité, emploi saisonnier. Il ne peut avoir pour objet de pourvoir durablement un emploi lié à l'activité normale de l'entreprise, et sa requalification en contrat à durée indéterminée sanctionne ce détournement.
+
+L'intérim repose sur une relation triangulaire : une agence de travail temporaire embauche le salarié et le met à disposition d'une entreprise utilisatrice. Le salarié est lié à l'agence, travaille sous l'autorité de l'entreprise, et perçoit une indemnité de précarité.
+
+Le temps partiel subi est un temps partiel imposé faute d'emploi à temps plein disponible. Il concerne majoritairement des femmes et se concentre dans quelques secteurs — commerce, nettoyage, aide à domicile —, où le morcellement des horaires rend en outre difficile le cumul de plusieurs employeurs.`],
+    ["Travailler à distance", `Le télétravail est un travail effectué hors des locaux de l'employeur grâce aux outils numériques. Marginal avant 2020, il s'est généralisé en quelques semaines puis stabilisé sous forme hybride, quelques jours par semaine, pour les métiers qui le permettent — soit environ un tiers des emplois, ce qui constitue en soi un facteur d'inégalité entre professions.
+
+Son cadre juridique repose sur le volontariat, la réversibilité, et le maintien intégral des droits du salarié : mêmes obligations de sécurité pour l'employeur, même durée du travail, prise en charge des frais professionnels.
+
+Le droit à la déconnexion, inscrit dans le code du travail en 2017, garantit le droit de ne pas être joignable en dehors du temps de travail. Sa mise en œuvre passe par une négociation ou une charte, et son effectivité dépend moins des textes que des pratiques managériales — un courriel envoyé le soir par un supérieur crée une attente indépendamment de toute obligation formelle.`],
+    ["La santé au travail", `Un risque psychosocial est un risque pour la santé mentale et physique lié à l'organisation du travail : charge excessive, absence d'autonomie, conflits de valeurs, insécurité, manque de soutien. Le point important est qu'il s'agit d'un risque organisationnel et non d'une fragilité individuelle — c'est l'organisation qui est évaluée, non la résistance des personnes.
+
+L'épuisement professionnel est un état d'épuisement émotionnel, physique et mental résultant d'une exposition prolongée à un stress professionnel. Il associe classiquement épuisement, distanciation vis-à-vis du travail et sentiment d'inefficacité. Il n'est pas reconnu comme maladie professionnelle en France dans un tableau dédié, ce qui oblige à une reconnaissance au cas par cas, longue et incertaine.
+
+Le document unique d'évaluation des risques professionnels est obligatoire dans toute entreprise, quelle que soit sa taille, dès le premier salarié. Il recense les risques par unité de travail et sert de base au plan de prévention. Son absence est sanctionnée, et il constitue en pratique le premier document consulté en cas d'accident.`],
+    ["Les obligations de l'employeur", `L'obligation de sécurité de l'employeur lui impose de prendre toutes les mesures nécessaires pour assurer la sécurité et protéger la santé physique et mentale des salariés. Longtemps qualifiée d'obligation de résultat par la jurisprudence — l'employeur étant responsable dès qu'un dommage survenait —, elle a été assouplie en obligation de moyens renforcée : l'employeur peut s'exonérer s'il démontre avoir mis en œuvre toutes les mesures de prévention prévues par la loi.
+
+Cette évolution est importante en pratique : elle valorise la prévention effective plutôt que la seule constatation du dommage, et fait du document unique et des actions de formation des éléments de défense autant que de protection.
+
+La médecine du travail, devenue service de prévention et de santé au travail, est chargée d'éviter toute altération de la santé du fait du travail. Son rôle est exclusivement préventif : elle ne soigne pas et ne prescrit pas. Le médecin du travail peut proposer des aménagements de poste que l'employeur est tenu de prendre en compte, et prononcer une inaptitude, décision aux conséquences considérables puisqu'elle oblige au reclassement ou au licenciement.
+
+La démographie médicale de la spécialité, très défavorable, fragilise l'ensemble du dispositif — plusieurs milliers de postes ne sont pas pourvus, et le suivi périodique a été espacé en conséquence.`],
+  ],
+
+  "ie3-retraites": [
+    ["La répartition", `Le système de retraite français repose sur la répartition : les cotisations prélevées sur les actifs financent immédiatement les pensions des retraités. Il n'y a pas d'épargne accumulée au nom de chacun — les cotisations d'aujourd'hui sont les pensions d'aujourd'hui, et les droits acquis sont une promesse sur les cotisations de demain.
+
+Ce choix, fait en 1945, s'imposait alors pour une raison pratique : l'épargne accumulée avant guerre avait été anéantie par l'inflation et les destructions, et il fallait verser des pensions immédiatement. Il a une propriété remarquable : il protège de l'inflation et des krachs boursiers, à la différence d'un système par capitalisation.
+
+Sa contrepartie est la sensibilité à la démographie. Le rapport démographique — nombre de cotisants rapporté au nombre de retraités — détermine l'équilibre : il était de quatre pour un dans les années 1960, il approche aujourd'hui un virgule sept. Cette évolution tient à l'allongement de l'espérance de vie et à l'arrivée à la retraite des générations nombreuses de l'après-guerre.
+
+Le système combine par ailleurs plusieurs régimes obligatoires superposés : un régime de base et un ou plusieurs régimes complémentaires, eux aussi obligatoires et fonctionnant par points.`],
+    ["Comment se calcule une pension", `La pension de base du régime général se calcule à partir de trois éléments : un salaire annuel moyen établi sur les vingt-cinq meilleures années, un taux, et la durée d'assurance.
+
+La durée d'assurance requise est le nombre de trimestres nécessaires pour obtenir le taux plein, qui augmente progressivement selon les générations. Il ne faut pas la confondre avec l'âge légal de départ, qui est l'âge à partir duquel on peut liquider sa retraite : on peut atteindre l'âge légal sans avoir tous ses trimestres, et l'inverse.
+
+La décote réduit la pension lorsque des trimestres manquent, à raison d'un pourcentage par trimestre absent, dans une limite plafonnée. Elle disparaît automatiquement à l'âge d'annulation de la décote, quelle que soit la carrière — mécanisme essentiel pour les carrières incomplètes, souvent celles des femmes et des personnes entrées tard sur le marché du travail.
+
+Le taux de remplacement rapporte la pension au dernier salaire d'activité. Il est plus élevé pour les bas salaires que pour les hauts, effet de la redistribution intégrée au système et du plafonnement des cotisations retenues.`],
+    ["Les correctifs", `Le minimum vieillesse, devenu allocation de solidarité aux personnes âgées, garantit un revenu minimal aux personnes âgées modestes, quel qu'ait été leur parcours professionnel. Ce n'est pas une pension mais une prestation de solidarité, financée par l'impôt et récupérable sur la succession au-delà d'un certain montant.
+
+Le compte professionnel de prévention ouvre des droits liés à l'exposition à certains facteurs de pénibilité — travail de nuit, équipes alternantes, bruit, températures extrêmes, travail répétitif. Les points acquis peuvent financer une formation, un temps partiel sans perte de salaire ou un départ anticipé. Plusieurs facteurs initialement prévus, dont le port de charges lourdes et les postures pénibles, ont été retirés du dispositif en 2017 au motif de la complexité de leur mesure — retrait très critiqué, ces facteurs étant parmi les plus répandus.
+
+Le cumul emploi-retraite permet de travailler tout en percevant sa pension, sous conditions selon qu'il est intégral ou plafonné. La retraite progressive permet à l'inverse de réduire son activité tout en percevant une fraction de sa pension, dispositif favorable au maintien en emploi des seniors et longtemps sous-utilisé faute d'information.`],
+    ["Les termes du débat", `Trois leviers seulement permettent d'équilibrer un système par répartition, et tout débat sur les retraites revient à choisir entre eux ou à les combiner : augmenter les cotisations, baisser les pensions, ou allonger la durée d'activité.
+
+Chacun a un coût identifiable. Augmenter les cotisations pèse sur le coût du travail ou sur le salaire net. Baisser les pensions dégrade le niveau de vie des retraités, aujourd'hui comparable à celui des actifs en France, ce qui n'est pas le cas partout. Allonger la durée d'activité se heurte à la faiblesse du taux d'emploi des seniors et à l'inégalité de l'espérance de vie en bonne santé selon les métiers.
+
+Cette dernière donnée est au cœur du désaccord : l'écart d'espérance de vie entre les catégories sociales extrêmes atteint plusieurs années, et davantage encore en espérance de vie sans incapacité. Un même âge de départ pour tous n'a donc pas le même sens selon les carrières — argument qui explique l'attachement aux dispositifs de départ anticipé et la difficulté de toute réforme uniforme.`],
+  ],
+
+  "ie3-banque-credit": [
+    ["Les crédits font les dépôts", `Une banque commerciale crée de la monnaie en accordant un crédit. La formule qui résume ce mécanisme — les crédits font les dépôts — inverse l'intuition courante selon laquelle une banque prêterait l'argent que d'autres y ont déposé.
+
+Ce qui se passe est différent : lorsqu'une banque accorde un prêt, elle inscrit simultanément une créance à son actif et un dépôt au compte de l'emprunteur à son passif. Cette monnaie n'existait pas avant ; elle est créée par un jeu d'écritures. Symétriquement, le remboursement la détruit.
+
+Cette capacité n'est pas illimitée. Elle est bornée par la demande de crédit solvable, par les réserves que la banque doit détenir auprès de la banque centrale, par les fuites vers les autres banques et vers les billets, et surtout par les exigences réglementaires de fonds propres.
+
+Comprendre ce mécanisme est indispensable pour saisir le rôle des banques centrales : elles n'impriment pas la monnaie qui circule, elles influencent les conditions dans lesquelles les banques commerciales en créent.`],
+    ["Le prix de l'argent", `Le taux directeur est le taux auquel les banques se refinancent auprès de la banque centrale. En le modifiant, celle-ci agit sur le coût du crédit dans toute l'économie : un taux plus élevé renchérit les prêts, ralentit la demande et freine l'inflation ; un taux bas produit l'inverse.
+
+C'est l'instrument principal de la politique monétaire, complété depuis 2008 par des achats massifs de titres lorsque les taux ne pouvaient plus baisser.
+
+Le taux d'usure, en France, est un taux maximal légal au-delà duquel un prêt est illégal. Fixé trimestriellement par la Banque de France à partir des taux moyens constatés, il protège contre les prêts abusifs. Son mécanisme de calcul, fondé sur le passé, a montré une limite lors de la remontée rapide des taux en 2022 : le plafond, calculé sur un trimestre écoulé, était devenu inférieur aux conditions de marché, ce qui bloquait l'accès au crédit de nombreux emprunteurs solvables — d'où un passage temporaire à une révision mensuelle.
+
+Un crédit immobilier à taux fixe garde le même taux pendant toute sa durée. C'est la norme en France, contrairement à de nombreux pays où le taux variable domine — différence qui a considérablement protégé les emprunteurs français lors des remontées de taux.`],
+    ["Emprunter et épargner", `Le taux d'endettement d'un emprunteur est la part de ses revenus consacrée au remboursement de ses crédits. Le Haut Conseil de stabilité financière a fixé une limite de trente-cinq pour cent assurance comprise, avec une durée maximale de vingt-cinq ans et une marge de dérogation. Cette règle, longtemps une pratique bancaire, est devenue contraignante en 2022 pour prévenir le surendettement et le risque systémique.
+
+L'assurance emprunteur couvre le remboursement en cas de décès, d'invalidité ou parfois de perte d'emploi. Elle représente une part significative du coût total d'un crédit immobilier, et plusieurs lois successives ont libéralisé son choix : l'emprunteur peut désormais la résilier et en changer à tout moment, ce qui a introduit une concurrence longtemps absente.
+
+Le livret A est un compte d'épargne réglementé, défiscalisé, à taux fixé par l'État, disponible à tout moment et plafonné. Sa particularité est l'emploi de son encours : une partie est centralisée à la Caisse des dépôts pour financer le logement social et la politique de la ville. C'est donc un produit d'épargne populaire doublé d'un instrument de financement public.`],
+    ["Protéger le système", `La garantie des dépôts protège les avoirs jusqu'à cent mille euros par déposant et par établissement. Son objectif n'est pas seulement d'indemniser mais de prévenir la panique : si chacun sait qu'il sera remboursé, personne ne se précipite au guichet, et la ruée bancaire — qui peut faire tomber une banque solvable par simple perte de confiance — n'a pas lieu.
+
+Le ratio de solvabilité rapporte les fonds propres d'une banque à ses engagements pondérés par le risque. Il détermine combien une banque peut prêter au regard de son capital, et il a été fortement relevé après 2008 par les accords de Bâle III, avec des exigences supplémentaires pour les établissements systémiques.
+
+La supervision bancaire européenne confie depuis 2014 le contrôle direct des plus grandes banques de la zone euro à la Banque centrale européenne. Ce transfert répondait à un constat de la crise de la dette : les superviseurs nationaux étaient trop proches de leurs banques et trop enclins à minimiser les difficultés. Il constitue, avec le mécanisme de résolution des défaillances, l'un des deux piliers de l'union bancaire — le troisième, une garantie européenne des dépôts, restant à ce jour inachevé.`],
+  ],
+
+  "ie3-entreprises-formes": [
+    ["Choisir un statut", `Le choix du statut juridique conditionne trois choses à la fois : la fiscalité, l'étendue de la responsabilité et la protection sociale du dirigeant. C'est la première décision d'un créateur, et l'une des plus structurantes.
+
+La micro-entreprise est un régime simplifié pour entrepreneur individuel, applicable sous des seuils de chiffre d'affaires : comptabilité réduite à un livre de recettes, cotisations et impôt calculés en pourcentage du chiffre d'affaires encaissé, franchise de TVA sous certains seuils. Sa simplicité en a fait le régime de la majorité des créations d'entreprises en France ; sa limite est qu'aucune charge réelle n'est déductible, ce qui le rend inadapté aux activités nécessitant des achats importants.
+
+La SAS, société par actions simplifiée, offre à l'inverse une très grande liberté statutaire : les associés organisent comme ils l'entendent la direction, les majorités, l'entrée et la sortie du capital. Cette souplesse en a fait la forme dominante des créations de sociétés, notamment pour les projets à plusieurs associés ou destinés à lever des fonds.
+
+La responsabilité limitée signifie que les associés ne risquent que leurs apports : en cas de faillite, leur patrimoine personnel est protégé. Cette protection connaît des exceptions importantes — la caution personnelle exigée par les banques et la faute de gestion.`],
+    ["Prévoir et financer", `Un business plan présente le projet, son marché, sa stratégie et ses prévisions financières. Son utilité première n'est pas de convaincre un financeur mais d'obliger le porteur à chiffrer ses hypothèses : combien de clients, à quel prix, pour quel coût, à quelle échéance. Un plan dont les hypothèses ne sont pas explicites ne vaut rien, quelle que soit la qualité de sa présentation.
+
+Le besoin en fonds de roulement mesure le financement nécessaire pour couvrir le décalage entre les décaissements et les encaissements : on paie les fournisseurs et les salaires avant d'être payé par les clients. C'est la principale cause de défaillance des entreprises jeunes, et elle est indépendante de la rentabilité — une entreprise rentable peut mourir de trésorerie. Une activité qui encaisse comptant et paie ses fournisseurs à soixante jours, comme la grande distribution, a un besoin négatif : ses clients financent son exploitation.`],
+    ["Lire des comptes", `Le compte de résultat retrace les produits et les charges d'un exercice : c'est un film, qui montre comment s'est formé le résultat sur une période. Le bilan est une photographie du patrimoine à une date donnée : à l'actif ce que l'entreprise possède, au passif ce qu'elle doit et les capitaux apportés.
+
+Les deux documents se répondent — le résultat de l'exercice apparaît au passif du bilan, dans les capitaux propres — et aucun ne suffit seul. Une entreprise peut afficher un beau résultat et un bilan fragile, ou l'inverse.
+
+L'amortissement constate comptablement la perte de valeur d'un bien sur sa durée d'usage. Une machine achetée cent mille euros et utilisée dix ans n'est pas une charge de cent mille euros la première année : elle génère une charge de dix mille euros par an. Ce mécanisme rattache le coût à la période où le bien sert effectivement, ce qui est le principe même de la comptabilité d'exercice. C'est aussi une charge sans décaissement, ce qui explique l'écart entre le résultat comptable et la trésorerie réellement disponible.`],
+    ["Difficultés et transmission", `Une procédure de sauvegarde s'adresse à une entreprise en difficulté mais qui n'est pas encore en cessation de paiements. Ouverte à la demande du seul dirigeant, elle gèle les dettes antérieures, suspend les poursuites et permet d'élaborer un plan sous la protection du tribunal.
+
+Son intérêt tient précisément au moment : intervenir avant la cessation de paiements laisse des marges de manœuvre que le redressement judiciaire, ouvert plus tard, n'offre plus. Elle se heurte pourtant à une réticence culturelle forte — recourir au tribunal reste perçu comme un aveu d'échec, alors même que la loi a été conçue pour encourager l'anticipation. Les entreprises qui saisissent tôt s'en sortent nettement mieux, statistique constante depuis vingt ans.
+
+La transmission d'entreprise est le transfert de propriété à un repreneur externe, à un salarié ou à un héritier. C'est un enjeu de masse en France : une part importante des dirigeants de PME approche de l'âge de la retraite, et une transmission ratée détruit une entreprise viable. Sa difficulté est autant humaine que financière — valorisation, financement du repreneur, fiscalité de la transmission, mais aussi préparation du départ d'un dirigeant qui incarne souvent l'entreprise à lui seul.`],
+  ],
 };
