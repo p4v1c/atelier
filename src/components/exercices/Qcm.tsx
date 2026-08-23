@@ -4,10 +4,14 @@
  * « Choisis la bonne réponse ».
  *
  * Les propositions sont affichées dans l'ordre stocké, et c'est voulu : cet
- * ordre est déjà mélangé au moment du seed, une bonne fois, pour que les
+ * ordre est mélangé une bonne fois à la source, dans `contenuDe`, pour que les
  * données soient saines quel que soit ce qui les lit. Mélanger une seconde
  * fois ici ne ferait que rendre l'ordre affiché différent de l'ordre stocké,
  * sans rien gagner.
+ *
+ * Ce commentaire a longtemps décrit une intention que personne n'avait mise en
+ * œuvre : ni ici, ni au seed, et pendant ce temps la bonne réponse s'affichait
+ * en premier dans 83 % des questions de culture générale.
  */
 import type { QcmQuestion, QcmReveal } from "@/lib/api-types";
 import type { VueExercice, VueExerciceProps } from "./types";

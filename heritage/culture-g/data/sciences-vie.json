@@ -662,6 +662,30 @@
    "bonne": 0,
    "difficulte": 2,
    "explication": "En 1885, Louis Pasteur administre avec succès le premier vaccin contre la rage au jeune Joseph Meister, mordu par un chien enragé, ouvrant une ère nouvelle pour la médecine préventive. Chimiste de formation, Pasteur avait auparavant démontré le rôle des micro-organismes dans les fermentations et les maladies, réfutant la théorie de la génération spontanée. On lui doit aussi la pasteurisation, procédé de conservation par chauffage, et des vaccins vétérinaires contre le charbon et le choléra des poules. L'Institut Pasteur, fondé à Paris en 1888 grâce à une souscription internationale, reste un grand centre mondial de recherche sur les maladies infectieuses."
+  },
+  {
+   "q": "Quel animal microscopique survit à la dessiccation complète, au vide spatial et à des températures allant de - 270 °C à 150 °C ?",
+   "choix": [
+    "Le tardigrade",
+    "Le rotifère",
+    "Le nématode",
+    "L'amibe"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Le tardigrade, un animal d'un demi-millimètre surnommé ourson d'eau, entre en cryptobiose : il expulse presque toute son eau, remplace celle-ci par un sucre protecteur et suspend son métabolisme. Dans cet état, il a survécu à une exposition directe au vide et aux rayonnements de l'espace lors d'une expérience orbitale de 2007. Il ne s'agit pas d'une résistance active mais d'un arrêt : ranimé dans l'eau, il repart comme si rien ne s'était passé."
+  },
+  {
+   "q": "Qu'est-ce que la parthénogenèse ?",
+   "choix": [
+    "Le développement d'un embryon à partir d'un ovule non fécondé",
+    "La transformation d'un individu d'un sexe vers l'autre",
+    "La régénération d'un membre perdu",
+    "La reproduction par division d'une cellule unique"
+   ],
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Chez les pucerons, les abeilles — dont les mâles naissent ainsi —, certains lézards et quelques requins, un ovule peut se développer sans spermatozoïde. L'avantage est la vitesse : une seule femelle suffit à fonder une population. L'inconvénient est génétique, la descendance n'apportant presque aucune variation, ce qui rend la lignée vulnérable au premier parasite venu. Beaucoup d'espèces alternent donc les deux modes selon la saison."
   }
  ],
  "cours": [

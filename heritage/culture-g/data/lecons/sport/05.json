@@ -193,6 +193,18 @@
    "bonne": 3,
    "difficulte": 3,
    "explication": "Jusqu'en 1992, les Jeux d'hiver et les Jeux d'été se déroulaient la même année. Le Comité international olympique a décidé de décaler le calendrier afin de mieux répartir les grands rendez-vous et d'éviter la concurrence médiatique entre les deux événements. Albertville fut donc la dernière édition organisée la même année que des Jeux d'été, et Lillehammer fut avancée à 1994. Depuis, Jeux d'hiver et Jeux d'été alternent tous les deux ans, chacun conservant son cycle de quatre ans. Aucune édition n'a été annulée à cette occasion."
+  },
+  {
+   "q": "Que remporte le skieur alpin qui totalise le plus de points sur l'ensemble d'une saison de Coupe du monde ?",
+   "choix": [
+    "Le globe de cristal",
+    "La médaille Holmenkollen",
+    "Le trophée du Hahnenkamm",
+    "La couronne des Alpes"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Le grand globe de cristal récompense le meilleur skieur de la saison toutes disciplines confondues ; de petits globes distinguent chaque spécialité. C'est un titre plus exigeant qu'une victoire olympique, puisqu'il se gagne sur trente courses et non sur une journée. Le Hahnenkamm de Kitzbühel et le Holmenkollen norvégien existent bel et bien, mais récompensent une course unique, pas une saison."
   }
  ]
 }

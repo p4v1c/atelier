@@ -2,8 +2,7 @@
  * « Choisis la bonne réponse » — le type d'exercice de la culture générale.
  *
  * La bonne réponse ne quitte jamais le serveur avant que l'utilisateur ait
- * répondu : `toQuestion` mélange les propositions et laisse `answerIndex`
- * derrière lui.
+ * répondu : `toQuestion` laisse `answerIndex` derrière lui.
  */
 import { normalizeForDedupe } from "../../lib/tokenize";
 import type { ExerciseKind } from "../types";
@@ -23,9 +22,11 @@ export const qcm: ExerciseKind<QcmPayload, number, unknown> = {
   name: "Question à choix multiple",
   consigne: "Choisis la bonne réponse",
 
-  // Les propositions partent dans l'ordre stocké : c'est l'écran qui les
-  // mélange, avec un tirage propre à la série. Mélanger ici rendrait la
-  // correction impossible, puisque le client renverrait un rang mélangé.
+  // Les propositions partent dans l'ordre stocké, et c'est le bon endroit pour
+  // ne rien faire : mélanger ICI rendrait la correction impossible, puisque le
+  // client renverrait un rang mélangé que le serveur ne saurait pas relire. Le
+  // mélange a lieu une fois pour toutes en amont, dans `contenuDe` — voir
+  // `kinds/melange`.
   toQuestion: (p) => ({ question: p.question, choices: p.choices }),
 
   grade: (p, answer) => ({

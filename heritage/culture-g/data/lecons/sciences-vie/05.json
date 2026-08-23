@@ -164,6 +164,18 @@
    "bonne": 2,
    "difficulte": 3,
    "explication": "Le noyau interne est le lieu le plus chaud de la planète, avec des températures estimées à plus de cinq mille degrés, comparables à celles de la surface du Soleil. Pourtant il est solide, car la pression qui s'y exerce, plus de trois millions de fois la pression atmosphérique, force les atomes de fer à rester serrés dans un réseau cristallin. La température de fusion d'un métal augmente en effet avec la pression. Le noyau externe, un peu moins comprimé, reste liquide, et ses mouvements de fer en fusion engendrent le champ magnétique terrestre par effet dynamo. Cette structure a été déduite de l'étude du trajet des ondes sismiques, qui se réfléchissent ou se ralentissent en traversant ces enveloppes."
+  },
+  {
+   "q": "Comment appelle-t-on une frontière où deux plaques coulissent l'une contre l'autre, sans que de la croûte soit créée ni détruite ?",
+   "choix": [
+    "Une faille transformante",
+    "Une zone de subduction",
+    "Une dorsale océanique",
+    "Un point chaud"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Les trois grandes frontières de plaques se distinguent par ce qu'il advient de la croûte. À une dorsale, elle se fabrique ; dans une zone de subduction, elle s'enfonce et disparaît ; le long d'une faille transformante, elle ne fait que glisser. La faille de San Andreas, en Californie, en est l'exemple le plus connu : le Pacifique et l'Amérique du Nord y frottent l'un contre l'autre, ce qui n'élève ni volcans ni chaîne de montagnes, mais accumule des contraintes que les séismes libèrent d'un coup."
   }
  ]
 }

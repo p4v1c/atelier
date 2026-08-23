@@ -12,6 +12,7 @@
  */
 import { readdirSync, readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
+import { normalizeForDedupe } from "../../lib/tokenize";
 import { qcm, type QcmPayload } from "../kinds/qcm";
 import type { LessonDocument, LessonVisuel, ModuleBatch, SeedExercise, SeedSkill } from "../types";
 import { SUJETS } from "./index";
@@ -320,18 +321,15 @@ export function chargerContenuCultureG(): ModuleBatch[] {
     libres.push(...chargerLibres(sujet));
   }
 
-  // Quelques questions libres reprennent mot pour mot une question de quiz.
-  // La version de la leçon gagne : elle arrive avec son cours et son contexte.
-  const vues = new Set(lecons.flatMap((s) => s.exercises.map((e) => cleQuestion(e.payload))));
-  for (const skill of libres) {
-    skill.exercises = skill.exercises.filter((e) => !vues.has(cleQuestion(e.payload)));
-  }
-
   /* Les notions écrites à la main. Celles dont le sujet a déjà son chapitre
      dans le cahier d'origine sont versées dedans plutôt que de lui faire
      concurrence — voir prisma/seed/culture-g/cours/fusions.ts. Le reste forme
      un lot à part, repérable d'un coup d'œil. */
   const neuves = fusionner(lecons, CG_NEUF);
+
+  // Le dédoublonnage vient APRÈS la fusion : sans quoi il jugerait des
+  // questions qui n'ont pas encore rejoint leur chapitre d'accueil.
+  dedoublonner([lecons, libres, neuves]);
 
   return [
     { id: "cg-lecons", skills: lecons },
@@ -339,6 +337,111 @@ export function chargerContenuCultureG(): ModuleBatch[] {
     { id: "cg-libre", skills: libres.filter((s) => s.exercises.length >= 2) },
     { id: "cg-neuf", skills: neuves },
   ];
+}
+
+/**
+ * Retire les questions posées deux fois, où qu'elles soient.
+ *
+ * Trois sources alimentent la culture générale — les quiz des leçons du cahier
+ * d'origine, ses questions libres, et les notions écrites ici — et rien
+ * n'empêchait la même question d'apparaître dans deux d'entre elles. Le filtre
+ * qui existait ne repérait que les reprises MOT POUR MOT, entre libres et
+ * leçons ; il laissait passer « Quel événement de 622 marque le point de
+ * départ du calendrier musulman ? » face à « Quel événement marque le point de
+ * départ du calendrier musulman ? », que personne ne distinguerait dans une
+ * série.
+ *
+ * LE CRITÈRE, calibré sur des paires connues plutôt qu'au jugé : les énoncés
+ * se recoupent à 85 % au moins, ET les bonnes réponses ont quelque chose en
+ * commun. Les deux conditions comptent, et la mesure ne porte PAS que sur les
+ * mots longs — c'est ce qui rendait l'ancien contrôle aveugle. « Quand l'ONU
+ * est-elle fondée ? » et « Quand la NBA a-t-elle été fondée ? » n'ont plus un
+ * seul mot de plus de trois lettres qui les distingue une fois ONU et NBA
+ * écartés : elles se recoupaient à 100 %. En comptant tous les mots, elles
+ * tombent à 40 %, et le tri redevient possible. Même chose pour Fe et Au, pi
+ * et le nombre d'or, le diabète de type 1 et celui de type 2.
+ *
+ * La bonne réponse tranche le dernier cas que l'énoncé ne sait pas trancher :
+ * « Qu'est-ce que le circuit court ? » et « Qu'est-ce qu'un court-circuit ? »
+ * ont exactement les mêmes mots, et deux réponses sans rapport.
+ *
+ * L'ORDRE : les groupes sont traités dans l'ordre reçu, et le premier garde.
+ * Une leçon l'emporte sur une question libre, parce qu'elle arrive avec son
+ * cours ; une question libre l'emporte sur une notion écrite ici, parce que le
+ * cahier d'origine est la source, et ce qui a été ajouté depuis vient en plus.
+ */
+/**
+ * Les mots vides du français interrogatif : ceux que TOUTES les questions
+ * partagent, et qui gonfleraient artificiellement la ressemblance. La liste
+ * est courte à dessein — « son », « ses », « nombre », « type » en sont
+ * absents, parce qu'ils portent du sens dans « un son hors champ », « le
+ * nombre d'or » ou « le diabète de type 1 ».
+ */
+const MOTS_VIDES = new Set([
+  "quel", "quelle", "quels", "quelles", "qu", "que", "qui", "quoi", "est", "ce",
+  "cet", "cette", "il", "elle", "ils", "elles", "on", "le", "la", "les", "un",
+  "une", "des", "du", "de", "d", "l", "en", "au", "aux", "a", "et", "ou", "dans",
+  "pour", "par", "sur", "avec", "comment", "combien", "pourquoi", "quand",
+  "environ", "t", "y", "s", "n",
+]);
+
+/** Les seuls mots longs : une mesure plus lâche, réservée à la seconde passe. */
+const motsLongs = (texte: string) =>
+  new Set(normalizeForDedupe(texte).split(/\s+/).filter((m) => m.length > 3));
+
+const motsUtiles = (texte: string) =>
+  new Set(
+    normalizeForDedupe(texte)
+      .split(/\s+/)
+      .filter((m) => m.length > 0 && !MOTS_VIDES.has(m))
+  );
+
+function dedoublonner(groupes: SeedSkill[][]): void {
+  const recouvrement = (a: Set<string>, b: Set<string>) => {
+    let commun = 0;
+    for (const m of a) if (b.has(m)) commun++;
+    return commun / (a.size + b.size - commun || 1);
+  };
+
+  /** Les énoncés déjà posés, mot pour mot. */
+  const enonces = new Set<string>();
+  const deja: { enonce: Set<string>; reponse: Set<string>; exacte: string; longs: Set<string> }[] = [];
+
+  for (const groupe of groupes) {
+    for (const skill of groupe) {
+      skill.exercises = skill.exercises.filter((exercice) => {
+        const p = exercice.payload as QcmPayload;
+
+        // Le même énoncé, quelle que soit la réponse. Deux questions
+        // identiques aux réponses différentes ne sont pas une nuance : c'est
+        // une contradiction, et le validateur la refuse.
+        const litteral = cleQuestion(p);
+        if (enonces.has(litteral)) return false;
+
+        const enonce = motsUtiles(p.question);
+        const reponse = motsUtiles(p.choices[p.answerIndex] ?? "");
+        const exacte = normalizeForDedupe(p.choices[p.answerIndex] ?? "");
+        const jumelle = deja.some(
+          (autre) =>
+            // Deux passes, parce qu'une seule laisse toujours filer une moitié
+            // des cas. La première pèse tous les mots et se contente d'une
+            // réponse voisine ; la seconde ne pèse que les mots longs, ce qui
+            // relâche la comparaison des énoncés, et exige alors une réponse
+            // rigoureusement identique pour compenser.
+            (recouvrement(enonce, autre.enonce) >= 0.85 &&
+              recouvrement(reponse, autre.reponse) >= 0.3) ||
+            (exacte !== "" &&
+              exacte === autre.exacte &&
+              recouvrement(motsLongs(p.question), autre.longs) >= 0.75)
+        );
+        if (jumelle) return false;
+
+        enonces.add(litteral);
+        deja.push({ enonce, reponse, exacte, longs: motsLongs(p.question) });
+        return true;
+      });
+    }
+  }
 }
 
 /**
