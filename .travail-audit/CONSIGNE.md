@@ -18,8 +18,21 @@ depuis le début, sans relire tes notes d'abord, et tu compares. La seconde pass
 trouve toujours ce que la première a laissé filer — surtout en fin de fichier,
 quand l'attention baisse. Note dans ton rapport ce que la passe 2 a ajouté.
 
-**NE MODIFIE AUCUN FICHIER.** Tu rapportes, tu ne corriges pas. Quelqu'un d'autre
-appliquera les corrections après relecture.
+**ÉCRIS AU FUR ET À MESURE.** Crée ton fichier de rapport dès la première
+minute, avant même d'avoir fini de lire, et complète-le à chaque fichier
+terminé. N'attends jamais la fin pour écrire : une session interrompue emporte
+tout ce qui n'est pas sur le disque, et il n'y a aucun moyen de le retrouver.
+Commence ton rapport par une ligne d'état que tu remets à jour :
+
+```
+> ÉTAT : passe 1, fichiers lus : histoire-france.ts, histoire-france-2.ts.
+> Reste : -3, -4, le cours, le cahier d'origine.
+```
+
+Ainsi, quiconque reprend ton travail sait exactement où tu t'es arrêté.
+
+**NE MODIFIE AUCUN AUTRE FICHIER.** Tu rapportes, tu ne corriges pas. Quelqu'un
+d'autre appliquera les corrections après relecture.
 
 ## Ce que tu cherches
 
