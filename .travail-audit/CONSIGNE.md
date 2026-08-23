@@ -18,6 +18,11 @@ depuis le début, sans relire tes notes d'abord, et tu compares. La seconde pass
 trouve toujours ce que la première a laissé filer — surtout en fin de fichier,
 quand l'attention baisse. Note dans ton rapport ce que la passe 2 a ajouté.
 
+**REPRENDS UN RAPPORT EXISTANT.** Si un fichier de rapport existe déjà à
+l'adresse qu'on t'indique, quelqu'un a commencé avant toi et a été interrompu.
+Lis-le d'abord — sa première ligne dit ce qui a été lu et ce qui reste. Reprends
+là, n'efface rien, ajoute à la suite.
+
 **ÉCRIS AU FUR ET À MESURE.** Crée ton fichier de rapport dès la première
 minute, avant même d'avoir fini de lire, et complète-le à chaque fichier
 terminé. N'attends jamais la fin pour écrire : une session interrompue emporte
@@ -30,6 +35,13 @@ Commence ton rapport par une ligne d'état que tu remets à jour :
 ```
 
 Ainsi, quiconque reprend ton travail sait exactement où tu t'es arrêté.
+
+**La règle, sans exception : un fichier lu, un rapport mis à jour.** Jamais deux
+fichiers d'affilée sans écrire. C'est contraignant, et c'est voulu : la session
+précédente a perdu la lecture de vingt relecteurs parce qu'ils gardaient leurs
+constats pour la fin. Écrire coûte quelques secondes ; relire tout un domaine en
+coûte des centaines de milliers de jetons. Si tu hésites entre continuer à lire
+et écrire ce que tu as, écris.
 
 **NE MODIFIE AUCUN AUTRE FICHIER.** Tu rapportes, tu ne corriges pas. Quelqu'un
 d'autre appliquera les corrections après relecture.
