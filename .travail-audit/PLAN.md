@@ -96,6 +96,35 @@ jamais été lancé.
 3. **Des cours contredisent leurs propres questions** : dates, chiffres,
    dénombrements.
 
+## Le défaut le plus grave trouvé par l'audit : la bonne réponse est la plus longue
+
+Mesuré sur tout le contenu (`mesure-longueur.ts`, résultat dans
+`mesure-longueur.txt`) après le signalement du relecteur institutions :
+
+```
+culture-g — 9 921 questions
+  héritage    2 497 q · la plus longue dans 55,2 % · « toujours la plus longue » gagne 58,5 %
+  libre         805 q · la plus longue dans 26,5 % · « toujours la plus longue » gagne 33,3 %
+  écrit ici   6 619 q · la plus longue dans 74,4 % · « toujours la plus longue » gagne 76,0 %
+geographie      375 q · la plus longue dans  9,3 % · « toujours la plus longue » gagne 24,9 %
+```
+
+Cocher systématiquement la proposition la plus longue donne donc **environ 68 %
+de bonnes réponses en culture générale**, contre 25 % au hasard — et **76 % sur
+les questions écrites ici**, dont l'écart moyen est de vingt-deux caractères.
+
+C'est le défaut jumeau de celui déjà corrigé — la bonne réponse toujours au rang
+0 — et il vient du même geste : on écrit la vraie réponse, complète et précise,
+puis on invente trois leurres qu'on bâcle. `melange.ts` déplace la bonne
+réponse ; il ne peut pas la raccourcir.
+
+Les questions libres du cahier d'origine, à 26,5 %, montrent ce que donne un
+contenu sain : c'est le niveau du hasard.
+
+**Ce n'est pas réparable automatiquement.** Il faut réécrire les leurres pour
+qu'ils fassent le poids, question par question. Chantier à part entière, à
+mener après le tri des rapports.
+
 ## Ensuite
 
 1. Lire les rapports, trier le vrai du faux positif.
