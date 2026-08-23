@@ -4,7 +4,7 @@
  * Le support de cours d'une compétence, quand elle en a un.
  *
  * Servi à part et non avec le catalogue : une leçon pèse une vingtaine de
- * kilo-octets, et les 238 du module Culture générale n'ont rien à faire dans
+ * kilo-octets, et les 907 du module Culture générale n'ont rien à faire dans
  * une réponse de catalogue qu'on charge à chaque ouverture d'écran.
  */
 import { fail, json, withCookie } from "@/lib/http";

@@ -1,22 +1,29 @@
 # Culture G — les notions écrites ici
 
-Ce dossier contient **7 820 questions de quiz** écrites à la main, réparties à
-l'origine en 782 notions. Avec les 2 209 questions héritées
-(`heritage/culture-g/data/*.json`), le module totalise **10 029 questions**.
+Ce dossier contient **6 619 questions de quiz** écrites à la main, réparties en
+627 notions. Avec les 3 302 questions héritées
+(`heritage/culture-g/data/*.json` — 2 497 dans les quiz des leçons, 805 en
+questions libres), le module totalise **9 921 questions** sur 949 notions.
 
 ## Trois chantiers, dans l'ordre
 
-**1. Les questions — terminé.** Sept mille huit cent vingt questions, aucune en
-double : le validateur compare l'énoncé normalisé de toutes les questions du
-dépôt, tous modules confondus, et refuse le seed au premier jumeau.
+**1. Les questions — terminé.** Aucune question en double : le validateur
+compare l'énoncé normalisé de toutes les questions DU MODULE — et non du dépôt
+entier, contrairement à ce qui était écrit ici : le croiser avec les autres
+modules lèverait 591 fausses alertes, l'anglais et l'espagnol partageant à
+dessein les mêmes phrases françaises à traduire. Il refuse le seed au premier
+jumeau. Depuis, `contenu.ts` en retire
+aussi les REFORMULATIONS — même question à un mot près dans deux chapitres —
+que le validateur ne voyait pas, faute de comparer autre chose que des chaînes
+identiques. Une trentaine disparaissent ainsi à chaque chargement.
 
 **2. Les fusions — terminé.** Le corpus avait été composé sans être confronté
 aux 322 leçons du cahier d'origine, ni confronté à lui-même d'un lot à l'autre.
 Résultat : des sujets en double au catalogue, alors qu'aucune question ne l'était.
 Cent quarante-neuf notions ont été versées dans le chapitre qui traitait déjà
 leur sujet — voir `cours/fusions.ts` — et six titres trop proches ont été rendus
-distincts. Il reste **633 notions autonomes**, soit 955 sujets au catalogue avec
-les leçons héritées.
+distincts. Il reste **627 notions autonomes**, soit 949 sujets au catalogue avec
+les leçons héritées et les questions libres.
 
 Une remarque pour la suite : `doublons-internes.ts` compare les *titres*, et il
 laisse donc passer deux notions au même sujet titrées différemment — « Les
@@ -24,7 +31,8 @@ premiers Capétiens » et « L'affirmation des Capétiens », par exemple. Le co
 qui les a trouvées compare la **fin des slugs** après le préfixe de lot, et il
 mérite d'être relancé à la main après tout nouveau lot de questions.
 
-**3. Les cours — terminé.** Les 633 notions ont leur cours.
+**3. Les cours — terminé.** Les 627 notions ont leur cours, auxquels s'ajoutent
+les 280 leçons du cahier d'origine : 907 chapitres en tout.
 
 ## Comment retrouver ce lot
 
@@ -52,7 +60,7 @@ mérite d'être relancé à la main après tout nouveau lot de questions.
 ████████████████████  45/45  Gastronomie & Art de vivre
 ████████████████████  41/41  Sport
 
-633 / 633 notions ont leur cours (100 %).
+627 / 627 notions ont leur cours (100 %).
 ```
 
 Le décompte se relit à tout moment :

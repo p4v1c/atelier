@@ -8,7 +8,7 @@
  * manque par rapport à la route authentifiée, c'est la progression : un invité
  * ne voit pas son palier, puisqu'il est dans son navigateur et non en base.
  *
- * Servie à part du contenu public : les 280 leçons de la culture générale
+ * Servie à part du contenu public : les 907 cours de la culture générale
  * pèsent plusieurs mégaoctets, et personne ne les lit toutes.
  */
 import { fail, json } from "@/lib/http";

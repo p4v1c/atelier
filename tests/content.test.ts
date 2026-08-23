@@ -33,7 +33,10 @@ describe("contenu complet", () => {
     expect(report.findings).toEqual([]);
   });
 
-  it("donne sept phrases à chaque règle, sans exception", () => {
+  // Le nom disait « sept, sans exception », l'assertion dit « au moins sept »,
+  // et le contenu donne raison à l'assertion : cinq règles d'écrits
+  // professionnels en comptent neuf. Sept est un plancher, pas un gabarit.
+  it("donne au moins sept phrases à chaque règle", () => {
     for (const batch of batches) {
       for (const rule of batch.rules) {
         expect(rule.sentences.length, rule.slug).toBeGreaterThanOrEqual(7);

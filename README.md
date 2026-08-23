@@ -6,7 +6,7 @@ répétition espacée, et autant de matières qu'on veut y mettre.
 | Module           | Contenu                                                      | Apparence          |
 | ---------------- | ------------------------------------------------------------ | ------------------ |
 | Français         | 618 règles · 4 336 phrases · 310 dictées                      | cahier d'écolier   |
-| Culture générale | 322 notions · 2 209 questions · 280 leçons                    | carnet de révision |
+| Culture générale | 949 notions · 9 921 questions · 907 cours                      | carnet de révision |
 | Anglais          | 182 séries · 7 180 cartes · 10 dictées · 64 cours · A1→C2       | signalétique       |
 | Espagnol         | 180 séries · 7 110 cartes · 10 dictées · 62 cours · A1→C2       | signalétique       |
 | Géographie       | 20 séries · 613 questions · 5 cartes × 4 jeux                 | atlas              |
@@ -437,7 +437,7 @@ npm run prisma:migrate        # applique les migrations
 npm run extract:legacy        # relit heritage/la-regle/ -> prisma/seed/legacy.json
 npm run validate:content      # compte-rendu + anomalies
 npm run seed                  # remplit la base
-npm test                      # 163 tests
+npm test                      # 236 tests
 npm run tts:voices            # voix neuronales locales (facultatif, ~460 Mo)
 npm run tts:prepare           # pré-génère l'audio : sans ça, la 1re écoute attend
 npm run dev                   # http://localhost:3000
@@ -627,9 +627,12 @@ Répartition : Homophones 98 · Vocabulaire 114 · Accords 91 · Conjugaison 87 
 Orthographe d'usage 65 · Ponctuation 38 · Typographie 37 · Registre et style 38 ·
 Écrits professionnels 38 · Cas discutés 12.
 
-**Chaque règle a exactement sept phrases**, sans exception — 618 × 7 = 4 326.
-Un test le vérifie à chaque exécution de la suite. À vingt questions par jour,
-il faut plus de sept mois pour voir chaque phrase une seule fois.
+**Sept phrases par règle au minimum**, et c'est un plancher tenu par un test :
+613 règles en ont exactement sept, cinq règles d'écrits professionnels en ont
+neuf — 4 336 phrases en tout. Le README annonçait longtemps « exactement sept,
+sans exception » et le test s'appelait ainsi, alors qu'il vérifiait « au
+moins ». À vingt questions par jour, il faut plus de sept mois pour voir chaque
+phrase une seule fois.
 
 - `patches.ts` — les sept corrections apportées au contenu d'origine, chacune
   avec son motif. Vider ce tableau restitue le contenu d'origine à l'identique.
