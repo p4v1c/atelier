@@ -126,11 +126,15 @@ export function Stats({ engine, moduleId, setScreen, setChrome }: ScreenProps) {
 
         {message && <p className="alerte">{message}</p>}
 
-        <p className="mono-titre" style={{ display: "flex", justifyContent: "space-between" }}>
+        <p className="mono-titre entete-tableau">
           <span>Les {domaines.length} domaines</span>
-          <span>Cliquer pour ouvrir le détail</span>
+          <span className="astuce">Cliquer pour ouvrir le détail</span>
         </p>
 
+        {/* Six colonnes ne tiennent pas dans un téléphone : le tableau défile
+            dans son cadre, et la page ne bouge pas. Sans ce cadre, c'est la
+            page entière qui partait de côté, en emmenant l'en-tête avec elle. */}
+        <div className="tableau-defilant">
         <table className="table-domaines">
           <thead>
             <tr>
@@ -211,6 +215,7 @@ export function Stats({ engine, moduleId, setScreen, setChrome }: ScreenProps) {
             })}
           </tbody>
         </table>
+        </div>
       </div>
 
       <aside className="rail">

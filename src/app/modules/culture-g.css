@@ -67,7 +67,7 @@
 
 .cg-statrow {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(140px, 100%), 1fr));
   gap: 26px;
   padding: 20px 0;
   border-top: 1px solid var(--encre-3);
@@ -91,7 +91,7 @@
 
 .cg-modes {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
   gap: 14px;
   margin-bottom: 32px;
 }
@@ -144,7 +144,7 @@
 
 .cg-catgrid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(230px, 100%), 1fr));
   gap: 10px;
 }
 .cg-catcard {

@@ -60,36 +60,38 @@ export function Bilan({ engine, summary, category, setScreen, setChrome }: Props
         </div>
 
         <p className="mono-titre">Par domaine</p>
-        <table className="table-domaines">
-          <thead>
-            <tr>
-              <th>Domaine</th>
-              <th>Juste</th>
-              <th>Posées</th>
-              <th className="avancement">Réussite</th>
-            </tr>
-          </thead>
-          <tbody>
-            {summary.byCategory.map((c) => {
-              const part = c.total ? c.correct / c.total : 0;
-              return (
-                <tr key={c.category}>
-                  <td>{c.category}</td>
-                  <td className={c.correct === 0 ? "rien" : ""}>{c.correct}</td>
-                  <td>{c.total}</td>
-                  <td className="avancement">
-                    <span className="piste">
-                      <i
-                        className={part >= 0.75 ? "bien" : part < 0.5 ? "mal" : ""}
-                        style={{ width: `${Math.max(2, part * 100)}%` }}
-                      />
-                    </span>
-                  </td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
+        <div className="tableau-defilant">
+          <table className="table-domaines">
+            <thead>
+              <tr>
+                <th>Domaine</th>
+                <th>Juste</th>
+                <th>Posées</th>
+                <th className="avancement">Réussite</th>
+              </tr>
+            </thead>
+            <tbody>
+              {summary.byCategory.map((c) => {
+                const part = c.total ? c.correct / c.total : 0;
+                return (
+                  <tr key={c.category}>
+                    <td>{c.category}</td>
+                    <td className={c.correct === 0 ? "rien" : ""}>{c.correct}</td>
+                    <td>{c.total}</td>
+                    <td className="avancement">
+                      <span className="piste">
+                        <i
+                          className={part >= 0.75 ? "bien" : part < 0.5 ? "mal" : ""}
+                          style={{ width: `${Math.max(2, part * 100)}%` }}
+                        />
+                      </span>
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
       </div>
 
       <aside className="rail">

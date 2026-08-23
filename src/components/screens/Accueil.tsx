@@ -161,37 +161,39 @@ export function Accueil({ engine, user, moduleId, setScreen, setChrome }: Screen
           <span>Cliquer pour s’entraîner dessus</span>
         </p>
 
-        <table className="table-domaines">
-          <thead>
-            <tr>
-              <th>Domaine</th>
-              <th>Acquis</th>
-              <th>Revoir</th>
-              <th>Inédits</th>
-              <th className="avancement">Avancement</th>
-            </tr>
-          </thead>
-          <tbody>
-            {domaines.map((d) => (
-              <tr key={d.category} onClick={() => !occupe && lancer({ mode: "targeted", categorie: d.category })}>
-                <td>{d.category}</td>
-                <td>
-                  {d.mastered}/{d.skills}
-                </td>
-                <td className={d.due > 0 ? "du" : "rien"}>{d.due > 0 ? d.due : "—"}</td>
-                <td className={d.unseen > 0 ? "" : "rien"}>{d.unseen > 0 ? d.unseen : "—"}</td>
-                <td className="avancement">
-                  <span className="piste">
-                    <i
-                      className={d.vus === 0 ? "" : d.reussite >= 0.8 ? "bien" : d.reussite < 0.5 ? "mal" : ""}
-                      style={{ width: `${Math.max(2, d.part)}%` }}
-                    />
-                  </span>
-                </td>
+        <div className="tableau-defilant">
+          <table className="table-domaines">
+            <thead>
+              <tr>
+                <th>Domaine</th>
+                <th>Acquis</th>
+                <th>Revoir</th>
+                <th>Inédits</th>
+                <th className="avancement">Avancement</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {domaines.map((d) => (
+                <tr key={d.category} onClick={() => !occupe && lancer({ mode: "targeted", categorie: d.category })}>
+                  <td>{d.category}</td>
+                  <td>
+                    {d.mastered}/{d.skills}
+                  </td>
+                  <td className={d.due > 0 ? "du" : "rien"}>{d.due > 0 ? d.due : "—"}</td>
+                  <td className={d.unseen > 0 ? "" : "rien"}>{d.unseen > 0 ? d.unseen : "—"}</td>
+                  <td className="avancement">
+                    <span className="piste">
+                      <i
+                        className={d.vus === 0 ? "" : d.reussite >= 0.8 ? "bien" : d.reussite < 0.5 ? "mal" : ""}
+                        style={{ width: `${Math.max(2, d.part)}%` }}
+                      />
+                    </span>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </div>
 
       <aside className="rail">

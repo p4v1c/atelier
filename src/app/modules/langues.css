@@ -83,7 +83,7 @@
 
 .lg-modes {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(215px, 100%), 1fr));
   gap: 12px;
   margin-bottom: 30px;
 }
@@ -189,12 +189,21 @@
 }
 .lg-palier.ouvert .lg-palier-tete .part { color: var(--craie); }
 
-/* Les séries du palier ouvert : deux colonnes denses, comme le catalogue. */
+/* Les séries du palier ouvert : deux colonnes denses, comme le catalogue.
+   Le `min(420px, 100%)` n'est pas une coquetterie : avec un simple
+   `minmax(420px, 1fr)`, la colonne garde ses 420 pixels sur un écran qui n'en
+   fait que 390, et c'est la page entière qui part de côté. Le `min` autorise
+   la colonne à descendre à la largeur disponible. */
 .lg-palier-series {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr));
   gap: 0 34px;
   padding: 4px 0 18px 48px;
+}
+/* Quarante-huit pixels d'alinéa sur un écran de trois cent quatre-vingt-dix,
+   c'est un huitième de la largeur donné au décor. */
+@media (max-width: 560px) {
+  .lg-palier-series { padding-left: 16px; }
 }
 /* Le domaine passe sous le titre : en colonne, il volait la place du titre,
    qui se cassait alors sur deux lignes. */
@@ -237,12 +246,15 @@
 
 .lg-programme {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
   gap: 10px 30px;
 }
 .lg-serie-ligne {
   display: grid;
-  grid-template-columns: 30px 1fr 46px;
+  /* minmax(0, 1fr) et non 1fr : un titre de série sans espace insécable ne
+     peut pas rétrécir sous sa largeur naturelle avec « 1fr », et la ligne
+     pousse alors la page entière hors de l'écran du téléphone. */
+  grid-template-columns: 30px minmax(0, 1fr) 46px;
   align-items: center;
   gap: 12px;
   padding: 9px 0;

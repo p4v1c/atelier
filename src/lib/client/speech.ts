@@ -16,6 +16,8 @@
  *     pause/resume périodique la maintient en vie.
  */
 
+import { HORS_LIGNE } from "../hors-ligne";
+
 export type VoixInfo = {
   /** Voix retenue, ou null si le système n'en propose aucune. */
   voix: SpeechSynthesisVoice | null;
@@ -220,6 +222,9 @@ let etatServeurMemo: Promise<EtatServeur> | null = null;
 
 /** Le serveur sait-il synthétiser ? Interrogé une seule fois par session. */
 export function etatVoixServeur(): Promise<EtatServeur> {
+  // Hors ligne, il n'y a pas de serveur : la question ne se pose pas, et la
+  // poser produirait une requête vouée à l'échec au premier écran de dictée.
+  if (HORS_LIGNE) return Promise.resolve({ disponible: false, voix: null });
   etatServeurMemo ??= fetch("/api/tts")
     .then((r) => (r.ok ? (r.json() as Promise<EtatServeur>) : { disponible: false, voix: null }))
     .catch(() => ({ disponible: false, voix: null }));

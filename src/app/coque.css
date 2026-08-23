@@ -329,6 +329,11 @@
 
 /* ── éléments de la scène ── */
 
+.entete-tableau { display: flex; justify-content: space-between; gap: 12px; }
+/* Sur un écran étroit, l'invitation à cliquer prend autant de place que le
+   titre qu'elle accompagne : elle s'efface. */
+@media (max-width: 560px) { .entete-tableau .astuce { display: none; } }
+
 .mono-titre {
   font-family: "IBM Plex Mono", monospace;
   font-size: 10.5px;
@@ -387,7 +392,11 @@
 .reglages-serie .fin { margin-left: auto; font-size: 12px; color: var(--mauve-2); }
 
 /* Le tableau des domaines : tout le module en un écran. */
-.table-domaines { width: 100%; border-collapse: collapse; font-size: 14px; }
+/* Le tableau défile dans son cadre ; la page, jamais. La largeur minimale est
+   ce qu'il faut pour que six colonnes de chiffres restent lisibles : en deçà,
+   le navigateur les comprime jusqu'à casser les nombres en deux lignes. */
+.tableau-defilant { overflow-x: auto; margin-bottom: 6px; }
+.table-domaines { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 460px; }
 .table-domaines thead th {
   font-family: "IBM Plex Mono", monospace;
   font-size: 10px;
@@ -642,7 +651,29 @@
     scrollbar-width: none;
   }
   .onglets::-webkit-scrollbar { display: none; }
-  .onglet { font-size: 10.5px; padding: 6px 9px 5px; white-space: nowrap; }
+  /* Sur un téléphone, on vise avec un pouce et non avec une souris : les
+     cibles montent à quarante pixels de haut, le minimum recommandé. */
+  .onglet {
+    font-size: 10.5px;
+    padding: 12px 11px 10px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    min-height: 40px;
+  }
+  .flanc-pied button { min-height: 40px; display: flex; align-items: center; }
+  .matiere-lien { min-height: 42px; }
+
+  /* Les commandes secondaires — filtres, tris, choix de longueur — se visent
+     aussi avec un pouce. Trente-six pixels : moins que les onglets, parce
+     qu'elles sont en rangée serrée et qu'un pouce vise mieux une cible large
+     que haute, mais assez pour ne plus rater. */
+  .volet-liste .puce,
+  .segment {
+    min-height: 36px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
 }
 
 /* Les puces de filtre, dans les volets. */
@@ -960,7 +991,7 @@
 }
 
 .appli-chiffres {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(min(140px, 100%), 1fr));
   gap: 18px; margin: 0 0 22px;
 }
 .appli-chiffres dt {
