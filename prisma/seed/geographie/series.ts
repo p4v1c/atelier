@@ -22,7 +22,7 @@ const REPERES: Record<string, { drapeaux: string; capitales: string; situer: str
     situer: "Deux repères tiennent la carte : la botte italienne au sud, la Scandinavie au nord. Le reste se situe par rapport à eux.",
   },
   afrique: {
-    drapeaux: "Le vert-jaune-rouge vient d'Éthiopie, l'un des deux seuls pays du continent jamais colonisés, avec le Libéria ; il a essaimé sur tout le continent.",
+    drapeaux: "Le vert-jaune-rouge vient d'Éthiopie, seul pays jamais durablement colonisé ; il a essaimé sur tout le continent.",
     capitales: "Plusieurs ont été bâties de toutes pièces au centre du pays pour cesser de dépendre d'un port colonial.",
     situer: "Le Sahara barre le nord, le golfe de Guinée creuse l'ouest, la corne pointe à l'est. Trois formes, et la carte se tient.",
   },

@@ -272,7 +272,7 @@ export const CG_INSTITUTIONS_ECONOMIE_3: SeedSkill[] = [
     "Les individus ne se comportent pas comme l'homo economicus des manuels.",
     2, [
     ["Qu'est-ce que l'économie comportementale ?", ["Un champ intégrant psychologie et économie pour expliquer les décisions réelles", "Une économie expérimentale", "Une psychologie du consommateur", "Une sociologie économique"], 0,
-     "Kahneman et Tversky en sont les fondateurs ; Kahneman a reçu le Nobel d'économie en 2002, Tversky étant mort en 1996."],
+     "Kahneman et Tversky en sont les fondateurs, avec un Nobel d'économie en 2002."],
     ["Qu'est-ce que l'aversion à la perte ?", ["La tendance à ressentir plus fortement une perte qu'un gain équivalent", "Le refus du risque", "La prudence financière", "L'évitement de l'incertitude"], 0,
      "Une perte pèse environ deux fois plus qu'un gain de même montant."],
     ["Qu'est-ce que l'effet de dotation ?", ["La tendance à surévaluer ce que l'on possède déjà", "Un effet de richesse", "Un biais d'achat", "Un attachement affectif"], 0,

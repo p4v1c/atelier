@@ -3,7 +3,7 @@ import type { LotCours } from "../commun";
 
 export const COURS_CINEMA_MEDIAS: LotCours = {
   "cm-langage-cinematographique": [
-    ["Cadrer", `L'échelle des plans se définit par la place du corps humain dans le cadre. Le plan d'ensemble montre un décor entier et les personnages en pied, situant l'action. Le plan moyen cadre le personnage en entier, le plan américain le coupe à mi-cuisses, le plan rapproché à la poitrine, et le gros plan isole un visage ou un détail — c'est le plan de l'émotion et de l'information cachée.
+    ["Cadrer", `L'échelle des plans se définit par la place du corps humain dans le cadre. Le plan d'ensemble montre un décor entier et les personnages en pied, situant l'action. Le plan moyen coupe à mi-cuisses, le plan rapproché à la poitrine, et le gros plan isole un visage ou un détail — c'est le plan de l'émotion et de l'information cachée.
 
 L'angle compte autant que la distance. Une contre-plongée cadre de bas en haut et grandit le sujet, lui donnant puissance ou menace ; une plongée fait l'inverse et écrase. Ces effets ne sont pas des lois — un réalisateur peut les prendre à contre-emploi — mais des conventions que le spectateur a intégrées sans jamais les avoir apprises.`],
     ["Bouger et couper", `Un travelling est un déplacement de la caméra elle-même, sur rails, sur épaule ou sur véhicule : le point de vue se déplace dans l'espace. Un panoramique est une simple rotation de la caméra sur son axe : elle balaie sans se déplacer. La différence est perceptible, un travelling faisant varier les rapports entre les plans du décor.
