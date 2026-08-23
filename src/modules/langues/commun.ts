@@ -148,6 +148,23 @@ export function cartesEnExercices(
 ): SeedExercise[] {
   const accents = Array.isArray(langueOuAccents) ? langueOuAccents : [langueOuAccents];
   const exercices: SeedExercise[] = [];
+
+  /*
+   * Les chapitres de PRONONCIATION ne donnent que leurs exercices oraux.
+   *
+   * Leurs cartes portent sur des SONS — ship contre sheep, le TH, l'accent de
+   * mot. Les reconnaître de l'anglais vers le français, ou les écrire du
+   * français vers l'anglais, ne fait rien travailler de ce que le chapitre
+   * annonce : on peut écrire « think » sans savoir le dire. Ces séries
+   * comptaient pourtant dix cartes mémoire et dix traductions écrites pour dix
+   * écoutes et dix prononciations — trois quarts de ce qu'on ouvrait sous le
+   * titre « Le TH et ses deux sons » ne concernait pas le TH.
+   *
+   * Partout ailleurs, les quatre formes gardent leur sens : une carte de
+   * vocabulaire se reconnaît, se produit, s'entend et se dit.
+   */
+  const oralSeul = lot.category === "Prononciation";
+
   for (const carte of lot.cartes) {
     const difficulty = carte.difficulte ?? lot.difficulty;
     const langue = accentPour(carte.etranger, accents);
@@ -159,7 +176,7 @@ export function cartesEnExercices(
       note: carte.note,
       langue,
     };
-    exercices.push({ kind: flashcard.id, payload: versFrancais, difficulty, batch });
+    if (!oralSeul) exercices.push({ kind: flashcard.id, payload: versFrancais, difficulty, batch });
 
     const versLangue: CartePayload = {
       recto: carte.francais,
@@ -172,7 +189,7 @@ export function cartesEnExercices(
       // la réponse qu'on veut pouvoir entendre.
       langue,
     };
-    exercices.push({ kind: traduction.id, payload: versLangue, difficulty, batch });
+    if (!oralSeul) exercices.push({ kind: traduction.id, payload: versLangue, difficulty, batch });
 
     // L'écoute et la prononciation demandent de restituer la langue étudiée :
     // leurs variantes acceptées sont celles de cette langue.
@@ -327,8 +344,27 @@ export function moduleLangue(o: OptionsLangue): LearningModule {
          l'écoute jamais sur un mot nu. Rien ne les vérifiait, donc rien
          n'empêchait de les enfreindre. Elles descendent ici. */
 
-      // La carte, c'est la paire : une flashcard par carte, toujours.
-      const nbCartes = skill.exercises.filter((e) => e.kind === flashcard.id).length;
+      /*
+       * Combien de cartes cette série couvre-t-elle ?
+       *
+       * Le compte se faisait sur le nombre de cartes mémoire, une par carte —
+       * ce qui était vrai tant que toutes les séries en produisaient une. Les
+       * chapitres de prononciation n'en produisent plus : leurs cartes portent
+       * sur des sons, et se reconnaître de l'anglais au français n'y apprend
+       * rien. Le contrôle annonçait alors « 0 carte » sur des séries qui en
+       * comptent dix, et bloquait le seed.
+       *
+       * On compte donc les cartes elles-mêmes : la phrase en langue étrangère
+       * identifie la carte, quelle que soit la forme sous laquelle elle est
+       * servie. Elle est au recto partout, sauf en traduction — où l'on part
+       * du français —, et le verso la porte alors.
+       */
+      const nbCartes = new Set(
+        skill.exercises.map((e) => {
+          const p = e.payload as CartePayload;
+          return (e.kind === traduction.id ? p.verso : p.recto).trim().toLowerCase();
+        })
+      ).size;
       if (nbCartes < 5) {
         anomalies.push({
           severity: "error",

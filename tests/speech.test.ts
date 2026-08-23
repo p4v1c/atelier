@@ -5,10 +5,15 @@
  * proteste pas, il lit simplement avec une voix anglaise — ou ne lit rien.
  */
 import { describe, expect, it } from "vitest";
-import { choisirVoix, decouperPourLecture } from "@/lib/client/speech";
+import { choisirVoix, decouperPourLecture, type Voix } from "@/lib/client/speech";
 
-function voix(name: string, lang: string, localService = true): SpeechSynthesisVoice {
-  return { name, lang, localService, default: false, voiceURI: name } as SpeechSynthesisVoice;
+/** Une voix du navigateur, telle que `chargerVoix` l'enrobe. */
+function voix(name: string, lang: string, localService = true): Voix {
+  return {
+    lang,
+    nom: name,
+    brute: { name, lang, localService, default: false, voiceURI: name } as SpeechSynthesisVoice,
+  };
 }
 
 describe("choisirVoix", () => {
@@ -25,7 +30,7 @@ describe("choisirVoix", () => {
       voix("French (France)+Zac espeak-ng", "fr-FR"),
       voix("French (France) espeak-ng", "fr-FR"),
     ];
-    expect(choisirVoix(liste).voix?.name).toBe("French (France) espeak-ng");
+    expect(choisirVoix(liste).voix?.nom).toBe("French (France) espeak-ng");
   });
 
   it("se rabat sur une autre variante française si fr-FR manque", () => {

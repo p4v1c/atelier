@@ -17,9 +17,16 @@ import {
   lire,
   lireExerciceParServeur,
   synthesePossible,
+  type Voix,
   type EtatServeur,
 } from "@/lib/client/speech";
-import { ecouter, reconnaissancePossible, type Ecoute } from "@/lib/client/reconnaissance";
+import {
+  ecouter,
+  reconnaissancePossible,
+  reconnaissanceUtilisable,
+  type Ecoute,
+} from "@/lib/client/reconnaissance";
+import { NATIF } from "@/lib/client/voix-native";
 import type { VueExercice, VueExerciceProps } from "./types";
 
 type Reveal = { recto: string; verso: string; note: string | null; entendu: string };
@@ -33,7 +40,9 @@ function PrononciationVue({ question, verdict, repondre, exerciceId }: VueExerci
   const [partiel, setPartiel] = useState("");
   const [erreur, setErreur] = useState<string | null>(null);
   const [panne, setPanne] = useState(false);
-  const [modele, setModele] = useState<SpeechSynthesisVoice | null>(null);
+  /** Vérification différée : sur le téléphone, la réponse vient du système. */
+  const [supporte, setSupporte] = useState<boolean | null>(null);
+  const [modele, setModele] = useState<Voix | null>(null);
   const [serveur, setServeur] = useState<EtatServeur | null>(null);
   const enCours = useRef(false);
 
@@ -58,6 +67,14 @@ function PrononciationVue({ question, verdict, repondre, exerciceId }: VueExerci
   }, [langue]);
 
   useEffect(() => {
+    let vivant = true;
+    void reconnaissanceUtilisable().then((ok) => vivant && setSupporte(ok));
+    return () => {
+      vivant = false;
+    };
+  }, []);
+
+  useEffect(() => {
     setPartiel("");
     setErreur(null);
   }, [question]);
@@ -70,7 +87,7 @@ function PrononciationVue({ question, verdict, repondre, exerciceId }: VueExerci
    * échoue sur le réseau. On bascule alors sur l'auto-évaluation, plutôt que
    * de laisser l'utilisateur devant un bouton qui ne fait rien.
    */
-  const possible = reconnaissancePossible() && !panne;
+  const possible = reconnaissancePossible() && supporte !== false && !panne;
 
   /** Le serveur sait-il lire cette langue ? */
   const modeleServeur =
@@ -148,9 +165,11 @@ function PrononciationVue({ question, verdict, repondre, exerciceId }: VueExerci
                 </button>
               </div>
               <p className="sans-voix">
-                Ce navigateur ne transcrit pas la parole — la reconnaissance vocale demande Chrome
-                ou Edge, et le réseau. Écoute le modèle, répète à voix haute, et juge-toi
-                honnêtement : c’est le même pacte que la carte mémoire.
+                {NATIF
+                  ? "La reconnaissance vocale n’a pas répondu sur ce téléphone."
+                  : "Ce navigateur ne transcrit pas la parole — la reconnaissance vocale demande Chrome ou Edge, et le réseau."}{" "}
+                Écoute le modèle, répète à voix haute, et juge-toi honnêtement : c’est le même pacte
+                que la carte mémoire.
               </p>
             </>
           )

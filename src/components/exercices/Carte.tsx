@@ -16,7 +16,9 @@ import {
   etatVoixServeur,
   lire,
   lireExerciceParServeur,
+  messageVoixAbsente,
   synthesePossible,
+  type Voix,
   type EtatServeur,
   type LectureServeur,
 } from "@/lib/client/speech";
@@ -55,7 +57,7 @@ function BoutonEcoute({
   /** true quand l'exercice REPOSE sur le son : l'absence de voix se dit alors. */
   essentiel?: boolean;
 }) {
-  const [voix, setVoix] = useState<SpeechSynthesisVoice | null>(null);
+  const [voix, setVoix] = useState<Voix | null>(null);
   const [disponible, setDisponible] = useState<boolean | null>(null);
   const [serveur, setServeur] = useState<EtatServeur | null>(null);
   const [enCours, setEnCours] = useState(false);
@@ -129,8 +131,8 @@ function BoutonEcoute({
     if (!essentiel) return null;
     return (
       <p className="sans-voix">
-        Aucune voix « {langue} » n’est installée sur cet appareil. Le texte s’affiche donc à la
-        place : l’exercice reste jouable, mais il ne fait plus travailler l’oreille.
+        {messageVoixAbsente(langue)} Le texte s’affiche donc à la place : l’exercice reste jouable,
+        mais il ne fait plus travailler l’oreille.
       </p>
     );
   }

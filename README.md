@@ -7,8 +7,8 @@ répétition espacée, et autant de matières qu'on veut y mettre.
 | ---------------- | ------------------------------------------------------------ | ------------------ |
 | Français         | 618 règles · 4 336 phrases · 310 dictées                      | cahier d'écolier   |
 | Culture générale | 949 notions · 9 921 questions · 907 cours                      | carnet de révision |
-| Anglais          | 182 séries · 7 180 cartes · 10 dictées · 64 cours · A1→C2       | signalétique       |
-| Espagnol         | 180 séries · 7 110 cartes · 10 dictées · 62 cours · A1→C2       | signalétique       |
+| Anglais          | 182 séries · 7 040 cartes · 10 dictées · 64 cours · A1→C2       | signalétique       |
+| Espagnol         | 180 séries · 6 970 cartes · 10 dictées · 62 cours · A1→C2       | signalétique       |
 | Géographie       | 20 séries · 613 questions · 5 cartes × 4 jeux                 | atlas              |
 
 Le moteur ne sait pas ce qu'est une faute d'orthographe ni une capitale : il
@@ -775,6 +775,23 @@ Publier est une décision, pas un effet de bord.
 
 L'APK, lui, ne se remplace pas tout seul : Android ne l'autorise pas sans un
 geste explicite, et c'est heureux. L'écran renvoie vers la page des publications.
+
+### La voix et l'oreille dans l'APK
+
+La vue web d'Android **n'implémente pas l'API vocale du web** — ni
+`speechSynthesis`, ni la reconnaissance : ce sont des fonctions de Chrome, pas
+de la vue web qu'un APK embarque. L'application annonçait donc « Aucune voix
+en-GB n'est installée sur cet appareil », ce qui accusait le téléphone à tort,
+et la moitié des exercices de langue plus les 310 dictées ne fonctionnaient pas.
+
+`src/lib/client/voix-native.ts` enveloppe deux greffons —
+`@capacitor-community/text-to-speech` et `.../speech-recognition` — derrière la
+même forme que l'API du navigateur. `speech.ts` et `reconnaissance.ts`
+aiguillent ; les écrans ignorent sur quoi ils tournent. Le type `Voix` masque la
+différence entre un `SpeechSynthesisVoice` et une simple étiquette de langue.
+
+Reste à la charge de la personne : installer la langue dans le moteur de
+synthèse d'Android. Le message le dit maintenant, avec le chemin exact.
 
 ### Outillage
 

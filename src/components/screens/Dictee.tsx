@@ -31,10 +31,12 @@ import {
   etatVoixServeur,
   lire,
   lireParServeur,
+  messageVoixAbsente,
   synthesePossible,
   vitesseServeur,
   type EtatServeur,
   type LectureServeur,
+  type Voix,
   type VoixInfo,
 } from "@/lib/client/speech";
 
@@ -147,7 +149,7 @@ export function Dictee({ engine, id, moduleId, setScreen, setChrome }: Props) {
    * qui n'a pas à connaître nos ennuis d'infrastructure.
    */
   const dire = useCallback(
-    (texte: string, vitesse: number, volume: number, voix: SpeechSynthesisVoice | null, dictationId?: string) => {
+    (texte: string, vitesse: number, volume: number, voix: Voix | null, dictationId?: string) => {
       stopper();
 
       const parNavigateur = () => {
@@ -402,14 +404,14 @@ export function Dictee({ engine, id, moduleId, setScreen, setChrome }: Props) {
           {serveurSaitLire
             ? `Voix neuronale, accent ${etiquette}. Nettement plus naturelle que celle du navigateur.`
             : !dispo
-              ? "Ce navigateur ne propose aucune synthèse vocale."
+              ? "Aucune synthèse vocale ici."
               : voixInfo === null
                 ? "Recherche d’une voix…"
                 : voixInfo.voix === null
-                  ? "Aucune voix installée sur cet appareil."
+                  ? messageVoixAbsente(etiquette)
                   : voixInfo.francaise
-                    ? `Voix : ${voixInfo.voix.name} (${voixInfo.voix.lang})`
-                    : `Aucune voix ${nomLangue} trouvée. Lecture avec ${voixInfo.voix.name}, qui prononcera mal.`}
+                    ? `Voix : ${voixInfo.voix.nom} (${voixInfo.voix.lang})`
+                    : `Aucune voix ${nomLangue} trouvée. Lecture avec ${voixInfo.voix.nom}, qui prononcera mal.`}
         </p>
 
         {!serveurSaitLire && (

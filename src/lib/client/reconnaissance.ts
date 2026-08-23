@@ -9,11 +9,18 @@
  * visait « ship » se voit immédiatement) mais ce n'est pas un professeur.
  *
  * Trois limites, à dire à l'utilisateur plutôt qu'à cacher :
- *   · seuls Chrome et Edge l'implémentent ;
+ *   · dans un navigateur, seuls Chrome et Edge l'implémentent ;
  *   · Chrome envoie l'audio à ses serveurs pour le transcrire ;
  *   · la ponctuation et les majuscules ne sont pas fiables — la correction en
  *     tient compte.
+ *
+ * DANS L'APPLICATION ANDROID, rien de tout cela n'existe : la vue web n'a pas
+ * l'API du web. C'est le moteur de reconnaissance du système qui écoute, par
+ * le greffon enveloppé dans `voix-native`. Ce fichier aiguille vers l'un ou
+ * l'autre ; les écrans ne voient qu'une seule fonction.
  */
+
+import { NATIF, ecouterNatif, reconnaissanceNativeDisponible, type EcouteNative } from "./voix-native";
 
 type Alternative = { transcript: string; confidence: number };
 type ResultatBrut = { isFinal: boolean; 0: Alternative; length: number };
@@ -36,10 +43,25 @@ type FenetreAvecReconnaissance = Window & {
   webkitSpeechRecognition?: new () => MoteurReconnaissance;
 };
 
+/**
+ * Réponse immédiate, pour le premier rendu.
+ *
+ * Sur le téléphone, elle est optimiste : le moteur système existe presque
+ * toujours, et `reconnaissanceUtilisable()` le confirmera juste après. Répondre
+ * non ici ferait clignoter l'écran entre deux états.
+ */
 export function reconnaissancePossible(): boolean {
   if (typeof window === "undefined") return false;
+  if (NATIF) return true;
   const w = window as FenetreAvecReconnaissance;
   return Boolean(w.SpeechRecognition ?? w.webkitSpeechRecognition);
+}
+
+/** La réponse vérifiée, qui demande au système sur le téléphone. */
+export async function reconnaissanceUtilisable(): Promise<boolean> {
+  if (typeof window === "undefined") return false;
+  if (NATIF) return reconnaissanceNativeDisponible();
+  return reconnaissancePossible();
 }
 
 export type Ecoute = {
@@ -84,6 +106,25 @@ function traduireErreur(code: string): string {
  * couper avant. Dans les deux cas, `onFinal` est appelé une fois exactement.
  */
 export function ecouter(options: OptionsEcoute): Ecoute | null {
+  // Sur le téléphone, l'écoute passe par le système. Le démarrage est
+  // asynchrone — permission du micro à demander —, alors qu'ici on doit rendre
+  // tout de suite : on rend donc une poignée qui relaiera l'arrêt dès que la
+  // session native existe.
+  if (NATIF) {
+    let session: EcouteNative | null = null;
+    let arreteAvant = false;
+    void ecouterNatif(options).then((s) => {
+      session = s;
+      if (arreteAvant) s?.arreter();
+    });
+    return {
+      arreter: () => {
+        arreteAvant = true;
+        session?.arreter();
+      },
+    };
+  }
+
   const w = window as FenetreAvecReconnaissance;
   const Moteur = w.SpeechRecognition ?? w.webkitSpeechRecognition;
   if (!Moteur) return null;

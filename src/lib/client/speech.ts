@@ -17,11 +17,29 @@
  */
 
 import { HORS_LIGNE } from "../hors-ligne";
+import { NATIF, arreterNatif, languesNatives, lireNatif } from "./voix-native";
+
+/**
+ * Une voix, d'où qu'elle vienne.
+ *
+ * Deux moteurs coexistent et n'ont pas la même forme : le navigateur donne des
+ * objets `SpeechSynthesisVoice`, le téléphone ne donne que des étiquettes de
+ * langue. Les écrans ne doivent connaître ni l'un ni l'autre — ils demandent
+ * une voix pour une langue, et la passent à `lire`.
+ */
+export type Voix = {
+  /** Étiquette BCP-47 : "fr-FR", "en-GB". */
+  lang: string;
+  /** Nom lisible, pour le diagnostic. */
+  nom: string;
+  /** La voix du navigateur, absente quand c'est le téléphone qui parle. */
+  brute?: SpeechSynthesisVoice;
+};
 
 export type VoixInfo = {
   /** Voix retenue, ou null si le système n'en propose aucune. */
-  voix: SpeechSynthesisVoice | null;
-  /** true si la voix retenue parle bien français. */
+  voix: Voix | null;
+  /** true si la voix retenue parle bien la langue demandée. */
   francaise: boolean;
   /** Nombre total de voix disponibles, pour diagnostiquer. */
   total: number;
@@ -29,8 +47,16 @@ export type VoixInfo = {
 
 const DISPONIBLE = typeof window !== "undefined" && "speechSynthesis" in window;
 
+/**
+ * Y a-t-il un moteur de synthèse quelque part ?
+ *
+ * Dans l'application Android, la réponse est oui bien que `speechSynthesis`
+ * soit absent : la vue web ne l'implémente pas, mais le système, lui, sait
+ * parler. Répondre non ici priverait l'APK de l'écoute, de la prononciation
+ * et des dictées — c'est exactement ce qui se passait.
+ */
 export function synthesePossible(): boolean {
-  return DISPONIBLE;
+  return DISPONIBLE || NATIF;
 }
 
 /**
@@ -40,13 +66,20 @@ export function synthesePossible(): boolean {
  * une scrutation courte, et on abandonne au bout de trois secondes plutôt que
  * de laisser l'utilisateur devant un bouton qui ne répond pas.
  */
-export function chargerVoix(delaiMax = 3000): Promise<SpeechSynthesisVoice[]> {
+export function chargerVoix(delaiMax = 3000): Promise<Voix[]> {
+  // Sur le téléphone, il n'y a pas de liste de voix à attendre : le moteur
+  // natif répond par langues, et c'est `choisirVoix` qui les filtrera.
+  if (NATIF) {
+    return languesNatives().then((langues) =>
+      langues.map((lang) => ({ lang, nom: `Android ${lang}` }))
+    );
+  }
   if (!DISPONIBLE) return Promise.resolve([]);
 
   const deja = speechSynthesis.getVoices();
-  if (deja.length > 0) return Promise.resolve(deja);
+  if (deja.length > 0) return Promise.resolve(deja.map(enrober));
 
-  return new Promise((resolve) => {
+  return new Promise<Voix[]>((resolve) => {
     let fini = false;
     const terminer = (force = false) => {
       if (fini) return;
@@ -60,7 +93,7 @@ export function chargerVoix(delaiMax = 3000): Promise<SpeechSynthesisVoice[]> {
       clearInterval(scrutation);
       clearTimeout(abandon);
       speechSynthesis.removeEventListener("voiceschanged", surChangement);
-      resolve(voix);
+      resolve(voix.map(enrober));
     };
     const surChangement = () => terminer(false);
     speechSynthesis.addEventListener("voiceschanged", surChangement);
@@ -68,6 +101,29 @@ export function chargerVoix(delaiMax = 3000): Promise<SpeechSynthesisVoice[]> {
     const abandon = setTimeout(() => terminer(true), delaiMax);
   });
 }
+
+/**
+ * Ce qu'il faut dire quand la langue demandée n'a pas de voix.
+ *
+ * Le message comptait, et il était faux : « Aucune voix en-GB n'est installée
+ * sur cet appareil » accusait le téléphone alors que la vue web ne savait tout
+ * simplement pas accéder aux voix du système. Maintenant que l'application
+ * passe par le moteur d'Android, le message redevient vrai — et il peut dire
+ * quoi faire, puisque c'est réparable en deux minutes dans les réglages.
+ */
+export function messageVoixAbsente(etiquette: string): string {
+  if (NATIF) {
+    return (
+      `La voix « ${etiquette} » n’est pas installée sur ce téléphone. ` +
+      "Réglages → Gestion générale → Synthèse vocale → installer la langue, " +
+      "puis reviens ici."
+    );
+  }
+  return `Aucune voix « ${etiquette} » n’est installée sur cet appareil.`;
+}
+
+/** Une voix du navigateur, vue comme une `Voix`. */
+const enrober = (v: SpeechSynthesisVoice): Voix => ({ lang: v.lang, nom: v.name, brute: v });
 
 /**
  * Choisit la meilleure voix disponible pour une langue.
@@ -79,25 +135,30 @@ export function chargerVoix(delaiMax = 3000): Promise<SpeechSynthesisVoice[]> {
  * n'est PAS dans la bonne langue — l'appelant doit alors le dire à
  * l'utilisateur plutôt que de lui lire de l'anglais avec un accent français.
  */
-export function choisirVoix(voix: SpeechSynthesisVoice[], etiquette = "fr-FR"): VoixInfo {
+export function choisirVoix(voix: Voix[], etiquette = "fr-FR"): VoixInfo {
   const cible = etiquette.toLowerCase();
   const langue = cible.split("-")[0]!;
   const memeLangue = voix.filter((v) => v.lang?.toLowerCase().startsWith(langue));
   // espeak-ng publie des milliers de variantes nommées « French+Alex »,
   // « French+Zac »… La voix de base, sans « + », est la plus neutre.
-  const base = (v: SpeechSynthesisVoice) => !v.name.includes("+");
-  const exacte = (v: SpeechSynthesisVoice) => v.lang?.toLowerCase().startsWith(cible);
+  const base = (v: Voix) => !v.nom.includes("+");
+  const exacte = (v: Voix) => v.lang?.toLowerCase().startsWith(cible);
+  const locale = (v: Voix) => v.brute?.localService !== false;
   const parPreference = [
-    memeLangue.find((v) => exacte(v) && base(v) && v.localService),
+    memeLangue.find((v) => exacte(v) && base(v) && locale(v)),
     memeLangue.find((v) => exacte(v) && base(v)),
     memeLangue.find(exacte),
-    memeLangue.find((v) => base(v) && v.localService),
+    memeLangue.find((v) => base(v) && locale(v)),
     memeLangue.find(base),
     memeLangue[0],
   ];
   const retenue = parPreference.find(Boolean) ?? null;
   if (retenue) return { voix: retenue, francaise: true, total: voix.length };
-  return { voix: voix.find((v) => v.default) ?? voix[0] ?? null, francaise: false, total: voix.length };
+  // Aucune voix de la bonne langue. Sur le téléphone, on ne rend RIEN plutôt
+  // qu'une voix d'à côté : lire de l'anglais avec le moteur français est pire
+  // que le silence, et l'écran saura le dire.
+  const repli = NATIF ? null : (voix.find((v) => v.brute?.default) ?? voix[0] ?? null);
+  return { voix: repli, francaise: false, total: voix.length };
 }
 
 /**
@@ -139,7 +200,7 @@ export type OptionsLecture = {
   vitesse: number;
   /** 0 à 1. */
   volume: number;
-  voix: SpeechSynthesisVoice | null;
+  voix: Voix | null;
   /** Appelé quand toute la file a été lue, ou en cas d'arrêt. */
   onFin?: () => void;
 };
@@ -156,6 +217,7 @@ function arreterLaGarde() {
 export function arreterLecture(): void {
   arreterLaGarde();
   if (DISPONIBLE) speechSynthesis.cancel();
+  if (NATIF) void arreterNatif();
 }
 
 /**
@@ -164,6 +226,26 @@ export function arreterLecture(): void {
  * Renvoie une fonction d'arrêt, à appeler quand l'écran disparaît.
  */
 export function lire(texte: string, options: OptionsLecture): () => void {
+  // Le téléphone parle par son moteur système, la vue web ne sachant pas le
+  // faire. Le découpage en énoncés courts ne lui sert à rien : c'est une
+  // parade aux limites de Chromium.
+  if (NATIF) {
+    let annule = false;
+    void lireNatif(texte, {
+      langue: options.voix?.lang ?? "fr-FR",
+      vitesse: options.vitesse,
+      volume: options.volume,
+    })
+      .catch(() => undefined)
+      .finally(() => {
+        if (!annule) options.onFin?.();
+      });
+    return () => {
+      annule = true;
+      void arreterNatif();
+    };
+  }
+
   if (!DISPONIBLE) return () => undefined;
 
   arreterLecture();
@@ -177,7 +259,7 @@ export function lire(texte: string, options: OptionsLecture): () => void {
       u.rate = options.vitesse;
       u.volume = options.volume;
       u.pitch = 1;
-      if (options.voix) u.voice = options.voix;
+      if (options.voix?.brute) u.voice = options.voix.brute;
       if (i === morceaux.length - 1) {
         u.onend = () => {
           arreterLaGarde();
