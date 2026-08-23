@@ -34,7 +34,14 @@ import type { ScreenProps } from "../App";
 
 const mo = (o: number) => `${(o / 1024 / 1024).toFixed(1)} Mo`;
 
-/** Ce que pèse la progression, en clair : nombre de notions travaillées. */
+/**
+ * Ce que pèse la progression, en clair.
+ *
+ * « Points » et non « notions » : cet écran compte à travers TOUTES les
+ * matières, et chacune a son mot — le français dit règle, la culture générale
+ * notion, les langues série. « Point » est le terme générique que le catalogue
+ * emploie déjà (« s'entraîner sur ce point »).
+ */
 function compter(etat: GuestState): { notions: number; reponses: number; series: number } {
   let notions = 0;
   for (const m of Object.values(etat.modules)) notions += Object.keys(m.skills).length;
@@ -146,7 +153,7 @@ export function Application({ setChrome, setScreen }: ScreenProps) {
 
           <dl className="appli-chiffres">
             <div>
-              <dt>Notions travaillées</dt>
+              <dt>Points travaillés</dt>
               <dd>{chiffres.notions}</dd>
             </div>
             <div>

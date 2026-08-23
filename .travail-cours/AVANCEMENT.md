@@ -34,3 +34,26 @@
 - Vérifié : série jouée hors réseau, progression conservée après redémarrage,
   sauvegarde téléchargée, mise à jour complète depuis un faux GitHub (25 Mo,
   1033 cours éclatés), 227 tests, 0 contraste sous le seuil.
+
+## Passe de cohérence sur toute l'application — TERMINÉE
+
+1. **Le mélange des propositions.** Personne ne mélangeait : ni l'écran, ni le
+   seed, alors que deux commentaires se renvoyaient la responsabilité. 83,6 %
+   des questions de culture générale avaient leur bonne réponse au rang 0
+   (100 % de celles écrites ici), et répondre toujours « la première » donnait
+   55 % à l'écran. `src/modules/kinds/melange.ts`, appliqué dans `contenuDe`.
+   Mesuré après : 30 % sur vingt questions, contre 25 % au hasard.
+2. **Le dédoublonnage.** Il ne voyait que les reprises mot pour mot entre
+   questions libres et leçons. Généralisé aux trois sources et aux
+   reformulations, deux passes calibrées sur des paires connues. 30 questions
+   retirées, toutes relues une à une.
+3. **Le validateur.** 630 avertissements → 0. Les trois notions trop maigres
+   ont reçu cinq questions neuves (faille transformante, globe de cristal,
+   tardigrade, parthénogenèse).
+4. **Le téléphone.** Trois tableaux et les listes de séries poussaient la page
+   hors de l'écran (`minmax(420px, 1fr)` sur un écran de 390). Huit colonnes de
+   grille bornées par `min()`, tableaux dans un cadre défilant, onglets et
+   filtres à la taille d'un pouce.
+5. **La documentation.** Chiffres remis d'aplomb (culture générale annoncée à
+   322 notions, elle en a 949), test renommé pour dire ce qu'il vérifie,
+   portée du validateur corrigée.
