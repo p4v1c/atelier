@@ -82,7 +82,7 @@ export const CG_INSTITUTIONS_ECONOMIE_2: SeedSkill[] = [
     ["Qu'est-ce qu'un agent contractuel de la fonction publique ?", ["Un agent recruté par contrat, sans être titulaire d'un grade", "Un fonctionnaire stagiaire", "Un vacataire ponctuel", "Un agent détaché du privé"], 0,
      "Ils représentent aujourd'hui une part significative des effectifs, notamment dans la territoriale."],
     ["Qu'est-ce que le pantouflage ?", ["Le passage d'un haut fonctionnaire vers le secteur privé", "Le retour d'un cadre privé dans l'administration", "Une mise en disponibilité", "Un détachement à l'étranger"], 0,
-     "Une commission de déontologie examine les risques de conflit d'intérêts avant d'autoriser le départ.", 3],
+     "La Haute Autorité pour la transparence de la vie publique examine les risques de conflit d'intérêts avant d'autoriser le départ, depuis qu'elle a repris en 2020 les missions de l'ancienne commission de déontologie.", 3],
   ]),
 
   notion("ie2-droits-libertes", S, "Droits fondamentaux et libertés publiques",

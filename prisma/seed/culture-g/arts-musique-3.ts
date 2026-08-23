@@ -360,7 +360,7 @@ export const CG_ARTS_MUSIQUE_3: SeedSkill[] = [
     ["Qu'est-ce que l'art rupestre du Sahara ?", ["Des gravures et peintures témoignant d'un Sahara vert", "Un art contemporain touareg", "Un art funéraire égyptien", "Un art de l'âge du bronze"], 0,
      "Le Tassili n'Ajjer conserve des milliers de représentations d'animaux aujourd'hui disparus de la région."],
     ["Qu'est-ce qu'un moai ?", ["Une statue monumentale de l'île de Pâques", "Un totem maori", "Une sculpture aborigène", "Un masque mélanésien"], 0,
-     "Près de mille exemplaires, taillés dans le tuf volcanique entre les XIIe et XVIIe siècles."],
+     "Près de mille exemplaires, taillés dans le tuf volcanique entre les XIIe et XVIIe siècles. Encore debout au contact européen de 1722, ils furent presque tous renversés au siècle suivant."],
     ["Qu'est-ce que le tatouage polynésien traditionnel ?", ["Un marquage codifié indiquant statut, lignée et parcours", "Une décoration esthétique", "Un rite de guérison", "Une pratique guerrière"], 0,
      "Le mot tatouage lui-même vient du tahitien tatau."],
     ["Qu'est-ce que l'art aborigène du désert ?", ["Une peinture évoquant des récits du Temps du Rêve", "Un art décoratif contemporain", "Un art rupestre uniquement", "Un art de sable éphémère seul"], 0,

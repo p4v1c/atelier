@@ -106,7 +106,7 @@ export const CG_ARTS_MUSIQUE_2: SeedSkill[] = [
     ["Quel peintre vénitien du XVIe siècle est célèbre pour sa couleur ?", ["Titien", "Botticelli", "Raphaël", "Mantegna"], 0,
      "L'opposition entre le dessin florentin et la couleur vénitienne a structuré des siècles de débat esthétique."],
     ["Quel peintre vénitien réalise d'immenses toiles décoratives comme Les Noces de Cana ?", ["Véronèse", "Titien", "Tintoret", "Giorgione"], 0,
-     "Convoqué par l'Inquisition pour cette toile, il se contenta d'en changer le titre."],
+     "Convoqué par l'Inquisition en 1573 pour une autre toile, une Cène, il se contenta d'en changer le titre : ce fut Le Repas chez Lévi."],
     ["Qui écrit les Vies des meilleurs peintres, sculpteurs et architectes en 1550 ?", ["Giorgio Vasari", "Leon Battista Alberti", "Benvenuto Cellini", "Baldassare Castiglione"], 0,
      "Premier grand ouvrage d'histoire de l'art, il a durablement façonné notre récit de la Renaissance.", 3],
   ]),
@@ -316,7 +316,7 @@ export const CG_ARTS_MUSIQUE_2: SeedSkill[] = [
     ["Qu'appelle-t-on le mouvement yéyé ?", ["Une vague de chanson pop française du début des années 1960", "Un courant de chanson engagée", "Un style de music-hall", "Une école de chanson réaliste"], 0,
      "Le nom vient du yeah yeah des refrains anglo-saxons adaptés en français."],
     ["Quel quota de chansons francophones la loi impose-t-elle aux radios françaises ?", ["Environ quarante pour cent", "Environ dix pour cent", "Environ soixante-dix pour cent", "Aucun quota"], 0,
-     "Instauré par la loi Toubon de 1994, il a été assoupli depuis pour tenir compte de la diversité des formats.", 3],
+     "Instauré en 1994 par l'amendement Pelchat à la loi sur l'audiovisuel, il a été assoupli depuis pour tenir compte de la diversité des formats.", 3],
   ]),
 
   notion("am2-musiques-monde", S, "Les musiques du monde",
