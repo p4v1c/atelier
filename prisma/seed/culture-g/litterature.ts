@@ -159,7 +159,7 @@ export const CG_LITTERATURE: SeedSkill[] = [
      "Récit largement autobiographique de sa jeunesse en Indochine, il connaît un immense succès."],
     ["Quelle écrivaine obtient le prix Nobel de littérature en 2022 ?", ["Annie Ernaux", "Marguerite Duras", "Nathalie Sarraute", "Marie NDiaye"], 0,
      "L'Académie salue une écriture qui met à nu les racines et les contraintes de la mémoire personnelle."],
-    ["Quel prix littéraire français est décerné chez Drouant depuis 1903 ?", ["Le prix Goncourt", "Le prix Renaudot", "Le prix Femina", "Le prix Médicis"], 0,
+    ["Quel prix littéraire français est décerné chez Drouant depuis 1914 ?", ["Le prix Goncourt", "Le prix Renaudot", "Le prix Femina", "Le prix Médicis"], 0,
      "Il récompense le meilleur ouvrage d'imagination en prose de l'année et ne rapporte que dix euros à son lauréat.", 3],
   ]),
 

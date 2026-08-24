@@ -113,7 +113,7 @@ Deux principes servent de garde-fous. La charge de la preuve pèse sur celui qui
   "lf2-familles-langues": [
     ["Une parenté, pas une ressemblance", `Deux langues appartiennent à la même famille si elles descendent d'une langue commune. Le critère n'est ni la ressemblance apparente ni le voisinage géographique : c'est la filiation, établie par la comparaison systématique.
 
-La méthode a été mise au point au XIXe siècle et repose sur les correspondances régulières. Si le latin *pater* donne le français *père* et l'anglais *father*, ce n'est pas par emprunt mais parce que la même consonne initiale a évolué de la même façon dans tous les mots concernés — *pes/pied/foot*, *piscis/poisson/fish*. C'est la régularité de la correspondance, et non la ressemblance d'un mot isolé, qui prouve la parenté.
+La méthode a été mise au point au XIXe siècle et repose sur les correspondances régulières. Si le latin *pater* donne le français *père* quand l'anglais *father* remonte à la même racine indo-européenne, ce n'est pas par emprunt mais parce que la même consonne initiale a évolué de la même façon dans tous les mots concernés — *pes/pied/foot*, *piscis/poisson/fish*. C'est la régularité de la correspondance, et non la ressemblance d'un mot isolé, qui prouve la parenté.
 
 Cette méthode a permis de reconstituer une langue jamais attestée par l'écrit, l'indo-européen commun, parlé il y a plusieurs millénaires quelque part entre la mer Noire et la Caspienne selon l'hypothèse dominante.`],
     ["La famille du français", `Le français appartient aux langues indo-européennes, la famille la plus parlée au monde, et à l'intérieur de celle-ci à la branche romane, issue du latin parlé : français, italien, espagnol, portugais, roumain, catalan, occitan, sarde, romanche et plusieurs autres.
@@ -204,7 +204,7 @@ Cette relatinisation savante avait un objet : rendre visible l'étymologie et ra
 L'Académie française publie en 1694 la première édition de son dictionnaire, qui fixe une orthographe officielle après un siècle de flottement. Elle en a publié neuf éditions, chacune ajustant des graphies. La réforme de 1835, la plus notable, généralise le passage de *-ois* à *-ais* dans les mots comme *françois* devenu *français*, et impose le *t* au pluriel des mots en *-ant* et *-ent*.`],
     ["Difficultés et exercices de virtuosité", `L'accord du participe passé avec l'auxiliaire *avoir* est régulièrement cité comme la difficulté majeure : le participe s'accorde avec le complément d'objet direct seulement si celui-ci précède le verbe. Cette règle est une invention de Clément Marot au XVIe siècle, importée de l'italien, et elle n'a jamais correspondu à un usage oral spontané — c'est une règle purement graphique, que la réforme a plusieurs fois proposé de supprimer sans y parvenir.
 
-La dictée de Mérimée, écrite pour la cour de Napoléon III, est le monument de cette difficulté cultivée : truffée de pièges, elle aurait été fautée plusieurs dizaines de fois par l'empereur et par l'impératrice. Elle témoigne d'une époque où la maîtrise orthographique était devenue un marqueur social explicite, ce qu'elle est restée.
+La dictée de Mérimée, écrite pour la cour de Napoléon III, est le monument de cette difficulté cultivée : truffée de pièges, l'impératrice y aurait fait plusieurs dizaines de fautes par l'empereur et par l'impératrice. Elle témoigne d'une époque où la maîtrise orthographique était devenue un marqueur social explicite, ce qu'elle est restée.
 
 Ce rôle social explique la résistance aux réformes. Plusieurs projets de simplification ont été proposés sans aboutir, notamment dans les années 1890 et 1970, chacun se heurtant à l'opposition de ceux qui avaient déjà payé le prix de l'apprentissage.`],
     ["Les rectifications de 1990", `Les rectifications orthographiques de 1990 portent sur quelques points limités : le trait d'union dans les numéraux composés et certains mots, le pluriel régularisé des noms composés, la suppression de l'accent circonflexe sur *i* et *u* sauf lorsqu'il distingue deux mots, la francisation de la graphie de certains emprunts, et la correction d'une série d'anomalies isolées.
@@ -315,7 +315,7 @@ Comme toujours, une partie de ce lexique passera dans la langue courante et perd
   ],
 
   "lf2-genres-noms": [
-    ["Un genre largement arbitraire", `Le genre grammatical n'est pas lié au sens du mot : il est très largement arbitraire. Le soleil est masculin en français et féminin en allemand, la lune l'inverse ; *la table* est féminine en français et neutre en allemand ; *le fauteuil* et *la chaise* désignent des objets voisins avec des genres opposés.
+    ["Un genre largement arbitraire", `Le genre grammatical n'est pas lié au sens du mot : il est très largement arbitraire. Le soleil est masculin en français et féminin en allemand, la lune l'inverse ; *la table* est féminine en français et masculine en allemand ; *le fauteuil* et *la chaise* désignent des objets voisins avec des genres opposés.
 
 Cette arbitrarité se vérifie par comparaison : si le genre découlait de la nature de l'objet, les langues s'accorderaient. Elles ne s'accordent pas, y compris entre langues sœurs — *le lait* est masculin en français, *la leche* féminin en espagnol.
 
@@ -509,7 +509,7 @@ Tous ces jeux ont un point commun : ils traitent la langue comme une matière pl
 
 Le trac est une réaction physiologique de stress, normale et gérable : décharge d'adrénaline, accélération cardiaque, respiration courte, mains moites. Il n'est pas le signe d'une incompétence mais d'un enjeu perçu, et il concerne aussi les orateurs les plus expérimentés.
 
-Deux conséquences pratiques en découlent. D'abord, chercher à le supprimer est vain et contre-productif : l'objectif est de l'utiliser, l'activation physiologique améliorant la vigilance. Ensuite, ses effets se réduisent par la préparation et par la respiration — un expiration longue ralentit le rythme cardiaque, effet vérifiable en quelques secondes.
+Deux conséquences pratiques en découlent. D'abord, chercher à le supprimer est vain et contre-productif : l'objectif est de l'utiliser, l'activation physiologique améliorant la vigilance. Ensuite, ses effets se réduisent par la préparation et par la respiration — une expiration longue ralentit le rythme cardiaque, effet vérifiable en quelques secondes.
 
 Un point mérite d'être connu : le trac est massivement surestimé par celui qui l'éprouve. Les auditoires perçoivent une fraction seulement des signes que l'orateur croit afficher, phénomène documenté sous le nom d'illusion de transparence.`],
     ["Ce qu'il faut travailler d'abord", `La priorité absolue est la structure du propos et son fil conducteur. Un discours mal dit mais bien construit passe ; un discours bien dit et sans structure ne laisse rien.
@@ -682,7 +682,7 @@ Un préfixe se place avant le radical et modifie le sens sans changer la catégo
 Un suffixe se place après et détermine le plus souvent la catégorie : *-tion* et *-ment* font des noms, *-able* et *-eux* des adjectifs, *-iser* et *-ifier* des verbes. C'est la différence fonctionnelle essentielle entre les deux — le préfixe joue sur le sens, le suffixe sur la nature.
 
 La productivité des affixes varie beaucoup et évolue. *-iser* est aujourd'hui extrêmement productif — on fabrique sans effort *sécuriser*, *fiabiliser*, *digitaliser* —, tandis que d'autres suffixes autrefois vivants ne servent plus à rien créer. Un locuteur reconnaît immédiatement un dérivé qu'il n'a jamais entendu, ce qui prouve que ces règles sont actives et non simplement mémorisées.`],
-    ["Composer", `Un mot composé réunit plusieurs mots autonomes : *porte-monnaie*, *chou-fleur*, *arc-en-ciel*, *pomme de terre*. Sa marque est l'unité de sens — un porte-monnaie n'est pas un monnaie qu'on porte — et son orthographe hésite entre soudure, trait d'union et séparation, sans logique constante. C'est l'un des points que les rectifications de 1990 ont cherché à régulariser.
+    ["Composer", `Un mot composé réunit plusieurs mots autonomes : *porte-monnaie*, *chou-fleur*, *arc-en-ciel*, *pomme de terre*. Sa marque est l'unité de sens — un porte-monnaie n'est pas une monnaie qu'on porte — et son orthographe hésite entre soudure, trait d'union et séparation, sans logique constante. C'est l'un des points que les rectifications de 1990 ont cherché à régulariser.
 
 La composition savante forme des mots à partir d'éléments grecs ou latins qui n'existent pas isolément en français : *bio-*, *géo-*, *-logie*, *-graphie*, *-phobe*, *hydro-*, *thermo-*. C'est le procédé qui domine la création dans les langues techniques et scientifiques.
 

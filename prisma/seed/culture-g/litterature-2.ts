@@ -71,7 +71,7 @@ export const CG_LITTERATURE_2: SeedSkill[] = [
      "Le combat des Horaces et des Curiaces, emprunté à l'histoire romaine légendaire."],
     ["Quel thème domine Cinna de Corneille ?", ["La clémence du souverain", "La vengeance familiale", "Le martyre religieux", "L'amour impossible"], 0,
      "Auguste pardonne à un conspirateur, geste qui fonde sa légitimité mieux que la répression."],
-    ["Quelle tragédie de Racine met en scène une reine amoureuse du fiancé de sa fille ?", ["Phèdre", "Andromaque", "Bérénice", "Britannicus"], 0,
+    ["Quelle tragédie de Racine met en scène une reine amoureuse de son beau-fils ?", ["Phèdre", "Andromaque", "Bérénice", "Britannicus"], 0,
      "Phèdre aime son beau-fils Hippolyte. La pièce de 1677 est souvent tenue pour son chef-d'œuvre."],
     ["Quelle tragédie de Racine repose sur une chaîne d'amours non réciproques ?", ["Andromaque", "Phèdre", "Athalie", "Esther"], 0,
      "Oreste aime Hermione qui aime Pyrrhus qui aime Andromaque, fidèle à un mort."],

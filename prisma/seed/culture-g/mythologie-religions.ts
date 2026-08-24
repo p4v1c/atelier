@@ -72,7 +72,7 @@ export const CG_MYTHOLOGIE_RELIGIONS: SeedSkill[] = [
     ["Que commémore la fête de Pessah ?", ["La sortie d'Égypte", "Le don de la Torah", "La dédicace du Temple", "La création du monde"], 0,
      "Le repas du séder en rejoue le récit, avec des aliments symboliques et le pain sans levain."],
     ["Que commémore Hanouka ?", ["La rededicace du Temple de Jérusalem au IIe siècle avant notre ère", "La sortie d'Égypte", "La création du monde", "Le retour de l'exil de Babylone"], 0,
-     "On y allume une lampe à neuf branches, une bougie de plus chaque soir pendant huit jours."],
+     "On y allume la hanoukia, chandelier à neuf branches : huit pour les huit soirs, la neuvième servant à allumer les autres."],
     ["Qu'est-ce que Yom Kippour ?", ["Le jour du Grand Pardon, marqué par le jeûne", "Le nouvel an juif", "La fête des cabanes", "La fête des sorts"], 0,
      "C'est le jour le plus solennel du calendrier, consacré au repentir et à la réconciliation."],
     ["Qu'est-ce que la cacherout ?", ["L'ensemble des règles alimentaires du judaïsme", "Le rituel du mariage", "Le calendrier des fêtes", "L'étude quotidienne des textes"], 0,

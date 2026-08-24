@@ -263,7 +263,7 @@ export const CG_LANGUE_FRANCAISE_2: SeedSkill[] = [
      "C'est Marie qui a écrit la lettre : la construction met le sujet en avant sans changer l'ordre canonique."],
     ["Qu'est-ce que la virgule sépare obligatoirement ?", ["Les éléments d'une énumération et les propositions détachées", "Le sujet et le verbe", "Le verbe et son complément d'objet", "L'article et le nom"], 0,
      "Séparer le sujet du verbe par une seule virgule est une faute classique."],
-    ["Qu'est-ce qu'un anacoluthe ?", ["Une rupture de construction syntaxique dans la phrase", "Une phrase trop longue", "Une répétition maladroite", "Un pléonasme"], 0,
+    ["Qu'est-ce qu'une anacoluthe ?", ["Une rupture de construction syntaxique dans la phrase", "Une phrase trop longue", "Une répétition maladroite", "Un pléonasme"], 0,
      "Volontaire, elle est une figure de style ; involontaire, elle rend la phrase bancale.", 3],
   ]),
 
