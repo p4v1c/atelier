@@ -1,17 +1,24 @@
-> ÉTAT : passe 1 (recouvrement global des énoncés, 333 paires) triée et tranchée.
-> Passe 2 (mots rares + réponses divergentes, 467 paires ; contradictions de
-> dates, 860 paires) : tri en cours. Cours : 907 indexés, 92 paires
-> inter-domaines partageant au moins deux segments de huit mots ; dix paires
-> lues et tranchées. Reste : fin du tri des dates, dernières paires de cours.
+> ÉTAT : terminé. Passe 1 (recouvrement global des énoncés, 333 paires
+> candidates) et passe 2 (mots rares + divergence des bonnes réponses, 467
+> paires ; contradictions de dates, 860 fenêtres ; segments de huit mots
+> partagés entre cours, 92 paires) toutes deux dépouillées. Tous les constats
+> ci-dessous ont été lus dans le texte, énoncé + choix + explication pour les
+> questions, section entière pour les cours.
 
 # Inter-domaines (transversal, 14 domaines de culture-g)
 
 ## Ce que j'ai lu
-- Les 9 921 énoncés extraits via `contenuDe(culture-g)` (fichier de travail `/tmp/cg.jsonl`).
-- Repérage passe 1 : Jaccard ≥ 0,42 sur les mots signifiants des énoncés, uniquement
-  entre domaines différents → 333 paires candidates.
-- Lecture intégrale (énoncé + les 4 choix + explication) de chaque candidat retenu
-  ci-dessous.
+- Les 9 921 énoncés de `culture-g` extraits via `contenuDe(culture-g)` (14 domaines), et les
+  907 cours attachés aux notions, extraits de la même façon.
+- **Passe 1** — repérage par recouvrement global des mots signifiants des énoncés
+  (Jaccard ≥ 0,42), uniquement entre domaines différents : 333 paires candidates.
+- **Passe 2** — trois critères différents du premier : (a) mots **rares** partagés
+  (fréquence ≤ 15 dans tout le corpus) avec **bonnes réponses divergentes**, 467 paires ;
+  (b) fenêtres de neuf mots autour de chaque millésime, regroupées par mots-clés rares, pour
+  attraper les **dates contradictoires** — 860 confrontations ; (c) **segments de huit mots
+  strictement identiques** entre deux cours de domaines différents — 92 paires de cours.
+- Lecture intégrale (énoncé + les quatre choix + explication ; sections entières pour les
+  cours) de chaque candidat retenu ci-dessous. Aucun constat n'est tiré du seul repérage.
 
 ## Constats
 
@@ -227,8 +234,101 @@
 - **Problème** : c'est le cas d'école annoncé — l'eau traitée en sciences de la vie **et** en physique-chimie **et** en géographie **et** en technologie, avec les mêmes explications. Aucune contradiction chiffrée relevée, mais une redondance massive.
 - **Correction proposée** : répartir explicitement — le cycle et la ressource à Géographie ; la molécule, la densité de la glace et la dureté à Physique & Chimie ; l'eau dans l'organisme et la microbiologie de l'eau à SVT ; les procédés (fuites, réutilisation, boues, traitement quaternaire) à Inventions & Technologie. Supprimer de SVT la section « Propriétés et usages » de `cg-neuf-sv-eau-cycle` et de Géographie la section « Le cycle de l'eau » de `cg-geographie-13`, dont le contenu existe déjà ailleurs.
 
+### [GRAVE] Charles Kao : 1964 en Physique & Chimie, 1966 en Inventions & Technologie
+- **Où** : `cg-physique-chimie-17` « Lasers, fibres optiques et technologies de la lumière » § « Les technologies de la lumière au quotidien » (Physique & Chimie) et `cg-sciences-tech-05` (Inventions & Technologie)
+- **Texte** : P&C — « L'histoire de la fibre optique est instructive : **en 1964, Charles Kao décrit un système de communication optique à longue distance et identifie les impuretés du verre comme l'obstacle décisif** ».
+  Inventions — énoncé de QCM : « Sur quel principe physique repose la fibre optique, **dont Charles Kao a montré en 1966 le potentiel pour les télécommunications** ? », expl. « La contribution de Charles Kao a été de montrer que les pertes observées provenaient des impuretés du verre ».
+- **Problème** : deux dates pour exactement le même fait — l'identification par Kao des impuretés du verre comme obstacle. La bonne est **1966** : l'article de Kao et Hockham, *Dielectric-fibre surface waveguides for optical frequencies*, paraît en juillet 1966 (c'est ce travail que récompense le Nobel de physique 2009). La version de Physique & Chimie est donc fausse, et l'apprenant qui la lit se trompera sur la question d'Inventions & Technologie, où la date figure dans l'énoncé.
+- **Correction proposée** : dans `cg-physique-chimie-17`, remplacer « en 1964, Charles Kao décrit » par « **en 1966, Charles Kao décrit** ».
+
+### [MOYEN] Marie Curie racontée quatre fois dans quatre domaines, avec un paragraphe commun
+- **Où** : `cg-physique-chimie-16` § « Marie Curie, une vie de recherche » (P&C), `cg-sciences-tech-17` § « Marie Curie et la radioactivité » (Inventions & Technologie), `cg-neuf-hf-femmes-france` et `cg-neuf-hf3-personnages-france` (Histoire de France)
+- **Texte** : P&C — « elle démontre que **la radioactivité est une propriété de l'atome lui-même, et non une propriété chimique** dépendant des combinaisons » / Inventions — « Leurs travaux établissent que **la radioactivité est une propriété de l'atome lui-même et non une propriété chimique**, ce qui bouleverse la conception de la matière ». Les deux domaines redonnent la naissance le 7 novembre 1867 à Varsovie, le mariage de 1895, le polonium et le radium en 1898, les Nobel de 1903 et 1911, la Sorbonne en 1908, les unités radiologiques de 1914-1918.
+  Et deux questions jumelles : « Quelle femme reçoit deux prix Nobel scientifiques ? » (Histoire de France) ↔ « Quelle femme reçoit deux prix Nobel dans deux disciplines différentes ? » (Inventions & Technologie), réponse « Marie Curie » des deux côtés.
+- **Problème** : quatre récits de la même vie. Aucune contradiction de date relevée ; une nuance seulement, P&C attribuant le Nobel de chimie 1911 « pour l'isolement du radium » et Inventions « pour la découverte du radium et du polonium » — les deux figurent dans la citation officielle.
+- **Correction proposée** : garder la biographie complète en Physique & Chimie, ne laisser en Inventions & Technologie que ce qui touche aux applications (institut du radium, petites Curie), et remplacer l'une des deux questions « deux prix Nobel » par une question distincte.
+
+### [MOYEN] Gutenberg : le même paragraphe en Littérature et en Inventions & Technologie
+- **Où** : `cg-litterature-17` « L'histoire du livre, de l'imprimerie à l'édition » et `cg-sciences-tech-10` « L'imprimerie et la diffusion du savoir » (plus `cg-histoire-monde-21` pour le récit de l'invention)
+- **Texte** : Littérature — « **Entre 1452 et 1455, son atelier produit environ cent quatre-vingts exemplaires** d'une Bible composée à quarante-deux lignes par page […] Fust le poursuit en justice, gagne son procès et saisit le matériel en **1455**. Gutenberg vécut ensuite pauvrement jusqu'en **1465**, année où l'archevêque de Mayence lui accorda une pension […] On appelle **incunables les livres imprimés avant 1501** ».
+  Inventions — « **L'atelier de Mayence produit entre 1452 et 1455 environ cent quatre-vingts exemplaires** d'une Bible latine […] Fust engage un procès et l'emporte en **1455** […] L'inventeur, ruiné, obtiendra en **1465** la protection de l'archevêque […] Les livres imprimés en Europe avant le 1er janvier **1501** portent un nom particulier, les **incunables** ».
+  S'y ajoutent trois questions jumelles : « Vers 1450, quel Allemand met au point l'imprimerie à caractères mobiles en Europe ? » (Histoire du monde) ↔ « Qui a mis au point l'imprimerie à caractères mobiles métalliques en Europe vers 1450 ? » (Inventions & Technologie).
+- **Problème** : cinq segments de huit mots identiques et une chronologie entièrement redoublée dans deux domaines, plus une troisième version en Histoire du monde.
+- **Correction proposée** : à Inventions & Technologie la technique et la fin de Gutenberg ; à Littérature ce qui concerne le livre comme objet culturel (manuscrit, édition, format, lecture) sans reprendre la biographie ; supprimer le doublon de question entre Histoire du monde et Inventions & Technologie.
+
+### [MOYEN] La couche d'ozone située deux fois, dans deux domaines
+- **Où** : `cg-libre-sciences-vie-2` (Sciences de la vie & Terre) et `cg-neuf-pc2-air-atmosphere` (Physique & Chimie)
+- **Texte** : SVT — « Dans quelle couche de l'atmosphère se trouve la majeure partie de la couche d'ozone ? » → « La stratosphère » (distracteurs : mésosphère, troposphère, exosphère).
+  P&C — « Où se situe la couche d'ozone ? » → « Dans la stratosphère » (distracteurs : troposphère, mésosphère, au niveau du sol).
+- **Problème** : doublon franc. Le même fait est encore approché par `cg-sciences-vie-20` (« Pourquoi la température remonte-t-elle avec l'altitude dans la stratosphère ? ») et `cg-neuf-sv3-terre-atmosphere-histoire`.
+- **Correction proposée** : garder la version Physique & Chimie et remplacer la question SVT par une question sur les conséquences biologiques (protection contre les UV, colonisation des continents), qui relève bien du domaine.
+
+### [GRAVE] Doublons francs de questions entre deux domaines — seconde série (tous lus intégralement)
+- **Où / Texte** :
+  - **Chalutage de fond.** `cg-sciences-vie-14` (SVT) « Qu'est-ce que le chalutage de fond ? » → « Une technique traînant un filet sur le fond marin », expl. « très critiqué pour la destruction des habitats et l'importance des captures accessoires » ↔ `cg-neuf-ga2-produits-mer` (Gastronomie) « En quoi consiste le chalutage de fond ? » → **exactement la même phrase de réponse**, expl. « critiqué pour son impact sur les habitats et ses prises accessoires ». Même distracteur « Une pêche à la ligne profonde ».
+  - **Principe ALARA.** `cg-neuf-sv2-toxicologie` (SVT) et `cg-neuf-pc3-nucleaire-medecine` (P&C) : même énoncé, même bonne réponse mot pour mot (« Réduire l'exposition au niveau le plus bas raisonnablement possible ») et trois distracteurs communs.
+  - **Édit de Caracalla.** `cg-histoire-france-01` « Quel texte impérial accorde en 212 la citoyenneté romaine à la quasi-totalité des hommes libres de l'Empire ? » ↔ `cg-histoire-monde-c01` « Quel édit de 212 accorde la citoyenneté romaine à tous les hommes libres de l'Empire ? » — même réponse, même distracteur « L'édit de Milan ».
+  - **Serments de Strasbourg.** `cg-langue-francaise-c01` et `cg-libre-langue-francaise-1` (Langue française) ↔ `cg-neuf-hf-charlemagne-empire` (deux questions) et `cg-neuf-hf4-carolingiens` (Histoire de France) : **cinq questions** pour le même fait, réparties sur deux domaines.
+  - **Sept unités de base du Système international.** `cg-libre-sciences-tech-2` (Inventions) ↔ `cg-neuf-pc-mesures-unites` (P&C), même réponse « Sept ». Idem pour le watt : `cg-libre-physique-chimie-1` « Quelle est l'unité de puissance dans le Système international ? » ↔ `cg-libre-sciences-tech-1` « Quelle unité du Système international mesure la puissance ? ».
+  - **Lunette et télescope.** `cg-sciences-tech-12` (Inventions) « La lunette utilise des lentilles, le télescope des miroirs » ↔ `cg-neuf-pc2-optique` (P&C) « Le télescope utilise des miroirs, la lunette des lentilles » — la même phrase retournée.
+  - **IRM.** `cg-neuf-st-medecine-technologies` (Inventions) « L'alignement des noyaux d'hydrogène dans un champ magnétique intense » ↔ `cg-neuf-pc2-magnetisme` (P&C) « Un champ magnétique intense alignant les noyaux d'hydrogène » ↔ `cg-neuf-pc3-physique-medecine`.
+  - **Champollion**, `cg-neuf-lf-ecriture-alphabets` (Langue française) ↔ `cg-neuf-hm2-egypte-pharaonique` (Histoire du monde) ; **peine de mort 1981**, `cg-libre-histoire-france-2` ↔ `cg-neuf-ie2-justice-penale` ; **débarquement du 6 juin 1944**, `cg-histoire-monde-07` ↔ `cg-libre-histoire-france-1` ; **traités de Westphalie 1648**, `cg-histoire-monde-21` ↔ `cg-neuf-hf-richelieu-mazarin` ; **OMC depuis 1995**, `cg-institutions-economie-09` ↔ `cg-neuf-hm-organisations-internationales` ; **Arcom**, `cg-libre-cinema-medias-2` ↔ `cg-neuf-ie-medias-information` ; **hégire de 622**, `cg-histoire-monde-04` ↔ `cg-mythologie-religions-c03` et `cg-neuf-mr-islam` ; **Harpagon**, `cg-neuf-li2-moliere` (Littérature) ↔ `cg-neuf-lf3-litterature-langue-3` (Langue française) ; **accords d'Évian**, `cg-libre-histoire-france-2` ↔ `cg-neuf-hm3-decolonisation-conflits` ; **Sécurité sociale créée en 1945**, `cg-institutions-economie-03` ↔ `cg-neuf-hf-etat-providence` ; **traité de Rome 1957**, `cg-libre-institutions-economie-1` ↔ `cg-neuf-hf2-quatrieme-republique` ; **Wegener 1912**, `cg-geographie-10` ↔ `cg-sciences-vie-05` et `cg-libre-sciences-vie-2` ; **Neil Armstrong**, `cg-libre-histoire-monde-1` ↔ `cg-libre-sciences-vie-1` ; **grippe espagnole**, `cg-libre-histoire-monde-2` ↔ `cg-neuf-sv-sante-publique` ; **Saladin 1187**, `cg-mythologie-religions-05` ↔ `cg-neuf-hm2-croisades` ; **Taj Mahal**, `cg-arts-musique-11` ↔ `cg-neuf-hm2-inde-histoire` ; **bronzes du Bénin**, `cg-arts-musique-12` ↔ `cg-neuf-hm2-afrique-precoloniale` ; **montagne Pelée 1902**, `cg-geographie-07` ↔ `cg-neuf-hf-outre-mer-histoire` ; **publicité de marque à la télévision en 1968**, `cg-neuf-cm-television` ↔ `cg-neuf-hf3-medias-france` ; **Schœlcher 1848**, `cg-neuf-hf-outre-mer-histoire` ↔ `cg-neuf-hm3-esclavage-abolitions` ; **accord de Paris de 2015**, `cg-geographie-17` ↔ `cg-institutions-economie-17` ; **sécurité alimentaire selon la FAO**, `cg-geographie-14` ↔ `cg-neuf-ga3-alimentation-futur` ; **fond diffus cosmologique**, `cg-sciences-vie-06` ↔ `cg-neuf-pc-univers-cosmologie` ; **Montesquieu 1748**, `cg-litterature-05` ↔ `cg-neuf-ie-democratie-regimes` ; **Candide 1759**, `cg-litterature-05` ↔ `cg-neuf-hf-lumieres-france` ; **paix d'Augsbourg 1555**, `cg-mythologie-religions-16` ↔ `cg-neuf-hm2-reforme-guerres-religion` ; **La Disparition de Perec**, `cg-langue-francaise-11` ↔ `cg-neuf-li2-oulipo-experiences` ; **loi de 1901**, `cg-neuf-hf2-troisieme-republique` (deux questions) ↔ `cg-neuf-ie2-associations-economie-sociale`.
+- **Problème** : environ quarante couples de questions posent la même chose dans deux domaines différents, souvent avec les mêmes distracteurs. C'est du temps de révision perdu et une illusion de couverture : l'application paraît contenir 9 921 questions distinctes, elle en contient nettement moins.
+- **Correction proposée** : arbitrer domaine par domaine — le fait revient à celui dont il est le cœur, l'autre le mentionne dans son cours sans le poser en question. Les cas les plus urgents sont ceux où la question figure trois fois ou plus (Serments de Strasbourg, hégire, Voie lactée, régions de France, Wegener, surréalisme).
+
+### [MOYEN] Le bilan de la grippe de 1918 donné en deux fourchettes incompatibles
+- **Où** : `cg-libre-histoire-monde-2` et `cg-neuf-hm3-epidemies-histoire` (Histoire du monde), `cg-neuf-sv-sante-publique` (Sciences de la vie & Terre)
+- **Texte** : « Quelle épidémie de grippe fait **entre 20 et 50 millions de morts** dans le monde en 1918-1919 ? », expl. « tue entre 20 et 50 millions de personnes selon les estimations ».
+  « Combien de morts la grippe de 1918 a-t-elle causés dans le monde ? » → « **Entre cinquante et cent millions** », avec « Environ dix millions » en distracteur.
+  SVT reste sur « des dizaines de millions de morts ».
+- **Problème** : les deux fourchettes ne se recouvrent qu'en un point. Un apprenant qui a retenu « 20 à 50 millions » écartera « entre cinquante et cent millions » comme excessif — et se trompera. Le fait circule entre deux domaines, ce qui rend l'écart d'autant plus visible.
+- **Correction proposée** : retenir partout la fourchette large aujourd'hui admise, « **entre cinquante et cent millions de morts, les estimations les plus basses descendant à vingt millions** », et l'écrire de la même façon dans les deux domaines.
+
+### [MINEUR] Le Taj Mahal achevé en 1648 d'un côté, vers 1653 de l'autre
+- **Où** : `cg-arts-musique-11` (Arts & Musique) et `cg-neuf-hm2-inde-histoire` (Histoire du monde)
+- **Texte** : Arts — « Les travaux commencèrent la même année et l'essentiel fut **achevé en 1648** » / Histoire du monde — « Mausolée élevé pour son épouse Mumtaz Mahal, **achevé vers 1653** à Agra ».
+- **Problème** : deux dates pour l'achèvement. Les deux sont attestées selon ce que l'on considère achevé — le mausolée lui-même vers 1643-1648, l'ensemble du complexe vers 1653 —, mais rien ne le dit à l'apprenant.
+- **Correction proposée** : écrire des deux côtés « le mausolée est achevé vers 1648, l'ensemble du complexe vers 1653 ».
+
 ## Ce que la seconde passe a ajouté
-(passe 2 non commencée)
+
+Le premier critère (recouvrement global des énoncés) ne voyait que les questions
+formulées de façon proche. Il a donné les doublons de questions : communes, air sec,
+Voie lactée, Schengen, surréalisme, régions, bataille d'Alger, et la quarantaine de
+couples de la seconde série.
+
+La seconde passe, avec des critères délibérément différents, a ajouté **tout ce qui
+touche aux cours et aux contradictions**, que le premier critère était structurellement
+incapable de voir :
+
+- **Les cours jumeaux**, invisibles au premier critère puisqu'il ne lisait que les
+  énoncés : séismes/volcans (Géographie ↔ SVT, 18 segments communs), société féodale
+  (Histoire de France ↔ Histoire du monde, 17), Réforme (Histoire du monde ↔ Mythologie
+  & Religions, 12), cosmologie (SVT ↔ Physique & Chimie), microbiologie (SVT ↔ Inventions),
+  lois Ferry (Histoire de France ↔ Institutions), Ve République, Gutenberg, Marie Curie,
+  index glycémique, umami, l'eau.
+- **Les contradictions de fait**, que le recouvrement d'énoncés ne pouvait pas révéler
+  puisque les questions concernées ne se ressemblent pas : **Charles Kao 1964/1966**
+  (la seule erreur franche trouvée), **Cluny 909/910**, **Cîteaux XII<sup>e</sup> siècle/1098**,
+  **grippe de 1918 : 20-50 millions / 50-100 millions**, **Taj Mahal 1648/1653**,
+  **Maxwell 1864/1865**, **cyclones 26 °C sur 50 m / 26,5 °C sur 60 m**,
+  **communes 35 000 / 34 000**.
+- **Les notions mal rangées**, apparues en croisant les titres de leçons avec le domaine
+  d'accueil : `cg-sciences-vie-06` (cosmologie) et `cg-sciences-vie-20` (météorologie)
+  en Sciences de la vie & Terre, Schengen en Gastronomie & Art de vivre, l'astronomie et
+  le pH dispersés dans `cg-libre-sciences-vie-1` et `cg-libre-sciences-vie-2`.
 
 ## Ce qui est sain
-(à compléter en fin de lecture)
+
+Le contenu partagé est presque toujours **exact des deux côtés** : sur plusieurs centaines
+de faits confrontés entre domaines, une seule erreur de fait franche est ressortie (Charles
+Kao daté de 1964 en Physique & Chimie). Les autres divergences sont des arrondis ou des
+choix de bornes qu'un lecteur averti réconcilie — ce qui n'empêche pas qu'elles gênent
+l'apprenant. Les grands blocs qu'on redoutait de voir se contredire tiennent : la Révolution
+française n'est racontée qu'en Histoire de France, la photosynthèse n'existe qu'en Sciences
+de la vie & Terre, la Renaissance artistique (Arts & Musique) et les guerres de Religion
+(Histoire) ne se marchent pas dessus, et les quatre traitements de l'ONU disent tous la même
+chose. Les frontières entre Littérature et Langue française, entre Cinéma & Médias et Arts &
+Musique, entre Sport et le reste, sont dans l'ensemble bien tenues. Le vrai problème de ce
+corpus n'est pas la fausseté : c'est la **redondance** — le même savoir écrit deux, trois ou
+cinq fois, dans des domaines différents, avec parfois les mêmes phrases.

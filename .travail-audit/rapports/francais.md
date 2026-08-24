@@ -1,6 +1,6 @@
 # Français — module « l'Atelier » (prisma/seed/batches, hors dictations)
 
-> ÉTAT : passe 1 en cours. Lus : batch-001 à batch-015 + densify-homophones, -accords, -conjugaison, -orthographe, -vocabulaire + densify2 (3) + densify3-homophones-paronymes (24 fichiers). Reste : densify3-accords-conj, -conj-accords-ortho, -ponctuation-typo, -ponctuation2-pro-expr, -registre-pro-discutes (5). Puis passe 2.
+> ÉTAT : **terminé.** Les 29 fichiers du périmètre (`prisma/seed/batches/*.ts`, hors `dictations*`) ont été lus phrase par phrase, chaque `fix` appliqué au `marked` et la phrase obtenue relue — passe 1 puis passe 2. Rien ne reste à ouvrir. Deux relecteurs ont travaillé sur ce rapport : le premier a couvert `batch-001` à `batch-015`, `densify-homophones` et `densify-accords` ; le second les douze fichiers de densification restants, puis la passe 2 sur ceux-ci.
 
 ## Ce que j'ai lu
 
@@ -24,17 +24,42 @@ au texte `marked` et en relisant la phrase obtenue :
 - `batch-015-expressions.ts` (25 règles, 125 phrases)
 - `densify-homophones.ts` (60 groupes d'ajouts, 129 phrases)
 - `densify-accords.ts` (41 groupes d'ajouts, 98 phrases)
+- `densify-conjugaison.ts` (37 groupes d'ajouts, 84 phrases)
+- `densify-orthographe.ts` (40 groupes d'ajouts, 93 phrases)
+- `densify-vocabulaire.ts` (64 groupes d'ajouts, 190 phrases)
+- `densify2-homophones.ts` (60 groupes d'ajouts, 120 phrases)
+- `densify2-accords-conj.ts` (79 groupes d'ajouts, 158 phrases)
+- `densify2-ortho-vocab.ts` (104 groupes d'ajouts, 208 phrases)
+- `densify3-homophones-paronymes.ts` (50 groupes d'ajouts, 100 phrases)
+- `densify3-accords-conj.ts` (49 groupes d'ajouts, 98 phrases)
+- `densify3-ponctuation-typo.ts` (50 groupes d'ajouts, 100 phrases)
+- `densify3-conj-accords-ortho.ts` (75 groupes d'ajouts, 150 phrases)
+- `densify3-ponctuation2-pro-expr.ts` (76 groupes d'ajouts, 152 phrases)
+- `densify3-registre-pro-discutes.ts` (75 groupes d'ajouts, 150 phrases)
 
 Les fichiers `densify-*` ne contiennent pas de règles : ils ajoutent des phrases
 à des règles du lot « legacy » qui vivent hors de `batches/`. Je les ai donc jugés
 sur la seule phrase et sa correction, sans pouvoir vérifier l'accord avec
 l'énoncé de la règle visée.
 
-Total lu à ce stade : **375 règles et 101 groupes d'ajouts, ~2110 phrases**.
+Total lu : **29 fichiers — 375 règles (lots `batch-*`) et 860 groupes d'ajouts
+(fichiers `densify*`), soit 3 715 phrases**, dont 1 885 dans les lots de règles et
+1 830 dans les fichiers de densification. J'ai appliqué chacune des 3 292 corrections
+et relu la phrase obtenue. C'est l'intégralité du périmètre : `prisma/seed/batches/`
+ne contient, en dehors de ces 29 fichiers, que les trois `dictations*` (hors
+périmètre) et `index.ts`.
 
-**Avertissement d'honnêteté** : le périmètre complet fait une trentaine de
-fichiers et près de 10 000 lignes. Ce rapport ne couvre pour l'instant que les
-huit fichiers listés ci-dessus. Les 21 autres n'ont pas encore été ouverts.
+**Sur la fiabilité de cette lecture.** Le volume est considérable et la seconde moitié
+du travail — les douze fichiers de densification — a été lue par un second relecteur.
+Deux limites sont à connaître :
+1. Les fichiers `densify*` ne contiennent **aucune règle** (`rules: []`) : ils
+   rattachent des phrases à des règles du lot « legacy » qui vit hors de `batches/`. Ils
+   ont donc été jugés sur la phrase, sa correction et la cohérence avec le `ruleSlug`
+   visé, mais **sans que l'énoncé de la règle ait pu être vérifié**. Quand je signale
+   qu'une phrase ne relève pas de sa règle, je m'appuie sur le nom du slug seul.
+2. Les jugements de norme (graphies rectifiées de 1990, tours discutés) reposent sur
+   les dictionnaires usuels et les positions de l'Académie ; ils sont signalés comme
+   tels et non comme des fautes franches.
 
 ---
 
@@ -1773,11 +1798,530 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   rapport sur le lot 009 : dans les deux cas une seconde forme est également reçue
   (*égayerait*, *stupéfaits*), et l'apprenant qui la donne est déclaré en faute.
 
+### [GRAVE] `densify3-accords-conj` / `accord-quelques-uns` — les deux phrases doublent le second élément
+- **Où** : `densify3-accords-conj.ts:100-101`
+- **Texte** : « J'en ai relu [quelques] uns hier soir seulement. », fix `"quelques-uns"` ;
+  « Il reste [quelques] unes de ces vieilles cartes. », fix `"quelques-unes"`
+- **Problème** : le marquage s'arrête à *quelques*, mais la correction réécrit le
+  composé entier. Après substitution : « J'en ai relu **quelques-uns uns** hier soir »
+  et « Il reste **quelques-unes unes** de ces vieilles cartes ». Les deux phrases de
+  la règle sont inutilisables — c'est toute la règle qui tombe.
+- **Correction proposée** : marquer « [quelques uns] » → `"quelques-uns"`.
+
+### [GRAVE] `densify3-accords-conj` — la règle inversée `accord-tout-autre` propagée
+- **Où** : `densify3-accords-conj.ts:60-61`
+- **Texte** : « [Toute] autre réponse aurait provoqué un scandale. », fix `"Tout"` ;
+  « Il envisage la question d'une [tout] autre façon. », fix `"toute"`
+- **Problème** : les deux corrections sont **exactement à l'envers**, comme les quatre
+  déjà signalées dans `batch-006-accords.ts:194-207`. « Toute autre réponse » = « n'importe
+  quelle autre réponse » : *tout* y est adjectif et s'accorde — la forme d'origine était
+  juste. « D'une tout autre façon » = « d'une façon entièrement autre » : *tout* y est
+  adverbe et reste invariable — la forme d'origine était juste elle aussi. La règle
+  fausse a donc été densifiée : elle compte maintenant six phrases, et les six
+  enseignent l'inverse de la règle réelle.
+- **Correction proposée** : corriger la règle du lot 006 **d'abord**, puis inverser
+  ces deux `fix`.
+
+### [GRAVE] `densify3-accords-conj` / `accord-avoir-affaire` — « eu à affaire à », de nouveau
+- **Où** : `densify3-accords-conj.ts:65`
+- **Texte** : « Ils ont eu à [faire] à un interlocuteur peu commode. », fix `"affaire"`
+- **Problème** : le *à* qui précède reste en place : « Ils ont **eu à affaire à** un
+  interlocuteur peu commode. » Reprise mot pour mot du défaut de
+  `batch-006-accords.ts:217`.
+- **Correction proposée** : marquer « [à faire] » → `"affaire"`.
+
+### [MOYEN] `densify3-accords-conj` / `accord-collectif-groupe` — deux phrases, deux verdicts opposés, aucun indice
+- **Où** : `densify3-accords-conj.ts:76-77`
+- **Texte** : « Un tas de papiers [encombrent] tout le bureau. » → `"encombre"` ;
+  « Une bande de gamins [courait] dans les couloirs. » → `"couraient"`
+- **Problème** : les deux accords sont admis dans les deux phrases — c'est ce que dit
+  le `statement` de la règle lui-même (« selon l'idée dominante »). Or la première
+  impose le singulier et la seconde le pluriel, sans qu'aucun élément de contexte ne
+  désigne l'idée dominante. L'apprenant ne peut pas trancher, et les deux réponses
+  qu'il peut donner sont grammaticalement correctes.
+- **Correction proposée** : ajouter un déterminant qui oriente le sens (« Tout un tas
+  de papiers », « Une bande de gamins tout entière »), ou déclarer les deux réponses
+  acceptables.
+
+### [MOYEN] `densify3-accords-conj` / `conj-verbes-aitre` — la graphie rectifiée marquée comme faute
+- **Où** : `densify3-accords-conj.ts:154-155`
+- **Texte** : « Cette revue [parait] tous les deux mois seulement. », fix `"paraît"` ;
+  « Nul ne [connait] la suite de cette histoire. », fix `"connaît"`
+- **Problème** : *parait* et *connait* sans accent circonflexe sont les graphies
+  **recommandées par les rectifications de 1990**, enseignées comme telles à l'école
+  depuis 2016 et enregistrées par les dictionnaires. Les marquer comme fautes revient
+  à sanctionner l'orthographe que l'apprenant a apprise en classe. Troisième
+  occurrence du même défaut, après `ortho-gageure`, `charriot` et `mures`.
+- **Correction proposée** : passer la règle en `disputed`, ou l'énoncer comme un choix
+  entre deux graphies également valides.
+
+### [MOYEN] `densify3-accords-conj` — deux règles qui fabriquent des fautes
+- **Où** : `densify3-accords-conj.ts:142-143` et `:186`
+- **Texte** : « Quand vous [terminerez], nous relirons ensemble le texte. » →
+  `"aurez terminé"` ; « Dès qu'elle [partira], nous fermerons toutes les portes. » →
+  `"sera partie"` ; « Il a promis qu'il [reviendra] avant la fin du mois. » →
+  `"reviendrait"`
+- **Problème** : les trois phrases d'origine sont **correctes**. « Dès qu'elle partira,
+  nous fermerons les portes » est la formulation la plus naturelle qui soit ; le futur
+  antérieur n'est requis que si l'antériorité doit être soulignée. Et après un verbe de
+  parole au passé, le futur reste licite quand le fait annoncé est encore à venir au
+  moment où l'on parle : « Il a promis qu'il reviendra avant la fin du mois » est
+  irréprochable. C'est la reprise du défaut déjà signalé sur `conj-futur-anterieur`
+  (`batch-007-conjugaison.ts:137-150`).
+
+### [MINEUR] `densify3-accords-conj` — un slug égaré et une phrase qui bégaie
+- **Où** : `densify3-accords-conj.ts:195` et `:110`
+- **Texte** : `conj-verbe-suivre` reçoit « Elle a [vécue] trois ans dans cette petite
+  ville. » → `"vécu"` : la phrase porte sur *vivre*, pas sur *suivre*.
+  `:110` « Ils auraient [savoir] réagir plus tôt s'ils avaient su. » → `"su"` donne
+  « Ils auraient **su** réagir plus tôt s'ils avaient **su** » : le même participe deux
+  fois dans une phrase de treize mots.
+- **Note** : `:89` (« Ses [aïeuls] reposent tous dans le même caveau. ») est la
+  **quatrième** variante du même exercice sur *aïeuls* / *aïeux*, après
+  `batch-006-accords.ts:299-312`, `densify-accords.ts:412-416` et
+  `densify2-accords-conj.ts:145`.
+- **Ce qui est sain dans ce fichier** : le volet accords est autrement plus sûr que
+  ceux des lots précédents — `pluriel-au-eau` (*sarraus*), `pluriel-noms-propres`
+  (*les Giraud* / *les Capétiens*), `accord-gens` (*de vieilles gens* / *ces gens sont
+  bienveillants*), `accord-le-peu-de` (dont les deux phrases sont ici, contrairement au
+  lot 006, cohérentes avec l'énoncé) et `accord-pourcentage-verbe` (« Dix pour cent du
+  budget a été gelé », participe déjà au singulier) sont exacts et bien marqués. Côté
+  conjugaison, `conj-imperatif-negatif` est cette fois correctement marqué
+  (« Ne [prends-le] pas mal » → `"le prends"`), là où `batch-007:72` produisait
+  « N't'approche ».
+
+### [GRAVE] `densify3-ponctuation-typo` / `titres-oeuvres-majuscule` — deux graphies correctes détruites, et une contradiction interne au même lot
+- **Où** : `densify3-ponctuation-typo.ts:205-206`
+- **Texte** : « Il relit chaque hiver Les [Trois] Mousquetaires. », fix `"trois"` ;
+  « Elle a emprunté Le [Père] Goriot à la bibliothèque. », fix `"père"`
+- **Problème** : *Les Trois Mousquetaires* et *Le Père Goriot* sont les graphies
+  correctes — quand un titre commence par un article défini, la majuscule s'étend au
+  premier substantif et à ce qui le précède. Les deux corrections imposent une faute.
+  C'est la densification de la règle déjà signalée comme fausse
+  (`batch-002-typographie.ts:345-358`), qui compte maintenant sept phrases erronées.
+  Pire, la contradiction est désormais **interne à la troisième passe** :
+  `densify3-accords-conj.ts:80-81` écrit « **Les Fables** de La Fontaine » et
+  « **Guerre et Paix** » avec les capitales, dans un fichier produit le même jour.
+- **Correction proposée** : supprimer la règle avant de la densifier davantage.
+
+### [GRAVE] `densify3-ponctuation-typo` / `virgule-donc-intercale` — la règle fautive densifiée
+- **Où** : `densify3-ponctuation-typo.ts:47-48`
+- **Texte** : « Le dossier [partira] donc, dès la signature du directeur. », fix `"partira,"` ;
+  « Nous [reviendrons] donc, sur ce point à la prochaine séance. », fix `"reviendrons,"`
+- **Problème** : après correction on lit « Le dossier partira, donc, dès la signature »
+  et « Nous reviendrons, donc, sur ce point ». Ce n'est pas la forme normale : on écrit
+  « Le dossier partira donc dès la signature », sans virgule. La règle continue
+  d'enseigner à **ajouter** une virgule là où la faute réelle est d'en avoir mis une —
+  et, comme dans le lot 001, *donc* n'y est jamais entre le sujet et le verbe, contrairement
+  à ce qu'annonce le `statement`.
+- **Correction proposée** : supprimer la règle plutôt que l'étendre.
+
+### [MOYEN] `densify3-ponctuation-typo` / `majuscule-points-cardinaux` — « le Sud-ouest »
+- **Où** : `densify3-ponctuation-typo.ts:117`
+- **Texte** : « Il est parti travailler dans le [sud-]ouest de la France. », fix `"Sud-"`
+- **Problème** : le marquage ne couvre que le premier élément. Après correction :
+  « dans le **Sud-ouest** de la France ». Or, dans un composé qui désigne une région,
+  les **deux** éléments prennent la majuscule : *le Sud-Ouest*, *le Nord-Est*. La phrase
+  modèle reste donc fautive sur le point même que la règle enseigne.
+- **Correction proposée** : marquer « [sud-ouest] » → `"Sud-Ouest"`.
+
+### [MOYEN] `densify3-ponctuation-typo` / `virgule-vocatif` — une seule virgule sur les deux nécessaires
+- **Où** : `densify3-ponctuation-typo.ts:64`
+- **Texte** : « Attends une seconde [Thomas] je n'ai pas fini de parler. », fix `"Thomas,"`
+- **Problème** : un vocatif en milieu de phrase s'encadre de **deux** virgules :
+  « Attends une seconde**,** Thomas**,** je n'ai pas fini de parler. » La correction n'en
+  ajoute qu'une, et la phrase modèle reste incomplète au regard de sa propre règle.
+- **Correction proposée** : marquer « [seconde Thomas] » → `"seconde, Thomas,"`.
+
+### [MOYEN] `densify3-ponctuation-typo` / `virgule-lieu-date` — la fausse obligation reconduite
+- **Où** : `densify3-ponctuation-typo.ts:112`
+- **Texte** : « Le procès-verbal a été dressé à [Reims] le 18 mars. », fix `"Reims,"`
+- **Problème** : ce n'est pas la formule figée « Fait à …, le … » mais une phrase
+  ordinaire, où la virgule n'est pas requise : « Le procès-verbal a été dressé à Reims
+  le 18 mars » est correct. Même défaut que `batch-001-ponctuation.ts:377-390`.
+  La phrase voisine (`:111`, « Établi à [Dijon] le 4 février, ce document fait foi. »)
+  relève, elle, bien de la formule — preuve que la distinction était connue.
+
+### [MINEUR] `densify3-ponctuation-typo` — trois réserves de détail
+- **Où** : `densify3-ponctuation-typo.ts:103-104`, `:108`, `:16`
+- **Texte** : « Le juge a [tranché] « l'affaire est close ». » → `"tranché :"` ;
+  « Poussé par la [curiosité] il a ouvert la vieille malle. » → `"curiosité,"` ;
+  « Il a crié [bravo!] avant même la fin du morceau. » → `"bravo !"`
+- **Problème** : (1) après deux-points introduisant une citation, la citation prend la
+  majuscule — « Le juge a tranché : « **L**'affaire est close. » » ; les deux phrases de
+  `deux-points-citation` laissent la minuscule, en contradiction avec
+  `majuscule-apres-deux-points` du même fichier (`:136-139`). (2) « Poussé par la
+  curiosité » est un participe passé, pas un gérondif : la phrase ne relève pas de
+  `virgule-gerondif-tete`. (3) « Il a crié bravo ! avant même la fin du morceau »
+  place un point d'exclamation au milieu d'une phrase qui se poursuit en minuscule.
+- **Ce qui est sain dans ce fichier** : tout le volet typographie numérique est exact et
+  bien marqué — heures (`16 h 45`), milliers (`8 400`), décimales (`1,80`), unités
+  (`35 kg`), pourcentages (`92 %`), euro (`120 €`), ordinaux (`1er` / `1re` / `7e`),
+  siècles en romains, sigles sans points, majuscules accentuées, institutions
+  (`Conseil constitutionnel`, `Banque de France` : les deux sont justes). Et
+  `million-milliard-symbole` porte cette fois sur de vrais millions et milliards,
+  contrairement au « 250K€ » signalé dans le lot 002.
+
+### [GRAVE] `densify3-conj-accords-ortho` — deux participes restés au singulier, comme dans le lot 011
+- **Où** : `densify3-conj-accords-ortho.ts:127` et `:203`
+- **Texte** : « Un millier de visiteurs [est] venu dès le premier jour. », fix `"sont"` ;
+  « Un mois et demi se sont [écoulés] depuis sa dernière lettre. », fix `"écoulé"`
+- **Problème** : après correction on lit « Un millier de visiteurs **sont venu** dès le
+  premier jour » et « Un mois et demi **se sont écoulé** depuis sa dernière lettre ».
+  Dans les deux cas l'auxiliaire et le participe devaient bouger ensemble ; un seul
+  est marqué. Ce sont exactement les défauts déjà relevés en
+  `batch-011-accords.ts:62-64` et `:340-353`, reproduits dans la densification de ces
+  mêmes règles.
+- **Correction proposée** : marquer « [est venu] » → `"sont venus"` et
+  « [se sont écoulés] » → `"s'est écoulé"`.
+
+### [MOYEN] `densify3-conj-accords-ortho` / `accord-verbe-ni-ni` — deux verdicts opposés, aucun indice
+- **Où** : `densify3-conj-accords-ortho.ts:114-115`
+- **Texte** : « Ni le bruit ni la chaleur ne l'[ont] empêché de dormir. » → `"a"` ;
+  « Ni son père ni sa mère n'[a] pu venir ce jour-là. » → `"ont"`
+- **Problème** : après *ni… ni…*, les deux accords sont reçus ; le singulier ne
+  s'impose que si l'action ne peut revenir qu'à un seul des deux sujets (« ni Pierre ni
+  Paul ne sera élu »). Ici, le bruit **et** la chaleur peuvent l'un comme l'autre
+  empêcher de dormir, le père **et** la mère peuvent l'un comme l'autre venir ou pas.
+  Les deux phrases sont donc justes sous les deux accords, et la règle en impose un
+  différent à chacune, sans que rien ne permette de deviner lequel. Même défaut de
+  conception que sur `accord-collectif-groupe` (`densify3-accords-conj.ts:76-77`).
+- **Note** : la deuxième phrase est en revanche bien marquée du point de vue de
+  l'élision (« n'[a] » → « n'ont »), là où `batch-011-accords.ts:20` produisait
+  « n'sont ».
+
+### [MOYEN] `densify3-conj-accords-ortho` — la graphie rectifiée sanctionnée trois fois de plus
+- **Où** : `densify3-conj-accords-ortho.ts:48`, `:100`, `:220`
+- **Texte** : « Ce quartier me [plait] moins depuis les travaux. » → `"plaît"` ;
+  « Un soupçon [nait] chaque fois qu'il change de version. » → `"naît"` ;
+  « Un doute commence à [apparaitre] dans son témoignage. » → `"apparaître"`
+- **Problème** : *plait*, *nait* et *apparaitre* sans circonflexe sont les graphies
+  recommandées par les rectifications de 1990, celles qu'enseigne l'école depuis 2016.
+  Trois phrases de plus qui déclarent fautive l'orthographe apprise en classe. Avec
+  `parait` / `connait` (`densify3-accords-conj.ts:154-155`), `charriot`, `mures` et
+  `gageure`, cela fait huit occurrences du même parti pris, jamais énoncé nulle part.
+- **Correction proposée** : trancher une fois pour toutes — soit le module suit
+  l'orthographe traditionnelle et le dit dans les énoncés concernés, soit il accepte
+  les deux graphies. En l'état il sanctionne sans prévenir.
+  À noter que `:52` (« Le nombre d'abonnés [crois] » → `"croît"`) est, lui,
+  parfaitement fondé : *croître* garde son circonflexe même en graphie rectifiée, pour
+  ne pas se confondre avec *croire*.
+
+### [MINEUR] `densify3-conj-accords-ortho` — trois réserves de détail
+- **Où** : `densify3-conj-accords-ortho.ts:300`, `:289`, `:107-110`
+- **Texte** : « Nous [assiégons] la question depuis des semaines. » → `"assiégeons"` ;
+  « Sa [démition] a surpris toute la rédaction. » → `"démission"` (sous
+  `ortho-mots-en-tion-ption`)
+- **Problème** : on n'assiège pas une question — la phrase modèle est orthographiquement
+  juste et sémantiquement bancale. *Démission* se termine par -ssion, non par -tion ni
+  -ption : elle n'illustre pas la règle qui la porte, ce qui reconduit la réserve déjà
+  faite sur cette règle dans le lot 012.
+- **Problème annexe** : `:107-110` densifie `conj-verbe-rire-sourire` (« Nous [rions] »
+  → `"riions"`, « Vous [souriez] » → `"souriiez"`) alors que cette règle a été signalée
+  comme **doublon franc** de `conj-verbes-croire-voir-imparfait` — laquelle est
+  densifiée, elle aussi, dans le fichier voisin
+  (`densify3-accords-conj.ts:190-191`). Les deux exemplaires du doublon ont donc été
+  étoffés en parallèle.
+- **Ce qui est sain dans ce fichier** : le volet conjugaison du lot 010 est solide et
+  entièrement exact — *mourir*, *courir*, *savoir* et *vouloir* à l'impératif,
+  *valoir*, *fuir*, *mouvoir* (*mus* / *mue*), verbes en -guer et -quer, *écrire*,
+  *boire*, *conclure*, *inclure* / *exclure*, *tenir* / *venir* au passé simple, le *s*
+  euphonique de l'impératif (*coupes-en*, *penses-y*), et surtout *prévoir* au futur
+  (*prévoiront*, et non *préverront* comme *voir*). Le volet orthographe du lot 012
+  est propre lui aussi : les cinquante corrections sont justes et produisent des
+  phrases correctes.
+
+### [GRAVE] `densify3-ponctuation2-pro-expr` — sept phrases nouvelles cassées par un marquage trop court
+- **Où** : `densify3-ponctuation2-pro-expr.ts:43-44`, `:126`, `:214`, `:224`, `:260`, `:189-190`
+- **Texte et effet après correction** :
+  – `:43-44` (`espace-apres-virgule`) « Elle a [hésité] **,** puis a fini par accepter
+    l'offre. » → `"hésité,"` donne « Elle a hésité**, ,** puis a fini » ; idem « Le vent
+    est tombé**, ,** la pluie a cessé ». La règle porte sur l'espace fautive **avant**
+    la virgule, mais cette virgule-là n'est pas dans le marquage : la correction en
+    ajoute une seconde. Les deux phrases de la règle sont inutilisables.
+  – `:126` (`anglicisme-business`) « Ils veulent développer **ce** [business] à
+    l'international. » → `"activité"` donne « développer **ce activité** » : le
+    déterminant masculin reste devant un nom féminin, sans même l'élision.
+  – `:214` (`pro-relance-facture`) « Nous vous [demandons] **de** régulariser sous
+    quinzaine. » → `"invitons à"` donne « Nous vous **invitons à de régulariser** » :
+    *demander de* et *inviter à* ne se construisent pas de la même façon.
+  – `:224` (`expr-battre-son-plein`) « Les préparatifs battaient **leurs** [pleins] la
+    veille du départ. » → `"plein"` donne « battaient **leurs plein** ».
+  – `:260` (`expr-donner-le-change`) « Elle donne **les** [changes] avec un aplomb
+    remarquable. » → `"change"` donne « Elle donne **les change** ».
+  – `:189-190` (`pro-objet-reference`) « Objet : [nous] vous informons de la fermeture
+    estivale. » → `"information"` donne « Objet : **information vous informons** de la
+    fermeture » ; « Réf. : [résiliation] du contrat d'entretien annuel. » →
+    `"2024-207"` donne « Réf. : **2024-207 du contrat d'entretien annuel** ».
+- **Correction proposée** : élargir chaque marquage au groupe réellement remplacé.
+
+### [GRAVE] `densify3-ponctuation2-pro-expr` — six défauts du lot d'origine densifiés au lieu d'être corrigés
+- **Où** : `:51-52`, `:99-100`, `:32`, `:303-304`, `:197`, `:182`
+- **Texte et effet** :
+  – `trait-union-inversion` (`:51-52`) : « [conclut] il » → `"conclut-il"` donne
+    « **conclut-il il** en rangeant ses papiers » ; « [Pouvez] vous me rappeler » →
+    `"Pouvez-vous"` donne « **Pouvez-vous vous** me rappeler ». Les deux nouvelles
+    phrases reproduisent le défaut de `batch-013-ponctuation-typo.ts:149-162`.
+  – `typo-espace-tiret-intervalle` (`:99-100`) : « la période 2024 [–] 2026 » →
+    `"2024-2026"` donne « la période **2024 2024-2026 2026** » ; « les articles 12 [—]
+    18 » → « les articles **12 12-18 18** ». Défaut identique à `batch-013:331-344`.
+  – `point-virgule-liste` (`:32`) : « Le kit comprend une [notice,] deux vis et une
+    clé. », fix `"notice,"` — **le `fix` est identique au mot marqué**, comme les deux
+    phrases déjà signalées dans la même règle au lot 013.
+  – `expr-a-lencontre` (`:303-304`) : « Ce choix va à l'[encontre] de toutes nos
+    habitudes. » → `"encontre"` (fix identique au mot marqué, phrase correcte déclarée
+    fautive) ; « Il est parti à l'[encontre] de son frère » → `"rencontre"` donne
+    « à **l'rencontre** de son frère ». Les deux défauts de `batch-015:313-326`, à
+    l'identique.
+  – `pro-tutoiement` (`:197`) : « peux-tu confirmer que [vous] viendrez ? » → `"tu"`
+    donne « que **tu viendrez** ? ». Copie de `batch-014:326`.
+  – `pro-restant-disposition` (`:182`) : « Dans l'attente et [demeurant] à votre
+    service, nous vous saluons. » → `"demeurants"` : la règle continue d'imposer
+    l'accord d'un **participe présent**, qui est invariable. Et elle se contredit à la
+    ligne précédente (`:181`, « [restants] disponible » → `"restant"`, invariable) —
+    deux phrases voisines, deux doctrines opposées.
+- **Problème** : la troisième passe de densification a donc étendu les règles fausses
+  au lieu de les réparer. Chacun de ces défauts existe désormais en deux ou trois
+  exemplaires.
+
+### [MOYEN] `densify3-ponctuation2-pro-expr` / `guillemets-imbriques` — une citation qui ouvre en anglais et ferme en français
+- **Où** : `densify3-ponctuation2-pro-expr.ts:35`
+- **Texte** : « Il rapporte : « elle a lancé [«tant] pis » et elle est partie ». »,
+  fix `"“tant"`
+- **Problème** : seul le guillemet ouvrant intérieur est marqué. Après correction :
+  « elle a lancé **“tant pis »** et elle est partie » — la citation intérieure s'ouvre
+  par un guillemet anglais et se ferme par un guillemet français. La phrase illustre
+  donc, à la lettre, ce que la règle veut interdire.
+- **Correction proposée** : marquer « [«tant pis»] » → `"“tant pis”"`.
+
+### [MINEUR] `densify3-ponctuation2-pro-expr` — trois réserves déjà connues, et des phrases jumelles
+- **Où** : `:251-252`, `:173-174`, `:117-118`, `:267-268`, `:319-320`
+- **Problème** : (1) `expr-pierre-achoppement` reçoit deux phrases de plus alors que son
+  `tip` (« Un seul p à achoppement ») enseigne exactement la faute que la règle fait
+  corriger — la règle fausse a été densifiée sans être relue. (2) `pro-remercier-avance`
+  impose « par avance » dans ses deux phrases ; « merci **d'**avance » est tout aussi
+  reçu, et l'apprenant qui l'écrit est déclaré en faute. (3) `anglicisme-staff`
+  (`:117-118`), `expr-etre-de-mise` (`:267-268`) et `expr-tenir-tete` (`:319-320`)
+  ajoutent chacune **deux phrases au même mot marqué et à la même correction** : c'est
+  un exercice, pas deux.
+- **Ce qui est sain dans ce fichier** : le volet anglicismes est sûr et utile —
+  *briefer*, *manager*, *implémenter*, *updater*, *canceller*, *partager une note* ont
+  tous une traduction juste et une phrase qui tient debout après correction. Les
+  formules de refus, cette fois, sont bien construites (« Nous [refusons] votre
+  offre » → `"ne pouvons retenir"` donne une phrase impeccable, là où
+  `batch-014:357` produisait « ne peux pas de donner suite »). Les expressions figées
+  sont exactes dans leur très grande majorité — *maille à partir*, *sans coup férir*,
+  *de guerre lasse*, *n'en avoir cure*, *à l'instar*, *en butte à*, *faire fi*,
+  *prendre à partie*, *sous l'égide*, *vaille que vaille*, *à bon escient*,
+  *nonobstant*, *de concert* / *de conserve*, *s'en falloir*, *en l'espèce* — et
+  `expr-faire-long-feu` est ici correctement marquée (« a fait [longs] **feu** » →
+  `"long"`), là où le lot 015 laissait « long **feux** ».
+
+### [GRAVE] `densify3-registre-pro-discutes` — une phrase fautive déclarée correcte dans une règle `disputed`
+- **Où** : `densify3-registre-pro-discutes.ts:241`
+- **Texte** : `ruleSlug: "discute-espece-de"` — « **Un** espèce de bruit sourd montait de
+  la cave. », `fix: null`
+- **Problème** : « un espèce de » n'est pas un usage discuté, c'est une faute. *Espèce*
+  est féminin ; « une espèce de » est la seule forme reçue, et aucun dictionnaire ni
+  aucune grammaire ne défend l'autre. La phrase est donc **présentée à l'apprenant
+  comme un modèle correct**.
+  Le module se contredit d'ailleurs deux fois sur ce point exact : `densify-vocabulaire.ts:143-145`
+  et `densify2-ortho-vocab.ts:278-279` marquent « [Un] espèce de » comme fautif avec le
+  `fix` `"Une"` — et sur des phrases quasi identiques (« Un espèce de vieux hangar sert
+  d'atelier au menuisier », ici même à la ligne `:240`, y est donné comme correct au
+  féminin). Le même moule de phrase reçoit donc trois verdicts dans trois fichiers.
+  L'en-tête de ce fichier affirme pourtant : « leurs phrases sont TOUTES correctes ».
+- **Correction proposée** : remplacer la phrase par un vrai cas discuté, ou la sortir de
+  la règle `disputed`.
+
+### [GRAVE] `densify3-registre-pro-discutes` — la contradiction « suite à », désormais **dans un seul fichier**
+- **Où** : `densify3-registre-pro-discutes.ts:179` face à `:244`
+- **Texte** : `:179` (`pro-suite-entretien`) « Je vous écris [suite] à l'annonce parue le
+  4 mai. » → `"à la suite de"` — le tour est **marqué fautif** ;
+  `:244` (`discute-suite-a`) « Suite à cet incident, la procédure a été revue. » →
+  `fix: null` — le même tour est **déclaré correct**, à soixante-cinq lignes de distance.
+- **Problème** : la contradiction déjà signalée entre les lots 004 et 005 se retrouve
+  maintenant à l'intérieur d'un même fichier, écrit d'un seul tenant. Et la correction de
+  `:179` est cassée par-dessus le marché : le *à* qui suit reste en place, ce qui donne
+  « Je vous écris **à la suite de à l'annonce** parue le 4 mai » — reprise exacte du
+  défaut de `batch-004-professionnels.ts:250`.
+
+### [GRAVE] `densify3-registre-pro-discutes` — onze phrases cassées, toutes copiées du lot 004
+- **Où** : `:139`, `:146-147`, `:166-167`, `:194`, `:215`, `:122-123`, `:113`, `:202`
+- **Texte et effet après correction** :
+  – `:139` « [Svp] transmettez ce dossier au service juridique. » → `"Veuillez"` donne
+    « **Veuillez transmettez** ce dossier ».
+  – `:146-147` « Je [reviendrai] **vers vous** après examen du dossier. » →
+    `"vous recontacterai"` donne « Je **vous recontacterai vers vous** » ; « Merci de
+    [revenir] **vers nous** » → `"nous répondre"` donne « Merci de **nous répondre vers
+    nous** ».
+  – `:166-167` « Objet : [voici] les documents demandés » → `"transmission"` donne
+    « Objet : **transmission les documents demandés** » ; « Objet : [merci] de bien
+    vouloir confirmer » → `"confirmation"` donne « Objet : **confirmation de bien
+    vouloir confirmer** notre rendez-vous ».
+  – `:194` « Au plaisir [que] nous nous revoyions » → `"de"` donne « Au plaisir **de
+    nous nous revoyions** très prochainement ».
+  – `:215` « Ci-joint **la** [pièce] d'identité et le justificatif » → `"les pièces"`
+    donne « Ci-joint **la les pièces** d'identité ».
+  – `:122-123` « mes [sentiments] les plus **distingués** » → `"salutations"` donne
+    « mes **salutations les plus distingués** » ; « mes [sentiments] **dévoués** » →
+    « mes **salutations dévoués** ». L'adjectif n'a pas suivi le changement de genre.
+  – `:113` « Le pronostic s'est [avéré] **vrai**, contre toute attente. » → `"exact"`
+    donne « Le pronostic **s'est exact** » — **quatrième** occurrence de cette phrase
+    cassée dans le module, après `batch-003:389`, `densify-vocabulaire:289` et
+    `densify2-ortho-vocab:395`.
+  – `:202` « Je [relance] **pour la deuxième fois** ce dossier bloqué. » →
+    `"reviens sur"` donne « Je **reviens sur pour la deuxième fois** ce dossier bloqué ».
+- **Problème** : la troisième passe a densifié le lot 004 **en recopiant ses défauts un
+  par un**. Aucun des huit cas signalés au rapport n'a été évité ; chacun existe
+  maintenant en deux exemplaires. C'est le fichier le plus abîmé du périmètre.
+- **Note** : `:195` (« Au plaisir [pour] vous rencontrer lors de ce colloque. » → `"de"`)
+  et `:214` (« en [pièce] jointes les quatre attestations » → `"pièces"`) montrent que
+  le marquage juste était à portée de main : deux lignes plus loin, la même règle le
+  réussit.
+
+### [GRAVE] `densify3-registre-pro-discutes` / `impropriete-emerite` — l'exemple des dictionnaires donné pour une faute
+- **Où** : `densify3-registre-pro-discutes.ts:100-101`
+- **Texte** : « Voilà un pianiste [émérite] pour son jeune âge. », fix `"remarquable"` ;
+  « Nous avons consulté un chirurgien [émérite] du service. », fix `"éminent"`
+- **Problème** : « **un pianiste émérite** » est, mot pour mot, l'exemple que le Larousse
+  et le Petit Robert donnent pour le sens « qui a acquis par une longue pratique une
+  habileté remarquable ». La règle marque donc comme impropriété l'emploi que les
+  dictionnaires enregistrent, et la densification ajoute deux phrases à un énoncé déjà
+  signalé comme faux (`batch-003-registre.ts:331-344`).
+- **Correction proposée** : passer la règle en `disputed`, ou la limiter au seul
+  contresens réel (*émérite* pris pour « en exercice »).
+
+### [MOYEN] `densify3-registre-pro-discutes` — trois règles qui s'annulent l'une l'autre
+- **Où** : `:126` face à `:145-147` ; `:162-163` face à
+  `densify3-ponctuation2-pro-expr.ts:181` ; `:182-183` et `:206`
+- **Texte** : `:126` (`pro-formule-appel-virgule`) donne pour modèle « Cher collègue,
+  **je reviens vers vous** au sujet du dossier. » — or c'est précisément le tour que
+  `pro-revenir-vers` (`:145-147`, même fichier) fait corriger.
+  `:162-163` (`pro-je-reste-disposition`) marque « à votre **écoute** » comme fautif et
+  impose « à votre disposition » — mais `densify3-ponctuation2-pro-expr.ts:181` emploie
+  « **À votre écoute** et restant disponible » dans une phrase modèle qu'il donne pour
+  correcte.
+- **Problème annexe** : `:182-183` et `:206` produisent une **double virgule** après
+  correction : « veuillez agréer, **Monsieur le Recteur,,** mes salutations », « recevez,
+  **Madame, Monsieur,,** mes salutations distinguées », « **Madame, Monsieur,,** je vous
+  écris ». Le `fix` inclut une virgule que le texte porte déjà — même défaut qu'en
+  `batch-004:355-356`.
+
+### [MOYEN] `densify3-registre-pro-discutes` / `impropriete-perdurer` — un verbe attesté donné pour une impropriété
+- **Où** : `densify3-registre-pro-discutes.ts:108-109`
+- **Texte** : « Si le blocage [perdure], nous saisirons la direction. » → `"persiste"` ;
+  « Ces retards [perdurent] depuis le début du mois. » → `"persistent"`
+- **Problème** : *perdurer* est un verbe français ancien, enregistré par le Robert et le
+  Larousse au sens de « durer longtemps, continuer ». Son emploi moderne est critiqué
+  par certains, mais ce n'est pas une impropriété : c'est un point de norme discuté, à
+  traiter comme tel.
+- **Ce qui est sain dans ce fichier** : les vingt-deux règles d'anglicismes du lot 003
+  sont irréprochables — équivalents justes, phrases naturelles avant comme après
+  correction (*supporter*, *opportunité*, *initier*, *impacter*, *basique*,
+  *définitivement*, *agenda*, *adresser*, *challenge*, *deadline*, *feedback*,
+  *planning*, *checker*, *booster*, *process*, *dispatcher*, *timing*), et les
+  homophones du lot 005 (*résonner* / *raisonner*, *tinter* / *teinter*, *flan* /
+  *flanc*, *cahot* / *chaos*, *tribu* / *tribut*, *repaire* / *repère*, *désert* /
+  *dessert*, *golf* / *golfe*, *filtre* / *philtre*, *dû* / *dues*, *sûr* / *sur*,
+  *partie* / *parti*) sont exacts et bien marqués. Les douze règles `disputed`
+  reconduites exposent de vrais débats et toutes leurs phrases sont correctes —
+  **à la seule exception de « un espèce de »** signalée ci-dessus.
+
 ---
 
 ## Ce que la seconde passe a ajouté
 
-*(à compléter — la passe 2 n'a pas encore commencé)*
+La passe 2 a porté sur les douze fichiers `densify-*`, `densify2-*` et `densify3-*`
+relus depuis le début, sans reprendre les notes de la passe 1. Elle a ajouté ceci.
+
+**Un balayage mécanique de confirmation.** J'ai réappliqué les 1 830 corrections des
+douze fichiers par script, pour vérifier que la lecture n'avait laissé passer aucune
+occurrence de la faute dominante (le marquage plus court que la correction). Le
+balayage n'a **rien trouvé que la lecture n'ait déjà relevé** : les vingt phrases
+signalées (`vis-à-vis à vis`, `qu'il il`, `n'a a`, `vingt et vingt-et-un`,
+`quelques-uns uns`, `conclut-il il`, `2024 2024-2026 2026`, `aujourd'hui hui`, les
+doubles virgules, les `fix` identiques au mot marqué) sont exactement celles que le
+script isole. C'est la seule vérification qui pouvait être automatisée ; tout le reste
+ci-dessous vient de la relecture.
+
+### [MOYEN] `densify-vocabulaire` / `notable` — une phrase que la correction rend absurde
+- **Où** : `densify-vocabulaire.ts:120`
+- **Texte** : « Ce fait [notable] est pourtant connu de tout le village. », fix `"notoire"`
+- **Problème** : *notoire* signifie précisément « connu de tous ». Après correction :
+  « Ce fait **notoire** est **pourtant connu de tout le village**. » La phrase dit deux
+  fois la même chose, et le « pourtant » y introduit une opposition qui n'existe pas.
+  Elle était pourtant correcte et parlante avant correction (*notable* = digne d'être
+  noté, ce qui n'implique pas la notoriété). C'est une des rares phrases du module où la
+  correction détruit le sens sans casser la grammaire — donc une des plus difficiles à
+  repérer.
+- **Correction proposée** : « Sa réputation est [notable] dans toute la région. » →
+  `"notoire"`, ou retirer « pourtant connu de tout le village ».
+
+### [MOYEN] `densify-vocabulaire` / `en-termes` — la règle apprend à bien orthographier un anglicisme que le module condamne ailleurs
+- **Où** : `densify-vocabulaire.ts:138` et `:140`, `densify2-ortho-vocab.ts:274`
+- **Texte** : « En [terme] de délais, la situation reste tendue. » → `"termes"` ;
+  « En [terme] de qualité, rien à redire sur ce lot. » → `"termes"` ;
+  « En [terme] de délais, rien n'est encore acquis. » → `"termes"`
+- **Problème** : « en termes de » au sens de « en matière de, s'agissant de » est un
+  calque de l'anglais *in terms of*, que l'Académie française range parmi les emplois à
+  éviter. Le module consacre par ailleurs vingt-deux règles à traquer les anglicismes
+  (`anglicisme-adresser`, `anglicisme-impacter`, `anglicisme-initier`…). Ici il enseigne
+  à écrire correctement l'un d'eux, et le fait trois fois. Seule la phrase
+  « Il s'exprime en [terme] très clairs » (`:139`) emploie *en termes* dans son sens
+  français (« en des termes clairs »).
+- **Correction proposée** : bâtir les trois phrases sur ce dernier modèle
+  (« en termes choisis », « en termes voilés »).
+
+### [MOYEN] La densification n'ajoute presque que des phrases fautives
+- **Où** : les douze fichiers `densify*`, comparés aux quinze lots `batch-*`
+- **Constat chiffré** : les lots `batch-*` comptent 1 885 phrases dont **423 sans faute**
+  (`fix: null`), soit une phrase correcte par règle, systématiquement — 22 %. Les douze
+  fichiers de densification ajoutent **1 830 phrases dont 24 seulement sans faute**
+  (1,3 %), et ces 24 sont toutes concentrées dans les douze règles `discute-*` d'un seul
+  fichier. **Onze fichiers sur douze n'ajoutent pas une seule phrase correcte.**
+- **Problème** : la proportion de phrases où il n'y a rien à corriger tombe donc de 22 %
+  à moins de 8 % sur les règles densifiées. Or c'est exactement ce que le format
+  enseigne à l'apprenant : trouver la faute. S'il n'y en a presque jamais aucune, il
+  apprend à en inventer une, et la phrase `fix: null` — le seul garde-fou contre ce
+  réflexe — devient un piège au lieu d'un contrôle. C'est un défaut de conception, pas
+  une erreur ponctuelle, mais il touche les 1 830 phrases d'un coup.
+- **Correction proposée** : porter chaque règle densifiée à deux phrases correctes sur
+  sept, comme le fait le lot d'origine.
+
+### [MINEUR] `densify3-ponctuation2-pro-expr` / `typo-abrev-etats` — « les É.-U.. »
+- **Où** : `densify3-ponctuation2-pro-expr.ts:103`
+- **Texte** : « Un accord commercial lie la France et les [USA]. », fix `"É.-U."`
+- **Problème** : le point final de la phrase n'est pas dans le marquage : on obtient
+  « lie la France et les **É.-U..** » Même mécanisme que les deux « etc.. » de
+  `densify2-ortho-vocab.ts:60-61` — le point abréviatif absorbe le point final au lieu
+  de s'y ajouter. Trois occurrences en tout dans le périmètre.
+
+### [MINEUR] `densify3-ponctuation2-pro-expr` / `typo-souverains-romains` — la seule exception donnée pour illustrer la règle
+- **Où** : `densify3-ponctuation2-pro-expr.ts:67`
+- **Texte** : « Charles [5] a régné sur un empire immense. », fix `"Quint"`
+- **Problème** : la règle porte sur les chiffres romains, et la correction attendue n'en
+  est pas un — *Charles Quint* est précisément l'exception qui échappe à la règle.
+  L'apprenant qui répond « V » applique correctement ce qu'on lui enseigne et se voit
+  déclaré en faute. La phrase voisine (`:68`, « Louis [13] » → `"XIII"`) illustre, elle,
+  la règle. Une exception mérite d'être enseignée, mais pas dans la même série que la
+  règle qu'elle contredit, et pas sans que l'énoncé la mentionne.
+
+### [MINEUR] `densify3-ponctuation-typo` / `majuscule-fetes` — une approximation de fait
+- **Où** : `densify3-ponctuation-typo.ts:141`
+- **Texte** : « Le lundi de [pentecôte] est férié dans certaines entreprises. », fix `"Pentecôte"`
+- **Problème** : le lundi de Pentecôte est un **jour férié légal** partout en France ; ce
+  qui varie d'une entreprise à l'autre, c'est qu'il soit ou non travaillé au titre de la
+  journée de solidarité. « Férié dans certaines entreprises » inverse la règle et
+  l'exception. La correction typographique, elle, est juste.
+
+### [MINEUR] Deux phrases modèles peu vraisemblables
+- **Où** : `densify2-accords-conj.ts:101` et `densify-conjugaison.ts:93`
+- **Texte** : « La neige qu'il a [neigée] a bloqué toutes les routes. » → `"neigé"` ;
+  « La chorégraphie a été [agrée] par le jury. » → `"agréée"`
+- **Problème** : « la neige qu'il a neigé » est une construction de grammairien qu'on ne
+  rencontre nulle part ailleurs ; et l'on agrée un candidat ou une demande, pas une
+  chorégraphie. Les deux corrections sont justes, les deux phrases sonnent faux.
 
 ## Ce qui est sain
 
@@ -1791,3 +2335,34 @@ après « si », auxiliaires, participes en -uit et -u, imparfait du subjonctif)
 Les douze règles `disputed` du lot 005 exposent des débats réels et toutes leurs
 phrases sont effectivement correctes, à l'exception du conflit signalé sur
 « suite à ».
+
+**Sur les douze fichiers de densification** (second relecteur) : le tableau est
+contrasté, mais une grande part du contenu tient.
+
+- `densify3-homophones-paronymes.ts` est le meilleur fichier du périmètre : cent
+  corrections appliquées, cent phrases grammaticales et naturelles, aucun marquage
+  trop court, aucun slug égaré. Les cinquante distinctions de paronymes sont exactes
+  et fines.
+- Les volets **anglicismes** (`densify3-registre-pro-discutes.ts`, vingt-deux règles,
+  et `densify3-ponctuation2-pro-expr.ts`) sont sûrs : équivalents justes, phrases qui
+  tiennent debout avant comme après correction.
+- La **conjugaison du lot 010** (`densify3-conj-accords-ortho.ts`) et
+  l'**orthographe du lot 012** sont exactes de bout en bout, y compris sur des points
+  difficiles : *mouvoir* (*mus* / *mue*), le *s* euphonique de l'impératif
+  (*coupes-en*, *penses-y*), *prévoir* au futur (*prévoiront*, et non *préverront*),
+  *sarraus*, *les Giraud* / *les Capétiens*, *de vieilles gens*.
+- Toute la **typographie numérique** de `densify3-ponctuation-typo.ts` est juste :
+  heures, milliers, décimales, unités, pourcentages, symbole euro, ordinaux, siècles
+  en chiffres romains, sigles sans points, majuscules accentuées.
+- Les **homophones** de `densify2-homophones.ts` et de `densify-orthographe.ts` sont
+  très majoritairement bien construits, avec un vrai souci de désambiguïsation quand
+  les auteurs y ont pensé (« Ses arbres-**là** » qui impose le démonstratif,
+  « Personne ne sait pour quoi il a **opté** » qui impose la préposition).
+
+Ce qui abîme l'ensemble n'est donc pas l'ignorance : c'est un défaut de méthode. Les
+trois passes de densification ont été produites **en recopiant les fichiers
+précédents sans les relire**, si bien que chaque phrase cassée du lot d'origine
+existe désormais en deux ou trois exemplaires, et que les quelques règles fausses —
+`accord-tout-autre`, `titres-oeuvres-majuscule`, `pro-restant-disposition`,
+`impropriete-emerite`, `expr-pierre-achoppement` — ont été étoffées au lieu d'être
+corrigées. Toute correction devra être appliquée dans tous les fichiers à la fois.

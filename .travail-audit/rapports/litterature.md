@@ -1,8 +1,9 @@
 # Littérature
 
-> ÉTAT : **passe 1 terminée**. **Passe 2 en cours** — méthode : chargement du module
-> par `contenuDe(MODULES)` (fusions de `cours/fusions.ts` appliquées), 62 notions /
-> 678 questions après fusion. Notions relues : toutes notions fusionnées + astuces des 62 notions ; scan croisé en cours
+> ÉTAT : **passe 1 terminée**. **PASSE 2 TERMINÉE** — méthode : chargement du module
+> par `contenuDe(MODULES)`, fusions de `cours/fusions.ts` appliquées ; les 62 notions
+> et 678 questions du domaine après fusion ont été relues, ainsi que les 62 astuces.
+> Constats de la passe 2 : section « Ce que la seconde passe a ajouté ».
 
 ## Ce que j'ai lu
 
@@ -633,7 +634,139 @@ Et, du côté des leçons héritées, où l'astuce est le sommaire des sections 
 - **Problème** : le nom à trouver est imprimé dans l'énoncé voisin du même chapitre.
 - **Correction proposée** : « Quel festival de théâtre le même homme crée-t-il en Provence en 1947 ? », ou intervertir : « Qui fonde le Festival d'Avignon en 1947 ? » → Jean Vilar, puis « Quelle institution théâtrale populaire Jean Vilar dirige-t-il à partir de 1951 ? » → le TNP.
 
-<!--P2-->
+### [GRAVE] Le seed et le cahier d'origine posent la même question dans deux notions différentes — soixante-huit paires
+
+- **Où** : tout le domaine. J'ai comparé, sur les 678 questions du module chargé, chaque paire ayant **la même bonne réponse** : 8 paires à l'intérieur d'une même notion (traitées ci-dessus) et **68 paires réparties sur deux notions**, dont une trentaine posent visiblement le même fait. Le commentaire d'en-tête de `cours/fusions.ts` affirme pourtant : « Les questions, elles, ne sont jamais en double — le validateur l'interdit. » Le validateur ne détecte donc que l'identité littérale.
+- **Texte** — les paires les plus franches (énoncé quasi interchangeable, même bonne réponse) :
+
+| Fait posé | Notion A | Notion B |
+|---|---|---|
+| Sartre refuse le Nobel en 1964 | `cg-litterature-01` « Quel écrivain refuse le prix Nobel de littérature en 1964 ? » | `cg-libre-litterature-2` « Quel écrivain français a refusé le prix Nobel de littérature en 1964 ? » |
+| *La Cantatrice chauve* jouée sans interruption depuis 1957 | `cg-libre-litterature-2` | `cg-neuf-li-theatre-francais` (énoncés presque mot pour mot identiques) |
+| Sully Prudhomme, premier Nobel 1901 | `cg-libre-litterature-3` | `cg-neuf-li2-prix-litteraires` |
+| Soyinka, premier Nobel africain en 1986 | `cg-litterature-15` | `cg-neuf-li-litteratures-monde` |
+| Duras, Goncourt 1984 pour *L'Amant* | `cg-litterature-c03` | `cg-litterature-01` |
+| Breton, Manifeste du surréalisme 1924 | `cg-litterature-c01` | `cg-libre-litterature-2` |
+| *Hernani*, bataille de 1830 | `cg-litterature-02` | `cg-neuf-li-theatre-francais` |
+| *La Princesse de Clèves*, 1678, premier roman d'analyse | `cg-litterature-01` | `cg-litterature-04` |
+| Ernaux, Nobel 2022 | `cg-litterature-01` | `cg-libre-litterature-2` |
+| Saint-Exupéry, *Le Petit Prince* | `cg-litterature-12` | `cg-libre-litterature-1` |
+| Diderot dirige l'*Encyclopédie* avec d'Alembert | `cg-litterature-c01` | `cg-litterature-05` |
+| Beckett, *En attendant Godot* | `cg-libre-litterature-2` | `cg-neuf-li-theatre-francais` |
+| *Du côté de chez Swann*, premier volume | `cg-libre-litterature-2` | `cg-neuf-li2-proust` |
+| Goncourt 1919 à *À l'ombre des jeunes filles en fleurs* | `cg-libre-litterature-2` | `cg-neuf-li2-proust` |
+
+  Trois faits sont posés **trois fois** chacun : *Ulysse*, roman d'une seule journée à Dublin en 1922 (`cg-litterature-c03`, `cg-litterature-07`, `cg-neuf-li-litterature-anglaise`) ; *Tartuffe* interdit cinq ans (`cg-litterature-04`, `cg-libre-litterature-2`, `cg-neuf-li2-moliere`) ; *Le Malade imaginaire*, la pièce du soir de la mort de Molière (`cg-litterature-04`, `cg-libre-litterature-2`, `cg-neuf-li2-moliere`). Quatre questions différentes ont pour réponse « Annie Ernaux », trois « Aimé Césaire », trois « Le prix Nobel de littérature ».
+- **Problème** : ce ne sont pas des doublons *dans* une notion — l'apprenant les rencontre dans des chapitres différents — mais ce sont bien les mêmes questions, écrites deux ou trois fois, et elles occupent une place que d'autres faits ne prennent pas. La cause est structurelle et documentée par `fusions.ts` lui-même : le corpus du seed a été composé sans être confronté au cahier d'origine.
+- **Correction proposée** : passer le corpus au crible de la bonne réponse (et non de l'énoncé) avant publication : toute paire de questions de même bonne réponse doit être justifiée par une différence réelle de contenu. Sur les trente paires les plus franches, garder la version du cahier d'origine, qui a presque toujours l'explication la plus riche, et remplacer celle du seed.
+
+### [MOYEN] `cg-litterature-12` — l'édition jeunesse n'est plus le deuxième segment du marché
+
+- **Où** : notion `cg-litterature-12`, question issue de `heritage/culture-g/data/lecons/litterature/12.json`.
+- **Texte** : « Quelle place occupe **aujourd'hui** l'édition jeunesse sur le marché du livre en France ? » → « **Le deuxième segment, derrière la littérature générale** ».
+- **Problème** : d'après les chiffres du Syndicat national de l'édition, la jeunesse est le **troisième** segment en valeur depuis 2023 (370,7 M€ en 2024, en recul de 3,8 % en valeur et de 4,4 % en volume). Le mot « aujourd'hui » dans l'énoncé aggrave le défaut : la bonne réponse est datée, la vraie réponse ne figure pas parmi les choix, et l'apprenant apprend un classement faux. C'est exactement le cas signalé par la consigne — un chiffre de marché donné sans année alors qu'il a changé.
+- **Correction proposée** : « Quelle place l'édition jeunesse occupe-t-elle sur le marché du livre en France ? » → « L'un des trois premiers segments, avec la littérature et le scolaire », explication : « Troisième en valeur depuis 2023 avec environ 370 millions d'euros, mais près d'un cinquième des exemplaires vendus. »
+
+## Revérification des corrections proposées en passe 1
+
+J'ai repris sur pièces les corrections de la passe 1, en priorité les citations, les
+dates de publication et les attributions. **Une est fausse, trois sont à ajuster.**
+Les autres tiennent.
+
+### [GRAVE] Ma correction de passe 1 sur Proust est fausse
+
+- **Où** : constat MINEUR « Proust : *les quinze dernières années de sa vie* » — `prisma/seed/culture-g/cours/litterature.ts:184`, légende de l'image `lit-proust`.
+- **Texte du cours** : « Reclus dans une chambre tapissée de liège, il a passé **les quinze dernières années** de sa vie à écrire et à réécrire un seul livre. » — **ma correction de passe 1** : « les **douze** dernières années ».
+- **Problème** : ma correction est aussi fausse que le texte d'origine, et pour la même raison. Proust s'installe au 102 boulevard Haussmann le 27 décembre 1906 et fait tapisser sa chambre de liège **en 1910** — mais il **quitte cet appartement en 1919**, l'immeuble ayant été vendu, et meurt le 18 novembre 1922 rue Hamelin. Il n'a donc passé dans la chambre de liège **ni les quinze ni les douze dernières années de sa vie, mais neuf ans, qui ne sont pas les derniers**. J'avais compté de 1910 à sa mort en supposant qu'il n'avait pas déménagé : l'erreur du cours était dans le chiffre, la mienne dans le raisonnement.
+- **Correction proposée** (remplace celle de la passe 1) : « Reclus dans une chambre tapissée de liège boulevard Haussmann de 1910 à 1919, il a passé ses quinze dernières années à écrire et à réécrire un seul livre. »
+
+### [MINEUR] Trois corrections de passe 1 à ajuster
+
+- **La Fontaine à l'Académie** — j'avais proposé « il ne fut élu qu'en 1683, et **le roi attendit six mois** avant d'approuver son élection ». L'élection est du **13 novembre 1683** (et non du 15, comme je l'avais écrit) et l'approbation royale intervient après l'élection de Boileau, le 15 avril 1684, pour une réception le 2 mai : **cinq mois**, pas six. Écrire « et le roi attendit cinq mois avant d'approuver son élection ».
+- **Camus** — j'avais écrit « Nobel décerné en décembre 1957, mort le 4 janvier 1960 — **deux ans et deux mois** ». De la remise du 10 décembre 1957 au 4 janvier 1960, il y a **deux ans et un mois** ; deux ans et deux mois vaut si l'on compte depuis l'annonce du 17 octobre 1957. Le raisonnement était incohérent avec sa propre prémisse ; la correction proposée (« un peu plus de deux ans plus tard ») reste juste.
+- **L'âge d'Ovide** — j'avais écrit que l'*aetas Ovidiana* était « **encadrée** par l'*aetas Virgiliana* et l'*aetas Horatiana* ». Dans la périodisation de Traube, les trois âges se succèdent : *Vergiliana* (VIIIe-IXe s.), *Horatiana* (Xe-XIe s.), puis *Ovidiana* (XIIe-XIIIe s.), qui vient en dernier et n'est donc encadrée par rien. Les siècles avancés dans la correction restent exacts.
+
+### Corrections de passe 1 confirmées
+
+- **Goncourt et Drouant** : confirmé. L'Académie Goncourt a siégé au Grand Hôtel, chez Champeaux puis au Café de Paris ; le prix n'est décerné chez Drouant que depuis le **31 octobre 1914**. La question du seed (« décerné chez Drouant depuis 1903 ») est bien fausse.
+- **Édition jeunesse** : confirmé, et au-delà. Le SNE donne 13,7 % du chiffre d'affaires en 2022-2023 pour 18,4 % des exemplaires vendus (13,8 % / 20,2 % en 2018) : c'est bien le seed qui inverse valeur et volume, et non le cahier d'origine.
+- **Césaire et le mot « négritude »** : confirmé, avec une nuance à porter dans la correction. Le mot apparaît bien dans « Nègreries : conscience raciale et révolution sociale », *L'Étudiant noir* n° 3, mai-juin 1935. Mais l'attribution au *Cahier* de 1939 a longtemps été l'opinion reçue, et la primauté de 1935 est un résultat relativement récent de la critique. Formuler donc : « Césaire emploie le mot dès 1935 dans *L'Étudiant noir* ; le *Cahier* lui donne sa portée », plutôt que d'opposer un vrai à un faux.
+- **Rimbaud** (lettres du voyant de mai 1871, à seize ans), **Thomas Mann** (*Les Buddenbrook*, octobre 1901, à vingt-six ans), **Sarraute** (*L'Ère du soupçon*, 1956, sept ans avant *Pour un nouveau roman*), **Saint-Simon** (mort en 1755, édition intégrale de 1829-1830), **Grimm** (86 contes en 1812, environ 156 pour les deux volumes, plus de deux cents en 1857), **La Fontaine** (trois recueils, 1668 / 1678-1679 / 1693-1694), **Dante** (cent chants, l'Enfer seul en comptant trente-quatre), **Beaumarchais** (achevé en 1778, accepté en 1781, créé le 27 avril 1784), **Zamiatine** (Huxley a démenti avoir lu *Nous autres*), **Christine de Pizan** (née en 1364, *La Cité des dames* en 1405), **Phèdre** (Hippolyte, fils de Thésée et d'Antiope ; Aricie n'a aucun lien de parenté avec Phèdre), **Soljenitsyne** (*L'Archipel du Goulag* à l'Ouest en 1973, expulsion en 1974), **parchemin et codex** (Pergame au IIe s. av. J.-C., victoire du codex du IIIe au Ve s. apr. J.-C.), **Ubu roi** (« Merdre », six lettres) : tous revérifiés, tous confirmés.
+
+### [GRAVE] `cg-libre-litterature-2` — Ronsard et la Pléiade, chacun donné par l'autre
+
+- **Où** : notion `cg-libre-litterature-2` « Littérature — pour aller plus loin » (26 questions issues de `heritage/culture-g/data/litterature.json`).
+- **Texte** :
+  - « Quel groupe de poètes du XVIe siècle réunissait notamment **Ronsard** et Du Bellay ? » → « **La Pléiade** ».
+  - « Qui a écrit le vers « Mignonne, allons voir si la rose… » ? » → « **Pierre de Ronsard** ». Explication : « Chef de file de **la Pléiade**, surnommé le prince des poètes… »
+  - et, une troisième fois, dans l'explication de « Combien de vers compte un sonnet ? » : « Introduit en France au XVIe siècle par Marot puis magnifié par **la Pléiade, Ronsard et Du Bellay**. »
+- **Problème** : l'énoncé de la première nomme la réponse de la seconde ; l'explication de la seconde nomme la réponse de la première. Le couple Ronsard-Pléiade est en outre répété une troisième fois dans la même notion. Aucune des deux questions ne teste plus rien pour qui a vu l'autre.
+- **Correction proposée** : « Quel groupe de sept poètes du XVIe siècle emprunte son nom à une constellation ? » → *La Pléiade* ; et supprimer « Chef de file de la Pléiade » de l'explication sur Ronsard.
+
+### [MOYEN] `cg-libre-litterature-2` — le Goncourt 1919, Rimbaud, Verlaine : trois autres fuites internes
+
+- **Où** : notion `cg-libre-litterature-2`.
+- **Texte** :
+  - explication de « Quel est le premier tome de *À la recherche du temps perdu* ? » : « La série se poursuit avec « **À l'ombre des jeunes filles en fleurs** », qui obtint **le prix Goncourt en 1919**. » → réponse exacte, et dans les mêmes termes, de « Pour quel livre Marcel Proust a-t-il reçu le prix Goncourt en 1919 ? ».
+  - « Quel poète a écrit *Le Bateau ivre* à l'âge de 16 ans ? » → **Arthur Rimbaud**, explication « où **Verlaine** l'avait invité » ; question voisine : « Que s'est-il passé entre **Verlaine et Rimbaud** à Bruxelles en 1873 ? ». Les deux noms circulent d'un énoncé à l'autre.
+- **Correction proposée** : arrêter l'explication du premier tome à « Le tome contient les évocations de Combray, l'épisode de la madeleine et *Un amour de Swann*. » ; reformuler la question sur Bruxelles en « Que s'est-il passé entre les deux poètes à Bruxelles en juillet 1873 ? ».
+
+### [MOYEN] L'erreur « Camus mourut trois ans plus tard » est dans les deux corpus, pas seulement dans le seed
+
+- **Où** : `prisma/seed/culture-g/litterature-2.ts:239` **et** `heritage/culture-g/data/litterature.json:148`.
+- **Texte** : seed : « À quarante-quatre ans, il fut l'un des plus jeunes lauréats. **Il mourut trois ans plus tard** dans un accident. » — cahier d'origine : « … l'un des plus jeunes lauréats de l'histoire du prix… **Il mourut trois ans plus tard**, en janvier 1960, dans un accident de voiture. »
+- **Problème** : la passe 1 n'avait signalé que l'occurrence du seed, en la lisant fichier par fichier. Les deux corpus portent la même erreur, dans les mêmes mots — Nobel remis le 10 décembre 1957, mort le 4 janvier 1960, soit deux ans et un mois. La version du cahier est même plus explicite, puisqu'elle donne la date de la mort juste après avoir écrit « trois ans ». Corriger l'une sans l'autre laisserait l'erreur en place.
+- **Correction proposée** : dans les deux, « Il mourut un peu plus de deux ans plus tard, en janvier 1960, dans un accident de voiture. »
+
+### [MOYEN] Quatre notions où l'énoncé ou l'explication d'une question nomme la réponse d'une autre
+
+- **Où** : `prisma/seed/culture-g/litterature-2.ts` et `-3.ts`.
+- **Texte** :
+
+| Notion | Ce qui est écrit | Question rendue gratuite |
+|---|---|---|
+| `li2-oulipo-experiences` | explication de « Dans quel essai Robbe-Grillet formule-t-il le programme du Nouveau Roman ? » : « *L'Ère du soupçon*, de **Nathalie Sarraute**, l'avait précédé… » | « Quelle écrivaine du Nouveau Roman explore les mouvements infimes de la conscience ? » → **Nathalie Sarraute** |
+| `li2-litterature-germanique` | énoncé : « Quel roman de **Thomas Mann** suit le déclin d'une famille de négociants ? » | « Quel écrivain allemand publie *La Montagne magique* en 1924 ? » → **Thomas Mann** |
+| `li3-roman-contemporain` | énoncé : « Quel thème traverse l'œuvre de **Patrick Modiano** ? » | « Quel écrivain français reçoit le prix Nobel de littérature en 2014 ? » → **Patrick Modiano** |
+| `li2-racine-corneille` | énoncé : « Quel dilemme structure **Le Cid** de Corneille ? » | « Quelle pièce de Corneille déclenche une querelle littéraire en 1637 ? » → **Le Cid** — et quatre énoncés de la notion commencent par « Quelle tragédie de **Racine**… », alors qu'une question demande « Quel dramaturge écrit deux tragédies bibliques pour Saint-Cyr…? » → **Racine** |
+| `li2-balzac-realisme` | explication de « Quel roman de Balzac met en scène un père sacrifié par ses filles ? » : « il introduit aussi le personnage de **Rastignac** » | « Quel personnage de Balzac lance un défi à Paris depuis le Père-Lachaise ? » → **Rastignac** |
+
+- **Problème** : dans chaque cas, le nom à trouver est imprimé ailleurs dans le même chapitre. La question sur Racine est la plus dégradée : son chapitre contient cinq énoncés où le mot « Racine » est écrit.
+- **Correction proposée** : nommer le sujet par une périphrase quand il est la réponse d'une autre question de la notion (« Quel roman du même auteur suit le déclin d'une famille de négociants ? », « Quel thème traverse son œuvre ? », « Quel dilemme structure la pièce de 1637 ? ») ; retirer « Rastignac » et « Nathalie Sarraute » des explications concernées.
+
+## Synthèse de la passe 2
+
+Trente constats nouveaux, dont dix-huit GRAVE. Aucun ne pouvait être trouvé en
+relisant les fichiers : ils apparaissent soit après l'application des treize
+fusions de littérature (`cours/fusions.ts`), soit en mettant côte à côte l'astuce,
+les énoncés et les explications d'une même notion.
+
+- **Doublons dans une même notion après fusion** : 8 paires à bonne réponse
+  identique (*Les Contemplations*, *La Comédie humaine*, *La règle des trois
+  unités*, Villon, *Les Fleurs du mal*, Christine de Pizan, *Le Meurtre de Roger
+  Ackroyd*, *Les Confessions*), plus une dizaine de paires réversibles que la
+  bonne réponse seule ne trahit pas (Perrault/1697, *Madame Bovary*/1857, la
+  gouttière, *Maus*/Pulitzer, l'incunable, *L'Iliade*/la colère d'Achille, la
+  Série noire/1945, Hugo/Guernesey).
+- **Astuce qui donne la réponse** : 20 notions sur 62, dont 14 au mot près.
+- **Explication d'une question qui donne la réponse d'une autre de la même
+  notion** : une quarantaine de cas ; les foyers sont `cg-litterature-09` (4),
+  `cg-litterature-13` (4), `cg-litterature-02` (4), `cg-litterature-10` (3),
+  `cg-litterature-08` (3).
+- **Énoncé d'une question qui donne la réponse d'une autre** : une vingtaine de
+  cas, dont cinq fuites croisées complètes où chacune donne la réponse de l'autre
+  (préface de *Cromwell*, *Alcools*/*Le Pont Mirabeau*, Perrault/1697, *Madame
+  Bovary*/1857, Ronsard/la Pléiade).
+- **Erreurs de fait nouvelles** : le « manifeste de 1830 » pour la préface de
+  *Cromwell* (1827), la place de l'édition jeunesse sur le marché (troisième et
+  non deuxième segment), l'erreur Camus « trois ans plus tard » également
+  présente dans le cahier d'origine, et une correction de la passe 1 elle-même
+  fausse (la chambre de liège de Proust).
+- **Un avertissement sur le cahier d'origine** : contrairement à ce que la passe 1
+  laissait entendre, il n'a pas systématiquement raison contre le seed. Il porte
+  la même erreur sur Camus, il date sa part de marché de la jeunesse d'un
+  classement périmé, et ses explications longues sont précisément ce qui fait
+  fuiter les réponses des questions du seed une fois la fusion appliquée.
 
 ## Ce qui est sain
 
