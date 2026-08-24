@@ -116,7 +116,7 @@
      },
      {
       "date": "1825",
-      "label": "Legendre et Sophie Germain",
+      "label": "Dirichlet et Legendre",
       "texte": "Le cas de l'exposant 5."
      },
      {
@@ -186,7 +186,7 @@
    ],
    "bonne": 3,
    "difficulte": 2,
-   "explication": "Vers 1637, Pierre de Fermat affirme dans une note marginale détenir une démonstration merveilleuse de son énoncé, sans jamais la livrer. Pendant plus de trois siècles, on ne résout que des cas particuliers : Euler traite l'exposant 3 en 1770, Legendre et Sophie Germain l'exposant 5 en 1825, Kummer tous les exposants inférieurs à cent à partir de 1847. Andrew Wiles annonce une preuve générale en juin 1993, mais une erreur est décelée lors de la relecture. Il achève la démonstration corrigée en septembre 1994 avec Richard Taylor et la publie en 1995. Sa méthode passe par un cas particulier de la conjecture de Shimura-Taniyama-Weil sur les courbes elliptiques."
+   "explication": "Vers 1637, Pierre de Fermat affirme dans une note marginale détenir une démonstration merveilleuse de son énoncé, sans jamais la livrer. Pendant plus de trois siècles, on ne résout que des cas particuliers : Euler traite l'exposant 3 en 1770, Dirichlet et Legendre l'exposant 5 en 1825, Kummer tous les exposants inférieurs à cent à partir de 1847. Andrew Wiles annonce une preuve générale en juin 1993, mais une erreur est décelée lors de la relecture. Il achève la démonstration corrigée en septembre 1994 avec Richard Taylor et la publie en 1995. Sa méthode passe par un cas particulier de la conjecture de Shimura-Taniyama-Weil sur les courbes elliptiques."
   },
   {
    "q": "En mathématiques, qu'est-ce qui distingue une conjecture d'un théorème ?",
