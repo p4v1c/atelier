@@ -1,9 +1,10 @@
 # Géographie
 
-> ÉTAT : passe 1 TERMINÉE (17 leçons, 3 lots du seed, le cours, fusions.ts, geographie.json).
-> Passe 2 : `geographie.ts`, `geographie-2.ts`, `geographie-3.ts` relus ; module chargé par `contenuDe` et croisé.
-> Passe 2 : `cours/geographie.ts` relu intégralement.
-> Passe 2 : `geographie.json` relu (58 questions). Reste à relire : les 17 leçons.
+> ÉTAT : **audit terminé.** Passe 1 TERMINÉE (17 leçons, 3 lots du seed, le cours, fusions.ts,
+> geographie.json). Passe 2 TERMINÉE : `geographie.ts`, `geographie-2.ts` et `geographie-3.ts`
+> relus ; `cours/geographie.ts` relu intégralement ; `geographie.json` relu (58 questions) et
+> les 17 leçons recroisées ; **module chargé par `contenuDe()` et ses 675 questions croisées
+> deux à deux** ; corrections chiffrées de la passe 1 revérifiées sur le web.
 
 ## Ce que j'ai lu
 
@@ -14,6 +15,9 @@
 - `prisma/seed/culture-g/cours/fusions.ts` — table des fusions, lue (indispensable pour lire le reste)
 - `heritage/culture-g/data/geographie.json` — 58 questions et 3 cours (13 sections), lu intégralement
 - `heritage/culture-g/data/lecons/geographie/*.json` — les 17 leçons, lues intégralement (85 sections, 85 questions de quiz)
+- **le module tel que l'application le sert** — chargé par `contenuDe()` (fusions appliquées,
+  dédoublonnage passé, propositions mélangées) : 68 compétences de Géographie et 675 questions,
+  croisées deux à deux par énoncé et par bonne réponse
 
 ## Constats
 
@@ -2217,6 +2221,125 @@ d'une sur trois — la même proportion que celle relevée en gastronomie et en 
   endroits.
 
 
+### [GRAVE] Sao Paulo donnée pour « la plus grande agglomération de l'hémisphère sud » — c'est Jakarta (passe 2)
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/06.json` — quatrième question du quiz
+- **Texte** : « Quelle **agglomération** est la plus peuplée de **l'hémisphère sud** ? » →
+  « Sao Paulo », distracteurs « Buenos Aires », « Rio de Janeiro », « Lima » ; explication —
+  « Sao Paulo […] rassemble plus de 22 millions d'habitants dans son aire métropolitaine, **ce
+  qui en fait la plus grande agglomération de l'hémisphère sud** […] Buenos Aires compte
+  environ 15 millions d'habitants et Rio de Janeiro environ 13 millions. Lima […] près de
+  11 millions. »
+- **Problème** : deux défauts qui s'aggravent l'un l'autre.
+  1. **L'affirmation est fausse.** Jakarta est située à 6 degrés de latitude **sud**, et son
+     agglomération (le Jabodetabek) compte de trente à trente-cinq millions d'habitants selon
+     les décomptes — soit une fois et demie Sao Paulo, et le deuxième rang mondial derrière
+     Tokyo. Sao Paulo est la plus grande **ville** de l'hémisphère sud si l'on s'en tient à la
+     commune (environ 11,5 millions, contre 10,6 pour Jakarta), et c'est probablement de là que
+     vient la confusion — mais l'énoncé dit « agglomération », et l'explication le répète.
+  2. **Les quatre propositions sont sud-américaines.** L'énoncé porte sur tout un hémisphère
+     qui contient l'Indonésie, l'Australie et l'Afrique australe ; le choix offert n'en retient
+     qu'un continent. La question se résout donc sans erreur possible, ce qui masque
+     précisément le fait qu'elle enseigne une contre-vérité.
+- **Correction proposée** : « Quelle agglomération d'Amérique du Sud est la plus peuplée ? » →
+  « Sao Paulo », et dans l'explication : « … la plus grande agglomération d'Amérique du Sud et
+  l'une des dix plus peuplées du monde. Dans l'hémisphère sud, seule Jakarta la dépasse, avec
+  plus de trente millions d'habitants dans son agglomération. »
+
+### [MOYEN] La leçon 08 met dans la glace antarctique 70 % de l'eau douce que la leçon 13 met dans toutes les glaces réunies (passe 2)
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/08.json` — quatrième question du quiz,
+  contre `.../13.json` — deuxième question
+- **Textes** : leçon 08 — « Quelle part approximative de l'eau douce mondiale est stockée dans
+  **la glace de l'Antarctique** ? » → « **Environ 70 %** » ; leçon 13 — « Sous quelle forme se
+  trouve la plus grande partie de l'eau douce de la planète ? » → « Gelée dans **les glaces et
+  les neiges**, pour environ **69 %** ».
+- **Problème** : les deux réponses sont arithmétiquement incompatibles. L'Antarctique ne peut
+  pas contenir 70 % de l'eau douce mondiale si l'ensemble des glaces — Antarctique, Groenland,
+  glaciers de montagne, neiges — n'en contient que 69 %. Les valeurs qui se raccordent sont
+  d'environ **61 %** pour la seule calotte antarctique et **69 %** pour l'ensemble des glaces
+  (l'Antarctique concentrant environ 90 % du **volume de glace**, ce que le cours du seed écrit
+  d'ailleurs correctement dans `geo2-oceanie-poles` et `geo3-glaciers-cryosphere`). Le chiffre
+  de 70 % existe chez certains éditeurs, mais il n'est pas compatible avec celui que le même
+  domaine enseigne trois chapitres plus loin, et l'apprenant qui suit les deux leçons ne peut
+  que conclure que le Groenland ne contient rien.
+- **Correction proposée** : leçon 08 — « Environ 60 % de l'eau douce mondiale, soit près de
+  90 % de toute la glace de la planète », et conserver les 69 % de la leçon 13.
+
+### [MOYEN] Le réchauffement déjà atteint : 1,1 degré dans la leçon 01, 1,2 dans la leçon 17, aucune des deux à jour (passe 2)
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/01.json` — troisième question du quiz,
+  contre `.../17.json` — deuxième question
+- **Textes** : leçon 01 — « Selon les rapports du GIEC, de combien la température moyenne de la
+  Terre a-t-elle augmenté **depuis la fin du XIXe siècle** ? » → « **Environ 1,1 degré** » ;
+  leçon 17 — « De combien la température moyenne mondiale avait-elle augmenté **vers 2020** par
+  rapport à l'ère préindustrielle ? » → « **Environ 1,2 degré** ».
+- **Problème** : c'est la même grandeur, donnée à un dixième de degré près de deux façons
+  différentes, dans deux chapitres du même domaine. La leçon 17 date son chiffre et reste donc
+  défendable ; la leçon 01 ne le date pas — « depuis la fin du XIXe siècle » borne le début, pas
+  la fin — et présente donc comme un fait permanent une valeur qui augmente d'année en année.
+  Or elle a augmenté : la moyenne de la décennie 2015-2024 approche 1,25 degré et l'année 2024,
+  prise seule, a dépassé 1,5. Un apprenant qui retient « 1,1 degré » sans date retiendra dans
+  cinq ans un chiffre faux de plus d'un tiers — et c'est exactement le défaut que la passe 1
+  avait relevé sur « l'année la plus chaude jamais enregistrée » et sur le rythme d'élévation du
+  niveau marin. Les trois constats sont un seul problème : le domaine du climat est écrit au
+  présent sans horodatage.
+- **Correction proposée** : leçon 01 — « … de combien la température moyenne de la Terre
+  a-t-elle augmenté sur la décennie 2011-2020 par rapport à la fin du XIXe siècle ? » →
+  « Environ 1,1 degré », et ajouter à l'explication « le réchauffement se poursuit : la décennie
+  suivante dépasse déjà 1,2 degré ». Même traitement pour le rythme d'élévation du niveau marin
+  de la leçon 17 (« plus de 3 millimètres par an » vaut pour la moyenne depuis 1993 ; la valeur
+  récente approche 4,5).
+
+
+### [GRAVE] Vérification des corrections proposées en passe 1 : deux d'entre elles sont fautives (passe 2)
+
+Toutes les corrections chiffrées proposées plus haut ont été revérifiées sur pièces. Le
+recensement en confirme la très grande majorité — l'IPBES à 68 % de la surface préindustrielle,
+les rythmes FAO de déforestation nette (7,8 / 5,2 / 4,7 millions d'hectares par an), les 26 %
+d'actifs agricoles mondiaux, les onze ans entre le septième et le huitième milliard, la
+chronologie des Trois-Gorges (2003 / 2006 / 2012), les 9,2 millions de kilomètres carrés du
+Sahara, les 14 125 îles du recomptage japonais de 2023, les 6 961 mètres de l'Aconcagua, les
+623 kilomètres de frontière franco-espagnole, les 82 kilomètres du détroit de Béring, les
+37,9 kilomètres sous-marins du tunnel sous la Manche. **Deux corrections sont à corriger à leur
+tour.**
+
+**1. « Environ la moitié de leur étendue d'avant l'expansion agricole » — c'est deux tiers.**
+
+- **Où** : le constat « La leçon 12 se contredit sur l'ampleur de la déforestation historique »,
+  dans sa correction proposée
+- **Texte proposé en passe 1** : « les forêts actuelles ne représentent plus que 68 pour cent de
+  leur surface préindustrielle selon l'IPBES, et **environ la moitié de leur étendue d'avant
+  l'expansion agricole, il y a dix mille ans**. »
+- **Problème** : les données de référence donnent 6 milliards d'hectares de forêt il y a dix
+  mille ans (57 % des terres habitables) contre **4 milliards aujourd'hui** : le monde a perdu
+  **un tiers** de sa forêt, il en reste donc les **deux tiers**, et non la moitié. Appliquer la
+  correction telle qu'elle est écrite remplacerait une contradiction interne par une erreur de
+  fait — exactement ce qu'un audit ne doit pas produire. Le même défaut de base de calcul
+  affecte au passage l'explication du seed (`geo3-forets` : les forêts couvrent « environ un
+  tiers » des terres émergées « contre environ la moitié avant l'expansion agricole ») : rapportée
+  aux terres émergées, la valeur d'avant est d'environ **40 %**, et ce sont les 57 % qui se
+  rapportent aux seules terres habitables. Comparer les deux chiffres exige de nommer la base.
+- **Correction rectifiée** : « les forêts actuelles ne représentent plus que 68 pour cent de leur
+  surface préindustrielle selon l'IPBES, et les deux tiers de leur étendue d'avant l'expansion
+  agricole : six milliards d'hectares il y a dix mille ans, quatre aujourd'hui. »
+
+**2. Le Conservatoire du littoral : la correction proposée est en retard de dix ans.**
+
+- **Où** : le constat « Le Conservatoire du littoral : chiffre faux d'un facteur sept »
+- **Texte proposé en passe 1** : « il protège aujourd'hui environ **mille cinq cents kilomètres**
+  de rivages, soit **plus d'un dixième** du littoral français. »
+- **Problème** : le diagnostic est juste — « plus de deux cents kilomètres » dans
+  `geo3-littoraux` est une confusion manifeste avec les deux cent mille hectares — mais la
+  valeur de remplacement est celle de 2012. Le Conservatoire protège aujourd'hui environ
+  **2 000 kilomètres** de rivages et **220 000 hectares**, soit près de **18 %** du linéaire
+  côtier. La correction, appliquée telle quelle, installerait un chiffre périmé à la place d'un
+  chiffre faux — et c'est le même défaut que le constat dénonce ailleurs : un chiffre donné sans
+  date.
+- **Correction rectifiée** : « Créé en 1975, il protège aujourd'hui environ deux mille kilomètres
+  de rivages et deux cent vingt mille hectares, soit près d'un cinquième du littoral français. »
+
+
 ## Ce que la seconde passe a ajouté
 
 - Le défaut du `tip` qui donne la réponse est **systématique** et non ponctuel : six notions du lot 1 s'y ajoutent aux cinq déjà relevées dans les lots 2 et 3, plus un cas créé par la fusion (`geo-fleuves-monde` → `cg-geographie-09`).
@@ -2233,6 +2356,77 @@ d'une sur trois — la même proportion que celle relevée en gastronomie et en 
 - `geo2-oceanie-poles` Q1 est le jumeau mot pour mot de la question 5 du quiz de la leçon 08.
 - « Quel détroit sépare l'Asie de l'Indonésie ? » : l'Indonésie est en Asie.
 
+**Seconde moitié de la passe 2 — `geographie-3.ts`, le cours, le cahier hérité, les leçons, et
+le module chargé :**
+
+- **Le module a été chargé par `contenuDe()`**, comme l'application le sert, et ses 675 questions
+  de Géographie croisées deux à deux. Aucun des doublons décrits en passe 1 n'est retiré par le
+  dédoublonnage : ils survivent tous au chargement. Le croisement révèle en outre un défaut que la
+  lecture fichier par fichier ne pouvait pas voir — **une même réponse sert trois fois dans la même
+  notion** (`geo-france-regions` : l'Île-de-France pour trois questions, la Nouvelle-Aquitaine pour
+  trois autres, sur dix-sept).
+- **Sao Paulo n'est pas la plus grande agglomération de l'hémisphère sud** : Jakarta l'est, à 6° de
+  latitude sud et avec une fois et demie sa population. La leçon 06 l'affirme dans son explication,
+  et ses quatre propositions sont toutes sud-américaines.
+- **Le Sahara occidental est donné pour « gelé depuis 1991 »** : le cessez-le-feu a été rompu en
+  novembre 2020 et les affrontements ont repris.
+- **Le `tip`, la question et le cours de `geo3-arctique-enjeux` répètent tous trois** le « trois fois
+  plus vite » que la passe 1 avait signalé comme périmé — corriger l'un laisserait les deux autres.
+- **Le cours de `geo2-montagnes-monde` se contredit dans la même section** : « toutes le résultat de
+  collisions », puis les Andes données pour une subduction deux phrases plus loin. Le `tip` fautif
+  déjà relevé n'était que la recopie de cette phrase.
+- **Les deux cours du domaine se contredisent sur la banane bleue** : structure explicative dans le
+  lot 2, cas d'école de mauvaise image géographique dans le lot 3.
+- **La leçon 08 met dans la seule glace antarctique (70 %) plus d'eau douce que la leçon 13 n'en met
+  dans toutes les glaces du monde (69 %).**
+- **Le « 430 km » des Pyrénées vient du cahier hérité lui-même** (Q8), qui donne aussi 620 km pour la
+  frontière (Q12) : la passe 1 imputait la confusion au seed seul.
+- **Le cahier hérité donne au Nil « une dizaine de pays »** et fait ailleurs des dix pays du Danube
+  « un record mondial », avec la même formule.
+- **Quatre `tip` de plus** donnent la réponse littérale de leur notion dans le lot 3
+  (`geo3-departements-france`, `geo3-arctique-enjeux`, `geo3-volcanisme`, `geo3-forets`), plus deux
+  cas sémantiques : **vingt notions sur cinquante-trois** au total, soit un peu plus d'une sur trois.
+- **« Quel État membre n'a jamais adopté l'euro par choix ? »** : le critère du choix désigne la
+  Suède, et l'explication le reconnaît.
+- **Le cours dit la différence entre croquis et schéma, les questions la suppriment** — le seul cas du
+  domaine où la question est plus pauvre que son propre cours.
+- **La Turquie n'est plus en tête des pays d'accueil de réfugiés**, et deux chiffres du climat
+  (1,1 / 1,2 degré) sont donnés sans date dans deux leçons voisines.
+- **Deux corrections proposées en passe 1 sont elles-mêmes fautives** : « environ la moitié de leur
+  étendue d'avant l'expansion agricole » (c'est deux tiers) et les 1 500 km du Conservatoire du
+  littoral (c'est 2 000 aujourd'hui, soit près d'un cinquième du littoral).
+- Détails : l'Oural dont « les sommets dépassent à peine 1 900 mètres » alors qu'aucun ne les
+  atteint ; le volcan d'Armero appelé « peu explosif » deux paragraphes après avoir été rangé parmi
+  les explosifs ; « les combles internes » du Jura pour ses combes ; le détroit de Magellan
+  « longtemps unique passage » alors que le cap Horn existe et que le domaine le décrit ; « un
+  rapport de plusieurs unités » entre les PIB espagnol et marocain ; le marnage du Mont-Saint-Michel
+  à 13 mètres dans le cahier et 14 dans le seed.
+
 ## Ce qui est sain
 
-*(à écrire en fin d'audit)*
+Le cahier hérité est du bon travail, et il faut le dire nettement. Ses cinquante-huit questions
+libres et ses quatre-vingt-cinq questions de leçon sont écrites par quelqu'un qui connaît son
+sujet : les explications font cinq phrases là où le seed en fait une, elles **datent leurs
+chiffres** (« selon les données de 2018 », « en 2013 », « en 2008 », « la langue des signes
+sud-africaine ajoutée en 2023 »), elles nomment les personnes (Piccard et Walsh, Gottmann, Borlaug,
+Lúcio Costa) et elles corrigent d'elles-mêmes les idées reçues — la mer Caspienne qui est un lac,
+l'Australie qui n'est pas une île par convention, la Marne et l'Oise qui ne sont pas des fleuves,
+le Sahara qui n'est le plus grand désert que si l'on écarte l'Antarctique. Les erreurs relevées
+plus haut y sont l'exception, pas la règle.
+
+Dans le seed, trois ensembles tiennent particulièrement bien la lecture. Les cours du lot 3 sur les
+**séismes**, sur les **espaces ruraux** et sur les **inégalités territoriales** sont exemplaires :
+ils expliquent des mécanismes plutôt que d'énumérer, ils distinguent ce qu'on sait de ce qu'on ne
+sait pas (« on ne sait pas prédire un séisme, et rien n'indique qu'on le saura »), ils citent leurs
+propres limites, et leur tableau magnitude/intensité vaut à lui seul un chapitre. Le cours de
+**cartographie critique** (`geo3-cartes-donnees`) est le meilleur du domaine : « on peut construire
+deux cartes rigoureusement exactes à partir des mêmes données, et leur donner des messages
+opposés » est une phrase qui apprend quelque chose. Et les explications du lot 1 sur les
+**capitales** et les **frontières** — Kaliningrad exclave, la ligne Durand, la bande de Caprivi et
+son accès fluvial rendu illusoire par les chutes Victoria — montrent ce dont le corpus est capable
+quand il ne se contente pas de vérifier une définition.
+
+Le défaut central du domaine n'est pas la fausseté : c'est la **redondance non arbitrée**. Trois
+corpus écrits séparément — le cahier hérité, ses dix-sept leçons, les trois lots du seed — enseignent
+les mêmes faits sans jamais se confronter, et la table des fusions les rapproche sans les
+dédoublonner. Presque tous les constats de ce rapport en découlent.

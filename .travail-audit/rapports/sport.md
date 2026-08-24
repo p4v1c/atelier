@@ -1,6 +1,6 @@
 # Sport
 
-> ÉTAT : **passe 1 TERMINÉE** (relecteurs 1 à 3). Lus : `prisma/seed/culture-g/sport.ts` (13 notions, 129 q.), `sport-2.ts` (19 notions, 189 q.), `sport-3.ts` (22 notions, 214 q.), `cours/sport.ts` (42 cours, intégral), `cours/fusions.ts` + `src/modules/culture-g/contenu.ts`, `heritage/culture-g/data/sport.json` (57 q. + 3 cours), et **les 17 leçons héritées** (01 à 17). **Passe 2 en cours** : chargement par `contenuDe`, croisement des doublons vus par un même apprenant, astuces (`tip`) qui donnent la réponse, contre-vérification des corrections proposées en passe 1.
+> ÉTAT : **passe 1 et passe 2 TERMINÉES** (relecteurs 1 à 3). Lus : `prisma/seed/culture-g/sport.ts` (13 notions, 129 q.), `sport-2.ts` (19 notions, 189 q.), `sport-3.ts` (22 notions, 214 q.), `cours/sport.ts` (42 cours, intégral), `cours/fusions.ts` + `src/modules/culture-g/contenu.ts`, `heritage/culture-g/data/sport.json` (57 q. + 3 cours), **les 17 leçons héritées** (01 à 17), et le **module chargé par `contenuDe`** (60 notions Sport, 684 questions telles qu'elles sont servies). Passe 2 : croisement des doublons post-fusion, astuces qui donnent la réponse, explications qui répondent à une autre question, contre-vérification sur le web des corrections de la passe 1, relecture à froid de la fin des fichiers. Rien ne reste.
 
 ## Ce que j'ai lu
 
@@ -453,7 +453,7 @@ Total questions du seed : **532**.
 
 ## Ce que la seconde passe a ajouté
 
-_(à compléter — passe 2 non commencée)_
+_(passe 2 faite — voir la section « Passe 2 » en fin de rapport, après les leçons héritées.)_
 
 ## Ce qui est sain
 
@@ -980,4 +980,235 @@ La phrase « Ces journaux ne se sont pas contentés de raconter le sport : ils l
 > notion. Puis je croise les questions entre elles, je confronte chaque astuce
 > (`tip`) aux questions de sa propre notion, et je reprends une à une les
 > corrections proposées en passe 1 pour les vérifier sur le web.
+
+## Ce que la passe 2 a trouvé — 1. Les doublons que seul le chargement révèle
+
+**Le constat central de cette passe.** Lus fichier par fichier, `sport.ts`,
+`sport-2.ts` et `sport-3.ts` ne montrent presque aucun doublon : chaque notion
+a l'air propre. Mais l'application ne sert pas les fichiers, elle sert des
+**notions fusionnées** — `cours/fusions.ts` verse certaines notions dans une
+autre, et `dedoublonner()` élimine ensuite les jumelles. Le dédoublonnage
+laisse passer toute reformulation qui change assez de mots : il exige 85 % de
+recouvrement d'énoncé, ou une réponse **rigoureusement identique** au caractère
+près. Or ce sont précisément les reformulations qui se retrouvent réunies.
+
+J'ai donc chargé le module comme le fait l'application (`contenuDe`, fusions et
+dédoublonnage appliqués) et comparé les 684 questions de Sport telles qu'un
+apprenant les reçoit, notion par notion. **Vingt paires de questions posant le
+même fait survivent dans la même notion.** Les voici toutes.
+
+### [GRAVE] `cg-neuf-sp2-rugby` — quatre faits posés deux fois sur vingt questions
+- **Où** : notion `sp2-rugby` après fusion (20 questions servies)
+- **Texte** :
+  1. « Quand la Coupe du monde de rugby a-t-elle été créée ? » → « En 1987 » / « Quand la première Coupe du monde de rugby a-t-elle eu lieu ? » → « En 1987 »
+  2. « Qu'est-ce qu'une mêlée au rugby ? » → « Une phase de reprise du jeu où les avants s'opposent en poussée » / « Qu'est-ce qu'une mêlée ? » → « Une phase de reprise du jeu opposant les avants des deux équipes »
+  3. « Quel tournoi annuel oppose six nations européennes ? » → « Le Tournoi des Six Nations » / « Qu'est-ce que le Tournoi des Six Nations ? » → « Un championnat annuel entre six sélections européennes » — **avec la même explication mot pour mot** : « L'Italie l'a rejoint en 2000, transformant le Tournoi des Cinq Nations. »
+  4. « Qu'est-ce que le Grand Chelem dans le Tournoi ? » → « Une victoire contre toutes les autres équipes » / « Comment réussit-on un Grand Chelem dans le Tournoi des Six Nations ? » → « Le fait de battre toutes les autres équipes la même année »
+- **Problème** : huit des vingt questions de la notion couvrent quatre faits. La paire 3 est la plus voyante : deux questions inverses l'une de l'autre (le nom → la définition, puis la définition → le nom) qui partagent la même explication à la virgule près. Le dédoublonnage ne les a pas vues parce que les réponses diffèrent littéralement (« En 1987 » n'est pas « 1987 », « six nations européennes » n'est pas « six sélections européennes »), alors qu'elles sont le même fait pour un lecteur.
+- **Correction proposée** : ne garder qu'une question par fait — de préférence la formulation qui demande le contenu plutôt que le nom (« Qu'est-ce qu'une mêlée ? », « Comment réussit-on un Grand Chelem ? ») — et réemployer les places libérées pour des faits que la notion n'aborde pas (le barème des points, la Calcutta Cup, le passage au professionnalisme en 1995).
+
+### [GRAVE] `cg-neuf-sp2-handisport` — quatre faits posés deux fois, dont deux réponses identiques au caractère près
+- **Où** : notion `sp2-handisport` après fusion de `sp3-paralympiques` (19 questions servies)
+- **Texte** :
+  1. « En quelle année les premiers Jeux paralympiques d'été ont-ils lieu ? » → « 1960, à Rome » / « Quand les premiers Jeux paralympiques ont-ils eu lieu ? » → « À Rome, en 1960 » — la même réponse, dans l'autre sens
+  2. « Qu'est-ce que le goalball ? » → « Un sport collectif pour déficients visuels avec un ballon sonore » / « À quoi reconnaît-on une partie de goalball ? » → **« Un sport collectif pour déficients visuels avec un ballon sonore »** — réponse rigoureusement identique
+  3. « Qu'est-ce que la classification en para-sport ? » / « Qu'est-ce que la classification en sport paralympique ? » — relevé par la passe 1
+  4. « Qu'est-ce que le rugby-fauteuil ? » → « Un sport de contact en fauteuil, mixte, pour tétraplégiques » / « À quels athlètes le rugby-fauteuil s'adresse-t-il ? » → « Un sport de contact en fauteuil pour tétraplégiques »
+- **Problème** : la paire 2 est le cas d'école. Les deux questions ont **la même chaîne de caractères en bonne réponse** ; le dédoublonnage aurait dû les fusionner par sa seconde passe (« réponse exacte identique »), et ne l'a pas fait parce que le recouvrement des énoncés — « Qu'est-ce que le goalball ? » contre « À quoi reconnaît-on une partie de goalball ? » — tombe sous le seuil de 0,75 sur les mots longs. La règle est donc contournée par une question courte. Quant à la paire 4, sa seconde formulation est de surcroît mal construite : « À quels athlètes le rugby-fauteuil s'adresse-t-il ? » appelle une réponse en « aux… », et reçoit « Un sport de contact… ».
+- **Correction proposée** : supprimer les secondes de chaque paire ; réécrire au besoin la question sur le goalball pour porter sur un autre aspect (le masque opaque pour tous, le silence du public, les trois contre trois).
+
+### [GRAVE] `cg-neuf-sp2-gymnastique` — le nombre d'agrès demandé quatre fois pour deux faits
+- **Où** : notion `sp2-gymnastique` après fusion (20 questions servies)
+- **Texte** :
+  - « Combien d'agrès la gymnastique artistique **masculine** compte-t-elle ? » → « Six », explication « Sol, cheval d'arçons, anneaux, saut, barres parallèles et barre fixe. »
+  - « Combien d'agrès comptent les **concours masculins** de gymnastique artistique ? » → « Six », explication **« Sol, cheval d'arçons, anneaux, saut, barres parallèles et barre fixe. »** — identique
+  - « Combien d'agrès la gymnastique artistique **féminine** compte-t-elle ? » → « Quatre », explication « Saut, barres asymétriques, poutre et sol. »
+  - « Combien d'agrès comptent les **concours féminins** ? » → « Quatre », explication **« Saut, barres asymétriques, poutre et sol. »** — identique
+  - et, en prime : « Qu'est-ce que la gymnastique rythmique ? » → « Une discipline associant mouvements et engins comme le ruban ou le cerceau » / « Avec quoi la gymnastique rythmique se pratique-t-elle ? » → « Une discipline féminine associant mouvements et engins »
+- **Problème** : six des vingt questions pour trois faits. Les deux paires sur les agrès portent des explications **strictement identiques**, ce qui ne laisse aucun doute sur leur origine : deux rédactions du même contenu réunies par la fusion. Et la seconde question sur la gymnastique rythmique demande **avec quoi** elle se pratique, mais sa bonne réponse ne nomme aucun engin (« associant mouvements et engins ») alors que la première, qui ne le demandait pas, cite le ruban et le cerceau. Les deux questions sont donc à la fois redondantes et interverties.
+- **Correction proposée** : garder une question par sexe (« Combien d'agrès en gymnastique artistique masculine ? / féminine ? ») et une seule sur la gymnastique rythmique, celle qui nomme les engins ; utiliser les quatre places libérées pour la gymnastique acrobatique, le trampoline olympique depuis 2000, ou le barème ouvert d'après 2006.
+
+### [GRAVE] `cg-sport-06` — la hauteur du panier et les vingt-quatre secondes, deux fois chacune
+- **Où** : leçon héritée `cg-sport-06` après réception des questions de `sp-basket` (15 questions servies)
+- **Texte** :
+  1. « À quelle hauteur se situe le panier de basket-ball ? » → « 3,05 mètres » / « Quelle est la hauteur d'un panier de basket ? » → « **Trois mètres cinq** »
+  2. « Combien de temps une équipe de basket a-t-elle pour tenter un tir, selon les règles internationales ? » → « Vingt-quatre secondes » / « Combien de temps une équipe a-t-elle pour tirer en NBA ? » → « Vingt-quatre secondes »
+- **Problème** : la paire 1 échappe au dédoublonnage pour une raison purement typographique — « 3,05 mètres » et « Trois mètres cinq » sont le même nombre écrit deux fois. C'est la démonstration que le filtre compare des chaînes et non des faits, et que le corpus mélange chiffres et lettres pour la même grandeur. La paire 2 est plus subtile : les deux règles existent bel et bien et valent toutes deux vingt-quatre secondes, mais rien dans la seconde question n'apprend la différence FIBA / NBA qui justifierait de la poser — l'explication ne la mentionne même pas.
+- **Correction proposée** : supprimer « Quelle est la hauteur d'un panier de basket ? » ; transformer la question NBA en question utile — « Quelle différence de durée sépare un quart-temps de NBA d'un quart-temps FIBA ? » → « Douze minutes contre dix », fait que la leçon enseigne et qu'aucune question ne teste.
+
+### [GRAVE] `cg-sport-07` — la date de création de la Formule 1, deux fois
+- **Où** : leçon héritée `cg-sport-07` après réception des questions de `sp3-sports-mecaniques` (15 questions servies)
+- **Texte** : « En quelle année le championnat du monde de Formule 1 a-t-il été créé ? », choix `["1950", "1906", "1938", "1923"]` → « 1950 » ; et « Quand le championnat du monde de Formule 1 est-il créé ? », choix `["En 1950", "En 1966", "En 1958", "En 1946"]` → « En 1950 »
+- **Problème** : recouvrement d'énoncé de 0,83 — juste sous le seuil de 0,85 du dédoublonnage. Deux questions séparées par un synonyme (« En quelle année » / « Quand ») et par la préposition des réponses. Un apprenant les enchaîne à quelques questions d'intervalle. Pire : l'explication de la première nomme les trois autres dates de son propre QCM (1906, 1923, 1958), ce qui rend la seconde entièrement gratuite.
+- **Correction proposée** : supprimer la seconde ; la notion `sp3-sports-mecaniques` a de la matière ailleurs (le halo, les 500 miles, le rallye-raid) qui n'est pas testée deux fois.
+
+### [MOYEN] `cg-sport-09` — le judo et la lutte gréco-romaine, deux fois chacun
+- **Où** : leçon héritée `cg-sport-09` après réception des questions de `sp-sports-precision` (15 questions servies)
+- **Texte** :
+  1. « Qui a créé le judo, et en quelle année ? » → « Jigoro Kano en 1882 » / « Qu'est-ce que le judo ? » → « Un art martial japonais fondé par Jigorō Kanō en 1882 »
+  2. « Qu'est-ce qui distingue la lutte gréco-romaine de la lutte libre ? » → « En gréco-romaine, les prises sont limitées au haut du corps » / « Qu'est-ce que la lutte gréco-romaine ? » → « Une lutte interdisant les prises sous la ceinture »
+- **Problème** : la paire 1 pose deux fois le couple fondateur-date, la seconde question sous couvert de définition. La paire 2 énonce deux fois la même règle avec deux vocabulaires (« limitées au haut du corps » / « interdisant les prises sous la ceinture ») : les deux sont exactes, ce qui est le pire cas — l'apprenant croit apprendre deux choses. À noter aussi la graphie flottante d'un même nom entre deux questions voisines : « Jigoro Kano » et « Jigorō Kanō ».
+- **Correction proposée** : garder « Qu'est-ce que le judo ? » et « Qu'est-ce qui distingue la lutte gréco-romaine de la lutte libre ? », supprimer les deux autres, et unifier la graphie sur « Jigoro Kano », celle du cours.
+
+### [MOYEN] Six autres paires, dans cinq notions
+- **Où et texte** :
+  - `cg-neuf-sp3-cyclisme-3` : « Quels sont les trois grands tours cyclistes ? » / « Quels sont les trois grands tours du cyclisme professionnel ? » — **même réponse mot pour mot** ; « Qu'est-ce qu'un contre-la-montre ? » / « Comment les coureurs s'élancent-ils dans un contre-la-montre ? » ; « Qu'est-ce que le dopage mécanique ? » / « En quoi consiste le dopage mécanique en cyclisme ? »
+  - `cg-neuf-sp2-sports-glisse` : « Qu'est-ce que le bloc en escalade ? » → « Une escalade sans corde à faible hauteur sur tapis » / « Comment se pratique l'escalade de bloc ? » → « Une escalade de faible hauteur sans corde, sur tapis » — les mêmes mots dans un autre ordre
+  - `cg-neuf-sp-sports-collectifs` : « Quelle nation domine le handball masculin international depuis les années 1990 ? » → « La France » / « Quel pays a dominé le handball masculin des années 2000 et 2010 ? » → « La France »
+- **Problème** : trois notions sur les cinq comptent 19 ou 20 questions, c'est-à-dire qu'elles ont **absorbé une autre notion**. Le rapprochement est systématique : partout où `FUSIONS_INTERNES` réunit deux notions, on retrouve des paires. La paire cycliste est aggravée par l'astuce de la notion (voir plus bas), qui donne la réponse aux deux.
+- **Cas particulier à trancher** : les deux questions sur le handball ne sont pas seulement redondantes, elles se contredisent sur la période. « Depuis les années 1990 » est excessif — la première grande victoire française est le titre mondial de 1995, et les années 1990 sont dominées par la Suède (quatre titres européens de 1994 à 2002) ; « des années 2000 et 2010 » est juste. Si l'on n'en garde qu'une, garder la seconde.
+- **Correction proposée** : supprimer une question de chaque paire.
+
+## Ce que la passe 2 a trouvé — 2. Les astuces qui donnent la réponse
+
+Chaque notion affiche un `tip` à côté de ses questions. Sur les **37 notions de
+Sport écrites à la main**, **dix** ont une astuce qui contient la réponse
+littérale d'au moins une de leurs propres questions — 27 %, l'ordre de grandeur
+que gastronomie et physique-chimie ont trouvé ailleurs. S'y ajoute un cas de
+nature différente, propre aux leçons héritées, où c'est le **générateur
+d'astuce** qui trahit.
+
+### [GRAVE] `cg-neuf-sp3-cyclisme-3` — l'astuce est la réponse, et la question est posée deux fois
+- **Où** : notion `sp3-cyclisme-3`
+- **Texte** : astuce — « **Le Tour de France, le Giro et la Vuelta forment les trois grands tours.** » ; question 1 — « Quels sont les trois grands tours cyclistes ? » → « Le Tour de France, le Giro et la Vuelta » ; question 2 — « Quels sont les trois grands tours du cyclisme professionnel ? » → « Le Tour de France, le Giro et la Vuelta ».
+- **Problème** : le cumul est complet. L'astuce énonce mot pour mot la bonne réponse, et cette réponse est demandée **deux fois**. Les trois autres propositions de chaque QCM (Tour de Suisse, Paris-Nice, Tour de Lombardie, Paris-Roubaix) deviennent décoratives. Deux des dix-neuf questions de la notion sont donc offertes, et la seule chose que l'apprenant ait à faire est de recopier la ligne affichée au-dessus.
+- **Correction proposée** : supprimer la question doublon, et remplacer l'astuce par ce qu'elle devrait dire — une aide à raisonner et non la réponse : « Un grand tour dure trois semaines ; les courses d'un jour, si prestigieuses soient-elles, n'en sont pas. »
+
+### [GRAVE] `cg-neuf-sp2-sports-glisse` — une astuce qui répond à trois questions à la fois
+- **Où** : notion `sp2-sports-glisse`
+- **Texte** : astuce — « **L'escalade sportive est devenue olympique en 2021.** » ; questions — « Quand l'escalade est-elle devenue olympique ? », « Quand le surf est-il devenu olympique ? », « Quand le skateboard est-il devenu olympique ? » → toutes trois « À Tokyo en 2021 ».
+- **Problème** : trois questions sur dix-neuf partagent la même réponse, et l'astuce la donne. Le résultat est qu'un apprenant qui n'a jamais entendu parler de ces trois sports répond juste trois fois — et l'exercice mesure sa capacité à lire une ligne, pas sa connaissance. À noter que la répétition n'est pas en soi illégitime (les trois sports sont bien entrés ensemble à Tokyo, ce que le cours explique), mais l'astuce la rend inutile.
+- **Correction proposée** : astuce — « Trois sports urbains ou de plein air sont entrés ensemble au programme olympique lors des mêmes Jeux : cherche lesquels, et pourquoi ce choix. » ; et ne conserver qu'une des trois questions de date, en la reformulant : « Quels trois sports de glisse ou d'escalade sont entrés ensemble au programme olympique à Tokyo ? »
+
+### [MOYEN] Sept autres astuces qui contiennent la réponse
+- **Où et texte** :
+  - `sp-tennis-raquettes` — astuce « Le comptage en **quinze, trente, quarante** viendrait du cadran d'une horloge médiévale. » / question « Comment se compte un jeu au tennis ? » → « **Quinze, trente, quarante**, jeu »
+  - `sp3-economie-sport` — astuce « **Les droits de diffusion** constituent la première ressource des grands sports. » / question « Quelle est la principale ressource des grands clubs européens de football ? » → « **Les droits de diffusion** télévisée »
+  - `sp3-records-limites` — astuce « **La progression des records ralentit** dans la plupart des disciplines mesurables. » / question « Comment les records du monde évoluent-ils depuis les années 1990 ? » → « Leur **progression ralentit** nettement »
+  - `sp2-records-performance` — astuce « Le progrès des performances **ralentit nettement dans la plupart des disciplines** depuis les années 1990. » / question « Que constate-t-on sur la progression des records depuis les années 1990 ? » → « Un net **ralentissement dans la plupart des disciplines** »
+  - `sp3-dopage` — astuce « La lutte antidopage s'est structurée mondialement **à partir de 1999**. » / question « Qu'est-ce que l'Agence mondiale antidopage ? » → « Une organisation **créée en 1999** pour harmoniser la **lutte antidopage** »
+  - `sp-corps-performance` — astuce « L'entraînement ne rend pas plus fort **pendant l'effort, mais pendant la récupération** qui suit. » / question « Qu'est-ce que la surcompensation ? » → « L'amélioration des capacités **pendant la récupération après un effort** »
+  - `sp2-sport-education` — astuce « L'éducation physique et sportive est **une discipline d'enseignement**, non une simple pratique de loisir. » / question « Qu'est-ce que l'EPS en France ? » → « **Une discipline d'enseignement** obligatoire avec ses programmes »
+- **Problème** : le mécanisme est toujours le même. L'astuce a été écrite comme un résumé du contenu de la notion, alors que sa fonction est d'**orienter sans répondre**. Les deux astuces sur les records sont un cas à part : `sp2-records-performance` et `sp3-records-limites` disent la même chose en d'autres termes et servent chacune la même question à leur apprenant, ce qui fait quatre occurrences du même fait dans le domaine.
+- **Correction proposée** : réécrire ces sept astuces sur le modèle des bonnes du domaine — `sp-football` (« Le hors-jeu s'apprécie au moment de la passe, pas au moment de la réception ») donne une clé de raisonnement sans nommer de réponse, `sp-arbitrage-regles` (« Une règle du jeu n'est pas une loi : elle est édictée par une fédération, non par un État ») pose une distinction, `sp2-sport-collectif-tactique` (« Un système de jeu n'est qu'un point de départ : c'est le mouvement qui compte ») ouvre une idée. Ces trois-là ne trahissent rien et enseignent quelque chose.
+
+### [MOYEN] Le générateur d'astuce des leçons héritées trahit à son tour — `cg-sport-14`
+- **Où** : `src/modules/culture-g/contenu.ts` l. 219, et son effet sur la notion `cg-sport-14`
+- **Texte** : le code fabrique l'astuce en collant les titres de sections : `` `Cette leçon couvre : ${sections.map((s) => s.titre).join(" · ")}` ``. Pour la leçon 14, cela donne : « Cette leçon couvre : Des Héraia grecques aux corsets victoriens · Les premières olympiennes · **Alice Milliat et les Jeux mondiaux féminins** · Une conquête discipline par discipline · Les inégalités qui demeurent ». Or le quiz de cette leçon demande : « Quelle compétition Alice Milliat a-t-elle créée pour contourner le refus du Comité international olympique ? », réponse « **Les Jeux mondiaux féminins** ».
+- **Problème** : ce n'est pas une astuce mal écrite, c'est une astuce **fabriquée automatiquement** à partir de titres que personne n'a relus dans cette optique. Un titre de section qui nomme un objet historique donne mécaniquement la réponse à toute question portant sur cet objet. Le défaut est donc structurel et se reproduira à chaque leçon dont un titre de section nomme une réponse — je n'en ai trouvé qu'une en Sport, mais le mécanisme n'a rien de propre au domaine.
+- **Correction proposée** : deux voies. La plus simple : dans `leconEnSkill`, ne pas coller les titres bruts mais n'en garder que les trois premiers mots, ou remplacer l'astuce par « Lis le cours en entier : les questions portent sur ses cinq sections. » La plus juste : écrire une astuce à la main pour les leçons dont un titre nomme une réponse.
+
+### [GRAVE] Trois paires supplémentaires, trouvées en cherchant l'égalité stricte des bonnes réponses
+- **Où et texte** : le décompte de vingt paires ci-dessus provient d'une comparaison des énoncés. En cherchant plutôt les **bonnes réponses rigoureusement identiques** dans une même notion, trois paires de plus apparaissent, que le recouvrement des énoncés ne pouvait pas révéler :
+  1. `cg-sport-c01` — « Quel skieur français a remporté les trois épreuves de ski alpin aux Jeux de Grenoble en 1968 ? » / « Quel skieur français a été triple médaillé d'or à Grenoble en 1968 ? » → **« Jean-Claude Killy »** dans les deux cas. Et l'explication de la première raconte déjà le triplé, si bien que la seconde est résolue avant d'être posée.
+  2. `cg-neuf-sp2-gymnastique` — « Quelle gymnaste roumaine obtient le premier dix parfait olympique en 1976 ? » / « Quelle gymnaste a obtenu la première note de dix aux Jeux ? » → **« Nadia Comăneci »**. La seconde est la première privée de ses deux indices (la nationalité et l'année) : elle n'ajoute rien, elle retire.
+  3. `cg-neuf-sp2-rugby` — « Qu'est-ce que le haka ? » / « Quelle tradition les All Blacks exécutent-ils avant leurs matchs ? » → **« Une danse rituelle maorie exécutée avant les matchs néo-zélandais »**, la même chaîne de caractères. Le doublon parfait, dans les deux sens : la définition puis le nom.
+- **Problème** : le total s'établit donc à **vingt-trois à vingt-cinq paires** selon qu'on compte la triple question sur Tokyo 2021 pour une redondance ou pour deux. `sp2-rugby` en compte cinq à elle seule, `sp2-gymnastique` et `sp2-handisport` quatre chacune : dans ces trois notions, **la moitié des questions posent la moitié des faits**.
+- **Correction proposée** : au-delà du cas par cas, deux mesures de fond. (1) Ajouter au dédoublonnage une comparaison sur la **bonne réponse normalisée seule**, sans condition sur l'énoncé, lorsque cette réponse fait plus de quinze caractères : elle aurait attrapé le goalball, le haka, les grands tours et Tokyo 2021. (2) Normaliser les nombres avant comparaison — « 3,05 mètres » et « Trois mètres cinq » doivent être vus comme la même réponse.
+
+## Ce que la passe 2 a trouvé — 3. Les explications qui répondent à une autre question de la même notion
+
+Catégorie que la passe 1 ne pouvait pas voir, puisqu'elle suppose de savoir
+quelles questions se retrouvent servies ensemble. Une explication s'affiche
+**après** que l'apprenant a répondu : si elle contient la bonne réponse d'une
+autre question de la même notion, cette autre question devient gratuite dès
+qu'elle se présente.
+
+### [MOYEN] Onze explications donnent la réponse d'une question voisine
+- **Où et texte** — les cas nets :
+  - `cg-sport-06` — l'explication de « À quelle hauteur se situe le panier de basket-ball ? » nomme « **James Naismith** » (réponse de « Qui a inventé le basket-ball en 1891 ? ») **et** « trois mètres cinq » (réponse du doublon signalé plus haut). Une seule explication règle deux autres questions.
+  - `cg-sport-07` — l'explication de « Quelle est la particularité principale des 24 Heures du Mans ? » commence par « **Les 24 Heures du Mans**, créées en 1923… », qui est la réponse de « Quelle course d'endurance se dispute chaque année en Sarthe ? ».
+  - `cg-sport-14` — l'explication de la question sur Charlotte Cooper contient « Alice Milliat […] la dirigeante qui a créé **les Jeux mondiaux féminins** », réponse exacte de la question suivante. Cette notion cumule donc les deux fuites : l'astuce **et** l'explication.
+  - `cg-neuf-sp2-handisport` — l'explication de « Où les premiers jeux pour athlètes handicapés sont-ils organisés en 1948 ? » nomme « **Ludwig Guttmann** », réponse de « Qui est à l'origine du mouvement paralympique ? ». Et l'explication de « En quelle année les premiers Jeux paralympiques d'été ont-ils lieu ? » est « **Depuis 1988**, ils se tiennent dans la même ville que les Jeux olympiques », qui répond à « Depuis quand les Jeux paralympiques se tiennent-ils dans la même ville que les Jeux olympiques ? » → « Depuis **Séoul en 1988** ».
+  - `cg-neuf-sp3-cyclisme-3` — l'explication de « Qu'est-ce qu'un monument du cyclisme ? » énumère « Milan-San Remo, le Tour des Flandres, **Paris-Roubaix**, Liège-Bastogne-Liège et le Tour de Lombardie », et une autre question demande « Quelle classique est surnommée l'Enfer du Nord ? » → « **Paris-Roubaix** » ; l'explication de « Quel scandale a marqué le cyclisme des années 1998 à 2012 ? » dit « **Lance Armstrong** a été déchu de ses sept titres », et une autre question demande « Quel coureur a été déchu de sept victoires sur le Tour de France pour dopage ? ».
+  - `cg-neuf-sp-tennis-raquettes` — l'explication de la question sur la Coupe Davis dit « La **Billie Jean King** Cup, ex-Fed Cup, en est l'équivalent féminin », et une autre question demande « Quelle joueuse américaine a milité pour l'égalité des primes dans le tennis ? ».
+  - `cg-libre-sport-1` — l'explication de « Que désigne le maillot jaune sur le Tour de France ? » détaille tous les autres maillots, dont « le blanc à pois rouges pour **le meilleur grimpeur** », alors qu'une autre question du même lot demande « Sur le Tour de France, qui porte le maillot blanc à pois rouges ? ».
+- **Problème** : ces explications sont bonnes en elles-mêmes — elles élargissent, elles situent, elles nomment les distracteurs pour dire pourquoi ils sont faux, ce que la consigne demande. Le défaut n'est donc pas dans l'écriture mais dans **l'assemblage** : les questions ont été écrites indépendamment, puis réunies dans une même notion par la fusion, et personne n'a relu l'ensemble comme une série. C'est exactement pourquoi il fallait charger le module plutôt que lire les fichiers.
+- **À ne pas corriger aveuglément** : supprimer ces mentions appauvrirait les explications. Deux d'entre elles sont même pédagogiquement justes — l'explication du maillot jaune gagne à énumérer les autres maillots, celle du drapeau olympique à rappeler qui l'a dessiné.
+- **Correction proposée** : ne traiter que les cas où l'explication rend l'autre question **entièrement** gratuite (Naismith, les 24 Heures du Mans, les Jeux mondiaux féminins, Guttmann, 1988, Armstrong, Paris-Roubaix, le meilleur grimpeur) et, plutôt que d'amputer les explications, **retirer la question la plus pauvre de chaque couple** — c'est presque toujours la question courte des notions écrites à la main, dont l'explication tient en une phrase, face à une question de leçon dont l'explication en compte cinq.
+
+## Ce que la passe 2 a trouvé — 4. Contre-vérification des corrections proposées en passe 1
+
+J'ai repris sur le web les corrections de la passe 1 qui engagent un fait
+vérifiable. **Aucune ne s'est révélée fausse** — je le dis d'autant plus
+volontiers que trois autres domaines en ont trouvé. Voici le détail, pour que
+personne n'ait à refaire le travail.
+
+**Confirmées :**
+- *Record de Bubka / Lavillenie* — Bubka franchit 6,15 m en salle le 21 février 1993 ; Lavillenie 6,16 m le 15 février 2014. **Vingt et un ans**, comme le dit le cours et non « seize » comme le dit la question. La passe 1 a raison, et son chiffre est le bon.
+- *Hillsborough* — le bilan officiel est bien passé de 96 à **97** après la mort d'Andrew Devine en juillet 2021 et sa reconnaissance par le coroner. Le cours est à corriger, pas la question.
+- *Gymnastique rythmique* — **la correction de la passe 1 est exacte, et je l'ai vérifiée sur la pièce.** Le *Code de pointage* de la FIG pour le cycle **2025-2028** retient quatre engins seniors : cerceau, ballon, massues, ruban. La corde a été retirée du programme individuel senior en 2011 et n'a plus servi en compétition internationale après 2017-2018, en ensembles seulement. La version « cinq engins » de `sp2-gymnastique` est donc bien périmée.
+- *Palmarès NBA* — Boston conserve **dix-huit** titres depuis juin 2024, devant Los Angeles avec dix-sept. Deux finales ont eu lieu depuis sans changer ce classement : Oklahoma City en 2025, **New York en 2026** (4-1 contre San Antonio, premier titre des Knicks depuis 1973). L'« égalité » du cours reste fausse, et le chiffre proposé par la passe 1 reste bon.
+- *Marathon* — 42,195 km courus à Londres en 1908, officialisés comme distance standard en **1921**. Confirmé.
+- *Dakar* — dernier départ parisien en **2001**, puis Arras, Marseille, Clermont-Ferrand, Barcelone, Lisbonne jusqu'en 2007 ; annulation en 2008 ; Amérique du Sud de 2009 à 2019 ; Arabie saoudite depuis 2020. La reformulation de la passe 1 est exacte de bout en bout.
+- *Parité de Paris 2024* — parité **des quotas** (5 250 places de chaque côté), non des engagés. Confirmé, y compris par le CIO.
+- *Recommandation de l'OMS* — les lignes directrices de 2020 donnent **150 à 300 minutes** d'activité modérée par semaine. C'est `sp2-sport-sante` qui a raison et `sp3-sport-sante` qui a tort, comme le disait la passe 1.
+- *Ski alpin* — le record de victoires en Coupe du monde est bien détenu par **Mikaela Shiffrin**, ce qui valide la reformulation proposée ; et Bode Miller est bien un homme dans une question qui demande une skieuse.
+- *Cinquième Tour de Pogačar* (constat du relecteur 2) — confirmé : **victoire le dimanche 26 juillet 2026**, avec plus de six minutes d'avance sur Remco Evenepoel, dernière étape aux Champs-Élysées gagnée par Mathieu van der Poel. À vingt-sept ans, il est le plus jeune quintuple vainqueur de l'histoire. Les quatre occurrences de « quatre coureurs seulement » sont donc bien à corriger.
+
+**Une correction à préciser, sans l'infirmer :**
+### [MOYEN] pass'Sport : la passe 1 a raison sur l'année, mais le dispositif a changé deux fois depuis
+- **Où** : `prisma/seed/culture-g/sport.ts` — `sp-sport-societe` ; `cours/sport.ts` — même notion
+- **Texte** : « Quel dispositif français vise l'accès au sport **des enfants** depuis 2022 ? » → « Le pass'Sport, aide à la licence » ; cours — « Le pass'Sport, créé en 2022, est une aide financière à la prise de licence ».
+- **Problème** : la date de 2021 avancée par la passe 1 est la bonne, et le relecteur 2 a déjà rectifié la pièce citée à l'appui (décret n° 2021-1171 du 10 septembre 2021). Mais le reste de l'énoncé a vieilli à son tour. Le montant est passé de 50 à **70 €** pour la saison 2025-2026, et surtout **le public a été restreint aux 14-18 ans** cette même saison, contre 6-18 ans auparavant — avant que le budget 2026 ne rétablisse, sur amendement de la ministre des Sports, l'accès des **6-13 ans** pour la rentrée 2026-2027. Écrire « l'accès au sport des enfants » sans plus de précision décrit donc un dispositif dont la cible a changé deux fois en deux ans.
+- **Correction proposée** : énoncé — « Quel dispositif français aide les jeunes à payer leur licence sportive depuis 2021 ? » ; explication — « Le pass'Sport, créé pour la rentrée 2021. Son montant (70 € depuis 2025) et son public éligible ont varié d'une saison à l'autre. » Et ne pas faire figurer le montant dans le cours sans sa saison.
+
+**Deux points laissés en suspens par la passe 1, que je tranche :**
+
+### [GRAVE] Les Jeux olympiques de l'esport n'existent pas — le CIO a rompu et repart de zéro
+- **Où** : `prisma/seed/culture-g/sport-3.ts` l. 508-509 — notion `sp3-esport`
+- **Texte** : « Quel débat le statut olympique du sport électronique soulève-t-il ? » → « L'absence d'effort physique et le rôle des éditeurs privés », explication : « **Le CIO a lancé des Jeux olympiques de l'esport distincts des Jeux traditionnels.** »
+- **Problème** : la passe 1 avait mis ce point en réserve. Il est tranché, et dans le sens le plus défavorable. Le CIO avait voté en 2023 la création de ces Jeux, puis conclu en 2024 une alliance avec l'Arabie saoudite courant jusqu'en 2036. Il a **reporté l'édition de 2025 à 2027 en février 2025, puis annoncé le 30 octobre 2025 la fin de cette coopération d'un commun accord**. Le projet, piloté par la commission esport présidée par David Lappartient, **repart de zéro, sans territoire hôte et sans échéance**. Le passé composé « a lancé » fait donc apprendre comme un fait accompli un événement qui n'a jamais eu lieu et dont plus rien n'est programmé. C'est le seul énoncé du domaine qui affirme l'existence d'une compétition inexistante.
+- **Aggravant** : cette explication n'a par ailleurs aucun rapport avec la question qu'elle explique. Le débat porte sur l'effort physique et la propriété des règles par les éditeurs — ce que le cours de la même notion expose très bien (« Un sport dont les règles sont la propriété d'une société pose au mouvement olympique un problème inédit ») —, et l'explication répond à côté.
+- **Correction proposée** : « Le CIO a voté en 2023 la création de Jeux olympiques de l'esport, mais le projet n'a toujours pas d'édition : le partenariat saoudien a été rompu fin 2025 et la recherche d'un hôte a repris à zéro. » Ou, mieux, une explication qui explique la question : « Le mouvement olympique bute sur un fait sans précédent : personne ne possède les règles du football, alors que chaque jeu vidéo appartient à un éditeur qui peut les changer. »
+
+### Le record du monde du décathlon de Kévin Mayer tient toujours
+- **Où** : `prisma/seed/culture-g/cours/sport.ts` — `sp3-athletisme-lancers`, section « Les lancers »
+- **Vérification** : les 9 126 points établis à Talence les 15 et 16 septembre 2018 **n'ont pas été battus** à ce jour. La formule du cours — « détient le record du monde de la discipline depuis 2018 » — est donc exacte, et le point en suspens de la passe 1 est levé. Elle reste néanmoins de celles qui se périment : la dater (« depuis 2018 ») est ce qui la sauve, et c'est bien fait.
+
+## Ce que la passe 2 a trouvé — 5. Relecture à froid de la fin des fichiers
+
+La consigne prévient que l'attention baisse en fin de fichier. J'ai donc relu
+les deux dernières notions de `sport-3.ts` sans mes notes, comme si je les
+découvrais. Elles étaient les moins bien couvertes par la passe 1.
+
+### [MOYEN] « Quand l'assistance vidéo a-t-elle été utilisée en Coupe du monde ? » — 2018 et 2022 sont vraies toutes les deux
+- **Où** : `prisma/seed/culture-g/sport-3.ts` l. 524-525 — notion `sp3-arbitrage-technologie`
+- **Texte** : « Quand l'assistance vidéo a-t-elle été utilisée en Coupe du monde ? », choix `["En 2018, en Russie", "En 2014", "En 2022", "En 2010"]`, bonne réponse 0, explication « Son usage avait été testé auparavant dans plusieurs championnats. »
+- **Problème** : l'énoncé demande **quand** la VAR a été utilisée, sans dire « pour la première fois ». Or elle a été utilisée en 2018 **et** en 2022 : le distracteur « En 2022 » est vrai. Un apprenant qui sait que la Coupe du monde du Qatar a employé la vidéo — et même le hors-jeu semi-automatisé, ce que la question suivante de la même notion lui apprend deux lignes plus bas — n'a aucune raison de préférer 2018. L'explication ne tranche pas non plus : elle parle des essais antérieurs, pas de la première fois.
+- **Aggravant** : la question voisine (« Qu'est-ce que le hors-jeu semi-automatisé ? ») porte explicitement « Utilisé lors de la Coupe du monde 2022 ». Le corpus se contredit donc à une question d'intervalle.
+- **Correction proposée** : « À quelle Coupe du monde l'assistance vidéo a-t-elle été utilisée pour la première fois ? » → « En 2018, en Russie », explication : « Testée auparavant dans plusieurs championnats nationaux, elle est employée pour la première fois dans un Mondial en Russie ; le hors-jeu semi-automatisé s'y ajoutera au Qatar en 2022. »
+
+### [MOYEN] Un distracteur qui est vrai lui aussi : Blake Leeper a bien couru en compétition valide
+- **Où** : `prisma/seed/culture-g/sport-3.ts` l. 561-562 — notion `sp3-records-limites`
+- **Texte** : « Quel athlète a couru avec des prothèses en compétition valide ? », choix `["Oscar Pistorius", "Markus Rehm", "Blake Leeper", "Jonnie Peacock"]`, bonne réponse 0, explication « Sa participation aux Jeux de Londres en 2012 a nourri un long débat scientifique. »
+- **Problème** : deux des trois distracteurs sont des réponses correctes. **Blake Leeper**, sprinteur américain amputé des deux jambes, a couru le 400 mètres des championnats des États-Unis valides en 2019 et s'est qualifié pour la finale ; **Markus Rehm**, sauteur en longueur allemand, a remporté le titre national allemand valide en 2014, ce qui a déclenché exactement le même débat sur l'avantage de la prothèse. La question n'a donc pas une réponse mais trois, et le seul moyen de deviner celle qui est attendue est de reconnaître le nom le plus connu — ce qui n'est pas une connaissance.
+- **Correction proposée** : lever l'ambiguïté par le fait qui est propre à Pistorius : « Quel athlète appareillé a disputé les Jeux olympiques valides, à Londres en 2012 ? » → « Oscar Pistorius » ; ou déplacer la difficulté vers ce que la notion veut enseigner : « Quel débat les prothèses de course ont-elles ouvert dans l'athlétisme valide ? » → « Celui de la frontière entre compensation du handicap et avantage mécanique ».
+
+### [MINEUR] « Dès le XXe siècle » : une datation qui ne date rien
+- **Où** : `prisma/seed/culture-g/sport-3.ts` l. 537-538 — notion `sp3-arbitrage-technologie`
+- **Texte** : « Qu'est-ce que le capteur de touche en escrime ? » → « Un dispositif électrique signalant les touches valables », explication « Il a remplacé les juges humains pour la validation des touches **dès le XXe siècle**. »
+- **Problème** : « dès le XXe siècle » couvre cent ans et n'apprend rien, dans une notion dont toutes les autres explications donnent une date précise (2010, 2018, 2022). Les dates existent et sont plus intéressantes : l'appareil électrique est adopté à **l'épée en 1936, au fleuret en 1956 et au sabre en 1988** — une progression qui suit la difficulté technique de chaque arme, et qui explique pourquoi le sabre a résisté si longtemps. Par ailleurs le verbe « remplacé » est excessif : l'appareil signale la touche, mais c'est toujours l'arbitre qui applique la convention de priorité au fleuret et au sabre — ce que la leçon héritée 12 dit correctement.
+- **Correction proposée** : « L'appareil électrique de signalisation est adopté à l'épée en 1936, au fleuret en 1956 et au sabre en 1988. Il dit qu'il y a touche, mais c'est toujours l'arbitre qui décide à qui elle revient au fleuret et au sabre. »
+
+### Vérifié et bon dans ces deux notions
+Le record du monde du cent mètres — **9 s 58, Usain Bolt, Berlin, le 16 août 2009** — tient toujours en 2026, et l'explication le date correctement. Sont également exacts : les quatre situations d'intervention de la VAR, le but non accordé à l'Angleterre en 2010 à l'origine de la goal-line technology, le hors-jeu semi-automatisé du Mondial 2022, le challenge limité par set au volley-ball, la photo-finish décrite comme une image en fente et non une photographie instantanée — précision rare et juste —, le chronométrage électronique obligatoire pour homologuer un record, la limite de vent de deux mètres par seconde, l'avantage d'altitude et les records de Mexico en 1968, le rôle croissant du matériel dans l'incomparabilité des époques, et le refus explicite du déterminisme génétique (« Aucun test génétique ne permet aujourd'hui de prédire un champion »), qui est l'une des meilleures explications du domaine.
+
+La dernière question du domaine — « Quelle limite finale les records rencontrent-ils ? » → « Des contraintes physiologiques et biomécaniques », explication « Les modèles prédisent des asymptotes, dont la valeur exacte reste discutée » — est une bonne façon de finir : elle donne un résultat scientifique **et** son incertitude.
+
+---
+
+## Bilan de la passe 2
+
+**Ce que la passe 2 a ajouté, en clair :**
+
+1. **Vingt-trois à vingt-cinq paires de questions posant le même fait dans une même notion**, invisibles fichier par fichier parce qu'elles ne se rejoignent qu'au chargement, par `FUSIONS` et `FUSIONS_INTERNES`. `sp2-rugby` en compte cinq, `sp2-gymnastique` et `sp2-handisport` quatre chacune. Trois d'entre elles ont **la même bonne réponse au caractère près** (le goalball, le haka, les trois grands tours) et auraient dû tomber sous le filtre existant : c'est un défaut du dédoublonnage autant que du contenu, et j'ai proposé les deux règles qui manquent.
+2. **Dix notions sur trente-sept dont l'astuce donne la réponse littérale** d'une de leurs propres questions — 27 %, le taux trouvé ailleurs. Deux cas cumulent astuce trahissante **et** question posée deux fois (`sp3-cyclisme-3`), ou astuce trahissante **et** trois questions à réponse identique (`sp2-sports-glisse`). S'y ajoute un cas de nature différente : le **générateur automatique d'astuce** des leçons héritées, qui colle les titres de sections et donne ainsi la réponse du quiz de `cg-sport-14`.
+3. **Une catégorie que la passe 1 ne pouvait pas voir : onze explications qui donnent la réponse d'une autre question de la même notion.** Naismith, les 24 Heures du Mans, Guttmann, 1988, Paris-Roubaix, Armstrong, le meilleur grimpeur, les Jeux mondiaux féminins. Ces explications sont bonnes en elles-mêmes ; c'est leur voisinage, créé par la fusion, qui les rend nuisibles.
+4. **Les six leçons héritées que la passe 1 n'avait pas atteintes** (01, 06, 07, 09, 14, 15, 16), et leurs onze constats — dont le plus lourd du domaine : le **tableau du palmarès des équipes de France de handball, faux sur ses trois lignes**, quatre titres manquants ; et le premier financeur institutionnel du sport français, présenté comme acquis « de très loin » alors que l'écart est de quatre points et que l'État est passé devant deux années sur les cinq dernières.
+5. **La contre-vérification, sur le web, de toutes les corrections factuelles proposées en passe 1 : aucune n'est fausse.** Bubka/Lavillenie, Hillsborough à 97, les quatre engins de la gymnastique rythmique, Boston à dix-huit titres, le marathon de 1921, les départs du Dakar, la parité des quotas de Paris 2024, l'OMS à 150-300 minutes, Shiffrin — toutes confirmées, ainsi que le cinquième Tour de Pogačar du 26 juillet 2026 relevé par le relecteur 2. Les **deux points laissés en suspens sont tranchés** : le record du monde du décathlon de Kévin Mayer tient toujours (le cours a raison), et les **Jeux olympiques de l'esport n'existent pas** — le CIO a rompu avec l'Arabie saoudite le 30 octobre 2025 et le projet repart sans hôte ni date, ce qui fait passer le constat de « à vérifier » à GRAVE.
+
+**Le motif d'ensemble du domaine, une fois les deux passes faites**, tient en une phrase : *le Sport est un domaine dont les cours sont bons et dont les questions sont périmées.* Les cours datent leurs faits, nuancent, refusent les causes uniques — `sp3-records-limites` explique pourquoi certains records des années 1980 résistent, `sp3-arbitrage-technologie` distingue ce qu'un capteur tranche de ce qu'il ne tranchera jamais, `sp2-histoire-sport` montre que l'amateurisme était une barrière sociale. Les questions, elles, énoncent des palmarès sans date, se répètent, et laissent des « premier », « seul », « le plus » sans borne temporelle. Là où le corpus se trompe, c'est presque toujours parce qu'il a écrit au présent une chose qui était vraie quand il a été écrit.
+
+**Trois défauts sont structurels et se corrigeront mieux dans le code que dans le texte** : le dédoublonnage qui compare des chaînes et non des faits (« 3,05 mètres » ≠ « Trois mètres cinq ») ; le générateur d'astuce qui recopie des titres de sections ; et la table `FUSIONS`, qui réunit des notions sans que personne n'ait relu la série obtenue. Les trois se voient en chargeant le module, et en aucun autre cas.
 

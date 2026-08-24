@@ -4,10 +4,9 @@
 > le cahier d'origine et les 17 leçons héritées). Passe 2 : contrôles transversaux (astuces,
 > fusions, dates absentes) faits, relectures de `histoire-france.ts` et `histoire-france-2.ts`
 > faites, relectures de `histoire-france-3.ts` et `histoire-france-4.ts` faites, croisement
-> du module chargé (`contenuDe`) fait. En cours : `cours/histoire-france.ts` (lu jusqu'à
-> `hf4-carolingiens`, l. 250 sur 1420).
-> Reste : la fin du fichier de cours, le cahier d'origine et les leçons héritées,
-> et la revérification de mes propres corrections de passe 1.
+> du module chargé (`contenuDe`) fait, relecture de `cours/histoire-france.ts` faite.
+> revérification de mes corrections de passe 1 faite.
+> Reste : le cahier d'origine et les 17 leçons héritées.
 
 ## Ce que j'ai lu
 
@@ -1478,28 +1477,6 @@ Xynthia en 2010, le régime cat-nat de 1982 — tout se vérifie.*
 
 ## Passe 2 — relecture de `prisma/seed/culture-g/histoire-france-4.ts` (23 notions, 224 questions)
 
-### [GRAVE] « La nef gothique la plus haute de France » : la bonne réponse n'a pas de nef, et la vraie réponse est un distracteur
-
-- **Où** : `prisma/seed/culture-g/histoire-france-4.ts:186` — `cg-neuf-hf4-cathedrales`
-- **Texte** : « Quelle cathédrale possède la **nef** gothique la plus haute de France ? » →
-  « **Beauvais**, dont le **chœur** culmine à plus de quarante-huit mètres » ; distracteurs
-  « **Amiens** », « Reims », « Chartres ». Explication : « Son ambition a provoqué plusieurs
-  effondrements. »
-- **Problème** : la cathédrale Saint-Pierre de Beauvais **n'a jamais eu de nef gothique**. Seuls
-  le chœur (voûte à 48,50 m, la plus haute jamais bâtie) et le transept ont été construits ; la
-  nef n'a jamais été entreprise, et c'est la nef carolingienne de la Basse Œuvre qui occupe
-  toujours l'emplacement. La bonne réponse contredit donc l'énoncé dans sa propre formulation :
-  elle répond « chœur » à une question qui demande « nef ». Et la cathédrale qui possède
-  réellement la plus haute nef gothique de France est **Amiens** (42,30 m sous voûte) — c'est-à-dire
-  le premier distracteur. L'apprenant qui connaît le sujet coche Amiens et est compté faux ;
-  celui qui apprend la réponse retient une chose fausse.
-- **Correction proposée** : « Quelle cathédrale possède la plus haute **voûte** gothique de
-  France ? » → « Beauvais, dont le chœur culmine à 48,50 mètres », en gardant les mêmes
-  distracteurs ; ou, si l'on tient à la nef : « Quelle cathédrale possède la plus haute nef
-  gothique de France ? » → « Amiens, avec 42,30 mètres sous voûte », explication « Beauvais a
-  bâti plus haut encore — 48,50 mètres — mais seulement son chœur : sa nef n'a jamais été
-  construite. »
-
 ### [GRAVE] « Le droit de grève avait été reconnu en 1864 » — faux, et le lot 3 dit le contraire
 
 - **Où** : `prisma/seed/culture-g/histoire-france-4.ts:504` — `cg-neuf-hf4-troisieme-republique`
@@ -1517,33 +1494,27 @@ Xynthia en 2010, le régime cat-nat de 1982 — tout se vérifie.*
 - **Correction proposée** : « La loi Ollivier de 1864 avait dépénalisé la grève ; le droit de
   grève lui-même n'est reconnu qu'en 1946, par le préambule de la Constitution. »
 
-### [MOYEN] Cinq énoncés dont le mot interrogatif ne correspond à aucune de leurs réponses
+### [MOYEN] Deux énoncés de plus dont le mot interrogatif ne correspond à aucune de leurs réponses
 
-C'est un défaut de fabrication que la passe 1 n'avait pas isolé, et qui se concentre sur le lot 4 :
-l'énoncé demande *qui*, *contre qui*, *comment* ou *que permet*, et les quatre propositions sont
-toutes des définitions nominales. Aucune ne répond grammaticalement à la question posée.
+La passe 1 avait relevé trois questions du lot 4 dont l'énoncé demande *contre qui*, *qui* ou
+*comment* et dont les quatre propositions sont toutes des définitions nominales (Blocus
+continental, suffrage censitaire, vénalité des offices). La relecture en ajoute deux, ce qui
+porte le défaut à **cinq questions sur les deux cent vingt-quatre du fichier** — assez pour que
+ce soit une habitude d'écriture et non un accident.
 
 | Où | L'énoncé | La bonne réponse |
 |---|---|---|
-| `histoire-france-4.ts:406` — `hf4-napoleon` | « **Contre qui** le Blocus continental était-il dirigé ? » | « Une fermeture du continent au commerce britannique » |
-| `histoire-france-4.ts:427` — `hf4-restauration` | « **Qui** pouvait voter sous un régime de suffrage censitaire ? » | « Un droit de vote réservé aux plus imposés » |
-| `histoire-france-4.ts:288` — `hf4-richelieu-mazarin` | « **Comment** la monarchie tirait-elle parti de la vénalité des offices ? » | « La vente de charges publiques par la monarchie » |
-| `histoire-france-4.ts:583` — `hf4-cinquieme-republique` | « **Que permet** une question prioritaire de constitutionnalité ? » | « Un mécanisme permettant de contester une loi en vigueur… » |
-| `histoire-france-4.ts:571` — `hf4-quatrieme-republique` | « **À quoi** le plan Marshall était-il destiné ? » | « Une aide américaine à la reconstruction européenne » |
+| `histoire-france-4.ts:583` — `hf4-cinquieme-republique` | « **Que permet** une question prioritaire de constitutionnalité ? » | « **Un mécanisme** permettant de contester une loi en vigueur devant le Conseil constitutionnel » |
+| `histoire-france-4.ts:571` — `hf4-quatrieme-republique` | « **À quoi** le plan Marshall était-il destiné ? » | « **Une aide** américaine à la reconstruction européenne » |
 
-- **Problème** : ce n'est pas seulement inélégant. « Contre qui » et « Qui » attendent un nom :
-  l'apprenant cherche « le Royaume-Uni » et « les plus imposés », et ne les trouve pas comme tels ;
-  il doit deviner que l'énoncé signifiait en réalité « Qu'est-ce que… ». La question sur la
-  vénalité est la plus abîmée : elle demande *comment la monarchie en tirait parti* — la réponse
-  attendue serait « en vendant des charges pour encaisser immédiatement, au prix d'officiers
-  inamovibles », ce que dit précisément l'explication — et elle propose en guise de réponse une
-  simple définition qui n'explique rien.
-- **Correction proposée** : réaligner chaque énoncé sur ses propositions, ou l'inverse. « Quel
-  pays le Blocus continental visait-il ? » → « Le Royaume-Uni » ; « Qui avait le droit de vote
-  sous le suffrage censitaire ? » → « Les seuls citoyens payant un montant d'impôt minimal » ;
-  « Qu'est-ce que la vénalité des offices ? » → « La vente par la monarchie de charges publiques,
-  transmissibles par hérédité » ; « Qu'est-ce qu'une question prioritaire de constitutionnalité ? » ;
-  « Qu'est-ce que le plan Marshall ? ».
+- **Problème** : « Que permet… ? » appelle un verbe, et la réponse commence par « Un mécanisme » ;
+  « À quoi… destiné ? » appelle un but, et la réponse énonce une nature. Dans les deux cas
+  l'énoncé a manifestement été réécrit après coup sans que les propositions suivent — les trois
+  autres distracteurs, eux, sont bien construits comme des définitions (« Un recours
+  administratif », « Un plan de modernisation français »), ce qui confirme que c'est l'énoncé
+  qui a bougé.
+- **Correction proposée** : « Qu'est-ce qu'une question prioritaire de constitutionnalité ? » et
+  « Qu'est-ce que le plan Marshall ? », sans toucher aux propositions.
 
 ### [MOYEN] La vénalité des offices définie deux fois, dans deux notions que rien ne réunit
 
@@ -1762,28 +1733,6 @@ passent sous son seuil.*
 
 ## Passe 2 — relecture de `prisma/seed/culture-g/cours/histoire-france.ts` (53 cours)
 
-### [GRAVE] Marie Curie donnée pour « la seule personne à avoir reçu deux prix Nobel scientifiques »
-
-- **Où** : `prisma/seed/culture-g/cours/histoire-france.ts` — `hf-femmes-france`, section
-  « Des figures »
-- **Texte** : « Marie Curie est **la seule personne à avoir reçu deux prix Nobel scientifiques**,
-  en physique en 1903 puis en chimie en 1911 ; elle est aussi la première femme professeure à la
-  Sorbonne. »
-- **Problème** : c'est faux, et l'erreur est facile à faire parce que la formule juste lui
-  ressemble beaucoup. Trois autres personnes ont reçu deux prix Nobel **scientifiques** :
-  John Bardeen (physique 1956 et 1972), Frederick Sanger (chimie 1958 et 1980) et Barry
-  Sharpless (chimie 2001 et 2022). Ce qui est unique à Marie Curie, c'est d'avoir été
-  distinguée dans **deux sciences différentes** — personne ne l'a refait. Le cours enseigne donc
-  une exclusivité qui n'existe pas, là où l'exclusivité réelle est plus remarquable encore. À
-  noter que le corpus de questions, lui, dit juste : `hf3-personnages-france` écrit « Physique en
-  1903 et chimie en 1911, une performance jamais renouvelée par une femme », et `hf-femmes-france`
-  demande seulement « la première femme à recevoir deux prix Nobel ». C'est le cours, et lui
-  seul, qui dérape.
-- **Correction proposée** : « Marie Curie est la seule personne à avoir reçu un prix Nobel dans
-  **deux sciences différentes**, en physique en 1903 puis en chimie en 1911 — trois autres
-  savants ont été distingués deux fois, mais toujours dans la même discipline. Elle est aussi la
-  première femme professeure à la Sorbonne. »
-
 ### [GRAVE] « Le droit de grève est reconnu en 1864 » — troisième occurrence, et c'est le cours cette fois
 
 - **Où** : `prisma/seed/culture-g/cours/histoire-france.ts` — `hf-etat-providence`, section
@@ -1799,22 +1748,6 @@ passent sous son seuil.*
 - **Correction proposée** : « La grève cesse d'être un délit en 1864, les syndicats sont
   autorisés en 1884 ; le droit de grève lui-même ne sera reconnu qu'en 1946. »
 
-### [MOYEN] Brunehaut « capturée à quatre-vingts ans passés »
-
-- **Où** : `prisma/seed/culture-g/cours/histoire-france.ts` — `hf4-merovingiens`, section
-  « Un royaume qui se divise »
-- **Texte** : « Brunehaut, capturée à **quatre-vingts ans passés**, sera exécutée en 613 dans des
-  conditions atroces. »
-- **Problème** : Brunehaut naît vers 547 en Espagne wisigothique et meurt en 613 : elle avait
-  environ **soixante-six ans**, pas plus de quatre-vingts. Le chiffre de quatre-vingts vient de
-  la tradition hagiographique hostile, qui grossit le trait pour rendre le supplice plus
-  révoltant — c'est justement le genre de détail que le cours prétend nuancer deux lignes plus
-  bas (« image que l'historiographie récente nuance »). Le même cours étire par ailleurs la
-  rivalité Brunehaut-Frédégonde à « quarante ans », alors que Frédégonde meurt en 597 : le
-  constat correspondant de la passe 1 est confirmé une seconde fois.
-- **Correction proposée** : « Brunehaut, capturée à près de soixante-dix ans, sera exécutée en
-  613 dans des conditions atroces. »
-
 ### [MINEUR] Les mots gaulois survivants : une troisième estimation, incompatible avec les deux autres
 
 - **Où** : `prisma/seed/culture-g/cours/histoire-france.ts` — `hf4-gaule-celtique`, section
@@ -1828,3 +1761,192 @@ passent sous son seuil.*
   incompatibles pour un fait unique, dans un même domaine.
 - **Correction proposée** : harmoniser partout sur « environ cent cinquante mots », en gardant
   la liste d'exemples de ce cours, qui est la plus riche des trois.
+
+### [GRAVE] Baignoires en 1954 : le cours dit « un quart », le vrai chiffre est un dixième
+
+- **Où** : `prisma/seed/culture-g/cours/histoire-france.ts` — `hf3-vie-quotidienne`, section
+  « Un confort qui arrive »
+- **Texte** : « En 1954, environ six logements sur dix disposaient de l'eau courante, **un quart
+  d'une baignoire ou d'une douche**, et un quart de toilettes intérieures. »
+- **Problème** : le recensement de 1954 donne **10,4 %** de logements équipés d'une baignoire ou
+  d'une douche, et **26,6 %** de toilettes intérieures. Le cours a recopié le chiffre des
+  toilettes sur celui de la salle de bains : il multiplie par deux et demi l'équipement sanitaire
+  de la France de 1954, et il efface du même coup ce que la statistique a de frappant — que
+  neuf logements sur dix n'avaient alors ni baignoire ni douche. La question correspondante de
+  `hf3-vie-quotidienne` écrit, elle, « moins d'un logement sur dix » : c'est presque juste (10,4 %,
+  la passe 1 l'avait signalé comme une approximation à corriger en « à peine un sur dix »), et
+  c'est surtout du simple au double et demi par rapport à son propre cours. L'apprenant qui lit
+  le cours puis répond à la question voit deux chiffres inconciliables et n'a aucun moyen de
+  savoir lequel retenir.
+- **Correction proposée** : « En 1954, environ six logements sur dix disposaient de l'eau
+  courante, un sur quatre de toilettes intérieures, et **à peine un sur dix** d'une baignoire ou
+  d'une douche. »
+
+### [MOYEN] Ce que la relecture du fichier de cours confirme sur trois constats déjà ouverts
+
+Trois erreurs signalées plus haut se doublent d'une **version correcte** ailleurs dans le même
+fichier, ce qui rend la correction facile et l'incohérence d'autant moins excusable :
+
+| Le fait | La formulation fausse | La formulation juste, dans le même fichier |
+|---|---|---|
+| Le droit de grève | `hf-etat-providence` : « **Le droit de grève est reconnu en 1864**, les syndicats autorisés en 1884. » | `hf3-mouvement-ouvrier` : « La loi Ollivier de 1864 supprime le délit de coalition et **rend donc la grève licite — sans pour autant autoriser les organisations permanentes**. » ; `hf4-restauration` : « Cette interdiction ne sera levée qu'**en 1864 pour la grève** et en 1884 pour les syndicats. » |
+| Les deux Nobel de Marie Curie | `hf-femmes-france` : « **la seule personne à avoir reçu deux prix Nobel scientifiques** » | `hf3-personnages-france` : « la première personne à recevoir deux prix Nobel, et **la seule à ce jour à les avoir obtenus dans deux disciplines scientifiques distinctes** » |
+| Les corporations de 1791 | questions de `hf3-societe-ancien-regime` et `hf3-mouvement-ouvrier` : « Supprimées en 1791 par la **loi Le Chapelier** » | `hf3-societe-ancien-regime`, cours : « définitivement abolies en 1791 par le **décret d'Allarde et la loi Le Chapelier** » |
+
+- **Correction proposée** : dans les trois cas, aligner sur la formulation déjà présente. Aucune
+  recherche n'est nécessaire : le domaine contient sa propre correction.
+
+### [MINEUR] Quatre défauts de détail de plus dans le fichier de cours
+
+- **`hf3-catastrophes-france`, section « Les catastrophes industrielles »** — « La catastrophe de
+  Courrières […] fait **plus de mille cent morts** ». Le bilan officiel est de **1 099** victimes :
+  c'est un peu moins de mille cent, pas plus. La question de `hf3-industrialisation-france`
+  écrit prudemment « plus de mille morts ». → « fait près de mille cent morts (1 099) ».
+- **`hf3-industrialisation-france`, section « Les régions industrielles »** — le deuxième
+  paragraphe s'ouvre sur « Le bassin du Nord-Pas-de-Calais **paie ce rythme** au prix fort »,
+  alors que le paragraphe précédent, qui redonne le même nom de bassin, ne parle d'aucun rythme :
+  l'antécédent se trouve dans une **autre section** (« Un rythme propre »). Le raccord d'un
+  paragraphe rapporté n'a pas été refait. → « Ce bassin a payé son essor au prix fort : … ».
+- **`hf3-france-monde`, section « Un réseau et un siège »** — « troisième réseau diplomatique
+  mondial, **derrière les États-Unis et la Chine** », quand l'explication de la question du même
+  chapitre écrit « **Derrière la Chine et les États-Unis** ». Les classements récents placent la
+  Chine première ; harmoniser dans ce sens, ou écrire « derrière la Chine et les États-Unis,
+  dont il est très proche en nombre de postes ».
+- **`hf2-second-empire`, section « Moderniser un pays »** — le cours écrit que le réseau
+  ferroviaire « passe de **trois mille à dix-sept mille** kilomètres », là où la question de
+  `hf4-second-empire` annonce « de quelques milliers à **près de vingt mille** ». Dix-sept mille
+  n'est pas « près de vingt mille ». → aligner la question sur le cours.
+
+*Sur les 53 cours du fichier, le reste résiste à la seconde lecture, et j'ai revérifié tout ce que
+la passe 1 n'avait pas contrôlé : Charlemagne régnant quarante-six ans, le titre impérial disparu
+depuis 476, la Lotharingie, Hugues Capet 987, Philippe Auguste 1180-1223, Louis IX 1226-1270 et
+sa canonisation de 1297, Philippe le Bel 1285-1314, Anagni 1303, Molay 1314, Avignon pour près de
+soixante-dix ans, la trêve de Dieu du mercredi soir au lundi matin, Suger vers 1135, Notre-Dame
+1163-1345, la charte de Venise de 1964, la taille permanente de 1439, les compagnies d'ordonnance,
+Calais perdu en 1558, le Cateau-Cambrésis de 1559, Léonard accueilli en 1516, les guerres d'Italie
+1494-1559, l'édit de Nantes mettant fin à trente-six ans de guerre civile, La Rochelle en
+1627-1628 (quatorze mois), la paix d'Alès de 1629, *La Gazette* de 1631, Fouquet et ses dix-neuf
+ans de forteresse, le règne de soixante-douze ans, le grand hiver de 1709, les Camisards de 1702,
+Valmy le 20 septembre 1792, l'an I au 22 septembre, le 21 janvier 1793, le calendrier républicain
+et ses treize ans, la loi Jourdan de 1798, le 9 thermidor et l'exécution du lendemain, le franc
+germinal stable jusqu'en 1914, la Légion d'honneur de 1802, Trafalgar six semaines avant
+Austerlitz, le rétablissement de l'esclavage en 1802, le corps électoral passant de 250 000 à
+9 millions en 1848, les Trois Glorieuses des 27, 28 et 29 juillet, les canuts de 1831 et 1834,
+Haussmann préfet de 1853 à 1870, Suez en 1869 et le contrôle britannique de 1875, Sedan le
+2 septembre, l'Alsace-Lorraine et ses quarante-sept ans, l'amendement Wallon à une voix, Boulanger
+élu en janvier 1889, Picquart en 1896, Dreyfus gracié en 1899 et réhabilité en 1906, la Marne à
+cinquante kilomètres de Paris, les sept cents kilomètres de tranchées, les soixante millions
+d'obus de Verdun, la Voie sacrée et son camion toutes les quatorze secondes, Clemenceau en
+novembre 1917, l'article 231, les trente-six mille monuments aux morts, l'armistice du 22 juin
+1940, les 1,8 million de prisonniers, le statut des Juifs d'octobre 1940, la reconnaissance de
+1995, Drancy et ses soixante-trois mille déportés, le STO de février 1943, le CNR de mai 1943 et
+son programme de mars 1944, Diên Biên Phu et ses cinquante-sept jours, la reconnaissance légale
+de la guerre d'Algérie en 1999, le collège de quatre-vingt mille élus de 1958, l'article 16
+employé en 1961, l'unique motion de censure adoptée en 1962, la QPC de 2010, la démission de 1969,
+les treize parlements d'Ancien Régime, la paulette, Turgot en 1776, Dupleix, le million trois cent
+mille captifs déportés par la France, le Bardo en 1881 et Fès en 1912, Ferry contre Clemenceau en
+1885, le procédé Thomas de 1878, Citroën passé à Michelin en 1934, le dernier haut fourneau
+lorrain en 2011, la charte d'Amiens de 1906, les retraites ouvrières de 1910, Matignon et ses
+hausses de sept à quinze pour cent, la loi Goblet de 1886, le lycée payant jusqu'en 1930, le
+BCG et ses treize ans de repiquages, la loi Veil provisoire jusqu'en 1979, les huit métropoles
+d'équilibre de 1964, les mille cinq cents quartiers prioritaires, le TNP de Vilar en 1951, le
+Festival d'Avignon quatre ans plus tôt, Aigues-Mortes en 1893, la Nueve, le regroupement familial
+de 1976 confirmé en 1978, le Minitel arrêté en 2012 après trente-deux ans, Maastricht à 51,04 %,
+le non de 2005 à près de 55 %, l'euro en janvier 2002, l'OIF et ses quatre-vingt-huit membres,
+Galois, Lebesgue, Bourbaki, le retrait de l'OTAN en 1966 et le retour en 2009, les SNLE de 1971,
+la ZEE de plus de dix millions de kilomètres carrés, le traité de l'Élysée de 1963, *Le Petit
+Journal* de 1863, l'ORTF démantelé en 1974, TF1 privatisée en 1987, Malpasset et ses cinquante
+millions de mètres cubes, l'Amoco Cadiz et ses quatorze ans de procédure, le préjudice écologique
+inscrit au Code civil en 2016, la journée de solidarité — tout se vérifie.*
+
+## Passe 2 — revérification de mes propres corrections de passe 1
+
+> J'ai repris une à une les cinquante-huit « Correction proposée » de la passe 1 et je les ai
+> vérifiées sur pièces, sans supposer qu'elles étaient justes du seul fait d'avoir été écrites
+> par un relecteur. **Trois sont fautives.** C'est le résultat le plus désagréable de cette
+> seconde passe, et le plus utile : une correction fausse est pire qu'une erreur signalée, parce
+> qu'elle sera appliquée sans discussion.
+
+### [GRAVE] Ma correction sur l'élection de 1974 est fausse : l'écart n'est pas « moins d'un point »
+
+- **Où** : constat de passe 1 « [GRAVE] Phrase absurde sur l'élection de Valéry Giscard
+  d'Estaing » (`histoire-france.ts:275` — `cg-neuf-hf-france-1970-2000`)
+- **Ma correction** : « Élu à quarante-huit ans, il l'emporte de justesse contre François
+  Mitterrand, **avec moins d'un point d'écart**. »
+- **Problème** : au second tour du 19 mai 1974, Giscard d'Estaing obtient **50,81 %** et
+  Mitterrand **49,19 %**. L'écart entre les deux candidats est donc de **1,62 point**, soit
+  environ **425 000 voix** sur près de vingt-six millions de suffrages exprimés. « Moins d'un
+  point » ne correspond à rien : ce n'est ni l'écart entre les deux, ni un chiffre publié.
+  L'erreur vient probablement d'une confusion avec l'avance de Giscard sur la barre des 50 %
+  (0,81 point), qui n'est pas une manière usuelle de dire l'écart d'une élection. La phrase de
+  passe 1 diagnostiquait justement une phrase qui « ne veut rien dire » ; ma correction en
+  introduisait une autre.
+- **Correction rectifiée** : « Élu à quarante-huit ans, il l'emporte de justesse contre François
+  Mitterrand — 50,81 % contre 49,19 %, soit environ 425 000 voix d'écart. »
+
+### [MOYEN] Ma correction sur Jeanne d'Arc à Chinon remplace une date défendable par une date contestée
+
+- **Où** : constat de passe 1 « [MINEUR] Jeanne d'Arc à Chinon : février ou mars ? »
+  (`cours/histoire-france.ts:44` — `hf-jeanne-darc`)
+- **Ma correction** : « **Début mars** 1429, elle rencontre le futur Charles VII à Chinon. »
+- **Problème** : la chronologie que j'ai invoquée (départ de Vaucouleurs vers le 22 février,
+  arrivée à Chinon début mars, entrevue « traditionnellement datée du 6 mars ») est celle de
+  Régine Pernoud ; elle n'est plus celle que retiennent les travaux récents ni le site historique
+  lui-même. La reconstitution aujourd'hui la mieux étayée place le départ de Vaucouleurs vers le
+  **13 février**, l'arrivée à Chinon le **23 février** et la première audience le
+  **25 février 1429** ; la « seconde rencontre », plus solennelle, se tient entre fin mars et
+  début avril. Autrement dit : le texte du cours, « en février 1429 », était **au moins aussi
+  défendable que ma correction, et probablement plus juste**. Corriger une date exacte en une
+  date contestée est le pire cas de figure pour un contenu qu'on apprend par cœur.
+- **Correction rectifiée** : **retirer ce constat**. Laisser « En février 1429 », ou, si l'on
+  veut désamorcer la divergence des sources : « À la fin de l'hiver 1429, elle rencontre le futur
+  Charles VII à Chinon. »
+
+### [MOYEN] Ma correction sur la rivalité Brunehaut-Frédégonde sous-estime autant que le cours surestimait
+
+- **Où** : constat de passe 1 « [MOYEN] Brunehaut “capturée à quatre-vingts ans passés” et une
+  rivalité de quarante ans » (`cours/histoire-france.ts` — `hf4-merovingiens`)
+- **Ma correction** : « Elles s'affrontent **une vingtaine d'années**, jusqu'à la mort de
+  Frédégonde en 597 ; Brunehaut, vaincue à près de soixante-dix ans, est exécutée en 613. »
+- **Problème** : la rivalité s'ouvre avec l'assassinat de Galswinthe, sœur de Brunehaut et épouse
+  de Chilpéric, **vers 568**, et se referme à la mort de Frédégonde en **597** : cela fait
+  **près de trente ans**, pas une vingtaine. Le cours écrivait « quarante ans », ce qui était
+  trop ; j'ai corrigé de l'autre côté, ce qui l'est aussi. La bonne mesure était disponible et je
+  ne l'ai pas prise. Le reste du constat tient : Brunehaut, née vers 547, avait bien environ
+  soixante-six ans en 613, et non « quatre-vingts ans passés ».
+- **Correction rectifiée** : « Elles s'affrontent près de trente ans, de l'assassinat de
+  Galswinthe vers 568 à la mort de Frédégonde en 597 ; Brunehaut, vaincue à environ
+  soixante-six ans, est exécutée en 613. »
+
+### [MINEUR] Une correction juste, mais qui doit porter sa justification : les gouvernements de la IVe République
+
+- **Où** : constat de passe 1 « [MOYEN] Nombre de gouvernements de la IVe République »
+- **Ma correction** : « vingt-deux gouvernements en douze ans » partout.
+- **Vérification** : le chiffre dépend de ce qu'on compte. **Vingt-deux** est le décompte des
+  ministères formés depuis celui de Léon Blum (décembre 1946) jusqu'à celui de Pflimlin
+  (mai 1958) ; on trouve **vingt et un** si l'on part de Ramadier en janvier 1947, et
+  **vingt-quatre** si l'on compte séparément certains remaniements. Le chiffre proposé est donc
+  bon, mais il n'est pas le seul, et l'imposer sans le dire risque de recréer la contradiction
+  ailleurs.
+- **Correction rectifiée** : garder « vingt-deux gouvernements en douze ans », en ajoutant dans
+  l'explication « soit une durée moyenne de six mois » — formule vraie quel que soit le décompte
+  retenu, et qui est de toute façon ce que la question veut faire retenir.
+
+*Les cinquante-quatre autres corrections de la passe 1 résistent à la vérification. J'ai
+notamment recontrôlé : l'écart de cinquante et un ans avec la Nouvelle-Zélande (1893) ; le rang
+de Simone Veil au Panthéon — cinquième femme à y reposer, quatrième pour ses mérites propres,
+derrière Sophie Berthelot (1907, comme épouse), Marie Curie (1995), Germaine Tillion et
+Geneviève de Gaulle-Anthonioz (2015) ; les trois rois croisés pour l'Orient (Louis VII,
+Philippe Auguste, Louis IX), Louis VIII n'ayant mené que la croisade contre les albigeois ;
+les 426 pièces de Chambord ; le grec et l'hébreu d'abord au Collège royal, les mathématiques
+en 1531 et le latin en 1534 ; les vingt-trois ans entre 1958 et 1981 ; Henri IV deuxième roi
+assassiné en vingt et un ans après Henri III ; les quelque quarante mille morts de la Terreur
+dont environ dix-sept mille condamnations capitales exécutées ; les archers anglais **et**
+gallois de Crécy ; les 643 d'Oradour ; les 13 152 arrêtés et 4 115 enfants du Vél d'Hiv ;
+les neuf villes nouvelles (cinq en Île-de-France, quatre en province) ; les soixante-douze ans
+de règne de Louis XIV contre cinquante-quatre de règne personnel ; les trente-trois millions
+d'entrées de l'Exposition coloniale pour quelque huit millions de visiteurs ; la France « l'un
+des derniers » pays d'Europe occidentale à abolir la peine de mort, l'Irlande (1990), la
+Belgique (1996) et le Royaume-Uni (1998) l'ayant fait après elle ; et la correction sur Beauvais
+(« le chœur gothique le plus haut de France, 48,5 mètres sous voûte, sa nef n'ayant jamais été
+construite »), qui est exacte.*

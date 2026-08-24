@@ -27,3 +27,4 @@ publication/
 atelier-*.apk
 ressources/*.png
 .travail/
+.travail-audit/tmp-*
