@@ -12,6 +12,7 @@
  * Le moteur ne fait pas la différence : dans les deux cas, un palier et une
  * échéance.
  */
+import { normalizeForDedupe } from "../../lib/tokenize";
 import { qcm, type QcmPayload } from "../kinds/qcm";
 import type { LearningModule, ModuleFinding } from "../types";
 
@@ -75,6 +76,78 @@ export const cultureGenerale: LearningModule = {
         message: `${sans} question(s) sans explication`,
       });
     }
+
+    /*
+     * Les trois façons de répondre juste sans savoir.
+     *
+     * Un audit de tout le contenu en a trouvé cinq. Deux relevaient du code et
+     * sont réglées : la bonne réponse toujours au même rang, corrigée par
+     * `kinds/melange`, et l'astuce des leçons héritées qui récitait les titres
+     * de leurs sections. Les trois qui suivent sont dans la rédaction, se
+     * comptent, et n'avaient aucun garde-fou.
+     *
+     * Ces contrôles avertissent, ils ne bloquent pas : le contenu existant en
+     * est truffé, et refuser le seed le rendrait injouable du jour au
+     * lendemain. L'avertissement est là pour que le compteur descende, et pour
+     * qu'une question neuve ne l'aggrave pas.
+     */
+    const mots = (t: string) => normalizeForDedupe(t);
+
+    // 1. La bonne réponse est la plus longue. Sur les questions écrites à la
+    //    main, cocher la plus longue donnait 76 % de réussite — le hasard en
+    //    donne 25. On écrit la vraie réponse, complète et précise, puis on
+    //    bâcle trois leurres : c'est le geste qu'il faut désapprendre.
+    const plusLongues = payloads.filter((p) => {
+      const l = p.choices.map((c) => c.length);
+      const max = Math.max(...l);
+      return l[p.answerIndex] === max && l.filter((x) => x === max).length === 1;
+    }).length;
+    if (payloads.length >= 5 && plusLongues / payloads.length > 0.6) {
+      anomalies.push({
+        severity: "warn",
+        code: "reponse-la-plus-longue",
+        message: `la bonne réponse est la plus longue dans ${plusLongues} des ${payloads.length} questions : les leurres ne font pas le poids`,
+      });
+    }
+
+    // 2. L'astuce de la notion donne la réponse d'une de ses questions. Elle
+    //    s'affiche sur la fiche du catalogue, donc avant toute question.
+    const astuce = mots(skill.tip ?? "");
+    const trahies = astuce
+      ? payloads.filter((p) => {
+          const bonne = mots(p.choices[p.answerIndex] ?? "");
+          return bonne.length >= 12 && astuce.includes(bonne);
+        }).length
+      : 0;
+    if (trahies > 0) {
+      anomalies.push({
+        severity: "warn",
+        code: "astuce-qui-repond",
+        message: `l'astuce donne la réponse de ${trahies} question(s) de cette notion`,
+      });
+    }
+
+    // 3. L'explication d'une question donne la réponse d'une AUTRE question de
+    //    la même notion. Les fusions y sont pour beaucoup : elles mettent côte
+    //    à côte des questions écrites séparément.
+    let croisees = 0;
+    payloads.forEach((p, i) => {
+      const explication = mots(p.explanation ?? "");
+      if (!explication) return;
+      payloads.forEach((autre, j) => {
+        if (i === j) return;
+        const bonne = mots(autre.choices[autre.answerIndex] ?? "");
+        if (bonne.length >= 12 && explication.includes(bonne)) croisees++;
+      });
+    });
+    if (croisees > 0) {
+      anomalies.push({
+        severity: "warn",
+        code: "explication-qui-repond-ailleurs",
+        message: `${croisees} explication(s) donnent la réponse d'une autre question de la même notion`,
+      });
+    }
+
     return anomalies;
   },
 };

@@ -216,9 +216,22 @@ function leconEnSkill(
     category: sujet.name,
     title: source.titre,
     statement: accroche(sections[0]?.texte ?? source.titre),
-    tip: sections.length
-      ? `Cette leçon couvre : ${sections.map((s) => s.titre).join(" · ")}`
-      : "Lis le cours, puis teste-toi dessus.",
+    /*
+     * L'astuce ne dit PLUS ce que la leçon couvre.
+     *
+     * Elle collait les titres de sections — « Yggdrasil », « Odin », « La
+     * Semaine sanglante (21-28 mai 1871) » —, c'est-à-dire les réponses que le
+     * quiz de la même leçon allait demander. Et elle se lit sur la fiche du
+     * catalogue, avant même d'ouvrir une question. Sur 280 leçons, 34 livraient
+     * ainsi une réponse au mot près, bien davantage en la nommant autrement.
+     *
+     * Le sommaire n'est pas perdu pour autant : le lecteur de cours l'affiche
+     * dans son rail, une fois la leçon ouverte — c'est-à-dire au moment où il
+     * aide au lieu de trahir.
+     */
+    tip: `Le cours répond à toutes les questions qui suivent : ${
+      sections.length > 1 ? `ses ${sections.length} parties se lisent d'affilée` : "lis-le d'abord"
+    }.`,
     difficulty: niveauMoyen(quiz),
     exercises: quiz.map((q) => exercice(q, batch)),
     lesson,
