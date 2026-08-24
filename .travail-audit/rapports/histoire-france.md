@@ -1322,3 +1322,66 @@ y compris les chiffres que j'ai revérifiés un à un (28 volumes et plus de 60 
 l'Encyclopédie, 3 070 m pour le piton des Neiges, 51,04 % pour Maastricht, La Rochelle assiégée
 quatorze mois, Notre-Dame commencée en 1163, les Invalides fondés en 1670, l'Arc de triomphe
 1806-1836, le Louvre musée en 1793, le Mont-Saint-Michel prison jusqu'en 1863).*
+
+## Passe 2 — relecture de `prisma/seed/culture-g/histoire-france-2.ts` (20 notions, 190 questions)
+
+### [GRAVE] Une neuvième astuce qui donne la réponse — celle de la zone économique exclusive
+
+- **Où** : `prisma/seed/culture-g/histoire-france-2.ts:466` et `:480` —
+  `cg-neuf-hf2-france-outre-mer`
+- **Texte** : astuce — « Grâce à ses outre-mer, la France dispose de la **deuxième** zone
+  économique exclusive du monde. » ; question — « Quel rang la France occupe-t-elle pour la
+  taille de sa **zone économique exclusive** ? » → « **Le deuxième** mondial ».
+- **Problème** : à ajouter au tableau des huit astuces relevées plus haut ; celle-ci est la plus
+  franche de toutes, puisque l'astuce et la question portent sur exactement la même grandeur et
+  que le mot de la réponse y figure tel quel. Elle avait échappé à mon relevé automatique parce
+  que la réponse est courte (« Le deuxième mondial »).
+- **Correction proposée** : « Les outre-mer représentent moins de 1 % de la population française
+  mais l'essentiel de son espace maritime : c'est là que se joue le rang de la France sur les
+  océans. »
+
+### [MOYEN] *Les Misérables* (1862) dans un chapitre qui s'arrête en 1848
+
+- **Où** : `prisma/seed/culture-g/histoire-france-2.ts:302` —
+  `cg-neuf-hf2-restauration-monarchie-juillet`, versée dans la leçon héritée
+  `cg-histoire-france-08` « La Restauration et la monarchie de Juillet (1814-1848) »
+- **Texte** : « Quel écrivain publie **Les Misérables en 1862** après un long exil ? » →
+  « Victor Hugo » ; explication : « Opposant à **Napoléon III**, il vécut près de vingt ans hors
+  de France. »
+- **Problème** : la question et son explication sont exactes, mais elles portent sur le Second
+  Empire et n'ont rien à faire dans un chapitre dont le titre, la description (« 1815-1848 :
+  deux monarchies constitutionnelles ») et la leçon d'accueil s'arrêtent en février 1848.
+  L'apprenant qui révise la monarchie de Juillet se voit interroger sur 1862 et sur un régime
+  qu'il n'a pas encore étudié — et la réponse ne se trouve nulle part dans le chapitre.
+- **Correction proposée** : déplacer la question dans `hf2-second-empire`, où elle est chez elle,
+  ou la remplacer par une question sur la production littéraire de la période effectivement
+  couverte (Balzac et *La Comédie humaine*, Stendhal, *Notre-Dame de Paris* en 1831).
+
+### [MINEUR] La description de `hf2-capetiens` ne couvre pas ses propres questions
+
+- **Où** : `prisma/seed/culture-g/histoire-france-2.ts:61` — `cg-neuf-hf2-capetiens`
+- **Texte** : « **De Hugues Capet à Philippe Auguste** : la lente construction du domaine royal. »
+- **Problème** : trois des neuf questions portent sur Louis IX (canonisation de 1297), sur
+  Philippe le Bel et Boniface VIII, et sur la suppression de l'ordre du Temple en 1312 — soit
+  près d'un siècle après Philippe Auguste, mort en 1223. La description annonce donc moins que
+  ce que le chapitre demande.
+- **Correction proposée** : « De Hugues Capet à Philippe le Bel : la lente construction du
+  domaine royal et de l'État. »
+
+### [MINEUR] Clemenceau donné pour « directeur du journal L'Aurore »
+
+- **Où** : `prisma/seed/culture-g/histoire-france-2.ts:351` — `cg-neuf-hf2-troisieme-republique`
+- **Texte** : « Le titre est de Clemenceau, alors **directeur** du journal L'Aurore. »
+- **Problème** : le journal était dirigé par Ernest Vaughan, qui l'avait fondé en 1897 ;
+  Clemenceau y tenait la direction **politique** et l'éditorial. La leçon héritée l'écrit
+  correctement (`lecons/histoire-france/11.json` : « L'Aurore, dirigé par Ernest Vaughan avec
+  Georges Clemenceau parmi ses plumes »). Le raccourci du seed efface un nom et fausse une
+  responsabilité.
+- **Correction proposée** : « Le titre est de Clemenceau, alors directeur politique de L'Aurore,
+  journal fondé par Ernest Vaughan. »
+
+*Le reste du fichier tient à la seconde lecture : Drancy et ses soixante-trois mille déportés,
+les taxis de la Marne présentés sans légende, le CNR rue du Four en mai 1943, les quatre-vingt-trois
+départements de 1790, les dix-sept articles de la Déclaration, les sept prisonniers de la Bastille,
+Clemenceau à soixante-seize ans, le calendrier républicain abandonné en 1806, le monopole
+d'émission de la Banque de France en 1803 — tout se vérifie.*

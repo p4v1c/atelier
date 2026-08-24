@@ -1,7 +1,7 @@
 # Géographie
 
 > ÉTAT : passe 1 TERMINÉE (17 leçons, 3 lots du seed, le cours, fusions.ts, geographie.json).
-> Passe 2 : `geographie.ts` relu. Reste à relire : `geographie-2.ts`, `geographie-3.ts`, `cours/geographie.ts`, `geographie.json`.
+> Passe 2 : `geographie.ts` et `geographie-2.ts` relus. Reste à relire : `geographie-3.ts`, `cours/geographie.ts`, `geographie.json`.
 
 ## Ce que j'ai lu
 
@@ -1676,6 +1676,141 @@ du lot 1, qui n'avait pas été passé au crible sous cet angle, montre qu'il es
 - **Correction proposée** : remplacer par « L'océan Pacifique ».
 
 
+### [GRAVE] Le `tip` de `geo2-montagnes-monde` affirme le contraire de ce que la leçon 10 enseigne (passe 2)
+
+- **Où** : `prisma/seed/culture-g/geographie-2.ts:84` — `geo2-montagnes-monde`, contre
+  `heritage/culture-g/data/lecons/geographie/10.json` et contre la sixième question de la
+  notion elle-même
+- **Texte** : `tip` — « Les plus hautes chaînes sont **toutes** le résultat de
+  **collisions** de plaques encore actives. »
+- **Problème** : c'est faux, et la notion se dément trois lignes plus bas. Sa question 6
+  donne les Andes comme « la plus longue chaîne continentale du monde » — or les Andes ne
+  résultent pas d'une collision mais d'une **subduction**, ce dont la leçon 10 fait
+  précisément une question de quiz (« Quel mécanisme tectonique explique la formation de
+  la cordillère des Andes ? » → « La subduction des plaques de Nazca et antarctique sous
+  la plaque sud-américaine ») et le cœur de son propos, en opposant explicitement les deux
+  mécanismes. Les Rocheuses relèvent également d'une subduction. Le mot « toutes » rend
+  l'énoncé indéfendable, et l'apprenant lit l'affirmation **avant** le quiz, en position
+  de règle à retenir.
+- **Correction proposée** : « Les grandes chaînes naissent de deux mécanismes distincts :
+  la collision de deux continents, comme l'Himalaya, ou la subduction d'une plaque
+  océanique, comme les Andes. »
+
+### [MOYEN] « Un cinquième de l'eau douce mondiale » : le `tip` perd la qualification que son explication conserve (passe 2)
+
+- **Où** : `prisma/seed/culture-g/geographie-2.ts:62` — `geo2-fleuves-monde`, contre
+  l'explication de sa propre première question
+- **Textes** : `tip` — « l'Amazone charrie à elle seule **un cinquième de l'eau douce
+  mondiale** » ; explication de Q1 — « Environ deux cent mille mètres cubes par seconde à
+  l'embouchure, soit un cinquième de **l'eau douce rejoignant les océans**. »
+- **Problème** : la proportion vaut pour le **débit** fluvial mondial vers les océans, pas
+  pour le stock d'eau douce de la planète, dont l'essentiel est immobilisé dans les glaces
+  et les nappes — la leçon 13 l'établit chiffre en main (69 % de glaces, 30 % de nappes,
+  1 % en surface, dont 2 % seulement en rivières). Le `tip`, lu en premier, enseigne donc
+  une énormité que l'explication corrigera trop tard. C'est exactement le défaut déjà
+  relevé sur le lac Baïkal (« eau douce de surface » au lieu de « de surface non gelée »).
+- **Correction proposée** : « l'Amazone charrie à elle seule un cinquième de l'eau douce
+  que les fleuves du monde déversent dans les océans ».
+
+### [GRAVE] Trois `tip` de plus donnent la réponse littérale de leur première question (passe 2)
+
+En complément du constat sur le lot 1 et de celui de la passe 1, la relecture du lot 2
+ajoute trois notions au décompte. Le total atteint **quatorze notions sur cinquante-trois**.
+
+- **Où** : `prisma/seed/culture-g/geographie-2.ts`
+- **Paires** :
+  - `geo2-risques-naturels` (l. 44) — `tip` « Un **risque** est le **croisement d'un aléa
+    et d'une population exposée** : sans enjeu, pas de risque. » ; Q1 « Qu'est-ce qu'un
+    risque naturel ? » → « **Le croisement d'un aléa et d'enjeux exposés** ». Le tip
+    contient jusqu'à l'exemple de l'explication.
+  - `geo2-oceanie-poles` (l. 200) — `tip` « **L'Arctique est un océan** entouré de
+    continents, **l'Antarctique un continent** entouré d'océans. » ; Q1 « Quelle
+    différence fondamentale sépare l'Arctique de l'Antarctique ? » → « **L'Arctique est un
+    océan gelé, l'Antarctique un continent** ».
+  - `geo2-agriculture-monde` (l. 186) — `tip` « La faim dans le monde ne résulte pas d'un
+    manque global de production mais de **l'accès** aux ressources. » ; Q7 « Qu'est-ce que
+    la sécurité alimentaire selon la FAO ? » → « **L'accès** physique et économique de
+    tous à une nourriture suffisante et saine » : le mot-clé discriminant est donné.
+- **Correction proposée** : la même règle mécanique que plus haut — aucun mot de la bonne
+  réponse ne doit figurer dans le `tip` de sa notion. Le contrôle est automatisable et
+  devrait être ajouté au validateur de `commun.ts`, qui ne regarde aujourd'hui que les
+  énoncés.
+
+### [MOYEN] Le détroit de Corée : deux cents kilomètres donnés pour la largeur « au plus étroit » (passe 2)
+
+- **Où** : `prisma/seed/culture-g/geographie-2.ts:132` — `geo2-asie-geographie`
+- **Texte** : « Quel détroit sépare la Corée du Japon ? » → « Le détroit de Corée » ;
+  explication — « Environ **deux cents kilomètres au plus étroit**, avec l'île de Tsushima
+  au milieu. »
+- **Problème** : deux cents kilomètres est la largeur **totale** du détroit, d'une rive à
+  l'autre. Comme l'explication le dit elle-même, Tsushima le partage en deux passes : la
+  passe occidentale, entre la Corée et Tsushima, mesure une cinquantaine de kilomètres, la
+  passe orientale une soixantaine. « Au plus étroit » est donc contredit par la phrase qui
+  le suit. La notion est par ailleurs précise ailleurs (quatorze kilomètres pour
+  Gibraltar, moins de trois pour Malacca), ce qui rend l'écart d'autant plus visible.
+- **Correction proposée** : « Environ deux cents kilomètres de large, partagés par l'île
+  de Tsushima en deux passes d'une cinquantaine et d'une soixantaine de kilomètres. »
+
+### [MOYEN] Les Aborigènes d'Australie : soixante-cinq mille ans dans le seed, cinquante mille dans la leçon 08 (passe 2)
+
+- **Où** : `prisma/seed/culture-g/geographie-2.ts:220` — `geo2-oceanie-poles`, contre
+  `heritage/culture-g/data/lecons/geographie/08.json`
+- **Textes** : seed — « Quel peuple autochtone habite l'Australie depuis **au moins
+  soixante-cinq mille ans** ? » ; leçon 08 — « Les Aborigènes […] y vivent depuis
+  **environ 50 000 ans** », et, dans la section sur l'Océanie, « des chasseurs-cueilleurs
+  sont arrivés il y a **45 000 à 50 000 ans** ».
+- **Problème** : les deux chiffres correspondent à deux états de la recherche — 65 000 ans
+  est la datation du site de Madjedbebe publiée en 2017, 50 000 ans la fourchette
+  antérieure encore largement citée. Aucun des deux textes ne le dit, et le seed en fait
+  un élément de l'énoncé, donc un fait à mémoriser. L'apprenant qui suit les deux
+  chapitres tient deux durées qui diffèrent de trente pour cent.
+- **Correction proposée** : retenir « au moins 50 000 ans, et jusqu'à 65 000 selon les
+  datations du site de Madjedbebe » aux deux endroits, ou poser l'énoncé sans chiffre.
+
+### [MOYEN] `geo2-oceanie-poles` rejoue la question de quiz de la leçon 08 (passe 2)
+
+- **Où** : `prisma/seed/culture-g/geographie-2.ts:202` contre
+  `heritage/culture-g/data/lecons/geographie/08.json` — cinquième question du quiz
+- **Textes** : seed — « Quelle différence fondamentale sépare l'Arctique de
+  l'Antarctique ? » → « L'Arctique est un océan gelé, l'Antarctique un continent » ;
+  leçon 08 — « Quelle est la différence fondamentale entre l'Arctique et l'Antarctique ? »
+  → « L'Arctique est un océan gelé entouré de terres, l'Antarctique un continent entouré
+  d'océans ». Les deux explications développent le même argument, jusqu'à la même remarque
+  sur l'altitude et l'isolement qui rendent l'Antarctique plus froid.
+- **Problème** : c'est le même énoncé à trois mots près — le validateur ne le voit pas, et
+  aucune fusion ne relie `geo2-oceanie-poles` à `cg-geographie-08`. S'y ajoutent, entre ces
+  deux mêmes ensembles, les 90 pour cent des glaces, la Grande Barrière de corail, l'atoll
+  de Darwin, la répartition Mélanésie/Micronésie/Polynésie et la vulnérabilité de Tuvalu :
+  la notion du seed est un condensé de la leçon.
+- **Correction proposée** : verser `geo2-oceanie-poles` dans `cg-geographie-08` et n'en
+  garder que le passage du Nord-Ouest, absent de la leçon.
+
+### [MINEUR] « Quel détroit sépare l'Asie de l'Indonésie ? » (passe 2)
+
+- **Où** : `prisma/seed/culture-g/geographie-2.ts:244` — `geo2-transports-mondialisation`
+- **Texte** : « Quel détroit **sépare l'Asie de l'Indonésie** et concentre un trafic
+  considérable ? » → « Le détroit de Malacca »
+- **Problème** : l'Indonésie est en Asie ; on ne peut pas l'en séparer. Le détroit sépare
+  la péninsule malaise de l'île de Sumatra. L'énoncé est d'autant plus malvenu que le
+  domaine enseigne par ailleurs (`geo2-asie-geographie`) que l'Indonésie est le plus grand
+  État archipel d'Asie.
+- **Correction proposée** : « Quel détroit sépare la péninsule malaise de Sumatra et
+  concentre un trafic considérable ? »
+
+### [MINEUR] « Quelle mer est la plus salée ? » — réponse : une qui n'est pas une mer (passe 2)
+
+- **Où** : `prisma/seed/culture-g/geographie-2.ts:122` — `geo2-oceans-mers`
+- **Texte** : « Quelle **mer** est la plus salée du monde parmi ces étendues ? » → « La mer
+  Morte » ; explication — « Environ dix fois la salinité de l'océan. **C'est un lac
+  endoréique, non une mer au sens strict.** »
+- **Problème** : l'explication retire à la bonne réponse la qualité que l'énoncé exige, et
+  un des distracteurs (la mer Caspienne) est un lac lui aussi. La formule « parmi ces
+  étendues » montre que l'auteur a vu la difficulté sans la résoudre.
+- **Correction proposée** : « Quelle étendue d'eau est la plus salée du monde ? », et
+  déplacer la remarque sur le statut de lac dans le corps de l'explication comme
+  information et non comme rectification.
+
+
 ## Ce que la seconde passe a ajouté
 
 - Le défaut du `tip` qui donne la réponse est **systématique** et non ponctuel : six notions du lot 1 s'y ajoutent aux cinq déjà relevées dans les lots 2 et 3, plus un cas créé par la fusion (`geo-fleuves-monde` → `cg-geographie-09`).
@@ -1684,6 +1819,13 @@ du lot 1, qui n'avait pas été passé au crible sous cet angle, montre qu'il es
 - « Quelle ville européenne compte le plus d'habitants intra-muros ? » : Istanbul manque aux propositions, deux questions après que la notion l'a déclarée européenne.
 - « Médine seule » : deuxième distracteur du domaine qui n'est faux que par un adverbe.
 - « L'Atlantique nord » proposé parmi les océans.
+- Le `tip` de `geo2-montagnes-monde` est **faux** : il donne toutes les hautes chaînes pour des chaînes de collision, alors que les Andes — qu'il nomme deux questions plus loin — sont une chaîne de subduction, et que la leçon 10 en fait sa question centrale.
+- Le `tip` de `geo2-fleuves-monde` donne « un cinquième de l'eau douce mondiale » là où son explication écrit correctement « de l'eau douce rejoignant les océans ».
+- Trois `tip` de plus donnent la réponse littérale (`geo2-risques-naturels`, `geo2-oceanie-poles`, `geo2-agriculture-monde`) : quatorze notions sur cinquante-trois au total.
+- Le détroit de Corée : « deux cents kilomètres au plus étroit » alors que c'est sa largeur totale.
+- Les Aborigènes : 65 000 ans dans le seed, 50 000 dans la leçon 08.
+- `geo2-oceanie-poles` Q1 est le jumeau mot pour mot de la question 5 du quiz de la leçon 08.
+- « Quel détroit sépare l'Asie de l'Indonésie ? » : l'Indonésie est en Asie.
 
 ## Ce qui est sain
 
