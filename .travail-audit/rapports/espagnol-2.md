@@ -1,6 +1,6 @@
 # Espagnol — la moitié avancée
 
-> ÉTAT : passe 1 en cours. Lus : `dictees.ts`, `avance.ts`, `registres.ts`, `cours-usage.ts`, `avance-b2.ts`, `gramatica-c1.ts`, `vocabulaire-c1.ts`, `vocabulaire-ideas.ts`, `vocabulaire-oficios.ts`, `vocabulario-sociedad.ts`, `avanzado-c2.ts`, `modismos-caracter.ts`, `perifrasis-colocaciones.ts`, `formacion-palabras.ts`, `precision.ts`. Reste : `sensaciones.ts`, `oral-interaccion.ts`, `dominios-3.ts` — puis la passe 2 sur tout.
+> ÉTAT : **passe 1 terminée**, passe 2 en cours. Lus : `dictees.ts`, `avance.ts`, `registres.ts`, `cours-usage.ts`, `avance-b2.ts`, `gramatica-c1.ts`, `vocabulaire-c1.ts`, `vocabulaire-ideas.ts`, `vocabulaire-oficios.ts`, `vocabulario-sociedad.ts`, `avanzado-c2.ts`, `modismos-caracter.ts`, `perifrasis-colocaciones.ts`, `formacion-palabras.ts`, `precision.ts`, `sensaciones.ts`, `oral-interaccion.ts`, `dominios-3.ts` — les 18 fichiers du périmètre. Passe 2 : relecture depuis le début, constats ajoutés en fin de rapport.
 
 ## Ce que j'ai lu
 
@@ -657,13 +657,335 @@ avec leurs cours (une vingtaine de cours, ~60 sections).
 - **Où** : `perifrasis-colocaciones.ts:es-sinonimos-decir` « Se nota la diferencia. » et `precision.ts:es-adverbios-matiz` « Apenas se nota. » — dans la première, la carte est en plus hors sujet (voir plus haut).
 
 ---
+## Constats (suite — `sensaciones.ts`)
+
+### [GRAVE] Une série sur les suffixes de couleur dont l'énoncé et l'astuce nomment les mauvais suffixes
+- **Où** : `sensaciones.ts:17-19` — `es-voc-colores-materias`
+- **Texte** : statement « Azul marino, verdoso, curtido, desgastado. L'espagnol fabrique ses nuances avec **-oso et -uzco**, et nomme les autres par des objets. » ; tip « Le suffixe **-oso** dit « tirant sur » : **verdoso, rojizo, azulado**. Chaque couleur a son suffixe favori, et ils ne s'échangent pas. »
+- **Problème** : trois défauts qui se cumulent. (1) *-uzco* (blancuzco, negruzco) n'apparaît **dans aucune des dix cartes** : le suffixe annoncé n'est jamais enseigné. (2) L'astuce donne trois exemples du suffixe *-oso* dont **deux n'en sont pas** : *rojizo* est en *-izo*, *azulado* en *-ado*. (3) La phrase « ils ne s'échangent pas » est juste, mais elle est illustrée par des mots qu'on vient précisément d'échanger. La carte 2 de la même série dit d'ailleurs la chose correctement : « Grisáceo, rojizo, verdoso, azulado : chaque couleur a son suffixe d'approximation » — quatre suffixes différents, correctement nommés « suffixes » au pluriel. L'astuce, qui est ce que l'apprenant relit avant l'exercice, contredit la carte.
+- **Correction proposée** : statement « …L'espagnol fabrique ses nuances avec toute une famille de suffixes — *-oso*, *-izo*, *-áceo*, *-ado* — et nomme les autres par des objets. » ; tip « Chaque couleur a son suffixe d'approximation, et ils ne s'échangent pas : verd**oso**, roj**izo**, gris**áceo**, azul**ado**. On ne dit ni “verdizo” ni “rojoso”. »
+
+### [MOYEN] « Le préfixe -ecer », alors que le module dit correctement « le préfixe en- » ailleurs
+- **Où** : `sensaciones.ts:68` — `es-voc-colores-materias`, carte « La madera se ha oscurecido con el tiempo. »
+- **Texte** : note « Oscurecerse, foncer. Le **préfixe** -ecer fabrique des verbes de changement d'état. »
+- **Problème** : *-ecer* est un **suffixe**. Le fichier emploie pourtant le mot « préfixe » correctement deux fois ailleurs (`:174` « le préfixe re- dit ce qui revient », `:294` « le préfixe des- »), et `avanzado-c2.ts:582` écrit, pour le même type de verbe, « Le **préfixe en-** fabrique des verbes de changement d'état » — qui est juste. La formation productive est d'ailleurs le couple en-…-ecer (ennegrecer, enrojecer, envejecer), c'est-à-dire un préfixe **et** un suffixe. Un apprenant qui note « -ecer = préfixe » retiendra une fausse notion de morphologie dans un module qui consacre un fichier entier (`formacion-palabras.ts`) à la dérivation.
+- **Correction proposée** : « Oscurecerse, foncer. Le suffixe -ecer fabrique des verbes de changement d'état, souvent avec le préfixe en- : ennegrecer, envejecer. »
+
+### [GRAVE] Doublon franc : « La sala enmudeció », la même carte en B2 et en C2, avec la même glose
+- **Où** : `sensaciones.ts:247` — `es-voc-sonidos` (B2) et `avanzado-c2.ts:579` — `es-c2-literario` (C2)
+- **Texte** : B2 « La sala enmudeció de golpe. » / « La salle s'est tue d'un coup. » (note : « **Enmudecer, devenir muet.** De golpe, d'un coup. ») ; C2 « La sala enmudeció. » / « La pièce se tut. » (note : « **Enmudecer, devenir muet.** Le préfixe en- fabrique des verbes de changement d'état. »)
+- **Problème** : même sujet, même verbe, même glose recopiée mot pour mot, à deux niveaux séparés par deux paliers. Et les deux traductions françaises divergent sans raison (« la salle » / « la pièce ») : en production, l'apprenant qui a appris la carte C2 et voit « La salle s'est tue d'un coup » ne sait pas s'il doit ajouter *de golpe*. C'est le cas de figure des « séries entières présentes deux fois à deux niveaux » relevé côté anglais, ici sur une carte isolée.
+- **Correction proposée** : garder la carte C2 (*es-c2-literario*, où le registre narratif est le sujet) et remplacer la carte B2 par un vrai item de bruit absent de la série : « Se hizo un silencio incómodo. » (note : « Hacerse un silencio, un silence tombe. »)
+
+### [MOYEN] Doublon à l'intérieur d'une même série : *pegajoso* deux fois sur dix cartes, et la note l'admet
+- **Où** : `sensaciones.ts:352-356` et `:392-396` — `es-voc-texturas`
+- **Texte** : carte 1 « Tengo las manos pegajosas. » / « J'ai les mains collantes. » (note : « Pegajoso, formé sur pegar, coller. Le suffixe -oso est très productif. ») ; carte 9 « La pintura todavía está pegajosa. » / « La peinture est encore poisseuse. » (note : « **Le même adjectif qu'à la première carte, dans un autre contexte.** »)
+- **Problème** : deux des dix cartes d'une série de vocabulaire portent sur le même mot, et la note de la seconde n'enseigne rien — elle se borne à constater le doublon. Une série de dix cartes qui en gaspille une est une série de neuf. Pire pour la production : le même espagnol y a deux français (« collantes », « poisseuse »), et aucune des deux cartes n'accepte l'autre. La série laisse par ailleurs de côté des textures usuelles (*rugoso*, *blando*, *viscoso*, *mullido*) qui auraient rempli la place.
+- **Correction proposée** : remplacer la carte 9 par « La superficie es rugosa al tacto. » (note : « Rugoso s'oppose à liso ; áspero insiste sur ce qui râpe. »)
+
+### [MOYEN] « Retumbar » : la carte traduit « trembler », sa propre note dit « résonner »
+- **Où** : `sensaciones.ts:226-230` — `es-voc-sonidos`
+- **Texte** : etranger « Las ventanas retumbaban con el viento. » / francais « Les fenêtres **tremblaient** dans le vent. » / note « **Retumbar, résonner sourdement.** Le verbe suppose du volume. »
+- **Problème** : la carte et sa note ne disent pas la même chose. *Retumbar* est un verbe de son (gronder, retentir sourdement — DLE : « resonar mucho o hacer gran ruido »), pas de mouvement ; des fenêtres qui tremblent, c'est *temblar* ou *vibrar*. La phrase espagnole elle-même est douteuse : ce sont les vitres qui *vibran* et l'orage qui *retumba*. En exercice de production, « Les fenêtres tremblaient dans le vent » appellera *Las ventanas temblaban*, qui sera compté faux ; en reconnaissance, l'apprenant apprend que *retumbar* veut dire trembler.
+- **Correction proposée** : etranger « El trueno retumbaba a lo lejos. » / francais « Le tonnerre grondait au loin. » / note inchangée. Ou, si l'on tient aux fenêtres : francais « Les fenêtres vibraient dans le vent. » avec la note « Retumbar, résonner sourdement — le bruit, pas le mouvement. »
+
+### [MOYEN] « No es del todo lo bastante grande » : une phrase que personne ne dit
+- **Où** : `sensaciones.ts:120-124` — `es-voc-formas-medidas`
+- **Texte** : etranger « No es del todo lo bastante grande. » / francais « Ce n'est pas tout à fait assez grand. » / note « Lo bastante + adjectif, assez. No del todo, pas tout à fait. »
+- **Problème** : la carte empile deux atténuations qui ne se cumulent pas. *Lo bastante grande* est un seuil : on est au-dessus ou en dessous ; « pas tout à fait au-dessus d'un seuil » ne veut rien dire de plus que « en dessous ». Aucun hispanophone ne construit *no es del todo lo bastante* : on dit *no es lo bastante grande*, ou *se queda un poco corto*, ou *no es del todo grande*. La carte a visiblement été fabriquée pour caser les deux tournures de la note dans une seule phrase, au prix de l'idiomatisme — et c'est justement la phrase que l'apprenant apprendra par cœur.
+- **Correction proposée** : deux cartes. « No es lo bastante grande. » / « Ce n'est pas assez grand. » (note : « Lo bastante + adjectif, assez. ») et « No estoy del todo convencido. » / « Je ne suis pas tout à fait convaincu. » (note : « No del todo, pas tout à fait — sur un adjectif graduable. »)
+
+### [MOYEN] « La masa está demasiado desmenuzable » : un adjectif de dictionnaire, pas de cuisine
+- **Où** : `sensaciones.ts:377-381` — `es-voc-texturas`
+- **Texte** : etranger « La masa está demasiado desmenuzable. » / francais « La pâte est trop friable. » / note « Desmenuzable, friable. Le verbe desmenuzar veut dire émietter. »
+- **Problème** : *desmenuzable* existe mais ne s'emploie pratiquement pas ; en cuisine on dit *la masa se desmiga*, *se desmorona*, ou *está muy quebradiza*. Le statement de la série promet pourtant « le vocabulaire qu'on emploie le plus dans une cuisine et un atelier » : c'est exactement le contraire qui est enseigné ici. La série contient de plus déjà *quebradizo* (carte 4, « Los huesos se vuelven quebradizos »), qui est le mot réel pour « friable » — deux cartes pour une notion, dont une avec le mot que personne n'emploie.
+- **Correction proposée** : etranger « La masa se desmigaja demasiado. » / francais « La pâte s'émiette trop. » / note « Desmigajarse ou desmoronarse pour une pâte ; quebradizo pour ce qui casse net. »
+
+### [MOYEN] Le *se* involontaire traduit par un ordre volontaire — deuxième occurrence
+- **Où** : `sensaciones.ts:517-521` — `es-verbos-manipulacion`
+- **Texte** : etranger « No se te caiga. » / francais « **Ne le fais pas tomber.** » / note « Caérsele algo a alguien : la construction dit que c'est **involontaire**. »
+- **Problème** : même défaut que « Se me rompió el enchufe » / « J'ai cassé la prise » (constat plus haut, `vocabulaire-oficios.ts`), et cette fois la note se contredit dans la même carte : elle explique que la construction dit l'involontaire, et la traduction française donne un ordre volontaire (« ne le fais pas tomber » = *no lo tires*, *no lo dejes caer*). Le français proposé appellera en production *No lo dejes caer*, qui est juste et sera compté faux. Deux occurrences du même piège sur un point de grammaire central de l'espagnol : ce n'est plus un accident.
+- **Correction proposée** : francais « Attention, ne le laisse pas tomber. » avec `aussi: ["Fais attention à ne pas le laisser tomber."]` et `aussiEtranger: ["No lo dejes caer."]` — ou, mieux, francais « Ne va pas le laisser tomber. » (note : « Caérsele algo a alguien dit la maladresse ; no lo tires dirait le geste voulu. »)
+
+### [MOYEN] `aussiEtranger` : zéro sur les 80 cartes du fichier, et six notes qui nomment elles-mêmes la variante refusée
+- **Où** : `sensaciones.ts`, tout le fichier — 8 séries, 80 cartes, **0 `aussiEtranger`**, 2 `aussi`
+- **Problème** : le fichier confirme le chiffre global du constat précédent (1 sur 1120) et fournit six cas où la note **nomme** la bonne réponse alternative sans l'accepter :
+  - `:418-420` « Nous nous sommes promenés au bord de la rivière. » → `Paseamos junto al río` seul ; la note dit « **Dar un paseo se dit de même** ». *Dimos un paseo junto al río* sera compté faux.
+  - `:482-485` « Il a attrapé son manteau et il est parti. » → `Agarró el abrigo` seul ; la note dit « **Coger se dit en Espagne** ». *Cogió el abrigo* — que le module enseigne partout ailleurs comme le verbe normal d'Espagne — sera compté faux.
+  - `:301-304` « Peux-tu baisser les lumières ? » → `¿Puedes bajar las luces?` ; la note dit « **Atenuar est le terme technique** ».
+  - `:130-133` « L'écart fait quelques centimètres. » → `un par de centímetros` seul ; *unos centímetros* est la traduction directe de « quelques » et sera refusée — la note dit elle-même que *un par de* vaut « deux ou trois ».
+  - `:100-103` et `:105-108` « à peu près » → `más o menos` seul, alors que *aproximadamente* et *poco más o menos* sont les équivalents évidents ; le tip de la série ne les mentionne pas.
+  - `:166-169` « Le pain est rassis. » → `El pan está duro` ; *el pan está reseco* est au moins aussi courant.
+- **Correction proposée** : appliquer ici la règle (2) déjà proposée — toute note qui contient « se dit de même », « se dit en Espagne », « est le terme technique » remonte la variante nommée dans `aussiEtranger`.
+
+### [MINEUR] Trois cartes dont le français ne traduit pas le verbe que la note enseigne
+- **Où** : `sensaciones.ts:231-234`, `:286-289`, `:331-335`
+- **Texte** : « La nevera zumba toda la noche. » / « Le réfrigérateur **ronronne** toute la nuit. » (note : « **Zumbar, bourdonner.** ») ; « Las brasas brillaban en la oscuridad. » / « Les braises **rougeoyaient** dans le noir. » (note : « **Brillar, luire.** ») ; « Habían salido las estrellas. » / « **Les étoiles étaient sorties.** »
+- **Problème** : dans les deux premières, la traduction française choisit un verbe imagé (*ronronner*, *rougeoyer*) que la note ne donne pas, et la note donne un verbe (*bourdonner*, *luire*) que la traduction n'emploie pas ; l'apprenant qui produit depuis le français cherchera *ronronear* et *rojear*. La troisième est un calque : « les étoiles étaient sorties » ne se dit pas en français — le `aussi` (« Le ciel était étoilé ») porte la seule formulation naturelle, mais c'est la principale qui sert de consigne.
+- **Correction proposée** : « Le réfrigérateur bourdonne toute la nuit. » ; « Les braises luisaient dans le noir. » ; principale et variante à permuter sur la carte des étoiles.
+
+### [MINEUR] « Penosamente, l'adverbe est formé sur pena »
+- **Où** : `sensaciones.ts:428-430` — `es-verbos-movimiento-2`
+- **Problème** : les adverbes en *-mente* se forment sur le **féminin de l'adjectif**, jamais sur le nom : *pena* → *penoso* → *penosa* → *penosamente*. Dit ainsi, le procédé laisse croire qu'on peut fabriquer un adverbe à partir de n'importe quel nom.
+- **Correction proposée** : « Penosamente, avec peine. L'adverbe se forme sur le féminin de l'adjectif : penosa + -mente. »
+
+### [MINEUR] « Suéltame » : la note passe à côté de l'accent écrit, qui est tout l'intérêt de la carte
+- **Où** : `sensaciones.ts:502-506` — `es-verbos-manipulacion`
+- **Texte** : « Suéltame el brazo. » / note « Soltar, lâcher. L'impératif soltar + pronom **soude les deux mots**. »
+- **Problème** : « soude les deux mots » ne dit rien de ce que l'apprenant doit écrire. Le point à retenir est que la soudure **déplace la syllabe accentuée et impose un accent écrit** : *suelta* + *me* → *suéltame*, exactement la règle du cours `es-cours-accent`. Dans un module qui compte l'orthographe accentuée parmi ses exigences, la carte manque son objet.
+- **Correction proposée** : « Soltar, lâcher. Le pronom se soude à l'impératif et force l'accent écrit : suelta + me → suéltame. »
+
+### [MINEUR] « Ir + gérondif dit le progrès lent » : la même glose huit fois, dans six fichiers
+- **Où** : `sensaciones.ts:38`, `avanzado-c2.ts:134` et `:570`, `perifrasis-colocaciones.ts:118` et `:123`, `conjugacion-2.ts:178` et `:245`, `vocabulaire-mundo.ts:582` et `:630`
+- **Texte** : « Ir + gérondif dit le progrès lent. » / « Ir + gérondif dit le progrès. » / « Ir + gérondif dit le progrès graduel. » / « Ir + gérondif marque la progression graduelle. » / « Ir + gérondif marque une progression. »
+- **Problème** : cinq formulations d'une même phrase, deux cours entiers (`conjugacion-2.ts`, `vocabulaire-mundo.ts`) qui exposent la périphrase de la même façon, et quatre cartes qui la re-glosent. Le constat « Les périphrases verbales enseignées deux fois » plus haut sous-estimait donc le compte : c'est huit occurrences, du A2 au C2.
+- **Correction proposée** : conserver l'exposé de `conjugacion-2.ts` (le cours de référence) et réduire les notes de carte à ce que la carte apporte en propre (*curtirse*, *apagarse*, *asumir*), sans re-définir la périphrase.
+
+### [MINEUR] `coger el autobús` employé sans réserve, deux séries avant la mise en garde contre *coger*
+- **Où** : `sensaciones.ts:437-440` — `es-verbos-movimiento-2`, carte « Salí corriendo para coger el autobús. » ; et `sensaciones.ts:485` — `es-verbos-manipulacion`, note « Coger se dit en Espagne, à éviter en Amérique latine. »
+- **Problème** : le même fichier emploie *coger el autobús* comme phrase modèle, puis avertit soixante lignes plus loin que le verbe est à proscrire en Amérique. C'est précisément l'exemple que `vocabulario-vida.ts:92` cite comme dangereux (« Coger el autobús se dit partout en Espagne. En Argentine, au Mexique… le verbe a un sens sexuel ») et que `registres.ts:54` développe (« Dire “voy a coger el autobús” à Buenos Aires provoque au mieux un fou rire »). La carte n'en dit rien, alors que sa note avait la place.
+- **Correction proposée** : ajouter à la note : « Salir corriendo, partir en courant. Coger el autobús en Espagne ; tomar el autobús en Amérique. »
+
+---
+
+## Constats (suite — `oral-interaccion.ts`)
+
+### [GRAVE] « L'espagnol professionnel refuse sans jamais employer le mot no » — six des dix cartes de la série contiennent *no*
+- **Où** : `oral-interaccion.ts:214-215` — `es-desacuerdo-cortes`, statement
+- **Texte** : « Entiendo tu punto, pero. No lo veo claro. Todo depende. L'espagnol professionnel refuse **sans jamais employer le mot no**. »
+- **Problème** : l'énoncé est démenti par la série qu'il annonce, et dès l'exemple qu'il cite lui-même — « **No** lo veo claro ». Les dix cartes donnent : « **No** lo veo claro », « Te entiendo, pero **no** es el momento », « Quedamos en que **no** estamos de acuerdo », « Preferiría **no** hacerlo, si **no** te importa », « Eso **no** me corresponde a mí », « Me temo que **no** va a poder ser ». Six cartes sur dix, sept occurrences du mot. La règle est fausse et l'apprenant l'a sous les yeux en même temps que sa réfutation. Ce que la série enseigne réellement — et bien — c'est que le refus ne se dit pas par un *no* **seul et nu**, en réponse directe.
+- **Correction proposée** : « Entiendo tu punto, pero. No lo veo claro. Todo depende. L'espagnol professionnel refuse rarement par un « no » sec : le refus passe par une concession, une réserve ou un regret. »
+
+### [GRAVE] Trois marqueurs espagnols différents traduits « Bref » dans le même fichier, plus un quatrième traduit « Enfin »
+- **Où** : `oral-interaccion.ts:53-54`, `:365-366`, `:385-386`, `:38-39`
+- **Texte** : « En fin, ¿por dónde íbamos? » / « **Bref**, où en étions-nous ? » ; « Total, que lo perdimos. » / « **Bref**, on l'a raté. » ; « Bueno, ahí fue cuando lo entendí. » / « **Bref**, c'est là que j'ai compris. » ; « O sea, no es tan sencillo. » / « **Enfin**, ce n'est pas si simple. »
+- **Problème** : trois marqueurs distincts — *en fin*, *total que*, *bueno* — reçoivent le même français, sans qu'aucune carte n'accepte les autres (`aussiEtranger` absent partout). En exercice de production, « Bref, … » a trois réponses justes et une seule comptée bonne, tirée au sort selon la carte. Et la troisième traduction est en outre fautive : *bueno* en tête de phrase n'est pas « bref » mais « bon, alors » — il ne clôt pas une digression, il relance. Le quatrième cas est le plus gênant : « Enfin, ce n'est pas si simple » appellera naturellement *En fin, no es tan sencillo* — qui existe comme carte quatre lignes plus bas, avec un tout autre sens. Le fichier commence pourtant par affirmer, en commentaire d'en-tête, que ces mots « ne se traduisent pas : “o sea” n'a pas d'équivalent, il a une fonction » — et il leur donne à tous un équivalent français d'un mot.
+- **Correction proposée** : distinguer les français — *en fin* → « Bref, » ; *total que* → « Résultat, on l'a raté. » ; *bueno* → « Bon, c'est là que j'ai compris. » ; *o sea* → « Je veux dire, ce n'est pas si simple. » (avec `aussi: ["C'est-à-dire que ce n'est pas si simple."]`) — et renseigner `aussiEtranger` sur chacune avec les concurrents réellement recevables.
+
+### [MOYEN] L'astuce de la série recopiée mot pour mot dans la note de sa première carte — six séries sur huit
+- **Où** : `oral-interaccion.ts` — `es-vacilacion`, `es-telefono-atencion`, `es-desacuerdo-cortes`, `es-charla-social`, `es-instrucciones`, `es-pedir-reclamar`
+- **Texte** :
+  - tip « **Como que atténue tout ce qui suit : está como que complicado.** » → carte 1 : etranger « Está como que complicado. », note « Como que atténue. »
+  - tip « **“No lo veo claro” est un refus ferme sous une forme douce.** » → note « No verlo claro est un refus ferme sous une forme douce. »
+  - tip « **La réponse attendue est brève, positive, et renvoie la question.** » → note « La réponse type : brève, positive, et on renvoie la question. »
+  - tip « **Asegurarse de + infinitif quand le sujet est le même, de que + subjonctif sinon.** » → note « Asegurarse de + infinitif, même sujet. Avec un autre sujet : de que + subjonctif. »
+  - tip « **“Me preguntaba si podrías” est le degré le plus élevé de la vie courante.** » → note « Me preguntaba si : le degré de politesse le plus élevé de la vie courante. »
+  - tip « **Le verbe pasar seul suffit, sans complément d'objet exprimé.** » → note « Pasar a alguien, transférer un appel. Le complément reste implicite. »
+- **Problème** : l'astuce est ce que l'apprenant lit avant la série, la note ce qu'il lit après avoir répondu. Quand les deux disent la même phrase, la seconde n'apprend rien et la carte perd son commentaire. Dans `es-vacilacion`, c'est même l'exemple du tip qui est repris tel quel comme carte : la « question » est donnée avec sa réponse. Six séries sur huit fonctionnent ainsi dans ce fichier — c'est un procédé de fabrication, pas un accident.
+- **Correction proposée** : réserver l'astuce à la règle générale et la note au détail propre à la carte. Pour `es-vacilacion` : changer la carte en « Es como que no me apetece. » et la note en « Como que devant un verbe atténue de la même façon ; à l'écrit, à proscrire. »
+
+### [MOYEN] Doublon interne : « où en étions-nous ? » et « où en étais-je ? », deux cartes, deux séries, le même fichier
+- **Où** : `oral-interaccion.ts:52-56` — `es-marcadores-orales` et `:132-136` — `es-vacilacion`
+- **Texte** : « En fin, ¿por dónde íbamos? » / « Bref, où en étions-nous ? » (note : « En fin clôt une digression et ramène au sujet. ») ; « ¿Por dónde iba? » / « Où en étais-je ? » (note : « La formule pour reprendre après une interruption. »)
+- **Problème** : la même formule à une personne près, avec la même fonction — clore une digression et revenir au sujet — dans deux séries voisines du même fichier, présentées comme deux points distincts. La série `es-vacilacion` contient d'ailleurs déjà « He perdido el hilo », qui fait le même travail.
+- **Correction proposée** : retirer « ¿Por dónde iba? » de `es-vacilacion` et la remplacer par une vraie amorce d'hésitation absente du lot : « No sé cómo decirlo. » ou « Es que… no sé. »
+
+### [MOYEN] Un faux ami anglais servi à un francophone : « Actualmente veut dire en ce moment »
+- **Où** : `oral-interaccion.ts:33-35` — `es-marcadores-orales`, carte « En realidad era al revés. »
+- **Texte** : note « En realidad corrige poliment. **Actualmente veut dire en ce moment.** »
+- **Problème** : le français « actuellement » veut dire exactement « en ce moment », comme *actualmente*. Il n'y a donc aucun piège pour un francophone : la mise en garde est celle de l'anglais *actually*, greffée sur un module français. C'est le même défaut que la note sur *escuchar* relevée plus haut dans `cours-usage.ts`, et il occupe ici la moitié d'une note de dix mots. Ce qu'il faudrait dire à un francophone, c'est que *en realidad* ne se rend pas par « en réalité » dans cet emploi : c'est un correcteur de tour de parole (« en fait »), pas un mot de vérité.
+- **Correction proposée** : « En realidad corrige poliment ce qu'on vient d'entendre : “en fait”, plutôt que “en réalité”. »
+
+### [MOYEN] Deux cartes dont le français ne déclenche pas la construction que la note enseigne
+- **Où** : `oral-interaccion.ts:419-422` — `es-instrucciones` ; `:107-111` — `es-vacilacion`
+- **Texte** : « Asegúrate de cerrar con llave. » / « **N'oublie pas** de fermer à clé. » (note : « **Asegurarse de** + infinitif, même sujet. Avec un autre sujet : de que + subjonctif. ») ; « Déjame decirlo de otra manera. » / « **Je vais le dire** autrement. » (note : « De otra manera, autrement. Dicho de otro modo se dit aussi, plus écrit. »)
+- **Problème** : dans la première, la note fait de *asegurarse de* le point à retenir, mais le français dit « n'oublie pas de », qui appelle *No te olvides de cerrar con llave* — réponse juste, comptée fausse, et qui n'exerce pas la règle annoncée par le tip. Dans la seconde, *déjame decirlo* est « laisse-moi le dire » ; « je vais le dire autrement » se rend par *Lo voy a decir de otra manera*. *Déjame decirlo de otra manera* est du reste un calque de l'anglais *let me put it another way* : l'espagnol spontané dit *Te lo digo de otra manera* ou *Dicho de otro modo*, que la note nomme sans l'accepter.
+- **Correction proposée** : « Asegúrate de cerrar con llave. » / « Assure-toi de fermer à clé. » ; « Déjame decirlo de otra manera. » / « Laisse-moi le dire autrement. » avec `aussiEtranger: ["Te lo digo de otra manera.", "Dicho de otro modo."]`.
+
+### [MOYEN] `aussiEtranger` : zéro sur 80 cartes, et une série entière dont quatre notes nomment la variante d'Amérique sans l'accepter
+- **Où** : `oral-interaccion.ts`, tout le fichier — 8 séries, 80 cartes, **0 `aussiEtranger`**, 2 `aussi`
+- **Problème** : `es-telefono-atencion` est le cas le plus net rencontré jusqu'ici. Quatre de ses dix cartes portent une note qui **nomme** l'autre norme, et aucune ne l'admet :
+  - `:173-175` « Je vous rappelle demain. » → `Le devuelvo la llamada mañana` ; note : « **Llamar de vuelta se dit en Amérique latine.** »
+  - `:187-190` « Voulez-vous laisser un message ? » → `¿Quiere dejar un recado?` ; note : « Un recado en Espagne, **un mensaje partout**. » — la carte refuse donc la forme que sa propre note déclare universelle.
+  - `:192-195` « La ligne est occupée. » → `Está comunicando` ; note : « **Ocupado se dit en Amérique latine.** »
+  - `:68-70` (`es-marcadores-orales`) « Bon, on s'y met. » → `Venga, empezamos` ; note : « Très espagnol, **peu employé en Amérique** » — sans donner l'équivalent américain (*dale*, *listo*, *va*), que l'apprenant produira légitimement.
+  S'y ajoutent `:107-111` (*dicho de otro modo*), `:298-301` « Ça fait un bail ! » → `¡Cuánto tiempo!` ; note : « **Cuánto tiempo sin verte se dit aussi, en entier** », et `:529-532` « Pourriez-vous me faire une remise ? » → `¿Me haría un descuento?`, alors que `vocabulaire-ideas.ts:es-voc-dinero` enseigne *¿Me hace un descuento?* pour la même demande : deux cartes du module se contredisent sur la même phrase française.
+- **Correction proposée** : `es-telefono-atencion` est la série à traiter en premier : elle est bâtie sur l'opposition Espagne / Amérique et n'accepte que l'Espagne. Renseigner `aussiEtranger` sur les quatre cartes citées, et harmoniser la carte du *descuento* avec `vocabulaire-ideas.ts`.
+
+### [MOYEN] « Cela dit » et « Ceci dit » pour deux marqueurs différents dans la même série
+- **Où** : `oral-interaccion.ts:42-46` et `:47-51` — `es-marcadores-orales`
+- **Texte** : « Eso sí, nos avisó. » / « **Cela dit**, il nous avait prévenus. » ; « Aunque bueno, quizá tenga razón. » / « **Ceci dit**, elle a peut-être raison. »
+- **Problème** : deux cartes consécutives, deux formules françaises que l'usage tient pour la même (« ceci dit » est la variante critiquée de « cela dit »), pour deux marqueurs espagnols différents. Rien ne permet à l'apprenant de savoir laquelle appelle *eso sí* et laquelle *aunque bueno* : la distinction n'est pas dans le français, elle est dans le hasard de la rédaction. La typographie du module recommande par ailleurs la forme « cela dit ».
+- **Correction proposée** : « Eso sí, nos avisó. » / « Cela dit, il nous avait prévenus. » (réserve) ; « Aunque bueno, quizá tenga razón. » / « Encore que, oui, elle a peut-être raison. » (retournement) — la note d'`aunque bueno` disant déjà « un retournement de son propre point de vue ».
+
+### [MINEUR] « Puede ser, pero. » : une phrase qui s'arrête au milieu, sans points de suspension
+- **Où** : `oral-interaccion.ts:238-241` — `es-desacuerdo-cortes`
+- **Texte** : etranger « Puede ser, pero. » / francais « C'est possible, mais. »
+- **Problème** : la suspension est bien le procédé enseigné, mais elle s'écrit avec des points de suspension : *Puede ser, pero…* La carte sert de dictée et d'exercice de prononciation ; telle quelle, elle demande de lire un point final là où il faut une intonation en suspens. Le statement de la même série écrit d'ailleurs « Entiendo tu punto, pero. » avec la même ponctuation fautive.
+- **Correction proposée** : « Puede ser, pero… » / « C'est possible, mais… » — et de même dans le statement.
+
+### [MINEUR] Registre français décalé dans deux cartes de politesse
+- **Où** : `oral-interaccion.ts:298-301` et `:323-328` — `es-charla-social`
+- **Texte** : « ¡Cuánto tiempo! » / « **Ça fait un bail !** » ; « Ya quedamos otro día. » / « **On se cale ça un autre jour.** »
+- **Problème** : *¡Cuánto tiempo!* et *ya quedamos otro día* sont des formules neutres, employables avec un collègue comme avec une tante. Les français choisis sont nettement familiers, et « se caler ça » est du parler de bureau récent. L'apprenant croira que l'espagnol est du même registre et l'emploiera là où il ne faut pas. La série s'intitule pourtant « La conversation de politesse ».
+- **Correction proposée** : « Ça fait longtemps ! » avec `aussi: ["Ça fait un bail !"]` ; « On se refait ça un autre jour. » avec `aussi: ["On se revoit une prochaine fois."]`.
+
+### [MINEUR] « Aunque no te lo creas + subjonctif » : la formule citée contient déjà le subjonctif
+- **Où** : `oral-interaccion.ts:394-398` — `es-contar-anecdota`
+- **Texte** : note « Aunque no te lo creas + subjonctif annonce l'invraisemblable. »
+- **Problème** : *creas* **est** le subjonctif. Écrite ainsi, la note laisse attendre un second subjonctif dans la suite de la phrase — alors que la carte enchaîne sur un passé simple, *funcionó*. Ce qu'il faut dire est que c'est *aunque* qui impose le subjonctif à *creer*.
+- **Correction proposée** : « Aunque impose ici le subjonctif : no te lo creas. La formule annonce l'invraisemblable. »
+
+### [MINEUR] « Total, que » dans la carte, « Total que » dans sa note et dans l'énoncé
+- **Où** : `oral-interaccion.ts:346-347` et `:364-367` — `es-contar-anecdota`
+- **Texte** : statement « Resulta que, **total que**, y ahí me tienes » ; carte « **Total, que** lo perdimos. » ; note « **Total que** abrège et conclut. »
+- **Problème** : trois occurrences, deux ponctuations. La carte est ce que l'apprenant écrit sous dictée : la virgule y est ou n'y est pas, il faut trancher une fois.
+- **Correction proposée** : retenir « Total, que lo perdimos. » (la virgule marque la pause réelle) et aligner statement et note sur cette graphie.
+
+### [MINEUR] Le pronom « soudé à l'impératif », deux fois, sans jamais dire qu'il impose un accent écrit
+- **Où** : `oral-interaccion.ts:444-447` — `es-instrucciones`, carte « Déjalo enfriar diez minutos. » (note : « Le pronom **se soude** à l'impératif. ») ; et `sensaciones.ts:505`, carte « Suéltame el brazo. » (note : « L'impératif soltar + pronom **soude les deux mots**. »)
+- **Problème** : deux cartes, deux notes, et dans les deux cas la conséquence orthographique — *deja* + *lo* → *déjalo*, *suelta* + *me* → *suéltame* — n'est pas dite. C'est pourtant la seule chose que l'apprenant doit écrire, et la règle est enseignée par ailleurs dans `cours-usage.ts:es-cours-accent`. Même la carte « Asegúrate de cerrar con llave » (`:420`) porte l'accent sans un mot d'explication.
+- **Correction proposée** : ajouter partout la mécanique : « Le pronom se soude et déplace l'accent tonique : deja + lo → déjalo. »
+
+---
+
+## Constats (suite — `dominios-3.ts`) — fin de la passe 1
+
+### [GRAVE] « Afectar sans préposition en Espagne, afectar a aussi » — la géographie est inversée
+- **Où** : `dominios-3.ts:201-205` — `es-voc-astronomia`, carte « Las erupciones solares afectan las comunicaciones. »
+- **Texte** : note « Una erupción solar. **Afectar sans préposition en Espagne, afectar a aussi.** »
+- **Problème** : c'est exactement l'inverse. Le *Diccionario panhispánico de dudas* est explicite : au sens de « produire un effet sur », le complément de *afectar* « suele ir precedido de la preposición a » — *la crisis afecta a los jóvenes*, *el temporal afecta a media España* —, et c'est la norme péninsulaire ; la construction sans *a* est surtout américaine, et souvent tenue pour un calque de l'anglais. La note enseigne donc le contraire de l'usage, et la carte elle-même — *afectan las comunicaciones*, sans *a* — donne pour espagnol d'Espagne la forme qui ne l'est pas. Un apprenant qui écrit *afecta a las comunicaciones*, qui est la forme la plus sûre, croira s'être trompé.
+- **Correction proposée** : etranger « Las erupciones solares afectan a las comunicaciones. » / note « Una erupción solar. Afectar **a** est la construction courante en Espagne ; en Amérique, on entend aussi afectar sans préposition. » — avec `aussiEtranger: ["Las erupciones solares afectan las comunicaciones."]`.
+
+### [MOYEN] Trois séries dont l'énoncé annonce un mot-vedette qui n'apparaît dans aucune carte
+- **Où** : `dominios-3.ts:18-20` (`es-voc-jardineria`), `:343-345` (`es-voc-cocina-tecnica`), `:408-410` (`es-voc-burocracia`)
+- **Texte** :
+  - « Sembrar, podar, **desbrozar**, acolchar » — *desbrozar* n'est dans aucune des dix cartes (le désherbage y est rendu par *quitar malas hierbas*), et *acolchar* n'y figure que sous forme de nom (*acolchado*). Le tip oppose par ailleurs *sembrar* et *plantar* en concluant « **les deux ne s'échangent jamais** » — mais *plantar* n'apparaît pas non plus, si bien que l'opposition annoncée n'est jamais exercée.
+  - « **Sofreír**, batir, incorporar, salpimentar » avec un tip entièrement consacré à *sofreír* (« Sofreír n'est ni freír ni saltear : c'est faire revenir doucement dans un peu d'huile, base de presque toute la cuisine espagnole ») — et **aucune carte ne contient *sofreír***, ni *freír*, ni *saltear*. Le point le mieux expliqué de la série est le seul qu'on ne peut pas réviser.
+  - « Solicitar, rellenar, justificante, tener derecho a » avec un tip sur *justificante* / **comprobante** — *comprobante* n'apparaît dans aucune carte, et le mot est surtout américain : au guichet espagnol, le reçu est *el resguardo* ou *el recibo*, jamais cité. Le tip affirme pourtant que « les deux mots se rencontrent dans **tous** les guichets ».
+- **Problème** : c'est le troisième cas du même défaut après `gramatica-c1.ts:es-c2-registro` (« conseguir, obtener, lograr, alcanzar », aucune carte). L'énoncé et l'astuce sont ce que l'apprenant lit et retient ; quand ils portent sur des mots que les exercices ne contiennent pas, la série promet une leçon qu'elle ne donne pas, et les quatre exercices (reconnaître, produire, écouter, prononcer) ne portent jamais sur le point annoncé.
+- **Correction proposée** : ajouter dans chaque série la carte qui manque — « Hay que desbrozar el camino. » ; « Sofríe la cebolla a fuego lento. » (note : « Sofreír, faire revenir doucement — ni freír ni saltear. ») ; « Guarde el resguardo del pago. » (note : « El resguardo en Espagne, el comprobante en Amérique. ») — ou aligner les énoncés sur ce que les séries enseignent réellement.
+
+### [MOYEN] « Un eclipse est masculin malgré le e final » : la raison donnée est fausse
+- **Où** : `dominios-3.ts:161-165` — `es-voc-astronomia`
+- **Texte** : note « Un eclipse est masculin, **malgré le e final**. Eclipsar s'emploie au figuré. »
+- **Problème** : en espagnol, la finale *-e* ne prédit aucun genre — *el coche*, *el nombre*, *el parque*, *el diente* sont masculins, *la clase*, *la noche*, *la llave* féminines. Il n'y a donc rien à concéder : « malgré » suppose une règle qui n'existe pas. Le vrai piège est **français** : « une éclipse » est féminin, et c'est cela qui fait écrire « la eclipse ». Le fichier sait pourtant formuler correctement ce genre de note, dix cartes plus loin : « El estigma, masculin **malgré le a final**, comme tous les mots grecs en -ma » — où la concession est justifiée, puisque *-a* prédit bien le féminin.
+- **Correction proposée** : « Un eclipse est masculin, alors que le français dit “une éclipse”. Eclipsar s'emploie au figuré. »
+
+### [MOYEN] « El sedimento reste singulier en espagnol » : une règle inventée
+- **Où** : `dominios-3.ts:236-240` — `es-voc-geologia`, carte « El sedimento se depositó durante la noche. » / « **Les sédiments** se sont déposés pendant la nuit. »
+- **Texte** : note « Depositarse, se déposer. **El sedimento reste singulier en espagnol.** »
+- **Problème** : *los sedimentos* est parfaitement courant et constitue même le terme technique usuel — *sedimentos marinos*, *sedimentos fluviales*, *cuenca de sedimentos*. Rien n'oblige le singulier. La carte fabrique la même règle que la note sur *negociaciones* relevée plus haut dans `gramatica-c1.ts` (« Le pluriel est la règle dans ce sens »), avec la même absence de fondement — mais dans l'autre sens. Et la carte est doublement piégeuse : le français dit « les sédiments » au pluriel, si bien qu'un apprenant qui produit *Los sedimentos se depositaron* — juste — sera compté faux au nom d'une règle qui n'existe pas.
+- **Correction proposée** : francais « Le sédiment s'est déposé pendant la nuit. » et note « Depositarse, se déposer. El sedimento au singulier pour la matière, los sedimentos pour les couches. » avec `aussiEtranger: ["Los sedimentos se depositaron durante la noche."]`.
+
+### [MOYEN] « Ir al psicólogo : le verbe ir suffit, sans complément » — alors que la carte en a un
+- **Où** : `dominios-3.ts:301-305` — `es-voc-salud-mental`
+- **Texte** : etranger « Va al psicólogo desde enero. » / francais « Il consulte un psychologue depuis janvier. » / note « Ir al psicólogo, consulter. **Le verbe ir suffit, sans complément.** »
+- **Problème** : *al psicólogo* **est** le complément. La note dit donc le contraire de ce que la carte montre, et l'apprenant ne peut pas comprendre de quoi elle parle. Ce que la remarque veut dire — que l'espagnol emploie *ir a* + spécialiste là où le français dit « consulter » — n'est pas dit. En production, « Il consulte un psychologue » appellera d'ailleurs *Consulta a un psicólogo*, qui est correct et sera compté faux.
+- **Correction proposée** : francais « Il va chez le psychologue depuis janvier. » / note « Là où le français dit “consulter”, l'espagnol dit ir al psicólogo, ir al médico, ir al dentista. » avec `aussiEtranger: ["Consulta a un psicólogo desde enero."]`.
+
+### [MOYEN] « Un empadronamiento » donné pour le justificatif de domicile
+- **Où** : `dominios-3.ts:426-430` — `es-voc-burocracia`
+- **Texte** : note « Un justificante, un justificatif. **Un empadronamiento en est le plus courant.** »
+- **Problème** : *el empadronamiento* est l'inscription au registre municipal — la démarche, pas la pièce. Le document qu'on présente au guichet est **el certificado de empadronamiento**, ou son équivalent allégé, **el volante de empadronamiento** ; c'est ce mot-là qu'on demande, et la distinction certificado / volante est la première chose qu'un étranger doit savoir en Espagne. Le fichier annonce pourtant dans son en-tête que l'administration est un domaine « où un mot mal choisi coûte un rendez-vous », et le statement de la série que « chaque mot y compte ».
+- **Correction proposée** : « Un justificante, un justificatif. Le plus demandé est el certificado de empadronamiento — el volante en est la version simplifiée. »
+
+### [MOYEN] Quatre notes qui nomment la variante juste sans l'accepter, dont une qui la déclare meilleure
+- **Où** : `dominios-3.ts` — 8 séries, **80 cartes, 0 `aussiEtranger`, 0 `aussi`** : le seul fichier du périmètre où aucune carte n'accepte la moindre variante, ni espagnole ni française.
+- **Texte** :
+  - `:291-295` « Je me sens débordé ces temps-ci. » → `Últimamente me siento sobrepasado.` ; note : « Sobrepasado, dépassé. **Desbordado se dit aussi et se comprend partout.** » — la note déclare la variante refusée plus universelle que la réponse attendue. C'est le cas le plus net du module : la carte sanctionne la meilleure réponse.
+  - `:521-525` « La campagne a servi à sensibiliser. » → `concienciar` ; note : « **Concienciar en Espagne, concientizar en Amérique latine.** »
+  - `:196-200` « La mission a dépassé son budget. » → `superó` ; note : « **Rebasar se dit aussi.** »
+  - `:186-190` « Le robot s'est posé à l'aube. » → `aterrizó` ; note : « **Amartizar existe pour Mars, alunizar pour la Lune** » — et la carte parle d'un robot, c'est-à-dire du seul cas où *amartizar* ou *alunizar* seraient attendus.
+  S'y ajoute `:36-40` « J'ai passé la matinée à désherber. » → `quitando malas hierbas`, dont la note dit « **Desherbar existe, moins courant** », et `:71-75` « Il faut retondre la pelouse. » → `cortar el césped`, alors que l'Amérique dit *cortar el pasto* — non signalé, dans un fichier qui signale ailleurs les couples Espagne / Amérique.
+- **Correction proposée** : les six variantes sont déjà écrites dans les notes ; il suffit de les remonter dans `aussiEtranger`. La carte de *sobrepasado* devrait même être retournée : réponse principale *desbordado*, variante *sobrepasado*.
+
+### [MINEUR] Deux cartes qui comparent l'espagnol à l'anglais dans un module français
+- **Où** : `dominios-3.ts:280` — `es-voc-salud-mental`, tip ; `:474-475` — `es-voc-social`, statement et tip
+- **Texte** : « On dit una persona con depresión plutôt que un depresivo : l'espagnol met la personne avant le diagnostic, **comme l'anglais**. » ; « **“caridad” ne s'y emploie presque plus** […] On dit una ONG ou una asociación, pas una caridad. »
+- **Problème** : dans le premier cas, la mention de l'anglais n'apprend rien à un francophone — le français applique la même convention (« une personne souffrant de dépression »), et c'est à lui qu'il faudrait comparer. Dans le second, l'erreur combattue est un calque de l'anglais *a charity* : aucun francophone n'appellerait une association « une charité ». Ces deux notes rejoignent le constat « Un module français dont les notes comparent l'espagnol à l'anglais » relevé dans `modismos-caracter.ts` — le procédé est régulier.
+- **Correction proposée** : « …l'espagnol met la personne avant le diagnostic, comme le français administratif. » ; et pour la seconde : « Une association se dit una asociación ou una ONG. Caridad garde une couleur religieuse : la caridad, la charité comme vertu, pas comme organisme. »
+
+### [MINEUR] Deux calques discrets dans les séries associative et administrative
+- **Où** : `dominios-3.ts:501-505` et `:516-520` — `es-voc-social`
+- **Texte** : « La ayuda está sujeta a ingresos. » / « L'aide est soumise à conditions de ressources. » ; « Cuentan con apoyo de base. » / « Ils comptent sur un soutien de terrain. »
+- **Problème** : *sujeta a ingresos* décalque *subject to income* ; l'espagnol dit *está condicionada al nivel de ingresos* ou *sujeta a un límite de ingresos* — sans complément de niveau, la phrase reste en l'air. *Apoyo de base* décalque *grassroots support* ; l'espagnol dit *apoyo popular*, ou *el apoyo de las bases* avec l'article et le pluriel. Deux cartes destinées à être apprises par cœur dans une série C1.
+- **Correction proposée** : « La ayuda está condicionada al nivel de ingresos. » ; « Cuentan con el apoyo de las bases. »
+
+### [MINEUR] « Tirar a alguien, désarçonner » : la glose est trop large
+- **Où** : `dominios-3.ts:116-120` — `es-voc-animales`
+- **Texte** : « El caballo tiró al jinete. » / « Le cheval a désarçonné son cavalier. » / note « **Tirar a alguien, désarçonner.** Una yegua, la jument ; un potro, le poulain. »
+- **Problème** : *tirar a alguien* ne veut pas dire « désarçonner » ; il veut dire « jeter quelqu'un à terre », et hors contexte équestre il peut même se comprendre « tirer sur quelqu'un » ou « jeter quelque chose à quelqu'un ». Le verbe précis existe : *derribar al jinete*, ou *desmontar*. Donné tel quel, l'apprenant retiendra une équivalence qu'il réemploiera à contresens.
+- **Correction proposée** : etranger « El caballo derribó al jinete. » / note « Derribar a alguien, le jeter à terre — c'est le verbe du cheval qui désarçonne. Una yegua, la jument ; un potro, le poulain. »
+
+### [MINEUR] Chiffres en chiffres dans des cartes destinées à la dictée et à la prononciation
+- **Où** : `dominios-3.ts:181-183` (« El cometa vuelve cada **76** años. ») et `:381-383` (« Precalienta el horno a **180** grados. »)
+- **Problème** : les deux séries sont marquées `oral: true, parle: true` : ces phrases sont dictées et prononcées. Écrits en chiffres, *76* et *180* n'apprennent ni *setenta y seis* ni *ciento ochenta*, et à la dictée on ne sait pas ce qu'il faut écrire. Le module tranche pourtant dans l'autre sens partout ailleurs — « Se habla español en veinte países », « El plazo vence el treinta de junio », « El banco subió los tipos de interés ».
+- **Correction proposée** : « El cometa vuelve cada setenta y seis años. » ; « Precalienta el horno a ciento ochenta grados. »
+
+### [MINEUR] Trois collocations douteuses
+- **Où** : `dominios-3.ts:61-65`, `:356-359`, `:41-45`
+- **Texte** : « El seto se está **desmadrando**. » (note : « Desmadrarse, échapper à tout contrôle. Familier et très expressif. ») ; « Bate los huevos hasta que **espumen**. » ; « El suelo necesita acolchado. » (note : « Le mot vient de **colcha, la couverture**. »)
+- **Problème** : (1) *desmadrarse* se dit de personnes et de situations — une fête, un débat, un enfant —, le DLE le définit par « conducirse desconsideradamente » ; d'une haie on dit *se está descontrolando* ou *se ha disparado*. (2) *hasta que espumen* n'est pas la formule des recettes : on écrit *hasta que blanqueen*, *hasta que estén espumosos*, ou *a punto de nieve* pour les blancs. (3) *colcha* est le couvre-lit, pas la couverture — celle-ci est *una manta* ; l'image du paillis y perd sa justesse.
+- **Correction proposée** : « El seto se está descontrolando. » ; « Bate los huevos hasta que blanqueen. » ; « Le mot vient de colcha, le couvre-lit. »
+
+### [MINEUR] « Orbitar est verbe aussi »
+- **Où** : `dominios-3.ts:156-160` — `es-voc-astronomia`
+- **Texte** : note « Entrar en órbita. **Orbitar est verbe aussi.** »
+- **Problème** : la phrase française est agrammaticale ; il manque l'article. Le module tutoie et écrit clairement partout ailleurs.
+- **Correction proposée** : « Entrar en órbita, se placer en orbite. Le verbe orbitar existe aussi : orbita alrededor de Marte. »
+
+---
+
+## Constats — passe 2
+
+*Relecture depuis le début, après la passe 1. Ce qui suit n'était pas dans les
+constats ci-dessus. J'ai commencé par un relevé mécanique des cartes voisines à
+travers les 33 fichiers du dossier `espagnol/`, puis relu.*
+
+### [GRAVE] La règle « estar pour le lieu, toujours » est démentie par une carte du module
+- **Où** : `conjugaison.ts:88` — carte « Están en casa. » ; `faux-amis.ts:117` — carte « Está en casa. » ; contre `precision.ts:516` — `es-c1-aspecto`, carte « La reunión es en la sala grande. »
+- **Texte** : « Están en casa. » / « Ils sont à la maison. » / note « **estar pour le lieu, toujours.** » ; « Está en casa. » / « Il est à la maison. » / note « **Un lieu, toujours estar.** » — contre « La reunión es en la sala grande. » / « La réunion a lieu dans la grande salle. » / note « **Ser pour un événement qui se tient quelque part.** Estar dirait où se trouve un objet. »
+- **Problème** : la règle est donnée deux fois, dans deux fichiers différents, avec le mot « toujours », et elle est fausse : l'espagnol emploie *ser* pour situer un **événement** — *la reunión es en la sala*, *la fiesta es en mi casa*, *el examen es en el aula tres*. C'est l'une des trois ou quatre exceptions que tout manuel signale, et c'est précisément celle que `precision.ts` enseigne correctement, avec sa carte de contraste immédiatement après (« La sala está al fondo », note : « Le contraste avec la carte précédente est net »). L'apprenant rencontre donc la règle absolue en A1, sa réfutation en C1, et rien ne lui dit que la première était incomplète. C'est l'équivalent exact de la contradiction cherchée : une règle posée avec « toujours », puis démentie par le module lui-même.
+- **Correction proposée** : `conjugaison.ts` → « estar pour situer une chose ou une personne. Un événement, lui, prend ser : la fiesta es en mi casa. » ; `faux-amis.ts` → même note ; et ajouter dans la note de `precision.ts:516` un renvoi explicite : « C'est la seule exception à “un lieu, toujours estar”. »
+
+### [GRAVE] Le *se* involontaire mal traduit deux fois, dans deux fichiers, avec la même traduction fautive
+- **Où** : `conjugacion-2.ts:594-597` — `es-conj-reflexivos` et `vocabulaire-oficios.ts:243-246` — `es-voc-arreglos`
+- **Texte** : « Se me rompió el vaso. » / « **J'ai cassé le verre.** » (note : « Le se involontaire : **le locuteur devient victime**. C'est la façon normale de rapporter un accident. ») ; « Se me rompió el enchufe. » / « **J'ai cassé la prise.** » (note : « Le se involontaire : c'est la façon normale de rapporter un dégât domestique. »)
+- **Problème** : la passe 1 avait relevé la seconde carte ; la première est identique, et sa note se contredit **dans la même ligne** — « le locuteur devient victime », et le français dit « j'ai cassé », c'est-à-dire l'aveu. Le cours de `vocabulaire-oficios.ts` oppose pourtant formellement les deux (« He roto el vaso : l'aveu, le locuteur s'accuse » / « Se me rompió el vaso : le locuteur est victime ») — sur le **même exemple**, *el vaso*. Le module contient donc, sur une seule phrase, la bonne analyse dans un cours et sa traduction inverse dans deux cartes. Avec « No se te caiga » / « Ne le fais pas tomber » (`sensaciones.ts`, relevé plus haut), cela fait trois cartes sur trois qui traduisent l'involontaire par du volontaire : le point n'est jamais correctement rendu dans tout le module.
+- **Correction proposée** : traduire partout par une tournure française non agentive — « Le verre s'est cassé. » / « La prise a lâché. » / « Attention, ne le laisse pas tomber. » — et réserver « j'ai cassé le verre » à une carte *He roto el vaso* qui montrerait le contraste.
+
+### [MOYEN] Cinq nouvelles paires de cartes jumelles à deux niveaux, relevées à la machine puis vérifiées
+- **Où** :
+  - « No creo que sea buena idea. » (`expresiones.ts:213` — `es-expr-acuerdo`, note : « La négation appelle le subjonctif : sea, jamais es. ») contre « No creo que sea la mejor solución. » (`vocabulaire-c1.ts:253` — `es-c1-academico`, C1, note : « La négation appelle le subjonctif. “No creo que es” s'entend comme une faute. ») — même construction, même règle, même glose.
+  - « Me alegro de verte. » (`formacion-palabras.ts:313` — `es-infinitivo-subjuntivo`) contre « Me alegro de verte otra vez. » (`oral-interaccion.ts:335` — `es-charla-social`) — deux fichiers du périmètre.
+  - « ¿Lo dejamos para otro día? » (`expresiones.ts:121` — `es-expr-cortesia`) contre « ¿Lo dejamos para otro momento? » (`oral-interaccion.ts:269` — `es-desacuerdo-cortes`, C1) — et les deux notes disent la même chose (« la contre-proposition » / « souvent une façon de ne jamais y revenir »).
+  - « Llegaron a un acuerdo. » (`perifrasis-colocaciones.ts:382` — `es-colocaciones-academicas`) contre « Llegaron a un acuerdo extrajudicial. » (`vocabulaire-oficios.ts:618` — `es-c1-derecho`) — deux fichiers du périmètre, même collocation enseignée deux fois.
+  - « Hay que rehacer el tejado. » (`vocabulario-sociedad.ts:261` — `es-voc-arquitectura`, périmètre) contre « Hay que rehacer el tejado del granero. » (`mundo-2.ts:71` — `es-voc-agricultura`) — la même phrase à un complément près, avec deux notes sans rapport.
+  S'ajoutent deux cartes quasi identiques hors périmètre qui portent la règle du lieu citée plus haut : « Están en casa. » (`conjugaison.ts:88`) / « Está en casa. » (`faux-amis.ts:117`), même phrase, même note.
+- **Problème** : le module n'a aucun garde-fou contre la reprise d'une carte d'un niveau à l'autre. Avec les doublons déjà relevés en passe 1 (santé A2/B2, registre C1/C2, *sensato*, *filtración*, *Dicho esto*, *enmudecer*, *plantear*, *zanjar*, *quisiera*, *como si*, *la muestra*, *ahorita*, *tomar el pelo*, *meter la pata*, périphrases verbales, ser/estar B1-C1, *acusación infundada*, `es-pasiva-avanzada`/`es-se-impersonal`, `es-infinitivo-subjuntivo`/`es-concordancia`), on arrive à **une trentaine de reprises identifiées**, dont quatre séries entières. L'ordre de grandeur est celui relevé en anglais avancé (huit séries entières) et en espagnol débutant (quatre).
+- **Correction proposée** : passer le dossier `espagnol/` à un contrôle automatique sur les quatre premiers mots de chaque `etranger` — c'est ce qui a produit cette liste en une seconde — et statuer sur chaque paire avant d'ajouter de nouvelles séries.
+
+### [MOYEN] Deux dictées étiquetées « accent mexicain » sont écrites en espagnol d'Espagne
+- **Où** : `dictees.ts:28-35` (thème « Demander son chemin », `accent: "es-MX"`) et `:60-67` (thème « Au bureau », `accent: "es-MX"`)
+- **Texte** : « Perdone, ¿me puede decir dónde está la estación? […] ¿Está lejos de aquí o se puede ir **andando**? » ; « La reunión no salió como esperábamos. […] **Quedamos en** vernos otra vez el jueves. »
+- **Problème** : le fichier s'ouvre sur cet avertissement — « L'accent alterne entre l'Espagne et l'Amérique latine. **Ce n'est pas cosmétique** : le seseo, le vocabulaire et le vouvoiement pluriel diffèrent assez pour qu'une oreille habituée à un seul des deux soit perdue devant l'autre. » Il annonce donc que le lexique suit l'accent — et deux textes sur quatre le démentent. *Ir andando* est péninsulaire : au Mexique on dit *ir caminando*, et le module l'enseigne lui-même (`registres.ts` donne le couple *caminar / andar*). *Quedar en + infinitif* pour convenir d'un rendez-vous est également d'Espagne ; le Mexique dit *quedar de vernos*. L'apprenant entend une voix mexicaine prononcer des tournures qu'un Mexicain n'emploierait pas — exactement le mélange que le module s'interdit ailleurs.
+- **Correction proposée** : « …¿Está lejos de aquí o se puede ir caminando? » ; « …Quedamos de vernos otra vez el jueves. » — ou basculer les deux dictées en `accent: "es-ES"`.
+
+### [MOYEN] Aucune dictée au-dessus de B2 : la moitié avancée du module n'en a aucune
+- **Où** : `dictees.ts`, les dix dictées
+- **Problème** : les niveaux vont de A1 à B2, et les séries visées sont `es-presentation`, `es-quotidien`, `es-voyage`, `es-conj-passes`, `es-travail`, `es-ser-estar`, `es-conj-subjonctif`, `es-por-para` — toutes des séries de base. **Aucune des quelque soixante séries C1 et C2 du périmètre** n'a de dictée : ni la presse, ni le droit, ni l'écrit académique, ni l'ironie, ni les registres, ni le subjonctif imparfait, qui est pourtant le point le plus difficile à écrire de tout le module (accents de *hubiéramos*, *supiera*, *lloviera*). L'exercice de dictée s'arrête là où la difficulté orthographique commence.
+- **Correction proposée** : ajouter au moins trois dictées C1/C2 — une de presse (titres elliptiques et *se* impersonnel), une d'écrit académique (subjonctif et concordance), une de récit littéraire (passé simple et imparfait du subjonctif) — et les rattacher à `es-c1-prensa`, `es-c1-academico`, `es-subjuntivo-imperfecto`.
+
+### [MINEUR] La seule dictée qui contient un *para* n'est pas celle qui est rangée sous « por / para »
+- **Où** : `dictees.ts:76-83` (thème « Le subjonctif en situation », `series: ["es-conj-subjonctif"]`) et `:84-91` (`series: ["es-por-para"]`)
+- **Texte** : « Cuando llegues, avísame **para que** vaya a buscarte. » — contre le texte rangé sous *por / para*, qui n'en contient aucun.
+- **Problème** : complément au constat de la passe 1. Le texte étiqueté *por/para* n'a ni *por* ni *para* ; celui qui en a un est étiqueté subjonctif. Il aurait suffi d'ajouter la seconde série à la dictée du subjonctif pour que le point soit travaillé.
+- **Correction proposée** : `series: ["es-conj-subjonctif", "es-por-para"]` sur la dictée « Cuando llegues », et rattacher la dernière dictée à `es-conj-subjonctif`.
+
+### [MINEUR] Virgule manquante devant *pero* dans une dictée
+- **Où** : `dictees.ts:36-43` — « Raconter un week-end »
+- **Texte** : « Hacía frío **pero** el cielo estaba despejado, y caminamos durante horas por la playa. »
+- **Problème** : dans un exercice où l'apprenant écrit sous la dictée, la ponctuation est notée. L'usage espagnol met une virgule devant *pero* coordonnant deux propositions — et le texte en met une, à tort, devant le *y* qui suit. Les deux virgules sont inversées.
+- **Correction proposée** : « Hacía frío, pero el cielo estaba despejado y caminamos durante horas por la playa. »
+
+---
 
 ## Ce que la seconde passe a ajouté
 
-*(à compléter — la passe 2 n'a pas commencé)*
+*(section finale — voir le détail dans « Constats — passe 2 » ci-dessus)*
 
 ## Ce qui est sain
-
 Le socle grammatical est solide et souvent excellent : la formation du subjonctif
 imparfait à partir de la troisième personne du pluriel du passé simple
 (`avance-b2.ts`), la distinction passif réfléchi / se impersonnel avec le rôle du

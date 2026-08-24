@@ -1,12 +1,11 @@
 # Histoire de France
 
-> ÉTAT : passe 1 **terminée** (4 fichiers de questions, `fusions.ts`, `cours/histoire-france.ts`,
-> le cahier d'origine et les 17 leçons héritées). Passe 2 : contrôles transversaux (astuces,
-> fusions, dates absentes) faits, relectures de `histoire-france.ts` et `histoire-france-2.ts`
-> faites, relectures de `histoire-france-3.ts` et `histoire-france-4.ts` faites, croisement
-> du module chargé (`contenuDe`) fait, relecture de `cours/histoire-france.ts` faite.
-> revérification de mes corrections de passe 1 faite.
-> Reste : le cahier d'origine et les 17 leçons héritées.
+> ÉTAT : **passes 1 et 2 terminées.** Passe 1 : les 4 fichiers de questions, `fusions.ts`,
+> `cours/histoire-france.ts`, le cahier d'origine et les 17 leçons héritées. Passe 2 : contrôles
+> transversaux (astuces, fusions, dates absentes), relecture des 4 fichiers de questions,
+> croisement du module chargé par `contenuDe`, relecture du fichier de cours, revérification de
+> mes propres corrections de passe 1, relecture du cahier d'origine et des 17 leçons.
+> Reste : rien. Voir « Ce que la seconde passe a ajouté » en fin de rapport.
 
 ## Ce que j'ai lu
 
@@ -1733,7 +1732,7 @@ passent sous son seuil.*
 
 ## Passe 2 — relecture de `prisma/seed/culture-g/cours/histoire-france.ts` (53 cours)
 
-### [GRAVE] « Le droit de grève est reconnu en 1864 » — troisième occurrence, et c'est le cours cette fois
+### [GRAVE] « Le droit de grève est reconnu en 1864 » — cette fois dans le cours
 
 - **Où** : `prisma/seed/culture-g/cours/histoire-france.ts` — `hf-etat-providence`, section
   « Les premières lois »
@@ -1742,9 +1741,10 @@ passent sous son seuil.*
   mais ici elle est **dans le cours**, c'est-à-dire dans le texte que l'apprenant lit avant de
   répondre, et affirmée sans nuance dans une phrase de synthèse mémorisable. La loi Ollivier de
   1864 supprime le délit de coalition : elle dépénalise la grève. Le droit de grève n'est reconnu
-  qu'en 1946, par le préambule de la Constitution. Le domaine porte donc **trois** versions du
-  même fait : la bonne dans `hf3-mouvement-ouvrier`, la fausse dans `hf4-troisieme-republique` et
-  la fausse ici. La correction de l'une sans les autres laisserait la contradiction en place.
+  qu'en 1946, par le préambule de la Constitution. Le domaine porte plusieurs versions du même
+  fait — la bonne dans `hf3-mouvement-ouvrier` et `hf4-restauration`, la fausse ici, dans
+  `hf4-troisieme-republique` et dans la leçon héritée 09 (voir le constat correspondant plus
+  bas). La correction de l'une sans les autres laisserait la contradiction en place.
 - **Correction proposée** : « La grève cesse d'être un délit en 1864, les syndicats sont
   autorisés en 1884 ; le droit de grève lui-même ne sera reconnu qu'en 1946. »
 
@@ -1950,3 +1950,258 @@ des derniers » pays d'Europe occidentale à abolir la peine de mort, l'Irlande 
 Belgique (1996) et le Royaume-Uni (1998) l'ayant fait après elle ; et la correction sur Beauvais
 (« le chœur gothique le plus haut de France, 48,5 mètres sous voûte, sa nef n'ayant jamais été
 construite »), qui est exacte.*
+
+## Passe 2 — relecture du cahier d'origine et des leçons héritées
+
+### [MOYEN] La révocation de l'édit de Nantes : la leçon héritée chiffre et nuance, le corpus neuf gonfle
+
+- **Où** : `heritage/culture-g/data/lecons/histoire-france/06.json`, section « Un roi, une loi,
+  une foi », contre `prisma/seed/culture-g/cours/histoire-france.ts` (`hf2-louis-xiv`, section
+  « Ce que le règne laisse ») et `prisma/seed/culture-g/histoire-france-4.ts`
+  (`cg-neuf-hf4-guerres-religion`)
+- **Texte** : leçon — « environ **150 000 à 200 000** protestants s'enfuient vers la Suisse, les
+  Provinces-Unies, l'Angleterre ou le Brandebourg […] ; **les estimations varient selon les
+  historiens**. » ; cours — « provoque l'exil de **plusieurs centaines de milliers** de
+  personnes » ; question — « La révocation provoque l'exil de **centaines de milliers** de
+  protestants. »
+- **Problème** : « plusieurs centaines de milliers » signifie au moins trois cent mille, soit
+  le double de la fourchette basse et cinquante pour cent au-dessus de la fourchette haute
+  généralement retenue. La leçon héritée donne le chiffre juste **et** signale l'incertitude ;
+  les deux textes neufs le gonflent et le donnent pour acquis. C'est un cas de plus où le cahier
+  d'origine est le texte fiable et où le corpus neuf a dérivé en reformulant.
+- **Correction proposée** : « provoque l'exil de cent cinquante à deux cent mille personnes,
+  selon les estimations » dans le cours, et « l'exil de plus de cent cinquante mille protestants »
+  dans l'explication de la question.
+
+### [MOYEN] La loi salique « réinterprétée » : le XIVe siècle dans trois textes, le XVe dans un quatrième
+
+- **Où** : `heritage/culture-g/data/lecons/histoire-france/04.json`, section « Les origines du
+  conflit », contre `prisma/seed/culture-g/histoire-france-4.ts` (`cg-neuf-hf4-merovingiens`) et
+  `cours/histoire-france.ts` (`hf4-merovingiens`)
+- **Texte** : leçon — « ce principe sera plus tard justifié par la référence à la loi salique,
+  texte franc ancien **réinterprété au XVe siècle** » ; question — « Son usage dynastique est une
+  réinterprétation tardive, **au XIVe siècle**. » ; cours — « Un de ses articles […] sera exhumé
+  **au XIVe siècle** et invoqué pour exclure les femmes de la succession au trône de France. »
+- **Problème** : un siècle d'écart sur le même fait, dans le même domaine, et sans que rien ne
+  signale la divergence. Les deux dates recouvrent en réalité deux moments distincts : la
+  **redécouverte** du texte par Richard Lescot vers 1358 (XIVe siècle) et son **érection en loi
+  fondamentale** par les juristes du parti français, Jean de Montreuil et Jean Juvénal des
+  Ursins, dans les années 1410-1440 (XVe siècle). Aucun des trois textes ne fait cette
+  distinction : chacun tranche, et ils tranchent différemment.
+- **Correction proposée** : dire les deux temps, ce qui supprime la contradiction et apprend
+  quelque chose : « Texte franc du VIe siècle, exhumé vers 1358 et érigé au siècle suivant en
+  loi fondamentale du royaume pour exclure les femmes de la succession. »
+
+*Sur les leçons 01 à 06, la seconde lecture ne trouve rien d'autre, et le contrôle a porté sur
+tous les chiffres et toutes les dates : la Narbonnaise de 121 et la colonie de Narbonne en 118,
+Lugdunum fondée en 43 et l'autel des Trois Gaules vers 12 av. J.-C., la légion d'Ambiorix
+anéantie en 54, l'échec de Gergovie, Uxellodunum en 51, le triomphe de 46, les Tables
+claudiennes de 48, l'édit de Caracalla de 212, les martyrs de Lyon de 177, l'Empire des Gaules
+de 260 à 274, le Rhin franchi le 31 décembre 406, les Wisigoths en Aquitaine en 418, les champs
+Catalauniques en 451, Soissons 486, Tolbiac vers 496, Vouillé 507, Clotaire vers 558 et sa mort
+en 561, Dagobert 629-639, Tertry 687, la mort de Charles Martel en 741, Soissons 751, le sacre
+de Saint-Denis en 754, la donation de Pépin et les États pontificaux jusqu'en 1870, Carloman
+mort en 771, la Lombardie en 774, les Saxons de 772 à 804, Roncevaux 778, Louis le Pieux
+814-840, Quierzy 877, Paris assiégé en 885-886, Saint-Clair-sur-Epte en 911, Cluny en 909,
+Adalbéron vers 1025, Louis VI 1108-1137, l'annulation de 1152 et Henri Plantagenêt roi en 1154,
+Jean sans Terre condamné en 1202, Bouvines le 27 juillet 1214, le traité de Paris de 1259,
+Mansourah et la captivité de 1250, les états généraux de 1302, Anagni 1303, Molay 1314,
+l'université de Paris en 1215 et le collège de Sorbon vers 1257, L'Écluse en 1340, Crécy le
+26 août 1346, Calais après onze mois de siège en 1347, Poitiers le 19 septembre 1356, la peste
+de 1348 (un quart à un tiers de la population), Étienne Marcel et l'ordonnance de 1357, la
+Jacquerie de 1358, Charles V 1364-1380, Charles VI à onze ans en 1380 et sa maladie de 1392,
+Louis d'Orléans assassiné en 1407, Azincourt le 25 octobre 1415, Montereau 1419, Troyes 1420,
+les deux morts de 1422, Orléans délivrée le 8 mai 1429 et le sacre du 17 juillet, Compiègne en
+mai 1430, Rouen le 30 mai 1431, Arras 1435, les compagnies d'ordonnance de 1445, Formigny 1450,
+Castillon le 17 juillet 1453, Gutenberg vers 1450 et Paris en 1470, les Essais à partir de 1580,
+Marignan les 13 et 14 septembre 1515, Bologne 1516, l'élection impériale de 1519, Pavie le
+24 février 1525 et la libération de 1526, les Placards d'octobre 1534, l'Institution de 1536
+traduite en 1541, le synode de 1559, Châteaubriant 1551, la mort d'Henri II en 1559, l'édit de
+janvier et Wassy le 1er mars 1562, la Saint-Barthélemy du 24 août 1572, les Barricades de 1588,
+Jacques Clément en 1589, Arques 1589 et Ivry 1590, l'abjuration du 25 juillet 1593, le sacre de
+Chartres en février 1594, Vervins et l'édit de Nantes du 13 avril 1598, Ravaillac le 14 mai 1610,
+Alès 1629, Westphalie 1648, les Pyrénées 1659, mars 1661 et les vingt-deux ans du roi, les
+remontrances supprimées en 1673, Colbert en 1665, Saint-Gobain en 1665, les tarifs de 1664 et
+1667, le canal du Midi en 1681, l'Académie des sciences de 1666, les Quatre Articles de 1682,
+Port-Royal rasé en 1710-1711, Fontainebleau le 18 octobre 1685, les camisards de 1702, Dévolution
+1667-1668, Nimègue 1678, Augsbourg 1686 et Ryswick 1697, Utrecht 1713 et Rastatt 1714, les
+famines de 1693-1694 et 1709, la mort du 1er septembre 1715 — tout se vérifie, et plusieurs de
+ces leçons prennent le soin, rare dans le corpus neuf, de dire que les historiens ne s'accordent
+pas (le baptême de Clovis « 496, mais parfois 499 ou 508 », l'exil des protestants, la peste).*
+
+### [GRAVE] La leçon 14 attribue à Giscard d'Estaing la légalisation de la contraception, acquise sept ans plus tôt
+
+- **Où** : `heritage/culture-g/data/lecons/histoire-france/14.json`, section « Pompidou, Giscard
+  d'Estaing et les mutations de la société »
+- **Texte** : « Sous son septennat sont adoptés l'abaissement de la majorité civile de vingt et un
+  à dix-huit ans, **la légalisation de la contraception** puis l'autorisation de l'interruption
+  volontaire de grossesse par la loi défendue par Simone Veil et promulguée le 17 janvier 1975,
+  ainsi que le divorce par consentement mutuel. »
+- **Problème** : la contraception a été **légalisée par la loi Neuwirth du 28 décembre 1967**,
+  sous la présidence du général de Gaulle — sept ans avant l'élection de Giscard d'Estaing. Ce
+  que son septennat apporte est autre chose, et la confusion efface justement ce qui faisait
+  l'enjeu : la loi du 4 décembre 1974 rend la contraception **remboursable** par la Sécurité
+  sociale et accessible aux mineures sans autorisation parentale, les décrets d'application de
+  1967 ayant été retardés jusqu'en 1969 et 1972. La leçon transforme une mesure d'application en
+  une légalisation, et déplace de sept ans une des dates les plus souvent demandées du programme.
+  Le corpus neuf, lui, dit juste : `hf3-sante-france` écrit « La contraception avait été
+  légalisée par la loi Neuwirth en 1967 ». C'est donc, une fois de plus, **la leçon héritée qui
+  se trompe et le corpus neuf qui a raison** — l'inverse du schéma habituel de ce domaine, et la
+  raison pour laquelle il ne faut pas corriger l'un par l'autre sans vérifier.
+- **Correction proposée** : « Sous son septennat sont adoptés l'abaissement de la majorité civile
+  de vingt et un à dix-huit ans, le remboursement de la contraception — légalisée dès 1967 par la
+  loi Neuwirth — et l'autorisation de l'interruption volontaire de grossesse par la loi défendue
+  par Simone Veil, promulguée le 17 janvier 1975, ainsi que le divorce par consentement mutuel. »
+
+### [MOYEN] « Le droit de grève accordé en 1864 » : le raccourci est aussi dans la leçon 09
+
+- **Où** : `heritage/culture-g/data/lecons/histoire-france/09.json`, section « L'Empire
+  autoritaire, la modernisation économique et Haussmann »
+- **Texte** : « … une classe ouvrière urbaine se forme, à laquelle l'Empire finit par accorder
+  en 1864 **le droit de grève**, tout en maintenant une surveillance étroite des organisations
+  ouvrières. »
+- **Problème** : je dois nuancer le constat que j'ai porté plus haut. La formule fautive n'est
+  pas propre au corpus neuf : elle apparaît **quatre fois** dans le domaine — `hf-etat-providence`
+  (cours), `hf4-troisieme-republique` (explication), la leçon 09, et sous une forme atténuée
+  ailleurs — contre **deux formulations exactes** (`hf3-mouvement-ouvrier` et `hf4-restauration`,
+  qui écrivent « supprime le délit de coalition », « levée pour la grève »). C'est donc un
+  raccourci de manuel installé, et non l'erreur d'un rédacteur isolé, ce qui rend la correction
+  plus lourde mais aussi plus nécessaire : la loi Ollivier du 25 mai 1864 dépénalise la grève,
+  elle ne la constitue pas en droit, et le droit de grève n'est reconnu qu'en 1946 par le
+  préambule de la Constitution.
+- **Correction proposée** : « … à laquelle l'Empire finit par accorder en 1864 le droit de
+  cesser le travail, en supprimant le délit de coalition — sans reconnaître pour autant un droit
+  de grève, qui n'existera qu'en 1946. »
+
+### [MINEUR] Le corps électoral de 1831 rapporté à une population qui n'est pas la bonne
+
+- **Où** : `heritage/culture-g/data/lecons/histoire-france/08.json`, section « La monarchie de
+  Juillet, régime bourgeois (1830-1848) »
+- **Texte** : « L'abaissement du cens de 300 à 200 francs porte le corps électoral d'un peu moins
+  de 100 000 votants à environ 166 000 en 1831, **soit à peine un Français sur cent
+  soixante-dix**. »
+- **Problème** : les deux chiffres d'électeurs sont exacts, le rapport ne l'est pas. La France de
+  1831 compte environ **32,6 millions** d'habitants : 32 600 000 ÷ 166 000 donne **un sur cent
+  quatre-vingt-seize**, et non un sur cent soixante-dix. Le ratio annoncé supposerait une
+  population de vingt-huit millions, celle de la France de la fin du XVIIIe siècle. Le chiffre
+  est d'ailleurs plus frappant dans sa version exacte.
+- **Correction proposée** : « … soit à peine un Français sur deux cents ».
+
+### [MINEUR] L'expédition du Mexique : 1861 dans la leçon, 1862 dans le cours
+
+- **Où** : `heritage/culture-g/data/lecons/histoire-france/09.json` (« l'expédition du Mexique,
+  **engagée en 1861** ») contre `cours/histoire-france.ts`, `hf2-second-empire`
+  (« L'expédition du Mexique, **entre 1862 et 1867** »)
+- **Problème** : les deux dates renvoient à deux faits distincts — la convention tripartite de
+  Londres d'octobre 1861 et le débarquement des troupes françaises à Veracruz en décembre 1861 -
+  janvier 1862, puis le début des opérations proprement françaises en 1862. Aucun des deux textes
+  ne le dit, et l'apprenant qui suit les deux chapitres retient deux bornes différentes pour le
+  même épisode.
+- **Correction proposée** : « L'expédition du Mexique, décidée fin 1861 et menée par la France
+  seule à partir de 1862, se solde par un échec en 1867. »
+
+*Sur les leçons 07 à 17, la seconde lecture ne trouve rien d'autre, et le contrôle a de nouveau
+porté sur tous les chiffres : les 100 000 morts et 1 800 000 prisonniers de 1940, Pétain appelé
+le 16 juin, l'armistice du 22 juin, les 569 voix contre 80 du 10 juillet, le statut des Juifs du
+3 octobre 1940 aggravé en juin 1941, Montoire le 24 octobre, le retour de Laval en avril 1942,
+l'invasion de la zone sud le 11 novembre 1942, le STO de février 1943, la Milice de janvier 1943,
+les MUR de janvier 1943, le CNR du 27 mai 1943, Caluire le 21 juin, les 1 200 titres clandestins,
+les 75 000 déportés dont moins de 3 000 revenus, Oradour le 10 juin 1944, le débarquement de
+Provence le 15 août, les FFI de février 1944 sous Koenig, Paris libéré le 25 août, l'ordonnance
+du 21 avril 1944 exercée en 1945 ; la Première Restauration du 6 avril 1814, l'île d'Elbe le
+1er mars 1815, la Seconde Restauration du 8 juillet, la Chambre introuvable dissoute en septembre
+1816, la loi Lainé de 1817, le duc de Berry en février 1820, Villèle en 1821, l'expédition
+d'Espagne de 1823, la mort de Louis XVIII en septembre 1824, le sacre de 1825, Alger le
+5 juillet 1830, les ordonnances du 25 juillet, l'intronisation du 9 août et la Charte révisée du
+7 août, les canuts du 21 novembre 1831, Fieschi le 28 juillet 1835, la loi Guizot du 28 juin
+1833 ; les 241 000 électeurs censitaires de 1848 devenus neuf millions, les ateliers nationaux du
+27 février fermés le 21 juin, les 1 500 fusillés de juin, la Constitution du 4 novembre 1848,
+les 74 % du 10 décembre, la loi Falloux du 15 mars 1850 et la loi du 31 mai, la Constitution du
+14 janvier 1852, l'Empire du 2 décembre 1852, la Crimée de 1853-1856, Magenta et Solférino,
+Nice et la Savoie en 1860, la presse libre en 1868, Ollivier en 1870 ; le référendum du
+28 septembre 1958 à près de 83 %, la promulgation du 4 octobre, le Petit-Clamart d'août 1962,
+le référendum du 28 octobre 1962, le départ du 28 avril 1969, Pompidou élu en juin 1969 et mort
+en avril 1974, la loi Veil du 17 janvier 1975, la saisine élargie de 1974, l'abolition du
+9 octobre 1981, les trois cohabitations, le référendum de septembre 2000, le rejet du 29 mai
+2005, la révision du 23 juillet 2008, l'IVG constitutionnalisée le 4 mars 2024 ; Cartier 1534,
+Québec 1608, le Code noir de 1685, Paris 1763, la Louisiane en 1803, Haïti 1804, Abd el-Kader
+jusqu'en 1847, Berlin 1884-1885, l'AOF de 1895, l'AEF de 1910, Madagascar 1895-1896, Fès 1912,
+Fachoda 1898, les treize millions et demi de kilomètres carrés, l'indigénat du 28 juin 1881,
+Lamine Guèye en mai 1946, Genève 1954, 1956 pour le Maroc et la Tunisie, 1960 pour l'Afrique,
+le 5 juillet 1962, le Vanuatu en 1980 ; les 5 % de croissance annuelle de 1950 à 1973, les 2 %
+de chômage, les 37 % puis 10 % d'actifs agricoles, les 500 000 chômeurs de 1968, la Sorbonne du
+3 mai, les barricades du 10 au 11 mai, Grenelle du 25 au 27, Baden-Baden le 29, l'allocution du
+30 — tout se vérifie.*
+
+---
+
+## Ce que la seconde passe a ajouté
+
+**Vingt et un constats neufs**, dont sept graves, plus la rectification de trois corrections de
+la passe 1. Par ordre d'importance :
+
+1. **Trente explications donnent la réponse d'une autre question du même chapitre**, dans seize
+   chapitres. Invisible en lecture séquentielle : il a fallu charger le module par `contenuDe`,
+   c'est-à-dire après application de `FUSIONS` et `FUSIONS_INTERNES`, et croiser chaque question
+   avec toutes les autres de son chapitre d'arrivée. C'est le constat le plus étendu du domaine
+   après la duplication.
+2. **Le résumé automatique « Cette leçon couvre : … » donne la réponse dans trois chapitres
+   hérités** — cinq questions annulées, dont une où le titre de section fournit le nom *et* les
+   dates que l'énoncé reprend mot pour mot. Mécanisme de fabrication, pas de rédaction : aucune
+   relecture de texte ne pouvait le voir.
+3. **Trois de mes propres corrections de passe 1 étaient fausses** : l'écart de l'élection de
+   1974 (1,62 point, et non « moins d'un point »), la date de Jeanne d'Arc à Chinon (février
+   1429 était juste, mars ne l'est pas), et la durée de la rivalité Brunehaut-Frédégonde (près de
+   trente ans, et non une vingtaine).
+4. **Deux erreurs de fait neuves dans le corpus** : « le droit de grève reconnu en 1864 »
+   (quatre occurrences, dont le cours et une leçon héritée ; le droit de grève date de 1946), et
+   l'équipement sanitaire de 1954 donné pour « un quart » des logements dans le cours quand le
+   recensement dit 10,4 %.
+5. **Une erreur de fait dans une leçon héritée** : la leçon 14 attribue au septennat de Giscard
+   d'Estaing la légalisation de la contraception, acquise en 1967 par la loi Neuwirth. Le corpus
+   neuf, lui, dit juste — l'inverse du schéma habituel du domaine, et la démonstration qu'il ne
+   faut pas corriger le seed par le cahier sans vérifier.
+6. **Deux astuces de notion supplémentaires donnent la réponse littérale** (`hf3-france-monde`,
+   `hf3-justice-france-histoire`), et deux astuces déjà signalées en trahissent une seconde
+   chacune : le domaine compte **onze notions concernées et vingt questions annulées**, contre
+   les huit relevées au début de la passe 2.
+7. **Deux doublons neufs** : la vénalité des offices définie deux fois dans deux notions que
+   rien ne réunit, et *Le Contrat social* / *Du contrat social* demandé deux fois dans le même
+   chapitre, sous deux titres différents pour le même livre.
+8. **Trois contradictions internes neuves** : la révocation de l'édit de Nantes (150-200 000
+   exilés dans la leçon, « plusieurs centaines de milliers » dans le cours), la loi salique
+   (réinterprétée au XIVe siècle dans trois textes, au XVe dans un quatrième), et l'expédition
+   du Mexique (1861 / 1862).
+9. **Une astuce dont les deux chiffres ne se comparent pas** (`hf3-agriculture-france` : six
+   millions d'actifs agricoles en 1950 contre quatre cent mille chefs d'exploitation
+   aujourd'hui), et **une question à trois réponses vraies** (les salons du XVIIIe siècle).
+10. Le reste : deux énoncés de plus dont le mot interrogatif ne correspond à aucune proposition,
+    une fuite d'explication entre question neuve et quiz hérité (Utrecht), le ratio électoral de
+    1831, le bilan de Courrières, « le dernier carolingien Louis V », une troisième estimation
+    des mots gaulois, et trois défauts de rédaction dans le fichier de cours.
+
+**Une mise en garde sur ce rapport lui-même.** J'ai d'abord rédigé six constats — Beauvais
+(question et cours), Marie Curie, Chambord, Brunehaut, l'accord fautif de
+`hf3-decentralisation-territoires` — avant de m'apercevoir qu'ils figuraient déjà dans la passe 1,
+dont je n'avais lu que la fin de la liste. Je les ai retirés. La seconde lecture les confirme
+tous : ils sont exacts, et le constat sur Beauvais est même plus grave que ma reformulation, la
+photographie qui illustre la section du cours étant précisément **la nef d'Amiens**, c'est-à-dire
+la bonne réponse à la question que le texte fait rater. Quiconque appliquera les corrections doit
+donc traiter la liste de la passe 1 comme faisant autorité sur ces six points.
+
+## Ce qui est sain — après deux passes
+
+Le socle factuel reste, après vérification pièce par pièce des quelque quatre cents dates et
+chiffres du domaine, remarquablement exact : en dehors des cinq erreurs de fait relevées sur
+l'ensemble des deux passes, tout ce que j'ai contrôlé se vérifie, y compris les chiffres réputés
+glissants (48,50 m à Beauvais, 51,04 % à Maastricht, 13 152 arrêtés au Vél d'Hiv, 643 à Oradour,
+423 à Malpasset, 1 099 à Courrières, 82,6 % au référendum de 1958, 74 % en décembre 1848).
+Les leçons héritées 01 à 06 et 12 sortent indemnes de la seconde lecture, et plusieurs d'entre
+elles font ce que le corpus neuf ne fait presque jamais : donner les fourchettes concurrentes en
+disant qui les avance, plutôt que de trancher — le baptême de Clovis « 496, mais parfois 499 ou
+508 », les 150 000 à 200 000 exilés de la révocation, le quart à un tiers de la population
+emporté par la peste, les six mille à vingt mille morts de la Semaine sanglante, les bilans
+opposés de la guerre d'Algérie. Le problème du domaine n'a pas changé de nature entre les deux
+passes : ce n'est pas la justesse, c'est la répétition — et, ce que la passe 2 ajoute, la
+**porosité** : dans un chapitre sur trois, quelque chose ailleurs dans le même chapitre donne la
+réponse avant qu'on ait à la chercher.

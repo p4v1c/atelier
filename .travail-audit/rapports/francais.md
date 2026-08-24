@@ -1,6 +1,6 @@
 # Français — module « l'Atelier » (prisma/seed/batches, hors dictations)
 
-> ÉTAT : passe 1 en cours. Lus : batch-001 à batch-015 + densify-homophones + densify-accords (17 fichiers, 375 règles, ~2130 phrases). Reste : densify-conjugaison, densify-orthographe, densify-vocabulaire, densify2-* (3), densify3-* (6) — 12 fichiers.
+> ÉTAT : passe 1 en cours. Lus : batch-001 à batch-015 + densify-homophones, -accords, -conjugaison, -orthographe, -vocabulaire + densify2 (3) + densify3-homophones-paronymes (24 fichiers). Reste : densify3-accords-conj, -conj-accords-ortho, -ponctuation-typo, -ponctuation2-pro-expr, -registre-pro-discutes (5). Puis passe 2.
 
 ## Ce que j'ai lu
 
@@ -1226,6 +1226,552 @@ plus répandu du module.
 - **Texte** : tip « É sort, in entre : la même logique qu'émerger et immerger. »
 - **Problème** : la règle l'admet elle-même — c'est le même mécanisme enseigné une
   seconde fois. Deux règles pour un seul point.
+
+## Constats — reprise, deuxième relecteur (fichiers `densify-*`)
+
+*Les fichiers ci-dessous ne contiennent pas de règles (`rules: []`) : ils ajoutent
+des phrases à des règles du lot « legacy » qui vivent hors de `batches/`. Je les
+juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` visé.*
+
+### [GRAVE] `densify-conjugaison` / `participe-présent` — les deux corrections enseignent l'inverse de la règle
+- **Où** : `densify-conjugaison.ts:66-67`
+- **Texte** : « Ce sont des enfants [obéissant] à toutes les consignes. », fix `"obéissants"` ;
+  « Des travaux [différant] selon les régions ont été engagés. », fix `"différents"`
+- **Problème** : dans les deux phrases, le mot marqué est suivi de son **complément**
+  (« à toutes les consignes », « selon les régions ») : c'est donc un **participe
+  présent**, qui est invariable, et les deux formes d'origine sont **correctes**.
+  « Des enfants obéissant à toutes les consignes » = « qui obéissent à toutes les
+  consignes ». La règle marque comme fautives deux phrases justes et impose
+  l'accord là où le français l'interdit. Elle contredit en outre frontalement
+  `accord-participe-ayant` (`batch-011-accords.ts:190`), dont le `tip` est
+  « Un participe présent ne s'accorde jamais ».
+- **Correction proposée** : inverser le marquage (« Ce sont des enfants
+  [obéissants] à toutes les consignes » → `"obéissant"`), ou retirer le complément
+  pour obtenir un vrai adjectif verbal (« des enfants obéissants et polis »).
+
+### [MOYEN] `densify-conjugaison` / `asseoir` — une phrase admet deux corrections, l'exercice n'en accepte qu'une
+- **Où** : `densify-conjugaison.ts:128`
+- **Texte** : « Elle [s'assois] près de la fenêtre pour mieux voir. », fix `"s'assied"`
+- **Problème** : *asseoir* a deux conjugaisons également correctes ; « elle s'assoit »
+  est aussi juste que « elle s'assied », et c'est même la forme que les deux autres
+  phrases de la même règle donnent comme correction (`:127` et `:129`, fix
+  `"s'assoit"`). L'apprenant qui écrit « s'assoit » — la réponse que la règle vient
+  de lui enseigner deux fois — est déclaré en faute.
+- **Correction proposée** : accepter les deux formes, ou aligner le `fix` sur
+  `"s'assoit"`.
+
+### [MOYEN] `densify-conjugaison` / `subj-pouvoir` — une phrase sur deux ne porte pas sur la règle, et double une autre
+- **Où** : `densify-conjugaison.ts:133`
+- **Texte** : « Bien qu'il [sait] nager, il reste près du bord. », fix `"sache"`
+- **Problème** : la phrase porte sur *savoir*, pas sur *pouvoir* ; elle est de plus
+  la jumelle de `densify-conjugaison.ts:47` (`subj-bienque`) : « Quoiqu'elle [sait]
+  la vérité, elle n'a rien dit. » → `"sache"`. Même verbe, même temps, même
+  correction, même conjonction concessive, à deux règles de distance.
+
+### [MINEUR] `densify-conjugaison` / `resoudre` — la même correction deux fois
+- **Où** : `densify-conjugaison.ts:105` et `:107`
+- **Texte** : « Il [résous] les problèmes… » → `"résout"` ; « Elle [résoud] les
+  conflits… » → `"résout"`
+- **Problème** : deux graphies fautives voisines pour un seul et même point, dans
+  une règle qui ne compte que trois phrases. La troisième (`absous` → `absout`)
+  est la seule à apporter quelque chose.
+
+### [GRAVE] `densify-orthographe` / `elision` — les trois phrases produisent un pronom en double
+- **Où** : `densify-orthographe.ts:99-101`
+- **Texte** : « Il attend [que] il réponde avant de partir. », fix `"qu'il"` ;
+  « Je crois [que] elle a raison sur ce point précis. », fix `"qu'elle"` ;
+  « Personne [ne] a compris la consigne du premier coup. », fix `"n'a"`
+- **Problème** : le marquage ne couvre que le premier mot, mais la correction
+  absorbe aussi le suivant, qui reste en place. On obtient « Il attend **qu'il il**
+  réponde », « Je crois **qu'elle elle** a raison », « Personne **n'a a** compris ».
+  Les trois phrases de la règle sont inutilisables.
+- **Correction proposée** : marquer les deux mots : « Il attend [que il] réponde » → `"qu'il"`.
+
+### [GRAVE] `densify-orthographe` / `hyphen-nombres` — trois phrases cassées, et une norme concurrente présentée comme une faute
+- **Où** : `densify-orthographe.ts:81-83`
+- **Texte** : « Il a compté vingt et [un] cartons dans le garage. », fix `"vingt-et-un"` ;
+  « La salle contient cent quatre [vingts] places numérotées. », fix `"cent-quatre-vingts"` ;
+  « Le devis atteint trois cent [cinquante] euros au total. », fix `"trois-cent-cinquante"`
+- **Problème** : deux défauts cumulés.
+  1. Le marquage ne porte que sur le dernier élément du nombre alors que la
+     correction réécrit le nombre entier. Après substitution : « Il a compté
+     **vingt et vingt-et-un** cartons », « contient **cent quatre
+     cent-quatre-vingts** places », « atteint **trois cent trois-cent-cinquante**
+     euros ». Aucune des trois n'est exploitable.
+  2. Les formes marquées comme fautives — « vingt et un », « cent quatre-vingts »,
+     « trois cent cinquante » — sont la graphie **traditionnelle**, parfaitement
+     correcte et encore majoritaire. Le trait d'union généralisé vient des
+     rectifications de 1990 : c'est une graphie **admise**, pas la seule licite.
+     Présenter l'autre comme une faute est un contresens.
+- **Correction proposée** : marquer le nombre entier, et passer la règle en
+  `disputed` (les deux graphies sont valides).
+
+### [GRAVE] `densify-orthographe` / `quelquefois` — une phrase correcte sanctionnée, une phrase rendue incompréhensible
+- **Où** : `densify-orthographe.ts:71` et `:73`
+- **Texte** : « Il lui arrive [quelquefois] de rentrer avant la nuit. », fix `"quelques fois"` ;
+  « Il a essayé trois ou [quelquefois] quatre fois de suite. », fix `"quelques"`
+- **Problème** : phrase 1 : « Il lui arrive quelquefois de rentrer avant la nuit »
+  est **irréprochable** — *quelquefois* y signifie « parfois », c'est exactement son
+  emploi. Rien dans la phrase ne suggère un décompte. L'exercice sanctionne une
+  graphie juste.
+  Phrase 3 : après correction on lit « Il a essayé trois ou **quelques quatre
+  fois** de suite », qui n'est pas français. Le mot marqué était en réalité un mot
+  en trop (la phrase visée est « trois ou quatre fois de suite ») et aurait dû
+  recevoir `fix: "à supprimer"`.
+- **Correction proposée** : retirer la phrase 1, et passer la phrase 3 en
+  `fix: "à supprimer"`.
+
+### [GRAVE] `densify-orthographe` / `week-end` — « accroché vis-à-vis à vis de la fenêtre »
+- **Où** : `densify-orthographe.ts:46`
+- **Texte** : « Le miroir est accroché [vis] à vis de la fenêtre. », fix `"vis-à-vis"`
+- **Problème** : seul le premier *vis* est marqué, mais la correction réécrit la
+  locution entière. Après substitution : « Le miroir est accroché **vis-à-vis à
+  vis** de la fenêtre. »
+- **Correction proposée** : marquer « [vis à vis] » → `"vis-à-vis"`.
+
+### [GRAVE] `densify-orthographe` / `aujourdhui` — « depuis aujourd'hui hui »
+- **Où** : `densify-orthographe.ts:105`
+- **Texte** : « Il pleut depuis [aujourd] hui sans la moindre accalmie. », fix `"aujourd'hui"`
+- **Problème** : le « hui » qui suit n'est pas dans le marquage : « Il pleut depuis
+  **aujourd'hui hui** sans la moindre accalmie. » La phrase est de surcroît peu
+  naturelle (« il pleut depuis ce matin » serait le tour attendu).
+- **Correction proposée** : marquer « [aujourd hui] » → `"aujourd'hui"`.
+
+### [MOYEN] `densify-orthographe` / `etc` — les trois phrases restent mal ponctuées après correction
+- **Où** : `densify-orthographe.ts:57-59`
+- **Texte** : « Il faut des vis, des clous, des chevilles, [etc...] rien ne manque. » ;
+  « Elle collectionne timbres, pièces, cartes, [etc] sans jamais trier. » ;
+  « On y trouve romans, essais, manuels, [ect.] et bien d'autres. » — fix `"etc."` dans les trois cas
+- **Problème** : la correction est juste sur l'abréviation, mais la phrase obtenue
+  reste fautive : « … des chevilles, **etc. rien ne manque** », « … cartes, **etc.
+  sans jamais trier** », « … manuels, **etc. et bien d'autres** ». Le point
+  abréviatif ferme la phrase et la suite reprend en minuscule sans virgule. Il
+  fallait « etc., sans jamais trier ». La troisième cumule un pléonasme :
+  « etc. et bien d'autres » dit deux fois la même chose.
+- **Correction proposée** : « Elle collectionne timbres, pièces, cartes, etc., sans jamais trier. »
+
+### [MOYEN] `densify-orthographe` / `chariot` et `circonflexe` — deux graphies rectifiées données pour des fautes
+- **Où** : `densify-orthographe.ts:136` et `:27`
+- **Texte** : « Le [charriot] de supermarché grince à chaque virage. », fix `"chariot"` ;
+  « Ces poires ne sont pas encore [mures] pour la tarte. », fix `"mûres"`
+- **Problème** : *charriot* est la graphie **recommandée par les rectifications de
+  1990**, précisément pour l'aligner sur *charrette* et *charrue* — les deux autres
+  phrases de la même règle. La règle marque donc comme faute la forme que la
+  réforme a créée pour rétablir la cohérence qu'elle enseigne.
+  De même, l'accent circonflexe sur *mûr* n'est maintenu par les rectifications
+  qu'au **masculin singulier** (*mûr* / *mur*) : *mures* au féminin pluriel est une
+  graphie admise. Même défaut que celui déjà relevé sur `ortho-gageure`.
+- **Correction proposée** : remplacer *charriot* par un mot sans variante admise, et
+  déplacer *mûres* vers un cas non concerné par la rectification.
+
+### [MOYEN] `densify-orthographe` / `emment` recoupe `amment-emment` dans le même fichier
+- **Où** : `densify-orthographe.ts:22-25` (`amment-emment`) et `:149-152` (`emment`)
+- **Texte** : lot 1 : « Il agit [prudament]… » → `"prudemment"`, « Elle a répondu
+  [savament]… » → `"savamment"` ; lot 2 : « Il a [apparament] oublié… » →
+  `"apparemment"`, « Elle répond [inteligemment]… » → `"intelligemment"`
+- **Problème** : même point d'orthographe (les adverbes en -amment / -emment),
+  mêmes types de fautes, dans un fichier de 40 règles. Deux entrées pour un seul
+  mécanisme.
+
+### [MINEUR] `densify-orthographe` — phrases jumelles et slugs qui ne correspondent pas
+- **Où** : `densify-orthographe.ts:76-77`, `:42`, `:146`
+- **Texte** : « Il s'est levé [bientôt] ce matin, avant le jour. » et « Elle est
+  arrivée [bientôt] ce matin, avant tout le monde. » — même structure, même
+  correction, même complément de temps.
+- **Problème annexe** : le `ruleSlug` `langage` reçoit une phrase sur *acompte*
+  (`:42`) et le `ruleSlug` `imbecile` une phrase sur *atterrir* (`:146`) : dans les
+  deux cas l'apprenant verra la phrase sous un énoncé qui ne la couvre pas.
+  Enfin `monsieur-abrev` (`:172-173`) donne **deux corrections différentes**
+  (`"MM."` puis `"Mme"`) pour la **même forme marquée** `[Mrs]`, à une ligne
+  d'intervalle.
+
+### [GRAVE] `densify-vocabulaire` / `savérer` — « Le diagnostic s'est confirmé vrai »
+- **Où** : `densify-vocabulaire.ts:289`
+- **Texte** : « Le diagnostic s'est [avéré] vrai après plusieurs examens. », fix `"confirmé"`
+- **Problème** : *se confirmer* ne se construit pas avec un attribut. Après
+  correction : « Le diagnostic **s'est confirmé vrai** après plusieurs examens. »
+  Il fallait « s'est révélé exact » ou simplement « s'est confirmé ». C'est
+  exactement le défaut déjà relevé sur `impropriete-avoir-lair`
+  (`batch-003-registre.ts:376-389`) : la règle sur *s'avérer* casse ses propres
+  phrases, deux lots plus loin.
+- **Correction proposée** : marquer « [avéré vrai] » → `"révélé exact"`.
+
+### [GRAVE] `densify-vocabulaire` / `eminent-2` — trois phrases rattachées à une règle qui ne les explique pas
+- **Où** : `densify-vocabulaire.ts:247-251`
+- **Texte** : `ruleSlug: "eminent-2"` avec « L'[influence] de touristes bloque tout
+  le centre-ville. » → `"affluence"`, « Son [affluence] sur le conseil reste
+  considérable. » → `"influence"`, « On note une forte [influence] aux caisses le
+  samedi. » → `"affluence"`
+- **Problème** : les trois phrases portent sur le couple *affluence* / *influence*,
+  la règle sur *éminent* / *imminent*. L'apprenant recevra ces phrases sous un
+  énoncé qui ne les couvre pas. Même défaut que `davantage-2` dans
+  `densify-homophones.ts:259-263`.
+- **Correction proposée** : créer une règle `affluence-influence`.
+
+### [GRAVE] `densify-vocabulaire` / `somptuaire` — une phrase correcte corrigée vers la forme contestée
+- **Où** : `densify-vocabulaire.ts:234`
+- **Texte** : « Cette dépense [somptueuse] a été jugée injustifiable. », fix `"somptuaire"`
+- **Problème** : « une dépense somptueuse » est du français irréprochable — c'est
+  même le sens propre de l'adjectif (« d'une magnificence coûteuse »). La règle
+  marque donc comme fautive une phrase juste, et impose à sa place *somptuaire*,
+  qui désigne à l'origine ce qui **restreint** le luxe (les *lois somptuaires*) et
+  dont l'emploi au sens de « de luxe » est précisément le point critiqué. La
+  correction va du sûr vers le discuté.
+- **Correction proposée** : supprimer la phrase ; les deux autres (`:233` et `:235`,
+  *somptuaire* → *somptueux*) suffisent à porter la règle.
+
+### [GRAVE] `densify-vocabulaire` / `prescrire` — un exercice insoluble
+- **Où** : `densify-vocabulaire.ts:220`
+- **Texte** : « Ces méthodes ont été [prescrites] par la commission. », fix `"proscrites"`
+- **Problème** : la phrase marquée est **parfaitement correcte** telle quelle — une
+  commission qui prescrit des méthodes, c'est son travail ordinaire. Rien dans la
+  phrase ne permet de deviner qu'on attendait l'interdiction plutôt que la
+  prescription. L'apprenant qui laisse la phrase intacte a raison, et l'exercice le
+  déclare en faute. (Les deux autres phrases de la règle, elles, sont désambiguïsées
+  par le contexte : « trois semaines de repos », « formellement ».)
+- **Correction proposée** : ajouter un indice de sens (« Ces méthodes dangereuses
+  ont été [prescrites] par la commission »), ou retirer la phrase.
+
+### [MOYEN] `densify-vocabulaire` — quatre positions prescriptives contestées, aucune marquée `disputed`
+- **Où** : `densify-vocabulaire.ts:252-256` (`alternative`), `:257-261` (`conséquent`),
+  `:262-266` (`realiser`), `:277-281` (`voire-meme`)
+- **Texte** : « Quelles sont les autres [alternatives] envisageables ? » → `"solutions"` ;
+  « Le budget est [conséquent] » → `"important"` ; « Je [réalise] seulement
+  maintenant » → `"mesure"` ; « voire [même] trois » → `"à supprimer"`
+- **Problème** : ces quatre emplois sont enregistrés par les dictionnaires usuels
+  (Robert, Larousse) : *alternative* au sens de « solution de remplacement »,
+  *réaliser* au sens de « se rendre compte », et *voire même* est défendu par
+  Grevisse comme un renforcement expressif ancien. Ce sont des points de norme
+  **discutés**, exactement le genre de cas pour lequel le module dispose d'un statut
+  `disputed` (cf. les douze règles du lot 005). Les présenter comme des fautes
+  franches enseigne une norme plus étroite que la norme réelle.
+- **Correction proposée** : passer ces règles en `disputed`, ou reformuler l'énoncé
+  en termes de registre soigné plutôt que de correction.
+
+### [MOYEN] `densify-vocabulaire` — `voire` et `voire-meme` bâties sur les mêmes phrases
+- **Où** : `densify-vocabulaire.ts:25-26` et `:278-279`
+- **Texte** : « Il faudra deux jours, [voir] trois, pour tout terminer. » /
+  « Il faudra deux jours, voire [même] trois selon la météo. » ;
+  « Le trajet dure trois heures, [voir] davantage en été. » /
+  « Le trajet coûte cent euros, voire [même] davantage encore. »
+- **Problème** : les deux règles réemploient le même moule de phrase à deux cent
+  cinquante lignes d'intervalle. L'apprenant croira réviser deux fois le même
+  exercice alors qu'on lui demande deux choses différentes — et rien ne l'avertit
+  du changement de consigne.
+
+### [MINEUR] `densify-vocabulaire` — le déterminant trahit la réponse, et deux phrases jumelles
+- **Où** : `densify-vocabulaire.ts:225`, `:323` et `:325`
+- **Texte** : « Il a obtenu une [prolongement] de son congé maladie. », fix `"prolongation"`
+- **Problème** : « une prolongement » est doublement fautif (le genre autant que le
+  mot) : l'article donne la réponse avant toute réflexion sur le sens. Même défaut
+  que celui relevé sur `luxure-luxe` (`batch-009-paronymes.ts:260`).
+- **Problème annexe** : `:323` et `:325` sont jumelles — « Les archéologues ont mis
+  [à] jour une villa romaine. » et « Ces fouilles ont mis [à] jour des vestiges du
+  Moyen Âge. » : même verbe, même correction, même contexte archéologique, dans une
+  règle de trois phrases.
+
+### [MINEUR] `densify-vocabulaire` / `original` — une phrase où les deux mots conviennent
+- **Où** : `densify-vocabulaire.ts:66`
+- **Texte** : « Le projet [original] a été profondément modifié depuis. », fix `"originel"`
+- **Problème** : *original* signifie aussi « qui est à l'origine, qui émane de la
+  source » (une édition originale, le texte original) : « le projet original a été
+  modifié » est défendable. La distinction que la règle veut faire passer est réelle,
+  mais cette phrase-là ne la tranche pas.
+
+### [GRAVE] `densify2-homophones` / `quoi-que` — un `fix` identique au mot marqué
+- **Où** : `densify2-homophones.ts:91`
+- **Texte** : « Il persévère, [quoiqu']il soit épuisé depuis des jours. », fix `"quoiqu'"`
+- **Problème** : la correction est **rigoureusement identique** au texte marqué. La
+  phrase est correcte, il n'y a rien à changer, et l'apprenant se voit pourtant
+  annoncer une faute. Troisième occurrence du même défaut dans le module, après
+  `point-virgule-liste` (`batch-013:74-87`) et `expr-a-lencontre` (`batch-015:313`).
+- **Correction proposée** : passer la phrase en `fix: null`.
+
+### [GRAVE] `densify2-homophones` / `davantage-2` — le mauvais `ruleSlug`, une seconde fois
+- **Où** : `densify2-homophones.ts:249-252`
+- **Texte** : `ruleSlug: "davantage-2"` avec « Il a [quand-même] réussi à terminer
+  avant les autres. » et « C'est [quand-même] étrange, cette absence de réponse. »,
+  fix `"quand même"`
+- **Problème** : exactement la même erreur d'aiguillage que celle déjà signalée dans
+  `densify-homophones.ts:259-263` : des phrases sur *quand même* rangées sous une
+  règle qui porte sur *davantage*. Le défaut a donc été **reproduit** d'un fichier
+  de densification à l'autre : la règle `davantage-2` reçoit désormais cinq phrases
+  hors sujet.
+- **Correction proposée** : créer une règle `quand-meme` et y déplacer les cinq phrases.
+
+### [GRAVE] `densify2-homophones` — des phrases correctes déclarées fautives
+- **Où** : `densify2-homophones.ts:26` et `:219`
+- **Texte** : « Il range toujours [ces] outils dans le même tiroir. », fix `"ses"` ;
+  « Dis-moi [pourquoi] tu te bats depuis toutes ces années. », fix `"pour quoi"`
+- **Problème** : les deux phrases sont **irréprochables telles quelles**. « Il range
+  toujours ces outils dans le même tiroir » est un démonstratif tout à fait normal ;
+  rien n'impose la possession. « Dis-moi pourquoi tu te bats » est la lecture la plus
+  naturelle (la raison), et c'est même la seule que le verbe *se battre* appelle sans
+  complément. L'exercice est insoluble et sanctionne une réponse juste.
+  Le contraste est éclairant : la phrase voisine (`:27`) est, elle, désambiguïsée par
+  un marqueur explicite — « [Ses] arbres-**là** » impose le démonstratif. Et `:218`
+  (« Personne ne sait [pourquoi] il a finalement opté. ») est correctement construite,
+  puisque *opter* réclame *pour*. Les deux phrases fautives sont donc simplement mal
+  conçues, alors que le bon modèle existait à la ligne d'à côté.
+  À noter enfin que `:219` est la **jumelle** de `densify-homophones.ts:223`
+  (« Dis-moi [pourquoi] tu te bats vraiment, au fond. »), déjà signalée : le même
+  exercice insoluble a été dupliqué d'un fichier à l'autre.
+
+### [MOYEN] `densify2-homophones` — quatre règles pour un seul mécanisme (la soudure des adverbes de temps)
+- **Où** : `densify2-homophones.ts:81-84` (`plutot`), `:221-224` (`aussitot`),
+  `:225-228` (`sitot`), et `densify-orthographe.ts:75-79` (`bientot`)
+- **Texte** : « Nous partirons [plutôt] que prévu » → `"plus tôt"` ; « Elle est partie
+  [aussitôt] que possible » → `"aussi tôt"` ; « Personne ne se couche [sitôt] » →
+  `"si tôt"` ; « Il s'est levé [bientôt] ce matin » → `"bien tôt"`
+- **Problème** : c'est quatre fois la même opération intellectuelle — distinguer
+  l'adverbe soudé du groupe « adverbe + tôt » —, appliquée à quatre mots. Rien
+  n'interdit de les traiter, mais le module les présente comme quatre règles
+  indépendantes, sans qu'aucune ne renvoie aux autres ; l'apprenant refait quatre
+  fois le même raisonnement sans jamais le voir nommé.
+- **Note annexe** : `:223` (« Elle est partie [aussitôt] que possible ce matin-là. »)
+  reproduit le cas déjà signalé sur `densify-homophones` — « aussitôt que possible »
+  est une forme courante et défendable, non une faute franche.
+
+### [GRAVE] `densify2-accords-conj` / `y-compris` — la règle se contredit entre ses deux phrases, et corrige du juste vers le faux
+- **Où** : `densify2-accords-conj.ts:120-121`
+- **Texte** : « Le prix est ferme, taxes y [comprises] et livraison incluse. », fix `"compris"` ;
+  « Toutes les pièces, annexes y [compris], sont bien jointes. », fix `"comprises"`
+- **Problème** : *y compris* est invariable **quand il précède** le nom, et
+  **s'accorde quand il le suit** (Académie française, Grevisse : « y compris les
+  taxes » mais « les taxes y comprises »). Dans les deux phrases, *y compris* suit le
+  nom : l'accord est donc requis dans les deux cas. La première phrase était
+  **correcte** et la règle la déclare fautive ; la seconde, dans une position
+  syntaxique identique, reçoit la correction inverse. L'apprenant reçoit deux
+  verdicts opposés sur la même construction, à une ligne d'intervalle.
+- **Correction proposée** : passer `:120` en `fix: null`, ou déplacer *y compris*
+  devant le nom (« y [comprises] les taxes » → `"compris"`).
+
+### [GRAVE] `densify2-accords-conj` / `auxiliaire` — « Elle est descendue les escaliers »
+- **Où** : `densify2-accords-conj.ts:310`
+- **Texte** : « Elle [a] descendue les escaliers en courant. », fix `"est"`
+- **Problème** : *descendre* suivi d'un complément d'objet direct se conjugue avec
+  **avoir** : « Elle a descendu les escaliers. » La faute d'origine était l'accord du
+  participe, pas l'auxiliaire. La correction produit « Elle **est descendue les
+  escaliers** en courant », qui n'est pas français — un verbe transitif direct ne peut
+  pas prendre *être* devant son objet.
+  La règle se dément d'ailleurs elle-même à la ligne suivante : « Il [est] monté les
+  cartons au grenier. » → `"a"` applique correctement le même principe, au même verbe
+  de mouvement, en sens inverse.
+- **Correction proposée** : marquer « [a descendue] » → `"a descendu"`.
+
+### [GRAVE] `densify2-accords-conj` / `tout-le-monde` — « Tout le monde a leur avis »
+- **Où** : `densify2-accords-conj.ts:136`
+- **Texte** : « Tout le monde [ont] leur avis sur la question. », fix `"a"`
+- **Problème** : le possessif n'est pas dans le marquage. Après correction : « Tout le
+  monde **a leur avis** sur la question. » Il fallait « a **son** avis ». La phrase
+  modèle reste fausse sur le point même que la règle enseigne — que *tout le monde*
+  commande le singulier.
+- **Correction proposée** : marquer « [ont leur] » → `"a son"`.
+
+### [GRAVE] `densify2-accords-conj` / `participe-présent` — « Des enfants fatiguant de bruit »
+- **Où** : `densify2-accords-conj.ts:239`
+- **Texte** : « Des enfants [fatigants] de bruit couraient partout. », fix `"fatiguant"`
+- **Problème** : après correction, « Des enfants **fatiguant de bruit** couraient
+  partout. » *Fatiguer* ne se construit pas avec *de* : la phrase n'a aucun sens. Elle
+  contredit de surcroît la règle `fatigant` du même fichier (`:317-318`), qui corrige
+  *fatiguant* en *fatigant* — le module enseigne donc les deux sens de la correction
+  pour le même mot, à quatre-vingts lignes d'écart, et l'un des deux sur une phrase
+  impossible.
+- **Correction proposée** : remplacer par un vrai participe présent transitif
+  (« Des enfants [fatigants] leurs parents… » → `"fatiguant"` n'est guère mieux ;
+  mieux vaut refaire la phrase : « des cris [fatigants] les voisins »).
+
+### [GRAVE] `densify2-accords-conj` / `si-conditionnel` — « Si tu avais le temps, passe me voir demain »
+- **Où** : `densify2-accords-conj.ts:222`
+- **Texte** : « Si tu [aurais] le temps, passe me voir demain. », fix `"avais"`
+- **Problème** : la correction supprime bien le conditionnel après *si*, mais la
+  phrase obtenue est mal formée : un *si* + imparfait appelle un conditionnel dans la
+  principale, pas un impératif. « Si tu avais le temps, passe me voir demain » ne se
+  dit pas ; il fallait « Si tu **as** le temps, passe me voir demain. »
+- **Correction proposée** : fix `"as"`.
+
+### [GRAVE] `densify2-accords-conj` — deux défauts déjà signalés, reproduits à l'identique
+- **Où** : `densify2-accords-conj.ts:129` et `:52`
+- **Texte** : « Ce [sont] moi qui ai réservé les billets de train. », fix `"C'est"` →
+  « **Ce C'est** moi qui ai réservé les billets de train. » ;
+  « Plus d'un lecteur se sont [plaints] de cette coquille. », fix `"plaint"` →
+  « Plus d'un lecteur **se sont plaint** de cette coquille. »
+- **Problème** : ce sont mot pour mot les deux défauts déjà relevés dans
+  `densify-accords.ts:397` et `:311`. La densification les a donc **recopiés** dans un
+  second fichier au lieu de les corriger : la même phrase absurde existe désormais en
+  deux exemplaires dans la base.
+- **Correction proposée** : marquer « [Ce sont] » → `"C'est"` et « [se sont plaints] »
+  → `"s'est plaint"`.
+
+### [MOYEN] `densify2-accords-conj` — la moitié du volet conjugaison recopie `densify-conjugaison`
+- **Où** : `densify2-accords-conj.ts:180-328` face à `densify-conjugaison.ts:10-167`
+- **Texte** : une quinzaine de couples quasi identiques, dont :
+  – « L'équipe [vaint] rarement à l'extérieur **cette saison**. » / « **Cette année**,
+    l'équipe [vaint] rarement à l'extérieur. » (`d-conj:59` / `d2:230`)
+  – « Vous [prédites] toujours le pire avant chaque **examen**. » / « … avant chaque
+    **échéance**. » (`d-conj:100` / `d2:271`)
+  – « **Le fil** [romp] toujours au même endroit. » / « **La corde** [romp] toujours au
+    même endroit. » (`d-conj:111` / `d2:279`)
+  – « **Ces** places ont été [crées] pour la **nouvelle promotion**. » / « **Les**
+    places ont été [créés] pour la **rentrée**. » (`d-conj:92` / `d2:263`)
+  – « Il [s'assoie] toujours **à la même place au fond**. » / « Il [s'assoie] toujours
+    **au fond de la salle**. » (`d-conj:127` / `d2:294`)
+  – « **Nous** [haissons] cette habitude depuis toujours. » / « **Vous** [haissez]
+    cette habitude depuis toujours. » (`d-conj:152` / `d2:315`)
+  – et de même pour `acheter-geler`, `faire-dire`, `resoudre`, `verbes-dre`,
+    `ouvrir-passé`, `passé-simple`, `passé-simple-pluriel`, `fatigant`.
+- **Problème** : le commentaire d'en-tête annonce pourtant l'objectif inverse —
+  « ne plus reconnaître une phrase avant de l'avoir lue ». Un seul mot change d'une
+  phrase à l'autre : l'apprenant reconnaîtra le moule dès la deuxième occurrence et
+  répondra sans lire. La densification n'ajoute ici que du volume.
+- **Correction proposée** : refaire ces phrases sur d'autres verbes du même groupe.
+
+### [MOYEN] `densify2-accords-conj` / `un-des-qui` — les deux accords sont admis
+- **Où** : `densify2-accords-conj.ts:132-133`
+- **Texte** : « C'est un des rares peintres qui [sait] encore ce métier. » → `"savent"` ;
+  « Voilà une des causes qui [explique] le retard du chantier. » → `"expliquent"`
+- **Problème** : après *un des… qui*, le pluriel est l'accord ordinaire, mais le
+  singulier est légitime quand on veut isoler l'élément — c'est ce que disent Grevisse
+  et l'Académie. Dans la seconde phrase surtout (« une des causes qui explique le
+  retard »), le singulier est parfaitement défendable. Présenter le pluriel comme la
+  seule réponse sanctionne un accord correct.
+
+### [MINEUR] `densify2-accords-conj` — trois phrases sous un `ruleSlug` qui ne les couvre pas
+- **Où** : `densify2-accords-conj.ts:267`, `:299`, `:93`
+- **Texte** : `faire-dire` reçoit « Vous [étes] attendus depuis une bonne heure. » →
+  `"êtes"` — un simple accent sur *être*, sans rapport avec les irrégularités de
+  *faire* et *dire* ; `subj-pouvoir` reçoit « Bien qu'elle [sait] la vérité, elle se
+  tait. » → `"sache"` — troisième occurrence dans le module de « bien que + savoir »
+  rangée sous une règle qui porte sur *pouvoir* (déjà signalé en
+  `densify-conjugaison.ts:133`).
+- **Problème annexe** : `:93` « Quand on [sont] pressés, on oublie l'essentiel. » →
+  `"est"` laisse « on est **pressés** » : l'accord sylleptique est admis, mais dans une
+  règle qui vient d'enseigner que *on* commande le singulier, la phrase modèle
+  brouille aussitôt le message.
+
+### [GRAVE] `densify2-ortho-vocab` — six défauts déjà signalés, recopiés dans un troisième fichier
+- **Où** : `densify2-ortho-vocab.ts:395`, `:80-81`, `:96-97`, `:73`, `:351`, `:361-364`
+- **Texte et effet après correction** :
+  – `:395` « Le calcul s'est [avéré] vrai après vérification. » → `"exact"` donne
+    « Le calcul **s'est exact** après vérification. » C'est **mot pour mot** la phrase
+    déjà signalée en `batch-003-registre.ts:389`, verbe disparu compris.
+  – `:80-81` « Le devis atteint quatre cent [douze] euros » → `"quatre-cent-douze"`
+    donne « quatre cent **quatre-cent-douze** euros » ; « trente et [un] cartons » →
+    `"trente-et-un"` donne « trente et **trente-et-un** cartons ». Même défaut qu'en
+    `densify-orthographe.ts:81-83`, et la seconde phrase est la jumelle exacte de
+    `:81` (« vingt et [un] cartons dans le garage »).
+  – `:96-97` « Il attend [que] elle réponde » → « Il attend **qu'elle elle** réponde » ;
+    « Personne [ne] a compris » → « Personne **n'a a** compris ». Reprise intégrale du
+    défaut de `densify-orthographe.ts:99-101`.
+  – `:73` « Il lui arrive [quelquefois] de rentrer avant la nuit tombée. » →
+    `"quelques fois"` : la phrase correcte déjà signalée en `densify-orthographe.ts:71`,
+    republiée à un mot près.
+  – `:351` « Ces dépenses [somptueuses] ont été jugées injustifiables. » →
+    `"somptuaires"` : la correction du juste vers le discuté, déjà relevée en
+    `densify-vocabulaire.ts:234`.
+  – `:361-364` `ruleSlug: "eminent-2"` reçoit deux phrases de plus sur
+    *affluence* / *influence* : la règle sur *éminent* porte désormais **cinq** phrases
+    hors sujet.
+- **Problème** : ce n'est plus une erreur isolée mais un **mécanisme de propagation**.
+  Les fichiers `densify2-*` ont été produits en dupliquant les `densify-*` sans les
+  relire : les phrases cassées se sont multipliées au lieu d'être corrigées. Chaque
+  correction devra donc être appliquée en deux ou trois endroits.
+- **Correction proposée** : traiter les `densify2-*` comme des copies à réviser
+  intégralement, et non comme des ajouts nouveaux.
+
+### [GRAVE] `densify2-ortho-vocab` / `original` — « Le manuscrit originel »
+- **Où** : `densify2-ortho-vocab.ts:214`
+- **Texte** : « Le manuscrit [original] a été perdu dans l'incendie. », fix `"originel"`
+- **Problème** : « le manuscrit original » est la seule tournure reçue — c'est même le
+  sens premier de l'adjectif (« qui émane directement de l'auteur » : le texte
+  original, l'édition originale, l'original d'un acte). « Le manuscrit originel » ne se
+  dit pas. La correction va du juste vers le fautif, dans une règle qui prétend
+  enseigner cette distinction précise.
+- **Correction proposée** : supprimer la phrase, ou l'inverser.
+
+### [GRAVE] `densify2-ortho-vocab` / `prescrire` — la phrase insoluble, aggravée
+- **Où** : `densify2-ortho-vocab.ts:339`
+- **Texte** : « Le règlement [prescrit] l'usage du téléphone en salle. », fix `"proscrit"`
+- **Problème** : la phrase est **correcte telle quelle** : un règlement qui prescrit
+  l'usage d'un appareil, c'est ordinaire. Rien n'indique qu'il s'agisse d'une
+  interdiction. C'est la même phrase que `densify-vocabulaire.ts:219`, **mais privée de
+  l'adverbe « formellement »** qui, là-bas, permettait au moins de deviner l'intention.
+  La reprise a donc supprimé le seul indice qui rendait l'exercice soluble.
+- **Correction proposée** : rétablir « formellement », ou retirer la phrase.
+
+### [MOYEN] `densify2-ortho-vocab` / `ent-ant` — « Ce détail paraît négligent »
+- **Où** : `densify2-ortho-vocab.ts:21`
+- **Texte** : « Ce détail paraît [négligant] mais il compte beaucoup. », fix `"négligent"`
+- **Problème** : *négligent* qualifie une personne qui néglige, pas une chose dont on
+  fait peu de cas. Un détail ne peut pas être « négligent » — le mot attendu par le
+  sens est **négligeable**. Après correction, la phrase modèle est orthographiquement
+  juste et sémantiquement absurde.
+- **Correction proposée** : « Cet élève paraît [négligant] depuis la rentrée. » → `"négligent"`.
+
+### [MOYEN] `densify2-ortho-vocab` — un fichier de 430 lignes presque entièrement recopié
+- **Où** : `densify2-ortho-vocab.ts` face à `densify-orthographe.ts` et `densify-vocabulaire.ts`
+- **Texte** : une soixantaine de couples, dont :
+  – « Le concert **se tient** dans [l'hall] de la mairie. » / « Le concert **a lieu**
+    dans [l'hall] de la mairie. » (`d-ortho:95` / `d2:92`)
+  – « Elle a mesuré [l'hauteur] **du mur** avant de commander. » / « … [l'hauteur]
+    **du plafond** avant d'acheter. » (`d-ortho:96` / `d2:93`)
+  – « Les [Mrs] **Bernard et Leroy** président la séance. » / « Les [Mrs] **Petit et
+    Durand** président la séance. » (`d-ortho:172` / `d2:161`)
+  – « Vingt ans, c'est [bientôt] pour **prendre une telle décision**. » / « … pour
+    **partir en retraite**. » (`d-ortho:78` / `d2:77`)
+  – et, côté vocabulaire, `conjoncture`, `irruption`, `davantage`, `amener`,
+    `emmener`, `martyr`, `acquit`, `consumer`, `detonant`, `habilete`, `pecuniaire`,
+    `prolongation`, `rebattre`, `realiser`, `plain-pied`, `for-interieur`, `a-lenvi`,
+    `dores-deja`, `au-fur`, `chez-le` — toutes bâties sur le même moule que leur
+    homologue du premier fichier.
+- **Problème** : le fichier annonce vouloir « ne plus reconnaître une phrase avant de
+  l'avoir lue ». En pratique il change un nom propre ou un complément et republie la
+  même phrase. Le gain pédagogique est nul, le volume à relire est doublé, et chaque
+  défaut existe désormais en double.
+- **Note** : la phrase « Le trajet coûte cent euros, [voir] davantage en été. » (`:182`)
+  est la **troisième** version d'un même moule, après `densify-vocabulaire.ts:26`
+  (« Le trajet dure trois heures, [voir] davantage en été. ») et `:279`
+  (« Le trajet coûte cent euros, voire [même] davantage encore. ») — et les trois ne
+  demandent pas la même réponse.
+
+### [MINEUR] `densify2-ortho-vocab` / `etc` — un point de trop après correction
+- **Où** : `densify2-ortho-vocab.ts:60-61`
+- **Texte** : « Il faut des clous, des vis, des chevilles, [etc..]. » et « On y trouve
+  du pain, du lait, des œufs, [ect]. », fix `"etc."` dans les deux cas
+- **Problème** : le point final de la phrase n'est pas dans le marquage. Après
+  correction on obtient « des chevilles, **etc..** » et « des œufs, **etc..** » : le
+  point abréviatif d'*etc.* absorbe le point final, il ne s'y ajoute pas.
+- **Correction proposée** : inclure le point final dans le marquage.
+
+### [MINEUR] `densify3-homophones-paronymes` — un fichier sain, à trois réserves près
+- **Où** : `densify3-homophones-paronymes.ts` (50 groupes, 100 phrases)
+- **Constat** : c'est, de loin, le meilleur fichier de densification. J'ai appliqué les
+  cent corrections : **toutes** produisent une phrase grammaticale et naturelle, le
+  marquage couvre exactement ce qu'il faut remplacer, aucun `fix` identique au mot
+  marqué, aucun `ruleSlug` égaré. Les distinctions sont justes et souvent fines
+  (*affleurer* / *effleurer*, *agonir* / *agoniser*, *amoral* / *immoral*,
+  *anoblir* / *ennoblir*, *décrépi* / *décrépit*, *désaffection* /
+  *désaffectation*, *inanition* / *inanité*, *munificence* / *magnificence*,
+  *oiseux* / *oisif*, *ombragé* / *ombrageux*, *opprimer* / *oppresser*,
+  *suggestion* / *sujétion*). Les faits vérifiables sont exacts : la côte amalfitaine
+  est bien classée à l'UNESCO, Napoléon a bien anobli ses généraux.
+- **Réserves** :
+  1. `:105` « La [poids] servait autrefois à calfater les coques. » → `"poix"` et
+     `:179` « La [luxe] du jardin surprend en plein mois d'août. » → `"luxuriance"` :
+     la correction introduit un **troisième mot que le titre de la règle n'annonce
+     pas** (*poix* dans `poids-pois`, *luxuriance* dans `luxure-luxe`). Même défaut
+     que celui déjà relevé sur `mer-mere-maire`. Dans les deux cas, le déterminant
+     (« La poids », « La luxe ») trahit de surcroît la réponse par le genre.
+  2. `:80-81` (`taule-tole`) : les deux phrases ont **le même mot marqué et la même
+     correction** (`taule` → `tôle`). La règle n'illustre jamais *taule* dans son
+     emploi correct ; c'est deux fois le même exercice.
+  3. `:69` « La [renne] mère surveillait toute la ruche. » → `"reine"` : « reine
+     mère » est une formule de cour, pas d'apiculture. « La reine surveillait toute la
+     ruche » aurait suffi.
+- **Note** : `:143` (`egailler-egayer`, fix `"égaierait"`) et `:207`
+  (`stupefait-stupefie`, fix `"stupéfiés"`) reconduisent deux réserves déjà portées au
+  rapport sur le lot 009 : dans les deux cas une seconde forme est également reçue
+  (*égayerait*, *stupéfaits*), et l'apprenant qui la donne est déclaré en faute.
 
 ---
 

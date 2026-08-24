@@ -88,6 +88,28 @@ baleine à 600 kg né d'une conversion depuis 600 livres — et le relecteur con
 que « chaque fois que le seed et le cahier se contredisent, c'est le seed qui a
 raison ». **Vérifier domaine par domaine, jamais par principe.**
 
+## Le constat le plus rentable de tout l'audit : une astuce fabriquée par le code
+
+`src/modules/culture-g/contenu.ts:219` fabrique l'astuce des 280 leçons du
+cahier d'origine en collant les titres de leurs sections :
+
+```ts
+tip: `Cette leçon couvre : ${sections.map((s) => s.titre).join(" · ")}`
+```
+
+Or ces titres nomment ce que le quiz demande — Yggdrasil, Odin, Persée, Pangu,
+Amaterasu, « la Semaine sanglante (21-28 mai 1871) ». **L'astuce donne donc la
+réponse, et elle est lisible sur la fiche du catalogue avant même d'ouvrir une
+question.** Mesuré littéralement : 34 des 280 leçons ; la lecture humaine en
+trouve bien davantage, les titres nommant souvent la réponse sans la recopier
+mot pour mot.
+
+C'est le seul défaut majeur de l'audit qui se répare **en une seule ligne de
+code** au lieu de milliers de retouches de contenu. À traiter en premier.
+
+Pour comparaison, les astuces écrites à la main trahissent 41 notions sur 669 —
+là il faudra bien les reprendre une par une.
+
 ## Deux faux positifs — les écarter au tri
 
 - **« Notion sans cours »** pour un slug `cg-neuf-*`. Il n'y a que 42 notions
