@@ -69,7 +69,7 @@ export const BATCH_007: ContentBatch = {
         { marked: "Ne [donne-le] pas avant d'avoir vérifié son contenu.", fix: "le donne" },
         { marked: "Ne [dis-lui] rien de cette conversation, s'il te plaît.", fix: "lui dis" },
         { marked: "Surtout, ne [range-le] pas dans le mauvais tiroir.", fix: "le range" },
-        { marked: "N'[approche-toi] pas trop près du bord de la falaise.", fix: "t'approche" },
+        { marked: "[N'approche-toi] pas trop près du bord de la falaise.", fix: "Ne t'approche" },
         { marked: "Ne me raconte pas la fin, je le lirai moi-même.", fix: null },
       ],
     },

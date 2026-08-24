@@ -95,7 +95,7 @@ export const BATCH_004: ContentBatch = {
       sentences: [
         { marked: "Merci de me renvoyer le formulaire signé, [svp], avant lundi.", fix: "s'il vous plaît" },
         { marked: "Pourriez-vous confirmer votre présence, [SVP], dès que possible ?", fix: "s'il vous plaît" },
-        { marked: "[Svp] transmettez ce document au service comptable.", fix: "Veuillez" },
+        { marked: "[Svp] transmettez ce document au service comptable.", fix: "S'il vous plaît," },
         { marked: "Un accusé de réception serait apprécié, [stp], avant ce soir.", fix: "s'il te plaît" },
         { marked: "Merci de bien vouloir me confirmer la date retenue.", fix: null },
       ],
@@ -247,7 +247,7 @@ export const BATCH_004: ContentBatch = {
       sentences: [
         { marked: "[Suite] à notre conversation, je vous adresse le récapitulatif.", fix: "Faisant suite" },
         { marked: "[Suite] à votre appel, nous avons rouvert votre dossier.", fix: "Comme suite" },
-        { marked: "Je vous écris [suite] à l'annonce parue dans la presse locale.", fix: "à la suite de" },
+        { marked: "Je vous écris [suite] à l'annonce parue dans la presse locale.", fix: "après" },
         { marked: "[Suite] à votre demande, voici les documents rassemblés.", fix: "Comme suite" },
         { marked: "Je fais suite à notre échange téléphonique de ce matin.", fix: null },
       ],
@@ -307,7 +307,7 @@ export const BATCH_004: ContentBatch = {
       tip: "« Au plaisir » tout seul reste en suspens : termine la phrase.",
       difficulty: 2,
       sentences: [
-        { marked: "Au plaisir [que] vous me lisiez, je vous adresse mes salutations.", fix: "de" },
+        { marked: "Au plaisir de vous [lirez] bientôt, je vous adresse mes salutations.", fix: "lire" },
         { marked: "Au plaisir [pour] vous rencontrer lors du prochain salon.", fix: "de" },
         { marked: "Dans l'attente et au plaisir [à] vous lire très bientôt.", fix: "de" },
         { marked: "Au plaisir [que] nous puissions travailler ensemble prochainement.", fix: "de" },

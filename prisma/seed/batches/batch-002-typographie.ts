@@ -37,7 +37,7 @@ export const BATCH_002: ContentBatch = {
         { marked: "L'Assemblée [Nationale] se réunira dès la rentrée de septembre.", fix: "nationale" },
         { marked: "Le Conseil [D'État] a rendu son avis en fin de matinée.", fix: "d'État" },
         { marked: "La Cour des [Comptes] publie son rapport chaque année.", fix: "comptes" },
-        { marked: "Le [ministère] de la Culture occupe cet immeuble depuis longtemps.", fix: "Ministère" },
+        { marked: "Le [Ministère] de la Culture occupe cet immeuble depuis longtemps.", fix: "ministère" },
         { marked: "L'Éducation nationale recrute des enseignants dans toute la région.", fix: null },
       ],
     },

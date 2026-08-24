@@ -184,7 +184,7 @@ export const BATCH_006: ContentBatch = {
       difficulty: 3,
       sentences: [
         { marked: "Trente pour cent des candidats [a] échoué à l'écrit.", fix: "ont" },
-        { marked: "Vingt pour cent de la récolte [ont] été perdus.", fix: "a" },
+        { marked: "Vingt pour cent de la récolte [ont] disparu cette année.", fix: "a" },
         { marked: "Quinze pour cent des voix [manque] encore au dépouillement.", fix: "manquent" },
         { marked: "Cinquante pour cent du personnel [sont] en congé cette semaine.", fix: "est" },
         { marked: "Dix pour cent des dossiers ont été rejetés d'emblée.", fix: null },
@@ -214,7 +214,7 @@ export const BATCH_006: ContentBatch = {
       difficulty: 3,
       sentences: [
         { marked: "Tu auras [affaires] à un interlocuteur particulièrement exigeant.", fix: "affaire" },
-        { marked: "Nous avons eu à [faire] à un dossier très mal ficelé.", fix: "affaire" },
+        { marked: "Nous avons eu [affaires] à un dossier très mal ficelé.", fix: "affaire" },
         { marked: "Il a [affaires] à forte partie dans cette négociation.", fix: "affaire" },
         { marked: "Elle a compris à qui elle avait [affaires] dès la première minute.", fix: "affaire" },
         { marked: "J'ai à faire ce matin, mais je passerai cet après-midi.", fix: null },
@@ -275,7 +275,7 @@ export const BATCH_006: ContentBatch = {
       sentences: [
         { marked: "Les Misérables [reste] son roman préféré depuis l'adolescence.", fix: "restent" },
         { marked: "Les Fleurs du mal [a] été condamné à sa parution.", fix: "ont" },
-        { marked: "Illusions perdues [sont] plus difficiles d'accès qu'on ne croit.", fix: "est" },
+        { marked: "Illusions perdues [sont] un roman plus difficile qu'on ne croit.", fix: "est" },
         { marked: "Les Trois Mousquetaires [a] été porté vingt fois à l'écran.", fix: "ont" },
         { marked: "Le Rouge et le Noir se lit encore avec plaisir.", fix: null },
       ],
