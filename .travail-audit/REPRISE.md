@@ -27,9 +27,12 @@ hors ligne.
   de trois comptes. Sauvegarde avant toute migration :
   `docker exec la-regle-db pg_dump -U laregle laregle > sauvegardes/<nom>.sql`
   (`pg_dump` n'existe pas sur l'hôte, il faut passer par le conteneur).
-- **Ne touche pas au contenu du module français.** Interdiction permanente. On
-  peut le lire, l'auditer, le signaler — jamais le modifier. La clause qui
-  couvrait la culture générale a été levée : elle, on peut la corriger.
+- **Le contenu du module français : interdiction LEVÉE le 23 août 2026.** Elle
+  a tenu jusque-là, et le propriétaire l'a levée explicitement pour que les
+  90 constats graves de `francais.md` puissent être appliqués. La clause qui
+  couvrait la culture générale avait été levée plus tôt. Plus aucun module
+  n'est en lecture seule — ce qui rend la sauvegarde avant seed d'autant plus
+  nécessaire.
 - **Ne déploie rien.**
 - **Le validateur bloque le seed : ne contourne jamais une erreur en désactivant
   un contrôle.** S'il signale quelque chose, ou le contenu est fautif, ou le
