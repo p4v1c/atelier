@@ -58,10 +58,17 @@ filtre `dedoublonner()` de `src/modules/culture-g/contenu.ts` n'en attrape
 aucune — le relecteur langue française l'a rejoué sur ses trouvailles, y compris
 sur une paire d'énoncés identiques à 88 %.
 
-**3. Le cahier d'origine est plus juste que ce qui a été écrit depuis.** Quatre
-relecteurs sur cinq le disent : quand `heritage/` et `prisma/seed/culture-g/`
-divergent, l'héritage a raison, et il contient déjà la bonne version de
-plusieurs erreurs graves.
+**3. Le cahier d'origine est plus juste que ce qui a été écrit depuis.** Quand
+`heritage/` et `prisma/seed/culture-g/` divergent, l'héritage a raison le plus
+souvent, et il contient déjà la bonne version de plusieurs erreurs graves.
+
+**Mais ce n'est pas une règle universelle, et s'y fier aveuglément produirait des
+erreurs.** En sciences de la vie, c'est l'inverse : six erreurs graves nouvelles
+ont été trouvées dans les leçons du cahier — cellules gliales « beaucoup plus
+nombreuses » que les neurones, 35 millions d'années au lieu de 115, un cœur de
+baleine à 600 kg né d'une conversion depuis 600 livres — et le relecteur conclut
+que « chaque fois que le seed et le cahier se contredisent, c'est le seed qui a
+raison ». **Vérifier domaine par domaine, jamais par principe.**
 
 ## Deux faux positifs — les écarter au tri
 
