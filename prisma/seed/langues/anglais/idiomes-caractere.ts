@@ -348,8 +348,8 @@ export const ANGLAIS_IDIOMES_CARACTERE: LotCartes[] = [
       },
       {
         etranger: "He's got a sweet tooth.",
-        francais: "Il est très sucré.",
-        aussi: ["Il aime beaucoup les sucreries."],
+        francais: "Il aime beaucoup les sucreries.",
+        aussi: ["Il est très porté sur le sucré.", "Il a un faible pour le sucré."],
         note: "A sweet tooth, le goût du sucré. Aucun équivalent français d'un seul mot.",
       },
     ],

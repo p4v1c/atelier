@@ -44,7 +44,7 @@ export const ANGLAIS_BASES: LotCartes[] = [
         aussi: ["Excusez-moi, pouvez-vous répéter ?"],
         note: "Plus naturel que « Repeat, please », qui sonne comme un ordre.",
       },
-      { etranger: "I don't quite follow.", francais: "Je ne suis pas bien.", aussi: ["Je ne comprends pas tout."] },
+      { etranger: "I don't quite follow.", francais: "Je ne te suis pas bien.", aussi: ["Je ne comprends pas tout.", "Je ne vous suis pas bien."] },
       {
         etranger: "How do you spell that?",
         francais: "Ça s'écrit comment ?",

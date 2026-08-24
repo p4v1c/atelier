@@ -239,7 +239,7 @@ export const ANGLAIS_FAUX_AMIS: LotCartes[] = [
       {
         etranger: "a data projector",
         francais: "un vidéoprojecteur",
-        note: "En français on dit parfois « un rétroprojecteur ». Un beamer, en anglais courant, est une BMW.",
+        note: "Video projector se dit aussi ; le rétroprojecteur, lui, est l'appareil à transparents. Un beamer, en anglais courant, est une BMW.",
       },
       {
         etranger: "table football",

@@ -661,7 +661,7 @@ export const ANGLAIS_CONJUGAISON_2: LotCartes[] = [
               colonnes: ["La forme", "Ce qu'elle dit", "Exemple", "En français"],
               lignes: [
                 ["must have", "déduction quasi certaine", "She must have left.", "elle a dû partir"],
-                ["can't have", "impossibilité déduite", "He can't have known.", "il ne pouvait pas savoir"],
+                ["can't have", "impossibilité déduite", "He can't have known.", "ce n'est pas possible qu'il ait su"],
                 ["might / may have", "possibilité", "It might have rained.", "il a peut-être plu"],
                 ["could have", "possibilité, ou reproche", "You could have called.", "tu aurais pu appeler"],
                 ["should have", "reproche, attente déçue", "I should have asked.", "j'aurais dû demander"],
@@ -718,8 +718,8 @@ export const ANGLAIS_CONJUGAISON_2: LotCartes[] = [
       },
       {
         etranger: "He can't have known about it.",
-        francais: "Il ne pouvait pas être au courant.",
-        note: "La négation de must have est can't have. « Mustn't have » n'existe pas ici.",
+        francais: "Ce n'est pas possible qu'il ait été au courant.",
+        note: "Déduction, non incapacité : « il ne pouvait pas » se dirait couldn't. La négation de must have est can't have. « Mustn't have » n'existe pas ici.",
       },
       {
         etranger: "It might have rained during the night.",

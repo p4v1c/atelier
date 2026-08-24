@@ -234,8 +234,8 @@ export const ANGLAIS_VOCABULAIRE_SOCIETE: LotCartes[] = [
     cartes: [
       {
         etranger: "The building has six storeys.",
-        francais: "L'immeuble compte six étages.",
-        note: "A storey en anglais britannique, a story en américain. Le pluriel britannique est storeys.",
+        francais: "L'immeuble compte six niveaux.",
+        note: "A storey en anglais britannique, a story en américain ; pluriel storeys. Attention au décalage : six storeys font cinq étages en français, le rez-de-chaussée ne comptant pas.",
       },
       {
         etranger: "They bought a plot of land.",
@@ -404,7 +404,7 @@ export const ANGLAIS_VOCABULAIRE_SOCIETE: LotCartes[] = [
       {
         etranger: "The batch failed quality control.",
         francais: "Le lot a été refusé au contrôle qualité.",
-        note: "A batch, un lot de fabrication. Fail a control, ne pas passer un contrôle.",
+        note: "A batch, un lot de fabrication. Fail quality control, sans article, ne pas passer le contrôle qualité.",
       },
       {
         etranger: "We source locally where possible.",

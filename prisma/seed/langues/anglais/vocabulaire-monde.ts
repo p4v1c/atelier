@@ -365,7 +365,7 @@ export const ANGLAIS_VOCABULAIRE_MONDE: LotCartes[] = [
       {
         etranger: "They live in the countryside.",
         francais: "Ils vivent à la campagne.",
-        note: "In the countryside, la campagne. « In the country » veut dire dans le pays.",
+        note: "In the countryside ou in the country, à la campagne. Le second est plus courant en anglais britannique.",
       },
       {
         etranger: "The stream runs behind the house.",

@@ -225,7 +225,7 @@ export const ANGLAIS_PHRASAL_COLLOCATIONS: LotCartes[] = [
     title: "Les verbes à particule de l'écrit",
     statement:
       "Set out, carry out, point out, rule out. On croit les verbes à particule familiers : ceux-là sont ceux de l'article scientifique et du rapport.",
-    tip: "L'idée reçue veut qu'on remplace un verbe à particule par un verbe latin pour faire savant. C'est souvent l'inverse : carry out a research est standard, perform ne l'est pas davantage.",
+    tip: "L'idée reçue veut qu'on remplace un verbe à particule par un verbe latin pour faire savant. C'est souvent l'inverse : carry out research est standard — research est indénombrable, jamais « a research ».",
     difficulty: 3,
     niveau: "C1",
     oral: true,
@@ -281,9 +281,9 @@ export const ANGLAIS_PHRASAL_COLLOCATIONS: LotCartes[] = [
         note: "Set forth, avancer formellement. Plus solennel que set out, presque juridique.",
       },
       {
-        etranger: "The trend has borne out since.",
+        etranger: "The figures have borne out his prediction.",
         francais: "La tendance s'est confirmée depuis.",
-        note: "Bear out à l'intransitif. Le participe passé est borne, jamais « beared ».",
+        note: "Bear out est transitif : des chiffres confirment une prévision. Le participe passé est borne, jamais « beared ».",
       },
     ],
   },
