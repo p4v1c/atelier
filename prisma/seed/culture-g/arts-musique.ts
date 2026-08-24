@@ -125,7 +125,7 @@ export const CG_ARTS_MUSIQUE: SeedSkill[] = [
      "Haydn en a composé plus de cent, ce qui lui vaut le surnom de père de la symphonie."],
     ["Qu'est-ce qu'un concerto ?", ["Une œuvre opposant un soliste à l'orchestre", "Une œuvre pour orchestre seul", "Une pièce de musique de chambre", "Un ensemble de variations"], 0,
      "Le concerto grosso baroque oppose un petit groupe de solistes à l'ensemble."],
-    ["Quel compositeur devient sourd tout en continuant à composer ?", ["Ludwig van Beethoven", "Franz Schubert", "Robert Schumann", "Bedřich Smetana"], 0,
+    ["Quel compositeur devient sourd tout en continuant à composer ?", ["Ludwig van Beethoven", "Franz Schubert", "Robert Schumann", "Felix Mendelssohn"], 0,
      "Sa Neuvième Symphonie, créée en 1824, est écrite alors qu'il n'entend plus."],
     ["Quel mouvement de la Neuvième Symphonie de Beethoven est devenu l'hymne européen ?", ["L'Ode à la joie, dans le finale", "Le premier mouvement", "Le scherzo", "L'adagio"], 0,
      "Adopté en 1972 par le Conseil de l'Europe, dans un arrangement de Herbert von Karajan, sans paroles."],
