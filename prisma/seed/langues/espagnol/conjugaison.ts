@@ -85,7 +85,7 @@ export const ESPAGNOL_CONJUGAISON: LotCartes[] = [
       { etranger: "Hago la comida.", francais: "Je fais à manger.", note: "hacer → hago." },
       { etranger: "Vamos al cine.", francais: "On va au cinéma.", note: "ir → vamos, qui sert aussi à dire « allons-y »." },
       { etranger: "Somos cuatro.", francais: "Nous sommes quatre.", note: "ser → somos. À apprendre par cœur." },
-      { etranger: "Están en casa.", francais: "Ils sont à la maison.", note: "estar pour le lieu, toujours." },
+      { etranger: "Están en casa.", francais: "Ils sont à la maison.", note: "estar pour situer une personne ou une chose ; un événement, lui, prend ser." },
       { etranger: "Empiezo a las nueve.", francais: "Je commence à neuf heures.", note: "empezar → empiezo, et empezar a devant un infinitif." },
     ],
   },
@@ -167,7 +167,7 @@ export const ESPAGNOL_CONJUGAISON: LotCartes[] = [
         {
           titre: "La forme, à partir du présent",
           texte:
-            "Le subjonctif présent se fabrique à partir de la PREMIÈRE personne du présent de l'indicatif : on retire le -o final et on échange les terminaisons. Les verbes en -ar prennent celles en -e, les autres celles en -a.\n\nHablar : hablo → hable, hables, hable, hablemos, habléis, hablen. Comer : como → coma, comas, coma, comamos, comáis, coman.\n\nL'avantage de cette règle est qu'elle emporte les irrégularités avec elle : tener donne tengo, donc tenga ; hacer donne hago, donc haga ; decir donne digo, donc diga. Il n'y a rien de plus à mémoriser.\n\nSix verbes échappent à la règle, faute de -o à la première personne : ser (sea), ir (vaya), saber (sepa), haber (haya), estar (esté), dar (dé).",
+            "Le subjonctif présent se fabrique à partir de la PREMIÈRE personne du présent de l'indicatif : on retire le -o final et on échange les terminaisons. Les verbes en -ar prennent celles en -e, les autres celles en -a.\n\nHablar : hablo → hable, hables, hable, hablemos, habléis, hablen. Comer : como → coma, comas, coma, comamos, comáis, coman.\n\nL'avantage de cette règle est qu'elle emporte les irrégularités avec elle : tener donne tengo, donc tenga ; hacer donne hago, donc haga ; decir donne digo, donc diga. Il n'y a rien de plus à mémoriser.\n\nSix verbes échappent à la règle : ser (sea), ir (vaya), saber (sepa), haber (haya) — dont la première personne n'a pas de -o — ainsi que estar (esté) et dar (dé), irréguliers par l'accent.",
           visuels: [
             {
               type: "etapes",
