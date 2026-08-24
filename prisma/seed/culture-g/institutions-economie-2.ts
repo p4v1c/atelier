@@ -82,7 +82,7 @@ export const CG_INSTITUTIONS_ECONOMIE_2: SeedSkill[] = [
     ["Qu'est-ce qu'un agent contractuel de la fonction publique ?", ["Un agent recruté par contrat, sans être titulaire d'un grade", "Un fonctionnaire stagiaire", "Un vacataire ponctuel", "Un agent détaché du privé"], 0,
      "Ils représentent aujourd'hui une part significative des effectifs, notamment dans la territoriale."],
     ["Qu'est-ce que le pantouflage ?", ["Le passage d'un haut fonctionnaire vers le secteur privé", "Le retour d'un cadre privé dans l'administration", "Une mise en disponibilité", "Un détachement à l'étranger"], 0,
-     "Une commission de déontologie examine les risques de conflit d'intérêts avant d'autoriser le départ.", 3],
+     "La Haute Autorité pour la transparence de la vie publique examine les risques de conflit d'intérêts avant d'autoriser le départ, depuis qu'elle a repris en 2020 les missions de l'ancienne commission de déontologie.", 3],
   ]),
 
   notion("ie2-droits-libertes", S, "Droits fondamentaux et libertés publiques",
@@ -99,8 +99,6 @@ export const CG_INSTITUTIONS_ECONOMIE_2: SeedSkill[] = [
      "Elle définit limitativement les abus punissables, ce qui protège la liberté par défaut."],
     ["Que garantit le droit au respect de la vie privée ?", ["La protection contre l'immixtion dans la sphère personnelle", "Le droit à l'anonymat", "Le secret de toute correspondance sans exception", "L'interdiction de toute surveillance"], 0,
      "Il figure à l'article 9 du Code civil français et à l'article 8 de la Convention européenne."],
-    ["Qu'est-ce que la présomption d'innocence ?", ["Toute personne est réputée innocente jusqu'à condamnation définitive", "Le doute profite au prévenu au procès", "L'accusation doit être prouvée à l'audience", "Le prévenu n'a pas à témoigner"], 0,
-     "Elle s'impose aussi aux autorités publiques et aux médias, pas seulement au juge."],
     ["Qu'est-ce que le Défenseur des droits en France ?", ["Une autorité indépendante protégeant les droits des usagers et luttant contre les discriminations", "Un tribunal administratif", "Un service du ministère de la Justice", "Un médiateur d'entreprise"], 0,
      "Créé en 2011, il a repris les missions du Médiateur de la République et de plusieurs autorités."],
     ["Qu'est-ce que la liberté de conscience ?", ["Le droit de croire, de ne pas croire et de changer de conviction", "Le droit d'exprimer toute opinion", "Le droit de pratiquer un culte", "Le droit à l'objection de conscience"], 0,
