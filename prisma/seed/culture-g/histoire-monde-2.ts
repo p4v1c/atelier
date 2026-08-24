@@ -530,6 +530,6 @@ export const CG_HISTOIRE_MONDE_2: SeedSkill[] = [
     ["Quel royaume africain envoie des ambassadeurs au Vatican dès le XVIe siècle ?", ["Le royaume du Kongo", "Le royaume du Mali", "L'Éthiopie seule", "Le royaume du Bénin"], 0,
      "Son souverain se convertit au christianisme et entretint une correspondance directe avec le Portugal et Rome."],
     ["Combien de personnes la traite atlantique a-t-elle déportées selon les estimations ?", ["Environ douze millions", "Environ deux millions", "Environ trente millions", "Environ cinq cent mille"], 0,
-     "Environ un dixième mourut pendant la traversée. Les traites transsaharienne et orientale s'y ajoutent.", 3],
+     "Environ un déporté sur huit mourut pendant la traversée, soit 12 à 13 %. Les traites transsaharienne et orientale s'y ajoutent.", 3],
   ]),
 ];
