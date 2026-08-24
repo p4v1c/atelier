@@ -1,6 +1,6 @@
 # Sport
 
-> ÉTAT : passe 1 en cours. Lus : `prisma/seed/culture-g/sport.ts` (13 notions, 129 q.), `sport-2.ts` (19 notions, 189 q.), `sport-3.ts` (22 notions, 214 q.), `cours/sport.ts` (42 cours, intégral), `cours/fusions.ts` + `src/modules/culture-g/contenu.ts` (mécanique de fusion vérifiée), `heritage/culture-g/data/sport.json` (57 questions + 3 cours), leçons héritées **01, 06, 07, 09, 14, 15, 16**. Reste : leçons **02, 03, 04, 05, 08, 10, 11, 12, 13, 17**, puis la passe 2 complète.
+> ÉTAT : passe 1, reprise. Lus : `prisma/seed/culture-g/sport.ts` (13 notions, 129 q.), `sport-2.ts` (19 notions, 189 q.), `sport-3.ts` (22 notions, 214 q.), `cours/sport.ts` (42 cours, intégral), `cours/fusions.ts` + `src/modules/culture-g/contenu.ts` (mécanique de fusion vérifiée), `heritage/culture-g/data/sport.json` (57 questions + 3 cours), leçons héritées **01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16**. Reste : leçon **17**, puis la passe 2 complète.
 
 ## Ce que j'ai lu
 
@@ -460,3 +460,294 @@ _(à compléter — passe 2 non commencée)_
 Les cours sont, dans l'ensemble, d'un niveau nettement supérieur aux questions : ceux de `sp2-nutrition-sportive` (hyponatrémie d'effort, contamination des compléments, responsabilité objective), `sp3-athletisme-fond` (la section « Pourquoi le Kenya » refuse explicitement l'explication génétique unique), `sp2-handisport` (les Deaflympics et le refus d'intégration au mouvement paralympique), `sp2-natation-eau` (le départ du dos qui explique l'ordre du relais) et `sp2-records-performance` apprennent réellement quelque chose et prennent le risque de nuancer. Côté faits, les repères du lot 1 sont solides et bien datés : Coubertin 1894/1896, Chamonix 1924, Naismith 1891, Morgan 1895, scission de 1895, Bosman 1995, AMA 1999, Heysel 39 morts, Hillsborough et le rapport Taylor, McLaren 2016, Titre IX 1972, interdiction du football féminin anglais de 1921 à 1971. Rien de ce que j'ai vérifié dans ces séries n'est faux.
 
 **Le cahier d'origine (`heritage/culture-g/data/sport.json`) est le meilleur morceau du domaine.** J'ai vérifié ses cinquante-sept questions une à une : dates, scores, noms, chiffres. Elles tiennent. Les explications font quatre à cinq phrases et ajoutent systématiquement quelque chose au-delà de la réponse — la finale de 1930 gagnée 4-2 par l'Uruguay, Eugène Christophe premier porteur du maillot jaune, le classement de la montagne créé en 1933 mais le maillot à pois seulement en 1975, les 8 secondes entre LeMond et Fignon en 1989, la ligne à trois points à 7,24 m en NBA contre 6,75 m en FIBA, Pérec à égalité avec Félicia Ballanger, la légende de Webb Ellis correctement présentée comme une légende. Les palmarès y sont datés (« entre 2005 et 2022 », « en 1985 », « avant 2024 »), ce qui les met à l'abri de la péremption — exactement ce qui manque au seed.
+
+---
+
+# Reprise (relecteur 2) — suite de la passe 1
+
+> Les constats ci-dessous s'ajoutent à ceux du relecteur précédent. Je ne reprends
+> pas ce qui est déjà écrit plus haut ; je signale en revanche, quand je les
+> trouve, les corrections de la passe 1 qui étaient elles-mêmes inexactes.
+
+## Leçon héritée `02.json` — « Le tennis, du jeu de paume aux courts du monde entier »
+
+### [GRAVE] Les quatre courts principaux de Roland-Garros ne portent pas les noms des Mousquetaires
+- **Où** : `heritage/culture-g/data/lecons/sport/02.json` — section « La Coupe Davis et l'histoire du tennis français »
+- **Texte** : « c'est pour défendre ce trophée que le stade Roland-Garros est édifié. **Les quatre courts principaux du stade portent aujourd'hui leurs noms.** »
+- **Problème** : faux. Les courts principaux de Roland-Garros sont le **Philippe-Chatrier** (1928), le **Suzanne-Lenglen** (1994) et le **Simonne-Mathieu** (2019) — aucun ne porte le nom d'un Mousquetaire. Ce qui porte leur nom, c'est le **trophée** du simple messieurs (la Coupe des Mousquetaires) et la **place des Mousquetaires**, où se dressent leurs quatre statues. La phrase est d'autant plus piégeuse qu'elle suit immédiatement une série d'affirmations exactes.
+- **Correction proposée** : « leur nom est resté attaché au trophée du simple messieurs, la Coupe des Mousquetaires, et à la place du stade où se dressent leurs quatre statues. »
+
+### [MINEUR] Un distracteur qui est en partie vrai : « le béton »
+- **Où** : `heritage/culture-g/data/lecons/sport/02.json` — quiz, question 4 (« Sur quelle surface se dispute le tournoi de Roland-Garros ? »)
+- **Texte** : choix `["Le gazon", "La moquette", "La terre battue", "Le béton"]`
+- **Problème** : mineur ici, puisque la question porte sur Roland-Garros, mais « le béton » est le nom courant en français des surfaces dures de l'Open d'Australie et de l'US Open — l'explication de la même question dit d'ailleurs « surface dure ». Le lecteur qui retient « béton = pas une surface de Grand Chelem » apprend un contresens.
+- **Correction proposée** : remplacer « Le béton » par « Le parquet ».
+
+### [MINEUR] Précision de la passe 1 à corriger : la date du décret pass'Sport
+- **Où** : le constat [GRAVE] « Le pass'Sport date de 2021, pas de 2022 » ci-dessus
+- **Problème** : la **conclusion** de la passe 1 est bonne et je la confirme — le pass'Sport est créé pour la rentrée 2021, annoncé le 19 mai 2021, pour la saison sportive 2021-2022. Mais la pièce citée à l'appui est fausse : le texte fondateur est le **décret n° 2021-1171 du 10 septembre 2021** (JO du 11 septembre), et non un « décret du 12 août 2021 ». À noter aussi que le montant de 50 € cité n'est plus le montant courant : il est porté à **70 €** pour la saison 2025-2026 — un chiffre qui, comme les palmarès, se périme sans date.
+- **Correction proposée** : dans le cours, « créé en 2021 » ; et si le montant est mentionné quelque part, l'assortir de sa saison.
+
+## Ce qui est sain dans la leçon 02
+Vérifiées et exactes : jeu de paume et l'étymologie « tenez » (correctement donnée comme hypothèse), Wingfield 1873 et le brevet de 1874, Wimbledon 1877, cotes du court (23,77 × 8,23, filet à 0,914 m), tie-break de Van Alen adopté en 1970, Open d'Australie créé en 1905 et passé au dur en 1988, Championnat de France 1891 ouvert aux étrangers en 1925, stade de 1928, Laver 1962 et 1969, Golden Slam de Graf en 1988, Coupe Davis 1900 par Dwight Davis, Fed Cup 1963 devenue Billie Jean King Cup, six Coupes Davis 1927-1932, Noah 1983 puis capitaine en 1991 et 1996, Pierce 1995 et 2000, Mauresmo 2006, ATP 1972 et WTA 1973, égalité des primes à l'US Open en 1973 et à Wimbledon en 2007, tennis olympique de 1896 à 1924 puis retour à Séoul en 1988, Borg cinq Wimbledon d'affilée 1976-1980. Le schéma coté du court et la frise du décompte des points sont justes.
+
+## Leçon héritée `03.json` — « Le cyclisme et le Tour de France »
+
+### [GRAVE] « Quatre coureurs seulement ont remporté cinq fois le Tour » — ils sont cinq depuis le 26 juillet 2026
+- **Où** : `heritage/culture-g/data/lecons/sport/03.json` — section « Les champions du Tour et les cols mythiques » (texte), titre du tableau « **Les quatre** quintuples vainqueurs », et explication du quiz q. 3 ; **le même chiffre figure trois fois de plus dans `heritage/culture-g/data/sport.json`** — l. 304 (« Quatre coureurs ont remporté cinq Tours : Jacques Anquetil, Eddy Merckx, Bernard Hinault et Miguel Indurain »), l. 1056 (cours : « **Quatre géants** ont remporté cinq Tours ») et l. 1082 (note du visuel, même phrase).
+- **Texte** : « Quatre coureurs seulement ont remporté cinq fois le Tour de France. »
+- **Problème** : **Tadej Pogačar a remporté son cinquième Tour le 26 juillet 2026** (devant Remco Evenepoel et Isaac Del Toro). Ils sont donc désormais **cinq** quintuples vainqueurs. C'est le cas d'école annoncé : un décompte de palmarès énoncé sans date, qui devient faux tout seul. L'affirmation est répétée à quatre endroits, dont le titre d'un tableau et une note de visuel — un correcteur qui ne modifierait que le paragraphe en laisserait trois.
+- **Note d'audit** : ce constat porte sur `heritage/culture-g/data/sport.json`, que la passe 1 déclarait vérifié question par question et « le meilleur morceau du domaine ». Il l'est sur presque tout — mais pas sur ce point.
+- **Correction proposée** : partout, « Cinq coureurs ont remporté cinq fois le Tour de France : Jacques Anquetil, Eddy Merckx, Bernard Hinault, Miguel Indurain et, depuis 2026, le Slovène Tadej Pogačar. » ; titre du tableau → « Les quintuples vainqueurs » ; et ajouter une ligne Pogačar (Slovénie, 2020, 2021, 2024, 2025 et 2026). Le quiz q. 3 (« Lequel de ces coureurs n'a **PAS** remporté cinq fois le Tour ? » → Louison Bobet) reste valable tel quel, mais son explication doit cesser de présenter le groupe comme clos.
+
+### [MOYEN] Ce n'est pas *L'Équipe* qui organise le Tour de France
+- **Où** : `heritage/culture-g/data/lecons/sport/03.json` — quiz, question 1, explication
+- **Texte** : « L'Équipe, **qui organise aujourd'hui la course avec sa société mère**, est le successeur de L'Auto après la Seconde Guerre mondiale. »
+- **Problème** : *L'Équipe* est un journal, il n'organise rien. Le Tour est organisé par **ASO (Amaury Sport Organisation)** ; *L'Équipe* et ASO sont deux filiales sœurs du groupe Amaury. La formule « avec sa société mère » embrouille un rapport qui est simple à dire.
+- **Correction proposée** : « L'Équipe, héritière de L'Auto après la Seconde Guerre mondiale, appartient au même groupe qu'Amaury Sport Organisation, la société qui organise aujourd'hui la course. »
+
+### [MINEUR] Le maillot blanc a disparu pendant onze ans
+- **Où** : `heritage/culture-g/data/lecons/sport/03.json` — section « Le déroulement de la course et la symbolique des maillots », et tableau
+- **Texte** : « Le maillot blanc, également apparu en 1975, distingue le meilleur jeune coureur. »
+- **Problème** : exact sur la date de création, muet sur le fait que le maillot a été **supprimé de 1989 à 1999** et rétabli en 2000 — contrairement au jaune, au vert et au pois, continus depuis leur création. Le tableau les aligne comme quatre distinctions de même nature.
+- **Correction proposée** : « Le maillot blanc, apparu lui aussi en 1975, distingue le meilleur coureur de moins de vingt-six ans ; supprimé en 1989, il a été rétabli en 2000. »
+
+### [MINEUR] Le contre-la-montre par équipes passé sous silence dans sa propre définition
+- **Où** : `heritage/culture-g/data/lecons/sport/03.json` — section « Le déroulement de la course et la symbolique des maillots »
+- **Texte** : « et les contre-la-montre, **disputés individuellement** contre le chronomètre »
+- **Problème** : la phrase définit le contre-la-montre par l'individuel, alors que le Tour a longtemps comporté un contre-la-montre par équipes, qui obéit à la même logique de chronomètre. Le cours du seed (`cours/sport.ts`, `sp3-cyclisme-3`) fait la même réduction.
+- **Correction proposée** : « et les contre-la-montre, courus contre le chronomètre — individuellement, ou par équipes selon les éditions ».
+
+## Ce qui est sain dans la leçon 03
+Vérifiées et exactes : draisienne de Drais en 1817, vélocipède des Michaux vers 1861, grand-bi des années 1870, bicyclette de sécurité de Starley en 1885, pneumatique de Dunlop en 1888, Paris-Rouen 1869 remportée par James Moore, UCI en 1900, la rivalité *Le Vélo* / *L'Auto* et son lien avec l'affaire Dreyfus, Desgrange et Géo Lefèvre, départ de Montgeron le 1er juillet 1903 avec 60 coureurs et six étapes pour ~2 400 km, Maurice Garin, la disqualification des quatre premiers en 1904, Pyrénées 1910 et Alpes 1911, reprise en 1947, maillot jaune 1919 et Eugène Christophe, vert 1953, pois 1975, huit coureurs par équipe, lanterne rouge, les palmarès d'Anquetil, Merckx, Hinault et Indurain (dates exactes), Bobet premier à trois succès consécutifs, déchéance d'Armstrong en 2012, Tourmalet 1910, Alpe d'Huez 1952 et ses vingt et un virages, Giro 1909 et maillot rose, Vuelta 1935, les cinq Monuments, Paris-Roubaix 1896 et son pavé, championnat du monde depuis 1927 et le maillot arc-en-ciel, VTT olympique en 1996 et BMX en 2008. La section sur l'invention de la bicyclette est le meilleur passage : elle explique *pourquoi* la roue avant grandit (un tour de pédale = un tour de roue), ce qui rend le grand-bi intelligible au lieu de le décrire.
+
+## Leçon héritée `04.json` — « L'athlétisme, courir, sauter, lancer »
+
+### [GRAVE] Le 5 000 m se court sur douze tours et demi, pas douze — et le tableau de la même section dit le contraire du texte
+- **Où** : `heritage/culture-g/data/lecons/sport/04.json` — section « Les courses, du sprint au fond »
+- **Texte** : « Le fond comprend le cinq mille et le dix mille mètres, épreuves d'endurance pure disputées respectivement sur **douze et vingt-cinq tours**. » ; et, quatre lignes plus bas, dans le tableau de la même section : « 5 000 m (**12 tours et demi**), 10 000 m (25 tours) ».
+- **Problème** : 5 000 ÷ 400 = 12,5. Le texte est faux, le tableau juste, et les deux se lisent l'un sous l'autre sur le même écran. C'est le pire cas de figure : l'apprenant voit la contradiction sans pouvoir la trancher, et l'arrondi silencieux (« douze ») a l'air d'être la version simplifiée alors que c'est l'erreur. Le fait est vérifiable par une division que l'apprenant peut faire de tête, ce qui décrédibilise le reste de la leçon.
+- **Correction proposée** : dans le texte, « disputées respectivement sur douze tours et demi et sur vingt-cinq tours » — le 5 000 m partant, de fait, dans la ligne droite opposée.
+
+### [MOYEN] Un record donné comme « toujours en vigueur » sans date de constat
+- **Où** : `heritage/culture-g/data/lecons/sport/04.json` — section « Champions légendaires et records »
+- **Texte** : « des records du monde de 9 secondes 58 sur cent mètres et de 19 secondes 19 sur deux cents mètres, **marques toujours en vigueur** »
+- **Problème** : l'information est exacte — j'ai vérifié, les deux records de Berlin 2009 tiennent toujours en août 2026 —, mais « toujours en vigueur » est écrit au présent absolu dans un texte qui, lui, ne bouge plus. La formule se périmera sans que personne ne s'en aperçoive, exactement comme « quatre coureurs seulement » de la leçon 03. Le reste de la leçon date pourtant scrupuleusement ses faits.
+- **Correction proposée** : « … records du monde de 9 s 58 sur cent mètres et de 19 s 19 sur deux cents mètres, tous deux encore en vigueur plus de quinze ans après. »
+
+### [MINEUR] « quatre cent mètres » sans s
+- **Où** : `heritage/culture-g/data/lecons/sport/04.json` — section « Les courses, du sprint au fond »
+- **Texte** : « une piste dont le tour mesure **quatre cent mètres** et qui comporte huit couloirs »
+- **Problème** : « cent » multiplié et non suivi d'un autre nombre prend l's. La leçon écrit correctement « quatre cents mètres » deux phrases plus loin (« le quatre cents mètres »), et « cent quatre-vingt-douze mètres » ailleurs — c'est une coquille isolée, pas un parti pris.
+- **Correction proposée** : « quatre cents mètres ».
+
+## Ce qui est sain dans la leçon 04
+Vérifiés et exacts : 776 av. J.-C. et la course du stade (~192 m), diaulos et dolique, composition du pentathlon antique, couronne d'olivier sauvage, AAA britannique en 1880, fédération internationale fondée à Stockholm en 1912, premiers championnats du monde à Helsinki en 1983, règle du faux départ à un dixième de seconde, 110 m haies hommes / 100 m haies femmes, rivière du steeple, poids de 7,26 kg et 4 kg, javelot seul lancer avec course d'élan, cloche-pied / foulée bondissante / saut, décathlon en dix et heptathlon en sept, bataille de Marathon en 490 av. J.-C., Michel Bréal et Coubertin, Spyridon Louis en 1896 sur ~40 km, Windsor et la loge royale en 1908, Owens et ses quatre titres à Berlin, Zátopek à Helsinki en 1952, Beamon à 8,90 m en 1968, Bubka premier à six mètres en 1985, Lewis et ses neuf titres entre 1984 et 1996, Bikila pieds nus à Rome en 1960, Mimoun 1956, Drut 1976, Pérec 1992 et 1996.
+
+**Deux points où cette leçon est meilleure que le seed, et tranche une contradiction relevée en passe 1 :**
+1. **La distance du marathon.** La leçon écrit « Cette longueur fut définitivement adoptée comme distance officielle **en 1921** », après avoir expliqué le parcours de 1908. C'est la version exacte, et elle donne raison au constat [MOYEN] de la passe 1 contre le seed (`sp-athletisme`, `sp3-athletisme-fond`), qui présente « arrondie en 1921 » comme un distracteur faux.
+2. **Le Fosbury flop.** L'explication du quiz ajoute ce qu'aucun des deux cours du seed ne dit : « Il n'a pu se généraliser que grâce à l'apparition de tapis de réception en mousse, la réception sur le dos étant impossible sur les fosses de sable. » C'est la cause matérielle du basculement technique, et c'est ce qui fait la différence entre un fait à retenir et un fait compris.
+
+## Leçon héritée `05.json` — « Les sports d'hiver, de la neige à la glace »
+
+### [GRAVE] Les 86 victoires de Stenmark ne sont plus « une référence absolue » : le record est tombé en 2023
+- **Où** : `heritage/culture-g/data/lecons/sport/05.json` — section « Le ski alpin et ses disciplines », et note du tableau des épreuves
+- **Texte** : « Le Suédois Ingemar Stenmark, avec quatre-vingt-six victoires d'étapes obtenues entre 1974 et 1989, **reste une référence absolue du circuit**. » ; note du tableau : « Ingemar Stenmark y a gagné 86 épreuves entre 1974 et 1989. »
+- **Problème** : le chiffre et les dates sont exacts, mais la phrase est écrite pour faire de 86 le sommet du circuit — et ce sommet a été atteint puis dépassé. **Mikaela Shiffrin a égalé les 86 victoires de Stenmark le 10 mars 2023 à Åre, puis l'a dépassé dès le lendemain** ; elle a franchi la centième victoire en 2025. Le domaine enseigne d'ailleurs déjà l'autre moitié du fait ailleurs : la question `sp3-jo-hiver` du seed donne Shiffrin pour son « record de victoires en Coupe du monde ». L'apprenant qui fait les deux chapitres lit deux fois « le record » attribué à deux personnes, sans qu'aucun des deux textes ne mentionne l'autre. C'est le cas type du palmarès non daté annoncé dans la consigne.
+- **Correction proposée** : « Le Suédois Ingemar Stenmark, avec quatre-vingt-six victoires en Coupe du monde entre 1974 et 1989, a longtemps détenu le record du circuit ; l'Américaine Mikaela Shiffrin l'a dépassé en mars 2023 et compte aujourd'hui plus de cent succès. » — et la même précision dans la note du tableau.
+
+### [MOYEN] La même colonne dit « le talon reste libre » et « des fixations tenant le talon »
+- **Où** : `heritage/culture-g/data/lecons/sport/05.json` — section « Des skis utilitaires au sport de montagne », visuel « Deux styles nés de la même planche », colonne « Le ski nordique »
+- **Texte** : puce 2 — « Le talon reste libre. » ; puce 4 — « Sondre Norheim invente vers 1860 des **fixations tenant le talon**, dont le virage telemark garde le nom. » ; et dans le texte de la section : « des fixations qui **maintiennent le talon** et permettent de véritables virages contrôlés ».
+- **Problème** : la carte censée fixer la distinction nordique/alpin se contredit en quatre lignes. Ce que Norheim invente, c'est une bride d'osier qui tient le talon **latéralement** — le pied ne se dérobe plus dans le virage — tout en le laissant se lever. C'est précisément parce que le talon reste libre en hauteur que le style reste nordique. La formulation actuelle fait de Norheim l'inventeur de la fixation alpine, ce qui est le contresens exact de la section.
+- **Correction proposée** : « Sondre Norheim invente vers 1860 une fixation qui tient le talon latéralement, sans l'empêcher de se lever : le pied ne se dérobe plus dans le virage, d'où le virage telemark qui porte le nom de sa région. »
+
+### [MOYEN] La médaille Holmenkollen ne récompense pas une course
+- **Où** : `heritage/culture-g/data/lecons/sport/05.json` — quiz, question 5, explication
+- **Texte** : « Le Hahnenkamm de Kitzbühel et le Holmenkollen norvégien existent bel et bien, mais **récompensent une course unique**, pas une saison. »
+- **Problème** : vrai pour le Hahnenkamm, faux pour l'autre. La **médaille Holmenkollen**, décernée depuis 1895 par la fédération norvégienne de ski, distingue une carrière — des résultats obtenus dans la durée, au festival d'Holmenkollen *et* dans d'autres compétitions — et elle relève du **ski nordique et du biathlon**, pas du ski alpin. Elle est d'ailleurs remise à plusieurs athlètes la même année. L'explication invente donc un fait pour justifier un distracteur, ce qui est la manière la plus discrète d'enseigner une erreur.
+- **Correction proposée** : « Le Hahnenkamm de Kitzbühel récompense une course unique ; la médaille Holmenkollen, elle, distingue une carrière en ski nordique et n'a rien à voir avec le circuit alpin. »
+
+### [MINEUR] « Victoires d'étapes » est un vocabulaire de cyclisme
+- **Où** : `heritage/culture-g/data/lecons/sport/05.json` — section « Le ski alpin et ses disciplines »
+- **Texte** : « avec quatre-vingt-six **victoires d'étapes** obtenues entre 1974 et 1989 »
+- **Problème** : en ski alpin on parle de victoires en Coupe du monde, ou de victoires en course ; « étape » appartient au vocabulaire des courses par étapes. Le tableau de la même section emploie d'ailleurs la bonne formule (« a gagné 86 épreuves »).
+- **Correction proposée** : « quatre-vingt-six victoires en Coupe du monde ».
+
+### [MINEUR] Une opinion présentée comme un fait
+- **Où** : `heritage/culture-g/data/lecons/sport/05.json` — quiz, question 5, explication
+- **Texte** : « C'est un titre **plus exigeant qu'une victoire olympique**, puisqu'il se gagne sur trente courses et non sur une journée. »
+- **Problème** : c'est un jugement, énoncé au même ton que les faits qui l'entourent, dans un texte destiné à être appris. Le raisonnement est de surcroît discutable — les deux titres ne mesurent pas la même chose — et le décompte est approximatif : une saison de Coupe du monde compte plutôt trente-cinq à quarante courses par sexe.
+- **Correction proposée** : « Il se gagne sur l'ensemble d'une saison — une trentaine de courses —, là où un titre olympique se joue sur une journée. »
+
+## Ce qui est sain dans la leçon 05
+Vérifiés et exacts : l'origine utilitaire du ski et l'étymologie norvégienne, Sondre Norheim et le Telemark vers 1860, la traversée du Groenland par Nansen en 1888, le premier slalom moderne d'Arnold Lunn en 1922, Hannes Schneider et les écoles de ski, les remontées mécaniques des années 1930, la distinction descente / super-G / géant / slalom et leurs formats, l'apparition du super-G dans les années 1980, la Coupe du monde créée en 1967 par Serge Lang et le globe de cristal, les deux styles du ski de fond et le pas de patineur des années 1980, le point de construction et la réception en fente avant au saut à ski, la conversion des points en secondes au combiné nordique, les cinq balles couché puis debout du biathlon avec cible plus petite en position couchée et la pénalité de 150 m ou d'une minute, l'axel, le salchow et le lutz nommés d'après leurs inventeurs, les trois titres de Sonja Henie en 1928, 1932 et 1936, Anissina et Peizerat en 2002, l'anneau de 400 m du patinage de vitesse, les six joueurs du hockey et la Coupe Stanley depuis 1893, le curling écossais du XVIe siècle, Chamonix 1924 reconnue après coup, le décalage de calendrier entre Albertville 1992 et Lillehammer 1994, les trois éditions françaises, les trois titres alpins de Killy en 1968, le snowboard à Nagano en 1998, les cinq titres olympiques de Martin Fourcade entre 2014 et 2018, Saint-Moritz en 1928 et 1948, Oslo en 1952.
+
+## Leçon héritée `08.json` — « La natation et les sports nautiques »
+
+### [GRAVE] La natation synchronisée n'avait ni épreuve par équipes ni les trois formats en 1984
+- **Où** : `heritage/culture-g/data/lecons/sport/08.json` — section « Water-polo, natation artistique et plongeon »
+- **Texte** : « [la natation artistique] entre au programme olympique en 1984 à Los Angeles, **sous forme d'épreuves en solo, en duo et par équipes**. »
+- **Problème** : faux. Los Angeles 1984 ne comportait que **deux** épreuves, le solo et le duo. L'épreuve **par équipes (ballet à huit) n'apparaît qu'en 1996 à Atlanta** — et c'est précisément à cette occasion que le solo et le duo sont supprimés, le duo étant ensuite rétabli à Sydney en 2000. La phrase inverse donc l'histoire de la discipline : elle donne pour son point de départ un programme qui n'a jamais existé tel quel, et fait disparaître le seul mouvement intéressant, à savoir l'alternance solo/duo/équipes au fil des éditions.
+- **Correction proposée** : « entre au programme olympique en 1984 à Los Angeles, avec le solo et le duo ; l'épreuve par équipes n'apparaît qu'en 1996 à Atlanta, où le solo et le duo sont retirés, le duo revenant dès 2000. »
+
+### [GRAVE] Phelps n'est plus le seul nageur à avoir gagné quatre fois de suite la même épreuve — et la leçon nomme Ledecky trois lignes plus loin sans le dire
+- **Où** : `heritage/culture-g/data/lecons/sport/08.json` — section « Les grandes figures des bassins », et explication du quiz q. 3
+- **Texte** : « Phelps est également **le seul nageur** à avoir conservé un même titre lors de quatre éditions consécutives des Jeux, sur 200 mètres quatre nages. Chez les femmes, l'Américaine Katie Ledecky s'est imposée comme la référence des courses de demi-fond et de fond en nage libre. »
+- **Problème** : **Katie Ledecky a remporté le 800 mètres nage libre à quatre Jeux consécutifs — Londres 2012, Rio 2016, Tokyo 2021 et Paris 2024** —, devenant la première femme et la deuxième nageuse ou nageur, après Phelps, à conserver un titre individuel sur quatre éditions. L'affirmation « le seul nageur » est donc fausse depuis le 3 août 2024, et elle l'est dans le paragraphe qui présente Ledecky, en la réduisant à une « référence » vague là où elle détient exactement l'exploit qu'on vient de déclarer unique. Le visuel « chiffres » répète la même exclusivité (« 4 : éditions consécutives avec le titre du 200 m quatre nages »).
+- **Correction proposée** : « Phelps a conservé son titre du 200 mètres quatre nages lors de quatre éditions consécutives des Jeux ; l'Américaine Katie Ledecky a réussi la même chose sur 800 mètres nage libre, de Londres 2012 à Paris 2024, devenant la première femme à y parvenir. »
+
+### [MOYEN] Ce ne sont pas les relais mixtes qui ont apporté la parité des épreuves
+- **Où** : `heritage/culture-g/data/lecons/sport/08.json` — section « Bassins, distances et grandes compétitions »
+- **Texte** : « S'y ajoutent les relais et, depuis les Jeux de Tokyo disputés en 2021, **des relais mixtes associant nageurs et nageuses, qui ont permis d'atteindre une parité complète des épreuves entre hommes et femmes**. »
+- **Problème** : double inexactitude. (1) Le nombre d'épreuves masculines et féminines était **déjà égal** avant Tokyo — dix-sept de chaque côté depuis plusieurs éditions ; ce qui différait, c'était le programme des distances (les hommes couraient le 1500 m, les femmes le 800 m). (2) Ce qui a corrigé cette asymétrie à Tokyo, ce sont les **deux épreuves ajoutées — le 800 m nage libre hommes et le 1500 m nage libre femmes** —, et non le relais mixte, qui est une épreuve supplémentaire commune aux deux sexes. Le pluriel « des relais mixtes » est de surcroît inexact : il n'y en a qu'un, le 4 × 100 m quatre nages.
+- **Correction proposée** : « S'y ajoutent les relais et, depuis les Jeux de Tokyo disputés en 2021, un relais mixte de 4 × 100 mètres quatre nages. Ces mêmes Jeux ont aligné les programmes masculin et féminin en ajoutant le 800 mètres nage libre pour les hommes et le 1500 mètres pour les femmes. »
+
+### [MOYEN] Le plongeon figure dans le titre de la section et nulle part dans son texte
+- **Où** : `heritage/culture-g/data/lecons/sport/08.json` — section « Water-polo, natation artistique et plongeon »
+- **Texte** : la section se clôt sur « **Le plongeon complète cette famille aquatique.** » — et c'est tout ce qu'elle en dit.
+- **Problème** : un tiers du titre pour une phrase qui ne dit rien : ni les tremplins et plates-formes, ni la hauteur des dix mètres, ni le tremplin à trois mètres, ni le plongeon synchronisé, ni le mode de notation. Le lecteur qui a mémorisé le titre croit avoir appris quelque chose sur le plongeon. Les deux autres disciplines de la section reçoivent chacune un paragraphe complet et daté ; la dissymétrie est visible à l'œil nu.
+- **Correction proposée** : soit retirer « et plongeon » du titre, soit ajouter trois phrases : tremplin à trois mètres et haut-vol à dix mètres, épreuves individuelles et synchronisées, notation par des juges sur l'exécution multipliée par un coefficient de difficulté.
+
+### [MINEUR] « La deuxième championne olympique française », dont le premier est un homme
+- **Où** : `heritage/culture-g/data/lecons/sport/08.json` — quiz, question 4, explication
+- **Texte** : « Elle devenait ainsi la **deuxième championne olympique française** de natation, plus d'un demi-siècle après Jean Boiteux »
+- **Problème** : le féminin « championne » et le décompte « deuxième » se contredisent, puisque le premier cité est Jean Boiteux. Manaudou est la **première Française** championne olympique de natation, et la deuxième personne de nationalité française à l'être. Tel quel, l'apprenant peut chercher qui serait la première championne.
+- **Correction proposée** : « Elle devenait la première Française championne olympique de natation, plus d'un demi-siècle après le titre de Jean Boiteux en 1952. »
+
+### [MINEUR] Une date d'histoire de la natation artistique qui mélange deux faits
+- **Où** : `heritage/culture-g/data/lecons/sport/08.json` — section « Water-polo, natation artistique et plongeon »
+- **Texte** : « [elle] est **reconnue comme sport en 1934** »
+- **Problème** : 1934 est l'année où l'expression *synchronized swimming* apparaît, à l'Exposition universelle de Chicago. La **reconnaissance par la fédération internationale date de 1952**. Les deux faits sont réels, la phrase les fond en un seul.
+- **Correction proposée** : « le nom de natation synchronisée apparaît en 1934 à Chicago, et la fédération internationale reconnaît la discipline en 1952 ».
+
+## Ce qui est sain dans la leçon 08
+Vérifiés et exacts : les quatre épreuves de 1896 dans la baie de Zéa et le titre d'Alfréd Hajós, la Seine en 1900 et le lac en 1904, le premier bassin construit pour la compétition à Londres en 1908, la fédération internationale fondée à Londres la même année, l'admission des femmes en 1912 et le titre de Fanny Durack, la description règlementaire des quatre nages (départ dans l'eau du dos, symétrie et tête coupant la surface en brasse, retour aérien des bras en papillon), l'ordre papillon-dos-brasse-libre en individuel et l'inversion du relais **avec sa raison technique** — c'est le meilleur passage de la leçon —, les deux formats de bassin et l'homologation séparée des records, les 10 km de l'eau libre, les 28 médailles et 23 titres de Phelps entre 2004 et 2016, ses huit titres à Pékin dépassant les sept de Spitz en 1972, Jean Boiteux en 1952, le triplé de Laure Manaudou à Athènes en 2004 (or sur 400 m, argent sur 800 m, bronze sur 100 m dos) et ses titres mondiaux de 2005 et 2007, les sept joueurs et les quatre périodes de huit minutes du water-polo, les trente secondes de possession, les dimensions de bassin distinctes, le water-polo masculin olympique dès 1900 et féminin en 2000, Bournemouth en 1869 et les règles londoniennes de 1870, Annette Kellerman à New York en 1907, le changement de nom de 2017, les duos mixtes aux Mondiaux depuis 2015.
+
+**Point de convergence avec la passe 1** : cette leçon donne la version exacte du palmarès de Laure Manaudou (400 m nage libre en or, 800 m en argent), ce qui confirme les deux constats [GRAVE] de la passe 1 sur `sp3-natation`. Le cahier hérité a raison contre le seed sur ce point précis.
+
+## Leçon héritée `10.json` — « La gymnastique et les sports artistiques »
+
+### [GRAVE] Ce n'est pas la Fédération internationale qui a reconnu la gymnastique rythmique en 1949
+- **Où** : `heritage/culture-g/data/lecons/sport/10.json` — section « La gymnastique rythmique et le trampoline », et explication du quiz q. 4
+- **Texte** : « Le premier championnat national d'Union soviétique se tient à Moscou en 1948, et **la Fédération internationale de gymnastique la reconnaît officiellement en 1949** comme discipline féminine de compétition. » ; quiz : « la discipline a été **reconnue par la Fédération internationale de gymnastique en 1949** ».
+- **Problème** : confusion entre deux institutions. C'est **l'URSS** qui reconnaît la gymnastique rythmique comme sport de compétition en 1949 ; **la FIG ne l'intègre à son programme qu'en 1961**, ce qui rend possibles les premiers championnats du monde de Budapest en décembre 1963 — que la leçon date d'ailleurs correctement. Telle qu'elle est écrite, la chronologie est incohérente avec elle-même : une discipline reconnue par la fédération internationale en 1949 n'aurait pas attendu quatorze ans ses premiers Mondiaux. L'erreur est répétée dans le quiz, donc apprise deux fois.
+- **Correction proposée** : « Le premier championnat national d'Union soviétique se tient à Moscou en 1948, et la discipline y est reconnue comme sport de compétition dès 1949 ; la Fédération internationale de gymnastique l'intègre à son programme en 1961. »
+
+### [GRAVE] « Cinq engins sont utilisés » — la corde a quitté le programme international en 2011, et l'explication du quiz le dit elle-même
+- **Où** : `heritage/culture-g/data/lecons/sport/10.json` — section « La gymnastique rythmique et le trampoline », et quiz q. 4 (« Combien d'engins différents sont utilisés en gymnastique rythmique ? » → **« Cinq »**)
+- **Texte** : « **Cinq engins sont utilisés** : la corde, le cerceau, le ballon, les massues et le ruban » ; explication du quiz : « La gymnastique rythmique utilise cinq engins : la corde, le cerceau, le ballon, les massues et le ruban. **En compétition internationale individuelle, la gymnaste présente quatre exercices avec des engins différents.** »
+- **Problème** : le présent (« sont utilisés ») est faux. **La FIG a retiré la corde du programme individuel senior en 2011** ; le programme en vigueur, reconduit jusqu'en 2028 pour les seniors comme pour les juniors, est **cerceau, ballon, massues et ruban**. La corde reste un engin historique de la discipline, elle n'est plus un engin de compétition. Pire : l'explication qui justifie la réponse « cinq » énonce dans la phrase suivante que la gymnaste ne présente que **quatre** exercices — sans jamais dire lequel est écarté ni pourquoi. La question demande combien d'engins sont *utilisés* ; la réponse littérale à cette question est aujourd'hui quatre. Le QCM a donc deux réponses défendables, dont celle qui est comptée fausse est la plus juste.
+- **Ce que cela confirme** : le constat [GRAVE] de la passe 1 (« le cours dit quatre, la question dit cinq ») était **exact**, et sa correction proposée est la bonne. Le désaccord s'étend en réalité à quatre textes du domaine : `cours/sport.ts` `sp2-gymnastique` (quatre), question `sp2-gymnastique` (cinq), question `sp3-gymnastique` (quatre), et cette leçon (cinq, deux fois). Trois de ces textes se retrouvent dans le même chapitre après la fusion `sp3-gymnastique` → `sp2-gymnastique`.
+- **Correction proposée** : « Le programme international repose aujourd'hui sur quatre engins — cerceau, ballon, massues et ruban ; la corde, cinquième engin historique, a été retirée du programme senior en 2011. » Et reformuler la question : « Quels engins composent le programme international de gymnastique rythmique ? » → « Cerceau, ballon, massues et ruban ».
+
+### [MOYEN] Latynina n'est pas la première à neuf titres olympiques : Paavo Nurmi l'a précédée de trente-six ans
+- **Où** : `heritage/culture-g/data/lecons/sport/10.json` — section « Les figures légendaires de la gymnastique », tableau, et explication du quiz q. 5
+- **Texte** : « **Première athlète à décrocher neuf titres olympiques**, elle a détenu le record du nombre de médailles olympiques pendant quarante-huit ans » (affirmation répétée trois fois, dont dans le tableau : « Première athlète à décrocher neuf titres olympiques »)
+- **Problème** : le Finlandais **Paavo Nurmi atteignait neuf titres olympiques dès 1928** ; Latynina y parvient en 1964. Elle est la première **femme** à neuf titres, ce qui est déjà remarquable. En français « athlète » est épicène : l'affirmation se lit comme un fait absolu, et elle est fausse ainsi. Le domaine se contredit d'ailleurs lui-même : `heritage/culture-g/data/sport.json` (q. 11) cite Nurmi parmi les olympiens à neuf titres, et la leçon 04 le présente comme le maître du fond des années 1920. Ce qui reste vrai et non ambigu, c'est le record du **nombre total de médailles** (dix-huit), tenu quarante-huit ans jusqu'à Phelps en 2012.
+- **Correction proposée** : « Première femme à décrocher neuf titres olympiques — le Finlandais Paavo Nurmi y était parvenu dès 1928 —, elle a détenu le record du nombre total de médailles pendant quarante-huit ans, jusqu'à Michael Phelps en 2012. »
+
+### [MINEUR] « Les années mille huit cents »
+- **Où** : `heritage/culture-g/data/lecons/sport/10.json` — section « Des exercices antiques à la gymnastique moderne »
+- **Texte** : « C'est au début **des années mille huit cents** qu'apparaît l'expression de gymnastique artistique »
+- **Problème** : calque de l'anglais *the 1800s*. En français on écrit « au début du XIXe siècle ». La leçon emploie d'ailleurs correctement « au tournant des XVIIIe et XIXe siècles » deux phrases plus haut, ce qui rend la formule d'autant plus voyante.
+- **Correction proposée** : « C'est au début du XIXe siècle qu'apparaît l'expression de gymnastique artistique ».
+
+### [MINEUR] « Olympiades » pour « éditions des Jeux », une fois de plus
+- **Où** : `heritage/culture-g/data/lecons/sport/10.json` — section « Les figures légendaires de la gymnastique » et explication du quiz q. 5
+- **Texte** : « elle fut médaillée au sol lors de trois **olympiades** consécutives »
+- **Problème** : même emploi fautif que celui déjà relevé en passe 1 dans `sp-sports-hiver-nautiques`, `sp3-basket-3` et `cours/sport.ts`. Une olympiade est l'intervalle de quatre ans entre deux Jeux. Le défaut est donc commun au seed **et** au cahier hérité, ce qui en fait un point à traiter globalement et non fichier par fichier.
+- **Correction proposée** : « lors de trois éditions consécutives des Jeux ».
+
+## Ce qui est sain dans la leçon 10
+Vérifiés et exacts : le bureau des fédérations européennes du 23 juillet 1881 devenu Fédération internationale de gymnastique en 1922, la gymnastique masculine olympique dès 1896 et féminine à partir d'Amsterdam en 1928, les quatre agrès féminins et les six agrès masculins avec leurs exigences (cercles continus au cheval d'arçons, croix de fer aux anneaux), les dimensions de la poutre, la structure équipes / concours général / finales par agrès, le premier 10 de Nadia Comăneci aux barres asymétriques le 18 juillet 1976 et l'affichage à 1,00, ses sept notes maximales à Montréal, le 10 de Lavinia Miloșovici au sol en 1992, l'abandon du barème sur dix en 2006 et la mécanique exécution + difficulté avec des totaux de seize à dix-sept points, les premiers Mondiaux de rythmique à Budapest en 1963 avec vingt-huit gymnastes de dix pays, l'entrée olympique en 1984 en individuel et 1996 en ensembles, George Nissen et le trampoline des années trente, la fédération internationale de trampoline en 1964 et les premiers Mondiaux à Londres la même année, l'entrée olympique du trampoline à Sydney en 2000, le mouvement de dix figures, les dix-huit médailles de Latynina (9-5-4) sur 1956, 1960 et 1964, et la biographie de Comăneci (née le 12 novembre 1961 à Onești, Károlyi dès six ans, quatorze ans et huit mois à Montréal, trois titres en 1976, poutre et sol partagé avec Nellie Kim en 1980).
+
+La section « Juger la gymnastique : la fin du dix parfait » est le meilleur passage du domaine que j'aie lu jusqu'ici : elle explique *pourquoi* le barème a changé — le plafonnement rendait les meilleures indépartageables — au lieu de se contenter d'annoncer la réforme, et elle assume la perte symbolique qu'elle entraîne.
+
+## Leçon héritée `11.json` — « Le volley-ball et les sports de raquette »
+
+### [GRAVE] Le badminton olympique de 1992 comptait quatre épreuves, pas cinq : le double mixte n'arrive qu'en 1996
+- **Où** : `heritage/culture-g/data/lecons/sport/11.json` — section « Le badminton, du jeu de volant au sport olympique », tableau récapitulatif, et explication du quiz q. 4 (l'erreur figure donc **trois fois**)
+- **Texte** : « la discipline devient olympique en 1992, **avec cinq épreuves : simples et doubles hommes et dames, plus le double mixte** » ; tableau : « Olympique depuis / 1992, avec cinq épreuves » ; quiz : « Le badminton est devenu olympique en 1992, avec cinq épreuves ».
+- **Problème** : à Barcelone en 1992, le badminton n'avait que **quatre** épreuves — simple messieurs, simple dames, double messieurs, double dames. Le **double mixte est ajouté à Atlanta en 1996**, et c'est justement ce qui fait du badminton l'un des rares sports olympiques où hommes et femmes jouent ensemble sur le même terrain — le fait le plus intéressant de la série, et celui que la leçon efface en l'antidatant. Les premiers champions olympiques de double mixte sont les Coréens Kim Dong-moon et Gil Young-ah, en 1996.
+- **Correction proposée** : « la discipline devient olympique en 1992 avec quatre épreuves — simples et doubles, hommes et dames ; le double mixte s'y ajoute en 1996 à Atlanta, faisant du badminton l'un des rares sports olympiques où hommes et femmes jouent dans la même équipe. »
+
+### [MOYEN] « Jacques Gossima » n'est pas une personne
+- **Où** : `heritage/culture-g/data/lecons/sport/11.json` — section « Le tennis de table, du salon victorien à la domination chinoise »
+- **Texte** : « David Foster propose un premier ensemble en 1890, **Jacques Gossima en 1891** »
+- **Problème** : la construction en parallèle avec « David Foster » fait lire « Jacques Gossima » comme le nom d'un inventeur. En réalité **Gossima est le nom du jeu**, commercialisé en 1891 par la maison anglaise **John Jaques & Son** — d'où « Jaques », et non « Jacques ». La phrase fabrique un personnage qui n'a jamais existé, et le distracteur du quiz q. 1 (« Ivor Montagu, sous le nom de gossima ») suppose au contraire que le lecteur a compris que Gossima est un nom de jeu.
+- **Correction proposée** : « David Foster commercialise un premier ensemble en 1890, et la maison anglaise Jaques & Son lance en 1891 un jeu baptisé Gossima ».
+
+### [MOYEN] La balle de tennis de table n'est plus en celluloïd depuis 2014
+- **Où** : `heritage/culture-g/data/lecons/sport/11.json` — tableau « Badminton et tennis de table, deux sports de vitesse », ligne « Projectile »
+- **Texte** : « **Une balle en celluloïd**, matériau importé en 1901 par James Gibb »
+- **Problème** : le tableau décrit l'équipement **actuel** des deux sports (il met le volant de plumes en face), et il donne le celluloïd au présent. Or **l'ITTF est passée à la balle plastique le 1er juillet 2014** dans toutes ses compétitions, pour des raisons environnementales et de sécurité, avec un diamètre et un poids légèrement révisés au passage. Le celluloïd est un fait historique — celui que raconte très bien le paragraphe sur James Gibb —, pas une donnée courante. C'est exactement le type de règle modifiée qu'il faut dater.
+- **Correction proposée** : « Une balle de 40 mm, en celluloïd de 1901 — date de son importation par James Gibb — jusqu'en 2014, en plastique depuis. »
+
+### [MINEUR] La largeur du terrain de badminton est celle du double
+- **Où** : `heritage/culture-g/data/lecons/sport/11.json` — section « Le badminton », et tableau
+- **Texte** : « Le terrain mesure treize mètres quarante de long sur **six mètres dix de large** »
+- **Problème** : 6,10 m est la largeur en **double** ; en simple, les couloirs latéraux sont exclus et la largeur tombe à 5,18 m. La leçon 02 prend pourtant soin de faire cette distinction pour le tennis (« 8,23 m en simple, largeur portée à 10,97 m en double »). L'omission est d'autant plus visible que le badminton est ici présenté avec ses cinq épreuves, dont deux de simple.
+- **Correction proposée** : « treize mètres quarante de long, sur six mètres dix de large en double et cinq mètres dix-huit en simple ».
+
+### [MINEUR] Le jeu indien s'appelle « poona », pas « poonai »
+- **Où** : `heritage/culture-g/data/lecons/sport/11.json` — section « Le badminton », et explication du quiz q. 4
+- **Texte** : « se souviennent d'un jeu indien appelé **le poonai** »
+- **Problème** : le jeu rapporté des Indes par les officiers britanniques est le **poona**, du nom de la ville de Poona (Pune). La graphie « poonai » n'a pas de source ; elle est répétée à l'identique dans l'explication du quiz, où elle devient un mot à mémoriser.
+- **Correction proposée** : « un jeu indien appelé le poona, du nom de la ville de Poona ».
+
+## Ce qui est sain dans la leçon 11
+Vérifiés et exacts : Morgan à Holyoke en 1895, la mintonette, le basket-ball créé quatre ans plus tôt dans une institution voisine, l'étymologie par la volée, la diffusion par le réseau des YMCA et par les soldats américains, la FIVB fondée à Paris en 1947, les Mondiaux masculins de 1949 et féminins de 1952, l'entrée olympique à Tokyo en 1964 et le retentissement du titre japonais féminin, le terrain de 18 × 9 m, le filet à 2,43 m et 2,24 m, les trois touches et l'interdiction de toucher deux fois de suite sauf après contre, la rotation dans le sens des aiguilles d'une montre, le libéro et ses restrictions, les sets en 25 points et le cinquième en 15, le point à chaque échange, les deux joueurs du beach-volley et son terrain plus petit, les sets en 21 points, la règle du contre comptant dans les trois touches, l'entrée olympique du beach-volley à Atlanta en 1996, l'ascendance chinoise et japonaise (hanetsuki) des jeux de volant et le *battledore and shuttlecock* anglais, Badminton House et le duc de Beaufort en 1873, la physionomie du volant (vitesse initiale extrême puis freinage), le filet à 1,55 m aux extrémités, les sets en 21 points, la Fédération mondiale de badminton en 1934, la géographie du haut niveau, l'origine victorienne du tennis de table, James Gibb et le celluloïd en 1901, l'ITTF de 1926 sous Ivor Montagu, les premiers Mondiaux de Londres remportés par Roland Jacobi, la table de 2,74 × 1,52 m et le filet de 15,25 cm, les sets en 11 points et le service tous les deux points puis à chaque échange à partir de dix partout, l'entrée olympique à Séoul en 1988, la succession Hongrie / Japon / Chine et la parenthèse suédoise de Jan-Ove Waldner.
+
+La section sur le volley est la plus solide : elle relie chaque règle à sa conséquence de jeu (les trois touches → réception-passe-attaque ; la rotation → tous les joueurs passent partout ; l'absence de contact → ce qui distingue le volley des autres sports collectifs), au lieu de lister des chiffres.
+
+## Leçon héritée `12.json` — « Les sports équestres et l'escrime »
+
+### [GRAVE] La parité des épreuves d'escrime par équipes date de Tokyo 2021, pas de 2008
+- **Où** : `heritage/culture-g/data/lecons/sport/12.json` — section « L'escrime en compétition et ses champions », et explication du quiz q. 4 (l'erreur est donc énoncée deux fois)
+- **Texte** : « le fleuret féminin apparaît en 1924, l'épée seulement en 1996 et le sabre en 2004, **la parité complète des épreuves par équipes n'étant atteinte qu'en 2008** »
+- **Problème** : faux. Le nombre d'épreuves d'escrime étant plafonné à dix par le CIO, les épreuves par équipes **tournaient d'une édition à l'autre** — une arme masculine et une arme féminine étaient sacrifiées à chaque fois. Ce n'est qu'aux **Jeux de Tokyo, en 2021, que le programme complet de douze épreuves a été disputé pour la première fois** : les trois armes, en individuel et par équipes, pour les hommes comme pour les femmes. 2008 est l'année d'apparition du **sabre féminin par équipes**, ce qui n'est pas la même chose. Telle qu'elle est écrite, la phrase clôt treize ans trop tôt une histoire dont la fin est récente et intéressante.
+- **Correction proposée** : « le fleuret féminin apparaît en 1924, l'épée en 1996 et le sabre en 2004 ; les épreuves par équipes ont ensuite longtemps tourné d'une édition à l'autre, faute de places au programme, et il a fallu attendre Tokyo en 2021 pour que les douze épreuves — trois armes, individuel et équipes, hommes et femmes — soient toutes disputées la même année. »
+
+### [MINEUR] Une formule dont le sens est illisible
+- **Où** : `heritage/culture-g/data/lecons/sport/12.json` — section « L'escrime et ses trois armes », et note du tableau
+- **Texte** : « Le fleuret a été créé au XVIIe siècle comme arme d'entraînement, et il est **le seul à n'avoir jamais quitté les salles d'armes**. »
+- **Problème** : ce que la phrase veut dire — le fleuret est la seule des trois armes à n'avoir jamais servi à se battre pour de vrai — ne se devine pas. « Quitter les salles d'armes » peut aussi bien se lire comme « n'a jamais été pratiqué ailleurs qu'en salle », ce qui serait faux. Le contraste avec l'épée, dont la leçon dit deux phrases plus loin qu'elle « garde la logique du duel », est le vrai contenu de l'idée, et il n'est jamais énoncé.
+- **Correction proposée** : « Le fleuret a été créé au XVIIe siècle comme arme d'entraînement : c'est la seule des trois qui n'ait jamais servi à se battre, seulement à apprendre. »
+
+## Ce qui est sain dans la leçon 12
+Vérifiés et exacts : les traces de monte dans les sépultures de la culture Yamna, la distinction entre sport équestre et sports hippiques — utile, et rarement faite —, la Fédération équestre internationale de 1921 et les disciplines non olympiques qu'elle reconnaît, la description des trois disciplines olympiques et de leurs critères respectifs (barrage au chronomètre en saut d'obstacles, même cheval sur les trois tests du complet), l'entrée aux Jeux en 1900 à Paris avec trois épreuves de sauts et la présence sans interruption depuis 1912, la restriction aux cavaliers militaires jusqu'en 1952, l'admission des femmes en dressage en 1952, en saut d'obstacles en 1956 et en concours complet en 1964, la mixité intégrale depuis, la prééminence allemande au palmarès, la répartition fleuret / épée / sabre (surface valable, pointe ou tranchant, convention de priorité et son absence à l'épée), le fleuret et le sabre masculins dès 1896 et l'épée dès 1900, l'escrime parmi les rares sports de toutes les éditions, le fleuret féminin en 1924, l'épée féminine en 1996 et le sabre féminin en 2004, la Fédération internationale d'escrime de 1913, le français langue d'arbitrage et les ordres « En garde, Prêts, Allez », l'appareil électrique de signalisation, et le palmarès de Laura Flessel — cinq médailles olympiques (or individuel et par équipes en 1996, bronze individuel en 2000, argent individuel et bronze par équipes en 2004) et six titres mondiaux, dont ceux de 1998 et 1999 en individuel.
+
+La section sur la mixité de l'équitation est un bon exemple de cours qui explique au lieu d'énumérer : elle donne la raison de l'exception (la performance repose sur le cheval et sur la relation, pas sur la puissance du cavalier), ce qui rend le fait mémorisable.
+
+## Leçon héritée `13.json` — « Les Jeux paralympiques et le handisport »
+
+### [GRAVE] Le goalball : la démonstration n'était pas à Toronto en 1976, et il est officiel depuis 1976, pas 1988
+- **Où** : `heritage/culture-g/data/lecons/sport/13.json` — section « Des sports inventés pour le handicap », visuel « Deux sports sans équivalent olympique », et explication du quiz q. 3 (l'erreur figure **trois fois**)
+- **Texte** : « **Présenté en démonstration aux Jeux paralympiques de Toronto en 1976, le goalball devient officiel en 1988.** »
+- **Problème** : les deux dates sont fausses, et elles sont fausses ensemble. Le goalball a été **présenté en démonstration à Heidelberg en 1972**, puis est devenu **épreuve officielle à Toronto en 1976** — l'Autriche remportant le premier titre paralympique en battant la RFA 4-2. Il y a eu un tournoi masculin à chaque édition depuis 1976 ; **1984 est l'année du premier tournoi féminin**. Aucune source ne rattache 1988 à ce sport. La leçon décale donc toute la chronologie d'une édition et invente un point d'arrivée.
+- **Ceci résout un point laissé en suspens par la passe 1** (« année d'entrée du goalball au programme paralympique (démonstration en 1976, médailles en 1980 ?) ») : ni l'une ni l'autre des deux hypothèses n'était bonne. J'ai vérifié sur la fiche de l'IBSA et sur le tableau des éditions. Le seed, lui, ne date jamais le goalball — l'erreur est propre au cahier hérité.
+- **Correction proposée** : « Présenté en démonstration à Heidelberg en 1972, le goalball devient épreuve officielle dès Toronto en 1976 ; le tournoi féminin s'y ajoute en 1984. »
+
+### [MINEUR] Un nom donné en 1948 à des jeux qui ne s'appelaient pas encore ainsi
+- **Où** : `heritage/culture-g/data/lecons/sport/13.json` — section « De l'hôpital de Stoke Mandeville aux Jeux de Rome », frise, et explication du quiz q. 1
+- **Texte** : « il organise à partir de 1948 des compétitions destinées à ces blessés, **sous le nom de Jeux mondiaux des chaises roulantes et des amputés** »
+- **Problème** : en 1948, les épreuves organisées par Guttmann le jour de la cérémonie d'ouverture des Jeux de Londres s'appelaient les **Jeux de Stoke Mandeville** ; elles deviennent internationales en 1952, et l'appellation « Jeux mondiaux en fauteuil roulant et pour amputés » n'apparaît que bien plus tard, quand le mouvement s'élargit au-delà des seuls paraplégiques. Donner ce nom à l'événement de 1948 est un anachronisme — d'autant que la leçon insiste, à juste titre, sur le fait que Guttmann s'adressait au départ à des **paraplégiques**, et non à des amputés.
+- **Correction proposée** : « il organise à partir de 1948 les Jeux de Stoke Mandeville, ouverts aux vétérans paraplégiques ; devenus internationaux en 1952, ils s'élargiront ensuite à d'autres handicaps. »
+
+### [MINEUR] La Fédération française handisport n'a pas été créée en 1977
+- **Où** : `heritage/culture-g/data/lecons/sport/13.json` — section « Le handisport et la classification des athlètes »
+- **Texte** : « la **Fédération française handisport, créée en 1977**, encadre la pratique »
+- **Problème** : 1977 est l'année où la fédération **prend ce nom**. Elle existe depuis 1954 (Amicale sportive des mutilés de France), devenue en 1963 Fédération française des sports pour handicapés physiques. Écrire « créée en 1977 » efface vingt-trois ans, et rend incohérent le voisinage avec la Fédération française du sport adapté « créée en 1971 », qui serait alors l'aînée.
+- **Correction proposée** : « la Fédération française handisport, qui porte ce nom depuis 1977 et dont l'origine remonte à 1954 ».
+
+### [MOYEN] La classification est demandée dans trois chapitres différents du domaine
+- **Où** : `heritage/culture-g/data/lecons/sport/13.json` — quiz q. 4 ; contre `prisma/seed/culture-g/sport-2.ts` — `sp2-handisport` et `sport-3.ts` — `sp3-paralympiques`
+- **Texte** : leçon — « Quel est le rôle de la classification dans les compétitions handisport ? » → « Regrouper les athlètes selon des capacités fonctionnelles comparables » ; seed — « Qu'est-ce que la classification en para-sport ? » et « Qu'est-ce que la classification en sport paralympique ? » → « Un système regroupant les athlètes selon l'impact de leur handicap/déficience ».
+- **Problème** : la passe 1 avait relevé les **deux** questions du seed, qui se retrouvent côte à côte après la fusion `sp3-paralympiques` → `sp2-handisport`. Il y en a en réalité **trois**, la leçon héritée `cg-sport-13` posant la même chose une troisième fois dans un chapitre distinct. Même remarque pour le goalball (`sp2-handisport`, `sp3-paralympiques` et cette leçon), pour la boccia et pour la date de 1960 à Rome. Le sujet « paralympique » est donc traité par trois chapitres qui se recouvrent presque entièrement.
+- **Correction proposée** : compléter `FUSIONS` pour verser `sp2-handisport` dans `cg-sport-13` — comme le préconisait déjà la passe 1 pour les onze sujets dédoublés — puis dédoublonner sur le couple (bonne réponse, explication).
+
+## Ce qui est sain dans la leçon 13
+Vérifiés et exacts : Guttmann à Stoke Mandeville et l'intuition de la rééducation par le sport, la neuvième édition disputée à Rome en 1960 une semaine après les Jeux olympiques et reconnue comme les premiers Jeux paralympiques, les premiers Jeux d'hiver en Suède en 1976, l'étymologie *para* = « à côté de » et non « paraplégie » — et l'explication du quiz va plus loin que le fait en montrant que c'est aussi **un choix de sens**, ce qui est excellent —, le Comité international paralympique fondé le 22 septembre 1989 à Düsseldorf en remplacement d'une organisation de 1982, le siège de Bonn, les ordres de grandeur des Jeux d'été (≈ 4 400 athlètes, ≈ 500 épreuves, une vingtaine de disciplines) et d'hiver (≈ 570 concurrents, six disciplines), la distinction handisport / sport adapté, le principe et le rôle de la classification, les trois grandes familles de déficiences, la Fédération française du sport adapté créée en 1971, les Jeux silencieux de Paris en 1924 et l'existence d'un mouvement sourd distinct, le goalball (trois contre trois, 18 × 9 m, lignes en relief, ballon à grelots, masque opaque pour tous, silence du public), les trois catégories de déficience visuelle, et la boccia (paralysie cérébrale à l'origine, lancer à la main, au pied ou à la rampe, paralympique depuis 1984 à New York).
+
+La dernière section — « Un mouvement qui change le regard sur le handicap » — est l'un des rares passages du domaine qui pose une question ouverte au lieu de conclure : la frontière entre compensation du handicap et avantage technologique, et le contraste entre visibilité pendant les Jeux et invisibilité le reste du temps. C'est du cours qui apprend à penser, pas seulement à réciter.

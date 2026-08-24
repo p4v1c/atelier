@@ -1,9 +1,9 @@
 # Histoire de France
 
-> ÉTAT : passe 1 en cours. Lus : les 4 fichiers de questions (75 notions, 730 q.), `fusions.ts`,
-> `cours/histoire-france.ts` en entier (53 cours), et `heritage/culture-g/data/histoire-france.json`
-> (60 questions, 3 cours). Reste : `heritage/culture-g/data/lecons/histoire-france/*.json`
-> (17 leçons, 85 sections, 85 quiz), puis passe 2 intégrale.
+> ÉTAT : reprise. Passe 1 : les 4 fichiers de questions, `fusions.ts`, `cours/histoire-france.ts`,
+> `heritage/.../histoire-france.json` — faits. En cours : les 17 leçons héritées
+> (`heritage/culture-g/data/lecons/histoire-france/NN.json`), lue(s) : 01 à 16.
+> Reste : leçon 17, puis passe 2 intégrale.
 
 ## Ce que j'ai lu
 
@@ -903,3 +903,422 @@ récents, la « diagonale du vide » signalée comme terme critiqué. Les notion
 (Commune de Paris, guerres de Religion, cathédrales gothiques, société féodale) sont du contenu
 original, sans doublon, et bien construit. Le problème du domaine n'est pas la justesse : c'est
 la répétition.
+
+
+---
+
+# Reprise de la lecture — leçons héritées
+
+## Ce que j'ai lu (suite)
+
+- `heritage/culture-g/data/lecons/histoire-france/01.json` — « La Gaule et la conquête romaine »,
+  5 sections, 5 questions de quiz. Lu intégralement.
+- `heritage/culture-g/data/lecons/histoire-france/02.json` — « Mérovingiens et Carolingiens »,
+  5 sections, 5 questions de quiz. Lu intégralement.
+- `heritage/culture-g/data/lecons/histoire-france/03.json` — « Les Capétiens et la France
+  médiévale (987-1328) », 5 sections, 5 questions de quiz. Lu intégralement. **Rien à signaler** :
+  dates, filiations (Philippe le Bel petit-fils de Louis IX) et chronologie vérifiées, exactes.
+- `heritage/culture-g/data/lecons/histoire-france/04.json` — « La guerre de Cent Ans
+  (1337-1453) », 5 sections, 5 questions de quiz. Lu intégralement. **Rien à signaler** :
+  Crécy 1346 (« archers gallois **et anglais** » — la leçon dit juste là où
+  `cours/histoire-france.ts:378` ne dit que « gallois »), Calais 1347-1558, Poitiers 1356,
+  Brétigny 1360, Azincourt 1415, Troyes 1420, Castillon 1453, les 116 ans : tout est exact.
+- `heritage/culture-g/data/lecons/histoire-france/05.json` — « Renaissance et guerres de
+  Religion (1494-1598) », 5 sections, 5 questions de quiz. Lu intégralement.
+- `heritage/culture-g/data/lecons/histoire-france/06.json` — « Louis XIV et l'absolutisme
+  (1643-1715) », 5 sections, 5 questions de quiz. Lu intégralement. Aucune erreur de fait :
+  Alès 1629, Fouquet septembre 1661, remontrances supprimées en 1673, Versailles 1682,
+  Fontainebleau 18 octobre 1685, Utrecht 1713 / Rastatt 1714, mort le 1er septembre 1715.
+  La leçon écrit d'ailleurs prudemment « Les traités de Westphalie, en 1648, donnent à la France
+  **des droits** en Alsace », là où `histoire-france.ts` (`hf-richelieu-mazarin`) écrit « La France
+  y gagne l'Alsace » — le constat [MOYEN] correspondant est confirmé.
+- `heritage/culture-g/data/lecons/histoire-france/07.json` — « La IIIe République (1870-1940) »,
+  5 sections, 5 questions de quiz. Lu intégralement. **Rien à signaler** : Sedan 2 septembre,
+  proclamation le 4, Francfort 10 mai 1871, amendement Wallon à une voix, 16 mai 1877,
+  Ferry 1881/1882, Goblet 1886, Naquet et Waldeck-Rousseau 1884, Carnot 1894, J'accuse
+  13 janvier 1898, réhabilitation 1906, loi du 9 décembre 1905, charte d'Amiens 1906,
+  10 juillet 1940 — vérifiés, exacts.
+- `heritage/culture-g/data/lecons/histoire-france/08.json` — « La Restauration et la monarchie
+  de Juillet (1814-1848) », 5 sections, 5 questions de quiz. Lu intégralement.
+- `heritage/culture-g/data/lecons/histoire-france/09.json` — « La IIe République et le Second
+  Empire (1848-1870) », 5 sections, 5 questions de quiz. Lu intégralement.
+- `heritage/culture-g/data/lecons/histoire-france/10.json` — « La Commune de Paris (1871) »,
+  5 sections, 5 questions de quiz. Lu intégralement. **Rien à signaler** : 18 mars - 28 mai,
+  72 jours, élections du 26 mars, proclamation du 28, colonne Vendôme le 16 mai, Darboy le 24,
+  rue Haxo le 26, Delescluze le 25, amnisties de 1879 et 1880 — exacts. La leçon prend même le
+  soin de signaler que le bilan humain « s'échelonne d'environ 6 000 à 20 000 » selon les
+  auteurs, précaution que peu de textes du domaine s'imposent.
+- `heritage/culture-g/data/lecons/histoire-france/11.json` — « L'affaire Dreyfus (1894-1906) »,
+  5 sections, 5 questions de quiz. Lu intégralement. Chronologie exacte de bout en bout
+  (arrestation 15 octobre 1894, condamnation 22 décembre, dégradation 5 janvier 1895,
+  acquittement d'Esterhazy janvier 1898, faux Henry août 1898, Rennes 1899, cassation sans
+  renvoi le 12 juillet 1906, attentat de 1908 au Panthéon).
+- `heritage/culture-g/data/lecons/histoire-france/12.json` — « Vichy, la Résistance et la
+  Libération (1940-1945) », 5 sections, 5 questions de quiz. Lu intégralement. Chiffres et dates
+  vérifiés, exacts : 569 voix contre 80, statut des Juifs du 3 octobre 1940, Montoire
+  24 octobre 1940, invasion de la zone sud le 11 novembre 1942, STO février 1943, Milice
+  janvier 1943, MUR janvier 1943, CNR 27 mai 1943, Caluire 21 juin 1943, Oradour 10 juin 1944,
+  ordonnance du 21 avril 1944, environ 75 000 déportés juifs dont moins de 3 000 revenus.
+- `heritage/culture-g/data/lecons/histoire-france/13.json` — « La IVe République et la
+  reconstruction (1946-1958) », 5 sections, 5 questions de quiz. Lu intégralement. Dates exactes
+  (référendum du 21 octobre 1945, rejet du 5 mai 1946, adoption du 13 octobre, entrée en vigueur
+  du 27 octobre, démission du 20 janvier 1946, CECA 1951, CED 1954, Rome 25 mars 1957,
+  Diên Biên Phu 7 mai 1954, 1er novembre 1954, 13 mai et 1er juin 1958, 28 septembre 1958).
+- `heritage/culture-g/data/lecons/histoire-france/14.json` — « La Ve République, de 1958 à nos
+  jours », 5 sections, 5 questions de quiz. Lu intégralement. Aucune erreur de fait, jusqu'à
+  l'inscription de l'IVG dans la Constitution le 4 mars 2024. La leçon écrit d'ailleurs
+  « Régime le plus durable **depuis 1789** après la Troisième République » : c'est exactement la
+  restriction que l'astuce de `cg-neuf-hf4-troisieme-republique` laisse tomber, ce qui confirme
+  le constat correspondant.
+- `heritage/culture-g/data/lecons/histoire-france/15.json` — « La guerre d'Algérie (1954-1962) »,
+  5 sections, 5 questions de quiz. Lu intégralement. **Rien à signaler**, et c'est l'une des
+  leçons les mieux faites du domaine : elle date correctement (Toussaint rouge, pouvoirs spéciaux
+  de 1956, 16 septembre 1959, putsch d'avril 1961, Évian le 18 mars, cessez-le-feu le 19,
+  référendum du 8 avril, indépendance le 5 juillet 1962) et, sur le bilan humain, elle donne les
+  fourchettes concurrentes en disant qui les avance, au lieu de trancher — 25 000 militaires
+  français, « 250 000 à 400 000 morts » côté algérien selon les évaluations françaises, « un
+  million et demi de martyrs » selon l'Algérie.
+- `heritage/culture-g/data/lecons/histoire-france/16.json` — « L'empire colonial français
+  (XVIe-XXe siècle) », 5 sections, 5 questions de quiz. Lu intégralement. Faits exacts (Cartier
+  1534, Québec 1608, Code noir 1685, Paris 1763, Louisiane 1803, Haïti 1804, Abd el-Kader 1847,
+  indigénat du 28 juin 1881, AOF 1895, AEF 1910, Lamine Guèye mai 1946, Vanuatu 1980).
+- `heritage/culture-g/data/lecons/histoire-france/17.json` — « Les Trente Glorieuses et Mai 68
+  (1945-1975) », 5 sections, 5 questions de quiz. Lu intégralement. Chronologie de mai exacte
+  (Sorbonne le 3, barricades du 10 au 11, manifestation du 13, Grenelle du 25 au 27,
+  Baden-Baden le 29, allocution du 30), et le SMIG relevé d'environ 35 %.
+
+**Total de la passe 1 : 75 notions neuves (730 questions), 53 cours neufs, le cahier d'origine
+(60 questions, 3 cours) et les 17 leçons héritées (85 sections, 85 questions de quiz).**
+
+## Constats (suite)
+
+### [MOYEN] La leçon héritée dit juste là où le cours neuf dit faux (rois fainéants, Brunehaut)
+
+- **Où** : `heritage/culture-g/data/lecons/histoire-france/02.json`, section « Le royaume
+  mérovingien : partages et déclin »
+- **Texte** : « La tradition les a longtemps appelés les rois fainéants, expression péjorative
+  **forgée plus tard** et que les historiens jugent injuste. » ; « La fin du VIe siècle est
+  marquée par la lutte sanglante entre les reines Brunehaut […] et Frédégonde. »
+- **Problème** : ce n'est pas un défaut de la leçon, c'est une pièce à charge contre le corpus
+  neuf. La leçon héritée date correctement l'expression *après* l'époque carolingienne, alors
+  que `cours/histoire-france.ts:13` et `:245` l'attribuent à Éginhard ; et elle borne la
+  rivalité à « la fin du VIe siècle », alors que `cours/histoire-france.ts:232` l'étire à
+  quarante ans. Les deux constats déjà consignés plus haut sont donc confirmés sur pièces :
+  c'est bien le corpus neuf qui a dérivé, pas le cahier d'origine.
+- **Correction proposée** : aucune sur la leçon ; aligner le corpus neuf sur elle.
+
+### [MOYEN] Collège royal : la leçon héritée tranche, et c'est le corpus neuf qui a tort
+
+- **Où** : `heritage/culture-g/data/lecons/histoire-france/05.json`, section « François Ier et
+  l'État royal »
+- **Texte** : « Il crée en 1530 un collège de lecteurs royaux, ancêtre du Collège de France, où
+  l'on enseigne **le grec et l'hébreu** hors de l'université. »
+- **Problème** : la leçon d'origine est exacte — la fondation de 1530 crée des lecteurs royaux
+  de grec et d'hébreu, rien d'autre. Le corpus neuf ajoute une troisième discipline, et pas la
+  même selon le fichier : « le latin » dans `cours/histoire-france.ts:64`, « les mathématiques »
+  dans les questions de `histoire-france.ts` et `histoire-france-2.ts`. Le constat [MOYEN]
+  « Le Collège royal : le cours dit latin, les questions disent mathématiques » est donc tranché :
+  aucun des deux n'a raison contre la leçon, ils ont tort tous les deux.
+- **Correction proposée** : aligner les trois textes neufs sur « le grec et l'hébreu », en
+  précisant si l'on veut que le latin et les mathématiques sont ajoutés dans les décennies
+  suivantes.
+
+### [MINEUR] Cent-Jours : deux bornes qui se chevauchent dans la même section
+
+- **Où** : `heritage/culture-g/data/lecons/histoire-france/08.json`, section « La Première
+  Restauration et les Cent-Jours »
+- **Texte** : « La Première Restauration commence le 6 avril 1814 et prend fin le **20 mars
+  1815**. » puis, six lignes plus bas, « l'Empereur reprend le pouvoir pour la période dite des
+  Cent-Jours, **du 1er mars au 18 juin 1815** ».
+- **Problème** : les deux bornes se chevauchent de vingt jours. Le 1er mars est le débarquement
+  à Golfe-Juan, le 20 mars l'entrée aux Tuileries : la même section fait donc coexister deux
+  régimes pendant trois semaines. L'usage retient les Cent-Jours du 20 mars au 22 juin (ou au
+  8 juillet, retour de Louis XVIII) — soit une centaine de jours, ce que « 1er mars - 18 juin »
+  ne donne pas non plus (109 jours).
+- **Correction proposée** : « … pour la période dite des Cent-Jours, du 20 mars au 22 juin 1815 »,
+  en gardant le 1er mars pour le seul débarquement.
+
+### [MOYEN] La leçon héritée borne correctement la monarchie de Juillet — le lot 4 non
+
+- **Où** : `heritage/culture-g/data/lecons/histoire-france/08.json`, section « La monarchie de
+  Juillet, régime bourgeois (1830-1848) », contre `prisma/seed/culture-g/histoire-france-4.ts`
+  (`cg-neuf-hf4-restauration`) et `cours/histoire-france.ts:596`
+- **Texte** : leçon — « La monarchie de Juillet, qui dure **du 9 août 1830 au 24 février 1848** » ;
+  lot 4 — « Trois régimes se succèdent entre 1815 et 1848 ».
+- **Problème** : la leçon d'origine est exacte et précise ; c'est le corpus neuf qui a fabriqué
+  la borne fausse. Confirme les deux constats déjà consignés (astuce `hf4-restauration` et
+  section « Trois régimes en trente-trois ans »).
+- **Correction proposée** : voir ces constats — « entre 1815 et 1852 ».
+
+### [MOYEN] Sedan : la leçon 09 date la capitulation du 1er septembre, tout le reste du domaine du 2
+
+- **Où** : `heritage/culture-g/data/lecons/histoire-france/09.json`, section « Politique
+  extérieure, Empire libéral et effondrement de 1870 » **et** la bonne réponse de son quiz 4
+- **Texte** : « le **1er septembre 1870**, la défaite de Sedan se solde par la capture de
+  l'Empereur » ; choix juste : « La **capitulation** de Napoléon III à Sedan le **1er septembre
+  1870** ».
+- **Problème** : le 1er septembre est le jour de la **bataille** ; la **capitulation** est signée
+  le **2 septembre**, l'empereur remettant son épée à Guillaume Ier ce jour-là. Tous les autres
+  textes du domaine disent 2 septembre : `heritage/culture-g/data/lecons/histoire-france/07.json`
+  (« Le 2 septembre 1870, à Sedan, Napoléon III capitule »),
+  `heritage/culture-g/data/histoire-france.json:412` (« Le 2 septembre 1870, l'armée française
+  encerclée à Sedan capitule ») et `cours/histoire-france.ts:650` (« elle capitule le
+  2 septembre »). La leçon 09 est donc seule contre quatre, et l'erreur est logée dans la
+  **chaîne de la bonne réponse** d'une question — c'est-à-dire dans ce que l'apprenant répétera.
+  Elle rend en outre incohérent l'enchaînement « deux jours plus tard, le 4 septembre » que la
+  leçon 07 construit sur le 2.
+- **Correction proposée** : section — « le 2 septembre 1870, au lendemain de la bataille de
+  Sedan, l'armée encerclée capitule et l'Empereur est fait prisonnier » ; choix juste — « La
+  capitulation de Napoléon III à Sedan le 2 septembre 1870 ».
+
+### [MOYEN] La même question sur *J'accuse* posée dans deux leçons du même domaine
+
+- **Où** : `heritage/culture-g/data/lecons/histoire-france/07.json` quiz 2 et
+  `heritage/culture-g/data/lecons/histoire-france/11.json` quiz 2
+- **Texte** : « Quel texte publié par Émile Zola en janvier 1898 relance l'affaire Dreyfus ? »
+  → « J'accuse » ; et « Où et quand paraît le texte J'accuse d'Émile Zola ? » → « Dans L'Aurore,
+  le 13 janvier 1898 ».
+- **Problème** : le même apprenant suit les deux leçons — 07 « La IIIe République » et 11
+  « L'affaire Dreyfus » sont deux chapitres du même parcours. Les deux explications reprennent
+  d'ailleurs les mêmes éléments dans le même ordre (L'Aurore, lettre ouverte au président,
+  condamnation à un an de prison, exil en Angleterre, réhabilitation de 1906). La seconde
+  question est en outre plus facile après la première, puisque celle-ci a déjà donné le nom du
+  texte. Plus largement, toute la section 2 de la leçon 07 est un résumé de la leçon 11 :
+  Dreyfus, Picquart, Esterhazy, *J'accuse*, la grâce de 1899 et la réhabilitation de 1906 y sont
+  déjà exposés.
+- **Correction proposée** : garder la question de la leçon 11, seule leçon consacrée à l'affaire,
+  et remplacer celle de la leçon 07 par une question sur un fait propre à cette leçon
+  (boulangisme, scandale de Panama, assassinat de Sadi Carnot), qui n'est pour l'instant testé
+  par aucune question.
+
+### [MOYEN] Vél d'Hiv : c'est le cahier d'origine, et lui seul, qui donne 12 884
+
+- **Où** : `heritage/culture-g/data/lecons/histoire-france/12.json` (section « La Révolution
+  nationale… » et quiz 2) contre `heritage/culture-g/data/histoire-france.json`, question 44
+- **Texte** : leçon — « **plus de 13 000** Juifs, dont plus de 4 000 enfants » (deux fois) ;
+  cahier — « la police française arrête à Paris et en banlieue **12 884** Juifs ».
+- **Problème** : précision du constat déjà consigné plus haut. Le désaccord n'oppose pas
+  l'héritage au corpus neuf : à l'intérieur même de l'héritage, la leçon détaillée dit « plus de
+  13 000 » comme le corpus neuf, et seule la question 44 du cahier retient 12 884 — chiffre des
+  seules arrestations recensées le premier jour, longtemps repris. Le décompte du Mémorial de la
+  Shoah est de 13 152 personnes, dont 4 115 enfants.
+- **Correction proposée** : corriger la seule question 44 du cahier, en « 13 152 personnes, dont
+  4 115 enfants », et laisser les leçons telles quelles.
+
+### [MINEUR] IVe République : la leçon d'origine porte elle-même les deux décomptes
+
+- **Où** : `heritage/culture-g/data/lecons/histoire-france/13.json`, section « Des institutions
+  parlementaires… » et quiz 2 (choix juste **et** explication)
+- **Texte** : section — « environ **vingt-quatre** gouvernements se succèdent en une douzaine
+  d'années » ; choix juste — « une **vingtaine** de gouvernements en douze ans » ; explication du
+  même quiz — « environ **vingt-quatre** cabinets en une douzaine d'années ».
+- **Problème** : voilà l'origine du désaccord relevé plus haut entre `histoire-france-2.ts`
+  (« vingt-quatre ») et `histoire-france-4.ts` (« une vingtaine »). Ce n'est pas le corpus neuf
+  qui a inventé la divergence : il a recopié les deux formulations d'une même leçon, qui hésite
+  entre elles à trois lignes d'intervalle. La chaîne de la bonne réponse dit « une vingtaine »
+  et l'explication qui la suit dit « vingt-quatre ».
+- **Correction proposée** : fixer un seul décompte — le plus courant est vingt-deux gouvernements
+  entre janvier 1947 et mai 1958 — et l'employer dans la leçon comme dans les quatre textes neufs.
+
+### [MOYEN] Le quinquennat, quatrième fois — la leçon héritée pose la même question que trois notions neuves
+
+- **Où** : `heritage/culture-g/data/lecons/histoire-france/14.json` quiz 3 ;
+  `prisma/seed/culture-g/histoire-france.ts:291` ; `prisma/seed/culture-g/histoire-france-2.ts:446` ;
+  `prisma/seed/culture-g/histoire-france-4.ts` (`cg-neuf-hf4-cinquieme-republique`)
+- **Texte** : « Quelle réforme les Français approuvent-ils par référendum en septembre 2000 ? »
+  → « La réduction du mandat présidentiel de sept à cinq ans » ; « Quelle réforme de 2000
+  raccourcit le mandat présidentiel ? » ; « Quelle réforme de 2000 réduit la durée du mandat
+  présidentiel ? » ; et la question du lot 4.
+- **Problème** : le doublon triple déjà signalé dans le corpus neuf est en réalité un quadruplon,
+  la leçon héritée posant la même chose une quatrième fois. Or `hf4-cinquieme-republique` est
+  versée dans `hf2-cinquieme-republique` : après chargement du module, l'apprenant rencontre la
+  question sur le quinquennat au moins trois fois dans la même série. Même remarque, à un degré
+  moindre, pour la cohabitation (leçon 14 quiz 2 + trois questions neuves) et pour la QPC
+  (leçon 14 quiz 4 + deux questions neuves).
+- **Correction proposée** : ne conserver qu'une question par fait. Le quinquennat étant déjà
+  traité par la leçon héritée, c'est dans les lots neufs qu'il faut supprimer, pas l'inverse.
+
+### [MOYEN] La leçon 16 refait la section coloniale de la leçon 07, liste de dates comprise
+
+- **Où** : `heritage/culture-g/data/lecons/histoire-france/07.json`, section « L'empire colonial
+  et la société de la Belle Époque », et `heritage/culture-g/data/lecons/histoire-france/16.json`,
+  section « L'apogée sous la IIIe République »
+- **Texte** : 07 — « Jules Ferry en est le principal promoteur, invoquant à la fois des raisons
+  économiques, la recherche de débouchés et de matières premières, stratégiques, et une prétendue
+  mission civilisatrice […]. La France impose son protectorat sur la Tunisie en 1881, conquiert
+  le Tonkin et l'Annam […], s'installe à Madagascar en 1895 et au Maroc en 1912 […]. En 1898, la
+  crise de Fachoda […] se termine par le recul français. Le second empire colonial du monde,
+  après le britannique… » / 16 — « Jules Ferry […] défend devant la Chambre l'idée d'une mission
+  civilisatrice […]. La Tunisie devient protectorat en 1881, l'Annam et le Tonkin sont soumis
+  […]. Madagascar est conquise en 1895 […], le Maroc devient protectorat en 1912. La rivalité
+  avec les Britanniques manque de dégénérer en guerre lors de la crise de Fachoda, en 1898 […]
+  la deuxième puissance coloniale du monde derrière le Royaume-Uni. »
+- **Problème** : même argumentaire, mêmes six dates, même conclusion, dans deux leçons que le
+  même apprenant suit. Le procédé se répète en petit : le statut départemental de l'Algérie « à
+  partir de 1848 » est énoncé trois fois — leçon 15 section 1, leçon 16 section 2 et
+  l'explication du quiz 1 de la leçon 16 — dans des termes presque identiques.
+- **Correction proposée** : dans la leçon 07, réduire la section coloniale à ce qu'elle apporte
+  en propre — l'articulation entre expansion et politique intérieure de la IIIe République — et
+  laisser à la leçon 16 le déroulé des conquêtes et des dates.
+
+### [MOYEN] Mai 68 : une quatrième estimation du nombre de grévistes, et c'est une bonne réponse
+
+- **Où** : `heritage/culture-g/data/lecons/histoire-france/17.json`, section « La plus grande
+  grève de l'histoire de France » et **choix juste** du quiz 2
+- **Texte** : « **Près de dix millions** de salariés cessent le travail » ; « Combien de salariés
+  participent à la grève générale de mai-juin 1968 ? » → « **Environ dix millions** ».
+- **Problème** : complète le constat déjà consigné sur les fourchettes divergentes. Le domaine
+  donne maintenant quatre chiffres pour un seul fait : « 7 à 10 millions »
+  (`heritage/culture-g/data/histoire-france.json`, question 50), « environ sept à neuf millions »
+  (`histoire-france-2.ts`), « entre sept et neuf millions » (`histoire-france-3.ts`), « sept à
+  neuf millions » (`cours/histoire-france.ts`) et « près de dix millions » ici. La valeur haute
+  isolée est celle qui figure dans la **chaîne de la bonne réponse** d'une question : un
+  apprenant qui a retenu « sept à neuf millions » du corpus neuf lit ici que la réponse est dix.
+  Les distracteurs (cent mille, un million, trente millions) sont si éloignés que la question
+  reste soluble, mais le chiffre appris est le mauvais.
+- **Correction proposée** : « sept à neuf millions » partout, y compris dans le choix juste de ce
+  quiz, avec des distracteurs recalibrés (« environ un million », « environ trois millions »,
+  « environ vingt millions »).
+
+---
+
+# Passe 2
+
+> Relecture intégrale du périmètre, sans relire mes notes d'abord. Ce qui suit n'était pas
+> dans la passe 1.
+
+### [GRAVE] Huit astuces donnent la réponse littérale d'une question de leur propre notion
+
+L'astuce (cinquième argument de `notion()`) est le premier texte que l'apprenant lit quand il
+ouvre le chapitre. Dans huit notions, elle contient mot pour mot la bonne réponse d'une des
+questions qui suivent — et cinq fois, c'est la **toute première** question, deux lignes plus bas
+dans le fichier. La question ne mesure alors plus rien : elle vérifie que l'apprenant sait lire.
+
+| Où | L'astuce | La question, et sa bonne réponse |
+|---|---|---|
+| `histoire-france-3.ts:218` / `:220` — `hf3-decentralisation-territoires` | « L'expression **Paris et le désert français** date de **1947**. » | « Quel ouvrage de **1947** dénonce le déséquilibre entre Paris et la province ? » → « **Paris et le désert français** » |
+| `histoire-france-2.ts:312` / `:314` — `hf2-second-empire` | « **Le suffrage universel masculin**, instauré **en 1848**, n'a jamais été supprimé depuis. » | « Quelle avancée majeure la Deuxième République instaure-t-elle **en 1848** ? » → « **Le suffrage universel masculin** » |
+| `histoire-france-2.ts:442` / `:444` — `hf2-cinquieme-republique` | « L'élection du président **au suffrage universel direct** date de **1962**, pas de 1958. » | « Quelle réforme de **1962** modifie l'élection du président ? » → « Son élection **au suffrage universel direct** » |
+| `histoire-france-3.ts:142` / `:144` — `hf3-sante-france` | « L'hôpital français est passé d'**un lieu d'accueil des pauvres** à un lieu de soin technique. » | « Qu'était l'hôtel-Dieu médiéval ? » → « **Un lieu d'accueil des pauvres**, des malades et des voyageurs » |
+| `histoire-france-2.ts:208` / `:210` — `hf2-revolution-1789` | « La Révolution commence par **une crise financière** que la monarchie ne parvient pas à résoudre. » | « Pourquoi Louis XVI convoque-t-il les états généraux en 1789 ? » → « Pour résoudre **une crise financière** » |
+| `histoire-france.ts:119` / `:127` — `hf-francois-premier` | « L'ordonnance de Villers-Cotterêts, en 1539 […] : il impose **le français dans les actes** officiels. » | « Que prévoit l'ordonnance de Villers-Cotterêts en 1539 ? » → « L'usage du **français dans les actes** de justice et l'état civil » |
+| `histoire-france.ts:145` / `:155` — `hf-richelieu-mazarin` | « Mazarin sert la régente **Anne d'Autriche**. » | « Qui exerce le pouvoir pendant la minorité de Louis XIV ? » → « **Anne d'Autriche** et Mazarin » |
+| `histoire-france.ts:169` / `:185` — `hf-lumieres-france` | « … et un blocage politique **des parlements**. » | « Comment appelle-t-on les tribunaux qui s'opposent aux réformes royales ? » → « **Les parlements** » |
+
+Deux cas voisins, plus légers : `hf2-carolingiens` (« Le **partage** de Verdun de 843 » /
+« Que décide le traité de Verdun en 843 ? » → « **Le partage** de l'Empire entre les trois fils
+de Louis le Pieux ») et `hf-etat-providence` (« **1936** donne les **congés payés**, 1945 crée la
+Sécurité sociale » / « Quelles avancées le Front populaire obtient-il en **1936** ? » → « **Congés
+payés**, semaine de quarante heures et conventions collectives »).
+
+- **Problème** : ce n'est pas un hasard de vocabulaire. Dans cinq des huit cas, l'astuce et la
+  question qu'elle éventre se suivent immédiatement dans le fichier, ce qui suggère que
+  l'astuce a été écrite à partir de la première question plutôt qu'en amont du chapitre. L'effet
+  est le contraire de celui recherché : l'astuce doit orienter la lecture, pas fournir une
+  réponse à recopier.
+- **Correction proposée** : réécrire chaque astuce pour qu'elle donne un **angle**, jamais un
+  contenu testé. Par exemple, pour `hf3-decentralisation-territoires` : « L'aménagement du
+  territoire naît d'un constat de déséquilibre formulé à la fin des années 1940 ; retenez la
+  chronologie des institutions qui en sortent. » Pour `hf2-second-empire` : « Un même régime peut
+  élargir le droit de vote et confisquer le pouvoir : suivez ce double mouvement de 1848 à 1852. »
+
+### [GRAVE] Cinq questions neuves atterrissent, après fusion, dans le chapitre qui pose déjà la même question
+
+La passe 1 avait mesuré les doublons entre notions neuves. Elle avait manqué l'autre versant :
+`FUSIONS` verse neuf notions du domaine **dans une leçon héritée**, et cette leçon a son propre
+quiz. `verser()` n'écarte que les clés strictement identiques : les cinq paires ci-dessous
+franchissent le filtre et se retrouvent dans le même chapitre, à quelques questions d'écart.
+
+| Chapitre d'accueil | La question neuve | La question du quiz hérité |
+|---|---|---|
+| `cg-histoire-france-10` « La Commune de Paris » ← `hf4-commune` | `histoire-france-4.ts:474` — « Qu'est-ce qui a déclenché l'insurrection du 18 mars 1871 ? » → « La tentative de récupérer les canons de la garde nationale à Montmartre » | `lecons/histoire-france/10.json` quiz 0 — « Quel événement déclenche l'insurrection parisienne du 18 mars 1871 ? » → « La tentative de l'armée de reprendre les canons de Montmartre » |
+| `cg-histoire-france-c03` « La France dans les deux guerres mondiales » ← `hf4-france-guerres` | `histoire-france-4.ts:530` — « Qu'est-ce que les mutineries de 1917 ? » → « Des refus d'obéissance après l'échec de **l'offensive du Chemin des Dames** » | `histoire-france.json`, cours 3 — « Quelle **offensive** française de 1917 provoque des **mutineries** dans l'armée ? » → « **L'offensive du Chemin des Dames** » |
+| `cg-histoire-france-01` « La Gaule et la conquête romaine » ← `hf2-gaule-romaine` | `histoire-france-2.ts:16` — « Quelle ville devient la capitale des Gaules sous Auguste ? » → « Lugdunum, l'actuelle Lyon » | `lecons/histoire-france/01.json` quiz 1 — « Quelle ville Auguste fait-il de la capitale de la Gaule romaine…? » → « Lugdunum (Lyon) » |
+| `cg-histoire-france-08` « La Restauration et la monarchie de Juillet » ← `hf2-restauration-monarchie-juillet` | `histoire-france-2.ts:288` — « Quel texte fonde le régime de la Restauration en 1814 ? » → « La Charte constitutionnelle » | `lecons/histoire-france/08.json` quiz 0 — « Quel texte sert de fondement constitutionnel à la Restauration ? » → « La Charte octroyée du 4 juin 1814 » |
+| `cg-histoire-france-05` « Renaissance et guerres de Religion » ← `hf4-guerres-religion` | `histoire-france-4.ts:260` — « Qu'est-ce que l'édit de Nantes ? » → « Un texte de 1598 accordant une liberté de culte encadrée aux protestants » | `lecons/histoire-france/05.json` quiz 3 — « Que garantit l'édit de Nantes signé en avril 1598 ? » → « La liberté de conscience et un culte protestant limité à certains lieux » |
+
+- **Problème** : la paire du Chemin des Dames est la plus grave, parce que les deux questions
+  s'entre-répondent : la seconde a pour bonne réponse exactement la locution que la première
+  donne dans sa propre bonne réponse. Quel que soit l'ordre de tirage, la première rencontrée
+  résout la seconde. Les quatre autres sont des redites franches : même fait, même réponse, à
+  la reformulation près. Ce constat corrige aussi une affirmation de ma passe 1, qui donnait
+  `hf4-commune` pour « du contenu original, sans doublon » : c'est vrai face aux autres notions
+  neuves, faux face à la leçon qui l'absorbe.
+- **Correction proposée** : supprimer la question neuve dans les cinq cas — le quiz hérité est
+  mieux daté et mieux formulé —, et remplacer, dans `hf4-france-guerres`, la question sur les
+  mutineries par une question sur leur traitement (Pétain, les conseils de guerre, les
+  fusillés pour l'exemple), que rien ne teste aujourd'hui.
+
+### [GRAVE] « Quand François Mitterrand a-t-il été élu ? » — la bonne date est absente du cours, la seule qu'il donne est un distracteur
+
+- **Où** : `prisma/seed/culture-g/histoire-france-4.ts:586` — `cg-neuf-hf4-cinquieme-republique`,
+  versée par `FUSIONS_INTERNES` dans `hf2-cinquieme-republique`
+- **Texte** : « Quand François Mitterrand a-t-il été élu ? » — propositions : « **En 1981** »,
+  « En 1974 », « En 1988 seulement », « En 1978 » ; bonne réponse : 1981.
+- **Problème** : le chapitre qui recevra cette question est `hf2-cinquieme-republique`, et son
+  cours (`cours/histoire-france.ts`, quatre sections) **ne nomme jamais François Mitterrand et
+  n'écrit jamais 1981**. Il écrit en revanche « **La réforme de 1974** élargit la saisine du
+  Conseil constitutionnel » — 1974 est donc le seul des quatre millésimes que le cours donne,
+  et c'est un distracteur. L'apprenant qui a lu le cours et cherche à s'y raccrocher est conduit
+  vers la mauvaise case : il est puni d'avoir lu la leçon. La question est par ailleurs
+  insoluble à partir du chapitre, ce qui contrevient à la règle « une question doit pouvoir se
+  répondre après avoir lu son cours ».
+- **Correction proposée** : deux options. Soit supprimer la question — 1981 est déjà traité par
+  `hf-france-1970-2000`, dont le cours dit « François Mitterrand est élu en 1981 ». Soit ajouter
+  au cours de `hf2-cinquieme-republique` la phrase qui manque, dans la section « Un régime qui
+  se corrige » : « La première alternance, en 1981, montre que le régime peut changer de camp
+  sans changer de constitution. » Et remplacer « En 1988 seulement » par « En 1986 », distracteur
+  plausible (première cohabitation) au lieu d'un distracteur neutralisé par un adverbe.
+
+### [MOYEN] Cinq autres bonnes réponses datées que le chapitre d'accueil ne date jamais
+
+Même vérification, appliquée à toutes les notions versées par `FUSIONS` et `FUSIONS_INTERNES` :
+cinq autres questions ont pour bonne réponse une date que le cours ou la leçon d'accueil ne
+donne nulle part. Aucun distracteur n'y est en revanche mieux placé, ce qui les rend moins
+graves que le cas Mitterrand — mais elles restent sans appui dans le chapitre.
+
+| Question | Chapitre d'accueil | La date manquante |
+|---|---|---|
+| `histoire-france-4.ts:134` « Quelle crise met fin aux Capétiens directs ? » → « L'absence d'héritier mâle après **1316** » | `hf2-capetiens` | le cours s'arrête à 1314 et ne mentionne ni 1316, ni 1328, ni la crise successorale |
+| `histoire-france-4.ts:562` « Quel rôle la France a-t-elle joué dans la construction européenne ? » → « Un rôle initiateur avec la CECA en **1951** » | `hf2-quatrieme-republique` | le cours ne connaît que « le traité de Rome, signé en 1957 » ; ni CECA, ni Schuman, ni 1951 |
+| `histoire-france-4.ts:462` « Qu'est-ce que la perte de l'Alsace-Moselle ? » → « … le traité de Francfort en **1871** » | `cg-histoire-france-09` (leçon « La IIe République et le Second Empire ») | la leçon s'achève au 4 septembre 1870 ; Francfort est raconté dans la leçon 07 |
+| `histoire-france-4.ts:264` « Quand l'édit de Nantes a-t-il été révoqué ? » → « En **1685**, par Louis XIV » | `cg-histoire-france-05` (leçon « Renaissance et guerres de Religion ») | 1685 n'apparaît que dans l'explication d'un autre quiz, jamais dans le texte de la leçon |
+| `histoire-france-2.ts:304` « Quelle crise […] précipite la chute de Louis-Philippe ? » → « La crise de **1846-1847** … » | `cg-histoire-france-08` | la leçon parle de la campagne des banquets sans jamais dater la crise économique |
+
+- **Correction proposée** : ajouter la date manquante au chapitre d'accueil — une proposition
+  subordonnée suffit dans chaque cas — plutôt que de retoucher les questions, qui sont justes.
+
+## Passe 2 — relecture de `prisma/seed/culture-g/histoire-france.ts` (13 notions, 127 questions)
+
+### [MOYEN] Jeanne d'Arc : « quatre ans qui font basculer la guerre de Cent Ans »
+
+- **Où** : `prisma/seed/culture-g/histoire-france.ts:99` — `cg-neuf-hf-jeanne-darc`, description de
+  la notion
+- **Texte** : « Une paysanne de dix-sept ans, un siège levé en neuf jours, un sacre à Reims, un
+  procès à Rouen : **quatre ans** qui font basculer la guerre de Cent Ans. »
+- **Problème** : le compte ne tient sous aucune lecture. Jeanne quitte Domrémy en janvier 1429,
+  rencontre Charles VII en mars, est brûlée le 30 mai 1431 : **deux ans et quatre mois**. Même
+  en partant de sa première démarche auprès de Baudricourt, en mai 1428, on n'atteint que trois
+  ans. Le chiffre est d'autant plus regrettable qu'il ouvre la notion : c'est la phrase de
+  présentation du chapitre, lue avant toute question. Les autres nombres de la même phrase sont
+  justes (dix-sept ans, neuf jours).
+- **Correction proposée** : « … : deux ans qui font basculer la guerre de Cent Ans. »
+
+### [MINEUR] Distracteurs fantaisistes dans la notion sur les symboles
+
+- **Où** : `prisma/seed/culture-g/histoire-france.ts` — `cg-neuf-hf-symboles-republique`
+- **Texte** : « Quel coq figure parmi les emblèmes français ? » → « Le coq gaulois » ;
+  distracteurs « Le coq d'or », « Le coq de Bruyère », « Le coq de Sarlat ».
+- **Problème** : même défaut que la question sur Mayotte relevée en passe 1 — un oiseau de
+  montagne et une volaille de basse-cour proposés comme emblèmes nationaux. L'énoncé se répond
+  sans rien savoir. Le sujet mériterait une vraie question (« Pourquoi le coq est-il devenu un
+  emblème français ? » → le jeu de mots latin *gallus*, que l'explication donne déjà).
+- **Correction proposée** : remplacer par une question sur l'origine du symbole, ou par des
+  distracteurs qui soient de véritables emblèmes (« La fleur de lys », « L'aigle impérial »,
+  « L'abeille napoléonienne »).
+
+*Rien d'autre de neuf sur ce fichier : les onze autres notions résistent à la seconde lecture,
+y compris les chiffres que j'ai revérifiés un à un (28 volumes et plus de 60 000 articles pour
+l'Encyclopédie, 3 070 m pour le piton des Neiges, 51,04 % pour Maastricht, La Rochelle assiégée
+quatorze mois, Notre-Dame commencée en 1163, les Invalides fondés en 1670, l'Arc de triomphe
+1806-1836, le Louvre musée en 1793, le Mont-Saint-Michel prison jusqu'en 1863).*

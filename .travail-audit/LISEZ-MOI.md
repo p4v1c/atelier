@@ -51,14 +51,23 @@ geste : on écrit la vraie réponse, complète, puis on bâcle trois leurres.
 Ce n'est pas réparable automatiquement : il faut réécrire les leurres pour
 qu'ils fassent le poids. Chantier à part entière.
 
-**2. Les doublons que le filtre ne voit pas.** Le dernier lot de questions
+**2. L'astuce de la notion donne la réponse.** Chaque notion porte un `tip`
+affiché à côté de ses questions. Deux relecteurs indépendants — gastronomie et
+physique-chimie — ont trouvé la même chose sans se concerter : **dans une notion
+sur trois, l'astuce contient la réponse d'une de ses propres questions**, parfois
+de deux. Une astuce va jusqu'à orienter vers un distracteur
+(`pc-lumiere-ondes`). La mesure mécanique de `mesure-astuce.ts` en confirme 67
+notions et 74 questions, mais elle ne compte que les reprises **littérales** :
+c'est un plancher, la lecture humaine en trouve trois à cinq fois plus.
+
+**3. Les doublons que le filtre ne voit pas.** Le dernier lot de questions
 reformule le précédent, dans presque tous les domaines : ~40 paires en
 gastronomie, ~25 en langue française, 24 familles en arts, 12 en cinéma. Le
 filtre `dedoublonner()` de `src/modules/culture-g/contenu.ts` n'en attrape
 aucune — le relecteur langue française l'a rejoué sur ses trouvailles, y compris
 sur une paire d'énoncés identiques à 88 %.
 
-**3. Le cahier d'origine est plus juste que ce qui a été écrit depuis.** Quand
+**4. Le cahier d'origine est plus juste que ce qui a été écrit depuis.** Quand
 `heritage/` et `prisma/seed/culture-g/` divergent, l'héritage a raison le plus
 souvent, et il contient déjà la bonne version de plusieurs erreurs graves.
 

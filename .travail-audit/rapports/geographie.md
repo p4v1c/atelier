@@ -1,6 +1,7 @@
 # Géographie
 
-> ÉTAT : passe 1 — leçons 01-07, 09, 12, 14, 15 lues. Reste : leçons 08, 10, 11, 13, 16, 17. Puis passe 2.
+> ÉTAT : passe 1 TERMINÉE (17 leçons, 3 lots du seed, le cours, fusions.ts, geographie.json).
+> Passe 2 : `geographie.ts` relu. Reste à relire : `geographie-2.ts`, `geographie-3.ts`, `cours/geographie.ts`, `geographie.json`.
 
 ## Ce que j'ai lu
 
@@ -10,7 +11,7 @@
 - `prisma/seed/culture-g/cours/geographie.ts` — 45 cours, 178 sections, lu intégralement
 - `prisma/seed/culture-g/cours/fusions.ts` — table des fusions, lue (indispensable pour lire le reste)
 - `heritage/culture-g/data/geographie.json` — 58 questions et 3 cours (13 sections), lu intégralement
-- `heritage/culture-g/data/lecons/geographie/*.json` — pas encore (17 fichiers)
+- `heritage/culture-g/data/lecons/geographie/*.json` — les 17 leçons, lues intégralement (85 sections, 85 questions de quiz)
 
 ## Constats
 
@@ -1059,9 +1060,630 @@ forme.
   réunis », ou remplacer par une question sur le débit lui-même
   (200 000 m³/s), qui, lui, est stable.
 
+### [GRAVE] L'Antarctique donné comme quatrième continent par la taille — trois fois dans la leçon 08
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/08.json` — section « L'Antarctique,
+  un désert de glace », son visuel « L'Antarctique en cinq records », et
+  l'explication de la première question du quiz
+- **Textes** : section — « Sa superficie atteint près de 14,1 millions de kilomètres
+  carrés, ce qui en fait le **quatrième continent par la taille** » ; visuel —
+  « 14,1 M km² de superficie : quatrième continent par la taille » ; quiz — « ce qui
+  en fait le quatrième continent par la superficie, **derrière l'Asie, l'Afrique et
+  l'Amérique du Nord** ».
+- **Problème** : l'énumération oublie l'Amérique du Sud (environ 17,8 millions de
+  km²), plus vaste que l'Antarctique (environ 14,2). Dans le modèle à sept continents
+  — celui que la leçon adopte puisqu'elle isole l'Amérique du Nord — l'Antarctique est
+  **cinquième**, derrière l'Asie, l'Afrique, l'Amérique du Nord et l'Amérique du Sud.
+  Le rang « quatrième » ne serait juste que dans un modèle à six continents où les
+  deux Amériques sont réunies, ce que la phrase exclut elle-même. L'erreur est
+  répétée trois fois dans le même chapitre, dont une dans un encadré de chiffres à
+  mémoriser.
+- **Correction proposée** : « ce qui en fait le cinquième continent par la superficie,
+  derrière l'Asie, l'Afrique, l'Amérique du Nord et l'Amérique du Sud » — et la même
+  correction dans le visuel et dans l'explication du quiz.
+
+### [MOYEN] L'Arctique se réchauffe « quatre fois plus vite » dans la leçon 08, « trois fois » dans le seed
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/08.json` — section « L'Arctique,
+  un océan gelé qui se réchauffe » et son visuel de comparaison, contre
+  `prisma/seed/culture-g/geographie-3.ts` — `geo3-arctique-enjeux` (`tip`, énoncé,
+  explication) et `cours/geographie.ts` — même notion
+- **Textes** : leçon 08 — « depuis 1979, l'Arctique s'est réchauffé **près de quatre
+  fois plus vite** que la moyenne mondiale » (repris dans le tableau de comparaison) ;
+  seed — « environ **trois fois** plus vite ».
+- **Problème** : le dépôt possède déjà la valeur à jour et correctement bornée (« depuis
+  1979 »), à un fichier de là. Le constat déjà porté plus haut sur `geo3-arctique-enjeux`
+  s'en trouve confirmé sur pièces : ce n'est pas une incertitude de la littérature, c'est
+  une incohérence interne. Le distracteur « Dix fois plus vite » de la question du seed
+  ne laisse toujours aucune case à l'apprenant qui aurait lu la leçon 08.
+- **Correction proposée** : aligner le seed sur la leçon 08 — « près de quatre fois plus
+  vite que la moyenne mondiale depuis 1979 » — aux quatre endroits (`tip`, énoncé,
+  explication, cours).
+
+### [MOYEN] Seize États indépendants en Océanie, sans dire lesquels sont comptés
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/08.json` — section « L'Océanie,
+  un continent d'îles »
+- **Texte** : « On y dénombre **seize États indépendants** et une quinzaine de
+  territoires aux statuts variés ».
+- **Problème** : le décompte usuel est de **quatorze** États souverains (Australie,
+  Nouvelle-Zélande, Papouasie-Nouvelle-Guinée, Fidji, Salomon, Vanuatu, Samoa, Tonga,
+  Tuvalu, Kiribati, Nauru, Marshall, États fédérés de Micronésie, Palaos). On atteint
+  seize en ajoutant les îles Cook et Niue, États en libre association avec la
+  Nouvelle-Zélande dont la souveraineté n'est reconnue que par une partie de la
+  communauté internationale. Le chiffre est donc défendable mais il dépend d'une
+  convention que la leçon ne donne pas, alors qu'elle range par ailleurs les îles Cook
+  parmi les « territoires aux statuts variés ».
+- **Correction proposée** : « On y dénombre quatorze États souverains, auxquels
+  s'ajoutent les îles Cook et Niue, en libre association avec la Nouvelle-Zélande, et
+  une quinzaine de territoires aux statuts variés. »
+
+### [MINEUR] Les Aborigènes : une phrase dont la seconde moitié ne se rattache à rien
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/08.json` — section « L'Australie,
+  le continent le plus sec »
+- **Texte** : « Les Aborigènes, premiers habitants du continent, **y vivent depuis
+  environ 50 000 ans, au cours de la dernière période glaciaire, lorsque le niveau des
+  mers était nettement plus bas qu'aujourd'hui**. »
+- **Problème** : le complément de temps se rapporte à l'arrivée, pas à la durée
+  d'occupation ; tel quel, il fait dire à la phrase qu'ils vivent aujourd'hui encore
+  pendant la dernière glaciation.
+- **Correction proposée** : « Les Aborigènes, premiers habitants du continent, y sont
+  arrivés il y a environ 50 000 ans, pendant la dernière période glaciaire, lorsque le
+  niveau des mers était nettement plus bas qu'aujourd'hui et que les traversées depuis
+  l'Asie du Sud-Est étaient plus courtes. »
+
+
+### [GRAVE] La plus longue chaîne continentale : une cinquième et une sixième occurrence, avec deux longueurs
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/10.json` — section « Les Andes,
+  une chaîne de subduction » et quatrième question du quiz ; contre
+  `heritage/culture-g/data/lecons/geographie/06.json` (texte, visuel et quiz),
+  `heritage/culture-g/data/geographie.json` Q40 et son cours « Le monde », et
+  `geo2-montagnes-monde`
+- **Textes** : leçon 10 — « La cordillère des Andes est **la plus longue chaîne de
+  montagnes continentale du monde** : […] environ **7 150 kilomètres** » et, dans le
+  quiz, « Quelle est approximativement la longueur de la cordillère des Andes ? » →
+  « Environ 7 150 kilomètres », avec l'explication « devant l'Himalaya qui ne mesure
+  que 2 400 kilomètres environ » ; leçon 06 — « les Andes au sud, longue d'environ
+  **7 000 kilomètres**, ce qui en fait la plus longue chaîne continentale du monde »,
+  repris dans un visuel et dans une question de quiz ; `geographie.json` — « environ
+  7 000 km ».
+- **Problème** : deux défauts cumulés. D'abord le doublon : le même fait est posé en
+  question dans **deux leçons voisines** (06 et 10) et dans le cahier, avec la même
+  comparaison « l'Himalaya ne fait que 2 400 km » — la phrase déjà relevée plus haut
+  entre `geographie.json` Q40 et la leçon 06 se retrouve donc une fois de plus.
+  Ensuite la valeur : 7 000 d'un côté, 7 150 de l'autre, sans que ni l'une ni l'autre
+  soit présentée comme approximative au même degré, alors que la leçon 10 en fait la
+  bonne réponse d'un QCM à quatre chiffres.
+- **Correction proposée** : ne garder qu'une seule question sur la longueur des Andes,
+  dans la leçon 10 (celle qui explique le mécanisme), et écrire partout « environ
+  7 000 kilomètres » — l'ordre de grandeur admis, que la précision « 7 150 » ne
+  justifie pas dans un contenu à mémoriser.
+
+### [MOYEN] L'Aconcagua : 6 962 mètres dans la leçon 10, 6 961 dans la leçon 06 et dans le cahier
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/10.json` (section « Les grandes
+  formes du relief » et section « Les Andes ») contre
+  `heritage/culture-g/data/lecons/geographie/06.json` (visuel « Point culminant :
+  l'Aconcagua, 6 961 m ») et `heritage/culture-g/data/geographie.json` (cours « Le
+  monde », deux occurrences)
+- **Problème** : un mètre d'écart, sans explication, sur une valeur que trois
+  chapitres donnent comme un fait. Les deux circulent (l'altitude officielle argentine
+  est de 6 960,8 m, arrondie tantôt à 6 961, tantôt à 6 962), mais rien ne le dit et
+  l'apprenant qui a mémorisé l'une lira l'autre comme une correction.
+- **Correction proposée** : retenir « environ 6 961 mètres » partout, ou « 6 960,8
+  mètres » si l'on veut la précision.
+
+### [MINEUR] Une phrase qui oppose les montagnes jeunes à leurs propres sommets
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/10.json` — section « Les grandes
+  formes du relief »
+- **Texte** : « On oppose souvent les montagnes jeunes, comme l'Himalaya, les Andes ou
+  les Alpes, **aux sommets aigus, aux vallées profondes et aux fortes altitudes**, et
+  les massifs anciens, comme les Appalaches ou le Massif central, usés par… »
+- **Problème** : la préposition « aux » sert deux fois dans deux fonctions
+  différentes — d'abord comme second terme de l'opposition, puis comme caractérisation.
+  À la lecture, la phrase oppose les montagnes jeunes à des sommets aigus. Le verbe
+  « oppose » attend d'ailleurs son vrai second terme (« les massifs anciens »)
+  vingt mots plus loin, sans « à ».
+- **Correction proposée** : « On oppose souvent les montagnes jeunes — l'Himalaya, les
+  Andes, les Alpes — aux sommets aigus, aux vallées profondes et aux fortes altitudes,
+  et les massifs anciens — les Appalaches, le Massif central — usés par des centaines
+  de millions d'années d'érosion et réduits à des formes arrondies. »
+
+### [MINEUR] « La seule chaîne plus longue de la planète est la dorsale médio-atlantique »
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/10.json` — explication de la
+  quatrième question du quiz
+- **Problème** : la dorsale médio-atlantique (environ 16 000 km) n'est qu'un segment du
+  système des dorsales océaniques, long d'environ 65 000 km et qui compte plusieurs
+  branches elles aussi plus longues que les Andes. « La seule » est donc faux, et le
+  fait remarquable — un relief presque continu qui fait deux fois le tour du globe —
+  est perdu.
+- **Correction proposée** : « Seules les dorsales océaniques la dépassent : ce système
+  de reliefs sous-marins, long d'environ 65 000 kilomètres, ceinture la planète. »
+
+
+### [MOYEN] Le Sahara : une quatrième superficie, et une comparaison qui ne tient plus
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/11.json` — section « Le Sahara, le
+  plus grand désert chaud », son visuel et la deuxième question du quiz, dont c'est la
+  bonne réponse
+- **Textes** : « il couvre **plus de 8,5 millions de kilomètres carrés**, soit environ
+  30 pour cent de la superficie de l'Afrique » ; QCM — « Plus de 8,5 millions de km² » ;
+  explication — « Cette superficie est **comparable à celle des États-Unis**. »
+- **Problème** : le dépôt donne désormais quatre valeurs pour le même désert — « plus de
+  8 millions » (leçon 05), « plus de 8,5 millions » (leçon 11, y compris en réponse de
+  QCM), « environ 9 millions » (`geographie.json` Q31 et le cours « Le monde »), « plus
+  de neuf millions » (`geo2-afrique-geographie`). Vérification faite, les deux extrêmes
+  viennent de la **même source** : l'article Wikipédia français donne 9 065 000 km² en
+  infobox et « plus de 8,5 millions » dans son résumé introductif. Les deux sont donc
+  défendables, mais leur coexistence non signalée dans un contenu à mémoriser ne l'est
+  pas — d'autant que la leçon 11 se contredit dans le même paragraphe : les États-Unis
+  couvrent 9,83 millions de km², comparaison qui fonctionne à 9 millions et devient
+  fausse à 8,5.
+- **Correction proposée** : retenir « environ 9 millions de kilomètres carrés » aux
+  quatre endroits, valeur qui rend vraie la comparaison avec les États-Unis et le taux
+  de 30 pour cent de l'Afrique.
+- **À noter** : le constat de passe 1 « la leçon 05 est la seule fautive, la valeur
+  admise est 9,2 millions » demande donc à être révisé : la valeur usuelle est plutôt
+  9,0 ; et la leçon 11, non lue à ce moment-là, est une seconde source de désaccord.
+
+### [MOYEN] L'ensoleillement du Sahara : 3 600 heures par an ne font pas onze heures par jour
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/11.json` — section « Le Sahara, le
+  plus grand désert chaud »
+- **Texte** : « l'ensoleillement dépasse **3 600 heures par an, soit plus de onze heures
+  par jour en moyenne**, certaines zones approchant même 4 300 heures. »
+- **Problème** : 3 600 divisé par 365 donne 9,9 heures par jour, pas plus de onze. Les
+  onze heures correspondent aux 4 300 heures citées juste après (11,8 h/jour) : les deux
+  chiffres ont été intervertis. L'apprenant peut faire la division lui-même, ce qui
+  discrédite le reste du paragraphe.
+- **Correction proposée** : « l'ensoleillement dépasse 3 600 heures par an, soit près de
+  dix heures par jour en moyenne, certaines zones approchant même 4 300 heures, c'est-à-
+  dire près de douze heures quotidiennes. »
+
+### [GRAVE] La cause de l'aridité de l'Atacama : le seed enseigne le contraire de la leçon 11, et la correction proposée en passe 1 aggraverait l'erreur
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/11.json` — section « L'Atacama, un
+  désert côtier extrême » et cinquième question du quiz ; contre
+  `prisma/seed/culture-g/geographie-3.ts:130` — `geo3-deserts` et
+  `prisma/seed/culture-g/cours/geographie.ts:155` — `geo2-climats-monde`
+- **Textes** :
+  - leçon 11 (quiz) — « Quelles causes expliquent l'aridité extrême du désert
+    d'Atacama ? » → « **Le courant froid de Humboldt, l'anticyclone du Pacifique et
+    l'effet d'abri des Andes** » ; la section développe les **trois** mécanismes, en
+    plaçant l'anticyclone en premier.
+  - seed `geo3-deserts` — « Quels facteurs expliquent l'aridité extrême du désert
+    d'Atacama ? » → « **Un courant marin froid et une barrière montagneuse** », avec
+    « **Sa latitude tropicale seule** » posée en **distracteur**, donc comme réponse
+    fausse.
+  - cours `geo2-climats-monde` — « D'autres déserts ont **d'autres causes** : […] un
+    courant froid côtier pour l'Atacama ».
+- **Problème** : l'anticyclone permanent du Pacifique Sud *est* la branche subsidente de
+  la cellule de Hadley à cette latitude. Le seed en fait donc une réponse fausse alors
+  que c'est la première des trois causes, et son cours affirme que l'Atacama a « d'autres
+  causes » que la circulation de Hadley, ce que la leçon 11 dément explicitement. Les
+  deux questions sont par ailleurs des jumelles à un mot près, dans deux corpus que rien
+  ne confronte.
+- **Conséquence pour la passe 1** : le constat « [MOYEN] L'Atacama rangé parmi les
+  déserts de cellules de Hadley » proposait de **retirer l'Atacama** de la liste des
+  déserts de Hadley dans `geo2-climats-monde` et de le remplacer par le Kalahari. Cette
+  correction est fausse et entérinerait l'erreur : c'est le **cours** du seed qu'il faut
+  corriger, pas la question. Le constat doit être inversé.
+- **Correction proposée** : dans le cours `geo2-climats-monde`, « D'autres déserts
+  cumulent les causes : l'éloignement de toute mer pour les déserts continentaux d'Asie
+  centrale ; pour l'Atacama, l'anticyclone du Pacifique, le courant froid de Humboldt et
+  l'effet d'abri des Andes ». Dans `geo3-deserts`, remplacer le distracteur « Sa latitude
+  tropicale seule » et faire de la bonne réponse « L'anticyclone du Pacifique, un courant
+  marin froid et une barrière montagneuse ».
+
+### [MOYEN] Le seuil de l'aridité : la leçon 11 tranche en faveur de la question, contre le cours
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/11.json` — section « Qu'est-ce
+  qu'un désert ? », son visuel et la première question du quiz, dont c'est la bonne
+  réponse
+- **Texte** : « Le seuil le plus couramment retenu est celui de **250 millimètres** de
+  pluie par an ; en dessous de 50 millimètres, on parle de région hyperaride. »
+- **Apport** : le constat de passe 1 sur les deux seuils de `geo3-deserts` (250 dans la
+  question, 200 dans le cours) est confirmé sur pièces, et l'arbitrage est désormais
+  facile : le cahier d'origine dit 250 à trois endroits, avec en prime le seuil
+  d'hyperaridité à 50 mm que le seed ne donne nulle part. C'est le **cours** du seed qui
+  doit s'aligner, et non l'inverse.
+
+### [MOYEN] La leçon 11 rejoue `geo3-deserts` presque question pour question
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/11.json` contre
+  `prisma/seed/culture-g/geographie-3.ts` — `geo3-deserts` (dix questions)
+- **Problème** : aucune fusion ne relie ces deux ensembles, et ils traitent pourtant le
+  même programme dans le même ordre : la définition par l'aridité et son seuil, l'Antarctique
+  premier désert du monde, l'erg, le reg, l'oasis, la foggara, l'aridité de l'Atacama, le
+  désert d'abri, la grande muraille verte. Sept des dix questions du seed trouvent leur
+  réponse littérale dans le texte de la leçon 11 — souvent dans la même phrase (« des
+  ergs, mers de dunes de sable, des regs, plaines couvertes de graviers, des hamadas,
+  plateaux rocheux, et des oasis »), et la leçon ajoute les foggaras au mot près. Le
+  chapitre 11 et la notion `geo3-deserts` sont donc, pour l'apprenant, le même cours servi
+  deux fois.
+- **Correction proposée** : traiter `geo3-deserts` comme les six notions déjà fusionnées —
+  la verser dans `cg-geographie-11` **après** dédoublonnage, en n'en gardant que ce que la
+  leçon n'a pas (l'oued, le volet « sociétés désertiques »).
+
+### [MINEUR] La Grande Muraille verte, septième occurrence
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/11.json` — section « Vivre dans
+  l'aride et lutter contre la désertification »
+- **Texte** : « la Grande Muraille verte africaine, lancée en 2007, les cordons de
+  pierres, les demi-lunes et les trous appelés zaï donnent des résultats encourageants. »
+- **Problème** : le sujet apparaît maintenant sept fois dans le domaine (leçon 05 texte et
+  quiz, leçon 11, `geo2-afrique-geographie` question et cours, `geo3-deserts` question et
+  cours). La leçon 11 a le mérite de ne pas reprendre l'image fautive du rideau d'arbres
+  continu, mais elle ne la corrige pas non plus.
+- **Correction proposée** : ne garder qu'un développement, dans la leçon 11 (celle qui le
+  replace parmi les autres techniques de lutte contre la désertification), et y intégrer
+  la précision du seed sur l'abandon du rideau d'arbres continu.
+
+
+### [MOYEN] Mer d'Aral : trente-deux espèces moins vingt-huit ne font pas six
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/13.json` — section « La mer d'Aral,
+  une catastrophe exemplaire »
+- **Texte** : « La salinité a explosé, faisant passer le nombre d'espèces de poissons **de
+  trente-deux à six** et provoquant la disparition **des vingt-huit espèces
+  endémiques** ».
+- **Problème** : les deux chiffres sont incompatibles dans la même phrase. Si six espèces
+  subsistent sur trente-deux, vingt-six ont disparu — pas vingt-huit. L'incohérence vient
+  de l'article Wikipédia source, qui juxtapose les deux données sans les articuler ; la
+  leçon les a réunies dans une seule proposition, ce qui rend la contradiction visible à
+  l'apprenant qui sait soustraire.
+- **Correction proposée** : « La salinité a explosé : sur les trente-deux espèces de
+  poissons que comptait le lac, six seulement subsistent, et l'essentiel du peuplement
+  endémique a disparu. »
+
+### [MOYEN] Le déclin de la faune d'eau douce : un chiffre de mégafaune donné pour l'ensemble
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/13.json` — section « Des usages
+  inégaux et une répartition déséquilibrée »
+- **Texte** : « les populations **d'animaux d'eau douce** ont chuté d'environ **88 pour
+  cent entre 1970 et 2012**, un effondrement bien plus rapide que celui observé dans les
+  milieux terrestres ou marins. »
+- **Problème** : vérification faite, l'Indice Planète Vivante donne **81 pour cent** de
+  déclin pour les vertébrés d'eau douce sur exactement cette période 1970-2012. Les 88
+  pour cent proviennent d'une étude distincte portant sur la seule **mégafaune** d'eau
+  douce, c'est-à-dire les animaux de plus de trente kilogrammes. Le chiffre est donc
+  exact mais appliqué à un ensemble bien plus large que celui qu'il mesure — le cas de
+  figure exactement visé par la consigne « exact mais trompeur ».
+- **Correction proposée** : « les populations de vertébrés d'eau douce ont chuté
+  d'environ 81 pour cent entre 1970 et 2012, et de 88 pour cent pour la seule grande
+  faune, un effondrement bien plus rapide que celui observé dans les milieux terrestres
+  ou marins. »
+
+### [MOYEN] `geo3-eau-conflits` et la leçon 13 définissent les mêmes notions dans les mêmes mots
+
+- **Où** : `prisma/seed/culture-g/geographie-3.ts:294-317` — `geo3-eau-conflits` contre
+  `heritage/culture-g/data/lecons/geographie/13.json`
+- **Textes appariés** :
+  - seed — « Qu'est-ce que le stress hydrique ? » → « Une situation où la demande en eau
+    dépasse la ressource disponible » ; leçon 13 — « On parle de stress hydrique lorsque
+    la demande en eau dépasse la ressource disponible dans une zone géographique
+    donnée. » *(même phrase)*
+  - seed — « Qu'est-ce qu'une nappe fossile ? » → « Une nappe qui ne se recharge
+    pratiquement plus », explication « consommer un stock non renouvelable » ; leçon 13 —
+    « Une nappe fossile surexploitée est donc, à l'échelle humaine, une ressource non
+    renouvelable. »
+  - seed — « Qu'est-ce que la surexploitation d'une nappe ? » → « Un prélèvement supérieur
+    à sa recharge naturelle » ; leçon 13 — « une nappe fossile pompée plus vite qu'elle ne
+    se recharge ».
+  - la mer d'Aral, enfin, y est traitée en section entière alors qu'elle apparaît déjà
+    dans `geo-mers-oceans`, `geo2-oceans-mers` et `geo2-asie-geographie` : **quatrième**
+    occurrence, et non trois comme relevé en passe 1.
+- **Correction proposée** : `geo3-eau-conflits` ne conserve d'intérêt propre que sur son
+  volet institutionnel français (agences de l'eau, pollueur-payeur, arrêté sécheresse) et
+  sur les bassins transfrontaliers. Le reste doit être versé dans `cg-geographie-13` puis
+  dédoublonné, comme les six notions déjà fusionnées.
+
+### [MOYEN] Dans les quiz hérités aussi, la bonne réponse est la seule à porter un chiffre
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/13.json` — quiz, questions 2, 3 et 5
+- **Textes** : Q2 — « **Gelée dans les glaces et les neiges, pour environ 69 %** » contre
+  « Dans les fleuves et les rivières », « En vapeur dans l'atmosphère », « Dans les lacs
+  de plaine » ; Q3 — « **L'agriculture, avec environ 70 % des prélèvements** » contre
+  « L'industrie manufacturière », « Les usages domestiques », « Le refroidissement des
+  centrales électriques » ; Q5 — « **Le détournement de l'Amou-Daria et du Syr-Daria pour
+  irriguer le coton** », seule proposition nommant quoi que ce soit de précis.
+- **Problème** : le constat de passe 1 sur ce biais visait le seed ; il vaut aussi pour le
+  cahier d'origine, et sur trois questions de cinq dans ce seul chapitre. Un apprenant qui
+  ne sait rien coche la proposition chiffrée et a raison trois fois.
+- **Correction proposée** : chiffrer toutes les propositions ou aucune — « Gelée dans les
+  glaces et les neiges », « Dans les nappes souterraines », « Dans les lacs et les
+  rivières », « En vapeur dans l'atmosphère », et déplacer les 69 pour cent dans
+  l'explication.
+
+### [MINEUR] Mer d'Aral : « plus des trois quarts » pour une perte de près de neuf dixièmes
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/13.json` — section « La mer d'Aral »
+  et légende de l'image
+- **Texte** : « d'environ 66 458 kilomètres carrés […] Il ne couvre plus aujourd'hui
+  qu'environ 8 300 kilomètres carrés, soit une perte de **plus des trois quarts** de son
+  étendue. »
+- **Problème** : 8 300 sur 66 458 représente 12,5 pour cent de la surface initiale, donc
+  une perte de 87,5 pour cent. « Plus des trois quarts » est vrai mais minimise de moitié
+  l'ampleur du désastre, dans une leçon qui en fait son exemple emblématique.
+- **Correction proposée** : « soit une perte de près de neuf dixièmes de son étendue ».
+
+
+### [MOYEN] Lascaux : « 16 500 avant notre ère » pour des peintures vieilles de 16 500 ans, et une hypothèse donnée pour un fait
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/16.json` — section « Une longue
+  histoire de la carte » et première entrée de la frise
+- **Texte** : « certaines **représentations d'étoiles** peintes dans la grotte de Lascaux
+  **sont datées d'environ 16 500 avant notre ère** » ; frise — « ≈ 16 500 av. J.-C. —
+  Lascaux ».
+- **Problème** : deux défauts superposés. La date d'abord : Lascaux est daté d'environ
+  17 000 ans avant le présent, soit autour de 15 000 avant notre ère. Le chiffre de
+  16 500 est celui de l'**âge** des peintures, pas d'une date en ère chrétienne ; écrit
+  « av. J.-C. », il les vieillit de deux millénaires. Le fond ensuite : l'identification
+  d'une carte des Pléiades dans la salle des Taureaux est une **hypothèse** d'un seul
+  chercheur, contestée et non consensuelle. « Sont datées » et « représentations
+  d'étoiles » la présentent comme un fait établi, dans la phrase d'ouverture d'un
+  chapitre — c'est le même défaut que les pinsons de Darwin relevé dans `geo-iles`.
+- **Correction proposée** : « on a proposé de reconnaître dans certaines figures de la
+  grotte de Lascaux, peintes il y a environ 16 500 ans, une représentation des Pléiades —
+  hypothèse discutée, mais qui dit assez l'ancienneté du geste cartographique. » Et dans
+  la frise : « ≈ 15 000 av. J.-C. ».
+
+### [GRAVE] La cartographie est enseignée par trois corpus qui s'ignorent
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/16.json` (« La cartographie : lire et
+  fabriquer une carte », cinq sections, cinq questions) contre `geo2-cartographie`
+  augmentée de `geo-cartographie-outils` par `FUSIONS_INTERNES` (vingt questions) et
+  contre `geo3-cartes-donnees`
+- **Problème** : le constat de passe 1 relevait déjà neuf paires jumelles à l'intérieur du
+  chapitre `geo2-cartographie`. La leçon 16 en fait un **troisième** traitement complet du
+  même programme, et aucune fusion ne la relie aux deux autres. Les recoupements sont
+  frontaux :
+  - « Que conserve une projection dite équivalente ? » → « Les rapports de surface entre
+    les territoires » est désormais la **troisième** occurrence de cette question, après
+    « Que conserve une projection équivalente comme celle de Peters ? » et « Que conserve
+    une projection équivalente ? » ;
+  - le Groenland grossi par Mercator apparaît dans la section, dans la légende de l'image
+    et dans l'explication du quiz de la leçon 16, en plus des **deux** questions du seed ;
+  - le méridien de Greenwich, les systèmes d'information géographique, l'échelle, la
+    sémiologie de Bertin sont traités des deux côtés.
+- **Ce que la leçon 16 apporte et que le seed n'a pas** : la distinction grande
+  échelle / petite échelle avec son piège de vocabulaire, la nomenclature complète
+  conforme / équivalente / aphylactique, les trois modes d'implantation de Bertin, la
+  valeur du degré en kilomètres, les éléments obligatoires d'une carte. Elle est
+  nettement supérieure au chapitre du seed.
+- **Correction proposée** : verser `geo2-cartographie` dans `cg-geographie-16` comme les
+  six notions déjà fusionnées, dédoublonner en faveur de la leçon, et ne conserver du seed
+  que ce qu'elle n'a pas (les cartes médiévales orientées à l'est, la conférence de 1884,
+  la France restée à Paris jusqu'en 1911).
+
+### [MINEUR] « Que signifie une carte à grande échelle ? » : quatre propositions de formes différentes
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/16.json` — troisième question du quiz
+- **Texte** : propositions — « Le 1 sur 1 000 000 est une grande échelle » ; « Une grande
+  échelle couvre toujours un très vaste territoire » ; « **Une grande échelle, comme le 1
+  sur 25 000, montre un petit territoire avec beaucoup de détails** » ; « L'échelle n'a
+  aucun rapport avec le niveau de détail ».
+- **Problème** : l'énoncé demande une définition, la première proposition donne un
+  exemple, la dernière nie la pertinence de la question. La bonne réponse est la seule à
+  répondre à ce qui est demandé, et la plus longue des quatre — elle se reconnaît sans
+  rien savoir de la cartographie.
+- **Correction proposée** : homogénéiser — « Une carte couvrant un petit territoire avec
+  beaucoup de détails » ; « Une carte couvrant un vaste territoire avec peu de détails » ;
+  « Une carte dont le dénominateur d'échelle est grand » ; « Une carte sans indication de
+  réduction ».
+
+
+### [MOYEN] « Le rythme a doublé depuis 1993 » adossé à deux chiffres qui ne doublent pas — trois fois
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/17.json` — section « La montée du
+  niveau de la mer », son visuel « La mer monte, et de plus en plus vite », et
+  l'explication de la troisième question du quiz
+- **Texte** : « le rythme est passé d'environ **3,1 millimètres par an** sur la période
+  1993-2017 à **plus de 3,5 millimètres par an** vers 2020, **soit un doublement depuis
+  1993** » ; visuel — « 3,5 mm/an vers 2020 : le rythme a doublé depuis 1993 » ; quiz —
+  « plus de 3,5 millimètres par an vers 2020, soit un rythme qui a doublé depuis 1993 ».
+- **Problème** : passer de 3,1 à 3,5 est une hausse de treize pour cent, pas un
+  doublement, et la phrase adosse la conclusion aux deux chiffres qu'elle vient de citer.
+  Le doublement est réel, mais il se mesure contre autre chose : environ 1,4 mm/an en
+  moyenne sur le vingtième siècle, ou environ 2,1 mm/an au tout début de l'ère
+  altimétrique. Tel quel, l'apprenant qui fait la division voit que le texte se contredit,
+  et il le voit trois fois.
+- **Correction proposée** : « le rythme est passé d'environ 1,4 millimètre par an sur le
+  vingtième siècle à 3,1 millimètres par an sur la période 1993-2017, puis à plus de
+  3,5 vers 2020 : il a plus que doublé. »
+
+### [MOYEN] « L'année la plus chaude jamais enregistrée en Europe » : 2023 a été dépassée par 2024
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/17.json` — section « Un réchauffement
+  mesuré et attribué » et explication de la deuxième question du quiz
+- **Texte** : « L'Europe a ainsi connu **en 2023 son année la plus chaude jamais
+  enregistrée**, avec environ 2,6 degrés au-dessus de l'ère préindustrielle. »
+- **Problème** : vérification faite auprès de Copernicus, **2024** est l'année la plus
+  chaude jamais enregistrée en Europe, comme au niveau mondial — et 2024 est aussi la
+  première année civile au-dessus de 1,5 degré à l'échelle du globe. Le superlatif de la
+  leçon n'est donc plus vrai. Le reste du paragraphe vieillit du même mouvement : les
+  « environ 1,2 degré vers 2020 » sont datés et restent honnêtes, mais l'explication du
+  quiz sur l'accord de Paris en tire une conclusion qui, elle, est dépassée (« sachant que
+  le réchauffement atteignait déjà environ 1,2 degré vers 2020, l'objectif de 1,5 degré
+  suppose une réduction très rapide »).
+- **Correction proposée** : « L'Europe, continent qui se réchauffe le plus vite, a connu
+  en 2024 son année la plus chaude jamais enregistrée ; 2024 est aussi la première année
+  civile dont la moyenne mondiale a dépassé 1,5 degré au-dessus de l'ère
+  préindustrielle. »
+
+### [MOYEN] La leçon 17 et `geo3-glaciers-cryosphere` donnent la même explication dans les mêmes mots
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/17.json` (section « La montée du
+  niveau de la mer », note du visuel et explication de la cinquième question) contre
+  `prisma/seed/culture-g/geographie-3.ts` — `geo3-glaciers-cryosphere` (`tip` et première
+  question) et `geo3-arctique-enjeux`
+- **Textes** : leçon — « la fonte de la banquise arctique, déjà flottante, n'y participe
+  pas, car elle déplace déjà son propre volume d'eau » ; seed (`tip`) — « La fonte de la
+  banquise ne fait pas monter le niveau de la mer, contrairement à celle des glaciers. » ;
+  seed (question) — « Pourquoi la fonte de la banquise n'élève-t-elle pas le niveau de la
+  mer ? » → « **Elle flotte déjà et déplace son propre volume** ».
+- **Problème** : la réponse littérale est écrite trois fois dans la leçon 17 et deux fois
+  dans le seed, dont une en `tip` juste avant la question qui la pose. S'y ajoutent la
+  boucle de rétroaction du pergélisol (leçon 17, `geo2-climats-monde`,
+  `geo3-glaciers-cryosphere`, `geo3-arctique-enjeux` : quatre occurrences) et
+  l'acidification des océans.
+- **Correction proposée** : verser `geo3-glaciers-cryosphere` et `geo2-climats-monde` dans
+  `cg-geographie-17` avec dédoublonnage, et retirer le `tip` qui donne la réponse.
+
+### [MINEUR] « Fonte » du pergélisol : le cahier d'origine commet la faute que le seed corrige ailleurs
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/17.json` — section « Le déplacement
+  des milieux naturels »
+- **Texte** : « Dans les régions arctiques, la **fonte du pergélisol** déstabilise les
+  sols ».
+- **Problème** : un sol gelé dégèle, il ne fond pas ; seule la glace qu'il contient fond.
+  Le constat de passe 1 opposait la « fonte du permafrost » de `geo3-arctique-enjeux` au
+  « dégel du permafrost » de `geo3-glaciers-cryosphere` ; la faute est donc aussi dans le
+  cahier d'origine, et la correction doit être appliquée aux trois endroits. S'y ajoute
+  une hésitation de vocabulaire à l'échelle du domaine : le cahier écrit « pergélisol », le
+  seed « permafrost », sans que l'équivalence soit jamais donnée.
+- **Correction proposée** : « le dégel du pergélisol » partout, avec une mention de
+  l'équivalence « pergélisol (permafrost) » à la première occurrence du domaine.
+
+### [MINEUR] « Quelles sont les deux causes principales » : une seule proposition en donne deux
+
+- **Où** : `heritage/culture-g/data/lecons/geographie/17.json` — cinquième question du quiz
+- **Texte** : « Quelles sont les **deux** causes principales de l'élévation du niveau des
+  océans ? » — propositions « **La dilatation thermique de l'eau et la fonte des glaces
+  continentales** », « La fonte de la banquise arctique flottante », « L'augmentation des
+  précipitations au-dessus des océans », « Les séismes et les éruptions volcaniques
+  sous-marines ».
+- **Problème** : l'énoncé annonce deux causes et une seule proposition en énumère deux.
+  La question se résout sur la forme, sans rien connaître du sujet. C'est aussi le cas de
+  la quatrième question, dont la bonne réponse est la seule à porter à la fois une date et
+  un objectif chiffré.
+- **Correction proposée** : « Qu'est-ce qui explique l'essentiel de l'élévation du niveau
+  des océans ? » avec des propositions de même forme — « La dilatation thermique de l'eau
+  et la fonte des glaces continentales », « La fonte de la banquise et celle des glaciers
+  de montagne », « L'augmentation des précipitations et le ruissellement des fleuves »,
+  « L'affaissement des fonds océaniques et l'activité volcanique ».
+
+
+### [GRAVE] Le `tip` donne la réponse littérale d'une question de sa propre notion — dans six notions du lot 1 (passe 2)
+
+Le constat de passe 1 signalait ce défaut sur cinq notions des lots 2 et 3. La relecture
+du lot 1, qui n'avait pas été passé au crible sous cet angle, montre qu'il est
+**systématique** : le cinquième argument de `notion()` est affiché avant le quiz, et il
+énonce la bonne réponse d'une question du même quiz dans six notions sur treize.
+
+- **Où** : `prisma/seed/culture-g/geographie.ts`
+- **Paires** :
+
+| Notion | `tip` affiché | Question de la même notion |
+|---|---|---|
+| `geo-ressources` (l. 194) | « La rente minière ne fait pas la prospérité : c'est ce qu'on appelle **la malédiction des ressources**. » | Q9 « Qu'appelle-t-on malédiction des ressources ? » → « **Le fait qu'une richesse minière freine souvent le développement** » |
+| `geo-france-regions` (l. 220) | « La réforme de 2016 fait passer de vingt-deux à **treize** régions métropolitaines » | Q1 « Combien de régions compte la France métropolitaine depuis 2016 ? » → « **Treize** » |
+| `geo-population` (l. 268) | « L'essentiel des migrations internationales est régional : **la majorité des migrants restent dans leur zone d'origine**. » | Q7 « Où réside la majorité des migrants internationaux ? » → « **Dans une région proche de leur pays d'origine** » |
+| `geo-mers-oceans` (l. 242) | « **Le Gulf Stream** fait partie d'une circulation thermohaline globale » | Q1 « Quel courant chaud remonte l'Atlantique nord vers l'Europe ? » → « **Le Gulf Stream** » |
+| `geo-capitales-monde` (l. 40) | « Beaucoup de capitales ont été choisies pour **arbitrer entre deux villes rivales**, ou pour **déplacer le centre de gravité d'un pays**. » | Q1 Canberra → « **Pour trancher la rivalité entre Sydney et Melbourne** » **et** Q3 Brasília → « **Pour tirer le peuplement vers l'intérieur du pays** » — le tip donne les deux |
+| `geo-cartographie-outils` (l. 294) | « Une projection conserve **soit les angles, soit les surfaces**, jamais les deux » | Q1 Mercator → « **Les angles**, donc les caps » et Q3 Peters → « **Les surfaces** » : le tip réduit les deux questions à un tirage à pile ou face entre deux options qu'il a lui-même nommées |
+
+- **Cas particulier, après fusion** : le `tip` de `geo-fleuves-monde` (« L'Amazone gagne au
+  débit et au bassin ») ne trahit aucune question de sa propre notion, mais `FUSIONS` la
+  verse dans `cg-geographie-09`, dont le quiz hérité pose précisément la superficie du
+  bassin de l'Amazone et son débit. Le tip y devient donc, lui aussi, une antisèche.
+- **Correction proposée** : réécrire ces sept `tip` en clé de lecture et non en fait
+  interrogé. Par exemple, pour `geo-france-regions` : « Le nombre de régions a changé en
+  2016, pas celui des départements ni celui des communes. » Pour `geo-ressources` : « Le
+  pays qui détient les plus grosses réserves n'est presque jamais celui qui produit le
+  plus. » Et vérifier la règle sur l'ensemble du domaine : un `tip` ne doit contenir aucun
+  mot figurant dans une bonne réponse de sa notion.
+
+### [MOYEN] Kaliningrad appelée « enclave » par une question dont le `tip` dit qu'elle n'en est pas une (passe 2)
+
+- **Où** : `prisma/seed/culture-g/geographie.ts:78` — `geo-frontieres`, contre le `tip` de
+  la même notion (l. 66)
+- **Textes** : `tip` — « **Une enclave est entourée par un seul pays** ; un pays sans
+  littoral est enclavé au sens large. » ; énoncé — « Quelle **enclave** russe est séparée
+  du reste du pays ? » ; explication — « Coincée entre la Pologne et la Lituanie, elle est
+  devenue une **exclave** lors de la dissolution de l'URSS. »
+- **Problème** : Kaliningrad borde deux États et la mer Baltique : ce n'est pas une
+  enclave au sens que la notion vient elle-même de définir, et l'explication le reconnaît
+  en changeant de mot. L'énoncé enseigne donc le contre-exemple de sa propre définition, à
+  douze lignes d'intervalle. C'est d'autant plus dommage que la distinction
+  enclave/exclave est exactement ce que la notion prétend apprendre.
+- **Correction proposée** : « Quel territoire russe est séparé du reste du pays par
+  d'autres États ? », avec l'explication « Bordée par la Pologne, la Lituanie et la
+  Baltique, Kaliningrad est une exclave — et non une enclave, puisqu'elle n'est pas
+  entourée par un seul pays. »
+
+### [MOYEN] « Quel pays a le plus de voisins ? » : une question au singulier, une réponse au pluriel (passe 2)
+
+- **Où** : `prisma/seed/culture-g/geographie.ts:74` — `geo-frontieres`
+- **Texte** : « Quel **pays** a le plus de voisins terrestres ? » — bonne réponse « **La
+  Chine et la Russie, à égalité avec quatorze** », distracteurs « Le Brésil »,
+  « L'Allemagne », « L'Inde »
+- **Problème** : même défaut de forme que la question du département le plus éolien
+  relevée en passe 1 — l'énoncé demande un pays, la bonne réponse en donne deux, et c'est
+  la seule proposition à porter un chiffre et une justification. Elle se reconnaît sans
+  rien savoir. Le fond est juste, la forme trahit.
+- **Correction proposée** : « Combien de voisins terrestres la Chine et la Russie
+  ont-elles chacune ? » → « Quatorze », avec des distracteurs numériques ; ou « Quels pays
+  comptent le plus de voisins terrestres ? » et des propositions toutes formulées par
+  paires.
+
+### [MOYEN] La plus peuplée d'Europe intra-muros : Istanbul n'est pas proposée, alors que la notion vient de dire qu'elle est européenne (passe 2)
+
+- **Où** : `prisma/seed/culture-g/geographie.ts:180` — `geo-villes-monde`, contre la
+  question 4 de la même notion
+- **Textes** : Q4 — « Quelle ville s'étend sur deux continents ? » → « **Istanbul** » ;
+  Q6 — « Quelle ville européenne compte le plus d'habitants intra-muros ? » → « Moscou »,
+  « Plus de douze millions d'habitants. Londres arrive ensuite avec environ neuf
+  millions. »
+- **Problème** : Istanbul compte environ quinze millions et demi d'habitants dans ses
+  limites municipales, dont la majorité du côté européen ; la plupart des recensements
+  européens la placent devant Moscou. Deux questions plus haut, la notion a appris à
+  l'apprenant qu'Istanbul est en partie européenne — et elle ne figure pas parmi les
+  propositions. La question n'a donc de réponse que si l'on adopte, sans le dire, la
+  convention qui exclut les villes transcontinentales.
+- **Correction proposée** : « Quelle ville de la Russie d'Europe compte le plus
+  d'habitants intra-muros ? », ou conserver l'énoncé en ajoutant Istanbul aux propositions
+  et en faisant d'elle la bonne réponse.
+
+### [MINEUR] La Mecque et Médine : le distracteur n'est faux que par le mot « seule » (passe 2)
+
+- **Où** : `prisma/seed/culture-g/geographie.ts:184` — `geo-villes-monde`
+- **Texte** : « Quelle ville sainte est interdite aux non-musulmans ? » — « **La Mecque** »,
+  distracteurs « Jérusalem », « **Médine seule** », « Kairouan » ; explication — « La
+  Mecque et Médine sont **toutes deux fermées**, mais La Mecque l'est le plus
+  strictement ».
+- **Problème** : même mécanique que le distracteur « Le détroit de Douvres seul » déjà
+  relevé — la proposition n'est fausse que par un adverbe ajouté, et l'explication
+  reconnaît que les deux villes conviennent à l'énoncé. Un apprenant qui sait que Médine
+  est également fermée hésite légitimement.
+- **Correction proposée** : « Quelle ville sainte est **entièrement** interdite aux
+  non-musulmans ? » et remplacer le distracteur par « Médine, dont seul le centre est
+  fermé » — la nuance devient alors instructive au lieu d'être piégeuse.
+
+### [MINEUR] « L'Atlantique nord » proposé comme un océan (passe 2)
+
+- **Où** : `prisma/seed/culture-g/geographie.ts:262` — `geo-mers-oceans`
+- **Texte** : « Quel **océan** est le plus petit et le moins profond ? » — propositions
+  « L'océan Arctique », « L'océan Indien », « L'océan Austral », « **L'Atlantique nord** »
+- **Problème** : l'Atlantique nord est une portion d'océan, pas un océan de la
+  nomenclature ; il est le seul intrus dans une liste par ailleurs homogène, ce qui le
+  rend éliminable sans connaissance. Même défaut de mélange des niveaux que le Groenland
+  rangé parmi les continents.
+- **Correction proposée** : remplacer par « L'océan Pacifique ».
+
+
 ## Ce que la seconde passe a ajouté
 
-*(à compléter — la passe 2 n'a pas commencé)*
+- Le défaut du `tip` qui donne la réponse est **systématique** et non ponctuel : six notions du lot 1 s'y ajoutent aux cinq déjà relevées dans les lots 2 et 3, plus un cas créé par la fusion (`geo-fleuves-monde` → `cg-geographie-09`).
+- `geo-frontieres` appelle Kaliningrad « enclave » alors que son propre `tip` définit l'enclave comme entourée d'un seul pays, et que son explication rétablit « exclave ».
+- « Quel pays a le plus de voisins terrestres ? » : énoncé au singulier, réponse double, seule proposition chiffrée.
+- « Quelle ville européenne compte le plus d'habitants intra-muros ? » : Istanbul manque aux propositions, deux questions après que la notion l'a déclarée européenne.
+- « Médine seule » : deuxième distracteur du domaine qui n'est faux que par un adverbe.
+- « L'Atlantique nord » proposé parmi les océans.
 
 ## Ce qui est sain
 
