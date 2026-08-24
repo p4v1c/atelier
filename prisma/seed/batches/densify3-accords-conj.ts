@@ -57,8 +57,8 @@ export const DENSIFY3_ACCORDS_CONJ: ContentBatch = {
       { marked: "Dix pour cent du budget [ont] été gelé cette année.", fix: "a" },
     ]},
     { ruleSlug: "accord-tout-autre", sentences: [
-      { marked: "[Toute] autre réponse aurait provoqué un scandale.", fix: "Tout" },
-      { marked: "Il envisage la question d'une [tout] autre façon.", fix: "toute" },
+      { marked: "[Tout] autre réponse aurait provoqué un scandale.", fix: "Toute" },
+      { marked: "Il envisage la question d'une [toute] autre façon.", fix: "tout" },
     ]},
     { ruleSlug: "accord-avoir-affaire", sentences: [
       { marked: "Vous aurez [affaires] à un service très pointilleux.", fix: "affaire" },

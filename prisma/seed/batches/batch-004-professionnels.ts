@@ -33,7 +33,7 @@ export const BATCH_004: ContentBatch = {
       tip: "On n'a pas de sentiments pour une administration : garde les salutations.",
       difficulty: 2,
       sentences: [
-        { marked: "Veuillez agréer, Madame, l'expression de mes [sentiments] distingués.", fix: "salutations" },
+        { marked: "Veuillez agréer, Madame, l'expression de mes [sentiments] distinguées.", fix: "salutations" },
         { marked: "Je vous prie d'agréer mes [sentiments] les meilleurs, Monsieur.", fix: "salutations" },
         { marked: "Recevez, Madame, Monsieur, mes [sentiments] respectueux et distingués.", fix: "salutations" },
         { marked: "Agréez, Monsieur le Directeur, mes [sentiments] les plus sincères.", fix: "salutations" },
@@ -123,7 +123,7 @@ export const BATCH_004: ContentBatch = {
       tip: "On revient d'un lieu, pas vers une personne.",
       difficulty: 2,
       sentences: [
-        { marked: "Je [reviens] vers vous dès que j'aurai les chiffres définitifs.", fix: "vous réponds" },
+        { marked: "Je vous [reviens] dès que j'aurai les chiffres définitifs.", fix: "réponds" },
         { marked: "Le service commercial [reviendra] vers vous dans la semaine.", fix: "vous recontactera" },
         { marked: "Merci de [revenir] vers moi avant la fin de la journée.", fix: "me répondre" },
         { marked: "Nous [reviendrons] vers vous après examen de votre dossier.", fix: "vous tiendrons informé" },
@@ -382,7 +382,7 @@ export const BATCH_004: ContentBatch = {
       tip: "Un destinataire qui sait combien de fichiers attendre vérifie qu'il les a tous.",
       difficulty: 2,
       sentences: [
-        { marked: "Veuillez trouver ci-joint la [pièce] demandée : devis, contrat, attestation.", fix: "pièces" },
+        { marked: "Veuillez trouver ci-joint les [pièce] demandées : devis, contrat, attestation.", fix: "pièces" },
         { marked: "Vous trouverez en [pièce] jointes les trois derniers relevés.", fix: "pièces" },
         { marked: "Les documents figurent en [pièce] jointe, au nombre de quatre.", fix: "pièces" },
         { marked: "Ci-joint la [pièce] justificative et le formulaire complété.", fix: "les pièces" },
