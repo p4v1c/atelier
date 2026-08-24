@@ -215,7 +215,7 @@ export const CG_HISTOIRE_FRANCE_3: SeedSkill[] = [
 
   notion("hf3-decentralisation-territoires", S, "Aménagement du territoire",
     "Politiques d'équilibre, métropoles, ruralités.",
-    "L'expression Paris et le désert français date de 1947.",
+    "Le déséquilibre entre la capitale et le reste du pays a été nommé dès 1947 par un géographe, dans un titre resté célèbre.",
     2, [
     ["Quel ouvrage de 1947 dénonce le déséquilibre entre Paris et la province ?", ["Paris et le désert français", "La France déchirée", "Le Territoire de l'aménagement", "La Métropole et ses marges"], 0,
      "Jean-François Gravier y plaide pour une politique d'aménagement volontariste."],

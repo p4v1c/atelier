@@ -243,7 +243,7 @@ export const CG_LANGUE_FRANCAISE_2: SeedSkill[] = [
 
   notion("lf2-syntaxe-phrase", S, "La phrase française",
     "Ordre des mots, subordination, ponctuation logique.",
-    "L'ordre sujet-verbe-complément est la règle en français, mais il souffre de nombreuses exceptions.",
+    "L'ordre canonique du français souffre de nombreuses exceptions : inversion, mise en relief, pronom antéposé.",
     2, [
     ["Quel est l'ordre canonique des mots en français ?", ["Sujet, verbe, complément", "Verbe, sujet, complément", "Sujet, complément, verbe", "Complément, verbe, sujet"], 0,
      "Cet ordre rigide compense la disparition des déclinaisons latines."],

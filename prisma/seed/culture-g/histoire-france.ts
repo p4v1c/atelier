@@ -116,7 +116,7 @@ export const CG_HISTOIRE_FRANCE: SeedSkill[] = [
 
   notion("hf-francois-premier", S, "François Ier et la Renaissance française",
     "Marignan, Chambord, Villers-Cotterêts, Léonard de Vinci à Amboise : un règne où la France se dote d'un État, d'une langue et d'un art.",
-    "L'ordonnance de Villers-Cotterêts, en 1539, est le texte le plus durable du règne : il impose le français dans les actes officiels.",
+    "Un règne se juge à ce qu'il laisse : ici un texte de 1539, qui impose le français dans les actes officiels et n'a jamais été abrogé.",
     2, [
     ["Quelle bataille François Ier remporte-t-il en 1515 ?", ["Marignan", "Pavie", "Cérisoles", "Ravenne"], 0,
      "La victoire sur les Suisses lui ouvre le Milanais et lui vaut d'être adoubé par Bayard sur le champ de bataille."],

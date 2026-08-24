@@ -555,7 +555,7 @@ export const CG_GASTRONOMIE_3: SeedSkill[] = [
 
   notion("ga3-alimentation-futur", S, "L'alimentation de demain",
     "Protéines, climat, innovations.",
-    "L'alimentation représente environ un quart des émissions mondiales de gaz à effet de serre.",
+    "L'alimentation pèse plus lourd que les transports dans les émissions mondiales de gaz à effet de serre.",
     2, [
     ["Quelle part des émissions mondiales l'alimentation représente-t-elle ?", ["Environ un quart", "Environ dix pour cent", "Environ la moitié", "Environ cinq pour cent"], 0,
      "L'élevage en constitue la part la plus importante."],

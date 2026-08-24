@@ -423,7 +423,7 @@ export const CG_SCIENCES_VIE_3: SeedSkill[] = [
 
   notion("sv3-eau-corps", S, "L'eau et les équilibres du corps",
     "Hydratation, reins, équilibres internes.",
-    "Le corps humain est composé d'environ soixante pour cent d'eau.",
+    "L'eau fait la majeure partie du corps humain, mais la proportion varie avec l'âge et la masse grasse.",
     2, [
     ["Quelle proportion du corps humain adulte est constituée d'eau ?", ["Environ soixante pour cent", "Environ trente pour cent", "Environ quatre-vingt-dix pour cent", "Environ quarante pour cent"], 0,
      "La proportion est plus élevée chez le nourrisson et plus faible chez la personne âgée."],

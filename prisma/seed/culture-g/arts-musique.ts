@@ -9,7 +9,7 @@ const S = "Arts & Musique";
 export const CG_ARTS_MUSIQUE: SeedSkill[] = [
   notion("am-architecture-styles", S, "Les styles architecturaux",
     "Roman, gothique, classique, moderne : reconnaître un édifice à ses formes.",
-    "L'arc en plein cintre est roman, l'arc brisé gothique : c'est le repère le plus sûr.",
+    "La forme de l'arc suffit à dater un édifice : arrondi d'un côté, brisé de l'autre. C'est le repère le plus sûr.",
     2, [
     ["Quel type d'arc caractérise l'architecture romane ?", ["L'arc en plein cintre", "L'arc brisé", "L'arc outrepassé", "L'arc surbaissé"], 0,
      "Un demi-cercle parfait. Il impose des murs épais et des ouvertures étroites."],
@@ -87,7 +87,7 @@ export const CG_ARTS_MUSIQUE: SeedSkill[] = [
 
   notion("am-sculpture", S, "La sculpture",
     "Tailler, modeler, fondre : des gestes différents, des matériaux qui imposent leurs règles.",
-    "Tailler retire de la matière, modeler en ajoute : c'est la première distinction du sculpteur.",
+    "Deux gestes opposés fondent la sculpture : l'un enlève, l'autre ajoute. Tout le vocabulaire en découle.",
     2, [
     ["Quelle différence y a-t-il entre tailler et modeler ?", ["Tailler retire de la matière, modeler en ajoute", "Tailler concerne le bois, modeler la pierre", "Modeler suppose une fonte", "Tailler se fait à froid, modeler à chaud"], 0,
      "La taille est irréversible : le marbre ne pardonne pas l'erreur, contrairement à la terre."],

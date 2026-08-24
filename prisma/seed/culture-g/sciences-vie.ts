@@ -265,7 +265,7 @@ export const CG_SCIENCES_VIE: SeedSkill[] = [
 
   notion("sv-especes-menacees", S, "Biodiversité et espèces menacées",
     "Une sixième extinction en cours, ses causes, ses indicateurs, et ce que protéger veut dire concrètement.",
-    "La principale cause d'extinction n'est pas la chasse mais la destruction des habitats.",
+    "La cause première n'est pas celle qu'on imagine : ni la chasse, ni le braconnage, ni même le climat.",
     2, [
     ["Quel organisme publie la liste rouge des espèces menacées ?", ["l'UICN", "le WWF", "l'ONU", "le GIEC"], 0,
      "L'Union internationale pour la conservation de la nature évalue plus de cent cinquante mille espèces."],

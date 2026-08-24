@@ -269,7 +269,7 @@ export const CG_GASTRONOMIE_2: SeedSkill[] = [
 
   notion("ga2-parfum", S, "Le parfum",
     "Matières, composition, industrie.",
-    "Un parfum se construit comme un accord musical, en notes de tête, de cœur et de fond.",
+    "Un parfum se construit comme un accord musical, en trois étages qui s'évaporent à des vitesses différentes.",
     2, [
     ["Comment se structure classiquement un parfum ?", ["En notes de tête, de cœur et de fond", "En trois concentrations", "En deux familles olfactives", "En quatre accords principaux"], 0,
      "Les notes de tête s'évaporent en minutes, les notes de fond persistent des heures."],

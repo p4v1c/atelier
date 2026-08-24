@@ -135,7 +135,7 @@ export const CG_MYTHOLOGIE_RELIGIONS_2: SeedSkill[] = [
 
   notion("mr2-mythologies-ameriques", S, "Mythologies des Amériques",
     "Mésoamérique, Andes, peuples d'Amérique du Nord.",
-    "Le Popol Vuh est l'une des rares sources écrites de la mythologie maya.",
+    "La mythologie maya ne nous est parvenue que par une poignée de sources écrites : les autodafés coloniaux ont fait le reste.",
     2, [
     ["Quel texte maya raconte la création du monde ?", ["Le Popol Vuh", "Le Codex de Dresde", "Les Livres du Chilam Balam", "Le Codex Borgia"], 0,
      "Transcrit en alphabet latin au XVIe siècle à partir d'une tradition antérieure."],

@@ -373,7 +373,7 @@ export const CG_SCIENCES_TECH_3: SeedSkill[] = [
 
   notion("st3-innovation-france", S, "La recherche et l'innovation en France",
     "Financement, valorisation, écosystème.",
-    "La France investit environ deux virgule deux pour cent de son PIB dans la recherche.",
+    "La France reste sous l'objectif européen des trois pour cent du PIB consacrés à la recherche.",
     2, [
     ["Quelle part de son PIB la France consacre-t-elle à la recherche ?", ["Environ deux virgule deux pour cent", "Environ quatre pour cent", "Environ un pour cent", "Environ trois pour cent"], 0,
      "L'objectif européen de trois pour cent n'est pas atteint, surtout du fait de la recherche privée."],

@@ -333,7 +333,7 @@ export const CG_HISTOIRE_MONDE_2: SeedSkill[] = [
 
   notion("hm2-reforme-guerres-religion", S, "La Réforme et les guerres de religion",
     "Un siècle et demi de rupture religieuse et de conflits en Europe.",
-    "La paix d'Augsbourg pose que la religion du prince détermine celle de ses sujets.",
+    "La paix d'Augsbourg règle le conflit par un principe simple et brutal, qui ne laisse aucun choix aux sujets.",
     2, [
     ["Quel principe la paix d'Augsbourg établit-elle en 1555 ?", ["La religion du prince détermine celle de ses sujets", "La liberté de conscience individuelle", "L'égalité des cultes", "La séparation des Églises et de l'État"], 0,
      "Formulé plus tard sous l'expression cujus regio, ejus religio. Le calvinisme n'y était pas inclus."],

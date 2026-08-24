@@ -9,7 +9,7 @@ const S = "Langue française";
 export const CG_LANGUE_FRANCAISE_3: SeedSkill[] = [
   notion("lf3-ancien-francais", S, "L'ancien et le moyen français",
     "Mille ans d'évolution avant le français classique.",
-    "L'ancien français possédait encore une déclinaison à deux cas.",
+    "L'ancien français gardait du latin une trace que le français moderne a perdue : les mots y changeaient de forme selon leur fonction.",
     2, [
     ["Quelle particularité grammaticale l'ancien français conserve-t-il du latin ?", ["Une déclinaison à deux cas", "Un genre neutre", "Un système de conjugaison à six temps", "Un duel"], 0,
      "Cas sujet et cas régime, dont la disparition au XIVe siècle a figé l'ordre des mots."],
@@ -553,7 +553,7 @@ export const CG_LANGUE_FRANCAISE_3: SeedSkill[] = [
 
   notion("lf3-francais-monde-diffusion", S, "Enseigner le français dans le monde",
     "Réseaux, certifications, attractivité.",
-    "Environ cent trente millions de personnes apprennent le français dans le monde.",
+    "Les apprenants du français dans le monde se comptent en dizaines de millions, et la progression vient surtout d'Afrique.",
     2, [
     ["Combien de personnes apprennent le français dans le monde ?", ["Environ cent trente millions", "Environ dix millions", "Environ trois cents millions", "Environ cinquante millions"], 0,
      "Une grande partie dans les systèmes scolaires africains."],

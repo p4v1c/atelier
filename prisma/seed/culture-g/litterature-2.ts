@@ -35,7 +35,7 @@ export const CG_LITTERATURE_2: SeedSkill[] = [
 
   notion("li2-moliere", S, "Molière",
     "Trente ans de théâtre, du tréteau de province à la cour, et une comédie devenue critique sociale.",
-    "Molière est mort en jouant Le Malade imaginaire, mais pas sur scène : quelques heures après.",
+    "Molière est mort en jouant, mais pas sur scène : quelques heures après la représentation.",
     2, [
     ["Quelle charge Molière abandonne-t-il pour se consacrer au théâtre ?", ["Celle de tapissier du roi, héritée de son père", "Une charge de magistrat", "Une charge de médecin", "Une charge de percepteur"], 0,
      "Il fonde l'Illustre-Théâtre à vingt et un ans ; la troupe fait faillite en deux ans et il est emprisonné pour dettes."],
@@ -347,7 +347,7 @@ export const CG_LITTERATURE_2: SeedSkill[] = [
 
   notion("li2-litterature-hispanique", S, "Les littératures de langue espagnole",
     "Siècle d'or, roman moderne, boom latino-américain.",
-    "Don Quichotte est souvent tenu pour le premier roman moderne européen.",
+    "Le premier roman moderne européen est espagnol, et son héros a trop lu de romans de chevalerie.",
     2, [
     ["Quel roman de Cervantès paraît en deux parties en 1605 et 1615 ?", ["Don Quichotte", "Les Nouvelles exemplaires", "La Galatée", "Persilès"], 0,
      "La deuxième partie répond à une suite apocryphe publiée par un rival."],
@@ -425,7 +425,7 @@ export const CG_LITTERATURE_2: SeedSkill[] = [
 
   notion("li2-autobiographie", S, "Écrire sa vie",
     "Confessions, mémoires, journaux, correspondances : les formes du récit de soi.",
-    "Les Confessions de Rousseau inaugurent l'idée de tout dire sur soi, y compris le déshonorant.",
+    "Rousseau inaugure l'idée de tout dire sur soi, y compris le déshonorant. Avant lui, on écrivait ses mémoires, pas ses fautes.",
     2, [
     ["Quel ouvrage de Rousseau inaugure l'autobiographie moderne ?", ["Les Confessions", "Les Rêveries du promeneur solitaire", "Émile", "Les Dialogues"], 0,
      "Publié après sa mort, il annonce vouloir montrer un homme dans toute la vérité de sa nature."],

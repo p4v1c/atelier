@@ -263,7 +263,7 @@ export const CG_INSTITUTIONS_ECONOMIE: SeedSkill[] = [
 
   notion("ie-democratie-regimes", S, "Démocraties et régimes politiques",
     "Séparation des pouvoirs, types de régimes, modes de scrutin : la grammaire du politique.",
-    "Un régime parlementaire n'est pas un régime sans président : c'est un régime où le gouvernement est responsable devant le Parlement.",
+    "Un régime parlementaire n'est pas un régime sans président : ce qui le définit est le lien de responsabilité entre l'exécutif et les chambres.",
     2, [
     ["Qui théorise la séparation des pouvoirs en 1748 ?", ["Montesquieu", "Rousseau", "Locke", "Voltaire"], 0,
      "Dans L'Esprit des lois. John Locke avait esquissé l'idée dès 1690."],

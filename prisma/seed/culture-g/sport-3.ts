@@ -187,7 +187,7 @@ export const CG_SPORT_3: SeedSkill[] = [
 
   notion("sp3-cyclisme-3", S, "Le cyclisme",
     "Grands tours, classiques, coureurs.",
-    "Le Tour de France, le Giro et la Vuelta forment les trois grands tours.",
+    "Trois courses de trois semaines forment le sommet du calendrier ; les gagner toutes la même année n'est jamais arrivé.",
     2, [
     ["Quels sont les trois grands tours cyclistes ?", ["Le Tour de France, le Giro et la Vuelta", "Le Tour de France, le Giro et le Tour de Suisse", "Le Tour de France, la Vuelta et Paris-Nice", "Le Giro, la Vuelta et le Tour de Lombardie"], 0,
      "Chacun dure environ trois semaines."],

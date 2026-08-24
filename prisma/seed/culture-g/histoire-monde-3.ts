@@ -185,7 +185,7 @@ export const CG_HISTOIRE_MONDE_3: SeedSkill[] = [
 
   notion("hm3-afrique-independance", S, "L'Afrique depuis les indépendances",
     "Constructions étatiques, conflits, dynamiques récentes.",
-    "L'Afrique compte aujourd'hui cinquante-quatre États reconnus par l'ONU.",
+    "Le nombre d'États africains reconnus par l'ONU a plus que quintuplé depuis 1950.",
     2, [
     ["Combien d'États africains sont membres de l'ONU ?", ["Cinquante-quatre", "Quarante", "Soixante", "Quarante-cinq"], 0,
      "L'Union africaine en compte cinquante-cinq, en incluant la République arabe sahraouie démocratique."],
@@ -471,7 +471,7 @@ export const CG_HISTOIRE_MONDE_3: SeedSkill[] = [
 
   notion("hm3-droit-international", S, "Le droit international",
     "Sources, juridictions, limites.",
-    "Le droit international repose sur le consentement des États, ce qui en fait sa force et sa faiblesse.",
+    "Le droit international n'a pas de gendarme : sa force et sa faiblesse tiennent toutes deux à ce qui le fonde.",
     2, [
     ["Sur quoi repose principalement le droit international public ?", ["Le consentement des États", "Une autorité mondiale", "Les décisions de l'ONU", "La coutume seule"], 0,
      "Un État n'est en principe lié que par les traités qu'il a ratifiés."],

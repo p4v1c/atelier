@@ -309,7 +309,7 @@ export const CG_HISTOIRE_FRANCE_2: SeedSkill[] = [
 
   notion("hf2-second-empire", S, "La Deuxième République et le Second Empire",
     "1848-1870 : suffrage universel masculin, coup d'État, modernisation et défaite.",
-    "Le suffrage universel masculin, instauré en 1848, n'a jamais été supprimé depuis.",
+    "Une conquête de 1848 n'a plus jamais été reprise, pas même par les régimes autoritaires qui ont suivi.",
     2, [
     ["Quelle avancée majeure la Deuxième République instaure-t-elle en 1848 ?", ["Le suffrage universel masculin", "Le vote des femmes", "Le droit de grève", "La liberté syndicale"], 0,
      "Le corps électoral passe de deux cent cinquante mille à plus de neuf millions d'électeurs."],

@@ -399,7 +399,7 @@ export const CG_INSTITUTIONS_ECONOMIE_3: SeedSkill[] = [
 
   notion("ie3-inegalites-france", S, "Les inégalités en France",
     "Revenus, patrimoine, mobilité.",
-    "Les inégalités de patrimoine sont bien plus fortes que les inégalités de revenu.",
+    "Deux inégalités se mesurent séparément en France, et l'une est bien plus creusée que l'autre.",
     2, [
     ["Quelles inégalités sont les plus marquées en France ?", ["Les inégalités de patrimoine", "Les inégalités de revenu", "Les inégalités de consommation", "Les inégalités salariales"], 0,
      "Les dix pour cent les plus riches détiennent environ la moitié du patrimoine total."],
@@ -451,7 +451,7 @@ export const CG_INSTITUTIONS_ECONOMIE_3: SeedSkill[] = [
 
   notion("ie3-associations-democratie", S, "Vie associative et participation",
     "Engagement, démocratie participative, contre-pouvoirs.",
-    "La France compte plus d'un million et demi d'associations actives.",
+    "Le tissu associatif français se compte en centaines de milliers d'emplois et en millions de bénévoles.",
     2, [
     ["Combien d'associations actives compte-t-on en France ?", ["Plus d'un million et demi", "Environ cent mille", "Environ cinq cent mille", "Environ cinq millions"], 0,
      "Environ un cinquième d'entre elles emploient des salariés."],

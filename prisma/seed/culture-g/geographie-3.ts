@@ -449,7 +449,7 @@ export const CG_GEOGRAPHIE_3: SeedSkill[] = [
 
   notion("geo3-arctique-enjeux", S, "L'Arctique, nouvel espace stratégique",
     "Fonte, ressources, gouvernance.",
-    "L'Arctique se réchauffe environ trois fois plus vite que la moyenne mondiale.",
+    "L'Arctique se réchauffe bien plus vite que la moyenne mondiale, et les estimations récentes ont revu le facteur à la hausse.",
     2, [
     ["À quelle vitesse l'Arctique se réchauffe-t-il ?", ["Environ trois fois plus vite que la moyenne mondiale", "À la même vitesse", "Deux fois moins vite", "Dix fois plus vite"], 0,
      "L'amplification arctique s'explique notamment par la disparition de la glace réfléchissante."],

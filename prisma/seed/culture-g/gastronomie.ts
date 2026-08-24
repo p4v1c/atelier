@@ -239,7 +239,7 @@ export const CG_GASTRONOMIE: SeedSkill[] = [
 
   notion("ga-art-table", S, "L'art de la table et la réception",
     "Couverts, service, protocole : les usages et leur histoire.",
-    "La fourchette n'est entrée dans l'usage français qu'au XVIIe siècle, longtemps jugée efféminée.",
+    "La fourchette est entrée tard dans l'usage français, et longtemps jugée efféminée. Méfie-toi des récits qui l'attribuent à une reine.",
     2, [
     ["Quand la fourchette s'impose-t-elle à la table française ?", ["Au XVIIe siècle", "Au Moyen Âge", "Au XIXe siècle", "À la Renaissance immédiatement"], 0,
      "Introduite d'Italie par Catherine de Médicis, elle mit plus d'un siècle à s'imposer réellement."],

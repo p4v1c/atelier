@@ -191,7 +191,7 @@ export const CG_LITTERATURE: SeedSkill[] = [
 
   notion("li-litterature-anglaise", S, "La littérature de langue anglaise",
     "Shakespeare, le roman victorien, le modernisme, la littérature américaine : quelques repères.",
-    "Shakespeare a écrit environ trente-sept pièces et cent cinquante-quatre sonnets.",
+    "Shakespeare a écrit une trentaine de pièces et un recueil de sonnets dont le nombre exact tombe souvent en question.",
     2, [
     ["Combien de sonnets Shakespeare a-t-il écrits ?", ["Cent cinquante-quatre", "Cent", "Deux cents", "Cinquante"], 0,
      "Publiés en 1609, ils sont adressés pour la plupart à un jeune homme, puis à une dame brune."],
@@ -217,7 +217,7 @@ export const CG_LITTERATURE: SeedSkill[] = [
 
   notion("li-litteratures-monde", S, "Les littératures du monde",
     "Russie, Amérique latine, Japon, Afrique : des œuvres majeures hors des aires française et anglaise.",
-    "Le Dit du Genji, écrit vers l'an mille par une femme de la cour japonaise, est souvent tenu pour le premier roman du monde.",
+    "Le premier roman du monde n'est ni européen ni moderne : il a été écrit vers l'an mille par une femme de la cour japonaise.",
     2, [
     ["Quel roman de Tolstoï se déroule pendant les guerres napoléoniennes ?", ["Guerre et Paix", "Anna Karénine", "Résurrection", "La Sonate à Kreutzer"], 0,
      "Publié entre 1865 et 1869, il mêle destins privés et fresque historique sur près de deux mille pages."],

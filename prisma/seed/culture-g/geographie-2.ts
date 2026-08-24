@@ -235,7 +235,7 @@ export const CG_GEOGRAPHIE_2: SeedSkill[] = [
 
   notion("geo2-transports-mondialisation", S, "Transports et mondialisation",
     "Conteneurs, détroits, hubs : les infrastructures qui rendent possible l'économie mondiale.",
-    "Environ quatre-vingts pour cent du commerce mondial en volume passe par la mer.",
+    "La mer porte l'essentiel du commerce mondial en volume — une part bien plus élevée qu'on ne l'imagine.",
     2, [
     ["Quelle part du commerce mondial passe par voie maritime en volume ?", ["Environ quatre-vingts pour cent", "Environ la moitié", "Environ trente pour cent", "Environ quatre-vingt-quinze pour cent"], 0,
      "En valeur, la part est moindre, l'avion transportant les marchandises les plus précieuses."],
@@ -493,7 +493,7 @@ export const CG_GEOGRAPHIE_2: SeedSkill[] = [
 
   notion("geo2-cartographie", S, "Cartographie et représentation du monde",
     "Projections, échelles, systèmes de coordonnées : toute carte est un choix.",
-    "Aucune projection ne conserve à la fois les formes, les surfaces et les distances.",
+    "Aucune projection ne conserve tout : il faut toujours sacrifier au moins une propriété, et savoir laquelle.",
     2, [
     ["Pourquoi aucune carte plane ne peut-elle être exacte ?", ["On ne peut aplatir une sphère sans déformation", "Les instruments sont imprécis", "La Terre change de forme", "Les projections sont arbitraires"], 0,
      "Il faut choisir ce que l'on conserve : les angles, les surfaces ou certaines distances."],

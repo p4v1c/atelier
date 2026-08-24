@@ -35,7 +35,7 @@ export const CG_INSTITUTIONS_ECONOMIE_2: SeedSkill[] = [
 
   notion("ie2-parlement-francais", S, "Le Parlement français",
     "Deux chambres, une procédure législative, des pouvoirs de contrôle.",
-    "L'Assemblée nationale a le dernier mot en cas de désaccord persistant avec le Sénat.",
+    "En cas de désaccord persistant entre les deux chambres, l'une a le dernier mot — et ce n'est pas la haute.",
     2, [
     ["Combien de députés l'Assemblée nationale compte-t-elle ?", ["Cinq cent soixante-dix-sept", "Trois cent quarante-huit", "Six cents", "Cinq cents"], 0,
      "Élus pour cinq ans au scrutin majoritaire à deux tours dans des circonscriptions."],

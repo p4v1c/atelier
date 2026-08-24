@@ -13,7 +13,7 @@ const S = "Histoire du monde";
 export const CG_HISTOIRE_MONDE: SeedSkill[] = [
   notion("hm-alexandre", S, "Alexandre le Grand et le monde hellénistique",
     "Douze ans de conquête, un empire de la Grèce à l'Indus, et trois siècles de royaumes grecs en Orient après sa mort.",
-    "Retenez trois batailles — Granique, Issos, Gaugamèles — et le partage entre ses généraux, les diadoques.",
+    "Trois batailles suffisent à tenir la conquête : Granique, Issos, Gaugamèles. Le plus difficile à retenir vient après sa mort, quand ses généraux se partagent l'empire.",
     2, [
     ["De quel royaume Alexandre hérite-t-il en 336 av. J.-C. ?", ["La Macédoine", "Athènes", "Sparte", "L'Épire"], 0,
      "Il succède à son père Philippe II, assassiné, qui avait déjà soumis les cités grecques à Chéronée en 338."],
@@ -195,7 +195,7 @@ export const CG_HISTOIRE_MONDE: SeedSkill[] = [
 
   notion("hm-genocide-crimes", S, "Les génocides du XXe siècle",
     "Un mot forgé en 1944, une convention de 1948, et des crimes qui ont changé le droit international.",
-    "Le mot génocide est créé par Raphael Lemkin en 1944 ; la convention de l'ONU le définit en 1948.",
+    "Le mot est plus récent qu'on ne croit : il naît en 1944, sous la plume d'un juriste polonais, et la convention de l'ONU le définit quatre ans plus tard.",
     3, [
     ["Qui forge le mot génocide en 1944 ?", ["Raphael Lemkin", "Hersch Lauterpacht", "Hannah Arendt", "Robert Jackson"], 0,
      "Juriste polonais réfugié aux États-Unis, il compose le mot du grec genos, la race, et du latin caedere, tuer."],
@@ -247,7 +247,7 @@ export const CG_HISTOIRE_MONDE: SeedSkill[] = [
 
   notion("hm-chute-urss", S, "La chute du bloc soviétique",
     "De l'arrivée de Gorbatchev en 1985 à la disparition de l'URSS en décembre 1991 : six ans qui redessinent l'Europe.",
-    "Deux mots résument la tentative de réforme : glasnost, la transparence, et perestroïka, la restructuration.",
+    "Deux mots russes résument la tentative de réforme : l'un désigne la transparence, l'autre la refonte de l'économie. Ne les intervertis pas.",
     2, [
     ["Qui arrive au pouvoir en URSS en 1985 ?", ["Mikhaïl Gorbatchev", "Iouri Andropov", "Constantin Tchernenko", "Boris Eltsine"], 0,
      "À cinquante-quatre ans, il est le plus jeune dirigeant soviétique depuis Staline."],
@@ -273,7 +273,7 @@ export const CG_HISTOIRE_MONDE: SeedSkill[] = [
 
   notion("hm-inde-independance", S, "L'Inde de Gandhi à la partition",
     "Une indépendance obtenue sans guerre contre l'occupant, et payée par une partition qui déplace quinze millions de personnes.",
-    "La non-violence de Gandhi n'a pas empêché la partition : ce sont deux histoires parallèles, pas une seule.",
+    "L'indépendance et la partition sont deux histoires parallèles, pas une seule : la méthode de Gandhi n'a pas empêché la seconde.",
     2, [
     ["Quel parti mène le mouvement pour l'indépendance indienne ?", ["Le Congrès national indien", "La Ligue musulmane", "Le Parti communiste indien", "Le Swaraj Party"], 0,
      "Fondé en 1885, il devient sous Gandhi un mouvement de masse et non plus un cercle de notables."],

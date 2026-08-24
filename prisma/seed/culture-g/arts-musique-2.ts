@@ -451,7 +451,7 @@ export const CG_ARTS_MUSIQUE_2: SeedSkill[] = [
 
   notion("am2-musique-instruments-orchestre", S, "L'orchestre symphonique",
     "Pupitres, direction, répertoire : comment fonctionne un grand ensemble.",
-    "Le chef d'orchestre moderne n'apparaît qu'au XIXe siècle.",
+    "Le chef d'orchestre est une invention tardive : l'orchestre a longtemps joué sans personne devant lui.",
     2, [
     ["Quelles sont les quatre familles de l'orchestre symphonique ?", ["Cordes, bois, cuivres et percussions", "Cordes, vents, claviers et percussions", "Cordes, bois, claviers et cuivres", "Vents, cordes, chœurs et percussions"], 0,
      "Les claviers et la harpe s'y ajoutent selon les œuvres."],

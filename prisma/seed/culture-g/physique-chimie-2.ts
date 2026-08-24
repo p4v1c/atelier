@@ -9,7 +9,7 @@ const S = "Physique & Chimie";
 export const CG_PHYSIQUE_CHIMIE_2: SeedSkill[] = [
   notion("pc2-atome-structure", S, "La structure de l'atome",
     "Du modèle de Dalton à la mécanique quantique : comment on s'est représenté l'atome.",
-    "L'atome est presque entièrement vide : le noyau occupe une fraction infime de son volume.",
+    "L'atome est presque entièrement vide : le noyau y tient une place minuscule au regard du volume total.",
     2, [
     ["Quel philosophe grec propose le premier l'idée d'atome ?", ["Démocrite", "Aristote", "Platon", "Épicure"], 0,
      "Le mot signifie insécable. L'idée resta purement spéculative pendant plus de deux millénaires."],

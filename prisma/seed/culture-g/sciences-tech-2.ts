@@ -35,7 +35,7 @@ export const CG_SCIENCES_TECH_2: SeedSkill[] = [
 
   notion("st2-textile-industrie", S, "L'industrie textile",
     "Du fuseau au métier automatique : la première industrie mécanisée.",
-    "Le métier Jacquard a introduit la programmation par cartes perforées avant l'informatique.",
+    "La programmation par cartes perforées est née dans le tissage, bien avant l'informatique.",
     2, [
     ["Quelle machine de 1764 permet de filer plusieurs fils à la fois ?", ["La spinning jenny", "La navette volante", "Le métier Jacquard", "La mule-jenny"], 0,
      "Inventée par James Hargreaves, elle multiplie par huit puis par bien davantage la production d'un fileur."],
