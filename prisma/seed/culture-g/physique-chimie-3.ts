@@ -232,7 +232,7 @@ export const CG_PHYSIQUE_CHIMIE_3: SeedSkill[] = [
     ["Pourquoi un nageur se rase-t-il le corps en compétition ?", ["Pour réduire les frottements avec l'eau", "Pour améliorer la flottabilité", "Par tradition", "Pour mieux ressentir l'eau"], 0,
      "Les gains mesurés sont faibles mais significatifs à haut niveau."],
     ["Qu'est-ce que la traînée hydrodynamique ?", ["La résistance de l'eau au déplacement d'un corps", "Le frottement du corps sur lui-même", "La portance dans l'eau", "La poussée d'Archimède"], 0,
-     "Elle est environ huit cents fois plus forte que celle de l'air à densité comparable."],
+     "L'eau est environ huit cents fois plus dense que l'air : à vitesse égale, la traînée y est sans commune mesure."],
     ["Pourquoi la perche a-t-elle transformé le saut à la perche ?", ["Sa flexibilité permet de stocker et restituer l'énergie", "Elle est plus légère", "Elle est plus longue", "Elle est plus rigide"], 0,
      "Le passage du bambou au métal puis à la fibre de verre a fait bondir les records."],
     ["Qu'est-ce que le moment cinétique en gymnastique ?", ["Une grandeur conservée qui explique l'accélération d'une rotation groupée", "Une force de rotation", "Une énergie de saut", "Une accélération angulaire"], 0,
