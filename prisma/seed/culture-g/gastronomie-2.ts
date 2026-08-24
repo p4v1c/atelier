@@ -16,7 +16,7 @@ export const CG_GASTRONOMIE_2: SeedSkill[] = [
     ["Quel produit américain a longtemps été cultivé en Europe comme plante ornementale ?", ["La tomate", "Le maïs", "Le haricot", "Le tournesol"], 0,
      "On la soupçonnait d'être toxique, en raison de sa parenté avec la belladone."],
     ["Quel produit a été imposé en France par Parmentier au XVIIIe siècle ?", ["La pomme de terre", "Le maïs", "La betterave", "Le topinambour"], 0,
-     "Il en fit garder ostensiblement un champ pour susciter les vols et l'intérêt."],
+     "Il obtient en 1772 que la faculté de médecine déclare le tubercule propre à la consommation, puis multiplie les opérations de prestige. Le champ gardé pour susciter les vols est une légende tardive."],
     ["Quel produit colonial devient une denrée de masse au XIXe siècle ?", ["Le sucre", "Le café seul", "Le cacao", "Le thé"], 0,
      "La betterave sucrière, développée sous Napoléon, permet ensuite une production européenne."],
     ["Qu'est-ce que la disette au sens historique ?", ["Une pénurie alimentaire grave sans mortalité massive", "Une famine généralisée", "Une pénurie de blé locale", "Une hausse des prix alimentaires"], 0,
