@@ -422,8 +422,28 @@ function dedoublonner(groupes: SeedSkill[][]): void {
 
   for (const groupe of groupes) {
     for (const skill of groupe) {
+      /*
+       * DANS UNE MÊME NOTION, deux questions ne peuvent pas avoir la même
+       * bonne réponse. Peu importe que les énoncés diffèrent : « Quel nom
+       * Balzac donne-t-il à son œuvre ? » et « Quel ensemble romanesque Balzac
+       * construit-il à partir de 1830 ? » interrogent le même fait, et une
+       * série tirée dans cette notion peut servir les deux à la suite. Pire,
+       * l'explication de la première nomme alors la réponse de la seconde.
+       *
+       * La règle ne vaut qu'à l'intérieur d'une notion : d'un chapitre à
+       * l'autre, deux questions peuvent légitimement partager une réponse —
+       * « Qui a peint la Joconde ? » en arts et « Qui a conçu l'hélicoptère à
+       * vis ? » en inventions répondent toutes deux Léonard de Vinci.
+       */
+      const reponsesDeLaNotion = new Set<string>();
+
       skill.exercises = skill.exercises.filter((exercice) => {
         const p = exercice.payload as QcmPayload;
+        const sienne = normalizeForDedupe(p.choices[p.answerIndex] ?? "");
+        if (sienne.length >= 12) {
+          if (reponsesDeLaNotion.has(sienne)) return false;
+          reponsesDeLaNotion.add(sienne);
+        }
 
         // Le même énoncé, quelle que soit la réponse. Deux questions
         // identiques aux réponses différentes ne sont pas une nuance : c'est
