@@ -1,7 +1,9 @@
 # Géographie
 
 > ÉTAT : passe 1 TERMINÉE (17 leçons, 3 lots du seed, le cours, fusions.ts, geographie.json).
-> Passe 2 : `geographie.ts` et `geographie-2.ts` relus. Reste à relire : `geographie-3.ts`, `cours/geographie.ts`, `geographie.json`.
+> Passe 2 : `geographie.ts`, `geographie-2.ts`, `geographie-3.ts` relus ; module chargé par `contenuDe` et croisé.
+> Passe 2 : `cours/geographie.ts` relu intégralement.
+> Passe 2 : `geographie.json` relu (58 questions). Reste à relire : les 17 leçons.
 
 ## Ce que j'ai lu
 
@@ -1809,6 +1811,410 @@ ajoute trois notions au décompte. Le total atteint **quatorze notions sur cinqu
 - **Correction proposée** : « Quelle étendue d'eau est la plus salée du monde ? », et
   déplacer la remarque sur le statut de lac dans le corps de l'explication comme
   information et non comme rectification.
+
+
+### [MOYEN] Une même réponse sert trois fois dans la même notion — `geo-france-regions` (passe 2, module chargé)
+
+Le module a été chargé par `contenuDe()`, c'est-à-dire tel que l'apprenant le reçoit :
+fusions appliquées, dédoublonnage passé, propositions déjà mélangées. Les 675 questions de
+Géographie ainsi obtenues ont été croisées deux à deux. Le croisement **confirme** les
+doublons décrits plus haut — ils survivent tous au chargement, aucun n'est retiré par le
+dédoublonnage — et il fait apparaître un défaut que la lecture fichier par fichier ne
+pouvait pas voir : la **répétition de la bonne réponse** à l'intérieur d'une même notion.
+
+- **Où** : `prisma/seed/culture-g/geographie.ts` + `geographie-3.ts`, une fois la fusion
+  `geo3-regions-france → geo-france-regions` appliquée — la notion servie compte alors
+  dix-sept questions.
+- **Texte** : trois questions ont **l'Île-de-France** pour bonne réponse — « Quelle région
+  française est la plus peuplée ? », « Quelle région française a la plus forte densité de
+  population ? », « Quelle région française attire le plus de touristes étrangers ? » — et
+  trois autres ont **la Nouvelle-Aquitaine** — « Quelle région française est la plus vaste
+  en métropole ? », « Quelle région française est issue de la fusion de trois anciennes
+  régions en 2016 ? », « Quelle région française est la première pour la production
+  agricole ? ».
+- **Problème** : six des dix-sept questions de la notion n'ont que deux réponses distinctes.
+  Les trois premières ne sont d'ailleurs pas indépendantes : la région la plus peuplée d'un
+  pays où elle tient sur un territoire minuscule est nécessairement la plus dense, et le
+  cours du seed les énonce dans la même phrase. L'apprenant qui a vu passer la première
+  répond aux deux suivantes sans rien savoir de plus, et la notion lui apprend six fois
+  moins qu'elle n'y paraît. C'est le même mécanisme, appliqué aux réponses, que le biais de
+  longueur déjà mesuré sur les propositions.
+- **Autres cas relevés par le même croisement** (moins graves parce que les notions sont
+  plus courtes) : `cg-geographie-09` où la Volga répond à « Quel fleuve se jette dans la mer
+  Caspienne ? » et à « Quel est le plus long fleuve d'Europe ? », et le Congo à « Quel
+  fleuve traverse deux fois l'équateur ? » et à « Quel fleuve africain a le deuxième débit
+  mondial ? » ; `geo-ressources` où la Russie répond au gaz naturel et au blé.
+- **Correction proposée** : dans `geo-france-regions`, fondre densité et population en une
+  seule question (« Pourquoi l'Île-de-France est-elle à la fois la région la plus peuplée et
+  la plus dense ? »), et transformer la question du tourisme en question à réponse chiffrée
+  (« Quelle part des nuitées étrangères en France l'Île-de-France concentre-t-elle ? »).
+  Plus généralement, ajouter au validateur un contrôle de répartition : aucune réponse ne
+  devrait valoir pour plus de deux questions d'une même notion.
+
+
+### [MOYEN] « Quel État membre de l'Union n'a jamais adopté l'euro par choix ? » : deux réponses défendables, et l'explication le dit (passe 2)
+
+- **Où** : `prisma/seed/culture-g/geographie-3.ts:409` — `geo3-espace-europeen`
+- **Texte** : « Quel État membre de l'Union n'a **jamais adopté l'euro par choix** ? » →
+  « **Le Danemark** », distracteurs « La Suède », « La Pologne », « La Hongrie » ;
+  explication — « Le Danemark bénéficie d'une clause d'exemption ; **la Suède a de facto
+  choisi de ne pas y entrer**. »
+- **Problème** : le critère retenu par l'énoncé est le **choix**, et c'est précisément
+  celui qui désigne la Suède. Juridiquement, le Danemark est le seul à disposer d'une
+  clause d'exemption négociée à Maastricht ; la Suède, elle, est tenue par traité d'adopter
+  l'euro et s'y soustrait volontairement, en refusant d'entrer dans le mécanisme de change
+  et après le référendum de 2003. La bonne réponse est donc celle qui n'a **pas** eu à
+  choisir, et le distracteur celle qui a choisi — l'explication l'écrit noir sur blanc,
+  deux lignes plus bas. L'apprenant attentif est puni.
+- **Correction proposée** : « Quel État membre de l'Union dispose d'une clause d'exemption
+  l'autorisant à ne pas adopter l'euro ? » → « Le Danemark », avec l'explication actuelle,
+  qui devient alors instructive au lieu de contredire l'énoncé.
+
+### [MOYEN] Le croquis et le schéma : deux questions voisines, deux bonnes réponses presque identiques (passe 2)
+
+- **Où** : `prisma/seed/culture-g/geographie-3.ts:376-378` — `geo3-cartes-donnees`, questions
+  6 et 7, consécutives
+- **Textes** : « Qu'est-ce qu'un croquis de géographie ? » → « Une représentation
+  **simplifiée organisant l'espace** autour d'une problématique » ; « Qu'est-ce qu'un
+  schéma en géographie ? » → « Une représentation **très simplifiée de l'organisation d'un
+  espace** ».
+- **Problème** : les deux bonnes réponses sont la même phrase à l'adverbe près. Posées à
+  la suite, elles n'apprennent pas la distinction : elles la rendent illisible. La
+  différence réelle — le croquis conserve le contour du territoire et se construit sur un
+  fond de carte, le schéma abandonne la forme réelle pour ne garder que des figures
+  géométriques — n'est énoncée ni dans les réponses ni dans les explications. Et le
+  distracteur du schéma (« Une carte détaillée ») n'est pas celui qu'il faudrait écarter :
+  c'est le croquis qu'un apprenant confondra avec le schéma.
+- **Correction proposée** : « Qu'est-ce qui distingue un schéma d'un croquis en
+  géographie ? » → « Le croquis se dessine sur le contour réel du territoire, le schéma le
+  remplace par des formes géométriques », et supprimer l'une des deux questions actuelles.
+
+### [MOYEN] Le nombre de médecins, la sous-alimentation : deux chiffres que leur propre explication déclare instables (passe 2)
+
+- **Où** : `prisma/seed/culture-g/geographie-3.ts:390` — `geo3-inegalites-territoriales`, et
+  `geographie-3.ts:268` — `geo3-alimentation-monde`
+- **Textes** : « Quelle part de la population française vit dans une zone sous-dotée en
+  médecins ? » → « Environ un habitant sur dix », explication « **Le chiffre varie fortement
+  selon la définition retenue et la spécialité considérée.** » ; « Combien de personnes
+  souffrent de sous-alimentation dans le monde ? » → « Plusieurs centaines de millions »,
+  distracteurs « Environ dix millions », « Environ deux milliards », « Environ cinquante
+  millions ».
+- **Problème** : deux défauts distincts, tous deux liés à des chiffres non datés.
+  1. La part de population en zone sous-dense **bouge vite** : environ 6 % au zonage de
+     2021, environ 9 % au zonage 2024 de la DREES, davantage encore avec les zonages
+     régionaux les plus récents. « Environ un habitant sur dix » est juste aujourd'hui et
+     le sera faux demain, et l'explication reconnaît que la valeur dépend de la définition
+     — c'est-à-dire qu'elle avoue que la question n'a pas de réponse unique. Il manque une
+     date, qui suffirait à la rendre défendable.
+  2. La question sur la sous-alimentation est la seule du domaine dont la bonne réponse est
+     la **moins précise** des quatre : trois propositions donnent un ordre de grandeur
+     chiffré, la quatrième reste vague. Le biais de longueur mesuré ailleurs joue ici à
+     l'envers, mais il joue : on reconnaît la réponse à sa forme. La valeur visée (environ
+     735 millions de personnes sous-alimentées selon la FAO) permettrait pourtant une
+     question nette.
+- **Correction proposée** : « Quelle part de la population française vivait dans une zone
+  sous-dotée en médecins généralistes selon le zonage de 2024 ? » → « Environ un habitant
+  sur dix » ; et « Combien de personnes souffrent de sous-alimentation dans le monde ? » →
+  « Environ sept cents millions », avec « Environ soixante-dix millions », « Environ deux
+  milliards » et « Environ deux cents millions » pour distracteurs.
+
+### [MOYEN] Quatre `tip` de plus donnent la réponse littérale de leur notion — le lot 3 (passe 2)
+
+Le lot 3 n'avait été passé au crible sous cet angle que pour deux notions
+(`geo3-glaciers-cryosphere` et `geo3-deserts`, constat de passe 1). La relecture complète
+en ajoute quatre, dont deux au mot près.
+
+- **Où** : `prisma/seed/culture-g/geographie-3.ts`
+
+| Notion | `tip` affiché | Question de la même notion |
+|---|---|---|
+| `geo3-departements-france` (l. 35) | « La numérotation des départements suit **l'ordre alphabétique de leur nom d'origine**. » | Q2 « Pourquoi les départements sont-ils numérotés dans cet ordre ? » → « **Par ordre alphabétique de leur nom d'origine** » — la phrase entière |
+| `geo3-arctique-enjeux` (l. 443) | « L'Arctique se réchauffe **environ trois fois plus vite que la moyenne mondiale**. » | Q1 « À quelle vitesse l'Arctique se réchauffe-t-il ? » → « **Environ trois fois plus vite que la moyenne mondiale** » — la phrase entière, **et le chiffre est faux** (voir le constat sur les quatre fois) : l'astuce grave donc l'erreur avant même la question |
+| `geo3-volcanisme` (l. 137) | « Le type d'éruption dépend surtout de **la viscosité du magma**. » | Q1 « De quoi dépend principalement le type d'éruption volcanique ? » → « De **la viscosité du magma** et de sa teneur en gaz » |
+| `geo3-forets` (l. 205) | « La forêt française a **doublé** de surface depuis le milieu du XIXe siècle. » | Q7 « Quelle évolution la forêt française a-t-elle connue depuis 1850 ? » → « Sa surface a environ **doublé** » |
+
+S'y ajoutent deux cas que le rapprochement littéral ne voit pas mais qu'un apprenant voit :
+`geo3-seismes` (tip « **On ne sait pas prédire un séisme**, mais on sait où et à quelle
+fréquence ils surviennent. » contre Q8 « Peut-on prédire un séisme ? » → « **Non**, on peut
+seulement évaluer un aléa probabiliste ») et `geo3-espace-europeen` (tip « L'espace Schengen
+et l'Union européenne **ne recouvrent pas exactement les mêmes pays**. » contre Q5 « Combien
+de pays composent l'espace Schengen ? » → « Vingt-neuf, **dont quelques non-membres de
+l'Union** » : c'est le membre de phrase qui distingue la bonne réponse de « Vingt-sept »).
+
+**Décompte final sur le domaine : vingt notions sur cinquante-trois**, soit un peu plus
+d'une sur trois — la même proportion que celle relevée en gastronomie et en physique-chimie.
+
+- **Correction proposée** : celle déjà donnée, et son automatisation — le validateur de
+  `commun.ts` doit refuser un `tip` dont plus de la moitié des mots signifiants figurent
+  dans une bonne réponse de la notion. Pour `geo3-arctique-enjeux`, corriger d'abord le
+  chiffre, puis remplacer le tip par « Le pôle Nord n'a pas de continent sous la glace :
+  c'est ce qui distingue radicalement l'Arctique de l'Antarctique. »
+
+### [MINEUR] « Quelle pression le tourisme exerce-t-il ? » — la réponse parle d'autre chose (passe 2)
+
+- **Où** : `prisma/seed/culture-g/geographie-3.ts:435` — `geo3-espace-mediterranee`
+- **Texte** : « Quelle pression **le tourisme** exerce-t-il sur la Méditerranée ? » →
+  « **Elle** est la première destination touristique mondiale, avec de fortes pressions
+  locales »
+- **Problème** : la réponse ne répond pas à la question posée — elle énonce un classement
+  au lieu d'une pression — et son pronom « elle » n'a aucun antécédent féminin dans
+  l'énoncé, où le sujet est « le tourisme ». Les trois distracteurs, eux, sont bien des
+  pressions (« Une pression modérée », « Une pression limitée aux îles »…) : la bonne
+  réponse est donc la seule qui ne soit pas de la même nature grammaticale que les autres,
+  et se repère sans rien connaître du sujet.
+- **Correction proposée** : « Quelle pression le tourisme exerce-t-il sur la Méditerranée ? »
+  → « Une pression très forte : c'est la première destination touristique du monde », les
+  distracteurs restant inchangés.
+
+
+### [GRAVE] L'Arctique « trois fois plus vite » : l'erreur est écrite trois fois, dans le `tip`, dans la question et dans le cours (passe 2)
+
+- **Où** : `prisma/seed/culture-g/geographie-3.ts:443` et `:445` (`geo3-arctique-enjeux`), et
+  `prisma/seed/culture-g/cours/geographie.ts:628` — première section du cours de la même
+  notion
+- **Textes** : `tip` — « L'Arctique se réchauffe environ **trois fois** plus vite que la
+  moyenne mondiale. » ; Q1 — « À quelle vitesse l'Arctique se réchauffe-t-il ? » → « Environ
+  **trois fois** plus vite que la moyenne mondiale » ; cours — « L'Arctique se réchauffe
+  environ **trois fois** plus vite que la moyenne mondiale — un phénomène appelé
+  amplification arctique. »
+- **Problème** : la passe 1 avait relevé le chiffre comme périmé (les travaux de 2022 sur la
+  période 1979-2021 donnent près de **quatre fois**, et la leçon 08 du cahier écrit
+  d'ailleurs « quatre fois plus vite »). Ce que la relecture ajoute, c'est **l'ampleur de la
+  reprise** : la même valeur fausse est servie à l'apprenant trois fois, à trois moments
+  différents de la même notion — avant le quiz, pendant le quiz, et dans le cours de
+  révision. Aucune des trois occurrences ne renvoie aux deux autres : corriger l'une
+  laisserait les deux autres enseigner l'erreur. Et le domaine se contredit désormais
+  ouvertement, puisque la leçon 08 dit quatre.
+- **À corriger aussi, dans la même section** : « l'étendue de la banquise d'été a diminué de
+  **moitié** en quelques décennies » — la baisse du minimum de septembre est d'environ
+  quarante pour cent par rapport à la moyenne des années 1980 ; c'est le **volume**, et non
+  l'étendue, qui a chuté de plus de moitié.
+- **Correction proposée** : « environ quatre fois plus vite que la moyenne mondiale » aux
+  trois endroits, avec la précision « sur la période 1979-2021 » au moins dans le cours ; et
+  « l'étendue de la banquise d'été a reculé d'environ quarante pour cent, son volume de plus
+  de moitié ».
+
+### [MOYEN] Le cours dit la différence entre croquis et schéma, les questions la suppriment (passe 2)
+
+- **Où** : `prisma/seed/culture-g/cours/geographie.ts:562` — `geo3-cartes-donnees`, section
+  « Simplifier pour démontrer », contre les questions 6 et 7 de la même notion
+- **Textes** : cours — « Un schéma va plus loin dans l'abstraction : […] il **abandonne les
+  contours réels au profit de formes géométriques**. » ; questions — « Une représentation
+  simplifiée organisant l'espace autour d'une problématique » et « Une représentation **très**
+  simplifiée de l'organisation d'un espace ».
+- **Problème** : le cours possède le critère qui sépare les deux notions — le croquis garde
+  le contour du territoire, le schéma le remplace par des figures. Les deux questions ne le
+  reprennent pas : elles se distinguent par le seul adverbe « très ». C'est le cas de figure
+  exactement inverse de ceux relevés jusqu'ici, où le cours était plus pauvre que la
+  question : ici la question **perd** ce que le cours enseigne, et l'apprenant qui a lu le
+  cours ne peut pas s'en servir pour répondre.
+- **Correction proposée** : remplacer les deux questions par une seule — « Qu'est-ce qui
+  distingue un schéma d'un croquis en géographie ? » → « Le croquis garde le contour réel du
+  territoire, le schéma le remplace par des formes géométriques », avec pour distracteurs
+  « Le croquis est en couleur, le schéma en noir et blanc », « Le croquis est à l'échelle, le
+  schéma non » et « Le croquis porte une légende, le schéma non ».
+
+### [MINEUR] Le volcan d'Armero appelé « peu explosif » deux paragraphes après avoir été rangé parmi les explosifs (passe 2)
+
+- **Où** : `prisma/seed/culture-g/cours/geographie.ts:446` — `geo3-volcanisme`, section « Les
+  formes et les dangers », contre la section précédente du même cours
+- **Textes** : section 1 — « Un volcan explosif, à magma visqueux, produit des nuées ardentes
+  et des panaches de cendres […] Les Antilles et l'Indonésie [en relèvent] » et, dans la
+  question 3, « Ils se situent principalement en **zone de subduction** » ; section 2 —
+  « C'est un lahar qui a fait plus de vingt mille morts à Armero, en Colombie, en 1985, à
+  cinquante kilomètres d'un volcan **pourtant peu explosif**. »
+- **Problème** : le Nevado del Ruiz est un stratovolcan andésitique de la zone de subduction
+  andine, c'est-à-dire le type même du volcan explosif selon la classification que le cours
+  vient d'établir. Ce qui était modeste, c'est **l'éruption** de novembre 1985 (indice
+  d'explosivité 3), pas le volcan. En l'état, la phrase apprend à l'apprenant que les Andes
+  seraient effusives, ce que la question 3 de la même notion contredit.
+- **Correction proposée** : « … à cinquante kilomètres d'un volcan dont l'éruption, ce
+  jour-là, fut pourtant modeste : c'est la fonte du glacier sommital, et non la puissance de
+  l'explosion, qui a fait la catastrophe. »
+
+### [MINEUR] « Un rapport de plusieurs unités » (passe 2)
+
+- **Où** : `prisma/seed/culture-g/cours/geographie.ts:613` — `geo3-espace-mediterranee`,
+  section « Deux rives »
+- **Texte** : « Quatorze kilomètres séparent l'Espagne du Maroc, et **un rapport de plusieurs
+  unités** sépare leurs PIB par habitant. »
+- **Problème** : la formule ne veut rien dire — un rapport n'a pas d'unités, et « plusieurs »
+  n'en donne pas l'ordre de grandeur. L'explication de la question correspondante est
+  d'ailleurs plus précise (« de un à dix entre les deux rives »), ce qui rend l'imprécision
+  du cours d'autant moins justifiable. Le rapport réel entre l'Espagne et le Maroc est
+  d'environ huit.
+- **Correction proposée** : « … et un rapport d'environ un à huit sépare leurs PIB par
+  habitant. »
+
+
+### [GRAVE] Le cours de `geo2-montagnes-monde` se contredit dans la même section, deux phrases plus loin (passe 2)
+
+- **Où** : `prisma/seed/culture-g/cours/geographie.ts:164-167` — section « Des collisions en
+  cours »
+- **Texte** : « Les plus hautes chaînes du monde sont **toutes** le résultat de **collisions**
+  de plaques encore actives : elles continuent de s'élever […] » puis, au paragraphe suivant :
+  « **Les Andes** longent toute la côte ouest de l'Amérique du Sud et **résultent d'une
+  subduction** : la plaque océanique plonge sous le continent […] »
+- **Problème** : la passe 2 avait déjà relevé que le `tip` de la notion énonce cette fausseté.
+  La relecture du cours montre que le `tip` **n'est pas une maladresse isolée** : il recopie
+  la phrase d'attaque du cours, laquelle se dément deux phrases plus bas, dans la même
+  section et sous un titre (« Des collisions en cours ») qui prend parti pour la version
+  fausse. L'apprenant lit donc successivement une règle absolue et son contre-exemple, sans
+  qu'un mot signale la contradiction. Les Rocheuses, la Sierra Nevada et l'ensemble de la
+  ceinture andine relèvent de la subduction, et la leçon 10 du cahier en fait sa question de
+  quiz centrale.
+- **Correction proposée** : retitrer la section « Deux façons de fabriquer une montagne » et
+  écrire : « Les plus hautes chaînes du monde naissent de deux mécanismes distincts, tous deux
+  encore actifs : la collision de deux masses continentales, comme l'Himalaya, et la
+  subduction d'une plaque océanique sous un continent, comme les Andes. »
+
+### [MOYEN] La Turquie donnée « en tête » des pays d'accueil de réfugiés — ce n'est plus le cas (passe 2)
+
+- **Où** : `prisma/seed/culture-g/cours/geographie.ts:113` — `geo-population`, section « Les
+  migrations, sans idées reçues »
+- **Texte** : « les pays qui accueillent le plus de réfugiés ne sont pas les plus riches mais
+  les voisins des zones de crise : **la Turquie figure depuis plusieurs années en tête**,
+  devant l'Iran, la Colombie ou le Pakistan. »
+- **Problème** : la phrase est datée sans le dire. Elle décrit exactement la décennie
+  2014-2023. Dans les tableaux les plus récents du HCR, la Turquie n'est plus première : la
+  Colombie et l'Allemagne la précèdent, l'Iran est passé derrière elle, et le Pakistan a
+  fortement reculé. Or l'argument que le cours veut faire passer — « pas les plus riches mais
+  les voisins des zones de crise » — est précisément celui que le nouveau classement
+  contredit en partie, puisque l'Allemagne y figure au deuxième rang. Le fait choisi pour
+  illustrer la thèse est devenu celui qui la nuance, et rien n'avertit l'apprenant.
+- **Correction proposée** : « les pays qui accueillent le plus de réfugiés ne sont pas
+  seulement les plus riches : Turquie, Iran, Ouganda, Tchad et Pakistan figurent depuis des
+  années parmi les premiers, aux côtés de la Colombie et de l'Allemagne. » — une formulation
+  qui ne dépend d'aucun rang et n'a donc pas de date de péremption.
+
+### [MINEUR] Les sommets de l'Oural « dépassent à peine mille neuf cents mètres » — aucun ne les atteint (passe 2)
+
+- **Où** : `prisma/seed/culture-g/cours/geographie.ts:174` — `geo2-montagnes-monde`, section
+  « Les massifs anciens »
+- **Texte** : « L'Oural […] est une chaîne ancienne, formée il y a près de trois cents
+  millions d'années et depuis longtemps érodée : **ses sommets dépassent à peine mille neuf
+  cents mètres**. »
+- **Problème** : le point culminant de l'Oural, le mont Narodnaïa, s'élève à **1 895 mètres**.
+  Aucun sommet de la chaîne n'atteint 1 900 mètres, et donc aucun ne les « dépasse ». La
+  démonstration du cours — un massif ancien rabote ses altitudes — n'a pas besoin d'être
+  fausse pour convaincre.
+- **Correction proposée** : « ses sommets n'atteignent pas mille neuf cents mètres — le mont
+  Narodnaïa, le plus haut, culmine à 1 895 mètres. »
+
+
+### [GRAVE] Le conflit du Sahara occidental donné pour « gelé depuis 1991 » — le cessez-le-feu est rompu depuis 2020 (passe 2)
+
+- **Où** : `prisma/seed/culture-g/cours/geographie.ts:235` — `geo2-frontieres-conflits`,
+  section « Les grands contentieux »
+- **Texte** : « Le Sahara occidental est administré par le Maroc et revendiqué par un
+  mouvement indépendantiste, dans un **conflit gelé depuis un cessez-le-feu de 1991**. »
+- **Problème** : le cessez-le-feu signé le 6 septembre 1991 a été déclaré rompu par le Front
+  Polisario le 14 novembre 2020, après l'intervention marocaine de Guerguerat ; les
+  affrontements de faible intensité n'ont pas cessé depuis. Ce n'est pas une nuance
+  d'actualité : la phrase enseigne qu'il ne s'y passe rien, ce qui est le contraire du cas.
+  C'est aussi le seul énoncé du domaine qui décrit un conflit armé en cours au présent de
+  l'indicatif comme éteint — les autres contentieux de la même section (Cachemire, Taïwan,
+  mer de Chine) sont, eux, correctement présentés comme ouverts.
+- **Correction proposée** : « Le Sahara occidental est administré par le Maroc et revendiqué
+  par le Front Polisario. Le cessez-le-feu conclu en 1991 sous l'égide de l'ONU a tenu
+  jusqu'en 2020 ; il a été dénoncé depuis, et les affrontements ont repris à basse
+  intensité. »
+
+### [MOYEN] La « banane bleue » : un cours l'enseigne comme une structure, l'autre comme une erreur de méthode (passe 2)
+
+- **Où** : `prisma/seed/culture-g/cours/geographie.ts:281` (`geo2-europe-geographie`) contre
+  `:608` (`geo3-espace-europeen`)
+- **Textes** : lot 2 — « La dorsale européenne désigne un axe fortement urbanisé et
+  industrialisé courant de Londres à Milan […] Longtemps appelée banane bleue, cette
+  concentration de population, de richesse et d'activité **structure l'économie du continent
+  et explique la géographie des grands réseaux de transport**. » ; lot 3 — « Les géographes en
+  **critiquent aujourd'hui l'usage** : la formule **simplifie à l'excès** une réalité bien plus
+  fragmentée, agrège des régions très inégales, ignore la montée des métropoles scandinaves,
+  espagnoles et d'Europe centrale, et gomme les zones en difficulté situées à l'intérieur même
+  du corridor. »
+- **Problème** : la passe 1 avait noté que l'**explication** d'une question du lot 2 donne la
+  réponse d'une question du lot 3. Le désaccord est en réalité plus profond, et il est entre
+  les deux **cours** : le premier présente la notion sans la moindre réserve et lui attribue
+  une valeur explicative, le second en fait un cas d'école de mauvaise image géographique.
+  L'apprenant qui suit les chapitres dans l'ordre du catalogue apprend d'abord la thèse, puis
+  qu'il ne fallait pas y croire — sans qu'aucun des deux textes ne renvoie à l'autre.
+  Le lot 3 a raison ; c'est le lot 2 qu'il faut réviser.
+- **Correction proposée** : au lot 2, « La dorsale européenne, longtemps appelée banane bleue,
+  désigne un axe urbanisé courant de Londres à Milan. L'image reste commode pour situer les
+  grands réseaux de transport, mais les géographes la jugent aujourd'hui trop grossière : elle
+  agrège des régions très inégales et ignore la montée d'autres métropoles européennes. »
+
+### [MINEUR] Trois inexactitudes de détail dans les cours du lot 2 (passe 2)
+
+- **Où** : `prisma/seed/culture-g/cours/geographie.ts`
+- **Textes et problèmes** :
+  1. **`geo2-relief-france`, l. 343** — « Ses crêtes parallèles et ses **combles** internes lui
+     donnent une géométrie presque dessinée. » Le relief jurassien alterne des **monts** et des
+     **combes** : une combe est un val évidé au sommet d'un anticlinal. « Combles » est un mot
+     de charpente, et la faute passe inaperçue parce qu'elle produit une phrase grammaticalement
+     correcte. Lire « ses combes internes ».
+  2. **`geo2-ameriques-geographie`, l. 316** — « le détroit de Magellan […] longtemps **unique
+     passage maritime** avant le canal de Panama ». Il ne l'a jamais été : le cap Horn et le
+     passage de Drake ont toujours offert une route, plus dure mais praticable — et le cours de
+     `geo-detroits` la décrit lui-même (« le passage de Drake […] le plus redouté des marins »).
+     Lire « longtemps le seul passage abrité avant le canal de Panama ».
+  3. **`geo2-relief-france`, l. 331** — « Les chaînes récentes — Alpes et Pyrénées — sont nées de
+     la collision entre **l'Afrique et l'Europe** au Tertiaire ». Cela vaut pour les Alpes ; les
+     Pyrénées résultent du rapprochement de la **plaque ibérique** et de la plaque européenne,
+     et leur soulèvement principal est antérieur, du Crétacé supérieur à l'Éocène. Lire « nées du
+     rapprochement de l'Afrique et de l'Ibérie avec l'Europe, entre la fin du Secondaire et le
+     Tertiaire ».
+
+
+### [MOYEN] Rectification d'un constat de passe 1 : le « 430 km » des Pyrénées vient du cahier hérité lui-même (passe 2)
+
+- **Où** : `heritage/culture-g/data/geographie.json` — **Q8** et **Q12**, à quatre questions
+  d'écart
+- **Textes** : Q8 — « Les Pyrénées forment une barrière naturelle d'**environ 430 km** entre
+  la France et l'Espagne, **de l'océan Atlantique à la mer Méditerranée**. » ; Q12 — « Elle
+  dépasse celles avec l'**Espagne (environ 620 km)** et la Belgique. »
+- **Problème** : la passe 1 concluait que « le chiffre juste est dans le dépôt, à deux
+  fichiers de là » et imputait au seed la confusion entre la longueur de la chaîne (≈ 430 km)
+  et celle de la frontière (≈ 623 km). **La relecture montre que le cahier hérité porte les
+  deux valeurs, et qu'il porte aussi la confusion** : Q8 attribue les 430 kilomètres à ce qui
+  sépare « la France et l'Espagne, de l'océan Atlantique à la mer Méditerranée » — c'est-à-dire
+  exactement le tracé de la frontière, qui est sinueux et mesure 623 kilomètres. Le seed n'a
+  donc pas inventé l'erreur : il l'a recopiée. Corriger le seed sans corriger Q8 laisserait
+  l'apprenant devant les deux chiffres, dans le même fichier, sans explication.
+- **Correction proposée** : Q8 — « Les Pyrénées s'étirent sur environ 430 kilomètres d'ouest
+  en est ; la frontière franco-espagnole, qui en suit les crêtes en serpentant, mesure quant à
+  elle environ 623 kilomètres. » Et la même distinction partout où l'un des deux chiffres
+  apparaît.
+
+### [MOYEN] Le cahier hérité donne au Nil « une dizaine de pays » et fait des dix pays du Danube un record mondial (passe 2)
+
+- **Où** : `heritage/culture-g/data/geographie.json` — **Q29** contre **Q51**
+- **Textes** : Q29 — « Il [le Nil] **traverse ou borde une dizaine de pays**, dont le Soudan et
+  l'Égypte. » ; Q51 — « Le Danube **traverse ou borde dix pays, un record mondial** :
+  l'Allemagne, l'Autriche, la Slovaquie, la Hongrie, la Croatie, la Serbie, la Bulgarie, la
+  Roumanie, la Moldavie et l'Ukraine. »
+- **Problème** : les deux explications emploient la **même formule** — « traverse ou borde » —
+  et lui donnent la même valeur, dix. La seconde en fait un record mondial que la première a
+  déjà égalé quatre-vingts lignes plus haut. L'apprenant qui a lu les deux ne peut plus
+  répondre à Q51 : il tient deux fleuves à dix pays et une seule case à cocher. L'erreur est
+  dans Q29 : le **cours** du Nil traverse ou borde l'Ouganda, le Soudan du Sud, le Soudan et
+  l'Égypte ; c'est son **bassin versant** qui s'étend sur onze pays. Confondre les deux est
+  précisément ce que Q51 ne fait pas, en énumérant les dix pays traversés.
+- **Correction proposée** : Q29 — « Son bassin versant s'étend sur onze pays ; le fleuve
+  lui-même traverse ou borde l'Ouganda, le Soudan du Sud, le Soudan et l'Égypte. »
+
+### [MINEUR] Le marnage du Mont-Saint-Michel : treize mètres dans le cahier, plus de quatorze dans le seed (passe 2)
+
+- **Où** : `heritage/culture-g/data/geographie.json` — Q20, contre
+  `prisma/seed/culture-g/cours/geographie.ts:178` (`geo2-oceans-mers`)
+- **Textes** : cahier — « Sa baie connaît parmi les plus grandes marées d'Europe continentale,
+  avec un marnage pouvant **dépasser 13 mètres**. » ; seed — « **plus de quatorze mètres** dans
+  la baie du Mont-Saint-Michel ».
+- **Problème** : un mètre d'écart sur un chiffre présenté deux fois comme un fait, dans deux
+  corpus qu'aucun contrôle ne confronte. La valeur usuellement retenue pour les plus grandes
+  vives-eaux y est de quatorze à quinze mètres ; c'est le cahier qui est en retrait.
+- **Correction proposée** : retenir « jusqu'à environ quatorze mètres en vives-eaux » aux deux
+  endroits.
 
 
 ## Ce que la seconde passe a ajouté

@@ -1,9 +1,13 @@
 # Histoire de France
 
-> ÉTAT : reprise. Passe 1 : les 4 fichiers de questions, `fusions.ts`, `cours/histoire-france.ts`,
-> `heritage/.../histoire-france.json` — faits. En cours : les 17 leçons héritées
-> (`heritage/culture-g/data/lecons/histoire-france/NN.json`), lue(s) : 01 à 16.
-> Reste : leçon 17, puis passe 2 intégrale.
+> ÉTAT : passe 1 **terminée** (4 fichiers de questions, `fusions.ts`, `cours/histoire-france.ts`,
+> le cahier d'origine et les 17 leçons héritées). Passe 2 : contrôles transversaux (astuces,
+> fusions, dates absentes) faits, relectures de `histoire-france.ts` et `histoire-france-2.ts`
+> faites, relectures de `histoire-france-3.ts` et `histoire-france-4.ts` faites, croisement
+> du module chargé (`contenuDe`) fait. En cours : `cours/histoire-france.ts` (lu jusqu'à
+> `hf4-carolingiens`, l. 250 sur 1420).
+> Reste : la fin du fichier de cours, le cahier d'origine et les leçons héritées,
+> et la revérification de mes propres corrections de passe 1.
 
 ## Ce que j'ai lu
 
@@ -1385,3 +1389,442 @@ les taxis de la Marne présentés sans légende, le CNR rue du Four en mai 1943,
 départements de 1790, les dix-sept articles de la Déclaration, les sept prisonniers de la Bastille,
 Clemenceau à soixante-seize ans, le calendrier républicain abandonné en 1806, le monopole
 d'émission de la Banque de France en 1803 — tout se vérifie.*
+
+## Passe 2 — relecture de `prisma/seed/culture-g/histoire-france-3.ts` (20 notions, 189 questions)
+
+### [GRAVE] Deux astuces de plus donnent la réponse — dont la plus flagrante du domaine
+
+Après la neuvième relevée sur `histoire-france-2.ts`, la relecture du lot 3 en ajoute deux, ce
+qui porte le total à **onze notions sur soixante-quinze**.
+
+| Où | L'astuce | La question, et sa bonne réponse |
+|---|---|---|
+| `histoire-france-3.ts:340` / `:343` — `hf3-france-monde` | « La France dispose du **troisième réseau diplomatique mondial**. » | « Quel rang la France occupe-t-elle par la taille de son **réseau diplomatique** ? » → « **Troisième mondial** » |
+| `histoire-france-3.ts:269` / `:272` — `hf3-justice-france-histoire` | « **La torture judiciaire** a été abolie en France en 1788, un an avant la Révolution. » | « Qu'est-ce que **la question** judiciaire sous l'Ancien Régime ? » → « **La torture** employée pour obtenir des aveux » |
+
+- **Problème** : dans les deux cas la question visée est la **première** de la notion, trois
+  lignes sous l'astuce. Celle de `hf3-france-monde` est la plus franche de tout le domaine :
+  l'astuce et l'énoncé emploient les mêmes mots (« réseau diplomatique », « troisième »,
+  « mondial »), et il n'y a rien d'autre à savoir. Celle de `hf3-justice-france-histoire` est
+  d'un genre plus subtil et plus dommageable : la question repose entièrement sur le fait que
+  l'apprenant ignore que « la question » désigne la torture — or l'astuce vient d'écrire
+  « la torture judiciaire » à propos de la même abolition de 1788. Le seul obstacle
+  lexical de la question est levé avant qu'elle soit posée.
+- **Correction proposée** : pour `hf3-france-monde` — « La diplomatie française tient d'abord à
+  son maillage : compte le nombre de pays où la France est représentée, et demande-toi ce que ce
+  réseau sert. » Pour `hf3-justice-france-histoire` — « Entre le bourreau et le juge des libertés,
+  quatre siècles : suis le déplacement du but de la peine, de l'aveu vers la réinsertion. »
+
+### [MOYEN] L'astuce de l'agriculture compare deux grandeurs qui ne se comparent pas — et contredit sa propre notion
+
+- **Où** : `prisma/seed/culture-g/histoire-france-3.ts:174` — `cg-neuf-hf3-agriculture-france`
+- **Texte** : astuce — « La France comptait plus de **six millions d'agriculteurs** en 1950 ;
+  ils sont **moins de quatre cent mille** aujourd'hui. » ; explication de la première question de
+  la même notion — « Contre **moins de deux pour cent** [de la population active] aujourd'hui. »
+- **Problème** : les deux chiffres de l'astuce ne mesurent pas la même chose. Les « six millions »
+  de 1950 sont la population **active agricole** au sens large (chefs d'exploitation, conjoints,
+  aides familiaux) ; les « quatre cent mille » d'aujourd'hui sont les seuls **chefs
+  d'exploitation** à titre principal (400 000 environ en 2019, soit 1,5 % de l'emploi total,
+  pour environ 390 000 exploitations au recensement de 2020). L'effectif comparable à celui de
+  1950 est d'environ **750 000 actifs agricoles permanents**. L'astuce affiche donc une division
+  par quinze là où le rapport réel est d'environ un à huit. Et elle se contredit dans la même
+  notion : « moins de deux pour cent » d'une population active de près de trente millions,
+  c'est de l'ordre de cinq à six cent mille personnes, pas « moins de quatre cent mille ».
+- **Correction proposée** : « La France comptait environ six millions d'actifs agricoles en 1950 ;
+  ils sont aujourd'hui moins de huit cent mille, dont quelque quatre cent mille chefs
+  d'exploitation. »
+
+### [MOYEN] « Une femme de lettres qui tient un salon influent au XVIIIe siècle » : trois réponses sur quatre sont vraies
+
+- **Où** : `prisma/seed/culture-g/histoire-france-3.ts:363` — `cg-neuf-hf3-personnages-france`
+- **Texte** : « Quelle femme de lettres tient un salon influent au XVIIIe siècle ? » → « Madame
+  Geoffrin » ; distracteurs « Madame de Sévigné », « **Madame de Staël seule** », « **Madame
+  Roland** ».
+- **Problème** : Germaine de Staël ouvre son salon de la rue du Bac en 1786 et il compte parmi
+  les plus influents de la fin du siècle ; Manon Roland tient de 1791 à 1793 le salon d'où sort
+  la Gironde. Toutes deux sont des femmes de lettres du XVIIIe siècle tenant un salon influent :
+  l'énoncé admet trois réponses. Le seul obstacle est le mot « seule » accolé à Madame de Staël,
+  qui ne veut rien dire ici et qui sert visiblement à disqualifier un distracteur devenu vrai —
+  c'est le même procédé que celui déjà relevé pour l'amphithéâtre de Provence. Madame de Sévigné,
+  morte en 1696, est le seul distracteur qui fonctionne.
+- **Correction proposée** : dater l'énoncé sur la période où Madame Geoffrin est seule à
+  répondre — « Quelle femme de lettres tient, rue Saint-Honoré, le salon des encyclopédistes et
+  des artistes dans les années 1750 et 1760 ? » — et remplacer les deux distracteurs vrais par
+  « Madame de Sévigné » et « Madame de La Fayette ».
+
+### [MINEUR] « Chaque grande catastrophe française a produit une réforme de la prévention »
+
+- **Où** : `prisma/seed/culture-g/histoire-france-3.ts:466` — `cg-neuf-hf3-catastrophes-france`
+- **Problème** : « chaque » est une généralisation présentée comme un fait, dans l'astuce d'une
+  notion dont les dix questions ne l'établissent pas — la marée noire de l'*Amoco Cadiz* et
+  l'incendie de Notre-Dame n'y sont suivis d'aucune réforme de prévention. La leçon à retenir
+  est vraie en tendance, fausse comme règle.
+- **Correction proposée** : « La plupart des grandes catastrophes françaises ont été suivies
+  d'une réforme de la prévention : cherche laquelle à chaque fois. »
+
+*Le reste du lot 3 résiste à la seconde lecture. J'ai revérifié un à un les chiffres et les
+dates que la passe 1 n'avait pas contrôlés : Courrières 1906 (1 099 morts), le procédé Thomas
+de 1878, la fin de l'exploitation du bassin du Nord en 1990, la journée de huit heures en 1919,
+les douze jours ouvrables de 1936 puis 1956, 1969 et 1982, le certificat d'études de 1866 supprimé
+en 1989, la loi Camille Sée de 1880, la réforme Berthoin de 1959 applicable en 1967, l'Hôpital
+général de 1656, le BCG de 1921, la canicule de 2003 (environ 15 000 décès en excès), la Retirada
+(450 000 personnes), la Marche de 1983, le premier hypermarché de 1963 à Sainte-Geneviève-des-Bois,
+les neuf millions de Minitel, les trente-neuf heures de 1982, le compromis de Luxembourg de 1966,
+les européennes de 1979, le CNRS de 1939, le CEA de 1945, l'INSERM de 1964 issu de l'institut
+d'hygiène de 1941, l'INRAE de 2020, Galois mort à vingt ans en 1832, Bourbaki en 1935, le retrait
+de l'OTAN en 1966 et le retour en 2009, le premier essai nucléaire de 1960, les 75 langues du
+rapport de 1999, Malpasset (423 morts), Lothar et Martin (environ 90 morts), AZF (31 morts),
+Xynthia en 2010, le régime cat-nat de 1982 — tout se vérifie.*
+
+## Passe 2 — relecture de `prisma/seed/culture-g/histoire-france-4.ts` (23 notions, 224 questions)
+
+### [GRAVE] « La nef gothique la plus haute de France » : la bonne réponse n'a pas de nef, et la vraie réponse est un distracteur
+
+- **Où** : `prisma/seed/culture-g/histoire-france-4.ts:186` — `cg-neuf-hf4-cathedrales`
+- **Texte** : « Quelle cathédrale possède la **nef** gothique la plus haute de France ? » →
+  « **Beauvais**, dont le **chœur** culmine à plus de quarante-huit mètres » ; distracteurs
+  « **Amiens** », « Reims », « Chartres ». Explication : « Son ambition a provoqué plusieurs
+  effondrements. »
+- **Problème** : la cathédrale Saint-Pierre de Beauvais **n'a jamais eu de nef gothique**. Seuls
+  le chœur (voûte à 48,50 m, la plus haute jamais bâtie) et le transept ont été construits ; la
+  nef n'a jamais été entreprise, et c'est la nef carolingienne de la Basse Œuvre qui occupe
+  toujours l'emplacement. La bonne réponse contredit donc l'énoncé dans sa propre formulation :
+  elle répond « chœur » à une question qui demande « nef ». Et la cathédrale qui possède
+  réellement la plus haute nef gothique de France est **Amiens** (42,30 m sous voûte) — c'est-à-dire
+  le premier distracteur. L'apprenant qui connaît le sujet coche Amiens et est compté faux ;
+  celui qui apprend la réponse retient une chose fausse.
+- **Correction proposée** : « Quelle cathédrale possède la plus haute **voûte** gothique de
+  France ? » → « Beauvais, dont le chœur culmine à 48,50 mètres », en gardant les mêmes
+  distracteurs ; ou, si l'on tient à la nef : « Quelle cathédrale possède la plus haute nef
+  gothique de France ? » → « Amiens, avec 42,30 mètres sous voûte », explication « Beauvais a
+  bâti plus haut encore — 48,50 mètres — mais seulement son chœur : sa nef n'a jamais été
+  construite. »
+
+### [GRAVE] « Le droit de grève avait été reconnu en 1864 » — faux, et le lot 3 dit le contraire
+
+- **Où** : `prisma/seed/culture-g/histoire-france-4.ts:504` — `cg-neuf-hf4-troisieme-republique`
+- **Texte** : explication de la question sur la loi de 1884 — « Le **droit de grève** avait été
+  **reconnu en 1864**. »
+- **Problème** : la loi Ollivier du 25 mai 1864 **supprime le délit de coalition** : elle
+  dépénalise la grève, elle ne la reconnaît pas comme un droit. La grève reste un motif légitime
+  de licenciement et de rupture du contrat jusqu'au XXe siècle ; le **droit** de grève n'est
+  consacré qu'en 1946, par le préambule de la Constitution du 27 octobre (« le droit de grève
+  s'exerce dans le cadre des lois qui le réglementent »). Le domaine se contredit d'ailleurs
+  lui-même, et c'est le lot 4 qui a tort : `histoire-france-3.ts` (`hf3-mouvement-ouvrier`)
+  écrit exactement la bonne formule à propos de la même loi — « La grève cesse d'être une
+  infraction pénale, **sans être encore reconnue comme un droit**. » Un apprenant qui suit les
+  deux chapitres reçoit deux versions incompatibles du même fait.
+- **Correction proposée** : « La loi Ollivier de 1864 avait dépénalisé la grève ; le droit de
+  grève lui-même n'est reconnu qu'en 1946, par le préambule de la Constitution. »
+
+### [MOYEN] Cinq énoncés dont le mot interrogatif ne correspond à aucune de leurs réponses
+
+C'est un défaut de fabrication que la passe 1 n'avait pas isolé, et qui se concentre sur le lot 4 :
+l'énoncé demande *qui*, *contre qui*, *comment* ou *que permet*, et les quatre propositions sont
+toutes des définitions nominales. Aucune ne répond grammaticalement à la question posée.
+
+| Où | L'énoncé | La bonne réponse |
+|---|---|---|
+| `histoire-france-4.ts:406` — `hf4-napoleon` | « **Contre qui** le Blocus continental était-il dirigé ? » | « Une fermeture du continent au commerce britannique » |
+| `histoire-france-4.ts:427` — `hf4-restauration` | « **Qui** pouvait voter sous un régime de suffrage censitaire ? » | « Un droit de vote réservé aux plus imposés » |
+| `histoire-france-4.ts:288` — `hf4-richelieu-mazarin` | « **Comment** la monarchie tirait-elle parti de la vénalité des offices ? » | « La vente de charges publiques par la monarchie » |
+| `histoire-france-4.ts:583` — `hf4-cinquieme-republique` | « **Que permet** une question prioritaire de constitutionnalité ? » | « Un mécanisme permettant de contester une loi en vigueur… » |
+| `histoire-france-4.ts:571` — `hf4-quatrieme-republique` | « **À quoi** le plan Marshall était-il destiné ? » | « Une aide américaine à la reconstruction européenne » |
+
+- **Problème** : ce n'est pas seulement inélégant. « Contre qui » et « Qui » attendent un nom :
+  l'apprenant cherche « le Royaume-Uni » et « les plus imposés », et ne les trouve pas comme tels ;
+  il doit deviner que l'énoncé signifiait en réalité « Qu'est-ce que… ». La question sur la
+  vénalité est la plus abîmée : elle demande *comment la monarchie en tirait parti* — la réponse
+  attendue serait « en vendant des charges pour encaisser immédiatement, au prix d'officiers
+  inamovibles », ce que dit précisément l'explication — et elle propose en guise de réponse une
+  simple définition qui n'explique rien.
+- **Correction proposée** : réaligner chaque énoncé sur ses propositions, ou l'inverse. « Quel
+  pays le Blocus continental visait-il ? » → « Le Royaume-Uni » ; « Qui avait le droit de vote
+  sous le suffrage censitaire ? » → « Les seuls citoyens payant un montant d'impôt minimal » ;
+  « Qu'est-ce que la vénalité des offices ? » → « La vente par la monarchie de charges publiques,
+  transmissibles par hérédité » ; « Qu'est-ce qu'une question prioritaire de constitutionnalité ? » ;
+  « Qu'est-ce que le plan Marshall ? ».
+
+### [MOYEN] La vénalité des offices définie deux fois, dans deux notions que rien ne réunit
+
+- **Où** : `prisma/seed/culture-g/histoire-france-3.ts:30` — `cg-neuf-hf3-societe-ancien-regime`
+  et `prisma/seed/culture-g/histoire-france-4.ts:288` — `cg-neuf-hf4-richelieu-mazarin`
+- **Texte** : « Qu'est-ce que la vénalité des offices ? » → « L'achat de charges publiques,
+  transmissibles par hérédité », explication « Elle procurait des revenus immédiats à la monarchie
+  au prix d'une administration difficile à réformer. » / « Comment la monarchie tirait-elle parti
+  de la vénalité des offices ? » → « La vente de charges publiques par la monarchie », explication
+  « Rentable à court terme, elle a créé un corps d'officiers difficile à contrôler. »
+- **Problème** : même notion enseignée, même réponse au verbe près (acheter / vendre), et deux
+  explications qui disent la même chose dans le même ordre (rentable tout de suite, ingouvernable
+  ensuite). Ni `FUSIONS` ni `FUSIONS_INTERNES` ne rapprochent ces deux notions : le doublon
+  s'ajoute à la liste de la passe 1, où il manquait.
+- **Correction proposée** : supprimer la question de `hf4-richelieu-mazarin`, dont l'énoncé est
+  par ailleurs mal construit (voir ci-dessus), et la remplacer par une question sur la
+  **paulette** de 1604, qui rend les offices héréditaires et que rien ne teste dans le domaine.
+
+### [MINEUR] Le lot 4 confirme que la question sur les salons du lot 3 a plusieurs réponses
+
+- **Où** : `prisma/seed/culture-g/histoire-france-4.ts:331` — `cg-neuf-hf4-lumieres-france`
+- **Texte** : « Ceux de **Mme Geoffrin** ou de **Mme du Deffand** furent particulièrement
+  influents. »
+- **Problème** : le domaine sait donc parfaitement, dans un autre fichier, que plusieurs femmes
+  tenaient des salons influents au XVIIIe siècle — et il en nomme une, Mme du Deffand, qui ne
+  figure même pas parmi les propositions de la question de `hf3-personnages-france` (« Quelle
+  femme de lettres tient un salon influent au XVIIIe siècle ? »). Cela confirme, de l'intérieur
+  du corpus, que cette question ne peut pas admettre une réponse unique en l'état.
+- **Correction proposée** : voir le constat correspondant sur `hf3-personnages-france` — dater
+  l'énoncé et changer les distracteurs.
+
+### [MINEUR] « Le dernier carolingien, Louis V »
+
+- **Où** : `prisma/seed/culture-g/histoire-france-4.ts:118` — `cg-neuf-hf4-carolingiens`
+- **Texte** : « Le **dernier carolingien**, Louis V, meurt sans héritier direct. »
+- **Problème** : Louis V est le dernier roi carolingien, non le dernier Carolingien. Son oncle
+  Charles, duc de Basse-Lotharingie, lui survit, revendique la couronne contre Hugues Capet, est
+  capturé en 991 et meurt en 992 ; sa descendance se prolonge encore. La formule efface
+  précisément ce qui rend l'élection de 987 remarquable — il y avait un héritier carolingien
+  disponible, et les grands ont choisi quelqu'un d'autre.
+- **Correction proposée** : « Louis V, dernier roi carolingien, meurt sans enfant ; les grands
+  écartent son oncle Charles de Basse-Lotharingie et élisent Hugues Capet. »
+
+*Le reste du lot 4 tient à la seconde lecture, et j'ai revérifié les faits que la passe 1 n'avait
+pas contrôlés un à un : Vouillé 507, la loi salique réinterprétée au XIVe siècle, la déposition
+de 751, Anagni 1303, l'arrestation des templiers en 1307, Suger et Saint-Denis, Notre-Dame de
+1163 au milieu du XIVe siècle, Édouard III petit-fils de Philippe le Bel par sa mère, Crécy 1346,
+Poitiers 1356, Troyes 1420, le sacre de 1429, Castillon 1453, Marignan 1515, Pavie 1525,
+Villers-Cotterêts 1539, le Collège royal de 1530, Budé bibliothécaire du roi, la Pléiade et le
+manifeste de 1549, la Saint-Barthélemy d'août 1572, la journée des Barricades de 1588,
+l'abjuration de 1593 et le sacre de Chartres en 1594, Ravaillac rue de la Ferronnerie en 1610,
+l'Académie française de 1635, La Rochelle 1628, les Pyrénées 1659, le règne personnel de 1661,
+Versailles 1682, les douze sites Vauban au patrimoine mondial, la Succession d'Espagne 1701-1714,
+Le Nôtre, l'Encyclopédie 1751-1772, *De l'esprit des lois* 1748, *Du contrat social* et *Émile*
+en 1762, les sept prisonniers de la Bastille, le Jeu de paume du 20 juin, la Constitution civile
+de 1790, le 10 août 1792, la loi du 22 prairial, le 18 brumaire du 9 novembre 1799, le Concordat
+de 1801 en vigueur jusqu'en 1905, le lycée de 1802, le Code civil de 1804, Austerlitz 1805,
+la campagne de Russie de 1812, Waterloo le 18 juin 1815, la mort en 1821, les canuts de 1831,
+Abd el-Kader jusqu'en 1847, les journées de juin 1848, le coup d'État de 1851 et l'Empire de
+décembre 1852, Haussmann, le traité de 1860 avec le Royaume-Uni, Nice et la Savoie en 1859-1860,
+Maximilien fusillé en 1867, Sedan et le 2 septembre 1870, Francfort 1871, les soixante-douze jours
+de la Commune, Louise Michel et la révolte kanak de 1878, les lois de 1881, 1884, 1901 et 1905,
+Dreyfus réhabilité en 1906, le million quatre cent mille morts de 1914-1918 (un mobilisé sur six),
+Verdun et ses dix mois, Versailles 1919, l'appel du 18 juin, le CNR de 1943, la Sécurité sociale
+de 1945, le plan Monnet, la CECA de 1951, Rome 1957, le référendum du 28 septembre 1958, la
+réforme de 1962, les trois cohabitations de 1986 à 2002, les lois Defferre de 1982 et la QPC
+de 2008 — tout se vérifie.*
+
+## Passe 2 — le contenu chargé comme l'application le charge (`contenuDe`)
+
+> Jusqu'ici j'avais lu les fichiers. Ici j'ai chargé le module par
+> `contenuDe(MODULES['culture-g'])`, c'est-à-dire après application de `FUSIONS`,
+> `FUSIONS_INTERNES` et du mélange des propositions, puis croisé chaque question avec
+> **toutes les autres du même chapitre** — ce que voit l'apprenant, et non ce que contient un
+> fichier. Trois choses apparaissent, qu'aucune lecture séquentielle ne pouvait donner.
+
+### [GRAVE] Trente explications donnent la réponse littérale d'une autre question du même chapitre
+
+La passe 1 avait relevé un cas isolé (« Deux questions consécutives sur Alésia, dont l'une donne
+la réponse de l'autre »). Le croisement systématique montre que ce n'est pas un accident : dans
+**seize chapitres d'Histoire de France sur les cinquante-trois**, l'explication d'une question
+contient mot pour mot la bonne réponse d'une autre question du **même** chapitre. Trente paires
+au total. Comme les questions d'un chapitre sont servies dans la même série de révision,
+l'apprenant qui a répondu à l'une reçoit la seconde en cadeau — et souvent dans les minutes qui
+suivent.
+
+Les plus nettes, par ordre de gravité :
+
+| Chapitre | L'explication qui fuit | La question qu'elle résout |
+|---|---|---|
+| `cg-neuf-hf-lumieres-france` | « **De l'esprit des lois** paraît en **1748**. » (question « Qui était Montesquieu ? ») | « Quel ouvrage de Montesquieu paraît en 1748 ? » → « **De l'esprit des lois** » |
+| `cg-neuf-hf-lumieres-france` | « **Du contrat social** et Émile paraissent tous deux en **1762**. » (« Qui était Rousseau ? ») | « Quel ouvrage de Rousseau paraît en 1762 sur le fondement du pouvoir ? » → « **Du contrat social** » |
+| `cg-neuf-hf-lumieres-france` | « **L'affaire Calas** illustre son engagement judiciaire. » (« Qui était Voltaire ? ») | « Quelle affaire judiciaire Voltaire fait-il réviser en 1765 ? » → « **L'affaire Calas** » |
+| `cg-neuf-hf-symboles-republique` | « Écrite à **Strasbourg** comme Chant de guerre pour l'armée du Rhin… » | « Dans quelle ville la Marseillaise est-elle composée en 1792 ? » → « **Strasbourg** » |
+| `cg-neuf-hf-symboles-republique` | « **Rouget de Lisle** y était officier du génie. » | « Qui compose la Marseillaise en 1792 ? » → « **Rouget de Lisle** » |
+| `cg-neuf-hf-symboles-republique` | « Adoptée en 1795, interdite **sous l'Empire et la Restauration**… » | « Sous quels régimes la Marseillaise a-t-elle été écartée au XIXe siècle ? » → « **Sous l'Empire et la Restauration** » |
+| `cg-neuf-hf-charlemagne-empire` | « **La minuscule caroline**, écriture claire mise au point alors… » | « Quelle écriture se diffuse sous Charlemagne et facilite la lecture ? » → « **La minuscule caroline** » |
+| `cg-neuf-hf-richelieu-mazarin` | « Le siège de **La Rochelle** en 1628 en est l'illustration. » | « Quelle place forte protestante Richelieu réduit-il en 1628 ? » → « **La Rochelle** » |
+| `cg-neuf-hf-francois-premier` | « Capturé par **Charles Quint**, il est emmené à Madrid. » | « Quel rival européen François Ier affronte-t-il toute sa vie ? » → « **Charles Quint** » |
+| `cg-neuf-hf-francois-premier` | « … parfois attribué à une idée de **Léonard de Vinci**. » | « Quel artiste italien François Ier accueille-t-il en France ? » → « **Léonard de Vinci** » (et sa jumelle « … meurt en France en 1519 ») |
+| `cg-neuf-hf-merovingiens-rois` | « Brunehaut finit suppliciée sur ordre de **Clotaire II**. » | « Quel roi réunifie brièvement le royaume franc en 613 ? » → « **Clotaire II** » |
+| `cg-neuf-hf-france-1970-2000` | « … il l'emporte de justesse contre **François Mitterrand**. » | « Qui est élu président de la République en 1981 ? » → « **François Mitterrand** » |
+| `cg-neuf-hf-france-1970-2000` | « C'est l'une des premières mesures du septennat de **Valéry Giscard d'Estaing**. » | « Quel président est élu en 1974 ? » → « **Valéry Giscard d'Estaing** » |
+| `cg-neuf-hf-france-1970-2000` | « La première a lieu en 1986 entre **François Mitterrand** et **Jacques Chirac**. » | résout **deux** questions : « … élu en 1981 ? » et « Qui est élu président en 1995 ? » |
+| `cg-neuf-hf-outre-mer-histoire` | « … un processus qui aboutira à **l'accord de Nouméa** en 1998. » | « Quel accord de 1998 organise l'avenir institutionnel de la Nouvelle-Calédonie ? » → « **L'accord de Nouméa** » |
+| `cg-neuf-hf2-capetiens` | « Il rendait la justice sous un chêne… et acquit la couronne d'épines pour **la Sainte-Chapelle**. » | « Quel édifice Louis IX fait-il construire pour abriter des reliques ? » → « **La Sainte-Chapelle** » |
+| `cg-neuf-hf2-capetiens` | « Abandonnée quand l'hérédité fut devenue une évidence, sous **Philippe Auguste**. » | « Quel roi capétien allonge considérablement le domaine royal au XIIe siècle ? » → « **Philippe Auguste** » |
+| `cg-neuf-hf2-revolution-1789` | « Elle a précipité **l'abolition des privilèges**. » (« Qu'est-ce que la Grande Peur ? ») | « Que décide l'Assemblée dans la nuit du 4 août 1789 ? » → « **L'abolition des privilèges** » |
+| `cg-histoire-france-04` | « L'arc long anglais y décime la chevalerie française… » | « Quelle arme donne un avantage décisif aux Anglais à Crécy en 1346 ? » → « **L'arc long** » |
+| `cg-histoire-france-04` | « … après la capture de **Jean II le Bon**. » | « Quel roi de France est fait prisonnier à Poitiers en 1356 ? » → « **Jean II le Bon** » |
+| `cg-histoire-france-04` | « **Le traité de Troyes**, conclu en 1420… » et, plus loin, « … la légitimité que le traité de Troyes lui contestait » | « Quel traité de 1420 déshérite le dauphin au profit du roi d'Angleterre ? » → « **Le traité de Troyes** » (deux fois) |
+| `cg-histoire-france-05` | « **L'ordonnance de Villers-Cotterêts**, de 1539, concerne l'usage du français dans les actes de justice… » | « Quelle ordonnance de 1539 impose l'usage du français dans les actes de justice ? » — énoncé **et** réponse recopiés |
+| `cg-histoire-france-08` | « … les députés qui l'ont appelé au trône en août 1830 » et « **Louis-Philippe** abdique le 24 février 1848 » | « Quel roi accède au trône en 1830 ? » → « **Louis-Philippe** » (deux fois) |
+| `cg-histoire-france-10` | « La répression judiciaire qui suit **la Semaine sanglante**… » | « Comment appelle-t-on la reconquête de Paris par l'armée versaillaise du 21 au 28 mai 1871 ? » → « **La Semaine sanglante** » |
+| `cg-histoire-france-01` | « La reddition de **Vercingétorix** a lieu en 52 avant J.-C., à l'issue du siège d'**Alésia**. » | « Quel chef gaulois affronte César à Alésia en 52 avant notre ère ? » → « **Vercingétorix** » |
+| `cg-libre-histoire-france-2` | « … engagements de **François Mitterrand**, élu président en mai 1981 » | « Qui devient en 1981 le premier président socialiste de la Cinquième République ? » → « **François Mitterrand** » |
+
+- **Problème** : le cas de `cg-histoire-france-05` est le plus caricatural — l'explication du
+  concordat de Bologne recopie l'énoncé entier de la question suivante *et* sa réponse. Le cas de
+  `hf-lumieres-france` est le plus systématique : les trois questions « Qui était X ? » ont pour
+  seule explication le titre de l'ouvrage que trois autres questions du même chapitre demandent.
+  Et celui de `hf-symboles-republique` est circulaire : la question sur le compositeur donne la
+  ville, la question sur la ville donne le compositeur. Ces explications sont pourtant justes et
+  utiles ; le défaut n'est pas dans le texte, il est dans le voisinage — que seul le chargement
+  du module révèle.
+- **Correction proposée** : ce n'est pas une réécriture de trente explications. Deux gestes
+  suffisent, dans cet ordre. **1.** Là où la fuite double une question déjà redondante (Léonard
+  de Vinci, le traité de Troyes, Louis-Philippe, Vercingétorix, Villers-Cotterêts), supprimer la
+  question redondante : la fuite disparaît avec elle. **2.** Pour les autres, déplacer le fait
+  fuité dans l'explication de la question qui l'interroge, et remplacer dans l'explication
+  source par un fait que rien ne teste — par exemple, pour « Qui était Montesquieu ? » :
+  « Président à mortier au parlement de Bordeaux, il tire sa théorie d'une lecture — contestée —
+  du régime anglais. »
+
+### [GRAVE] Le résumé automatique « Cette leçon couvre : … » donne la réponse dans trois chapitres hérités
+
+- **Où** : `cg-histoire-france-04`, `cg-histoire-france-08`, `cg-histoire-france-10`
+- **Texte** : le `tip` de ces chapitres n'est pas une astuce rédigée : c'est la liste de leurs
+  titres de sections, concaténée. Or ces titres nomment ce que le quiz demande.
+
+| Chapitre | Le titre de section, dans l'astuce | La question qu'il résout |
+|---|---|---|
+| `cg-histoire-france-04` | « La folie de Charles VI, la guerre civile et **Azincourt** » | « Quelle bataille de 1415 est un désastre pour la chevalerie française ? » → « **Azincourt** » |
+| `cg-histoire-france-04` | « … puis le redressement de **Charles V** » | « Quel roi français surnommé le Sage redresse la situation dans les années 1360 ? » → « **Charles V** » |
+| `cg-histoire-france-08` | « **Les Trois Glorieuses** et l'avènement de **Louis-Philippe** » | deux questions : « Quelle révolution de juillet 1830 renverse Charles X ? » → « **Les Trois Glorieuses** » ; « Quel roi accède au trône en 1830 ? » → « **Louis-Philippe** » |
+| `cg-histoire-france-10` | « La guerre civile et **la Semaine sanglante (21-28 mai 1871)** » | « Comment appelle-t-on la reconquête de Paris par l'armée versaillaise **du 21 au 28 mai 1871** ? » → « **La Semaine sanglante** » |
+
+- **Problème** : la dernière est la pire du domaine, toutes catégories confondues. Le titre de
+  section donne le nom **et** les dates exactes que l'énoncé reprend mot pour mot ; la question
+  ne teste plus rien du tout. Et le mécanisme est différent de celui des onze astuces rédigées :
+  ici personne n'a écrit d'astuce, c'est la génération automatique à partir des titres de
+  sections qui fuit. Toute leçon dont un titre de section nomme un événement que son quiz
+  interroge présente le même défaut — ce qui en fait un problème de fabrication, pas de rédaction.
+- **Correction proposée** : ne pas composer le `tip` d'une leçon à partir de ses titres de
+  sections lorsqu'un titre contient la bonne réponse d'une de ses questions ; ou, plus simplement,
+  ne pas afficher ce résumé de sommaire à côté du quiz. À défaut, retitrer les trois sections
+  fautives : « La guerre civile et la reconquête de Paris », « Le désastre de 1415 »,
+  « La révolution de juillet et le nouveau roi ».
+
+### [MOYEN] Deux astuces déjà signalées trahissent en fait une seconde question chacune
+
+- **Où** : `prisma/seed/culture-g/histoire-france.ts:71` — `cg-neuf-hf-croisades-france`, et
+  `:145` — `cg-neuf-hf-richelieu-mazarin`
+- **Texte** : « Deux rois de France seulement ont pris la croix : **Louis VII** et Louis IX. » →
+  « Quel roi de France participe à la deuxième croisade en 1147 ? » → « **Louis VII** ».
+  « **Richelieu sert Louis XIII**, Mazarin sert la régente Anne d'Autriche. » → « Quel roi
+  Richelieu a-t-il servi ? » → « **Louis XIII** ».
+- **Problème** : l'astuce des croisades avait été signalée en passe 1 pour son erreur de fait
+  (elle oublie Philippe Auguste) ; elle donne en outre la réponse littérale de la première
+  question du chapitre. Celle de Richelieu figurait dans le tableau des huit pour « Anne
+  d'Autriche » ; elle trahit aussi « Louis XIII ». Le décompte réel du domaine est donc de
+  **onze notions dont l'astuce donne la réponse d'au moins une question**, pour **quinze
+  questions** rendues sans objet — auxquelles s'ajoutent les cinq questions des trois chapitres
+  hérités ci-dessus, soit vingt en tout.
+- **Correction proposée** : voir les reformulations déjà proposées ; pour les croisades, la
+  correction de fait et la correction de fuite se font d'un seul geste — « Trois rois ont pris
+  la croix pour l'Orient, à trois croisades différentes : retiens laquelle pour chacun, et ce
+  qu'il en est advenu. »
+
+### [MOYEN] *Le Contrat social* et *Du contrat social* : le même livre demandé deux fois, sous deux titres
+
+- **Où** : `cg-neuf-hf-lumieres-france`, après fusion de `hf2-lumieres-france` et
+  `hf4-lumieres-france`
+- **Texte** : « Quel **livre** de Rousseau paraît en **1762** sur **l'origine** du pouvoir ? » →
+  « **Le Contrat social** » / « Quel **ouvrage** de Rousseau paraît en **1762** sur le
+  **fondement** du pouvoir ? » → « **Du contrat social** ».
+- **Problème** : deux questions synonymes à trois mots près, dans le même chapitre, dont les
+  bonnes réponses donnent **deux titres différents pour le même ouvrage**. Le titre exact est
+  *Du contrat social* ; « Le Contrat social » est l'usage courant, mais servi comme bonne réponse
+  à côté de l'autre il enseigne une hésitation au lieu d'un fait. C'est le doublon le plus
+  serré du chapitre le plus dupliqué du domaine (29 questions après trois fusions).
+- **Correction proposée** : n'en garder qu'une, avec le titre exact — « Quel ouvrage de Rousseau,
+  paru en 1762, fonde la souveraineté sur le peuple ? » → « *Du contrat social* », explication
+  « On l'appelle couramment *Le Contrat social* ; le titre exact commence par *Du*. »
+
+### [MOYEN] Utrecht : dans le chapitre Louis XIV, une explication neuve résout la question du quiz hérité
+
+- **Où** : `cg-histoire-france-06` « Louis XIV et l'absolutisme », qui absorbe `hf4-louis-xiv`
+- **Texte** : question neuve « Qu'est-ce que la guerre de Succession d'Espagne ? », explication
+  « Elle s'achève par les **traités d'Utrecht** et de Rastatt. » ; question du quiz hérité
+  « Quel traité de **1713** met fin à l'essentiel de la guerre de Succession d'Espagne ? » →
+  « **Le traité d'Utrecht** ».
+- **Problème** : à ajouter aux cinq paires de la passe 2 déjà relevées entre questions neuves et
+  quiz hérités — celle-ci n'est pas un doublon d'énoncé mais une fuite d'explication, et elle
+  n'apparaît que module chargé.
+- **Correction proposée** : dans l'explication neuve, remplacer par « Elle oppose la France à une
+  coalition européenne pendant treize ans et laisse le royaume exsangue. »
+
+*Ce que le croisement a également **confirmé** : les doublons du premier tableau de la passe 1
+sont bien tous présents dans un seul chapitre après fusion (Bouvines, 49.3, Trente Glorieuses,
+cahiers de doléances, nuit du 4 août, biens nationaux, Constitution civile, Aix-la-Chapelle,
+Boniface VIII, salons), et le mesureur d'astuces du dépôt (`.travail-audit/mesure-astuce.txt`)
+ne détecte que trois des vingt fuites d'astuce du domaine, parce qu'il exige une bonne réponse
+d'au moins douze caractères — « Louis VII », « Charles V », « Azincourt » et « Louis XIII »
+passent sous son seuil.*
+
+## Passe 2 — relecture de `prisma/seed/culture-g/cours/histoire-france.ts` (53 cours)
+
+### [GRAVE] Marie Curie donnée pour « la seule personne à avoir reçu deux prix Nobel scientifiques »
+
+- **Où** : `prisma/seed/culture-g/cours/histoire-france.ts` — `hf-femmes-france`, section
+  « Des figures »
+- **Texte** : « Marie Curie est **la seule personne à avoir reçu deux prix Nobel scientifiques**,
+  en physique en 1903 puis en chimie en 1911 ; elle est aussi la première femme professeure à la
+  Sorbonne. »
+- **Problème** : c'est faux, et l'erreur est facile à faire parce que la formule juste lui
+  ressemble beaucoup. Trois autres personnes ont reçu deux prix Nobel **scientifiques** :
+  John Bardeen (physique 1956 et 1972), Frederick Sanger (chimie 1958 et 1980) et Barry
+  Sharpless (chimie 2001 et 2022). Ce qui est unique à Marie Curie, c'est d'avoir été
+  distinguée dans **deux sciences différentes** — personne ne l'a refait. Le cours enseigne donc
+  une exclusivité qui n'existe pas, là où l'exclusivité réelle est plus remarquable encore. À
+  noter que le corpus de questions, lui, dit juste : `hf3-personnages-france` écrit « Physique en
+  1903 et chimie en 1911, une performance jamais renouvelée par une femme », et `hf-femmes-france`
+  demande seulement « la première femme à recevoir deux prix Nobel ». C'est le cours, et lui
+  seul, qui dérape.
+- **Correction proposée** : « Marie Curie est la seule personne à avoir reçu un prix Nobel dans
+  **deux sciences différentes**, en physique en 1903 puis en chimie en 1911 — trois autres
+  savants ont été distingués deux fois, mais toujours dans la même discipline. Elle est aussi la
+  première femme professeure à la Sorbonne. »
+
+### [GRAVE] « Le droit de grève est reconnu en 1864 » — troisième occurrence, et c'est le cours cette fois
+
+- **Où** : `prisma/seed/culture-g/cours/histoire-france.ts` — `hf-etat-providence`, section
+  « Les premières lois »
+- **Texte** : « **Le droit de grève est reconnu en 1864**, les syndicats autorisés en 1884. »
+- **Problème** : c'est la même erreur que celle relevée plus haut dans `histoire-france-4.ts`,
+  mais ici elle est **dans le cours**, c'est-à-dire dans le texte que l'apprenant lit avant de
+  répondre, et affirmée sans nuance dans une phrase de synthèse mémorisable. La loi Ollivier de
+  1864 supprime le délit de coalition : elle dépénalise la grève. Le droit de grève n'est reconnu
+  qu'en 1946, par le préambule de la Constitution. Le domaine porte donc **trois** versions du
+  même fait : la bonne dans `hf3-mouvement-ouvrier`, la fausse dans `hf4-troisieme-republique` et
+  la fausse ici. La correction de l'une sans les autres laisserait la contradiction en place.
+- **Correction proposée** : « La grève cesse d'être un délit en 1864, les syndicats sont
+  autorisés en 1884 ; le droit de grève lui-même ne sera reconnu qu'en 1946. »
+
+### [MOYEN] Brunehaut « capturée à quatre-vingts ans passés »
+
+- **Où** : `prisma/seed/culture-g/cours/histoire-france.ts` — `hf4-merovingiens`, section
+  « Un royaume qui se divise »
+- **Texte** : « Brunehaut, capturée à **quatre-vingts ans passés**, sera exécutée en 613 dans des
+  conditions atroces. »
+- **Problème** : Brunehaut naît vers 547 en Espagne wisigothique et meurt en 613 : elle avait
+  environ **soixante-six ans**, pas plus de quatre-vingts. Le chiffre de quatre-vingts vient de
+  la tradition hagiographique hostile, qui grossit le trait pour rendre le supplice plus
+  révoltant — c'est justement le genre de détail que le cours prétend nuancer deux lignes plus
+  bas (« image que l'historiographie récente nuance »). Le même cours étire par ailleurs la
+  rivalité Brunehaut-Frédégonde à « quarante ans », alors que Frédégonde meurt en 597 : le
+  constat correspondant de la passe 1 est confirmé une seconde fois.
+- **Correction proposée** : « Brunehaut, capturée à près de soixante-dix ans, sera exécutée en
+  613 dans des conditions atroces. »
+
+### [MINEUR] Les mots gaulois survivants : une troisième estimation, incompatible avec les deux autres
+
+- **Où** : `prisma/seed/culture-g/cours/histoire-france.ts` — `hf4-gaule-celtique`, section
+  « Une religion sans archives »
+- **Texte** : « … une **poignée de mots** passés en français : *chêne*, *alouette*, *charrue*,
+  *bruyère*, *mouton*, *lieue*, et une part importante des noms de lieux et de rivières. »
+- **Problème** : la passe 1 avait relevé deux chiffres contradictoires pour le même fait — « une
+  **centaine** » dans `hf2-gaule-romaine`, « quelques **dizaines** » dans `hf4-gaule-celtique`.
+  Le cours en ajoute un troisième, « une poignée », qui est le plus bas des trois et le plus
+  éloigné de l'estimation courante (environ cent cinquante mots). Trois formulations
+  incompatibles pour un fait unique, dans un même domaine.
+- **Correction proposée** : harmoniser partout sur « environ cent cinquante mots », en gardant
+  la liste d'exemples de ce cours, qui est la plus riche des trois.

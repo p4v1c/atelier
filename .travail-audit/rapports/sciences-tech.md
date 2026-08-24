@@ -1,6 +1,6 @@
 # Inventions & Technologie
 
-> ÉTAT : reprise en cours. Déjà lus par le prédécesseur : `prisma/seed/culture-g/sciences-tech.ts`, `-2.ts`, `-3.ts`, `cours/sciences-tech.ts`, `heritage/culture-g/data/sciences-tech.json`, leçons `01.json` à `04.json`. Reprise : leçons `05.json` à `17.json` lues (toutes les leçons sont lues), passe 2 en cours, vérifications web du prédécesseur tranchées. Reste : la passe 2 sur l'ensemble du domaine (doublons intra-module, tips qui donnent la réponse, corrections de passe 1 elles-mêmes fausses).
+> ÉTAT : **TERMINÉ**. Passe 1 : tous les fichiers du périmètre lus (`sciences-tech{,-2,-3}.ts`, `cours/sciences-tech.ts`, `heritage/.../sciences-tech.json`, leçons `01.json` à `17.json`). Passe 2 : contenu chargé comme le fait l'application (`contenuDe`) — 68 compétences, 647 questions ; doublons intra- et inter-compétences croisés, paires inversées, astuces (`tip`) croisées avec les réponses de leurs propres questions, seed relu, corrections de la passe 1 revérifiées sur le web. Sections A à F ci-dessous. Rien n'a été effacé du travail des relecteurs précédents.
 
 ## Ce que j'ai lu
 
@@ -567,3 +567,772 @@ Les deux sections sur les paternités contestées (Pythagore, Thalès) sont exem
 **Reste de la leçon 17 : la crainte était infondée — c'est l'une des leçons les plus scrupuleuses du corpus sur les paternités.** Loin de simplifier, elle partage systématiquement le mérite. Sur la photographie : « L'invention est donc le fruit d'un travail à deux, même si le procédé commercialisé porte le seul nom de Daguerre. » Sur la carte à puce : « Les Allemands Helmut Gröttrup et Jürgen Dethloff avaient breveté dès 1968 une carte automatisée : la paternité est donc partagée », et le quiz en fait la bonne réponse. Sur le braille : le système est explicitement présenté comme une **reprise transformée** de l'écriture nocturne de Charles Barbier, pas comme une création ex nihilo. Sur le cinéma : la formule retenue est « la première projection **collective payante sur grand écran** », c'est-à-dire exactement la restriction qui rend l'affirmation vraie.
 
 Vérifiés un à un et exacts : dates de naissance et de mort des deux Montgolfier ; essais de novembre 1782 ; 4 juin 1783 à Annonay ; 19 septembre à Versailles ; 21 novembre, neuf kilomètres en vingt-cinq minutes à mille mètres d'altitude ; Daguerre 1787-1851 et le diorama de 1822 avec Bouton ; contact de 1826, contrat du 14 décembre 1829, mort de Niépce en 1833 ; plaque de cuivre argentée, vapeurs d'iode, révélation au mercure, fixation à l'eau salée ; annonce d'Arago le 7 janvier 1839, rente de six mille francs, publication le 19 août 1839 ; Auguste né en 1862 et Louis en 1864 ; brevet du Cinématographe le 13 février 1895 et les griffes commandées par came ; 28 décembre 1895 au Salon indien du Grand Café ; Pasteur né le 27 décembre 1822 à Dole, mort le 28 septembre 1895 à Marnes-la-Coquette, acide tartrique en 1848, Lille en 1854, fermentations de 1857 à 1867, génération spontanée en 1861-1862, pasteurisation en 1863, pébrine de 1865 à 1869, Joseph Meister le 6 juillet 1885, Institut Pasteur en 1888, Académie des sciences en 1862 et Académie française en 1882 ; Marie Curie née le 7 novembre 1867 à Varsovie, mariage en 1895, polonium et radium en 1898, Nobel de physique en 1903 avec la mention que **c'est Pierre qui exigea l'ajout de son nom**, Nobel de chimie en 1911, professeure à la Sorbonne en 1908, petites Curie, refus de breveter, morte le 4 juillet 1934, Panthéon en 1995 ; Braille né le 4 janvier 1809 à Coupvray, mort le 6 janvier 1852, accident à trois ans, institution à dix ans, alphabet publié en 1829, plus de vingt-cinq ans pour s'imposer, Panthéon en 1952 ; Michelin fondée le 28 mai 1889, pneumatique démontable breveté le 18 juin 1891, L'Éclair en 1895, Bibendum en 1898, guide en 1900 ; Moreno le 25 mars 1974, Ugon et le CP8 en 1977 puis le SPOM en 1978, Gröttrup et Dethloff en 1968 avec délivrance en 1982, télécarte en 1983, carte bancaire à puce généralisée à partir de 1992.
+
+---
+
+# PASSE 2 — contenu chargé comme l'application le charge
+
+*(section ajoutée par le troisième relecteur ; rien n'a été retiré de ce qui précède)*
+
+## Méthode
+
+Les deux relecteurs précédents ont lu les fichiers. La passe 2 lit ce que
+l'apprenant reçoit. J'ai chargé le module par `contenuDe(module("culture-g"))`,
+c'est-à-dire en passant par `src/modules/culture-g/contenu.ts` : fusion des
+notions du seed dans les leçons du cahier d'origine (`FUSIONS`), dédoublonnage
+automatique, mélange des propositions. Le domaine « Inventions & Technologie »
+en sort avec **68 compétences et 647 questions effectivement servies** —
+et non 507 comme le comptait la lecture fichier par fichier, parce que les
+questions libres du cahier d'origine (57, réparties en trois paliers) et les
+quiz des vingt leçons s'y ajoutent.
+
+Ce chargement change trois choses, et chacune produit des constats que la
+lecture des fichiers ne pouvait pas donner.
+
+## A. Ce que la fusion fait, et ce qu'elle défait
+
+### [FAUX POSITIF] Le constat « Quatre notions n'ont aucun cours » est à retirer
+
+- **Où** : constat [MOYEN] de la passe 1, « Quatre notions n'ont aucun cours »
+  (`st-intelligence-artificielle`, `st2-agriculture-techniques`,
+  `st2-informatique-histoire`, `st3-inventions-francaises`).
+- **Vérification** : ces quatre slugs sont précisément les quatre entrées de
+  `prisma/seed/culture-g/cours/fusions.ts` pour le domaine :
+  `st-intelligence-artificielle → cg-sciences-tech-08`,
+  `st2-agriculture-techniques → cg-sciences-tech-09`,
+  `st2-informatique-histoire → cg-sciences-tech-c02`,
+  `st3-inventions-francaises → cg-sciences-tech-17`. Elles n'ont pas de cours
+  dans `cours/sciences-tech.ts` parce qu'elles n'existent plus comme notions
+  autonomes : leurs dix questions sont versées dans la leçon patrimoniale qui
+  traite déjà le sujet, et l'apprenant les rencontre **avec** cette leçon.
+  Après chargement, ces quatre compétences comptent quinze questions chacune
+  (cinq du quiz de la leçon, dix de la notion) et un cours complet.
+- **Conclusion** : le constat est un artefact de la lecture fichier par
+  fichier. **Il ne faut pas écrire les quatre cours manquants** ; ce serait
+  créer un doublon de la leçon d'accueil. En revanche la recommandation
+  incidente du deuxième relecteur (« la leçon 08 est une source toute prête
+  pour écrire le cours de `st-intelligence-artificielle` ») tombe pour la même
+  raison : c'est déjà son cours.
+
+### [GRAVE] La fusion pose deux fois la même question dans la même compétence
+
+C'est le constat que seul le chargement révèle. Le dédoublonnage de
+`contenu.ts` exige, pour écarter un jumeau, soit un recouvrement d'énoncé de
+85 % avec une réponse voisine, soit une réponse **rigoureusement identique**
+avec 75 % de recouvrement sur les seuls mots longs. Deux paires passent au
+travers, et elles se retrouvent **dans la même compétence**, donc dans la même
+série d'un même apprenant.
+
+**1. Charles Babbage, deux fois dans `cg-sciences-tech-c02`**
+
+- **Où** : `heritage/culture-g/data/sciences-tech.json` (quiz du cours « De la
+  Pascaline à Internet », question 1) et `prisma/seed/culture-g/sciences-tech-2.ts:276`
+  (notion `st2-informatique-histoire`), fusionnées dans la même compétence.
+- **Texte A** : « Quelle machine Charles Babbage a-t-il conçue à partir de 1834
+  sans jamais l'achever ? » → « La machine analytique »
+- **Texte B** : « Quelle machine Charles Babbage conçoit-il au XIXe siècle sans
+  l'achever ? » → « La machine analytique »
+- **Problème** : même fait, même bonne réponse, même formulation à un
+  complément de temps près. Recouvrement mesuré : 0,42 — sous le seuil de 0,85
+  du filtre, qui les laisse donc toutes les deux. L'apprenant de la compétence
+  « De la Pascaline à Internet » répond deux fois « La machine analytique » sur
+  quinze questions. C'est le doublon le plus visible du domaine, et aucun des
+  deux relecteurs précédents ne pouvait le voir : les deux questions sont dans
+  deux fichiers différents, l'un patrimonial, l'autre du seed.
+- **Correction proposée** : supprimer la question du seed
+  (`sciences-tech-2.ts:276`), le quiz patrimonial étant le plus précis (il date
+  1834). La remplacer par une question sur un point de l'histoire de
+  l'informatique que la leçon d'accueil traite sans l'interroger — la machine à
+  différences, le « moulin » et le « magasin », ou Hollerith et le recensement
+  de 1890.
+
+**2. Le test de Turing, deux fois dans `cg-sciences-tech-08`**
+
+- **Où** : `heritage/culture-g/data/lecons/sciences-tech/08.json` (quiz,
+  question 1) et `prisma/seed/culture-g/sciences-tech.ts:78` (notion
+  `st-intelligence-artificielle`), fusionnées dans la même compétence.
+- **Texte A** : « En quoi consiste le test de Turing, proposé en 1950 ? » → « Un
+  examinateur dialogue par écrit avec un humain et une machine et tente de les
+  distinguer »
+- **Texte B** : « Qu'est-ce que le test de Turing ? » → « Une épreuve où une
+  machine tente de se faire passer pour un humain dans une conversation »
+- **Problème** : même notion, même contenu, réponses synonymes. Le filtre ne
+  les rapproche pas parce que les deux bonnes réponses n'ont presque aucun mot
+  en commun — elles disent pourtant strictement la même chose. Recouvrement des
+  énoncés : 0,40.
+- **Correction proposée** : supprimer la question du seed
+  (`sciences-tech.ts:78`) et la remplacer par un point que la leçon 08 traite et
+  que le quiz n'interroge pas — l'atelier de Dartmouth de 1956, les deux hivers
+  de l'IA, ou le fait que le test « ne prétend pas définir la conscience »,
+  précision que la leçon prend soin de donner.
+
+### [MOYEN] Deux confirmations et une infirmation sur les doublons de la passe 1
+
+Le chargement permet de trancher lesquels des doublons relevés en passe 1
+atteignent réellement l'apprenant.
+
+- **Toujours présents après dédoublonnage** (donc à corriger) : la conserve
+  d'Appert (`cg-sciences-tech-17` « Qui met au point la conserve appertisée ? »
+  contre `cg-neuf-st2-alimentation-techniques` « Qui met au point la conserve
+  stérilisée en 1795 ? », recouvrement 0,50, même réponse) ; le principe de
+  précaution (`cg-neuf-st-histoire-sciences` contre
+  `cg-neuf-st2-innovation-societe`, recouvrement 0,50) ; l'horloge atomique
+  (`cg-neuf-st2-mesure-temps` contre `cg-neuf-st3-instrument-scientifique`,
+  recouvrement 0,67) ; l'exosquelette, la commande numérique et la signature
+  électronique. Tous survivent.
+- **Déjà écarté par le filtre** : le doublon du braille relevé en passe 1
+  (`st-inventions-quotidien` contre `st3-inventions-francaises`) n'apparaît
+  plus qu'une fois après chargement — dans `cg-sciences-tech-17`, où
+  `st3-inventions-francaises` a été versée. **Le constat [GRAVE] « Qui invente
+  le braille ? posé deux fois » n'a pas d'effet sur l'apprenant** : le
+  dédoublonnage automatique le règle déjà. Il reste vrai au niveau des fichiers,
+  il est sans conséquence au niveau du contenu servi. À déclasser en MINEUR, ou
+  à traiter comme un simple nettoyage de source.
+- **Le four à micro-ondes survit, et sous une forme pire que celle décrite en
+  passe 1.** Après chargement, les deux questions sont toujours là :
+  `cg-neuf-st-inventions-quotidien` « À quoi le four à micro-ondes doit-il sa
+  découverte en 1945 ? » → « Une barre chocolatée fondue près d'un magnétron de
+  radar », et `cg-neuf-st2-armement` « Quelle invention civile dérive
+  directement des recherches sur le radar ? » → « Le four à micro-ondes ». Ce
+  n'est pas seulement un doublon : **c'est une paire inversée**, où l'énoncé de
+  chacune contient la réponse de l'autre. Aucun filtre par recouvrement de mots
+  ne peut la voir, puisque les deux énoncés n'ont presque aucun mot commun. La
+  redite dans les deux cours subsiste également.
+
+### [MOYEN] Doublons entre les questions libres du cahier d'origine et le seed
+
+Ce recouvrement-là n'a été vu par personne, parce qu'il oppose deux sources que
+les relecteurs précédents ont lues séparément : les **questions libres**
+(`heritage/culture-g/data/sciences-tech.json`, 57 questions réparties en
+`cg-libre-sciences-tech-1/2/3`) et les notions du seed. Neuf paires survivent au
+dédoublonnage avec la **même bonne réponse** :
+
+| Question libre | Notion du seed | Réponse commune |
+|---|---|---|
+| « Qui a inventé le World Wide Web au CERN en 1989-1991 ? » | `st-internet-reseaux` « Qui invente le World Wide Web en 1989 ? » | Tim Berners-Lee |
+| « Quel mathématicien britannique a formalisé en 1936 un modèle théorique de calcul devenu fondamental en informatique ? » | `st-informatique-fondements` « Quel mathématicien britannique formalise en 1936 un modèle théorique de calcul ? » | Alan Turing |
+| « Quels frères ont réalisé le 17 décembre 1903 le premier vol motorisé contrôlé ? » | `st-transports` « Qui réalise en 1903 le premier vol motorisé contrôlé ? » | Les frères Wright |
+| « Quelle mission a permis aux premiers hommes de marcher sur la Lune en juillet 1969 ? » | `st-espace-exploration` « Quelle mission dépose les premiers hommes sur la Lune en 1969 ? » | Apollo 11 |
+| « Quelle station spatiale internationale, assemblée à partir de 1998, est occupée en permanence depuis l'an 2000 ? » | `st-espace-exploration` « Quelle station spatiale internationale est occupée en continu depuis 2000 ? » | L'ISS |
+| « Qui a construit en 1886 ce qui est considéré comme la première automobile à moteur à essence ? » | `st-transports` « Qui dépose en 1886 le brevet de la première automobile à moteur à essence ? » | Karl Benz |
+| « Quel théorème, énoncé par un magistrat français au XVIIe siècle, n'a été démontré qu'en 1994 ? » | `st-mathematiques` « Quel théorème énoncé en 1637 n'a été démontré qu'en 1994 ? » | Le dernier théorème de Fermat |
+| « Quel réseau américain financé par la défense est considéré comme l'ancêtre d'Internet ? » | `st-internet-reseaux` **et** `st2-armement` (« Quel réseau informatique militaire est à l'origine d'internet ? ») | ARPANET |
+| « Quel physicien allemand a découvert les rayons X en 1895 ? » | `st-medecine-technologies` « Qui découvre les rayons X en 1895 ? » | Wilhelm Röntgen |
+
+S'y ajoutent, à recouvrement plus faible mais réponse identique : Voyager 1
+(libre 2 contre `st-espace-exploration`), Hubble (idem), Bell et le brevet de
+1876 (libre 1 contre `st2-communication-histoire`), Pasteur et le vaccin contre
+la rage (libre 1 contre `cg-sciences-tech-17`), la loi de Moore (`cg-sciences-tech-c02`
+contre libre 2) et les *Éléments* d'Euclide (`cg-sciences-tech-c03` contre
+`cg-sciences-tech-16`).
+
+- **Problème** : l'ARPANET est posé **trois fois** dans le domaine, la
+  conquête spatiale deux fois par question, Berners-Lee deux fois. Le filtre
+  laisse passer parce qu'il compare des ensembles de mots et que la formulation
+  du cahier d'origine est plus longue et plus circonstanciée que celle du seed
+  — c'est justement cette différence de style qui fait chuter le recouvrement
+  sous 0,85 alors que le fait interrogé est identique.
+- **Correction proposée** : ce n'est pas un problème de contenu mais de règle.
+  Quinze paires, ce n'est pas quinze arbitrages : c'est un seuil mal calibré.
+  Soit abaisser le seuil de recouvrement à 0,55 **lorsque la bonne réponse
+  normalisée est identique** (les six paires du bas du tableau y passeraient
+  aussi), soit trancher à la main les quinze en supprimant à chaque fois la
+  version du seed, la question libre du cahier d'origine étant plus précise
+  dans tous les cas examinés (elle date, elle situe, elle nomme le lieu).
+  **Attention** : la seconde option ne peut pas se faire sans mesurer l'effet
+  sur les trois compétences `cg-libre-sciences-tech-*`, dont l'une n'a que neuf
+  questions et tomberait sous le seuil de jouabilité si l'arbitrage allait dans
+  l'autre sens.
+
+## B. Les astuces qui donnent la réponse
+
+L'astuce (`tip`) d'une compétence est un texte unique, servi à deux endroits :
+dans `Catalogue.tsx:193`, sur la fiche de la notion — **consultable avant toute
+question** — et dans `Serie.tsx:199`, dans le panneau de correction, après
+chaque réponse. Dans les deux cas elle précède les questions suivantes de la
+même compétence. Une astuce qui contient la réponse littérale d'une de ses dix
+questions la rend gratuite.
+
+J'ai croisé chaque astuce des quarante-cinq notions du domaine avec les bonnes
+réponses de ses propres questions. **Quatorze notions sont concernées, soit
+près d'une sur trois** — la même proportion que dans les autres domaines. Les
+plus nettes :
+
+### [GRAVE] Astuces qui contiennent mot pour mot la bonne réponse
+
+- **`st-internet-reseaux`** — astuce : « Internet est le réseau ; le Web n'est
+  qu'un des services qui circulent dessus. » Question 1 : « Quelle différence y
+  a-t-il entre Internet et le Web ? » → bonne réponse « Internet est le réseau,
+  le Web un service qui l'utilise ». **L'astuce est la réponse, à trois mots
+  près.** C'est la première question de la notion et la première phrase de la
+  fiche : le cas le plus franc du domaine.
+- **`st3-cryptographie`** — astuce : « La sécurité d'un chiffrement doit
+  reposer sur la clé, jamais sur le secret de l'algorithme. » Question : « Qu'est-ce
+  que le principe de Kerckhoffs ? » → « La sécurité doit reposer sur la clé,
+  l'algorithme pouvant être public ».
+- **`st2-brevets-innovation`** — astuce : « Un brevet échange un monopole
+  temporaire contre la publication de l'invention. » Question : « Que confère un
+  brevet à son titulaire ? » → « Un monopole d'exploitation temporaire en
+  échange de la publication ».
+- **`st2-espace-technologies`** — astuce : « Mettre un satellite en orbite exige
+  surtout de la vitesse horizontale, pas de l'altitude. » Question : « Que
+  faut-il principalement pour mettre un objet en orbite ? » → « Une très grande
+  vitesse horizontale ».
+- **`st2-robotique`** — astuce : « Les tâches faciles pour un humain sont
+  souvent les plus difficiles pour un robot. » Question : « Qu'est-ce que le
+  paradoxe de Moravec ? » → « Les tâches sensorimotrices simples pour l'humain
+  sont difficiles pour les machines ».
+- **`st-transports`** — astuce : « Le chemin de fer a imposé l'heure unifiée :
+  avant lui, chaque ville vivait à son heure solaire. » Question : « Quelle
+  innovation le chemin de fer impose-t-il à la mesure du temps ? » → « Une heure
+  unifiée sur un même réseau ».
+
+### [MOYEN] Astuces qui livrent le nom propre ou le chiffre attendu
+
+Ici l'astuce ne reformule pas la réponse, elle en donne le seul élément
+discriminant — ce qui suffit dans un QCM.
+
+- **`st-espace-exploration`** — astuce : « Aucune sonde n'a quitté le système
+  solaire au sens gravitationnel : **Voyager 1** est seulement sorti de
+  l'héliosphère. » Question : « Quelle sonde lancée en 1977 est l'objet humain le
+  plus éloigné de la Terre ? » → « Voyager 1 ».
+- **`st2-textile-industrie`** — astuce : « **Le métier Jacquard** a introduit la
+  programmation par cartes perforées avant l'informatique. » Question : « Quel
+  métier de 1801 utilise des cartes perforées ? » → « Le métier Jacquard ». La
+  question ne demande rien d'autre que le mot déjà écrit dans l'astuce.
+- **`st2-medecine-innovations`** — astuce : « Le séquençage d'un génome humain
+  coûtait des milliards **en 2003** ; il se compte aujourd'hui en centaines
+  d'euros. » Question : « Quand le séquençage du génome humain a-t-il été déclaré
+  achevé ? » → « En 2003 ».
+- **`st2-communication-histoire`** — astuce : « Le premier câble télégraphique
+  transatlantique a fonctionné **en 1858, quelques semaines seulement**. »
+  Question : « Quand le premier câble télégraphique transatlantique
+  fonctionne-t-il ? » → « En 1858, brièvement ».
+- **`st3-innovation-france`** — astuce : « La France investit environ **deux
+  virgule deux pour cent** de son PIB dans la recherche. » Question : « Quelle
+  part de son PIB la France consacre-t-elle à la recherche ? » → « Environ deux
+  virgule deux pour cent ».
+- **`st3-eau-technologies`** — astuce : « Environ **un litre d'eau potable sur
+  cinq** est perdu dans les réseaux français. » Question : « Quelle part de l'eau
+  potable est perdue dans les réseaux français ? » → « Environ un cinquième ».
+
+**Correction proposée, valable pour les douze** : l'astuce doit donner la clé de
+lecture, pas la réponse. Le patron qui marche ailleurs dans le corpus est celui
+de `st-informatique-fondements` (« Un ordinateur ne calcule qu'avec deux états ;
+toute l'informatique en découle. ») : il oriente sans rien livrer. Concrètement,
+pour les six cas les plus francs : remplacer l'astuce de `st-internet-reseaux`
+par « Le réseau et les services qu'il transporte ne sont pas la même chose —
+c'est la distinction à tenir dans toute la notion. » ; celle de
+`st2-textile-industrie` par « Le textile a inventé la commande par carte
+perforée un siècle et demi avant l'ordinateur. » ; celle de
+`st3-innovation-france` par « La France investit dans la recherche un peu moins
+que l'objectif européen de trois pour cent. » ; celle de
+`st2-medecine-innovations` par « Le coût du séquençage d'un génome a chuté d'un
+facteur plusieurs millions en vingt ans. » ; celle de `st3-cryptographie` par
+« Un bon chiffrement reste sûr même si l'ennemi connaît l'algorithme. » ; celle
+de `st-espace-exploration` par « "Quitter le système solaire" veut dire deux
+choses très différentes selon qu'on parle de l'héliosphère ou de la gravité. »
+
+**Trois faux positifs écartés après lecture**, pour que personne ne les
+re-signale : `st-mathematiques` (l'astuce parle de conjecture en général, la
+réponse est « la conjecture de Poincaré » — le mot commun ne livre rien) ;
+`st2-mesure-temps` (astuce sur l'horloge à balancier, réponse « une horloge à
+eau » : les mots se recoupent, le sens non) ; `st-medecine-technologies`
+(recoupement nul après lecture).
+
+
+## C. Les paires inversées — la catégorie que rien ne détecte
+
+Une fois le contenu chargé, un troisième défaut apparaît, que ni la lecture des
+fichiers ni le dédoublonnage de l'application ne peuvent voir : **deux questions
+dont l'énoncé de l'une contient la bonne réponse de l'autre**. Les deux énoncés
+n'ont presque aucun mot en commun, donc le recouvrement est nul et le filtre les
+laisse passer ; mais pour l'apprenant, répondre à l'une, c'est avoir l'autre.
+
+### [GRAVE] Deux paires inversées à l'intérieur d'une même compétence
+
+**1. Haber-Bosch, dans `cg-sciences-tech-09`**
+
+- **Où** : `heritage/culture-g/data/lecons/sciences-tech/09.json` (quiz) et
+  `prisma/seed/culture-g/sciences-tech-2.ts`, notion `st2-agriculture-techniques`,
+  fusionnées dans la même compétence par `FUSIONS`.
+- **Texte A** : « Quel procédé industriel permet de fixer l'azote de l'air pour
+  les engrais ? » → « Le procédé Haber-Bosch »
+- **Texte B** : « Que permet le procédé Haber-Bosch, mis au point au début du
+  XXe siècle ? » → « Fabriquer de l'ammoniac à partir de l'azote de l'air, base
+  des engrais azotés »
+- **Problème** : l'énoncé de B nomme la réponse de A ; la réponse de B est
+  presque mot pour mot l'énoncé de A (« fixer l'azote de l'air pour les
+  engrais » / « à partir de l'azote de l'air, base des engrais azotés »). Les
+  deux sont dans la même compétence de quinze questions. Celui qui a répondu à
+  l'une répond à l'autre sans réfléchir, et le second item n'enseigne rien.
+- **Correction proposée** : supprimer la question du seed (celle qui demande
+  seulement le nom du procédé) et la remplacer par un point que la leçon 09
+  développe et n'interroge pas — le rôle de Robert Le Rossignol aux côtés de
+  Haber, l'usine d'Oppau et ses trente tonnes par jour dès 1913, ou l'usage
+  explosif du même azote fixé dès la Première Guerre mondiale, qui est la morale
+  de la section.
+
+**2. Pasteur et la rage, dans `cg-sciences-tech-17`**
+
+- **Où** : `heritage/culture-g/data/lecons/sciences-tech/17.json` (quiz) et
+  `prisma/seed/culture-g/sciences-tech-3.ts`, notion `st3-inventions-francaises`,
+  fusionnées dans la même compétence.
+- **Texte A** : « Qui met au point le premier vaccin contre la rage ? » → « Louis
+  Pasteur »
+- **Texte B** : « Quelle découverte de Louis Pasteur date du 6 juillet 1885 ? » →
+  « la première vaccination efficace contre la rage, sur Joseph Meister »
+- **Problème** : réciprocité parfaite. Chaque énoncé donne la réponse de
+  l'autre, dans la même compétence. Et la même question est **encore** posée une
+  troisième fois dans le domaine, en question libre : `cg-libre-sciences-tech-1`
+  « Qui a mis au point en 1885 le vaccin contre la rage ? » → « Louis Pasteur ».
+  **Trois items pour un seul fait.**
+- **Correction proposée** : ne garder que la question patrimoniale du quiz de la
+  leçon 17 (la plus riche : elle date au jour et nomme Joseph Meister).
+  Supprimer celle de `st3-inventions-francaises` et celle des questions libres.
+
+### [MOYEN] Paires inversées entre compétences
+
+Elles sont moins graves — l'apprenant ne les rencontre pas dans la même série —
+mais elles vident la seconde question de sa substance pour qui a fait la
+première. Toutes ont été vérifiées sur le contenu chargé :
+
+- **James Watt et le condenseur séparé, quatre fois.**
+  `cg-neuf-st-transports` « Qui met au point une machine à vapeur efficace au
+  XVIIIe siècle ? » → « James Watt » ; `cg-libre-sciences-tech-2` « Qui a
+  perfectionné la machine à vapeur en y ajoutant un condenseur séparé en 1769 ? »
+  → « James Watt » ; `cg-sciences-tech-c01` « Quel élément clé James Watt a-t-il
+  ajouté à la machine à vapeur en 1769 ? » → « Un condenseur séparé » ;
+  `cg-sciences-tech-04` « Quelle amélioration décisive James Watt apporte-t-il à
+  la machine à vapeur de Newcomen ? » → « Il ajoute un condenseur séparé… ».
+  Deux questions demandent le nom, deux demandent l'invention, et chacune donne
+  la réponse des deux autres. C'est le fait le plus redondant du domaine.
+- **Les frères Wright et le gauchissement, six items.** Deux questions demandent
+  qui a volé en 1903 (`cg-libre-sciences-tech-1`, `cg-neuf-st-transports`),
+  trois demandent leur apport technique (`cg-sciences-tech-c01`, `-02`, `-13`) —
+  et ces trois-là donnent trois réponses différentes pour la même question :
+  « Le gauchissement des ailes », « La maîtrise du contrôle latéral grâce au
+  gauchissement de l'aile », « Le pilotage sur trois axes, associant gouverne de
+  direction et gauchissement des ailes ». La troisième est la plus juste ; les
+  deux premières réduisent à un axe ce que la leçon 13 présente correctement
+  comme un système à trois axes. **Ce n'est donc pas seulement une redite : la
+  compétence `cg-sciences-tech-13` contredit les deux autres sur le fond.**
+- **Babbage, trois items** : les deux doublons déjà signalés dans
+  `cg-sciences-tech-c02`, plus `cg-libre-sciences-tech-2` « Quel mathématicien
+  britannique a conçu au XIXe siècle la "machine analytique" ? » → « Charles
+  Babbage », dont l'énoncé donne la réponse des deux autres.
+- **Le nombre premier, deux fois avec la même définition.**
+  `cg-libre-sciences-tech-1` « Comment appelle-t-on un nombre entier supérieur à
+  1 divisible uniquement par 1 et par lui-même ? » → « Un nombre premier » ;
+  `cg-neuf-st-mathematiques` « Qu'est-ce qu'un nombre premier ? » → « Un entier
+  supérieur à un divisible seulement par un et par lui-même ». C'est
+  littéralement la même phrase, une fois en question et une fois en réponse.
+- **Le courant alternatif** : `cg-libre-sciences-tech-2` demande quel système
+  l'a emporté ; `cg-sciences-tech-c01` et `cg-sciences-tech-04` demandent tous
+  deux pourquoi — soit deux fois la même question sur le transformateur, dans
+  deux compétences.
+- **La pénicilline** : `cg-libre-sciences-tech-1` et
+  `cg-neuf-st-inventions-quotidien` demandent la même chose (Fleming, 1928,
+  moisissure) ; `cg-sciences-tech-03` demande ensuite qui l'a purifiée, ce qui
+  est le seul des trois items à apprendre quelque chose.
+- **Marie Curie et les deux Nobel** : `cg-neuf-st-histoire-sciences` « Quelle
+  femme reçoit deux prix Nobel dans deux disciplines différentes ? » → « Marie
+  Curie », face à deux questions de `cg-sciences-tech-17` et
+  `cg-libre-sciences-tech-2` qui la nomment dans leur énoncé.
+- **La lunette astronomique** : `cg-libre-sciences-tech-2` la donne en réponse,
+  `cg-sciences-tech-12` et `cg-neuf-st3-optique-instruments` la donnent dans
+  leur énoncé.
+
+- **Correction proposée, transversale** : ces vingt-cinq items se réduisent à
+  une dizaine sans rien perdre. La règle qui les départage est simple et vaut
+  pour tout le domaine : **quand deux questions portent sur le même couple
+  inventeur/invention, garder celle qui demande le mécanisme, supprimer celle
+  qui demande le nom.** « Qui a inventé X ? » est la question la moins
+  instructive du corpus, et c'est celle qui est dupliquée partout. Sur le cas
+  Wright, il faut en outre **aligner les trois réponses sur celle de la leçon 13**
+  (le pilotage sur trois axes), les deux autres étant incomplètes.
+
+## D. Les corrections de passe 1, relues et vérifiées
+
+La consigne demandait de rouvrir les corrections proposées par les relecteurs
+précédents. Je les ai reprises une à une. **Une est fausse, une est à préciser,
+une est un faux positif** (déjà traité en A) ; **toutes les autres sont
+confirmées**, dont plusieurs sur pièces.
+
+### [CORRECTION FAUSSE] Le lamellé-croisé : la correction proposée est plus fausse que le texte qu'elle corrige
+
+- **Constat d'origine** : [MOYEN] « Le lamellé-croisé : "plusieurs dizaines
+  d'étages" dans la question, "la vingtaine" dans le cours », avec pour
+  correction proposée « Il permet de construire des immeubles **d'une vingtaine
+  d'étages** en bois », au motif que « les plus hauts immeubles en bois
+  existants tournent autour de vingt-cinq niveaux ».
+- **Vérification** : ce n'est plus exact. Ascent, à Milwaukee, ses vingt-cinq
+  niveaux et son record de 2022, a été dépassé : Atlassian Central, à Sydney,
+  culmine à cent quatre-vingts mètres pour **trente-neuf niveaux** en structure
+  bois-acier, et Neutral Edison, à Milwaukee également, atteint **trente et un
+  niveaux** et doit être achevé cette année. « Plusieurs dizaines d'étages »,
+  formule du seed, est donc aujourd'hui **exact** ; « une vingtaine », formule
+  proposée en correction, serait **faux par défaut**.
+- **Conclusion** : ne pas appliquer cette correction. Il reste vrai que la
+  question et son cours ne disent pas la même chose — mais c'est le **cours**
+  qu'il faut mettre à jour (« dont les plus hauts dépassent aujourd'hui la
+  vingtaine de niveaux » → « dont les plus hauts dépassent aujourd'hui la
+  trentaine de niveaux »), pas la question. C'est un rappel utile : quand un
+  cours et une question divergent sur un chiffre qui bouge, ce n'est pas
+  toujours la question qui a tort.
+- Source : https://newatlas.com/architecture/atlassian-central-timber-tower-tops-out
+
+### [CORRECTION À PRÉCISER] La production de blé indienne : « quadruple » est un peu court
+
+- **Constat d'origine** : [MOYEN] leçon 09, « × 10 » corrigé en « quadruple ».
+- **Vérification** : les séries disponibles donnent 11 millions de tonnes vers
+  1960, 20 en 1970, 32 en 1980, une cinquantaine en 1990, 75 en 2000. Le facteur
+  sur 1960-1990 est donc compris entre **4,5 et 5** selon la série retenue
+  (49,9 Mt pour l'USDA, 55,1 Mt pour le ministère indien en 1990-91), et non
+  quatre. Le diagnostic du relecteur — « × 10 est faux sur la période
+  annoncée » — est parfaitement juste ; c'est la valeur de remplacement qui est
+  légèrement basse.
+- **Correction révisée** : « L'Inde multiplie par cinq sa production de blé
+  entre 1960 et 1990 », et dans le visuel « × 5 environ — la production de blé
+  de l'Inde entre 1960 et 1990 ». Si l'on veut être à l'abri du choix de série :
+  « de onze à une cinquantaine de millions de tonnes entre 1960 et 1990 »,
+  formulation qui donne les deux bornes et ne dépend d'aucun arrondi.
+
+### Corrections vérifiées et confirmées
+
+- **L'ESA à vingt-trois États membres** : confirmé. La Slovénie est devenue le
+  vingt-troisième État membre le 1er janvier 2025, après signature de l'accord
+  d'adhésion le 18 juin 2024. Le chiffre du seed (vingt-deux) est bien périmé.
+  Source : https://www.esa.int/About_Us/Corporate_news/Slovenia_becomes_23rd_ESA_Member_State
+- **Thimonnier et le point de chaînette** : confirmé, et sur pièces. Le brevet
+  du 17 avril 1830 porte sur une machine en bois qui coud « au point de
+  chaînette, à l'aide d'un crochet », à deux cents points par minute ; les
+  sources françaises précisent que « ne réalisant que le point de chaînette,
+  elle ne connut pas de développement industriel étendu ». La correction du
+  relecteur — reformuler l'énoncé en « la première machine à coudre
+  industrielle, au point de chaînette » — est la bonne, et le constat de
+  paternité fausse tient.
+  Source : https://www.universalis.fr/encyclopedie/machine-a-coudre-de-thimonnier/
+- **La première horloge atomique, une seconde sur trois cents ans** : confirmé,
+  et l'arbitrage laissé ouvert par le deuxième relecteur peut être tranché en
+  faveur de la valeur institutionnelle. Le NPL, qui a construit l'appareil,
+  écrit : « By 1955, Essen and Parry had developed a clock to provide an
+  accuracy of 1 second in 300 years. » La leçon 11 (« une seconde près sur
+  trente ans ») est donc bien fausse d'un facteur dix, et il faut corriger la
+  section **et** la frise.
+  Source : https://www.npl.co.uk/about-us/history/famous/louis-essen
+- **Loi de Moore, Bertha Benz 1888, Kilby 1958 / Noyce 1959, Wright 260 mètres,
+  Airbus fondé à deux puis rejoint par l'Espagne en 1972 et le Royaume-Uni en
+  1979, A300 en service le 23 mai 1974, Gutenberg et ses deux prêts de huit
+  cents florins, Dirichlet et Legendre pour l'exposant 5, Perceptrons de Minsky
+  et Papert en 1969, loi du minimum de Sprengel, magnétite au IVe siècle avant
+  notre ère, Élisabeth Thible, nœud 130 nanomètres en 2002, MD5 et SHA-1 cassés,
+  pont de Brooklyn à 486 mètres, descendance des Montgolfier, premier vol
+  **libre** habité du 21 novembre 1783, Marie Curie « première et seule »** :
+  tous vérifiés, tous confirmés. Aucune de ces corrections n'appelle de reprise.
+
+### [GRAVE] Le patron « seul » est plus étendu et plus fiable que la passe 1 ne le disait
+
+- **Constat d'origine** : [MOYEN] « Distracteurs rendus faux par un "seul"
+  ajouté après coup », avec une dizaine d'exemples et la remarque que « la bonne
+  réponse est toujours celle sans "seul" ».
+- **Mesure sur le contenu chargé** : le patron ne compte pas dix occurrences
+  mais **vingt-sept**, réparties dans **dix-neuf compétences sur quarante-cinq**,
+  et il n'admet **aucune exception** : sur les vingt-sept questions dont un
+  choix se termine par l'adverbe « seul » ou « seule », la bonne réponse ne le
+  porte jamais. (Cinq autres questions contiennent le mot « seul » dans leur
+  bonne réponse — « d'un seul côté », « d'une seule manière », « réparer seul » —
+  mais ce sont des emplois ordinaires, immédiatement distinguables du suffixe
+  correctif.)
+- **Pourquoi c'est plus grave qu'un défaut de style** : le mélange des
+  propositions (`melangerPropositions`, appliqué dans `contenuDe`) neutralise
+  tous les indices de position, mais il ne peut rien contre un indice porté par
+  le texte lui-même. Un apprenant qui repère le patron — et il le repérera,
+  vingt-sept fois — gagne quatre pour cent du domaine sans rien savoir. C'est,
+  en volume, le plus gros défaut de qualité des QCM du domaine.
+- **Correction proposée** : traiter les vingt-sept d'un bloc, et non une à une.
+  Le remède n'est pas de retirer l'adverbe (le distracteur redeviendrait vrai)
+  mais de changer de distracteur. Trois exemples : « Le procédé Ostwald seul » →
+  « Le procédé Frasch » (qui ne fixe pas l'azote) ; « Galilée seul » → « Robert
+  Hooke » (le nom est déjà dans la liste : mettre « Jean Picard ») ; « Charles
+  Hall seul » → « Alfred Nobel ». La règle : un distracteur doit être faux parce
+  qu'il désigne autre chose, jamais parce qu'on lui a ajouté une restriction.
+
+## E. La leçon 17 relue une fois chargée : la moitié qui défait l'autre
+
+Le brief signalait la leçon 17 comme la plus exposée au risque de paternité
+simplifiée. Les deux relecteurs précédents l'ont lue et l'ont trouvée
+exemplaire — **et ils ont raison sur la leçon**. Mais une fois le contenu
+chargé, la compétence `cg-sciences-tech-17` ne compte pas cinq questions : elle
+en compte **quinze**, parce que la notion `st3-inventions-francaises` y est
+versée par `FUSIONS`. Et les dix questions ajoutées disent le contraire de la
+leçon d'accueil.
+
+Les cinq questions patrimoniales sont formulées ainsi : « Quel **rôle** Nicéphore
+Niépce a-t-il joué… », « **Que peut-on dire de la paternité** de la carte à
+puce… », « **Pour quelle raison** Marie Curie… ». Les dix questions du seed sont
+toutes bâties sur le même moule : « **Qui invente** le braille ? », « Qui invente
+le stéthoscope ? », « Qui invente la machine à coudre… ? », « Qui met au point la
+carte à puce ? », neuf fois sur dix suivies d'une explication d'une ligne. C'est
+la forme de question que la leçon existe précisément pour nuancer.
+
+### [GRAVE] La carte à puce : la compétence enseigne à la fois la paternité partagée et la paternité unique
+
+- **Où** : `cg-sciences-tech-17`, questions 5 et 14 — c'est-à-dire
+  `heritage/culture-g/data/lecons/sciences-tech/17.json` (quiz 5) et
+  `prisma/seed/culture-g/sciences-tech-3.ts` (`st3-inventions-francaises`).
+- **Texte (question 5)** : « Que peut-on dire de la paternité de la carte à
+  puce ? » → « **elle est partagée** : Roland Moreno dépose un brevet en 1974,
+  mais Gröttrup et Dethloff en avaient déposé un dès 1968 », avec une
+  explication qui ajoute Michel Ugon, le CP8 de 1977 et le SPOM de 1978, et
+  conclut : « La paternité est donc partagée entre plusieurs équipes. »
+- **Texte (question 14)** : « Qui met au point la carte à puce ? » → « **Roland
+  Moreno** », explication « Son brevet de 1974 a été à l'origine d'une industrie
+  mondiale. »
+- **Problème** : dans la même compétence, à neuf questions d'intervalle,
+  l'apprenant apprend d'abord que la paternité est partagée entre au moins trois
+  équipes, puis qu'elle revient à Roland Moreno. La seconde question est
+  exactement l'erreur que la première enseigne à ne pas commettre. S'y ajoute le
+  défaut mécanique déjà décrit : l'énoncé de la question 5 **nomme Roland
+  Moreno**, donc donne la réponse de la question 14.
+- **Correction proposée** : supprimer la question 14. Si l'on tient à garder un
+  item du seed sur ce sujet, le reformuler en question de mécanisme, à laquelle
+  la leçon répond : « Qu'apporte le brevet SPOM de Michel Ugon, déposé en
+  1978 ? » → « La réunion du processeur et de la mémoire sur une même puce ».
+
+### [MOYEN] Pasteur : la même simplification, deux fois
+
+- **Où** : `cg-sciences-tech-17`, questions 3 et 10.
+- **Texte (question 10, du seed)** : « Qui met au point le premier vaccin contre
+  la rage ? » → « Louis Pasteur », explication « Il l'a administré en 1885 à un
+  enfant mordu, **sans être médecin lui-même**. »
+- **Problème** : l'explication se contredit en une phrase. Pasteur n'a pas
+  administré l'injection : n'étant pas médecin, il ne pouvait pas le faire, et
+  ce sont les docteurs Jacques-Joseph Grancher et Alfred Vulpian qui ont
+  pratiqué les inoculations sur Joseph Meister sous sa direction. La mention
+  « sans être médecin lui-même » est vraie et c'est justement la raison pour
+  laquelle « il l'a administré » est faux. (L'explication patrimoniale de la
+  question 3 commet la même simplification : « Louis Pasteur administra à Joseph
+  Meister… ». Elle est plus excusable, la formule étant consacrée.)
+- **Correction proposée** : « Le vaccin fut inoculé le 6 juillet 1885 au jeune
+  Joseph Meister par le docteur Grancher, sous la direction de Pasteur, qui
+  était chimiste et non médecin. » Et, la question 3 posant déjà le même fait de
+  façon plus riche, supprimer purement et simplement la question 10.
+
+### [MOYEN] « L'État français a acheté le brevet en 1839 pour l'offrir au monde »
+
+- **Où** : `cg-sciences-tech-17`, question 7 (du seed), explication.
+- **Problème** : deux inexactitudes dans une phrase de douze mots.
+  1. L'État n'a pas *acheté un brevet* : la loi du 7 août 1839 institue des
+     **rentes viagères** — quatre mille francs à Isidore Niépce, six mille à
+     Daguerre (quatre mille plus deux mille au titre du diorama) — en échange de
+     la divulgation du procédé, qui n'a jamais été breveté en France.
+  2. « Pour l'offrir au monde » est la formule officielle, mais elle est
+     incomplète : Daguerre avait fait breveter le procédé en Angleterre cinq
+     jours avant l'annonce publique d'Arago du 19 août 1839. Le don au monde
+     excluait donc précisément le pays où il y avait le plus à gagner.
+- **Aggravant** : l'explication de la question 2, patrimoniale, est correcte et
+  détaillée sur les mêmes faits (le contrat du 14 décembre 1829, la mort de
+  Niépce en 1833, l'annonce du 7 janvier 1839, la publication du 19 août). La
+  question 7 rejoue donc la même matière en moins bien, dans la même compétence.
+- **Correction proposée** : supprimer la question 7, redondante avec la question
+  2 ; ou, si on la garde, « En échange d'une rente viagère votée en août 1839,
+  la France rendit le procédé public — sauf en Angleterre, où Daguerre l'avait
+  breveté quelques jours plus tôt. »
+
+### [MOYEN] Le Minitel : neuf millions de terminaux « dès les années 1980 »
+
+- **Où** : `cg-sciences-tech-17`, question 15 (du seed), explication.
+- **Texte** : « Neuf millions de terminaux et des milliers de services **dès les
+  années 1980**. »
+- **Problème** : le chiffre de neuf millions est celui du sommet du parc,
+  atteint dans les années 1990. À la fin des années 1980, le parc est de l'ordre
+  de cinq millions de terminaux. « Dès les années 1980 » avance le pic d'une
+  décennie. C'est le défaut « exact mais mal daté » déjà relevé ailleurs dans le
+  domaine.
+- **Correction proposée** : « Cinq millions de terminaux à la fin des années
+  1980, neuf millions au sommet du parc dans les années 1990, et des milliers de
+  services. »
+
+### [MOYEN] Six questions du seed se répondent sans rien savoir
+
+Dans les dix questions de `st3-inventions-francaises`, la bonne réponse est
+souvent la seule à nommer une personne réelle, ou la seule à ne pas être
+disqualifiée par le mot « seul ». Cumulés, les deux patrons rendent la moitié de
+la notion gratuite.
+
+- **« Qui invente le braille ? »** → choix : « Louis Braille, en France », « Un
+  imprimeur anglais », « Un médecin allemand », « Un instituteur américain ». Un
+  seul choix nomme quelqu'un, et il porte le nom du système. Il n'y a rien à
+  savoir.
+- **« Qui invente la machine à coudre à point noué en France ? »** → la bonne
+  réponse est la seule qui ne soit pas un simple nom (« Barthélemy Thimonnier
+  **pour la première machine industrielle** »). La rallonge qui trahit la
+  réponse est ici la même que celle qui rend l'énoncé faux (constat [GRAVE] de
+  la passe 1).
+- **Quatre autres** (« Hippolyte Bayard seul », « Émile Roux seul », « Charles
+  Hall seul », « Michel Ugon seul », « Le réseau Transpac seul ») relèvent du
+  patron « seul » traité en D.
+- **Correction proposée** : cette notion est celle qu'il faut reprendre en
+  priorité dans tout le domaine. Elle est intégralement redondante avec sa
+  leçon d'accueil, elle la contredit deux fois, et six de ses dix questions se
+  répondent sans connaissance. Le plus simple est de la **supprimer** : la leçon
+  17 couvre déjà les Montgolfier, Niépce et Daguerre, Pasteur, Marie Curie, le
+  braille, le pneumatique Michelin et la carte à puce, avec la nuance en plus.
+  Si l'on veut conserver dix questions sur les inventions françaises, il faut
+  les écrire sur ce que la leçon développe et n'interroge pas — le pneumatique
+  démontable du 18 juin 1891, L'Éclair de 1895, Bibendum en 1898, le guide de
+  1900, la télécarte de 1983 — et non redemander « qui a inventé quoi ».
+
+### Ce que la leçon 17 elle-même conserve d'exemplaire
+
+Rien de ce que le deuxième relecteur en a dit n'est démenti : la leçon écrit
+« L'invention est donc le fruit d'un travail à deux, même si le procédé
+commercialisé porte le seul nom de Daguerre », « La paternité est donc partagée
+entre plusieurs équipes », et présente le braille comme une reprise transformée
+du code de Charles Barbier. **Le problème n'est pas dans la leçon : il est dans
+ce qu'on lui a versé.**
+
+## F. Constats nouveaux de la relecture du seed en passe 2
+
+J'ai relu `sciences-tech.ts` et les notions de `sciences-tech-2.ts` que la passe
+1 avait le moins citées. La plupart de ce que j'y ai vérifié est juste — le
+détail est en fin de section. Quatre points nouveaux :
+
+### [MOYEN] « Qui invente le braille ? » : un distracteur qui est en partie la bonne réponse
+
+- **Où** : `prisma/seed/culture-g/sciences-tech.ts` — `st-inventions-quotidien`.
+- **Texte** : « Qui invente le braille, système de lecture tactile ? » → choix
+  « Louis Braille », « Valentin Haüy », « **Charles Barbier** », « Helen
+  Keller ».
+- **Problème** : deux défauts opposés dans la même liste. D'un côté **Helen
+  Keller** est un distracteur invraisemblable — née en 1880, sourde et aveugle,
+  américaine, elle n'a jamais rien inventé de tel ; il n'écarte personne. De
+  l'autre **Charles Barbier** est le distracteur trop vrai : c'est lui qui a
+  conçu l'écriture nocturne dont le braille dérive, et le dépôt le dit
+  lui-même — l'explication de la question jumelle de `st3-inventions-francaises`
+  écrit « Il s'est inspiré d'un code militaire nocturne conçu par Charles
+  Barbier », et la leçon 17 présente le braille comme « une reprise
+  transformée » de ce code. Un apprenant qui a lu la leçon peut légitimement
+  hésiter, et son hésitation vient de ce qu'il en sait plus, non moins.
+- **Correction proposée** : remplacer « Helen Keller » par un nom plausible et
+  franchement faux (Pierre Foucault, Maurice de la Sizeranne), et désamorcer
+  Barbier dans l'explication : « Louis Braille, à quinze ans, en simplifiant à
+  six points le code militaire nocturne de Charles Barbier, qui en comptait
+  douze et n'avait pas été conçu pour la lecture. »
+
+### [MINEUR] Le Kodak de 1888 n'avait pas encore de pellicule souple
+
+- **Où** : `prisma/seed/culture-g/sciences-tech.ts` — `st-inventions-quotidien`.
+- **Texte** : « Quelle invention de 1888 permet la photographie amateur de
+  masse ? » → « L'appareil Kodak **à pellicule souple** ».
+- **Problème** : le Kodak n°1 de 1888 est chargé de « stripping film », un
+  rouleau de **papier** enduit de gélatine dont l'émulsion est décollée au
+  développement. La pellicule souple transparente en nitrocellulose n'arrive
+  qu'en **1889** : brevet déposé en avril, production à partir d'août. La bonne
+  réponse est donc datée d'un an trop tôt sur le point même qui la caractérise.
+- **Correction proposée** : « L'appareil Kodak à film en rouleau », et dans
+  l'explication : « George Eastman vendait l'appareil chargé de cent vues sur un
+  rouleau de papier ; le client renvoyait le tout pour développement. La
+  pellicule transparente en celluloïd suit dès 1889. »
+- Source : https://camera-wiki.org/wiki/Kodak_No._1
+
+### [MINEUR] « Quelle invention de 1928… » : la pénicilline, encore une découverte
+
+Le relecteur de la passe 1 avait signalé que la pénicilline est une découverte
+et non une invention. Le chargement montre que le défaut est plus profond : la
+question de `st-inventions-quotidien` (« Quelle invention de 1928 est due à une
+observation de moisissure sur une boîte de Petri ? » → « La pénicilline ») et
+celle de `cg-sciences-tech-03` (« Qui a purifié la pénicilline et permis sa
+production en quantité, **après l'observation initiale d'Alexander Fleming en
+1928** ? » → « Howard Florey, Ernst Chain et leur équipe d'Oxford ») coexistent
+dans le domaine. La seconde emploie le mot juste — « observation » — et enseigne
+le vrai contenu ; la première appelle « invention » ce que la seconde appelle
+« observation initiale », et en fait le seul fait à retenir. À supprimer plutôt
+qu'à corriger : `cg-libre-sciences-tech-1` pose déjà « Quel médicament a été
+découvert par Alexander Fleming en 1928 ? ».
+
+### [MINEUR] Le syndrome de Kessler « décrit en 1978 » et le conditionnel
+
+Constat de langue déjà relevé, que je confirme et précise : « Décrit en 1978, il
+décrirait un scénario où… ». Outre la répétition du verbe, le conditionnel est
+doublement fautif ici — il s'agit d'un scénario prospectif, donc le conditionnel
+porterait sur le scénario, pas sur la description. Lire : « Décrit en 1978 par
+Donald Kessler, il désigne un scénario où les collisions engendreraient assez de
+débris pour en provoquer d'autres, jusqu'à rendre certaines orbites
+inutilisables. » Nommer Kessler ajoute en outre l'information que l'énoncé
+suppose connue.
+
+### Ce que la relecture du seed a vérifié sans rien trouver
+
+Pour que personne ne recommence : dans `st-medecine-technologies`,
+`st-mathematiques`, `st-statistiques-donnees`, `st-securite-numerique`,
+`st2-robotique` et `st2-espace-technologies`, j'ai contrôlé un à un les faits
+datés ou chiffrés, et ils sont exacts. Hounsfield et le Nobel 1979 ; le premier
+stimulateur implantable de 1958 et le patient survivant plus de quarante ans
+(Arne Larsson, mort en 2001) ; Barnard en 1967 et les dix-huit jours de survie
+de Louis Washkansky ; la PCR de Kary Mullis en 1983 ; Lindemann et la
+transcendance de pi en 1882 ; les théorèmes de Gödel de 1931 et la fin du
+programme de Hilbert ; les sept problèmes du prix du millénaire énoncés en 2000
+par l'institut Clay, dont un seul résolu ; la médaille Fields tous les quatre
+ans à deux à quatre lauréats de moins de quarante ans ; les six alunissages
+habités (11, 12, 14, 15, 16, 17) ; l'ISS à environ quatre cents kilomètres et
+quatre-vingt-dix minutes par orbite ; le miroir de Hubble corrigé en 1993 ; le
+James Webb lancé fin 2021 et placé à un million et demi de kilomètres ; les
+vingt-huit mille kilomètres par heure de l'orbite basse ; les quatre planètes
+visitées par Voyager 2 grâce à l'assistance gravitationnelle ; la vallée de
+l'étrange de Masahiro Mori en 1970 ; l'ANSSI créée en 2009 ; les trois points de
+marge d'erreur pour mille personnes ; le séquençage du génome humain achevé en
+2003 après treize ans. **Rien à corriger sur ces soixante et quelques faits.**
+
+---
+
+## Ce que la passe 2 a ajouté (bilan)
+
+La passe 1 avait lu les fichiers. La passe 2 a chargé le contenu et a trouvé six
+choses qu'aucune lecture de fichier ne pouvait donner :
+
+1. **Deux doublons francs à l'intérieur d'une même compétence** (Babbage dans
+   `cg-sciences-tech-c02`, le test de Turing dans `cg-sciences-tech-08`), nés de
+   la fusion entre le cahier d'origine et le seed, et non repérés par le filtre
+   automatique.
+2. **Deux paires inversées à l'intérieur d'une même compétence** (Haber-Bosch
+   dans `cg-sciences-tech-09`, Pasteur et la rage dans `cg-sciences-tech-17`),
+   catégorie qu'aucun filtre par recouvrement de mots ne peut détecter, et une
+   quinzaine d'autres entre compétences — dont James Watt quatre fois et les
+   frères Wright six fois, avec trois réponses différentes à la même question.
+3. **Quinze recouvrements entre les questions libres du cahier d'origine et les
+   notions du seed**, avec la même bonne réponse, dont ARPANET trois fois. Le
+   seuil de dédoublonnage (0,85) est trop haut pour les attraper.
+4. **Quatorze astuces sur quarante-cinq qui livrent la réponse** d'une de leurs
+   propres questions, dont six mot pour mot — près d'une notion sur trois, la
+   même proportion que dans les autres domaines.
+5. **Le patron « seul » mesuré** : vingt-sept questions, dix-neuf compétences,
+   zéro exception. Trois fois plus étendu que la passe 1 ne le disait, et
+   parfaitement fiable pour qui le repère.
+6. **La compétence `cg-sciences-tech-17` disséquée** : ses cinq questions
+   patrimoniales enseignent la paternité partagée, ses dix questions du seed
+   enseignent l'inverse, et elles se contredisent explicitement sur la carte à
+   puce. La crainte exprimée dans le brief était fondée — mais la faute n'est
+   pas dans la leçon, elle est dans ce qu'on lui a versé.
+
+Et, sur les corrections de la passe 1 : **une est fausse** (le lamellé-croisé,
+où la correction proposée serait plus fausse que le texte d'origine), **une est
+à réviser** (le facteur cinq et non quatre pour le blé indien), **une est un
+faux positif à retirer** (les « quatre notions sans cours »). Toutes les autres
+sont confirmées, plusieurs sur pièces (ESA, Thimonnier, Essen et Parry).
+
+## Ce qui est sain (passe 2)
+
+Le mécanisme de chargement lui-même est propre et bien documenté : le mélange
+des propositions a lieu en un seul endroit, le dédoublonnage est expliqué avec
+les paires qui ont servi à le calibrer, et l'ordre de priorité entre sources
+(leçon, puis question libre, puis notion écrite) est le bon. Les défauts relevés
+ci-dessus ne viennent pas d'une négligence mais du fait qu'un filtre par
+recouvrement de mots ne peut pas voir une question inversée ni une astuce
+bavarde. **Aucune question du domaine n'est sans explication**, et aucune
+explication ne se contente de recopier sa réponse : sur six cent quarante-sept
+questions, c'est remarquable, et cela mérite d'être dit après six sections de
+constats. Enfin, les soixante et quelques faits datés que j'ai recontrôlés dans
+les notions les moins citées par la passe 1 se sont tous révélés exacts : le
+domaine est solide sur le fond, ses défauts sont des défauts de construction.
