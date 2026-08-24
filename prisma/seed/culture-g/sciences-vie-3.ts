@@ -492,7 +492,7 @@ export const CG_SCIENCES_VIE_3: SeedSkill[] = [
     ["Comment mesure-t-on les climats du passé lointain ?", ["Par les isotopes des roches, des glaces et des fossiles", "Par les archives historiques", "Par les mesures instrumentales", "Par les cernes d'arbres uniquement"], 0,
      "Chaque archive couvre une échelle de temps différente."],
     ["Qu'est-ce qu'une carotte de glace ?", ["Un cylindre prélevé dans une calotte, contenant des bulles d'air fossiles", "Un échantillon de banquise", "Un forage sous-marin", "Une carotte sédimentaire"], 0,
-     "Celle de Vostok, en Antarctique, remonte à plus de huit cent mille ans."],
+     "Les carottes antarctiques les plus profondes, comme celle d'EPICA Dome C, remontent à plus de huit cent mille ans."],
     ["Que montrent les carottes de glace sur le CO2 atmosphérique ?", ["Sa concentration actuelle dépasse tout niveau des huit cent mille dernières années", "Une stabilité complète", "Des variations comparables à aujourd'hui", "Une baisse continue"], 0,
      "Les cycles glaciaires-interglaciaires y sont parfaitement lisibles."],
     ["Quelle est la principale cause de l'augmentation actuelle du CO2 ?", ["La combustion des énergies fossiles", "Le volcanisme", "La respiration des êtres vivants", "Le dégazage des océans"], 0,

@@ -7,7 +7,7 @@
   },
   {
    "titre": "Le battement du cœur",
-   "texte": "Un battement cardiaque n'est pas un simple soubresaut : c'est une succession ordonnée de mouvements que l'on appelle la révolution cardiaque. Elle comporte deux temps. Pendant la systole, le muscle se contracte et chasse le sang hors des cavités ; pendant la diastole, il se relâche et les cavités se remplissent à nouveau. Cette alternance se répète, au repos, de 60 à 80 fois par minute chez l'adulte, et le cœur propulse alors environ 4,5 à 5 litres de sang chaque minute, c'est-à-dire à peu près la totalité du sang de l'organisme. Ce qui frappe le plus, c'est que le cœur n'attend aucun ordre du cerveau pour battre. La commande naît en son sein, dans une petite région appelée nœud sinusal, qui produit spontanément des signaux électriques et impose le rythme à l'ensemble du muscle : c'est l'automatisme cardiaque. Le système nerveux ne fait que moduler cette cadence, en l'accélérant à l'effort ou sous l'effet de la peur, en la ralentissant au repos. La grande diversité des cœurs dans le monde animal éclaire ce fonctionnement : celui de la musaraigne pèse douze milligrammes, celui de la baleine bleue jusqu'à 600 kilogrammes, et la fréquence va d'une vingtaine de battements par minute chez la morue à environ 1 200 chez le colibri à gorge rubis.",
+   "texte": "Un battement cardiaque n'est pas un simple soubresaut : c'est une succession ordonnée de mouvements que l'on appelle la révolution cardiaque. Elle comporte deux temps. Pendant la systole, le muscle se contracte et chasse le sang hors des cavités ; pendant la diastole, il se relâche et les cavités se remplissent à nouveau. Cette alternance se répète, au repos, de 60 à 80 fois par minute chez l'adulte, et le cœur propulse alors environ 4,5 à 5 litres de sang chaque minute, c'est-à-dire à peu près la totalité du sang de l'organisme. Ce qui frappe le plus, c'est que le cœur n'attend aucun ordre du cerveau pour battre. La commande naît en son sein, dans une petite région appelée nœud sinusal, qui produit spontanément des signaux électriques et impose le rythme à l'ensemble du muscle : c'est l'automatisme cardiaque. Le système nerveux ne fait que moduler cette cadence, en l'accélérant à l'effort ou sous l'effet de la peur, en la ralentissant au repos. La grande diversité des cœurs dans le monde animal éclaire ce fonctionnement : celui de la musaraigne pèse douze milligrammes, celui de la baleine bleue environ 180 kilogrammes, et la fréquence va d'une vingtaine de battements par minute chez la morue à environ 1 200 chez le colibri à gorge rubis.",
    "visuel": {
     "type": "barres",
     "titre": "Battements du cœur par minute",
@@ -27,7 +27,7 @@
       "valeur": 1200
      }
     ],
-    "note": "La taille suit la même échelle vertigineuse : le cœur de la musaraigne pèse douze milligrammes, celui de la baleine bleue jusqu'à 600 kilogrammes."
+    "note": "La taille suit la même échelle vertigineuse : le cœur de la musaraigne pèse douze milligrammes, celui de la baleine bleue environ 180 kilogrammes."
    }
   },
   {

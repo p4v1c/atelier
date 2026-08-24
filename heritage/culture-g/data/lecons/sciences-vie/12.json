@@ -79,7 +79,7 @@
   },
   {
    "titre": "Les grandes étapes de la vie",
-   "texte": "La Terre s'est formée il y a environ 4,54 milliards d'années. Les premières cellules procaryotes, dépourvues de noyau, apparaissent il y a quelque 3,8 milliards d'années : pendant plus de deux milliards d'années, la vie restera microscopique et confinée dans l'eau. Un bouleversement majeur survient il y a environ 2,4 milliards d'années, quand des bactéries pratiquant la photosynthèse rejettent tant de dioxygène que l'atmosphère en est transformée : c'est la Grande Oxydation, une pollution à l'échelle planétaire causée par des êtres vivants, mais qui ouvrira la voie à la respiration. L'histoire du vivant doit d'ailleurs beaucoup à la coopération : la cellule eucaryote, à noyau, naît de l'association symbiotique de cellules différentes, et non d'une simple compétition. Vers 575 millions d'années, la faune de l'Édiacarien marque l'essor des premiers grands organismes pluricellulaires. La conquête de la terre ferme constitue l'étape suivante : les plantes sortent de l'eau il y a environ 480 millions d'années, suivies par les premiers tétrapodes, animaux à quatre membres, vers 365 millions d'années, soit 35 millions d'années plus tard. Cette sortie des eaux exigeait de résoudre trois problèmes : respirer l'air, supporter son propre poids et surtout éviter le dessèchement. Les dinosaures apparaîtront vers 230 millions d'années.",
+   "texte": "La Terre s'est formée il y a environ 4,54 milliards d'années. Les premières cellules procaryotes, dépourvues de noyau, apparaissent il y a quelque 3,8 milliards d'années : pendant plus de deux milliards d'années, la vie restera microscopique et confinée dans l'eau. Un bouleversement majeur survient il y a environ 2,4 milliards d'années, quand des bactéries pratiquant la photosynthèse rejettent tant de dioxygène que l'atmosphère en est transformée : c'est la Grande Oxydation, une pollution à l'échelle planétaire causée par des êtres vivants, mais qui ouvrira la voie à la respiration. L'histoire du vivant doit d'ailleurs beaucoup à la coopération : la cellule eucaryote, à noyau, naît de l'association symbiotique de cellules différentes, et non d'une simple compétition. Vers 575 millions d'années, la faune de l'Édiacarien marque l'essor des premiers grands organismes pluricellulaires. La conquête de la terre ferme constitue l'étape suivante : les plantes sortent de l'eau il y a environ 480 millions d'années, suivies par les premiers tétrapodes, animaux à quatre membres, vers 365 millions d'années, soit 115 millions d'années plus tard. Cette sortie des eaux exigeait de résoudre trois problèmes : respirer l'air, supporter son propre poids et surtout éviter le dessèchement. Les dinosaures apparaîtront vers 230 millions d'années.",
    "visuel": {
     "type": "frise",
     "titre": "Les grandes étapes de la vie",
@@ -176,14 +176,14 @@
   {
    "q": "Qui, entre les plantes et les animaux, a colonisé la terre ferme en premier ?",
    "choix": [
-    "Les plantes, environ 35 millions d'années avant les tétrapodes",
+    "Les plantes, environ 115 millions d'années avant les tétrapodes",
     "Les animaux, largement avant les plantes",
     "Les deux exactement en même temps",
     "Les animaux, environ 100 millions d'années avant"
    ],
    "bonne": 0,
    "difficulte": 2,
-   "explication": "Les plantes ont conquis la terre ferme il y a environ 480 millions d'années, tandis que les premiers tétrapodes, animaux à quatre membres, sont apparus vers 365 millions d'années : les animaux ont donc mis environ 35 millions d'années de plus que les plantes à réussir cette transition. Cet ordre est logique, car les végétaux terrestres constituaient une ressource alimentaire et un abri disponibles pour les animaux qui suivraient. Quitter l'eau imposait de résoudre plusieurs problèmes simultanément : respirer l'air, supporter son propre poids sans la poussée de l'eau et surtout éviter le dessèchement."
+   "explication": "Les plantes ont conquis la terre ferme il y a environ 480 millions d'années, tandis que les premiers tétrapodes, animaux à quatre membres, sont apparus vers 365 millions d'années : les animaux ont donc mis environ 115 millions d'années de plus que les plantes à réussir cette transition. Cet ordre est logique, car les végétaux terrestres constituaient une ressource alimentaire et un abri disponibles pour les animaux qui suivraient. Quitter l'eau imposait de résoudre plusieurs problèmes simultanément : respirer l'air, supporter son propre poids sans la poussée de l'eau et surtout éviter le dessèchement."
   }
  ],
  "sources": [
