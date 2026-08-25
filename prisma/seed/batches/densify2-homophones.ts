@@ -167,12 +167,12 @@ export const DENSIFY2_HOMOPHONES: ContentBatch = {
       { marked: "Le chemin monte [verre] le col en pente douce.", fix: "vers" },
     ]},
     { ruleSlug: "amande-amende", sentences: [
-      { marked: "Le gâteau contient de la poudre d'[amende] douce.", fix: "amande" },
+      { marked: "Le gâteau contient de la poudre d'[amende] douce.", fix: "d'amande" },
       { marked: "Il a écopé d'une [amande] pour excès de vitesse.", fix: "amende" },
     ]},
     { ruleSlug: "air-aire", sentences: [
-      { marked: "L'[aire] est irrespirable dans ce couloir sans fenêtre.", fix: "air" },
-      { marked: "Nous nous sommes garés sur l'[air] de repos suivante.", fix: "aire" },
+      { marked: "L'[aire] est irrespirable dans ce couloir sans fenêtre.", fix: "L'air" },
+      { marked: "Nous nous sommes garés sur l'[air] de repos suivante.", fix: "l'aire" },
     ]},
     { ruleSlug: "cane-canne", sentences: [
       { marked: "La [canne] traverse la route suivie de ses petits.", fix: "cane" },

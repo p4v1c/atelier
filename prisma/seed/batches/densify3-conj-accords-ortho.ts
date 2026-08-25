@@ -111,8 +111,8 @@ export const DENSIFY3_CONJ_ACC_ORTHO: ContentBatch = {
 
     /* ── lot 011 : accords ── */
     { ruleSlug: "accord-verbe-ni-ni", sentences: [
-      { marked: "Ni le bruit ni la chaleur ne l'[ont] empêché de dormir.", fix: "a" },
-      { marked: "Ni son père ni sa mère n'[a] pu venir ce jour-là.", fix: "ont" },
+      { marked: "Ni l'un ni l'autre ne [seront] retenu pour le poste.", fix: "sera" },
+      { marked: "Ni son père ni sa mère ne [comprit] sa décision.", fix: "comprirent" },
     ]},
     { ruleSlug: "accord-verbe-ou", sentences: [
       { marked: "Un froid ou une averse [gâcheront] la fête de samedi.", fix: "gâchera" },
@@ -124,7 +124,7 @@ export const DENSIFY3_CONJ_ACC_ORTHO: ContentBatch = {
     ]},
     { ruleSlug: "accord-dizaine", sentences: [
       { marked: "Une quinzaine d'élèves [manque] à l'appel ce matin.", fix: "manquent" },
-      { marked: "Un millier de visiteurs [est] venu dès le premier jour.", fix: "sont" },
+      { marked: "Un millier de visiteurs [afflue] dès le premier jour.", fix: "affluent" },
     ]},
     { ruleSlug: "accord-attribut-cod", sentences: [
       { marked: "On les a trouvés bien [silencieuse] pendant le trajet.", fix: "silencieux" },
@@ -188,7 +188,7 @@ export const DENSIFY3_CONJ_ACC_ORTHO: ContentBatch = {
     ]},
     { ruleSlug: "accord-tout-resume", sentences: [
       { marked: "Les couleurs, les odeurs, tout [rappelaient] l'enfance.", fix: "rappelait" },
-      { marked: "Ni la fatigue ni la peur, rien ne l'[ont] arrêté.", fix: "a" },
+      { marked: "Ni la fatigue ni la peur, rien ne l'[ont] arrêté.", fix: "l'a" },
     ]},
     { ruleSlug: "accord-se-faire-participe", sentences: [
       { marked: "Elles se sont [faites] rembourser sans la moindre difficulté.", fix: "fait" },
@@ -200,7 +200,7 @@ export const DENSIFY3_CONJ_ACC_ORTHO: ContentBatch = {
     ]},
     { ruleSlug: "accord-nom-nombre-precis", sentences: [
       { marked: "Trois heures et demie [a] suffi pour tout démonter.", fix: "ont" },
-      { marked: "Un mois et demi se sont [écoulés] depuis sa dernière lettre.", fix: "écoulé" },
+      { marked: "Un mois et demi [séparent] les deux versions du texte.", fix: "sépare" },
     ]},
     { ruleSlug: "accord-madame-le-titre", sentences: [
       { marked: "Monsieur le maire et son adjointe [signera] l'arrêté.", fix: "signeront" },
@@ -214,14 +214,14 @@ export const DENSIFY3_CONJ_ACC_ORTHO: ContentBatch = {
     /* ── lot 012 : orthographe d'usage ── */
     { ruleSlug: "ortho-abattre-abbaye", sentences: [
       { marked: "L'orage a fait [abbattre] deux peupliers du parc.", fix: "abattre" },
-      { marked: "Les moines de l'[abaye] cultivaient déjà la vigne.", fix: "abbaye" },
+      { marked: "Les moines de l'[abaye] cultivaient déjà la vigne.", fix: "l'abbaye" },
     ]},
     { ruleSlug: "ortho-apercevoir-apparaitre", sentences: [
       { marked: "Un doute commence à [apparaitre] dans son témoignage.", fix: "apparaître" },
       { marked: "Nous avons [appercu] la maison depuis le sommet.", fix: "aperçu" },
     ]},
     { ruleSlug: "ortho-agrafe-aggraver", sentences: [
-      { marked: "L'humidité risque d'[agraver] les fissures du mur.", fix: "aggraver" },
+      { marked: "L'humidité risque d'[agraver] les fissures du mur.", fix: "d'aggraver" },
       { marked: "Il a fixé les feuilles avec deux [aggrafes].", fix: "agrafes" },
     ]},
     { ruleSlug: "ortho-alourdir-allonger", sentences: [
@@ -250,7 +250,7 @@ export const DENSIFY3_CONJ_ACC_ORTHO: ContentBatch = {
     ]},
     { ruleSlug: "ortho-irriter-irrigation", sentences: [
       { marked: "Cette décision paraît [irationnelle] à tout le monde.", fix: "irrationnelle" },
-      { marked: "Le canal d'[irigation] traverse tout le domaine.", fix: "irrigation" },
+      { marked: "Le canal d'[irigation] traverse tout le domaine.", fix: "d'irrigation" },
     ]},
     { ruleSlug: "ortho-parallele", sentences: [
       { marked: "Il mène une activité [paralèle] à son emploi principal.", fix: "parallèle" },
@@ -285,7 +285,7 @@ export const DENSIFY3_CONJ_ACC_ORTHO: ContentBatch = {
       { marked: "La [fidélitée] de ses clients ne se dément pas.", fix: "fidélité" },
     ]},
     { ruleSlug: "ortho-mots-en-tion-ption", sentences: [
-      { marked: "L'[interuption] de séance a duré vingt minutes.", fix: "interruption" },
+      { marked: "L'[interuption] de séance a duré vingt minutes.", fix: "L'interruption" },
       { marked: "Sa [démition] a surpris toute la rédaction.", fix: "démission" },
     ]},
     { ruleSlug: "ortho-mots-en-ien", sentences: [

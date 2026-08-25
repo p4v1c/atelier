@@ -19,7 +19,7 @@ export const DENSIFY_VOCABULAIRE: ContentBatch = {
     { ruleSlug: "irruption", sentences: [
       { marked: "Il a fait [éruption] dans la salle en pleine réunion.", fix: "irruption" },
       { marked: "Une [irruption] cutanée l'a conduit chez le dermatologue.", fix: "éruption" },
-      { marked: "L'[éruption] des manifestants a surpris le service d'ordre.", fix: "irruption" },
+      { marked: "L'[éruption] des manifestants a surpris le service d'ordre.", fix: "L'irruption" },
     ]},
     { ruleSlug: "voire", sentences: [
       { marked: "Il faudra deux jours, [voir] trois, pour tout terminer.", fix: "voire" },
@@ -39,7 +39,7 @@ export const DENSIFY_VOCABULAIRE: ContentBatch = {
     { ruleSlug: "amener", sentences: [
       { marked: "Peux-tu [amener] le dossier à la réunion de demain ?", fix: "apporter" },
       { marked: "Il a [apporté] son fils à l'école ce matin.", fix: "amené" },
-      { marked: "N'oublie pas d'[amener] du pain en rentrant ce soir.", fix: "apporter" },
+      { marked: "N'oublie pas d'[amener] du pain en rentrant ce soir.", fix: "d'apporter" },
     ]},
     { ruleSlug: "emmener", sentences: [
       { marked: "Il a [emmené] son parapluie sans même y penser.", fix: "emporté" },
@@ -58,7 +58,7 @@ export const DENSIFY_VOCABULAIRE: ContentBatch = {
     { ruleSlug: "effraction", sentences: [
       { marked: "Les voleurs sont entrés par [infraction] pendant la nuit.", fix: "effraction" },
       { marked: "Ce stationnement constitue une [effraction] au code de la route.", fix: "infraction" },
-      { marked: "La serrure porte des traces d'[infraction] évidentes.", fix: "effraction" },
+      { marked: "La serrure porte des traces d'[infraction] évidentes.", fix: "d'effraction" },
     ]},
     { ruleSlug: "original", sentences: [
       { marked: "Le péché [original] est un concept théologique ancien.", fix: "originel" },
@@ -110,9 +110,9 @@ export const DENSIFY_VOCABULAIRE: ContentBatch = {
       { marked: "Le trésor public doit [recouvrir] cette créance ancienne.", fix: "recouvrer" },
     ]},
     { ruleSlug: "inclinaison", sentences: [
-      { marked: "L'[inclination] du toit facilite l'écoulement de la pluie.", fix: "inclinaison" },
+      { marked: "L'[inclination] du toit facilite l'écoulement de la pluie.", fix: "L'inclinaison" },
       { marked: "Il a toujours eu une [inclinaison] pour la musique ancienne.", fix: "inclination" },
-      { marked: "Mesure l'[inclination] de la pente avant de creuser.", fix: "inclinaison" },
+      { marked: "Mesure l'[inclination] de la pente avant de creuser.", fix: "l'inclinaison" },
     ]},
     { ruleSlug: "notable", sentences: [
       { marked: "Sa mauvaise foi est [notable] dans toute la profession.", fix: "notoire" },
@@ -130,9 +130,9 @@ export const DENSIFY_VOCABULAIRE: ContentBatch = {
       { marked: "Te rappelles-tu [de] son visage après tant d'années ?", fix: "à supprimer" },
     ]},
     { ruleSlug: "attention-intention", sentences: [
-      { marked: "Ce courrier est à l'[intention] du service comptable.", fix: "attention" },
-      { marked: "Une fête a été organisée à l'[attention] des retraités.", fix: "intention" },
-      { marked: "Note à l'[intention] de tous les chefs de service.", fix: "attention" },
+      { marked: "Ce courrier est à l'[intention] du service comptable.", fix: "l'attention" },
+      { marked: "Une fête a été organisée à l'[attention] des retraités.", fix: "l'intention" },
+      { marked: "Note à l'[intention] de tous les chefs de service.", fix: "l'attention" },
     ]},
     { ruleSlug: "en-termes", sentences: [
       { marked: "En [terme] de délais, la situation reste tendue.", fix: "termes" },
@@ -182,17 +182,17 @@ export const DENSIFY_VOCABULAIRE: ContentBatch = {
     { ruleSlug: "emigrer", sentences: [
       { marked: "Ses grands-parents ont [immigré] d'Italie en 1930.", fix: "émigré" },
       { marked: "Beaucoup ont [émigré] en France après cette période.", fix: "immigré" },
-      { marked: "Il a décidé d'[immigrer] pour fuir la crise économique.", fix: "émigrer" },
+      { marked: "Il a décidé d'[immigrer] pour fuir la crise économique.", fix: "d'émigrer" },
     ]},
     { ruleSlug: "elucider", sentences: [
       { marked: "Le juge a [éludé] cette affaire en quelques semaines.", fix: "élucidé" },
       { marked: "Il a [élucidé] la question en changeant de sujet.", fix: "éludé" },
-      { marked: "Rien n'a permis d'[éluder] les circonstances de sa disparition.", fix: "élucider" },
+      { marked: "Rien n'a permis d'[éluder] les circonstances de sa disparition.", fix: "d'élucider" },
     ]},
     { ruleSlug: "habilete", sentences: [
       { marked: "Son [habilité] manuelle impressionne tous ses collègues.", fix: "habileté" },
-      { marked: "Il conteste l'[habileté] du tribunal à juger cette affaire.", fix: "habilité" },
-      { marked: "L'[habilité] du chirurgien a sauvé le patient.", fix: "habileté" },
+      { marked: "Il conteste l'[habileté] du tribunal à juger cette affaire.", fix: "l'habilité" },
+      { marked: "L'[habilité] du chirurgien a sauvé le patient.", fix: "L'habileté" },
     ]},
     { ruleSlug: "hiberner", sentences: [
       { marked: "Les marmottes [hivernent] pendant six mois d'affilée.", fix: "hibernent" },
@@ -245,7 +245,7 @@ export const DENSIFY_VOCABULAIRE: ContentBatch = {
       { marked: "Ces baies rouges sont hautement [venimeuses].", fix: "vénéneuses" },
     ]},
     { ruleSlug: "eminent-2", sentences: [
-      { marked: "L'[influence] de touristes bloque tout le centre-ville.", fix: "affluence" },
+      { marked: "L'[influence] de touristes bloque tout le centre-ville.", fix: "L'affluence" },
       { marked: "Son [affluence] sur le conseil reste considérable.", fix: "influence" },
       { marked: "On note une forte [influence] aux caisses le samedi.", fix: "affluence" },
     ]},
@@ -305,9 +305,9 @@ export const DENSIFY_VOCABULAIRE: ContentBatch = {
       { marked: "Chacun juge en son [fort] intérieur sans jamais le dire.", fix: "for" },
     ]},
     { ruleSlug: "a-lenvi", sentences: [
-      { marked: "Ils se sont vantés à l'[envie] toute la soirée.", fix: "envi" },
-      { marked: "Les orateurs se citaient à l'[envie] les uns les autres.", fix: "envi" },
-      { marked: "On répète à l'[envie] que rien ne changera jamais.", fix: "envi" },
+      { marked: "Ils se sont vantés à l'[envie] toute la soirée.", fix: "l'envi" },
+      { marked: "Les orateurs se citaient à l'[envie] les uns les autres.", fix: "l'envi" },
+      { marked: "On répète à l'[envie] que rien ne changera jamais.", fix: "l'envi" },
     ]},
     { ruleSlug: "dores-deja", sentences: [
       { marked: "Nous pouvons [d'hors] et déjà annoncer la bonne nouvelle.", fix: "d'ores" },

@@ -221,7 +221,7 @@ export const DENSIFY3_PONCT2_PRO_EXPR: ContentBatch = {
     /* ── lot 015 : expressions figées ── */
     { ruleSlug: "expr-battre-son-plein", sentences: [
       { marked: "Le marché bat son [pleins] tous les samedis matin.", fix: "plein" },
-      { marked: "Les préparatifs battaient leurs [pleins] la veille du départ.", fix: "plein" },
+      { marked: "Les préparatifs battaient leur [pleins] la veille du départ.", fix: "plein" },
     ]},
     { ruleSlug: "expr-maille-a-partir", sentences: [
       { marked: "Nous avons eu [mailles] à partir avec le service des impôts.", fix: "maille" },
@@ -244,12 +244,12 @@ export const DENSIFY3_PONCT2_PRO_EXPR: ContentBatch = {
       { marked: "Elle n'en avait [cur] et poursuivait sa lecture.", fix: "cure" },
     ]},
     { ruleSlug: "expr-a-linstar", sentences: [
-      { marked: "À l'[instant] de ses collègues, il a refusé de signer.", fix: "instar" },
-      { marked: "À l'[instars] des grandes villes, la commune se réorganise.", fix: "instar" },
+      { marked: "À l'[instant] de ses collègues, il a refusé de signer.", fix: "l'instar" },
+      { marked: "À l'[instars] des grandes villes, la commune se réorganise.", fix: "l'instar" },
     ]},
     { ruleSlug: "expr-pierre-achoppement", sentences: [
-      { marked: "La durée du bail est la pierre d'[achopement] du contrat.", fix: "achoppement" },
-      { marked: "Ce détail devint la pierre d'[achoppemant] des débats.", fix: "achoppement" },
+      { marked: "La durée du bail est la pierre d'[achopement] du contrat.", fix: "d'achoppement" },
+      { marked: "Ce détail devint la pierre d'[achoppemant] des débats.", fix: "d'achoppement" },
     ]},
     { ruleSlug: "expr-couper-court", sentences: [
       { marked: "Elle a coupé [courts] aux rumeurs dès le premier jour.", fix: "court" },
@@ -280,8 +280,8 @@ export const DENSIFY3_PONCT2_PRO_EXPR: ContentBatch = {
       { marked: "Elle a pris à [partis] le représentant du syndicat.", fix: "partie" },
     ]},
     { ruleSlug: "expr-sous-legide", sentences: [
-      { marked: "La collecte se fait sous l'[egide] d'une fondation.", fix: "égide" },
-      { marked: "Le tournoi se joue sous l'[égyde] de la ligue régionale.", fix: "égide" },
+      { marked: "La collecte se fait sous l'[egide] d'une fondation.", fix: "l'égide" },
+      { marked: "Le tournoi se joue sous l'[égyde] de la ligue régionale.", fix: "l'égide" },
     ]},
     { ruleSlug: "expr-vaille-que-vaille", sentences: [
       { marked: "L'atelier fonctionne [vaillle] que vaille depuis mars.", fix: "vaille" },
@@ -300,8 +300,8 @@ export const DENSIFY3_PONCT2_PRO_EXPR: ContentBatch = {
       { marked: "Il a signé, [non-obstant] les réserves du notaire.", fix: "nonobstant" },
     ]},
     { ruleSlug: "expr-a-lencontre", sentences: [
-      { marked: "Ce choix va à l'[encontre] de toutes nos habitudes.", fix: "encontre" },
-      { marked: "Il est parti à l'[encontre] de son frère à l'aéroport.", fix: "rencontre" },
+      { marked: "Ce choix va à l'encontre de toutes nos habitudes.", fix: null },
+      { marked: "Il est parti à l'[encontre] de son frère à l'aéroport.", fix: "la rencontre" },
     ]},
     { ruleSlug: "expr-de-concert", sentences: [
       { marked: "Les deux maires ont agi de [conserve] sur ce dossier.", fix: "concert" },
@@ -312,8 +312,8 @@ export const DENSIFY3_PONCT2_PRO_EXPR: ContentBatch = {
       { marked: "Rien n'est réglé, tant s'en [fallent] pour l'instant.", fix: "faut" },
     ]},
     { ruleSlug: "expr-en-lespece", sentences: [
-      { marked: "En l'[espèces], aucune faute ne peut lui être reprochée.", fix: "espèce" },
-      { marked: "Le texte est inapplicable en l'[espece] examinée.", fix: "espèce" },
+      { marked: "En l'[espèces], aucune faute ne peut lui être reprochée.", fix: "l'espèce" },
+      { marked: "Le texte est inapplicable en l'[espece] examinée.", fix: "l'espèce" },
     ]},
     { ruleSlug: "expr-tenir-tete", sentences: [
       { marked: "Elle a tenu [têtes] à toute la commission.", fix: "tête" },

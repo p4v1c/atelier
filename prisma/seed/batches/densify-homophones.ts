@@ -168,12 +168,12 @@ export const DENSIFY_HOMOPHONES: ContentBatch = {
       { marked: "Un [verre] de terre traversait lentement l'allée.", fix: "ver" },
     ]},
     { ruleSlug: "amande-amende", sentences: [
-      { marked: "La pâte d'[amende] parfume délicieusement ce gâteau.", fix: "amande" },
+      { marked: "La pâte d'[amende] parfume délicieusement ce gâteau.", fix: "d'amande" },
       { marked: "Le stationnement gênant coûte une [amande] salée.", fix: "amende" },
     ]},
     { ruleSlug: "air-aire", sentences: [
       { marked: "Nous nous sommes arrêtés sur une [air] de repos.", fix: "aire" },
-      { marked: "L'[aire] de la montagne est vif au petit matin.", fix: "air" },
+      { marked: "L'[aire] de la montagne est vif au petit matin.", fix: "L'air" },
     ]},
     { ruleSlug: "cane-canne", sentences: [
       { marked: "Il marche avec une [cane] depuis son accident.", fix: "canne" },

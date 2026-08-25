@@ -86,3 +86,64 @@ Appliqués :
 
 Porte : `tsc` ✓ · `validate:content` 0 erreur / 634 avertissements (inchangé) ·
 236 tests ✓ · `build` ✓.
+
+### Lot 2 — le piège d'élision, et neuf règles qui enseignaient du faux
+
+**Le piège d'élision, trouvé en corrigeant `accord-verbe-ni-ni`, puis mesuré sur
+tout le module.** « Ni la pluie ni le vent ne l'[a] découragé » : le token marqué
+vaut « l'a » tout entier, jamais le seul « a ». La correction « ont » donnait
+donc « ne ont découragé ». Même mécanisme sur « n'[est] », « sous l'[egide] »,
+« à l'[encontre] », « en l'[espèces] », « pierre d'[achopement] ».
+
+`.travail-audit/elisions.ts` en a trouvé **117 dans tout le module**, là où
+l'audit en citait quatre. 103 étaient dans les lots, 14 dans le contenu
+d'origine (corrigées par `PATCHES`, qui garde `legacy.json` fidèle).
+
+Un contrôle `elision-emportee` a été ajouté au validateur du module pour que le
+défaut ne revienne pas. Il ne se déclenche que lorsque le préfixe devait rester,
+c'est-à-dire quand la correction commence par une voyelle ou un h — sinon
+« n'y » → « ni » et « d'en » → « dans », qui sont des homophones où le token
+entier est la faute, seraient signalés à tort.
+
+Deux outils neufs, gardés :
+- `.travail-audit/elisions.ts` — le piège d'élision.
+- `.travail-audit/sans-effet.ts` — les corrections qui reproduisent le mot marqué,
+  donc les exercices vides. Trois trouvées, toutes créées par la réparation
+  automatique elle-même, toutes reprises à la main.
+
+Le test `legacy-migration` supposait qu'un patch réécrit toujours la phrase :
+il accepte maintenant un patch qui ne corrige que la correction, et vérifie
+alors le `fix`. **Contrôle assoupli, pas contourné** : la nouvelle assertion est
+plus forte que l'ancienne sur ce point.
+
+Autres règles corrigées :
+
+- `majuscule-apres-deux-points` — la phrase donnée en modèle était une citation,
+  donc justement l'exception de son propre énoncé.
+- `conj-futur-anterieur` — après « quand » et « dès que », le futur simple est
+  correct : la règle inventait cinq fautes. Seuls « une fois que » et « après
+  que » imposent l'auxiliaire au futur ; les phrases et l'astuce ont suivi.
+- `impropriete-emerite` — « émérite » a un second sens attesté (Larousse, Petit
+  Robert) : excellent par longue pratique. La règle ne retient plus que le vrai
+  contresens, émérite pour un débutant.
+- `conj-verbe-naitre` — « Elle est né » : le sujet passe au masculin, le
+  participe suit l'auxiliaire.
+- `accord-verbe-ni-ni`, `accord-tout-resume` — le piège d'élision, six phrases.
+- `accord-fraction`, `accord-dizaine` — « se sont abstenu », « ont été
+  dépouillé », « sont venu ».
+- `pluriel-composes-nom-adjectif` — « grands-messes » n'est pas la forme des
+  dictionnaires (*grand* y est l'ancien féminin invariable, comme dans
+  *grand-route*) : le mot ne relève pas de la règle. Remplacé par *cerf-volant*.
+- `accord-nom-nombre-precis` — l'énoncé et l'astuce se contredisaient ; l'énoncé
+  est refait sur le nombre écrit, et deux phrases qui restaient fausses
+  (« ont été nécessaire », « se sont écoulé ») sont remplacées.
+- `expr-battre-son-plein` — « battaient leurs pleins » porte deux fautes pour un
+  seul marqueur : le possessif passe au singulier dans la phrase fautive.
+- `expr-faire-long-feu` — « a fait long feux » : c'est « feux » qui est marqué.
+- `expr-a-lencontre` — deux phrases correctes étaient données comme fautives, et
+  trois corrections perdaient l'article : « à rencontre de son ami ».
+- `h-aspire` — « laisser au l'hasard » n'est pas une phrase française, et « par
+  le hasard dans la rue » ne se dit pas : les deux phrases sont refaites.
+
+Porte : `tsc` ✓ · `validate:content` 0 erreur / 634 avertissements · 236 tests ✓ ·
+`build` ✓.

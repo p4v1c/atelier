@@ -239,7 +239,7 @@ export const DENSIFY2_ACCORDS_CONJ: ContentBatch = {
       { marked: "Des enfants [fatigants] de bruit couraient partout.", fix: "fatiguant" },
     ]},
     { ruleSlug: "aie-ait", sentences: [
-      { marked: "Il faut que j'[ai] terminé avant la nuit.", fix: "aie" },
+      { marked: "Il faut que j'[ai] terminé avant la nuit.", fix: "j'aie" },
       { marked: "Bien qu'ils [aies] promis, personne n'y croit.", fix: "aient" },
     ]},
     { ruleSlug: "passé-simple", sentences: [
@@ -271,7 +271,7 @@ export const DENSIFY2_ACCORDS_CONJ: ContentBatch = {
       { marked: "Vous [prédites] toujours le pire avant chaque échéance.", fix: "prédisez" },
     ]},
     { ruleSlug: "resoudre", sentences: [
-      { marked: "Le juge l'[absoud] de toute responsabilité.", fix: "absout" },
+      { marked: "Le juge l'[absoud] de toute responsabilité.", fix: "l'absout" },
       { marked: "Elle [résous] ce genre de problème en un instant.", fix: "résout" },
     ]},
     { ruleSlug: "battre-rompre", sentences: [

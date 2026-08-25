@@ -115,7 +115,7 @@ export const DENSIFY3_PONCTUATION_TYPO: ContentBatch = {
     /* ── lot 002 : typographie ── */
     { ruleSlug: "majuscule-points-cardinaux", sentences: [
       { marked: "Il est parti travailler dans le [sud-]ouest de la France.", fix: "Sud-" },
-      { marked: "Le vent d'[Est] souffle depuis trois jours sans faiblir.", fix: "est" },
+      { marked: "Le vent d'[Est] souffle depuis trois jours sans faiblir.", fix: "d'est" },
     ]},
     { ruleSlug: "majuscule-institutions", sentences: [
       { marked: "Le Conseil [Constitutionnel] rendra sa décision jeudi.", fix: "constitutionnel" },

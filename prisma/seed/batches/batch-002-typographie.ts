@@ -98,7 +98,7 @@ export const BATCH_002: ContentBatch = {
         { marked: "La cause est connue : [Un] défaut de fabrication du moteur.", fix: "un" },
         { marked: "Voici le programme : [Visite] du musée puis déjeuner en ville.", fix: "visite" },
         { marked: "Le constat est simple : [Personne] n'avait lu le contrat.", fix: "personne" },
-        { marked: "Elle a répondu : « je n'en sais absolument rien ».", fix: null },
+        { marked: "Elle a répondu : « Je n'en sais absolument rien. »", fix: null },
       ],
     },
     {

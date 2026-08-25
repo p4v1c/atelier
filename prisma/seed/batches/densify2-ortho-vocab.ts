@@ -113,7 +113,7 @@ export const DENSIFY2_ORTHO_VOCAB: ContentBatch = {
       { marked: "Deux heures ne [sufiront] pas pour tout ranger.", fix: "suffiront" },
     ]},
     { ruleSlug: "honneur", sentences: [
-      { marked: "Il a reçu la médaille d'[honeur] de la ville.", fix: "honneur" },
+      { marked: "Il a reçu la médaille d'[honeur] de la ville.", fix: "d'honneur" },
       { marked: "Ce comportement n'est guère [honnorable].", fix: "honorable" },
     ]},
     { ruleSlug: "national", sentences: [
@@ -121,7 +121,7 @@ export const DENSIFY2_ORTHO_VOCAB: ContentBatch = {
       { marked: "La fête [nationnale] tombe un dimanche cette année.", fix: "nationale" },
     ]},
     { ruleSlug: "occasion", sentences: [
-      { marked: "Il a trouvé un vélo d'[ocasion] au marché.", fix: "occasion" },
+      { marked: "Il a trouvé un vélo d'[ocasion] au marché.", fix: "d'occasion" },
       { marked: "Cette [ocurence] du mot est la seule du texte.", fix: "occurrence" },
     ]},
     { ruleSlug: "chariot", sentences: [
@@ -195,7 +195,7 @@ export const DENSIFY2_ORTHO_VOCAB: ContentBatch = {
       { marked: "Il a [apporté] sa fille chez le dentiste ce matin.", fix: "amené" },
     ]},
     { ruleSlug: "emmener", sentences: [
-      { marked: "N'oublie pas d'[emmener] ton parapluie demain.", fix: "emporter" },
+      { marked: "N'oublie pas d'[emmener] ton parapluie demain.", fix: "d'emporter" },
       { marked: "Elle veut [emporter] les enfants au cinéma dimanche.", fix: "emmener" },
     ]},
     { ruleSlug: "éminent", sentences: [
@@ -251,7 +251,7 @@ export const DENSIFY2_ORTHO_VOCAB: ContentBatch = {
       { marked: "La neige avait [recouvré] toute la vallée.", fix: "recouvert" },
     ]},
     { ruleSlug: "inclinaison", sentences: [
-      { marked: "L'[inclination] du terrain complique la construction.", fix: "inclinaison" },
+      { marked: "L'[inclination] du terrain complique la construction.", fix: "L'inclinaison" },
       { marked: "Il a toujours eu une [inclinaison] pour les langues.", fix: "inclination" },
     ]},
     { ruleSlug: "notable", sentences: [
@@ -267,8 +267,8 @@ export const DENSIFY2_ORTHO_VOCAB: ContentBatch = {
       { marked: "Il se rappelle [de] son visage avec une grande précision.", fix: "à supprimer" },
     ]},
     { ruleSlug: "attention-intention", sentences: [
-      { marked: "Ce pli est à l'[intention] du service juridique.", fix: "attention" },
-      { marked: "Une fête est organisée à l'[attention] des retraités.", fix: "intention" },
+      { marked: "Ce pli est à l'[intention] du service juridique.", fix: "l'attention" },
+      { marked: "Une fête est organisée à l'[attention] des retraités.", fix: "l'intention" },
     ]},
     { ruleSlug: "en-termes", sentences: [
       { marked: "En [terme] de délais, rien n'est encore acquis.", fix: "termes" },
@@ -316,7 +316,7 @@ export const DENSIFY2_ORTHO_VOCAB: ContentBatch = {
     ]},
     { ruleSlug: "habilete", sentences: [
       { marked: "Son [habilité] manuelle impressionne ses collègues.", fix: "habileté" },
-      { marked: "On conteste l'[habileté] du tribunal à juger l'affaire.", fix: "habilité" },
+      { marked: "On conteste l'[habileté] du tribunal à juger l'affaire.", fix: "l'habilité" },
     ]},
     { ruleSlug: "hiberner", sentences: [
       { marked: "Les ours [hivernent] plusieurs mois d'affilée.", fix: "hibernent" },
@@ -359,7 +359,7 @@ export const DENSIFY2_ORTHO_VOCAB: ContentBatch = {
       { marked: "Le scorpion est un animal [vénéneux] très redouté.", fix: "venimeux" },
     ]},
     { ruleSlug: "eminent-2", sentences: [
-      { marked: "L'[influence] de visiteurs sature tout le musée.", fix: "affluence" },
+      { marked: "L'[influence] de visiteurs sature tout le musée.", fix: "L'affluence" },
       { marked: "Son [affluence] sur le conseil reste déterminante.", fix: "influence" },
     ]},
     { ruleSlug: "alternative", sentences: [
@@ -407,8 +407,8 @@ export const DENSIFY2_ORTHO_VOCAB: ContentBatch = {
       { marked: "Chacun juge en son [fors] intérieur sans le dire.", fix: "for" },
     ]},
     { ruleSlug: "a-lenvi", sentences: [
-      { marked: "Les candidats se citaient à l'[envie] pendant le débat.", fix: "envi" },
-      { marked: "On répète à l'[envie] que rien ne changera.", fix: "envi" },
+      { marked: "Les candidats se citaient à l'[envie] pendant le débat.", fix: "l'envi" },
+      { marked: "On répète à l'[envie] que rien ne changera.", fix: "l'envi" },
     ]},
     { ruleSlug: "dores-deja", sentences: [
       { marked: "Nous pouvons [d'hors] et déjà annoncer la nouvelle.", fix: "d'ores" },

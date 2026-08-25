@@ -127,7 +127,7 @@ export const DENSIFY3_HOMO_PARO: ContentBatch = {
       { marked: "L'effort [anoblit] même les tâches les plus ingrates.", fix: "ennoblit" },
     ]},
     { ruleSlug: "avenement-evenement", sentences: [
-      { marked: "L'[événement] de l'imprimerie a tout bouleversé.", fix: "avènement" },
+      { marked: "L'[événement] de l'imprimerie a tout bouleversé.", fix: "L'avènement" },
       { marked: "Cet [avènement] culturel revient chaque printemps.", fix: "événement" },
     ]},
     { ruleSlug: "decrepit-decrepi", sentences: [
@@ -147,7 +147,7 @@ export const DENSIFY3_HOMO_PARO: ContentBatch = {
       { marked: "Il faut [émerger] la pièce dans l'eau bouillante.", fix: "immerger" },
     ]},
     { ruleSlug: "enduire-induire", sentences: [
-      { marked: "Ce titre risque d'[enduire] le lecteur en erreur.", fix: "induire" },
+      { marked: "Ce titre risque d'[enduire] le lecteur en erreur.", fix: "d'induire" },
       { marked: "Il a [induit] la coque d'une couche de résine.", fix: "enduit" },
     ]},
     { ruleSlug: "esquisser-esquiver", sentences: [
@@ -155,7 +155,7 @@ export const DENSIFY3_HOMO_PARO: ContentBatch = {
       { marked: "Elle a [esquivé] un plan sur un coin de nappe.", fix: "esquissé" },
     ]},
     { ruleSlug: "evasion-invasion", sentences: [
-      { marked: "L'[invasion] du détenu a duré moins de dix minutes.", fix: "évasion" },
+      { marked: "L'[invasion] du détenu a duré moins de dix minutes.", fix: "L'évasion" },
       { marked: "Une [évasion] de sauterelles a ravagé les cultures.", fix: "invasion" },
     ]},
     { ruleSlug: "exalter-exulter", sentences: [
@@ -163,8 +163,8 @@ export const DENSIFY3_HOMO_PARO: ContentBatch = {
       { marked: "Ce monument [exulte] la mémoire des disparus.", fix: "exalte" },
     ]},
     { ruleSlug: "inanition-inanite", sentences: [
-      { marked: "Le chat perdu est mort d'[inanité] sous un hangar.", fix: "inanition" },
-      { marked: "Chacun mesure aujourd'hui l'[inanition] de ces promesses.", fix: "inanité" },
+      { marked: "Le chat perdu est mort d'[inanité] sous un hangar.", fix: "d'inanition" },
+      { marked: "Chacun mesure aujourd'hui l'[inanition] de ces promesses.", fix: "l'inanité" },
     ]},
     { ruleSlug: "infliger-inflechir", sentences: [
       { marked: "La commission lui a [infléchi] un blâme sévère.", fix: "infligé" },

@@ -63,8 +63,10 @@ export const PATCHES: SentencePatch[] = [
     ruleSlug: "orthographe",
     from: "L'[ortographe] française est difficile.",
     to: "L'[ortographe] française décourage bien des élèves étrangers.",
-    fix: "orthographe",
-    reason: "4 mots, sous le plancher de 5.",
+    fix: "L'orthographe",
+    reason:
+      "4 mots, sous le plancher de 5. Et la correction emportait l'élision : « L'[ortographe] » " +
+      "est un seul token, un fix « orthographe » donnait « orthographe française décourage ».",
   },
   {
     ruleSlug: "pronominaux",
@@ -74,5 +76,110 @@ export const PATCHES: SentencePatch[] = [
     reason:
       "Seule règle où les trois phrases fautives plaçaient la faute au même rang (4e mot) : " +
       "on apprenait la position, pas la règle. Le complément passe en tête pour décaler la faute.",
+  },
+
+  /* ── Le piège d'élision : « à l'[attention] » est un seul token, et un fix
+     « intention » donnait « à intention de sa mère ». La correction reprend
+     le préfixe élidé. Treize phrases du lot d'origine, sur cent dix-sept
+     trouvées dans tout le module. ── */
+  {
+    ruleSlug: "si-conditionnel",
+    from: "Si j'[aurais] su, je serais resté.",
+    to: "Si j'[aurais] su, je serais resté.",
+    fix: "j'avais",
+    reason: "La correction emportait l'élision du mot marqué.",
+  },
+  {
+    ruleSlug: "aie-ait",
+    from: "Il faut que j'[ai] plus de courage.",
+    to: "Il faut que j'[ai] plus de courage.",
+    fix: "j'aie",
+    reason: "La correction emportait l'élision du mot marqué.",
+  },
+  {
+    ruleSlug: "emmener",
+    from: "N'oublie pas d'[emmener] ton parapluie.",
+    to: "N'oublie pas d'[emmener] ton parapluie.",
+    fix: "d'emporter",
+    reason: "La correction emportait l'élision du mot marqué.",
+  },
+  {
+    ruleSlug: "attention-intention",
+    from: "Il a acheté ce livre à l'[attention] de sa mère.",
+    to: "Il a acheté ce livre à l'[attention] de sa mère.",
+    fix: "l'intention",
+    reason: "La correction emportait l'élision du mot marqué.",
+  },
+  {
+    ruleSlug: "air-aire",
+    from: "Ils se garent sur l'[air] de repos.",
+    to: "Ils se garent sur l'[air] de repos.",
+    fix: "l'aire",
+    reason: "La correction emportait l'élision du mot marqué.",
+  },
+  {
+    ruleSlug: "futurs-irreguliers",
+    from: "Elle t'[envoiera] le document ce soir.",
+    to: "Elle t'[envoiera] le document ce soir.",
+    fix: "t'enverra",
+    reason: "La correction emportait l'élision du mot marqué.",
+  },
+  {
+    ruleSlug: "asseoir",
+    from: "Il s'[assois] sur le banc du parc.",
+    to: "Il s'[assois] sur le banc du parc.",
+    fix: "s'assoit",
+    reason: "La correction emportait l'élision du mot marqué.",
+  },
+  {
+    ruleSlug: "pronominaux-etre",
+    from: "Elle s'[a] lavé les mains avant de manger.",
+    to: "Elle s'[a] lavé les mains avant de manger.",
+    fix: "s'est",
+    reason: "La correction emportait l'élision du mot marqué.",
+  },
+  {
+    ruleSlug: "adresse",
+    from: "Il a changé d'[addresse] le mois dernier.",
+    to: "Il a changé d'[addresse] le mois dernier.",
+    fix: "d'adresse",
+    reason: "La correction emportait l'élision du mot marqué.",
+  },
+  {
+    ruleSlug: "honneur",
+    from: "Il faut l'[honnorer] pour son courage.",
+    to: "Il faut l'[honnorer] pour son courage.",
+    fix: "l'honorer",
+    reason: "La correction emportait l'élision du mot marqué.",
+  },
+  {
+    ruleSlug: "imbecile",
+    from: "Ne fais pas l'[imbécille] devant les invités.",
+    to: "Ne fais pas l'[imbécille] devant les invités.",
+    fix: "l'imbécile",
+    reason: "La correction emportait l'élision du mot marqué.",
+  },
+  {
+    ruleSlug: "eminent-2",
+    from: "Il y a beaucoup d'[influence] dans le magasin.",
+    to: "Il y a beaucoup d'[influence] dans le magasin.",
+    fix: "d'affluence",
+    reason: "La correction emportait l'élision du mot marqué.",
+  },
+  {
+    ruleSlug: "a-lenvi",
+    from: "Ils en parlent à l'[envie] depuis des semaines.",
+    to: "Ils en parlent à l'[envie] depuis des semaines.",
+    fix: "l'envi",
+    reason: "La correction emportait l'élision du mot marqué.",
+  },
+  {
+    ruleSlug: "h-aspire",
+    from: "Je l'ai croisé par [l'hasard] dans la rue.",
+    to: "Je l'ai croisé par [l'hasard] le plus complet.",
+    fix: "le hasard",
+    reason:
+      "La correction « le hasard » donnait « par le hasard dans la rue », qui ne se dit pas. " +
+      "La fin de phrase change pour que le tour soit celui qu'on emploie : « par le hasard le plus complet ».",
   },
 ];

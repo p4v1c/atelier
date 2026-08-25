@@ -35,7 +35,7 @@ export const DENSIFY_ORTHOGRAPHE: ContentBatch = {
       { marked: "Le [dévelopement] du quartier a pris cinq ans.", fix: "développement" },
     ]},
     { ruleSlug: "accueillir", sentences: [
-      { marked: "L'[acceuil] des visiteurs se fait au premier étage.", fix: "accueil" },
+      { marked: "L'[acceuil] des visiteurs se fait au premier étage.", fix: "L'accueil" },
       { marked: "Son [orgeuil] l'empêche de reconnaître ses erreurs.", fix: "orgueil" },
     ]},
     { ruleSlug: "langage", sentences: [
@@ -91,7 +91,7 @@ export const DENSIFY_ORTHOGRAPHE: ContentBatch = {
       { marked: "Cette [facon] de faire ne convient à personne ici.", fix: "façon" },
     ]},
     { ruleSlug: "h-aspire", sentences: [
-      { marked: "Il ne faut rien laisser au [l'hasard] dans cette affaire.", fix: "hasard" },
+      { marked: "Ce n'est que [l'hasard] qui les a réunis ce jour-là.", fix: "le hasard" },
       { marked: "Le concert se tient dans [l'hall] de la mairie.", fix: "le hall" },
       { marked: "Elle a mesuré [l'hauteur] du mur avant de commander.", fix: "la hauteur" },
     ]},
@@ -106,8 +106,8 @@ export const DENSIFY_ORTHOGRAPHE: ContentBatch = {
       { marked: "Nous verrons [aujoud'hui] si le colis est arrivé.", fix: "aujourd'hui" },
     ]},
     { ruleSlug: "adresse", sentences: [
-      { marked: "Il a changé d'[addresse] sans prévenir personne.", fix: "adresse" },
-      { marked: "Elle vient d'[appercevoir] son collègue à l'autre bout.", fix: "apercevoir" },
+      { marked: "Il a changé d'[addresse] sans prévenir personne.", fix: "d'adresse" },
+      { marked: "Elle vient d'[appercevoir] son collègue à l'autre bout.", fix: "d'apercevoir" },
       { marked: "Nous allons [aggrandir] la terrasse au printemps prochain.", fix: "agrandir" },
     ]},
     { ruleSlug: "nourrir", sentences: [
@@ -128,7 +128,7 @@ export const DENSIFY_ORTHOGRAPHE: ContentBatch = {
       { marked: "Le repas de Noël suit un menu [traditionel] et copieux.", fix: "traditionnel" },
     ]},
     { ruleSlug: "occasion", sentences: [
-      { marked: "Il a acheté cette voiture d'[ocasion] l'an dernier.", fix: "occasion" },
+      { marked: "Il a acheté cette voiture d'[ocasion] l'an dernier.", fix: "d'occasion" },
       { marked: "Les travaux vont [ocuper] la rue pendant trois mois.", fix: "occuper" },
       { marked: "Cette [ocurrence] du mot n'apparaît qu'une fois.", fix: "occurrence" },
     ]},

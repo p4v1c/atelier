@@ -103,7 +103,7 @@ export const DENSIFY_CONJUGAISON: ContentBatch = {
     ]},
     { ruleSlug: "resoudre", sentences: [
       { marked: "Il [résous] les problèmes les uns après les autres.", fix: "résout" },
-      { marked: "Le tribunal l'[absous] de toute responsabilité pénale.", fix: "absout" },
+      { marked: "Le tribunal l'[absous] de toute responsabilité pénale.", fix: "l'absout" },
       { marked: "Elle [résoud] les conflits mieux que quiconque ici.", fix: "résout" },
     ]},
     { ruleSlug: "battre-rompre", sentences: [

@@ -15,9 +15,9 @@ export const BATCH_012: ContentBatch = {
       difficulty: 2,
       sentences: [
         { marked: "Ils vont [abbattre] le vieux chêne du jardin.", fix: "abattre" },
-        { marked: "L'[abaye] de Fontenay date du douzième siècle.", fix: "abbaye" },
+        { marked: "L'[abaye] de Fontenay date du douzième siècle.", fix: "L'abbaye" },
         { marked: "Son [abbandon] a surpris tous ses coéquipiers.", fix: "abandon" },
-        { marked: "L'[abé] du village célébrait la messe chaque dimanche.", fix: "abbé" },
+        { marked: "L'[abé] du village célébrait la messe chaque dimanche.", fix: "L'abbé" },
         { marked: "L'abbé refusa d'abattre le tilleul de l'abbaye.", fix: null },
       ],
     },
@@ -29,10 +29,10 @@ export const BATCH_012: ContentBatch = {
       tip: "Écoute la syllabe : « a-per », un seul p ; « ap-pa », deux.",
       difficulty: 3,
       sentences: [
-        { marked: "Je viens d'[appercevoir] le clocher au loin.", fix: "apercevoir" },
+        { marked: "Je viens d'[appercevoir] le clocher au loin.", fix: "d'apercevoir" },
         { marked: "Le soleil va [aparaître] entre deux averses.", fix: "apparaître" },
         { marked: "Leur [apartement] donne sur une cour intérieure.", fix: "appartement" },
-        { marked: "Rien ne parvenait à l'[appaiser] ce soir-là.", fix: "apaiser" },
+        { marked: "Rien ne parvenait à l'[appaiser] ce soir-là.", fix: "l'apaiser" },
         { marked: "Depuis l'appartement, on aperçoit toute la vallée.", fix: null },
       ],
     },
@@ -44,7 +44,7 @@ export const BATCH_012: ContentBatch = {
       tip: "Seul aggraver double le g : c'est l'exception à retenir.",
       difficulty: 3,
       sentences: [
-        { marked: "Cette décision risque d'[agraver] la situation.", fix: "aggraver" },
+        { marked: "Cette décision risque d'[agraver] la situation.", fix: "d'aggraver" },
         { marked: "Il a posé une [aggrafe] sur le coin des feuilles.", fix: "agrafe" },
         { marked: "Nous allons [aggrandir] la cuisine au printemps.", fix: "agrandir" },
         { marked: "La soirée fut [aggréable] malgré la pluie.", fix: "agréable" },
@@ -61,8 +61,8 @@ export const BATCH_012: ContentBatch = {
       sentences: [
         { marked: "Cette annexe va [allourdir] tout le dossier.", fix: "alourdir" },
         { marked: "Il faudrait [alonger] les manches de deux centimètres.", fix: "allonger" },
-        { marked: "N'oublie pas d'[alumer] le four avant de partir.", fix: "allumer" },
-        { marked: "Ces ajouts risquent d'[allourdir] la démonstration.", fix: "alourdir" },
+        { marked: "N'oublie pas d'[alumer] le four avant de partir.", fix: "d'allumer" },
+        { marked: "Ces ajouts risquent d'[allourdir] la démonstration.", fix: "d'alourdir" },
         { marked: "Allumer le four va alourdir la facture d'électricité.", fix: null },
       ],
     },
@@ -150,7 +150,7 @@ export const BATCH_012: ContentBatch = {
       difficulty: 2,
       sentences: [
         { marked: "Ce comportement est totalement [iresponsable].", fix: "irresponsable" },
-        { marked: "Le système d'[irigation] date des années soixante.", fix: "irrigation" },
+        { marked: "Le système d'[irigation] date des années soixante.", fix: "d'irrigation" },
         { marked: "Cette lumière lui [irite] les yeux depuis ce matin.", fix: "irrite" },
         { marked: "Sa décision paraît [irévocable] à tout le monde.", fix: "irrévocable" },
         { marked: "L'irrigation irrégulière a irrité les agriculteurs.", fix: null },
@@ -284,7 +284,7 @@ export const BATCH_012: ContentBatch = {
       tip: "Remonte au verbe : adopter donne adoption, admettre donne admission.",
       difficulty: 3,
       sentences: [
-        { marked: "L'[adossion] du texte a été votée à l'unanimité.", fix: "adoption" },
+        { marked: "L'[adossion] du texte a été votée à l'unanimité.", fix: "L'adoption" },
         { marked: "Son [admition] au concours a été confirmée hier.", fix: "admission" },
         { marked: "La [perssion] du public a fait céder la direction.", fix: "pression" },
         { marked: "Cette [exeption] confirme la règle générale.", fix: "exception" },
@@ -330,7 +330,7 @@ export const BATCH_012: ContentBatch = {
       difficulty: 3,
       sentences: [
         { marked: "Il [protége] toujours ses cahiers avec du papier kraft.", fix: "protège" },
-        { marked: "J'[abrége] mon exposé pour tenir dans le temps.", fix: "abrège" },
+        { marked: "J'[abrége] mon exposé pour tenir dans le temps.", fix: "J'abrège" },
         { marked: "Elle [allége] la sauce avec un peu de bouillon.", fix: "allège" },
         { marked: "Le toit [protége] mal la façade des intempéries.", fix: "protège" },
         { marked: "J'abrège la réunion et j'allège l'ordre du jour.", fix: null },

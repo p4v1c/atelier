@@ -347,7 +347,7 @@ export const BATCH_010: ContentBatch = {
       tip: "L'auxiliaire est toujours être : on naît, on n'a pas né.",
       difficulty: 3,
       sentences: [
-        { marked: "Elle [a] né un jour de grande tempête de novembre.", fix: "est" },
+        { marked: "Il [a] né un jour de grande tempête de novembre.", fix: "est" },
         { marked: "L'enfant [naîssit] au petit matin, sans complication.", fix: "naquit" },
         { marked: "Un doute [nait] chaque fois qu'il prend la parole.", fix: "naît" },
         { marked: "Ils [ont] nés tous les trois la même année.", fix: "sont" },

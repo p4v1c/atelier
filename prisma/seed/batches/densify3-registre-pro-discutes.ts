@@ -22,7 +22,7 @@ export const DENSIFY3_REGISTRE_PRO: ContentBatch = {
     ]},
     { ruleSlug: "anglicisme-initier", sentences: [
       { marked: "Le conseil a [initié] une consultation des habitants.", fix: "lancé" },
-      { marked: "Ils viennent d'[initier] une refonte complète du site.", fix: "engager" },
+      { marked: "Ils viennent d'[initier] une refonte complète du site.", fix: "d'engager" },
     ]},
     { ruleSlug: "anglicisme-impacter", sentences: [
       { marked: "La panne a [impacté] toute la chaîne de production.", fix: "paralysé" },
@@ -45,7 +45,7 @@ export const DENSIFY3_REGISTRE_PRO: ContentBatch = {
       { marked: "Nous cherchons une équipe [versatile] et réactive.", fix: "polyvalente" },
     ]},
     { ruleSlug: "anglicisme-adresser", sentences: [
-      { marked: "Le rapport n'[adresse] jamais la question du financement.", fix: "aborde" },
+      { marked: "Le rapport n'[adresse] jamais la question du financement.", fix: "n'aborde" },
       { marked: "Il faudra [adresser] ces difficultés dès la rentrée.", fix: "traiter" },
     ]},
     { ruleSlug: "anglicisme-challenge", sentences: [
@@ -97,8 +97,8 @@ export const DENSIFY3_REGISTRE_PRO: ContentBatch = {
       { marked: "Le rayon paraît mal [achalandé] en produits frais.", fix: "approvisionné" },
     ]},
     { ruleSlug: "impropriete-emerite", sentences: [
-      { marked: "Voilà un pianiste [émérite] pour son jeune âge.", fix: "remarquable" },
-      { marked: "Nous avons consulté un chirurgien [émérite] du service.", fix: "éminent" },
+      { marked: "Voilà un violoniste [émérite] pour ses quinze ans.", fix: "précoce" },
+      { marked: "Ce chirurgien émérite opère depuis trente ans.", fix: null },
     ]},
     { ruleSlug: "impropriete-conjecture", sentences: [
       { marked: "Dans cette [conjecture] difficile, tout ralentit.", fix: "conjoncture" },

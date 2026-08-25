@@ -134,11 +134,11 @@ export const DENSIFY_ACCORDS: ContentBatch = {
     { ruleSlug: "un-des-qui", sentences: [
       { marked: "C'est un des rares livres qui [mérite] d'être relu.", fix: "méritent" },
       { marked: "Voilà une des raisons qui [explique] son départ précipité.", fix: "expliquent" },
-      { marked: "C'est un des films qui m'[a] le plus marqué.", fix: "ont" },
+      { marked: "C'est un des films qui m'[a] le plus marqué.", fix: "m'ont" },
     ]},
     { ruleSlug: "tout-le-monde", sentences: [
       { marked: "Tout le monde [sont] rentrés avant la nuit tombée.", fix: "est" },
-      { marked: "Personne n'[ont] su répondre à cette question simple.", fix: "a" },
+      { marked: "Personne n'[ont] su répondre à cette question simple.", fix: "n'a" },
     ]},
     { ruleSlug: "quelque-chose-de", sentences: [
       { marked: "Il y a quelque chose de [bizarres] dans cette affaire.", fix: "bizarre" },

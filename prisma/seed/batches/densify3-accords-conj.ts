@@ -139,8 +139,8 @@ export const DENSIFY3_ACCORDS_CONJ: ContentBatch = {
       { marked: "Comme la porte [soit] ouverte, il est entré sans frapper.", fix: "était" },
     ]},
     { ruleSlug: "conj-futur-anterieur", sentences: [
-      { marked: "Quand vous [terminerez], nous relirons ensemble le texte.", fix: "aurez terminé" },
-      { marked: "Dès qu'elle [partira], nous fermerons toutes les portes.", fix: "sera partie" },
+      { marked: "Après que vous [terminerez], nous relirons ensemble le texte.", fix: "aurez terminé" },
+      { marked: "Une fois qu'elle [partira], nous fermerons toutes les portes.", fix: "sera partie" },
     ]},
     { ruleSlug: "conj-verbes-eler-eter", sentences: [
       { marked: "Elle [époussete] les étagères tous les samedis matin.", fix: "époussette" },

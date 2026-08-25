@@ -6,6 +6,7 @@
  * contenu.ts, que le navigateur n'importe jamais.
  */
 import { CATEGORIES, DISPUTED_CATEGORY } from "../../lib/content";
+import { tokenize } from "../../lib/tokenize";
 import { spotError, type SpotErrorPayload } from "../kinds/spot-error";
 import type { LearningModule, ModuleFinding } from "../types";
 
@@ -53,6 +54,25 @@ export const francais: LearningModule = {
         message: `les 2 phrases fautives ont la faute au même rang (${rangs[0]})`,
       });
     }
+    // Le piège d'élision : « ne l'[a] découragé » — le token marqué vaut « l'a »
+    // tout entier, et une correction « ont » donne « ne ont découragé ». On ne
+    // signale que le cas où le préfixe devait rester, c'est-à-dire quand la
+    // correction commence par une voyelle ou un h.
+    for (const p of payloads) {
+      if (p.faultyTokenIndex === -1 || p.correction === null || p.correction === "à supprimer") continue;
+      const mot = tokenize(p.text)[p.faultyTokenIndex]?.word;
+      const prefixe = mot?.match(/^([ldnqsjmtc]')/i)?.[1];
+      if (!prefixe) continue;
+      if (/^[a-zà-ÿ]'/i.test(p.correction)) continue;
+      if (!/^[aàâeéèêëiîïoôuûùyh]/i.test(p.correction)) continue;
+      anomalies.push({
+        severity: "warn",
+        code: "elision-emportee",
+        message: `la correction « ${p.correction} » emporte l'élision « ${prefixe} » du mot marqué`,
+        exercise: p.text,
+      });
+    }
+
     return anomalies;
   },
   categories: CATEGORIES,

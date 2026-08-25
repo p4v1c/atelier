@@ -28,9 +28,13 @@ describe("lot legacy", () => {
 
   it("applique exactement les patchs déclarés, et rien d'autre", () => {
     const all = batch.rules.flatMap((r) => r.sentences.map((s) => s.marked));
+    const fixes = new Map(batch.rules.flatMap((r) => r.sentences.map((s) => [s.marked, s.fix])));
     for (const p of PATCHES) {
       expect(all).toContain(p.to);
-      expect(all).not.toContain(p.from);
+      // Un patch peut ne corriger que la correction : la phrase est alors
+      // inchangée, et c'est le fix qu'il faut retrouver.
+      if (p.to !== p.from) expect(all).not.toContain(p.from);
+      expect(fixes.get(p.to)).toBe(p.fix);
     }
   });
 
