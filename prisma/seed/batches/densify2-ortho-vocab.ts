@@ -69,16 +69,16 @@ export const DENSIFY2_ORTHO_VOCAB: ContentBatch = {
       { marked: "Elle demeure [septique] devant ces promesses.", fix: "sceptique" },
     ]},
     { ruleSlug: "quelquefois", sentences: [
-      { marked: "Nous nous sommes vus [quelquefois] cet hiver-là.", fix: "quelques fois" },
-      { marked: "Il lui arrive [quelquefois] de rentrer avant la nuit tombée.", fix: "quelques fois" },
+      { marked: "Nous nous sommes vus [quelquefois], deux fois tout au plus.", fix: "quelques fois" },
+      { marked: "Je l'ai relu [quelquefois], trois ou quatre au plus.", fix: "quelques fois" },
     ]},
     { ruleSlug: "bientot", sentences: [
       { marked: "Il s'est couché [bientôt] hier soir, vers vingt heures.", fix: "bien tôt" },
       { marked: "Vingt ans, c'est [bientôt] pour partir en retraite.", fix: "bien tôt" },
     ]},
     { ruleSlug: "hyphen-nombres", sentences: [
-      { marked: "Le devis atteint quatre cent [douze] euros au total.", fix: "quatre-cent-douze" },
-      { marked: "Elle a compté trente et [un] cartons dans le garage.", fix: "trente-et-un" },
+      { marked: "Le devis atteint [quatrecentdouze] euros au total.", fix: "quatre-cent-douze" },
+      { marked: "Elle a compté [trenteetun] cartons dans le garage.", fix: "trente-et-un" },
     ]},
     { ruleSlug: "accent-grave", sentences: [
       { marked: "Ce [problemes] revient à chaque conseil de classe.", fix: "problème" },
@@ -93,8 +93,8 @@ export const DENSIFY2_ORTHO_VOCAB: ContentBatch = {
       { marked: "Elle a mesuré [l'hauteur] du plafond avant d'acheter.", fix: "la hauteur" },
     ]},
     { ruleSlug: "elision", sentences: [
-      { marked: "Il attend [que] elle réponde avant de partir.", fix: "qu'elle" },
-      { marked: "Personne [ne] a compris la consigne du départ.", fix: "n'a" },
+      { marked: "Il attend [lautorisation] du propriétaire pour commencer.", fix: "l'autorisation" },
+      { marked: "Le maire [na] rien dit de cette décision.", fix: "n'a" },
     ]},
     { ruleSlug: "aujourdhui", sentences: [
       { marked: "[Aujourdhui], la réunion commence à neuf heures précises.", fix: "Aujourd'hui" },
@@ -211,7 +211,7 @@ export const DENSIFY2_ORTHO_VOCAB: ContentBatch = {
       { marked: "Ce dépassement constitue une [effraction] au code.", fix: "infraction" },
     ]},
     { ruleSlug: "original", sentences: [
-      { marked: "Le manuscrit [original] a été perdu dans l'incendie.", fix: "originel" },
+      { marked: "Le manuscrit original a été perdu dans l'incendie.", fix: null },
       { marked: "Voilà une idée vraiment [originelle] et bien vue.", fix: "originale" },
     ]},
     { ruleSlug: "littéral", sentences: [
@@ -336,7 +336,7 @@ export const DENSIFY2_ORTHO_VOCAB: ContentBatch = {
     ]},
     { ruleSlug: "prescrire", sentences: [
       { marked: "Le médecin a [proscrit] un traitement de trois semaines.", fix: "prescrit" },
-      { marked: "Le règlement [prescrit] l'usage du téléphone en salle.", fix: "proscrit" },
+      { marked: "Le règlement [prescrit] désormais tout téléphone en salle d'examen.", fix: "proscrit" },
     ]},
     { ruleSlug: "prolongation", sentences: [
       { marked: "Le [prolongement] du délai a été accordé sans discussion.", fix: "prolongation" },
@@ -348,7 +348,7 @@ export const DENSIFY2_ORTHO_VOCAB: ContentBatch = {
     ]},
     { ruleSlug: "somptuaire", sentences: [
       { marked: "Ils ont donné un dîner [somptuaire] pour l'occasion.", fix: "somptueux" },
-      { marked: "Ces dépenses [somptueuses] ont été jugées injustifiables.", fix: "somptuaires" },
+      { marked: "Une loi [somptueuse] limitait autrefois le luxe des particuliers.", fix: "somptuaire" },
     ]},
     { ruleSlug: "subvenir", sentences: [
       { marked: "Elle peine à [survenir] aux besoins des siens.", fix: "subvenir" },
@@ -392,7 +392,7 @@ export const DENSIFY2_ORTHO_VOCAB: ContentBatch = {
     ]},
     { ruleSlug: "savérer", sentences: [
       { marked: "Cette nouvelle s'est [avérée] fausse au bout de deux jours.", fix: "révélée" },
-      { marked: "Le calcul s'est [avéré] vrai après vérification.", fix: "exact" },
+      { marked: "Le calcul s'est avéré [vrai] après vérification.", fix: "juste" },
     ]},
     { ruleSlug: "affaire-a", sentences: [
       { marked: "Tu auras [affaires] à un interlocuteur exigeant.", fix: "affaire" },

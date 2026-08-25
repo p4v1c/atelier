@@ -39,13 +39,13 @@ export const DENSIFY_ACCORDS: ContentBatch = {
       { marked: "Après tout, c'est vous qui [décide] de la suite.", fix: "décidez" },
     ]},
     { ruleSlug: "la-plupart", sentences: [
-      { marked: "La plupart des spectateurs [est] resté jusqu'à la fin.", fix: "sont" },
+      { marked: "La plupart des spectateurs [reste] jusqu'à la fin du film.", fix: "restent" },
       { marked: "Beaucoup de candidats [a] renoncé avant même l'épreuve orale.", fix: "ont" },
     ]},
     { ruleSlug: "plus-dun", sentences: [
-      { marked: "Plus d'un participant se sont [plaints] de l'organisation.", fix: "plaint" },
-      { marked: "Depuis cette rencontre, plus d'une année se sont [écoulées].", fix: "écoulée" },
-      { marked: "Plus d'un spectateur [sont] repartis avant l'entracte.", fix: "est" },
+      { marked: "Plus d'un participant [ont] protesté contre l'organisation.", fix: "a" },
+      { marked: "Depuis cette rencontre, plus d'une année [ont] passé.", fix: "a" },
+      { marked: "Plus d'un spectateur [repartent] avant l'entracte.", fix: "repart" },
     ]},
     { ruleSlug: "aucun", sentences: [
       { marked: "Il n'a présenté [aucuns] argument convaincant devant la commission.", fix: "aucun" },
@@ -137,7 +137,7 @@ export const DENSIFY_ACCORDS: ContentBatch = {
       { marked: "C'est un des films qui m'[a] le plus marqué.", fix: "m'ont" },
     ]},
     { ruleSlug: "tout-le-monde", sentences: [
-      { marked: "Tout le monde [sont] rentrés avant la nuit tombée.", fix: "est" },
+      { marked: "Tout le monde [rentrent] avant la nuit tombée.", fix: "rentre" },
       { marked: "Personne n'[ont] su répondre à cette question simple.", fix: "n'a" },
     ]},
     { ruleSlug: "quelque-chose-de", sentences: [
@@ -146,8 +146,8 @@ export const DENSIFY_ACCORDS: ContentBatch = {
     ]},
     { ruleSlug: "oeil-yeux", sentences: [
       { marked: "Ses deux [œils] brillaient de fatigue et d'excitation.", fix: "yeux" },
-      { marked: "Les [ciels] se sont dégagés en fin d'après-midi.", fix: "cieux" },
-      { marked: "Ses [aïeuls] ont fui la guerre au siècle dernier.", fix: "aïeux" },
+      { marked: "Les [œils] du chat brillaient dans l'obscurité du couloir.", fix: "yeux" },
+      { marked: "Il a toujours eu les [œils] plus gros que le ventre.", fix: "yeux" },
     ]},
     { ruleSlug: "grand-mere", sentences: [
       { marked: "Nos deux [grand-mères] vivaient dans le même village.", fix: "grands-mères" },
@@ -166,7 +166,7 @@ export const DENSIFY_ACCORDS: ContentBatch = {
     ]},
     { ruleSlug: "deux-genres", sentences: [
       { marked: "Un pull et une écharpe [neuves] l'attendaient sur le lit.", fix: "neufs" },
-      { marked: "Le chien et la chatte semblaient [inquiètes] devant l'orage.", fix: "inquiets" },
+      { marked: "La table et le buffet étaient [cirées] de frais.", fix: "cirés" },
       { marked: "Une lampe et un cadre [dorées] ornaient l'entrée.", fix: "dorés" },
     ]},
     { ruleSlug: "des-plus", sentences: [
@@ -183,7 +183,7 @@ export const DENSIFY_ACCORDS: ContentBatch = {
       { marked: "Ils ont rangé [leur] affaires avant de partir en classe.", fix: "leurs" },
     ]},
     { ruleSlug: "nombreux-sujet", sentences: [
-      { marked: "Les Trois Mousquetaires [passe] à la télévision ce soir.", fix: "passent" },
+      { marked: "Les États-Unis [a] signé l'accord au mois de juin.", fix: "ont" },
       { marked: "Les Alpes [attire] chaque hiver des millions de skieurs.", fix: "attirent" },
       { marked: "Les Deux-Sèvres [est] un département de l'ouest.", fix: "sont" },
     ]},

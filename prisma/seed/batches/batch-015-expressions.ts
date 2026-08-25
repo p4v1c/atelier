@@ -119,7 +119,7 @@ export const BATCH_015: ContentBatch = {
       category: "Vocabulaire",
       title: "pierre d'achoppement",
       statement: "Une <b>pierre d'achoppement</b> est un obstacle. Le mot vient d'« achopper », buter contre.",
-      tip: "Un seul p à achoppement, comme dans achopper.",
+      tip: "Deux p à achoppement, comme dans achopper : on bute deux fois.",
       difficulty: 3,
       sentences: [
         { marked: "Le financement reste la pierre d'[achopement] du projet.", fix: "d'achoppement" },

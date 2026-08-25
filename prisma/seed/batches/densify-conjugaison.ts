@@ -63,8 +63,8 @@ export const DENSIFY_CONJUGAISON: ContentBatch = {
       { marked: "Avec deux mois d'avance, elle [atteind] son objectif.", fix: "atteint" },
     ]},
     { ruleSlug: "participe-présent", sentences: [
-      { marked: "Ce sont des enfants [obéissant] à toutes les consignes.", fix: "obéissants" },
-      { marked: "Des travaux [différant] selon les régions ont été engagés.", fix: "différents" },
+      { marked: "Ce sont des enfants [obéissants] à toutes les consignes.", fix: "obéissant" },
+      { marked: "Des travaux différant selon les régions ont été engagés.", fix: null },
     ]},
     { ruleSlug: "aie-ait", sentences: [
       { marked: "Il faut que tu [ais] terminé avant la nuit.", fix: "aies" },

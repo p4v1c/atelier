@@ -59,7 +59,7 @@ export const DENSIFY_HOMOPHONES: ContentBatch = {
     ]},
     { ruleSlug: "sais-sait", sentences: [
       { marked: "Elle [c'est] parfaitement où se trouve le dossier manquant.", fix: "sait" },
-      { marked: "Je [sais] une question à laquelle personne ne répond.", fix: "c'est" },
+      { marked: "Je crois que [sais] une bonne idée, finalement.", fix: "c'est" },
     ]},
     { ruleSlug: "ça-sa", sentences: [
       { marked: "Il a oublié [ça] carte d'identité sur le comptoir.", fix: "sa" },
@@ -70,7 +70,7 @@ export const DENSIFY_HOMOPHONES: ContentBatch = {
       { marked: "[Quand] au reste, nous en reparlerons demain matin.", fix: "Quant" },
     ]},
     { ruleSlug: "quelle-quelle", sentences: [
-      { marked: "Dis-moi [quelle] elle a bien pu inventer cette fois.", fix: "qu'elle" },
+      { marked: "Dis-moi ce [quelle] a bien pu inventer cette fois.", fix: "qu'elle" },
       { marked: "Sais-tu [qu'elle] route mène au village voisin ?", fix: "quelle" },
     ]},
     { ruleSlug: "peu-peut", sentences: [
@@ -86,9 +86,9 @@ export const DENSIFY_HOMOPHONES: ContentBatch = {
       { marked: "Il partira, [quelques] soient les difficultés rencontrées.", fix: "quelles que" },
     ]},
     { ruleSlug: "quoi-que", sentences: [
-      { marked: "[Quoiqu']il arrive, préviens-moi avant de prendre ta décision.", fix: "Quoi qu'" },
-      { marked: "Il ira jusqu'au bout, [quoique] cela lui coûte cher.", fix: "quoi que" },
-      { marked: "Nous partirons demain, [quoiqu']en dise la météo.", fix: "quoi qu'" },
+      { marked: "[Quoiqu']il arrive, préviens-moi avant de prendre ta décision.", fix: "Quoi qu'il" },
+      { marked: "Il ira jusqu'au bout, quoique cela lui coûte cher.", fix: null },
+      { marked: "Nous partirons demain, [quoiqu']en dise la météo.", fix: "quoi qu'en" },
     ]},
     { ruleSlug: "censé", sentences: [
       { marked: "Ce raisonnement paraît [censé] à première vue.", fix: "sensé" },
@@ -104,7 +104,7 @@ export const DENSIFY_HOMOPHONES: ContentBatch = {
     ]},
     { ruleSlug: "tout-tous", sentences: [
       { marked: "[Tout] les matins, il part courir avant le lever du soleil.", fix: "Tous" },
-      { marked: "Ils ont [tout] compris avant même la fin des explications.", fix: "tous" },
+      { marked: "Ils ont [tout] compris la consigne, chacun à sa manière.", fix: "tous" },
     ]},
     { ruleSlug: "tout-adverbe", sentences: [
       { marked: "La petite est revenue [toute] émue de sa première leçon.", fix: "tout" },
@@ -185,7 +185,7 @@ export const DENSIFY_HOMOPHONES: ContentBatch = {
       { marked: "Note la [datte] limite dans ton agenda.", fix: "date" },
     ]},
     { ruleSlug: "foi-foie", sentences: [
-      { marked: "Son [foie] en la justice reste intacte malgré tout.", fix: "foi" },
+      { marked: "Sa [foie] en la justice reste intacte malgré tout.", fix: "foi" },
       { marked: "Il a mal au [foi] depuis les fêtes de fin d'année.", fix: "foie" },
     ]},
     { ruleSlug: "pain-pin", sentences: [
@@ -218,9 +218,9 @@ export const DENSIFY_HOMOPHONES: ContentBatch = {
       { marked: "La bague en [hors] a été retrouvée sous le meuble.", fix: "or" },
     ]},
     { ruleSlug: "pourquoi", sentences: [
-      { marked: "Voilà [pourquoi] il se bat depuis des années.", fix: "pour quoi" },
+      { marked: "Voilà [pourquoi] il a voté, et non pour qui.", fix: "pour quoi" },
       { marked: "Je me demande [pourquoi] il opte finalement cette année.", fix: "pour quoi" },
-      { marked: "Dis-moi [pourquoi] tu te bats vraiment, au fond.", fix: "pour quoi" },
+      { marked: "Dis-moi [pourquoi] tu te bats : la reconnaissance ou l'argent ?", fix: "pour quoi" },
     ]},
     { ruleSlug: "aussitot", sentences: [
       { marked: "Jamais je ne me suis levé [aussitôt] qu'aujourd'hui.", fix: "aussi tôt" },

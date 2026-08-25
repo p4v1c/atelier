@@ -49,7 +49,7 @@ export const DENSIFY2_ACCORDS_CONJ: ContentBatch = {
       { marked: "Peu de gens [sait] vraiment ce qui s'est passé.", fix: "savent" },
     ]},
     { ruleSlug: "plus-dun", sentences: [
-      { marked: "Plus d'un lecteur se sont [plaints] de cette coquille.", fix: "plaint" },
+      { marked: "Plus d'un lecteur [ont] signalé cette coquille.", fix: "a" },
       { marked: "Plus d'une fois, il [ont] failli tout abandonner.", fix: "a" },
     ]},
     { ruleSlug: "aucun", sentences: [
@@ -117,7 +117,7 @@ export const DENSIFY2_ACCORDS_CONJ: ContentBatch = {
       { marked: "[Exceptés] les deux dernières lignes, tout est juste.", fix: "Excepté" },
     ]},
     { ruleSlug: "y-compris", sentences: [
-      { marked: "Le prix est ferme, taxes y [comprises] et livraison incluse.", fix: "compris" },
+      { marked: "Le prix est ferme, taxes y comprises et livraison incluse.", fix: null },
       { marked: "Toutes les pièces, annexes y [compris], sont bien jointes.", fix: "comprises" },
     ]},
     { ruleSlug: "possible", sentences: [
@@ -133,7 +133,7 @@ export const DENSIFY2_ACCORDS_CONJ: ContentBatch = {
       { marked: "Voilà une des causes qui [explique] le retard du chantier.", fix: "expliquent" },
     ]},
     { ruleSlug: "tout-le-monde", sentences: [
-      { marked: "Tout le monde [ont] leur avis sur la question.", fix: "a" },
+      { marked: "Tout le monde [ont] son avis sur la question.", fix: "a" },
       { marked: "Chacun [savent] ce qu'il a à faire aujourd'hui.", fix: "sait" },
     ]},
     { ruleSlug: "quelque-chose-de", sentences: [
@@ -219,7 +219,7 @@ export const DENSIFY2_ACCORDS_CONJ: ContentBatch = {
       { marked: "Pour qu'elle [comprend], il faudra tout réexpliquer.", fix: "comprenne" },
     ]},
     { ruleSlug: "si-conditionnel", sentences: [
-      { marked: "Si tu [aurais] le temps, passe me voir demain.", fix: "avais" },
+      { marked: "Si tu [aurais] le temps, passe me voir demain.", fix: "as" },
       { marked: "Si nous [pourrions] choisir, nous resterions ici.", fix: "pouvions" },
     ]},
     { ruleSlug: "imparfait-ions", sentences: [
@@ -236,7 +236,7 @@ export const DENSIFY2_ACCORDS_CONJ: ContentBatch = {
     ]},
     { ruleSlug: "participe-présent", sentences: [
       { marked: "Voilà des arguments [convaincant] et bien construits.", fix: "convaincants" },
-      { marked: "Des enfants [fatigants] de bruit couraient partout.", fix: "fatiguant" },
+      { marked: "Des enfants [fatiguants] et bruyants couraient partout.", fix: "fatigants" },
     ]},
     { ruleSlug: "aie-ait", sentences: [
       { marked: "Il faut que j'[ai] terminé avant la nuit.", fix: "j'aie" },
@@ -307,7 +307,7 @@ export const DENSIFY2_ACCORDS_CONJ: ContentBatch = {
       { marked: "Les invités [sortèrent] avant la fin du repas.", fix: "sortirent" },
     ]},
     { ruleSlug: "auxiliaire", sentences: [
-      { marked: "Elle [a] descendue les escaliers en courant.", fix: "est" },
+      { marked: "Elle [est] descendu les escaliers en courant.", fix: "a" },
       { marked: "Il [est] monté les cartons au grenier ce matin.", fix: "a" },
     ]},
     { ruleSlug: "hair", sentences: [

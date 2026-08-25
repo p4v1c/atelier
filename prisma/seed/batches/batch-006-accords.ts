@@ -348,9 +348,9 @@ export const BATCH_006: ContentBatch = {
       tip: "Le trait d'union soude le pronom : sans lui, ce sont deux mots sans lien.",
       difficulty: 2,
       sentences: [
-        { marked: "[Quelques] uns d'entre eux ont préféré rentrer à pied.", fix: "Quelques-uns" },
+        { marked: "[Quelque-uns] d'entre eux ont préféré rentrer à pied.", fix: "Quelques-uns" },
         { marked: "J'en ai relu [quelques-uns], celles du début surtout.", fix: "quelques-unes" },
-        { marked: "Regarde ces photos : [quelques] unes datent d'avant la guerre.", fix: "quelques-unes" },
+        { marked: "Regarde ces photos : [quelques-un] datent d'avant la guerre.", fix: "quelques-unes" },
         { marked: "Il en reste [quelques-unes], tous en bon état.", fix: "quelques-uns" },
         { marked: "Quelques-uns sont venus, la plupart ont annulé.", fix: null },
       ],

@@ -23,7 +23,7 @@ export const DENSIFY2_HOMOPHONES: ContentBatch = {
       { marked: "[Se] dossier attend une signature depuis trois semaines.", fix: "Ce" },
     ]},
     { ruleSlug: "ces-ses", sentences: [
-      { marked: "Il range toujours [ces] outils dans le même tiroir.", fix: "ses" },
+      { marked: "Chacun range [ces] outils dans son propre coffre.", fix: "ses" },
       { marked: "[Ses] arbres-là ont été plantés par mon grand-père.", fix: "Ces" },
     ]},
     { ruleSlug: "leur", sentences: [
@@ -87,8 +87,8 @@ export const DENSIFY2_HOMOPHONES: ContentBatch = {
       { marked: "Il ira jusqu'au bout, [quelque] soient les difficultés.", fix: "quelles que" },
     ]},
     { ruleSlug: "quoi-que", sentences: [
-      { marked: "[Quoiqu']on en pense, la mesure sera appliquée.", fix: "Quoi qu'" },
-      { marked: "Il persévère, [quoiqu']il soit épuisé depuis des jours.", fix: "quoiqu'" },
+      { marked: "[Quoiqu']on en pense, la mesure sera appliquée.", fix: "Quoi qu'on" },
+      { marked: "Il persévère, quoiqu'il soit épuisé depuis des jours.", fix: null },
     ]},
     { ruleSlug: "censé", sentences: [
       { marked: "Vous êtes [sensé] connaître le règlement intérieur.", fix: "censé" },
@@ -216,7 +216,7 @@ export const DENSIFY2_HOMOPHONES: ContentBatch = {
     ]},
     { ruleSlug: "pourquoi", sentences: [
       { marked: "Personne ne sait [pourquoi] il a finalement opté.", fix: "pour quoi" },
-      { marked: "Dis-moi [pourquoi] tu te bats depuis toutes ces années.", fix: "pour quoi" },
+      { marked: "Dis-moi [pourquoi] tu milites : le climat ou l'emploi ?", fix: "pour quoi" },
     ]},
     { ruleSlug: "aussitot", sentences: [
       { marked: "Il n'a jamais rendu sa copie [aussitôt] qu'aujourd'hui.", fix: "aussi tôt" },

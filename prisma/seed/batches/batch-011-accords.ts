@@ -247,23 +247,6 @@ export const BATCH_011: ContentBatch = {
       ],
     },
     {
-      slug: "accord-cest-nous-qui",
-      category: "Accords",
-      title: "C'est moi qui, c'est nous qui",
-      statement: "Après <b>c'est moi qui</b>, <b>c'est toi qui</b>, <b>c'est nous qui</b>, le verbe se met à la personne du <b>pronom</b>, jamais à la troisième.",
-      tip: "Remplace « qui » par le pronom : moi j'ai, toi tu as, nous avons.",
-      difficulty: 2,
-      sentences: [
-        { marked: "C'est nous qui [ont] tout organisé pour la fête.", fix: "avons" },
-        { marked: "C'est toi qui [a] proposé cette solution en premier.", fix: "as" },
-        { marked: "C'est moi qui [a] proposé de reporter la séance.", fix: "ai" },
-        { marked: "C'est vous qui [décide] de la date finale.", fix: "décidez" },
-        { marked: "En réalité, c'est nous qui [paye] l'addition ce soir.", fix: "payons" },
-        { marked: "C'est vous qui [sera] responsable en cas de problème.", fix: "serez" },
-        { marked: "C'est nous qui avons proposé cette solution en premier.", fix: null },
-      ],
-    },
-    {
       slug: "accord-comparatif-que",
       category: "Accords",
       title: "L'adjectif après « plus… que »",

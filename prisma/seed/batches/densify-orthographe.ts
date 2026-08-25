@@ -43,7 +43,7 @@ export const DENSIFY_ORTHOGRAPHE: ContentBatch = {
     ]},
     { ruleSlug: "week-end", sentences: [
       { marked: "Nous partons ce [weekend] dans les Cévennes.", fix: "week-end" },
-      { marked: "Le miroir est accroché [vis] à vis de la fenêtre.", fix: "vis-à-vis" },
+      { marked: "Le miroir est accroché [visàvis] de la fenêtre.", fix: "vis-à-vis" },
     ]},
     { ruleSlug: "t-euphonique", sentences: [
       { marked: "[Viendra-t'il] finalement à la réunion de demain ?", fix: "Viendra-t-il" },
@@ -68,9 +68,9 @@ export const DENSIFY_ORTHOGRAPHE: ContentBatch = {
       { marked: "Le personnel médical redoute le choc [sceptique].", fix: "septique" },
     ]},
     { ruleSlug: "quelquefois", sentences: [
-      { marked: "Il lui arrive [quelquefois] de rentrer avant la nuit.", fix: "quelques fois" },
+      { marked: "Il lui arrive quelquefois de rentrer avant la nuit.", fix: null },
       { marked: "Nous nous sommes croisés seulement [quelquefois] cette année-là.", fix: "quelques fois" },
-      { marked: "Il a essayé trois ou [quelquefois] quatre fois de suite.", fix: "quelques" },
+      { marked: "Il a essayé trois ou [quelquefois] quatre fois de suite.", fix: "à supprimer" },
     ]},
     { ruleSlug: "bientot", sentences: [
       { marked: "Il s'est levé [bientôt] ce matin, avant le jour.", fix: "bien tôt" },
@@ -78,9 +78,9 @@ export const DENSIFY_ORTHOGRAPHE: ContentBatch = {
       { marked: "Vingt ans, c'est [bientôt] pour prendre une telle décision.", fix: "bien tôt" },
     ]},
     { ruleSlug: "hyphen-nombres", sentences: [
-      { marked: "Il a compté vingt et [un] cartons dans le garage.", fix: "vingt-et-un" },
-      { marked: "La salle contient cent quatre [vingts] places numérotées.", fix: "cent-quatre-vingts" },
-      { marked: "Le devis atteint trois cent [cinquante] euros au total.", fix: "trois-cent-cinquante" },
+      { marked: "Il a compté [quarantedeux] cartons dans le garage.", fix: "quarante-deux" },
+      { marked: "La salle contient [centquatrevingts] places numérotées.", fix: "cent-quatre-vingts" },
+      { marked: "Le devis atteint [troiscentcinquante] euros au total.", fix: "trois-cent-cinquante" },
     ]},
     { ruleSlug: "accent-grave", sentences: [
       { marked: "Le [reglement] intérieur sera affiché dans le hall.", fix: "règlement" },
@@ -96,13 +96,13 @@ export const DENSIFY_ORTHOGRAPHE: ContentBatch = {
       { marked: "Elle a mesuré [l'hauteur] du mur avant de commander.", fix: "la hauteur" },
     ]},
     { ruleSlug: "elision", sentences: [
-      { marked: "Il attend [que] il réponde avant de partir.", fix: "qu'il" },
-      { marked: "Je crois [que] elle a raison sur ce point précis.", fix: "qu'elle" },
-      { marked: "Personne [ne] a compris la consigne du premier coup.", fix: "n'a" },
+      { marked: "Il attend [quil] réponde avant de partir.", fix: "qu'il" },
+      { marked: "Le toit est couvert [dardoises] du pays.", fix: "d'ardoises" },
+      { marked: "Personne [na] compris la consigne du premier coup.", fix: "n'a" },
     ]},
     { ruleSlug: "aujourdhui", sentences: [
       { marked: "[Aujourdhui], la réunion commence une heure plus tôt.", fix: "Aujourd'hui" },
-      { marked: "Il pleut depuis [aujourd] hui sans la moindre accalmie.", fix: "aujourd'hui" },
+      { marked: "Nous avons rendez-vous [aujourd'huit] à quatorze heures.", fix: "aujourd'hui" },
       { marked: "Nous verrons [aujoud'hui] si le colis est arrivé.", fix: "aujourd'hui" },
     ]},
     { ruleSlug: "adresse", sentences: [

@@ -222,3 +222,79 @@ guillemets, dont une seule phrase faisait doublon exact.
 
 Porte : `tsc` ✓ · `validate:content` 0 erreur / 634 avertissements · 236 tests ✓ ·
 `build` ✓.
+
+### Lot 4 — les fichiers de densification
+
+**Deux faux positifs de l'audit, à ne pas « corriger ».** Le rapport signale
+comme graves des phrases « rattachées à la mauvaise règle » : `davantage-2` qui
+recevrait des phrases sur *quand même*, `eminent-2` des phrases sur
+*affluence / influence*. Vérification faite, ces deux slugs du lot d'origine
+**portent mal leur nom** : `davantage-2` s'intitule « quand même » et son énoncé
+porte sur *quand même* ; `eminent-2` s'intitule « affluence ou influence ». Les
+phrases sont donc au bon endroit. Le relecteur le dit lui-même en tête de
+rapport : pour les fichiers `densify*`, il ne pouvait juger que d'après le nom du
+slug. Renommer ces deux slugs effacerait la progression des comptes : **à voir
+avec le propriétaire**, ce n'est pas une correction de contenu.
+
+Un troisième outil, `.travail-audit/redites.ts` : la correction qui avale le mot
+d'à côté. Le validateur repérait déjà le cas où elle se termine par le mot
+suivant tout entier ; il ne voyait pas celui où le mot est accroché par une
+élision — « Il attend [que] il réponde » corrigé en « qu'il » donne « qu'il il
+réponde ». Onze phrases trouvées, toutes reprises.
+
+Corrigé :
+
+- `elision`, `quelle-quelle`, `aujourdhui`, `week-end`, `accord-quelques-uns` —
+  la correction absorbait le mot suivant, qui restait en place. Les fautes
+  exercées tiennent maintenant en un token : l'apostrophe oubliée, les traits
+  d'union manquants.
+- `quelquefois` — « il lui arrive quelquefois de rentrer » est irréprochable,
+  *quelquefois* y vaut « parfois » : la phrase devient un modèle. Et « trois ou
+  quelques quatre fois » n'était pas du français — le mot marqué était en trop,
+  il passe en `fix: "à supprimer"`.
+- `hyphen-nombres` — « vingt et un », « cent quatre-vingts », « trois cent
+  cinquante » sont la graphie **traditionnelle**, parfaitement correcte ; le
+  trait d'union généralisé vient des rectifications de 1990 et reste une graphie
+  *admise*. Les fautes exercées sont désormais celles qui le sont sous les deux
+  normes : le nombre écrit d'un seul tenant. **Reste à trancher** : l'énoncé de
+  la règle, qui est dans le lot d'origine et que `PATCHES` ne peut pas modifier,
+  présente encore la norme de 1990 comme la seule.
+- `prescrire` — « le règlement prescrit l'usage du téléphone » se comprend très
+  bien : l'exercice n'avait pas de solution. Le contexte tranche maintenant.
+- `somptuaire` — « une dépense somptueuse » est correct : la règle corrigeait du
+  juste vers la forme spécialisée.
+- `savérer` — le fix remplaçait le verbe au lieu de l'attribut, comme dans le
+  lot 003.
+- `sais-sait`, `quoi-que`, `foi-foie`, `tout-tous`, `pourquoi`, `ces-ses` — des
+  phrases correctes déclarées fautives (« Ils ont tout compris », « Voilà
+  pourquoi il se bat », « Il range ces outils »), et des corrections qui
+  emportaient le pronom (« quoi qu' arrive »). Le contexte impose maintenant la
+  lecture attendue, ou la phrase devient un modèle.
+- `la-plupart`, `plus-dun`, `tout-le-monde` — l'auxiliaire et le participe
+  devaient changer ensemble alors qu'un seul mot peut être marqué : « est
+  venus », « se sont plaint », « est rentrés ». Les phrases passent à un temps
+  simple.
+- `y-compris` — placé après le nom, « y compris » s'accorde : la règle corrigeait
+  du juste vers le faux, à l'inverse de sa propre première phrase.
+- `auxiliaire` — « Elle est descendue les escaliers ».
+- `participe-présent` — suivi de son complément, le mot est un participe présent,
+  donc invariable : deux phrases justes étaient déclarées fautives, et la règle
+  contredisait `accord-participe-ayant`.
+- `original` — « le manuscrit original », « le projet original » sont corrects :
+  la règle corrigeait vers le contresens.
+- `si-conditionnel` — avec une principale à l'impératif, c'est le présent qui
+  s'impose : « Si tu avais le temps, passe me voir demain » n'est pas cohérent.
+- `accord-avoir-affaire` — « eu à affaire à », de nouveau.
+- `expr-pierre-achoppement` — **l'astuce ordonnait d'écrire la faute** que la
+  règle fait corriger : « un seul p à achoppement ». Il en faut deux.
+
+Quatre doublons de plus, entre les fichiers de densification et les lots :
+`cest-moi-qui` du lot d'origine et `accord-cest-nous-qui` du lot 011 étaient la
+même règle, avec des phrases jumelles — la seconde est supprimée et ses phrases
+distinctes rejoignent la première. Les trois autres (`oeil-yeux` contre
+`pluriel-ciel-aieul`, `deux-genres` contre `accord-adjectif-deux-noms`,
+`nombreux-sujet` contre `accord-titre-oeuvre`) tenaient à des phrases jumelles
+dans les additions : elles sont remplacées.
+
+Porte : `tsc` ✓ · `validate:content` 0 erreur / 634 avertissements · 236 tests ✓ ·
+`build` ✓.

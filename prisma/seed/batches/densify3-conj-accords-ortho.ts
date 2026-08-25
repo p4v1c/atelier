@@ -174,9 +174,11 @@ export const DENSIFY3_CONJ_ACC_ORTHO: ContentBatch = {
       { marked: "Les invités sont restés [debouts] toute la soirée.", fix: "debout" },
       { marked: "Elles ont voyagé [ensembles] pendant tout l'été.", fix: "ensemble" },
     ]},
-    { ruleSlug: "accord-cest-nous-qui", sentences: [
+    { ruleSlug: "cest-moi-qui", sentences: [
       { marked: "C'est vous qui [prend] la parole en premier.", fix: "prenez" },
       { marked: "C'est nous qui [sera] responsables du matériel.", fix: "serons" },
+      { marked: "C'est vous qui [sera] responsable en cas de problème.", fix: "serez" },
+      { marked: "En réalité, c'est nous qui [paye] l'addition ce soir.", fix: "payons" },
     ]},
     { ruleSlug: "accord-comparatif-que", sentences: [
       { marked: "Ces explications sont plus [clair] que les précédentes.", fix: "claires" },

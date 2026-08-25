@@ -182,4 +182,30 @@ export const PATCHES: SentencePatch[] = [
       "La correction « le hasard » donnait « par le hasard dans la rue », qui ne se dit pas. " +
       "La fin de phrase change pour que le tour soit celui qu'on emploie : « par le hasard le plus complet ».",
   },
+  {
+    ruleSlug: "elision",
+    from: "Il attend [le] arrivée du train de Lyon.",
+    to: "Il attend [larrivée] du train de Lyon, comme convenu.",
+    fix: "l'arrivée",
+    reason:
+      "La correction « l' » laissait « l' arrivée », avec une espace après l'apostrophe : " +
+      "le marqueur ne portait que sur « le », le nom restait un token séparé. La faute " +
+      "exercée tient maintenant en un mot, l'apostrophe oubliée.",
+  },
+  {
+    ruleSlug: "plus-dun",
+    from: "Plus d'un candidat [sont] venus se plaindre.",
+    to: "Plus d'un candidat [renoncent] avant l'épreuve orale.",
+    fix: "renonce",
+    reason:
+      "La correction « est » laissait « est venus » : l'auxiliaire et le participe devaient " +
+      "changer ensemble, et un seul mot peut être marqué. Le verbe simple lève la difficulté.",
+  },
+  {
+    ruleSlug: "tout-le-monde",
+    from: "Tout le monde [sont] venus à la fête.",
+    to: "Tout le monde [partent] avant la fin du spectacle.",
+    fix: "part",
+    reason: "Même défaut : « est venus ». Le participe ne pouvait pas suivre l'auxiliaire.",
+  },
 ];

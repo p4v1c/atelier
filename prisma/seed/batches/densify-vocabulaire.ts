@@ -63,7 +63,7 @@ export const DENSIFY_VOCABULAIRE: ContentBatch = {
     { ruleSlug: "original", sentences: [
       { marked: "Le péché [original] est un concept théologique ancien.", fix: "originel" },
       { marked: "Elle a proposé une idée vraiment [originelle] au comité.", fix: "originale" },
-      { marked: "Le projet [original] a été profondément modifié depuis.", fix: "originel" },
+      { marked: "La forêt [originale] a disparu sous les cultures.", fix: "originelle" },
     ]},
     { ruleSlug: "littéral", sentences: [
       { marked: "La zone [littérale] est protégée par une loi de 1986.", fix: "littorale" },
@@ -216,8 +216,8 @@ export const DENSIFY_VOCABULAIRE: ContentBatch = {
     ]},
     { ruleSlug: "prescrire", sentences: [
       { marked: "Le médecin a [proscrit] trois semaines de repos complet.", fix: "prescrit" },
-      { marked: "Le règlement [prescrit] formellement l'usage du téléphone.", fix: "proscrit" },
-      { marked: "Ces méthodes ont été [prescrites] par la commission.", fix: "proscrites" },
+      { marked: "Le règlement [prescrit] tout usage du téléphone pendant les épreuves.", fix: "proscrit" },
+      { marked: "Ces méthodes ont été [prescrites] par la commission après le scandale.", fix: "proscrites" },
     ]},
     { ruleSlug: "prolongation", sentences: [
       { marked: "Le [prolongement] du délai a été accordé sans difficulté.", fix: "prolongation" },
@@ -231,7 +231,7 @@ export const DENSIFY_VOCABULAIRE: ContentBatch = {
     ]},
     { ruleSlug: "somptuaire", sentences: [
       { marked: "Ils ont donné un dîner [somptuaire] pour leurs noces d'or.", fix: "somptueux" },
-      { marked: "Cette dépense [somptueuse] a été jugée injustifiable.", fix: "somptuaire" },
+      { marked: "Cette dépense somptueuse a fait la une des journaux.", fix: null },
       { marked: "Le palais [somptuaire] domine toute la baie.", fix: "somptueux" },
     ]},
     { ruleSlug: "subvenir", sentences: [
@@ -286,7 +286,7 @@ export const DENSIFY_VOCABULAIRE: ContentBatch = {
     ]},
     { ruleSlug: "savérer", sentences: [
       { marked: "Cette rumeur s'est [avérée] fausse dès le lendemain.", fix: "révélée" },
-      { marked: "Le diagnostic s'est [avéré] vrai après plusieurs examens.", fix: "confirmé" },
+      { marked: "Le diagnostic s'est avéré [vrai] après plusieurs examens.", fix: "exact" },
       { marked: "Ses prévisions se sont [avérées] fausses une fois de plus.", fix: "révélées" },
     ]},
     { ruleSlug: "affaire-a", sentences: [

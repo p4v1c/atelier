@@ -62,7 +62,7 @@ export const DENSIFY3_ACCORDS_CONJ: ContentBatch = {
     ]},
     { ruleSlug: "accord-avoir-affaire", sentences: [
       { marked: "Vous aurez [affaires] à un service très pointilleux.", fix: "affaire" },
-      { marked: "Ils ont eu à [faire] à un interlocuteur peu commode.", fix: "affaire" },
+      { marked: "Ils ont eu [affaires] à un interlocuteur peu commode.", fix: "affaire" },
     ]},
     { ruleSlug: "accord-sans-complement", sentences: [
       { marked: "Une phrase sans [verbes] reste difficile à comprendre.", fix: "verbe" },
@@ -97,8 +97,8 @@ export const DENSIFY3_ACCORDS_CONJ: ContentBatch = {
       { marked: "Elle reste une des plus [sûre] alliées du projet.", fix: "sûres" },
     ]},
     { ruleSlug: "accord-quelques-uns", sentences: [
-      { marked: "J'en ai relu [quelques] uns hier soir seulement.", fix: "quelques-uns" },
-      { marked: "Il reste [quelques] unes de ces vieilles cartes.", fix: "quelques-unes" },
+      { marked: "J'en ai relu [quelque-uns] hier soir seulement.", fix: "quelques-uns" },
+      { marked: "Il reste [quelques-un] de ces vieilles cartes.", fix: "quelques-unes" },
     ]},
     { ruleSlug: "accord-tous-les-deux", sentences: [
       { marked: "Mes deux tantes sont venues [tous] les deux hier.", fix: "toutes" },

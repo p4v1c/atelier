@@ -65,7 +65,7 @@ export const DICTATIONS_2: ContentBatch = {
     { text: "Ces chefs-d'œuvre et ces pots-de-vin appartiennent au passé.", theme: "Nature", difficulty: 2, ruleSlugs: ["pluriel-composes-preposition"] },
     { text: "Les porte-parole ont lu un communiqué commun ce matin.", theme: "Travail", difficulty: 2, ruleSlugs: ["pluriel-composes-invariables"] },
     { text: "Elle portait une écharpe bleu clair et des gants gris souris.", theme: "Maison", difficulty: 2, ruleSlugs: ["accord-couleur-composee"] },
-    { text: "C'est vous qui décidez de la date, pas le secrétariat.", theme: "Travail", difficulty: 2, ruleSlugs: ["accord-cest-nous-qui"] },
+    { text: "C'est vous qui décidez de la date, pas le secrétariat.", theme: "Travail", difficulty: 2, ruleSlugs: ["cest-moi-qui"] },
     { text: "Une trentaine de personnes se sont inscrites en un jour.", theme: "Vie scolaire", difficulty: 2, ruleSlugs: ["accord-dizaine"] },
     { text: "Un tiers des candidats ont renoncé avant même l'oral.", theme: "Vie scolaire", difficulty: 2, ruleSlugs: ["accord-fraction"] },
     { text: "Le thermomètre indiquait vingt-deux degrés à l'ombre.", theme: "Nature", difficulty: 2, ruleSlugs: ["typo-temperature", "hyphen-nombres"] },
