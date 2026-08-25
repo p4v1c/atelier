@@ -110,7 +110,7 @@ export const DENSIFY3_REGISTRE_PRO: ContentBatch = {
     ]},
     { ruleSlug: "impropriete-avoir-lair", sentences: [
       { marked: "Cette hypothèse s'est [avérée] fausse en deux jours.", fix: "révélée" },
-      { marked: "Le pronostic s'est [avéré] vrai, contre toute attente.", fix: "exact" },
+      { marked: "Le pronostic s'est avéré [vrai], contre toute attente.", fix: "juste" },
     ]},
 
     /* ── lot 004 : écrits professionnels ── */
@@ -119,11 +119,11 @@ export const DENSIFY3_REGISTRE_PRO: ContentBatch = {
       { marked: "Je vous adresse ce [mail] à la demande du directeur.", fix: "message" },
     ]},
     { ruleSlug: "pro-agreer-salutations", sentences: [
-      { marked: "Recevez, Monsieur, mes [sentiments] les plus distingués.", fix: "salutations" },
-      { marked: "Veuillez agréer, Madame, mes [sentiments] dévoués.", fix: "salutations" },
+      { marked: "Je vous adresse, Madame la Directrice, mes [sentiments] les plus sincères.", fix: "salutations" },
+      { marked: "Nous vous prions d'agréer, Monsieur, nos sincères [sentiments].", fix: "salutations" },
     ]},
     { ruleSlug: "pro-formule-appel-virgule", sentences: [
-      { marked: "Cher [collègue] je reviens vers vous au sujet du dossier.", fix: "collègue," },
+      { marked: "Cher [collègue] je vous écris au sujet du dossier.", fix: "collègue," },
       { marked: "Madame la [Présidente] je sollicite un entretien.", fix: "Présidente," },
     ]},
     { ruleSlug: "pro-monsieur-le-maire", sentences: [
@@ -143,8 +143,8 @@ export const DENSIFY3_REGISTRE_PRO: ContentBatch = {
       { marked: "Merci de me répondre [asap] pour bloquer la date.", fix: "rapidement" },
     ]},
     { ruleSlug: "pro-revenir-vers", sentences: [
-      { marked: "Je [reviendrai] vers vous après examen du dossier.", fix: "vous recontacterai" },
-      { marked: "Merci de [revenir] vers nous avant la fin du mois.", fix: "nous répondre" },
+      { marked: "Je vous [reviendrai] dès la fin de l'audit.", fix: "recontacterai" },
+      { marked: "Merci de nous [revenir] avant la fin du mois.", fix: "répondre" },
     ]},
     { ruleSlug: "pro-candidater", sentences: [
       { marked: "Je souhaite [candidater] à ce poste de rédacteur.", fix: "postuler" },
@@ -163,8 +163,8 @@ export const DENSIFY3_REGISTRE_PRO: ContentBatch = {
       { marked: "Le service reste à votre [écoute] jusqu'à la livraison.", fix: "disposition" },
     ]},
     { ruleSlug: "pro-objet-message", sentences: [
-      { marked: "Objet : [voici] les documents demandés la semaine dernière.", fix: "transmission" },
-      { marked: "Objet : [merci] de bien vouloir confirmer notre rendez-vous.", fix: "confirmation" },
+      { marked: "Objet : [résilier] mon contrat d'assurance habitation.", fix: "résiliation de" },
+      { marked: "Objet du message : [reporter] notre rendez-vous du 3 juin.", fix: "report de" },
     ]},
     { ruleSlug: "pro-accuser-reception", sentences: [
       { marked: "Nous accusons [la] réception de votre lettre recommandée.", fix: "à supprimer" },
@@ -173,10 +173,6 @@ export const DENSIFY3_REGISTRE_PRO: ContentBatch = {
     { ruleSlug: "pro-veuillez-trouver", sentences: [
       { marked: "[Veuiller] trouver ci-joint le règlement intérieur.", fix: "Veuillez" },
       { marked: "Vous [trouverai] ci-joint les justificatifs demandés.", fix: "trouverez" },
-    ]},
-    { ruleSlug: "pro-suite-entretien", sentences: [
-      { marked: "[Suite] à votre visite, nous avons revu notre proposition.", fix: "Comme suite" },
-      { marked: "Je vous écris [suite] à l'annonce parue le 4 mai.", fix: "à la suite de" },
     ]},
     { ruleSlug: "pro-second-degre-politesse", sentences: [
       { marked: "Monsieur le Recteur, veuillez agréer, [Monsieur], mes salutations.", fix: "Monsieur le Recteur," },
@@ -212,7 +208,7 @@ export const DENSIFY3_REGISTRE_PRO: ContentBatch = {
     ]},
     { ruleSlug: "pro-pieces-jointes-accord", sentences: [
       { marked: "Vous trouverez en [pièce] jointes les quatre attestations.", fix: "pièces" },
-      { marked: "Ci-joint la [pièce] d'identité et le justificatif de domicile.", fix: "les pièces" },
+      { marked: "Ci-joint les [pièce] d'identité des deux titulaires du compte.", fix: "pièces" },
     ]},
 
     /* ── lot 005 : cas discutés (toutes correctes) et homophones ── */

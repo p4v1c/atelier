@@ -44,8 +44,8 @@ export const DENSIFY3_PONCTUATION_TYPO: ContentBatch = {
       { marked: "Emporte un pull, la soirée sera [fraîche] car le vent tourne.", fix: "fraîche," },
     ]},
     { ruleSlug: "virgule-donc-intercale", sentences: [
-      { marked: "Le dossier [partira] donc, dès la signature du directeur.", fix: "partira," },
-      { marked: "Nous [reviendrons] donc, sur ce point à la prochaine séance.", fix: "reviendrons," },
+      { marked: "Le dossier complet, [donc] partira dès la signature du directeur.", fix: "donc," },
+      { marked: "Cette solution, [donc] ne convient à personne dans l'équipe.", fix: "donc," },
     ]},
     { ruleSlug: "virgule-apposition", sentences: [
       { marked: "Camille, ma cousine de [Rennes] arrive demain matin.", fix: "Rennes," },
@@ -109,7 +109,7 @@ export const DENSIFY3_PONCTUATION_TYPO: ContentBatch = {
     ]},
     { ruleSlug: "virgule-lieu-date", sentences: [
       { marked: "Établi à [Dijon] le 4 février, ce document fait foi.", fix: "Dijon," },
-      { marked: "Le procès-verbal a été dressé à [Reims] le 18 mars.", fix: "Reims," },
+      { marked: "Dressé à [Reims] le 18 mars, le procès-verbal a été signé par tous.", fix: "Reims," },
     ]},
 
     /* ── lot 002 : typographie ── */

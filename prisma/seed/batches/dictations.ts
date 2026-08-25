@@ -114,7 +114,7 @@ export const DICTATIONS: ContentBatch = {
     { text: "Il est entré par effraction, ce qui constitue une infraction grave.", theme: "Récit", difficulty: 3, ruleSlugs: ["effraction"] },
     { text: "Ses grands-parents ont émigré d'Italie au début du siècle dernier.", theme: "Récit", difficulty: 3, ruleSlugs: ["emigrer", "grand-mere"] },
     { text: "Veuillez agréer, Madame la Directrice, mes salutations distinguées.", theme: "Écrits professionnels", difficulty: 3, ruleSlugs: ["pro-agreer-salutations", "pro-monsieur-le-maire"] },
-    { text: "Je fais suite à notre entretien téléphonique de mardi dernier.", theme: "Écrits professionnels", difficulty: 3, ruleSlugs: ["pro-suite-entretien"] },
+    { text: "Je fais suite à notre entretien téléphonique de mardi dernier.", theme: "Écrits professionnels", difficulty: 3, ruleSlugs: ["discute-suite-a"] },
     { text: "Nous accusons réception de votre demande et l'étudions actuellement.", theme: "Écrits professionnels", difficulty: 3, ruleSlugs: ["pro-accuser-reception"] },
     { text: "Madame, vous êtes priée de confirmer votre venue avant vendredi.", theme: "Écrits professionnels", difficulty: 3, ruleSlugs: ["pro-vous-de-politesse"] },
     { text: "Je me permets de revenir sur mon message du trois mars.", theme: "Écrits professionnels", difficulty: 3, ruleSlugs: ["pro-je-me-permets", "pro-relance-polie"] },

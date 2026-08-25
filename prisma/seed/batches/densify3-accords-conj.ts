@@ -73,8 +73,8 @@ export const DENSIFY3_ACCORDS_CONJ: ContentBatch = {
       { marked: "Nous qui [avait] tout préparé, nous sommes déçus.", fix: "avions" },
     ]},
     { ruleSlug: "accord-collectif-groupe", sentences: [
-      { marked: "Un tas de papiers [encombrent] tout le bureau.", fix: "encombre" },
-      { marked: "Une bande de gamins [courait] dans les couloirs.", fix: "couraient" },
+      { marked: "Un tas de papiers [encombrent] à lui seul tout le bureau.", fix: "encombre" },
+      { marked: "Une bande de gamins [courait] dans les couloirs, les uns derrière les autres.", fix: "couraient" },
     ]},
     { ruleSlug: "accord-titre-oeuvre", sentences: [
       { marked: "Les Fables de La Fontaine se [lit] encore à l'école.", fix: "lisent" },

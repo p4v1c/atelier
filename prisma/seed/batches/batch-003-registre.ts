@@ -381,9 +381,9 @@ export const BATCH_003: ContentBatch = {
       difficulty: 3,
       sentences: [
         { marked: "Cette information s'est [avérée] fausse dès le lendemain matin.", fix: "révélée" },
-        { marked: "Le remède s'est [avéré] vrai dans la moitié des cas.", fix: "efficace" },
+        { marked: "Le remède s'est avéré [vrai] dans la moitié des cas.", fix: "efficace" },
         { marked: "Ses craintes se sont [avérées] fausses, heureusement pour tous.", fix: "révélées" },
-        { marked: "Le calcul s'est [avéré] vrai après une longue vérification.", fix: "exact" },
+        { marked: "Le calcul s'est avéré [vrai] après une longue vérification.", fix: "exact" },
         { marked: "L'hypothèse s'est avérée après trois mois d'expérimentation.", fix: null },
       ],
     },
