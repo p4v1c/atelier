@@ -91,7 +91,7 @@ export const CG_MYTHOLOGIE_RELIGIONS_3: SeedSkill[] = [
      "Le chiisme duodécimain permet d'en regrouper certaines, réduisant à trois moments de prière."],
     ["Qu'est-ce que la zakat ?", ["Une aumône obligatoire calculée sur le patrimoine", "Un don volontaire", "Un impôt religieux d'État", "Une offrande de fête"], 0,
      "Elle constitue l'un des cinq piliers et vise la redistribution vers les plus démunis."],
-    ["Qu'est-ce que le ramadan ?", ["Un mois de jeûne du lever au coucher du soleil", "Une fête de trois jours", "Une période de pèlerinage", "Un mois de prière renforcée"], 0,
+    ["Qu'est-ce que le ramadan ?", ["Un mois de jeûne de l'aube au coucher du soleil", "Une fête de trois jours", "Une période de pèlerinage", "Un mois de prière renforcée"], 0,
      "Enfants, malades, voyageurs et femmes enceintes en sont dispensés."],
     ["Qu'est-ce que la nuit du Destin ?", ["La nuit commémorant la première révélation du Coran", "La nuit de fin du ramadan", "La nuit du pèlerinage", "La nuit de l'hégire"], 0,
      "Elle est située dans les dix derniers jours du ramadan, sans date fixe certaine."],

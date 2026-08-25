@@ -617,3 +617,53 @@ ne se corrigent pas constat par constat :
 
 Porte : `tsc` ✓ · `validate:content` 0 erreur / 634 avertissements · 236 tests ✓ ·
 `build` ✓.
+
+### Lot 10 — `litterature.md` (5 graves) et `mythologie-religions.md` (18)
+
+Littérature — Phèdre et le Goncourt étaient déjà corrigés (`906a41d`). Restaient :
+
+- **Césaire donné comme « écrivain africain »** : il est martiniquais, et les trois
+  autres fichiers du domaine l'écrivent. La seule réponse conforme à l'énoncé
+  était donc l'un des distracteurs — et les trois distracteurs étaient tous des
+  écrivains africains ayant lié leur œuvre à la lutte anticoloniale.
+- **Les camps soviétiques** : les quatre auteurs proposés les ont documentés, et
+  l'explication couronnait explicitement un distracteur. L'apprenant qui la lisait
+  concluait qu'il s'était trompé alors qu'il avait raison.
+- Francis Ponge posé deux fois, la seconde ne demandant rien de plus.
+- **Quatre fuites de réponses ouvertes par les fusions** : l'explication d'une
+  question de la leçon donnait la réponse d'une question posée plus loin **dans le
+  même chapitre** — *L'Odyssée*, *in medias res*, Virgile et Ovide d'un coup,
+  Christine de Pizan et Marie de France. Invisibles dans chaque fichier pris
+  séparément.
+
+Mythologie et religions :
+
+- **Le jeûne du ramadan commence à l'aube**, pas au lever du soleil — une heure et
+  demie plus tôt. Le cours se contredisait d'ailleurs lui-même en évoquant plus
+  loin des jeûnes de dix-huit heures, impossibles autrement.
+- **Vatican II n'a pas supprimé le latin.** Le cours affirmait mot pour mot le
+  distracteur que sa propre question déclare faux : un apprenant qui lisait le
+  cours répondait faux à la question.
+- **La hanoukia compte neuf branches**, huit bougies plus la servante. Le cours en
+  donnait huit, contre sa propre question.
+- **Spinoza n'a pas été exclu « pour » son panthéisme** : le herem de 1656 le
+  frappe à vingt-trois ans, plus de vingt ans avant l'*Éthique* et avant tout
+  écrit connu, et son texte ne précise aucun motif doctrinal. La causalité était
+  fabriquée, et répétée trois fois dans le domaine.
+- **La part des sans-affiliation** : « un sixième » est l'estimation Pew pour 2010.
+  Les données 2020, publiées en juin 2025, donnent 24,2 %. La question n'avait
+  plus de réponse juste parmi ses quatre items.
+- **« Dans l'Iliade, quelle ruse… »** : la prise de Troie n'y figure pas, le poème
+  s'achève sur les funérailles d'Hector — et l'explication le disait trois lignes
+  plus bas.
+
+**Non appliqué, et c'est le même chantier que pour la langue française** : ce
+rapport liste quinze paires de questions en doublon entre les trois lots, une
+idée servant de réponse à cinq questions, la loi de 1905 posée trois fois, et une
+trentaine de reformulations du cahier d'origine — dont une paire avec **les quatre
+mêmes propositions**. Le rapport le dit clairement : le validateur ne bloque que
+les énoncés identiques. C'est le point 4 de l'ordre de marche, et il demande de
+comparer les couples (fait interrogé, bonne réponse) et non les chaînes.
+
+Porte : `tsc` ✓ · `validate:content` 0 erreur / 634 avertissements · 236 tests ✓ ·
+`build` ✓.

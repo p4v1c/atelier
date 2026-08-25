@@ -185,7 +185,7 @@ export const CG_MYTHOLOGIE_RELIGIONS: SeedSkill[] = [
      "Religion officiellement reconnue au Bénin, il a été profondément déformé par sa représentation dans le cinéma."],
     ["Qu'est-ce que la laïcité en France ?", ["Un principe de neutralité de l'État garantissant la liberté de conscience", "l'interdiction des religions dans l'espace public", "L'athéisme d'État", "La reconnaissance de toutes les religions par l'État"], 0,
      "La loi de 1905 sépare les Églises et l'État : elle ne reconnaît ni ne subventionne aucun culte."],
-    ["Quelle est approximativement la part de personnes sans affiliation religieuse dans le monde ?", ["Environ un sixième de la population", "Environ la moitié", "Moins de cinq pour cent", "Environ un tiers"], 0,
+    ["Quelle est approximativement la part de personnes sans affiliation religieuse dans le monde ?", ["Environ un quart de la population", "Environ la moitié", "Moins de cinq pour cent", "Environ un dixième"], 0,
      "Ce groupe est très hétérogène : athées, agnostiques et personnes croyantes sans appartenance déclarée.", 3],
   ]),
 
@@ -248,7 +248,7 @@ export const CG_MYTHOLOGIE_RELIGIONS: SeedSkill[] = [
     ["Qu'est-ce que le déisme ?", ["La croyance en un Dieu créateur sans religion révélée", "L'athéisme modéré", "Le culte de la nature", "La croyance en plusieurs dieux"], 0,
      "Voltaire et de nombreux penseurs des Lumières s'en réclamaient, contre les Églises institutionnelles."],
     ["Qu'est-ce que le panthéisme ?", ["L'identification de Dieu et de la nature", "Le culte de tous les dieux", "La croyance en un dieu personnel", "Le rejet du sacré"], 0,
-     "Spinoza en est la figure majeure, ce qui lui valut d'être excommunié et longtemps tenu pour athée."],
+     "Spinoza en est la figure majeure, ce qui lui valut d'être longtemps tenu pour athée."],
     ["Qu'appelle-t-on le problème du mal en philosophie ?", ["La difficulté de concilier l'existence du mal avec un Dieu bon et tout-puissant", "La question de l'origine du péché", "La définition du bien", "Le débat sur la liberté humaine"], 0,
      "Épicure en aurait formulé la première version. Leibniz y répond en 1710 par sa théodicée."],
     ["Qu'est-ce que le pari de Pascal ?", ["Un argument selon lequel il est rationnel de parier sur l'existence de Dieu", "Une preuve de l'existence de Dieu", "Une critique de la superstition", "Un raisonnement sur l'infini mathématique"], 0,

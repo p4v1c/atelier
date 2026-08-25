@@ -377,7 +377,7 @@ export const CG_MYTHOLOGIE_RELIGIONS_2: SeedSkill[] = [
      "Sa physique atomiste ne nie pas les dieux mais leur refuse toute intervention dans le monde."],
     ["Quel poète latin expose la philosophie épicurienne en vers ?", ["Lucrèce", "Virgile", "Horace", "Ovide"], 0,
      "De la nature des choses fut redécouvert en 1417 et influença profondément la pensée moderne."],
-    ["Quel philosophe du XVIIe siècle est excommunié pour ses idées sur Dieu et la nature ?", ["Spinoza", "Descartes", "Leibniz", "Pascal"], 0,
+    ["Quel philosophe du XVIIe siècle est exclu de sa communauté avant de développer une pensée identifiant Dieu et la nature ?", ["Spinoza", "Descartes", "Leibniz", "Pascal"], 0,
      "Son identification de Dieu et de la nature lui valut d'être longtemps tenu pour athée."],
     ["Quel curé français laisse à sa mort un testament athée au XVIIIe siècle ?", ["Jean Meslier", "Étienne Dolet", "Abbé Prévost", "Abbé Raynal"], 0,
      "Découvert après sa mort en 1729, son texte circula clandestinement, notamment par Voltaire."],
