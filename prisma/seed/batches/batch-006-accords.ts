@@ -243,11 +243,11 @@ export const BATCH_006: ContentBatch = {
       tip: "Remonte jusqu'au nom que « qui » remplace : c'est lui qui commande.",
       difficulty: 2,
       sentences: [
-        { marked: "C'est toi qui [a] proposé cette solution en premier.", fix: "as" },
+        { marked: "C'est une des solutions qui [convient] le mieux au dossier.", fix: "conviennent" },
         { marked: "Nous qui [avez] tout organisé, nous méritons un repos.", fix: "avons" },
         { marked: "Ce sont les enfants qui [décide] du programme du dimanche.", fix: "décident" },
         { marked: "Vous qui [connaît] la région, guidez-nous jusqu'au refuge.", fix: "connaissez" },
-        { marked: "C'est moi qui ai laissé la lumière allumée toute la nuit.", fix: null },
+        { marked: "Moi qui ai tout relu, je n'ai rien vu passer.", fix: null },
       ],
     },
     {

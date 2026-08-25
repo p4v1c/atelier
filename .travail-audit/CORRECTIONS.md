@@ -147,3 +147,78 @@ Autres règles corrigées :
 
 Porte : `tsc` ✓ · `validate:content` 0 erreur / 634 avertissements · 236 tests ✓ ·
 `build` ✓.
+
+### Rectification du lot 1 : ce que l'écran fait vraiment
+
+J'avais écrit, en corrigeant `virgule-donc-intercale`, que « la ponctuation
+collée au mot marqué est réinjectée après la correction ». **C'est faux pour
+l'écran.** `SpotError.tsx` n'assemble jamais la phrase corrigée : il barre le mot
+cliquable et écrit la correction au-dessus, à la main. La ponctuation finale
+reste affichée dans la ligne, hors du mot.
+
+Ce qui reste vrai, et qui justifiait la réfection : une correction qui ne
+différerait du mot que par sa ponctuation est **invisible** — l'apprenant lit
+au-dessus du mot ce qu'il a déjà sous les yeux. Le validateur refusait déjà
+`correction === mot` ; il refuse maintenant aussi `correction === mot +
+ponctuation`.
+
+`voir.ts` porte désormais l'avertissement : sa reconstruction n'est pas l'écran,
+et une correction qui n'ajoute qu'une espace avant un signe (« dommage » →
+« dommage ! ») paraît doubler le signe dans l'outil alors qu'elle est juste.
+**Ne pas corriger ces cas-là** — il y en a soixante.
+
+### Lot 3 — quatre doublons francs, et neuf règles des écrits professionnels
+
+- `trait-union-inversion` — les quatre corrections doublaient le pronom
+  (« Viendra-t-elle elle »). Un marqueur ne pouvant pas contenir d'espace, les
+  fautes exercées sont maintenant celles qui tiennent en un mot : le t
+  euphonique manquant (« Viendra-elle »), le t de trop (« dit-t-il »),
+  l'apostrophe à la place du trait d'union (« Va-t'il »).
+- `typo-espace-tiret-intervalle` — « 1939 1939-1945 1945 ». L'intervalle fautif
+  tient maintenant en un seul token : « [1939–1945] » → « 1939-1945 ».
+- `point-virgule-liste` — **règle supprimée**. Trois de ses corrections étaient
+  invisibles à l'écran, et son énoncé porte sur l'énumération **verticale**, que
+  le format d'une phrase par exercice ne peut pas montrer. Ses deux phrases qui
+  fonctionnaient relèvent de `deux-points-enumeration`, qui existe déjà.
+- `pro-restant-disposition` — la règle imposait « Restants », forme que le
+  français ne connaît pas (le participe présent est invariable), se contredisait
+  d'une phrase à l'autre, et contredisait `accord-participe-ayant`. Elle enseigne
+  maintenant l'invariabilité.
+- `pro-lettre-recommandee` — **l'énoncé était à l'envers**. La mention du
+  récépissé et des textes est « avis de réception » ; « accusé de réception » est
+  courant mais n'est pas la forme officielle, et le sigle LRAR vient d'*avis*.
+  La règle interdisait la forme exacte et corrigeait du juste vers l'approximatif.
+- `pro-objet-reference` — « Réf. : 2024-118 de devis pour le toit ».
+- `pro-tutoiement` — le pronom changeait, le verbe restait à l'autre personne
+  (« que tu serez présent »). C'est le verbe qui est marqué.
+- `pro-formule-refus` — « Je ne peux pas de donner suite ».
+- `impropriete-cloturer` — « à midi précise » : midi est masculin, la phrase
+  modèle restait fautive une fois corrigée.
+- `titres-oeuvres-majuscule` — **la règle enseignait l'inverse de l'usage**.
+  Quand un titre commence par un article défini, la majuscule s'étend au premier
+  substantif et à l'adjectif qui le précède (*Le Rouge et le Noir*, *Les Fleurs
+  du mal*). L'énoncé donnait « Le rouge et le noir » en modèle, les corrections
+  détruisaient des graphies correctes, et la phrase déclarée correcte était la
+  seule fautive. Au passage, la contradiction avec `accord-titre-oeuvre` du lot
+  006 disparaît.
+
+Les quatre doublons francs :
+
+- **Guillemets** : `espace-insecable-guillemet-ouvrant` (lot 002) enseignait mot
+  pour mot `espace-guillemets` (lot 001). Règle supprimée ; ses quatre phrases
+  distinctes — celles où seul le guillemet ouvrant est collé, dans une citation
+  de plusieurs mots — rejoignent la règle qui reste, qu'elles enrichissent.
+- **Double i à l'imparfait** : le lot 007 enseigne déjà la règle générale, avec
+  le même verbe. `conj-verbe-rire-sourire` se recentre sur le participe passé
+  *ri*, *souri* — sans t, invariable.
+- **Accord après « qui »** : le lot 006 garde la règle générale (et gagne deux
+  vrais pièges d'antécédent, « une des solutions qui conviennent »), le lot 011
+  prend toute la tournure « c'est … qui », à toutes les personnes.
+- **Marques devenues noms communs** : le lot 011 ne garde que l'invariabilité de
+  la marque qui désigne le fabricant, le passage à la minuscule reste au lot 013.
+
+Aucune de ces quatre résolutions ne perd de contenu, sauf la règle des
+guillemets, dont une seule phrase faisait doublon exact.
+
+Porte : `tsc` ✓ · `validate:content` 0 erreur / 634 avertissements · 236 tests ✓ ·
+`build` ✓.

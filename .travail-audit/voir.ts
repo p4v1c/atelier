@@ -6,6 +6,13 @@
  * C'est l'outil de vérification de la campagne de corrections : le défaut
  * dominant du module français est la correction bien formée qui produit une
  * phrase impossible, et on ne le voit qu'en lisant la phrase obtenue.
+ *
+ * ATTENTION à ce que cette reconstruction n'est pas. L'écran, lui, n'assemble
+ * jamais la phrase corrigée : il barre le mot cliquable et écrit la correction
+ * au-dessus, à la main (`SpotError.tsx`). La ponctuation finale reste dans la
+ * ligne, hors du mot. Une correction qui n'ajoute qu'une espace avant un signe
+ * (« dommage » → « dommage ! ») paraît donc doubler le signe ici, alors qu'à
+ * l'écran elle montre exactement ce qu'il faut. Ne corrige pas ces cas-là.
  */
 import { loadAllBatches } from "../prisma/seed/index";
 import { parseMarkedSentence, tokenize } from "../src/lib/tokenize";

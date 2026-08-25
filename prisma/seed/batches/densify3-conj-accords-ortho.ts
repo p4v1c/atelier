@@ -105,8 +105,8 @@ export const DENSIFY3_CONJ_ACC_ORTHO: ContentBatch = {
       { marked: "Nous [préverrions] volontiers un délai supplémentaire.", fix: "prévoirions" },
     ]},
     { ruleSlug: "conj-verbe-rire-sourire", sentences: [
-      { marked: "Nous [rions] de bon cœur à cette époque insouciante.", fix: "riions" },
-      { marked: "Vous [souriez] beaucoup plus avant ce déménagement.", fix: "souriiez" },
+      { marked: "Elle avait [sourit] avant même de comprendre la question.", fix: "souri" },
+      { marked: "Nous nous sommes [souris] en nous croisant dans le couloir.", fix: "souri" },
     ]},
 
     /* ── lot 011 : accords ── */
@@ -164,7 +164,7 @@ export const DENSIFY3_CONJ_ACC_ORTHO: ContentBatch = {
     ]},
     { ruleSlug: "accord-nom-propre-marque", sentences: [
       { marked: "Deux [Fiats] étaient garées devant le portail.", fix: "Fiat" },
-      { marked: "Il a acheté trois [Thermos] en promotion ce matin.", fix: "thermos" },
+      { marked: "Le concessionnaire a vendu quatre [Teslas] au mois de juin.", fix: "Tesla" },
     ]},
     { ruleSlug: "accord-feu-defunt", sentences: [
       { marked: "[Feue] le roi avait pourtant tranché cette question.", fix: "Feu" },

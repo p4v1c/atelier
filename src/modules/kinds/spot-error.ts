@@ -59,6 +59,13 @@ export const spotError: ExerciseKind<SpotErrorPayload, number, unknown> = {
       if (p.correction === fautif.word) {
         erreurs.push(`la correction vaut le mot marqué : « ${p.correction} »`);
       }
+      // L'écran barre le mot cliquable et écrit la correction au-dessus ; la
+      // ponctuation finale reste affichée dans la ligne, hors du mot. Une
+      // correction qui vaut « mot + ponctuation » réécrit donc ce que
+      // l'apprenant a déjà sous les yeux.
+      if (p.correction === fautif.word + fautif.after) {
+        erreurs.push(`la correction vaut le mot marqué et sa ponctuation : « ${p.correction} »`);
+      }
 
       // La correction remplace UN token : le résultat doit rester une phrase.
       // On ne sait pas analyser le français, mais on sait repérer une

@@ -101,6 +101,10 @@ export const BATCH_001: ContentBatch = {
         { marked: "Elle a répété calmement, très posément, le mot [«jamais»] trois fois.", fix: "« jamais »" },
         { marked: "Le titre de la une annonçait [«victoire»] en lettres capitales.", fix: "« victoire »" },
         { marked: "On lisait « complet » sur la porte du théâtre depuis la veille.", fix: null },
+        { marked: "Le règlement parle d'un [«délai] raisonnable » sans jamais le chiffrer.", fix: "« délai" },
+        { marked: "L'article évoque une [«baisse] sensible » des inscriptions.", fix: "« baisse" },
+        { marked: "On lui reproche son [«manque] de rigueur » depuis des mois.", fix: "« manque" },
+        { marked: "Le texte mentionne une « erreur matérielle » sans autre précision.", fix: null },
       ],
     },
     {

@@ -27,10 +27,6 @@ export const DENSIFY3_PONCT2_PRO_EXPR: ContentBatch = {
       { marked: "Nous avons dû [reporter] la salle n'était pas libre.", fix: "reporter :" },
       { marked: "Le train est [bondé] c'est un jour de départ en vacances.", fix: "bondé :" },
     ]},
-    { ruleSlug: "point-virgule-liste", sentences: [
-      { marked: "Deux options se [présentent,] négocier ou renoncer.", fix: "présentent :" },
-      { marked: "Le kit comprend une [notice,] deux vis et une clé.", fix: "notice," },
-    ]},
     { ruleSlug: "guillemets-imbriques", sentences: [
       { marked: "Il rapporte : « elle a lancé [«tant] pis » et elle est partie ».", fix: "“tant" },
       { marked: "« Le mot [«provisoire»] revenait sans cesse », a-t-elle noté.", fix: "“provisoire”" },
@@ -48,8 +44,8 @@ export const DENSIFY3_PONCT2_PRO_EXPR: ContentBatch = {
       { marked: "Personne ne connaît [l'auteur] de cette lettre anonyme.", fix: "l’auteur" },
     ]},
     { ruleSlug: "trait-union-inversion", sentences: [
-      { marked: "« Nous verrons », [conclut] il en rangeant ses papiers.", fix: "conclut-il" },
-      { marked: "[Pouvez] vous me rappeler avant la fin de la matinée ?", fix: "Pouvez-vous" },
+      { marked: "« Nous verrons », [conclut-t-il] en rangeant ses papiers.", fix: "conclut-il" },
+      { marked: "[Pourra-elle] nous rappeler avant la fin de la matinée ?", fix: "Pourra-t-elle" },
     ]},
     { ruleSlug: "point-interrogation-indirecte", sentences: [
       { marked: "Il ignore encore quand le chantier commencera [?]", fix: "." },
@@ -96,8 +92,8 @@ export const DENSIFY3_PONCT2_PRO_EXPR: ContentBatch = {
       { marked: "Le collège de Fontenay-[Sous]-Bois vient d'être rénové.", fix: "sous" },
     ]},
     { ruleSlug: "typo-espace-tiret-intervalle", sentences: [
-      { marked: "Le chantier court sur la période 2024 [–] 2026.", fix: "2024-2026" },
-      { marked: "Consultez les articles 12 [—] 18 du règlement.", fix: "12-18" },
+      { marked: "Le chantier court sur la période [2024–2026].", fix: "2024-2026" },
+      { marked: "Consultez les articles [12—18] du règlement.", fix: "12-18" },
     ]},
     { ruleSlug: "typo-abrev-etats", sentences: [
       { marked: "Un accord commercial lie la France et les [USA].", fix: "É.-U." },
@@ -179,22 +175,22 @@ export const DENSIFY3_PONCT2_PRO_EXPR: ContentBatch = {
     ]},
     { ruleSlug: "pro-restant-disposition", sentences: [
       { marked: "À votre écoute et [restants] disponible, je vous salue.", fix: "restant" },
-      { marked: "Dans l'attente et [demeurant] à votre service, nous vous saluons.", fix: "demeurants" },
+      { marked: "Dans l'attente et demeurant à votre service, nous vous saluons.", fix: null },
     ]},
     { ruleSlug: "pro-signature-prenom-nom", sentences: [
       { marked: "Cordialement, Sophie [GIRARD], cheffe de service.", fix: "Girard" },
       { marked: "Bien à vous, Thomas [LEFÈVRE], chargé de clientèle.", fix: "Lefèvre" },
     ]},
     { ruleSlug: "pro-objet-reference", sentences: [
-      { marked: "Objet : [nous] vous informons de la fermeture estivale.", fix: "information" },
+      { marked: "Objet : [informer] sur la fermeture estivale du service.", fix: "information" },
       { marked: "Réf. : [résiliation] du contrat d'entretien annuel.", fix: "2024-207" },
     ]},
     { ruleSlug: "pro-lettre-recommandee", sentences: [
-      { marked: "La demande part en [recommandée] avec accusé de réception.", fix: "recommandé" },
+      { marked: "La demande part en [recommandée] avec avis de réception.", fix: "recommandé" },
       { marked: "Un courrier en [LRRA] vous sera adressé sous huitaine.", fix: "LRAR" },
     ]},
     { ruleSlug: "pro-tutoiement", sentences: [
-      { marked: "Bonjour Claire, peux-tu confirmer que [vous] viendrez ?", fix: "tu" },
+      { marked: "Bonjour Claire, peux-tu confirmer que tu [viendrez] mardi ?", fix: "viendras" },
       { marked: "Madame, je [te] remercie de votre réponse rapide.", fix: "vous" },
     ]},
     { ruleSlug: "pro-abreviations-interdites", sentences: [

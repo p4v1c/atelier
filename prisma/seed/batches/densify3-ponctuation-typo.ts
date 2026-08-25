@@ -202,10 +202,10 @@ export const DENSIFY3_PONCTUATION_TYPO: ContentBatch = {
       { marked: "Le texte tient en [7] paragraphes bien construits.", fix: "sept" },
     ]},
     { ruleSlug: "titres-oeuvres-majuscule", sentences: [
-      { marked: "Il relit chaque hiver Les [Trois] Mousquetaires.", fix: "trois" },
-      { marked: "Elle a emprunté Le [Père] Goriot à la bibliothèque.", fix: "père" },
+      { marked: "Il relit chaque hiver Les [trois] Mousquetaires.", fix: "Trois" },
+      { marked: "Elle a emprunté Le [père] Goriot à la bibliothèque.", fix: "Père" },
     ]},
-    { ruleSlug: "espace-insecable-guillemet-ouvrant", sentences: [
+    { ruleSlug: "espace-guillemets", sentences: [
       { marked: "Le texte parle d'un [«effort] collectif » sans le définir.", fix: "« effort" },
       { marked: "On lui reproche son [«absence] de méthode » depuis un an.", fix: "« absence" },
     ]},

@@ -69,7 +69,7 @@ export const DENSIFY3_ACCORDS_CONJ: ContentBatch = {
       { marked: "Un immeuble sans [ascenseurs] décourage les acheteurs âgés.", fix: "ascenseur" },
     ]},
     { ruleSlug: "accord-verbe-apres-qui", sentences: [
-      { marked: "C'est moi qui [a] proposé de reporter la séance.", fix: "ai" },
+      { marked: "Il fait partie de ceux qui [croit] encore au projet.", fix: "croient" },
       { marked: "Nous qui [avait] tout préparé, nous sommes déçus.", fix: "avions" },
     ]},
     { ruleSlug: "accord-collectif-groupe", sentences: [
