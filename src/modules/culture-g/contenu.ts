@@ -421,6 +421,9 @@ const memePortee = (a: string, b: string) => {
   return true;
 };
 
+/** La réponse porte-t-elle une négation ? C'est souvent tout son sens. */
+const nie = (texte: string) => /\b(ne|n|pas|jamais|aucun|aucune|sans|ni)\b/i.test(normalizeForDedupe(texte));
+
 const motsUtiles = (texte: string) =>
   new Set(
     normalizeForDedupe(texte)
@@ -464,6 +467,19 @@ function dedoublonner(groupes: SeedSkill[][]): void {
        * vis ? » en inventions répondent toutes deux Léonard de Vinci.
        */
       const reponsesDeLaNotion = new Set<string>();
+      /*
+       * La même règle, mais sur le SENS de la réponse et non sur sa chaîne.
+       * Les fusions ont mis dans un même chapitre des questions écrites
+       * séparément : « Qu'est-ce qu'un roux en cuisine ? » répond « Un mélange
+       * cuit de farine et de matière grasse servant à lier », et « Comment
+       * prépare-t-on un roux ? » répond « Un mélange de farine et de matière
+       * grasse cuit ensemble ». Deux chaînes différentes, un seul fait.
+       *
+       * Le seuil ne vaut qu'à l'intérieur d'une notion, où le sujet est déjà
+       * étroit, et seulement pour les réponses assez longues pour porter du
+       * sens — « Deux ans » et « Trois ans » ne doivent pas se confondre.
+       */
+      const motsDesReponses: { reponse: Set<string>; enonce: Set<string>; nie: boolean }[] = [];
 
       skill.exercises = skill.exercises.filter((exercice) => {
         const p = exercice.payload as QcmPayload;
@@ -471,6 +487,28 @@ function dedoublonner(groupes: SeedSkill[][]): void {
         if (sienne.length >= 12) {
           if (reponsesDeLaNotion.has(sienne)) return false;
           reponsesDeLaNotion.add(sienne);
+        }
+        if (sienne.length >= 20) {
+          const mots = motsUtiles(p.choices[p.answerIndex] ?? "");
+          const enonceMots = motsUtiles(p.question);
+          const jumelleInterne = motsDesReponses.some(
+            (autre) =>
+              recouvrement(mots, autre.reponse) >= 0.55 &&
+              // Les énoncés doivent porter sur le même objet : « Comment le
+              // président est-il élu ? » et « Quel mode de scrutin s'applique
+              // aux législatives ? » ont la même réponse et ne font pas doublon.
+              recouvrement(enonceMots, autre.enonce) >= 0.25 &&
+              // Et une négation d'un seul côté fait toute la différence :
+              // « le gouvernement EST responsable devant le Parlement » contre
+              // « le gouvernement N'EST PAS responsable devant le Parlement ».
+              nie(p.choices[p.answerIndex] ?? "") === autre.nie,
+          );
+          if (jumelleInterne) return false;
+          motsDesReponses.push({
+            reponse: mots,
+            enonce: enonceMots,
+            nie: nie(p.choices[p.answerIndex] ?? ""),
+          });
         }
 
         // Le même énoncé, quelle que soit la réponse. Deux questions

@@ -970,3 +970,29 @@ fusion : ne verser une notion du seed dans une leçon qu'après avoir retiré le
 questions dont la leçon traite déjà. **C'est une décision d'architecture, pas une
 correction** — je laisse le compteur en place, désormais juste, comme tableau de
 bord.
+
+### 4. Le doublon né de la fusion — la règle qui manquait
+
+En travaillant le biais de longueur sur `ga-techniques-cuisine`, j'ai trouvé la
+cause d'un défaut que **tous** les rapports signalent : « Qu'est-ce qu'un roux en
+cuisine ? » et « Comment prépare-t-on un roux ? » cohabitent dans la même notion,
+avec la même réponse écrite de deux façons.
+
+Le filtre interdisait déjà, dans une notion, deux questions ayant la **même chaîne**
+de réponse. Mais les fusions rapprochent des questions écrites séparément : les
+chaînes diffèrent, le fait est le même. La règle porte maintenant sur le **sens**
+de la réponse — recouvrement des mots significatifs à 55 % — et non sur sa chaîne.
+
+Deux garde-fous, tous deux nés de faux positifs constatés en les lisant :
+
+- **Les énoncés doivent porter sur le même objet** (25 % de recouvrement au
+  moins). Sans cela, « Comment le président est-il élu ? » et « Quel mode de
+  scrutin s'applique aux législatives ? » se seraient mangées : même réponse, deux
+  questions légitimes.
+- **Une négation d'un seul côté interdit la fusion.** « Le gouvernement **est**
+  responsable devant le Parlement » et « Le gouvernement **n'est pas** responsable
+  devant le Parlement » sont les définitions du régime parlementaire et du régime
+  présidentiel : c'est le mot *pas* qui fait toute la différence.
+
+**Seize doublons de plus retirés**, les paires lues une à une : aucune perte de
+contenu légitime. Total sur les deux règles : 9 864 questions, puis 9 824.

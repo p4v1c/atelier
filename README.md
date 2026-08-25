@@ -6,7 +6,7 @@ répétition espacée, et autant de matières qu'on veut y mettre.
 | Module           | Contenu                                                      | Apparence          |
 | ---------------- | ------------------------------------------------------------ | ------------------ |
 | Français         | 614 règles · 4 318 phrases · 310 dictées                      | cahier d'écolier   |
-| Culture générale | 949 notions · 9 840 questions · 907 cours                      | carnet de révision |
+| Culture générale | 949 notions · 9 824 questions · 907 cours                      | carnet de révision |
 | Anglais          | 182 séries · 7 040 cartes · 10 dictées · 64 cours · A1→C2       | signalétique       |
 | Espagnol         | 180 séries · 6 970 cartes · 10 dictées · 62 cours · A1→C2       | signalétique       |
 | Géographie       | 20 séries · 613 questions · 5 cartes × 4 jeux                 | atlas              |
