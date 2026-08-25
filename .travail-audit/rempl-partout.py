@@ -7,12 +7,17 @@ l'autre. Ce script le cherche partout, et refuse d'agir s'il est ambigu.
 """
 import sys, json, io, glob
 
+# Un second argument restreint la recherche à un domaine : indispensable quand
+# plusieurs relecteurs travaillent en parallèle, pour qu'aucun n'écrive dans les
+# fichiers d'un autre.
+DOMAINE = sys.argv[2] if len(sys.argv) > 2 else "*"
 SOURCES = (
-    glob.glob("prisma/seed/culture-g/*.ts")
-    + glob.glob("prisma/seed/culture-g/cours/*.ts")
-    + glob.glob("heritage/culture-g/data/*.json")
-    + glob.glob("heritage/culture-g/data/lecons/*/*.json")
+    glob.glob("prisma/seed/culture-g/%s.ts" % DOMAINE)
+    + glob.glob("prisma/seed/culture-g/cours/%s.ts" % DOMAINE)
+    + glob.glob("heritage/culture-g/data/%s.json" % DOMAINE)
+    + glob.glob("heritage/culture-g/data/lecons/%s/*.json" % DOMAINE)
 )
+SOURCES = sorted(set(SOURCES))
 
 paires = json.load(open(sys.argv[1], encoding="utf-8"))
 textes = {f: io.open(f, encoding="utf-8").read() for f in SOURCES}
