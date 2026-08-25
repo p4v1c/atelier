@@ -1187,9 +1187,9 @@
      "q": "Qu'est-ce qui a exactement été inscrit par l'UNESCO en 2010 ?",
      "choix": [
       "Le repas gastronomique des Français, comme pratique sociale",
-      "La cuisine française et ses recettes",
-      "Le Guide Michelin",
-      "Les fromages AOP français"
+      "La cuisine française et l'ensemble de ses recettes régionales",
+      "Le Guide Michelin et son système d'étoiles",
+      "Les fromages français protégés par une appellation d'origine"
      ],
      "bonne": 0,
      "difficulte": 2,
@@ -1198,10 +1198,10 @@
     {
      "q": "À quel moment le fromage est-il servi dans un repas français traditionnel ?",
      "choix": [
-      "En même temps que l'entrée",
+      "En même temps que l'entrée, au début du repas",
       "Après le plat et avant le dessert",
-      "Tout à la fin, après le café",
-      "Avec l'apéritif uniquement"
+      "Tout à la fin du repas, une fois le café servi",
+      "Avec l'apéritif seulement, avant de passer à table"
      ],
      "bonne": 1,
      "difficulte": 1,
@@ -1210,10 +1210,10 @@
     {
      "q": "En quoi consistait le service à la française pratiqué jusqu'au XIXe siècle ?",
      "choix": [
-      "Chaque plat était servi individuellement et chaud",
-      "Les convives se servaient au buffet",
+      "Chaque plat était servi individuellement et porté chaud à chaque convive",
+      "Les convives se servaient eux-mêmes à un buffet dressé à part",
       "Tous les plats d'un même service étaient posés ensemble sur la table",
-      "Le repas se prenait debout"
+      "Le repas se prenait debout, sans que l'on s'attable"
      ],
      "bonne": 2,
      "difficulte": 3,
@@ -1222,9 +1222,9 @@
     {
      "q": "Quelle découverte a rendu possible la fabrication de porcelaine dure en France ?",
      "choix": [
-      "Celle du verre au plomb en Lorraine",
-      "Celle de l'étain en Bretagne",
-      "Celle du bleu de cobalt",
+      "Celle du verre au plomb, mis au point dans les verreries de Lorraine",
+      "Celle d'un gisement d'étain exploité en Bretagne",
+      "Celle du bleu de cobalt, qui donna sa couleur aux faïences",
       "Celle d'un gisement de kaolin près de Limoges, en 1767"
      ],
      "bonne": 3,
@@ -1234,9 +1234,9 @@
     {
      "q": "Pourquoi sert-on traditionnellement un sauternes avec du roquefort ?",
      "choix": [
-      "Parce que les deux viennent de la même région",
+      "Parce que le vin et le fromage doivent toujours provenir de la même région française",
       "Parce que le vin doit toujours être plus acide que le plat",
-      "Parce que le vin blanc accompagne tous les fromages",
+      "Parce qu'un vin blanc accompagne indifféremment tous les fromages",
       "Parce que le sucre du vin équilibre le sel et l'amertume du fromage"
      ],
      "bonne": 3,
