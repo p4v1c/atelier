@@ -64,7 +64,7 @@ export const CG_HISTOIRE_FRANCE: SeedSkill[] = [
 
   notion("hf-croisades-france", S, "Les Français et les croisades",
     "De l'appel de Clermont en 1095 à la mort de Saint Louis devant Tunis en 1270, deux siècles où la noblesse française part pour l'Orient.",
-    "Deux rois de France seulement ont pris la croix : Louis VII et Louis IX. Retenez qui fait quoi, et le rôle des ordres militaires.",
+    "Deux rois de France seulement ont pris la croix, à un siècle de distance. Retenez qui fait quoi, et le rôle des ordres militaires.",
     2, [
     ["Quel pape lance l'appel à la première croisade en 1095 ?", ["Urbain II", "Grégoire VII", "Innocent III", "Alexandre II"], 0,
      "Il prêche au concile de Clermont, en Auvergne. Le cri « Dieu le veut » aurait répondu à son sermon."],
@@ -142,7 +142,7 @@ export const CG_HISTOIRE_FRANCE: SeedSkill[] = [
 
   notion("hf-richelieu-mazarin", S, "Richelieu, Mazarin et la Fronde",
     "Deux cardinaux ministres, quarante ans de construction de l'État royal, et une révolte nobiliaire qui échoue et marque durablement Louis XIV enfant.",
-    "Richelieu sert Louis XIII, Mazarin sert la régente Anne d'Autriche. La Fronde éclate entre les deux, de 1648 à 1653.",
+    "Deux cardinaux ministres, deux règnes successifs, et la Fronde qui éclate entre les deux, de 1648 à 1653.",
     2, [
     ["Quelle place forte protestante Richelieu réduit-il en 1628 ?", ["La Rochelle", "Montauban", "Nîmes", "Sedan"], 0,
      "Le siège dure quatorze mois et se conclut par la reddition de la ville. La paix d'Alès retire ensuite aux protestants leurs places de sûreté."],
@@ -296,7 +296,7 @@ export const CG_HISTOIRE_FRANCE: SeedSkill[] = [
 
   notion("hf-femmes-france", S, "Les femmes dans l'histoire de France",
     "Du droit de vote obtenu en 1944 à la parité, en passant par les figures qui ont marqué la politique, la science et les lettres.",
-    "La France accorde le droit de vote aux femmes en 1944, soit vingt-six ans après le Royaume-Uni et cinquante et un ans après la Nouvelle-Zélande.",
+    "La France a voté des décennies après le Royaume-Uni et un demi-siècle après la Nouvelle-Zélande : c'est l'écart qu'il faut retenir.",
     2, [
     ["Quand les Françaises obtiennent-elles le droit de vote ?", ["En 1944", "En 1936", "En 1919", "En 1946"], 0,
      "L'ordonnance du 21 avril 1944, signée à Alger, leur accorde le droit de vote et d'éligibilité. Elles votent pour la première fois en avril 1945."],

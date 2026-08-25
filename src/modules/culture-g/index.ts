@@ -92,6 +92,7 @@ export const cultureGenerale: LearningModule = {
      * qu'une question neuve ne l'aggrave pas.
      */
     const mots = (t: string) => normalizeForDedupe(t);
+    const SEUIL_FUITE = 7;
 
     // 1. La bonne réponse est la plus longue. Sur les questions écrites à la
     //    main, cocher la plus longue donnait 76 % de réussite — le hasard en
@@ -110,13 +111,17 @@ export const cultureGenerale: LearningModule = {
       });
     }
 
+    // Le plancher a d'abord été fixé à douze caractères, ce qui laissait
+    // passer les réponses courtes — et ce sont les plus faciles à recopier
+    // sans y penser : « L'Odyssée », « Le Nil », « Pixar ». Sept caractères
+    // attrapent celles-là sans se déclencher sur « Zéro » ou « En 1789 ».
     // 2. L'astuce de la notion donne la réponse d'une de ses questions. Elle
     //    s'affiche sur la fiche du catalogue, donc avant toute question.
     const astuce = mots(skill.tip ?? "");
     const trahies = astuce
       ? payloads.filter((p) => {
           const bonne = mots(p.choices[p.answerIndex] ?? "");
-          return bonne.length >= 12 && astuce.includes(bonne);
+          return bonne.length >= SEUIL_FUITE && astuce.includes(bonne);
         }).length
       : 0;
     if (trahies > 0) {
@@ -137,7 +142,7 @@ export const cultureGenerale: LearningModule = {
       payloads.forEach((autre, j) => {
         if (i === j) return;
         const bonne = mots(autre.choices[autre.answerIndex] ?? "");
-        if (bonne.length >= 12 && explication.includes(bonne)) croisees++;
+        if (bonne.length >= SEUIL_FUITE && explication.includes(bonne)) croisees++;
       });
     });
     if (croisees > 0) {

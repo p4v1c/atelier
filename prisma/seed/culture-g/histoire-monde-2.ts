@@ -9,7 +9,7 @@ const S = "Histoire du monde";
 export const CG_HISTOIRE_MONDE_2: SeedSkill[] = [
   notion("hm2-mesopotamie", S, "La Mésopotamie",
     "Entre le Tigre et l'Euphrate : les premières cités, la première écriture, les premiers codes de lois.",
-    "Sumer, Akkad, Babylone, Assyrie se succèdent sur le même territoire, pas côte à côte.",
+    "Ces quatre puissances se succèdent sur le même territoire, pas côte à côte : c'est un ordre chronologique, pas une carte.",
     2, [
     ["Quelle civilisation invente l'écriture cunéiforme vers 3300 avant notre ère ?", ["Les Sumériens", "Les Akkadiens", "Les Assyriens", "Les Hittites"], 0,
      "D'abord pour la comptabilité des temples, avant de servir aux récits et aux lois."],

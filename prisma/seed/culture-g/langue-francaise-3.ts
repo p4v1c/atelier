@@ -319,7 +319,7 @@ export const CG_LANGUE_FRANCAISE_3: SeedSkill[] = [
 
   notion("lf3-emprunts-langues", S, "Le français prêteur",
     "Les mots français dans les autres langues.",
-    "L'anglais contient des dizaines de milliers de mots d'origine française.",
+    "Une langue voisine contient des dizaines de milliers de mots d'origine française, hérités d'une conquête médiévale.",
     2, [
     ["Quelle proportion du vocabulaire anglais vient du français ?", ["Environ un quart à un tiers", "Environ cinq pour cent", "Environ la moitié", "Environ dix pour cent"], 0,
      "L'apport date surtout de la conquête normande de 1066 et des siècles suivants."],

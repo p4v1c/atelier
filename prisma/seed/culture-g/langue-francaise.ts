@@ -163,7 +163,7 @@ export const CG_LANGUE_FRANCAISE: SeedSkill[] = [
 
   notion("lf-ecriture-alphabets", S, "L'écriture et les alphabets",
     "Des premiers signes aux alphabets modernes : comment on a appris à noter la parole.",
-    "L'alphabet phénicien est l'ancêtre commun du grec, du latin, de l'hébreu et de l'arabe.",
+    "Un seul alphabet est l'ancêtre commun de presque tous les autres : suivez la filiation, pas la ressemblance des lettres.",
     2, [
     ["Quel peuple met au point vers 1200 avant notre ère l'alphabet dont dérivent le grec et le latin ?", ["Les Phéniciens", "Les Égyptiens", "Les Sumériens", "Les Grecs"], 0,
      "Il ne notait que les consonnes. Les Grecs y ajoutent les voyelles vers le VIIIe siècle avant notre ère."],

@@ -402,6 +402,25 @@ const MOTS_VIDES = new Set([
 const motsLongs = (texte: string) =>
   new Set(normalizeForDedupe(texte).split(/\s+/).filter((m) => m.length > 3));
 
+/** Les mots vraiment porteurs : plus de cinq lettres. */
+const motsTresLongs = (texte: string) =>
+  new Set(normalizeForDedupe(texte).split(/\s+/).filter((m) => m.length > 5));
+
+/**
+ * Les mots qui restreignent la portée d'une question. « Que signifie LA
+ * TROISIÈME étoile du guide Michelin ? » et « Que signifie UNE étoile… ? »
+ * partagent presque tous leurs mots et n'interrogent pas le même fait : un
+ * rang, un ordinal ou un chiffre présent d'un seul côté suffit à les séparer.
+ */
+const RESTREINT = /^(premier|premiere|deuxieme|troisieme|quatrieme|cinquieme|sixieme|septieme|huitieme|neuvieme|dixieme|dernier|derniere|\d+)$/;
+const memePortee = (a: string, b: string) => {
+  const ma = new Set(normalizeForDedupe(a).split(/\s+/));
+  const mb = new Set(normalizeForDedupe(b).split(/\s+/));
+  for (const m of ma) if (!mb.has(m) && RESTREINT.test(m)) return false;
+  for (const m of mb) if (!ma.has(m) && RESTREINT.test(m)) return false;
+  return true;
+};
+
 const motsUtiles = (texte: string) =>
   new Set(
     normalizeForDedupe(texte)
@@ -410,15 +429,24 @@ const motsUtiles = (texte: string) =>
   );
 
 function dedoublonner(groupes: SeedSkill[][]): void {
-  const recouvrement = (a: Set<string>, b: Set<string>) => {
-    let commun = 0;
-    for (const m of a) if (b.has(m)) commun++;
-    return commun / (a.size + b.size - commun || 1);
+  const communs = (a: Set<string>, b: Set<string>) => {
+    let n = 0;
+    for (const m of a) if (b.has(m)) n++;
+    return n;
   };
+  const recouvrement = (a: Set<string>, b: Set<string>) =>
+    communs(a, b) / (a.size + b.size - communs(a, b) || 1);
 
   /** Les énoncés déjà posés, mot pour mot. */
   const enonces = new Set<string>();
-  const deja: { enonce: Set<string>; reponse: Set<string>; exacte: string; longs: Set<string> }[] = [];
+  const deja: {
+    question: string;
+    enonce: Set<string>;
+    reponse: Set<string>;
+    exacte: string;
+    longs: Set<string>;
+    tresLongs: Set<string>;
+  }[] = [];
 
   for (const groupe of groupes) {
     for (const skill of groupe) {
@@ -465,12 +493,35 @@ function dedoublonner(groupes: SeedSkill[][]): void {
               recouvrement(reponse, autre.reponse) >= 0.3) ||
             (exacte !== "" &&
               exacte === autre.exacte &&
-              recouvrement(motsLongs(p.question), autre.longs) >= 0.75)
+              recouvrement(motsLongs(p.question), autre.longs) >= 0.75) ||
+            // Troisième passe : reformuler la bonne réponse suffisait à faire
+            // passer n'importe quel doublon, puisque les deux premières
+            // exigent toutes deux que les réponses se ressemblent. « Quelle
+            // position l'Académie a-t-elle adoptée en 2019 sur la féminisation
+            // des noms de métiers ? » et « … des métiers ? » se recoupent à
+            // 0,88 sur l'énoncé et à 0,00 sur la réponse — et passaient.
+            //
+            // On se passe donc de la réponse quand les énoncés se recoupent
+            // ET partagent au moins trois mots longs. C'est cette seconde
+            // condition qui protège les pièges que les commentaires ci-dessus
+            // décrivent : « circuit court » contre « court-circuit », l'ONU
+            // contre la NBA, le diabète de type 1 contre celui de type 2 n'ont
+            // qu'un seul mot de plus de cinq lettres en commun.
+            (recouvrement(enonce, autre.enonce) >= 0.8 &&
+              communs(motsTresLongs(p.question), autre.tresLongs) >= 3 &&
+              memePortee(p.question, autre.question))
         );
         if (jumelle) return false;
 
         enonces.add(litteral);
-        deja.push({ enonce, reponse, exacte, longs: motsLongs(p.question) });
+        deja.push({
+          question: p.question,
+          enonce,
+          reponse,
+          exacte,
+          longs: motsLongs(p.question),
+          tresLongs: motsTresLongs(p.question),
+        });
         return true;
       });
     }

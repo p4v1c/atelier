@@ -13,7 +13,7 @@ const S = "Histoire du monde";
 export const CG_HISTOIRE_MONDE: SeedSkill[] = [
   notion("hm-alexandre", S, "Alexandre le Grand et le monde hellénistique",
     "Douze ans de conquête, un empire de la Grèce à l'Indus, et trois siècles de royaumes grecs en Orient après sa mort.",
-    "Trois batailles suffisent à tenir la conquête : Granique, Issos, Gaugamèles. Le plus difficile à retenir vient après sa mort, quand ses généraux se partagent l'empire.",
+    "Trois batailles suffisent à tenir toute la conquête, dans l'ordre où l'armée avance vers l'est. Le plus difficile à retenir vient après sa mort, quand ses généraux se partagent l'empire.",
     2, [
     ["De quel royaume Alexandre hérite-t-il en 336 av. J.-C. ?", ["La Macédoine", "Athènes", "Sparte", "L'Épire"], 0,
      "Il succède à son père Philippe II, assassiné, qui avait déjà soumis les cités grecques à Chéronée en 338."],
@@ -65,7 +65,7 @@ export const CG_HISTOIRE_MONDE: SeedSkill[] = [
 
   notion("hm-empire-mongol", S, "L'Empire mongol",
     "En un siècle, le plus vaste empire continu de l'histoire : de la Corée à la Hongrie, une administration nomade et des routes rouvertes.",
-    "Distinguez Gengis Khan, le fondateur, de ses successeurs qui divisent l'empire en quatre khanats.",
+    "Distinguez le fondateur de ses successeurs, qui divisent l'empire en quatre khanats.",
     2, [
     ["Quel nom prend Temüjin en 1206 ?", ["Gengis Khan", "Kubilai Khan", "Tamerlan", "Batu Khan"], 0,
      "Le titre signifie souverain universel. Il l'obtient après avoir unifié les tribus de la steppe."],

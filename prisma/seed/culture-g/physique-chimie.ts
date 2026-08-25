@@ -263,7 +263,7 @@ export const CG_PHYSIQUE_CHIMIE: SeedSkill[] = [
 
   notion("pc-materiaux", S, "Les matériaux et leurs propriétés",
     "Métaux, céramiques, polymères, composites : ce qui rend un matériau dur, souple, conducteur ou léger.",
-    "Dur n'est pas résistant : le diamant raye tout mais se brise d'un coup de marteau.",
+    "Dur n'est pas résistant : un matériau peut rayer tous les autres et se briser d'un coup de marteau.",
     2, [
     ["Quel est le matériau naturel le plus dur connu ?", ["Le diamant", "Le corindon", "Le quartz", "Le carbure de tungstène"], 0,
      "Il occupe le rang dix de l'échelle de Mohs. Dur ne signifie pas incassable : il est fragile au choc."],

@@ -910,3 +910,63 @@ comme « le plus gros morceau, plusieurs milliers de leurres ».
 **Quand ce sera fini**, le contrôle `reponse-la-plus-longue` devra passer
 d'avertissement à erreur, pour que le défaut ne revienne pas — comme le contrôle
 de position l'a fait pour son jumeau.
+
+---
+
+## Les trois chantiers mécaniques
+
+### 1. Le filtre `dedoublonner()` — troisième passe
+
+Le défaut que les rapports décrivaient : les deux passes existantes exigent
+**toutes deux** que les bonnes réponses se ressemblent. Reformuler la bonne
+réponse suffisait donc à faire passer n'importe quel doublon — le rapport
+« langue française » donne une paire d'énoncés identiques à 88 % qui passait,
+parce que le recouvrement des réponses tombait à 0.
+
+Une troisième passe se passe de la réponse : **énoncés qui se recoupent à 80 %
+et au moins trois mots de plus de cinq lettres en commun**. C'est cette seconde
+condition qui protège les pièges que les commentaires du fichier décrivent —
+« circuit court » contre « court-circuit », l'ONU contre la NBA, le diabète de
+type 1 contre celui de type 2 n'ont qu'un seul mot long en commun.
+
+S'y ajoute un garde-fou sur la **portée** de la question : un ordinal ou un
+chiffre présent d'un seul côté empêche la fusion. Sans lui, « Que signifie **la
+troisième** étoile du guide Michelin ? » aurait été mangée par « Que signifie
+**une** étoile… ? ».
+
+**Effet : 24 doublons de plus retirés** — 9 864 questions, puis 9 840. Vérifié
+paire par paire sur les vingt-cinq candidates : aucune perte de contenu
+légitime.
+
+### 2. Les astuces qui donnent la réponse — de 0 à 15, puis à 0
+
+Le contrôle `astuce-qui-repond` affichait 0 et les rapports en signalaient des
+dizaines. La raison : son plancher de **douze caractères** ignorait précisément
+les réponses les plus faciles à recopier sans y penser — « Louis VII »,
+« Gaugamèles », « Le diamant », « En 1944 ». Plancher ramené à sept caractères.
+
+Quinze fuites sont apparues, **toutes réelles**, et toutes corrigées : l'astuce
+donne maintenant un angle de lecture, jamais le fait. « Deux rois de France
+seulement ont pris la croix : Louis VII et Louis IX » devient « Deux rois de
+France seulement ont pris la croix, à un siècle de distance ». Le contrôle est
+revenu à 0, cette fois pour de bon.
+
+### 3. Les explications qui répondent ailleurs — le compteur est juste, la
+### correction ne m'appartient pas
+
+Même plancher élargi : le contrôle passe de 114 à **168 notions, 351 fuites**.
+Mais en les lisant, elles ne sont pas 351 défauts indépendants : ce sont les
+**explications des leçons du cahier d'origine**, qui passent en revue une œuvre
+ou une période, mises côte à côte avec des questions du seed qui interrogent
+chacun de ces points un par un. L'explication de « Hernani » nomme *Ruy Blas* et
+*Lorenzaccio* — ce qui est excellent dans une leçon, et devient une fuite dès
+qu'une question du seed demande « Quel drame de Hugo met en scène un valet
+amoureux d'une reine ? » dans le même chapitre.
+
+Trancher en réécrivant les 351 explications reviendrait à **appauvrir ce que le
+corpus a de meilleur**. Le rapport le dit d'ailleurs : « ce n'est pas une
+réécriture de trente explications ». Le geste juste est en amont, sur la table de
+fusion : ne verser une notion du seed dans une leçon qu'après avoir retiré les
+questions dont la leçon traite déjà. **C'est une décision d'architecture, pas une
+correction** — je laisse le compteur en place, désormais juste, comme tableau de
+bord.

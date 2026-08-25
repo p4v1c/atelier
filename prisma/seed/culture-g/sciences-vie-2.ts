@@ -473,7 +473,7 @@ export const CG_SCIENCES_VIE_2: SeedSkill[] = [
 
   notion("sv2-domestication", S, "La domestication des animaux",
     "Quand, où et comment les humains se sont associés à d'autres espèces.",
-    "Le chien est la première espèce domestiquée, bien avant l'agriculture.",
+    "La première espèce domestiquée l'a été bien avant l'agriculture, par des chasseurs-cueilleurs.",
     2, [
     ["Quelle est la première espèce animale domestiquée ?", ["Le chien", "Le mouton", "La chèvre", "Le bœuf"], 0,
      "Il y a probablement plus de quinze mille ans, avant même le Néolithique."],

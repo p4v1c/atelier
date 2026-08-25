@@ -293,7 +293,7 @@ export const CG_ARTS_MUSIQUE: SeedSkill[] = [
 
   notion("am-danse", S, "La danse",
     "Ballet classique, danse moderne, danses traditionnelles : formes, vocabulaire et institutions.",
-    "Les cinq positions du ballet classique ont été codifiées à la cour de Louis XIV.",
+    "Les cinq positions du ballet classique ont été codifiées dans une cour royale française du XVIIe siècle.",
     2, [
     ["Qui fonde l'Académie royale de danse en 1661 ?", ["Louis XIV", "Richelieu", "Mazarin", "Colbert"], 0,
      "Lui-même danseur, il tint le rôle du Soleil dans un ballet de cour, d'où son surnom."],

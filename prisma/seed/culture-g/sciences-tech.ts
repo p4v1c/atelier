@@ -269,7 +269,7 @@ export const CG_SCIENCES_TECH: SeedSkill[] = [
 
   notion("st-espace-exploration", S, "L'exploration spatiale",
     "Des premiers satellites aux sondes interstellaires : ce qui a été fait et par qui.",
-    "Aucune sonde n'a quitté le système solaire au sens gravitationnel : Voyager 1 est seulement sorti de l'héliosphère.",
+    "Aucune sonde n'a quitté le système solaire au sens gravitationnel : la plus lointaine n'est sortie que de l'héliosphère.",
     2, [
     ["Quelle mission dépose les premiers hommes sur la Lune en 1969 ?", ["Apollo 11", "Apollo 8", "Apollo 13", "Gemini 12"], 0,
      "Neil Armstrong et Buzz Aldrin y marchèrent ; Michael Collins resta en orbite."],

@@ -317,7 +317,7 @@ export const CG_GASTRONOMIE: SeedSkill[] = [
 
   notion("ga-voyage-tourisme", S, "Voyage et tourisme",
     "Ce que le tourisme représente, comment il s'organise et ce qu'il transforme.",
-    "La France est le premier pays du monde par le nombre de touristes accueillis, mais pas par les recettes.",
+    "Le pays qui accueille le plus de touristes n'est pas celui qui en tire le plus de recettes : les deux classements diffèrent.",
     2, [
     ["Quel pays accueille le plus de touristes internationaux ?", ["La France", "l'Espagne", "Les États-Unis", "l'Italie"], 0,
      "Les États-Unis en tirent en revanche des recettes supérieures, les séjours y étant plus longs et plus chers."],

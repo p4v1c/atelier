@@ -315,7 +315,7 @@ export const CG_INSTITUTIONS_ECONOMIE: SeedSkill[] = [
 
   notion("ie-consommation-droit", S, "Le droit de la consommation",
     "Garanties, rétractation, démarchage : ce que la loi protège quand on achète.",
-    "La garantie légale de conformité est gratuite et dure deux ans : elle ne se confond pas avec la garantie commerciale.",
+    "La garantie légale de conformité est gratuite et de durée fixée par la loi : elle ne se confond pas avec la garantie commerciale, qui se vend.",
     2, [
     ["Quelle est la durée de la garantie légale de conformité pour un bien neuf en France ?", ["Deux ans", "Un an", "Six mois", "Cinq ans"], 0,
      "Elle est gratuite et obligatoire. La garantie commerciale, payante ou offerte, s'y ajoute sans la remplacer."],

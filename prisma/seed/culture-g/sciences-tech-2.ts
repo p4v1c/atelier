@@ -217,7 +217,7 @@ export const CG_SCIENCES_TECH_2: SeedSkill[] = [
 
   notion("st2-medecine-innovations", S, "Innovations médicales récentes",
     "Diagnostic, traitement, prévention : ce qui a changé ces décennies.",
-    "Le séquençage d'un génome humain coûtait des milliards en 2003 ; il se compte aujourd'hui en centaines d'euros.",
+    "Le séquençage d'un génome humain a coûté des milliards à ses débuts ; il se compte aujourd'hui en centaines d'euros.",
     2, [
     ["Quand le séquençage du génome humain a-t-il été déclaré achevé ?", ["En 2003", "En 1990", "En 2010", "En 1997"], 0,
      "Après treize ans de travaux et un coût de plusieurs milliards de dollars."],
