@@ -87,9 +87,9 @@
   {
    "q": "Quelle est la différence traditionnelle entre une série et un feuilleton ?",
    "choix": [
-    "La série est comique, le feuilleton dramatique",
+    "La série est comique tandis que le feuilleton est dramatique",
     "Dans la série chaque épisode se suffit à lui-même, dans le feuilleton le récit se poursuit",
-    "La série passe le soir, le feuilleton l'après-midi",
+    "La série passe le soir en première partie de soirée, tandis que le feuilleton est diffusé l'après-midi",
     "La série est américaine, le feuilleton européen"
    ],
    "bonne": 1,
@@ -99,10 +99,10 @@
   {
    "q": "D'où vient le nom soap opera ?",
    "choix": [
-    "Du décor de salle de bains des premiers épisodes",
+    "Du décor de salle de bains dans lequel se déroulaient les tout premiers épisodes",
     "Du nom de la première héroïne du genre",
     "Des fabricants de savon qui finançaient ces feuilletons radiophoniques",
-    "D'une expression désignant les acteurs médiocres"
+    "D'une expression américaine désignant les acteurs médiocres"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -113,8 +113,8 @@
    "choix": [
     "Le tournage sur film avec trois caméras filmant simultanément",
     "La diffusion en couleur",
-    "L'usage exclusif de rires préenregistrés",
-    "Le tournage en extérieur naturel"
+    "L'usage exclusif de rires préenregistrés en lieu et place du public",
+    "Le tournage en extérieur et en décor naturel"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -125,7 +125,7 @@
    "choix": [
     "Elle imposait des épisodes plus courts",
     "Elle vivait des abonnements et non de la publicité, ce qui autorisait des récits plus sombres",
-    "Elle diffusait uniquement des rediffusions de cinéma",
+    "Elle diffusait uniquement des rediffusions de films de cinéma",
     "Elle produisait ses séries en public"
    ],
    "bonne": 1,
@@ -135,9 +135,9 @@
   {
    "q": "Quel effet la mise en ligne d'une saison entière le même jour a-t-elle sur le spectateur ?",
    "choix": [
-    "Elle allonge la durée des épisodes",
+    "Elle allonge sensiblement la durée des épisodes",
     "Elle supprime l'attente hebdomadaire et favorise le visionnage en rafale",
-    "Elle impose une diffusion pays par pays",
+    "Elle impose une diffusion échelonnée pays par pays étalée sur plusieurs mois",
     "Elle rend le pilote inutile"
    ],
    "bonne": 1,

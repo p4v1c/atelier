@@ -88,7 +88,7 @@
   {
    "q": "Qu'est-ce qui distingue le mieux le thriller du film policier à énigme ?",
    "choix": [
-    "Le thriller se déroule toujours en ville",
+    "Le thriller se déroule toujours dans une grande ville américaine, jamais à la campagne",
     "Le thriller cherche à empêcher un crime à venir plutôt qu'à élucider un crime passé",
     "Le thriller ne comporte jamais de meurtre",
     "Le thriller est toujours tiré d'un roman"
@@ -101,7 +101,7 @@
    "q": "Quel film de 1920 est considéré comme la quintessence de l'expressionnisme allemand ?",
    "choix": [
     "« Nosferatu »",
-    "« Metropolis »",
+    "« Metropolis », de Fritz Lang, en 1927",
     "« Le Cabinet du docteur Caligari »",
     "« Frankenstein »"
    ],

@@ -9,7 +9,7 @@
     "Les frères Lumière",
     "Georges Méliès",
     "Thomas Edison",
-    "Charlie Chaplin"
+    "Charles Spencer Chaplin"
    ],
    "bonne": 0,
    "difficulte": 1,
@@ -43,7 +43,7 @@
    "q": "Quel pionnier du cinéma a réalisé « Le Voyage dans la Lune » en 1902 ?",
    "choix": [
     "Georges Méliès",
-    "Louis Lumière",
+    "Louis Lumière, de Lyon",
     "Léon Gaumont",
     "Max Linder"
    ],
@@ -80,7 +80,7 @@
    "choix": [
     "Ricciotto Canudo",
     "André Bazin",
-    "Georges Sadoul",
+    "Georges Sadoul, historien",
     "Louis Delluc"
    ],
    "bonne": 0,
@@ -164,7 +164,7 @@
    "choix": [
     "Autant en emporte le vent",
     "Casablanca",
-    "Le Magicien d'Oz",
+    "Le Magicien d'Oz, sorti en 1939",
     "King Kong"
    ],
    "bonne": 0,
@@ -177,7 +177,7 @@
     "Blanche-Neige et les Sept Nains",
     "Pinocchio",
     "Fantasia",
-    "Cendrillon"
+    "Cendrillon, sorti sur les écrans en 1950"
    ],
    "bonne": 0,
    "difficulte": 1,
@@ -212,7 +212,7 @@
    "choix": [
     "Les Quatre Cents Coups",
     "Jules et Jim",
-    "La Nuit américaine",
+    "La Nuit américaine, de 1973",
     "Le Dernier Métro"
    ],
    "bonne": 0,
@@ -247,7 +247,7 @@
    "q": "Quel film de Marcel Carné, tourné sous l'Occupation, est souvent élu plus grand film français de tous les temps ?",
    "choix": [
     "Les Enfants du paradis",
-    "Le Quai des brumes",
+    "Le Quai des brumes, de 1938",
     "Hôtel du Nord",
     "Le Jour se lève"
    ],
@@ -260,7 +260,7 @@
    "choix": [
     "Alfred Hitchcock",
     "David Lean",
-    "Stanley Kubrick",
+    "Stanley Kubrick, né à New York",
     "Ridley Scott"
    ],
    "bonne": 0,
@@ -271,7 +271,7 @@
    "q": "Qui a réalisé « Psychose » (1960), célèbre pour sa scène de la douche ?",
    "choix": [
     "Alfred Hitchcock",
-    "Orson Welles",
+    "Orson Welles, américain",
     "Billy Wilder",
     "Fritz Lang"
    ],
@@ -357,7 +357,7 @@
     "Steven Spielberg",
     "James Cameron",
     "George Lucas",
-    "Robert Zemeckis"
+    "Robert Zemeckis, de Chicago"
    ],
    "bonne": 0,
    "difficulte": 1,
@@ -379,7 +379,7 @@
    "q": "Qui a réalisé « Le Parrain » (1972), avec Marlon Brando ?",
    "choix": [
     "Francis Ford Coppola",
-    "Martin Scorsese",
+    "Martin Scorsese, de New York",
     "Brian De Palma",
     "Sidney Lumet"
    ],
@@ -465,7 +465,7 @@
     "L'Académie des arts et des sciences du cinéma",
     "La Guilde des producteurs",
     "L'American Film Institute",
-    "La Motion Picture Association"
+    "La Motion Picture Association, syndicat des studios"
    ],
    "bonne": 0,
    "difficulte": 1,
@@ -547,7 +547,7 @@
    "q": "Qui a fondé « La Gazette » en 1631, souvent considérée comme le premier périodique français ?",
    "choix": [
     "Théophraste Renaudot",
-    "Émile de Girardin",
+    "Émile de Girardin, de La Presse",
     "Pierre Bayle",
     "Denis Diderot"
    ],
@@ -560,7 +560,7 @@
    "choix": [
     "La loi du 29 juillet 1881",
     "La loi de 1905",
-    "La loi Le Chapelier",
+    "La loi Le Chapelier de 1791",
     "La loi Gayssot"
    ],
    "bonne": 0,
@@ -620,7 +620,7 @@
    "choix": [
     "Ouest-France",
     "Le Monde",
-    "Le Figaro",
+    "Le Figaro, quotidien parisien",
     "L'Équipe"
    ],
    "bonne": 0,
@@ -681,7 +681,7 @@
     "La Guerre des mondes",
     "1984",
     "Dracula",
-    "L'Île mystérieuse"
+    "L'Île mystérieuse, de Jules Verne"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -691,7 +691,7 @@
    "q": "Depuis quelle radio le général de Gaulle a-t-il lancé l'appel du 18 juin 1940 ?",
    "choix": [
     "La BBC à Londres",
-    "Radio Paris",
+    "Radio Paris, sous l'Occupation",
     "Radio Vichy",
     "Radio Alger"
    ],
@@ -715,7 +715,7 @@
    "q": "Quel hebdomadaire satirique français, fondé en 1915, est célèbre pour ses enquêtes et son canard emblématique ?",
    "choix": [
     "Le Canard enchaîné",
-    "Charlie Hebdo",
+    "Charlie Hebdo, fondé en 1970",
     "Hara-Kiri",
     "Marianne"
    ],

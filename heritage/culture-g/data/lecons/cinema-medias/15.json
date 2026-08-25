@@ -123,10 +123,10 @@
   {
    "q": "Quel événement du 29 juin 1949 marque une étape décisive pour la télévision française ?",
    "choix": [
-    "La première retransmission en couleur",
+    "La première retransmission télévisée en couleur",
     "Le lancement du premier journal télévisé français quotidien",
-    "La création de l'Eurovision",
-    "La première émission de variétés en direct"
+    "La création du réseau Eurovision",
+    "La première émission de variétés diffusée en direct depuis un studio"
    ],
    "bonne": 1,
    "difficulte": 3,
@@ -135,10 +135,10 @@
   {
    "q": "Que s'est-il passé le 7 août 1974 dans l'audiovisuel français ?",
    "choix": [
-    "La création de l'ORTF",
+    "La création de l'ORTF par décret",
     "La privatisation de TF1",
     "L'éclatement de l'ORTF en sept sociétés",
-    "Le lancement de Canal+"
+    "Le lancement de la chaîne Canal+"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -148,8 +148,8 @@
    "q": "Quelle chaîne a été la première chaîne privée française ?",
    "choix": [
     "Canal+, lancée le 4 novembre 1984",
-    "M6, lancée le 1er mars 1987",
-    "TF1, privatisée en 1987",
+    "M6, lancée le 1er mars 1987 sur le sixième réseau",
+    "TF1, privatisée au printemps 1987",
     "La Cinq"
    ],
    "bonne": 0,
@@ -159,9 +159,9 @@
   {
    "q": "Quel rôle Canal+ joue-t-elle dans le cinéma français ?",
    "choix": [
-    "Elle produit elle-même tous les films français",
+    "Elle produit elle-même la totalité des films français",
     "Elle finance largement la production en achetant les droits de diffusion",
-    "Elle distribue les films en salle",
+    "Elle distribue elle-même les films en salle",
     "Elle organise le Festival de Cannes"
    ],
    "bonne": 1,
@@ -171,10 +171,10 @@
   {
    "q": "Quelle conséquence le lancement de la TNT le 31 mars 2005 a-t-il eue sur l'audience ?",
    "choix": [
-    "Il a renforcé la domination de TF1",
-    "Il a supprimé la publicité télévisée",
+    "Il a renforcé un peu plus la domination de TF1",
+    "Il a supprimé toute publicité sur l'ensemble des chaînes télévisées",
     "Il a fragmenté l'audience entre beaucoup plus de chaînes",
-    "Il a mis fin au service public"
+    "Il a mis fin à la télévision de service public"
    ],
    "bonne": 2,
    "difficulte": 1,
