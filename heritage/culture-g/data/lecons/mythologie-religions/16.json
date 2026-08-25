@@ -164,21 +164,21 @@
   {
    "q": "Quel ouvrage Jean Calvin publie-t-il en 1536 ?",
    "choix": [
-    "La Somme théologique",
+    "La Somme théologique de saint Thomas d'Aquin",
     "Le Livre de la prière commune",
     "L'Institution de la religion chrétienne",
-    "Les Exercices spirituels"
+    "Le Nouveau Testament traduit en allemand"
    ],
    "bonne": 2,
    "difficulte": 2,
-   "explication": "L'Institution de la religion chrétienne paraît en 1536 et expose de façon systématique la doctrine réformée. Calvin, né à Noyon en 1509, a fui la France avant de s'installer durablement à Genève à partir de 1541. Il y organise l'Église autour de quatre ministères et d'un consistoire, et fonde une académie en 1559. Le Livre de la prière commune est le livre liturgique anglican introduit en 1549 par Thomas Cranmer. La Somme théologique est l'œuvre médiévale de Thomas d'Aquin et les Exercices spirituels celle d'Ignace de Loyola."
+   "explication": "L'Institution de la religion chrétienne paraît en 1536 et expose de façon systématique la doctrine réformée. Calvin, né à Noyon en 1509, a fui la France avant de s'installer durablement à Genève à partir de 1541. Il y organise l'Église autour de quatre ministères et d'un consistoire, et fonde une académie en 1559. La Somme théologique de saint Thomas d'Aquin est une œuvre médiévale du XIIIe siècle. Le Livre de la prière commune est le livre liturgique anglican introduit en 1549 par Thomas Cranmer, et la traduction allemande du Nouveau Testament est due à Luther, qui la publie dès 1522."
   },
   {
    "q": "Quelle mesure disciplinaire le concile de Trente adopte-t-il pour le clergé ?",
    "choix": [
     "la création de séminaires pour former les prêtres",
-    "la suppression du célibat ecclésiastique",
-    "l'élection des évêques par les fidèles",
+    "la suppression du célibat imposé aux prêtres séculiers",
+    "l'élection des évêques par les fidèles de chaque diocèse",
     "la fin de tous les ordres religieux"
    ],
    "bonne": 0,
@@ -188,8 +188,8 @@
   {
    "q": "Que prévoit la paix d'Augsbourg de 1555 ?",
    "choix": [
-    "la liberté de culte individuelle dans tout l'Empire",
-    "la reconnaissance officielle du calvinisme",
+    "la liberté de culte individuelle garantie à tous les sujets de l'Empire",
+    "la reconnaissance officielle du calvinisme aux côtés du luthéranisme",
     "la fin de la guerre de Trente Ans",
     "que chaque prince fixe la confession de son territoire"
    ],

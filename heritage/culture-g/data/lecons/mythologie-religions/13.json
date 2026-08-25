@@ -111,7 +111,7 @@
   {
    "q": "Que signifie l'expression création ex nihilo ?",
    "choix": [
-    "Une création réalisée par plusieurs dieux en même temps",
+    "Une création réalisée par plusieurs dieux travaillant de concert",
     "Une création qui se répète à chaque cycle du temps",
     "Une création obtenue par le démembrement d'un être primordial",
     "Une création à partir de rien, sans matière préexistante"
@@ -123,7 +123,7 @@
   {
    "q": "Quel motif revient dans plusieurs cosmogonies, de la Chine à d'autres traditions ?",
    "choix": [
-    "La descente d'un dieu sous forme humaine",
+    "La descente d'un dieu sous forme humaine pour instruire les hommes",
     "L'œuf cosmique qui contient l'univers en germe",
     "L'invention de l'écriture par un héros civilisateur",
     "L'ascension d'un roi au rang de divinité"
@@ -136,8 +136,8 @@
    "q": "Que dit la recherche contemporaine sur la composition du livre de la Genèse ?",
    "choix": [
     "Elle y voit la réunion de plusieurs sources rédigées entre le VIIIe et le IIe siècle avant notre ère",
-    "Elle confirme une rédaction intégrale par Moïse",
-    "Elle le considère comme une traduction directe de l'épopée de Gilgamesh",
+    "Elle confirme une rédaction intégrale par Moïse au moment de la sortie d'Égypte et du séjour au Sinaï",
+    "Elle le considère comme une traduction directe de l'épopée de Gilgamesh retrouvée à Ninive en 1853",
     "Elle le date entièrement du Moyen Âge"
    ],
    "bonne": 0,
@@ -147,9 +147,9 @@
   {
    "q": "Quel élément narratif est commun à de nombreux récits de déluge ?",
    "choix": [
-    "La construction d'une tour pour atteindre le ciel",
+    "La construction d'une tour destinée à atteindre le ciel et à égaler les dieux",
     "L'envoi d'oiseaux pour vérifier si la terre a réapparu",
-    "La transformation du survivant en constellation",
+    "La transformation du survivant en constellation placée au sommet du ciel",
     "Le sacrifice du fils aîné du survivant"
    ],
    "bonne": 1,
@@ -159,10 +159,10 @@
   {
    "q": "Que retient la science actuelle à propos d'un déluge universel ?",
    "choix": [
-    "Elle a démontré qu'une inondation a recouvert toute la Terre",
+    "Elle a démontré qu'une inondation unique a recouvert toute la surface de la Terre il y a quelques milliers d'années à peine",
     "Elle considère la question comme impossible à étudier",
     "Elle écarte un déluge planétaire mais rappelle que la remontée des mers après la glaciation a englouti de vastes littoraux",
-    "Elle attribue tous ces récits à une invention des scribes babyloniens"
+    "Elle attribue l'ensemble de ces récits à une invention tardive des scribes babyloniens copiée par leurs voisins"
    ],
    "bonne": 2,
    "difficulte": 3,

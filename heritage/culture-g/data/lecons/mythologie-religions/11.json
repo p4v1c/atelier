@@ -114,8 +114,8 @@
   {
    "q": "Dans quelle langue le Popol Vuh a-t-il été composé ?",
    "choix": [
-    "En nahuatl",
-    "En quechua",
+    "En nahuatl, la langue des Aztèques",
+    "En quechua, la langue de l'Empire inca",
     "En latin",
     "En quiché, une langue maya"
    ],
@@ -138,10 +138,10 @@
   {
    "q": "Que désignent les cinq soleils dans la cosmologie aztèque ?",
    "choix": [
-    "Les cinq divinités principales du panthéon",
-    "Les cinq régions de l'empire",
+    "Les cinq divinités principales que les prêtres honoraient au sommet du Templo Mayor",
+    "Les cinq grandes régions administratives de l'empire aztèque",
     "Cinq âges successifs du monde, dont quatre se sont achevés par une catastrophe",
-    "Les cinq jours de fête du calendrier rituel"
+    "Les cinq jours de fête consacrés au soleil dans le calendrier rituel de deux cent soixante jours"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -151,8 +151,8 @@
    "q": "Comment la mythologie aztèque justifiait-elle la nécessité des sacrifices humains ?",
    "choix": [
     "Par le sacrifice initial des dieux à Teotihuacan, qui oblige les hommes à nourrir le soleil pour qu'il poursuive sa course",
-    "Par une faute commise par les premiers hommes, qu'il fallait expier chaque année",
-    "Par la volonté de peupler rapidement le monde des morts",
+    "Par une faute commise par les tout premiers hommes au sortir des grottes originelles, qu'il fallait expier chaque année",
+    "Par la volonté de peupler rapidement le Mictlan, le monde souterrain des morts, dont les dieux réclamaient des hôtes",
     "Par une prophétie annonçant le retour de Quetzalcoatl"
    ],
    "bonne": 0,

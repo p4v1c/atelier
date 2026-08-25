@@ -123,9 +123,9 @@
   {
    "q": "Que désigne le mot Tanakh ?",
    "choix": [
-    "Le recueil des commentaires rabbiniques",
-    "Le rouleau lu pendant la fête de Pourim",
-    "Le calendrier des fêtes juives",
+    "Le recueil des commentaires rabbiniques réunis dans la Mishna",
+    "Le rouleau du livre d'Esther, lu pendant la fête de Pourim",
+    "Le calendrier luni-solaire qui règle les fêtes juives",
     "L'ensemble de la Bible hébraïque, en trois parties"
    ],
    "bonne": 3,
@@ -135,26 +135,26 @@
   {
    "q": "Quel événement de l'an 70 de notre ère transforme profondément le judaïsme ?",
    "choix": [
-    "L'exil à Babylone",
+    "La déportation d'une partie du peuple à Babylone",
     "La destruction du Second Temple par les Romains",
-    "La révolte des Maccabées",
+    "La révolte des Maccabées contre les souverains séleucides",
     "L'édit de Cyrus"
    ],
    "bonne": 1,
    "difficulte": 2,
-   "explication": "En 70 de notre ère, les armées romaines détruisent le Second Temple de Jérusalem lors de la répression d'une révolte. Privé de sanctuaire et de sacrifices, le judaïsme se réorganise autour de la synagogue, de la prière et de l'étude, sous la direction des rabbins. L'exil à Babylone est bien plus ancien et fait suite à la prise de Jérusalem en 587 avant notre ère. La révolte des Maccabées se situe au IIe siècle avant notre ère face aux souverains séleucides. L'édit de Cyrus, au VIe siècle avant notre ère, autorise le retour des exilés."
+   "explication": "En 70 de notre ère, les armées romaines détruisent le Second Temple de Jérusalem lors de la répression d'une révolte. Privé de sanctuaire et de sacrifices, le judaïsme se réorganise autour de la synagogue, de la prière et de l'étude, sous la direction des rabbins. La déportation à Babylone est bien plus ancienne et fait suite à la prise de Jérusalem en 587 avant notre ère. La révolte des Maccabées se situe au IIe siècle avant notre ère face aux souverains séleucides. L'édit de Cyrus, au VIe siècle avant notre ère, autorise le retour des exilés."
   },
   {
    "q": "Comment appelle-t-on l'ensemble des règles alimentaires du judaïsme ?",
    "choix": [
     "La cacherout",
-    "La mitsva",
+    "Les six cent treize mitsvot",
     "Le minyan",
-    "Le seder"
+    "Le seder de Pessah"
    ],
    "bonne": 0,
    "difficulte": 1,
-   "explication": "La cacherout désigne l'ensemble des règles distinguant les aliments permis et interdits, imposant un mode d'abattage particulier et séparant la viande des produits laitiers. Un aliment conforme à ces règles est dit casher. Une mitsva est un commandement religieux en général, la tradition en dénombrant six cent treize. Le minyan désigne le quorum de dix adultes requis pour certaines prières communautaires. Le seder est le repas ordonné célébré lors de la fête de Pessah."
+   "explication": "La cacherout désigne l'ensemble des règles distinguant les aliments permis et interdits, imposant un mode d'abattage particulier et séparant la viande des produits laitiers. Un aliment conforme à ces règles est dit casher. Les six cent treize mitsvot forment l'ensemble des commandements que la tradition dénombre dans la Torah, alimentaires ou non. Le minyan désigne le quorum de dix adultes requis pour certaines prières communautaires. Le seder de Pessah est le repas ordonné célébré lors de cette fête."
   },
   {
    "q": "Quelle fête juive rappelle la sortie d'Égypte racontée dans le livre de l'Exode ?",
@@ -171,14 +171,14 @@
   {
    "q": "Quelle différence sépare les traditions ashkénaze et séfarade ?",
    "choix": [
-    "Elles reconnaissent des bibles différentes",
+    "Elles reconnaissent des textes bibliques différents et un canon distinct",
     "Elles correspondent à des aires géographiques et culturelles distinctes",
-    "L'une refuse l'étude du Talmud",
+    "L'une d'elles écarte l'étude du Talmud au profit du texte biblique",
     "L'une ne célèbre pas le chabbat"
    ],
    "bonne": 1,
    "difficulte": 3,
-   "explication": "Les Ashkénazes sont les communautés installées dans le monde germanique puis en Europe centrale et orientale, où s'est développée la langue yiddish. Les Séfarades sont issus de la péninsule Ibérique et se sont établis après 1492 dans l'Empire ottoman et en Afrique du Nord, en parlant notamment le judéo-espagnol. Leurs différences portent sur les usages liturgiques, la prononciation de l'hébreu, la cuisine et certaines coutumes, mais non sur le texte biblique, qui est commun. Les deux traditions étudient le Talmud et observent le chabbat. Ces distinctions sont culturelles et rituelles plutôt que doctrinales."
+   "explication": "Les Ashkénazes sont les communautés installées dans le monde germanique puis en Europe centrale et orientale, où s'est développée la langue yiddish. Les Séfarades sont issus de la péninsule Ibérique et se sont établis après 1492 dans l'Empire ottoman et en Afrique du Nord, en parlant notamment le judéo-espagnol. Leurs différences portent sur les usages liturgiques, la prononciation de l'hébreu, la cuisine et certaines coutumes, mais non sur le texte biblique ni sur son canon, qui sont communs aux deux. Les deux traditions étudient le Talmud et observent le chabbat. Ces distinctions sont culturelles et rituelles plutôt que doctrinales."
   }
  ]
 }

@@ -103,7 +103,7 @@
   {
    "q": "Pourquoi les historiens parlent-ils d'un problème socratique ?",
    "choix": [
-    "Parce que l'on ignore si Socrate a réellement existé",
+    "Parce que l'on ignore si Socrate a réellement existé ou s'il est un personnage inventé",
     "Parce que Socrate n'a rien écrit et que les témoignages sur lui ne concordent pas",
     "Parce que ses œuvres ont été perdues lors de l'incendie de la bibliothèque d'Alexandrie",
     "Parce qu'il refusait de répondre aux questions de ses disciples"
@@ -115,21 +115,21 @@
   {
    "q": "Que désigne la maïeutique chez Socrate ?",
    "choix": [
-    "Un traité perdu sur la nature",
-    "La condamnation prononcée contre lui en 399",
-    "Le signe divin qui le retenait d'agir",
+    "Un traité perdu sur la nature que ses disciples auraient recopié",
+    "La condamnation à mort prononcée contre lui par le tribunal d'Athènes en 399 avant notre ère",
+    "Le signe divin, ou daimonion, qui le retenait d'agir dans certaines circonstances",
     "L'art de faire accoucher les esprits d'une pensée juste par le questionnement"
    ],
    "bonne": 3,
    "difficulte": 2,
-   "explication": "Le mot renvoie au métier d'accoucheuse qu'exerçait la mère de Socrate. Le philosophe ne prétend pas transmettre un savoir mais aider son interlocuteur à mettre au monde une pensée qu'il portait sans le savoir. Cette pratique s'accompagne de deux autres procédés : l'ironie, qui consiste à feindre l'ignorance pour faire exposer les certitudes de l'autre, et l'elenchos, la réfutation qui en révèle les contradictions. Le signe divin dont parle Socrate porte quant à lui le nom de daimonion : il l'avertissait de ne pas faire certaines choses, sans jamais lui dicter d'action positive."
+   "explication": "Le mot renvoie au métier d'accoucheuse qu'exerçait la mère de Socrate. Le philosophe ne prétend pas transmettre un savoir mais aider son interlocuteur à mettre au monde une pensée qu'il portait sans le savoir. Cette pratique s'accompagne de deux autres procédés : l'ironie, qui consiste à feindre l'ignorance pour faire exposer les certitudes de l'autre, et l'elenchos, la réfutation qui en révèle les contradictions. Le signe divin qu'il appelle daimonion est tout autre chose : il l'avertissait de ne pas faire certaines choses, sans jamais lui dicter d'action positive. Socrate n'a par ailleurs laissé aucun traité écrit."
   },
   {
    "q": "De quoi Socrate a-t-il été accusé lors de son procès de 399 avant notre ère ?",
    "choix": [
     "D'impiété et de corruption de la jeunesse",
-    "De trahison au profit de Sparte",
-    "D'avoir enseigné en échange d'un salaire",
+    "De trahison au profit de Sparte pendant la guerre du Péloponnèse",
+    "D'avoir enseigné en échange d'un salaire, à la manière des sophistes",
     "D'avoir profané les mystères d'Éleusis en public"
    ],
    "bonne": 0,
@@ -139,10 +139,10 @@
   {
    "q": "Dans quelle œuvre de Platon se trouve l'allégorie de la caverne ?",
    "choix": [
-    "Dans le Banquet",
-    "Dans les Lois",
+    "Dans le Banquet, au discours d'Aristophane",
+    "Dans les Lois, au livre X",
     "Dans la République, au livre VII",
-    "Dans l'Apologie de Socrate"
+    "Dans l'Apologie de Socrate, au moment du verdict"
    ],
    "bonne": 2,
    "difficulte": 3,
@@ -151,8 +151,8 @@
   {
    "q": "Comment Aristote définit-il la vertu dans son éthique ?",
    "choix": [
-    "Comme l'obéissance aux lois de la cité",
-    "Comme la contemplation des Idées éternelles",
+    "Comme l'obéissance scrupuleuse aux lois écrites de la cité et à ses magistrats",
+    "Comme la contemplation des Idées éternelles, séparées du monde sensible",
     "Comme le renoncement à tout plaisir",
     "Comme un juste milieu entre deux excès, guidé par la prudence pratique"
    ],

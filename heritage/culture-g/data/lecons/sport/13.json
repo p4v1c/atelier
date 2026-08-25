@@ -102,8 +102,8 @@
    "choix": [
     "Ludwig Guttmann, neurologue britannique",
     "Pierre de Coubertin",
-    "Andrew Parsons",
-    "Juan Antonio Samaranch"
+    "Andrew Parsons, président du CIP depuis 2017",
+    "Juan Antonio Samaranch, président du CIO"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -124,8 +124,8 @@
   {
    "q": "Pourquoi tous les joueurs de goalball portent-ils un masque opaque ?",
    "choix": [
-    "Pour se protéger du ballon",
-    "Pour respecter une tradition du sport",
+    "Pour protéger les yeux des joueurs contre les impacts du ballon lancé à pleine puissance",
+    "Pour respecter une tradition remontant à la création du goalball",
     "Pour que tous les joueurs soient à égalité quelle que soit leur vue restante",
     "Parce que le jeu se déroule dans l'obscurité"
    ],
@@ -148,8 +148,8 @@
   {
    "q": "En quelle année et où le Comité international paralympique a-t-il été fondé ?",
    "choix": [
-    "En 1960 à Rome",
-    "En 1976 en Suède",
+    "En 1960 à Rome, en Italie",
+    "En 1976 en Suède, à Örnsköldsvik",
     "En 1989 à Düsseldorf",
     "En 2001 à Lausanne"
    ],

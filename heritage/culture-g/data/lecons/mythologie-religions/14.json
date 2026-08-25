@@ -83,9 +83,9 @@
    "q": "Comment définit-on une créature légendaire ?",
    "choix": [
     "Un être qui n'existe que dans les légendes et les récits, sans que son existence ait jamais été établie",
-    "Un animal disparu dont on a retrouvé des fossiles",
-    "Un animal réel mal identifié par les naturalistes anciens",
-    "Une divinité mineure honorée dans un sanctuaire local"
+    "Un animal aujourd'hui disparu dont les naturalistes ont retrouvé les fossiles et reconstitué le squelette",
+    "Un animal bien réel que les naturalistes de l'Antiquité avaient mal identifié dans leurs descriptions écrites",
+    "Une divinité mineure honorée dans un sanctuaire local et dont le nom n'apparaît qu'une seule fois"
    ],
    "bonne": 0,
    "difficulte": 1,
@@ -106,9 +106,9 @@
   {
    "q": "D'où vient le mot dragon ?",
    "choix": [
-    "D'un mot celtique désignant le serpent d'eau",
-    "D'un terme hébreu employé dans la Genèse",
-    "D'un mot chinois transmis par la route de la soie",
+    "D'un mot celtique désignant le serpent d'eau qui gardait les sources",
+    "D'un terme hébreu employé dans le livre de la Genèse et transmis par la Vulgate latine",
+    "D'un mot chinois apporté en Occident par les marchands qui suivaient la route de la soie",
     "Du latin draco, emprunté au grec drakon, rattaché à un verbe signifiant regarder fixement"
    ],
    "bonne": 3,
@@ -118,10 +118,10 @@
   {
    "q": "Quelle différence majeure sépare le dragon européen du dragon d'Extrême-Orient ?",
    "choix": [
-    "Le dragon européen vole alors que le dragon asiatique vit uniquement sous terre",
+    "Le dragon européen vole au-dessus des montagnes tandis que le dragon asiatique vit uniquement sous terre et ne s'en éloigne jamais",
     "Le dragon européen est une figure hostile, tandis que le dragon asiatique est associé à la sagesse et à une puissance bienveillante",
-    "Le dragon européen est apparu au Moyen Âge alors que le dragon asiatique date du XIXe siècle",
-    "Le dragon européen est toujours représenté sans pattes"
+    "Le dragon européen est apparu au Moyen Âge alors que le dragon asiatique n'a été imaginé qu'au XIXe siècle",
+    "Le dragon européen est toujours représenté sans pattes ni ailes"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -130,8 +130,8 @@
   {
    "q": "À quoi servaient principalement les bestiaires médiévaux ?",
    "choix": [
-    "À recenser les espèces pour les chasseurs",
-    "À décrire scientifiquement la faune européenne",
+    "À recenser les espèces utiles aux chasseurs et aux fauconniers des cours princières",
+    "À décrire scientifiquement la faune européenne à partir d'observations directes",
     "À tirer des animaux, réels ou fabuleux, des enseignements moraux et religieux",
     "À établir un inventaire des animaux des ménageries royales"
    ],

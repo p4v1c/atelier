@@ -128,9 +128,9 @@
   {
    "q": "Sur quel support les mythes mésopotamiens nous sont-ils parvenus ?",
    "choix": [
-    "Sur des rouleaux de papyrus peints",
+    "Sur des rouleaux de papyrus peints et conservés dans les temples",
     "Sur des tablettes d'argile gravées en écriture cunéiforme",
-    "Sur des stèles rédigées en hiéroglyphes",
+    "Sur des stèles de granite rédigées en hiéroglyphes égyptiens",
     "Sur des parchemins copiés par des moines médiévaux"
    ],
    "bonne": 1,
@@ -140,21 +140,21 @@
   {
    "q": "Dans l'Énuma elish, qui Marduk affronte-t-il pour obtenir la royauté sur les dieux ?",
    "choix": [
-    "Le géant Humbaba",
-    "Le roi Gilgamesh",
-    "Le dieu Enlil",
+    "Humbaba, gardien de la forêt des Cèdres",
+    "Gilgamesh, le roi d'Uruk",
+    "Le dieu souverain Enlil de Nippur",
     "La déesse primordiale Tiamat"
    ],
    "bonne": 3,
    "difficulte": 2,
-   "explication": "L'Énuma elish s'ouvre sur l'existence de deux principes aquatiques primordiaux, Apsû l'eau douce et Tiamat l'eau salée. Quand le conflit éclate entre générations divines, Marduk se présente comme le seul capable de vaincre Tiamat et ses créatures monstrueuses, à condition de recevoir la royauté. Après sa victoire, il découpe le corps de la vaincue et en tire les parties du monde, fonde Babylone et crée les humains. Humbaba est le gardien de la forêt des Cèdres dans l'épopée de Gilgamesh, un autre texte, et Enlil est un dieu souverain plus ancien, non l'adversaire de Marduk dans ce poème."
+   "explication": "L'Énuma elish s'ouvre sur l'existence de deux principes aquatiques primordiaux, Apsû l'eau douce et Tiamat l'eau salée. Quand le conflit éclate entre générations divines, Marduk se présente comme le seul capable de vaincre Tiamat et ses créatures monstrueuses, à condition de recevoir la royauté. Après sa victoire, il découpe le corps de la vaincue et en tire les parties du monde, fonde Babylone et crée les humains. Humbaba, gardien de la forêt des Cèdres, appartient à l'épopée de Gilgamesh, un autre texte, où le roi d'Uruk l'affronte. Enlil, dieu souverain honoré à Nippur, relève d'une génération divine plus ancienne et n'est pas l'adversaire de Marduk dans ce poème."
   },
   {
    "q": "Comment naît l'amitié entre Gilgamesh et Enkidu ?",
    "choix": [
     "Les dieux créent Enkidu pour contenir le roi ; les deux hommes s'affrontent puis deviennent inséparables",
-    "Enkidu est le frère jumeau de Gilgamesh, élevé loin d'Uruk",
-    "Gilgamesh libère Enkidu prisonnier des Enfers",
+    "Enkidu est le frère jumeau de Gilgamesh, élevé loin d'Uruk et ramené au palais par les anciens du pays",
+    "Gilgamesh descend aux Enfers pour délivrer Enkidu que la déesse Ereshkigal y retenait prisonnier",
     "Enkidu est un scribe envoyé par le dieu Éa pour instruire le roi"
    ],
    "bonne": 0,
@@ -164,21 +164,21 @@
   {
    "q": "Que rapporte Gilgamesh de son voyage chez Uta-napishti ?",
    "choix": [
-    "L'immortalité, accordée par les dieux en récompense",
-    "Le secret de la fabrication du bronze",
+    "L'immortalité, que les dieux lui accordent en récompense après l'épreuve des six jours et sept nuits sans sommeil",
+    "Le secret de la fabrication du bronze, que les artisans d'avant le déluge auraient emporté dans leur tombe",
     "Rien de matériel, car le serpent lui vole la plante de jouvence, mais une sagesse sur sa condition mortelle",
-    "Le trône de Babylone et cinquante noms divins"
+    "Le trône de Babylone et la liste des cinquante noms que se partagent les dieux"
    ],
    "bonne": 2,
    "difficulte": 3,
-   "explication": "Uta-napishti, survivant du déluge, explique à Gilgamesh que la vie sans fin lui a été accordée dans des circonstances exceptionnelles et qu'elle reste hors d'atteinte des autres humains. Il lui indique toutefois une plante capable de restituer la jeunesse. Sur le chemin du retour, un serpent s'en empare, ce qui explique dans le récit que l'animal change de peau et paraît rajeunir. Le héros rentre donc à Uruk sans objet merveilleux, mais transformé par l'acceptation de sa condition. Les cinquante noms appartiennent à Marduk dans l'Énuma elish, texte différent."
+   "explication": "Uta-napishti, survivant du déluge, explique à Gilgamesh que la vie sans fin lui a été accordée dans des circonstances exceptionnelles et qu'elle reste hors d'atteinte des autres humains. Il lui impose d'abord de rester six jours et sept nuits sans dormir : le héros échoue, preuve qu'il ne peut vaincre le sommeil, encore moins la mort, et l'immortalité ne lui est donc jamais accordée. Uta-napishti lui indique toutefois une plante capable de restituer la jeunesse. Sur le chemin du retour, un serpent s'en empare, ce qui explique dans le récit que l'animal change de peau et paraît rajeunir. Le héros rentre donc à Uruk sans objet merveilleux, mais transformé par l'acceptation de sa condition. Les cinquante noms appartiennent à Marduk dans l'Énuma elish, texte différent."
   },
   {
    "q": "Pourquoi la publication de la onzième tablette de l'épopée, en 1872, a-t-elle fait sensation en Europe ?",
    "choix": [
-    "Parce qu'elle contenait la première carte connue du monde",
+    "Parce qu'elle contenait la plus ancienne carte du monde connue, gravée au centre de la tablette",
     "Parce qu'elle prouvait que l'écriture avait été inventée en Grèce",
-    "Parce qu'elle donnait la liste complète des rois de Babylone",
+    "Parce qu'elle donnait la liste complète des rois de Babylone, du déluge à la conquête assyrienne",
     "Parce qu'elle racontait un déluge présentant de fortes ressemblances avec le récit biblique"
    ],
    "bonne": 3,

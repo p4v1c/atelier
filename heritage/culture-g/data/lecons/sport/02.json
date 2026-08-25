@@ -152,8 +152,8 @@
    "q": "Que se passe-t-il lorsque les deux joueurs atteignent quarante partout dans un jeu ?",
    "choix": [
     "On annonce égalité et il faut marquer deux points d'affilée",
-    "Le jeu est immédiatement rejoué",
-    "Le serveur remporte automatiquement le jeu",
+    "Le jeu est immédiatement rejoué depuis le début, à zéro partout",
+    "Le serveur remporte automatiquement le jeu grâce à son avantage",
     "On passe directement au jeu décisif"
    ],
    "bonne": 0,
@@ -175,7 +175,7 @@
   {
    "q": "Que désigne l'expression ère Open, qui débute en 1968 ?",
    "choix": [
-    "La création du tournoi de l'US Open",
+    "La création du tournoi de l'US Open, dernier-né des tournois du Grand Chelem",
     "L'ouverture des grands tournois aux joueurs professionnels",
     "L'apparition des raquettes en graphite",
     "Le retour du tennis aux Jeux olympiques"

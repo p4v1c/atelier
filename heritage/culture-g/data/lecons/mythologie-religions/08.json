@@ -111,22 +111,22 @@
   {
    "q": "Pourquoi les Celtes de l'Antiquité n'ont-ils presque pas laissé de textes sur leurs dieux ?",
    "choix": [
-    "Parce que leurs manuscrits ont tous brûlé lors de la conquête romaine",
-    "Parce qu'ils ignoraient totalement l'existence de l'écriture",
+    "Parce que leurs manuscrits, gardés dans les sanctuaires, ont brûlé lors de la conquête",
+    "Parce qu'ils ignoraient l'écriture, que seuls leurs voisins grecs et romains pratiquaient",
     "Parce que les druides réservaient la transmission du savoir sacré à la mémoire et à l'oral",
-    "Parce que leur religion interdisait de nommer les dieux à voix haute"
+    "Parce que leur religion interdisait d'écrire ou de prononcer le nom des dieux"
    ],
    "bonne": 2,
    "difficulte": 1,
-   "explication": "La transmission du savoir religieux celtique était orale. Les druides estimaient que l'écriture ne convenait pas au savoir sacré et exigeaient de leurs élèves un très long apprentissage par cœur. Les Celtes connaissaient pourtant l'écriture et s'en servaient pour des usages pratiques, comptes ou inscriptions. C'est donc un choix religieux et non une ignorance. Résultat : l'essentiel de ce que l'on sait vient de sources extérieures, grecques et romaines, de l'archéologie, puis de manuscrits médiévaux copiés par des moines chrétiens bien après la disparition des druides."
+   "explication": "La transmission du savoir religieux celtique était orale. Les druides estimaient que l'écriture ne convenait pas au savoir sacré et exigeaient de leurs élèves un très long apprentissage par cœur. Les Celtes connaissaient pourtant l'écriture et s'en servaient pour des usages pratiques, comptes ou inscriptions : leur silence est un choix religieux et non une ignorance. Aucune bibliothèque druidique n'a par ailleurs été détruite par Rome, faute d'avoir jamais existé, et les noms divins, loin d'être interdits, sont gravés sur des centaines d'inscriptions d'époque gallo-romaine. Résultat : l'essentiel de ce que l'on sait vient de sources extérieures, grecques et romaines, de l'archéologie, puis de manuscrits médiévaux copiés par des moines chrétiens bien après la disparition des druides."
   },
   {
    "q": "Quel auteur antique constitue la source écrite la plus utilisée sur la religion des Gaulois ?",
    "choix": [
     "Jules César, dans la Guerre des Gaules",
-    "Hérodote, dans les Histoires",
+    "Hérodote d'Halicarnasse, dans ses Histoires",
     "Homère, dans l'Odyssée",
-    "Saint Augustin, dans la Cité de Dieu"
+    "Saint Augustin d'Hippone, dans la Cité de Dieu"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -135,9 +135,9 @@
   {
    "q": "Que désigne l'expression interpretatio romana appliquée aux dieux celtes ?",
    "choix": [
-    "La traduction en latin des poèmes des bardes gaulois",
-    "L'interdiction faite aux Gaulois de pratiquer leur culte",
-    "La reconstruction moderne du panthéon celte par les archéologues",
+    "La traduction en latin des poèmes que les bardes gaulois consacraient à leurs dieux",
+    "L'interdiction faite aux Gaulois de pratiquer leur culte ailleurs que dans des sanctuaires bâtis à la mode romaine",
+    "La reconstruction moderne du panthéon celte à partir des inscriptions et des monuments mis au jour par les archéologues",
     "L'habitude des auteurs romains de nommer les divinités étrangères par le nom de leurs équivalents romains supposés"
    ],
    "bonne": 3,
@@ -147,9 +147,9 @@
   {
    "q": "Selon les récits irlandais, que deviennent les Tuatha Dé Danann après l'arrivée des Milésiens ?",
    "choix": [
-    "Ils sont entièrement exterminés lors d'une dernière bataille",
+    "Ils sont entièrement exterminés au cours d'une dernière bataille livrée contre les envahisseurs",
     "Ils se retirent dans le sidh, l'Autre Monde, et deviennent le peuple des fées",
-    "Ils quittent l'Irlande pour fonder un royaume au pays de Galles",
+    "Ils quittent l'Irlande par la mer et fondent un nouveau royaume au pays de Galles",
     "Ils se convertissent et fondent les premiers monastères de l'île"
    ],
    "bonne": 1,

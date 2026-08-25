@@ -81,9 +81,9 @@
   {
    "q": "De quel mot latin vient le terme pèlerinage ?",
    "choix": [
-    "De pater, le père",
+    "De pater familias, le chef de famille",
     "De peregrinus, l'étranger",
-    "De templum, le temple",
+    "De templum, l'enceinte consacrée",
     "De sacer, le sacré"
    ],
    "bonne": 1,
@@ -93,9 +93,9 @@
   {
    "q": "Quelle est la place du hajj dans l'islam sunnite ?",
    "choix": [
-    "Une pratique facultative réservée aux savants",
-    "Une fête annuelle sans obligation particulière",
-    "Une obligation à accomplir chaque année par tous les croyants",
+    "Une pratique facultative réservée aux savants et aux responsables religieux",
+    "Une fête annuelle célébrée dans les mosquées du monde entier, sans déplacement ni obligation",
+    "Une obligation à accomplir chaque année par tous les croyants, quels que soient leurs moyens",
     "Le cinquième pilier, obligatoire une fois dans la vie pour qui en a les moyens"
    ],
    "bonne": 3,
@@ -106,9 +106,9 @@
    "q": "Quel rite est au cœur de la Kumbh Mela ?",
    "choix": [
     "Le bain rituel dans le fleuve à un moment déterminé par l'astrologie",
-    "Une procession portant une statue à travers la ville",
+    "Une procession qui porte la statue du dieu à travers les rues de la ville",
     "Un jeûne collectif de trois semaines",
-    "L'ascension d'une montagne sacrée pieds nus"
+    "L'ascension pieds nus d'une montagne sacrée jusqu'au sanctuaire du sommet"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -117,8 +117,8 @@
   {
    "q": "Pourquoi le ramadan ne tombe-t-il pas aux mêmes dates d'une année sur l'autre dans le calendrier civil ?",
    "choix": [
-    "Parce que sa date est fixée chaque année par un vote des fidèles",
-    "Parce qu'il suit le cycle des équinoxes",
+    "Parce que sa date est fixée chaque année par un vote des fidèles réunis dans chaque mosquée",
+    "Parce qu'il suit le cycle des saisons et se déplace avec elles",
     "Parce que le calendrier musulman est lunaire et se décale d'environ dix à onze jours par an",
     "Parce qu'il dépend de la date de Pâques"
    ],
@@ -129,9 +129,9 @@
   {
    "q": "Comment est déterminée la date de Pâques dans le christianisme ?",
    "choix": [
-    "Elle est fixée au 25 mars quelle que soit l'année",
-    "Elle correspond au premier jour du printemps",
-    "Elle est tirée au sort par les Églises chaque décennie",
+    "Elle est fixée au 25 mars de chaque année, quel que soit le jour de la semaine où elle tombe",
+    "Elle correspond au premier jour du printemps, fixé au 21 mars",
+    "Elle est tirée au sort par les Églises, chacune à son tour, au début de chaque décennie",
     "Elle tombe le dimanche suivant la première pleine lune après l'équinoxe de printemps"
    ],
    "bonne": 3,
