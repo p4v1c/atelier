@@ -547,9 +547,9 @@
    "q": "Quelle espèce d'arbre détient le record du monde de hauteur ?",
    "choix": [
     "Le séquoia à feuilles d'if",
-    "Le baobab",
-    "L'eucalyptus",
-    "Le chêne"
+    "Le baobab d'Afrique",
+    "L'eucalyptus royal d'Australie",
+    "Le chêne pédonculé"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -667,9 +667,9 @@
    "q": "Quel animal microscopique survit à la dessiccation complète, au vide spatial et à des températures allant de - 270 °C à 150 °C ?",
    "choix": [
     "Le tardigrade",
-    "Le rotifère",
-    "Le nématode",
-    "L'amibe"
+    "Le rotifère des mousses",
+    "Le nématode du sol",
+    "L'amibe d'eau douce"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -679,9 +679,9 @@
    "q": "Qu'est-ce que la parthénogenèse ?",
    "choix": [
     "Le développement d'un embryon à partir d'un ovule non fécondé",
-    "La transformation d'un individu d'un sexe vers l'autre",
-    "La régénération d'un membre perdu",
-    "La reproduction par division d'une cellule unique"
+    "La transformation d'un individu d'un sexe vers l'autre sexe",
+    "La régénération complète d'un membre perdu",
+    "La reproduction par simple division d'une cellule unique en deux"
    ],
    "bonne": 0,
    "difficulte": 3,

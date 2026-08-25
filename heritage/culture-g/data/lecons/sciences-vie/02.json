@@ -143,10 +143,10 @@
   {
    "q": "Quel caractère définit l'embranchement des arthropodes ?",
    "choix": [
-    "Un squelette interne osseux",
+    "Un squelette interne fait d'os et de cartilage",
     "Un exosquelette de chitine et des appendices articulés",
-    "Une coquille calcaire en deux valves",
-    "Une symétrie rayonnante d'ordre cinq"
+    "Une coquille calcaire formée de deux valves",
+    "Une symétrie rayonnante d'ordre cinq, comme chez l'étoile de mer"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -155,10 +155,10 @@
   {
    "q": "Quel caractère est propre aux mammifères ?",
    "choix": [
-    "Le sang chaud",
-    "La respiration pulmonaire",
+    "Le sang chaud, à température constante",
+    "La respiration pulmonaire par deux poumons",
     "Les glandes mammaires et les poils",
-    "La reproduction vivipare"
+    "La reproduction vivipare, sans ponte d'œufs"
    ],
    "bonne": 2,
    "difficulte": 1,
@@ -179,9 +179,9 @@
   {
    "q": "En classification phylogénétique moderne, à quel groupe les oiseaux sont-ils rattachés ?",
    "choix": [
-    "Aux mammifères, en raison du sang chaud",
-    "Aux amphibiens, en raison de la ponte",
-    "À un groupe totalement isolé sans parenté proche",
+    "Aux mammifères, en raison de leur sang chaud",
+    "Aux amphibiens, en raison de la ponte des œufs",
+    "À un groupe totalement isolé, sans la moindre parenté proche",
     "Aux reptiles, car ils descendent de dinosaures théropodes"
    ],
    "bonne": 3,

@@ -111,10 +111,10 @@
   {
    "q": "Quel caractère permet de reconnaître à coup sûr un insecte ?",
    "choix": [
-    "Huit pattes et deux parties du corps",
+    "Huit pattes et deux parties du corps seulement",
     "Six pattes et un corps en trois parties",
-    "Une carapace calcaire et des pinces",
-    "Un très grand nombre de pattes"
+    "Une carapace calcaire et deux pinces puissantes",
+    "Un très grand nombre de pattes articulées"
    ],
    "bonne": 1,
    "difficulte": 1,
@@ -123,10 +123,10 @@
   {
    "q": "Pourquoi les arthropodes doivent-ils muer pour grandir ?",
    "choix": [
-    "Parce que leur peau se salit",
-    "Parce qu'ils changent de milieu de vie",
+    "Parce que leur peau se salit et doit être changée",
+    "Parce qu'ils changent chaque fois de milieu de vie",
     "Parce que leur exosquelette rigide ne grandit pas",
-    "Parce qu'ils perdent leurs pattes chaque année"
+    "Parce qu'ils perdent toutes leurs pattes chaque année"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -147,9 +147,9 @@
   {
    "q": "Quel est l'avantage écologique de la métamorphose complète, comme celle de la chenille et du papillon ?",
    "choix": [
-    "Elle rend l'insecte immortel",
-    "Elle permet de voler dès la naissance",
-    "Elle supprime toute reproduction",
+    "Elle rend l'insecte adulte pratiquement immortel",
+    "Elle permet à l'insecte de voler dès le jour de sa naissance",
+    "Elle supprime toute reproduction chez l'adulte",
     "Larve et adulte n'exploitent pas les mêmes ressources"
    ],
    "bonne": 3,

@@ -203,7 +203,7 @@ export const CG_SCIENCES_TECH_3: SeedSkill[] = [
      "Plusieurs agglomérations françaises développent ce type de desserte périurbaine."],
     ["Qu'est-ce que le train à grande vitesse en France ?", ["Un service circulant à plus de deux cent cinquante kilomètres par heure sur ligne dédiée", "Un train rapide classique circulant sur voie ordinaire", "Un train pendulaire s'inclinant dans les courbes", "Un train à sustentation magnétique circulant sans aucun contact avec la voie de guidage qui le porte"], 0,
      "La première ligne, Paris-Lyon, a été ouverte en 1981."],
-    ["Qu'est-ce que le train à sustentation magnétique ?", ["Un train léviter par des électroaimants, sans contact avec le rail", "Un train à coussin d'air glissant sur une piste", "Un train à propulsion linéaire roulant sur rail", "Un train pendulaire inclinant ses caisses en courbe"], 0,
+    ["Qu'est-ce que le train à sustentation magnétique ?", ["Un train qui lévite grâce à des électroaimants, sans contact avec le rail", "Un train à coussin d'air glissant sur une piste", "Un train à propulsion linéaire roulant sur rail", "Un train pendulaire inclinant ses caisses en courbe"], 0,
      "Le Maglev de Shanghai atteint quatre cent trente kilomètres par heure en service commercial."],
     ["Qu'est-ce que l'autopartage ?", ["Un service de véhicules partagés loués à la demande", "Un covoiturage organisé entre collègues", "Une location longue durée avec option d'achat", "Un véhicule de fonction partagé entre plusieurs salariés"], 0,
      "Il se distingue du covoiturage, qui partage un trajet et non un véhicule."],

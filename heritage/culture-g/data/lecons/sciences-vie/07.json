@@ -115,9 +115,9 @@
    "q": "Pourquoi les antibiotiques sont-ils inefficaces contre la grippe ?",
    "choix": [
     "Parce que la grippe est causée par un virus, pas par une bactérie",
-    "Parce que la grippe est causée par un champignon",
-    "Parce que les antibiotiques agissent trop lentement",
-    "Parce que la grippe n'est pas une maladie infectieuse"
+    "Parce que la grippe est causée par un champignon microscopique du nez",
+    "Parce que les antibiotiques agissent beaucoup trop lentement",
+    "Parce que la grippe n'est pas du tout une maladie infectieuse"
    ],
    "bonne": 0,
    "difficulte": 1,
@@ -150,10 +150,10 @@
   {
    "q": "Sur quel mécanisme repose l'efficacité de la vaccination ?",
    "choix": [
-    "Sur la destruction directe des microbes par le vaccin",
-    "Sur le renforcement de la barrière cutanée",
+    "Sur la destruction directe de tous les microbes par le vaccin",
+    "Sur le renforcement durable de la barrière cutanée",
     "Sur la mémoire immunitaire acquise après un premier contact",
-    "Sur la stérilisation permanente de l'organisme"
+    "Sur la stérilisation permanente de tout l'organisme"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -163,9 +163,9 @@
    "q": "Qu'est-ce que l'immunité collective ?",
    "choix": [
     "La protection indirecte des non-immunisés lorsque assez de personnes sont immunisées",
-    "Une immunité transmise par le sang entre membres d'une famille",
-    "La capacité de tous les êtres humains à résister à un même germe",
-    "Un traitement administré simultanément à toute une population"
+    "Une immunité transmise par le sang entre les membres d'une même famille",
+    "La capacité naturelle qu'ont tous les êtres humains de résister ensemble à un même germe",
+    "Un traitement administré simultanément à toute une population donnée"
    ],
    "bonne": 0,
    "difficulte": 3,

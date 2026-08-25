@@ -134,9 +134,9 @@
   {
    "q": "À quoi servent les stomates situés sur les feuilles ?",
    "choix": [
-    "À fixer la feuille sur la tige",
-    "À produire la chlorophylle",
-    "À stocker les sucres fabriqués",
+    "À fixer solidement la feuille sur la tige",
+    "À produire la chlorophylle dans les cellules vertes",
+    "À stocker les sucres fabriqués par la feuille",
     "À régler les échanges de gaz et la perte d'eau"
    ],
    "bonne": 3,
@@ -146,10 +146,10 @@
   {
    "q": "Qu'appelle-t-on une mycorhize ?",
    "choix": [
-    "Une maladie des racines causée par un ver",
+    "Une maladie des racines provoquée par un ver du sol",
     "Une association entre les racines d'une plante et un champignon",
-    "Un organe de reproduction de la fougère",
-    "Une racine aérienne servant à respirer"
+    "Un organe de reproduction propre aux fougères et aux prêles anciennes",
+    "Une racine aérienne servant à respirer hors du sol"
    ],
    "bonne": 1,
    "difficulte": 3,
@@ -158,10 +158,10 @@
   {
    "q": "Pourquoi les feuilles nous apparaissent-elles vertes ?",
    "choix": [
-    "Parce que la chlorophylle absorbe surtout le vert",
-    "Parce que la sève brute est de couleur verte",
+    "Parce que la chlorophylle absorbe surtout la lumière verte du rayonnement solaire",
+    "Parce que la sève brute qui circule est elle-même de couleur verte",
     "Parce que la chlorophylle absorbe le bleu et le rouge et réfléchit le vert",
-    "Parce que les stomates diffusent une lumière verte"
+    "Parce que les stomates diffusent une lumière verte vers l'extérieur"
    ],
    "bonne": 2,
    "difficulte": 2,

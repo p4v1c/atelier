@@ -1075,9 +1075,9 @@
      "q": "Comment accorde-t-on correctement l'adjectif dans « des chemises bleu clair » ?",
      "choix": [
       "On n'accorde ni bleu ni clair",
-      "On accorde bleu seulement",
-      "On accorde clair seulement",
-      "On accorde les deux"
+      "On accorde bleu, mais pas clair",
+      "On accorde clair, mais pas bleu",
+      "On accorde les deux adjectifs"
      ],
      "bonne": 0,
      "difficulte": 2,
@@ -1098,10 +1098,10 @@
     {
      "q": "Combien de verbes français se terminent par -ont à la troisième personne du pluriel du présent ?",
      "choix": [
-      "Deux",
-      "Trois",
+      "Deux verbes",
+      "Trois verbes",
       "Quatre",
-      "Six"
+      "Six verbes"
      ],
      "bonne": 2,
      "difficulte": 2,

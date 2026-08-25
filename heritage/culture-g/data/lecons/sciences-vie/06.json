@@ -145,9 +145,9 @@
   {
    "q": "Quelle réaction produit l'énergie rayonnée par le Soleil ?",
    "choix": [
-    "La combustion du charbon",
-    "La fission de l'uranium",
-    "La friction des gaz en rotation",
+    "La combustion du charbon et des gaz",
+    "La fission de l'uranium présent au cœur",
+    "La friction des gaz en rotation rapide",
     "La fusion de l'hydrogène en hélium"
    ],
    "bonne": 3,
@@ -169,10 +169,10 @@
   {
    "q": "Quelle observation d'Edwin Hubble a conduit à la théorie de l'expansion de l'Univers ?",
    "choix": [
-    "La rotation des planètes autour du Soleil",
-    "La découverte des taches solaires",
+    "La rotation régulière des planètes autour du Soleil",
+    "La découverte des taches sombres à la surface du Soleil",
     "Le décalage vers le rouge de la lumière des galaxies lointaines",
-    "La détection des ondes gravitationnelles"
+    "La détection des toutes premières ondes gravitationnelles lointaines"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -182,9 +182,9 @@
    "q": "Qu'est-ce que le fond diffus cosmologique découvert en 1965 ?",
    "choix": [
     "Le rayonnement émis par l'Univers devenu transparent environ 380 000 ans après le Big Bang",
-    "La lumière combinée de toutes les étoiles de la Voie lactée",
-    "Un nuage de poussière situé au centre de notre galaxie",
-    "Le rayonnement produit par les trous noirs supermassifs"
+    "La lumière combinée de toutes les étoiles de la Voie lactée réunies",
+    "Un immense nuage de poussière situé au centre de notre galaxie",
+    "Le rayonnement produit par les trous noirs supermassifs tapis au centre des grandes galaxies"
    ],
    "bonne": 0,
    "difficulte": 3,
