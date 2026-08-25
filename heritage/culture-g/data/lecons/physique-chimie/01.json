@@ -115,9 +115,9 @@
   {
    "q": "Selon le principe d'inertie, que fait un objet sur lequel les forces se compensent ?",
    "choix": [
-    "Il ralentit progressivement jusqu'à s'arrêter",
+    "Il ralentit progressivement jusqu'à finir par s'arrêter tout à fait",
     "Il conserve un mouvement rectiligne uniforme ou reste immobile",
-    "Il accélère régulièrement",
+    "Il accélère régulièrement dans le temps",
     "Il décrit un cercle à vitesse constante"
    ],
    "bonne": 1,
@@ -151,8 +151,8 @@
   {
    "q": "Un astronaute de 70 kilogrammes se rend sur la Lune. Que peut-on affirmer ?",
    "choix": [
-    "Sa masse et son poids sont tous deux divisés par six",
-    "Sa masse augmente et son poids diminue",
+    "Sa masse comme son poids se trouvent tous deux divisés par six une fois sur la Lune",
+    "Sa masse augmente tandis que son poids diminue",
     "Sa masse et son poids restent inchangés",
     "Sa masse reste de 70 kilogrammes mais son poids est environ six fois plus faible"
    ],
@@ -163,7 +163,7 @@
   {
    "q": "Sur quel principe repose la propulsion d'une fusée dans le vide spatial ?",
    "choix": [
-    "Sur la poussée d'Archimède exercée par l'air",
+    "Sur la poussée d'Archimède exercée par l'air environnant",
     "Sur le principe des actions réciproques et la conservation de la quantité de mouvement",
     "Sur l'appui des gaz contre l'atmosphère",
     "Sur la diminution du poids avec l'altitude"

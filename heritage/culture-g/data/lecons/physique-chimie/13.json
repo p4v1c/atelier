@@ -53,10 +53,10 @@
   {
    "q": "Quelle idée Max Planck introduit-il en 1900 pour expliquer le rayonnement des corps chauds ?",
    "choix": [
-    "Que la lumière se propage à vitesse constante",
+    "Que la lumière se propage toujours à la même vitesse dans tous les milieux",
     "Que l'énergie ne s'échange que par quantités discrètes appelées quanta",
-    "Que les atomes sont indivisibles",
-    "Que la chaleur est un fluide invisible"
+    "Que les atomes sont tous indivisibles",
+    "Que la chaleur est un fluide invisible qui s'écoule"
    ],
    "bonne": 1,
    "difficulte": 1,
@@ -65,10 +65,10 @@
   {
    "q": "Que propose Louis de Broglie en 1924 ?",
    "choix": [
-    "Que la lumière est uniquement une onde",
-    "Que les atomes contiennent un noyau",
+    "Que la lumière est uniquement une onde, jamais une particule",
+    "Que les atomes contiennent tous un noyau",
     "Que toute particule de matière possède aussi une longueur d'onde associée",
-    "Que l'énergie et la masse sont équivalentes"
+    "Que l'énergie et la masse d'un corps sont deux formes équivalentes d'une même chose"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -78,9 +78,9 @@
    "q": "Dans l'expérience des fentes de Young réalisée avec des particules envoyées une à une, qu'observe-t-on ?",
    "choix": [
     "Des impacts ponctuels qui, en s'accumulant, forment une figure d'interférences",
-    "Une tache lumineuse continue et uniforme",
-    "Deux bandes nettes correspondant aux deux fentes, sans autre structure",
-    "Aucune trace sur l'écran tant que la particule n'est pas observée"
+    "Une tache lumineuse continue et parfaitement uniforme",
+    "Deux bandes nettes correspondant exactement aux deux fentes, sans aucune autre structure",
+    "Aucune trace sur l'écran tant que la particule n'est pas observée directement"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -89,10 +89,10 @@
   {
    "q": "Comment faut-il interpréter le principe d'indétermination de Heisenberg ?",
    "choix": [
-    "Comme un défaut technique de nos appareils de mesure, qui sera un jour corrigé",
-    "Comme l'affirmation qu'on ne peut rien prévoir en physique quantique",
+    "Comme un simple défaut technique de nos appareils de mesure, que le progrès finira un jour par corriger",
+    "Comme l'affirmation que l'on ne peut rien prévoir du tout en physique quantique",
     "Comme une impossibilité fondamentale de déterminer simultanément certaines grandeurs conjuguées",
-    "Comme une règle valable uniquement pour les objets macroscopiques"
+    "Comme une règle valable uniquement pour les objets à notre échelle"
    ],
    "bonne": 2,
    "difficulte": 3,
@@ -103,8 +103,8 @@
    "choix": [
     "L'effet photoélectrique",
     "La décohérence due aux interactions avec l'environnement",
-    "La gravitation universelle",
-    "La conservation de la quantité de mouvement"
+    "La gravitation universelle de Newton",
+    "La conservation de la quantité de mouvement dans le système"
    ],
    "bonne": 1,
    "difficulte": 2,
