@@ -242,7 +242,7 @@ export const ESPAGNOL_VOCABULAIRE_OFICIOS: LotCartes[] = [
       },
       {
         etranger: "Se me rompió el enchufe.",
-        francais: "J'ai cassé la prise.",
+        francais: "La prise a lâché.",
         note: "Le se involontaire : c'est la façon normale de rapporter un dégât domestique.",
       },
       {

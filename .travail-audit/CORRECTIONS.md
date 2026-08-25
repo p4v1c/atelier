@@ -667,3 +667,56 @@ comparer les couples (fait interrogé, bonne réponse) et non les chaînes.
 
 Porte : `tsc` ✓ · `validate:content` 0 erreur / 634 avertissements · 236 tests ✓ ·
 `build` ✓.
+
+### Lot 11 — `espagnol-2.md` (20 graves)
+
+Quinze erreurs de fait ou de règle :
+
+- **« escuchar se passe de préposition, contrairement au français »** : le
+  contraste n'existe pas — « j'écoute la radio », « je regarde la télé », « je
+  cherche mon livre » sont transitifs directs en français aussi. C'est le piège de
+  **l'anglais**, donné à un francophone comme s'il le concernait, au cœur d'un
+  cours de prépositions.
+- **« Ven mañana » → « Dijo que fuera »** : *ven* est l'impératif de *venir*, son
+  rapporté est *viniera*. Le tableau censé fixer la règle enseignait « viens
+  demain » → « il a dit d'**aller** le lendemain ».
+- **« sostener una tesis » rangé dans la colonne « Le calque »** : c'est de
+  l'espagnol standard, employé ailleurs dans le module.
+- **Le seseo confondu avec le ceceo**, et « seso » écrit à la place — un autre
+  mot, qui veut dire la cervelle.
+- **« eventualmente veut dire finalement »** : c'est le sens de l'anglais
+  *eventually*. En espagnol, le mot veut dire « occasionnellement, le cas
+  échéant ».
+- **« la oferta y la demanda, dans l'ordre inverse de l'anglais »** : c'est
+  l'ordre du français aussi. La remarque comparait l'espagnol à l'anglais dans un
+  module français — le rapport en compte quatre-vingt-une du même genre.
+- **barato** : le module donnait la règle en B1 (« sans nuance péjorative ») puis
+  son contraire en C2 (« barato dit la piètre qualité »).
+- **Les suffixes de couleur** : l'énoncé annonçait *-oso* et *-uzco*, l'astuce
+  donnait *-oso* pour *verdoso, rojizo, azulado* — trois suffixes différents. Et
+  *-ecer* était appelé un préfixe.
+- **« L'espagnol professionnel refuse sans jamais employer le mot no »** : six des
+  dix cartes de la série contiennent *no*.
+- **afectar** : la géographie était inversée. *Afectar a* est la construction
+  courante en Espagne.
+- **Le *se* involontaire traduit par « j'ai cassé le verre »**, deux fois dans
+  deux fichiers — alors que la note explique juste en dessous que le locuteur
+  n'est précisément pas l'agent. La traduction détruisait ce que la note
+  enseignait.
+- **« L'adjectif informe du français se dit deforme »** : *informe* existe en
+  espagnol comme adjectif, avec le même sens.
+- **« Le a ne se met que devant une personne »**, démenti par une carte de la même
+  série : *se le dice palta al aguacate*.
+- Quatre marqueurs espagnols distincts (*en fin*, *total que*, *bueno*, *o sea*)
+  recevaient la même traduction française, ou une traduction qui n'est pas la
+  leur.
+
+**Non appliqué** : ce rapport liste aussi une douzaine de doublons de séries
+entre niveaux (santé A2/B2, ser-estar B1/C1, périphrases trois fois, noms
+abstraits C1 deux fois), seize séries qui annoncent en tête un mot qu'aucune de
+leurs cartes ne contient, et **un `aussiEtranger` sur 1 120 cartes** — le même
+manque que sur l'autre moitié du module. Ce sont des chantiers de contenu, pas
+des corrections.
+
+Porte : `tsc` ✓ · `validate:content` 0 erreur / 634 avertissements · 236 tests ✓ ·
+`build` ✓.

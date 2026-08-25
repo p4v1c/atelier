@@ -181,7 +181,7 @@ export const ESPAGNOL_COURS_USAGE: LotCartes[] = [
         {
           titre: "Les verbes qui imposent leur préposition",
           texte:
-            "Comme en français, certains verbes exigent une préposition, mais pas la même.\n\nAvec a : empezar a, aprender a, ayudar a, invitar a, volver a — ce dernier voulant dire « refaire quelque chose », volver a llamar, rappeler.\n\nAvec de : acabar de, qui veut dire « venir de » — acabo de llegar, je viens d'arriver ; tratar de, essayer ; dejar de, arrêter de ; olvidarse de, oublier.\n\nAvec en : pensar en, penser à ; confiar en, faire confiance à ; insistir en.\n\nEt quelques-uns se passent de préposition là où le français en met une : buscar, chercher ; escuchar, écouter ; mirar, regarder ; esperar, attendre. On dit escucho la radio, jamais « escucho a la radio ».",
+            "Comme en français, certains verbes exigent une préposition, mais pas la même.\n\nAvec a : empezar a, aprender a, ayudar a, invitar a, volver a — ce dernier voulant dire « refaire quelque chose », volver a llamar, rappeler.\n\nAvec de : acabar de, qui veut dire « venir de » — acabo de llegar, je viens d'arriver ; tratar de, essayer ; dejar de, arrêter de ; olvidarse de, oublier.\n\nAvec en : pensar en, penser à ; confiar en, faire confiance à ; insistir en.\n\nEt quelques-uns se passent de préposition, comme en français mais contrairement à l'anglais : buscar, chercher ; escuchar, écouter ; mirar, regarder ; esperar, attendre. On dit escucho la radio, jamais « escucho a la radio ».",
         },
       ],
     },
@@ -193,7 +193,7 @@ export const ESPAGNOL_COURS_USAGE: LotCartes[] = [
       { etranger: "Acabo de llegar.", francais: "Je viens d'arriver.", note: "Acabar de rend exactement notre « venir de »." },
       { etranger: "Empecé a estudiar en mayo.", francais: "J'ai commencé à étudier en mai.", note: "empezar a, et en devant un mois." },
       { etranger: "Estoy pensando en ti.", francais: "Je pense à toi.", note: "pensar en, jamais pensar a." },
-      { etranger: "Escucho la radio.", francais: "J'écoute la radio.", note: "Escuchar se passe de préposition, contrairement au français." },
+      { etranger: "Escucho la radio.", francais: "J'écoute la radio.", note: "Escuchar est transitif direct, comme « écouter » en français ; c'est l'anglais qui met une préposition." },
       { etranger: "Volvió a llamar.", francais: "Il a rappelé.", note: "volver a + infinitif veut dire refaire quelque chose." },
       { etranger: "Voy en tren, no a pie.", francais: "J'y vais en train, pas à pied.", note: "En pour les transports, mais a pie pour la marche." },
     ],

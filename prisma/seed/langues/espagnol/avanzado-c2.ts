@@ -62,7 +62,7 @@ export const ESPAGNOL_AVANZADO_C2: LotCartes[] = [
       {
         etranger: "La demanda superó a la oferta.",
         francais: "La demande a dépassé l'offre.",
-        note: "L'espagnol dit la oferta y la demanda, dans l'ordre inverse de l'anglais.",
+        note: "La oferta y la demanda, dans le même ordre qu'en français. Superar a prend le a devant un nom personnifié.",
       },
       {
         etranger: "Hay que recortar los gastos fijos.",

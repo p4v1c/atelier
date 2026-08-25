@@ -593,7 +593,7 @@ export const ESPAGNOL_CONJUGACION_2: LotCartes[] = [
       },
       {
         etranger: "Se me rompió el vaso.",
-        francais: "J'ai cassé le verre.",
+        francais: "Le verre s'est cassé.",
         note: "Le se involontaire : le locuteur devient victime. C'est la façon normale de rapporter un accident.",
       },
       {

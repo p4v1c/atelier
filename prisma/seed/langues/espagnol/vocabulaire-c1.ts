@@ -162,7 +162,7 @@ export const ESPAGNOL_VOCABULAIRE_C1: LotCartes[] = [
                 ["soulever une question", "levantar una pregunta", "plantear una pregunta"],
                 ["traiter un sujet", "tratar un sujeto", "abordar un tema"],
                 ["rendre compte de", "rendir cuenta de", "dar cuenta de"],
-                ["étayer une thèse", "sostener una tesis", "sustentar una tesis"],
+                ["étayer une thèse", "soportar una tesis", "sustentar o respaldar una tesis"],
                 ["remettre en cause", "poner en causa", "poner en tela de juicio"],
                 ["il ressort que", "sale que", "se desprende que"],
                 ["tenir à deux facteurs", "tener a dos factores", "obedecer a dos factores"],

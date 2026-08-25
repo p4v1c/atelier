@@ -79,7 +79,7 @@ export const ESPAGNOL_VOCABULAIRE_IDEAS: LotCartes[] = [
         {
           titre: "Dire un prix, et négocier",
           texte:
-            "Trois habitudes suffisent pour parler d'argent naturellement.\n\nLa première : la monnaie se place après le chiffre, et se prononce entièrement. Veinte euros, tres mil pesos, quinientas coronas. Les décimales se lisent avec con : tres euros con cincuenta, ou plus simplement tres cincuenta.\n\nLa deuxième : les expressions de la dépense. Salir caro, revenir cher ; estar por las nubes, être hors de prix ; costar un ojo de la cara, coûter les yeux de la tête — l'image est presque la même qu'en français ; estar tirado, ne rien coûter ; una ganga, une bonne affaire.\n\nLa troisième : les formules du marchandage, courantes sur un marché latino-américain et rares en Espagne. ¿Me hace un descuento ?, ¿cuál es su último precio ?, ¿me lo deja en…? Le verbe dejar y sert de « faire un prix ».\n\nEt une nuance à connaître : barato veut dire bon marché, et n'a pas la nuance péjorative de « cheap » en anglais. Pour dire de mauvaise qualité, on dit de mala calidad ou, familièrement, cutre en Espagne.",
+            "Trois habitudes suffisent pour parler d'argent naturellement.\n\nLa première : la monnaie se place après le chiffre, et se prononce entièrement. Veinte euros, tres mil pesos, quinientas coronas. Les décimales se lisent avec con : tres euros con cincuenta, ou plus simplement tres cincuenta.\n\nLa deuxième : les expressions de la dépense. Salir caro, revenir cher ; estar por las nubes, être hors de prix ; costar un ojo de la cara, coûter les yeux de la tête — l'image est presque la même qu'en français ; estar tirado, ne rien coûter ; una ganga, une bonne affaire.\n\nLa troisième : les formules du marchandage, courantes sur un marché latino-américain et rares en Espagne. ¿Me hace un descuento ?, ¿cuál es su último precio ?, ¿me lo deja en…? Le verbe dejar y sert de « faire un prix ».\n\nEt une nuance à connaître : barato dit d'abord le prix bas, mais glisse facilement vers la piètre qualité, comme « bon marché » en français. Económico ne dit que le prix ; de mala calidad, ou familièrement cutre en Espagne, ne disent que la qualité.",
         },
       ],
     },
@@ -127,7 +127,7 @@ export const ESPAGNOL_VOCABULAIRE_IDEAS: LotCartes[] = [
       {
         etranger: "Fue una auténtica ganga.",
         francais: "C'était une vraie bonne affaire.",
-        note: "Una ganga, une affaire. Barato veut dire bon marché, sans nuance péjorative.",
+        note: "Una ganga, une affaire. Barato dit le prix bas, et souvent, par glissement, la piètre qualité.",
       },
       {
         etranger: "Hicimos una transferencia ayer.",

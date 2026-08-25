@@ -199,9 +199,10 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
         note: "Superar el presupuesto. Rebasar se dit aussi.",
       },
       {
-        etranger: "Las erupciones solares afectan las comunicaciones.",
+        etranger: "Las erupciones solares afectan a las comunicaciones.",
+        aussiEtranger: ["Las erupciones solares afectan las comunicaciones."],
         francais: "Les éruptions solaires perturbent les communications.",
-        note: "Una erupción solar. Afectar sans préposition en Espagne, afectar a aussi.",
+        note: "Una erupción solar. Afectar a est la construction courante en Espagne ; on entend aussi afectar seul, surtout en Amérique.",
       },
     ],
   },

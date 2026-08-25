@@ -15,8 +15,8 @@ export const ESPAGNOL_SENSACIONES: LotCartes[] = [
     category: "Vocabulaire",
     title: "Couleurs et matières",
     statement:
-      "Azul marino, verdoso, curtido, desgastado. L'espagnol fabrique ses nuances avec -oso et -uzco, et nomme les autres par des objets.",
-    tip: "Le suffixe -oso dit « tirant sur » : verdoso, rojizo, azulado. Chaque couleur a son suffixe favori, et ils ne s'échangent pas.",
+      "Azul marino, verdoso, curtido, desgastado. L'espagnol fabrique ses nuances avec toute une famille de suffixes — -oso, -izo, -áceo, -ado — et nomme les autres par des objets.",
+    tip: "Chaque couleur a son suffixe d'approximation, et ils ne s'échangent pas : verdoso, rojizo, grisáceo, azulado. On ne dit ni « verdizo » ni « rojoso ».",
     difficulty: 2,
     niveau: "B1",
     oral: true,
@@ -65,7 +65,7 @@ export const ESPAGNOL_SENSACIONES: LotCartes[] = [
       {
         etranger: "La madera se ha oscurecido con el tiempo.",
         francais: "Le bois a foncé avec le temps.",
-        note: "Oscurecerse, foncer. Le préfixe -ecer fabrique des verbes de changement d'état.",
+        note: "Oscurecerse, foncer. Le suffixe -ecer fabrique des verbes de changement d'état, souvent avec le préfixe en- : ennegrecer, envejecer.",
       },
       {
         etranger: "Es un muro de piedra desgastado.",

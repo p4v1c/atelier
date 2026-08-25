@@ -36,7 +36,8 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
       },
       {
         etranger: "O sea, no es tan sencillo.",
-        francais: "Enfin, ce n'est pas si simple.",
+        francais: "Je veux dire, ce n'est pas si simple.",
+        aussi: ["C'est-à-dire que ce n'est pas si simple."],
         note: "O sea annonce une reformulation de ce qu'on vient de dire.",
       },
       {
@@ -212,7 +213,7 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
     category: "Expressions",
     title: "Dire non sans le dire",
     statement:
-      "Entiendo tu punto, pero. No lo veo claro. Todo depende. L'espagnol professionnel refuse sans jamais employer le mot no.",
+      "Entiendo tu punto, pero. No lo veo claro. Todo depende. L'espagnol professionnel refuse rarement par un « no » sec : le refus passe par une concession, une réserve ou un regret.",
     tip: "« No lo veo claro » est un refus ferme sous une forme douce. Le traduire par « je ne vois pas clairement » manque tout le sens.",
     difficulty: 3,
     niveau: "C1",
@@ -363,7 +364,7 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
       },
       {
         etranger: "Total, que lo perdimos.",
-        francais: "Bref, on l'a raté.",
+        francais: "Résultat, on l'a raté.",
         note: "Total que abrège et conclut. La formule est familière et très courante.",
       },
       {
@@ -383,7 +384,7 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
       },
       {
         etranger: "Bueno, ahí fue cuando lo entendí.",
-        francais: "Bref, c'est là que j'ai compris.",
+        francais: "Bon, c'est là que j'ai compris.",
         note: "Ahí fue cuando, c'est alors que. La structure clive le moment.",
       },
       {
