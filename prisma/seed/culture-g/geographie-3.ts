@@ -220,7 +220,7 @@ export const CG_GEOGRAPHIE_3: SeedSkill[] = [
     ["Où se situent les centrales nucléaires françaises ?", ["Le long de fleuves ou du littoral, pour le refroidissement", "En altitude, près des grands barrages hydroélectriques de montagne", "Près des anciennes mines d'uranium du Massif central", "À proximité immédiate des grandes agglomérations consommatrices"], 0,
      "Les canicules et les étiages peuvent contraindre leur production."],
     ["Quelles régions françaises concentrent l'essentiel du parc éolien terrestre ?", ["Les Hauts-de-France et le Grand Est", "La région Provence-Alpes-Côte d'Azur et la Corse", "l'Auvergne-Rhône-Alpes et la Bourgogne-Franche-Comté", "La Normandie et la Bretagne, sur les côtes de la Manche"], 0,
-     "Les Hauts-de-France et le Grand Est concentrent une part majeure du parc éolien terrestre."],
+     "Deux conditions s'y rencontrent : des vents réguliers de secteur nord-ouest et de vastes plaines de grande culture, où les mâts trouvent place sans conflit d'usage. Le relief et le morcellement du bâti expliquent à l'inverse la faiblesse du parc dans le Sud-Est."],
     ["Qu'est-ce qu'un parc éolien en mer ?", ["Une installation d'éoliennes implantées au large", "Une éolienne flottante isolée ancrée par de longs câbles", "Un projet de recherche encore expérimental", "Une centrale marémotrice d'estuaire"], 0,
      "Le premier parc français commercial a été mis en service au large de Saint-Nazaire en 2022."],
     ["Qu'est-ce que l'énergie marémotrice ?", ["Une production exploitant le marnage des marées", "Une production tirée de la houle et des vagues du large", "Une production tirée des courants marins permanents", "Une production géothermique puisée sous le plancher océanique"], 0,
