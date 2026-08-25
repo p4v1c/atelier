@@ -126,9 +126,9 @@
   {
    "q": "Quelle évolution caractérise la population active agricole française entre 1946 et 1975 ?",
    "choix": [
-    "Elle reste stable autour de 25 %",
-    "Elle augmente grâce à la mécanisation",
-    "Elle passe de 10 % à 37 %",
+    "Elle passe d'environ 10 % à environ 37 %",
+    "Elle augmente fortement grâce à la mécanisation",
+    "Elle reste stable autour de 25 % de la population",
     "Elle passe d'environ 37 % à environ 10 %"
    ],
    "bonne": 3,
@@ -150,10 +150,10 @@
   {
    "q": "Que prévoient notamment les accords de Grenelle des 25-27 mai 1968 ?",
    "choix": [
-    "La semaine de 35 heures",
-    "La retraite à soixante ans",
+    "La retraite à soixante ans pour tous les salariés",
+    "La création de la Sécurité sociale en France",
     "Une hausse d'environ 35 % du salaire minimum",
-    "La création de la Sécurité sociale"
+    "La semaine de trente-cinq heures dans les entreprises"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -162,10 +162,10 @@
   {
    "q": "Comment le général de Gaulle reprend-il l'initiative le 30 mai 1968 ?",
    "choix": [
-    "Il proclame l'état de siège et fait intervenir l'armée",
+    "Il démissionne aussitôt et quitte le pouvoir",
     "Il annonce qu'il reste et dissout l'Assemblée nationale",
-    "Il démissionne aussitôt",
-    "Il organise un référendum sur les universités"
+    "Il proclame l'état de siège et fait intervenir l'armée",
+    "Il organise un référendum sur la réforme des universités"
    ],
    "bonne": 1,
    "difficulte": 2,

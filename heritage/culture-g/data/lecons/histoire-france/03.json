@@ -143,10 +143,10 @@
   {
    "q": "Que désigne le mot fief dans la société féodale ?",
    "choix": [
-    "L'impôt payé par les paysans au seigneur",
+    "Le tribunal seigneurial rendant la justice sur la seigneurie",
     "Le bien, souvent une terre, concédé par un seigneur à son vassal",
-    "Le tribunal seigneurial rendant la justice",
-    "Le serment prêté par le roi lors de son sacre"
+    "Le serment solennel prêté par le roi de France lors de son sacre à Reims",
+    "L'impôt payé par les paysans au seigneur à chaque récolte"
    ],
    "bonne": 1,
    "difficulte": 1,
@@ -155,9 +155,9 @@
   {
    "q": "Quel roi capétien réunit les premiers états généraux en 1302 et fait supprimer l'ordre du Temple ?",
    "choix": [
-    "Louis VI le Gros",
-    "Louis IX",
-    "Philippe Auguste",
+    "Louis IX, dit Saint Louis",
+    "Louis VI le Gros, son ancêtre",
+    "Philippe Auguste, vainqueur à Bouvines",
     "Philippe IV le Bel"
    ],
    "bonne": 3,
@@ -168,9 +168,9 @@
    "q": "Quel élément architectural caractérise l'art gothique apparu au milieu du XIIe siècle ?",
    "choix": [
     "La croisée d'ogives associée à l'arc-boutant",
-    "La voûte en berceau plein cintre",
-    "La coupole sur pendentifs",
-    "Le fronton triangulaire à colonnes"
+    "La coupole sur pendentifs héritée de Byzance",
+    "Le fronton triangulaire porté par des colonnes",
+    "La voûte en berceau plein cintre des églises romanes"
    ],
    "bonne": 0,
    "difficulte": 3,

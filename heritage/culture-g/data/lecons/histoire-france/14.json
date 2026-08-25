@@ -138,10 +138,10 @@
   {
    "q": "Qu'approuve le référendum du 28 octobre 1962 ?",
    "choix": [
-    "L'indépendance de l'Algérie",
+    "L'entrée du Royaume-Uni dans le Marché commun européen",
     "L'élection du président de la République au suffrage universel direct",
-    "Le passage au quinquennat",
-    "L'entrée du Royaume-Uni dans le Marché commun"
+    "L'indépendance de l'Algérie après les accords d'Évian",
+    "Le passage du septennat au quinquennat présidentiel"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -151,9 +151,9 @@
    "q": "Que désigne le terme de cohabitation sous la Ve République ?",
    "choix": [
     "La coexistence d'un président et d'un Premier ministre issus de camps politiques opposés",
-    "Le partage du pouvoir entre l'Assemblée nationale et le Sénat",
-    "L'association de la France et de l'Allemagne dans la construction européenne",
-    "Le cumul des mandats par les élus locaux"
+    "Le cumul des mandats par les élus locaux et nationaux d'une même formation",
+    "Le partage du pouvoir législatif entre l'Assemblée nationale et le Sénat",
+    "L'association étroite de la France et de l'Allemagne dans la construction de l'Europe communautaire"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -162,10 +162,10 @@
   {
    "q": "Quelle réforme les Français approuvent-ils par référendum en septembre 2000 ?",
    "choix": [
-    "L'abolition de la peine de mort",
-    "La création du Conseil constitutionnel",
+    "La création du Conseil constitutionnel et de son président",
+    "L'adoption de l'euro comme monnaie unique",
     "La réduction du mandat présidentiel de sept à cinq ans",
-    "L'adoption de l'euro"
+    "L'abolition de la peine de mort en France"
    ],
    "bonne": 2,
    "difficulte": 2,

@@ -141,10 +141,10 @@
   {
    "q": "Que se passe-t-il le 10 juillet 1940 à Vichy ?",
    "choix": [
-    "L'armistice est signé avec l'Allemagne",
-    "Le général de Gaulle lance son appel à la BBC",
+    "La zone libre est envahie par la Wehrmacht et l'armée d'armistice dissoute",
+    "L'armistice est signé avec l'Allemagne dans la clairière de Rethondes",
     "Les parlementaires votent les pleins pouvoirs constituants au maréchal Pétain",
-    "La zone libre est envahie par la Wehrmacht"
+    "Le général de Gaulle lance son appel à la radio de Londres, sur la BBC"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -154,9 +154,9 @@
    "q": "Quelle affirmation est exacte à propos du statut des Juifs du 3 octobre 1940 ?",
    "choix": [
     "Il a été pris par le gouvernement de Vichy de sa propre initiative",
-    "Il a été imposé par une ordonnance allemande",
-    "Il ne concernait que la zone occupée",
-    "Il a été annulé dès 1941"
+    "Il a été annulé dès 1941 sous la pression de l'opinion publique française",
+    "Il a été imposé par une ordonnance de l'occupant allemand",
+    "Il ne concernait que la seule zone occupée par la Wehrmacht"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -177,10 +177,10 @@
   {
    "q": "Quel est le rôle de Jean Moulin dans la Résistance ?",
    "choix": [
-    "Il commande la 2e division blindée qui libère Paris",
+    "Il commande la 2e division blindée qui libère Paris en août 1944 aux côtés des troupes alliées",
     "Il unifie les mouvements de résistance et préside la première réunion du CNR le 27 mai 1943",
-    "Il dirige la France libre depuis Londres",
-    "Il fonde le mouvement Combat en 1940"
+    "Il fonde le mouvement Combat en 1940 puis le journal clandestin du même nom",
+    "Il dirige la France libre depuis Londres et négocie avec les Alliés"
    ],
    "bonne": 1,
    "difficulte": 2,

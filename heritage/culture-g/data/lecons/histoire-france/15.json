@@ -131,10 +131,10 @@
   {
    "q": "Quel événement marque le début de la guerre d'Algérie ?",
    "choix": [
-    "Les massacres de Sétif en mai 1945",
+    "Le putsch des généraux d'avril 1961 à Alger",
     "La Toussaint rouge du 1er novembre 1954",
-    "La bataille d'Alger en 1957",
-    "Le putsch des généraux en avril 1961"
+    "La bataille d'Alger, en 1957",
+    "Les massacres de Sétif, en mai 1945"
    ],
    "bonne": 1,
    "difficulte": 1,
@@ -143,10 +143,10 @@
   {
    "q": "Qu'est-ce que la bataille d'Alger de 1957 ?",
    "choix": [
-    "Un affrontement naval entre la France et l'Égypte",
-    "Le débarquement de troupes américaines en Algérie",
+    "Une révolte des colons européens d'Algérie contre la politique du général de Gaulle",
+    "Un affrontement naval entre la marine française et la marine égyptienne en Méditerranée",
     "Une opération de police confiée aux parachutistes du général Massu contre les réseaux du FLN",
-    "Une révolte des colons européens contre de Gaulle"
+    "Le débarquement de troupes américaines en Algérie, comme en novembre 1942"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -156,9 +156,9 @@
    "q": "Que déclare le général de Gaulle le 16 septembre 1959 ?",
    "choix": [
     "Qu'il reconnaît le droit des Algériens à l'autodétermination",
-    "Que l'Algérie restera française à jamais",
-    "Qu'il dissout le FLN",
-    "Qu'il retire immédiatement toutes les troupes françaises"
+    "Qu'il retire immédiatement toutes les troupes françaises d'Algérie",
+    "Qu'il dissout le FLN et interdit ses réseaux en métropole",
+    "Que l'Algérie restera française à jamais, de Dunkerque à Tamanrasset"
    ],
    "bonne": 0,
    "difficulte": 3,

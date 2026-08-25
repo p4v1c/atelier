@@ -145,9 +145,9 @@
    "q": "Quel événement du 4 septembre 1870 marque le début de la IIIe République ?",
    "choix": [
     "La proclamation de la République à Paris après la défaite de Sedan",
-    "La signature du traité de Francfort",
-    "Le vote des lois constitutionnelles",
-    "L'élection d'Adolphe Thiers à la présidence"
+    "L'élection d'Adolphe Thiers à la présidence de la République",
+    "La signature du traité de Francfort avec l'Empire allemand",
+    "Le vote des lois constitutionnelles par l'Assemblée nationale"
    ],
    "bonne": 0,
    "difficulte": 1,
@@ -156,10 +156,10 @@
   {
    "q": "Que rendent obligatoire et laïque les lois scolaires de Jules Ferry en 1881-1882 ?",
    "choix": [
-    "L'enseignement supérieur",
-    "L'enseignement secondaire des jeunes filles",
+    "L'enseignement secondaire des jeunes filles dans les lycées",
+    "La formation professionnelle des ouvriers dans les ateliers",
     "L'enseignement primaire pour les enfants de 6 à 13 ans",
-    "La formation professionnelle des ouvriers"
+    "L'enseignement supérieur dans les facultés d'État"
    ],
    "bonne": 2,
    "difficulte": 1,
@@ -192,10 +192,10 @@
   {
    "q": "Quelle avancée sociale majeure les accords Matignon de juin 1936 apportent-ils aux salariés ?",
    "choix": [
-    "Le suffrage universel réellement universel",
-    "La retraite à soixante ans",
+    "La retraite à soixante ans pour l'ensemble des salariés",
+    "L'assurance chômage généralisée à toute la France",
     "Les congés payés et la semaine de quarante heures",
-    "L'assurance chômage généralisée"
+    "Le suffrage universel étendu enfin aux femmes"
    ],
    "bonne": 2,
    "difficulte": 2,
