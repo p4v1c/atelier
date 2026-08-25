@@ -234,7 +234,7 @@ export const DENSIFY3_REGISTRE_PRO: ContentBatch = {
     ]},
     { ruleSlug: "discute-espece-de", sentences: [
       { marked: "Une espèce de vieux hangar sert d'atelier au menuisier.", fix: null },
-      { marked: "Un espèce de bruit sourd montait de la cave.", fix: null },
+      { marked: "Une espèce de bruit sourd montait de la cave.", fix: null },
     ]},
     { ruleSlug: "discute-suite-a", sentences: [
       { marked: "Suite à cet incident, la procédure a été revue.", fix: null },

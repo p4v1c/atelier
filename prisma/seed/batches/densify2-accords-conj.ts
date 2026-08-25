@@ -126,7 +126,7 @@ export const DENSIFY2_ACCORDS_CONJ: ContentBatch = {
     ]},
     { ruleSlug: "cest-ce-sont", sentences: [
       { marked: "[C'est] les enfants qui ont décoré toute la salle.", fix: "Ce sont" },
-      { marked: "Ce [sont] moi qui ai réservé les billets de train.", fix: "C'est" },
+      { marked: "[C'est] les résultats qui décideront de la suite.", fix: "Ce sont" },
     ]},
     { ruleSlug: "un-des-qui", sentences: [
       { marked: "C'est un des rares peintres qui [sait] encore ce métier.", fix: "savent" },

@@ -104,7 +104,7 @@ export const BATCH_005: ContentBatch = {
       status: "disputed",
       sentences: [
         { marked: "Une espèce de brouillard épais recouvrait toute la vallée.", fix: null },
-        { marked: "Un espèce de brouillard épais recouvrait toute la vallée.", fix: null },
+        { marked: "Une espèce de vertige l'a saisi en haut de l'échelle.", fix: null },
         { marked: "Il portait une espèce de manteau trop grand pour lui.", fix: null },
         { marked: "C'était une espèce d'entrepôt abandonné depuis des années.", fix: null },
         { marked: "Une espèce de silence gêné s'est installé dans la pièce.", fix: null },

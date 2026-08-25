@@ -129,7 +129,7 @@ export const DENSIFY_ACCORDS: ContentBatch = {
     { ruleSlug: "cest-ce-sont", sentences: [
       { marked: "[C'est] les voisins qui ont prévenu les pompiers.", fix: "Ce sont" },
       { marked: "En réalité, [c'est] eux qui ont trouvé la solution.", fix: "ce sont" },
-      { marked: "Ce [sont] moi qui ai réservé la salle pour demain.", fix: "C'est" },
+      { marked: "[C'est] mes parents qui ont payé le voyage.", fix: "Ce sont" },
     ]},
     { ruleSlug: "un-des-qui", sentences: [
       { marked: "C'est un des rares livres qui [mérite] d'être relu.", fix: "méritent" },

@@ -298,3 +298,47 @@ dans les additions : elles sont remplacées.
 
 Porte : `tsc` ✓ · `validate:content` 0 erreur / 634 avertissements · 236 tests ✓ ·
 `build` ✓.
+
+### Lot 5 — les derniers graves du français
+
+- `discute-espece-de` — la règle « disputée » donnait « **Un** espèce de bruit
+  sourd » comme un modèle correct, alors que deux règles notées du même module
+  corrigent « [Un] espèce de » en « Une ». « Un espèce de » n'est pas un usage
+  discuté : *espèce* est féminin, aucune grammaire ne défend l'autre forme. Les
+  deux phrases au masculin passent au féminin ; la nuance sur l'usage oral reste
+  dans l'énoncé, à sa place.
+- `cest-ce-sont` — « Ce C'est moi qui ai réservé » : le « Ce » précédait le mot
+  marqué et restait en place. **Le sens « ce sont » → « c'est » est
+  structurellement inexerçable** dans ce format : il demande de supprimer un mot
+  en plus d'en changer un. Les deux phrases sont remplacées par des cas du sens
+  inverse, qui tient en un token. La règle n'exerce donc plus qu'un sens ; son
+  autre moitié reste montrée par la phrase correcte.
+
+**Vérifications faites, sans correction nécessaire** : `accord-tout-autre` et sa
+densification sont justes depuis le commit `a982311` ; les copies cassées que le
+rapport signale dans les fichiers `densify2-*` (calcul avéré, nombres, élision,
+quelquefois, somptuaire) ont toutes été reprises avec leurs originaux au lot 4.
+
+Porte : `tsc` ✓ · `validate:content` 0 erreur / 634 avertissements · 236 tests ✓ ·
+`build` ✓.
+
+---
+
+## Où en est le français
+
+Les **90 constats graves** de `francais.md` sont traités : appliqués, ou écartés
+avec leur motif. Restent, pour ce domaine, 83 constats moyens et 40 mineurs.
+
+Deux points attendent une décision du propriétaire, parce qu'ils sortent de la
+correction de contenu :
+
+1. **Renommer deux slugs du lot d'origine.** `davantage-2` s'appelle « quand
+   même », `eminent-2` s'appelle « affluence ou influence », et
+   `impropriete-avoir-lair` porte sur « s'avérer ». Les noms sont trompeurs, mais
+   un slug est la clé de la progression en base : le renommer efface ce que les
+   trois comptes ont appris sur ces règles.
+2. **L'énoncé de `hyphen-nombres`**, qui présente la norme de 1990 comme la
+   seule, alors que la graphie traditionnelle reste correcte. L'énoncé vit dans
+   `legacy.json`, que `PATCHES` ne sait pas modifier — il faudrait étendre le
+   mécanisme de patch aux énoncés, ce qui touche au contrat « legacy.json reste
+   la copie fidèle du fichier d'origine ».
