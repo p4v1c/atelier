@@ -872,3 +872,41 @@ Et deux décisions qui n'appartiennent pas au correcteur :
 - **`aussiEtranger`** : sept cartes sur 680 en espagnol débutant, une sur 1 120 en
   espagnol avancé. L'exercice de production sanctionne donc des réponses justes.
   C'est du contenu à produire sur tout le module.
+
+---
+
+## Le biais de longueur — méthode établie, chantier ouvert
+
+`npx tsx .travail-audit/longueur-notions.ts` classe les notions, les pires
+d'abord ; avec un motif de slug, il affiche chaque question, chaque proposition
+et sa longueur — c'est l'outil de travail.
+
+**Mesure de départ : 6 485 questions sur 9 864, soit 66 %, et 656 notions où la
+bonne réponse est la plus longue dans plus de la moitié des questions.** Le
+défaut est concentré : le corpus d'origine est à 55 %, le corpus « libre » à
+26,5 % — c'est-à-dire au hasard —, et le corpus écrit pour le seed à 74 %.
+
+**La méthode, éprouvée sur trois notions :**
+
+1. Réécrire les trois leurres de chaque question pour qu'ils disent quelque chose
+   d'aussi précis que la bonne réponse — pas pour les rallonger de remplissage.
+   Un leurre court l'est parce qu'il a été bâclé : « L'alimentation » devient
+   « L'alimentation prise à domicile et au dehors ».
+2. Dans une question sur deux environ, faire qu'un leurre **dépasse** la bonne
+   réponse. Sans cela, un écart d'un ou deux caractères subsiste et le compteur
+   reste au-dessus de la moitié — même si le raccourci n'est plus exploitable à
+   l'œil.
+
+Sur `ie2-mondialisation`, `ie2-logement` et `ie2-sante-systeme`, chacune à 10/10
+au départ : 4/10, 3/10 et 5/10 après. Aucune des trente questions n'a changé de
+sens, aucune bonne réponse n'a bougé.
+
+**Ce que coûte la suite.** Une notion demande de lire dix questions et d'en
+réécrire trente leurres, soit environ quatre mille jetons. Les 653 notions
+restantes représentent donc de l'ordre de **2,6 millions de jetons**. Ce n'est pas
+un travail qu'une session termine : c'est celui que l'ordre de marche annonçait
+comme « le plus gros morceau, plusieurs milliers de leurres ».
+
+**Quand ce sera fini**, le contrôle `reponse-la-plus-longue` devra passer
+d'avertissement à erreur, pour que le défaut ne revienne pas — comme le contrôle
+de position l'a fait pour son jumeau.
