@@ -102,10 +102,10 @@
   {
    "q": "Quel auteur fournit en 1755 le socle théorique du néoclassicisme en célébrant l'imitation de l'art grec ?",
    "choix": [
-    "Denis Diderot",
+    "Denis Diderot, encyclopédiste",
     "Johann Joachim Winckelmann",
-    "Gotthold Ephraim Lessing",
-    "Giorgio Vasari"
+    "Gotthold Ephraim Lessing, dramaturge",
+    "Giorgio Vasari, biographe des peintres"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -114,10 +114,10 @@
   {
    "q": "Où est conservée « La Mort de Marat », peinte par David en 1793 ?",
    "choix": [
-    "Au musée du Louvre, à Paris",
-    "Au château de Versailles",
+    "Au musée du Louvre, dans l'aile Denon à Paris",
+    "Au château de Versailles, près de Paris",
     "Aux Musées royaux des beaux-arts de Belgique",
-    "Au musée Carnavalet, à Paris"
+    "Au musée Carnavalet, dans le Marais à Paris"
    ],
    "bonne": 2,
    "difficulte": 3,
@@ -151,9 +151,9 @@
    "q": "Quel voyage transforme profondément la palette de Delacroix en 1832 ?",
    "choix": [
     "Un séjour de six mois en Algérie et au Maroc",
-    "Un voyage d'étude en Italie",
-    "Une traversée de la Grèce en guerre",
-    "Un séjour à Londres auprès de Turner"
+    "Un voyage d'étude en Italie et en Sicile",
+    "Une traversée de la Grèce alors en guerre",
+    "Un séjour à Londres auprès de Turner et Constable"
    ],
    "bonne": 0,
    "difficulte": 2,

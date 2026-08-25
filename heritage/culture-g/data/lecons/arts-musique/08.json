@@ -111,10 +111,10 @@
   {
    "q": "Quel événement religieux explique en grande partie l'essor du baroque en Italie ?",
    "choix": [
-    "Le grand schisme d'Occident",
-    "Le concile de Vatican I",
+    "Le grand schisme d'Occident et l'élection de deux papes",
+    "Le concile de Vatican I, réuni au XIXe siècle à Rome",
     "Le concile de Trente et la Contre-Réforme",
-    "La révocation de l'édit de Nantes"
+    "La révocation de l'édit de Nantes par Louis XIV en 1685"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -124,9 +124,9 @@
    "q": "Où se trouvent les toiles du Caravage consacrées à saint Matthieu ?",
    "choix": [
     "Dans la chapelle Contarelli de l'église Saint-Louis-des-Français, à Rome",
-    "Dans la chapelle Sixtine, au Vatican",
-    "Dans la galerie des Offices, à Florence",
-    "Dans l'église Santa Maria della Vittoria, à Rome"
+    "Dans la chapelle Sixtine du palais apostolique, au cœur de la cité du Vatican",
+    "Dans la grande galerie des Offices, à Florence, en Toscane",
+    "Dans la chapelle Cornaro de l'église Santa Maria della Vittoria, dans Rome"
    ],
    "bonne": 0,
    "difficulte": 2,

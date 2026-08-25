@@ -98,9 +98,9 @@
    "q": "Quel procédé caractérise la représentation du corps humain dans l'art égyptien ?",
    "choix": [
     "La perspective linéaire à point de fuite unique",
-    "Le sfumato",
+    "Le sfumato, aux contours estompés",
     "L'aspective, qui combine profil et face dans une même figure",
-    "Le trompe-l'œil"
+    "Le trompe-l'œil, qui simule le relief"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -122,7 +122,7 @@
    "q": "Quel ordre architectural grec se reconnaît à son chapiteau orné de feuilles d'acanthe ?",
    "choix": [
     "L'ordre dorique",
-    "L'ordre ionique",
+    "L'ordre ionique à volutes",
     "L'ordre toscan",
     "L'ordre corinthien"
    ],
@@ -133,10 +133,10 @@
   {
    "q": "Quelle innovation technique a permis aux Romains de construire la coupole du Panthéon ?",
    "choix": [
-    "L'acier laminé",
+    "L'acier laminé en fines plaques nervurées",
     "Le béton de chaux et de pouzzolane",
-    "L'arc brisé",
-    "Le verre armé"
+    "L'arc brisé, venu d'Orient",
+    "Le verre armé coulé dans des moules"
    ],
    "bonne": 1,
    "difficulte": 2,

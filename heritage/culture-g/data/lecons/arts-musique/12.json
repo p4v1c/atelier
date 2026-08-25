@@ -127,10 +127,10 @@
   {
    "q": "Quel événement de 1897 a dispersé des milliers d'objets du royaume du Bénin dans les musées occidentaux ?",
    "choix": [
-    "Une vente aux enchères organisée par l'Oba",
+    "Une vente aux enchères organisée par l'Oba lui-même",
     "Une expédition punitive britannique contre Benin City",
-    "Un incendie du palais royal suivi de fouilles",
-    "Une exposition universelle à Bruxelles"
+    "Un incendie du palais royal suivi de fouilles archéologiques",
+    "Une exposition universelle organisée à Bruxelles la même année"
    ],
    "bonne": 1,
    "difficulte": 3,
@@ -151,9 +151,9 @@
   {
    "q": "Dans quel matériau et à quelle période la majorité des moai de l'île de Pâques ont-ils été sculptés ?",
    "choix": [
-    "Dans le marbre, entre le VIIIe et le Xe siècle",
-    "Dans le granit, au XVIIIe siècle",
-    "Dans le bois de palmier, au XVIIe siècle",
+    "Dans le marbre importé, entre le VIIIe et le Xe siècle",
+    "Dans le granit des carrières côtières de l'île, au début du XVIIIe siècle",
+    "Dans le bois des palmiers abattus de l'île, entre le XVIIe et le XVIIIe siècle",
     "Dans le tuf de la carrière du Rano Raraku, entre le XIIIe et le XVe siècle"
    ],
    "bonne": 3,

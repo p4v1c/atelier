@@ -94,7 +94,7 @@
   {
    "q": "Pourquoi la calligraphie occupe-t-elle en Chine le rang d'art le plus noble ?",
    "choix": [
-    "Parce qu'elle était réservée aux moines bouddhistes",
+    "Parce qu'elle était, dans les monastères, une pratique réservée aux moines bouddhistes chargés de recopier les soutras",
     "Parce qu'elle utilisait des matériaux rares et coûteux",
     "Parce que la maîtrise de l'écrit était devenue, sous les Han, le mécanisme indispensable du fonctionnement de l'État",
     "Parce qu'elle était la seule pratique autorisée aux femmes de la cour"
@@ -118,9 +118,9 @@
   {
    "q": "Qui a fait construire le Taj Mahal, et pour quelle raison ?",
    "choix": [
-    "L'empereur Akbar, pour célébrer une victoire militaire",
-    "Le sultan de Delhi, comme mosquée du vendredi",
-    "L'empereur Aurangzeb, comme palais d'été",
+    "L'empereur Akbar, pour célébrer une grande victoire militaire sur le Deccan",
+    "Le sultan de Delhi, comme mosquée du vendredi pour la ville nouvelle",
+    "L'empereur Aurangzeb, comme palais d'été pour la cour moghole d'Agra",
     "L'empereur Shah Jahan, comme mausolée pour son épouse Mumtaz Mahal"
    ],
    "bonne": 3,

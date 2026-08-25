@@ -150,9 +150,9 @@
    "q": "Quel musée a été fondé en 1764 par l'impératrice Catherine II ?",
    "choix": [
     "Le musée de l'Ermitage, à Saint-Pétersbourg",
-    "Le Metropolitan Museum, à New York",
-    "La galerie des Offices, à Florence",
-    "Le musée d'Orsay, à Paris"
+    "Le Metropolitan Museum of Art, à New York",
+    "La galerie des Offices, à Florence en Italie",
+    "Le musée d'Orsay, dans l'ancienne gare"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -161,8 +161,8 @@
   {
    "q": "Où faut-il aller pour admirer « Les Ménines » de Velázquez et « Le Tres de Mayo » de Goya ?",
    "choix": [
-    "Aux musées du Vatican",
-    "Au musée de l'Ermitage",
+    "Aux musées du Vatican, à Rome",
+    "Au musée de l'Ermitage, à Saint-Pétersbourg",
     "Au musée du Prado, à Madrid",
     "Au MoMA de New York"
    ],

@@ -137,10 +137,10 @@
   {
    "q": "Chez quel label Elvis Presley a-t-il enregistré ses premiers disques en 1954 ?",
    "choix": [
-    "RCA, à New York",
-    "Motown, à Détroit",
+    "RCA Victor, à New York",
+    "Motown Records, à Détroit",
     "Sun Records, à Memphis",
-    "Atlantic, à New York"
+    "Atlantic Records, à New York"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -150,9 +150,9 @@
    "q": "Quel album des Beatles, paru en 1967, impose l'idée de l'album conçu comme un tout ?",
    "choix": [
     "« Sgt. Pepper's Lonely Hearts Club Band »",
-    "« Rubber Soul »",
-    "« Abbey Road »",
-    "« Let It Be »"
+    "« Rubber Soul », paru en 1965",
+    "« Abbey Road », le dernier album enregistré",
+    "« Let It Be », paru en 1970"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -161,9 +161,9 @@
   {
    "q": "Quelle valeur le punk oppose-t-il à la virtuosité technique des groupes des années 1970 ?",
    "choix": [
-    "La perfection sonore du studio",
-    "L'improvisation savante héritée du jazz",
-    "Le retour aux instruments acoustiques",
+    "La perfection sonore du studio d'enregistrement",
+    "L'improvisation savante héritée du jazz modal",
+    "Le retour aux instruments strictement acoustiques",
     "L'accessibilité, doublée d'un message politique"
    ],
    "bonne": 3,

@@ -115,7 +115,7 @@
     "La cathédrale de Chartres",
     "Le chœur de l'abbatiale de Saint-Denis",
     "La Sainte-Chapelle de Paris",
-    "L'abbaye de Cluny"
+    "L'abbaye de Cluny, en Bourgogne"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -148,10 +148,10 @@
   {
    "q": "Quelle innovation technique les primitifs flamands, notamment Jan van Eyck, ont-ils portée à un haut degré de maîtrise ?",
    "choix": [
-    "La fresque a fresco",
+    "La fresque a fresco sur enduit humide",
     "La gravure sur bois de fil",
     "La peinture à l'huile et ses glacis",
-    "Le pastel sec"
+    "Le pastel sec sur papier teinté"
    ],
    "bonne": 2,
    "difficulte": 2,
