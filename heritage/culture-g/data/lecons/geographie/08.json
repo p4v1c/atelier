@@ -52,7 +52,7 @@
   },
   {
    "titre": "L'Antarctique, un désert de glace",
-   "texte": "L'Antarctique est un véritable continent, recouvert à environ 98 pour cent par une calotte glaciaire. Sa superficie atteint près de 14,1 millions de kilomètres carrés, ce qui en fait le quatrième continent par la taille, et son littoral se développe sur environ 18 000 kilomètres. L'épaisseur moyenne de la glace avoisine 1,6 kilomètre. Cette masse gelée représente à elle seule près de 90 pour cent de la glace continentale de la planète et environ 70 pour cent de l'eau douce mondiale : si elle fondait entièrement, le niveau des océans monterait d'une soixantaine de mètres. Le point culminant est le massif Vinson, à 4 892 mètres d'altitude, et le volcan actif le plus austral du globe est le mont Erebus. Malgré ses glaces, l'Antarctique est classé parmi les déserts, car il n'y tombe en moyenne que 200 millimètres de précipitations par an, presque uniquement sous forme de neige. C'est aussi le lieu le plus froid de la Terre : un record officiel de moins 89,2 degrés a été mesuré à la station Vostok le 21 juillet 1983, et des relevés satellitaires suggèrent moins 93,2 degrés au dôme Argus en août 2010. Aucune population permanente n'y vit : entre 1 100 et 5 000 personnes séjournent dans la cinquantaine de bases scientifiques selon la saison. Le Traité sur l'Antarctique, signé le 1er décembre 1959, y gèle les revendications territoriales et réserve le continent à la recherche pacifique.",
+   "texte": "L'Antarctique est un véritable continent, recouvert à environ 98 pour cent par une calotte glaciaire. Sa superficie atteint près de 14,1 millions de kilomètres carrés, ce qui en fait le cinquième continent par la taille, et son littoral se développe sur environ 18 000 kilomètres. L'épaisseur moyenne de la glace avoisine 1,6 kilomètre. Cette masse gelée représente à elle seule près de 90 pour cent de la glace continentale de la planète et environ 70 pour cent de l'eau douce mondiale : si elle fondait entièrement, le niveau des océans monterait d'une soixantaine de mètres. Le point culminant est le massif Vinson, à 4 892 mètres d'altitude, et le volcan actif le plus austral du globe est le mont Erebus. Malgré ses glaces, l'Antarctique est classé parmi les déserts, car il n'y tombe en moyenne que 200 millimètres de précipitations par an, presque uniquement sous forme de neige. C'est aussi le lieu le plus froid de la Terre : un record officiel de moins 89,2 degrés a été mesuré à la station Vostok le 21 juillet 1983, et des relevés satellitaires suggèrent moins 93,2 degrés au dôme Argus en août 2010. Aucune population permanente n'y vit : entre 1 100 et 5 000 personnes séjournent dans la cinquantaine de bases scientifiques selon la saison. Le Traité sur l'Antarctique, signé le 1er décembre 1959, y gèle les revendications territoriales et réserve le continent à la recherche pacifique.",
    "visuels": [
     {
      "type": "chiffres",
@@ -60,7 +60,7 @@
      "items": [
       {
        "valeur": "14,1 M km²",
-       "label": "de superficie : quatrième continent par la taille"
+       "label": "de superficie : cinquième continent par la taille"
       },
       {
        "valeur": "98 %",
@@ -129,7 +129,7 @@
    ],
    "bonne": 3,
    "difficulte": 2,
-   "explication": "L'Antarctique couvre près de 14,1 millions de kilomètres carrés, ce qui en fait le quatrième continent par la superficie, derrière l'Asie, l'Afrique et l'Amérique du Nord. Il est plus vaste que l'Europe et environ 1,8 fois plus grand que l'Australie. Le chiffre de 8,5 millions de km² correspond en réalité aux terres émergées de l'Océanie. Cette immense surface est recouverte à environ 98 pour cent par une calotte glaciaire dont l'épaisseur moyenne atteint 1,6 kilomètre. C'est cette combinaison entre une grande superficie et une glace très épaisse qui explique que l'Antarctique concentre l'essentiel des réserves de glace continentale de la planète."
+   "explication": "L'Antarctique couvre près de 14,1 millions de kilomètres carrés, ce qui en fait le cinquième continent par la superficie, derrière l'Asie, l'Afrique, l'Amérique du Nord et l'Amérique du Sud. Il est plus vaste que l'Europe et environ 1,8 fois plus grand que l'Australie. Le chiffre de 8,5 millions de km² correspond en réalité aux terres émergées de l'Océanie. Cette immense surface est recouverte à environ 98 pour cent par une calotte glaciaire dont l'épaisseur moyenne atteint 1,6 kilomètre. C'est cette combinaison entre une grande superficie et une glace très épaisse qui explique que l'Antarctique concentre l'essentiel des réserves de glace continentale de la planète."
   },
   {
    "q": "Quel est le point culminant de l'Australie continentale ?",

@@ -74,7 +74,7 @@ export const CG_GEOGRAPHIE_3: SeedSkill[] = [
     ["Qu'est-ce que la loi Littoral de 1986 ?", ["Une loi encadrant l'urbanisation des communes côtières", "Une loi sur la pêche", "Une loi sur les ports", "Une loi sur la pollution marine"], 0,
      "Elle impose notamment une bande inconstructible de cent mètres hors des zones urbanisées."],
     ["Qu'est-ce que le Conservatoire du littoral ?", ["Un établissement public acquérant des terrains côtiers pour les protéger", "Un service de surveillance des côtes", "Un organisme de gestion des ports", "Une agence de l'eau"], 0,
-     "Créé en 1975, il protège aujourd'hui plus de deux cents kilomètres de rivages."],
+     "Créé en 1975, il protège aujourd'hui environ deux mille kilomètres de rivages, soit près d'un huitième du littoral métropolitain."],
     ["Qu'est-ce qu'un estuaire ?", ["Une embouchure élargie où la marée pénètre dans le fleuve", "Un delta ramifié", "Une baie fermée", "Un bras de mer"], 0,
      "La Gironde, la Seine et la Loire en sont des exemples français."],
     ["Qu'est-ce qu'une lagune littorale ?", ["Une étendue d'eau séparée de la mer par un cordon", "Une baie profonde", "Un marais salant", "Un estuaire fermé"], 0,
@@ -219,7 +219,7 @@ export const CG_GEOGRAPHIE_3: SeedSkill[] = [
     2, [
     ["Où se situent les centrales nucléaires françaises ?", ["Le long de fleuves ou du littoral, pour le refroidissement", "En altitude", "Près des mines d'uranium", "À proximité des grandes villes"], 0,
      "Les canicules et les étiages peuvent contraindre leur production."],
-    ["Quel département français produit le plus d'électricité éolienne ?", ["Des départements du nord et du nord-est, très venteux et peu boisés", "Les départements alpins", "Les départements méditerranéens", "Les départements bretons uniquement"], 0,
+    ["Quelles régions françaises concentrent l'essentiel du parc éolien terrestre ?", ["Les Hauts-de-France et le Grand Est", "La région Sud et la Corse", "L'Auvergne-Rhône-Alpes", "La Normandie et la Bretagne"], 0,
      "Les Hauts-de-France et le Grand Est concentrent une part majeure du parc éolien terrestre."],
     ["Qu'est-ce qu'un parc éolien en mer ?", ["Une installation d'éoliennes implantées au large", "Une éolienne flottante isolée", "Un projet de recherche", "Une centrale marémotrice"], 0,
      "Le premier parc français commercial a été mis en service au large de Saint-Nazaire en 2022."],
@@ -451,7 +451,7 @@ export const CG_GEOGRAPHIE_3: SeedSkill[] = [
     "Fonte, ressources, gouvernance.",
     "L'Arctique se réchauffe bien plus vite que la moyenne mondiale, et les estimations récentes ont revu le facteur à la hausse.",
     2, [
-    ["À quelle vitesse l'Arctique se réchauffe-t-il ?", ["Environ trois fois plus vite que la moyenne mondiale", "À la même vitesse", "Deux fois moins vite", "Dix fois plus vite"], 0,
+    ["À quelle vitesse l'Arctique se réchauffe-t-il ?", ["Environ quatre fois plus vite que la moyenne mondiale", "À la même vitesse", "Deux fois moins vite", "Dix fois plus vite"], 0,
      "L'amplification arctique s'explique notamment par la disparition de la glace réfléchissante."],
     ["Quelle instance réunit les États riverains de l'Arctique ?", ["Le Conseil de l'Arctique", "L'Organisation arctique des Nations unies", "Le traité de l'Arctique", "La commission polaire"], 0,
      "Créé en 1996, il associe huit États et des organisations de peuples autochtones."],

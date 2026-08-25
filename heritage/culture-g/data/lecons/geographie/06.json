@@ -84,7 +84,7 @@
   },
   {
    "titre": "Le Brésil et l'Amérique du Sud",
-   "texte": "Le Brésil occupe à lui seul près de la moitié de l'Amérique du Sud, avec 8,5 millions de kilomètres carrés et environ 215 millions d'habitants, et c'est le seul pays lusophone du continent. Il est traversé au nord par le bassin de l'Amazone, fleuve au débit le plus puissant du monde, qui rejette environ 200 000 mètres cubes d'eau par seconde dans l'Atlantique et dont le bassin porte la plus grande forêt tropicale de la planète, environ 5,5 millions de kilomètres carrés. Cette forêt subit une déforestation liée à l'élevage, à la culture du soja et à l'exploitation minière, avec des rythmes annuels qui ont varié de moins de 5000 à plus de 27 000 kilomètres carrés selon les années. Le Brésil est un grand exportateur agricole, premier producteur mondial de café, de soja et de sucre, et un producteur important de minerai de fer. Sa population se concentre sur la façade atlantique, autour de Sao Paulo, plus grande agglomération de l'hémisphère sud avec plus de 22 millions d'habitants, et de Rio de Janeiro. Ailleurs en Amérique du Sud, l'Argentine mise sur les grandes plaines fertiles de la Pampa, le Chili sur le cuivre dont il est le premier producteur mondial, et le Venezuela possède parmi les plus grandes réserves de pétrole prouvées de la planète."
+   "texte": "Le Brésil occupe à lui seul près de la moitié de l'Amérique du Sud, avec 8,5 millions de kilomètres carrés et environ 215 millions d'habitants, et c'est le seul pays lusophone du continent. Il est traversé au nord par le bassin de l'Amazone, fleuve au débit le plus puissant du monde, qui rejette environ 200 000 mètres cubes d'eau par seconde dans l'Atlantique et dont le bassin porte la plus grande forêt tropicale de la planète, environ 5,5 millions de kilomètres carrés. Cette forêt subit une déforestation liée à l'élevage, à la culture du soja et à l'exploitation minière, avec des rythmes annuels qui ont varié de moins de 5000 à plus de 27 000 kilomètres carrés selon les années. Le Brésil est un grand exportateur agricole, premier producteur mondial de café, de soja et de sucre, et un producteur important de minerai de fer. Sa population se concentre sur la façade atlantique, autour de Sao Paulo, plus grande agglomération d'Amérique du Sud avec plus de 22 millions d'habitants, et de Rio de Janeiro. Ailleurs en Amérique du Sud, l'Argentine mise sur les grandes plaines fertiles de la Pampa, le Chili sur le cuivre dont il est le premier producteur mondial, et le Venezuela possède parmi les plus grandes réserves de pétrole prouvées de la planète."
   },
   {
    "titre": "Sociétés, villes et enjeux",
@@ -129,7 +129,7 @@
    "explication": "Le Chili assure environ un quart de la production mondiale de cuivre, extraite principalement dans le désert d'Atacama, au nord du pays, où se trouve notamment la mine à ciel ouvert de Chuquicamata. Ce métal représente une part majeure des exportations chiliennes et rend l'économie du pays sensible aux variations du cours mondial. Le Pérou occupe le deuxième rang mondial, ce qui fait des Andes la première région cuprifère de la planète. Le cuivre est essentiel aux réseaux électriques, aux moteurs et aux véhicules électriques, ce qui rend la demande croissante. L'Atacama, l'un des déserts les plus arides du monde, abrite aussi de vastes réserves de lithium exploitées dans les salars."
   },
   {
-   "q": "Quelle agglomération est la plus peuplée de l'hémisphère sud ?",
+   "q": "Quelle agglomération d'Amérique du Sud est la plus peuplée ?",
    "choix": [
     "Buenos Aires",
     "Rio de Janeiro",
@@ -138,7 +138,7 @@
    ],
    "bonne": 2,
    "difficulte": 2,
-   "explication": "Sao Paulo, au Brésil, rassemble plus de 22 millions d'habitants dans son aire métropolitaine, ce qui en fait la plus grande agglomération de l'hémisphère sud et l'une des dix plus peuplées du monde. La ville est le principal centre industriel et financier d'Amérique latine, née au XIXe siècle de l'essor du café puis diversifiée dans l'automobile, la chimie et les services. Sa croissance très rapide au XXe siècle a produit d'immenses périphéries et de fortes inégalités, avec des quartiers d'affaires modernes voisinant des favelas. Buenos Aires compte environ 15 millions d'habitants et Rio de Janeiro environ 13 millions. Lima, au Pérou, en rassemble près de 11 millions."
+   "explication": "Sao Paulo, au Brésil, rassemble plus de 22 millions d'habitants dans son aire métropolitaine, ce qui en fait la plus grande agglomération d'Amérique du Sud et l'une des dix plus peuplées du monde — Jakarta, plus au sud encore, la dépasse dans l'hémisphère austral. La ville est le principal centre industriel et financier d'Amérique latine, née au XIXe siècle de l'essor du café puis diversifiée dans l'automobile, la chimie et les services. Sa croissance très rapide au XXe siècle a produit d'immenses périphéries et de fortes inégalités, avec des quartiers d'affaires modernes voisinant des favelas. Buenos Aires compte environ 15 millions d'habitants et Rio de Janeiro environ 13 millions. Lima, au Pérou, en rassemble près de 11 millions."
   },
   {
    "q": "En quelle année le canal de Panama a-t-il été ouvert à la navigation ?",
