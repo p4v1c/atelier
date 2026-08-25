@@ -95,8 +95,8 @@
    "choix": [
     "La Seconde Guerre mondiale, qui les a ruinées et discréditées",
     "L'épuisement des matières premières européennes",
-    "L'interdiction du commerce maritime",
-    "La disparition des mouvements nationalistes"
+    "L'interdiction du commerce maritime par les États-Unis",
+    "La disparition des mouvements nationalistes coloniaux"
    ],
    "bonne": 0,
    "difficulte": 1,
@@ -105,10 +105,10 @@
   {
    "q": "Quelle défaite militaire de 1954 met fin à la présence française en Indochine ?",
    "choix": [
-    "La bataille d'Alger",
+    "La bataille d'Alger, trois ans plus tard",
     "La bataille de Diên Biên Phu",
-    "La bataille de Bandung",
-    "La bataille de Suez"
+    "La conférence de Bandung, en 1955",
+    "La bataille de Suez, deux ans plus tard"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -129,9 +129,9 @@
   {
    "q": "Pourquoi 1960 est-elle appelée l'année de l'Afrique ?",
    "choix": [
-    "Parce que l'Afrique du Sud abolit l'apartheid",
-    "Parce que la conférence de Bandung s'y tient",
-    "Parce que l'Algérie devient indépendante",
+    "Parce que l'Afrique du Sud y abolit l'apartheid",
+    "Parce que la conférence de Bandung s'y est tenue cinq ans plus tôt",
+    "Parce que l'Algérie et le Maroc deviennent indépendants cette année-là",
     "Parce que dix-sept pays africains accèdent à l'indépendance"
    ],
    "bonne": 3,

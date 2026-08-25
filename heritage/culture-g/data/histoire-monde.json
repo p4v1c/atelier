@@ -248,7 +248,7 @@
    "choix": [
     "La peste noire",
     "La grippe espagnole",
-    "Le choléra",
+    "Le choléra asiatique",
     "La variole"
    ],
    "bonne": 0,
@@ -548,7 +548,7 @@
    "choix": [
     "Le krach de la Bourse de New York",
     "La faillite de la banque d'Angleterre",
-    "L'hyperinflation allemande",
+    "L'hyperinflation allemande de 1923",
     "Le défaut de la France"
    ],
    "bonne": 0,
@@ -1117,9 +1117,9 @@
      "q": "Quel navire maniable, mis au point par les Portugais, est emblématique des grandes découvertes ?",
      "choix": [
       "La caravelle",
-      "Le drakkar",
-      "La galère",
-      "Le clipper"
+      "Le drakkar des Vikings",
+      "La galère méditerranéenne",
+      "Le clipper, bien plus tardif"
      ],
      "bonne": 0,
      "difficulte": 1,
@@ -1257,9 +1257,9 @@
      "q": "Quelle alliance militaire le bloc soviétique crée-t-il en 1955 en réponse à l'OTAN ?",
      "choix": [
       "Le pacte de Varsovie",
-      "Le Kominform",
-      "Le CAEM",
-      "La Triple-Alliance"
+      "Le Kominform, créé en 1947",
+      "Le CAEM, ou Comecon",
+      "La Triple-Alliance de 1882"
      ],
      "bonne": 0,
      "difficulte": 2,

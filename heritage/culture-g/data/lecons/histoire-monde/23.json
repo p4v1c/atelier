@@ -165,9 +165,9 @@
   {
    "q": "Quel dirigeant lance en 1978 la politique dite de réforme et d'ouverture ?",
    "choix": [
-    "Jiang Zemin",
-    "Zhou Enlai",
-    "Hu Jintao",
+    "Jiang Zemin, dans les années 1990",
+    "Zhou Enlai, mort en 1976",
+    "Hu Jintao, bien plus tard",
     "Deng Xiaoping"
    ],
    "bonne": 3,
@@ -177,10 +177,10 @@
   {
    "q": "Quel ordre de grandeur les historiens retiennent-ils pour le nombre de morts de la famine liée au Grand Bond en avant ?",
    "choix": [
-    "Quelques dizaines de milliers",
+    "Quelques dizaines de milliers de personnes",
     "De 15 à 55 millions selon les estimations",
-    "Environ 500 000",
-    "Environ 200 millions"
+    "Environ 500 000 personnes",
+    "Environ 200 millions de personnes"
    ],
    "bonne": 1,
    "difficulte": 3,

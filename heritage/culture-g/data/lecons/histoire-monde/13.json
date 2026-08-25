@@ -64,9 +64,9 @@
    "q": "Sur quel échange principal repose la richesse des grands empires sahéliens ?",
    "choix": [
     "L'échange de l'or du sud contre le sel du désert",
-    "L'exportation de blé vers l'Europe",
-    "Le commerce de la soie avec la Chine",
-    "La vente de bois précieux aux Portugais"
+    "L'exportation de blé vers les ports d'Europe",
+    "Le commerce de la soie avec la Chine des Ming",
+    "La vente de bois précieux aux marchands portugais"
    ],
    "bonne": 0,
    "difficulte": 1,
@@ -113,8 +113,8 @@
    "choix": [
     "Elle abritait la plus grande bibliothèque romaine d'Afrique",
     "Elle possédait des écoles coraniques et l'université de Sankoré",
-    "Elle produisait des livres imprimés en série",
-    "Elle formait des ingénieurs pour l'Europe"
+    "Elle produisait des livres imprimés en série pour l'Afrique",
+    "Elle formait des ingénieurs pour les cours d'Europe"
    ],
    "bonne": 1,
    "difficulte": 2,

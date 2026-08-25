@@ -144,10 +144,10 @@
   {
    "q": "Quelle cité italienne, dominée par la famille Médicis, est le principal foyer de la Renaissance ?",
    "choix": [
-    "Naples",
+    "Naples, capitale du Sud",
     "Florence",
-    "Gênes",
-    "Turin"
+    "Gênes, la rivale maritime",
+    "Turin, en Piémont"
    ],
    "bonne": 1,
    "difficulte": 1,
@@ -156,10 +156,10 @@
   {
    "q": "Quel savant publie en 1543 un ouvrage plaçant le Soleil, et non la Terre, au centre du monde ?",
    "choix": [
-    "Johannes Kepler",
-    "André Vésale",
+    "Johannes Kepler, un demi-siècle plus tard",
+    "André Vésale, l'anatomiste",
     "Nicolas Copernic",
-    "Tycho Brahe"
+    "Tycho Brahe, l'astronome danois"
    ],
    "bonne": 2,
    "difficulte": 2,

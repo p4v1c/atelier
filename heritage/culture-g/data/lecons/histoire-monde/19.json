@@ -132,10 +132,10 @@
   {
    "q": "Quel souverain fonde l'Empire perse achéménide et s'empare de Babylone en 539 av. J.-C. ?",
    "choix": [
-    "Darius Ier",
+    "Darius Ier, son successeur",
     "Cyrus II le Grand",
-    "Xerxès Ier",
-    "Cambyse II"
+    "Xerxès Ier, un siècle plus tard",
+    "Cambyse II, son fils"
    ],
    "bonne": 1,
    "difficulte": 1,
@@ -144,9 +144,9 @@
   {
    "q": "Comment appelle-t-on les provinces de l'Empire perse achéménide ?",
    "choix": [
-    "Des thèmes",
-    "Des diocèses",
-    "Des nomes",
+    "Des thèmes, comme à Byzance",
+    "Des diocèses, comme à Rome",
+    "Des nomes, comme en Égypte",
     "Des satrapies"
    ],
    "bonne": 3,

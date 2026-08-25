@@ -149,10 +149,10 @@
   {
    "q": "Qu'est-ce que la course à la mer, à l'automne 1914 ?",
    "choix": [
-    "Une bataille navale entre flottes allemande et britannique",
+    "Une bataille navale entre les flottes allemande et britannique au large du Jutland",
     "Les tentatives des deux armées de se déborder vers le nord jusqu'à la mer du Nord",
-    "Le blocus des ports allemands par la Royal Navy",
-    "La course des sous-marins allemands vers l'Atlantique"
+    "Le blocus des ports allemands imposé par la Royal Navy en mer du Nord",
+    "La course des sous-marins allemands vers les routes de l'Atlantique"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -174,9 +174,9 @@
    "q": "Quels événements majeurs de 1917 modifient l'équilibre du conflit ?",
    "choix": [
     "L'entrée en guerre de l'Italie et de la Bulgarie",
-    "L'armistice de Rethondes et le traité de Versailles",
+    "L'armistice de Rethondes et la signature du traité de Versailles",
     "Les révolutions russes et l'entrée en guerre des États-Unis",
-    "L'invasion de la Belgique et la bataille de la Marne"
+    "L'invasion de la Belgique et la première bataille de la Marne"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -185,9 +185,9 @@
   {
    "q": "Quelle clause du traité de Versailles fut particulièrement mal acceptée en Allemagne ?",
    "choix": [
-    "La création de la Société des Nations",
+    "La création de la Société des Nations à Genève",
     "L'article désignant l'Allemagne comme responsable de la guerre et fondant les réparations",
-    "Le retour de la Rhénanie à la France",
+    "Le rattachement de la Rhénanie à la France",
     "L'interdiction de la langue allemande en Autriche"
    ],
    "bonne": 1,

@@ -145,9 +145,9 @@
    "q": "Quel événement de 476 sert traditionnellement de repère au début du Moyen Âge ?",
    "choix": [
     "La déposition du dernier empereur romain d'Occident",
-    "Le baptême de Clovis à Reims",
-    "Le couronnement de Charlemagne",
-    "Le traité de Verdun"
+    "Le baptême de Clovis à Reims, vers 496",
+    "Le couronnement de Charlemagne à Rome",
+    "Le traité de Verdun, en 843"
    ],
    "bonne": 0,
    "difficulte": 1,
@@ -168,10 +168,10 @@
   {
    "q": "Dans la seigneurie médiévale, que désignent les banalités ?",
    "choix": [
-    "Les terres laissées en jachère",
-    "Les impôts versés à l'Église",
+    "Les terres laissées en jachère une année sur trois dans l'assolement triennal",
+    "Les impôts versés à l'Église, comme la dîme",
     "Les taxes payées pour utiliser le moulin, le four et le pressoir du seigneur",
-    "Les corvées effectuées sur la réserve"
+    "Les corvées agricoles effectuées gratuitement sur la réserve du seigneur chaque année"
    ],
    "bonne": 2,
    "difficulte": 3,
@@ -181,7 +181,7 @@
    "q": "Quelle épidémie frappa l'Europe à partir de 1347 et tua une part considérable de la population ?",
    "choix": [
     "La peste noire",
-    "Le choléra",
+    "Le choléra, bien plus tard",
     "La variole",
     "La grippe espagnole"
    ],
@@ -192,9 +192,9 @@
   {
    "q": "Quelle innovation architecturale caractérise l'art gothique apparu vers 1140 en Île-de-France ?",
    "choix": [
-    "La voûte en berceau",
-    "La coupole sur pendentifs",
-    "Le fronton triangulaire",
+    "La voûte en berceau plein cintre des églises romanes",
+    "La coupole sur pendentifs, héritée de l'Orient byzantin",
+    "Le fronton triangulaire des temples",
     "La croisée d'ogives associée à l'arc-boutant"
    ],
    "bonne": 3,

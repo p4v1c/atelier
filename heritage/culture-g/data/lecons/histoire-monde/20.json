@@ -176,10 +176,10 @@
   {
    "q": "Quelle ville, prise en 1291, marque par sa chute la fin des États latins d'Orient ?",
    "choix": [
-    "Antioche",
-    "Édesse",
+    "Antioche, tombée en 1268",
+    "Édesse, perdue dès 1144",
     "Saint-Jean-d'Acre",
-    "Tripoli"
+    "Tripoli, prise en 1289"
    ],
    "bonne": 2,
    "difficulte": 3,

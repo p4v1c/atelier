@@ -74,9 +74,9 @@
    "q": "Quel événement de 793 marque conventionnellement le début de l'âge viking ?",
    "choix": [
     "Le pillage du monastère de Lindisfarne",
-    "Le siège de Paris",
-    "La colonisation de l'Islande",
-    "La bataille de Hastings"
+    "Le siège de Paris par les Normands",
+    "La colonisation de l'Islande par les Norvégiens",
+    "La bataille de Hastings, bien plus tard"
    ],
    "bonne": 0,
    "difficulte": 1,
@@ -86,7 +86,7 @@
    "q": "Quel traité conclu en 911 est à l'origine du duché de Normandie ?",
    "choix": [
     "Le traité de Verdun",
-    "Le traité de Wedmore",
+    "Le traité de Wedmore, en Angleterre",
     "Le traité de Saint-Clair-sur-Epte",
     "Le traité de Tordesillas"
    ],
@@ -109,9 +109,9 @@
   {
    "q": "Quel site archéologique de Terre-Neuve atteste la présence viking en Amérique du Nord ?",
    "choix": [
-    "Jorvik",
-    "Birka",
-    "Hedeby",
+    "Jorvik, en Angleterre",
+    "Birka, en Suède",
+    "Hedeby, au Danemark",
     "L'Anse aux Meadows"
    ],
    "bonne": 3,
@@ -121,10 +121,10 @@
   {
    "q": "Quel facteur contribue à mettre fin aux grandes expéditions vikings au tournant de l'an mille ?",
    "choix": [
-    "La disparition des forêts scandinaves",
+    "La disparition des forêts scandinaves, faute de bois",
     "La christianisation et la formation de royaumes stables",
     "L'interdiction de la navigation par l'Église",
-    "Une épidémie qui vide la Scandinavie"
+    "Une épidémie qui vide la Scandinavie de ses hommes"
    ],
    "bonne": 1,
    "difficulte": 2,

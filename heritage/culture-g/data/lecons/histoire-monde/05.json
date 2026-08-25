@@ -135,9 +135,9 @@
    "q": "Quelle ligne de chemin de fer, ouverte en 1830, est considérée comme la première grande ligne régulière de voyageurs ?",
    "choix": [
     "Liverpool-Manchester",
-    "Paris-Saint-Germain",
-    "Londres-Birmingham",
-    "New York-Chicago"
+    "Paris-Saint-Germain, en 1837",
+    "Londres-Birmingham, en 1838",
+    "New York-Chicago, aux États-Unis"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -146,9 +146,9 @@
   {
    "q": "Que désignent les enclosures dans l'Angleterre du XVIIIe siècle ?",
    "choix": [
-    "Des ateliers réunissant les machines textiles",
-    "Des quartiers ouvriers insalubres",
-    "Des accords douaniers entre États allemands",
+    "Des ateliers réunissant les machines à filer le coton",
+    "Des quartiers ouvriers insalubres des villes industrielles",
+    "Des accords douaniers passés entre les États allemands",
     "La clôture et la privatisation des terres autrefois communes"
    ],
    "bonne": 3,
@@ -158,10 +158,10 @@
   {
    "q": "Quels sont les secteurs et énergies caractéristiques de la seconde industrialisation, après 1880 ?",
    "choix": [
-    "Le charbon, la vapeur et le textile",
+    "Le charbon, la vapeur et l'industrie textile",
     "Le bois, la force hydraulique et l'artisanat",
     "L'électricité, le pétrole, la chimie et l'acier",
-    "L'atome, l'informatique et l'aéronautique"
+    "L'atome, l'informatique et l'aéronautique moderne"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -170,9 +170,9 @@
   {
    "q": "Quel ouvrage publié en 1848 par Karl Marx et Friedrich Engels appelle les travailleurs à s'unir ?",
    "choix": [
-    "La richesse des nations",
-    "Le Capital",
-    "Rerum novarum",
+    "La richesse des nations, d'Adam Smith",
+    "Le Capital, publié en 1867",
+    "Rerum novarum, encyclique de 1891",
     "Le Manifeste du parti communiste"
    ],
    "bonne": 3,

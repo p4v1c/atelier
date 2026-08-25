@@ -160,7 +160,7 @@
    "q": "Quel événement du 1er septembre 1939 déclenche la Seconde Guerre mondiale en Europe ?",
    "choix": [
     "L'invasion de la Pologne par l'Allemagne",
-    "L'Anschluss autrichien",
+    "L'Anschluss autrichien du mois de mars 1938",
     "La conférence de Munich",
     "L'attaque de Pearl Harbor"
    ],
@@ -171,9 +171,9 @@
   {
    "q": "Quelle bataille, achevée le 2 février 1943, constitue un tournant majeur sur le front de l'Est ?",
    "choix": [
-    "La bataille de Midway",
-    "La bataille d'El-Alamein",
-    "La bataille de Koursk",
+    "La bataille de Midway, dans le Pacifique",
+    "La bataille d'El-Alamein, en Égypte",
+    "La bataille de Koursk, en juillet 1943",
     "La bataille de Stalingrad"
    ],
    "bonne": 3,
@@ -184,9 +184,9 @@
    "q": "Que décide la conférence de Wannsee, tenue en janvier 1942 ?",
    "choix": [
     "La coordination administrative de l'extermination des Juifs d'Europe",
-    "L'ouverture d'un second front en Europe occidentale",
-    "La création de l'Organisation des Nations unies",
-    "Le partage de l'Allemagne en quatre zones d'occupation"
+    "L'ouverture d'un second front en Europe occidentale contre Hitler",
+    "La création de l'Organisation des Nations unies à San Francisco",
+    "Le partage de l'Allemagne vaincue en quatre zones d'occupation alliées"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -207,10 +207,10 @@
   {
    "q": "Quel événement met fin aux combats dans le Pacifique en 1945 ?",
    "choix": [
-    "La bataille de Midway",
+    "La bataille de Midway, trois ans plus tôt",
     "La capitulation du Japon après les bombardements atomiques d'Hiroshima et de Nagasaki",
-    "La prise de Berlin par l'Armée rouge",
-    "La conférence de Yalta"
+    "La prise de Berlin par l'Armée rouge en mai 1945",
+    "La conférence de Yalta, en février 1945"
    ],
    "bonne": 1,
    "difficulte": 2,

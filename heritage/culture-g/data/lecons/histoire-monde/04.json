@@ -155,10 +155,10 @@
   {
    "q": "Quel événement de 622 marque le point de départ du calendrier musulman ?",
    "choix": [
-    "La naissance de Mahomet",
-    "La rédaction du Coran",
+    "La naissance de Mahomet à La Mecque",
+    "La rédaction définitive du Coran",
     "L'Hégire, le départ de La Mecque vers Médine",
-    "La prise de Jérusalem"
+    "La prise de Jérusalem par les armées arabes"
    ],
    "bonne": 2,
    "difficulte": 1,
@@ -204,9 +204,9 @@
    "q": "Sous quel sultan, régnant de 1520 à 1566, l'Empire ottoman atteint-il son apogée ?",
    "choix": [
     "Soliman le Magnifique",
-    "Osman Ier",
-    "Selim Ier",
-    "Mehmed II"
+    "Osman Ier, fondateur de la dynastie",
+    "Selim Ier, conquérant de l'Égypte",
+    "Mehmed II, le Conquérant"
    ],
    "bonne": 0,
    "difficulte": 2,

@@ -131,9 +131,9 @@
    "q": "Qui détient réellement le pouvoir au Japon à partir de 1185, l'empereur conservant un rôle surtout symbolique ?",
    "choix": [
     "Le shogun, chef du gouvernement militaire",
-    "Le daimyo de Kyoto",
-    "Le grand prêtre shintoïste",
-    "Le premier ministre élu"
+    "Le daimyo de Kyoto, maître de la ville",
+    "Le grand prêtre shintoïste du sanctuaire d'Ise",
+    "Le premier ministre élu par la cour"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -154,10 +154,10 @@
   {
    "q": "Quelle bataille, en 1600, permet à Tokugawa Ieyasu de s'imposer avant de recevoir le titre de shogun en 1603 ?",
    "choix": [
-    "La bataille d'Okehazama",
+    "La bataille d'Okehazama, en 1560",
     "La bataille de Sekigahara",
-    "La bataille de Nagashino",
-    "La bataille de Tsushima"
+    "La bataille de Nagashino, en 1575",
+    "La bataille de Tsushima, en 1905"
    ],
    "bonne": 1,
    "difficulte": 3,
@@ -166,10 +166,10 @@
   {
    "q": "Quel comptoir permettait aux Hollandais de commercer avec le Japon pendant la fermeture du pays ?",
    "choix": [
-    "Le port d'Edo",
-    "L'île de Tsushima",
+    "Le port d'Edo, siège du shogunat",
+    "L'île de Tsushima, face à la Corée",
     "L'îlot de Dejima, à Nagasaki",
-    "La ville de Kyoto"
+    "La ville impériale de Kyoto"
    ],
    "bonne": 2,
    "difficulte": 3,
@@ -178,9 +178,9 @@
   {
    "q": "Quel événement de 1868 met fin au shogunat et ouvre une période de modernisation accélérée du Japon ?",
    "choix": [
-    "L'arrivée du commodore Perry",
-    "La révolte de Satsuma",
-    "L'adoption de la constitution",
+    "L'arrivée du commodore Perry, en 1853",
+    "La révolte de Satsuma, en 1877",
+    "L'adoption de la constitution de 1889",
     "La restauration de Meiji"
    ],
    "bonne": 3,

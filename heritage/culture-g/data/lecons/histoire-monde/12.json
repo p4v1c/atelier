@@ -94,10 +94,10 @@
   {
    "q": "Quel événement pousse le roi Ashoka à se rapprocher du bouddhisme et à renoncer aux conquêtes ?",
    "choix": [
-    "La perte de Pataliputra",
+    "La perte de sa capitale Pataliputra",
     "La conquête sanglante du Kalinga",
-    "L'invasion d'Alexandre le Grand",
-    "La révolte de son fils"
+    "L'invasion d'Alexandre le Grand en Inde",
+    "La révolte de son fils aîné"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -106,9 +106,9 @@
   {
    "q": "Quelle invention mathématique, diffusée ensuite vers le monde arabe puis l'Europe, se développe dans l'Inde des Gupta ?",
    "choix": [
-    "La géométrie euclidienne",
-    "Les chiffres romains",
-    "Le calcul de la circonférence",
+    "La géométrie euclidienne des Grecs",
+    "Les chiffres romains, venus d'Occident",
+    "Le calcul de la circonférence du cercle",
     "La numération de position avec le zéro"
    ],
    "bonne": 3,
@@ -130,10 +130,10 @@
   {
    "q": "Quelle conséquence la révolte des cipayes de 1857 a-t-elle sur l'administration de l'Inde ?",
    "choix": [
-    "L'Inde obtient une autonomie interne",
+    "L'Inde obtient une autonomie interne sous vice-roi",
     "L'Inde passe sous administration directe de la Couronne britannique",
     "La Compagnie des Indes voit ses pouvoirs renforcés",
-    "Les Français reprennent pied dans le pays"
+    "Les Français reprennent pied dans le sud du pays"
    ],
    "bonne": 1,
    "difficulte": 3,
@@ -142,10 +142,10 @@
   {
    "q": "Quelle méthode Gandhi impose-t-il au mouvement national indien après son retour au pays en 1915 ?",
    "choix": [
-    "La guérilla rurale",
-    "L'action parlementaire exclusive",
+    "La guérilla rurale dans les campagnes",
+    "La seule action parlementaire à Londres",
     "La non-violence et la désobéissance civile",
-    "L'alliance militaire avec le Japon"
+    "L'alliance militaire avec le Japon impérial"
    ],
    "bonne": 2,
    "difficulte": 1,
