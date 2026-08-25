@@ -784,7 +784,7 @@
    "explication": "L'URSS est officiellement dissoute en décembre 1991 : le 8 décembre, les dirigeants de Russie, d'Ukraine et de Biélorussie constatent dans les accords de Minsk que l'Union « cesse d'exister », et le 25 décembre, Mikhaïl Gorbatchev démissionne, le drapeau rouge étant amené du Kremlin. Arrivé au pouvoir en 1985, Gorbatchev avait tenté de réformer le système par la perestroïka (restructuration économique) et la glasnost (transparence), mais avait perdu le contrôle du processus : révolutions de 1989 en Europe de l'Est, indépendances baltes, putsch conservateur manqué d'août 1991. Quinze républiques indépendantes, dont la Russie de Boris Eltsine, succèdent à l'URSS. La guerre froide, commencée après 1945, s'achève ainsi sans conflit direct entre les deux superpuissances."
   },
   {
-   "q": "Quelle épidémie de grippe fait entre 20 et 50 millions de morts dans le monde en 1918-1919 ?",
+   "q": "Quelle épidémie fait des dizaines de millions de morts dans le monde en 1918-1919 ?",
    "choix": [
     "La grippe espagnole",
     "La grippe asiatique",
@@ -793,7 +793,7 @@
    ],
    "bonne": 0,
    "difficulte": 2,
-   "explication": "La pandémie de grippe de 1918-1919, dite « grippe espagnole », tue entre 20 et 50 millions de personnes selon les estimations, soit davantage que la Première Guerre mondiale elle-même. Due à un virus H1N1 particulièrement virulent, elle frappe en plusieurs vagues un monde affaibli par la guerre, touchant étonnamment fort les jeunes adultes. Son surnom est trompeur : elle n'est pas née en Espagne, mais ce pays neutre, sans censure militaire, fut le premier à en parler librement dans sa presse. Parmi ses victimes figurent le poète Guillaume Apollinaire et le peintre Egon Schiele. Elle reste la pandémie la plus meurtrière du XXe siècle et un cas d'étude majeur pour la santé publique."
+   "explication": "La pandémie de grippe de 1918-1919, dite « grippe espagnole », tue entre cinquante et cent millions de personnes selon les estimations les plus courantes, les plus basses descendant à vingt millions, soit davantage que la Première Guerre mondiale elle-même. Due à un virus H1N1 particulièrement virulent, elle frappe en plusieurs vagues un monde affaibli par la guerre, touchant étonnamment fort les jeunes adultes. Son surnom est trompeur : elle n'est pas née en Espagne, mais ce pays neutre, sans censure militaire, fut le premier à en parler librement dans sa presse. Parmi ses victimes figurent le poète Guillaume Apollinaire et le peintre Egon Schiele. Elle reste la pandémie la plus meurtrière du XXe siècle et un cas d'étude majeur pour la santé publique."
   }
  ],
  "cours": [

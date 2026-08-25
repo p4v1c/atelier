@@ -813,3 +813,62 @@ déjà été appliquées par les commits `abe95a4`, `715f374`, `bf6654f`, `d8293
 
 Porte : `tsc` ✓ · `validate:content` 0 erreur / 634 avertissements · 236 tests ✓ ·
 `build` ✓.
+
+### Lot 14 — `inter-domaines.md`, et clôture des constats graves
+
+Le vingt et unième relecteur, celui qui cherche les redites **entre** domaines,
+avait bien été lancé : son rapport existe. Ses quinze constats graves sont pour
+l'essentiel des **redécoupages de domaines** — une leçon d'astrophysique rangée
+en sciences de la vie, une leçon de météorologie qui redouble la géographie et la
+physique, l'eau traitée par sept cours dans quatre domaines. Cela demande une
+décision d'architecture, pas une correction.
+
+Les contradictions chiffrées, elles, sont corrigées :
+
+- **Le nombre de communes** : 35 000 en géographie, 34 000 en institutions.
+- **La grippe de 1918** : « 20 à 50 millions » dans un domaine, « 50 à 100 » dans
+  l'autre. Les deux portent maintenant la fourchette large aujourd'hui admise.
+- **Charles Kao** : 1964 en physique-chimie, 1966 en inventions. C'est 1966.
+
+Base sauvegardée puis les cinq modules réensemencés.
+
+---
+
+## Où en est la campagne
+
+**Les constats graves des vingt et un rapports sont traités.** Chacun a été lu,
+puis appliqué, ou vérifié comme déjà corrigé, ou écarté avec son motif. Quatorze
+lots, quatorze commits, la porte passée à chaque fois.
+
+**Ce qui reste, et qui ne se corrige pas constat par constat.** Quatre chantiers
+reviennent dans presque tous les rapports, et chacun demande un **contrôle
+mécanique** plutôt qu'une passe de relecture :
+
+1. **Le biais de longueur.** Mesuré à 86 % sur les 515 questions d'institutions,
+   83 % sur la langue française, 68 % sur tout le module : cocher la plus longue
+   sans lire donne 87 %. Le contrôle `reponse-la-plus-longue` le chiffre déjà
+   (521 notions) ; il faut réécrire les leurres, notion par notion, puis passer le
+   contrôle en erreur.
+2. **Le filtre `dedoublonner()`.** Sa condition `&&` exige un recouvrement de
+   l'énoncé **et** de la réponse : reformuler la bonne réponse suffit à faire
+   passer n'importe quel doublon. Les rapports citent une paire d'énoncés
+   identiques à 88 % qui passe. Il faut comparer le couple (fait interrogé, bonne
+   réponse). Les dizaines de paires citées dans les rapports forment le jeu
+   d'essai.
+3. **Les astuces qui donnent la réponse.** Vingt notions sur cinquante-deux en
+   physique-chimie, neuf sur treize en gastronomie, huit en histoire de France.
+   Un contrôle mécanique suffirait : aucun mot de la bonne réponse dans le `tip`.
+4. **Les fuites ouvertes par les fusions.** Depuis que `cours/fusions.ts` verse
+   une notion du seed dans une leçon héritée, l'explication d'une question donne
+   souvent la réponse d'une autre question **du même chapitre** — trente cas en
+   histoire de France, quatre en littérature. Là encore, un contrôle : aucune
+   explication ne contient la bonne réponse d'une autre question du chapitre.
+
+Et deux décisions qui n'appartiennent pas au correcteur :
+
+- **Renommer trois slugs trompeurs** du lot d'origine (`davantage-2` s'appelle
+  « quand même », `eminent-2` « affluence ou influence », `impropriete-avoir-lair`
+  porte sur « s'avérer ») — un slug est la clé de la progression en base.
+- **`aussiEtranger`** : sept cartes sur 680 en espagnol débutant, une sur 1 120 en
+  espagnol avancé. L'exercice de production sanctionne donc des réponses justes.
+  C'est du contenu à produire sur tout le module.

@@ -11,7 +11,7 @@ export const CG_INSTITUTIONS_ECONOMIE: SeedSkill[] = [
     "Communes, départements, régions : qui décide de quoi, et depuis quand.",
     "La clause de compétence générale n'existe plus que pour les communes depuis 2015.",
     2, [
-    ["Combien la France compte-t-elle environ de communes ?", ["Environ trente-quatre mille", "Environ dix mille", "Environ cent mille", "Environ cinq mille"], 0,
+    ["Combien la France compte-t-elle environ de communes ?", ["Environ trente-cinq mille", "Environ dix mille", "Environ cent mille", "Environ cinq mille"], 0,
      "Un record en Europe, hérité des paroisses d'Ancien Régime. Les fusions récentes ont réduit ce nombre à la marge."],
     ["Qui élit le maire d'une commune ?", ["Le conseil municipal", "Les habitants directement", "Le préfet", "Le conseil départemental"], 0,
      "Les habitants élisent les conseillers municipaux, qui désignent ensuite le maire parmi eux."],
