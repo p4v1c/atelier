@@ -239,7 +239,7 @@ export const CG_HISTOIRE_MONDE: SeedSkill[] = [
      "La répression britannique fait des dizaines de milliers de morts. Le Kenya devient indépendant en 1963."],
     ["Quand les colonies portugaises d'Afrique deviennent-elles indépendantes ?", ["En 1975, après la révolution des Œillets", "En 1960", "En 1968", "En 1980"], 0,
      "La chute de la dictature à Lisbonne en 1974 précipite l'indépendance de l'Angola, du Mozambique, de la Guinée-Bissau et du Cap-Vert."],
-    ["Quel régime sud-africain prend fin en 1994 ?", ["L'apartheid", "Le protectorat britannique", "Le régime boer", "La ségrégation du Natal"], 0,
+    ["Quel régime sud-africain s'éteint avec les élections de 1994 ?", ["L'apartheid", "Le protectorat britannique", "Le régime boer", "La ségrégation du Natal"], 0,
      "Nelson Mandela, libéré en 1990 après vingt-sept ans de prison, devient président lors des premières élections multiraciales."],
     ["Quelle organisation continentale succède à l'OUA en 2002 ?", ["L'Union africaine", "La CEDEAO", "Le NEPAD", "La SADC"], 0,
      "L'Organisation de l'unité africaine, fondée en 1963, laisse place à une union dotée de plus larges compétences.", 3],

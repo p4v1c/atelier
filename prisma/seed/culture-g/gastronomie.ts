@@ -242,7 +242,7 @@ export const CG_GASTRONOMIE: SeedSkill[] = [
     "La fourchette est entrée tard dans l'usage français, et longtemps jugée efféminée. Méfie-toi des récits qui l'attribuent à une reine.",
     2, [
     ["Quand la fourchette s'impose-t-elle à la table française ?", ["Au XVIIe siècle", "Au Moyen Âge", "Au XIXe siècle", "À la Renaissance immédiatement"], 0,
-     "Introduite d'Italie par Catherine de Médicis, elle mit plus d'un siècle à s'imposer réellement."],
+     "On l'attribue par tradition à Catherine de Médicis, mais elle est attestée en France avant elle : c'est Henri III qui la met à la mode, et elle mettra plus d'un siècle à s'imposer."],
     ["Qu'est-ce que le service à la française ?", ["Tous les plats sont disposés simultanément sur la table", "Chaque plat est apporté dans l'ordre", "Le service se fait à l'assiette", "Le maître d'hôtel découpe devant les convives"], 0,
      "Le service à la russe, plat après plat, l'a supplanté au XIXe siècle."],
     ["Comment dispose-t-on les couverts dans le couvert classique français ?", ["Fourchette à gauche, couteau et cuillère à droite", "Fourchette à droite, couteau à gauche", "Tous les couverts à droite", "Selon la main dominante du convive"], 0,
@@ -273,7 +273,7 @@ export const CG_GASTRONOMIE: SeedSkill[] = [
      "Il fut le premier à signer ses créations et à les présenter sur des mannequins vivants."],
     ["Quelle couturière libère la silhouette féminine du corset dans les années 1920 ?", ["Gabrielle Chanel", "Elsa Schiaparelli", "Madeleine Vionnet", "Jeanne Paquin"], 0,
      "Paul Poiret avait engagé ce mouvement dès 1906. Chanel impose ensuite le jersey et la petite robe noire."],
-    ["Quelle collection de Christian Dior fait sensation en 1947 ?", ["Le New Look", "Le Trapèze", "La ligne H", "La ligne Corolle seule"], 0,
+    ["Quelle collection de Christian Dior fait sensation en 1947 ?", ["Le New Look", "Le Trapèze", "La ligne H", "La ligne Fuseau"], 0,
      "Taille marquée et jupes amples, à contre-courant des restrictions de tissu de l'après-guerre."],
     ["Qu'est-ce que le prêt-à-porter ?", ["Des vêtements produits en série selon des tailles standardisées", "Des vêtements vendus sans retouche", "Une collection de créateur en série limitée", "Un vêtement livré fini par un atelier"], 0,
      "Le terme apparaît en France en 1949, calqué sur l'anglais ready-to-wear."],

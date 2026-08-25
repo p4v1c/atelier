@@ -782,3 +782,34 @@ mécaniques** au validateur, pas constat par constat :
 
 Porte : `tsc` ✓ · `validate:content` 0 erreur / 634 avertissements · 236 tests ✓ ·
 `build` ✓.
+
+### Lot 13 — les cinq derniers domaines
+
+`gastronomie.md`, `histoire-monde.md`, `physique-chimie.md`, `sciences-tech.md`,
+`sciences-vie.md`. La plupart des erreurs de fait de ces cinq rapports avaient
+déjà été appliquées par les commits `abe95a4`, `715f374`, `bf6654f`, `d82935e`,
+`cceedef` et `e676c56` — vérifié une à une. Restaient :
+
+- **La fourchette « introduite par Catherine de Médicis »** : légende que le
+  cahier d'origine réfute ailleurs. Elle est attestée en France avant elle ; c'est
+  Henri III qui la met à la mode.
+- **Dior 1947** : « La ligne Corolle » est l'autre nom de la collection New Look —
+  le distracteur désignait la bonne réponse.
+- **L'Orient-Express de 1883** ne va pas jusqu'à Constantinople : il faut un bac
+  sur le Danube et un bateau sur la mer Noire jusqu'en 1889.
+- **Comprimer les noyaux d'un corps humain** ne donne pas « un grain de sel » mais
+  un volume de l'ordre du dixième de millimètre cube — cinq ordres de grandeur
+  d'écart, dans un cours qui enseigne précisément les ordres de grandeur.
+- **Trois dates pour la fin de l'apartheid** dans le même domaine (1991, 1994,
+  1991-1994) : l'énoncé le plus tranchant est aligné sur les élections de 1994,
+  que les trois formulations s'accordent à retenir.
+- **Le cœur d'une baleine bleue** pèse environ 180 kg, non 600.
+- **Les coléoptères** comptent environ 400 000 espèces **décrites** — 600 000 à
+  795 000 sont des estimations du nombre réel.
+- **Le service de pollinisation** est évalué à environ 153 milliards d'euros par
+  an, non 50 : l'erreur était écrite deux fois dans la même leçon.
+- **La digestion complète** dure de vingt-quatre à soixante-douze heures, non huit
+  à douze — le seul transit colique en prend déjà trente à quarante.
+
+Porte : `tsc` ✓ · `validate:content` 0 erreur / 634 avertissements · 236 tests ✓ ·
+`build` ✓.
