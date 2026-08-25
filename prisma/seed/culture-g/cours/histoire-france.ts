@@ -114,7 +114,7 @@ Le point le plus élevé de l'outre-mer est le piton des Neiges, à La Réunion,
   "hf-etat-providence": [
     ["Les premières lois", `La protection sociale française s'est construite par étapes, longtemps avant 1945. La loi de 1841 limite le travail des enfants dans les manufactures : premier texte social français, sans inspection pour le faire appliquer, il reste largement lettre morte mais ouvre la voie.
 
-Le droit de grève est reconnu en 1864, les syndicats autorisés en 1884. La loi de 1898 sur les accidents du travail marque une rupture juridique : elle instaure une indemnisation sans que le salarié ait à prouver la faute de l'employeur, en fondant la responsabilité sur le risque et non sur la faute.`],
+La grève cesse d'être un délit en 1864, les syndicats sont autorisés en 1884 ; le droit de grève lui-même n'est reconnu qu'en 1946, par le préambule de la Constitution. La loi de 1898 sur les accidents du travail marque une rupture juridique : elle instaure une indemnisation sans que le salarié ait à prouver la faute de l'employeur, en fondant la responsabilité sur le risque et non sur la faute.`],
     ["1936 et 1945", `Le Front populaire obtient en 1936, après les accords de Matignon et une vague de grèves avec occupation, trois avancées majeures : les congés payés, la semaine de quarante heures et la généralisation des conventions collectives.
 
 Pendant la guerre, le programme du Conseil national de la Résistance prépare l'après : il prévoit un plan complet de sécurité sociale. La Sécurité sociale est créée par les ordonnances de 1945, avec l'ambition d'une couverture généralisée financée par les cotisations. En 1950 s'y ajoute le salaire minimum interprofessionnel garanti, premier salaire plancher légal.`],
@@ -129,7 +129,7 @@ En 1988 est créé le revenu minimum d'insertion, premier minimum social ouvert 
 En 1975, la loi portée par Simone Veil, ministre de la Santé, légalise l'interruption volontaire de grossesse, au terme de débats parlementaires d'une violence rare envers elle. Le divorce par consentement mutuel est légalisé la même année. Ces réformes accompagnent une transformation sociale déjà largement engagée, dans un contexte économique qui se retourne : le premier choc pétrolier de 1973 met fin aux Trente Glorieuses.`],
     ["1981 et l'alternance", `François Mitterrand est élu en 1981 : c'est la première alternance de la Ve République, quarante-trois ans après le dernier gouvernement de gauche. Les premiers mois voient nationalisations, décentralisation et réformes sociales, avant un tournant de rigueur en 1983.
 
-Une mesure marque durablement le début du septennat : l'abolition de la peine de mort, votée en 1981 sur un discours de Robert Badinter, garde des Sceaux, alors qu'une majorité de l'opinion y était opposée. La France est le dernier pays d'Europe occidentale à l'abolir.`],
+Une mesure marque durablement le début du septennat : l'abolition de la peine de mort, votée en 1981 sur un discours de Robert Badinter, garde des Sceaux, alors qu'une majorité de l'opinion y était opposée. La France est l'un des derniers pays d'Europe occidentale à l'abolir : la Belgique et l'Espagne ne l'ont fait qu'au milieu des années quatre-vingt-dix.`],
     ["Cohabitations et Europe", `La cohabitation — un président et un Premier ministre de camps opposés — était jugée impraticable avant d'être expérimentée trois fois : de 1986 à 1988, de 1993 à 1995, puis de 1997 à 2002, la plus longue.
 
 Sur le plan européen, le traité de Maastricht est ratifié par référendum en 1992, à cinquante-et-un pour cent : il crée l'Union européenne et prépare la monnaie unique. Jacques Chirac est élu en 1995 ; il suspend le service militaire obligatoire en 1997 et fait adopter en 2000 le passage du septennat au quinquennat, réforme qui, en alignant les calendriers électoraux, rend les cohabitations très improbables.`],
@@ -139,7 +139,7 @@ Sur le plan européen, le traité de Maastricht est ratifié par référendum en
     ["Le droit de vote, tardif", `Les Françaises obtiennent le droit de vote par ordonnance du gouvernement provisoire en avril 1944, et votent pour la première fois en 1945. La France est très en retard : vingt-six ans après le Royaume-Uni, cinquante et un ans après la Nouvelle-Zélande. Le Sénat de la IIIe République avait bloqué à plusieurs reprises des propositions déjà votées par les députés.
 
 L'idée était pourtant ancienne. Dès 1791, Olympe de Gouges publie la Déclaration des droits de la femme et de la citoyenne, décalque revendicatif du texte de 1789 ; elle est guillotinée deux ans plus tard.`],
-    ["Des figures", `Marie Curie est la seule personne à avoir reçu deux prix Nobel scientifiques, en physique en 1903 puis en chimie en 1911 ; elle est aussi la première femme professeure à la Sorbonne.
+    ["Des figures", `Marie Curie est la seule personne à avoir reçu le prix Nobel dans deux sciences différentes, en physique en 1903 puis en chimie en 1911 ; elle est aussi la première femme professeure à la Sorbonne.
 
 Simone de Beauvoir publie Le Deuxième Sexe en 1949 : l'ouvrage, longtemps scandaleux, fournit au féminisme du siècle suivant une grande part de son vocabulaire. Simone Veil, rescapée d'Auschwitz, ministre puis première présidente du Parlement européen élu au suffrage universel à partir de 1979, entre au Panthéon en 2018. Germaine Tillion, ethnologue et résistante déportée, y était entrée en 2015.`],
     ["Les droits, pas à pas", `Le droit de vote ne suffisait pas. Jusqu'en 1965, une femme mariée ne peut ni travailler ni ouvrir un compte bancaire sans l'accord de son mari : c'est la réforme des régimes matrimoniaux qui y met fin. L'autorité parentale conjointe date de 1970.
@@ -1171,7 +1171,7 @@ Sa composition et ses pouvoirs ont été plusieurs fois révisés, et le débat 
   "hf3-vie-quotidienne": [
     ["Un confort qui arrive", `L'équipement des logements français a changé plus vite entre 1950 et 1975 qu'en un siècle auparavant.
 
-En 1954, environ six logements sur dix disposaient de l'eau courante, un quart d'une baignoire ou d'une douche, et un quart de toilettes intérieures. Le chauffage central était rare. Une part importante du parc datait du XIXe siècle et n'avait pratiquement pas évolué.
+En 1954, environ six logements sur dix disposaient de l'eau courante, un sur dix d'une baignoire ou d'une douche, et un quart de toilettes intérieures. Le chauffage central était rare. Une part importante du parc datait du XIXe siècle et n'avait pratiquement pas évolué.
 
 Vingt ans plus tard, l'essentiel des logements dispose de l'eau, du sanitaire et du chauffage. Cette transformation, plus rapide qu'aucune autre dans l'histoire de l'habitat français, tient à la reconstruction, à la construction massive et à l'élévation générale du niveau de vie.
 

@@ -415,7 +415,7 @@ export const CG_HISTOIRE_FRANCE_3: SeedSkill[] = [
      "Ses travaux sur la résolution des équations ont fondé la théorie des groupes."],
     ["Quel groupe de mathématiciens français publie sous un pseudonyme collectif ?", ["Nicolas Bourbaki", "Le groupe de Nancy", "Le collectif Poincaré", "L'école de Paris"], 0,
      "Fondé en 1935, il a entrepris une refondation axiomatique des mathématiques."],
-    ["Quel prix scientifique français a récompensé de nombreux mathématiciens ?", ["La médaille Fields, souvent attribuée à des Français", "Le prix Nobel de mathématiques", "Le prix Abel français", "La médaille du CNRS seule"], 0,
+    ["Quelle distinction internationale les mathématiciens français ont-ils souvent reçue ?", ["La médaille Fields", "Le prix Nobel de mathématiques", "Le prix Abel français", "La médaille du CNRS"], 0,
      "La France est le deuxième pays par le nombre de médailles Fields, derrière les États-Unis."],
     ["Quel constat les rapports récents font-ils sur la recherche française ?", ["Un investissement inférieur à l'objectif européen de trois pour cent du PIB", "Un investissement supérieur à la moyenne", "Une absence de publications", "Une prédominance de la recherche privée"], 0,
      "L'écart concerne surtout la recherche privée, plus faible qu'en Allemagne ou en Corée du Sud.", 3],

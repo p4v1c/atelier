@@ -257,7 +257,7 @@ export const CG_SPORT: SeedSkill[] = [
      "Elle organise la délégation de service public aux fédérations sportives agréées."],
     ["Qu'est-ce que la délégation accordée à une fédération sportive française ?", ["Le monopole d'organisation des compétitions officielles d'une discipline", "Un financement public garanti", "Un droit de représentation internationale", "Une exonération fiscale"], 0,
      "Elle emporte des obligations : règlements, sélection des équipes nationales et délivrance des titres."],
-    ["Quel dispositif français vise l'accès au sport des enfants depuis 2022 ?", ["Le pass'Sport, aide à la licence", "Le chèque sport-santé", "L'allocation de rentrée sportive", "Le crédit d'impôt sportif"], 0,
+    ["Quel dispositif français vise l'accès au sport des enfants depuis 2021 ?", ["Le pass'Sport, aide à la licence", "Le chèque sport-santé", "L'allocation de rentrée sportive", "Le crédit d'impôt sportif"], 0,
      "Il prend la forme d'une réduction sur le coût de l'adhésion à un club, sous conditions de ressources."],
     ["Qu'est-ce que le sport-santé sur ordonnance ?", ["La prescription d'activité physique adaptée par un médecin", "Un remboursement des licences sportives", "Un suivi médical obligatoire des sportifs", "Un bilan annuel de condition physique"], 0,
      "Prévue par la loi de 2016 pour les affections de longue durée, sa prise en charge financière reste inégale."],

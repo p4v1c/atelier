@@ -44,7 +44,7 @@ export const CG_SPORT_2: SeedSkill[] = [
     ["Quelle largeur fait une poutre de gymnastique ?", ["Dix centimètres", "Vingt centimètres", "Cinq centimètres", "Quinze centimètres"], 0,
      "Elle est placée à cent vingt-cinq centimètres du sol."],
     ["Qu'est-ce que la gymnastique rythmique ?", ["Une discipline associant mouvements et engins comme le ruban ou le cerceau", "Une gymnastique en musique", "Une danse sportive", "Une gymnastique acrobatique"], 0,
-     "Cinq engins sont utilisés : corde, cerceau, ballon, massues et ruban."],
+     "Quatre engins sont au programme senior : cerceau, ballon, massues et ruban. La corde en a été retirée."],
     ["Qu'est-ce que le trampoline en compétition ?", ["Une discipline olympique de sauts acrobatiques", "Un exercice d'échauffement", "Une épreuve de gymnastique artistique", "Une discipline de démonstration"], 0,
      "Il est devenu olympique aux Jeux de Sydney en 2000."],
     ["Comment une performance de gymnastique est-elle notée ?", ["Par une note de difficulté et une note d'exécution", "Par une note unique sur dix", "Par un classement comparatif", "Par un vote des juges"], 0,

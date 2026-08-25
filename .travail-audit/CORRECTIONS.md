@@ -720,3 +720,65 @@ des corrections.
 
 Porte : `tsc` ✓ · `validate:content` 0 erreur / 634 avertissements · 236 tests ✓ ·
 `build` ✓.
+
+### Lot 12 — `geographie.md` (23 graves), `histoire-france.md` (17), `sport.md` (17)
+
+Histoire de France :
+
+- **Marie Curie n'est pas « la seule personne à avoir reçu deux prix Nobel
+  scientifiques »** — Bardeen et Sanger en ont deux chacun. Elle est la seule à
+  l'avoir reçu dans **deux sciences différentes**.
+- **La France n'est pas le dernier pays d'Europe occidentale à abolir la peine de
+  mort** : la Belgique et l'Espagne ne l'ont fait qu'au milieu des années 1990.
+- **Le droit de grève n'est pas reconnu en 1864** : la loi Ollivier dépénalise la
+  grève, le droit lui-même n'apparaît qu'en 1946, dans le préambule de la
+  Constitution. L'erreur était dans une question et dans le cours.
+- **Simone Veil est la quatrième femme entrée au Panthéon pour ses mérites
+  propres**, la cinquième à y reposer — les deux comptes étaient mélangés.
+- **L'écart avec la Nouvelle-Zélande sur le vote des femmes** est de cinquante et
+  un ans : l'astuce en disait soixante et onze, quand le cours donnait le bon
+  chiffre.
+- **La médaille Fields donnée pour un prix français** — elle est décernée par
+  l'Union mathématique internationale.
+- **Beauvais** : la question demandait la nef, la réponse parlait du chœur. C'est
+  bien le chœur qui détient le record : la nef n'a jamais été bâtie.
+- **En 1954, un logement sur dix disposait d'une baignoire**, pas un quart — le
+  quart, c'est la part des toilettes intérieures.
+- **La légalisation de la contraception attribuée à Giscard** : la loi Neuwirth
+  est de 1967, sept ans avant son élection.
+
+Sport :
+
+- **Kévin Mayer n'a jamais été champion olympique**, et n'a qu'un titre mondial :
+  la question en annonçait deux.
+- **Une question demandait « quel nageur »** pour une réponse qui est une
+  nageuse, sur une épreuve qui n'est pas celle de la réponse — le libellé de la
+  bonne proposition rectifiait l'épreuve au passage.
+- **Joakim Noah donné pour premier choix de draft** : il fut choisi neuvième.
+- **Le record de Bubka a tenu vingt et un ans**, pas seize.
+- **Une question sur le tennis proposait des surfaces** là où elle demandait un
+  tournoi ; une autre nommait les Lakers dans une question dont la réponse est les
+  Celtics ; une troisième mettait **Bode Miller parmi des skieuses**.
+- Le pass'Sport date de 2021 ; Hillsborough a fait quatre-vingt-dix-sept morts,
+  la 97e victime étant morte en 2021 après trente-deux ans de coma ; la
+  gymnastique rythmique compte quatre engins au programme senior, la corde en
+  ayant été retirée. Ces trois-là étaient des contradictions entre le cours et la
+  question de la même notion.
+
+Géographie : voir le commit précédent.
+
+**Ces trois rapports partagent le même chantier de fond**, que je n'ai pas mené :
+chacun décrit une duplication massive entre les lots et une table de fusions qui
+la concentre au lieu de la résorber, des astuces qui donnent la réponse littérale
+d'une question de leur propre notion (huit en histoire, sept en géographie), et
+des explications qui donnent la réponse d'une autre question du même chapitre
+(trente en histoire de France). Ces trois défauts se corrigent par des **contrôles
+mécaniques** au validateur, pas constat par constat :
+
+1. aucun mot de la bonne réponse dans le `tip` de la notion ;
+2. aucune explication ne contient la bonne réponse d'une autre question du même
+   chapitre ;
+3. dédoublonnage sur le couple (bonne réponse, explication) et non sur l'énoncé.
+
+Porte : `tsc` ✓ · `validate:content` 0 erreur / 634 avertissements · 236 tests ✓ ·
+`build` ✓.

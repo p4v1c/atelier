@@ -296,7 +296,7 @@ export const CG_HISTOIRE_FRANCE: SeedSkill[] = [
 
   notion("hf-femmes-france", S, "Les femmes dans l'histoire de France",
     "Du droit de vote obtenu en 1944 à la parité, en passant par les figures qui ont marqué la politique, la science et les lettres.",
-    "La France accorde le droit de vote aux femmes en 1944, soit vingt-six ans après le Royaume-Uni et soixante-et-onze ans après la Nouvelle-Zélande.",
+    "La France accorde le droit de vote aux femmes en 1944, soit vingt-six ans après le Royaume-Uni et cinquante et un ans après la Nouvelle-Zélande.",
     2, [
     ["Quand les Françaises obtiennent-elles le droit de vote ?", ["En 1944", "En 1936", "En 1919", "En 1946"], 0,
      "L'ordonnance du 21 avril 1944, signée à Alger, leur accorde le droit de vote et d'éligibilité. Elles votent pour la première fois en avril 1945."],
@@ -313,7 +313,7 @@ export const CG_HISTOIRE_FRANCE: SeedSkill[] = [
     ["Quand la parité est-elle inscrite dans la Constitution ?", ["En 1999", "En 1946", "En 1981", "En 2008"], 0,
      "La révision de 1999 permet ensuite la loi de 2000 imposant l'égal accès aux mandats électoraux."],
     ["Quelle femme entre au Panthéon en 2018 ?", ["Simone Veil", "Marie Curie", "Germaine Tillion", "Geneviève de Gaulle-Anthonioz"], 0,
-     "Elle y est inhumée avec son mari. Elle est la cinquième femme à y entrer pour ses mérites propres."],
+     "Elle y est inhumée avec son mari. Elle est la cinquième femme à y reposer, mais la quatrième à y entrer pour ses mérites propres."],
     ["Quelle résistante et ethnologue entre au Panthéon en 2015 ?", ["Germaine Tillion", "Lucie Aubrac", "Berty Albrecht", "Danielle Casanova"], 0,
      "Elle y entre le même jour que Geneviève de Gaulle-Anthonioz, Jean Zay et Pierre Brossolette.", 3],
   ]),
