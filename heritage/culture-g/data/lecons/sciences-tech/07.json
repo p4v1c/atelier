@@ -110,10 +110,10 @@
   {
    "q": "Pourquoi le bronze a-t-il représenté un progrès décisif par rapport au cuivre pur ?",
    "choix": [
-    "Parce qu'il ne rouille jamais, contrairement au cuivre",
-    "Parce qu'il fond à une température beaucoup plus élevée",
+    "Parce qu'il ne rouille jamais, contrairement au cuivre pur",
+    "Parce qu'il fond à une température beaucoup plus élevée que le cuivre",
     "Parce que l'alliage avec l'étain le rend nettement plus dur tout en restant facile à couler",
-    "Parce qu'il se trouve à l'état natif dans la nature"
+    "Parce qu'il se trouve à l'état natif dans la nature, déjà prêt à être travaillé par le forgeron"
    ],
    "bonne": 2,
    "difficulte": 1,
@@ -125,7 +125,7 @@
     "Insuffler de l'air dans la fonte en fusion pour brûler l'excès de carbone et obtenir de l'acier",
     "Ajouter du carbone au fer pour le rendre plus malléable",
     "Refroidir lentement l'acier afin d'en augmenter la dureté",
-    "Extraire le fer du minerai par électrolyse"
+    "Extraire directement le fer du minerai par électrolyse dans un bain de sels fondus à haute température"
    ],
    "bonne": 0,
    "difficulte": 3,

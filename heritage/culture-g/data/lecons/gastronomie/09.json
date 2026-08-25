@@ -98,9 +98,9 @@
    "q": "Pourquoi la cuisine médiévale des puissants employait-elle autant d'épices ?",
    "choix": [
     "Pour masquer le goût des viandes avariées",
-    "Parce que le sel était introuvable",
+    "Parce que le sel manquait alors dans toute l'Europe",
     "Pour marquer leur rang et pour des raisons médicales",
-    "Parce que les épices étaient alors très bon marché"
+    "Parce que les épices étaient alors une denrée bon marché et courante"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -112,7 +112,7 @@
     "Les trois stigmates",
     "Les pétales séchés",
     "Le bulbe broyé",
-    "Les étamines"
+    "Les étamines de la fleur"
    ],
    "bonne": 0,
    "difficulte": 1,
@@ -148,7 +148,7 @@
     "Parce que l'eau dilate les vaisseaux de la bouche",
     "Parce que la capsaïcine se fixe définitivement sur les papilles",
     "Parce que la capsaïcine est liposoluble et se dissout dans les corps gras",
-    "Parce que le piquant vient d'un acide neutralisé seulement par le sucre"
+    "Parce que le piquant vient d'un acide que seul le sucre parvient à neutraliser"
    ],
    "bonne": 2,
    "difficulte": 3,

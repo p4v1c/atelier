@@ -116,9 +116,9 @@
    "q": "Quelle fonction la triode de Lee De Forest, mise au point en 1906-1907, apporte-t-elle par rapport à la diode de Fleming ?",
    "choix": [
     "Elle amplifie un signal grâce à une grille de commande",
-    "Elle produit de la lumière",
-    "Elle redresse le courant alternatif",
-    "Elle stocke l'énergie électrique"
+    "Elle produit de la lumière visible dans le vide",
+    "Elle redresse le courant alternatif pour le rendre continu",
+    "Elle stocke l'énergie électrique dans un condensateur"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -139,10 +139,10 @@
   {
    "q": "Qui met au point le transistor, et en quelle année ?",
    "choix": [
-    "Jack Kilby et Robert Noyce, en 1958",
+    "Jack Kilby et Robert Noyce, dans deux entreprises américaines, en 1958",
     "John Bardeen, Walter Brattain et William Shockley, en 1947",
-    "Gordon Moore, en 1965",
-    "Lee De Forest, en 1907"
+    "Gordon Moore, en Californie, en 1965",
+    "Lee De Forest, aux États-Unis, en 1907"
    ],
    "bonne": 1,
    "difficulte": 1,
@@ -165,7 +165,7 @@
    "choix": [
     "La vitesse des ordinateurs double tous les six mois",
     "Le prix des ordinateurs diminue de moitié chaque année",
-    "Un transistor ne peut pas être plus petit que cinq nanomètres",
+    "Un transistor ne peut en aucun cas devenir plus petit que cinq nanomètres de large",
     "Le nombre de transistors d'un microprocesseur double environ tous les deux ans"
    ],
    "bonne": 3,

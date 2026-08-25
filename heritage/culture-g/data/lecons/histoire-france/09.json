@@ -116,9 +116,9 @@
   {
    "q": "Quelle mesure sociale majeure le gouvernement provisoire adopte-t-il le 27 avril 1848 ?",
    "choix": [
-    "L'instauration de la journée de huit heures",
-    "La création de la Sécurité sociale",
-    "L'interdiction du travail des enfants",
+    "L'instauration de la journée de huit heures dans les usines",
+    "L'interdiction du travail des enfants de moins de douze ans",
+    "La création de la Sécurité sociale pour tous les salariés",
     "L'abolition de l'esclavage dans les colonies françaises"
    ],
    "bonne": 3,
@@ -128,10 +128,10 @@
   {
    "q": "Que provoque la fermeture des ateliers nationaux le 21 juin 1848 ?",
    "choix": [
-    "L'abdication de Louis-Philippe",
+    "Le retour immédiat au suffrage censitaire de la monarchie de Juillet",
     "Une insurrection ouvrière écrasée par le général Cavaignac",
-    "La proclamation immédiate de l'Empire",
-    "Le retour au suffrage censitaire"
+    "L'abdication de Louis-Philippe et sa fuite en Angleterre",
+    "La proclamation immédiate de l'Empire par Louis-Napoléon"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -140,10 +140,10 @@
   {
    "q": "Comment Louis-Napoléon Bonaparte accède-t-il à la présidence de la République en 1848 ?",
    "choix": [
-    "Par un vote de l'Assemblée nationale",
-    "Par un coup d'État militaire",
+    "Par un vote de l'Assemblée nationale constituante réunie à Paris",
+    "Par désignation du gouvernement provisoire issu de février 1848",
     "Par une élection au suffrage universel masculin le 10 décembre 1848",
-    "Par désignation du gouvernement provisoire"
+    "Par un coup d'État militaire appuyé sur la garde nationale"
    ],
    "bonne": 2,
    "difficulte": 1,
@@ -152,10 +152,10 @@
   {
    "q": "Quel est l'effet principal de la loi du 31 mai 1850 ?",
    "choix": [
-    "Elle rend l'école primaire gratuite",
+    "Elle rend l'école primaire gratuite et obligatoire dans les communes",
     "Elle exclut près de trois millions de citoyens du droit de vote",
-    "Elle rétablit la censure sur les théâtres",
-    "Elle instaure l'impôt sur le revenu"
+    "Elle instaure l'impôt sur le revenu pour financer les ateliers",
+    "Elle rétablit la censure sur les théâtres et sur la presse"
    ],
    "bonne": 1,
    "difficulte": 3,
@@ -165,9 +165,9 @@
    "q": "Quel événement militaire entraîne la chute du Second Empire ?",
    "choix": [
     "La capitulation de Napoléon III à Sedan le 1er septembre 1870",
-    "La défaite de Solférino en 1859",
-    "L'échec de l'expédition du Mexique en 1867",
-    "Le siège de Sébastopol en 1855"
+    "Le long siège de Sébastopol pendant la guerre de Crimée, en 1855",
+    "L'échec de l'expédition du Mexique et la mort de Maximilien",
+    "La défaite de Solférino devant les Autrichiens, en 1859"
    ],
    "bonne": 0,
    "difficulte": 2,

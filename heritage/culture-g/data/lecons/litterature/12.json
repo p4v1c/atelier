@@ -87,9 +87,9 @@
   {
    "q": "Quelle affirmation décrit correctement le travail des frères Grimm sur les contes ?",
    "choix": [
-    "Ils les ont inventés de toutes pièces",
-    "Ils les ont traduits du français",
-    "Ils les ont transcrits sans jamais y toucher",
+    "Ils les ont inventés de toutes pièces pour leurs lecteurs",
+    "Ils les ont traduits du français vers l'allemand",
+    "Ils les ont transcrits mot à mot, sans jamais en modifier le texte",
     "Ils les ont recueillis puis retravaillés au fil des éditions"
    ],
    "bonne": 3,
@@ -100,9 +100,9 @@
    "q": "Qu'est-ce qui distingue le conte du roman ou de la nouvelle ?",
    "choix": [
     "L'acceptation de l'invraisemblance et des codes du merveilleux",
-    "Sa longueur toujours supérieure",
-    "L'absence totale de dialogue",
-    "Son ancrage dans des faits historiques vérifiables"
+    "Sa longueur toujours supérieure à celle du roman",
+    "L'absence totale de dialogue entre les personnages",
+    "Son ancrage dans des faits historiques que l'on peut toujours vérifier"
    ],
    "bonne": 0,
    "difficulte": 1,
@@ -123,10 +123,10 @@
   {
    "q": "Quelle place occupe aujourd'hui l'édition jeunesse sur le marché du livre en France ?",
    "choix": [
-    "Un secteur marginal en voie de disparition",
+    "Un secteur marginal, en voie de disparition depuis dix ans",
     "Le deuxième segment, derrière la littérature générale",
-    "Le premier segment, devant tous les autres",
-    "Un domaine réservé aux éditeurs publics"
+    "Le premier segment du marché du livre, devant tous les autres",
+    "Un domaine réservé aux seuls éditeurs publics"
    ],
    "bonne": 1,
    "difficulte": 2,

@@ -135,9 +135,9 @@
    "q": "Où et quand la domestication du blé et de l'orge est-elle attestée le plus anciennement ?",
    "choix": [
     "Dans le Croissant fertile, entre 9500 et 9000 avant notre ère",
-    "En Chine, vers 3000 avant notre ère",
-    "En Égypte, sous les premiers pharaons",
-    "En Mésoamérique, vers 5000 avant notre ère"
+    "En Chine, vers 3000 avant notre ère, le long du fleuve Jaune",
+    "En Égypte, sous les règnes des premiers pharaons",
+    "En Mésoamérique, vers 5000 avant notre ère, dans la vallée de Mexico"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -147,9 +147,9 @@
    "q": "Qu'est-ce qui distingue techniquement la charrue de l'araire ?",
    "choix": [
     "La charrue est tirée par un cheval, l'araire par un bœuf",
-    "La charrue est en fer, l'araire toujours en bois",
+    "La charrue est en fer, l'araire toujours en bois de chêne",
     "La charrue porte un versoir qui retourne la bande de terre d'un seul côté",
-    "La charrue sert à semer, l'araire à récolter"
+    "La charrue sert à semer les graines tandis que l'araire sert à récolter les épis"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -170,9 +170,9 @@
   {
    "q": "Pourquoi les légumineuses, comme le trèfle ou la luzerne, enrichissent-elles le sol ?",
    "choix": [
-    "Parce que leurs feuilles retiennent la pluie et limitent l'érosion",
-    "Parce qu'elles poussent en hiver et réchauffent la terre",
-    "Parce qu'elles épuisent les mauvaises herbes concurrentes",
+    "Parce que leurs feuilles retiennent la pluie et limitent fortement l'érosion des sols",
+    "Parce qu'elles poussent en hiver et réchauffent la terre gelée",
+    "Parce qu'elles épuisent les mauvaises herbes qui leur font concurrence",
     "Parce que des bactéries logées dans leurs racines captent l'azote de l'air"
    ],
    "bonne": 3,
@@ -183,9 +183,9 @@
    "q": "Que permet le procédé Haber-Bosch, mis au point au début du XXe siècle ?",
    "choix": [
     "Fabriquer de l'ammoniac à partir de l'azote de l'air, base des engrais azotés",
-    "Sélectionner des variétés de blé à haut rendement",
+    "Sélectionner des variétés de blé à très haut rendement adaptées aux climats secs",
     "Conserver les récoltes par le froid pendant plusieurs mois",
-    "Mesurer la teneur en minéraux d'un sol agricole"
+    "Mesurer la teneur en minéraux d'un sol agricole cultivé"
    ],
    "bonne": 0,
    "difficulte": 3,

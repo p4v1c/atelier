@@ -117,8 +117,8 @@
    "q": "Comment fonctionnait le télégraphe optique mis au point par Claude Chappe en 1794 ?",
    "choix": [
     "Par des impulsions électriques envoyées dans un fil de cuivre",
-    "Par des miroirs réfléchissant la lumière du soleil vers le poste suivant",
-    "Par des ballons porteurs de messages écrits",
+    "Par des miroirs orientables réfléchissant la lumière du soleil vers le poste d'observation suivant",
+    "Par des ballons porteurs de messages écrits lâchés au vent",
     "Par des bras articulés placés sur des tours et observés à la lunette d'un poste à l'autre"
    ],
    "bonne": 3,
@@ -128,10 +128,10 @@
   {
    "q": "Quel est l'intérêt principal du code Morse pour la télégraphie électrique ?",
    "choix": [
-    "Il permet de transmettre directement le son de la voix",
+    "Il permet de transmettre directement le son de la voix humaine",
     "Il représente chaque lettre par une suite de points et de traits, les lettres fréquentes recevant les codes les plus courts",
     "Il chiffre les messages pour les rendre incompréhensibles à l'ennemi",
-    "Il supprime le besoin d'un opérateur à l'arrivée"
+    "Il supprime le besoin d'un opérateur à l'arrivée du message"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -143,7 +143,7 @@
     "Elle est disputée : Meucci, Gray et Bell ont travaillé sur des dispositifs proches, et Bell a obtenu le brevet en 1876",
     "Elle revient sans conteste à Thomas Edison, seul inventeur du procédé",
     "Elle revient à Guglielmo Marconi, qui l'a breveté en 1901",
-    "Elle est attribuée à Heinrich Hertz depuis ses expériences de 1887"
+    "Elle est attribuée sans la moindre discussion à Heinrich Hertz, depuis les expériences qu'il a menées à Karlsruhe en 1887"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -154,8 +154,8 @@
    "choix": [
     "Parce qu'il est maintenu en place par ses moteurs allumés en permanence",
     "Parce qu'à environ trente-six mille kilomètres au-dessus de l'équateur, sa période de révolution est de vingt-quatre heures",
-    "Parce qu'il est trop éloigné pour que son mouvement soit perceptible",
-    "Parce que la gravité terrestre est nulle à cette altitude"
+    "Parce qu'il est trop éloigné pour que son mouvement soit perceptible depuis le sol",
+    "Parce que la gravité terrestre devient nulle à cette altitude"
    ],
    "bonne": 1,
    "difficulte": 3,
@@ -164,7 +164,7 @@
   {
    "q": "Sur quel principe physique repose la fibre optique, dont Charles Kao a montré en 1966 le potentiel pour les télécommunications ?",
    "choix": [
-    "Sur la conduction du courant électrique par un fil de verre",
+    "Sur la conduction du courant électrique le long d'un fil de verre parfaitement pur",
     "Sur le guidage de la lumière dans un verre très pur grâce à la réflexion totale",
     "Sur l'émission d'ondes radio par un filament chauffé",
     "Sur la propagation du son dans un matériau solide"

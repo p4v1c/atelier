@@ -146,9 +146,9 @@
   {
    "q": "Qui a mis au point, dès 1932 puis avec des bombes électromécaniques en 1938, les premières attaques efficaces contre Enigma ?",
    "choix": [
-    "Arthur Scherbius",
-    "Blaise de Vigenère",
-    "Friedrich Kasiski",
+    "Arthur Scherbius, ingénieur allemand",
+    "Blaise de Vigenère, diplomate français",
+    "Friedrich Kasiski, officier prussien",
     "Marian Rejewski et l'équipe polonaise"
    ],
    "bonne": 3,
@@ -170,10 +170,10 @@
   {
    "q": "Sur quel problème mathématique repose la sécurité du chiffrement RSA ?",
    "choix": [
-    "le calcul de la racine carrée d'un nombre entier",
+    "le calcul de la racine carrée d'un nombre entier très grand",
     "le tracé d'un triangle rectangle dans un cercle",
     "la difficulté de retrouver les deux facteurs premiers d'un très grand nombre",
-    "l'impossibilité de compter au-delà de mille milliards"
+    "l'impossibilité supposée de compter au-delà de mille milliards de milliards d'unités"
    ],
    "bonne": 2,
    "difficulte": 3,

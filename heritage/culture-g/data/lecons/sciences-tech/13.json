@@ -144,10 +144,10 @@
   {
    "q": "Quel est l'apport technique le plus décisif des frères Wright ?",
    "choix": [
-    "L'invention du moteur à essence léger",
+    "L'invention du moteur à essence léger et puissant",
     "Le pilotage sur trois axes, associant gouverne de direction et gauchissement des ailes",
     "La construction d'une aile entièrement métallique",
-    "Le premier décollage sans dispositif de lancement"
+    "Le premier décollage réalisé sans aucun dispositif de lancement ni rail installé au sol"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -156,10 +156,10 @@
   {
    "q": "Dans un turboréacteur, quel est le rôle de la turbine placée après la chambre de combustion ?",
    "choix": [
-    "Elle refroidit les gaz avant leur éjection",
-    "Elle sert de frein en cas d'atterrissage",
+    "Elle refroidit les gaz avant leur éjection dans l'atmosphère",
+    "Elle sert de frein au moment de l'atterrissage",
     "Elle entraîne le compresseur situé à l'avant du moteur",
-    "Elle produit l'électricité de bord de l'avion"
+    "Elle produit toute l'électricité de bord de l'avion"
    ],
    "bonne": 2,
    "difficulte": 3,

@@ -124,10 +124,10 @@
     {
       "q": "Quelle part des dépenses de santé l'assurance maladie prend-elle en charge en France ?",
       "choix": [
-        "Environ un quart",
-        "Environ la moitié",
+        "Environ un quart des dépenses",
+        "Environ la moitié seulement",
         "Environ les trois quarts",
-        "La totalité"
+        "La totalité, sans reste à charge"
       ],
       "bonne": 2,
       "difficulte": 2,
@@ -137,9 +137,9 @@
       "q": "Qu'a instauré la loi du 13 août 2004 en matière d'organisation des soins ?",
       "choix": [
         "Le parcours de soins coordonnés et le médecin traitant",
-        "La couverture maladie universelle",
-        "Les agences régionales de santé",
-        "La création de la Sécurité sociale"
+        "La couverture maladie universelle au profit des plus démunis",
+        "La création des agences régionales de santé",
+        "La création de la Sécurité sociale et de ses branches"
       ],
       "bonne": 0,
       "difficulte": 2,
@@ -148,9 +148,9 @@
     {
       "q": "Quand les agences régionales de santé ont-elles été mises en place ?",
       "choix": [
-        "En 1945",
-        "En 1999",
-        "En 2004",
+        "Le 4 octobre 1945",
+        "Le 1er juillet 1999",
+        "Le 1er janvier 2004",
         "Le 1er avril 2010"
       ],
       "bonne": 3,
@@ -160,10 +160,10 @@
     {
       "q": "Que désigne l'expression désert médical ?",
       "choix": [
-        "Un hôpital fermé pendant l'été",
+        "Un hôpital dont les services ferment pendant la période estivale",
         "Un territoire où l'offre de soins est très insuffisante au regard des besoins",
-        "Une spécialité médicale en voie de disparition",
-        "Une zone où les soins ne sont pas remboursés"
+        "Une spécialité médicale que plus aucun étudiant ne choisit",
+        "Une zone du territoire où les soins ne sont pas remboursés par l'assurance maladie"
       ],
       "bonne": 1,
       "difficulte": 1,
@@ -172,10 +172,10 @@
     {
       "q": "Qu'est-ce que la protection universelle maladie, entrée en vigueur en 2016 ?",
       "choix": [
-        "Une assurance privée obligatoire",
-        "Un dispositif réservé aux salariés du secteur privé",
+        "Une assurance privée rendue obligatoire pour tous les résidents",
+        "Un dispositif de prise en charge des frais de santé réservé aux seuls salariés du secteur privé et à leur famille",
         "Un système rattachant la prise en charge des frais de santé à la résidence stable et régulière en France",
-        "Une aide financière versée aux hôpitaux"
+        "Une aide financière versée aux hôpitaux publics pour compenser les soins non payés"
       ],
       "bonne": 2,
       "difficulte": 3,

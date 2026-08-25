@@ -137,10 +137,10 @@
   {
    "q": "Quand la Constitution de la IVe République entre-t-elle en vigueur ?",
    "choix": [
-    "Le 8 mai 1945",
+    "Le 13 novembre 1945",
     "Le 27 octobre 1946",
-    "Le 13 mai 1958",
-    "Le 4 octobre 1958"
+    "Le 4 octobre 1958",
+    "Le 13 mai 1958"
    ],
    "bonne": 1,
    "difficulte": 1,
@@ -149,9 +149,9 @@
   {
    "q": "Pourquoi le général de Gaulle démissionne-t-il en janvier 1946 ?",
    "choix": [
-    "Parce qu'il est battu à une élection présidentielle",
-    "Parce qu'il refuse le plan Marshall",
-    "Parce qu'il désapprouve les nationalisations",
+    "Parce qu'il est battu à l'élection présidentielle par Vincent Auriol",
+    "Parce qu'il refuse l'aide américaine du plan Marshall",
+    "Parce qu'il désapprouve les nationalisations décidées en 1945",
     "Parce qu'il refuse ce qu'il appelle le régime exclusif des partis"
    ],
    "bonne": 3,
@@ -161,10 +161,10 @@
   {
    "q": "Quelle est la principale faiblesse politique de la IVe République ?",
    "choix": [
-    "L'absence de suffrage universel",
-    "L'interdiction des partis politiques",
+    "La domination du président de la République sur un Parlement réduit au silence",
+    "L'interdiction des partis politiques d'opposition par la Constitution",
     "L'instabilité ministérielle, avec une vingtaine de gouvernements en douze ans",
-    "La domination du président de la République sur le Parlement"
+    "L'absence de suffrage universel, réservé aux seuls contribuables"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -174,9 +174,9 @@
    "q": "Quel événement met fin à la guerre d'Indochine en 1954 ?",
    "choix": [
     "La défaite de Diên Biên Phu suivie des accords de Genève",
-    "L'expédition de Suez",
-    "Le référendum sur la Communauté européenne de défense",
-    "L'insurrection du 1er novembre en Algérie"
+    "L'expédition de Suez menée avec les Britanniques et les Israéliens",
+    "Le rejet parlementaire de la Communauté européenne de défense",
+    "L'insurrection du 1er novembre 1954 en Algérie"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -185,10 +185,10 @@
   {
    "q": "Comment le général de Gaulle revient-il au pouvoir en 1958 ?",
    "choix": [
-    "Par un coup d'État militaire à Paris",
+    "Par un coup d'État militaire mené par les parachutistes à Paris",
     "Il est investi président du Conseil par l'Assemblée nationale le 1er juin 1958",
-    "Il est élu au suffrage universel direct",
-    "Il est nommé par les autorités américaines"
+    "Il est élu au suffrage universel direct dès le mois de juin 1958",
+    "Il est nommé par les autorités américaines et britanniques"
    ],
    "bonne": 1,
    "difficulte": 3,

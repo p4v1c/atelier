@@ -104,10 +104,10 @@
   {
    "q": "Pourquoi les bâtisseurs antiques ont-ils tant utilisé l'arc et la voûte pour franchir de grandes portées ?",
    "choix": [
-    "Parce que ces formes coûtaient moins cher en pierre taillée",
-    "Parce qu'elles étaient imposées par la religion romaine",
+    "Parce que ces formes coûtaient moins cher en pierre taillée et en main-d'oeuvre",
+    "Parce qu'elles étaient imposées par la religion romaine et ses architectes",
     "Parce que la pierre résiste très bien à la compression mais mal à la traction, et que l'arc la fait travailler en compression",
-    "Parce qu'elles permettaient de se passer totalement de fondations"
+    "Parce qu'elles permettaient de se passer totalement de fondations, même lorsque le sol était meuble ou gorgé d'eau au pied du mur"
    ],
    "bonne": 2,
    "difficulte": 3,
@@ -116,8 +116,8 @@
   {
    "q": "Quel est le principe du béton armé ?",
    "choix": [
-    "Chauffer le béton pour le durcir plus vite",
-    "Remplacer le ciment par de la résine plastique",
+    "Chauffer le béton pour le faire durcir beaucoup plus vite",
+    "Remplacer le ciment par une résine plastique souple",
     "Couler le béton dans des moules en acier réutilisables",
     "Noyer des barres d'acier dans le béton pour qu'elles reprennent les efforts de traction"
    ],
@@ -128,10 +128,10 @@
   {
    "q": "Quelle invention a été indispensable pour rendre habitables les premiers gratte-ciel ?",
    "choix": [
-    "Le chauffage central au gaz",
-    "La climatisation électrique",
+    "Le chauffage central au gaz de ville",
+    "La climatisation électrique des bureaux",
     "L'ascenseur muni d'un dispositif de sécurité, démontré par Elisha Otis en 1853",
-    "Le double vitrage isolant"
+    "Le double vitrage isolant posé sur les grandes façades vitrées des immeubles de bureaux"
    ],
    "bonne": 2,
    "difficulte": 1,
@@ -141,9 +141,9 @@
    "q": "Quel enseignement les ingénieurs ont-ils tiré de l'effondrement du pont de Tacoma Narrows en 1940 ?",
    "choix": [
     "Qu'il faut tenir compte des effets aérodynamiques et essayer les tabliers en soufflerie",
-    "Que le béton armé est inadapté aux ponts suspendus",
+    "Que le béton armé est totalement inadapté à la construction des ponts suspendus de grande portée",
     "Que les ponts doivent être construits depuis les deux rives à la fois",
-    "Que la rouille est la principale cause de rupture des câbles"
+    "Que la rouille est la principale cause de rupture des câbles porteurs"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -152,9 +152,9 @@
   {
    "q": "Quel obstacle majeur, autre que technique, a longtemps bloqué le chantier du canal de Panama ?",
    "choix": [
-    "L'absence de machines capables de creuser la roche",
+    "L'absence de machines capables de creuser la roche dure",
     "L'interdiction de creuser imposée par un traité international",
-    "L'impossibilité de construire des écluses à cette latitude",
+    "L'impossibilité, reconnue à l'époque, de construire des écluses à cette latitude tropicale",
     "Les maladies transmises par les moustiques, notamment la fièvre jaune et le paludisme"
    ],
    "bonne": 3,

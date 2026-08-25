@@ -130,10 +130,10 @@
   {
    "q": "Sur quelle observation Edward Jenner s'appuie-t-il en 1796 pour mettre au point sa protection contre la variole ?",
    "choix": [
-    "Les malades soignés par saignée guérissaient plus vite",
+    "Les malades soignés par saignée guérissaient plus vite que les autres",
     "Les personnes vivant en ville étaient naturellement immunisées",
     "Les vachères ayant eu la vaccine, maladie bénigne des bovins, n'attrapaient pas la variole",
-    "Les enfants nourris au lait cru résistaient mieux aux épidémies"
+    "Les enfants nourris au lait cru résistaient bien mieux aux épidémies de variole que les autres"
    ],
    "bonne": 2,
    "difficulte": 1,
@@ -181,7 +181,7 @@
     "Parce qu'il ne pouvait pas encore expliquer la cause des infections, la théorie microbienne n'existant pas",
     "Parce que ses statistiques montraient une hausse de la mortalité",
     "Parce que le chlore était interdit dans les hôpitaux de l'époque",
-    "Parce qu'il travaillait dans un service vétérinaire sans lien avec les accouchements"
+    "Parce qu'il travaillait dans un service vétérinaire qui n'avait aucun lien avec les accouchements des femmes"
    ],
    "bonne": 0,
    "difficulte": 3,

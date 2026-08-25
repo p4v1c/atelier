@@ -125,10 +125,10 @@
   {
    "q": "D'où vient le mot « robot » ?",
    "choix": [
-    "Du nom de l'ingénieur américain qui construisit l'Unimate",
+    "Du nom de l'ingénieur américain qui construisit le premier Unimate",
     "Du tchèque robota, la corvée, employé dans la pièce R.U.R. de Karel Capek en 1920",
     "Du latin robur, qui signifie la force et la solidité",
-    "Du grec ancien, où il désignait les automates des temples"
+    "Du grec ancien, où il désignait les automates qui servaient dans les temples des dieux"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -149,9 +149,9 @@
   {
    "q": "À quoi sert la rétropropagation du gradient dans un réseau de neurones ?",
    "choix": [
-    "À augmenter la vitesse du processeur pendant le calcul",
+    "À augmenter la vitesse du processeur pendant tout le calcul",
     "À traduire automatiquement le programme dans un autre langage",
-    "À stocker les images d'apprentissage dans la mémoire de la machine",
+    "À stocker l'ensemble des images d'apprentissage dans la mémoire vive interne de la machine",
     "À renvoyer l'erreur constatée en sortie vers l'arrière pour corriger chaque connexion"
    ],
    "bonne": 3,

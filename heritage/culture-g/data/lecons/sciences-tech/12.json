@@ -155,10 +155,10 @@
   {
    "q": "Pourquoi Newton a-t-il remplacé la lentille par un miroir dans son télescope de 1668 ?",
    "choix": [
-    "Parce que le verre était devenu trop coûteux",
-    "Parce qu'un miroir est plus léger à transporter",
+    "Parce que le verre était devenu beaucoup trop coûteux",
+    "Parce qu'un miroir est bien plus léger à transporter",
     "Parce qu'un miroir renvoie toutes les couleurs de la même façon et supprime l'aberration chromatique",
-    "Parce que le miroir permet de voir aussi le jour"
+    "Parce que le miroir permet d'observer aussi bien pendant le jour que pendant la nuit sans être ébloui"
    ],
    "bonne": 2,
    "difficulte": 3,
@@ -179,9 +179,9 @@
   {
    "q": "Pourquoi un microscope optique ne peut-il pas distinguer des détails plus fins qu'environ 250 nanomètres ?",
    "choix": [
-    "Parce que les lentilles de verre sont imparfaites",
-    "Parce que l'œil humain ne perçoit pas au-delà",
-    "Parce que l'échantillon serait détruit par la lumière",
+    "Parce que les lentilles de verre sont toujours imparfaites",
+    "Parce que l'œil humain ne perçoit rien au-delà de cette taille",
+    "Parce que l'échantillon observé finirait par être détruit par la lumière du microscope",
     "À cause de la diffraction, la lumière étant une onde de longueur d'onde non nulle"
    ],
    "bonne": 3,

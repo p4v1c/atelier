@@ -1218,9 +1218,9 @@
      "q": "Quel événement du 28 juin 1914 déclenche l'engrenage menant à la Première Guerre mondiale ?",
      "choix": [
       "L'assassinat de l'archiduc François-Ferdinand à Sarajevo",
-      "L'invasion de la Belgique",
-      "La mobilisation générale russe",
-      "Le naufrage du Lusitania"
+      "La mobilisation générale décrétée par la Russie le 30 juillet",
+      "Le naufrage du Lusitania torpillé par un sous-marin allemand",
+      "L'invasion de la Belgique neutre par l'armée allemande"
      ],
      "bonne": 0,
      "difficulte": 1,
@@ -1230,9 +1230,9 @@
      "q": "Quelle offensive française de 1917 provoque des mutineries dans l'armée ?",
      "choix": [
       "L'offensive du Chemin des Dames",
-      "La bataille de la Marne",
-      "La bataille de Verdun",
-      "L'offensive de la Somme"
+      "L'offensive de la Somme, à l'été 1916",
+      "La bataille de Verdun, en 1916",
+      "La bataille de la Marne, en 1914"
      ],
      "bonne": 0,
      "difficulte": 3,

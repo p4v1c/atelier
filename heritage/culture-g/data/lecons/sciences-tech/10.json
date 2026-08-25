@@ -125,9 +125,9 @@
    "q": "Qui fabrique, vers 1040, les premiers caractères mobiles connus ?",
    "choix": [
     "L'artisan chinois Bi Sheng, avec des caractères en terre cuite",
-    "Un moine coréen, avec des caractères en bronze",
+    "Un moine coréen, avec des caractères en bronze fondu",
     "Johannes Gutenberg, avec des caractères en plomb",
-    "Un imprimeur vénitien, avec des caractères en bois"
+    "Un imprimeur vénitien, avec des caractères gravés un à un dans le bois"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -160,9 +160,9 @@
   {
    "q": "Quelle machine fait entrer l'imprimerie dans l'ère industrielle en 1814 ?",
    "choix": [
-    "La rotative de Richard March Hoe",
-    "La presse entièrement métallique de Charles Stanhope",
-    "Les rotatives d'Hippolyte Marinoni",
+    "La rotative américaine de Richard March Hoe",
+    "La presse entièrement métallique de Charles Stanhope, tout en fonte massive",
+    "Les rotatives à papier continu d'Hippolyte Marinoni",
     "La presse mécanique à vapeur de Friedrich Koenig, utilisée par The Times"
    ],
    "bonne": 3,

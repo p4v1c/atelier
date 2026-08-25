@@ -116,9 +116,9 @@
    "q": "Qu'est-ce qui distingue principalement le thriller du roman à énigme ?",
    "choix": [
     "Il empêche un danger à venir plutôt que d'élucider un crime passé",
-    "Il se déroule toujours en huis clos",
-    "Il refuse toute présence policière",
-    "Il est écrit exclusivement à la première personne"
+    "Il se déroule toujours en huis clos, dans un lieu unique",
+    "Il refuse toute présence policière dans le récit",
+    "Il est écrit exclusivement à la première personne, du point de vue du coupable"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -139,10 +139,10 @@
   {
    "q": "Dans quel type de publication naît le roman noir américain des années 1920 ?",
    "choix": [
-    "Les grands quotidiens du soir",
+    "Les grands quotidiens du soir de la côte Est",
     "Les pulps, magazines populaires à bas prix",
-    "Les revues universitaires",
-    "Les almanachs illustrés pour la jeunesse"
+    "Les revues universitaires de critique littéraire",
+    "Les almanachs illustrés destinés à la jeunesse"
    ],
    "bonne": 1,
    "difficulte": 1,

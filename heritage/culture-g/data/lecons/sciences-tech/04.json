@@ -101,10 +101,10 @@
   {
    "q": "Quelle amélioration décisive James Watt apporte-t-il à la machine à vapeur de Newcomen ?",
    "choix": [
-    "Il remplace le charbon par du pétrole",
+    "Il remplace le charbon par du pétrole raffiné, plus énergétique",
     "Il ajoute un condenseur séparé, évitant de réchauffer et refroidir sans cesse le cylindre",
     "Il supprime la chaudière et utilise directement l'air comprimé",
-    "Il double la taille du piston pour augmenter la puissance"
+    "Il double la taille du piston et la course du balancier afin d'augmenter la puissance délivrée"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -113,9 +113,9 @@
   {
    "q": "Pourquoi le courant alternatif a-t-il fini par s'imposer sur le courant continu pour la distribution de l'électricité ?",
    "choix": [
-    "Parce qu'il est moins dangereux à toucher",
-    "Parce qu'il permet d'éclairer avec moins d'ampoules",
-    "Parce qu'il se produit sans avoir besoin d'alternateur",
+    "Parce qu'il est moins dangereux à toucher que le courant continu",
+    "Parce qu'il permet d'éclairer avec moins d'ampoules pour la même surface",
+    "Parce qu'il se produit sans avoir besoin d'alternateur ni de dynamo",
     "Parce que le transformateur permet d'élever la tension et de limiter les pertes sur de longues distances"
    ],
    "bonne": 3,
@@ -125,10 +125,10 @@
   {
    "q": "Qu'ont observé Otto Hahn et Fritz Strassmann en 1938 ?",
    "choix": [
-    "Que l'uranium émet spontanément de la lumière visible",
-    "Que deux noyaux légers fusionnent en un noyau lourd",
+    "Que l'uranium émet spontanément de la lumière visible dans l'obscurité",
+    "Que deux noyaux légers fusionnent en un noyau lourd en libérant de l'énergie",
     "Qu'en bombardant l'uranium avec des neutrons on obtient du baryum, élément beaucoup plus léger",
-    "Que les neutrons ne peuvent pas pénétrer dans un noyau atomique"
+    "Que les neutrons ne peuvent en aucun cas pénétrer dans le noyau d'un atome lourd comme l'uranium"
    ],
    "bonne": 2,
    "difficulte": 3,
@@ -138,9 +138,9 @@
    "q": "Quel scientifique a calculé dès 1896 que le dioxyde de carbone rejeté par la combustion pouvait réchauffer l'atmosphère ?",
    "choix": [
     "Svante Arrhenius",
-    "Michael Faraday",
-    "Enrico Fermi",
-    "Edwin Drake"
+    "Michael Faraday, physicien anglais",
+    "Enrico Fermi, physicien italien",
+    "Edwin Drake, foreur américain"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -149,10 +149,10 @@
   {
    "q": "Quelle limite commune partagent les moulins à eau et à vent traditionnels, et que le charbon a permis de dépasser ?",
    "choix": [
-    "Ils exigeaient une main-d'oeuvre plus nombreuse que les machines à vapeur",
+    "Ils exigeaient une main-d'oeuvre bien plus nombreuse que celle qu'employaient les machines à vapeur",
     "Leur énergie était intermittente et ne pouvait pas être transportée jusqu'à l'atelier",
-    "Ils ne pouvaient servir qu'à moudre le grain",
-    "Ils étaient interdits en dehors des villes"
+    "Ils ne pouvaient servir qu'à moudre le grain des paysans",
+    "Ils étaient interdits en dehors des villes fortifiées par les seigneurs"
    ],
    "bonne": 1,
    "difficulte": 2,

@@ -87,9 +87,9 @@
    "q": "Quel avantage décisif le codex apporte-t-il par rapport au rouleau de papyrus ?",
    "choix": [
     "Il permet la lecture directe d'un passage et l'annotation",
-    "Il coûte beaucoup moins cher à produire",
-    "Il se lit sans lumière artificielle",
-    "Il supprime le besoin de copistes"
+    "Il coûte beaucoup moins cher à produire que le rouleau de papyrus",
+    "Il se lit sans lumière artificielle, même en plein air",
+    "Il supprime le besoin de recourir à des copistes"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -98,10 +98,10 @@
   {
    "q": "Quels perfectionnements Gutenberg réunit-il vers 1450 ?",
    "choix": [
-    "Le papier, la reliure et la gravure sur cuivre",
-    "La photographie, l'offset et le brochage",
+    "Le papier de chiffon, la reliure et la gravure sur cuivre",
+    "La photographie, l'impression offset et le brochage à chaud",
     "L'alliage pour caractères mobiles, une presse améliorée et une encre grasse",
-    "La sténographie, l'alphabet latin et le format in-octavo"
+    "La sténographie, l'alphabet latin, le format in-octavo et la reliure souple"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -113,7 +113,7 @@
     "Des codices",
     "Des incunables",
     "Des in-folio",
-    "Des chapbooks"
+    "Des chapbooks anglais"
    ],
    "bonne": 1,
    "difficulte": 3,
@@ -122,10 +122,10 @@
   {
    "q": "Qu'est-ce que la Bibliothèque bleue ?",
    "choix": [
-    "La première bibliothèque publique de France",
-    "Le catalogue des imprimeurs de Mayence",
+    "La première bibliothèque publique ouverte en France",
+    "Le catalogue des imprimeurs installés à Mayence",
     "Une collection de livres populaires bon marché diffusés par colportage",
-    "Le fonds de manuscrits enluminés des rois de France"
+    "Le fonds de manuscrits enluminés rassemblé par les rois de France à Blois"
    ],
    "bonne": 2,
    "difficulte": 3,
@@ -134,10 +134,10 @@
   {
    "q": "Quelles sont les trois fonctions essentielles de l'éditeur ?",
    "choix": [
-    "Imprimer, relier, vendre",
+    "Imprimer les feuilles, relier, vendre",
     "Choisir et produire, légitimer, diffuser",
-    "Écrire, corriger, traduire",
-    "Financer, stocker, exporter"
+    "Écrire, corriger et traduire les textes",
+    "Financer, stocker et exporter les tirages"
    ],
    "bonne": 1,
    "difficulte": 2,

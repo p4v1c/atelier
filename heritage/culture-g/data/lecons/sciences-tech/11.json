@@ -129,10 +129,10 @@
   {
    "q": "Dans une horloge mécanique, à quoi sert l'échappement ?",
    "choix": [
-    "À enrouler la corde du poids moteur",
+    "À enrouler la corde du poids moteur autour du tambour",
     "À libérer le mouvement par petites quantités égales et régulières",
-    "À faire sonner les cloches aux heures justes",
-    "À corriger la longueur du jour selon la saison"
+    "À faire sonner les cloches aux heures justes de la journée",
+    "À corriger automatiquement la longueur du jour selon la saison de l'année"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -141,10 +141,10 @@
   {
    "q": "De quoi dépend la période d'oscillation d'un pendule ?",
    "choix": [
-    "De la masse suspendue uniquement",
+    "De la masse suspendue à son extrémité",
     "De la masse et de la couleur du fil",
     "De la longueur du fil et de la pesanteur, mais pas de la masse",
-    "De l'amplitude, qui doit être maximale"
+    "De l'amplitude, qui doit rester maximale"
    ],
    "bonne": 2,
    "difficulte": 3,
@@ -155,8 +155,8 @@
    "choix": [
     "Elle passe d'environ quinze minutes à environ quinze secondes d'erreur par jour",
     "Elle passe d'une heure à une minute d'erreur par jour",
-    "Elle ne se dérègle plus jamais",
-    "Elle divise l'erreur par deux seulement"
+    "Elle ne se dérègle plus jamais, même après plusieurs années de fonctionnement continu",
+    "Elle divise l'erreur quotidienne par deux seulement"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -167,7 +167,7 @@
    "choix": [
     "Comme la 86 400e partie du jour solaire moyen",
     "Comme la durée de 9 192 631 770 périodes d'une transition de l'atome de césium 133",
-    "Comme la durée d'oscillation d'un pendule d'un mètre",
+    "Comme la durée d'oscillation d'un pendule d'un mètre de longueur",
     "Comme la 31 556 926e partie de l'année tropique"
    ],
    "bonne": 1,
@@ -177,9 +177,9 @@
   {
    "q": "Pourquoi le pape Grégoire XIII a-t-il réformé le calendrier en 1582 ?",
    "choix": [
-    "Pour ajouter un treizième mois à l'année",
+    "Pour ajouter un treizième mois à l'année civile",
     "Pour aligner le calendrier chrétien sur le calendrier musulman",
-    "Pour faire commencer l'année le 1er janvier",
+    "Pour faire commencer l'année au 1er janvier plutôt qu'au jour de Pâques comme auparavant",
     "Parce que l'année julienne, trop longue, avait décalé l'équinoxe de dix jours"
    ],
    "bonne": 3,

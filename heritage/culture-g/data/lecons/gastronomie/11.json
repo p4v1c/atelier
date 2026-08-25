@@ -120,10 +120,10 @@
   {
    "q": "En quoi consiste l'appertisation, mise au point à partir de 1795 ?",
    "choix": [
-    "Sécher les aliments au four avant de les emballer",
+    "Sécher très longuement les aliments au four avant de les emballer sous vide d'air",
     "Enfermer l'aliment dans un récipient hermétique puis le chauffer longuement",
-    "Immerger les aliments dans une saumure saturée",
-    "Injecter un gaz inerte dans l'emballage"
+    "Immerger les aliments dans une saumure saturée pendant plusieurs mois",
+    "Injecter un gaz inerte dans l'emballage pour chasser l'oxygène"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -132,9 +132,9 @@
   {
    "q": "Qu'est-ce qui distingue un lait pasteurisé d'un lait stérilisé UHT ?",
    "choix": [
-    "Le lait pasteurisé est chauffé plus fort",
-    "Le lait UHT contient des conservateurs chimiques",
-    "Le lait pasteurisé a été écrémé",
+    "Le lait pasteurisé est chauffé bien plus fort que le lait UHT",
+    "Le lait UHT contient des conservateurs chimiques qui le rendent stable à température ambiante",
+    "Le lait pasteurisé a été écrémé, contrairement au lait UHT",
     "Le lait pasteurisé garde des micro-organismes vivants et doit rester au froid"
    ],
    "bonne": 3,
@@ -156,10 +156,10 @@
   {
    "q": "Pourquoi la choucroute se conserve-t-elle des mois ?",
    "choix": [
-    "Le chou est stérilisé avant d'être mis en pot",
-    "Le sel seul suffit à tuer tous les micro-organismes",
+    "Le chou est entièrement stérilisé à la vapeur avant d'être mis en pot",
+    "Le sel employé en grande quantité suffit à lui seul à tuer l'ensemble des micro-organismes présents dans le chou",
     "Des bactéries lactiques acidifient le milieu et empêchent les autres microbes de s'y développer",
-    "Le vinaigre ajouté abaisse le pH"
+    "Le vinaigre ajouté en fin de préparation abaisse fortement le pH"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -168,10 +168,10 @@
   {
    "q": "Que traduit le Nutri-Score affiché sur un emballage ?",
    "choix": [
-    "Le degré de transformation industrielle du produit",
+    "Le degré de transformation industrielle subi par le produit",
     "La qualité nutritionnelle globale calculée pour cent grammes",
-    "Le nombre de calories par portion",
-    "L'origine géographique des ingrédients"
+    "Le nombre de calories contenues dans une portion",
+    "L'origine géographique de l'ensemble des ingrédients employés"
    ],
    "bonne": 1,
    "difficulte": 3,

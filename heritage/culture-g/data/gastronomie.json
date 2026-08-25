@@ -799,7 +799,7 @@
      "choix": [
       "Le Ménagier de Paris",
       "Le Viandier",
-      "Le Décaméron",
+      "Le Décaméron de Boccace",
       "Le Roman de la Rose"
      ],
      "bonne": 0,
@@ -809,7 +809,7 @@
     {
      "q": "Que dit l'historiographie moderne du rôle de Catherine de Médicis dans la cuisine française ?",
      "choix": [
-      "Elle a introduit la fourchette et les sorbets",
+      "Elle a introduit en France la fourchette et les sorbets italiens",
       "Son influence culinaire est un mythe forgé au XIXe siècle",
       "Elle a écrit le premier livre de cuisine imprimé",
       "Elle a fondé la première école de cuisine"
@@ -821,8 +821,8 @@
     {
      "q": "Quelle innovation technique le Cuisinier françois de 1651 diffuse-t-il durablement ?",
      "choix": [
-      "La cuisson sous vide",
-      "La conserve appertisée",
+      "La cuisson sous vide à basse température",
+      "La conserve appertisée en bocal de verre scellé à la cire",
       "La liaison des sauces au roux et l'usage des fonds",
       "La cuisson au micro-ondes"
      ],
@@ -833,9 +833,9 @@
     {
      "q": "Qu'est-ce qui distinguait l'établissement du bouillonnier Boulanger des auberges de son temps ?",
      "choix": [
-      "Il ne servait que des plats régionaux",
-      "Il était réservé à la noblesse",
-      "Il proposait des repas gratuits",
+      "Il ne servait que des plats régionaux, venus des différentes provinces du royaume de France",
+      "Il était réservé à la noblesse et fermé au reste du public parisien",
+      "Il proposait des repas gratuits aux voyageurs de passage",
       "On y choisissait son plat sur une carte, à prix affiché et à l'heure de son choix"
      ],
      "bonne": 3,
@@ -845,10 +845,10 @@
     {
      "q": "Que désigne le mot bistronomie apparu à la fin du XXe siècle ?",
      "choix": [
-      "La cuisine moléculaire",
+      "La cuisine moléculaire et ses mousses d'azote",
       "Une cuisine de haute technicité proposée dans des lieux simples et à prix contenus",
-      "La restauration rapide industrielle",
-      "Le service de plats au comptoir des gares"
+      "La restauration rapide industrielle, servie partout en barquettes standardisées et jetables",
+      "Le service de plats chauds au comptoir des buffets de gare"
      ],
      "bonne": 1,
      "difficulte": 2,

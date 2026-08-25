@@ -157,9 +157,9 @@
    "q": "Quelle ordonnance de 1539 impose l'usage du français dans les actes de justice ?",
    "choix": [
     "L'ordonnance de Villers-Cotterêts",
-    "L'édit de Châteaubriant",
-    "L'édit de janvier",
-    "L'ordonnance de Blois"
+    "L'édit de janvier, dit de Saint-Germain",
+    "L'édit de Châteaubriant contre l'hérésie",
+    "L'ordonnance de Blois sur la justice"
    ],
    "bonne": 0,
    "difficulte": 1,
@@ -180,10 +180,10 @@
   {
    "q": "Que garantit l'édit de Nantes signé en avril 1598 ?",
    "choix": [
-    "L'égalité complète des deux religions dans tout le royaume",
+    "La conversion obligatoire des protestants au catholicisme du royaume",
     "La liberté de conscience et un culte protestant limité à certains lieux",
-    "La conversion obligatoire des protestants au catholicisme",
-    "L'interdiction du catholicisme dans les places de sûreté"
+    "L'égalité complète des deux religions dans tout le royaume de France",
+    "L'interdiction du culte catholique dans les places de sûreté protestantes"
    ],
    "bonne": 1,
    "difficulte": 3,

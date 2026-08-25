@@ -414,9 +414,9 @@
   {
    "q": "Quel ingénieur écossais a donné son nom au procédé d'imperméabilisation des tissus au caoutchouc ?",
    "choix": [
-    "John Dunlop",
-    "Charles Goodyear",
-    "James Nasmyth",
+    "John Dunlop, en Écosse",
+    "Charles Goodyear, aux États-Unis",
+    "James Nasmyth, ingénieur",
     "Charles Macintosh"
    ],
    "bonne": 3,
@@ -426,10 +426,10 @@
   {
    "q": "Quel procédé, mis au point en 1856, a permis la production industrielle massive d'acier ?",
    "choix": [
-    "Le haut fourneau à coke",
+    "Le haut fourneau alimenté au coke",
     "Le convertisseur Bessemer",
-    "Le laminage à froid",
-    "L'électrolyse"
+    "Le laminage à froid des tôles",
+    "L'électrolyse du minerai"
    ],
    "bonne": 1,
    "difficulte": 3,
@@ -451,9 +451,9 @@
    "q": "Quel objet du quotidien a été breveté par Whitcomb Judson puis perfectionné par Gideon Sundback en 1913 ?",
    "choix": [
     "La fermeture à glissière",
-    "L'épingle de sûreté",
-    "Le trombone",
-    "L'agrafeuse"
+    "L'épingle de sûreté métallique",
+    "Le trombone à papier",
+    "L'agrafeuse de bureau"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -955,9 +955,9 @@
     {
      "q": "Quelle machine Charles Babbage a-t-il conçue à partir de 1834 sans jamais l'achever ?",
      "choix": [
-      "La machine de Turing",
-      "L'ENIAC",
-      "La Pascaline",
+      "La machine de Turing, théorique",
+      "L'ENIAC américain",
+      "La Pascaline de Pascal",
       "La machine analytique"
      ],
      "bonne": 3,
@@ -968,9 +968,9 @@
      "q": "Qu'apporte l'architecture dite de von Neumann, formalisée en 1945 ?",
      "choix": [
       "Le stockage du programme et des données dans la même mémoire",
-      "La connexion des ordinateurs en réseau",
+      "La connexion des ordinateurs en réseau local",
       "L'usage du courant alternatif dans les circuits",
-      "Le remplacement des tubes par des transistors"
+      "Le remplacement des tubes à vide par des transistors au silicium"
      ],
      "bonne": 0,
      "difficulte": 3,
