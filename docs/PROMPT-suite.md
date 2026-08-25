@@ -149,7 +149,7 @@ corrige le contrôle en expliquant pourquoi.
 ## Ce qu'il ne faut pas faire
 
 - **Ne reconstruis jamais la base.** Toutes les migrations sont additives ; un
-  `prisma migrate reset` détruirait 618 règles, 4 336 phrases et la progression.
+  `prisma migrate reset` détruirait 614 règles, 4 318 phrases et la progression.
   Fais un `pg_dump` dans `sauvegardes/` avant toute migration.
 - Ne touche pas au contenu du français ni de la culture générale.
 - Ne déploie rien : l'Atelier tourne en local, et l'adresse publique sert
