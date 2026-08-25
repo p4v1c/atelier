@@ -11,7 +11,7 @@ La forme populaire est toujours la plus courte et la plus altérée, la savante 
 D'autres mots ont simplement changé de sens. Salaire désignait à l'origine une ration de sel, ou la somme versée pour en acheter, aux soldats romains. Robot vient du tchèque robota, qui signifie le travail forcé, la corvée : le mot a été forgé par l'écrivain Karel Čapek dans une pièce de 1920.`],
     ["Fabriquer des mots", `Plusieurs procédés créent du vocabulaire sans emprunt. Le mot-valise fusionne deux mots — courriel, clavardage, franglais. L'éponyme forme un nom commun sur un nom propre : poubelle vient du préfet Poubelle, silhouette d'un contrôleur des finances, sandwich d'un comte anglais. L'onomatopée imite un son, et varie curieusement d'une langue à l'autre pour un même bruit.
 
-Le calque traduit littéralement une expression étrangère : gratte-ciel décalque skyscraper. L'étymologie populaire, enfin, est un rapprochement erroné qui finit par modifier la forme du mot : choucroute n'a rien à voir avec le chou ni avec la croûte, c'est une déformation de l'alsacien surkrut, et c'est bien la fausse analyse qui a fixé la graphie actuelle.`],
+Le calque traduit littéralement une expression étrangère : gratte-ciel décalque skyscraper. L'étymologie populaire, enfin, est un rapprochement erroné qui finit par modifier la forme du mot : choucroute vient de l'alsacien sürkrüt, littéralement « chou aigre », où sür (aigre) a été réinterprété en « chou » et krüt (chou) en « croûte » — et c'est bien la fausse analyse qui a fixé la graphie actuelle.`],
   ],
 
   "lf-francophonie": [
@@ -375,7 +375,7 @@ Elle est fautive quand elle est involontaire — le participe initial dont le su
 
 Rabelais est le plus fécond de ces créateurs : on lui attribue plusieurs centaines de mots, forgés sur le grec et le latin ou tirés des dialectes — *automate*, *encyclopédie*, *frugal*, *misanthrope*, *quintessence*, *trépignement*. Tous n'ont pas survécu, et beaucoup de ses créations les plus extravagantes sont mortes avec lui, mais son apport au lexique abstrait est considérable.
 
-Le procédé se poursuit ensuite. Alfred Jarry invente la *pataphysique*, « science des solutions imaginaires », et donne au mot *ubuesque* un adjectif tiré de son personnage. Guillaume Apollinaire forge *surréalisme* en 1917 pour qualifier un ballet, mot qu'André Breton reprendra pour son mouvement. Rabelais avait déjà fourni *gargantuesque*, formé sur son géant.
+Le procédé se poursuit ensuite. Alfred Jarry invente la *pataphysique*, « science des solutions imaginaires », et donne au mot *ubuesque* un adjectif tiré de son personnage. Guillaume Apollinaire forge *surréalisme* en 1917 pour qualifier un ballet, mot qu'André Breton reprendra pour son mouvement. Le XIXe siècle tirera de même *gargantuesque* du géant de Rabelais, trois siècles après le livre.
 
 Ces créations se diffusent par la lecture et par l'école : c'est parce que ces textes sont lus, cités et enseignés que leurs inventions passent dans l'usage commun.`],
     ["Fixer le bon usage", `Le XVIIe siècle procède à l'inverse : il épure plutôt qu'il n'invente.
@@ -384,7 +384,7 @@ Malherbe, poète et théoricien, prône l'épuration de la langue poétique : su
 
 Claude Favre de Vaugelas codifie ce mouvement dans ses *Remarques sur la langue françoise* de 1647. Sa définition du bon usage est restée célèbre : « la façon de parler de la plus saine partie de la Cour, conformément à la façon d'écrire de la plus saine partie des Auteurs du temps ». Le critère n'est ni la logique ni l'étymologie mais l'usage d'un groupe social restreint — ce qui explique le caractère largement arbitraire de règles encore enseignées aujourd'hui.
 
-La préciosité, dans les salons contemporains, pousse au contraire vers le raffinement extrême : périphrases élégantes, vocabulaire recherché, refus du terme direct. Moliérisée dans *Les Précieuses ridicules*, elle a laissé une réputation de ridicule qui masque son apport réel — plusieurs mots et tours courants en viennent, et ces salons furent l'un des rares espaces intellectuels ouverts aux femmes.`],
+La préciosité, dans les salons contemporains, pousse au contraire vers le raffinement extrême : périphrases élégantes, vocabulaire recherché, refus du terme direct. Raillée par Molière dans *Les Précieuses ridicules*, elle a laissé une réputation de ridicule qui masque son apport réel — plusieurs mots et tours courants en viennent, et ces salons furent l'un des rares espaces intellectuels ouverts aux femmes.`],
     ["Faire entrer la parole", `Le XXe siècle inverse à nouveau le mouvement en faisant entrer dans l'écrit ce que trois siècles de purisme en avaient exclu.
 
 Céline revendique une langue proche de l'oral populaire, avec l'argot, la syntaxe segmentée et les ruptures de rythme. Son apport n'est pas documentaire mais technique : il reconstruit à l'écrit une impression d'oralité par des moyens purement littéraires, ce qu'il appelait « le petit truc » — l'illusion du parlé obtenue par un travail considérable.
@@ -756,7 +756,7 @@ C'est ce que la sociolinguistique appelle le répertoire du locuteur. Sa richess
 
 Après la conquête britannique de 1763, la population francophone se maintient par la démographie et par l'Église, mais l'économie et le commerce passent progressivement à l'anglais. Jusqu'aux années 1960, les francophones du Québec sont majoritaires en nombre et minoritaires dans les positions économiques ; à Montréal, on travaille en anglais.
 
-La Révolution tranquille, dans les années 1960, transforme rapidement cette situation : l'État québécois se modernise, prend en charge l'éducation et la santé jusque-là confiées à l'Église, et la question de la langue devient politique. Deux référendums sur la souveraineté seront tenus, en 1980 et 1995, le second échouant de moins d'un pour cent.`],
+La Révolution tranquille, dans les années 1960, transforme rapidement cette situation : l'État québécois se modernise, prend en charge l'éducation et la santé jusque-là confiées à l'Église, et la question de la langue devient politique. Deux référendums sur la souveraineté seront tenus, en 1980 et 1995, le second échouant de 1,16 point : 50,58 % contre 49,42 %.`],
     ["La Charte de la langue française", `Adoptée en 1977, la Charte de la langue française — dite loi 101 — fait du français la langue officielle du travail, du commerce, de l'affichage, de l'administration et de l'enseignement.
 
 Ses dispositions les plus structurantes concernent l'école : les enfants d'immigrants doivent être scolarisés en français, ce qui a inversé une tendance où l'immigration se dirigeait majoritairement vers l'anglais. C'est probablement la mesure qui a eu le plus d'effet démographique.
@@ -803,7 +803,7 @@ La projection démographique est le fait le plus important du sujet : la majorit
 
 Le statut du français y est particulier : langue officielle et langue de scolarisation, elle est une langue seconde pour la plupart des locuteurs, qui parlent d'abord une ou plusieurs langues africaines. Le nombre de francophones y varie donc considérablement selon qu'on compte les locuteurs courants ou occasionnels.
 
-Ces pays sont massivement plurilingues, avec des langues véhiculaires puissantes : le wolof au Sénégal, le bambara au Mali, le lingala et le swahili en Afrique centrale et orientale — cette dernière étant parlée par plus de cent millions de personnes.`],
+Ces pays sont massivement plurilingues, avec des langues véhiculaires puissantes : le wolof au Sénégal, le bambara au Mali, le lingala et le swahili en Afrique centrale et orientale, ce dernier étant parlé par plus de cent millions de personnes.`],
     ["Un français qui invente", `Le français populaire africain désigne des variétés urbaines créatives et largement autonomes, nées du contact entre le français scolaire et les langues locales. Elles ne sont pas du français approximatif : elles ont leurs règles, leur lexique et leur stabilité.
 
 Le nouchi ivoirien en est l'exemple le plus étudié. Né dans les quartiers populaires d'Abidjan, il mêle français, dioula, baoulé, anglais et créations propres, et il s'est diffusé bien au-delà de son milieu d'origine par la musique et l'humour. Il a la particularité rare d'être devenu un marqueur identitaire national plutôt que le parler d'un groupe.
@@ -827,7 +827,7 @@ Rabelais est le plus prolifique : *automate*, *encyclopédie*, *frugal*, *misant
 
 Thomas More crée *utopie* en 1516, en latin, à partir du grec : *ou-topos*, le lieu qui n'est nulle part — avec un jeu sur *eu-topos*, le lieu du bien, que la prononciation anglaise rend homophone. Le mot a donné un genre littéraire entier et un adjectif d'usage courant.
 
-Alfred Jarry forge *pataphysique*, science des solutions imaginaires et des lois régissant les exceptions. Guillaume Apollinaire crée *surréalisme* en 1917 pour qualifier le ballet *Parade*, mot qu'André Breton reprendra trois ans plus tard pour baptiser son mouvement — l'un des rares cas où un néologisme a désigné un courant avant qu'il n'existe.`],
+Alfred Jarry forge *pataphysique*, science des solutions imaginaires et des lois régissant les exceptions. Guillaume Apollinaire crée *surréalisme* en 1917 pour qualifier le ballet *Parade*, mot qu'André Breton reprendra en 1924 pour baptiser son mouvement — l'un des rares cas où un néologisme a désigné un courant avant qu'il n'existe.`],
     ["Des personnages devenus des noms", `Un second procédé enrichit la langue : le personnage littéraire dont le nom devient un mot commun.
 
 Molière en a fourni plusieurs. *Tartuffe* désigne un hypocrite affectant la dévotion — la pièce fut interdite plusieurs années, ce qui contribua à installer le mot. *Harpagon*, personnage de *L'Avare*, désigne un avare ; le nom vient du grec signifiant crochet, ce qui était déjà une indication.
@@ -1167,7 +1167,7 @@ Les défis actuels sont de deux ordres. La concurrence d'autres langues d'abord 
 
 Il doit en outre compenser ce que l'écrit ne porte pas. L'intonation, le sourire, le regard qui accompagnent la parole disparaissent, et le message risque en permanence d'être lu plus sèchement qu'il n'était pensé. Les conventions numériques répondent précisément à ce manque.
 
-Les usages numériques ont surtout créé des marques de ponctuation nouvelles : un point final en fin de message court y est lu comme sec ou fâché, l'absence de ponctuation comme neutre, la majuscule prolongée comme un cri. Ces valeurs ne sont écrites dans aucune grammaire et s'apprennent par la pratique.
+Les usages numériques ont surtout créé des marques de ponctuation nouvelles : les codes y sont fins et non écrits, et se déplacent vite d'une plateforme à l'autre. Ces valeurs ne sont écrites dans aucune grammaire et s'apprennent par la pratique.
 
 La majuscule intégrale est perçue comme un cri ou une insistance forte, convention si bien installée qu'elle est enseignée dans les chartes d'usage. La ponctuation a de même acquis des valeurs nouvelles : un point final dans un message court est lu comme sec ou fâché par les jeunes locuteurs, alors qu'il ne signalait rien d'autre qu'une fin de phrase.`],
     ["Les codes des plateformes", `Le registre écrit sur les réseaux sociaux varie fortement selon la plateforme et le public visé. Un même locuteur écrit différemment sur un réseau professionnel, sur un réseau d'images, dans un groupe familial et dans un forum spécialisé — et cette adaptation est une compétence, non une incohérence.

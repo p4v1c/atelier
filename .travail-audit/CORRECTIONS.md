@@ -550,3 +550,70 @@ sur tout le module, pas une erreur à corriger — **à décider avec le propri�
 
 Porte : `tsc` ✓ · `validate:content` 0 erreur / 633 avertissements · 236 tests ✓ ·
 `build` ✓.
+
+### Lot 9 — `institutions-economie.md` (14) et `langue-francaise.md` (32)
+
+Institutions : les quatre erreurs de fait (zone euro à vingt et un depuis
+l'entrée de la Bulgarie, deux motions de censure abouties depuis décembre 2024,
+la commission de déontologie supprimée en 2020, le Nobel 2002 attribué à Tversky
+mort en 1996) étaient déjà appliquées par le commit `d696b93` — sauf **le cours**,
+qui écrivait encore « vingt pays utilisent l'euro ». Six questions posées deux
+fois dans deux notions, avec la même réponse à la reformulation près (CSG,
+chômage partiel, indice de Gini, vice caché, DMA, dette souveraine), sont
+remplacées par des questions que leur notion ne couvrait pas.
+
+Langue française — erreurs de fait :
+
+- **Choucroute** : l'alsacien *sürkrüt*, c'est « chou aigre ». Le mot contient
+  bien un chou — c'est *sür* (aigre) qui a été réinterprété en « chou », et *krüt*
+  (chou) en « croûte ». Le cours affirmait qu'il n'y avait « aucun chou à
+  l'origine » : le seul exemple donné de l'étymologie populaire contredisait la
+  règle qu'il illustrait.
+- **La loi Deixonne n'a jamais couvert l'alsacien** — dialecte germanique relevant
+  d'un régime distinct. La question contredisait la leçon d'accueil de sa propre
+  notion, et c'est la question qui avait tort.
+- **La glottophobie n'est pas punie par la loi.** La proposition de loi a été
+  adoptée par l'Assemblée en 2020 mais n'a jamais abouti au Sénat : l'accent ne
+  figure pas à l'article 225-1 du code pénal.
+- **Le référendum de 1995** n'a pas été perdu « à moins d'un point » : 50,58 %
+  contre 49,42 %, soit 1,16 point. L'erreur était dans la question **et** dans le
+  cours.
+- **`gargantuesque` n'est pas un mot de Rabelais** : la formation est du XIXe
+  siècle, trois siècles après le livre.
+- **Breton reprend « surréalisme » en 1924**, sept ans après Apollinaire et non
+  trois — la question du même module écrivait d'ailleurs 1924.
+- *anagramme* est féminin, et le cours du module le range lui-même parmi les
+  féminins ; *moliériser* n'existe pas ; « cette dernière » disait littéralement
+  que l'Afrique orientale est parlée par cent millions de personnes ; « deux
+  exceptions » étaient suivies de cinq exceptions ; et deux expressions non
+  bibliques (« le péché mignon », « un travail de bénédictin ») figuraient dans
+  une liste donnée comme biblique.
+- **« je m'en rappelle » donné comme une hypercorrection** : le cours de la même
+  notion en fait une régularisation analogique, et la phrase n'avait pas de sens —
+  on ne dit pas une forme « par crainte de » la forme correcte.
+
+Trois questions dont **l'explication déclarait elle-même vrai le distracteur**
+classé faux (le mot réemprunté, le séducteur littéraire, le verbicruciste) : les
+énoncés départagent maintenant.
+
+Huit questions qui, **par l'effet des fusions**, redisaient dans la même série le
+quiz de la leçon d'accueil — la langue d'oïl, les Francs, le basque, le breton,
+l'alsacien, Mistral, les rectifications de 1990, la féminisation. Toutes
+remplacées, aucune supprimée. Et deux paragraphes consécutifs de la même section
+qui disaient exactement la même chose sur le point final des messages courts.
+
+**Les deux chantiers que ce rapport ouvre et que je n'ai pas menés**, parce qu'ils
+ne se corrigent pas constat par constat :
+
+1. **Le biais de longueur.** Mesuré ici sur 515 questions d'institutions : la
+   bonne réponse est la plus longue dans **86 %** des cas, et « je coche toujours
+   la plus longue sans lire » donne **87 %**. Sur la langue française, 83 %. C'est
+   le point 3 de l'ordre de marche, et il vaut pour tout le module.
+2. **Le filtre `dedoublonner()`**, qui ne rattrape aucun des doublons signalés :
+   le rapport donne une paire d'énoncés identiques à 88 % qui passe, parce que la
+   condition `&&` exige aussi un recouvrement des réponses — reformuler la bonne
+   réponse suffit à faire passer n'importe quel doublon. C'est le point 4, et les
+   paires citées dans les rapports en forment le jeu d'essai.
+
+Porte : `tsc` ✓ · `validate:content` 0 erreur / 634 avertissements · 236 tests ✓ ·
+`build` ✓.
