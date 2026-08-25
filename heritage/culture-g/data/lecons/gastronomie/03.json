@@ -119,10 +119,10 @@
   {
    "q": "Qu'est-ce qui distingue le levain de la levure de boulanger ?",
    "choix": [
-    "Le levain est chimique, la levure est naturelle",
-    "Le levain contient du sucre ajouté",
+    "Le levain est un produit chimique de synthèse, tandis que la levure est un organisme naturel",
+    "Le levain contient toujours du sucre ajouté par le boulanger",
     "Le levain est une culture de levures et de bactéries lactiques entretenue par le boulanger",
-    "Le levain ne fait pas lever la pâte"
+    "Le levain ne fait pas lever la pâte le moins du monde : il ne sert qu'à lui donner son parfum acidulé"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -131,9 +131,9 @@
   {
    "q": "Que dit l'histoire au sujet de l'origine de la baguette ?",
    "choix": [
-    "Elle a été inventée par les boulangers de Napoléon",
-    "Elle date du Moyen Âge",
-    "Elle vient d'Italie",
+    "Elle a été inventée par les boulangers de Napoléon pour les soldats en campagne",
+    "Elle date du Moyen Âge, époque où elle nourrissait déjà les villes du royaume",
+    "Elle vient d'Italie, rapportée par les Médicis",
     "C'est un produit du XXe siècle, né de la demande de pain frais en ville"
    ],
    "bonne": 3,
@@ -144,9 +144,9 @@
    "q": "Pourquoi la pâte feuilletée gonfle-t-elle en couches à la cuisson ?",
    "choix": [
     "Parce que l'eau de la pâte se transforme en vapeur et soulève les feuillets séparés par le beurre",
-    "Parce qu'elle contient de la levure",
-    "Parce que le sucre caramélise",
-    "Parce qu'on y ajoute du bicarbonate"
+    "Parce qu'elle contient de la levure de boulanger, qui la fait gonfler pendant toute la cuisson au four",
+    "Parce que le sucre caramélise et fait éclater les couches de pâte",
+    "Parce qu'on y ajoute du bicarbonate de soude, lequel dégage beaucoup de gaz sous l'effet de la chaleur"
    ],
    "bonne": 0,
    "difficulte": 3,

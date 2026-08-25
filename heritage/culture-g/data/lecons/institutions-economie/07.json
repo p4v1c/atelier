@@ -137,9 +137,9 @@
       "q": "Quel principe la Déclaration des droits de l'homme et du citoyen de 1789 pose-t-elle en matière fiscale ?",
       "choix": [
         "Le consentement des citoyens à l'impôt par leurs représentants",
-        "L'interdiction de tout impôt sur le revenu",
-        "La gratuité de tous les services publics",
-        "La compétence exclusive du roi pour lever l'impôt"
+        "L'interdiction de tout impôt direct sur les revenus des citoyens",
+        "La gratuité de tous les services publics pour les citoyens",
+        "La compétence exclusive du roi pour lever et répartir l'impôt"
       ],
       "bonne": 0,
       "difficulte": 2,
@@ -148,10 +148,10 @@
     {
       "q": "Quelle est la principale caractéristique de l'impôt sur le revenu en France ?",
       "choix": [
-        "Il est payé uniquement par les entreprises",
+        "Il est payé uniquement par les entreprises et leurs dirigeants",
         "Il est progressif, avec des taux croissants par tranche",
-        "Il est proportionnel, à taux unique",
-        "Il est perçu par les communes"
+        "Il est strictement proportionnel, à taux unique pour tous",
+        "Il est perçu directement par les communes de résidence"
       ],
       "bonne": 1,
       "difficulte": 1,
@@ -161,9 +161,9 @@
       "q": "Qu'a introduit la loi organique relative aux lois de finances du 1er août 2001 ?",
       "choix": [
         "Un vote des crédits par missions et programmes assortis d'objectifs",
-        "La suppression du vote parlementaire sur le budget",
-        "La création de la taxe sur la valeur ajoutée",
-        "L'obligation d'un budget en excédent chaque année"
+        "La suppression pure et simple du vote parlementaire sur le budget",
+        "La création de la taxe sur la valeur ajoutée en France",
+        "L'obligation de présenter chaque année un budget de l'État en excédent"
       ],
       "bonne": 0,
       "difficulte": 3,

@@ -136,7 +136,7 @@
    "choix": [
     "Le blé",
     "La tomate",
-    "L'olive",
+    "L'olive noire",
     "Le chou"
    ],
    "bonne": 1,
@@ -146,10 +146,10 @@
   {
    "q": "Qu'est-ce qui distingue un thé vert d'un thé noir ?",
    "choix": [
-    "Deux espèces de plantes différentes",
-    "La couleur de la fleur",
+    "Deux espèces de théiers botaniquement différentes l'une de l'autre",
+    "La couleur de la fleur du théier",
     "Le degré d'oxydation des feuilles après la cueillette",
-    "L'altitude de culture"
+    "L'altitude à laquelle le théier a été cultivé et récolté"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -158,10 +158,10 @@
   {
    "q": "Quelle est l'origine de la forme actuelle du sushi ?",
    "choix": [
-    "Un plat de cour de l'époque impériale de Kyoto",
+    "Un plat de cour servi à l'époque impériale de Kyoto, au palais",
     "Une nourriture de rue née à Edo au début du XIXe siècle",
-    "Une invention américaine des années 1960",
-    "Un plat rituel bouddhique"
+    "Une invention américaine des années 1960, née en Californie",
+    "Un plat rituel bouddhique offert dans les temples"
    ],
    "bonne": 1,
    "difficulte": 3,
@@ -170,9 +170,9 @@
   {
    "q": "D'où vient le mot curry employé en anglais et en français ?",
    "choix": [
-    "Du sanskrit désignant le safran",
-    "Du persan signifiant ragoût",
-    "D'un nom de comptoir portugais",
+    "Du sanskrit, où le mot désignait le safran",
+    "Du persan, où le mot signifiait ragoût épicé",
+    "Du nom d'un comptoir portugais des Indes",
     "Du tamoul kari, adopté par les Britanniques"
    ],
    "bonne": 3,
@@ -183,9 +183,9 @@
    "q": "Sous quelle forme les Aztèques consommaient-ils le cacao ?",
    "choix": [
     "En boisson amère battue en mousse, parfois relevée de piment",
-    "En tablettes sucrées",
-    "En pâte à tartiner",
-    "Uniquement comme offrande, sans le consommer"
+    "En tablettes sucrées à la vanille",
+    "En pâte à tartiner épaisse étalée sur des galettes de maïs",
+    "Uniquement comme offrande rituelle aux dieux, sans jamais le consommer"
    ],
    "bonne": 0,
    "difficulte": 2,

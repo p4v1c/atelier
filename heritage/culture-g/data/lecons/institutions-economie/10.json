@@ -171,10 +171,10 @@
     {
       "q": "Quelle est la particularité du système de Bretton Woods mis en place en 1944 ?",
       "choix": [
-        "Toutes les monnaies étaient directement convertibles en or",
-        "Les taux de change flottaient librement",
+        "Toutes les monnaies étaient directement convertibles en or auprès de leurs banques centrales respectives",
+        "Les taux de change flottaient librement les uns par rapport aux autres",
         "Le dollar était convertible en or et les autres monnaies étaient définies par rapport au dollar",
-        "Une monnaie mondiale unique, le bancor, avait été créée"
+        "Une monnaie mondiale unique, le bancor, avait été créée pour les échanges"
       ],
       "bonne": 2,
       "difficulte": 2,
@@ -183,10 +183,10 @@
     {
       "q": "Que s'est-il passé le 15 août 1971 dans l'histoire monétaire ?",
       "choix": [
-        "La Banque de France a été créée",
+        "La Banque de France a été créée par Napoléon Bonaparte",
         "Les États-Unis ont suspendu la convertibilité du dollar en or",
-        "L'euro a été mis en circulation",
-        "Le Royaume-Uni est revenu à l'étalon-or"
+        "L'euro a été mis en circulation dans les pays membres",
+        "Le Royaume-Uni est revenu à l'étalon-or après plusieurs décennies"
       ],
       "bonne": 1,
       "difficulte": 3,
@@ -195,9 +195,9 @@
     {
       "q": "Quel épisode a durablement nourri la méfiance française envers le papier-monnaie au dix-huitième siècle ?",
       "choix": [
-        "La création du franc germinal",
-        "La fondation de la Banque d'Angleterre",
-        "L'émission des premiers billets suédois",
+        "La création du franc germinal sous le Consulat",
+        "La fondation de la Banque d'Angleterre en 1694",
+        "L'émission des premiers billets par la banque suédoise",
         "Le système de John Law, entre 1716 et 1720"
       ],
       "bonne": 3,
@@ -208,9 +208,9 @@
       "q": "Que garantit aujourd'hui la valeur d'une monnaie fiduciaire ?",
       "choix": [
         "La confiance dans l'émetteur et l'acceptation de la monnaie pour payer l'impôt",
-        "Une réserve d'or équivalente",
-        "Le stock de devises étrangères de la banque centrale",
-        "La valeur du papier et du métal des billets et des pièces"
+        "Une réserve d'or d'une valeur équivalente, conservée dans les coffres de la banque",
+        "Le stock de devises étrangères détenu par la banque centrale",
+        "La valeur du papier et du métal dont sont faits les billets et les pièces"
       ],
       "bonne": 0,
       "difficulte": 2,

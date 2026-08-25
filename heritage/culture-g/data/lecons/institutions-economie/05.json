@@ -160,10 +160,10 @@
     {
       "q": "Que se passe-t-il, en principe, lorsque la Banque centrale relève ses taux directeurs ?",
       "choix": [
-        "Le crédit devient moins cher et la demande accélère",
+        "Le crédit devient moins cher et la demande des ménages accélère",
         "Le crédit se renchérit, ce qui tend à freiner l'inflation",
-        "Les prix augmentent automatiquement",
-        "Les banques cessent de prêter aux entreprises"
+        "Les prix augmentent automatiquement dans tous les secteurs",
+        "Les banques cessent aussitôt de prêter aux entreprises"
       ],
       "bonne": 1,
       "difficulte": 2,
@@ -172,9 +172,9 @@
     {
       "q": "Quelle contrainte un État accepte-t-il en adoptant l'euro ?",
       "choix": [
-        "Il perd le droit de lever l'impôt",
-        "Il doit adopter le même taux de TVA que ses voisins",
-        "Il transfère son budget national à la Commission",
+        "Il perd le droit de lever l'impôt sur son territoire",
+        "Il doit adopter exactement le même taux de TVA que tous ses voisins",
+        "Il transfère l'ensemble de son budget national à la Commission",
         "Il renonce à conduire sa propre politique monétaire et à dévaluer"
       ],
       "bonne": 3,
@@ -184,10 +184,10 @@
     {
       "q": "Qu'est-ce que le Mécanisme européen de stabilité, créé en 2012 ?",
       "choix": [
-        "Une bourse commune aux États membres",
+        "Une bourse des valeurs commune à tous les États membres",
         "Un fonds permanent d'assistance financière aux États de la zone euro",
-        "Un impôt européen sur les transactions",
-        "Une juridiction chargée des litiges budgétaires"
+        "Un impôt européen prélevé sur les transactions financières",
+        "Une juridiction chargée de trancher les litiges budgétaires entre États"
       ],
       "bonne": 1,
       "difficulte": 3,

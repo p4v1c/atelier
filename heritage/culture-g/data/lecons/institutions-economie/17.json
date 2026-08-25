@@ -132,7 +132,7 @@
       "choix": [
         "Le rapport Meadows",
         "Le rapport Brundtland",
-        "Le rapport Stern",
+        "Le rapport Stern de 2006",
         "Le rapport Pearce"
       ],
       "bonne": 1,
@@ -155,9 +155,9 @@
       "q": "Quelle est la particularité du protocole de Kyoto par rapport à la convention-cadre de 1992 ?",
       "choix": [
         "Il fixe des objectifs chiffrés de réduction pour les pays développés",
-        "Il impose les mêmes obligations à tous les pays du monde",
-        "Il supprime tout recours aux mécanismes de marché",
-        "Il fixe une limite de température à 1,5 °C"
+        "Il impose exactement les mêmes obligations de réduction à tous les pays",
+        "Il supprime tout recours aux mécanismes de marché entre États",
+        "Il fixe une limite de hausse de la température à 1,5 °C"
       ],
       "bonne": 0,
       "difficulte": 2,
@@ -166,9 +166,9 @@
     {
       "q": "Que prévoit l'accord de Paris adopté en 2015 ?",
       "choix": [
-        "Une taxe carbone mondiale unique fixée par l'ONU",
-        "Une interdiction des énergies fossiles à partir de 2030",
-        "Un plafond européen de quotas d'émission",
+        "Une taxe carbone mondiale unique fixée et perçue par l'Organisation des Nations unies",
+        "Une interdiction de toutes les énergies fossiles à partir de 2030",
+        "Un plafond européen de quotas d'émission contraignant pour les États",
         "De contenir le réchauffement nettement en dessous de 2 °C, en visant 1,5 °C"
       ],
       "bonne": 3,

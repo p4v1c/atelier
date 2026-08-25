@@ -109,7 +109,7 @@
    "q": "Qui a introduit la vigne sur le littoral de la Gaule vers 600 avant notre ère ?",
    "choix": [
     "Les Grecs de Phocée, fondateurs de Massalia",
-    "Les Romains, à la suite de Jules César",
+    "Les Romains, à la suite des légions de Jules César",
     "Les Celtes venus de la vallée du Rhin",
     "Les marchands carthaginois de Méditerranée occidentale"
    ],
@@ -132,7 +132,7 @@
   {
    "q": "Que change la fermentation malolactique dans un vin ?",
    "choix": [
-    "Elle augmente sensiblement le degré d'alcool du vin",
+    "Elle augmente très sensiblement le degré d'alcool final du vin",
     "Elle rend le vin légèrement effervescent",
     "Elle transforme l'acide malique en acide lactique, plus doux",
     "Elle élimine complètement les tanins et assouplit la structure du vin"

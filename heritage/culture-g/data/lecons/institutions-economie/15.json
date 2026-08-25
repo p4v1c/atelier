@@ -147,10 +147,10 @@
     {
       "q": "Que prévoit la loi du 28 mars 1882, portée par Jules Ferry ?",
       "choix": [
-        "La gratuité de l'enseignement primaire public",
+        "La gratuité de l'enseignement primaire public dans toutes les communes",
         "L'obligation de l'instruction primaire et la laïcité des programmes",
-        "La séparation des Églises et de l'État",
-        "La création du collège unique"
+        "La séparation des Églises et de l'État sur tout le territoire",
+        "La création du collège unique pour tous les élèves"
       ],
       "bonne": 1,
       "difficulte": 2,
@@ -174,7 +174,7 @@
         "La commune",
         "Le département",
         "La région",
-        "L'État seul"
+        "L'État seul, par le rectorat"
       ],
       "bonne": 1,
       "difficulte": 2,
@@ -195,10 +195,10 @@
     {
       "q": "Qu'est-ce qui a changé pour le baccalauréat général lors de la session 2021 ?",
       "choix": [
-        "Il est devenu payant",
-        "Il a été supprimé au profit d'un examen d'entrée à l'université",
+        "Il est devenu payant pour les candidats libres",
+        "Il a été supprimé au profit d'un examen d'entrée propre à chaque université française",
         "Les séries L, ES et S ont été remplacées par des enseignements de spécialité",
-        "Il ne comporte plus que des épreuves orales"
+        "Il ne comporte plus que des épreuves orales de fin d'année"
       ],
       "bonne": 2,
       "difficulte": 2,

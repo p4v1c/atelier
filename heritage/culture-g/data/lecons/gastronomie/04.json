@@ -144,7 +144,7 @@
     "Le beurre de baratte",
     "La graisse d'oie ou de canard",
     "L'huile d'olive, comme en Provence",
-    "La margarine végétale"
+    "La margarine végétale allégée"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -165,7 +165,7 @@
   {
    "q": "Quelles trois villes se disputent la paternité du cassoulet ?",
    "choix": [
-    "Albi, Rodez et Cahors",
+    "Albi, Rodez et Cahors, dans le Rouergue",
     "Pau, Bayonne et Dax",
     "Castelnaudary, Carcassonne et Toulouse",
     "Nîmes, Montpellier et Béziers, dans le Languedoc"
@@ -177,7 +177,7 @@
   {
    "q": "Qui furent les mères lyonnaises ?",
    "choix": [
-    "Des religieuses qui cuisinaient pour les hospices de la ville",
+    "Des religieuses qui cuisinaient pour les hospices et les hôpitaux de la ville",
     "Des marchandes des halles de Lyon vendant des plats cuisinés",
     "Des critiques gastronomiques qui tenaient la rubrique culinaire des journaux lyonnais",
     "Des cuisinières de maisons bourgeoises devenues restauratrices à leur compte"

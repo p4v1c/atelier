@@ -162,9 +162,9 @@
       "q": "Quel est le rôle principal de la Cour de cassation ?",
       "choix": [
         "Vérifier que le droit a été correctement appliqué",
-        "Rejuger entièrement les faits de l'affaire",
-        "Contrôler la constitutionnalité des lois",
-        "Juger les litiges avec l'administration"
+        "Rejuger entièrement les faits et le droit de l'affaire",
+        "Contrôler la constitutionnalité des lois votées",
+        "Juger les litiges opposant les particuliers à l'administration"
       ],
       "bonne": 0,
       "difficulte": 2,
@@ -173,9 +173,9 @@
     {
       "q": "Que permet la question prioritaire de constitutionnalité, applicable depuis 2010 ?",
       "choix": [
-        "De saisir la Cour européenne des droits de l'homme directement",
-        "De contester une décision de justice devant le Parlement",
-        "De demander une nouvelle élection présidentielle",
+        "De saisir directement la Cour européenne des droits de l'homme à Strasbourg",
+        "De contester une décision de justice devant le Parlement réuni",
+        "De demander l'organisation d'une nouvelle élection présidentielle",
         "De contester devant le Conseil constitutionnel une loi déjà en vigueur"
       ],
       "bonne": 3,
@@ -185,10 +185,10 @@
     {
       "q": "Quelle affirmation décrit correctement les magistrats du parquet ?",
       "choix": [
-        "Ils sont inamovibles et rendent les jugements",
+        "Ils sont inamovibles et rendent eux-mêmes les jugements",
         "Ils représentent le ministère public et requièrent au nom de la société",
-        "Ils sont élus par les justiciables de leur ressort",
-        "Ils exercent uniquement devant les juridictions administratives"
+        "Ils sont élus par les justiciables de leur ressort géographique",
+        "Ils exercent uniquement devant les juridictions administratives françaises"
       ],
       "bonne": 1,
       "difficulte": 2,

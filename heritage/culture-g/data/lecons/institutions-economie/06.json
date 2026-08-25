@@ -157,9 +157,9 @@
       "q": "Que prévoient les accords de Matignon de juin 1936 ?",
       "choix": [
         "Les congés payés et la semaine de quarante heures",
-        "La création du salaire minimum de croissance",
-        "La liberté syndicale",
-        "La mise en place du comité social et économique"
+        "La création du salaire minimum de croissance indexé sur les prix",
+        "La liberté syndicale reconnue dans toutes les entreprises",
+        "La mise en place du comité social et économique dans les entreprises"
       ],
       "bonne": 0,
       "difficulte": 2,
@@ -168,10 +168,10 @@
     {
       "q": "Selon la définition du Bureau international du travail, qui est considéré comme chômeur ?",
       "choix": [
-        "Toute personne inscrite auprès du service public de l'emploi",
-        "Toute personne sans emploi, y compris les retraités",
+        "Toute personne inscrite auprès du service public national de l'emploi",
+        "Toute personne sans emploi, y compris les retraités et les étudiants",
         "Une personne sans emploi, disponible et recherchant activement du travail",
-        "Une personne travaillant à temps partiel contre son gré"
+        "Une personne travaillant à temps partiel contre son gré, faute de mieux sur le marché"
       ],
       "bonne": 2,
       "difficulte": 2,
@@ -181,7 +181,7 @@
       "q": "Quelle instance a remplacé, depuis les ordonnances de 2017, les délégués du personnel et le comité d'entreprise ?",
       "choix": [
         "Le conseil de prud'hommes",
-        "La chambre de commerce",
+        "La chambre de commerce et d'industrie",
         "L'inspection du travail",
         "Le comité social et économique"
       ],
@@ -192,10 +192,10 @@
     {
       "q": "Que signifie le principe de faveur en droit du travail ?",
       "choix": [
-        "L'employeur choisit librement la règle applicable",
-        "Le juge tranche toujours en faveur de l'entreprise",
+        "L'employeur choisit librement la règle applicable à chaque salarié",
+        "Le juge tranche toujours en faveur de l'entreprise qui emploie",
         "Une norme inférieure peut s'appliquer si elle est plus avantageuse pour le salarié",
-        "Les conventions collectives priment sur la Constitution"
+        "Les conventions collectives priment sur la Constitution comme sur toutes les autres normes"
       ],
       "bonne": 2,
       "difficulte": 3,

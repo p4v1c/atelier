@@ -189,10 +189,10 @@
     {
       "q": "Pourquoi deux pactes internationaux ont-ils été adoptés en 1966 après la Déclaration universelle ?",
       "choix": [
-        "Parce que la Déclaration avait été annulée par l'Assemblée générale",
+        "Parce que la Déclaration avait été annulée entre-temps par l'Assemblée générale de l'ONU",
         "Parce que la Déclaration, simple déclaration, n'avait pas de force obligatoire",
-        "Parce que la Déclaration ne concernait que les pays européens",
-        "Parce que la Déclaration ne traitait que des droits économiques"
+        "Parce que la Déclaration ne concernait que les pays européens signataires",
+        "Parce que la Déclaration ne traitait que des droits économiques et sociaux"
       ],
       "bonne": 1,
       "difficulte": 2,

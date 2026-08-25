@@ -122,7 +122,7 @@
    "choix": [
     "Sécher très longuement les aliments au four avant de les emballer sous vide d'air",
     "Enfermer l'aliment dans un récipient hermétique puis le chauffer longuement",
-    "Immerger les aliments dans une saumure saturée pendant plusieurs mois",
+    "Immerger les aliments dans une saumure saturée durant plusieurs mois de suite",
     "Injecter un gaz inerte dans l'emballage pour chasser l'oxygène"
    ],
    "bonne": 1,
@@ -132,7 +132,7 @@
   {
    "q": "Qu'est-ce qui distingue un lait pasteurisé d'un lait stérilisé UHT ?",
    "choix": [
-    "Le lait pasteurisé est chauffé bien plus fort que le lait UHT",
+    "Le lait pasteurisé est chauffé bien plus fort et bien plus longtemps que le lait UHT",
     "Le lait UHT contient des conservateurs chimiques qui le rendent stable à température ambiante",
     "Le lait pasteurisé a été écrémé, contrairement au lait UHT",
     "Le lait pasteurisé garde des micro-organismes vivants et doit rester au froid"
@@ -156,7 +156,7 @@
   {
    "q": "Pourquoi la choucroute se conserve-t-elle des mois ?",
    "choix": [
-    "Le chou est entièrement stérilisé à la vapeur avant d'être mis en pot",
+    "Le chou est entièrement stérilisé à la vapeur sous pression avant d'être mis en pot et fermé",
     "Le sel employé en grande quantité suffit à lui seul à tuer l'ensemble des micro-organismes présents dans le chou",
     "Des bactéries lactiques acidifient le milieu et empêchent les autres microbes de s'y développer",
     "Le vinaigre ajouté en fin de préparation abaisse fortement le pH"

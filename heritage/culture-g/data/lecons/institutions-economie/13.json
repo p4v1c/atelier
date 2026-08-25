@@ -169,10 +169,10 @@
     {
       "q": "Quelle est la principale différence entre la Cour internationale de justice et la Cour pénale internationale ?",
       "choix": [
-        "La première siège à Strasbourg, la seconde à La Haye",
+        "La première siège à Strasbourg et la seconde à La Haye",
         "La première juge des différends entre États, la seconde juge des individus",
-        "La première dépend de l'Union européenne, la seconde des Nations unies",
-        "La première rend des avis, la seconde n'a aucun pouvoir de décision"
+        "La première dépend de l'Union européenne et la seconde des Nations unies",
+        "La première rend de simples avis, la seconde n'a aucun pouvoir de décision propre"
       ],
       "bonne": 1,
       "difficulte": 2,
@@ -181,10 +181,10 @@
     {
       "q": "Selon l'article 38 du statut de la Cour internationale de justice, quelles sont les sources principales du droit international ?",
       "choix": [
-        "Les lois nationales et les décrets",
-        "Les résolutions de l'Assemblée générale uniquement",
+        "Les lois nationales et les décrets des États membres",
+        "Les seules résolutions de l'Assemblée générale des Nations unies",
         "Les traités, la coutume et les principes généraux de droit",
-        "Les décisions du Conseil de sécurité seules"
+        "Les seules décisions du Conseil de sécurité des Nations unies"
       ],
       "bonne": 2,
       "difficulte": 3,
@@ -193,10 +193,10 @@
     {
       "q": "Que se passe-t-il si un membre permanent du Conseil de sécurité s'abstient lors d'un vote ?",
       "choix": [
-        "La résolution est automatiquement rejetée",
+        "La résolution est automatiquement rejetée, comme par un veto",
         "La résolution peut être adoptée si elle réunit neuf voix",
-        "Le vote est reporté à la session suivante",
-        "L'Assemblée générale doit trancher à sa place"
+        "Le vote est reporté à la session suivante du Conseil",
+        "L'Assemblée générale doit alors trancher à sa place"
       ],
       "bonne": 1,
       "difficulte": 3,

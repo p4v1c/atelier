@@ -7,8 +7,8 @@
    "q": "Quel cuisinier du XIVe siècle est associé au « Viandier », l'un des plus anciens recueils de recettes rédigés en français ?",
    "choix": [
     "Guillaume Tirel, dit Taillevent",
-    "François Vatel",
-    "Bartolomeo Scappi",
+    "François Vatel, maître de bouche",
+    "Bartolomeo Scappi, cuisinier italien",
     "Menon"
    ],
    "bonne": 0,
@@ -30,10 +30,10 @@
   {
    "q": "Quel surnom la postérité a-t-elle donné à Marie-Antoine Carême ?",
    "choix": [
-    "Le prince des gastronomes",
+    "Le prince incontesté des gastronomes",
     "Le pape de la cuisine",
     "Le roi des chefs et le chef des rois",
-    "L'empereur des fourneaux"
+    "L'empereur des fourneaux et des cuisines"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -56,8 +56,8 @@
    "choix": [
     "À la cantatrice australienne Nellie Melba",
     "À la reine Victoria",
-    "À l'actrice Sarah Bernhardt",
-    "À la danseuse Anna Pavlova"
+    "À l'actrice française Sarah Bernhardt, en tournée",
+    "À la danseuse étoile russe Anna Pavlova"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -66,10 +66,10 @@
   {
    "q": "Quelle organisation du travail en cuisine Auguste Escoffier a-t-il imposée dans la restauration de luxe ?",
    "choix": [
-    "Le service à la française",
+    "Le service à la française, tous les plats servis ensemble",
     "La brigade de cuisine, divisée en parties",
-    "Le compagnonnage",
-    "La cuisine d'assemblage"
+    "Le compagnonnage et le tour de France",
+    "La cuisine d'assemblage à partir de produits prêts"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -78,7 +78,7 @@
   {
    "q": "Qui a publié en 1825 « Physiologie du goût », ouvrage fondateur de la réflexion sur la gastronomie ?",
    "choix": [
-    "Grimod de La Reynière",
+    "Grimod de La Reynière, critique",
     "Alexandre Dumas",
     "Jean Anthelme Brillat-Savarin",
     "Charles Monselet"
@@ -90,9 +90,9 @@
   {
    "q": "À qui la tradition attribue-t-elle l'ouverture, vers 1765 à Paris, du premier établissement du type restaurant ?",
    "choix": [
-    "À Antoine Beauvilliers",
+    "À Antoine Beauvilliers, restaurateur",
     "Au traiteur Chevet",
-    "Au pâtissier Stohrer",
+    "Au pâtissier Stohrer, rue Montorgueil",
     "Au bouillonnier Boulanger"
    ],
    "bonne": 3,
@@ -117,7 +117,7 @@
     "Les frères Michelin",
     "Les critiques Henri Gault et Christian Millau",
     "Le chef Fernand Point",
-    "Le journaliste Curnonsky"
+    "Le journaliste Curnonsky, prince des gastronomes"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -126,10 +126,10 @@
   {
    "q": "Où se trouvait le restaurant de Paul Bocuse, qui a conservé trois étoiles Michelin de 1965 à sa mort ?",
    "choix": [
-    "À Vienne, dans l'Isère",
-    "À Roanne",
+    "À Vienne, dans l'Isère, chez Fernand Point",
+    "À Roanne, dans le département de la Loire",
     "À Collonges-au-Mont-d'Or, près de Lyon",
-    "À Vonnas"
+    "À Vonnas, dans l'Ain"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -174,7 +174,7 @@
   {
    "q": "Que signifie la troisième étoile dans le guide Michelin ?",
    "choix": [
-    "Une très bonne cuisine dans sa catégorie",
+    "Une très bonne cuisine dans sa catégorie de prix",
     "Une table qui mérite un détour",
     "Une cuisine exceptionnelle qui vaut le voyage",
     "Un excellent rapport qualité-prix"
@@ -186,9 +186,9 @@
   {
    "q": "Que porte au col de sa veste un cuisinier titulaire du titre de Meilleur Ouvrier de France ?",
    "choix": [
-    "Une toque dorée",
+    "Une toque brodée de fils dorés",
     "Un liseré d'or",
-    "Une médaille brodée",
+    "Une médaille brodée sur la poitrine",
     "Un col bleu, blanc et rouge"
    ],
    "bonne": 3,
@@ -210,9 +210,9 @@
   {
    "q": "Quelle préparation très riche en beurre a rendu célèbre le chef Joël Robuchon ?",
    "choix": [
-    "Le soufflé au fromage",
+    "Le soufflé au fromage de comté",
     "La purée de pommes de terre",
-    "Le velouté de châtaigne",
+    "Le velouté de châtaigne à la crème",
     "La brandade de morue"
    ],
    "bonne": 1,
@@ -235,7 +235,7 @@
    "q": "Quel vin est généralement présenté comme la première appellation d'origine contrôlée reconnue, en 1936 ?",
    "choix": [
     "Le Chablis",
-    "Le Sauternes",
+    "Le Sauternes, en Gironde",
     "Le Bandol",
     "Le Châteauneuf-du-Pape"
    ],
@@ -247,9 +247,9 @@
    "q": "Quelle est la différence principale entre une AOP et une IGP ?",
    "choix": [
     "L'AOP exige que toutes les étapes se déroulent dans l'aire géographique, l'IGP une seule",
-    "L'AOP est française et l'IGP européenne",
-    "L'AOP concerne les vins et l'IGP les fromages",
-    "L'IGP garantit l'agriculture biologique"
+    "L'AOP est une protection purement française tandis que l'IGP est une protection européenne",
+    "L'AOP concerne exclusivement les vins et l'IGP les seuls fromages",
+    "L'IGP garantit en outre le respect de l'agriculture biologique"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -271,7 +271,7 @@
    "q": "À quelle famille de fromages appartient le comté ?",
    "choix": [
     "Aux pâtes molles à croûte fleurie",
-    "Aux pâtes persillées",
+    "Aux pâtes persillées bleues",
     "Aux pâtes pressées cuites",
     "Aux fromages frais"
    ],
@@ -306,10 +306,10 @@
   {
    "q": "Dans quelle région produit-on le munster, fromage à croûte lavée orangée ?",
    "choix": [
-    "En Normandie",
+    "En Normandie, au cœur du pays d'Auge et du Bessin",
     "Dans le Massif vosgien, entre Alsace et Lorraine",
-    "Dans le Cantal",
-    "En Savoie"
+    "Dans le Cantal, au cœur des montagnes volcaniques d'Auvergne",
+    "En Savoie, dans les Bauges"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -342,7 +342,7 @@
   {
    "q": "Quel rôle le moine Dom Pérignon a-t-il réellement joué en Champagne à la fin du XVIIe siècle ?",
    "choix": [
-    "Il a inventé la bouteille en verre épais",
+    "Il a inventé la bouteille de verre épais capable de résister à la pression",
     "Il a perfectionné l'assemblage et la vinification, sans inventer la bulle",
     "Il a créé la première maison de champagne",
     "Il a importé le cépage chardonnay d'Italie"
@@ -354,7 +354,7 @@
   {
    "q": "À l'occasion de quel événement le classement des vins de Bordeaux a-t-il été établi en 1855 ?",
    "choix": [
-    "Le sacre de Napoléon III",
+    "Le sacre de l'empereur Napoléon III",
     "La création de l'INAO",
     "L'Exposition universelle de Paris",
     "La crise du phylloxéra"
@@ -366,9 +366,9 @@
   {
    "q": "Comment le vignoble français a-t-il été sauvé du phylloxéra à la fin du XIXe siècle ?",
    "choix": [
-    "En traitant les vignes au soufre",
-    "En arrachant les vignes malades",
-    "En irriguant massivement les parcelles",
+    "En traitant les vignes au soufre et à la bouillie bordelaise chaque année",
+    "En arrachant systématiquement toutes les vignes malades",
+    "En irriguant massivement les parcelles afin de noyer le parasite",
     "En greffant les cépages français sur des porte-greffes américains"
    ],
    "bonne": 3,
@@ -414,7 +414,7 @@
   {
    "q": "De quoi se compose un kir, apéritif rendu célèbre par un chanoine maire de Dijon ?",
    "choix": [
-    "De vin rouge et de sirop de grenadine",
+    "De vin rouge léger et de sirop de grenadine",
     "De champagne et de jus d'orange",
     "De vin blanc et de sirop de cassis industriel uniquement",
     "De vin blanc aligoté et de crème de cassis"
@@ -427,9 +427,9 @@
    "q": "Quel savoir-faire français a été inscrit au patrimoine culturel immatériel de l'UNESCO en 2022 ?",
    "choix": [
     "Les savoir-faire artisanaux et la culture de la baguette de pain",
-    "La fabrication du camembert",
-    "Le service à la française",
-    "La taille de la vigne en Champagne"
+    "La fabrication du camembert de Normandie au lait cru moulé à la louche",
+    "Le service à la française et l'art du dressage",
+    "La taille de la vigne dans le vignoble champenois et bourguignon"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -438,10 +438,10 @@
   {
    "q": "Que garantit le décret français de 1993 sur le pain de tradition française ?",
    "choix": [
-    "Qu'il est vendu à un prix réglementé",
+    "Qu'il est vendu partout en France à un prix strictement réglementé par l'État",
     "Qu'il ne contient ni additif ni surgélation, avec quatre ingrédients seulement",
-    "Qu'il est cuit au feu de bois",
-    "Qu'il est fabriqué avec de la farine biologique"
+    "Qu'il est cuit au feu de bois dans un four à sole",
+    "Qu'il est obligatoirement fabriqué avec de la farine biologique d'origine française"
    ],
    "bonne": 1,
    "difficulte": 3,
@@ -498,10 +498,10 @@
   {
    "q": "De quoi est composé un macaron parisien ?",
    "choix": [
-    "De deux disques de pâte feuilletée collés au chocolat",
+    "De deux disques de pâte feuilletée croustillante collés par une épaisse couche de chocolat",
     "D'une meringue cuite garnie de crème fouettée",
     "De deux coques à base de poudre d'amande et de blanc d'œuf réunies par une ganache",
-    "D'une pâte à choux fourrée de crème pâtissière"
+    "D'une pâte à choux cuite au four puis garnie d'une crème pâtissière à la vanille"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -523,9 +523,9 @@
    "q": "Combien de sauces mères la tradition culinaire française classique distingue-t-elle après Escoffier ?",
    "choix": [
     "Cinq : béchamel, velouté, espagnole, tomate et hollandaise",
-    "Trois : béchamel, velouté et espagnole",
-    "Sept, dont la mayonnaise et la vinaigrette",
-    "Deux : le fond blanc et le fond brun"
+    "Trois seulement : la béchamel, le velouté et l'espagnole",
+    "Sept, en comptant la mayonnaise, la vinaigrette et le beurre blanc",
+    "Deux seulement : le fond blanc et le fond brun"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -546,10 +546,10 @@
   {
    "q": "Que désigne une mirepoix en cuisine ?",
    "choix": [
-    "Un fromage fondu servi sur les légumes",
-    "Une sauce au vin rouge",
+    "Un fromage fondu que l'on sert nappé sur les légumes du pot-au-feu",
+    "Une sauce au vin rouge liée au beurre",
     "Un mélange de légumes taillés en dés servant de base aromatique",
-    "Une cuisson à l'étouffée en cocotte"
+    "Une cuisson à l'étouffée dans une cocotte de fonte hermétiquement fermée"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -558,9 +558,9 @@
   {
    "q": "En quoi consiste la cuisson sous vide à basse température, développée en France dans les années 1970 ?",
    "choix": [
-    "À congeler les aliments avant cuisson",
-    "À cuire à très haute température sous pression",
-    "À cuire les aliments dans un four à micro-ondes scellé",
+    "À congeler les aliments avant de les cuire au four",
+    "À cuire à très haute température sous une forte pression de vapeur",
+    "À cuire les aliments dans un four à micro-ondes hermétiquement scellé sous vide",
     "À cuire longuement un aliment scellé dans un sachet, à température maîtrisée"
    ],
    "bonne": 3,
@@ -571,8 +571,8 @@
    "q": "Quel est le nom scientifique de la truffe noire du Périgord, la plus recherchée des truffes françaises ?",
    "choix": [
     "Tuber melanosporum",
-    "Tuber magnatum",
-    "Tuber aestivum",
+    "Tuber magnatum pico",
+    "Tuber aestivum, la truffe d'été",
     "Tuber brumale"
    ],
    "bonne": 0,
@@ -582,10 +582,10 @@
   {
    "q": "Quelle mention le code rural français réserve-t-il au foie gras ?",
    "choix": [
-    "Un foie de volaille cuit en terrine",
+    "Un foie de volaille cuit en terrine avec un peu de porto",
     "Le foie d'un canard ou d'une oie engraissé par gavage",
-    "Un foie de veau mariné",
-    "Une pâte de foie mélangée à de la crème"
+    "Un foie de veau mariné au vin blanc",
+    "Une pâte de foie mélangée à de la crème fraîche et à des œufs"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -594,8 +594,8 @@
   {
    "q": "Comment appelle-t-on la fine couche de cristaux récoltée à la surface des marais salants ?",
    "choix": [
-    "Le gros sel",
-    "Le sel gemme",
+    "Le gros sel de cuisine",
+    "Le sel gemme des mines",
     "La fleur de sel",
     "Le salpêtre"
    ],
@@ -607,8 +607,8 @@
    "q": "De quelle région du monde le caféier est-il originaire ?",
    "choix": [
     "Du Brésil",
-    "De l'Arabie du Sud",
-    "De l'Indonésie",
+    "De l'Arabie du Sud, autour de Moka",
+    "De l'Indonésie et de ses îles",
     "Des hauts plateaux d'Éthiopie"
    ],
    "bonne": 3,
@@ -619,9 +619,9 @@
    "q": "Quelle civilisation consommait le cacao sous forme d'une boisson amère et épicée avant l'arrivée des Européens ?",
    "choix": [
     "Les civilisations mésoaméricaines, dont les Mayas et les Aztèques",
-    "Les Incas du Pérou",
-    "Les royaumes d'Afrique de l'Ouest",
-    "Les dynasties chinoises"
+    "Les Incas du Pérou et des hauts plateaux andins de Bolivie et d'Équateur",
+    "Les royaumes d'Afrique de l'Ouest, tout au long de la côte du golfe de Guinée",
+    "Les dynasties chinoises de la route de la soie"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -630,10 +630,10 @@
   {
    "q": "Combien de pays ont porté ensemble, en 2020, l'inscription du couscous au patrimoine immatériel de l'UNESCO ?",
    "choix": [
-    "Deux",
+    "Deux pays seulement : l'Algérie et le Maroc",
     "Quatre : Algérie, Maroc, Mauritanie et Tunisie",
-    "Six pays du pourtour méditerranéen",
-    "Un seul, l'Algérie"
+    "Six pays du pourtour méditerranéen, Espagne comprise",
+    "Un seul pays, l'Algérie"
    ],
    "bonne": 1,
    "difficulte": 3,
@@ -811,7 +811,7 @@
      "choix": [
       "Elle a introduit en France la fourchette et les sorbets italiens",
       "Son influence culinaire est un mythe forgé au XIXe siècle",
-      "Elle a écrit le premier livre de cuisine imprimé",
+      "Elle a écrit le premier livre de cuisine jamais imprimé",
       "Elle a fondé la première école de cuisine"
      ],
      "bonne": 1,
@@ -821,7 +821,7 @@
     {
      "q": "Quelle innovation technique le Cuisinier françois de 1651 diffuse-t-il durablement ?",
      "choix": [
-      "La cuisson sous vide à basse température",
+      "La cuisson sous vide à basse température contrôlée",
       "La conserve appertisée en bocal de verre scellé à la cire",
       "La liaison des sauces au roux et l'usage des fonds",
       "La cuisson au micro-ondes"
@@ -834,7 +834,7 @@
      "q": "Qu'est-ce qui distinguait l'établissement du bouillonnier Boulanger des auberges de son temps ?",
      "choix": [
       "Il ne servait que des plats régionaux, venus des différentes provinces du royaume de France",
-      "Il était réservé à la noblesse et fermé au reste du public parisien",
+      "Il était réservé à la seule noblesse de cour et fermé au reste du public parisien",
       "Il proposait des repas gratuits aux voyageurs de passage",
       "On y choisissait son plat sur une carte, à prix affiché et à l'heure de son choix"
      ],
@@ -848,7 +848,7 @@
       "La cuisine moléculaire et ses mousses d'azote",
       "Une cuisine de haute technicité proposée dans des lieux simples et à prix contenus",
       "La restauration rapide industrielle, servie partout en barquettes standardisées et jetables",
-      "Le service de plats chauds au comptoir des buffets de gare"
+      "Le service de plats chauds au comptoir des buffets de gare et des grandes brasseries"
      ],
      "bonne": 1,
      "difficulte": 2,
@@ -1211,7 +1211,7 @@
      "q": "En quoi consistait le service à la française pratiqué jusqu'au XIXe siècle ?",
      "choix": [
       "Chaque plat était servi individuellement et porté chaud à chaque convive",
-      "Les convives se servaient eux-mêmes à un buffet dressé à part",
+      "Les convives se servaient eux-mêmes à un buffet dressé à part dans la pièce",
       "Tous les plats d'un même service étaient posés ensemble sur la table",
       "Le repas se prenait debout, sans que l'on s'attable"
      ],

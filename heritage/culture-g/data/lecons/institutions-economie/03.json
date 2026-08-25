@@ -156,7 +156,7 @@
     {
       "q": "Quelle branche de la Sécurité sociale verse les allocations familiales ?",
       "choix": [
-        "La branche maladie",
+        "La branche maladie de la Sécurité sociale",
         "La branche famille",
         "La branche vieillesse",
         "La branche accidents du travail"
@@ -168,10 +168,10 @@
     {
       "q": "Qu'est-ce qui caractérise un système de retraite par répartition ?",
       "choix": [
-        "Chaque salarié épargne sur un compte personnel",
-        "Les pensions sont financées par l'impôt sur les sociétés",
+        "Chaque salarié épargne sur un compte personnel qu'il récupère à la retraite",
+        "Les pensions sont financées par l'impôt sur les sociétés versé par les entreprises",
         "Les cotisations des actifs financent les pensions des retraités",
-        "Les retraites sont versées par les seules entreprises"
+        "Les retraites sont versées par les seules entreprises qui ont employé le salarié"
       ],
       "bonne": 2,
       "difficulte": 2,
@@ -181,9 +181,9 @@
       "q": "Pourquoi la contribution sociale généralisée a-t-elle été créée en 1991 ?",
       "choix": [
         "Pour élargir le financement au-delà des seuls revenus du travail",
-        "Pour supprimer toutes les cotisations patronales",
-        "Pour financer exclusivement les dépenses militaires",
-        "Pour remplacer l'impôt sur le revenu"
+        "Pour supprimer purement et simplement toutes les cotisations patronales",
+        "Pour financer exclusivement les dépenses militaires de l'État",
+        "Pour remplacer entièrement l'impôt sur le revenu des personnes"
       ],
       "bonne": 0,
       "difficulte": 3,

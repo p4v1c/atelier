@@ -120,10 +120,10 @@
     {
       "q": "Quel ouvrage d'Adam Smith, publié en 1776, est considéré comme fondateur de l'économie politique ?",
       "choix": [
-        "La Théorie des sentiments moraux",
+        "La Théorie des sentiments moraux, du même auteur",
         "Recherches sur la nature et les causes de la richesse des nations",
-        "Le Capital",
-        "La Théorie générale de l'emploi, de l'intérêt et de la monnaie"
+        "Le Capital, de Karl Marx",
+        "La Théorie générale de l'emploi, de l'intérêt et de la monnaie, de Keynes"
       ],
       "bonne": 1,
       "difficulte": 1,
@@ -132,10 +132,10 @@
     {
       "q": "Que désigne la plus-value dans l'analyse de Karl Marx ?",
       "choix": [
-        "Le bénéfice réalisé lors de la revente d'un logement",
+        "Le bénéfice que réalise un propriétaire lors de la revente d'un logement acheté plus tôt",
         "L'écart entre la valeur produite par le travailleur et le coût de sa force de travail",
-        "La hausse du cours d'une action en bourse",
-        "L'augmentation des salaires liée à l'ancienneté"
+        "La hausse du cours d'une action cotée en Bourse",
+        "L'augmentation des salaires liée à l'ancienneté dans l'entreprise"
       ],
       "bonne": 1,
       "difficulte": 2,
@@ -144,10 +144,10 @@
     {
       "q": "Selon Keynes, pourquoi une économie peut-elle rester durablement en situation de chômage ?",
       "choix": [
-        "Parce que les travailleurs refusent volontairement de travailler",
-        "Parce que la quantité de monnaie augmente trop vite",
+        "Parce que les travailleurs refusent volontairement tout emploi offert",
+        "Parce que la quantité de monnaie en circulation augmente trop vite",
         "Parce que la demande anticipée par les entreprises est insuffisante",
-        "Parce que les échanges internationaux sont trop libres"
+        "Parce que les échanges internationaux sont beaucoup trop libres"
       ],
       "bonne": 2,
       "difficulte": 2,

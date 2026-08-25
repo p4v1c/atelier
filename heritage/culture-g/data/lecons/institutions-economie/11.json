@@ -163,10 +163,10 @@
     {
       "q": "Comment une banque crée-t-elle de la monnaie ?",
       "choix": [
-        "En imprimant des billets pour ses clients",
-        "En transférant l'or qu'elle détient en réserve",
+        "En imprimant elle-même les billets qu'elle remet à ses clients",
+        "En transférant à ses clients une partie de l'or et des devises qu'elle détient en réserve",
         "En accordant un crédit, ce qui inscrit une somme nouvelle sur le compte de l'emprunteur",
-        "En achetant des actions à la bourse"
+        "En achetant des actions sur les marchés boursiers"
       ],
       "bonne": 2,
       "difficulte": 2,
@@ -176,9 +176,9 @@
       "q": "Quelle entreprise est considérée comme la première à avoir émis des actions et des obligations, en 1602 ?",
       "choix": [
         "La Compagnie néerlandaise des Indes orientales",
-        "La Banque d'Angleterre",
-        "La Compagnie du Mississippi de John Law",
-        "La Compagnie des Indes françaises"
+        "La Banque d'Angleterre, fondée en 1694",
+        "La Compagnie du Mississippi fondée par John Law",
+        "La Compagnie française des Indes orientales"
       ],
       "bonne": 0,
       "difficulte": 3,

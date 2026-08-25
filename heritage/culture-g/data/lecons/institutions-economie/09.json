@@ -162,9 +162,9 @@
       "q": "Que signifie la clause de la nation la plus favorisée ?",
       "choix": [
         "Un membre doit accorder à tous les autres membres le traitement le plus favorable qu'il consent à l'un d'eux",
-        "Le pays le plus riche fixe les droits de douane applicables aux autres",
-        "Les pays en développement sont dispensés de tout droit de douane",
-        "Chaque pays peut favoriser librement ses producteurs nationaux"
+        "Le pays le plus riche du groupe fixe les droits de douane applicables à tous les autres membres de l'organisation",
+        "Les pays en développement sont dispensés de tout droit de douane à l'importation",
+        "Chaque pays peut favoriser librement ses producteurs nationaux face aux importations"
       ],
       "bonne": 0,
       "difficulte": 3,
@@ -185,10 +185,10 @@
     {
       "q": "Entre 1950 et 2010, comment le volume des exportations mondiales a-t-il évolué par rapport à la production mondiale ?",
       "choix": [
-        "Il a augmenté moins vite que la production mondiale",
-        "Il a augmenté à peu près au même rythme",
+        "Il a augmenté nettement moins vite que la production mondiale au cours de ces décennies",
+        "Il a augmenté à peu près au même rythme que la production mondiale",
         "Il a été multiplié par trente-trois, contre environ huit et demi pour la production",
-        "Il a diminué en volume"
+        "Il a diminué en volume, au profit des échanges de services"
       ],
       "bonne": 2,
       "difficulte": 3,

@@ -82,7 +82,7 @@
   {
    "q": "D'où viennent les bulles d'un champagne ?",
    "choix": [
-    "D'une injection de gaz carbonique avant l'embouteillage",
+    "D'une injection de gaz carbonique juste avant l'embouteillage en cave",
     "D'une seconde fermentation qui se déroule dans la bouteille fermée",
     "D'un pressurage sous pression des raisins",
     "De la dissolution du gaz de la cuve pendant tout le vieillissement en cave"
@@ -107,7 +107,7 @@
    "q": "Qu'est-ce qui distingue nettement le cognac de l'armagnac ?",
    "choix": [
     "Le cognac est distillé à partir de cidre, et non de vin",
-    "L'armagnac est vieilli en fût d'acacia, à l'exclusion du chêne",
+    "L'armagnac est exclusivement vieilli en fût d'acacia, jamais en fût de chêne",
     "Le cognac n'est jamais vieilli en fût de chêne, contrairement à l'armagnac du Gers",
     "Le cognac subit une double distillation, l'armagnac le plus souvent une seule"
    ],

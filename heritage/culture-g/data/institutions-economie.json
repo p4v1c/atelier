@@ -67,8 +67,8 @@
    "q": "Qui nomme le Premier ministre en France ?",
    "choix": [
     "Le président de la République",
-    "L'Assemblée nationale",
-    "Le Sénat",
+    "L'Assemblée nationale, par un vote",
+    "Le Sénat, réuni en séance",
     "Le Conseil constitutionnel"
    ],
    "bonne": 0,
@@ -81,7 +81,7 @@
     "L'article 49.3",
     "L'article 16",
     "L'article 11",
-    "L'article 89"
+    "L'article 89 de la Constitution"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -103,9 +103,9 @@
    "q": "Qu'est-ce que la QPC, introduite en droit français en 2008 ?",
    "choix": [
     "La question prioritaire de constitutionnalité",
-    "La quotité personnelle de cotisation",
-    "La question parlementaire au Conseil",
-    "La qualification pénale complémentaire"
+    "La quotité personnelle de cotisation sociale",
+    "La question parlementaire adressée au Conseil d'État",
+    "La qualification pénale complémentaire d'une infraction"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -151,9 +151,9 @@
    "q": "Qui préside le conseil départemental en France ?",
    "choix": [
     "Le président du conseil départemental élu par les conseillers",
-    "Le préfet",
-    "Le maire du chef-lieu",
-    "Le président du conseil régional"
+    "Le préfet du département, nommé par l'État",
+    "Le maire du chef-lieu de département, de droit",
+    "Le président du conseil régional, élu par les conseillers régionaux"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -177,7 +177,7 @@
     "Le traité de Maastricht",
     "Le traité d'Amsterdam",
     "Le traité de Nice",
-    "L'Acte unique européen"
+    "L'Acte unique européen de 1986"
    ],
    "bonne": 0,
    "difficulte": 1,
@@ -247,9 +247,9 @@
    "q": "Qu'est-ce que l'inflation ?",
    "choix": [
     "Une hausse générale et durable des prix",
-    "Une hausse du chômage",
-    "Une baisse de la production",
-    "Une augmentation des exportations"
+    "Une hausse du taux de chômage",
+    "Une baisse durable de la production nationale",
+    "Une augmentation du volume des exportations"
    ],
    "bonne": 0,
    "difficulte": 1,
@@ -259,9 +259,9 @@
    "q": "Selon la définition du Bureau international du travail, un chômeur est une personne qui :",
    "choix": [
     "est sans emploi, disponible et recherche activement un emploi",
-    "est simplement inscrite dans une agence pour l'emploi",
-    "travaille moins de 20 heures par semaine",
-    "perçoit une allocation de l'État"
+    "est simplement inscrite dans une agence publique pour l'emploi",
+    "travaille moins de vingt heures par semaine contre son gré",
+    "perçoit une allocation versée par l'État à ce titre"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -271,9 +271,9 @@
    "q": "Que désigne la population active dans le vocabulaire économique ?",
    "choix": [
     "Les personnes qui occupent un emploi ou en cherchent un",
-    "L'ensemble de la population en âge de travailler",
-    "Uniquement les personnes ayant un emploi",
-    "Les personnes de 15 à 64 ans"
+    "L'ensemble de la population en âge légal de travailler",
+    "Uniquement les personnes qui occupent réellement un emploi",
+    "Les personnes âgées de quinze à soixante-quatre ans"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -283,9 +283,9 @@
    "q": "Quelles sont traditionnellement les trois fonctions de la monnaie ?",
    "choix": [
     "Unité de compte, intermédiaire des échanges, réserve de valeur",
-    "Épargne, crédit, investissement",
-    "Achat, vente, troc",
-    "Fiscalité, redistribution, régulation"
+    "Épargne, crédit et investissement des ménages",
+    "Achat, vente et troc entre particuliers",
+    "Fiscalité, redistribution et régulation de l'activité économique"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -403,7 +403,7 @@
    "q": "Quels accords de 1944 ont organisé le système monétaire international d'après-guerre ?",
    "choix": [
     "Les accords de Bretton Woods",
-    "Les accords de Yalta",
+    "Les accords de Yalta, en février 1945",
     "Les accords de Genève",
     "Les accords du Plaza"
    ],
@@ -427,7 +427,7 @@
    "q": "Quel économiste a théorisé la « destruction créatrice » liée à l'innovation ?",
    "choix": [
     "Joseph Schumpeter",
-    "Adam Smith",
+    "Adam Smith, en 1776",
     "Milton Friedman",
     "Thomas Malthus"
    ],
@@ -439,9 +439,9 @@
    "q": "Quel ouvrage de John Maynard Keynes, publié en 1936, fonde la macroéconomie moderne ?",
    "choix": [
     "La Théorie générale de l'emploi, de l'intérêt et de la monnaie",
-    "Le Capital",
-    "La Richesse des nations",
-    "Le Capital au XXIe siècle"
+    "Le Capital, de Karl Marx",
+    "La Richesse des nations, d'Adam Smith",
+    "Le Capital au XXIe siècle, ouvrage de Thomas Piketty paru en 2013"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -463,9 +463,9 @@
    "q": "Quel événement de 1973 a déclenché le premier choc pétrolier ?",
    "choix": [
     "La guerre du Kippour et l'embargo des pays arabes producteurs",
-    "La révolution iranienne",
-    "La guerre du Golfe",
-    "La nationalisation du canal de Suez"
+    "La révolution iranienne et la chute du chah d'Iran cette année-là",
+    "La guerre du Golfe et l'invasion du Koweït",
+    "La nationalisation du canal de Suez par l'Égypte"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -487,9 +487,9 @@
    "q": "Qu'appelle-t-on l'espace Schengen ?",
    "choix": [
     "Un espace de libre circulation sans contrôles aux frontières intérieures",
-    "La zone d'utilisation de l'euro",
-    "Le marché unique européen des marchandises",
-    "L'union douanière européenne"
+    "La zone dans laquelle l'euro a cours légal",
+    "Le marché unique européen des marchandises, des services et des capitaux échangés",
+    "L'union douanière commune aux États européens"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -511,9 +511,9 @@
    "q": "Quels sont les critères de convergence dits « de Maastricht » pour adopter l'euro ?",
    "choix": [
     "Notamment un déficit public inférieur à 3 % du PIB et une dette inférieure à 60 %",
-    "Un taux de chômage inférieur à 5 % et une croissance de 3 %",
-    "Un excédent commercial et une inflation nulle",
-    "Un PIB par habitant supérieur à la moyenne européenne"
+    "Un taux de chômage inférieur à 5 % du total et une croissance annuelle d'au moins 3 %",
+    "Un excédent commercial durable et une inflation strictement nulle",
+    "Un PIB par habitant supérieur à la moyenne de l'Union européenne"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -535,9 +535,9 @@
    "q": "Que mesure le coefficient de Gini ?",
    "choix": [
     "Le degré d'inégalité d'une distribution de revenus",
-    "Le taux d'inflation annuel",
-    "La productivité du travail",
-    "Le niveau d'endettement public"
+    "Le taux d'inflation annuel constaté dans une économie",
+    "La productivité horaire du travail salarié",
+    "Le niveau d'endettement public rapporté au PIB"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -559,9 +559,9 @@
    "q": "Qu'appelle-t-on la cohabitation sous la Ve République ?",
    "choix": [
     "Un président et un Premier ministre de bords politiques opposés",
-    "La coexistence de deux chambres au Parlement",
-    "Le partage du pouvoir entre l'État et les régions",
-    "L'alliance de deux partis au gouvernement"
+    "La coexistence de deux chambres distinctes au Parlement",
+    "Le partage du pouvoir entre l'État central et les régions décentralisées",
+    "L'alliance de deux partis politiques au sein du gouvernement"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -595,9 +595,9 @@
    "q": "Quel texte de 1789, intégré au bloc de constitutionnalité, énonce les droits fondamentaux en France ?",
    "choix": [
     "La Déclaration des droits de l'homme et du citoyen",
-    "Le Code civil",
-    "La Charte de l'environnement",
-    "Le préambule de la Constitution de 1946"
+    "Le Code civil, promulgué en 1804",
+    "La Charte de l'environnement de 2004",
+    "Le préambule de la Constitution française du 27 octobre 1946"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -607,9 +607,9 @@
    "q": "Quel principe économique décrit la formation des prix sur un marché concurrentiel ?",
    "choix": [
     "La confrontation de l'offre et de la demande",
-    "La fixation par l'État",
-    "Le coût de production seul",
-    "Le pouvoir d'achat des ménages"
+    "La fixation autoritaire des prix par l'État",
+    "Le seul coût de production supporté par le vendeur",
+    "Le pouvoir d'achat dont disposent les ménages"
    ],
    "bonne": 0,
    "difficulte": 1,
@@ -631,9 +631,9 @@
    "q": "Que désigne le déficit public d'un État ?",
    "choix": [
     "Le solde négatif entre ses recettes et ses dépenses sur une année",
-    "Le montant total de sa dette accumulée",
-    "Le déséquilibre de sa balance commerciale",
-    "Le montant des impôts non recouvrés"
+    "Le montant total de la dette qu'il a accumulée au fil des exercices",
+    "Le déséquilibre de sa balance commerciale avec l'étranger",
+    "Le montant total des impôts qui n'ont pas été recouvrés"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -655,9 +655,9 @@
    "q": "Qu'est-ce que la politique monétaire ?",
    "choix": [
     "L'action d'une banque centrale sur la monnaie et les taux d'intérêt",
-    "La fixation des impôts par l'État",
-    "La réglementation des salaires",
-    "La gestion du commerce extérieur"
+    "La fixation du niveau des impôts par le gouvernement",
+    "La réglementation des salaires et des prix par l'État",
+    "La gestion du commerce extérieur et de la balance des paiements du pays"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -667,9 +667,9 @@
    "q": "Que désigne le terme « État-providence » ?",
    "choix": [
     "Un État assurant une protection sociale étendue à la population",
-    "Un État propriétaire de toutes les entreprises",
-    "Un régime politique autoritaire",
-    "Un État qui ne perçoit aucun impôt"
+    "Un État propriétaire de l'ensemble des entreprises du territoire",
+    "Un régime politique autoritaire et centralisé",
+    "Un État qui ne perçoit aucun impôt sur ses habitants"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -830,9 +830,9 @@
      "q": "Quelle décision de 1971 a élargi le contrôle du Conseil constitutionnel ?",
      "choix": [
       "La décision « Liberté d'association »",
-      "L'arrêt Blanco",
-      "L'arrêt Nicolo",
-      "La décision « Sécurité et liberté »"
+      "L'arrêt Blanco, de 1873",
+      "L'arrêt Nicolo, de 1989",
+      "La décision « Sécurité et liberté », de 1981"
      ],
      "bonne": 0,
      "difficulte": 3,
@@ -854,7 +854,7 @@
      "q": "Quelles lois de 1982 ont lancé la décentralisation en France ?",
      "choix": [
       "Les lois Defferre",
-      "Les lois Auroux",
+      "Les lois Auroux sur le travail",
       "Les lois Ferry",
       "Les lois Rocard"
      ],
@@ -1088,9 +1088,9 @@
      "q": "Quelle organisation a remplacé le GATT en 1995 ?",
      "choix": [
       "L'Organisation mondiale du commerce",
-      "Le Fonds monétaire international",
-      "L'OCDE",
-      "La Banque mondiale"
+      "Le Fonds monétaire international, créé en 1944",
+      "L'OCDE, à Paris",
+      "La Banque mondiale, créée en 1944"
      ],
      "bonne": 0,
      "difficulte": 2,

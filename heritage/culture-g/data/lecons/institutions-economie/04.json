@@ -141,9 +141,9 @@
       "q": "Quelle compétence relève principalement du département ?",
       "choix": [
         "L'action sociale et la gestion des collèges",
-        "La construction des lycées",
-        "La délivrance des permis de construire",
-        "La politique monétaire"
+        "La construction et l'entretien des lycées",
+        "La délivrance des permis de construire aux particuliers",
+        "La conduite de la politique monétaire nationale"
       ],
       "bonne": 0,
       "difficulte": 1,
@@ -152,10 +152,10 @@
     {
       "q": "En quoi consiste la déconcentration, à la différence de la décentralisation ?",
       "choix": [
-        "Elle supprime les services de l'État en province",
-        "Elle donne aux régions un pouvoir législatif",
+        "Elle supprime purement et simplement les services de l'État en province",
+        "Elle donne aux régions un véritable pouvoir législatif",
         "Elle délègue des pouvoirs à des agents de l'État sur le terrain",
-        "Elle transfère des compétences à des élus locaux autonomes"
+        "Elle transfère des compétences à des élus locaux pleinement autonomes"
       ],
       "bonne": 2,
       "difficulte": 3,
@@ -164,10 +164,10 @@
     {
       "q": "Quel contrôle le préfet exerce-t-il sur les actes des collectivités depuis 1982 ?",
       "choix": [
-        "Une approbation préalable obligatoire de chaque délibération",
+        "Une approbation préalable obligatoire de chacune de leurs délibérations",
         "Un contrôle de légalité a posteriori devant le juge administratif",
-        "Un droit de veto sur le budget municipal",
-        "Un pouvoir de révocation du maire"
+        "Un droit de veto sur le budget voté par le conseil municipal",
+        "Un pouvoir de révocation du maire et de son conseil"
       ],
       "bonne": 1,
       "difficulte": 2,
@@ -176,9 +176,9 @@
     {
       "q": "Qu'est-ce qu'un établissement public de coopération intercommunale ?",
       "choix": [
-        "Une entreprise privée chargée des services publics locaux",
-        "Une juridiction spécialisée dans les litiges entre communes",
-        "Un service déconcentré du ministère de l'Intérieur",
+        "Une entreprise privée chargée d'exploiter les services publics locaux",
+        "Une juridiction spécialisée dans les litiges opposant les communes",
+        "Un service déconcentré du ministère de l'Intérieur en département",
         "Un regroupement de communes exerçant ensemble certaines compétences"
       ],
       "bonne": 3,

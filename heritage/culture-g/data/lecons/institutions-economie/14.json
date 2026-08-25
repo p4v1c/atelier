@@ -164,10 +164,10 @@
     {
       "q": "Que prévoit l'article 35 de la Constitution après la révision de 2008 concernant les interventions militaires à l'étranger ?",
       "choix": [
-        "Le Parlement décide seul de l'envoi de troupes",
-        "Aucun contrôle parlementaire n'est prévu",
+        "Le Parlement décide seul de l'envoi de troupes à l'étranger",
+        "Aucun contrôle parlementaire n'est prévu sur ces opérations",
         "Le Parlement est informé sous trois jours et autorise toute prolongation au-delà de quatre mois",
-        "Le Conseil constitutionnel doit valider chaque opération"
+        "Le Conseil constitutionnel doit valider chaque opération extérieure avant son déclenchement effectif"
       ],
       "bonne": 2,
       "difficulte": 3,
