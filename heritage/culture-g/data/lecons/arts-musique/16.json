@@ -52,7 +52,7 @@
   },
   {
    "titre": "Brassens et Brel, l'âge d'or de la chanson à texte",
-   "texte": "Les années 1950 et 1960 constituent l'âge d'or de la chanson à texte, où l'auteur-compositeur-interprète devient une figure centrale. Georges Brassens, né à Sète le 22 octobre 1921 et mort à Saint-Gély-du-Fesc le 29 octobre 1981, en est l'exemple le plus pur. Fils d'un maçon libre penseur et d'une mère d'origine italienne très croyante, il compose longtemps dans l'ombre avant d'être découvert par la chanteuse Patachou, le 24 janvier 1952 ; ses premiers enregistrements paraissent dès avril 1952, et le producteur Jacques Canetti le fait signer chez Philips. Son dispositif est d'une sobriété radicale : sa guitare, et pendant près de trente ans la contrebasse de Pierre Nicolas. Son écriture associe une versification classique d'une rigueur méticuleuse et une langue familière, parfois crue, ce qui donne à ses plus de deux cents chansons, dont « La Mauvaise Réputation », « Chanson pour l'Auvergnat » et « Les Copains d'abord » en 1965, un statut littéraire reconnu : l'Académie française lui décerne le Grand Prix de poésie en 1967. Jacques Brel, Belge né à Schaerbeek le 8 avril 1929 et mort à Bobigny le 9 octobre 1978, arrive à Paris en 1953 et perce en 1956 avec « Quand on n'a que l'amour ». Suivent, entre 1959 et 1964, « Ne me quitte pas », « Amsterdam », « Le Plat Pays » et « Les Vieux ». Doutant de sa spontanéité sur scène, il donne son dernier concert officiel à l'Olympia le 6 octobre 1966.",
+   "texte": "Les années 1950 et 1960 constituent l'âge d'or de la chanson à texte, où l'auteur-compositeur-interprète devient une figure centrale. Georges Brassens, né à Sète le 22 octobre 1921 et mort à Saint-Gély-du-Fesc le 29 octobre 1981, en est l'exemple le plus pur. Fils d'un maçon libre penseur et d'une mère d'origine italienne très croyante, il compose longtemps dans l'ombre avant d'être découvert par la chanteuse Patachou, le 24 janvier 1952 ; ses premiers enregistrements paraissent dès avril 1952, et le producteur Jacques Canetti le fait signer chez Philips. Son dispositif est d'une sobriété radicale : sa guitare, et pendant près de trente ans la contrebasse de Pierre Nicolas. Son écriture associe une versification classique d'une rigueur méticuleuse et une langue familière, parfois crue, ce qui donne à ses plus de deux cents chansons, dont « La Mauvaise Réputation », « Chanson pour l'Auvergnat » et « Les Copains d'abord » en 1965, un statut littéraire reconnu : l'Académie française lui décerne le Grand Prix de poésie en 1967. Jacques Brel, Belge né à Schaerbeek le 8 avril 1929 et mort à Bobigny le 9 octobre 1978, arrive à Paris en 1953 et perce en 1956 avec « Quand on n'a que l'amour ». Suivent, entre 1959 et 1964, « Ne me quitte pas », « Amsterdam », « Le Plat Pays » et « Les Vieux ». Doutant de sa spontanéité sur scène, il fait ses adieux à l'Olympia fin octobre 1966, mais honore ses engagements jusqu'au tout dernier concert, à Roubaix, le 16 mai 1967.",
    "visuel": {
     "type": "comparaison",
     "titre": "Brassens et Brel",
@@ -74,7 +74,7 @@
        "Perce en 1956 avec Quand on n'a que l'amour",
        "Une présence physique et une intensité de scène",
        "Ne me quitte pas, Amsterdam, Le Plat Pays, Les Vieux entre 1959 et 1964",
-       "Doutant de sa spontanéité, il quitte la scène à l'Olympia le 6 octobre 1966"
+       "Doutant de sa spontanéité, il fait ses adieux à l'Olympia fin octobre 1966 et cesse de chanter après Roubaix, le 16 mai 1967"
       ]
      }
     ]
@@ -132,11 +132,11 @@
     "En 1956, après « Quand on n'a que l'amour »",
     "En 1978, peu avant sa mort",
     "En 1974, à l'annonce de sa maladie",
-    "À l'Olympia, le 6 octobre 1966"
+    "À Roubaix, le 16 mai 1967"
    ],
    "bonne": 3,
    "difficulte": 3,
-   "explication": "Jacques Brel a donné son dernier concert officiel à l'Olympia le 6 octobre 1966, au sommet de sa popularité, en raison de doutes sur sa propre spontanéité en scène. Il s'est ensuite tourné vers le cinéma, entre 1967 et 1973, et vers le théâtre, incarnant notamment Don Quichotte dans la version française de « L'Homme de la Mancha » en 1968 ; il a également réalisé deux films. Belge né à Schaerbeek en 1929, il était arrivé à Paris en 1953 et avait percé en 1956 avec « Quand on n'a que l'amour ». Atteint d'un cancer du poumon diagnostiqué en 1974, il s'installa aux îles Marquises et y enregistra son dernier album en 1977. Il est mort à Bobigny le 9 octobre 1978."
+   "explication": "Jacques Brel a fait ses adieux à l'Olympia fin octobre 1966, au sommet de sa popularité, en raison de doutes sur sa propre spontanéité en scène ; il a pourtant honoré ses engagements jusqu'à Roubaix, le 16 mai 1967, son tout dernier concert. Il s'est ensuite tourné vers le cinéma, entre 1967 et 1973, et vers le théâtre, incarnant notamment Don Quichotte dans la version française de « L'Homme de la Mancha » en 1968 ; il a également réalisé deux films. Belge né à Schaerbeek en 1929, il était arrivé à Paris en 1953 et avait percé en 1956 avec « Quand on n'a que l'amour ». Atteint d'un cancer du poumon diagnostiqué en 1974, il s'installa aux îles Marquises et y enregistra son dernier album en 1977. Il est mort à Bobigny le 9 octobre 1978."
   },
   {
    "q": "Quel album-récit de Serge Gainsbourg, paru en 1971, associe arrangements orchestraux et textes provocateurs ?",

@@ -418,3 +418,71 @@ correction. **À décider avec le propriétaire** avant de la mener.
 
 Porte : `tsc` ✓ · `validate:content` 0 erreur / 634 avertissements · 236 tests ✓ ·
 `build` ✓.
+
+---
+
+## Culture générale — constats GRAVES
+
+### Lot 7 — `arts-musique.md` (14) et `cinema-medias.md` (10)
+
+**Attention** : les corrections annoncées comme déjà appliquées dans
+`ATELIER-REPRISE.md` (Véronèse, amendement Pelchat, moai, César du casting,
+Sciamma, plan moyen…) ne l'étaient **pas** : le commit `082e3e6` a été annulé par
+`6b626fc`. Elles sont faites ici. Trois l'étaient bien, en revanche, par une voie
+différente : Aïda, La Bohème, le distracteur Smetana.
+
+Arts et musique — erreurs de fait :
+
+- **Véronèse** : l'Inquisition l'a convoqué en 1573 pour une *Cène*, rebaptisée
+  *Le Repas chez Lévi*. Les Noces de Cana n'ont donné lieu à aucun procès — le
+  changement de titre est précisément ce qui distingue l'autre tableau.
+- **Le quota de chansons francophones** vient de l'amendement Pelchat à la loi
+  Carignon du 1er février 1994, non de la loi Toubon du 4 août, qui porte sur
+  l'emploi de la langue et n'institue aucun quota radiophonique.
+- **Le Prométhée du Louvre** est le morceau de réception de 1762 ; 1737 est la
+  date du modèle en terre cuite, qui est à Nancy.
+- **Le Baiser de Rodin** : aucun marbre n'est daté de 1886. Le premier, achevé en
+  1898, est au musée Rodin ; celui de Copenhague date de 1901-1904.
+- **Les moai** : en 1722 les statues côtières étaient encore debout. Le
+  renversement est postérieur au contact européen — le cours en faisait une cause
+  antérieure.
+- **Anna Maria Luisa de Médicis** : la clause est l'article 3 du pacte de famille
+  du 31 octobre 1737. 1743 est l'année de sa mort, donc de l'entrée en vigueur.
+  L'erreur portait aussi l'énoncé d'une question de quiz.
+- **Le dernier concert de Brel** n'est ni le 6 octobre 1966 ni à l'Olympia : le
+  6 octobre ouvre sa série, les adieux filmés sont de fin octobre, et son tout
+  dernier concert est à Roubaix, le 16 mai 1967. C'était la bonne réponse d'une
+  question.
+- Deux questions à deux réponses (Léo Ferré contre Jean Ferrat ; Barbara « à
+  l'international » quand l'explication justifiait tout autre chose) et un
+  doublon franc sur le un pour cent artistique.
+
+Cinéma et médias :
+
+- **Une explication laissée en chantier** dans le cahier d'origine : elle hésite
+  à voix haute (« non : citons plutôt… ») et finit par citer trois films qui
+  n'ont jamais eu l'Ours d'or. C'est le seul endroit du corpus où la fabrication
+  se voit à l'œil nu.
+- **Le plan moyen** : c'est le plan américain qui coupe à mi-cuisses. Le cours du
+  seed donnait la mauvaise correspondance, et faisait disparaître le plan
+  américain de l'échelle — alors que la leçon d'origine, elle, est juste et en
+  fait même une question dont « le plan moyen » est le distracteur écarté.
+- **Le journal télévisé de 1949** n'est pas le premier au monde : la BBC diffuse
+  le sien depuis janvier 1948, CBS depuis mai. C'était la bonne réponse d'une
+  question intitulée « une première mondiale ».
+- **Un César du directeur de casting qui n'existe pas.** La confusion vient de
+  l'Oscar du meilleur casting, créé en 2024.
+- **Un distracteur qui nomme la bonne réponse** : « Le FID de Lussas seul », quand
+  le FID *est* le Festival international du documentaire de Marseille.
+- Une question insoluble sur le compositeur italien (les quatre propositions
+  étaient vraies, et l'explication le reconnaissait) et une attribution fausse à
+  Céline Sciamma, qui n'a tourné aucun film en langue des signes.
+- **Douze questions posées deux fois** dans deux lots — dont une avec les mêmes
+  quatre propositions dans le même ordre, et trois qui, après les fusions de
+  `cours/fusions.ts`, se retrouvaient **dans le même chapitre**. Chacune est
+  remplacée par une question propre à sa notion. Et la même formule sur le code
+  Hays, mot pour mot dans deux cours, laisse place à un cas d'autocensure
+  contemporaine.
+
+Porte : `tsc` ✓ · `validate:content` 0 erreur / 633 avertissements (un de moins) ·
+236 tests ✓ · `build` ✓.

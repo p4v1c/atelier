@@ -3,7 +3,7 @@
  "sections": [
   {
    "titre": "Les débuts, d'un ministère à un journal télévisé",
-   "texte": "La télévision française naît dans un service de l'État. Le 26 avril 1935, Radio-PTT Vision est officiellement lancée depuis le ministère des Postes, Télégraphes et Téléphones : c'est la première chaîne française à émettre régulièrement. Le public concerné est alors minuscule, les récepteurs étant rarissimes et coûteux, et la diffusion se limite à la région parisienne. Le 4 janvier 1937, des émissions quotidiennes s'installent, dans une case très courte allant de vingt heures à vingt heures trente. La guerre interrompt ce développement, qui reprend ensuite dans une France en reconstruction. Le 9 février 1949 est créée la Radiodiffusion-Télévision française, la RTF, qui réunit la radio et la télévision publiques sous une même autorité. Quelques mois plus tard, le 29 juin 1949, Pierre Sabbagh lance un journal télévisé quotidien, le premier au monde : la télévision cesse d'être un divertissement expérimental pour devenir un média d'information, avec ses présentateurs, ses reportages et bientôt ses rendez-vous. Le 6 juin 1954, la France figure parmi les membres fondateurs de l'Eurovision, réseau d'échange qui permet aux télévisions européennes de partager des images et de retransmettre ensemble les grands événements. Ces années fixent une caractéristique durable du modèle français : la télévision est d'abord un service public, financé par une redevance, et non une entreprise commerciale.",
+   "texte": "La télévision française naît dans un service de l'État. Le 26 avril 1935, Radio-PTT Vision est officiellement lancée depuis le ministère des Postes, Télégraphes et Téléphones : c'est la première chaîne française à émettre régulièrement. Le public concerné est alors minuscule, les récepteurs étant rarissimes et coûteux, et la diffusion se limite à la région parisienne. Le 4 janvier 1937, des émissions quotidiennes s'installent, dans une case très courte allant de vingt heures à vingt heures trente. La guerre interrompt ce développement, qui reprend ensuite dans une France en reconstruction. Le 9 février 1949 est créée la Radiodiffusion-Télévision française, la RTF, qui réunit la radio et la télévision publiques sous une même autorité. Quelques mois plus tard, le 29 juin 1949, Pierre Sabbagh lance le premier journal télévisé français quotidien : la télévision cesse d'être un divertissement expérimental pour devenir un média d'information, avec ses présentateurs, ses reportages et bientôt ses rendez-vous. Le 6 juin 1954, la France figure parmi les membres fondateurs de l'Eurovision, réseau d'échange qui permet aux télévisions européennes de partager des images et de retransmettre ensemble les grands événements. Ces années fixent une caractéristique durable du modèle français : la télévision est d'abord un service public, financé par une redevance, et non une entreprise commerciale.",
    "visuel": {
     "type": "frise",
     "titre": "Les débuts de la télévision française",
@@ -121,10 +121,10 @@
  ],
  "quiz": [
   {
-   "q": "Quel événement du 29 juin 1949 marque une première mondiale pour la télévision française ?",
+   "q": "Quel événement du 29 juin 1949 marque une étape décisive pour la télévision française ?",
    "choix": [
     "La première retransmission en couleur",
-    "Le lancement du premier journal télévisé quotidien au monde",
+    "Le lancement du premier journal télévisé français quotidien",
     "La création de l'Eurovision",
     "La première émission de variétés en direct"
    ],
