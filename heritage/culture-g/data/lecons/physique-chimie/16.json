@@ -96,7 +96,7 @@
    "choix": [
     "Tout corps plongé dans un fluide subit une force verticale dirigée de bas en haut, égale au poids du fluide déplacé",
     "Tout corps plongé dans un fluide perd la totalité de son poids",
-    "La pression dans un liquide est la même en tout point, quelle que soit la profondeur",
+    "La pression à l'intérieur d'un liquide au repos est la même en tout point, quelle que soit la profondeur à laquelle on la mesure",
     "Un corps flotte si sa masse est inférieure à un kilogramme"
    ],
    "bonne": 0,
@@ -106,7 +106,7 @@
   {
    "q": "Quelle observation de Galilée en 1610 apportait un argument fort contre l'idée que tout tourne autour de la Terre ?",
    "choix": [
-    "La découverte des taches solaires",
+    "La découverte des taches sombres qui parcourent la surface du Soleil",
     "La découverte de quatre satellites en orbite autour de Jupiter",
     "La mesure de la vitesse de la lumière",
     "L'observation d'une comète"

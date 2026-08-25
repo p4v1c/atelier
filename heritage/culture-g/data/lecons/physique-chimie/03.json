@@ -160,7 +160,7 @@
    "choix": [
     "Elle augmente régulièrement",
     "Elle reste constante à 0 degré Celsius",
-    "Elle diminue jusqu'à moins 10 degrés",
+    "Elle diminue jusqu'à moins 10 degrés Celsius",
     "Elle oscille entre 0 et 100 degrés"
    ],
    "bonne": 1,

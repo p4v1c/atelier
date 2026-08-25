@@ -82,7 +82,7 @@
     "La diffraction de la lumière par les bords de la fibre",
     "La réflexion totale interne à l'interface entre le cœur et la gaine",
     "L'absorption de la lumière par le verre",
-    "La polarisation de la lumière par le revêtement extérieur"
+    "La polarisation de la lumière par le revêtement extérieur de la fibre"
    ],
    "bonne": 1,
    "difficulte": 1,
@@ -104,7 +104,7 @@
    "q": "Qu'appelle-t-on inversion de population dans un laser ?",
    "choix": [
     "Le fait que les atomes excités soient plus nombreux que ceux restés au niveau d'énergie bas",
-    "Le renversement du sens de propagation du faisceau dans la cavité",
+    "Le renversement du sens de propagation du faisceau lumineux à l'intérieur de la cavité optique",
     "L'échange des deux miroirs de la cavité optique",
     "La transformation des photons en électrons"
    ],

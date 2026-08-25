@@ -69,7 +69,7 @@
     "Ec = ½ m v²",
     "Ec = m v",
     "Ec = m g h",
-    "Ec = m c²"
+    "Ec = m c² (énergie de masse)"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -128,7 +128,7 @@
    "choix": [
     "L'ampère",
     "Le volt",
-    "L'ohm",
+    "L'ohm par mètre",
     "Le watt"
    ],
    "bonne": 0,
@@ -175,7 +175,7 @@
    "q": "Quel savant américain a inventé le paratonnerre au XVIIIe siècle ?",
    "choix": [
     "Benjamin Franklin",
-    "Thomas Edison",
+    "Thomas Alva Edison",
     "Nikola Tesla",
     "Samuel Morse"
    ],
@@ -225,7 +225,7 @@
     "Elle se décompose en un spectre de couleurs",
     "Elle devient plus blanche",
     "Elle est totalement absorbée",
-    "Elle se transforme en chaleur uniquement"
+    "Elle se transforme uniquement en chaleur, sans se décomposer"
    ],
    "bonne": 0,
    "difficulte": 1,
@@ -273,7 +273,7 @@
     "La dispersion de la lumière dans les gouttes d'eau",
     "La diffraction de la lumière par les nuages",
     "L'émission de lumière par la vapeur d'eau",
-    "La réflexion sur les cristaux de glace uniquement"
+    "La réflexion sur les seuls cristaux de glace en suspension"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -321,7 +321,7 @@
     "Le rayonnement",
     "La conduction",
     "La convection",
-    "L'évaporation"
+    "L'évaporation de l'eau"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -333,7 +333,7 @@
     "L'énergie se conserve : elle ne peut être ni créée ni détruite",
     "La chaleur va toujours du froid vers le chaud",
     "Le désordre d'un système isolé diminue toujours",
-    "La température d'un gaz est proportionnelle à son volume"
+    "La température d'un gaz est toujours proportionnelle à son volume"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -379,7 +379,7 @@
    "q": "Que dit le principe d'Archimède ?",
    "choix": [
     "Tout corps plongé dans un fluide subit une poussée verticale égale au poids du fluide déplacé",
-    "Tout corps plongé dans un fluide perd la moitié de son poids",
+    "Tout corps plongé dans un fluide perd exactement la moitié de son poids apparent",
     "La pression d'un fluide est la même en tout point",
     "Un corps flotte si sa masse est inférieure à un kilogramme"
    ],
@@ -405,7 +405,7 @@
     "Evangelista Torricelli",
     "Blaise Pascal",
     "Robert Boyle",
-    "Otto von Guericke"
+    "Otto von Guericke, bourgmestre de Magdebourg"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -513,7 +513,7 @@
     "La pression, le volume, la quantité de matière et la température d'un gaz",
     "La pression et la masse volumique d'un liquide",
     "La chaleur et le travail d'un moteur",
-    "La vitesse et l'énergie des molécules d'un solide"
+    "La vitesse et l'énergie moyenne des molécules à l'intérieur d'un solide cristallin"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -537,7 +537,7 @@
     "Le bombardement d'une feuille d'or par des particules alpha",
     "L'électrolyse de l'eau",
     "La diffraction de la lumière par un cristal",
-    "La mesure de la charge d'une goutte d'huile"
+    "La mesure de la charge électrique d'une goutte d'huile en suspension"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -549,7 +549,7 @@
     "Joseph John Thomson",
     "Ernest Rutherford",
     "James Chadwick",
-    "Niels Bohr"
+    "Niels Henrik David Bohr"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -559,7 +559,7 @@
    "q": "Que sont deux isotopes d'un même élément chimique ?",
    "choix": [
     "Des atomes de même nombre de protons mais de nombres de neutrons différents",
-    "Des atomes de même masse mais de charges différentes",
+    "Des atomes ayant la même masse atomique mais porteurs de charges électriques différentes",
     "Deux molécules de formule identique",
     "Deux ions de charges opposées"
    ],
@@ -583,7 +583,7 @@
    "q": "Quel est l'élément chimique le plus abondant de l'Univers ?",
    "choix": [
     "L'hydrogène",
-    "L'oxygène",
+    "L'oxygène gazeux",
     "Le carbone",
     "Le fer"
    ],
@@ -608,7 +608,7 @@
    "choix": [
     "Leur couche électronique externe est saturée",
     "Leur noyau est instable",
-    "Ils ne possèdent pas d'électrons",
+    "Ils ne possèdent aucun électron sur leur couche externe",
     "Ils sont trop légers"
    ],
    "bonne": 0,
@@ -667,7 +667,7 @@
    "q": "Quel métal est liquide à température ambiante ?",
    "choix": [
     "Le mercure",
-    "Le plomb",
+    "Le plomb fondu",
     "L'étain",
     "Le zinc"
    ],

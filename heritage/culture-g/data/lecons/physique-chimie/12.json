@@ -82,7 +82,7 @@
     "Les lois de la physique sont identiques dans tous les référentiels galiléens, et la vitesse de la lumière dans le vide y est la même",
     "Le temps est absolu, et l'espace est absolu",
     "La gravitation est une force, et la lumière est une onde",
-    "Rien ne peut dépasser la vitesse du son, et la masse se conserve"
+    "Rien ne peut dépasser la vitesse du son dans l'air, et la masse d'un corps se conserve toujours, quel que soit son état de mouvement"
    ],
    "bonne": 0,
    "difficulte": 1,
@@ -106,7 +106,7 @@
     "Elle bat plus vite et affiche une durée plus longue",
     "Elle s'arrête complètement",
     "Elle bat plus lentement et affiche une durée écoulée plus courte",
-    "Elle bat exactement au même rythme, seule son apparence change"
+    "Elle bat exactement au même rythme que l'horloge de l'observateur, seule son apparence change"
    ],
    "bonne": 2,
    "difficulte": 2,
