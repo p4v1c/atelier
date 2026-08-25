@@ -100,9 +100,9 @@
    "q": "Qu'appelle-t-on l'affinage en claires ?",
    "choix": [
     "Un séjour final dans d'anciens marais salants peu profonds",
-    "Un passage en bassin d'eau douce pour dessaler l'huître",
-    "Un tri par calibre avant expédition",
-    "Une cuisson lente à la vapeur"
+    "Un passage en bassin d'eau douce destiné à dessaler l'huître",
+    "Un tri par calibre effectué juste avant l'expédition",
+    "Une cuisson lente à la vapeur avant la mise en bourriche"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -112,7 +112,7 @@
    "q": "Que s'est-il passé à Terre-Neuve en 1992 ?",
    "choix": [
     "Une marée noire a ruiné les bancs de pêche",
-    "Le Canada a ouvert ses eaux aux chalutiers européens",
+    "Le Canada a ouvert ses eaux territoriales aux chalutiers européens",
     "Une nouvelle technique de pêche a doublé les prises",
     "Le Canada a décrété un moratoire sur la pêche à la morue"
    ],
@@ -123,9 +123,9 @@
   {
    "q": "Que vaut la règle des mois en R pour les huîtres ?",
    "choix": [
-    "Elle est sanitaire : l'huître est toxique en été",
+    "Elle est purement sanitaire : l'huître devient réellement toxique pendant toute la saison chaude",
     "C'est surtout une question de goût, l'huître étant laiteuse en période de reproduction",
-    "Elle date des quotas européens du XXe siècle",
+    "Elle date de la mise en place des quotas européens de pêche au XXe siècle",
     "Elle interdit la vente d'huîtres hors saison"
    ],
    "bonne": 1,
@@ -137,8 +137,8 @@
    "choix": [
     "Parce qu'il contient beaucoup plus d'eau",
     "Parce que ses fibres sont courtes et son collagène fond dès cinquante à soixante degrés",
-    "Parce qu'il est dépourvu de protéines fibreuses",
-    "Parce que sa chair est déjà partiellement dénaturée par le froid"
+    "Parce qu'il est entièrement dépourvu de protéines fibreuses et de collagène",
+    "Parce que sa chair se trouve déjà partiellement dénaturée par le froid de l'eau de mer où il vit"
    ],
    "bonne": 1,
    "difficulte": 3,

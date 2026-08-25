@@ -97,10 +97,10 @@
   {
    "q": "Quelle forme métrique caractérise la chanson de geste à ses débuts ?",
    "choix": [
-    "Le sonnet en alexandrins",
+    "Le sonnet en alexandrins à rimes croisées",
     "Le décasyllabe groupé en laisses assonancées",
-    "Le vers libre sans rime",
-    "Le distique en octosyllabes rimés"
+    "Le vers libre, sans rime ni compte de syllabes",
+    "Le distique en octosyllabes rimés deux par deux"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -145,10 +145,10 @@
   {
    "q": "Quel épisode historique se trouve à l'origine de « La Chanson de Roland » ?",
    "choix": [
-    "La bataille de Poitiers de 732",
-    "Le sacre de Charlemagne en 800",
+    "La bataille de Poitiers remportée par Charles Martel en 732",
+    "Le sacre de Charlemagne à Rome en l'an 800",
     "Le massacre de l'arrière-garde de Charlemagne en 778",
-    "La première croisade de 1096"
+    "La première croisade prêchée à Clermont en 1095"
    ],
    "bonne": 2,
    "difficulte": 1,

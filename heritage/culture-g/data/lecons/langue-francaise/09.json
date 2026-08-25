@@ -145,7 +145,7 @@
    "choix": [
     "Entre un déterminant et son nom, comme dans « les enfants »",
     "Après la conjonction « et », comme dans « un jour et une nuit »",
-    "Entre un pronom sujet et son verbe, comme dans « nous avons »",
+    "Entre un pronom sujet et son verbe conjugué, comme dans « nous avons »",
     "Après une préposition d'une syllabe, comme dans « en avion »"
    ],
    "bonne": 1,
@@ -192,7 +192,7 @@
    "q": "Où tombe l'accent tonique en français standard ?",
    "choix": [
     "Sur la première syllabe de chaque mot",
-    "Sur l'avant-dernière syllabe de chaque mot",
+    "Sur l'avant-dernière syllabe de chaque mot, comme en italien",
     "Sur la dernière syllabe prononcée du groupe rythmique",
     "Il n'existe aucun accent tonique en français"
    ],

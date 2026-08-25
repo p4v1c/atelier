@@ -131,10 +131,10 @@
   {
    "q": "Quel événement déclenche l'insurrection parisienne du 18 mars 1871 ?",
    "choix": [
-    "L'entrée des troupes allemandes dans Paris",
-    "L'exécution de l'archevêque de Paris",
+    "L'incendie du palais des Tuileries par les insurgés",
+    "L'entrée des troupes allemandes dans Paris au lendemain de l'armistice",
     "La tentative de l'armée de reprendre les canons de Montmartre",
-    "L'incendie des Tuileries"
+    "L'exécution de l'archevêque de Paris par les fédérés"
    ],
    "bonne": 2,
    "difficulte": 1,

@@ -152,9 +152,9 @@
     {
       "q": "Comment les sénateurs français sont-ils élus ?",
       "choix": [
-        "Au suffrage universel direct par tous les électeurs",
-        "Par tirage au sort parmi les conseillers régionaux",
-        "Par nomination du président de la République",
+        "Au suffrage universel direct par tous les électeurs inscrits",
+        "Par tirage au sort parmi les conseillers régionaux en exercice",
+        "Par nomination directe du président de la République",
         "Au suffrage indirect par un collège de grands électeurs"
       ],
       "bonne": 3,
@@ -176,10 +176,10 @@
     {
       "q": "Que signifie le principe selon lequel le suffrage est égal ?",
       "choix": [
-        "Tous les candidats disposent du même budget de campagne",
-        "Chaque commune envoie le même nombre de représentants",
+        "Tous les candidats disposent exactement du même budget de campagne",
+        "Chaque commune envoie le même nombre de représentants, quelle que soit sa taille",
         "Chaque électeur dispose d'une voix qui compte autant que celle des autres",
-        "Le vote est obligatoire pour tous les citoyens"
+        "Le vote est obligatoire pour tous les citoyens en âge de voter"
       ],
       "bonne": 2,
       "difficulte": 1,
@@ -189,9 +189,9 @@
       "q": "Quel organe vérifie les comptes de campagne des candidats aux élections ?",
       "choix": [
         "La Commission nationale des comptes de campagne et des financements politiques",
-        "La Cour de cassation",
-        "Le Conseil économique, social et environnemental",
-        "La Cour des comptes européenne"
+        "La Cour de cassation, juridiction judiciaire suprême",
+        "Le Conseil économique, social et environnemental, consulté sur tous les projets de loi",
+        "La Cour des comptes européenne, qui siège au Luxembourg"
       ],
       "bonne": 0,
       "difficulte": 3,

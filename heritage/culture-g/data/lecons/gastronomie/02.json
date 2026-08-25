@@ -109,9 +109,9 @@
    "q": "Qui a introduit la vigne sur le littoral de la Gaule vers 600 avant notre ère ?",
    "choix": [
     "Les Grecs de Phocée, fondateurs de Massalia",
-    "Les Romains de Jules César",
-    "Les Celtes du Rhin",
-    "Les marchands carthaginois"
+    "Les Romains, à la suite de Jules César",
+    "Les Celtes venus de la vallée du Rhin",
+    "Les marchands carthaginois de Méditerranée occidentale"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -120,10 +120,10 @@
   {
    "q": "D'où proviennent la couleur et les tanins d'un vin rouge ?",
    "choix": [
-    "Du bois du fût",
+    "Du bois du fût, pendant l'élevage",
     "De la peau des raisins pendant la macération",
-    "D'un colorant ajouté",
-    "De la pulpe du raisin, naturellement rouge"
+    "D'un colorant ajouté à la mise en bouteille",
+    "De la pulpe du raisin, qui est naturellement rouge"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -132,10 +132,10 @@
   {
    "q": "Que change la fermentation malolactique dans un vin ?",
    "choix": [
-    "Elle augmente le degré d'alcool",
-    "Elle rend le vin effervescent",
+    "Elle augmente sensiblement le degré d'alcool du vin",
+    "Elle rend le vin légèrement effervescent",
     "Elle transforme l'acide malique en acide lactique, plus doux",
-    "Elle élimine les tanins"
+    "Elle élimine complètement les tanins et assouplit la structure du vin"
    ],
    "bonne": 2,
    "difficulte": 3,
@@ -145,7 +145,7 @@
    "q": "Quelle appellation est reconnue comme la première AOC, en 1936 ?",
    "choix": [
     "Le pommard",
-    "Le sauternes",
+    "Le sauternes, en Gironde",
     "Le muscadet",
     "Le châteauneuf-du-pape"
    ],

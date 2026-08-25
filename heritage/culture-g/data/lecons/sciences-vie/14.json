@@ -111,10 +111,10 @@
   {
    "q": "Quelle part de la surface de la Terre les océans couvrent-ils ?",
    "choix": [
-    "Environ 50 %",
+    "Environ 50 % du globe",
     "Environ 70,8 %",
-    "Environ 90 %",
-    "Environ 30 %"
+    "Environ 90 % du globe",
+    "Environ 30 % du globe"
    ],
    "bonne": 1,
    "difficulte": 1,
@@ -136,9 +136,9 @@
    "q": "Quelle est la salinité moyenne de l'eau de mer ?",
    "choix": [
     "Environ 35 grammes de sels par litre",
-    "Environ 3 grammes par litre",
-    "Environ 100 grammes par litre",
-    "Environ 350 grammes par litre"
+    "Environ 3 grammes de sels par litre",
+    "Environ 100 grammes de sels par litre",
+    "Environ 350 grammes de sels par litre"
    ],
    "bonne": 0,
    "difficulte": 2,

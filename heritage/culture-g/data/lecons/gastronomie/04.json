@@ -141,10 +141,10 @@
   {
    "q": "Quelle matière grasse domine traditionnellement la cuisine du Sud-Ouest ?",
    "choix": [
-    "Le beurre",
+    "Le beurre de baratte",
     "La graisse d'oie ou de canard",
-    "L'huile d'olive",
-    "La margarine"
+    "L'huile d'olive, comme en Provence",
+    "La margarine végétale"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -154,7 +154,7 @@
    "q": "Que contient exactement un gratin dauphinois dans sa version traditionnelle ?",
    "choix": [
     "Des pommes de terre et du reblochon",
-    "Des pommes de terre, des œufs et du gruyère",
+    "Des pommes de terre, des œufs battus et du gruyère râpé",
     "Des pommes de terre et des lardons",
     "Des pommes de terre, du lait, de la crème et de l'ail"
    ],
@@ -168,7 +168,7 @@
     "Albi, Rodez et Cahors",
     "Pau, Bayonne et Dax",
     "Castelnaudary, Carcassonne et Toulouse",
-    "Nîmes, Montpellier et Béziers"
+    "Nîmes, Montpellier et Béziers, dans le Languedoc"
    ],
    "bonne": 2,
    "difficulte": 3,
@@ -177,9 +177,9 @@
   {
    "q": "Qui furent les mères lyonnaises ?",
    "choix": [
-    "Des religieuses cuisinant pour les hospices",
-    "Des marchandes des halles",
-    "Des critiques gastronomiques",
+    "Des religieuses qui cuisinaient pour les hospices de la ville",
+    "Des marchandes des halles de Lyon vendant des plats cuisinés",
+    "Des critiques gastronomiques qui tenaient la rubrique culinaire des journaux lyonnais",
     "Des cuisinières de maisons bourgeoises devenues restauratrices à leur compte"
    ],
    "bonne": 3,

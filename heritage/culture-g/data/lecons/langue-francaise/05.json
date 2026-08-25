@@ -128,7 +128,7 @@
   {
    "q": "En typographie française, que met-on avant un point-virgule ou un point d'exclamation ?",
    "choix": [
-    "Rien du tout",
+    "Rien du tout, aucune espace",
     "Deux espaces",
     "Une espace insécable",
     "Un tiret"
@@ -176,7 +176,7 @@
   {
    "q": "À l'oral spontané, que devient le plus souvent le « ne » de la négation ?",
    "choix": [
-    "Il est remplacé par « pas de »",
+    "Il est systématiquement remplacé par la locution « pas de »",
     "Il est doublé pour insister",
     "Il disparaît dans la très grande majorité des énoncés",
     "Il reste toujours prononcé"

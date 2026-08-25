@@ -83,7 +83,7 @@
   {
    "q": "Qui a créé le Potager du roi à Versailles pour Louis XIV ?",
    "choix": [
-    "André Le Nôtre",
+    "André Le Nôtre, jardinier du roi",
     "Olivier de Serres",
     "Bernard Palissy",
     "Jean-Baptiste de La Quintinie"
@@ -131,9 +131,9 @@
   {
    "q": "Qu'est-ce qu'une AMAP ?",
    "choix": [
-    "Un label public garantissant l'origine régionale d'un légume",
-    "Une coopérative de supermarchés vendant des produits fermiers",
-    "Un marché de gros réservé aux professionnels",
+    "Un label public garantissant l'origine régionale des fruits et des légumes vendus",
+    "Une coopérative de supermarchés spécialisée dans les produits fermiers",
+    "Un marché de gros ouvert aux seuls acheteurs professionnels",
     "Un partenariat où le consommateur achète à l'avance une part de la récolte"
    ],
    "bonne": 3,

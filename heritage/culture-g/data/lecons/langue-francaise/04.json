@@ -139,9 +139,9 @@
   {
    "q": "Quel poète et chef d'État sénégalais fut l'un des promoteurs de la Francophonie et le premier Africain élu à l'Académie française ?",
    "choix": [
-    "Aimé Césaire",
+    "Aimé Césaire, le poète martiniquais",
     "Léopold Sédar Senghor",
-    "Hamani Diori",
+    "Hamani Diori, président du Niger",
     "Amadou Hampâté Bâ"
    ],
    "bonne": 1,
@@ -151,7 +151,7 @@
   {
    "q": "Où dit-on couramment « natel » pour désigner un téléphone portable ?",
    "choix": [
-    "En Belgique",
+    "En Belgique francophone",
     "Au Québec",
     "Au Sénégal",
     "En Suisse romande"

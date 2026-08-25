@@ -141,10 +141,10 @@
   {
    "q": "Dans « au fur et à mesure », que signifiait le mot « fur » ?",
    "choix": [
-    "Le feu",
+    "Le feu, le foyer",
     "Le taux, la mesure",
-    "La force",
-    "Le hasard"
+    "La force, la vigueur",
+    "Le hasard, la chance"
    ],
    "bonne": 1,
    "difficulte": 3,
@@ -154,9 +154,9 @@
    "q": "D'où vient l'expression « le colosse aux pieds d'argile » ?",
    "choix": [
     "Du livre de Daniel dans la Bible",
-    "D'une fable de La Fontaine",
-    "D'un discours de Napoléon",
-    "D'un mythe grec"
+    "D'une fable de Jean de La Fontaine",
+    "D'un discours de Napoléon Ier",
+    "D'un mythe de la Grèce antique"
    ],
    "bonne": 0,
    "difficulte": 2,

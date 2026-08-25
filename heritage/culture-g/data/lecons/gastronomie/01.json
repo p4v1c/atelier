@@ -109,7 +109,7 @@
    "q": "Quelle enzyme contenue dans la présure fait coaguler le lait ?",
    "choix": [
     "La chymosine",
-    "La lipase",
+    "La lipase du lait",
     "L'amylase",
     "La lactase"
    ],
@@ -132,10 +132,10 @@
   {
    "q": "Pourquoi la croûte du munster ou de l'époisses est-elle orangée ?",
    "choix": [
-    "Parce qu'on y ajoute du colorant",
-    "Parce que le lait est chauffé",
+    "Parce qu'on y ajoute un colorant alimentaire orangé",
+    "Parce que le lait est chauffé très fortement avant caillage",
     "Parce que la croûte est régulièrement lavée, ce qui favorise certaines bactéries",
-    "Parce que le fromage est fumé"
+    "Parce que le fromage est longuement fumé au bois de hêtre pendant toute la durée de l'affinage"
    ],
    "bonne": 2,
    "difficulte": 2,

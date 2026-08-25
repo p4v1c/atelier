@@ -840,9 +840,9 @@
      "q": "Quel sous-titre Zola a-t-il donné au cycle des Rougon-Macquart ?",
      "choix": [
       "Histoire naturelle et sociale d'une famille sous le Second Empire",
-      "Chroniques du Paris ouvrier",
-      "Études de mœurs et de milieux",
-      "Scènes de la vie moderne"
+      "Chroniques du Paris ouvrier sous la Troisième République",
+      "Études de mœurs et de milieux dans la France du Second Empire",
+      "Scènes de la vie moderne dans la société française du XIXe siècle finissant"
      ],
      "bonne": 0,
      "difficulte": 3,
@@ -865,8 +865,8 @@
      "choix": [
       "La préface de Cromwell, dont la pièce Hernani fut l'application",
       "L'Art poétique de Boileau",
-      "Le Manifeste du surréalisme",
-      "La Défense et illustration de la langue française"
+      "Le Manifeste du surréalisme d'André Breton",
+      "La Défense et illustration de la langue française, publiée par Du Bellay"
      ],
      "bonne": 0,
      "difficulte": 2,

@@ -156,10 +156,10 @@
   {
    "q": "Quelle proportion de l'énergie du corps le cerveau consomme-t-il ?",
    "choix": [
-    "2 %",
-    "10 %",
+    "2 % seulement",
+    "10 % environ",
     "20 à 25 %",
-    "50 %"
+    "Environ 50 %"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -170,8 +170,8 @@
    "choix": [
     "Le lobe occipital",
     "Le lobe frontal",
-    "Le lobe temporal",
-    "Le lobe pariétal"
+    "Le lobe temporal, sur le côté",
+    "Le lobe pariétal, au sommet"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -182,7 +182,7 @@
    "choix": [
     "Le cervelet",
     "Le lobe frontal",
-    "Le nerf optique",
+    "Le nerf optique de l'œil",
     "La moelle épinière"
    ],
    "bonne": 3,

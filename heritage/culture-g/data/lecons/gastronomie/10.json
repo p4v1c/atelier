@@ -85,7 +85,7 @@
     "D'une injection de gaz carbonique avant l'embouteillage",
     "D'une seconde fermentation qui se déroule dans la bouteille fermée",
     "D'un pressurage sous pression des raisins",
-    "De la dissolution du gaz de la cuve pendant le vieillissement"
+    "De la dissolution du gaz de la cuve pendant tout le vieillissement en cave"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -94,10 +94,10 @@
   {
    "q": "Qu'a réellement apporté Dom Pérignon au vin de Champagne ?",
    "choix": [
-    "Il a inventé la bulle en ajoutant du sucre en bouteille",
-    "Il a mis au point le remuage sur pupitre",
+    "Il a inventé la bulle en ajoutant lui-même du sucre en bouteille",
+    "Il a mis au point le remuage des bouteilles sur pupitre",
     "Il a perfectionné l'assemblage des crus et la clarté des vins",
-    "Il a importé la méthode d'Italie"
+    "Il a importé la méthode depuis l'Italie du Nord"
    ],
    "bonne": 2,
    "difficulte": 3,
@@ -106,9 +106,9 @@
   {
    "q": "Qu'est-ce qui distingue nettement le cognac de l'armagnac ?",
    "choix": [
-    "Le cognac est distillé à partir de cidre",
-    "L'armagnac est vieilli en fût d'acacia uniquement",
-    "Le cognac n'est pas vieilli en fût",
+    "Le cognac est distillé à partir de cidre, et non de vin",
+    "L'armagnac est vieilli en fût d'acacia, à l'exclusion du chêne",
+    "Le cognac n'est jamais vieilli en fût de chêne, contrairement à l'armagnac du Gers",
     "Le cognac subit une double distillation, l'armagnac le plus souvent une seule"
    ],
    "bonne": 3,
@@ -119,9 +119,9 @@
    "q": "Que désigne la part des anges ?",
    "choix": [
     "La fraction d'alcool qui s'évapore du fût pendant le vieillissement",
-    "La part de la récolte réservée autrefois au clergé",
-    "Le premier distillat, écarté par le distillateur",
-    "Le sucre ajouté avant le bouchage"
+    "La part de la récolte que l'on réservait autrefois au clergé local",
+    "Le premier distillat, que le distillateur écarte systématiquement du reste",
+    "Le sucre que l'on ajoute juste avant le bouchage"
    ],
    "bonne": 0,
    "difficulte": 2,

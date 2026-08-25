@@ -110,9 +110,9 @@
    "q": "Sur quelle pièce repose principalement l'accusation contre Alfred Dreyfus en 1894 ?",
    "choix": [
     "Le bordereau, lettre non signée trouvée à l'ambassade d'Allemagne",
-    "Un télégramme allemand chiffré",
-    "Des aveux signés par Dreyfus",
-    "Un carnet de comptes saisi à son domicile"
+    "Des aveux signés par Dreyfus devant le conseil de guerre",
+    "Un télégramme allemand chiffré intercepté par le contre-espionnage",
+    "Un carnet de comptes saisi à son domicile parisien"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -121,9 +121,9 @@
   {
    "q": "Qui découvre en 1896 que le véritable auteur du bordereau est le commandant Esterhazy ?",
    "choix": [
-    "Émile Zola",
-    "Georges Clemenceau",
-    "Le colonel Henry",
+    "Émile Zola, auteur de J'accuse",
+    "Le colonel Henry, du service des renseignements",
+    "Georges Clemenceau, directeur de L'Aurore",
     "Le lieutenant-colonel Georges Picquart"
    ],
    "bonne": 3,
@@ -145,10 +145,10 @@
   {
    "q": "Quelle est l'issue du second procès de Dreyfus à Rennes en 1899 ?",
    "choix": [
-    "Il est acquitté à l'unanimité",
+    "Il est acquitté à l'unanimité des juges du conseil de guerre",
     "Il est de nouveau condamné, puis gracié par le président de la République",
-    "Le procès est annulé avant le verdict",
-    "Il est condamné à mort"
+    "Le procès est annulé avant le verdict par la Cour de cassation",
+    "Il est condamné à mort et déporté une seconde fois en Guyane"
    ],
    "bonne": 1,
    "difficulte": 3,
@@ -157,9 +157,9 @@
   {
    "q": "Quelle conséquence politique majeure la victoire des dreyfusards contribue-t-elle à préparer ?",
    "choix": [
-    "Le rétablissement du service militaire de trois ans",
-    "La création de la Sécurité sociale",
-    "L'instauration du suffrage universel",
+    "Le rétablissement du service militaire de trois ans en 1913",
+    "L'instauration du suffrage universel masculin dans les communes",
+    "La création de la Sécurité sociale pour tous les salariés",
     "La loi de séparation des Églises et de l'État de 1905"
    ],
    "bonne": 3,

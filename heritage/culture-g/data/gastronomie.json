@@ -986,9 +986,9 @@
      "q": "Quelle innovation d'organisation Auguste Escoffier a-t-il imposée dans les grandes cuisines ?",
      "choix": [
       "La division du travail en parties spécialisées",
-      "La cuisine ouverte sur la salle",
-      "Le service à la française",
-      "Le buffet libre"
+      "La cuisine ouverte sur la salle, visible des clients",
+      "Le service à la française, tous les plats à la fois",
+      "Le buffet libre pour les clients pressés"
      ],
      "bonne": 0,
      "difficulte": 2,
@@ -1009,9 +1009,9 @@
     {
      "q": "Que réclamaient les dix commandements de la nouvelle cuisine publiés en 1973 ?",
      "choix": [
-      "Le retour aux épices médiévales",
-      "La généralisation des surgelés",
-      "L'abandon des produits régionaux",
+      "Le retour aux épices médiévales et aux saveurs aigres-douces",
+      "La généralisation du surgelé dans l'ensemble des cuisines de restaurant",
+      "L'abandon des produits régionaux au profit des produits importés",
       "Des cuissons plus courtes, des cartes réduites et des sauces allégées"
      ],
      "bonne": 3,
@@ -1021,10 +1021,10 @@
     {
      "q": "Quel concept de restaurant Joël Robuchon a-t-il lancé en 2003 ?",
      "choix": [
-      "Le buffet à volonté de haute cuisine",
-      "Le restaurant entièrement végétarien",
+      "Le buffet à volonté composé de plats de haute cuisine",
+      "Le restaurant entièrement végétarien de haute cuisine",
       "L'Atelier, où l'on mange au comptoir face aux cuisiniers",
-      "Le dîner dans l'obscurité"
+      "Le dîner servi dans l'obscurité complète par du personnel aveugle"
      ],
      "bonne": 2,
      "difficulte": 3,
@@ -1035,7 +1035,7 @@
      "choix": [
       "Marie-Antoine Carême",
       "Auguste Escoffier",
-      "François Vatel",
+      "François Vatel, maître d'hôtel",
       "Fernand Point"
      ],
      "bonne": 0,

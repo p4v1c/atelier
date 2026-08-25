@@ -157,10 +157,10 @@
   {
    "q": "Parmi ces langues régionales de France, laquelle appartient à la famille germanique ?",
    "choix": [
-    "Le corse",
-    "Le breton",
+    "Le corse, parlé en Corse",
+    "Le breton, parlé en Basse-Bretagne",
     "L'alsacien",
-    "L'occitan"
+    "L'occitan, parlé dans le Midi"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -169,10 +169,10 @@
   {
    "q": "Quel écrivain a obtenu le prix Nobel de littérature en 1904 pour une œuvre composée en provençal ?",
    "choix": [
-    "Alphonse Daudet",
+    "Alphonse Daudet, l'auteur des Lettres de mon moulin",
     "Frédéric Mistral",
-    "Jean Giono",
-    "Joseph d'Arbaud"
+    "Jean Giono, romancier de la Provence",
+    "Joseph d'Arbaud, poète provençal"
    ],
    "bonne": 1,
    "difficulte": 3,

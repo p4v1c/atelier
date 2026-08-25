@@ -179,7 +179,7 @@
    "q": "Comment appelle-t-on deux mots français issus d'un même mot latin, l'un par voie populaire et l'autre par emprunt savant ?",
    "choix": [
     "Un doublet étymologique",
-    "Un paronyme",
+    "Un paronyme, mot de forme voisine",
     "Un homographe",
     "Un mot-valise"
    ],
@@ -204,7 +204,7 @@
    "choix": [
     "Une dizaine",
     "Environ cinquante",
-    "Plus de cinq mille",
+    "Plus de cinq mille mots",
     "Environ quatre cents"
    ],
    "bonne": 3,
