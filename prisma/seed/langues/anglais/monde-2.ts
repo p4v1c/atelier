@@ -354,14 +354,14 @@ export const ANGLAIS_MONDE_2: LotCartes[] = [
     parle: true,
     cartes: [
       {
-        etranger: "This jacket doesn't fit me.",
-        francais: "Cette veste n'est pas à ma taille.",
-        note: "Fit, la taille. Le verbe ne dit rien de l'esthétique.",
+        etranger: "I had the trousers taken up.",
+        francais: "J'ai fait raccourcir le pantalon.",
+        note: "Take up, raccourcir ; let down, rallonger. Have something done dit ce qu'on fait faire par un autre.",
       },
       {
-        etranger: "The cut suits her figure.",
-        francais: "La coupe met sa silhouette en valeur.",
-        note: "Suit, avantager. C'est le compliment ; fit ne parlerait que de la taille.",
+        etranger: "They dressed up for the occasion.",
+        francais: "Ils se sont mis sur leur trente-et-un.",
+        note: "Dress up, s'habiller chic ; dress down, s'habiller décontracté.",
       },
       {
         etranger: "The shoes don't match the belt.",
@@ -385,9 +385,9 @@ export const ANGLAIS_MONDE_2: LotCartes[] = [
         note: "Tight, serré ; loose, ample. Around the waist, à la taille.",
       },
       {
-        etranger: "He always wears the same old coat.",
-        francais: "Il porte toujours le même vieux manteau.",
-        note: "Wear pour ce qu'on a sur soi ; put on pour le geste de l'enfiler.",
+        etranger: "He looked scruffy at the interview.",
+        francais: "Il avait l'air débraillé à l'entretien.",
+        note: "Scruffy, négligé ; smart, soigné — smart ne dit pas l'intelligence en anglais britannique.",
       },
       {
         etranger: "She had her hair cut short.",
@@ -451,9 +451,9 @@ export const ANGLAIS_MONDE_2: LotCartes[] = [
         note: "Play up, mal se tenir. Se dit aussi d'une machine capricieuse.",
       },
       {
-        etranger: "She takes after her father.",
-        francais: "Elle tient de son père.",
-        note: "Take after, tenir de. Ne se dit que pour la parenté.",
+        etranger: "He's grown out of his shoes.",
+        francais: "Il ne rentre plus dans ses chaussures.",
+        note: "Grow out of, ne plus rentrer dans — se dit aussi d'une habitude qu'on finit par perdre.",
       },
       {
         etranger: "He's a picky eater.",

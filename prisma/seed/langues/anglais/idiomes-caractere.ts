@@ -268,10 +268,10 @@ export const ANGLAIS_IDIOMES_CARACTERE: LotCartes[] = [
         note: "Implications, les conséquences non dites. Consequences serait plus direct.",
       },
       {
-        etranger: "There's a trade-off involved.",
-        francais: "Il y a un arbitrage à faire.",
-        aussi: ["Cela suppose un compromis."],
-        note: "A trade-off, ce qu'on perd d'un côté pour gagner de l'autre.",
+        etranger: "That's the gist of it.",
+        francais: "C'est l'essentiel de l'affaire.",
+        aussi: ["Voilà l'idée générale."],
+        note: "The gist, la substance d'un propos. Get the gist, saisir l'essentiel sans tout comprendre.",
       },
       {
         etranger: "The premise is questionable.",

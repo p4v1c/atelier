@@ -117,7 +117,7 @@ export const ANGLAIS_COURS_USAGE: LotCartes[] = [
         {
           titre: "Les connecteurs, et leur registre",
           texte:
-            "Tous les connecteurs ne se valent pas. However est neutre et convient partout. Nevertheless est un cran au-dessus. Nonetheless est littéraire. But convient très bien à l'écrit ordinaire, contrairement à ce qu'on enseigne parfois.\n\nPour la conséquence : so à l'oral et dans un courriel, therefore à l'écrit soutenu, hence rare et technique.\n\nPour ajouter : also en début ou milieu de phrase, in addition à l'écrit, moreover assez formel. Furthermore est de plus en plus perçu comme pompeux.\n\nUn conseil qui vaut pour tous : un connecteur par paragraphe suffit. L'anglais lie par l'ordre des idées plus que par les mots.",
+            "Tous les connecteurs ne se valent pas. However est neutre et convient partout. Nevertheless est un cran au-dessus. Nonetheless est littéraire. But convient très bien à l'écrit ordinaire, contrairement à ce qu'on enseigne parfois.\n\nPour la conséquence : so à l'oral et dans un courriel, therefore à l'écrit soutenu, hence rare et technique.\n\nPour ajouter : also en début ou milieu de phrase, in addition à l'écrit. Moreover et furthermore sont interchangeables et réservés à l'écrit formel — dans un courriel, what's more passe mieux.\n\nUn conseil qui vaut pour tous : un connecteur par paragraphe suffit. L'anglais lie par l'ordre des idées plus que par les mots.",
         },
         {
           titre: "La ponctuation, qui n'est pas la nôtre",
@@ -145,7 +145,7 @@ export const ANGLAIS_COURS_USAGE: LotCartes[] = [
     category: "Verbes",
     title: "Les phrasal verbs, méthode",
     statement:
-      "Un verbe court plus une particule, et le sens n'a plus rien à voir. Ils ne s'apprennent pas par liste : ils s'apprennent par particule.",
+      "Un verbe court plus une particule, et le sens n'a plus rien à voir. Ils ne s'apprennent pas par liste : la particule oriente, le verbe fixe la famille.",
     tip: "La particule porte le sens. Up dit l'achèvement, out l'extérieur ou l'épuisement, off la séparation, on la continuation.",
     difficulty: 3,
     niveau: "B2",

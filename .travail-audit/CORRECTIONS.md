@@ -342,3 +342,79 @@ correction de contenu :
    `legacy.json`, que `PATCHES` ne sait pas modifier — il faudrait étendre le
    mécanisme de patch aux énoncés, ce qui touche au contrat « legacy.json reste
    la copie fidèle du fichier d'origine ».
+
+---
+
+## Anglais — constats GRAVES
+
+### Lot 6 — `anglais-1.md` (11 graves) et l'essentiel d'`anglais-2.md` (20 graves)
+
+Une partie d'`anglais-1` avait déjà été appliquée au commit `e9a7302` : la
+présentation, le rétroprojecteur, le tableau des modaux, la note sur *in the
+country*. Restaient, et sont faits :
+
+- **Le cours** de `en-voc-nature` répétait l'erreur que la carte, elle, avait été
+  corrigée : « in the countryside pour la campagne, jamais in the country ».
+  *We live in the country* est la façon la plus courante de le dire.
+- `en-telephone-messages` — « in + durée, jamais within » : *within ten minutes*
+  est parfaitement anglais et dit autre chose (« en moins de dix minutes »).
+  Une interdiction fausse s'apprend comme une règle.
+- `precision.ts` — « She can't have known. » → « Elle ne pouvait pas être au
+  courant. » : c'est l'incapacité, quand la note dit qu'il s'agit d'une
+  déduction. Même défaut que celui déjà corrigé dans `conjugaison-2.ts`, dans un
+  autre fichier — corrigé par fait, pas par ligne.
+- `en-conj-be-have-do` — « be, have et do sont **les seuls** verbes vraiment
+  irréguliers », quand le même fichier consacre deux séries plus loin trois
+  sections et dix cartes aux deux cents irréguliers.
+
+Quatre doublons francs, résolus en réécrivant le côté qui recopiait :
+
+- `en-conj-passe` reprenait cinq cartes d'`en-temps` **mot pour mot** dans le
+  tableau de son cours. Nouveaux exemples, et un tip qui dit ce que la série a de
+  propre (trois passés, non deux).
+- `en-conj-present` refaisait une série entière (`en-conj-verbes-etat`) en une
+  section et deux cartes. La section renvoie maintenant à la série, et les deux
+  cartes portent sur ce que le continu dit vraiment.
+- Deux séries « Vêtements et apparence », A1 et B1, avec trois cartes jumelles.
+  La B1 prend ce qu'elle seule couvre : *take up / let down*, *dress up*,
+  *scruffy / smart*.
+- « Take after » enseigné deux fois à un parent près, et son `aussi` (« Elle
+  ressemble à sa mère ») contredisait la note de sa propre carte tout en entrant
+  en conflit avec `debutant.ts`.
+- « She didn't come » : la même carte, la même note, dans une série A1 et une
+  série B1.
+
+`anglais-2` — quatre erreurs de fait et trois contradictions frontales :
+
+- **« make sure to do » n'est pas une faute.** Le module l'interdisait dans un
+  tip et dans une note (« jamais en anglais britannique soigné ») : Cambridge et
+  Oxford la donnent comme standard. La règle inventée apprenait à corriger de
+  l'anglais correct.
+- **« call into question »** : deux séries se contredisaient sur la place du
+  complément, et c'est celle qui l'interdisait qui avait tort.
+- **« carefully peut porter sur must »** : un adverbe de manière ne modifie pas
+  un modal. Une série sur les ambiguïtés réelles en inventait une.
+- **« unless »** : un cours posait l'équivalence avec *if… not*, un autre la
+  refusait explicitement, et chaque carte traduisait selon sa doctrine. Position
+  unique, celle qui est juste : *unless* pose l'exception qui annulerait la
+  phrase.
+- **« furthermore »** : un cours en faisait le connecteur fort à privilégier,
+  l'autre un mot devenu pompeux. Une seule position, écrite dans les deux.
+- **La méthode des phrasal verbs** était enseignée à l'envers dans deux cours —
+  entrer par la particule ici, par le verbe là, chacun disant l'autre voie
+  trompeuse. Les deux entrées sont maintenant articulées : la particule pour
+  deviner, le verbe pour réviser.
+- Quatre cartes ou paragraphes recopiés d'une série à l'autre (*addresses three
+  questions*, *I hear you but*, les deux cartes de passif du C1 qui reprenaient
+  le B2, *trade-off*, le paragraphe *problem / issue / matter / concern*).
+
+**Reste d'`anglais-2`, et c'est une décision à prendre** : trois doublons ne se
+règlent pas en réécrivant quelques cartes, parce que ce sont des **séries
+entières écrites deux fois** — « gérondif ou infinitif » (B1 et B2), « make, do,
+take, have » (A2 et B2), et le cours sur la litote britannique (B2 et C2). Le
+rapport propose de garder celle qui a le cours et de recentrer l'autre sur ce
+qu'elle seule couvre : c'est une réécriture de dix cartes par série, pas une
+correction. **À décider avec le propriétaire** avant de la mener.
+
+Porte : `tsc` ✓ · `validate:content` 0 erreur / 634 avertissements · 236 tests ✓ ·
+`build` ✓.

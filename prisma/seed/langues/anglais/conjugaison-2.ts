@@ -16,7 +16,7 @@ export const ANGLAIS_CONJUGAISON_2: LotCartes[] = [
     category: "Conjugaison",
     title: "Be, have, do : les trois auxiliaires",
     statement:
-      "Trois verbes portent toute la conjugaison anglaise : ils forment les questions, les négations, les temps composés — et ils sont les seuls à être vraiment irréguliers.",
+      "Trois verbes portent toute la conjugaison anglaise : ils forment les questions, les négations, les temps composés — et ce sont les plus irréguliers de la langue : be change de forme à presque chaque personne.",
     tip: "Do n'apparaît que si aucun autre auxiliaire n'est là. Dès qu'il y a be, have ou un modal, do disparaît.",
     difficulty: 1,
     niveau: "A1",

@@ -63,7 +63,7 @@ export const ANGLAIS_COURS_AVANCE: LotCartes[] = [
         {
           titre: "Ce qui gravite autour",
           texte:
-            "Unless remplace if… not : unless you hurry, we'll be late. Il ne se cumule pas avec une négation.\n\nI wish et if only introduisent le regret avec le même recul de temps : I wish I knew, je voudrais savoir, et je ne sais pas ; I wish I had known, si seulement j'avais su.\n\nEnfin, les mélanges sont permis quand le sens l'exige : if I had studied medicine, I would be a doctor now — un passé irréel, une conséquence au présent.",
+            "Unless veut dire « sauf si » : il pose la seule circonstance qui annulerait la phrase. Il équivaut souvent à if… not, mais pas toujours, et il ne se cumule jamais avec une négation.\n\nI wish et if only introduisent le regret avec le même recul de temps : I wish I knew, je voudrais savoir, et je ne sais pas ; I wish I had known, si seulement j'avais su.\n\nEnfin, les mélanges sont permis quand le sens l'exige : if I had studied medicine, I would be a doctor now — un passé irréel, une conséquence au présent.",
         },
       ],
     },
@@ -73,7 +73,7 @@ export const ANGLAIS_COURS_AVANCE: LotCartes[] = [
       { etranger: "If I had more time, I would read more.", francais: "Si j'avais plus de temps, je lirais davantage.", note: "Hypothèse contraire aux faits : prétérit après if." },
       { etranger: "If I were you, I'd wait.", francais: "À ta place, j'attendrais.", note: "Were à toutes les personnes : la forme attendue dans un conseil." },
       { etranger: "If I had known, I would have come.", francais: "Si j'avais su, je serais venu.", note: "Regret sur le passé : past perfect après if." },
-      { etranger: "Unless you hurry, we'll be late.", francais: "Si tu ne te dépêches pas, on sera en retard.", note: "Unless contient déjà la négation : pas de not en plus." },
+      { etranger: "Unless you hurry, we'll be late.", francais: "À moins que tu ne te dépêches, on sera en retard.", note: "Unless pose l'exception qui annulerait la phrase. Il contient déjà la négation : pas de not en plus." },
       { etranger: "I wish I knew.", francais: "Je voudrais bien savoir.", note: "Le prétérit après wish marque l'irréel du présent." },
       { etranger: "I wish I had said something.", francais: "J'aurais voulu dire quelque chose.", note: "Past perfect après wish : le regret d'un passé." },
       { etranger: "What would you do in my place?", francais: "Qu'est-ce que tu ferais à ma place ?" },

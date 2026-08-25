@@ -172,7 +172,7 @@ export const ANGLAIS_VOCABULAIRE_C1: LotCartes[] = [
         {
           titre: "Les connecteurs, et leur registre",
           texte:
-            "Les connecteurs anglais ne sont pas interchangeables : chacun porte un registre, et mélanger les registres est le défaut le plus visible d'un texte non natif.\n\nPour l'opposition, du plus soutenu au plus courant : notwithstanding, nevertheless, nonetheless, however, though, but. Notwithstanding est presque juridique ; but ne s'écrit pas en tête de phrase dans un texte formel — quoique l'usage se relâche.\n\nPour l'ajout : furthermore, moreover, in addition, also, and. Moreover annonce un argument de même force ; furthermore annonce un argument supplémentaire et souvent décisif.\n\nPour la conséquence : consequently, therefore, thus, hence, so. Thus et hence sont les plus denses et se placent volontiers en incise. So est oral.\n\nPour la concession : admittedly, granted, to be sure. Chacun ouvre un paragraphe où l'on donne raison à l'adversaire avant de reprendre la main.\n\nDeux erreurs fréquentes. In fact ne veut pas dire « en fait » au sens de remplissage : il corrige ce qui précède. Actually corrige aussi, et n'a rien à voir avec « actuellement ».",
+            "Les connecteurs anglais ne sont pas interchangeables : chacun porte un registre, et mélanger les registres est le défaut le plus visible d'un texte non natif.\n\nPour l'opposition, du plus soutenu au plus courant : notwithstanding, nevertheless, nonetheless, however, though, but. Notwithstanding est presque juridique ; but ne s'écrit pas en tête de phrase dans un texte formel — quoique l'usage se relâche.\n\nPour l'ajout : furthermore, moreover, in addition, also, and. Moreover et furthermore sont interchangeables et appartiennent à l'écrit formel ; dans un courriel ou une note, also et what's more passent mieux.\n\nPour la conséquence : consequently, therefore, thus, hence, so. Thus et hence sont les plus denses et se placent volontiers en incise. So est oral.\n\nPour la concession : admittedly, granted, to be sure. Chacun ouvre un paragraphe où l'on donne raison à l'adversaire avant de reprendre la main.\n\nDeux erreurs fréquentes. In fact ne veut pas dire « en fait » au sens de remplissage : il corrige ce qui précède. Actually corrige aussi, et n'a rien à voir avec « actuellement ».",
           visuels: [
             {
               type: "comparaison",
@@ -224,7 +224,7 @@ export const ANGLAIS_VOCABULAIRE_C1: LotCartes[] = [
       {
         etranger: "The results call the theory into question.",
         francais: "Les résultats remettent la théorie en cause.",
-        note: "Call into question, en trois mots séparables. « Put in question » est un calque.",
+        note: "Le complément se place entre call et into : call the theory into question. « Put in question » est un calque.",
       },
       {
         etranger: "Further research is needed here.",

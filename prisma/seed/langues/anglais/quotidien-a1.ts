@@ -175,7 +175,7 @@ export const ANGLAIS_QUOTIDIEN_A1: LotCartes[] = [
       {
         etranger: "I'll call you back in ten minutes.",
         francais: "Je te rappelle dans dix minutes.",
-        note: "Call back en deux mots. Et in + durée pour un délai à venir, jamais « within ».",
+        note: "Call back en deux mots. In + durée dit le délai au bout duquel : in ten minutes, dans dix minutes. Within dit avant la fin du délai : within ten minutes, en moins de dix minutes.",
       },
       {
         etranger: "Can you hear me?",

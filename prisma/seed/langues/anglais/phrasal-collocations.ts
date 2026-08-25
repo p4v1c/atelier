@@ -8,7 +8,8 @@
  *
  * Deux familles y répondent. Les verbes à particule, qui sont le cœur de
  * l'anglais courant et qu'aucun dictionnaire bilingue ne rend correctement :
- * on les apprend par famille de verbe, jamais un par un. Et les collocations,
+ * on les apprend par famille de verbe pour réviser, par particule pour deviner —
+ * jamais un par un. Et les collocations,
  * ces couples de mots que l'usage a soudés sans raison — heavy rain mais strong
  * wind, et jamais l'inverse.
  */
@@ -443,9 +444,9 @@ export const ANGLAIS_PHRASAL_COLLOCATIONS: LotCartes[] = [
         note: "Raise a question, soulever. Pose a question dit plutôt qu'on la formule.",
       },
       {
-        etranger: "The paper addresses three issues.",
-        francais: "L'article traite trois questions.",
-        note: "Address an issue, traiter. Le verbe ne veut jamais dire adresser.",
+        etranger: "The study meets a long-standing need.",
+        francais: "L'étude répond à un besoin ancien.",
+        note: "Meet a need, meet a deadline, meet a standard : meet dit ce à quoi on satisfait.",
       },
       {
         etranger: "The sample meets the criteria.",
@@ -465,9 +466,9 @@ export const ANGLAIS_PHRASAL_COLLOCATIONS: LotCartes[] = [
         note: "Lend support to, apporter un appui. Give support est plus faible et moins écrit.",
       },
       {
-        etranger: "This calls into question the method.",
-        francais: "Cela remet en cause la méthode.",
-        note: "Call into question, remettre en cause. La particule ne se déplace pas.",
+        etranger: "This calls the method into question.",
+        francais: "Cela remet la méthode en cause.",
+        note: "Le complément se glisse entre call et into. La forme soudée, call into question the method, existe mais pèse plus lourd.",
       },
       {
         etranger: "The results shed light on the process.",

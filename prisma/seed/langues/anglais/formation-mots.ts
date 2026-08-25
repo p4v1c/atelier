@@ -374,15 +374,14 @@ export const ANGLAIS_FORMATION_MOTS: LotCartes[] = [
         note: "It is thought that, la formule impersonnelle. Personne ne s'engage nommément.",
       },
       {
-        etranger: "They were given a second chance.",
-        francais: "On leur a donné une seconde chance.",
-        note: "Le complément d'attribution devient sujet du passif, ce que le français ne fait pas.",
+        etranger: "It is widely believed that the figures are wrong.",
+        francais: "On pense généralement que les chiffres sont faux.",
+        note: "It is believed that…, la tournure impersonnelle de l'écrit : elle dit une opinion sans en nommer l'auteur.",
       },
       {
-        etranger: "The house is being rebuilt.",
-        francais: "La maison est en cours de reconstruction.",
-        aussi: ["On reconstruit la maison."],
-        note: "Be being + participe : le passif au continu. Lourd en français, banal en anglais.",
+        etranger: "The meeting was called off at short notice.",
+        francais: "La réunion a été annulée au dernier moment.",
+        note: "Un verbe à particule se met au passif comme un autre : la particule reste collée au participe.",
       },
       {
         etranger: "The proposal was turned down.",

@@ -241,9 +241,9 @@ export const ANGLAIS_ORAL_INTERACTION: LotCartes[] = [
         note: "May be so concède l'hypothèse pour mieux la contourner.",
       },
       {
-        etranger: "I hear you, but the timing is wrong.",
-        francais: "J'entends bien, mais le moment est mal choisi.",
-        note: "I hear you accuse réception sans accord. Ce n'est jamais un oui.",
+        etranger: "I take your point, but the timing is wrong.",
+        francais: "Je vous accorde ce point, mais le moment est mal choisi.",
+        note: "Take someone's point concède l'argument sans céder sur la conclusion.",
       },
       {
         etranger: "Let's agree to differ.",
@@ -410,7 +410,7 @@ export const ANGLAIS_ORAL_INTERACTION: LotCartes[] = [
     title: "Expliquer comment faire",
     statement:
       "Make sure, be careful not to, whatever you do. Donner une consigne en anglais demande de choisir entre l'ordre, le conseil et l'avertissement.",
-    tip: "Make sure + proposition, jamais + infinitif : make sure you lock the door. La faute est fréquente et s'entend tout de suite.",
+    tip: "Make sure se construit avec une proposition — make sure you lock the door — ou avec un infinitif — make sure to lock the door. Les deux sont corrects ; ce qui ne se dit pas, c'est « make sure of locking ».",
     difficulty: 2,
     niveau: "B1",
     oral: true,
@@ -419,7 +419,7 @@ export const ANGLAIS_ORAL_INTERACTION: LotCartes[] = [
       {
         etranger: "Make sure you lock the door.",
         francais: "N'oublie pas de fermer à clé.",
-        note: "Make sure + proposition. Jamais « make sure to lock » en anglais britannique soigné.",
+        note: "Make sure you lock ou make sure to lock : les deux se disent. « Make sure of locking », non.",
       },
       {
         etranger: "Be careful not to press that.",

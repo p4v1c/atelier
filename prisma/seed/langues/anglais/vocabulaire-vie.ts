@@ -273,7 +273,6 @@ export const ANGLAIS_VOCABULAIRE_VIE: LotCartes[] = [
       {
         etranger: "She takes after her mother.",
         francais: "Elle tient de sa mère.",
-        aussi: ["Elle ressemble à sa mère."],
         note: "Take after pour la ressemblance héritée ; look like pour la seule apparence.",
       },
       {

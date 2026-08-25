@@ -490,8 +490,9 @@ export const ANGLAIS_PRECISION: LotCartes[] = [
       },
       {
         etranger: "She can't have known.",
-        francais: "Elle ne pouvait pas être au courant.",
-        note: "Can't have est la négation de must have. Mustn't have ne se dit pas.",
+        francais: "Elle ne peut pas avoir été au courant.",
+        aussi: ["Ce n'est pas possible qu'elle ait été au courant."],
+        note: "Déduction, non incapacité : « elle ne pouvait pas » se dirait couldn't. Can't have est la négation de must have. Mustn't have ne se dit pas.",
       },
       {
         etranger: "You might well be right.",

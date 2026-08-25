@@ -766,7 +766,7 @@ export const ANGLAIS_GRAMMAIRE_C1: LotCartes[] = [
       {
         etranger: "We must review all the data carefully.",
         francais: "Nous devons examiner soigneusement toutes les données.",
-        note: "Carefully en fin de phrase peut porter sur review ou sur must. Le placer devant le verbe lève le doute.",
+        note: "Carefully en fin de phrase peut se rattacher au seul review ou à tout le groupe review all the data ; devant le verbe, il ne porte plus que sur l'acte de relire.",
       },
       {
         etranger: "The chicken is ready to eat.",
