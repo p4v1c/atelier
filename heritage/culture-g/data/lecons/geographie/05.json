@@ -155,9 +155,9 @@
    "q": "Quelle conférence internationale a organisé le partage de l'Afrique entre les puissances européennes ?",
    "choix": [
     "La conférence de Berlin de 1884-1885",
-    "Le congrès de Vienne de 1815",
-    "La conférence de Yalta de 1945",
-    "Le traité de Versailles de 1919"
+    "La conférence de Yalta, en février 1945",
+    "Le congrès de Vienne, de 1814 à 1815",
+    "Le traité de Versailles, signé en juin 1919"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -166,10 +166,10 @@
   {
    "q": "Quel pays africain fournit environ 70 pour cent de la production mondiale de cobalt ?",
    "choix": [
-    "L'Afrique du Sud",
-    "Le Ghana",
+    "Le Botswana, au nord de l'Afrique du Sud",
+    "Le Ghana, sur le golfe de Guinée, en Afrique de l'Ouest",
     "La République démocratique du Congo",
-    "Le Botswana"
+    "L'Afrique du Sud et ses mines du Transvaal"
    ],
    "bonne": 2,
    "difficulte": 3,

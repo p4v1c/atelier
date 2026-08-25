@@ -91,10 +91,10 @@
   {
    "q": "Sous quelle forme se trouve la plus grande partie de l'eau douce de la planète ?",
    "choix": [
-    "Dans les fleuves et les rivières",
+    "Dans les fleuves, les rivières et les cours d'eau de surface",
     "Gelée dans les glaces et les neiges, pour environ 69 %",
-    "En vapeur dans l'atmosphère",
-    "Dans les lacs de plaine"
+    "En vapeur d'eau dans l'atmosphère",
+    "Dans les lacs et les étangs de plaine"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -104,9 +104,9 @@
    "q": "Quel est le premier usage de l'eau douce prélevée dans le monde ?",
    "choix": [
     "L'agriculture, avec environ 70 % des prélèvements",
-    "L'industrie manufacturière",
-    "Les usages domestiques",
-    "Le refroidissement des centrales électriques"
+    "L'industrie manufacturière et ses procédés de fabrication",
+    "Les usages domestiques des ménages",
+    "Le refroidissement des centrales électriques thermiques"
    ],
    "bonne": 0,
    "difficulte": 1,
@@ -128,7 +128,7 @@
    "q": "Quelle est la cause principale de l'assèchement de la mer d'Aral ?",
    "choix": [
     "Un séisme qui a fissuré le fond du lac",
-    "La seule évaporation liée au réchauffement climatique",
+    "La seule évaporation naturelle, accélérée par le réchauffement climatique global",
     "La construction d'un port en eau profonde",
     "Le détournement de l'Amou-Daria et du Syr-Daria pour irriguer le coton"
    ],

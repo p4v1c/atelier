@@ -160,9 +160,9 @@
    "q": "Que signifie une carte à grande échelle ?",
    "choix": [
     "Le 1 sur 1 000 000 est une grande échelle",
-    "Une grande échelle couvre toujours un très vaste territoire",
+    "L'échelle d'une carte n'a aucun rapport avec son niveau de détail réel",
     "Une grande échelle, comme le 1 sur 25 000, montre un petit territoire avec beaucoup de détails",
-    "L'échelle n'a aucun rapport avec le niveau de détail"
+    "Une grande échelle, comme le 1 sur 1 000 000, couvre toujours un très vaste territoire peu détaillé"
    ],
    "bonne": 2,
    "difficulte": 3,
@@ -172,9 +172,9 @@
    "q": "Que conserve une projection dite équivalente ?",
    "choix": [
     "Les rapports de surface entre les territoires",
-    "Les angles et les formes locales",
-    "Toutes les distances sans exception",
-    "Absolument tout, sans aucune déformation"
+    "Les angles et les formes locales des contours dessinés",
+    "Toutes les distances, sans aucune exception",
+    "Absolument tout, sans la moindre déformation nulle part"
    ],
    "bonne": 0,
    "difficulte": 2,

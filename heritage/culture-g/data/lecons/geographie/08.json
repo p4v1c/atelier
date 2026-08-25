@@ -134,9 +134,9 @@
   {
    "q": "Quel est le point culminant de l'Australie continentale ?",
    "choix": [
-    "Le mont Wilhelm",
+    "Le mont Wilhelm, en Papouasie-Nouvelle-Guinée",
     "Le mont Kosciuszko, à 2 228 mètres",
-    "Le massif Vinson, à 4 892 mètres",
+    "Le mont Cook, dans les Alpes néo-zélandaises",
     "Le mont Cook"
    ],
    "bonne": 1,
@@ -170,9 +170,9 @@
   {
    "q": "Quelle est la différence fondamentale entre l'Arctique et l'Antarctique ?",
    "choix": [
-    "Les deux sont des continents recouverts de glace",
+    "Les deux sont des continents entièrement recouverts d'une épaisse calotte de glace permanente",
     "Les deux sont des océans gelés",
-    "L'Arctique est un continent et l'Antarctique un océan",
+    "Les deux sont des océans gelés en permanence",
     "L'Arctique est un océan gelé entouré de terres, l'Antarctique un continent entouré d'océans"
    ],
    "bonne": 3,

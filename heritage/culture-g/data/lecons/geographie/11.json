@@ -120,10 +120,10 @@
   {
    "q": "Quelle est approximativement la superficie du Sahara ?",
    "choix": [
-    "Environ 2 millions de km²",
-    "Environ 5 millions de km²",
+    "Environ 2 millions de kilomètres carrés",
+    "Environ 5 millions de kilomètres carrés",
     "Plus de 8,5 millions de km²",
-    "Environ 15 millions de km²"
+    "Environ 15 millions de kilomètres carrés"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -132,9 +132,9 @@
   {
    "q": "Pourquoi les grands déserts chauds se situent-ils vers 30 degrés de latitude ?",
    "choix": [
-    "Parce qu'ils sont proches des pôles",
+    "Parce qu'ils sont plus proches des pôles que de l'équateur",
     "Parce que l'air descendant des cellules de Hadley y crée des hautes pressions et assèche l'atmosphère",
-    "Parce qu'il n'y a aucun océan à ces latitudes",
+    "Parce qu'il n'y a pratiquement aucun océan à ces latitudes et que l'air y circule librement d'ouest en est",
     "Parce que l'axe de rotation de la Terre y est vertical"
    ],
    "bonne": 1,
@@ -156,8 +156,8 @@
   {
    "q": "Quelles causes expliquent l'aridité extrême du désert d'Atacama ?",
    "choix": [
-    "La fonte accélérée des glaciers andins",
-    "L'arrivée de la mousson qui bloque les pluies",
+    "La fonte accélérée des glaciers andins, qui prive la région de toute humidité disponible",
+    "L'arrivée saisonnière de la mousson, qui bloque l'arrivée des pluies venues du Pacifique",
     "Les vents de sable venus d'Australie",
     "Le courant froid de Humboldt, l'anticyclone du Pacifique et l'effet d'abri des Andes"
    ],

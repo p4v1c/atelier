@@ -91,8 +91,8 @@
    "choix": [
     "L'épicentre",
     "L'hypocentre",
-    "La faille",
-    "La dorsale"
+    "La faille active",
+    "La dorsale océanique"
    ],
    "bonne": 0,
    "difficulte": 1,
@@ -114,7 +114,7 @@
    "q": "Quel volcan a détruit la ville de Saint-Pierre en Martinique le 8 mai 1902 ?",
    "choix": [
     "La montagne Pelée",
-    "Le Vésuve",
+    "Le Vésuve, au-dessus de Naples",
     "Le Piton de la Fournaise",
     "Le Krakatoa"
    ],
@@ -125,7 +125,7 @@
   {
    "q": "Un séisme de magnitude 7 libère environ combien de fois plus d'énergie qu'un séisme de magnitude 6 ?",
    "choix": [
-    "2 fois plus",
+    "2 fois plus seulement",
     "10 fois plus",
     "1000 fois plus",
     "30 fois plus"
@@ -137,10 +137,10 @@
   {
    "q": "Que désigne exactement la vulnérabilité en géographie des risques ?",
    "choix": [
-    "La puissance du phénomène naturel",
+    "La puissance du phénomène naturel lui-même, indépendamment des enjeux",
     "La fragilité des populations et des biens exposés",
-    "Le nombre de victimes constatées",
-    "La fréquence des catastrophes"
+    "Le nombre de victimes constatées après coup",
+    "La fréquence des catastrophes dans la région"
    ],
    "bonne": 1,
    "difficulte": 2,

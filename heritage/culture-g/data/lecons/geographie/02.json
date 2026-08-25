@@ -151,8 +151,8 @@
   {
    "q": "Comment appelle-t-on le processus de passage d'une natalité et d'une mortalité fortes à une natalité et une mortalité faibles ?",
    "choix": [
-    "L'exode rural",
-    "La révolution verte",
+    "L'exode rural vers les grandes villes",
+    "La révolution verte des rendements agricoles",
     "La transition démographique",
     "Le vieillissement"
    ],
@@ -164,9 +164,9 @@
    "q": "Environ combien de personnes vivent dans un autre pays que celui de leur naissance au début des années 2020 ?",
    "choix": [
     "Environ 280 millions",
-    "Environ 20 millions",
-    "Environ 1 milliard",
-    "Environ 3 milliards"
+    "Environ 20 millions de personnes",
+    "Environ 1 milliard de personnes",
+    "Environ 3 milliards de personnes"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -175,10 +175,10 @@
   {
    "q": "Quelle forme prend la pyramide des âges d'un pays vieillissant comme le Japon ?",
    "choix": [
-    "Une base très large et un sommet pointu",
-    "Un triangle parfait",
+    "Une base très large et un sommet pointu, comme dans les pays jeunes",
+    "Un triangle parfaitement régulier",
     "Une forme de champignon, étroite en bas et renflée en haut",
-    "Un carré parfait"
+    "Un carré aux côtés parfaitement droits"
    ],
    "bonne": 2,
    "difficulte": 2,

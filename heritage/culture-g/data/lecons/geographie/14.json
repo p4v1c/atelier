@@ -115,10 +115,10 @@
   {
    "q": "Quelle part des terres émergées était consacrée à l'agriculture en 2013 ?",
    "choix": [
-    "Environ 10 %",
-    "Environ 20 %",
+    "Environ 10 % des terres",
+    "Environ 20 % des terres",
     "Environ 37,7 %",
-    "Environ 60 %"
+    "Environ 60 % des terres"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -128,9 +128,9 @@
    "q": "Quelle est la céréale la plus produite dans le monde ?",
    "choix": [
     "Le maïs, avec environ 1,04 milliard de tonnes en 2014",
-    "Le blé",
-    "Le riz",
-    "L'orge"
+    "Le blé, avec environ 1,2 milliard de tonnes produites en 2014",
+    "Le riz, avec environ 900 millions de tonnes en 2014",
+    "L'orge, avec environ 800 millions de tonnes"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -151,10 +151,10 @@
   {
    "q": "Quelle part de la nourriture produite dans le monde est perdue ou gaspillée ?",
    "choix": [
-    "Environ 5 %",
+    "Environ 5 % du total",
     "Environ un tiers",
     "Environ la moitié",
-    "Environ 10 %"
+    "Environ 10 % du total"
    ],
    "bonne": 1,
    "difficulte": 1,
@@ -163,10 +163,10 @@
   {
    "q": "Que signifie la sécurité alimentaire selon la définition de 1996 ?",
    "choix": [
-    "La seule quantité totale de calories produites dans le monde",
-    "Le contrôle sanitaire des aliments et rien d'autre",
+    "La quantité totale de calories produites chaque année dans le monde, indépendamment de leur répartition entre les pays et les ménages",
+    "Le seul contrôle sanitaire des aliments mis en vente, depuis le champ jusqu'à l'assiette du consommateur, et rien d'autre",
     "La possibilité pour tous les êtres humains, à tout moment, de se procurer une nourriture suffisante, saine et nutritive",
-    "L'autosuffisance de chaque pays en céréales"
+    "L'autosuffisance de chaque pays en céréales et en produits de base"
    ],
    "bonne": 2,
    "difficulte": 2,

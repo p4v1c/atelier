@@ -124,9 +124,9 @@
   {
    "q": "Quel mécanisme tectonique explique la formation de la cordillère des Andes ?",
    "choix": [
-    "La collision de deux masses continentales",
-    "L'effondrement d'un rift continental",
-    "L'accumulation de sédiments glaciaires",
+    "La collision frontale de deux masses continentales incapables de s'enfoncer dans le manteau",
+    "L'accumulation de sédiments glaciaires sur des millions d'années",
+    "L'effondrement progressif d'un rift continental",
     "La subduction des plaques de Nazca et antarctique sous la plaque sud-américaine"
    ],
    "bonne": 3,
@@ -137,8 +137,8 @@
    "q": "À quelle vitesse les plaques tectoniques se déplacent-elles ?",
    "choix": [
     "Entre 0 et 100 millimètres par an",
-    "Entre 1 et 10 mètres par an",
-    "Environ un kilomètre par siècle",
+    "Environ un kilomètre par siècle et par plaque",
+    "Entre 1 et 10 mètres par an environ",
     "Elles sont totalement immobiles"
    ],
    "bonne": 0,

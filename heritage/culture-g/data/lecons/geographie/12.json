@@ -81,9 +81,9 @@
   {
    "q": "Quelle est approximativement la superficie de la forêt amazonienne ?",
    "choix": [
-    "Environ 1 million de km²",
+    "Environ 1 million de km² seulement",
     "Environ 3 millions de km²",
-    "Environ 15 millions de km²",
+    "Environ 15 millions de km², soit tout le Brésil",
     "Environ 5,5 millions de km²"
    ],
    "bonne": 3,
@@ -94,9 +94,9 @@
    "q": "Quelle est la principale cause de la déforestation dans le monde ?",
    "choix": [
     "L'agriculture, en particulier l'élevage bovin et les cultures destinées au bétail",
-    "Les incendies déclenchés spontanément par la foudre",
-    "L'exploitation minière",
-    "L'étalement des villes"
+    "Les incendies de forêt déclenchés spontanément par la foudre pendant la saison sèche",
+    "L'exploitation minière à ciel ouvert",
+    "L'étalement urbain et la construction de routes"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -105,10 +105,10 @@
   {
    "q": "Quelle part de la surface terrestre la taïga occupe-t-elle ?",
    "choix": [
-    "Environ 3 %",
-    "Environ 5 %",
+    "Environ 3 %, soit 4,5 millions de kilomètres carrés",
+    "Environ 5 %, soit 7,5 millions de kilomètres carrés",
     "Environ 10 %, soit 15,1 millions de km²",
-    "Environ 25 %"
+    "Environ 25 %, soit 37 millions de kilomètres carrés"
    ],
    "bonne": 2,
    "difficulte": 3,
@@ -117,10 +117,10 @@
   {
    "q": "Quelle part des émissions humaines de gaz à effet de serre la déforestation représente-t-elle ?",
    "choix": [
-    "Environ 1 à 2 %",
+    "Environ 1 à 2 % du total",
     "Environ 9 à 11 %",
     "Environ 30 %",
-    "Environ 50 %"
+    "Environ 50 % du total"
    ],
    "bonne": 1,
    "difficulte": 2,

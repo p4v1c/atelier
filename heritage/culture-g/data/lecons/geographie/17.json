@@ -143,7 +143,7 @@
   {
    "q": "Que prévoit l'accord de Paris ?",
    "choix": [
-    "Adopté en 1992, il vise seulement à stabiliser les émissions",
+    "Adopté en 1992, il vise seulement à stabiliser les émissions au niveau de 1990, sans objectif de température",
     "Adopté en 1997, il impose une baisse de 5 % des émissions",
     "Adopté en 2009, il accepte un réchauffement de 3 degrés",
     "Adopté en 2015, il vise à contenir le réchauffement nettement sous 2 degrés et si possible à 1,5 degré"
@@ -156,9 +156,9 @@
    "q": "Quelles sont les deux causes principales de l'élévation du niveau des océans ?",
    "choix": [
     "La dilatation thermique de l'eau et la fonte des glaces continentales",
-    "La fonte de la banquise arctique flottante",
+    "L'augmentation des précipitations tombant directement au-dessus des océans",
     "L'augmentation des précipitations au-dessus des océans",
-    "Les séismes et les éruptions volcaniques sous-marines"
+    "Les séismes sous-marins et les éruptions volcaniques des fonds océaniques"
    ],
    "bonne": 0,
    "difficulte": 3,
