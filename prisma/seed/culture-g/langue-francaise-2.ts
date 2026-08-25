@@ -195,8 +195,8 @@ export const CG_LANGUE_FRANCAISE_2: SeedSkill[] = [
     2, [
     ["Quel est le rôle historique de l'argot ?", ["Rendre le discours incompréhensible aux non-initiés", "Alléger la langue en supprimant les mots savants", "Enrichir la langue courante de mots pittoresques et neufs", "Signaler la région d'origine de celui qui parle"], 0,
      "Il crée aussi une identité de groupe, fonction qui subsiste même quand le secret n'est plus nécessaire."],
-    ["Quel procédé consiste à insérer des syllabes parasites dans les mots ?", ["Le largonji ou le javanais", "Le verlan, qui inverse les syllabes", "Le loucherbem des bouchers parisiens", "L'apocope, qui coupe la fin des mots"], 0,
-     "En javanais, Paris devient Pavaravis. Le procédé était très en vogue au XIXe siècle."],
+    ["Quel procédé consiste à insérer des syllabes parasites dans les mots ?", ["Le javanais des faubourgs parisiens", "Le verlan, qui inverse les syllabes", "Le loucherbem des bouchers parisiens", "L'apocope, qui coupe la fin des mots"], 0,
+     "En javanais, Paris devient Pavaravis. Le largonji, lui, ne procède pas par insertion : comme le loucherbem, il remplace l'initiale par un l et ajoute un suffixe."],
     ["Qu'est-ce que le loucherbem ?", ["Un argot de bouchers déplaçant l'initiale et ajoutant un suffixe", "Un argot de typographes fondé sur l'inversion des syllabes", "Un parler de forains transmis de foire en foire", "Un jargon de marins mêlant termes anglais et normands"], 0,
      "Boucher devient loucherbem, fou devient loufoque : ce dernier est passé dans la langue courante."],
     ["Qu'est-ce qu'une apocope ?", ["La suppression de la fin d'un mot", "La suppression de la syllabe initiale d'un mot", "L'inversion des syllabes d'un mot", "L'ajout d'un suffixe fantaisiste à la fin"], 0,
