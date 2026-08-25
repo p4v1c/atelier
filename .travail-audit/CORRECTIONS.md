@@ -996,3 +996,49 @@ Deux garde-fous, tous deux nés de faux positifs constatés en les lisant :
 
 **Seize doublons de plus retirés**, les paires lues une à une : aucune perte de
 contenu légitime. Total sur les deux règles : 9 864 questions, puis 9 824.
+
+---
+
+## Le biais de longueur — méthode, outils, et où reprendre
+
+### Les outils
+
+| Outil | À quoi il sert |
+| --- | --- |
+| `.travail-audit/longueur-notions.ts` | sans argument, la mesure globale et les pires notions ; avec un motif de slug, le détail d'une notion, question par question, longueur de chaque proposition |
+| `.travail-audit/lot-longueur.ts <n>` | les n pires notions, en format resserré : la bonne réponse et ses trois leurres, prêts à réécrire |
+| `.travail-audit/rempl-partout.py <plan.json>` | applique une liste de couples `["ancien", "nouveau"]` **où qu'ils soient** — seed ou cahier d'origine —, et refuse d'agir sur un texte ambigu |
+| `.travail-audit/rempl-notion.py <plan.json>` | la même chose, mais limitée aux lignes d'une notion, quand le même leurre court existe ailleurs dans le fichier |
+
+### La méthode, en deux gestes
+
+1. **Donner aux leurres quelque chose d'aussi précis à dire que la bonne
+   réponse.** Un leurre court l'est parce qu'il a été bâclé : « L'alimentation »
+   devient « L'alimentation prise à domicile et au dehors ». Ce n'est pas du
+   remplissage — c'est le leurre qui devient enfin plausible.
+2. **Dans une question sur deux, faire qu'un leurre dépasse la bonne réponse.**
+   Sans ce second geste, il reste un écart d'un ou deux caractères, et le
+   compteur reste au-dessus de la moitié même si le raccourci n'est plus
+   exploitable à l'œil.
+
+Une notion coûte de deux à quatre mille jetons. Quand `rempl-partout.py` signale
+un texte AMBIGU, c'est que le leurre existe ailleurs : reprendre celui-là avec
+`rempl-notion.py`, ou le laisser — il ne fait pas de mal.
+
+### Où en est la mesure
+
+| | questions biaisées | notions au-dessus de la moitié |
+| --- | --- | --- |
+| au départ | 6 485 / 9 864 — **66 %** | **656** |
+| après ce lot | 6 254 / 9 824 — **64 %** | **632** |
+
+**Trente notions traitées**, environ neuf cents leurres réécrits. Aucune bonne
+réponse déplacée, aucune question changée de sens.
+
+Le corpus d'origine est à 55 %, le corpus « libre » à 26,5 % — c'est-à-dire au
+hasard — et le corpus écrit pour le seed à 74 % : **c'est là qu'est le défaut, et
+c'est là qu'il faut travailler**. `lot-longueur.ts` sert les pires en premier.
+
+**Quand le compte sera descendu**, passer `reponse-la-plus-longue` d'avertissement
+à erreur dans `src/modules/culture-g/index.ts`, pour que le défaut ne revienne
+pas — comme le contrôle de position l'a fait pour son jumeau.
