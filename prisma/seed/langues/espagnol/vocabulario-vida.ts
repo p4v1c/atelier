@@ -113,9 +113,9 @@ export const ESPAGNOL_VOCABULARIO_VIDA: LotCartes[] = [
         note: "Bajarse d'un transport, pronominal. Bajar seul voudrait dire descendre quelque chose.",
       },
       {
-        etranger: "El vuelo lleva dos horas de retraso.",
-        francais: "Le vol a deux heures de retard.",
-        note: "Llevar + durée de retard. Retraso en Espagne, demora en Amérique latine.",
+        etranger: "Perdimos el tren por dos minutos.",
+        francais: "Nous avons raté le train à deux minutes près.",
+        note: "Perder el tren, rater le train. Coger el tren en Espagne, tomar en Amérique latine.",
       },
       {
         etranger: "Estoy atrapado en un atasco.",
@@ -124,10 +124,10 @@ export const ESPAGNOL_VOCABULARIO_VIDA: LotCartes[] = [
         note: "Un atasco en Espagne, un trancón en Colombie, un taco au Chili.",
       },
       {
-        etranger: "Hay que hacer transbordo en Atocha.",
-        francais: "Il faut changer à Atocha.",
-        aussi: ["Il y a une correspondance à Atocha."],
-        note: "Hacer transbordo, changer de ligne. El transbordo, la correspondance.",
+        etranger: "Me bajo en la próxima parada.",
+        francais: "Je descends au prochain arrêt.",
+        aussi: ["Je descends à la prochaine."],
+        note: "Bajarse de pour descendre d'un véhicule ; subirse a pour y monter.",
       },
       {
         etranger: "La calle está cortada por obras.",
@@ -135,10 +135,10 @@ export const ESPAGNOL_VOCABULARIO_VIDA: LotCartes[] = [
         note: "Cortada, barrée. Las obras, les travaux — toujours au pluriel dans ce sens.",
       },
       {
-        etranger: "Prefiero ir andando que en coche.",
-        francais: "Je préfère y aller à pied qu'en voiture.",
-        aussiEtranger: ["Prefiero ir a pie que en coche."],
-        note: "Ir andando en Espagne, ir caminando en Amérique latine. El coche devient el carro ou el auto.",
+        etranger: "Había un atasco de tres kilómetros.",
+        francais: "Il y avait trois kilomètres de bouchon.",
+        aussi: ["Il y avait un embouteillage de trois kilomètres."],
+        note: "Un atasco, un bouchon. La calle cortada, la rue barrée.",
       },
       {
         etranger: "Me acercó a la estación en coche.",
@@ -168,15 +168,14 @@ export const ESPAGNOL_VOCABULARIO_VIDA: LotCartes[] = [
     parle: true,
     cartes: [
       {
-        etranger: "Aprobé el examen en junio.",
-        francais: "J'ai réussi l'examen en juin.",
-        note: "Aprobar, réussir. Le passer se dit presentarse a ou hacer un examen.",
+        etranger: "Se presentó a la convocatoria de septiembre.",
+        francais: "Il s'est présenté à la session de septembre.",
+        note: "Una convocatoria, une session d'examen. Presentarse a, se présenter à.",
       },
       {
-        etranger: "Suspendí dos asignaturas.",
-        francais: "J'ai échoué à deux matières.",
-        aussi: ["J'ai raté deux matières."],
-        note: "Suspender, échouer — jamais suspendre. Una asignatura, une matière.",
+        etranger: "Tiene dos asignaturas pendientes.",
+        francais: "Il lui reste deux matières à rattraper.",
+        note: "Una asignatura pendiente, une matière non validée — et, au figuré, une chose qu'on n'a jamais réglée.",
       },
       {
         etranger: "Dejó la carrera en segundo curso.",

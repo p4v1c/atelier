@@ -602,7 +602,7 @@ export const ESPAGNOL_VOCABULAIRE_MUNDO: LotCartes[] = [
       {
         etranger: "Salió corriendo de la oficina.",
         francais: "Il est sorti en courant du bureau.",
-        note: "Salir + gérondif pour une sortie brusque. Salir prend toujours de.",
+        note: "Salir + gérondif pour une sortie brusque. Salir de pour le lieu qu'on quitte, mais salir a, para ou con selon ce qui suit.",
       },
       {
         etranger: "Llegamos a Sevilla a las ocho.",

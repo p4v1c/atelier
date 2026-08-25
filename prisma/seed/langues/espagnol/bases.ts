@@ -99,7 +99,7 @@ export const ESPAGNOL_BASES: LotCartes[] = [
       { etranger: "¿Tienen algo sin gluten?", francais: "Vous avez quelque chose sans gluten ?" },
       { etranger: "Estaba buenísimo.", francais: "C'était excellent.", note: "Le suffixe -ísimo est le superlatif le plus employé à l'oral." },
       { etranger: "¿Se puede pagar con tarjeta?", francais: "On peut payer par carte ?" },
-      { etranger: "Está para llevar.", francais: "C'est à emporter." },
+      { etranger: "Es para llevar.", francais: "C'est à emporter.", note: "Para llevar seul suffit au comptoir. Estar para veut dire tout autre chose : no está para bromas." },
       { etranger: "Otra ronda, por favor.", francais: "Une autre tournée, s'il vous plaît." },
     ],
   },

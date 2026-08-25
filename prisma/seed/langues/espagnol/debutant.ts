@@ -113,7 +113,7 @@ export const ESPAGNOL_DEBUTANT: LotCartes[] = [
     category: "Vie quotidienne",
     title: "Le temps qu'il fait, et où l'on est",
     statement:
-      "La météo se dit avec hacer, comme le français avec « faire ». Se situer emploie estar, toujours.",
+      "La météo se dit avec hacer, comme le français avec « faire ». Pour situer une chose ou une personne : estar. Mais un événement se situe avec ser : la fiesta es en mi casa.",
     tip: "Hace frío, hace calor, hace sol. Mais llueve et nieva sont des verbes à eux seuls.",
     difficulty: 1,
     niveau: "A1",

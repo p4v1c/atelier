@@ -486,3 +486,67 @@ Cinéma et médias :
 
 Porte : `tsc` ✓ · `validate:content` 0 erreur / 633 avertissements (un de moins) ·
 236 tests ✓ · `build` ✓.
+
+### Lot 8 — `espagnol-1.md` (14 graves) et `geographie-module.md` (5)
+
+Espagnol, erreurs de fait :
+
+- **Cinq ou six subjonctifs irréguliers ?** Deux cours du module donnaient deux
+  comptes et deux listes différentes — `estar` dans l'une, absent de l'autre. Et
+  la raison invoquée par la première (« faute de -o à la première personne »)
+  était démentie par quatre des six verbes : *ser* fait *soy*, *ir* *voy*,
+  *estar* *estoy*, *dar* *doy*. Les deux cours donnent maintenant la même liste
+  de six, sans justification fausse.
+- **Un cours de gérondif rangeait `poder` parmi les verbes en -ir** — c'est le
+  seul de la liste en -er, et il servait d'exemple à la règle des -ir. Un
+  apprenant en déduisait *comiendo → cumiendo*.
+- **« un bombilla »** dans un cours, entre deux exemples correctement accordés.
+- **La ponctuation des nombres** : le français ne met pas de point aux milliers
+  mais une espace insécable, et la RAE recommande elle aussi l'espace. Le cours
+  affirmait que « l'espagnol partage avec le français » le point.
+- **`estudiar` traduit par « travailler »** : à l'exercice « produire »,
+  *trabajar* — juste — aurait été compté faux.
+- **« Está para llevar »** dans la série A1 du restaurant : la formule est *Es
+  para llevar*. *Estar para* veut dire « être sur le point de ». La faute était
+  dans la série même où l'on installe ser/estar.
+- **« Un lieu, toujours estar »**, affirmé à trois endroits — alors que l'espagnol
+  situe un **événement** avec *ser* (*¿dónde es la fiesta?*), ce que le module
+  fait correctement cinq fois sans le dire nulle part. La règle absolue
+  fabriquait la faute.
+- **« Salir prend toujours de »**, démenti par trois cartes du module même
+  (*salgo un momento*, *salgo a las ocho*, *salgo para Madrid*).
+
+Trois séries écrites deux fois, à deux niveaux différents — « passé composé ou
+passé simple » (A2 et B1, tip identique au caractère près), « se déplacer » (A2 et
+B1), « les études » (A2 et B2), « vêtements » (A1 et B1). La série du niveau
+supérieur prend chaque fois ce qu'elle apporte vraiment : imparfait contre passé
+simple, *perder el tren* et *atasco*, *convocatoria* et *asignatura pendiente*,
+*pegar con* et *de segunda mano*.
+
+Géographie, module :
+
+- Le Kenya n'a pas **le seul** drapeau à porter une arme traditionnelle : celui
+  de l'Eswatini en porte, et le fichier le dit trois cents lignes plus loin.
+- **Addis-Abeba** : 2 355 m, pas 2 500, et le rang annoncé (troisième capitale la
+  plus haute) est faux **selon les chiffres du fichier lui-même**, qui place La
+  Paz, Quito et Bogota au-dessus.
+- L'Éthiopie n'est pas le **seul** pays d'Afrique jamais colonisé — le Libéria
+  non plus, et le fichier des pays le dit. Cette phrase s'affiche en tête de la
+  série « Drapeaux — Afrique » : c'est la première que l'apprenant lit.
+- **Berne** : le vote de 1848 opposait Berne à Zurich et à Lucerne. Genève, entrée
+  dans la Confédération en 1815, n'était pas candidate.
+- **Le Sahara occidental**, seul endroit du module où cliquer au bon endroit
+  comptait faux. Deux séries demandent le Maroc, et le tracé du Sahara était une
+  forme distincte et cliquable, jamais étiquetée ni jamais demandée. Les deux
+  tracés sont **fusionnés en un seul**, deux sous-chemins sous l'identifiant du
+  Maroc — un simple partage d'identifiant aurait cassé le contrôle « aucun
+  identifiant en double » du test des fonds de carte, qu'il n'était pas question
+  d'affaiblir.
+
+**Écarté, faute d'être une correction** : le rapport signale que sept cartes sur
+680 seulement portent un `aussiEtranger`, si bien que l'exercice « produire »
+sanctionne des réponses espagnoles justes. C'est un manque de contenu à produire
+sur tout le module, pas une erreur à corriger — **à décider avec le propriétaire**.
+
+Porte : `tsc` ✓ · `validate:content` 0 erreur / 633 avertissements · 236 tests ✓ ·
+`build` ✓.

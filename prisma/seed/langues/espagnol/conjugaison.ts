@@ -167,7 +167,7 @@ export const ESPAGNOL_CONJUGAISON: LotCartes[] = [
         {
           titre: "La forme, à partir du présent",
           texte:
-            "Le subjonctif présent se fabrique à partir de la PREMIÈRE personne du présent de l'indicatif : on retire le -o final et on échange les terminaisons. Les verbes en -ar prennent celles en -e, les autres celles en -a.\n\nHablar : hablo → hable, hables, hable, hablemos, habléis, hablen. Comer : como → coma, comas, coma, comamos, comáis, coman.\n\nL'avantage de cette règle est qu'elle emporte les irrégularités avec elle : tener donne tengo, donc tenga ; hacer donne hago, donc haga ; decir donne digo, donc diga. Il n'y a rien de plus à mémoriser.\n\nSix verbes échappent à la règle : ser (sea), ir (vaya), saber (sepa), haber (haya) — dont la première personne n'a pas de -o — ainsi que estar (esté) et dar (dé), irréguliers par l'accent.",
+            "Le subjonctif présent se fabrique à partir de la PREMIÈRE personne du présent de l'indicatif : on retire le -o final et on échange les terminaisons. Les verbes en -ar prennent celles en -e, les autres celles en -a.\n\nHablar : hablo → hable, hables, hable, hablemos, habléis, hablen. Comer : como → coma, comas, coma, comamos, comáis, coman.\n\nL'avantage de cette règle est qu'elle emporte les irrégularités avec elle : tener donne tengo, donc tenga ; hacer donne hago, donc haga ; decir donne digo, donc diga. Il n'y a rien de plus à mémoriser.\n\nSix verbes ne se construisent pas sur la première personne du présent : dar (dé), estar (esté), haber (haya), ir (vaya), saber (sepa), ser (sea). Ils s'apprennent par cœur.",
           visuels: [
             {
               type: "etapes",

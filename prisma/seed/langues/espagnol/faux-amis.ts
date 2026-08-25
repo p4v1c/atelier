@@ -114,7 +114,7 @@ export const ESPAGNOL_FAUX_AMIS: LotCartes[] = [
       { etranger: "Soy francés.", francais: "Je suis français.", note: "L'origine ne change pas : ser." },
       { etranger: "Estoy cansado.", francais: "Je suis fatigué.", note: "Un état passager : estar." },
       { etranger: "Es médica.", francais: "Elle est médecin.", note: "La profession relève de l'identité : ser, et sans article." },
-      { etranger: "Está en casa.", francais: "Il est à la maison.", note: "Un lieu, toujours estar." },
+      { etranger: "Está en casa.", francais: "Il est à la maison.", note: "Une personne ou une chose se situe avec estar. Un événement, lui, se situe avec ser : ¿dónde es la fiesta?" },
       {
         etranger: "La sopa es buena.",
         francais: "La soupe est bonne.",

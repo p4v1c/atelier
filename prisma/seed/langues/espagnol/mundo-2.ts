@@ -348,14 +348,14 @@ export const ESPAGNOL_MUNDO_2: LotCartes[] = [
     parle: true,
     cartes: [
       {
-        etranger: "Esta chaqueta no me queda bien.",
-        francais: "Cette veste ne me va pas.",
-        note: "Quedar bien parle de la coupe et de la taille, pas du goût.",
+        etranger: "Ese bolso no pega con el vestido.",
+        francais: "Ce sac ne va pas avec la robe.",
+        note: "Pegar con, aller avec, s'accorder. Rien à voir avec pegar, frapper ou coller.",
       },
       {
-        etranger: "Ese corte le sienta de maravilla.",
-        francais: "Cette coupe la met vraiment en valeur.",
-        note: "Sentar bien, avantager. C'est le compliment ; quedar bien ne parlerait que de la taille.",
+        etranger: "Me lo quiero probar antes de comprarlo.",
+        francais: "Je veux l'essayer avant de l'acheter.",
+        note: "Probarse, essayer un vêtement. El probador, la cabine d'essayage.",
       },
       {
         etranger: "Los zapatos no pegan con el cinturón.",
@@ -379,9 +379,9 @@ export const ESPAGNOL_MUNDO_2: LotCartes[] = [
         note: "Apretar, serrer. Holgado dit l'inverse : ample.",
       },
       {
-        etranger: "Siempre lleva el mismo abrigo viejo.",
-        francais: "Il porte toujours le même vieux manteau.",
-        note: "Llevar pour ce qu'on a sur soi ; ponerse pour le geste de l'enfiler.",
+        etranger: "Compra casi todo de segunda mano.",
+        francais: "Il achète presque tout d'occasion.",
+        note: "De segunda mano, d'occasion. Una prenda, un vêtement pris un par un.",
       },
       {
         etranger: "Se cortó el pelo muy corto.",

@@ -114,7 +114,7 @@ export const ESPAGNOL_CONJUGACION_2: LotCartes[] = [
       },
       {
         etranger: "Tengo que estudiar esta noche.",
-        francais: "Je dois travailler ce soir.",
+        francais: "Je dois réviser ce soir.",
         note: "Tener que + infinitif : l'obligation qui pèse sur quelqu'un de précis.",
       },
       {
@@ -152,7 +152,7 @@ export const ESPAGNOL_CONJUGACION_2: LotCartes[] = [
         {
           titre: "La forme, et ses irrégularités",
           texte:
-            "Le gérondif se forme en remplaçant la terminaison de l'infinitif : -ar donne -ando, -er et -ir donnent -iendo. Hablar donne hablando, comer comiendo, vivir viviendo.\n\nTrois séries d'irrégularités méritent d'être connues.\n\nLes verbes en -ir à changement vocalique : le e devient i, le o devient u. Pedir donne pidiendo, sentir sintiendo, dormir durmiendo, morir muriendo, poder pudiendo. Cette liste recoupe exactement celle du passé simple irrégulier, ce qui permet de l'apprendre une seule fois.\n\nLes verbes dont le radical finit par une voyelle : le i de -iendo devient y. Leer donne leyendo, oír oyendo, caer cayendo, construir construyendo, ir yendo.\n\nEnfin, les pronoms se collent au gérondif : estoy leyéndolo, se está duchando ou está duchándose — les deux places sont correctes avec un auxiliaire. Et l'accent écrit apparaît dès qu'on ajoute un pronom : leyendo devient leyéndolo.",
+            "Le gérondif se forme en remplaçant la terminaison de l'infinitif : -ar donne -ando, -er et -ir donnent -iendo. Hablar donne hablando, comer comiendo, vivir viviendo.\n\nTrois séries d'irrégularités méritent d'être connues.\n\nLes verbes en -ir à changement vocalique : le e devient i, le o devient u. Pedir donne pidiendo, sentir sintiendo, dormir durmiendo, morir muriendo. Cette liste recoupe exactement celle du passé simple irrégulier, ce qui permet de l'apprendre une seule fois. Un seul verbe en -er fait de même : poder donne pudiendo.\n\nLes verbes dont le radical finit par une voyelle : le i de -iendo devient y. Leer donne leyendo, oír oyendo, caer cayendo, construir construyendo, ir yendo.\n\nEnfin, les pronoms se collent au gérondif : estoy leyéndolo, se está duchando ou está duchándose — les deux places sont correctes avec un auxiliaire. Et l'accent écrit apparaît dès qu'on ajoute un pronom : leyendo devient leyéndolo.",
           visuels: [
             {
               type: "tableau",
@@ -427,7 +427,7 @@ export const ESPAGNOL_CONJUGACION_2: LotCartes[] = [
         {
           titre: "Les verbes en -go, et leur descendance",
           texte:
-            "Une deuxième famille rassemble les verbes dont la première personne du singulier du présent finit par -go, sans que les autres personnes changent : tengo, pongo, salgo, vengo, hago, digo, traigo, caigo, oigo, valgo.\n\nCette forme n'est pas un caprice isolé : elle commande tout le subjonctif présent, qui se construit dessus. Tengo donne tenga, tengas, tenga… ; hago donne haga ; digo donne diga ; salgo donne salga.\n\nEt le subjonctif présent commande à son tour l'impératif négatif et les formes de politesse : no tengas, tenga usted.\n\nApprendre la première personne d'un de ces verbes revient donc à apprendre six formes du subjonctif, plus l'impératif. Le rendement est considérable.\n\nLa même logique vaut pour les verbes en -zco — conocer donne conozco, conduzco, traduzco, produzco — dont le subjonctif suit : conozca, conduzca.\n\nSeuls cinq verbes échappent à cette régularité au subjonctif : ser donne sea, ir donne vaya, haber donne haya, saber donne sepa, dar donne dé. Ceux-là s'apprennent par cœur, et il n'y en a que cinq.",
+            "Une deuxième famille rassemble les verbes dont la première personne du singulier du présent finit par -go, sans que les autres personnes changent : tengo, pongo, salgo, vengo, hago, digo, traigo, caigo, oigo, valgo.\n\nCette forme n'est pas un caprice isolé : elle commande tout le subjonctif présent, qui se construit dessus. Tengo donne tenga, tengas, tenga… ; hago donne haga ; digo donne diga ; salgo donne salga.\n\nEt le subjonctif présent commande à son tour l'impératif négatif et les formes de politesse : no tengas, tenga usted.\n\nApprendre la première personne d'un de ces verbes revient donc à apprendre six formes du subjonctif, plus l'impératif. Le rendement est considérable.\n\nLa même logique vaut pour les verbes en -zco — conocer donne conozco, conduzco, traduzco, produzco — dont le subjonctif suit : conozca, conduzca.\n\nSix verbes ne se construisent pas sur la première personne du présent : dar (dé), estar (esté), haber (haya), ir (vaya), saber (sepa), ser (sea). Ceux-là s'apprennent par cœur.",
           visuels: [
             {
               type: "etapes",
