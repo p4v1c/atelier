@@ -1042,3 +1042,89 @@ c'est là qu'il faut travailler**. `lot-longueur.ts` sert les pires en premier.
 **Quand le compte sera descendu**, passer `reponse-la-plus-longue` d'avertissement
 à erreur dans `src/modules/culture-g/index.ts`, pour que le défaut ne revienne
 pas — comme le contrôle de position l'a fait pour son jumeau.
+
+---
+
+## Le chantier du biais de longueur, deuxième moitié
+
+Sept domaines ont été traités entièrement par des relecteurs travaillant en
+parallèle, chacun cantonné à ses propres fichiers par le second argument de
+`rempl-partout.py` (`python3 .travail-audit/rempl-partout.py plan.json
+"gastronomie*"`). Sans ce garde-fou, deux relecteurs qui touchent la même
+chaîne s'écrasent l'un l'autre.
+
+| domaine | notions au-dessus de la moitié |
+| --- | --- |
+| sciences de la vie | 57 → 0 |
+| langue française | 51 → 0 |
+| sciences et techniques | 51 → 0 |
+| histoire de France | 52 → 0 |
+| gastronomie | 56 → 0 |
+| institutions et économie | 51 → 0 |
+| littérature | 19 → 0 |
+| physique et chimie | 37 → en cours |
+
+Corpus entier : **66 % → 38 %** de questions dont la bonne réponse est la plus
+longue, **656 → 260** notions au-dessus de la moitié.
+
+### Un troisième geste, découvert en route
+
+Les deux gestes décrits plus haut ne suffisent pas. Allonger **un seul** leurre
+au-delà de la bonne réponse la fait glisser au **rang 2** en longueur : « cocher
+la deuxième plus longue » remplace simplement l'ancienne astuce. Le relecteur de
+gastronomie l'a mesuré sur son domaine — 36 % de ses questions étaient devenues
+lisibles au rang 2, contre 8 % dans le reste du corpus — et a dû repasser sur
+deux cent trente questions pour allonger un **troisième** leurre. Le compte est
+alors retombé à 1 %.
+
+**`longueur-notions.ts` ne voit pas ce défaut.** Il faut soit y penser dès le
+premier passage, soit ajouter la mesure à l'outil et au validateur.
+
+### Trois pièges, tous rencontrés plusieurs fois
+
+- **Le leurre qui devient vrai.** Préciser une date, une paternité, une
+  constante : le leurre cesse d'être faux. C'est le risque principal en
+  histoire, en physique et en cinéma. Un leurre d'histoire affirmait « le
+  référendum sur la Communauté européenne de défense » — la CED a bien été
+  rejetée en 1954, mais par un vote de l'Assemblée. Un leurre de littérature
+  proposait « Wace » comme mauvaise réponse à une question sur les romans
+  arthuriens du XIIe siècle, alors qu'il a écrit le Roman de Brut.
+- **L'explication qui nomme les leurres.** Dans les leçons héritées,
+  l'explication commente souvent chaque mauvaise réponse une par une :
+  « … tandis que “La Nausée” (1938) est le premier roman de Sartre ». Changer le
+  leurre sans relire l'explication la rend fausse.
+- **Le leurre qui répond à la question voisine.** Allongé, un leurre peut
+  énoncer la bonne réponse d'une autre question de la même notion : « une étoile
+  à neutrons en rotation rapide » donnait le pulsar interrogé trois questions
+  plus loin.
+
+### Les questions dont les propositions sont des noms propres
+
+Allonger une phrase n'a pas de sens quand les quatre propositions sont des noms
+ou des titres. Deux gestes marchent : la forme complète du nom réel — « Colette »
+→ « Sidonie-Gabrielle Colette », « Selma Lagerlöf » → « Selma Ottilia Lovisa
+Lagerlöf » — ou le titre complet d'une autre œuvre du même auteur — « Otto » →
+« Otto, autobiographie d'un ours en peluche », « Peter Pan » → « Peter Pan dans
+les jardins de Kensington ». Dans les deux cas le leurre reste faux, et il
+apprend quelque chose au passage.
+
+### Ce que les relecteurs ont signalé et qui reste à traiter
+
+- **Des dizaines de doublons de questions**, dans une même notion ou d'une notion
+  à l'autre, parfois avec deux bonnes réponses différentes pour la même question.
+  `cg-neuf-hf2-revolution-1789` en compte quatre paires sur dix-huit questions ;
+  `cg-neuf-ga3-agriculture-alimentation` pose deux fois l'AOP, l'IGP, le Label
+  rouge, l'agroécologie et la PAC. Le dédoublonnage ne les voit pas : les
+  énoncés diffèrent.
+- **Des bonnes réponses commençant par une minuscule** après une élision —
+  « l'Office national d'immigration », « l'anthropologie », « l'année de récolte
+  des raisins ». C'est la trace d'une passe automatique de réparation d'élisions
+  qui a mordu trop large. Les relecteurs ne les ont pas touchées : ce sont des
+  bonnes réponses, hors de leur mandat. Elles se repèrent à l'œil dans une liste
+  de propositions et donnent un indice au joueur.
+- **Quelques fautes de langue dans des bonnes réponses** : « Un désynchronisation
+  de l'horloge biologique », « Une intergroupe thématique » (corrigée),
+  « Un train léviter par des électroaimants » (corrigée).
+- **Des définitions bancales** : le pont suspendu décrit aussi le pont à haubans
+  (corrigée) ; « le coût de l'inaction climatique » défini comme « les dommages
+  futurs évités par une action présente », c'est-à-dire le bénéfice de l'action.
