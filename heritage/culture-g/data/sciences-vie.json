@@ -268,16 +268,16 @@
    "explication": "Sous l'action des rayons ultraviolets B du soleil, la peau synthétise la vitamine D à partir d'un dérivé du cholestérol. Cette vitamine est essentielle à l'absorption du calcium par l'intestin et donc à la solidité des os ; sa carence chez l'enfant provoque le rachitisme. Une exposition modérée de quelques dizaines de minutes par semaine suffit généralement, mais en hiver, sous nos latitudes, l'alimentation (poissons gras, œufs) prend le relais. La vitamine C, elle, doit entièrement provenir de l'alimentation, car l'être humain, contrairement à la plupart des mammifères, ne sait pas la fabriquer."
   },
   {
-   "q": "Dans quelle couche de l'atmosphère se trouve la majeure partie de la couche d'ozone ?",
+   "q": "Quel principal risque sanitaire l'affaiblissement de la couche d'ozone fait-il craindre pour l'être humain ?",
    "choix": [
-    "La stratosphère",
-    "La troposphère",
-    "La mésosphère",
-    "L'exosphère"
+    "Une hausse des cancers de la peau",
+    "Une carence en vitamine D généralisée",
+    "Une recrudescence du rachitisme",
+    "Une baisse de la tension artérielle"
    ],
    "bonne": 0,
    "difficulte": 2,
-   "explication": "La couche d'ozone se situe principalement dans la stratosphère, entre 20 et 40 km d'altitude environ. L'ozone (O3) y absorbe la majeure partie des rayons ultraviolets du Soleil, protégeant ainsi les êtres vivants de leurs effets nocifs, comme les cancers de la peau. Dans les années 1980, les scientifiques ont découvert un « trou » dans cette couche au-dessus de l'Antarctique, causé par les gaz CFC utilisés dans les aérosols et réfrigérateurs. Le protocole de Montréal, signé en 1987, a interdit ces gaz : c'est l'un des plus grands succès de la coopération environnementale internationale, et la couche d'ozone se reconstitue lentement."
+   "explication": "En filtrant l'essentiel des ultraviolets solaires, la couche d'ozone protège l'ADN des cellules de la peau contre des dommages qui favorisent les cancers cutanés ; un affaiblissement de cette protection en augmente donc le risque. À l'inverse, une exposition aux ultraviolets B reste nécessaire à la synthèse de la vitamine D par la peau : le sujet n'est donc pas d'en éliminer tout effet, mais d'éviter les excès. Dans les années 1980, les scientifiques ont découvert un « trou » dans cette couche au-dessus de l'Antarctique, causé par les gaz CFC utilisés dans les aérosols et réfrigérateurs. Le protocole de Montréal, signé en 1987, a interdit ces gaz : c'est l'un des plus grands succès de la coopération environnementale internationale, et la couche d'ozone se reconstitue lentement."
   },
   {
    "q": "Quelle échelle historique mesure la magnitude des séismes ?",

@@ -256,16 +256,16 @@
    "explication": "La peste noire, causée par le bacille Yersinia pestis transmis notamment par les puces des rats, atteint l'Europe en 1347 par des navires génois venus de la mer Noire. En cinq ans, elle tue entre 25 et 50 % de la population européenne, soit environ 25 millions de morts, vidant villes et campagnes. Impuissants, les contemporains y voient un châtiment divin ; des flagellants parcourent les routes et des communautés juives sont massacrées, accusées d'empoisonner les puits. La pandémie bouleverse l'économie et la société : la main-d'œuvre raréfiée voit ses salaires monter. La peste resurgira par vagues en Europe jusqu'au XVIIIe siècle."
   },
   {
-   "q": "Vers 1450, quel Allemand met au point l'imprimerie à caractères mobiles en Europe ?",
+   "q": "Quel humaniste néerlandais publie en 1509 l'Éloge de la folie ?",
    "choix": [
-    "Johannes Gutenberg",
-    "Martin Luther",
     "Érasme",
-    "Aldus Manutius"
+    "Thomas More",
+    "Guillaume Budé",
+    "Martin Luther"
    ],
    "bonne": 0,
    "difficulte": 1,
-   "explication": "Vers 1450, à Mayence, l'orfèvre Johannes Gutenberg met au point l'imprimerie à caractères mobiles métalliques, combinée à une presse à bras et à une encre adaptée. Son chef-d'œuvre, la Bible dite « à 42 lignes », est achevé vers 1455. L'invention, qui reprend des principes connus en Chine et en Corée mais les adapte à l'alphabet latin, permet de reproduire les textes rapidement et à moindre coût. En cinquante ans, des millions de livres sont imprimés en Europe : la Renaissance, l'humanisme puis la Réforme protestante s'en trouvent formidablement accélérés. C'est l'une des inventions les plus décisives de l'histoire, véritable révolution de la diffusion du savoir."
+   "explication": "Érasme de Rotterdam, figure majeure de l'humanisme européen, compose l'Éloge de la folie en 1509 : une satire mordante des travers de son temps, cléricaux compris, qui connaît un immense succès dans toute l'Europe lettrée. Ami de Thomas More, à qui il dédie l'ouvrage, il publie aussi une édition critique du Nouveau Testament grec en 1516, préparant le terrain aux traductions en langues vernaculaires. Bien qu'il critique les abus de l'Église, il refuse de rallier la Réforme et s'oppose à Luther sur la question du libre arbitre. La diffusion de ses œuvres doit beaucoup à l'imprimerie, alors en plein essor dans toute l'Europe."
   },
   {
    "q": "En quelle année Christophe Colomb atteint-il l'Amérique ?",

@@ -453,8 +453,6 @@ export const CG_HISTOIRE_FRANCE_2: SeedSkill[] = [
      "Environ sept à neuf millions de grévistes, le plus vaste mouvement social de l'histoire française."],
     ["Qu'est-ce qu'une cohabitation ?", ["Un président et un gouvernement de bords politiques opposés", "Un gouvernement d'union nationale réunissant tous les partis", "Une coalition parlementaire majoritaire à l'Assemblée", "Un partage du pouvoir entre les deux chambres du Parlement"], 0,
      "Trois cohabitations ont eu lieu depuis 1986. Le quinquennat en a réduit la probabilité."],
-    ["Quelle réforme de 2008 permet aux justiciables de contester une loi en vigueur ?", ["La question prioritaire de constitutionnalité", "Le référendum d'initiative partagée, ouvert aux électeurs", "L'exception d'illégalité devant le juge administratif", "Le recours pour excès de pouvoir devant le Conseil d'État"], 0,
-     "Elle est entrée en application en mars 2010 et a conduit à de nombreuses abrogations."],
     ["Quelle réforme de 1974 élargit la saisine du Conseil constitutionnel ?", ["L'ouverture aux parlementaires par groupes de soixante", "La saisine directe par les citoyens ordinaires, sans filtre", "La saisine par le seul Premier ministre du gouvernement", "La saisine automatique de toutes les lois votées"], 0,
      "Le nombre de saisines a explosé, transformant le rôle de l'institution."],
     ["Quelle révision constitutionnelle de 2008 limite le nombre de mandats présidentiels ?", ["Deux mandats consécutifs au maximum", "Trois mandats consécutifs au maximum", "Aucune limite, la règle ancienne étant maintenue", "Un seul mandat, non renouvelable"], 0,

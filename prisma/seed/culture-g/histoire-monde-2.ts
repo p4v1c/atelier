@@ -194,7 +194,7 @@ export const CG_HISTOIRE_MONDE_2: SeedSkill[] = [
     ["Quel empire musulman domine l'Inde du XVIe au XVIIIe siècle ?", ["L'Empire moghol", "Le sultanat de Delhi", "L'Empire marathe", "Le sultanat du Bengale"], 0,
      "Fondé par Babur en 1526, il atteint son apogée sous Akbar puis Shah Jahan."],
     ["Quel empereur moghol fait construire le Taj Mahal ?", ["Shah Jahan", "Akbar, son grand-père", "Aurangzeb, son fils", "Babur, le fondateur"], 0,
-     "Mausolée élevé pour son épouse Mumtaz Mahal, achevé vers 1653 à Agra."],
+     "Mausolée élevé pour son épouse Mumtaz Mahal, à Agra : achevé vers 1648, l'ensemble du complexe (jardins, mosquée, portail) l'est vers 1653."],
     ["Quelle compagnie commerciale prend le contrôle de larges parties de l'Inde au XVIIIe siècle ?", ["La Compagnie anglaise des Indes orientales", "La Compagnie française de Pondichéry", "La Compagnie néerlandaise des épices", "La Compagnie portugaise de Goa"], 0,
      "Une entreprise privée dotée d'une armée. La Couronne britannique reprend le contrôle direct en 1858."],
     ["Quelle révolte de 1857 conduit à la dissolution de la Compagnie des Indes ?", ["La révolte des cipayes", "La révolte des paysans du Bengale", "La rébellion marathe du Deccan", "La révolte du sel, bien plus tardive"], 0,

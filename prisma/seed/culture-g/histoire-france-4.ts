@@ -587,8 +587,6 @@ export const CG_HISTOIRE_FRANCE_4: SeedSkill[] = [
      "C'est la première alternance de la Cinquième République."],
     ["Qu'est-ce que la décentralisation de 1982 ?", ["Un transfert de compétences de l'État vers les collectivités locales", "Une réforme des préfectures supprimant le corps préfectoral", "Une réorganisation des régions ramenées à treize en métropole", "Une réforme de la fiscalité locale remplaçant la taxe d'habitation"], 0,
      "Les lois Defferre en constituent le premier acte."],
-    ["Qu'est-ce qu'une question prioritaire de constitutionnalité ?", ["Un mécanisme permettant de contester une loi en vigueur devant le Conseil constitutionnel", "Un recours administratif porté devant le tribunal administratif du département", "Une saisine parlementaire réunissant soixante députés ou soixante sénateurs", "Un contrôle préalable de toutes les lois exercé avant leur promulgation par le Conseil d'État"], 0,
-     "Elle a été instaurée par la révision constitutionnelle de 2008."],
     ["Quelle évolution institutionnelle caractérise la Cinquième République ?", ["Un renforcement continu de la fonction présidentielle", "Un retour progressif au régime parlementaire classique", "Un affaiblissement continu du pouvoir exécutif", "Une stabilité institutionnelle demeurée inchangée"], 0,
      "La pratique du pouvoir a souvent pesé autant que le texte constitutionnel.", 3],
   ]),

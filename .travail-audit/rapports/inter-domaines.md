@@ -82,7 +82,7 @@
   (échelle de Richter) et une de chimie (« Quelle valeur de pH correspond à une solution
   neutre ? »).
 
-### [MOYEN] Deux questions incompatibles pour qui ne lit que l'énoncé : 1962 ou 1965 ?
+### [MOYEN] ✅ Deux questions incompatibles pour qui ne lit que l'énoncé : 1962 ou 1965 ?
 - **Où** : `cg-libre-histoire-france-3` (Histoire de France) et `cg-libre-institutions-economie-2` (Institutions & Économie)
 - **Texte** : HF — « En quelle année a lieu la première élection du président de la République
   française au suffrage universel direct ? » → **1965** (distracteurs : 1958, 1974, **1962**).
@@ -97,6 +97,10 @@
   en 1962 l'élection du président au suffrage universel direct ? », ou expliciter l'énoncé
   d'Histoire de France : « En quelle année se tient la première élection présidentielle
   effectivement organisée au suffrage universel direct ? »
+- **Fait** : reformulé la question d'Histoire de France en « En quelle année se tient la
+  première élection présidentielle effectivement organisée au suffrage universel direct ? »
+  (`heritage/culture-g/data/histoire-france.json`), sans toucher aux choix ni à l'explication.
+  La question d'Institutions & Économie, déjà correcte, n'a pas été modifiée.
 
 ### [GRAVE] Toute une leçon de météorologie rangée en Sciences de la vie & Terre, redoublant Géographie et Physique
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/20.json`, « L'atmosphère et la météorologie » → `cg-sciences-vie-20` (Sciences de la vie & Terre)
@@ -116,12 +120,17 @@
 - **Problème** : ce n'est pas une simple redite de fait, c'est le **même paragraphe de cours réécrit** d'un domaine à l'autre, jusqu'à l'énumération finale (Sahara, Arabie, Kalahari, Australie). La troisième version (`cg-neuf-geo2-climats-monde`) redit encore la même chose en une ligne.
 - **Correction proposée** : garder la seule version de Géographie `cg-geographie-11` (la plus complète), supprimer celle de SVT et celle de `cg-neuf-geo2-climats-monde`.
 
-### [MOYEN] Le seuil de formation des cyclones donné avec deux chiffres et deux épaisseurs
+### [MOYEN] ✅ Le seuil de formation des cyclones donné avec deux chiffres et deux épaisseurs
 - **Où** : `cg-geographie-07` (Géographie) et `cg-sciences-vie-20` (Sciences de la vie & Terre)
 - **Texte** : Géographie — « Environ 26 degrés », expl. « il faut pour cela une eau d'au moins 26 à 27 degrés sur une épaisseur d'environ **50 mètres** ».
   SVT — « Une eau de surface à plus de **26,5 °C** sur plusieurs dizaines de mètres », expl. « sur une épaisseur d'au moins **60 mètres** ».
 - **Problème** : même fait, deux seuils et deux épaisseurs. Les deux sont dans la fourchette admise, mais l'apprenant qui révise les deux domaines retient deux chiffres qui se contredisent en apparence.
 - **Correction proposée** : ne garder qu'une des deux questions et retenir la valeur usuelle : « une eau de surface à au moins 26,5 °C sur une soixantaine de mètres d'épaisseur ».
+- **Fait** : aligné l'explication de Géographie (`heritage/culture-g/data/lecons/geographie/07.json`)
+  sur la valeur déjà utilisée côté SVT : « une eau de surface à au moins 26,5 degrés sur une
+  soixantaine de mètres d'épaisseur ». Le cours de SVT (`lecons/sciences-vie/20.json`) disait déjà
+  cela ; il n'a pas été modifié. Les deux questions ont été conservées (ce doublon relève du
+  rangement de `cg-sciences-vie-20`, déjà signalé en [GRAVE]).
 
 ### [GRAVE] Doublons francs d'une question à l'autre entre deux domaines (lus intégralement)
 - **Où / Texte** :
@@ -166,30 +175,56 @@
 - **Problème** : c'est le même cours, dans deux domaines. S'y ajoute une divergence de chiffre sur le contenu de la Voie lactée : SVT écrit « sans doute plus de cent milliards d'étoiles », P&C « quelques centaines de milliards d'étoiles », et la question `cg-libre-sciences-vie-1` « entre 100 et 400 milliards ».
 - **Correction proposée** : supprimer `cg-sciences-vie-06` (voir plus haut : la notion entière est mal rangée) et harmoniser le chiffre sur « cent à quatre cents milliards d'étoiles ».
 
-### [MOYEN] L'ONU et le droit international traités par quatre cours dans deux domaines
+### [MOYEN] ✅ L'ONU et le droit international traités par quatre cours dans deux domaines
 - **Où** : `cg-institutions-economie-13` « L'ONU et le droit international » et `cg-neuf-ie-onu-organisations` « L'ONU et les organisations internationales » (Institutions & Économie) ; `cg-neuf-hm-organisations-internationales` « Les organisations internationales et leur histoire » et `cg-neuf-hm3-droit-international` « Le droit international » (Histoire du monde)
 - **Texte** : la section « Qu'est-ce que le droit international public ? » d'Institutions énumère « la coutume internationale, qui résulte d'une pratique constante acceptée comme étant le droit […] des normes impératives, dites jus cogens, auxquelles aucun accord ne peut déroger » ; le cours d'Histoire du monde reprend point pour point : « La coutume internationale est une pratique générale acceptée comme étant le droit […] Le jus cogens fait exception au consentement : ce sont des normes impératives auxquelles aucun traité ne peut déroger ». Les deux domaines redisent aussi les cinq membres permanents, le veto, la CIJ à La Haye, la distinction CIJ/CPI, l'OMS.
 - **Problème** : quatre cours pour un même noyau, répartis entre deux domaines dont aucun n'est illégitime — mais l'apprenant les révise quatre fois. Les questions suivent : « Combien de membres permanents siègent au Conseil de sécurité ? » (HM) et « Combien de membres permanents compte le Conseil de sécurité de l'ONU ? » (IE) ; « Quel organisme siège à La Haye et juge les différends entre États ? » (HM) et « Quelle juridiction internationale siège à La Haye et juge les différends entre États ? » (IE), réponse identique.
 - **Correction proposée** : à Histoire du monde la genèse (SDN, 1945, Bretton Woods, décolonisation et élargissement) ; à Institutions le fonctionnement actuel (organes, veto, droit international, juridictions). Supprimer de chaque côté ce qui relève de l'autre.
+- **Fait** : supprimé de `hm-organisations-internationales` (`prisma/seed/culture-g/histoire-monde.ts`)
+  les deux questions qui redoublaient exactement Institutions & Économie (« Combien de membres
+  permanents siègent au Conseil de sécurité ? » et « Quel organisme siège à La Haye… ? ») ; Histoire
+  du monde ne garde plus que la genèse (SDN, ONU, OMS, OMC, Bretton Woods, OTAN, OPEP, Rio).
+  Le recouvrement plus large entre le cours d'Institutions (`lecons/institutions-economie/13.json`)
+  et la notion `hm3-droit-international` (coutume, jus cogens) n'a pas été retravaillé — c'est une
+  redite de fond, pas une contradiction, et la scinder proprement dépasse le cadre d'une correction
+  ponctuelle : à regarder de plus près si l'application venait à être retravaillée en profondeur.
 
-### [MOYEN] La Réforme protestante écrite deux fois, en Histoire du monde et en Mythologie & Religions
+### [MOYEN] ✅ La Réforme protestante écrite deux fois, en Histoire du monde et en Mythologie & Religions
 - **Où** : `cg-histoire-monde-21` « La Renaissance et les réformes religieuses en Europe » et `cg-mythologie-religions-16` « La Réforme protestante et les guerres de religion en Europe »
 - **Texte** : HM — « Le pape Léon X publie la bulle Exsurge Domine en juin 1520, puis **excommunie Luther le 3 janvier 1521** ; la même année, à la diète de Worms, **l'empereur Charles Quint le met au ban de l'Empire. Protégé par le prince** de Saxe… » / M&R — « Le pape Léon X réagit par la bulle Exsurge Domine en 1520, puis **excommunie Luther le 3 janvier 1521** […] et **l'empereur Charles Quint le met au ban de l'Empire. Protégé par le prince** électeur Frédéric de Saxe… ». Même chose pour « **La Compagnie de Jésus, fondée par Ignace de Loyola** », le concile de Trente (séminaires, résidence des évêques), la paix d'Augsbourg de 1555 et les traités de Westphalie.
 - **Problème** : douze segments de huit mots communs ; les deux cours racontent la même histoire. Aucune contradiction de fait relevée — les dates concordent — mais la redite est totale sur le cœur du récit.
 - **Correction proposée** : garder à Mythologie & Religions ce qui est doctrinal (justification par la foi, Écriture seule, décisions dogmatiques de Trente) et à Histoire du monde ce qui est politique et militaire (Worms, ligue de Smalkalde, Augsbourg, guerre de Trente Ans, Westphalie).
+- **Fait** : remplacé la question jumelle de Mythologie & Religions sur la paix d'Augsbourg
+  (`lecons/mythologie-religions/16.json`, quasi identique à celle d'Histoire du monde) par une
+  question sur la théologie propre de Calvin (souveraineté divine, prédestination), qui exploite un
+  contenu déjà écrit dans la section et n'a pas d'équivalent côté Histoire du monde. Les deux cours
+  entiers n'ont pas été refondus : l'audit lui-même note l'absence de contradiction de fait, et une
+  refonte complète des deux leçons aurait été disproportionnée pour ce constat.
 
-### [MOYEN] Maxwell : 1864 dans un domaine, 1865 dans l'autre
+### [MOYEN] ✅ Maxwell : 1864 dans un domaine, 1865 dans l'autre
 - **Où** : `cg-libre-physique-chimie-3` (Physique & Chimie) et `cg-sciences-tech-05` § « Les ondes : radio et télévision » (Inventions & Technologie)
 - **Texte** : P&C — « Quel physicien a unifié électricité, magnétisme et lumière dans une théorie du champ **présentée en 1864** ? », expl. « présente **en 1864** devant la Royal Society sa théorie dynamique du champ électromagnétique, publiée l'année suivante ».
   Inventions — « **En 1865**, le physicien écossais James Clerk Maxwell réunit l'électricité et le magnétisme dans un ensemble d'équations ».
 - **Problème** : la date est enfermée dans l'énoncé du QCM de Physique. Un apprenant qui a lu le cours d'Inventions retiendra 1865 et hésitera. Les deux sont défendables (lecture devant la Royal Society en décembre 1864, publication en 1865), mais l'application ne le dit qu'une fois sur deux.
 - **Correction proposée** : écrire des deux côtés « présentée en 1864 et publiée en 1865 ».
+- **Fait** : complété l'énoncé de Physique & Chimie (`heritage/culture-g/data/physique-chimie.json`)
+  en « … théorie du champ présentée en 1864 et publiée en 1865 ? » (l'explication le disait déjà) ;
+  corrigé le cours d'Inventions & Technologie (`lecons/sciences-tech/05.json`), qui datait l'ensemble
+  de 1865, en « présente en 1864… publié l'année suivante ».
 
-### [MOYEN] Villers-Cotterêts, l'ordonnance racontée six fois dans deux domaines
+### [MOYEN] ✅ Villers-Cotterêts, l'ordonnance racontée six fois dans deux domaines
 - **Où** : `cg-histoire-france-05`, `cg-neuf-hf-francois-premier`, `cg-neuf-hf4-renaissance-france` (deux sections) — Histoire de France ; `cg-langue-francaise-c01` et `cg-neuf-lf-noms-propres` — Langue française
 - **Texte** : HF — « **L'ordonnance de Villers-Cotterêts**, promulguée en 1539, **impose l'usage du français** à la place du latin **dans les actes de justice** et rend obligatoire la tenue des registres de baptêmes ». LF — « En 1539, **l'ordonnance de Villers-Cotterêts impose le français dans les actes de justice** ». Et encore : « L'ordonnance de Villers-Cotterêts, en 1539, impose la tenue des registres de baptême » (`cg-neuf-lf-noms-propres`).
 - **Problème** : six occurrences du même fait, dont deux dans un domaine différent de celui où on l'attendrait. Aucune divergence factuelle : c'est une redite pure.
 - **Correction proposée** : la garder en Histoire de France (règne de François Ier) et n'en laisser en Langue française qu'une mention d'une phrase dans le cours d'histoire de la langue, sans question dédiée.
+- **Fait** : supprimé la question dédiée et purement redondante de `lf-noms-propres`
+  (`prisma/seed/culture-g/langue-francaise.ts`, « Quelle ordonnance impose la tenue des registres
+  de baptême… »). La question `cg-langue-francaise-c01` ne comportait déjà qu'une mention d'une
+  phrase, sans question dédiée : rien à y changer. La question restante côté Langue française
+  (`heritage/culture-g/data/langue-francaise.json`) a été conservée : elle porte sur un détail propre
+  au texte de loi (articles 110-111, 192 articles) qu'aucune version d'Histoire de France ne donne,
+  ce n'est donc pas une pure redite. Les occurrences à l'intérieur même d'Histoire de France (trois
+  questions distinctes sur la même ordonnance) sortent du périmètre transversal de ce rapport.
 
 ### [GRAVE] La naissance de la microbiologie racontée deux fois, en SVT et en Inventions & Technologie
 - **Où** : `cg-sciences-vie-07` « Microbes, maladies et immunité » (SVT) et `cg-sciences-tech-03` « Les grandes découvertes médicales » (Inventions & Technologie)
@@ -206,24 +241,42 @@
 - **Problème** : dix segments de huit mots communs entre les deux cours ; la même connaissance est en outre interrogée dans un troisième domaine. Aucune contradiction de fait (les deux versions donnent bien 1881 pour la gratuité et 1882 pour l'obligation et la laïcité), mais c'est trois fois la même leçon.
 - **Correction proposée** : le récit détaillé revient à Institutions & Économie (le cours porte sur l'école) ; Histoire de France peut se contenter d'une phrase renvoyant aux lois scolaires parmi les grandes lois républicaines ; supprimer la question de Langue française.
 
-### [MOYEN] L'index glycémique expliqué deux fois — et pas avec le même nom
+### [MOYEN] ✅ L'index glycémique expliqué deux fois — et pas avec le même nom
 - **Où** : `cg-neuf-sv3-alimentation-sante` « Épidémiologie de l'alimentation » (SVT) et `cg-neuf-ga3-alimentation-sante` « Nutriments et repères nutritionnels » (Gastronomie & Art de vivre)
 - **Texte** : SVT — « L'**index** glycémique mesure la vitesse à laquelle un aliment élève la glycémie, **par rapport à une référence. Il nuance la** distinction entre sucres lents et rapides […] **une purée de pomme de terre élève la glycémie plus vite** qu'un sucre de table […] un indicateur utile mais qui **ne s'applique pas à un aliment isolé de son repas**. »
   Gastronomie — « L'**indice** glycémique mesure la vitesse d'élévation de la glycémie […] **par rapport à une référence. Il nuance la** vieille opposition entre sucres lents et sucres rapides […] **une purée de pomme de terre élève la glycémie plus vite** que du sucre de table. Il **ne s'applique** cependant **pas à un aliment isolé de son repas** ».
 - **Problème** : même paragraphe, même exemple, même réserve finale — et deux appellations différentes du même indicateur (« index » / « indice »), ce qui suffit à faire douter un apprenant.
 - **Correction proposée** : ne garder qu'une des deux versions (celle de Gastronomie, dans un cours de repères nutritionnels) et fixer le terme : « l'indice glycémique (souvent appelé index glycémique) ».
+- **Fait** : fixé le terme sur « indice glycémique » des deux côtés plutôt que de supprimer une
+  version : `prisma/seed/culture-g/cours/sciences-vie.ts` et `sciences-vie-3.ts` disaient « index »,
+  ils disent maintenant « indice glycémique (aussi appelé index glycémique) », alignés sur
+  Gastronomie qui disait déjà « indice ». Les deux sections ont été conservées : chacune aborde le
+  sujet sous un angle propre à son domaine (le repas et la matrice alimentaire en SVT, la cuisine et
+  les repères nutritionnels en Gastronomie).
 
-### [MOYEN] Les institutions de la Ve République dites deux fois, en Histoire de France et en Institutions
+### [MOYEN] ✅ Les institutions de la Ve République dites deux fois, en Histoire de France et en Institutions
 - **Où** : `cg-histoire-france-14` « La Ve République, de 1958 à nos jours » et `cg-institutions-economie-c01` « Les institutions de la Ve République »
 - **Texte** : les deux écrivent « **Le gouvernement, dirigé par le Premier ministre, détermine et conduit la politique de la nation** » (citation de l'article 20, admissible) mais aussi, mot pour mot, « la question prioritaire de constitutionnalité **permet à tout justiciable de contester une loi déjà promulguée** ». S'y ajoutent, des deux côtés, les pouvoirs propres du président, l'article 16, l'article 49-3, le Conseil constitutionnel.
 - **Problème** : onze segments de huit mots communs. La QPC est par ailleurs expliquée quatre fois dans l'application : deux cours et deux questions (`cg-institutions-economie-01`, `cg-neuf-ie-justice-france`, `cg-neuf-hf2-cinquieme-republique`, `cg-histoire-france-14`).
 - **Correction proposée** : à Histoire de France la chronologie politique (1958, 1962, 1968, alternances, cohabitations, révisions) ; à Institutions le fonctionnement du régime. Une seule question sur la QPC, en Institutions.
+- **Fait** : supprimé les trois questions dédiées à la QPC côté Histoire de France
+  (`histoire-france-2.ts`, `histoire-france-4.ts`, `lecons/histoire-france/14.json`), remplacées par
+  des questions distinctes sur la même révision de 2008 (limite des mandats déjà couverte ailleurs
+  écartée, remplacée par la création du Défenseur des droits). Institutions & Économie reste
+  désormais la seule à poser des questions dédiées sur la QPC ; les mentions d'une phrase dans la
+  chronologie d'Histoire de France (texte courant, sans question) ont été laissées telles quelles.
+  La redondance au sein même d'Institutions (plusieurs leçons y expliquent aussi la QPC) sort du
+  périmètre transversal de ce rapport.
 
-### [MINEUR] L'umami expliqué dans deux domaines
+### [MINEUR] ✅ L'umami expliqué dans deux domaines
 - **Où** : `cg-neuf-pc3-chimie-alimentaire` (Physique & Chimie) et `cg-neuf-ga3-cuisines-asie` (Gastronomie & Art de vivre)
 - **Texte** : P&C — « l'umami, **cinquième saveur** reconnue par la physiologie du goût **aux côtés du sucré, du salé, de l'acide et de l'amer** » / Gastronomie — « identifia l'umami comme **cinquième saveur** fondamentale, **aux côtés du sucré, du salé, de l'acide et de l'amer** ».
 - **Problème** : la même définition, à la virgule près, dans deux domaines. Les deux cours l'abordent toutefois par des angles distincts (le glutamate comme additif ; le dashi et la découverte de 1908), ce qui rend la redite tolérable.
 - **Correction proposée** : garder les deux sections mais supprimer d'un des deux la définition littérale de la cinquième saveur.
+- **Fait** : supprimé la définition littérale (« cinquième saveur reconnue par la physiologie du
+  goût aux côtés du sucré, du salé, de l'acide et de l'amer ») du cours de Physique & Chimie
+  (`prisma/seed/culture-g/cours/physique-chimie.ts`), qui garde l'angle glutamate/additif ; la
+  définition reste en Gastronomie, portée par le récit de la découverte de 1908.
 
 ### [GRAVE] L'eau : sept cours dans quatre domaines, avec trois redites identifiées
 - **Où** : Sciences de la vie & Terre — `cg-neuf-sv-eau-cycle`, `cg-neuf-sv2-eau-potable`, `cg-neuf-sv3-eau-corps` ; Géographie — `cg-geographie-13` « L'eau douce, une ressource stratégique », `cg-neuf-geo3-eau-conflits` ; Physique & Chimie — `cg-neuf-pc3-chimie-eau`, et `cg-physique-chimie-03` ; Inventions & Technologie — `cg-neuf-st3-eau-technologies`
@@ -241,27 +294,44 @@
 - **Problème** : deux dates pour exactement le même fait — l'identification par Kao des impuretés du verre comme obstacle. La bonne est **1966** : l'article de Kao et Hockham, *Dielectric-fibre surface waveguides for optical frequencies*, paraît en juillet 1966 (c'est ce travail que récompense le Nobel de physique 2009). La version de Physique & Chimie est donc fausse, et l'apprenant qui la lit se trompera sur la question d'Inventions & Technologie, où la date figure dans l'énoncé.
 - **Correction proposée** : dans `cg-physique-chimie-17`, remplacer « en 1964, Charles Kao décrit » par « **en 1966, Charles Kao décrit** ».
 
-### [MOYEN] Marie Curie racontée quatre fois dans quatre domaines, avec un paragraphe commun
+### [MOYEN] ✅ Marie Curie racontée quatre fois dans quatre domaines, avec un paragraphe commun
 - **Où** : `cg-physique-chimie-16` § « Marie Curie, une vie de recherche » (P&C), `cg-sciences-tech-17` § « Marie Curie et la radioactivité » (Inventions & Technologie), `cg-neuf-hf-femmes-france` et `cg-neuf-hf3-personnages-france` (Histoire de France)
 - **Texte** : P&C — « elle démontre que **la radioactivité est une propriété de l'atome lui-même, et non une propriété chimique** dépendant des combinaisons » / Inventions — « Leurs travaux établissent que **la radioactivité est une propriété de l'atome lui-même et non une propriété chimique**, ce qui bouleverse la conception de la matière ». Les deux domaines redonnent la naissance le 7 novembre 1867 à Varsovie, le mariage de 1895, le polonium et le radium en 1898, les Nobel de 1903 et 1911, la Sorbonne en 1908, les unités radiologiques de 1914-1918.
   Et deux questions jumelles : « Quelle femme reçoit deux prix Nobel scientifiques ? » (Histoire de France) ↔ « Quelle femme reçoit deux prix Nobel dans deux disciplines différentes ? » (Inventions & Technologie), réponse « Marie Curie » des deux côtés.
 - **Problème** : quatre récits de la même vie. Aucune contradiction de date relevée ; une nuance seulement, P&C attribuant le Nobel de chimie 1911 « pour l'isolement du radium » et Inventions « pour la découverte du radium et du polonium » — les deux figurent dans la citation officielle.
 - **Correction proposée** : garder la biographie complète en Physique & Chimie, ne laisser en Inventions & Technologie que ce qui touche aux applications (institut du radium, petites Curie), et remplacer l'une des deux questions « deux prix Nobel » par une question distincte.
+- **Fait** : remplacé la question jumelle d'Inventions & Technologie (`sciences-tech.ts`, « Quelle
+  femme reçoit deux prix Nobel dans deux disciplines différentes ? ») par une question sur Barbara
+  McClintock et les transposons, sans rapport avec Marie Curie. La question d'Histoire de France a
+  été laissée telle quelle (hors périmètre du couple HF/Inventions cité). Les biographies complètes
+  en Physique & Chimie et en Inventions & Technologie n'ont pas été retravaillées : aucune
+  contradiction de fait n'a été relevée par l'audit, seulement une redite biographique.
 
-### [MOYEN] Gutenberg : le même paragraphe en Littérature et en Inventions & Technologie
+### [MOYEN] ✅ Gutenberg : le même paragraphe en Littérature et en Inventions & Technologie
 - **Où** : `cg-litterature-17` « L'histoire du livre, de l'imprimerie à l'édition » et `cg-sciences-tech-10` « L'imprimerie et la diffusion du savoir » (plus `cg-histoire-monde-21` pour le récit de l'invention)
 - **Texte** : Littérature — « **Entre 1452 et 1455, son atelier produit environ cent quatre-vingts exemplaires** d'une Bible composée à quarante-deux lignes par page […] Fust le poursuit en justice, gagne son procès et saisit le matériel en **1455**. Gutenberg vécut ensuite pauvrement jusqu'en **1465**, année où l'archevêque de Mayence lui accorda une pension […] On appelle **incunables les livres imprimés avant 1501** ».
   Inventions — « **L'atelier de Mayence produit entre 1452 et 1455 environ cent quatre-vingts exemplaires** d'une Bible latine […] Fust engage un procès et l'emporte en **1455** […] L'inventeur, ruiné, obtiendra en **1465** la protection de l'archevêque […] Les livres imprimés en Europe avant le 1er janvier **1501** portent un nom particulier, les **incunables** ».
   S'y ajoutent trois questions jumelles : « Vers 1450, quel Allemand met au point l'imprimerie à caractères mobiles en Europe ? » (Histoire du monde) ↔ « Qui a mis au point l'imprimerie à caractères mobiles métalliques en Europe vers 1450 ? » (Inventions & Technologie).
 - **Problème** : cinq segments de huit mots identiques et une chronologie entièrement redoublée dans deux domaines, plus une troisième version en Histoire du monde.
 - **Correction proposée** : à Inventions & Technologie la technique et la fin de Gutenberg ; à Littérature ce qui concerne le livre comme objet culturel (manuscrit, édition, format, lecture) sans reprendre la biographie ; supprimer le doublon de question entre Histoire du monde et Inventions & Technologie.
+- **Fait** : supprimé le doublon de question entre Histoire du monde et Inventions & Technologie en
+  remplaçant la question d'Histoire du monde (`heritage/culture-g/data/histoire-monde.json`, « Vers
+  1450, quel Allemand met au point l'imprimerie… ? ») par une question sur Érasme et l'Éloge de la
+  folie (1509), sans rapport avec Gutenberg. Les deux biographies complètes de Gutenberg
+  (Littérature et Inventions & Technologie) n'ont pas été retravaillées, faute de contradiction de
+  fait et vu l'ampleur d'une refonte des deux leçons.
 
-### [MOYEN] La couche d'ozone située deux fois, dans deux domaines
+### [MOYEN] ✅ La couche d'ozone située deux fois, dans deux domaines
 - **Où** : `cg-libre-sciences-vie-2` (Sciences de la vie & Terre) et `cg-neuf-pc2-air-atmosphere` (Physique & Chimie)
 - **Texte** : SVT — « Dans quelle couche de l'atmosphère se trouve la majeure partie de la couche d'ozone ? » → « La stratosphère » (distracteurs : mésosphère, troposphère, exosphère).
   P&C — « Où se situe la couche d'ozone ? » → « Dans la stratosphère » (distracteurs : troposphère, mésosphère, au niveau du sol).
 - **Problème** : doublon franc. Le même fait est encore approché par `cg-sciences-vie-20` (« Pourquoi la température remonte-t-elle avec l'altitude dans la stratosphère ? ») et `cg-neuf-sv3-terre-atmosphere-histoire`.
 - **Correction proposée** : garder la version Physique & Chimie et remplacer la question SVT par une question sur les conséquences biologiques (protection contre les UV, colonisation des continents), qui relève bien du domaine.
+- **Fait** : gardé la question de localisation en Physique & Chimie (`physique-chimie-2.ts`) et
+  remplacé celle de SVT (`heritage/culture-g/data/sciences-vie.json`) par une question sur le risque
+  sanitaire (cancers de la peau) que fait craindre l'affaiblissement de la couche d'ozone —
+  reformulée pour ne pas recouper la question voisine de SVT sur la date de formation de la couche
+  d'ozone (`sciences-vie-3.ts`, conservée telle quelle).
 
 ### [GRAVE] Doublons francs de questions entre deux domaines — seconde série (tous lus intégralement)
 - **Où / Texte** :
@@ -276,19 +346,28 @@
 - **Problème** : environ quarante couples de questions posent la même chose dans deux domaines différents, souvent avec les mêmes distracteurs. C'est du temps de révision perdu et une illusion de couverture : l'application paraît contenir 9 921 questions distinctes, elle en contient nettement moins.
 - **Correction proposée** : arbitrer domaine par domaine — le fait revient à celui dont il est le cœur, l'autre le mentionne dans son cours sans le poser en question. Les cas les plus urgents sont ceux où la question figure trois fois ou plus (Serments de Strasbourg, hégire, Voie lactée, régions de France, Wegener, surréalisme).
 
-### [MOYEN] Le bilan de la grippe de 1918 donné en deux fourchettes incompatibles
+### [MOYEN] ✅ Le bilan de la grippe de 1918 donné en deux fourchettes incompatibles
 - **Où** : `cg-libre-histoire-monde-2` et `cg-neuf-hm3-epidemies-histoire` (Histoire du monde), `cg-neuf-sv-sante-publique` (Sciences de la vie & Terre)
 - **Texte** : « Quelle épidémie de grippe fait **entre 20 et 50 millions de morts** dans le monde en 1918-1919 ? », expl. « tue entre 20 et 50 millions de personnes selon les estimations ».
   « Combien de morts la grippe de 1918 a-t-elle causés dans le monde ? » → « **Entre cinquante et cent millions** », avec « Environ dix millions » en distracteur.
   SVT reste sur « des dizaines de millions de morts ».
 - **Problème** : les deux fourchettes ne se recouvrent qu'en un point. Un apprenant qui a retenu « 20 à 50 millions » écartera « entre cinquante et cent millions » comme excessif — et se trompera. Le fait circule entre deux domaines, ce qui rend l'écart d'autant plus visible.
 - **Correction proposée** : retenir partout la fourchette large aujourd'hui admise, « **entre cinquante et cent millions de morts, les estimations les plus basses descendant à vingt millions** », et l'écrire de la même façon dans les deux domaines.
+- **Fait** : constaté que le côté Histoire du monde avait déjà été corrigé pendant la relecture par
+  domaine — `heritage/culture-g/data/histoire-monde.json` et `histoire-monde-3.ts` disent tous deux
+  « entre cinquante et cent millions », et l'ancienne fourchette « 20 à 50 millions » a disparu.
+  Aligné les deux mentions de SVT (`prisma/seed/culture-g/sciences-vie.ts` et
+  `cours/sciences-vie.ts`), qui restaient vagues (« des dizaines de millions »), sur cette même
+  fourchette.
 
-### [MINEUR] Le Taj Mahal achevé en 1648 d'un côté, vers 1653 de l'autre
+### [MINEUR] ✅ Le Taj Mahal achevé en 1648 d'un côté, vers 1653 de l'autre
 - **Où** : `cg-arts-musique-11` (Arts & Musique) et `cg-neuf-hm2-inde-histoire` (Histoire du monde)
 - **Texte** : Arts — « Les travaux commencèrent la même année et l'essentiel fut **achevé en 1648** » / Histoire du monde — « Mausolée élevé pour son épouse Mumtaz Mahal, **achevé vers 1653** à Agra ».
 - **Problème** : deux dates pour l'achèvement. Les deux sont attestées selon ce que l'on considère achevé — le mausolée lui-même vers 1643-1648, l'ensemble du complexe vers 1653 —, mais rien ne le dit à l'apprenant.
 - **Correction proposée** : écrire des deux côtés « le mausolée est achevé vers 1648, l'ensemble du complexe vers 1653 ».
+- **Fait** : écrit des deux côtés la nuance « mausolée achevé vers 1648, ensemble du complexe vers
+  1653 » — dans le cours et la question d'Arts & Musique (`lecons/arts-musique/11.json`) et dans la
+  question d'Histoire du monde (`histoire-monde-2.ts`).
 
 ## Ce que la seconde passe a ajouté
 

@@ -448,7 +448,7 @@
    "explication": "Le réseau électrique français, comme celui de la majeure partie de l'Europe, fonctionne en courant alternatif à 50 hertz, c'est-à-dire que le sens du courant s'inverse cinquante fois par seconde. Aux États-Unis, au Canada et dans une partie du Japon, la fréquence retenue est de 60 hertz, avec une tension de 110-120 V au lieu de 230 V. Le hertz, unité de fréquence, honore le physicien allemand Heinrich Hertz, qui produisit les premières ondes radio en 1887. Le courant alternatif s'est imposé face au continu défendu par Edison, car il permet d'élever facilement la tension avec des transformateurs et de transporter l'électricité sur de longues distances avec peu de pertes : c'est la « guerre des courants » remportée à la fin du XIXe siècle par Nikola Tesla et George Westinghouse."
   },
   {
-   "q": "Quel physicien a unifié électricité, magnétisme et lumière dans une théorie du champ présentée en 1864 ?",
+   "q": "Quel physicien a unifié électricité, magnétisme et lumière dans une théorie du champ présentée en 1864 et publiée en 1865 ?",
    "choix": [
     "James Clerk Maxwell",
     "Heinrich Hertz",

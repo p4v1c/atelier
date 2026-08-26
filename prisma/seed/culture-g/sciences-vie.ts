@@ -325,7 +325,7 @@ export const CG_SCIENCES_VIE: SeedSkill[] = [
      "Causé par un parasite du genre Plasmodium, il tue encore plusieurs centaines de milliers de personnes par an, surtout des enfants."],
     ["Quelle épidémie a tué environ un tiers des Européens au XIVe siècle ?", ["La peste noire", "La variole, venue d'Orient", "Le choléra des ports", "La grippe d'hiver"], 0,
      "Arrivée en 1347 par les ports méditerranéens, elle est due à une bactérie transmise par les puces des rats."],
-    ["Quelle pandémie de grippe a fait des dizaines de millions de morts en 1918-1919 ?", ["La grippe dite espagnole", "La grippe dite asiatique", "La grippe dite de Hong Kong", "La grippe dite russe"], 0,
+    ["Quelle pandémie de grippe a fait entre cinquante et cent millions de morts en 1918-1919 ?", ["La grippe dite espagnole", "La grippe dite asiatique", "La grippe dite de Hong Kong", "La grippe dite russe"], 0,
      "Le nom vient de ce que l'Espagne, neutre, ne censurait pas l'information : les autres pays en guerre la taisaient."],
     ["Qui découvre la pénicilline en 1928 ?", ["Alexander Fleming", "Louis Pasteur, à Lille", "Robert Koch, à Berlin", "Paul Ehrlich, à Francfort"], 0,
      "La découverte est fortuite. Il faudra plus de dix ans et le travail de Florey et Chain pour en faire un médicament."],

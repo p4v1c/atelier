@@ -172,16 +172,16 @@
    "explication": "Le référendum de septembre 2000, marqué par une forte abstention, approuve le remplacement du septennat par un quinquennat. La réforme vise à rapprocher la durée du mandat présidentiel de celle de la législature, afin de limiter les risques de cohabitation. Appliquée à partir de 2002, elle s'accompagne d'un calendrier électoral plaçant les élections législatives juste après la présidentielle, ce qui accentue la présidentialisation du régime. L'abolition de la peine de mort avait été votée par le Parlement en 1981, et l'euro fiduciaire a été mis en circulation en janvier 2002."
   },
   {
-   "q": "Que crée notamment la révision constitutionnelle du 23 juillet 2008 ?",
+   "q": "Quelle nouvelle autorité est créée par la révision constitutionnelle du 23 juillet 2008 ?",
    "choix": [
-    "Le Sénat",
-    "Le référendum d'initiative populaire intégral",
-    "Le droit de dissolution du président",
-    "La question prioritaire de constitutionnalité"
+    "Le Défenseur des droits",
+    "Le Conseil supérieur de la magistrature",
+    "La Haute Autorité pour la transparence de la vie publique",
+    "L'Arcom"
    ],
-   "bonne": 3,
+   "bonne": 0,
    "difficulte": 3,
-   "explication": "La révision du 23 juillet 2008 est la plus importante depuis 1958. Elle instaure la question prioritaire de constitutionnalité, qui permet à un justiciable de contester devant le Conseil constitutionnel une loi déjà promulguée à l'occasion d'un procès, alors que le contrôle n'était auparavant possible qu'avant la promulgation. Elle limite aussi le président à deux mandats consécutifs, encadre l'usage de l'article 49 alinéa 3, renforce les pouvoirs du Parlement sur l'ordre du jour et crée le Défenseur des droits. Le Sénat et le droit de dissolution existaient dès le texte initial de 1958."
+   "explication": "La révision du 23 juillet 2008 est la plus importante depuis 1958. Elle crée le Défenseur des droits, qui reprend et unifie les missions de plusieurs autorités jusque-là séparées, comme le Médiateur de la République ou la Défenseure des enfants. Elle limite aussi le président à deux mandats consécutifs, encadre l'usage de l'article 49 alinéa 3 et renforce les pouvoirs du Parlement sur l'ordre du jour. Le Sénat et le droit de dissolution existaient dès le texte initial de 1958."
   }
  ],
  "sources": [

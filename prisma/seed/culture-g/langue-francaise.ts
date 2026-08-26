@@ -301,8 +301,6 @@ export const CG_LANGUE_FRANCAISE: SeedSkill[] = [
      "Du latin faber, l'artisan du métal. Fabre, Faure et Favre en sont des variantes régionales."],
     ["Quel est le nom de famille le plus porté en France ?", ["Martin", "Bernard", "Dubois", "Durand"], 0,
      "Il vient du culte de saint Martin de Tours, extrêmement répandu au Moyen Âge."],
-    ["Quelle ordonnance impose la tenue des registres de baptême en France ?", ["L'ordonnance de Villers-Cotterêts de 1539", "L'édit de Nantes, signé en 1598", "Le Code civil promulgué en 1804", "L'ordonnance de Blois, prise en 1579"], 0,
-     "Elle fonde l'état civil moderne, alors tenu par les curés."],
     ["Que signifie le suffixe -ac dans des noms de lieux comme Cognac ou Bergerac ?", ["Il marque un domaine gallo-romain", "Il désigne un cours d'eau voisin", "Il indique une hauteur dominant la vallée", "Il signale une forêt défrichée"], 0,
      "Du suffixe latin -acum. Il donne -y, -ay ou -é dans le nord : Vitry, Chambly, Savigny."],
     ["Que signifie le préfixe Ker- dans les noms de lieux bretons ?", ["Le village ou le hameau", "L'église et son cimetière", "La colline qui domine", "La rivière voisine"], 0,
