@@ -15,32 +15,36 @@ Total : **688 questions** et **61 cours (252 sections)** réellement lus, ligne 
 
 ## Constats
 
-### [GRAVE] Explication d'une question partie en vrille : texte incohérent et faux laissé dans le contenu
+### [GRAVE] ✅ Explication d'une question partie en vrille : texte incohérent et faux laissé dans le contenu
 - **Où** : `heritage/culture-g/data/cinema-medias.json` — question 38, « Quelle récompense principale est décernée par le festival international du film de Berlin ? »
 - **Texte** : « Parmi les lauréats célèbres de l'Ours d'or figurent « Le Voyage de Chihiro » de Miyazaki et « La Vie des autres » n'en est pas un, mais bien « Sur mes lèvres »... non : citons plutôt « Larmes et soupirs » — retenons simplement que le palmarès mêle cinéma d'auteur et films engagés. »
 - **Problème** : phrase inachevée, auto-contredite, qui hésite à voix haute et finit par affirmer des faits faux. *La Vie des autres* n'a pas d'Ours d'or (Oscar 2007 du meilleur film étranger) ; *Sur mes lèvres* (Audiard, 2001) n'en a pas non plus ; *Cris et chuchotements* (« Larmes et soupirs » n'est pas son titre français) n'a jamais eu d'Ours d'or. Seul *Le Voyage de Chihiro* est exact (Ours d'or 2002). C'est le seul passage du corpus qui laisse voir de la fabrication brute.
 - **Correction proposée** : « Parmi les lauréats célèbres de l'Ours d'or figurent *Le Voyage de Chihiro* de Miyazaki (2002) et *Taxi Téhéran* de Jafar Panahi (2015) : le palmarès mêle cinéma d'auteur et films engagés. »
+- **Vérifié** : le passage était déjà corrigé exactement dans les termes proposés (« … de Miyazaki, en 2002, et « Taxi Téhéran » de Jafar Panahi, en 2015 »).
 
-### [GRAVE] Le cours définit faussement le plan moyen
+### [GRAVE] ✅ Le cours définit faussement le plan moyen
 - **Où** : `prisma/seed/culture-g/cours/cinema-medias.ts` — `cm-langage-cinematographique`, section « Cadrer »
 - **Texte** : « Le plan moyen coupe à mi-cuisses, le plan rapproché à la poitrine, et le gros plan isole un visage ou un détail »
 - **Problème** : erreur de fait sur le point central de la notion. C'est le **plan américain** qui coupe à mi-cuisses ; le plan moyen cadre le personnage en pied. L'apprenant révise l'échelle des plans dans un cours qui lui donne la mauvaise correspondance, et le plan américain disparaît de l'échelle.
 - **Correction proposée** : « Le plan moyen cadre le personnage en entier, le plan américain le coupe à mi-cuisses, le plan rapproché à la poitrine, et le gros plan isole un visage ou un détail »
 - **Corroboration interne** : `heritage/…/lecons/cinema-medias/05.json` donne la définition juste — « Le plan moyen cadre un personnage en pied, le plan américain le coupe à mi-cuisses, appellation héritée des westerns où l'on devait voir le revolver à la ceinture » — et en fait même une question de quiz, dont le distracteur explicitement écarté est « le plan moyen ». Le corpus se contredit donc lui-même, et c'est le seed qui a tort ; la formulation correcte existe déjà, il suffit de la reprendre.
+- **Vérifié** : le cours dit déjà « Le plan moyen cadre le personnage en entier, le plan américain le coupe à mi-cuisses, le plan rapproché à la poitrine, et le gros plan isole un visage ou un détail » — correction déjà appliquée telle que proposée.
 
-### [GRAVE] Question à deux réponses également défendables : le compositeur italien
+### [GRAVE] ✅ Question à deux réponses également défendables : le compositeur italien
 - **Où** : `prisma/seed/culture-g/cinema-medias-3.ts` — `cm3-cinema-italien`
 - **Texte** : « Quel compositeur a signé les musiques de très nombreux films italiens ? » — choix : Ennio Morricone / Nino Rota / Armando Trovajoli / Riz Ortolani. Explication : « Nino Rota a lui aussi marqué le cinéma italien, notamment avec Fellini. »
 - **Problème** : l'énoncé ne discrimine rien (les quatre propositions sont vraies, Trovajoli et Ortolani compris), et l'explication reconnaît elle-même que le distracteur classé faux est également juste. Question insoluble.
 - **Correction proposée** : « Quel compositeur a signé les musiques des westerns de Sergio Leone ? » — mais cette question existe déjà dans `cm2-musique-film` ; préférer : « Quel compositeur italien a écrit la musique de *Il était une fois dans l'Ouest* ? » avec l'explication « Ennio Morricone a composé pour plus de quatre cents films ; Nino Rota, lui, est le compositeur attitré de Fellini. »
+- **Vérifié** : la question est déjà « Quel compositeur italien a écrit la musique d'Il était une fois dans l'Ouest ? », choix et explication déjà conformes à la proposition.
 
-### [GRAVE] Question fausse sur Céline Sciamma : « langue des signes »
+### [GRAVE] ✅ Question fausse sur Céline Sciamma : « langue des signes »
 - **Où** : `prisma/seed/culture-g/cinema-medias-2.ts` — `cm2-cinema-francais-2`
 - **Texte** : « Quel réalisateur français est connu pour ses films tournés en langue des signes et sur l'adolescence ? » — choix : « Céline Sciamma pour l'adolescence » / Abdellatif Kechiche / Robert Guédiguian / Laurent Cantet. Explication : « Bande de filles, Tomboy et Naissance des pieuvres composent une trilogie sur la construction de soi. »
 - **Problème** : trois défauts cumulés. (1) Attribution fausse : Sciamma n'a tourné aucun film en langue des signes — la confusion vient sans doute de *La Famille Bélier* (Éric Lartigau, 2014), dont elle a coécrit le scénario. (2) Accord faux : « Quel réalisateur… » pour une réalisatrice. (3) Le libellé de la bonne réponse, « Céline Sciamma pour l'adolescence », trahit la réponse et admet à demi-mot que la question est mal posée.
 - **Correction proposée** : « Quelle réalisatrice française a construit une œuvre sur l'adolescence et la construction de soi ? » — choix : « Céline Sciamma » / « Claire Denis » / « Catherine Breillat » / « Rebecca Zlotowski ».
+- **Vérifié** : la question, les choix et l'explication sont déjà exactement ceux proposés.
 
-### [GRAVE] Doublons francs entre lots : la même question posée deux fois
+### [GRAVE] ✅ Doublons francs entre lots : la même question posée deux fois
 Toutes ces paires sont dans des notions distinctes ; l'apprenant les rencontrera comme deux questions différentes.
 
 - `cinema-medias.ts` `cm-cinemas-monde` : « Quel pays produit le plus grand nombre de films par an ? » / `cinema-medias-3.ts` `cm3-cinema-economie-mondiale` : « Quel pays produit le plus de films par an ? » — **mêmes quatre choix dans le même ordre** (l'Inde, Les États-Unis, La Chine, Le Nigeria). Doublon parfait.
@@ -56,12 +60,14 @@ Toutes ces paires sont dans des notions distinctes ; l'apprenant les rencontrera
 - `cm2-documentaire` : « Quel documentaire français de 2002 filme une classe unique rurale ? » / `cm3-cinema-documentaire-france` : « Quel documentaire de Nicolas Philibert filme une classe unique ? » — même réponse (*Être et avoir*).
 - `cm-hollywood-industrie` : « Quel studio d'animation a produit Toy Story, premier long métrage entièrement en images de synthèse ? » / `cm2-animation` : « Quel studio américain a produit le premier long métrage entièrement en images de synthèse ? » — même réponse (Pixar), mêmes explications (« quatre ans de production »).
 - **Correction proposée** : supprimer une occurrence de chaque paire et la remplacer par une question portant sur un fait non encore couvert de la notion hôte.
+- **Vérifié** : les 12 paires listées ont toutes été traitées — dans chaque cas l'une des deux occurrences a disparu ou a été reformulée (le doublon FID de Lussas/Marseille a été résolu en précisant l'énoncé, exactement comme suggéré en alternative). Aucune des 12 paires ne subsiste.
 
-### [GRAVE] Phrase de cours réemployée telle quelle d'un cours à l'autre
+### [GRAVE] ✅ Phrase de cours réemployée telle quelle d'un cours à l'autre
 - **Où** : `cours/cinema-medias.ts` — `cm-hollywood-industrie` § « Ce qu'on peut montrer » et `cm3-censure-liberte` § « Ce qu'on ne dit pas »
 - **Texte** : « une autocensure de la profession, adoptée pour devancer une réglementation publique » (les deux fois, à l'identique)
 - **Problème** : le code Hays est traité deux fois, avec la même formule, dans deux cours qui ne se citent pas. Le second n'apprend rien de plus que le premier.
 - **Correction proposée** : dans `cm3-censure-liberte`, renvoyer au cas Hays en une incise et développer plutôt un exemple d'autocensure contemporaine (retrait préventif d'un sujet sous menace de procès).
+- **Vérifié** : `cm3-censure-liberte` § « Ce qu'on ne dit pas » dit déjà « Le code Hays américain, étudié au chapitre sur Hollywood, en est le cas d'école » et développe ensuite des exemples contemporains (retrait préventif sous menace de procès, renoncement à publier une enquête, prudence d'une rédaction) — correction déjà appliquée telle que proposée.
 
 ### [MOYEN] ✅ Anachronisme : « The Walt Disney Company » en 1923
 - **Où** : `cinema-medias.ts` — `cm-hollywood-industrie`
@@ -259,11 +265,12 @@ Toutes ces paires sont dans des notions distinctes ; l'apprenant les rencontrera
 - **Correction proposée** : « […] et par Arletty ou Michèle Morgan, à qui Gabin lance dans *Le Quai des brumes* la réplique fameuse "T'as d'beaux yeux, tu sais" »
 - **Fait** : Phrase corrigée : « à qui Gabin lance dans « Le Quai des brumes » la réplique fameuse … ».
 
-### [GRAVE] Le journal télévisé de 1949 présenté comme le premier au monde
+### [GRAVE] ✅ Le journal télévisé de 1949 présenté comme le premier au monde
 - **Où** : `heritage/…/lecons/cinema-medias/15.json` — § « Les débuts, d'un ministère à un journal télévisé », et la première question du quiz
 - **Texte** : « le 29 juin 1949, Pierre Sabbagh lance un journal télévisé quotidien, **le premier au monde** ». Question : « Quel événement du 29 juin 1949 marque **une première mondiale** pour la télévision française ? » → « Le lancement du premier journal télévisé quotidien au monde ».
 - **Problème** : erreur de fait, et elle porte toute une question. La BBC diffuse son *Television Newsreel* depuis le 5 janvier 1948, et CBS son journal quotidien présenté par Douglas Edwards depuis mai 1948 : le JT de Sabbagh est le premier journal télévisé **français**, pas le premier du monde. Le cahier d'origine, lui, écrit correctement « Le premier journal télévisé **français** » (`heritage/…/cinema-medias.json`, q. 53) — le corpus se contredit, et c'est la version fausse qui sert de réponse à une question.
 - **Correction proposée** : section → « le 29 juin 1949, Pierre Sabbagh lance le premier journal télévisé français quotidien » ; question → « Quel événement du 29 juin 1949 marque une étape décisive pour la télévision française ? » → « Le lancement du premier journal télévisé français quotidien », avec en explication « La BBC et CBS avaient lancé le leur dès 1948 ; la France suit en 1949. »
+- **Vérifié** : la section, la question et l'explication reprennent déjà exactement les termes proposés (« … le premier journal télévisé français quotidien » ; explication citant la BBC et CBS dès 1948).
 
 ### [MINEUR] ✅ Une date de palmarès prise pour une date de projection
 - **Où** : `heritage/…/lecons/cinema-medias/12.json` — § « La Nouvelle Vague française »
@@ -294,24 +301,27 @@ Toutes ces paires sont dans des notions distinctes ; l'apprenant les rencontrera
 
 La relecture a commencé par les fins de fichiers et a porté surtout sur le seed, qui est la partie faible du domaine. Elle a ajouté deux constats GRAVES, dont l'un est une récompense qui n'existe pas.
 
-### [GRAVE] Un César du directeur de casting qui n'existe pas
+### [GRAVE] ✅ Un César du directeur de casting qui n'existe pas
 - **Où** : `prisma/seed/culture-g/cinema-medias-2.ts` — `cm2-metiers-cinema`
 - **Texte** : « Que fait un directeur de casting ? » → explication : « **Le métier n'a été reconnu par un César qu'en 2023.** »
 - **Problème** : erreur de fait, vérifiée. L'Académie des César ne décerne aucun prix de la direction de casting. Les seules catégories créées dans les années 2020 le sont pour la 47ᵉ cérémonie (2022) : meilleurs effets visuels, et rétablissement du meilleur court métrage documentaire. Les directeurs de casting sont représentés dans les collèges votants de l'Académie, et siègent au comité Révélations — mais ils n'ont pas de César. La confusion vient probablement de l'annonce, en 2024, d'un Oscar du meilleur casting créé pour la 98ᵉ cérémonie.
 - **Correction proposée** : « La profession n'a longtemps été distinguée par aucun prix : l'Oscar du meilleur casting n'a été créé qu'en 2024, et les César n'ont toujours pas d'équivalent. »
+- **Vérifié** : l'explication reprend déjà (à une variante lexicale près, « pas d'équivalent » au lieu de « toujours pas d'équivalent ») exactement la correction proposée.
 
-### [GRAVE] Un distracteur qui désigne la bonne réponse
+### [GRAVE] ✅ Un distracteur qui désigne la bonne réponse
 - **Où** : `prisma/seed/culture-g/cinema-medias-3.ts` — `cm3-cinema-documentaire-france`
 - **Texte** : « Quel festival français est consacré au documentaire ? » — choix : « **Le Festival international du documentaire de Marseille** » (bonne réponse) / « Le festival d'Annecy » / « **Le FID de Lussas seul** » / « Le festival de La Rochelle ». Explication : « Les États généraux du documentaire de Lussas en sont un autre rendez-vous majeur. »
 - **Problème** : le FID **est** le Festival international du documentaire de Marseille — c'est son sigle. Le troisième choix nomme donc la bonne réponse une seconde fois, en lui accolant par erreur le village ardéchois qui accueille un tout autre festival, les États généraux du documentaire. Deux choix pour une même chose, et une confusion de fait entre deux manifestations que l'explication distingue pourtant correctement.
 - **Correction proposée** : remplacer le troisième choix par « Le Cinéma du réel, à Paris » (autre festival documentaire réel, et faux ici puisque l'énoncé attend Marseille), ou mieux, préciser l'énoncé : « Quel festival de documentaire se tient à Marseille ? ».
+- **Vérifié** : l'énoncé est déjà « Quel festival de documentaire se tient à Marseille chaque été ? », avec quatre choix désormais distincts (FID, Annecy, États généraux de Lussas, Cinéma du réel) — la seconde option de correction a déjà été appliquée.
 
-### [GRAVE] Les fusions aggravent trois doublons : même notion, deux fois la même question
+### [GRAVE] 🔧 Les fusions aggravent trois doublons : même notion, deux fois la même question
 `prisma/seed/culture-g/cours/fusions.ts` verse `cm3-jeu-video-industrie` et `cm2-jeux-video-culture` dans `cm-jeu-video`, et `cm2-reseaux-sociaux` dans `cm-numerique-reseaux`. Trois des paires signalées plus haut ne sont donc pas réparties entre deux chapitres : elles se retrouvent **dans le même chapitre**, où l'apprenant tombera deux fois sur la même chose.
 - PEGI : « Quel système de classification informe sur l'âge conseillé des jeux en Europe ? » et « Qu'est-ce que la classification PEGI ? » cohabitent dans `cm-jeu-video`.
 - Cyberharcèlement : « Qu'est-ce que le cyberharcèlement ? » et « Qu'est-ce que le cyberharcèlement en meute ? » cohabitent dans `cm-numerique-reseaux`, avec la même explication sur l'auteur qui n'a agi qu'une fois.
 - Jeu indépendant : « Qu'est-ce qu'un jeu indépendant ? » et « Qu'est-ce que le jeu vidéo indépendant a apporté ? » cohabitent dans `cm-jeu-video`, avec deux fois la même explication sur la distribution numérique — et le coffre à butin y est expliqué deux fois de plus.
 - **Correction proposée** : traiter ces trois paires en priorité, avant les doublons inter-chapitres.
+- **Fait** : PEGI était déjà réglé (la question « classification PEGI » de `cm3-jeu-video-industrie` a disparu, seule celle de `cm-jeu-video` subsiste). Les deux autres paires cohabitaient bel et bien encore après fusion et ont été corrigées maintenant : dans `cm-numerique-reseaux`, l'explication de « Qu'est-ce que le cyberharcèlement ? » ne redit plus la nuance « même si chaque auteur n'a agi qu'une fois » (réservée à la question « cyberharcèlement en meute » de `cm2-reseaux-sociaux`, où elle a sa place) — remplacée par une explication sur les peines encourues ; dans `cm3-jeu-video-industrie`, l'explication de « Qu'est-ce que le jeu vidéo indépendant a apporté ? » ne répète plus le fait de la distribution numérique déjà présent dans `cm-jeu-video` — remplacée par des exemples de jeux indépendants marquants (Braid, Undertale, Papers, Please).
 
 ### [MOYEN] ✅ Une question qui demande un procédé et répond par un film
 - **Où** : `prisma/seed/culture-g/cinema-medias.ts` — `cm-naissance-cinema`

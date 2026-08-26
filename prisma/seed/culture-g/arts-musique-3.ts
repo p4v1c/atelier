@@ -51,8 +51,6 @@ export const CG_ARTS_MUSIQUE_3: SeedSkill[] = [
      "Les grandes compositions de l'Orangerie ont été offertes à l'État après la Première Guerre mondiale."],
     ["Quel peintre français est associé au néo-impressionnisme et au pointillisme ?", ["Georges Seurat", "Paul Cézanne", "Claude Monet", "Camille Pissarro"], 0,
      "Signac en fut le théoricien après la mort précoce de Seurat, à trente et un ans."],
-    ["Quel peintre français a passé les dernières années de sa vie en Polynésie ?", ["Paul Gauguin", "Vincent van Gogh", "Émile Bernard", "Maurice Denis"], 0,
-     "Il y est mort en 1903, aux Marquises."],
     ["Quel peintre français a réalisé de grands papiers découpés en fin de vie ?", ["Henri Matisse", "Pierre Bonnard", "Raoul Dufy", "André Derain"], 0,
      "Ne pouvant plus peindre debout, il dessinait avec des ciseaux dans la couleur."],
     ["Quel peintre français du XXe siècle a travaillé le noir comme matière lumineuse ?", ["Pierre Soulages", "Nicolas de Staël", "Jean Dubuffet", "Georges Mathieu"], 0,

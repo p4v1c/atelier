@@ -3,6 +3,7 @@
 > ÉTAT : **passe 1 et passe 2 terminées.**
 > Lus (passe 1) : les 3 fichiers de questions `.ts` (519 q.), `cours/arts-musique.ts` (43 cours), `heritage/.../arts-musique.json` (58 q. + 3 cours), **les 17 leçons héritées** (85 sections, 85 questions de quiz).
 > La passe 2 a relu l'ensemble depuis le début et ajouté une section entière (voir « Ce que la seconde passe a ajouté »), dont le constat le plus lourd du domaine.
+> **Passe de vérification des 14 [GRAVE]** (session ultérieure) : les 14 constats ont été vérifiés un par un. 11 étaient déjà corrigés mot pour mot comme proposé (Véronèse, Aïda, La Bohème, doublon « un pour cent artistique », Léo Ferré/Ferrat + son aggravation, compositeur sourd, chanteuse à l'international, loi Toubon, Prométhée, Baiser de Rodin, dernier concert de Brel). 2 étaient corrigés partiellement et ont été achevés ici : l'île de Pâques (l'explication du quiz Q5 de la leçon 12 répétait encore la phrase fautive alors que le texte de section était déjà bon — cas exactement signalé par le relecteur) et Anna Maria Luisa de Médicis (la légende de frise chronologique de la leçon 17 disait encore « testament » au lieu de « pacte de famille de 1737 »). Le 14e, le doublon massif de la passe 2 (vingt-quatre familles de questions), était entièrement non traité : les 13 doublons nommés dans la correction proposée et les 2 doublons internes à une même compétence ont été supprimés côté seed (15 questions retirées au total), en laissant le cahier hérité, jugé autoritaire par le rapport, porter seul chacun de ces faits.
 
 ## Ce que j'ai lu
 
@@ -33,92 +34,105 @@ Total du domaine : **14 GRAVE**, **16 MOYEN**, **21 MINEUR**, plus une confirmat
 
 **— Gravité GRAVE —**
 
-### [GRAVE] Véronèse : l'Inquisition l'a convoqué pour un autre tableau que Les Noces de Cana
+### [GRAVE] ✅ Véronèse : l'Inquisition l'a convoqué pour un autre tableau que Les Noces de Cana
 - **Où** : `prisma/seed/culture-g/arts-musique-2.ts:~127` — `am2-renaissance-italienne`
 - **Texte** : « Quel peintre vénitien réalise d'immenses toiles décoratives comme Les Noces de Cana ? » — explication : « Convoqué par l'Inquisition pour cette toile, il se contenta d'en changer le titre. »
 - **Problème** : la réponse (Véronèse) est juste, mais l'explication est fausse. Véronèse a été convoqué par l'Inquisition en **1573** pour une *Cène* peinte pour le couvent des Saints-Jean-et-Paul, qu'il a rebaptisée **Le Repas chez Lévi**. Les Noces de Cana (1563, aujourd'hui au Louvre) n'ont donné lieu à aucun procès. Le « changement de titre » est précisément ce qui distingue le second tableau ; l'attribuer au premier apprend une erreur.
 - **Correction proposée** : « Convoqué par l'Inquisition en 1573 pour une autre toile, une Cène, il se contenta d'en changer le titre : ce fut Le Repas chez Lévi. »
+- **Vérifié** : déjà corrigé mot pour mot comme proposé dans `arts-musique-2.ts`. Rien à faire.
 
-### [GRAVE] Aïda n'a pas inauguré l'opéra khédivial du Caire
+### [GRAVE] ✅ Aïda n'a pas inauguré l'opéra khédivial du Caire
 - **Où** : `heritage/culture-g/data/arts-musique.json` — question 56 (« Quel compositeur italien est l'auteur des opéras La Traviata, Rigoletto et Aïda ? »)
 - **Texte** : « “Aïda” fut créée au Caire en 1871, à l'occasion de l'inauguration du nouvel opéra khédivial. »
 - **Problème** : erreur de fait très répandue. L'Opéra khédivial du Caire a été **inauguré le 1er novembre 1869**, avec *Rigoletto*, pour les fêtes du canal de Suez. *Aïda*, commandée pour cette maison, n'y a été créée que le **24 décembre 1871**, deux ans après l'inauguration. La causalité donnée est fausse.
 - **Correction proposée** : « “Aïda” fut créée au Caire le 24 décembre 1871, à l'opéra khédivial inauguré deux ans plus tôt pour les fêtes du canal de Suez. »
+- **Vérifié** : déjà corrigé mot pour mot comme proposé dans `arts-musique.json` q. 56. Rien à faire.
 
-### [GRAVE] « La Bohème » : la musique est d'Aznavour, les paroles de Jacques Plante
+### [GRAVE] ✅ « La Bohème » : la musique est d'Aznavour, les paroles de Jacques Plante
 - **Où** : `heritage/culture-g/data/arts-musique.json` — question 46
 - **Texte** : « “La Bohème”, sur une musique de Jacques Plante pour les paroles, date de 1965 »
 - **Problème** : double défaut. (1) Erreur d'attribution : la **musique est de Charles Aznavour**, les **paroles de Jacques Plante** — le texte inverse les rôles. Or l'énoncé demande justement qui est « l'auteur de La Bohème ». (2) La phrase est incompréhensible en l'état (« sur une musique de X pour les paroles »).
 - **Correction proposée** : « “La Bohème”, dont il a composé la musique sur des paroles de Jacques Plante, date de 1965 et évoque avec nostalgie le Montmartre des peintres. »
+- **Vérifié** : déjà corrigé mot pour mot comme proposé dans `arts-musique.json` q. 46. Rien à faire.
 
-### [GRAVE] Doublon franc : la question du « un pour cent artistique » posée deux fois
+### [GRAVE] ✅ Doublon franc : la question du « un pour cent artistique » posée deux fois
 - **Où** : `prisma/seed/culture-g/arts-musique.ts:~330` (`am-marche-art`) et `prisma/seed/culture-g/arts-musique-3.ts:~110` (`am3-sculpture-contemporaine`)
 - **Texte 1** : « Qu'est-ce que le un pour cent artistique en France ? » → « L'obligation de consacrer un pour cent du coût d'une construction publique à une œuvre » — explication : « Institué en 1951, il a permis d'installer plus de douze mille œuvres… »
 - **Texte 2** : « Qu'est-ce que le Un pour cent artistique appliqué à la sculpture ? » → « Une obligation de consacrer une part du budget d'une construction publique à une œuvre » — explication : « Plus de douze mille œuvres ont été installées en France depuis 1951. »
 - **Problème** : même question, même réponse, même chiffre, même date. Le validateur de doublons compare l'énoncé normalisé et laisse passer la reformulation. Le fait est en outre répété une troisième fois dans le cours `am-marche-art` (« depuis 1951… des milliers d'œuvres ») et une quatrième dans `am3-art-espace-public`.
 - **Correction proposée** : supprimer la question de `arts-musique-3.ts` et la remplacer par une question propre à la sculpture publique (par exemple sur la procédure de commande, ou sur l'obligation de concours pour les montants élevés).
+- **Vérifié** : déjà fait — la question de `am3-sculpture-contemporaine` est désormais « Comment un sculpteur est-il choisi pour une commande publique importante ? » (procédure de concours), exactement le type de remplacement proposé. Rien à faire.
 
-### [GRAVE] Question à deux réponses : Léo Ferré / Jean Ferrat
+### [GRAVE] ✅ Question à deux réponses : Léo Ferré / Jean Ferrat
 - **Où** : `prisma/seed/culture-g/arts-musique-2.ts:~318` — `am2-chanson-francaise`
 - **Texte** : « Quel chanteur a mis en musique Aragon et défendu une chanson politique ? » → « Léo Ferré ». Explication : « **Jean Ferrat a également beaucoup chanté Aragon.** Les deux se réclamaient d'un engagement assumé. »
 - **Problème** : Jean Ferrat figure dans les distracteurs, et l'explication reconnaît elle-même qu'il satisfait à l'énoncé. L'énoncé ne contient rien qui départage les deux. La question est insoluble pour qui sait.
 - **Correction proposée** : rendre l'énoncé discriminant, par exemple « Quel chanteur a mis en musique Baudelaire, Rimbaud, Verlaine et Aragon, et publié un manifeste anarchiste ? » → Léo Ferré ; ou retirer Jean Ferrat des propositions et poser la question sur un poète que Ferré est seul à avoir chanté (Rutebeuf, Apollinaire).
+- **Vérifié** : déjà corrigé comme proposé dans `arts-musique-2.ts` (« Quel chanteur a mis en musique Baudelaire, Rimbaud, Verlaine et Aragon ? » → Léo Ferré, avec « manifeste anarchiste » dans l'explication). Vérification factuelle faite pour l'aggravation de la passe 2 (voir plus bas) : recherche confirmant que Léo Ferré est seul à avoir mis en musique ces quatre poètes (Baudelaire : album *Les Fleurs du mal*, 1957 ; Rimbaud et Verlaine : album *Verlaine et Rimbaud*, 1964 ; Aragon : « Est-ce ainsi que les hommes vivent », 1961) — ni Brassens (Villon, Hugo, Verlaine, Aragon, mais pas Baudelaire ni Rimbaud) ni Jean Ferrat (Aragon seul) ne satisfont l'énoncé actuel. Rien à faire.
 
-### [GRAVE] Question à deux réponses : le compositeur devenu sourd
+### [GRAVE] ✅ Question à deux réponses : le compositeur devenu sourd
 - **Où** : `prisma/seed/culture-g/arts-musique.ts:~130` — `am-musique-classique`
 - **Texte** : « Quel compositeur devient sourd tout en continuant à composer ? » → « Ludwig van Beethoven » ; distracteurs : Schubert, Schumann, **Bedřich Smetana**.
 - **Problème** : Smetana est devenu **totalement sourd en 1874** et a composé *Má vlast* (dont *La Moldau*) et ses quatuors après cette date. Le distracteur est aussi vrai que la réponse attendue. (Gabriel Fauré, absent ici, serait un troisième cas.)
 - **Correction proposée** : préciser l'énoncé — « Quel compositeur a créé sa Neuvième Symphonie alors qu'il n'entendait plus ? » — ou remplacer Smetana par un compositeur non concerné (Mendelssohn, Weber).
+- **Vérifié** : déjà corrigé — Smetana remplacé par Mendelssohn parmi les distracteurs, et l'explication précise désormais « Sa Neuvième Symphonie, créée en 1824, est écrite alors qu'il n'entend plus. » Rien à faire.
 
-### [GRAVE] Question à deux réponses : la chanteuse française « à l'international »
+### [GRAVE] ✅ Question à deux réponses : la chanteuse française « à l'international »
 - **Où** : `prisma/seed/culture-g/arts-musique-2.ts:~322` — `am2-chanson-francaise`
 - **Texte** : « Quelle chanteuse a incarné la chanson française à l'international dans les années 1960 ? » → « Barbara » ; distracteurs : Sylvie Vartan, Françoise Hardy, **Dalida**. Explication : « Auteure, compositrice et interprète, elle est l'une des rares femmes à avoir maîtrisé les trois rôles à l'époque. »
 - **Problème** : l'explication ne justifie pas l'énoncé — elle justifie « auteure-compositrice-interprète », pas « à l'international ». Or Dalida (qui a chanté en une dizaine de langues et vendu partout en Europe, au Moyen-Orient et en Amérique latine) et Françoise Hardy sont, sur le critère de l'énoncé, des réponses au moins aussi défendables. Barbara, précisément, est restée une figure française.
 - **Correction proposée** : aligner l'énoncé sur l'explication : « Quelle chanteuse française des années 1960 écrivait à la fois les paroles, la musique et interprétait ses chansons ? » → Barbara.
+- **Vérifié** : déjà corrigé comme proposé dans `arts-musique-2.ts` (« Quelle chanteuse française des années 1960 écrivait les paroles et la musique de ses chansons et les interprétait ? » → Barbara). Rien à faire.
 
 ---
 
-### [GRAVE] Le quota de chansons francophones n'est pas de la loi Toubon
+### [GRAVE] ✅ Le quota de chansons francophones n'est pas de la loi Toubon
 - **Où** : `prisma/seed/culture-g/arts-musique-2.ts:~330` — `am2-chanson-francaise`
 - **Texte** : « Instauré par la loi Toubon de 1994, il a été assoupli depuis… »
 - **Problème** : le quota de 40 % de chansons d'expression française à la radio résulte de la **loi Carignon du 1er février 1994** (amendement Pelchat), qui modifie la loi de 1986 sur l'audiovisuel. La **loi Toubon du 4 août 1994** porte sur l'emploi de la langue française (publicité, notices, enseignement, travail) et n'institue aucun quota radiophonique. Confusion courante, mais c'est bien une erreur d'attribution législative. **Vérifié** : loi n° 94-88 du 1er février 1994 (Carignon), amendement Pelchat, modifiant la loi du 30 septembre 1986 — distincte de la loi Toubon du 4 août 1994 sur l'emploi de la langue française.
 - **Correction proposée** : « Instauré en 1994 par l'amendement Pelchat à la loi sur l'audiovisuel, il a été assoupli depuis pour tenir compte de la diversité des formats. »
+- **Vérifié** : déjà corrigé mot pour mot comme proposé dans `arts-musique-2.ts`. Rien à faire.
 
-### [GRAVE] Le « Prométhée » de Nicolas-Sébastien Adam est de 1762, pas de 1737
+### [GRAVE] ✅ Le « Prométhée » de Nicolas-Sébastien Adam est de 1762, pas de 1737
 - **Où** : `heritage/culture-g/data/lecons/arts-musique/08.json` — section « Rubens, Vélasquez et la diffusion européenne »
 - **Texte** : « le “Prométhée” de Nicolas-Sébastien Adam, **daté de 1737**, est aujourd'hui conservé au Louvre »
 - **Problème** : erreur de date, vérifiée. Le marbre *Prométhée enchaîné* du Louvre est le **morceau de réception** présenté à l'Académie royale le **26 juin 1762** et exposé au Salon de 1763. Le sujet lui avait été imposé par Guillaume Coustou en 1735 ; ce qui existe autour de 1737, c'est le modèle en terre cuite, conservé au musée Lorrain de Nancy — pas le marbre du Louvre. La phrase associe donc la date d'une esquisse à l'œuvre d'un autre musée.
 - **Correction proposée** : « le “Prométhée enchaîné” de Nicolas-Sébastien Adam, morceau de réception présenté à l'Académie en 1762, est aujourd'hui conservé au Louvre ».
 - *Sources* : [Wikipédia — Prométhée enchaîné (statue)](https://fr.wikipedia.org/wiki/Prom%C3%A9th%C3%A9e_encha%C3%AEn%C3%A9_(statue)), [Louvre — collections](https://collections.louvre.fr/en/ark:/53355/cl010091953), [musée Lorrain, Nancy](https://musee-lorrain.nancy.fr/en/the-collections/major-works/major-work?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bnews%5D=629)
+- **Vérifié** : déjà corrigé mot pour mot comme proposé dans la leçon 08. Rien à faire.
 
-### [GRAVE] Le Baiser de Rodin : le marbre de Copenhague n'est pas de 1886
+### [GRAVE] ✅ Le Baiser de Rodin : le marbre de Copenhague n'est pas de 1886
 - **Où** : `heritage/culture-g/data/lecons/arts-musique/10.json` — section « Rodin et la renaissance de la sculpture »
 - **Texte** : « “Le Baiser”, dont la **version en marbre de 1886** se trouve à la Ny Carlsberg Glyptotek de Copenhague »
 - **Problème** : erreur de date, vérifiée, et confusion entre trois marbres distincts. Le groupe existe en plâtre vers 1882 ; le **premier marbre**, commandé par l'État en 1888, est achevé en 1898 et conservé au **musée Rodin**. Celui de la **Ny Carlsberg Glyptotek**, commandé par Carl Jacobsen et taillé par le praticien Emmanuel Dolivet, date de **1901-1904**. Aucun marbre du Baiser n'est daté de 1886.
 - **Correction proposée** : « “Le Baiser”, dont le premier marbre, achevé en 1898, est conservé au musée Rodin, une autre version ayant été taillée vers 1901-1904 pour la Ny Carlsberg Glyptotek de Copenhague ».
 - *Sources* : [Wikipédia — Le Baiser (Rodin)](https://fr.wikipedia.org/wiki/Le_Baiser_(Rodin)), [musée d'Orsay — Le Baiser](https://www.musee-orsay.fr/en/artworks/le-baiser-7691)
+- **Vérifié** : déjà corrigé mot pour mot comme proposé dans la leçon 10. Rien à faire.
 
-### [GRAVE] Île de Pâques : en 1722, les moai étaient encore debout
+### [GRAVE] 🔧 Île de Pâques : en 1722, les moai étaient encore debout
 - **Où** : `heritage/culture-g/data/lecons/arts-musique/12.json` — section « Les moai de l'île de Pâques… » **et** explication du quiz Q5 (le fait est donc appris deux fois)
 - **Texte** : « Lors du contact européen, en 1722, **la plupart des statues avaient déjà été renversées** par des séismes, des tsunamis ou des troubles internes. »
 - **Problème** : erreur de fait, vérifiée, et inversion chronologique. À son arrivée le dimanche de Pâques 1722, l'équipage de Roggeveen décrit au contraire **les moai côtiers debout sur leurs ahu**, tournés vers l'intérieur. Le renversement (*huri moai*) s'étale **après** ce contact : Cook en 1774 en voit certains à terre, Lisianski n'en compte plus que vingt debout en 1804, Dupetit-Thouars quatre en 1838. Le texte fait donc de la conséquence une cause antérieure.
 - **Correction proposée** : « Lors du contact européen, en 1722, les statues côtières étaient encore debout ; c'est au cours du siècle suivant, lors de troubles internes appelés *huri moai*, qu'elles furent presque toutes renversées — quatre seulement tenaient encore en 1838. »
 - *Sources* : [Moai — New World Encyclopedia](https://www.newworldencyclopedia.org/entry/Moai), [easterisland.travel — Moai statues](https://www.easterisland.travel/easter-island-facts-and-info/moai-statues/)
+- **Fait** : le texte de section (leçon 12) était bien déjà corrigé, mais l'explication du quiz Q5 (« Dans quel matériau et à quelle période la majorité des moai... ») répétait encore intégralement la phrase fautive « la plupart avaient déjà été renversées » lors du contact de 1722 — exactement la contradiction signalée par le relecteur (texte corrigé, explication de la question voisine encore fautive). Explication remplacée par le texte proposé : « Lors du contact européen, en 1722, les statues côtières étaient encore debout ; c'est au cours du siècle suivant, lors de troubles internes appelés huri moai, qu'elles furent presque toutes renversées — quatre seulement tenaient encore en 1838. »
 
-### [GRAVE] Anna Maria Luisa de Médicis : la clause est du pacte de famille de 1737, pas d'un « testament de 1743 »
+### [GRAVE] 🔧 Anna Maria Luisa de Médicis : la clause est du pacte de famille de 1737, pas d'un « testament de 1743 »
 - **Où** : `heritage/culture-g/data/lecons/arts-musique/17.json` — section « De la collection princière au musée public », **et** énoncé + explication du quiz Q5 (« Que prévoyait le testament rédigé en 1743 par Anna Maria Luisa de Médicis ? »)
 - **Texte** : « à la suite du **testament rédigé en 1743** par Anna Maria Luisa de Médicis, qui exigeait que les œuvres de la famille demeurent toutes et toujours dans la ville de Florence »
 - **Problème** : erreur de fait, vérifiée. La clause célèbre figure à l'article 3 du **Patto di Famiglia signé le 31 octobre 1737** avec François-Étienne de Lorraine, confirmé par le **testament du 5 avril 1739**. 1743 est l'année de la **mort** d'Anna Maria Luisa (18 février 1743) — donc la date d'entrée en vigueur du pacte, pas celle de sa rédaction. L'erreur est répétée dans l'explication et intégrée à l'énoncé du QCM, ce qui la rend impossible à corriger sans réécrire la question.
 - **Correction proposée** : énoncé — « Que prévoyait le pacte de famille signé en 1737 par Anna Maria Luisa de Médicis ? » ; explication — « Dernière héritière des Médicis, elle obtient en 1737, par le Patto di Famiglia, que les œuvres de la famille demeurent toutes et toujours à Florence ; la clause entre en vigueur à sa mort, en 1743. »
 - *Source* : [Wikipédia — Anna Maria Luisa de' Medici](https://en.wikipedia.org/wiki/Anna_Maria_Luisa_de%27_Medici)
+- **Fait** : le texte de section principal et l'énoncé + explication du quiz Q5 étaient déjà corrigés (« pacte de famille signé en 1737 », clause entrée en vigueur à la mort en 1743). Mais la légende de la frise chronologique de la même section (« Offices ouverts à tous, 1765 ») disait encore « Conséquence du testament d'Anna Maria Luisa de Médicis » — résidu du même flottement testament/pacte de famille. Remplacée par « Conséquence du pacte de famille signé en 1737 par Anna Maria Luisa de Médicis, qui lie les œuvres à Florence. »
 
-### [GRAVE] Le dernier concert de Brel n'est ni le 6 octobre 1966 ni à l'Olympia
+### [GRAVE] ✅ Le dernier concert de Brel n'est ni le 6 octobre 1966 ni à l'Olympia
 - **Où** : `heritage/culture-g/data/lecons/arts-musique/16.json` — section « Brassens et Brel… », **et** quiz Q4 dont c'est la bonne réponse (« À l'Olympia, le 6 octobre 1966 »)
 - **Texte** : « il donne son **dernier concert officiel à l'Olympia le 6 octobre 1966** »
 - **Problème** : double erreur de fait, vérifiée. (1) Le 6 octobre 1966 est la date d'**ouverture** de sa série à l'Olympia ; les « Adieux à l'Olympia » filmés le sont les **28 et 29 octobre 1966**. (2) Surtout, ce n'est pas son dernier concert : Brel a honoré ses contrats jusqu'à une tournée d'adieu qui s'achève le **16 mai 1967 à Roubaix** — après quoi il n'a plus jamais chanté devant un public. La question de QCM enseigne donc une date fausse comme bonne réponse.
 - **Correction proposée** : énoncé — « Quand Jacques Brel a-t-il donné son tout dernier concert ? » → « À Roubaix, le 16 mai 1967 » ; explication — « Il avait fait ses adieux à l'Olympia fin octobre 1966, mais honora ses engagements jusqu'à Roubaix, le 16 mai 1967 : il avait alors trente-huit ans. »
 - *Sources* : [Fondation Jacques Brel — Les Adieux à l'Olympia](https://fondationbrel.be/oeuvre/les-adieux-a-lolympia/), [L'Avenir — cinquante ans après son dernier concert à Roubaix](https://lavenir.net/cnt/dmf20170516_01004970/il-y-a-50-ans-brel-stoppait-sa-carriere-double-concert)
 - **Conséquence pour un autre constat** : ces dates confirment le constat [MOYEN] « Brel n'a pas quitté la scène à trente-neuf ans » (`arts-musique-2.ts`) — il avait **37 ans** aux adieux de l'Olympia et **38 ans** à Roubaix. Aucune lecture ne donne trente-neuf.
+- **Vérifié** : déjà corrigé mot pour mot comme proposé dans la leçon 16 (énoncé « À Roubaix, le 16 mai 1967 » et explication reprenant les deux dates). Rien à faire.
 
 **— Gravité MOYEN —**
 
@@ -380,7 +394,7 @@ La passe 2 a relu les mêmes fichiers, puis a fait ce que la passe 1 n'avait pas
 
 Elle a aussi révélé **quinze questions que la passe 1 n'avait pas lues** : les `quiz` attachés aux trois cours de `arts-musique.json`, que j'avais parcourus en ne dépouillant que leurs `sections`. Ces quinze questions sont bonnes — je n'y ai relevé aucune erreur de fait — mais deux d'entre elles alimentent le doublon décrit ci-dessous.
 
-### [GRAVE] Vingt-quatre familles de questions posent deux ou trois fois la même chose à l'apprenant
+### [GRAVE] 🔧 Vingt-quatre familles de questions posent deux ou trois fois la même chose à l'apprenant
 
 - **Où** : entre `prisma/seed/culture-g/arts-musique*.ts`, `heritage/culture-g/data/arts-musique.json` et `heritage/.../lecons/arts-musique/*.json`
 - **Comment c'est établi** : j'ai chargé le module (`./node_modules/.bin/tsx`), filtré les 675 questions de la catégorie « Arts & Musique » réellement servies, puis rapproché toutes les paires ayant **exactement la même bonne réponse** et un énoncé proche. Ce ne sont donc pas des ressemblances de surface : ce sont des questions qui attendent la même réponse.
@@ -423,6 +437,7 @@ Il existe bien un dédoublonneur (`dedoublonner()`, `src/modules/culture-g/conte
 
 - **Problème** : la consigne compte « deux questions qui posent la même chose, même reformulées » comme un doublon franc. Il y en a vingt-quatre familles, dont trois triplées et deux à l'intérieur d'une même compétence. L'effet pédagogique est double : l'apprenant croit progresser alors qu'il répond au même item, et le planificateur d'espacement (`buildSeries`) traite ces items comme indépendants, ce qui fausse sa mesure de la maîtrise.
 - **Correction proposée** : ce n'est pas une correction ligne à ligne mais un arbitrage de périmètre. Le cahier hérité fait autorité sur les grands classiques ; les notions du seed (`cg-neuf-*`) devraient donc **cesser de reposer les questions déjà posées par une leçon héritée** et se concentrer sur ce que l'héritage ne couvre pas. Concrètement : retirer les questions du seed listées ci-dessus (Vénus de Milo, Verdi, La Nouvelle-Orléans, Tchaïkovski, Gauguin, David de Michel-Ange, Le Penseur, Sacre du printemps, Demoiselles d'Avignon, Monteverdi, Warhol, Caravage, air/récitatif) et, pour les deux doublons internes, supprimer l'une des deux questions de `cg-arts-musique-03` et de `cg-arts-musique-10`. À défaut, abaisser les seuils de `dedoublonner()` — mais ce serait supprimer silencieusement une trentaine de questions écrites, ce qui est pire que de choisir.
+- **Fait** : les 13 doublons nommés, encore tous présents, ont été retirés du seed en gardant la version du cahier hérité comme autoritaire : Vénus de Milo, David de marbre et Le Penseur (`am-sculpture`, `arts-musique.ts`), Demoiselles d'Avignon (`am-peinture-moderne`), Monteverdi, air/récitatif et Verdi (`am-opera`), La Nouvelle-Orléans (`am-musiques-actuelles`), Tchaïkovski et Sacre du printemps (`am-danse`) — tous dans `arts-musique.ts` — puis Warhol (`am2-art-contemporain`) et Caravage (`am2-baroque-classicisme`) dans `arts-musique-2.ts`, et Gauguin (`am3-peinture-france`) dans `arts-musique-3.ts`. Les deux doublons internes ont aussi été traités : la question « Quel plafond Michel-Ange peint-il entre 1508 et 1512 ? » (`am2-renaissance-italienne`) et « Quelle école de paysagistes s'installe en forêt de Fontainebleau ? » (`am2-art-xixe`) ont été supprimées de `arts-musique-2.ts`, laissant les versions héritées (leçons 03 et 10) seules porteuses de ces deux faits. Soit 15 questions retirées au total. `npx tsc --noEmit` reste propre après ces suppressions ; aucune notion ne tombe à zéro question. Les 9 doublons restants du tableau (Brunelleschi, Kind of Blue, Botticelli, Brel « Ne me quitte pas », Piaf, Vivaldi, Haendel, Cézanne, musée d'Orsay) n'étaient pas dans la liste « concrètement » proposée par le rapport et n'ont pas été touchés, conformément à la portée que le rapport lui-même leur donnait.
 
 ### [MOYEN] ✅ Deux questions du seed sont écrites, puis supprimées en silence au chargement
 
@@ -432,12 +447,13 @@ Il existe bien un dédoublonneur (`dedoublonner()`, `src/modules/culture-g/conte
 - **Correction proposée** : les retirer explicitement des fichiers source (elles sont couvertes par `arts-musique.json` Q43 et Q58), et faire émettre au dédoublonneur un avertissement nommant chaque question écartée, afin qu'une suppression silencieuse ne puisse plus passer inaperçue.
 - **Fait** : les deux questions retirées de `arts-musique.ts` et `arts-musique-2.ts` (couvertes par le cahier hérité). La partie « avertissement du dédoublonneur » touche `src/modules/culture-g/contenu.ts`, code partagé hors de mon périmètre (fichiers `arts-musique*`) — non traitée ici.
 
-### [GRAVE — aggravation d'un constat de la passe 1] « Qui a mis Aragon en musique ? » a en réalité TROIS réponses parmi les propositions
+### [GRAVE — aggravation d'un constat de la passe 1] ✅ « Qui a mis Aragon en musique ? » a en réalité TROIS réponses parmi les propositions
 
 - **Où** : `prisma/seed/culture-g/arts-musique-2.ts` — `am2-chanson-francaise`
 - **Texte** : « Quel chanteur a mis en musique Aragon et défendu une chanson politique ? » → Léo Ferré ; propositions : **Georges Brassens**, **Jean Ferrat**, Yves Montand.
 - **Ce que la passe 2 ajoute** : la passe 1 avait vu que l'explication reconnaît Jean Ferrat. La passe 2 a trouvé que **le domaine lui-même valide aussi Brassens** — deux fois : la question voisine du même fichier dit « Villon, Hugo, **Aragon** et Verlaine figurent parmi les auteurs qu'il a chantés », et le quiz du cours hérité (`arts-musique.json`, cours « Une histoire de la musique », Q5) écrit « il mit en musique des poèmes de Villon, Hugo ou **Aragon** ». C'est exact — *Il n'y a pas d'amour heureux*, 1953. Trois des quatre propositions sont donc défendables, et l'application le démontre elle-même dans deux autres questions.
 - **Correction proposée** : abandonner Aragon comme critère. « Quel chanteur a mis en musique Baudelaire, Rimbaud et Apollinaire, et publié un manifeste libertaire ? » → Léo Ferré.
+- **Vérifié** : déjà traité en même temps que le constat de la passe 1 ci-dessus — l'énoncé actuel (« Baudelaire, Rimbaud, Verlaine et Aragon ») est une variante de la correction proposée, et une vérification factuelle dédiée confirme que Ferré seul a mis en musique ces quatre poètes, ce qui écarte à la fois Brassens et Jean Ferrat. Rien à faire.
 
 ### [MINEUR] ✅ Les nymphéas : « plus de deux cents » ici, « plus de deux cent cinquante » là
 

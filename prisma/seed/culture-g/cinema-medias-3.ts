@@ -498,7 +498,7 @@ export const CG_CINEMA_MEDIAS_3: SeedSkill[] = [
     ["Qu'est-ce qu'un studio de développement de jeu vidéo ?", ["L'équipe qui conçoit et réalise le jeu, souvent pour un éditeur", "Le distributeur du jeu en magasin", "Le fabricant de la console de jeu", "La plateforme qui vend le jeu en ligne"], 0,
      "L'éditeur finance et commercialise ; le studio fabrique, et dépend souvent de lui."],
     ["Qu'est-ce que le jeu vidéo indépendant a apporté ?", ["Une diversité de formes et de propos hors des logiques de blockbuster", "Une baisse générale des prix", "Une simplification technique des jeux", "Une concurrence directe avec les gros titres"], 0,
-     "La distribution numérique en a rendu le modèle économiquement viable.", 3],
+     "Des jeux comme Braid, Undertale ou Papers, Please y ont exploré des sujets et des formes que les gros budgets évitent.", 3],
   ]),
 
   notion("cm3-education-image", S, "Éduquer au regard",

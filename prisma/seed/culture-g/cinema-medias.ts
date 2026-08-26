@@ -236,7 +236,7 @@ export const CG_CINEMA_MEDIAS: SeedSkill[] = [
     ["Qu'est-ce que le modèle économique de la publicité ciblée ?", ["Vendre l'attention des utilisateurs en exploitant leurs données", "Vendre directement les données personnelles à des tiers", "Faire payer aux utilisateurs un abonnement mensuel pour accéder au service", "Vendre des espaces publicitaires à prix forfaitaire"], 0,
      "L'annonceur achète une audience définie par des critères, non un emplacement fixe."],
     ["Qu'est-ce que le cyberharcèlement ?", ["Des propos ou comportements répétés visant à nuire à une personne en ligne", "Une insulte isolée adressée publiquement à quelqu'un lors d'un échange", "Le piratage du compte d'une personne par un tiers", "L'usurpation de l'identité de quelqu'un en ligne"], 0,
-     "Il est puni en France de peines aggravées, y compris lorsque chaque auteur n'a agi qu'une fois dans une attaque concertée."],
+     "Il est puni des mêmes peines que le harcèlement moral, aggravées lorsque la victime est mineure ou que les faits sont commis via un réseau social."],
     ["Qu'est-ce que l'éducation aux médias et à l'information ?", ["Un enseignement visant à former des usagers critiques des médias", "Un cours d'informatique et de programmation dispensé au collège et au lycée", "Une formation professionnelle aux métiers du journalisme", "Un module de communication écrite et orale en entreprise"], 0,
      "Inscrite dans les programmes scolaires français, elle est coordonnée par le CLEMI depuis 1983.", 3],
   ]),
