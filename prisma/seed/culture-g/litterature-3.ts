@@ -9,7 +9,7 @@ const S = "Littérature";
 export const CG_LITTERATURE_3: SeedSkill[] = [
   notion("li3-montaigne-moralistes", S, "Montaigne et les moralistes",
     "Observer l'homme sans système : une tradition française.",
-    "Les moralistes ne prêchent pas la morale : ils décrivent les mœurs.",
+    "Un genre entier tient en formules brèves, sans jamais se donner la forme d'un traité.",
     2, [
     ["Que signifie le mot essai chez Montaigne ?", ["Une mise à l'épreuve de sa propre pensée", "Un exercice scolaire imposé aux élèves", "Une tentative littéraire restée sans suite", "Un traité méthodique et complet"], 0,
      "Il se peint lui-même comme sujet d'étude, ce qui était inédit."],
@@ -165,7 +165,7 @@ export const CG_LITTERATURE_3: SeedSkill[] = [
 
   notion("li3-roman-contemporain", S, "Le roman contemporain",
     "Formes, thèmes, auteurs depuis les années 1980.",
-    "Le roman contemporain français mêle volontiers enquête, récit de soi et histoire collective.",
+    "Beaucoup de romans français récents se lisent presque comme des livres de non-fiction.",
     2, [
     ["Quel écrivain français reçoit le prix Nobel de littérature en 2014 ?", ["Patrick Modiano", "Jean-Marie Gustave Le Clézio", "Michel Houellebecq", "Pierre Michon"], 0,
      "Le Clézio l'avait reçu en 2008."],
@@ -425,7 +425,7 @@ export const CG_LITTERATURE_3: SeedSkill[] = [
 
   notion("li3-lecture-numerique", S, "Le livre à l'ère numérique",
     "Formats, usages, économie.",
-    "Le livre numérique n'a pas remplacé le papier, contrairement aux prédictions des années 2000.",
+    "Les usages du numérique varient énormément d'un genre à l'autre : la romance s'y prête bien mieux que la poésie.",
     2, [
     ["Quelle part du marché du livre le numérique représente-t-il en France ?", ["Une part minoritaire, autour de dix pour cent", "La moitié du chiffre d'affaires des éditeurs français", "Un quart des ventes, en forte hausse depuis 2015", "Moins d'un pour cent, un marché resté marginal"], 0,
      "La part est bien plus élevée aux États-Unis et pour certains genres, comme la romance."],

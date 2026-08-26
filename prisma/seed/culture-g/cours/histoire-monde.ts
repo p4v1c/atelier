@@ -93,7 +93,7 @@ L'année 1960 est appelée l'année de l'Afrique : dix-sept États y accèdent �
     ["Les crises de la souveraineté", `L'indépendance n'apporte pas la stabilité. Le Congo belge, indépendant en 1960, sombre immédiatement dans la crise avec la sécession du Katanga, province minière soutenue de l'extérieur, l'assassinat de Patrice Lumumba et l'intervention de l'ONU.
 
 Au Nigeria, la guerre du Biafra, de 1967 à 1970, oppose l'État fédéral à une province sécessionniste : le blocus provoque une famine dont les images bouleversent l'opinion mondiale et donnent naissance à l'humanitaire sans frontières. Dans les deux cas, les frontières héritées de la colonisation et les ressources minières sont au cœur du conflit.`],
-    ["Le dernier verrou et l'après", `L'Afrique du Sud fait exception : indépendante depuis longtemps, elle est gouvernée par une minorité blanche qui institue en 1948 l'apartheid, système de ségrégation légale. Il faut attendre 1994 et les premières élections multiraciales, remportées par Nelson Mandela, pour qu'il prenne fin.
+    ["Le dernier verrou et l'après", `L'Afrique du Sud fait exception : indépendante depuis longtemps, elle est gouvernée par une minorité blanche qui institue en 1948 l'apartheid, système de ségrégation légale. Ses lois sont abrogées en 1991 ; il faut attendre les premières élections multiraciales de 1994, remportées par Nelson Mandela, pour que le régime prenne fin tout à fait.
 
 Sur le plan continental, l'Organisation de l'unité africaine, fondée en 1963, cède la place en 2002 à l'Union africaine, dotée d'ambitions plus intégratrices et d'un droit d'intervention en cas de crime grave. Le principe d'intangibilité des frontières héritées, adopté dès 1964, a été maintenu : contesté, il a probablement évité une multiplication des guerres frontalières.`],
   ],
@@ -630,7 +630,7 @@ Le royaume du Kongo envoie des ambassadeurs au Vatican dès le XVIe siècle, ent
 
 L'Éthiopie constitue un cas à part : royaume chrétien depuis le IVe siècle, doté de sa propre Église, de son alphabet et de sa littérature, elle est le seul État africain à avoir conservé son indépendance face à la colonisation européenne — sa victoire sur l'Italie à Adoua, en 1896, eut un retentissement mondial.
 
-La traite atlantique a déporté environ douze millions de personnes entre le XVIe et le XIXe siècle, dont près de deux millions moururent pendant la traversée. Ses effets sur l'Afrique furent démographiques, économiques et politiques : ponction sur les populations en âge de travailler, militarisation des sociétés côtières, guerres pour la capture, et déstabilisation d'États entiers.
+La traite atlantique a déporté environ douze millions de personnes entre le XVIe et le XIXe siècle, dont environ un million et demi moururent pendant la traversée — de l'ordre de douze à treize pour cent, soit environ un déporté sur huit. Ses effets sur l'Afrique furent démographiques, économiques et politiques : ponction sur les populations en âge de travailler, militarisation des sociétés côtières, guerres pour la capture, et déstabilisation d'États entiers.
 
 C'est ce contexte, autant que la supériorité technique européenne du XIXe siècle, qui explique la vulnérabilité du continent au moment du partage colonial.`],
   ],
@@ -1186,7 +1186,7 @@ Sa forme atlantique en fut une variante particulière par deux traits. Son ample
 
 Le commerce triangulaire relie l'Europe, l'Afrique et l'Amérique : produits manufacturés et armes vers les côtes africaines, captifs vers les colonies américaines, denrées coloniales — sucre, café, coton, indigo — vers l'Europe. Chaque étape était bénéficiaire, ce qui explique l'enrichissement des ports atlantiques.
 
-Le passage du milieu désigne la traversée atlantique : plusieurs semaines dans des entreponts où les captifs étaient enchaînés, avec une mortalité moyenne de l'ordre de quinze pour cent, montant bien au-delà lors des traversées difficiles.
+Le passage du milieu désigne la traversée atlantique : plusieurs semaines dans des entreponts où les captifs étaient enchaînés, avec une mortalité moyenne de l'ordre de douze à treize pour cent — environ un déporté sur huit —, montant bien au-delà lors des traversées difficiles.
 
 Le Code noir de 1685 réglemente l'esclavage dans les colonies françaises. Il définit l'esclave comme un bien meuble, encadre les châtiments, impose le baptême — et interdit certaines pratiques, ce qui a permis à quelques auteurs d'y voir une protection. Sa qualification juridique de l'être humain comme meuble rend cette lecture difficile à soutenir.`],
     ["Se libérer", `La révolution de Saint-Domingue est l'événement le plus considérable de cette histoire. Partie en 1791 d'une insurrection d'esclaves dans la colonie française la plus riche du monde, elle aboutit en 1804 à l'indépendance d'Haïti.

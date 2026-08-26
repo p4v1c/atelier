@@ -20,15 +20,16 @@ des leçons = 656 questions**, et **62 cours ou leçons, soit 257 sections**.
 
 ## Constats
 
-### [GRAVE] Dans 86 % des questions du seed, la bonne réponse est la plus longue — répondre sans rien savoir donne 87 %
+### [GRAVE] ✅ Dans 86 % des questions du seed, la bonne réponse est la plus longue — répondre sans rien savoir donne 87 %
 
 - **Où** : `prisma/seed/culture-g/institutions-economie.ts`, `-2.ts`, `-3.ts` — les 515 questions, toutes notions confondues
 - **Texte (un exemple parmi 444)** : `["Qu'est-ce que le chômage partiel, ou activité partielle ?", ["Une réduction d'activité indemnisée par l'État pour éviter les licenciements", "Un temps partiel imposé", "Une rupture de contrat progressive", "Un congé sans solde"], 0, …]` — la bonne réponse fait 42 caractères de plus que le plus long des trois leurres.
 - **Problème** : mesuré sur les 515 questions, la bonne réponse est **strictement la plus longue dans 444 cas, soit 86,2 %** (attendu au hasard : 25 %), et la plus courte dans 8 cas seulement. Elle dépasse la moyenne des distracteurs de **28 caractères** en moyenne. Une stratégie « je coche toujours la plus longue, je ne lis même pas » obtient **87,3 %** sur tout le domaine. Vingt et une notions sur cinquante-deux sont à dix sur dix. Le mécanisme est connu : on écrit la vraie réponse, complète et nuancée, puis on invente trois leurres courts. Le domaine n'entraîne donc pas à savoir, il entraîne à repérer la réponse longue — et l'apprenant qui réussit croit avoir appris.
   Ce n'est pas une hypothèse théorique : le dépôt a **déjà** traité exactement ce défaut sous sa forme positionnelle. `src/modules/kinds/melange.ts` explique en tête que la bonne réponse était au rang 0 dans 100 % des questions de culture générale, que cliquer « la première » donnait 55 %, et met en place une permutation déterministe pour y remédier. Le biais de longueur est le même défaut, non traité, et il est **plus fort ici** (87 %) que ne l'était le biais de position sur l'ensemble du module (83,6 % de réponses au rang 0). La permutation ne le corrige en rien : elle déplace la bonne réponse, elle ne la raccourcit pas.
 - **Correction proposée** : régler les distracteurs sur la longueur de la bonne réponse, notion par notion. Sur l'exemple ci-dessus : `["Une réduction d'activité indemnisée par l'État pour éviter les licenciements", "Un passage à temps partiel imposé par l'employeur sans compensation", "Une rupture progressive du contrat étalée sur plusieurs mois", "Un congé sans solde accordé à la demande du salarié"]`. Et ajouter au validateur du module, à côté du contrôle de position déjà existant, un contrôle de longueur : refuser le seed si, sur une notion, la bonne réponse est la plus longue dans plus de la moitié des questions. C'est le seul constat de ce rapport qui se corrige mécaniquement à l'échelle du domaine, et le seul dont l'effet se mesure.
+- **Fait** : déjà corrigé — mesuré à nouveau sur les 515 questions des trois fichiers seed, la bonne réponse n'est plus strictement la plus longue que dans 5,6 % des cas (29/514), et aucune notion ne dépasse le seuil de moitié. Le contrôle de longueur dans le validateur (`src/modules/kinds/melange.ts`) est hors périmètre de cette relecture et n'a pas été vérifié.
 
-### [GRAVE] La zone euro compte vingt et un États, pas vingt (Bulgarie, 1er janvier 2026)
+### [GRAVE] ✅ La zone euro compte vingt et un États, pas vingt (Bulgarie, 1er janvier 2026)
 
 - **Où** : `prisma/seed/culture-g/institutions-economie.ts:98` — `ie-monnaie-banques`
   et `prisma/seed/culture-g/cours/institutions-economie.ts:26` (section « Prix, changes et fragilités »)
@@ -36,16 +37,18 @@ des leçons = 656 questions**, et **62 cours ou leçons, soit 257 sections**.
 - **Texte (cours)** : « Vingt pays utilisent l'euro comme monnaie officielle au sein de la zone euro. »
 - **Problème** : la Bulgarie a adopté l'euro le 1er janvier 2026. La bonne réponse est aujourd'hui **vingt et un**. La question est donc fausse, et le distracteur « Dix-neuf » (état d'avant 2023) devient un second piège inutile. Un apprenant retient un chiffre faux.
 - **Correction proposée** : question — « Combien de pays utilisent l'euro comme monnaie officielle dans la zone euro ? » / choix `["Vingt et un", "Vingt-sept", "Dix-neuf", "Quinze"]` / explication « La Croatie l'a adopté en 2023 et la Bulgarie en 2026, portant la zone euro à vingt et un États membres de l'Union. » Cours : « Vingt et un pays utilisent l'euro comme monnaie officielle au sein de la zone euro (la Bulgarie depuis 2026). »
+- **Fait** : déjà corrigé, à l'identique dans le seed et dans le cours.
 
-### [GRAVE] « Aucune motion de censure n'a abouti … en dehors de celle du 5 octobre 1962 » — faux depuis décembre 2024
+### [GRAVE] ✅ « Aucune motion de censure n'a abouti … en dehors de celle du 5 octobre 1962 » — faux depuis décembre 2024
 
 - **Où** : `heritage/culture-g/data/institutions-economie.json` — question 7 (article 49.3)
 - **Texte** : « Aucune motion de censure n'a abouti sous la Ve République en dehors de celle du 5 octobre 1962. »
 - **Où (seconde occurrence)** : même fichier, question 49 (suffrage universel direct) — « Elle provoqua le vote de **la seule motion de censure adoptée sous la Ve République**, le 5 octobre 1962. »
 - **Problème** : la motion de censure du **4 décembre 2024** a renversé le gouvernement de Michel Barnier (331 voix). L'affirmation est devenue fausse, et c'est exactement le genre de « fait remarquable » qu'un apprenant retient et ressort. Elle figure **deux fois** dans le cahier, ce qui double le risque de l'ancrer.
 - **Correction proposée** : Q7 — « Deux motions de censure seulement ont abouti sous la Ve République : celle du 5 octobre 1962 contre le gouvernement Pompidou, et celle du 4 décembre 2024 contre le gouvernement Barnier. » Q49 — « Elle provoqua le vote de la première des deux seules motions de censure adoptées sous la Ve République, le 5 octobre 1962. »
+- **Fait** : déjà corrigé mot pour mot dans les deux questions du cahier.
 
-### [GRAVE] La commission de déontologie de la fonction publique n'existe plus depuis 2020 — et le cours dit le contraire
+### [GRAVE] ✅ La commission de déontologie de la fonction publique n'existe plus depuis 2020 — et le cours dit le contraire
 
 - **Où** : `prisma/seed/culture-g/institutions-economie-2.ts:85` — `ie2-fonction-publique`
   (contredit par `prisma/seed/culture-g/cours/institutions-economie.ts:147`)
@@ -53,15 +56,17 @@ des leçons = 656 questions**, et **62 cours ou leçons, soit 257 sections**.
 - **Texte (cours, même notion)** : « la Haute Autorité pour la transparence de la vie publique examine les projets de départ, peut les assortir de réserves ou les refuser… »
 - **Problème** : double faute. (1) Erreur de fait : la commission de déontologie de la fonction publique a été supprimée le 1er février 2020, ses missions étant transférées à la HATVP. (2) Contradiction frontale entre le cours et l'explication de la question de la même notion : l'apprenant qui lit les deux ne sait plus quoi retenir.
 - **Correction proposée** : « La Haute Autorité pour la transparence de la vie publique examine les risques de conflit d'intérêts avant d'autoriser le départ, depuis qu'elle a repris en 2020 les missions de l'ancienne commission de déontologie. »
+- **Fait** : déjà corrigé mot pour mot dans la question ; le cours n'a jamais été contradictoire ailleurs.
 
-### [GRAVE] Le prix Nobel 2002 attribué à Tversky, mort en 1996
+### [GRAVE] ✅ Le prix Nobel 2002 attribué à Tversky, mort en 1996
 
 - **Où** : `prisma/seed/culture-g/institutions-economie-3.ts:275` — `ie3-economie-comportementale`
 - **Texte** : « Kahneman et Tversky en sont les fondateurs, avec un Nobel d'économie en 2002. »
 - **Problème** : Amos Tversky est mort en 1996 et n'a jamais reçu le prix ; celui-ci n'est pas décerné à titre posthume. Seul Daniel Kahneman l'a obtenu en 2002 (conjointement avec Vernon Smith). La formulation attribue le prix aux deux. À noter que le cours correspondant (`cours/institutions-economie.ts`, section « L'agent économique réel ») est, lui, correctement prudent : « consacré par plusieurs prix Nobel d'économie ».
 - **Correction proposée** : « Daniel Kahneman et Amos Tversky en sont les fondateurs ; Kahneman a reçu le prix Nobel d'économie en 2002, Tversky étant mort en 1996. »
+- **Fait** : déjà corrigé mot pour mot.
 
-### [GRAVE] Doublon franc : la présomption d'innocence, deux fois
+### [GRAVE] ✅ Doublon franc : la présomption d'innocence, deux fois
 
 - **Où** : `prisma/seed/culture-g/institutions-economie.ts:48` (`ie-justice-france`) et
   `prisma/seed/culture-g/institutions-economie-2.ts:102` (`ie2-droits-libertes`)
@@ -69,8 +74,9 @@ des leçons = 656 questions**, et **62 cours ou leçons, soit 257 sections**.
 - **Texte 2** : « Qu'est-ce que la présomption d'innocence ? » → « Toute personne est réputée innocente jusqu'à condamnation définitive »
 - **Problème** : même question, même réponse, à la reformulation près. Pire, le distracteur de l'une (« Le doute profite toujours à l'accusé au procès ») est présenté comme *une conséquence vraie* dans l'explication de l'autre et dans le cours (« le doute profite à l'accusé »), ce qui rend le distracteur défendable.
 - **Correction proposée** : supprimer la question de `ie2-droits-libertes` et la remplacer par une question sur les **conséquences** de la présomption d'innocence (« Sur qui pèse la charge de la preuve au pénal ? »), ou reformuler le distracteur en « Le doute profite à l'accusation ».
+- **Fait** : déjà corrigé — `ie2-droits-libertes` ne pose plus cette question ; elle a été remplacée par une question sur la détention provisoire. Le doublon franc est résorbé.
 
-### [GRAVE] Doublon franc : la crise de la dette souveraine européenne, deux fois, avec la même réponse mot pour mot
+### [GRAVE] ✅ Doublon franc : la crise de la dette souveraine européenne, deux fois, avec la même réponse mot pour mot
 
 - **Où** : `prisma/seed/culture-g/institutions-economie-2.ts:340` (`ie2-histoire-economique`) et
   `prisma/seed/culture-g/institutions-economie-3.ts:488` (`ie3-crises-contemporaines`)
@@ -78,8 +84,9 @@ des leçons = 656 questions**, et **62 cours ou leçons, soit 257 sections**.
 - **Texte 2** : « Qu'est-ce que la crise de la dette souveraine européenne ? » → « Une crise de confiance sur la dette de plusieurs États de la zone euro à partir de 2010 »
 - **Problème** : la bonne réponse est la même chaîne de caractères à quatre mots près. Deux notions distinctes posent identiquement la même question.
 - **Correction proposée** : conserver la question dans `ie3-crises-contemporaines` (dont c'est le sujet) et remplacer celle de `ie2-histoire-economique` par une question sur ce que la crise a *révélé* (« Quel défaut de construction de la zone euro la crise de 2010 a-t-elle révélé ? » → « Une monnaie unique sans budget commun ni prêteur en dernier ressort pour les États »).
+- **Fait** : déjà corrigé à l'identique — `ie2-histoire-economique` pose désormais exactement cette question sur le défaut de construction, `ie3-crises-contemporaines` a gardé la sienne.
 
-### [GRAVE] Doublon franc : le règlement européen sur les marchés numériques (DMA), deux fois
+### [GRAVE] 🔧 Doublon franc : le règlement européen sur les marchés numériques (DMA), deux fois
 
 - **Où** : `prisma/seed/culture-g/institutions-economie-2.ts:358` (`ie2-numerique-economie`) et
   `prisma/seed/culture-g/institutions-economie-3.ts:390` (`ie3-droit-numerique`)
@@ -87,8 +94,9 @@ des leçons = 656 questions**, et **62 cours ou leçons, soit 257 sections**.
 - **Texte 2** : « Qu'est-ce que le règlement sur les marchés numériques ? » → « Un texte encadrant les pratiques des contrôleurs d'accès » ; explication : « Il interdit notamment l'auto-préférence et impose l'interopérabilité de certains services. »
 - **Problème** : question, réponse et explication sont la même chose reformulée. Idem, dans une moindre mesure, pour le **DSA**, posé en `institutions-economie.ts:260` (`ie-medias-information`) et en `institutions-economie-3.ts:388` (`ie3-droit-numerique`).
 - **Correction proposée** : garder le DMA dans `ie3-droit-numerique` et le DSA dans `ie-medias-information` ; dans les deux notions dépossédées, remplacer par une question non couverte (par ex. « Qu'est-ce qu'un contrôleur d'accès au sens du DMA ? » vs « Que doit faire un hébergeur informé d'un contenu manifestement illicite ? »).
+- **Fait** : partiellement corrigé seulement. Le doublon littéral sur « les marchés numériques » avait bien été résorbé (`ie3-droit-numerique` posait déjà, à la place, la question sur le contrôleur d'accès), mais en le faisant, la question voisine avait été reformulée en doublon du **DSA** (« Qu'est-ce que le règlement européen sur les services numériques ? », quasi identique à la question de `ie-medias-information`, jusqu'à l'idée des audits dans l'explication). Corrigé maintenant : cette question de `ie3-droit-numerique` est remplacée par « Que risque un contrôleur d'accès en cas de manquements graves et répétés au DMA ? » (sanctions financières, mesures structurelles), qui ne recoupe ni la question sur le contrôleur d'accès déjà présente ni celle du DSA restée dans `ie-medias-information`. Longueur des distracteurs vérifiée (73-84 caractères, pas de biais), pas de doublon créé ailleurs dans le domaine, `npx tsc --noEmit` sans erreur.
 
-### [GRAVE] Doublon franc : la sobriété énergétique, question et explication quasi identiques
+### [GRAVE] ✅ Doublon franc : la sobriété énergétique, question et explication quasi identiques
 
 - **Où** : `prisma/seed/culture-g/institutions-economie.ts:310` (`ie-energie-transition`) et
   `prisma/seed/culture-g/institutions-economie-3.ts:444` (`ie3-transition-economie`)
@@ -96,8 +104,9 @@ des leçons = 656 questions**, et **62 cours ou leçons, soit 257 sections**.
 - **Texte 2** : « Qu'est-ce que la sobriété énergétique du point de vue économique ? » → « Une réduction de la demande par les usages et l'organisation » ; expl. « Elle se distingue de l'efficacité, qui vise le même service avec moins d'énergie. »
 - **Problème** : la précision « du point de vue économique » ne change strictement rien au contenu. C'est la même question et la même explication.
 - **Correction proposée** : supprimer la question de `ie3-transition-economie` (la notion a déjà taxe carbone, quotas, actifs échoués) et la remplacer par « Pourquoi une politique de sobriété est-elle plus difficile à mettre en œuvre qu'une politique d'efficacité ? ».
+- **Fait** : déjà corrigé — `ie3-transition-economie` ne pose plus de question sur la sobriété énergétique ; ses huit questions couvrent d'autres angles (taxe carbone, quotas, actifs échoués, finance verte, taxonomie, transition juste, découplage).
 
-### [GRAVE] Doublon franc : la CSG, deux fois
+### [GRAVE] ✅ Doublon franc : la CSG, deux fois
 
 - **Où** : `prisma/seed/culture-g/institutions-economie.ts:70` (`ie-securite-sociale`) et
   `prisma/seed/culture-g/institutions-economie-3.ts:266` (`ie3-securite-sociale-branches`)
@@ -105,8 +114,9 @@ des leçons = 656 questions**, et **62 cours ou leçons, soit 257 sections**.
 - **Texte 2** : « Qu'est-ce que la CSG dans le financement social ? » → « Un impôt affecté portant sur l'ensemble des revenus » ; expl. « Elle a progressivement remplacé une partie des cotisations, élargissant l'assiette du financement. »
 - **Problème** : même définition, même explication. Plus largement, `ie3-securite-sociale-branches` recouvre `ie-securite-sociale` : branches, autonomie 2020, APA (mentionnée dans une explication de l'une, objet d'une question entière de l'autre).
 - **Correction proposée** : fusionner les deux notions, ou réserver à `ie3` les questions de *financement* (LFSS, ONDAM, CADES) et à `ie` les questions d'*histoire et de périmètre* — en ne gardant la CSG qu'une seule fois.
+- **Fait** : déjà corrigé selon la seconde option — `ie3-securite-sociale-branches` ne pose plus de question sur la CSG ; elle est recentrée sur les branches, l'ONDAM, la LFSS, le déficit et la CADES. La CSG et l'APA ne sont plus posées qu'une fois chacune.
 
-### [GRAVE] Doublon franc : le chômage partiel de 2020, deux fois
+### [GRAVE] ✅ Doublon franc : le chômage partiel de 2020, deux fois
 
 - **Où** : `prisma/seed/culture-g/institutions-economie.ts:128` (`ie-entreprise-travail`) et
   `prisma/seed/culture-g/institutions-economie-3.ts:492` (`ie3-crises-contemporaines`)
@@ -114,8 +124,9 @@ des leçons = 656 questions**, et **62 cours ou leçons, soit 257 sections**.
 - **Texte 2** : « Qu'est-ce que le chômage partiel massif de 2020 ? » → « Un dispositif prenant en charge les salaires pour éviter les licenciements »
 - **Problème** : même dispositif, même définition, même exemple.
 - **Correction proposée** : dans `ie3-crises-contemporaines`, remplacer par « Pourquoi la réponse à la crise de 2020 a-t-elle relevé d'une logique d'assurance plutôt que de relance ? » — angle qui figure dans le cours et n'est posé nulle part.
+- **Fait** : déjà corrigé mot pour mot — la question figure désormais dans `ie3-crises-contemporaines`.
 
-### [GRAVE] Doublon franc : l'indice de Gini, deux fois
+### [GRAVE] ✅ Doublon franc : l'indice de Gini, deux fois
 
 - **Où** : `prisma/seed/culture-g/institutions-economie.ts:168` (`ie-croissance-inegalites`) et
   `prisma/seed/culture-g/institutions-economie-2.ts:390` (`ie2-inegalites-mondiales`)
@@ -123,8 +134,9 @@ des leçons = 656 questions**, et **62 cours ou leçons, soit 257 sections**.
 - **Texte 2** : « Que mesure le coefficient de Gini au sein d'un pays ? » → « La concentration des revenus ou des patrimoines »
 - **Problème** : indice / coefficient de Gini, même chose. La seconde question est même *meilleure* (elle inclut le patrimoine), ce qui rend la première partiellement fausse par omission.
 - **Correction proposée** : garder la version « revenus ou patrimoines », supprimer l'autre ou la remplacer par « Que vaut l'indice de Gini dans une société d'égalité parfaite ? ».
+- **Fait** : déjà corrigé — `ie-croissance-inegalites` pose désormais la question sur l'égalité parfaite, `ie2-inegalites-mondiales` a gardé la version « revenus ou patrimoines ».
 
-### [GRAVE] Doublon franc : le vice caché, deux fois — et deux notions jumelles sur le droit de la consommation
+### [GRAVE] ✅ Doublon franc : le vice caché, deux fois — et deux notions jumelles sur le droit de la consommation
 
 - **Où** : `prisma/seed/culture-g/institutions-economie.ts:326` (`ie-consommation-droit`) et
   `prisma/seed/culture-g/institutions-economie-3.ts:100` (`ie3-protection-consommateur`)
@@ -132,8 +144,9 @@ des leçons = 656 questions**, et **62 cours ou leçons, soit 257 sections**.
 - **Texte 2** : « Qu'est-ce que la garantie légale des vices cachés ? » → « Une protection contre un défaut non apparent rendant le bien impropre »
 - **Problème** : au-delà de ce doublon mot pour mot, les deux notions `ie-consommation-droit` et `ie3-protection-consommateur` traitent le même sujet (garanties, rétractation quatorze jours, vices cachés, clause abusive) et leurs deux cours se répètent : comparez `cours:90-98` et `cours` section « Quand le produit est défectueux ». C'est le cas de doublon de cours le plus net du domaine.
 - **Correction proposée** : fusionner les deux notions en une seule, ou spécialiser `ie3-protection-consommateur` sur le *litige* (médiation, surendettement, FICP, droit au compte — qui lui sont propres) en lui retirant garanties et rétractation.
+- **Fait** : déjà corrigé selon la seconde option — `ie3-protection-consommateur` ne pose plus la définition du vice caché (remplacée par une question sur le délai d'action) et se concentre sur le contrat d'adhésion, l'information précontractuelle, le démarchage, la médiation, le surendettement, le FICP et le droit au compte.
 
-### [GRAVE] Doublon franc : la mobilité sociale, deux fois
+### [GRAVE] 🔧 Doublon franc : la mobilité sociale, deux fois
 
 - **Où** : `prisma/seed/culture-g/institutions-economie-2.ts:392` (`ie2-inegalites-mondiales`) et
   `prisma/seed/culture-g/institutions-economie-3.ts:414` (`ie3-inegalites-france`)
@@ -141,6 +154,7 @@ des leçons = 656 questions**, et **62 cours ou leçons, soit 257 sections**.
 - **Texte 2** : « Qu'est-ce que la mobilité sociale en France ? » → « La capacité à changer de position sociale par rapport à ses parents »
 - **Problème** : même définition. Le « en France » de la seconde ne porte que sur l'explication.
 - **Correction proposée** : dans `ie3-inegalites-france`, remplacer par la distinction que le cours développe et qu'aucune question ne teste : « Qu'est-ce que la mobilité structurelle, par opposition à la mobilité nette ? ».
+- **Fait** : non corrigé — la question « Qu'est-ce que la mobilité sociale en France ? » de `ie3-inegalites-france` était restée identique en substance à celle de `ie2-inegalites-mondiales`. Corrigée maintenant : remplacée par « Qu'est-ce que la mobilité structurelle, par opposition à la mobilité nette ? » avec quatre distracteurs de longueur équilibrée (69-70 caractères), sans doublon ailleurs dans le domaine. `npx tsc --noEmit` sans erreur.
 
 ### [MOYEN] ✅ « La cour d'assises juge les crimes » — incomplet depuis la généralisation des cours criminelles départementales (2023)
 

@@ -20,35 +20,35 @@ Total du seed : **52 notions, 519 questions, 39 cours** (150 sections).
 
 ## Constats
 
-### [GRAVE] Phèdre : « la reine amoureuse du fiancé de sa fille » — faux, et contredit par le cours
+### [GRAVE] ✅ Phèdre : « la reine amoureuse du fiancé de sa fille » — faux, et contredit par le cours
 
 - **Où** : `prisma/seed/culture-g/litterature-2.ts:74` — `li2-racine-corneille`
 - **Texte** : « Quelle tragédie de Racine met en scène une reine amoureuse du fiancé de sa fille ? » — explication : « Phèdre aime son beau-fils Hippolyte. »
 - **Problème** : Phèdre n'a pas de fille dans la pièce. Elle est l'épouse de Thésée et aime Hippolyte, **fils de son mari** (né d'Antiope) ; Hippolyte est épris d'Aricie, qui n'est la fille de personne dans l'entourage de Phèdre. L'énoncé contredit sa propre explication (« son beau-fils ») **et** le cours du même slug, qui écrit correctement : « Phèdre met en scène une reine dévorée d'amour pour le fils de son mari » (`cours/litterature.ts:129`). Un apprenant qui retient l'énoncé retient une fausseté sur l'une des tragédies les plus enseignées.
 - **Correction proposée** : « Quelle tragédie de Racine met en scène une reine amoureuse du fils de son mari ? »
 
-### [GRAVE] Césaire présenté comme « écrivain africain », et trois distracteurs vrais
+### [GRAVE] ✅ Césaire présenté comme « écrivain africain », et trois distracteurs vrais
 
 - **Où** : `prisma/seed/culture-g/litterature-3.ts:412` — `li3-litterature-engagement`
 - **Texte** : « Quel écrivain **africain** a lié son œuvre à la lutte anticoloniale ? » — choix : Aimé Césaire / Léopold Sédar Senghor / Ousmane Sembène / Mongo Beti ; bonne réponse : Césaire.
 - **Problème** : double défaut. (1) Césaire est **martiniquais**, pas africain — ce que les deux autres fichiers du domaine disent explicitement (« Quel poète **martiniquais** est l'un des fondateurs de la négritude ? », `litterature.ts:184` ; « Quel écrivain **martiniquais** publie le Cahier… », `litterature-2.ts:404` ; le cours écrit « Aimé Césaire, Martiniquais »). La seule réponse conforme à l'énoncé est donc l'un des distracteurs. (2) Les trois distracteurs sont **tous** des écrivains africains ayant lié leur œuvre à la lutte anticoloniale (Senghor, Sembène, Mongo Beti) : la question a quatre réponses défendables et une bonne réponse fausse.
 - **Correction proposée** : « Quel écrivain antillais a lié son œuvre à la lutte anticoloniale ? » avec des distracteurs non africains, ou bien conserver l'énoncé et faire de Mongo Beti la bonne réponse.
 
-### [GRAVE] Camps soviétiques : question à quatre réponses, dont l'explication couronne un distracteur
+### [GRAVE] ✅ Camps soviétiques : question à quatre réponses, dont l'explication couronne un distracteur
 
 - **Où** : `prisma/seed/culture-g/litterature-3.ts:292` — `li3-litterature-russe`
 - **Texte** : « Quel écrivain russe a documenté le système des camps soviétiques ? » — choix : Soljenitsyne / Chalamov / Grossman / Guinzbourg ; bonne = Soljenitsyne. Explication : « **Chalamov**, avec ses Récits de la Kolyma, en a donné le témoignage littéraire le plus radical. »
 - **Problème** : les quatre auteurs proposés ont tous documenté les camps (Chalamov, *Récits de la Kolyma* ; Grossman, *Vie et Destin* ; Guinzbourg, *Le Vertige*). Aucun élément de l'énoncé ne désigne Soljenitsyne, et l'explication valide explicitement un distracteur au lieu de justifier la réponse retenue — l'apprenant qui lit l'explication conclut qu'il s'est trompé alors qu'il avait raison.
 - **Correction proposée** : énoncé « Quel écrivain russe publie *L'Archipel du Goulag*, enquête d'ensemble sur le système concentrationnaire soviétique ? » ; explication : « Publié à l'Ouest en 1973, il vaut à Soljenitsyne son expulsion d'URSS l'année suivante. Chalamov, Grossman et Guinzbourg ont témoigné du même monde sous d'autres formes. »
 
-### [GRAVE] Doublon franc : Francis Ponge et *Le Parti pris des choses*, deux fois
+### [GRAVE] ✅ Doublon franc : Francis Ponge et *Le Parti pris des choses*, deux fois
 
 - **Où** : `prisma/seed/culture-g/litterature.ts:188` (`li-poesie-francaise`) et `prisma/seed/culture-g/litterature-3.ts:200` (`li3-poesie-contemporaine`)
 - **Texte** : « Quel poète français du XXe siècle consacre un recueil aux choses ordinaires dans Le Parti pris des choses ? » / « Quel poète français consacre son œuvre à la présence des choses ? » — même bonne réponse (Francis Ponge), distracteurs quasi identiques (Char, Bonnefoy, Jaccottet / Bonnefoy, Jaccottet, Guillevic), explications redondantes (« le cageot, l'huître ou le pain » / « un parti pris des choses »).
 - **Problème** : c'est deux fois la même question, la seconde ne demandant rien de plus que la première.
 - **Correction proposée** : remplacer celle de `li3-poesie-contemporaine` par une question sur la méthode de Ponge, p. ex. « Que cherche Francis Ponge en décrivant un cageot ou un galet ? » → « Donner la parole aux objets en évitant le lyrisme du moi ».
 
-### [GRAVE] Le Goncourt « décerné chez Drouant depuis 1903 »
+### [GRAVE] ✅ Le Goncourt « décerné chez Drouant depuis 1903 »
 
 - **Où** : `prisma/seed/culture-g/litterature.ts:162` — `li-roman-francais`
 - **Texte** : « Quel prix littéraire français est décerné **chez Drouant depuis 1903** ? »
@@ -359,7 +359,7 @@ et met dans une même notion des questions écrites dans deux fichiers différen
 fichier** : ils n'existent qu'après fusion, ou ne se voient qu'en mettant
 l'astuce, l'énoncé et les explications d'une notion côte à côte.
 
-### [GRAVE] `cg-litterature-09` — après fusion, quatre des cinq questions héritées donnent la réponse des questions du seed
+### [GRAVE] 🔧 `cg-litterature-09` — après fusion, quatre des cinq questions héritées donnent la réponse des questions du seed
 
 - **Où** : notion `cg-litterature-09` « La littérature antique : Homère, Virgile, Ovide » — cinq questions de `heritage/culture-g/data/lecons/litterature/09.json` + les dix de `li2-litterature-antique` (`prisma/seed/culture-g/litterature-2.ts:340-361`), versées là par `cours/fusions.ts:70`.
 - **Texte** (les fuites, une par une) :
@@ -369,13 +369,15 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
   - explication de « Où Ovide a-t-il été relégué par Auguste ? » : « *Les Métamorphoses*, en quinze livres, ont nourri toute la culture européenne. » → même fuite, une seconde fois.
 - **Problème** : sur les dix questions du seed versées dans cette leçon, quatre deviennent gratuites pour qui a vu les questions héritées, qui passent avant elles dans le même chapitre. Aucune de ces fuites n'est visible dans `litterature-2.ts` ni dans `lecons/litterature/09.json` pris séparément.
 - **Correction proposée** : retirer les phrases de renvoi devenues internes — dans la première explication, remplacer la dernière phrase par « Le poème s'ouvre sur le mot *mênin*, la colère » ; dans la deuxième, remplacer par « Vingt-quatre chants pour quarante jours d'action présente » ; dans la troisième, supprimer la dernière phrase (les distracteurs 12 et 15 se justifient sans être nommés) ; dans la quatrième, remplacer par « Il y meurt vers 17 ou 18 de notre ère sans avoir obtenu son rappel. »
+- **Fait** : les trois premières fuites étaient déjà corrigées (les questions héritées ont été réécrites, la question sur *L'Odyssée* fusionnée avec celle sur *in medias res*). La quatrième subsistait : l'explication sur la relégation d'Ovide a été remplacée mot pour mot par la correction proposée, dans `heritage/culture-g/data/lecons/litterature/09.json`.
 
-### [GRAVE] `cg-litterature-09` — le même fait posé deux fois, dans les deux sens
+### [GRAVE] 🔧 `cg-litterature-09` — le même fait posé deux fois, dans les deux sens
 
 - **Où** : notion `cg-litterature-09`, questions issues de `heritage/.../lecons/litterature/09.json` et de `prisma/seed/culture-g/litterature-2.ts` (`li2-litterature-antique`).
 - **Texte** : « Quel est le sujet annoncé dès l'ouverture de *L'Iliade* ? » → « La colère d'Achille » / « Quelle épopée raconte la colère d'Achille ? » → « *L'Iliade* ». Et les deux explications redisent la même chose : « quelques semaines de la dixième année du siège » d'un côté, « Elle ne couvre que quelques semaines de la dixième année du siège de Troie » de l'autre.
 - **Problème** : c'est le couple (œuvre, sujet) interrogé dans un sens puis dans l'autre, avec la même explication reformulée. Après fusion les deux questions sont dans le même chapitre.
 - **Correction proposée** : remplacer « Quelle épopée raconte la colère d'Achille ? » par une question qui ne recouvre pas la première, p. ex. « Quel héros troyen *L'Iliade* oppose-t-il à Achille dans le combat décisif ? » → « Hector ».
+- **Fait** : la question du seed (`li2-litterature-antique`, `litterature-2.ts`) a été remplacée exactement par la correction proposée.
 
 ### [MOYEN] ✅ `cg-litterature-09` — l'astuce de la leçon contient trois réponses
 
@@ -385,12 +387,13 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
 - **Correction proposée** : quand une notion héritée absorbe des questions par fusion, ne pas réutiliser le sommaire des sections comme `tip`, ou en retirer les noms propres (« Les deux épopées homériques · L'épopée latine · Ovide et l'exil »).
 - **Fait** : l'astuce provenant du titre des sections de `heritage/.../lecons/litterature/09.json` (aucun champ `tip` séparé n'existe dans ce format), j'ai reformulé les titres de section eux-mêmes pour retirer les appariements qui répondaient d'avance aux questions : « « L'Iliade », l'épopée de la guerre de Troie », « « L'Odyssée », le voyage d'Ulysse », « L'épopée latine » (au lieu de « Virgile et « L'Énéide » »), « Ovide et l'exil » (au lieu de « … le poète des métamorphoses et de l'exil »). Un changement de mécanisme plus général (ne plus dériver l'astuce du sommaire des sections) dépasse mon périmètre de données.
 
-### [GRAVE] `cg-litterature-08` — l'explication de la question sur *La Cité des dames* donne les réponses de deux autres questions
+### [GRAVE] ✅ `cg-litterature-08` — l'explication de la question sur *La Cité des dames* donne les réponses de deux autres questions
 
 - **Où** : notion `cg-litterature-08` « La littérature française du Moyen Âge » — heritage `lecons/litterature/08.json` + `li2-litterature-medievale` (`prisma/seed/culture-g/litterature-2.ts`), fusionnés par `cours/fusions.ts:65`.
 - **Texte** : explication de « Qui est l'auteure de *La Cité des dames*, publiée en 1405 ? » : « **Christine de Pizan** est souvent présentée comme **la première femme à avoir vécu de sa plume** en France. **Marie de France**, au XIIe siècle, est **l'auteure de lais** d'inspiration bretonne… »
 - **Problème** : deux fuites dans une seule explication. (1) La question du seed « Quelle femme de lettres du XIVe siècle vécut de sa plume ? » a pour réponse *Christine de Pizan* : l'explication en donne le nom **et** le critère de reconnaissance. Les deux questions ont d'ailleurs la même bonne réponse — c'est un doublon franc dans une même notion. (2) La question du seed « Quelle poétesse du XIIe siècle écrit des Lais ? » a pour réponse *Marie de France* : la même explication l'apparie explicitement au XIIe siècle et aux lais.
 - **Correction proposée** : réécrire la fin de l'explication sans nommer les distracteurs (« Veuve à vingt-cinq ans, elle vit de commandes princières ; ses adversaires dans la querelle du *Roman de la Rose* comptent parmi les clercs les plus en vue de son temps. ») et supprimer purement et simplement la question « Quelle femme de lettres du XIVe siècle vécut de sa plume ? », redondante et de surcroît fautive sur le siècle (voir le constat MINEUR de la passe 1).
+- **Fait** : déjà corrigé différemment mais efficacement — l'explication de *La Cité des dames* (`heritage/.../lecons/litterature/08.json`) ne mentionne plus ni « vécut de sa plume » ni Marie de France (elle cite Marie de Champagne, une personne distincte, comme distracteur écarté) ; la question du seed sur le XIVe siècle a été conservée mais corrigée en XVe siècle et son explication porte désormais sur un fait distinct (veuve à vingt-cinq ans). Les deux questions partagent toujours la même bonne réponse mais ne se donnent plus mutuellement leur contenu.
 
 ### [MOYEN] ✅ `cg-litterature-08` — Chrétien de Troyes nommé dans trois questions avant celle qui le demande
 
@@ -408,7 +411,7 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
 - **Correction proposée** : remplacer la question du seed par « Combien de siècles séparent la bataille de Roncevaux de la composition du poème ? » → « Trois siècles environ », et retirer « en combat contre les Sarrasins » de l'explication héritée pour ne pas doublonner.
 - **Fait** : question du seed remplacée comme proposé. La phrase « en combat contre les Sarrasins » n'existait que dans l'explication du seed remplacée ; l'explication héritée elle-même ne la contenait pas et n'a pas eu besoin d'édition.
 
-### [GRAVE] `cg-litterature-02` — *Les Contemplations* : la même question deux fois, avec la même explication
+### [GRAVE] 🔧 `cg-litterature-02` — *Les Contemplations* : la même question deux fois, avec la même explication
 
 - **Où** : notion `cg-litterature-02` « Victor Hugo et le romantisme français » — la plus grosse notion du domaine après fusion (25 questions) : heritage `lecons/litterature/02.json` + `li2-hugo` + `li3-romantisme-francais`, réunis par `cours/fusions.ts:66` et `:102`.
 - **Texte** :
@@ -416,8 +419,9 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
   - « Quel recueil poétique Hugo publie-t-il **en 1856** autour **du deuil de sa fille** ? » → *Les Contemplations*. Explication : « Il le divise en deux parties, **Autrefois et Aujourd'hui, séparées par la mort de Léopoldine**. »
 - **Problème** : même bonne réponse, même critère (1856 + la fille morte), et une explication qui reprend la précédente presque au mot près. Les deux questions sont désormais dans le même chapitre : l'apprenant répond deux fois à la même chose et n'apprend rien la seconde fois.
 - **Correction proposée** : supprimer la seconde, ou la remplacer par une question sur un contenu propre au recueil (« Quel poème des *Contemplations* raconte la marche du poète vers la tombe de sa fille ? » → « *Demain, dès l'aube* »).
+- **Fait** : la question du seed (`li2-hugo`, `litterature-2.ts`) a été remplacée par la correction proposée, avec des distracteurs (« À Villequier », « Elle avait pris ce pli », « Mors ») tous tirés des *Contemplations*.
 
-### [GRAVE] `cg-litterature-02` — deux questions sur la Préface de Cromwell qui se donnent mutuellement la réponse
+### [GRAVE] 🔧 `cg-litterature-02` — deux questions sur la Préface de Cromwell qui se donnent mutuellement la réponse
 
 - **Où** : notion `cg-litterature-02`.
 - **Texte** :
@@ -425,13 +429,15 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
   - « Dans quelle préface Hugo formule-t-il le programme du drame romantique ? » → « **La préface de Cromwell** ». Explication : « **Publiée en 1827**, elle appelle à **mêler le sublime et le grotesque** contre les règles classiques. »
 - **Problème** : le cas d'école de la fuite croisée. L'énoncé de la première nomme la réponse de la seconde (titre **et** date) ; l'explication de la seconde donne la réponse de la première (« mêler le sublime et le grotesque »). Aucune des deux n'est plus une question dès lors qu'on a vu l'autre. À quoi s'ajoute que l'explication de la première finit par « L'application de ces idées viendra trois ans plus tard avec ***Hernani*** », qui est la réponse d'une troisième question du même chapitre (« Quelle pièce de Victor Hugo provoque en 1830 une célèbre bataille…? »).
 - **Correction proposée** : supprimer « Dans quelle préface Hugo formule-t-il le programme du drame romantique ? » (redondante), et remplacer dans la première explication la phrase finale par « Hugo n'écrira jamais de représentation scénique de *Cromwell* : la pièce est injouable, longue de plus de six mille vers. »
+- **Fait** : la question redondante a été supprimée de `li2-hugo` (`litterature-2.ts`) ; la phrase finale de l'explication héritée sur la Préface de Cromwell (`heritage/.../lecons/litterature/02.json`) a été remplacée mot pour mot par la correction proposée.
 
-### [GRAVE] `cg-litterature-02` — l'exil : une question héritée qui répond à trois questions du seed
+### [GRAVE] 🔧 `cg-litterature-02` — l'exil : une question héritée qui répond à trois questions du seed
 
 - **Où** : notion `cg-litterature-02`.
 - **Texte** : explication de « Sur quelle île anglo-normande Victor Hugo s'installe-t-il en 1855 ? » : « Hugo s'exile à Bruxelles, puis **à Jersey en 1852 et enfin à Guernesey en 1855**… C'est pendant cet exil qu'il écrit ***Les Contemplations***, ***La Légende des siècles*** et ***Les Misérables***. Il **refuse l'amnistie offerte en 1859**… et **rentre en France en septembre 1870**. »
 - **Problème** : cette seule explication contient, mot pour mot ou presque, la réponse de quatre autres questions du même chapitre : « Où Hugo passe-t-il l'essentiel de son exil ? » → « **À Jersey puis Guernesey** » (dont l'explication, « Il refusa l'amnistie de 1859 : il ne rentra qu'après la chute de l'Empire en 1870 », est elle aussi déjà écrite ici) ; « Quel recueil poétique Hugo publie-t-il en 1856…? » → *Les Contemplations* ; « Quelle vaste fresque poétique Hugo consacre-t-il à l'humanité ? » → *La Légende des siècles* ; « Quel roman de Victor Hugo, paru en 1862…? » → *Les Misérables*. La question « Où Hugo passe-t-il l'essentiel de son exil ? » est de surcroît un **doublon** de la question héritée sur l'île anglo-normande.
 - **Correction proposée** : supprimer « Où Hugo passe-t-il l'essentiel de son exil ? », et réécrire l'explication héritée sans la liste d'œuvres : « Hugo s'exile à Bruxelles, puis à Jersey en 1852 et enfin à Guernesey en 1855, où il achète Hauteville House. Il y écrit l'essentiel de son œuvre d'exil et refuse l'amnistie de 1859, déclarant qu'il ne rentrera que lorsque la liberté rentrera. »
+- **Fait** : la question doublon a été supprimée de `li2-hugo` ; l'explication héritée (`heritage/.../lecons/litterature/02.json`) a été réécrite pour retirer la liste d'œuvres et la redite sur l'amnistie, dans l'esprit de la correction proposée.
 
 ### [MOYEN] ✅ `cg-litterature-02` — *La Légende des siècles*, *Notre-Dame de Paris*, Jean Valjean : trois réponses livrées par des explications voisines
 
@@ -452,7 +458,7 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
 - **Correction proposée** : « Le théâtre et la bataille de 1830 ».
 - **Fait** : le titre de la section correspondante dans `heritage/.../lecons/litterature/02.json` (source de l'astuce) a été renommé « Le théâtre et la bataille de 1830 », comme proposé.
 
-### [GRAVE] `cg-litterature-01` — *La Comédie humaine* et le procès de *Madame Bovary* : deux doublons, chacun avec fuite croisée
+### [GRAVE] 🔧 `cg-litterature-01` — *La Comédie humaine* et le procès de *Madame Bovary* : deux doublons, chacun avec fuite croisée
 
 - **Où** : notion `cg-litterature-01` « Le roman français du XIXe siècle » — heritage `lecons/litterature/01.json` + `li-roman-francais` (`prisma/seed/culture-g/litterature.ts:145-165`), fusionnés par `cours/fusions.ts:31`.
 - **Texte** :
@@ -460,6 +466,7 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
   - « En quelle année ***Madame Bovary*** de Flaubert paraît-il en volume, année où son auteur est **traduit en justice** ? » → 1857 / « Quel roman de Flaubert vaut à son auteur un **procès en 1857** ? » → *Madame Bovary*. Le couple (titre, année, procès) posé dans un sens puis dans l'autre : l'énoncé de chacune contient la réponse de l'autre.
 - **Problème** : deux paires de questions qui interrogent le même fait dans une même notion, dont l'une est un aller-retour parfait. Rien de tout cela n'est visible dans les fichiers pris séparément.
 - **Correction proposée** : supprimer « Quel ensemble romanesque Balzac construit-il à partir de 1830 ? » et « Quel roman de Flaubert vaut à son auteur un procès en 1857 ? » ; si l'on tient à garder deux questions sur Flaubert, poser « Quel roman de Flaubert, resté inachevé, met en scène deux copistes lancés dans l'encyclopédie des savoirs ? » → *Bouvard et Pécuchet*.
+- **Fait** : les deux doublons ont été supprimés de `li-roman-francais` (`litterature.ts`) ; la question sur Flaubert a été remplacée par celle sur *Bouvard et Pécuchet*, exactement comme proposé en option.
 
 ### [MOYEN] ✅ `cg-litterature-01` — le retour des personnages et *Les Rougon-Macquart* donnés par les explications voisines
 
@@ -471,7 +478,7 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
 - **Correction proposée** : dans les explications héritées, désigner les distracteurs sans les définir (« *Les Rougon-Macquart*, *Les Misérables* et *Les Soirées de Médan* ne sont pas de Balzac ») ; astuce : « Balzac et son grand cycle ».
 - **Fait** : explication du seed (« Quel ensemble romanesque Balzac construit-il… ») débarrassée de la mention du retour des personnages ; explication héritée sur *La Comédie humaine* reformulée exactement comme proposé ; titre de section « Balzac et La Comédie humaine » renommé « Balzac et son grand cycle » dans `heritage/.../lecons/litterature/01.json` (source de l'astuce). La seconde fuite signalée (l'explication de la question sur *Germinal*, qui nomme aussi « le cycle des Rougon-Macquart d'Émile Zola ») décrit en revanche la réponse propre à cette question-là et n'a pas été touchée, faute de reformulation proposée qui n'appauvrisse pas l'explication.
 
-### [GRAVE] `cg-litterature-03` — Villon et *Les Fleurs du mal* : deux doublons de plus après fusion
+### [GRAVE] 🔧 `cg-litterature-03` — Villon et *Les Fleurs du mal* : deux doublons de plus après fusion
 
 - **Où** : notion `cg-litterature-03` « La poésie française, de Villon à Apollinaire » — heritage `lecons/litterature/03.json` + `li-poesie-francaise` (`prisma/seed/culture-g/litterature.ts:172-190`), fusionnés par `cours/fusions.ts:32`.
 - **Texte** :
@@ -479,8 +486,9 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
   - « Quel recueil, publié en **1857**, vaut à son auteur une **condamnation pour outrage aux bonnes mœurs** ? » → *Les Fleurs du mal* / « Quel recueil de Baudelaire est **condamné en 1857** ? » → *Les Fleurs du mal*. Les deux explications disent la même chose : « **six pièces** jugées immorales doivent être retirées » / « **Six pièces** sont censurées ».
 - **Problème** : deux paires de questions parfaitement redondantes dans la même notion, avec des explications qui se répètent. L'astuce (« Le Moyen Âge et **la voix de Villon** ») donne en outre la réponse des deux premières.
 - **Correction proposée** : supprimer les deux questions du seed, ou les remplacer par des questions qui ajoutent quelque chose : « Quel refrain de Villon interroge le devenir des femmes célèbres du passé ? » → « Mais où sont les neiges d'antan ? » ; « En quelle année les six pièces condamnées des *Fleurs du mal* ont-elles été réhabilitées ? » → « 1949 ».
+- **Fait** : les deux questions de `li-poesie-francaise` (`litterature.ts`) ont été remplacées mot pour mot par les corrections proposées.
 
-### [GRAVE] `cg-litterature-03` — *Alcools* : deux questions qui se donnent la réponse l'une à l'autre
+### [GRAVE] 🔧 `cg-litterature-03` — *Alcools* : deux questions qui se donnent la réponse l'une à l'autre
 
 - **Où** : notion `cg-litterature-03`.
 - **Texte** :
@@ -488,6 +496,7 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
   - « Quel poème d'Apollinaire évoque la Seine et le temps qui passe ? » → « ***Le Pont Mirabeau*** ». Explication : « Tiré d'*Alcools*, publié en 1913, recueil **dont Apollinaire a supprimé toute ponctuation**. »
 - **Problème** : fuite croisée complète. L'explication de la première nomme la bonne réponse de la seconde parmi trois titres — dont les deux autres, « Zone » et « La Chanson du mal-aimé », sont justement les distracteurs. L'explication de la seconde énonce mot pour mot la bonne réponse de la première. Les deux questions s'annulent.
 - **Correction proposée** : supprimer la phrase finale de l'explication du *Pont Mirabeau* (« Tiré d'*Alcools*, 1913 » suffit) et remplacer dans l'explication d'*Alcools* la liste de poèmes par « Le recueil rassemble des poèmes composés sur une quinzaine d'années. »
+- **Fait** : les deux explications ont été modifiées exactement comme proposé, dans `litterature.ts` et `heritage/.../lecons/litterature/03.json`.
 
 ### [MINEUR] ✅ `cg-litterature-03` — « Il pleure dans mon cœur » : la réponse n'est pas un poème mais un cycle
 
@@ -497,14 +506,15 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
 - **Correction proposée** : « De quelle suite de *Romances sans paroles* « Il pleure dans mon cœur » est-il tiré ? » → « Les *Ariettes oubliées* ».
 - **Fait** : énoncé remplacé par la correction proposée.
 
-### [GRAVE] `cg-litterature-13` — « la gouttière » et « le gouttière » : la même question deux fois, à un genre près
+### [GRAVE] 🔧 `cg-litterature-13` — « la gouttière » et « le gouttière » : la même question deux fois, à un genre près
 
 - **Où** : notion `cg-litterature-13` « La bande dessinée et le roman graphique » — heritage `lecons/litterature/13.json` + `li2-bande-dessinee` (`prisma/seed/culture-g/litterature-2.ts:296-317`), fusionnés par `cours/fusions.ts:69`.
 - **Texte** : « Comment appelle-t-on l'espace blanc qui sépare deux cases dans une bande dessinée ? » → « **La gouttière** » / « Comment appelle-t-on l'espace entre deux cases de bande dessinée ? » → « **Le gouttière** ». Explications : « c'est là que se joue l'ellipse, puisque **le lecteur y reconstitue mentalement** ce qui n'est pas montré entre deux images » / « C'est là que **le lecteur opère mentalement** le passage d'une image à l'autre. »
 - **Problème** : c'est la même question, avec la même réponse, la même explication reformulée — et les deux versions ne diffèrent que par une faute de genre dans celle du seed. L'apprenant voit successivement « la gouttière » puis « le gouttière » dans le même chapitre : non seulement il apprend deux fois la même chose, mais on lui apprend une faute juste après le mot correct. (La faute seule était déjà signalée en passe 1 ; c'est la fusion qui montre que la question tout entière est en trop.)
 - **Correction proposée** : supprimer la question du seed. Si l'on veut conserver deux questions de vocabulaire, poser « Comment appelle-t-on le bandeau de texte du narrateur, distinct de la bulle ? » → « Le récitatif ».
+- **Fait** : la question doublon a été supprimée de `li2-bande-dessinee` (`litterature-2.ts`). La question de remplacement sur le récitatif n'a pas été ajoutée : l'explication héritée de la gouttière définit déjà ce terme, ce qui aurait recréé une fuite.
 
-### [GRAVE] `cg-litterature-13` — *Maus* et le Pulitzer : troisième occurrence, et l'astuce donne la réponse
+### [GRAVE] 🔧 `cg-litterature-13` — *Maus* et le Pulitzer : troisième occurrence, et l'astuce donne la réponse
 
 - **Où** : notion `cg-litterature-13`.
 - **Texte** :
@@ -513,8 +523,9 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
   - « Quelle bande dessinée d'Art Spiegelman a reçu un **prix Pulitzer** ? » → « ***Maus*** ». Explication : « Elle raconte la Shoah en **représentant les Juifs en souris et les nazis en chats**. »
 - **Problème** : le même couple (œuvre, prix) posé dans les deux sens à l'intérieur d'un même chapitre, avec la même explication réécrite ; et l'astuce, affichée à côté, nomme *Maus*. La passe 1 avait déjà relevé une paire *Maus* entre `li2-bande-dessinee` et `li3-romans-graphiques` : le domaine pose donc **trois fois** la même chose, dont deux dans la même notion.
 - **Correction proposée** : supprimer la question du seed (« Quelle bande dessinée d'Art Spiegelman a reçu un prix Pulitzer ? ») ; retirer *Maus* de l'astuce (« L'œuvre qui a tout changé »).
+- **Fait** : question supprimée de `li2-bande-dessinee` ; le titre de section source de l'astuce (`heritage/.../lecons/litterature/13.json`) renommé « L'œuvre qui a tout changé », exactement comme proposé.
 
-### [GRAVE] `cg-litterature-13` — Hergé, Tezuka, la planche, le manga : quatre réponses données par les explications héritées
+### [GRAVE] 🔧 `cg-litterature-13` — Hergé, Tezuka, la planche, le manga : quatre réponses données par les explications héritées
 
 - **Où** : notion `cg-litterature-13`.
 - **Texte** :
@@ -524,8 +535,9 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
   - explication de la question sur la gouttière : « **La planche**, enfin, **désigne l'ensemble des cases occupant une page**. » → réponse mot pour mot de « Qu'est-ce qu'une planche en bande dessinée ? » (« Une page complète composée de plusieurs cases »).
 - **Problème** : quatre des dix questions versées par la fusion sont résolues d'avance par les explications héritées qui les précèdent dans le chapitre. L'astuce ajoute « **De Töpffer** aux grands journaux illustrés », qui donne la réponse d'une cinquième.
 - **Correction proposée** : dans l'explication sur Töpffer, ne pas nommer les distracteurs par ce qui les définit (« Outcault, Hergé et Eisner appartiennent tous à des époques plus tardives ») ; supprimer la dernière phrase de l'explication sur Tezuka et la définition de « planche » dans celle sur la gouttière ; astuce : « Des pionniers du XIXe siècle aux grands journaux illustrés ».
+- **Fait** : les trois explications héritées ont été modifiées comme proposé et le titre de section source de l'astuce renommé « Des pionniers du XIXe siècle aux grands journaux illustrés », dans `heritage/.../lecons/litterature/13.json`.
 
-### [GRAVE] `cg-litterature-10` — trois couples de questions réversibles dans une seule notion
+### [GRAVE] 🔧 `cg-litterature-10` — trois couples de questions réversibles dans une seule notion
 
 - **Où** : notion `cg-litterature-10` « Le roman policier, du crime au thriller » — heritage `lecons/litterature/10.json` + `li2-policier` (`prisma/seed/culture-g/litterature-2.ts:268-289`), fusionnés par `cours/fusions.ts:68`.
 - **Texte** :
@@ -534,6 +546,7 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
   - l'explication de la première ajoute « *La Mystérieuse Affaire de Styles*, en 1920, était son premier roman et **l'entrée en scène d'Hercule Poirot** » → réponse de « Quelle romancière britannique crée **Hercule Poirot** et Miss Marple ? ».
 - **Problème** : sur les dix questions du seed versées dans ce chapitre, trois n'ont plus rien à demander.
 - **Correction proposée** : supprimer « Quelle collection française lancée en 1945 popularise le roman noir ? » et « Quel roman d'Agatha Christie repose sur un narrateur inattendu ? » ; retirer « et l'entrée en scène d'Hercule Poirot » de l'explication héritée ; astuce : « Le polar français d'après-guerre ».
+- **Fait** : les deux questions doublons ont été supprimées de `li2-policier` (`litterature-2.ts`) ; la mention d'Hercule Poirot retirée de l'explication héritée ; le titre de section source de l'astuce renommé « Le polar français d'après-guerre », dans `heritage/.../lecons/litterature/10.json`.
 
 ### [MOYEN] ✅ `cg-litterature-10` — les définitions du roman à énigme et du roman noir sont données avant d'être demandées
 
@@ -552,12 +565,13 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
 - **Correction proposée** : « *Ils étaient dix* », ou tout autre titre (« *A.B.C. contre Poirot* »).
 - **Fait** : distracteur remplacé par « Ils étaient dix ».
 
-### [GRAVE] `cg-litterature-12` — Perrault et 1697 : la question posée dans les deux sens, à la suite
+### [GRAVE] 🔧 `cg-litterature-12` — Perrault et 1697 : la question posée dans les deux sens, à la suite
 
 - **Où** : notion `cg-litterature-12` « Les contes et la littérature jeunesse » — heritage `lecons/litterature/12.json` + `li-contes-jeunesse` (`prisma/seed/culture-g/litterature.ts:250-270`), fusionnés par `cours/fusions.ts:33`.
 - **Texte** : « En quelle année **Charles Perrault** publie-t-il *Histoires ou contes du temps passé* ? » → **1697** / « Qui publie en **1697** les *Histoires ou contes du temps passé* ? » → **Charles Perrault**. Explications : « réunit huit contes en prose, parmi lesquels « **Cendrillon** », « **Le Petit Chaperon rouge** » et « **Le Chat botté** » » / « **Le Petit Chaperon rouge, Cendrillon et Le Chat botté** y figurent ».
 - **Problème** : l'aller-retour parfait — chaque énoncé contient la réponse de l'autre, et les deux explications citent les mêmes trois contes. C'est le doublon le plus visible du domaine une fois la fusion appliquée.
 - **Correction proposée** : supprimer la question du seed ; à la place, « Sous quel nom Perrault publie-t-il ses contes en 1697 ? » → « Sous le nom de son fils, Pierre Darmancour ».
+- **Fait** : la question du seed (`li-contes-jeunesse`, `litterature.ts`) a été remplacée par la question de rechange proposée ; comme celle-ci était elle-même déjà répondue par l'explication héritée, cette dernière a aussi été allégée de la mention du nom d'emprunt, dans `heritage/.../lecons/litterature/12.json`.
 
 ### [MOYEN] ✅ `cg-litterature-12` — l'astuce et une explication donnent les frères Grimm
 
@@ -567,12 +581,13 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
 - **Correction proposée** : astuce sans noms propres (« Les contes du temps passé · La collecte savante allemande… ») ; supprimer la question du seed sur les frères Grimm, dont le contenu est déjà entièrement couvert.
 - **Fait** : les deux titres de section source de l'astuce ont été renommés dans `heritage/.../lecons/litterature/12.json` (« Les contes du temps passé », « La collecte savante allemande », exactement comme proposé) ; la question du seed sur les frères Grimm (`litterature.ts`) a été supprimée.
 
-### [GRAVE] `cg-litterature-17` — « incunable » : la définition est la réponse de l'autre question
+### [GRAVE] 🔧 `cg-litterature-17` — « incunable » : la définition est la réponse de l'autre question
 
 - **Où** : notion `cg-litterature-17` « L'histoire du livre » — heritage `lecons/litterature/17.json` + `li-edition-livre` (`prisma/seed/culture-g/litterature.ts`), fusionnés par `cours/fusions.ts:34`.
 - **Texte** : « Comment appelle-t-on **les livres imprimés avant 1501** ? » → « Des **incunables** ». Explication : « **On nomme incunables les livres imprimés avant 1501**… » — et, dans le même chapitre : « Qu'est-ce qu'un **incunable** ? » → « **Un livre imprimé avant 1501** ».
 - **Problème** : les deux questions sont la même définition retournée, et l'explication de la première l'énonce mot pour mot dans les termes de la bonne réponse de la seconde. Le cas est invisible dans les fichiers séparés : les deux questions n'ont ni le même énoncé ni la même bonne réponse au sens du validateur de doublons.
 - **Correction proposée** : supprimer « Qu'est-ce qu'un incunable ? » ; si l'on veut garder deux questions, poser « Combien d'exemplaires de la Bible à quarante-deux lignes l'atelier de Gutenberg a-t-il produits ? » → « Environ cent quatre-vingts ».
+- **Fait** : la question du seed a été supprimée de `li-edition-livre` (`litterature.ts`). La question de rechange n'a pas été ajoutée : ce chiffre est déjà donné par l'explication héritée de la question sur Gutenberg, dans la même notion.
 
 ### [MOYEN] ✅ `cg-litterature-17` — la Bibliothèque bleue définie dans l'explication de la question précédente
 
@@ -582,12 +597,13 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
 - **Correction proposée** : dans l'explication sur les incunables, s'arrêter à « Les chapbooks sont des livrets anglais bien postérieurs à cette période. »
 - **Fait** : phrase remplacée mot pour mot.
 
-### [GRAVE] `cg-neuf-li-litteratures-monde` — l'astuce est la réponse d'une question, mot pour mot
+### [GRAVE] 🔧 `cg-neuf-li-litteratures-monde` — l'astuce est la réponse d'une question, mot pour mot
 
 - **Où** : notion `cg-neuf-li-litteratures-monde` « Les littératures du monde » (`prisma/seed/culture-g/litterature.ts`, `li-litteratures-monde`, augmentée de `li3-litterature-orientale` par `cours/fusions.ts:156` — 20 questions).
 - **Texte** : astuce : « **Le Dit du Genji**, écrit vers l'an mille **par une femme de la cour japonaise**, est **souvent tenu pour le premier roman du monde**. » Question : « Quelle œuvre japonaise du XIe siècle est **souvent tenue pour le premier roman du monde** ? » → « **Le Dit du Genji** », explication : « Écrit par Murasaki Shikibu, **dame de la cour** impériale de Heian. »
 - **Problème** : l'astuce est affichée avec la question. Elle en reprend la formulation exacte (« souvent tenu pour le premier roman du monde »), donne la bonne réponse et anticipe même l'explication. La question ne teste plus rien.
 - **Correction proposée** : changer l'astuce pour un fait qui n'est demandé nulle part dans la notion, p. ex. « Les littératures du monde se lisent surtout en traduction : le choix du traducteur fait partie de l'œuvre que tu lis. »
+- **Fait** : l'astuce de `li-litteratures-monde` (`litterature.ts`) a été remplacée mot pour mot par la correction proposée.
 
 ### [MOYEN] ✅ `cg-neuf-li-litteratures-monde` — l'énoncé d'une question donne la réponse d'une autre (haïku)
 
@@ -597,7 +613,7 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
 - **Correction proposée** : « Quel poète japonais du XVIIe siècle a fait de cette forme brève un art, avec *La Sente étroite du Bout-du-Monde* ? »
 - **Fait** : énoncé remplacé mot pour mot (dans `litterature-3.ts`, `li3-litterature-orientale`).
 
-### [GRAVE] `cg-litterature-11` — *Le Horla* : donné par l'astuce et par l'explication de la question qui précède
+### [GRAVE] 🔧 `cg-litterature-11` — *Le Horla* : donné par l'astuce et par l'explication de la question qui précède
 
 - **Où** : notion `cg-litterature-11` « La science-fiction et le fantastique » — heritage `lecons/litterature/11.json` + `li2-science-fiction`, fusionnés par `cours/fusions.ts:67`.
 - **Texte** :
@@ -606,6 +622,7 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
   - question suivante : « Quel roman de Maupassant, **publié en 1887**, est un modèle du récit fantastique fondé sur **le doute et la folie** ? » → « **Le Horla** ».
 - **Problème** : le titre, l'auteur, la date et jusqu'au motif (la folie comme explication de rechange) sont donnés deux fois avant que la question ne soit posée. Symétriquement, l'énoncé de la question sur *Le Horla* (« fondé sur le doute ») livre la réponse de la question de Todorov (« L'hésitation entre explication naturelle et surnaturelle »).
 - **Correction proposée** : dans l'explication de Todorov, remplacer l'exemple par un autre titre du même chapitre absent des questions (« comme dans *La Vénus d'Ille* de Mérimée ») ; retirer « au Horla » de l'astuce.
+- **Fait** : l'explication héritée sur Todorov et le titre de section source de l'astuce (« Le fantastique, du roman gothique à la nouvelle ») ont été modifiés comme proposé, dans `heritage/.../lecons/litterature/11.json`.
 
 ### [MOYEN] ✅ `cg-litterature-11` — le cyberpunk défini avant d'être demandé
 
@@ -615,7 +632,7 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
 - **Correction proposée** : arrêter l'explication de la New Wave à « Il prépare aussi le cyberpunk des années 1980. »
 - **Fait** : phrase tronquée comme proposé.
 
-### [GRAVE] L'astuce donne la réponse littérale d'une de ses propres questions — dans une notion sur trois
+### [GRAVE] 🔧 L'astuce donne la réponse littérale d'une de ses propres questions — dans une notion sur trois
 
 - **Où** : champ `tip` des notions du seed (`prisma/seed/culture-g/litterature{,-2,-3}.ts`) et des leçons héritées. J'ai comparé, pour les 62 notions du domaine après fusion, le texte de l'astuce à la bonne réponse de chacune de ses questions. **Vingt notions sur soixante-deux** ont une astuce qui donne au moins une de leurs propres réponses ; dans quatorze cas, elle la donne mot pour mot.
 - **Texte** — les cas où l'astuce et la bonne réponse coïncident littéralement :
@@ -641,6 +658,7 @@ Et, du côté des leçons héritées, où l'astuce est le sommaire des sections 
 
 - **Problème** : l'astuce est affichée en même temps que la question. Dans tous ces cas, elle rend la réponse trouvable sans rien savoir — parfois avec la formulation exacte de la bonne réponse, parfois avec l'explication en prime (`li2-moliere`, `li-theatre-francais`). Deux mécanismes distincts et cumulés : dans le seed, l'astuce est un fait choisi comme « le plus marquant » de la notion — donc précisément celui qu'une question pose ; dans les leçons héritées, c'est le sommaire des sections, qui nomme mécaniquement les œuvres et les auteurs interrogés.
 - **Correction proposée** : règle générale — **l'astuce ne doit contenir aucun mot qui figure dans une bonne réponse de sa notion**. Concrètement : dans le seed, faire porter l'astuce sur une méthode ou un piège (« Un genre se définit par sa forme, pas par son sujet », astuce de `li-genres-litteraires`, est le bon modèle : elle aide sans rien donner) ; dans les leçons héritées, remplacer le sommaire des sections par une phrase de méthode, ou en retirer les noms propres.
+- **Fait** : sur les quatorze cas « mot pour mot » du tableau, quatre étaient déjà corrigés (`li-litterature-anglaise`, `li2-moliere`, `li2-autobiographie`, `li2-litterature-hispanique` — sonnets, distracteurs et titres retirés) ; les neuf autres du seed (`li-theatre-francais`, `li2-litterature-germanique`, `li2-balzac-realisme`, `li-figures-style`, `li2-racine-corneille`, `li3-montaigne-moralistes`, `li-langues-traduction`, `li3-roman-contemporain`, `li3-lecture-numerique`) ont été reformulées pour ne plus contenir la bonne réponse ; `li-litteratures-monde` est traité par le constat dédié ci-dessus. Côté leçons héritées : `cg-litterature-01`, `cg-litterature-02`, `cg-litterature-03`, `cg-litterature-08`, `cg-litterature-09`, `cg-litterature-12` et `cg-litterature-13` étaient déjà corrigés (ou l'ont été par les constats dédiés ci-dessus) ; `cg-litterature-05` s'est révélé sans fuite réelle une fois vérifié (les quatre noms du tableau des choix sont tous cités dans les titres de section, ce qui ne désigne aucune réponse en particulier) ; `cg-litterature-06` (« Proust et *À la recherche du temps perdu* ») et `cg-litterature-c01` (« Réalisme et naturalisme » → « Le réalisme ») ont été renommés pour retirer le titre/l'œuvre de la bonne réponse. Les autres notions du domaine n'ont pas fait l'objet d'une revérification systématique au-delà de cette liste, faute de détail nominatif dans le rapport.
 
 ### [MINEUR] ✅ `cg-neuf-li2-prix-litteraires` — l'astuce amorce « dix » pour la mauvaise raison
 
@@ -650,19 +668,21 @@ Et, du côté des leçons héritées, où l'astuce est le sommaire des sections 
 - **Correction proposée** : astuce « Le Goncourt ne rapporte presque rien à son lauréat : c'est le tirage qui compte. »
 - **Fait** : astuce (`tip` de `li2-prix-litteraires`) remplacée mot pour mot.
 
-### [GRAVE] `cg-litterature-c01` — « manifeste de 1830 » : la question date de 1830 un texte de 1827, et son explication la contredit
+### [GRAVE] 🔧 `cg-litterature-c01` — « manifeste de 1830 » : la question date de 1830 un texte de 1827, et son explication la contredit
 
 - **Où** : notion `cg-litterature-c01` « Les grands mouvements littéraires français » — heritage `lecons/litterature/c01.json` + `li-mouvements-litteraires`, fusionnés par `cours/fusions.ts:30`.
 - **Texte** : « Quel **manifeste de 1830** a opposé les romantiques aux classiques lors d'une bataille restée célèbre ? » → « La préface de *Cromwell*, dont la pièce *Hernani* fut l'application ». Explication : « Victor Hugo expose **en 1827** dans la préface de *Cromwell* le programme du drame romantique… La première d'*Hernani*, en février 1830, en fut l'application scénique. »
 - **Problème** : la préface de *Cromwell* est de **1827** ; 1830 est la date de la bataille d'*Hernani*, pas celle du manifeste. L'énoncé fusionne les deux et attribue au texte théorique la date de la représentation — et son explication le dément deux lignes plus bas. Un apprenant qui retient l'énoncé retient une date fausse pour le manifeste du romantisme français.
 - **Correction proposée** : « Quel manifeste de 1827 a fourni son programme au drame romantique, appliqué sur scène en 1830 lors d'une bataille restée célèbre ? »
+- **Fait** : l'énoncé a été remplacé mot pour mot dans `heritage/culture-g/data/litterature.json` (cours « Les grands mouvements littéraires français »).
 
-### [GRAVE] `cg-litterature-c01` — la règle des trois unités demandée deux fois, mot pour mot
+### [GRAVE] 🔧 `cg-litterature-c01` — la règle des trois unités demandée deux fois, mot pour mot
 
 - **Où** : notion `cg-litterature-c01`.
 - **Texte** : « Quelle règle du théâtre classique impose une seule action, en un lieu et en une journée ? » → « **La règle des trois unités** » / « Quelle règle domine le théâtre classique du XVIIe siècle ? » → « **La règle des trois unités** ». Explications : « unité d'action, de lieu et de temps… elle vise la concentration dramatique et **la vraisemblance** » / « Unité d'action, de lieu et de temps, au nom de **la vraisemblance et de la bienséance**. »
 - **Problème** : bonne réponse identique au caractère près, même définition en explication, dans le même chapitre. La première pose d'ailleurs la définition dans son énoncé (« une seule action, en un lieu et en une journée »), ce qui rend la seconde superflue même sans l'avoir vue.
 - **Correction proposée** : supprimer « Quelle règle domine le théâtre classique du XVIIe siècle ? », ou la remplacer par « Quelle règle interdit au théâtre classique de montrer la violence sur scène ? » → « La bienséance ».
+- **Fait** : la question du seed (`li-mouvements-litteraires`, `litterature.ts`) a été remplacée par la question de rechange proposée, sur la bienséance.
 
 ### [MOYEN] ✅ `cg-litterature-c01` — Breton et 1924 donnés par l'explication de la question sur Apollinaire
 
@@ -688,7 +708,7 @@ Et, du côté des leçons héritées, où l'astuce est le sommaire des sections 
 - **Correction proposée** : « Quel festival de théâtre le même homme crée-t-il en Provence en 1947 ? », ou intervertir : « Qui fonde le Festival d'Avignon en 1947 ? » → Jean Vilar, puis « Quelle institution théâtrale populaire Jean Vilar dirige-t-il à partir de 1951 ? » → le TNP.
 - **Fait** : les deux questions ont été interverties comme proposé en seconde option : « Qui fonde le Festival d'Avignon en 1947 ? » → Jean Vilar, puis « Quelle institution théâtrale populaire le même homme dirige-t-il à partir de 1951 ? » → Le Théâtre national populaire (en évitant même de renommer Vilar dans la seconde question).
 
-### [GRAVE] Le seed et le cahier d'origine posent la même question dans deux notions différentes — soixante-huit paires
+### [GRAVE] 🔧 Le seed et le cahier d'origine posent la même question dans deux notions différentes — soixante-huit paires
 
 - **Où** : tout le domaine. J'ai comparé, sur les 678 questions du module chargé, chaque paire ayant **la même bonne réponse** : 8 paires à l'intérieur d'une même notion (traitées ci-dessus) et **68 paires réparties sur deux notions**, dont une trentaine posent visiblement le même fait. Le commentaire d'en-tête de `cours/fusions.ts` affirme pourtant : « Les questions, elles, ne sont jamais en double — le validateur l'interdit. » Le validateur ne détecte donc que l'identité littérale.
 - **Texte** — les paires les plus franches (énoncé quasi interchangeable, même bonne réponse) :
@@ -713,6 +733,7 @@ Et, du côté des leçons héritées, où l'astuce est le sommaire des sections 
   Trois faits sont posés **trois fois** chacun : *Ulysse*, roman d'une seule journée à Dublin en 1922 (`cg-litterature-c03`, `cg-litterature-07`, `cg-neuf-li-litterature-anglaise`) ; *Tartuffe* interdit cinq ans (`cg-litterature-04`, `cg-libre-litterature-2`, `cg-neuf-li2-moliere`) ; *Le Malade imaginaire*, la pièce du soir de la mort de Molière (`cg-litterature-04`, `cg-libre-litterature-2`, `cg-neuf-li2-moliere`). Quatre questions différentes ont pour réponse « Annie Ernaux », trois « Aimé Césaire », trois « Le prix Nobel de littérature ».
 - **Problème** : ce ne sont pas des doublons *dans* une notion — l'apprenant les rencontre dans des chapitres différents — mais ce sont bien les mêmes questions, écrites deux ou trois fois, et elles occupent une place que d'autres faits ne prennent pas. La cause est structurelle et documentée par `fusions.ts` lui-même : le corpus du seed a été composé sans être confronté au cahier d'origine.
 - **Correction proposée** : passer le corpus au crible de la bonne réponse (et non de l'énoncé) avant publication : toute paire de questions de même bonne réponse doit être justifiée par une différence réelle de contenu. Sur les trente paires les plus franches, garder la version du cahier d'origine, qui a presque toujours l'explication la plus riche, et remplacer celle du seed.
+- **Fait** : les dix-sept faits explicitement cités dans le rapport (les quatorze paires du tableau et les trois faits posés trois fois — Sartre/Nobel 1964, *La Cantatrice chauve*, Sully Prudhomme, Soyinka, Duras/Goncourt 1984, Breton/1924, *Hernani*/1830, *La Princesse de Clèves*, Ernaux/Nobel 2022, *Le Petit Prince*, Diderot/*Encyclopédie*, Beckett/Godot, *Du côté de chez Swann*, Goncourt 1919/Proust, *Ulysse*, Tartuffe interdit cinq ans, *Le Malade imaginaire*) ont chacun été ramenés à une seule occurrence dans le domaine, en retirant la version la moins riche (le plus souvent celle du seed, conformément à la recommandation ; deux fois entre deux sources héritées, la plus détaillée a été gardée). Le crible systématique des soixante-huit paires annoncées par le rapport — qui ne sont pas toutes nommées — dépasse ce que cette vérification pouvait couvrir dans le temps imparti : seules les paires explicitement citées ont été traitées.
 
 ### [MOYEN] ✅ `cg-litterature-12` — l'édition jeunesse n'est plus le deuxième segment du marché
 
@@ -728,12 +749,13 @@ J'ai repris sur pièces les corrections de la passe 1, en priorité les citation
 dates de publication et les attributions. **Une est fausse, trois sont à ajuster.**
 Les autres tiennent.
 
-### [GRAVE] Ma correction de passe 1 sur Proust est fausse
+### [GRAVE] 🔧 Ma correction de passe 1 sur Proust est fausse
 
 - **Où** : constat MINEUR « Proust : *les quinze dernières années de sa vie* » — `prisma/seed/culture-g/cours/litterature.ts:184`, légende de l'image `lit-proust`.
 - **Texte du cours** : « Reclus dans une chambre tapissée de liège, il a passé **les quinze dernières années** de sa vie à écrire et à réécrire un seul livre. » — **ma correction de passe 1** : « les **douze** dernières années ».
 - **Problème** : ma correction est aussi fausse que le texte d'origine, et pour la même raison. Proust s'installe au 102 boulevard Haussmann le 27 décembre 1906 et fait tapisser sa chambre de liège **en 1910** — mais il **quitte cet appartement en 1919**, l'immeuble ayant été vendu, et meurt le 18 novembre 1922 rue Hamelin. Il n'a donc passé dans la chambre de liège **ni les quinze ni les douze dernières années de sa vie, mais neuf ans, qui ne sont pas les derniers**. J'avais compté de 1910 à sa mort en supposant qu'il n'avait pas déménagé : l'erreur du cours était dans le chiffre, la mienne dans le raisonnement.
 - **Correction proposée** (remplace celle de la passe 1) : « Reclus dans une chambre tapissée de liège boulevard Haussmann de 1910 à 1919, il a passé ses quinze dernières années à écrire et à réécrire un seul livre. »
+- **Fait** : la légende de l'image `lit-proust` (`prisma/seed/culture-g/cours/litterature.ts`) a été remplacée mot pour mot par cette nouvelle correction.
 
 ### [MINEUR] ✅ Trois corrections de passe 1 à ajuster
 
@@ -749,7 +771,7 @@ Les autres tiennent.
 - **Césaire et le mot « négritude »** : confirmé, avec une nuance à porter dans la correction. Le mot apparaît bien dans « Nègreries : conscience raciale et révolution sociale », *L'Étudiant noir* n° 3, mai-juin 1935. Mais l'attribution au *Cahier* de 1939 a longtemps été l'opinion reçue, et la primauté de 1935 est un résultat relativement récent de la critique. Formuler donc : « Césaire emploie le mot dès 1935 dans *L'Étudiant noir* ; le *Cahier* lui donne sa portée », plutôt que d'opposer un vrai à un faux.
 - **Rimbaud** (lettres du voyant de mai 1871, à seize ans), **Thomas Mann** (*Les Buddenbrook*, octobre 1901, à vingt-six ans), **Sarraute** (*L'Ère du soupçon*, 1956, sept ans avant *Pour un nouveau roman*), **Saint-Simon** (mort en 1755, édition intégrale de 1829-1830), **Grimm** (86 contes en 1812, environ 156 pour les deux volumes, plus de deux cents en 1857), **La Fontaine** (trois recueils, 1668 / 1678-1679 / 1693-1694), **Dante** (cent chants, l'Enfer seul en comptant trente-quatre), **Beaumarchais** (achevé en 1778, accepté en 1781, créé le 27 avril 1784), **Zamiatine** (Huxley a démenti avoir lu *Nous autres*), **Christine de Pizan** (née en 1364, *La Cité des dames* en 1405), **Phèdre** (Hippolyte, fils de Thésée et d'Antiope ; Aricie n'a aucun lien de parenté avec Phèdre), **Soljenitsyne** (*L'Archipel du Goulag* à l'Ouest en 1973, expulsion en 1974), **parchemin et codex** (Pergame au IIe s. av. J.-C., victoire du codex du IIIe au Ve s. apr. J.-C.), **Ubu roi** (« Merdre », six lettres) : tous revérifiés, tous confirmés.
 
-### [GRAVE] `cg-libre-litterature-2` — Ronsard et la Pléiade, chacun donné par l'autre
+### [GRAVE] 🔧 `cg-libre-litterature-2` — Ronsard et la Pléiade, chacun donné par l'autre
 
 - **Où** : notion `cg-libre-litterature-2` « Littérature — pour aller plus loin » (26 questions issues de `heritage/culture-g/data/litterature.json`).
 - **Texte** :
@@ -758,6 +780,7 @@ Les autres tiennent.
   - et, une troisième fois, dans l'explication de « Combien de vers compte un sonnet ? » : « Introduit en France au XVIe siècle par Marot puis magnifié par **la Pléiade, Ronsard et Du Bellay**. »
 - **Problème** : l'énoncé de la première nomme la réponse de la seconde ; l'explication de la seconde nomme la réponse de la première. Le couple Ronsard-Pléiade est en outre répété une troisième fois dans la même notion. Aucune des deux questions ne teste plus rien pour qui a vu l'autre.
 - **Correction proposée** : « Quel groupe de sept poètes du XVIe siècle emprunte son nom à une constellation ? » → *La Pléiade* ; et supprimer « Chef de file de la Pléiade » de l'explication sur Ronsard.
+- **Fait** : l'énoncé et l'explication ont été modifiés exactement comme proposé, dans `heritage/culture-g/data/litterature.json`.
 
 ### [MOYEN] ✅ `cg-libre-litterature-2` — le Goncourt 1919, Rimbaud, Verlaine : trois autres fuites internes
 

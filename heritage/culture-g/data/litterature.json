@@ -292,30 +292,6 @@
    "explication": "« Phèdre » est la tragédie la plus célèbre de Jean Racine, créée en 1677. Inspirée d'Euripide et de Sénèque, elle met en scène la passion coupable de Phèdre, épouse de Thésée, pour son beau-fils Hippolyte. Racine y déploie une langue d'une musicalité parfaite et une vision tragique de la passion comme fatalité destructrice. Après « Phèdre », Racine abandonna presque totalement le théâtre profane, devenant historiographe du roi Louis XIV. Avec « Andromaque », « Britannicus » et « Bérénice », il incarne la perfection de la tragédie classique française, face à son grand rival Corneille."
   },
   {
-   "q": "Quelle comédie de Molière, dénonçant la fausse dévotion, fut interdite pendant cinq ans ?",
-   "choix": [
-    "L'Avare",
-    "Le Misanthrope",
-    "Tartuffe",
-    "Les Précieuses ridicules"
-   ],
-   "bonne": 2,
-   "difficulte": 2,
-   "explication": "« Tartuffe ou l'Imposteur » fut créé à Versailles en 1664 et aussitôt interdit sous la pression du parti dévot, qui y voyait une attaque contre la religion. Molière dut batailler cinq ans et récrire sa pièce avant d'obtenir l'autorisation de la jouer publiquement en 1669, où elle triompha. La comédie dénonce l'hypocrisie religieuse à travers Tartuffe, faux dévot qui s'installe chez le crédule Orgon pour capter sa fortune et séduire sa femme. Le nom de Tartuffe est devenu un nom commun désignant un hypocrite. L'affaire illustre les rapports tendus entre théâtre, pouvoir et Église au XVIIe siècle."
-  },
-  {
-   "q": "Pendant la représentation de quelle pièce Molière a-t-il été pris du malaise qui a précédé sa mort ?",
-   "choix": [
-    "Le Malade imaginaire",
-    "L'Avare",
-    "Le Bourgeois gentilhomme",
-    "Les Fourberies de Scapin"
-   ],
-   "bonne": 0,
-   "difficulte": 2,
-   "explication": "Le 17 février 1673, Molière fut pris d'un malaise sur scène lors de la quatrième représentation du « Malade imaginaire », où il jouait lui-même le rôle d'Argan, l'hypocondriaque. Transporté chez lui rue de Richelieu, il mourut quelques heures plus tard, probablement de tuberculose. L'ironie du sort, un homme réellement malade jouant un faux malade, a nourri la légende. Les comédiens étant alors privés de sépulture chrétienne, il fallut l'intervention de Louis XIV pour qu'il soit enterré, de nuit et discrètement. Le fauteuil dans lequel il jouait est conservé à la Comédie-Française."
-  },
-  {
    "q": "En quelle année le prix Goncourt a-t-il été décerné pour la première fois ?",
    "choix": [
     "1889",
@@ -532,7 +508,7 @@
    "explication": "André Breton publia le premier « Manifeste du surréalisme » en 1924, définissant le mouvement comme un « automatisme psychique pur » visant à exprimer le fonctionnement réel de la pensée, hors du contrôle de la raison. Issu de l'expérience dada et marqué par la découverte de Freud, le surréalisme explore le rêve, l'inconscient et le hasard, notamment par l'écriture automatique et le « cadavre exquis ». Autour de Breton gravitèrent Aragon, Éluard, Desnos, ainsi que des peintres comme Dalí, Ernst et Magritte. Surnommé « le pape du surréalisme », Breton excluait volontiers les dissidents. Le mouvement a profondément marqué la poésie et l'art du XXe siècle."
   },
   {
-   "q": "Quel groupe de poètes du XVIe siècle réunissait notamment Ronsard et Du Bellay ?",
+   "q": "Quel groupe de sept poètes du XVIe siècle emprunte son nom à une constellation ?",
    "choix": [
     "Le Parnasse",
     "La Pléiade",
@@ -553,7 +529,7 @@
    ],
    "bonne": 1,
    "difficulte": 2,
-   "explication": "« Mignonne, allons voir si la rose » ouvre la célèbre « Ode à Cassandre » de Pierre de Ronsard, publiée en 1553 et adressée à Cassandre Salviati. Le poème développe le thème du carpe diem hérité d'Horace : comme la rose qui se fane en un jour, la jeunesse passe, il faut donc « cueillir » sa beauté sans attendre. Chef de file de la Pléiade, surnommé « le prince des poètes », Ronsard reprit ce motif dans ses « Sonnets pour Hélène » avec le fameux « Quand vous serez bien vieille, au soir, à la chandelle ». Sa poésie amoureuse reste l'un des sommets de la Renaissance française."
+   "explication": "« Mignonne, allons voir si la rose » ouvre la célèbre « Ode à Cassandre » de Pierre de Ronsard, publiée en 1553 et adressée à Cassandre Salviati. Le poème développe le thème du carpe diem hérité d'Horace : comme la rose qui se fane en un jour, la jeunesse passe, il faut donc « cueillir » sa beauté sans attendre. Surnommé « le prince des poètes », Ronsard reprit ce motif dans ses « Sonnets pour Hélène » avec le fameux « Quand vous serez bien vieille, au soir, à la chandelle ». Sa poésie amoureuse reste l'un des sommets de la Renaissance française."
   },
   {
    "q": "Qui est l'auteur de « Gargantua » et « Pantagruel » ?",
@@ -755,7 +731,7 @@
      }
     },
     {
-     "titre": "Réalisme et naturalisme (seconde moitié du XIXe siècle)",
+     "titre": "Peindre la société telle qu'elle est (seconde moitié du XIXe siècle)",
      "texte": "Vers le milieu du XIXe siècle, en réaction au lyrisme romantique, le réalisme entend représenter la réalité contemporaine sans l'embellir, y compris ses aspects les plus ordinaires ou sordides. Balzac, avec « La Comédie humaine », en est le précurseur : il ambitionne de « faire concurrence à l'état civil » en peignant toute la société. Flaubert porte l'exigence du style à son sommet dans « Madame Bovary » (1857), qui lui vaut un procès pour immoralité. Stendhal, avec « Le Rouge et le Noir », définit le roman comme « un miroir qu'on promène le long d'un chemin ». Le naturalisme, théorisé par Émile Zola dans « Le Roman expérimental » (1880), radicalise cette démarche en s'inspirant des sciences : l'écrivain étudie l'influence de l'hérédité et du milieu social sur les individus, documents et enquêtes à l'appui. Le cycle des Rougon-Macquart (1871-1893), vingt romans dont « L'Assommoir » et « Germinal », en est l'illustration monumentale. Autour de Zola, le groupe de Médan réunit notamment Maupassant, maître de la nouvelle réaliste avec « Boule de suif »."
     },
     {
@@ -825,18 +801,6 @@
      "explication": "La règle des trois unités, unité d'action, de lieu et de temps, structure la tragédie classique française du XVIIe siècle. Héritée d'une lecture de la « Poétique » d'Aristote, elle vise la concentration dramatique et la vraisemblance : l'action représentée doit pouvoir tenir en une journée et un lieu unique. Boileau la résume dans son « Art poétique » : « Qu'en un lieu, qu'en un jour, un seul fait accompli / Tienne jusqu'à la fin le théâtre rempli. » Racine en fit un instrument de perfection, tandis que les romantiques, Hugo en tête, la rejetèrent au XIXe siècle."
     },
     {
-     "q": "Qui a dirigé l'Encyclopédie avec d'Alembert au XVIIIe siècle ?",
-     "choix": [
-      "Voltaire",
-      "Denis Diderot",
-      "Jean-Jacques Rousseau",
-      "Buffon"
-     ],
-     "bonne": 1,
-     "difficulte": 2,
-     "explication": "Denis Diderot dirigea avec le mathématicien d'Alembert l'« Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers », publiée à partir de 1751. Diderot y consacra une vingtaine d'années, poursuivant seul la direction après le retrait de d'Alembert. L'ouvrage, qui compta 17 volumes de textes et 11 volumes de planches, mobilisa environ 150 collaborateurs, dont Voltaire, Rousseau et Montesquieu. Malgré les condamnations et la censure, il diffusa les savoirs techniques et l'esprit critique des Lumières. C'est l'une des plus grandes aventures éditoriales de l'histoire."
-    },
-    {
      "q": "Quel sous-titre Zola a-t-il donné au cycle des Rougon-Macquart ?",
      "choix": [
       "Histoire naturelle et sociale d'une famille sous le Second Empire",
@@ -861,7 +825,7 @@
      "explication": "Guillaume Apollinaire forgea le mot « surréalisme » en 1917, à propos de sa pièce « Les Mamelles de Tirésias » ; un autre mouvement le reprit sept ans plus tard pour se baptiser. Poète de la modernité, Apollinaire publia « Alcools » en 1913, recueil sans ponctuation ouvert par le long poème « Zone », qui contient aussi « Le Pont Mirabeau ». Ses « Calligrammes » dessinent des images avec les mots. Ami de Picasso et défenseur du cubisme, blessé à la tête pendant la Grande Guerre, il mourut de la grippe espagnole en novembre 1918, deux jours avant l'armistice."
     },
     {
-     "q": "Quel manifeste de 1830 a opposé les romantiques aux classiques lors d'une bataille restée célèbre ?",
+     "q": "Quel manifeste de 1827 a fourni son programme au drame romantique, appliqué sur scène en 1830 lors d'une bataille restée célèbre ?",
      "choix": [
       "La préface de Cromwell, dont la pièce Hernani fut l'application",
       "L'Art poétique de Boileau",
@@ -1140,18 +1104,6 @@
      "bonne": 2,
      "difficulte": 2,
      "explication": "Marguerite Duras obtint le prix Goncourt en 1984, à 70 ans, pour « L'Amant », récit largement autobiographique de la liaison d'une adolescente française pauvre avec un riche Chinois dans l'Indochine coloniale des années 1930. Le livre fut un phénomène d'édition, vendu à des millions d'exemplaires et traduit dans le monde entier, puis adapté au cinéma par Jean-Jacques Annaud en 1992. Duras, née près de Saïgon, avait déjà évoqué cette jeunesse dans « Un barrage contre le Pacifique ». Romancière, dramaturge et cinéaste, elle est aussi la scénariste du film « Hiroshima mon amour » d'Alain Resnais."
-    },
-    {
-     "q": "Quel roman de James Joyce, publié en 1922, transpose l'Odyssée dans le Dublin d'une seule journée ?",
-     "choix": [
-      "Finnegans Wake",
-      "Ulysse",
-      "Gens de Dublin",
-      "Portrait de l'artiste en jeune homme"
-     ],
-     "bonne": 1,
-     "difficulte": 3,
-     "explication": "« Ulysse » de l'Irlandais James Joyce parut à Paris en 1922, publié par la libraire Sylvia Beach de Shakespeare and Company. Le roman suit Leopold Bloom dans Dublin pendant la seule journée du 16 juin 1904, chaque épisode faisant écho à un chant de l'Odyssée d'Homère. Joyce y déploie le monologue intérieur et une virtuosité de styles qui révolutionnèrent le roman moderne. Jugé obscène, le livre fut longtemps interdit aux États-Unis et au Royaume-Uni. Les admirateurs de Joyce célèbrent chaque 16 juin le « Bloomsday » à Dublin."
     },
     {
      "q": "Quel poète de la négritude est devenu président du Sénégal puis membre de l'Académie française ?",

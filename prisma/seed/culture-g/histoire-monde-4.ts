@@ -1,5 +1,16 @@
 /**
  * Histoire du monde, quatrième lot — vingt-deux notions.
+ *
+ * Beaucoup de ces notions reprennent le sujet de notions des lots 1 à 3
+ * [audit histoire-monde.md, GRAVE « Le lot 4 est en très large partie une
+ * redite des lots 1, 2 et 3 »]. Le doublon catalogue est déjà résorbé par
+ * `cours/fusions.ts` (FUSIONS / FUSIONS_INTERNES) : au chargement du seed,
+ * les questions des notions listées là sont versées dans la notion ou la
+ * leçon héritée qui traite déjà le sujet (les questions strictement
+ * identiques ne sont pas dupliquées), et la notion source disparaît du
+ * catalogue — voir `hm4-mesopotamie` → `hm2-mesopotamie`, `hm4-monde-musulman`
+ * → leçon 04, etc. Ne pas supprimer ces notions ici : ce serait perdre les
+ * questions inédites que la fusion est chargée de préserver.
  */
 import { notion } from "./commun";
 import type { SeedSkill } from "../../../src/modules/types";
@@ -149,8 +160,8 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
      "Seuls quelques échanges très encadrés subsistaient, notamment à Nagasaki."],
     ["Qui a forcé l'ouverture du Japon en 1853 ?", ["Le commodore Perry", "Les Britanniques, depuis Hong Kong", "Les Russes, par le nord", "Les Néerlandais de Nagasaki"], 0,
      "Ses navires à vapeur, appelés les bateaux noirs, ont marqué les esprits."],
-    ["Qu'est-ce que la restauration Meiji ?", ["Un retour du pouvoir à l'empereur en 1868, suivi d'une modernisation rapide", "Une restauration du shogunat Tokugawa après 1868", "Une réforme militaire de l'armée impériale", "Une révolution populaire menée par les paysans"], 0,
-     "En une génération, le Japon se dote d'une industrie et d'une armée modernes."],
+    ["Quelle réforme de 1871 achève de démanteler l'ordre féodal japonais ?", ["L'abolition des fiefs", "La restauration impériale", "L'adoption d'une constitution", "L'ouverture forcée des ports"], 0,
+     "Les anciens daimyos perdent leur autorité territoriale au profit d'une administration centralisée, organisée en préfectures."],
     ["Quelle guerre le Japon a-t-il gagnée contre la Russie en 1905 ?", ["La guerre russo-japonaise", "La première guerre sino-japonaise", "La guerre de Corée", "La guerre de Mandchourie"], 0,
      "C'est la première victoire d'une puissance asiatique sur une puissance européenne moderne."],
     ["Qu'est-ce que l'ère Shōwa ?", ["Le règne de l'empereur Hirohito, de 1926 à 1989", "La période Meiji tardive, avant 1912", "L'ère Taishō, de 1912 à 1926", "L'après-guerre japonais, à partir de 1945"], 0,
@@ -202,9 +213,7 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
     ["Qu'est-ce qu'un quipu ?", ["Un ensemble de cordelettes nouées servant à enregistrer des données", "Un calendrier inca fondé sur les cycles solaires", "Un instrument de mesure des distances le long des chemins de l'empire", "Une écriture pictographique peinte sur les tissus"], 0,
      "Leur capacité à encoder autre chose que des nombres reste discutée."],
     ["Qu'est-ce que le Machu Picchu ?", ["Un site inca d'altitude construit au XVe siècle", "Une forteresse de la résistance inca contre les Espagnols", "Une cité préinca de la vallée sacrée", "Un centre religieux colonial bâti par les jésuites"], 0,
-     "Il a probablement servi de résidence royale et de centre religieux."],
-    ["Quelle cause a le plus contribué à l'effondrement démographique amérindien ?", ["Les maladies apportées par les Européens", "Les guerres de conquête menées par les Espagnols", "Le travail forcé dans les mines d'argent", "Les famines provoquées par la conquête"], 0,
-     "Variole, rougeole et typhus ont décimé des populations sans immunité.", 3],
+     "Il a probablement servi de résidence royale et de centre religieux.", 3],
   ]),
 
   notion("hm4-empire-byzantin", S, "Byzance, mille ans d'empire",
@@ -321,10 +330,6 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
      "Il explique que le Brésil soit devenu portugais."],
     ["Qui a réalisé le premier tour du monde ?", ["L'expédition de Magellan, achevée par Elcano", "Magellan seul, mort en route", "Francis Drake, un demi-siècle plus tard", "Vasco de Gama, par la route des Indes"], 0,
      "Magellan meurt aux Philippines en 1521 ; Elcano ramène l'unique navire survivant."],
-    ["Qui a conquis l'empire aztèque ?", ["Hernán Cortés", "Francisco Pizarro", "Diego de Almagro", "Pedro de Alvarado"], 0,
-     "Il s'appuie sur les rivalités entre peuples soumis aux Aztèques."],
-    ["Qui a conquis l'empire inca ?", ["Francisco Pizarro", "Hernán Cortés", "Vasco Núñez de Balboa", "Diego de Almagro"], 0,
-     "Il profite d'une guerre de succession entre Atahualpa et Huáscar."],
     ["Qu'est-ce que l'échange colombien ?", ["Le transfert d'espèces, de maladies et de personnes entre continents", "Un accord commercial entre l'Espagne et ses colonies", "Un système de troc entre colons et populations locales", "Un réseau de comptoirs fortifiés sur les côtes"], 0,
      "Il a transformé l'alimentation et la démographie des deux hémisphères."],
     ["Qu'est-ce que le système de l'encomienda ?", ["Une attribution de main-d'œuvre indigène à des colons espagnols", "Une concession de terres accordée aux ordres religieux et aux villes", "Un impôt colonial prélevé chaque année sur les récoltes et le bétail", "Un système de traite des captifs africains"], 0,
@@ -344,7 +349,7 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
     ["Quels continents le commerce triangulaire reliait-il ?", ["Un circuit reliant l'Europe, l'Afrique et les Amériques", "Un commerce entre trois puissances maritimes européennes", "Un échange colonial direct entre métropoles et colonies", "Un système de troc atlantique entre marchands"], 0,
      "De nombreux navires ne suivaient toutefois pas ce schéma en trois étapes."],
     ["Quelle étape de la traite appelle-t-on le passage du milieu ?", ["La traversée atlantique des captifs africains", "Une escale intermédiaire dans les îles du Cap-Vert", "Une route commerciale directe vers les Antilles", "Un port de transit sur la côte africaine"], 0,
-     "La mortalité y atteignait fréquemment quinze pour cent."],
+     "La mortalité y était de l'ordre de douze à treize pour cent, soit environ un déporté sur huit."],
     ["Qu'est-ce que le Code noir ?", ["Un texte de 1685 réglementant l'esclavage dans les colonies françaises", "Une loi d'abolition de la traite négrière", "Un code colonial général appliqué à toutes les colonies", "Un règlement intérieur des plantations sucrières"], 0,
      "Il définissait les esclaves comme des biens meubles."],
     ["Quand la France a-t-elle aboli l'esclavage définitivement ?", ["En 1848", "En 1794", "En 1815", "En 1833"], 0,
@@ -365,22 +370,12 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
     "Amérique, France, Amérique latine.",
     "Une vague révolutionnaire a traversé l'Atlantique entre 1776 et 1825.",
     2, [
-    ["Quand les États-Unis ont-ils déclaré leur indépendance ?", ["Le 4 juillet 1776", "En 1783, au traité de Paris", "En 1774, au premier Congrès", "En 1789"], 0,
-     "La guerre se poursuit jusqu'au traité de Paris de 1783."],
     ["Qui a rédigé l'essentiel de la Déclaration d'indépendance américaine ?", ["Thomas Jefferson", "Benjamin Franklin", "John Adams", "George Washington"], 0,
      "Franklin et Adams y ont apporté des corrections."],
     ["Quel rôle la France a-t-elle joué dans l'indépendance américaine ?", ["Un soutien militaire et financier décisif", "Une neutralité bienveillante jusqu'en 1778", "Un soutien diplomatique sans engagement militaire", "Une opposition initiale, par crainte de l'Angleterre"], 0,
      "L'effort financier a contribué à la crise des finances royales françaises."],
-    ["Qu'est-ce que la Constitution américaine de 1787 ?", ["Le texte fondateur d'un régime fédéral et présidentiel", "Une déclaration de droits inspirée de la Virginie", "Un traité entre les treize États d'origine", "Une charte confédérale remplaçant les articles de 1777"], 0,
-     "Elle est la plus ancienne constitution écrite encore en vigueur."],
     ["Qu'est-ce que le Bill of Rights américain ?", ["Les dix premiers amendements garantissant les libertés fondamentales", "La déclaration d'indépendance de 1776 elle-même", "Une charte des droits propres à chaque État fédéré", "Un préambule constitutionnel énonçant les buts de l'Union"], 0,
      "Ratifié en 1791, il répondait aux réticences de plusieurs États."],
-    ["Qui était Simón Bolívar ?", ["Un dirigeant de l'indépendance de plusieurs pays d'Amérique du Sud", "Un général espagnol vaincu à Ayacucho", "Un président argentin du XIXe siècle", "Un révolutionnaire mexicain contemporain d'Hidalgo"], 0,
-     "La Bolivie porte son nom."],
-    ["Qui était José de San Martín ?", ["Un libérateur de l'Argentine, du Chili et du Pérou", "Un général espagnol resté fidèle à Madrid", "Un chef d'État vénézuélien de la Grande Colombie", "Un révolutionnaire colombien, compagnon d'armes de Bolívar"], 0,
-     "Sa traversée des Andes en 1817 est restée célèbre."],
-    ["Comment le Brésil est-il devenu indépendant ?", ["Par la proclamation d'un empire dirigé par l'héritier portugais", "Par une guerre de libération de dix ans contre Lisbonne", "Par une révolution républicaine menée par l'armée", "Par un accord négocié avec la couronne portugaise"], 0,
-     "Pierre Ier proclame l'indépendance en 1822 et devient empereur."],
     ["Quelle idée circule d'une révolution à l'autre ?", ["La souveraineté du peuple et les droits naturels", "Le nationalisme ethnique des minorités d'Europe centrale", "Le socialisme des premiers penseurs", "Le libre-échange entre les deux rives de l'Atlantique"], 0,
      "Les textes révolutionnaires circulent d'un continent à l'autre en quelques mois."],
     ["Quelle limite ces révolutions ont-elles eue ?", ["Elles ont souvent maintenu l'esclavage et exclu les femmes", "Elles ont échoué militairement face aux armées royales d'Europe", "Elles n'ont pas duré au-delà d'une génération", "Elles ont été purement politiques, sans aucun effet social"], 0,
@@ -457,8 +452,6 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
      "Elle a permis une critique publique inédite du système soviétique."],
     ["Qu'est-ce que le syndicat Solidarność ?", ["Un syndicat polonais indépendant fondé en 1980", "Un mouvement dissident tchèque né de la Charte 77", "Un parti d'opposition hongrois des années 1980", "Une organisation ouvrière est-allemande clandestine"], 0,
      "Lech Wałęsa en était le dirigeant."],
-    ["Quand le mur de Berlin est-il tombé ?", ["Le 9 novembre 1989", "En octobre 1989, à Leipzig", "En décembre 1989, à Noël", "En 1990"], 0,
-     "L'ouverture résulte en partie d'une annonce confuse d'un responsable est-allemand."],
     ["Quand l'URSS a-t-elle été dissoute ?", ["En décembre 1991", "En 1990", "En août 1991, lors du putsch", "En 1992, après les accords"], 0,
      "Le putsch manqué d'août 1991 en avait précipité le processus."],
     ["Quelle lecture peut-on faire de la fin de la guerre froide ?", ["Une combinaison d'essoufflement économique soviétique et de pressions internes", "Une victoire militaire remportée par l'Occident", "Un accord négocié entre les deux blocs à Malte", "Un effondrement imprévisible et sans causes identifiables"], 0,
@@ -475,8 +468,8 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
      "Nehru devient le premier chef du gouvernement indien."],
     ["Qu'est-ce que la conférence de Bandung ?", ["Une réunion afro-asiatique de 1955 affirmant l'émancipation des peuples colonisés", "Un sommet fondateur du mouvement des non-alignés, réuni à Belgrade quelques années plus tard", "Une conférence de l'Organisation des Nations unies consacrée à la décolonisation des territoires", "Un congrès panafricain réuni à Accra"], 0,
      "Elle prépare le mouvement des non-alignés."],
-    ["Quand l'Indonésie a-t-elle proclamé son indépendance ?", ["En 1945", "En 1949", "En 1950", "En 1947"], 0,
-     "Les Pays-Bas ne la reconnaissent qu'en 1949, après un conflit."],
+    ["Quelle date sépare la proclamation de l'indépendance indonésienne de sa reconnaissance par les Pays-Bas ?", ["1945 et 1949", "1949 et 1950", "1947 et 1949", "1945 et 1947"], 0,
+     "Soekarno la proclame le 17 août 1945 ; les Pays-Bas ne la reconnaissent qu'en 1949, après quatre ans de guerre."],
     ["Quelle guerre a marqué la décolonisation française en Asie ?", ["La guerre d'Indochine", "La guerre de Corée", "La guerre du Viêt Nam", "La guerre de Madagascar"], 0,
      "Elle s'achève par la défaite de Diên Biên Phu en 1954."],
     ["Quand la plupart des colonies françaises d'Afrique sont-elles devenues indépendantes ?", ["En 1960", "En 1958", "En 1962", "En 1956"], 0,
@@ -495,14 +488,8 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
     2, [
     ["Qu'est-ce que la guerre du Golfe de 1991 ?", ["Une coalition internationale libérant le Koweït envahi par l'Irak", "Une guerre entre l'Iran et l'Irak, achevée trois ans plus tôt", "Une intervention américaine unilatérale décidée sans l'ONU", "Un conflit régional limité aux frontières du Koweït"], 0,
      "Elle est menée sous mandat des Nations unies."],
-    ["Qu'est-ce que le génocide des Tutsi au Rwanda ?", ["Un génocide ayant fait environ huit cent mille morts en 1994", "Une guerre civile entre l'armée et une rébellion", "Un conflit ethnique régional étendu aux pays voisins du Rwanda", "Une crise humanitaire née de l'afflux de réfugiés dans la région"], 0,
-     "La communauté internationale n'est pas intervenue pour l'arrêter."],
     ["Qu'est-ce que la guerre de Bosnie ?", ["Un conflit de 1992 à 1995 marqué par des nettoyages ethniques", "Une guerre d'indépendance croate achevée dès la fin de 1991", "Un conflit serbo-kosovar réglé par l'OTAN en 1999", "Une guerre civile yougoslave unique, de la Slovénie jusqu'au Kosovo"], 0,
      "Le massacre de Srebrenica a été qualifié de génocide par la justice internationale."],
-    ["Qu'est-ce que l'Organisation mondiale du commerce ?", ["Une organisation régulant le commerce international, créée en 1995", "Un accord douanier limitant les droits de douane européens", "Une institution financière prêtant aux pays en développement des fonds publics", "Un forum économique réunissant chaque année les chefs d'État et les entreprises"], 0,
-     "Elle succède au GATT."],
-    ["Qu'est-ce que la Cour pénale internationale ?", ["Une juridiction permanente jugeant les crimes les plus graves", "Un tribunal de l'ONU créé pour un conflit particulier", "Une cour d'arbitrage réglant les différends entre États", "Un tribunal européen des droits de l'homme siégeant à Strasbourg"], 0,
-     "Créée par le statut de Rome en 1998, elle siège à La Haye."],
     ["Quel événement a marqué le 11 septembre 2001 ?", ["Des attentats aux États-Unis ayant fait près de trois mille morts", "Une attaque contre une ambassade américaine en Afrique de l'Est", "Un attentat commis dans une capitale européenne", "Une crise diplomatique majeure avec le monde arabe"], 0,
      "Ils déclenchent l'intervention en Afghanistan puis une reconfiguration sécuritaire mondiale."],
     ["Qu'est-ce que la crise financière de 2008 ?", ["Une crise partie du marché immobilier américain, devenue mondiale", "Une crise bancaire européenne partie des banques allemandes et suisses", "Une crise de dette souveraine née dans les pays de la zone euro", "Un krach boursier isolé sur les places asiatiques"], 0,
@@ -555,13 +542,14 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
      "Plus de douze millions de personnes y ont été enregistrées entre 1892 et 1954."],
     ["Qu'est-ce que la partition de l'Inde en 1947 ?", ["Un déplacement de plus de dix millions de personnes", "Une migration progressive étalée sur plusieurs décennies", "Un échange de populations organisé par traité international", "Un exode limité aux villes du Pendjab"], 0,
      "Les violences qui l'ont accompagnée ont fait des centaines de milliers de morts."],
-    ["Qu'est-ce que le statut de réfugié ?", ["Une protection définie par la convention de Genève de 1951", "Un statut national temporaire accordé par chaque État membre", "Une protection humanitaire ponctuelle décidée au cas par cas", "Un droit d'asile inconditionnel garanti par les Nations unies"], 0,
-     "Il repose sur une crainte fondée de persécution."],
     ["Qu'est-ce qu'un déplacé interne ?", ["Une personne déplacée à l'intérieur de son propre pays", "Un migrant économique installé dans une grande ville", "Un réfugié non enregistré par les autorités du pays d'accueil", "Un demandeur d'asile en attente d'une décision"], 0,
      "Ils sont plus nombreux que les réfugiés au sens strict."],
+    ["Qu'est-ce que le statut de réfugié ?", ["Une protection définie par la convention de Genève de 1951", "Un statut national temporaire accordé par chaque État membre", "Une protection humanitaire ponctuelle décidée au cas par cas", "Un droit d'asile inconditionnel garanti par les Nations unies"], 0,
+     "Il repose sur une crainte fondée de persécution."],
     ["Quelle part de la population mondiale vit hors de son pays de naissance ?", ["Environ trois à quatre pour cent", "Environ dix pour cent, soit huit cents millions de personnes", "Environ un pour cent", "Environ quinze pour cent, en forte hausse"], 0,
      "Cette proportion reste faible, mais elle a augmenté de moitié depuis 1970, où elle était d'environ deux et demi pour cent."],
     ["Que montre l'histoire des migrations ?", ["La mobilité est une constante des sociétés humaines", "Les migrations sont un phénomène récent et moderne", "Les sociétés sont majoritairement sédentaires", "Les déplacements sont presque toujours contraints"], 0,
      "Les périodes de fermeture des frontières sont historiquement récentes.", 3],
   ]),
+
 ];

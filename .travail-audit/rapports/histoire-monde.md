@@ -1,5 +1,7 @@
 # Histoire du monde
 
+> ÉTAT (vérification des 17 [GRAVE], **terminée**) : les 17 constats [GRAVE] ont été vérifiés un par un contre le code actuel. 7 étaient déjà corrigés (✅) par une session antérieure non journalisée dans ce rapport ; 9 ont été corrigés dans cette passe (🔧) ; 1 a été écarté (⏭️) — le doublon massif du lot 4 s'est révélé déjà résorbé à l'exécution par un mécanisme existant hors périmètre (`prisma/seed/culture-g/cours/fusions.ts`), et le restructurer manuellement aurait cassé ce mécanisme sans bénéfice. Détail dans chaque constat ci-dessous.
+>
 > ÉTAT (session 2, **terminée**) : périmètre complet lu. Session 2 a couvert ce qui manquait — les **23 leçons** `heritage/culture-g/data/lecons/histoire-monde/01..23.json` (115 sections, 114 questions de quiz) et les **3 cours** du JSON héritage — puis a mené la **passe 2** sur l'ensemble : relecture de la fin de `histoire-monde-4.ts` et `-3.ts` (zone la plus faible de la session 1), et croisement systématique des 922 énoncés du domaine. Rien ne reste à lire.
 >
 > ÉTAT (session 1, close) : Fichiers lus : `prisma/seed/culture-g/histoire-monde.ts`, `histoire-monde-2.ts`, `histoire-monde-3.ts`, `histoire-monde-4.ts` (intégralement), `prisma/seed/culture-g/cours/histoire-monde.ts` (intégralement), `heritage/culture-g/data/histoire-monde.json` (66 questions sur 66, 3 cours **non lus**). Reste à lire : les 3 cours du JSON héritage, et **les 23 leçons** `heritage/culture-g/data/lecons/histoire-monde/01..23.json` (aucune ouverte). **Passe 1 seulement** — la seconde passe n'a pas été faite.
@@ -22,7 +24,7 @@
 
 ## Constats
 
-### [GRAVE] Le lot 4 est en très large partie une redite des lots 1, 2 et 3
+### [GRAVE] ⏭️ Le lot 4 est en très large partie une redite des lots 1, 2 et 3
 
 - **Où** : `prisma/seed/culture-g/histoire-monde-4.ts` (tout le fichier), contre `histoire-monde.ts`, `-2.ts`, `-3.ts`
 - **Texte** : `hm4-mesopotamie` / `hm2-mesopotamie`, explication identique mot pour mot : « Nos soixante minutes et nos trois cent soixante degrés en descendent directement. »
@@ -45,8 +47,9 @@
   - `hm4-migrations-histoire` ↔ `hm3-migrations-histoire` (Ellis Island 1892-1954, émigration européenne, convention de Genève 1951, déplacés internes) ;
   - `hm4-monde-contemporain` ↔ `hm-genocide-crimes`, `hm3-droit-international`, `hm-organisations-internationales` (Rwanda 1994 — **4e occurrence** ; CPI 1998 — **3e** ; OMC 1995 ; 11 septembre 2001).
 - **Correction proposée** : supprimer le lot 4 en tant que lot, et ne conserver que les notions qui apportent réellement du neuf (`hm4-perse`, `hm4-ottomans`, `hm4-nationalismes`, `hm4-inde-ancienne`, et les seules questions inédites des autres). Un apprenant qui révise le domaine entier rencontre aujourd'hui trois fois « Qui unifie les tribus mongoles en 1206 ? ».
+- **Écarté** : ce doublon catalogue est déjà résorbé par un mécanisme existant, `prisma/seed/culture-g/cours/fusions.ts` (`FUSIONS` et `FUSIONS_INTERNES`, hors périmètre de cette vérification) — il liste très précisément toutes les notions citées ici (`hm4-mesopotamie` → `hm2-mesopotamie`, `hm4-monde-musulman` → leçon 04, `hm2-byzance`/`hm2-decouvertes`/`hm2-chine-imperiale` → leçons héritées, etc.) et, au chargement du seed, verse les questions de chaque notion source dans la notion ou la leçon canonique (une question strictement identique n'est pas dupliquée), puis retire la notion source du catalogue. J'ai d'abord supprimé ces notions du code source par erreur avant de découvrir ce mécanisme ; je les ai réintégrées telles quelles, car les supprimer aurait détruit les questions inédites que la fusion doit précisément préserver. `hm4-ottomans` est également une clé de fusion (vers la même leçon que `hm4-monde-musulman`) alors que la correction proposée voulait le garder comme notion autonome : je l'ai laissé tel quel plutôt que de trancher ce point d'architecture, hors périmètre. Les recouvrements concrets cités dans ce constat qui affectent des questions individuelles (Meiji, chute du mur, Indonésie, effondrement démographique amérindien, passage du milieu) sont traités un par un plus bas.
 
-### [GRAVE] Doublons francs à l'intérieur des lots 1 à 3
+### [GRAVE] 🔧 Doublons francs à l'intérieur des lots 1 à 3
 
 - **Où** : `histoire-monde.ts` / `histoire-monde-2.ts` / `histoire-monde-3.ts`
 - **Texte** : `hm-alexandre` « Quel philosophe fut le précepteur d'Alexandre ? » — `hm2-alexandre-hellenistique` « Qui fut le précepteur d'Alexandre le Grand ? » (mêmes quatre choix). Idem « Quelle bataille de 331 … ? » dans les deux notions.
@@ -64,34 +67,39 @@
   - doctrine Monroe 1823 : `hm-independances-amerique-latine` ↔ `hm2-etats-unis` ; Libertador : `hm-independances-amerique-latine` ↔ `hm2-amerique-latine` ;
   - **phrase réemployée mot pour mot** : « Marchandises vers l'Afrique, captifs vers l'Amérique, denrées coloniales vers l'Europe » — explication de `hm-routes-echanges` et de `hm3-esclavage-abolitions`.
 - **Correction proposée** : fusionner `hm-alexandre` et `hm2-alexandre-hellenistique` ; arbitrer un « propriétaire » par fait (Tchernobyl → `hm3-russie-urss` ; Rwanda → `hm-genocide-crimes` ; partition de l'Inde → `hm3-inde-pakistan`) et supprimer ailleurs.
+- **Fait** : le précepteur d'Alexandre était déjà réglé (retiré de `hm2-alexandre-hellenistique` en session 2) ; la question restante sur la bataille de 331 a aussi été retirée de `hm2-alexandre-hellenistique` (conservée dans `hm-alexandre`, qui porte le cours), ce qui couvre l'essentiel du recouvrement entre les deux notions sans en supprimer une entièrement — chacune garde du contenu propre (Séleucides, Ératosthène, Aristarque côté `hm2-alexandre-hellenistique` ; diadoques, Lagides, mort d'Alexandre côté `hm-alexandre`). Tchernobyl retiré de `hm-chute-urss` (conservé dans `hm3-russie-urss`). Rwanda retiré de `hm3-afrique-independance` et de `hm4-monde-contemporain` (conservé dans `hm-genocide-crimes`). Partition/Cachemire : le territoire disputé du Cachemire retiré de `hm-inde-independance` (conservé dans `hm3-inde-pakistan`), et à l'inverse le bilan chiffré de la partition retiré de `hm3-inde-pakistan` pour ne garder que la version la plus complète, dans `hm-inde-independance`. Les autres doublons de la liste (guerres puniques, Lagides, génocide arménien, Nuremberg, guerre d'Algérie, colonies portugaises, doctrine Monroe, Libertador, phrase des routes d'échanges) n'avaient pas de correction individuelle proposée et n'ont pas été retouchés — seuls les quatre arbitrages explicitement nommés l'ont été.
 
-### [GRAVE] Question à deux bonnes réponses : Amritsar et Jallianwala sont le même massacre
+### [GRAVE] ✅ Question à deux bonnes réponses : Amritsar et Jallianwala sont le même massacre
 
 - **Où** : `prisma/seed/culture-g/histoire-monde.ts` — `hm-inde-independance`
 - **Texte** : « Quel massacre de 1919 marque une rupture avec les Britanniques ? » — `["Amritsar", "Calcutta", "Chauri Chaura", "Jallianwala"]`, bonne = 0.
 - **Problème** : Jallianwala Bagh est le jardin d'Amritsar où le massacre a eu lieu ; l'événement est nommé indifféremment « massacre d'Amritsar » ou « massacre de Jallianwala Bagh ». Le distracteur 3 est donc exact lui aussi. Un candidat qui connaît le sujet peut être compté faux.
 - **Correction proposée** : remplacer « Jallianwala » par « Chandpur » ou « Lahore ».
+- **Fait** : déjà corrigé — le choix « Jallianwala » a été remplacé par « Lahore » dans `hm-inde-independance`.
 
-### [GRAVE] Erreur de fait dans l'énoncé : les Mau Mau ne sont pas des colons
+### [GRAVE] ✅ Erreur de fait dans l'énoncé : les Mau Mau ne sont pas des colons
 
 - **Où** : `prisma/seed/culture-g/histoire-monde.ts` — `hm-decolonisation-afrique`
 - **Texte** : « Quel mouvement **de colons kényans** est réprimé dans les années 1950 ? » → « La révolte des Mau Mau ».
 - **Problème** : les Mau Mau étaient un mouvement insurrectionnel kikuyu **contre** la colonisation et les colons britanniques. Écrire « mouvement de colons » inverse exactement le sens de l'événement. Le cours de la même notion dit correctement « la révolte des Mau Mau est écrasée dans les années 1950 » : la question contredit son propre cours.
 - **Correction proposée** : « Quel mouvement insurrectionnel kényan est réprimé par les Britanniques dans les années 1950 ? »
+- **Fait** : déjà corrigé — l'énoncé de `hm-decolonisation-afrique` reprend exactement cette formulation.
 
-### [GRAVE] Le cours et la question d'une même notion donnent deux chiffres différents pour la mortalité du passage du milieu
+### [GRAVE] 🔧 Le cours et la question d'une même notion donnent deux chiffres différents pour la mortalité du passage du milieu
 
 - **Où** : `histoire-monde-2.ts` — `hm2-afrique-precoloniale` (question) et `cours/histoire-monde.ts` — `hm2-afrique-precoloniale`, section « Des États et une catastrophe »
 - **Texte** : question — « Environ **un dixième** mourut pendant la traversée. » ; cours — « environ douze millions de personnes […] dont **près de deux millions** moururent pendant la traversée ».
 - **Problème** : 2 sur 12, c'est un sixième (≈ 16 %), pas un dixième. Le cours donne l'ordre de grandeur retenu par les historiens (≈ 15 %) ; la question le sous-estime d'un tiers. Et le domaine propose **trois** valeurs pour ce même fait : « environ un dixième » (`hm2-afrique-precoloniale`), « dix à quinze pour cent » (`hm3-esclavage-abolitions`, question), « fréquemment quinze pour cent » (`hm4-traite-esclavage`), le cours de `hm3` disant « de l'ordre de quinze pour cent ».
 - **Correction proposée** : aligner partout sur « de l'ordre de quinze pour cent », et corriger l'explication de `hm2-afrique-precoloniale` : « Environ une personne sur sept mourut pendant la traversée. »
+- **Fait** : la question de `hm2-afrique-precoloniale` était déjà harmonisée sur « environ un déporté sur huit, soit 12 à 13 % » (session précédente). J'ai aligné le reste sur cette valeur plutôt que sur « quinze pour cent » — voir le constat plus bas (« cinquième valeur ») qui explique pourquoi cette proposition de correction allait dans le mauvais sens : la leçon 22, seule source à donner les deux termes du calcul, indique 12 à 13 %. Cours de `hm2-afrique-precoloniale` corrigé : « près de deux millions » → « environ un million et demi », avec la mention « 12 à 13 %, un déporté sur huit ». Cours et question de `hm3-esclavage-abolitions` corrigés dans le même sens (« quinze pour cent » / « dix à quinze pour cent » → « douze à treize pour cent, un déporté sur huit »). `hm4-traite-esclavage` (qui donnait « fréquemment quinze pour cent ») a aussi été aligné.
 
-### [GRAVE] Trois dates contradictoires pour la fin de l'apartheid
+### [GRAVE] 🔧 Trois dates contradictoires pour la fin de l'apartheid
 
 - **Où** : `histoire-monde.ts` `hm-decolonisation-afrique` (question + cours) ; `histoire-monde-3.ts` `hm3-afrique-independance` ; `histoire-monde-4.ts` `hm4-decolonisations` ; `cours/histoire-monde.ts` `hm2-colonisation` section « Le démantèlement » et `hm3-afrique-independance`
 - **Texte** : question `hm-decolonisation-afrique` — « Quel régime sud-africain prend fin **en 1994** ? » ; question `hm4-decolonisations` — « Institué en 1948, il **prend fin en 1991**. » ; question `hm3-afrique-independance` — « **En 1991-1994** » ; cours `hm2-colonisation` — « ne prendra fin **qu'en 1991** » ; cours `hm-decolonisation-afrique` — « Il faut attendre **1994** […] pour qu'il prenne fin ».
 - **Problème** : le même corpus donne trois réponses à la même question, et deux cours se contredisent frontalement. Un apprenant qui répond « 1991 » sur une notion sera compté faux sur une autre.
 - **Correction proposée** : retenir partout la formulation de `hm3` — abrogation des lois de ségrégation en 1991, fin du régime avec les élections d'avril 1994 — et reformuler la question de `hm-decolonisation-afrique` en « Quelle date marque la fin du régime d'apartheid, avec les premières élections multiraciales ? ».
+- **Fait** : la question de `hm-decolonisation-afrique` était déjà reformulée (« Quel régime sud-africain s'éteint avec les élections de 1994 ? »), et les cours de `hm2-colonisation` et `hm3-afrique-independance` étaient déjà alignés (1991 abrogation / 1994 élections). Seul le cours de `hm-decolonisation-afrique` disait encore « il faut attendre 1994 […] pour qu'il prenne fin » sans mentionner 1991 : corrigé en « Ses lois sont abrogées en 1991 ; il faut attendre les premières élections multiraciales de 1994 […] pour que le régime prenne fin tout à fait. »
 
 ### [MOYEN] ✅ Chiffres discordants pour les déplacés de la partition de 1947
 
@@ -475,7 +483,7 @@ est traitée avec la précision qu'elle exige : les fusillades de masse *avant* 
 gaz, Wannsee présentée comme une **coordination administrative** et non comme la décision
 d'exterminer, la collaboration de Vichy nommée.
 
-### [GRAVE] La ziggourat du lot 4 : l'énoncé ne pose pas la question à laquelle les choix répondent, et l'explication répond à une autre question
+### [GRAVE] ✅ La ziggourat du lot 4 : l'énoncé ne pose pas la question à laquelle les choix répondent, et l'explication répond à une autre question
 
 - **Où** : `prisma/seed/culture-g/histoire-monde-4.ts:20` — `hm4-mesopotamie` ; à comparer avec `histoire-monde-2.ts:20` — `hm2-mesopotamie` et `heritage/.../lecons/histoire-monde/08.json` quiz 5
 - **Texte** : `["À quoi servait une ziggourat mésopotamienne ?", ["Un temple à degrés mésopotamien", "Une tour de défense", "Un palais royal", "Un tombeau monumental"], 0, "Celle d'Ur est la mieux conservée aujourd'hui."]`
@@ -483,6 +491,7 @@ d'exterminer, la collaboration de Vichy nommée.
   1. L'énoncé demande **à quoi elle servait** ; les quatre choix sont des **définitions** d'édifices. La bonne réponse « Un temple à degrés mésopotamien » ne dit pas un usage, elle dit ce que c'est.
   2. La bonne réponse est **la seule à reprendre l'adjectif de l'énoncé** (« ziggourat *mésopotamienne* » → « temple à degrés *mésopotamien* »). C'est exactement le tell que la consigne demande de traquer : la formulation trahit la réponse.
   3. L'explication, « Celle d'Ur est la mieux conservée aujourd'hui », **n'explique rien de la réponse** — et elle donne mot pour mot la solution de l'autre question du corpus, `hm2-mesopotamie` : « Quelle ziggourat est la mieux conservée de Mésopotamie ? » → « Celle d'Ur ». Un apprenant qui fait le lot 4 avant le lot 2 a la réponse d'avance.
+- **Fait** : déjà corrigé — `hm4-mesopotamie` pose désormais « Qu'est-ce qu'une ziggourat ? » avec des choix tous définitionnels, et l'explication n'est plus la réponse littérale de `hm2-mesopotamie`.
 - **Correction proposée** : « Qu'est-ce qu'une ziggourat ? » — `["Une tour à degrés surmontée d'un sanctuaire", "Une tour de défense", "Un palais royal", "Un tombeau monumental"]`, explication : « Bâtie en briques crues avec un parement de briques cuites, elle dominait le temple de la cité. Le souvenir de ces tours a nourri le récit biblique de la tour de Babel. » (formulation reprise de la leçon 08, qui est juste et complète).
 
 ### [MOYEN] ✅ Question du cunéiforme dupliquée entre le seed et le cahier, à un mot près
@@ -507,7 +516,7 @@ elle signale que **le découpage en 282 articles est une numérotation moderne d
 Scheil, absente de l'original** — un scrupule qu'aucune question du seed n'a. Les
 sources Wikipédia sont déclarées en fin de fichier (présentes à partir de `08.json`).
 
-### [GRAVE] L'effondrement démographique amérindien : quatre fois la même question, dont deux à choix identiques
+### [GRAVE] 🔧 L'effondrement démographique amérindien : quatre fois la même question, dont deux à choix identiques
 
 - **Où** : `histoire-monde-2.ts:328` (`hm2-decouvertes`), `histoire-monde-3.ts:404` (`hm3-epidemies-histoire`), `histoire-monde-4.ts:208` (`hm4-amerique-precolombienne`), `heritage/.../lecons/histoire-monde/09.json` quiz 5
 - **Texte** :
@@ -517,6 +526,7 @@ sources Wikipédia sont déclarées en fin de fichier (présentes à partir de `
   - leçon 09 — « Quelle a été la principale cause de l'effondrement démographique des populations amérindiennes après la conquête ? » → « Les épidémies apportées par les Européens »
 - **Problème** : `hm2` et `hm4` ont **les trois mêmes distracteurs, dans le même ordre**, et une bonne réponse qui ne diffère que par sa formulation ; la question de la leçon est la même à la troisième reformulation près. Seule `hm3` change réellement d'objet (quelle maladie, et non quelle cause). Le constat de la session 1 signalait le couple `hm2`/`hm4` ; il faut y ajouter la leçon du cahier. Un apprenant qui parcourt le domaine répond quatre fois « les maladies ».
 - **Correction proposée** : conserver `hm3` (la variole) et la question de la leçon 09, qui est celle dont l'explication est la plus complète (chiffres de 1519 et 1618, rôle des alliances tlaxcaltèques et de la guerre civile inca) ; supprimer `hm2` et `hm4`.
+- **Fait** : question supprimée de `hm2-decouvertes` et de `hm4-amerique-precolombienne` ; conservée dans `hm3-epidemies-histoire` et dans la leçon 09, comme demandé.
 
 ### [MINEUR] ✅ Deux graphies de Tawantinsuyu dans la même section
 
@@ -542,12 +552,13 @@ maya sont explicitement laissées ouvertes (« les historiens discutent encore �
 force de Cortés est attribuée aux alliances, aux maladies et à la guerre civile inca, non
 à sa poignée de soldats.
 
-### [GRAVE] Ce qui a été découvert en 1974, ce n'est pas « l'entrée du mausolée »
+### [GRAVE] ✅ Ce qui a été découvert en 1974, ce n'est pas « l'entrée du mausolée »
 
 - **Où** : `10.json` — section « Qin Shi Huang et la naissance de l'empire » ; contredit `prisma/seed/culture-g/cours/histoire-monde.ts:533`
 - **Texte** : leçon 10 — « Son mausolée, **dont l'entrée fut découverte en 1974** près de Xi'an, a livré la fameuse armée de terre cuite. » ; cours du seed — « **Découverte fortuitement en 1974 par des paysans creusant un puits**, elle n'a été fouillée que partiellement, et le tombeau lui-même n'a pas été ouvert. »
 - **Problème** : erreur de fait. Le tumulus du mausolée de Qin Shi Huang n'a jamais été perdu — il est mentionné par les sources chinoises depuis l'Antiquité — et sa chambre funéraire n'a toujours pas été ouverte : il n'y a donc pas d'« entrée découverte en 1974 ». Ce que des paysans ont trouvé en creusant un puits en mars 1974, à environ 1,5 km à l'est du tumulus, ce sont les fosses de l'armée de terre cuite. La leçon transforme la découverte d'un dépôt annexe en ouverture d'un tombeau, et contredit sur ce point le cours du seed, qui est juste et plus prudent.
 - **Correction proposée** : « L'armée de terre cuite, découverte fortuitement en 1974 par des paysans creusant un puits près de Xi'an, gardait les abords de son mausolée, dont la chambre funéraire n'a jamais été ouverte. »
+- **Fait** : déjà corrigé — la leçon 10 reprend cette formulation presque mot pour mot.
 
 ### [SAIN] Leçon 10 — Chine impériale : le reste tient, dynastie par dynastie
 
@@ -562,7 +573,7 @@ les examens impériaux sont dits « **développés** » par les Tang (et non inv
 l'arrêt des expéditions de Zheng He est expliqué par un arbitrage stratégique (frontières
 du nord contre marine lointaine) plutôt que par un repli inexpliqué.
 
-### [GRAVE] Meiji : la même question posée deux fois dans le seed, avec le même distracteur
+### [GRAVE] 🔧 Meiji : la même question posée deux fois dans le seed, avec le même distracteur
 
 - **Où** : `prisma/seed/culture-g/histoire-monde.ts:150` (`hm-meiji-japon`) et `prisma/seed/culture-g/histoire-monde-4.ts:154` (`hm4-japon-histoire`) ; s'y ajoute `11.json` quiz 5
 - **Texte** :
@@ -571,6 +582,7 @@ du nord contre marine lointaine) plutôt que par un repli inexpliqué.
   - leçon 11 — « Quel événement de 1868 met fin au shogunat et ouvre une période de modernisation accélérée du Japon ? » → « La restauration de Meiji »
 - **Problème** : deux questions du seed disent littéralement la même chose, avec la même bonne réponse (pouvoir impérial + modernisation) et le même distracteur principal (le retour du shogunat). Dans les deux cas la bonne réponse est aussi la plus longue et la seule à porter une date. Le fait est en outre traité une troisième fois par la leçon du cahier. C'est le cas le plus net du recouvrement `hm-*` / `hm4-*` signalé en session 1 : ici il ne s'agit pas de deux questions voisines sur un même thème, mais du même item écrit deux fois.
 - **Correction proposée** : supprimer la question de `hm4-japon-histoire` ; si le lot 4 doit garder un item sur Meiji, l'orienter vers ce que les autres ne demandent pas — l'abolition des fiefs en 1871 ou la révolte de Satsuma en 1877, tous deux traités par la leçon 11 et par aucune question.
+- **Fait** : `hm4-japon-histoire` est une clé de fusion vers `hm2-japon-histoire` (`cours/fusions.ts`, hors périmètre) et ne pouvait donc pas être simplement supprimée sans perdre ce mécanisme (voir le premier constat de ce rapport). La question dupliquée sur la restauration Meiji a été remplacée par « Quelle réforme de 1871 achève de démanteler l'ordre féodal japonais ? » → l'abolition des fiefs, comme proposé.
 
 ### [SAIN] Leçon 11 — Japon : exacte, y compris sur les dates fines
 
@@ -684,12 +696,13 @@ disparition de l'URSS le **26 décembre 1991**. **Aucune erreur.** C'est la seul
 domaine à donner la date exacte de disparition de l'URSS ; les quatre notions du seed qui
 posent la question se contentent de « décembre 1991 ».
 
-### [GRAVE] De Gaulle n'est pas revenu au pouvoir en septembre 1958
+### [GRAVE] ✅ De Gaulle n'est pas revenu au pouvoir en septembre 1958
 
 - **Où** : `17.json` — section 5 « La guerre d'Algérie », et quiz question 5 (explication) — l'erreur est donc écrite deux fois
 - **Texte** : section 5 — « **en septembre 1958, le retour au pouvoir de Charles de Gaulle** met fin à la Quatrième République et fonde la Cinquième » ; question 5 — « provoquant **en septembre 1958 le retour au pouvoir** de Charles de Gaulle et la fin de la Quatrième République ».
 - **Problème** : erreur de date sur un fait central. De Gaulle revient au pouvoir en **mai-juin 1958** : appelé après le 13 mai, il est investi président du Conseil le **1er juin 1958**. Septembre 1958, c'est le référendum constitutionnel du 28 septembre ; la Quatrième République prend fin avec la promulgation de la Constitution le **4 octobre 1958**. La phrase agglomère trois moments distincts sous une seule date fausse pour les deux premiers. Un apprenant qui révise l'histoire de France dans le même Atelier trouvera ailleurs juin 1958.
 - **Correction proposée** : « la crise emporte les institutions françaises : de Gaulle est investi président du Conseil le 1er juin 1958, la Constitution est approuvée par référendum le 28 septembre et la Cinquième République naît le 4 octobre. »
+- **Fait** : déjà corrigé — la leçon 17 (section 5 et explication de la question 5) reprend cette formulation.
 
 ### [MINEUR] ✅ Le bilan algérien plafonné à 250 000 morts, sans dire que le chiffre est un enjeu de mémoire
 
@@ -750,12 +763,13 @@ différentes ») ; elle démonte le mot « révolution » néolithique tout en l
 refuse la cause unique pour la disparition de Néandertal (« sans qu'on sache trancher entre
 concurrence, changements climatiques et absorption progressive »).
 
-### [GRAVE] Deux leçons du même cahier datent différemment la conquête perse de l'Égypte
+### [GRAVE] ✅ Deux leçons du même cahier datent différemment la conquête perse de l'Égypte
 
 - **Où** : `19.json` — section 1 et explication de la question 1, contre `01.json` — section 5, frise « Les conquérants de l'Égypte » et choix 0 de la question 5
 - **Texte** : leçon 19 — « Son fils Cambyse II achève l'ensemble en conquérant l'Égypte **entre 527 et 522** » (repris tel quel dans l'explication de la question 1) ; leçon 01 — « le Perse Cambyse ne conquière l'Égypte **en 525 avant Jésus-Christ** », frise « **525 av. J.-C.** — Conquête perse de Cambyse », et choix de QCM « La conquête de Cambyse **en 525 av. J.-C.** ».
 - **Problème** : contradiction interne au cahier, sur cinq occurrences. Et c'est la leçon 19 qui a tort : Cambyse II règne de 530 à 522, et la conquête de l'Égypte se joue en **525** (bataille de Péluse, prise de Memphis). « Entre 527 et 522 » ne correspond ni à la campagne, ni au règne, ni à aucune chronologie courante. La gravité vient du fait qu'un apprenant peut rencontrer la question de la leçon 01, dont **525 est un choix**, après avoir lu la leçon 19.
 - **Correction proposée** : leçon 19 — « Son fils Cambyse II achève l'ensemble en conquérant l'Égypte en 525, avant de mourir en 522. »
+- **Fait** : déjà corrigé — la leçon 19 (texte et explication de la question 1) reprend cette formulation.
 
 ### [MOYEN] ✅ « Qui a fondé l'empire achéménide ? » : quatre choix identiques dans le seed et dans la leçon
 
@@ -828,12 +842,13 @@ faute de recensements fiables ».
 « **quatorze** siècles », ce qui est le bon ordre de grandeur et confirme que c'est le cours
 du seed (« quinze siècles » pour Galien) qu'il faut corriger, non la question.
 
-### [GRAVE] Mortalité du passage du milieu : cinquième valeur, et la correction proposée en session 1 est à revoir
+### [GRAVE] 🔧 Mortalité du passage du milieu : cinquième valeur, et la correction proposée en session 1 est à revoir
 
 - **Où** : `22.json` — section 3 et explication de la question 4 ; à rapprocher du constat « le cours et la question d'une même notion donnent deux chiffres différents » plus haut
 - **Texte** : leçon 22 — « La mortalité moyenne des déportés est estimée **entre 11,9 et 13,25 %** », « soit environ **un déporté sur huit**, pour une traversée durant en moyenne **66 jours** » ; et « certaines bases de données recensant environ **douze millions et demi d'embarquements pour un peu moins de onze millions de débarquements** ».
 - **Problème** : le domaine porte désormais **cinq** valeurs pour le même fait — « environ un dixième » (`hm2-afrique-precoloniale`), « dix à quinze pour cent » (`hm3-esclavage-abolitions`), « de l'ordre de quinze pour cent » (cours `hm3`), « fréquemment quinze pour cent » (`hm4-traite-esclavage`), « 11,9 à 13,25 % » (leçon 22). Surtout, **la correction proposée en session 1 — « aligner partout sur de l'ordre de quinze pour cent » — irait contre la seule source du corpus qui donne une fourchette sourcée et un dénominateur explicite.** La leçon 22 est la seule à fournir les deux termes du calcul (12,5 millions embarqués, un peu moins de 11 millions débarqués) ; l'écart correspond à environ 12-14 %, pas 15 %, et sûrement pas « un sixième » comme le laisse calculer le cours du seed (« environ douze millions […] dont près de deux millions moururent »).
 - **Correction proposée** : retenir partout la formulation de la leçon 22 — « environ un déporté sur huit, soit de 12 à 13 % » — et corriger le cours de `hm3-esclavage-abolitions`, le cours de `hm2-afrique-precoloniale` (« près de deux millions » → « environ un million et demi ») et la question de `hm4-traite-esclavage`. La question de `hm2-afrique-precoloniale` (« environ un dixième »), que la session 1 jugeait la plus fautive, est en réalité la moins éloignée.
+- **Fait** : la question de `hm2-afrique-precoloniale` était déjà passée à « environ un déporté sur huit, soit 12 à 13 % » (session précédente, voir plus haut). Complété : cours de `hm2-afrique-precoloniale` (« près de deux millions » → « environ un million et demi », avec « 12 à 13 %, un déporté sur huit ») ; cours et question de `hm3-esclavage-abolitions` (« quinze pour cent » / « dix à quinze pour cent » → « douze à treize pour cent, un déporté sur huit ») ; `hm4-traite-esclavage` (« fréquemment quinze pour cent » → même formulation). Le domaine est maintenant harmonisé sur la valeur de la leçon 22, pas sur « quinze pour cent » comme le proposait à tort la session 1.
 
 ### [MOYEN] ✅ Le Danemark n'a pas interdit la traite en 1807
 
@@ -946,12 +961,13 @@ croisant systématiquement chaque fait daté ou chiffré du seed avec la leçon 
 traite le même sujet — croisement impossible en session 1, puisque les leçons n'étaient pas
 lues. Voici ce qu'elle a trouvé.
 
-### [GRAVE] (passe 2) L'Indonésie : la question du seed a pour bonne réponse une date que la leçon ne donne jamais, et pour distracteur celle qu'elle donne
+### [GRAVE] 🔧 (passe 2) L'Indonésie : la question du seed a pour bonne réponse une date que la leçon ne donne jamais, et pour distracteur celle qu'elle donne
 
 - **Où** : `prisma/seed/culture-g/histoire-monde-4.ts` — `hm4-decolonisations` ; contre `heritage/.../lecons/histoire-monde/17.json` § 2 et frise
 - **Texte** : question — « Quand l'Indonésie a-t-elle proclamé son indépendance ? » `["En 1945", "En 1949", "En 1950", "En 1947"]`, **bonne = 1945**, explication « Les Pays-Bas ne la reconnaissent qu'en 1949, après un conflit. » ; leçon 17 — « les nationalistes conduits par Soekarno proclament la république et l'emportent après plusieurs années d'affrontements contre les Pays-Bas, **qui reconnaissent l'indépendance en 1949** », frise — « **1949** — Les Pays-Bas reconnaissent l'indépendance de l'Indonésie ».
 - **Problème** : **1945 n'apparaît nulle part dans la leçon.** Un apprenant qui a lu la leçon 17, la seule matière du domaine sur ce point, ne connaît qu'une date pour l'Indonésie : 1949. Or 1949 est le distracteur immédiatement suivant. La question ne sanctionne pas l'ignorance, elle sanctionne d'avoir lu le cours. C'est le cas le plus net de rupture cours ↔ question de tout le domaine, et il n'était pas détectable sans avoir lu les leçons.
 - **Correction proposée** : compléter la leçon 17 — « Soekarno proclame l'indépendance **le 17 août 1945**, deux jours après la capitulation japonaise ; les Pays-Bas ne la reconnaissent qu'en 1949, après quatre ans de guerre » — et reformuler la question du seed pour qu'elle distingue explicitement les deux dates : « Quelle date sépare la proclamation de l'indépendance indonésienne de sa reconnaissance par les Pays-Bas ? »
+- **Fait** : leçon 17 complétée à trois endroits (section 2, frise, explication de la question sur Diên Biên Phu) avec la date du 17 août 1945. Question de `hm4-decolonisations` reformulée exactement comme proposé, avec pour choix des paires d'années (« 1945 et 1949 », « 1949 et 1950 », « 1947 et 1949 », « 1945 et 1947 »).
 
 ### [MOYEN] ✅ (passe 2) Deux questions de la même notion ont la boussole pour réponse
 
@@ -977,7 +993,7 @@ lues. Voici ce qu'elle a trouvé.
 - **Correction proposée** : lever l'ambiguïté dans l'énoncé plutôt que dans le choix — « Que régissent les **quatre conventions de Genève de 1949** ? », et remplacer le distracteur par « Le droit de l'espace ». Ajouter dans l'explication : « À ne pas confondre avec la convention de Genève de 1951, qui définit le statut de réfugié. »
 - **Fait** : Question de `hm3-droit-international` précisée (« les quatre conventions de Genève de 1949 »), distracteur remplacé, note de distinction ajoutée.
 
-### [GRAVE] (passe 2) Deux questions consécutives qui se donnent mutuellement la réponse : Cortés et Pizarro
+### [GRAVE] 🔧 (passe 2) Deux questions consécutives qui se donnent mutuellement la réponse : Cortés et Pizarro
 
 - **Où** : `prisma/seed/culture-g/histoire-monde.ts:100` et `:102` — `hm-espagne-or`, questions voisines dans la même notion
 - **Texte** :
@@ -986,16 +1002,18 @@ lues. Voici ce qu'elle a trouvé.
 - **Problème** : chacune des deux questions a pour premier distracteur la bonne réponse de l'autre. Elles se répondent l'une l'autre : qui sait que Cortés a abattu les Aztèques élimine Cortés de la seconde, et réciproquement. Comme elles sont **consécutives dans la même notion**, l'apprenant les rencontre à la suite. Ce n'est pas un doublon de contenu — les deux faits sont distincts et méritent d'être sus — mais un défaut de construction qui annule la difficulté des deux.
 - **Et le défaut est présent deux fois** : `histoire-monde-4.ts:326` et `:328` (`hm4-decouvertes`) rejouent exactement le même couple — « Qui a conquis l'empire aztèque ? » `["Hernán Cortés", "**Francisco Pizarro**", "Diego de Almagro", "Pedro de Alvarado"]` et « Qui a conquis l'empire inca ? » `["Francisco Pizarro", "**Hernán Cortés**", "Vasco Núñez de Balboa", "Diego de Almagro"]`. Le domaine pose donc **quatre fois** la question du conquérant aztèque ou inca, en deux paires dont chacune se résout elle-même.
 - **Correction proposée** : supprimer la paire de `hm4-decouvertes` (redondante avec `hm-espagne-or`) ; dans `hm-espagne-or`, garder les deux questions et retirer le conquistador de l'autre de chaque liste : aztèque → `["Hernán Cortés", "Pánfilo de Narváez", "Vasco de Balboa", "Pedro de Alvarado"]` ; inca → `["Francisco Pizarro", "Diego de Almagro", "Sebastián de Belalcázar", "Gonzalo Jiménez"]`.
+- **Fait** : appliqué tel quel des deux côtés — paire supprimée de `hm4-decouvertes`, distracteurs corrigés dans `hm-espagne-or` (aztèque : Cortés/Narváez/Balboa/Alvarado ; inca : Pizarro/Almagro/Belalcázar/Jiménez).
 
-### [GRAVE] (passe 2) Le bilan de 14-18 : l'énoncé ne dit pas « militaires », et le distracteur est défendable
+### [GRAVE] 🔧 (passe 2) Le bilan de 14-18 : l'énoncé ne dit pas « militaires », et le distracteur est défendable
 
 - **Où** : `prisma/seed/culture-g/histoire-monde-3.ts:30` — `hm3-premiere-guerre`
 - **Texte** : « Quel **bilan humain** la Première Guerre mondiale laisse-t-elle ? » `["Environ dix millions de militaires tués", "Environ trois millions", "**Environ vingt millions**", "Environ cinq cent mille"]`, bonne = 0.
 - **Problème** : l'énoncé demande le **bilan humain**, sans restriction. Or le bilan humain complet de 1914-1918 est d'environ 15 à 20 millions de morts (9 à 10 millions de militaires plus 6 à 13 millions de civils) : le distracteur « environ vingt millions » est donc défendable, et même plus juste que la bonne réponse pour qui lit l'énoncé littéralement. Seule la bonne réponse porte la précision « de militaires » — ce qui la trahit doublement, puisqu'elle est aussi la seule qualifiée.
   C'est également la source du constat déjà ouvert sur « cinq fois plus de morts que la Première » : la question voisine `hm3-seconde-guerre:82` répond « entre cinquante et soixante-dix millions **de morts** » (tous confondus). Le rapport de cinq ne tient que parce que les deux questions comptent des choses différentes, dans le même fichier, à cinquante lignes d'écart.
 - **Correction proposée** : « Combien de **militaires** la Première Guerre mondiale a-t-elle tués ? » `["Environ dix millions", "Environ trois millions", "Environ trente millions", "Environ cinq cent mille"]`, et ajouter à l'explication : « Avec les victimes civiles, le bilan total approche quinze à vingt millions de morts. » La phrase-repère de `hm3-seconde-guerre` devient alors cohérente en « environ trois fois plus de morts que la Première ».
+- **Fait** : appliqué mot pour mot dans `hm3-premiere-guerre`. La phrase-repère de `hm3-seconde-guerre` était déjà passée à « environ trois fois plus » (correction de la session précédente) : les deux questions sont maintenant cohérentes entre elles.
 
-### [GRAVE] (passe 2) La chute du mur : trois fois la même question, et la version du lot 4 est la moins bien construite
+### [GRAVE] 🔧 (passe 2) La chute du mur : trois fois la même question, et la version du lot 4 est la moins bien construite
 
 - **Où** : `histoire-monde.ts:260` (`hm-chute-urss`), `histoire-monde-4.ts:462` (`hm4-guerre-froide-2`), `heritage/culture-g/data/histoire-monde.json:679`
 - **Texte** :
@@ -1004,6 +1022,7 @@ lues. Voici ce qu'elle a trouvé.
   - cahier — « À quelle date le mur de Berlin tombe-t-il ? »
 - **Problème** : deux défauts cumulés. D'abord la question est posée **trois fois** dans le domaine, et les deux versions du seed sont identiques au verbe près — c'est le seul couple de tout le corpus à atteindre une similitude de 100 % sur l'énoncé. Ensuite, la version du lot 4 est mal bâtie : la bonne réponse est **la seule à porter un jour précis**, les trois distracteurs se contentant d'un mois ou d'une année. C'est exactement le tell que la consigne demande de traquer (« la seule précise »). La version de `hm-chute-urss`, elle, aligne quatre dates complètes et fait de vrais choix : c'est celle à garder.
 - **Correction proposée** : supprimer la question de `hm4-guerre-froide-2` et conserver celle de `hm-chute-urss`.
+- **Fait** : appliqué tel quel — la question sur la chute du mur a été retirée de `hm4-guerre-froide-2` (qui garde le reste de son contenu, propriétaire d'un cours via `cours/fusions.ts`), et reste uniquement dans `hm-chute-urss`.
 
 ### Comptage de la passe 2
 

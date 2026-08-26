@@ -19,8 +19,9 @@
       "texte": "Au prix de la partition avec le Pakistan, de déplacements massifs et de massacres."
      },
      {
-      "date": "1949",
-      "label": "Les Pays-Bas reconnaissent l'indépendance de l'Indonésie"
+      "date": "1945-1949",
+      "label": "Indépendance de l'Indonésie",
+      "texte": "Soekarno la proclame le 17 août 1945 ; les Pays-Bas ne la reconnaissent qu'en 1949, après quatre ans de guerre."
      },
      {
       "date": "1954",
@@ -52,7 +53,7 @@
   },
   {
    "titre": "L'Asie ouvre la voie",
-   "texte": "C'est en Asie que le mouvement commence, dès les lendemains immédiats de la guerre. En 1947, l'Inde obtient son indépendance au terme d'une longue mobilisation de masse conduite par le Congrès national indien et marquée par la méthode non violente de Gandhi. Le succès est immense, mais il s'accompagne d'un drame : la partition du sous-continent entre l'Inde et le Pakistan provoque d'immenses déplacements de population et des massacres intercommunautaires. En Indonésie, les nationalistes conduits par Soekarno proclament la république et l'emportent après plusieurs années d'affrontements contre les Pays-Bas, qui reconnaissent l'indépendance en 1949. En Indochine française, le conflit est plus long et plus meurtrier : la France s'oppose au mouvement conduit par le parti communiste vietnamien et subit en 1954 la défaite de Diên Biên Phu, qui met un terme à sa domination sur la péninsule. Ces indépendances asiatiques ont une portée qui dépasse largement les pays concernés. Elles démontrent qu'une puissance coloniale européenne peut être vaincue militairement ou contrainte par une mobilisation populaire, et elles fournissent des modèles, des dirigeants et des arguments aux mouvements africains encore embryonnaires. Elles montrent aussi que l'indépendance ne règle pas tout : partitions religieuses, conflits frontaliers, difficultés économiques et rivalités politiques accompagnent souvent la naissance des nouveaux États."
+   "texte": "C'est en Asie que le mouvement commence, dès les lendemains immédiats de la guerre. En 1947, l'Inde obtient son indépendance au terme d'une longue mobilisation de masse conduite par le Congrès national indien et marquée par la méthode non violente de Gandhi. Le succès est immense, mais il s'accompagne d'un drame : la partition du sous-continent entre l'Inde et le Pakistan provoque d'immenses déplacements de population et des massacres intercommunautaires. En Indonésie, les nationalistes conduits par Soekarno proclament la république le 17 août 1945, deux jours après la capitulation japonaise, et l'emportent après plusieurs années d'affrontements contre les Pays-Bas, qui ne reconnaissent l'indépendance qu'en 1949. En Indochine française, le conflit est plus long et plus meurtrier : la France s'oppose au mouvement conduit par le parti communiste vietnamien et subit en 1954 la défaite de Diên Biên Phu, qui met un terme à sa domination sur la péninsule. Ces indépendances asiatiques ont une portée qui dépasse largement les pays concernés. Elles démontrent qu'une puissance coloniale européenne peut être vaincue militairement ou contrainte par une mobilisation populaire, et elles fournissent des modèles, des dirigeants et des arguments aux mouvements africains encore embryonnaires. Elles montrent aussi que l'indépendance ne règle pas tout : partitions religieuses, conflits frontaliers, difficultés économiques et rivalités politiques accompagnent souvent la naissance des nouveaux États."
   },
   {
    "titre": "Bandung et l'affirmation du tiers-monde",
@@ -112,7 +113,7 @@
    ],
    "bonne": 1,
    "difficulte": 2,
-   "explication": "La défaite de Diên Biên Phu, en 1954, met un terme à la domination française sur l'Indochine après plusieurs années d'un conflit meurtrier contre le mouvement nationaliste et communiste vietnamien. Elle illustre le fait qu'une puissance coloniale européenne peut être vaincue militairement, ce qui encourage les mouvements d'émancipation ailleurs. L'Asie avait ouvert la voie dès 1947 avec l'indépendance de l'Inde, obtenue au terme d'une mobilisation de masse conduite par le Congrès national indien, puis en 1949 avec celle de l'Indonésie face aux Pays-Bas. La bataille d'Alger appartient, elle, à la guerre d'Algérie et se déroule en 1957."
+   "explication": "La défaite de Diên Biên Phu, en 1954, met un terme à la domination française sur l'Indochine après plusieurs années d'un conflit meurtrier contre le mouvement nationaliste et communiste vietnamien. Elle illustre le fait qu'une puissance coloniale européenne peut être vaincue militairement, ce qui encourage les mouvements d'émancipation ailleurs. L'Asie avait ouvert la voie dès 1947 avec l'indépendance de l'Inde, obtenue au terme d'une mobilisation de masse conduite par le Congrès national indien, puis avec celle de l'Indonésie, proclamée en 1945 et reconnue par les Pays-Bas en 1949 seulement. La bataille d'Alger appartient, elle, à la guerre d'Algérie et se déroule en 1957."
   },
   {
    "q": "Combien de pays participent à la conférence de Bandung en avril 1955 ?",
