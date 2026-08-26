@@ -1,5 +1,5 @@
 /**
- * Institutions & Économie, deuxième lot — vingt notions sans cours.
+ * Institutions & Économie, deuxième lot — vingt notions, dont dix-huit avec cours.
  */
 import { notion } from "./commun";
 import type { SeedSkill } from "../../../src/modules/types";
@@ -16,7 +16,7 @@ export const CG_INSTITUTIONS_ECONOMIE_2: SeedSkill[] = [
     ["Que réunit le Conseil européen ?", ["Les chefs d'État et de gouvernement des États membres", "Les ministres nationaux compétents dans chaque domaine", "Les députés élus dans chaque État membre", "Les commissaires européens désignés par les États"], 0,
      "À ne pas confondre avec le Conseil de l'Union européenne, qui réunit les ministres."],
     ["Comment les députés européens sont-ils désignés ?", ["Élus au suffrage universel direct dans chaque État", "Désignés par les parlements nationaux de chaque État", "Nommés directement par chacun des gouvernements nationaux", "Élus par les partis politiques européens réunis"], 0,
-     "Depuis 1979. Le mandat est de cinq ans."],
+     "Au suffrage universel direct depuis 1979, pour cinq ans, mais selon un mode de scrutin que chaque État fixe lui-même. Les sièges sont répartis selon une proportionnalité dégressive : un député allemand représente bien plus d'habitants qu'un député maltais."],
     ["Combien d'États membres l'Union européenne compte-t-elle ?", ["Vingt-sept", "Vingt-huit", "Vingt-cinq", "Trente"], 0,
      "Depuis le retrait du Royaume-Uni, effectif en 2020."],
     ["Quel traité crée l'Union européenne et la citoyenneté européenne ?", ["Le traité de Maastricht", "Le traité de Rome de 1957", "Le traité d'Amsterdam", "Le traité de Lisbonne"], 0,
@@ -53,8 +53,8 @@ export const CG_INSTITUTIONS_ECONOMIE_2: SeedSkill[] = [
      "Elle peut convoquer des témoins sous serment et dispose de six mois maximum."],
     ["Qu'est-ce que l'immunité parlementaire ?", ["Une protection contre les poursuites pour les actes liés au mandat", "Une impunité totale couvrant y compris les infractions de droit commun", "Une protection contre les poursuites fiscales pendant le mandat", "Une immunité diplomatique identique à celle des ambassadeurs"], 0,
      "L'irresponsabilité couvre les propos tenus dans l'exercice du mandat ; l'inviolabilité peut être levée."],
-    ["Qu'est-ce que le cumul des mandats en France depuis 2017 ?", ["Un mandat parlementaire est incompatible avec un exécutif local", "Le cumul reste autorisé sans aucune limite de nombre", "Le cumul de deux mandats locaux exécutifs est désormais interdit par la loi", "Le cumul est limité à trois mandats successifs dans le temps"], 0,
-     "La réforme a considérablement modifié le profil et le travail des parlementaires."],
+    ["Qu'a changé la fin du cumul des mandats, entrée en vigueur en 2017 ?", ["Un mandat parlementaire est devenu incompatible avec une fonction exécutive locale", "Le cumul reste autorisé sans aucune limite de nombre", "Le cumul de deux mandats locaux exécutifs est désormais interdit par la loi", "Le cumul est limité à trois mandats successifs dans le temps"], 0,
+     "Un député ne peut plus être en même temps maire, adjoint ou président de conseil départemental ou régional. La réforme a considérablement modifié le profil et le travail des parlementaires."],
     ["Qu'est-ce qu'une loi organique ?", ["Une loi précisant l'organisation des pouvoirs publics, adoptée selon une procédure renforcée", "Une loi de finances fixant chaque année l'ensemble des recettes et des dépenses de l'État français", "Une loi cadre non contraignante fixant de simples orientations", "Une loi de ratification approuvant une ordonnance du gouvernement"], 0,
      "Elle est obligatoirement soumise au Conseil constitutionnel avant promulgation.", 3],
   ]),
@@ -77,7 +77,7 @@ export const CG_INSTITUTIONS_ECONOMIE_2: SeedSkill[] = [
      "Il n'interdit pas de traiter différemment des situations différentes, comme les tarifs selon le revenu."],
     ["Qu'est-ce que le principe de mutabilité du service public ?", ["Le service doit s'adapter à l'évolution des besoins", "Les agents doivent accepter d'être mutés d'un poste à l'autre", "Le service peut être privatisé à tout moment", "Les usagers peuvent librement changer de prestataire"], 0,
      "Il explique qu'aucun usager n'a de droit acquis au maintien d'un service en l'état."],
-    ["Quelle école a formé les hauts fonctionnaires français de 1945 à 2021 ?", ["l'ENA", "Sciences Po seule", "l'École polytechnique", "l'ENS"], 0,
+    ["Quelle école a formé les hauts fonctionnaires français de 1945 à 2021 ?", ["L'ENA", "Sciences Po seule", "L'École polytechnique", "L'ENS"], 0,
      "Elle a été remplacée par l'Institut national du service public."],
     ["Qu'est-ce qu'un agent contractuel de la fonction publique ?", ["Un agent recruté par contrat, sans être titulaire d'un grade", "Un fonctionnaire stagiaire avant sa titularisation", "Un vacataire employé pour une tâche ponctuelle", "Un agent détaché du secteur privé pour une durée de quelques années"], 0,
      "Ils représentent aujourd'hui une part significative des effectifs, notamment dans la territoriale."],
@@ -207,7 +207,7 @@ export const CG_INSTITUTIONS_ECONOMIE_2: SeedSkill[] = [
      "La faillite de Lehman Brothers en septembre 2008 en marque le point culminant."],
     ["Qu'est-ce que le risque systémique ?", ["Le risque qu'une défaillance se propage à tout le système financier", "Le risque propre à un seul titre financier", "Le risque lié aux variations des taux de change et des taux d'intérêt", "Le risque qu'une banque ne puisse plus se refinancer à temps sur le marché"], 0,
      "Il justifie une régulation spécifique des établissements jugés trop grands pour faire faillite."],
-    ["Quelle autorité régule les marchés financiers en France ?", ["l'AMF", "l'ACPR seule", "La Banque de France", "l'Autorité de la concurrence"], 0,
+    ["Quelle autorité régule les marchés financiers en France ?", ["L'AMF", "L'ACPR seule", "La Banque de France", "L'Autorité de la concurrence"], 0,
      "L'Autorité des marchés financiers veille à l'information des investisseurs et sanctionne les abus."],
     ["Qu'est-ce que le trading à haute fréquence ?", ["Des transactions automatisées exécutées en fractions de seconde", "Un trading intensif exécuté manuellement par des opérateurs humains", "Un arbitrage sur les écarts de prix entre places boursières", "Une spéculation classique menée sur quelques jours seulement"], 0,
      "Il représente une part importante des volumes échangés et fait débat quant à son utilité économique.", 3],
@@ -302,7 +302,7 @@ export const CG_INSTITUTIONS_ECONOMIE_2: SeedSkill[] = [
     ["Sur quel principe repose la dissuasion nucléaire française ?", ["La stricte suffisance : disposer du minimum nécessaire pour dissuader", "La supériorité numérique sur les arsenaux adverses", "La frappe préventive avant toute attaque de l'adversaire", "La parité stricte avec les arsenaux de l'ensemble des autres puissances"], 0,
      "La doctrine française insiste sur l'autonomie de décision et le caractère strictement défensif."],
     ["Quelles sont les deux composantes de la dissuasion nucléaire française ?", ["Océanique et aéroportée", "Terrestre et aérienne", "Océanique et terrestre", "Aérienne et spatiale uniquement"], 0,
-     "La composante terrestre du plateau d'Albion a été démantelée en 1996."],
+     "La composante terrestre du plateau d'Albion, ainsi que les missiles Hadès, ont été démantelés en 1996 et 1997."],
     ["Qu'est-ce que la gendarmerie nationale ?", ["Une force armée exerçant des missions de police", "Un service de police civile placé sous l'autorité du maire", "Une unité rattachée à l'armée de terre", "Une police municipale étendue à tout le territoire"], 0,
      "Rattachée au ministère de l'Intérieur depuis 2009, elle conserve son statut militaire."],
     ["Qu'est-ce que le renseignement extérieur français ?", ["La DGSE", "La DGSI", "La DRM seule", "Le SGDSN"], 0,

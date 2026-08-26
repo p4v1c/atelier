@@ -41,7 +41,7 @@ Le yam est l'une des institutions les plus efficaces de l'empire : un réseau de
   "hm-espagne-or": [
     ["1492", `L'année 1492 concentre trois événements. La prise de Grenade met fin au dernier royaume musulman de la péninsule Ibérique, achevant huit siècles de Reconquista. Les Juifs sont expulsés par décret. Et Christophe Colomb, financé par les Rois Catholiques — Isabelle de Castille et Ferdinand d'Aragon, dont le mariage a uni les deux couronnes — atteint les Antilles.
 
-En moins de quarante ans, deux empires américains tombent : Hernán Cortés abat l'Empire aztèque en 1521, Francisco Pizarro l'Empire inca en 1533. Dans les deux cas, une poignée d'hommes exploite les divisions internes, la supériorité technique et surtout les épidémies.`],
+En un peu plus de quarante ans, deux empires américains tombent : Hernán Cortés abat l'Empire aztèque en 1521, Francisco Pizarro l'Empire inca entre 1532 et 1533. Dans les deux cas, une poignée d'hommes exploite les divisions internes, la supériorité technique et surtout les épidémies.`],
     ["L'argent et l'empire", `À partir de 1545, la mine du Potosí, dans l'actuelle Bolivie, déverse sur l'Europe des quantités d'argent sans précédent, extraites par un travail forcé indigène meurtrier. Cet afflux fait la puissance espagnole et provoque en même temps une inflation prolongée qui ruine l'économie du royaume : l'argent finance des guerres et des importations, non une industrie.
 
 Charles Quint règne alors sur l'Espagne, les Pays-Bas, l'Autriche, une partie de l'Italie et les Amériques : un ensemble ingouvernable qu'il partagera en abdiquant. En 1571, la victoire navale de Lépante contre les Ottomans est célébrée dans toute la chrétienté ; dix-sept ans plus tard, la défaite de l'Invincible Armada devant l'Angleterre marque l'arrêt de l'hégémonie maritime espagnole.`],
@@ -116,7 +116,7 @@ Les républiques proclament leur indépendance les unes après les autres. L'URS
 Gandhi place la non-violence au centre de son action, non comme faiblesse mais comme méthode de confrontation. En 1930, la marche du sel en donne l'illustration la plus efficace : il parcourt près de quatre cents kilomètres jusqu'à la mer pour récolter du sel et défier ainsi le monopole britannique, geste symbolique compréhensible par tous et impossible à réprimer sans se déconsidérer.`],
     ["La partition", `La non-violence de Gandhi n'a pas empêché la partition : ce sont deux histoires parallèles. Muhammad Ali Jinnah, à la tête de la Ligue musulmane, réclame un État séparé pour les musulmans, convaincu qu'ils seraient minoritaires sans recours dans une Inde unie.
 
-L'indépendance est proclamée en août 1947, avec deux États : l'Inde et le Pakistan, ce dernier en deux blocs séparés par mille cinq cents kilomètres. Le tracé des frontières, établi en quelques semaines par un juriste britannique qui n'avait jamais mis les pieds en Inde, provoque un exode et des massacres : des centaines de milliers de morts et quinze millions de déplacés.`],
+L'indépendance est proclamée en août 1947, avec deux États : l'Inde et le Pakistan, ce dernier en deux blocs séparés par mille cinq cents kilomètres. Le tracé des frontières, établi en quelques semaines par un juriste britannique qui n'avait jamais mis les pieds en Inde, provoque un exode et des massacres : des centaines de milliers de morts et plus de dix millions de déplacés.`],
     ["Après", `Jawaharlal Nehru devient le premier Premier ministre de l'Inde et lui donne son orientation : démocratie parlementaire, non-alignement, planification économique, laïcité de l'État dans un pays profondément religieux.
 
 Gandhi, lui, est assassiné en janvier 1948 par un nationaliste hindou qui lui reprochait sa conciliation envers les musulmans. Le Cachemire, État princier à souverain hindou et population majoritairement musulmane, reste disputé entre l'Inde et le Pakistan depuis 1947 : il a provoqué trois guerres et demeure l'un des points de tension les plus dangereux du monde, les deux pays étant dotés de l'arme nucléaire.`],
@@ -188,7 +188,7 @@ Tout repose sur la crue annuelle du Nil, qui déposait le limon fertile et dont 
 
 Les théories fantaisistes sur sa construction ne résistent pas aux découvertes récentes : le papyrus de Merer, retrouvé en 2013, est le journal de bord d'un chef d'équipe chargé du transport des blocs de calcaire de Tourah, et il documente l'organisation logistique, les rotations et le ravitaillement. Les bâtisseurs étaient des travailleurs recrutés et nourris, non des esclaves.
 
-Le complexe funéraire répondait à une conception précise de la mort : le tombeau devait préserver le corps et fournir au défunt de quoi subsister éternellement. La momification est la préparation du corps à cette fin, avec extraction des viscères conservés séparément, dessiccation au natron pendant soixante-dix jours, et bandelettes.
+Le complexe funéraire répondait à une conception précise de la mort : le tombeau devait préserver le corps et fournir au défunt de quoi subsister éternellement. La momification est la préparation du corps à cette fin, avec extraction des viscères conservés séparément, une quarantaine de jours de dessiccation au natron, dans un rituel qui en durait soixante-dix, et bandelettes.
 
 Le Livre des Morts n'est pas un livre unique mais un recueil de formules déposé auprès du défunt pour l'aider à franchir les épreuves de l'au-delà, dont la pesée du cœur contre la plume de Maât.`,
       { image: "myt-pesee-du-coeur", legende: "La pesée du cœur : le défunt est jugé sur ses actes, le cœur pesé contre la plume de la justice.", alt: "Scène de pesée du cœur sur un papyrus égyptien" }],
@@ -286,7 +286,7 @@ Ce modèle sera repris par les Séleucides, par Rome dans une certaine mesure, e
   "hm2-rome-republique": [
     ["Une république très inégale", `La tradition situe la fondation de Rome en 753 avant notre ère, et le début de la République en 509, avec l'expulsion du dernier roi étrusque. Les deux dates sont conventionnelles et l'archéologie décrit une évolution plus progressive.
 
-La République romaine n'était pas une démocratie : le vote y était pondéré par la fortune. Les citoyens votaient répartis en centuries, et l'ordre de vote comme le poids de chaque centurie favoraient les plus riches — les classes supérieures votant les premières, le scrutin s'arrêtait souvent avant que les plus pauvres n'aient à s'exprimer.
+La République romaine n'était pas une démocratie : le vote y était pondéré par la fortune. Les citoyens votaient répartis en centuries, et l'ordre de vote comme le poids de chaque centurie favorisaient les plus riches — les classes supérieures votant les premières, le scrutin s'arrêtait souvent avant que les plus pauvres n'aient à s'exprimer.
 
 Deux consuls dirigeaient la République, élus pour un an, disposant chacun d'un droit de veto sur l'autre. Cette collégialité et cette annualité visaient explicitement à empêcher tout retour à la royauté — obsession fondatrice de la culture politique romaine.
 
@@ -363,8 +363,6 @@ L'Orient dispose en outre d'une base fiscale bien supérieure à l'Occident — 
 
 L'Empire parle grec, se pense romain, et professe un christianisme dont l'empereur est le protecteur.`],
     ["Justinien", `Justinien, au VIe siècle, veut restaurer l'Empire dans ses limites d'autrefois. L'entreprise réussit militairement et échoue financièrement : les campagnes vident le trésor, la peste des années 540 emporte une part considérable de la population, et l'essentiel des territoires repris est perdu en une génération.
-
-L'entreprise épuise l'Empire pour un résultat éphémère : les conquêtes italiennes seront perdues en une génération, et l'effort financier et militaire affaiblit durablement les défenses orientales.
 
 Son œuvre durable est ailleurs. Le Code Justinien, plus exactement le *Corpus juris civilis*, compile et ordonne le droit romain accumulé depuis des siècles : le Code rassemble les constitutions impériales, le Digeste les avis des jurisconsultes, les Institutes servent de manuel.
 
@@ -520,7 +518,7 @@ Tamerlan, conquérant turco-mongol se réclamant de Gengis Khan, ravage l'Asie c
 
 Le bilan des conquêtes mongoles est double et ne se laisse pas simplifier. Les destructions sont immenses : plusieurs villes majeures rasées, des systèmes d'irrigation détruits qui ne seront jamais reconstruits, une démographie effondrée dans plusieurs régions.
 
-Et l'empire a permis une circulation continentale sans précédent : techniques, marchandises, idées, personnes ont traversé l'Eurasie comme jamais auparavant. La poudre, la boussole, l'imprimerie et le papier-monnaie arrivent en Occident à cette période.
+Et l'empire a permis une circulation continentale sans précédent : techniques, marchandises, idées, personnes ont traversé l'Eurasie comme jamais auparavant. La poudre, l'imprimerie et le papier-monnaie parviennent en Occident à cette période ; la boussole, elle, y était connue depuis la fin du XIIe siècle.
 
 C'est l'un des cas où l'historien ne peut pas conclure d'un seul mot, et où la réponse dépend entièrement de l'échelle et du lieu d'observation.`],
   ],
@@ -540,7 +538,7 @@ Son principe est remarquable pour l'époque : l'accès aux charges dépend d'un 
 Sa portée réelle doit être nuancée. Préparer ces examens exigeait des années d'études et des ressources que seules les familles aisées pouvaient fournir, et les taux de réussite étaient infimes. Le système a néanmoins permis une mobilité sociale réelle, et il a surtout créé une classe de lettrés partageant la même culture d'un bout à l'autre de l'empire — facteur de cohésion sans équivalent.
 
 L'Europe s'en est explicitement inspirée : les concours de la fonction publique britannique puis française du XIXe siècle citent le modèle chinois.`],
-    ["Les grandes dynasties", `Les Tang, aux VIIe et IXe siècles, marquent un apogée culturel : ouverture aux influences étrangères, cosmopolitisme de la capitale Chang'an — alors probablement la plus grande ville du monde —, âge d'or de la poésie avec Li Bai et Du Fu.
+    ["Les grandes dynasties", `Les Tang, du VIIe au Xe siècle, marquent un apogée culturel : ouverture aux influences étrangères, cosmopolitisme de la capitale Chang'an — alors probablement la plus grande ville du monde —, âge d'or de la poésie avec Li Bai et Du Fu.
 
 Les Song voient un essor économique et technique considérable : imprimerie à caractères mobiles, monnaie de papier, boussole, poudre, sidérurgie au charbon, agriculture intensive du riz. Plusieurs historiens y voient une révolution industrielle avortée, l'ensemble des conditions techniques semblant réunies sans que la rupture se produise.
 
@@ -689,7 +687,7 @@ Deux puissances européennes, arbitrées par le pape, se répartissent ainsi des
 
 La ligne explique un fait de géographie linguistique : le Brésil, situé à l'est du méridien, est portugais quand le reste de l'Amérique du Sud est espagnol.
 
-Le premier tour du monde est réalisé par l'expédition de Magellan, partie en 1519 avec cinq navires et deux cent trente-sept hommes. Magellan est tué aux Philippines ; c'est Juan Sebastián Elcano qui ramène en 1522 le seul navire survivant avec dix-huit hommes.
+Le premier tour du monde est réalisé par l'expédition de Magellan, partie en 1519 avec cinq navires et environ deux cent soixante-dix hommes. Magellan est tué aux Philippines ; c'est Juan Sebastián Elcano qui ramène en 1522 le seul navire survivant avec dix-huit hommes.
 
 L'expédition prouve définitivement la rotondité de la Terre — que les savants ne discutaient plus depuis l'Antiquité — et surtout son immensité, très supérieure à ce qu'on estimait. Elle établit aussi l'existence du décalage d'une journée pour qui fait le tour vers l'ouest, ce qui déconcerta l'équipage à son retour.`],
     ["Conquérir", `Hernán Cortés conquiert l'Empire aztèque entre 1519 et 1521, avec quelques centaines d'Espagnols, des dizaines de milliers d'alliés indigènes révoltés contre la domination de Tenochtitlan, des chevaux et des armes à feu — et une épidémie de variole qui décime les défenseurs pendant le siège.
@@ -1007,7 +1005,7 @@ Les violences font entre cinq cent mille et un million de morts, avec massacres 
 
 Le Pakistan naît en deux morceaux séparés par mille cinq cents kilomètres de territoire indien, configuration qui ne survivra pas : le Pakistan oriental fait sécession en 1971, après une répression sanglante et une intervention indienne, et devient le Bangladesh.
 
-Jawaharlal Nehru devient le premier Premier ministre de l'Inde indépendante, Muhammad Ali Jinnah le gouverneur général du Pakistan. Aucun des deux n'a obtenu ce qu'il voulait vraiment : Nehru refusait la partition, Jinnah recevait un pays coupé en deux moitiés séparées par mille cinq cents kilomètres de territoire indien.`],
+Jawaharlal Nehru devient le premier Premier ministre de l'Inde indépendante, Muhammad Ali Jinnah le gouverneur général du Pakistan. Aucun des deux n'a obtenu ce qu'il voulait vraiment : Nehru refusait la partition, Jinnah recevait un pays coupé en deux.`],
     ["Nourrir et développer", `La révolution verte transforme l'agriculture indienne dans les années 1960 : variétés à haut rendement, engrais, irrigation, mécanisation. L'Inde, qui dépendait de l'aide alimentaire américaine et connaissait des famines récurrentes, devient autosuffisante en céréales en une quinzaine d'années.
 
 Ses limites sont aujourd'hui documentées : concentration des gains sur les régions déjà favorisées et les exploitations les plus grandes, épuisement des nappes phréatiques du Pendjab, salinisation, dépendance aux intrants et endettement paysan.
@@ -1121,7 +1119,7 @@ L'ensemble régional s'est déplacé depuis vers la Chine, devenue la deuxième 
 
 Ces guerres ont souvent été aussi des guerres civiles. Elles opposaient rarement un bloc colonial à un bloc colonisé : elles divisaient les sociétés colonisées entre mouvements rivaux, entre partisans de l'indépendance et auxiliaires de la puissance coloniale, et elles divisaient également les métropoles.
 
-L'Indochine ouvre la série. Le Viêt-minh, qui avait proclamé l'indépendance dès 1945, affronte le corps expéditionnaire français pendant huit ans. La bataille de Diên Biên Phu, en 1954, met fin à la présence française : un camp retranché installé dans une cuvette, sur l'hypothèse erronée que l'adversaire ne pourrait y acheminer d'artillerie, est écrasé après cinquante-sept jours de siège.
+L'Indochine ouvre la série. Le Viêt-minh, qui avait proclamé l'indépendance dès 1945, affronte le corps expéditionnaire français pendant huit ans. La bataille de Diên Biên Phu, en 1954, met fin à la présence française : un camp retranché installé dans une cuvette, sur l'hypothèse erronée que l'adversaire ne pourrait y acheminer d'artillerie, est écrasé après cinquante-six jours de siège.
 
 Les accords de Genève de 1954 décident la division provisoire du Vietnam au dix-septième parallèle, avec des élections prévues deux ans plus tard. Elles n'auront jamais lieu, et cette division provisoire ouvrira la guerre du Vietnam.`],
     ["L'Algérie", `La guerre d'Algérie débute le 1er novembre 1954 par une série d'attentats coordonnés du Front de libération nationale.
@@ -1154,7 +1152,7 @@ La publication est la clé la moins visible. La Royal Society, fondée à Londre
 Nicolas Copernic publie en 1543, l'année de sa mort, un modèle héliocentrique du système solaire. Son ouvrage n'est pas immédiatement révolutionnaire — il conserve les orbites circulaires et une machinerie complexe — mais il déplace le centre.
 
 Kepler énonce au début du XVIIe siècle les lois du mouvement elliptique des planètes, en renonçant au cercle après des années de calculs sur les observations de Tycho Brahe. Newton unifie l'ensemble dans les *Principia* de 1687 : une même loi de gravitation explique la chute des corps et le mouvement des planètes.`],
-    ["Le vivant et la matière", `William Harvey décrit en 1628 la circulation du sang, contre une doctrine galénique vieille de quinze siècles. Sa démonstration est remarquable par sa méthode : il calcule le volume de sang expulsé par battement, le multiplie par le nombre de battements quotidiens, et constate que le corps ne peut pas produire une telle quantité — donc le sang circule en boucle.
+    ["Le vivant et la matière", `William Harvey décrit en 1628 la circulation du sang, contre une doctrine galénique vieille de quatorze siècles. Sa démonstration est remarquable par sa méthode : il calcule le volume de sang expulsé par battement, le multiplie par le nombre de battements quotidiens, et constate que le corps ne peut pas produire une telle quantité — donc le sang circule en boucle.
 
 Lavoisier fonde la chimie moderne à la fin du XVIIIe siècle en pesant systématiquement réactifs et produits : il établit la conservation de la masse, identifie le rôle de l'oxygène dans la combustion et la respiration, et crée une nomenclature où le nom dit la composition.
 
@@ -1315,7 +1313,7 @@ Les conséquences dépassent la ruine des spéculateurs : la France se méfiera 
 L'étalon-or, généralisé au XIXe siècle, fixe la valeur de chaque monnaie en or et rend les changes stables. Il impose une discipline stricte : un pays en déficit perd son or, ce qui contracte sa masse monétaire et déprime son économie jusqu'au rééquilibrage. Cette rigueur, admirée pour la stabilité qu'elle apporte, s'est révélée insoutenable lors de la crise de 1929, où elle a aggravé la déflation.
 
 Le système de Bretton Woods de 1944 en conserve une version indirecte : le dollar est convertible en or, les autres monnaies sont fixées par rapport au dollar. Nixon suspend cette convertibilité en 1971, et les changes deviennent flottants.`],
-    ["Ce qui donne sa valeur à la monnaie", `La monnaie fiduciaire tire sa valeur de la confiance et non d'un métal — *fiducia* signifie confiance en latin. Depuis 1971, toutes les monnaies du monde sont dans ce cas : aucune n'est convertible en quoi que ce soit.
+    ["Ce qui donne sa valeur à la monnaie", `La monnaie fiduciaire tire sa valeur de la confiance et non d'un métal — *fiducia* signifie confiance en latin. Depuis 1971, toutes les monnaies du monde sont dans ce cas : aucune n'est plus convertible en métal.
 
 Ce qui les fait tenir est un ensemble de conventions : l'État accepte la monnaie en paiement de l'impôt, la loi lui donne cours légal, et une banque centrale indépendante en garantit la stabilité. Une monnaie s'effondre quand cette confiance disparaît, indépendamment de toute réserve.
 
@@ -1353,7 +1351,7 @@ L'empire se désagrège au XVIIIe siècle en principautés rivales, et cette fra
 
 Sa méthode combine alliances avec des princes locaux, endettement de ceux-ci et annexions successives. La bataille de Plassey, en 1757, lui livre le Bengale et ses revenus fiscaux.
 
-La révolte des cipayes, en 1857, est une insurrection de soldats indiens de la Compagnie qui s'étend à une partie du nord du pays. Sa répression est féroce, et elle conduit à la dissolution de la Compagnie : l'Inde passe sous administration directe de la Couronne, et la reine Victoria devient impératrice des Indes.
+La révolte des cipayes, en 1857, est une insurrection de soldats indiens de la Compagnie qui s'étend à une partie du nord du pays. Sa répression est féroce, et elle conduit à la dissolution de la Compagnie : l'Inde passe sous administration directe de la Couronne en 1858, et Victoria prendra le titre d'impératrice des Indes en 1876.
 
 L'Inde britannique comprenait aussi les actuels Pakistan, Bangladesh et Birmanie — précision indispensable pour comprendre les partitions ultérieures.
 
@@ -1386,7 +1384,7 @@ Le plan Cerdà transforme Barcelone à partir de 1859 : une extension en damier 
 La cité-jardin, théorisée par Ebenezer Howard en 1898, propose des villes nouvelles de taille limitée, entourées d'une ceinture agricole inconstructible, associant logement individuel, verdure, emploi local et propriété collective du sol. Le modèle a inspiré des réalisations dans le monde entier, souvent réduites à leur dimension esthétique — des lotissements verdoyants sans autonomie économique.
 
 Les villes coloniales, elles, adoptent presque partout un plan orthogonal autour d'une place centrale, hérité des ordonnances espagnoles du XVIe siècle, souvent doublé d'une séparation entre quartiers européens et quartiers indigènes.`],
-    ["Séparer, puis recoudre", `La Charte d'Athènes, publiée en 1933 à l'issue d'un congrès d'architectes modernes et diffusée par Le Corbusier, prône la séparation des fonctions urbaines : habiter, travailler, se recréer, circuler — chacune dans une zone dédiée, reliée par des voies rapides, avec des immeubles hauts espacés dans la verdure.
+    ["Séparer, puis recoudre", `La Charte d'Athènes, issue du congrès d'architectes modernes de 1933 et publiée dix ans plus tard par Le Corbusier, prône la séparation des fonctions urbaines : habiter, travailler, se recréer, circuler — chacune dans une zone dédiée, reliée par des voies rapides, avec des immeubles hauts espacés dans la verdure.
 
 Elle a inspiré une grande part de l'urbanisme d'après-guerre, en Europe comme ailleurs : grands ensembles, zones industrielles, zones commerciales, réseau routier structurant.
 

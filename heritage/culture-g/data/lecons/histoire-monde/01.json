@@ -152,9 +152,9 @@
    "q": "Qui fut l'architecte de la première pyramide égyptienne, la pyramide à degrés de Saqqarah ?",
    "choix": [
     "Imhotep",
-    "Khéops",
-    "Ramsès",
-    "Thoutmosis"
+    "Hémiounou",
+    "Senmout",
+    "Ineni"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -185,7 +185,7 @@
    "explication": "Qadesh, en Syrie, oppose l'armée égyptienne de Ramsès II à celle du roi hittite Mouwatalli II. Les Hittites formaient alors une grande puissance installée en Anatolie, rivale de l'Égypte pour le contrôle du Levant. La bataille, où les chars jouèrent un rôle décisif, ne donna pas de vainqueur net, même si Ramsès II la présenta comme un triomphe sur les murs de ses temples. Une quinzaine d'années plus tard, vers 1259, les deux royaumes signèrent un traité de paix, considéré comme l'un des plus anciens conservés."
   },
   {
-   "q": "Quel événement marque la fin de l'Égypte indépendante et son passage sous domination romaine ?",
+   "q": "Quel événement fait passer l'Égypte sous domination romaine ?",
    "choix": [
     "La conquête de Cambyse en 525 av. J.-C.",
     "L'arrivée d'Alexandre le Grand en 332 av. J.-C.",

@@ -7,15 +7,15 @@
   },
   {
    "titre": "L'Empire de Charlemagne et sa dislocation",
-   "texte": "Au VIIIe siècle, les maires du palais prennent le pouvoir réel chez les Francs. Charles Martel arrête une expédition musulmane près de Poitiers en 732, et son fils Pépin le Bref dépose le dernier roi mérovingien en 751 avec l'accord du pape, fondant la dynastie carolingienne. Son fils Charlemagne, roi à partir de 768, mène pendant plus de trente ans des campagnes militaires : soumission des Lombards en Italie, longue guerre contre les Saxons, expéditions en Espagne et contre les Avars. Le jour de Noël 800, le pape Léon III le couronne empereur à Rome, faisant renaître symboliquement l'idée d'empire en Occident. Charlemagne installe sa résidence principale à Aix-la-Chapelle et confie l'administration locale à des comtes, surveillés par des envoyés appelés missi dominici. Il encourage la création d'écoles auprès des évêchés et des monastères, réunit des lettrés comme Alcuin et fait adopter une écriture claire, la minuscule caroline : c'est la renaissance carolingienne. L'unité de l'Empire ne survit toutefois pas longtemps. Après la mort de Louis le Pieux, ses trois fils se partagent l'héritage par le traité de Verdun en 843, qui dessine les grandes lignes de l'Europe future. Les IXe et Xe siècles voient déferler de nouvelles attaques : Vikings venus de Scandinavie, Hongrois par l'est, Sarrasins en Méditerranée. Face à l'insécurité, la population se place sous la protection de seigneurs locaux qui édifient des châteaux.",
+   "texte": "Au VIIIe siècle, les maires du palais prennent le pouvoir réel chez les Francs. Charles Martel repousse une incursion arabe près de Poitiers en 732, sans que les opérations dans le Midi cessent pour autant, et son fils Pépin le Bref dépose le dernier roi mérovingien en 751 avec l'accord du pape, fondant la dynastie carolingienne. Son fils Charlemagne, roi à partir de 768, mène pendant plus de trente ans des campagnes militaires : soumission des Lombards en Italie, longue guerre contre les Saxons, expéditions en Espagne et contre les Avars. Le jour de Noël 800, le pape Léon III le couronne empereur à Rome, faisant renaître symboliquement l'idée d'empire en Occident. Charlemagne installe sa résidence principale à Aix-la-Chapelle et confie l'administration locale à des comtes, surveillés par des envoyés appelés missi dominici. Il encourage la création d'écoles auprès des évêchés et des monastères, réunit des lettrés comme Alcuin et fait adopter une écriture claire, la minuscule caroline : c'est la renaissance carolingienne. L'unité de l'Empire ne survit toutefois pas longtemps. Après la mort de Louis le Pieux, ses trois fils se partagent l'héritage par le traité de Verdun en 843, qui dessine les grandes lignes de l'Europe future. Les IXe et Xe siècles voient déferler de nouvelles attaques : Vikings venus de Scandinavie, Hongrois par l'est, Sarrasins en Méditerranée. Face à l'insécurité, la population se place sous la protection de seigneurs locaux qui édifient des châteaux.",
    "visuel": {
     "type": "frise",
     "titre": "Des maires du palais à la dislocation de l'Empire",
     "evenements": [
      {
       "date": "732",
-      "label": "Poitiers",
-      "texte": "Charles Martel arrête une expédition musulmane."
+      "label": "Poitiers : une razzia repoussée",
+      "texte": "Charles Martel repousse une incursion arabe, sans y mettre fin."
      },
      {
       "date": "751",
@@ -187,7 +187,7 @@
    ],
    "bonne": 0,
    "difficulte": 1,
-   "explication": "La peste noire arrive en Méditerranée en 1347 par des navires venus de mer Noire, puis se diffuse en quelques années dans presque toute l'Europe. Les estimations les plus courantes évaluent la mortalité entre un tiers et la moitié de la population. Elle survient après les famines des années 1315 à 1317, sur des populations déjà affaiblies. Ses conséquences sont durables : villages abandonnés, pénurie de main-d'oeuvre, hausse des salaires et révoltes. Le choléra et la grippe espagnole sont des épidémies bien plus récentes, des XIXe et XXe siècles."
+   "explication": "La peste noire arrive en Méditerranée en 1347 par des navires venus de mer Noire, puis se diffuse en quelques années dans presque toute l'Europe. Les estimations les plus courantes évaluent la mortalité entre un tiers et la moitié de la population. Elle survient après les famines des années 1315 à 1317, sur des populations déjà affaiblies. Ses conséquences sont durables : villages abandonnés, pénurie de main-d'œuvre, hausse des salaires et révoltes. Le choléra et la grippe espagnole sont des épidémies bien plus récentes, des XIXe et XXe siècles."
   },
   {
    "q": "Quelle innovation architecturale caractérise l'art gothique apparu vers 1140 en Île-de-France ?",
@@ -199,7 +199,7 @@
    ],
    "bonne": 3,
    "difficulte": 2,
-   "explication": "Le chantier du choeur de la basilique de Saint-Denis, vers 1140, est considéré comme le point de départ de l'art gothique. La croisée d'ogives concentre le poids de la voûte sur quelques points d'appui, et les arcs-boutants extérieurs reprennent la poussée des murs. Les murs peuvent alors être percés de vastes baies garnies de vitraux, ce qui rend les édifices plus hauts et plus lumineux. La voûte en berceau, plus lourde, caractérise au contraire l'art roman qui précède. Notre-Dame de Paris, commencée en 1163, et Chartres illustrent le style gothique."
+   "explication": "Le chantier du chœur de la basilique de Saint-Denis, vers 1140, est considéré comme le point de départ de l'art gothique. La croisée d'ogives concentre le poids de la voûte sur quelques points d'appui, et les arcs-boutants extérieurs reprennent la poussée des murs. Les murs peuvent alors être percés de vastes baies garnies de vitraux, ce qui rend les édifices plus hauts et plus lumineux. La voûte en berceau, plus lourde, caractérise au contraire l'art roman qui précède. Notre-Dame de Paris, commencée en 1163, et Chartres illustrent le style gothique."
   }
  ]
 }

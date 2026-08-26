@@ -59,7 +59,7 @@
   },
   {
    "titre": "Révoltes, abolitions et mémoire",
-   "texte": "Le premier grand coup porté au système vient des esclaves eux-mêmes. Dans la colonie française de Saint-Domingue, la plus rentable des Caraïbes, une insurrection éclate le 22 août 1791. Les commissaires envoyés par la République proclament l'abolition localement en août 1793, et la Convention la vote pour l'ensemble des colonies françaises le 4 février 1794. Toussaint Louverture, ancien esclave devenu général, gouverne l'île avant d'être déporté en France. Bonaparte tente en 1802 de rétablir l'esclavage et envoie une expédition : la guerre reprend, plus féroce encore, et se solde par la victoire des insurgés. Le 1er janvier 1804, Dessalines proclame l'indépendance d'Haïti, premier État issu d'une révolte d'esclaves victorieuse. Le conflit aurait fait environ 200 000 morts, dont 57 000 soldats français et 23 000 Britanniques. La France ne reconnaît l'indépendance qu'en 1825, contre une indemnité colossale fixée à 150 millions de francs-or, réduite ensuite, qui pèsera sur le pays pendant plus d'un siècle. Ailleurs, l'abolition avance par étapes : le Danemark et le Royaume-Uni interdisent la traite en 1807, la France abolit l'esclavage en 1848, les États-Unis en 1865 au sortir de la guerre de Sécession, et le Brésil en dernier, en 1888. La mémoire de cette histoire reste un enjeu vif dans les sociétés concernées.",
+   "texte": "Le premier grand coup porté au système vient des esclaves eux-mêmes. Dans la colonie française de Saint-Domingue, la plus rentable des Caraïbes, une insurrection éclate le 22 août 1791. Les commissaires envoyés par la République proclament l'abolition localement en août 1793, et la Convention la vote pour l'ensemble des colonies françaises le 4 février 1794. Toussaint Louverture, ancien esclave devenu général, gouverne l'île avant d'être déporté en France. Bonaparte tente en 1802 de rétablir l'esclavage et envoie une expédition : la guerre reprend, plus féroce encore, et se solde par la victoire des insurgés. Le 1er janvier 1804, Dessalines proclame l'indépendance d'Haïti, premier État issu d'une révolte d'esclaves victorieuse. Le conflit aurait fait environ 200 000 morts, dont 57 000 soldats français et 23 000 Britanniques. La France ne reconnaît l'indépendance qu'en 1825, contre une indemnité colossale fixée à 150 millions de francs-or, réduite ensuite, qui pèsera sur le pays pendant plus d'un siècle. Ailleurs, l'abolition avance par étapes : le Danemark interdit la traite par une loi de 1792, applicable en 1803, et le Royaume-Uni en 1807 ; la France abolit l'esclavage en 1848, les États-Unis en 1865 au sortir de la guerre de Sécession, et le Brésil en dernier, en 1888. La mémoire de cette histoire reste un enjeu vif dans les sociétés concernées.",
    "visuel": {
     "type": "frise",
     "titre": "L'abolition, une conquête par étapes",
@@ -80,9 +80,9 @@
       "texte": "Premier État né d'une révolte d'esclaves victorieuse."
      },
      {
-      "date": "1807",
+      "date": "1803 et 1807",
       "label": "Interdiction de la traite",
-      "texte": "Par le Danemark et le Royaume-Uni ; le trafic illégal se poursuit."
+      "texte": "Le Danemark le premier, puis le Royaume-Uni ; le trafic illégal se poursuit."
      },
      {
       "date": "1833",
@@ -167,7 +167,7 @@
    ],
    "bonne": 1,
    "difficulte": 3,
-   "explication": "Le Brésil abolit l'esclavage en 1888, vingt-trois ans après les États-Unis, qui l'ont fait en 1865 au sortir de la guerre de Sécession. Le Brésil avait été de très loin la première destination de la traite atlantique, et Rio de Janeiro le premier port négrier du monde, devant Liverpool et Nantes. L'abolition y a été progressive, avec des lois libérant d'abord les nouveau-nés puis les personnes âgées, avant la suppression totale. Le Danemark et le Royaume-Uni avaient interdit la traite dès 1807, l'Empire britannique aboli l'esclavage en 1833 et la France en 1848. Cuba, colonie espagnole, avait aboli en 1886."
+   "explication": "Le Brésil abolit l'esclavage en 1888, vingt-trois ans après les États-Unis, qui l'ont fait en 1865 au sortir de la guerre de Sécession. Le Brésil avait été de très loin la première destination de la traite atlantique, et Rio de Janeiro le premier port négrier du monde, devant Liverpool et Nantes. L'abolition y a été progressive, avec des lois libérant d'abord les nouveau-nés puis les personnes âgées, avant la suppression totale. Le Danemark avait interdit la traite dès 1792, applicable en 1803, suivi par le Royaume-Uni en 1807 ; l'Empire britannique abolit l'esclavage en 1833 et la France en 1848. Cuba, colonie espagnole, avait aboli en 1886."
   }
  ],
  "sources": [

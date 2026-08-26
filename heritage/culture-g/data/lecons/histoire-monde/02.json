@@ -89,9 +89,9 @@
       "texte": "Racontée par Thucydide, qui y participa."
      },
      {
-      "date": "430 av. J.-C.",
+      "date": "430-429 av. J.-C.",
       "label": "Épidémie à Athènes",
-      "texte": "Elle emporte Périclès."
+      "texte": "Elle emporte Périclès en 429."
      },
      {
       "date": "415-413 av. J.-C.",
@@ -198,7 +198,7 @@
    ],
    "bonne": 1,
    "difficulte": 2,
-   "explication": "Aristote, né à Stagire en Macédoine, étudia longtemps à l'Académie fondée par Platon à Athènes. Il fut appelé par Philippe II pour former son fils Alexandre, puis fonda sa propre école, le Lycée. Son oeuvre embrasse la logique, la physique, la biologie, la morale et la politique, et exercera une influence considérable sur la pensée médiévale, en Europe comme dans le monde musulman. Socrate, maître de Platon, n'a rien écrit lui-même. Hérodote est un historien et Hippocrate un médecin."
+   "explication": "Aristote, né à Stagire en Macédoine, étudia longtemps à l'Académie fondée par Platon à Athènes. Il fut appelé par Philippe II pour former son fils Alexandre, puis fonda sa propre école, le Lycée. Son œuvre embrasse la logique, la physique, la biologie, la morale et la politique, et exercera une influence considérable sur la pensée médiévale, en Europe comme dans le monde musulman. Socrate, maître de Platon, n'a rien écrit lui-même. Hérodote est un historien et Hippocrate un médecin."
   }
  ]
 }

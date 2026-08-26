@@ -108,7 +108,7 @@
     },
     {
       "titre": "La crise financière de 2007-2008",
-      "texte": "La crise financière la plus grave depuis les années 1930 trouve son origine dans le marché immobilier américain. À partir du second semestre 2006, les prêts immobiliers risqués, dits subprimes, accordés à des ménages peu solvables, commencent à se retourner. Ces créances avaient été transformées en titres revendus à des investisseurs du monde entier, si bien que les pertes se sont diffusées bien au-delà des banques prêteuses. En juillet 2007, certaines enchères périodiques ne trouvent plus aucun acheteur, ce qui rend impossible l'évaluation de nombreux actifs et paralyse les marchés. Le 6 septembre 2008, les organismes américains Fannie Mae et Freddie Mac, qui garantissaient environ quarante pour cent des prêts hypothécaires du pays, soit près de cinq mille trois cents milliards de dollars, sont placés sous tutelle publique. Le 15 septembre 2008, la banque d'investissement Lehman Brothers fait faillite : c'est le moment le plus spectaculaire de la crise. Les banques européennes sont touchées à leur tour et plus d'une centaine d'établissements cessent leurs activités entre 2008 et 2009. Le produit intérieur brut mondial recule de 2,2 pour cent en 2009. En réponse, les autorités renforcent la réglementation, notamment avec la loi américaine Dodd-Frank de 2010 et les règles prudentielles dites de Bâle III.",
+      "texte": "La crise financière la plus grave depuis les années 1930 trouve son origine dans le marché immobilier américain. À partir du second semestre 2006, les prêts immobiliers risqués, dits subprimes, accordés à des ménages peu solvables, commencent à se retourner. Ces créances avaient été transformées en titres revendus à des investisseurs du monde entier, si bien que les pertes se sont diffusées bien au-delà des banques prêteuses. En juillet 2007, certaines enchères périodiques ne trouvent plus aucun acheteur, ce qui rend impossible l'évaluation de nombreux actifs et paralyse les marchés. Le 6 septembre 2008, les organismes américains Fannie Mae et Freddie Mac, qui garantissaient environ quarante pour cent des prêts hypothécaires du pays, soit près de cinq mille trois cents milliards de dollars, sont placés sous tutelle publique. Le 15 septembre 2008, la banque d'investissement Lehman Brothers fait faillite : c'est le moment le plus spectaculaire de la crise. Les banques européennes sont touchées à leur tour : plusieurs grands établissements sont recapitalisés, absorbés ou nationalisés, tandis qu'aux États-Unis plus de cent soixante banques font faillite en 2008 et 2009. Le produit intérieur brut mondial recule de 2,2 pour cent en 2009. En réponse, les autorités renforcent la réglementation, notamment avec la loi américaine Dodd-Frank de 2010 et les règles prudentielles dites de Bâle III.",
       "visuel": {
         "type": "frise",
         "titre": "La crise financière de 2007-2008",
@@ -136,7 +136,7 @@
           {
             "date": "2008-2009",
             "label": "La contagion",
-            "texte": "Plus d'une centaine d'établissements européens cessent leurs activités ; le produit intérieur brut mondial recule de 2,2 pour cent en 2009."
+            "texte": "Les banques européennes sont recapitalisées, absorbées ou nationalisées ; le produit intérieur brut mondial recule de 2,2 pour cent en 2009."
           },
           {
             "date": "2010",

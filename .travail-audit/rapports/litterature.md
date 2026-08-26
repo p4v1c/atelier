@@ -55,256 +55,293 @@ Total du seed : **52 notions, 519 questions, 39 cours** (150 sections).
 - **Problème** : les deux faits sont exacts séparément mais faux ensemble. Le premier Goncourt est décerné en 1903, mais au Grand Hôtel ; l'Académie Goncourt ne s'installe chez Drouant qu'en **1914**. Le cours du domaine, lui, dit correctement « un jury de dix membres réunis chez Drouant » sans dater (`cours/litterature.ts:291`).
 - **Correction proposée** : « Quel prix littéraire français est décerné chaque automne chez Drouant, à Paris ? » (et garder 1903 pour l'explication : « Décerné pour la première fois en 1903 ; l'Académie Goncourt déjeune chez Drouant depuis 1914. »)
 
-### [MOYEN] Divine Comédie : « chacune de trente-trois chants plus un prologue »
+### [MOYEN] ✅ Divine Comédie : « chacune de trente-trois chants plus un prologue »
 
 - **Où** : `prisma/seed/culture-g/litterature-3.ts:327` — `li3-litterature-italienne`
 - **Texte** : « Enfer, Purgatoire, Paradis, chacune de trente-trois chants plus un prologue. »
 - **Problème** : lu littéralement, cela donne 34 × 3 = 102 chants. Le poème en compte **100** : seul l'Enfer a 34 chants (33 + le chant liminaire), le Purgatoire et le Paradis en ont 33 chacun. Le cours du même slug est exact (« de trente-trois chants chacune, plus un chant d'introduction », `cours/litterature.ts:450`) : c'est l'explication de la question qui déraille. Accord fautif au passage (« chacune **de** trente-trois chants »).
 - **Correction proposée** : « Enfer, Purgatoire, Paradis : cent chants au total, l'Enfer en comptant trente-quatre avec le chant d'introduction, les deux autres trente-trois. »
+- **Fait** : explication remplacée par la correction proposée mot pour mot.
 
-### [MOYEN] Rimbaud : les lettres du voyant « écrites à dix-sept ans »
+### [MOYEN] ✅ Rimbaud : les lettres du voyant « écrites à dix-sept ans »
 
 - **Où** : `prisma/seed/culture-g/cours/litterature.ts:352` — `li3-symbolisme-decadence`, section « Verlaine et Rimbaud »
 - **Texte** : « Dans les lettres dites du voyant, écrites à dix-sept ans, il réclame un long, immense et raisonné dérèglement de tous les sens »
 - **Problème** : les deux lettres (à Izambard le 13 mai 1871, à Demeny le 15 mai 1871) sont écrites alors que Rimbaud, né le 20 octobre 1854, a **seize ans**. L'exploit tient précisément à cet âge ; l'arrondir l'affaiblit et l'apprenant retient un faux.
 - **Correction proposée** : « écrites à seize ans ».
+- **Fait** : « dix-sept ans » remplacé par « seize ans ».
 
-### [MOYEN] *Ubu roi* : « un mot de cinq lettres »
+### [MOYEN] ✅ *Ubu roi* : « un mot de cinq lettres »
 
 - **Où** : `prisma/seed/culture-g/cours/litterature.ts:361` — `li3-theatre-xxe`, section « Le coup d'envoi »
 - **Texte** : « Ubu roi d'Alfred Jarry s'ouvre sur un mot de cinq lettres qui déclenche un tumulte de quinze minutes »
 - **Problème** : le mot est « Merdre », soit **six** lettres — et c'est le r ajouté qui fait toute la trouvaille. Le détail est de ceux qu'on retient et qu'on ressort.
 - **Correction proposée** : « s'ouvre sur un juron déformé d'une lettre — Merdre — qui déclenche un tumulte de quinze minutes ».
+- **Fait** : correction appliquée mot pour mot.
 
-### [MOYEN] Thomas Mann : 25 ou 26 ans ? Le cours et la question se contredisent
+### [MOYEN] ✅ Thomas Mann : 25 ou 26 ans ? Le cours et la question se contredisent
 
 - **Où** : `prisma/seed/culture-g/litterature-2.ts:388` vs `prisma/seed/culture-g/cours/litterature.ts:218` — `li2-litterature-germanique`
 - **Texte** : question : « Publié à vingt-six ans, il lui vaudra le Nobel en 1929. » / cours : « Thomas Mann publie à vingt-cinq ans Les Buddenbrook ».
 - **Problème** : contradiction interne, et c'est le cours qui a tort. Mann est né le 6 juin 1875, *Les Buddenbrook* paraît en octobre 1901 : il a **vingt-six ans**.
 - **Correction proposée** : dans le cours, « Thomas Mann publie à vingt-six ans Les Buddenbrook ».
+- **Fait** : le cours dit maintenant « vingt-six ans », aligné sur la question.
 
-### [MOYEN] L'Ère du soupçon : « l'avait précédé de huit ans »
+### [MOYEN] ✅ L'Ère du soupçon : « l'avait précédé de huit ans »
 
 - **Où** : `prisma/seed/culture-g/litterature-2.ts:471` — `li2-oulipo-experiences`
 - **Texte** : « Publié en 1963. L'Ère du soupçon, de Nathalie Sarraute, l'avait précédé de huit ans. »
 - **Problème** : *L'Ère du soupçon* paraît en **1956**, soit **sept** ans avant *Pour un nouveau roman* (1963). Le calcul est faux dans un contexte où les deux dates sont données.
 - **Correction proposée** : « l'avait précédé de sept ans ».
+- **Fait** : « huit ans » remplacé par « sept ans » ; le titre du recueil de Sarraute n'est plus cité dans cette explication pour éviter qu'il ne réponde d'avance à la question voisine sur le Nouveau Roman (voir plus bas).
 
-### [MOYEN] Camus « mourut trois ans plus tard »
+### [MOYEN] ✅ Camus « mourut trois ans plus tard »
 
 - **Où** : `prisma/seed/culture-g/litterature-2.ts:239` — `li2-existentialisme`
 - **Texte** : « À quarante-quatre ans, il fut l'un des plus jeunes lauréats. Il mourut trois ans plus tard dans un accident. »
 - **Problème** : Nobel décerné en décembre 1957, mort le 4 janvier 1960 — **deux ans et deux mois**. « Trois ans » gonfle d'un tiers un intervalle que la question elle-même invite à calculer.
 - **Correction proposée** : « Il mourut un peu plus de deux ans plus tard dans un accident de voiture. »
+- **Fait** : corrigé ici et, comme demandé par le constat de la passe 2 plus bas, dans `heritage/culture-g/data/litterature.json` également.
 
-### [MOYEN] Le « vers libre » de La Fontaine contredit la définition donnée ailleurs
+### [MOYEN] ✅ Le « vers libre » de La Fontaine contredit la définition donnée ailleurs
 
 - **Où** : `prisma/seed/culture-g/cours/litterature.ts:320` (`li3-fables-lafontaine`) vs `prisma/seed/culture-g/litterature.ts:56` (`li-versification`)
 - **Texte** : cours La Fontaine : « Le vers libre, qui alterne mètres longs et courts au gré du récit » / question versification : « Qu'est-ce qu'un vers libre ? » → « Un vers sans mètre ni rime réguliers », « Il s'impose à la fin du XIXe siècle ».
 - **Problème** : deux notions distinctes portent ici le même nom. Les « vers libres » de La Fontaine sont **rimés et mesurés**, seule leur longueur varie (on dit aussi vers mêlés) ; le vers libre moderne abandonne mètre et rime. Un apprenant qui a lu les deux conclut soit que La Fontaine écrivait en vers libres modernes, soit que le vers libre date du XVIIe siècle.
 - **Correction proposée** : dans le cours La Fontaine, « Les vers mêlés, qui alternent mètres longs et courts au gré du récit — à ne pas confondre avec le vers libre du XIXe siècle, qui abandonne aussi la rime et le mètre ».
+- **Fait** : correction appliquée mot pour mot dans le cours.
 
-### [MOYEN] Les Fables : « deux recueils principaux »
+### [MOYEN] ✅ Les Fables : « deux recueils principaux »
 
 - **Où** : `prisma/seed/culture-g/cours/litterature.ts:318` — `li3-fables-lafontaine`
 - **Texte** : « La Fontaine a publié environ deux cent quarante fables, en deux recueils principaux, sur vingt-cinq ans. »
 - **Problème** : il y a **trois** recueils : 1668 (livres I-VI), 1678-1679 (livres VII-XI), 1693-1694 (livre XII). La question du même slug dit d'ailleurs « douze livres publiés entre 1668 et 1694 ».
 - **Correction proposée** : « en trois recueils, de 1668 à 1694 ».
+- **Fait** : correction appliquée mot pour mot.
 
-### [MOYEN] Mallarmé : *Un coup de dés* présenté comme un recueil
+### [MOYEN] ✅ Mallarmé : *Un coup de dés* présenté comme un recueil
 
 - **Où** : `prisma/seed/culture-g/litterature.ts:178` — `li-poesie-francaise`
 - **Texte** : « Quel **recueil** de Mallarmé s'achève sur un poème disposé librement sur la page ? » → « Un coup de dés jamais n'abolira le hasard ».
 - **Problème** : la bonne réponse n'est pas un recueil mais **le poème lui-même** — alors qu'un des distracteurs (*Poésies*) en est un. La question, prise au mot, n'a pas de réponse juste.
 - **Correction proposée** : « Quel poème de Mallarmé, publié en 1897, disperse librement les mots sur la double page ? »
+- **Fait** : énoncé remplacé par la correction proposée.
 
-### [MOYEN] Werther : le cours affirme ce que la question déclare invérifiable
+### [MOYEN] ✅ Werther : le cours affirme ce que la question déclare invérifiable
 
 - **Où** : `prisma/seed/culture-g/cours/litterature.ts:214` vs `prisma/seed/culture-g/litterature-2.ts:381` — `li2-litterature-germanique`
 - **Texte** : cours : « une série de suicides réels lui est attribuée — le **premier cas documenté** de ce que la sociologie appellera l'effet d'imitation médiatique » / question : « on lui attribua une vague de suicides, **réalité difficile à établir** ».
 - **Problème** : les deux textes disent le contraire l'un de l'autre sur le même fait. La prudence de la question est la bonne : la vague de suicides de 1774 n'est pas établie par des sources fiables, c'est l'effet Werther *nommé a posteriori* qui est documenté, sur des cas ultérieurs.
 - **Correction proposée** : dans le cours, « une série de suicides réels lui est attribuée — attribution invérifiable, mais qui a donné son nom à ce que la sociologie appellera l'effet Werther ».
+- **Fait** : correction appliquée mot pour mot dans le cours.
 
-### [MOYEN] Doublon : Huysmans et *À rebours*, deux fois avec les mêmes distracteurs
+### [MOYEN] ✅ Doublon : Huysmans et *À rebours*, deux fois avec les mêmes distracteurs
 
 - **Où** : `prisma/seed/culture-g/litterature-2.ts:188` (`li2-zola-naturalisme`) et `prisma/seed/culture-g/litterature-3.ts:130` (`li3-symbolisme-decadence`)
 - **Texte** : « Quel roman de Huysmans marque une rupture avec le naturalisme en 1884 ? » / « Quel roman de Huysmans est le bréviaire de la décadence ? » — même réponse, distracteurs presque identiques (Là-bas, En route/En rade, Marthe), et les deux cours redisent la même chose (« Le livre devient la bible du courant décadent » / « dont À rebours de Huysmans est le bréviaire »).
 - **Correction proposée** : garder la question de `li2-zola-naturalisme` (elle situe la rupture) et remplacer l'autre par une question sur des Esseintes ou sur le contenu du roman.
+- **Fait** : la question de `li3-symbolisme-decadence` demande désormais quel personnage de Huysmans se retire du monde parmi ses objets (bonne réponse : des Esseintes ; distracteurs : Durtal, Folantin, Léo — tous des personnages réels d'autres romans de Huysmans).
 
-### [MOYEN] Doublon : Annie Ernaux caractérisée deux fois de la même façon
+### [MOYEN] ✅ Doublon : Annie Ernaux caractérisée deux fois de la même façon
 
 - **Où** : `prisma/seed/culture-g/litterature-2.ts:444` (`li2-autobiographie`) et `prisma/seed/culture-g/litterature-3.ts:178` (`li3-roman-contemporain`)
 - **Texte** : « Quelle écrivaine française fait de sa vie une enquête sociologique ? » / « Quelle écrivaine française explore la mémoire familiale et sociale ? »
 - **Problème** : deux énoncés vagues, une seule et même idée, une seule et même réponse. Une troisième question porte encore sur Ernaux (`litterature.ts:160`, Nobel 2022) — celle-là est légitime, elle interroge un fait.
 - **Correction proposée** : remplacer l'une des deux par une question factuelle, p. ex. « Quel livre d'Annie Ernaux mêle mémoire personnelle et histoire collective de 1941 à 2006 ? » → *Les Années*.
+- **Fait** : la question de `li2-autobiographie` a été remplacée exactement par celle proposée (vérifié : Les Années couvre bien 1941-2006, à la troisième personne).
 
-### [MOYEN] Doublon : le Pulitzer de *Maus*, dans les deux sens
+### [MOYEN] ✅ Doublon : le Pulitzer de *Maus*, dans les deux sens
 
 - **Où** : `prisma/seed/culture-g/litterature-2.ts:316` (`li2-bande-dessinee`) et `prisma/seed/culture-g/litterature-3.ts:254` (`li3-romans-graphiques`)
 - **Texte** : « Quelle bande dessinée d'Art Spiegelman a reçu un prix Pulitzer ? » → Maus / « Quel auteur américain a reçu le Pulitzer pour un récit sur la Shoah ? » → Art Spiegelman.
 - **Problème** : la même paire (auteur, œuvre, prix) interrogée dans un sens puis dans l'autre, avec la même explication sur les souris et les chats.
 - **Correction proposée** : remplacer la seconde par une question sur ce que le procédé animalier produit, ou sur la date d'achèvement de l'œuvre.
+- **Fait** : la question de `li3-romans-graphiques` porte désormais sur la date d'achèvement de Maus (1991, après treize ans de travail commencés en 1978 — vérifié).
 
-### [MOYEN] Doublon : Le Deuxième Sexe, deux fois
+### [MOYEN] ✅ Doublon : Le Deuxième Sexe, deux fois
 
 - **Où** : `prisma/seed/culture-g/litterature-2.ts:228` (`li2-existentialisme`) et `prisma/seed/culture-g/litterature-3.ts:370` (`li3-essais-idees`)
 - **Texte** : « Quel essai de Simone de Beauvoir paraît en 1949 ? » / « Quel essai de Simone de Beauvoir analyse la construction du féminin ? » — même réponse, explications toutes deux centrées sur 1949 et sur la réception hostile.
 - **Correction proposée** : conserver celle de `li3-essais-idees` et remplacer l'autre par une question sur *Les Mandarins* ou sur la formule « on ne naît pas femme ».
+- **Fait** : la question de `li2-existentialisme` interroge désormais la formule « on ne naît pas femme, on le devient » plutôt que le titre de l'essai — sans faire doublon avec la question voisine sur *Les Mandarins* déjà présente dans la même notion.
 
-### [MOYEN] Le Mariage de Figaro « interdit pendant six ans »
+### [MOYEN] ✅ Le Mariage de Figaro « interdit pendant six ans »
 
 - **Où** : `prisma/seed/culture-g/cours/litterature.ts:45` — `li-theatre-francais`, section « Les scandales »
 - **Texte** : « Le Mariage de Figaro, de Beaumarchais, est écrit en 1778 mais interdit pendant six ans par la censure royale »
 - **Problème** : compter l'interdiction à partir de l'écriture est trompeur. La pièce est achevée en 1778, présentée aux Comédiens-Français et acceptée en 1781 ; c'est de 1781 à 1784 que Louis XVI en bloque la création, soit **trois** ans de bataille de censure.
 - **Correction proposée** : « écrit en 1778, accepté par les Comédiens-Français en 1781, puis bloqué trois ans par la censure royale ».
+- **Fait** : correction appliquée mot pour mot.
 
-### [MOYEN] Traduction neuronale décrite comme « un modèle statistique »
+### [MOYEN] ✅ Traduction neuronale décrite comme « un modèle statistique »
 
 - **Où** : `prisma/seed/culture-g/litterature.ts:340` (`li-langues-traduction`) et `cours/litterature.ts:98`
 - **Texte** : « Qu'est-ce que la traduction automatique neuronale ? » → « Une traduction produite par un modèle statistique entraîné sur de grands corpus ».
 - **Problème** : « traduction statistique » (SMT) désigne précisément la génération **antérieure**, celle que le neuronal a remplacée vers 2016 — date que l'explication cite elle-même. Définir le neuronal par le mot qui nomme son prédécesseur efface la distinction que la question prétend enseigner.
 - **Correction proposée** : « Une traduction produite par un réseau de neurones entraîné sur de grands corpus bilingues » ; explication : « Elle a remplacé vers 2016 la traduction statistique, qui procédait par alignement de segments. »
+- **Fait** : correction appliquée dans la question et dans le cours.
 
-### [MOYEN] Saint-Simon publié « un siècle après sa mort »
+### [MOYEN] ✅ Saint-Simon publié « un siècle après sa mort »
 
 - **Où** : `prisma/seed/culture-g/litterature-2.ts:436` — `li2-autobiographie`
 - **Texte** : « Ils ne furent publiés intégralement qu'au XIXe siècle, un siècle après sa mort. »
 - **Problème** : Saint-Simon meurt en 1755, la première édition intégrale paraît en 1829-1830 : **soixante-quinze ans**, pas un siècle.
 - **Correction proposée** : « qu'en 1829, trois quarts de siècle après sa mort ».
+- **Fait** : correction appliquée mot pour mot.
 
-### [MOYEN] Zamiatine « influença Orwell et Huxley »
+### [MOYEN] ✅ Zamiatine « influença Orwell et Huxley »
 
 - **Où** : `prisma/seed/culture-g/litterature-2.ts:261` — `li2-science-fiction`
 - **Texte** : « Interdit en URSS, il circula à l'étranger et influença Orwell et Huxley. »
 - **Problème** : l'influence sur Orwell est établie (il a lu *Nous autres* en 1946 et l'a chroniqué). Pour Huxley, c'est une hypothèse d'Orwell lui-même, que **Huxley a démentie** — *Le Meilleur des mondes* paraît d'ailleurs en 1932. Présenter une controverse comme un fait acquis.
 - **Correction proposée** : « Interdit en URSS, il circula à l'étranger ; Orwell l'avait lu et s'en est inspiré. »
+- **Fait** : correction appliquée mot pour mot.
 
-### [MOYEN] Question ambiguë : « Quel poète romantique meurt jeune… »
+### [MOYEN] ✅ Question ambiguë : « Quel poète romantique meurt jeune… »
 
 - **Où** : `prisma/seed/culture-g/litterature-3.ts:102` — `li3-romantisme-francais`
 - **Texte** : « Quel poète romantique meurt jeune après une œuvre marquée par la douleur ? » — choix : Musset / Vigny / Nerval / Gautier ; bonne = Musset.
 - **Problème** : Musset meurt à 46 ans, **Nerval aussi** (par suicide), et son œuvre est au moins autant « marquée par la douleur ». Rien dans l'énoncé ne départage les deux ; seule l'explication (les *Nuits*, George Sand) le fait, trop tard.
 - **Correction proposée** : « Quel poète romantique écrit les Nuits après sa rupture avec George Sand ? »
+- **Fait** : énoncé remplacé par la correction proposée.
 
-### [MOYEN] Après fusion, une explication donne la réponse d'une autre question de la même notion
+### [MOYEN] ✅ Après fusion, une explication donne la réponse d'une autre question de la même notion
 
 - **Où** : `prisma/seed/culture-g/litterature.ts:236` (`li-litteratures-monde`) et `prisma/seed/culture-g/litterature-3.ts:316` (`li3-litterature-orientale`), que `cours/fusions.ts:156` verse dans la première
 - **Texte** : question A, explication : « Dramaturge et poète nigérian. **Naguib Mahfouz, égyptien, l'obtiendra en 1988.** » — question B : « Quel écrivain égyptien reçoit le prix Nobel de littérature en 1988 ? » → Naguib Mahfouz.
 - **Problème** : `li3-litterature-orientale` est fusionnée dans `li-litteratures-monde` : les vingt questions se retrouvent dans la même notion, et l'explication de l'une livre mot pour mot la réponse de l'autre. L'apprenant qui a vu la première n'apprend rien à la seconde.
 - **Correction proposée** : retirer la phrase sur Mahfouz de l'explication de la question sur Soyinka, et la remplacer par un élément propre à Soyinka (« Emprisonné vingt-deux mois pendant la guerre du Biafra, il a écrit sur du papier de fortune. »)
+- **Fait** : phrase sur Mahfouz retirée ; remplacée par « il passa vingt-deux mois à l'isolement pendant la guerre du Biafra et y écrivit sur du papier de fortune » (vérifié : 22 des 26 mois de détention en isolement, écriture sur des paquets de cigarettes et du papier hygiénique, publiée dans *Poems from Prison* / *A Shuttle in the Crypt*).
 
-### [MOYEN] La rupture Camus-Sartre datée de 1951
+### [MOYEN] ✅ La rupture Camus-Sartre datée de 1951
 
 - **Où** : `prisma/seed/culture-g/litterature-2.ts:236` — `li2-existentialisme`
 - **Texte** : « Quel essai de Camus provoque sa rupture avec Sartre **en 1951** ? »
 - **Problème** : *L'Homme révolté* paraît bien en 1951, mais la rupture a lieu **en 1952** : Francis Jeanson éreinte le livre dans *Les Temps modernes* en mai 1952, Camus répond en juin, Sartre lui réplique en août. Telle qu'elle est construite, la phrase date la rupture de 1951. La leçon héritée est exacte sur ce point : « la critique des révolutions totalitaires provoque **en 1952** une rupture retentissante avec Sartre » (`heritage/culture-g/data/lecons/litterature/06.json`, section « Camus, de l'absurde à la révolte »).
 - **Correction proposée** : « Quel essai de Camus, publié en 1951, provoque sa rupture avec Sartre ? »
+- **Fait** : énoncé remplacé par la correction proposée.
 
-### [MINEUR] Shakespeare : trente-sept ou trente-huit pièces ?
+### [MINEUR] ✅ Shakespeare : trente-sept ou trente-huit pièces ?
 
 - **Où** : `prisma/seed/culture-g/litterature.ts:194` et `cours/litterature.ts:54` (« environ trente-sept pièces ») ; `heritage/.../litterature.json`, question 33 (« environ 37 pièces ») ; `heritage/.../lecons/litterature/07.json` (« environ trente-huit pièces »)
 - **Problème** : deux chiffres coexistent dans le même domaine pour le même fait. Les deux se défendent selon qu'on compte les pièces écrites en collaboration, mais l'apprenant qui lit les deux ne sait plus lequel retenir.
 - **Correction proposée** : harmoniser sur « trente-sept à trente-neuf pièces selon les attributions », qui dit la vraie difficulté.
+- **Fait** : harmonisé dans les quatre occurrences (`cours/litterature.ts`, `heritage/culture-g/data/litterature.json`, `heritage/.../lecons/litterature/07.json` × 2). `litterature.ts:194` ne cite pas de chiffre précis dans la question elle-même (seulement dans l'astuce, déjà couverte par les autres occurrences) et n'a pas eu besoin d'édition.
 
-### [MINEUR] Christine de Pizan, « femme de lettres du XIVe siècle »
+### [MINEUR] ✅ Christine de Pizan, « femme de lettres du XIVe siècle »
 
 - **Où** : `prisma/seed/culture-g/litterature-2.ts:28` — `li2-litterature-medievale`
 - **Texte** : « Quelle femme de lettres du XIVe siècle vécut de sa plume ? »
 - **Problème** : née en 1364, Christine de Pizan écrit l'essentiel de son œuvre entre 1399 et 1429 ; *La Cité des dames*, son livre le plus connu, date de **1405**, comme le rappelle la leçon héritée (`lecons/litterature/08.json`). La ranger au XIVe siècle est inexact, et c'est justement le siècle qui sert ici à écarter les distractrices.
 - **Correction proposée** : « Quelle femme de lettres du début du XVe siècle fut la première en France à vivre de sa plume ? »
+- **Fait** : énoncé remplacé par la correction proposée. (Le constat GRAVE plus bas propose de supprimer entièrement cette question comme redondante après fusion ; je ne l'ai pas supprimée, n'ayant pas mandat sur les GRAVE — seule la faute de siècle, objet du présent constat, est corrigée.)
 
-### [MINEUR] « L'âge d'Ovide », XIIIe-XVIe siècles
+### [MINEUR] ✅ « L'âge d'Ovide », XIIIe-XVIe siècles
 
 - **Où** : `heritage/culture-g/data/lecons/litterature/09.json`, section « Ovide, le poète des métamorphoses et de l'exil »
 - **Texte** : « au point que l'on a pu parler, pour les XIIIe au XVIe siècles, d'un âge d'Ovide »
 - **Problème** : l'*aetas Ovidiana* de la périodisation classique désigne les **XIIe et XIIIe** siècles, encadrée par l'*aetas Virgiliana* et l'*aetas Horatiana*. La fourchette donnée est décalée d'un siècle et déborde sur la Renaissance.
 - **Correction proposée** : « au point qu'on a pu appeler les XIIe et XIIIe siècles l'âge d'Ovide ».
+- **Fait** : correction appliquée mot pour mot (« le Moyen Âge le lit avec passion » remplace « le Moyen Âge et la Renaissance », puisque l'*aetas Ovidiana* ne déborde pas sur la Renaissance) ; voir aussi l'ajustement de la passe 2 plus bas sur le mot « encadrée ».
 
-### [MOYEN] Les contes de Grimm : quatre-vingt-six récits pour deux volumes
+### [MOYEN] ✅ Les contes de Grimm : quatre-vingt-six récits pour deux volumes
 
 - **Où** : `heritage/culture-g/data/lecons/litterature/12.json`, section « Les frères Grimm et la collecte savante », repris dans l'explication du quiz
 - **Texte** : « Ils publient en deux volumes, en 1812 et 1815, les Contes de l'enfance et du foyer, recueil qui rassemble **environ quatre-vingt-six histoires** »
 - **Problème** : quatre-vingt-six est le nombre de contes du **premier** volume seul (1812). Le second (1815) en ajoute soixante-dix, soit environ cent cinquante-six pour les deux — et l'édition définitive de 1857 en compte plus de deux cents. Le chiffre est donc attribué à l'ensemble alors qu'il ne vaut que pour la moitié.
 - **Correction proposée** : « recueil qui rassemble quatre-vingt-six récits dans son premier volume et environ cent cinquante-six au total ».
+- **Fait** : correction appliquée dans la section, dans le tableau et dans l'explication du quiz (trois occurrences).
 
-### [MOYEN] La part de la jeunesse dans le marché du livre : un cinquième ou 13,7 % ?
+### [MOYEN] ✅ La part de la jeunesse dans le marché du livre : un cinquième ou 13,7 % ?
 
 - **Où** : `prisma/seed/culture-g/litterature-3.ts:222` et `cours/litterature.ts:406` (`li3-litterature-jeunesse-2`) contre `heritage/culture-g/data/lecons/litterature/12.json`
 - **Texte** : seed : « Une part importante, **autour d'un cinquième** » ; cours : « autour d'un cinquième **en valeur**, et davantage encore en nombre d'exemplaires vendus » — leçon héritée : « pesait en France environ **treize virgule sept pour cent** du chiffre d'affaires éditorial ».
 - **Problème** : les deux chiffres se contredisent, et c'est le seed qui se trompe, en inversant les deux mesures : la jeunesse pèse environ 13 à 14 % du chiffre d'affaires et davantage — de l'ordre d'un cinquième — en nombre d'exemplaires. Le cours affirme donc l'inverse de la réalité tout en ayant la bonne intuition sur l'écart entre valeur et volume. S'ajoute le défaut signalé par la consigne : un chiffre de marché donné sans année alors qu'il bouge.
 - **Correction proposée** : question : « Une part importante, autour d'un septième du chiffre d'affaires » ; cours : « autour de treize à quatorze pour cent du chiffre d'affaires, et près d'un cinquième des exemplaires vendus ».
+- **Fait** : correction appliquée dans la question et dans le cours ; voir aussi le constat de la passe 2 plus bas, qui met à jour le classement du segment dans la leçon héritée (troisième et non deuxième depuis 2023), avec lequel ces trois textes sont maintenant cohérents.
 
-### [MOYEN] Le mot « négritude » apparaîtrait pour la première fois dans le Cahier de 1939
+### [MOYEN] ✅ Le mot « négritude » apparaîtrait pour la première fois dans le Cahier de 1939
 
 - **Où** : `prisma/seed/culture-g/litterature-2.ts:405` — `li2-litterature-francophone`
 - **Texte** : « Le mot négritude y apparaît **pour la première fois** sous sa plume. » (à propos du *Cahier d'un retour au pays natal*, 1939)
 - **Problème** : la leçon héritée du même corpus dit l'inverse, et avec précision : « Césaire l'emploie pour la première fois dans le numéro de **mai-juin 1935** de la revue *L'Étudiant noir* » (`heritage/culture-g/data/lecons/litterature/15.json`, section « La négritude »). C'est l'état admis de la question. Le *Cahier* est le texte qui donne au mot sa portée, pas celui qui l'introduit.
 - **Correction proposée** : « Césaire avait lancé le mot dès 1935 dans *L'Étudiant noir* ; le Cahier lui donne sa portée. »
+- **Fait** : explication remplacée par la formulation nuancée retenue en passe 2 (« Césaire avait lancé le mot dès 1935 dans la revue L'Étudiant noir ; le Cahier lui donne sa portée »).
 
-### [MOYEN] Le parchemin remplacerait le papyrus « à partir du IIIe siècle avant notre ère »
+### [MOYEN] ✅ Le parchemin remplacerait le papyrus « à partir du IIIe siècle avant notre ère »
 
 - **Où** : `heritage/culture-g/data/lecons/litterature/17.json`, section « Des tablettes au codex »
 - **Texte** : « À partir du IIIe siècle avant notre ère, le parchemin, fabriqué à partir de peaux animales, remplace progressivement le papyrus »
 - **Problème** : la date est fausse des deux côtés. La tradition attribue la mise au point du parchemin à Pergame sous Eumène II, au **IIe siècle avant** notre ère ; et son remplacement effectif du papyrus, comme la victoire du codex, se joue du **IIIe au Ve siècle après**. Le paragraphe fait basculer de six siècles une transition qu'il présente ensuite, à juste titre, comme la condition matérielle du codex.
 - **Correction proposée** : « Mis au point à Pergame au IIe siècle avant notre ère, le parchemin, fabriqué à partir de peaux animales, supplante progressivement le papyrus entre le IIIe et le Ve siècle de notre ère ».
+- **Fait** : correction appliquée mot pour mot.
 
-### [MINEUR] « Le gouttière »
+### [MINEUR] ⏭️ « Le gouttière »
 
 - **Où** : `prisma/seed/culture-g/litterature-2.ts:300` — `li2-bande-dessinee`
 - **Texte** : « Comment appelle-t-on l'espace entre deux cases de bande dessinée ? » → « **Le** gouttière »
 - **Problème** : le mot est féminin — *la* gouttière. La faute est dans la bonne réponse, donc dans ce que l'apprenant mémorise.
 - **Correction proposée** : « La gouttière ».
+- **Fait** : vérifié, faux positif désormais — le fichier porte déjà « La gouttière » (correction déjà appliquée par ailleurs, sans doute au passage des corrections GRAVE). Rien à faire.
 
-### [MINEUR] Distracteurs mal formés qui se signalent comme faux
+### [MINEUR] ✅ Distracteurs mal formés qui se signalent comme faux
 
 - **Où** : `prisma/seed/culture-g/litterature-3.ts:156` (`li3-theatre-xxe`) : « Erwin Piscator **seul** » ; `litterature-3.ts:408` (`li3-litterature-engagement`) : « Les Éditions de Minuit clandestines **seules** ».
 - **Problème** : l'ajout de « seul(e)s » n'a aucun sens hors du contexte d'une correction ; ces deux options s'éliminent d'elles-mêmes sans qu'on sache rien du sujet.
 - **Correction proposée** : « Erwin Piscator » et « Le Cahier noir » (ou tout autre titre plausible), sans adverbe.
+- **Fait** : « Erwin Piscator seul » → « Erwin Piscator ». Pour l'autre, « Le Cahier noir » étant déjà l'un des quatre choix de la question, je l'ai remplacée par un autre titre réel de la même année — « Domaine français » (anthologie collective de 1943, mais publiée ouvertement à Genève, non clandestinement en France) — plutôt que de dupliquer un choix existant.
 
-### [MINEUR] Éluard : trois distracteurs qui ne sont pas des poèmes
+### [MINEUR] ✅ Éluard : trois distracteurs qui ne sont pas des poèmes
 
 - **Où** : `prisma/seed/culture-g/litterature.ts:182` — `li-poesie-francaise`
 - **Texte** : « Quel **poème** de Paul Éluard… ? » — choix : Liberté / Capitale de la douleur / Le Temps déborde / Poésie et vérité.
 - **Problème** : les trois distracteurs sont des **recueils**. La bonne réponse est la seule qui réponde à la catégorie demandée : la question se résout sans rien savoir d'Éluard.
 - **Correction proposée** : remplacer par trois titres de poèmes (« La Courbe de tes yeux », « Notre vie », « Couvre-feu »).
+- **Fait** : les trois distracteurs proposés ont été vérifiés (poèmes réels d'Éluard : « La Courbe de tes yeux » dans Capitale de la douleur, « Notre vie » dans Le Temps déborde, « Couvre-feu » dans Au rendez-vous allemand) et appliqués tels quels.
 
-### [MINEUR] « Quelle série de romans de Lewis Carroll… »
+### [MINEUR] ✅ « Quelle série de romans de Lewis Carroll… »
 
 - **Où** : `prisma/seed/culture-g/litterature.ts:262` — `li-contes-jeunesse`
 - **Texte** : « Quelle série de romans de Lewis Carroll met en scène une fillette et un lapin pressé ? »
 - **Problème** : *Alice au pays des merveilles* est un roman, pas une série ; et les trois distracteurs ne sont pas davantage des séries. Le mot « série » ne sert à rien et embrouille.
 - **Correction proposée** : « Quel roman de Lewis Carroll met en scène une fillette et un lapin pressé ? »
+- **Fait** : énoncé remplacé par la correction proposée.
 
-### [MINEUR] La Comédie humaine : « près de quatre-vingt-dix » ou « près de cent » ?
+### [MINEUR] ✅ La Comédie humaine : « près de quatre-vingt-dix » ou « près de cent » ?
 
 - **Où** : `prisma/seed/culture-g/litterature.ts:147` (« Près de quatre-vingt-dix romans ») vs `cours/litterature.ts:151` (« La Comédie humaine réunira près de cent œuvres »)
 - **Problème** : deux ordres de grandeur pour le même ensemble, dans le même domaine. Le chiffre habituel est d'environ 90 à 95 œuvres achevées sur les 137 prévues.
 - **Correction proposée** : harmoniser sur « environ quatre-vingt-dix œuvres achevées, sur les cent trente-sept que Balzac avait prévues ».
+- **Fait** : le cours a été aligné mot pour mot sur la formule proposée ; le seed disait déjà « près de quatre-vingt-dix romans » et n'a pas eu besoin d'édition.
 
-### [MINEUR] Montaigne : la devise « gravée dans sa librairie »
+### [MINEUR] ✅ Montaigne : la devise « gravée dans sa librairie »
 
 - **Où** : `prisma/seed/culture-g/litterature-3.ts:16` et `cours/litterature.ts:305` — `li3-montaigne-moralistes`
 - **Texte** : « Quelle devise Montaigne fait-il graver dans sa librairie ? » → « Que sais-je ? »
 - **Problème** : ce qui est gravé sur les solives de sa librairie, ce sont une cinquantaine de sentences grecques et latines. « Que sais-je ? » est la devise qu'il fait frapper sur une **médaille**, avec une balance. L'amalgame est courant mais reste inexact.
 - **Correction proposée** : « Quelle devise Montaigne fait-il frapper sur sa médaille ? », ou « Quelle devise résume le scepticisme de Montaigne ? »
+- **Fait** : énoncé de la question et phrase du cours corrigés en « frapper sur sa médaille ».
 
-### [MINEUR] La Fontaine élu à l'Académie
+### [MINEUR] ✅ La Fontaine élu à l'Académie
 
 - **Où** : `prisma/seed/culture-g/cours/litterature.ts:329` — `li3-fables-lafontaine`
 - **Texte** : « il ne fut élu à l'Académie française qu'en 1684 »
 - **Problème** : élu en **novembre 1683** ; le roi n'approuva son élection qu'en avril 1684, et il fut reçu le 2 mai 1684. Le fait intéressant est précisément ce délai d'approbation, que la formulation escamote.
 - **Correction proposée** : « il ne fut élu qu'en 1683, et le roi attendit six mois avant d'approuver son élection ».
+- **Fait** : appliqué avec le chiffre corrigé par la passe 2 (« cinq mois », l'élection étant du 13 novembre 1683 et l'approbation du 15 avril 1684) plutôt que « six mois » — voir le constat de révision plus bas.
 
-### [MINEUR] Proust : « les quinze dernières années de sa vie »
+### [MINEUR] ⏭️ Proust : « les quinze dernières années de sa vie »
 
 - **Où** : `prisma/seed/culture-g/cours/litterature.ts:184` — légende de l'image `lit-proust`
 - **Problème** : Proust s'installe dans la chambre de liège du boulevard Haussmann en 1910 et meurt en 1922 — douze ans.
 - **Correction proposée** : « les douze dernières années de sa vie ».
+- **Fait** : délibérément non touché. La passe 2 a reclassé ce point en **[GRAVE]** (« Ma correction de passe 1 sur Proust est fausse », plus bas) parce que la correction « douze ans » proposée ici est elle-même erronée — Proust a quitté cet appartement en 1919, neuf ans avant sa mort, pas les douze ni les quinze dernières années. Le texte du cours porte donc toujours la valeur d'origine (« quinze »), et ni elle ni la correction de passe 1 ne sont bonnes ; la bonne formulation figure dans le constat GRAVE. N'ayant pas mandat sur les GRAVE, je signale ce point au propriétaire dans mon rapport final plutôt que d'y toucher.
 
-### [MINEUR] Commentaires de fichier périmés
+### [MINEUR] ✅ Commentaires de fichier périmés
 
 - **Où** : en-têtes de `litterature.ts` (« treize notions **sans cours** »), `litterature-2.ts` (« vingt notions **sans cours** »), `litterature-3.ts` (« **vingt** notions sans cours »)
 - **Problème** : 39 des 52 notions ont désormais un cours, et `litterature-3.ts` en contient 19, pas 20. Sans effet pour l'apprenant, mais trompeur pour qui reprend le fichier.
+- **Fait** : les trois en-têtes ont été reformulés (« treize notions, dont la plupart ont désormais un cours », « vingt notions, dont la plupart ont désormais un cours », « dix-neuf notions, dont la plupart ont désormais un cours »).
 
 ## Points vérifiés en cours de route
 
@@ -340,12 +377,13 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
 - **Problème** : c'est le couple (œuvre, sujet) interrogé dans un sens puis dans l'autre, avec la même explication reformulée. Après fusion les deux questions sont dans le même chapitre.
 - **Correction proposée** : remplacer « Quelle épopée raconte la colère d'Achille ? » par une question qui ne recouvre pas la première, p. ex. « Quel héros troyen *L'Iliade* oppose-t-il à Achille dans le combat décisif ? » → « Hector ».
 
-### [MOYEN] `cg-litterature-09` — l'astuce de la leçon contient trois réponses
+### [MOYEN] ✅ `cg-litterature-09` — l'astuce de la leçon contient trois réponses
 
 - **Où** : notion `cg-litterature-09`, champ `tip` (sommaire de la leçon héritée).
 - **Texte** : « Cette leçon couvre : Homère et la question homérique · **« L'Iliade » : la colère et la mort** · **« L'Odyssée » : le récit du retour** · **Virgile** et « L'Énéide », épopée d'un empire · Ovide, le poète des métamorphoses et de l'exil »
 - **Problème** : l'astuce est affichée avec les questions. Elle apparie ici explicitement *L'Iliade* et « la colère », *L'Odyssée* et « le retour », *Virgile* et *L'Énéide* — soit les réponses de trois des questions du seed, sans qu'il faille rien savoir. Le mécanisme n'est pas propre à cette notion : le sommaire d'une leçon héritée sert d'astuce à toutes les questions versées dans cette leçon par la fusion.
 - **Correction proposée** : quand une notion héritée absorbe des questions par fusion, ne pas réutiliser le sommaire des sections comme `tip`, ou en retirer les noms propres (« Les deux épopées homériques · L'épopée latine · Ovide et l'exil »).
+- **Fait** : l'astuce provenant du titre des sections de `heritage/.../lecons/litterature/09.json` (aucun champ `tip` séparé n'existe dans ce format), j'ai reformulé les titres de section eux-mêmes pour retirer les appariements qui répondaient d'avance aux questions : « « L'Iliade », l'épopée de la guerre de Troie », « « L'Odyssée », le voyage d'Ulysse », « L'épopée latine » (au lieu de « Virgile et « L'Énéide » »), « Ovide et l'exil » (au lieu de « … le poète des métamorphoses et de l'exil »). Un changement de mécanisme plus général (ne plus dériver l'astuce du sommaire des sections) dépasse mon périmètre de données.
 
 ### [GRAVE] `cg-litterature-08` — l'explication de la question sur *La Cité des dames* donne les réponses de deux autres questions
 
@@ -354,19 +392,21 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
 - **Problème** : deux fuites dans une seule explication. (1) La question du seed « Quelle femme de lettres du XIVe siècle vécut de sa plume ? » a pour réponse *Christine de Pizan* : l'explication en donne le nom **et** le critère de reconnaissance. Les deux questions ont d'ailleurs la même bonne réponse — c'est un doublon franc dans une même notion. (2) La question du seed « Quelle poétesse du XIIe siècle écrit des Lais ? » a pour réponse *Marie de France* : la même explication l'apparie explicitement au XIIe siècle et aux lais.
 - **Correction proposée** : réécrire la fin de l'explication sans nommer les distracteurs (« Veuve à vingt-cinq ans, elle vit de commandes princières ; ses adversaires dans la querelle du *Roman de la Rose* comptent parmi les clercs les plus en vue de son temps. ») et supprimer purement et simplement la question « Quelle femme de lettres du XIVe siècle vécut de sa plume ? », redondante et de surcroît fautive sur le siècle (voir le constat MINEUR de la passe 1).
 
-### [MOYEN] `cg-litterature-08` — Chrétien de Troyes nommé dans trois questions avant celle qui le demande
+### [MOYEN] ✅ `cg-litterature-08` — Chrétien de Troyes nommé dans trois questions avant celle qui le demande
 
 - **Où** : notion `cg-litterature-08`.
 - **Texte** : « Lequel de ces romans **de Chrétien de Troyes** est resté inachevé ? » (énoncé) ; « L'octosyllabe, lui, est le vers du roman courtois, celui qu'emploie **Chrétien de Troyes** » (explication de la question sur le décasyllabe) ; « **Chrétien** est considéré comme le premier romancier français », avec la liste « *Lancelot*, *Yvain* » (explication de la question sur *Perceval*).
 - **Problème** : la question du seed « Quel auteur du XIIe siècle écrit plusieurs romans arthuriens ? » → *Chrétien de Troyes*, dont l'explication est « Lancelot, Yvain, Perceval : il fixe pour des siècles la matière de Bretagne », arrive dans un chapitre où son nom et sa liste d'œuvres ont déjà été donnés trois fois. Elle n'enseigne plus rien.
 - **Correction proposée** : remplacer cette question par une question sur ce que Chrétien apporte (« Quelle nouveauté Chrétien de Troyes introduit-il par rapport à la chanson de geste ? » → « L'aventure individuelle et l'analyse du sentiment amoureux »), ou la retirer.
+- **Fait** : question et explication remplacées exactement par la correction proposée.
 
-### [MOYEN] `cg-litterature-08` — *La Chanson de Roland* nommée dans deux énoncés avant d'être la réponse à trouver
+### [MOYEN] ✅ `cg-litterature-08` — *La Chanson de Roland* nommée dans deux énoncés avant d'être la réponse à trouver
 
 - **Où** : notion `cg-litterature-08`.
 - **Texte** : énoncés hérités « Par quel manuscrit connaît-on principalement ***La Chanson de Roland*** ? » et « Quel épisode historique se trouve à l'origine de ***La Chanson de Roland*** ? » ; question du seed « Quelle est la plus ancienne chanson de geste française conservée ? » → *La Chanson de Roland*.
 - **Problème** : le titre est écrit deux fois dans les énoncés du même chapitre ; associé à « chanson de geste » par la question héritée sur le manuscrit, il ne reste rien à trouver. S'ajoute une redite : l'explication du seed (« elle transfigure un épisode militaire de **778** en combat contre les Sarrasins ») donne la date qui est la clé de la réponse de la question héritée sur l'épisode d'origine (« Le massacre de l'arrière-garde de Charlemagne en **778** »).
 - **Correction proposée** : remplacer la question du seed par « Combien de siècles séparent la bataille de Roncevaux de la composition du poème ? » → « Trois siècles environ », et retirer « en combat contre les Sarrasins » de l'explication héritée pour ne pas doublonner.
+- **Fait** : question du seed remplacée comme proposé. La phrase « en combat contre les Sarrasins » n'existait que dans l'explication du seed remplacée ; l'explication héritée elle-même ne la contenait pas et n'a pas eu besoin d'édition.
 
 ### [GRAVE] `cg-litterature-02` — *Les Contemplations* : la même question deux fois, avec la même explication
 
@@ -393,7 +433,7 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
 - **Problème** : cette seule explication contient, mot pour mot ou presque, la réponse de quatre autres questions du même chapitre : « Où Hugo passe-t-il l'essentiel de son exil ? » → « **À Jersey puis Guernesey** » (dont l'explication, « Il refusa l'amnistie de 1859 : il ne rentra qu'après la chute de l'Empire en 1870 », est elle aussi déjà écrite ici) ; « Quel recueil poétique Hugo publie-t-il en 1856…? » → *Les Contemplations* ; « Quelle vaste fresque poétique Hugo consacre-t-il à l'humanité ? » → *La Légende des siècles* ; « Quel roman de Victor Hugo, paru en 1862…? » → *Les Misérables*. La question « Où Hugo passe-t-il l'essentiel de son exil ? » est de surcroît un **doublon** de la question héritée sur l'île anglo-normande.
 - **Correction proposée** : supprimer « Où Hugo passe-t-il l'essentiel de son exil ? », et réécrire l'explication héritée sans la liste d'œuvres : « Hugo s'exile à Bruxelles, puis à Jersey en 1852 et enfin à Guernesey en 1855, où il achète Hauteville House. Il y écrit l'essentiel de son œuvre d'exil et refuse l'amnistie de 1859, déclarant qu'il ne rentrera que lorsque la liberté rentrera. »
 
-### [MOYEN] `cg-litterature-02` — *La Légende des siècles*, *Notre-Dame de Paris*, Jean Valjean : trois réponses livrées par des explications voisines
+### [MOYEN] ✅ `cg-litterature-02` — *La Légende des siècles*, *Notre-Dame de Paris*, Jean Valjean : trois réponses livrées par des explications voisines
 
 - **Où** : notion `cg-litterature-02`.
 - **Texte** :
@@ -402,13 +442,15 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
   - même explication : « ***Notre-Dame de Paris*** date de **1831** » → réponse de « Quel roman de Hugo se déroule autour d'une cathédrale parisienne ? », dont l'explication commence par « Publié en 1831 ».
 - **Problème** : trois questions du seed rendues sans objet par des explications héritées écrites sans savoir qu'elles se retrouveraient dans le même chapitre.
 - **Correction proposée** : dans les explications héritées, ne plus caractériser les distracteurs par ce qui sert de définition ailleurs — remplacer par des dates seules (« *Notre-Dame de Paris*, 1831 ; *L'Homme qui rit*, 1869 ; *Quatrevingt-treize*, 1874 ») et supprimer « une épopée de l'humanité ».
+- **Fait** : les deux explications héritées ont été modifiées mot pour mot selon la correction proposée.
 
-### [MOYEN] `cg-litterature-02` — l'astuce nomme *Hernani*
+### [MOYEN] ✅ `cg-litterature-02` — l'astuce nomme *Hernani*
 
 - **Où** : notion `cg-litterature-02`, champ `tip`.
 - **Texte** : « Cette leçon couvre : … Le théâtre et **la bataille d'Hernani** · Le romancier des misérables · L'exil… »
 - **Problème** : la première question du chapitre est « Quelle pièce de Victor Hugo provoque en 1830 une célèbre **bataille** entre classiques et romantiques ? », avec *Hernani* parmi quatre titres. L'astuce, affichée à côté, la donne.
 - **Correction proposée** : « Le théâtre et la bataille de 1830 ».
+- **Fait** : le titre de la section correspondante dans `heritage/.../lecons/litterature/02.json` (source de l'astuce) a été renommé « Le théâtre et la bataille de 1830 », comme proposé.
 
 ### [GRAVE] `cg-litterature-01` — *La Comédie humaine* et le procès de *Madame Bovary* : deux doublons, chacun avec fuite croisée
 
@@ -419,7 +461,7 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
 - **Problème** : deux paires de questions qui interrogent le même fait dans une même notion, dont l'une est un aller-retour parfait. Rien de tout cela n'est visible dans les fichiers pris séparément.
 - **Correction proposée** : supprimer « Quel ensemble romanesque Balzac construit-il à partir de 1830 ? » et « Quel roman de Flaubert vaut à son auteur un procès en 1857 ? » ; si l'on tient à garder deux questions sur Flaubert, poser « Quel roman de Flaubert, resté inachevé, met en scène deux copistes lancés dans l'encyclopédie des savoirs ? » → *Bouvard et Pécuchet*.
 
-### [MOYEN] `cg-litterature-01` — le retour des personnages et *Les Rougon-Macquart* donnés par les explications voisines
+### [MOYEN] ✅ `cg-litterature-01` — le retour des personnages et *Les Rougon-Macquart* donnés par les explications voisines
 
 - **Où** : notion `cg-litterature-01`.
 - **Texte** :
@@ -427,6 +469,7 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
   - explication de la question sur *La Comédie humaine* : « ***Les Rougon-Macquart*** est **le cycle de Zola** » ; explication de la question sur *Germinal* : « le treizième roman **du cycle des Rougon-Macquart** d'Émile Zola » → réponse de « Quelle fresque romanesque Zola consacre-t-il à une famille sous le Second Empire ? », donnée deux fois avant d'être demandée.
   - l'astuce du chapitre annonce « **Balzac et La Comédie humaine** », soit la réponse des deux questions ci-dessus.
 - **Correction proposée** : dans les explications héritées, désigner les distracteurs sans les définir (« *Les Rougon-Macquart*, *Les Misérables* et *Les Soirées de Médan* ne sont pas de Balzac ») ; astuce : « Balzac et son grand cycle ».
+- **Fait** : explication du seed (« Quel ensemble romanesque Balzac construit-il… ») débarrassée de la mention du retour des personnages ; explication héritée sur *La Comédie humaine* reformulée exactement comme proposé ; titre de section « Balzac et La Comédie humaine » renommé « Balzac et son grand cycle » dans `heritage/.../lecons/litterature/01.json` (source de l'astuce). La seconde fuite signalée (l'explication de la question sur *Germinal*, qui nomme aussi « le cycle des Rougon-Macquart d'Émile Zola ») décrit en revanche la réponse propre à cette question-là et n'a pas été touchée, faute de reformulation proposée qui n'appauvrisse pas l'explication.
 
 ### [GRAVE] `cg-litterature-03` — Villon et *Les Fleurs du mal* : deux doublons de plus après fusion
 
@@ -446,12 +489,13 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
 - **Problème** : fuite croisée complète. L'explication de la première nomme la bonne réponse de la seconde parmi trois titres — dont les deux autres, « Zone » et « La Chanson du mal-aimé », sont justement les distracteurs. L'explication de la seconde énonce mot pour mot la bonne réponse de la première. Les deux questions s'annulent.
 - **Correction proposée** : supprimer la phrase finale de l'explication du *Pont Mirabeau* (« Tiré d'*Alcools*, 1913 » suffit) et remplacer dans l'explication d'*Alcools* la liste de poèmes par « Le recueil rassemble des poèmes composés sur une quinzaine d'années. »
 
-### [MINEUR] `cg-litterature-03` — « Il pleure dans mon cœur » : la réponse n'est pas un poème mais un cycle
+### [MINEUR] ✅ `cg-litterature-03` — « Il pleure dans mon cœur » : la réponse n'est pas un poème mais un cycle
 
 - **Où** : notion `cg-litterature-03`, question issue de `prisma/seed/culture-g/litterature.ts` (`li-poesie-francaise`).
 - **Texte** : « Quel **poème** de Verlaine commence par « Il pleure dans mon cœur » ? » → « **Ariettes oubliées** » ; distracteurs : *Mon rêve familier*, *Chanson d'automne*, *Green*.
 - **Problème** : « Ariettes oubliées » est le titre d'une **suite de neuf poèmes** ouvrant *Romances sans paroles* ; « Il pleure dans mon cœur » en est la troisième pièce, sans titre propre. Les trois distracteurs, eux, sont bien des poèmes uniques : la seule réponse qui ne réponde pas à la catégorie demandée est la bonne. Le défaut est le symétrique de celui déjà relevé sur Éluard en passe 1.
 - **Correction proposée** : « De quelle suite de *Romances sans paroles* « Il pleure dans mon cœur » est-il tiré ? » → « Les *Ariettes oubliées* ».
+- **Fait** : énoncé remplacé par la correction proposée.
 
 ### [GRAVE] `cg-litterature-13` — « la gouttière » et « le gouttière » : la même question deux fois, à un genre près
 
@@ -491,20 +535,22 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
 - **Problème** : sur les dix questions du seed versées dans ce chapitre, trois n'ont plus rien à demander.
 - **Correction proposée** : supprimer « Quelle collection française lancée en 1945 popularise le roman noir ? » et « Quel roman d'Agatha Christie repose sur un narrateur inattendu ? » ; retirer « et l'entrée en scène d'Hercule Poirot » de l'explication héritée ; astuce : « Le polar français d'après-guerre ».
 
-### [MOYEN] `cg-litterature-10` — les définitions du roman à énigme et du roman noir sont données avant d'être demandées
+### [MOYEN] ✅ `cg-litterature-10` — les définitions du roman à énigme et du roman noir sont données avant d'être demandées
 
 - **Où** : notion `cg-litterature-10`.
 - **Texte** :
   - explication de « Qu'est-ce qui distingue le thriller du roman à énigme ? » : « **Le roman à énigme part d'un crime déjà commis et progresse vers la découverte du coupable** » → réponse de « Qu'est-ce que le roman à énigme ? » (« Un récit centré sur la résolution intellectuelle d'un crime »).
   - explication de « Dans quel type de publication naît le roman noir américain ? » : « montrer un univers violent, **la corruption policière et le crime organisé**, avec un regard pessimiste sur la société… **Dashiell Hammett**… **Raymond Chandler** donnera ensuite à cette veine une véritable ambition littéraire » → réponse de « Qu'est-ce que le roman noir américain ? » (« Un genre décrivant la corruption sociale à travers le crime ») et son explication (« Hammett et Chandler en sont les fondateurs »).
 - **Correction proposée** : dans la première explication, remplacer la phrase d'ouverture par « Le thriller met en scène une menace en cours qu'il faut arrêter » ; dans la seconde, s'en tenir au support (les pulps, leur papier, leur prix) sans définir le genre.
+- **Fait** : les deux explications ont été modifiées comme proposé.
 
-### [MINEUR] `cg-litterature-10` — un distracteur sous un titre abandonné
+### [MINEUR] ✅ `cg-litterature-10` — un distracteur sous un titre abandonné
 
 - **Où** : notion `cg-litterature-10`, question « Quel roman d'Agatha Christie repose sur un narrateur inattendu ? »
 - **Texte** : distracteur « **Dix Petits Nègres** ».
 - **Problème** : le roman est publié en français sous le titre ***Ils étaient dix*** depuis 2020, l'ancien titre ayant été retiré du commerce à la demande des ayants droit. Le faire figurer tel quel dans un contenu d'apprentissage écrit aujourd'hui est daté et évitable.
 - **Correction proposée** : « *Ils étaient dix* », ou tout autre titre (« *A.B.C. contre Poirot* »).
+- **Fait** : distracteur remplacé par « Ils étaient dix ».
 
 ### [GRAVE] `cg-litterature-12` — Perrault et 1697 : la question posée dans les deux sens, à la suite
 
@@ -513,12 +559,13 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
 - **Problème** : l'aller-retour parfait — chaque énoncé contient la réponse de l'autre, et les deux explications citent les mêmes trois contes. C'est le doublon le plus visible du domaine une fois la fusion appliquée.
 - **Correction proposée** : supprimer la question du seed ; à la place, « Sous quel nom Perrault publie-t-il ses contes en 1697 ? » → « Sous le nom de son fils, Pierre Darmancour ».
 
-### [MOYEN] `cg-litterature-12` — l'astuce et une explication donnent les frères Grimm
+### [MOYEN] ✅ `cg-litterature-12` — l'astuce et une explication donnent les frères Grimm
 
 - **Où** : notion `cg-litterature-12`.
 - **Texte** : astuce : « Cette leçon couvre : … **Charles Perrault** et les contes du temps passé · **Les frères Grimm** et la collecte savante… » ; explication de la question sur leur méthode : « **Jacob et Wilhelm Grimm** ont publié les *Contes de l'enfance et du foyer* en deux volumes, **en 1812** et 1815 » — à comparer à la question du seed « Qui recueille en Allemagne les contes de Blanche-Neige et Hansel et Gretel ? » → « **Les frères Grimm** », explication « Jacob et Wilhelm Grimm, philologues, publient leur recueil **à partir de 1812** ».
 - **Problème** : l'astuce nomme les deux réponses du chapitre (Perrault, les frères Grimm) ; l'explication héritée redit exactement l'explication du seed. Deux questions sur quinze deviennent gratuites.
 - **Correction proposée** : astuce sans noms propres (« Les contes du temps passé · La collecte savante allemande… ») ; supprimer la question du seed sur les frères Grimm, dont le contenu est déjà entièrement couvert.
+- **Fait** : les deux titres de section source de l'astuce ont été renommés dans `heritage/.../lecons/litterature/12.json` (« Les contes du temps passé », « La collecte savante allemande », exactement comme proposé) ; la question du seed sur les frères Grimm (`litterature.ts`) a été supprimée.
 
 ### [GRAVE] `cg-litterature-17` — « incunable » : la définition est la réponse de l'autre question
 
@@ -527,12 +574,13 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
 - **Problème** : les deux questions sont la même définition retournée, et l'explication de la première l'énonce mot pour mot dans les termes de la bonne réponse de la seconde. Le cas est invisible dans les fichiers séparés : les deux questions n'ont ni le même énoncé ni la même bonne réponse au sens du validateur de doublons.
 - **Correction proposée** : supprimer « Qu'est-ce qu'un incunable ? » ; si l'on veut garder deux questions, poser « Combien d'exemplaires de la Bible à quarante-deux lignes l'atelier de Gutenberg a-t-il produits ? » → « Environ cent quatre-vingts ».
 
-### [MOYEN] `cg-litterature-17` — la Bibliothèque bleue définie dans l'explication de la question précédente
+### [MOYEN] ✅ `cg-litterature-17` — la Bibliothèque bleue définie dans l'explication de la question précédente
 
 - **Où** : notion `cg-litterature-17`.
 - **Texte** : explication de « Comment appelle-t-on les livres imprimés avant 1501 ? » : « Les chapbooks sont des **livrets populaires** anglais **bon marché**, équivalents de **la Bibliothèque bleue** française, **diffusés par colportage**… » — question suivante : « Qu'est-ce que la Bibliothèque bleue ? » → « Une collection de **livres populaires bon marché diffusés par colportage** ».
 - **Problème** : la bonne réponse est écrite, presque mot pour mot, dans l'explication qui précède, et jusque dans le distracteur (« Des chapbooks ») de la question d'avant.
 - **Correction proposée** : dans l'explication sur les incunables, s'arrêter à « Les chapbooks sont des livrets anglais bien postérieurs à cette période. »
+- **Fait** : phrase remplacée mot pour mot.
 
 ### [GRAVE] `cg-neuf-li-litteratures-monde` — l'astuce est la réponse d'une question, mot pour mot
 
@@ -541,12 +589,13 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
 - **Problème** : l'astuce est affichée avec la question. Elle en reprend la formulation exacte (« souvent tenu pour le premier roman du monde »), donne la bonne réponse et anticipe même l'explication. La question ne teste plus rien.
 - **Correction proposée** : changer l'astuce pour un fait qui n'est demandé nulle part dans la notion, p. ex. « Les littératures du monde se lisent surtout en traduction : le choix du traducteur fait partie de l'œuvre que tu lis. »
 
-### [MOYEN] `cg-neuf-li-litteratures-monde` — l'énoncé d'une question donne la réponse d'une autre (haïku)
+### [MOYEN] ✅ `cg-neuf-li-litteratures-monde` — l'énoncé d'une question donne la réponse d'une autre (haïku)
 
 - **Où** : notion `cg-neuf-li-litteratures-monde`.
 - **Texte** : « Quelle forme poétique japonaise compte dix-sept syllabes ? » → « **Le haïku** » (distracteurs : tanka, waka, renga) ; question suivante : « Quel poète japonais du XVIIe siècle a porté **le haïku** à sa maturité ? »
 - **Problème** : le mot à trouver est écrit dans l'énoncé de la question voisine, dans le même chapitre.
 - **Correction proposée** : « Quel poète japonais du XVIIe siècle a fait de cette forme brève un art, avec *La Sente étroite du Bout-du-Monde* ? »
+- **Fait** : énoncé remplacé mot pour mot (dans `litterature-3.ts`, `li3-litterature-orientale`).
 
 ### [GRAVE] `cg-litterature-11` — *Le Horla* : donné par l'astuce et par l'explication de la question qui précède
 
@@ -558,12 +607,13 @@ l'astuce, l'énoncé et les explications d'une notion côte à côte.
 - **Problème** : le titre, l'auteur, la date et jusqu'au motif (la folie comme explication de rechange) sont donnés deux fois avant que la question ne soit posée. Symétriquement, l'énoncé de la question sur *Le Horla* (« fondé sur le doute ») livre la réponse de la question de Todorov (« L'hésitation entre explication naturelle et surnaturelle »).
 - **Correction proposée** : dans l'explication de Todorov, remplacer l'exemple par un autre titre du même chapitre absent des questions (« comme dans *La Vénus d'Ille* de Mérimée ») ; retirer « au Horla » de l'astuce.
 
-### [MOYEN] `cg-litterature-11` — le cyberpunk défini avant d'être demandé
+### [MOYEN] ✅ `cg-litterature-11` — le cyberpunk défini avant d'être demandé
 
 - **Où** : notion `cg-litterature-11`.
 - **Texte** : explication de « Qu'apporte la New Wave à la science-fiction ? » : « Il prépare aussi **le cyberpunk** des années 1980, qui délaisse l'espace pour des **mondes urbains saturés d'informatique et dominés par de grandes entreprises**. » — question du seed : « Qu'est-ce que le cyberpunk ? » → « Un courant mêlant **haute technologie et déliquescence sociale** ».
 - **Problème** : la définition attendue est déjà donnée, sous d'autres mots mais sans ambiguïté, par une explication du même chapitre. Les trois distracteurs (« humoristique », « postapocalyptique », « spatiale classique ») sont écartés d'avance.
 - **Correction proposée** : arrêter l'explication de la New Wave à « Il prépare aussi le cyberpunk des années 1980. »
+- **Fait** : phrase tronquée comme proposé.
 
 ### [GRAVE] L'astuce donne la réponse littérale d'une de ses propres questions — dans une notion sur trois
 
@@ -592,12 +642,13 @@ Et, du côté des leçons héritées, où l'astuce est le sommaire des sections 
 - **Problème** : l'astuce est affichée en même temps que la question. Dans tous ces cas, elle rend la réponse trouvable sans rien savoir — parfois avec la formulation exacte de la bonne réponse, parfois avec l'explication en prime (`li2-moliere`, `li-theatre-francais`). Deux mécanismes distincts et cumulés : dans le seed, l'astuce est un fait choisi comme « le plus marquant » de la notion — donc précisément celui qu'une question pose ; dans les leçons héritées, c'est le sommaire des sections, qui nomme mécaniquement les œuvres et les auteurs interrogés.
 - **Correction proposée** : règle générale — **l'astuce ne doit contenir aucun mot qui figure dans une bonne réponse de sa notion**. Concrètement : dans le seed, faire porter l'astuce sur une méthode ou un piège (« Un genre se définit par sa forme, pas par son sujet », astuce de `li-genres-litteraires`, est le bon modèle : elle aide sans rien donner) ; dans les leçons héritées, remplacer le sommaire des sections par une phrase de méthode, ou en retirer les noms propres.
 
-### [MINEUR] `cg-neuf-li2-prix-litteraires` — l'astuce amorce « dix » pour la mauvaise raison
+### [MINEUR] ✅ `cg-neuf-li2-prix-litteraires` — l'astuce amorce « dix » pour la mauvaise raison
 
 - **Où** : notion `cg-neuf-li2-prix-litteraires`.
 - **Texte** : astuce : « Le prix Goncourt ne rapporte que **dix** euros à son lauréat… » ; question : « Combien de membres compte le jury du prix Goncourt ? » → « **Dix** » (distracteurs : Douze, Sept, Quinze).
 - **Problème** : ce n'est pas la même information, mais l'astuce met le mot *dix* sous les yeux de l'apprenant au moment où il doit choisir entre quatre nombres. Il répondra juste sans savoir, et pourra en repartir avec une confusion (dix membres / dix euros).
 - **Correction proposée** : astuce « Le Goncourt ne rapporte presque rien à son lauréat : c'est le tirage qui compte. »
+- **Fait** : astuce (`tip` de `li2-prix-litteraires`) remplacée mot pour mot.
 
 ### [GRAVE] `cg-litterature-c01` — « manifeste de 1830 » : la question date de 1830 un texte de 1827, et son explication la contredit
 
@@ -613,26 +664,29 @@ Et, du côté des leçons héritées, où l'astuce est le sommaire des sections 
 - **Problème** : bonne réponse identique au caractère près, même définition en explication, dans le même chapitre. La première pose d'ailleurs la définition dans son énoncé (« une seule action, en un lieu et en une journée »), ce qui rend la seconde superflue même sans l'avoir vue.
 - **Correction proposée** : supprimer « Quelle règle domine le théâtre classique du XVIIe siècle ? », ou la remplacer par « Quelle règle interdit au théâtre classique de montrer la violence sur scène ? » → « La bienséance ».
 
-### [MOYEN] `cg-litterature-c01` — Breton et 1924 donnés par l'explication de la question sur Apollinaire
+### [MOYEN] ✅ `cg-litterature-c01` — Breton et 1924 donnés par l'explication de la question sur Apollinaire
 
 - **Où** : notion `cg-litterature-c01`.
 - **Texte** : explication de « Quel poète a inventé le mot *surréalisme* et écrit *Alcools* ? » : « **André Breton** le reprit **en 1924** pour baptiser son mouvement. » — question du même chapitre : « Qui publie le Manifeste du surréalisme **en 1924** ? » → « **André Breton** ».
 - **Problème** : le nom et l'année sont donnés ensemble, dans la même phrase, avant que la question ne soit posée ; les trois distracteurs (Aragon, Tzara, Éluard) n'ont plus aucune chance d'être choisis.
 - **Correction proposée** : « André Breton le reprit sept ans plus tard pour baptiser son mouvement. »
+- **Fait** : dans `heritage/culture-g/data/litterature.json`, la phrase a été reformulée « un autre mouvement le reprit sept ans plus tard pour se baptiser », qui retire à la fois le nom et le mot « surréalisme » de cette explication (au-delà de la seule date proposée), pour ne pas nommer non plus le mouvement que la question voisine demande de nommer.
 
-### [MOYEN] `cg-neuf-li2-moliere` — Lully nommé dans l'explication de la question précédente
+### [MOYEN] ✅ `cg-neuf-li2-moliere` — Lully nommé dans l'explication de la question précédente
 
 - **Où** : notion `cg-neuf-li2-moliere` (`prisma/seed/culture-g/litterature-2.ts`).
 - **Texte** : explication de « Qu'est-ce qu'une comédie-ballet ? » : « Molière en écrivit plusieurs **avec Lully**, dont *Le Bourgeois gentilhomme*. » — question suivante : « Qui composa la musique de plusieurs pièces de Molière avant de se brouiller avec lui ? » → « **Jean-Baptiste Lully** » (distracteurs : Michel Lambert, Robert Cambert, Marc-Antoine Charpentier).
 - **Problème** : la réponse est écrite dans l'explication qui précède, avec le même lien (« la musique des pièces de Molière »). Le chapitre donne par ailleurs *Le Malade imaginaire* trois fois : dans l'astuce, dans cette explication indirectement, et dans celle de la question sur Lully (« Charpentier prit le relais… notamment pour *Le Malade imaginaire* »).
 - **Correction proposée** : « Molière en écrivit plusieurs, dont *Le Bourgeois gentilhomme* et *Le Malade imaginaire*. » (sans nommer le compositeur).
+- **Fait** : explication remplacée mot pour mot.
 
-### [MOYEN] `cg-neuf-li-theatre-francais` — l'énoncé d'une question nomme la réponse de la précédente
+### [MOYEN] ✅ `cg-neuf-li-theatre-francais` — l'énoncé d'une question nomme la réponse de la précédente
 
 - **Où** : notion `cg-neuf-li-theatre-francais` (`prisma/seed/culture-g/litterature.ts`).
 - **Texte** : « Qui fonde le Théâtre national populaire dans sa forme d'après-guerre ? » → « **Jean Vilar** » ; question suivante : « Quel festival de théâtre **Jean Vilar** crée-t-il en 1947 ? » → « Le Festival d'Avignon ».
 - **Problème** : le nom à trouver est imprimé dans l'énoncé voisin du même chapitre.
 - **Correction proposée** : « Quel festival de théâtre le même homme crée-t-il en Provence en 1947 ? », ou intervertir : « Qui fonde le Festival d'Avignon en 1947 ? » → Jean Vilar, puis « Quelle institution théâtrale populaire Jean Vilar dirige-t-il à partir de 1951 ? » → le TNP.
+- **Fait** : les deux questions ont été interverties comme proposé en seconde option : « Qui fonde le Festival d'Avignon en 1947 ? » → Jean Vilar, puis « Quelle institution théâtrale populaire le même homme dirige-t-il à partir de 1951 ? » → Le Théâtre national populaire (en évitant même de renommer Vilar dans la seconde question).
 
 ### [GRAVE] Le seed et le cahier d'origine posent la même question dans deux notions différentes — soixante-huit paires
 
@@ -660,12 +714,13 @@ Et, du côté des leçons héritées, où l'astuce est le sommaire des sections 
 - **Problème** : ce ne sont pas des doublons *dans* une notion — l'apprenant les rencontre dans des chapitres différents — mais ce sont bien les mêmes questions, écrites deux ou trois fois, et elles occupent une place que d'autres faits ne prennent pas. La cause est structurelle et documentée par `fusions.ts` lui-même : le corpus du seed a été composé sans être confronté au cahier d'origine.
 - **Correction proposée** : passer le corpus au crible de la bonne réponse (et non de l'énoncé) avant publication : toute paire de questions de même bonne réponse doit être justifiée par une différence réelle de contenu. Sur les trente paires les plus franches, garder la version du cahier d'origine, qui a presque toujours l'explication la plus riche, et remplacer celle du seed.
 
-### [MOYEN] `cg-litterature-12` — l'édition jeunesse n'est plus le deuxième segment du marché
+### [MOYEN] ✅ `cg-litterature-12` — l'édition jeunesse n'est plus le deuxième segment du marché
 
 - **Où** : notion `cg-litterature-12`, question issue de `heritage/culture-g/data/lecons/litterature/12.json`.
 - **Texte** : « Quelle place occupe **aujourd'hui** l'édition jeunesse sur le marché du livre en France ? » → « **Le deuxième segment, derrière la littérature générale** ».
 - **Problème** : d'après les chiffres du Syndicat national de l'édition, la jeunesse est le **troisième** segment en valeur depuis 2023 (370,7 M€ en 2024, en recul de 3,8 % en valeur et de 4,4 % en volume). Le mot « aujourd'hui » dans l'énoncé aggrave le défaut : la bonne réponse est datée, la vraie réponse ne figure pas parmi les choix, et l'apprenant apprend un classement faux. C'est exactement le cas signalé par la consigne — un chiffre de marché donné sans année alors qu'il a changé.
 - **Correction proposée** : « Quelle place l'édition jeunesse occupe-t-elle sur le marché du livre en France ? » → « L'un des trois premiers segments, avec la littérature et le scolaire », explication : « Troisième en valeur depuis 2023 avec environ 370 millions d'euros, mais près d'un cinquième des exemplaires vendus. »
+- **Fait** : question, choix et explication remplacés par la correction proposée, à la fois dans le quiz et dans le texte de section qui portait la même affirmation.
 
 ## Revérification des corrections proposées en passe 1
 
@@ -680,11 +735,12 @@ Les autres tiennent.
 - **Problème** : ma correction est aussi fausse que le texte d'origine, et pour la même raison. Proust s'installe au 102 boulevard Haussmann le 27 décembre 1906 et fait tapisser sa chambre de liège **en 1910** — mais il **quitte cet appartement en 1919**, l'immeuble ayant été vendu, et meurt le 18 novembre 1922 rue Hamelin. Il n'a donc passé dans la chambre de liège **ni les quinze ni les douze dernières années de sa vie, mais neuf ans, qui ne sont pas les derniers**. J'avais compté de 1910 à sa mort en supposant qu'il n'avait pas déménagé : l'erreur du cours était dans le chiffre, la mienne dans le raisonnement.
 - **Correction proposée** (remplace celle de la passe 1) : « Reclus dans une chambre tapissée de liège boulevard Haussmann de 1910 à 1919, il a passé ses quinze dernières années à écrire et à réécrire un seul livre. »
 
-### [MINEUR] Trois corrections de passe 1 à ajuster
+### [MINEUR] ✅ Trois corrections de passe 1 à ajuster
 
 - **La Fontaine à l'Académie** — j'avais proposé « il ne fut élu qu'en 1683, et **le roi attendit six mois** avant d'approuver son élection ». L'élection est du **13 novembre 1683** (et non du 15, comme je l'avais écrit) et l'approbation royale intervient après l'élection de Boileau, le 15 avril 1684, pour une réception le 2 mai : **cinq mois**, pas six. Écrire « et le roi attendit cinq mois avant d'approuver son élection ».
 - **Camus** — j'avais écrit « Nobel décerné en décembre 1957, mort le 4 janvier 1960 — **deux ans et deux mois** ». De la remise du 10 décembre 1957 au 4 janvier 1960, il y a **deux ans et un mois** ; deux ans et deux mois vaut si l'on compte depuis l'annonce du 17 octobre 1957. Le raisonnement était incohérent avec sa propre prémisse ; la correction proposée (« un peu plus de deux ans plus tard ») reste juste.
 - **L'âge d'Ovide** — j'avais écrit que l'*aetas Ovidiana* était « **encadrée** par l'*aetas Virgiliana* et l'*aetas Horatiana* ». Dans la périodisation de Traube, les trois âges se succèdent : *Vergiliana* (VIIIe-IXe s.), *Horatiana* (Xe-XIe s.), puis *Ovidiana* (XIIe-XIIIe s.), qui vient en dernier et n'est donc encadrée par rien. Les siècles avancés dans la correction restent exacts.
+- **Fait** : les trois ajustements sont reflétés dans les corrections déjà appliquées plus haut — La Fontaine porte « cinq mois », la formule Camus déjà en place ne contenait pas le raisonnement erroné et n'a pas eu besoin de changement, et le texte sur Ovide ne parle plus d'être « encadré ».
 
 ### Corrections de passe 1 confirmées
 
@@ -703,22 +759,24 @@ Les autres tiennent.
 - **Problème** : l'énoncé de la première nomme la réponse de la seconde ; l'explication de la seconde nomme la réponse de la première. Le couple Ronsard-Pléiade est en outre répété une troisième fois dans la même notion. Aucune des deux questions ne teste plus rien pour qui a vu l'autre.
 - **Correction proposée** : « Quel groupe de sept poètes du XVIe siècle emprunte son nom à une constellation ? » → *La Pléiade* ; et supprimer « Chef de file de la Pléiade » de l'explication sur Ronsard.
 
-### [MOYEN] `cg-libre-litterature-2` — le Goncourt 1919, Rimbaud, Verlaine : trois autres fuites internes
+### [MOYEN] ✅ `cg-libre-litterature-2` — le Goncourt 1919, Rimbaud, Verlaine : trois autres fuites internes
 
 - **Où** : notion `cg-libre-litterature-2`.
 - **Texte** :
   - explication de « Quel est le premier tome de *À la recherche du temps perdu* ? » : « La série se poursuit avec « **À l'ombre des jeunes filles en fleurs** », qui obtint **le prix Goncourt en 1919**. » → réponse exacte, et dans les mêmes termes, de « Pour quel livre Marcel Proust a-t-il reçu le prix Goncourt en 1919 ? ».
   - « Quel poète a écrit *Le Bateau ivre* à l'âge de 16 ans ? » → **Arthur Rimbaud**, explication « où **Verlaine** l'avait invité » ; question voisine : « Que s'est-il passé entre **Verlaine et Rimbaud** à Bruxelles en 1873 ? ». Les deux noms circulent d'un énoncé à l'autre.
 - **Correction proposée** : arrêter l'explication du premier tome à « Le tome contient les évocations de Combray, l'épisode de la madeleine et *Un amour de Swann*. » ; reformuler la question sur Bruxelles en « Que s'est-il passé entre les deux poètes à Bruxelles en juillet 1873 ? ».
+- **Fait** : l'explication du premier tome a été tronquée juste après la mention d'*Un amour de Swann*, en indiquant seulement que « la série se poursuit sur six autres volumes » sans nommer ni dater le deuxième tome ; l'énoncé de la question de Bruxelles a été remplacé mot pour mot par la formulation proposée.
 
-### [MOYEN] L'erreur « Camus mourut trois ans plus tard » est dans les deux corpus, pas seulement dans le seed
+### [MOYEN] ✅ L'erreur « Camus mourut trois ans plus tard » est dans les deux corpus, pas seulement dans le seed
 
 - **Où** : `prisma/seed/culture-g/litterature-2.ts:239` **et** `heritage/culture-g/data/litterature.json:148`.
 - **Texte** : seed : « À quarante-quatre ans, il fut l'un des plus jeunes lauréats. **Il mourut trois ans plus tard** dans un accident. » — cahier d'origine : « … l'un des plus jeunes lauréats de l'histoire du prix… **Il mourut trois ans plus tard**, en janvier 1960, dans un accident de voiture. »
 - **Problème** : la passe 1 n'avait signalé que l'occurrence du seed, en la lisant fichier par fichier. Les deux corpus portent la même erreur, dans les mêmes mots — Nobel remis le 10 décembre 1957, mort le 4 janvier 1960, soit deux ans et un mois. La version du cahier est même plus explicite, puisqu'elle donne la date de la mort juste après avoir écrit « trois ans ». Corriger l'une sans l'autre laisserait l'erreur en place.
 - **Correction proposée** : dans les deux, « Il mourut un peu plus de deux ans plus tard, en janvier 1960, dans un accident de voiture. »
+- **Fait** : correction appliquée mot pour mot dans `litterature-2.ts` et dans `heritage/culture-g/data/litterature.json`.
 
-### [MOYEN] Quatre notions où l'énoncé ou l'explication d'une question nomme la réponse d'une autre
+### [MOYEN] ✅ Quatre notions où l'énoncé ou l'explication d'une question nomme la réponse d'une autre
 
 - **Où** : `prisma/seed/culture-g/litterature-2.ts` et `-3.ts`.
 - **Texte** :
@@ -733,6 +791,7 @@ Les autres tiennent.
 
 - **Problème** : dans chaque cas, le nom à trouver est imprimé ailleurs dans le même chapitre. La question sur Racine est la plus dégradée : son chapitre contient cinq énoncés où le mot « Racine » est écrit.
 - **Correction proposée** : nommer le sujet par une périphrase quand il est la réponse d'une autre question de la notion (« Quel roman du même auteur suit le déclin d'une famille de négociants ? », « Quel thème traverse son œuvre ? », « Quel dilemme structure la pièce de 1637 ? ») ; retirer « Rastignac » et « Nathalie Sarraute » des explications concernées.
+- **Fait** : les cinq périphrases et retraits proposés ont été appliqués mot pour mot (`li2-oulipo-experiences`, `li2-litterature-germanique`, `li3-roman-contemporain`, `li2-racine-corneille`, `li2-balzac-realisme`). Je n'ai pas repris l'observation plus large sur les cinq énoncés « Racine » du chapitre `li2-racine-corneille` : aucune correction concrète n'était proposée pour ce point, qui demanderait de retravailler plusieurs énoncés au-delà du périmètre donné ici — je le signale au propriétaire dans mon rapport final.
 
 ## Synthèse de la passe 2
 

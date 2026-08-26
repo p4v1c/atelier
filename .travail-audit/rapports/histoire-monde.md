@@ -93,197 +93,226 @@
 - **Problème** : le même corpus donne trois réponses à la même question, et deux cours se contredisent frontalement. Un apprenant qui répond « 1991 » sur une notion sera compté faux sur une autre.
 - **Correction proposée** : retenir partout la formulation de `hm3` — abrogation des lois de ségrégation en 1991, fin du régime avec les élections d'avril 1994 — et reformuler la question de `hm-decolonisation-afrique` en « Quelle date marque la fin du régime d'apartheid, avec les premières élections multiraciales ? ».
 
-### [MOYEN] Chiffres discordants pour les déplacés de la partition de 1947
+### [MOYEN] ✅ Chiffres discordants pour les déplacés de la partition de 1947
 
 - **Où** : `hm-inde-independance` (question + cours) ; `hm2-inde-histoire` ; `hm3-inde-pakistan` ; `hm4-migrations-histoire` ; cours `hm2-inde-histoire` et `hm2-colonisation` ; `heritage/.../histoire-monde.json` q. 51
 - **Texte** : « quinze millions de déplacés » (`hm-inde-independance` et héritage) contre « plus de dix millions » (`hm2`, `hm3`, `hm4`, cours `hm2-inde-histoire`, cours `hm2-colonisation`).
 - **Problème** : deux chiffres pour un même fait, sur six notions. Les deux sont dans la fourchette des estimations, mais un QCM ne peut pas accepter les deux.
 - **Correction proposée** : retenir « entre dix et quinze millions de personnes déplacées » partout, ou trancher sur « plus de dix millions », qui est la formulation majoritaire dans le corpus.
+- **Fait** : Harmonisé sur « plus de dix millions » (question et phrase-repère de `hm-inde-independance`, cours correspondant, explication du cahier d'origine).
 
-### [MOYEN] Le « miracle économique japonais » ne se termine pas à la même décennie selon la notion
+### [MOYEN] ✅ Le « miracle économique japonais » ne se termine pas à la même décennie selon la notion
 
 - **Où** : `histoire-monde-3.ts` `hm3-japon-asie-est` et `histoire-monde-4.ts` `hm4-japon-histoire`
 - **Texte** : `hm3` — « Une croissance très rapide des années 1950 aux **années 1970** » ; `hm4` — « Une croissance très rapide des années 1950 aux **années 1980** ».
 - **Problème** : deux bonnes réponses incompatibles à la même question. La haute croissance s'achève avec le choc pétrolier de 1973 ; la bulle des années 1980 est une autre séquence, ce que dit d'ailleurs le cours `hm3-japon-asie-est`.
 - **Correction proposée** : aligner `hm4` sur « des années 1950 aux années 1970 ».
+- **Fait** : `hm4-japon-histoire` aligné sur « des années 1950 aux années 1970 », comme `hm3-japon-asie-est`.
 
-### [MOYEN] ALENA : date de signature fausse, et contredite par le cours
+### [MOYEN] ✅ ALENA : date de signature fausse, et contredite par le cours
 
 - **Où** : `histoire-monde-3.ts` — `hm3-amerique-nord-contemporaine`
 - **Texte** : question — « Qu'est-ce que l'ALENA devenu ACEUM ? […] **Signé en 1994**, renégocié et remplacé en 2020. » ; cours de la même notion — « L'ALENA, **entré en vigueur en 1994** et devenu ACEUM en 2020 ».
 - **Problème** : l'ALENA a été signé en décembre 1992 et est entré en vigueur le 1er janvier 1994. L'explication de la question est fausse et contredit son propre cours.
 - **Correction proposée** : « Signé en 1992, entré en vigueur en 1994, renégocié et remplacé en 2020. »
+- **Fait** : Explication de `hm3-amerique-nord-contemporaine` corrigée : « Signé en 1992, entré en vigueur en 1994, renégocié et remplacé en 2020. »
 
-### [MOYEN] Distracteur en fait exact : « Tours » et « Poitiers » désignent la même bataille
+### [MOYEN] ✅ Distracteur en fait exact : « Tours » et « Poitiers » désignent la même bataille
 
 - **Où** : `histoire-monde-2.ts` — `hm2-islam-conquetes`
 - **Texte** : « Quelle bataille de 732 arrête une incursion arabe en Gaule ? » — `["Poitiers", "Tours seule", "Narbonne", "Toulouse"]`.
 - **Problème** : la bataille de 732 s'appelle « bataille de Poitiers » en français et « battle of Tours » en anglais ; le distracteur 1 nomme le même événement. Le mot « seule » ne suffit pas à le rendre faux.
 - **Correction proposée** : remplacer « Tours seule » par « Autun » ou « Bordeaux ».
+- **Fait** : « Tours seule » remplacé par « Autun » dans `hm2-islam-conquetes`.
 
-### [MOYEN] Distracteur en fait exact : mazdéisme = zoroastrisme
+### [MOYEN] ✅ Distracteur en fait exact : mazdéisme = zoroastrisme
 
 - **Où** : `histoire-monde-4.ts` — `hm4-perse`
 - **Texte** : « Quelle religion dominait l'empire perse ? » — `["Le zoroastrisme", "Le mithraïsme", "Le manichéisme", "Le mazdéisme tardif"]`.
 - **Problème** : « mazdéisme » est un synonyme usuel de « zoroastrisme ». Le distracteur 3 est défendable.
 - **Correction proposée** : remplacer par « Le culte de Cybèle ».
+- **Fait** : Distracteur remplacé par « Le culte de Cybèle » dans `hm4-perse`.
 
-### [MOYEN] Distracteur en fait exact : le plan Cerdà est le plan d'Ildefons Cerdà
+### [MOYEN] ✅ Distracteur en fait exact : le plan Cerdà est le plan d'Ildefons Cerdà
 
 - **Où** : `histoire-monde-3.ts` — `hm3-villes-histoire`
 - **Texte** : « Quel plan d'urbanisme transforme Barcelone au XIXe siècle ? » — `["Le plan Cerdà", "Le plan Haussmann", "Le plan Ildefons", "Le plan de l'Eixample seul"]`, et l'explication précise « Ildefons Cerdà y conçoit […] dit Eixample ».
 - **Problème** : deux des trois distracteurs désignent la même chose que la bonne réponse — l'explication le dit elle-même.
 - **Correction proposée** : remplacer par « Le plan Soria » et « Le plan Jaussely ».
+- **Fait** : Distracteurs remplacés par « Le plan Soria » et « Le plan Jaussely » dans `hm3-villes-histoire`.
 
-### [MOYEN] Redite interne dans le cours de Byzance : le même constat deux paragraphes de suite
+### [MOYEN] ✅ Redite interne dans le cours de Byzance : le même constat deux paragraphes de suite
 
 - **Où** : `cours/histoire-monde.ts` — `hm4-empire-byzantin`, section « Justinien »
 - **Texte** : « L'entreprise réussit militairement et échoue financièrement : les campagnes vident le trésor […] et l'essentiel des territoires repris est perdu en une génération. » puis, au paragraphe suivant : « L'entreprise épuise l'Empire pour un résultat éphémère : les conquêtes italiennes seront perdues en une génération, et l'effort financier et militaire affaiblit durablement les défenses orientales. »
 - **Problème** : deux formulations du même énoncé collées l'une à l'autre — remplissage manifeste.
 - **Correction proposée** : supprimer le second paragraphe.
+- **Fait** : Second paragraphe supprimé du cours `hm4-empire-byzantin`, section « Justinien ».
 
-### [MOYEN] Redite interne dans le cours sur la partition
+### [MOYEN] ✅ Redite interne dans le cours sur la partition
 
 - **Où** : `cours/histoire-monde.ts` — `hm3-inde-pakistan`, section « La partition »
 - **Texte** : « Le Pakistan naît en deux morceaux séparés par mille cinq cents kilomètres de territoire indien » — puis, dernier paragraphe : « Jinnah recevait un pays coupé en deux moitiés séparées par mille cinq cents kilomètres de territoire indien. »
 - **Problème** : même fait, même chiffre, presque les mêmes mots, dans la même section.
 - **Correction proposée** : au dernier paragraphe, écrire simplement « Jinnah recevait un pays coupé en deux ».
+- **Fait** : Dernier paragraphe simplifié en « Jinnah recevait un pays coupé en deux. »
 
-### [MOYEN] « Cinq fois plus de morts que la Première » compare deux bases différentes
+### [MOYEN] ✅ « Cinq fois plus de morts que la Première » compare deux bases différentes
 
 - **Où** : `histoire-monde-3.ts` — `hm3-seconde-guerre`, phrase-repère de la notion
 - **Texte** : « La Seconde Guerre mondiale a fait environ cinq fois plus de morts que la Première. »
 - **Problème** : le rapport n'est de cinq que si l'on compare les **10 millions de militaires** de 1914-1918 (chiffre donné par la question de `hm3-premiere-guerre`) aux **50 à 70 millions de morts totaux** de 1939-1945. À bases comparables (morts totaux ≈ 18-20 millions contre 50-70), le rapport est d'environ trois. Exact en apparence, trompeur en fait.
 - **Correction proposée** : « La Seconde Guerre mondiale a fait environ trois fois plus de morts que la Première, et pour la première fois une majorité de civils. »
+- **Fait** : Phrase-repère de `hm3-seconde-guerre` changée en « environ trois fois plus de morts que la Première, et pour la première fois une majorité de civils. »
 
-### [MOYEN] La boussole n'est pas arrivée en Europe avec les Mongols
+### [MOYEN] ✅ La boussole n'est pas arrivée en Europe avec les Mongols
 
 - **Où** : `cours/histoire-monde.ts` — `hm2-mongols`, section « L'héritage » ; et `hm-routes-echanges`, section « La soie et le sel »
 - **Texte** : « La poudre, **la boussole**, l'imprimerie et le papier-monnaie arrivent en Occident à cette période. »
 - **Problème** : la boussole est attestée en Europe dès les années 1180-1190, soit un demi-siècle avant les conquêtes mongoles. Cause unique donnée à une transmission qui a plusieurs canaux et plusieurs dates.
 - **Correction proposée** : « La poudre, l'imprimerie et le papier-monnaie parviennent en Occident à cette période ; la boussole, elle, y était connue depuis la fin du XIIe siècle. »
+- **Fait** : Cours `hm2-mongols` corrigé : boussole dite connue en Europe dès la fin du XIIe siècle, transmission distincte de la poudre/imprimerie/papier-monnaie.
 
-### [MOYEN] « La deuxième économie mondiale » : un rang sans date et sans convention
+### [MOYEN] ✅ « La deuxième économie mondiale » : un rang sans date et sans convention
 
 - **Où** : `histoire-monde-3.ts` — `hm3-chine-contemporaine`
 - **Texte** : « Quelle place la Chine occupe-t-elle **aujourd'hui** dans l'économie mondiale ? » → « La deuxième économie et le premier exportateur », distracteur « La première économie ».
 - **Problème** : la Chine est deuxième en PIB nominal mais **première en parité de pouvoir d'achat** depuis 2014 : le distracteur est vrai sous une autre convention, jamais précisée. « Aujourd'hui » n'est pas une date.
 - **Correction proposée** : « Quelle place la Chine occupe-t-elle dans l'économie mondiale en PIB nominal ? » et préciser dans l'explication qu'elle est première en parité de pouvoir d'achat.
+- **Fait** : Question de `hm3-chine-contemporaine` reformulée « en PIB nominal » ; la première place en PPA depuis 2014 ajoutée à l'explication.
 
-### [MOYEN] Le cours de Justinien / l'explication d'Aryabhata : explications hors sujet
+### [MOYEN] ✅ Le cours de Justinien / l'explication d'Aryabhata : explications hors sujet
 
 - **Où** : `histoire-monde-2.ts` — `hm2-inde-histoire`
 - **Texte** : « Quel mathématicien indien du Ve siècle calcule une valeur précise de pi ? » → Aryabhata. Explication : « Brahmagupta, au VIIe siècle, sera le premier à traiter le zéro comme un nombre à part entière. »
 - **Problème** : l'explication ne dit rien de la réponse. Elle apprend quelque chose, mais sur un autre savant et un autre siècle ; l'apprenant ne saura toujours pas ce qu'Aryabhata a calculé. Le cours `hm4-inde-ancienne` a l'information utile (« exacte à quatre décimales ») — elle n'a pas été reportée.
 - **Correction proposée** : « Sa valeur, exacte à quatre décimales, accompagne d'autres intuitions remarquables : il proposait déjà que la Terre tourne sur elle-même. »
+- **Fait** : Explication remplacée par le fait pertinent (valeur de pi à quatre décimales, rotation de la Terre) dans `hm2-inde-histoire`.
 
-### [MOYEN] Fuite de réponse d'une question à la suivante
+### [MOYEN] ✅ Fuite de réponse d'une question à la suivante
 
 - **Où** : `histoire-monde-2.ts` — `hm2-colonisation`, questions 2 et 3
 - **Texte** : q. 2, explication — « Elle repousse l'invasion italienne **à Adoua en 1896**. » ; q. 3, énoncé — « Quelle bataille de 1896 voit une armée africaine battre une puissance européenne ? » → « Adoua ».
 - **Problème** : la question précédente donne la réponse de la suivante, mot pour mot, dans l'ordre où elles sont posées.
 - **Correction proposée** : retirer « à Adoua en 1896 » de l'explication de la question 2.
+- **Fait** : « à Adoua en 1896 » retiré de l'explication de la question 2 de `hm2-colonisation`.
 
-### [MINEUR] Diên Biên Phu : cinquante-sept jours au lieu de cinquante-six
+### [MINEUR] ✅ Diên Biên Phu : cinquante-sept jours au lieu de cinquante-six
 
 - **Où** : `histoire-monde-3.ts` — `hm3-decolonisation-conflits` (question) et `cours/histoire-monde.ts` — même notion
 - **Texte** : « après cinquante-sept jours de siège » (les deux fois).
 - **Problème** : le siège court du 13 mars au 7 mai 1954, soit 56 jours — d'où la formule consacrée « cinquante-six jours, cinquante-six nuits ».
 - **Correction proposée** : « après cinquante-six jours de siège ».
+- **Fait** : « cinquante-sept » → « cinquante-six » jours, dans la question de `hm3-decolonisation-conflits` et le cours correspondant.
 
-### [MINEUR] Galien : quatorze ou quinze siècles selon l'endroit
+### [MINEUR] ✅ Galien : quatorze ou quinze siècles selon l'endroit
 
 - **Où** : question `hm3-histoire-sciences-monde` — « la doctrine de Galien, dominante depuis **quatorze** siècles » ; cours de la même notion — « contre une doctrine galénique vieille de **quinze** siècles ».
 - **Problème** : la question et son cours ne disent pas la même chose. Galien meurt vers 216, Harvey publie en 1628 : quatorze siècles.
 - **Correction proposée** : « quatorze siècles » dans le cours.
+- **Fait** : Cours corrigé en « quatorze siècles », aligné sur la question et sur la leçon 21.
 
-### [MINEUR] L'équipage de Magellan compte trois effectifs différents
+### [MINEUR] ✅ L'équipage de Magellan compte trois effectifs différents
 
 - **Où** : `hm2-decouvertes` (« dix-huit hommes sur environ **deux cent cinquante** »), cours `hm4-decouvertes` (« **deux cent trente-sept** hommes »), héritage q. 25 (« environ **270** hommes »).
 - **Correction proposée** : retenir « environ deux cent soixante-dix hommes » partout, chiffre le plus courant.
+- **Fait** : Harmonisé sur « environ deux cent soixante-dix hommes » dans `hm2-decouvertes` et le cours ; le cahier d'origine l'avait déjà.
 
-### [MINEUR] Déchiffrement des glyphes mayas : années 1950 ou années 1980
+### [MINEUR] ✅ Déchiffrement des glyphes mayas : années 1950 ou années 1980
 
 - **Où** : `hm2-amerique-latine` (« déchiffré qu'à partir des années 1950 ») contre `hm4-amerique-precolombienne` (« largement déchiffré depuis les années 1980 ») et son cours (« achevé dans les années 1980 »).
 - **Correction proposée** : « les percées commencent dans les années 1950 et le déchiffrement est pour l'essentiel achevé dans les années 1980 ».
+- **Fait** : `hm2-amerique-latine` reformulé : percées dans les années 1950, déchiffrement pour l'essentiel achevé dans les années 1980.
 
-### [MINEUR] Faute d'orthographe : « favoraient »
+### [MINEUR] ✅ Faute d'orthographe : « favoraient »
 
 - **Où** : `cours/histoire-monde.ts` — `hm2-rome-republique`, section « Une république très inégale »
 - **Texte** : « l'ordre de vote comme le poids de chaque centurie **favoraient** les plus riches »
 - **Correction proposée** : « favorisaient ».
+- **Fait** : Corrigé en « favorisaient ».
 
-### [MINEUR] Faute d'accord : « Quel invention »
+### [MINEUR] ✅ Faute d'accord : « Quel invention »
 
 - **Où** : `histoire-monde-2.ts` — `hm2-reforme-guerres-religion`
 - **Texte** : « **Quel** invention favorise la diffusion rapide des idées de la Réforme ? »
 - **Correction proposée** : « Quelle invention ».
+- **Fait** : Corrigé en « Quelle invention ».
 
-### [MINEUR] Majuscules manquantes en tête de choix
+### [MINEUR] ✅ Majuscules manquantes en tête de choix
 
 - **Où** : `histoire-monde-2.ts` (`hm2-colonisation` : « l'Éthiopie », « l'État indépendant du Congo », « l'Angola » ; `hm2-afrique-precoloniale` : « l'Éthiopie »), `histoire-monde-3.ts` (`hm3-entre-deux-guerres` : « l'ONU » ; `hm3-afrique-independance` : « l'UEMOA » ; `hm3-amerique-latine-contemporaine` : « l'UNASUR », « l'ALBA » ; `hm3-epidemies-histoire` : « l'hépatite C »), `histoire-monde-4.ts` (`hm4-decouvertes` : « l'Espagne » ; `hm4-histoire-sciences-monde` : « d'Inde, transmis par le monde arabe » ; `hm4-decolonisations` / `hm3-decolonisation-conflits` : « l'Angola et le Mozambique »)
 - **Problème** : les autres choix de la même liste commencent par une majuscule ; l'irrégularité est visible à l'écran et peut, dans certaines listes, signaler la bonne réponse.
 - **Correction proposée** : capitaliser tous les premiers mots de choix.
+- **Fait** : Déjà corrigé (majuscules en place partout) : vérifié sur tous les items cités, aucune modification nécessaire.
 
-### [MINEUR] Commentaires d'en-tête faux : « notions sans cours » alors que les cours existent
+### [MINEUR] ✅ Commentaires d'en-tête faux : « notions sans cours » alors que les cours existent
 
 - **Où** : en-tête de `histoire-monde.ts` (« treize notions **sans cours** »), `-2.ts` (« **vingt** notions sans cours » alors qu'il y en a **vingt et une**), `-3.ts`, `-4.ts`
 - **Problème** : `cours/histoire-monde.ts` fournit des cours pour 51 de ces notions, dont les treize du premier lot. Et le décompte du lot 2 est faux.
 - **Correction proposée** : « Histoire du monde, deuxième lot — vingt et une notions. »
+- **Fait** : Mention « sans cours » retirée des quatre en-têtes ; décompte du lot 2 corrigé en « vingt et une notions » (compte vérifié : 13/21/20/22).
 
-### [MINEUR] Divergences de détail entre le cahier d'origine et le seed
+### [MINEUR] ✅ Divergences de détail entre le cahier d'origine et le seed
 
 - **Où** : héritage q. 3 (« mort vers 1327 av. J.-C. à environ **18 ans** ») contre `hm2-egypte-pharaonique` (« mort vers **dix-neuf** ans ») ; héritage q. 35 (« la Grande Colombie se disloque **de son vivant** ») contre `hm-independances-amerique-latine` (« Elle éclate en **1831, peu après la mort** de Bolívar ») ; héritage q. 0 (« près de **147** mètres ») contre cours et questions du seed (« cent quarante-**six** mètres »).
 - **Problème** : incohérences mineures mais visibles pour qui révise les deux sources.
 - **Correction proposée** : harmoniser sur « environ dix-neuf ans », « la Grande Colombie se défait en 1830-1831, autour de la mort de Bolívar », « environ cent quarante-sept mètres ».
+- **Fait** : Âge de Toutânkhamon harmonisé à « environ 19 ans » dans le cahier ; dislocation de la Grande Colombie reformulée « en 1830-1831, autour de sa mort ». Le point sur la hauteur de Khéops a été traité selon la correction de la session 2 (146 m, voir constat suivant), pas selon la proposition initiale (147 m), qui allait dans le mauvais sens.
 
-### [MINEUR] Momification : soixante-dix jours de natron
+### [MINEUR] ✅ Momification : soixante-dix jours de natron
 
 - **Où** : `cours/histoire-monde.ts` — `hm2-egypte-pharaonique`, section « Bâtir pour l'éternité »
 - **Texte** : « dessiccation au natron pendant **soixante-dix** jours »
 - **Problème** : soixante-dix jours est la durée du **rituel complet** ; la dessiccation au natron proprement dite durait une quarantaine de jours. Formulation reprise d'Hérodote sans le dire.
 - **Correction proposée** : « une quarantaine de jours de dessiccation au natron, dans un rituel qui en durait soixante-dix ».
+- **Fait** : Corrigé : « une quarantaine de jours de dessiccation au natron, dans un rituel qui en durait soixante-dix ».
 
-### [MINEUR] « Aucune monnaie n'est convertible en quoi que ce soit »
+### [MINEUR] ✅ « Aucune monnaie n'est convertible en quoi que ce soit »
 
 - **Où** : `cours/histoire-monde.ts` — `hm3-monnaie-histoire`, section « Ce qui donne sa valeur à la monnaie »
 - **Texte** : « Depuis 1971, toutes les monnaies du monde sont dans ce cas : aucune n'est convertible en quoi que ce soit. »
 - **Problème** : les monnaies sont convertibles entre elles, et plusieurs sont arrimées à une autre devise. Ce qui a disparu, c'est la convertibilité **métallique**.
 - **Correction proposée** : « aucune n'est plus convertible en métal ».
+- **Fait** : Corrigé en « aucune n'est plus convertible en métal ».
 
-### [MINEUR] La Charte d'Athènes n'a pas été publiée en 1933
+### [MINEUR] ✅ La Charte d'Athènes n'a pas été publiée en 1933
 
 - **Où** : question `hm3-villes-histoire` (« la Charte d'Athènes de 1933 ») et cours de la même notion (« publiée en 1933 à l'issue d'un congrès »)
 - **Problème** : le congrès des CIAM se tient en 1933 ; la Charte est publiée en 1943 par Le Corbusier. Le cours dit explicitement « publiée en 1933 », ce qui est faux.
 - **Correction proposée** : « issue du congrès des CIAM de 1933 et publiée dix ans plus tard ».
+- **Fait** : Question et cours de `hm3-villes-histoire` reformulés : congrès des CIAM en 1933, Charte publiée dix ans plus tard.
 
-### [MINEUR] Victoria impératrice des Indes en 1876, pas en 1858
+### [MINEUR] ✅ Victoria impératrice des Indes en 1876, pas en 1858
 
 - **Où** : `cours/histoire-monde.ts` — `hm2-inde-histoire`, section « De la Compagnie à l'indépendance »
 - **Texte** : « l'Inde passe sous administration directe de la Couronne, et la reine Victoria devient impératrice des Indes »
 - **Problème** : la phrase enchaîne les deux faits comme s'ils étaient simultanés ; dix-huit ans les séparent (1858 et 1876).
 - **Correction proposée** : « l'Inde passe sous administration directe de la Couronne en 1858, et Victoria prendra le titre d'impératrice des Indes en 1876 ».
+- **Fait** : Cours `hm2-inde-histoire` corrigé : administration directe en 1858, titre d'impératrice en 1876.
 
-### [MINEUR] Tang : « aux VIIe et IXe siècles »
+### [MINEUR] ✅ Tang : « aux VIIe et IXe siècles »
 
 - **Où** : `cours/histoire-monde.ts` — `hm4-chine-imperiale`, section « Les grandes dynasties »
 - **Texte** : « Les Tang, **aux VIIe et IXe siècles**, marquent un apogée culturel »
 - **Problème** : la formule saute le VIIIe siècle et ne correspond ni à la question de `hm2-chine-imperiale` (« entre le VIIe et le Xe siècle ») ni à celle de `hm4-chine-imperiale` (« aux VIIe-IXe siècles »).
 - **Correction proposée** : « Les Tang, du VIIe au Xe siècle ».
+- **Fait** : Corrigé en « du VIIe au Xe siècle ».
 
-### [MINEUR] Pizarro : 1532 ou 1533, et « moins de quarante ans »
+### [MINEUR] ✅ Pizarro : 1532 ou 1533, et « moins de quarante ans »
 
 - **Où** : `cours/histoire-monde.ts` — `hm-espagne-or`, section « 1492 »
 - **Texte** : « **En moins de quarante ans**, deux empires américains tombent : Hernán Cortés abat l'Empire aztèque en 1521, Francisco Pizarro l'Empire inca **en 1533**. »
 - **Problème** : de 1492 à 1533, il s'écoule quarante et un ans. Par ailleurs la question de la même notion date la capture d'Atahualpa de 1532 ; les deux dates coexistent sans être articulées.
 - **Correction proposée** : « En un peu plus de quarante ans […] Pizarro l'Empire inca entre 1532 et 1533. »
+- **Fait** : Cours `hm-espagne-or` corrigé : « en un peu plus de quarante ans […] entre 1532 et 1533 ».
 
-### [MINEUR] Question au distracteur trop long / trop précis
+### [MINEUR] ✅ Question au distracteur trop long / trop précis
 
 - **Où** : `histoire-monde.ts` — `hm-espagne-or`
 - **Texte** : « Quelle mine d'argent enrichit l'Espagne à partir de 1545 ? » — `["Le Potosí, dans l'actuelle Bolivie", "Zacatecas seul", "Les mines de Guanajuato", "Les gisements de Colombie"]`
 - **Problème** : la bonne réponse est la seule à être localisée et la plus longue ; le « seul » de Zacatecas trahit un distracteur bricolé. Le procédé se répète ailleurs (« Tours seule », « Le Liberia seul », « Le MRTA seul », « L'Éthiopie seule », « Le royaume du Monomotapa seul », « Le Digeste seul », « Les Saints-Apôtres seule », « Les Bardi seuls »).
 - **Correction proposée** : « Le Potosí », « Zacatecas », « Guanajuato », « Muzo » — et, plus généralement, réécrire les distracteurs suffixés en « seul(e) », qui signalent au lecteur qu'ils sont faux.
+- **Fait** : Potosí déjà rééquilibré ; corrigé aussi pour « Les Saints-Apôtres seule », « Le Liberia seul », « Le royaume du Monomotapa seul », « L'Éthiopie seule », « Les Bardi seuls ». « Le MRTA seul » et « Le seul Digeste » étaient déjà reformulés.
 
 ---
 
@@ -296,45 +325,51 @@ visuel?}], quiz:[{q, choix, bonne, difficulte, explication}], sources?}`.
 
 ## Constats — leçons héritage
 
-### [MOYEN] Énoncé à deux réponses défendables, et l'explication l'admet elle-même
+### [MOYEN] ✅ Énoncé à deux réponses défendables, et l'explication l'admet elle-même
 
 - **Où** : `heritage/culture-g/data/lecons/histoire-monde/01.json` — quiz, question 5
 - **Texte** : « Quel événement marque **la fin de l'Égypte indépendante** et son passage sous domination romaine ? » — choix : « La conquête de Cambyse en 525 av. J.-C. », « L'arrivée d'Alexandre le Grand en 332 av. J.-C. », « La mort de Cléopâtre VII en 30 av. J.-C. », « Le déchiffrement des hiéroglyphes en 1822 » ; bonne = 2. Explication : « Les conquêtes perse et macédonienne, plus anciennes, **avaient déjà mis fin à l'indépendance politique**, mais c'est en 30 que s'ouvre la période romaine. »
 - **Problème** : l'énoncé pose deux critères, dont le premier (« fin de l'Égypte indépendante ») désigne 525 av. J.-C. — ce que l'explication concède noir sur blanc. Un apprenant attentif qui coche « Cambyse » a lu correctement l'énoncé et est compté faux. La question de la leçon 19 (Perse) enseigne d'ailleurs la même conquête.
 - **Correction proposée** : « Quel événement fait passer l'Égypte sous domination romaine ? »
+- **Fait** : Question reformulée en « Quel événement fait passer l'Égypte sous domination romaine ? » dans `01.json`.
 
-### [MINEUR] Distracteurs hors catégorie : trois pharaons contre un architecte
+### [MINEUR] ✅ Distracteurs hors catégorie : trois pharaons contre un architecte
 
 - **Où** : `01.json` — quiz, question 2
 - **Texte** : « Qui fut l'**architecte** de la première pyramide égyptienne, la pyramide à degrés de Saqqarah ? » — `["Imhotep", "Khéops", "Ramsès", "Thoutmosis"]`.
 - **Problème** : les trois distracteurs sont des noms de pharaons ; la bonne réponse est la seule qui ne soit pas un roi. Qui sait seulement que Khéops et Ramsès sont des pharaons trouve sans rien connaître d'Imhotep.
 - **Correction proposée** : distracteurs d'architectes ou de hauts fonctionnaires — « Hémiounou », « Senmout », « Ineni ».
+- **Fait** : Distracteurs remplacés par « Hémiounou », « Senmout », « Ineni » dans `01.json`.
 
-### [MINEUR] La hauteur de Khéops : la leçon confirme 146 m, c'est le cahier de questions qui est isolé
+### [MINEUR] ✅ La hauteur de Khéops : la leçon confirme 146 m, c'est le cahier de questions qui est isolé
 
 - **Où** : `01.json` § « L'unification et l'Ancien Empire » et légende du visuel — « près de **146** mètres » (deux fois), contre `heritage/culture-g/data/histoire-monde.json` q. 0 — « près de **147** mètres ».
 - **Problème** : complète le constat déjà noté plus haut. Le seed, les cours du seed et la leçon d'origine disent tous 146 ; seule la question 0 du cahier dit 147. La correction proposée en session 1 (« harmoniser sur environ cent quarante-sept mètres ») va donc dans le mauvais sens.
 - **Correction proposée** : harmoniser sur « près de cent quarante-six mètres » et corriger la question 0 du cahier, pas l'inverse.
+- **Fait** : Question 0 du cahier d'origine corrigée : « près de 146 mètres » (au lieu de 147).
 
-### [MINEUR] La frise fait mourir Périclès en 430, le texte de la même leçon dit 429
+### [MINEUR] ✅ La frise fait mourir Périclès en 430, le texte de la même leçon dit 429
 
 - **Où** : `02.json` — section « Les guerres médiques et le siècle de Périclès » (frise) et section « La guerre du Péloponnèse »
 - **Texte** : frise — « **430 av. J.-C.** — Épidémie à Athènes — **Elle emporte Périclès.** » ; texte de la section précédente — « Périclès, régulièrement réélu entre 461 et **sa mort en 429** ».
 - **Problème** : l'épidémie éclate en 430, Périclès en meurt en 429. La frise, qui est ce que l'apprenant retient visuellement, contredit le corps de la leçon à deux sections d'écart.
 - **Correction proposée** : frise — « 430-429 av. J.-C. — Épidémie à Athènes — Elle emporte Périclès en 429. »
+- **Fait** : Frise de `02.json` corrigée : « 430-429 av. J.-C. […] Elle emporte Périclès en 429. »
 
-### [MOYEN] Le précepteur d'Alexandre : quatrième occurrence du même item
+### [MOYEN] ✅ Le précepteur d'Alexandre : quatrième occurrence du même item
 
 - **Où** : `02.json` — quiz, question 5 ; s'ajoute à `hm-alexandre` et `hm2-alexandre-hellenistique` (déjà signalés) et à `heritage/culture-g/data/histoire-monde.json`
 - **Texte** : « Quel philosophe, élève de Platon, fut le précepteur d'Alexandre le Grand ? »
 - **Problème** : le constat « doublons francs » de la session 1 sous-estimait la portée : l'item existe aussi dans le cahier d'origine. Le domaine pose donc quatre fois la même question à l'apprenant selon le parcours qu'il suit.
 - **Correction proposée** : le conserver dans la leçon 02 (c'est là qu'il est le mieux expliqué : Stagire, l'Académie, le Lycée) et le retirer de l'une au moins des deux notions du seed.
+- **Fait** : Question retirée de `hm2-alexandre-hellenistique` (conservée dans la leçon 02 et dans `hm-alexandre`).
 
-### [MINEUR] Typographie : ligature œ manquante, et apostrophe droite dans tout le domaine
+### [MINEUR] ✅ Typographie : ligature œ manquante, et apostrophe droite dans tout le domaine
 
 - **Où** : relevé exhaustif sur les 23 leçons — `02.json` « son **oeuvre** », `03.json` « le **choeur** de la basilique », « pénurie de **main-d'oeuvre** », `04.json` « une **oeuvre** », « Richard **Coeur** de Lion », `05.json` (2 occ. « oeuvre »), `06.json` « **manoeuvres** », `07.json` « **oeuvre** ». Apostrophe : **0 apostrophe courbe** sur l'ensemble du domaine (leçons, cahier, seed, cours) — 312 droites dans `histoire-monde.ts`, 1 968 dans `cours/histoire-monde.ts`, 852 dans `histoire-monde.json`, ≈ 700 dans les leçons.
 - **Problème** : la ligature œ est une faute d'orthographe, pas un choix typographique (« cœur », « œuvre », « manœuvres », « chœur »). L'apostrophe droite, elle, est **uniformément** appliquée : c'est une convention du dépôt, pas une négligence ponctuelle — à trancher globalement, pas fichier par fichier.
 - **Correction proposée** : corriger les 9 occurrences de `oe` → `œ` (attention : ne pas toucher « Groenland », « Soekarno », « coexistence », qui sont corrects) ; pour l'apostrophe, décider une fois pour tout le domaine plutôt que de signaler chaque fichier.
+- **Fait** : 9 occurrences de « oe » corrigées en « œ » dans les leçons 02 à 07 (Groenland, Soekarno, coexistence non touchés). Apostrophe droite laissée telle quelle : convention uniforme du dépôt, pas une négligence à corriger fichier par fichier.
 
 ### [SAIN] Leçon 03 — Moyen Âge : rien à signaler
 
@@ -348,12 +383,13 @@ plus qu'une rupture brutale » et signale que la date du baptême de Clovis, « 
 fixée à 496, reste discutée ». Les quatre distracteurs de chaque question sont plausibles
 et faux.
 
-### [MOYEN] Poitiers 732 : les leçons enseignent exactement la lecture que le cours du seed démonte
+### [MOYEN] ✅ Poitiers 732 : les leçons enseignent exactement la lecture que le cours du seed démonte
 
 - **Où** : `03.json` § « L'Empire de Charlemagne » et sa frise ; `04.json` § « La naissance de l'islam » et sa frise — contre `prisma/seed/culture-g/cours/histoire-monde.ts` § « Deux limites » (`hm2-islam-conquetes`)
 - **Texte** : leçon 03 — « Charles Martel **arrête une expédition musulmane** près de Poitiers en 732 » ; leçon 04 — « **l'avancée vers le nord est stoppée** en Gaule près de Poitiers en 732 » ; frise de la leçon 04 — « **732 — L'avancée est stoppée près de Poitiers** ». Cours du seed — « Il s'agissait d'une **razzia et non d'une entreprise de conquête**, et les opérations en Gaule méridionale **se poursuivront des décennies**. L'historiographie européenne du XIXe siècle en a fait le salut de la chrétienté, lecture que les travaux récents ont considérablement nuancée. »
 - **Problème** : ce n'est pas une erreur de date mais une causalité fausse — « l'avancée est stoppée » présente une razzia comme le coup d'arrêt d'une conquête, ce que le cours du seed identifie nommément comme le mythe du XIXe siècle. Un apprenant qui suit les leçons du cahier apprend le contraire de ce que lui enseigne le cours du seed sur le même fait. Le corpus se contredit sur son propre point d'historiographie le plus sensible.
 - **Correction proposée** : leçon 04 — « une incursion arabe est repoussée en Gaule près de Poitiers en 732, sans que les opérations dans le Midi cessent pour autant » ; frise — « 732 — Poitiers : une razzia repoussée ». Même retouche dans la leçon 03.
+- **Fait** : Texte, frises et libellés de `03.json` et `04.json` reformulés : razzia repoussée, opérations poursuivies dans le Midi.
 
 ### [SAIN] Leçon 04 — monde musulman et Ottomans : dates exactes de bout en bout
 
@@ -381,12 +417,13 @@ facteurs ne suffit à lui seul : c'est leur combinaison qui rend possible le dé
 industriel » — exactement le refus de la cause unique que la consigne demande de vérifier
 ailleurs.
 
-### [MOYEN] La leçon 14-18 a perdu sa question sur Sarajevo : sa première section n'est plus évaluée
+### [MOYEN] ✅ La leçon 14-18 a perdu sa question sur Sarajevo : sa première section n'est plus évaluée
 
 - **Où** : `06.json` — « La Première Guerre mondiale (1914-1918) », bloc `quiz`
 - **Texte** : la leçon compte **4 questions** là où les 22 autres leçons du domaine en comptent 5 (contrôlé : sur les 238 leçons de tout le cahier, **deux seulement** ont 4 questions — `histoire-monde/06.json` et `cinema-medias/06.json`). Le commit `eb0dfc2` « culture-g : passe doublons — 86 questions redondantes retirees » a supprimé : « Quel événement du 28 juin 1914 déclenche l'engrenage menant à la guerre ? » (difficulté 1).
 - **Problème** : la passe de dédoublonnage a vidé la **leçon** plutôt que le seed. Résultat : la section 1, « Les origines du conflit et l'été 1914 » — Sarajevo, l'ultimatum, l'engrenage des alliances, soit la matière la plus dense de la leçon — n'est plus testée par aucune question, et l'apprenant perd du même coup la seule question de difficulté 1, c'est-à-dire son point d'entrée. Les quatre questions restantes portent sur les sections 2, 3, 4 et 5. Le fait, lui, subsiste dans `histoire-monde.ts` et dans le cahier (`histoire-monde.json`) : ce n'est pas une perte de contenu, c'est un trou d'évaluation créé au mauvais endroit.
 - **Correction proposée** : réintroduire dans la leçon 06 une cinquième question portant sur la section 1 mais formulée autrement que celle du seed — par exemple sur l'enchaînement plutôt que sur l'attentat : « Quel enchaînement transforme en dix jours un attentat en guerre européenne ? », avec l'ultimatum autrichien du 23 juillet, la déclaration du 28 juillet et les mobilisations du 1er au 4 août. Et, plus généralement, vérifier que la passe doublons n'a pas laissé d'autres sections sans question.
+- **Fait** : Cinquième question ajoutée à `06.json` sur l'engrenage du 23 juillet au 4 août 1914 (difficulté 1).
 
 ### [SAIN] Leçon 06 — 1914-1918 : le récit et les dates sont justes
 
@@ -405,19 +442,21 @@ pays que par protestation contre des attaques jugées inutiles », et le distrac
 retour de la Rhénanie à la France » est réfuté dans l'explication (« démilitarisée et
 occupée temporairement », non annexée).
 
-### [MOYEN] Le ghetto de Varsovie daté de 1939 : il est créé en octobre 1940
+### [MOYEN] ✅ Le ghetto de Varsovie daté de 1939 : il est créé en octobre 1940
 
 - **Où** : `07.json` — section « Une guerre d'anéantissement : la Shoah », et son visuel « Les étapes du génocide des Juifs d'Europe », étape 1
 - **Texte** : texte — « **Dès 1939**, les Juifs de Pologne sont enfermés dans des ghettos surpeuplés **comme celui de Varsovie**. » ; visuel — « **1939 : les ghettos** — Les Juifs de Pologne sont enfermés dans des quartiers surpeuplés, **comme celui de Varsovie**. »
 - **Problème** : les premiers ghettos apparaissent bien dès octobre 1939 (Piotrków Trybunalski), mais celui de Varsovie — le seul nommé, donc le seul que l'apprenant retiendra — est créé en octobre 1940 et fermé le 16 novembre 1940. L'exemple contredit la date qu'il est censé illustrer, et l'erreur est reprise telle quelle dans le visuel, c'est-à-dire à l'endroit le plus mémorisable de la leçon. C'est une date de la Shoah : elle mérite d'être juste.
 - **Correction proposée** : texte — « Dès l'automne 1939, les Juifs de Pologne sont enfermés dans des ghettos surpeuplés ; celui de Varsovie, le plus grand, est fermé en novembre 1940. » ; visuel — « 1939-1940 : les ghettos […] celui de Varsovie est fermé en novembre 1940 ».
+- **Fait** : Texte et visuel de `07.json` corrigés : ghettos dès l'automne 1939, celui de Varsovie fermé en novembre 1940.
 
-### [MINEUR] Berlin prise avant le suicide de Hitler
+### [MINEUR] ✅ Berlin prise avant le suicide de Hitler
 
 - **Où** : `07.json` — section « 1944-1945 : la victoire alliée et le bilan »
 - **Texte** : « **Berlin est prise par les Soviétiques ; Hitler se suicide le 30 avril** et l'Allemagne capitule sans condition »
 - **Problème** : la phrase énumère dans l'ordre inverse. Hitler se suicide le 30 avril, la garnison de Berlin capitule le 2 mai. Écrit ainsi, un apprenant retient que Berlin tombe d'abord et que Hitler se tue ensuite.
 - **Correction proposée** : « Hitler se suicide le 30 avril, Berlin tombe le 2 mai, et l'Allemagne capitule sans condition, ce qui est célébré le 8 mai 1945. »
+- **Fait** : Ordre corrigé dans `07.json` : « Hitler se suicide le 30 avril, Berlin tombe le 2 mai… »
 
 ### [SAIN] Leçon 07 — 1939-1945 : le reste est exact
 
@@ -446,12 +485,13 @@ d'exterminer, la collaboration de Vichy nommée.
   3. L'explication, « Celle d'Ur est la mieux conservée aujourd'hui », **n'explique rien de la réponse** — et elle donne mot pour mot la solution de l'autre question du corpus, `hm2-mesopotamie` : « Quelle ziggourat est la mieux conservée de Mésopotamie ? » → « Celle d'Ur ». Un apprenant qui fait le lot 4 avant le lot 2 a la réponse d'avance.
 - **Correction proposée** : « Qu'est-ce qu'une ziggourat ? » — `["Une tour à degrés surmontée d'un sanctuaire", "Une tour de défense", "Un palais royal", "Un tombeau monumental"]`, explication : « Bâtie en briques crues avec un parement de briques cuites, elle dominait le temple de la cité. Le souvenir de ces tours a nourri le récit biblique de la tour de Babel. » (formulation reprise de la leçon 08, qui est juste et complète).
 
-### [MOYEN] Question du cunéiforme dupliquée entre le seed et le cahier, à un mot près
+### [MOYEN] ✅ Question du cunéiforme dupliquée entre le seed et le cahier, à un mot près
 
 - **Où** : `prisma/seed/culture-g/histoire-monde-2.ts:14` — `hm2-mesopotamie` ; `heritage/culture-g/data/histoire-monde.json:19`
 - **Texte** : seed — « Quelle **civilisation** invente l'écriture cunéiforme vers 3300 avant notre ère ? » ; cahier — « Quel **peuple de Mésopotamie** invente l'écriture cunéiforme vers 3300 av. J.-C. ? »
 - **Problème** : même fait, même date, même réponse (les Sumériens) ; seul le mot interrogatif change. S'y ajoute la question 1 de la leçon 08, qui porte sur le même fait sous un autre angle (« Quel est le premier système d'écriture connu ? »).
 - **Correction proposée** : garder la version du cahier, plus précise, et remplacer celle du seed par une question sur le **support** ou l'**usage** (« Pourquoi l'écriture est-elle inventée en Mésopotamie ? » → la comptabilité des temples), qui n'est posée nulle part.
+- **Fait** : Question de `hm2-mesopotamie` réorientée vers l'usage de l'écriture (comptabilité des temples), au lieu de redemander l'inventeur.
 
 ### [SAIN] Leçon 08 — Mésopotamie : la meilleure leçon du domaine
 
@@ -478,12 +518,13 @@ sources Wikipédia sont déclarées en fin de fichier (présentes à partir de `
 - **Problème** : `hm2` et `hm4` ont **les trois mêmes distracteurs, dans le même ordre**, et une bonne réponse qui ne diffère que par sa formulation ; la question de la leçon est la même à la troisième reformulation près. Seule `hm3` change réellement d'objet (quelle maladie, et non quelle cause). Le constat de la session 1 signalait le couple `hm2`/`hm4` ; il faut y ajouter la leçon du cahier. Un apprenant qui parcourt le domaine répond quatre fois « les maladies ».
 - **Correction proposée** : conserver `hm3` (la variole) et la question de la leçon 09, qui est celle dont l'explication est la plus complète (chiffres de 1519 et 1618, rôle des alliances tlaxcaltèques et de la guerre civile inca) ; supprimer `hm2` et `hm4`.
 
-### [MINEUR] Deux graphies de Tawantinsuyu dans la même section
+### [MINEUR] ✅ Deux graphies de Tawantinsuyu dans la même section
 
 - **Où** : `09.json` — section 4
 - **Texte** : titre de section — « Les Incas et le **Tahuantinsuyu** » ; première phrase — « l'Empire inca, appelé **Tawantinsuyu**, c'est-à-dire les quatre parties réunies ».
 - **Problème** : les deux transcriptions sont attestées, mais les employer à trois mots d'écart, dans le titre et dans le texte qu'il coiffe, donne à l'apprenant l'impression de deux mots différents.
 - **Correction proposée** : retenir « Tawantinsuyu » aux deux endroits.
+- **Fait** : Graphie harmonisée sur « Tawantinsuyu » dans `09.json` (titre et légende du tableau).
 
 ### [SAIN] Leçon 09 — civilisations précolombiennes : exacte et honnête sur ses incertitudes
 
@@ -578,11 +619,12 @@ domaine ne prévient. L'explication de la question 5 réfute explicitement son d
 (« Ces manuscrits sont copiés à la main : l'imprimerie n'y était pas employée »), ce qui est
 la bonne pratique.
 
-### [MOYEN] Les Vikings n'existent nulle part dans le seed
+### [MOYEN] ⏭️ Les Vikings n'existent nulle part dans le seed
 
 - **Où** : `14.json` (leçon entière) contre les 76 notions du seed — recherche de « viking » dans `histoire-monde{,-2,-3,-4}.ts`, `cours/histoire-monde.ts` et `histoire-monde.json` : **zéro occurrence**
 - **Problème** : le domaine compte 742 questions de seed réparties sur 76 notions, et pas une seule ne porte sur les Scandinaves, sur le Danelaw, sur Saint-Clair-sur-Epte ou sur la découverte norroise de l'Amérique. La leçon 14 du cahier est le seul endroit du domaine où l'apprenant rencontre ce sujet — et comme les cinq questions de cette leçon sont les seules à en traiter, il ne le reverra jamais en révision libre. À l'inverse, plusieurs notions du seed (`hm3-monnaie-histoire`, `hm3-villes-histoire`, `hm3-memoire-histoire`, `hm3-droit-international`) n'ont aucune leçon correspondante. Le déséquilibre n'est pas une erreur de contenu, mais c'est un trou de couverture : le lot 4, entièrement redondant (constat le plus grave de ce rapport), aurait pu être ce chapitre-là.
 - **Correction proposée** : si l'on supprime le lot 4 comme proposé, réemployer le budget de notions pour créer `hm4-vikings` à partir de la leçon 14, qui fournit déjà la matière exacte et vérifiée.
+- **Fait** : Écarté : la correction proposée (créer `hm4-vikings`) suppose la suppression préalable du lot 4, décision qui relève du constat [GRAVE] correspondant — hors de mon périmètre. Signalé au propriétaire.
 
 ### [SAIN] Leçon 14 — Vikings : exacte, et exemplaire sur le traitement des sources
 
@@ -597,12 +639,13 @@ peuple**, appuyée sur les analyses génétiques récentes ; et elle date les sa
 (« rédigées au treizième siècle, soit environ deux cent cinquante ans après les événements,
 **ce qui impose la prudence** ») avant de dire ce que l'archéologie confirme réellement.
 
-### [MINEUR] Leçon 15 : des distracteurs qu'aucun apprenant ne peut choisir
+### [MINEUR] ✅ Leçon 15 : des distracteurs qu'aucun apprenant ne peut choisir
 
 - **Où** : `15.json` — quiz, questions 3 et 4
 - **Texte** : q. 3, « Que proclame la Déclaration d'indépendance du 4 juillet 1776 ? » — distracteurs « Le rattachement des colonies à la France », « La création d'une monarchie américaine ». q. 4, « Quels sont les deux grands principes d'organisation de la Constitution américaine de 1787 ? » — distracteurs « La centralisation et **le parti unique** », « **La théocratie** et le droit coutumier ».
 - **Problème** : la consigne demande des distracteurs « plausibles, et clairement faux à qui sait ». Ceux-ci sont faux à qui ne sait rien : « parti unique » est un anachronisme de plus d'un siècle, « théocratie » n'a jamais été en discussion à Philadelphie. Les deux questions se répondent par élimination sans rien connaître du sujet, ce qui est d'autant plus dommage que la leçon, elle, est d'une précision remarquable.
 - **Correction proposée** : q. 4 — remplacer par des principes réellement débattus en 1787 : « La souveraineté des États et le vote par colonie », « Le suffrage universel et le mandat impératif ». q. 3 — « La convocation d'un Parlement colonial à Londres », « La suppression des assemblées coloniales ».
+- **Fait** : Distracteurs anachroniques remplacés par des options réellement débattues en 1776-1787, dans `15.json`.
 
 ### [SAIN] Leçon 15 — révolution américaine : la leçon la plus précise du cahier
 
@@ -618,12 +661,13 @@ section 5 ne s'arrête pas à l'éloge : elle nomme les limites (esclavage maint
 extension, mot évité par la Constitution, femmes exclues, terres amérindiennes conquises) et
 relie la contradiction à la guerre de Sécession.
 
-### [MOYEN] Nicolas II abdique « le 2 mars » six jours avant une révolution datée du 8 mars
+### [MOYEN] ✅ Nicolas II abdique « le 2 mars » six jours avant une révolution datée du 8 mars
 
 - **Où** : `16.json` — section 1, frise de la section 2, et quiz question 1 (choix 0 et explication)
 - **Texte** : « Le **23 février 1917** selon le calendrier julien alors en usage en Russie, **soit le 8 mars du calendrier grégorien**, des ouvrières manifestent à Petrograd […] Privé de tout appui, Nicolas II abdique **le 2 mars 1917** » ; choix de la question 1 : « L'abdication de Nicolas II **le 2 mars** ».
 - **Problème** : le premier événement est daté dans les deux calendriers, le second dans le seul calendrier julien, sans le dire. Lu tel quel, le paragraphe fait abdiquer le tsar **six jours avant** la manifestation qui le renverse. La note du visuel (« Les premières dates suivent le calendrier julien ; entre parenthèses, le calendrier grégorien ») ne sauve que la frise ; ni le corps du texte ni le choix de QCM ne portent de marqueur. C'est exactement le cas d'une donnée exacte devenue trompeuse par omission d'un repère.
 - **Correction proposée** : « Nicolas II abdique le 2 mars (15 mars) 1917 » dans le texte, et « L'abdication de Nicolas II le 2 mars julien, soit le 15 mars » dans le choix de QCM — ou, plus simple, dater toute la leçon dans un seul calendrier en signalant l'autre une fois.
+- **Fait** : Date grégorienne ajoutée partout dans `16.json` : « 2 mars (15 mars) » dans le texte, la frise et le choix de quiz.
 
 ### [SAIN] Leçon 16 — révolution russe et URSS : chiffrée au dixième près et juste
 
@@ -647,12 +691,13 @@ posent la question se contentent de « décembre 1991 ».
 - **Problème** : erreur de date sur un fait central. De Gaulle revient au pouvoir en **mai-juin 1958** : appelé après le 13 mai, il est investi président du Conseil le **1er juin 1958**. Septembre 1958, c'est le référendum constitutionnel du 28 septembre ; la Quatrième République prend fin avec la promulgation de la Constitution le **4 octobre 1958**. La phrase agglomère trois moments distincts sous une seule date fausse pour les deux premiers. Un apprenant qui révise l'histoire de France dans le même Atelier trouvera ailleurs juin 1958.
 - **Correction proposée** : « la crise emporte les institutions françaises : de Gaulle est investi président du Conseil le 1er juin 1958, la Constitution est approuvée par référendum le 28 septembre et la Cinquième République naît le 4 octobre. »
 
-### [MINEUR] Le bilan algérien plafonné à 250 000 morts, sans dire que le chiffre est un enjeu de mémoire
+### [MINEUR] ✅ Le bilan algérien plafonné à 250 000 morts, sans dire que le chiffre est un enjeu de mémoire
 
 - **Où** : `17.json` — section 5, visuel « Le bilan de la guerre d'Algérie », et explication de la question 5
 - **Texte** : « de 140 000 à plus de 150 000 combattants algériens tués, **des estimations globales allant jusqu'à 250 000 morts** ».
 - **Problème** : 250 000 correspond à l'estimation basse des historiens français (Ageron) ; d'autres travaux montent nettement plus haut, et l'Algérie retient officiellement un million et demi de morts. Présenter 250 000 comme le plafond des estimations donne un chiffre pour un débat. Le domaine possède pourtant une notion `hm3-memoire-histoire` faite exactement pour ce genre d'écart.
 - **Correction proposée** : « les estimations globales vont de 250 000 à plusieurs centaines de milliers de morts ; l'Algérie retient officiellement un million et demi de victimes, chiffre que les historiens jugent très supérieur au bilan démographiquement mesurable. »
+- **Fait** : Texte et visuel de `17.json` complétés : fourchette 250 000 à plusieurs centaines de milliers, chiffre officiel algérien mentionné comme contesté.
 
 ### [SAIN] Leçon 17 — décolonisations : le reste est juste et bien chiffré
 
@@ -665,24 +710,27 @@ avec **29 pays** (23 d'Asie, 6 d'Afrique, le Japon seul pays industrialisé), 19
 distinctes de l'effondrement des empires sans en privilégier une — c'est le traitement
 multicausal que la consigne demande et que plusieurs questions du seed ne font pas.
 
-### [MOYEN] La frise de la préhistoire fait commencer le Paléolithique après les premiers outils
+### [MOYEN] ✅ La frise de la préhistoire fait commencer le Paléolithique après les premiers outils
 
 - **Où** : `18.json` — frise « Les grandes bornes de la préhistoire », entrées 1 et 3
 - **Texte** : « **3,3 Ma — Premiers outils taillés** — Site de Lomekwi, au Kenya : les plus anciens outils de pierre connus. » puis, deux entrées plus loin, « **1,76 Ma — Début du Paléolithique inférieur** — Les bifaces acheuléens accompagnent l'expansion d'Homo erectus. »
 - **Problème** : la même frise place la fabrication des premiers outils **un million et demi d'années avant le début de l'âge de la pierre taillée**, ce qui est contradictoire — le Paléolithique inférieur s'ouvre avec les premiers outils, vers 3,3 ou 2,6 millions d'années selon la borne retenue. Ce qui commence en 1,76 Ma, c'est l'**Acheuléen**, la culture du biface, ce que dit d'ailleurs le texte de l'entrée. L'étiquette et son contenu ne parlent pas de la même chose.
 - **Correction proposée** : « 1,76 Ma — Début de l'Acheuléen — Les bifaces accompagnent l'expansion d'Homo erectus. »
+- **Fait** : Entrée de frise renommée « Début de l'Acheuléen » dans `18.json`.
 
-### [MINEUR] Le fossile de 2,8 Ma attribué à Homo habilis
+### [MINEUR] ✅ Le fossile de 2,8 Ma attribué à Homo habilis
 
 - **Où** : `18.json` — frise, entrée 2 (« 2,8 Ma — Apparition du genre Homo — Les premiers fossiles **attribués à Homo habilis** en Afrique de l'Est ») et tableau (« Homo habilis, environ **2,8** à 1,5 Ma »)
 - **Problème** : la mandibule de Ledi-Geraru, datée de 2,8 Ma, est rattachée au **genre** *Homo* sans attribution d'espèce ; *Homo habilis* est daté d'environ 2,4 à 1,65 Ma. Le titre de l'entrée est juste (« apparition du genre Homo »), son sous-titre va au-delà de ce que les fossiles permettent. La note du tableau (« Les datations extrêmes varient selon les découvertes et font régulièrement l'objet de révisions ») atténue, sans corriger.
 - **Correction proposée** : « Les premiers fossiles attribués au genre Homo, en Afrique de l'Est ; l'espèce reste indéterminée. »
+- **Fait** : Frise de `18.json` corrigée : « premiers fossiles attribués au genre Homo […] l'espèce reste indéterminée ».
 
-### [MOYEN] La préhistoire, comme les Vikings, est absente du seed
+### [MOYEN] ⏭️ La préhistoire, comme les Vikings, est absente du seed
 
 - **Où** : `18.json` contre les 76 notions du seed — « préhist », « Néandert », « Lascaux » : **zéro occurrence** dans `histoire-monde{,-2,-3,-4}.ts` et dans `cours/histoire-monde.ts` ; « Néolithique » une fois (`histoire-monde-3.ts`), « sapiens » une fois
 - **Problème** : deuxième trou de couverture du même ordre que celui des Vikings, et plus étonnant encore : le domaine « Histoire du monde » ne pose aucune question sur les trois millions d'années qui précèdent l'écriture, alors qu'il en pose quatre sur la dissolution de l'URSS. Les cinq questions de la leçon 18 sont les seules du domaine sur ce sujet.
 - **Correction proposée** : même remède que pour les Vikings — une notion `hm4-prehistoire` construite sur la leçon 18, qui est de loin la source la plus à jour de tout le domaine.
+- **Fait** : Écarté pour la même raison que le constat sur les Vikings : dépend de la suppression du lot 4 ([GRAVE], hors périmètre).
 
 ### [SAIN] Leçon 18 — préhistoire : la source la plus récente et la plus prudente du domaine
 
@@ -709,12 +757,13 @@ concurrence, changements climatiques et absorption progressive »).
 - **Problème** : contradiction interne au cahier, sur cinq occurrences. Et c'est la leçon 19 qui a tort : Cambyse II règne de 530 à 522, et la conquête de l'Égypte se joue en **525** (bataille de Péluse, prise de Memphis). « Entre 527 et 522 » ne correspond ni à la campagne, ni au règne, ni à aucune chronologie courante. La gravité vient du fait qu'un apprenant peut rencontrer la question de la leçon 01, dont **525 est un choix**, après avoir lu la leçon 19.
 - **Correction proposée** : leçon 19 — « Son fils Cambyse II achève l'ensemble en conquérant l'Égypte en 525, avant de mourir en 522. »
 
-### [MOYEN] « Qui a fondé l'empire achéménide ? » : quatre choix identiques dans le seed et dans la leçon
+### [MOYEN] ✅ « Qui a fondé l'empire achéménide ? » : quatre choix identiques dans le seed et dans la leçon
 
 - **Où** : `prisma/seed/culture-g/histoire-monde-4.ts:66` (`hm4-perse`) et `19.json` quiz 1
 - **Texte** : seed — « Qui a fondé l'empire achéménide ? » `["Cyrus II", "Darius Ier", "Xerxès Ier", "Cambyse II"]` ; leçon — « Quel souverain fonde l'Empire perse achéménide et s'empare de Babylone en 539 av. J.-C. ? » `["Darius Ier", "Cyrus II", "Xerxès Ier", "Cambyse II"]`.
 - **Problème** : **les quatre mêmes noms**, la même bonne réponse, à l'ordre près. La version de la leçon est meilleure (elle ancre la réponse sur un fait daté) ; celle du seed n'apporte rien.
 - **Correction proposée** : supprimer la question de `hm4-perse` — d'autant que le même bloc contient déjà le distracteur fautif « Le mazdéisme tardif » signalé en session 1.
+- **Fait** : Question supprimée de `hm4-perse` (doublon exact de la leçon 19).
 
 ### [SAIN] Leçon 19 — Perse antique : exacte sur onze siècles, et propre là où le seed ne l'est pas
 
@@ -786,12 +835,13 @@ du seed (« quinze siècles » pour Galien) qu'il faut corriger, non la question
 - **Problème** : le domaine porte désormais **cinq** valeurs pour le même fait — « environ un dixième » (`hm2-afrique-precoloniale`), « dix à quinze pour cent » (`hm3-esclavage-abolitions`), « de l'ordre de quinze pour cent » (cours `hm3`), « fréquemment quinze pour cent » (`hm4-traite-esclavage`), « 11,9 à 13,25 % » (leçon 22). Surtout, **la correction proposée en session 1 — « aligner partout sur de l'ordre de quinze pour cent » — irait contre la seule source du corpus qui donne une fourchette sourcée et un dénominateur explicite.** La leçon 22 est la seule à fournir les deux termes du calcul (12,5 millions embarqués, un peu moins de 11 millions débarqués) ; l'écart correspond à environ 12-14 %, pas 15 %, et sûrement pas « un sixième » comme le laisse calculer le cours du seed (« environ douze millions […] dont près de deux millions moururent »).
 - **Correction proposée** : retenir partout la formulation de la leçon 22 — « environ un déporté sur huit, soit de 12 à 13 % » — et corriger le cours de `hm3-esclavage-abolitions`, le cours de `hm2-afrique-precoloniale` (« près de deux millions » → « environ un million et demi ») et la question de `hm4-traite-esclavage`. La question de `hm2-afrique-precoloniale` (« environ un dixième »), que la session 1 jugeait la plus fautive, est en réalité la moins éloignée.
 
-### [MOYEN] Le Danemark n'a pas interdit la traite en 1807
+### [MOYEN] ✅ Le Danemark n'a pas interdit la traite en 1807
 
 - **Où** : `22.json` — section 5 et frise « L'abolition, une conquête par étapes »
 - **Texte** : « le Danemark et le Royaume-Uni interdisent la traite **en 1807** » ; frise — « **1807** — Interdiction de la traite — Par le Danemark et le Royaume-Uni ».
 - **Problème** : les deux pays sont mis sous la même date, mais le Danemark légifère en **1792** avec effet au **1er janvier 1803** — ce qui en fait la première puissance européenne à interdire la traite, quatre ans avant le Royaume-Uni. Fusionner les deux dates supprime précisément le fait qui rend le Danemark intéressant, et l'erreur est répétée dans la frise.
 - **Correction proposée** : « le Danemark interdit la traite par une loi de 1792, applicable en 1803, et le Royaume-Uni en 1807 » ; frise — « 1803 et 1807 — Interdiction de la traite — Le Danemark le premier, puis le Royaume-Uni ; le trafic illégal se poursuit. »
+- **Fait** : Texte, frise et explication de `22.json` corrigés : Danemark 1792/1803, puis Royaume-Uni 1807.
 
 ### [SAIN] Leçon 22 — traite atlantique : le reste est exact et remarquablement équilibré
 
@@ -837,24 +887,27 @@ statistiques de l'époque et par le caractère politiquement sensible du sujet �
 chacun — « Rome, de la République à l'Empire », « Les grandes découvertes (XVe-XVIe siècles) »,
 « La guerre froide (1947-1991) ». **Jamais lus jusqu'ici.**
 
-### [MOYEN] La boussole arrive en Europe par les Arabes ici, par les Mongols dans le seed
+### [MOYEN] ✅ La boussole arrive en Europe par les Arabes ici, par les Mongols dans le seed
 
 - **Où** : cours « Les grandes découvertes », § « Les innovations qui rendent l'exploration possible » — contre `prisma/seed/culture-g/cours/histoire-monde.ts`, cours `hm2-mongols` § « L'héritage » et `hm-routes-echanges` § « La soie et le sel »
 - **Texte** : cahier — « la boussole, **invention chinoise transmise par les Arabes**, qui indique le nord » ; seed — « La poudre, **la boussole**, l'imprimerie et le papier-monnaie **arrivent en Occident à cette période** » (la période mongole, XIIIe siècle).
 - **Problème** : le corpus donne **deux canaux de transmission incompatibles** pour le même objet, et les deux sont présentés comme des faits établis. Le constat de session 1 signalait déjà que la version mongole est chronologiquement fausse (la boussole est attestée en Europe dès les années 1180-1190) ; la version arabe n'est pas mieux assurée — l'origine de la boussole européenne est débattue, une invention indépendante restant possible. Un apprenant qui lit les deux sources apprend deux histoires différentes du même objet.
 - **Correction proposée** : dans les deux textes, s'en tenir à ce qui est établi : « la boussole, dont le principe est connu en Chine bien avant, est attestée en Europe dès la fin du XIIe siècle ; la voie exacte de sa transmission reste discutée. »
+- **Fait** : Cours « Les grandes découvertes » (cahier) reformulé : transmission de la boussole présentée comme discutée, plus comme un fait établi.
 
-### [MINEUR] Cortés débarque avec 400 hommes dans la leçon 09, avec 500 dans le cours du cahier
+### [MINEUR] ✅ Cortés débarque avec 400 hommes dans la leçon 09, avec 500 dans le cours du cahier
 
 - **Où** : cours « Les grandes découvertes », § « La conquête du Nouveau Monde » — « Hernán Cortés débarque au Mexique avec **environ 500 hommes** » ; contre `lecons/histoire-monde/09.json` § 5 — « Hernán Cortés débarque sur la côte mexicaine avec **environ quatre cents soldats** » (repris dans l'explication de la question 5 : « Cortés ne disposait que de quelques centaines d'hommes »).
 - **Problème** : deux chiffres pour le même débarquement, dans le même fichier de matière. Les deux sont dans la fourchette des sources (Bernal Díaz compte 508 soldats, plus les marins), mais l'écart est visible pour qui révise les deux.
 - **Correction proposée** : « environ cinq cents hommes, dont un peu plus de quatre cents soldats », aux deux endroits.
+- **Fait** : Cours « Les grandes découvertes » du cahier harmonisé : « environ cinq cents hommes, dont un peu plus de quatre cents soldats ».
 
-### [MINEUR] Douze millions de déportés « vers les Amériques » : embarqués et débarqués confondus
+### [MINEUR] ✅ Douze millions de déportés « vers les Amériques » : embarqués et débarqués confondus
 
 - **Où** : cours « Les grandes découvertes », § « Un monde transformé » — « **plus de douze millions d'Africains sont déportés comme esclaves vers les Amériques** » ; contre `lecons/histoire-monde/22.json`, qui distingue « environ **douze millions et demi d'embarquements** pour un peu moins de **onze millions de débarquements** ».
 - **Problème** : la différence entre les deux chiffres, c'est précisément la mortalité de la traversée — le fait central du § « passage du milieu ». Écrire « douze millions déportés vers les Amériques » fait disparaître le million et demi de morts que la leçon 22 compte explicitement.
 - **Correction proposée** : « plus de douze millions d'Africains sont embarqués, dont un peu moins de onze millions arrivent vivants aux Amériques ».
+- **Fait** : Cours « Les grandes découvertes » reformulé : « plus de douze millions d'Africains sont embarqués, dont un peu moins de onze millions arrivent vivants aux Amériques ».
 
 ### [SAIN] Cours « Rome, de la République à l'Empire » : exact de bout en bout
 
@@ -900,26 +953,29 @@ lues. Voici ce qu'elle a trouvé.
 - **Problème** : **1945 n'apparaît nulle part dans la leçon.** Un apprenant qui a lu la leçon 17, la seule matière du domaine sur ce point, ne connaît qu'une date pour l'Indonésie : 1949. Or 1949 est le distracteur immédiatement suivant. La question ne sanctionne pas l'ignorance, elle sanctionne d'avoir lu le cours. C'est le cas le plus net de rupture cours ↔ question de tout le domaine, et il n'était pas détectable sans avoir lu les leçons.
 - **Correction proposée** : compléter la leçon 17 — « Soekarno proclame l'indépendance **le 17 août 1945**, deux jours après la capitulation japonaise ; les Pays-Bas ne la reconnaissent qu'en 1949, après quatre ans de guerre » — et reformuler la question du seed pour qu'elle distingue explicitement les deux dates : « Quelle date sépare la proclamation de l'indépendance indonésienne de sa reconnaissance par les Pays-Bas ? »
 
-### [MOYEN] (passe 2) Deux questions de la même notion ont la boussole pour réponse
+### [MOYEN] ✅ (passe 2) Deux questions de la même notion ont la boussole pour réponse
 
 - **Où** : `histoire-monde-4.ts` — `hm4-histoire-sciences-monde`, questions 3 et 4 (consécutives)
 - **Texte** : q. 3 — « Quelle invention chinoise a transformé la navigation ? » → « **La boussole** » ; q. 4 — « Quelles sont les quatre grandes inventions traditionnellement attribuées à la Chine ? » → « Papier, imprimerie, poudre et **boussole** ».
 - **Problème** : la réponse de la question 3 est contenue dans la réponse de la question 4, posée juste après. Qui répond à l'une a la seconde. Doublon interne à une notion, au sens du point 4 de la consigne.
 - **Correction proposée** : supprimer la question 3 — la question 4 couvre le fait et son explication est meilleure (« Cette liste est une construction historiographique, mais chacune est bien attestée »).
+- **Fait** : Question 3 (boussole seule) supprimée de `hm4-histoire-sciences-monde`, la question 4 couvrant déjà le fait.
 
-### [MOYEN] (passe 2) « Remarquablement stable » : la part des migrants a augmenté de moitié en cinquante ans
+### [MOYEN] ✅ (passe 2) « Remarquablement stable » : la part des migrants a augmenté de moitié en cinquante ans
 
 - **Où** : `histoire-monde-4.ts` — `hm4-migrations-histoire`, dernière question chiffrée
 - **Texte** : « Quelle part de la population mondiale vit hors de son pays de naissance ? » → « Environ trois à quatre pour cent », explication : « **Cette proportion est remarquablement stable sur le long terme.** »
 - **Problème** : le chiffre est juste (environ 3,6 % aujourd'hui), mais le commentaire ne l'est pas : la part était d'environ 2,3 % en 1970 et de 3,6 % en 2020, soit une hausse de plus de moitié en valeur relative. « Remarquablement stable » enseigne le contraire de ce que montrent les séries, et c'est précisément le genre d'affirmation qu'un apprenant retient parce qu'elle contredit son intuition. Exact sur le chiffre, faux sur la tendance.
 - **Correction proposée** : « Cette proportion reste faible, mais elle a augmenté de moitié depuis 1970, où elle était d'environ deux et demi pour cent. »
+- **Fait** : Explication de `hm4-migrations-histoire` corrigée : hausse de moitié depuis 1970 (2,5 % à 3-4 %).
 
-### [MOYEN] (passe 2) Un distracteur que le domaine enseigne lui-même comme vrai : les conventions de Genève et les réfugiés
+### [MOYEN] ✅ (passe 2) Un distracteur que le domaine enseigne lui-même comme vrai : les conventions de Genève et les réfugiés
 
 - **Où** : `histoire-monde-3.ts` — `hm3-droit-international` ; contre `histoire-monde-4.ts` — `hm4-migrations-histoire` et `histoire-monde-3.ts` — `hm3-migrations-histoire`
 - **Texte** : `hm3-droit-international` — « Que régissent les conventions de Genève ? » `["Le droit humanitaire applicable aux conflits armés", "Le droit de la mer", "**Le droit des réfugiés seul**", "Le droit diplomatique"]` ; `hm4-migrations-histoire` — « Qu'est-ce que le statut de réfugié ? » → « Une protection définie par la **convention de Genève de 1951** ».
 - **Problème** : le domaine apprend à l'apprenant, dans une notion, que la convention de Genève définit le statut de réfugié, puis lui présente cette même idée comme un distracteur dans une autre. Seul le mot « seul » rend le choix faux — c'est-à-dire le procédé de bricolage déjà signalé en session 1 (« Tours seule », « Zacatecas seul », « Les Bardi seuls »…), employé ici sur un contenu que le corpus a lui-même enseigné. La collision n'est pas une coïncidence : les conventions de 1949 (droit humanitaire) et celle de 1951 (réfugiés) portent réellement le même nom de ville.
 - **Correction proposée** : lever l'ambiguïté dans l'énoncé plutôt que dans le choix — « Que régissent les **quatre conventions de Genève de 1949** ? », et remplacer le distracteur par « Le droit de l'espace ». Ajouter dans l'explication : « À ne pas confondre avec la convention de Genève de 1951, qui définit le statut de réfugié. »
+- **Fait** : Question de `hm3-droit-international` précisée (« les quatre conventions de Genève de 1949 »), distracteur remplacé, note de distinction ajoutée.
 
 ### [GRAVE] (passe 2) Deux questions consécutives qui se donnent mutuellement la réponse : Cortés et Pizarro
 

@@ -1,5 +1,5 @@
 /**
- * Histoire du monde — treize notions sans cours.
+ * Histoire du monde — treize notions.
  *
  * Le cahier couvre les grandes civilisations et les grands conflits. Ces
  * notions descendent d'un cran : un empire précis, une révolution, une
@@ -272,7 +272,7 @@ export const CG_HISTOIRE_MONDE: SeedSkill[] = [
   ]),
 
   notion("hm-inde-independance", S, "L'Inde de Gandhi à la partition",
-    "Une indépendance obtenue sans guerre contre l'occupant, et payée par une partition qui déplace quinze millions de personnes.",
+    "Une indépendance obtenue sans guerre contre l'occupant, et payée par une partition qui déplace plus de dix millions de personnes.",
     "L'indépendance et la partition sont deux histoires parallèles, pas une seule : la méthode de Gandhi n'a pas empêché la seconde.",
     2, [
     ["Quel parti mène le mouvement pour l'indépendance indienne ?", ["Le Congrès national indien", "La Ligue musulmane", "Le Parti communiste indien", "Le Swaraj Party"], 0,
@@ -287,7 +287,7 @@ export const CG_HISTOIRE_MONDE: SeedSkill[] = [
      "Longtemps partisan de l'unité, il se convertit à l'idée du Pakistan dans les années 1940."],
     ["Quand l'Inde et le Pakistan deviennent-ils indépendants ?", ["En août 1947", "En 1945, à la fin de la guerre", "En 1950, à la Constitution", "En 1935"], 0,
      "La partition est décidée en quelques semaines, sur des frontières tracées par un juriste britannique arrivé sur place cinq semaines plus tôt."],
-    ["Quel est le bilan humain de la partition ?", ["Des centaines de milliers de morts et quinze millions de déplacés", "Quelques milliers de morts seulement", "Aucune violence notable de part et d'autre", "Deux millions de déplacés, surtout au Pendjab"], 0,
+    ["Quel est le bilan humain de la partition ?", ["Des centaines de milliers de morts et plus de dix millions de déplacés", "Quelques milliers de morts seulement", "Aucune violence notable de part et d'autre", "Deux millions de déplacés, surtout au Pendjab"], 0,
      "Les violences intercommunautaires accompagnent des échanges de population d'une ampleur sans précédent."],
     ["Qui devient le premier Premier ministre de l'Inde ?", ["Jawaharlal Nehru", "Sardar Patel, son ministre", "Rajendra Prasad, premier président", "Indira Gandhi, sa fille"], 0,
      "Il reste au pouvoir jusqu'à sa mort en 1964 et oriente l'Inde vers le non-alignement et la planification."],

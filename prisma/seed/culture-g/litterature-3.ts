@@ -1,5 +1,5 @@
 /**
- * Littérature, troisième lot — vingt notions sans cours.
+ * Littérature, troisième lot — dix-neuf notions, dont la plupart ont désormais un cours.
  */
 import { notion } from "./commun";
 import type { SeedSkill } from "../../../src/modules/types";
@@ -13,7 +13,7 @@ export const CG_LITTERATURE_3: SeedSkill[] = [
     2, [
     ["Que signifie le mot essai chez Montaigne ?", ["Une mise à l'épreuve de sa propre pensée", "Un exercice scolaire imposé aux élèves", "Une tentative littéraire restée sans suite", "Un traité méthodique et complet"], 0,
      "Il se peint lui-même comme sujet d'étude, ce qui était inédit."],
-    ["Quelle devise Montaigne fait-il graver dans sa librairie ?", ["Que sais-je ?", "Connais-toi toi-même", "Rien de trop", "Vis caché"], 0,
+    ["Quelle devise Montaigne fait-il frapper sur sa médaille ?", ["Que sais-je ?", "Connais-toi toi-même", "Rien de trop", "Vis caché"], 0,
      "Elle résume son scepticisme méthodique, hérité des philosophies antiques."],
     ["Quel ami de Montaigne écrit le Discours de la servitude volontaire ?", ["Étienne de La Boétie", "Pierre Charron", "Justus Lipsius", "Guillaume Du Vair, garde des sceaux"], 0,
      "Il y analyse pourquoi les peuples consentent à leur propre soumission."],
@@ -99,7 +99,7 @@ export const CG_LITTERATURE_3: SeedSkill[] = [
      "Son succès immédiat marque l'entrée du lyrisme romantique dans la poésie française."],
     ["Quel poème de Lamartine évoque un lac et le temps qui fuit ?", ["Le Lac", "L'Isolement", "Le Vallon", "L'Automne"], 0,
      "Ô temps, suspends ton vol : l'un des vers les plus cités de la poésie française."],
-    ["Quel poète romantique meurt jeune après une œuvre marquée par la douleur ?", ["Alfred de Musset", "Alfred de Vigny", "Gérard de Nerval", "Théophile Gautier"], 0,
+    ["Quel poète romantique écrit les Nuits après sa rupture avec George Sand ?", ["Alfred de Musset", "Alfred de Vigny", "Gérard de Nerval", "Théophile Gautier"], 0,
      "Ses Nuits, écrites après sa rupture avec George Sand, sont son œuvre la plus connue."],
     ["Quelle romancière signe Indiana et La Mare au diable ?", ["George Sand", "Madame de Staël", "Marceline Desbordes-Valmore", "Delphine de Girardin"], 0,
      "Elle a écrit plus de soixante-dix romans et défendu l'émancipation des femmes."],
@@ -127,8 +127,8 @@ export const CG_LITTERATURE_3: SeedSkill[] = [
      "Je est un autre : la formule a été indéfiniment commentée depuis."],
     ["Quel poète refuse la description et veut céder l'initiative aux mots ?", ["Stéphane Mallarmé", "Paul Verlaine", "Arthur Rimbaud", "Jules Laforgue, poète des Complaintes"], 0,
      "Peindre non la chose mais l'effet qu'elle produit, écrivait-il."],
-    ["Quel roman de Huysmans est le bréviaire de la décadence ?", ["À rebours", "Là-bas", "En rade", "Marthe"], 0,
-     "Son héros vit reclus dans un univers entièrement artificiel."],
+    ["Quel personnage de Huysmans se retire du monde parmi ses objets et ses parfums ?", ["Des Esseintes", "Durtal", "Folantin", "Léo"], 0,
+     "Aristocrate neurasthénique, des Esseintes organise sa vie autour de sensations rares, jusqu'à faire incruster de pierreries la carapace d'une tortue."],
     ["Quel dramaturge belge écrit Pelléas et Mélisande ?", ["Maurice Maeterlinck", "Émile Verhaeren", "Georges Rodenbach", "Charles Van Lerberghe"], 0,
      "Prix Nobel en 1911, il est l'un des rares dramaturges symbolistes joués durablement."],
     ["Quel roman de Villiers de L'Isle-Adam met en scène une créature artificielle ?", ["L'Ève future", "Axël", "Les Contes cruels", "Tribulat Bonhomet"], 0,
@@ -153,7 +153,7 @@ export const CG_LITTERATURE_3: SeedSkill[] = [
      "Rhinocéros, en 1959, met en scène la contagion des idéologies totalitaires."],
     ["Quelle pièce de Jean Genet met en scène deux domestiques ?", ["Les Bonnes", "Le Balcon", "Les Nègres", "Les Paravents"], 0,
      "Créée en 1947, elle repose sur un jeu de rôles vertigineux entre maîtresse et servantes."],
-    ["Quel metteur en scène allemand théorise le théâtre épique ?", ["Bertolt Brecht", "Max Reinhardt", "Erwin Piscator seul", "Peter Stein"], 0,
+    ["Quel metteur en scène allemand théorise le théâtre épique ?", ["Bertolt Brecht", "Max Reinhardt", "Erwin Piscator", "Peter Stein"], 0,
      "Il veut un spectateur critique plutôt qu'un spectateur ému."],
     ["Quelle troupe française fondée en 1964 pratique la création collective ?", ["Le Théâtre du Soleil", "La Comédie-Française", "Le Théâtre de la Ville", "Le Théâtre de l'Odéon"], 0,
      "Ariane Mnouchkine y a développé un fonctionnement coopératif durable."],
@@ -169,7 +169,7 @@ export const CG_LITTERATURE_3: SeedSkill[] = [
     2, [
     ["Quel écrivain français reçoit le prix Nobel de littérature en 2014 ?", ["Patrick Modiano", "Jean-Marie Gustave Le Clézio", "Michel Houellebecq", "Pierre Michon"], 0,
      "Le Clézio l'avait reçu en 2008."],
-    ["Quel thème traverse l'œuvre de Patrick Modiano ?", ["La mémoire trouée de l'Occupation et l'identité incertaine", "La vie provinciale", "L'aventure coloniale", "La satire sociale"], 0,
+    ["Quel thème traverse son œuvre ?", ["La mémoire trouée de l'Occupation et l'identité incertaine", "La vie provinciale", "L'aventure coloniale", "La satire sociale"], 0,
      "Ses romans mêlent enquête sur le passé et déambulation dans Paris."],
     ["Quel écrivain a écrit Les Bienveillantes en 2006 ?", ["Jonathan Littell", "Laurent Binet", "Yannick Haenel", "Pierre Assouline"], 0,
      "Le roman, écrit en français par un auteur américain, adopte le point de vue d'un officier SS."],
@@ -219,8 +219,8 @@ export const CG_LITTERATURE_3: SeedSkill[] = [
     "Albums, romans, questions éditoriales.",
     "La littérature de jeunesse est l'un des secteurs les plus dynamiques de l'édition française.",
     2, [
-    ["Quelle part du marché du livre la littérature de jeunesse représente-t-elle en France ?", ["Une part importante, autour d'un cinquième", "Une part marginale, moins d'un livre sur vingt", "La moitié", "Environ cinq pour cent du chiffre d'affaires"], 0,
-     "C'est l'un des rares segments dont les ventes résistent bien."],
+    ["Quelle part du marché du livre la littérature de jeunesse représente-t-elle en France ?", ["Une part importante, autour d'un septième du chiffre d'affaires", "Une part marginale, moins d'un livre sur vingt", "La moitié", "Environ cinq pour cent du chiffre d'affaires"], 0,
+     "C'est l'un des rares segments dont les ventes résistent bien, et son poids en nombre d'exemplaires vendus est plus élevé encore."],
     ["Qu'est-ce qu'un album jeunesse ?", ["Un livre où texte et image forment un récit indissociable", "Un livre illustré destiné aux enfants", "Un livre cartonné conçu pour les tout-petits", "Un recueil de contes accompagné d'illustrations en couleurs"], 0,
      "L'image n'y illustre pas le texte : elle raconte avec lui, parfois contre lui."],
     ["Quel album de Tomi Ungerer met en scène des brigands ?", ["Les Trois Brigands", "Jean de la Lune", "Otto, autobiographie d'un ours en peluche", "Le Géant de Zéralda"], 0,
@@ -251,8 +251,8 @@ export const CG_LITTERATURE_3: SeedSkill[] = [
      "Persepolis, publié à partir de 2000, a été adapté au cinéma en 2007."],
     ["Quelle série de Riad Sattouf raconte une enfance entre France et Syrie ?", ["L'Arabe du futur", "Les Cahiers d'Esther", "La Vie secrète des jeunes", "Pascal Brutal"], 0,
      "Six tomes, traduits dans une vingtaine de langues."],
-    ["Quel auteur américain a reçu le Pulitzer pour un récit sur la Shoah ?", ["Art Spiegelman", "Chris Ware", "Will Eisner", "Joe Sacco"], 0,
-     "Maus, achevé en 1991, a obtenu un prix spécial en 1992."],
+    ["En quelle année Art Spiegelman achève-t-il Maus, après treize ans de travail ?", ["1991", "1978", "1985", "1997"], 0,
+     "Commencé en 1978, achevé en 1991, le récit lui vaut un prix spécial du Pulitzer en 1992."],
     ["Quel auteur est considéré comme un pionnier du roman graphique américain ?", ["Will Eisner", "Jack Kirby", "Robert Crumb", "Harvey Kurtzman"], 0,
      "Un pacte avec Dieu, en 1978, popularise l'expression graphic novel."],
     ["Quel auteur pratique le reportage en bande dessinée ?", ["Joe Sacco", "Art Spiegelman", "Chris Ware", "Daniel Clowes"], 0,
@@ -307,7 +307,7 @@ export const CG_LITTERATURE_3: SeedSkill[] = [
      "Environ soixante mille distiques, composés sur trente ans autour de l'an mille."],
     ["Quelle forme poétique japonaise compte dix-sept syllabes ?", ["Le haïku", "Le tanka", "Le renga", "Le waka"], 0,
      "Le tanka en compte trente et une, réparties en cinq segments."],
-    ["Quel poète japonais du XVIIe siècle a porté le haïku à sa maturité ?", ["Matsuo Bashō", "Yosa Buson", "Kobayashi Issa", "Masaoka Shiki"], 0,
+    ["Quel poète japonais du XVIIe siècle a fait de cette forme brève un art, avec La Sente étroite du Bout-du-Monde ?", ["Matsuo Bashō", "Yosa Buson", "Kobayashi Issa", "Masaoka Shiki"], 0,
      "Son journal de voyage La Sente étroite du Bout-du-Monde mêle prose et haïkus."],
     ["Quel roman chinois du XVIIIe siècle décrit le déclin d'une grande famille ?", ["Le Rêve dans le pavillon rouge", "Au bord de l'eau", "Les Trois Royaumes", "La Pérégrination vers l'Ouest"], 0,
      "Il est l'objet d'un champ d'études universitaire à part entière en Chine."],
@@ -324,7 +324,7 @@ export const CG_LITTERATURE_3: SeedSkill[] = [
     "Dante a largement fixé la langue italienne écrite en choisissant le toscan.",
     2, [
     ["De combien de parties la Divine Comédie est-elle composée ?", ["Trois", "Deux", "Quatre", "Cinq"], 0,
-     "Enfer, Purgatoire, Paradis, chacune de trente-trois chants plus un prologue."],
+     "Enfer, Purgatoire, Paradis : cent chants au total, l'Enfer en comptant trente-quatre avec le chant d'introduction, les deux autres trente-trois."],
     ["Qui guide Dante dans l'Enfer et le Purgatoire ?", ["Virgile", "Béatrice", "Saint Bernard", "Homère"], 0,
      "Béatrice le guide au Paradis, où Virgile, païen, ne peut le suivre."],
     ["Quel poète italien du XIVe siècle a donné son nom à une forme de sonnet ?", ["Pétrarque", "Dante", "Boccace", "Politien"], 0,
@@ -405,7 +405,7 @@ export const CG_LITTERATURE_3: SeedSkill[] = [
      "Il estime que le poète traite les mots comme des choses et non comme des signes. De nombreux poètes ont contesté cette exclusion."],
     ["Quel poème d'Aragon devient un chant de résistance ?", ["La Rose et le Réséda", "Les Yeux d'Elsa", "Le Crève-cœur", "Le Musée Grévin"], 0,
      "Celui qui croyait au ciel, celui qui n'y croyait pas : il unit résistants chrétiens et communistes."],
-    ["Quel recueil clandestin réunit des textes de résistance en 1943 ?", ["L'Honneur des poètes", "Les Éditions de Minuit clandestines seules", "Le Silence de la mer", "Le Cahier noir"], 0,
+    ["Quel recueil clandestin réunit des textes de résistance en 1943 ?", ["L'Honneur des poètes", "Domaine français", "Le Silence de la mer", "Le Cahier noir"], 0,
      "Publié aux Éditions de Minuit clandestines, il rassemblait des poèmes sous pseudonymes."],
     ["Quel récit de Vercors paraît clandestinement en 1942 ?", ["Le Silence de la mer", "La Marche à l'étoile", "Les Armes de la nuit", "Le Sable du temps"], 0,
      "Il met en scène la résistance passive d'une famille face à un officier allemand cultivé."],

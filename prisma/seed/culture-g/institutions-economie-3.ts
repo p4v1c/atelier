@@ -1,5 +1,5 @@
 /**
- * Institutions & Économie, troisième lot — vingt notions sans cours.
+ * Institutions & Économie, troisième lot — dix-neuf notions, dont seize avec cours.
  */
 import { notion } from "./commun";
 import type { SeedSkill } from "../../../src/modules/types";
@@ -74,7 +74,7 @@ export const CG_INSTITUTIONS_ECONOMIE_3: SeedSkill[] = [
     ["Qu'est-ce que la TVA à taux réduit ?", ["Un taux inférieur applicable à certains biens et services", "Une exonération partielle laissée au choix du vendeur", "Un taux fixé par chaque région selon ses besoins de financement", "Un taux réservé aux entreprises réalisant un faible chiffre d'affaires"], 0,
      "Alimentation, livres et travaux de rénovation en bénéficient selon des taux différenciés."],
     ["Qu'est-ce qu'un impôt proportionnel ?", ["Un impôt dont le taux est identique quel que soit le montant imposé", "Un impôt dont le taux croît avec le montant imposé", "Un impôt d'un montant fixe, dû par chacun quel que soit son revenu", "Un impôt dont le taux décroît à mesure que la base imposable augmente"], 0,
-     "La TVA est proportionnelle, mais son effet est régressif rapporté au revenu."],
+     "Un même taux frappe donc tous les contribuables, quel que soit leur revenu."],
     ["Pourquoi la TVA est-elle jugée régressive ?", ["Elle pèse davantage sur les ménages modestes rapportée à leur revenu", "Son taux augmente avec le revenu déclaré de l'acheteur", "Elle exonère les hauts revenus au-delà d'un certain seuil d'achat", "Elle ne s'applique qu'aux biens de première nécessité et aux logements"], 0,
      "Les ménages modestes consomment une plus grande part de leur revenu."],
     ["Qu'est-ce que la taxe foncière ?", ["Un impôt local dû par les propriétaires de biens immobiliers", "Un impôt national assis sur les revenus tirés de la location", "Une taxe perçue lors de chaque transaction immobilière", "Un impôt sur l'ensemble du patrimoine, mobilier et immobilier"], 0,
@@ -94,7 +94,7 @@ export const CG_INSTITUTIONS_ECONOMIE_3: SeedSkill[] = [
     ["Qu'est-ce que l'obligation d'information précontractuelle ?", ["Le devoir d'informer le consommateur des caractéristiques essentielles avant l'achat", "Une publicité obligatoire affichant le prix et l'origine du produit", "Un devoir de conseil que le vendeur doit exercer après la livraison", "Une notice technique remise avec le bien, détaillant son fonctionnement et son entretien"], 0,
      "Son manquement peut entraîner la nullité du contrat ou des sanctions administratives."],
     ["Qu'est-ce qu'un délai de réflexion, par rapport à un délai de rétractation ?", ["Le délai de réflexion précède la signature, la rétractation la suit", "Ce sont deux termes équivalents, employés selon le type de contrat", "Le délai de réflexion suit la livraison et la rétractation la précède", "La rétractation précède l'engagement, la réflexion intervient ensuite"], 0,
-     "Le crédit immobilier impose ainsi un délai de réflexion de dix jours."],
+     "Pour le crédit immobilier, l'offre ne peut être acceptée qu'à partir du onzième jour suivant sa réception, soit dix jours pleins de réflexion."],
     ["Qu'est-ce que le démarchage téléphonique en France ?", ["Une pratique encadrée par des horaires et un registre d'opposition", "Une pratique interdite depuis la loi sur la consommation", "Une pratique entièrement libre, sans contrainte d'horaire ni de jour", "Une pratique réservée aux seuls secteurs de l'énergie et de l'assurance"], 0,
      "Le dispositif Bloctel permet de s'y opposer, avec une efficacité inégale."],
     ["Dans quel délai faut-il agir après la découverte d'un vice caché ?", ["Deux ans à compter de la découverte du défaut", "Un mois à compter de l'achat, délai porté à trois mois pour l'occasion", "Six mois à compter de la livraison effective du bien", "Dix ans à compter de la vente, comme en matière de construction"], 0,
@@ -115,8 +115,8 @@ export const CG_INSTITUTIONS_ECONOMIE_3: SeedSkill[] = [
     "Formes d'emploi, organisation, santé au travail.",
     "Les formes d'emploi se sont fortement diversifiées depuis les années 1980.",
     2, [
-    ["Qu'est-ce qu'un contrat à durée déterminée ?", ["Un contrat conclu pour une durée limitée et un motif prévu par la loi", "Un contrat renouvelable librement, sans limite de durée totale", "Un contrat sans terme précis, que l'employeur peut rompre à tout moment", "Un contrat réservé aux seuls emplois saisonniers de l'agriculture"], 0,
-     "Remplacement, accroissement temporaire d'activité et emploi saisonnier en sont les motifs principaux."],
+    ["Que risque un employeur qui use abusivement du contrat à durée déterminée ?", ["La requalification du contrat en contrat à durée indéterminée par le juge", "Une amende forfaitaire versée directement au salarié", "La nullité rétroactive de tous les contrats de l'entreprise", "Une interdiction temporaire d'embaucher prononcée par l'inspection du travail"], 0,
+     "Le conseil de prud'hommes peut requalifier le contrat dès lors qu'il ne repose pas sur l'un des motifs prévus par la loi — remplacement, accroissement temporaire d'activité, emploi saisonnier."],
     ["Qu'est-ce que l'intérim ?", ["Une mise à disposition d'un salarié par une agence auprès d'une entreprise", "Un contrat court conclu directement entre le salarié et l'entreprise", "Un emploi saisonnier proposé par le service public de l'emploi", "Un contrat de mission conclu directement par un travailleur indépendant avec son client"], 0,
      "La relation est triangulaire : l'agence est l'employeur, l'entreprise l'utilisateur."],
     ["Qu'est-ce que le travail à temps partiel subi ?", ["Un temps partiel imposé faute d'emploi à temps plein", "Un temps partiel choisi par le salarié pour convenance personnelle", "Un temps partiel thérapeutique prescrit après un arrêt maladie", "Un temps partiel accordé en fin de carrière avant le départ en retraite"], 0,
@@ -161,14 +161,16 @@ export const CG_INSTITUTIONS_ECONOMIE_3: SeedSkill[] = [
      "Depuis 2023, il peut sous conditions générer de nouveaux droits à retraite."],
     ["Qu'est-ce que la retraite progressive ?", ["Un dispositif permettant de réduire son activité en percevant une partie de sa pension", "Un départ échelonné sur plusieurs années par tranches successives", "Un cumul emploi-retraite permettant de travailler après la liquidation", "Une préretraite financée par l'employeur jusqu'à l'âge légal du départ, sans aucune activité"], 0,
      "Elle permet de continuer à cotiser sur l'activité maintenue.", 3],
+    ["À quel âge légal de départ la réforme des retraites de 2023 porte-t-elle progressivement l'âge de départ ?", ["Soixante-quatre ans", "Soixante-deux ans", "Soixante-cinq ans", "Soixante-sept ans"], 0,
+     "La loi du 14 avril 2023 relève l'âge légal de soixante-deux à soixante-quatre ans et la durée de cotisation requise à quarante-trois ans ; la loi de financement de la Sécurité sociale pour 2026 a toutefois gelé cette montée en charge à partir de septembre 2026. L'âge d'annulation de la décote reste fixé à soixante-sept ans."],
   ]),
 
   notion("ie3-banque-credit", S, "Banque et crédit",
     "Métiers bancaires, crédit, régulation.",
     "Une banque commerciale crée de la monnaie en accordant un crédit.",
     2, [
-    ["Que signifie la formule les crédits font les dépôts ?", ["La monnaie est créée par l'octroi du crédit, non par la collecte préalable d'épargne", "Les banques ne prêtent que l'argent préalablement déposé sur les comptes de leurs clients", "Chaque crédit accordé est garanti par un montant équivalent de dépôts", "Les encours de crédits et de dépôts sont toujours strictement égaux"], 0,
-     "Le remboursement du crédit détruit symétriquement cette monnaie."],
+    ["Qu'est-ce qui limite la création monétaire par les banques commerciales ?", ["Les exigences réglementaires de fonds propres et de liquidité", "Le montant des dépôts collectés au préalable", "Le stock de billets que la banque centrale met en circulation", "La quantité d'or détenue en réserve par la banque"], 0,
+     "Une banque ne prête pas l'épargne qu'elle détient : c'est le crédit qui crée le dépôt, mais la solvabilité de la banque et les ratios prudentiels bornent combien elle peut en créer."],
     ["Qu'est-ce que le taux directeur d'une banque centrale ?", ["Le taux auquel les banques se refinancent auprès d'elle", "Le taux que les banques appliquent aux crédits des particuliers", "Le taux d'inflation que la banque centrale s'est fixé pour cible", "Le taux servi sur les livrets d'épargne réglementée"], 0,
      "Il se répercute progressivement sur l'ensemble des taux de l'économie."],
     ["Qu'est-ce que le taux d'usure en France ?", ["Un taux maximal légal au-delà duquel un prêt est illégal", "Le taux moyen pratiqué sur le marché par les établissements", "Le taux plafond que la banque centrale impose à son refinancement", "Le taux unique applicable à tous les crédits à la consommation"], 0,
@@ -357,7 +359,7 @@ export const CG_INSTITUTIONS_ECONOMIE_3: SeedSkill[] = [
      "Elle produit des statistiques et des comparaisons internationales très utilisées."],
     ["Qu'est-ce que le G7 ?", ["Un forum informel réunissant sept grandes économies avancées", "Une organisation internationale dotée d'un secrétariat permanent", "Un conseil de sécurité économique adossé aux Nations unies", "Un groupe de négociation des accords commerciaux entre États"], 0,
      "Il n'a aucun pouvoir contraignant mais une forte capacité d'orientation."],
-    ["Qu'est-ce que le G20 ?", ["Un forum réunissant vingt économies majeures, avancées et émergentes", "Une organisation permanente dotée d'un traité fondateur et d'un siège propre", "Un groupe rassemblant les pays du Sud face aux pays riches", "Un conseil monétaire fixant les grandes parités de change"], 0,
+    ["Qu'est-ce que le G20 ?", ["Un forum réunissant dix-neuf pays, l'Union européenne et l'Union africaine", "Une organisation permanente dotée d'un traité fondateur et d'un siège propre", "Un groupe rassemblant les pays du Sud face aux pays riches", "Un conseil monétaire fixant les grandes parités de change"], 0,
      "Son rôle s'est renforcé après la crise financière de 2008."],
     ["Qu'est-ce qu'un plan d'ajustement structurel ?", ["Un ensemble de réformes exigées en contrepartie d'un prêt du FMI", "Un plan de relance financé par un prêt du Fonds monétaire", "Un programme d'aide au développement financé par les pays riches", "Un rééchelonnement de la dette négocié avec les créanciers publics"], 0,
      "Appliqués massivement dans les années 1980 et 1990, ils ont fait l'objet de vives critiques."],
@@ -406,7 +408,7 @@ export const CG_INSTITUTIONS_ECONOMIE_3: SeedSkill[] = [
     ["Qu'est-ce que le niveau de vie médian ?", ["Le niveau séparant la population en deux moitiés égales", "Le revenu moyen de l'ensemble des ménages", "Le salaire médian des seuls salariés du privé", "Le revenu disponible moyen une fois impôts et prestations pris en compte"], 0,
      "Il est nettement inférieur au revenu moyen, tiré vers le haut par les hauts revenus."],
     ["Qu'est-ce que le taux de pauvreté en France ?", ["La part de la population sous soixante pour cent du niveau de vie médian", "La part de la population privée d'emploi", "La part des salariés dont la rémunération est inférieure au salaire minimum", "La part des ménages percevant le revenu de solidarité active"], 0,
-     "Il concerne environ quatorze pour cent de la population."],
+     "Il s'établit à quinze virgule quatre pour cent de la population en 2024, soit près de dix millions de personnes — le niveau le plus élevé depuis le début de la série en 1996."],
     ["Quel groupe est le plus touché par la pauvreté en France ?", ["Les familles monoparentales et les jeunes", "Les retraités vivant seuls", "Les salariés employés à temps plein toute l'année", "Les travailleurs indépendants et les artisans"], 0,
      "Le taux de pauvreté des familles monoparentales dépasse largement la moyenne nationale."],
     ["Qu'est-ce que la redistribution en France ?", ["L'effet combiné des prélèvements et des prestations sur les inégalités", "Les seules aides sociales que l'État verse aux ménages les plus modestes", "Le seul système fiscal, à l'exclusion des prestations", "Les transferts d'argent entre ménages d'une même famille"], 0,
@@ -420,15 +422,15 @@ export const CG_INSTITUTIONS_ECONOMIE_3: SeedSkill[] = [
     ["Qu'est-ce que le plafond de verre ?", ["Un obstacle invisible limitant l'accès des femmes aux postes de direction", "Une limite salariale au-delà de laquelle toute progression cesse", "Une barrière de diplôme qui interdit l'accès à certains métiers d'encadrement", "Un seuil de promotion fixé par les conventions collectives"], 0,
      "Des quotas ont été instaurés en France pour les conseils d'administration des grandes entreprises."],
     ["Qu'est-ce que l'index de l'égalité professionnelle ?", ["Une note obligatoire mesurant les écarts entre femmes et hommes en entreprise", "Un label facultatif que les entreprises peuvent demander", "Un indicateur statistique national que l'Insee publie chaque année pour l'ensemble du pays", "Un classement des employeurs établi par le ministère du Travail"], 0,
-     "Il est obligatoire pour les entreprises d'au moins cinquante salariés depuis 2019.", 3],
+     "Il est obligatoire depuis 2019 pour les entreprises de plus de deux cent cinquante salariés, et depuis 2020 pour celles d'au moins cinquante.", 3],
   ]),
 
   notion("ie3-transition-economie", S, "Économie et transition écologique",
     "Coûts, instruments, arbitrages.",
     "La transition écologique est autant un problème d'investissement que de contrainte.",
     2, [
-    ["Qu'est-ce qu'une externalité environnementale négative ?", ["Un coût environnemental non pris en compte dans le prix", "Une pollution industrielle constatée aux abords d'une usine", "Une taxe environnementale acquittée par le pollueur", "Un dommage écologique déjà réparé par son auteur"], 0,
-     "La tarification carbone vise précisément à l'internaliser."],
+    ["Comment une politique publique peut-elle internaliser une externalité environnementale négative ?", ["En intégrant son coût dans le prix, par une taxe ou un marché de quotas", "En interdisant purement et simplement l'activité polluante", "En subventionnant les entreprises qui la produisent", "En laissant le marché fixer seul le prix du dommage"], 0,
+     "La taxe carbone et les quotas d'émission échangeables sont les deux grands instruments de cette internalisation ; à défaut, le coût reste supporté par des tiers sans compensation."],
     ["Qu'est-ce qu'une taxe carbone ?", ["Un prix mis sur les émissions de gaz à effet de serre", "Une taxe portant sur les seuls carburants routiers", "Une taxe assise sur le chiffre d'affaires des entreprises polluantes", "Un droit de douane environnemental sur les produits importés"], 0,
      "Son acceptabilité dépend fortement de l'usage fait des recettes."],
     ["Qu'est-ce qu'un marché de quotas d'émission ?", ["Un système plafonnant les émissions et permettant d'échanger des droits", "Une taxe négociable entre les entreprises relevant d'un même secteur industriel", "Un système de compensation par plantation d'arbres", "Un marché volontaire où chacun échange ce qu'il souhaite"], 0,
@@ -451,7 +453,7 @@ export const CG_INSTITUTIONS_ECONOMIE_3: SeedSkill[] = [
     "Engagement, démocratie participative, contre-pouvoirs.",
     "Le tissu associatif français se compte en centaines de milliers d'emplois et en millions de bénévoles.",
     2, [
-    ["Combien d'associations actives compte-t-on en France ?", ["Plus d'un million et demi", "Environ cent mille seulement", "Un peu moins de cinq cent mille", "Environ cinq millions"], 0,
+    ["Combien d'associations actives compte-t-on en France ?", ["Environ un million et demi", "Environ cent mille seulement", "Un peu moins de cinq cent mille", "Environ cinq millions"], 0,
      "Environ un cinquième d'entre elles emploient des salariés."],
     ["Combien de bénévoles la France compte-t-elle environ ?", ["Plus de vingt millions", "Environ deux millions", "Environ cinquante millions", "Environ cinq millions"], 0,
      "L'engagement bénévole ponctuel progresse au détriment de l'engagement régulier."],
@@ -485,7 +487,7 @@ export const CG_INSTITUTIONS_ECONOMIE_3: SeedSkill[] = [
      "Le refus de la sauver a rompu l'anticipation d'un soutien public systématique."],
     ["Qu'est-ce que la crise de la dette souveraine européenne ?", ["Une crise de confiance sur la dette de plusieurs États de la zone euro à partir de 2010", "Une crise bancaire née en 2010 de la faillite de plusieurs grands établissements européens", "Une crise de change ayant fait chuter l'euro face au dollar en 2010", "Une crise budgétaire propre à la France, dont la note a été dégradée"], 0,
      "Elle a conduit à créer le Mécanisme européen de stabilité."],
-    ["Qu'est-ce que la formule prononcée par Mario Draghi en 2012 ?", ["Faire tout ce qu'il faudra pour préserver l'euro", "Sauver les banques européennes à n'importe quel prix", "Réduire les déficits publics nationaux coûte que coûte", "Racheter sans limite la dette grecque"], 0,
+    ["Quelle formule reste associée à Mario Draghi depuis 2012 ?", ["Faire tout ce qu'il faudra pour préserver l'euro", "Sauver les banques européennes à n'importe quel prix", "Réduire les déficits publics nationaux coûte que coûte", "Racheter sans limite la dette grecque"], 0,
      "Cette seule déclaration a suffi à calmer durablement les marchés."],
     ["Pourquoi la réponse à la crise de 2020 a-t-elle relevé de l'assurance plutôt que de la relance ?", ["Il fallait maintenir les revenus pendant un arrêt imposé, non stimuler la demande", "Parce que les taux d'intérêt étaient alors trop élevés pour que l'État puisse emprunter", "Parce que l'État ne disposait plus d'aucune marge budgétaire pour agir", "Parce que la demande des ménages était alors déjà jugée nettement excédentaire"], 0,
      "Relancer la consommation pendant un confinement n'aurait servi à rien : l'offre elle-même était à l'arrêt."],

@@ -1,5 +1,5 @@
 /**
- * Histoire du monde, deuxième lot — vingt notions sans cours.
+ * Histoire du monde, deuxième lot — vingt et une notions.
  */
 import { notion } from "./commun";
 import type { SeedSkill } from "../../../src/modules/types";
@@ -11,8 +11,8 @@ export const CG_HISTOIRE_MONDE_2: SeedSkill[] = [
     "Entre le Tigre et l'Euphrate : les premières cités, la première écriture, les premiers codes de lois.",
     "Ces quatre puissances se succèdent sur le même territoire, pas côte à côte : c'est un ordre chronologique, pas une carte.",
     2, [
-    ["Quelle civilisation invente l'écriture cunéiforme vers 3300 avant notre ère ?", ["Les Sumériens", "Les Akkadiens", "Les Assyriens", "Les Hittites"], 0,
-     "D'abord pour la comptabilité des temples, avant de servir aux récits et aux lois."],
+    ["Pourquoi l'écriture cunéiforme est-elle inventée en Mésopotamie vers 3300 avant notre ère ?", ["Pour tenir la comptabilité des temples", "Pour rédiger des poèmes religieux", "Pour signer des traités entre cités", "Pour graver des lois sur la pierre"], 0,
+     "Les premières tablettes sont des listes de rations et de stocks ; le récit et la loi viennent ensuite."],
     ["Quel roi de Babylone fait graver un code de lois vers 1750 avant notre ère ?", ["Hammurabi", "Nabuchodonosor II", "Sargon d'Akkad", "Assurbanipal"], 0,
      "La stèle, conservée au Louvre, compte près de trois cents articles fondés sur la loi du talion."],
     ["Quel souverain fonde le premier empire connu, vers 2300 avant notre ère ?", ["Sargon d'Akkad", "Hammurabi de Babylone", "Gilgamesh, roi d'Uruk", "Ur-Nammu, roi d'Ur"], 0,
@@ -89,8 +89,6 @@ export const CG_HISTOIRE_MONDE_2: SeedSkill[] = [
     "Douze ans de conquêtes, trois siècles de royaumes grecs de l'Égypte à l'Inde.",
     "L'empire d'Alexandre se disloque à sa mort, mais la culture grecque reste dominante jusqu'à Rome.",
     2, [
-    ["Qui fut le précepteur d'Alexandre le Grand ?", ["Aristote", "Platon", "Isocrate", "Diogène"], 0,
-     "Philippe II l'avait fait venir en Macédoine pour former son fils entre treize et seize ans."],
     ["Quelle bataille de 331 avant notre ère ouvre la Perse à Alexandre ?", ["Gaugamèles", "Issos", "Le Granique", "L'Hydaspe"], 0,
      "Darius III y est mis en déroute malgré une nette supériorité numérique."],
     ["À quel âge Alexandre meurt-il ?", ["Trente-deux ans", "Quarante ans", "Vingt-cinq ans", "Quarante-cinq ans"], 0,
@@ -192,7 +190,7 @@ export const CG_HISTOIRE_MONDE_2: SeedSkill[] = [
     ["Quelle dynastie marque un âge d'or classique indien du IVe au VIe siècle ?", ["Les Gupta", "Les Maurya", "Les Chola", "Les Moghols"], 0,
      "Mathématiques, astronomie et littérature sanskrite y connaissent un essor durable."],
     ["Quel mathématicien indien du Ve siècle calcule une valeur précise de pi ?", ["Aryabhata", "Brahmagupta", "Bhaskara", "Madhava"], 0,
-     "Brahmagupta, au VIIe siècle, sera le premier à traiter le zéro comme un nombre à part entière."],
+     "Sa valeur, exacte à quatre décimales, accompagne d'autres intuitions remarquables : il proposait déjà que la Terre tourne sur elle-même."],
     ["Quel empire musulman domine l'Inde du XVIe au XVIIIe siècle ?", ["L'Empire moghol", "Le sultanat de Delhi", "L'Empire marathe", "Le sultanat du Bengale"], 0,
      "Fondé par Babur en 1526, il atteint son apogée sous Akbar puis Shah Jahan."],
     ["Quel empereur moghol fait construire le Taj Mahal ?", ["Shah Jahan", "Akbar, son grand-père", "Aurangzeb, son fils", "Babur, le fondateur"], 0,
@@ -219,7 +217,7 @@ export const CG_HISTOIRE_MONDE_2: SeedSkill[] = [
      "Renversés en 750, un rescapé fonde un émirat indépendant en Espagne."],
     ["En quelle année les armées musulmanes franchissent-elles le détroit de Gibraltar ?", ["711", "622", "800", "756"], 0,
      "Le royaume wisigoth d'Espagne s'effondre en quelques années."],
-    ["Quelle bataille de 732 arrête une incursion arabe en Gaule ?", ["Poitiers", "Tours seule", "Narbonne", "Toulouse"], 0,
+    ["Quelle bataille de 732 arrête une incursion arabe en Gaule ?", ["Poitiers", "Autun", "Narbonne", "Toulouse"], 0,
      "Charles Martel y commande les Francs. La portée de la bataille a été fortement amplifiée par l'historiographie ultérieure."],
     ["Quelle bataille de 751 fixe la frontière entre mondes chinois et musulman en Asie centrale ?", ["Talas", "Qadisiyya", "Manzikert", "Ankara"], 0,
      "Selon la tradition, des prisonniers chinois y auraient transmis le secret du papier au monde musulman."],
@@ -243,7 +241,7 @@ export const CG_HISTOIRE_MONDE_2: SeedSkill[] = [
      "Italie, Afrique du Nord et sud de l'Espagne. Les conquêtes ne survivront pas longtemps à son règne."],
     ["Quel recueil juridique Justinien fait-il compiler ?", ["Le Corpus juris civilis", "Le Code théodosien, un siècle plus tôt", "Les Basiliques, plus tardives", "Le seul Digeste des juristes"], 0,
      "Redécouvert en Occident au XIe siècle, il fonde la tradition du droit civil européen."],
-    ["Quelle église Justinien fait-il construire à Constantinople ?", ["Sainte-Sophie", "Saint-Sauveur-in-Chora", "Les Saints-Apôtres seule", "Sainte-Irène"], 0,
+    ["Quelle église Justinien fait-il construire à Constantinople ?", ["Sainte-Sophie", "Saint-Sauveur-in-Chora", "Le palais des Blachernes", "Sainte-Irène"], 0,
      "Sa coupole de trente et un mètres resta longtemps un record technique."],
     ["Qu'est-ce que le feu grégeois ?", ["Une arme incendiaire byzantine dont la composition reste inconnue", "Un signal de guerre transmis par des tours à feu", "Un explosif à base de soufre et de salpêtre", "Une flèche enflammée tirée des remparts"], 0,
      "Il brûlait sur l'eau et fut décisif dans plusieurs sièges navals de Constantinople."],
@@ -320,7 +318,7 @@ export const CG_HISTOIRE_MONDE_2: SeedSkill[] = [
     ["Que bouleverse l'ouverture de la route maritime vers l'Inde en 1498 ?", ["Le commerce des épices, jusque-là aux mains d'intermédiaires", "Le commerce de l'or venu d'Afrique de l'Ouest", "Le trafic de la soie chinoise par la route terrestre", "Le commerce du sel des caravanes sahariennes"], 0,
      "Venise et les marchands du Levant perdent leur position dominante en quelques décennies."],
     ["Quelle expédition réalise le premier tour du monde entre 1519 et 1522 ?", ["Celle de Magellan, achevée par Elcano", "Celle de Colomb, en 1492", "Celle de Drake, un demi-siècle plus tard", "Celle de Cabral, vers le Brésil"], 0,
-     "Magellan fut tué aux Philippines ; dix-huit hommes sur environ deux cent cinquante rentrèrent."],
+     "Magellan fut tué aux Philippines ; dix-huit hommes sur environ deux cent soixante-dix rentrèrent."],
     ["Qui donne son nom au continent américain ?", ["Amerigo Vespucci", "Christophe Colomb", "Juan de la Cosa", "Martin Waldseemüller"], 0,
      "Le cartographe Waldseemüller le baptisa ainsi en 1507, Vespucci ayant compris qu'il s'agissait d'un continent nouveau."],
     ["Qu'appelle-t-on l'échange colombien ?", ["Le transfert de plantes, animaux et maladies entre l'Ancien et le Nouveau Monde", "Le commerce de l'argent américain vers l'Europe", "Le troc pratiqué avec les peuples amérindiens du littoral", "Le partage des colonies entre les puissances européennes"], 0,
@@ -337,7 +335,7 @@ export const CG_HISTOIRE_MONDE_2: SeedSkill[] = [
     2, [
     ["Quel principe la paix d'Augsbourg établit-elle en 1555 ?", ["La religion du prince détermine celle de ses sujets", "La liberté de conscience individuelle pour tous les sujets", "L'égalité de tous les cultes dans l'Empire", "La séparation des Églises et de l'État dans chaque principauté"], 0,
      "Formulé plus tard sous l'expression cujus regio, ejus religio. Le calvinisme n'y était pas inclus."],
-    ["Quel invention favorise la diffusion rapide des idées de la Réforme ?", ["L'imprimerie", "Le papier", "Le courrier régulier", "La gravure sur bois seule"], 0,
+    ["Quelle invention favorise la diffusion rapide des idées de la Réforme ?", ["L'imprimerie", "Le papier", "Le courrier régulier", "La gravure sur bois seule"], 0,
      "Les écrits de Luther se diffusèrent à des centaines de milliers d'exemplaires en quelques années."],
     ["Quel roi d'Angleterre rompt avec Rome en 1534 ?", ["Henri VIII", "Édouard VI", "Jacques Ier", "Richard III"], 0,
      "Le refus d'annuler son mariage déclenche la rupture ; l'Acte de Suprématie le fait chef de l'Église d'Angleterre."],
@@ -387,8 +385,8 @@ export const CG_HISTOIRE_MONDE_2: SeedSkill[] = [
     2, [
     ["Quelle conférence de 1884-1885 organise le partage de l'Afrique ?", ["La conférence de Berlin", "Le congrès de Vienne", "La conférence d'Algésiras", "Le congrès de Berlin de 1878"], 0,
      "Aucun Africain n'y était représenté. Elle fixe la règle de l'occupation effective."],
-    ["Quel pays africain reste indépendant lors du partage colonial ?", ["L'Éthiopie", "Le Maroc", "Le Liberia seul", "Le Soudan"], 0,
-     "Elle repousse l'invasion italienne à Adoua en 1896. Le Liberia conserve aussi une indépendance formelle."],
+    ["Quel pays africain reste indépendant lors du partage colonial ?", ["L'Éthiopie", "Le Maroc", "L'Égypte", "Le Soudan"], 0,
+     "Elle repousse une invasion italienne à la fin du XIXe siècle. Le Liberia conserve aussi une indépendance formelle."],
     ["Quelle bataille de 1896 voit une armée africaine battre une puissance européenne ?", ["Adoua", "Isandhlwana", "Omdurman", "Rorke's Drift"], 0,
      "L'Éthiopie de Ménélik II y écrase l'armée italienne, ce qui eut un retentissement mondial."],
     ["Quel incident de 1898 oppose la France et le Royaume-Uni au Soudan ?", ["Fachoda", "Agadir", "Tanger", "Ouadi Halfa"], 0,
@@ -462,7 +460,7 @@ export const CG_HISTOIRE_MONDE_2: SeedSkill[] = [
     "Les indépendances latino-américaines sont presque toutes acquises entre 1810 et 1825.",
     2, [
     ["Quelle civilisation précolombienne développe une écriture complète en Mésoamérique ?", ["Les Mayas", "Les Aztèques", "Les Incas", "Les Olmèques"], 0,
-     "Leur système glyphique n'a été largement déchiffré qu'à partir des années 1950."],
+     "Les percées dans le déchiffrement de leur système glyphique commencent dans les années 1950, et le travail est pour l'essentiel achevé dans les années 1980."],
     ["Quel système les Incas utilisaient-ils pour enregistrer des informations ?", ["Le quipu, un jeu de cordelettes nouées", "Un alphabet gravé sur des tablettes de bois", "Des tablettes d'argile gravées au calame", "Des pictogrammes peints sur des tissus"], 0,
      "Il notait au moins des données numériques ; l'hypothèse d'un contenu narratif reste débattue."],
     ["Quelle cité inca perchée dans les Andes est redécouverte en 1911 ?", ["Machu Picchu", "Cusco", "Ollantaytambo", "Tiwanaku"], 0,
@@ -519,7 +517,7 @@ export const CG_HISTOIRE_MONDE_2: SeedSkill[] = [
      "Il est détruit par une expédition marocaine en 1591, équipée d'armes à feu."],
     ["Quel commerce transsaharien reliait l'Afrique de l'Ouest à la Méditerranée ?", ["Le commerce de l'or et du sel", "Le commerce des épices", "Le commerce du bois", "Le commerce du cuivre seul"], 0,
      "L'or venait du sud, le sel des mines sahariennes. Les esclaves étaient aussi une marchandise de ces routes."],
-    ["Quel royaume d'Afrique australe est associé à un vaste site de pierres sèches ?", ["Le Grand Zimbabwe", "Le royaume du Kongo", "Le royaume du Monomotapa seul", "Le royaume zoulou"], 0,
+    ["Quel royaume d'Afrique australe est associé à un vaste site de pierres sèches ?", ["Le Grand Zimbabwe", "Le royaume du Kongo", "Le royaume du Monomotapa", "Le royaume zoulou"], 0,
      "Ses murailles ont longtemps été attribuées à tort à des bâtisseurs étrangers par les archéologues coloniaux."],
     ["Quel royaume chrétien se maintient en Afrique de l'Est depuis l'Antiquité ?", ["L'Éthiopie", "La Nubie", "Le Kongo", "Le Buganda"], 0,
      "Le royaume d'Aksoum se convertit au IVe siècle. Les églises de Lalibela datent du XIIIe siècle."],
@@ -527,7 +525,7 @@ export const CG_HISTOIRE_MONDE_2: SeedSkill[] = [
      "Le commerce de l'océan Indien y reliait l'Afrique, l'Arabie, l'Inde et la Chine."],
     ["Quel royaume africain est célèbre pour ses bronzes du XVIe siècle ?", ["Le royaume du Bénin", "Le royaume ashanti", "Le royaume du Dahomey", "Le royaume du Kongo"], 0,
      "Ces plaques, pillées lors de l'expédition britannique de 1897, font l'objet de demandes de restitution."],
-    ["Quel royaume africain envoie des ambassadeurs au Vatican dès le XVIe siècle ?", ["Le royaume du Kongo", "Le royaume du Mali", "L'Éthiopie seule", "Le royaume du Bénin"], 0,
+    ["Quel royaume africain envoie des ambassadeurs au Vatican dès le XVIe siècle ?", ["Le royaume du Kongo", "Le royaume du Mali", "L'Éthiopie", "Le royaume du Bénin"], 0,
      "Son souverain se convertit au christianisme et entretint une correspondance directe avec le Portugal et Rome."],
     ["Combien de personnes la traite atlantique a-t-elle déportées selon les estimations ?", ["Environ douze millions", "Environ deux millions", "Environ trente millions", "Environ cinq cent mille"], 0,
      "Environ un déporté sur huit mourut pendant la traversée, soit 12 à 13 %. Les traites transsaharienne et orientale s'y ajoutent.", 3],

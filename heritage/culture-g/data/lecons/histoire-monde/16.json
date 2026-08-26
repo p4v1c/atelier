@@ -3,7 +3,7 @@
  "sections": [
   {
    "titre": "L'effondrement du régime tsariste en février 1917",
-   "texte": "Au début du vingtième siècle, l'Empire russe reste un pays largement agricole et pauvre malgré une industrialisation récente concentrée dans quelques villes. Le tsar Nicolas II gouverne de façon autoritaire, la paysannerie manque de terres et les ouvriers travaillent dans des conditions très dures. La Première Guerre mondiale précipite la crise : les défaites militaires s'accumulent, les pertes sont immenses, les transports se désorganisent et le pain vient à manquer dans les villes. Le 23 février 1917 selon le calendrier julien alors en usage en Russie, soit le 8 mars du calendrier grégorien, des ouvrières manifestent à Petrograd pour réclamer du pain. Le mouvement s'élargit aux ouvriers puis aux soldats de la garnison, qui refusent de tirer sur la foule et se joignent à elle. Privé de tout appui, Nicolas II abdique le 2 mars 1917, mettant fin à trois siècles de dynastie des Romanov. Un gouvernement provisoire dirigé par des libéraux prend la relève, mais il refuse de satisfaire les trois revendications populaires essentielles : la paix immédiate, le partage des terres et la journée de huit heures. À côté de lui se sont reconstitués les soviets, conseils élus d'ouvriers, de paysans et de soldats, qui disposent d'une autorité réelle sur les usines et les casernes. Cette situation, appelée dualité des pouvoirs, rend le pays ingouvernable."
+   "texte": "Au début du vingtième siècle, l'Empire russe reste un pays largement agricole et pauvre malgré une industrialisation récente concentrée dans quelques villes. Le tsar Nicolas II gouverne de façon autoritaire, la paysannerie manque de terres et les ouvriers travaillent dans des conditions très dures. La Première Guerre mondiale précipite la crise : les défaites militaires s'accumulent, les pertes sont immenses, les transports se désorganisent et le pain vient à manquer dans les villes. Le 23 février 1917 selon le calendrier julien alors en usage en Russie, soit le 8 mars du calendrier grégorien, des ouvrières manifestent à Petrograd pour réclamer du pain. Le mouvement s'élargit aux ouvriers puis aux soldats de la garnison, qui refusent de tirer sur la foule et se joignent à elle. Privé de tout appui, Nicolas II abdique le 2 mars (15 mars) 1917, mettant fin à trois siècles de dynastie des Romanov. Un gouvernement provisoire dirigé par des libéraux prend la relève, mais il refuse de satisfaire les trois revendications populaires essentielles : la paix immédiate, le partage des terres et la journée de huit heures. À côté de lui se sont reconstitués les soviets, conseils élus d'ouvriers, de paysans et de soldats, qui disposent d'une autorité réelle sur les usines et les casernes. Cette situation, appelée dualité des pouvoirs, rend le pays ingouvernable."
   },
   {
    "titre": "Octobre 1917 : les bolcheviks prennent le pouvoir",
@@ -18,7 +18,7 @@
       "texte": "Ouvriers puis soldats de la garnison rejoignent le mouvement."
      },
      {
-      "date": "2 mars",
+      "date": "2 mars (15 mars)",
       "label": "Abdication de Nicolas II",
       "texte": "Fin de trois siècles de dynastie des Romanov ; gouvernement provisoire et soviets se partagent le pouvoir."
      },
@@ -126,14 +126,14 @@
   {
    "q": "Quel événement met fin au régime tsariste en 1917 ?",
    "choix": [
-    "L'abdication de Nicolas II le 2 mars",
+    "L'abdication de Nicolas II le 2 mars julien (15 mars)",
     "La prise du Palais d'Hiver en octobre",
     "Le traité de Brest-Litovsk",
     "La dissolution de l'Assemblée constituante"
    ],
    "bonne": 0,
    "difficulte": 2,
-   "explication": "La révolution de Février commence le 23 février 1917 du calendrier julien, soit le 8 mars du calendrier grégorien, avec des manifestations d'ouvrières réclamant du pain à Petrograd. Le mouvement gagne les ouvriers puis les soldats, qui refusent de tirer sur la foule. Privé de soutien, Nicolas II abdique le 2 mars 1917, ce qui met fin à la dynastie des Romanov. Un gouvernement provisoire libéral lui succède, mais il doit composer avec les soviets, conseils d'ouvriers, de paysans et de soldats : c'est la dualité des pouvoirs. Les événements d'octobre correspondent, eux, à la prise du pouvoir par les bolcheviks."
+   "explication": "La révolution de Février commence le 23 février 1917 du calendrier julien, soit le 8 mars du calendrier grégorien, avec des manifestations d'ouvrières réclamant du pain à Petrograd. Le mouvement gagne les ouvriers puis les soldats, qui refusent de tirer sur la foule. Privé de soutien, Nicolas II abdique le 2 mars (15 mars) 1917, ce qui met fin à la dynastie des Romanov. Un gouvernement provisoire libéral lui succède, mais il doit composer avec les soviets, conseils d'ouvriers, de paysans et de soldats : c'est la dualité des pouvoirs. Les événements d'octobre correspondent, eux, à la prise du pouvoir par les bolcheviks."
   },
   {
    "q": "Quels sont les deux premiers grands décrets adoptés par le gouvernement de Lénine après octobre 1917 ?",

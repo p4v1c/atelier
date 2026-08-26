@@ -1,5 +1,5 @@
 /**
- * Histoire du monde, troisième lot — vingt notions sans cours.
+ * Histoire du monde, troisième lot — vingt notions.
  */
 import { notion } from "./commun";
 import type { SeedSkill } from "../../../src/modules/types";
@@ -59,7 +59,7 @@ export const CG_HISTOIRE_MONDE_3: SeedSkill[] = [
 
   notion("hm3-seconde-guerre", S, "La Seconde Guerre mondiale",
     "Un conflit mondial de six ans, le plus meurtrier de l'histoire.",
-    "La Seconde Guerre mondiale a fait environ cinq fois plus de morts que la Première.",
+    "La Seconde Guerre mondiale a fait environ trois fois plus de morts que la Première, et pour la première fois une majorité de civils.",
     2, [
     ["Quel événement déclenche la Seconde Guerre mondiale en Europe ?", ["L'invasion de la Pologne le 1er septembre 1939", "L'annexion de l'Autriche en mars 1938", "L'invasion de la Tchécoslovaquie au mois de mars 1939", "L'attaque de la Finlande par l'URSS en novembre 1939"], 0,
      "France et Royaume-Uni déclarent la guerre à l'Allemagne deux jours plus tard."],
@@ -103,8 +103,8 @@ export const CG_HISTOIRE_MONDE_3: SeedSkill[] = [
      "Macao suit en 1999, sous le principe d'un pays, deux systèmes."],
     ["Qu'est-ce que la politique de l'enfant unique ?", ["Une limitation autoritaire des naissances de 1979 à 2015", "Une politique d'incitation à la natalité menée auprès des couples", "Une politique d'urbanisation accélérée", "Une réforme du droit familial, du mariage et de l'héritage"], 0,
      "Elle a laissé un déséquilibre des sexes et un vieillissement accéléré de la population."],
-    ["Quelle place la Chine occupe-t-elle aujourd'hui dans l'économie mondiale ?", ["La deuxième économie et le premier exportateur", "La première économie mondiale", "La troisième économie mondiale", "Le premier importateur mondial"], 0,
-     "Sa croissance a fortement ralenti depuis les années 2010, autour de valeurs bien inférieures.", 3],
+    ["Quelle place la Chine occupe-t-elle dans l'économie mondiale en PIB nominal ?", ["La deuxième économie et le premier exportateur", "La première économie mondiale", "La troisième économie mondiale", "Le premier importateur mondial"], 0,
+     "En parité de pouvoir d'achat, elle est même première depuis 2014 ; sa croissance a fortement ralenti depuis les années 2010, autour de valeurs bien inférieures.", 3],
   ]),
 
   notion("hm3-moyen-orient", S, "Le Moyen-Orient contemporain",
@@ -228,7 +228,7 @@ export const CG_HISTOIRE_MONDE_3: SeedSkill[] = [
     ["Quel programme spatial américain aboutit en 1969 ?", ["Le programme Apollo", "Le programme Gemini", "Le programme Mercury", "Le programme Skylab"], 0,
      "Il répondait à l'engagement pris par Kennedy en 1961."],
     ["Qu'est-ce que l'ALENA devenu ACEUM ?", ["Un accord de libre-échange nord-américain", "Une union douanière entre les trois pays d'Amérique du Nord", "Un traité de défense commune de l'Amérique du Nord", "Un accord monétaire créant une monnaie commune"], 0,
-     "Signé en 1994, renégocié et remplacé en 2020."],
+     "Signé en 1992, entré en vigueur en 1994, renégocié et remplacé en 2020."],
     ["Quel événement de 2001 transforme la politique américaine ?", ["Les attentats du 11 septembre", "La crise financière des marchés boursiers", "La guerre d'Irak, lancée deux ans plus tard", "L'élection contestée de 2000 en Floride"], 0,
      "Ils conduisent au Patriot Act et aux interventions en Afghanistan puis en Irak."],
     ["Quelle particularité l'élection présidentielle américaine présente-t-elle ?", ["Un scrutin indirect par grands électeurs État par État", "Un scrutin direct à deux tours dans chaque État", "Un vote du Congrès réuni en session commune", "Un scrutin proportionnel à l'échelle nationale"], 0,
@@ -292,7 +292,7 @@ export const CG_HISTOIRE_MONDE_3: SeedSkill[] = [
     "Les guerres de décolonisation ont souvent été aussi des guerres civiles.",
     2, [
     ["Quelle bataille de 1954 met fin à la présence française en Indochine ?", ["Diên Biên Phu", "Na San, dans le Haut-Tonkin", "Lang Son, sur la route coloniale 4", "Vinh Yen, dans le delta du fleuve Rouge"], 0,
-     "Le camp retranché français est encerclé et pris après cinquante-sept jours de siège."],
+     "Le camp retranché français est encerclé et pris après cinquante-six jours de siège."],
     ["Que décident les accords de Genève de 1954 ?", ["La division provisoire du Vietnam au dix-septième parallèle", "L'indépendance immédiate d'un Vietnam réunifié sous Hô Chi Minh", "Le maintien du protectorat français sur l'Annam et le Laos", "La création d'une fédération indochinoise autonome"], 0,
      "Les élections prévues pour la réunification n'ont jamais eu lieu."],
     ["Quand débute la guerre d'Algérie ?", ["Le 1er novembre 1954", "Le 8 mai 1945, jour des massacres de Sétif", "Le 13 mai 1958, jour du putsch d'Alger", "Le 20 août 1955"], 0,
@@ -427,7 +427,7 @@ export const CG_HISTOIRE_MONDE_3: SeedSkill[] = [
      "Sa dévaluation progressive au IIIe siècle accompagne la crise de l'Empire."],
     ["Qu'est-ce que la lettre de change au Moyen Âge ?", ["Un instrument permettant de transférer de l'argent sans transporter de métal", "Un billet de banque émis par une cité italienne", "Un contrat de prêt à intérêt passé devant notaire", "Un titre de propriété sur des marchandises en transit"], 0,
      "Elle contournait aussi l'interdiction du prêt à intérêt en dissimulant le gain dans le change."],
-    ["Quelle famille de banquiers florentins domine la finance européenne au XVe siècle ?", ["Les Médicis", "Les Fugger", "Les Bardi seuls", "Les Peruzzi"], 0,
+    ["Quelle famille de banquiers florentins domine la finance européenne au XVe siècle ?", ["Les Médicis", "Les Fugger", "Les Bardi", "Les Peruzzi"], 0,
      "Les Fugger, allemands, leur succèdent au XVIe siècle."],
     ["Quel afflux de métal précieux perturbe l'économie européenne au XVIe siècle ?", ["L'argent américain, notamment de Potosí", "L'or africain venu du Soudan par le Sahara", "L'argent japonais exporté par les Portugais", "L'or brésilien découvert au Minas Gerais"], 0,
      "Il provoque une inflation durable, appelée révolution des prix."],
@@ -457,14 +457,14 @@ export const CG_HISTOIRE_MONDE_3: SeedSkill[] = [
      "L'air de la ville rend libre, disait un adage germanique à propos du servage."],
     ["Quelle ville italienne fut une république marchande dominante en Méditerranée ?", ["Venise", "Florence", "Rome", "Naples"], 0,
      "Gênes fut sa principale rivale pendant plusieurs siècles."],
-    ["Quel plan d'urbanisme transforme Barcelone au XIXe siècle ?", ["Le plan Cerdà", "Le plan Haussmann", "Le plan Ildefons", "Le plan de l'Eixample seul"], 0,
+    ["Quel plan d'urbanisme transforme Barcelone au XIXe siècle ?", ["Le plan Cerdà", "Le plan Haussmann", "Le plan Soria", "Le plan Jaussely"], 0,
      "Ildefons Cerdà y conçoit un quadrillage aux angles coupés, dit Eixample."],
     ["Qu'est-ce qu'une ville coloniale à plan orthogonal ?", ["Une ville tracée en damier autour d'une place centrale", "Une ville fortifiée par un rempart de pierre", "Une ville portuaire planifiée sur le modèle des ports européens", "Une ville administrative bâtie pour loger le gouverneur"], 0,
      "Les Lois des Indes espagnoles ont imposé ce modèle dans toute l'Amérique latine."],
     ["Qu'est-ce que la cité-jardin ?", ["Un modèle urbain associant logement, verdure et autonomie", "Un quartier résidentiel arboré réservé aux familles aisées", "Un parc urbain habité par quelques familles", "Une banlieue pavillonnaire construite après-guerre"], 0,
      "Théorisée par Ebenezer Howard en 1898, elle a inspiré de nombreuses réalisations européennes."],
-    ["Qu'est-ce que la Charte d'Athènes de 1933 ?", ["Un texte urbanistique prônant la séparation des fonctions urbaines", "Un traité sur la protection du patrimoine bâti", "Une convention sur les monuments historiques européens", "Un accord international sur les transports urbains"], 0,
-     "Habiter, travailler, se recréer, circuler : ce zonage a été largement critiqué depuis."],
+    ["Qu'est-ce que la Charte d'Athènes, issue du congrès des CIAM de 1933 ?", ["Un texte urbanistique prônant la séparation des fonctions urbaines", "Un traité sur la protection du patrimoine bâti", "Une convention sur les monuments historiques européens", "Un accord international sur les transports urbains"], 0,
+     "Habiter, travailler, se recréer, circuler : publiée dix ans plus tard, en 1943, ce zonage a été largement critiqué depuis."],
     ["Qu'est-ce que le renouvellement urbain ?", ["La transformation de quartiers existants plutôt que l'extension", "La rénovation des bâtiments anciens du centre-ville", "La construction de villes nouvelles en périphérie des métropoles", "La densification progressive des zones pavillonnaires"], 0,
      "Il répond à l'objectif de limiter l'artificialisation des sols.", 3],
   ]),
@@ -479,8 +479,8 @@ export const CG_HISTOIRE_MONDE_3: SeedSkill[] = [
      "Elle suppose une pratique constante et la conviction d'obéir à une obligation juridique."],
     ["Qu'est-ce que le jus cogens ?", ["Des normes impératives auxquelles aucun traité ne peut déroger", "Le droit coutumier tel qu'il se dégage de la pratique constante des États", "Le droit des traités codifié par la convention de Vienne de 1969", "Le droit humanitaire, dérogeable en cas de nécessité militaire"], 0,
      "L'interdiction du génocide ou de l'esclavage en relève."],
-    ["Que régissent les conventions de Genève ?", ["Le droit humanitaire applicable aux conflits armés", "Le droit de la mer et la protection des navires hôpitaux", "Le droit des réfugiés fixé par la convention de 1951", "Le droit diplomatique et l'immunité des ambassadeurs"], 0,
-     "Elles protègent notamment les blessés, les prisonniers de guerre et les civils."],
+    ["Que régissent les quatre conventions de Genève de 1949 ?", ["Le droit humanitaire applicable aux conflits armés", "Le droit de la mer et la protection des navires hôpitaux", "Le droit de l'espace", "Le droit diplomatique et l'immunité des ambassadeurs"], 0,
+     "Elles protègent notamment les blessés, les prisonniers de guerre et les civils. À ne pas confondre avec la convention de Genève de 1951, qui définit le statut de réfugié."],
     ["Qu'est-ce que le droit international humanitaire ?", ["L'ensemble des règles limitant les effets des conflits armés", "Le droit encadrant l'acheminement de l'aide humanitaire", "Le droit d'ingérence reconnu aux grandes puissances", "Le droit des organisations non gouvernementales"], 0,
      "Il ne juge pas la légitimité de la guerre mais la manière dont elle est conduite."],
     ["Que juge la Cour pénale internationale ?", ["Des individus pour crimes de guerre, génocide et crimes contre l'humanité", "Des États accusés d'avoir violé la Charte des Nations unies", "Des différends frontaliers entre États voisins que la diplomatie n'a pas su résoudre", "Des violations de traités commerciaux et d'accords d'investissement étrangers"], 0,

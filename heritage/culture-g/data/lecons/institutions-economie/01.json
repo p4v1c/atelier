@@ -7,7 +7,7 @@
     },
     {
       "titre": "L'ordre judiciaire : juridictions civiles et pénales",
-      "texte": "L'ordre judiciaire tranche les litiges entre personnes privées et sanctionne les infractions. Il se divise en deux branches. Les juridictions civiles règlent les conflits d'intérêts privés : un divorce, une dette impayée, un litige de voisinage. Depuis la réforme entrée en vigueur en 2020, le tribunal judiciaire constitue la juridiction civile de droit commun ; il a absorbé les anciens tribunaux d'instance et de grande instance. À côté de lui subsistent des juridictions spécialisées : le conseil de prud'hommes pour les conflits entre salariés et employeurs, le tribunal de commerce pour les litiges entre commerçants et entreprises. Les juridictions pénales jugent quant à elles les auteurs d'infractions, classées selon leur gravité. Les contraventions, les moins graves, relèvent du tribunal de police ; les délits, comme le vol ou les violences, sont jugés par le tribunal correctionnel ; les crimes, tels que le meurtre ou le viol, relèvent de la cour d'assises, composée de magistrats professionnels et de jurés tirés au sort parmi les citoyens. Les décisions rendues en première instance peuvent être contestées devant une cour d'appel, qui réexamine les faits et le droit. Au sommet se trouve la Cour de cassation, juridiction unique siégeant à Paris : elle ne rejuge pas les faits mais vérifie que les règles de droit ont été correctement appliquées, et peut casser une décision pour la renvoyer devant une autre juridiction.",
+      "texte": "L'ordre judiciaire tranche les litiges entre personnes privées et sanctionne les infractions. Il se divise en deux branches. Les juridictions civiles règlent les conflits d'intérêts privés : un divorce, une dette impayée, un litige de voisinage. Depuis la réforme entrée en vigueur en 2020, le tribunal judiciaire constitue la juridiction civile de droit commun ; il a absorbé les anciens tribunaux d'instance et de grande instance. À côté de lui subsistent des juridictions spécialisées : le conseil de prud'hommes pour les conflits entre salariés et employeurs, le tribunal de commerce pour les litiges entre commerçants et entreprises. Les juridictions pénales jugent quant à elles les auteurs d'infractions, classées selon leur gravité. Les contraventions, les moins graves, relèvent du tribunal de police ; les délits, comme le vol ou les violences, sont jugés par le tribunal correctionnel ; les crimes, comme le meurtre, relèvent de la cour d'assises, composée de magistrats professionnels et de jurés tirés au sort parmi les citoyens ; depuis 2023, les crimes punis de quinze à vingt ans de réclusion, dont la majorité des viols, sont jugés sans jury par la cour criminelle départementale. Les décisions rendues en première instance peuvent être contestées devant une cour d'appel, qui réexamine les faits et le droit. Au sommet se trouve la Cour de cassation, juridiction unique siégeant à Paris : elle ne rejuge pas les faits mais vérifie que les règles de droit ont été correctement appliquées, et peut casser une décision pour la renvoyer devant une autre juridiction.",
       "visuels": [
         {
           "type": "tableau",
@@ -45,8 +45,8 @@
             ],
             [
               "Crime",
-              "Cour d'assises",
-              "Meurtre, viol : magistrats professionnels et jurés tirés au sort"
+              "Cour d'assises (ou cour criminelle départementale)",
+              "Meurtre : magistrats et jurés ; crimes de 15 à 20 ans de réclusion, dont la majorité des viols, sans jury"
             ]
           ],
           "note": "Depuis la réforme entrée en vigueur en 2020, le tribunal judiciaire a absorbé les anciens tribunaux d'instance et de grande instance."
@@ -156,7 +156,7 @@
       ],
       "bonne": 2,
       "difficulte": 1,
-      "explication": "Les infractions pénales sont classées en trois catégories selon leur gravité, et chaque catégorie relève d'une juridiction distincte. Les contraventions, infractions les plus légères comme les excès de vitesse, sont jugées par le tribunal de police. Les délits, tels que le vol ou les violences, relèvent du tribunal correctionnel. Les crimes, les faits les plus graves comme le meurtre ou le viol, sont jugés par la cour d'assises, qui associe des magistrats professionnels et des jurés citoyens tirés au sort. Le tribunal administratif, lui, n'appartient pas à l'ordre judiciaire et ne juge aucune infraction pénale."
+      "explication": "Les infractions pénales sont classées en trois catégories selon leur gravité, et chaque catégorie relève d'une juridiction distincte. Les contraventions, infractions les plus légères comme les excès de vitesse, sont jugées par le tribunal de police. Les délits, tels que le vol ou les violences, relèvent du tribunal correctionnel. Les crimes, les faits les plus graves comme le meurtre, sont jugés par la cour d'assises, qui associe des magistrats professionnels et des jurés citoyens tirés au sort ; depuis 2023, les crimes punis de quinze à vingt ans de réclusion, dont la majorité des viols, relèvent en première instance de la cour criminelle départementale, sans jury. Le tribunal administratif, lui, n'appartient pas à l'ordre judiciaire et ne juge aucune infraction pénale."
     },
     {
       "q": "Quel est le rôle principal de la Cour de cassation ?",

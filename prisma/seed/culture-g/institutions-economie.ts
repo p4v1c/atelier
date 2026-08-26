@@ -1,5 +1,5 @@
 /**
- * Institutions & Économie — treize notions sans cours.
+ * Institutions & Économie — treize notions, dont huit avec cours.
  */
 import { notion } from "./commun";
 import type { SeedSkill } from "../../../src/modules/types";
@@ -16,7 +16,7 @@ export const CG_INSTITUTIONS_ECONOMIE: SeedSkill[] = [
     ["Qui élit le maire d'une commune ?", ["Le conseil municipal", "Les habitants directement", "Le préfet", "Le conseil départemental"], 0,
      "Les habitants élisent les conseillers municipaux, qui désignent ensuite le maire parmi eux."],
     ["Quelle collectivité gère les collèges ?", ["Le département", "La région", "La commune", "L'État seul, par le rectorat"], 0,
-     "La région gère les lycées, la commune les écoles primaires."],
+     "La commune gère les écoles primaires."],
     ["Quelle collectivité est chargée des lycées et des transports régionaux ?", ["La région", "Le département", "La commune", "L'intercommunalité"], 0,
      "Elle a aussi la compétence du développement économique et de la formation professionnelle."],
     ["Quelle est la principale compétence sociale du département ?", ["L'action sociale, dont le revenu de solidarité active", "Le logement social et son attribution", "L'assurance maladie et le remboursement de tous les soins", "Les retraites et les pensions de réversion"], 0,
@@ -41,8 +41,8 @@ export const CG_INSTITUTIONS_ECONOMIE: SeedSkill[] = [
      "La séparation remonte à la Révolution, qui interdit aux juges de connaître des actes de l'administration."],
     ["Quelle est la plus haute juridiction de l'ordre administratif ?", ["Le Conseil d'État", "La Cour de cassation", "Le tribunal administratif", "La Cour des comptes"], 0,
      "Il est à la fois juge suprême de l'administration et conseiller du gouvernement pour la rédaction des textes."],
-    ["Quelle juridiction juge les crimes en France ?", ["La cour d'assises", "Le tribunal correctionnel", "Le tribunal de police", "La cour d'appel"], 0,
-     "Les délits relèvent du tribunal correctionnel, les contraventions du tribunal de police."],
+    ["Quelle juridiction juge les crimes les plus graves en France ?", ["La cour d'assises", "Le tribunal correctionnel", "Le tribunal de police", "La cour d'appel"], 0,
+     "Depuis 2023, les crimes punis de quinze à vingt ans de réclusion, dont la majorité des viols, sont jugés en première instance par la cour criminelle départementale, sans jury populaire. Les délits relèvent du tribunal correctionnel, les contraventions du tribunal de police."],
     ["Qu'est-ce que le principe du double degré de juridiction ?", ["La possibilité de faire rejuger une affaire en appel", "Le droit d'être assisté par deux avocats au procès", "La présence obligatoire de deux juges à l'audience", "Le recours successif devant les deux ordres de juridiction"], 0,
      "Il ne vaut pas pour toutes les affaires : les très petits litiges civils y échappent."],
     ["Que signifie la présomption d'innocence ?", ["Toute personne est réputée innocente tant qu'elle n'a pas été jugée coupable", "Le doute profite toujours à l'accusé au cours du procès", "L'accusé n'a jamais à se défendre lui-même devant le juge", "La charge de la preuve appartient entièrement à la défense et non au parquet"], 0,
@@ -64,7 +64,7 @@ export const CG_INSTITUTIONS_ECONOMIE: SeedSkill[] = [
     ["En quelle année la Sécurité sociale française est-elle créée ?", ["1945", "1936", "1958", "1968"], 0,
      "Les ordonnances d'octobre 1945 s'inspirent du programme du Conseil national de la Résistance."],
     ["Quel ministre communiste porte la création de la Sécurité sociale ?", ["Ambroise Croizat", "Maurice Thorez, secrétaire général", "Pierre Laroque, haut fonctionnaire", "Jacques Duclos, dirigeant communiste"], 0,
-     "Pierre Laroque, haut fonctionnaire, en est l'architecte technique."],
+     "Nommé ministre du Travail en novembre 1945, il met en place le système créé par les ordonnances d'octobre, prises sous son prédécesseur Alexandre Parodi. Pierre Laroque, haut fonctionnaire, en est l'architecte technique."],
     ["Quelles sont les branches historiques de la Sécurité sociale ?", ["Maladie, famille, retraite, accidents du travail", "Maladie, chômage, retraite et logement social", "Santé, éducation, retraite et politique familiale", "Maladie, famille, chômage et dépendance des âgés"], 0,
      "Une cinquième branche, l'autonomie, a été créée en 2020. Le chômage relève d'un régime distinct."],
     ["Qu'est-ce que la CSG ?", ["Un impôt affecté au financement de la protection sociale", "Une cotisation patronale assise sur l'ensemble des salaires versés", "Une taxe prélevée sur les contrats des mutuelles santé", "Une contribution volontaire versée par les seuls assurés"], 0,
@@ -78,7 +78,7 @@ export const CG_INSTITUTIONS_ECONOMIE: SeedSkill[] = [
     ["Quelle réforme de 1999 étend la couverture maladie aux plus démunis ?", ["La couverture maladie universelle", "L'aide médicale d'État", "La complémentaire santé solidaire", "Le tiers payant généralisé"], 0,
      "Elle a été remplacée en 2016 par la protection universelle maladie, qui automatise l'affiliation."],
     ["Que représente environ la protection sociale dans le PIB français ?", ["Environ trente pour cent", "Environ dix pour cent", "Environ cinquante pour cent", "Environ vingt pour cent"], 0,
-     "C'est l'un des niveaux les plus élevés de l'OCDE, retraites et santé en constituant l'essentiel.", 3],
+     "Environ trente-deux pour cent ces dernières années, l'un des niveaux les plus élevés de l'OCDE, retraites et santé en constituant l'essentiel.", 3],
   ]),
 
   notion("ie-monnaie-banques", S, "La monnaie et les banques",
@@ -109,8 +109,8 @@ export const CG_INSTITUTIONS_ECONOMIE: SeedSkill[] = [
     "Formes juridiques, contrat de travail, représentation du personnel : le cadre dans lequel on travaille.",
     "La différence entre salarié et indépendant tient au lien de subordination, pas au mode de rémunération.",
     2, [
-    ["Qu'est-ce qui caractérise juridiquement un contrat de travail ?", ["Le lien de subordination", "Le versement d'un salaire", "L'existence d'un écrit", "La durée déterminée"], 0,
-     "C'est ce critère qui permet de requalifier certaines prestations indépendantes en contrat de travail."],
+    ["Quel élément du contrat de travail distingue le salarié du travailleur indépendant ?", ["Le lien de subordination", "Le versement d'un salaire", "L'existence d'un écrit", "La durée déterminée"], 0,
+     "Prestation de travail, rémunération et lien de subordination définissent ensemble le contrat ; seul le troisième sépare le salarié de l'indépendant, et c'est lui qui permet de requalifier certaines prestations."],
     ["Quelle est la forme de contrat de droit commun en France ?", ["Le contrat à durée indéterminée", "Le contrat à durée déterminée renouvelable", "L'intérim par agence", "Le contrat de mission d'intérim"], 0,
      "Le contrat à durée déterminée est l'exception et doit reposer sur un motif prévu par la loi."],
     ["Quelle est la durée légale du travail hebdomadaire en France ?", ["Trente-cinq heures", "Trente-neuf heures", "Quarante heures", "Trente-sept heures"], 0,
@@ -214,7 +214,7 @@ export const CG_INSTITUTIONS_ECONOMIE: SeedSkill[] = [
     "Seuls cinq membres permanents du Conseil de sécurité disposent du droit de veto.",
     2, [
     ["Dans quelle ville la charte des Nations unies est-elle signée ?", ["San Francisco", "New York, en 1945", "Yalta, en Crimée", "Genève, en Suisse"], 0,
-     "En juin 1945, par cinquante et un États fondateurs, quelques semaines après la capitulation allemande."],
+     "En juin 1945, par cinquante États ; la Pologne, absente de la conférence, signe en octobre et porte à cinquante et un le nombre de membres fondateurs."],
     ["Combien d'États membres compte l'ONU ?", ["Cent quatre-vingt-treize", "Cent cinquante États", "Deux cents États exactement", "Cent quatre-vingts"], 0,
      "Le Soudan du Sud est le dernier admis, en 2011."],
     ["Quels pays sont membres permanents du Conseil de sécurité ?", ["Chine, États-Unis, France, Royaume-Uni, Russie", "États-Unis, Russie, Chine, Allemagne, Japon", "France, Royaume-Uni, Allemagne, Italie, Espagne", "Les cinq plus grandes économies"], 0,
@@ -266,7 +266,7 @@ export const CG_INSTITUTIONS_ECONOMIE: SeedSkill[] = [
     "Un régime parlementaire n'est pas un régime sans président : ce qui le définit est le lien de responsabilité entre l'exécutif et les chambres.",
     2, [
     ["Qui théorise la séparation des pouvoirs en 1748 ?", ["Montesquieu", "Jean-Jacques Rousseau", "John Locke", "Voltaire"], 0,
-     "Dans L'Esprit des lois. John Locke avait esquissé l'idée dès 1690."],
+     "Dans De l'esprit des lois. John Locke avait esquissé l'idée dès 1690."],
     ["Qu'est-ce qu'un régime présidentiel ?", ["Le gouvernement n'est pas responsable devant le Parlement", "Le président est élu au suffrage universel direct par les citoyens", "Le président nomme seul le Premier ministre et les ministres", "Le président peut dissoudre le Parlement quand il le souhaite"], 0,
      "Les États-Unis en sont l'exemple : ni renversement du gouvernement, ni dissolution du Congrès."],
     ["Qu'est-ce qu'un régime parlementaire ?", ["Le gouvernement est responsable devant le Parlement", "Le Parlement gouverne directement, sans gouvernement distinct", "Le chef de l'État n'existe pas dans ce type de régime", "Le Parlement élit le chef de l'État, qui gouverne ensuite seul"], 0,
@@ -334,7 +334,7 @@ export const CG_INSTITUTIONS_ECONOMIE: SeedSkill[] = [
     ["Qu'est-ce que l'indice de réparabilité ?", ["Une note affichée indiquant la facilité de réparer un produit", "La durée de disponibilité des pièces détachées d'un produit vendu", "Le coût moyen d'une réparation chez un professionnel", "La garantie du constructeur, étendue au-delà de deux ans"], 0,
      "Obligatoire en France depuis 2021 sur plusieurs catégories d'appareils, il évolue vers un indice de durabilité."],
     ["Qu'est-ce qu'une action de groupe ?", ["Une action en justice engagée pour un ensemble de consommateurs lésés", "Une plainte collective déposée auprès d'une administration de contrôle", "Une médiation organisée entre plusieurs associations", "Une pétition dotée d'une valeur juridique contraignante"], 0,
-     "Introduite en France en 2014, elle est ouverte aux associations agréées."],
+     "Introduite en France en 2014, elle a été refondue par la loi du 30 avril 2025, qui a unifié les régimes sectoriels et ouvert l'action au-delà des seules associations agréées."],
     ["Qu'est-ce que le taux annuel effectif global d'un crédit ?", ["Le coût total du crédit exprimé en pourcentage annuel", "Le seul taux d'intérêt nominal du prêt", "Le taux plafond légal fixé chaque trimestre par la Banque de France", "La marge que la banque prélève sur l'opération"], 0,
      "Il inclut intérêts, frais de dossier et assurance obligatoire : c'est le seul chiffre comparable d'une offre à l'autre.", 3],
   ]),

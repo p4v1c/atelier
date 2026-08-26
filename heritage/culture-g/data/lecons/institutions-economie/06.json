@@ -60,7 +60,7 @@
     },
     {
       "titre": "Les sources et la construction du droit du travail",
-      "texte": "Le droit du travail s'est constitué progressivement, en réponse aux conditions de la révolution industrielle. La loi du 22 mars 1841 limite le travail des enfants dans les manufactures, celle de 1864 supprime le délit de coalition qui interdisait la grève, et la loi Waldeck-Rousseau du 21 mars 1884 autorise les syndicats professionnels. Le premier Code du travail est publié à partir de 1910. Les accords de Matignon de juin 1936 instaurent les congés payés et la semaine de quarante heures, puis les accords de Grenelle de 1968 revalorisent le salaire minimum. La durée légale hebdomadaire est fixée à trente-cinq heures par les lois de 1998 et 2000, la durée légale n'étant pas un maximum mais le seuil de déclenchement des heures supplémentaires. Les règles proviennent de plusieurs sources hiérarchisées : la Constitution et son préambule, les conventions internationales et notamment celles de l'Organisation internationale du travail créée en 1919, le droit de l'Union européenne, la loi et les règlements, les conventions et accords collectifs négociés par branche ou par entreprise, enfin le contrat de travail et les usages. Le principe de faveur veut qu'une norme inférieure puisse déroger à une norme supérieure lorsqu'elle est plus avantageuse pour le salarié, principe dont la portée a été aménagée par les réformes successives de la négociation collective.",
+      "texte": "Le droit du travail s'est constitué progressivement, en réponse aux conditions de la révolution industrielle. La loi du 22 mars 1841 limite le travail des enfants dans les manufactures, celle de 1864 supprime le délit de coalition qui interdisait la grève, et la loi Waldeck-Rousseau du 21 mars 1884 autorise les syndicats professionnels. Le premier Code du travail est publié à partir de 1910. Les accords de Matignon du 7 juin 1936 portent sur les salaires, les conventions collectives et les délégués ouvriers ; ils débouchent aussitôt sur les lois des 20 et 21 juin 1936, qui instaurent deux semaines de congés payés et la semaine de quarante heures, puis les accords de Grenelle de 1968 revalorisent le salaire minimum. La durée légale hebdomadaire est fixée à trente-cinq heures par les lois de 1998 et 2000, la durée légale n'étant pas un maximum mais le seuil de déclenchement des heures supplémentaires. Les règles proviennent de plusieurs sources hiérarchisées : la Constitution et son préambule, les conventions internationales et notamment celles de l'Organisation internationale du travail créée en 1919, le droit de l'Union européenne, la loi et les règlements, les conventions et accords collectifs négociés par branche ou par entreprise, enfin le contrat de travail et les usages. Le principe de faveur veut qu'une norme inférieure puisse déroger à une norme supérieure lorsqu'elle est plus avantageuse pour le salarié, principe dont la portée a été aménagée par les réformes successives de la négociation collective.",
       "visuel": {
         "type": "frise",
         "titre": "La construction du droit du travail",
@@ -93,7 +93,7 @@
           {
             "date": "1936",
             "label": "Accords de Matignon",
-            "texte": "En juin : congés payés et semaine de quarante heures."
+            "texte": "En juin : salaires et conventions collectives, aussitôt suivis des lois sur les congés payés et la semaine de quarante heures."
           },
           {
             "date": "1968",
@@ -154,9 +154,9 @@
       "explication": "Le contrat de travail suppose trois éléments : une prestation de travail, une rémunération et un lien de subordination. Ce dernier est le critère décisif retenu par la jurisprudence : il existe lorsque l'employeur peut donner des ordres et des directives, en contrôler l'exécution et sanctionner les manquements de la personne qui travaille pour lui. Un travailleur indépendant, à l'inverse, organise librement son activité et supporte lui-même le risque économique. L'écrit n'est pas toujours obligatoire, notamment pour un contrat à durée indéterminée à temps plein, et la durée légale du travail ne conditionne pas l'existence du contrat."
     },
     {
-      "q": "Que prévoient les accords de Matignon de juin 1936 ?",
+      "q": "Que déclenchent les accords de Matignon de juin 1936 ?",
       "choix": [
-        "Les congés payés et la semaine de quarante heures",
+        "Les lois instaurant les congés payés et la semaine de quarante heures",
         "La création du salaire minimum de croissance indexé sur les prix",
         "La liberté syndicale reconnue dans toutes les entreprises",
         "La mise en place du comité social et économique dans les entreprises"

@@ -133,8 +133,8 @@
    "q": "Que proclame la Déclaration d'indépendance du 4 juillet 1776 ?",
    "choix": [
     "L'abolition de l'esclavage dans les treize colonies",
-    "Le rattachement des colonies à la France",
-    "La création d'une monarchie américaine",
+    "La convocation d'un Parlement colonial à Londres",
+    "La suppression des assemblées coloniales",
     "L'égalité des hommes et le droit de renverser un pouvoir tyrannique"
    ],
    "bonne": 3,
@@ -146,8 +146,8 @@
    "choix": [
     "Le fédéralisme et la séparation des pouvoirs",
     "La monarchie constitutionnelle et le suffrage censitaire",
-    "La centralisation administrative et le parti unique",
-    "La théocratie et le droit coutumier"
+    "La souveraineté des États et le vote par colonie",
+    "Le suffrage universel et le mandat impératif"
    ],
    "bonne": 0,
    "difficulte": 2,

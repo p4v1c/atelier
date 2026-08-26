@@ -56,7 +56,7 @@
     },
     {
       "titre": "Comment le système est financé",
-      "texte": "La santé représente une part importante de la richesse nationale : les dépenses de santé équivalaient à environ douze pour cent du produit intérieur brut au début des années 2010. Leur financement est assuré par plusieurs sources. L'assurance maladie, branche de la Sécurité sociale, en couvre la plus grande part, de l'ordre des trois quarts. Les organismes complémentaires, mutuelles, institutions de prévoyance et sociétés d'assurance, en prennent en charge environ un huitième. Les ménages assument directement le reste à charge, c'est-à-dire la part qui demeure après remboursements, autour d'un dixième, l'État et les collectivités complétant marginalement l'ensemble. L'assurance maladie elle-même a une histoire ancienne, puisqu'une loi du 5 avril 1928 en pose les bases avant que les ordonnances de 1945 et 1946 n'organisent la Sécurité sociale moderne. Elle s'appuie sur un réseau structuré : une caisse nationale, cent une caisses primaires au niveau départemental, des caisses régionales et des caisses spécifiques outre-mer. En 2020, le régime général couvrait environ cinquante-neuf millions de bénéficiaires, soit près de quatre-vingt-huit pour cent de la population. Ses recettes proviennent pour environ un tiers des cotisations sociales et pour un tiers de la contribution sociale généralisée. En 2018, elle a remboursé environ cent quarante-deux milliards d'euros, les maladies chroniques représentant à elles seules près de trois cinquièmes des dépenses.",
+      "texte": "La santé représente une part importante de la richesse nationale : les dépenses de santé équivalaient à environ douze pour cent du produit intérieur brut au début des années 2010. Leur financement est assuré par plusieurs sources. L'assurance maladie, branche de la Sécurité sociale, en couvre la plus grande part, près de quatre cinquièmes. Les organismes complémentaires, mutuelles, institutions de prévoyance et sociétés d'assurance, en prennent en charge environ un huitième. Les ménages assument directement le reste à charge, c'est-à-dire la part qui demeure après remboursements, inférieur à sept pour cent et l'un des plus faibles des pays comparables, l'État et les collectivités complétant marginalement l'ensemble. L'assurance maladie elle-même a une histoire ancienne, puisqu'une loi du 5 avril 1928 en pose les bases avant que les ordonnances de 1945 et 1946 n'organisent la Sécurité sociale moderne. Elle s'appuie sur un réseau structuré : une caisse nationale, cent une caisses primaires au niveau départemental, des caisses régionales et des caisses spécifiques outre-mer. En 2020, le régime général couvrait environ cinquante-neuf millions de bénéficiaires, soit près de quatre-vingt-huit pour cent de la population. Ses recettes proviennent pour environ un tiers des cotisations sociales et pour un tiers de la contribution sociale généralisée. En 2018, elle a remboursé environ cent quarante-deux milliards d'euros, les maladies chroniques représentant à elles seules près de trois cinquièmes des dépenses.",
       "visuel": {
         "type": "tableau",
         "titre": "Qui paie les dépenses de santé ?",
@@ -67,7 +67,7 @@
         "lignes": [
           [
             "Assurance maladie, branche de la Sécurité sociale",
-            "Environ les trois quarts"
+            "Près de quatre cinquièmes"
           ],
           [
             "Organismes complémentaires : mutuelles, institutions de prévoyance, sociétés d'assurance",
@@ -75,7 +75,7 @@
           ],
           [
             "Ménages, sous forme de reste à charge après remboursements",
-            "Environ un dixième"
+            "Moins de sept pour cent"
           ],
           [
             "État et collectivités territoriales",
@@ -126,12 +126,12 @@
       "choix": [
         "Environ un quart des dépenses",
         "Environ la moitié seulement",
-        "Environ les trois quarts",
+        "Près de quatre cinquièmes",
         "La totalité, sans reste à charge"
       ],
       "bonne": 2,
       "difficulte": 2,
-      "explication": "L'assurance maladie, branche de la Sécurité sociale, finance environ les trois quarts des dépenses de santé en France. Les organismes complémentaires, mutuelles, institutions de prévoyance et sociétés d'assurance, en couvrent de l'ordre d'un huitième. Les ménages supportent directement le reste à charge, environ un dixième, et l'État ainsi que les collectivités complètent marginalement l'ensemble. Ces proportions font du système français l'un de ceux où la part socialisée du financement est la plus élevée. Elles évoluent toutefois au fil des réformes, et il faut donc toujours rapporter ces chiffres à leur année de référence."
+      "explication": "L'assurance maladie, branche de la Sécurité sociale, finance près de quatre cinquièmes des dépenses de santé en France. Les organismes complémentaires, mutuelles, institutions de prévoyance et sociétés d'assurance, en couvrent de l'ordre d'un huitième. Les ménages supportent directement le reste à charge, inférieur à sept pour cent et l'un des plus faibles des pays comparables, et l'État ainsi que les collectivités complètent marginalement l'ensemble. Ces proportions font du système français l'un de ceux où la part socialisée du financement est la plus élevée. Elles évoluent toutefois au fil des réformes, et il faut donc toujours rapporter ces chiffres à leur année de référence."
     },
     {
       "q": "Qu'a instauré la loi du 13 août 2004 en matière d'organisation des soins ?",

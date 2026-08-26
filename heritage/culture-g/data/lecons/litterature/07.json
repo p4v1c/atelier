@@ -3,7 +3,7 @@
  "sections": [
   {
    "titre": "L'Angleterre, de Shakespeare au roman victorien",
-   "texte": "La littérature anglaise s'ouvre au Moyen Âge avec les « Contes de Canterbury » de Geoffrey Chaucer, à la fin du XIVe siècle. Elle atteint un premier sommet sous le règne d'Élisabeth Ire avec William Shakespeare (1564-1616), auteur d'environ trente-huit pièces et de cent cinquante-quatre sonnets publiés en 1609. Ses tragédies, « Roméo et Juliette », « Hamlet », « Othello », « Le Roi Lear » et « Macbeth », ses comédies et ses drames historiques mêlent librement les registres et les niveaux de langue, ce qui frappera les romantiques français. John Milton donne ensuite l'épopée « Le Paradis perdu » (1667). Le XVIIIe siècle invente le roman moderne anglais avec « Robinson Crusoé » de Daniel Defoe (1719) et « Les Voyages de Gulliver » de Jonathan Swift (1726), satire féroce de la société. Jane Austen (1775-1817) porte à sa perfection le roman de mœurs et de mariage avec « Raison et Sentiments » (1811) et « Orgueil et Préjugés » (1813). En 1847, les sœurs Brontë publient « Jane Eyre » et « Les Hauts de Hurlevent ». L'époque victorienne est dominée par Charles Dickens (1812-1870), qui dénonce dans « Oliver Twist » (1837-1839), « David Copperfield » (1849-1850) et « Les Grandes Espérances » (1860-1861) la misère des enfants et des villes industrielles. George Eliot, Thomas Hardy, Robert Louis Stevenson, Arthur Conan Doyle et Oscar Wilde complètent ce siècle exceptionnellement riche.",
+   "texte": "La littérature anglaise s'ouvre au Moyen Âge avec les « Contes de Canterbury » de Geoffrey Chaucer, à la fin du XIVe siècle. Elle atteint un premier sommet sous le règne d'Élisabeth Ire avec William Shakespeare (1564-1616), auteur de trente-sept à trente-neuf pièces selon les attributions, et de cent cinquante-quatre sonnets publiés en 1609. Ses tragédies, « Roméo et Juliette », « Hamlet », « Othello », « Le Roi Lear » et « Macbeth », ses comédies et ses drames historiques mêlent librement les registres et les niveaux de langue, ce qui frappera les romantiques français. John Milton donne ensuite l'épopée « Le Paradis perdu » (1667). Le XVIIIe siècle invente le roman moderne anglais avec « Robinson Crusoé » de Daniel Defoe (1719) et « Les Voyages de Gulliver » de Jonathan Swift (1726), satire féroce de la société. Jane Austen (1775-1817) porte à sa perfection le roman de mœurs et de mariage avec « Raison et Sentiments » (1811) et « Orgueil et Préjugés » (1813). En 1847, les sœurs Brontë publient « Jane Eyre » et « Les Hauts de Hurlevent ». L'époque victorienne est dominée par Charles Dickens (1812-1870), qui dénonce dans « Oliver Twist » (1837-1839), « David Copperfield » (1849-1850) et « Les Grandes Espérances » (1860-1861) la misère des enfants et des villes industrielles. George Eliot, Thomas Hardy, Robert Louis Stevenson, Arthur Conan Doyle et Oscar Wilde complètent ce siècle exceptionnellement riche.",
    "visuel": {
     "type": "frise",
     "titre": "Six siècles de littérature anglaise",
@@ -16,7 +16,7 @@
      {
       "date": "1564-1616",
       "label": "William Shakespeare",
-      "texte": "Environ trente-huit pièces et cent cinquante-quatre sonnets"
+      "texte": "De trente-sept à trente-neuf pièces selon les attributions, et cent cinquante-quatre sonnets"
      },
      {
       "date": "1667",

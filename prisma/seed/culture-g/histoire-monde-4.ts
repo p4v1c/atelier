@@ -1,5 +1,5 @@
 /**
- * Histoire du monde, quatrième lot — vingt-deux notions sans cours.
+ * Histoire du monde, quatrième lot — vingt-deux notions.
  */
 import { notion } from "./commun";
 import type { SeedSkill } from "../../../src/modules/types";
@@ -63,8 +63,6 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
     "Achéménides, satrapies, guerres.",
     "L'empire achéménide fut le plus vaste que le monde ait connu à son époque.",
     2, [
-    ["Qui a fondé l'empire achéménide ?", ["Cyrus II", "Darius Ier", "Xerxès Ier", "Cambyse II"], 0,
-     "Il conquiert la Médie, la Lydie et Babylone au VIe siècle avant notre ère."],
     ["Qu'est-ce que le cylindre de Cyrus ?", ["Une inscription babylonienne relatant sa prise de Babylone", "Un code de lois perse gravé sur argile", "Une déclaration des droits des peuples soumis", "Un traité de paix conclu avec les Mèdes"], 0,
      "Souvent présenté comme une première charte des droits, il relève d'une tradition royale babylonienne."],
     ["Qu'est-ce qu'une satrapie ?", ["Une province de l'empire perse dirigée par un gouverneur", "Une cité autonome dotée de ses propres lois", "Un district militaire commandé par un général", "Une région tributaire versant un impôt annuel"], 0,
@@ -73,7 +71,7 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
      "Des relais de poste permettaient d'en parcourir la longueur en une semaine."],
     ["Qu'est-ce que Persépolis ?", ["Une capitale cérémonielle achéménide", "La capitale administrative de l'empire", "Une cité fondée par Cyrus le Grand à Pasargades", "Une place forte médique dominant les hauts plateaux"], 0,
      "Alexandre le Grand l'a incendiée en 330 avant notre ère."],
-    ["Quelle religion dominait l'empire perse ?", ["Le zoroastrisme", "Le mithraïsme", "Le manichéisme", "Le mazdéisme tardif"], 0,
+    ["Quelle religion dominait l'empire perse ?", ["Le zoroastrisme", "Le mithraïsme", "Le manichéisme", "Le culte de Cybèle"], 0,
      "Elle repose sur l'opposition entre un principe de bien et un principe de mal."],
     ["Quelle bataille a opposé Perses et Grecs en 490 avant notre ère ?", ["La bataille de Marathon", "La bataille de Salamine", "La bataille des Thermopyles", "La bataille de Platées"], 0,
      "La victoire athénienne y a un retentissement considérable."],
@@ -159,7 +157,7 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
      "Elle couvre la guerre, la défaite et le miracle économique."],
     ["Quand le Japon a-t-il attaqué Pearl Harbor ?", ["Le 7 décembre 1941", "Le 1er septembre 1939", "Le 7 décembre 1942", "Le 8 décembre 1940"], 0,
      "L'attaque provoque l'entrée en guerre des États-Unis."],
-    ["Sur quelle période s'étend le miracle économique japonais ?", ["Une croissance très rapide des années 1950 aux années 1980", "Une reconstruction d'après-guerre financée par l'aide américaine", "Une industrialisation commencée dès l'ère Meiji, avant 1900", "Une expansion des années 1990 et 2000"], 0,
+    ["Sur quelle période s'étend le miracle économique japonais ?", ["Une croissance très rapide des années 1950 aux années 1970", "Une reconstruction d'après-guerre financée par l'aide américaine", "Une industrialisation commencée dès l'ère Meiji, avant 1900", "Une expansion des années 1990 et 2000"], 0,
      "Elle s'achève avec l'éclatement d'une bulle spéculative au début des années 1990.", 3],
   ]),
 
@@ -525,8 +523,6 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
      "D'où l'expression chiffres arabes, malgré une origine indienne."],
     ["Qu'est-ce que l'astronomie de Maragha ?", ["Une école d'astronomes persans du XIIIe siècle", "Une observation grecque tardive de Ptolémée", "Une école indienne d'astronomie mathématique", "Un observatoire ottoman construit à Istanbul"], 0,
      "Ses modèles mathématiques ont peut-être influencé Copernic."],
-    ["Quelle invention chinoise a transformé la navigation ?", ["La boussole", "L'astrolabe", "Le gouvernail d'étambot seul", "Le sextant"], 0,
-     "La Chine en fait usage plusieurs siècles avant l'Europe."],
     ["Quelles sont les quatre grandes inventions traditionnellement attribuées à la Chine ?", ["Papier, imprimerie, poudre et boussole", "Papier, verre, poudre et boussole", "Imprimerie, papier, soie et poudre", "Poudre, boussole, porcelaine et papier"], 0,
      "Cette liste est une construction historiographique, mais chacune est bien attestée."],
     ["Qu'est-ce que la révolution scientifique du XVIIe siècle ?", ["Une transformation des méthodes et des théories en Europe", "L'invention de la seule méthode expérimentale par Francis Bacon", "La naissance des universités européennes", "La création des premières académies scientifiques nationales"], 0,
@@ -564,7 +560,7 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
     ["Qu'est-ce qu'un déplacé interne ?", ["Une personne déplacée à l'intérieur de son propre pays", "Un migrant économique installé dans une grande ville", "Un réfugié non enregistré par les autorités du pays d'accueil", "Un demandeur d'asile en attente d'une décision"], 0,
      "Ils sont plus nombreux que les réfugiés au sens strict."],
     ["Quelle part de la population mondiale vit hors de son pays de naissance ?", ["Environ trois à quatre pour cent", "Environ dix pour cent, soit huit cents millions de personnes", "Environ un pour cent", "Environ quinze pour cent, en forte hausse"], 0,
-     "Cette proportion est remarquablement stable sur le long terme."],
+     "Cette proportion reste faible, mais elle a augmenté de moitié depuis 1970, où elle était d'environ deux et demi pour cent."],
     ["Que montre l'histoire des migrations ?", ["La mobilité est une constante des sociétés humaines", "Les migrations sont un phénomène récent et moderne", "Les sociétés sont majoritairement sédentaires", "Les déplacements sont presque toujours contraints"], 0,
      "Les périodes de fermeture des frontières sont historiquement récentes.", 3],
   ]),

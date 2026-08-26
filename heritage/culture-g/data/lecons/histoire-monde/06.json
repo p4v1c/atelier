@@ -147,6 +147,18 @@
  ],
  "quiz": [
   {
+   "q": "Quel enchaînement transforme en dix jours un attentat en guerre européenne ?",
+   "choix": [
+    "L'ultimatum autrichien du 23 juillet 1914, sa déclaration de guerre le 28, puis les mobilisations et déclarations en chaîne jusqu'au 4 août",
+    "Une médiation britannique du 30 juillet, suivie d'un arbitrage international resté sans suite",
+    "Un accord secret franco-allemand du 25 juillet, rompu par la seule mobilisation russe",
+    "La convocation immédiate d'une conférence de paix à La Haye, qui échoue le 1er août"
+   ],
+   "bonne": 0,
+   "difficulte": 1,
+   "explication": "Après l'attentat de Sarajevo du 28 juin, l'Autriche-Hongrie adresse à la Serbie un ultimatum le 23 juillet puis lui déclare la guerre le 28. Le jeu des alliances entraîne alors toute l'Europe en quelques jours : la Russie mobilise, l'Allemagne déclare la guerre à la Russie le 1er août puis à la France le 3, et l'invasion de la Belgique neutre fait entrer le Royaume-Uni dans le conflit le 4 août."
+  },
+  {
    "q": "Qu'est-ce que la course à la mer, à l'automne 1914 ?",
    "choix": [
     "Une bataille navale entre les flottes allemande et britannique au large du Jutland",
@@ -156,7 +168,7 @@
    ],
    "bonne": 1,
    "difficulte": 2,
-   "explication": "Après l'échec allemand sur la Marne en septembre 1914, chaque camp cherche à contourner l'aile adverse par le nord. Ces manoeuvres successives allongent le front jusqu'au littoral de la mer du Nord, sans qu'aucun ne parvienne à déborder l'autre. À la fin de l'automne, le front occidental est figé sur près de sept cents kilomètres, de la mer du Nord à la Suisse. Les soldats creusent alors des tranchées et la guerre de mouvement laisse place à une longue guerre de position. La grande bataille navale du conflit, le Jutland, a lieu en 1916."
+   "explication": "Après l'échec allemand sur la Marne en septembre 1914, chaque camp cherche à contourner l'aile adverse par le nord. Ces manœuvres successives allongent le front jusqu'au littoral de la mer du Nord, sans qu'aucun ne parvienne à déborder l'autre. À la fin de l'automne, le front occidental est figé sur près de sept cents kilomètres, de la mer du Nord à la Suisse. Les soldats creusent alors des tranchées et la guerre de mouvement laisse place à une longue guerre de position. La grande bataille navale du conflit, le Jutland, a lieu en 1916."
   },
   {
    "q": "Quelle bataille, commencée le 21 février 1916, dura près de dix mois sans modifier vraiment le front ?",
