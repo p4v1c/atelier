@@ -111,7 +111,7 @@ export const CG_INSTITUTIONS_ECONOMIE: SeedSkill[] = [
     2, [
     ["Qu'est-ce qui caractérise juridiquement un contrat de travail ?", ["Le lien de subordination", "Le versement d'un salaire", "L'existence d'un écrit", "La durée déterminée"], 0,
      "C'est ce critère qui permet de requalifier certaines prestations indépendantes en contrat de travail."],
-    ["Quelle est la forme de contrat de droit commun en France ?", ["Le contrat à durée indéterminée", "Le contrat à durée déterminée renouvelable", "L'intérim par agence", "Le contrat de mission"], 0,
+    ["Quelle est la forme de contrat de droit commun en France ?", ["Le contrat à durée indéterminée", "Le contrat à durée déterminée renouvelable", "L'intérim par agence", "Le contrat de mission d'intérim"], 0,
      "Le contrat à durée déterminée est l'exception et doit reposer sur un motif prévu par la loi."],
     ["Quelle est la durée légale du travail hebdomadaire en France ?", ["Trente-cinq heures", "Trente-neuf heures", "Quarante heures", "Trente-sept heures"], 0,
      "C'est un seuil de déclenchement des heures supplémentaires, pas un plafond de travail."],

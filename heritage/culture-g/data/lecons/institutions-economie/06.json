@@ -168,7 +168,7 @@
     {
       "q": "Selon la définition du Bureau international du travail, qui est considéré comme chômeur ?",
       "choix": [
-        "Toute personne inscrite auprès du service public national de l'emploi",
+        "Toute personne inscrite auprès du service public national chargé de l'emploi",
         "Toute personne sans emploi, y compris les retraités et les étudiants",
         "Une personne sans emploi, disponible et recherchant activement du travail",
         "Une personne travaillant à temps partiel contre son gré, faute de mieux sur le marché"
@@ -192,7 +192,7 @@
     {
       "q": "Que signifie le principe de faveur en droit du travail ?",
       "choix": [
-        "L'employeur choisit librement la règle applicable à chaque salarié",
+        "L'employeur choisit librement la règle qu'il applique à chacun de ses salariés",
         "Le juge tranche toujours en faveur de l'entreprise qui emploie",
         "Une norme inférieure peut s'appliquer si elle est plus avantageuse pour le salarié",
         "Les conventions collectives priment sur la Constitution comme sur toutes les autres normes"

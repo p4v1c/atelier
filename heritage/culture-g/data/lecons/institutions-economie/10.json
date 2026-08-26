@@ -161,7 +161,7 @@
       "choix": [
         "En Égypte, au troisième millénaire avant notre ère",
         "En Lydie, au septième siècle avant notre ère",
-        "À Rome, au premier siècle de notre ère",
+        "À Rome, dès le premier siècle de notre ère",
         "En Chine, au onzième siècle"
       ],
       "bonne": 1,
@@ -174,7 +174,7 @@
         "Toutes les monnaies étaient directement convertibles en or auprès de leurs banques centrales respectives",
         "Les taux de change flottaient librement les uns par rapport aux autres",
         "Le dollar était convertible en or et les autres monnaies étaient définies par rapport au dollar",
-        "Une monnaie mondiale unique, le bancor, avait été créée pour les échanges"
+        "Une monnaie mondiale unique, le bancor, avait été créée pour régler tous les échanges internationaux"
       ],
       "bonne": 2,
       "difficulte": 2,
@@ -183,7 +183,7 @@
     {
       "q": "Que s'est-il passé le 15 août 1971 dans l'histoire monétaire ?",
       "choix": [
-        "La Banque de France a été créée par Napoléon Bonaparte",
+        "La Banque de France a été créée par le Premier consul Bonaparte",
         "Les États-Unis ont suspendu la convertibilité du dollar en or",
         "L'euro a été mis en circulation dans les pays membres",
         "Le Royaume-Uni est revenu à l'étalon-or après plusieurs décennies"
@@ -210,7 +210,7 @@
         "La confiance dans l'émetteur et l'acceptation de la monnaie pour payer l'impôt",
         "Une réserve d'or d'une valeur équivalente, conservée dans les coffres de la banque",
         "Le stock de devises étrangères détenu par la banque centrale",
-        "La valeur du papier et du métal dont sont faits les billets et les pièces"
+        "La valeur marchande du papier et du métal dont sont faits les billets et les pièces"
       ],
       "bonne": 0,
       "difficulte": 2,
