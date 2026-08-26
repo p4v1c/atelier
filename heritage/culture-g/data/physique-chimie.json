@@ -403,7 +403,7 @@
    "q": "Qui a inventé le baromètre à mercure en 1643, démontrant l'existence de la pression atmosphérique ?",
    "choix": [
     "Evangelista Torricelli",
-    "Blaise Pascal",
+    "Blaise Pascal, du Puy de Dôme",
     "Robert Boyle",
     "Otto von Guericke, bourgmestre de Magdebourg"
    ],
@@ -452,7 +452,7 @@
    "choix": [
     "James Clerk Maxwell",
     "Heinrich Hertz",
-    "Hendrik Lorentz",
+    "Hendrik Antoon Lorentz",
     "Charles-Augustin de Coulomb"
    ],
    "bonne": 0,
@@ -511,7 +511,7 @@
    "q": "Que relie la loi des gaz parfaits PV = nRT ?",
    "choix": [
     "La pression, le volume, la quantité de matière et la température d'un gaz",
-    "La pression et la masse volumique d'un liquide",
+    "La pression et la masse volumique d'un liquide au repos dans son récipient",
     "La chaleur et le travail d'un moteur",
     "La vitesse et l'énergie moyenne des molécules à l'intérieur d'un solide cristallin"
    ],
@@ -536,7 +536,7 @@
    "choix": [
     "Le bombardement d'une feuille d'or par des particules alpha",
     "L'électrolyse de l'eau",
-    "La diffraction de la lumière par un cristal",
+    "La diffraction de la lumière visible par un cristal de sel",
     "La mesure de la charge électrique d'une goutte d'huile en suspension"
    ],
    "bonne": 0,
@@ -607,7 +607,7 @@
    "q": "Pourquoi les gaz nobles comme l'hélium ou le néon sont-ils chimiquement très peu réactifs ?",
    "choix": [
     "Leur couche électronique externe est saturée",
-    "Leur noyau est instable",
+    "Leur noyau atomique est instable",
     "Ils ne possèdent aucun électron sur leur couche externe",
     "Ils sont trop légers"
    ],

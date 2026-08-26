@@ -131,7 +131,7 @@
    "choix": [
     "À enrouler la corde du poids moteur autour du tambour",
     "À libérer le mouvement par petites quantités égales et régulières",
-    "À faire sonner les cloches aux heures justes de la journée",
+    "À faire sonner les cloches du beffroi aux heures justes de la journée",
     "À corriger automatiquement la longueur du jour selon la saison de l'année"
    ],
    "bonne": 1,
@@ -154,7 +154,7 @@
    "q": "Quel gain de précision l'horloge à pendule de Huygens, construite en 1656, apporte-t-elle ?",
    "choix": [
     "Elle passe d'environ quinze minutes à environ quinze secondes d'erreur par jour",
-    "Elle passe d'une heure à une minute d'erreur par jour",
+    "Elle passe d'une heure entière à une seule minute d'erreur par jour de marche",
     "Elle ne se dérègle plus jamais, même après plusieurs années de fonctionnement continu",
     "Elle divise l'erreur quotidienne par deux seulement"
    ],
@@ -178,7 +178,7 @@
    "q": "Pourquoi le pape Grégoire XIII a-t-il réformé le calendrier en 1582 ?",
    "choix": [
     "Pour ajouter un treizième mois à l'année civile",
-    "Pour aligner le calendrier chrétien sur le calendrier musulman",
+    "Pour aligner le calendrier chrétien d'Occident sur le calendrier musulman",
     "Pour faire commencer l'année au 1er janvier plutôt qu'au jour de Pâques comme auparavant",
     "Parce que l'année julienne, trop longue, avait décalé l'équinoxe de dix jours"
    ],
