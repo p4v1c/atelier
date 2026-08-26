@@ -409,7 +409,7 @@ export const CG_GEOGRAPHIE_3: SeedSkill[] = [
      "Elle n'a pas de pouvoir souverain mais facilite la gestion de problèmes communs."],
     ["Combien de pays composent l'espace Schengen ?", ["Vingt-neuf, dont quelques non-membres de l'Union", "Vingt-sept, soit exactement les membres de l'Union", "Vingt-cinq, tous membres de l'Union européenne actuelle", "Trente-deux, en comptant les micro-États du continent"], 0,
      "L'Islande, la Norvège, la Suisse et le Liechtenstein en font partie sans être membres de l'Union."],
-    ["Quel État membre de l'Union n'a jamais adopté l'euro par choix ?", ["Le Danemark", "La Suède, membre depuis 1995", "La Pologne, membre depuis 2004", "La Hongrie, membre depuis 2004"], 0,
+    ["Quel État membre de l'Union a négocié une clause d'exemption formelle le dispensant d'adopter l'euro ?", ["Le Danemark", "La Suède, membre depuis 1995", "La Pologne, membre depuis 2004", "La Hongrie, membre depuis 2004"], 0,
      "Le Danemark bénéficie d'une clause d'exemption ; la Suède a de facto choisi de ne pas y entrer."],
     ["Pourquoi les géographes critiquent-ils l'expression de banane bleue ?", ["Elle simplifie à l'excès une réalité économique bien plus fragmentée", "Elle est trop récente pour être utilisée", "Elle désigne une zone totalement inexistante", "Elle ignore complètement les frontières d'État"], 0,
      "Forgée en 1989, l'image a connu un succès médiatique que sa valeur analytique ne justifiait pas."],

@@ -37,8 +37,8 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
     "Dynasties, croyances, monuments.",
     "L'histoire pharaonique s'étend sur plus de trois mille ans.",
     2, [
-    ["Qui a unifié la Haute et la Basse-Égypte ?", ["Narmer, vers 3100 avant notre ère", "Djéser, à l'Ancien Empire", "Khéops, à la IVe dynastie", "Menès, au début du Nouvel Empire"], 0,
-     "La palette de Narmer en conserve la représentation la plus célèbre."],
+    ["Quel pharaon la palette de Nekhen montre-t-elle coiffé des deux couronnes ?", ["Narmer, vers 3100 avant notre ère", "Djéser, à l'Ancien Empire", "Khéops, à la IVe dynastie", "Amenhotep III, au Nouvel Empire"], 0,
+     "Elle le montre portant tour à tour la couronne blanche de Haute-Égypte et la rouge de Basse-Égypte : c'est la plus ancienne image connue de l'unification. Les listes royales postérieures attribuent celle-ci à un Ménès que les égyptologues identifient le plus souvent à Narmer lui-même."],
     ["Quelle pyramide est la plus ancienne pyramide égyptienne connue ?", ["La pyramide à degrés de Djéser", "La pyramide de Khéops, à Gizeh", "La pyramide rhomboïdale", "La pyramide rouge de Snéfrou"], 0,
      "Conçue par l'architecte Imhotep à Saqqarah."],
     ["Qu'est-ce que le Nouvel Empire égyptien ?", ["Une période d'apogée entre le XVIe et le XIe siècle avant notre ère", "La période des grandes pyramides de Gizeh", "L'époque ptolémaïque, après Alexandre", "La Basse Époque, avant la conquête perse"], 0,

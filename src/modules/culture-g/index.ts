@@ -86,10 +86,12 @@ export const cultureGenerale: LearningModule = {
      * de leurs sections. Les trois qui suivent sont dans la rédaction, se
      * comptent, et n'avaient aucun garde-fou.
      *
-     * Ces contrôles avertissent, ils ne bloquent pas : le contenu existant en
-     * est truffé, et refuser le seed le rendrait injouable du jour au
-     * lendemain. L'avertissement est là pour que le compteur descende, et pour
-     * qu'une question neuve ne l'aggrave pas.
+     * Ces contrôles avertissaient sans bloquer, le temps que le compteur
+     * descende : le contenu en était truffé, et refuser le seed l'aurait rendu
+     * injouable du jour au lendemain. Le chantier est fait — la première
+     * astuce est retombée de 66 % à 22 % des questions, le hasard étant à 25 %
+     * — et le premier contrôle bloque désormais, pour que l'acquis ne se
+     * défasse pas au prochain lot écrit.
      */
     const mots = (t: string) => normalizeForDedupe(t);
     const SEUIL_FUITE = 7;
@@ -98,16 +100,61 @@ export const cultureGenerale: LearningModule = {
     //    main, cocher la plus longue donnait 76 % de réussite — le hasard en
     //    donne 25. On écrit la vraie réponse, complète et précise, puis on
     //    bâcle trois leurres : c'est le geste qu'il faut désapprendre.
+    //
+    //    Deux seuils, parce que le défaut se mesure sur une notion entière et
+    //    non sur une question : au-delà de la moitié il bloque, car aucune
+    //    notion du corpus n'y est plus ; à 40 % il avertit, pour qu'une dérive
+    //    se voie avant d'être installée.
     const plusLongues = payloads.filter((p) => {
       const l = p.choices.map((c) => c.length);
       const max = Math.max(...l);
       return l[p.answerIndex] === max && l.filter((x) => x === max).length === 1;
     }).length;
-    if (payloads.length >= 5 && plusLongues / payloads.length > 0.6) {
+    if (payloads.length >= 5 && plusLongues / payloads.length > 0.5) {
+      anomalies.push({
+        severity: "error",
+        code: "reponse-la-plus-longue",
+        message: `la bonne réponse est la plus longue dans ${plusLongues} des ${payloads.length} questions : les leurres ne font pas le poids`,
+      });
+    } else if (payloads.length >= 5 && plusLongues / payloads.length > 0.4) {
       anomalies.push({
         severity: "warn",
         code: "reponse-la-plus-longue",
-        message: `la bonne réponse est la plus longue dans ${plusLongues} des ${payloads.length} questions : les leurres ne font pas le poids`,
+        message: `la bonne réponse est la plus longue dans ${plusLongues} des ${payloads.length} questions : les leurres s'essoufflent`,
+      });
+    }
+
+    // 1 bis. Le piège inverse, découvert en réparant le premier. Allonger un
+    //    seul leurre au-delà de la bonne réponse ne supprime pas l'astuce : il
+    //    la décale d'un rang, et « cocher la deuxième plus longue » marche
+    //    aussi bien. Un domaine entier a dû être repris pour ça — 36 % de ses
+    //    questions étaient lisibles au rang 2 après un premier passage jugé
+    //    terminé. Le remède tient en un mot : allonger deux ou trois leurres,
+    //    jamais un seul.
+    //
+    //    On ne compte que les cas nettement lisibles, quatre caractères
+    //    d'écart de part et d'autre : sans cette marge, le bruit des questions
+    //    dont les propositions ont naturellement des longueurs voisines noierait
+    //    le signal.
+    const rangDeux = payloads.filter((p) => {
+      const bonne = p.choices[p.answerIndex]?.length ?? 0;
+      const autres = p.choices
+        .filter((_, i) => i !== p.answerIndex)
+        .map((c) => c.length)
+        .sort((x, y) => y - x);
+      return autres[0] !== undefined && autres[0] >= bonne + 4 && bonne >= (autres[1] ?? 0) + 4;
+    }).length;
+    if (payloads.length >= 5 && rangDeux / payloads.length > 0.5) {
+      anomalies.push({
+        severity: "error",
+        code: "reponse-deuxieme-plus-longue",
+        message: `la bonne réponse est nettement la deuxième plus longue dans ${rangDeux} des ${payloads.length} questions : l'astuce a changé de rang, pas disparu`,
+      });
+    } else if (payloads.length >= 5 && rangDeux / payloads.length > 0.4) {
+      anomalies.push({
+        severity: "warn",
+        code: "reponse-deuxieme-plus-longue",
+        message: `la bonne réponse est nettement la deuxième plus longue dans ${rangDeux} des ${payloads.length} questions : l'astuce se déplace au rang 2`,
       });
     }
 

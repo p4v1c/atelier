@@ -317,7 +317,7 @@ export const CG_SPORT_3: SeedSkill[] = [
     2, [
     ["Qu'est-ce que l'Agence mondiale antidopage ?", ["Une organisation créée en 1999 pour harmoniser la lutte antidopage", "Une agence dépendant du Comité international olympique, fondée en 1999", "Un organisme européen chargé des contrôles dans les fédérations nationales", "Une fédération internationale des laboratoires antidopage"], 0,
      "Elle publie chaque année la liste des substances et méthodes interdites."],
-    ["Quel effet l'EPO produit-elle sur l'organisme ?", ["Une hormone stimulant la production de globules rouges", "Un stéroïde anabolisant qui augmente la masse musculaire sèche", "Un stimulant du système nerveux qui retarde la sensation de fatigue", "Un diurétique qui masque la présence d'autres substances interdites"], 0,
+    ["Qu'est-ce que l'EPO ?", ["Une hormone stimulant la production de globules rouges", "Un stéroïde anabolisant qui augmente la masse musculaire sèche", "Un stimulant du système nerveux qui retarde la sensation de fatigue", "Un diurétique qui masque la présence d'autres substances interdites"], 0,
      "Elle a été largement détournée dans les sports d'endurance."],
     ["Qu'est-ce qu'un stéroïde anabolisant ?", ["Une substance favorisant le développement musculaire", "Un stimulant du système nerveux central utilisé avant l'effort", "Un anti-inflammatoire injecté dans l'articulation", "Une hormone de croissance de synthèse"], 0,
      "Ses effets secondaires peuvent être graves et durables."],
@@ -521,7 +521,7 @@ export const CG_SPORT_3: SeedSkill[] = [
     2, [
     ["Qu'est-ce que l'assistance vidéo à l'arbitrage au football ?", ["Un dispositif permettant de revoir certaines décisions", "Un arbitrage entièrement automatisé confié à un logiciel d'analyse", "Un contrôle systématique de toutes les actions de la rencontre", "Une aide à la détection du hors-jeu seule"], 0,
      "Elle n'intervient que sur quatre situations précises définies par les règles."],
-    ["Quand l'assistance vidéo a-t-elle été utilisée en Coupe du monde ?", ["En 2018, en Russie", "En 2014, lors du Mondial brésilien", "En 2022, pour la première fois, au Qatar", "En 2010, lors du Mondial sud-africain"], 0,
+    ["Quand l'assistance vidéo a-t-elle été utilisée pour la première fois en Coupe du monde ?", ["En 2018, en Russie", "En 2014, lors du Mondial brésilien", "En 2022, lors du Mondial qatari", "En 2010, lors du Mondial sud-africain"], 0,
      "Son usage avait été testé auparavant dans plusieurs championnats."],
     ["Qu'est-ce que la goal-line technology ?", ["Un système déterminant si le ballon a franchi la ligne de but", "Un système de détection du hors-jeu par capteurs placés dans le ballon", "Un capteur placé à l'intérieur du ballon", "Un arbitrage vidéo limité à la surface de réparation"], 0,
      "Introduit après un but non accordé à l'Angleterre en 2010."],
