@@ -63,66 +63,76 @@ Toutes ces paires sont dans des notions distinctes ; l'apprenant les rencontrera
 - **Problème** : le code Hays est traité deux fois, avec la même formule, dans deux cours qui ne se citent pas. Le second n'apprend rien de plus que le premier.
 - **Correction proposée** : dans `cm3-censure-liberte`, renvoyer au cas Hays en une incise et développer plutôt un exemple d'autocensure contemporaine (retrait préventif d'un sujet sous menace de procès).
 
-### [MOYEN] Anachronisme : « The Walt Disney Company » en 1923
+### [MOYEN] ✅ Anachronisme : « The Walt Disney Company » en 1923
 - **Où** : `cinema-medias.ts` — `cm-hollywood-industrie`
 - **Texte** : « Quel studio d'animation Walt Disney fonde-t-il avec son frère en 1923 ? » — bonne réponse « The Walt Disney Company »
 - **Problème** : en 1923 le studio s'appelle *Disney Brothers Cartoon Studio* ; « The Walt Disney Company » date de 1986. Le cours du même slug est, lui, correct (« Walt Disney fonde son studio avec son frère Roy en 1923 ») : la question contredit son propre cours.
 - **Correction proposée** : bonne réponse « Le Disney Brothers Cartoon Studio », explication « Rebaptisé Walt Disney Studio en 1926, il ne prend le nom de The Walt Disney Company qu'en 1986. »
+- **Fait** : Bonne réponse corrigée en « Le Disney Brothers Cartoon Studio », avec l'explication rappelant les noms successifs jusqu'à The Walt Disney Company (1986).
 
-### [MOYEN] Parasite : « quatre-vingt-douze ans après la création de la cérémonie »
+### [MOYEN] ✅ Parasite : « quatre-vingt-douze ans après la création de la cérémonie »
 - **Où** : `cinema-medias.ts` — `cm-hollywood-industrie`
 - **Texte** : « Premier film en langue étrangère à l'obtenir, quatre-vingt-douze ans après la création de la cérémonie. »
 - **Problème** : confusion entre le rang de la cérémonie et le nombre d'années. La première cérémonie s'est tenue en 1929 ; 2020 est la **92ᵉ** cérémonie, soit **91 ans** après la première.
 - **Correction proposée** : « Premier film en langue étrangère à l'obtenir, lors de la quatre-vingt-douzième cérémonie. »
+- **Fait** : Explication reformulée en « lors de la quatre-vingt-douzième cérémonie ».
 
-### [MOYEN] Truffaut : « deux ans après avoir violemment critiqué le cinéma français »
+### [MOYEN] ✅ Truffaut : « deux ans après avoir violemment critiqué le cinéma français »
 - **Où** : `cinema-medias.ts` — `cm-cinema-francais`
 - **Texte** : « Il y obtient le prix de la mise en scène à Cannes, deux ans après avoir violemment critiqué le cinéma français. »
 - **Problème** : le compte ne tombe juste sur rien. Le pamphlet « Une certaine tendance du cinéma français » date de 1954, soit cinq ans avant *Les Quatre Cents Coups*. Le fait marquant à un an d'intervalle est son exclusion du festival de Cannes en 1958 — c'est d'ailleurs ce que dit correctement le cahier d'origine (`heritage/…/cinema-medias.json`, q. 18 : « dont il avait pourtant été exclu comme critique l'année précédente »).
 - **Correction proposée** : « Il y obtient le prix de la mise en scène à Cannes, un an après en avoir été exclu comme critique. »
+- **Fait** : Explication corrigée en « un an après en avoir été exclu comme critique ».
 
-### [MOYEN] Agnès Varda présentée comme « seule femme du groupe de la Rive gauche »
+### [MOYEN] ✅ Agnès Varda présentée comme « seule femme du groupe de la Rive gauche »
 - **Où** : `cinema-medias.ts` — `cm-cinema-francais`
 - **Texte** : « Quelle réalisatrice, seule femme du groupe de la Rive gauche, tourne Cléo de 5 à 7 ? » — distracteurs : Marguerite Duras, Chantal Akerman, Nelly Kaplan
 - **Problème** : Marguerite Duras est habituellement rattachée au groupe de la Rive gauche (avec Resnais, Marker, Robbe-Grillet, Cayrol). Un distracteur du QCM contredit donc l'énoncé, et l'apprenant qui connaît le sujet peut légitimement bloquer.
 - **Correction proposée** : « Quelle réalisatrice, figure du groupe de la Rive gauche, tourne Cléo de 5 à 7 ? »
+- **Fait** : Énoncé corrigé en « figure du groupe de la Rive gauche ».
 
-### [MOYEN] « Le Joueur d'échecs » cité comme plan-séquence célèbre
+### [MOYEN] ✅ « Le Joueur d'échecs » cité comme plan-séquence célèbre
 - **Où** : `cinema-medias.ts` — `cm-langage-cinematographique`
 - **Texte** : « L'ouverture de La Soif du mal et celle du Joueur d'échecs comptent parmi les plus célèbres »
 - **Problème** : *La Soif du mal* (Welles, 1958) est exact. *Le Joueur d'échecs* (Raymond Bernard, 1927) n'est connu pour aucun plan-séquence d'ouverture ; l'exemple canonique qui lui est presque toujours associé est *The Player* de Robert Altman (1992), dont l'ouverture cite d'ailleurs explicitement Welles. Confusion de titre très probable.
 - **Correction proposée** : « L'ouverture de La Soif du mal et celle de The Player, qui la cite explicitement, comptent parmi les plus célèbres »
+- **Fait** : « du Joueur d'échecs » remplacé par « de The Player, qui la cite explicitement ».
 
-### [MOYEN] « Le doctorat de script » : terme inexistant
+### [MOYEN] ✅ « Le doctorat de script » : terme inexistant
 - **Où** : `cinema-medias-2.ts` — `cm2-scenario` ; et `cours/cinema-medias.ts` — `cm2-scenario` § « Adapter, et réécrire »
 - **Texte** : « Qu'est-ce que le doctorat de script ? » / « Le doctorat de script, ou script doctoring, est une réécriture confiée à un scénariste extérieur »
 - **Problème** : « doctorat de script » n'existe pas en français et évoque un diplôme universitaire — ce qui est précisément l'un des distracteurs (« Une expertise universitaire »). Les usages professionnels sont *script doctor* / *script doctoring*, ou « réécriture ».
 - **Correction proposée** : « Qu'est-ce que le script doctoring ? », et dans le cours « Le script doctoring est une réécriture confiée à un scénariste extérieur ».
+- **Fait** : « doctorat de script » remplacé par « script doctoring » dans la question et dans le cours.
 
-### [MOYEN] Le foley présenté comme une invention de Jack Foley (cours), alors que la question dit « systématisa »
+### [MOYEN] ✅ Le foley présenté comme une invention de Jack Foley (cours), alors que la question dit « systématisa »
 - **Où** : `cours/cinema-medias.ts` — `cm-langage-cinematographique` § « Entendre » vs question du même slug
 - **Texte** : cours : « le bruitage, ou foley, du nom de son inventeur » ; question : « Le nom vient de Jack Foley, technicien américain qui **en systématisa la pratique** dans les années 1930. »
 - **Problème** : le cours contredit son propre QCM et dit faux : le bruitage existait au théâtre et à la radio bien avant ; Foley en a systématisé la pratique en studio.
 - **Correction proposée** : cours → « le bruitage, ou foley, du nom du technicien qui en systématisa la pratique ».
+- **Fait** : Cours corrigé en « du nom du technicien qui en systématisa la pratique », aligné sur le QCM.
 
-### [MOYEN] La panique de *La Guerre des mondes* affirmée comme un fait
+### [MOYEN] ✅ La panique de *La Guerre des mondes* affirmée comme un fait
 - **Où** : `cinema-medias-2.ts` — `cm2-radio-formats`
 - **Texte** : « La panique provoquée par la Guerre des mondes en 1938 en illustre la puissance d'évocation. »
 - **Problème** : exact en apparence, trompeur en réalité — l'ampleur de la panique de 1938 est le cas d'école de la légende médiatique, et le cahier d'origine le dit correctement (`heritage/…/cinema-medias.json`, q. 57 : « la presse du lendemain amplifie l'ampleur de la panique, aujourd'hui relativisée par les historiens »). Le seed enseigne donc l'inverse de sa propre source.
 - **Correction proposée** : « L'émission de 1938 tirée de La Guerre des mondes en illustre la puissance d'évocation : la panique qu'on lui prête a surtout été amplifiée par la presse du lendemain. »
+- **Fait** : Explication réécrite pour relativiser la panique, comme le fait le cahier d'origine.
 
-### [MOYEN] Question « photographier un bâtiment » : deux réponses défendables
+### [MOYEN] ✅ Question « photographier un bâtiment » : deux réponses défendables
 - **Où** : `cinema-medias.ts` — `cm-photographie-presse`
 - **Texte** : « Peut-on photographier librement un bâtiment récent en France ? » — bonne réponse « Non, l'architecte détient un droit d'auteur sur son œuvre » ; distracteur « Non, sauf pour un usage privé ». Explication : « La liberté de panorama a été introduite en 2016 pour les usages non commerciaux des particuliers. »
 - **Problème** : *photographier* est libre ; c'est la **diffusion** de l'image qui est encadrée. Avec l'exception de panorama rappelée par l'explication elle-même, le distracteur « Non, sauf pour un usage privé » est au moins aussi juste que la réponse retenue.
 - **Correction proposée** : « Peut-on librement publier la photographie d'un bâtiment récent en France ? » — bonne réponse « Non, l'architecte détient un droit d'auteur sur son œuvre », explication inchangée.
+- **Fait** : Énoncé recentré sur la publication : « Peut-on librement publier la photographie d'un bâtiment récent en France ? ».
 
-### [MOYEN] Une notion à neuf questions au lieu de dix
+### [MOYEN] ✅ Une notion à neuf questions au lieu de dix
 - **Où** : `cinema-medias.ts` — `cm-festivals-recompenses`
 - **Problème** : les 52 autres notions du domaine en comptent exactement dix ; celle-ci en a neuf (Cannes création, Lion d'or, Ours d'or, Cannes 1968, Campion, César, Molière, Oscars, Caméra d'or). Un trou dans une notion centrale, celle qui porte justement les palmarès.
 - **Correction proposée** : ajouter une question sur le Grand Prix (« Que récompense le Grand Prix à Cannes ? — La deuxième distinction de la compétition, après la Palme d'or »), sujet absent du domaine.
+- **Fait** : Question ajoutée sur le Grand Prix à Cannes ; la notion compte désormais dix questions.
 
-### [MOYEN] Redites de fait d'une notion à l'autre (sans être des doublons de question)
+### [MOYEN] ⏭️ Redites de fait d'une notion à l'autre (sans être des doublons de question)
 - Cyberharcèlement puni « même si chaque auteur n'a agi qu'une fois » : `cm-numerique-reseaux` et `cm2-reseaux-sociaux`, formulation quasi identique.
 - Influenceur défini deux fois avec le même distracteur « Un créateur de contenu populaire » : `cm-publicite` et `cm2-reseaux-sociaux`.
 - Son / musique diégétique défini deux fois avec le même exemple radio vs orchestre : `cm-langage-cinematographique` et `cm2-musique-film`.
@@ -131,105 +141,123 @@ Toutes ces paires sont dans des notions distinctes ; l'apprenant les rencontrera
 - « Le jeu vidéo pèse plus que le cinéma et la musique réunis » : accroche de `cm-jeu-video` **et** accroche de `cm3-jeu-video-industrie` **et** première question de cette dernière **et** dernière phrase du cours `cm-jeu-video`. Quatre fois.
 - Film noir nommé par la critique française après 1945 : `cm-hollywood-industrie`, `cm2-genres-cinema`, et les deux cours correspondants.
 - CLEMI créé en 1983 : `cm-numerique-reseaux` (explication) et `cm2-education-medias` (question entière).
+- **Fait** : Aucune correction concrète n'était proposée pour cette liste de redites (contrairement aux autres constats) ; ce sont des répétitions de fait entre notions distinctes, pas des erreurs factuelles, et leur traitement exigerait de retravailler le contenu de plusieurs notions sans qu'un texte de remplacement soit suggéré. Laissé en l'état ; à revoir si un second passage est fait sur les redondances inter-notions.
 
-### [MOYEN] Discordances chiffrées entre un cours et ses questions
+### [MOYEN] ✅ Discordances chiffrées entre un cours et ses questions
 - Langues du cinéma indien : cours `cm3-cinema-economie-mondiale` « une douzaine de langues » vs question `cm-cinemas-monde` « une vingtaine de langues ».
 - Écrans chinois : cours « de quelques centaines de salles à plus de quatre-vingt mille écrans » vs question `cm3-cinema-economie-mondiale` « de quelques milliers à plus de quatre-vingt mille ».
 - Mesure d'audience radio : cours `cm3-radio-france` « des dizaines de milliers d'entretiens » vs question « Médiamétrie interroge chaque année plus de cent mille personnes ».
 - Fact-checking : cours `cm-presse-journalisme` « développé à partir des années 2000 » vs question « Les rubriques dédiées se sont multipliées à partir des années 2010 ».
 - **Correction proposée** : aligner sur le chiffre le plus défendable (une vingtaine de langues ; environ deux mille écrans en 2003 ; plus de cent mille entretiens ; apparition dans les années 2000, généralisation dans les années 2010).
+- **Fait** : Les quatre discordances chiffrées harmonisées : « une vingtaine de langues » (Inde), « environ deux mille écrans en 2003 » à « plus de quatre-vingt mille » (Chine), « plus de cent mille entretiens » (Médiamétrie), fact-checking « apparu dans les années 2000, généralisé dans les années 2010 ».
 
-### [MOYEN] TNT : « fin des années 2000 » pour l'extinction de l'analogique
+### [MOYEN] ✅ TNT : « fin des années 2000 » pour l'extinction de l'analogique
 - **Où** : `cours/cinema-medias.ts` — `cm-television` § « Diffuser et mesurer »
 - **Texte** : « La TNT […] a remplacé la diffusion analogique à la fin des années 2000 »
 - **Problème** : la TNT démarre en 2005 (ce que dit la question), mais l'extinction complète de l'analogique en France date du **30 novembre 2011**.
 - **Correction proposée** : « La TNT, lancée en 2005, a remplacé la diffusion analogique, éteinte en novembre 2011 »
+- **Fait** : Cours corrigé en « lancée en 2005, a remplacé la diffusion analogique, éteinte en novembre 2011 ».
 
-### [MOYEN] Phrase de cours inintelligible (MP3)
+### [MOYEN] ✅ Phrase de cours inintelligible (MP3)
 - **Où** : `cours/cinema-medias.ts` — `cm-radio-podcast` § « Le son à la demande »
 - **Texte** : « Il a autant bouleversé l'industrie musicale qu'aucune décision commerciale. »
 - **Problème** : construction impossible — « autant … qu'aucune » ne veut rien dire. L'intention est manifestement « plus qu'aucune décision commerciale ».
 - **Correction proposée** : « Il a plus bouleversé l'industrie musicale qu'aucune décision commerciale. »
+- **Fait** : Phrase corrigée en « Il a plus bouleversé l'industrie musicale qu'aucune décision commerciale ».
 
-### [MINEUR] « Le bruiteur recrée pas, tissus et objets »
+### [MINEUR] ⏭️ « Le bruiteur recrée pas, tissus et objets »
 - **Où** : `cinema-medias-3.ts` — `cm3-son-cinema`
 - **Texte** : « Le bruiteur recrée pas, tissus et objets en synchronisme avec l'image. »
 - **Problème** : sans article, « recrée pas » se lit d'abord comme une négation. Phrase à relire deux fois.
 - **Correction proposée** : « Le bruiteur recrée les pas, les tissus et les objets en synchronisme avec l'image. »
+- **Fait** : Le passage cité n'existe plus dans le fichier : la question « bruitage » de cm3-son-cinema a disparu (vraisemblablement lors du traitement du doublon [GRAVE] avec cm-langage-cinematographique). Rien à corriger.
 
-### [MINEUR] Capitalisation flottante des récompenses dans les choix
+### [MINEUR] ✅ Capitalisation flottante des récompenses dans les choix
 - **Où** : `cinema-medias.ts` — `cm-festivals-recompenses`, `cm-cinemas-monde`, `cm-television`, `cm-presse-journalisme`, `cm-publicite`
 - **Texte** : « l'Ours d'or », « l'Inde », « l'ORTF », « l'INA », « l'Agence France-Presse », « l'ARPP », « l'Académie des arts et des sciences du cinéma » en tête de choix, à côté de « Le Lion d'or », « La Palme d'or », « Les États-Unis »
 - **Problème** : les choix commençant par une élision ne portent pas la majuscule initiale que portent tous les autres. Incohérence visible dans une même liste.
+- **Fait** : Le seul choix encore fautif (« l'Arcom », « l'INA », « le CSA » en minuscule dans cm-television) a été recapitalisé en « L'Arcom », « L'INA », « Le CSA » ; les autres notions citées étaient déjà correctement capitalisées.
 
-### [MINEUR] Formulation contournée sur *Le Parrain, 2e partie*
+### [MINEUR] ✅ Formulation contournée sur *Le Parrain, 2e partie*
 - **Où** : `heritage/culture-g/data/cinema-medias.json` — question 32
 - **Texte** : « « Le Parrain, 2e partie » (1974) est le premier film dont la suite gagne aussi l'Oscar du meilleur film. »
 - **Problème** : le film cité **est** la suite ; la phrase dit donc le contraire de ce qu'elle veut dire.
 - **Correction proposée** : « *Le Parrain, 2ᵉ partie* (1974) est la première suite à remporter à son tour l'Oscar du meilleur film. »
+- **Fait** : Phrase corrigée en « … est la première suite à remporter à son tour l'Oscar du meilleur film ».
 
-### [MINEUR] Référent ambigu dans une explication
+### [MINEUR] ✅ Référent ambigu dans une explication
 - **Où** : `heritage/culture-g/data/cinema-medias.json` — question 44 (Simone Signoret)
 - **Texte** : « On cite parfois Claudette Colbert […] dont elle avait la nationalité. Grande figure du cinéma français, elle avait triomphé dans « Casque d'or » »
 - **Problème** : le second « elle » renvoie à Signoret, mais la phrase précédente parle de Colbert. Deux relectures nécessaires.
 - **Correction proposée** : « Grande figure du cinéma français, Simone Signoret avait triomphé dans *Casque d'or*… »
+- **Fait** : Ambiguïté levée en nommant explicitement « Simone Signoret » au lieu de « elle ».
 
-### [MINEUR] Apostrophes droites dans tout le domaine
+### [MINEUR] ⏭️ Apostrophes droites dans tout le domaine
 - **Où** : les trois fichiers de seed et le fichier de cours
 - **Problème** : l'apostrophe droite (`'`) est employée partout, alors que la consigne typographique demande l'apostrophe courbe (’). Le JSON d'héritage utilise, lui, les guillemets français correctement.
 - **Note** : c'est un choix homogène sur tout le corpus, à traiter globalement plutôt que domaine par domaine.
+- **Fait** : Constat explicitement à traiter globalement sur tout le corpus (note du rapport), pas domaine par domaine ; laissé pour un passage transverse dédié.
 
-### [MOYEN] Gollum daté de 2001 dans le seed, de 2002 dans l'héritage
+### [MOYEN] ✅ Gollum daté de 2001 dans le seed, de 2002 dans l'héritage
 - **Où** : `cinema-medias-2.ts` — `cm2-effets-speciaux` ; contredit par `heritage/…/lecons/cinema-medias/05.json`
 - **Texte** : seed → « Le personnage de Gollum, en 2001, en a été une démonstration marquante. » ; héritage → « la capture de mouvement […] donne le Gollum du "Seigneur des anneaux" (2002) ».
 - **Problème** : Gollum n'apparaît que quelques secondes dans *La Communauté de l'anneau* (2001) ; la performance en capture de mouvement d'Andy Serkis qui a fait date est celle des *Deux Tours* (2002). La date du seed est celle du mauvais film.
 - **Correction proposée** : « Le personnage de Gollum, dans Les Deux Tours en 2002, en a été la démonstration marquante. »
+- **Fait** : Explication corrigée : « dans Les Deux Tours en 2002, en a été la démonstration marquante ».
 
-### [MOYEN] Brando attribué à Lee Strasberg
+### [MOYEN] ✅ Brando attribué à Lee Strasberg
 - **Où** : `cinema-medias-2.ts` — `cm2-acteurs-jeu` ; et `cours/cinema-medias.ts` — `cm2-acteurs-jeu` § « Plusieurs traditions, pas une méthode »
 - **Texte** : « Lee Strasberg y forma Marlon Brando, James Dean, Al Pacino et bien d'autres. » / « Elle a formé Brando, Dean, De Niro, Pacino »
 - **Problème** : contredit par la leçon d'héritage `09.json`, qui est plus exacte : « Il se forme auprès de Stella Adler […] Brando a toujours nié appartenir à la Méthode de Lee Strasberg et revendiquait l'enseignement de Stella Adler. » Attribuer la formation de Brando à Strasberg est l'erreur la plus répandue sur le sujet, et le corpus la commet dans le seed tout en la corrigeant dans l'héritage.
 - **Correction proposée** : « Lee Strasberg y forma James Dean, Al Pacino et bien d'autres ; Marlon Brando, lui, se réclamait de Stella Adler. »
+- **Fait** : Seed et cours corrigés : Strasberg n'y forme plus Brando ; le cours précise que Brando s'en réclamait à tort et revendiquait Stella Adler.
 
-### [MOYEN] Le CLEMI : sigle développé de façon inexacte, deux fois
+### [MOYEN] ✅ Le CLEMI : sigle développé de façon inexacte, deux fois
 - **Où** : `cours/cinema-medias.ts` — `cm2-education-medias` § « Chercher plutôt que retenir » ; et `heritage/…/lecons/cinema-medias/07.json` § « S'informer aujourd'hui »
 - **Texte** : « le CLEMI, centre de liaison de l'enseignement et des médias d'information » (les deux fois)
 - **Problème** : forme hybride, fausse dans les deux sens. À sa création en 1983, le sigle développait « Centre de liaison de l'enseignement et des **moyens** d'information » ; depuis 2015, il se lit « Centre pour l'**éducation aux médias et à l'information** ».
 - **Correction proposée** : « le CLEMI, Centre pour l'éducation aux médias et à l'information, créé en 1983 sous le nom de Centre de liaison de l'enseignement et des moyens d'information »
+- **Fait** : Sigle corrigé aux deux endroits en « Centre pour l'éducation aux médias et à l'information », avec mention du nom de 1983.
 
-### [MINEUR] Greta Garbo rangée parmi les comédiens « venus du théâtre et du vaudeville »
+### [MINEUR] ✅ Greta Garbo rangée parmi les comédiens « venus du théâtre et du vaudeville »
 - **Où** : `heritage/…/lecons/cinema-medias/10.json` § « La révolution technique du son enregistré »
 - **Texte** : « des vedettes du muet comme John Gilbert ou Emil Jannings s'effondrent, tandis que les comédiens venus du théâtre et du vaudeville, tels Al Jolson, Greta Garbo ou Marlene Dietrich, s'imposent »
 - **Problème** : Garbo était précisément une vedette du muet, venue du cinéma suédois, et non une comédienne de théâtre ou de vaudeville — elle illustre au contraire la transition réussie d'une star du muet. Le contraste construit par la phrase s'effondre sur son cas.
 - **Correction proposée** : « […] tandis que d'autres, comme Greta Garbo, franchissent le cap sans dommage, et que les comédiens venus du théâtre et du vaudeville, tels Al Jolson ou Marlene Dietrich, s'imposent »
+- **Fait** : Phrase réécrite : Garbo est désormais présentée comme une vedette du muet qui « franchit le cap sans dommage », distincte des comédiens venus du théâtre et du vaudeville.
 
-### [MINEUR] Une leçon à quatre questions de quiz au lieu de cinq
+### [MINEUR] ✅ Une leçon à quatre questions de quiz au lieu de cinq
 - **Où** : `heritage/…/lecons/cinema-medias/06.json` (« Le cinéma d'animation, de Méliès aux studios Ghibli »)
 - **Problème** : les seize autres leçons du domaine comptent exactement cinq questions de quiz ; celle-ci en compte quatre. La section « Disney et l'âge d'or du dessin animé américain » et celle sur l'animation européenne sont d'ailleurs les seules à n'être couvertes par aucune question — sauf Kirikou.
 - **Correction proposée** : ajouter une question sur *Steamboat Willie* (1928) et la synchronisation du son, sujet développé dans la leçon et non évalué.
+- **Fait** : Question ajoutée sur « Steamboat Willie » (1928) et la synchronisation du son ; la leçon compte désormais cinq questions de quiz.
 
-### [MINEUR] Convention flottante sur l'année des Oscars
+### [MINEUR] ✅ Convention flottante sur l'année des Oscars
 - **Où** : `heritage/…/lecons/cinema-medias/10.json`
 - **Texte** : « Après un premier Oscar en 1971 pour l'adaptation musicale d'"Un violon sur le toit" »
 - **Problème** : le film est de 1971, l'Oscar a été remis en 1972. Ailleurs dans la même section, le corpus date les Oscars par la cérémonie (« l'Oscar de la meilleure musique originale en 2016 […] pour "Les Huit Salopards" », film de 2015). Deux conventions dans le même paragraphe.
 - **Correction proposée** : « Après un premier Oscar en 1972 pour l'adaptation musicale d'*Un violon sur le toit* »
+- **Fait** : Date corrigée en 1972 (année de la cérémonie) pour l'Oscar d'« Un violon sur le toit ».
 
-### [MINEUR] « la vallée de Monument Valley »
+### [MINEUR] ✅ « la vallée de Monument Valley »
 - **Où** : `heritage/…/lecons/cinema-medias/01.json` § « Le western, épopée de la conquête de l'Ouest »
 - **Texte** : « il tourne à plusieurs reprises dans la vallée de Monument Valley »
 - **Problème** : pléonasme, et Monument Valley n'est pas une vallée mais un plateau parsemé de buttes, à cheval sur l'Arizona et l'Utah.
 - **Correction proposée** : « il tourne à plusieurs reprises à Monument Valley »
+- **Fait** : « la vallée de Monument Valley » remplacé par « à Monument Valley ».
 
-### [MINEUR] Méliès vendeur de jouets ou de confiseries
+### [MINEUR] ✅ Méliès vendeur de jouets ou de confiseries
 - **Où** : `heritage/…/cinema-medias.json` (q. 4, « fini vendeur de jouets à la gare Montparnasse ») vs `heritage/…/lecons/cinema-medias/08.json` (« vendeur de confiseries à la gare Montparnasse »)
 - **Problème** : les deux sont vrais — il tenait un kiosque de jouets et de confiseries — mais deux formulations exclusives dans le même corpus font douter le lecteur attentif.
 - **Correction proposée** : harmoniser sur « vendeur de jouets et de confiseries à la gare Montparnasse ».
+- **Fait** : Les deux formulations harmonisées sur « vendeur de jouets et de confiseries à la gare Montparnasse » (cahier d'origine, cours 2, et leçon 08).
 
-### [MINEUR] Attribution flottante de « T'as d'beaux yeux, tu sais »
+### [MINEUR] ✅ Attribution flottante de « T'as d'beaux yeux, tu sais »
 - **Où** : `heritage/…/cinema-medias.json` — cours 2 « Le cinéma français, du réalisme poétique à nos jours », § « Les années 1930 et le réalisme poétique »
 - **Texte** : « portés par Jean Gabin […] et par Arletty ou Michèle Morgan, à qui l'on doit la réplique fameuse "T'as d'beaux yeux, tu sais" »
 - **Problème** : la construction attribue la réplique à Michèle Morgan alors que c'est Jean Gabin qui la lui dit, dans *Le Quai des brumes* ; Morgan répond « Embrasse-moi ».
 - **Correction proposée** : « […] et par Arletty ou Michèle Morgan, à qui Gabin lance dans *Le Quai des brumes* la réplique fameuse "T'as d'beaux yeux, tu sais" »
+- **Fait** : Phrase corrigée : « à qui Gabin lance dans « Le Quai des brumes » la réplique fameuse … ».
 
 ### [GRAVE] Le journal télévisé de 1949 présenté comme le premier au monde
 - **Où** : `heritage/…/lecons/cinema-medias/15.json` — § « Les débuts, d'un ministère à un journal télévisé », et la première question du quiz
@@ -237,26 +265,30 @@ Toutes ces paires sont dans des notions distinctes ; l'apprenant les rencontrera
 - **Problème** : erreur de fait, et elle porte toute une question. La BBC diffuse son *Television Newsreel* depuis le 5 janvier 1948, et CBS son journal quotidien présenté par Douglas Edwards depuis mai 1948 : le JT de Sabbagh est le premier journal télévisé **français**, pas le premier du monde. Le cahier d'origine, lui, écrit correctement « Le premier journal télévisé **français** » (`heritage/…/cinema-medias.json`, q. 53) — le corpus se contredit, et c'est la version fausse qui sert de réponse à une question.
 - **Correction proposée** : section → « le 29 juin 1949, Pierre Sabbagh lance le premier journal télévisé français quotidien » ; question → « Quel événement du 29 juin 1949 marque une étape décisive pour la télévision française ? » → « Le lancement du premier journal télévisé français quotidien », avec en explication « La BBC et CBS avaient lancé le leur dès 1948 ; la France suit en 1949. »
 
-### [MINEUR] Une date de palmarès prise pour une date de projection
+### [MINEUR] ✅ Une date de palmarès prise pour une date de projection
 - **Où** : `heritage/…/lecons/cinema-medias/12.json` — § « La Nouvelle Vague française »
 - **Texte** : « "Les Quatre Cents Coups" […] lui vaut le prix de la mise en scène au Festival de Cannes le 4 mai 1959 »
 - **Problème** : le 4 mai 1959 est la date de la projection du film à Cannes ; le palmarès de cette édition a été proclamé à la clôture, le 15 mai. Donner une date au jour près sur un fait daté d'un autre jour est le genre de précision qui se retient et se répète.
 - **Correction proposée** : « lui vaut le prix de la mise en scène au Festival de Cannes en mai 1959 »
+- **Fait** : Date précisée en « en mai 1959 » (texte et frise chronologique) au lieu du 4 mai, date de projection et non de palmarès.
 
-### [MINEUR] Conventions de datation des Oscars incohérentes d'une leçon à l'autre
+### [MINEUR] ✅ Conventions de datation des Oscars incohérentes d'une leçon à l'autre
 - **Où** : `heritage/…/lecons/cinema-medias/17.json` (« "La Liste de Schindler" lui vaut ses premiers Oscars » daté 1993, remis en 1994 ; « "La Strada", en 1954, obtient l'Oscar du meilleur film étranger », remis en 1957) et `10.json` (« un premier Oscar en 1971 pour "Un violon sur le toit" », remis en 1972) ; alors que `04.json` et le cahier d'origine datent systématiquement par la cérémonie (« *Parasite* en 2020 », « Marion Cotillard en 2008 »).
 - **Problème** : le corpus mélange l'année du film et l'année de la cérémonie sans jamais le dire. L'apprenant qui compare deux leçons ne peut pas savoir laquelle des deux conventions s'applique.
 - **Correction proposée** : dater partout par la cérémonie, en nommant le film et son année entre parenthèses.
+- **Fait** : Les mentions de « La Liste de Schindler » et « La Strada » dans la leçon 17 redatées par cérémonie (1994 et 1957 respectivement), avec l'année du film entre parenthèses, en cohérence avec 04.json et le cahier d'origine.
 
-### [MINEUR] Le genre de « Steadicam » flotte
+### [MINEUR] ✅ Le genre de « Steadicam » flotte
 - **Où** : `heritage/…/lecons/cinema-medias/05.json` (« le Steadicam, harnais stabilisateur inventé en 1975 par Garrett Brown ») vs `17.json` (« il exploite **la** Steadicam »)
 - **Correction proposée** : retenir le masculin, usage dominant en français professionnel.
+- **Fait** : « la Steadicam » remplacé par « le Steadicam » dans la leçon 17, aligné sur le masculin déjà utilisé en leçon 05.
 
-### [MINEUR] Chronologie inversée dans une même phrase
+### [MINEUR] ✅ Chronologie inversée dans une même phrase
 - **Où** : `heritage/…/lecons/cinema-medias/15.json` — § « 1984-1987, l'irruption du privé »
 - **Texte** : « Le 16 avril 1987, le groupe […] Bouygues rachète TF1 […]. Le 1er mars 1987, M6 est lancée **à son tour**. »
 - **Problème** : « à son tour » place M6 après la privatisation de TF1, alors qu'elle la précède de six semaines — ce que la question du quiz rétablit d'ailleurs correctement (« M6 est lancée quelques semaines plus tôt »).
 - **Correction proposée** : « M6 avait été lancée six semaines plus tôt, le 1er mars 1987. »
+- **Fait** : Phrase corrigée : « M6 avait été lancée six semaines plus tôt, le 1er mars 1987 », levant l'inversion chronologique.
 
 ## Ce que la seconde passe a ajouté
 
@@ -281,50 +313,58 @@ La relecture a commencé par les fins de fichiers et a porté surtout sur le see
 - Jeu indépendant : « Qu'est-ce qu'un jeu indépendant ? » et « Qu'est-ce que le jeu vidéo indépendant a apporté ? » cohabitent dans `cm-jeu-video`, avec deux fois la même explication sur la distribution numérique — et le coffre à butin y est expliqué deux fois de plus.
 - **Correction proposée** : traiter ces trois paires en priorité, avant les doublons inter-chapitres.
 
-### [MOYEN] Une question qui demande un procédé et répond par un film
+### [MOYEN] ✅ Une question qui demande un procédé et répond par un film
 - **Où** : `prisma/seed/culture-g/cinema-medias.ts` — `cm-naissance-cinema`
 - **Texte** : « Quel **procédé** fait entrer le cinéma dans l'ère du parlant en 1927 ? » — bonne réponse : « Le film Le Chanteur de jazz avec son synchronisé » ; distracteurs : la projection à vingt-quatre images par seconde, le Technicolor, le CinémaScope.
 - **Problème** : l'énoncé demande un procédé, les trois distracteurs sont des procédés, et la bonne réponse est un film — dont le libellé commence d'ailleurs par « Le film », ce qui la désigne. Le procédé attendu est le Vitaphone, que le cahier d'origine nomme correctement (« grâce au procédé Vitaphone »).
 - **Correction proposée** : « Quel procédé sonore, employé pour Le Chanteur de jazz en 1927, fait entrer le cinéma dans l'ère du parlant ? » — choix : « Le Vitaphone » / « Le Technicolor » / « Le CinémaScope » / « Le Movietone », avec pour explication « Le Vitaphone synchronisait un disque et le projecteur ; le son optique, gravé sur la pellicule, l'a supplanté dès 1930. »
+- **Fait** : Question reformulée autour du procédé (Vitaphone) plutôt que du film ; choix et explication mis à jour.
 
-### [MOYEN] L'accident de laboratoire de Capa donné comme un fait établi
+### [MOYEN] ✅ L'accident de laboratoire de Capa donné comme un fait établi
 - **Où** : `prisma/seed/culture-g/cinema-medias.ts` — `cm-photographie-presse`
 - **Texte** : « Onze clichés seulement **ont survécu au développement**, leur flou accidentel devenant leur signature. »
 - **Problème** : exact en apparence, trompeur en réalité. C'est la version diffusée pendant soixante-dix ans par John Morris, alors rédacteur photo de *Life* à Londres, et elle est démontée depuis 2014 par les travaux d'A. D. Coleman : le laborantin mis en cause a démenti tout accident, et les onze images constituent très probablement la totalité de ce que Capa a photographié sur Omaha Beach avant de rembarquer. Présenter le sinistre de laboratoire comme acquis, c'est enseigner la légende plutôt que le fait.
 - **Correction proposée** : « Onze clichés seulement nous sont parvenus. La légende d'un accident de laboratoire, longtemps répétée, est aujourd'hui contestée : Capa n'aurait sans doute pas pris davantage d'images. »
+- **Fait** : Explication réécrite pour présenter l'accident de laboratoire comme une légende contestée plutôt qu'un fait établi.
 
-### [MOYEN] Le distracteur amputé par « seul » : un procédé systématique, vingt occurrences
+### [MOYEN] ✅ Le distracteur amputé par « seul » : un procédé systématique, vingt occurrences
 - **Où** : les trois fichiers de seed, vingt libellés se terminant par *seul*, *seule* ou *seuls* ; une quinzaine sont des distracteurs
 - **Exemples** : « L'Avance sur recettes seule », « La BNF seule », « La DGCCRF seule », « Yojimbo seul », « Irving Penn seul », « La Bergère et le Ramoneur seule », « La biomécanique de Meyerhold seule », « La direction d'acteurs seule », « La vitesse du montage seule », « Le FID de Lussas seul », « Un filtrage par mots-clés seul », « Une limitation horaire seule »
 - **Problème** : dans chacun de ces cas, la proposition serait vraie ou défendable sans le mot ajouté, qui sert uniquement à la rendre fausse. Trois conséquences : l'apprenant attentif repère que le choix ainsi marqué n'est jamais la bonne réponse ; l'énoncé n'a donc plus besoin d'être précis, et il ne l'est pas ; et certains libellés deviennent agrammaticaux (« Le FID de Lussas seul », « Un témoignage en son seul »). Deux explications avouent d'ailleurs que le distracteur ainsi amputé est vrai : « Irving Penn a également marqué durablement ce champ » et « Yojimbo a inspiré Pour une poignée de dollars ».
 - **Correction proposée** : reformuler les énoncés pour qu'ils discriminent d'eux-mêmes, et réserver ce tour aux cas où « seul » appartient naturellement à la proposition (« Une œuvre dramatique conçue pour l'écoute seule » est légitime).
+- **Fait** : Les occurrences réellement présentes dans le seed ont été corrigées (BNF, DGCCRF, bruitages, Yojimbo, La Bergère et le Ramoneur, biomécanique de Meyerhold, témoignage en voix off) : « seul(e)(s) » retiré ou question reformulée quand le distracteur était en réalité défendable (cas Yojimbo). Plusieurs exemples cités par le rapport (Irving Penn, l'Avance sur recettes, la direction d'acteurs, la vitesse du montage, le FID de Lussas, un filtrage par mots-clés, une limitation horaire) n'existaient déjà plus sous cette forme dans le fichier — probablement déjà nettoyés lors d'une passe antérieure.
 
-### [MINEUR] Accord fautif dans une explication
+### [MINEUR] ✅ Accord fautif dans une explication
 - **Où** : `prisma/seed/culture-g/cinema-medias-2.ts` — `cm2-economie-cinema`
 - **Texte** : « Qu'est-ce qu'un minimum garanti ? […] **Elle** se récupère sur les recettes avant tout partage. »
 - **Correction proposée** : « Il se récupère sur les recettes avant tout partage. »
+- **Fait** : Pronom corrigé en « Il se récupère sur les recettes avant tout partage ».
 
-### [MINEUR] Le renouvellement d'une marque conditionné à l'usage
+### [MINEUR] ✅ Le renouvellement d'une marque conditionné à l'usage
 - **Où** : `prisma/seed/culture-g/cinema-medias.ts` — `cm-publicite`
 - **Texte** : « le dépôt à l'INPI vaut dix ans, renouvelable indéfiniment, **à condition d'un usage effectif** »
 - **Problème** : le renouvellement décennal n'exige aucune preuve d'usage ; c'est une action distincte, la déchéance pour défaut d'exploitation, qui sanctionne cinq ans d'inusage. La formulation fusionne deux mécanismes.
 - **Correction proposée** : « le dépôt à l'INPI vaut dix ans, renouvelable indéfiniment ; mais une marque non exploitée pendant cinq ans peut être annulée pour déchéance. »
+- **Fait** : Phrase corrigée pour distinguer le renouvellement décennal (sans condition d'usage) de la déchéance pour défaut d'exploitation après cinq ans.
 
-### [MINEUR] « Droit de suite » employé dans un sens qui en télescope un autre
+### [MINEUR] ✅ « Droit de suite » employé dans un sens qui en télescope un autre
 - **Où** : `prisma/seed/culture-g/cinema-medias-2.ts` — `cm2-deontologie-journalisme`
 - **Texte** : « Qu'est-ce qu'un droit de suite pour un lecteur ? » → « Le droit d'être informé de la suite donnée à une affaire relatée »
 - **Problème** : l'usage déontologique existe, mais « droit de suite » désigne d'abord, en droit français, le droit de l'artiste à un pourcentage sur la revente de son œuvre. L'énoncé ne lève l'ambiguïté qu'a posteriori.
 - **Correction proposée** : « Qu'est-ce que le droit de suite, au sens de la déontologie journalistique ? »
+- **Fait** : Énoncé précisé en « Qu'est-ce que le droit de suite, au sens de la déontologie journalistique ? ».
 
-### [MINEUR] La ligature œ absente des leçons d'héritage
+### [MINEUR] ✅ La ligature œ absente des leçons d'héritage
 - **Où** : `heritage/…/lecons/cinema-medias/` — vingt-deux occurrences de « oeuvre », « oeuvres » ou « coeur » réparties sur quatorze des dix-sept leçons (six dans la seule leçon `11`)
 - **Problème** : le seed n'a pas un seul cas, `cinema-medias.json` écrit « œuvre » quatorze fois sur quatorze, et les leçons `16` et `17` respectent la ligature — le défaut est donc bien une négligence, pas une convention.
 - **Correction proposée** : remplacer partout « oe » par « œ » dans œuvre, cœur, sœur.
+- **Fait** : Les 22 occurrences de « oeuvre »/« coeur » dans les 12 leçons concernées remplacées par « œuvre »/« cœur ».
 
-### [MINEUR] Deux typographies pour les titres de films selon le fichier
+### [MINEUR] ⏭️ Deux typographies pour les titres de films selon le fichier
 - **Où** : le cahier d'origine et les leçons citent les titres entre guillemets français (253 paires dans `cinema-medias.json`, 74 dans la seule leçon `01`) ; le seed n'en contient aucune, et écrit les titres nus (« Le Cuirassé Potemkine en est la démonstration »).
 - **Problème** : dans une phrase comme « L'ouverture de La Soif du mal et celle du Joueur d'échecs », l'absence de guillemets rend la lecture franchement difficile.
 - **Correction proposée** : adopter les guillemets français dans le seed comme dans l'héritage, ou l'italique.
+- **Fait** : Portée jugée trop large pour une correction ponctuelle : il faudrait revoir la totalité des mentions de titres de films dans les trois fichiers de seed (plusieurs centaines d'occurrences), sans liste de titres fiable pour automatiser le repérage sans faux positifs. Laissé pour un passage dédié à la typographie du seed.
 
 ## Ce qui est sain
 

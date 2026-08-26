@@ -122,215 +122,250 @@ Total du domaine : **14 GRAVE**, **16 MOYEN**, **21 MINEUR**, plus une confirmat
 
 **— Gravité MOYEN —**
 
-### [MOYEN] Le Boléro : « un unique thème », et deux comptes différents
+### [MOYEN] ✅ Le Boléro : « un unique thème », et deux comptes différents
 - **Où** : `prisma/seed/culture-g/cours/arts-musique.ts` (`am2-musique-xxe`, section « Sortir de la tonalité… ») ; `prisma/seed/culture-g/arts-musique-2.ts` (`am2-musique-xxe`) ; `heritage/culture-g/data/arts-musique.json` q. 40
 - **Texte cours** : « repose sur un unique thème répété **une quinzaine de fois** en crescendo » — **Texte héritage** : « un unique thème répété **dix-huit fois** »
 - **Problème** : deux imprécisions cumulées. (1) Le *Boléro* comporte **deux** thèmes (A et B) qui alternent, neuf expositions chacune ; « un unique thème » est une simplification fautive répétée dans trois fichiers. (2) Les deux jeux de données ne donnent pas le même chiffre (15 vs 18) ; le bon est **18**.
 - **Correction proposée** : « repose sur deux thèmes alternés, exposés dix-huit fois au total sur un ostinato de caisse claire, en un crescendo continu ».
+- **Fait** : corrigé dans les trois fichiers (`cours/arts-musique.ts`, `arts-musique-2.ts`, `heritage/.../arts-musique.json`) : « deux thèmes alternés, exposés dix-huit fois au total ».
 
-### [MOYEN] Georges de La Tour : « deux siècles » dans le cours, « trois siècles » dans la question
+### [MOYEN] ✅ Georges de La Tour : « deux siècles » dans le cours, « trois siècles » dans la question
 - **Où** : `prisma/seed/culture-g/cours/arts-musique.ts` (`am2-baroque-classicisme`, section « La France et l'Espagne ») vs `prisma/seed/culture-g/arts-musique-2.ts` (`am2-baroque-classicisme`)
 - **Texte cours** : « Oublié pendant **deux siècles**, il n'est redécouvert qu'en 1915. » — **Texte question** : « Oublié pendant **trois siècles**, il a été redécouvert au début du XXe siècle. »
 - **Problème** : contradiction directe entre le cours et la question de la même notion. La Tour meurt en 1652, Hermann Voss le réattribue en 1915 : cela fait **deux siècles et demi**, et « trois siècles » est la formulation la moins exacte des deux.
 - **Correction proposée** : harmoniser sur « oublié pendant deux siècles et demi, il n'est redécouvert qu'en 1915 » dans les deux textes.
+- **Fait** : harmonisé sur « deux siècles et demi » dans le cours et dans la question.
 
-### [MOYEN] Les portes du baptistère : le concours de 1401 n'est pas celui des « portes du Paradis »
+### [MOYEN] ✅ Les portes du baptistère : le concours de 1401 n'est pas celui des « portes du Paradis »
 - **Où** : `prisma/seed/culture-g/arts-musique-2.ts:~104` — `am2-renaissance-italienne`
 - **Texte** : « Qui réalise les portes du baptistère de Florence après un concours de 1401 ? » → Ghiberti — « Michel-Ange les surnomma les portes du Paradis. »
 - **Problème** : la réponse est juste, l'explication conflate deux commandes distinctes. Le concours de 1401 porte sur les portes **nord** (exécutées 1403-1424). Les « portes du Paradis » sont les portes **est**, commandées en 1425 et achevées en 1452, sans concours. Le surnom ne s'applique donc pas à « ces » portes-là.
 - **Correction proposée** : « Il exécuta d'abord les portes nord, puis obtint sans concours les portes est, que Michel-Ange surnomma les portes du Paradis. »
+- **Fait** : explication remplacée par le texte proposé.
 
-### [MOYEN] Le David de Donatello ne précède pas celui de Michel-Ange « d'un siècle »
+### [MOYEN] ✅ Le David de Donatello ne précède pas celui de Michel-Ange « d'un siècle »
 - **Où** : `prisma/seed/culture-g/arts-musique-2.ts:~106` — `am2-renaissance-italienne`
 - **Texte** : « Première statue nue autonome depuis l'Antiquité, elle précède d'un siècle celle de Michel-Ange. »
 - **Problème** : le David de bronze de Donatello est daté, selon les hypothèses, des années 1430 à 1460 ; celui de Michel-Ange de 1501-1504. L'écart est donc de **quarante à soixante-dix ans**, pas d'un siècle. Le chiffre rond est faux dans tous les scénarios de datation.
 - **Correction proposée** : « Première statue nue autonome depuis l'Antiquité, elle précède d'une cinquantaine d'années celle de Michel-Ange. »
+- **Fait** : « d'un siècle » remplacé par « d'une cinquantaine d'années ».
 
-### [MOYEN] Le hip-hop « genre le plus écouté au monde » : affirmation datée et non sourcée
+### [MOYEN] ✅ Le hip-hop « genre le plus écouté au monde » : affirmation datée et non sourcée
 - **Où** : `prisma/seed/culture-g/cours/arts-musique.ts` — `am-musiques-actuelles`, section « Hip-hop et électro »
 - **Texte** : « C'est aujourd'hui le genre le plus écouté au monde. »
 - **Problème** : chiffre sans date présenté comme un fait stable. Les classements de consommation dépendent du périmètre (États-Unis / monde) et de la source ; le rap domine certaines années le marché américain, mais la pop reste en tête à l'échelle mondiale dans la plupart des mesures. Exactement le cas visé par la consigne : « un chiffre sans date alors qu'il a changé ».
 - **Correction proposée** : « C'est devenu, dans les années 2010, l'un des genres les plus écoutés au monde, en tête de la consommation aux États-Unis. »
+- **Fait** : phrase remplacée telle quelle.
 
-### [MOYEN] Le bombardement de Guernica attribué à la seule aviation allemande dans le cours
+### [MOYEN] ✅ Le bombardement de Guernica attribué à la seule aviation allemande dans le cours
 - **Où** : `prisma/seed/culture-g/cours/arts-musique.ts` — `am-peinture-moderne`, section « Le choc des avant-gardes »
 - **Texte** : « dénonçant le bombardement d'une ville basque **par l'aviation allemande** pendant la guerre d'Espagne »
 - **Problème** : cause unique donnée à un événement qui en a plusieurs. Le bombardement du 26 avril 1937 a été mené par la **légion Condor allemande et l'Aviazione Legionaria italienne**. Le fichier hérité (`arts-musique.json`, q. 5) le dit correctement — le cours est donc en retrait par rapport à sa propre source.
 - **Correction proposée** : « … par la légion Condor allemande et l'aviation italienne, aux côtés des franquistes ».
+- **Fait** : corrigé dans le cours.
 
-### [MOYEN] « Ornement et crime » n'a pas été publié en 1908
+### [MOYEN] ✅ « Ornement et crime » n'a pas été publié en 1908
 - **Où** : `prisma/seed/culture-g/arts-musique.ts:~33` — `am-architecture-styles`
 - **Texte** : « Adolf Loos **publie** Ornement et crime en 1908. »
 - **Problème** : la date de 1908 est traditionnelle mais réfutée. Le texte est une **conférence donnée en 1910**, publiée en français en 1913 dans *Les Cahiers d'aujourd'hui*, puis en allemand en 1929. Le verbe « publie » associé à 1908 cumule les deux erreurs. *(Incertitude : moyenne — la littérature ancienne donne encore 1908 ; la datation de 1910 est établie par Christopher Long, 2009.)*
 - **Correction proposée** : « Adolf Loos prononce Ornement et crime en 1910. Le Bauhaus, fondé en 1919, en fera une école. »
+- **Fait** : « publie … en 1908 » remplacé par « prononce … en 1910 ».
 
-### [MOYEN] Bauhaus : « avant Mies van der Rohe » n'est discriminant que si l'on connaît la nationalité de Hannes Meyer
+### [MOYEN] ✅ Bauhaus : « avant Mies van der Rohe » n'est discriminant que si l'on connaît la nationalité de Hannes Meyer
 - **Où** : `prisma/seed/culture-g/arts-musique-2.ts:~372` — `am2-architecture-contemporaine`
 - **Texte** : « Quel architecte allemand a dirigé le Bauhaus avant Mies van der Rohe ? » → Gropius ; distracteur : **Hannes Meyer**.
 - **Problème** : Hannes Meyer a dirigé le Bauhaus **immédiatement avant** Mies (1928-1930) : il satisfait littéralement l'énoncé mieux que Gropius (1919-1928). Seul l'adjectif « allemand » le disqualifie — Meyer était suisse — ce qui est une finesse que l'apprenant n'a aucune raison de connaître, et qui n'est expliquée nulle part. Le cours (`am2-architecture-contemporaine`) dit d'ailleurs correctement « le dirige avant Hannes Meyer puis Mies van der Rohe ».
 - **Correction proposée** : « Quel architecte a **fondé** le Bauhaus et l'a dirigé jusqu'en 1928 ? » → Walter Gropius, et compléter l'explication : « Hannes Meyer, suisse, lui succéda, puis Mies van der Rohe. »
+- **Fait** : énoncé et explication remplacés comme proposé, dans `arts-musique-2.ts`.
 
-### [MOYEN] Deux distracteurs qui désignent les mêmes personnes
+### [MOYEN] ⏭️ Deux distracteurs qui désignent les mêmes personnes
 - **Où** : `prisma/seed/culture-g/arts-musique-3.ts:~470` — `am3-art-espace-public`
 - **Texte** : « Quel couple d'artistes a empaqueté le Pont-Neuf et l'Arc de triomphe ? » — propositions : « Christo et Jeanne-Claude », « Gilbert et George », « **Les Poirier** », « **Anne et Patrick Poirier** ».
 - **Problème** : « Les Poirier » et « Anne et Patrick Poirier » sont **la même chose**. Deux propositions redondantes réduisent de fait le QCM à trois choix et signalent à l'apprenant attentif qu'aucune des deux n'est la bonne. Le validateur (`src/modules/kinds/qcm.ts`) ne détecte que les doublons de chaîne exacte, ce qui laisse passer le cas.
 - **Correction proposée** : remplacer « Les Poirier » par un autre duo plausible, par exemple « Ilya et Emilia Kabakov ».
+- **Fait** : rien à faire — les propositions actuelles sont déjà « Christo et Jeanne-Claude », « Gilbert et George, artistes britanniques », « Pierre et Gilles, photographes », « Anne et Patrick Poirier, sculpteurs » : le doublon a disparu (correction déjà appliquée avant mon passage).
 
-### [MOYEN] Vermeer : « une trentaine » dans la question, « une quarantaine » dans le cours
+### [MOYEN] ✅ Vermeer : « une trentaine » dans la question, « une quarantaine » dans le cours
 - **Où** : `prisma/seed/culture-g/arts-musique-2.ts` (`am2-baroque-classicisme`) vs `prisma/seed/culture-g/cours/arts-musique.ts` (même slug, section « Le Nord : ateliers, marchands et intérieurs »)
 - **Texte** : question — « Une trentaine de tableaux seulement lui sont attribués avec certitude » ; cours — « Vermeer, à Delft, peint peu — une quarantaine de toiles connues ».
 - **Problème** : incohérence cours ↔ question sur un chiffre. Le corpus admis est de **34 à 36** toiles : « une trentaine » est juste, « une quarantaine » est haut.
 - **Correction proposée** : harmoniser sur « une trentaine de toiles » dans le cours.
+- **Fait** : « une quarantaine » remplacé par « une trentaine » dans le cours.
 
-### [MOYEN] Brel n'a pas quitté la scène « à trente-neuf ans »
+### [MOYEN] ✅ Brel n'a pas quitté la scène « à trente-neuf ans »
 - **Où** : `prisma/seed/culture-g/arts-musique-2.ts:~310` — `am2-chanson-francaise`
 - **Texte** : « Il a cessé la scène à trente-neuf ans, au sommet de sa carrière. »
 - **Problème** : Brel est né le 8 avril 1929 ; son dernier récital a lieu le **16 mai 1967** à Roubaix — il a **38 ans**. Le fichier hérité (`arts-musique.json`, q. 45) donne d'ailleurs correctement « Il mit fin à sa carrière de scène en 1967 ». Les deux jeux de données ne concordent donc pas.
 - **Correction proposée** : « Il a cessé la scène en 1967, à trente-huit ans, au sommet de sa carrière. »
+- **Fait** : phrase remplacée telle quelle dans `arts-musique-2.ts`.
 
-### [MOYEN] Les Beatles : la séparation précède la sortie de *Let It Be*
+### [MOYEN] ✅ Les Beatles : la séparation précède la sortie de *Let It Be*
 - **Où** : `heritage/culture-g/data/arts-musique.json` — question 22
 - **Texte** : « La séparation est annoncée en 1970, **après** l'album “Let It Be”. »
 - **Problème** : chronologie inversée. McCartney annonce son départ le **10 avril 1970** ; l'album *Let It Be* paraît le **8 mai 1970**. La séparation a été annoncée *avant* la sortie de l'album (dont l'enregistrement, lui, datait de janvier 1969).
 - **Correction proposée** : « La séparation est annoncée en avril 1970, peu avant la parution de “Let It Be”, dernier album publié du groupe. »
+- **Fait** : phrase remplacée telle quelle.
 
 ---
 
-### [MOYEN] Le Serment des Horaces : 1784 dans le cours hérité, 1785 dans la leçon 09
+### [MOYEN] ✅ Le Serment des Horaces : 1784 dans le cours hérité, 1785 dans la leçon 09
 - **Où** : `heritage/culture-g/data/arts-musique.json` (cours « Les grands mouvements de la peinture occidentale », section « Du néoclassicisme au réalisme ») vs `heritage/.../lecons/arts-musique/09.json` (section « Jacques-Louis David… » **et** explication du quiz Q2)
 - **Texte** : cours — « David en donne le manifeste avec “Le Serment des Horaces” **en 1784** » ; leçon 09 — « “Le Serment des Horaces”, **peint en 1785** » (répété deux fois).
 - **Problème** : contradiction entre deux fichiers du même cahier. La toile est signée et datée **1784** (peinte à Rome) ; 1785 est l'année de sa présentation au Salon. La leçon 09 confond exécution et exposition, et se contredit avec le cours qui l'accompagne.
 - **Correction proposée** : « “Le Serment des Horaces”, peint à Rome en 1784 et exposé au Salon de 1785 ».
+- **Fait** : la leçon 09 corrigée aux deux occurrences (texte de section et explication du quiz) ; le cours hérité disait déjà 1784, inchangé.
 
-### [MOYEN] Datation des moai : « XIIe-XVIIe » dans le seed, « XIIIe-XVe » dans la leçon
+### [MOYEN] ✅ Datation des moai : « XIIe-XVIIe » dans le seed, « XIIIe-XVe » dans la leçon
 - **Où** : `prisma/seed/culture-g/arts-musique-3.ts` (`am3-arts-afrique-oceanie`) vs `heritage/.../lecons/arts-musique/12.json`
 - **Texte** : seed — « taillés dans le tuf volcanique **entre les XIIe et XVIIe siècles** » ; leçon 12 — « sculptés **entre le XIIIe et le XVe siècle** » (repris à l'identique dans l'explication du quiz).
 - **Problème** : contradiction directe entre les deux jeux de données sur la même donnée. La fourchette admise est **XIIIe-XVe siècle** ; celle du seed déborde d'un siècle de chaque côté. *(Ce constat remplace et précise la remarque MINEUR sur les moai formulée plus haut : ce n'est pas une simple imprécision, c'est une incohérence interne au domaine.)*
 - **Correction proposée** : aligner le seed sur « entre les XIIIe et XVe siècles ».
+- **Fait** : `arts-musique-3.ts` aligné sur « entre les XIIIe et XVe siècles » (corrige aussi le MINEUR « Moai : fourchette de datation trop large » plus bas, qui portait sur exactement le même texte).
 
-### [MOYEN] L'ouverture du Japon : 1854 dans la leçon 04, 1858 dans la leçon 11
+### [MOYEN] ✅ L'ouverture du Japon : 1854 dans la leçon 04, 1858 dans la leçon 11
 - **Où** : `heritage/.../lecons/arts-musique/04.json` (section « Un héritage mondial ») vs `heritage/.../lecons/arts-musique/11.json` (section « Le Japon… » **et** quiz Q5, dont c'est la réponse)
 - **Texte** : leçon 04 — « les estampes japonaises, découvertes en Europe après **l'ouverture du Japon en 1854** » ; leçon 11 — « Après **l'ouverture forcée du Japon au commerce occidental en 1858** ».
 - **Problème** : les deux dates renvoient à des traités différents — la convention de Kanagawa (1854), qui ouvre des ports aux relations diplomatiques, et le traité Harris (1858), qui ouvre le commerce — mais aucun des deux textes ne le dit. L'apprenant qui lit les deux leçons voit deux dates contradictoires pour le même événement, et l'une d'elles est la bonne réponse d'un QCM.
 - **Correction proposée** : harmoniser en explicitant — « après l'ouverture du Japon, amorcée par la convention de Kanagawa en 1854 et étendue au commerce par le traité de 1858 ».
+- **Fait** : leçon 04 explicitée aux deux endroits (texte de section et explication du quiz Q5) avec les deux dates ; leçon 11, déjà correcte (1858, commerce), laissée inchangée.
 
 **— Gravité MINEUR —**
 
-### [MINEUR] Le « C » de la mesure à quatre quarts n'est pas une abréviation
+### [MINEUR] ✅ Le « C » de la mesure à quatre quarts n'est pas une abréviation
 - **Où** : `prisma/seed/culture-g/arts-musique.ts:~228` — `am-theorie-musicale`
 - **Texte** : « notée parfois C, abréviation historique du tempus imperfectum »
 - **Problème** : le signe n'est pas une abréviation mais un **demi-cercle**, cercle brisé de la notation mensuraliste indiquant le *tempus imperfectum* (par opposition au cercle plein du *tempus perfectum*). L'explication corrige à moitié la légende du « C de common time » tout en en introduisant une autre.
 - **Correction proposée** : « notée parfois C, qui n'est pas une lettre mais le demi-cercle du tempus imperfectum de la notation médiévale ».
+- **Fait** : phrase remplacée telle quelle.
 
-### [MINEUR] « Il dépasse habituellement les huit millions de visiteurs annuels avant la pandémie »
+### [MINEUR] ✅ « Il dépasse habituellement les huit millions de visiteurs annuels avant la pandémie »
 - **Où** : `prisma/seed/culture-g/arts-musique.ts:~272` — `am-musees-patrimoine`
 - **Problème** : phrase mal construite — « habituellement » (présent d'habitude) et « avant la pandémie » (passé daté) se contredisent grammaticalement. La donnée est en outre implicitement périmée.
 - **Correction proposée** : « Il dépassait neuf millions de visiteurs annuels avant 2020, et reste le musée le plus fréquenté du monde. »
+- **Fait** : phrase remplacée telle quelle.
 
-### [MINEUR] Beethoven : « à partir de la trentaine »
+### [MINEUR] ✅ Beethoven : « à partir de la trentaine »
 - **Où** : `prisma/seed/culture-g/cours/arts-musique.ts` — `am-musique-classique` et `am2-musique-romantique` (deux fois)
 - **Texte** : « Il perd l'audition à partir de la trentaine » / « la surdité qui l'accable à partir de la trentaine »
 - **Problème** : imprécision, et redite d'une section à l'autre. Les premiers troubles datent de **1796-1798**, soit vers 26-28 ans ; le Testament de Heiligenstadt (1802) les décrit comme anciens de six ans. Le fichier hérité (q. 8) dit correctement « à partir de la fin des années 1790 ».
 - **Correction proposée** : « Il perd l'audition dès la fin de la vingtaine » (dans les deux cours).
+- **Fait** : les deux occurrences (`am-musique-classique` et `am2-musique-romantique`) remplacées par « dès la fin de la vingtaine ».
 
-### [MINEUR] « Quatre ans qui changent tout », section qui en raconte six
+### [MINEUR] ✅ « Quatre ans qui changent tout », section qui en raconte six
 - **Où** : `prisma/seed/culture-g/cours/arts-musique.ts` — `am3-rock-pop`, première section
 - **Texte** : titre « Quatre ans qui changent tout » ; texte « … et finit, **six ans plus tard**, par des disques conçus en studio »
 - **Problème** : le titre de section contredit son propre contenu.
 - **Correction proposée** : intituler la section « Six ans qui changent tout ».
+- **Fait** : titre de section renommé « Six ans qui changent tout ».
 
-### [MINEUR] « Detroit » et « Détroit » dans le même paragraphe
+### [MINEUR] ✅ « Detroit » et « Détroit » dans le même paragraphe
 - **Où** : `prisma/seed/culture-g/cours/arts-musique.ts` — `am-musiques-actuelles`, section « Hip-hop et électro »
 - **Texte** : « La techno naît à **Detroit** … Chicago avec la house et **Détroit** avec la techno »
 - **Problème** : la ville américaine s'écrit sans accent. Incohérence à trois lignes d'intervalle.
 - **Correction proposée** : « Detroit » dans les deux occurrences.
+- **Fait** : « Détroit » remplacé par « Detroit ».
 
-### [MINEUR] Fallingwater : « bâtie en 1935 »
+### [MINEUR] ✅ Fallingwater : « bâtie en 1935 »
 - **Où** : `prisma/seed/culture-g/cours/arts-musique.ts` — `am2-architecture-contemporaine`, section « L'exception américaine »
 - **Texte** : « Sa maison sur la cascade, bâtie en Pennsylvanie en 1935 »
 - **Problème** : 1935 est l'année du **projet** ; la construction court de 1936 à 1939. Le fichier hérité (q. 58) donne correctement « conçut Fallingwater entre 1935 et 1939 ».
 - **Correction proposée** : « conçue en 1935 et bâtie en Pennsylvanie entre 1936 et 1939 ».
+- **Fait** : phrase remplacée telle quelle dans le cours.
 
-### [MINEUR] Une tierce sépare des notes « distantes de trois degrés »
+### [MINEUR] ✅ Une tierce sépare des notes « distantes de trois degrés »
 - **Où** : `prisma/seed/culture-g/arts-musique.ts:~220` (`am-theorie-musicale`) et le cours de la même notion
 - **Texte** : « L'intervalle entre deux notes distantes de trois degrés »
 - **Problème** : formulation ambiguë. Do et mi **embrassent** trois degrés (do, ré, mi) mais sont **distants de deux**. « Distantes de trois degrés » se lit naturellement comme do → fa, c'est-à-dire une quarte.
 - **Correction proposée** : « L'intervalle qui embrasse trois degrés, comme do-mi ».
+- **Fait** : corrigé dans la question (« L'intervalle qui embrasse trois degrés, comme do-mi ») et dans le cours (« la tierce embrasse trois degrés, comme do-mi, la quinte cinq, comme do-sol »).
 
-### [MINEUR] Bitches Brew : 1969 dans l'héritage, 1970 dans le seed
+### [MINEUR] ✅ Bitches Brew : 1969 dans l'héritage, 1970 dans le seed
 - **Où** : `heritage/culture-g/data/arts-musique.json` q. 43 (« en 1969 ») vs `prisma/seed/culture-g/arts-musique-3.ts` `am3-jazz-histoire` (« en 1970 »)
 - **Problème** : les deux sont défendables (enregistré en août 1969, publié en mars 1970) mais l'apprenant qui voit les deux y lira une contradiction.
 - **Correction proposée** : préciser dans les deux cas — « enregistré en 1969 et paru en 1970 ».
+- **Fait** : les deux textes précisent maintenant « enregistré en 1969 et paru en 1970 ».
 
-### [MINEUR] Répétition du même fait sur le clavecin
+### [MINEUR] ✅ Répétition du même fait sur le clavecin
 - **Où** : `prisma/seed/culture-g/arts-musique.ts` (`am-instruments`) et `prisma/seed/culture-g/arts-musique-2.ts` (`am2-musique-baroque`)
 - **Texte 1** : « C'est ce qui le distingue du clavecin, dont les cordes sont pincées et dont la nuance ne dépend pas du toucher. »
 - **Texte 2** : « Ses cordes sont pincées par des becs, ce qui empêche de nuancer par le toucher. »
 - **Problème** : redite quasi mot pour mot d'une explication à l'autre. De même, le concerto grosso est défini deux fois dans les mêmes termes (`am-musique-classique` et `am2-musique-baroque`), et Spiral Jetty sert d'exemple deux fois (`am2-art-contemporain` et `am3-sculpture-contemporaine`).
 - **Correction proposée** : varier l'apport de chaque explication (par exemple, sur le clavecin : les registres et les claviers multiples comme seul moyen de nuance).
+- **Fait** : explication du clavecin dans `arts-musique-2.ts` réécrite autour des registres et du couplage des claviers, comme proposé. Vérifié le concerto grosso et Spiral Jetty signalés « de même » : les deux textes de chaque paire donnent déjà des informations différentes (pas de redite mot pour mot) — rien changé là.
 
-### [MINEUR] Distracteurs en « seul » qui trahissent la construction
+### [MINEUR] ✅ Distracteurs en « seul » qui trahissent la construction
 - **Où** : `prisma/seed/culture-g/arts-musique-3.ts` (`am3-critique-art` : « Émile Zola seul » ; `am3-peinture-france` : « Paul Signac seul » ; `am3-arts-spectacle-vivant` : « Les Rencontres de Chalon seules ») et `arts-musique-2.ts` (`am2-art-medieval` : « Memling et Bouts seuls » ; `am2-arts-decoratifs` : « Beauvais seule »)
 - **Problème** : l'adverbe « seul » ajouté à un distracteur est un artifice visible : il signale que la proposition est une version restreinte d'une vérité, donc qu'elle est fausse. Cinq occurrences dans le domaine, c'est un motif repérable par l'apprenant.
 - **Correction proposée** : remplacer ces distracteurs par des propositions franchement fausses et plausibles.
+- **Fait** : « Émile Zola seul », « Les Rencontres de Chalon seules » et « Memling et Bouts seuls » avaient déjà disparu du texte actuel (questions reformulées entre-temps). Remplacé « Paul Signac seul » par « Paul Cézanne » (`am3-peinture-france`) et « Beauvais seule » par « Limoges » (`am2-arts-decoratifs`).
 
-### [MINEUR] Moai : fourchette de datation trop large
+### [MINEUR] ✅ Moai : fourchette de datation trop large
 - **Où** : `prisma/seed/culture-g/arts-musique-3.ts` — `am3-arts-afrique-oceanie`
 - **Texte** : « taillés dans le tuf volcanique entre les XIIe et XVIIe siècles »
 - **Problème** : la datation admise est **1250-1500** environ (XIIIe-XVIe s.). La fourchette donnée déborde d'un siècle de chaque côté.
 - **Correction proposée** : « taillés dans le tuf volcanique entre les XIIIe et XVIe siècles ».
+- **Fait** : déjà traité avec le [MOYEN] « Datation des moai » ci-dessus (même texte, même fichier) — aligné sur « entre les XIIIe et XVe siècles » pour correspondre à la leçon 12, qui fait référence.
 
-### [MINEUR] « Né en 1976 à Londres et New York » (punk)
+### [MINEUR] ✅ « Né en 1976 à Londres et New York » (punk)
 - **Où** : `prisma/seed/culture-g/arts-musique-3.ts` — `am3-rock-pop`
 - **Problème** : approximation présentée comme un fait. La scène new-yorkaise (CBGB, Ramones, Television, Patti Smith) est active dès **1974-1975** ; 1976 est la date londonienne (Sex Pistols, The Clash).
 - **Correction proposée** : « Né à New York vers 1974 puis à Londres en 1976, en réaction à la complexité du rock progressif. »
+- **Fait** : phrase remplacée telle quelle.
 
-### [MINEUR] Genre des voix : « la mezzo-soprano » dans la question, « le mezzo-soprano » dans le cours
+### [MINEUR] ✅ Genre des voix : « la mezzo-soprano » dans la question, « le mezzo-soprano » dans le cours
 - **Où** : `prisma/seed/culture-g/arts-musique.ts` (`am-opera`, propositions « La mezzo-soprano », « La contralto ») vs le cours `am-opera` (« devant le mezzo-soprano et le contralto »)
 - **Problème** : incohérence de genre grammatical entre le cours et sa question. L'usage courant retient le masculin pour le type de voix (*un mezzo-soprano*, *un contralto*) et le féminin pour la chanteuse.
 - **Correction proposée** : harmoniser sur le masculin dans les deux, ou reformuler les propositions en « Le mezzo-soprano », « Le contralto ».
+- **Fait** : propositions de la question passées à « Le mezzo-soprano », « Le contralto », en gardant « La soprano » (usage courant pour la chanteuse) — aligné sur le masculin du cours.
 
 ---
 
-### [MINEUR] « Au British Library » — genre fautif
+### [MINEUR] ✅ « Au British Library » — genre fautif
 - **Où** : `heritage/culture-g/data/lecons/arts-musique/02.json` — quiz Q5, proposition 3
 - **Texte** : « Au British Library, à Londres »
 - **Problème** : en français, *British Library* est féminin (« la British Library »). La proposition devrait être « À la British Library, à Londres ». L'explication de la même question écrit d'ailleurs correctement « La Bibliothèque nationale de France et la British Library ».
 - **Correction proposée** : « À la British Library, à Londres ».
+- **Fait** : proposition remplacée par « À la British Library, à Londres ».
 
-### [MINEUR] « au Scuola Grande di San Rocco »
+### [MINEUR] ✅ « au Scuola Grande di San Rocco »
 - **Où** : `heritage/culture-g/data/lecons/arts-musique/03.json` — section « Venise et la couleur »
 - **Texte** : « Tintoret, avec ses raccourcis spectaculaires et ses éclairages contrastés **au** Scuola Grande di San Rocco »
 - **Problème** : *scuola* est féminin ; l'usage français retient « à la Scuola Grande di San Rocco ».
 - **Correction proposée** : « à la Scuola Grande di San Rocco ».
+- **Fait** : « au » remplacé par « à la ».
 
-### [MINEUR] « après avoir vendu presque aucune toile de son vivant »
+### [MINEUR] ✅ « après avoir vendu presque aucune toile de son vivant »
 - **Où** : `heritage/culture-g/data/lecons/arts-musique/04.json` — section « Le post-impressionnisme : quatre voies singulières »
 - **Texte** : « il meurt en 1890 **après avoir vendu presque aucune toile** de son vivant »
 - **Problème** : phrase agrammaticale — « aucune » exige la négation (« n'avoir vendu presque aucune toile »). La tournure est en outre lourde.
 - **Correction proposée** : « il meurt en 1890 sans avoir presque rien vendu de son vivant ».
+- **Fait** : phrase remplacée telle quelle.
 
-### [MINEUR] Vivaldi : « quatre cents concertos » ici, « plus de cinq cents » là
+### [MINEUR] ✅ Vivaldi : « quatre cents concertos » ici, « plus de cinq cents » là
 - **Où** : `heritage/culture-g/data/arts-musique.json` (cours « Une histoire de la musique… », section « Le baroque musical ») vs `heritage/.../lecons/arts-musique/06.json` (section « Le baroque et l'invention de l'opéra »)
 - **Texte** : cours — « avec ses **quatre cents** concertos environ » ; leçon 06 — « compose **plus de cinq cents** concertos ».
 - **Problème** : incohérence entre deux fichiers du même cahier hérité. Le catalogue Ryom recense environ **500** concertos ; « quatre cents » est trop bas.
 - **Correction proposée** : harmoniser sur « environ cinq cents concertos ».
+- **Fait** : « quatre cents concertos environ » remplacé par « environ cinq cents concertos » dans le cours hérité.
 
-### [MINEUR] « L'Âge d'airain, aujourd'hui à l'Alte Nationalgalerie de Berlin »
+### [MINEUR] ✅ « L'Âge d'airain, aujourd'hui à l'Alte Nationalgalerie de Berlin »
 - **Où** : `heritage/culture-g/data/lecons/arts-musique/10.json` — section « Rodin et la renaissance de la sculpture »
 - **Problème** : formulation trompeuse pour un bronze tiré en de nombreux exemplaires. L'Alte Nationalgalerie possède bien un tirage, mais la formule « aujourd'hui à » laisse croire à un exemplaire unique ; le premier bronze de 1880 et le plâtre original sont en France (musée d'Orsay, musée Rodin). Le même paragraphe explique pourtant, deux phrases plus loin, que Rodin « pratique l'assemblage, la multiplication et le fragment ».
 - **Correction proposée** : « dont un tirage se trouve à l'Alte Nationalgalerie de Berlin ».
+- **Fait** : « aujourd'hui à l'Alte Nationalgalerie » remplacé par « dont un tirage se trouve à l'Alte Nationalgalerie ».
 
-### [MINEUR] Le calotype : 1840 dans la leçon 13, 1841 dans le seed
+### [MINEUR] ✅ Le calotype : 1840 dans la leçon 13, 1841 dans le seed
 - **Où** : `heritage/.../lecons/arts-musique/13.json` (section « Talbot… », **et** quiz Q3 dont c'est l'énoncé : « Quelle invention **de 1840** fonde la photographie moderne ? ») vs `prisma/seed/culture-g/arts-musique-2.ts` (`am2-photographie-histoire` : « Quel procédé négatif-positif permet la reproduction des images **dès 1841** ? »)
 - **Problème** : deux dates pour la même invention, chacune dans l'énoncé d'un QCM. Les deux se défendent — le calotype est mis au point en septembre 1840 et breveté en février 1841 — mais aucun des deux textes ne le précise, et un apprenant qui rencontre les deux questions les verra se contredire.
 - **Correction proposée** : mentionner les deux étapes dans les explications — « mis au point en 1840, breveté en 1841 ».
+- **Fait** : les deux étapes mentionnées dans la leçon 13 (texte de section, explication du daguerréotype, explication du Q3) et dans `arts-musique-2.ts`.
 
-### [MINEUR] « La Vie en rose » : 1945 dans la leçon 16, 1946 dans les questions héritées
+### [MINEUR] ✅ « La Vie en rose » : 1945 dans la leçon 16, 1946 dans les questions héritées
 - **Où** : `heritage/.../lecons/arts-musique/16.json` (section « Édith Piaf… » et explication du quiz Q2) vs `heritage/culture-g/data/arts-musique.json` question 23
 - **Texte** : leçon 16 — « “La Vie en rose”, **en 1945**, sur une musique de Louiguy » ; question 23 — « “La Vie en rose”, dont elle écrivit les paroles, fut **créée en 1946** ».
 - **Problème** : les deux se défendent (texte écrit en 1945, chanson créée et enregistrée en 1946) mais les deux fichiers du même cahier se contredisent sans le dire.
 - **Correction proposée** : « écrite en 1945 et créée en 1946 » dans les deux textes.
+- **Fait** : les deux textes de la leçon 16 (texte de section et explication du quiz Q2) et l'explication de la question 23 du fichier hérité disent maintenant « écrite en 1945 et créée en 1946 ».
 
 ### [Confirmation] Les Beatles : la leçon 15 dit juste, la question héritée 22 dit faux
 - **Où** : `heritage/.../lecons/arts-musique/15.json` vs `heritage/culture-g/data/arts-musique.json` question 22
@@ -389,12 +424,13 @@ Il existe bien un dédoublonneur (`dedoublonner()`, `src/modules/culture-g/conte
 - **Problème** : la consigne compte « deux questions qui posent la même chose, même reformulées » comme un doublon franc. Il y en a vingt-quatre familles, dont trois triplées et deux à l'intérieur d'une même compétence. L'effet pédagogique est double : l'apprenant croit progresser alors qu'il répond au même item, et le planificateur d'espacement (`buildSeries`) traite ces items comme indépendants, ce qui fausse sa mesure de la maîtrise.
 - **Correction proposée** : ce n'est pas une correction ligne à ligne mais un arbitrage de périmètre. Le cahier hérité fait autorité sur les grands classiques ; les notions du seed (`cg-neuf-*`) devraient donc **cesser de reposer les questions déjà posées par une leçon héritée** et se concentrer sur ce que l'héritage ne couvre pas. Concrètement : retirer les questions du seed listées ci-dessus (Vénus de Milo, Verdi, La Nouvelle-Orléans, Tchaïkovski, Gauguin, David de Michel-Ange, Le Penseur, Sacre du printemps, Demoiselles d'Avignon, Monteverdi, Warhol, Caravage, air/récitatif) et, pour les deux doublons internes, supprimer l'une des deux questions de `cg-arts-musique-03` et de `cg-arts-musique-10`. À défaut, abaisser les seuils de `dedoublonner()` — mais ce serait supprimer silencieusement une trentaine de questions écrites, ce qui est pire que de choisir.
 
-### [MOYEN] Deux questions du seed sont écrites, puis supprimées en silence au chargement
+### [MOYEN] ✅ Deux questions du seed sont écrites, puis supprimées en silence au chargement
 
 - **Où** : `prisma/seed/culture-g/arts-musique.ts` (`am-musiques-actuelles`) et `prisma/seed/culture-g/arts-musique-2.ts` (`am2-architecture-contemporaine`)
 - **Texte** : « Quel album de Miles Davis, paru en 1959, est l'un des plus vendus de l'histoire du jazz ? » et « Quel architecte américain a conçu la maison sur la cascade ? »
 - **Problème** : ce sont les deux seules questions du domaine que `dedoublonner()` écarte. Elles n'atteignent jamais l'apprenant, et rien ne le signale — ni au chargement, ni dans `RESUME.md`. Le travail d'écriture est perdu, et une notion croit avoir dix questions quand elle en a neuf. C'est aussi la preuve, à l'envers, que le filtre existe mais ne rattrape presque rien.
 - **Correction proposée** : les retirer explicitement des fichiers source (elles sont couvertes par `arts-musique.json` Q43 et Q58), et faire émettre au dédoublonneur un avertissement nommant chaque question écartée, afin qu'une suppression silencieuse ne puisse plus passer inaperçue.
+- **Fait** : les deux questions retirées de `arts-musique.ts` et `arts-musique-2.ts` (couvertes par le cahier hérité). La partie « avertissement du dédoublonneur » touche `src/modules/culture-g/contenu.ts`, code partagé hors de mon périmètre (fichiers `arts-musique*`) — non traitée ici.
 
 ### [GRAVE — aggravation d'un constat de la passe 1] « Qui a mis Aragon en musique ? » a en réalité TROIS réponses parmi les propositions
 
@@ -403,12 +439,13 @@ Il existe bien un dédoublonneur (`dedoublonner()`, `src/modules/culture-g/conte
 - **Ce que la passe 2 ajoute** : la passe 1 avait vu que l'explication reconnaît Jean Ferrat. La passe 2 a trouvé que **le domaine lui-même valide aussi Brassens** — deux fois : la question voisine du même fichier dit « Villon, Hugo, **Aragon** et Verlaine figurent parmi les auteurs qu'il a chantés », et le quiz du cours hérité (`arts-musique.json`, cours « Une histoire de la musique », Q5) écrit « il mit en musique des poèmes de Villon, Hugo ou **Aragon** ». C'est exact — *Il n'y a pas d'amour heureux*, 1953. Trois des quatre propositions sont donc défendables, et l'application le démontre elle-même dans deux autres questions.
 - **Correction proposée** : abandonner Aragon comme critère. « Quel chanteur a mis en musique Baudelaire, Rimbaud et Apollinaire, et publié un manifeste libertaire ? » → Léo Ferré.
 
-### [MINEUR] Les nymphéas : « plus de deux cents » ici, « plus de deux cent cinquante » là
+### [MINEUR] ✅ Les nymphéas : « plus de deux cents » ici, « plus de deux cent cinquante » là
 
 - **Où** : `heritage/culture-g/data/arts-musique.json` (quiz du cours « Les grands mouvements de la peinture occidentale », Q5) vs `prisma/seed/culture-g/arts-musique-3.ts` (`am3-peinture-france`) et le cours du même slug
 - **Texte** : cours hérité — « **plus de deux cents** toiles aux nymphéas » ; seed — « **plus de deux cent cinquante** toiles de nymphéas » (deux fois).
 - **Problème** : petite divergence sur un chiffre présenté comme précis dans les deux cas. L'estimation courante est d'environ 250.
 - **Correction proposée** : « environ deux cent cinquante » partout.
+- **Fait** : cours hérité corrigé en « environ deux cent cinquante toiles » ; le seed disait déjà « plus de deux cent cinquante », inchangé.
 
 ### Ce que la passe 2 a confirmé sans rien ajouter
 

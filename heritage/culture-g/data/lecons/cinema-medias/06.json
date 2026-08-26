@@ -121,7 +121,7 @@
    ],
    "bonne": 0,
    "difficulte": 3,
-   "explication": "«Fantasmagorie», réalisé par Émile Cohl en 1908, dure environ deux minutes et présente des figures au trait blanc sur fond noir qui se transforment continuellement. Il est fréquemment cité comme le premier dessin animé tourné sur pellicule. «Pauvre Pierrot» est antérieur, mais il s'agit d'une bande peinte à la main projetée par Émile Reynaud avec son Théâtre optique, hors du support film. «Gertie le dinosaure» est l'oeuvre de l'Américain Winsor McCay en 1914, et «Le Roi et l'Oiseau» de Paul Grimault date de 1980."
+   "explication": "«Fantasmagorie», réalisé par Émile Cohl en 1908, dure environ deux minutes et présente des figures au trait blanc sur fond noir qui se transforment continuellement. Il est fréquemment cité comme le premier dessin animé tourné sur pellicule. «Pauvre Pierrot» est antérieur, mais il s'agit d'une bande peinte à la main projetée par Émile Reynaud avec son Théâtre optique, hors du support film. «Gertie le dinosaure» est l'œuvre de l'Américain Winsor McCay en 1914, et «Le Roi et l'Oiseau» de Paul Grimault date de 1980."
   },
   {
    "q": "Comment appelle-t-on la technique qui consiste à photographier image par image des marionnettes ou des figurines déplacées légèrement ?",
@@ -146,6 +146,18 @@
    "bonne": 1,
    "difficulte": 2,
    "explication": "«Kirikou et la Sorcière» sort en 1998 et rencontre un très large succès, avec un graphisme inspiré des arts africains et une musique de Youssou N'Dour. Il démontre qu'un long métrage d'animation français peut trouver son public sans imiter les modèles américains, et il ouvre une période féconde pour la production nationale. «Les Triplettes de Belleville» de Sylvain Chomet date de 2003, «Persepolis» de Marjane Satrapi et Vincent Paronnaud de 2007, et «La Planète sauvage» de René Laloux de 1973."
+  },
+  {
+   "q": "Quel court métrage de 1928, où apparaît Mickey Mouse, impose pour la première fois une synchronisation précise du son et du mouvement en animation ?",
+   "choix": [
+    "«Steamboat Willie»",
+    "«Blanche-Neige et les Sept Nains»",
+    "«Fantasmagorie»",
+    "une Silly Symphony"
+   ],
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "«Steamboat Willie», sorti en 1928, popularise Mickey Mouse et impose une synchronisation précise du son avec les gestes, alors nouveauté marquante du cinéma d'animation. Les Silly Symphonies, qui suivent, servent de laboratoire technique à Disney pour le Technicolor et la caméra multiplane. «Blanche-Neige et les Sept Nains» (1937) est le premier long métrage d'animation américain, postérieur de neuf ans. «Fantasmagorie» (1908), d'Émile Cohl, est muet."
   }
  ]
 }
