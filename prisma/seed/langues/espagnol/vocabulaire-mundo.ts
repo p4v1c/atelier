@@ -88,6 +88,7 @@ export const ESPAGNOL_VOCABULAIRE_MUNDO: LotCartes[] = [
       {
         etranger: "Hay que pelar las patatas primero.",
         francais: "Il faut d'abord éplucher les pommes de terre.",
+        aussiEtranger: ["Hay que pelar las papas primero."],
         note: "Patata en Espagne, papa en Amérique latine. Hay que + infinitif dit l'obligation impersonnelle.",
       },
       {

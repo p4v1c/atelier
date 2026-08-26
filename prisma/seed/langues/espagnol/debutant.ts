@@ -98,7 +98,7 @@ export const ESPAGNOL_DEBUTANT: LotCartes[] = [
       { etranger: "un coche rojo", francais: "une voiture rouge", note: "coche est masculin en espagnol, contrairement au français." },
       { etranger: "Es demasiado caro.", francais: "C'est trop cher.", note: "demasiado pour l'excès ; muy pour l'intensité." },
       { etranger: "No es lo bastante grande.", francais: "Ce n'est pas assez grand." },
-      { etranger: "Este es más barato.", francais: "Celui-ci est moins cher.", aussi: ["Celui-ci est meilleur marché."], note: "más barato, littéralement plus bon marché." },
+      { etranger: "Este es más barato.", francais: "Celui-ci est moins cher.", aussi: ["Celui-ci est meilleur marché."], aussiEtranger: ["Este es menos caro."], note: "más barato, littéralement plus bon marché." },
       { etranger: "Es el mejor.", francais: "C'est le meilleur.", note: "bueno → mejor → el mejor. Irrégulier, comme en français." },
       { etranger: "Me gusta mucho.", francais: "Ça me plaît beaucoup.", note: "Le sujet de gustar est la chose aimée, pas la personne : littéralement « ça me plaît »." },
       { etranger: "No me gusta demasiado.", francais: "Ça ne me plaît pas trop." },

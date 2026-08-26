@@ -220,7 +220,7 @@ export const ESPAGNOL_CONJUGAISON: LotCartes[] = [
       { etranger: "Te lo digo para que lo sepas.", francais: "Je te le dis pour que tu le saches.", note: "Le but : para que + subjonctif. saber → sepa, irrégulier." },
       { etranger: "Espero que todo vaya bien.", francais: "J'espère que tout ira bien.", note: "ir → vaya. Esperar que appelle le subjonctif." },
       { etranger: "Dile que espere.", francais: "Dis-lui d'attendre.", note: "Influence sur autrui : subjonctif." },
-      { etranger: "No hay nadie que lo sepa.", francais: "Personne ne le sait.", note: "Un antécédent inexistant entraîne le subjonctif." },
+      { etranger: "No hay nadie que lo sepa.", francais: "Personne ne le sait.", aussiEtranger: ["Nadie lo sabe."], note: "Un antécédent inexistant entraîne le subjonctif." },
       { etranger: "Ojalá tengas razón.", francais: "Pourvu que tu aies raison.", note: "Ojalá, de l'arabe, appelle toujours le subjonctif." },
     ],
   },

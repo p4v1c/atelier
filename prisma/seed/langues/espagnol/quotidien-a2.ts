@@ -105,6 +105,7 @@ export const ESPAGNOL_QUOTIDIEN_A2: LotCartes[] = [
       {
         etranger: "Hoy es uno de enero.",
         francais: "Aujourd'hui, nous sommes le premier janvier.",
+        aussiEtranger: ["Hoy es primero de enero."],
         note: "El uno en Espagne, el primero en Amérique latine. Les deux sont justes, ailleurs.",
       },
       {
@@ -311,6 +312,7 @@ export const ESPAGNOL_QUOTIDIEN_A2: LotCartes[] = [
       {
         etranger: "Nos vemos el sábado por la tarde.",
         francais: "On se voit samedi après-midi.",
+        aussiEtranger: ["Nos vemos el sábado en la tarde."],
         note: "Por la tarde en Espagne, en la tarde en Amérique latine.",
       },
     ],
@@ -396,6 +398,7 @@ export const ESPAGNOL_QUOTIDIEN_A2: LotCartes[] = [
       {
         etranger: "¿Diga? ¿Quién es?",
         francais: "Allô ? Qui est-ce ?",
+        aussiEtranger: ["¿Bueno? ¿Quién es?", "¿Aló? ¿Quién es?"],
         note: "Diga ou dígame en Espagne, bueno au Mexique, aló en Colombie et au Pérou.",
       },
       {
@@ -406,6 +409,7 @@ export const ESPAGNOL_QUOTIDIEN_A2: LotCartes[] = [
       {
         etranger: "Te llamo luego, ¿vale?",
         francais: "Je te rappelle plus tard, d'accord ?",
+        aussiEtranger: ["Te llamo luego, ¿bueno?", "Te llamo luego, ¿listo?"],
         note: "Vale en Espagne. En Amérique latine, on finirait par ¿bueno? ou ¿listo?",
       },
       {

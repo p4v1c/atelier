@@ -223,18 +223,13 @@ export const ANGLAIS_IDIOMES_CARACTERE: LotCartes[] = [
     category: "Vocabulaire",
     title: "Nommer une notion",
     statement:
-      "Scope, extent, stance, rationale. Les noms abstraits de l'écrit anglophone sont peu nombreux et reviennent partout, et le français en traduit plusieurs par le même mot.",
-    tip: "Scope est l'étendue de ce qu'on couvre, extent le degré auquel une chose est vraie. Le premier délimite, le second mesure.",
+      "Extent, stance, gist, implications. Les noms abstraits de l'écrit anglophone sont peu nombreux et reviennent partout, et le français en traduit plusieurs par le même mot. (Scope et rationale sont vus dans « Les mots de la pensée abstraite ».)",
+    tip: "To what extent mesure un degré, a stance affiche une position : deux façons de nommer une notion sans se répéter.",
     difficulty: 3,
     niveau: "C1",
     oral: true,
     parle: true,
     cartes: [
-      {
-        etranger: "That's beyond the scope of this study.",
-        francais: "Cela dépasse le cadre de cette étude.",
-        note: "The scope, le périmètre couvert. Beyond the scope of est une formule figée.",
-      },
       {
         etranger: "To what extent is this true?",
         francais: "Dans quelle mesure est-ce vrai ?",
@@ -244,12 +239,6 @@ export const ANGLAIS_IDIOMES_CARACTERE: LotCartes[] = [
         etranger: "What is their stance on this?",
         francais: "Quelle est leur position là-dessus ?",
         note: "A stance, une position prise publiquement. Position se dit aussi, plus neutre.",
-      },
-      {
-        etranger: "The rationale is not explained.",
-        francais: "La logique sous-jacente n'est pas expliquée.",
-        aussi: ["Le raisonnement qui le justifie n'est pas exposé."],
-        note: "A rationale, la justification raisonnée d'un choix. Le mot n'a pas d'équivalent simple.",
       },
       {
         etranger: "There's a growing body of work.",

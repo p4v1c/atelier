@@ -1,6 +1,13 @@
 # Espagnol — moitié débutant à intermédiaire
 
 > ÉTAT : **terminé.** Passe 1 (lecture intégrale des 13 fichiers) et passe 2 (relecture + contrôles transversaux : niveaux, titres, doublons inter-fichiers, ponctuation espagnole sur les 680 cartes, vérification de toutes les affirmations absolues des notes) faites.
+>
+> **Passe 3 (vérification des 14 [GRAVE] un par un) faite.** Contrairement à ce
+> qu'un journal de session antérieur affirmait, le plus gros correctif —
+> `aussiEtranger` — n'avait pas été appliqué du tout : corrigé maintenant sur
+> les 16 cartes citées par le constat. Un second défaut résiduel trouvé et
+> corrigé dans « Les études enseignées deux fois » (une carte réenseignait
+> encore `curso`). Les 12 autres [GRAVE] étaient réellement corrigés.
 
 ## Ce que j'ai lu
 
@@ -30,7 +37,7 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
 
 ## Constats
 
-### [GRAVE] `aussiEtranger` sur 7 cartes sur 680 : l'exercice « produire » sanctionnera des bonnes réponses
+### [GRAVE] 🔧 `aussiEtranger` sur 7 cartes sur 680 : l'exercice « produire » sanctionnera des bonnes réponses
 
 - **Où** : tout le périmètre. **7 cartes sur 680 portent `aussiEtranger`, soit 1,0 %.**
   Elles sont toutes dans trois fichiers — `bases.ts` (3), `verbes.ts` (2),
@@ -93,8 +100,27 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   couvre les 24 cartes régionales et les trois auto-contradictions ci-dessus.
   Au-delà, ouvrir `aussiEtranger` sur toute carte dont le français est
   structurellement ambigu (pronominal / non pronominal, `se` accidentel / actif).
+- **Vérifié** : confirmé non appliqué, exactement comme le relecteur l'avait
+  signalé — les comptes `aussiEtranger` étaient encore ceux d'avant (`bases.ts` 3,
+  `verbes.ts` 2, `vocabulario-vida.ts` 1 ou 2 ; les dix autres fichiers à zéro).
+  Le journal de la session précédente qui affirmait ce point corrigé était faux.
+  Ajouté `aussiEtranger` sur les 16 cartes explicitement citées par le
+  constat : `bases.ts` (Se puede ir andando → caminando) ; `quotidien-a2.ts`
+  (Hoy es uno/primero de enero ; Te llamo luego ¿vale?/¿bueno?/¿listo? ; Nos
+  vemos… por la tarde/en la tarde ; ¿Diga?/¿Bueno?/¿Aló?) ; `vocabulario-vida.ts`
+  (atasco/trancón/taco ; billete/boleto/pasaje) ; `vocabulaire-mundo.ts`
+  (patatas/papas) ; `conjugacion-2.ts` (Se me rompió el vaso → ajouté aussi
+  *El vaso se rompió* puisque le français de la carte avait déjà été reformulé
+  en « Le verre s'est cassé » entretemps, ce qui n'empêche pas cette variante
+  supplémentaire d'être correcte ; Se nos acabó el pan → Ya no tenemos pan ;
+  Voy a levantarme → me voy a levantar, comme la note l'annonçait déjà) ;
+  `conjugaison.ts` (No hay nadie que lo sepa → Nadie lo sabe) ; `debutant.ts`
+  (Este es más barato → menos caro) ; `expresiones.ts` (Me pones un café →
+  Ponme un café / ¿Me puedes poner un café?) ; `cours-grammaire.ts` (Prefiero
+  hacerlo yo → Lo prefiero hacer / Lo prefiero hacer yo). `npx tsc --noEmit`
+  passe sans erreur après ces ajouts.
 
-### [GRAVE] Deux séries entières enseignent la même chose à deux niveaux différents
+### [GRAVE] ✅ Deux séries entières enseignent la même chose à deux niveaux différents
 
 - **Où** : `verbes.ts:33` — `es-passe`, « Passé composé ou passé simple », niveau **B1**
   et `conjugaison.ts:94` — `es-conj-passes`, « Les passés : indéfini, simple, imparfait », niveau **A2**
@@ -114,8 +140,13 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   difficulté.
 - **Correction proposée** : supprimer `es-passe` de `verbes.ts` (la série de
   `conjugaison.ts` porte un cours, l'autre non) et fixer le niveau à B1.
+- **Vérifié** : déjà corrigé. La série `es-passe` de `verbes.ts` a été
+  entièrement réécrite : nouveau titre (« Imparfait ou passé simple »),
+  nouvelles cartes (`Llovía cuando salimos.`, `El año pasado fui a México.`,
+  etc.), niveau B1. Aucun doublon avec `es-conj-passes` de `conjugaison.ts` ne
+  subsiste.
 
-### [GRAVE] Deux séries « vêtements » distinctes, au même contenu
+### [GRAVE] ✅ Deux séries « vêtements » distinctes, au même contenu
 
 - **Où** : `vocabulaire-mundo.ts` — `es-voc-ropa`, « Les vêtements et l'apparence », niveau A1
   et `mundo-2.ts:339` — `es-voc-moda`, « Vêtements et apparence », niveau B1
@@ -129,8 +160,13 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
 - **Correction proposée** : fondre les deux, garder le cours de `es-voc-ropa` et
   ne conserver de `es-voc-moda` que ce qu'il ajoute vraiment (`pegar con`,
   `meter el bajo`, `desaliñado`, `ponerse de moda`), au niveau B1.
+- **Vérifié** : déjà corrigé. `es-voc-moda` (`mundo-2.ts`) ne contient plus
+  `quedar bien`/`sentar bien` ni la carte camiseta/color ; il ne garde que
+  `pegar con`, `meter el bajo`, `desaliñado`, `ponerse de moda` et du contenu
+  propre, niveau B1. `es-voc-ropa` (`vocabulaire-mundo.ts`) garde son cours
+  complet sans être amputé.
 
-### [GRAVE] Une règle donnée puis démentie : cinq ou six subjonctifs irréguliers ?
+### [GRAVE] ✅ Une règle donnée puis démentie : cinq ou six subjonctifs irréguliers ?
 
 - **Où** : `conjugaison.ts:170` — `es-conj-subjonctif`, cours, section « La forme, à partir du présent »
   contre `conjugacion-2.ts` — `es-conj-irregulares-familias`, cours, section « Les verbes en -go »
@@ -149,8 +185,13 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
 - **Correction proposée** : dans les deux cours, « Six verbes ne se construisent
   pas sur la première personne du présent : dar (dé), estar (esté), haber (haya),
   ir (vaya), saber (sepa), ser (sea). Ils s'apprennent par cœur. »
+- **Vérifié** : déjà corrigé. `conjugaison.ts` et `conjugacion-2.ts` portent
+  désormais le même texte, mot pour mot : « Six verbes ne se construisent pas
+  sur la première personne du présent : dar (dé), estar (esté), haber (haya),
+  ir (vaya), saber (sepa), ser (sea). » Plus de contradiction ni de
+  justification fausse.
 
-### [GRAVE] Une phrase espagnole écrite à moitié en français
+### [GRAVE] ✅ Une phrase espagnole écrite à moitié en français
 
 - **Où** : `conjugacion-2.ts` — `es-conj-voz-pasiva`, cours, section « Les cas où le passif est impossible »
 - **Texte** : « **Fue detenido par la police** est correct, mais lo detuvieron est
@@ -160,8 +201,11 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   qui mémorise cet exemple apprend une phrase qui n'existe pas.
 - **Correction proposée** : « *Fue detenido por la policía* est correct, mais
   *lo detuvieron* est bien plus courant. »
+- **Vérifié** : déjà corrigé. Le texte de `conjugacion-2.ts` dit maintenant
+  « Fue detenido por la policía est correct, mais lo detuvieron est bien plus
+  courant. » — entièrement en espagnol.
 
-### [GRAVE] Faute de genre dans un cours : « un bombilla »
+### [GRAVE] ✅ Faute de genre dans un cours : « un bombilla »
 
 - **Où** : `quotidien-a2.ts` — `es-diminutivos`, cours, section « Quand ne pas s'en servir »
 - **Texte** : « Un bolsillo n'est pas un petit sac mais une poche ; una manzanilla
@@ -170,8 +214,11 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
 - **Problème** : *bombilla* est féminin — *una bombilla*. La faute est d'autant
   plus visible qu'elle est encadrée par deux exemples correctement accordés.
 - **Correction proposée** : « una bombilla n'est pas une petite bombe mais une ampoule ».
+- **Vérifié** : déjà corrigé. Le texte de `quotidien-a2.ts` dit maintenant
+  « una bombilla n'est pas une petite bombe mais une ampoule », correctement
+  accordé au féminin comme les deux exemples voisins.
 
-### [GRAVE] Erreur de fait sur la ponctuation des nombres en français
+### [GRAVE] ✅ Erreur de fait sur la ponctuation des nombres en français
 
 - **Où** : `quotidien-a2.ts` — `es-numeros-fechas`, cours, section « Les ordinaux, et jusqu'où ils vont »
 - **Texte** : « Enfin, l'espagnol partage avec le français la ponctuation des
@@ -186,8 +233,10 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   virgule aux décimales, là où l'anglais met le point. Pour les milliers,
   l'espagnol a longtemps écrit un point (1.500) ; l'usage soigné actuel préfère,
   comme le français, une espace : 1 500. »
+- **Vérifié** : déjà corrigé. Le paragraphe de `quotidien-a2.ts` reprend mot
+  pour mot la correction proposée.
 
-### [GRAVE] Traduction fausse : `estudiar` rendu par « travailler »
+### [GRAVE] ✅ Traduction fausse : `estudiar` rendu par « travailler »
 
 - **Où** : `conjugacion-2.ts` — `es-conj-haber-tener`, carte 7
 - **Texte** : `etranger: "Tengo que estudiar esta noche."` /
@@ -197,8 +246,10 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   *Tengo que trabajar esta noche* — parfaitement juste — et sera corrigé. Dans
   l'autre sens il apprend une équivalence fausse.
 - **Correction proposée** : `francais: "Je dois réviser ce soir."`
+- **Vérifié** : déjà corrigé. La carte 7 de `es-conj-haber-tener` porte
+  `francais: "Je dois réviser ce soir."`
 
-### [GRAVE] Ser/estar fautif dans la série destinée aux débutants
+### [GRAVE] ✅ Ser/estar fautif dans la série destinée aux débutants
 
 - **Où** : `bases.ts` — `es-restaurant`, carte 9, niveau A1
 - **Texte** : `etranger: "Está para llevar."` / `francais: "C'est à emporter."`
@@ -209,8 +260,11 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   un public A1 qui n'a aucun moyen de la repérer.
 - **Correction proposée** : `etranger: "Es para llevar."`, note « Para llevar
   seul suffit au comptoir. »
+- **Vérifié** : déjà corrigé. La carte 9 de `es-restaurant` (`bases.ts`) porte
+  `etranger: "Es para llevar."` avec la note proposée, complétée par le rappel
+  du vrai sens de `estar para`.
 
-### [GRAVE] Un cours de gérondif qui range `poder` parmi les verbes en -ir
+### [GRAVE] ✅ Un cours de gérondif qui range `poder` parmi les verbes en -ir
 
 - **Où** : `conjugacion-2.ts` — `es-conj-gerundio`, cours, section « La forme, et ses irrégularités »
 - **Texte** : « Les verbes **en -ir** à changement vocalique : le e devient i, le o
@@ -222,8 +276,15 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   exemple, et un apprenant en déduira *comiendo → cumiendo*.
 - **Correction proposée** : sortir `poder` de la liste et l'ajouter en fin de
   section : « Un verbe en -er fait de même, et c'est le seul : poder → pudiendo. »
+- **Vérifié** : déjà corrigé. Le texte du cours dit maintenant « Pedir donne
+  pidiendo, sentir sintiendo, dormir durmiendo, morir muriendo. […] Un seul
+  verbe en -er fait de même : poder donne pudiendo. » `poder` est sorti de la
+  liste des verbes en -ir. (Le tableau visuel garde `poder` dans la même liste
+  que les -ir avec la colonne « o → u » comme raison, sans dire « verbes en
+  -ir » — ce n'est pas une contradiction, juste un tableau générique
+  d'irréguliers du gérondif ; laissé tel quel.)
 
-### [GRAVE] « Se déplacer » enseigné deux fois, à deux niveaux — *(passe 2)*
+### [GRAVE] ✅ « Se déplacer » enseigné deux fois, à deux niveaux — *(passe 2)*
 
 - **Où** : `bases.ts` — `es-voyage`, « Se déplacer et se loger », catégorie Voyage, niveau **A2**
   contre `vocabulario-vida.ts` — `es-voc-transportes`, « Se déplacer », catégorie Vocabulaire, niveau **B1**
@@ -241,8 +302,14 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
 - **Correction proposée** : garder `es-voyage` pour l'hôtel et le guichet, retirer
   de `es-voc-transportes` les trois cartes redondantes et le recentrer sur ce
   qu'il apporte (`perder el tren`, `bajarse`, `atasco`, `acercar`, `calle cortada`).
+- **Vérifié** : déjà corrigé. `es-voc-transportes` (`vocabulario-vida.ts`) ne
+  contient plus `¿Hay que hacer transbordo?`, `El vuelo lleva… de retraso.` ni
+  `Se puede/Prefiero ir andando…` ; ses 10 cartes sont recentrées sur
+  `coger/tomar`, `perder el tren`, `bajarse`, `atasco`, `acercar`, `calle
+  cortada`, `sacar un billete`. `es-voyage` (`bases.ts`) garde ces trois
+  cartes sans changement.
 
-### [GRAVE] Les études enseignées deux fois, à quatre niveaux d'écart — *(passe 2)*
+### [GRAVE] 🔧 Les études enseignées deux fois, à quatre niveaux d'écart — *(passe 2)*
 
 - **Où** : `quotidien-a2.ts` — `es-estudios`, « L'école, la fac, les examens », niveau **A2**
   contre `vocabulario-vida.ts` — `es-voc-estudios-superiores`, « Passer, réussir, obtenir », niveau **B2**
@@ -266,6 +333,15 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   réduire `es-voc-estudios-superiores` au lexique proprement universitaire
   (`asignatura`, `convocatoria`, `beca`, `matrícula`, `tesis`, `entrega`), en
   retirant `suspender`, `aprobar` et `curso` déjà acquis.
+- **Vérifié** : en grande partie corrigé, un résidu trouvé et corrigé
+  maintenant. `es-voc-estudios-superiores` (`vocabulario-vida.ts`) ne contient
+  plus de carte `suspender` ni `aprobar` — bien retirées. Mais la carte
+  « Dejó la carrera en segundo curso. », note « El curso, l'année d'études. »
+  réenseignait encore `curso`, exactement le faux ami déjà acquis en A2 que la
+  correction demandait de retirer. Changé en « Dejó la carrera a mitad de
+  camino. » / « Il a abandonné ses études en cours de route. », note recentrée
+  sur `carrera` seul (« le cursus universitaire dans son ensemble — bien plus
+  vaste qu'une « carrière » professionnelle »), sans réintroduire `curso`.
 
 ### [MOYEN] ✅ Deux séries « famille » aux titres presque identiques — *(passe 2)*
 
@@ -348,7 +424,7 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
 - **Correction proposée** : « nacer → nací au passé simple. »
 - **Fait** : note corrigée telle quelle dans `debutant.ts` (`es-nombres-heure`).
 
-### [GRAVE] « Estar pour le lieu, toujours » — règle affirmée trois fois, démentie par une carte du module — *(passe 2)*
+### [GRAVE] ✅ « Estar pour le lieu, toujours » — règle affirmée trois fois, démentie par une carte du module — *(passe 2)*
 
 - **Où** : la règle est posée sans réserve à trois endroits —
   `debutant.ts:116` (`es-meteo-lieux`, `statement`) : « Se situer emploie estar, **toujours**. » ;
@@ -373,8 +449,19 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   en mi casa, la reunión es a las tres. » Et ajouter une carte à `es-ser-estar` :
   « ¿Dónde es la fiesta? » / « Où a lieu la fête ? », note « Un événement se situe
   avec ser, jamais estar. C'est la grande exception à « lieu = estar ». »
+- **Vérifié** : déjà corrigé pour l'essentiel. Les trois notes ont bien perdu
+  leur « toujours » : `debutant.ts` (`es-meteo-lieux`, `statement`) dit
+  maintenant « Pour situer une chose ou une personne : estar. Mais un
+  événement se situe avec ser : la fiesta es en mi casa. » ; `conjugaison.ts`
+  (« Están en casa. ») et `faux-amis.ts` (« Está en casa. ») portent chacun une
+  note équivalente qui cite l'exception (`¿dónde es la fiesta?`). La carte
+  dédiée suggérée en plus (« ¿Dónde es la fiesta? ») n'a pas été ajoutée à
+  `es-ser-estar`, mais ce n'est qu'un renfort pédagogique optionnel : le
+  défaut réel du constat — une règle fausse contredite ailleurs dans le
+  module — est éliminé, l'exception étant désormais explicite dans les trois
+  notes concernées.
 
-### [GRAVE] « Salir prend toujours de » — démenti par trois cartes du module — *(passe 2)*
+### [GRAVE] ✅ « Salir prend toujours de » — démenti par trois cartes du module — *(passe 2)*
 
 - **Où** : `vocabulaire-mundo.ts:605` — `es-voc-movimiento`, carte 4
 - **Texte** : « Salió corriendo de la oficina. » — note « Salir + gérondif pour une
@@ -388,6 +475,10 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   Un apprenant qui applique « toujours de » produira *salgo de las ocho*.
 - **Correction proposée** : « Salir **de** pour le lieu qu'on quitte : salgo de la
   oficina. Mais salir a, para, con selon ce qui suit. »
+- **Vérifié** : déjà corrigé. La note de « Salió corriendo de la oficina. »
+  (`es-voc-movimiento`) dit maintenant « Salir de pour le lieu qu'on quitte,
+  mais salir a, para ou con selon ce qui suit. » — reprend la correction
+  proposée quasi mot pour mot ; plus d'affirmation « toujours ».
 
 ### [MOYEN] ✅ « Llegar prend toujours a, jamais en » — trop absolu, deux fois — *(passe 2)*
 

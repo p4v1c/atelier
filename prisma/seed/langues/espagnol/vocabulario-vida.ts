@@ -121,6 +121,7 @@ export const ESPAGNOL_VOCABULARIO_VIDA: LotCartes[] = [
         etranger: "Estoy atrapado en un atasco.",
         francais: "Je suis coincé dans un embouteillage.",
         aussi: ["Je suis pris dans les bouchons."],
+        aussiEtranger: ["Estoy atrapado en un trancón.", "Estoy atrapado en un taco."],
         note: "Un atasco en Espagne, un trancón en Colombie, un taco au Chili.",
       },
       {
@@ -150,6 +151,7 @@ export const ESPAGNOL_VOCABULARIO_VIDA: LotCartes[] = [
         etranger: "Saqué el billete por internet.",
         francais: "J'ai pris le billet sur internet.",
         aussi: ["J'ai acheté le billet en ligne."],
+        aussiEtranger: ["Compré el boleto por internet.", "Compré el pasaje por internet."],
         note: "Sacar un billete en Espagne, comprar un boleto ou un pasaje en Amérique latine.",
       },
     ],
@@ -178,10 +180,10 @@ export const ESPAGNOL_VOCABULARIO_VIDA: LotCartes[] = [
         note: "Una asignatura pendiente, une matière non validée — et, au figuré, une chose qu'on n'a jamais réglée.",
       },
       {
-        etranger: "Dejó la carrera en segundo curso.",
-        francais: "Il a abandonné ses études en deuxième année.",
-        aussi: ["Il a arrêté son cursus en deuxième année."],
-        note: "La carrera est le cursus universitaire. El curso, l'année d'études.",
+        etranger: "Dejó la carrera a mitad de camino.",
+        francais: "Il a abandonné ses études en cours de route.",
+        aussi: ["Il a arrêté son cursus en cours de route."],
+        note: "La carrera est le cursus universitaire dans son ensemble — bien plus vaste qu'une « carrière » professionnelle.",
       },
       {
         etranger: "Me matriculé en Historia.",

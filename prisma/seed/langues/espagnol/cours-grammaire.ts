@@ -138,7 +138,7 @@ export const ESPAGNOL_COURS_GRAMMAIRE: LotCartes[] = [
       { etranger: "Le doy el libro.", francais: "Je lui donne le livre.", note: "Complément indirect : le." },
       { etranger: "Me lo dio ayer.", francais: "Il me l'a donné hier.", note: "L'indirect avant le direct : me lo, jamais « lo me »." },
       { etranger: "Se lo di a ella.", francais: "Je le lui ai donné.", note: "« Le lo » est imprononçable : le devient se." },
-      { etranger: "Prefiero hacerlo yo.", francais: "Je préfère le faire moi-même.", note: "Collé à l'infinitif. « Lo prefiero hacer » est aussi correct." },
+      { etranger: "Prefiero hacerlo yo.", francais: "Je préfère le faire moi-même.", aussiEtranger: ["Lo prefiero hacer yo.", "Lo prefiero hacer."], note: "Collé à l'infinitif. « Lo prefiero hacer » est aussi correct." },
       { etranger: "Estoy haciéndolo.", francais: "Je suis en train de le faire.", note: "Collé au gérondif, avec l'accent écrit qui suit." },
       { etranger: "Dímelo otra vez.", francais: "Redis-le-moi.", aussi: ["Dis-le-moi encore une fois."], note: "Impératif affirmatif : les deux pronoms collés, et l'accent écrit qui apparaît." },
       { etranger: "No me lo digas.", francais: "Ne me le dis pas.", note: "À l'impératif négatif, les pronoms repassent devant." },

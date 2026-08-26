@@ -572,11 +572,13 @@ export const ESPAGNOL_CONJUGACION_2: LotCartes[] = [
       {
         etranger: "Se me rompió el vaso.",
         francais: "Le verre s'est cassé.",
+        aussiEtranger: ["El vaso se rompió."],
         note: "Le se involontaire : le locuteur devient victime. C'est la façon normale de rapporter un accident.",
       },
       {
         etranger: "Se nos acabó el pan.",
         francais: "Nous n'avons plus de pain.",
+        aussiEtranger: ["Ya no tenemos pan."],
         note: "Même structure : se + pronom indirect + verbe accordé avec la chose.",
       },
       {
@@ -587,6 +589,7 @@ export const ESPAGNOL_CONJUGACION_2: LotCartes[] = [
       {
         etranger: "Voy a levantarme temprano.",
         francais: "Je vais me lever tôt.",
+        aussiEtranger: ["Me voy a levantar temprano."],
         note: "Avec une périphrase, les deux places sont admises : me voy a levantar aussi.",
       },
       {

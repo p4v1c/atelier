@@ -182,7 +182,7 @@ export const ANGLAIS_COURS_USAGE: LotCartes[] = [
         {
           titre: "Registre",
           texte:
-            "Les phrasal verbs sont le registre courant. Leur équivalent d'origine latine est plus formel : find out contre discover, put off contre postpone, give up contre abandon, look into contre investigate.\n\nÀ l'oral et dans un courriel ordinaire, le phrasal verb est le choix naturel — l'équivalent latin sonne guindé. Dans un rapport ou un texte officiel, c'est l'inverse.\n\nSavoir les deux registres et choisir selon le contexte est un des marqueurs les plus nets d'un bon niveau.",
+            "Le phrasal verb est le registre courant, son équivalent latin le registre soutenu (find out / discover, put off / postpone) : la série « Choisir son registre » (C1, en-c1-registre) développe ce mécanisme en détail.",
         },
       ],
     },

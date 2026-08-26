@@ -85,6 +85,7 @@ export const ESPAGNOL_EXPRESIONES: LotCartes[] = [
       {
         etranger: "Me pones un café, por favor.",
         francais: "Un café, s'il te plaît.",
+        aussiEtranger: ["Ponme un café, por favor.", "¿Me puedes poner un café?"],
         note: "La formule normale au bar. Le présent y remplace l'impératif et suffit à la politesse.",
       },
       {

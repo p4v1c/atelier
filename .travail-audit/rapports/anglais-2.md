@@ -23,7 +23,8 @@ reconnaître, produire, écouter, prononcer), **33 cours** totalisant
 
 ### GRAVE
 
-### [GRAVE] Une note enseigne une forme agrammaticale : « carry out a research »
+### [GRAVE] ✅ Une note enseigne une forme agrammaticale : « carry out a research »
+- **Vérifié** : le tip actuel de `en-phrasal-ecrit` dit « carry out research est standard — research est indénombrable, jamais « a research » ». Déjà corrigé.
 - **Où** : `phrasal-collocations.ts` — série `en-phrasal-ecrit`, champ `tip`
 - **Texte** : « C'est souvent l'inverse : carry out a research est standard, perform ne l'est pas davantage. »
 - **Problème** : `research` est indénombrable. « A research » est faux, et c'est
@@ -32,7 +33,8 @@ reconnaître, produire, écouter, prononcer), **33 cours** totalisant
   jamais “researches” »). Le tip d'une série C1 enseigne donc la faute.
 - **Correction proposée** : « C'est souvent l'inverse : *carry out research* est le verbe standard de la méthode, et *perform* ne fait pas plus savant. »
 
-### [GRAVE] Anglais fautif donné comme modèle : « The trend has borne out since. »
+### [GRAVE] ✅ Anglais fautif donné comme modèle : « The trend has borne out since. »
+- **Vérifié** : la dernière carte de `en-phrasal-ecrit` est maintenant « The figures have borne out his prediction. » avec la note « Bear out est transitif : […] Le participe passé est borne, jamais « beared ». » Déjà corrigé.
 - **Où** : `phrasal-collocations.ts` — `en-phrasal-ecrit`, dernière carte
 - **Texte** : `etranger` « The trend has borne out since. » / note « Bear out à l'intransitif. Le participe passé est borne, jamais “beared”. »
 - **Problème** : `bear out` est transitif. La forme intransitive n'existe pas ;
@@ -40,7 +42,8 @@ reconnaître, produire, écouter, prononcer), **33 cours** totalisant
   présente comme un fait d'usage C1. L'apprenant produira une phrase fausse.
 - **Correction proposée** : `etranger` « The trend has been borne out since. » ; note « Bear out s'emploie au passif quand la preuve est le sujet. Le participe est *borne*, jamais “beared”. »
 
-### [GRAVE] Deux notes se contredisent sur « call into question »
+### [GRAVE] ✅ Deux notes se contredisent sur « call into question »
+- **Vérifié** : les deux notes disent maintenant la même chose — `vocabulaire-c1.ts` : « Le complément se place entre call et into : call the theory into question. » ; `phrasal-collocations.ts` : « Le complément se glisse entre call et into. La forme soudée […] existe mais pèse plus lourd. » Déjà corrigé, harmonisé sur la bonne version.
 - **Où** : `vocabulaire-c1.ts` — `en-c1-academique`, carte « The results call the theory into question. » ET `phrasal-collocations.ts` — `en-collocations-academiques`, carte « This calls into question the method. »
 - **Texte** : d'un côté « Call into question, en trois mots séparables. » ; de l'autre « Call into question, remettre en cause. **La particule ne se déplace pas.** »
 - **Problème** : contradiction frontale entre deux séries du même module, sur le
@@ -49,7 +52,8 @@ reconnaître, produire, écouter, prononcer), **33 cours** totalisant
   `call` et `into`.
 - **Correction proposée** : harmoniser sur « Le complément se place entre call et into : *call the theory into question*. La forme soudée *call into question the method* existe mais est plus lourde. »
 
-### [GRAVE] Une note enseigne un calque : « fail a control »
+### [GRAVE] ✅ Une note enseigne un calque : « fail a control »
+- **Vérifié** : la note est maintenant « Fail quality control, sans article, ne pas passer le contrôle qualité. » Déjà corrigé.
 - **Où** : `vocabulaire-societe.ts` — `en-voc-industrie`, carte « The batch failed quality control. »
 - **Texte** : « A batch, un lot de fabrication. **Fail a control**, ne pas passer un contrôle. »
 - **Problème** : « a control » au sens de « un contrôle / une inspection » est
@@ -58,7 +62,8 @@ reconnaître, produire, écouter, prononcer), **33 cours** totalisant
   francophone produirait spontanément — et la valide.
 - **Correction proposée** : « A batch, un lot de fabrication. *Fail quality control*, *fail an inspection* — mais jamais « fail a control » : *a control* ne veut pas dire un contrôle. »
 
-### [GRAVE] Traduction française fausse : « He's got a sweet tooth. » → « Il est très sucré. »
+### [GRAVE] ✅ Traduction française fausse : « He's got a sweet tooth. » → « Il est très sucré. »
+- **Vérifié** : `francais` est maintenant « Il aime beaucoup les sucreries. », avec `aussi` : [« Il est très porté sur le sucré. », « Il a un faible pour le sucré. »]. Déjà corrigé.
 - **Où** : `idiomes-caractere.ts` — `en-idiomes-corps`
 - **Texte** : `francais` « Il est très sucré. » (`aussi` : « Il aime beaucoup les sucreries. »)
 - **Problème** : « il est très sucré » ne veut rien dire en français à propos
@@ -67,7 +72,8 @@ reconnaître, produire, écouter, prononcer), **33 cours** totalisant
   production. La bonne est reléguée dans `aussi`.
 - **Correction proposée** : `francais` « Il est très porté sur le sucré. », `aussi` : [« Il aime beaucoup les sucreries. », « Il a un faible pour le sucré. »]
 
-### [GRAVE] Décalage d'un étage : « six storeys » ≠ « six étages »
+### [GRAVE] ✅ Décalage d'un étage : « six storeys » ≠ « six étages »
+- **Vérifié** : `francais` est maintenant « L'immeuble compte six niveaux. », note « A storey = un niveau […] six storeys font cinq étages en français, le rez-de-chaussée ne comptant pas. » Déjà corrigé.
 - **Où** : `vocabulaire-societe.ts` — `en-voc-architecture`, carte 1
 - **Texte** : « The building has six storeys. » → « L'immeuble compte six étages. »
 - **Problème** : la série s'ouvre pourtant sur ce piège exact (`tip` : « le
@@ -77,7 +83,8 @@ reconnaître, produire, écouter, prononcer), **33 cours** totalisant
   et installe une erreur de comptage.
 - **Correction proposée** : « The building has six storeys. » → « L'immeuble compte six niveaux. » (note : « A storey = un niveau, rez-de-chaussée compris. “Six étages” en français ferait seven storeys. »)
 
-### [GRAVE] Doublon franc : deux séries C1 sur les mêmes noms abstraits
+### [GRAVE] 🔧 Doublon franc : deux séries C1 sur les mêmes noms abstraits
+- **Vérifié** : confirmé par un relecteur précédent et vérifié de nouveau — la fusion antérieure n'avait retiré que la carte *trade-off* de `en-noms-abstraits-2` ; les cartes *scope* (« That's beyond the scope of this study. ») et *rationale* (« The rationale is not explained. ») y restaient, doublonnant `en-c1-abstrait`. Corrigé maintenant : ces deux cartes sont supprimées de `en-noms-abstraits-2`, ainsi que la mention de « scope » et « rationale » dans son `statement`/`tip` (remplacés par un renvoi explicite vers « Les mots de la pensée abstraite » pour ces deux mots). La série ne garde que ce qui lui est propre : extent, stance, body of work, gist (x2), implications, premise, emphasis.
 - **Où** : `vocabulaire-metiers.ts` — `en-c1-abstrait` « Les mots de la pensée abstraite » ET `idiomes-caractere.ts` — `en-noms-abstraits-2` « Nommer une notion »
 - **Texte** : les deux ouvrent sur *scope* et *rationale* ; les deux ont une carte *trade-off* dont les notes sont quasi identiques — « A trade-off : on perd d'un côté ce qu'on gagne de l'autre. » contre « A trade-off, ce qu'on perd d'un côté pour gagner de l'autre. »
 - **Problème** : ce ne sont pas deux angles différents, c'est la même série
@@ -85,19 +92,22 @@ reconnaître, produire, écouter, prononcer), **33 cours** totalisant
   progresser.
 - **Correction proposée** : fusionner. Garder `en-c1-abstrait` (qui a un cours) et ne conserver dans `en-noms-abstraits-2` que ce qui n'y figure pas : *extent*, *stance*, *gist*, *body of work*, *implications*, *emphasis*.
 
-### [GRAVE] Phrase de note réemployée mot pour mot d'un cours à l'autre
+### [GRAVE] ✅ Phrase de note réemployée mot pour mot d'un cours à l'autre
+- **Vérifié** : `en-voc-politique` §3 dit maintenant « Pour poser un sujet : an issue, a matter, a topic et a problem ne se valent pas — la série « Les mots de la pensée abstraite » les sépare un à un. Retiens ici que problem n'est jamais neutre… » — renvoi explicite, plus de paragraphe recopié. Déjà corrigé.
 - **Où** : `vocabulaire-idees.ts` — `en-voc-politique`, cours §3 ET `vocabulaire-metiers.ts` — `en-c1-abstrait`, cours §2
 - **Texte** : « A problem suppose qu'il y a quelque chose à réparer » + « an issue est une question débattue » — identiques dans les deux cours.
 - **Problème** : paragraphe recopié d'un cours à l'autre (consigne §4).
 - **Correction proposée** : ne garder la série problem/issue/matter/concern que dans `en-c1-abstrait`, et renvoyer depuis `en-voc-politique`.
 
-### [GRAVE] Doublon de carte quasi mot pour mot : « addresses three questions/issues »
+### [GRAVE] ✅ Doublon de carte quasi mot pour mot : « addresses three questions/issues »
 - **Où** : `vocabulaire-c1.ts` — `en-c1-academique` ET `phrasal-collocations.ts` — `en-collocations-academiques`
 - **Texte** : « This paper addresses three questions. » / « Cet article traite trois questions. » / note « Address a question, traiter. Le mot ne veut jamais dire adresser. » — contre « The paper addresses three issues. » / « L'article traite trois questions. » / note « Address an issue, traiter. Le verbe ne veut jamais dire adresser. »
 - **Problème** : même phrase, même traduction française, même note. Deux exercices identiques dans deux séries.
 - **Correction proposée** : supprimer la carte de `en-collocations-academiques` et la remplacer par une collocation non couverte (*meet a deadline*, *pose a challenge*).
+- **Vérifié** : la carte « addresses three issues » n'existe plus dans `en-collocations-academiques` ; elle est remplacée par « This raises a further question. » Déjà corrigé.
 
-### [GRAVE] Note grammaticale fausse : « carefully peut porter sur must »
+### [GRAVE] ✅ Note grammaticale fausse : « carefully peut porter sur must »
+- **Vérifié** : la note dit maintenant « Carefully en fin de phrase peut se rattacher au seul review ou à tout le groupe review all the data ; devant le verbe, il ne porte plus que sur l'acte de relire. » Déjà corrigé.
 - **Où** : `grammaire-c1.ts` — `en-c2-ambiguite`, carte « We must review all the data carefully. »
 - **Texte** : « Carefully en fin de phrase peut porter sur *review* ou sur *must*. Le placer devant le verbe lève le doute. »
 - **Problème** : un adverbe de manière ne peut pas modifier un modal. « must
@@ -105,7 +115,8 @@ reconnaître, produire, écouter, prononcer), **33 cours** totalisant
   est dans une série sur les ambiguïtés réelles et en invente une.
 - **Correction proposée** : remplacer la carte, ou requalifier : « Carefully en fin de phrase peut se rattacher à *review* ou à l'ensemble *review all the data* ; devant le verbe, il ne porte plus que sur l'acte de relire. »
 
-### [GRAVE] Deux séries font le même cours sur la litote britannique
+### [GRAVE] 🔧 Deux séries font le même cours sur la litote britannique
+- **Vérifié** : toujours fautif au moment du contrôle — le cours C2 gardait ses trois sections, dont les deux premières («Pourquoi la langue atténue», «Les trois signaux») reprenaient les mêmes tableaux et le même mécanisme que le cours B2 (`en-euphemisme`), avec les mêmes exemples « Not bad at all » et « With the greatest respect ». Corrigé maintenant : le cours de `en-c2-ironie` est réduit à une seule section (l'ancienne §3, « De la litote à l'ironie »), précédée d'un renvoi explicite au cours B2 pour les bases ; les deux premières sections dupliquées sont supprimées. Les cartes de la série, qui ne faisaient pas doublon, restent inchangées.
 - **Où** : `avance-b2.ts` — `en-euphemisme` (cours « La litote britannique ») ET `avance-c2.ts` — `en-c2-ironie` (cours « Dire moins, dire le contraire », §1 et §2)
 - **Texte** : le tableau B2 « Not bad at all. | moyen | franchement bon » et « With the greatest respect… | on va me flatter | je vais vous contredire » ; le tableau C2 « Not bad at all | pas mauvais | vraiment très bien » et « With the greatest respect | avec tout mon respect | vous dites une bêtise ».
 - **Problème** : mêmes exemples, même mécanisme (négation du contraire,
@@ -114,7 +125,8 @@ reconnaître, produire, écouter, prononcer), **33 cours** totalisant
   du neuf.
 - **Correction proposée** : réduire le cours C2 à sa §3 et renvoyer explicitement au cours B2 pour le reste ; retirer du C2 les exemples déjà présents en B2.
 
-### [GRAVE] « Make sure to » déclaré fautif : c'est faux
+### [GRAVE] ✅ « Make sure to » déclaré fautif : c'est faux
+- **Vérifié** : le tip dit maintenant « Make sure se construit avec une proposition […] ou avec un infinitif […] : les deux sont corrects. Ce qui ne se dit pas, c'est « make sure of locking ». » Déjà corrigé.
 - **Où** : `oral-interaction.ts` — `en-instructions`, `tip` et carte « Make sure you lock the door. »
 - **Texte** : tip « Make sure + proposition, **jamais + infinitif** : make sure you lock the door. **La faute est fréquente et s'entend tout de suite.** » ; note « Jamais “make sure to lock” en anglais britannique soigné. »
 - **Problème** : *make sure to do something* est une construction parfaitement
@@ -124,7 +136,8 @@ reconnaître, produire, écouter, prononcer), **33 cours** totalisant
   tort.
 - **Correction proposée** : tip « Make sure se construit avec une proposition (*make sure you lock the door*) ou avec un infinitif (*make sure to lock the door*) : les deux sont corrects. Ce qui ne se dit pas, c'est *make sure of locking*. »
 
-### [GRAVE] Doublon franc : la carte « I hear you, but… » existe deux fois
+### [GRAVE] ✅ Doublon franc : la carte « I hear you, but… » existe deux fois
+- **Vérifié** : `en-desaccord-poli` ne contient plus de carte « I hear you, but… » — elle a été remplacée par « I take your point, but the timing is wrong. » Déjà corrigé (le recouvrement thématique plus large entre les deux séries, mentionné en passant dans le problème, n'était pas le cœur du constat : la carte identique a disparu).
 - **Où** : `avance-c2.ts` — `en-c1-negociation`, carte 1 ET `oral-interaction.ts` — `en-desaccord-poli`
 - **Texte** : « I hear you, but the budget is fixed. » / note « I hear you accuse réception sans concéder. Ce n'est jamais un accord. » — contre « I hear you, but the timing is wrong. » / note « I hear you accuse réception sans accord. Ce n'est jamais un oui. »
 - **Problème** : même formule, même structure de phrase, même note reformulée.
@@ -134,7 +147,8 @@ reconnaître, produire, écouter, prononcer), **33 cours** totalisant
   professionnel indirect.
 - **Correction proposée** : supprimer la carte de `en-desaccord-poli` et y renvoyer explicitement à `en-c1-negociation`, ou fusionner les deux séries.
 
-### [GRAVE] Deux cours du module se contredisent sur « furthermore »
+### [GRAVE] ✅ Deux cours du module se contredisent sur « furthermore »
+- **Vérifié** : les deux cours disent maintenant « Moreover et furthermore sont interchangeables […] » (vocabulaire-c1.ts §2, cours-usage.ts §2, et la note de la carte associée dans vocabulaire-c1.ts). Déjà corrigé.
 - **Où** : `vocabulaire-c1.ts` — `en-c1-academique`, cours §2 (et la carte « Furthermore, the sample was too small. ») ET `cours-usage.ts` — `en-cours-ecrire`, cours §2
 - **Texte** : « Moreover annonce un argument de même force ; **furthermore annonce un argument supplémentaire et souvent décisif.** » — contre « **Furthermore est de plus en plus perçu comme pompeux.** »
 - **Problème** : un cours en fait le connecteur fort à privilégier, l'autre un
@@ -142,7 +156,8 @@ reconnaître, produire, écouter, prononcer), **33 cours** totalisant
   opposées sur le même mot, sans qu'aucune ne mentionne l'autre.
 - **Correction proposée** : trancher pour une position unique — « *moreover* et *furthermore* sont interchangeables et appartiennent à l'écrit formel ; dans un courriel ou une note, *also* et *what's more* passent mieux » — et l'écrire dans les deux cours.
 
-### [GRAVE] Section de cours dupliquée : phrasal verb contre équivalent latin
+### [GRAVE] 🔧 Section de cours dupliquée : phrasal verb contre équivalent latin
+- **Vérifié** : confirmé par un relecteur précédent et vérifié de nouveau — la §3 « Registre » de `en-cours-phrasal` (`cours-usage.ts`) était toujours un paragraphe complet reprenant les mêmes paires (find out/discover, put off/postpone, give up/abandon, look into/investigate) et la même conclusion que `en-c1-registre`. Corrigé maintenant : cette §3 est réduite à une ligne de renvoi — « Le phrasal verb est le registre courant, son équivalent latin le registre soutenu (find out / discover, put off / postpone) : la série « Choisir son registre » (C1, en-c1-registre) développe ce mécanisme en détail. » — la version complète de `en-c1-registre` n'est pas touchée.
 - **Où** : `vocabulaire-c1.ts` — `en-c1-registre`, cours §2 « Le verbe à particule, marqueur du parlé » ET `cours-usage.ts` — `en-cours-phrasal`, cours §3 « Registre »
 - **Texte** : « Put off donne postpone, find out donne discover, look into donne investigate, […] give up donne abandon » — contre « find out contre discover, put off contre postpone, give up contre abandon, look into contre investigate ».
 - **Problème** : mêmes paires, même argument (le phrasal verb est le registre
@@ -151,7 +166,8 @@ reconnaître, produire, écouter, prononcer), **33 cours** totalisant
   d'un bon niveau »). C'est la même section écrite deux fois.
 - **Correction proposée** : garder la version de `en-c1-registre` (plus complète) et réduire la §3 de `en-cours-phrasal` à un renvoi d'une ligne.
 
-### [GRAVE] Deux séries se contredisent frontalement sur « unless »
+### [GRAVE] ✅ Deux séries se contredisent frontalement sur « unless »
+- **Vérifié** : `en-cours-conditionnels` dit maintenant « Unless veut dire « sauf si » : il pose la seule circonstance qui annulerait la phrase. Il équivaut souvent à if… not, mais pas toujours… » et la carte traduit « À moins que tu ne te dépêches, on sera en retard. » — cohérent avec `en-conditionnels-avances`. Déjà corrigé.
 - **Où** : `cours-avance.ts` — `en-cours-conditionnels`, cours §3 et carte « Unless you hurry, we'll be late. » ET `formation-mots.ts` — `en-conditionnels-avances`, `tip` et carte « We'll go unless it rains. »
 - **Texte** : « **Unless remplace if… not** : unless you hurry, we'll be late. » et sa carte traduite « **Si tu ne te dépêches pas**, on sera en retard. » — contre « Unless veut dire « sauf si », **pas « si… ne… pas »**. La nuance compte : *unless it rains* n'est pas exactement *if it doesn't rain*. » et sa carte traduite « Nous irons **sauf s'il pleut**. »
 - **Problème** : un cours pose l'équivalence, l'autre la refuse explicitement,
@@ -161,7 +177,8 @@ reconnaître, produire, écouter, prononcer), **33 cours** totalisant
   annulerait l'énoncé, ce que *if… not* ne dit pas toujours.)
 - **Correction proposée** : dans `en-cours-conditionnels`, écrire « Unless veut dire “sauf si” : il pose l'exception qui annulerait la phrase. Il équivaut souvent à *if… not*, mais pas toujours — et il ne se cumule jamais avec une négation. » ; la carte devient « Unless you hurry, we'll be late. » → « À moins que tu ne te dépêches, on sera en retard. »
 
-### [GRAVE] Doublon : deux séries sur le passif, avec les mêmes cartes
+### [GRAVE] ✅ Doublon : deux séries sur le passif, avec les mêmes cartes
+- **Vérifié** : `en-passif-avance` ne contient plus les cartes *were given a second chance* ni *is being rebuilt* ; elle couvre maintenant *have something done*, *be said to*, *it is thought/widely believed that*, *the meeting was called off* (particule + passif), *have + participe subi*, *be looked into*, *be believed to have*. Déjà corrigé, conforme à la proposition.
 - **Où** : `cours-avance.ts` — `en-cours-passif` (B2) ET `formation-mots.ts` — `en-passif-avance` (C1)
 - **Texte** : « I was given a second chance. » → « On m'a donné une seconde chance. » / note « Ce passif-là n'a pas d'équivalent français. » — contre « They were given a second chance. » → « On leur a donné une seconde chance. » / note « Le complément d'attribution devient sujet du passif, ce que le français ne fait pas. » ; et « The house is being renovated. » / note « Passif continu : is being + participe. » — contre « The house is being rebuilt. » / note « Be being + participe : le passif au continu. »
 - **Problème** : deux cartes sur quatre de la partie « double passif » et
@@ -170,7 +187,8 @@ reconnaître, produire, écouter, prononcer), **33 cours** totalisant
   *have something done* et *be said to*.
 - **Correction proposée** : retirer de `en-passif-avance` les cartes *were given a second chance* et *is being rebuilt*, déjà couvertes en B2, et compléter par ce qui manque : *it is widely believed that*, *she is expected to*, *the meeting was called off* au passif avec particule.
 
-### [GRAVE] Doublon franc : la série « gérondif ou infinitif » existe deux fois
+### [GRAVE] 🔧 Doublon franc : la série « gérondif ou infinitif » existe deux fois
+- **Vérifié** : toujours fautif au moment du contrôle — `en-patterns-verbaux` (`formation-mots.ts`) avait encore ses dix cartes sur stop/regret/try/mean/go on, qui recoupaient presque mot pour mot le cours et les cartes de `en-remember-doing` (remember, forget, stop, try, regret). Corrigé maintenant, en suivant l'option « recentrer » de la correction proposée plutôt que la suppression pure (qui aurait perdu une série entière sans la remplacer) : `en-patterns-verbaux` est réécrite avec quatre couples que `en-remember-doing` ne couvre pas — need doing / need to do, get to do / come to do, be afraid of doing / afraid to do, used to / be used to doing — et son statement renvoie explicitement à `en-remember-doing` pour le principe -ing/to et les sept verbes d'origine.
 - **Où** : `cours-tournures.ts` — `en-remember-doing` « Remember doing ou remember to do » (B1) ET `formation-mots.ts` — `en-patterns-verbaux` « Gérondif ou infinitif » (B2)
 - **Texte** : tips quasi identiques — « **Le -ing regarde en arrière**, vers ce qui est déjà fait ; **le to regarde en avant**, vers ce qui reste à faire. » contre « **Le gérondif regarde en arrière, l'infinitif en avant.** I remember locking the door : je l'ai fait. » Et les cartes se recouvrent presque toutes : *stopped smoking* / *stopped to smoke*, *regret telling him* / *regret to inform you*, *tried opening* / *tried to open*.
 - **Problème** : ce n'est pas un rappel, c'est la même série écrite deux fois, à
@@ -179,7 +197,8 @@ reconnaître, produire, écouter, prononcer), **33 cours** totalisant
   `en-patterns-verbaux` fait ses quatre dernières cartes.
 - **Correction proposée** : garder `en-remember-doing` (qui a le cours) et supprimer `en-patterns-verbaux`, ou la recentrer sur ce qui n'y est pas : *need doing / need to do*, *come to do*, *be afraid of doing / afraid to do*, *used to / be used to doing*.
 
-### [GRAVE] Doublon franc : la série « make, do, take, have » existe deux fois
+### [GRAVE] 🔧 Doublon franc : la série « make, do, take, have » existe deux fois
+- **Vérifié** : toujours fautif au moment du contrôle — `en-collocations-verbes` (`phrasal-collocations.ts`) gardait encore le titre « Make, do, take, have, give » et deux cartes quasi identiques à `en-collocations` : « We need to make a decision today. » / « I need to make a decision. », et « Let me take a look. » / « Can I have a look ? » (les deux notes citant d'ailleurs explicitement l'équivalence take/have a look). Corrigé maintenant, comme proposé : titre renommé « Give et have : les collocations qui restent », statement et tip recentrés sur give/have, les deux cartes dupliquées remplacées par « Give me a hand with this. » et « Let's have a chat about it. » — les cartes déjà propres à la série (give a talk, have a word, take sugar, make sense, give it a miss, do the dishes, make an effort, do one's best) ne sont pas touchées.
 - **Où** : `cours-tournures.ts` — `en-collocations` « Make, do, take, have : le bon verbe » (A2) ET `phrasal-collocations.ts` — `en-collocations-verbes` « Make, do, take, have, give » (B2)
 - **Texte** : « I need to make a decision. » / note « **Le français prend la décision, l'anglais la fabrique** : make a decision. » — contre « We need to make a decision today. » / note « Make a decision, jamais “take”. **Le français prend là où l'anglais fabrique.** » Les tips se répondent de même : « Make ce qui se produit, do ce qui se travaille » contre « Make va vers ce qu'on produit, do vers ce qu'on accomplit ».
 - **Problème** : même titre, même quatuor de verbes, mêmes exemples canoniques
@@ -187,7 +206,8 @@ reconnaître, produire, écouter, prononcer), **33 cours** totalisant
   reformulées. Deux séries entières pour un seul contenu.
 - **Correction proposée** : garder `en-collocations` (elle a le cours) ; réduire `en-collocations-verbes` aux emplois qu'elle seule couvre — *give a talk*, *give a hand*, *have a word*, *do the dishes* — et la renommer « Give et have : les collocations qui restent ».
 
-### [GRAVE] La méthode d'apprentissage des phrasal verbs, enseignée à l'envers dans deux cours
+### [GRAVE] 🔧 La méthode d'apprentissage des phrasal verbs, enseignée à l'envers dans deux cours
+- **Vérifié** : l'en-tête de `phrasal-collocations.ts` et le statement/tip de `en-cours-phrasal` (`cours-usage.ts`) portaient déjà la version réconciliée (« la particule oriente, le verbe fixe la famille » / « on les apprend par famille de verbe pour réviser, par particule pour deviner — jamais un par un »). Mais le tip de la série `en-phrasal-get`, dans le même fichier que l'en-tête corrigé, disait encore « Chercher le sens du verbe est le meilleur moyen de se tromper » — en contradiction directe avec l'en-tête juste au-dessus et avec `en-cours-phrasal`. Corrigé maintenant : le tip de `en-phrasal-get` dit « Cette série regroupe par verbe pour réviser — pour deviner un sens inconnu, c'est la particule qu'il faut regarder. »
 - **Où** : `cours-usage.ts` — `en-cours-phrasal` ET `phrasal-collocations.ts` (en-tête du fichier et `en-phrasal-get`)
 - **Texte** : « Ils ne s'apprennent pas par liste : **ils s'apprennent par particule**. […] les particules ont des sens assez stables, et les reconnaître rend une grande partie du vocabulaire **déductible**. » — contre « on les apprend **par famille de verbe**, jamais un par un » et le tip « Get seul veut dire obtenir ou devenir ; avec une particule, il ne veut plus rien dire de tel. **Chercher le sens du verbe est le meilleur moyen de se tromper.** »
 - **Problème** : les deux cours donnent la consigne d'étude inverse — l'un dit

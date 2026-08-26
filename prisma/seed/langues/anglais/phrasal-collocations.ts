@@ -22,7 +22,7 @@ export const ANGLAIS_PHRASAL_COLLOCATIONS: LotCartes[] = [
     title: "Get et ses particules",
     statement:
       "Get by, get over, get through, get at. Un seul verbe, quinze sens, et c'est le plus fréquent de l'anglais parlé. La particule fait tout le travail.",
-    tip: "Get seul veut dire obtenir ou devenir ; avec une particule, il ne veut plus rien dire de tel. Chercher le sens du verbe est le meilleur moyen de se tromper.",
+    tip: "Get seul veut dire obtenir ou devenir ; avec une particule, c'est elle qui porte le sens. Cette série regroupe par verbe pour réviser — pour deviner un sens inconnu, c'est la particule qu'il faut regarder.",
     difficulty: 2,
     niveau: "B1",
     oral: true,
@@ -292,19 +292,19 @@ export const ANGLAIS_PHRASAL_COLLOCATIONS: LotCartes[] = [
   {
     slug: "en-collocations-verbes",
     category: "Vocabulaire",
-    title: "Make, do, take, have, give",
+    title: "Give et have : les collocations qui restent",
     statement:
-      "Make a decision, do the washing, take a photo. Cinq verbes vides qui portent la moitié de l'anglais courant, et dont le choix ne se déduit d'aucune règle.",
-    tip: "Make va vers ce qu'on produit, do vers ce qu'on accomplit. La frontière est floue et les exceptions nombreuses : ces couples s'apprennent tels quels.",
+      "Give a talk, have a word, do the dishes. La série « Make, do, take, have : le bon verbe » installe le principe ; celle-ci couvre ce qu'elle ne dit pas.",
+    tip: "Give porte ce qu'on offre à quelqu'un d'autre — a talk, a hand, a miss. Have porte l'échange bref — a word, a chat.",
     difficulty: 2,
     niveau: "B2",
     oral: true,
     parle: true,
     cartes: [
       {
-        etranger: "We need to make a decision today.",
-        francais: "Nous devons prendre une décision aujourd'hui.",
-        note: "Make a decision, jamais « take ». Le français prend là où l'anglais fabrique.",
+        etranger: "Give me a hand with this.",
+        francais: "Donne-moi un coup de main.",
+        note: "Give a hand, aider. Help with the same idea marche aussi, en plus neutre.",
       },
       {
         etranger: "He did his best.",
@@ -312,9 +312,9 @@ export const ANGLAIS_PHRASAL_COLLOCATIONS: LotCartes[] = [
         note: "Do one's best. Make dirait qu'on fabrique un « meilleur », ce qui ne veut rien dire.",
       },
       {
-        etranger: "Let me take a look.",
-        francais: "Laisse-moi jeter un œil.",
-        note: "Take a look, have a look ou give it a look : les trois se disent, make jamais.",
+        etranger: "Let's have a chat about it.",
+        francais: "Discutons-en un peu.",
+        note: "Have a chat, discuter brièvement et sans façon. Plus informel que have a conversation.",
       },
       {
         etranger: "She gave a talk on climate.",

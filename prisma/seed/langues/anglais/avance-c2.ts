@@ -311,61 +311,12 @@ export const ANGLAIS_AVANCE_C2: LotCartes[] = [
     oral: true,
     parle: true,
     cours: {
-      titre: "Dire moins, dire le contraire",
+      titre: "De la litote à l'ironie",
       sections: [
         {
-          titre: "Pourquoi la langue atténue",
+          titre: "Un pas de plus depuis la litote",
           texte:
-            "L'understatement — la litote — consiste à formuler une chose en dessous de ce qu'elle est, et à laisser l'auditeur rétablir. « Not bad » pour excellent, « a bit of a problem » pour une catastrophe, « I'm slightly concerned » pour une inquiétude sérieuse.\n\nCe n'est ni de la modestie ni de la froideur. C'est une règle de politesse négative : en atténuant, le locuteur laisse à l'autre la place de juger lui-même, au lieu de lui imposer une évaluation. Le compliment appuyé, en anglais britannique, met le destinataire en dette ; le compliment atténué le laisse libre.\n\nLe francophone est ici doublement exposé. D'abord parce que le français valorise l'expression pleine : dire « pas mal » d'un travail excellent passerait pour tiède. Ensuite parce que le sens littéral d'une litote est parfaitement grammatical — rien ne signale l'erreur, et l'on repart avec un contresens dont personne ne vous avertira.",
-          visuels: [
-            {
-              type: "tableau",
-              titre: "Ce qui est dit, ce qui est entendu",
-              colonnes: ["Formule", "Sens littéral", "Sens réel"],
-              lignes: [
-                ["Not bad at all", "pas mauvais", "vraiment très bien"],
-                ["A bit of a problem", "un petit souci", "un problème sérieux"],
-                ["I'm slightly concerned", "je m'inquiète un peu", "je suis très inquiet"],
-                ["It's not ideal", "ce n'est pas idéal", "c'est inacceptable"],
-                ["With the greatest respect", "avec tout mon respect", "vous dites une bêtise"],
-              ],
-              note: "La dernière est un classique de réunion : elle annonce une contradiction frontale.",
-            },
-          ],
-        },
-        {
-          titre: "Les trois signaux",
-          texte:
-            "Trois indices permettent de repérer une litote sans avoir à deviner.\n\nLa négation d'un terme faible. Not bad, not unhelpful, not without merit. Nier le négatif produit un positif fort ; nier le positif produit une condamnation. « He's not the brightest » ne dit pas qu'il est moyen.\n\nL'adverbe atténuant sur une situation grave. Slightly, rather, a bit, somewhat. Leur présence sur un fait objectivement lourd est le signal le plus net : « the building is somewhat on fire » n'est pas une évaluation, c'est une plaisanterie.\n\nL'écart entre le ton et le contenu. Une voix parfaitement calme sur une nouvelle grave indique presque toujours une litote. Inversement, l'emphase britannique — absolutely, terribly, frightfully — sert souvent à la politesse et non à l'intensité : « terribly sorry » est une excuse ordinaire.",
-          visuels: [
-            {
-              type: "comparaison",
-              titre: "Deux registres pour la même nouvelle",
-              colonnes: [
-                {
-                  titre: "Ce qui est dit",
-                  points: [
-                    "We've had a slight setback.",
-                    "It didn't go entirely to plan.",
-                    "I wouldn't say it was a success.",
-                  ],
-                },
-                {
-                  titre: "Ce qui est entendu",
-                  points: [
-                    "Le projet a échoué.",
-                    "Tout a mal tourné.",
-                    "C'est un désastre complet.",
-                  ],
-                },
-              ],
-            },
-          ],
-        },
-        {
-          titre: "De la litote à l'ironie",
-          texte:
-            "La litote atténue ; l'ironie inverse. Ce sont deux points d'un même axe, et l'anglais passe de l'un à l'autre sans changer de grammaire.\n\n« We've had a slight setback » sous-évalue un échec : le sens reste du même côté que la vérité. « Well, that went well », dit après le même échec, est de l'autre côté. Rien dans la phrase ne le signale — ni un mot, ni un temps, ni un ordre des mots. Seul l'écart avec la situation le dit.\n\nC'est ce qui rend l'ironie plus difficile que la litote pour un non-natif. Une litote se repère à ses marqueurs, et l'on peut apprendre la liste. L'ironie demande de tenir en même temps ce qui est dit et ce qui se passe, puis de constater que les deux ne concordent pas. Un francophone très bon en anglais peut suivre une réunion entière sans entendre qu'on s'y moque de lui.\n\nDeux indices aident quand même. Le premier est l'excès : un superlatif sur un fait banal — brilliant, fantastic, perfect — est presque toujours ironique. Le second est la formule figée : as if, tell me about it, that's rich, sure, and pigs might fly n'ont pratiquement pas d'emploi littéral.\n\nÀ produire, la règle de prudence est nette : l'ironie suppose une complicité déjà établie. Employée avec un interlocuteur qu'on connaît mal, elle est comprise au premier degré, et l'on passe pour sot ou pour désagréable.",
+            "Le cours « La litote britannique » (B2, série en-euphemisme) détaille l'atténuation anglaise : la négation du contraire, l'atténuateur qui s'inverse devant un fait négatif, le préfixe annonciateur. On y renvoie pour les bases — ce qui suit part de là et va plus loin.\n\nLa litote atténue ; l'ironie inverse. Ce sont deux points d'un même axe, et l'anglais passe de l'un à l'autre sans changer de grammaire.\n\n« We've had a slight setback » sous-évalue un échec : le sens reste du même côté que la vérité. « Well, that went well », dit après le même échec, est de l'autre côté. Rien dans la phrase ne le signale — ni un mot, ni un temps, ni un ordre des mots. Seul l'écart avec la situation le dit.\n\nC'est ce qui rend l'ironie plus difficile que la litote pour un non-natif. Une litote se repère à ses marqueurs, et l'on peut apprendre la liste. L'ironie demande de tenir en même temps ce qui est dit et ce qui se passe, puis de constater que les deux ne concordent pas. Un francophone très bon en anglais peut suivre une réunion entière sans entendre qu'on s'y moque de lui.\n\nDeux indices aident quand même. Le premier est l'excès : un superlatif sur un fait banal — brilliant, fantastic, perfect — est presque toujours ironique. Le second est la formule figée : as if, tell me about it, that's rich, sure, and pigs might fly n'ont pratiquement pas d'emploi littéral.\n\nÀ produire, la règle de prudence est nette : l'ironie suppose une complicité déjà établie. Employée avec un interlocuteur qu'on connaît mal, elle est comprise au premier degré, et l'on passe pour sot ou pour désagréable.",
           visuels: [
             {
               type: "tableau",

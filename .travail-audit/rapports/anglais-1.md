@@ -28,7 +28,7 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
 
 ## Constats
 
-### [GRAVE] « Je ne suis pas bien » ne veut pas dire « I don't quite follow »
+### [GRAVE] ✅ « Je ne suis pas bien » ne veut pas dire « I don't quite follow »
 
 - **Où** : `bases.ts:47` — `en-presentation`
 - **Texte** : `{ etranger: "I don't quite follow.", francais: "Je ne suis pas bien.", aussi: ["Je ne comprends pas tout."] }`
@@ -40,8 +40,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   appellera légitimement *I don't feel well*, qui sera compté faux.
 - **Correction proposée** : `francais: "Je ne te suis pas bien."`, garder
   l'`aussi`, et ajouter `aussiEtranger: ["I'm not sure I follow."]`.
+- **Vérifié** : déjà corrigé — `bases.ts:47` porte `francais: "Je ne te suis pas bien."` avec `aussi: ["Je ne comprends pas tout.", "Je ne vous suis pas bien."]`. Le conflit avec `quotidien-a1.ts` est levé (`aussiEtranger` n'a pas été ajouté, mais ce n'est pas ce qui rendait le constat grave).
 
-### [GRAVE] « In the country » veut bel et bien dire « à la campagne »
+### [GRAVE] ✅ « In the country » veut bel et bien dire « à la campagne »
 
 - **Où** : `vocabulaire-monde.ts:368` (note de carte) **et** le cours de la même
   série, section « Le relief et l'eau » — `en-voc-nature`
@@ -57,8 +58,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   standard.
 - **Correction proposée** : « In the countryside ou in the country, à la
   campagne. Country dit aussi le pays : c'est le contexte qui tranche. »
+- **Vérifié** : déjà corrigé — le cours (`vocabulaire-monde.ts`, section « Le relief et l'eau ») dit désormais « in the countryside ou in the country pour la campagne : country dit aussi le pays, c'est le contexte qui tranche », et la note de la carte reprend « In the countryside ou in the country, à la campagne. Le second est plus courant en anglais britannique. »
 
-### [GRAVE] Un rétroprojecteur n'est pas un vidéoprojecteur
+### [GRAVE] ✅ Un rétroprojecteur n'est pas un vidéoprojecteur
 
 - **Où** : `faux-amis.ts` — `en-pieges-anglicismes`, carte « a data projector »
 - **Texte** : « En français on dit parfois « un rétroprojecteur ». Un beamer, en
@@ -70,8 +72,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
 - **Correction proposée** : « Video projector se dit aussi. Un beamer, en
   anglais courant, est une BMW — c'est l'allemand qui appelle ainsi le
   projecteur. »
+- **Vérifié** : déjà corrigé — la note de la carte « a data projector » dit désormais « Video projector se dit aussi ; le rétroprojecteur, lui, est l'appareil à transparents. Un beamer, en anglais courant, est une BMW. »
 
-### [GRAVE] « Il ne pouvait pas savoir » n'est pas la traduction de « He can't have known »
+### [GRAVE] ✅ « Il ne pouvait pas savoir » n'est pas la traduction de « He can't have known »
 
 - **Où** : `conjugaison-2.ts` — `en-conj-modaux-passe`, tableau « Chaque modal,
   sa valeur au passé » et carte 2
@@ -86,8 +89,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
 - **Correction proposée** : tableau → « ce n'est pas possible qu'il ait su » ;
   carte → `francais: "Il ne peut pas avoir été au courant."`, avec
   `aussi: ["Ce n'est pas possible qu'il ait été au courant."]`.
+- **Vérifié** : déjà corrigé — le tableau porte désormais « ce n'est pas possible qu'il ait su », et la carte a `francais: "Ce n'est pas possible qu'il ait été au courant."` (la formulation de l'`aussi` proposé a été prise comme français principal, ce qui règle tout aussi bien le problème de déduction vs incapacité).
 
-### [GRAVE] `verbes.ts:en-temps` et `conjugaison.ts:en-conj-passe` sont la même série
+### [GRAVE] ✅ `verbes.ts:en-temps` et `conjugaison.ts:en-conj-passe` sont la même série
 
 - **Où** : `verbes.ts:86-124` (`en-temps`) et `conjugaison.ts:141-221`
   (`en-conj-passe`)
@@ -107,8 +111,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
 - **Correction proposée** : supprimer `verbes.ts:en-temps` et garder
   `en-conj-passe`, qui a le cours ; ou vider le tableau du cours de ses exemples
   repris et refaire les dix cartes de `en-temps` sur d'autres verbes.
+- **Vérifié** : déjà corrigé — le tip d'`en-conj-passe` est devenu « Trois passés, trois distances : le prétérit ferme, le present perfect relie à maintenant, le past perfect recule d'un cran. » (n'est plus mot pour mot celui de `en-temps`), et le tableau « La même idée, deux temps » a été entièrement rechargé avec d'autres exemples (« Je l'ai vu hier. », « J'ai lu ce livre trois fois. », etc.), qui ne recoupent plus les dix cartes de `verbes.ts:en-temps`. Les dix cartes des deux séries ont été vérifiées une à une : aucune n'est dupliquée. `en-temps` n'a pas été supprimé ni recréé sur d'autres verbes (deuxième branche de la correction), mais le doublon mot pour mot signalé a disparu.
 
-### [GRAVE] `conjugaison.ts` et `conjugaison-2.ts` enseignent deux fois les verbes d'état
+### [GRAVE] ✅ `conjugaison.ts` et `conjugaison-2.ts` enseignent deux fois les verbes d'état
 
 - **Où** : `conjugaison.ts:79-81` (section « Les verbes qui refusent le
   continu », série `en-conj-present`) et `conjugaison-2.ts` — série entière
@@ -126,8 +131,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
 - **Correction proposée** : retirer la section « Les verbes qui refusent le
   continu » de `en-conj-present` et ses deux cartes (know, having lunch), en
   renvoyant à `en-conj-verbes-etat`.
+- **Vérifié** : déjà corrigé — la section a été renommée « Ce que le continu ne dit jamais », réduite à un seul paragraphe qui renvoie explicitement à « la série « Les verbes d'état, qui refusent le -ing » », et les cartes know/having lunch ont été retirées des dix cartes d'`en-conj-present`.
 
-### [GRAVE] Deux séries « Vêtements et apparence » quasi identiques
+### [GRAVE] ✅ Deux séries « Vêtements et apparence » quasi identiques
 
 - **Où** : `vocabulaire-monde.ts` — `en-voc-vetements` (« Les vêtements et
   l'apparence », A1) et `monde-2.ts` — `en-voc-mode` (« Vêtements et
@@ -146,8 +152,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   vocabulaire (pluriels permanents, GB/US) et recentrer `en-voc-mode` sur ce
   qu'il a de propre : *match / go with*, *take up / let down*, *dress up / dress
   down*, *scruffy / smart*, *have something done*.
+- **Vérifié** : déjà corrigé — `en-voc-mode` (`monde-2.ts`) a été recentré exactement comme proposé : ses dix cartes portent maintenant sur *take up/let down*, *dress up/dress down*, *match/go with*, *scruffy/smart*, *have something done*, et ne contiennent plus les cartes jumelles *fit*/*suit*. `en-voc-vetements` (`vocabulaire-monde.ts`) garde ses cartes *fit*/*suit* d'origine.
 
-### [GRAVE] « Take after » enseigné deux fois à l'identique
+### [GRAVE] ✅ « Take after » enseigné deux fois à l'identique
 
 - **Où** : `vocabulaire-vie.ts` — `en-voc-famille` et `monde-2.ts` —
   `en-voc-enfance`
@@ -162,8 +169,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
 - **Correction proposée** : supprimer la carte de `en-voc-enfance` (elle n'a
   rien d'enfantin), et retirer l'`aussi` « Elle ressemble à sa mère. » de
   `en-voc-famille`, qui contredit la note même de la carte.
+- **Vérifié** : déjà corrigé — la carte « She takes after her father. » a disparu d'`en-voc-enfance` (`monde-2.ts`), et la carte de `en-voc-famille` n'a plus d'`aussi` « Elle ressemble à sa mère. » ; sa note dit maintenant « Take after pour la ressemblance héritée ; look like pour la seule apparence. »
 
-### [GRAVE] « Jamais within » : la note interdit un mot correct
+### [GRAVE] ✅ « Jamais within » : la note interdit un mot correct
 
 - **Où** : `quotidien-a1.ts:178` — `en-telephone-messages`
 - **Texte** : « Call back en deux mots. Et in + durée pour un délai à venir,
@@ -176,6 +184,7 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
 - **Correction proposée** : « Call back en deux mots. In + durée dit le délai au
   bout duquel : in ten minutes, dans dix minutes. Within dit avant la fin
   du délai : within ten minutes, en moins de dix minutes. »
+- **Vérifié** : déjà corrigé — la note de `quotidien-a1.ts` (`en-telephone-messages`) reprend mot pour mot la correction proposée.
 
 ### [MOYEN] ✅ Le tip sur l'heure est incohérent et faux
 
@@ -1465,7 +1474,7 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   `aussi: ["Il y a peu de chances que ça marche."]`
 - **Fait** : `travail.ts` : français corrigé en « C'est un coup de poker. », `aussi` mis à jour.
 
-### [GRAVE] « Be, have, do sont les seuls verbes vraiment irréguliers » contredit deux séries du même fichier
+### [GRAVE] ✅ « Be, have, do sont les seuls verbes vraiment irréguliers » contredit deux séries du même fichier
 
 - **Où** : `conjugaison-2.ts:18` — statement d'`en-conj-be-have-do`
 - **Texte** : « Trois verbes portent toute la conjugaison anglaise : ils forment
@@ -1479,6 +1488,7 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   trois verbes irréguliers, puis en découvre deux cents.
 - **Correction proposée** : « … — et ce sont les plus irréguliers de la langue :
   be change de forme à presque chaque personne. »
+- **Vérifié** : déjà corrigé — le statement d'`en-conj-be-have-do` (`conjugaison-2.ts:19`) reprend mot pour mot la correction proposée.
 
 ### [MOYEN] ✅ Trois statements annoncent des mots que la série n'enseigne pas
 
@@ -1578,7 +1588,7 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   formel américain. »
 - **Fait** : `conjugaison-2.ts` : statement corrigé en « reste la forme attendue dans l'écrit formel américain ».
 
-### [GRAVE] « She didn't come » : la même carte avec la même note dans deux fichiers
+### [GRAVE] ✅ « She didn't come » : la même carte avec la même note dans deux fichiers
 
 - **Où** : `conjugaison.ts:213` (`en-conj-passe`, B1) et `conjugaison-2.ts:99`
   (`en-conj-be-have-do`, A1)
@@ -1593,6 +1603,7 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
 - **Correction proposée** : garder celle d'`en-conj-be-have-do`, dont c'est le
   sujet (l'auxiliaire), et remplacer celle d'`en-conj-passe` par une carte qui
   oppose vraiment les trois passés : « She had already gone when I called. »
+- **Vérifié** : déjà corrigé — `conjugaison.ts` (`en-conj-passe`) n'a plus de carte « She didn't come » ; elle a été remplacée exactement par « She had already gone when I called. » / « Elle était déjà partie quand j'ai appelé. » `conjugaison-2.ts` (`en-conj-be-have-do`) garde sa carte « She didn't come yesterday. », conformément à la correction proposée.
 
 ### [MOYEN] ⏭️ Le -s de la troisième personne après l'auxiliaire : quatre cartes, trois fichiers
 
