@@ -172,7 +172,7 @@
    "explication": "Méduse est la seule mortelle des trois Gorgones, monstres à la chevelure de serpents dont le regard change les êtres vivants en pierre. Le héros Persée parvint à la décapiter en regardant son reflet dans son bouclier de bronze poli, offert par Athéna, évitant ainsi de croiser directement ses yeux. Du sang de Méduse naquirent le cheval ailé Pégase et le géant Chrysaor. Persée utilisa ensuite la tête coupée comme arme, puis l'offrit à Athéna qui la fixa sur son égide."
   },
   {
-   "q": "Quel est l'équivalent romain de Zeus ?",
+   "q": "Quel dieu romain est assimilé au roi des dieux grecs ?",
    "choix": [
     "Mars",
     "Jupiter",
@@ -181,7 +181,7 @@
    ],
    "bonne": 1,
    "difficulte": 1,
-   "explication": "Jupiter est le dieu suprême du panthéon romain, maître du ciel et de la foudre, assimilé au Zeus des Grecs. Son temple principal se dressait sur le Capitole, où il était vénéré avec Junon et Minerve au sein de la « triade capitoline ». Les généraux victorieux lui rendaient hommage lors des cérémonies du triomphe. Les Romains ont largement identifié leurs dieux à ceux des Grecs : Neptune à Poséidon, Mars à Arès, Vénus à Aphrodite. La planète la plus grosse du système solaire porte son nom."
+   "explication": "Jupiter est le dieu suprême du panthéon romain, maître du ciel et de la foudre, assimilé au Zeus des Grecs. Son temple principal se dressait sur le Capitole, où il était vénéré avec Junon et Minerve au sein de la « triade capitoline ». Les généraux victorieux lui rendaient hommage lors des cérémonies du triomphe. Les Romains ont largement identifié leurs dieux à leurs équivalents grecs, pratique dite d'interpretatio romana. La planète la plus grosse du système solaire porte son nom."
   },
   {
    "q": "Quel dieu romain est le dieu de la guerre ?",
@@ -193,7 +193,7 @@
    ],
    "bonne": 0,
    "difficulte": 1,
-   "explication": "Mars est le dieu romain de la guerre, assimilé à l'Arès grec, mais bien plus honoré à Rome que son homologue ne l'était en Grèce. Père mythique de Romulus et Rémus, il est considéré comme l'ancêtre du peuple romain. Le mois de mars, qui ouvrait l'année dans l'ancien calendrier romain et marquait la reprise des campagnes militaires, porte son nom. Le Champ de Mars, à Rome, était le terrain d'exercice des soldats. La planète rouge a été baptisée en son honneur, sa couleur évoquant le sang des batailles."
+   "explication": "Mars est le dieu romain de la guerre, assimilé à l'Arès grec, mais bien plus honoré à Rome que son homologue ne l'était en Grèce. La tradition lui attribue une descendance parmi les fondateurs légendaires de Rome. Le mois de mars, qui ouvrait l'année dans l'ancien calendrier romain et marquait la reprise des campagnes militaires, porte son nom. Le Champ de Mars, à Rome, était le terrain d'exercice des soldats. La planète rouge a été baptisée en son honneur, sa couleur évoquant le sang des batailles."
   },
   {
    "q": "Quels jumeaux légendaires, allaités par une louve, sont liés à la fondation de Rome ?",
@@ -205,7 +205,7 @@
    ],
    "bonne": 1,
    "difficulte": 1,
-   "explication": "Selon la légende, Romulus et Rémus sont les fils jumeaux du dieu Mars et de la vestale Rhéa Silvia. Abandonnés dans un panier sur le Tibre, ils furent recueillis et allaités par une louve, puis élevés par un berger. Devenus adultes, ils décidèrent de fonder une ville, mais se disputèrent son emplacement ; Romulus tua Rémus et donna son nom à Rome. La tradition romaine date cette fondation de 753 avant J.-C. La statue de la louve capitoline reste un symbole de la ville de Rome."
+   "explication": "Selon la légende, Romulus et Rémus sont les fils jumeaux du dieu de la guerre et de la vestale Rhéa Silvia. Abandonnés dans un panier sur le Tibre, ils furent recueillis et allaités par une louve, puis élevés par un berger. Devenus adultes, ils décidèrent de fonder une ville, mais se disputèrent son emplacement ; Romulus tua Rémus et donna son nom à Rome. La tradition romaine date cette fondation de 753 avant J.-C. La statue de la louve capitoline reste un symbole de la ville de Rome."
   },
   {
    "q": "À quelle déesse grecque correspond la Vénus des Romains ?",
@@ -268,7 +268,7 @@
    "explication": "Les prêtres embaumeurs portaient parfois un masque de chacal en référence à Anubis, représenté en chacal noir ou en homme à tête de chacal — le chacal rôdait autour des cimetières, ce qui explique cette association ; le noir évoque à la fois la décomposition et le limon fertile du Nil, symbole de renaissance. Selon le mythe, c'est Anubis qui momifia Osiris, faisant de lui la première momie. Il guide les défunts dans l'au-delà et procède à la pesée du cœur lors du jugement des morts."
   },
   {
-   "q": "Dans la mythologie égyptienne, quel dieu tue et démembre son frère Osiris ?",
+   "q": "Dans la mythologie égyptienne, quel dieu du désert et du chaos tue et démembre son propre frère par jalousie ?",
    "choix": [
     "Horus",
     "Seth",
@@ -277,10 +277,10 @@
    ],
    "bonne": 1,
    "difficulte": 2,
-   "explication": "Seth, dieu du désert, des orages et du désordre, jaloux de son frère Osiris qui régnait sur l'Égypte, le tua et découpa son corps en morceaux qu'il dispersa dans tout le pays. Isis, épouse et sœur d'Osiris, retrouva les fragments et reconstitua le corps avec l'aide d'Anubis, permettant à Osiris de devenir le souverain du royaume des morts. Horus, fils d'Osiris et d'Isis, affronta ensuite Seth pour venger son père et récupérer le trône d'Égypte. Ce mythe fondateur justifiait la succession royale : chaque pharaon vivant incarnait Horus, chaque pharaon mort devenait Osiris."
+   "explication": "Seth, dieu du désert, des orages et du désordre, jaloux de son frère Osiris qui régnait sur l'Égypte, le tua et découpa son corps en morceaux qu'il dispersa dans tout le pays. L'épouse et sœur d'Osiris retrouva les fragments et reconstitua le corps avec l'aide d'Anubis, permettant à Osiris de devenir le souverain du royaume des morts. Horus, fils d'Osiris et d'Isis, affronta ensuite Seth pour venger son père et récupérer le trône d'Égypte. Ce mythe fondateur justifiait la succession royale : chaque pharaon vivant incarnait Horus, chaque pharaon mort devenait Osiris."
   },
   {
-   "q": "Quelle déesse égyptienne, épouse d'Osiris, est célèbre pour ses pouvoirs magiques ?",
+   "q": "Quelle déesse égyptienne, grande magicienne, reconstitue le corps démembré de son époux ?",
    "choix": [
     "Hathor",
     "Bastet",
@@ -289,7 +289,7 @@
    ],
    "bonne": 3,
    "difficulte": 2,
-   "explication": "Isis est l'une des divinités les plus importantes de l'Égypte ancienne, à la fois épouse fidèle, mère protectrice et grande magicienne. Après le meurtre d'Osiris par Seth, elle rassembla les morceaux du corps de son époux et le ramena temporairement à la vie grâce à sa magie, concevant ainsi leur fils Horus. Elle est souvent représentée avec un trône sur la tête ou allaitant Horus enfant. Son culte se répandit bien au-delà de l'Égypte, dans tout le monde gréco-romain, jusqu'à Rome et en Gaule. Elle incarnait la protection maternelle et la résurrection."
+   "explication": "Isis est l'une des divinités les plus importantes de l'Égypte ancienne, à la fois épouse fidèle, mère protectrice et grande magicienne. Après le meurtre de son époux par son frère jaloux, elle rassembla les morceaux du corps d'Osiris et le ramena temporairement à la vie grâce à sa magie, concevant ainsi leur fils Horus. Elle est souvent représentée avec un trône sur la tête ou allaitant Horus enfant. Son culte se répandit bien au-delà de l'Égypte, dans tout le monde gréco-romain, jusqu'à Rome et en Gaule. Elle incarnait la protection maternelle et la résurrection."
   },
   {
    "q": "Quel dieu égyptien à tête de faucon est le protecteur du pharaon ?",
@@ -409,7 +409,7 @@
    ],
    "bonne": 1,
    "difficulte": 2,
-   "explication": "Les Valkyries, dont le nom signifie « celles qui choisissent les morts au combat », sont des vierges guerrières au service d'Odin. Survolant les champs de bataille, elles désignent les guerriers qui doivent tomber et conduisent les plus valeureux, les Einherjar, au Valhalla, la « halle des occis » du palais d'Odin. Là, les élus s'entraînent au combat le jour et festoient la nuit, en attendant de combattre aux côtés des dieux lors du Ragnarök. La plus célèbre d'entre elles, Brynhild, est au cœur de la légende de Sigurd et a inspiré la Brünnhilde des opéras de Wagner."
+   "explication": "Les Valkyries, dont le nom signifie « celles qui choisissent les morts au combat », sont des vierges guerrières au service d'Odin. Survolant les champs de bataille, elles désignent les guerriers qui doivent tomber et conduisent les plus valeureux, les Einherjar, au Valhalla, la « halle des occis » du palais d'Odin. Là, les élus s'entraînent au combat le jour et festoient la nuit, en attendant la bataille finale qui doit opposer les dieux à leurs ennemis. La plus célèbre d'entre elles, Brynhild, est au cœur de la légende de Sigurd et a inspiré la Brünnhilde des opéras de Wagner."
   },
   {
    "q": "Quel arbre gigantesque relie les neuf mondes de la cosmologie nordique ?",
@@ -469,7 +469,7 @@
    ],
    "bonne": 1,
    "difficulte": 2,
-   "explication": "L'islam sunnite repose sur cinq piliers, obligations fondamentales du croyant. Le premier est la chahada, profession de foi affirmant l'unicité de Dieu et la mission prophétique de Mahomet. Viennent ensuite la salat, les cinq prières quotidiennes tournées vers La Mecque ; la zakat, l'aumône légale au profit des pauvres ; le jeûne du mois de ramadan, du lever au coucher du soleil ; et enfin le hajj, le pèlerinage à La Mecque que tout musulman doit accomplir au moins une fois dans sa vie s'il en a les moyens. Ces piliers structurent la vie religieuse et sociale des musulmans."
+   "explication": "L'islam sunnite repose sur cinq piliers, obligations fondamentales du croyant. Le premier est la chahada, profession de foi affirmant l'unicité de Dieu et la mission prophétique de Mahomet. Viennent ensuite la salat, les cinq prières quotidiennes tournées vers La Mecque ; la zakat, l'aumône légale au profit des pauvres ; le jeûne du mois de ramadan, de l'aube au coucher du soleil ; et enfin le hajj, le pèlerinage à La Mecque que tout musulman doit accomplir au moins une fois dans sa vie s'il en a les moyens. Ces piliers structurent la vie religieuse et sociale des musulmans."
   },
   {
    "q": "Vers quelle ville les musulmans se tournent-ils pour prier et effectuent-ils le grand pèlerinage ?",
@@ -589,7 +589,7 @@
    ],
    "bonne": 1,
    "difficulte": 1,
-   "explication": "Le ramadan est le neuvième mois du calendrier musulman, durant lequel les croyants jeûnent chaque jour du lever au coucher du soleil : ils s'abstiennent de manger, de boire et de fumer. Ce jeûne, appelé sawm, est l'un des cinq piliers de l'islam ; en sont dispensés notamment les malades, les femmes enceintes et les voyageurs. C'est pendant ce mois que, selon la tradition, la révélation du Coran à Mahomet aurait commencé, lors de la « Nuit du Destin ». Le calendrier musulman étant lunaire, le ramadan avance d'environ onze jours chaque année par rapport au calendrier solaire. La fin du mois est marquée par la fête de l'Aïd el-Fitr."
+   "explication": "Le ramadan est le neuvième mois du calendrier musulman, durant lequel les croyants jeûnent chaque jour de l'aube au coucher du soleil : ils s'abstiennent de manger, de boire et de fumer. Ce jeûne, appelé sawm, est l'un des cinq piliers de l'islam ; en sont dispensés notamment les malades, les femmes enceintes et les voyageurs. C'est pendant ce mois que, selon la tradition, la révélation du Coran à Mahomet aurait commencé, lors de la « Nuit du Destin ». Le calendrier musulman étant lunaire, le ramadan avance d'environ onze jours chaque année par rapport au calendrier solaire. La fin du mois est marquée par la fête de l'Aïd el-Fitr."
   },
   {
    "q": "Quel empereur romain convoque le premier concile œcuménique à Nicée en 325 ?",
@@ -1011,16 +1011,16 @@
      "explication": "Maât personnifie l'ordre cosmique, la vérité et la justice, par opposition au chaos (isfet). Elle est représentée coiffée d'une plume d'autruche, celle-là même qui sert de contrepoids au cœur du défunt lors du jugement des morts. Le pharaon avait pour mission première de faire régner Maât sur terre. Les juges égyptiens étaient considérés comme ses prêtres."
     },
     {
-     "q": "Combien de temps durait environ la dessiccation du corps dans le natron lors de la momification ?",
+     "q": "Combien de temps le corps restait-il dans le natron selon Hérodote ?",
      "choix": [
-      "7 jours",
+      "Quarante jours",
       "70 jours",
-      "1 an",
-      "3 ans"
+      "Cent jours",
+      "Une année"
      ],
      "bonne": 1,
      "difficulte": 3,
-     "explication": "Le processus complet de momification durait traditionnellement environ soixante-dix jours, dont la majeure partie consacrée à la dessiccation du corps dans le natron, un sel naturel. Les embaumeurs retiraient d'abord le cerveau et les viscères, conservés dans les vases canopes, avant d'envelopper le corps de bandelettes de lin. Cette durée est rapportée notamment par l'historien grec Hérodote. La momification visait à préserver le corps, support nécessaire à la survie dans l'au-delà."
+     "explication": "Hérodote rapporte que le corps restait soixante-dix jours dans le natron, un sel naturel. Les égyptologues estiment plutôt que la dessiccation proprement dite occupait une quarantaine de jours, à l'intérieur d'un rituel complet de momification qui durait bien soixante-dix jours au total : retrait du cerveau et des viscères conservés dans les vases canopes, dessiccation, puis enveloppement du corps de bandelettes de lin. La momification visait à préserver le corps, support nécessaire à la survie dans l'au-delà."
     },
     {
      "q": "Dans la mythologie nordique, quel monde est celui des hommes ?",

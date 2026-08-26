@@ -92,16 +92,16 @@
  ],
  "quiz": [
   {
-   "q": "Que dit le théorème d'Archimède ?",
+   "q": "Que devait vérifier Archimède pour le roi Hiéron ?",
    "choix": [
-    "Tout corps plongé dans un fluide subit une force verticale dirigée de bas en haut, égale au poids du fluide déplacé",
-    "Tout corps plongé dans un fluide perd la totalité de son poids",
-    "La pression à l'intérieur d'un liquide au repos est la même en tout point, quelle que soit la profondeur à laquelle on la mesure",
-    "Un corps flotte si sa masse est inférieure à un kilogramme"
+    "Si sa couronne était en or pur, sans l'abîmer",
+    "Si le poids annoncé par l'orfèvre était exact",
+    "Si le bouclier royal résistait aux flèches",
+    "Combien de temps il faudrait pour fondre la couronne"
    ],
    "bonne": 0,
    "difficulte": 1,
-   "explication": "Le théorème énonce que tout corps plongé dans un fluide au repos subit une force verticale dirigée de bas en haut, dont l'intensité est égale au poids du fluide déplacé. On la calcule en multipliant la masse volumique du fluide par le volume déplacé et par l'intensité de la pesanteur. Le corps ne perd pas son poids : la poussée s'y oppose simplement, et la flottaison correspond au cas où les deux se compensent exactement. C'est donc la masse volumique moyenne du corps, et non sa masse seule, qui décide s'il flotte ou coule. Un iceberg flotte avec environ 90 pour cent de son volume immergé."
+   "explication": "En comparant le volume d'eau déplacé par la couronne à celui d'une masse égale d'or pur, on décèle l'alliage sans fondre l'objet — la première mesure indirecte de l'histoire. Le récit du bain et du cri « Eurêka » n'est rapporté que deux siècles plus tard, par Vitruve."
   },
   {
    "q": "Quelle observation de Galilée en 1610 apportait un argument fort contre l'idée que tout tourne autour de la Terre ?",

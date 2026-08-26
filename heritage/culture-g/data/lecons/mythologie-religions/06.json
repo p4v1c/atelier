@@ -169,16 +169,16 @@
    "explication": "Pessah commémore la sortie d'Égypte et se célèbre au printemps autour d'un repas ordonné appelé seder, durant lequel le récit est lu et où l'on consomme du pain sans levain. Yom Kippour est une journée de jeûne consacrée à la demande de pardon, dix jours après le début de l'année. Hanoucca, fête des lumières, rappelle un épisode lié à la réinauguration du Temple après la révolte des Maccabées. Roch Hachana marque le début de l'année dans le calendrier juif. Ces fêtes suivent un calendrier luni-solaire."
   },
   {
-   "q": "Quelle différence sépare les traditions ashkénaze et séfarade ?",
+   "q": "À quel âge la circoncision rituelle des garçons a-t-elle lieu dans le judaïsme ?",
    "choix": [
-    "Elles reconnaissent des textes bibliques différents et un canon distinct",
-    "Elles correspondent à des aires géographiques et culturelles distinctes",
-    "L'une d'elles écarte l'étude du Talmud au profit du texte biblique",
-    "L'une ne célèbre pas le chabbat"
+    "Au huitième jour après la naissance",
+    "À la naissance",
+    "À treize ans, lors de la bar-mitsva",
+    "À un mois"
    ],
-   "bonne": 1,
+   "bonne": 0,
    "difficulte": 3,
-   "explication": "Les Ashkénazes sont les communautés installées dans le monde germanique puis en Europe centrale et orientale, où s'est développée la langue yiddish. Les Séfarades sont issus de la péninsule Ibérique et se sont établis après 1492 dans l'Empire ottoman et en Afrique du Nord, en parlant notamment le judéo-espagnol. Leurs différences portent sur les usages liturgiques, la prononciation de l'hébreu, la cuisine et certaines coutumes, mais non sur le texte biblique ni sur son canon, qui sont communs aux deux. Les deux traditions étudient le Talmud et observent le chabbat. Ces distinctions sont culturelles et rituelles plutôt que doctrinales."
+   "explication": "Ce rite, appelé brit mila, marque l'entrée de l'enfant dans l'alliance conclue par Abraham. Il est pratiqué le huitième jour même si celui-ci tombe un chabbat ou un jour de fête, sauf raison médicale impérieuse. La bar-mitsva, à treize ans, marque une autre étape, celle de la majorité religieuse, mais n'a rien à voir avec la circoncision."
   }
  ]
 }

@@ -168,7 +168,7 @@
    "explication": "Tant que la glace et l'eau liquide coexistent, la température reste bloquée à la température de fusion, soit 0 degré Celsius pour l'eau pure sous pression atmosphérique. On observe donc un palier sur la courbe de chauffage. L'énergie thermique apportée ne sert pas à augmenter l'agitation des particules mais à rompre les liaisons du réseau cristallin : on l'appelle chaleur latente de fusion, et elle vaut environ 334 kilojoules par kilogramme pour l'eau. Ce palier caractérise les corps purs ; un mélange fond au contraire sur un intervalle de températures."
   },
   {
-   "q": "Pourquoi l'eau bout-elle vers 85 degrés Celsius en haute montagne ?",
+   "q": "Pourquoi l'eau bout-elle vers 85 degrés Celsius au sommet du mont Blanc ?",
    "choix": [
     "Parce que l'air y est plus froid",
     "Parce que l'eau y est moins pure",
@@ -177,7 +177,7 @@
    ],
    "bonne": 2,
    "difficulte": 2,
-   "explication": "La température d'ébullition d'un liquide dépend directement de la pression qui s'exerce sur lui. En altitude, la colonne d'air au-dessus de l'observateur est plus courte et la pression atmosphérique diminue nettement, si bien que les molécules d'eau s'échappent plus facilement du liquide. L'ébullition se produit donc à une température plus basse, environ 85 degrés à 4 000 mètres. À l'inverse, une cocotte-minute augmente la pression intérieure et permet d'atteindre 120 degrés, ce qui accélère la cuisson. La pureté de l'eau et la gravité ne jouent ici aucun rôle significatif."
+   "explication": "La température d'ébullition d'un liquide dépend directement de la pression qui s'exerce sur lui. En altitude, la colonne d'air au-dessus de l'observateur est plus courte et la pression atmosphérique diminue nettement, si bien que les molécules d'eau s'échappent plus facilement du liquide. L'ébullition se produit donc à une température plus basse : environ 90 degrés à 3 000 mètres, et 85 degrés au sommet du mont Blanc, à 4 808 mètres. À l'inverse, une cocotte-minute augmente la pression intérieure et permet d'atteindre 120 degrés, ce qui accélère la cuisson. La pureté de l'eau et la gravité ne jouent ici aucun rôle significatif."
   },
   {
    "q": "Pourquoi les glaçons flottent-ils sur l'eau liquide ?",

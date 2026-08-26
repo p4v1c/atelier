@@ -40,16 +40,16 @@
    "explication": "La troisième loi de Newton, dite loi de l'action et de la réaction, énonce que si un corps A exerce une force sur un corps B, alors B exerce sur A une force de même intensité, de même direction mais de sens opposé. C'est ce principe qui explique le recul d'une arme à feu ou la propulsion des fusées : les gaz éjectés vers l'arrière poussent l'engin vers l'avant. Les trois lois du mouvement ont été publiées par Isaac Newton en 1687 dans ses Principia Mathematica, œuvre fondatrice de la mécanique classique. La première loi est le principe d'inertie et la deuxième s'écrit F = ma."
   },
   {
-   "q": "Quelle est la vitesse de la lumière dans le vide ?",
+   "q": "Que signifie le fait que la vitesse de la lumière soit une valeur exacte et non mesurée ?",
    "choix": [
-    "Environ 300 000 km/s",
-    "Environ 3 000 km/s",
-    "Environ 300 000 km/h",
-    "Environ 150 000 km/s"
+    "Elle est fixée par convention depuis 1983, et c'est le mètre qui en découle",
+    "Elle n'a jamais pu être mesurée avec précision par aucune expérience",
+    "Elle varie légèrement selon le lieu où l'on se trouve sur Terre",
+    "Elle n'est exacte que dans le vide interstellaire, non sur Terre"
    ],
    "bonne": 0,
-   "difficulte": 1,
-   "explication": "La lumière se propage dans le vide à exactement 299 792 458 m/s, soit environ 300 000 km/s : elle pourrait faire sept fois et demie le tour de la Terre en une seconde. Depuis 1983, cette valeur est fixée par définition et sert à définir le mètre. D'après la théorie de la relativité d'Einstein, c'est une vitesse limite qu'aucun objet matériel ni aucune information ne peut dépasser. La lumière du Soleil met environ 8 minutes et 20 secondes à nous parvenir, et celle de l'étoile la plus proche, Proxima du Centaure, plus de quatre ans."
+   "difficulte": 2,
+   "explication": "Depuis 1983, la vitesse de la lumière dans le vide est fixée par définition à 299 792 458 m/s, soit environ 300 000 km/s, et c'est le mètre qui est défini à partir d'elle, et non l'inverse. D'après la théorie de la relativité d'Einstein, c'est une vitesse limite qu'aucun objet matériel ni aucune information ne peut dépasser. La lumière du Soleil met environ 8 minutes et 20 secondes à nous parvenir, et celle de l'étoile la plus proche, Proxima du Centaure, plus de quatre ans."
   },
   {
    "q": "Quelle est l'unité de puissance dans le Système international ?",
@@ -244,30 +244,6 @@
    "explication": "L'œil myope est un œil trop « puissant » ou trop long : l'image des objets éloignés se forme en avant de la rétine, d'où une vision floue de loin. On corrige ce défaut avec une lentille divergente, plus mince au centre qu'aux bords, qui fait diverger les rayons avant leur entrée dans l'œil et repousse l'image sur la rétine. L'hypermétropie, défaut inverse où l'image se forme en arrière de la rétine, se corrige au contraire par une lentille convergente, tout comme la presbytie liée à l'âge. La chirurgie au laser peut aussi remodeler la cornée pour corriger ces défauts."
   },
   {
-   "q": "Quelles sont les trois couleurs primaires de la synthèse additive de la lumière ?",
-   "choix": [
-    "Rouge, vert, bleu",
-    "Rouge, jaune, bleu",
-    "Cyan, magenta, jaune",
-    "Rouge, vert, jaune"
-   ],
-   "bonne": 0,
-   "difficulte": 2,
-   "explication": "En synthèse additive, qui concerne les lumières colorées, les trois couleurs primaires sont le rouge, le vert et le bleu (RVB, ou RGB en anglais). Superposées deux à deux, elles donnent le jaune, le cyan et le magenta, et toutes les trois ensemble produisent du blanc. C'est le principe des écrans de télévision, d'ordinateur et de smartphone, dont chaque pixel contient trois sous-pixels rouge, vert et bleu. La synthèse soustractive, utilisée en peinture et en imprimerie, repose au contraire sur le cyan, le magenta et le jaune, qui absorbent des parties de la lumière blanche."
-  },
-  {
-   "q": "Selon les lois de la réflexion, à quoi est égal l'angle de réflexion d'un rayon lumineux sur un miroir ?",
-   "choix": [
-    "À l'angle d'incidence",
-    "Au double de l'angle d'incidence",
-    "À la moitié de l'angle d'incidence",
-    "À 90 degrés"
-   ],
-   "bonne": 0,
-   "difficulte": 1,
-   "explication": "La loi de la réflexion énonce que l'angle de réflexion est égal à l'angle d'incidence, ces deux angles étant mesurés par rapport à la normale, la droite perpendiculaire à la surface au point d'impact. Le rayon incident, la normale et le rayon réfléchi sont en outre situés dans un même plan. Cette loi, déjà connue des Grecs anciens comme Euclide, explique la formation des images dans les miroirs plans, images virtuelles et symétriques de l'objet. La réfraction, elle, décrit le changement de direction de la lumière quand elle change de milieu, selon la loi de Snell-Descartes."
-  },
-  {
    "q": "Quel phénomène est à l'origine de l'arc-en-ciel ?",
    "choix": [
     "La dispersion de la lumière dans les gouttes d'eau",
@@ -376,16 +352,16 @@
    "explication": "La pression se mesure en pascals (symbole Pa), du nom du savant français Blaise Pascal, qui étudia au XVIIe siècle la pression atmosphérique et les fluides. Un pascal correspond à une force d'un newton exercée sur une surface d'un mètre carré : c'est une unité très petite, si bien qu'on utilise souvent l'hectopascal ou le bar. La pression atmosphérique normale au niveau de la mer vaut 101 325 Pa, soit 1 013 hPa ou environ 1 bar, valeur affichée sur les cartes météo. Un pneu de voiture est gonflé à environ 2 bars, et la pression augmente d'environ 1 bar tous les 10 mètres de profondeur dans l'eau. Plus la surface d'appui est petite, plus la pression est forte, ce qui explique qu'un talon aiguille marque davantage le sol qu'une semelle plate."
   },
   {
-   "q": "Que dit le principe d'Archimède ?",
+   "q": "Que faut-il comparer pour savoir si un objet flottera ?",
    "choix": [
-    "Tout corps plongé dans un fluide subit une poussée verticale égale au poids du fluide déplacé",
-    "Tout corps plongé dans un fluide perd exactement la moitié de son poids apparent",
-    "La pression d'un fluide est la même en tout point",
-    "Un corps flotte si sa masse est inférieure à un kilogramme"
+    "Sa masse volumique moyenne à celle du fluide",
+    "Son poids total à la portée du bras qui le soutient",
+    "Sa masse à un kilogramme de référence",
+    "Son volume total au volume du récipient"
    ],
    "bonne": 0,
    "difficulte": 2,
-   "explication": "Le principe d'Archimède énonce que tout corps immergé dans un fluide subit une force verticale dirigée vers le haut, appelée poussée d'Archimède, dont l'intensité est égale au poids du volume de fluide déplacé. Un objet flotte donc si sa masse volumique est inférieure à celle du fluide, et coule dans le cas contraire : c'est pourquoi le bois flotte sur l'eau et le fer coule. Un navire en acier flotte pourtant, car sa coque creuse déplace un très grand volume d'eau. Le savant grec Archimède de Syracuse aurait découvert ce principe au IIIe siècle avant notre ère dans son bain, en cherchant à vérifier si la couronne du roi Hiéron était en or pur, d'où son cri légendaire « Eurêka ! ». Ce principe explique aussi l'ascension des montgolfières dans l'air."
+   "explication": "Un objet flotte si sa masse volumique moyenne est inférieure à celle du fluide, et coule dans le cas contraire : c'est pourquoi le bois flotte sur l'eau et le fer coule. Un navire en acier flotte pourtant, car sa coque creuse, air compris, abaisse sa masse volumique moyenne bien en dessous de celle de l'eau. C'est le principe d'Archimède, qu'Archimède de Syracuse aurait découvert au IIIe siècle avant notre ère en cherchant à vérifier si la couronne du roi Hiéron était en or pur — l'épisode du bain et du cri « Eurêka ! » n'étant rapporté que deux siècles plus tard."
   },
   {
    "q": "Que signifie la célèbre formule E = mc² d'Albert Einstein ?",

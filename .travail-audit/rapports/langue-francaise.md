@@ -23,7 +23,7 @@ défaut : `src/modules/kinds/melange.ts` permute les propositions à l'affichage
 
 ## Constats
 
-### [GRAVE] L'étymologie de « choucroute » est fausse, et l'erreur est répétée dans le cours
+### [GRAVE] ✅ L'étymologie de « choucroute » est fausse, et l'erreur est répétée dans le cours
 
 - **Où** : `prisma/seed/culture-g/langue-francaise.ts:82-83` — `lf-etymologie` ;
   `prisma/seed/culture-g/cours/langue-francaise.ts:12` — `lf-etymologie`, section « Fabriquer des mots »
@@ -40,8 +40,9 @@ défaut : `src/modules/kinds/melange.ts` permute les propositions à l'affichage
   La fausse analyse a fixé la graphie actuelle. »
 - Accessoirement, la graphie du mot alsacien diffère entre la question (*sürkrüt*) et le
   cours (*surkrut*).
+- **Vérification** : déjà corrigé — question et cours donnent tous deux la bonne analyse (*sür* → « chou », *krüt* → « croûte ») avec la même graphie *sürkrüt*.
 
-### [GRAVE] « le latin pater donne l'anglais father » — l'anglais n'est pas issu du latin
+### [GRAVE] ✅ « le latin pater donne l'anglais father » — l'anglais n'est pas issu du latin
 
 - **Où** : `prisma/seed/culture-g/cours/langue-francaise.ts:116` — `lf2-familles-langues`,
   section « Une parenté, pas une ressemblance »
@@ -56,8 +57,9 @@ défaut : `src/modules/kinds/melange.ts` permute les propositions à l'affichage
 - **Correction proposée** : « Si le latin *pater* et l'anglais *father* se correspondent, ce
   n'est pas par emprunt : les deux descendent d'un même mot indo-européen, et le *p* latin
   répond régulièrement au *f* germanique — *pes/foot*, *piscis/fish*. »
+- **Vérification** : déjà corrigé — le cours dit maintenant que *father* « remonte à la même racine indo-européenne », sans filiation depuis le latin.
 
-### [GRAVE] La table serait « neutre en allemand »
+### [GRAVE] ✅ La table serait « neutre en allemand »
 
 - **Où** : `prisma/seed/culture-g/cours/langue-francaise.ts:318` — `lf2-genres-noms`,
   section « Un genre largement arbitraire »
@@ -67,8 +69,9 @@ défaut : `src/modules/kinds/melange.ts` permute les propositions à l'affichage
   l'arbitraire du genre, est simplement faux.
 - **Correction proposée** : « *la table* est féminine en français et masculine en allemand
   (*der Tisch*) »
+- **Vérification** : déjà corrigé — le cours dit « *la table* est féminine en français et masculine en allemand ».
 
-### [GRAVE] « anagramme » et « anacoluthe » employés au masculin, contre le cours lui-même
+### [GRAVE] ✅ « anagramme » et « anacoluthe » employés au masculin, contre le cours lui-même
 
 - **Où** : `prisma/seed/culture-g/langue-francaise-2.ts:382` (« Un anagramme parfait »),
   `:396` (« Un anagramme visuel »), `:266` (« Qu'est-ce qu'un anacoluthe ? »)
@@ -80,8 +83,9 @@ défaut : `src/modules/kinds/melange.ts` permute les propositions à l'affichage
   des noms, c'est une faute qui s'apprendra.
 - **Correction proposée** : « Une anagramme approximative », « Une anagramme visuelle »,
   « Qu'est-ce qu'une anacoluthe ? »
+- **Vérification** : déjà corrigé — les trois occurrences (palindrome, rébus, anacoluthe) emploient désormais le féminin correct.
 
-### [GRAVE] « un expiration longue » et « un monnaie »
+### [GRAVE] ✅ « un expiration longue » et « un monnaie »
 
 - **Où** : `prisma/seed/culture-g/cours/langue-francaise.ts:512` — `lf2-communication-orale` ;
   `:685` — `lf3-vocabulaire-formation`
@@ -89,8 +93,9 @@ défaut : `src/modules/kinds/melange.ts` permute les propositions à l'affichage
   n'est pas un monnaie qu'on porte »
 - **Problème** : deux fautes d'accord élémentaires (« une expiration », « une monnaie »).
 - **Correction proposée** : « une expiration longue » ; « n'est pas une monnaie qu'on porte ».
+- **Vérification** : déjà corrigé — le cours porte « une expiration longue » et « n'est pas une monnaie qu'on porte ».
 
-### [GRAVE] « fautée », « Moliérisée » : deux mots qui n'existent pas
+### [GRAVE] ✅ « fautée », « Moliérisée » : deux mots qui n'existent pas
 
 - **Où** : `prisma/seed/culture-g/cours/langue-francaise.ts:207` — `lf2-orthographe-histoire` ;
   `:387` — `lf2-litterature-langue`
@@ -101,8 +106,9 @@ défaut : `src/modules/kinds/melange.ts` permute les propositions à l'affichage
   qui enseigne le français.
 - **Correction proposée** : « l'empereur y aurait commis soixante-quinze fautes et
   l'impératrice soixante-deux » ; « Raillée par Molière dans *Les Précieuses ridicules* ».
+- **Vérification** : déjà corrigé — le cours porte « Raillée par Molière » ; l'occurrence de « fautée » a également disparu.
 
-### [GRAVE] « cette dernière » renvoie au mauvais mot, et au mauvais genre
+### [GRAVE] ✅ « cette dernière » renvoie au mauvais mot, et au mauvais genre
 
 - **Où** : `prisma/seed/culture-g/cours/langue-francaise.ts:806` — `lf3-francais-afrique`
 - **Texte** : « le wolof au Sénégal, le bambara au Mali, le lingala et le swahili en Afrique
@@ -112,8 +118,9 @@ défaut : `src/modules/kinds/melange.ts` permute les propositions à l'affichage
   orientale est parlée par cent millions de personnes.
 - **Correction proposée** : « … le lingala et le swahili en Afrique centrale et orientale,
   ce dernier étant parlé par plus de cent millions de personnes. »
+- **Vérification** : déjà corrigé — le cours porte « ce dernier étant parlé par plus de cent millions de personnes ».
 
-### [GRAVE] Le référendum de 1995 n'a pas été perdu « à moins d'un point »
+### [GRAVE] ✅ Le référendum de 1995 n'a pas été perdu « à moins d'un point »
 
 - **Où** : `prisma/seed/culture-g/langue-francaise-3.ts:161` — `lf3-francais-quebec` ;
   `cours/langue-francaise.ts:759`
@@ -122,8 +129,9 @@ défaut : `src/modules/kinds/melange.ts` permute les propositions à l'affichage
 - **Problème** : le Non l'a emporté avec 50,58 % contre 49,42 %, soit **1,16 point** d'écart.
   L'erreur est répétée dans la question et dans le cours.
 - **Correction proposée** : « … perdu de peu, 50,58 % contre 49,42 %, soit 1,16 point d'écart. »
+- **Vérification** : déjà corrigé — question et cours donnent tous deux « 50,58 % contre 49,42 %, soit 1,16 point d'écart ».
 
-### [GRAVE] « Rabelais avait déjà fourni gargantuesque »
+### [GRAVE] 🔧 « Rabelais avait déjà fourni gargantuesque »
 
 - **Où** : `prisma/seed/culture-g/cours/langue-francaise.ts:378` — `lf2-litterature-langue` ;
   question corrélée `langue-francaise-2.ts:288`
@@ -136,8 +144,9 @@ défaut : `src/modules/kinds/melange.ts` permute les propositions à l'affichage
   mais la datation du mot est bien postérieure de trois siècles à Rabelais.
 - **Correction proposée** : supprimer la phrase du cours ; reformuler la question en
   « Sur quel personnage de Rabelais l'adjectif *gargantuesque* a-t-il été formé au XIXe siècle ? ».
+- **Vérification** : le cours était déjà corrigé (« Le XIXe siècle tirera de même *gargantuesque* du géant de Rabelais, trois siècles après le livre »), mais la question `langue-francaise-2.ts` gardait « Gargantuesque, formé sur Gargantua » comme bonne réponse à « Quel mot Rabelais a-t-il popularisé… », avec une explication qui parlait en fait de *pantagruélique* — une question qui se contredisait elle-même. Reformulée en « Sur quel personnage de Rabelais l'adjectif *gargantuesque* a-t-il été formé, au XIXe siècle ? » (bonne réponse : Gargantua).
 
-### [GRAVE] Breton reprend « surréalisme » sept ans après, pas trois
+### [GRAVE] 🔧 Breton reprend « surréalisme » sept ans après, pas trois
 
 - **Où** : `prisma/seed/culture-g/cours/langue-francaise.ts:830` — `lf3-litterature-langue-3`
 - **Texte** : « Guillaume Apollinaire crée *surréalisme* en 1917 …, mot qu'André Breton
@@ -151,8 +160,9 @@ défaut : `src/modules/kinds/melange.ts` permute les propositions à l'affichage
   le ballet *Parade* », la question `langue-francaise-3.ts:229` dit « pour qualifier son
   propre drame *Les Mamelles de Tirésias* ». Les deux usages de 1917 sont réels, mais
   l'apprenant qui lit les deux verra une contradiction. À harmoniser.
+- **Vérification** : le cours était déjà corrigé (« en 1924 », plus de « trois ans »). La question `langue-francaise-3.ts` gardait cependant « pour qualifier son propre drame *Les Mamelles de Tirésias* », en désaccord avec le cours (« pour qualifier le ballet *Parade* ») — traité en supprimant cette question en doublon avec celle de `langue-francaise-2.ts` (constat suivant, « Doublons francs entre lots »), qui elle est neutre sur ce point.
 
-### [GRAVE] Question à deux réponses : le mot emprunté puis réemprunté
+### [GRAVE] ✅ Question à deux réponses : le mot emprunté puis réemprunté
 
 - **Où** : `prisma/seed/culture-g/langue-francaise-2.ts:48-49` — `lf2-anglicismes`
 - **Texte** : « Quel mot français a été emprunté par l'anglais puis réemprunté par le
@@ -164,8 +174,9 @@ défaut : `src/modules/kinds/melange.ts` permute les propositions à l'affichage
 - **Correction proposée** : « Quel mot du vocabulaire sportif vient du français *tenez*,
   passé en anglais puis revenu en français ? » avec des distracteurs qui ne sont pas eux-mêmes
   des allers-retours (Golf, Rugby, Cricket).
+- **Vérification** : déjà corrigé — la question porte désormais « Quel mot du vocabulaire sportif vient du français « tenez », passé en anglais puis revenu ? » avec Golf/Rugby/Cricket comme distracteurs.
 
-### [GRAVE] Question à deux réponses : le séducteur littéraire
+### [GRAVE] ✅ Question à deux réponses : le séducteur littéraire
 
 - **Où** : `prisma/seed/culture-g/langue-francaise-3.ts:234-235` — `lf3-litterature-langue-3`
 - **Texte** : « Quel nom de personnage littéraire désigne un séducteur ? — [Don Juan /
@@ -175,8 +186,9 @@ défaut : `src/modules/kinds/melange.ts` permute les propositions à l'affichage
   bonne réponse. *Valmont* est également employé en ce sens.
 - **Correction proposée** : « Quel personnage de Molière et de Mozart a donné le nom commun
   désignant un séducteur ? » (Don Juan), avec des distracteurs non concurrents.
+- **Vérification** : déjà corrigé — la question porte désormais sur Don Juan, avec Lovelace/Valmont regroupés dans l'explication plutôt qu'en distracteurs concurrents.
 
-### [GRAVE] Question à deux réponses : le verbicruciste réputé
+### [GRAVE] ✅ Question à deux réponses : le verbicruciste réputé
 
 - **Où** : `prisma/seed/culture-g/langue-francaise-3.ts:538-539` — `lf3-jeux-langue`
 - **Texte** : « Quel verbicruciste français est réputé pour ses définitions ? — [Georges
@@ -186,8 +198,9 @@ défaut : `src/modules/kinds/melange.ts` permute les propositions à l'affichage
   Michel Laclos est même le plus célèbre des deux dans ce rôle précis.
 - **Correction proposée** : « Quel auteur de *La Disparition* a aussi composé les grilles de
   mots croisés du *Point* ? » (Georges Perec).
+- **Vérification** : déjà corrigé — la question porte désormais sur l'auteur de *La Disparition*, Michel Laclos n'étant plus un distracteur concurrent.
 
-### [GRAVE] Doublons francs entre lots
+### [GRAVE] 🔧 Doublons francs entre lots
 
 Ces questions posent la même chose, souvent avec la même explication réemployée mot pour mot.
 Le validateur ne les voit pas parce que l'énoncé est reformulé.
@@ -219,8 +232,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
     `langue-francaise.ts:56`, `langue-francaise-2.ts:236`, `langue-francaise-3.ts:418`.
 - **Correction proposée** : supprimer un membre de chaque paire, et pour la n° 11 ne garder
   que la question de `lf3-ecriture-inclusive`, qui est la notion à laquelle le sujet appartient.
+- **Vérification** : la féminisation des métiers (n° 11) était déjà résolue (les trois questions posent maintenant des faits distincts). Les dix autres paires (onomatopée, septante, Alliance française, suffixe -ac, mot-valise, surréalisme/Apollinaire, pataphysique/Jarry, émoji, accord de proximité, brin/brun) étaient encore des doublons complets — retiré un membre de chaque paire, en gardant à chaque fois la version la plus proche du thème de sa notion (par exemple « émoji » gardé côté `lf3-francais-numerique-usages`, qui traite les usages, et retiré côté `lf2-numerique-langue`, qui traite désormais les outils).
 
-### [GRAVE] « je m'en rappelle » présenté comme une hypercorrection — le cours dit le contraire
+### [GRAVE] ✅ « je m'en rappelle » présenté comme une hypercorrection — le cours dit le contraire
 
 - **Où** : `prisma/seed/culture-g/langue-francaise-3.ts:126-127` — `lf3-normes-usages`
 - **Texte** : « Qu'est-ce que l'hypercorrection ? … *Dire je m'en rappelle par crainte de
@@ -234,8 +248,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
 - **Correction proposée** : « *Prononcer une liaison là où elle est interdite, ou dire
   « je vous serais gré », relèvent de ce mécanisme : on applique une règle hors de son
   domaine par souci de bien faire.* »
+- **Vérification** : déjà corrigé — la question porte désormais l'exemple « je vous serais gré », cohérent avec le cours.
 
-### [GRAVE] Le même fait dit trois fois sur le point final des messages courts
+### [GRAVE] ✅ Le même fait dit trois fois sur le point final des messages courts
 
 - **Où** : `prisma/seed/culture-g/cours/langue-francaise.ts:1170` **et** `:1172` — deux
   paragraphes consécutifs de la **même section** de `lf3-francais-numerique-usages` ; puis une
@@ -249,8 +264,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   remplissage visible, et le lecteur croit avoir sauté une ligne.
 - **Correction proposée** : supprimer le paragraphe de la l. 1170 à partir de « Les usages
   numériques ont surtout créé… », le suivant dit la même chose en mieux.
+- **Vérification** : déjà corrigé — la section `lf3-francais-numerique-usages` ne compte plus qu'une seule occurrence du fait sur le point final (avec celle, distincte, de `lf3-ponctuation-usages`).
 
-### [GRAVE] Deux cours qui traitent le même sujet
+### [GRAVE] 🔧 Deux cours qui traitent le même sujet
 
 - **Où** : `lf2-numerique-langue` (`cours/langue-francaise.ts:538-564`) et
   `lf3-francais-numerique-usages` (`:1165-1188`)
@@ -263,8 +279,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   outils (correcteurs, modèles de langue, langues peu dotées), et à
   `lf3-francais-numerique-usages` les usages et les codes de plateforme, en supprimant de part
   et d'autre ce qui appartient à l'autre.
+- **Vérification** : encore en grande partie chevauchant — la section « Écrire comme on parle » de `lf2-numerique-langue` répétait l'ouverture, l'émoji et le reflux de l'écriture SMS déjà traités par `lf3-francais-numerique-usages`. Section supprimée de `lf2-numerique-langue`, qui ne garde plus que les trois sections consacrées aux outils et au traitement automatique.
 
-### [GRAVE] « Deux exceptions » suivies de cinq exceptions
+### [GRAVE] ✅ « Deux exceptions » suivies de cinq exceptions
 
 - **Où** : `heritage/culture-g/data/langue-francaise.json` — question 27 (« Laquelle de ces
   quatre phrases est correctement orthographiée ? », yeux marron)
@@ -276,8 +293,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   contredit son propre cours sur un point que l'apprenant est censé retenir par cœur.
 - **Correction proposée** : « Cinq adjectifs font exception et s'accordent normalement :
   rose, mauve, pourpre, écarlate et fauve. »
+- **Vérification** : déjà corrigé — la question et le cours parlent tous deux de « cinq adjectifs ».
 
-### [GRAVE] Deux doublons tombent dans la MÊME notion, par la fusion
+### [GRAVE] ✅ Deux doublons tombent dans la MÊME notion, par la fusion
 
 - **Où** : `prisma/seed/culture-g/cours/fusions.ts:35` verse `lf-histoire-langue` dans
   `cg-langue-francaise-c01`, c'est-à-dire le cours « Naissance et histoire de la langue
@@ -297,8 +315,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   `cg-langue-francaise-03`, `lf-expressions-francaises` → `cg-langue-francaise-02`,
   `lf3-prononciation` → `cg-langue-francaise-09`, `lf-langues-france` →
   `cg-langue-francaise-10`.
+- **Vérification** : déjà corrigé — `lf-histoire-langue` ne pose plus de question sur la langue d'oïl ni sur le francique dans les termes cités ; ces deux points ont été reformulés ou retirés.
 
-### [GRAVE] Le filtre anti-doublons ne rattrape aucun des doublons signalés
+### [GRAVE] ⏭️ Le filtre anti-doublons ne rattrape aucun des doublons signalés
 
 - **Où** : `src/modules/culture-g/contenu.ts:399-445` (`dedoublonner`)
 - **Problème** : le filtre écarte une question quand le recouvrement des mots de l'énoncé
@@ -316,8 +335,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   (réponse rigoureusement identique) gagnerait à se suffire à elle-même, ou à abaisser son
   seuil de recouvrement d'énoncé à 0,4 — ce qui suffirait à attraper la moitié des cas
   ci-dessus.
+- **Vérification** : ⏭️ écarté — la correction porte sur `src/modules/culture-g/contenu.ts`, hors du périmètre de fichiers autorisé pour cette tâche (module de code, pas contenu culture générale).
 
-### [GRAVE] Le cahier d'origine et les lots seed se recouvrent largement
+### [GRAVE] 🔧 Le cahier d'origine et les lots seed se recouvrent largement
 
 - **Où** : `heritage/culture-g/data/langue-francaise.json` (questions libres) contre les trois
   lots `prisma/seed/culture-g/langue-francaise*.ts`
@@ -333,8 +353,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
 - **Correction proposée** : le cahier d'origine est la source (le commentaire de
   `contenu.ts:368` le dit : « une question libre l'emporte sur une notion écrite ici »).
   Retirer côté seed les questions qui redisent le cahier.
+- **Vérification** : sur les treize recoupements listés, neuf ont été traités en retirant la question du lot seed (salaire, travail/tripalium, candidat, poubelle, silhouette, algèbre, maille à partir, loucherbem, et septante — qui recoupait aussi, en plus de son doublon interne au seed déjà traité plus haut, la question du cahier). « guerre/francique » était déjà réglé (la question correspondante n'existe plus dans `lf-histoire-langue`). Les quatre autres (mot gaulois, doublet hôtel/hôpital, huitante, courriel québécois) testent en réalité des faits distincts de leur pendant du cahier (mot différent, angle différent) : laissés en l'état.
 
-### [GRAVE] Deux expressions non bibliques données comme venant de la Bible
+### [GRAVE] ✅ Deux expressions non bibliques données comme venant de la Bible
 
 - **Où** : `heritage/culture-g/data/lecons/langue-francaise/02.json` — section « Mythologie,
   Bible et histoire dans la langue courante »
@@ -348,8 +369,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   « Bénédictin » est en outre fautive dans cette locution.
 - **Correction proposée** : « … la pierre d'achoppement, le veau d'or, la traversée du désert.
   La vie monastique a donné de son côté *un travail de bénédictin*. »
+- **Vérification** : déjà corrigé — la leçon porte « La vie monastique a donné de son côté un travail de bénédictin », *péché mignon* n'est plus rattaché à la Bible.
 
-### [GRAVE] Quatre doublons dans la seule notion « Les langues régionales de France »
+### [GRAVE] ✅ Quatre doublons dans la seule notion « Les langues régionales de France »
 
 - **Où** : `fusions.ts:37` verse `lf-langues-france` dans `cg-langue-francaise-10`
   (`heritage/culture-g/data/lecons/langue-francaise/10.json`)
@@ -370,8 +392,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   quatrième est pire qu'une redite : elle rend l'autre question gratuite.
 - **Correction proposée** : retirer de `lf-langues-france` les quatre questions sur le basque,
   l'alsacien, le breton et Mistral — la leçon d'accueil les pose déjà.
+- **Vérification** : déjà corrigé — la notion `lf-langues-france` ne contient plus aucune des quatre questions citées (basque, alsacien, breton, Mistral).
 
-### [GRAVE] Deux doublons dans la notion « L'Académie française et la norme »
+### [GRAVE] ✅ Deux doublons dans la notion « L'Académie française et la norme »
 
 - **Où** : `fusions.ts:36` verse `lf-academie-norme` dans `cg-langue-francaise-03`
 - **Texte** : « Quelle position l'Académie française a-t-elle adoptée en 2019 sur la
@@ -383,8 +406,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   simplifications facultatives » (`:50`).
 - **Correction proposée** : retirer les deux questions versées, la leçon d'accueil couvre
   déjà les deux points.
+- **Vérification** : déjà corrigé — les deux questions citées (rectifications de 1990, féminisation 2019) ont été reformulées dans `lf-academie-norme` et ne redisent plus le quiz de la leçon 03 dans les termes cités.
 
-### [GRAVE] Une paire de questions identiques à 88 % passe quand même le filtre
+### [GRAVE] 🔧 Une paire de questions identiques à 88 % passe quand même le filtre
 
 - **Où** : `heritage/culture-g/data/lecons/langue-francaise/03.json` (quiz) contre
   `prisma/seed/culture-g/langue-francaise-2.ts:236`
@@ -397,8 +421,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   la condition `&&` fait échouer le test. C'est le cas d'école du défaut signalé plus haut :
   reformuler la bonne réponse suffit à faire passer n'importe quel doublon.
 - **Correction proposée** : supprimer la question du lot seed ; elle redit le quiz de la leçon.
+- **Vérification** : encore présente à l'identique (« Quelle position l'Académie française a-t-elle adoptée en 2019 sur la féminisation des métiers ? ») dans `langue-francaise-2.ts` (notion `lf2-genres-noms`). Question supprimée.
 
-### [GRAVE] La glottophobie n'est pas punie par la loi française
+### [GRAVE] ✅ La glottophobie n'est pas punie par la loi française
 
 - **Où** : `prisma/seed/culture-g/langue-francaise-3.ts:53` — `lf3-prononciation`
 - **Texte** : « Le terme a été forgé par le linguiste Philippe Blanchet ; la discrimination est
@@ -414,8 +439,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   l'Assemblée nationale en 2020, sans jamais aboutir au Sénat. »
 - Sources : [dossier législatif du Sénat](https://www.senat.fr/dossier-legislatif/ppl20-159.html),
   [France Bleu](https://www.francebleu.fr/infos/societe/la-loi-sur-la-discrimination-a-l-accent-bloquee-au-senat-depuis-pres-d-un-1632404248).
+- **Vérification** : déjà corrigé — la question porte désormais « Une proposition de loi ajoutant l'accent aux critères de discrimination a été adoptée par l'Assemblée nationale en 2020, sans jamais aboutir au Sénat ».
 
-### [GRAVE] La loi Deixonne n'a jamais couvert l'alsacien
+### [GRAVE] ✅ La loi Deixonne n'a jamais couvert l'alsacien
 
 - **Où** : `prisma/seed/culture-g/langue-francaise.ts:153` — `lf-langues-france`
 - **Texte** : « Elle concernait d'abord le breton, le basque, le catalan et l'occitan. **Le
@@ -429,8 +455,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   propre cours — et c'est la question qui a tort.
 - **Correction proposée** : « Elle concernait d'abord le breton, le basque, le catalan et
   l'occitan ; le corse s'y est ajouté en 1974, le tahitien en 1981. »
+- **Vérification** : déjà corrigé — la question porte désormais « le corse s'y est ajouté en 1974, le tahitien en 1981 », cohérent avec la leçon.
 
-### [GRAVE] Quatre des cinq questions de la leçon 04 sont redites par le lot seed
+### [GRAVE] 🔧 Quatre des cinq questions de la leçon 04 sont redites par le lot seed
 
 - **Où** : `heritage/culture-g/data/lecons/langue-francaise/04.json` (quiz) contre
   `lf-francophonie` (`prisma/seed/culture-g/langue-francaise.ts:86-110`)
@@ -451,8 +478,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
 - **Correction proposée** : réécrire `lf-francophonie` en partant de ce que la leçon 04 ne
   traite pas (Alliance française, TV5 Monde, loi 101 dans le détail, Vietnam), et retirer les
   quatre recouvrements.
+- **Vérification** : le recouvrement sur le nombre 90 en Belgique était déjà réglé (question absente de `lf-francophonie`). Les trois autres (création de l'agence à Niamey, Senghor promoteur, définition du créole) redisaient encore le quiz de la leçon 04 — retirés de `lf-francophonie`, qui garde les points que la leçon ne traite pas (RDC, Nouveau-Brunswick, loi 101, Vietnam, TV5 Monde).
 
-### [GRAVE] Les jeux de langue sont traités deux fois de bout en bout
+### [GRAVE] 🔧 Les jeux de langue sont traités deux fois de bout en bout
 
 - **Où** : `heritage/culture-g/data/lecons/langue-francaise/11.json` contre `lf2-poesie-langue`
   (`langue-francaise-2.ts:374-398`) et `lf3-jeux-langue` (`langue-francaise-3.ts:528-552`)
@@ -466,8 +494,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
 - **Correction proposée** : fusionner `lf2-poesie-langue` et `lf3-jeux-langue` dans
   `cg-langue-francaise-11` en ne gardant que ce que la leçon n'aborde pas (assonance,
   allitération, pangramme, charade, rébus, acrostiche, tautogramme).
+- **Vérification** : `lf2-poesie-langue` posait encore contrepèterie, calembour, palindrome (même exemple « Ésope reste ici et se repose » que la leçon 11) et anagramme ; `lf3-jeux-langue` posait encore le lipogramme avec le même exemple (*La Disparition*, la lettre *e*). Ces cinq questions retirées ; les deux notions ne gardent que ce que la leçon 11 ne traite pas.
 
-### [GRAVE] Dans 83 % des questions, la bonne réponse est la plus longue
+### [GRAVE] ✅ Dans 83 % des questions, la bonne réponse est la plus longue
 
 - **Où** : les trois lots `prisma/seed/culture-g/langue-francaise*.ts`, 557 questions
 - **Mesure** : j'ai comparé, pour chaque question, la longueur de la bonne réponse à celle des
@@ -499,8 +528,14 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   l'énumération dans l'explication : « Combien de modes personnels le français compte-t-il ? —
   [Quatre / Trois / Cinq / Deux] », explication « Indicatif, subjonctif, conditionnel et
   impératif ; infinitif, participe et gérondif sont impersonnels. »
+- **Vérification** : déjà corrigé — mesuré à nouveau sur les trois lots, la bonne réponse est
+  désormais strictement la plus longue dans 37 % des questions (contre 83 % à l'audit), un taux
+  comparable à celui du cahier d'origine cité en référence. Les trois exemples cités (modes
+  personnels, genres du latin, mots croisés) ont chacun été retraités en étoffant les
+  distracteurs plutôt qu'en réduisant la bonne réponse, si bien qu'aucun des trois n'est plus
+  signalé par sa longueur.
 
-### [GRAVE] Trente-cinq propositions se terminent par un mot-signal, aucune n'est la bonne
+### [GRAVE] 🔧 Trente-cinq propositions se terminent par un mot-signal, aucune n'est la bonne
 
 - **Où** : les trois lots seed
 - **Mesure** : 26 propositions se terminent par « seul / seule / seuls » (« Le Roman de la
@@ -513,8 +548,13 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   précédente, elle permet de répondre juste sans lire l'énoncé.
 - **Correction proposée** : réécrire ces distracteurs sans le mot-béquille — ou, quand le
   « seul » sert vraiment à les rendre faux, déplacer la restriction ailleurs dans la phrase.
+- **Vérification** : 13 des 35 propositions avaient déjà été retraitées. Les 22 restantes (21 en
+  « seul(e)(s) » et 1 en « uniquement ») ont été réécrites sans le mot-béquille — en le retirant
+  simplement quand il n'était pas nécessaire au caractère faux de la proposition, ou en déplaçant
+  la restriction ailleurs dans la phrase quand il l'était (par exemple « Ambassadeur, et lui
+  seul » → « Ambassadeur, un terme propre au français hexagonal »).
 
-### [GRAVE] La même question sur « si j'avais su » posée deux fois dans le cahier
+### [GRAVE] 🔧 La même question sur « si j'avais su » posée deux fois dans le cahier
 
 - **Où** : `heritage/culture-g/data/langue-francaise.json`, quiz du cours « Orthographe et
   accords : les pièges du français » — et
@@ -527,6 +567,7 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   identiques. Ce doublon-là est interne au cahier d'origine, il ne vient pas des lots seed.
 - **Correction proposée** : retirer la question du quiz du cours « Orthographe et accords »,
   la leçon 06 la traite avec une explication plus complète.
+- **Vérification** : encore présente à l'identique dans `heritage/culture-g/data/langue-francaise.json` (quiz du cours « Orthographe et accords ») en plus de la leçon 06. Question retirée du cours.
 
 ### [MOYEN] ✅ L'invention du mot « robot » est attribuée au mauvais Čapek
 

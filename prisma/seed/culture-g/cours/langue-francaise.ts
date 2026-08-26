@@ -538,13 +538,6 @@ Ces techniques sont enseignées en médiation, en négociation et en soins. Leur
   ],
 
   "lf2-numerique-langue": [
-    ["Écrire comme on parle", `Les usages écrits en ligne ont créé des formes hybrides entre oral et écrit. Un message instantané est écrit par son support et oral par ses conditions : échange rapide, interlocuteur présent, alternance des tours de parole, absence de révision.
-
-Il en résulte une écriture qui emprunte à la parole ses procédés — phrases courtes, ellipses, marques d'hésitation, segmentation — tout en devant compenser l'absence d'intonation et de visage.
-
-L'écriture SMS est née de contraintes matérielles précises : cent soixante caractères par message, saisie sur clavier à neuf touches, facturation à l'unité. Ses abréviations — *koi*, *bcp*, *slt*, *a+* — répondaient à un coût réel. Ces contraintes ayant disparu avec les forfaits illimités et les claviers tactiles, l'écriture SMS a largement reflué, ce qui contredit les prédictions alarmistes des années 2000 sur une dégradation généralisée de l'orthographe.
-
-L'émoji, du point de vue linguistique, apporte un ton et une intention à un message. Il ne remplace pas les mots mais supplée à ce que l'écrit ne porte pas : il désamorce, ironise, adoucit, signale le second degré. Il occupe la fonction qu'assurent à l'oral l'intonation et le sourire — d'où sa présence massive dans les échanges informels et son absence dans les textes où le registre est déjà clair.`],
     ["Les outils de correction", `Un correcteur orthographique compare les mots d'un texte à un dictionnaire et applique des règles grammaticales. Il signale ce qui n'existe pas et ce qui contredit une règle formelle.
 
 Il ne détecte pas toutes les fautes, et ses limites sont structurelles : il analyse mal le sens et le contexte. Un homophone correctement orthographié mais employé à tort — *ces* pour *ses*, *a* pour *à*, *quelle* pour *qu'elle* — passe inaperçu si la construction reste grammaticalement possible. De même, un accord juste mais absurde ne déclenche rien.

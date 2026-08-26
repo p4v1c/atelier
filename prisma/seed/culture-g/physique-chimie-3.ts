@@ -59,7 +59,7 @@ export const CG_PHYSIQUE_CHIMIE_3: SeedSkill[] = [
 
   notion("pc3-astronomie-observation", S, "Observer le ciel",
     "Constellations, mouvements apparents, repérage.",
-    "Une constellation n'est pas un groupe d'étoiles proches : c'est un effet de perspective.",
+    "Regarder loin, c'est regarder tôt : on ne voit jamais un astre tel qu'il est.",
     2, [
     ["Qu'est-ce qu'une constellation ?", ["Un regroupement conventionnel d'étoiles vu depuis la Terre", "Un groupe d'étoiles physiquement liées entre elles par la gravité", "Un amas stellaire", "Une galaxie voisine"], 0,
      "Les étoiles d'une même constellation peuvent être à des distances très différentes."],
@@ -111,7 +111,7 @@ export const CG_PHYSIQUE_CHIMIE_3: SeedSkill[] = [
 
   notion("pc3-electricite-domestique", S, "L'électricité domestique",
     "Installation, sécurité, consommation.",
-    "Le disjoncteur protège l'installation, le différentiel protège les personnes.",
+    "Une installation aux normes ne dispense pas de couper le courant avant d'y toucher.",
     2, [
     ["Que protège un disjoncteur divisionnaire ?", ["Le circuit contre les surintensités", "Les personnes contre l'électrocution", "Les appareils contre la foudre", "L'installation contre les surtensions"], 0,
      "Il coupe le courant en cas de surcharge ou de court-circuit."],
@@ -145,8 +145,8 @@ export const CG_PHYSIQUE_CHIMIE_3: SeedSkill[] = [
      "C'est le même principe que le caillage à la présure, par un autre mécanisme."],
     ["Qu'est-ce que le rancissement d'une huile ?", ["Une oxydation des acides gras produisant des composés odorants", "Une fermentation", "Une hydrolyse des graisses provoquée par l'eau que l'huile contient", "Une cristallisation des graisses"], 0,
      "Lumière, chaleur et oxygène l'accélèrent, d'où l'intérêt des bouteilles opaques."],
-    ["Qu'est-ce qu'un antioxydant en alimentation ?", ["Une substance ralentissant l'oxydation des aliments", "Un conservateur antibactérien ajouté pour empêcher les moisissures", "Un exhausteur de goût ajouté au produit", "Un stabilisant qui fixe la texture"], 0,
-     "Vitamines C et E en sont les plus employés, naturels ou ajoutés."],
+    ["Comment un antioxydant ralentit-il le rancissement ?", ["Il capte les radicaux libres avant qu'ils ne propagent la réaction en chaîne", "Il neutralise l'acidité produite par l'oxydation", "Il abaisse la température à laquelle l'huile s'oxyde", "Il forme un film imperméable à l'oxygène autour de chaque molécule de graisse"], 0,
+     "Vitamines C et E agissent ainsi, naturelles ou ajoutées, en interrompant la chaîne radicalaire dès son amorce."],
     ["Pourquoi le sucre caramélise-t-il en chauffant ?", ["Il se dégrade en produisant des composés colorés et aromatiques", "Il fond simplement sans se transformer", "Il réagit avec l'oxygène de l'air ambiant", "Il se cristallise en refroidissant"], 0,
      "La caramélisation débute vers cent soixante degrés pour le saccharose."],
     ["Qu'est-ce que la pectine ?", ["Un polysaccharide végétal permettant la prise des confitures", "Un sucre simple contenu dans le fruit", "Une protéine présente dans la peau et dans les pépins des fruits", "Un acide organique du jus de fruit"], 0,
@@ -189,7 +189,7 @@ export const CG_PHYSIQUE_CHIMIE_3: SeedSkill[] = [
 
   notion("pc3-chimie-eau", S, "La chimie de l'eau",
     "Propriétés, solutions, réactions en milieu aqueux.",
-    "L'eau est un solvant exceptionnel en raison de sa polarité.",
+    "L'eau est le seul corps courant dont le solide flotte sur le liquide — et la vie en dépend.",
     2, [
     ["Pourquoi l'eau est-elle un bon solvant ?", ["Sa molécule est polaire et forme des liaisons hydrogène", "Elle est liquide à température ordinaire", "Elle est abondante à la surface du globe", "Elle est chimiquement inerte vis-à-vis de tous les solutés"], 0,
      "Elle dissout mal les corps gras, apolaires, d'où l'utilité des tensioactifs."],
@@ -267,7 +267,7 @@ export const CG_PHYSIQUE_CHIMIE_3: SeedSkill[] = [
 
   notion("pc3-detection-mesure", S, "Détecter et mesurer",
     "Capteurs, seuils, instruments du quotidien.",
-    "Un capteur transforme une grandeur physique en signal exploitable.",
+    "Un capteur ne mesure jamais la grandeur qui vous intéresse : il en mesure une autre, corrélée.",
     2, [
     ["Qu'est-ce qu'un capteur ?", ["Un dispositif convertissant une grandeur physique en signal", "Un instrument d'affichage des mesures", "Un système d'alarme sonore", "Un régulateur automatique qui corrige le fonctionnement d'une machine"], 0,
      "Sa qualité se juge à sa sensibilité, sa justesse et son temps de réponse."],
@@ -285,10 +285,10 @@ export const CG_PHYSIQUE_CHIMIE_3: SeedSkill[] = [
      "Les téléphones en sont souvent équipés pour affiner la localisation verticale."],
     ["Qu'est-ce qu'un détecteur de mouvement infrarouge passif ?", ["Un capteur détectant les variations de rayonnement thermique", "Un capteur émettant un faisceau lumineux qu'une présence interrompt", "Un capteur à ultrasons de proximité", "Une caméra thermique de surveillance"], 0,
      "Il détecte un corps chaud en mouvement dans son champ, sans rien émettre."],
-    ["Qu'est-ce que la sensibilité d'un capteur ?", ["La variation de son signal pour une variation donnée de la grandeur mesurée", "Sa précision de mesure", "Sa fragilité mécanique", "Sa plage de mesure"], 0,
-     "Elle ne garantit ni la justesse ni la fidélité de la mesure."],
-    ["Qu'est-ce qu'un étalonnage périodique ?", ["Une vérification régulière par comparaison à une référence", "Un nettoyage du capteur", "Un réglage du zéro", "Un remplacement préventif"], 0,
-     "Sans lui, la dérive lente d'un instrument passe inaperçue.", 3],
+    ["Qu'est-ce que le temps de réponse d'un capteur ?", ["Le délai qu'il met à suivre une variation brutale de la grandeur mesurée", "Sa durée de vie avant qu'il faille le remplacer", "Le temps que met l'électronique à afficher le résultat", "La durée de sa garantie constructeur"], 0,
+     "Un capteur très sensible mais lent peut manquer un pic bref que la grandeur a pourtant réellement atteint."],
+    ["Pourquoi une surface métallique brillante fausse-t-elle la mesure d'un thermomètre infrarouge ?", ["Peu émissive, elle rayonne moins qu'un corps noir à la même température", "Elle réfléchit trop de lumière visible pour que le capteur fonctionne", "Sa conductivité thermique élevée la refroidit pendant la mesure", "Le métal absorbe une partie du rayonnement infrarouge émis"], 0,
+     "L'appareil suppose une émissivité proche de un ; une surface peu émissive est donc systématiquement sous-estimée.", 3],
   ]),
 
   notion("pc3-energie-transport", S, "L'énergie dans les transports",
@@ -319,7 +319,7 @@ export const CG_PHYSIQUE_CHIMIE_3: SeedSkill[] = [
 
   notion("pc3-histoire-chimie", S, "L'histoire de la chimie",
     "Alchimie, révolution chimique, chimie moderne.",
-    "L'alchimie a produit des techniques réelles malgré des théories fausses.",
+    "La chimie est née le jour où l'on a commencé à peser ce qui entre et ce qui sort.",
     2, [
     ["Qu'est-ce que l'alchimie ?", ["Une pratique ancienne mêlant techniques réelles et théories spéculatives", "Une superstition sans aucun apport à la science", "Une chimie primitive mais déjà parfaitement rigoureuse dans ses méthodes et ses résultats", "Une pratique religieuse et rituelle"], 0,
      "Distillation, sublimation et de nombreux réactifs en sont issus."],
@@ -425,8 +425,8 @@ export const CG_PHYSIQUE_CHIMIE_3: SeedSkill[] = [
     "Sources, transformations, traitements.",
     "Un polluant se transforme souvent dans l'environnement en composés différents.",
     2, [
-    ["Qu'est-ce que l'ozone troposphérique ?", ["Un polluant secondaire formé sous l'effet du soleil sur d'autres polluants", "Un polluant émis directement", "L'ozone présent dans la stratosphère, qui nous protège du rayonnement solaire", "Un gaz naturellement présent dans l'air que nous respirons"], 0,
-     "Les pics surviennent par temps chaud et ensoleillé, en aval des zones urbaines."],
+    ["Pourquoi une baisse du trafic peut-elle faire monter l'ozone en centre-ville ?", ["Les oxydes d'azote y détruisent une partie de l'ozone ; moins d'oxydes d'azote, plus d'ozone résiduel", "L'ozone ne dépend d'aucun autre polluant émis par les véhicules", "Moins de particules fines laissent passer davantage de rayonnement solaire", "Le trafic réduit refroidit l'air, ce qui favorise la formation d'ozone"], 0,
+     "C'est le paradoxe de l'ozone urbain : au cœur des villes, le monoxyde d'azote frais réagit avec l'ozone et le décompose, un effet qui s'estompe en aval, là où les pics sont les plus forts."],
     ["Qu'est-ce qu'un polluant primaire ?", ["Un polluant émis directement par une source", "Un polluant formé dans l'atmosphère par réaction chimique", "Un polluant qui persiste longtemps", "Le polluant le plus abondant de l'air"], 0,
      "Les oxydes d'azote des moteurs en sont un exemple."],
     ["Qu'est-ce que le dioxyde d'azote ?", ["Un polluant issu des combustions, irritant pour les voies respiratoires", "Un gaz à effet de serre majeur, bien plus puissant que le gaz carbonique lui-même", "Un gaz chimiquement inerte", "Un polluant naturel"], 0,
@@ -449,7 +449,7 @@ export const CG_PHYSIQUE_CHIMIE_3: SeedSkill[] = [
 
   notion("pc3-physique-terre", S, "La physique de la Terre",
     "Champ magnétique, gravimétrie, sismique.",
-    "L'essentiel de ce que l'on sait de l'intérieur de la Terre vient des ondes sismiques.",
+    "Personne n'est jamais descendu au-delà de douze kilomètres : tout le reste est déduit.",
     2, [
     ["Comment connaît-on la structure interne de la Terre ?", ["Par la propagation des ondes sismiques", "Par des forages profonds jusqu'au manteau", "Par l'analyse des laves remontées par les volcans", "Par la mesure du champ magnétique terrestre"], 0,
      "Le forage le plus profond jamais réalisé atteint à peine douze kilomètres."],

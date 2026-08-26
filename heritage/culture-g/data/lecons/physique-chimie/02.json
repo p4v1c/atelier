@@ -140,16 +140,16 @@
    "explication": "La normale est la droite perpendiculaire à la surface au point où arrive le rayon. La loi de la réflexion affirme que le rayon réfléchi reste dans le plan défini par le rayon incident et la normale, et que l'angle de réflexion est égal à l'angle d'incidence, tous deux mesurés à partir de cette normale. Cette loi ne dépend pas de la couleur de la lumière, contrairement à la réfraction qui, elle, provoque la dispersion. Elle explique la formation des images dans un miroir plan, images virtuelles et symétriques de l'objet."
   },
   {
-   "q": "Sur quel phénomène optique repose le fonctionnement des fibres optiques ?",
+   "q": "De quoi dépend l'indice de réfraction d'un milieu ?",
    "choix": [
-    "La diffusion de la lumière par les surfaces rugueuses",
-    "La dispersion par un prisme",
-    "L'absorption sélective des pigments",
-    "La réflexion totale de la lumière au-delà d'un angle limite"
+    "De la vitesse de la lumière dans ce milieu",
+    "De la seule couleur de la lumière qui le traverse",
+    "De l'épaisseur du milieu traversé",
+    "De la température du milieu, et d'elle seule"
    ],
-   "bonne": 3,
+   "bonne": 0,
    "difficulte": 2,
-   "explication": "Quand la lumière tente de passer d'un milieu d'indice élevé vers un milieu d'indice plus faible, elle s'écarte de la normale. Au-delà d'un certain angle d'incidence, appelé angle limite, elle ne peut plus sortir et se réfléchit intégralement dans le premier milieu : c'est la réflexion totale. Une fibre optique est constituée d'un cœur de verre entouré d'une gaine d'indice plus faible, si bien que la lumière y reste piégée et suit la fibre même dans les courbes. Ce principe permet de transmettre des données sur des milliers de kilomètres avec très peu de pertes."
+   "explication": "L'indice est le rapport de la vitesse de la lumière dans le vide à sa vitesse dans le milieu : plus la lumière y ralentit, plus l'indice est élevé — environ 1,33 pour l'eau, près de 1,5 pour le verre ordinaire."
   },
   {
    "q": "En synthèse additive des lumières, quelles sont les trois couleurs primaires ?",

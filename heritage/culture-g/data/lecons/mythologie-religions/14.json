@@ -92,23 +92,23 @@
    "explication": "Une créature légendaire appartient au monde des mythes, des légendes et de la fiction : son existence n'a jamais été démontrée, mais elle occupe une place stable dans la mémoire collective. Ces figures sont attestées très anciennement, comme le montre le Sorcier des Trois-Frères, image pariétale paléolithique mêlant traits humains et animaux. Les inventaires les classent par traditions, de la mythologie grecque aux yokai japonais en passant par les mondes nordique et slave. Leur étude relève du folklore et de l'anthropologie ; la cryptozoologie, qui prétend prouver leur existence réelle, n'est pas reconnue comme une science."
   },
   {
-   "q": "Comment Thésée parvient-il à sortir du Labyrinthe après avoir tué le Minotaure ?",
+   "q": "Pourquoi la naissance du Minotaure est-elle présentée comme un châtiment divin ?",
    "choix": [
-    "Il suit le vol d'un oiseau envoyé par Athéna",
-    "Il brise les murs à l'aide de la massue d'Héraclès",
-    "Il déroule une pelote de fil donnée par Ariane",
-    "Il s'échappe par la mer avec des ailes fabriquées par Dédale"
+    "Minos a manqué à sa promesse de sacrifier à Poséidon le taureau blanc qu'il lui avait envoyé",
+    "Minos a refusé de rendre hommage à Zeus lors d'une grande fête annuelle organisée en Crète",
+    "Pasiphaé a offensé Aphrodite en dédaignant l'amour et ses rites",
+    "Dédale a trahi la confiance du roi en aidant secrètement un rival de Minos"
    ],
-   "bonne": 2,
-   "difficulte": 1,
-   "explication": "Athènes devait livrer à la Crète un tribut de sept jeunes garçons et sept jeunes filles destinés au Minotaure, en compensation de la mort d'Androgée, fils de Minos. Thésée se porte volontaire pour faire partie du convoi. Ariane, fille de Minos, tombe amoureuse de lui et lui remet une pelote de fil qu'il déroule en avançant, ce qui lui permet de retrouver la sortie après avoir tué le monstre. Les ailes fabriquées par Dédale appartiennent à un autre épisode, celui de la fuite de l'architecte et de son fils Icare, également enfermés par Minos."
+   "bonne": 0,
+   "difficulte": 2,
+   "explication": "Poséidon avait envoyé à Minos un taureau blanc que le roi devait lui sacrifier ; Minos le garde pour lui-même. En punition, le dieu inspire à Pasiphaé, l'épouse de Minos, une passion pour l'animal, dont naît le Minotaure, un monstre au corps d'homme et à tête de taureau. Minos le fait enfermer dans le Labyrinthe construit par l'architecte Dédale."
   },
   {
    "q": "D'où vient le mot dragon ?",
    "choix": [
-    "D'un mot celtique désignant le serpent d'eau qui gardait les sources",
+    "D'un mot celtique désignant le serpent d'eau qui gardait les sources sacrées",
     "D'un terme hébreu employé dans le livre de la Genèse et transmis par la Vulgate latine",
-    "D'un mot chinois apporté en Occident par les marchands qui suivaient la route de la soie",
+    "D'un mot chinois ancien apporté en Occident par les marchands qui suivaient la route de la soie",
     "Du latin draco, emprunté au grec drakon, rattaché à un verbe signifiant regarder fixement"
    ],
    "bonne": 3,
@@ -121,7 +121,7 @@
     "Le dragon européen vole au-dessus des montagnes tandis que le dragon asiatique vit uniquement sous terre et ne s'en éloigne jamais",
     "Le dragon européen est une figure hostile, tandis que le dragon asiatique est associé à la sagesse et à une puissance bienveillante",
     "Le dragon européen est apparu au Moyen Âge alors que le dragon asiatique n'a été imaginé qu'au XIXe siècle",
-    "Le dragon européen est toujours représenté sans pattes ni ailes"
+    "Le dragon européen est toujours représenté sans pattes ni ailes, contrairement à l'asiatique"
    ],
    "bonne": 1,
    "difficulte": 2,

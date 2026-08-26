@@ -9,7 +9,7 @@ const S = "Physique & Chimie";
 export const CG_PHYSIQUE_CHIMIE_2: SeedSkill[] = [
   notion("pc2-atome-structure", S, "La structure de l'atome",
     "Du modèle de Dalton à la mécanique quantique : comment on s'est représenté l'atome.",
-    "L'atome est presque entièrement vide : le noyau y tient une place minuscule au regard du volume total.",
+    "Le noyau porte la masse, les électrons occupent le volume : les deux échelles n'ont rien à voir.",
     2, [
     ["Quel philosophe grec propose le premier l'idée d'atome ?", ["Démocrite", "Aristote de Stagire", "Platon d'Athènes", "Épicure de Samos"], 0,
      "Le mot signifie insécable. L'idée resta purement spéculative pendant plus de deux millénaires."],
@@ -61,7 +61,7 @@ export const CG_PHYSIQUE_CHIMIE_2: SeedSkill[] = [
 
   notion("pc2-relativite", S, "La relativité",
     "Restreinte puis générale : deux théories qui redéfinissent l'espace et le temps.",
-    "La relativité n'est pas une théorie du tout est relatif : elle affirme au contraire que la vitesse de la lumière est absolue.",
+    "Les effets relativistes ne sont pas réservés aux vaisseaux spatiaux : votre GPS les corrige en permanence.",
     2, [
     ["Quel postulat fonde la relativité restreinte de 1905 ?", ["La vitesse de la lumière est la même pour tous les observateurs", "Tout mouvement se rapporte à un référentiel absolu et parfaitement immobile", "Le temps s'écoule de façon identique partout", "L'espace est courbé par la masse des corps"], 0,
      "C'est ce postulat, contre-intuitif, qui impose de renoncer au temps absolu."],
@@ -69,8 +69,8 @@ export const CG_PHYSIQUE_CHIMIE_2: SeedSkill[] = [
      "Effet vérifié expérimentalement avec des horloges atomiques embarquées en avion."],
     ["Que doit-on corriger dans les satellites GPS au titre de la relativité ?", ["Les décalages d'horloge dus à la vitesse et à la gravité", "La position orbitale du satellite", "La fréquence radio du signal émis", "La puissance d'émission du signal vers le récepteur au sol"], 0,
      "Sans cette correction, l'erreur de position atteindrait plusieurs kilomètres par jour."],
-    ["Que signifie l'équation E = mc² ?", ["La masse est une forme d'énergie", "L'énergie dépend de la vitesse", "La lumière possède une masse", "L'énergie est proportionnelle à la vitesse"], 0,
-     "Une infime perte de masse libère une énergie considérable, principe des réactions nucléaires."],
+    ["Que devient la masse d'un corps auquel on donne de l'énergie ?", ["Elle augmente d'une quantité proportionnelle à cette énergie", "Elle diminue d'une quantité proportionnelle à cette énergie", "Elle reste rigoureusement constante, l'énergie ne change rien", "Elle se convertit intégralement en rayonnement électromagnétique"], 0,
+     "Conséquence directe de E = mc² : masse et énergie sont deux formes d'une même grandeur, si bien qu'apporter de l'énergie à un système augmente, même infimement, sa masse."],
     ["Que dit la relativité générale de la gravitation ?", ["Elle résulte de la courbure de l'espace-temps par la masse", "Elle est une force agissant à distance de façon instantanée", "Elle est transmise par des ondes lumineuses à travers le vide", "Elle décroît de façon linéaire avec la distance"], 0,
      "Publiée en 1915, elle est confirmée en 1919 par la déviation de la lumière lors d'une éclipse."],
     ["Quelle observation de 1919 confirme la relativité générale ?", ["La déviation de la lumière des étoiles près du Soleil", "Le décalage vers le rouge de la lumière des galaxies lointaines", "La seule précession de l'orbite de Mercure", "La détection directe d'ondes gravitationnelles"], 0,
@@ -89,10 +89,10 @@ export const CG_PHYSIQUE_CHIMIE_2: SeedSkill[] = [
     "Superposition, intrication, mesure : une théorie exacte et contre-intuitive.",
     "La physique quantique est la théorie la mieux vérifiée expérimentalement de toute la science.",
     2, [
-    ["Qu'est-ce que la quantification de l'énergie ?", ["L'énergie ne peut prendre que certaines valeurs discrètes", "L'énergie se mesure toujours en quantités parfaitement précises", "L'énergie est proportionnelle à la masse du corps", "L'énergie se conserve en toute circonstance"], 0,
-     "Max Planck l'introduit en 1900 pour expliquer le rayonnement du corps noir."],
-    ["Que montre l'expérience des fentes de Young avec des électrons ?", ["Une figure d'interférence, signe d'un comportement ondulatoire", "Deux impacts bien distincts, un derrière chacune des deux fentes ouvertes", "Une trajectoire rectiligne jusqu'à l'écran", "Une absorption complète par la plaque"], 0,
-     "Elle se produit même en envoyant les électrons un par un, ce qui interdit toute explication par des collisions."],
+    ["Pourquoi l'intrication ne permet-elle pas de communiquer plus vite que la lumière ?", ["Le résultat de chaque mesure reste aléatoire : il faut un canal classique pour l'exploiter", "L'intrication ne relie que des particules très proches l'une de l'autre", "La vitesse de la lumière borne aussi la vitesse de la corrélation elle-même", "L'intrication se détruit avant qu'aucune mesure n'ait pu être faite"], 0,
+     "Chaque observateur ne voit qu'une suite de résultats aléatoires ; ce n'est qu'en comparant les deux séries, par un canal ordinaire, que la corrélation apparaît."],
+    ["Qu'est-ce qu'un état propre ?", ["Un état pour lequel la mesure d'une grandeur donne un résultat certain", "Un état dans lequel une particule n'a aucune énergie", "L'état le plus probable d'un système avant toute mesure", "Un état interdit par le principe d'exclusion de Pauli"], 0,
+     "Toute mesure sur un système qui n'est pas dans un état propre de la grandeur mesurée ne peut donner qu'un résultat probabiliste."],
     ["Qu'est-ce que la superposition quantique ?", ["Un système peut être dans plusieurs états à la fois avant mesure", "Deux particules occupent exactement le même lieu", "Deux ondes s'additionnent", "Un état intermédiaire situé à mi-chemin entre deux niveaux d'énergie"], 0,
      "La mesure fait apparaître un seul résultat, sans qu'on sache décrire simplement ce qui se passe alors."],
     ["Qu'illustre l'expérience de pensée du chat de Schrödinger ?", ["L'absurdité apparente de la superposition appliquée à un objet macroscopique", "La vitesse de désintégration d'un noyau radioactif", "L'effet de l'observateur sur la matière observée", "L'intrication de deux particules"], 0,
@@ -101,8 +101,8 @@ export const CG_PHYSIQUE_CHIMIE_2: SeedSkill[] = [
      "Elle ne permet pas de transmettre d'information plus vite que la lumière."],
     ["Que montrent les expériences sur les inégalités de Bell ?", ["La nature viole le réalisme local", "Les particules communiquent instantanément", "La mécanique quantique est incomplète", "Les mesures sont imprécises"], 0,
      "Alain Aspect, John Clauser et Anton Zeilinger ont reçu le Nobel de physique 2022 pour ces travaux."],
-    ["Qu'est-ce que la décohérence ?", ["La perte des propriétés quantiques par interaction avec l'environnement", "L'effondrement de la fonction d'onde au moment de la mesure", "La désintégration d'une particule", "Une perte d'énergie du système"], 0,
-     "Elle explique pourquoi les objets macroscopiques ne présentent pas d'effets quantiques visibles."],
+    ["Que reproche Einstein à la mécanique quantique ?", ["Son caractère probabiliste, qu'il tenait pour le signe d'une théorie incomplète", "Son incapacité à prédire le comportement des grands objets", "Sa contradiction avec la relativité restreinte", "Son refus de toute vérification expérimentale"], 0,
+     "« Dieu ne joue pas aux dés », disait-il : il pensait qu'une théorie plus complète, à variables cachées, restituerait le déterminisme."],
     ["Qu'est-ce qu'un qubit ?", ["L'unité d'information d'un ordinateur quantique, pouvant être en superposition", "Un bit calculé très rapidement", "Un transistor miniaturisé", "Une unité de mesure propre à la physique quantique"], 0,
      "Le maintien de la cohérence des qubits est le principal obstacle technique actuel."],
     ["Quelle technologie courante repose sur la physique quantique ?", ["Le laser, les transistors et l'IRM", "Le moteur électrique", "La radio à modulation d'amplitude et de fréquence", "L'éclairage à filament incandescent"], 0,
@@ -139,7 +139,7 @@ export const CG_PHYSIQUE_CHIMIE_2: SeedSkill[] = [
 
   notion("pc2-acoustique", S, "Le son",
     "Propagation, hauteur, intensité : la physique de ce qu'on entend.",
-    "Le son a besoin d'un milieu matériel : il ne se propage pas dans le vide.",
+    "Une onde sonore transporte de l'énergie, jamais de matière : l'air vibre sur place.",
     2, [
     ["Le son peut-il se propager dans le vide ?", ["Non, il lui faut un milieu matériel", "Oui, exactement comme la lumière", "Oui, mais beaucoup plus lentement", "Oui, sous certaines conditions particulières"], 0,
      "C'est une onde mécanique, faite de compressions et de dilatations du milieu."],
@@ -165,7 +165,7 @@ export const CG_PHYSIQUE_CHIMIE_2: SeedSkill[] = [
 
   notion("pc2-optique", S, "L'optique appliquée",
     "Lentilles, miroirs, instruments : comment on forme et corrige les images.",
-    "Une lentille convergente fait converger la lumière ; une divergente l'écarte.",
+    "Les défauts de l'œil se corrigent en déplaçant le point où l'image se forme, jamais en changeant l'œil.",
     2, [
     ["Que fait une lentille convergente ?", ["Elle fait converger les rayons parallèles en un point", "Elle disperse les rayons parallèles", "Elle réfléchit la lumière exactement comme le ferait un miroir", "Elle polarise la lumière qui la traverse"], 0,
      "Plus épaisse au centre qu'aux bords, elle sert de loupe et corrige l'hypermétropie."],
@@ -233,8 +233,8 @@ export const CG_PHYSIQUE_CHIMIE_2: SeedSkill[] = [
      "L'écart s'appelle la déclinaison magnétique et varie selon le lieu et l'époque."],
     ["Qu'est-ce qu'une inversion du champ magnétique terrestre ?", ["Un basculement des pôles magnétiques, survenu de nombreuses fois", "Une rotation complète de l'axe de rotation terrestre", "Une disparition définitive du champ", "Un déplacement rapide des continents"], 0,
      "La dernière remonte à environ sept cent quatre-vingt mille ans, enregistrée dans les roches océaniques."],
-    ["Qu'est-ce que l'aurore polaire ?", ["Une émission lumineuse due aux particules solaires guidées par le champ magnétique", "Un reflet de la lumière sur la banquise", "Une ionisation par les rayons cosmiques", "Un phénomène de réfraction atmosphérique"], 0,
-     "Les couleurs dépendent des gaz excités : vert pour l'oxygène à basse altitude, rouge plus haut."],
+    ["Que devient le vent solaire en arrivant sur la Terre ?", ["Il est dévié par le champ magnétique, qui en canalise une partie vers les pôles", "Il traverse l'atmosphère sans être perturbé", "Il est entièrement absorbé par la haute atmosphère", "Il repousse le champ magnétique terrestre vers l'espace"], 0,
+     "Ce bouclier magnétique protège l'atmosphère elle-même ; sans lui, le vent solaire l'éroderait peu à peu, comme cela est arrivé à Mars."],
     ["Sur quoi repose l'imagerie par résonance magnétique ?", ["Un champ magnétique intense alignant les noyaux d'hydrogène", "Des rayons X à faible dose", "Des ultrasons focalisés", "Un traceur radioactif"], 0,
      "Les aimants supraconducteurs employés atteignent plusieurs teslas, des milliers de fois le champ terrestre."],
     ["Qu'est-ce que la lévitation magnétique ?", ["La sustentation d'un objet par répulsion magnétique", "Une réduction du poids par un champ", "Une annulation de la gravité", "Un effet de courants d'air magnétisés"], 0,
@@ -243,7 +243,7 @@ export const CG_PHYSIQUE_CHIMIE_2: SeedSkill[] = [
 
   notion("pc2-fluides", S, "La mécanique des fluides",
     "Pression, poussée, écoulements : ce que font liquides et gaz.",
-    "La poussée d'Archimède dépend du volume déplacé, pas de la forme de l'objet.",
+    "Une même loi gouverne le bateau, le ballon d'hélium et la montgolfière.",
     2, [
     ["De quoi dépend la poussée subie par un corps immergé ?", ["Du volume de fluide qu'il déplace", "De sa propre masse, indépendamment du fluide", "De la forme extérieure de l'objet immergé", "De la profondeur à laquelle l'objet est immergé"], 0,
      "Deux objets de même volume subissent la même poussée, qu'ils soient en plomb ou en liège."],
@@ -269,10 +269,10 @@ export const CG_PHYSIQUE_CHIMIE_2: SeedSkill[] = [
 
   notion("pc2-chimie-organique", S, "La chimie organique",
     "Le carbone et ses composés : familles, fonctions, isomérie.",
-    "La chimie organique doit son unité au carbone, capable de former quatre liaisons stables.",
+    "Organique ne veut pas dire naturel : le mot ne désigne plus que la chimie du carbone.",
     2, [
-    ["Pourquoi le carbone est-il au centre de la chimie du vivant ?", ["Il forme quatre liaisons stables et de longues chaînes", "Il est l'élément le plus abondant à la surface de la Terre", "Il est le plus léger de tous les éléments", "Il ne réagit qu'avec le seul oxygène"], 0,
-     "Il peut s'enchaîner en chaînes, cycles et réseaux d'une variété sans équivalent."],
+    ["Que démontre le fait qu'un même ensemble d'atomes puisse donner deux molécules aux propriétés différentes ?", ["Que la structure compte autant que la composition", "Que la formule chimique brute suffit à décrire une molécule", "Que ces deux molécules sont en réalité identiques", "Que la masse molaire détermine à elle seule les propriétés"], 0,
+     "C'est le phénomène d'isomérie : deux isomères partagent la même formule brute mais un arrangement différent des atomes, d'où des propriétés parfois radicalement distinctes."],
     ["Qu'est-ce qu'un hydrocarbure ?", ["Un composé fait uniquement de carbone et d'hydrogène", "Un composé oxygéné formé de carbone et d'hydrogène liés", "Un dérivé quelconque du pétrole raffiné", "Un composé azoté du carbone"], 0,
      "Alcanes, alcènes et alcynes s'en distinguent par le type de liaisons carbone-carbone."],
     ["Qu'est-ce qu'un alcane ?", ["Un hydrocarbure à liaisons simples uniquement", "Un hydrocarbure comportant au moins une double liaison", "Un hydrocarbure de structure cyclique", "Un hydrocarbure de la famille aromatique"], 0,
@@ -347,7 +347,7 @@ export const CG_PHYSIQUE_CHIMIE_2: SeedSkill[] = [
 
   notion("pc2-metaux", S, "Les métaux",
     "Propriétés, extraction, corrosion : la famille d'éléments qui a nommé des âges entiers.",
-    "Un métal se reconnaît à ses électrons libres, qui expliquent conductivité et éclat.",
+    "Le métal le plus employé n'est presque jamais le plus performant : c'est le meilleur rapport propriétés-prix qui décide.",
     2, [
     ["Qu'est-ce qui explique la conductivité électrique des métaux ?", ["La présence d'électrons libres", "Leur densité élevée", "Leur structure cristalline seule", "Leur point de fusion élevé"], 0,
      "Ces électrons délocalisés expliquent aussi leur conductivité thermique et leur éclat."],
@@ -467,8 +467,8 @@ export const CG_PHYSIQUE_CHIMIE_2: SeedSkill[] = [
      "Il permet de recycler une partie du plutonium issu du retraitement."],
     ["Que deviennent les déchets nucléaires les plus radioactifs en France ?", ["Ils sont vitrifiés et entreposés en attendant un stockage profond", "Ils sont rejetés au fond de la mer", "Ils sont dilués puis dispersés", "Ils sont recyclés intégralement pour fabriquer de nouveaux combustibles"], 0,
      "Le projet de stockage géologique profond fait l'objet de débats depuis des décennies."],
-    ["Qu'est-ce que la période radioactive d'un déchet ?", ["Le temps au bout duquel la moitié des noyaux se sont désintégrés", "La durée totale pendant laquelle le déchet demeure dangereux pour l'homme", "Le temps de refroidissement thermique avant entreposage", "La durée d'entreposage fixée par la réglementation"], 0,
-     "Certains produits de fission ont des périodes de quelques années, d'autres de centaines de milliers d'années."],
+    ["Pourquoi certains déchets nucléaires posent-ils un problème inhabituel de conception ?", ["Leur sûreté doit être garantie sur des durées supérieures à celles de toute institution humaine", "Leur volume dépasse celui de tous les autres déchets industriels réunis", "Leur composition chimique évolue de façon imprévisible avec le temps", "Aucun matériau connu ne peut les contenir plus de quelques décennies"], 0,
+     "Certains produits de fission restent dangereux des centaines de milliers d'années, un horizon de temps sans précédent pour une œuvre humaine."],
     ["Qu'est-ce qu'un réacteur à neutrons rapides ?", ["Un réacteur fonctionnant sans modérateur, capable de mieux exploiter l'uranium", "Un réacteur à démarrage particulièrement rapide", "Un réacteur de petite taille modulaire", "Un réacteur à fusion"], 0,
      "Superphénix en France, arrêté en 1997, appartenait à cette filière."],
     ["Où en est le projet international de fusion ITER ?", ["En construction dans le sud de la France", "En service depuis 2020", "Abandonné en 2015", "En phase d'étude préliminaire"], 0,
@@ -477,7 +477,7 @@ export const CG_PHYSIQUE_CHIMIE_2: SeedSkill[] = [
 
   notion("pc2-chimie-verte", S, "Chimie et environnement",
     "Réduire l'impact des procédés chimiques : principes et exemples.",
-    "La chimie verte cherche à éviter la pollution plutôt qu'à la traiter après coup.",
+    "Un procédé peut avoir un excellent rendement et un très mauvais bilan de déchets.",
     2, [
     ["Qu'est-ce que la chimie verte ?", ["Une approche visant à concevoir des procédés moins polluants dès l'origine", "Le traitement des rejets chimiques une fois le procédé industriel entièrement achevé", "La chimie des seuls produits d'origine naturelle", "La chimie appliquée aux engrais et aux produits agricoles"], 0,
      "Douze principes ont été formulés par Anastas et Warner en 1998."],

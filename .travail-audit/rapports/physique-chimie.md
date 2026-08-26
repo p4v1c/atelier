@@ -23,73 +23,73 @@ Soit **574 questions du seed + 57 questions du cahier + 15 questions de quiz** e
 
 ## Constats
 
-### [GRAVE] Température d'ébullition de l'eau en altitude : chiffre faux
+### [GRAVE] ✅ Température d'ébullition de l'eau en altitude : chiffre faux
 - **Où** : `prisma/seed/culture-g/physique-chimie.ts` — notion `pc-etats-matiere`, question « À quelle température l'eau bout-elle au niveau de la mer ? »
 - **Texte** : « En altitude, la pression plus faible abaisse ce point : environ quatre-vingt-cinq degrés à trois mille mètres. »
 - **Problème** : à 3 000 m l'eau bout vers **90 °C**, pas 85 °C. 85 °C correspond à environ 4 500–4 800 m. Le cahier d'origine dit d'ailleurs le contraire au bon endroit : `heritage/culture-g/data/physique-chimie.json` (question « À quelle température l'eau pure bout-elle au niveau de la mer ? ») écrit « au sommet du mont Blanc, l'eau bout vers 85 °C », et la leçon `03.json` écrit « environ 85 degrés Celsius à 4 000 mètres ». Le seed est donc seul à donner 3 000 m, et il a tort.
 - **Correction proposée** : « En altitude, la pression plus faible abaisse ce point : environ quatre-vingt-dix degrés à trois mille mètres, et quatre-vingt-cinq au sommet du mont Blanc. »
 
-### [GRAVE] Doublon franc — E = mc² posé deux fois
+### [GRAVE] 🔧 Doublon franc — E = mc² posé deux fois
 - **Où** : `physique-chimie.ts` — `pc-energie` ; et `physique-chimie-2.ts` — `pc2-relativite`
 - **Texte** : (1) « Que signifie la relation E = mc² ? » → « Masse et énergie sont deux formes d'une même grandeur » / explication « Une très faible perte de masse libère une énergie considérable : c'est le principe des réactions nucléaires. » — (2) « Que signifie l'équation E = mc² ? » → « La masse est une forme d'énergie » / explication « Une infime perte de masse libère une énergie considérable, principe des réactions nucléaires. »
 - **Problème** : même question, même réponse, même explication à la synonymie près. Le validateur ne les attrape pas parce que « relation » ≠ « équation ». Une troisième occurrence existe dans le cahier (`heritage/.../physique-chimie.json`, « Que signifie la célèbre formule E = mc² ? »), tolérable puisqu'il s'agit d'un autre corpus, mais les deux du seed font doublon entre elles.
 - **Correction proposée** : supprimer celle de `pc-energie` et la remplacer par une question sur la conservation de l'énergie mécanique, ou remplacer celle de `pc2-relativite` par la réciproque, que le cours enseigne et qu'aucune question ne teste : « Que devient la masse d'un corps auquel on donne de l'énergie ? » → « Elle augmente ».
 
-### [GRAVE] Doublon franc — la période radioactive définie deux fois
+### [GRAVE] 🔧 Doublon franc — la période radioactive définie deux fois
 - **Où** : `physique-chimie.ts` — `pc-nucleaire-radioactivite` ; et `physique-chimie-2.ts` — `pc2-energie-nucleaire-fonctionnement`
 - **Texte** : (1) « Qu'est-ce qu'une période radioactive ou demi-vie ? » → « La durée au bout de laquelle la moitié des noyaux se sont désintégrés » — (2) « Qu'est-ce que la période radioactive d'un déchet ? » → « Le temps au bout duquel la moitié des noyaux se sont désintégrés »
 - **Problème** : définition identique mot pour mot ou presque, distracteurs de même nature. Le simple ajout de « d'un déchet » ne change rien à ce qu'on apprend.
 - **Correction proposée** : remplacer la seconde par une question sur ce que le cours dit et qui n'est nulle part testé : « Pourquoi certains déchets nucléaires posent-ils un problème inhabituel de conception ? » → « Leur sûreté doit être garantie sur des durées supérieures à celles de toute institution humaine ».
 
-### [GRAVE] Doublon franc — l'antioxydant alimentaire défini deux fois
+### [GRAVE] 🔧 Doublon franc — l'antioxydant alimentaire défini deux fois
 - **Où** : `physique-chimie.ts` — `pc-chimie-quotidien` ; et `physique-chimie-3.ts` — `pc3-chimie-alimentaire`
 - **Texte** : (1) « Qu'est-ce qu'un antioxydant alimentaire ? » → « Une substance qui ralentit l'oxydation des aliments », distracteur « Un conservateur antibactérien » — (2) « Qu'est-ce qu'un antioxydant en alimentation ? » → « Une substance ralentissant l'oxydation des aliments », distracteur « Un conservateur antibactérien »
 - **Problème** : même énoncé à un mot près, même réponse, même distracteur principal. Seules les explications diffèrent (vitamine C d'un côté, vitamines C et E de l'autre).
 - **Correction proposée** : supprimer celle de `pc3-chimie-alimentaire` et la remplacer par le mécanisme, que le cours de cette notion développe et qu'aucune question ne teste : « Comment un antioxydant ralentit-il le rancissement ? » → « Il capte les radicaux libres avant qu'ils ne propagent la réaction en chaîne ».
 
-### [GRAVE] Doublon franc — l'aurore polaire, deux fois en question et deux fois en cours
+### [GRAVE] 🔧 Doublon franc — l'aurore polaire, deux fois en question et deux fois en cours
 - **Où** : `physique-chimie-2.ts` — `pc2-magnetisme` ; et `physique-chimie-3.ts` — `pc3-couleurs-lumiere-nature`. Les cours correspondants doublonnent aussi : `cours/physique-chimie.ts`, `pc2-magnetisme` § « Le champ de la Terre », et `pc3-couleurs-lumiere-nature` § « Émettre au lieu de dévier ».
 - **Texte** : (1) « Qu'est-ce que l'aurore polaire ? » → « Une émission lumineuse due aux particules solaires guidées par le champ magnétique », distracteur « Un reflet de la banquise » — (2) « Qu'est-ce qu'une aurore polaire ? » → « Une émission lumineuse due aux particules solaires excitant les gaz atmosphériques », distracteur « Une réflexion sur la banquise ». Côté cours : « verte pour l'oxygène à basse altitude, rouge plus haut, bleue ou violette pour l'azote » contre « vert et rouge pour l'oxygène selon l'altitude, bleu et violet pour l'azote ».
 - **Problème** : la seule différence entre les deux questions est un article. Les deux cours redisent le même paragraphe.
 - **Correction proposée** : garder l'aurore dans `pc3-couleurs-lumiere-nature` (phénomènes lumineux naturels, c'est sa place) ; dans `pc2-magnetisme`, remplacer la question par « Que devient le vent solaire en arrivant sur la Terre ? » → « Il est dévié par le champ magnétique, qui en canalise une partie vers les pôles », et réduire le paragraphe du cours de `pc2-magnetisme` à cette seule fonction de bouclier, en renvoyant l'émission lumineuse à l'autre notion.
 
-### [GRAVE] Doublon franc — sensibilité et étalonnage, questions ET phrase de cours réemployées
+### [GRAVE] 🔧 Doublon franc — sensibilité et étalonnage, questions ET phrase de cours réemployées
 - **Où** : `physique-chimie-2.ts` — `pc2-mesure-precision` ; et `physique-chimie-3.ts` — `pc3-detection-mesure`. Cours : `cours/physique-chimie.ts`, `pc2-mesure-precision` § « Ce qu'on ne mesure pas directement » et `pc3-detection-mesure` § « Transformer une grandeur en signal ».
 - **Texte** : questions — (1) « Qu'est-ce que la sensibilité d'un instrument ? » → « La variation de sa réponse pour une variation de la grandeur mesurée » / « Elle ne se confond ni avec la résolution ni avec la limite de détection. » — (2) « Qu'est-ce que la sensibilité d'un capteur ? » → « La variation de son signal pour une variation donnée de la grandeur mesurée » / « Elle ne garantit ni la justesse ni la fidélité de la mesure. » Cours — (1) « La sensibilité d'un instrument est la variation de sa réponse pour une variation donnée de la grandeur mesurée : c'est la pente de sa courbe d'étalonnage. » — (2) « La sensibilité d'un capteur est la variation de son signal pour une variation donnée de la grandeur mesurée — sa pente. »
 - **Problème** : la même phrase, transposée. S'y ajoute le même doublon sur l'étalonnage : « Qu'est-ce que l'étalonnage d'un instrument ? » → « Sa comparaison à une référence connue pour corriger ses écarts » (pc2) contre « Qu'est-ce qu'un étalonnage périodique ? » → « Une vérification régulière par comparaison à une référence » (pc3). Deux notions distinctes enseignent donc deux fois la même chose avec les mêmes mots.
 - **Correction proposée** : `pc2-mesure-precision` traite de métrologie générale, `pc3-detection-mesure` des capteurs concrets. Retirer de `pc3` les deux questions sensibilité/étalonnage et la phrase de cours correspondante, et les remplacer par ce que `pc3` seul peut apporter : le temps de réponse d'un capteur et l'influence de l'émissivité sur un thermomètre infrarouge, tous deux présents dans son cours et non testés.
 
-### [GRAVE] Doublon interne — l'ozone troposphérique enseigné deux fois dans la même notion
+### [GRAVE] 🔧 Doublon interne — l'ozone troposphérique enseigné deux fois dans la même notion
 - **Où** : `physique-chimie-3.ts` — `pc3-chimie-environnement`, questions 1 et 4
 - **Texte** : Q1 « Qu'est-ce que l'ozone troposphérique ? » → « Un polluant secondaire formé sous l'effet du soleil sur d'autres polluants » / « Les pics surviennent par temps chaud et ensoleillé, en aval des zones urbaines. » — Q4 « Que produisent les composés organiques volatils en présence de soleil et d'oxydes d'azote ? » → « De l'ozone troposphérique » / « C'est pourquoi les pics d'ozone surviennent surtout par temps chaud et ensoleillé. »
 - **Problème** : même fait, et surtout la même phrase d'explication à quelques mots près, à quatre questions d'intervalle dans la même notion. Un apprenant voit deux fois la même carte.
 - **Correction proposée** : garder Q4 (qui nomme les précurseurs) et remplacer Q1 par le point vraiment contre-intuitif que le cours développe et qu'aucune question ne teste : « Pourquoi une baisse du trafic peut-elle faire monter l'ozone en centre-ville ? » → « Les oxydes d'azote y détruisent une partie de l'ozone ; moins d'oxydes d'azote, plus d'ozone résiduel ».
 
-### [GRAVE] Traînée hydrodynamique : phrase auto-contradictoire
+### [GRAVE] ✅ Traînée hydrodynamique : phrase auto-contradictoire
 - **Où** : `physique-chimie-3.ts` — `pc3-physique-sport`, question « Qu'est-ce que la traînée hydrodynamique ? »
 - **Texte** : « Elle est environ huit cents fois plus forte que celle de l'air à densité comparable. »
 - **Problème** : la phrase se détruit elle-même. Le facteur 800 **vient précisément** de ce que l'eau est ~800 fois plus dense que l'air ; « à densité comparable » annule la raison invoquée et la rend fausse. Le cours de la même notion le dit correctement : « L'eau étant environ huit cents fois plus dense que l'air, elle domine tout ». La question contredit donc son propre cours.
 - **Correction proposée** : « L'eau est environ huit cents fois plus dense que l'air : à vitesse égale, la traînée y est sans commune mesure. »
 
-### [GRAVE] Chaleur latente de vaporisation : rapport numérique faux
+### [GRAVE] ✅ Chaleur latente de vaporisation : rapport numérique faux
 - **Où** : `prisma/seed/culture-g/cours/physique-chimie.ts` — `pc2-thermodynamique`, § « Chauffer sans changer la température »
 - **Texte** : « Il faut environ sept fois plus d'énergie pour vaporiser un gramme d'eau bouillante que pour l'amener de zéro à cent degrés. »
 - **Problème** : 2 260 J/g pour la vaporisation contre 418 J/g pour le chauffage de 0 à 100 °C, soit un rapport de **5,4**, pas 7. La leçon du cahier `03.json` donne d'ailleurs les deux bons chiffres (334 kJ/kg et 2 260 kJ/kg), d'où l'on retrouve 5,4. Le chiffre est mémorisable et faux.
 - **Correction proposée** : « Il faut environ cinq fois et demie plus d'énergie pour vaporiser un gramme d'eau bouillante que pour l'amener de zéro à cent degrés. »
 
-### [GRAVE] Saut à la perche : progression des records surestimée du double
+### [GRAVE] ✅ Saut à la perche : progression des records surestimée du double
 - **Où** : `cours/physique-chimie.ts` — `pc3-physique-sport`, § « Stocker l'énergie, la conserver »
 - **Texte** : « Les records ont bondi d'environ un mètre cinquante en une décennie — la performance a changé de nature autant que de niveau. »
 - **Problème** : le record du monde passe de 4,80 m (1960, perche métallique) à 5,44 m (1970, fibre de verre), soit **environ 65 cm**, et 75 cm si l'on va jusqu'à 1972. « Un mètre cinquante » double la réalité. L'argument reste vrai avec le bon chiffre.
 - **Correction proposée** : « Les records ont gagné plus de soixante centimètres en une décennie — la performance a changé de nature autant que de niveau. »
 
-### [GRAVE] Radioprotection : le cours dit deux principes, la question en dit trois
+### [GRAVE] ✅ Radioprotection : le cours dit deux principes, la question en dit trois
 - **Où** : question dans `physique-chimie-3.ts` — `pc3-nucleaire-medecine` ; cours dans `cours/physique-chimie.ts` — `pc3-nucleaire-medecine`, § « Limiter l'exposition »
 - **Texte** : question — « Qu'est-ce que la radioprotection ? » / explication « Elle repose sur trois principes : justification, optimisation et limitation. » Cours — « La radioprotection rassemble les mesures limitant l'exposition aux rayonnements ionisants. **Elle repose sur deux principes clairs.** » puis justification et ALARA.
 - **Problème** : contradiction directe entre le cours et la question de la même notion. C'est la question qui a raison : le cadre réglementaire tient en trois principes, et le cours omet la limitation des doses (qui, elle, ne s'applique pas au patient — d'où probablement la confusion).
 - **Correction proposée** : dans le cours, « Elle repose sur trois principes. » puis, après ALARA, ajouter : « Le principe de limitation, enfin, fixe des doses annuelles à ne pas dépasser ; il s'applique aux travailleurs et au public, jamais au patient, pour lequel c'est la justification qui décide. »
 
-### [GRAVE] Transparence du verre : la cause donnée est fausse
+### [GRAVE] 🔧 Transparence du verre : la cause donnée est fausse
 - **Où** : `physique-chimie.ts` — `pc-materiaux`, question « Pourquoi le verre est-il transparent ? » ; et `cours/physique-chimie.ts` — `pc-materiaux`, § « Matériaux à propriétés singulières »
 - **Texte** : réponse retenue — « Sa structure désordonnée n'absorbe pas la lumière visible ». Cours — « Le verre est transparent parce que sa structure désordonnée ne possède pas de niveaux d'énergie absorbant le visible ».
 - **Problème** : le désordre n'est pas la cause. Le verre est transparent parce que sa bande interdite est trop large pour qu'un photon visible soit absorbé — et le quartz **cristallin**, parfaitement ordonné, est tout aussi transparent, ce qui suffit à réfuter l'explication. Le désordre explique seulement l'absence de diffusion aux joints de grains. La bonne raison figure d'ailleurs dans l'explication de la question elle-même (« faute de niveaux d'énergie disponibles »), qui contredit donc la proposition qu'elle est censée justifier.
@@ -506,7 +506,7 @@ Le cahier d'origine est la partie la plus solide : les 57 questions de `heritage
 
 ## Constats ajoutés — leçon 16 « Grandes expériences et savants de l'histoire des sciences »
 
-### [GRAVE] Doublon franc — « Que dit le principe d'Archimède ? » posé deux fois dans le cahier
+### [GRAVE] 🔧 Doublon franc — « Que dit le principe d'Archimède ? » posé deux fois dans le cahier
 - **Où** : `heritage/culture-g/data/lecons/physique-chimie/07.json:123` (quiz 2) et `16.json:95` (quiz 1)
 - **Texte** : (1) « **Que dit le principe d'Archimède ?** » → « Un corps plongé dans un fluide subit une poussée verticale vers le haut égale au poids du fluide déplacé » ; explication « Le principe d'Archimède, énoncé au IIIe siècle avant notre ère, affirme que tout corps plongé dans un fluide subit une force verticale dirigée vers le haut, dont la valeur égale le poids du volume de fluide déplacé. » — (2) « **Que dit le théorème d'Archimède ?** » → « Tout corps plongé dans un fluide subit une force verticale dirigée de bas en haut, égale au poids du fluide déplacé » ; explication « Le théorème énonce que tout corps plongé dans un fluide au repos subit une force verticale dirigée de bas en haut, dont l'intensité est égale au poids du fluide déplacé. »
 - **Problème** : la même question, la même réponse et la même explication, à « principe » contre « théorème » et « vers le haut » contre « de bas en haut » près. Les deux ont même un distracteur jumeau sur la perte de poids (« Un corps immergé perd la moitié de son poids » / « Tout corps plongé dans un fluide perd la totalité de son poids »). C'est le même type de doublon que ceux déjà relevés dans le seed pour E = mc² et la période radioactive, et il échappera au validateur pour la même raison : un synonyme dans l'énoncé. Les sections de cours doublonnent aussi, mot pour mot sur la définition — mais elles, au moins, divergent ensuite (la 07 enchaîne sur le navire, le sous-marin et la montgolfière, la 16 sur Hiéron, la couronne et Eurêka).
@@ -540,7 +540,7 @@ Le cahier d'origine est la partie la plus solide : les 57 questions de `heritage
 
 ## Constats ajoutés — leçon 17 « Lasers, fibres optiques et technologies de la lumière »
 
-### [GRAVE] Doublon franc — la fibre optique et la réflexion totale, la même question trois fois
+### [GRAVE] 🔧 Doublon franc — la fibre optique et la réflexion totale, la même question trois fois
 - **Où** : `heritage/culture-g/data/lecons/physique-chimie/02.json` (quiz 3) ; `17.json:80` (quiz 1) ; et `prisma/seed/culture-g/physique-chimie-2.ts:184` — `pc2-optique`
 - **Texte** : (1) leçon 02 — « Sur quel phénomène optique repose le fonctionnement des fibres optiques ? » → « La réflexion totale de la lumière au-delà d'un angle limite » — (2) leçon 17 — « Sur quel phénomène repose le guidage de la lumière dans une fibre optique ? » → « La réflexion totale interne à l'interface entre le cœur et la gaine » — (3) seed — « Qu'est-ce que la fibre optique exploite-t-elle ? » → « La réflexion totale interne ».
 - **Problème** : trois fois la même question, la même réponse, et jusqu'aux mêmes distracteurs (diffusion/diffraction, absorption sélective) dans deux des trois. Les deux premières sont dans **le même corpus**, à quinze leçons d'écart : ce n'est plus une reprise d'un corpus à l'autre, c'est un doublon interne. Les deux sections de cours redisent elles aussi la même chose — leçon 02 : « Lorsque la lumière passe d'un milieu très réfringent vers un milieu qui l'est moins, au-delà d'un certain angle limite elle ne sort plus du tout : c'est la réflexion totale, utilisée dans les fibres optiques » ; leçon 17 : « il existe un angle limite au-delà duquel la réfraction devient impossible : le rayon […] se trouve intégralement renvoyé à l'intérieur. On parle de réflexion totale interne […] C'est sur ce phénomène […] que repose entièrement la fibre optique ». (La troisième question a par ailleurs déjà été signalée plus haut pour son énoncé mal construit.)
@@ -612,7 +612,7 @@ Le cahier d'origine est la partie la plus solide : les 57 questions de `heritage
 
 ## Ce que la passe 2 a ajouté — `cours/physique-chimie.ts`, notions `pc-*` et `pc2-atome-structure` à `pc2-fluides`
 
-### [GRAVE] La matière comprimée d'un être humain : « un grain de sel » est faux de cinq ordres de grandeur
+### [GRAVE] ✅ La matière comprimée d'un être humain : « un grain de sel » est faux de cinq ordres de grandeur
 - **Où** : `prisma/seed/culture-g/cours/physique-chimie.ts:101` — `pc2-atome-structure`, § « Presque entièrement vide »
 - **Texte** : « Si l'on comprimait tous les noyaux d'un être humain en supprimant cet espace, il en resterait **un volume comparable à celui d'un grain de sel** — ce qui est précisément l'état d'une étoile à neutrons. »
 - **Problème** : le calcul est immédiat et ne colle pas. La densité de la matière nucléaire vaut environ 2,3 × 10¹⁷ kg/m³ ; un corps de soixante-dix kilogrammes y occuperait 3 × 10⁻¹⁶ m³, soit un cube de **sept micromètres de côté** — invisible à l'œil nu, de la taille d'un globule rouge. Un grain de sel de table mesure environ trois dixièmes de millimètre, donc un volume près de **cent mille fois** supérieur. L'affirmation exacte, qui est celle qui circule et dont celle-ci est manifestement dérivée, porte sur **l'humanité entière** : huit milliards de corps comprimés de la sorte tiendraient dans un morceau de sucre, soit deux à trois centimètres cubes — le calcul le confirme. Le cours a gardé l'objet de comparaison et changé le sujet, ce qui détruit le rapport. C'est d'autant plus dommage que le paragraphe est par ailleurs le meilleur du cours et que son autre image, « un pois au centre d'un stade » pour le noyau dans l'atome, est juste.
@@ -702,7 +702,7 @@ Il en résulte que le problème est plus circonscrit que je ne l'ai écrit : c'e
 
 ## Ce que la passe 2 a ajouté — `physique-chimie-2.ts`
 
-### [GRAVE] L'astuce d'une notion donne mot pour mot la réponse d'une de ses propres questions
+### [GRAVE] 🔧 L'astuce d'une notion donne mot pour mot la réponse d'une de ses propres questions
 
 - **Où** : `prisma/seed/culture-g/physique-chimie-2.ts` — le cinquième argument de `notion()` est le champ `tip` (l'« astuce » affichée à l'apprenant, cf. `prisma/seed/culture-g/commun.ts:63` et `prisma/schema.prisma:74`). Onze des vingt notions du fichier ont une astuce qui recoupe une de leurs propres questions ; **huit** la donnent littéralement.
 - **Texte** (astuce → question de la même notion dont elle livre la réponse) :
@@ -747,7 +747,7 @@ Il en résulte que le problème est plus circonscrit que je ne l'ai écrit : c'e
 
 ## Ce que la passe 2 a ajouté — contrôle transversal des astuces (`physique-chimie.ts`, `physique-chimie-3.ts`)
 
-### [GRAVE] Le défaut des astuces est systémique : vingt notions sur cinquante-deux, et une astuce qui pousse vers le mauvais choix
+### [GRAVE] 🔧 Le défaut des astuces est systémique : vingt notions sur cinquante-deux, et une astuce qui pousse vers le mauvais choix
 - **Où** : `prisma/seed/culture-g/physique-chimie.ts` et `prisma/seed/culture-g/physique-chimie-3.ts` — mêmes causes que dans `physique-chimie-2.ts` (constat précédent). J'ai contrôlé les cinquante-deux astuces du domaine contre les questions de leur propre notion.
 - **Texte** — les six autres cas littéraux de `physique-chimie.ts` :
   - `pc-etats-matiere:34` — astuce « Pendant un changement d'état, **la température ne bouge pas** : toute l'énergie sert à casser les liaisons. » → Q3 « Que se passe-t-il pour la température pendant un changement d'état pur ? » → « **Elle reste constante** », explication « L'énergie fournie sert à **rompre les liaisons** entre molécules ». *L'astuce donne la réponse ET son explication.*
@@ -778,7 +778,7 @@ Il en résulte que le problème est plus circonscrit que je ne l'ai écrit : c'e
   - `pc3-chimie-eau` : « L'eau est le seul corps courant dont le solide flotte sur le liquide — et la vie en dépend. »
   - `pc3-astronomie-observation` : « Regarder loin, c'est regarder tôt : on ne voit jamais un astre tel qu'il est. »
 
-### [GRAVE] Une astuce qui oriente vers un distracteur — `pc-lumiere-ondes`
+### [GRAVE] 🔧 Une astuce qui oriente vers un distracteur — `pc-lumiere-ondes`
 - **Où** : `prisma/seed/culture-g/physique-chimie.ts:86` (astuce) et `:90` (question 2) — notion `pc-lumiere-ondes`
 - **Texte** : astuce — « Le visible n'est qu'une mince tranche du spectre électromagnétique, **entre l'infrarouge et l'ultraviolet**. » ; question 2 — « Quelles couleurs bornent le spectre visible ? » → bonne réponse « Le violet et le rouge » ; distracteur — « **L'ultraviolet et l'infrarouge** ».
 - **Problème** : le cas est plus grave que les précédents, parce que l'astuce ne se contente pas de donner une réponse — **elle en désigne une fausse**. L'apprenant qui vient de lire « le visible est entre l'infrarouge et l'ultraviolet » et à qui l'on demande aussitôt ce qui *borne* le spectre visible reconnaît sa propre phrase dans le distracteur et le choisit. La réponse attendue tient à un seul mot de l'énoncé — « couleurs » —, et ni l'infrarouge ni l'ultraviolet n'en sont ; mais l'astuce a été rédigée pour être retenue, et c'est elle qui sera retenue. Le corpus fabrique ici l'erreur qu'il prétend corriger : c'est le cas le plus nuisible de la série, puisqu'une question dont l'astuce donne la réponse ne fait rien apprendre, tandis qu'une question dont l'astuce donne une réponse fausse fait apprendre une erreur.
@@ -810,7 +810,7 @@ Il en résulte que le problème est plus circonscrit que je ne l'ai écrit : c'e
 
 Le validateur, lui, « compare l'énoncé normalisé de toutes les matières, et refuse le seed au premier jumeau » (`commun.ts:33`) — mais il compare des **énoncés**, jamais des réponses, et il ne sait rien de la fusion. Deux questions dont les énoncés diffèrent et dont la réponse est la même phrase passent donc sans encombre, et se retrouvent **dans le même module, devant le même apprenant**. Les constats ci-dessous ne sont pas des recouvrements entre deux corpus voisins comme ceux relevés en passe 1 : ce sont des questions posées deux ou trois fois de suite dans une seule session de révision.
 
-### [GRAVE] `cg-physique-chimie-05` : la demi-vie et le rayonnement gamma demandés deux fois dans le même module
+### [GRAVE] 🔧 `cg-physique-chimie-05` : la demi-vie et le rayonnement gamma demandés deux fois dans le même module
 - **Où** : `heritage/culture-g/data/lecons/physique-chimie/05.json` (quiz 1 et quiz 2) et `prisma/seed/culture-g/physique-chimie.ts:298` et `:302` — `pc-nucleaire-radioactivite`, questions 3 et 5. Les deux jeux fusionnent dans `cg-physique-chimie-05`.
 - **Texte** :
   - leçon 05, quiz 1 — « Que représente la demi-vie d'un isotope radioactif ? » → « **La durée au bout de laquelle la moitié des noyaux se sont désintégrés** » ; notion, Q3 — « Qu'est-ce qu'une période radioactive ou demi-vie ? » → « **La durée au bout de laquelle la moitié des noyaux se sont désintégrés** ». *La chaîne de la bonne réponse est identique caractère pour caractère.*
@@ -818,19 +818,19 @@ Le validateur, lui, « compare l'énoncé normalisé de toutes les matières, et
 - **Problème** : dans un seul module, l'apprenant répond deux fois à la même chose, avec la même formule, à quelques cartes d'intervalle. Le cas de la demi-vie est le plus lourd du domaine : la passe 1 avait déjà signalé une **troisième** occurrence dans `pc2-energie-nucleaire-fonctionnement` (« Qu'est-ce que la période radioactive d'un déchet ? » → « Le temps au bout duquel la moitié des noyaux se sont désintégrés »). Le même fait est donc enseigné trois fois dans le domaine, dont **deux fois dans le même module**. Aucun mécanisme du dépôt ne peut l'attraper : le validateur compare les énoncés, qui diffèrent, et la fusion est une table figée à la main qui ne vérifie rien du contenu versé.
 - **Correction proposée** : `cg-physique-chimie-05` doit garder les questions de sa leçon, qui sont les plus travaillées. Dans `pc-nucleaire-radioactivite`, supprimer Q3 et Q5, et les remplacer par deux points que ni la leçon 05 ni le reste du domaine ne testent, et que la leçon développe pourtant : « Pourquoi la datation au carbone 14 ne s'applique-t-elle pas au-delà d'environ cinquante mille ans ? » → « Il reste alors trop peu de carbone 14 pour être mesuré » ; et « Qu'est-ce qui distingue la contamination de l'irradiation ? » → « L'irradiation est une exposition à distance, la contamination un contact avec la matière radioactive elle-même » — distinction capitale, qu'aucune question du domaine ne pose. Et appliquer la correction déjà proposée en passe 1 pour la troisième occurrence de `pc2-energie-nucleaire-fonctionnement`.
 
-### [GRAVE] `cg-physique-chimie-04` : le mélange eau de Javel + acide, deux fois dans le même module
+### [GRAVE] 🔧 `cg-physique-chimie-04` : le mélange eau de Javel + acide, deux fois dans le même module
 - **Où** : `heritage/culture-g/data/lecons/physique-chimie/04.json` (quiz 5) et `physique-chimie.ts:334` — `pc-chimie-quotidien`, question 8. Fusionnés dans `cg-physique-chimie-04`.
 - **Texte** : leçon — « Pourquoi ne doit-on jamais mélanger l'eau de Javel avec un détartrant acide ? » → « Parce que la réaction dégage du **dichlore, un gaz toxique** » ; notion — « Pourquoi ne faut-il jamais mélanger eau de Javel et produit acide ? » → « Le mélange dégage du **chlore gazeux toxique** ».
 - **Problème** : même question, même réponse, à la substitution de « dichlore » par « chlore gazeux » près — ce qui, soit dit en passant, est la seule chose que l'apprenant risque de retenir de la répétition, et c'est une hésitation de vocabulaire, pas une connaissance. Les deux questions arrivent dans le même module.
 - **Correction proposée** : garder celle de la leçon, qui nomme correctement le dichlore. Remplacer celle de la notion par le second danger que son explication mentionne sans le tester : « Que produit le mélange d'eau de Javel et d'ammoniaque ? » → « Des chloramines, irritantes pour les voies respiratoires ».
 
-### [GRAVE] `cg-physique-chimie-03` : la température constante pendant un changement d'état, trois fois dans le même module — dont l'astuce
+### [GRAVE] 🔧 `cg-physique-chimie-03` : la température constante pendant un changement d'état, trois fois dans le même module — dont l'astuce
 - **Où** : `heritage/.../lecons/physique-chimie/03.json` (quiz 2) ; `physique-chimie.ts:34` (astuce de `pc-etats-matiere`) et `:40` (question 3). Tous trois dans `cg-physique-chimie-03`.
 - **Texte** : astuce — « Pendant un changement d'état, **la température ne bouge pas** : toute l'énergie sert à casser les liaisons. » ; notion, Q3 — « Que se passe-t-il pour la température pendant un changement d'état pur ? » → « **Elle reste constante** » ; leçon 03, quiz 2 — « Pendant la fusion de la glace pure sous pression atmosphérique, que fait la température du mélange ? » → « **Elle reste constante à 0 degré Celsius** ».
 - **Problème** : c'est le cumul des deux défauts de ce rapport. L'apprenant lit le fait dans l'astuce affichée en tête du module, puis on le lui demande deux fois. La seule des trois occurrences qui apporte quelque chose est celle de la leçon, qui ajoute la valeur numérique.
 - **Correction proposée** : supprimer Q3 de `pc-etats-matiere` — elle est déjà couverte deux fois — et réécrire l'astuce comme proposé plus haut. La question libérée peut porter sur la surfusion, que le cours de la leçon 03 décrit et qu'aucune question ne teste : « Qu'est-ce que la surfusion ? » → « L'état d'un liquide refroidi sous son point de solidification sans avoir gelé ».
 
-### [GRAVE] `cg-physique-chimie-03` : les deux textes qui se contredisent sur l'altitude tombent dans le même module
+### [GRAVE] 🔧 `cg-physique-chimie-03` : les deux textes qui se contredisent sur l'altitude tombent dans le même module
 - **Où** : `heritage/.../lecons/physique-chimie/03.json` (quiz 3) et `physique-chimie.ts:43` — `pc-etats-matiere`, explication de la question 4.
 - **Texte** : leçon — « Pourquoi l'eau bout-elle vers **85 degrés** Celsius **en haute montagne** ? » ; notion — « En altitude, la pression plus faible abaisse ce point : environ **quatre-vingt-cinq degrés à trois mille mètres**. »
 - **Problème** : la passe 1 avait relevé que le seed est seul à situer les 85 °C à 3 000 m (la valeur correcte y est d'environ 90 °C ; 85 °C correspond à 4 500–4 800 m). Ce que la passe 1 ne pouvait pas voir, c'est que **les deux textes atterrissent dans le même module** : l'apprenant y lit « 85 °C en haute montagne » sans altitude, puis « 85 °C à trois mille mètres » — et c'est la seconde, la seule chiffrée, qu'il retiendra. La fusion transforme une incohérence entre corpus en une erreur enseignée. Le constat GRAVE de la passe 1 doit donc être requalifié en priorité de correction.
@@ -845,7 +845,7 @@ Le validateur, lui, « compare l'énoncé normalisé de toutes les matières, et
 
 > ÉTAT (passe 2) : contrôle des fusions fait pour les modules 01, 03, 04, 05. Reste : modules 08, 13, c02, c03, puis `heritage/.../physique-chimie.json` et leçons 01 à 03 en relecture complète.
 
-### [GRAVE] La définition de la demi-vie est posée **quatre fois** dans le domaine, trois fois avec la même chaîne de caractères
+### [GRAVE] 🔧 La définition de la demi-vie est posée **quatre fois** dans le domaine, trois fois avec la même chaîne de caractères
 - **Où** : quatre emplacements, trois corpus.
   1. `heritage/culture-g/data/lecons/physique-chimie/05.json`, quiz 1 — « Que représente la demi-vie d'un isotope radioactif ? »
   2. `heritage/culture-g/data/physique-chimie.json`, cours « L'atome, les éléments et les réactions chimiques », quiz 4 — « Qu'appelle-t-on demi-vie d'un isotope radioactif ? »
@@ -855,7 +855,7 @@ Le validateur, lui, « compare l'énoncé normalisé de toutes les matières, et
 - **Problème** : la passe 1 avait vu deux de ces quatre occurrences et les avait signalées comme doublon franc. Le décompte réel est le double, et la répartition est le vrai problème : après fusion, **(1) et (3) sont dans le module `cg-physique-chimie-05`** et **(2) est dans `cg-physique-chimie-c02`**, si bien qu'un apprenant qui révise les deux modules de chimie nucléaire du catalogue répond **trois fois** à la même définition, dont deux fois dans la même session. C'est le doublon le plus répandu du domaine, et le plus invisible : aucun des quatre énoncés n'a plus de trois mots en commun avec un autre, donc le validateur d'énoncés normalisés (`commun.ts:33`) ne peut rien voir, alors qu'un simple contrôle sur la **chaîne de la bonne réponse** les aurait tous les trois désignés du premier coup.
 - **Correction proposée** : deux mesures. (a) Ne garder qu'une occurrence par module : celle de la leçon 05 dans `cg-physique-chimie-05` (supprimer `pc-nucleaire-radioactivite` Q3), celle du cours c02 dans `cg-physique-chimie-c02`, et remplacer celle de `pc2-energie-nucleaire-fonctionnement` comme déjà proposé en passe 1. (b) **Recommandation de méthode** : ajouter au validateur une comparaison des bonnes réponses normalisées, en plus de celle des énoncés. Trois des quatre occurrences relevées ici, et la moitié des doublons de ce rapport, seraient tombées d'elles-mêmes.
 
-### [GRAVE] `cg-physique-chimie-c03` : Ørsted et l'effet Joule demandés deux fois chacun dans le même module
+### [GRAVE] 🔧 `cg-physique-chimie-c03` : Ørsted et l'effet Joule demandés deux fois chacun dans le même module
 - **Où** : `heritage/culture-g/data/physique-chimie.json`, cours « Électricité, magnétisme et ondes », quiz 2 et 3 ; et `prisma/seed/culture-g/physique-chimie.ts:72` et `:76` — `pc-electricite`, questions 6 et 8. Fusionnés dans `cg-physique-chimie-c03`.
 - **Texte** :
   - cours c03, quiz 3 — « **Quel savant danois a découvert en 1820 qu'un courant électrique dévie une aiguille aimantée ?** » → « **Hans Christian Ørsted** » ; notion, Q6 — « **Qui découvre en 1820 qu'un courant dévie une aiguille aimantée ?** » → « **Hans Christian Ørsted** ». *Les deux énoncés sont la même phrase à l'incise « savant danois » près — laquelle donne d'ailleurs la réponse, puisque Ørsted est le seul Danois des quatre propositions.*
@@ -863,7 +863,7 @@ Le validateur, lui, « compare l'énoncé normalisé de toutes les matières, et
 - **Problème** : le premier cas est le doublon le plus franc du domaine — il ne manque qu'un synonyme pour que les deux énoncés soient identiques —, et il passe le validateur parce que « Quel savant danois a découvert » et « Qui découvre » ne se normalisent pas de la même façon. Le second est un miroir parfait : la question du cours a pour réponse ce que la question de la notion a pour énoncé, et réciproquement. Un apprenant qui a répondu à l'une ne peut pas se tromper à l'autre.
 - **Correction proposée** : garder les deux questions du cours hérité, qui ouvrent le module. Dans `pc-electricite`, remplacer Q6 par ce que l'expérience d'Ørsted a réellement changé et que rien ne teste : « Que change la découverte d'Ørsted en 1820 ? » → « Électricité et magnétisme cessent d'être deux domaines séparés » ; et remplacer Q8 par la conséquence pratique, absente du module : « Pourquoi une multiprise surchargée chauffe-t-elle ? » → « La puissance dissipée par effet Joule croît avec le carré de l'intensité ».
 
-### [GRAVE] `cg-physique-chimie-13` : trois des cinq questions de la leçon sont reposées par la notion versée
+### [GRAVE] 🔧 `cg-physique-chimie-13` : trois des cinq questions de la leçon sont reposées par la notion versée
 - **Où** : `heritage/.../lecons/physique-chimie/13.json` (quiz 1, 3 et 5) et `prisma/seed/culture-g/physique-chimie-2.ts:92`, `:94`, `:104` — `pc2-quantique`, questions 1, 2 et 7. Fusionnés dans `cg-physique-chimie-13`.
 - **Texte** :
   - leçon, quiz 1 — « Quelle idée **Max Planck** introduit-il **en 1900** pour expliquer le rayonnement des corps chauds ? » → « Que **l'énergie ne s'échange que par quantités discrètes** » ; notion, Q1 — « Qu'est-ce que la quantification de l'énergie ? » → « **L'énergie ne peut prendre que certaines valeurs discrètes** », explication « **Max Planck l'introduit en 1900** pour expliquer le rayonnement du corps noir. » *L'explication de la notion contient la réponse de la question de la leçon, et sa réponse est la réponse de la leçon reformulée.*
@@ -872,7 +872,7 @@ Le validateur, lui, « compare l'énoncé normalisé de toutes les matières, et
 - **Problème** : trois des cinq questions du quiz de la leçon 13 sont reposées par les questions versées dans le même module — soit **60 % du quiz d'origine neutralisé**. C'est le taux le plus élevé que j'aie relevé. Le constat s'articule avec celui de la passe 1 sur cette même notion (« quatre des dix questions de `pc2-quantique` ne trouvent leur réponse nulle part dans le cours ») : les dix questions versées se répartissent en trois qui doublonnent et quatre qui restent sans support, ce qui ne laisse que trois questions utiles sur dix. `pc2-quantique` est la notion à reprendre en priorité du domaine.
 - **Correction proposée** : supprimer Q1, Q2 et Q7 de `pc2-quantique` — la leçon 13 les couvre mieux, en datant et en nommant. Les remplacer par trois questions dont la leçon fournit la matière et qu'aucune des deux ne pose : « Pourquoi l'intrication ne permet-elle pas de communiquer plus vite que la lumière ? » → « Le résultat de chaque mesure reste aléatoire : il faut un canal classique pour l'exploiter » ; « Qu'est-ce qu'un état propre ? » → « Un état pour lequel la mesure d'une grandeur donne un résultat certain » ; et « Que reproche Einstein à la mécanique quantique ? » → « Son caractère probabiliste, qu'il tenait pour le signe d'une théorie incomplète ». Et compléter le cours de la leçon 13 pour les quatre questions orphelines déjà signalées.
 
-### [GRAVE] `cg-physique-chimie-08` : le carbone tétravalent, deux fois dans le module et une troisième dans l'astuce
+### [GRAVE] 🔧 `cg-physique-chimie-08` : le carbone tétravalent, deux fois dans le module et une troisième dans l'astuce
 - **Où** : `heritage/.../lecons/physique-chimie/08.json` (quiz 1) ; `physique-chimie-2.ts:272` (astuce de `pc2-chimie-organique`) et `:274` (question 1). Fusionnés dans `cg-physique-chimie-08`.
 - **Texte** : astuce — « La chimie organique doit son unité au carbone, capable de former **quatre liaisons stables**. » ; notion, Q1 — « Pourquoi le carbone est-il au centre de la chimie du vivant ? » → « Il forme **quatre liaisons stables et de longues chaînes** » ; leçon 08, quiz 1 — « Pourquoi le carbone est-il l'atome central de la chimie organique ? » → « Parce qu'il forme **quatre liaisons covalentes et peut s'enchaîner en chaînes et en cycles** ».
 - **Problème** : les deux énoncés posent la même question dans les mêmes termes (« pourquoi le carbone est-il au centre / l'atome central de la chimie organique / du vivant »), et l'astuce affichée en tête du module donne la réponse aux deux. Trois textes, un seul fait.
@@ -893,7 +893,7 @@ Ils ne tombent pas dans un même module, mais les énoncés sont à ce point sup
 
 La passe 1 avait conclu que ce fichier était « la partie la plus solide » du domaine. **Sur le fond, je le confirme sans réserve** : j'ai relu les 57 explications une à une et je n'y ai trouvé aucune erreur de fait. Ce que la passe 1 n'a pas vu, c'est ce qui n'est visible qu'en confrontant ce fichier au reste du domaine.
 
-### [GRAVE] « Que dit le principe d'Archimède ? » : troisième occurrence, et cette fois l'énoncé est identique au mot près
+### [GRAVE] 🔧 « Que dit le principe d'Archimède ? » : troisième occurrence, et cette fois l'énoncé est identique au mot près
 - **Où** : `heritage/culture-g/data/physique-chimie.json:379` (question 31) ; `heritage/.../lecons/physique-chimie/07.json:123` (quiz 2) ; `16.json:95` (quiz 1).
 - **Texte** : le cahier d'origine et la leçon 07 posent **la même phrase, caractère pour caractère** : « **Que dit le principe d'Archimède ?** ». La leçon 16 pose « Que dit le théorème d'Archimède ? ». Les trois réponses disent la même chose : cahier — « Tout corps plongé dans un fluide subit une poussée verticale égale au poids du fluide déplacé » ; leçon 07 — « Un corps plongé dans un fluide subit une poussée verticale vers le haut égale au poids du fluide déplacé » ; leçon 16 — « Tout corps plongé dans un fluide subit une force verticale dirigée de bas en haut, égale au poids du fluide déplacé ». Les trois ont même un distracteur jumeau sur la perte de poids.
 - **Problème** : la passe 1 avait relevé deux de ces trois occurrences et classé le constat GRAVE ; il y en a une de plus, et c'est la pire, puisque son énoncé n'a pas même un synonyme pour la distinguer de celui de la leçon 07. Deux questions **rigoureusement identiques** cohabitent donc dans le corpus hérité — ce qui montre au passage que ce corpus n'est pas soumis au contrôle d'énoncés que `commun.ts:33` décrit pour le seed. Une quatrième formulation existe par ailleurs dans le seed (`physique-chimie-2.ts:248`, `pc2-fluides` : « De quoi dépend la poussée subie par un corps immergé ? »), celle-là légitime puisqu'elle porte sur le volume déplacé et non sur l'énoncé du principe.
@@ -925,7 +925,7 @@ La passe 1 avait conclu que ce fichier était « la partie la plus solide » du 
 
 ## Ce que la passe 2 a ajouté — leçons 01, 02 et 03
 
-### [GRAVE] Le cahier d'origine se double lui-même : quatre questions du fichier de base sont reposées par les quiz des leçons
+### [GRAVE] 🔧 Le cahier d'origine se double lui-même : quatre questions du fichier de base sont reposées par les quiz des leçons
 - **Où** : `heritage/culture-g/data/physique-chimie.json` (les 57 questions de base) face aux quiz des leçons du même corpus.
 - **Texte** :
   - **La synthèse additive** — q20 « Quelles sont les **trois couleurs primaires de la synthèse additive** de la lumière ? » → « **Rouge, vert, bleu** » ; leçon 02, quiz 4 — « **En synthèse additive** des lumières, quelles sont les **trois couleurs primaires** ? » → « **Rouge, vert et bleu** ». *Les deux énoncés sont la même phrase, l'ordre des membres inversé.*
@@ -963,7 +963,7 @@ J'ai recontrôlé les valeurs numériques des trois leçons, en particulier cell
 
 La consigne demande de vérifier ce dont on n'est pas certain. J'ai repris sur le web les constats de passe 1 dont la justification reposait sur un chiffre de mémoire. **Trois des corrections proposées par mes prédécesseurs sont elles-mêmes fausses ou approximatives.** Elles sont listées d'abord, car une correction fausse appliquée telle quelle est pire que le défaut qu'elle corrige.
 
-### [GRAVE] Rectification d'une correction de passe 1 — les hémisphères de Magdebourg : trente chevaux à Ratisbonne, seize à Magdebourg
+### [GRAVE] ✅ Rectification d'une correction de passe 1 — les hémisphères de Magdebourg : trente chevaux à Ratisbonne, seize à Magdebourg
 - **Où** : constat MOYEN « Les hémisphères de Magdebourg n'ont pas été tirés à Magdebourg », plus haut dans ce rapport, portant sur `heritage/.../lecons/physique-chimie/07.json:10`.
 - **Le constat est juste** : la démonstration fameuse a bien eu lieu le **8 mai 1654 à Ratisbonne** (Regensburg), devant la Diète d'Empire et l'empereur Ferdinand III, et non à Magdebourg. Sur ce point la leçon 07 est bien fautive et doit être corrigée.
 - **Mais la correction proposée l'est aussi** : elle écrit « … devant la Diète d'Empire réunie à Ratisbonne : […] et **seize chevaux** attelés de part et d'autre ne parviennent pas à les séparer. » Or les seize chevaux (deux attelages de huit) sont ceux de la **reprise de 1656, à Magdebourg**. À Ratisbonne en 1654, l'expérience a été menée avec **trente chevaux, en deux attelages de quinze**. Une troisième démonstration eut lieu à Berlin, en 1663, avec vingt-quatre chevaux devant l'Électeur de Brandebourg. La correction proposée corrige donc le lieu en introduisant une erreur sur le nombre : elle prend les chevaux d'une démonstration et les attelle à une autre — exactement la faute qu'elle reproche à la leçon, qui prenait le lieu d'une pour l'autre.
@@ -1009,3 +1009,5 @@ La passe 1 avait fait son travail : elle a trouvé les erreurs de fait (l'ébull
 **Ce que la passe 2 confirme comme sain.** Les trois leçons 01 à 03 et les 57 questions du cahier de base sont, sur le fond, sans erreur : j'y ai recontrôlé une quarantaine de valeurs (G, le point triple, les chaleurs latentes, les masses volumiques de l'eau et de la glace, les températures de changement d'état de l'éthanol, du fer et du dioxygène, les indices de réfraction, le nombre d'Avogadro, la constante des gaz parfaits, les 76 cm de Torricelli, les 50 Hz du réseau français) sans en prendre une seule en défaut. Côté seed, `physique-chimie-2.ts` est le fichier le mieux tenu des trois : les vingt notions y sont d'un niveau homogène, les explications enseignent réellement quelque chose de plus que la réponse, et deux d'entre elles — `pc2-mesure-precision` et `pc2-air-atmosphere` — sont ce que le domaine fait de mieux. Les défauts que je relève y sont structurels (astuces, doublons de module) et non factuels : à une exception près, le contenu est juste.
 
 > ÉTAT FINAL : **passe 1 et passe 2 terminées sur l'ensemble du domaine.** Fichiers lus deux fois : `prisma/seed/culture-g/physique-chimie{,-2,-3}.ts`, `prisma/seed/culture-g/cours/physique-chimie.ts`, `heritage/culture-g/data/physique-chimie.json`, `heritage/culture-g/data/lecons/physique-chimie/01.json` à `17.json`. Lus en complément pour la passe 2 : `prisma/seed/culture-g/cours/fusions.ts` et `prisma/seed/culture-g/commun.ts`. Constats vérifiés sur le web : hémisphères de Magdebourg, records du saut à la perche, marnage de la baie de Fundy, rampe de Hatnoub, registre CAS. Aucun fichier du dépôt n'a été modifié en dehors de ce rapport.
+
+> ÉTAT (vérification des 29 [GRAVE], relecteur 4) — **contrairement à ce que le journal de session précédent affirmait, la majorité des [GRAVE] n'étaient pas corrigés.** Les 29 constats [GRAVE] de ce rapport ont été relus un par un contre l'état actuel des fichiers : 7 étaient déjà corrigés (✅, vérifiés sans y toucher), 22 ne l'étaient pas et ont été corrigés maintenant (🔧) — dont les trois doublons de fusion signalés comme subsistants (Ørsted/effet Joule dans `cg-physique-chimie-c03`, la demi-vie posée quatre fois, l'eau de Javel dans `cg-physique-chimie-04`), l'ébullition en haute montagne dans la leçon 03 (le seed lui-même était déjà juste, mais le module fusionné `cg-physique-chimie-03` contredisait encore l'altitude), et l'ensemble des vingt astuces qui donnaient la réponse d'une question de leur propre notion. Aucun des 29 n'a dû être écarté (⏭️) : toutes les corrections proposées entraient dans le périmètre `prisma/seed/culture-g/physique-chimie*.ts`, `cours/physique-chimie.ts`, `heritage/culture-g/data/physique-chimie.json` et `heritage/culture-g/data/lecons/physique-chimie/*.json`. `npx tsc --noEmit` et le parsing JSON des fichiers touchés restent propres après ces corrections.

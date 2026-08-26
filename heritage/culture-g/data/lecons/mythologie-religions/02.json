@@ -131,7 +131,7 @@
    "explication": "Yggdrasil est le frêne cosmique dont les racines et les branches relient les neuf mondes des récits scandinaves. Une source où siègent les Nornes se trouve à son pied, tandis qu'un dragon en ronge les racines. Gjallarhorn est au contraire le cor de Heimdall, dont l'appel annoncera le Ragnarök. Ginnungagap est le vide primordial situé entre le monde du feu et celui de la glace. Hlidskjalf est le haut siège d'Odin, d'où il embrasse du regard tous les mondes."
   },
   {
-   "q": "Quel sacrifice Odin accepte-t-il, selon les poèmes, pour obtenir la sagesse ?",
+   "q": "Quel sacrifice le souverain des Ases accepte-t-il, selon les poèmes, pour obtenir la sagesse ?",
    "choix": [
     "Il donne un de ses yeux à la source de Mimir",
     "Il renonce à son marteau et le laisse aux nains qui l'ont forgé",
@@ -140,7 +140,7 @@
    ],
    "bonne": 0,
    "difficulte": 2,
-   "explication": "Les textes racontent qu'Odin laisse un de ses yeux en gage à la source de Mimir pour y boire et acquérir la connaissance. Il se pend également neuf nuits à l'arbre du monde, blessé par sa propre lance, afin de découvrir le secret des runes. Le marteau sorti de la forge des nains n'appartient pas à Odin mais à Thor, qui ne s'en dessaisit jamais. Odin ne cède pas davantage son trône : il conserve sa place à la tête des Ases jusqu'au Ragnarök. Quant au dieu qui perd sa main dans la gueule du loup Fenrir, c'est Tyr, lors de l'enchaînement de la bête."
+   "explication": "Les textes racontent qu'Odin laisse un de ses yeux en gage à la source de Mimir pour y boire et acquérir la connaissance. Il se pend également neuf nuits à l'arbre du monde, blessé par sa propre lance, afin de découvrir le secret des runes. Le marteau sorti de la forge des nains n'appartient pas à Odin mais à Thor, qui ne s'en dessaisit jamais. Odin ne cède pas davantage son trône : il conserve sa place à la tête des Ases jusqu'au Ragnarök. Quant au dieu qui perd sa main lors de l'enchaînement du loup géant destiné à dévorer Odin au Ragnarök, c'est Tyr."
   },
   {
    "q": "Qui a composé vers 1220 l'Edda en prose, principale source en prose de la mythologie nordique ?",
