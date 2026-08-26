@@ -3,15 +3,15 @@
  "sections": [
   {
    "titre": "Une longue histoire de la carte",
-   "texte": "La cartographie désigne la réalisation et l'étude des cartes géographiques, géologiques et astronomiques. Elle s'appuie sur la géodésie, science de la forme et des dimensions de la Terre, et poursuit un objectif exigeant : représenter sur une surface plane et réduite un espace réel courbe, tout en communiquant clairement des phénomènes complexes. L'envie de cartographier est très ancienne : certaines représentations d'étoiles peintes dans la grotte de Lascaux sont datées d'environ 16 500 avant notre ère. La cartographie scientifique naît véritablement au deuxième siècle avec Ptolémée, qui organise la représentation du monde connu à l'aide d'un système de coordonnées. Les grandes découvertes relancent la discipline, et Gérard Mercator publie en 1569 une projection cylindrique qui révolutionne la navigation. Au dix-huitième siècle, les levés systématiques réalisés en France par la méthode de la triangulation donnent naissance à la cartographie moderne, précise et fondée sur la mesure du terrain. Aujourd'hui, la cartographie s'est alliée à l'informatique dans une discipline appelée géomatique. Les systèmes d'information géographique organisent les données en couches thématiques superposables, tandis que l'imagerie satellitaire et le positionnement par satellite permettent une précision inédite. Cette évolution a démocratisé la carte : chacun en consulte plusieurs par jour sur son téléphone, souvent sans conscience du travail de mesure et de choix qu'elle représente.",
+   "texte": "La cartographie désigne la réalisation et l'étude des cartes géographiques, géologiques et astronomiques. Elle s'appuie sur la géodésie, science de la forme et des dimensions de la Terre, et poursuit un objectif exigeant : représenter sur une surface plane et réduite un espace réel courbe, tout en communiquant clairement des phénomènes complexes. L'envie de cartographier est très ancienne : on a proposé de reconnaître, dans certaines figures peintes il y a environ 16 500 ans dans la grotte de Lascaux, une représentation des Pléiades — hypothèse discutée, mais qui dit assez l'ancienneté du geste cartographique. La cartographie scientifique naît véritablement au deuxième siècle avec Ptolémée, qui organise la représentation du monde connu à l'aide d'un système de coordonnées. Les grandes découvertes relancent la discipline, et Gérard Mercator publie en 1569 une projection cylindrique qui révolutionne la navigation. Au dix-huitième siècle, les levés systématiques réalisés en France par la méthode de la triangulation donnent naissance à la cartographie moderne, précise et fondée sur la mesure du terrain. Aujourd'hui, la cartographie s'est alliée à l'informatique dans une discipline appelée géomatique. Les systèmes d'information géographique organisent les données en couches thématiques superposables, tandis que l'imagerie satellitaire et le positionnement par satellite permettent une précision inédite. Cette évolution a démocratisé la carte : chacun en consulte plusieurs par jour sur son téléphone, souvent sans conscience du travail de mesure et de choix qu'elle représente.",
    "visuel": {
     "type": "frise",
     "titre": "Une longue histoire de la carte",
     "evenements": [
      {
-      "date": "≈ 16 500 av. J.-C.",
+      "date": "≈ 15 000 av. J.-C.",
       "label": "Lascaux",
-      "texte": "Des représentations d'étoiles peintes sur les parois : l'envie de cartographier est très ancienne."
+      "texte": "Une représentation des Pléiades a été proposée dans certaines figures peintes sur les parois — hypothèse discutée, mais qui dit l'ancienneté du geste cartographique."
      },
      {
       "date": "IIe siècle",
@@ -159,10 +159,10 @@
   {
    "q": "Que signifie une carte à grande échelle ?",
    "choix": [
-    "Le 1 sur 1 000 000 est une grande échelle",
-    "L'échelle d'une carte n'a aucun rapport avec son niveau de détail réel",
-    "Une grande échelle, comme le 1 sur 25 000, montre un petit territoire avec beaucoup de détails",
-    "Une grande échelle, comme le 1 sur 1 000 000, couvre toujours un très vaste territoire peu détaillé"
+    "Une carte dont le dénominateur d'échelle est grand",
+    "Une carte couvrant un vaste territoire avec peu de détails",
+    "Une carte couvrant un petit territoire avec beaucoup de détails",
+    "Une carte sans indication de réduction"
    ],
    "bonne": 2,
    "difficulte": 3,

@@ -111,7 +111,7 @@ export const DENSIFY3_PONCT2_PRO_EXPR: ContentBatch = {
     /* ── lot 014 : registre et écrits professionnels ── */
     { ruleSlug: "anglicisme-staff", sentences: [
       { marked: "Le [staff] de nuit compte quatre personnes seulement.", fix: "personnel" },
-      { marked: "L'[staff] technique a validé tous les réglages avant le concert.", fix: "équipe" },
+      { marked: "L'[staff] technique a validé tous les réglages avant le concert.", fix: "l'équipe" },
     ]},
     { ruleSlug: "anglicisme-job", sentences: [
       { marked: "Ce [job] d'été lui permet de payer son loyer.", fix: "travail" },

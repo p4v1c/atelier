@@ -7,7 +7,7 @@
   },
   {
    "titre": "Des institutions parlementaires et une instabilité chronique",
-   "texte": "La Constitution de 1946 organise un régime parlementaire nettement dominé par les assemblées. L'Assemblée nationale, élue pour cinq ans au suffrage universel direct et à la représentation proportionnelle, détient l'essentiel du pouvoir : elle vote la loi, investit le président du Conseil et peut le renverser. Le Conseil de la République, élu au suffrage indirect, ne dispose que d'un pouvoir consultatif limité. Le président de la République, élu par le Parlement, exerce surtout une fonction d'arbitrage et de représentation : Vincent Auriol occupe le poste de 1947 à 1954, René Coty de 1954 à 1958. Le chef réel de l'exécutif est le président du Conseil, mais sa position reste fragile, car il n'a pas les moyens de dissoudre efficacement l'Assemblée. La proportionnelle multiplie les partis et impose des coalitions instables. Après la rupture du tripartisme en mai 1947, avec l'exclusion des ministres communistes sur fond de guerre froide, les gouvernements dits de troisième force doivent affronter à la fois l'opposition du Parti communiste et celle du Rassemblement du peuple français fondé par de Gaulle. Le résultat est une instabilité ministérielle spectaculaire : environ vingt-quatre gouvernements se succèdent en une douzaine d'années, certains ne durant que quelques jours, ce qui nourrit la défiance de l'opinion envers le régime.",
+   "texte": "La Constitution de 1946 organise un régime parlementaire nettement dominé par les assemblées. L'Assemblée nationale, élue pour cinq ans au suffrage universel direct et à la représentation proportionnelle, détient l'essentiel du pouvoir : elle vote la loi, investit le président du Conseil et peut le renverser. Le Conseil de la République, élu au suffrage indirect, ne dispose que d'un pouvoir consultatif limité. Le président de la République, élu par le Parlement, exerce surtout une fonction d'arbitrage et de représentation : Vincent Auriol occupe le poste de 1947 à 1954, René Coty de 1954 à 1958. Le chef réel de l'exécutif est le président du Conseil, mais sa position reste fragile, car il n'a pas les moyens de dissoudre efficacement l'Assemblée. La proportionnelle multiplie les partis et impose des coalitions instables. Après la rupture du tripartisme en mai 1947, avec l'exclusion des ministres communistes sur fond de guerre froide, les gouvernements dits de troisième force doivent affronter à la fois l'opposition du Parti communiste et celle du Rassemblement du peuple français fondé par de Gaulle. Le résultat est une instabilité ministérielle spectaculaire : environ vingt-deux gouvernements se succèdent en une douzaine d'années, soit une durée moyenne de six mois, certains ne durant que quelques jours, ce qui nourrit la défiance de l'opinion envers le régime.",
    "visuel": {
     "type": "tableau",
     "titre": "Qui détient le pouvoir sous la IVe République",
@@ -38,7 +38,7 @@
       "Chef réel de l'exécutif, mais sans moyen de dissoudre efficacement l'Assemblée qui le tient."
      ]
     ],
-    "note": "La proportionnelle multiplie les partis et impose des coalitions fragiles : environ vingt-quatre gouvernements en une douzaine d'années, certains de quelques jours."
+    "note": "La proportionnelle multiplie les partis et impose des coalitions fragiles : environ vingt-deux gouvernements en une douzaine d'années, certains de quelques jours."
    }
   },
   {
@@ -163,12 +163,12 @@
    "choix": [
     "La domination du président de la République sur un Parlement réduit au silence",
     "L'interdiction des partis politiques d'opposition par la Constitution",
-    "L'instabilité ministérielle, avec une vingtaine de gouvernements en douze ans",
+    "L'instabilité ministérielle, avec vingt-deux gouvernements en douze ans",
     "L'absence de suffrage universel, réservé aux seuls contribuables"
    ],
    "bonne": 2,
    "difficulte": 2,
-   "explication": "Le scrutin proportionnel favorise la multiplication des partis et rend indispensables des coalitions fragiles, tandis que l'Assemblée nationale peut renverser les gouvernements sans risque réel de dissolution. Il en résulte environ vingt-quatre cabinets en une douzaine d'années, dont plusieurs ne durent que quelques jours ou quelques semaines. Cette valse ministérielle empêche de conduire une politique de long terme, en particulier face aux guerres coloniales, et discrédite le régime dans l'opinion. Le président de la République, élu par le Parlement, n'avait au contraire qu'un rôle d'arbitre aux pouvoirs très limités."
+   "explication": "Le scrutin proportionnel favorise la multiplication des partis et rend indispensables des coalitions fragiles, tandis que l'Assemblée nationale peut renverser les gouvernements sans risque réel de dissolution. Il en résulte environ vingt-deux cabinets en une douzaine d'années, soit une durée moyenne de six mois, dont plusieurs ne durent que quelques jours ou quelques semaines. Cette valse ministérielle empêche de conduire une politique de long terme, en particulier face aux guerres coloniales, et discrédite le régime dans l'opinion. Le président de la République, élu par le Parlement, n'avait au contraire qu'un rôle d'arbitre aux pouvoirs très limités."
   },
   {
    "q": "Quel événement met fin à la guerre d'Indochine en 1954 ?",

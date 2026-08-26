@@ -342,7 +342,7 @@ export const BATCH_001: ContentBatch = {
       sentences: [
         { marked: "[Oui] je crois que cette solution mérite d'être étudiée sérieusement.", fix: "Oui," },
         { marked: "[Non] rien ne permet d'affirmer une chose pareille aujourd'hui.", fix: "Non," },
-        { marked: "[Oui] mais sans grande conviction, elle a fini par accepter la proposition.", fix: "Oui," },
+        { marked: "— [Oui] mais sans grande conviction, a-t-elle fini par répondre.", fix: "Oui," },
         { marked: "[Si] il est bien passé, je l'ai vu de mes yeux.", fix: "Si," },
         { marked: "Non, je ne serai pas disponible avant la fin du mois.", fix: null },
       ],

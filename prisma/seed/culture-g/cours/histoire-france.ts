@@ -9,7 +9,7 @@ Deux ensembles s'opposent durablement : l'Austrasie à l'est, autour de Metz, et
     ["Les rois et leurs mairies", `Clotaire II réunifie brièvement le royaume en 613, au prix de concessions considérables à l'aristocratie. Son fils Dagobert Ier, mort en 639, est resté le plus célèbre des Mérovingiens, autant par la chanson que par la réalité d'un règne actif.
 
 Après lui, le pouvoir glisse. Le maire du palais, à l'origine intendant de la maison royale, devient le véritable détenteur de l'autorité. En 687, à la bataille de Tertry, Pépin de Herstal, maire d'Austrasie, l'emporte sur la Neustrie et réunit les charges : sa famille, les Pippinides, ne lâchera plus le pouvoir réel.`],
-    ["La fin d'une dynastie", `Les historiens ont retenu l'expression rois fainéants pour désigner les derniers Mérovingiens. Elle vient d'Éginhard, biographe de Charlemagne, et sert la légitimation de la dynastie suivante : ces rois n'étaient pas nécessairement incapables, ils étaient privés de moyens d'agir.
+    ["La fin d'une dynastie", `Les historiens ont retenu l'expression rois fainéants pour désigner les derniers Mérovingiens. L'image — des rois sans pouvoir, promenés en char à bœufs — vient d'Éginhard, biographe de Charlemagne ; la formule française elle-même, bien postérieure, sert la légitimation de la dynastie suivante : ces rois n'étaient pas nécessairement incapables, ils étaient privés de moyens d'agir.
 
 En 751, Pépin le Bref franchit le pas. Il consulte le pape Zacharie, qui répond qu'il vaut mieux appeler roi celui qui détient le pouvoir : la caution pontificale rend le coup d'État acceptable. Le dernier Mérovingien, Childéric III, est tonsuré — la chevelure longue étant la marque de la royauté franque — et enfermé dans un monastère.`],
   ],
@@ -30,7 +30,7 @@ L'empire ne survit pas trois générations. En 843, le traité de Verdun le part
     ["L'appel et la prise de Jérusalem", `En 1095, au concile de Clermont, le pape Urbain II appelle les chevaliers d'Occident à secourir les chrétiens d'Orient et à délivrer Jérusalem. L'appel rencontre un écho considérable dans une noblesse française nombreuse et sans terres à partager.
 
 Après trois ans de marche et de sièges, les croisés prennent Jérusalem en 1099, au terme d'un massacre resté dans les mémoires. Des États latins d'Orient s'installent le long de la côte, et de nouveaux ordres militaires naissent pour les défendre : les Templiers, fondés vers 1120 pour protéger les pèlerins, deviendront une puissance financière européenne.`],
-    ["Les rois croisés", `Deux rois de France seulement ont pris la croix. Louis VII participe à la deuxième croisade en 1147, expédition coûteuse et sans résultat. Philippe Auguste part pour la troisième croisade avec Richard Cœur de Lion, mais rentre rapidement, laissant l'Anglais poursuivre seul — et met à profit son absence pour attaquer ses terres continentales.
+    ["Les rois croisés", `Trois rois de France prennent la croix. Louis VII participe à la deuxième croisade en 1147, expédition coûteuse et sans résultat. Philippe Auguste part pour la troisième croisade avec Richard Cœur de Lion, mais rentre rapidement, laissant l'Anglais poursuivre seul — et met à profit son absence pour attaquer ses terres continentales.
 
 Louis IX, futur Saint Louis, s'engage bien davantage. Lors de la septième croisade, en 1250, il est fait prisonnier en Égypte et libéré contre une rançon considérable. Il repart vingt ans plus tard et meurt en 1270 devant Tunis, probablement de dysenterie.`],
     ["Détournements et fin", `Toutes les croisades ne vont pas en Terre sainte. En 1204, la quatrième est détournée : faute de pouvoir payer les Vénitiens qui les transportent, les croisés prennent et pillent Constantinople, capitale chrétienne — l'Empire byzantin ne s'en remettra jamais vraiment.
@@ -41,7 +41,7 @@ En 1209, la croisade des albigeois est lancée contre les cathares du Languedoc 
   "hf-jeanne-darc": [
     ["De Domrémy à Chinon", `Jeanne d'Arc naît vers 1412 à Domrémy, village lorrain resté fidèle au dauphin dans un royaume largement occupé. À dix-sept ans, elle convainc le capitaine Robert de Baudricourt de la faire conduire auprès du roi, après avoir essuyé deux refus.
 
-En février 1429, elle rencontre le futur Charles VII à Chinon. Le dauphin n'a pas été sacré, la légitimité de sa naissance est publiquement contestée, et le nord du royaume obéit aux Anglais et aux Bourguignons. Après examen par des théologiens à Poitiers, on lui confie une place dans l'armée de secours d'Orléans.`],
+À la fin de l'hiver 1429, elle rencontre le futur Charles VII à Chinon. Le dauphin n'a pas été sacré, la légitimité de sa naissance est publiquement contestée, et le nord du royaume obéit aux Anglais et aux Bourguignons. Après examen par des théologiens à Poitiers, on lui confie une place dans l'armée de secours d'Orléans.`],
     ["Orléans, Patay, Reims", `Orléans est assiégée depuis des mois. Jeanne y entre en avril 1429 ; la ville est délivrée en neuf jours, début mai. La rapidité du renversement, plus que le détail des combats, produit un effet moral immense des deux côtés.
 
 En juin, la victoire de Patay détruit une armée anglaise en rase campagne et ouvre la route de Reims. Le sacre y a lieu le 17 juillet 1429 : il est décisif parce qu'il fait de Charles VII le roi légitime aux yeux de tous, avec l'onction et le lieu qui font la royauté française. C'était l'objectif que Jeanne poursuivait depuis le début.`,
@@ -57,7 +57,7 @@ Après avoir abjuré puis repris ses habits d'homme, elle est condamnée comme r
 La suite est plus rude. Face à Charles Quint, qui règne sur l'Espagne, les Pays-Bas, l'Autriche et l'Empire, la France est encerclée. En 1525, à Pavie, François Ier est battu et fait prisonnier ; emmené à Madrid, il ne recouvre la liberté qu'au prix de lourdes concessions, et de ses fils laissés en otages. La rivalité avec Charles Quint occupera tout le règne. En 1520, le camp du Drap d'or, entrevue fastueuse avec Henri VIII, avait tenté sans succès de nouer une alliance anglaise.`],
     ["Le roi bâtisseur et mécène", `François Ier fait venir Léonard de Vinci en France, où l'artiste s'installe au Clos Lucé, près d'Amboise, et meurt en 1519. Avec lui arrivent des œuvres, dont La Joconde, et une manière italienne qui transforme l'art français.
 
-Le roi fait bâtir Chambord en Sologne, château de chasse aux quatre cent quarante pièces, dont l'escalier à double révolution est resté célèbre. En 1530, il fonde le Collège des lecteurs royaux, institution libre destinée à enseigner le grec, l'hébreu et le latin hors du contrôle de la Sorbonne : c'est le futur Collège de France.`],
+Le roi fait bâtir Chambord en Sologne, château de chasse aux quatre cent vingt-six pièces, dont l'escalier à double révolution est resté célèbre. En 1530, il fonde le Collège des lecteurs royaux, institution libre destinée à enseigner le grec et l'hébreu hors du contrôle de la Sorbonne, bientôt rejoints par le latin et les mathématiques : c'est le futur Collège de France.`],
     ["L'État, la langue, la foi", `L'ordonnance de Villers-Cotterêts, signée en 1539, est le texte le plus durable du règne. Elle impose l'usage du français dans les actes de justice, en lieu et place du latin, et prescrit la tenue de registres de baptêmes : c'est à la fois un acte de politique linguistique et l'acte de naissance de l'état civil.
 
 Au loin, Jacques Cartier est envoyé au Canada et remonte le Saint-Laurent, ouvrant la présence française en Amérique du Nord. En matière religieuse, le règne bascule en 1534 avec l'affaire des Placards : des affiches violemment anti-catholiques sont placardées jusque sur la porte du roi. La répression s'abat alors sur les réformés, mettant fin à une période de relative tolérance.`],
@@ -67,7 +67,7 @@ Au loin, Jacques Cartier est envoyé au Canada et remonte le Saint-Laurent, ouvr
     ["Richelieu", `Richelieu est le principal ministre de Louis XIII à partir de 1624. Sa politique intérieure vise à soumettre tout ce qui échappe à l'autorité royale : il réduit en 1628 la place forte protestante de La Rochelle après un siège de plus d'un an, sans toucher à la liberté de culte accordée par l'édit de Nantes — c'est le pouvoir militaire des protestants qu'il vise, non leur religion.
 
 En 1635, il fonde l'Académie française, chargée de veiller sur la langue. La même année, il engage la France dans la guerre de Trente Ans aux côtés des princes protestants d'Allemagne, contre les Habsbourg catholiques : la raison d'État prime sur la solidarité confessionnelle.`],
-    ["La Fronde", `À la mort de Louis XIII, Anne d'Autriche exerce la régence avec le cardinal Mazarin, Italien impopulaire. Les traités de Westphalie mettent fin en 1648 à la guerre de Trente Ans, mais l'année même où éclate la Fronde.
+    ["La Fronde", `À la mort de Louis XIII, Anne d'Autriche exerce la régence avec le cardinal Mazarin, Italien impopulaire. Les traités de Westphalie mettent fin à la guerre de Trente Ans en 1648 — l'année même où éclate la Fronde.
 
 Cette série de révoltes, de 1648 à 1653, mêle deux mouvements : une Fronde parlementaire, hostile à la fiscalité et aux intendants, puis une Fronde des princes, où le Grand Condé, vainqueur de Rocroi, prend les armes contre le roi et va jusqu'à s'allier à l'Espagne. Le jeune Louis XIV, contraint de fuir Paris, en gardera une méfiance durable envers la capitale et la haute noblesse.`],
     ["Le règne personnel", `La Fronde échoue, faute d'unité entre ses composantes. Le traité des Pyrénées met fin en 1659 à la guerre franco-espagnole et prévoit le mariage de Louis XIV avec l'infante Marie-Thérèse.
@@ -127,7 +127,7 @@ En 1988 est créé le revenu minimum d'insertion, premier minimum social ouvert 
     ["Giscard et les réformes de société", `Valéry Giscard d'Estaing est élu président en 1974, à quarante-huit ans, sur un programme de modernisation. La majorité électorale passe la même année de vingt et un à dix-huit ans.
 
 En 1975, la loi portée par Simone Veil, ministre de la Santé, légalise l'interruption volontaire de grossesse, au terme de débats parlementaires d'une violence rare envers elle. Le divorce par consentement mutuel est légalisé la même année. Ces réformes accompagnent une transformation sociale déjà largement engagée, dans un contexte économique qui se retourne : le premier choc pétrolier de 1973 met fin aux Trente Glorieuses.`],
-    ["1981 et l'alternance", `François Mitterrand est élu en 1981 : c'est la première alternance de la Ve République, quarante-trois ans après le dernier gouvernement de gauche. Les premiers mois voient nationalisations, décentralisation et réformes sociales, avant un tournant de rigueur en 1983.
+    ["1981 et l'alternance", `François Mitterrand est élu en 1981 : c'est la première alternance de la Ve République, vingt-trois ans après sa fondation. Les premiers mois voient nationalisations, décentralisation et réformes sociales, avant un tournant de rigueur en 1983.
 
 Une mesure marque durablement le début du septennat : l'abolition de la peine de mort, votée en 1981 sur un discours de Robert Badinter, garde des Sceaux, alors qu'une majorité de l'opinion y était opposée. La France est l'un des derniers pays d'Europe occidentale à l'abolir : la Belgique et l'Espagne ne l'ont fait qu'au milieu des années quatre-vingt-dix.`],
     ["Cohabitations et Europe", `La cohabitation — un président et un Premier ministre de camps opposés — était jugée impraticable avant d'être expérimentée trois fois : de 1986 à 1988, de 1993 à 1995, puis de 1997 à 2002, la plus longue.
@@ -154,7 +154,7 @@ Les Invalides, eux, ont été construits sous Louis XIV pour accueillir les sold
     ["Les grands chantiers religieux et royaux", `La cathédrale Notre-Dame de Paris est commencée en 1163 et achevée près de deux siècles plus tard. Le mont Saint-Michel abrite une abbaye bénédictine, bâtie et rebâtie du Xe au XVIe siècle sur un îlot rocheux dont l'accès dépendait des marées.
 
 Côté royal, Louis XIV fait bâtir Versailles dans sa forme monumentale à partir de 1661, autour du pavillon de chasse de son père, et y installe la cour en 1682. Sur la Loire, Chenonceau est célèbre pour enjamber le Cher par une galerie sur arches, construite au XVIe siècle.`],
-    ["Rome et la Révolution", `Le pont du Gard, près de Nîmes, est un aqueduc romain à trois niveaux d'arches, bâti au Ier siècle pour alimenter la ville en eau sur une cinquantaine de kilomètres, avec une pente moyenne de vingt-cinq centimètres par kilomètre.
+    ["Rome et la Révolution", `Le pont du Gard, près de Nîmes, est un aqueduc romain à trois niveaux d'arches, bâti au Ier siècle : il illustre le changement d'échelle des grands ouvrages romains par rapport aux constructions gauloises qui l'ont précédé.
 
 L'Arc de triomphe de l'Étoile, commandé par Napoléon en 1806 et achevé en 1836, célèbre les victoires des armées de la Révolution et de l'Empire ; il abrite depuis 1921 la tombe du Soldat inconnu. La tour Eiffel, enfin, est construite pour l'Exposition universelle de 1889, comme démonstration technique destinée à être démontée au bout de vingt ans : c'est son utilité comme antenne de télégraphie sans fil qui l'a sauvée.`],
   ],
@@ -180,7 +180,7 @@ On connaît mal cette religion pour une raison précise : les druides refusaient
 
 Il en résulte que presque tout ce que nous savons vient de sources extérieures — grecques et romaines, donc hostiles ou mal informées — et de l'archéologie, qui documente les sanctuaires et les dépôts d'armes sans livrer les croyances.
 
-Les Gaulois parlaient le gaulois, langue celtique dont il ne reste que quelques centaines d'inscriptions et une poignée de mots passés en français : *chêne*, *alouette*, *charrue*, *bruyère*, *mouton*, *lieue*, et une part importante des noms de lieux et de rivières.`],
+Les Gaulois parlaient le gaulois, langue celtique dont il ne reste que quelques centaines d'inscriptions et environ cent cinquante mots passés en français : *chêne*, *alouette*, *charrue*, *bruyère*, *mouton*, *lieue*, et une part importante des noms de lieux et de rivières.`],
     ["Rome et les Gaulois avant la conquête", `Les relations entre Gaulois et Romains sont anciennes et n'ont pas commencé en 58 avant notre ère.
 
 Vers 390 avant notre ère, les Sénons conduits par Brennus battent l'armée romaine à l'Allia et prennent Rome, à l'exception du Capitole. L'épisode a laissé dans la mémoire romaine un traumatisme durable — les oies du Capitole, la rançon et le fameux « malheur aux vaincus » en font partie — et il a nourri pendant des siècles la crainte du *tumultus gallicus*.
@@ -232,14 +232,14 @@ La date exacte du baptême est discutée entre 496 et 508. Son lieu, Reims, devi
 
 Ce mécanisme produit une instabilité permanente : à chaque mort d'un roi, le royaume éclate, puis se reconstitue par guerres et par extinctions de branches, puis se divise à nouveau. La Neustrie, à l'ouest, et l'Austrasie, à l'est, sont les deux grandes divisions récurrentes, auxquelles s'ajoutent la Bourgogne et l'Aquitaine.
 
-Brunehaut et Frédégonde incarnent la violence de ces rivalités : reines respectivement d'Austrasie et de Neustrie, elles s'affrontent pendant quarante ans par assassinats et par guerres interposées. Brunehaut, capturée à quatre-vingts ans passés, sera exécutée en 613 dans des conditions atroces. Les récits de Grégoire de Tours, notre principale source, ont durablement construit l'image d'une époque sanglante — image que l'historiographie récente nuance en soulignant la continuité administrative et la vitalité économique de la période.
+Brunehaut et Frédégonde incarnent la violence de ces rivalités : reines respectivement d'Austrasie et de Neustrie, elles s'affrontent près de trente ans, de l'assassinat de Galswinthe vers 568 à la mort de Frédégonde en 597, par assassinats et par guerres interposées. Brunehaut, vaincue à environ soixante-six ans, sera exécutée en 613 dans des conditions atroces. Les récits de Grégoire de Tours, notre principale source, ont durablement construit l'image d'une époque sanglante — image que l'historiographie récente nuance en soulignant la continuité administrative et la vitalité économique de la période.
 
-La loi salique est un recueil de droit franc rédigé sous Clovis, essentiellement pénal, qui fixe des compensations pour chaque délit. Un de ses articles, qui écarte les femmes de l'héritage de la terre salique, sera exhumé au XIVe siècle et invoqué pour exclure les femmes de la succession au trône de France — usage sans rapport avec son objet initial.`],
+La loi salique est un recueil de droit franc rédigé sous Clovis, essentiellement pénal, qui fixe des compensations pour chaque délit. Un de ses articles, qui écarte les femmes de l'héritage de la terre salique, sera exhumé vers 1358 et érigé au siècle suivant en loi fondamentale pour exclure les femmes de la succession au trône de France — usage sans rapport avec son objet initial.`],
     ["Le pouvoir glisse", `Un maire du palais est à l'origine l'intendant de la maison royale. Sa fonction évolue jusqu'à en faire le principal officier du royaume, chef de l'administration et de l'armée, détenteur du pouvoir réel.
 
 Ce glissement s'explique par la conjonction de plusieurs facteurs : rois accédant au trône très jeunes, règnes courts, nécessité d'une continuité administrative, et surtout constitution d'un patrimoine foncier considérable par les maires du palais d'Austrasie, la famille des Pippinides.
 
-Les derniers Mérovingiens sont désignés comme les rois fainéants — expression qui vient de Éginhard, biographe de Charlemagne, donc d'une source intéressée à justifier le changement de dynastie. Ils règnent sans gouverner, se déplaçant en char à bœufs et présidant les assemblées pendant que le maire du palais décide.
+Les derniers Mérovingiens sont désignés comme les rois fainéants — image qui vient d'Éginhard, biographe de Charlemagne, donc d'une source intéressée à justifier le changement de dynastie ; la formule elle-même est bien postérieure. Ils règnent sans gouverner, se déplaçant en char à bœufs et présidant les assemblées pendant que le maire du palais décide.
 
 La dynastie prend fin en 751 : Pépin le Bref, maire du palais, dépose le dernier roi mérovingien après avoir obtenu du pape une réponse favorable à une question habile — vaut-il mieux que porte le titre de roi celui qui en exerce le pouvoir ou celui qui n'en a que le nom. Il se fait sacrer, innovation majeure qui introduit l'onction religieuse dans la royauté franque et lie durablement la dynastie à la papauté.`],
   ],
@@ -299,7 +299,9 @@ Le conflit avec Boniface VIII porte sur la taxation du clergé — le roi entend
 
 En 1312, Philippe le Bel fait supprimer l'ordre du Temple. Les Templiers, ordre militaire devenu banquier de la chrétienté et créancier du roi, sont arrêtés en une seule journée en 1307, jugés sur des aveux obtenus sous torture, et leurs biens confisqués. Le grand maître Jacques de Molay est brûlé en 1314.
 
-L'affaire réunit tous les traits du règne : une administration capable d'exécuter une opération simultanée dans tout le royaume, des légistes formés au droit romain pour la justifier, et une conception du pouvoir royal qui ne reconnaît plus d'autorité concurrente.`],
+L'affaire réunit tous les traits du règne : une administration capable d'exécuter une opération simultanée dans tout le royaume, des légistes formés au droit romain pour la justifier, et une conception du pouvoir royal qui ne reconnaît plus d'autorité concurrente.
+
+Philippe le Bel meurt en 1314 ; ses trois fils lui succèdent tour à tour sans laisser d'héritier mâle, et la crise successorale ouverte après la mort du dernier d'entre eux, en 1316, annonce l'extinction de la lignée directe des Capétiens en 1328.`],
   ],
 
   "hf4-societe-feodale": [
@@ -349,7 +351,7 @@ Cette durée a des conséquences concrètes. Le maître d'œuvre qui commence ne
 
 Les chantiers rassemblaient des centaines de personnes — carriers, tailleurs de pierre, maçons, charpentiers, forgerons, verriers, sculpteurs — organisées en loges. Les tailleurs marquaient leurs pierres d'un signe personnel, qui servait au décompte de leur paie et qui reste visible aujourd'hui.
 
-L'ambition a parfois dépassé le savoir-faire : Beauvais, dont le chœur culmine à plus de quarante-huit mètres sous voûte, est la plus haute nef gothique de France. Elle s'est effondrée partiellement en 1284, puis sa tour-lanterne en 1573, et la cathédrale n'a jamais été achevée — sa nef n'existe pas.`,
+L'ambition a parfois dépassé le savoir-faire : Beauvais, dont le chœur culmine à plus de quarante-huit mètres sous voûte, porte la plus haute voûte gothique de France. Elle s'est effondrée partiellement en 1284, puis sa tour-lanterne en 1573, et la cathédrale n'a jamais été achevée — sa nef n'existe pas.`,
       { image: "am-amiens-nef", legende: "La nef d'Amiens : les murs ne portent plus, l'ossature travaille, et la lumière entre.", alt: "Nef gothique de la cathédrale d'Amiens" }],
     ["Lire un édifice", `Un vitrail est un assemblage de verres colorés maintenus par un réseau de plomb. La couleur est obtenue dans la masse par des oxydes métalliques ajoutés au verre en fusion, et les détails — visages, plis — sont peints à la grisaille puis cuits.
 
@@ -376,7 +378,7 @@ Son origine est dynastique : à l'extinction des Capétiens directs en 1328, Éd
 
 S'y ajoutent des causes structurelles : le roi d'Angleterre est duc d'Aquitaine, donc vassal du roi de France, situation intenable ; et la Flandre, dont l'industrie drapière dépend de la laine anglaise, est un enjeu économique majeur.
 
-Les débuts sont catastrophiques pour la France. À Crécy en 1346, la chevalerie française charge en désordre contre des archers gallois retranchés et se fait massacrer. À Poitiers en 1356, le roi Jean II le Bon est capturé et emmené en Angleterre, où il faudra payer une rançon écrasante.`],
+Les débuts sont catastrophiques pour la France. À Crécy en 1346, la chevalerie française charge en désordre contre des archers anglais et gallois retranchés et se fait massacrer. À Poitiers en 1356, le roi Jean II le Bon est capturé et emmené en Angleterre, où il faudra payer une rançon écrasante.`],
     ["Reconquérir, puis tout perdre", `Bertrand Du Guesclin, connétable de Charles V, reconquiert entre 1370 et 1380 une grande partie du royaume. Sa méthode rompt avec l'éthique chevaleresque : il refuse les batailles rangées, harcèle, assiège, reprend place par place. C'est efficace et mal vu — les chroniqueurs contemporains lui reprochent de ne pas se battre loyalement.
 
 Tout est perdu à nouveau sous Charles VI. Sa folie — des crises de démence récurrentes à partir de 1392, entrecoupées de périodes lucides — laisse le pouvoir vacant et ouvre une guerre civile entre Armagnacs et Bourguignons, qui se disputent la régence et finiront par s'assassiner mutuellement.
@@ -414,7 +416,7 @@ François Ier remporte Marignan en 1515, victoire acquise en deux jours contre l
 Le château de Chambord, commencé en 1519, est le manifeste architectural du règne : plan centré d'inspiration italienne, escalier à double révolution où deux personnes peuvent monter et descendre sans se croiser, et une forêt de cheminées et de lucarnes au sommet. Quatre cent vingt-six pièces pour un château où le roi n'a séjourné que quelques semaines au total — c'était un instrument de prestige, non une résidence.
 
 L'ordonnance de Villers-Cotterêts, en 1539, impose le français dans les actes officiels et judiciaires à la place du latin. Sa portée dépasse la langue : elle rend le droit accessible aux justiciables, et elle instaure aussi la tenue obligatoire des registres de baptêmes, ancêtres de l'état civil. C'est le plus ancien texte législatif français encore partiellement en vigueur.`],
-    ["L'humanisme et la langue", `Guillaume Budé, helléniste et bibliothécaire du roi, obtient de François Ier la fondation en 1530 du Collège royal — futur Collège de France. Son principe est révolutionnaire : un enseignement libre, gratuit, sans examen ni diplôme, dans des disciplines que la Sorbonne n'enseignait pas — grec, hébreu, mathématiques.
+    ["L'humanisme et la langue", `Guillaume Budé, helléniste et bibliothécaire du roi, obtient de François Ier la fondation en 1530 du Collège royal — futur Collège de France. Son principe est révolutionnaire : un enseignement libre, gratuit, sans examen ni diplôme, dans des disciplines que la Sorbonne n'enseignait pas — grec et hébreu d'abord, bientôt rejoints par le latin et les mathématiques.
 
 Il s'agissait de contourner l'université, jugée figée et hostile aux nouveautés. La devise de l'institution, *docet omnia*, et sa règle de gratuité et d'ouverture à tous n'ont pas changé depuis cinq siècles.
 
@@ -434,7 +436,7 @@ L'édit de Nantes, en 1598, met fin à trente-six ans de guerre civile. Il accor
 
 Sully, son ministre, redresse les finances par un travail d'assainissement méthodique : réduction de la dette, réforme de la perception, développement des routes et des canaux, encouragement de l'agriculture — « labourage et pâturage sont les deux mamelles dont la France est alimentée ».
 
-Henri IV est assassiné en 1610 par Ravaillac, catholique exalté. Il est le troisième roi de France tué en un demi-siècle, ce qui dit assez la violence de la période.`],
+Henri IV est assassiné en 1610 par Ravaillac, catholique exalté. Il est le deuxième roi de France assassiné en une vingtaine d'années, après Henri III en 1589, ce qui dit assez la violence de la période.`],
     ["Richelieu et l'État", `Richelieu, principal ministre de Louis XIII de 1624 à 1642, poursuit un objectif qu'il formule lui-même : ruiner le parti huguenot, abaisser l'orgueil des grands, et relever le nom du roi en Europe.
 
 Sa politique religieuse est souvent mal comprise. Il ne combat pas le protestantisme comme religion mais comme puissance politique armée — un État dans l'État, avec ses places fortes, ses assemblées et ses relations extérieures. Le siège de La Rochelle, en 1627-1628, dure quatorze mois et se conclut par une digue barrant le port pour empêcher tout secours anglais.
@@ -482,7 +484,7 @@ Le château accueillait plusieurs milliers de personnes, dans des conditions mat
 L'affaire des Poisons, dans les années 1670, révèle l'envers de cette société : une enquête sur des empoisonnements met au jour un réseau de devineresses, de messes noires et de poisons impliquant des dizaines de personnes de la haute noblesse, et jusqu'à la maîtresse en titre du roi. Louis XIV fait brûler une partie du dossier et étouffe l'affaire.
 
 Il protège par ailleurs Molière contre les attaques du parti dévot, notamment lors de la querelle du *Tartuffe*, interdit cinq ans — le mécénat royal servait aussi à tenir le clergé.`],
-    ["Ce que le règne laisse", `La révocation de l'édit de Nantes, en 1685, interdit le culte protestant et provoque l'exil de plusieurs centaines de milliers de personnes vers l'Angleterre, la Hollande, la Prusse et la Suisse — souvent des artisans, des commerçants et des officiers, dont les pays d'accueil profiteront durablement. Ceux qui restent se soulèvent dans les Cévennes : la guerre des Camisards, à partir de 1702, oppose pendant plusieurs années des paysans protestants à des troupes régulières.
+    ["Ce que le règne laisse", `La révocation de l'édit de Nantes, en 1685, interdit le culte protestant et provoque l'exil de cent cinquante à deux cent mille personnes, selon les estimations, vers l'Angleterre, la Hollande, la Prusse et la Suisse — souvent des artisans, des commerçants et des officiers, dont les pays d'accueil profiteront durablement. Ceux qui restent se soulèvent dans les Cévennes : la guerre des Camisards, à partir de 1702, oppose pendant plusieurs années des paysans protestants à des troupes régulières.
 
 La guerre de Succession d'Espagne, de 1701 à 1714, occupe la fin du règne. Elle place un Bourbon sur le trône d'Espagne au prix d'une coalition européenne, de défaites, de famines et d'un épuisement financier. L'hiver 1709, le grand hiver, tue des dizaines de milliers de personnes.
 
@@ -531,7 +533,7 @@ Louis XVI, jugé par la Convention, est exécuté le 21 janvier 1793. Le vote su
 
 Le Comité de salut public, où domine Robespierre, dirige la France. Sa justification est explicite dans les discours de l'époque : le régime est en guerre extérieure sur toutes ses frontières et en guerre civile à l'intérieur, et le salut public autorise la suspension des libertés qu'on vient de proclamer.
 
-Son bilan est de l'ordre de quarante mille exécutions, très inégalement réparties — la moitié dans les départements insurgés.
+Son bilan est de l'ordre de quarante mille morts, dont environ dix-sept mille condamnations capitales exécutées, très inégalement répartis — la moitié dans les départements insurgés.
 
 La Vendée se soulève en mars 1793, contre la conscription, la Constitution civile du clergé et le pouvoir des villes. La guerre est d'une violence extrême des deux côtés. En 1794, les colonnes infernales du général Turreau mènent une répression systématique consistant à détruire villages, récoltes et populations. Le débat historiographique sur la qualification de ces faits — génocide, populicide, massacre — est vif ; l'ampleur, elle, ne fait pas débat, avec plus de cent mille morts.
 
@@ -591,7 +593,7 @@ L'historiographie française oscille depuis deux siècles entre ces deux bilans,
   ],
 
   "hf4-restauration": [
-    ["Trois régimes en trente-trois ans", `Trois régimes se succèdent entre 1815 et 1848, chacun renversé par une révolution parisienne : la Restauration, la monarchie de Juillet, la Deuxième République.
+    ["Trois régimes en trente-trois ans", `Trois régimes se succèdent à partir de 1815 : la Restauration, la monarchie de Juillet, la Deuxième République. Les deux premiers sont renversés par une révolution parisienne, en 1830 puis en 1848 ; la Deuxième République, elle, s'achève en 1851 par le coup d'État de son propre président, Louis-Napoléon Bonaparte.
 
 La Restauration est le retour des Bourbons après la chute de Napoléon — Louis XVIII en 1814, revenu définitivement en 1815, puis Charles X en 1824. Elle n'est pas un retour à l'Ancien Régime : la Charte de 1814 est une constitution octroyée par le roi, qui instaure une monarchie limitée avec deux chambres, la garantie des libertés publiques et la reconnaissance des acquis révolutionnaires — égalité civile, Code civil, vente des biens nationaux.
 
@@ -642,7 +644,7 @@ Le succès le plus net est l'annexion de la Savoie et du comté de Nice en 1860,
 
 Le canal de Suez, inauguré en 1869, est l'œuvre de Ferdinand de Lesseps, diplomate devenu promoteur. Le chantier dure dix ans et emploie des dizaines de milliers de travailleurs égyptiens, d'abord réquisitionnés. L'ouvrage raccourcit de plusieurs milliers de kilomètres la route vers l'Asie et devient immédiatement un enjeu stratégique majeur — les Britanniques, qui s'y étaient opposés, en prendront le contrôle en 1875.
 
-L'expédition du Mexique, entre 1862 et 1867, se solde par un échec complet. Napoléon III y installe un empereur autrichien, Maximilien, sur la foi d'informations erronées ; les États-Unis, sortis de leur guerre civile, exigent le retrait français ; Maximilien, abandonné, est fusillé. L'affaire coûte cher, immobilise des troupes et ruine le crédit diplomatique du régime.`],
+L'expédition du Mexique, décidée fin 1861 et menée par la France seule à partir de 1862, se solde par un échec complet en 1867. Napoléon III y installe un empereur autrichien, Maximilien, sur la foi d'informations erronées ; les États-Unis, sortis de leur guerre civile, exigent le retrait français ; Maximilien, abandonné, est fusillé. L'affaire coûte cher, immobilise des troupes et ruine le crédit diplomatique du régime.`],
     ["La chute", `La guerre franco-prussienne de 1870 provoque la chute du Second Empire en six semaines.
 
 Bismarck a manœuvré pour l'obtenir, notamment par la dépêche d'Ems dont il modifie la rédaction pour la rendre offensante. La France déclare la guerre, ce qui range les États allemands du sud aux côtés de la Prusse — résultat exactement recherché.
@@ -687,7 +689,7 @@ La loi de 1901 sur les associations pose que toute association se crée libremen
 
 La loi de 1905 sépare les Églises et l'État. Elle pose deux principes : la République assure la liberté de conscience et garantit le libre exercice des cultes ; elle ne reconnaît, ne salarie ni ne subventionne aucun culte. Négociée avec pragmatisme par Aristide Briand contre les tenants d'une laïcité de combat, elle apaise un conflit vieux d'un siècle et demeure le texte de référence.
 
-Jean Jaurès, principal dirigeant socialiste et infatigable adversaire de la guerre, est assassiné le 31 juillet 1914, trois jours avant la mobilisation. Son meurtre prive le mouvement pacifiste de sa voix au moment décisif.
+Jean Jaurès, principal dirigeant socialiste et infatigable adversaire de la guerre, est assassiné le 31 juillet 1914, la veille de la mobilisation générale. Son meurtre prive le mouvement pacifiste de sa voix au moment décisif.
 
 Le Front populaire, en 1936, obtient enfin les congés payés, la semaine de quarante heures et les conventions collectives — acquis conquis en quelques semaines après une vague de grèves avec occupation d'usines, et qui transformeront la vie quotidienne des Français plus que bien des changements de régime.`],
   ],
@@ -713,7 +715,7 @@ Il réprime le défaitisme, soutient l'effort de production, impose l'unité de 
 Le char d'assaut apparaît en 1916, d'abord côté britannique sur la Somme, puis côté français. Conçu pour franchir les tranchées et les barbelés en résistant aux mitrailleuses, il est peu fiable et employé en trop petit nombre pour être décisif ; il annonce néanmoins la fin de la suprématie défensive, et les théoriciens de l'entre-deux-guerres en tireront les conclusions — inégalement selon les pays.
 
 Le traité de Versailles, en 1919, met fin à la guerre avec l'Allemagne. Il impose des pertes territoriales, un désarmement, des réparations considérables et l'article 231 attribuant à l'Allemagne la responsabilité du conflit. Sa dureté et son application inégale nourriront le ressentiment allemand ; l'expression « paix de vainqueurs » a été employée dès sa signature, y compris par des économistes alliés comme Keynes.`],
-    ["Une société transformée", `La France a perdu proportionnellement plus d'hommes que tout autre grand belligérant occidental : environ un million quatre cent mille morts, soit près d'un mobilisé sur six et une classe d'âge décimée. S'y ajoutent plus de trois millions de blessés.
+    ["Une société transformée", `La France a perdu proportionnellement plus d'hommes que tout autre grand belligérant occidental : environ un million quatre cent mille morts, soit près d'un mobilisé sur six et une classe d'âge décimée. S'y ajoutent environ trois millions de blessés, pour plus de quatre millions de blessures.
 
 Les gueules cassées sont les soldats défigurés par les blessures au visage, particulièrement nombreuses dans une guerre où le corps est protégé par la tranchée mais où la tête dépasse. Cinq d'entre eux siégeront à la signature du traité de Versailles, placés là volontairement. Leur cas a fait progresser la chirurgie reconstructrice et posé la question du retour à la vie civile de mutilés que la société ne voulait pas voir.
 
@@ -750,7 +752,7 @@ L'enjeu est politique autant que militaire : cette unification, sous l'autorité
 
 Le CNR adopte en mars 1944 un programme de réformes pour l'après-guerre : nationalisations des grandes banques et sources d'énergie, sécurité sociale, retraites, comités d'entreprise, liberté de la presse, droit de vote des femmes. Il sera largement appliqué à la Libération et constitue l'acte fondateur du modèle social français.
 
-La répression s'intensifie à mesure que la Libération approche. Le 10 juin 1944, quatre jours après le débarquement, une division SS détruit Oradour-sur-Glane et massacre six cent quarante-deux habitants — hommes fusillés, femmes et enfants brûlés dans l'église. Le village a été laissé en l'état sur décision de De Gaulle, comme village martyr.`,
+La répression s'intensifie à mesure que la Libération approche. Le 10 juin 1944, quatre jours après le débarquement, une division SS détruit Oradour-sur-Glane et massacre six cent quarante-trois habitants — hommes fusillés, femmes et enfants brûlés dans l'église. Le village a été laissé en l'état sur décision de De Gaulle, comme village martyr.`,
       { image: "hf-liberation-paris", legende: "La Libération de Paris, août 1944 : le programme du Conseil national de la Résistance est déjà écrit depuis cinq mois.", alt: "Libération de Paris en août 1944" }],
   ],
 
@@ -766,13 +768,13 @@ Les nationalisations de la Libération portent sur les banques de dépôt, l'él
 
 Ce dispositif ouvre les Trente Glorieuses, expression forgée après coup par Jean Fourastié pour désigner les trois décennies de forte croissance de 1945 à 1975. Le pays connaît alors une croissance annuelle de l'ordre de cinq pour cent, le plein emploi, l'équipement massif des ménages et un exode rural qui achève de transformer la société.
 
-Le traité de Rome, signé en 1957, fonde la Communauté économique européenne à six. Il crée un marché commun, une politique agricole commune et une union douanière. Il est signé par une Quatrième République souvent décrite comme impuissante — rappel utile que son bilan économique et européen contredit largement sa réputation d'échec.`],
+Dès 1951, la France de Robert Schuman prend l'initiative de la construction européenne en fondant, avec l'Allemagne et quatre autres pays, la Communauté européenne du charbon et de l'acier (CECA). Le traité de Rome, signé en 1957, fonde ensuite la Communauté économique européenne à six. Il crée un marché commun, une politique agricole commune et une union douanière. Il est signé par une Quatrième République souvent décrite comme impuissante — rappel utile que son bilan économique et européen contredit largement sa réputation d'échec.`],
     ["Les guerres coloniales", `La guerre d'Indochine, engagée dès 1946, s'achève en 1954 par la défaite de Diên Biên Phu. L'état-major français y avait installé un camp retranché dans une cuvette, convaincu que le Viêt-minh ne pourrait acheminer d'artillerie lourde dans les montagnes environnantes. Il l'a fait, à dos d'homme et de bicyclette, et a écrasé le camp après cinquante-sept jours de siège. Les accords de Genève actent le retrait français.
 
 Le Maroc et la Tunisie, protectorats et non colonies de peuplement, accèdent à l'indépendance en 1956, par négociation et sans guerre — ce qui contraste avec l'Algérie, département français peuplé d'un million d'Européens.
 
 L'insurrection algérienne commence le 1er novembre 1954, quelques mois après Diên Biên Phu. Le conflit, longtemps qualifié d'« opérations de maintien de l'ordre » et reconnu comme guerre par la loi seulement en 1999, mobilise des centaines de milliers d'appelés et s'accompagne d'une torture systématique dont la révélation divise profondément la métropole.`],
-    ["Un régime qui ne gouverne pas", `La Quatrième République a connu vingt-quatre gouvernements en douze ans, soit une durée moyenne de six mois.
+    ["Un régime qui ne gouverne pas", `La Quatrième République a connu vingt-deux gouvernements en douze ans, soit une durée moyenne de six mois.
 
 La cause est institutionnelle : un exécutif faible face à une Assemblée toute-puissante. Le président du Conseil doit obtenir l'investiture puis la confiance, l'Assemblée peut le renverser sans limite, et la dissolution est pratiquement impossible — elle n'a été employée qu'une fois. À quoi s'ajoute un scrutin proportionnel produisant des majorités de coalition fragiles, avec deux partis d'opposition — communistes et gaullistes — qui refusent tout compromis.
 
@@ -875,7 +877,7 @@ L'Algérie devient un cas unique : divisée en départements français, peuplée
 Le protectorat français en Tunisie est établi en 1881 par le traité du Bardo, suivi du Maroc en 1912. Le protectorat maintient formellement le souverain local et son administration sous contrôle français — formule juridiquement plus souple, et qui facilitera les indépendances négociées de 1956.
 
 L'expansion s'accélère sous la Troisième République, en Afrique subsaharienne, à Madagascar et en Indochine. Ses justifications mêlent intérêts économiques, rivalité avec le Royaume-Uni et discours de « mission civilisatrice » — que Jules Ferry défend explicitement devant la Chambre en 1885, contre Clemenceau qui lui oppose que rien n'autorise les races dites supérieures à disposer des autres.`],
-    ["Un empire exhibé", `L'Exposition coloniale internationale de 1931, à Vincennes, célèbre l'empire devant plus de huit millions de visiteurs. On y reconstitue un temple d'Angkor grandeur nature, des pavillons de chaque territoire, et l'on y expose des populations dans des villages reconstitués.
+    ["Un empire exhibé", `L'Exposition coloniale internationale de 1931, à Vincennes, célèbre l'empire devant environ trente-trois millions d'entrées, pour quelque huit millions de visiteurs. On y reconstitue un temple d'Angkor grandeur nature, des pavillons de chaque territoire, et l'on y expose des populations dans des villages reconstitués.
 
 Le message est explicite : la France est un empire de cent millions d'habitants, et la métropole n'en compte que quarante. Cette formule, largement diffusée à la veille de la guerre, exprimait une puissance apparente que 1940 démentira brutalement.
 
@@ -892,7 +894,7 @@ Plusieurs facteurs l'expliquent. La démographie d'abord : la France, qui avait 
 Le résultat n'est pas un retard mais une trajectoire différente : croissance régulière, maintien d'un tissu de petites entreprises, spécialisation dans les produits de qualité plutôt que dans la production de masse, et coexistence durable de l'usine et de l'atelier.`],
     ["Les régions industrielles", `Le bassin houiller du Nord-Pas-de-Calais est le plus important de France, avec plus de la moitié de la production nationale. Il structure une société entière : corons, compagnies minières, hiérarchie sociale, syndicalisme puissant. Il façonne aussi un paysage — les terrils, aujourd'hui inscrits au patrimoine mondial.
 
-Le bassin du Nord-Pas-de-Calais paie ce rythme au prix fort : l'accident minier de 1906, le plus meurtrier d'Europe, déclenche une grève de plusieurs semaines et pèse directement sur la naissance du ministère du Travail la même année.
+Ce bassin a payé son essor au prix fort : l'accident minier de 1906, le plus meurtrier d'Europe, déclenche une grève de plusieurs semaines et pèse directement sur la naissance du ministère du Travail la même année.
 
 La Lorraine se spécialise dans la sidérurgie grâce à son minerai de fer, la minette, dont la teneur en phosphore rendait longtemps l'acier cassant — jusqu'au procédé Thomas, en 1878, qui rend ce minerai exploitable et transforme la région.
 
@@ -1087,7 +1089,7 @@ Son existence même illustre une conception française : l'aménagement du terri
 
 L'objectif était de créer des contrepoids ; le résultat a été double. Ces villes ont effectivement grandi et se sont dotées de fonctions supérieures, au point de devenir aujourd'hui des métropoles attractives. Mais elles ont aussi capté les ressources de leur propre région, reproduisant à leur échelle le déséquilibre qu'elles devaient corriger.
 
-Cinq villes nouvelles sont créées en région parisienne à partir de 1965 — Cergy-Pontoise, Évry, Marne-la-Vallée, Melun-Sénart, Saint-Quentin-en-Yvelines — pour organiser la croissance de l'agglomération autrement que par un étalement continu. Trois autres sont créées en province.
+Cinq villes nouvelles sont créées en région parisienne à partir de 1965 — Cergy-Pontoise, Évry, Marne-la-Vallée, Melun-Sénart, Saint-Quentin-en-Yvelines — pour organiser la croissance de l'agglomération autrement que par un étalement continu. Quatre autres sont créées en province, portant le total à neuf.
 
 Leur bilan est contrasté : elles ont accueilli des centaines de milliers d'habitants et créé de vrais bassins d'emploi, mais leur urbanisme des années 1970, très automobile, a mal vieilli.`],
     ["Les quartiers", `La politique de la ville est une action publique ciblée sur les quartiers en difficulté, née au début des années 1980 après les premiers troubles urbains dans les banlieues lyonnaises.
@@ -1099,7 +1101,7 @@ Le zonage en quartiers prioritaires a été plusieurs fois refondu. Le critère 
 Son bilan fait l'objet d'évaluations contradictoires. La rénovation urbaine a transformé le bâti, souvent avec des résultats visibles ; les écarts d'emploi, de réussite scolaire et de santé avec le reste du pays se sont peu réduits. La critique la plus solide porte sur la contradiction entre des moyens ciblés et un droit commun qui, dans ces mêmes quartiers, fonctionne moins bien qu'ailleurs — moins d'enseignants expérimentés, moins de médecins, moins de services.`],
     ["Le vide et la fracture", `La diagonale du vide est une bande de faible densité traversant la France des Ardennes aux Landes, en passant par la Champagne, le Berry, le Limousin et les Causses. Le terme est employé par les géographes depuis les années 1990, et certains lui préfèrent « diagonale des faibles densités », jugeant le premier péjoratif — un territoire peu peuplé n'est pas vide.
 
-Une zone de revitalisation rurale est un dispositif d'exonérations fiscales et sociales destiné à soutenir l'installation d'activités dans les territoires ruraux fragiles. Son efficacité est débattue : les évaluations montrent des effets d'aubaine importants, les entreprises se serait souvent installées de toute façon.
+Une zone de revitalisation rurale est un dispositif d'exonérations fiscales et sociales destiné à soutenir l'installation d'activités dans les territoires ruraux fragiles. Son efficacité est débattue : les évaluations montrent des effets d'aubaine importants, les entreprises se seraient souvent installées de toute façon.
 
 Un parc naturel régional est un territoire habité, à patrimoine naturel et culturel remarquable, géré par une charte négociée entre les communes, le département et la région pour une durée de quinze ans. Il se distingue du parc national par l'absence de réglementation contraignante : il repose entièrement sur un projet volontaire, ce qui en fait un outil de développement autant que de protection.
 
@@ -1320,7 +1322,7 @@ Les résultats restent pourtant solides en volume de publications et remarquable
   ],
 
   "hf3-france-monde": [
-    ["Un réseau et un siège", `La France dispose du troisième réseau diplomatique mondial, derrière les États-Unis et la Chine : plus de cent soixante ambassades, quatre-vingts consulats généraux, et des représentations auprès de toutes les organisations internationales.
+    ["Un réseau et un siège", `La France dispose du troisième réseau diplomatique mondial, derrière la Chine et les États-Unis : plus de cent soixante ambassades, quatre-vingts consulats généraux, et des représentations auprès de toutes les organisations internationales.
 
 Ce réseau est un héritage de l'empire colonial et d'une conception de la présence universelle. Il est régulièrement l'objet de rapports proposant sa rationalisation, et il a été réduit à la marge sans jamais l'être en profondeur.
 
@@ -1392,7 +1394,7 @@ Cette défiance n'est pas propre à la France mais elle y est particulièrement 
   "hf3-catastrophes-france": [
     ["Les catastrophes industrielles", `Chaque grande catastrophe française a produit une réforme de la prévention. C'est la régularité la plus nette de cette histoire, et elle dit aussi que la réforme précède rarement le drame.
 
-La catastrophe de Courrières, en mars 1906, fait plus de mille cent morts dans un coup de poussier — l'inflammation des poussières de charbon en suspension. C'est la plus grave catastrophe minière européenne. Les secours sont mal organisés, des rescapés sont retrouvés vingt jours après, et une équipe de sauveteurs allemands arrive avant les moyens français. Une grève massive suit, et l'événement accélère la création du ministère du Travail et la législation sur la sécurité minière.
+La catastrophe de Courrières, en mars 1906, fait près de mille cent morts (1 099) dans un coup de poussier — l'inflammation des poussières de charbon en suspension. C'est la plus grave catastrophe minière européenne. Les secours sont mal organisés, des rescapés sont retrouvés vingt jours après, et une équipe de sauveteurs allemands arrive avant les moyens français. Une grève massive suit, et l'événement accélère la création du ministère du Travail et la législation sur la sécurité minière.
 
 L'explosion de l'usine AZF à Toulouse, en septembre 2001, fait trente et un morts et des milliers de blessés, avec une onde de choc ressentie à des kilomètres. Elle survient dix jours après les attentats du 11 septembre, ce qui a nourri des hypothèses jamais étayées ; l'enquête a conclu à un accident chimique.
 

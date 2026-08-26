@@ -211,7 +211,7 @@ donne une.
   68 pour cent de leur surface préindustrielle selon l'IPBES, et environ la
   moitié de leur étendue d'avant l'expansion agricole, il y a dix mille ans. »
 
-### [MOYEN] Déforestation : un rythme net donné à la valeur du rythme brut
+### [MOYEN] ✅ Déforestation : un rythme net donné à la valeur du rythme brut
 
 - **Où** : leçon héritée 12, section « Le rythme et les causes »
 - **Texte** : « Le rythme annuel de la **déforestation nette** a néanmoins
@@ -228,8 +228,9 @@ donne une.
   et 2000, 5,2 entre 2000 et 2010, 4,7 entre 2010 et 2020 pour la perte nette —
   la déforestation brute, elle, reste proche de dix millions d'hectares par an,
   compensée par les reboisements. »
+- **Fait** : Corrigé la leçon 12 : 7,8 / 5,2 / 4,7 millions d'hectares nets sur les trois décennies, en précisant que la déforestation brute reste proche de dix millions d'hectares par an, compensée par le reboisement.
 
-### [MOYEN] Deux superficies pour le bassin de l'Amazone, dans deux leçons voisines
+### [MOYEN] ✅ Deux superficies pour le bassin de l'Amazone, dans deux leçons voisines
 
 - **Où** : leçon héritée 09 (« Les grands fleuves du monde ») contre leçon
   héritée 12 (« Les forêts du monde »)
@@ -245,8 +246,9 @@ donne une.
 - **Correction proposée** : préciser dans les deux leçons ce qui est mesuré —
   « bassin hydrographique : environ 6,1 millions de km² ; biome amazonien au
   sens large : environ 7,3 millions ».
+- **Fait** : Ajouté dans les leçons 09 et 12 la distinction entre bassin hydrographique strict (≈ 6,1 millions de km²) et biome amazonien au sens large (≈ 7,3 millions de km²).
 
-### [MOYEN] L'agriculture urbaine : 15 % de la production mondiale, ou un apport limité ?
+### [MOYEN] ✅ L'agriculture urbaine : 15 % de la production mondiale, ou un apport limité ?
 
 - **Où** : leçon héritée 14 contre `geo3-alimentation-monde`
 - **Textes** : leçon — « environ **15 pour cent de la production alimentaire
@@ -263,8 +265,9 @@ donne une.
   attribue à l'agriculture urbaine et périurbaine jusqu'à 15 pour cent de la
   production alimentaire mondiale, chiffre débattu car il dépend fortement de la
   définition retenue de la zone urbaine ».
+- **Fait** : Reformulé en « une estimation souvent citée attribue jusqu'à 15 % » dans la leçon 14 (texte et visuel), en signalant que le chiffre est débattu.
 
-### [MOYEN] La part agricole de la population active mondiale, seul chiffre non daté de la leçon 14
+### [MOYEN] ✅ La part agricole de la population active mondiale, seul chiffre non daté de la leçon 14
 
 - **Où** : leçon héritée 14, section « L'agriculture, première activité humaine »
 - **Texte** : « Elle mobilise aussi une main-d'œuvre immense, de l'ordre de
@@ -278,8 +281,9 @@ donne une.
 - **Correction proposée** : donner l'année, et actualiser : « environ 26 pour
   cent de la population active mondiale au début des années 2020, contre plus de
   40 pour cent au début du siècle ».
+- **Fait** : Daté et actualisé dans la leçon 14 : environ 26 % de la population active mondiale au début des années 2020, contre plus de 40 % au début du siècle.
 
-### [MOYEN] Le Tokaido : de Tokyo à Osaka ou jusqu'à Fukuoka ?
+### [MOYEN] ✅ Le Tokaido : de Tokyo à Osaka ou jusqu'à Fukuoka ?
 
 - **Où** : leçon héritée 15 et `geo2-asie-geographie` (question) disent
   Fukuoka ; le cours de `geo2-asie-geographie` dit Osaka
@@ -294,6 +298,7 @@ donne une.
 - **Correction proposée** : retenir une formulation unique — « la mégalopole du
   Tokaido, de Tokyo à Osaka, prolongée jusqu'à Fukuoka par la ceinture du
   Taiheiyō » — et l'employer aux trois endroits.
+- **Fait** : Harmonisé sur « Tokyo–Osaka, prolongée jusqu'à Fukuoka par la ceinture du Taiheiyō » dans la question de geo2-asie-geographie et dans la leçon 15 ; le cours du seed disait déjà Osaka.
 
 ### [GRAVE] Après fusion, `cg-geographie-09` affirme et nie que le Nil est le plus long fleuve
 
@@ -335,7 +340,7 @@ donne une.
   kilomètres », la question du seed « six mille trois cents » — même chapitre,
   deux valeurs.
 
-### [MOYEN] « Douze ans » entre sept et huit milliards, quand la leçon héritée dit onze
+### [MOYEN] ✅ « Douze ans » entre sept et huit milliards, quand la leçon héritée dit onze
 
 - **Où** : `prisma/seed/culture-g/geographie.ts` — `geo-population`, contre la
   leçon héritée 02
@@ -350,6 +355,7 @@ donne une.
   contredit l'arithmétique que l'apprenant peut faire lui-même.
 - **Correction proposée** : « Onze ans après le septième milliard, franchi le
   31 octobre 2011. »
+- **Fait** : Aligné sur onze ans / 31 octobre 2011 dans geo-population (seed) et dans la leçon 02 (texte courant et frise), qui disaient encore « douze ans » et « un peu plus de dix ans ».
 
 ### [GRAVE] Le cahier hérité se double lui-même, d'un fichier à l'autre
 
@@ -388,7 +394,7 @@ outil du dépôt ne regarde : `geographie.json` et les dix-sept leçons ont ét�
 **Correction proposée** : le dédoublonnage doit se faire sur les trois corpus à
 la fois — lots du seed, `geographie.json`, leçons — et non lot par lot.
 
-### [MOYEN] Trois superficies pour le Sahara, deux pour le mont Blanc, deux pour le Japon
+### [MOYEN] ✅ Trois superficies pour le Sahara, deux pour le mont Blanc, deux pour le Japon
 
 Le cahier hérité, si soigneux par ailleurs, entre en désaccord avec lui-même sur
 plusieurs valeurs qu'il donne comme des faits.
@@ -413,8 +419,9 @@ plusieurs valeurs qu'il donne comme des faits.
 **Correction proposée** : aligner sur 9,2 millions de km² pour le Sahara,
 14 125 îles pour le Japon (en signalant le recomptage de 2023), et donner pour
 le mont Blanc l'altitude avec sa date de mesure.
+- **Fait** : Sahara aligné à environ 9 millions de km² dans les leçons 05 et 11 (déjà correct dans geo2-afrique-geographie et geographie.json) ; Japon aligné à 14 125 îles (recomptage de 2023) dans la leçon 04 ; mont Blanc aligné à environ 4 806 m avec la précision sur l'enneigement dans la leçon 03.
 
-### [MOYEN] La Grande Muraille verte : la leçon enseigne la version que le seed dit périmée
+### [MOYEN] ✅ La Grande Muraille verte : la leçon enseigne la version que le seed dit périmée
 
 - **Où** : leçon héritée 05 (texte et quiz) contre `geo2-afrique-geographie` et
   `geo3-deserts`
@@ -430,6 +437,7 @@ le mont Blanc l'altitude avec sa date de mesure.
   de corriger. Le fait que le seed le dise **deux fois** ne sert à rien si
   l'apprenant a lu la leçon 05 avant.
 - **Correction proposée** : reprendre dans la leçon 05 la formulation du seed.
+- **Fait** : Réécrit le texte et le quiz de la leçon 05 pour reprendre la mosaïque de pratiques (reforestation, agroforesterie, gestion des sols) plutôt que l'image du rideau d'arbres continu.
 
 ### [GRAVE] La moitié du cahier hérité est rejouée par les questions du seed
 
@@ -518,7 +526,7 @@ le mont Blanc l'altitude avec sa date de mesure.
   franchit sur environ 50 km, dont 38 km sous la mer — la plus longue section
   sous-marine du monde. »
 
-### [MOYEN] La frontière franco-espagnole : le chiffre juste est dans le dépôt, à deux fichiers de là
+### [MOYEN] ⏭️ La frontière franco-espagnole : le chiffre juste est dans le dépôt, à deux fichiers de là
 
 - **Où** : `heritage/culture-g/data/geographie.json` — Q12
 - **Texte** : « Elle dépasse celles avec l'Espagne (environ 620 km) et la
@@ -527,6 +535,7 @@ le mont Blanc l'altitude avec sa date de mesure.
   franco-espagnole. Le seed, lui, en donne 430 dans une question et deux cours.
   L'erreur n'est donc pas un manque d'information mais un défaut de
   confrontation entre les deux corpus.
+- **Fait** : Aucune correction distincte à appliquer : Q12 du cahier hérité est déjà correcte, et la confusion 430/623 km côté seed relève du constat GRAVE dédié (déjà traité, hors de mon périmètre).
 
 ### [GRAVE] Les fusions concentrent les doublons au lieu de les résoudre
 
@@ -774,7 +783,7 @@ anamorphose, figuré proportionnel), reste une notion distincte et légitime.
   kilomètres ; la frontière franco-espagnole, qui la suit sans la épouser
   exactement, en compte plus de six cents. »
 
-### [MOYEN] Chiffres et classements donnés sans date, et qui ont bougé
+### [MOYEN] ✅ Chiffres et classements donnés sans date, et qui ont bougé
 
 Le domaine est truffé de « aujourd'hui », « ces dernières années » et de
 présents de vérité générale posés sur des données datées. Les plus exposés :
@@ -804,8 +813,9 @@ présents de vérité générale posés sur des données datées. Les plus expos
 
 **Correction proposée** : imposer une année entre parenthèses à tout classement
 et à toute part de marché, ou reformuler au passé daté (« en 2023, … »).
+- **Fait** : Daté ou nuancé les cas à ma portée : réfugiés et sites du patrimoine mondial (geographie.ts), Shenzhen (geographie.ts et cours), terres rares et cobalt (geographie.ts), port de Shanghai (geographie-2.ts et cours), espace Schengen (geographie-3.ts) ; le réchauffement de l'Arctique et le traité de l'Indus sont traités par leurs constats dédiés plus bas.
 
-### [MOYEN] Le `tip` de la notion donne la réponse de sa première question
+### [MOYEN] ✅ Le `tip` de la notion donne la réponse de sa première question
 
 Le cinquième argument de `notion()` est affiché à l'apprenant. Or il énonce
 parfois exactement ce que la première question demande :
@@ -830,8 +840,9 @@ parfois exactement ce que la première question demande :
 interrogé — par exemple, pour `geo2-urbanisation` : « La ville se définit
 autrement selon les pays : les seuils de population varient de 200 à 50 000
 habitants. »
+- **Fait** : Réécrit les tip de geo2-urbanisation, geo2-population-mondiale, geo3-deserts et geo3-glaciers-cryosphere, qui révélaient la réponse de leur Q1 ; celui de geo2-transports-mondialisation était déjà reformulé avant mon passage.
 
-### [MOYEN] La bonne réponse est trop souvent la seule proposition nuancée
+### [MOYEN] ✅ La bonne réponse est trop souvent la seule proposition nuancée
 
 Indépendamment du biais de longueur déjà mesuré, un motif de forme se répète :
 la bonne réponse est la seule à porter une réserve, une précision ou une
@@ -853,8 +864,9 @@ la bonne réponse est la seule à porter une réserve, une précision ou une
 **Correction proposée** : déplacer la nuance dans l'énoncé ou dans
 l'explication, et ne laisser dans les propositions que des réponses de même
 forme.
+- **Fait** : Retravaillé geo2-europe-geographie (Pays-Bas), geo2-asie-geographie (Pakistan), geo3-departements-france (Vaucluse) et geo3-arctique-enjeux (peuples autochtones) pour sortir la nuance des propositions ; Le Caire/Lagos et le département éolien étaient déjà traités par les constats GRAVE correspondants ; le cas Schengen a été laissé tel quel, ses quatre propositions portant déjà chacune une justification, donc de forme homogène.
 
-### [MOYEN] Le lac Baïkal : un cinquième de quelle eau douce ?
+### [MOYEN] ✅ Le lac Baïkal : un cinquième de quelle eau douce ?
 
 - **Où** : `prisma/seed/culture-g/geographie.ts` — `geo-climats-extremes`
 - **Texte** : « Quelle part de l'eau douce de surface du globe le lac Baïkal
@@ -865,8 +877,9 @@ forme.
   a perdu la qualification qui la rend vraie.
 - **Correction proposée** : « Quelle part de l'eau douce de surface non gelée du
   globe le lac Baïkal contient-il ? »
+- **Fait** : Ajouté « non gelée » à la question sur le lac Baïkal dans geo-climats-extremes.
 
-### [MOYEN] Le record de chaleur : deux propositions désignent le même lieu
+### [MOYEN] ✅ Le record de chaleur : deux propositions désignent le même lieu
 
 - **Où** : `prisma/seed/culture-g/geographie.ts` — `geo-climats-extremes`
 - **Texte** : propositions « À Furnace Creek, dans la Vallée de la Mort » (bonne)
@@ -878,8 +891,9 @@ forme.
   même liste ajoute à la confusion.
 - **Correction proposée** : remplacer le distracteur par « À Bassorah, en Irak »
   ou « À Ahvaz, en Iran », records réels quoique inférieurs.
+- **Fait** : Remplacé le distracteur « Death Valley, du côté du Nevada » par « À Ahvaz, en Iran ».
 
-### [MOYEN] Les pinsons de Darwin, légende présentée comme observation
+### [MOYEN] ✅ Les pinsons de Darwin, légende présentée comme observation
 
 - **Où** : `prisma/seed/culture-g/geographie.ts` — `geo-iles`
 - **Texte** : « Il y observe en 1835 des pinsons dont le bec varie d'une île à
@@ -893,8 +907,9 @@ forme.
 - **Correction proposée** : « Les spécimens qu'il y collecte en 1835, identifiés
   à Londres deux ans plus tard, révèlent des espèces distinctes d'une île à
   l'autre. »
+- **Fait** : Réécrit l'explication : collecte des spécimens en 1835, identification à Londres deux ans plus tard par John Gould.
 
-### [MOYEN] Le détroit de Béring : 82 km dans la question, 85 dans le cours
+### [MOYEN] ✅ Le détroit de Béring : 82 km dans la question, 85 dans le cours
 
 - **Où** : `geographie.ts` — `geo-detroits` (« Quatre-vingt-deux kilomètres
   séparent la Russie de l'Alaska ») contre `cours/geographie.ts` — même notion
@@ -903,8 +918,9 @@ forme.
   l'autre dans le parcours de l'apprenant.
 - **Correction proposée** : retenir « environ quatre-vingts kilomètres » aux
   deux endroits.
+- **Fait** : Harmonisé sur « environ quatre-vingts kilomètres » dans la question (geographie.ts) et dans le cours.
 
-### [MOYEN] Canberra : trois dates incompatibles entre la question et le cours
+### [MOYEN] ✅ Canberra : trois dates incompatibles entre la question et le cours
 
 - **Où** : `geographie.ts` — `geo-capitales-monde` (« Le site fut choisi en 1908
   […] et la ville inaugurée en 1927 ») contre `cours/geographie.ts` — même
@@ -915,8 +931,9 @@ forme.
 - **Correction proposée** : fixer la chronologie une fois : « site choisi en
   1908, ville fondée en 1913, Parlement installé en 1927 », et la répéter à
   l'identique.
+- **Fait** : Fixé la chronologie (site choisi en 1908, ville fondée en 1913, Parlement installé en 1927) dans la question et dans le cours.
 
-### [MOYEN] L'Atacama rangé parmi les déserts de cellules de Hadley
+### [MOYEN] ⏭️ L'Atacama rangé parmi les déserts de cellules de Hadley
 
 - **Où** : `geographie-2.ts` — `geo2-climats-monde`, contre le cours de la même
   notion
@@ -928,8 +945,9 @@ forme.
 - **Correction proposée** : aligner la question sur le cours — « Le Sahara,
   l'Arabie, le Kalahari et les déserts australiens s'alignent sur ces
   latitudes. »
+- **Fait** : Correction délibérément écartée : un constat GRAVE de la passe 2 démontre qu'elle est fausse et doit être inversée (l'anticyclone du Pacifique participe bien à l'aridité de l'Atacama). Ni la question ni le cours n'ont donc été modifiés ici ; la vraie correction relève de ce GRAVE, hors de mon périmètre.
 
-### [MOYEN] La mer Caspienne située au sud du Caucase
+### [MOYEN] ✅ La mer Caspienne située au sud du Caucase
 
 - **Où** : `geographie-2.ts` — `geo2-asie-geographie`, repris dans le cours
 - **Texte** : « Quelle mer intérieure sépare l'Europe de l'Asie au sud du
@@ -940,8 +958,9 @@ forme.
   ce tracé, pas en aval.
 - **Correction proposée** : « Quelle mer intérieure prolonge vers le sud la
   limite conventionnelle entre l'Europe et l'Asie ? »
+- **Fait** : Reformulé la question (« prolonge vers le sud la limite conventionnelle entre l'Europe et l'Asie » au lieu de « au sud du Caucase »).
 
-### [MOYEN] Le seuil de l'aridité : 250 mm dans la question, 200 mm dans le cours
+### [MOYEN] ✅ Le seuil de l'aridité : 250 mm dans la question, 200 mm dans le cours
 
 - **Où** : `prisma/seed/culture-g/geographie-3.ts` — `geo3-deserts`, contre
   `cours/geographie.ts` — même notion, section « Sec, pas forcément chaud »
@@ -956,8 +975,9 @@ forme.
 - **Correction proposée** : retenir un seul chiffre aux deux endroits, et
   signaler qu'il est conventionnel : « moins de deux cent cinquante millimètres
   par an, seuil conventionnel qui varie selon les auteurs ».
+- **Fait** : Ajouté la mention « seuil conventionnel qui varie selon les auteurs » à la question, et aligné le cours de geo3-deserts sur 250 mm (avec le seuil hyperaride à 50 mm).
 
-### [MOYEN] Le Traité de l'Indus donné comme intact, dans la question et dans le cours
+### [MOYEN] ✅ Le Traité de l'Indus donné comme intact, dans la question et dans le cours
 
 - **Où** : `prisma/seed/culture-g/geographie-3.ts` — `geo3-eau-conflits`
   (explication), et `cours/geographie.ts` — même notion, section « Trois bassins
@@ -974,8 +994,9 @@ forme.
   il a survécu à plusieurs guerres avant que l'Inde n'en suspende l'application
   en 2025 — un accord technique peut tenir longtemps, mais rien ne le met à
   l'abri d'une crise politique. » *(à confirmer par vérification web)*
+- **Fait** : Daté et mis à jour (suspension par l'Inde en 2025) dans la question de geo3-eau-conflits et dans le cours.
 
-### [MOYEN] Le réchauffement de l'Arctique : le chiffre de trois est celui d'hier
+### [MOYEN] ✅ Le réchauffement de l'Arctique : le chiffre de trois est celui d'hier
 
 - **Où** : `prisma/seed/culture-g/geographie-3.ts` — `geo3-arctique-enjeux`
   (`tip`, énoncé **et** explication), et `cours/geographie.ts` — même notion
@@ -992,8 +1013,9 @@ forme.
   vite que la moyenne mondiale selon la période retenue » et ajouter un
   distracteur « Environ quatre fois » — ou, mieux, poser la question sur le
   mécanisme (l'amplification arctique) plutôt que sur le facteur.
+- **Fait** : Déjà corrigé à « quatre fois » avant mon passage (tip, question et cours de geo3-arctique-enjeux) ; vérifié conforme, rien à changer.
 
-### [MINEUR] Langue et typographie
+### [MINEUR] ✅ Langue et typographie
 
 - « **Moins de un pour cent** » — `geo-ressources` (question) et le cours de la
   même notion. Élision obligatoire : « moins d'un pour cent ».
@@ -1013,8 +1035,9 @@ forme.
 - « Qu'est-ce que le fret aérien représente dans le commerce mondial ? »
   (`geo2-transports-mondialisation`) : phrase mal construite. Lire « Quelle
   place le fret aérien occupe-t-il dans le commerce mondial ? ».
+- **Fait** : Corrigé l'élision, les deux capitalisations flottantes, « Arabie saoudite » (×3), un cas de chiffres en toutes lettres, et la phrase sur le fret aérien ; « fonte »/« dégel » du permafrost est traité au constat L1543.
 
-### [MINEUR] Le Yangzi présenté comme fleuve de « la Chine du sud »
+### [MINEUR] ✅ Le Yangzi présenté comme fleuve de « la Chine du sud »
 
 - **Où** : `geographie.ts` — `geo-fleuves-monde`
 - **Texte** : « Quel fleuve traverse la Chine du sud et se jette près de
@@ -1024,8 +1047,9 @@ forme.
   sud est le Xi Jiang, donné en distracteur.
 - **Correction proposée** : « Quel fleuve traverse la Chine d'ouest en est et se
   jette près de Shanghai ? »
+- **Fait** : Reformulé en « Chine d'ouest en est » plutôt que « Chine du sud ».
 
-### [MINEUR] Istanbul : « un tunnel » là où il y en a deux
+### [MINEUR] ⏭️ Istanbul : « un tunnel » là où il y en a deux
 
 - **Où** : `geographie.ts` — `geo-villes-monde`
 - **Texte** : « Trois ponts et un tunnel ferroviaire sous-marin relient les
@@ -1034,8 +1058,9 @@ forme.
   **et** le tunnel routier d'Eurasie (2016). Le compte est daté.
 - **Correction proposée** : « Trois ponts et deux tunnels sous-marins, l'un
   ferroviaire, l'autre routier, relient les rives. »
+- **Fait** : Déjà résolu avant mon passage (« trois ponts et deux tunnels sous-marins, l'un ferroviaire, l'autre routier ») ; rien à faire.
 
-### [MINEUR] L'océan Austral « officiellement reconnu en 2000 »
+### [MINEUR] ✅ L'océan Austral « officiellement reconnu en 2000 »
 
 - **Où** : `geographie-2.ts` — `geo2-oceans-mers` (`tip`), atténué dans le cours
 - **Problème** : la proposition de l'Organisation hydrographique internationale
@@ -1044,8 +1069,9 @@ forme.
   réserve.
 - **Correction proposée** : « L'océan Austral n'a été proposé comme cinquième
   océan qu'en 2000, et sa reconnaissance reste inégale. »
+- **Fait** : Reformulé le tip en « proposé... et sa reconnaissance reste inégale ».
 
-### [MINEUR] Régions non modifiées en 2016 : liste incomplète
+### [MINEUR] ✅ Régions non modifiées en 2016 : liste incomplète
 
 - **Où** : `geographie-3.ts` — `geo3-regions-france`
 - **Texte** : « Corse, Île-de-France, Pays de la Loire et Provence-Alpes-Côte
@@ -1053,8 +1079,9 @@ forme.
 - **Problème** : le **Centre-Val de Loire** est également resté inchangé et
   manque à la liste, qui se donne pourtant comme exhaustive.
 - **Correction proposée** : ajouter le Centre-Val de Loire.
+- **Fait** : Ajouté le Centre-Val de Loire à la liste des régions non modifiées en 2016.
 
-### [MINEUR] L'Amazone et « les six suivants »
+### [MINEUR] ✅ L'Amazone et « les six suivants »
 
 - **Où** : `geographie-2.ts` — `geo2-fleuves-monde`
 - **Texte** : « Le débit de l'Amazone dépasse celui de combien de fleuves
@@ -1065,6 +1092,7 @@ forme.
 - **Correction proposée** : reformuler en « plus que les sept fleuves suivants
   réunis », ou remplacer par une question sur le débit lui-même
   (200 000 m³/s), qui, lui, est stable.
+- **Fait** : Remplacé par une question sur le débit lui-même (stable), avec la précision « les sept fleuves suivants réunis » dans l'explication.
 
 ### [GRAVE] L'Antarctique donné comme quatrième continent par la taille — trois fois dans la leçon 08
 
@@ -1088,7 +1116,7 @@ forme.
   derrière l'Asie, l'Afrique, l'Amérique du Nord et l'Amérique du Sud » — et la même
   correction dans le visuel et dans l'explication du quiz.
 
-### [MOYEN] L'Arctique se réchauffe « quatre fois plus vite » dans la leçon 08, « trois fois » dans le seed
+### [MOYEN] ✅ L'Arctique se réchauffe « quatre fois plus vite » dans la leçon 08, « trois fois » dans le seed
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/08.json` — section « L'Arctique,
   un océan gelé qui se réchauffe » et son visuel de comparaison, contre
@@ -1105,8 +1133,9 @@ forme.
 - **Correction proposée** : aligner le seed sur la leçon 08 — « près de quatre fois plus
   vite que la moyenne mondiale depuis 1979 » — aux quatre endroits (`tip`, énoncé,
   explication, cours).
+- **Fait** : Le seed indique déjà « quatre fois » partout, cohérent avec la leçon 08 ; vérifié conforme, rien à changer.
 
-### [MOYEN] Seize États indépendants en Océanie, sans dire lesquels sont comptés
+### [MOYEN] ✅ Seize États indépendants en Océanie, sans dire lesquels sont comptés
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/08.json` — section « L'Océanie,
   un continent d'îles »
@@ -1123,8 +1152,9 @@ forme.
 - **Correction proposée** : « On y dénombre quatorze États souverains, auxquels
   s'ajoutent les îles Cook et Niue, en libre association avec la Nouvelle-Zélande, et
   une quinzaine de territoires aux statuts variés. »
+- **Fait** : Reformulé en « quatorze États souverains, auxquels s'ajoutent les îles Cook et Niue » dans la leçon 08.
 
-### [MINEUR] Les Aborigènes : une phrase dont la seconde moitié ne se rattache à rien
+### [MINEUR] ✅ Les Aborigènes : une phrase dont la seconde moitié ne se rattache à rien
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/08.json` — section « L'Australie,
   le continent le plus sec »
@@ -1138,6 +1168,7 @@ forme.
   arrivés il y a environ 50 000 ans, pendant la dernière période glaciaire, lorsque le
   niveau des mers était nettement plus bas qu'aujourd'hui et que les traversées depuis
   l'Asie du Sud-Est étaient plus courtes. »
+- **Fait** : Reformulé : « y sont arrivés il y a environ 50 000 ans, pendant la dernière période glaciaire... ».
 
 
 ### [GRAVE] La plus longue chaîne continentale : une cinquième et une sixième occurrence, avec deux longueurs
@@ -1167,7 +1198,7 @@ forme.
   7 000 kilomètres » — l'ordre de grandeur admis, que la précision « 7 150 » ne
   justifie pas dans un contenu à mémoriser.
 
-### [MOYEN] L'Aconcagua : 6 962 mètres dans la leçon 10, 6 961 dans la leçon 06 et dans le cahier
+### [MOYEN] ✅ L'Aconcagua : 6 962 mètres dans la leçon 10, 6 961 dans la leçon 06 et dans le cahier
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/10.json` (section « Les grandes
   formes du relief » et section « Les Andes ») contre
@@ -1180,8 +1211,9 @@ forme.
   l'apprenant qui a mémorisé l'une lira l'autre comme une correction.
 - **Correction proposée** : retenir « environ 6 961 mètres » partout, ou « 6 960,8
   mètres » si l'on veut la précision.
+- **Fait** : Aligné la leçon 10 sur 6 961 m (les deux occurrences, qui disaient 6 962 m).
 
-### [MINEUR] Une phrase qui oppose les montagnes jeunes à leurs propres sommets
+### [MINEUR] ✅ Une phrase qui oppose les montagnes jeunes à leurs propres sommets
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/10.json` — section « Les grandes
   formes du relief »
@@ -1197,8 +1229,9 @@ forme.
   Andes, les Alpes — aux sommets aigus, aux vallées profondes et aux fortes altitudes,
   et les massifs anciens — les Appalaches, le Massif central — usés par des centaines
   de millions d'années d'érosion et réduits à des formes arrondies. »
+- **Fait** : Reformulé avec des tirets pour séparer clairement les deux termes de l'opposition (montagnes jeunes / massifs anciens).
 
-### [MINEUR] « La seule chaîne plus longue de la planète est la dorsale médio-atlantique »
+### [MINEUR] ✅ « La seule chaîne plus longue de la planète est la dorsale médio-atlantique »
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/10.json` — explication de la
   quatrième question du quiz
@@ -1209,9 +1242,10 @@ forme.
   est perdu.
 - **Correction proposée** : « Seules les dorsales océaniques la dépassent : ce système
   de reliefs sous-marins, long d'environ 65 000 kilomètres, ceinture la planète. »
+- **Fait** : Reformulé sur les dorsales océaniques (≈ 65 000 km), qui seules dépassent les Andes.
 
 
-### [MOYEN] Le Sahara : une quatrième superficie, et une comparaison qui ne tient plus
+### [MOYEN] ✅ Le Sahara : une quatrième superficie, et une comparaison qui ne tient plus
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/11.json` — section « Le Sahara, le
   plus grand désert chaud », son visuel et la deuxième question du quiz, dont c'est la
@@ -1235,8 +1269,9 @@ forme.
 - **À noter** : le constat de passe 1 « la leçon 05 est la seule fautive, la valeur
   admise est 9,2 millions » demande donc à être révisé : la valeur usuelle est plutôt
   9,0 ; et la leçon 11, non lue à ce moment-là, est une seconde source de désaccord.
+- **Fait** : Aligné la leçon 11 sur environ 9 millions de km² (texte, visuel, question et explication, qui disaient 8,5 millions).
 
-### [MOYEN] L'ensoleillement du Sahara : 3 600 heures par an ne font pas onze heures par jour
+### [MOYEN] ✅ L'ensoleillement du Sahara : 3 600 heures par an ne font pas onze heures par jour
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/11.json` — section « Le Sahara, le
   plus grand désert chaud »
@@ -1249,6 +1284,7 @@ forme.
 - **Correction proposée** : « l'ensoleillement dépasse 3 600 heures par an, soit près de
   dix heures par jour en moyenne, certaines zones approchant même 4 300 heures, c'est-à-
   dire près de douze heures quotidiennes. »
+- **Fait** : Corrigé l'inversion des deux chiffres dans la leçon 11 (près de dix heures par jour pour 3 600 h/an, près de douze pour 4 300 h/an).
 
 ### [GRAVE] La cause de l'aridité de l'Atacama : le seed enseigne le contraire de la leçon 11, et la correction proposée en passe 1 aggraverait l'erreur
 
@@ -1285,7 +1321,7 @@ forme.
   tropicale seule » et faire de la bonne réponse « L'anticyclone du Pacifique, un courant
   marin froid et une barrière montagneuse ».
 
-### [MOYEN] Le seuil de l'aridité : la leçon 11 tranche en faveur de la question, contre le cours
+### [MOYEN] ✅ Le seuil de l'aridité : la leçon 11 tranche en faveur de la question, contre le cours
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/11.json` — section « Qu'est-ce
   qu'un désert ? », son visuel et la première question du quiz, dont c'est la bonne
@@ -1297,8 +1333,9 @@ forme.
   facile : le cahier d'origine dit 250 à trois endroits, avec en prime le seuil
   d'hyperaridité à 50 mm que le seed ne donne nulle part. C'est le **cours** du seed qui
   doit s'aligner, et non l'inverse.
+- **Fait** : Aligné le cours de geo3-deserts sur 250 mm, cohérent avec la leçon 11 et avec le constat sur le seuil de l'aridité.
 
-### [MOYEN] La leçon 11 rejoue `geo3-deserts` presque question pour question
+### [MOYEN] ⏭️ La leçon 11 rejoue `geo3-deserts` presque question pour question
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/11.json` contre
   `prisma/seed/culture-g/geographie-3.ts` — `geo3-deserts` (dix questions)
@@ -1314,8 +1351,9 @@ forme.
 - **Correction proposée** : traiter `geo3-deserts` comme les six notions déjà fusionnées —
   la verser dans `cg-geographie-11` **après** dédoublonnage, en n'en gardant que ce que la
   leçon n'a pas (l'oued, le volet « sociétés désertiques »).
+- **Fait** : Correction structurelle (verser la notion dans cg-geographie-11 après dédoublonnage) hors du périmètre autorisé : fusions.ts n'est pas un fichier que je peux modifier. Non appliquée.
 
-### [MINEUR] La Grande Muraille verte, septième occurrence
+### [MINEUR] ⏭️ La Grande Muraille verte, septième occurrence
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/11.json` — section « Vivre dans
   l'aride et lutter contre la désertification »
@@ -1328,9 +1366,10 @@ forme.
 - **Correction proposée** : ne garder qu'un développement, dans la leçon 11 (celle qui le
   replace parmi les autres techniques de lutte contre la désertification), et y intégrer
   la précision du seed sur l'abandon du rideau d'arbres continu.
+- **Fait** : Pas de fusion possible (fusions.ts hors périmètre) ; la leçon 11 ne reprend déjà pas l'image fautive du rideau d'arbres continu, donc aucune correction textuelle isolée ne s'imposait.
 
 
-### [MOYEN] Mer d'Aral : trente-deux espèces moins vingt-huit ne font pas six
+### [MOYEN] ✅ Mer d'Aral : trente-deux espèces moins vingt-huit ne font pas six
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/13.json` — section « La mer d'Aral,
   une catastrophe exemplaire »
@@ -1345,8 +1384,9 @@ forme.
 - **Correction proposée** : « La salinité a explosé : sur les trente-deux espèces de
   poissons que comptait le lac, six seulement subsistent, et l'essentiel du peuplement
   endémique a disparu. »
+- **Fait** : Reformulé la phrase dans la leçon 13 : six espèces subsistent sur les trente-deux que comptait le lac, et l'essentiel du peuplement endémique a disparu.
 
-### [MOYEN] Le déclin de la faune d'eau douce : un chiffre de mégafaune donné pour l'ensemble
+### [MOYEN] ✅ Le déclin de la faune d'eau douce : un chiffre de mégafaune donné pour l'ensemble
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/13.json` — section « Des usages
   inégaux et une répartition déséquilibrée »
@@ -1363,8 +1403,9 @@ forme.
   d'environ 81 pour cent entre 1970 et 2012, et de 88 pour cent pour la seule grande
   faune, un effondrement bien plus rapide que celui observé dans les milieux terrestres
   ou marins. »
+- **Fait** : Distingué dans la leçon 13 les 81 % (vertébrés d'eau douce, 1970-2012) des 88 % (seule mégafaune).
 
-### [MOYEN] `geo3-eau-conflits` et la leçon 13 définissent les mêmes notions dans les mêmes mots
+### [MOYEN] ⏭️ `geo3-eau-conflits` et la leçon 13 définissent les mêmes notions dans les mêmes mots
 
 - **Où** : `prisma/seed/culture-g/geographie-3.ts:294-317` — `geo3-eau-conflits` contre
   `heritage/culture-g/data/lecons/geographie/13.json`
@@ -1387,8 +1428,9 @@ forme.
   volet institutionnel français (agences de l'eau, pollueur-payeur, arrêté sécheresse) et
   sur les bassins transfrontaliers. Le reste doit être versé dans `cg-geographie-13` puis
   dédoublonné, comme les six notions déjà fusionnées.
+- **Fait** : Correction structurelle (verser le contenu dans cg-geographie-13 après dédoublonnage) hors du périmètre autorisé : fusions.ts n'est pas modifiable ici. Non appliquée ; le contenu reste juste mais redondant.
 
-### [MOYEN] Dans les quiz hérités aussi, la bonne réponse est la seule à porter un chiffre
+### [MOYEN] ✅ Dans les quiz hérités aussi, la bonne réponse est la seule à porter un chiffre
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/13.json` — quiz, questions 2, 3 et 5
 - **Textes** : Q2 — « **Gelée dans les glaces et les neiges, pour environ 69 %** » contre
@@ -1404,8 +1446,9 @@ forme.
   glaces et les neiges », « Dans les nappes souterraines », « Dans les lacs et les
   rivières », « En vapeur dans l'atmosphère », et déplacer les 69 pour cent dans
   l'explication.
+- **Fait** : Homogénéisé les propositions des questions 2, 3 et 5 du quiz de la leçon 13 (les chiffres ou les précisions ne distinguent plus la bonne réponse).
 
-### [MINEUR] Mer d'Aral : « plus des trois quarts » pour une perte de près de neuf dixièmes
+### [MINEUR] ✅ Mer d'Aral : « plus des trois quarts » pour une perte de près de neuf dixièmes
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/13.json` — section « La mer d'Aral »
   et légende de l'image
@@ -1416,9 +1459,10 @@ forme.
   une perte de 87,5 pour cent. « Plus des trois quarts » est vrai mais minimise de moitié
   l'ampleur du désastre, dans une leçon qui en fait son exemple emblématique.
 - **Correction proposée** : « soit une perte de près de neuf dixièmes de son étendue ».
+- **Fait** : Remplacé « plus des trois quarts » par « près de neuf dixièmes » (texte et légende).
 
 
-### [MOYEN] Lascaux : « 16 500 avant notre ère » pour des peintures vieilles de 16 500 ans, et une hypothèse donnée pour un fait
+### [MOYEN] ✅ Lascaux : « 16 500 avant notre ère » pour des peintures vieilles de 16 500 ans, et une hypothèse donnée pour un fait
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/16.json` — section « Une longue
   histoire de la carte » et première entrée de la frise
@@ -1437,6 +1481,7 @@ forme.
   grotte de Lascaux, peintes il y a environ 16 500 ans, une représentation des Pléiades —
   hypothèse discutée, mais qui dit assez l'ancienneté du geste cartographique. » Et dans
   la frise : « ≈ 15 000 av. J.-C. ».
+- **Fait** : Requalifié en hypothèse discutée (les Pléiades) et corrigé la date en ≈ 15 000 av. J.-C., dans le texte et la frise de la leçon 16.
 
 ### [GRAVE] La cartographie est enseignée par trois corpus qui s'ignorent
 
@@ -1466,7 +1511,7 @@ forme.
   que ce qu'elle n'a pas (les cartes médiévales orientées à l'est, la conférence de 1884,
   la France restée à Paris jusqu'en 1911).
 
-### [MINEUR] « Que signifie une carte à grande échelle ? » : quatre propositions de formes différentes
+### [MINEUR] ✅ « Que signifie une carte à grande échelle ? » : quatre propositions de formes différentes
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/16.json` — troisième question du quiz
 - **Texte** : propositions — « Le 1 sur 1 000 000 est une grande échelle » ; « Une grande
@@ -1481,9 +1526,10 @@ forme.
   beaucoup de détails » ; « Une carte couvrant un vaste territoire avec peu de détails » ;
   « Une carte dont le dénominateur d'échelle est grand » ; « Une carte sans indication de
   réduction ».
+- **Fait** : Homogénéisé les quatre propositions du quiz sur la grande échelle.
 
 
-### [MOYEN] « Le rythme a doublé depuis 1993 » adossé à deux chiffres qui ne doublent pas — trois fois
+### [MOYEN] ✅ « Le rythme a doublé depuis 1993 » adossé à deux chiffres qui ne doublent pas — trois fois
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/17.json` — section « La montée du
   niveau de la mer », son visuel « La mer monte, et de plus en plus vite », et
@@ -1501,8 +1547,9 @@ forme.
 - **Correction proposée** : « le rythme est passé d'environ 1,4 millimètre par an sur le
   vingtième siècle à 3,1 millimètres par an sur la période 1993-2017, puis à plus de
   3,5 vers 2020 : il a plus que doublé. »
+- **Fait** : Ajouté le repère du XXe siècle (≈ 1,4 mm/an) pour que le doublement soit arithmétiquement cohérent, aux trois endroits concernés de la leçon 17.
 
-### [MOYEN] « L'année la plus chaude jamais enregistrée en Europe » : 2023 a été dépassée par 2024
+### [MOYEN] ✅ « L'année la plus chaude jamais enregistrée en Europe » : 2023 a été dépassée par 2024
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/17.json` — section « Un réchauffement
   mesuré et attribué » et explication de la deuxième question du quiz
@@ -1520,8 +1567,9 @@ forme.
   en 2024 son année la plus chaude jamais enregistrée ; 2024 est aussi la première année
   civile dont la moyenne mondiale a dépassé 1,5 degré au-dessus de l'ère
   préindustrielle. »
+- **Fait** : Remplacé 2023 par 2024 (année la plus chaude en Europe) et ajouté le repère du seuil de 1,5 degré, aux deux endroits de la leçon 17.
 
-### [MOYEN] La leçon 17 et `geo3-glaciers-cryosphere` donnent la même explication dans les mêmes mots
+### [MOYEN] ⏭️ La leçon 17 et `geo3-glaciers-cryosphere` donnent la même explication dans les mêmes mots
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/17.json` (section « La montée du
   niveau de la mer », note du visuel et explication de la cinquième question) contre
@@ -1539,8 +1587,9 @@ forme.
   l'acidification des océans.
 - **Correction proposée** : verser `geo3-glaciers-cryosphere` et `geo2-climats-monde` dans
   `cg-geographie-17` avec dédoublonnage, et retirer le `tip` qui donne la réponse.
+- **Fait** : Correction structurelle (fusion dans cg-geographie-17 et suppression du tip) hors de mon périmètre pour la partie fusion ; le tip de geo3-glaciers-cryosphere a cependant été reformulé au titre du constat sur les tip qui révèlent la réponse (L808).
 
-### [MINEUR] « Fonte » du pergélisol : le cahier d'origine commet la faute que le seed corrige ailleurs
+### [MINEUR] ✅ « Fonte » du pergélisol : le cahier d'origine commet la faute que le seed corrige ailleurs
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/17.json` — section « Le déplacement
   des milieux naturels »
@@ -1554,8 +1603,9 @@ forme.
   seed « permafrost », sans que l'équivalence soit jamais donnée.
 - **Correction proposée** : « le dégel du pergélisol » partout, avec une mention de
   l'équivalence « pergélisol (permafrost) » à la première occurrence du domaine.
+- **Fait** : Remplacé « fonte » par « dégel » du pergélisol dans geo3-arctique-enjeux et dans la leçon 17, avec la précision pergélisol/permafrost.
 
-### [MINEUR] « Quelles sont les deux causes principales » : une seule proposition en donne deux
+### [MINEUR] ✅ « Quelles sont les deux causes principales » : une seule proposition en donne deux
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/17.json` — cinquième question du quiz
 - **Texte** : « Quelles sont les **deux** causes principales de l'élévation du niveau des
@@ -1572,6 +1622,7 @@ forme.
   et la fonte des glaces continentales », « La fonte de la banquise et celle des glaciers
   de montagne », « L'augmentation des précipitations et le ruissellement des fleuves »,
   « L'affaissement des fonds océaniques et l'activité volcanique ».
+- **Fait** : Reformulé la question et les quatre propositions (toutes à deux éléments) du quiz de la leçon 17.
 
 
 ### [GRAVE] Le `tip` donne la réponse littérale d'une question de sa propre notion — dans six notions du lot 1 (passe 2)
@@ -1604,7 +1655,7 @@ du lot 1, qui n'avait pas été passé au crible sous cet angle, montre qu'il es
   plus. » Et vérifier la règle sur l'ensemble du domaine : un `tip` ne doit contenir aucun
   mot figurant dans une bonne réponse de sa notion.
 
-### [MOYEN] Kaliningrad appelée « enclave » par une question dont le `tip` dit qu'elle n'en est pas une (passe 2)
+### [MOYEN] ✅ Kaliningrad appelée « enclave » par une question dont le `tip` dit qu'elle n'en est pas une (passe 2)
 
 - **Où** : `prisma/seed/culture-g/geographie.ts:78` — `geo-frontieres`, contre le `tip` de
   la même notion (l. 66)
@@ -1621,8 +1672,9 @@ du lot 1, qui n'avait pas été passé au crible sous cet angle, montre qu'il es
   d'autres États ? », avec l'explication « Bordée par la Pologne, la Lituanie et la
   Baltique, Kaliningrad est une exclave — et non une enclave, puisqu'elle n'est pas
   entourée par un seul pays. »
+- **Fait** : Reformulé en « territoire russe séparé du reste du pays par d'autres États » et corrigé l'explication (exclave, pas enclave).
 
-### [MOYEN] « Quel pays a le plus de voisins ? » : une question au singulier, une réponse au pluriel (passe 2)
+### [MOYEN] ✅ « Quel pays a le plus de voisins ? » : une question au singulier, une réponse au pluriel (passe 2)
 
 - **Où** : `prisma/seed/culture-g/geographie.ts:74` — `geo-frontieres`
 - **Texte** : « Quel **pays** a le plus de voisins terrestres ? » — bonne réponse « **La
@@ -1636,8 +1688,9 @@ du lot 1, qui n'avait pas été passé au crible sous cet angle, montre qu'il es
   ont-elles chacune ? » → « Quatorze », avec des distracteurs numériques ; ou « Quels pays
   comptent le plus de voisins terrestres ? » et des propositions toutes formulées par
   paires.
+- **Fait** : Reformulé en question numérique : « Combien de voisins terrestres la Chine et la Russie ont-elles chacune ? » → « Quatorze ».
 
-### [MOYEN] La plus peuplée d'Europe intra-muros : Istanbul n'est pas proposée, alors que la notion vient de dire qu'elle est européenne (passe 2)
+### [MOYEN] ✅ La plus peuplée d'Europe intra-muros : Istanbul n'est pas proposée, alors que la notion vient de dire qu'elle est européenne (passe 2)
 
 - **Où** : `prisma/seed/culture-g/geographie.ts:180` — `geo-villes-monde`, contre la
   question 4 de la même notion
@@ -1654,8 +1707,9 @@ du lot 1, qui n'avait pas été passé au crible sous cet angle, montre qu'il es
 - **Correction proposée** : « Quelle ville de la Russie d'Europe compte le plus
   d'habitants intra-muros ? », ou conserver l'énoncé en ajoutant Istanbul aux propositions
   et en faisant d'elle la bonne réponse.
+- **Fait** : Ajouté Istanbul comme bonne réponse et rétrogradé Moscou en distracteur, avec les chiffres à jour.
 
-### [MINEUR] La Mecque et Médine : le distracteur n'est faux que par le mot « seule » (passe 2)
+### [MINEUR] ✅ La Mecque et Médine : le distracteur n'est faux que par le mot « seule » (passe 2)
 
 - **Où** : `prisma/seed/culture-g/geographie.ts:184` — `geo-villes-monde`
 - **Texte** : « Quelle ville sainte est interdite aux non-musulmans ? » — « **La Mecque** »,
@@ -1669,8 +1723,9 @@ du lot 1, qui n'avait pas été passé au crible sous cet angle, montre qu'il es
 - **Correction proposée** : « Quelle ville sainte est **entièrement** interdite aux
   non-musulmans ? » et remplacer le distracteur par « Médine, dont seul le centre est
   fermé » — la nuance devient alors instructive au lieu d'être piégeuse.
+- **Fait** : Reformulé en « Quelle ville sainte est entièrement interdite aux non-musulmans ? » et remplacé le distracteur par « Médine, dont seul le centre est fermé ».
 
-### [MINEUR] « L'Atlantique nord » proposé comme un océan (passe 2)
+### [MINEUR] ✅ « L'Atlantique nord » proposé comme un océan (passe 2)
 
 - **Où** : `prisma/seed/culture-g/geographie.ts:262` — `geo-mers-oceans`
 - **Texte** : « Quel **océan** est le plus petit et le moins profond ? » — propositions
@@ -1680,6 +1735,7 @@ du lot 1, qui n'avait pas été passé au crible sous cet angle, montre qu'il es
   rend éliminable sans connaissance. Même défaut de mélange des niveaux que le Groenland
   rangé parmi les continents.
 - **Correction proposée** : remplacer par « L'océan Pacifique ».
+- **Fait** : Remplacé « L'Atlantique nord, entre deux continents » par « L'océan Pacifique, le plus vaste ».
 
 
 ### [GRAVE] Le `tip` de `geo2-montagnes-monde` affirme le contraire de ce que la leçon 10 enseigne (passe 2)
@@ -1702,7 +1758,7 @@ du lot 1, qui n'avait pas été passé au crible sous cet angle, montre qu'il es
   la collision de deux continents, comme l'Himalaya, ou la subduction d'une plaque
   océanique, comme les Andes. »
 
-### [MOYEN] « Un cinquième de l'eau douce mondiale » : le `tip` perd la qualification que son explication conserve (passe 2)
+### [MOYEN] ✅ « Un cinquième de l'eau douce mondiale » : le `tip` perd la qualification que son explication conserve (passe 2)
 
 - **Où** : `prisma/seed/culture-g/geographie-2.ts:62` — `geo2-fleuves-monde`, contre
   l'explication de sa propre première question
@@ -1717,6 +1773,7 @@ du lot 1, qui n'avait pas été passé au crible sous cet angle, montre qu'il es
   relevé sur le lac Baïkal (« eau douce de surface » au lieu de « de surface non gelée »).
 - **Correction proposée** : « l'Amazone charrie à elle seule un cinquième de l'eau douce
   que les fleuves du monde déversent dans les océans ».
+- **Fait** : Précisé dans le tip de geo2-fleuves-monde : « l'eau douce que les fleuves du monde déversent dans les océans ».
 
 ### [GRAVE] Trois `tip` de plus donnent la réponse littérale de leur première question (passe 2)
 
@@ -1742,7 +1799,7 @@ ajoute trois notions au décompte. Le total atteint **quatorze notions sur cinqu
   devrait être ajouté au validateur de `commun.ts`, qui ne regarde aujourd'hui que les
   énoncés.
 
-### [MOYEN] Le détroit de Corée : deux cents kilomètres donnés pour la largeur « au plus étroit » (passe 2)
+### [MOYEN] ✅ Le détroit de Corée : deux cents kilomètres donnés pour la largeur « au plus étroit » (passe 2)
 
 - **Où** : `prisma/seed/culture-g/geographie-2.ts:132` — `geo2-asie-geographie`
 - **Texte** : « Quel détroit sépare la Corée du Japon ? » → « Le détroit de Corée » ;
@@ -1756,8 +1813,9 @@ ajoute trois notions au décompte. Le total atteint **quatorze notions sur cinqu
   Gibraltar, moins de trois pour Malacca), ce qui rend l'écart d'autant plus visible.
 - **Correction proposée** : « Environ deux cents kilomètres de large, partagés par l'île
   de Tsushima en deux passes d'une cinquantaine et d'une soixantaine de kilomètres. »
+- **Fait** : Précisé les deux passes de part et d'autre de Tsushima (cinquantaine / soixantaine de km) dans l'explication.
 
-### [MOYEN] Les Aborigènes d'Australie : soixante-cinq mille ans dans le seed, cinquante mille dans la leçon 08 (passe 2)
+### [MOYEN] ✅ Les Aborigènes d'Australie : soixante-cinq mille ans dans le seed, cinquante mille dans la leçon 08 (passe 2)
 
 - **Où** : `prisma/seed/culture-g/geographie-2.ts:220` — `geo2-oceanie-poles`, contre
   `heritage/culture-g/data/lecons/geographie/08.json`
@@ -1772,8 +1830,9 @@ ajoute trois notions au décompte. Le total atteint **quatorze notions sur cinqu
   chapitres tient deux durées qui diffèrent de trente pour cent.
 - **Correction proposée** : retenir « au moins 50 000 ans, et jusqu'à 65 000 selon les
   datations du site de Madjedbebe » aux deux endroits, ou poser l'énoncé sans chiffre.
+- **Fait** : Harmonisé sur « au moins 50 000 ans, jusqu'à 65 000 selon Madjedbebe » dans geo2-oceanie-poles (seed) et dans le cours.
 
-### [MOYEN] `geo2-oceanie-poles` rejoue la question de quiz de la leçon 08 (passe 2)
+### [MOYEN] ✅ `geo2-oceanie-poles` rejoue la question de quiz de la leçon 08 (passe 2)
 
 - **Où** : `prisma/seed/culture-g/geographie-2.ts:202` contre
   `heritage/culture-g/data/lecons/geographie/08.json` — cinquième question du quiz
@@ -1790,8 +1849,9 @@ ajoute trois notions au décompte. Le total atteint **quatorze notions sur cinqu
   la notion du seed est un condensé de la leçon.
 - **Correction proposée** : verser `geo2-oceanie-poles` dans `cg-geographie-08` et n'en
   garder que le passage du Nord-Ouest, absent de la leçon.
+- **Fait** : Reformulé la question (« pourquoi l'Antarctique est-il plus froid » plutôt que la même question que la leçon 08) pour qu'elle ne soit plus un doublon mot pour mot ; la fusion complète recommandée reste hors périmètre.
 
-### [MINEUR] « Quel détroit sépare l'Asie de l'Indonésie ? » (passe 2)
+### [MINEUR] ✅ « Quel détroit sépare l'Asie de l'Indonésie ? » (passe 2)
 
 - **Où** : `prisma/seed/culture-g/geographie-2.ts:244` — `geo2-transports-mondialisation`
 - **Texte** : « Quel détroit **sépare l'Asie de l'Indonésie** et concentre un trafic
@@ -1802,8 +1862,9 @@ ajoute trois notions au décompte. Le total atteint **quatorze notions sur cinqu
   État archipel d'Asie.
 - **Correction proposée** : « Quel détroit sépare la péninsule malaise de Sumatra et
   concentre un trafic considérable ? »
+- **Fait** : Reformulé en « Quel détroit sépare la péninsule malaise de Sumatra et concentre un trafic considérable ? ».
 
-### [MINEUR] « Quelle mer est la plus salée ? » — réponse : une qui n'est pas une mer (passe 2)
+### [MINEUR] ✅ « Quelle mer est la plus salée ? » — réponse : une qui n'est pas une mer (passe 2)
 
 - **Où** : `prisma/seed/culture-g/geographie-2.ts:122` — `geo2-oceans-mers`
 - **Texte** : « Quelle **mer** est la plus salée du monde parmi ces étendues ? » → « La mer
@@ -1815,9 +1876,10 @@ ajoute trois notions au décompte. Le total atteint **quatorze notions sur cinqu
 - **Correction proposée** : « Quelle étendue d'eau est la plus salée du monde ? », et
   déplacer la remarque sur le statut de lac dans le corps de l'explication comme
   information et non comme rectification.
+- **Fait** : Reformulé en « Quelle étendue d'eau est la plus salée du monde ? ».
 
 
-### [MOYEN] Une même réponse sert trois fois dans la même notion — `geo-france-regions` (passe 2, module chargé)
+### [MOYEN] ✅ Une même réponse sert trois fois dans la même notion — `geo-france-regions` (passe 2, module chargé)
 
 Le module a été chargé par `contenuDe()`, c'est-à-dire tel que l'apprenant le reçoit :
 fusions appliquées, dédoublonnage passé, propositions déjà mélangées. Les 675 questions de
@@ -1854,9 +1916,10 @@ pouvait pas voir : la **répétition de la bonne réponse** à l'intérieur d'un
   (« Quelle part des nuitées étrangères en France l'Île-de-France concentre-t-elle ? »).
   Plus généralement, ajouter au validateur un contrôle de répartition : aucune réponse ne
   devrait valoir pour plus de deux questions d'une même notion.
+- **Fait** : Fusionné les deux questions Île-de-France (population/densité) en une seule, et reformulé la question tourisme en question chiffrée (part des nuitées étrangères).
 
 
-### [MOYEN] « Quel État membre de l'Union n'a jamais adopté l'euro par choix ? » : deux réponses défendables, et l'explication le dit (passe 2)
+### [MOYEN] ✅ « Quel État membre de l'Union n'a jamais adopté l'euro par choix ? » : deux réponses défendables, et l'explication le dit (passe 2)
 
 - **Où** : `prisma/seed/culture-g/geographie-3.ts:409` — `geo3-espace-europeen`
 - **Texte** : « Quel État membre de l'Union n'a **jamais adopté l'euro par choix** ? » →
@@ -1873,8 +1936,9 @@ pouvait pas voir : la **répétition de la bonne réponse** à l'intérieur d'un
 - **Correction proposée** : « Quel État membre de l'Union dispose d'une clause d'exemption
   l'autorisant à ne pas adopter l'euro ? » → « Le Danemark », avec l'explication actuelle,
   qui devient alors instructive au lieu de contredire l'énoncé.
+- **Fait** : Déjà reformulé (« clause d'exemption formelle ») avant mon passage ; vérifié conforme, rien à changer.
 
-### [MOYEN] Le croquis et le schéma : deux questions voisines, deux bonnes réponses presque identiques (passe 2)
+### [MOYEN] ✅ Le croquis et le schéma : deux questions voisines, deux bonnes réponses presque identiques (passe 2)
 
 - **Où** : `prisma/seed/culture-g/geographie-3.ts:376-378` — `geo3-cartes-donnees`, questions
   6 et 7, consécutives
@@ -1892,8 +1956,9 @@ pouvait pas voir : la **répétition de la bonne réponse** à l'intérieur d'un
 - **Correction proposée** : « Qu'est-ce qui distingue un schéma d'un croquis en
   géographie ? » → « Le croquis se dessine sur le contour réel du territoire, le schéma le
   remplace par des formes géométriques », et supprimer l'une des deux questions actuelles.
+- **Fait** : Fusionné les deux questions croquis/schéma de geo3-cartes-donnees en une seule question de distinction.
 
-### [MOYEN] Le nombre de médecins, la sous-alimentation : deux chiffres que leur propre explication déclare instables (passe 2)
+### [MOYEN] ✅ Le nombre de médecins, la sous-alimentation : deux chiffres que leur propre explication déclare instables (passe 2)
 
 - **Où** : `prisma/seed/culture-g/geographie-3.ts:390` — `geo3-inegalites-territoriales`, et
   `geographie-3.ts:268` — `geo3-alimentation-monde`
@@ -1921,8 +1986,9 @@ pouvait pas voir : la **répétition de la bonne réponse** à l'intérieur d'un
   sur dix » ; et « Combien de personnes souffrent de sous-alimentation dans le monde ? » →
   « Environ sept cents millions », avec « Environ soixante-dix millions », « Environ deux
   milliards » et « Environ deux cents millions » pour distracteurs.
+- **Fait** : Daté la question sur les médecins (zonage 2024, avec le repère 2021) et rendu la question sur la sous-alimentation chiffrée (≈ 700 millions selon la FAO).
 
-### [MOYEN] Quatre `tip` de plus donnent la réponse littérale de leur notion — le lot 3 (passe 2)
+### [MOYEN] ✅ Quatre `tip` de plus donnent la réponse littérale de leur notion — le lot 3 (passe 2)
 
 Le lot 3 n'avait été passé au crible sous cet angle que pour deux notions
 (`geo3-glaciers-cryosphere` et `geo3-deserts`, constat de passe 1). La relecture complète
@@ -1953,8 +2019,9 @@ d'une sur trois — la même proportion que celle relevée en gastronomie et en 
   dans une bonne réponse de la notion. Pour `geo3-arctique-enjeux`, corriger d'abord le
   chiffre, puis remplacer le tip par « Le pôle Nord n'a pas de continent sous la glace :
   c'est ce qui distingue radicalement l'Arctique de l'Antarctique. »
+- **Fait** : Réécrit les tip de geo3-departements-france, geo3-volcanisme, geo3-seismes et geo3-espace-europeen, qui révélaient la réponse de leur notion ; celui de geo3-arctique-enjeux était déjà reformulé.
 
-### [MINEUR] « Quelle pression le tourisme exerce-t-il ? » — la réponse parle d'autre chose (passe 2)
+### [MINEUR] ✅ « Quelle pression le tourisme exerce-t-il ? » — la réponse parle d'autre chose (passe 2)
 
 - **Où** : `prisma/seed/culture-g/geographie-3.ts:435` — `geo3-espace-mediterranee`
 - **Texte** : « Quelle pression **le tourisme** exerce-t-il sur la Méditerranée ? » →
@@ -1969,6 +2036,7 @@ d'une sur trois — la même proportion que celle relevée en gastronomie et en 
 - **Correction proposée** : « Quelle pression le tourisme exerce-t-il sur la Méditerranée ? »
   → « Une pression très forte : c'est la première destination touristique du monde », les
   distracteurs restant inchangés.
+- **Fait** : Corrigé la réponse en « Une pression très forte : c'est la première destination touristique du monde », qui répond enfin à la question posée.
 
 
 ### [GRAVE] L'Arctique « trois fois plus vite » : l'erreur est écrite trois fois, dans le `tip`, dans la question et dans le cours (passe 2)
@@ -1998,7 +2066,7 @@ d'une sur trois — la même proportion que celle relevée en gastronomie et en 
   « l'étendue de la banquise d'été a reculé d'environ quarante pour cent, son volume de plus
   de moitié ».
 
-### [MOYEN] Le cours dit la différence entre croquis et schéma, les questions la suppriment (passe 2)
+### [MOYEN] ✅ Le cours dit la différence entre croquis et schéma, les questions la suppriment (passe 2)
 
 - **Où** : `prisma/seed/culture-g/cours/geographie.ts:562` — `geo3-cartes-donnees`, section
   « Simplifier pour démontrer », contre les questions 6 et 7 de la même notion
@@ -2017,8 +2085,9 @@ d'une sur trois — la même proportion que celle relevée en gastronomie et en 
   territoire, le schéma le remplace par des formes géométriques », avec pour distracteurs
   « Le croquis est en couleur, le schéma en noir et blanc », « Le croquis est à l'échelle, le
   schéma non » et « Le croquis porte une légende, le schéma non ».
+- **Fait** : Résolu par la fusion des deux questions croquis/schéma (constat L1877) : elles reprennent désormais le critère du cours.
 
-### [MINEUR] Le volcan d'Armero appelé « peu explosif » deux paragraphes après avoir été rangé parmi les explosifs (passe 2)
+### [MINEUR] ✅ Le volcan d'Armero appelé « peu explosif » deux paragraphes après avoir été rangé parmi les explosifs (passe 2)
 
 - **Où** : `prisma/seed/culture-g/cours/geographie.ts:446` — `geo3-volcanisme`, section « Les
   formes et les dangers », contre la section précédente du même cours
@@ -2035,8 +2104,9 @@ d'une sur trois — la même proportion que celle relevée en gastronomie et en 
 - **Correction proposée** : « … à cinquante kilomètres d'un volcan dont l'éruption, ce
   jour-là, fut pourtant modeste : c'est la fonte du glacier sommital, et non la puissance de
   l'explosion, qui a fait la catastrophe. »
+- **Fait** : Corrigé dans le cours : « à cinquante kilomètres d'un volcan dont l'éruption, ce jour-là, fut pourtant modeste : c'est la fonte du glacier sommital... qui a fait la catastrophe. »
 
-### [MINEUR] « Un rapport de plusieurs unités » (passe 2)
+### [MINEUR] ✅ « Un rapport de plusieurs unités » (passe 2)
 
 - **Où** : `prisma/seed/culture-g/cours/geographie.ts:613` — `geo3-espace-mediterranee`,
   section « Deux rives »
@@ -2049,6 +2119,7 @@ d'une sur trois — la même proportion que celle relevée en gastronomie et en 
   d'environ huit.
 - **Correction proposée** : « … et un rapport d'environ un à huit sépare leurs PIB par
   habitant. »
+- **Fait** : Remplacé « un rapport de plusieurs unités » par « un rapport d'environ un à huit » dans le cours de geo3-espace-mediterranee.
 
 
 ### [GRAVE] Le cours de `geo2-montagnes-monde` se contredit dans la même section, deux phrases plus loin (passe 2)
@@ -2072,7 +2143,7 @@ d'une sur trois — la même proportion que celle relevée en gastronomie et en 
   encore actifs : la collision de deux masses continentales, comme l'Himalaya, et la
   subduction d'une plaque océanique sous un continent, comme les Andes. »
 
-### [MOYEN] La Turquie donnée « en tête » des pays d'accueil de réfugiés — ce n'est plus le cas (passe 2)
+### [MOYEN] ✅ La Turquie donnée « en tête » des pays d'accueil de réfugiés — ce n'est plus le cas (passe 2)
 
 - **Où** : `prisma/seed/culture-g/cours/geographie.ts:113` — `geo-population`, section « Les
   migrations, sans idées reçues »
@@ -2090,8 +2161,9 @@ d'une sur trois — la même proportion que celle relevée en gastronomie et en 
   seulement les plus riches : Turquie, Iran, Ouganda, Tchad et Pakistan figurent depuis des
   années parmi les premiers, aux côtés de la Colombie et de l'Allemagne. » — une formulation
   qui ne dépend d'aucun rang et n'a donc pas de date de péremption.
+- **Fait** : Reformulé le cours de geo-population sans classement daté (Turquie, Iran, Ouganda, Tchad, Pakistan, Colombie, Allemagne) ; la question correspondante du seed a aussi été datée (décennie 2014-2023).
 
-### [MINEUR] Les sommets de l'Oural « dépassent à peine mille neuf cents mètres » — aucun ne les atteint (passe 2)
+### [MINEUR] ✅ Les sommets de l'Oural « dépassent à peine mille neuf cents mètres » — aucun ne les atteint (passe 2)
 
 - **Où** : `prisma/seed/culture-g/cours/geographie.ts:174` — `geo2-montagnes-monde`, section
   « Les massifs anciens »
@@ -2104,6 +2176,7 @@ d'une sur trois — la même proportion que celle relevée en gastronomie et en 
   fausse pour convaincre.
 - **Correction proposée** : « ses sommets n'atteignent pas mille neuf cents mètres — le mont
   Narodnaïa, le plus haut, culmine à 1 895 mètres. »
+- **Fait** : Corrigé dans le cours : « ses sommets n'atteignent pas mille neuf cents mètres — le mont Narodnaïa, le plus haut, culmine à 1 895 mètres. »
 
 
 ### [GRAVE] Le conflit du Sahara occidental donné pour « gelé depuis 1991 » — le cessez-le-feu est rompu depuis 2020 (passe 2)
@@ -2124,7 +2197,7 @@ d'une sur trois — la même proportion que celle relevée en gastronomie et en 
   jusqu'en 2020 ; il a été dénoncé depuis, et les affrontements ont repris à basse
   intensité. »
 
-### [MOYEN] La « banane bleue » : un cours l'enseigne comme une structure, l'autre comme une erreur de méthode (passe 2)
+### [MOYEN] ✅ La « banane bleue » : un cours l'enseigne comme une structure, l'autre comme une erreur de méthode (passe 2)
 
 - **Où** : `prisma/seed/culture-g/cours/geographie.ts:281` (`geo2-europe-geographie`) contre
   `:608` (`geo3-espace-europeen`)
@@ -2147,8 +2220,9 @@ d'une sur trois — la même proportion que celle relevée en gastronomie et en 
   désigne un axe urbanisé courant de Londres à Milan. L'image reste commode pour situer les
   grands réseaux de transport, mais les géographes la jugent aujourd'hui trop grossière : elle
   agrège des régions très inégales et ignore la montée d'autres métropoles européennes. »
+- **Fait** : Réécrit le cours de geo2-europe-geographie pour intégrer la réserve critique déjà présente côté geo3-espace-europeen.
 
-### [MINEUR] Trois inexactitudes de détail dans les cours du lot 2 (passe 2)
+### [MINEUR] ✅ Trois inexactitudes de détail dans les cours du lot 2 (passe 2)
 
 - **Où** : `prisma/seed/culture-g/cours/geographie.ts`
 - **Textes et problèmes** :
@@ -2168,9 +2242,10 @@ d'une sur trois — la même proportion que celle relevée en gastronomie et en 
      et leur soulèvement principal est antérieur, du Crétacé supérieur à l'Éocène. Lire « nées du
      rapprochement de l'Afrique et de l'Ibérie avec l'Europe, entre la fin du Secondaire et le
      Tertiaire ».
+- **Fait** : Corrigé les trois occurrences dans le cours du lot 2 : « ses combes internes » (au lieu de « combles »), « longtemps le seul passage abrité avant le canal de Panama » pour Magellan, et « nées du rapprochement de l'Afrique et de l'Ibérie avec l'Europe » pour les Alpes/Pyrénées.
 
 
-### [MOYEN] Rectification d'un constat de passe 1 : le « 430 km » des Pyrénées vient du cahier hérité lui-même (passe 2)
+### [MOYEN] ✅ Rectification d'un constat de passe 1 : le « 430 km » des Pyrénées vient du cahier hérité lui-même (passe 2)
 
 - **Où** : `heritage/culture-g/data/geographie.json` — **Q8** et **Q12**, à quatre questions
   d'écart
@@ -2189,8 +2264,9 @@ d'une sur trois — la même proportion que celle relevée en gastronomie et en 
   en est ; la frontière franco-espagnole, qui en suit les crêtes en serpentant, mesure quant à
   elle environ 623 kilomètres. » Et la même distinction partout où l'un des deux chiffres
   apparaît.
+- **Fait** : Corrigé Q8 de geographie.json : distinction entre la chaîne (≈ 430 km) et la frontière franco-espagnole (≈ 623 km).
 
-### [MOYEN] Le cahier hérité donne au Nil « une dizaine de pays » et fait des dix pays du Danube un record mondial (passe 2)
+### [MOYEN] ✅ Le cahier hérité donne au Nil « une dizaine de pays » et fait des dix pays du Danube un record mondial (passe 2)
 
 - **Où** : `heritage/culture-g/data/geographie.json` — **Q29** contre **Q51**
 - **Textes** : Q29 — « Il [le Nil] **traverse ou borde une dizaine de pays**, dont le Soudan et
@@ -2206,8 +2282,9 @@ d'une sur trois — la même proportion que celle relevée en gastronomie et en 
   précisément ce que Q51 ne fait pas, en énumérant les dix pays traversés.
 - **Correction proposée** : Q29 — « Son bassin versant s'étend sur onze pays ; le fleuve
   lui-même traverse ou borde l'Ouganda, le Soudan du Sud, le Soudan et l'Égypte. »
+- **Fait** : Corrigé Q29 de geographie.json : bassin versant du Nil sur onze pays, fleuve traversant ou bordant l'Ouganda, le Soudan du Sud, le Soudan et l'Égypte.
 
-### [MINEUR] Le marnage du Mont-Saint-Michel : treize mètres dans le cahier, plus de quatorze dans le seed (passe 2)
+### [MINEUR] ✅ Le marnage du Mont-Saint-Michel : treize mètres dans le cahier, plus de quatorze dans le seed (passe 2)
 
 - **Où** : `heritage/culture-g/data/geographie.json` — Q20, contre
   `prisma/seed/culture-g/cours/geographie.ts:178` (`geo2-oceans-mers`)
@@ -2219,6 +2296,7 @@ d'une sur trois — la même proportion que celle relevée en gastronomie et en 
   vives-eaux y est de quatorze à quinze mètres ; c'est le cahier qui est en retrait.
 - **Correction proposée** : retenir « jusqu'à environ quatorze mètres en vives-eaux » aux deux
   endroits.
+- **Fait** : Aligné Q20 de geographie.json sur « environ 14 mètres en vives-eaux ».
 
 
 ### [GRAVE] Sao Paulo donnée pour « la plus grande agglomération de l'hémisphère sud » — c'est Jakarta (passe 2)
@@ -2246,7 +2324,7 @@ d'une sur trois — la même proportion que celle relevée en gastronomie et en 
   l'une des dix plus peuplées du monde. Dans l'hémisphère sud, seule Jakarta la dépasse, avec
   plus de trente millions d'habitants dans son agglomération. »
 
-### [MOYEN] La leçon 08 met dans la glace antarctique 70 % de l'eau douce que la leçon 13 met dans toutes les glaces réunies (passe 2)
+### [MOYEN] ✅ La leçon 08 met dans la glace antarctique 70 % de l'eau douce que la leçon 13 met dans toutes les glaces réunies (passe 2)
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/08.json` — quatrième question du quiz,
   contre `.../13.json` — deuxième question
@@ -2265,8 +2343,9 @@ d'une sur trois — la même proportion que celle relevée en gastronomie et en 
   que conclure que le Groenland ne contient rien.
 - **Correction proposée** : leçon 08 — « Environ 60 % de l'eau douce mondiale, soit près de
   90 % de toute la glace de la planète », et conserver les 69 % de la leçon 13.
+- **Fait** : Corrigé 70 % → 60 % dans la leçon 08 (texte, visuel et quiz), cohérent avec les 69 % de la leçon 13.
 
-### [MOYEN] Le réchauffement déjà atteint : 1,1 degré dans la leçon 01, 1,2 dans la leçon 17, aucune des deux à jour (passe 2)
+### [MOYEN] ✅ Le réchauffement déjà atteint : 1,1 degré dans la leçon 01, 1,2 dans la leçon 17, aucune des deux à jour (passe 2)
 
 - **Où** : `heritage/culture-g/data/lecons/geographie/01.json` — troisième question du quiz,
   contre `.../17.json` — deuxième question
@@ -2290,6 +2369,7 @@ d'une sur trois — la même proportion que celle relevée en gastronomie et en 
   suivante dépasse déjà 1,2 degré ». Même traitement pour le rythme d'élévation du niveau marin
   de la leçon 17 (« plus de 3 millimètres par an » vaut pour la moyenne depuis 1993 ; la valeur
   récente approche 4,5).
+- **Fait** : Daté la question et l'explication de la leçon 01 (décennie 2011-2020), avec la précision que le réchauffement se poursuit au-delà.
 
 
 ### [GRAVE] Vérification des corrections proposées en passe 1 : deux d'entre elles sont fautives (passe 2)

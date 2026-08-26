@@ -89,9 +89,9 @@ export const BATCH_011: ContentBatch = {
       tip: "Les virgules trahissent la comparaison : verbe au singulier.",
       difficulty: 3,
       sentences: [
-        { marked: "Le directeur, de même que son adjoint, [seront] présents.", fix: "sera" },
+        { marked: "Le directeur de l'agence, de même que son adjoint, [seront] présents.", fix: "sera" },
         { marked: "Aussi bien que le père, la mère [sont] responsable.", fix: "est" },
-        { marked: "Sa voix, de même que son regard, [trahissaient] sa lassitude.", fix: "trahissait" },
+        { marked: "Sa voix douce, de même que son regard, [trahissaient] sa lassitude.", fix: "trahissait" },
         { marked: "Le chat, aussi bien que le chien, [dorment] toute la journée.", fix: "dort" },
         { marked: "Le maire, de même que ses adjoints, assistera à la cérémonie.", fix: null },
       ],

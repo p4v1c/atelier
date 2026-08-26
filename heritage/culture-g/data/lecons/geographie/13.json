@@ -58,7 +58,7 @@
   },
   {
    "titre": "Des usages inégaux et une répartition déséquilibrée",
-   "texte": "À l'échelle mondiale, l'agriculture est de très loin la première consommatrice d'eau douce : elle en prélève environ 70 pour cent, et cette part peut atteindre 90 pour cent dans les pays les moins avancés, où l'irrigation conditionne la sécurité alimentaire. L'industrie et les usages domestiques se partagent le reste, avec des proportions variables selon le niveau de développement. Les sources mobilisées diffèrent également : en Europe, les cours d'eau fournissent 46 pour cent de la demande totale et les eaux souterraines 35 pour cent. La ressource est par ailleurs très inégalement répartie sur le globe. Neuf pays seulement, le Brésil, la Russie, l'Indonésie, la Chine, le Canada, les États-Unis, la Colombie, le Pérou et l'Inde, détiennent près de 60 pour cent des ressources renouvelables en eau douce de la planète. À l'inverse, des États comme le Koweït, Bahreïn ou les Émirats arabes unis ne disposent pratiquement d'aucune ressource naturelle en eau douce et dépendent du dessalement de l'eau de mer. À cette inégalité s'ajoute la dégradation de la qualité : pollutions agricoles, industrielles et urbaines rendent une partie des ressources inutilisables. Les milieux aquatiques continentaux en paient le prix fort, puisque les populations d'animaux d'eau douce ont chuté d'environ 88 pour cent entre 1970 et 2012, un effondrement bien plus rapide que celui observé dans les milieux terrestres ou marins."
+   "texte": "À l'échelle mondiale, l'agriculture est de très loin la première consommatrice d'eau douce : elle en prélève environ 70 pour cent, et cette part peut atteindre 90 pour cent dans les pays les moins avancés, où l'irrigation conditionne la sécurité alimentaire. L'industrie et les usages domestiques se partagent le reste, avec des proportions variables selon le niveau de développement. Les sources mobilisées diffèrent également : en Europe, les cours d'eau fournissent 46 pour cent de la demande totale et les eaux souterraines 35 pour cent. La ressource est par ailleurs très inégalement répartie sur le globe. Neuf pays seulement, le Brésil, la Russie, l'Indonésie, la Chine, le Canada, les États-Unis, la Colombie, le Pérou et l'Inde, détiennent près de 60 pour cent des ressources renouvelables en eau douce de la planète. À l'inverse, des États comme le Koweït, Bahreïn ou les Émirats arabes unis ne disposent pratiquement d'aucune ressource naturelle en eau douce et dépendent du dessalement de l'eau de mer. À cette inégalité s'ajoute la dégradation de la qualité : pollutions agricoles, industrielles et urbaines rendent une partie des ressources inutilisables. Les milieux aquatiques continentaux en paient le prix fort, puisque les populations de vertébrés d'eau douce ont chuté d'environ 81 pour cent entre 1970 et 2012, et de 88 pour cent pour la seule grande faune, un effondrement bien plus rapide que celui observé dans les milieux terrestres ou marins."
   },
   {
    "titre": "Stress hydrique et pénurie d'eau",
@@ -66,11 +66,11 @@
   },
   {
    "titre": "La mer d'Aral, une catastrophe exemplaire",
-   "texte": "Aucun exemple ne montre mieux les conséquences d'une mauvaise gestion de l'eau que la mer d'Aral, en Asie centrale, entre le Kazakhstan et l'Ouzbékistan. Dans les années 1960, ce lac salé était le quatrième plus grand du monde, avec une superficie d'environ 66 458 kilomètres carrés. Il ne couvre plus aujourd'hui qu'environ 8 300 kilomètres carrés, soit une perte de plus des trois quarts de son étendue. La cause est parfaitement identifiée : dès 1918, puis massivement à partir des années 1960, les autorités soviétiques ont détourné les deux fleuves qui l'alimentaient, l'Amou-Daria et le Syr-Daria, pour irriguer d'immenses plantations de coton en Ouzbékistan et au Kazakhstan. Entre 20 et 60 kilomètres cubes d'eau douce étaient ainsi détournés chaque année, et le niveau du lac baissait de 20 à 60 centimètres par an. Les conséquences ont été dramatiques. La salinité a explosé, faisant passer le nombre d'espèces de poissons de trente-deux à six et provoquant la disparition des vingt-huit espèces endémiques ; la pêche, qui faisait vivre des villes entières, s'est effondrée. Les fonds asséchés, chargés de sel et de pesticides, ont été soulevés par le vent, entraînant mortalité infantile, cancers, anémies et maladies respiratoires. Une réponse partielle existe : le barrage de Kokaral, achevé en 2005 sur treize kilomètres, a permis de remonter le niveau de la petite mer d'Aral au nord et d'y relancer la pêche.",
+   "texte": "Aucun exemple ne montre mieux les conséquences d'une mauvaise gestion de l'eau que la mer d'Aral, en Asie centrale, entre le Kazakhstan et l'Ouzbékistan. Dans les années 1960, ce lac salé était le quatrième plus grand du monde, avec une superficie d'environ 66 458 kilomètres carrés. Il ne couvre plus aujourd'hui qu'environ 8 300 kilomètres carrés, soit une perte de près de neuf dixièmes de son étendue. La cause est parfaitement identifiée : dès 1918, puis massivement à partir des années 1960, les autorités soviétiques ont détourné les deux fleuves qui l'alimentaient, l'Amou-Daria et le Syr-Daria, pour irriguer d'immenses plantations de coton en Ouzbékistan et au Kazakhstan. Entre 20 et 60 kilomètres cubes d'eau douce étaient ainsi détournés chaque année, et le niveau du lac baissait de 20 à 60 centimètres par an. Les conséquences ont été dramatiques. La salinité a explosé : sur les trente-deux espèces de poissons que comptait le lac, six seulement subsistent, et l'essentiel du peuplement endémique a disparu ; la pêche, qui faisait vivre des villes entières, s'est effondrée. Les fonds asséchés, chargés de sel et de pesticides, ont été soulevés par le vent, entraînant mortalité infantile, cancers, anémies et maladies respiratoires. Une réponse partielle existe : le barrage de Kokaral, achevé en 2005 sur treize kilomètres, a permis de remonter le niveau de la petite mer d'Aral au nord et d'y relancer la pêche.",
    "visuel": {
     "type": "image",
     "image": "geo-mer-aral",
-    "legende": "La mer d'Aral en 1989 et en 2008. Quatrième lac du monde avec 66 458 kilomètres carrés dans les années 1960, il n'en couvre plus qu'environ 8 300 : plus des trois quarts de son étendue ont disparu, absorbés par l'irrigation du coton.",
+    "legende": "La mer d'Aral en 1989 et en 2008. Quatrième lac du monde avec 66 458 kilomètres carrés dans les années 1960, il n'en couvre plus qu'environ 8 300 : près de neuf dixièmes de son étendue ont disparu, absorbés par l'irrigation du coton.",
     "alt": "Deux images satellite côte à côte du même lac d'Asie centrale : à gauche une vaste étendue d'eau sombre, à droite quelques lambeaux d'eau résiduels entourés de fonds asséchés clairs."
    }
   }
@@ -91,10 +91,10 @@
   {
    "q": "Sous quelle forme se trouve la plus grande partie de l'eau douce de la planète ?",
    "choix": [
-    "Dans les fleuves, les rivières et les cours d'eau de surface",
-    "Gelée dans les glaces et les neiges, pour environ 69 %",
+    "Dans les fleuves et les rivières",
+    "Gelée dans les glaces et les neiges",
     "En vapeur d'eau dans l'atmosphère",
-    "Dans les lacs et les étangs de plaine"
+    "Dans les nappes souterraines"
    ],
    "bonne": 1,
    "difficulte": 2,
@@ -103,8 +103,8 @@
   {
    "q": "Quel est le premier usage de l'eau douce prélevée dans le monde ?",
    "choix": [
-    "L'agriculture, avec environ 70 % des prélèvements",
-    "L'industrie manufacturière et ses procédés de fabrication",
+    "L'agriculture",
+    "L'industrie manufacturière",
     "Les usages domestiques des ménages",
     "Le refroidissement des centrales électriques thermiques"
    ],
@@ -128,8 +128,8 @@
    "q": "Quelle est la cause principale de l'assèchement de la mer d'Aral ?",
    "choix": [
     "Un séisme qui a fissuré le fond du lac",
-    "La seule évaporation naturelle, accélérée par le réchauffement climatique global",
-    "La construction d'un port en eau profonde",
+    "Une pollution industrielle massive de ses eaux",
+    "La construction d'un barrage hydroélectrique à son embouchure",
     "Le détournement de l'Amou-Daria et du Syr-Daria pour irriguer le coton"
    ],
    "bonne": 3,

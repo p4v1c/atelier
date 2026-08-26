@@ -1,5 +1,5 @@
 /**
- * Histoire de France, troisième lot — vingt notions sans cours.
+ * Histoire de France, troisième lot — dix-neuf notions sans cours.
  */
 import { notion } from "./commun";
 import type { SeedSkill } from "../../../src/modules/types";
@@ -24,7 +24,7 @@ export const CG_HISTOIRE_FRANCE_3: SeedSkill[] = [
     ["Qu'est-ce qu'une corvée seigneuriale ?", ["Un travail gratuit dû au seigneur", "Un impôt en argent versé à la Saint-Martin", "Une prestation militaire due au ban du roi", "Une redevance prélevée sur les récoltes"], 0,
      "La corvée royale, distincte, servait à l'entretien des routes."],
     ["Qu'est-ce qu'une corporation de métier ?", ["Une organisation encadrant l'exercice d'un métier et l'accès à la maîtrise", "Un syndicat de travailleurs défendant les salaires face au patronat des villes", "Une association de commerçants organisant les foires de la ville", "Une confrérie religieuse réunissant les artisans d'une même paroisse"], 0,
-     "Supprimées en 1791 par la loi Le Chapelier, qui interdit aussi toute coalition ouvrière."],
+     "Supprimées en mars 1791 par le décret d'Allarde ; la loi Le Chapelier, en juin, y ajoute l'interdiction de toute coalition ouvrière."],
     ["Qu'est-ce que la noblesse de robe ?", ["Une noblesse acquise par l'exercice de charges judiciaires ou administratives", "Une noblesse d'Église réservée aux évêques issus des grandes familles", "Une noblesse militaire née du service armé rendu au roi depuis des siècles", "Une noblesse de cour vivant des pensions versées à Versailles"], 0,
      "Elle s'opposait à la noblesse d'épée, plus ancienne et souvent méprisante à son égard."],
     ["Qu'est-ce que la vénalité des offices ?", ["L'achat de charges publiques, transmissibles par hérédité", "La corruption des officiers royaux chargés de lever l'impôt", "La vente de titres de noblesse par les intendants de province", "L'affermage des impôts confié à des compagnies privées"], 0,
@@ -54,7 +54,7 @@ export const CG_HISTOIRE_FRANCE_3: SeedSkill[] = [
     ["Quel protectorat français est établi en Tunisie en 1881 ?", ["Le protectorat instauré par le traité du Bardo", "Une colonie de peuplement organisée en départements", "Un mandat international confié par la SDN", "Un condominium partagé avec l'Italie et l'Angleterre"], 0,
      "Le Maroc suivra en 1912 par le traité de Fès."],
     ["Quelle exposition parisienne de 1931 célèbre l'empire colonial ?", ["L'Exposition coloniale internationale", "L'Exposition universelle de la tour Eiffel", "L'Exposition des arts décoratifs de 1925", "L'Exposition internationale de 1937"], 0,
-     "Plus de trente millions de visites. Une contre-exposition fut organisée par les surréalistes."],
+     "Environ trente-trois millions d'entrées, pour quelque huit millions de visiteurs. Une contre-exposition fut organisée par les surréalistes."],
     ["Combien de personnes vivaient dans l'empire colonial français en 1939 ?", ["Environ cent millions", "Environ vingt millions", "Environ trois cents millions", "Environ cinquante millions"], 0,
      "Sur plus de douze millions de kilomètres carrés, second empire mondial après le britannique.", 3],
   ]),
@@ -90,7 +90,7 @@ export const CG_HISTOIRE_FRANCE_3: SeedSkill[] = [
     "Les syndicats ont été interdits en France pendant près d'un siècle.",
     2, [
     ["Quelle loi de 1791 interdit les coalitions ouvrières ?", ["La loi Le Chapelier", "La loi Waldeck-Rousseau", "La loi Ollivier", "La loi Guizot"], 0,
-     "Elle supprime les corporations mais interdit aussi toute association professionnelle."],
+     "Le décret d'Allarde avait supprimé les corporations en mars ; la loi Le Chapelier y ajoute, en juin, l'interdiction de toute association professionnelle."],
     ["Quel délit la loi Ollivier de 1864 supprime-t-elle ?", ["Le délit de coalition", "Le délit d'attroupement", "Le délit d'association", "Le délit de réunion"], 0,
      "La grève cesse d'être une infraction pénale, sans être encore reconnue comme un droit."],
     ["Quelle loi de 1884 autorise les syndicats professionnels ?", ["La loi Waldeck-Rousseau", "La loi Le Chapelier de 1791", "La loi Ferry sur les libertés", "La loi Millerand sur le travail"], 0,
@@ -163,7 +163,7 @@ export const CG_HISTOIRE_FRANCE_3: SeedSkill[] = [
 
   notion("hf3-agriculture-france", S, "L'agriculture française",
     "Du monde paysan à l'agriculture moderne.",
-    "La France comptait plus de six millions d'agriculteurs en 1950 ; ils sont moins de quatre cent mille aujourd'hui.",
+    "La France comptait environ six millions d'actifs agricoles en 1950 ; ils sont aujourd'hui moins de huit cent mille, dont quelque quatre cent mille chefs d'exploitation.",
     2, [
     ["Quelle part de la population active française travaillait dans l'agriculture en 1900 ?", ["Environ quatre sur dix", "Un peu moins de deux sur dix", "Un peu plus de six sur dix", "À peine une sur dix"], 0,
      "Contre moins de deux pour cent aujourd'hui."],
@@ -178,7 +178,7 @@ export const CG_HISTOIRE_FRANCE_3: SeedSkill[] = [
     ["Quel syndicat agricole a longtemps été majoritaire en France ?", ["La FNSEA", "La Confédération paysanne", "La Coordination rurale", "Le MODEF"], 0,
      "Elle a joué un rôle central dans la cogestion de la politique agricole avec l'État."],
     ["Qu'est-ce que la politique des structures agricoles des années 1960 ?", ["Une politique favorisant l'agrandissement et la modernisation des exploitations", "Une réforme foncière redistribuant les grands domaines aux petits paysans", "Une politique de prix garantis protégeant les revenus agricoles", "Un soutien aux petites exploitations familiales de polyculture"], 0,
-     "Les lois Pisani ont notamment créé les SAFER et les indemnités de départ."],
+     "La loi d'orientation de 1960 crée les SAFER ; la loi complémentaire de 1962, portée par Pisani, leur donne le droit de préemption et institue l'indemnité viagère de départ."],
     ["Qu'est-ce qu'une SAFER ?", ["Une société pouvant préempter des terres agricoles pour orienter leur usage", "Une coopérative foncière achetant des terres pour ses adhérents", "Un organisme de crédit rural prêtant aux jeunes agriculteurs à taux très réduit", "Une chambre d'agriculture représentant la profession auprès du préfet"], 0,
      "Elle vise notamment à faciliter l'installation de nouveaux agriculteurs."],
     ["Quel est le rang de la France dans la production agricole européenne ?", ["Premier producteur de l'Union européenne", "Deuxième, derrière l'Allemagne", "Troisième, derrière l'Italie et l'Espagne", "Cinquième, loin derrière les Pays-Bas"], 0,
@@ -267,7 +267,7 @@ export const CG_HISTOIRE_FRANCE_3: SeedSkill[] = [
 
   notion("hf3-justice-france-histoire", S, "L'histoire de la justice française",
     "De la justice seigneuriale à l'État de droit.",
-    "La torture judiciaire a été abolie en France en 1788, un an avant la Révolution.",
+    "Entre le bourreau et le juge des libertés, quatre siècles : suis le déplacement du but de la peine, de l'aveu vers la réinsertion.",
     2, [
     ["Qu'est-ce que la question judiciaire sous l'Ancien Régime ?", ["La torture employée pour obtenir des aveux", "Un interrogatoire contradictoire mené devant le juge", "Une procédure d'appel devant le parlement de province", "Une enquête préliminaire confiée au lieutenant criminel"], 0,
      "Elle est abolie en deux temps, en 1780 et 1788."],
@@ -296,7 +296,7 @@ export const CG_HISTOIRE_FRANCE_3: SeedSkill[] = [
     "L'équipement des logements français a changé plus vite entre 1950 et 1975 qu'en un siècle auparavant.",
     2, [
     ["Quelle part des logements français avait l'eau courante en 1954 ?", ["Environ six sur dix", "La quasi-totalité", "Environ trois sur dix", "Environ neuf sur dix"], 0,
-     "Moins d'un logement sur dix disposait alors d'une baignoire ou d'une douche."],
+     "À peine un logement sur dix disposait alors d'une baignoire ou d'une douche."],
     ["Quel équipement se généralise dans les foyers français dans les années 1960 ?", ["Le réfrigérateur et la télévision", "Le lave-vaisselle et le congélateur", "Le téléphone fixe et la radio", "Le four à micro-ondes"], 0,
      "Le taux d'équipement en réfrigérateur passe d'environ un foyer sur dix à la quasi-totalité en quinze ans."],
     ["Quand la télévision devient-elle majoritaire dans les foyers français ?", ["Au milieu des années 1960", "Dès le début des années 1950", "Seulement vers 1975", "Pas avant 1980"], 0,
@@ -310,7 +310,7 @@ export const CG_HISTOIRE_FRANCE_3: SeedSkill[] = [
     ["Qu'est-ce que le Minitel ?", ["Un terminal télématique français diffusé à partir de 1980", "Un ordinateur personnel vendu par la Poste aux abonnés", "Un téléphone à écran conçu pour remplacer l'annuaire papier", "Un service de télévision interactive lancé par TF1"], 0,
      "Neuf millions de terminaux distribués gratuitement, avec des usages qui préfiguraient internet."],
     ["Quand le téléphone se généralise-t-il dans les foyers français ?", ["Dans les années 1970 et 1980", "Dans les années 1950, dès la reconstruction", "Dans les années 1990, avec le mobile", "Dès 1945, à la Libération"], 0,
-     "Le plan de rattrapage téléphonique de 1974 a fait passer la France du dernier au premier rang européen."],
+     "Le plan de rattrapage de 1974 a fait passer la France du bas au haut du classement européen en une dizaine d'années."],
     ["Qu'est-ce que la semaine de trente-neuf heures instaurée en 1982 ?", ["Une réduction du temps de travail légal", "Une durée maximale de travail à ne pas dépasser", "Un horaire de référence fixé par convention collective", "Un plafond hebdomadaire imposé aux seules usines"], 0,
      "La cinquième semaine de congés payés est accordée la même année."],
     ["Quand les trente-cinq heures sont-elles instaurées en France ?", ["En 1998 et 2000, par les lois Aubry", "En 1982, par ordonnance", "En 2005, par la loi Fillon", "En 1993, par la loi quinquennale"], 0,
@@ -355,7 +355,7 @@ export const CG_HISTOIRE_FRANCE_3: SeedSkill[] = [
      "Charles VIII puis Louis XII, ce qui prépare le rattachement de la Bretagne."],
     ["Quelle femme dirige la France de fait pendant les guerres de religion ?", ["Catherine de Médicis", "Marguerite de Valois", "Diane de Poitiers", "Louise de Lorraine"], 0,
      "Régente puis conseillère de trois de ses fils successivement rois."],
-    ["Quelle femme de lettres tient un salon influent au XVIIIe siècle ?", ["Madame Geoffrin", "Madame de Sévigné", "Madame de Staël seule", "Madame Roland"], 0,
+    ["Quelle femme de lettres tient, rue Saint-Honoré, le salon des encyclopédistes et des artistes dans les années 1750 et 1760 ?", ["Madame Geoffrin", "Madame de Sévigné", "Madame de La Fayette", "Madame Roland"], 0,
      "Son salon accueillait encyclopédistes, artistes et voyageurs étrangers."],
     ["Quelle militante rédige en 1791 une Déclaration des droits de la femme ?", ["Olympe de Gouges", "Théroigne de Méricourt", "Madame Roland", "Charlotte Corday"], 0,
      "Elle sera guillotinée en 1793."],
@@ -399,11 +399,11 @@ export const CG_HISTOIRE_FRANCE_3: SeedSkill[] = [
     "Institutions, découvertes, organisation de la recherche.",
     "La France a longtemps organisé sa recherche autour de grandes institutions publiques.",
     2, [
-    ["Quelle académie scientifique est fondée en 1666 ?", ["l'Académie des sciences", "l'Académie française", "l'Académie de médecine", "l'Institut de France"], 0,
+    ["Quelle académie scientifique est fondée en 1666 ?", ["L'Académie des sciences", "L'Académie française", "L'Académie de médecine", "L'Institut de France"], 0,
      "Colbert la crée pour organiser la recherche au service de l'État."],
     ["Quel organisme public de recherche est créé en 1939 ?", ["Le CNRS", "L'INSERM", "L'INRA", "Le CEA"], 0,
      "Il emploie aujourd'hui plus de trente mille personnes dans toutes les disciplines."],
-    ["Quel organisme français est chargé de la recherche médicale ?", ["l'INSERM", "Le CNRS", "l'INRAE", "l'Institut Pasteur"], 0,
+    ["Quel organisme français est chargé de la recherche médicale ?", ["L'INSERM", "Le CNRS", "L'INRAE", "L'Institut Pasteur"], 0,
      "Créé en 1964, il succède à un institut national d'hygiène fondé en 1941."],
     ["Quel organisme est créé en 1945 pour l'énergie atomique ?", ["Le CEA", "L'IRSN", "L'ASN", "Le CNRS"], 0,
      "Frédéric Joliot-Curie en fut le premier haut-commissaire."],
@@ -423,7 +423,7 @@ export const CG_HISTOIRE_FRANCE_3: SeedSkill[] = [
 
   notion("hf3-france-monde", S, "La France dans le monde",
     "Diplomatie, francophonie, présence internationale.",
-    "La France dispose du troisième réseau diplomatique mondial.",
+    "La diplomatie française tient d'abord à son maillage : compte le nombre de pays où la France est représentée, et demande-toi ce que ce réseau sert.",
     2, [
     ["Quel rang la France occupe-t-elle par la taille de son réseau diplomatique ?", ["Troisième mondial", "Premier au monde", "Dixième seulement", "Cinquième rang"], 0,
      "Derrière la Chine et les États-Unis, avec environ cent soixante ambassades."],
@@ -451,7 +451,7 @@ export const CG_HISTOIRE_FRANCE_3: SeedSkill[] = [
     "Presse, radio, télévision : contrôle et libération.",
     "L'information audiovisuelle française a été sous contrôle direct de l'État jusqu'aux années 1970.",
     2, [
-    ["Quelle est la première quotidienne française à grand tirage au XIXe siècle ?", ["Le Petit Journal", "Le Figaro, fondé en 1826", "Le Temps, journal du soir", "La Presse, quotidien du matin"], 0,
+    ["Quel quotidien français dépasse le million d'exemplaires à la fin du XIXe siècle ?", ["Le Petit Journal", "Le Figaro, fondé en 1826", "Le Temps, journal du soir", "La Presse, quotidien du matin"], 0,
      "Vendu un sou, il atteint le million d'exemplaires dans les années 1890."],
     ["Qu'est-ce que le bourrage de crâne pendant la Première Guerre mondiale ?", ["Une propagande de presse minimisant les difficultés du front", "Une censure militaire exercée sur les journaux par l'état-major", "Un contrôle des correspondances des soldats par le service postal", "Une interdiction de publication frappant les journaux socialistes"], 0,
      "Le décalage avec la réalité vécue a durablement affaibli la confiance dans la presse."],
@@ -475,7 +475,7 @@ export const CG_HISTOIRE_FRANCE_3: SeedSkill[] = [
 
   notion("hf3-catastrophes-france", S, "Catastrophes et crises en France",
     "Événements majeurs et transformations qu'ils ont provoquées.",
-    "Chaque grande catastrophe française a produit une réforme de la prévention.",
+    "La plupart des grandes catastrophes françaises ont été suivies d'une réforme de la prévention : cherche laquelle à chaque fois.",
     2, [
     ["Quelle catastrophe minière survient à Courrières en 1906 ?", ["Une explosion faisant plus de mille morts", "Un effondrement de galerie au fond de la mine", "Une inondation soudaine des galeries", "Un coup de grisou limité à une seule veine"], 0,
      "Elle a accéléré la création des services de secours miniers et la législation du travail."],

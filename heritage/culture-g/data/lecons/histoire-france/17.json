@@ -52,7 +52,7 @@
   },
   {
    "titre": "La plus grande grève de l'histoire de France",
-   "texte": "Le 13 mai 1968, dixième anniversaire de la crise qui avait porté de Gaulle au pouvoir, une manifestation immense réunit étudiants, lycéens et salariés à l'appel des grandes centrales syndicales. Dès le lendemain, le mouvement change de nature : les usines sont occupées, à commencer par Sud-Aviation à Nantes puis Renault-Cléon et Renault-Billancourt, et la grève s'étend à l'ensemble du pays. Près de dix millions de salariés cessent le travail, ce qui en fait la plus vaste grève générale de l'histoire française, dépassant celle de juin 1936. Le pays est paralysé : transports arrêtés, carburant introuvable, journaux et radios perturbés. Aux revendications salariales s'ajoutent des aspirations plus larges, sur les conditions de travail, la reconnaissance syndicale dans l'entreprise, l'autogestion, la liberté de parole. Du 25 au 27 mai, le Premier ministre Georges Pompidou négocie avec les syndicats et le patronat les accords de Grenelle, qui prévoient un relèvement du salaire minimum de l'ordre de 35 %, une hausse générale des salaires et la reconnaissance de la section syndicale d'entreprise. Ces accords sont pourtant rejetés par les ouvriers de Billancourt, et la grève se prolonge. Le régime paraît un moment sur le point de céder, d'autant que le 29 mai le général de Gaulle disparaît quelques heures pour rencontrer le général Massu à Baden-Baden.",
+   "texte": "Le 13 mai 1968, dixième anniversaire de la crise qui avait porté de Gaulle au pouvoir, une manifestation immense réunit étudiants, lycéens et salariés à l'appel des grandes centrales syndicales. Dès le lendemain, le mouvement change de nature : les usines sont occupées, à commencer par Sud-Aviation à Nantes puis Renault-Cléon et Renault-Billancourt, et la grève s'étend à l'ensemble du pays. Environ sept à neuf millions de salariés cessent le travail, ce qui en fait la plus vaste grève générale de l'histoire française, dépassant celle de juin 1936. Le pays est paralysé : transports arrêtés, carburant introuvable, journaux et radios perturbés. Aux revendications salariales s'ajoutent des aspirations plus larges, sur les conditions de travail, la reconnaissance syndicale dans l'entreprise, l'autogestion, la liberté de parole. Du 25 au 27 mai, le Premier ministre Georges Pompidou négocie avec les syndicats et le patronat les accords de Grenelle, qui prévoient un relèvement du salaire minimum de l'ordre de 35 %, une hausse générale des salaires et la reconnaissance de la section syndicale d'entreprise. Ces accords sont pourtant rejetés par les ouvriers de Billancourt, et la grève se prolonge. Le régime paraît un moment sur le point de céder, d'autant que le 29 mai le général de Gaulle disparaît quelques heures pour rencontrer le général Massu à Baden-Baden.",
    "visuel": {
     "type": "frise",
     "titre": "Mai 68, semaine après semaine",
@@ -80,7 +80,7 @@
      {
       "date": "à partir du 14 mai",
       "label": "La grève générale",
-      "texte": "Sud-Aviation à Nantes, puis Renault-Cléon et Billancourt : près de dix millions de grévistes, plus qu'en juin 1936. Le pays est paralysé."
+      "texte": "Sud-Aviation à Nantes, puis Renault-Cléon et Billancourt : sept à neuf millions de grévistes, plus qu'en juin 1936. Le pays est paralysé."
      },
      {
       "date": "25-27 mai",
@@ -138,14 +138,14 @@
   {
    "q": "Combien de salariés participent à la grève générale de mai-juin 1968 ?",
    "choix": [
-    "Environ dix millions",
-    "Environ cent mille",
+    "Environ sept à neuf millions",
     "Environ un million",
-    "Environ trente millions"
+    "Environ trois millions",
+    "Environ vingt millions"
    ],
    "bonne": 0,
    "difficulte": 2,
-   "explication": "Après la manifestation du 13 mai 1968, le mouvement étudiant se prolonge par une vague d'occupations d'usines partie de Sud-Aviation à Nantes puis des sites Renault. Près de dix millions de salariés cessent le travail, ce qui fait de mai-juin 1968 la plus importante grève générale de l'histoire de France, dépassant en ampleur celle de juin 1936. Le pays est paralysé pendant plusieurs semaines : transports interrompus, pénurie de carburant, distribution perturbée. Aux revendications salariales s'ajoutent des demandes portant sur les conditions de travail, les droits syndicaux et plus largement sur l'organisation de la société."
+   "explication": "Après la manifestation du 13 mai 1968, le mouvement étudiant se prolonge par une vague d'occupations d'usines partie de Sud-Aviation à Nantes puis des sites Renault. Environ sept à neuf millions de salariés cessent le travail, ce qui fait de mai-juin 1968 la plus importante grève générale de l'histoire de France, dépassant en ampleur celle de juin 1936. Le pays est paralysé pendant plusieurs semaines : transports interrompus, pénurie de carburant, distribution perturbée. Aux revendications salariales s'ajoutent des demandes portant sur les conditions de travail, les droits syndicaux et plus largement sur l'organisation de la société."
   },
   {
    "q": "Que prévoient notamment les accords de Grenelle des 25-27 mai 1968 ?",

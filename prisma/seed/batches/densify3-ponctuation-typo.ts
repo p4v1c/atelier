@@ -97,7 +97,7 @@ export const DENSIFY3_PONCTUATION_TYPO: ContentBatch = {
     ]},
     { ruleSlug: "virgule-oui-non", sentences: [
       { marked: "[Oui] tout est prêt pour la réunion de demain matin.", fix: "Oui," },
-      { marked: "[Non] rien ne justifie un tel retard de livraison.", fix: "Non," },
+      { marked: "— [Non] rien ne justifie un tel retard, a-t-il tranché.", fix: "Non," },
     ]},
     { ruleSlug: "deux-points-citation", sentences: [
       { marked: "Le juge a [tranché] « L'affaire est close. »", fix: "tranché :" },

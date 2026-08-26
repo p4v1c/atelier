@@ -81,11 +81,11 @@
   },
   {
    "titre": "Le Sahara, le plus grand désert chaud",
-   "texte": "Le Sahara constitue la plus vaste étendue continue de terres arides du monde : il couvre plus de 8,5 millions de kilomètres carrés, soit environ 30 pour cent de la superficie de l'Afrique, et s'étire sur 5 000 kilomètres d'ouest en est, de l'océan Atlantique à la mer Rouge. Il concerne dix pays, parmi lesquels l'Algérie, l'Égypte, le Maroc, la Libye, la Tunisie, la Mauritanie, le Niger, le Mali, le Tchad et le Soudan, ainsi que le territoire disputé du Sahara occidental. Les températures y atteignent 55 degrés et l'ensoleillement dépasse 3 600 heures par an, soit plus de onze heures par jour en moyenne, certaines zones approchant même 4 300 heures. Les précipitations sont en moyenne de 25 millimètres par an, mais certains secteurs de Libye et d'Égypte ne reçoivent que 0,5 millimètre. Contrairement à l'image des cartes postales, seuls 20 pour cent environ du Sahara sont occupés par des dunes de sable, les ergs ; les 80 pour cent restants sont des surfaces rocheuses et caillouteuses. Le relief va de la dépression de Qattara, à 134 mètres au-dessous du niveau de la mer, jusqu'à l'Emi Koussi, sommet volcanique du Tibesti culminant à 3 415 mètres. Cinq à huit millions de personnes y vivent, soit environ un habitant par kilomètre carré, regroupées autour des oasis et des nappes fossiles, exploitées par des galeries traditionnelles appelées foggaras.",
+   "texte": "Le Sahara constitue la plus vaste étendue continue de terres arides du monde : il couvre environ 9 millions de kilomètres carrés, soit environ 30 pour cent de la superficie de l'Afrique, et s'étire sur 5 000 kilomètres d'ouest en est, de l'océan Atlantique à la mer Rouge. Il concerne dix pays, parmi lesquels l'Algérie, l'Égypte, le Maroc, la Libye, la Tunisie, la Mauritanie, le Niger, le Mali, le Tchad et le Soudan, ainsi que le territoire disputé du Sahara occidental. Les températures y atteignent 55 degrés et l'ensoleillement dépasse 3 600 heures par an, soit près de dix heures par jour en moyenne, certaines zones approchant même 4 300 heures, c'est-à-dire près de douze heures quotidiennes. Les précipitations sont en moyenne de 25 millimètres par an, mais certains secteurs de Libye et d'Égypte ne reçoivent que 0,5 millimètre. Contrairement à l'image des cartes postales, seuls 20 pour cent environ du Sahara sont occupés par des dunes de sable, les ergs ; les 80 pour cent restants sont des surfaces rocheuses et caillouteuses. Le relief va de la dépression de Qattara, à 134 mètres au-dessous du niveau de la mer, jusqu'à l'Emi Koussi, sommet volcanique du Tibesti culminant à 3 415 mètres. Cinq à huit millions de personnes y vivent, soit environ un habitant par kilomètre carré, regroupées autour des oasis et des nappes fossiles, exploitées par des galeries traditionnelles appelées foggaras.",
    "visuel": {
     "type": "image",
     "image": "sahara-satellite",
-    "legende": "Le Sahara vu de l'espace : plus de 8,5 millions de kilomètres carrés, 5 000 kilomètres de l'Atlantique à la mer Rouge. Contrairement à l'image des cartes postales, les dunes de sable n'en occupent qu'environ 20 % ; le reste est rocheux et caillouteux.",
+    "legende": "Le Sahara vu de l'espace : environ 9 millions de kilomètres carrés, 5 000 kilomètres de l'Atlantique à la mer Rouge. Contrairement à l'image des cartes postales, les dunes de sable n'en occupent qu'environ 20 % ; le reste est rocheux et caillouteux.",
     "alt": "Vue satellite du nord de l'Afrique montrant l'immense étendue ocre et beige du Sahara, sans végétation, traversée de nuances de sable et de roche."
    }
   },
@@ -122,12 +122,12 @@
    "choix": [
     "Environ 2 millions de kilomètres carrés",
     "Environ 5 millions de kilomètres carrés",
-    "Plus de 8,5 millions de km²",
+    "Environ 9 millions de km²",
     "Environ 15 millions de kilomètres carrés"
    ],
    "bonne": 2,
    "difficulte": 2,
-   "explication": "Le Sahara couvre plus de 8,5 millions de kilomètres carrés, soit environ 30 pour cent de la superficie du continent africain, ce qui en fait la plus vaste étendue continue de terres arides du monde. Il s'étire sur 5 000 kilomètres de l'Atlantique à la mer Rouge et concerne dix pays ainsi que le territoire disputé du Sahara occidental. Cette superficie est comparable à celle des États-Unis. Malgré cette immensité, seuls cinq à huit millions de personnes y résident, soit environ un habitant par kilomètre carré. Il ne faut pas le confondre avec l'Antarctique qui, avec ses 14 millions de kilomètres carrés, est techniquement le plus grand désert de la planète, mais un désert froid."
+   "explication": "Le Sahara couvre environ 9 millions de kilomètres carrés, soit environ 30 pour cent de la superficie du continent africain, ce qui en fait la plus vaste étendue continue de terres arides du monde. Il s'étire sur 5 000 kilomètres de l'Atlantique à la mer Rouge et concerne dix pays ainsi que le territoire disputé du Sahara occidental. Cette superficie est comparable à celle des États-Unis. Malgré cette immensité, seuls cinq à huit millions de personnes y résident, soit environ un habitant par kilomètre carré. Il ne faut pas le confondre avec l'Antarctique qui, avec ses 14 millions de kilomètres carrés, est techniquement le plus grand désert de la planète, mais un désert froid."
   },
   {
    "q": "Pourquoi les grands déserts chauds se situent-ils vers 30 degrés de latitude ?",

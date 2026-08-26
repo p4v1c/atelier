@@ -89,7 +89,7 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
 - **Correction proposée** : « À deux mille trois cents mètres, l'une des cinq
   capitales les plus hautes du monde. Siège de l'Union africaine. »
 
-### [MOYEN] La Turquie est décrite deux fois, et les deux fiches divergent
+### [MOYEN] ✅ La Turquie est décrite deux fois, et les deux fiches divergent
 - **Où** : `prisma/seed/geographie/pays.ts` — `["792","TR",…]` dans `EUROPE` et
   dans `ASIE`
 - **Texte** : la fiche d'Europe porte deux notes (« Croissant et étoile hérités
@@ -106,8 +106,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   par les deux continents (par exemple `ASIE = fiches([…]).concat([trouver(EUROPE,"792")])`),
   ou à défaut ajouter un test qui vérifie que deux fiches de même `id` sont
   identiques champ pour champ.
+- **Fait** : La fiche Asie ne recopie plus la Turquie : `ASIE` référence désormais l'objet de `EUROPE` (id 792) via `.concat`, ce qui rend toute divergence future impossible.
 
-### [MOYEN] Le module annonce 193 États et en porte 194
+### [MOYEN] ✅ Le module annonce 193 États et en porte 194
 - **Où** : `prisma/seed/geographie/pays.ts`, en-tête de `MONDE_RESTE` ;
   `series.ts`, commentaire « Le monde »
 - **Texte** : « ce qui permet à la matière de couvrir **les cent
@@ -122,8 +123,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
 - **Correction proposée** : « … de couvrir les cent quatre-vingt-treize États
   membres de l'ONU, plus Taïwan, plutôt que les cent soixante-quatre qui se
   laissent dessiner. »
+- **Fait** : Ajouté « , plus Taïwan » aux deux endroits où le décompte est mentionné (pays.ts et series.ts).
 
-### [MOYEN] Sri Lanka : la capitale donnée n'est pas la capitale
+### [MOYEN] ✅ Sri Lanka : la capitale donnée n'est pas la capitale
 - **Où** : `prisma/seed/geographie/pays.ts` — `["144","LK","Sri Lanka","Colombo", …]`
 - **Texte** : capitale « Colombo » ; note : « Capitale économique ; le parlement
   siège à Sri Jayawardenepura Kotte, dans sa banlieue. »
@@ -140,8 +142,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
 - **Correction proposée** : capitale « Sri Jayawardenepura Kotte », note
   « Capitale officielle depuis 1985 ; Colombo, sa voisine, reste la capitale
   économique et la plus grande ville. »
+- **Fait** : Capitale changée en Sri Jayawardenepura Kotte (officielle depuis 1985) ; note de ville réécrite pour expliquer le rôle de Colombo.
 
-### [MOYEN] Israël — Jérusalem donnée sans réserve
+### [MOYEN] ✅ Israël — Jérusalem donnée sans réserve
 - **Où** : `prisma/seed/geographie/pays.ts` — `["376","IL","Israël","Jérusalem", …]`
 - **Problème** : Israël désigne Jérusalem comme sa capitale, mais ce statut
   n'est pas reconnu par la France ni par l'ONU, et la question « Quelle est la
@@ -152,8 +155,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   note de ville : « Capitale proclamée par Israël et siège de ses institutions ;
   la France et la plupart des États n'y reconnaissent pas ce statut et gardent
   leur ambassade à Tel-Aviv. »
+- **Fait** : Note de ville ajoutée à la fiche, reprenant la formule proposée.
 
-### [MOYEN] L'Atlantique n'est pas le seul océan d'un pôle à l'autre
+### [MOYEN] ✅ L'Atlantique n'est pas le seul océan d'un pôle à l'autre
 - **Où** : `prisma/seed/geographie/mers.ts` — série `monde`, `ocean-atlantique`
 - **Texte** : « **Le seul océan qui s'étende d'un pôle à l'autre** en une seule
   pièce, entre deux continents qui se sont séparés il y a cent quatre-vingts
@@ -165,8 +169,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
 - **Correction proposée** : « Il s'étend d'un pôle à l'autre en une seule
   pièce, entre deux continents qui se sont séparés il y a cent quatre-vingts
   millions d'années. »
+- **Fait** : Retiré « le seul » ; le reste de la phrase (écartement il y a 180 Ma) est conservé tel quel.
 
-### [MOYEN] Le tsunami de 2004 n'est pas né dans la mer d'Andaman
+### [MOYEN] ✅ Le tsunami de 2004 n'est pas né dans la mer d'Andaman
 - **Où** : `prisma/seed/geographie/mers.ts` — série `asie`, `mer-d-andaman`
 - **Texte** : « Entre la Birmanie et les îles du même nom. **Le tsunami de 2004
   y est né**, au large de Sumatra, à sa pointe sud. »
@@ -180,8 +185,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
 - **Correction proposée** : « Entre la Birmanie et les îles du même nom. Le
   séisme de 2004, dont l'épicentre était juste à l'ouest de l'arc, l'a fait
   déferler sur toutes ses côtes. »
+- **Fait** : Texte réécrit pour situer l'épicentre à l'ouest de l'arc, comme proposé.
 
-### [MOYEN] « Birmanie » ne figure nulle part comme nom du pays
+### [MOYEN] ✅ « Birmanie » ne figure nulle part comme nom du pays
 - **Où** : `prisma/seed/geographie/pays.ts` — `["104","MM","Myanmar","Naypyidaw", …]`,
   contre `mers.ts` — `mer-d-andaman` : « Entre **la Birmanie** et les îles… »
 - **Problème** : le même pays est appelé « Myanmar » dans la table et
@@ -190,8 +196,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   « Birmanie » deux séries plus loin, et rien ne fait le lien.
 - **Correction proposée** : harmoniser sur « Birmanie (Myanmar) » dans `mers.ts`,
   ou ajouter à la fiche une note de ville mentionnant le nom français usuel.
+- **Fait** : Harmonisé dans mers.ts en « Birmanie (Myanmar) ».
 
-### [MOYEN] Le Gulf Stream ne prend pas naissance dans la mer des Caraïbes
+### [MOYEN] ✅ Le Gulf Stream ne prend pas naissance dans la mer des Caraïbes
 - **Où** : `prisma/seed/geographie/mers.ts` — série `ameriques`, `mer-des-caraibes`
 - **Texte** : « Le Gulf Stream **y prend naissance** avant de contourner la
   Floride et de traverser l'Atlantique. »
@@ -202,8 +209,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
 - **Correction proposée** : « Le courant des Caraïbes la traverse, s'engouffre
   dans le golfe du Mexique et en ressort par le détroit de Floride sous le nom
   de Gulf Stream. »
+- **Fait** : Texte remplacé par la formulation proposée (courant des Caraïbes puis Gulf Stream après le détroit de Floride).
 
-### [MINEUR] « Bogota » sans accent, deux fois
+### [MINEUR] ✅ « Bogota » sans accent, deux fois
 - **Où** : `prisma/seed/geographie/pays.ts` — fiche `["170","CO","Colombie","Bogota", …]` ;
   `prisma/seed/geographie/series.ts` — `REPERES.ameriques.capitales` :
   « Quito, **Bogota**, Mexico et La Paz ».
@@ -213,14 +221,16 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   « São Tomé ») — sauf « Asuncion », qui devrait être « Asunción ».
 - **Correction proposée** : au minimum corriger `["600","PY","Paraguay","Asuncion", …]`
   en « Asunción », et trancher une fois pour toutes pour Bogota.
+- **Fait** : Tranché pour l'accent : « Bogotá » dans pays.ts et dans REPERES.ameriques.capitales (series.ts).
 
-### [MINEUR] « Asuncion » sans accent
+### [MINEUR] ✅ « Asuncion » sans accent
 - **Où** : `prisma/seed/geographie/pays.ts` — `["600","PY","Paraguay","Asuncion", …]`
 - **Problème** : l'orthographe est « Asunción » (ou « Assomption » en français).
   « Asuncion » n'est ni l'un ni l'autre.
 - **Correction proposée** : « Asunción ».
+- **Fait** : Corrigé en « Asunción ».
 
-### [MINEUR] Bruxelles n'est pas « dans une enclave néerlandophone »
+### [MINEUR] ✅ Bruxelles n'est pas « dans une enclave néerlandophone »
 - **Où** : `prisma/seed/geographie/pays.ts` — fiche `["56","BE","Belgique", …]`
 - **Texte** : « Officiellement bilingue, **dans une enclave néerlandophone**. »
 - **Problème** : c'est l'inverse qui se dit : Bruxelles est une **enclave**
@@ -228,8 +238,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   actuelle fait de la Flandre l'enclave.
 - **Correction proposée** : « Officiellement bilingue, enclavée dans la Flandre
   néerlandophone. Elle abrite la Commission européenne. »
+- **Fait** : Texte remplacé par la formulation proposée (enclavée dans la Flandre).
 
-### [MINEUR] La Jordanie a un littoral
+### [MINEUR] ✅ La Jordanie a un littoral
 - **Où** : `prisma/seed/geographie/pays.ts` — `["400","JO","Jordanie","Amman","sans véritable littoral, …"]`
 - **Problème** : la Jordanie a vingt-six kilomètres de côte sur le golfe
   d'Aqaba, et le port d'Aqaba y est un enjeu national. « Sans véritable
@@ -238,8 +249,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   chose que l'apprenant doit retenir.
 - **Correction proposée** : « presque enclavée : vingt-six kilomètres de côte
   sur le golfe d'Aqaba, entre Israël, la Syrie, l'Irak et l'Arabie Saoudite ».
+- **Fait** : Texte remplacé par la formulation proposée (26 km de côte sur le golfe d'Aqaba).
 
-### [MINEUR] « Royaume d'Eswatini » et « Brunei Darussalam » : noms longs isolés
+### [MINEUR] ⏭️ « Royaume d'Eswatini » et « Brunei Darussalam » : noms longs isolés
 - **Où** : `prisma/seed/geographie/pays.ts` — `["748","SZ",…]`, `["96","BN",…]`
 - **Problème** : le fichier emploie partout la forme courte française
   (« Tchéquie », et non « République tchèque » ; « Ukraine », et non « République
@@ -248,6 +260,7 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
 - **Correction proposée** : « Eswatini » et « Brunei ». (Attention : le nom
   figure aussi tel quel dans les fonds de carte générés — il faudrait
   régénérer, sinon `cibleNom` ne correspondrait plus au tracé.)
+- **Fait** : Écarté : corriger ces noms exigerait de régénérer aussi `src/lib/cartes/afrique.ts` et `monde.ts` (hors périmètre de cette passe), sous peine de casser la correspondance cibleNom ↔ tracé que l'audit qualifie d'irréprochable. À traiter avec une régénération des fonds de carte.
 
 ### [GRAVE] L'Éthiopie n'est pas le seul pays d'Afrique jamais colonisé
 - **Où** : `prisma/seed/geographie/series.ts` — `REPERES.afrique.drapeaux`
@@ -277,7 +290,7 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   compromis, en 1848, entre Zurich la puissante et Lucerne la vaincue du
   Sonderbund. »
 
-### [MOYEN] Le drapeau chilien précède celui du Texas de vingt-deux ans, pas trente
+### [MOYEN] ✅ Le drapeau chilien précède celui du Texas de vingt-deux ans, pas trente
 - **Où** : `prisma/seed/geographie/pays.ts` — fiche `["152","CL","Chili", …]`
 - **Texte** : « Une étoile blanche dans un carré bleu ; il précède de **trente
   ans** le drapeau du Texas. »
@@ -286,8 +299,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   arrondi dans le mauvais sens.
 - **Correction proposée** : « … il précède de vingt-deux ans le drapeau du
   Texas. »
+- **Fait** : Vérifié (Chili 18/10/1817, Texas 25/01/1839 = 22 ans) et corrigé « trente » en « vingt-deux ».
 
-### [MOYEN] Riyad n'est pas à sept cents kilomètres de toute côte
+### [MOYEN] ✅ Riyad n'est pas à sept cents kilomètres de toute côte
 - **Où** : `prisma/seed/geographie/pays.ts` — fiche `["682","SA","Arabie Saoudite", …]`
 - **Texte** : « Au centre du plateau du Nedjd, en plein désert, **à sept cents
   kilomètres de toute côte**. »
@@ -296,8 +310,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   près à la distance jusqu'à la mer Rouge, mais pas à « toute côte ».
 - **Correction proposée** : « Au centre du plateau du Nedjd, en plein désert, à
   quatre cents kilomètres du golfe Persique et neuf cents de la mer Rouge. »
+- **Fait** : Vérifié (Riyad–Dammam ≈ 400 km) et texte remplacé par la formulation proposée.
 
-### [MOYEN] Kinshasa et Brazzaville ne sont pas les capitales les plus proches du monde
+### [MOYEN] ✅ Kinshasa et Brazzaville ne sont pas les capitales les plus proches du monde
 - **Où** : `prisma/seed/geographie/pays.ts` — fiche `["180","CD","République démocratique du Congo", …]`
 - **Texte** : « Face à Brazzaville, de l'autre côté du fleuve : **les deux
   capitales les plus proches du monde**. »
@@ -306,8 +321,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   frontière « ordinaire » ; sans cette réserve, l'affirmation est fausse.
 - **Correction proposée** : « Face à Brazzaville, de l'autre côté du fleuve :
   après Rome et le Vatican, les deux capitales les plus proches du monde. »
+- **Fait** : Texte remplacé par la formulation proposée (réserve Rome/Vatican).
 
-### [MOYEN] « Quelle est la capitale d'El Salvador ? » — la réponse est dans la question
+### [MOYEN] ✅ « Quelle est la capitale d'El Salvador ? » — la réponse est dans la question
 - **Où** : `prisma/seed/geographie/series.ts` — le filtre `homonyme`, et
   `pays.ts` `["222","SV","El Salvador","San Salvador", …]`
 - **Problème** : `series.ts` consacre un long commentaire à écarter les pays
@@ -324,8 +340,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   leurs cinq premières lettres après normalisation (`elsal`/`sansal` ne suffit
   pas : il faut tester chaque mot de la capitale contre le nom, ce qui attrape
   « Salvador » dans « El Salvador »).
+- **Fait** : Filtre `homonyme` réécrit en comparaison mot à mot (mots de 4 lettres ou plus) ; El Salvador est désormais exclu du quiz capitale, sans effet de bord sur les 13 exclusions existantes (vérifié par un script de contrôle croisé ancien/nouveau filtre sur les 195 fiches).
 
-### [MOYEN] 107 questions de drapeau dont la correction ne parle pas du drapeau
+### [MOYEN] ✅ 107 questions de drapeau dont la correction ne parle pas du drapeau
 - **Où** : `prisma/seed/geographie/commun.ts` — `quizDrapeau`, ligne
   `explanation: cible.drapeau ?? \`${cible.nom} : ${cible.ou}.\``
 - **Problème** : 88 fiches sur 195 portent une note de drapeau ; les 107 autres
@@ -339,8 +356,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   14/27, reste du monde 1/30.
 - **Correction proposée** : pas de reformulation unique — il faut écrire les
   notes manquantes, en priorité pour `MONDE_RESTE` où le taux est de 3 %.
+- **Fait** : Appliqué partiellement : les 29 fiches sans note de `MONDE_RESTE` (priorité citée par le constat, taux de 3 %) ont toutes reçu une note de drapeau vérifiée. Les quelque 78 fiches manquantes des quatre continents restent à écrire : tâche de contenu trop volumineuse pour cette passe, à reprendre séparément.
 
-### [MOYEN] La correction du drapeau recopie mot pour mot celle de la carte
+### [MOYEN] ⏭️ La correction du drapeau recopie mot pour mot celle de la carte
 - **Où** : `prisma/seed/geographie/commun.ts` — `quizDrapeau` et `situer`
 - **Texte** : `quizDrapeau` (sans note) produit « Slovénie : entre les Alpes et
   l'Adriatique, au nord de la Croatie. » ; `situer` produit « Slovénie : entre
@@ -355,16 +373,18 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   correction du drapeau sur autre chose que la position — par exemple les
   couleurs et leur famille (« un tricolore vertical », « une croix
   scandinave »), qui sont déductibles de la table des repères de série.
+- **Fait** : Écarté : une vraie correction demande soit de finir le constat précédent pour les quatre continents, soit de construire une table des familles de couleurs par pays — deux chantiers de contenu hors budget de cette passe. Un simple changement de formulation n'aurait pas réglé le fond du problème (le doublon de contenu, pas seulement de mots).
 
-### [MOYEN] Antigua-et-Barbuda est au nord de la Guadeloupe, pas à l'est
+### [MOYEN] ✅ Antigua-et-Barbuda est au nord de la Guadeloupe, pas à l'est
 - **Où** : `prisma/seed/geographie/pays.ts` — `["28","AG","Antigua-et-Barbuda","Saint John's","deux îles des Petites Antilles, à l'est de la Guadeloupe"]`
 - **Problème** : Antigua est à 17,1° N / 61,8° O, la Guadeloupe à 16,25° N /
   61,55° O. Antigua est donc au **nord** de la Guadeloupe, et même très
   légèrement à l'**ouest**. « À l'est » est faux dans les deux sens.
 - **Correction proposée** : « deux îles des Petites Antilles, à cent cinquante
   kilomètres au nord de la Guadeloupe ».
+- **Fait** : Texte remplacé par la formulation proposée (150 km au nord de la Guadeloupe).
 
-### [MOYEN] Le tip de la série « le reste du monde » ne décrit pas son contenu
+### [MOYEN] ✅ Le tip de la série « le reste du monde » ne décrit pas son contenu
 - **Où** : `prisma/seed/geographie/series.ts` — `REPERES.monde`
 - **Texte** : drapeaux — « Beaucoup de ces drapeaux portent des étoiles ou des
   bandes bleues : **la mer est le sujet commun des États insulaires**. » ;
@@ -380,8 +400,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   insulaires dont les drapeaux se répondent — étoiles, bandes bleues, la mer
   pour sujet commun. » ; capitales — « Pour les insulaires, la capitale est
   souvent le seul vrai bourg du pays, et porte parfois le nom de l'île. »
+- **Fait** : Les deux tips (drapeaux et capitales) de `REPERES.monde` remplacés par les formulations proposées.
 
-### [MINEUR] Budapest est née de trois villes, pas de deux
+### [MINEUR] ✅ Budapest est née de trois villes, pas de deux
 - **Où** : `prisma/seed/geographie/pays.ts` — fiche `["348","HU","Hongrie", …]`
 - **Texte** : « **Deux villes** réunies en 1873 : Buda sur les collines, Pest
   sur la plaine. »
@@ -390,8 +411,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   (« vieux Buda ») la dément.
 - **Correction proposée** : « Trois villes réunies en 1873 : Buda et Óbuda sur
   les collines, Pest sur la plaine. »
+- **Fait** : Corrigé « Deux villes » en « Trois villes réunies… Buda et Óbuda ».
 
-### [MINEUR] « Neuf voisins, le record d'Europe »
+### [MINEUR] ✅ « Neuf voisins, le record d'Europe »
 - **Où** : `prisma/seed/geographie/pays.ts` — fiche `["276","DE","Allemagne", …]`
 - **Problème** : la Russie en a quatorze, et elle est européenne — la fiche de
   la Chine le rappelle d'ailleurs (« quatorze voisins, autant que la Russie »).
@@ -399,8 +421,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   des raisons de dessin, mais pas l'atlas.
 - **Correction proposée** : « neuf voisins, le record d'Europe après la
   Russie ».
+- **Fait** : Ajouté « après la Russie ».
 
-### [MINEUR] « À quelques centimètres près » pour une différence de proportion
+### [MINEUR] ✅ « À quelques centimètres près » pour une différence de proportion
 - **Où** : `prisma/seed/geographie/pays.ts` — fiches `["360","ID","Indonésie", …]`
   et `["492","MC","Monaco", …]`
 - **Texte** : « presque exactement celui de Monaco, **à quelques centimètres
@@ -411,8 +434,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   veut rien dire, et brouille le seul fait à retenir.
 - **Correction proposée** : « le même que celui de Monaco, en plus allongé :
   deux tiers contre quatre cinquièmes. »
+- **Fait** : Les deux fiches (Indonésie et Monaco) réécrites avec les proportions réelles (deux tiers / quatre cinquièmes).
 
-### [MINEUR] Le commentaire du filtre `homonyme` ne liste pas tous les pays écartés
+### [MINEUR] ✅ Le commentaire du filtre `homonyme` ne liste pas tous les pays écartés
 - **Où** : `prisma/seed/geographie/series.ts` — commentaire au-dessus de `nu`
 - **Problème** : il énumère neuf pays (Luxembourg, Djibouti, Guatemala, Panama,
   Koweït, Tunisie, Algérie, Guinée-Bissau, Andorre) ; le filtre en écarte
@@ -420,6 +444,7 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   dans la série « le reste du monde ».
 - **Correction proposée** : ajouter « — et, dans le reste du monde, Monaco,
   Saint-Marin, Singapour et São Tomé. »
+- **Fait** : Commentaire réécrit pour citer tous les pays désormais exclus, El Salvador inclus.
 
 ### [GRAVE] Le Sahara occidental est un piège à clic sur deux cartes où l'on demande le Maroc
 - **Où** : `src/lib/cartes/afrique.ts` et `src/lib/cartes/monde.ts` —
@@ -446,7 +471,7 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   la Palestine, le Groenland, Porto Rico et les Malouines ; aucun de ces
   découpages ne heurte une cible existante, seul le Sahara occidental le fait.)
 
-### [MOYEN] La Slovaquie n'est pas au sud des Carpates : elle est dedans
+### [MOYEN] ✅ La Slovaquie n'est pas au sud des Carpates : elle est dedans
 - **Où** : `prisma/seed/geographie/pays.ts` — `["703","SK","Slovaquie","Bratislava","sans littoral, entre la Tchéquie et l'Ukraine, au sud des Carpates"]`
 - **Problème** : les Carpates occidentales — Petites et Hautes Tatras, Basses
   Tatras, monts Métallifères — occupent la moitié nord du pays et culminent au
@@ -455,8 +480,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   est la seule chose que la correction de l'exercice de carte annonce.
 - **Correction proposée** : « sans littoral, entre la Tchéquie et l'Ukraine ;
   les Carpates en occupent tout le nord, la plaine du Danube tout le sud ».
+- **Fait** : Texte remplacé par la formulation proposée (Carpates au nord, plaine du Danube au sud).
 
-### [MOYEN] La France « seul pays d'Europe occidentale sur les deux façades »
+### [MOYEN] ✅ La France « seul pays d'Europe occidentale sur les deux façades »
 - **Où** : `prisma/seed/geographie/pays.ts` — `["250","FR","France","Paris","de la Manche à la Méditerranée, seul pays d'Europe occidentale sur les deux façades"]`
 - **Problème** : « les deux façades » n'a pas de référent clair. Si l'on entend
   Atlantique et Méditerranée — la lecture la plus naturelle —, c'est **faux** :
@@ -467,8 +493,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   ce qui montre qu'on sait faire.
 - **Correction proposée** : « de la Manche à la Méditerranée : le seul pays
   d'Europe à toucher à la fois la Manche et la Méditerranée ».
+- **Fait** : Texte remplacé par la formulation proposée, sans ambiguïté sur « les deux façades ».
 
-### [MOYEN] La sphère armillaire n'est pas un instrument de navigation
+### [MOYEN] ✅ La sphère armillaire n'est pas un instrument de navigation
 - **Où** : `prisma/seed/geographie/pays.ts` — fiche `["620","PT","Portugal", …]`
 - **Texte** : « La sphère armillaire est **l'instrument des navigateurs** :
   l'outil qui lui a fait connaître le monde. »
@@ -481,8 +508,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   faux.
 - **Correction proposée** : « La sphère armillaire, modèle du ciel et emblème
   personnel de Manuel Iᵉʳ, est le symbole des Grandes Découvertes portugaises. »
+- **Fait** : Texte remplacé par la formulation proposée (emblème de Manuel Iᵉʳ, pas un instrument de navigation).
 
-### [MINEUR] Sept « le seul drapeau national… », dont un faux
+### [MINEUR] ✅ Sept « le seul drapeau national… », dont un faux
 - **Où** : `prisma/seed/geographie/pays.ts` — Kenya, Mozambique, Cambodge,
   Népal, Paraguay, Jamaïque, Philippines
 - **Problème** : sept notes de drapeau sur quatre-vingt-huit ouvrent par la
@@ -496,8 +524,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
 - **Correction proposée** : garder la formule pour les cinq cas incontestables,
   et écrire pour le Cambodge « Le seul drapeau national à représenter un
   bâtiment identifiable : les tours d'Angkor Vat. »
+- **Fait** : Fiche du Cambodge corrigée en « bâtiment identifiable » comme proposé ; les cinq autres occurrences incontestables laissées telles quelles.
 
-### [MINEUR] « Liberia » sans accent, deux fois, alors que la fiche dit « Libéria »
+### [MINEUR] ✅ « Liberia » sans accent, deux fois, alors que la fiche dit « Libéria »
 - **Où** : `prisma/seed/geographie/pays.ts` — `["694","SL","Sierra Leone", …]`
   « entre la Guinée et le **Liberia** » et `["384","CI","Côte d'Ivoire", …]`
   « entre le **Liberia** et le Ghana », contre la fiche `["430","LR","Libéria", …]`
@@ -505,8 +534,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   c'est le nom accentué qui sert d'amorce sur la carte. L'apprenant qui vient
   de situer « Libéria » lit « Liberia » deux lignes plus loin.
 - **Correction proposée** : « Libéria » dans les deux `ou`.
+- **Fait** : Les deux occurrences (Sierra Leone, Côte d'Ivoire) corrigées en « Libéria ».
 
-### [MINEUR] « Lettonie : celui du milieu des trois États baltes »
+### [MINEUR] ✅ « Lettonie : celui du milieu des trois États baltes »
 - **Où** : `prisma/seed/geographie/pays.ts` — `["428","LV","Lettonie","Riga","celui du milieu des trois États baltes"]`
 - **Problème** : `situer` et `quizDrapeau` composent « Lettonie : celui du
   milieu des trois États baltes. » — le démonstratif renvoie par ellipse à
@@ -516,8 +546,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   Lettonie est la seule où le mot élidé ne se devine pas.
 - **Correction proposée** : « le pays du milieu des trois États baltes, sur le
   golfe de Riga ».
+- **Fait** : Texte remplacé par la formulation proposée (« le pays du milieu »).
 
-### [MINEUR] Les neuf syllabes du drapeau grec sont une hypothèse, pas un fait
+### [MINEUR] ✅ Les neuf syllabes du drapeau grec sont une hypothèse, pas un fait
 - **Où** : `prisma/seed/geographie/pays.ts` — fiche `["300","GR","Grèce", …]`
 - **Texte** : « **Neuf bandes pour les neuf syllabes** de « Eleftheria i
   thanatos » — la liberté ou la mort. »
@@ -527,8 +558,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   dire « dit-on » (Ukraine) ou « aurait choisies » (Pérou) ; ici il tranche.
 - **Correction proposée** : « Neuf bandes — pour les neuf syllabes de
   « Eleftheria i thanatos », la liberté ou la mort, dit-on. »
+- **Fait** : Texte remplacé par la formulation proposée, avec « dit-on ».
 
-### [MINEUR] La Méditerranée est tracée sur la carte d'Asie et n'y est jamais demandée
+### [MINEUR] ✅ La Méditerranée est tracée sur la carte d'Asie et n'y est jamais demandée
 - **Où** : `src/lib/cartes/asie.ts` — zone `mediterranee`, contre les treize
   zones asiatiques de `mers.ts`
 - **Problème** : le fond d'Asie porte quatorze zones marines, treize sont
@@ -541,8 +573,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   « Méditerranée vue depuis l'Asie » — elle borde la Turquie, la Syrie, le
   Liban et Israël, ce qui en fait une vraie question — ou retirer la zone du
   fond.
+- **Fait** : Ajouté un exercice « Méditerranée vue depuis l'Asie » dans mers.ts, sur la zone déjà tracée du fond `src/lib/cartes/asie.ts` (id « mediterranee », déjà cohérente avec le nom attendu).
 
-### [MINEUR] Apostrophes droites dans tout le module
+### [MINEUR] ⏭️ Apostrophes droites dans tout le module
 - **Où** : les cinq fichiers de `prisma/seed/geographie/`
 - **Problème** : 543 apostrophes droites (`'`), zéro apostrophe courbe (`’`),
   alors que la typographie française demande la courbe et que ce texte est
@@ -552,6 +585,7 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   est celle de tout le dépôt (`prisma/seed/culture-g/geographie.ts` compte
   311 apostrophes droites et aucune courbe). À traiter globalement ou à
   assumer ; je le signale pour ne pas le taire, pas pour le corriger ici.
+- **Fait** : Écarté, comme le recommande la correction proposée elle-même : c'est une convention de tout le dépôt, pas de ce module seul.
 
 ## Ce que la seconde passe a ajouté
 

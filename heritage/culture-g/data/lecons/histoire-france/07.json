@@ -92,7 +92,7 @@
   },
   {
    "titre": "L'empire colonial et la société de la Belle Époque",
-   "texte": "La IIIe République est aussi la période de la grande expansion coloniale. Jules Ferry en est le principal promoteur, invoquant à la fois des raisons économiques, la recherche de débouchés et de matières premières, stratégiques, et une prétendue mission civilisatrice qui repose sur une hiérarchie des peuples aujourd'hui totalement rejetée. La France impose son protectorat sur la Tunisie en 1881, conquiert le Tonkin et l'Annam et forme l'Indochine française en 1887, s'installe à Madagascar en 1895 et au Maroc en 1912, tout en constituant de vastes ensembles en Afrique occidentale et équatoriale. En 1898, la crise de Fachoda, au Soudan, manque de provoquer une guerre avec le Royaume-Uni et se termine par le recul français. Le second empire colonial du monde, après le britannique, est célébré dans les expositions universelles de 1889, qui voit s'élever la tour Eiffel, et de 1900. En métropole, l'industrialisation progresse avec l'électricité, l'automobile et la chimie, mais la France reste très rurale et l'exode vers les villes est plus lent qu'ailleurs. Le monde ouvrier s'organise : la CGT est fondée en 1895 et adopte en 1906 la charte d'Amiens, qui affirme l'indépendance du syndicalisme à l'égard des partis ; la SFIO, parti socialiste unifié où s'illustre Jean Jaurès, naît en 1905."
+   "texte": "La IIIe République est aussi la période de la grande expansion coloniale, portée par Jules Ferry au nom de raisons économiques, stratégiques et d'une prétendue mission civilisatrice qui repose sur une hiérarchie des peuples aujourd'hui totalement rejetée — ces conquêtes divisent d'ailleurs les républicains eux-mêmes, entre partisans de l'expansion et adversaires comme Clemenceau, pour qui elles détournent la France de la ligne bleue des Vosges. Elles font de la France, à la veille de 1914, la deuxième puissance coloniale du monde après le Royaume-Uni, célébrée dans les expositions universelles de 1889, qui voit s'élever la tour Eiffel, et de 1900. En métropole, l'industrialisation progresse avec l'électricité, l'automobile et la chimie, mais la France reste très rurale et l'exode vers les villes est plus lent qu'ailleurs. Le monde ouvrier s'organise : la CGT est fondée en 1895 et adopte en 1906 la charte d'Amiens, qui affirme l'indépendance du syndicalisme à l'égard des partis ; la SFIO, parti socialiste unifié où s'illustre Jean Jaurès, naît en 1905."
   },
   {
    "titre": "De la Grande Guerre à la fin du régime",
@@ -166,16 +166,16 @@
    "explication": "La loi du 16 juin 1881 rend l'enseignement primaire public gratuit, et celle du 28 mars 1882 le rend obligatoire pour les enfants de six à treize ans, tout en le laïcisant. L'instruction religieuse est remplacée par une instruction morale et civique, et la loi Goblet de 1886 laïcise ensuite le personnel des écoles publiques. Ces lois font de l'école un instrument majeur d'enracinement de la République et d'unification linguistique du pays. Les instituteurs, surnommés plus tard les hussards noirs de la République, en furent les principaux artisans. L'obligation ne concernait pas l'enseignement secondaire, réservé alors à une minorité."
   },
   {
-   "q": "Quel texte publié par Émile Zola en janvier 1898 relance l'affaire Dreyfus ?",
+   "q": "Quel général, populaire chez les mécontents de tous bords, menace de renverser le régime avant de fuir à l'étranger en 1889 ?",
    "choix": [
-    "Germinal",
-    "J'accuse",
-    "Le Cri du peuple",
-    "La Lettre aux instituteurs"
+    "Le général Boulanger",
+    "Le maréchal MacMahon",
+    "Le général Gallifet",
+    "Le général Cavaignac"
    ],
-   "bonne": 1,
+   "bonne": 0,
    "difficulte": 2,
-   "explication": "Le 13 janvier 1898, Émile Zola publie dans le journal L'Aurore une lettre ouverte au président de la République sous le titre J'accuse, dans laquelle il dénonce nommément les responsables de l'erreur judiciaire et de sa dissimulation. Ce texte transforme une affaire d'espionnage en crise politique majeure, opposant dreyfusards et antidreyfusards dans tout le pays. Zola est lui-même condamné pour diffamation et doit s'exiler quelque temps en Angleterre. Germinal est un roman du même auteur, publié en 1885 et consacré au monde des mineurs. Dreyfus, gracié en 1899, ne sera réhabilité qu'en 1906 par la Cour de cassation."
+   "explication": "Ministre de la Guerre porté par un mouvement protestataire hétéroclite qui mêle nationalistes, monarchistes et une partie de la gauche, Georges Boulanger est élu triomphalement dans plusieurs circonscriptions en 1889. Un coup de force paraît un temps possible, mais il recule et finit par fuir en Belgique, où il se suicide en 1891. MacMahon, lui, avait démissionné dès 1879, au lendemain de la crise du 16 mai 1877."
   },
   {
    "q": "Que prévoit la loi du 9 décembre 1905 ?",

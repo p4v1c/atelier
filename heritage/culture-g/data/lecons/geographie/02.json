@@ -3,7 +3,7 @@
  "sections": [
   {
    "titre": "Huit milliards d'habitants",
-   "texte": "L'humanité a franchi le seuil des 8 milliards d'habitants en novembre 2022, selon l'estimation des Nations unies. Cette croissance est récente et fulgurante : la population mondiale n'atteignait le premier milliard que vers 1800, le deuxième vers 1927, le quatrième en 1974. Il aura donc fallu des dizaines de milliers d'années pour arriver au premier milliard, et un peu plus de dix ans pour passer du septième au huitième. Ce phénomène s'explique par la transition démographique, un processus en deux temps. Dans un premier temps, grâce aux progrès de l'hygiène, de la médecine et de l'alimentation, la mortalité chute fortement alors que la natalité reste élevée : la population augmente très vite. Dans un second temps, la natalité baisse à son tour, avec la scolarisation des filles, l'urbanisation et la contraception, et la croissance ralentit. L'Europe a connu cette transition entre le XVIIIe et le XXe siècle, l'Asie et l'Amérique latine au XXe siècle, l'Afrique la traverse aujourd'hui. Le rythme de croissance mondial a d'ailleurs déjà commencé à ralentir : il était de plus de 2 pour cent par an vers 1965 et se situe autour de 0,9 pour cent au début des années 2020. Les projections des Nations unies envisagent un pic autour de 10 milliards d'habitants vers la fin du XXIe siècle.",
+   "texte": "L'humanité a franchi le seuil des 8 milliards d'habitants en novembre 2022, selon l'estimation des Nations unies. Cette croissance est récente et fulgurante : la population mondiale n'atteignait le premier milliard que vers 1800, le deuxième vers 1927, le quatrième en 1974. Il aura donc fallu des dizaines de milliers d'années pour arriver au premier milliard, et onze ans pour passer du septième milliard, franchi le 31 octobre 2011, au huitième. Ce phénomène s'explique par la transition démographique, un processus en deux temps. Dans un premier temps, grâce aux progrès de l'hygiène, de la médecine et de l'alimentation, la mortalité chute fortement alors que la natalité reste élevée : la population augmente très vite. Dans un second temps, la natalité baisse à son tour, avec la scolarisation des filles, l'urbanisation et la contraception, et la croissance ralentit. L'Europe a connu cette transition entre le XVIIIe et le XXe siècle, l'Asie et l'Amérique latine au XXe siècle, l'Afrique la traverse aujourd'hui. Le rythme de croissance mondial a d'ailleurs déjà commencé à ralentir : il était de plus de 2 pour cent par an vers 1965 et se situe autour de 0,9 pour cent au début des années 2020. Les projections des Nations unies envisagent un pic autour de 10 milliards d'habitants vers la fin du XXIe siècle.",
    "visuel": {
     "type": "frise",
     "titre": "Les milliards d'habitants : un emballement récent",
@@ -26,7 +26,7 @@
      {
       "date": "nov. 2022",
       "label": "8 milliards",
-      "texte": "Un peu plus de dix ans seulement séparent le septième du huitième milliard."
+      "texte": "Onze ans seulement séparent le septième milliard, franchi le 31 octobre 2011, du huitième."
      },
      {
       "date": "fin XXIe s.",

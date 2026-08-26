@@ -116,7 +116,7 @@
    "explication": "La taïga, ou forêt boréale, est le plus vaste biome forestier de la planète. Elle occupe une large bande de l'hémisphère nord entre 50 et 70 degrés de latitude et correspond au climat subpolaire, avec des hivers très longs et très froids. Les arbres qui y dominent sont des conifères comme l'épicéa, le pin et le mélèze, dont les aiguilles et la forme conique résistent au gel et au poids de la neige. Au nord de la taïga commence la toundra, où le froid empêche les arbres de pousser et où ne subsistent que mousses, lichens et arbustes rampants. La savane, elle, appartient au domaine tropical et la forêt équatoriale au domaine chaud et humide."
   },
   {
-   "q": "Selon les rapports du GIEC, de combien la température moyenne de la Terre a-t-elle augmenté depuis la fin du XIXe siècle ?",
+   "q": "Selon les rapports du GIEC, de combien la température moyenne de la Terre avait-elle augmenté sur la décennie 2011-2020 par rapport à la fin du XIXe siècle ?",
    "choix": [
     "Environ 0,2 degré",
     "Environ 1,1 degré",
@@ -125,7 +125,7 @@
    ],
    "bonne": 1,
    "difficulte": 2,
-   "explication": "Les relevés de température rassemblés depuis le milieu du XIXe siècle montrent un réchauffement global d'environ 1,1 à 1,2 degré par rapport à la période 1850-1900, prise comme référence préindustrielle. Ce chiffre peut sembler faible, mais il s'agit d'une moyenne mondiale qui masque de fortes différences : les continents se réchauffent plus vite que les océans, et l'Arctique environ trois à quatre fois plus vite que la moyenne. L'essentiel de la hausse s'est produit depuis les années 1970, en lien avec l'augmentation rapide des émissions de dioxyde de carbone. L'accord de Paris de 2015 fixe comme objectif de rester nettement sous 2 degrés de réchauffement, et si possible sous 1,5 degré."
+   "explication": "Les relevés de température rassemblés depuis le milieu du XIXe siècle montrent un réchauffement global d'environ 1,1 degré sur la décennie 2011-2020 par rapport à la période 1850-1900, prise comme référence préindustrielle — et le réchauffement se poursuit : la décennie suivante dépasse déjà 1,2 degré. Ce chiffre peut sembler faible, mais il s'agit d'une moyenne mondiale qui masque de fortes différences : les continents se réchauffent plus vite que les océans, et l'Arctique environ trois à quatre fois plus vite que la moyenne. L'essentiel de la hausse s'est produit depuis les années 1970, en lien avec l'augmentation rapide des émissions de dioxyde de carbone. L'accord de Paris de 2015 fixe comme objectif de rester nettement sous 2 degrés de réchauffement, et si possible sous 1,5 degré."
   },
   {
    "q": "Quel vent régulier souffle des zones tropicales vers l'équateur et fut longtemps utilisé par les navigateurs ?",

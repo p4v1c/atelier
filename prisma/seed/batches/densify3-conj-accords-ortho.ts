@@ -131,7 +131,7 @@ export const DENSIFY3_CONJ_ACC_ORTHO: ContentBatch = {
       { marked: "Le jury les a déclarées [admissible] à l'unanimité.", fix: "admissibles" },
     ]},
     { ruleSlug: "accord-de-meme-que", sentences: [
-      { marked: "Le vent, de même que la pluie, [ont] retardé les travaux.", fix: "a" },
+      { marked: "Le vent violent, de même que la pluie, [ont] retardé les travaux.", fix: "a" },
       { marked: "La sœur, aussi bien que le frère, [savent] toute la vérité.", fix: "sait" },
     ]},
     { ruleSlug: "pluriel-composes-nom-adjectif", sentences: [

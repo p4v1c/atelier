@@ -7,7 +7,7 @@
   },
   {
    "titre": "Des milieux naturels en bandes",
-   "texte": "Parce que l'équateur traverse le continent, les milieux naturels africains se disposent en bandes à peu près symétriques de part et d'autre de cette ligne. Au centre s'étend la forêt dense humide du bassin du Congo, deuxième massif forestier tropical du monde après l'Amazonie, avec environ 2 millions de kilomètres carrés. De chaque côté viennent les savanes, arborées puis herbeuses, domaine des grands troupeaux d'herbivores et des parcs nationaux comme le Serengeti en Tanzanie ou le Kruger en Afrique du Sud. Plus loin encore commencent les steppes puis les déserts : au nord le Sahara, plus grand désert chaud du monde avec plus de 8 millions de kilomètres carrés, au sud le Kalahari et le Namib, l'un des plus anciens déserts de la planète. Aux extrémités du continent, on retrouve des climats méditerranéens, au Maghreb et dans la région du Cap. Entre le Sahara et la savane s'étend une zone de transition fragile, le Sahel, qui traverse le continent de la Mauritanie au Soudan. Les sécheresses répétées des années 1970 et 1980 y ont provoqué de graves famines et une avancée des zones arides que l'on combat aujourd'hui par des projets de reboisement comme la Grande Muraille verte, lancée en 2007 pour restaurer une bande de terres sur environ 8000 kilomètres.",
+   "texte": "Parce que l'équateur traverse le continent, les milieux naturels africains se disposent en bandes à peu près symétriques de part et d'autre de cette ligne. Au centre s'étend la forêt dense humide du bassin du Congo, deuxième massif forestier tropical du monde après l'Amazonie, avec environ 2 millions de kilomètres carrés. De chaque côté viennent les savanes, arborées puis herbeuses, domaine des grands troupeaux d'herbivores et des parcs nationaux comme le Serengeti en Tanzanie ou le Kruger en Afrique du Sud. Plus loin encore commencent les steppes puis les déserts : au nord le Sahara, plus grand désert chaud du monde avec environ 9 millions de kilomètres carrés, au sud le Kalahari et le Namib, l'un des plus anciens déserts de la planète. Aux extrémités du continent, on retrouve des climats méditerranéens, au Maghreb et dans la région du Cap. Entre le Sahara et la savane s'étend une zone de transition fragile, le Sahel, qui traverse le continent de la Mauritanie au Soudan. Les sécheresses répétées des années 1970 et 1980 y ont provoqué de graves famines et une avancée des zones arides que l'on combat aujourd'hui par des projets de reboisement comme la Grande Muraille verte, lancée en 2007 sur une bande de terres d'environ 8000 kilomètres : le projet a abandonné l'idée initiale d'un rideau d'arbres continu au profit d'une mosaïque de reforestation, d'agroforesterie et de gestion des sols.",
    "visuel": {
     "type": "etapes",
     "titre": "Les milieux africains, en bandes de part et d'autre de l'équateur",
@@ -26,7 +26,7 @@
      },
      {
       "label": "Déserts",
-      "texte": "Le Sahara au nord, plus de 8 millions de kilomètres carrés ; le Kalahari et le Namib au sud."
+      "texte": "Le Sahara au nord, environ 9 millions de kilomètres carrés ; le Kalahari et le Namib au sud."
      },
      {
       "label": "Climats méditerranéens",
@@ -137,7 +137,7 @@
    ],
    "bonne": 3,
    "difficulte": 1,
-   "explication": "Le Sahel est une bande semi-aride qui traverse l'Afrique d'ouest en est, de la Mauritanie et du Sénégal jusqu'au Soudan et à l'Érythrée, sur environ 5000 kilomètres. Son nom vient d'un mot arabe signifiant rivage, car il apparaissait comme la côte du grand océan de sable saharien. Il reçoit entre 200 et 600 millimètres de pluie par an, concentrés sur quelques mois, ce qui rend l'agriculture et l'élevage très dépendants de la régularité des précipitations. Les sécheresses des années 1970 et 1980 y ont provoqué des famines et un exode massif. Le projet de la Grande Muraille verte vise à y planter une large bande d'arbres pour freiner la dégradation des sols."
+   "explication": "Le Sahel est une bande semi-aride qui traverse l'Afrique d'ouest en est, de la Mauritanie et du Sénégal jusqu'au Soudan et à l'Érythrée, sur environ 5000 kilomètres. Son nom vient d'un mot arabe signifiant rivage, car il apparaissait comme la côte du grand océan de sable saharien. Il reçoit entre 200 et 600 millimètres de pluie par an, concentrés sur quelques mois, ce qui rend l'agriculture et l'élevage très dépendants de la régularité des précipitations. Les sécheresses des années 1970 et 1980 y ont provoqué des famines et un exode massif. Le projet de la Grande Muraille verte, qui a abandonné l'idée initiale d'un rideau d'arbres continu, combine aujourd'hui reforestation, agroforesterie et gestion des sols pour freiner la dégradation."
   },
   {
    "q": "Quel pays africain est le plus peuplé ?",

@@ -33,7 +33,7 @@ const REPERES: Record<string, { drapeaux: string; capitales: string; situer: str
   },
   ameriques: {
     drapeaux: "Les étoiles y disent le nombre : États, provinces, ou le ciel d'un jour précis pour le Brésil.",
-    capitales: "L'altitude est un thème : Quito, Bogota, Mexico et La Paz sont toutes au-dessus de deux mille mètres.",
+    capitales: "L'altitude est un thème : Quito, Bogotá, Mexico et La Paz sont toutes au-dessus de deux mille mètres.",
     situer: "L'isthme d'Amérique centrale est la charnière. Au nord trois pays, au sud douze — et le Brésil en occupe la moitié.",
   },
 };
@@ -59,21 +59,33 @@ function serieDrapeaux(cle: string, nom: string, pays: Fiche[]): SeedSkill {
  *
  * Le Luxembourg, Djibouti, le Guatemala, le Panama et le Koweït portent
  * exactement le nom de leur capitale. Mais le piège est plus large : Tunis est
- * dans Tunisie, Alger dans Algérie, Bissau dans Guinée-Bissau, et Andorre dans
- * Andorre-la-Vieille. « Guinée-Bissau — quelle est sa capitale ? » donne la
- * réponse dans la question : ce n'est pas une question, c'est une ligne à
- * cocher. Ces pays sortent du quiz.
+ * dans Tunisie, Alger dans Algérie, Bissau dans Guinée-Bissau, Andorre dans
+ * Andorre-la-Vieille, et Salvador dans El Salvador comme dans San Salvador —
+ * et, dans le reste du monde, Monaco, Saint-Marin, Singapour et São Tomé.
+ * « Guinée-Bissau — quelle est sa capitale ? » donne la réponse dans la
+ * question : ce n'est pas une question, c'est une ligne à cocher. Ces pays
+ * sortent du quiz.
+ *
+ * La comparaison se fait mot par mot plutôt que sur les noms complets
+ * accolés : une comparaison brute laissait passer « El Salvador », dont la
+ * capitale « San Salvador » ne recoupe le nom du pays que par le mot
+ * « Salvador », noyé une fois les espaces supprimés. Les mots de moins de
+ * quatre lettres sont ignorés : sans ce plancher, des particules sans rapport
+ * (« Sri » de Sri Lanka, « et » de Saint-Christophe-et-Niévès) se
+ * recoupaient par accident avec un mot de la capitale.
  *
  * Le fait n'est pas perdu pour autant : le jeu de localisation annonce la
  * capitale dans sa correction, et la parenté s'y voit d'elle-même.
  */
-const nu = (t: string) =>
-  t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z]/g, "");
+const nu = (t: string) => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
+const mots = (t: string): string[] =>
+  nu(t).replace(/[^a-z]+/g, " ").trim().split(" ").filter((mot) => mot.length >= 4);
 
 const homonyme = (f: Fiche) => {
-  const pays = nu(f.nom);
-  const ville = nu(f.capitale);
-  return pays.includes(ville) || ville.includes(pays);
+  const motsPays = mots(f.nom);
+  const motsVille = mots(f.capitale);
+  return motsPays.some((p) => motsVille.some((v) => p.includes(v) || v.includes(p)));
 };
 
 function serieCapitales(cle: string, nom: string, tous: Fiche[]): SeedSkill {
@@ -109,7 +121,7 @@ function serieSituer(cle: string, nom: string, pays: Fiche[], region = cle): See
  * fois serait un doublon. Ils portent sur ce qu'aucune carte régionale ne
  * montre : les archipels, les micro-États, et les trois grands que le
  * découpage laissait de côté. C'est là que la matière atteint les cent
- * quatre-vingt-treize États membres de l'ONU.
+ * quatre-vingt-treize États membres de l'ONU, plus Taïwan.
  *
  * Le jeu de localisation, lui, change de nature plutôt que de sujet : trouver
  * la France sur un planisphère n'est pas le même geste que la trouver sur une
@@ -133,9 +145,9 @@ function trouver(source: readonly Fiche[], id: string): Fiche {
 
 REPERES.monde = {
   drapeaux:
-    "Beaucoup de ces drapeaux portent des étoiles ou des bandes bleues : la mer est le sujet commun des États insulaires.",
+    "Deux mondes dans la même série : trois géants que les cartes régionales ne portaient pas, et une trentaine d'États insulaires dont les drapeaux se répondent — étoiles, bandes bleues, la mer pour sujet commun.",
   capitales:
-    "Sur un atoll, la capitale est souvent le seul vrai bourg du pays — et porte parfois le nom de l'île entière.",
+    "Pour les insulaires, la capitale est souvent le seul vrai bourg du pays, et porte parfois le nom de l'île.",
   situer:
     "Sur un planisphère, la difficulté n'est plus de reconnaître une forme mais de savoir dans quel quart du monde regarder.",
 };
