@@ -32,7 +32,7 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
       {
         etranger: "En realidad era al revés.",
         francais: "En fait, c'était l'inverse.",
-        note: "En realidad corrige poliment. Actualmente veut dire en ce moment.",
+        note: "En realidad corrige poliment ce qu'on vient d'entendre : « en fait », plutôt que « en réalité ».",
       },
       {
         etranger: "O sea, no es tan sencillo.",
@@ -47,7 +47,7 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
       },
       {
         etranger: "Aunque bueno, quizá tenga razón.",
-        francais: "Ceci dit, elle a peut-être raison.",
+        francais: "Encore que, oui, elle a peut-être raison.",
         note: "Aunque bueno annonce un retournement de son propre point de vue.",
       },
       {
@@ -68,7 +68,8 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
       {
         etranger: "Venga, empezamos.",
         francais: "Bon, on s'y met.",
-        note: "Venga ouvre une séquence d'action. Très espagnol, peu employé en Amérique.",
+        aussiEtranger: ["Dale, empezamos.", "Listo, empezamos."],
+        note: "Venga ouvre une séquence d'action. Très espagnol ; en Amérique, on dirait plutôt dale ou listo.",
       },
       {
         etranger: "¿Me entiendes?",
@@ -91,9 +92,9 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
     parle: true,
     cartes: [
       {
-        etranger: "Está como que complicado.",
-        francais: "C'est un peu compliqué.",
-        note: "Como que atténue. La tournure est familière et très employée.",
+        etranger: "Es como que no me apetece.",
+        francais: "C'est un peu comme si je n'en avais pas envie.",
+        note: "Como que devant un verbe atténue de la même façon ; à l'écrit, à proscrire.",
       },
       {
         etranger: "O más bien dos, debería decir.",
@@ -107,7 +108,8 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
       },
       {
         etranger: "Déjame decirlo de otra manera.",
-        francais: "Je vais le dire autrement.",
+        francais: "Laisse-moi le dire autrement.",
+        aussiEtranger: ["Te lo digo de otra manera.", "Dicho de otro modo."],
         note: "De otra manera, autrement. Dicho de otro modo se dit aussi, plus écrit.",
       },
       {
@@ -131,9 +133,9 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
         note: "El hilo, le fil. L'espagnol et le français emploient la même image.",
       },
       {
-        etranger: "¿Por dónde iba?",
-        francais: "Où en étais-je ?",
-        note: "La formule pour reprendre après une interruption.",
+        etranger: "Es que… no sé.",
+        francais: "C'est que... je ne sais pas.",
+        note: "La suspension elle-même sert d'hésitation ; à l'oral, le silence porte le sens.",
       },
       {
         etranger: "No es exactamente lo que quería decir.",
@@ -163,7 +165,7 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
       {
         etranger: "Ahora mismo le paso.",
         francais: "Je vous passe le service tout de suite.",
-        note: "Pasar a alguien, transférer un appel. Le complément reste implicite.",
+        note: "Le complément direct disparaît alors qu'il reste obligatoire pour la plupart des verbes transitifs espagnols.",
       },
       {
         etranger: "Un momentito, por favor.",
@@ -173,6 +175,7 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
       {
         etranger: "Le devuelvo la llamada mañana.",
         francais: "Je vous rappelle demain.",
+        aussiEtranger: ["Lo/la llamo de vuelta mañana."],
         note: "Devolver la llamada, rappeler. Llamar de vuelta se dit en Amérique latine.",
       },
       {
@@ -188,11 +191,13 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
       {
         etranger: "¿Quiere dejar un recado?",
         francais: "Voulez-vous laisser un message ?",
+        aussiEtranger: ["¿Quiere dejar un mensaje?"],
         note: "Un recado en Espagne, un mensaje partout. Dejar recado, laisser un mot.",
       },
       {
         etranger: "Está comunicando.",
         francais: "La ligne est occupée.",
+        aussiEtranger: ["Está ocupado."],
         note: "Comunicar au sens de sonner occupé. Ocupado se dit en Amérique latine.",
       },
       {
@@ -213,7 +218,7 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
     category: "Expressions",
     title: "Dire non sans le dire",
     statement:
-      "Entiendo tu punto, pero. No lo veo claro. Todo depende. L'espagnol professionnel refuse rarement par un « no » sec : le refus passe par une concession, une réserve ou un regret.",
+      "Entiendo tu punto, pero… No lo veo claro. Todo depende. L'espagnol professionnel refuse rarement par un « no » sec : le refus passe par une concession, une réserve ou un regret.",
     tip: "« No lo veo claro » est un refus ferme sous une forme douce. Le traduire par « je ne vois pas clairement » manque tout le sens.",
     difficulty: 3,
     niveau: "C1",
@@ -229,7 +234,7 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
         etranger: "No lo veo claro.",
         francais: "Ça ne me convainc pas.",
         aussi: ["Je n'y crois pas trop."],
-        note: "No verlo claro est un refus ferme sous une forme douce.",
+        note: "Verlo claro se construit avec le lo neutre, quel que soit ce dont on parle : no LO veo claro.",
       },
       {
         etranger: "Yo sería prudente con eso.",
@@ -237,8 +242,8 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
         note: "Ser prudente con, formule de réserve. Elle signale un désaccord sans le nommer.",
       },
       {
-        etranger: "Puede ser, pero.",
-        francais: "C'est possible, mais.",
+        etranger: "Puede ser, pero…",
+        francais: "C'est possible, mais…",
         note: "Puede ser concède l'hypothèse pour mieux la contourner.",
       },
       {
@@ -267,9 +272,9 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
         note: "Me temo que annonce une mauvaise nouvelle. Il ne dit aucune peur.",
       },
       {
-        etranger: "¿Lo dejamos para otro momento?",
-        francais: "On peut y revenir plus tard ?",
-        note: "Dejar algo para otro momento : souvent une façon de ne jamais y revenir.",
+        etranger: "¿Lo aplazamos unos días?",
+        francais: "On reporte de quelques jours ?",
+        note: "Aplazar, reporter — souvent une façon de ne jamais y revenir.",
       },
     ],
   },
@@ -294,11 +299,13 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
       {
         etranger: "Bien, gracias. ¿Y tú?",
         francais: "Bien, merci. Et toi ?",
-        note: "La réponse type : brève, positive, et on renvoie la question.",
+        note: "Y tú reprend la question à l'identique ; en Amérique latine, on dit aussi ¿y usted? selon le registre.",
       },
       {
         etranger: "¡Cuánto tiempo!",
-        francais: "Ça fait un bail !",
+        francais: "Ça fait longtemps !",
+        aussi: ["Ça fait un bail !"],
+        aussiEtranger: ["¡Cuánto tiempo sin verte!"],
         note: "Formule figée. Cuánto tiempo sin verte se dit aussi, en entier.",
       },
       {
@@ -323,7 +330,7 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
       },
       {
         etranger: "Ya quedamos otro día.",
-        francais: "On se cale ça un autre jour.",
+        francais: "On se refait ça un autre jour.",
         aussi: ["On se revoit une prochaine fois."],
         note: "Quedar otro día : l'engagement reste volontairement flou.",
       },
@@ -333,9 +340,9 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
         note: "Tener prisa, être pressé. Le que explicatif est très espagnol.",
       },
       {
-        etranger: "Me alegro de verte otra vez.",
-        francais: "Content de te revoir.",
-        note: "Alegrarse de verte pour quelqu'un qu'on connaît ; encantado la première fois.",
+        etranger: "Encantado de conocerte.",
+        francais: "Enchanté de te connaître.",
+        note: "Encantado, la formule de la première rencontre ; alegrarse de verte vaut pour qui on connaît déjà.",
       },
     ],
   },
@@ -365,7 +372,7 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
       {
         etranger: "Total, que lo perdimos.",
         francais: "Résultat, on l'a raté.",
-        note: "Total que abrège et conclut. La formule est familière et très courante.",
+        note: "Total, que abrège et conclut. La formule est familière et très courante.",
       },
       {
         etranger: "No te vas a creer lo que pasó.",
@@ -395,7 +402,7 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
       {
         etranger: "Aunque no te lo creas, funcionó.",
         francais: "Crois-le ou non, ça a marché.",
-        note: "Aunque no te lo creas + subjonctif annonce l'invraisemblable.",
+        note: "Aunque impose ici le subjonctif : no te lo creas. La formule annonce l'invraisemblable.",
       },
       {
         etranger: "Todavía no me lo explico.",
@@ -419,8 +426,8 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
     cartes: [
       {
         etranger: "Asegúrate de cerrar con llave.",
-        francais: "N'oublie pas de fermer à clé.",
-        note: "Asegurarse de + infinitif, même sujet. Avec un autre sujet : de que + subjonctif.",
+        francais: "Assure-toi de fermer à clé.",
+        note: "Asegurarse de + infinitif, même sujet — la construction la plus fréquente pour une consigne de sécurité.",
       },
       {
         etranger: "Ten cuidado de no pulsar eso.",
@@ -445,7 +452,7 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
       {
         etranger: "Déjalo enfriar diez minutos.",
         francais: "Laisse refroidir dix minutes.",
-        note: "Dejar + infinitif : laisser faire. Le pronom se soude à l'impératif.",
+        note: "Dejar + infinitif : laisser faire. Le pronom se soude à l'impératif et déplace l'accent : deja + lo → déjalo.",
       },
       {
         etranger: "Quizá deberías guardar primero.",
@@ -495,7 +502,7 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
       {
         etranger: "Me preguntaba si podrías echarle un ojo.",
         francais: "Je me demandais si tu pourrais y jeter un œil.",
-        note: "Me preguntaba si : le degré de politesse le plus élevé de la vie courante.",
+        note: "Me preguntaba si + conditionnel : l'imparfait recule symboliquement la demande dans le temps pour la rendre moins directe.",
       },
       {
         etranger: "¿Habría alguna forma de cambiar la cita?",
@@ -530,6 +537,7 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
       {
         etranger: "¿Me haría un descuento?",
         francais: "Pourriez-vous me faire une remise ?",
+        aussiEtranger: ["¿Me hace un descuento?"],
         note: "Hacer un descuento, faire une remise. Le conditionnel adoucit la demande.",
       },
     ],

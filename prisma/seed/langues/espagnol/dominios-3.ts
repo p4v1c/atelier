@@ -17,7 +17,7 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
     title: "Le jardin",
     statement:
       "Sembrar, podar, desbrozar, acolchar. Le jardinage a un verbe pour chaque geste, et « planter » n'en couvre aucun correctement.",
-    tip: "Sembrar, c'est semer une graine ; plantar, c'est mettre en terre ce qui a déjà poussé. Les deux ne s'échangent jamais.",
+    tip: "Sembrar, c'est semer une graine ; plantar, c'est mettre en terre ce qui a déjà poussé. Les deux s'échangent rarement.",
     difficulty: 2,
     niveau: "B1",
     oral: true,
@@ -36,17 +36,18 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
       {
         etranger: "Pasé la mañana quitando malas hierbas.",
         francais: "J'ai passé la matinée à désherber.",
+        aussiEtranger: ["Pasé la mañana desherbando."],
         note: "Las malas hierbas, les mauvaises herbes. Desherbar existe, moins courant.",
       },
       {
         etranger: "El suelo necesita acolchado.",
         francais: "Le sol a besoin de paillis.",
-        note: "El acolchado, le paillis. Le mot vient de colcha, la couverture.",
+        note: "El acolchado, le paillis. Le mot vient de colcha, le couvre-lit.",
       },
       {
-        etranger: "Los tomates van bien este año.",
-        francais: "Les tomates poussent bien cette année.",
-        note: "Ir bien, bien se porter. Se dit d'une plante comme d'un projet.",
+        etranger: "Plantamos los tomates ya crecidos.",
+        francais: "Nous avons planté les tomates déjà poussées.",
+        note: "Plantar, mettre en terre ce qui a déjà poussé — à l'inverse de sembrar, semer une graine.",
       },
       {
         etranger: "Riégalas con moderación.",
@@ -59,9 +60,9 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
         note: "Un plantón, un jeune plant. Acabar con, venir à bout de.",
       },
       {
-        etranger: "El seto se está desmadrando.",
-        francais: "La haie devient incontrôlable.",
-        note: "Desmadrarse, échapper à tout contrôle. Familier et très expressif.",
+        etranger: "Hay que desbrozar el camino.",
+        francais: "Il faut débroussailler le chemin.",
+        note: "Desbrozar, débroussailler : dégager la végétation envahissante, plus radical que quitar malas hierbas.",
       },
       {
         etranger: "Estas plantas prosperan a la sombra.",
@@ -71,7 +72,8 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
       {
         etranger: "Hay que cortar el césped otra vez.",
         francais: "Il faut retondre la pelouse.",
-        note: "Cortar el césped, tondre. Un cortacésped, une tondeuse.",
+        aussiEtranger: ["Hay que cortar el pasto otra vez."],
+        note: "Cortar el césped, tondre en Espagne ; el pasto en Amérique latine. Un cortacésped, une tondeuse.",
       },
     ],
   },
@@ -114,9 +116,9 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
         note: "Un zorro, un renard. Le mot dit aussi un homme rusé.",
       },
       {
-        etranger: "El caballo tiró al jinete.",
+        etranger: "El caballo derribó al jinete.",
         francais: "Le cheval a désarçonné son cavalier.",
-        note: "Tirar a alguien, désarçonner. Una yegua, la jument ; un potro, le poulain.",
+        note: "Derribar a alguien, le jeter à terre — c'est le verbe du cheval qui désarçonne. Una yegua, la jument ; un potro, le poulain.",
       },
       {
         etranger: "Los pájaros anidan bajo el alero.",
@@ -156,12 +158,12 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
       {
         etranger: "La sonda entró en órbita la semana pasada.",
         francais: "La sonde s'est placée en orbite la semaine dernière.",
-        note: "Entrar en órbita. Orbitar est verbe aussi.",
+        note: "Entrar en órbita, se placer en orbite. Le verbe orbitar existe aussi : orbita alrededor de Marte.",
       },
       {
         etranger: "El eclipse duró cuatro minutos.",
         francais: "L'éclipse a duré quatre minutes.",
-        note: "Un eclipse est masculin, malgré le e final. Eclipsar s'emploie au figuré.",
+        note: "Un eclipse est masculin, alors que le français dit « une éclipse ». Eclipsar s'emploie au figuré.",
       },
       {
         etranger: "Está a cuatro años luz.",
@@ -179,14 +181,14 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
         note: "Captar, capter. Le verbe est le même que pour une radio.",
       },
       {
-        etranger: "El cometa vuelve cada 76 años.",
-        francais: "La comète revient tous les 76 ans.",
+        etranger: "El cometa vuelve cada setenta y seis años.",
+        francais: "La comète revient tous les soixante-seize ans.",
         note: "Un cometa, masculin, est la comète ; una cometa, féminin, est un cerf-volant.",
       },
       {
-        etranger: "El robot aterrizó al amanecer.",
-        francais: "Le robot s'est posé à l'aube.",
-        note: "Aterrizar, atterrir. Amartizar existe pour Mars, alunizar pour la Lune.",
+        etranger: "El róver amartizó al amanecer.",
+        francais: "Le robot s'est posé sur Mars à l'aube.",
+        note: "Amartizar existe pour Mars, alunizar pour la Lune ; aterrizar reste réservé à la Terre.",
       },
       {
         etranger: "La estrella colapsó en un agujero negro.",
@@ -196,6 +198,7 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
       {
         etranger: "La misión superó el presupuesto.",
         francais: "La mission a dépassé son budget.",
+        aussiEtranger: ["La misión rebasó el presupuesto."],
         note: "Superar el presupuesto. Rebasar se dit aussi.",
       },
       {
@@ -236,8 +239,9 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
       },
       {
         etranger: "El sedimento se depositó durante la noche.",
-        francais: "Les sédiments se sont déposés pendant la nuit.",
-        note: "Depositarse, se déposer. El sedimento reste singulier en espagnol.",
+        francais: "Le sédiment s'est déposé pendant la nuit.",
+        aussiEtranger: ["Los sedimentos se depositaron durante la noche."],
+        note: "Depositarse, se déposer. El sedimento au singulier pour la matière, los sedimentos pour les couches.",
       },
       {
         etranger: "El acantilado se desmorona hacia el mar.",
@@ -278,7 +282,7 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
     title: "La santé mentale",
     statement:
       "Desgaste, sobrepasado, límites, acompañamiento. Le vocabulaire de la santé mentale s'est imposé partout, et il évolue vite.",
-    tip: "On dit una persona con depresión plutôt que un depresivo : l'espagnol met la personne avant le diagnostic, comme l'anglais. C'est une règle d'usage.",
+    tip: "On dit una persona con depresión plutôt que un depresivo : l'espagnol met la personne avant le diagnostic, comme le français administratif. C'est une règle d'usage.",
     difficulty: 3,
     niveau: "C1",
     oral: true,
@@ -290,9 +294,10 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
         note: "El desgaste profesional traduit burnout. Estar de baja, être en arrêt.",
       },
       {
-        etranger: "Últimamente me siento sobrepasado.",
+        etranger: "Últimamente me siento desbordado.",
         francais: "Je me sens débordé ces temps-ci.",
-        note: "Sobrepasado, dépassé. Desbordado se dit aussi et se comprend partout.",
+        aussiEtranger: ["Últimamente me siento sobrepasado."],
+        note: "Desbordado, dépassé, se comprend partout ; sobrepasado se dit aussi.",
       },
       {
         etranger: "Está poniendo límites en el trabajo.",
@@ -301,8 +306,9 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
       },
       {
         etranger: "Va al psicólogo desde enero.",
-        francais: "Il consulte un psychologue depuis janvier.",
-        note: "Ir al psicólogo, consulter. Le verbe ir suffit, sans complément.",
+        francais: "Il va chez le psychologue depuis janvier.",
+        aussiEtranger: ["Consulta a un psicólogo desde enero."],
+        note: "Là où le français dit « consulter », l'espagnol dit ir al psicólogo, ir al médico, ir al dentista.",
       },
       {
         etranger: "Es una estrategia de afrontamiento común.",
@@ -355,8 +361,8 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
         note: "A fuego lento, à feu doux ; a fuego vivo, à feu vif. La différence change le plat.",
       },
       {
-        etranger: "Bate los huevos hasta que espumen.",
-        francais: "Bats les œufs jusqu'à ce qu'ils moussent.",
+        etranger: "Bate los huevos hasta que blanqueen.",
+        francais: "Bats les œufs jusqu'à ce qu'ils blanchissent.",
         note: "Batir, battre. Une batidora est un batteur ou un mixeur.",
       },
       {
@@ -380,8 +386,13 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
         note: "Escurrir, égoutter ; reservar, réserver. Les deux verbes des recettes.",
       },
       {
-        etranger: "Precalienta el horno a 180 grados.",
-        francais: "Préchauffe le four à 180 degrés.",
+        etranger: "Sofríe la cebolla a fuego lento.",
+        francais: "Fais revenir l'oignon à feu doux.",
+        note: "Sofreír, faire revenir doucement — ni freír (frire) ni saltear (faire sauter) : la base de presque toute la cuisine espagnole.",
+      },
+      {
+        etranger: "Precalienta el horno a ciento ochenta grados.",
+        francais: "Préchauffe le four à cent quatre-vingts degrés.",
         note: "Precalentar, préchauffer. Le verbe diphtongue : precaliento.",
       },
       {
@@ -427,7 +438,7 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
       {
         etranger: "Necesitará un justificante de domicilio.",
         francais: "Il vous faudra un justificatif de domicile.",
-        note: "Un justificante, un justificatif. Un empadronamiento en est le plus courant.",
+        note: "Un justificante, un justificatif. Le plus demandé est el certificado de empadronamiento — el volante en est la version simplifiée.",
       },
       {
         etranger: "Puede que tenga derecho a una devolución.",
@@ -472,8 +483,8 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
     category: "Vocabulaire",
     title: "Associations et solidarité",
     statement:
-      "ONG, voluntariado, recaudación, acompañamiento. Le monde associatif hispanophone a un vocabulaire précis, et « caridad » ne s'y emploie presque plus.",
-    tip: "On dit una ONG ou una asociación, pas una caridad : le mot caridad a gardé sa connotation religieuse et condescendante.",
+      "ONG, voluntariado, recaudación, acompañamiento. Le monde associatif hispanophone a un vocabulaire précis, et una asociación ou una ONG en sont les mots courants.",
+    tip: "Una caridad existe mais garde une couleur religieuse : la caridad, la charité comme vertu, pas comme organisme. Pour une association, on dit una asociación ou una ONG.",
     difficulty: 3,
     niveau: "C1",
     oral: true,
@@ -500,9 +511,9 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
         note: "Llegar a, atteindre un public. El alcance dit la portée obtenue.",
       },
       {
-        etranger: "La ayuda está sujeta a ingresos.",
+        etranger: "La ayuda está condicionada al nivel de ingresos.",
         francais: "L'aide est soumise à conditions de ressources.",
-        note: "Sujeto a, soumis à. Los ingresos, les revenus.",
+        note: "Condicionado a, soumis à. Los ingresos, les revenus.",
       },
       {
         etranger: "Las donaciones desgravan.",
@@ -515,13 +526,14 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
         note: "El patronato, le conseil d'une fondation. Un patrono, un administrateur.",
       },
       {
-        etranger: "Cuentan con apoyo de base.",
+        etranger: "Cuentan con el apoyo de las bases.",
         francais: "Ils comptent sur un soutien de terrain.",
-        note: "De base, militant et local. Contar con, compter sur.",
+        note: "El apoyo de las bases, avec l'article et le pluriel. Contar con, compter sur.",
       },
       {
         etranger: "La campaña sirvió para concienciar.",
         francais: "La campagne a servi à sensibiliser.",
+        aussiEtranger: ["La campaña sirvió para concientizar."],
         note: "Concienciar en Espagne, concientizar en Amérique latine.",
       },
       {

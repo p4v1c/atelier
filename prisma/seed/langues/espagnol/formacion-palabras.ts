@@ -35,8 +35,8 @@ export const ESPAGNOL_FORMACION_PALABRAS: LotCartes[] = [
         note: "Sobre- dit l'excès : sobrestimar, sobrecargar, sobrepasar.",
       },
       {
-        etranger: "El equipo está infradotado.",
-        francais: "L'équipe manque de moyens.",
+        etranger: "El servicio está infrautilizado.",
+        francais: "Le service est sous-utilisé.",
         note: "Infra- dit l'insuffisance : infradotado, infrautilizado, infravalorar.",
       },
       {
@@ -52,7 +52,7 @@ export const ESPAGNOL_FORMACION_PALABRAS: LotCartes[] = [
       {
         etranger: "La acusación es infundada.",
         francais: "L'accusation est sans fondement.",
-        note: "In- devient im- devant p et b, i- devant l et r : imposible, ilegal, irreal.",
+        note: "In- devient im- devant p et b, i- devant l et r ; devant les autres consonnes, il reste inchangé : imposible, ilegal, irreal, incoherente.",
       },
       {
         etranger: "Es una decisión prematura.",
@@ -60,9 +60,9 @@ export const ESPAGNOL_FORMACION_PALABRAS: LotCartes[] = [
         note: "Pre- dit l'antériorité ; pos- la postériorité : preguerra, posguerra.",
       },
       {
-        etranger: "Las dos versiones son incoherentes.",
-        francais: "Les deux versions se contredisent.",
-        note: "In- devant une consonne autre que p, b, l, r reste inchangé.",
+        etranger: "Entreabrió la puerta con cuidado.",
+        francais: "Il entrouvrit la porte avec précaution.",
+        note: "Entre- dit l'action à demi : entreabrir, entrever, entreoír.",
       },
       {
         etranger: "El subsuelo está contaminado.",
@@ -116,7 +116,7 @@ export const ESPAGNOL_FORMACION_PALABRAS: LotCartes[] = [
       },
       {
         etranger: "El rechazo fue una sorpresa.",
-        francais: "Le refus a surpris.",
+        francais: "Le refus a été une surprise.",
         note: "Certains noms se forment sans suffixe : rechazar donne rechazo, cambiar cambio.",
       },
       {
@@ -131,11 +131,12 @@ export const ESPAGNOL_FORMACION_PALABRAS: LotCartes[] = [
       },
       {
         etranger: "Trabaja como cuidador.",
-        francais: "Il travaille comme aidant.",
+        francais: "Il travaille comme auxiliaire de vie.",
+        aussi: ["Il est aide à domicile."],
         note: "-dor désigne celui qui fait : cuidar, cuidador ; trabajar, trabajador.",
       },
       {
-        etranger: "El empleado planteó una queja.",
+        etranger: "El empleado presentó una queja.",
         francais: "L'employé a formulé une plainte.",
         note: "-ado peut désigner celui qui subit : empleador et empleado.",
       },
@@ -177,7 +178,7 @@ export const ESPAGNOL_FORMACION_PALABRAS: LotCartes[] = [
       {
         etranger: "La medida resultó efectiva.",
         francais: "La mesure s'est révélée efficace.",
-        note: "-ivo sur un verbe latin : efecto, efectivo ; selección, selectivo.",
+        note: "-ivo se greffe sur le radical du participe latin : efecto → efectivo, selección → selectivo, comprender → comprensivo.",
       },
       {
         etranger: "El proceso está automatizado.",
@@ -231,13 +232,13 @@ export const ESPAGNOL_FORMACION_PALABRAS: LotCartes[] = [
       },
       {
         etranger: "Insistieron en ver el expediente.",
-        francais: "Ils ont exigé de voir le dossier.",
+        francais: "Ils ont insisté pour voir le dossier.",
         note: "Insistir en + infinitif ; insistir en que + subjonctif si c'est une demande.",
       },
       {
         etranger: "Negó que hubiera participado.",
         francais: "Il a nié avoir participé.",
-        note: "Negar que + subjonctif, toujours. C'est la règle la plus oubliée du champ.",
+        note: "Negar que + subjonctif. Mais no negar que admet l'indicatif quand le fait est admis : no niego que es cierto.",
       },
       {
         etranger: "Reconoció haberse equivocado.",
@@ -457,7 +458,7 @@ export const ESPAGNOL_FORMACION_PALABRAS: LotCartes[] = [
       {
         etranger: "Los resultados son prácticamente iguales.",
         francais: "Les résultats sont pratiquement identiques.",
-        note: "Prácticamente iguales. Le français dit sensiblement, l'espagnol pratiquement.",
+        note: "Prácticamente, casi, poco menos que : trois façons d'approcher l'égalité sans l'affirmer.",
       },
       {
         etranger: "Cada vez cuesta más.",

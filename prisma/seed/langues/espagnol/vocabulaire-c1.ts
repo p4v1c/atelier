@@ -32,16 +32,16 @@ export const ESPAGNOL_VOCABULAIRE_C1: LotCartes[] = [
               titre: "L'échelle de la certitude",
               colonnes: ["La forme", "Le mode", "Le degré"],
               lignes: [
-                ["seguro que viene", "indicatif", "quasi certain"],
-                ["seguramente viene", "indicatif", "très probable"],
-                ["a lo mejor viene", "indicatif obligatoire", "probable"],
-                ["quizá viene", "indicatif", "assez probable"],
-                ["quizá venga", "subjonctif", "peu probable"],
-                ["puede que venga", "subjonctif obligatoire", "possible"],
-                ["dudo que venga", "subjonctif", "improbable"],
-                ["es imposible que venga", "subjonctif", "exclu"],
+                ["seguro que viene", "indicatif", "haute probabilité"],
+                ["seguramente viene", "indicatif", "haute probabilité"],
+                ["a lo mejor viene", "indicatif obligatoire", "haute probabilité"],
+                ["quizá viene", "indicatif", "haute probabilité"],
+                ["quizá venga", "subjonctif", "basse probabilité"],
+                ["puede que venga", "subjonctif obligatoire", "basse probabilité"],
+                ["dudo que venga", "subjonctif", "basse probabilité"],
+                ["es imposible que venga", "subjonctif", "basse probabilité"],
               ],
-              note: "Seguramente veut dire « très probablement », pas « sûrement » au sens de certitude.",
+              note: "L'indicatif marque la probabilité haute, le subjonctif la basse ; l'usage ne permet pas de classer plus finement à l'intérieur de chaque bloc. Seguramente veut dire « très probablement », pas « sûrement » au sens de certitude.",
             },
           ],
         },
@@ -77,7 +77,7 @@ export const ESPAGNOL_VOCABULAIRE_C1: LotCartes[] = [
         {
           titre: "Les degrés de l'adjectif",
           texte:
-            "L'espagnol module aussi par le degré, et il dispose pour cela d'outils que le français rend par des adverbes.\n\nLe suffixe -ísimo dit le degré maximal : carísimo, facilísimo, buenísimo. Il est plus vivant que muy dans la langue parlée, et parfaitement acceptable à l'écrit courant — moins dans un texte académique.\n\nLes préfixes intensifs : super-, mega-, hiper- appartiennent à l'oral jeune. Re- et requete- sont très employés en Amérique latine : reguapo, requetebueno.\n\nPour atténuer : algo, un peu ; un tanto, quelque peu ; más bien, plutôt ; relativamente ; no del todo, pas tout à fait ; poco — attention, poco inteligente veut dire « peu intelligent », et non « un peu intelligent », qui se dirait un poco inteligente. La présence de l'article change le sens du tout au tout.\n\nEnfin, deux tournures utiles. De lo más + adjectif : es de lo más interesante, c'est on ne peut plus intéressant. Et lo + adjectif + que : no sabes lo difícil que es, tu ne sais pas à quel point c'est difficile — une structure sans équivalent direct en français.",
+            "L'espagnol module aussi par le degré, et il dispose pour cela d'outils que le français rend par des adverbes.\n\nLe suffixe -ísimo dit le degré maximal : carísimo, facilísimo, buenísimo. Il est plus vivant que muy dans la langue parlée, et parfaitement acceptable à l'écrit courant — moins dans un texte académique.\n\nLes préfixes intensifs : super-, mega-, hiper- appartiennent à l'oral jeune. Re- et requete- sont très employés en Amérique latine : reguapo, requetebueno.\n\nPour atténuer : algo, un peu ; un tanto, quelque peu ; más bien, plutôt ; relativamente ; no del todo, pas tout à fait ; poco — attention, poco amable veut dire « peu aimable », alors que un poco tonto veut dire « un peu bête ». Poco nie, un poco atténue, et un poco ne se combine qu'avec un adjectif déplaisant.\n\nEnfin, deux tournures utiles. De lo más + adjectif : es de lo más interesante, c'est on ne peut plus intéressant. Et lo + adjectif + que : no sabes lo difícil que es, tu ne sais pas à quel point c'est difficile — une structure sans équivalent direct en français.",
         },
       ],
     },
@@ -125,7 +125,7 @@ export const ESPAGNOL_VOCABULAIRE_C1: LotCartes[] = [
       {
         etranger: "Es poco probable, aunque no imposible.",
         francais: "C'est peu probable, quoique pas impossible.",
-        note: "Poco sans article veut dire « peu » ; un poco voudrait dire « un peu ».",
+        note: "Poco probable veut dire « peu probable ». Un poco ne se combine qu'avec un adjectif déplaisant : un poco caro, un poco raro.",
       },
       {
         etranger: "Si bien tiene razón, exagera.",
@@ -164,8 +164,8 @@ export const ESPAGNOL_VOCABULAIRE_C1: LotCartes[] = [
                 ["rendre compte de", "rendir cuenta de", "dar cuenta de"],
                 ["étayer une thèse", "soportar una tesis", "sustentar o respaldar una tesis"],
                 ["remettre en cause", "poner en causa", "poner en tela de juicio"],
-                ["il ressort que", "sale que", "se desprende que"],
-                ["tenir à deux facteurs", "tener a dos factores", "obedecer a dos factores"],
+                ["mettre l'accent sur", "poner el acento en", "hacer hincapié en"],
+                ["à travers cette étude", "a través de este estudio", "mediante este estudio"],
                 ["mettre en évidence", "poner en evidencia", "poner de manifiesto"],
               ],
               note: "Poner en evidencia existe, mais veut dire « ridiculiser quelqu'un ». Le piège est réel.",
@@ -175,7 +175,7 @@ export const ESPAGNOL_VOCABULAIRE_C1: LotCartes[] = [
         {
           titre: "Les connecteurs, et leur registre",
           texte:
-            "Comme en anglais, les connecteurs espagnols portent chacun un registre, et les mélanger se voit.\n\nPour l'opposition, du plus soutenu au plus courant : no obstante, sin embargo, ahora bien, en cambio, pero. No obstante appartient à l'écrit ; pero ne s'écrit pas en tête de phrase dans un texte formel.\n\nPour l'ajout : asimismo, de igual modo, además, también. Asimismo est nettement soutenu et souvent mal orthographié — un seul mot, et à distinguer de así mismo, qui veut dire « de cette même façon ».\n\nPour la conséquence : por consiguiente, por lo tanto, así pues, de ahí que — celui-ci appelle le subjonctif : de ahí que sea difícil.\n\nPour la concession : si bien, aun cuando, por más que, aunque. Aunque + indicatif pour un fait admis, + subjonctif pour une hypothèse : aunque llueve, on sait qu'il pleut ; aunque llueva, il pleuvra peut-être.\n\nPour reformuler : es decir, o sea, dicho de otro modo, en otras palabras. O sea est oral et n'a pas sa place à l'écrit soutenu.",
+            "Comme en anglais, les connecteurs espagnols portent chacun un registre, et les mélanger se voit.\n\nPour l'opposition, du plus soutenu au plus courant : no obstante, sin embargo, ahora bien, en cambio, pero. No obstante appartient à l'écrit ; pero ne s'écrit pas en tête de phrase dans un texte formel.\n\nPour l'ajout : asimismo, de igual modo, además, también. Asimismo est nettement soutenu et souvent mal orthographié — un seul mot, et à distinguer de así mismo, qui veut dire « de cette même façon ».\n\nPour la conséquence : por consiguiente, por lo tanto, así pues, de ahí que — celui-ci appelle le subjonctif : de ahí que sea difícil.\n\nPour la concession : si bien, aun cuando, por más que, aunque. Aunque + indicatif pour un fait admis, + subjonctif pour une hypothèse : aunque llueve, on sait qu'il pleut ; aunque llueva, qu'il pleuve ou non.\n\nPour reformuler : es decir, o sea, dicho de otro modo, en otras palabras. O sea est oral et n'a pas sa place à l'écrit soutenu.",
           visuels: [
             {
               type: "comparaison",
@@ -279,7 +279,7 @@ export const ESPAGNOL_VOCABULAIRE_C1: LotCartes[] = [
         {
           titre: "La grammaire des titres",
           texte:
-            "Le titular espagnol obéit à des conventions fixes, différentes de celles de l'anglais et tout aussi tranchées.\n\nLes articles tombent souvent, mais moins systématiquement qu'en anglais : Detienen a dos sospechosos, on arrête deux suspects. La forme impersonnelle à la troisième personne du pluriel — sans sujet exprimé — est extrêmement fréquente et remplace le passif.\n\nLe présent raconte le passé : El Congreso aprueba la reforma veut dire que le Congrès a adopté la réforme. C'est le même piège qu'en anglais.\n\nL'ordre verbe-sujet est courant, surtout dans la presse mexicaine : Aprueba el Congreso la reforma. La construction est parfaitement grammaticale et déroute un francophone habitué au sujet en tête.\n\nLe passif réfléchi remplace le passif : Se investiga a tres empresas. Et l'infinitif seul annonce parfois une intention : El Gobierno, a punto de dimitir.\n\nEnfin, les deux points remplacent le verbe déclaratif : Sánchez: la reforma es urgente.",
+            "Le titular espagnol obéit à des conventions fixes, différentes de celles de l'anglais et tout aussi tranchées.\n\nLes articles tombent souvent, mais moins systématiquement qu'en anglais : Detienen a dos sospechosos, on arrête deux suspects. La forme impersonnelle à la troisième personne du pluriel — sans sujet exprimé — est extrêmement fréquente et remplace le passif.\n\nLe présent raconte le passé, exactement comme dans un titre français : El Congreso aprueba la reforma veut dire que le Congrès a adopté la réforme. En revanche, deux conventions n'ont pas d'équivalent chez nous : la troisième personne du pluriel sans sujet, et l'ordre verbe-sujet.\n\nL'ordre verbe-sujet est courant, surtout dans la presse mexicaine : Aprueba el Congreso la reforma. La construction est parfaitement grammaticale et déroute un francophone habitué au sujet en tête.\n\nLe passif réfléchi remplace le passif : Se investiga a tres empresas. Et la virgule remplace le verbe : El Gobierno, a punto de dimitir — pour « El Gobierno está a punto de dimitir ».\n\nEnfin, les deux points remplacent le verbe déclaratif : Sánchez: la reforma es urgente.",
           visuels: [
             {
               type: "tableau",
@@ -289,7 +289,7 @@ export const ESPAGNOL_VOCABULAIRE_C1: LotCartes[] = [
                 ["El Banco sube los tipos", "El Banco ha subido los tipos.", "passé"],
                 ["Detienen a dos sospechosos", "Han detenido a dos sospechosos.", "passé, impersonnel"],
                 ["Aprueba el Congreso la ley", "El Congreso aprobó la ley.", "passé, ordre inversé"],
-                ["Se investiga a tres empresas", "Tres empresas están siendo investigadas.", "présent, passif réfléchi"],
+                ["Se investiga a tres empresas", "Tres empresas están siendo investigadas.", "présent, se impersonnel (le a bloque le sujet)"],
                 ["Dimite el ministro", "El ministro ha dimitido.", "passé"],
                 ["Sube el paro en octubre", "El paro ha subido en octubre.", "passé"],
               ],
@@ -300,7 +300,7 @@ export const ESPAGNOL_VOCABULAIRE_C1: LotCartes[] = [
         {
           titre: "Le lexique de la une",
           texte:
-            "La presse hispanophone emploie un vocabulaire à elle, choisi pour sa densité.\n\nPour la hausse et la baisse : dispararse, s'envoler ; desplomarse et hundirse, s'effondrer ; repuntar, repartir à la hausse ; moderarse, ralentir ; frenar, freiner.\n\nPour les personnes : el mandatario, le dirigeant ; el edil, le conseiller municipal ; el letrado, l'avocat ; el galeno, le médecin — ces trois derniers sont des synonymes de style, employés pour éviter la répétition, procédé beaucoup plus systématique en espagnol qu'en français.\n\nPour les actions : dimitir, démissionner ; cesar, révoquer ; imputar et procesar, mettre en examen ; querellarse, porter plainte ; recortar, réduire ; blindar, protéger ; aplazar, reporter ; zanjar, trancher une affaire ; desvelar, révéler.\n\nPour les affaires : la trama, le réseau ; el sumario, le dossier d'instruction ; la fianza, la caution ; el fallo, le jugement — et aussi la panne, selon le contexte.\n\nLa recherche du synonyme mérite d'être signalée : un article espagnol appellera successivement le même homme el presidente, el mandatario, el jefe del Ejecutivo. Le lecteur français, qui accepte la répétition, s'y perd d'abord.",
+            "La presse hispanophone emploie un vocabulaire à elle, choisi pour sa densité.\n\nPour la hausse et la baisse : dispararse, s'envoler ; desplomarse et hundirse, s'effondrer ; repuntar, repartir à la hausse ; moderarse, ralentir ; frenar, freiner.\n\nPour les personnes : el mandatario, le dirigeant ; el edil, le conseiller municipal ; el letrado, l'avocat ; el galeno, le médecin — ces trois derniers sont des synonymes de style, employés pour éviter la répétition, procédé beaucoup plus systématique en espagnol qu'en français.\n\nPour les actions : dimitir, démissionner ; cesar, révoquer ; imputar (aujourd'hui investigar dans la procédure espagnole) et procesar, mettre en examen ; querellarse, porter plainte ; recortar, réduire ; blindar, protéger ; aplazar, reporter ; zanjar, trancher une affaire ; desvelar, révéler.\n\nPour les affaires : la trama, le réseau ; el sumario, le dossier d'instruction ; la fianza, la caution ; el fallo, le jugement — et aussi la panne, selon le contexte.\n\nLa recherche du synonyme mérite d'être signalée : un article espagnol appellera successivement le même homme el presidente, el mandatario, el jefe del Ejecutivo. Le lecteur français, qui accepte la répétition, s'y perd d'abord.",
           visuels: [
             {
               type: "comparaison",
@@ -414,17 +414,17 @@ export const ESPAGNOL_VOCABULAIRE_C1: LotCartes[] = [
               colonnes: ["Familier", "Neutre", "Soutenu ou administratif"],
               lignes: [
                 ["hacerse con", "comprar", "adquirir"],
-                ["pillar", "coger / tomar", "obtener"],
-                ["currar", "trabajar", "desempeñar"],
+                ["pillar", "coger (Espagne) / tomar", "obtener"],
+                ["currar", "trabajar", "ejercer / desempeñar un cargo"],
                 ["dar el sí", "aceptar", "acceder a"],
                 ["echar", "despedir", "cesar"],
-                ["pedir", "solicitar", "requerir"],
-                ["empezar", "comenzar", "iniciar"],
-                ["acabar", "terminar", "concluir"],
-                ["decir", "afirmar", "manifestar"],
-                ["ver", "observar", "constatar"],
+                ["—", "pedir", "solicitar"],
+                ["cascar", "empezar", "comenzar"],
+                ["liquidar", "acabar", "terminar"],
+                ["soltar", "decir", "afirmar"],
+                ["echar un ojo", "ver", "observar"],
               ],
-              note: "Un francophone glisse spontanément vers la colonne de droite : le mot savant lui est familier.",
+              note: "Un francophone glisse spontanément vers la colonne de droite : le mot savant lui est familier. Requerir, iniciar, manifestar et constatar sont un cran plus techniques encore qu'obtener, comenzar, afirmar et observar.",
             },
           ],
         },
@@ -503,12 +503,12 @@ export const ESPAGNOL_VOCABULAIRE_C1: LotCartes[] = [
       {
         etranger: "Manifestó su desacuerdo por escrito.",
         francais: "Il a exprimé son désaccord par écrit.",
-        note: "Manifestar est soutenu ; decir serait familier ici, afirmar neutre.",
+        note: "Manifestar est soutenu et administratif ; decir serait neutre ici, afirmar un peu plus posé.",
       },
       {
-        etranger: "Cabe recordar que el plazo terminó.",
-        francais: "Rappelons que le délai est écoulé.",
-        note: "Cabe + infinitif : la tournure impersonnelle du registre soutenu.",
+        etranger: "A su llegada, avísame.",
+        francais: "À son arrivée, préviens-moi.",
+        note: "La nominalisation remplace le verbe : a su llegada pour cuando llegue.",
       },
       {
         etranger: "Al final no pudimos llevarlo a cabo.",

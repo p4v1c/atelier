@@ -72,7 +72,7 @@
   },
   {
    "titre": "Terroirs, saisons et signes de qualité",
-   "texte": "Un légume n'est pas seulement une espèce : c'est une variété, un sol et un climat. Les signes officiels de qualité l'ont reconnu tardivement, car les appellations d'origine avaient d'abord été conçues pour le vin et le fromage. La lentille verte du Puy a été le premier légume français à obtenir une appellation d'origine contrôlée, le 7 août 1996, avant de devenir appellation d'origine protégée européenne en 2008 ; un jugement de 1935 avait déjà protégé son nom contre des lentilles importées vendues sous cette étiquette. Sur les plateaux du Velay, entre six cents et mille deux cents mètres d'altitude, des vents secs stressent la plante et donnent des graines à peau fine qui cuisent vite sans se défaire. D'autres productions ont suivi, du piment d'Espelette à l'oignon doux des Cévennes, en passant par le muscat du Ventoux et la noix de Grenoble, premier fruit reconnu par une appellation dès 1938. À ces signes s'ajoutent le label rouge, l'indication géographique protégée et l'agriculture biologique, dont le cahier des charges européen interdit les pesticides et engrais de synthèse. Reste la saison, repère plus simple : une tomate de pleine terre en août, un poireau en hiver, une asperge en avril demandent moins d'énergie et se défendent mieux en goût qu'un fruit hors saison venu de loin."
+   "texte": "Un légume n'est pas seulement une espèce : c'est une variété, un sol et un climat. Les signes officiels de qualité l'ont reconnu tardivement, car les appellations d'origine avaient d'abord été conçues pour le vin et le fromage. La lentille verte du Puy a été le premier légume sec français à obtenir une appellation d'origine contrôlée, le 7 août 1996 — bien après les fruits, la noix de Grenoble ayant ouvert la voie dès 1938 —, avant de devenir appellation d'origine protégée européenne en 2008 ; un jugement de 1935 avait déjà protégé son nom contre des lentilles importées vendues sous cette étiquette. Sur les plateaux du Velay, entre six cents et mille deux cents mètres d'altitude, des vents secs stressent la plante et donnent des graines à peau fine qui cuisent vite sans se défaire. D'autres légumes ont suivi, du piment d'Espelette à l'oignon doux des Cévennes, en passant par le muscat du Ventoux. À ces signes s'ajoutent le label rouge, l'indication géographique protégée et l'agriculture biologique, dont le cahier des charges européen interdit les pesticides et engrais de synthèse. Reste la saison, repère plus simple : une tomate de pleine terre en août, un poireau en hiver, une asperge en avril demandent moins d'énergie et se défendent mieux en goût qu'un fruit hors saison venu de loin."
   },
   {
    "titre": "Des halles aux circuits courts",
@@ -114,10 +114,10 @@
    ],
    "bonne": 2,
    "difficulte": 2,
-   "explication": "La pomme de terre était en Europe depuis le XVIe siècle, mais réservée au bétail et soupçonnée de transmettre des maladies. Parmentier, qui l'avait découverte comme prisonnier en Prusse pendant la guerre de Sept Ans, obtient en 1772 que la faculté de médecine de Paris la déclare propre à la consommation humaine. Il multiplie ensuite les opérations de prestige, dont le bouquet de fleurs de pomme de terre offert à Louis XVI le 24 août 1786. L'anecdote des gardes postés autour de son champ des Sablons pour attiser la convoitise des voleurs relève surtout de la légende."
+   "explication": "Il n'a ni rapporté la pomme de terre en France — elle y était depuis le XVIe siècle — ni sélectionné de variétés : son apport est avant tout réglementaire et publicitaire, avec l'obtention en 1772 de l'aval de la faculté de médecine de Paris puis des opérations de communication comme le bouquet offert à Louis XVI. La culture en buttes lui est d'ailleurs parfois attribuée à tort. L'anecdote des gardes postés autour de son champ des Sablons pour attiser la convoitise des voleurs relève surtout de la légende."
   },
   {
-   "q": "Quel a été le premier légume français à obtenir une appellation d'origine contrôlée ?",
+   "q": "Quel a été le premier légume sec français à obtenir une appellation d'origine contrôlée ?",
    "choix": [
     "Le piment d'Espelette",
     "La lentille verte du Puy",
@@ -126,7 +126,7 @@
    ],
    "bonne": 1,
    "difficulte": 3,
-   "explication": "La lentille verte du Puy a obtenu son appellation d'origine contrôlée le 7 août 1996, ce qui en fait le premier légume reconnu par l'INAO, puis l'appellation d'origine protégée européenne en 2008. Un jugement de 1935 avait déjà protégé son nom contre des lentilles importées revendues sous cette étiquette. Elle pousse sur les plateaux du Velay, entre six cents et mille deux cents mètres, où des vents secs donnent des graines à peau fine qui cuisent vite sans se défaire. Les autres productions citées ont obtenu leurs signes de qualité plus tard."
+   "explication": "La lentille verte du Puy a obtenu son appellation d'origine contrôlée le 7 août 1996, ce qui en fait le premier légume sec reconnu par l'INAO, puis l'appellation d'origine protégée européenne en 2008. Le piment d'Espelette n'obtient son AOC qu'en 2000, l'oignon doux des Cévennes en 2003 ; l'ail rose de Lautrec, lui, relève du label rouge et de l'indication géographique protégée, pas d'une appellation d'origine."
   },
   {
    "q": "Qu'est-ce qu'une AMAP ?",

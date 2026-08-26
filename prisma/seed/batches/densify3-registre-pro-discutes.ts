@@ -108,7 +108,7 @@ export const DENSIFY3_REGISTRE_PRO: ContentBatch = {
       { marked: "Si le blocage [perdure], nous saisirons la direction.", fix: "persiste" },
       { marked: "Ces retards [perdurent] depuis le début du mois.", fix: "persistent" },
     ]},
-    { ruleSlug: "impropriete-avoir-lair", sentences: [
+    { ruleSlug: "impropriete-averer", sentences: [
       { marked: "Cette hypothèse s'est [avérée] fausse en deux jours.", fix: "révélée" },
       { marked: "Le pronostic s'est avéré [vrai], contre toute attente.", fix: "juste" },
     ]},
@@ -174,9 +174,9 @@ export const DENSIFY3_REGISTRE_PRO: ContentBatch = {
       { marked: "[Veuiller] trouver ci-joint le règlement intérieur.", fix: "Veuillez" },
       { marked: "Vous [trouverai] ci-joint les justificatifs demandés.", fix: "trouverez" },
     ]},
-    { ruleSlug: "pro-second-degre-politesse", sentences: [
-      { marked: "Monsieur le Recteur, veuillez agréer, [Monsieur], mes salutations.", fix: "Monsieur le Recteur," },
-      { marked: "Madame, Monsieur, recevez, [Monsieur], mes salutations distinguées.", fix: "Madame, Monsieur," },
+    { ruleSlug: "pro-reprise-formule-finale", sentences: [
+      { marked: "Monsieur le Recteur, veuillez agréer, [Monsieur,] mes salutations.", fix: "Monsieur le Recteur," },
+      { marked: "Madame, Monsieur, recevez, [Monsieur,] mes salutations distinguées.", fix: "Madame, Monsieur," },
     ]},
     { ruleSlug: "pro-je-me-permets", sentences: [
       { marked: "Je me permets [pour] vous relancer une dernière fois.", fix: "de" },
@@ -199,7 +199,7 @@ export const DENSIFY3_REGISTRE_PRO: ContentBatch = {
       { marked: "Notre comptabilité [relance] votre service depuis mars.", fix: "sollicite" },
     ]},
     { ruleSlug: "pro-bonjour-monsieur", sentences: [
-      { marked: "[Bonjour], je vous écris au sujet de votre annonce.", fix: "Madame, Monsieur," },
+      { marked: "[Bonjour,] je vous écris au sujet de votre annonce.", fix: "Madame, Monsieur," },
       { marked: "Il a ouvert sa lettre par un [«Salut»] très déplacé.", fix: "« Monsieur »" },
     ]},
     { ruleSlug: "pro-a-lattention-de", sentences: [

@@ -1,5 +1,5 @@
 /**
- * Lot 006 — Accords (25 règles).
+ * Lot 006 — Accords (24 règles).
  *
  * Aucune ne recoupe les 42 règles d'accord du lot legacy : participe passé,
  * la plupart, aucun, vingt-cent, couleurs, demi, ci-joint, noms composés,
@@ -179,8 +179,8 @@ export const BATCH_006: ContentBatch = {
       slug: "accord-pourcentage-verbe",
       category: "Accords",
       title: "Accord après un pourcentage",
-      statement: "Après un <b>pourcentage</b>, le verbe s'accorde avec le complément quand celui-ci est exprimé : 20 % des élèves sont absents.",
-      tip: "C'est le nom qui suit « de » qui commande, pas le chiffre.",
+      statement: "Après un <b>pourcentage</b>, le verbe s'accorde le plus souvent avec le complément quand celui-ci est exprimé : 20 % des élèves sont absents (comme après « une dizaine de » ou « un tiers de »).",
+      tip: "C'est le nom qui suit « de » qui commande le plus souvent, pas le chiffre.",
       difficulty: 3,
       sentences: [
         { marked: "Trente pour cent des candidats [a] échoué à l'écrit.", fix: "ont" },
@@ -224,8 +224,8 @@ export const BATCH_006: ContentBatch = {
       slug: "accord-sans-complement",
       category: "Accords",
       title: "Le nombre après « sans »",
-      statement: "Après <b>sans</b>, le nom se met au singulier ou au pluriel selon qu'on en attendrait un seul ou plusieurs.",
-      tip: "Retourne la phrase avec « avec » : le nombre qui s'impose est le bon.",
+      statement: "Après <b>sans</b>, le nom se met au singulier ou au pluriel selon qu'on en attendrait un seul ou plusieurs dans la réalité décrite ; les deux peuvent parfois se défendre, mais l'un reste le plus naturel.",
+      tip: "Retourne la phrase avec « avec » : le nombre le plus vraisemblable dans la situation décrite est le bon.",
       difficulty: 3,
       sentences: [
         { marked: "Il a rendu une copie sans [fautes], à la virgule près.", fix: "faute" },
@@ -291,14 +291,14 @@ export const BATCH_006: ContentBatch = {
         { marked: "Moins de deux mois [sépare] les deux événements.", fix: "séparent" },
         { marked: "Depuis son départ, moins de deux ans [s'est] écoulés.", fix: "se sont" },
         { marked: "Moins de deux minutes [suffit] pour préparer ce plat.", fix: "suffisent" },
-        { marked: "En tout, moins de deux candidats [obtient] la moyenne à l'écrit.", fix: "obtiennent" },
+        { marked: "En tout, moins de deux kilos de farine [suffit] pour cette recette.", fix: "suffisent" },
         { marked: "Moins de deux semaines suffiront pour tout achever.", fix: null },
       ],
     },
     {
       slug: "pluriel-ciel-aieul",
       category: "Accords",
-      title: "Pluriels doubles : ciel, aïeul, œil",
+      title: "Pluriels doubles : ciel, aïeul",
       statement: "Certains noms ont deux pluriels de sens différents : <b>ciels</b> de peinture et <b>cieux</b> du ciel, <b>aïeuls</b> grands-parents et <b>aïeux</b> ancêtres.",
       tip: "La forme la plus solennelle désigne le sens le plus vaste.",
       difficulty: 3,
@@ -315,7 +315,7 @@ export const BATCH_006: ContentBatch = {
       category: "Accords",
       title: "Accord après « une sorte de »",
       statement: "Après <b>une sorte de</b> ou <b>une espèce de</b>, l'accord se fait avec le <b>complément</b>, qui porte le sens réel.",
-      tip: "Le mot important est celui qui suit « de » : c'est lui qu'on décrit.",
+      tip: "Pour l'accord de l'adjectif qui suit, le mot important est celui qui suit « de » : c'est lui qu'on décrit (le genre du déterminant « une/un » devant espèce est un autre point, voir la règle sur « un/une espèce de »).",
       difficulty: 3,
       sentences: [
         { marked: "Une sorte de grondement [sourde] montait de la cave.", fix: "sourd" },

@@ -23,7 +23,7 @@ export const DENSIFY_VOCABULAIRE: ContentBatch = {
     ]},
     { ruleSlug: "voire", sentences: [
       { marked: "Il faudra deux jours, [voir] trois, pour tout terminer.", fix: "voire" },
-      { marked: "Le trajet dure trois heures, [voir] davantage en été.", fix: "voire" },
+      { marked: "L'attente peut durer une heure, [voir] deux un jour de grève.", fix: "voire" },
       { marked: "Nous allons [voire] ce que donne cette nouvelle méthode.", fix: "voir" },
     ]},
     { ruleSlug: "davantage", sentences: [
@@ -117,7 +117,7 @@ export const DENSIFY_VOCABULAIRE: ContentBatch = {
     { ruleSlug: "notable", sentences: [
       { marked: "Sa mauvaise foi est [notable] dans toute la profession.", fix: "notoire" },
       { marked: "On observe une amélioration [notoire] depuis trois mois.", fix: "notable" },
-      { marked: "Ce fait [notable] est pourtant connu de tout le village.", fix: "notoire" },
+      { marked: "Sa réputation est [notable] dans toute la région.", fix: "notoire" },
     ]},
     { ruleSlug: "pallier", sentences: [
       { marked: "Il faut pallier [à] ce manque de personnel dès lundi.", fix: "à supprimer" },
@@ -135,9 +135,9 @@ export const DENSIFY_VOCABULAIRE: ContentBatch = {
       { marked: "Note à l'[intention] de tous les chefs de service.", fix: "l'attention" },
     ]},
     { ruleSlug: "en-termes", sentences: [
-      { marked: "En [terme] de délais, la situation reste tendue.", fix: "termes" },
+      { marked: "Il a formulé sa demande en [terme] choisis, sans jamais brusquer personne.", fix: "termes" },
       { marked: "Il s'exprime en [terme] très clairs sur ce point.", fix: "termes" },
-      { marked: "En [terme] de qualité, rien à redire sur ce lot.", fix: "termes" },
+      { marked: "Elle lui a répondu en [terme] voilés, pour ne pas le blesser.", fix: "termes" },
     ]},
     { ruleSlug: "espèce", sentences: [
       { marked: "[Un] espèce de vieux hangar servait d'atelier.", fix: "Une" },
@@ -222,7 +222,7 @@ export const DENSIFY_VOCABULAIRE: ContentBatch = {
     { ruleSlug: "prolongation", sentences: [
       { marked: "Le [prolongement] du délai a été accordé sans difficulté.", fix: "prolongation" },
       { marked: "La [prolongation] de la ligne atteindra la banlieue nord.", fix: "prolongement" },
-      { marked: "Il a obtenu une [prolongement] de son congé maladie.", fix: "prolongation" },
+      { marked: "Elle n'a pas obtenu de [prolongement] pour son congé maladie.", fix: "prolongation" },
     ]},
     { ruleSlug: "rebattre", sentences: [
       { marked: "Il nous [rabat] les oreilles avec cette histoire ancienne.", fix: "rebat" },
@@ -322,7 +322,7 @@ export const DENSIFY_VOCABULAIRE: ContentBatch = {
     { ruleSlug: "mettre-au-jour", sentences: [
       { marked: "Les archéologues ont mis [à] jour une villa romaine.", fix: "au" },
       { marked: "Il faut mettre [au] jour le logiciel avant de continuer.", fix: "à" },
-      { marked: "Ces fouilles ont mis [à] jour des vestiges du Moyen Âge.", fix: "au" },
+      { marked: "Le rapport interne a mis [à] jour de graves négligences.", fix: "au" },
     ]},
     { ruleSlug: "chez-le", sentences: [
       { marked: "Elle est allée [au] coiffeur en sortant du travail.", fix: "chez le" },

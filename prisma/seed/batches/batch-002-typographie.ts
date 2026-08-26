@@ -5,6 +5,8 @@
  * unités. Aucune règle ne recoupe le lot legacy : les noms de peuples, les jours
  * et mois, les civilités abrégées et les traits d'union des nombres y figurent
  * déjà (majuscule-nationalité, jours-mois, monsieur-abrev, hyphen-nombres).
+ * L'espace à l'intérieur des guillemets français, elle, recoupait le lot 001
+ * (espace-guillemets) : la règle en double a été retirée d'ici.
  */
 import type { ContentBatch } from "../../../src/lib/content";
 
@@ -136,7 +138,7 @@ export const BATCH_002: ContentBatch = {
       category: "Typographie",
       title: "L'abréviation de « numéro »",
       statement: "« numéro » s'abrège <b>n°</b> — jamais No, jamais n. Au pluriel : nos.",
-      tip: "Le petit o est en exposant, pas un zéro ni la lettre O.",
+      tip: "Le petit o (comme dans n°) est en exposant, pas un zéro ni la lettre O majuscule.",
       difficulty: 2,
       sentences: [
         { marked: "Le dossier [No] 47 attend toujours une signature.", fix: "n°" },
@@ -306,7 +308,7 @@ export const BATCH_002: ContentBatch = {
       sentences: [
         { marked: "Le billet coûte [€25] en tarif plein, moitié prix pour les étudiants.", fix: "25 €" },
         { marked: "Il a payé [30€] pour une réparation de dix minutes.", fix: "30 €" },
-        { marked: "Le loyer s'élève à [$800] par mois, charges non comprises.", fix: "800 €" },
+        { marked: "Le loyer s'élève à [€800] par mois, charges non comprises.", fix: "800 €" },
         { marked: "Une caution de [150€] est demandée à la réservation.", fix: "150 €" },
         { marked: "L'entrée est fixée à 12 € pour les adultes.", fix: null },
       ],
@@ -321,7 +323,7 @@ export const BATCH_002: ContentBatch = {
       sentences: [
         { marked: "Le contrat prend effet le [1] janvier de l'année prochaine.", fix: "1er" },
         { marked: "Nous déménageons le [1] août, en pleine période de vacances.", fix: "1er" },
-        { marked: "La réunion est fixée au [2ème] mardi de chaque mois.", fix: "2e" },
+        { marked: "Le contrat prendra fin le [2ème] janvier prochain.", fix: "2" },
         { marked: "Le magasin rouvrira le [1] septembre après les travaux.", fix: "1er" },
         { marked: "Le 15 juin, les résultats seront affichés dans le hall.", fix: null },
       ],
@@ -330,7 +332,7 @@ export const BATCH_002: ContentBatch = {
       slug: "nombres-en-lettres",
       category: "Typographie",
       title: "Les petits nombres en toutes lettres",
-      statement: "Dans un texte courant, les nombres <b>de zéro à seize</b> s'écrivent en lettres ; les chiffres sont réservés aux mesures et aux dates.",
+      statement: "Selon les conventions typographiques les plus courantes, les nombres <b>de zéro à seize</b> s'écrivent en lettres dans un texte courant ; les chiffres restent réservés aux mesures et aux dates.",
       tip: "Si tu peux le dire en un mot, écris-le en lettres.",
       difficulty: 2,
       sentences: [
@@ -367,7 +369,7 @@ export const BATCH_002: ContentBatch = {
         { marked: "Le projet coûtera [3M€] selon la première estimation du cabinet.", fix: "3 millions d'euros" },
         { marked: "La société a levé [12M] auprès de trois investisseurs différents.", fix: "12 millions" },
         { marked: "Le déficit atteint [4Md€] pour l'exercice qui vient de s'achever.", fix: "4 milliards d'euros" },
-        { marked: "Elle a reçu [250K€] de subventions pour lancer son atelier.", fix: "250 000 euros" },
+        { marked: "L'entreprise a investi [1,5M€] dans son nouveau site de production.", fix: "1,5 million d'euros" },
         { marked: "Le budget dépasse 2 millions d'euros pour la première fois.", fix: null },
       ],
     },

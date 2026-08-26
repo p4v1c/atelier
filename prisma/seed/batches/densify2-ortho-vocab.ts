@@ -18,7 +18,7 @@ export const DENSIFY2_ORTHO_VOCAB: ContentBatch = {
     ]},
     { ruleSlug: "ent-ant", sentences: [
       { marked: "Son témoignage semble peu [cohérant] à la relecture.", fix: "cohérent" },
-      { marked: "Ce détail paraît [négligant] mais il compte beaucoup.", fix: "négligent" },
+      { marked: "Cet élève paraît [négligant] depuis la rentrée.", fix: "négligent" },
     ]},
     { ruleSlug: "amment-emment", sentences: [
       { marked: "Il conduit [prudament] depuis son accident de moto.", fix: "prudemment" },
@@ -57,8 +57,8 @@ export const DENSIFY2_ORTHO_VOCAB: ContentBatch = {
       { marked: "Elle enseigne le [Chinois] depuis quinze ans.", fix: "chinois" },
     ]},
     { ruleSlug: "etc", sentences: [
-      { marked: "Il faut des clous, des vis, des chevilles, [etc..].", fix: "etc." },
-      { marked: "On y trouve du pain, du lait, des œufs, [ect].", fix: "etc." },
+      { marked: "Il faut des clous, des vis, des chevilles, [etc..]", fix: "etc." },
+      { marked: "On y trouve du pain, du lait, des œufs, [ect.]", fix: "etc." },
     ]},
     { ruleSlug: "cent-mille", sentences: [
       { marked: "Le concert a réuni dix [milles] spectateurs.", fix: "mille" },
@@ -74,7 +74,7 @@ export const DENSIFY2_ORTHO_VOCAB: ContentBatch = {
     ]},
     { ruleSlug: "bientot", sentences: [
       { marked: "Il s'est couché [bientôt] hier soir, vers vingt heures.", fix: "bien tôt" },
-      { marked: "Vingt ans, c'est [bientôt] pour partir en retraite.", fix: "bien tôt" },
+      { marked: "Trente ans, c'est beaucoup trop [bientôt] pour songer à la retraite.", fix: "bien tôt" },
     ]},
     { ruleSlug: "hyphen-nombres", sentences: [
       { marked: "Le devis atteint [quatrecentdouze] euros au total.", fix: "quatre-cent-douze" },
@@ -89,8 +89,8 @@ export const DENSIFY2_ORTHO_VOCAB: ContentBatch = {
       { marked: "Il a [apercu] la voiture au bout de la rue.", fix: "aperçu" },
     ]},
     { ruleSlug: "h-aspire", sentences: [
-      { marked: "Le concert a lieu dans [l'hall] de la mairie.", fix: "le hall" },
-      { marked: "Elle a mesuré [l'hauteur] du plafond avant d'acheter.", fix: "la hauteur" },
+      { marked: "Les invités patientent dans [l'hall] du théâtre avant l'entracte.", fix: "le hall" },
+      { marked: "Le maçon a vérifié [l'hauteur] de la clôture avant de commencer.", fix: "la hauteur" },
     ]},
     { ruleSlug: "elision", sentences: [
       { marked: "Il attend [lautorisation] du propriétaire pour commencer.", fix: "l'autorisation" },
@@ -125,7 +125,7 @@ export const DENSIFY2_ORTHO_VOCAB: ContentBatch = {
       { marked: "Cette [ocurence] du mot est la seule du texte.", fix: "occurrence" },
     ]},
     { ruleSlug: "chariot", sentences: [
-      { marked: "Le [charriot] à bagages grince à chaque virage.", fix: "chariot" },
+      { marked: "Le charriot à bagages grince à chaque virage.", fix: null },
       { marked: "Il faut atteler la [charue] avant les labours.", fix: "charrue" },
     ]},
     { ruleSlug: "combatif", sentences: [
@@ -158,7 +158,7 @@ export const DENSIFY2_ORTHO_VOCAB: ContentBatch = {
     ]},
     { ruleSlug: "monsieur-abrev", sentences: [
       { marked: "Bonjour [Mr] Bernard, votre dossier est prêt.", fix: "M." },
-      { marked: "Les [Mrs] Petit et Durand président la séance.", fix: "MM." },
+      { marked: "[Mrs] Girard et Colin ont cosigné le rapport annuel.", fix: "MM." },
     ]},
     { ruleSlug: "jours-mois", sentences: [
       { marked: "Le rendez-vous est fixé au [Jeudi] 12 septembre.", fix: "jeudi" },
@@ -179,7 +179,7 @@ export const DENSIFY2_ORTHO_VOCAB: ContentBatch = {
       { marked: "Une [irruption] volcanique menace le village voisin.", fix: "éruption" },
     ]},
     { ruleSlug: "voire", sentences: [
-      { marked: "Le trajet coûte cent euros, [voir] davantage en été.", fix: "voire" },
+      { marked: "Cette réparation prendra une matinée, [voir] plus si la pièce manque.", fix: "voire" },
       { marked: "Nous allons [voire] ce que cette méthode donne.", fix: "voir" },
     ]},
     { ruleSlug: "davantage", sentences: [
@@ -271,8 +271,8 @@ export const DENSIFY2_ORTHO_VOCAB: ContentBatch = {
       { marked: "Une fête est organisée à l'[attention] des retraités.", fix: "l'intention" },
     ]},
     { ruleSlug: "en-termes", sentences: [
-      { marked: "En [terme] de délais, rien n'est encore acquis.", fix: "termes" },
-      { marked: "Il s'exprime en [terme] très mesurés sur le sujet.", fix: "termes" },
+      { marked: "Il a présenté sa démission en [terme] mesurés, sans amertume.", fix: "termes" },
+      { marked: "Il s'exprime en [terme] très voilés sur le sujet.", fix: "termes" },
     ]},
     { ruleSlug: "espèce", sentences: [
       { marked: "[Un] espèce de hangar sert d'atelier au menuisier.", fix: "Une" },

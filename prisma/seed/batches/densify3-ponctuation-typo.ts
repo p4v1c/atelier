@@ -13,7 +13,7 @@ export const DENSIFY3_PONCTUATION_TYPO: ContentBatch = {
     /* ── lot 001 : ponctuation ── */
     { ruleSlug: "espace-exclamation", sentences: [
       { marked: "Quelle [horreur!] Le vase était dans la famille depuis toujours.", fix: "horreur !" },
-      { marked: "Il a crié [bravo!] avant même la fin du morceau.", fix: "bravo !" },
+      { marked: "Avant même la fin du morceau, il a crié [bravo!]", fix: "bravo !" },
     ]},
     { ruleSlug: "espace-interrogation", sentences: [
       { marked: "Sais-tu où il a rangé les [clés?] Je les cherche partout.", fix: "clés ?" },
@@ -61,7 +61,7 @@ export const DENSIFY3_PONCTUATION_TYPO: ContentBatch = {
     ]},
     { ruleSlug: "virgule-vocatif", sentences: [
       { marked: "[Docteur] pourriez-vous me réexpliquer ce traitement ?", fix: "Docteur," },
-      { marked: "Attends une seconde [Thomas] je n'ai pas fini de parler.", fix: "Thomas," },
+      { marked: "Attends une seconde, [Thomas] je n'ai pas fini de parler.", fix: "Thomas," },
     ]},
     { ruleSlug: "virgule-enumeration", sentences: [
       { marked: "Il a emporté un [duvet] une lampe et deux cordes.", fix: "duvet," },
@@ -100,12 +100,12 @@ export const DENSIFY3_PONCTUATION_TYPO: ContentBatch = {
       { marked: "[Non] rien ne justifie un tel retard de livraison.", fix: "Non," },
     ]},
     { ruleSlug: "deux-points-citation", sentences: [
-      { marked: "Le juge a [tranché] « l'affaire est close ».", fix: "tranché :" },
-      { marked: "Elle a [soupiré] « je n'y peux vraiment rien ».", fix: "soupiré :" },
+      { marked: "Le juge a [tranché] « L'affaire est close. »", fix: "tranché :" },
+      { marked: "Elle a [soupiré] « Je n'y peux vraiment rien. »", fix: "soupiré :" },
     ]},
     { ruleSlug: "virgule-gerondif-tete", sentences: [
       { marked: "En arrivant à la [gare] il a vu partir son train.", fix: "gare," },
-      { marked: "Poussé par la [curiosité] il a ouvert la vieille malle.", fix: "curiosité," },
+      { marked: "En cédant à la [curiosité] il a ouvert la vieille malle.", fix: "curiosité," },
     ]},
     { ruleSlug: "virgule-lieu-date", sentences: [
       { marked: "Établi à [Dijon] le 4 février, ce document fait foi.", fix: "Dijon," },
@@ -114,7 +114,7 @@ export const DENSIFY3_PONCTUATION_TYPO: ContentBatch = {
 
     /* ── lot 002 : typographie ── */
     { ruleSlug: "majuscule-points-cardinaux", sentences: [
-      { marked: "Il est parti travailler dans le [sud-]ouest de la France.", fix: "Sud-" },
+      { marked: "Il est parti travailler dans le [sud-ouest] de la France.", fix: "Sud-Ouest" },
       { marked: "Le vent d'[Est] souffle depuis trois jours sans faiblir.", fix: "d'est" },
     ]},
     { ruleSlug: "majuscule-institutions", sentences: [
@@ -138,7 +138,7 @@ export const DENSIFY3_PONCTUATION_TYPO: ContentBatch = {
       { marked: "Reste une inconnue : [Quand] les travaux commenceront-ils ?", fix: "quand" },
     ]},
     { ruleSlug: "majuscule-fetes", sentences: [
-      { marked: "Le lundi de [pentecôte] est férié dans certaines entreprises.", fix: "Pentecôte" },
+      { marked: "Le lundi de [pentecôte] reste travaillé dans certaines entreprises au titre de la journée de solidarité.", fix: "Pentecôte" },
       { marked: "Les enfants attendent la [chandeleur] avec impatience.", fix: "Chandeleur" },
     ]},
     { ruleSlug: "siecles-chiffres-romains", sentences: [

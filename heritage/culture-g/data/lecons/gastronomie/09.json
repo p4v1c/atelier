@@ -3,7 +3,7 @@
  "sections": [
   {
    "titre": "Trois mots qu'on confond",
-   "texte": "Une épice est une matière végétale odorante ou piquante, employée en très petite quantité pour parfumer un plat. Une herbe aromatique désigne, elle, les feuilles et les tiges tendres d'une plante, le plus souvent de climat tempéré : persil, thym, laurier, estragon, basilic. Le condiment, enfin, est une préparation composée que l'on consomme en quantité plus grande et souvent à part du plat : moutarde, ketchup, cornichons, sauce de soja. Les épices proviennent des organes les plus divers du végétal, ce qui explique leur variété d'arômes. La cannelle est une écorce enroulée en bâtonnet, le clou de girofle un bouton floral séché, le safran l'ensemble des trois stigmates d'un crocus, le poivre et le piment des fruits, la muscade une graine, le gingembre et le curcuma des rhizomes souterrains. Le mot vient du latin species, qui désignait une marchandise, puis une drogue en latin tardif : longtemps, l'épice a relevé autant de l'apothicaire que du cuisinier. Cette parenté n'a rien d'anecdotique, car beaucoup d'épices possèdent des propriétés antioxydantes ou antimicrobiennes qui expliquent leur usage traditionnel. Un signe archéologique donne la mesure de leur ancienneté : des clous de girofle, originaires des seules îles Moluques, ont été retrouvés en Mésopotamie dans un contexte daté d'environ mille sept cents ans avant notre ère.",
+   "texte": "Une épice est une matière végétale odorante ou piquante, employée en très petite quantité pour parfumer un plat. Une herbe aromatique désigne, elle, les feuilles et les tiges tendres d'une plante, le plus souvent de climat tempéré : persil, thym, laurier, estragon, basilic. Le condiment, enfin, est une préparation composée que l'on consomme en quantité plus grande et souvent à part du plat : moutarde, ketchup, cornichons, sauce de soja. Les épices proviennent des organes les plus divers du végétal, ce qui explique leur variété d'arômes. La cannelle est une écorce enroulée en bâtonnet, le clou de girofle un bouton floral séché, le safran l'ensemble des trois stigmates d'un crocus, le poivre et le piment des fruits, la muscade une graine, le gingembre et le curcuma des rhizomes souterrains. Le mot vient du latin species, qui désignait une marchandise, puis une drogue en latin tardif : longtemps, l'épice a relevé autant de l'apothicaire que du cuisinier. Cette parenté n'a rien d'anecdotique, car beaucoup d'épices possèdent des propriétés antioxydantes ou antimicrobiennes qui expliquent leur usage traditionnel. On a longtemps cité des clous de girofle qui auraient été retrouvés en Mésopotamie vers mille sept cents ans avant notre ère ; l'identification est aujourd'hui contestée, mais le commerce des épices d'Asie vers la Méditerranée est attesté au plus tard à l'époque romaine.",
    "visuels": [
     {
      "type": "image",
@@ -64,11 +64,25 @@
   },
   {
    "titre": "Ce qui pique et ce qui parfume",
-   "texte": "Le piquant n'est pas une saveur mais une sensation : les molécules concernées stimulent des récepteurs de la douleur et de la température, non les papilles gustatives. La capsaïcine du piment active un récepteur également sensible à la chaleur, d'où l'impression de brûlure ; comme elle est liposoluble, un verre d'eau la déplace mal, tandis qu'un corps gras ou un laitage la dissout. Le pharmacien américain Wilbur Scoville proposa en 1912 une échelle de mesure fondée sur la dilution nécessaire pour ne plus percevoir le feu, échelle qui porte toujours son nom. Le poivre doit son mordant à la pipérine, la moutarde, le raifort et le wasabi à des composés soufrés volatils qui montent au nez plutôt qu'ils ne brûlent la bouche, le gingembre au gingérol. Le safran, lui, illustre la chimie de l'arôme : la crocine donne la couleur jaune or, la picrocrocine l'amertume, le safranal le parfum. Il reste l'épice la plus chère du monde parce que sa récolte est manuelle et minuscule ; il faut environ cent cinquante fleurs pour un gramme et quelque cent cinquante mille pour un kilogramme d'épice sèche, cueillies fleur à fleur à l'aube. L'Iran en fournit l'écrasante majorité ; la France en produit à peine une centaine de kilogrammes par an, principalement dans le Quercy."
+   "texte": "Le piquant n'est pas une saveur mais une sensation : les molécules concernées stimulent des récepteurs de la douleur et de la température, non les papilles gustatives. La capsaïcine du piment active un récepteur également sensible à la chaleur, d'où l'impression de brûlure ; comme elle est liposoluble, un verre d'eau la déplace mal, tandis qu'un corps gras ou un laitage la dissout. Le pharmacien américain Wilbur Scoville proposa en 1912 une échelle de mesure fondée sur la dilution nécessaire pour ne plus percevoir le feu, échelle qui porte toujours son nom. Le poivre doit son mordant à la pipérine, la moutarde, le raifort et le wasabi à des composés soufrés volatils qui montent au nez plutôt qu'ils ne brûlent la bouche, le gingembre au gingérol. Le safran, lui, illustre la chimie de l'arôme : la crocine donne la couleur jaune or, la picrocrocine l'amertume, le safranal le parfum. Il reste l'épice la plus chère du monde parce que sa récolte est manuelle et minuscule ; il faut environ cent cinquante fleurs pour un gramme et quelque cent cinquante mille pour un kilogramme d'épice sèche, cueillies fleur à fleur à l'aube. L'Iran en fournit l'écrasante majorité ; la France en produit à peine une centaine de kilogrammes par an, principalement dans le Quercy.",
+   "visuel": {
+    "type": "chiffres",
+    "titre": "Mesurer le piquant",
+    "items": [
+     {
+      "valeur": "1912",
+      "label": "création de l'échelle de Scoville par le pharmacien Wilbur Scoville"
+     },
+     {
+      "valeur": "100 kg",
+      "label": "production française annuelle de safran, surtout dans le Quercy"
+     }
+    ]
+   }
   },
   {
    "titre": "La vanille et les condiments de la table française",
-   "texte": "La vanille est le fruit d'une orchidée liane originaire du golfe du Mexique, cultivée par les Totonaques bien avant la conquête espagnole et utilisée par les Aztèques pour parfumer leur boisson de cacao. Transplantée ailleurs, elle refusait longtemps de fructifier, faute des abeilles qui la pollinisent dans son milieu d'origine : le Mexique en garda le monopole plus de deux siècles. En 1841, à Bourbon, l'actuelle Réunion, un jeune esclave nommé Edmond Albius met au point la fécondation manuelle, geste précis que l'on pratique encore aujourd'hui fleur par fleur. La gousse récoltée est inodore ; elle ne prend son parfum qu'après échaudage, étuvage, séchage lent et plusieurs mois d'affinage en malles. Madagascar en est devenu le premier producteur mondial. La vanilline naturelle reste pourtant rarissime face aux dizaines de milliers de tonnes de vanilline de synthèse employées par l'industrie. Les condiments français, eux, racontent d'autres histoires. La moutarde de Dijon désigne une recette, faite de graines brunes broyées et de liquide acide, et non une origine protégée : un décret de 1937 en a fait un terme générique, et la grande majorité des graines utilisées vient aujourd'hui du Canada. Le sel de Guérande, les cornichons, le vinaigre d'Orléans complètent ce répertoire discret.",
+   "texte": "La vanille est le fruit d'une orchidée liane originaire du golfe du Mexique, cultivée par les Totonaques bien avant la conquête espagnole et utilisée par les Aztèques pour parfumer leur boisson de cacao. Transplantée ailleurs, elle refusait longtemps de fructifier, faute des abeilles qui la pollinisent dans son milieu d'origine : le Mexique en garda le monopole plus de deux siècles. En 1841, à Bourbon, l'actuelle Réunion, un jeune esclave nommé Edmond Albius met au point la fécondation manuelle, geste précis que l'on pratique encore aujourd'hui fleur par fleur. La gousse récoltée est inodore ; elle ne prend son parfum qu'après échaudage, étuvage, séchage lent et huit mois d'affinage en malles. Madagascar en est devenu le premier producteur mondial. La vanilline naturelle reste pourtant rarissime face aux dizaines de milliers de tonnes de vanilline de synthèse employées par l'industrie. Les condiments français, eux, racontent d'autres histoires. La moutarde de Dijon désigne une recette, faite de graines brunes broyées et de liquide acide, et non une origine protégée : un décret de 1937 en a fait un terme générique, et la grande majorité des graines utilisées vient aujourd'hui du Canada. Le sel de Guérande, les cornichons, le vinaigre d'Orléans complètent ce répertoire discret.",
    "visuel": {
     "type": "chiffres",
     "titre": "Deux épices de luxe",
@@ -84,10 +98,6 @@
      {
       "valeur": "8 mois",
       "label": "affinage des gousses de vanille en malles"
-     },
-     {
-      "valeur": "1912",
-      "label": "création de l'échelle de Scoville"
      }
     ]
    }
@@ -128,7 +138,7 @@
    ],
    "bonne": 3,
    "difficulte": 2,
-   "explication": "La vanille est une orchidée pollinisée dans son milieu d'origine par des insectes absents ailleurs, si bien que les plants transplantés fleurissaient sans donner de gousses. En 1841, à l'île Bourbon, aujourd'hui La Réunion, un jeune esclave nommé Edmond Albius découvre le geste de la fécondation manuelle, encore pratiqué fleur par fleur dans toutes les plantations du monde. Cette invention a mis fin au monopole mexicain et fait de l'océan Indien le premier bassin producteur, Madagascar en tête. Pierre Poivre, lui, avait transplanté un siècle plus tôt le girofle et la muscade."
+   "explication": "La vanille est une orchidée pollinisée dans son milieu d'origine par des insectes absents ailleurs, si bien que les plants transplantés fleurissaient sans donner de gousses. En 1841, à l'île Bourbon, aujourd'hui La Réunion, un jeune esclave nommé Edmond Albius découvre le geste de la fécondation manuelle, encore pratiqué fleur par fleur dans toutes les plantations du monde. Cette invention a mis fin au monopole mexicain et fait de l'océan Indien le premier bassin producteur, Madagascar en tête. Pierre Poivre, lui, avait transplanté girofliers et muscadiers à l'île de France dans les années 1770, soit une génération plus tôt."
   },
   {
    "q": "Que garantit l'appellation moutarde de Dijon ?",

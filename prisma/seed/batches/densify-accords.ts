@@ -11,7 +11,7 @@ export const DENSIFY_ACCORDS: ContentBatch = {
       { marked: "Les feuilles sont [tombé] très tôt cette année.", fix: "tombées" },
     ]},
     { ruleSlug: "adj-distance", sentences: [
-      { marked: "Une décision, prise après de longs débats, restée [confidentiel].", fix: "confidentielle" },
+      { marked: "Une décision, prise après de longs débats, est restée [confidentiel].", fix: "confidentielle" },
       { marked: "Les portes du fond, repeintes l'an dernier, sont [gonflé] par l'humidité.", fix: "gonflées" },
     ]},
     { ruleSlug: "pronominaux", sentences: [
@@ -57,7 +57,7 @@ export const DENSIFY_ACCORDS: ContentBatch = {
     ]},
     { ruleSlug: "couleurs", sentences: [
       { marked: "Elle porte des chaussures [marrons] achetées en solde.", fix: "marron" },
-      { marked: "Les murs [verts] pâle donnent une impression de calme.", fix: "vert" },
+      { marked: "Ces rideaux [rouges] sang habillent toute la pièce.", fix: "rouge" },
     ]},
     { ruleSlug: "demi", sentences: [
       { marked: "Nous avons attendu deux heures et [demis] sous la pluie.", fix: "demie" },
@@ -94,7 +94,7 @@ export const DENSIFY_ACCORDS: ContentBatch = {
     ]},
     { ruleSlug: "pp-impersonnel", sentences: [
       { marked: "La patience qu'il a [fallue] dépasse tout ce qu'on imagine.", fix: "fallu" },
-      { marked: "Cette semaine, les averses qu'il a [plues] ont tout inondé.", fix: "plu" },
+      { marked: "Que de pluie il a [plue] cette semaine, tout est inondé !", fix: "plu" },
       { marked: "En août, la chaleur qu'il a [faite] a battu des records.", fix: "fait" },
     ]},
     { ruleSlug: "pp-couté", sentences: [
@@ -155,9 +155,9 @@ export const DENSIFY_ACCORDS: ContentBatch = {
       { marked: "Ces [grand-pères] se retrouvent chaque jeudi au café.", fix: "grands-pères" },
     ]},
     { ruleSlug: "adj-invariables", sentences: [
-      { marked: "Elles portaient des tenues très [chics] pour l'occasion.", fix: "chic" },
+      { marked: "Ces vêtements étaient vendus [bons] marché partout en ville.", fix: "bon" },
       { marked: "Ces modèles [standards] coûtent bien moins cher.", fix: "standard" },
-      { marked: "Nous avons passé des vacances [supers] cette année.", fix: "super" },
+      { marked: "Nous avons passé des vacances [extras] cette année.", fix: "extra" },
     ]},
     { ruleSlug: "mi-semi", sentences: [
       { marked: "Il est resté [mie-]chemin entre les deux villages.", fix: "mi-" },

@@ -3,7 +3,7 @@
  "sections": [
   {
    "titre": "Une histoire de conserves et de carêmes",
-   "texte": "Longtemps, la mer n'a nourri l'intérieur des terres que sous forme salée, séchée ou fumée. Le hareng, pêché en bancs immenses en mer du Nord, a fait la fortune des ports flamands et hollandais dès le Moyen Âge : sa mise en caque, technique de salaison en tonneau attribuée au XIVe siècle aux pêcheurs de Zélande, permettait de le conserver un an. La morue, séchée sur les grèves ou salée à bord, a poussé les marins bretons, normands et basques jusqu'aux bancs de Terre-Neuve dès le début du XVIe siècle ; ces campagnes de plusieurs mois, dites de la Grande Pêche, ont duré jusqu'au milieu du XXe siècle. La demande était soutenue par la religion : l'Église imposait de faire maigre le vendredi et pendant le carême, soit environ cent cinquante jours par an, et le poisson salé devenait alors la protéine autorisée. Deux inventions ont ensuite tout changé. L'appertisation, mise au point par Nicolas Appert autour de 1795 et publiée en 1810, a donné la conserve de sardines, industrie majeure des ports bretons du XIXe siècle. Puis le chemin de fer, la glace, enfin le froid mécanique et la surgélation ont permis d'acheminer le poisson frais loin des côtes. La criée, vente aux enchères organisée dès le débarquement, reste le point de passage historique entre le pêcheur et le poissonnier."
+   "texte": "Longtemps, la mer n'a nourri l'intérieur des terres que sous forme salée, séchée ou fumée. Le hareng, pêché en bancs immenses en mer du Nord, a fait la fortune des ports flamands et hollandais dès le Moyen Âge : sa mise en caque, technique de salaison en tonneau attribuée au XIVe siècle aux pêcheurs de Zélande, permettait de le conserver un an. La morue, séchée sur les grèves ou salée à bord, a poussé les marins bretons, normands et basques jusqu'aux bancs de Terre-Neuve dès le début du XVIe siècle ; ces campagnes de plusieurs mois, dites de la Grande Pêche, ont duré sous leur forme traditionnelle jusqu'au milieu du XXe siècle, avant que les chalutiers industriels ne prennent le relais. La demande était soutenue par la religion : l'Église imposait de faire maigre le vendredi et pendant le carême, soit environ cent cinquante jours par an, et le poisson salé devenait alors la protéine autorisée. Deux inventions ont ensuite tout changé. L'appertisation, mise au point par Nicolas Appert autour de 1795 et publiée en 1810, a donné la conserve de sardines, industrie majeure des ports bretons du XIXe siècle. Puis le chemin de fer, la glace, enfin le froid mécanique et la surgélation ont permis d'acheminer le poisson frais loin des côtes. La criée, vente aux enchères organisée dès le débarquement, reste le point de passage historique entre le pêcheur et le poissonnier."
   },
   {
    "titre": "Choisir et cuire le poisson",
@@ -30,8 +30,8 @@
       },
       {
        "date": "1868",
-       "label": "Arrivée de l'huître portugaise",
-       "texte": "Une cargaison déversée dans la Gironde ensemence l'estuaire."
+       "label": "L'huître portugaise s'installe en Gironde",
+       "texte": "La tradition attribue son arrivée à une cargaison déversée par un navire dérouté."
       },
       {
        "date": "1920-1970",
@@ -47,6 +47,24 @@
        "date": "1971",
        "label": "Opération Résur",
        "texte": "Des huîtres japonaises sont importées et repeuplent les bassins."
+      }
+     ]
+    },
+    {
+     "type": "chiffres",
+     "titre": "L'ostréiculture française",
+     "items": [
+      {
+       "valeur": "100 000 t",
+       "label": "huîtres produites chaque année en France"
+      },
+      {
+       "valeur": "90 %",
+       "label": "part française dans la production européenne d'huîtres"
+      },
+      {
+       "valeur": "3-4 ans",
+       "label": "durée d'élevage d'une huître avant la vente"
       }
      ]
     }
@@ -68,16 +86,16 @@
       "label": "moratoire canadien sur la morue de Terre-Neuve"
      },
      {
-      "valeur": "100 000 t",
-      "label": "huîtres produites chaque année en France"
+      "valeur": "~35 %",
+      "label": "part des stocks marins surexploités (FAO, SOFIA 2024)"
      },
      {
-      "valeur": "90 %",
-      "label": "part française dans la production européenne d'huîtres"
+      "valeur": "> 50 %",
+      "label": "part de l'aquaculture dans les animaux aquatiques consommés"
      },
      {
-      "valeur": "3-4 ans",
-      "label": "durée d'élevage d'une huître avant la vente"
+      "valeur": "5 siècles",
+      "label": "durée d'exploitation du stock de Terre-Neuve avant son effondrement"
      }
     ]
    }

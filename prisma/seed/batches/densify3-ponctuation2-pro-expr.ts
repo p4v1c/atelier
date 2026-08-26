@@ -28,7 +28,7 @@ export const DENSIFY3_PONCT2_PRO_EXPR: ContentBatch = {
       { marked: "Le train est [bondé] c'est un jour de départ en vacances.", fix: "bondé :" },
     ]},
     { ruleSlug: "guillemets-imbriques", sentences: [
-      { marked: "Il rapporte : « elle a lancé [«tant] pis » et elle est partie ».", fix: "“tant" },
+      { marked: "Il rapporte : « elle a crié [«terminé»] et elle est partie ».", fix: "“terminé”" },
       { marked: "« Le mot [«provisoire»] revenait sans cesse », a-t-elle noté.", fix: "“provisoire”" },
     ]},
     { ruleSlug: "virgule-avant-etc", sentences: [
@@ -60,7 +60,7 @@ export const DENSIFY3_PONCT2_PRO_EXPR: ContentBatch = {
       { marked: "Il portait un manteau [sombre] usé et trop grand.", fix: "sombre," },
     ]},
     { ruleSlug: "typo-souverains-romains", sentences: [
-      { marked: "Charles [5] a régné sur un empire immense.", fix: "Quint" },
+      { marked: "Par exception, on écrit toujours Charles [5] et non Charles V.", fix: "Quint" },
       { marked: "Le règne de Louis [13] précède celui de son fils.", fix: "XIII" },
     ]},
     { ruleSlug: "typo-italique-mots-etrangers", sentences: [
@@ -96,7 +96,7 @@ export const DENSIFY3_PONCT2_PRO_EXPR: ContentBatch = {
       { marked: "Consultez les articles [12—18] du règlement.", fix: "12-18" },
     ]},
     { ruleSlug: "typo-abrev-etats", sentences: [
-      { marked: "Un accord commercial lie la France et les [USA].", fix: "É.-U." },
+      { marked: "Un accord commercial lie la France et les [USA.]", fix: "É.-U." },
       { marked: "Le [UK] applique désormais ses propres normes douanières.", fix: "R.-U." },
     ]},
     { ruleSlug: "typo-marques-minuscule", sentences: [
@@ -111,7 +111,7 @@ export const DENSIFY3_PONCT2_PRO_EXPR: ContentBatch = {
     /* ── lot 014 : registre et écrits professionnels ── */
     { ruleSlug: "anglicisme-staff", sentences: [
       { marked: "Le [staff] de nuit compte quatre personnes seulement.", fix: "personnel" },
-      { marked: "Tout le [staff] a été réuni pour l'annonce officielle.", fix: "personnel" },
+      { marked: "L'[staff] technique a validé tous les réglages avant le concert.", fix: "équipe" },
     ]},
     { ruleSlug: "anglicisme-job", sentences: [
       { marked: "Ce [job] d'été lui permet de payer son loyer.", fix: "travail" },
@@ -167,7 +167,7 @@ export const DENSIFY3_PONCT2_PRO_EXPR: ContentBatch = {
     ]},
     { ruleSlug: "pro-remercier-avance", sentences: [
       { marked: "Merci [en] avance de votre retour sur ce dossier.", fix: "par" },
-      { marked: "Je vous remercie [en] avance de votre diligence.", fix: "par" },
+      { marked: "Je vous remercie [en] avance de votre diligence.", fix: "d'" },
     ]},
     { ruleSlug: "pro-nous-vous-informons", sentences: [
       { marked: "Nous vous informons [sur] le changement d'horaires.", fix: "du" },
@@ -261,7 +261,7 @@ export const DENSIFY3_PONCT2_PRO_EXPR: ContentBatch = {
     ]},
     { ruleSlug: "expr-etre-de-mise", sentences: [
       { marked: "L'optimisme n'est guère de [mises] en cette période.", fix: "mise" },
-      { marked: "La sobriété est de [mises] dans un tel contexte.", fix: "mise" },
+      { marked: "La prudence n'est pas de [mie] en pareille circonstance.", fix: "mise" },
     ]},
     { ruleSlug: "expr-faire-fi", sentences: [
       { marked: "Ils ont fait [fis] de toutes les mises en garde.", fix: "fi" },
@@ -313,7 +313,7 @@ export const DENSIFY3_PONCT2_PRO_EXPR: ContentBatch = {
     ]},
     { ruleSlug: "expr-tenir-tete", sentences: [
       { marked: "Elle a tenu [têtes] à toute la commission.", fix: "tête" },
-      { marked: "Personne n'ose lui tenir [têtes] devant les autres.", fix: "tête" },
+      { marked: "Aucun d'eux n'osera lui tenir [têtes] en public.", fix: "tête" },
     ]},
   ],
 };

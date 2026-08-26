@@ -31,7 +31,7 @@ export const BATCH_011: ContentBatch = {
       sentences: [
         { marked: "Son père ou sa mère [viendront] le chercher à l'école.", fix: "viendra" },
         { marked: "La pluie ou le vent [abîmera] les jeunes plants.", fix: "abîmeront" },
-        { marked: "Un accident ou une panne [expliqueront] ce retard.", fix: "expliquerait" },
+        { marked: "Un accident ou une panne [expliqueront] ce retard.", fix: "expliquera" },
         { marked: "Pierre ou Jacques [seront] désigné capitaine de l'équipe.", fix: "sera" },
         { marked: "La fatigue ou l'ennui expliquent souvent ces erreurs.", fix: null },
       ],
@@ -55,8 +55,8 @@ export const BATCH_011: ContentBatch = {
       slug: "accord-dizaine",
       category: "Accords",
       title: "Accord après « une dizaine de »",
-      statement: "Après un <b>nom de nombre approximatif</b> — dizaine, centaine, millier — le verbe s'accorde le plus souvent avec le complément.",
-      tip: "C'est le complément qui porte le sens : une dizaine de personnes sont venues.",
+      statement: "Après un <b>nom de nombre approximatif</b> — dizaine, centaine, millier — le verbe s'accorde le plus souvent avec le complément, même si le singulier reste possible pour insister sur le groupe entier.",
+      tip: "C'est le complément qui porte le sens le plus souvent : une dizaine de personnes sont venues.",
       difficulty: 3,
       sentences: [
         { marked: "Une dizaine de curieux [s'approche] de la scène.", fix: "s'approchent" },
@@ -92,7 +92,7 @@ export const BATCH_011: ContentBatch = {
         { marked: "Le directeur, de même que son adjoint, [seront] présents.", fix: "sera" },
         { marked: "Aussi bien que le père, la mère [sont] responsable.", fix: "est" },
         { marked: "Sa voix, de même que son regard, [trahissaient] sa lassitude.", fix: "trahissait" },
-        { marked: "Toute la journée, le chien comme le chat [dorment] paisiblement.", fix: "dort" },
+        { marked: "Le chat, aussi bien que le chien, [dorment] toute la journée.", fix: "dort" },
         { marked: "Le maire, de même que ses adjoints, assistera à la cérémonie.", fix: null },
       ],
     },
@@ -152,7 +152,7 @@ export const BATCH_011: ContentBatch = {
         { marked: "Les [nouveaux-nés] dorment dans la salle du fond.", fix: "nouveau-nés" },
         { marked: "Ces enfants [sourd-muets] suivent une scolarité adaptée.", fix: "sourds-muets" },
         { marked: "Les [premier-nés] héritaient autrefois de toute la ferme.", fix: "premiers-nés" },
-        { marked: "Des tissus [bleu-clairs] ont été choisis pour les rideaux.", fix: "bleu clair" },
+        { marked: "Ces sauces [aigre-doux] surprennent toujours les convives.", fix: "aigres-douces" },
         { marked: "Les nouveau-nés et les sourds-muets ont chacun leur service.", fix: null },
       ],
     },
@@ -191,7 +191,7 @@ export const BATCH_011: ContentBatch = {
       category: "Accords",
       title: "ayant reste invariable",
       statement: "<b>ayant</b> et <b>étant</b> employés comme participes présents sont <b>invariables</b>.",
-      tip: "Un participe présent ne s'accorde jamais : c'est un verbe, pas un adjectif.",
+      tip: "Un participe présent ne s'accorde jamais : c'est un verbe, pas un adjectif. (Exception à part : « ayant droit » employé comme nom fait « les ayants droit » au pluriel.)",
       difficulty: 3,
       sentences: [
         { marked: "Les personnes [ayantes] déposé un dossier seront reçues.", fix: "ayant" },
@@ -345,7 +345,7 @@ export const BATCH_011: ContentBatch = {
       difficulty: 2,
       sentences: [
         { marked: "Madame la directrice [ont] reçu les délégués hier.", fix: "a" },
-        { marked: "Monsieur le maire et son adjoint [assistera] à la séance.", fix: "assisteront" },
+        { marked: "Monsieur le maire, accompagné de son adjoint, [assisteront] à la séance.", fix: "assistera" },
         { marked: "Madame la présidente [sont] intervenue en fin de séance.", fix: "est" },
         { marked: "Monsieur le préfet [ont] signé l'arrêté ce matin.", fix: "a" },
         { marked: "Madame la directrice a présenté les résultats du trimestre.", fix: null },
@@ -354,9 +354,9 @@ export const BATCH_011: ContentBatch = {
     {
       slug: "accord-nom-apres-des",
       category: "Accords",
-      title: "Un nom après « des » au sens de quelques",
-      statement: "Après <b>des</b> partitif, le nom se met au pluriel ; mais après <b>de</b> devant un adjectif, le nom reste au pluriel sans article.",
-      tip: "On dit « de belles maisons », pas « des belles maisons », dans un français soigné.",
+      title: "Des devient de devant un adjectif épithète",
+      statement: "En français soigné, l'article indéfini pluriel <b>des</b> devient <b>de</b> (ou <b>d'</b>) quand un adjectif précède directement le nom.",
+      tip: "On dit « de belles maisons », pas « des belles maisons », en français soigné — à l'oral, « des » reste très répandu.",
       difficulty: 3,
       sentences: [
         { marked: "Il a acheté [des] beaux meubles chez un antiquaire.", fix: "de" },

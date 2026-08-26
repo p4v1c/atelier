@@ -25,7 +25,7 @@ export const ESPAGNOL_COURS_USAGE: LotCartes[] = [
         {
           titre: "La règle en deux lignes",
           texte:
-            "Le français accentue mécaniquement la dernière syllabe, et c'est ce réflexe qui rend un francophone reconnaissable dès trois mots d'espagnol.\n\nL'espagnol suit deux règles simples. Si le mot finit par une voyelle, par -n ou par -s, l'accent tombe sur l'AVANT-DERNIÈRE syllabe : casa, hablan, lunes. Si le mot finit par toute autre consonne, il tombe sur la DERNIÈRE : hablar, feliz, papel.\n\nToute exception à ces deux règles porte un accent écrit. L'accent n'est donc pas décoratif : il dit précisément « ici, la règle ne s'applique pas ». Café, porque le mot finit par une voyelle mais s'accentue à la fin ; árbol, parce qu'il finit par une consonne mais s'accentue avant.",
+            "Le français accentue mécaniquement la dernière syllabe, et c'est ce réflexe qui rend un francophone reconnaissable dès trois mots d'espagnol.\n\nL'espagnol suit deux règles simples. Si le mot finit par une voyelle, par -n ou par -s, l'accent tombe sur l'AVANT-DERNIÈRE syllabe : casa, hablan, lunes. Si le mot finit par toute autre consonne, il tombe sur la DERNIÈRE : hablar, feliz, papel.\n\nToute exception à ces deux règles porte un accent écrit. L'accent n'est donc pas décoratif : il dit précisément « ici, la règle ne s'applique pas ». Café, parce que le mot finit par une voyelle mais s'accentue à la fin ; árbol, parce qu'il finit par une consonne mais s'accentue avant.",
           visuels: [
             {
               type: "tableau",
@@ -36,8 +36,8 @@ export const ESPAGNOL_COURS_USAGE: LotCartes[] = [
                 ["-n", "avant-dernière", "hablan, joven", "también, jamón"],
                 ["-s", "avant-dernière", "lunes, casas", "inglés, después"],
                 ["autre consonne", "dernière", "hablar, feliz", "árbol, fácil"],
-                ["antépénultième", "toujours écrit", "—", "música, rápido"],
               ],
+              note: "Et tout accent porté sur l'antépénultième syllabe s'écrit, sans exception : música, rápido, teléfono.",
             },
           ],
         },
@@ -49,7 +49,7 @@ export const ESPAGNOL_COURS_USAGE: LotCartes[] = [
         {
           titre: "Les sons qui piègent un francophone",
           texte:
-            "Le j et le g devant e ou i se prononcent comme une jota, un raclement de gorge : jamón, gente. Rien à voir avec le j français.\n\nLe h ne se prononce jamais : hola se dit « ola », hombre se dit « ombre ».\n\nLe v et le b se prononcent identiquement, entre les deux sons français : vaca et baca sont homophones.\n\nLe r initial et le rr sont roulés fortement : perro, le chien, contre pero, mais. La différence est audible et sémantique.\n\nEnfin, le ñ vaut notre gn : España se dit « Espagna ».",
+            "Le j et le g devant e ou i se prononcent comme une jota, un raclement de gorge : jamón, gente. Rien à voir avec le j français — et dans les Caraïbes et une bonne partie de l'Amérique centrale, elle s'adoucit en une simple aspiration.\n\nLe h ne se prononce jamais : hola se dit « ola », hombre se dit « ombre ».\n\nLe v et le b se prononcent identiquement, entre les deux sons français : vaca et baca sont homophones.\n\nLe r initial et le rr sont roulés fortement : perro, le chien, contre pero, mais. La différence est audible et sémantique.\n\nLe c devant e ou i, et le z partout, se prononcent en Espagne comme le th anglais de think : cinco, gracias, zapato. Dans toute l'Amérique, aux Canaries et dans une bonne partie de l'Andalousie, ils se prononcent comme un s — c'est le seseo. Les deux sont corrects ; il faut en choisir un et s'y tenir.\n\nEnfin, le ñ vaut notre gn : España se dit « Espagna ».",
         },
       ],
     },
@@ -73,7 +73,7 @@ export const ESPAGNOL_COURS_USAGE: LotCartes[] = [
     title: "Tutoyer, vouvoyer, et le vosotros",
     statement:
       "L'espagnol tutoie beaucoup plus que le français, et le pluriel change selon les continents. Se tromper de registre est plus visible qu'une faute de grammaire.",
-    tip: "En Espagne, vosotros pour un groupe qu'on tutoie. En Amérique latine, ustedes pour tous les groupes, sans exception.",
+    tip: "En Espagne (sauf les Canaries et l'Andalousie occidentale), vosotros pour un groupe qu'on tutoie. En Amérique latine, ustedes pour tous les groupes, sans exception.",
     difficulty: 2,
     niveau: "A1",
     oral: true,
@@ -84,7 +84,7 @@ export const ESPAGNOL_COURS_USAGE: LotCartes[] = [
         {
           titre: "Quatre formes, pas deux",
           texte:
-            "Le français a tu et vous. L'espagnol en a quatre, parce qu'il distingue le nombre en plus du registre.\n\nTú, tutoiement singulier. Usted, vouvoiement singulier. Vosotros, tutoiement pluriel — en Espagne seulement. Ustedes, vouvoiement pluriel, et en Amérique latine, pluriel unique pour tout le monde.\n\nParticularité qui surprend : usted et ustedes se conjuguent à la troisième personne. Usted habla, littéralement « votre grâce parle ». C'est un reste de l'ancien vuestra merced, dont usted est la contraction.",
+            "Le français a tu et vous. L'espagnol en a quatre, parce qu'il distingue le nombre en plus du registre.\n\nTú, tutoiement singulier. Usted, vouvoiement singulier. Vosotros, tutoiement pluriel — en Espagne, sauf aux Canaries et en Andalousie occidentale. Ustedes, vouvoiement pluriel, et en Amérique latine, pluriel unique pour tout le monde.\n\nParticularité qui surprend : usted et ustedes se conjuguent à la troisième personne. Usted habla, littéralement « votre grâce parle ». C'est un reste de l'ancien vuestra merced, dont usted est la contraction.",
           visuels: [
             {
               type: "comparaison",
@@ -127,7 +127,7 @@ export const ESPAGNOL_COURS_USAGE: LotCartes[] = [
     cartes: [
       { etranger: "¿De dónde eres?", francais: "Tu viens d'où ?", note: "Tutoiement, la forme la plus courante entre inconnus du même âge." },
       { etranger: "¿De dónde es usted?", francais: "D'où venez-vous ?", note: "Usted se conjugue à la troisième personne : es, et non eres." },
-      { etranger: "¿Vosotros qué opináis?", francais: "Et vous, qu'en pensez-vous ?", note: "Vosotros, tutoiement pluriel — Espagne uniquement. Terminaison en -áis." },
+      { etranger: "¿Vosotros qué opináis?", francais: "Et vous, qu'en pensez-vous ?", note: "Vosotros, tutoiement pluriel — en Espagne, sauf aux Canaries et en Andalousie occidentale. Terminaison en -áis." },
       { etranger: "¿Ustedes vienen mañana?", francais: "Vous venez demain ?", note: "En Amérique latine, ustedes couvre tous les pluriels, tutoiement compris." },
       { etranger: "Perdone, ¿me puede ayudar?", francais: "Excusez-moi, pouvez-vous m'aider ?", note: "Vouvoiement : perdone et non perdona." },
       { etranger: "Perdona, ¿me puedes ayudar?", francais: "Excuse-moi, tu peux m'aider ?", note: "La même demande, au tutoiement." },
@@ -155,7 +155,7 @@ export const ESPAGNOL_COURS_USAGE: LotCartes[] = [
         {
           titre: "Le a personnel, sans équivalent français",
           texte:
-            "Quand le complément d'objet direct d'un verbe est une personne déterminée, l'espagnol place un a devant. Veo a Juan, je vois Juan. Busco a mi hermana, je cherche ma sœur.\n\nLe français n'a rien de tel, et c'est pourquoi l'omettre est la faute la plus commune. Elle ne gêne pas la compréhension, mais elle s'entend immédiatement.\n\nLa règle s'étend aux animaux familiers — busco a mi perro — et disparaît devant une personne indéterminée : busco un médico, je cherche un médecin, n'importe lequel.\n\nEt elle ne s'applique jamais après tener : tengo dos hermanos, sans a.",
+            "Quand le complément d'objet direct d'un verbe est une personne déterminée, l'espagnol place un a devant. Veo a Juan, je vois Juan. Busco a mi hermana, je cherche ma sœur.\n\nLe français n'a rien de tel, et c'est pourquoi l'omettre est la faute la plus commune. Elle ne gêne pas la compréhension, mais elle s'entend immédiatement.\n\nLa règle s'étend aux animaux familiers — busco a mi perro — et disparaît devant une personne indéterminée : busco un médico, je cherche un médecin, n'importe lequel.\n\nEt elle ne s'applique pas après tener au sens de posséder : tengo dos hermanos, sans a.",
           visuels: [
             {
               type: "tableau",
@@ -181,7 +181,7 @@ export const ESPAGNOL_COURS_USAGE: LotCartes[] = [
         {
           titre: "Les verbes qui imposent leur préposition",
           texte:
-            "Comme en français, certains verbes exigent une préposition, mais pas la même.\n\nAvec a : empezar a, aprender a, ayudar a, invitar a, volver a — ce dernier voulant dire « refaire quelque chose », volver a llamar, rappeler.\n\nAvec de : acabar de, qui veut dire « venir de » — acabo de llegar, je viens d'arriver ; tratar de, essayer ; dejar de, arrêter de ; olvidarse de, oublier.\n\nAvec en : pensar en, penser à ; confiar en, faire confiance à ; insistir en.\n\nEt quelques-uns se passent de préposition, comme en français mais contrairement à l'anglais : buscar, chercher ; escuchar, écouter ; mirar, regarder ; esperar, attendre. On dit escucho la radio, jamais « escucho a la radio ».",
+            "Comme en français, certains verbes exigent une préposition, mais pas la même.\n\nAvec a : empezar a, aprender a, ayudar a, invitar a. Les périphrases de mouvement comme volver a, acabar de ou dejar de sont déjà vues dans « Llevar, seguir, acabar : dire la durée autrement » — on s'en tient ici à la préposition simple.\n\nAvec de : tratar de, essayer ; olvidarse de, oublier.\n\nAvec en : pensar en, penser à ; confiar en, faire confiance à ; insistir en.\n\nEt quelques-uns se passent de préposition, comme en français mais contrairement à l'anglais : buscar, chercher ; escuchar, écouter ; mirar, regarder ; esperar, attendre. On dit escucho la radio, jamais « escucho a la radio ».",
         },
       ],
     },
@@ -190,11 +190,11 @@ export const ESPAGNOL_COURS_USAGE: LotCartes[] = [
       { etranger: "Busco un médico.", francais: "Je cherche un médecin.", note: "Indéterminé : pas de a. Busco a mi médico en prendrait un." },
       { etranger: "Estoy en casa.", francais: "Je suis à la maison.", note: "En pour le lieu où l'on est." },
       { etranger: "Voy a casa.", francais: "Je rentre à la maison.", note: "A pour le mouvement vers." },
-      { etranger: "Acabo de llegar.", francais: "Je viens d'arriver.", note: "Acabar de rend exactement notre « venir de »." },
+      { etranger: "Se olvidó de llamarme.", francais: "Il a oublié de m'appeler.", note: "Olvidarse de + infinitif, oublier de." },
       { etranger: "Empecé a estudiar en mayo.", francais: "J'ai commencé à étudier en mai.", note: "empezar a, et en devant un mois." },
       { etranger: "Estoy pensando en ti.", francais: "Je pense à toi.", note: "pensar en, jamais pensar a." },
       { etranger: "Escucho la radio.", francais: "J'écoute la radio.", note: "Escuchar est transitif direct, comme « écouter » en français ; c'est l'anglais qui met une préposition." },
-      { etranger: "Volvió a llamar.", francais: "Il a rappelé.", note: "volver a + infinitif veut dire refaire quelque chose." },
+      { etranger: "Trató de convencerme.", francais: "Il a essayé de me convaincre.", note: "Tratar de + infinitif, essayer de." },
       { etranger: "Voy en tren, no a pie.", francais: "J'y vais en train, pas à pied.", note: "En pour les transports, mais a pie pour la marche." },
     ],
   },
@@ -211,14 +211,14 @@ export const ESPAGNOL_COURS_USAGE: LotCartes[] = [
     cartes: [
       { etranger: "¿Cuándo llegas?", francais: "Tu arrives quand ?", note: "Le point d'interrogation inversé ouvre la question : il n'est pas décoratif." },
       { etranger: "¡Qué sorpresa!", francais: "Quelle surprise !", note: "Même chose pour l'exclamation. Et pas d'espace avant le signe final." },
-      { etranger: "Muy señores míos:", francais: "Madame, Monsieur,", note: "Formule d'appel quand on ignore à qui l'on écrit. Deux points, jamais une virgule." },
-      { etranger: "el lunes tres de mayo", francais: "le lundi trois mai", note: "Jours et mois sans majuscule, contrairement à l'anglais." },
-      { etranger: "Hablo español y francés.", francais: "Je parle espagnol et français.", note: "Les langues et les nationalités ne prennent pas de majuscule." },
+      { etranger: "Estimados señores:", francais: "Madame, Monsieur,", note: "Formule d'appel quand on ignore à qui l'on écrit, avec deux points, jamais une virgule. Muy señores míos est plus ancien et strictement masculin." },
+      { etranger: "el lunes tres de mayo", francais: "le lundi trois mai", note: "Jours et mois sans majuscule, comme en français." },
+      { etranger: "Hablo español y francés.", francais: "Je parle espagnol et français.", note: "Les langues ne prennent pas de majuscule, comme en français. Seul écart réel : le nom de nationalité prend la majuscule en français (un Espagnol) mais pas en espagnol (un español)." },
       { etranger: "Sin embargo, no estoy de acuerdo.", francais: "Cependant, je ne suis pas d'accord.", note: "Sin embargo, le connecteur d'opposition standard à l'écrit." },
       { etranger: "Por lo tanto, hay que cambiarlo.", francais: "Par conséquent, il faut le changer.", note: "Por lo tanto pour la conséquence ; por eso, plus oral." },
       { etranger: "En primer lugar, conviene recordar que…", francais: "En premier lieu, il convient de rappeler que…", note: "En primer lugar, en segundo lugar : la charpente d'un texte argumenté." },
       { etranger: "A modo de conclusión,", francais: "En guise de conclusion,", note: "Plus élégant que en conclusión, qui est correct mais plat." },
-      { etranger: "Quedo a la espera de su respuesta.", francais: "Dans l'attente de votre réponse.", note: "Formule de clôture standard d'une lettre formelle." },
+      { etranger: "Quedo a la espera de su respuesta.", francais: "Dans l'attente de votre réponse.", note: "Formule de clôture standard en Espagne ; en Amérique, on dit plutôt quedo atento a sus comentarios." },
     ],
   },
 ];

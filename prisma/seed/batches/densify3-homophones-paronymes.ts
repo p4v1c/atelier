@@ -66,7 +66,7 @@ export const DENSIFY3_HOMO_PARO: ContentBatch = {
     ]},
     { ruleSlug: "reine-renne", sentences: [
       { marked: "L'attelage de [reines] traversait la toundra gelée.", fix: "rennes" },
-      { marked: "La [renne] mère surveillait toute la ruche.", fix: "reine" },
+      { marked: "La [renne] surveillait toute la ruche.", fix: "reine" },
     ]},
     { ruleSlug: "roder-roder-accent", sentences: [
       { marked: "Deux silhouettes [rodaient] autour du chantier désert.", fix: "rôdaient" },
@@ -78,7 +78,7 @@ export const DENSIFY3_HOMO_PARO: ContentBatch = {
     ]},
     { ruleSlug: "taule-tole", sentences: [
       { marked: "Une plaque de [taule] rouillée ferme la brèche du mur.", fix: "tôle" },
-      { marked: "Le vent a arraché toute la [taule] du poulailler.", fix: "tôle" },
+      { marked: "Il a fait six mois de [tole] pour ce cambriolage.", fix: "taule" },
     ]},
     { ruleSlug: "thon-ton", sentences: [
       { marked: "Le [ton] pêché à la ligne coûte bien plus cher.", fix: "thon" },
@@ -102,7 +102,7 @@ export const DENSIFY3_HOMO_PARO: ContentBatch = {
     ]},
     { ruleSlug: "poids-pois", sentences: [
       { marked: "Le [pois] du colis a été mal calculé au départ.", fix: "poids" },
-      { marked: "La [poids] servait autrefois à calfater les coques.", fix: "poix" },
+      { marked: "Les [poids] chiches doivent tremper toute la nuit.", fix: "pois" },
     ]},
     { ruleSlug: "puits-puis", sentences: [
       { marked: "Le [puis] communal a été comblé il y a trente ans.", fix: "puits" },
@@ -176,7 +176,7 @@ export const DENSIFY3_HOMO_PARO: ContentBatch = {
     ]},
     { ruleSlug: "luxure-luxe", sentences: [
       { marked: "Ce restaurant affiche un [luxure] un peu tapageur.", fix: "luxe" },
-      { marked: "La [luxe] du jardin surprend en plein mois d'août.", fix: "luxuriance" },
+      { marked: "On lui reproche un [luxe] de mœurs assez discutable.", fix: "luxure" },
     ]},
     { ruleSlug: "munificence-magnificence", sentences: [
       { marked: "Sa [magnificence] a permis de sauver l'orphelinat.", fix: "munificence" },

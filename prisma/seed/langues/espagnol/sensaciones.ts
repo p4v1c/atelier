@@ -100,11 +100,13 @@ export const ESPAGNOL_SENSACIONES: LotCartes[] = [
       {
         etranger: "La sala es más o menos cuadrada.",
         francais: "La pièce est à peu près carrée.",
+        aussiEtranger: ["La sala es aproximadamente cuadrada."],
         note: "Más o menos, l'approximation la plus courante à l'oral.",
       },
       {
         etranger: "Me llega más o menos a la cintura.",
         francais: "Ça m'arrive à peu près à la taille.",
+        aussiEtranger: ["Me llega poco más o menos a la cintura."],
         note: "Llegar a, arriver à. Le corps sert d'étalon comme en français.",
       },
       {
@@ -118,9 +120,14 @@ export const ESPAGNOL_SENSACIONES: LotCartes[] = [
         note: "El doble de + adjectif. La mitad de dit la moitié.",
       },
       {
-        etranger: "No es del todo lo bastante grande.",
-        francais: "Ce n'est pas tout à fait assez grand.",
-        note: "Lo bastante + adjectif, assez. No del todo, pas tout à fait.",
+        etranger: "No es lo bastante grande.",
+        francais: "Ce n'est pas assez grand.",
+        note: "Lo bastante + adjectif, assez.",
+      },
+      {
+        etranger: "No estoy del todo convencido.",
+        francais: "Je ne suis pas tout à fait convaincu.",
+        note: "No del todo, pas tout à fait — sur un adjectif graduable.",
       },
       {
         etranger: "Córtalo a lo largo.",
@@ -130,6 +137,7 @@ export const ESPAGNOL_SENSACIONES: LotCartes[] = [
       {
         etranger: "El hueco es de un par de centímetros.",
         francais: "L'écart fait quelques centimètres.",
+        aussiEtranger: ["El hueco es de unos centímetros."],
         note: "Un par de dit deux ou trois, sans précision. Un hueco, un creux ou un vide.",
       },
       {
@@ -166,6 +174,7 @@ export const ESPAGNOL_SENSACIONES: LotCartes[] = [
       {
         etranger: "El pan está duro.",
         francais: "Le pain est rassis.",
+        aussiEtranger: ["El pan está reseco."],
         note: "Duro pour le pain sec ; rancio pour ce qui a tourné, surtout un corps gras.",
       },
       {
@@ -224,13 +233,13 @@ export const ESPAGNOL_SENSACIONES: LotCartes[] = [
         note: "Crujir, craquer. Le verbe se dit du bois, de la neige et des articulations.",
       },
       {
-        etranger: "Las ventanas retumbaban con el viento.",
-        francais: "Les fenêtres tremblaient dans le vent.",
+        etranger: "El trueno retumbaba a lo lejos.",
+        francais: "Le tonnerre grondait au loin.",
         note: "Retumbar, résonner sourdement. Le verbe suppose du volume.",
       },
       {
         etranger: "La nevera zumba toda la noche.",
-        francais: "Le réfrigérateur ronronne toute la nuit.",
+        francais: "Le réfrigérateur bourdonne toute la nuit.",
         note: "Zumbar, bourdonner. Le mot se dit d'un insecte comme d'un appareil.",
       },
       {
@@ -261,7 +270,7 @@ export const ESPAGNOL_SENSACIONES: LotCartes[] = [
       {
         etranger: "La casa resonaba con las risas.",
         francais: "La maison résonnait de rires.",
-        note: "Resonar con, résonner de. La préposition est con, jamais de.",
+        note: "Resonar con, résonner de. La préposition habituelle est con.",
       },
       {
         etranger: "No se oía ni un ruido.",
@@ -285,7 +294,7 @@ export const ESPAGNOL_SENSACIONES: LotCartes[] = [
     cartes: [
       {
         etranger: "Las brasas brillaban en la oscuridad.",
-        francais: "Les braises rougeoyaient dans le noir.",
+        francais: "Les braises luisaient dans le noir.",
         note: "Brillar, luire. Le verbe couvre le plus large éventail de lumières.",
       },
       {
@@ -301,6 +310,7 @@ export const ESPAGNOL_SENSACIONES: LotCartes[] = [
       {
         etranger: "¿Puedes bajar las luces?",
         francais: "Peux-tu baisser les lumières ?",
+        aussiEtranger: ["¿Puedes atenuar las luces?"],
         note: "Bajar las luces. Atenuar est le terme technique du variateur.",
       },
       {
@@ -330,8 +340,8 @@ export const ESPAGNOL_SENSACIONES: LotCartes[] = [
       },
       {
         etranger: "Habían salido las estrellas.",
-        francais: "Les étoiles étaient sorties.",
-        aussi: ["Le ciel était étoilé."],
+        francais: "Le ciel était étoilé.",
+        aussi: ["Les étoiles étaient sorties."],
         note: "Salir se dit des astres qui apparaissent : sale el sol, salen las estrellas.",
       },
     ],
@@ -375,9 +385,9 @@ export const ESPAGNOL_SENSACIONES: LotCartes[] = [
         note: "Liso s'oppose à rugoso. Alisar, lisser.",
       },
       {
-        etranger: "La masa está demasiado desmenuzable.",
-        francais: "La pâte est trop friable.",
-        note: "Desmenuzable, friable. Le verbe desmenuzar veut dire émietter.",
+        etranger: "La masa se desmigaja demasiado.",
+        francais: "La pâte s'émiette trop.",
+        note: "Desmigajarse ou desmoronarse pour une pâte ; quebradizo pour ce qui casse net.",
       },
       {
         etranger: "La hoja está afiladísima.",
@@ -390,9 +400,9 @@ export const ESPAGNOL_SENSACIONES: LotCartes[] = [
         note: "Picar, gratter ou piquer. Le verbe se dit aussi d'un piment.",
       },
       {
-        etranger: "La pintura todavía está pegajosa.",
-        francais: "La peinture est encore poisseuse.",
-        note: "Le même adjectif qu'à la première carte, dans un autre contexte.",
+        etranger: "La superficie es rugosa al tacto.",
+        francais: "La surface est rugueuse au toucher.",
+        note: "Rugoso s'oppose à liso ; áspero insiste sur ce qui râpe.",
       },
       {
         etranger: "Tiene una textura granulosa.",
@@ -417,6 +427,7 @@ export const ESPAGNOL_SENSACIONES: LotCartes[] = [
       {
         etranger: "Paseamos junto al río.",
         francais: "Nous nous sommes promenés au bord de la rivière.",
+        aussiEtranger: ["Dimos un paseo junto al río."],
         note: "Pasear, marcher sans but ni hâte. Dar un paseo se dit de même.",
       },
       {
@@ -427,7 +438,7 @@ export const ESPAGNOL_SENSACIONES: LotCartes[] = [
       {
         etranger: "Avanzaban penosamente por la nieve.",
         francais: "Ils avançaient péniblement dans la neige.",
-        note: "Penosamente, avec peine. L'adverbe est formé sur pena.",
+        note: "Penosamente, avec peine : -mente s'ajoute au féminin de l'adjectif, penosa.",
       },
       {
         etranger: "Cojea de la pierna izquierda.",
@@ -437,7 +448,7 @@ export const ESPAGNOL_SENSACIONES: LotCartes[] = [
       {
         etranger: "Salí corriendo para coger el autobús.",
         francais: "Je suis parti en courant pour attraper le bus.",
-        note: "Salir corriendo, partir en courant. Le gérondif dit la manière.",
+        note: "Salir corriendo, partir en courant. Coger el autobús en Espagne ; tomar el autobús en Amérique.",
       },
       {
         etranger: "Arrastraba los pies hasta la puerta.",
@@ -482,7 +493,8 @@ export const ESPAGNOL_SENSACIONES: LotCartes[] = [
       {
         etranger: "Agarró el abrigo y se fue.",
         francais: "Il a attrapé son manteau et il est parti.",
-        note: "Agarrar, saisir vite. Coger se dit en Espagne, à éviter en Amérique latine.",
+        aussiEtranger: ["Cogió el abrigo y se fue."],
+        note: "Agarrar, saisir vite. Coger se dit en Espagne, mais tabou en Argentine, en Uruguay, au Mexique et dans plusieurs pays voisins.",
       },
       {
         etranger: "Se aferró a la barandilla.",
@@ -502,7 +514,7 @@ export const ESPAGNOL_SENSACIONES: LotCartes[] = [
       {
         etranger: "Suéltame el brazo.",
         francais: "Lâche-moi le bras.",
-        note: "Soltar, lâcher. L'impératif soltar + pronom soude les deux mots.",
+        note: "Soltar, lâcher. Le pronom se soude à l'impératif et force l'accent écrit : suelta + me → suéltame.",
       },
       {
         etranger: "Me tendió el expediente.",
@@ -516,8 +528,8 @@ export const ESPAGNOL_SENSACIONES: LotCartes[] = [
       },
       {
         etranger: "No se te caiga.",
-        francais: "Ne le fais pas tomber.",
-        note: "Caérsele algo a alguien : la construction dit que c'est involontaire.",
+        francais: "Ne va pas le laisser tomber.",
+        note: "Caérsele algo a alguien dit la maladresse ; no lo tires dirait le geste voulu.",
       },
       {
         etranger: "Empujó la caja a un lado.",

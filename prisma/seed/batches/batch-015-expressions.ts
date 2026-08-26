@@ -155,7 +155,7 @@ export const BATCH_015: ContentBatch = {
         { marked: "Il a donné le [changement] pendant plusieurs semaines.", fix: "change" },
         { marked: "Pendant des mois, elle a donné les [changes] à tous.", fix: "change" },
         { marked: "Impossible de donner le [changement] plus longtemps.", fix: "change" },
-        { marked: "À leurs concurrents directs, ils ont donné le [changer].", fix: "change" },
+        { marked: "Ils ont donné le [changer] à leurs concurrents directs pendant des mois.", fix: "change" },
         { marked: "Il a donné le change jusqu'à la dernière minute.", fix: null },
       ],
     },
@@ -179,7 +179,7 @@ export const BATCH_015: ContentBatch = {
       category: "Vocabulaire",
       title: "être de mise",
       statement: "<b>être de mise</b> signifie être convenable, approprié. La locution est invariable.",
-      tip: "Ni « de mises » ni « de mie » : la mise est ce qu'on met sur la table.",
+      tip: "Ni « de mises » ni « de mie » : l'expression vient de la monnaie « de mise », c'est-à-dire ayant cours.",
       difficulty: 3,
       sentences: [
         { marked: "La discrétion est de [mises] dans ce genre d'affaire.", fix: "mise" },
@@ -269,7 +269,7 @@ export const BATCH_015: ContentBatch = {
       category: "Vocabulaire",
       title: "à bon escient",
       statement: "<b>à bon escient</b> signifie à propos, en connaissance de cause. Le mot vient du latin scire, savoir.",
-      tip: "Escient garde son s muet, comme science dont il est cousin.",
+      tip: "Dans le groupe sc d'escient, comme dans science, c'est le c qui ne s'entend pas — le s, lui, se prononce.",
       difficulty: 3,
       sentences: [
         { marked: "Il emploie ce terme à bon [essient] dans son rapport.", fix: "escient" },
@@ -379,7 +379,7 @@ export const BATCH_015: ContentBatch = {
       sentences: [
         { marked: "Il a tenu [têtes] à toute la direction pendant des mois.", fix: "tête" },
         { marked: "Elle sait tenir [têtes] à ses interlocuteurs les plus durs.", fix: "tête" },
-        { marked: "Ils ont tenu [têtes] aux pressions les plus fortes.", fix: "tête" },
+        { marked: "Ils tiendront [têtes] aux pressions les plus fortes, quoi qu'il arrive.", fix: "tête" },
         { marked: "Personne n'osait lui tenir [têtes] pendant les réunions.", fix: "tête" },
         { marked: "Il a tenu tête à son supérieur sans jamais hausser le ton.", fix: null },
       ],

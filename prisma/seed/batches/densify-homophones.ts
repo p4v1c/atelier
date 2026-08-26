@@ -43,7 +43,7 @@ export const DENSIFY_HOMOPHONES: ContentBatch = {
     ]},
     { ruleSlug: "ni-ny", sentences: [
       { marked: "Elle n'a [n'y] le temps ni l'envie de recommencer.", fix: "ni" },
-      { marked: "Ce dossier est vide : il [ni] manque pourtant rien.", fix: "n'y" },
+      { marked: "Ce dossier est complet : il [ni] manque pourtant rien.", fix: "n'y" },
     ]},
     { ruleSlug: "si-sy", sentences: [
       { marked: "Le chat a trouvé un carton et [si] est installé.", fix: "s'y" },
@@ -224,7 +224,7 @@ export const DENSIFY_HOMOPHONES: ContentBatch = {
     ]},
     { ruleSlug: "aussitot", sentences: [
       { marked: "Jamais je ne me suis levé [aussitôt] qu'aujourd'hui.", fix: "aussi tôt" },
-      { marked: "Nous partirons [aussitôt] que possible demain matin.", fix: "aussi tôt" },
+      { marked: "Nous partirons [aussitôt] que son collègue, à la même heure.", fix: "aussi tôt" },
       { marked: "Elle est arrivée [aussitôt] que son frère hier soir.", fix: "aussi tôt" },
     ]},
     { ruleSlug: "sitot", sentences: [

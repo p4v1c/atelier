@@ -25,7 +25,7 @@ export const ESPAGNOL_VOCABULAIRE_IDEAS: LotCartes[] = [
         {
           titre: "Les papiers et les comptes",
           texte:
-            "La cuenta a deux sens qu'il faut tenir ensemble : l'addition au restaurant et le compte en banque. Le contexte tranche sans peine, mais le mot revient constamment.\n\nLa factura est la facture — d'électricité, d'entreprise, de téléphone. El recibo est le reçu ou la quittance ; el tique ou el ticket, le ticket de caisse. El presupuesto est le devis en Espagne, la cotización en Amérique latine.\n\nCôté banque : la cuenta corriente est le compte courant, la cuenta de ahorro le compte d'épargne. Une transferencia est un virement ; una domiciliación, un prélèvement automatique ; un ingreso, un versement ; un reintegro, un retrait.\n\nÊtre à découvert se dit estar en números rojos — littéralement « être dans les chiffres rouges » — ou tener la cuenta en descubierto, plus technique.\n\nPour l'emprunt : un préstamo est un prêt, una hipoteca un prêt immobilier, los intereses les intérêts, el plazo l'échéance et la mensualité. Et amortizar veut dire rembourser un capital, pas amortir au sens comptable français.",
+            "La cuenta a deux sens qu'il faut tenir ensemble : l'addition au restaurant et le compte en banque. Le contexte tranche sans peine, mais le mot revient constamment.\n\nLa factura est la facture — d'électricité, d'entreprise, de téléphone. El recibo est le reçu ou la quittance ; el tique ou el ticket, le ticket de caisse. El presupuesto est le devis en Espagne, la cotización en Amérique latine.\n\nCôté banque : la cuenta corriente est le compte courant, la cuenta de ahorro le compte d'épargne. Une transferencia est un virement ; una domiciliación, un prélèvement automatique ; un ingreso, un versement ; un reintegro, un retrait.\n\nÊtre à découvert se dit estar en números rojos — littéralement « être dans les chiffres rouges » — ou tener la cuenta en descubierto, plus technique.\n\nPour l'emprunt : un préstamo est un prêt, una hipoteca un prêt immobilier, los intereses les intérêts, el plazo l'échéance et la mensualité. Et amortizar veut dire rembourser un capital — et aussi amortir au sens comptable, comme en français.",
           visuels: [
             {
               type: "tableau",
@@ -57,19 +57,15 @@ export const ESPAGNOL_VOCABULAIRE_IDEAS: LotCartes[] = [
                 {
                   titre: "Ce qu'un francophone croit",
                   points: [
-                    "el sueldo → le sou",
                     "la renta → la rente",
                     "el salario → le salaire (juste)",
-                    "la nómina → le nom",
                   ],
                 },
                 {
                   titre: "Ce que ça veut dire",
                   points: [
-                    "el sueldo → le salaire",
                     "la renta → le revenu, ou le loyer en Amérique",
                     "el salario → le salaire, registre plus formel",
-                    "la nómina → la fiche de paie",
                   ],
                 },
               ],
@@ -79,7 +75,7 @@ export const ESPAGNOL_VOCABULAIRE_IDEAS: LotCartes[] = [
         {
           titre: "Dire un prix, et négocier",
           texte:
-            "Trois habitudes suffisent pour parler d'argent naturellement.\n\nLa première : la monnaie se place après le chiffre, et se prononce entièrement. Veinte euros, tres mil pesos, quinientas coronas. Les décimales se lisent avec con : tres euros con cincuenta, ou plus simplement tres cincuenta.\n\nLa deuxième : les expressions de la dépense. Salir caro, revenir cher ; estar por las nubes, être hors de prix ; costar un ojo de la cara, coûter les yeux de la tête — l'image est presque la même qu'en français ; estar tirado, ne rien coûter ; una ganga, une bonne affaire.\n\nLa troisième : les formules du marchandage, courantes sur un marché latino-américain et rares en Espagne. ¿Me hace un descuento ?, ¿cuál es su último precio ?, ¿me lo deja en…? Le verbe dejar y sert de « faire un prix ».\n\nEt une nuance à connaître : barato dit d'abord le prix bas, mais glisse facilement vers la piètre qualité, comme « bon marché » en français. Económico ne dit que le prix ; de mala calidad, ou familièrement cutre en Espagne, ne disent que la qualité.",
+            "Trois habitudes suffisent pour parler d'argent naturellement.\n\nLa première : la monnaie se place après le chiffre, et se prononce entièrement. Veinte euros, tres mil pesos, quinientas coronas. Les décimales se lisent avec con : tres euros con cincuenta, ou plus simplement tres cincuenta.\n\nLa deuxième : les expressions de la dépense. Salir caro, revenir cher ; estar por las nubes, être hors de prix ; costar un ojo de la cara, coûter les yeux de la tête — l'image est presque la même qu'en français ; estar tirado, être donné, coûter trois fois rien ; una ganga, une bonne affaire.\n\nLa troisième : les formules du marchandage, courantes sur un marché latino-américain et rares en Espagne. ¿Me hace un descuento?, ¿cuál es su último precio?, ¿me lo deja en…? Le verbe dejar y sert de « faire un prix ».\n\nEt une nuance à connaître : barato dit d'abord le prix bas, mais glisse facilement vers la piètre qualité, comme « bon marché » en français. Económico ne dit que le prix ; de mala calidad, ou familièrement cutre en Espagne, ne disent que la qualité.",
         },
       ],
     },
@@ -117,7 +113,7 @@ export const ESPAGNOL_VOCABULAIRE_IDEAS: LotCartes[] = [
       {
         etranger: "Los pisos están por las nubes.",
         francais: "Les appartements sont hors de prix.",
-        note: "Estar por las nubes, être dans les nuages : l'image du prix qui monte.",
+        note: "Estar por las nubes se dit des prix : littéralement « être dans les nuages », au sens de « monté très haut ». À ne pas confondre avec estar EN las nubes, être dans la lune.",
       },
       {
         etranger: "Pagué cien euros por esa silla.",
@@ -207,7 +203,7 @@ export const ESPAGNOL_VOCABULAIRE_IDEAS: LotCartes[] = [
         {
           titre: "Sécurité et vie privée",
           texte:
-            "C'est le champ où la précision compte le plus, et où l'espagnol a forgé ses propres mots.\n\nLa contraseña est le mot de passe ; la clave, la clé ou le code — les deux s'emploient. La autenticación en dos pasos ou de doble factor est l'authentification à deux facteurs.\n\nUna filtración de datos est une fuite de données ; una brecha de seguridad, une faille. El hackeo est le piratage, et hackear le verbe — préférés aujourd'hui à pirateo, qui évoque plutôt la contrefaçon.\n\nEl phishing garde son nom anglais, parfois traduit par suplantación de identidad. El programa malicioso ou el malware ; el secuestro de datos ou el ransomware ; el programa espía, le logiciel espion.\n\nEl cifrado est le chiffrement ; cifrar, chiffrer. Attention : encriptar existe et s'emploie, mais les puristes lui préfèrent cifrar.\n\nEnfin la vie privée. La privacidad est la confidentialité au sens des données ; la intimidad, la vie privée au sens personnel. Le RGPD s'y appelle el RGPD, et la loi espagnole la LOPD.",
+            "C'est le champ où la précision compte le plus, et où l'espagnol a forgé ses propres mots.\n\nLa contraseña est le mot de passe ; la clave, la clé ou le code — les deux s'emploient. La autenticación en dos pasos ou de doble factor est l'authentification à deux facteurs.\n\nUna filtración de datos est une fuite de données ; una brecha de seguridad, une faille. El hackeo est le piratage, et hackear le verbe — préférés aujourd'hui à pirateo, qui évoque plutôt la contrefaçon.\n\nEl phishing garde son nom anglais, parfois traduit par suplantación de identidad. El programa malicioso ou el malware ; el secuestro de datos ou el ransomware ; el programa espía, le logiciel espion.\n\nEl cifrado est le chiffrement ; cifrar, chiffrer. Attention : encriptar existe et s'emploie, mais les puristes lui préfèrent cifrar.\n\nEnfin la vie privée. La privacidad est la confidentialité au sens des données ; la intimidad, la vie privée au sens personnel. Le RGPD s'y appelle el RGPD, et la loi espagnole la LOPDGDD, souvent abrégée LOPD dans l'usage courant.",
         },
       ],
     },
@@ -335,7 +331,7 @@ export const ESPAGNOL_VOCABULAIRE_IDEAS: LotCartes[] = [
         {
           titre: "L'intensité, et les faux amis du caractère",
           texte:
-            "L'espagnol renforce ses adjectifs par le suffixe -ísimo, plus vivant que muy dans la langue parlée : buenísimo, carísimo, facilísimo, guapísima. La construction est régulière, avec quelques ajustements orthographiques — rico donne riquísimo, largo donne larguísimo, feliz donne felicísimo.\n\nPour les adjectifs déjà extrêmes, muy est exclu comme en anglais : on ne dit pas « muy horrible » ni « muy estupendo ». On emploie absolutamente, verdaderamente, ou l'on s'en tient à l'adjectif seul.\n\nDeux faux amis reviennent constamment. Sensible veut dire sensible au sens émotionnel ; raisonnable se dit sensato — exactement l'inverse de l'anglais sensible, ce qui produit des allers-retours cocasses chez qui pratique les deux langues.\n\nSimpático veut dire sympathique, et compatissant se dit comprensivo ou compasivo. Là, c'est l'anglais qui fait exception : sympathetic n'est pas simpático.\n\nEnfin, deux mots utiles sans équivalent français simple. Majo, en Espagne, décrit quelqu'un d'agréable et de chaleureux. Y ser un pesado veut dire être lourd, insistant — l'un des reproches les plus courants de la langue parlée.",
+            "L'espagnol renforce ses adjectifs par le suffixe -ísimo, plus vivant que muy dans la langue parlée : buenísimo, carísimo, facilísimo, guapísima. La construction est régulière, avec quelques ajustements orthographiques — rico donne riquísimo, largo donne larguísimo, feliz donne felicísimo.\n\nPour les adjectifs déjà extrêmes, muy est superflu et sonne redondant : on préfère absolutamente horrible, verdaderamente estupendo, ou l'adjectif seul.\n\nDeux faux amis reviennent constamment. Sensible veut dire sensible au sens émotionnel ; raisonnable se dit sensato — exactement l'inverse de l'anglais sensible, ce qui produit des allers-retours cocasses chez qui pratique les deux langues.\n\nSimpático veut dire sympathique, et compatissant se dit comprensivo ou compasivo. Là, c'est l'anglais qui fait exception : sympathetic n'est pas simpático.\n\nEnfin, deux mots utiles sans équivalent français simple. Majo, en Espagne, décrit quelqu'un d'agréable et de chaleureux. Y ser un pesado veut dire être lourd, insistant — l'un des reproches les plus courants de la langue parlée.",
         },
       ],
     },
@@ -475,7 +471,8 @@ export const ESPAGNOL_VOCABULAIRE_IDEAS: LotCartes[] = [
       },
       {
         etranger: "Le dieron el alta esta mañana.",
-        francais: "On lui a donné son bulletin de sortie ce matin.",
+        francais: "Il a eu son bon de sortie ce matin.",
+        aussi: ["Il est sorti de l'hôpital ce matin."],
         note: "El alta est féminin malgré l'article masculin : le a tonique impose el.",
       },
       {
@@ -491,7 +488,7 @@ export const ESPAGNOL_VOCABULAIRE_IDEAS: LotCartes[] = [
       {
         etranger: "Fue una intoxicación alimentaria.",
         francais: "C'était une intoxication alimentaire.",
-        note: "Ici l'espagnol suit le français, contrairement à l'anglais, qui dit food poisoning.",
+        note: "Intoxicación se construit avec por : intoxicación por alimentos en mal estado. Dans la conversation, on dit plutôt me sentó mal la comida.",
       },
       {
         etranger: "El cardiólogo pidió más pruebas.",
@@ -523,7 +520,7 @@ export const ESPAGNOL_VOCABULAIRE_IDEAS: LotCartes[] = [
         {
           titre: "Le vocabulaire électoral",
           texte:
-            "Les élections ont un lexique dense et régulier, presque identique d'un pays à l'autre.\n\nLas elecciones, les élections ; los comicios, terme journalistique plus soutenu. La campaña, la campagne ; el candidato, le candidat ; la papeleta, le bulletin de vote ; la urna, l'urne ; el colegio electoral, le bureau de vote — noter que colegio ne veut pas dire collège ici.\n\nVotar a alguien, voter pour quelqu'un — la préposition est a, jamais por en Espagne, alors que votar por s'entend en Amérique latine.\n\nLa participación, le taux de participation ; la abstención, l'abstention ; el escrutinio, le dépouillement ; el recuento, le décompte ; los escaños, les sièges au parlement.\n\nUne majorité est mayoría absoluta ou mayoría simple ; une coalition, una coalición ; un remaniement, una remodelación ; une motion de censure, una moción de censura — outil central de la vie politique espagnole.\n\nEnfin, deux mots que le français n'a pas : el sondeo a pie de urna, le sondage sortie des urnes, et el pucherazo, la fraude électorale — mot familier et imagé.",
+            "Les élections ont un lexique dense et régulier, presque identique d'un pays à l'autre.\n\nLas elecciones, les élections ; los comicios, terme journalistique plus soutenu. La campaña, la campagne ; el candidato, le candidat ; la papeleta, le bulletin de vote ; la urna, l'urne ; el colegio electoral, le bureau de vote — noter que colegio ne veut pas dire collège ici.\n\nVotar a alguien, voter pour quelqu'un — c'est la construction la plus fréquente en Espagne ; votar por s'entend surtout en Amérique latine, mais les deux sont corrects partout.\n\nLa participación, le taux de participation ; la abstención, l'abstention ; el escrutinio, le dépouillement ; el recuento, le décompte ; los escaños, les sièges au parlement.\n\nUne majorité est mayoría absoluta ou mayoría simple ; une coalition, una coalición ; un remaniement, una remodelación ; une motion de censure, una moción de censura — outil central de la vie politique espagnole.\n\nEnfin, deux mots que le français n'a pas : el sondeo a pie de urna, le sondage sortie des urnes, et el pucherazo, la fraude électorale — mot familier et imagé.",
           visuels: [
             {
               type: "tableau",
@@ -622,14 +619,14 @@ export const ESPAGNOL_VOCABULAIRE_IDEAS: LotCartes[] = [
         note: "Suponer veut dire impliquer autant que supposer.",
       },
       {
-        etranger: "Niego que eso sea cierto.",
-        francais: "Je nie que ce soit vrai.",
-        note: "Negar que appelle le subjonctif : sea, jamais es.",
+        etranger: "El sondeo a pie de urna acertó esta vez.",
+        francais: "Le sondage sortie des urnes a vu juste, cette fois.",
+        note: "El sondeo a pie de urna, réalisé à la sortie du bureau de vote — mot que le français n'a pas.",
       },
       {
-        etranger: "Cabe señalar que el texto cambió.",
-        francais: "Il convient de noter que le texte a changé.",
-        note: "Cabe señalar que : la formule de nuance de l'écrit soutenu.",
+        etranger: "La despoblación golpea a la España vaciada.",
+        francais: "La désertification rurale frappe l'Espagne dépeuplée.",
+        note: "La España vaciada, expression consacrée pour l'Espagne intérieure en déclin démographique.",
       },
     ],
   },

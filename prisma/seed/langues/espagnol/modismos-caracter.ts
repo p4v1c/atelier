@@ -75,6 +75,11 @@ export const ESPAGNOL_MODISMOS_CARACTER: LotCartes[] = [
         francais: "Elle me l'a dit à l'oreille.",
         note: "Al oído, à l'oreille. Susurrar al oído se dit aussi.",
       },
+      {
+        etranger: "Le espetó que se callara de una vez.",
+        francais: "Il lui a lancé sèchement de se taire.",
+        note: "Espetar, la réplique cinglante en un mot — souvent suivi de que + subjonctif.",
+      },
     ],
   },
 
@@ -97,14 +102,14 @@ export const ESPAGNOL_MODISMOS_CARACTER: LotCartes[] = [
         note: "Campechano, sans façon malgré son rang. Toujours un compliment.",
       },
       {
-        etranger: "Tiene los pies en la tierra.",
-        francais: "Il a les pieds sur terre.",
-        note: "L'image est identique dans les deux langues, ce qui est rare.",
+        etranger: "Es un cabezota.",
+        francais: "Il est très têtu.",
+        note: "Cabezota, littéralement grosse tête : l'entêtement personnifié.",
       },
       {
-        etranger: "Qué detalle has tenido.",
-        francais: "C'est attentionné de ta part.",
-        note: "Tener un detalle, avoir une attention. Detallista décrit celui qui en a souvent.",
+        etranger: "Es un chico muy entrañable.",
+        francais: "C'est un garçon très attachant.",
+        note: "Entrañable, qui inspire une affection profonde — plus chaleureux que simplement sympathique.",
       },
       {
         etranger: "Puede ser un poco pesado.",
@@ -113,9 +118,9 @@ export const ESPAGNOL_MODISMOS_CARACTER: LotCartes[] = [
         note: "Pesado d'une personne : celui dont on se lasse. Le sens physique ne s'applique pas.",
       },
       {
-        etranger: "Sabe escuchar.",
-        francais: "Elle sait écouter.",
-        note: "Saber + infinitif dit une qualité acquise, pas une simple capacité.",
+        etranger: "Es un poco seco con la gente.",
+        francais: "Il est un peu sec avec les gens.",
+        note: "Seco d'une personne, distant et peu expansif — pas le sens physique de sec.",
       },
       {
         etranger: "Está muy apegado a sus costumbres.",
@@ -136,13 +141,12 @@ export const ESPAGNOL_MODISMOS_CARACTER: LotCartes[] = [
       {
         etranger: "Son una familia muy unida.",
         francais: "C'est une famille très soudée.",
-        note: "Unido, uni. L'espagnol n'a pas d'image de tricot comme l'anglais.",
+        note: "Unido, uni : une famille, un couple, une équipe. L'inverse est desunido.",
       },
       {
-        etranger: "Tiene mucho morro.",
-        francais: "Il a un sacré culot.",
-        aussi: ["Il ne manque pas de toupet."],
-        note: "Tener morro, familier et très espagnol. Selon le ton, admiration ou reproche.",
+        etranger: "Es muy echada para adelante.",
+        francais: "Elle est très entreprenante.",
+        note: "Echado/a para adelante, qui va de l'avant sans hésiter.",
       },
     ],
   },
@@ -173,7 +177,7 @@ export const ESPAGNOL_MODISMOS_CARACTER: LotCartes[] = [
       {
         etranger: "Es una idea a medio cocer.",
         francais: "C'est une idée mal ficelée.",
-        note: "A medio cocer, à moitié cuite. L'image culinaire est la même qu'en anglais.",
+        note: "A medio cocer, à moitié cuite. La série est productive : a medio hacer, a medio camino, a medias.",
       },
       {
         etranger: "El argumento es irrefutable.",
@@ -248,9 +252,9 @@ export const ESPAGNOL_MODISMOS_CARACTER: LotCartes[] = [
         note: "Un planteamiento, la manière dont on pose une question. Sans équivalent français simple.",
       },
       {
-        etranger: "Hay un corpus creciente de trabajos.",
-        francais: "Les travaux se multiplient.",
-        note: "Un corpus de trabajos, un ensemble constitué. Le mot est latin et invariable.",
+        etranger: "La literatura sobre el tema no deja de crecer.",
+        francais: "Les travaux sur le sujet se multiplient.",
+        note: "La literatura, au singulier, désigne l'ensemble des travaux publiés sur un sujet — pas la littérature au sens artistique.",
       },
       {
         etranger: "El meollo del asunto es simple.",
@@ -272,12 +276,12 @@ export const ESPAGNOL_MODISMOS_CARACTER: LotCartes[] = [
       {
         etranger: "La premisa es cuestionable.",
         francais: "Le postulat est discutable.",
-        note: "Una premisa, une prémisse. Un local se dit un local : pas de faux ami ici.",
+        note: "Una premisa, une prémisse. Partir de una premisa falsa est la collocation usuelle.",
       },
       {
         etranger: "Es cuestión de énfasis.",
-        francais: "C'est une question d'accent mis sur les choses.",
-        aussi: ["C'est affaire de priorité."],
+        francais: "C'est une question d'accent.",
+        aussi: ["C'est affaire de priorité.", "Tout est dans ce qu'on met en avant."],
         note: "El énfasis, l'insistance. Poner énfasis en, mettre l'accent sur.",
       },
     ],
@@ -303,7 +307,7 @@ export const ESPAGNOL_MODISMOS_CARACTER: LotCartes[] = [
       {
         etranger: "Se echó atrás en el último momento.",
         francais: "Il s'est dégonflé au dernier moment.",
-        note: "Echarse atrás, renoncer. L'espagnol emploie le corps entier là où l'anglais met les pieds.",
+        note: "Echarse atrás, renoncer, reculer devant un engagement pris.",
       },
       {
         etranger: "Le tiene manía desde entonces.",
@@ -313,7 +317,7 @@ export const ESPAGNOL_MODISMOS_CARACTER: LotCartes[] = [
       {
         etranger: "Le costó un riñón.",
         francais: "Ça lui a coûté les yeux de la tête.",
-        note: "Un riñón, un rein. Le français choisit les yeux, l'espagnol un organe interne.",
+        note: "Costar un riñón, familier ; costar un ojo de la cara existe aussi et calque le français.",
       },
       {
         etranger: "Me está tomando el pelo.",
@@ -326,9 +330,9 @@ export const ESPAGNOL_MODISMOS_CARACTER: LotCartes[] = [
         note: "Echar una mano, la même image qu'en français avec un autre verbe.",
       },
       {
-        etranger: "Lo digo de memoria.",
-        francais: "Je le dis de mémoire, sans vérifier.",
-        note: "De memoria, de mémoire. La formule prévient qu'on ne garantit rien.",
+        etranger: "Tiene los pies en la tierra.",
+        francais: "Il a les pieds sur terre.",
+        note: "L'image est identique dans les deux langues, ce qui est rare.",
       },
       {
         etranger: "Hizo la vista gorda.",
@@ -336,9 +340,10 @@ export const ESPAGNOL_MODISMOS_CARACTER: LotCartes[] = [
         note: "Hacer la vista gorda, ignorer volontairement. L'image est celle du regard épaissi.",
       },
       {
-        etranger: "Es goloso desde pequeño.",
-        francais: "Il est gourmand de sucré depuis tout petit.",
-        note: "Goloso, qui aime le sucré. Le français n'a pas d'adjectif aussi précis.",
+        etranger: "Tiene mucho morro.",
+        francais: "Il a un sacré culot.",
+        aussi: ["Il ne manque pas de toupet."],
+        note: "Tener morro, littéralement avoir du museau. Familier et très espagnol.",
       },
       {
         etranger: "No dio su brazo a torcer.",
@@ -369,12 +374,12 @@ export const ESPAGNOL_MODISMOS_CARACTER: LotCartes[] = [
         etranger: "Es un gallina.",
         francais: "C'est un dégonflé.",
         aussi: ["C'est une poule mouillée."],
-        note: "Un gallina, une poule au sens de lâche. Le mot reste masculin pour un homme.",
+        note: "Un gallina : le nom reste féminin, seul l'article s'accorde à la personne désignée.",
       },
       {
-        etranger: "Lo sé de buena tinta.",
-        francais: "Je le tiens de source sûre.",
-        note: "De buena tinta, de bonne encre. L'espagnol quitte l'animal pour l'écriture.",
+        etranger: "Tiene vista de lince.",
+        francais: "Il a des yeux de lynx.",
+        note: "Vista de lince, une vue perçante — l'un des rares idiotismes animaliers qui se traduit presque mot pour mot.",
       },
       {
         etranger: "No vendas la piel del oso.",
@@ -392,9 +397,9 @@ export const ESPAGNOL_MODISMOS_CARACTER: LotCartes[] = [
         note: "Une des rares images communes. L'espagnol met la brebis au féminin.",
       },
       {
-        etranger: "Eso es una cortina de humo.",
-        francais: "C'est un écran de fumée.",
-        note: "Una cortina de humo, ce qui détourne l'attention. L'espagnol quitte l'animal.",
+        etranger: "Aquí hay gato encerrado.",
+        francais: "Il y a anguille sous roche.",
+        note: "Gato encerrado, littéralement un chat enfermé : quelque chose qu'on cache.",
       },
       {
         etranger: "Se adaptó como pez en el agua.",
@@ -402,14 +407,14 @@ export const ESPAGNOL_MODISMOS_CARACTER: LotCartes[] = [
         note: "Como pez en el agua, l'aisance immédiate. Sans article devant pez.",
       },
       {
-        etranger: "Para el carro.",
-        francais: "Doucement, pas si vite.",
-        note: "Parar el carro, arrêter la charrette. L'espagnol emploie le véhicule, l'anglais les chevaux.",
+        etranger: "Está como una cabra.",
+        francais: "Il est complètement fou.",
+        note: "Estar como una cabra, être fou — familier et très courant.",
       },
       {
-        etranger: "Están lloviendo chuzos de punta.",
-        francais: "Il pleut des cordes.",
-        note: "Chuzos de punta, des piques pointe en bas. L'expression est très espagnole.",
+        etranger: "Mataron dos pájaros de un tiro.",
+        francais: "Ils ont fait d'une pierre deux coups.",
+        note: "Matar dos pájaros de un tiro, littéralement tuer deux oiseaux d'un coup : l'animal change d'une langue à l'autre.",
       },
     ],
   },
@@ -429,7 +434,8 @@ export const ESPAGNOL_MODISMOS_CARACTER: LotCartes[] = [
       {
         etranger: "Salimos justo a mano.",
         francais: "Nous rentrons tout juste dans nos frais.",
-        note: "Salir a mano, être à l'équilibre. El punto de equilibrio est le seuil de rentabilité.",
+        aussiEtranger: ["Salimos justo en tablas."],
+        note: "Salir a mano, être à l'équilibre — Argentine et Uruguay. En Espagne : salir en tablas, cubrir gastos.",
       },
       {
         etranger: "Todos se están apretando el cinturón.",
@@ -444,7 +450,7 @@ export const ESPAGNOL_MODISMOS_CARACTER: LotCartes[] = [
       {
         etranger: "Están intentando ganar tiempo.",
         francais: "Ils cherchent à gagner du temps.",
-        note: "Ganar tiempo, comme en français. L'anglais achète là où les deux gagnent.",
+        note: "Ganar tiempo, littéralement gagner du temps, exactement comme en français.",
       },
       {
         etranger: "Nos estamos quedando sin tiempo.",

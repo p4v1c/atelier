@@ -24,7 +24,7 @@ export const DENSIFY_ORTHOGRAPHE: ContentBatch = {
       { marked: "Elle a répondu [savament] à chacune des questions posées.", fix: "savamment" },
     ]},
     { ruleSlug: "circonflexe", sentences: [
-      { marked: "Ces poires ne sont pas encore [mures] pour la tarte.", fix: "mûres" },
+      { marked: "Ce fruit n'est pas encore [mur] pour être cueilli.", fix: "mûr" },
       { marked: "Il n'est pas [sur] de pouvoir venir avant midi.", fix: "sûr" },
     ]},
     { ruleSlug: "connexion", sentences: [
@@ -54,9 +54,9 @@ export const DENSIFY_ORTHOGRAPHE: ContentBatch = {
       { marked: "Les [italiens] sont réputés pour leur cuisine régionale.", fix: "Italiens" },
     ]},
     { ruleSlug: "etc", sentences: [
-      { marked: "Il faut des vis, des clous, des chevilles, [etc...] rien ne manque.", fix: "etc." },
-      { marked: "Elle collectionne timbres, pièces, cartes, [etc] sans jamais trier.", fix: "etc." },
-      { marked: "On y trouve romans, essais, manuels, [ect.] et bien d'autres.", fix: "etc." },
+      { marked: "Il faut des vis, des clous, des chevilles, [etc...], rien ne manque.", fix: "etc." },
+      { marked: "Elle collectionne timbres, pièces, cartes, [etc], sans jamais trier.", fix: "etc." },
+      { marked: "On y trouve romans, essais, manuels, [ect.], dans un joyeux désordre.", fix: "etc." },
     ]},
     { ruleSlug: "cent-mille", sentences: [
       { marked: "Le stade contient trente [milles] places assises.", fix: "mille" },
@@ -74,7 +74,7 @@ export const DENSIFY_ORTHOGRAPHE: ContentBatch = {
     ]},
     { ruleSlug: "bientot", sentences: [
       { marked: "Il s'est levé [bientôt] ce matin, avant le jour.", fix: "bien tôt" },
-      { marked: "Elle est arrivée [bientôt] ce matin, avant tout le monde.", fix: "bien tôt" },
+      { marked: "Elle a fini son repas beaucoup trop [bientôt] pour en profiter.", fix: "bien tôt" },
       { marked: "Vingt ans, c'est [bientôt] pour prendre une telle décision.", fix: "bien tôt" },
     ]},
     { ruleSlug: "hyphen-nombres", sentences: [
@@ -133,7 +133,7 @@ export const DENSIFY_ORTHOGRAPHE: ContentBatch = {
       { marked: "Cette [ocurrence] du mot n'apparaît qu'une fois.", fix: "occurrence" },
     ]},
     { ruleSlug: "chariot", sentences: [
-      { marked: "Le [charriot] de supermarché grince à chaque virage.", fix: "chariot" },
+      { marked: "Le charriot de supermarché grince à chaque virage.", fix: null },
       { marked: "La [charette] est restée au fond de la grange.", fix: "charrette" },
       { marked: "Il faut réparer la [charue] avant les labours.", fix: "charrue" },
     ]},

@@ -115,7 +115,7 @@ export const ESPAGNOL_PERIFRASIS_COLOCACIONES: LotCartes[] = [
       {
         etranger: "Se fue corriendo.",
         francais: "Il est parti en courant.",
-        note: "Ir + gérondif au passé décrit la manière du départ.",
+        note: "Le gérondif de manière après un verbe de mouvement : se fue corriendo, salió corriendo, vino andando. Ce n'est pas la périphrase ir + gérondif de la carte suivante.",
       },
       {
         etranger: "Va mejorando poco a poco.",
@@ -195,7 +195,7 @@ export const ESPAGNOL_PERIFRASIS_COLOCACIONES: LotCartes[] = [
       {
         etranger: "Está por decidir.",
         francais: "Cela reste à décider.",
-        note: "Estar por + infinitif, ce qui n'est pas encore fait. Estar para dirait l'imminence.",
+        note: "Estar por + infinitif, ce qui reste à faire — en Espagne. En Amérique latine, la même tournure dit l'imminence : estoy por salir. Estar para marque l'imminence en Espagne.",
       },
       {
         etranger: "Llegó a ser director.",
@@ -237,11 +237,13 @@ export const ESPAGNOL_PERIFRASIS_COLOCACIONES: LotCartes[] = [
       {
         etranger: "Tienes toda la razón.",
         francais: "Tu as entièrement raison.",
+        aussiEtranger: ["Estás en lo cierto."],
         note: "Tener razón, avoir raison. Estar en lo cierto se dit aussi, plus formel.",
       },
       {
         etranger: "Te echo de menos.",
         francais: "Tu me manques.",
+        aussiEtranger: ["Te extraño."],
         note: "Echar de menos, regretter l'absence. En Amérique latine on dit extrañar.",
       },
       {
@@ -304,13 +306,13 @@ export const ESPAGNOL_PERIFRASIS_COLOCACIONES: LotCartes[] = [
       {
         etranger: "Se recuperó por completo.",
         francais: "Il s'est complètement rétabli.",
-        note: "Recuperarse por completo. Totalmente se dit aussi, entero jamais.",
+        note: "Recuperarse por completo. Totalmente se dit aussi.",
       },
       {
         etranger: "Se libró por los pelos.",
         francais: "Il l'a échappé belle.",
         aussi: ["C'était juste."],
-        note: "Por los pelos, littéralement par les cheveux. L'image diffère du français.",
+        note: "Por los pelos, comme le « à un cheveu près » français.",
       },
       {
         etranger: "Las pruebas son contundentes.",
@@ -340,7 +342,7 @@ export const ESPAGNOL_PERIFRASIS_COLOCACIONES: LotCartes[] = [
       {
         etranger: "Las conversaciones llegaron a un punto delicado.",
         francais: "Les négociations ont atteint un point délicat.",
-        note: "Delicado dit ici le sensible, pas le fragile. Le mot sensible existe et dit l'émotif.",
+        note: "Delicado dit ici le sensible d'un sujet, pas le fragile d'un objet.",
       },
     ],
   },
@@ -363,9 +365,9 @@ export const ESPAGNOL_PERIFRASIS_COLOCACIONES: LotCartes[] = [
         note: "Sacar una conclusión, tirer. Hacer una conclusión ne se dit pas.",
       },
       {
-        etranger: "Esto plantea una cuestión más.",
-        francais: "Cela soulève une question de plus.",
-        note: "Plantear, poser un problème. Levantar une question serait un calque de l'anglais.",
+        etranger: "El estudio pone de relieve un problema.",
+        francais: "L'étude met en lumière un problème.",
+        note: "Poner de relieve, mettre en lumière — collocation académique voisine de poner de manifiesto.",
       },
       {
         etranger: "El artículo aborda tres cuestiones.",
@@ -379,8 +381,8 @@ export const ESPAGNOL_PERIFRASIS_COLOCACIONES: LotCartes[] = [
         note: "Cumplir un criterio, satisfaire. Le verbe dit aussi tenir une promesse.",
       },
       {
-        etranger: "Llegaron a un acuerdo.",
-        francais: "Ils sont parvenus à un accord.",
+        etranger: "Llegaron a un acuerdo unánime.",
+        francais: "Ils sont parvenus à un accord unanime.",
         note: "Llegar a un acuerdo. Sacar serait fautif ici, comme llegar pour une conclusion.",
       },
       {
@@ -471,8 +473,8 @@ export const ESPAGNOL_PERIFRASIS_COLOCACIONES: LotCartes[] = [
       },
       {
         etranger: "Le dio un empujón a la puerta.",
-        francais: "Il a poussé un coup la porte.",
-        aussi: ["Il a donné une poussée à la porte."],
+        francais: "Il a poussé la porte d'un coup.",
+        aussi: ["Il a donné un coup dans la porte."],
         note: "Dar un empujón : une poussée brève, moins insistante qu'empujar.",
       },
     ],
@@ -531,10 +533,9 @@ export const ESPAGNOL_PERIFRASIS_COLOCACIONES: LotCartes[] = [
         note: "Hablar de pour un sujet récurrent. Contar supposerait un récit unique.",
       },
       {
-        etranger: "Se nota la diferencia.",
-        francais: "La différence se remarque.",
-        aussi: ["On voit la différence."],
-        note: "Notarse, se remarquer. La tournure pronominale évite de nommer qui remarque.",
+        etranger: "No dijo ni una palabra.",
+        francais: "Il n'a pas dit un mot.",
+        note: "Decir ni una palabra insiste sur le silence total.",
       },
       {
         etranger: "El informe dice lo contrario.",

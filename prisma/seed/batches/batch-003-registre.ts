@@ -128,7 +128,7 @@ export const BATCH_003: ContentBatch = {
         { marked: "Cet outil [versatile] convient à presque tous les travaux.", fix: "polyvalent" },
         { marked: "Nous cherchons un profil [versatile], capable de tout faire.", fix: "polyvalent" },
         { marked: "Une salle [versatile] permettrait d'accueillir concerts et conférences.", fix: "polyvalente" },
-        { marked: "Ce logiciel très [versatile] gère aussi bien texte que image.", fix: "polyvalent" },
+        { marked: "Ce logiciel très [versatile] gère aussi bien le texte que l'image.", fix: "polyvalent" },
         { marked: "Son humeur versatile décourage même ses plus proches amis.", fix: null },
       ],
     },
@@ -212,7 +212,7 @@ export const BATCH_003: ContentBatch = {
       category: "Registre et style",
       title: "checker ou vérifier",
       statement: "On <b>vérifie</b>, on <b>contrôle</b>, on <b>s'assure de</b> — jamais on ne « checke ».",
-      tip: "Le verbe français existe depuis huit siècles : il n'a pas besoin d'être remplacé.",
+      tip: "Le verbe français existe depuis environ sept siècles : il n'a pas besoin d'être remplacé.",
       difficulty: 1,
       sentences: [
         { marked: "Peux-tu [checker] les chiffres avant l'envoi du rapport ?", fix: "vérifier" },
@@ -286,7 +286,7 @@ export const BATCH_003: ContentBatch = {
       slug: "tic-sur-paris",
       category: "Registre et style",
       title: "à Paris, et non sur Paris",
-      statement: "On habite <b>à</b> une ville, on travaille <b>à</b> Lyon. La préposition <b>sur</b> désigne une surface, pas un lieu de vie.",
+      statement: "On habite <b>dans</b> une ville, on travaille <b>à</b> Lyon. La préposition <b>sur</b> désigne une surface, pas un lieu de vie.",
       tip: "« Sur Paris » supposerait qu'on plane au-dessus de la ville.",
       difficulty: 2,
       sentences: [
@@ -361,8 +361,8 @@ export const BATCH_003: ContentBatch = {
       slug: "impropriete-perdurer",
       category: "Registre et style",
       title: "perdurer ou persister",
-      statement: "<b>perdurer</b> signifie durer toujours ; pour ce qui dure simplement encore, on dit <b>persister</b> ou <b>se maintenir</b>.",
-      tip: "Perdurer contient « pour toujours » : c'est beaucoup pour une panne de trois jours.",
+      statement: "<b>perdurer</b> signifie proprement durer toujours ; dans un registre soigné, pour ce qui dure encore un temps limité, on préfère <b>persister</b> ou <b>se maintenir</b> (l'emploi de « perdurer » au sens large de « durer longtemps » est attesté, mais critiqué par certains puristes).",
+      tip: "Perdurer contient « pour toujours » : c'est beaucoup pour une panne de trois jours — en registre soigné, préfère persister ou se maintenir.",
       difficulty: 3,
       sentences: [
         { marked: "Si la panne [perdure], nous devrons annuler la représentation.", fix: "persiste" },
@@ -373,7 +373,7 @@ export const BATCH_003: ContentBatch = {
       ],
     },
     {
-      slug: "impropriete-avoir-lair",
+      slug: "impropriete-averer",
       category: "Registre et style",
       title: "s'avérer exact, non s'avérer vrai",
       statement: "<b>s'avérer</b> contient déjà l'idée de vrai : « s'avérer vrai » est une redondance, « s'avérer faux » une contradiction.",

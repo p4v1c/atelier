@@ -37,8 +37,8 @@ export const ESPAGNOL_GRAMATICA_C1: LotCartes[] = [
               colonnes: ["Phrase", "Mode", "Ce que ça dit"],
               lignes: [
                 ["Aunque llueve, iré.", "indicatif", "il pleut, et j'irai"],
-                ["Aunque llueva, iré.", "subjonctif", "même s'il pleuvait, j'irais"],
-                ["Busco a alguien que sabe ruso.", "indicatif", "je sais qui c'est"],
+                ["Aunque llueva, iré.", "subjonctif", "même s'il pleut, j'irai"],
+                ["Busco a la traductora que sabe ruso.", "indicatif", "je sais qui c'est"],
                 ["Busco a alguien que sepa ruso.", "subjonctif", "n'importe qui, pourvu qu'il sache"],
               ],
               note: "Dans les quatre cas la grammaire autorise les deux. Seul le sens diffère.",
@@ -48,7 +48,7 @@ export const ESPAGNOL_GRAMATICA_C1: LotCartes[] = [
         {
           titre: "La relative : connu ou cherché",
           texte:
-            "L'emploi le plus rentable du subjonctif espagnol est la relative, et le français ne le connaît pratiquement pas.\n\nLa règle tient en une phrase : si l'antécédent existe et qu'on le connaît, indicatif ; s'il est seulement souhaité ou hypothétique, subjonctif.\n\nBusco una casa que tiene jardín : cette maison-là, je l'ai vue, je la cherche. Busco una casa que tenga jardín : je cherche une maison, n'importe laquelle, du moment qu'elle ait un jardin. La seconde est de loin la plus fréquente, et un francophone dit spontanément la première.\n\nLa négation force le subjonctif, puisqu'un antécédent nié n'existe pas : No hay nadie que sepa. De même après les expressions de quantité nulle : No conozco a ninguno que lo haya leído.\n\nEnfin, cette valeur explique une tournure très espagnole : lo que sea, donde quieras, como puedas. Le subjonctif y dit l'indétermination — quoi que ce soit, où tu voudras, comme tu pourras.",
+            "L'emploi le plus rentable du subjonctif espagnol est la relative, et le français ne le connaît pratiquement pas.\n\nLa règle tient en une phrase : si l'antécédent existe et qu'on le connaît, indicatif ; s'il est seulement souhaité ou hypothétique, subjonctif.\n\nBusco la casa que tiene jardín : cette maison-là, je l'ai vue, je la cherche. Busco una casa que tenga jardín : je cherche une maison, n'importe laquelle, pourvu qu'elle ait un jardin. La seconde est de loin la plus fréquente, et un francophone dit spontanément la première.\n\nLa négation force le subjonctif, puisqu'un antécédent nié n'existe pas : No hay nadie que sepa. De même après les expressions de quantité nulle : No conozco a ninguno que lo haya leído.\n\nEnfin, cette valeur explique une tournure très espagnole : lo que sea, donde quieras, como puedas. Le subjonctif y dit l'indétermination — quoi que ce soit, où tu voudras, comme tu pourras.",
           visuels: [
             {
               type: "comparaison",
@@ -181,7 +181,7 @@ export const ESPAGNOL_GRAMATICA_C1: LotCartes[] = [
               lignes: [
                 ["Juan llegó ayer.", "ayer", "Quand Juan est-il arrivé ?"],
                 ["Ayer llegó Juan.", "Juan", "Qui est arrivé hier ?"],
-                ["Llegó Juan ayer.", "Juan puis ayer", "Que s'est-il passé ?"],
+                ["Llegó ayer Juan.", "Juan", "annonce d'un fait entier"],
               ],
               note: "Les trois sont correctes. Choisir au hasard, c'est répondre à une question qu'on n'a pas posée.",
             },
@@ -190,7 +190,7 @@ export const ESPAGNOL_GRAMATICA_C1: LotCartes[] = [
         {
           titre: "Le complément placé en tête",
           texte:
-            "L'espagnol peut placer un complément en tête de phrase, et il le fait très souvent — mais à une condition que les francophones oublient : le complément d'objet direct doit alors être repris par un pronom.\n\nEl libro lo compré ayer. Le complément el libro passe devant, et lo le reprend devant le verbe. Sans ce pronom, la phrase est fautive.\n\nCette reprise est obligatoire pour l'objet direct et indirect déplacé, et elle n'a pas d'équivalent français : « Le livre, je l'ai acheté hier » emploie bien un pronom, mais le français tolère aussi « Le livre que j'ai acheté hier » sans reprise.\n\nL'effet produit est celui d'un cadre : on annonce de quoi on va parler, puis on en parle. A María no la he visto. En ese caso, no lo sé. C'est la construction la plus économique de l'espagnol pour changer de sujet de conversation.\n\nÀ noter qu'un complément de temps ou de lieu, lui, ne demande aucune reprise : Ayer compré el libro est parfaitement correct.",
+            "L'espagnol peut placer un complément en tête de phrase, et il le fait très souvent — mais à une condition que les francophones oublient : le complément d'objet direct doit alors être repris par un pronom.\n\nEl libro lo compré ayer. Le complément el libro passe devant, et lo le reprend devant le verbe. Sans ce pronom, la phrase est fautive.\n\nCette reprise est obligatoire pour l'objet direct et indirect déplacé, et elle n'a pas d'équivalent français : « Le livre, je l'ai acheté hier » emploie bien un pronom.\n\nL'effet produit est celui d'un cadre : on annonce de quoi on va parler, puis on en parle. A María no la he visto. Eso no lo sabía. C'est la construction la plus économique de l'espagnol pour changer de sujet de conversation.\n\nÀ noter qu'un complément de temps ou de lieu, lui, ne demande aucune reprise : Ayer compré el libro est parfaitement correct.",
           visuels: [
             {
               type: "comparaison",
@@ -209,7 +209,7 @@ export const ESPAGNOL_GRAMATICA_C1: LotCartes[] = [
                   points: [
                     "El libro compré ayer.",
                     "A María no he visto.",
-                    "— (le complément de temps n'a pas besoin de reprise)",
+                    "—",
                   ],
                 },
               ],
@@ -229,7 +229,7 @@ export const ESPAGNOL_GRAMATICA_C1: LotCartes[] = [
                 ["un gran hombre — un grand homme", "un hombre grande — un homme de haute taille"],
                 ["un pobre hombre — un homme à plaindre", "un hombre pobre — un homme sans argent"],
                 ["un viejo amigo — un ami de longue date", "un amigo viejo — un ami âgé"],
-                ["cierta noticia — une certaine nouvelle", "una noticia cierta — une nouvelle avérée"],
+                ["una cierta noticia — une nouvelle vague, mal établie", "una noticia cierta — une nouvelle avérée"],
               ],
               note: "Postposer par défaut, antéposer à dessein : le réflexe inverse du français pour ces mots.",
             },
@@ -327,26 +327,22 @@ export const ESPAGNOL_GRAMATICA_C1: LotCartes[] = [
         {
           titre: "L'imparfait fait plus de choses qu'en français",
           texte:
-            "L'imperfecto couvre les mêmes emplois que l'imparfait français — le décor, l'habitude, la description — et deux de plus qui surprennent.\n\nIl sert à la politesse : quería preguntarte algo, je voulais te demander quelque chose. Le passé n'y a aucune valeur temporelle ; il adoucit la demande, exactement comme le conditionnel français.\n\nIl sert aussi à rapporter ce qu'on avait compris : creía que venías mañana, je croyais que tu venais demain. Ici encore, l'imparfait dit une distance, pas un moment.\n\nEnfin, il s'emploie dans les récits d'enfance et les résumés de films là où le français passerait au présent : en la película, el protagonista era un espía. L'espagnol tient l'imparfait beaucoup plus longtemps que nous.\n\nLa faute symétrique du francophone est d'employer l'imperfecto pour ce qui fait avancer le récit. Ayer llovía toute la journée ne se dit pas si l'on veut dire qu'il a plu et que c'est fini : il faut llovió.",
+            "L'imperfecto couvre les mêmes emplois que l'imparfait français — le décor, l'habitude, la description — et deux de plus qui surprennent.\n\nIl sert à la politesse : quería preguntarte algo, je voulais te demander quelque chose. Le passé n'y a aucune valeur temporelle ; il adoucit la demande, exactement comme le conditionnel français.\n\nIl sert aussi à rapporter ce qu'on avait compris : creía que venías mañana, je croyais que tu venais demain. Ici encore, l'imparfait dit une distance, pas un moment.\n\nEnfin, il s'emploie dans les récits d'enfance et les résumés de films là où le français passerait au présent : en la película, el protagonista era un espía. L'espagnol tient l'imparfait beaucoup plus longtemps que nous.\n\nLa faute symétrique du francophone est d'employer l'imperfecto pour ce qui fait avancer le récit. Ayer llovía todo el día ne se dit pas si l'on veut dire qu'il a plu et que c'est fini : il faut llovió.",
           visuels: [
             {
               type: "comparaison",
-              titre: "Deux emplois que le français ne fait pas",
+              titre: "Le résumé de film : deux temps différents",
               colonnes: [
                 {
-                  titre: "Espagnol",
+                  titre: "Espagnol : imparfait",
                   points: [
-                    "Quería preguntarte algo.",
-                    "Creía que venías mañana.",
-                    "¿Qué querías?",
+                    "En la película, el protagonista era un espía.",
                   ],
                 },
                 {
-                  titre: "Français",
+                  titre: "Français : présent",
                   points: [
-                    "Je voudrais te demander quelque chose.",
-                    "Je croyais que tu venais demain.",
-                    "Tu voulais quoi ?",
+                    "Dans le film, le personnage principal est un espion.",
                   ],
                 },
               ],
@@ -356,7 +352,7 @@ export const ESPAGNOL_GRAMATICA_C1: LotCartes[] = [
         {
           titre: "Le plus-que-parfait, et l'erreur d'en mettre partout",
           texte:
-            "Le pluscuamperfecto — había llegado — sert à une seule chose : signaler qu'un fait précède un moment déjà passé. Cuando llegué, ya se había ido.\n\nComme en anglais, la faute la plus répandue chez les francophones avancés est d'en mettre partout. Si les événements sont racontés dans l'ordre, l'indefinido suffit : terminó el café y se fue. Employer le plus-que-parfait ici suggérerait à tort qu'on remonte le temps.\n\nÀ l'inverse, l'omettre crée une vraie ambiguïté. Cuando llegué, se fue dit qu'elle est partie après mon arrivée ; cuando llegué, se había ido dit qu'elle était déjà partie. Les deux phrases sont correctes et racontent des histoires opposées.\n\nUn dernier point propre à l'espagnol : la concordance des temps est stricte dans le discours rapporté. Dijo que vendría, et non « dijo que vendrá ». Le français relâche volontiers cette règle à l'oral ; l'espagnol beaucoup moins, et l'écart s'entend.",
+            "Le pluscuamperfecto — había llegado — sert à une seule chose : signaler qu'un fait précède un moment déjà passé. Cuando llegué, ya se había ido.\n\nLa faute la plus répandue chez les francophones avancés est d'en mettre partout. Si les événements sont racontés dans l'ordre, l'indefinido suffit : terminó el café y se fue. Employer le plus-que-parfait ici suggérerait à tort qu'on remonte le temps.\n\nÀ l'inverse, l'omettre crée une vraie ambiguïté. Cuando llegué, se fue dit qu'elle est partie après mon arrivée ; cuando llegué, se había ido dit qu'elle était déjà partie. Les deux phrases sont correctes et racontent des histoires opposées.\n\nUn dernier point propre à l'espagnol : la concordance des temps est stricte dans le discours rapporté. Dijo que vendría, et non « dijo que vendrá ». Le français relâche volontiers cette règle à l'oral ; l'espagnol beaucoup moins, et l'écart s'entend.",
           visuels: [
             {
               type: "etapes",
@@ -457,10 +453,10 @@ export const ESPAGNOL_GRAMATICA_C1: LotCartes[] = [
         note: "Instar a alguien a algo, exhorter. Ambas partes, les deux parties.",
       },
       {
-        etranger: "Las negociaciones se rompieron por las fronteras.",
+        etranger: "Las negociaciones se rompieron por la cuestión fronteriza.",
         francais: "Les négociations ont échoué sur la question des frontières.",
         aussi: ["Les pourparlers ont achoppé sur les frontières."],
-        note: "Romperse unas negociaciones, échouer. Le pluriel est la règle dans ce sens.",
+        note: "Romperse unas negociaciones, échouer ; el escollo, l'achoppement.",
       },
       {
         etranger: "Las sanciones se levantaron en marzo.",
@@ -478,9 +474,9 @@ export const ESPAGNOL_GRAMATICA_C1: LotCartes[] = [
         note: "Reanudar, reprendre. Romper relaciones, les rompre. Estado prend une majuscule ici.",
       },
       {
-        etranger: "La votación salió adelante con tres abstenciones.",
-        francais: "Le vote a été adopté avec trois abstentions.",
-        note: "Salir adelante, être adopté. Una abstención ne compte ni pour ni contre.",
+        etranger: "La reforma salió adelante con tres abstenciones.",
+        francais: "La réforme a été adoptée avec trois abstentions.",
+        note: "Salir adelante se dit d'un texte, d'une loi — pas du vote lui-même. Una abstención ne compte ni pour ni contre.",
       },
       {
         etranger: "El acuerdo no es vinculante.",
@@ -493,9 +489,9 @@ export const ESPAGNOL_GRAMATICA_C1: LotCartes[] = [
         note: "Una cumbre, un sommet. L'absence de communiqué final dit le désaccord.",
       },
       {
-        etranger: "Pidieron al régimen que dimitiera.",
-        francais: "Ils ont demandé au régime de démissionner.",
-        note: "Pedir que + subjonctif. Dimitir, démissionner d'une fonction publique.",
+        etranger: "Pidieron la dimisión del Gobierno.",
+        francais: "Ils ont demandé la démission du gouvernement.",
+        note: "Pedir la dimisión de alguien, réclamer sa démission. Dimitir se dit d'une personne, jamais d'un régime.",
       },
     ],
   },
@@ -653,14 +649,14 @@ export const ESPAGNOL_GRAMATICA_C1: LotCartes[] = [
         note: "Conseguir est neutre et convient partout. Obtener, ici, sonnerait administratif.",
       },
       {
-        etranger: "La empresa adquirió tres competidores.",
-        francais: "L'entreprise a racheté trois concurrents.",
-        note: "Adquirir dit la prise de contrôle, pas le simple achat. Le mot juste, pas un mot savant.",
+        etranger: "Logró terminar el proyecto a tiempo.",
+        francais: "Il a réussi à terminer le projet à temps.",
+        note: "Lograr souligne l'effort fourni pour obtenir le résultat, à la différence de conseguir, neutre.",
       },
       {
-        etranger: "Adjunto el informe solicitado.",
-        francais: "Veuillez trouver ci-joint le rapport demandé.",
-        note: "Formule figée du courriel professionnel. Te paso el informe est la version entre collègues.",
+        etranger: "Necesita obtener un permiso especial.",
+        francais: "Il doit obtenir une autorisation spéciale.",
+        note: "Obtener sonne administratif : le mot des formulaires et des démarches.",
       },
       {
         etranger: "La decisión se revocó posteriormente.",
@@ -689,9 +685,9 @@ export const ESPAGNOL_GRAMATICA_C1: LotCartes[] = [
         note: "Tramitar, traiter un dossier administratif. Un trámite, une démarche.",
       },
       {
-        etranger: "No es para tanto.",
-        francais: "Ce n'est pas si grave.",
-        note: "Familier. Dans une note écrite, on écrirait no reviste especial gravedad.",
+        etranger: "La empresa alcanzó los objetivos previstos.",
+        francais: "L'entreprise a atteint les objectifs prévus.",
+        note: "Alcanzar suppose une cible fixée d'avance, souvent chiffrée.",
       },
       {
         etranger: "Se ruega abstenerse de fumar.",
@@ -728,7 +724,7 @@ export const ESPAGNOL_GRAMATICA_C1: LotCartes[] = [
       {
         etranger: "Le dijo a su hermano que su coche estaba roto.",
         francais: "Il a dit à son frère que sa voiture était en panne.",
-        note: "Su renvoie à l'un ou à l'autre. Pour lever le doute : el coche de este dernier.",
+        note: "Su renvoie à l'un ou à l'autre. Pour lever le doute : el coche de este, la voiture de ce dernier.",
       },
       {
         etranger: "Solo la vi el martes.",

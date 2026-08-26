@@ -78,7 +78,7 @@ export const ESPAGNOL_VOCABULAIRE_OFICIOS: LotCartes[] = [
         {
           titre: "Candidater, et les faux amis du bureau",
           texte:
-            "La candidature a ses verbes, et aucun ne calque l'anglais ni le français.\n\nSolicitar un puesto, postuler — le verbe standard. Presentarse a una oferta. Echar el currículum, familier et très employé en Espagne. Et postularse a, surtout en Amérique latine.\n\nEnsuite : una entrevista, l'entretien — jamais « un entretien », qui se dirait mantenimiento et désigne la maintenance. Ser preseleccionado, être retenu. Contratar a alguien, embaucher.\n\nLes faux amis sont nombreux. Una carpeta est un dossier ou une chemise, pas un tapis. Un compromiso est un engagement, pas un compromis — celui-ci se dit un acuerdo ou una concesión. Realizar veut dire effectuer, pas se réaliser. Asistir a veut dire assister à, mais asistir a alguien veut dire l'assister au sens d'aider : le a change tout.\n\nEt deux mots trompent complètement. Actualmente veut dire actuellement — celui-là est juste — mais eventualmente veut dire occasionnellement ou le cas échéant, jamais éventuellement au sens de « peut-être », qui se dit posiblemente. Le sens « finalement » est celui de l'anglais eventually, pas de l'espagnol.",
+            "La candidature a ses verbes, et aucun ne calque l'anglais ni le français.\n\nSolicitar un puesto, postuler — le verbe standard. Presentarse a una oferta. Echar el currículum, familier et très employé en Espagne. Et postularse a, surtout en Amérique latine.\n\nEnsuite : una entrevista, l'entretien — jamais « un entretien », qui se dirait mantenimiento et désigne la maintenance. Ser preseleccionado, être retenu. Contratar a alguien, embaucher.\n\nLes faux amis sont nombreux. Una carpeta est un dossier ou une chemise, pas un tapis. Un compromiso est un engagement, pas un compromis — celui-ci se dit un acuerdo ou una concesión. Realizar veut dire effectuer, pas se réaliser. Asistir a un acto, c'est y assister ; asistir a alguien, c'est l'aider. C'est le complément qui tranche, pas la préposition.\n\nEt deux mots trompent complètement. Actualmente veut dire actuellement — celui-là est juste — mais eventualmente veut dire occasionnellement ou le cas échéant, jamais éventuellement au sens de « peut-être », qui se dit posiblemente. Le sens « finalement » est celui de l'anglais eventually, pas de l'espagnol.",
         },
       ],
     },
@@ -121,7 +121,7 @@ export const ESPAGNOL_VOCABULAIRE_OFICIOS: LotCartes[] = [
       {
         etranger: "Tengo una entrevista el jueves.",
         francais: "J'ai un entretien jeudi.",
-        note: "Una entrevista, l'entretien. Mantenimiento désigne la maintenance.",
+        note: "Una entrevista, l'entretien d'embauche. Le français dit « entretien » aussi pour la maintenance : en espagnol, c'est el mantenimiento — deux mots pour un seul chez nous.",
       },
       {
         etranger: "Se jubila el año que viene.",
@@ -169,7 +169,7 @@ export const ESPAGNOL_VOCABULAIRE_OFICIOS: LotCartes[] = [
                 ["una brocha", "pintar", "peindre"],
                 ["la lija", "lijar", "poncer"],
               ],
-              note: "Alicates et tijeras sont toujours au pluriel, comme en français les ciseaux.",
+              note: "Alicates et tijeras s'emploient presque toujours au pluriel, comme les ciseaux en français.",
             },
           ],
         },
@@ -205,7 +205,7 @@ export const ESPAGNOL_VOCABULAIRE_OFICIOS: LotCartes[] = [
         {
           titre: "Faire faire, et appeler l'artisan",
           texte:
-            "Comme en anglais, l'espagnol distingue faire et faire faire, mais il le fait plus simplement.\n\nLa construction est mandar ou hacer + infinitif : mandé arreglar la caldera, j'ai fait réparer la chaudière. Hacer arreglar existe aussi, et les deux sont interchangeables. À la différence de l'anglais, il n'y a pas de participe : mandar arreglar, jamais « mandar arreglada ».\n\nLes artisans : un fontanero en Espagne, un plomero en Amérique latine ; un electricista ; un carpintero, le menuisier ; un albañil, le maçon ; un pintor ; un cerrajero, le serrurier — celui qu'on appelle quand la porte claque.\n\nQuelques formules utiles : ¿me puede pasar un presupuesto ?, pouvez-vous me faire un devis ; ¿cuándo puede venir ?, quand pouvez-vous passer ; no tiene arreglo, c'est irréparable ; es una chapuza, c'est du travail bâclé — mot très espagnol, et l'insulte professionnelle par excellence.\n\nEnfin, un faux ami : el desgaste est l'usure normale, celle que mentionne un contrat de location. Et bricolaje traduit bricolage, mais le verbe manque : on dit hacer bricolaje, ou simplement arreglar cosas en casa.",
+            "Comme en anglais, l'espagnol distingue faire et faire faire, mais il le fait plus simplement.\n\nLa construction est mandar ou hacer + infinitif : mandé arreglar la caldera, j'ai fait réparer la chaudière. Hacer arreglar existe aussi, et les deux sont interchangeables. À la différence de l'anglais, il n'y a pas de participe : mandar arreglar, jamais « mandar arreglada ».\n\nLes artisans : un fontanero en Espagne, un plomero en Amérique latine ; un electricista ; un carpintero, le menuisier ; un albañil, le maçon ; un pintor ; un cerrajero, le serrurier — celui qu'on appelle quand la porte claque.\n\nQuelques formules utiles : ¿me puede pasar un presupuesto?, pouvez-vous me faire un devis ; ¿cuándo puede venir?, quand pouvez-vous passer ; no tiene arreglo, c'est irréparable ; es una chapuza, c'est du travail bâclé — mot très espagnol, et l'insulte professionnelle par excellence.\n\nEnfin, un faux ami : el desgaste est l'usure normale, celle que mentionne un contrat de location. Et bricolaje traduit bricolage, mais le verbe manque : on dit hacer bricolaje, ou simplement arreglar cosas en casa.",
         },
       ],
     },
@@ -223,7 +223,7 @@ export const ESPAGNOL_VOCABULAIRE_OFICIOS: LotCartes[] = [
       {
         etranger: "Necesito unos alicates pequeños.",
         francais: "J'ai besoin d'une petite pince.",
-        note: "Alicates est toujours pluriel, comme tijeras.",
+        note: "Alicates s'emploie presque toujours au pluriel, comme tijeras.",
       },
       {
         etranger: "Se fue la luz durante dos horas.",
@@ -303,7 +303,7 @@ export const ESPAGNOL_VOCABULAIRE_OFICIOS: LotCartes[] = [
         {
           titre: "Les déchets et le tri",
           texte:
-            "C'est le champ le plus concret, et l'espagnol y est plus régulier que l'anglais.\n\nLos residuos est le terme technique et administratif ; la basura, les ordures ménagères de tous les jours. El contenedor, le conteneur de tri ; el cubo de basura, la poubelle de la cuisine.\n\nLes verbes : reciclar, recycler ; separar ou clasificar, trier — separar la basura est la formule courante ; compostar ; reutilizar ; verter, déverser, d'où el vertedero, la décharge ; incinerar.\n\nDe un solo uso désigne l'usage unique : plásticos de un solo uso. Desechable veut dire jetable. Biodegradable et compostable ne sont pas synonymes, ici comme ailleurs : le premier se décompose, le second seulement dans des conditions définies.\n\nEnfin, deux mots du débat public. El ecopostureo est la traduction espagnole de greenwashing — le mot est récent, imagé, et concurrencé par le calque el greenwashing. Et la economía circular, l'économie circulaire.\n\nUn faux ami à signaler : una planta est une usine autant qu'une plante et un étage. Una planta de reciclaje est un centre de tri.",
+            "C'est le champ le plus concret, et l'espagnol y est plus régulier que l'anglais.\n\nLos residuos est le terme technique et administratif ; la basura, les ordures ménagères de tous les jours. El contenedor, le conteneur de tri ; el cubo de basura, la poubelle de la cuisine.\n\nLes verbes : reciclar, recycler ; separar ou clasificar, trier — separar la basura est la formule courante ; compostar ; reutilizar ; verter, déverser, d'où el vertedero, la décharge ; incinerar.\n\nDe un solo uso désigne l'usage unique : plásticos de un solo uso. Desechable veut dire jetable. Biodegradable et compostable ne sont pas synonymes, ici comme ailleurs : le premier se décompose, le second seulement dans des conditions définies.\n\nEnfin, deux mots du débat public. El ecoblanqueo est la forme recommandée pour greenwashing ; ecopostureo, plus familier et imagé, s'entend surtout en Espagne. Et la economía circular, l'économie circulaire.\n\nUn faux ami à signaler : una planta est une usine autant qu'une plante et un étage. Una planta de reciclaje est un centre de tri.",
           visuels: [
             {
               type: "comparaison",
@@ -332,15 +332,15 @@ export const ESPAGNOL_VOCABULAIRE_OFICIOS: LotCartes[] = [
         {
           titre: "L'énergie, et les faux amis de la nature",
           texte:
-            "Les sources : la energía solar, la eólica — de Eolo, le dieu des vents —, la hidráulica, la geotérmica, la mareomotriz, la biomasa. Una central est la centrale ; un parque eólico, un parc éolien ; la red eléctrica, le réseau.\n\nLes faux amis du champ sont réels et fréquents.\n\nConservar veut dire garder en l'état ou conserver un aliment ; protéger la nature se dit proteger ou preservar. Una reserva natural est une réserve naturelle, mais una reserva est aussi une réservation d'hôtel.\n\nSensible veut dire sensible au sens émotionnel : un milieu fragile se dit frágil ou vulnerable, jamais « sensible ».\n\nEl petróleo est le pétrole brut ; l'essence se dit la gasolina, et le gazole el gasóleo ou el diésel. Une station-service est una gasolinera.\n\nEnfin, dos mots que le français rend mal. El caudal est le débit d'un fleuve, notion centrale dans un pays où l'eau se compte. Et el regadío désigne l'agriculture irriguée, par opposition à el secano, l'agriculture sèche — une distinction qui structure toute la géographie agricole espagnole.",
+            "Les sources : la energía solar, la eólica — de Eolo, le dieu des vents —, la hidráulica, la geotérmica, la mareomotriz, la biomasa. Una central est la centrale ; un parque eólico, un parc éolien ; la red eléctrica, le réseau.\n\nLes faux amis du champ sont réels et fréquents.\n\nConservar veut dire garder en l'état ou conserver un aliment ; protéger la nature se dit proteger ou preservar. Una reserva natural est une réserve naturelle, mais una reserva est aussi une réservation d'hôtel.\n\nSensible dit d'abord la sensibilité émotionnelle ; pour un milieu, frágil et vulnerable sont plus courants, mais sensible existe aussi en langue technique : especies sensibles.\n\nEl petróleo est le pétrole brut ; l'essence se dit la gasolina, et le gazole el gasóleo ou el diésel. Une station-service est una gasolinera.\n\nEnfin, dos mots que le français rend mal. El caudal est le débit d'un fleuve, notion centrale dans un pays où l'eau se compte. Et el regadío désigne l'agriculture irriguée, par opposition à el secano, l'agriculture sèche — une distinction qui structure toute la géographie agricole espagnole.",
         },
       ],
     },
     cartes: [
       {
-        etranger: "Las emisiones bajaron un diez por ciento.",
-        francais: "Les émissions ont baissé de dix pour cent.",
-        note: "Bajar UN diez por ciento : l'espagnol met l'article là où le français met « de ».",
+        etranger: "Hay que reducir los combustibles fósiles.",
+        francais: "Il faut réduire les combustibles fossiles.",
+        note: "Los combustibles fósiles, toujours au pluriel : carbón, petróleo, gas.",
       },
       {
         etranger: "El país quiere ser neutro en carbono.",
@@ -365,7 +365,7 @@ export const ESPAGNOL_VOCABULAIRE_OFICIOS: LotCartes[] = [
       {
         etranger: "La sequía duró todo el verano.",
         francais: "La sécheresse a duré tout l'été.",
-        note: "La sequía est au débat espagnol ce que la canicule est au débat français.",
+        note: "La sequía, la sécheresse ; el embalse, la retenue d'eau ; las restricciones, les restrictions. Le champ est central en Espagne.",
       },
       {
         etranger: "El caudal del río bajó mucho.",
@@ -407,7 +407,7 @@ export const ESPAGNOL_VOCABULAIRE_OFICIOS: LotCartes[] = [
         {
           titre: "Nommer l'œuvre et son auteur",
           texte:
-            "Chaque art a son mot, et le générique una obra les couvre tous — c'est le mot le plus utile du champ : una obra de teatro, una obra maestra, la obra de Goya.\n\nEn littérature : una novela, le roman ; un cuento ou un relato, la nouvelle ; un ensayo, l'essai ; una obra de teatro, la pièce ; un poema ; un poemario, le recueil de poèmes. L'auteur est un escritor, un novelista, un dramaturgo, un poeta — épicène : el poeta, la poeta.\n\nEn musique : una pieza, le morceau ; una canción, la chanson ; la letra, les paroles — au singulier, contrairement à l'anglais lyrics ; un tema, un titre dans un album, sens propre à la musique ; un disco, un álbum. Le compositeur est un compositor ; l'interprète, un intérprete.\n\nEn arts visuels : un cuadro, la toile — le mot veut d'abord dire cadre ; un dibujo, le dessin ; una escultura ; un grabado, la gravure ; una exposición.\n\nAu cinéma : una película, le film ; el reparto, la distribution ; la banda sonora, la musique du film ; la trama ou el argumento, l'intrigue ; un plano, un plan. Le réalisateur est el director.",
+            "Chaque art a son mot, et le générique una obra les couvre tous — c'est le mot le plus utile du champ : una obra de teatro, una obra maestra, la obra de Goya.\n\nEn littérature : una novela, le roman ; un cuento ou un relato, la nouvelle ; un ensayo, l'essai ; una obra de teatro, la pièce ; un poema ; un poemario, le recueil de poèmes. L'auteur est un escritor, un novelista, un dramaturgo, un poeta — épicène : el poeta, la poeta.\n\nEn musique : una pieza, le morceau ; una canción, la chanson ; la letra, les paroles — au singulier, contrairement à l'anglais lyrics ; un tema, un titre dans un album, sens propre à la musique ; un disco, un álbum. Le compositeur est un compositor ; l'interprète, un intérprete.\n\nEn arts visuels : un cuadro, la toile — le mot dit d'abord un rectangle, d'où aussi le tableau et le schéma ; un dibujo, le dessin ; una escultura ; un grabado, la gravure ; una exposición.\n\nAu cinéma : una película, le film ; el reparto, la distribution ; la banda sonora, la musique du film ; la trama ou el argumento, l'intrigue ; un plano, un plan. Le réalisateur est el director.",
           visuels: [
             {
               type: "tableau",
@@ -424,7 +424,7 @@ export const ESPAGNOL_VOCABULAIRE_OFICIOS: LotCartes[] = [
                 ["el argumento", "l'intrigue", "argument → un razonamiento"],
                 ["un personaje", "un personnage", "caractère → el carácter"],
               ],
-              note: "Un cuadro veut d'abord dire cadre, puis tableau, puis schéma. Le contexte tranche.",
+              note: "Un cuadro dit d'abord un rectangle, d'où le tableau et le schéma (cuadro sinóptico). Le contexte tranche.",
             },
           ],
         },
@@ -503,17 +503,18 @@ export const ESPAGNOL_VOCABULAIRE_OFICIOS: LotCartes[] = [
       {
         etranger: "Compró un cuadro en el mercadillo.",
         francais: "Il a acheté une toile au marché aux puces.",
-        note: "Un cuadro veut d'abord dire cadre, puis tableau. Un marco est le cadre matériel.",
+        note: "Un cuadro dit d'abord un rectangle, d'où aussi le tableau. Le cadre matériel, lui, est un marco.",
       },
       {
         etranger: "La exposición dura hasta marzo.",
-        francais: "L'exposition se tient jusqu'en mars.",
+        francais: "L'exposition dure jusqu'en mars.",
         note: "Durar pour ce qui s'étend dans le temps ; el estreno pour ce qui commence.",
       },
       {
         etranger: "Sin spoilers, todavía no la he visto.",
-        francais: "Pas de divulgâchage, je ne l'ai pas encore vue.",
-        note: "Spoiler est passé tel quel. La RAE propose destripe, sans grand succès.",
+        francais: "Pas de spoilers, je ne l'ai pas encore vue.",
+        aussi: ["Sans divulgâcher, je ne l'ai pas encore vue."],
+        note: "Spoiler est passé tel quel ; destripar el final, en verbe, est courant et vivant en Espagne.",
       },
     ],
   },
@@ -546,7 +547,7 @@ export const ESPAGNOL_VOCABULAIRE_OFICIOS: LotCartes[] = [
                 ["una sentencia", "la décision de justice", "phrase → una frase"],
                 ["un fallo", "le dispositif, ou une panne", "faille aussi"],
                 ["el incumplimiento", "le manquement", "—"],
-                ["el plazo", "le délai", "place → el sitio"],
+                ["el plazo", "le délai", "—"],
                 ["la responsabilidad civil", "la responsabilité civile", "—"],
                 ["una cláusula", "une clause", "—"],
                 ["la fianza", "la caution", "confiance → la confianza"],
@@ -589,7 +590,7 @@ export const ESPAGNOL_VOCABULAIRE_OFICIOS: LotCartes[] = [
         {
           titre: "Lire une clause sans se tromper",
           texte:
-            "Trois habitudes suffisent à ne pas contresens un contrat espagnol.\n\nLa première : repérer le futur d'obligation. El arrendatario abonará la renta ne parle pas de l'avenir : il crée un devoir, exactement comme le shall anglais. Ce futur juridique est systématique dans les contrats espagnols, et un lecteur français y lit une simple prévision.\n\nLa deuxième : lire les définitions et les majuscules. Comme en anglais, les termes définis en tête du contrat gardent leur sens strict dans tout le corps du texte.\n\nLa troisième : reconnaître les formules figées. A los efectos oportunos, aux fins utiles ; sin perjuicio de, sans préjudice de — qui annonce une réserve et non une exception ; salvo pacto en contrario, sauf accord contraire ; a instancia de parte, à la demande d'une partie ; de oficio, d'office.\n\nEnfin, deux verbes du contrat à ne pas confondre. Rescindir, résilier avant terme ; resolver, résoudre un contrat pour manquement — le même verbe veut dire résoudre un problème dans la langue ordinaire, ce qui rend la lecture ambiguë pour qui n'est pas averti.",
+            "Trois habitudes suffisent à ne pas faire de contresens sur un contrat espagnol.\n\nLa première : repérer le futur d'obligation. El arrendatario abonará la renta ne parle pas de l'avenir : il crée un devoir, exactement comme le shall anglais. Ce futur juridique est systématique dans les contrats espagnols, et un lecteur français y lit une simple prévision.\n\nLa deuxième : lire les définitions et les majuscules. Comme en anglais, les termes définis en tête du contrat gardent leur sens strict dans tout le corps du texte.\n\nLa troisième : reconnaître les formules figées. A los efectos oportunos, aux fins utiles ; sin perjuicio de, sans préjudice de — qui annonce une réserve et non une exception ; salvo pacto en contrario, sauf accord contraire ; a instancia de parte, à la demande d'une partie ; de oficio, d'office.\n\nEnfin, deux verbes du contrat à ne pas confondre. Rescindir, résilier avant terme ; resolver, résoudre un contrat pour manquement — le même verbe veut dire résoudre un problème dans la langue ordinaire, ce qui rend la lecture ambiguë pour qui n'est pas averti.",
         },
       ],
     },
@@ -682,7 +683,7 @@ export const ESPAGNOL_VOCABULAIRE_OFICIOS: LotCartes[] = [
                 ["la vigencia", "le fait d'être en vigueur", "l'actualité, la validité"],
                 ["el arraigo", "l'enracinement", "l'ancrage"],
               ],
-              note: "Aucun ne se traduit par un seul mot : c'est pourquoi il faut les penser en espagnol.",
+              note: "Deux d'entre eux ne se traduisent pas d'un seul mot — planteamiento et matiz — et c'est pour eux qu'il faut penser en espagnol. Les autres ont un équivalent français fiable.",
             },
           ],
         },
@@ -716,7 +717,7 @@ export const ESPAGNOL_VOCABULAIRE_OFICIOS: LotCartes[] = [
         {
           titre: "Comment les installer",
           texte:
-            "Ces mots ne s'apprennent pas par la traduction, puisque le français n'en a pas. Trois habitudes fonctionnent.\n\nLa première : apprendre le mot avec son verbe. On dit plantear una cuestión, ampliar el alcance, introducir un matiz, corregir un sesgo, cambiar de enfoque, perder vigencia, echar raíces pour l'arraigo. Le verbe fixe le mot mieux qu'une définition.\n\nLa deuxième : apprendre la famille. Plantear donne planteamiento ; matizar donne matiz et matizado ; sesgar donne sesgo et sesgado ; enfocar donne enfoque ; desfasar donne desfase et desfasado, qui veut dire dépassé.\n\nLa troisième : les employer à l'écrit d'abord. Ce sont des mots de l'argumentation, et c'est en écrivant qu'on prend le temps de choisir — c'est ce choix répété qui les installe.\n\nUn dernier avertissement, symétrique de celui de l'anglais : plusieurs de ces mots ont un cousin français au sens plus étroit. « Ámbito » n'est pas « ambiance », « desempeño » n'est pas « dépannage », et « vigencia » n'a rien à voir avec la vigie. Repartir du français rétrécit le mot espagnol, ou le fausse.",
+            "Ces mots ne s'apprennent pas par la traduction, puisque le français n'en a pas. Trois habitudes fonctionnent.\n\nLa première : apprendre le mot avec son verbe. On dit plantear una cuestión, ampliar el alcance, introducir un matiz, corregir un sesgo, cambiar de enfoque, perder vigencia, echar raíces pour l'arraigo. Le verbe fixe le mot mieux qu'une définition.\n\nLa deuxième : apprendre la famille. Plantear donne planteamiento ; matizar donne matiz et matizado ; sesgar donne sesgo et sesgado ; enfocar donne enfoque ; desfasar donne desfase et desfasado, qui veut dire dépassé.\n\nLa troisième : les employer à l'écrit d'abord. Ce sont des mots de l'argumentation, et c'est en écrivant qu'on prend le temps de choisir — c'est ce choix répété qui les installe.\n\nUn dernier avertissement : plusieurs de ces mots ont un cousin français au sens plus étroit. « Ámbito » n'est pas « ambiance » : le champ qu'il couvre est bien plus large. Repartir du français rétrécit le mot espagnol, ou le fausse.",
         },
       ],
     },

@@ -104,7 +104,7 @@ export const BATCH_010: ContentBatch = {
       category: "Conjugaison",
       title: "L'impératif de vouloir : veuillez",
       statement: "Dans un ordre poli, <b>vouloir</b> fait <b>veuille</b> et <b>veuillez</b> ; les formes veux et voulez marquent la volonté brute.",
-      tip: "Veuillez agréer, mais « ne m'en veux pas » : deux impératifs, deux registres.",
+      tip: "Veuillez agréer est poli ; l'impératif brut de vouloir (veux, voulons, voulez) est rarissime en dehors de tournures figées.",
       difficulty: 3,
       sentences: [
         { marked: "[Voulez] agréer, Madame, mes salutations distinguées.", fix: "Veuillez" },
@@ -168,7 +168,7 @@ export const BATCH_010: ContentBatch = {
       difficulty: 3,
       sentences: [
         { marked: "Le nombre d'inscrits [crois] d'année en année.", fix: "croît" },
-        { marked: "La population du village a [cru] de moitié en dix ans.", fix: "crû" },
+        { marked: "Les ventes [croiteront] fortement l'an prochain, selon les prévisions.", fix: "croîtront" },
         { marked: "Ces plantes [croient] mieux à l'ombre qu'en plein soleil.", fix: "croissent" },
         { marked: "L'inquiétude [crois] à mesure que les jours passent.", fix: "croît" },
         { marked: "Le blé croît vite, mais personne n'a cru qu'il pousserait tant.", fix: null },
@@ -239,7 +239,7 @@ export const BATCH_010: ContentBatch = {
       category: "Conjugaison",
       title: "écrire : nous écrivons",
       statement: "<b>écrire</b> et ses composés ajoutent un <b>v</b> au pluriel : nous écrivons, ils écrivaient, il a écrit.",
-      tip: "Le v n'apparaît qu'à partir du pluriel : j'écris, nous écrivons.",
+      tip: "Le v appartient au radical à presque tous les temps (nous écrivons, il écrivait, il écrivit) : seuls le présent du singulier et le futur s'en passent (j'écris, j'écrirai).",
       difficulty: 2,
       sentences: [
         { marked: "Nous [écrisons] à la main pour les cartes de vœux.", fix: "écrivons" },

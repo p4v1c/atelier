@@ -186,7 +186,7 @@ export const BATCH_001: ContentBatch = {
       slug: "virgule-complement-tete",
       category: "Ponctuation",
       title: "Virgule après un complément placé en tête",
-      statement: "Un complément déplacé en début de phrase se sépare du reste par une <b>virgule</b>.",
+      statement: "Un complément déplacé en début de phrase se sépare généralement du reste par une <b>virgule</b>, surtout s'il est un peu long.",
       tip: "Remets le complément à sa place habituelle : s'il vient de la fin, il se détache en tête.",
       difficulty: 2,
       sentences: [
@@ -321,7 +321,7 @@ export const BATCH_001: ContentBatch = {
       slug: "tiret-incise",
       category: "Ponctuation",
       title: "Les tirets d'incise",
-      statement: "Une incise peut s'encadrer de <b>tirets longs</b> — comme ici — mais jamais d'un seul.",
+      statement: "Une incise peut s'encadrer de <b>tirets longs</b> — comme ici. Un seul tiret suffit quand l'incise se termine avec la phrase.",
       tip: "Un tiret ouvert se referme, exactement comme une parenthèse.",
       difficulty: 3,
       sentences: [
@@ -342,7 +342,7 @@ export const BATCH_001: ContentBatch = {
       sentences: [
         { marked: "[Oui] je crois que cette solution mérite d'être étudiée sérieusement.", fix: "Oui," },
         { marked: "[Non] rien ne permet d'affirmer une chose pareille aujourd'hui.", fix: "Non," },
-        { marked: "Elle a répondu : [oui] mais sans la moindre conviction.", fix: "oui," },
+        { marked: "[Oui] mais sans grande conviction, elle a fini par accepter la proposition.", fix: "Oui," },
         { marked: "[Si] il est bien passé, je l'ai vu de mes yeux.", fix: "Si," },
         { marked: "Non, je ne serai pas disponible avant la fin du mois.", fix: null },
       ],
@@ -355,11 +355,11 @@ export const BATCH_001: ContentBatch = {
       tip: "Après « il a dit », on ouvre la bouche : deux-points, puis guillemets.",
       difficulty: 2,
       sentences: [
-        { marked: "Il a [déclaré] « je ne reviendrai pas sur cette décision ».", fix: "déclaré :" },
-        { marked: "Elle a [répondu] « rien ne presse, prenons le temps qu'il faut ».", fix: "répondu :" },
-        { marked: "Le président a [conclu] « la séance est levée pour aujourd'hui ».", fix: "conclu :" },
-        { marked: "Mon grand-père [répétait] « on n'apprend jamais assez tôt ».", fix: "répétait :" },
-        { marked: "Elle a murmuré : « ce n'est vraiment pas grave ».", fix: null },
+        { marked: "Il a [déclaré] « Je ne reviendrai pas sur cette décision. »", fix: "déclaré :" },
+        { marked: "Elle a [répondu] « Rien ne presse, prenons le temps qu'il faut. »", fix: "répondu :" },
+        { marked: "Le président a [conclu] « La séance est levée pour aujourd'hui. »", fix: "conclu :" },
+        { marked: "Mon grand-père [répétait] « On n'apprend jamais assez tôt. »", fix: "répétait :" },
+        { marked: "Elle a murmuré : « Ce n'est vraiment pas grave. »", fix: null },
       ],
     },
     {
@@ -381,7 +381,7 @@ export const BATCH_001: ContentBatch = {
       slug: "virgule-lieu-date",
       category: "Ponctuation",
       title: "Virgule entre le lieu et la date",
-      statement: "Dans la formule <b>Fait à … , le …</b>, une virgule sépare le lieu de la date.",
+      statement: "Dans la formule <b>Fait à …, le …</b>, une virgule sépare le lieu de la date.",
       tip: "Lieu et date sont deux informations : elles ne se collent pas l'une à l'autre.",
       difficulty: 2,
       sentences: [

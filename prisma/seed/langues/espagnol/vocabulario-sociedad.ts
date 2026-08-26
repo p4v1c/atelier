@@ -192,7 +192,7 @@ export const ESPAGNOL_VOCABULARIO_SOCIEDAD: LotCartes[] = [
       {
         etranger: "El imperio se derrumbó en una década.",
         francais: "L'empire s'effondra en dix ans.",
-        note: "Derrumbarse, s'effondrer. Una década, dix ans — jamais une décennie au sens vague.",
+        note: "Derrumbarse, s'effondrer. Una década, une décennie ; los años veinte, les années vingt.",
       },
       {
         etranger: "La revuelta fue reprimida con dureza.",
@@ -213,7 +213,13 @@ export const ESPAGNOL_VOCABULARIO_SOCIEDAD: LotCartes[] = [
       {
         etranger: "El archivo se destruyó en el incendio.",
         francais: "Les archives furent détruites dans l'incendie.",
+        aussiEtranger: ["Los archivos se destruyeron en el incendio."],
         note: "El archivo au singulier pour le fonds entier. Los archivos dit plutôt les documents.",
+      },
+      {
+        etranger: "Se construyó en el siglo XVIII.",
+        francais: "Il fut construit au XVIIIe siècle.",
+        note: "Chiffres romains, et on lit el siglo dieciocho.",
       },
     ],
   },
@@ -239,7 +245,7 @@ export const ESPAGNOL_VOCABULARIO_SOCIEDAD: LotCartes[] = [
         etranger: "Compraron un solar en las afueras.",
         francais: "Ils ont acheté un terrain en périphérie.",
         aussi: ["Ils ont acheté une parcelle en banlieue."],
-        note: "Un solar, un terrain à bâtir. Rien à voir avec le soleil malgré l'apparence.",
+        note: "Un solar, un terrain à bâtir : le nom vient de suelo, pas de sol. L'adjectif solar, lui, veut bien dire solaire — energía solar.",
       },
       {
         etranger: "La casa está catalogada.",
@@ -513,7 +519,7 @@ export const ESPAGNOL_VOCABULARIO_SOCIEDAD: LotCartes[] = [
       {
         etranger: "La renta per cápita lleva años estancada.",
         francais: "Le revenu par habitant stagne depuis des années.",
-        note: "Per cápita, latin, invariable. La renta, le revenu — jamais la rente au sens français.",
+        note: "Per cápita, latin, invariable. La renta, le revenu — et le loyer en Amérique latine. Une rente viagère se dit una renta vitalicia.",
       },
       {
         etranger: "La población envejece rápidamente.",
@@ -533,7 +539,7 @@ export const ESPAGNOL_VOCABULARIO_SOCIEDAD: LotCartes[] = [
       {
         etranger: "La brecha se ha reducido desde 2010.",
         francais: "L'écart s'est réduit depuis 2010.",
-        note: "Una brecha, un écart ou une brèche. La brecha salarial, l'écart de salaire.",
+        note: "Una brecha, un écart ou une brèche. La brecha de género, l'écart entre les sexes — une extension récente du mot.",
       },
       {
         etranger: "Uno de cada cinco hogares vive solo.",

@@ -41,7 +41,7 @@ export const ESPAGNOL_AVANCE_B2: LotCartes[] = [
                   texte: "habla- · tuvie- · dije- · fue-",
                 },
                 {
-                  titre: "Ajouter -ra, -ras, -ra, -´ramos, -rais, -ran",
+                  titre: "Ajouter -ra, -ras, -ra, -ramos, -rais, -ran",
                   texte:
                     "hablara, hablaras, hablara, habláramos, hablarais, hablaran. La première personne du pluriel prend un accent écrit.",
                 },
@@ -52,7 +52,7 @@ export const ESPAGNOL_AVANCE_B2: LotCartes[] = [
         {
           titre: "L'hypothèse et le regret",
           texte:
-            "L'emploi le plus visible est la phrase hypothétique, et c'est là que le francophone se trompe le plus.\n\nPour une hypothèse au présent, contraire aux faits : si + subjonctif imparfait, puis conditionnel présent. Si tuviera tiempo, iría contigo. Le français dit « si j'avais le temps, j'irais », avec un imparfait de l'indicatif — d'où le réflexe de mettre tenía. C'est une faute.\n\nPour un regret sur le passé : si + plus-que-parfait du subjonctif, puis conditionnel passé. Si hubiéramos salido antes, no habríamos perdido el tren. Le français dit « si nous étions partis… nous n'aurions pas raté », avec un plus-que-parfait de l'indicatif. Même piège.\n\nLa règle qui sauve tient en une ligne : après si, jamais de conditionnel ni de futur. Ni « si tendría », ni « si tendré ». L'espagnol y est plus strict que le français, qui tolère « si j'aurais » dans la bouche de certains.\n\nOjalá suit la même logique : ojalá viniera pour un souhait sur le présent, ojalá hubiera venido pour un regret sur le passé.",
+            "L'emploi le plus visible est la phrase hypothétique, et c'est là que le francophone se trompe le plus.\n\nPour une hypothèse au présent, contraire aux faits : si + subjonctif imparfait, puis conditionnel présent. Si tuviera tiempo, iría contigo. Le français dit « si j'avais le temps, j'irais », avec un imparfait de l'indicatif — d'où le réflexe de mettre tenía. C'est une faute.\n\nPour un regret sur le passé : si + plus-que-parfait du subjonctif, puis conditionnel passé. Si hubiéramos salido antes, no habríamos perdido el tren. Le français dit « si nous étions partis… nous n'aurions pas raté », avec un plus-que-parfait de l'indicatif. Même piège.\n\nLa règle qui sauve tient en une ligne : après si, jamais de conditionnel ni de futur. Ni « si tendría », ni « si tendré ». Le français a exactement la même règle — « si j'aurais » y est tout aussi fautif —, ce qui rend celle-ci facile à retenir.\n\nOjalá suit la même logique : ojalá viniera pour un souhait sur le présent, ojalá hubiera venido pour un regret sur le passé.",
           visuels: [
             {
               type: "tableau",
@@ -80,14 +80,14 @@ export const ESPAGNOL_AVANCE_B2: LotCartes[] = [
                 ["souhait", "ojalá + subjonctif", "—", "Ojalá viniera."],
                 ["regret", "ojalá + plus-que-parfait", "—", "Ojalá hubiera venido."],
               ],
-              note: "Après si, ni conditionnel ni futur. La règle n'a pas d'exception en espagnol.",
+              note: "Après le si de condition, ni conditionnel ni futur. Le si qui veut dire « oui ou non » est un autre mot : no sé SI vendrá, me preguntó SI vendría — là, futur et conditionnel sont normaux.",
             },
           ],
         },
         {
           titre: "Les deux emplois qu'on oublie",
           texte:
-            "Au-delà de l'hypothèse, le subjonctif imparfait sert deux fois par jour dans une conversation ordinaire, et le francophone l'ignore.\n\nLe premier emploi est la concordance. Si la principale est au passé et qu'elle appelle un subjonctif, la subordonnée passe à l'imparfait du subjonctif. Me pidió que le ayudara. No creí que fuera tan difícil. Le mécanisme est automatique, et c'est celui qui revient le plus souvent.\n\nLe second est la politesse. Quisiera hacerle una pregunta est plus courtois que quiero, et même que querría. De même, ¿pudiera usted ayudarme? adoucit une demande. Cette valeur-là n'a rien d'hypothétique : c'est un simple recul poli.\n\nS'y ajoute como si, qui n'accepte jamais l'indicatif : como si nada hubiera pasado, como si no lo supiera. La construction est fixe, et l'erreur s'entend immédiatement.\n\nEnfin, le conditionnel passé sert aussi à supposer sur le passé : ya lo habrían terminado ayer — ils avaient sans doute fini hier. Le français emploie exactement la même tournure, ce qui la rend facile à installer.",
+            "Au-delà de l'hypothèse, le subjonctif imparfait sert deux fois par jour dans une conversation ordinaire, et le francophone l'ignore.\n\nLe premier emploi est la concordance. Si la principale est au passé et qu'elle appelle un subjonctif, la subordonnée passe à l'imparfait du subjonctif. Me pidió que le ayudara. No creí que fuera tan difícil. Le mécanisme est automatique, et c'est celui qui revient le plus souvent.\n\nLe second est la politesse. Quisiera hacerle una pregunta est plus courtois que quiero, et même que querría. De même, quisiera pedirle un favor. La forme ¿pudiera usted…? existe mais reste rare : on dit plutôt ¿podría usted ayudarme? Cette valeur-là n'a rien d'hypothétique : c'est un simple recul poli.\n\nS'y ajoute como si, qui n'accepte jamais l'indicatif : como si nada hubiera pasado, como si no lo supiera. La construction est fixe, et l'erreur s'entend immédiatement.\n\nEnfin, le conditionnel passé sert aussi à supposer sur le passé : ya lo habrían terminado ayer — ils avaient sans doute fini hier. Le français emploie exactement la même tournure, ce qui la rend facile à installer.",
         },
       ],
     },
@@ -134,8 +134,14 @@ export const ESPAGNOL_AVANCE_B2: LotCartes[] = [
       },
       {
         etranger: "Ya lo habrían terminado ayer.",
-        francais: "Ils l'avaient sans doute déjà fini hier.",
+        francais: "Ils l'auraient déjà fini hier.",
+        aussi: ["Ils l'avaient sans doute déjà fini hier."],
         note: "Le conditionnel passé sert aussi à supposer sur le passé, comme en français.",
+      },
+      {
+        etranger: "No sé si vendrá mañana.",
+        francais: "Je ne sais pas s'il viendra demain.",
+        note: "Le si qui veut dire « oui ou non » n'est pas le si de condition : ici, le futur est normal.",
       },
       {
         etranger: "Si hubiéramos salido antes, no habríamos perdido el tren.",
@@ -347,14 +353,14 @@ export const ESPAGNOL_AVANCE_B2: LotCartes[] = [
     },
     cartes: [
       {
-        etranger: "Se habla español en veinte países.",
-        francais: "On parle espagnol dans vingt pays.",
-        note: "Passif réfléchi : le verbe s'accorde avec español, sujet grammatical.",
-      },
-      {
         etranger: "Se venden pisos en esta calle.",
         francais: "On vend des appartements dans cette rue.",
         note: "Venden au pluriel : pisos est le sujet. « Se vende pisos » est la faute courante.",
+      },
+      {
+        etranger: "Se habla español en veintiún países.",
+        francais: "On parle espagnol dans vingt et un pays.",
+        note: "Passif réfléchi : le verbe s'accorde avec español, sujet grammatical. Vingt États souverains ont l'espagnol pour langue officielle, plus Porto Rico — d'où le compte à vingt et un.",
       },
       {
         etranger: "Se busca camarero con experiencia.",
@@ -404,7 +410,7 @@ export const ESPAGNOL_AVANCE_B2: LotCartes[] = [
     category: "Travail et études",
     title: "L'espagnol du travail en Amérique latine",
     statement:
-      "Un devis se dit cotización, un fichier archivo, et l'on ne quedo a la espera mais quedo atento. Les formules du bureau changent de continent en même temps que le vocabulaire.",
+      "Un devis se dit cotización, un fichier archivo, et l'on n'écrit pas quedo a la espera, courant en Espagne, mais quedo atento. Les formules du bureau changent de continent en même temps que le vocabulaire.",
     tip: "Beaucoup de tournures du bureau latino-américain calquent l'anglais — dar seguimiento, aplicar a un puesto. Elles sont passées dans l'usage, et refuser de les employer sonne pédant.",
     difficulty: 3,
     niveau: "B2",
@@ -414,21 +420,24 @@ export const ESPAGNOL_AVANCE_B2: LotCartes[] = [
       {
         etranger: "Le agradezco su pronta respuesta.",
         francais: "Je vous remercie de votre réponse rapide.",
-        note: "Agradecer se construit sans préposition : agradezco su respuesta, jamais « agradezco por ».",
+        note: "Agradecer prend la chose sans préposition : agradezco su respuesta. En Amérique latine, agradecer por s'entend aussi.",
       },
       {
         etranger: "Quedo atento a sus comentarios.",
         francais: "Je reste à votre écoute pour vos remarques.",
+        aussiEtranger: ["Quedo a la espera de sus comentarios."],
         note: "Formule de clôture latino-américaine. En Espagne : quedo a la espera de sus comentarios.",
       },
       {
         etranger: "Adjunto el archivo solicitado.",
         francais: "Ci-joint le fichier demandé.",
+        aussiEtranger: ["Adjunto el fichero solicitado."],
         note: "Archivo, le fichier ; fichero surtout en Espagne. Anexo dans certains pays.",
       },
       {
         etranger: "Coordinemos una reunión para el jueves.",
         francais: "Organisons une réunion pour jeudi.",
+        aussiEtranger: ["Convoquemos una reunión para el jueves."],
         note: "Coordinar une réunion est très latino-américain. En Espagne, on dit convocar.",
       },
       {
@@ -454,6 +463,7 @@ export const ESPAGNOL_AVANCE_B2: LotCartes[] = [
       {
         etranger: "¿Me puede pasar la cotización?",
         francais: "Pouvez-vous m'envoyer le devis ?",
+        aussiEtranger: ["¿Me puede pasar el presupuesto?"],
         note: "Cotización, le devis en Amérique latine ; presupuesto en Espagne.",
       },
       {
@@ -489,7 +499,7 @@ export const ESPAGNOL_AVANCE_B2: LotCartes[] = [
       {
         etranger: "La sentencia fue favorable.",
         francais: "Le jugement a été favorable.",
-        note: "Sentencia, la décision du tribunal. Une phrase se dit frase, jamais sentencia.",
+        note: "Sentencia, la décision du tribunal. Une phrase se dit frase ; sentencia ne s'emploie pour « phrase » qu'au sens littéraire d'une maxime.",
       },
       {
         etranger: "Firmó el contrato sin leerlo.",
@@ -509,7 +519,7 @@ export const ESPAGNOL_AVANCE_B2: LotCartes[] = [
       {
         etranger: "El experimento salió mal.",
         francais: "L'expérience a mal tourné.",
-        note: "Experimento, l'expérience scientifique ; experiencia, le vécu. Comme en anglais.",
+        note: "Experimento, l'expérience scientifique ; experiencia, le vécu. Le français dit « expérience » pour les deux : c'est là qu'est le piège.",
       },
       {
         etranger: "Necesitamos más evidencia.",

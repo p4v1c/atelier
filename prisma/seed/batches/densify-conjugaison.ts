@@ -90,7 +90,7 @@ export const DENSIFY_CONJUGAISON: ContentBatch = {
     { ruleSlug: "verbes-eer", sentences: [
       { marked: "Une association a été [crée] au printemps dernier.", fix: "créée" },
       { marked: "Ces places ont été [crées] pour la nouvelle promotion.", fix: "créées" },
-      { marked: "La chorégraphie a été [agrée] par le jury.", fix: "agréée" },
+      { marked: "Sa candidature a été [agrée] par le jury du concours.", fix: "agréée" },
     ]},
     { ruleSlug: "faire-dire", sentences: [
       { marked: "Vous [faisez] toujours les choses au dernier moment.", fix: "faites" },
@@ -104,7 +104,7 @@ export const DENSIFY_CONJUGAISON: ContentBatch = {
     { ruleSlug: "resoudre", sentences: [
       { marked: "Il [résous] les problèmes les uns après les autres.", fix: "résout" },
       { marked: "Le tribunal l'[absous] de toute responsabilité pénale.", fix: "l'absout" },
-      { marked: "Elle [résoud] les conflits mieux que quiconque ici.", fix: "résout" },
+      { marked: "Le comité se [dissous] à la fin de l'année.", fix: "dissout" },
     ]},
     { ruleSlug: "battre-rompre", sentences: [
       { marked: "Le vent [batt] les volets depuis le début de la nuit.", fix: "bat" },
@@ -125,12 +125,12 @@ export const DENSIFY_CONJUGAISON: ContentBatch = {
     ]},
     { ruleSlug: "asseoir", sentences: [
       { marked: "Il [s'assoie] toujours à la même place au fond.", fix: "s'assoit" },
-      { marked: "Elle [s'assois] près de la fenêtre pour mieux voir.", fix: "s'assied" },
+      { marked: "Elle [s'assois] près de la fenêtre pour mieux voir.", fix: "s'assoit" },
       { marked: "Le chien [s'asseoit] dès qu'on le lui demande.", fix: "s'assoit" },
     ]},
     { ruleSlug: "subj-pouvoir", sentences: [
       { marked: "Il faut que je [peux] terminer ce travail ce soir.", fix: "puisse" },
-      { marked: "Bien qu'il [sait] nager, il reste près du bord.", fix: "sache" },
+      { marked: "Bien qu'il [peut] nager, il reste près du bord.", fix: "puisse" },
     ]},
     { ruleSlug: "esperer-que", sentences: [
       { marked: "J'espère qu'il [vienne] avant la fin de la journée.", fix: "viendra" },

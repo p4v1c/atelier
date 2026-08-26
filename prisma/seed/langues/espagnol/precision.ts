@@ -47,7 +47,7 @@ export const ESPAGNOL_PRECISION: LotCartes[] = [
       {
         etranger: "Las cifras se revisaron al alza.",
         francais: "Les chiffres ont été révisés à la hausse.",
-        note: "Revisar al alza ou a la baja. La préposition change avec le sens.",
+        note: "Revisar al alza ou a la baja. Alza est féminin mais prend el au singulier, comme agua.",
       },
       {
         etranger: "Se intercambiaron los puestos.",
@@ -57,7 +57,7 @@ export const ESPAGNOL_PRECISION: LotCartes[] = [
       {
         etranger: "El plan se desechó por completo.",
         francais: "Le projet a été purement et simplement abandonné.",
-        note: "Desechar, mettre au rebut. Bien plus fort qu'anular.",
+        note: "Desechar, écarter définitivement une option. Descartar dit la même chose plus froidement ; anular annule un acte déjà pris.",
       },
       {
         etranger: "Hay que replantear el proceso.",
@@ -125,9 +125,14 @@ export const ESPAGNOL_PRECISION: LotCartes[] = [
         note: "Deberse a, être dû à. La forme pronominale est obligatoire dans ce sens.",
       },
       {
-        etranger: "Insistieron en pagar ellos.",
-        francais: "Ils ont insisté pour payer eux-mêmes.",
-        note: "Insistir en + infinitif. Insistir para est fautif.",
+        etranger: "Tardó dos años en terminarlo.",
+        francais: "Il a mis deux ans à le terminer.",
+        note: "Tardar en + infinitif, mettre du temps à.",
+      },
+      {
+        etranger: "El trabajo consiste en revisar textos.",
+        francais: "Le travail consiste à relire des textes.",
+        note: "Consistir en + infinitif ou + nom : en quoi une chose consiste.",
       },
       {
         etranger: "No me acostumbro a este horario.",
@@ -160,9 +165,9 @@ export const ESPAGNOL_PRECISION: LotCartes[] = [
         note: "La gente est un collectif singulier. Le verbe ne se met jamais au pluriel.",
       },
       {
-        etranger: "Es un buen consejo.",
-        francais: "C'est un bon conseil.",
-        note: "Un consejo se compte, contrairement à l'anglais advice. Le français aussi.",
+        etranger: "Bebo agua todos los días.",
+        francais: "Je bois de l'eau tous les jours.",
+        note: "Pas d'article partitif en espagnol : bebo agua, quiero pan, como carne — le piège français le plus fréquent du champ.",
       },
       {
         etranger: "Necesito más información.",
@@ -172,7 +177,7 @@ export const ESPAGNOL_PRECISION: LotCartes[] = [
       {
         etranger: "Las pruebas son escasas.",
         francais: "Les preuves sont minces.",
-        note: "Una prueba se compte. L'anglais evidence, non : les trois langues diffèrent.",
+        note: "Una prueba se compte, comme « une preuve » en français. L'indénombrable réel du champ est la información, vue plus haut.",
       },
       {
         etranger: "Los muebles ya estaban allí.",
@@ -180,14 +185,14 @@ export const ESPAGNOL_PRECISION: LotCartes[] = [
         note: "Un mueble se compte. El mobiliario est le collectif.",
       },
       {
-        etranger: "Hemos hecho grandes progresos.",
-        francais: "Nous avons fait de grands progrès.",
-        note: "Los progresos se comptent, à la différence de l'anglais progress.",
+        etranger: "El equipaje pesaba mucho.",
+        francais: "Les bagages pesaient lourd.",
+        note: "El equipaje reste singulier là où le français dit « les bagages » au pluriel.",
       },
       {
-        etranger: "Las noticias eran peores de lo previsto.",
-        francais: "Les nouvelles étaient pires que prévu.",
-        note: "Las noticias au pluriel prend un verbe pluriel, contrairement à l'anglais news.",
+        etranger: "Necesito unos pantalones nuevos.",
+        francais: "J'ai besoin d'un pantalon neuf.",
+        note: "Pantalón s'emploie souvent au pluriel en espagnol là où le français reste au singulier : un piège inverse.",
       },
       {
         etranger: "Había tres personas de guardia.",
@@ -201,8 +206,8 @@ export const ESPAGNOL_PRECISION: LotCartes[] = [
       },
       {
         etranger: "Se hizo mucho daño.",
-        francais: "Il s'est beaucoup blessé.",
-        aussi: ["Il s'est fait très mal."],
+        francais: "Il s'est fait très mal.",
+        aussi: ["Il s'est sérieusement blessé."],
         note: "El daño est indénombrable : mucho daño, jamais « muchos daños » dans ce sens.",
       },
     ],
@@ -226,14 +231,14 @@ export const ESPAGNOL_PRECISION: LotCartes[] = [
         note: "Article défini devant une partie du corps, jamais le possessif.",
       },
       {
-        etranger: "Soy profesor de historia.",
-        francais: "Je suis professeur d'histoire.",
-        note: "Pas d'article devant une profession après ser, comme en français.",
+        etranger: "Va al gimnasio cada dos días.",
+        francais: "Il va à la salle un jour sur deux.",
+        note: "Cada dos días, littéralement tous les deux jours : le français compte autrement, un jour sur deux.",
       },
       {
         etranger: "Es un profesor excelente.",
         francais: "C'est un excellent professeur.",
-        note: "L'article revient dès que la profession est qualifiée.",
+        note: "Ser + profession ne prend pas d'article (soy profesor), mais il revient dès que la profession est qualifiée.",
       },
       {
         etranger: "Se quitó el abrigo.",
@@ -241,9 +246,9 @@ export const ESPAGNOL_PRECISION: LotCartes[] = [
         note: "Article défini pour un vêtement qu'on porte : le pronom réfléchi dit à qui il est.",
       },
       {
-        etranger: "Los gatos son independientes.",
-        francais: "Les chats sont indépendants.",
-        note: "L'espagnol garde l'article pour une généralité, à la différence de l'anglais.",
+        etranger: "El lunes tengo cita.",
+        francais: "Lundi, j'ai un rendez-vous.",
+        note: "El lunes prend l'article pour un jour précis ; le français n'en met pas.",
       },
       {
         etranger: "Vamos a casa.",
@@ -258,7 +263,7 @@ export const ESPAGNOL_PRECISION: LotCartes[] = [
       {
         etranger: "El agua está fría.",
         francais: "L'eau est froide.",
-        note: "Agua est féminin mais prend el au singulier, pour l'oreille. L'adjectif reste féminin.",
+        note: "Agua est féminin, mais un a tonique initial impose el au singulier : el agua, el hambre, el águila. Au pluriel, l'article redevient féminin : las aguas. L'adjectif, lui, reste féminin partout.",
       },
       {
         etranger: "Tiene el pelo largo.",
@@ -307,7 +312,7 @@ export const ESPAGNOL_PRECISION: LotCartes[] = [
       },
       {
         etranger: "Aún más importante es el coste.",
-        francais: "Plus important encore, il y a le coût.",
+        francais: "Le coût est plus important encore.",
         note: "Aún avec accent renforce un comparatif. Aun sans accent veut dire même.",
       },
       {

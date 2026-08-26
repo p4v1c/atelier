@@ -220,7 +220,7 @@ export const DENSIFY2_HOMOPHONES: ContentBatch = {
     ]},
     { ruleSlug: "aussitot", sentences: [
       { marked: "Il n'a jamais rendu sa copie [aussitôt] qu'aujourd'hui.", fix: "aussi tôt" },
-      { marked: "Elle est partie [aussitôt] que possible ce matin-là.", fix: "aussi tôt" },
+      { marked: "Elle est partie [aussitôt] que sa sœur ce matin-là.", fix: "aussi tôt" },
     ]},
     { ruleSlug: "sitot", sentences: [
       { marked: "Nous ne l'attendions pas [sitôt] dans la matinée.", fix: "si tôt" },

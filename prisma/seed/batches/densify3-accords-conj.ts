@@ -107,7 +107,7 @@ export const DENSIFY3_ACCORDS_CONJ: ContentBatch = {
 
     /* ── lot 007 : conjugaison ── */
     { ruleSlug: "conj-conditionnel-passe-2", sentences: [
-      { marked: "Ils auraient [savoir] réagir plus tôt s'ils avaient su.", fix: "su" },
+      { marked: "Ils auraient [savoir] réagir plus tôt si on les avait prévenus.", fix: "su" },
       { marked: "Nous serions [rester] plus longtemps sans cette pluie.", fix: "restés" },
     ]},
     { ruleSlug: "conj-plus-que-parfait", sentences: [
@@ -151,8 +151,8 @@ export const DENSIFY3_ACCORDS_CONJ: ContentBatch = {
       { marked: "Elle a [séduis] tout le jury dès les premières minutes.", fix: "séduit" },
     ]},
     { ruleSlug: "conj-verbes-aitre", sentences: [
-      { marked: "Cette revue [parait] tous les deux mois seulement.", fix: "paraît" },
-      { marked: "Nul ne [connait] la suite de cette histoire.", fix: "connaît" },
+      { marked: "Cette revue paraît tous les deux mois seulement.", fix: null },
+      { marked: "Nul ne connaît la suite de cette histoire.", fix: null },
     ]},
     { ruleSlug: "conj-verbes-eindre-oindre", sentences: [
       { marked: "Nous [éteindons] les lumières à la fermeture.", fix: "éteignons" },
@@ -192,13 +192,13 @@ export const DENSIFY3_ACCORDS_CONJ: ContentBatch = {
     ]},
     { ruleSlug: "conj-verbe-suivre", sentences: [
       { marked: "Nous avons [suivis] ses recommandations à la lettre.", fix: "suivi" },
-      { marked: "Elle a [vécue] trois ans dans cette petite ville.", fix: "vécu" },
+      { marked: "Tu [suit] un régime particulier depuis ton opération.", fix: "suis" },
     ]},
     { ruleSlug: "conj-participe-passe-pronominaux-cod", sentences: [
       { marked: "Elles se sont [brûlées] les doigts sur la plaque chaude.", fix: "brûlé" },
       { marked: "Ils se sont [fixés] un objectif un peu trop ambitieux.", fix: "fixé" },
     ]},
-    { ruleSlug: "conj-verbes-tressaillir", sentences: [
+    { ruleSlug: "conj-verbe-cueillir-futur", sentences: [
       { marked: "Nous [cueillirons] les prunes avant les premières gelées.", fix: "cueillerons" },
       { marked: "Le doute les [assaillera] jusqu'au dernier moment.", fix: "assaillira" },
     ]},

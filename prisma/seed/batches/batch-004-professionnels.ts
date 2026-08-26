@@ -44,7 +44,7 @@ export const BATCH_004: ContentBatch = {
       slug: "pro-formule-appel-virgule",
       category: "Écrits professionnels",
       title: "Virgule après la formule d'appel",
-      statement: "La formule d'appel se termine par une <b>virgule</b>, jamais par un point ni par rien.",
+      statement: "La formule d'appel se termine par une <b>virgule</b>, jamais par un point, ni sans aucune ponctuation.",
       tip: "L'appel ouvre la lettre : la virgule tient la porte, elle ne la ferme pas.",
       difficulty: 1,
       sentences: [
@@ -216,7 +216,7 @@ export const BATCH_004: ContentBatch = {
       difficulty: 3,
       sentences: [
         { marked: "Nous accusons [la] réception de votre courrier du 12 mars.", fix: "à supprimer" },
-        { marked: "Je vous confirme accuser [bonne] réception des pièces jointes.", fix: "à supprimer" },
+        { marked: "Je vous confirme accuser [une] réception des pièces jointes.", fix: "à supprimer" },
         { marked: "Merci d'accuser [une] réception dès l'ouverture du message.", fix: "à supprimer" },
         { marked: "Le service a accusé [la] réception du dossier hier matin.", fix: "à supprimer" },
         { marked: "Nous accusons réception de votre demande et l'étudions.", fix: null },
@@ -238,7 +238,7 @@ export const BATCH_004: ContentBatch = {
       ],
     },
     {
-      slug: "pro-second-degre-politesse",
+      slug: "pro-reprise-formule-finale",
       category: "Écrits professionnels",
       title: "Reprendre l'appel dans la formule finale",
       statement: "La formule finale <b>reprend exactement</b> la formule d'appel : Madame appelle Madame, Monsieur le Maire appelle Monsieur le Maire.",
@@ -274,7 +274,7 @@ export const BATCH_004: ContentBatch = {
       category: "Écrits professionnels",
       title: "Le « vous » de politesse reste singulier",
       statement: "Quand <b>vous</b> désigne une seule personne, l'adjectif et le participe restent au <b>singulier</b>.",
-      tip: "Compte les destinataires : un seul, donc un seul « s » de moins.",
+      tip: "Compte les destinataires : un seul, donc l'adjectif ou le participe reste au singulier.",
       difficulty: 3,
       sentences: [
         { marked: "Madame, vous êtes [priés] de bien vouloir confirmer votre venue.", fix: "priée" },
@@ -308,7 +308,7 @@ export const BATCH_004: ContentBatch = {
       difficulty: 3,
       sentences: [
         { marked: "Je [m'excuse] pour ce retard indépendant de notre volonté.", fix: "vous prie de m'excuser" },
-        { marked: "L'équipe [s'excuse] auprès de vous pour cette erreur de facturation.", fix: "vous prie de l'excuser" },
+        { marked: "L'équipe [s'excuse] pour cette erreur de facturation.", fix: "vous prie de l'excuser" },
         { marked: "Le service commercial [s'excuse] du retard pris dans le traitement.", fix: "vous prie de l'excuser" },
         { marked: "Toute l'entreprise [s'excuse] de ce grave contretemps.", fix: "vous prie de l'excuser" },
         { marked: "Je vous prie de m'excuser pour ce contretemps de dernière minute.", fix: null },
@@ -337,8 +337,8 @@ export const BATCH_004: ContentBatch = {
       tip: "On ne dit pas bonjour dans une lettre : on la commence.",
       difficulty: 2,
       sentences: [
-        { marked: "[Bonjour], je vous adresse ma candidature au poste proposé.", fix: "Madame, Monsieur," },
-        { marked: "[Salut], vous trouverez ci-joint le dossier complet demandé.", fix: "Madame, Monsieur," },
+        { marked: "[Bonjour,] je vous adresse ma candidature au poste proposé.", fix: "Madame, Monsieur," },
+        { marked: "[Salut,] vous trouverez ci-joint le dossier complet demandé.", fix: "Madame, Monsieur," },
         { marked: "Sa lettre de motivation commençait par un [«Bonjour»] très maladroit.", fix: "« Madame, Monsieur »" },
         { marked: "Il a osé écrire [«Coucou»] au directeur des ressources humaines.", fix: "« Monsieur »" },
         { marked: "Madame, Monsieur, je fais suite à votre annonce du 4 mai.", fix: null },

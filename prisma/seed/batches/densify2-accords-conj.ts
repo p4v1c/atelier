@@ -90,7 +90,7 @@ export const DENSIFY2_ACCORDS_CONJ: ContentBatch = {
     ]},
     { ruleSlug: "accord-on", sentences: [
       { marked: "On [ont] longtemps hésité avant de se décider.", fix: "a" },
-      { marked: "Quand on [sont] pressés, on oublie l'essentiel.", fix: "est" },
+      { marked: "Quand on [sont] pressé, on oublie l'essentiel.", fix: "est" },
     ]},
     { ruleSlug: "nu-demi", sentences: [
       { marked: "Il court [nus-]pieds sur le sable chaud.", fix: "nu-" },
@@ -98,7 +98,7 @@ export const DENSIFY2_ACCORDS_CONJ: ContentBatch = {
     ]},
     { ruleSlug: "pp-impersonnel", sentences: [
       { marked: "Les efforts qu'il a [fallus] ont épuisé tout le monde.", fix: "fallu" },
-      { marked: "La neige qu'il a [neigée] a bloqué toutes les routes.", fix: "neigé" },
+      { marked: "Que de neige il a [neigée] cette semaine !", fix: "neigé" },
     ]},
     { ruleSlug: "pp-couté", sentences: [
       { marked: "Les cent euros que ce livre a [coûtés] étaient bien placés.", fix: "coûté" },
@@ -129,8 +129,8 @@ export const DENSIFY2_ACCORDS_CONJ: ContentBatch = {
       { marked: "[C'est] les résultats qui décideront de la suite.", fix: "Ce sont" },
     ]},
     { ruleSlug: "un-des-qui", sentences: [
-      { marked: "C'est un des rares peintres qui [sait] encore ce métier.", fix: "savent" },
-      { marked: "Voilà une des causes qui [explique] le retard du chantier.", fix: "expliquent" },
+      { marked: "C'est un des rares peintres qui sait encore ce métier.", fix: null },
+      { marked: "Voilà une des nombreuses causes qui, ensemble, [explique] le retard du chantier.", fix: "expliquent" },
     ]},
     { ruleSlug: "tout-le-monde", sentences: [
       { marked: "Tout le monde [ont] son avis sur la question.", fix: "a" },
@@ -227,7 +227,7 @@ export const DENSIFY2_ACCORDS_CONJ: ContentBatch = {
       { marked: "Vous [oubliez] toujours vos clés autrefois.", fix: "oubliiez" },
     ]},
     { ruleSlug: "vaincre", sentences: [
-      { marked: "Cette année, l'équipe [vaint] rarement à l'extérieur.", fix: "vainc" },
+      { marked: "L'équipe ne [vaintra] jamais à l'extérieur si rien ne change.", fix: "vaincra" },
       { marked: "Rien ne le [convaint], pas même les meilleurs arguments.", fix: "convainc" },
     ]},
     { ruleSlug: "verbes-indre", sentences: [
@@ -260,15 +260,15 @@ export const DENSIFY2_ACCORDS_CONJ: ContentBatch = {
     ]},
     { ruleSlug: "verbes-eer", sentences: [
       { marked: "Cette association a été [créé] en 1998.", fix: "créée" },
-      { marked: "Les places ont été [créés] pour la rentrée.", fix: "créées" },
+      { marked: "Ces mesures ont été [agréés] par le conseil d'administration.", fix: "agréées" },
     ]},
     { ruleSlug: "faire-dire", sentences: [
       { marked: "Vous [faisez] toujours la même erreur.", fix: "faites" },
-      { marked: "Vous [étes] attendus depuis une bonne heure.", fix: "êtes" },
+      { marked: "Vous [disez] toujours la vérité, même quand ça dérange.", fix: "dites" },
     ]},
     { ruleSlug: "predire", sentences: [
       { marked: "Vous [maudites] ce jour depuis des années.", fix: "maudissez" },
-      { marked: "Vous [prédites] toujours le pire avant chaque échéance.", fix: "prédisez" },
+      { marked: "Vous [médites] de tout le monde sans exception.", fix: "médisez" },
     ]},
     { ruleSlug: "resoudre", sentences: [
       { marked: "Le juge l'[absoud] de toute responsabilité.", fix: "l'absout" },
@@ -276,7 +276,7 @@ export const DENSIFY2_ACCORDS_CONJ: ContentBatch = {
     ]},
     { ruleSlug: "battre-rompre", sentences: [
       { marked: "Le cœur lui [batt] très vite avant chaque oral.", fix: "bat" },
-      { marked: "La corde [romp] toujours au même endroit.", fix: "rompt" },
+      { marked: "L'orage [interromp] souvent nos parties de pétanque en été.", fix: "interrompt" },
     ]},
     { ruleSlug: "verbes-dre", sentences: [
       { marked: "Il [rends] visite à sa mère chaque dimanche après-midi.", fix: "rend" },
@@ -291,12 +291,12 @@ export const DENSIFY2_ACCORDS_CONJ: ContentBatch = {
       { marked: "Nous [aquérons] de l'expérience chaque jour.", fix: "acquérons" },
     ]},
     { ruleSlug: "asseoir", sentences: [
-      { marked: "Il [s'assoie] toujours au fond de la salle.", fix: "s'assoit" },
+      { marked: "Après la pause, il se [rassoie] toujours au même endroit.", fix: "rassoit" },
       { marked: "Elle [s'asseye] près de la fenêtre chaque matin.", fix: "s'assied" },
     ]},
     { ruleSlug: "subj-pouvoir", sentences: [
       { marked: "Il faut que tu [peux] venir avant la fermeture.", fix: "puisses" },
-      { marked: "Bien qu'elle [sait] la vérité, elle se tait.", fix: "sache" },
+      { marked: "Bien qu'elle [peut] nager depuis toujours, elle reste prudente.", fix: "puisse" },
     ]},
     { ruleSlug: "esperer-que", sentences: [
       { marked: "J'espère qu'il [fasse] beau pour la sortie.", fix: "fera" },
@@ -312,7 +312,7 @@ export const DENSIFY2_ACCORDS_CONJ: ContentBatch = {
     ]},
     { ruleSlug: "hair", sentences: [
       { marked: "Tu [haïs] les réunions du lundi matin.", fix: "hais" },
-      { marked: "Vous [haissez] cette habitude depuis toujours.", fix: "haïssez" },
+      { marked: "Il [haissait] cette habitude depuis toujours, mais il a fini par s'y faire.", fix: "haïssait" },
     ]},
     { ruleSlug: "fatigant", sentences: [
       { marked: "Ce travail est vraiment [fatiguant] à la longue.", fix: "fatigant" },

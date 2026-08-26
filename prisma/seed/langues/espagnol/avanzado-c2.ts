@@ -19,7 +19,7 @@ export const ESPAGNOL_AVANZADO_C2: LotCartes[] = [
     title: "L'économie et les chiffres",
     statement:
       "Crecimiento, recorte, deuda, cotizar. Lire la presse économique hispanophone demande une centaine de mots que personne n'enseigne, et qui reviennent tous les jours.",
-    tip: "Un ingreso est une recette, pas un ingrédient ; una renta est un revenu. Ces deux mots reviennent dans tous les articles et n'ont pas le sens qu'on leur prête.",
+    tip: "Un ingreso est une recette, un versement bancaire ou une admission à l'hôpital selon le contexte ; una renta est un revenu.",
     difficulty: 3,
     niveau: "C1",
     oral: true,
@@ -45,7 +45,7 @@ export const ESPAGNOL_AVANZADO_C2: LotCartes[] = [
       {
         etranger: "Están fuertemente endeudados.",
         francais: "Ils sont lourdement endettés.",
-        note: "Endeudarse, s'endetter. La deuda, la dette — le d se prononce, contrairement à l'anglais.",
+        note: "Endeudarse, s'endetter. La deuda, la dette ; el endeudamiento, l'endettement.",
       },
       {
         etranger: "El banco subió los tipos de interés.",
@@ -131,7 +131,7 @@ export const ESPAGNOL_AVANZADO_C2: LotCartes[] = [
         etranger: "Poco a poco lo va asumiendo.",
         francais: "Il commence peu à peu à l'accepter.",
         aussi: ["Il fait peu à peu son deuil de la situation."],
-        note: "Asumir algo, accepter au terme d'un travail intérieur. Ir + gérondif dit le progrès.",
+        note: "Asumir algo, accepter au terme d'un travail intérieur, par paliers successifs.",
       },
       {
         etranger: "Se lo guarda todo dentro.",
@@ -179,20 +179,21 @@ export const ESPAGNOL_AVANZADO_C2: LotCartes[] = [
       },
       {
         etranger: "Busquemos un punto medio.",
-        francais: "Coupons la poire en deux.",
-        aussi: ["Trouvons un compromis à mi-chemin."],
+        francais: "Cherchons un terrain d'entente.",
+        aussi: ["Coupons la poire en deux."],
+        aussiEtranger: ["Busquemos un término medio."],
         note: "Un punto medio, un terrain d'entente. Un término medio se dit aussi.",
       },
       {
         etranger: "Quisiera objetar en ese punto.",
         francais: "Je voudrais objecter là-dessus.",
         aussi: ["Je souhaite contester ce point."],
-        note: "Quisiera, imparfait du subjonctif employé comme conditionnel de politesse.",
+        note: "Quisiera + infinitif marque ici une réserve polie avant d'entrer en désaccord — le geste diplomatique par excellence.",
       },
       {
         etranger: "Es nuestra última oferta.",
         francais: "C'est notre dernière proposition.",
-        note: "L'annoncer sans y tenir détruit la crédibilité, en espagnol comme ailleurs.",
+        note: "La última oferta appelle tomarlo o dejarlo (« à prendre ou à laisser ») et mantenerse en sus trece, ne pas bouger d'un pouce.",
       },
       {
         etranger: "Estamos dispuestos a levantarnos de la mesa.",
@@ -204,7 +205,7 @@ export const ESPAGNOL_AVANZADO_C2: LotCartes[] = [
         etranger: "¿Podemos dejarlo encima de la mesa?",
         francais: "Peut-on laisser ce point en suspens ?",
         aussi: ["Peut-on remettre ce sujet à plus tard ?"],
-        note: "Dejar algo encima de la mesa, le laisser ouvert. Attention : l'anglais to table a le sens inverse.",
+        note: "Dejar algo encima de la mesa, le laisser ouvert — l'inverse de dejarlo zanjado.",
       },
       {
         etranger: "¿Qué haría falta para cerrarlo?",
@@ -278,19 +279,19 @@ export const ESPAGNOL_AVANZADO_C2: LotCartes[] = [
       {
         etranger: "En mi máquina funciona.",
         francais: "Chez moi, ça marche.",
-        note: "La phrase la plus célèbre du métier, et rarement un argument recevable.",
+        note: "El entorno, l'environnement technique ; en Amérique, on dirait plutôt en mi compu anda bien.",
       },
       {
         etranger: "Hay que escalarlo.",
-        francais: "Il faut passer à l'échelle supérieure.",
-        aussi: ["Il faut monter en charge."],
+        francais: "Il faut le faire remonter au niveau supérieur.",
+        aussi: ["Il faut escalader l'incident."],
         note: "Escalar dit aussi bien la montée en charge que l'escalade d'un incident : le contexte tranche.",
       },
       {
-        etranger: "La función está detrás de un interruptor.",
-        francais: "La fonctionnalité est derrière un interrupteur.",
+        etranger: "La función está detrás de un feature flag.",
+        francais: "La fonctionnalité est derrière un feature flag.",
         aussi: ["La fonctionnalité est activable à la demande."],
-        note: "Un interruptor de función traduit feature flag ; l'anglais reste plus courant à l'oral.",
+        note: "L'emprunt domine à l'oral ; bandera de característica est la forme hispanisée, rare.",
       },
       {
         etranger: "Lo sacamos y luego lo pulimos.",
@@ -438,8 +439,8 @@ export const ESPAGNOL_AVANZADO_C2: LotCartes[] = [
       },
       {
         etranger: "Como si eso lo hubiera parado alguna vez.",
-        francais: "Comme si ça l'avait jamais arrêté.",
-        note: "Como si demande toujours le subjonctif imparfait ou plus-que-parfait.",
+        francais: "Comme si ça ne l'avait jamais arrêté.",
+        note: "Como si + subjonctif nie ici un fait par antiphrase : le doute porte sur l'affirmation entière, pas sur la grammaire.",
       },
       {
         etranger: "Pues nada, todo controlado.",
@@ -469,15 +470,15 @@ export const ESPAGNOL_AVANZADO_C2: LotCartes[] = [
         note: "L'inversion cierto es que appartient à l'écrit soutenu. Es cierto que est plus neutre.",
       },
       {
-        etranger: "Dicho esto, los resultados se sostienen.",
-        francais: "Cela dit, les résultats tiennent.",
-        aussi: ["Ceci étant, les résultats restent valables."],
-        note: "Dicho esto articule la concession et la reprise. Plus souple que sin embargo.",
+        etranger: "No por ello deja de ser cierto.",
+        francais: "Cela n'en reste pas moins vrai.",
+        aussi: ["Ce qui ne l'empêche pas d'être vrai."],
+        note: "No por ello, sans que cela n'empêche : articulation de concession propre à l'écrit soutenu.",
       },
       {
         etranger: "Hay que reconocer que la muestra era pequeña.",
         francais: "Il faut reconnaître que l'échantillon était réduit.",
-        note: "Concéder une faiblesse désarme l'objection à venir. La muestra, l'échantillon.",
+        note: "Concéder une faiblesse désarme l'objection à venir — une tournure de la rhétorique de la concession.",
       },
       {
         etranger: "Tanto más cuanto que estamos en crisis.",
@@ -490,10 +491,10 @@ export const ESPAGNOL_AVANZADO_C2: LotCartes[] = [
         note: "Déplacer le débat plutôt que le perdre. La cuestión no es… sino…",
       },
       {
-        etranger: "Esto plantea una nueva pregunta.",
-        francais: "Cela soulève une autre question.",
-        aussi: ["Cela appelle une question supplémentaire."],
-        note: "Plantear una pregunta, poser un problème. Le verbe est indispensable à l'écrit argumenté.",
+        etranger: "Esto sienta las bases del debate.",
+        francais: "Cela pose les bases du débat.",
+        aussi: ["Cela jette les bases de la discussion."],
+        note: "Sentar las bases de algo, poser les bases.",
       },
       {
         etranger: "Por la misma razón, lo contrario también vale.",
@@ -509,12 +510,12 @@ export const ESPAGNOL_AVANZADO_C2: LotCartes[] = [
       {
         etranger: "Lejos de zanjar el asunto, lo reabre.",
         francais: "Loin de trancher la question, cela la rouvre.",
-        note: "Lejos de + infinitif, structure de renversement. Zanjar, trancher définitivement.",
+        note: "Lejos de + infinitif, structure de renversement. Dar carpetazo a algo, classer une affaire sans plus s'en occuper — l'inverse de zanjar.",
       },
       {
         etranger: "En suma, el asunto dista de estar cerrado.",
-        francais: "Bref, l'affaire est loin d'être close.",
-        aussi: ["En somme, le dossier est loin d'être clos."],
+        francais: "En somme, l'affaire est loin d'être close.",
+        aussi: ["Bref, le dossier est loin d'être clos."],
         note: "Distar de, être loin de — verbe soutenu, très employé dans la presse sérieuse.",
       },
     ],
@@ -533,8 +534,8 @@ export const ESPAGNOL_AVANZADO_C2: LotCartes[] = [
     parle: true,
     cartes: [
       {
-        etranger: "Ojeó el reloj de reojo.",
-        francais: "Elle jeta un coup d'œil furtif à sa montre.",
+        etranger: "Ojeó el periódico mientras miraba el reloj de reojo.",
+        francais: "Elle parcourut le journal en jetant un coup d'œil furtif à sa montre.",
         note: "De reojo, du coin de l'œil. Ojear vient de ojo, hojear de hoja.",
       },
       {
@@ -561,13 +562,13 @@ export const ESPAGNOL_AVANZADO_C2: LotCartes[] = [
       {
         etranger: "Se encogió de hombros y se marchó.",
         francais: "Il haussa les épaules et s'en alla.",
-        note: "Encogerse de hombros : l'espagnol nomme les épaules là où l'anglais les sous-entend.",
+        note: "Encogerse de hombros, hausser les épaules — comme en français.",
       },
       {
         etranger: "Su voz se fue apagando.",
         francais: "Sa voix s'éteignit peu à peu.",
         aussi: ["Sa phrase resta en suspens."],
-        note: "Ir + gérondif dit le progrès lent. Apagarse, s'éteindre, d'une voix comme d'une lumière.",
+        note: "Apagarse, s'éteindre, d'une voix comme d'une lumière.",
       },
       {
         etranger: "Hizo una mueca de dolor.",
@@ -605,7 +606,7 @@ export const ESPAGNOL_AVANZADO_C2: LotCartes[] = [
         etranger: "El modelo da cuenta de la mayor parte de la varianza.",
         francais: "Le modèle explique l'essentiel de la variance.",
         aussi: ["Le modèle rend compte de la majeure partie de la variance."],
-        note: "Dar cuenta de, expliquer une part. La expresión est figée dans l'écrit savant.",
+        note: "Dar cuenta de, expliquer une part. L'expression est figée dans l'écrit savant.",
       },
       {
         etranger: "Controlamos por edad e ingresos.",

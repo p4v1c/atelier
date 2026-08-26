@@ -51,7 +51,7 @@ export const ESPAGNOL_REGISTRES: LotCartes[] = [
         {
           titre: "Le cas coger, et les autres pièges de registre",
           texte:
-            "Coger est le verbe le plus utile d'Espagne : on y coge le bus, le téléphone, un rhume, une habitude. En Argentine, en Uruguay, au Mexique et dans plusieurs pays voisins, il désigne l'acte sexuel, et rien d'autre. Dire « voy a coger el autobús » à Buenos Aires provoque au mieux un fou rire.\n\nLa parade est connue de tous les hispanophones : tomar. Tomar el autobús, tomar un taxi, tomar una decisión — le verbe passe partout sans jamais choquer.\n\nD'autres mots demandent la même prudence. Concha désigne un coquillage en Espagne et le sexe féminin dans le Cône Sud — c'est aussi un prénom courant, Concha, diminutif de Concepción, ce qui complique les présentations. Pico, banal en Espagne, est vulgaire au Chili. Bicho change de sens selon les Caraïbes.\n\nRien de tout cela ne s'improvise, et rien ne s'apprend par cœur non plus. Le réflexe utile est de repérer les mots à risque quand on les rencontre, et de garder l'équivalent neutre sous la main.",
+            "Coger est le verbe le plus utile d'Espagne : on y coge le bus, le téléphone, un rhume, une habitude. En Argentine, en Uruguay, au Mexique et dans plusieurs pays voisins, il désigne l'acte sexuel, et rien d'autre. Dire « voy a coger el autobús » à Buenos Aires provoque au mieux un fou rire.\n\nLa parade est connue de tous les hispanophones : tomar. Tomar el autobús, tomar un taxi, tomar una decisión — le verbe passe partout sans jamais choquer.\n\nD'autres mots demandent la même prudence. Concha désigne un coquillage en Espagne et le sexe féminin dans le Cône Sud — c'est aussi un prénom courant, Concha, diminutif de Concepción, ce qui complique les présentations. Pico, banal en Espagne, est vulgaire au Chili. Bicho, banal ailleurs, est vulgaire à Porto Rico.\n\nRien de tout cela ne s'improvise, et rien ne s'apprend par cœur non plus. Le réflexe utile est de repérer les mots à risque quand on les rencontre, et de garder l'équivalent neutre sous la main.",
           visuels: [
             {
               type: "comparaison",
@@ -68,8 +68,8 @@ export const ESPAGNOL_REGISTRES: LotCartes[] = [
                 {
                   titre: "À manier selon le pays",
                   points: [
-                    "coger — neutre en Espagne, obscène ailleurs.",
-                    "plata — naturel en Amérique, familier en Espagne.",
+                    "coger — neutre en Espagne, tabou en Argentine, en Uruguay, au Mexique et dans plusieurs pays voisins.",
+                    "pasta — familier en Espagne ; plata, naturel dans le Cône Sud et une bonne partie de l'Amérique.",
                     "camión — bus au Mexique, poids lourd ailleurs.",
                   ],
                 },
@@ -80,7 +80,7 @@ export const ESPAGNOL_REGISTRES: LotCartes[] = [
         {
           titre: "Reconnaître d'où vient celui qui parle",
           texte:
-            "Trois marqueurs suffisent à situer un hispanophone dès la première phrase, et les repérer aide à comprendre le reste.\n\nLe premier est le pronom de deuxième personne du pluriel. Vosotros habláis marque l'Espagne, sauf les Canaries et l'Andalousie occidentale. Partout ailleurs, c'est ustedes hablan, la même forme que pour le vouvoiement.\n\nLe deuxième est le voseo. En Argentine, en Uruguay, au Paraguay et en Amérique centrale, tú devient vos, avec sa propre conjugaison : vos hablás, vos tenés, vos podés. L'accent tombe sur la dernière syllabe, et l'impératif change aussi : vení, mirá.\n\nLe troisième est la prononciation du c et du z. En Espagne — sauf les Canaries et une bonne partie de l'Andalousie —, cinco se prononce avec un th anglais ; partout ailleurs, comme un s. C'est la distinción contre le seseo, et cela s'entend au premier mot. Le ceceo est encore autre chose : prononcer aussi les s comme un th, trait andalou minoritaire.\n\nUn quatrième indice, plus discret, est le temps du passé. L'Espagne dit hoy he comido ; l'Amérique dit hoy comí. Le passé composé y recule presque partout.",
+            "Trois marqueurs suffisent à situer un hispanophone dès la première phrase, et les repérer aide à comprendre le reste.\n\nLe premier est le pronom de deuxième personne du pluriel. Vosotros habláis marque l'Espagne, sauf les Canaries et l'Andalousie occidentale. Partout ailleurs, c'est ustedes hablan, la même forme que pour le vouvoiement.\n\nLe deuxième est le voseo, déjà vu : tú devient vos en Argentine, en Uruguay, au Paraguay et en Amérique centrale, avec sa conjugaison propre.\n\nLe troisième est la prononciation du c et du z. En Espagne — sauf les Canaries et une bonne partie de l'Andalousie —, cinco se prononce avec un th anglais ; partout ailleurs, comme un s. C'est la distinción contre le seseo, et cela s'entend au premier mot. Le ceceo est encore autre chose : prononcer aussi les s comme un th, trait andalou minoritaire.\n\nUn quatrième indice, plus discret, est le temps du passé. L'Espagne dit hoy he comido ; l'Amérique dit hoy comí. Le passé composé y recule presque partout.",
         },
       ],
     },
@@ -88,7 +88,7 @@ export const ESPAGNOL_REGISTRES: LotCartes[] = [
       {
         etranger: "En España cogemos el autobús.",
         francais: "En Espagne, on prend le bus.",
-        note: "Coger est banal en Espagne. En Argentine et au Mexique, il est obscène : on dit tomar.",
+        note: "Coger est banal en Espagne. En Argentine, en Uruguay, au Mexique et dans plusieurs pays voisins, il est obscène : on dit tomar.",
       },
       {
         etranger: "En México se toma el camión.",
@@ -98,7 +98,7 @@ export const ESPAGNOL_REGISTRES: LotCartes[] = [
       {
         etranger: "No tengo plata para eso.",
         francais: "Je n'ai pas d'argent pour ça.",
-        note: "Plata dans presque toute l'Amérique ; dinero partout ; pasta, familier, en Espagne.",
+        note: "Plata dans le Cône Sud et une bonne partie de l'Amérique ; lana au Mexique ; dinero partout ; pasta, familier, en Espagne.",
       },
       {
         etranger: "Pásame el celular, por favor.",
@@ -106,8 +106,8 @@ export const ESPAGNOL_REGISTRES: LotCartes[] = [
         note: "Celular en Amérique, móvil en Espagne. Deux mots sans recouvrement.",
       },
       {
-        etranger: "¿Manejas o conduces tú?",
-        francais: "C'est toi qui conduis ?",
+        etranger: "¿Manejas tú o manejo yo?",
+        francais: "C'est toi qui conduis ou c'est moi ?",
         note: "Manejar en Amérique, conducir en Espagne — où manejar veut dire manipuler.",
       },
       {
@@ -126,9 +126,9 @@ export const ESPAGNOL_REGISTRES: LotCartes[] = [
         note: "Pileta en Argentine, alberca au Mexique, piscina en Espagne.",
       },
       {
-        etranger: "Ponte el saco, hace frío.",
+        etranger: "Ponte la campera, hace frío.",
         francais: "Mets ta veste, il fait froid.",
-        note: "Saco, la veste en Amérique ; chaqueta en Espagne, où saco veut dire sac.",
+        note: "Campera en Argentine, chamarra au Mexique, chaqueta ou cazadora en Espagne. Saco est la veste de costume — et un saco de patatas, un sac, partout.",
       },
       {
         etranger: "¿Qué onda, cómo andas?",
@@ -162,13 +162,14 @@ export const ESPAGNOL_REGISTRES: LotCartes[] = [
       },
       {
         etranger: "Salimos en plan tranquilo.",
-        francais: "On est sortis genre tranquillement.",
-        note: "En plan, très espagnol et très jeune : l'équivalent exact du « genre » français.",
+        francais: "On est sortis peinards.",
+        aussi: ["On est sortis, genre, tranquille."],
+        note: "En plan tranquilo, sans se prendre la tête. En plan, très espagnol et très jeune, sert aussi devant un nom comme le « genre » français.",
       },
       {
         etranger: "Es que no me dio tiempo.",
         francais: "C'est que je n'ai pas eu le temps.",
-        note: "Es que introduit une justification. Sans lui, la phrase paraît sèche.",
+        note: "Es que introduit la justification et adoucit le refus. Sans ce mot, la phrase paraît sèche.",
       },
       {
         etranger: "A ver, déjame pensar.",
@@ -198,7 +199,7 @@ export const ESPAGNOL_REGISTRES: LotCartes[] = [
       },
       {
         etranger: "Ya, pero no es tan fácil.",
-        francais: "Oui, mais ce n'est pas si simple.",
+        francais: "Oui, mais ce n'est pas si facile.",
         note: "Ya seul veut dire « oui, j'ai compris ». Suivi de pero, il annonce une objection.",
       },
     ],

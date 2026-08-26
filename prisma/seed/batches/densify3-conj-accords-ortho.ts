@@ -45,7 +45,7 @@ export const DENSIFY3_CONJ_ACC_ORTHO: ContentBatch = {
       { marked: "Il faudrait que l'effort en [vaut] la peine.", fix: "vaille" },
     ]},
     { ruleSlug: "conj-verbe-plaire", sentences: [
-      { marked: "Ce quartier me [plait] moins depuis les travaux.", fix: "plaît" },
+      { marked: "Ce quartier me plait moins depuis les travaux.", fix: null },
       { marked: "Sa franchise [deplait] à plus d'un dans le service.", fix: "déplaît" },
     ]},
     { ruleSlug: "conj-verbe-croitre", sentences: [
@@ -97,7 +97,7 @@ export const DENSIFY3_CONJ_ACC_ORTHO: ContentBatch = {
       { marked: "Le jardin est sec : [pense-y] avant de partir.", fix: "penses-y" },
     ]},
     { ruleSlug: "conj-verbe-naitre", sentences: [
-      { marked: "Un soupçon [nait] chaque fois qu'il change de version.", fix: "naît" },
+      { marked: "Un soupçon nait chaque fois qu'il change de version.", fix: null },
       { marked: "Elle [naîssit] au petit matin, un jour de tempête.", fix: "naquit" },
     ]},
     { ruleSlug: "conj-verbe-prevoir-futur", sentences: [
@@ -219,7 +219,7 @@ export const DENSIFY3_CONJ_ACC_ORTHO: ContentBatch = {
       { marked: "Les moines de l'[abaye] cultivaient déjà la vigne.", fix: "l'abbaye" },
     ]},
     { ruleSlug: "ortho-apercevoir-apparaitre", sentences: [
-      { marked: "Un doute commence à [apparaitre] dans son témoignage.", fix: "apparaître" },
+      { marked: "Un doute commence à apparaitre dans son témoignage.", fix: null },
       { marked: "Nous avons [appercu] la maison depuis le sommet.", fix: "aperçu" },
     ]},
     { ruleSlug: "ortho-agrafe-aggraver", sentences: [
@@ -288,7 +288,7 @@ export const DENSIFY3_CONJ_ACC_ORTHO: ContentBatch = {
     ]},
     { ruleSlug: "ortho-mots-en-tion-ption", sentences: [
       { marked: "L'[interuption] de séance a duré vingt minutes.", fix: "L'interruption" },
-      { marked: "Sa [démition] a surpris toute la rédaction.", fix: "démission" },
+      { marked: "Sa [réacsion] a surpris tout le monde dans la salle.", fix: "réaction" },
     ]},
     { ruleSlug: "ortho-mots-en-ien", sentences: [
       { marked: "La [chirurgiene] opère trois fois par semaine.", fix: "chirurgienne" },
@@ -299,7 +299,7 @@ export const DENSIFY3_CONJ_ACC_ORTHO: ContentBatch = {
       { marked: "Son [optimysme] finit par gagner tout le groupe.", fix: "optimisme" },
     ]},
     { ruleSlug: "ortho-abreger-accents", sentences: [
-      { marked: "Nous [assiégons] la question depuis des semaines.", fix: "assiégeons" },
+      { marked: "Nous [assiégons] la ville depuis des semaines déjà.", fix: "assiégeons" },
       { marked: "Ce store [protége] mal la vitrine du soleil.", fix: "protège" },
     ]},
     { ruleSlug: "ortho-consonnes-finales-muettes", sentences: [

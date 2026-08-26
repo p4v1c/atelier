@@ -167,7 +167,7 @@ export const BATCH_007: ContentBatch = {
       slug: "conj-verbes-uire",
       category: "Conjugaison",
       title: "Verbes en -uire",
-      statement: "Les verbes en <b>-uire</b> font leur participe passé en <b>-uit</b> : conduit, construit, produit, traduit.",
+      statement: "Certains verbes en <b>-uire</b> — conduire, construire, produire, traduire — font leur participe passé en <b>-uit</b> (ce n'est pas le cas de tous : nuire fait nui, luire fait lui).",
       tip: "Le t final ne s'entend pas mais s'écrit : féminin « conduite » pour le vérifier.",
       difficulty: 2,
       sentences: [
@@ -183,7 +183,7 @@ export const BATCH_007: ContentBatch = {
       category: "Conjugaison",
       title: "Verbes en -aître",
       statement: "<b>connaître</b>, <b>paraître</b>, <b>naître</b> gardent l'accent circonflexe devant un <b>t</b> : il connaît, il paraîtra.",
-      tip: "Le circonflexe survit devant le t, nulle part ailleurs.",
+      tip: "Le circonflexe survit devant le t, nulle part ailleurs. (Depuis les rectifications de 1990, l'écriture sans circonflexe — connait, paraitra — est aussi admise ; ce module retient ici la graphie traditionnelle.)",
       difficulty: 3,
       sentences: [
         { marked: "Il [connait] la région comme sa poche depuis l'enfance.", fix: "connaît" },
@@ -291,7 +291,7 @@ export const BATCH_007: ContentBatch = {
       tip: "On ne dit jamais « je faux » : falloir n'a qu'une seule personne.",
       difficulty: 2,
       sentences: [
-        { marked: "Les efforts qu'il a [fallus] dépasseront tout ce qu'on imagine.", fix: "fallu" },
+        { marked: "Les efforts qu'il a [fallus] dépassent tout ce qu'on imagine.", fix: "fallu" },
         { marked: "Les heures qu'il a [fallues] pour tout ranger m'ont épuisé.", fix: "fallu" },
         { marked: "Il [faudras] réfléchir avant de signer ce document.", fix: "faudra" },
         { marked: "Les précautions qu'il a [fallues] prendre étaient nombreuses.", fix: "fallu" },
@@ -316,7 +316,7 @@ export const BATCH_007: ContentBatch = {
     {
       slug: "conj-verbes-croire-voir-imparfait",
       category: "Conjugaison",
-      title: "Le i des verbes en -yer et -ier à l'imparfait",
+      title: "Le i doublé à l'imparfait (radical en y ou i)",
       statement: "À l'imparfait et au subjonctif, <b>nous</b> et <b>vous</b> ajoutent un <b>i</b> au radical déjà terminé par y ou i : nous croyions, vous riiez.",
       tip: "Prononce lentement : on entend bien les deux sons, il faut deux lettres.",
       difficulty: 3,
@@ -324,7 +324,7 @@ export const BATCH_007: ContentBatch = {
         { marked: "Nous [croyons] alors que tout allait rentrer dans l'ordre.", fix: "croyions" },
         { marked: "Vous [riez] beaucoup quand vous étiez plus jeunes.", fix: "riiez" },
         { marked: "Il faut que nous [payons] la facture avant vendredi.", fix: "payions" },
-        { marked: "Autrefois, nous [travaillons] tous les samedis matin.", fix: "travaillions" },
+        { marked: "Autrefois, nous [étudions] tous les samedis matin.", fix: "étudiions" },
         { marked: "Nous voyions le clocher depuis la fenêtre de la cuisine.", fix: null },
       ],
     },
@@ -337,8 +337,8 @@ export const BATCH_007: ContentBatch = {
       difficulty: 3,
       sentences: [
         { marked: "Je [suit] un cours du soir depuis le mois de septembre.", fix: "suis" },
-        { marked: "Elle a [vécue] dix ans à l'étranger avant de rentrer.", fix: "vécu" },
-        { marked: "Nous avons [suivis] ses conseils à la lettre.", fix: "suivi" },
+        { marked: "Je [vit] très simplement, sans même un travail fixe.", fix: "vis" },
+        { marked: "Tu [suit] mal ce raisonnement, reprends depuis le début.", fix: "suis" },
         { marked: "Ils [suives] la même formation depuis la rentrée.", fix: "suivent" },
         { marked: "Je suis ses recommandations depuis le premier jour.", fix: null },
       ],
@@ -359,7 +359,7 @@ export const BATCH_007: ContentBatch = {
       ],
     },
     {
-      slug: "conj-verbes-tressaillir",
+      slug: "conj-verbe-cueillir-futur",
       category: "Conjugaison",
       title: "Cueillir au futur : je cueillerai",
       statement: "<b>cueillir</b> et ses composés font leur futur en <b>-erai</b>, comme le premier groupe. En revanche <b>assaillir</b> et <b>tressaillir</b> gardent <b>-irai</b>.",
