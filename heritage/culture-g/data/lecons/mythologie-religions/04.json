@@ -7,7 +7,7 @@
   },
   {
    "titre": "Les textes de référence",
-   "texte": "Les chrétiens reconnaissent comme Écriture un ensemble de livres réparti en deux parties. La première, appelée Ancien Testament, correspond pour l'essentiel à la Bible hébraïque, avec des différences de contenu selon les confessions : certaines incluent des livres transmis en grec, appelés deutérocanoniques par les catholiques et apocryphes par les protestants. La seconde partie, le Nouveau Testament, comprend vingt-sept livres rédigés en grec entre le milieu du Ier siècle et le début du IIe siècle. On y trouve quatre évangiles, attribués à Matthieu, Marc, Luc et Jean, qui rapportent l'enseignement, les actes, la mort et selon la foi chrétienne la résurrection de Jésus. Les Actes des Apôtres racontent la diffusion du message après sa mort. Viennent ensuite des lettres, dont plusieurs sont attribuées à Paul et s'adressent à des communautés précises pour régler des questions de croyance ou d'organisation, puis l'Apocalypse, texte au langage symbolique écrit dans un contexte de persécution. La liste définitive de ces livres, appelée canon, s'est fixée progressivement au cours des IIe et IVe siècles, écartant d'autres écrits comme l'évangile de Thomas. La traduction latine réalisée par Jérôme, connue sous le nom de Vulgate, a servi de référence en Occident pendant plus de mille ans avant les traductions en langues modernes.",
+   "texte": "Les chrétiens reconnaissent comme Écriture un ensemble de livres réparti en deux parties. La première, appelée Ancien Testament, correspond pour l'essentiel à la Bible hébraïque, avec des différences de contenu selon les confessions : certaines incluent des livres transmis en grec, appelés deutérocanoniques par les catholiques et apocryphes par les protestants. La seconde partie, le Nouveau Testament, comprend vingt-sept livres rédigés en grec entre le milieu du Ier siècle et le début du IIe siècle. On y trouve quatre évangiles, attribués à Matthieu, Marc, Luc et Jean, qui rapportent l'enseignement, les actes, la mort et selon la foi chrétienne la résurrection de Jésus. Les Actes des Apôtres racontent la diffusion du message après sa mort. Viennent ensuite des lettres, dont plusieurs sont attribuées à Paul et s'adressent à des communautés précises pour régler des questions de croyance ou d'organisation, puis l'Apocalypse, texte au langage symbolique écrit dans un contexte de persécution. La liste définitive de ces livres, appelée canon, s'est fixée progressivement du IIe au IVe siècle, écartant d'autres écrits comme l'évangile de Thomas. La traduction latine réalisée par Jérôme, connue sous le nom de Vulgate, a servi de référence en Occident pendant plus de mille ans avant les traductions en langues modernes.",
    "visuel": {
     "type": "tableau",
     "titre": "Ce que contient le Nouveau Testament",
@@ -33,7 +33,7 @@
       "Texte au langage symbolique, écrit dans un contexte de persécution"
      ]
     ],
-    "note": "Vingt-sept livres rédigés en grec entre le milieu du Ier siècle et le début du IIe siècle. La première partie de la Bible chrétienne, l'Ancien Testament, correspond pour l'essentiel à la Bible hébraïque, avec des différences de contenu selon les confessions. La liste définitive, appelée canon, s'est fixée au cours des IIe et IVe siècles."
+    "note": "Vingt-sept livres rédigés en grec entre le milieu du Ier siècle et le début du IIe siècle. La première partie de la Bible chrétienne, l'Ancien Testament, correspond pour l'essentiel à la Bible hébraïque, avec des différences de contenu selon les confessions. La liste définitive, appelée canon, s'est fixée du IIe au IVe siècle."
    }
   },
   {
@@ -127,7 +127,7 @@
  ],
  "quiz": [
   {
-   "q": "Combien de livres compose le Nouveau Testament ?",
+   "q": "Combien de livres composent le Nouveau Testament ?",
    "choix": [
     "Douze",
     "Vingt-sept",

@@ -34,7 +34,7 @@
       "R",
       "Ohm",
       "L'opposition au passage du courant",
-      "Ohmmètre"
+      "Ohmmètre, hors tension, composant isolé du circuit"
      ]
     ],
     "note": "Loi d'Ohm, publiée par Georg Simon Ohm en 1827 : U = R × I. Elle vaut pour les conducteurs métalliques à température constante, pas pour une diode."
@@ -53,7 +53,7 @@
    "texte": "Une installation moderne s'organise autour d'un tableau de répartition où chaque circuit dispose de sa protection. Le disjoncteur est un interrupteur électrique automatique conçu pour protéger le circuit des dommages causés par un courant excessif, qu'il provienne d'une surcharge, d'un court-circuit ou d'un défaut à la terre ; contrairement au fusible, il se réarme manuellement sans être remplacé. Il combine généralement deux mécanismes. La protection thermique repose sur un bilame qui se déforme en chauffant et finit par ouvrir le circuit : elle réagit lentement, en quelques secondes à quelques minutes, ce qui convient aux surcharges prolongées. La protection magnétique utilise un électro-aimant qui écarte brutalement les contacts dès qu'une pointe de courant survient : sa réaction est quasi instantanée, de l'ordre de la milliseconde, ce qui convient aux courts-circuits. Ces deux protections défendent le matériel et préviennent l'incendie, mais elles ne suffisent pas à protéger les personnes. C'est le rôle de la protection différentielle, qui compare en permanence le courant entrant et le courant sortant du circuit. En fonctionnement normal, les deux sont égaux. S'ils diffèrent de 30 milliampères, seuil standard en domestique, c'est qu'une fuite s'écoule vers la terre, éventuellement à travers un corps humain, et l'appareil coupe aussitôt l'alimentation. L'interrupteur différentiel remplit cette seule fonction sans détecter les surintensités, alors que le disjoncteur différentiel réunit les deux protections.",
    "visuel": {
     "type": "comparaison",
-    "titre": "Deux protections, deux rôles",
+    "titre": "Ce que chaque protection surveille",
     "colonnes": [
      {
       "titre": "Le disjoncteur",
@@ -120,7 +120,7 @@
    "explication": "Publiée en 1827 par Georg Simon Ohm, la loi d'Ohm énonce que la tension aux bornes d'une résistance est proportionnelle à l'intensité du courant qui la traverse. On l'écrit U égale R fois I, la tension en volts, l'intensité en ampères et la résistance en ohms. En traçant la tension en fonction de l'intensité pour un conducteur ohmique, on obtient une droite passant par l'origine dont la pente donne la résistance. Cette loi vaut de façon fiable pour les conducteurs métalliques à température constante, car la résistance varie avec la température, et certains composants comme les diodes ne la suivent pas."
   },
   {
-   "q": "Quelle est la tension efficace et la fréquence du réseau électrique domestique en France ?",
+   "q": "Quelles sont la tension efficace et la fréquence du réseau électrique domestique en France ?",
    "choix": [
     "110 volts à 60 hertz",
     "230 volts à 50 hertz",

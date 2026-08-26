@@ -50,7 +50,7 @@
   },
   {
    "titre": "Odin, Thor, Loki et les grandes figures divines",
-   "texte": "Odin occupe la première place parmi les Ases. Les poèmes le présentent comme un dieu de la souveraineté, de la guerre, de la poésie et de la connaissance cachée. Pour obtenir la sagesse, il accepte de sacrifier un œil à la source de Mimir, puis de rester pendu neuf nuits à l'arbre du monde, blessé par sa propre lance, afin de saisir le secret des runes. Deux corbeaux, Hugin et Munin, parcourent le monde et lui rapportent ce qu'ils voient ; deux loups l'accompagnent et son cheval Sleipnir possède huit jambes. Il accueille dans sa salle du Valhalla les guerriers tombés au combat, choisis par les Valkyries, pour qu'ils combattent à ses côtés au dernier jour. Thor, son fils, est le dieu du tonnerre, protecteur des hommes et des dieux contre les géants ; il possède le marteau Mjöllnir, forgé par les nains, ainsi qu'une ceinture de force et un char tiré par deux boucs. Freyr et Freyja, issus des Vanes, sont liés à la fertilité, à l'amour et à la prospérité. Loki tient une place singulière : compagnon des dieux, capable de changer de forme, il les tire de nombreux mauvais pas mais provoque aussi la mort de Balder, le fils lumineux d'Odin, ce qui lui vaut un châtiment terrible.",
+   "texte": "Odin occupe la première place parmi les Ases. Les poèmes le présentent comme un dieu de la souveraineté, de la guerre, de la poésie et de la connaissance cachée. Pour obtenir la sagesse, il accepte de sacrifier un œil à la source de Mimir, puis de rester pendu neuf nuits à l'arbre du monde, blessé par sa propre lance, afin de saisir le secret des runes. Deux corbeaux, Hugin et Munin, parcourent le monde et lui rapportent ce qu'ils voient ; deux loups l'accompagnent et son cheval Sleipnir possède huit jambes. Il accueille dans sa salle du Valhalla les guerriers tombés au combat, choisis par les Valkyries, pour qu'ils combattent à ses côtés au dernier jour. Thor, son fils, est le dieu du tonnerre, protecteur des hommes et des dieux contre les géants ; il possède le marteau Mjöllnir, forgé par les nains, ainsi qu'une ceinture de force et un char tiré par deux boucs. Freyr et Freyja, issus des Vanes, sont liés à la fertilité, à l'amour et à la prospérité. Loki tient une place singulière : compagnon des dieux, capable de changer de forme, il les tire de nombreux mauvais pas mais provoque aussi la mort de Baldr, le fils lumineux d'Odin, ce qui lui vaut un châtiment terrible.",
    "visuel": {
     "type": "tableau",
     "titre": "Les grandes figures divines et leurs attributs",
@@ -73,14 +73,14 @@
      ],
      [
       "Loki",
-      "Compagnon des dieux capable de changer de forme ; il les tire de mauvais pas mais provoque la mort de Balder, ce qui lui vaut un châtiment terrible"
+      "Compagnon des dieux capable de changer de forme ; il les tire de mauvais pas mais provoque la mort de Baldr, ce qui lui vaut un châtiment terrible"
      ]
     ]
    }
   },
   {
    "titre": "Le Ragnarök, la fin et le recommencement",
-   "texte": "Un trait remarquable de la mythologie nordique est qu'elle annonce la destruction du monde des dieux. Ce dénouement porte le nom de Ragnarök, expression que l'on traduit par destin des puissances ou crépuscule des dieux. La Völuspá en décrit les signes annonciateurs : trois hivers terribles se succèdent sans été, les liens sociaux se défont, les frères s'entretuent. Le loup Fenrir, longtemps enchaîné, rompt ses liens ; le serpent de Midgard sort de l'océan ; le navire fait d'ongles de morts appareille et Loki, libéré, marche contre ses anciens compagnons avec les géants du feu conduits par Surt. Heimdall sonne du cor et les dieux, accompagnés des guerriers du Valhalla, s'avancent vers la plaine où doit se livrer la bataille. Le récit décrit alors des combats singuliers : Odin est dévoré par Fenrir, que son fils Vidar venge aussitôt ; Thor tue le serpent mais succombe à son venin après quelques pas ; Freyr tombe devant Surt, qui embrase le monde. La terre sombre dans la mer. Le poème ne s'arrête pourtant pas là : une terre nouvelle émerge, verdoyante, où reviennent quelques dieux survivants, dont Balder revenu du royaume des morts, ainsi qu'un couple humain qui s'était abrité dans un bois. Le monde recommence donc après sa disparition.",
+   "texte": "Un trait remarquable de la mythologie nordique est qu'elle annonce la destruction du monde des dieux. Ce dénouement porte le nom de Ragnarök, expression que l'on traduit par destin des puissances ou crépuscule des dieux. La Völuspá en décrit les signes annonciateurs : trois hivers terribles se succèdent sans été, les liens sociaux se défont, les frères s'entretuent. Le loup Fenrir, longtemps enchaîné, rompt ses liens ; le serpent de Midgard sort de l'océan ; le navire fait d'ongles de morts appareille et Loki, libéré, marche contre ses anciens compagnons avec les géants du feu conduits par Surt. Heimdall sonne du cor et les dieux, accompagnés des guerriers du Valhalla, s'avancent vers la plaine où doit se livrer la bataille. Le récit décrit alors des combats singuliers : Odin est dévoré par Fenrir, que son fils Vidar venge aussitôt ; Thor tue le serpent mais succombe à son venin après quelques pas ; Freyr tombe devant Surt, qui embrase le monde. La terre sombre dans la mer. Le poème ne s'arrête pourtant pas là : une terre nouvelle émerge, verdoyante, où reviennent quelques dieux survivants, dont Baldr revenu du royaume des morts, ainsi qu'un couple humain qui s'était abrité dans un bois. Le monde recommence donc après sa disparition.",
    "visuel": {
     "type": "etapes",
     "titre": "L'enchaînement du Ragnarök selon la Völuspá",
@@ -107,7 +107,7 @@
      },
      {
       "label": "Le recommencement",
-      "texte": "Une terre nouvelle et verdoyante émerge, où reviennent quelques dieux survivants, dont Balder, ainsi qu'un couple humain abrité dans un bois."
+      "texte": "Une terre nouvelle et verdoyante émerge, où reviennent quelques dieux survivants, dont Baldr, ainsi qu'un couple humain abrité dans un bois."
      }
     ]
    }
@@ -164,7 +164,7 @@
    ],
    "bonne": 2,
    "difficulte": 2,
-   "explication": "Le poème de la Völuspá ne s'achève pas sur la destruction : après l'embrasement du monde et son engloutissement dans la mer, une terre verdoyante émerge à nouveau. Quelques dieux survivants s'y retrouvent, parmi lesquels Balder revenu du royaume des morts, et un couple humain abrité dans un bois repeuple la terre. Le monde ne demeure donc pas vide, et les géants ne l'emportent pas : Surt et eux périssent aussi dans le cataclysme. Rien dans les textes ne décrit non plus une divinisation générale des hommes. Ce schéma de fin suivie d'un recommencement est une particularité notable de ces récits."
+   "explication": "Le poème de la Völuspá ne s'achève pas sur la destruction : après l'embrasement du monde et son engloutissement dans la mer, une terre verdoyante émerge à nouveau. Quelques dieux survivants s'y retrouvent, parmi lesquels Baldr revenu du royaume des morts, et un couple humain abrité dans un bois repeuple la terre. Le monde ne demeure donc pas vide, et les géants ne l'emportent pas : Surt et eux périssent aussi dans le cataclysme. Rien dans les textes ne décrit non plus une divinisation générale des hommes. Ce schéma de fin suivie d'un recommencement est une particularité notable de ces récits."
   },
   {
    "q": "Comment appelait-on les banquets sacrificiels de la religion scandinave ancienne ?",

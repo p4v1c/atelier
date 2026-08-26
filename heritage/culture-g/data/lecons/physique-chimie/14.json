@@ -3,7 +3,7 @@
  "sections": [
   {
    "titre": "Kepler : les trois lois du mouvement des planètes",
-   "texte": "Avant de savoir pourquoi les planètes tournent, il a fallu décrire précisément comment elles tournent. C'est l'œuvre de Johannes Kepler, qui exploita les observations d'une exceptionnelle précision accumulées par l'astronome danois Tycho Brahe, en particulier celles portant sur la planète Mars. Kepler en tira trois lois purement empiriques. La première, dite loi des orbites, affirme que les planètes du système solaire décrivent des trajectoires elliptiques dont le Soleil occupe l'un des foyers : le cercle parfait, dogme hérité de l'Antiquité, était abandonné. La deuxième, dite loi des aires, énonce que le segment reliant le Soleil à la planète balaie des aires égales pendant des durées égales ; il en résulte que la vitesse orbitale n'est pas constante, la planète allant plus vite au périhélie, lorsqu'elle est proche du Soleil, et plus lentement à l'aphélie. La troisième, dite loi des périodes, établit que le carré de la période de révolution est proportionnel au cube du demi-grand axe de l'orbite, autrement dit que le rapport de ces deux quantités est le même pour toutes les planètes. Kepler publia les deux premières dans l'Astronomia nova en 1609 et la troisième dans l'Harmonices Mundi en 1618. Ces lois valent pour tout système gravitationnel à deux corps : satellites autour d'une planète, étoiles doubles, et elles servent aujourd'hui encore à caractériser les exoplanètes détectées par la méthode des transits.",
+   "texte": "Avant de savoir pourquoi les planètes tournent, il a fallu décrire précisément comment elles tournent. C'est l'œuvre de Johannes Kepler, qui exploita les observations d'une exceptionnelle précision accumulées par l'astronome danois Tycho Brahe, en particulier celles portant sur la planète Mars. Kepler en tira trois lois purement empiriques. La première, dite loi des orbites, affirme que les planètes du système solaire décrivent des trajectoires elliptiques dont le Soleil occupe l'un des foyers : le cercle parfait, dogme hérité de l'Antiquité, était abandonné. La deuxième, dite loi des aires, énonce que le segment reliant le Soleil à la planète balaie des aires égales pendant des durées égales ; il en résulte que la vitesse orbitale n'est pas constante, la planète allant plus vite au périhélie, lorsqu'elle est proche du Soleil, et plus lentement à l'aphélie. La troisième, dite loi des périodes, établit que le carré de la période de révolution est proportionnel au cube du demi-grand axe de l'orbite, autrement dit que le rapport de ces deux quantités est le même pour toutes les planètes. Kepler publia les deux premières dans l'Astronomia nova en 1609, et la troisième — qu'il découvrit le 15 mai 1618 — dans l'Harmonices Mundi en 1619. Ces lois valent pour tout système gravitationnel à deux corps : satellites autour d'une planète, étoiles doubles, et elles servent aujourd'hui encore à caractériser les exoplanètes détectées par la méthode des transits.",
    "visuel": {
     "type": "tableau",
     "titre": "Les trois lois de Kepler",
@@ -29,7 +29,7 @@
       "Le rapport est le même pour toutes les planètes"
      ]
     ],
-    "note": "Les deux premières paraissent dans l'Astronomia nova (1609), la troisième dans l'Harmonices Mundi (1618)."
+    "note": "Les deux premières paraissent dans l'Astronomia nova (1609), la troisième dans l'Harmonices Mundi (1619)."
    }
   },
   {
@@ -42,14 +42,14 @@
   },
   {
    "titre": "Marnages, frottement des marées et évolution du système Terre-Lune",
-   "texte": "On appelle marnage la différence de hauteur entre une pleine mer et la basse mer qui la suit. Sa valeur dépend beaucoup moins de la théorie que de la géographie locale : la forme des côtes, la profondeur du plateau continental et les phénomènes de résonance dans les baies peuvent amplifier considérablement le phénomène. En haute mer, l'amplitude reste modeste, de l'ordre de quelques dizaines de centimètres, alors que certaines baies atteignent des valeurs spectaculaires. La baie de Fundy, au Canada, détient le record avec un marnage pouvant approcher 18,5 mètres, et la baie du Mont-Saint-Michel, en France, atteint environ 15 mètres, ce qui compte parmi les plus grandes amplitudes du monde. Les marées ne se contentent pas de faire monter et descendre l'eau : en déformant sans cesse les océans et, dans une moindre mesure, la croûte terrestre, elles dissipent de l'énergie par frottement. Cette dissipation a des conséquences mesurables à l'échelle astronomique. La rotation de la Terre ralentit progressivement, la durée du jour s'allongeant d'environ deux millisecondes par siècle. Par conservation du moment cinétique du système, la Lune s'éloigne de la Terre d'environ 3,8 centimètres par an, valeur établie notamment grâce aux tirs laser sur les réflecteurs déposés par les missions lunaires. Les marées sont donc un moteur lent mais implacable de l'évolution du couple Terre-Lune.",
+   "texte": "On appelle marnage la différence de hauteur entre une pleine mer et la basse mer qui la suit. Sa valeur dépend beaucoup moins de la théorie que de la géographie locale : la forme des côtes, la profondeur du plateau continental et les phénomènes de résonance dans les baies peuvent amplifier considérablement le phénomène. En haute mer, l'amplitude reste modeste, de l'ordre de quelques dizaines de centimètres, alors que certaines baies atteignent des valeurs spectaculaires. La baie de Fundy, au Canada, détient le record mondial : à Burntcoat Head, en Nouvelle-Écosse, le marnage moyen de vive-eau atteint 14,5 mètres et le marnage extrême 16,3 mètres — la hauteur d'un immeuble de cinq étages, deux fois par jour ; le record absolu, 21,6 mètres, date d'octobre 1869, lorsqu'une tempête tropicale s'est ajoutée à une marée de vive-eau. La baie du Mont-Saint-Michel, en France, atteint quant à elle environ 15 mètres, ce qui compte parmi les plus grandes amplitudes du monde. Les marées ne se contentent pas de faire monter et descendre l'eau : en déformant sans cesse les océans et, dans une moindre mesure, la croûte terrestre, elles dissipent de l'énergie par frottement. Cette dissipation a des conséquences mesurables à l'échelle astronomique. La rotation de la Terre ralentit progressivement, la durée du jour s'allongeant d'environ deux millisecondes par siècle. Par conservation du moment cinétique du système, la Lune s'éloigne de la Terre d'environ 3,8 centimètres par an, valeur établie notamment grâce aux tirs laser sur les réflecteurs déposés par les missions lunaires. Les marées sont donc un moteur lent mais implacable de l'évolution du couple Terre-Lune.",
    "visuel": {
     "type": "chiffres",
     "titre": "Ce que font les marées",
     "items": [
      {
-      "valeur": "18,5 m",
-      "label": "marnage record de la baie de Fundy, au Canada"
+      "valeur": "16,3 m",
+      "label": "marnage extrême de la baie de Fundy, au Canada"
      },
      {
       "valeur": "15 m",
@@ -131,7 +131,7 @@
    ],
    "bonne": 2,
    "difficulte": 2,
-   "explication": "Lorsque le Soleil, la Terre et la Lune sont alignés, configuration appelée syzygie qui correspond à la nouvelle lune et à la pleine lune, les effets de marée du Soleil et de la Lune s'additionnent : ce sont les vives-eaux, marées de forte amplitude. Aux premier et dernier quartiers, en quadrature, les deux effets se contrarient et donnent les mortes-eaux, de faible amplitude. Le marnage n'est pas un type de marée mais la différence de hauteur entre une pleine mer et la basse mer suivante ; il atteint environ 18,5 mètres dans la baie de Fundy au Canada et environ 15 mètres dans la baie du Mont-Saint-Michel."
+   "explication": "Lorsque le Soleil, la Terre et la Lune sont alignés, configuration appelée syzygie qui correspond à la nouvelle lune et à la pleine lune, les effets de marée du Soleil et de la Lune s'additionnent : ce sont les vives-eaux, marées de forte amplitude. Aux premier et dernier quartiers, en quadrature, les deux effets se contrarient et donnent les mortes-eaux, de faible amplitude. Le marnage n'est pas un type de marée mais la différence de hauteur entre une pleine mer et la basse mer suivante ; il atteint couramment 14,5 mètres dans la baie de Fundy au Canada, où il a exceptionnellement culminé à 21,6 mètres en 1869, contre environ 15 mètres dans la baie du Mont-Saint-Michel."
   },
   {
    "q": "Quelle est approximativement la vitesse de libération à la surface de la Terre ?",
@@ -146,16 +146,16 @@
    "explication": "La vitesse de libération est la vitesse minimale qui permet à un objet lancé de s'échapper de l'attraction d'un astre ; pour la Terre, elle vaut environ 11,2 kilomètres par seconde, soit plus de 40 000 kilomètres par heure. La valeur de 7,9 kilomètres par seconde correspond à autre chose : c'est la vitesse nécessaire pour se maintenir sur une orbite circulaire basse. Les 2,4 kilomètres par seconde sont la vitesse de libération de la Lune, et les 617 kilomètres par seconde celle du Soleil. Il faut noter qu'un engin à propulsion continue pourrait théoriquement s'éloigner sans jamais atteindre cette vitesse : c'est une condition suffisante, non nécessaire."
   },
   {
-   "q": "Quelle grandeur reste identique pour deux corps en chute libre dans le vide ?",
+   "q": "Une fusée doit-elle atteindre 11,2 km/s pour quitter la Terre ?",
    "choix": [
-    "L'accélération, quelle que soit leur masse",
-    "La force de gravitation qu'ils subissent",
-    "Leur quantité de mouvement",
-    "Leur énergie cinétique à l'arrivée"
+    "Non : avec une poussée continue, elle peut s'éloigner indéfiniment à vitesse bien plus faible",
+    "Oui, c'est une condition à la fois nécessaire et suffisante",
+    "Non, cette vitesse ne concerne que les satellites en orbite basse",
+    "Oui, sinon la gravité terrestre la ramène immanquablement au sol"
    ],
    "bonne": 0,
    "difficulte": 2,
-   "explication": "Un corps deux fois plus lourd subit une force gravitationnelle deux fois plus grande, mais il oppose aussi une inertie deux fois plus grande : les deux effets se compensent exactement, et l'accélération est la même pour tous les corps. C'est ce que Galilée avait établi et que l'équipage d'Apollo 15 a vérifié sur la Lune en lâchant simultanément un marteau et une plume, qui ont touché le sol ensemble. Sur Terre, seule la résistance de l'air brise cette égalité."
+   "explication": "La vitesse de libération n'est une condition suffisante que pour un objet lancé sans propulsion ultérieure, comme un boulet de canon. Une fusée qui maintient sa poussée peut s'extraire du champ de gravité terrestre à n'importe quelle vitesse, aussi faible soit-elle, du moment qu'elle continue d'accélérer plus qu'elle ne retombe."
   }
  ],
  "sources": [

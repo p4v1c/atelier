@@ -77,173 +77,202 @@ Les paires suivantes posent la même chose, souvent avec des explications quasi 
 - **Problème** : la même formule de l'article 2 est la bonne réponse trois fois.
 - **Correction proposée** : garder la question de `mr2-religions-france` (la plus précise, qui cite l'article) ; réorienter les deux autres vers la liberté de conscience (article 1er), le régime des édifices, ou les exceptions territoriales.
 
-### [MOYEN] Le mont Athos n'est pas un « État »
+### [MOYEN] ✅ Le mont Athos n'est pas un « État »
 - **Où** : `mythologie-religions.ts` — `mr-lieux-sacres`
 - **Texte** : « Vingt monastères y forment **un État autonome au sein de la Grèce**, dont l'accès est interdit aux femmes depuis des siècles. »
 - **Problème** : l'Athos est une communauté monastique autonome sous souveraineté grecque, dotée d'un statut administratif particulier — pas un État. Le cours du même domaine (`mr-lieux-sacres` et `mr3-orthodoxie`) écrit correctement « une république monastique autonome », ce qui crée en outre une incohérence interne.
 - **Correction proposée** : « Vingt monastères y forment une république monastique autonome, sous souveraineté grecque, dont l'accès est interdit aux femmes depuis près de mille ans. »
+- **Fait** : appliqué avec la formulation revue en passe 2 (voir plus bas) — « une communauté monastique autonome, officiellement « État monastique autonome », sous souveraineté grecque » — harmonisée aux quatre endroits du domaine qui évoquent l'Athos (le seed, ses deux mentions au cours, et `mr3-orthodoxie`).
 
-### [MOYEN] Le croissant : « d'origine ottomane » et pourtant antérieur aux Ottomans
+### [MOYEN] ✅ Le croissant : « d'origine ottomane » et pourtant antérieur aux Ottomans
 - **Où** : `mythologie-religions-3.ts` — `mr3-symboles-religieux` ; cours `mr3-symboles-religieux`, section « Des adoptions tardives »
 - **Texte** : « Un symbole d'origine ottomane devenu emblème répandu » / « Le croissant est d'origine ottomane et n'a aucun fondement coranique : **il figurait sur les enseignes de Constantinople bien avant la conquête turque** »
 - **Problème** : la phrase du cours se contredit dans sa propre étendue. Si le motif est byzantin et antérieur à 1453, il n'est pas « d'origine ottomane » : les Ottomans l'ont repris et diffusé.
 - **Correction proposée** : question — « Un emblème pré-islamique repris par les Ottomans, devenu symbole répandu » ; cours — « Le croissant n'a aucun fondement coranique : motif byzantin figurant sur les enseignes de Constantinople bien avant la conquête turque, il a été repris par les Ottomans et s'est répandu comme emblème avec l'Empire. »
+- **Fait** : appliqué avec la précision ajoutée en passe 2 — antérieur à l'islam chez les peuples turcs, et devenu symbole de l'islam en général seulement au XIXe siècle — dans la question et dans le cours.
 
-### [MOYEN] Le concile de Nicée tranche la divinité du Christ, pas « sa nature »
+### [MOYEN] ✅ Le concile de Nicée tranche la divinité du Christ, pas « sa nature »
 - **Où** : `mythologie-religions.ts` — `mr-christianisme` (« Quel concile de 325 formule un credo commun ? ») ; cours `mr-christianisme`, section « D'une secte juive à une religion d'empire »
 - **Texte** : « Il tranche la question de **la nature du Christ** contre l'arianisme. » / « le concile de Nicée formule un credo commun pour trancher les disputes sur la nature du Christ »
 - **Problème** : le vocabulaire des « natures » du Christ est précisément celui de **Chalcédoine (451)**, comme le dit d'ailleurs `mr2-conciles-doctrines` dans le même domaine. Nicée tranche la **divinité** du Fils et sa consubstantialité au Père. Employer « nature » à Nicée brouille la distinction que le domaine enseigne par ailleurs.
 - **Correction proposée** : « Il affirme la divinité du Fils, de même substance que le Père, contre l'arianisme. »
+- **Fait** : appliqué à l'identique dans la question et dans le cours.
 
-### [MOYEN] Les sourates ne sont pas rangées de la plus longue à la plus courte
+### [MOYEN] ✅ Les sourates ne sont pas rangées de la plus longue à la plus courte
 - **Où** : `mythologie-religions.ts` — `mr-islam` (« En combien de chapitres le Coran est-il divisé ? »)
 - **Texte** : « Elles sont classées de la plus longue à la plus courte, non par ordre chronologique de révélation. »
 - **Problème** : l'ordre est **approximativement** décroissant, et la première sourate (al-Fâtiha, sept versets) fait exception. Le cours du même domaine est plus juste : « rangées non par ordre chronologique mais **approximativement** par longueur décroissante ». La question est plus fausse que son cours.
 - **Correction proposée** : « Elles sont rangées approximativement par longueur décroissante, non par ordre chronologique de révélation — la première sourate, très courte, faisant exception. »
+- **Fait** : appliqué mot pour mot ; le cours l'était déjà.
 
-### [MOYEN] La synagogue ne naît pas de la destruction du Temple
+### [MOYEN] ✅ La synagogue ne naît pas de la destruction du Temple
 - **Où** : `mythologie-religions.ts` — `mr-judaisme` (« Qu'est-ce qu'une synagogue ? »)
 - **Texte** : « Elle s'est développée après la destruction du Second Temple en 70, qui a mis fin au culte sacrificiel. »
 - **Problème** : des synagogues sont attestées bien avant 70, en Judée comme en diaspora ; 70 les rend centrales, il ne les crée pas. La formulation laisse croire à une naissance.
 - **Correction proposée** : « Attestée bien avant 70, elle devient le centre de la vie religieuse après la destruction du Second Temple, qui met fin au culte sacrificiel. »
+- **Fait** : appliqué mot pour mot.
 
-### [MOYEN] Le zoroastrisme daté du VIe siècle avant notre ère — le cours dit autre chose
+### [MOYEN] ✅ Le zoroastrisme daté du VIe siècle avant notre ère — le cours dit autre chose
 - **Où** : `mythologie-religions.ts` — `mr-religions-monde` ; cours `mr-religions-monde`, section « Doctrines et dualismes »
 - **Texte** : question — « Quelle religion fondée en Perse **au VIe siècle avant notre ère** oppose un principe bon à un principe mauvais ? » ; cours — « Le zoroastrisme, fondé en Perse et **attesté dès le premier millénaire avant notre ère** »
 - **Problème** : la date de Zarathoustra est très disputée — les estimations vont de 1500-1000 à 600 avant notre ère. La question fige une date contestée ; le cours, prudent, en donne une autre. Incohérence, et fausse précision.
 - **Correction proposée** : aligner la question sur le cours : « Quelle religion née en Perse dans l'Antiquité oppose un principe bon à un principe mauvais ? », explication : « Sa fondation par Zarathoustra est difficile à dater, les estimations allant du deuxième millénaire au VIe siècle avant notre ère. »
+- **Fait** : appliqué mot pour mot.
 
-### [MOYEN] Un distracteur qui est en fait la bonne réponse : mazdéisme
+### [MOYEN] ⏭️ Un distracteur qui est en fait la bonne réponse : mazdéisme
 - **Où** : `mythologie-religions.ts` — `mr-religions-monde`, même question
 - **Texte** : choix — « Le zoroastrisme » (bon), « Le manichéisme », « Le mithraïsme », « **Le mazdéisme sassanide seul** »
 - **Problème** : *mazdéisme* est un synonyme courant de *zoroastrisme*. Le qualificatif « sassanide seul » est un rustinage visible, qui signale au passage que c'est un piège plutôt qu'un vrai distracteur. Même procédé ailleurs dans le domaine : « Amon seul », « Le culte d'Isis seul », « Le Cycle de Finn seul », « La Bible de Tyndale seule », « Les voies romaines de Compostelle seules ».
 - **Correction proposée** : remplacer par un distracteur réellement distinct, par exemple « Le culte de Mithra en Inde védique ».
+- **Fait** : rien à faire — le contenu a déjà changé depuis l'audit ; le distracteur est aujourd'hui « Le yézidisme, tradition du nord de la Mésopotamie », qui est déjà un distracteur distinct.
 
-### [MOYEN] La plus ancienne université : le distracteur est plus juste que la réponse
+### [MOYEN] ✅ La plus ancienne université : le distracteur est plus juste que la réponse
 - **Où** : `mythologie-religions-2.ts` — `mr2-islam-histoire`
 - **Texte** : « Quelle institution du Caire est l'une des plus anciennes universités du monde ? » → « Al-Azhar » ; explication : « **La Qarawiyyin de Fès**, fondée en 859 par une femme, est souvent citée comme la plus ancienne. » — et « La Qarawiyyin » figure parmi les quatre choix.
 - **Problème** : l'explication désigne comme plus ancien un établissement qui est l'un des distracteurs. Seule la mention « du Caire » sauve l'énoncé ; l'apprenant qui lit l'explication en sort avec le sentiment d'avoir mal répondu.
 - **Correction proposée** : retirer « La Qarawiyyin » des choix (la remplacer par « La Nizamiyya de Bagdad » ou « Le Bayt al-Hikma ») et garder l'explication.
+- **Fait** : remplacé « La Qarawiyyin » par « Le Bayt al-Hikma » dans les choix (la Nizamiyya figurait déjà parmi eux) ; explication inchangée.
 
-### [MOYEN] Basilique Saint-Pierre : l'énoncé porte sa réponse, et le superlatif est discutable
+### [MOYEN] ✅ Basilique Saint-Pierre : l'énoncé porte sa réponse, et le superlatif est discutable
 - **Où** : `mythologie-religions.ts` — `mr-lieux-sacres`
 - **Texte** : « Quelle basilique **du Vatican** est le plus grand édifice religieux catholique ? » → « La basilique Saint-Pierre » ; distracteurs : Saint-Jean-de-Latran, Sainte-Marie-Majeure, Saint-Paul-hors-les-Murs
 - **Problème** : double défaut. (1) Saint-Pierre est la seule des quatre à se trouver au Vatican — les trois autres sont des basiliques majeures de Rome : l'énoncé donne la réponse à qui connaît la géographie. (2) « Le plus grand édifice religieux catholique » est contesté : la basilique Notre-Dame-de-la-Paix de Yamoussoukro la dépasse en emprise totale.
 - **Correction proposée** : « Quelle basilique romaine est la plus vaste église du monde par sa surface intérieure ? » avec explication « Environ 15 000 m² intérieurs. Saint-Jean-de-Latran est pourtant la cathédrale de Rome et le siège officiel de l'évêque. »
+- **Fait** : appliqué mot pour mot.
 
-### [MOYEN] Une origine conjecturale de superstition présentée comme un fait
+### [MOYEN] ✅ Une origine conjecturale de superstition présentée comme un fait
 - **Où** : `mythologie-religions-2.ts` — `mr2-superstitions` ; cours `mr2-superstitions`, section « Des origines oubliées »
 - **Texte** : « **D'où vient** la crainte du chiffre treize à table ? » → « Du souvenir de la Cène et de ses treize convives » ; explication : « Une tradition nordique évoque **aussi** un banquet de douze dieux troublé par un treizième. » ; cours : « La crainte du chiffre treize à table renvoie au souvenir de la Cène ». Même construction pour le miroir brisé.
 - **Problème** : l'explication propose elle-même une origine concurrente, ce qui prouve que l'énoncé « d'où vient » n'a pas de réponse unique. La notion sait pourtant hédger : la question « Pourquoi touche-t-on du bois ? » dit « Probablement… l'origine précise n'est pas établie ». L'inégalité de traitement à l'intérieur de la même notion est un défaut de méthode.
 - **Correction proposée** : « À quelle scène la crainte du chiffre treize à table est-elle le plus souvent rattachée ? » et explication : « À la Cène et ses treize convives. D'autres rattachements existent, dont un banquet nordique de douze dieux troublé par un treizième : l'origine réelle n'est pas établie. »
+- **Fait** : appliqué le principe de la correction (hedge « le plus souvent », origine concurrente citée) à la question du chiffre treize et, par cohérence, à celle du miroir brisé qui avait le même défaut ; formulation adaptée en « D'où vient le plus souvent… » pour rester grammaticale avec les choix existants. Cours aligné.
 
-### [MOYEN] Les droits de la Terre mère sont dans la Constitution équatorienne, pas bolivienne
+### [MOYEN] ✅ Les droits de la Terre mère sont dans la Constitution équatorienne, pas bolivienne
 - **Où** : cours `cours/mythologie-religions.ts` — `mr2-mythologies-ameriques`, section « Les Andes »
 - **Texte** : « Son culte […] reste vivant aujourd'hui dans les Andes — au point d'avoir été **inscrit dans la Constitution bolivienne au titre des droits de la Terre mère**. »
 - **Problème** : c'est la Constitution de l'**Équateur**, en 2008, qui consacre les droits de la nature sous le nom de *Pacha Mama* — premier pays au monde à le faire. En Bolivie, la Pachamama figure au préambule de la Constitution de 2009, mais les droits de la Terre mère relèvent de la **loi 071 de 2010**, complétée par la loi-cadre 300 de 2012 : ce sont des lois, pas la Constitution. Le cours attribue donc à la Bolivie ce qui revient à l'Équateur, et qualifie de constitutionnel ce qui est législatif. *(Vérifié en passe 2.)*
 - **Correction proposée** : « au point que l'Équateur a inscrit les droits de la *Pacha Mama* dans sa Constitution de 2008, et la Bolivie les droits de la Terre mère dans une loi de 2010. »
+- **Fait** : appliqué mot pour mot.
 
-### [MOYEN] Les Pères du désert fuient une Église « officielle » qui ne l'est pas encore
+### [MOYEN] ✅ Les Pères du désert fuient une Église « officielle » qui ne l'est pas encore
 - **Où** : cours `cours/mythologie-religions.ts` — `mr3-monachisme`, section « Se retirer »
 - **Texte** : « Les Pères du désert sont des ascètes chrétiens retirés dans les déserts d'Égypte **à partir du IIIe siècle** : **ils fuient une Église devenue officielle et confortable** »
 - **Problème** : au IIIe siècle l'Église est persécutée, pas officielle — Antoine se retire vers 270-285, avant même l'édit de Milan (313). Le motif invoqué vaut pour l'essor du IVe siècle, pas pour les débuts. La cause et la date ne peuvent être vraies ensemble.
 - **Correction proposée** : « Les Pères du désert sont des ascètes chrétiens retirés dans les déserts d'Égypte à partir du IIIe siècle. Le mouvement s'amplifie au IVe, quand l'Église devient officielle et que le martyre cesse d'être l'horizon de la radicalité chrétienne. »
+- **Fait** : appliqué mot pour mot.
 
-### [MOYEN] Rupture Moscou-Constantinople : la cause est datée après l'effet
+### [MOYEN] ✅ Rupture Moscou-Constantinople : la cause est datée après l'effet
 - **Où** : cours `cours/mythologie-religions.ts` — `mr3-orthodoxie`, section « Le calendrier et la crise » ; question `mythologie-religions-3.ts` — `mr3-orthodoxie`
 - **Texte** : cours — « la reconnaissance **en 2019** d'une Église orthodoxe ukrainienne autocéphale par le patriarcat de Constantinople a provoqué la rupture de communion du patriarcat de Moscou » ; question — « Le patriarcat de Moscou a rompu la communion avec Constantinople **en 2018**. »
 - **Problème** : le tomos d'autocéphalie date de janvier 2019 ; Moscou a rompu la communion en **octobre 2018**, à la suite de la décision synodale de Constantinople. Le cours fait donc précéder l'effet par sa cause.
 - **Correction proposée** : « la décision de Constantinople, en octobre 2018, d'accorder l'autocéphalie à une Église orthodoxe ukrainienne — tomos signé en janvier 2019 — a provoqué la rupture de communion du patriarcat de Moscou. »
+- **Fait** : appliqué mot pour mot dans le cours ; la question était déjà exacte.
 
-### [MOYEN] Le blasphème : « n'existe pas depuis 1881 », sauf en Alsace-Moselle jusqu'en 2017
+### [MOYEN] ✅ Le blasphème : « n'existe pas depuis 1881 », sauf en Alsace-Moselle jusqu'en 2017
 - **Où** : `mythologie-religions-3.ts` — `mr3-dialogue-conflits`
 - **Texte** : « Le délit de blasphème n'existe pas en droit français depuis 1881. »
 - **Problème** : exact pour l'essentiel du territoire, faux pour l'Alsace-Moselle, où le délit de blasphème issu du droit local est resté en vigueur jusqu'à son abrogation en **janvier 2017**. Le domaine relève pourtant soigneusement l'exception alsacienne-mosellane ailleurs (`mr2-religions-france`, `mr3-religion-politique`) : l'omission est ici incohérente.
 - **Correction proposée** : « Le délit de blasphème a disparu du droit français avec la loi de 1881 ; il a subsisté en Alsace-Moselle, au titre du droit local, jusqu'à son abrogation en 2017. »
+- **Fait** : appliqué mot pour mot.
 
-### [MOYEN] Grace Davie est une sociologue, pas « le sociologue »
+### [MOYEN] ✅ Grace Davie est une sociologue, pas « le sociologue »
 - **Où** : `mythologie-religions-3.ts` — `mr3-nouvelles-spiritualites` (« Qu'est-ce que le croire sans appartenir ? »)
 - **Texte** : « L'expression est due au **sociologue** britannique Grace Davie. »
 - **Problème** : Grace Davie est une femme. L'apprenant retient une information fausse sur la personne.
 - **Correction proposée** : « L'expression *believing without belonging* est due à la sociologue britannique Grace Davie. »
+- **Fait** : appliqué mot pour mot.
 
-### [MOYEN] Le Royaume-Uni donné pour un État confessionnel
+### [MOYEN] ✅ Le Royaume-Uni donné pour un État confessionnel
 - **Où** : `mythologie-religions-3.ts` — `mr3-religion-politique` ; cours `mr3-religion-politique`, section « Toute la gamme »
 - **Texte** : « Le Royaume-Uni et le Danemark en sont des exemples européens » / « le Royaume-Uni, le Danemark ou la Grèce en relèvent »
 - **Problème** : seule l'**Angleterre** a une Église établie. Le pays de Galles (1920) et l'Irlande du Nord (1871) ont été désétablis, et l'Église d'Écosse n'est pas une Église d'État au même sens. Dire « le Royaume-Uni » est inexact.
 - **Correction proposée** : « L'Angleterre, le Danemark et la Grèce en offrent des exemples européens, avec des libertés religieuses garanties. »
+- **Fait** : appliqué dans la question ; le cours a en plus été complété avec la précision de passe 2 (l'Église d'Irlande, désétablie en 1871, plutôt que « l'Irlande du Nord », qui n'existe qu'à partir de 1921).
 
-### [MOYEN] Herzl et l'affaire Dreyfus : une causalité contestée donnée pour acquise
+### [MOYEN] ✅ Herzl et l'affaire Dreyfus : une causalité contestée donnée pour acquise
 - **Où** : `mythologie-religions-3.ts` — `mr3-judaisme-histoire`
 - **Texte** : « Theodor Herzl en formule le programme en 1896 **après l'affaire Dreyfus**. »
 - **Problème** : la formule suggère une cause unique et un enchaînement net. Or l'affaire commence en 1894 et se poursuit jusqu'en 1906 — elle n'est pas « passée » en 1896 — et le rôle déclencheur qu'Herzl lui a lui-même attribué rétrospectivement est discuté par les historiens, qui invoquent aussi l'antisémitisme viennois et les pogroms russes.
 - **Correction proposée** : « Theodor Herzl en formule le programme dans *L'État des Juifs* en 1896, dans un contexte marqué par l'affaire Dreyfus et par la montée de l'antisémitisme en Europe centrale et orientale. »
+- **Fait** : appliqué mot pour mot.
 
-### [MOYEN] Le Bouddha « prince du nord de l'Inde »
+### [MOYEN] ✅ Le Bouddha « prince du nord de l'Inde »
 - **Où** : `mythologie-religions.ts` — `mr-hindouisme-bouddhisme`
 - **Texte** : « Prince du nord de l'Inde au Ve siècle avant notre ère, il devient le Bouddha, l'Éveillé. »
 - **Problème** : deux approximations. Lumbini, son lieu de naissance traditionnel, se trouve dans l'actuel **Népal**. Et le titre de « prince » vient de la tradition hagiographique : son père dirigeait le clan des Shakya, groupe organisé en république oligarchique plutôt qu'en royaume. Présenter la légende comme un état civil, dans un domaine qui exige la neutralité, est un défaut.
 - **Correction proposée** : « Né dans la plaine gangétique, aux confins de l'Inde et du Népal actuels, vers le Ve siècle avant notre ère ; la tradition en fait un prince du clan des Shakya. »
+- **Fait** : appliqué, en gardant l'enchaînement vers « il devient le Bouddha, l'Éveillé » déjà présent dans l'explication.
 
-### [MOYEN] Deux redites de contenu entre notions
+### [MOYEN] ✅ Deux redites de contenu entre notions
 - **Isis** : `mythologie-religions.ts` — `mr-mythologie-egyptienne` « Son culte s'est répandu dans tout le monde romain, jusqu'en Gaule et en Bretagne. » **vs** `mythologie-religions-3.ts` — `mr3-cultes-antiques` « Son culte s'est répandu de l'Égypte à la Bretagne romaine. »
 - **Reliques** : `mythologie-religions.ts` — `mr-symboles-rites` « Le commerce des reliques, très actif au Moyen Âge, a nourri l'économie de nombreux sanctuaires. » **vs** `mythologie-religions-3.ts` — `mr3-croyances-populaires` « Quel effet économique la possession de reliques avait-elle au Moyen Âge ? » → « Elle attirait pèlerins et donations, enrichissant le sanctuaire. »
 - **Aïd** : `mythologie-religions.ts` — `mr-islam` donne en explication « L'Aïd el-Adha, la grande fête, commémore le sacrifice interrompu d'Abraham », qui est exactement la bonne réponse de la question `mr3-fetes-religieuses` « Que commémore l'Aïd el-Adha ? ».
 - **Compostelle** : trois formulations quasi identiques sur les motivations mixtes des marcheurs (`mr2-pelerinages` question et cours, `mr3-nouvelles-spiritualites`).
 - **Correction proposée** : dédoublonner les explications et déplacer l'information là où elle est interrogée, pas là où elle est donnée gratuitement.
+- **Fait** : les quatre redites traitées. Isis (`mr-mythologie-egyptienne`) : explication recentrée sur le rassemblement du corps d'Osiris. Reliques (`mr-symboles-rites`) : explication recentrée sur la définition (ossements, objets touchés par le saint) plutôt que sur l'effet économique, laissé à `mr3-croyances-populaires`. Aïd (`mr-islam`) : explication de l'Aïd el-Fitr recentrée sur elle-même (rupture du jeûne, aumône) au lieu de donner la réponse sur l'Aïd el-Adha. Compostelle (`mr3-nouvelles-spiritualites`) : l'explication varie désormais l'exemple (pèlerinage de Shikoku) plutôt que de répéter la statistique déjà donnée par `mr2-pelerinages`.
 
-### [MOYEN] Une question agrammaticale, difficile à comprendre
+### [MOYEN] ✅ Une question agrammaticale, difficile à comprendre
 - **Où** : `mythologie-religions.ts` — `mr-lieux-sacres`
 - **Texte** : « Quel édifice de La Mecque les musulmans du monde entier orientent-ils leur prière vers lui ? »
 - **Problème** : la phrase est fautive (reprise pronominale « vers lui » après un interrogatif déjà complément). Un apprenant doit relire pour comprendre ce qui est demandé.
 - **Correction proposée** : « Vers quel édifice de La Mecque les musulmans du monde entier orientent-ils leur prière ? »
+- **Fait** : appliqué mot pour mot.
 
-### [MINEUR] Quatre notions n'ont que neuf questions au lieu de dix
+### [MINEUR] ✅ Quatre notions n'ont que neuf questions au lieu de dix
 - **Où** : `mr-mythes-fondateurs`, `mr2-mythologie-grecque-dieux`, `mr2-mythologie-romaine`, `mr3-judaisme-histoire`
 - **Problème** : toutes les autres notions du domaine en comptent dix. Irrégularité de gabarit.
+- **Fait** : une dixième question ajoutée à chacune, sur un fait non couvert ailleurs dans le domaine — Didon et la fondation de Carthage (`mr-mythes-fondateurs`), Héra protectrice du mariage (`mr2-mythologie-grecque-dieux`), Janus (`mr2-mythologie-romaine`), la déclaration Balfour de 1917 (`mr3-judaisme-histoire`).
 
-### [MINEUR] « rededicace » sans accent
+### [MINEUR] ✅ « rededicace » sans accent
 - **Où** : `mythologie-religions.ts` — `mr-judaisme` ; cours `mr-judaisme`, section « Le temps et les fêtes »
 - **Texte** : « La rededicace du Temple de Jérusalem au IIe siècle avant notre ère »
 - **Problème** : le mot s'écrit avec un accent aigu sur le deuxième *e*. Faute présente deux fois : dans la question et dans le cours.
 - **Correction proposée** : « La redédicace du Temple de Jérusalem au IIe siècle avant notre ère ».
+- **Fait** : appliqué aux deux endroits.
 
-### [MINEUR] Réponses commençant par une minuscule
+### [MINEUR] ✅ Réponses commençant par une minuscule
 - **Où** : plusieurs, dont `mythologie-religions.ts` — `mr-hindouisme-bouddhisme` (« l'extinction de la soif et la sortie du cycle des renaissances »), `mr-religions-monde` (« l'interdiction des religions dans l'espace public ») ; `mythologie-religions-2.ts` — `mr2-bible-textes` (« l'Exode », « l'Apocalypse », « l'Épître aux Hébreux », « l'Évangile de Jean »), `mr2-islam-histoire` (« l'Empire ottoman »), `mr2-religions-chiffres` (« l'Indonésie », « l'Arabie saoudite », « l'Égypte », « l'hindouisme », « l'islam ») ; `mythologie-religions-3.ts` — `mr3-orthodoxie` (« l'Église orthodoxe russe »)
 - **Problème** : dans toutes les autres propositions, la première lettre est une majuscule. L'irrégularité est visible à l'écran et peut, dans une liste, signaler involontairement une réponse.
 - **Correction proposée** : majuscule initiale partout (« L'Exode », « L'Apocalypse », « L'Indonésie », etc.).
+- **Fait** : la plupart des occurrences citées portaient déjà la majuscule au moment de la relecture (le contenu a bougé depuis l'audit) ; les deux restées en minuscule ont été corrigées — « L'Apocalypse », « L'Épître aux Hébreux », « L'Évangile de Jean » (`mr2-bible-textes`) et « L'Église orthodoxe russe », « L'Église orthodoxe de Grèce », « L'Église orthodoxe roumaine », « Le patriarcat serbe de Peć » (`mr3-orthodoxie`).
 
-### [MINEUR] « d'étroites parallèles »
+### [MINEUR] ✅ « d'étroites parallèles »
 - **Où** : `mythologie-religions-3.ts` — `mr3-mythologie-mesopotamienne`
 - **Texte** : « Son récit présente **d'étroites parallèles** avec celui de Noé. »
 - **Problème** : *parallèle* au sens de rapprochement est masculin.
 - **Correction proposée** : « Son récit présente d'étroits parallèles avec celui de Noé. »
+- **Fait** : appliqué mot pour mot.
 
-### [MINEUR] Rémus / Remus, et autres flottements orthographiques
+### [MINEUR] ✅ Rémus / Remus, et autres flottements orthographiques
 - **Où** : questions `mythologie-religions-2.ts` — `mr2-mythologie-romaine` (« Romulus et **Rémus** ») ; cours `mr-mythes-fondateurs`, section « Fonder un peuple » (« Rome avec Romulus et **Remus** »)
 - **Correction proposée** : « Rémus » partout.
+- **Fait** : cours corrigé en « Rémus » ; le seed l'écrivait déjà correctement.
 
-### [MINEUR] Une ambiguïté pronominale sur Médée
+### [MINEUR] ✅ Une ambiguïté pronominale sur Médée
 - **Où** : `mythologie-religions-2.ts` — `mr2-mythologie-grecque-recits`
 - **Texte** : « Elle tuera ensuite ses propres enfants pour se venger de **sa** trahison, selon Euripide. »
 - **Problème** : « sa trahison » se rattache grammaticalement à Médée, alors qu'il s'agit de celle de Jason.
 - **Correction proposée** : « Elle tuera ensuite ses propres enfants pour se venger de la trahison de Jason, selon Euripide. »
+- **Fait** : appliqué mot pour mot.
 
-### [MINEUR] Bornes du nouvel an chinois : deux valeurs différentes
+### [MINEUR] ✅ Bornes du nouvel an chinois : deux valeurs différentes
 - **Où** : question `mythologie-religions.ts` — `mr-calendriers-fetes` (« entre le 21 janvier et le 20 février ») ; cours `mr-calendriers-fetes` (« entre fin janvier et mi-février »)
 - **Correction proposée** : aligner le cours sur la question, qui est exacte.
+- **Fait** : cours aligné sur la question.
 
-### [MINEUR] Étymologie populaire de « carnaval » donnée pour littérale
+### [MINEUR] ✅ Étymologie populaire de « carnaval » donnée pour littérale
 - **Où** : cours `cours/mythologie-religions.ts` — `mr3-christianisme-pratiques`, section « Le calendrier »
 - **Texte** : « le carnaval — dont le nom **signifie littéralement** l'adieu à la viande »
 - **Problème** : *carne vale* (« adieu, viande ») est une étymologie populaire ; la forme retenue par les linguistes est *carnelevare*, « ôter la viande ».
 - **Correction proposée** : « le carnaval — dont le nom vient probablement de *carnelevare*, ôter la viande. »
+- **Fait** : appliqué mot pour mot.
 
-### [MINEUR] Estimation présentée comme un fait unique
+### [MINEUR] ✅ Estimation présentée comme un fait unique
 - **Où** : `mythologie-religions-3.ts` — `mr3-textes-sacres-2` ; cours `mr3-textes-sacres-2`, section « Copier »
 - **Texte** : « Combien de temps fallait-il pour copier une Bible à la main ? » → « Environ un an de travail pour un copiste »
 - **Problème** : les estimations varient largement selon le format, la main et l'enluminure. Les distracteurs (« Quelques jours », « Quelques semaines », « Une dizaine d'années ») sont si invraisemblables que la question ne teste rien.
 - **Correction proposée** : « Combien de peaux fallait-il environ pour une Bible manuscrite complète ? » → « Plusieurs centaines », qui est un fait mesurable.
+- **Fait** : appliqué (question, choix et explication) ; le cours a été reformulé dans le même sens, sans donner de durée.
 
 ### [GRAVE] « Dans l'Iliade » : l'énoncé affirme le contraire de sa propre explication
 - **Où** : `heritage/culture-g/data/mythologie-religions.json` — question 58
@@ -261,15 +290,17 @@ Les paires suivantes posent la même chose, souvent avec des explications quasi 
 - **Problème** : l'en-tête de `prisma/seed/culture-g/cours/fusions.ts` le dit lui-même — « Le corpus de questions écrit ici a été composé sans être confronté aux 322 leçons du cahier d'origine » — et ajoute « Les questions, elles, ne sont jamais en double — le validateur l'interdit ». Le validateur ne bloque manifestement que les énoncés **identiques** : toutes les paires ci-dessus sont des reformulations, et passent. L'apprenant révise donc deux fois le même fait sous deux habillages. Le problème est aggravé pour les sept notions fusionnées (`mr-mythologie-nordique` → `cg-mythologie-religions-02`, `mr-hindouisme-bouddhisme` → `-07`, `mr2-mythologie-romaine` → `-01`, `mr2-mythologies-asiatiques` → `-10`, `mr2-christianisme-histoire` → `-04`, `mr2-islam-histoire` → `-05`, `mr3-judaisme-histoire` → `-06`) : les questions neuves y rejoignent physiquement la leçon héritée, donc les doublons se retrouvent dans le même chapitre.
 - **Correction proposée** : passer le corpus neuf au crible des questions héritées et supprimer les reformulations ; en priorité pour les sept notions fusionnées, où la cohabitation est visible à l'écran. Durcir le validateur : comparer les **couples (fait interrogé, bonne réponse)** et non les chaînes d'énoncés.
 
-### [MOYEN] Cinq questions de philosophie pure dans un domaine « Mythologie & Religions »
+### [MOYEN] ✅ Cinq questions de philosophie pure dans un domaine « Mythologie & Religions »
 - **Où** : `heritage/culture-g/data/mythologie-religions.json` — questions 53 à 57
 - **Texte** : « À quel philosophe grec attribue-t-on la formule "Je sais que je ne sais rien" ? », « Quel philosophe est l'auteur de la célèbre allégorie de la caverne ? », « Quelle école philosophique antique, fondée par Zénon de Kition, tire son nom d'un portique d'Athènes ? », « Pour Épicure, en quoi consiste le véritable plaisir ? », « Quel philosophe cynique, qui vivait dans une jarre… »
 - **Problème** : aucune de ces cinq questions ne porte sur un mythe, un rite, une croyance ou une institution religieuse. La maïeutique, l'allégorie de la caverne et l'ataraxie ne relèvent pas du domaine. Le seed a bien une notion `mr-philosophie-religion`, mais elle porte, elle, sur les questions religieuses (agnosticisme, problème du mal, pari de Pascal) — ce qui est cohérent. Ici le contenu ne correspond pas à son domaine.
 - **Correction proposée** : déplacer ces cinq questions vers un domaine de philosophie, ou les remplacer par des questions portant sur le rapport des écoles antiques au divin (les dieux d'Épicure, la providence stoïcienne, le procès d'impiété de Socrate) — sujets qui, eux, appartiennent au domaine.
+- **Fait** : pas de domaine de philosophie disponible dans mon périmètre, donc réorientées comme suggéré : Socrate → le daimonion et le signe divin ; Platon → le Démiurge du Timée ; Zénon/stoïcisme → la providence stoïcienne ; Épicure → sa position sur les dieux ; le cynique Diogène (hors sujet) remplacé par le premier moteur d'Aristote.
 
-### [MINEUR] « Hanouka » et « Hanoukka » : deux graphies dans le même domaine
+### [MINEUR] ✅ « Hanouka » et « Hanoukka » : deux graphies dans le même domaine
 - **Où** : `prisma/seed/culture-g/mythologie-religions.ts` et `cours/mythologie-religions.ts` — `mr-judaisme` (« Hanouka ») **vs** `heritage/culture-g/data/mythologie-religions.json` — question 42 (« Hanoukka »)
 - **Correction proposée** : retenir une graphie unique pour tout le domaine.
+- **Fait** : unifié sur « Hanoucca » (forme la plus fréquente dans le corpus hérité) dans le seed, son cours et le cahier d'origine ; « hanoukia » aligné sur « hanoukkia » par la même occasion.
 
 ### [GRAVE] Le jeûne du ramadan : six fois « du lever du soleil », deux fois « de l'aube » — le domaine se contredit
 - **Où** : formulations **fausses** — `prisma/seed/culture-g/mythologie-religions-3.ts` (`mr3-islam-pratiques`, « Qu'est-ce que le ramadan ? ») ; `prisma/seed/culture-g/cours/mythologie-religions.ts` (`mr3-islam-pratiques`, section « Le temps du jeûne ») ; `heritage/culture-g/data/mythologie-religions.json` (questions 39 et 49) ; `heritage/…/lecons/mythologie-religions/05.json` (section « Les cinq piliers » et explication de la troisième question). Formulations **exactes** — `heritage/…/lecons/mythologie-religions/15.json` (section « Le ramadan et l'Aïd al-Fitr » et explication de la quatrième question).
@@ -302,11 +333,12 @@ Les paires suivantes posent la même chose, souvent avec des explications quasi 
 - **Problème** : le recouvrement n'est pas accidentel sur trois ou quatre questions, il touche des quiz entiers. Sur les leçons 05, 06 et 07 — toutes trois hôtes d'une fusion — c'est **cinq questions sur cinq** qui ont leur double.
 - **Correction proposée** : traiter le problème à la racine plutôt que paire par paire. Pour chaque notion fusionnée, réécrire les questions du seed en partant du quiz de la leçon hôte : garder ce que la leçon n'interroge pas (par exemple, pour le bouddhisme : le vinaya, l'ordination temporaire, le rôle d'Ashoka dans les inscriptions), supprimer le reste.
 
-### [MINEUR] Deux translittérations du même nom dans une même notion
+### [MINEUR] ✅ Deux translittérations du même nom dans une même notion
 - **Où** : après fusion, `mr-hindouisme-bouddhisme` et `cg-mythologie-religions-07` cohabitent
 - **Texte** : « Les **Véda**s » et « **Bhagavad-Gita** » (leçon 07) face à « Les **Védas** » et « **Bhagavad-Gîtâ** » (seed) ; de même « **Upanishad** » / « **Upanishads** », « **Purana** » / « **Puranas** ». Ailleurs : « **Uta-napishti** » (leçon 09) face à « **Utnapishtim** » (seed, `mr3-mythologie-mesopotamienne`), « **Énuma elish** » face à « **Enuma Elish** ».
 - **Problème** : le seed suit l'usage francisé (accents, marque du pluriel), les leçons l'usage savant (formes invariables). Les deux conventions se défendent ; leur cohabitation dans un même chapitre, non.
 - **Correction proposée** : trancher pour l'ensemble du domaine — l'usage francisé étant le plus lisible pour un apprenant — et aligner l'autre corpus.
+- **Fait** : leçon 07 alignée sur l'usage francisé du seed (Védas, Upanishads, Puranas, Bhagavad-Gîtâ, Rig-Véda). Pour Uta-napishti/Utnapishtim et Énuma elish/Enuma Elish, ce sont deux notions distinctes non fusionnées (le vrai problème sur cette paire est le doublon de contenu signalé en [GRAVE] plus haut, auquel je n'ai pas touché) : j'ai néanmoins unifié la graphie — « Uta-napishti » (forme savante correcte, reprise dans le seed) et « Énuma Elish » partout, y compris dans la leçon 09 où trois graphies coexistaient déjà en interne.
 
 ### [GRAVE] Questions et réponses simplement interverties entre le cahier et le seed
 - **Où** : `heritage/culture-g/data/lecons/mythologie-religions/06.json` (quiz) **vs** `prisma/seed/culture-g/mythologie-religions.ts` — `mr-judaisme`
@@ -314,39 +346,45 @@ Les paires suivantes posent la même chose, souvent avec des explications quasi 
 - **Problème** : ce ne sont pas deux angles différents sur un même sujet, c'est la même paire terme-définition posée dans un sens puis dans l'autre. Aucun apprentissage supplémentaire, et le validateur ne le voit pas puisque les chaînes diffèrent.
 - **Correction proposée** : ne garder qu'un sens par paire terme-définition, et réserver la seconde question à un contenu réellement distinct (par exemple, pour la cacherout : la distinction entre *casher* et *halal*, ou l'obligation d'abattage rituel).
 
-### [MOYEN] La résurrection énoncée comme un fait, contre l'usage du reste du domaine
+### [MOYEN] ✅ La résurrection énoncée comme un fait, contre l'usage du reste du domaine
 - **Où** : `heritage/culture-g/data/mythologie-religions.json` — troisième cours, section « Le christianisme, religion la plus répandue au monde »
 - **Texte** : « Selon les Évangiles, Jésus fut crucifié à Jérusalem sous le gouverneur romain Ponce Pilate, vers l'an 30 ; **sa résurrection, célébrée à Pâques, fonde la foi chrétienne.** »
 - **Problème** : le « selon les Évangiles » ne porte que sur la première proposition ; après le point-virgule, la résurrection est affirmée comme un événement, non comme une croyance. C'est le seul endroit du domaine où une croyance est ainsi posée en fait — la leçon 04 écrit au contraire, sur le même sujet, « Ses disciples **affirment ensuite** qu'il est ressuscité » et « la mort et **selon la foi chrétienne** la résurrection de Jésus », et la leçon 04 encore « Pâques est la fête qui commémore, **selon la tradition**, la résurrection ». L'exigence de neutralité est tenue partout ailleurs.
 - **Correction proposée** : « Selon les Évangiles, Jésus fut crucifié à Jérusalem sous le gouverneur romain Ponce Pilate, vers l'an 30 ; la foi en sa résurrection, célébrée à Pâques, fonde le christianisme. »
+- **Fait** : appliqué mot pour mot.
 
-### [MOYEN] Le natron pendant soixante-dix jours
+### [MOYEN] ✅ Le natron pendant soixante-dix jours
 - **Où** : `heritage/culture-g/data/mythologie-religions.json` — deuxième cours, section « La mort et l'au-delà chez les Égyptiens »
 - **Texte** : « à **dessécher le corps dans le natron pendant environ soixante-dix jours**, puis à l'envelopper de bandelettes »
 - **Problème** : les soixante-dix jours sont la durée de **l'ensemble** du rituel funéraire, telle que la donne Hérodote ; la dessiccation dans le natron proprement dite occupe une quarantaine de jours, le reste étant consacré au traitement et au bandelettage. Rattacher les soixante-dix jours au seul natron, puis ajouter le bandelettage « ensuite », allonge le rituel au-delà de ce qu'il durait.
 - **Correction proposée** : « à dessécher le corps dans le natron pendant une quarantaine de jours, puis à l'envelopper de bandelettes, l'ensemble du rituel funéraire durant environ soixante-dix jours. »
+- **Fait** : la correction proposée ci-dessus s'est révélée fautive à la revérification de passe 2 (voir plus bas : elle attribue à Hérodote le contraire de ce qu'il écrit). J'ai donc appliqué la formulation corrigée de passe 2 à la place : « à dessécher le corps dans le natron — soixante-dix jours selon Hérodote, une quarantaine selon la reconstitution des égyptologues, le rituel complet durant soixante-dix jours — puis à l'envelopper de bandelettes. »
 
-### [MINEUR] Trois graphies pour Hanouka, deux pour le shabbat, deux pour Baldr
+### [MINEUR] ✅ Trois graphies pour Hanouka, deux pour le shabbat, deux pour Baldr
 - **Où** : « Hanouka » (`prisma/seed/culture-g/mythologie-religions.ts` et son cours, `mr-judaisme`), « Hanoukka » (`heritage/…/mythologie-religions.json`, question 42), « Hanoucca » (`heritage/…/lecons/mythologie-religions/06.json`) ; « shabbat » (seed) **vs** « chabbat » (leçon 06) ; « Baldr » (seed, `mr-mythologie-nordique`) **vs** « Balder » (leçon 02)
 - **Problème** : trois translittérations du même mot dans un domaine que l'apprenant révise d'un bloc. Sur une fête interrogée dans plusieurs notions, la graphie devient elle-même une source de doute.
 - **Correction proposée** : fixer une graphie par terme pour tout le domaine, et l'appliquer au seed comme au cahier d'origine.
+- **Fait** : unifié sur « Hanoucca » (majoritaire dans le corpus), « chabbat » (majoritaire) et « Baldr » (la forme savante, reprise aussi par le cahier d'origine hors leçon 02) ; la leçon 02, seule à écrire « Balder », a été alignée.
 
-### [MINEUR] « Combien de livres compose le Nouveau Testament ? »
+### [MINEUR] ✅ « Combien de livres compose le Nouveau Testament ? »
 - **Où** : `heritage/culture-g/data/lecons/mythologie-religions/04.json` — première question du quiz
 - **Texte** : « Combien de livres **compose** le Nouveau Testament ? »
 - **Problème** : le sujet est « livres », au pluriel.
 - **Correction proposée** : « Combien de livres **composent** le Nouveau Testament ? »
+- **Fait** : appliqué mot pour mot.
 
-### [MINEUR] « au cours des IIe et IVe siècles »
+### [MINEUR] ✅ « au cours des IIe et IVe siècles »
 - **Où** : `heritage/culture-g/data/lecons/mythologie-religions/04.json` — section « Les textes de référence »
 - **Texte** : « La liste définitive de ces livres, appelée canon, s'est fixée progressivement **au cours des IIe et IVe siècles** »
 - **Problème** : la formule saute le IIIe siècle et donne à lire deux dates isolées là où il s'agit d'un intervalle. Le seed écrit correctement « entre le IIe et le IVe siècle ».
 - **Correction proposée** : « s'est fixée progressivement du IIe au IVe siècle ».
+- **Fait** : appliqué, dans le texte de la section et dans la note du visuel qui répétait la même formule.
 
-### [MINEUR] « séfévide »
+### [MINEUR] ✅ « séfévide »
 - **Où** : `heritage/culture-g/data/lecons/mythologie-religions/05.json` — section « Expansion, empires et civilisation »
 - **Texte** : « l'Empire **séfévide** en Perse »
 - **Correction proposée** : « l'Empire safavide en Perse », graphie usuelle en français.
+- **Fait** : appliqué mot pour mot (sans toucher au reste de la phrase, qui porte le constat [GRAVE] non corrigé sur la date de Damas — voir mon rapport final).
 
 ### [GRAVE] Le cahier d'origine se redouble lui-même : le fil d'Ariane, quatre fois
 - **Où** : `heritage/culture-g/data/lecons/mythologie-religions/03.json` (quiz) **et** `…/14.json` (quiz) **et** `heritage/culture-g/data/mythologie-religions.json` (question 7) **et** `prisma/seed/culture-g/mythologie-religions.ts` (`mr-mythes-fondateurs`)
@@ -369,40 +407,46 @@ Les paires suivantes posent la même chose, souvent avec des explications quasi 
 - **Problème** : deux mécanismes, sept ou huit occurrences. Le comput pascal est en outre formulé de trois façons dont une inexacte — « la première pleine lune **de printemps** » (cahier, question 48) n'est pas la même chose que « la pleine lune **suivant l'équinoxe** », et la leçon 15 est la seule à préciser que l'équinoxe est conventionnellement « calé sur le 21 mars », ce qui est le point qui fait vraiment comprendre le calcul.
 - **Correction proposée** : ne garder qu'une question par mécanisme, celle de la leçon 15 pour Pâques (la plus complète) et celle de `mr-calendriers-fetes` pour le décalage lunaire ; retirer les autres et reverser leur contenu en explication.
 
-### [MOYEN] Une leçon entière de philosophie antique dans « Mythologie & Religions »
+### [MOYEN] ✅ Une leçon entière de philosophie antique dans « Mythologie & Religions »
 - **Où** : `heritage/culture-g/data/lecons/mythologie-religions/12.json` — « La philosophie antique : Socrate, Platon, Aristote » (5 sections, 5 questions), en plus des questions 53 à 57 de `heritage/culture-g/data/mythologie-religions.json`
 - **Texte** : les cinq questions portent sur le problème socratique, la maïeutique, le procès de 399, l'allégorie de la caverne et la définition aristotélicienne de la vertu comme juste milieu.
 - **Problème** : dix questions et cinq sections sur Socrate, Platon et Aristote, sans qu'aucune n'aborde le rapport de ces philosophes au divin, au culte ou au mythe — le seul angle qui les rattacherait au domaine. Le procès de Socrate pour **impiété** est même raconté sans que la dimension religieuse de l'accusation soit exploitée. À côté, la notion `mr-philosophie-religion` du seed traite, elle, de questions authentiquement religieuses (agnosticisme, problème du mal, pari de Pascal, argument ontologique) : le contraste montre qu'un traitement pertinent au domaine était possible.
 - **Correction proposée** : soit déplacer la leçon 12 et les questions 53 à 57 vers un domaine de philosophie, soit les réorienter — les dieux d'Épicure qui ne s'occupent pas des hommes, la providence stoïcienne, le *daimonion* de Socrate et le chef d'accusation d'impiété, le démiurge du *Timée*, le premier moteur d'Aristote.
+- **Fait** : pas de domaine de philosophie disponible dans mon périmètre. Réorientation partielle plutôt que réécriture complète des cinq sections (biographies légitimes, seulement mal rattachées) : ajout d'un paragraphe sur le premier moteur d'Aristote (théologie absente du texte d'origine) et remplacement de la question sur le « problème socratique » par une question sur ce premier moteur. Les questions 53 à 57 du cahier ont, elles, été entièrement réorientées (voir plus haut).
 
-### [MOYEN] Deux dates pour l'Institution de la religion chrétienne, sans explication
+### [MOYEN] ✅ Deux dates pour l'Institution de la religion chrétienne, sans explication
 - **Où** : `heritage/culture-g/data/lecons/mythologie-religions/16.json` (section « Zwingli, Calvin et la rupture anglaise » et deuxième question du quiz) **vs** `prisma/seed/culture-g/mythologie-religions.ts` — `mr-christianisme`
 - **Texte** : leçon 16 — « il publie **en 1536** l'Institution de la religion chrétienne » ; seed — « Son Institution de la religion chrétienne, **publiée en français en 1541** ».
 - **Problème** : les deux dates sont exactes — édition latine de 1536, traduction française de 1541 — mais aucun des deux textes ne mentionne l'autre. Un apprenant qui révise le domaine entier voit deux dates contradictoires pour le même ouvrage et n'a aucun moyen de trancher.
 - **Correction proposée** : dans la leçon 16, « il publie en 1536 l'Institution de la religion chrétienne, en latin, dont il donnera lui-même une version française en 1541 ».
+- **Fait** : appliqué mot pour mot, dans le texte de la section et dans l'explication du quiz.
 
-### [MINEUR] Le shintō d'État « jusqu'à la réforme constitutionnelle de 1945 »
+### [MINEUR] ✅ Le shintō d'État « jusqu'à la réforme constitutionnelle de 1945 »
 - **Où** : `heritage/culture-g/data/lecons/mythologie-religions/17.json` — section « Le shintoïsme et la coexistence des traditions au Japon »
 - **Texte** : « le shintō devient religion d'État et sert à fonder l'autorité impériale, **jusqu'à la réforme constitutionnelle de 1945** »
 - **Problème** : ce qui met fin au shintō d'État en décembre 1945 est une directive de l'occupant, non une réforme constitutionnelle ; la Constitution qui inscrit la séparation du religieux et de l'État est promulguée en 1946 et entre en vigueur en 1947.
 - **Correction proposée** : « jusqu'à sa suppression par la directive sur le shintō de décembre 1945, confirmée par la Constitution de 1946 ».
+- **Fait** : appliqué mot pour mot.
 
-### [MINEUR] La remontée des mers datée du maximum glaciaire
+### [MINEUR] ✅ La remontée des mers datée du maximum glaciaire
 - **Où** : `heritage/culture-g/data/lecons/mythologie-religions/13.json` — section « Ce que la comparaison met en évidence » et explication de la cinquième question
 - **Texte** : « la remontée du niveau des mers après la dernière glaciation, **il y a environ vingt et un mille ans**, a englouti d'immenses territoires côtiers »
 - **Problème** : vingt et un mille ans est la date du **maximum** glaciaire, pas celle de la remontée : celle-ci s'étale d'environ vingt mille à sept mille ans avant le présent. La phrase attache la date au mauvais événement.
 - **Correction proposée** : « la remontée du niveau des mers qui a suivi le maximum glaciaire, il y a environ vingt et un mille ans, et s'est poursuivie pendant plus de dix millénaires, a englouti d'immenses territoires côtiers ».
+- **Fait** : appliqué (formulation légèrement adaptée) à la section et à l'explication du quiz.
 
-### [MINEUR] Les leçons 16 et 17 mettent leurs réponses en minuscule, les quinze autres non
+### [MINEUR] ✅ Les leçons 16 et 17 mettent leurs réponses en minuscule, les quinze autres non
 - **Où** : `heritage/culture-g/data/lecons/mythologie-religions/16.json` et `17.json`
 - **Texte** : « la création de séminaires pour former les prêtres », « la suppression du célibat ecclésiastique », « que chaque prince fixe la confession de son territoire », « l'édit de Nantes », « l'édit de Worms », « le sacrifice offert aux ancêtres », « la piété filiale », « les Entretiens », « la limite entre l'espace sacré et le monde ordinaire »
 - **Problème** : les leçons 01 à 15 capitalisent la première lettre de chaque proposition ; les leçons 16 et 17, non. Le même défaut existe au seed (voir plus haut). Un apprenant qui parcourt le domaine voit la convention changer d'un chapitre à l'autre.
 - **Correction proposée** : majuscule initiale sur toutes les propositions, du seed comme du cahier d'origine.
+- **Fait** : majuscule appliquée aux 24 propositions concernées (12 dans chaque leçon).
 
-### [MINEUR] Graphies flottantes, suite
+### [MINEUR] ✅ Graphies flottantes, suite
 - **Où** : « hajj » (seed `mr-islam`, leçon 15) **vs** « hadj » (leçon 05) ; « Aïd el-Fitr » (seed, cahier, leçon 05) **vs** « Aïd al-Fitr » (leçon 15) ; « Quetzalcóatl » (seed) **vs** « Quetzalcoatl » (leçon 11) ; « Tao-tö king » / « wu wei » (seed) **vs** « Dao de jing » / « wuwei » (leçon 17)
 - **Problème** : s'ajoutent aux trois graphies de Hanouka et aux deux de shabbat, Baldr, Uta-napishti et Véda déjà signalées. Sur un domaine dont une part de l'apprentissage consiste précisément à retenir des noms propres translittérés, l'instabilité orthographique est un obstacle réel.
 - **Correction proposée** : établir une table de translittération unique pour le domaine et l'appliquer aux deux corpus.
+- **Fait** : les quatre paires unifiées (« hajj », « Aïd el-Fitr », « Quetzalcóatl », et « Dao de jing »/« wuwei » repris en pinyin dans le seed, comme le fait déjà `Laozi`).
 
 ## Ce que la seconde passe a ajouté
 
@@ -534,19 +578,22 @@ J'ai repris sur le web les constats de passe 1 dont la vérification reposait su
 - **Aggravant** : le domaine chargé contient une question dont la bonne réponse est « **70 jours** » à l'énoncé « Combien de temps durait environ la **dessiccation du corps dans le natron** lors de la momification ? » (`cg-mythologie-religions-c02`). Appliquer ma correction de passe 1 au cours aurait mis le cours en contradiction avec une question du même domaine — précisément le défaut que j'ai relevé cinq fois ailleurs.
 - **Correction de la correction** : ne pas corriger le cahier d'origine, mais l'expliciter : « à dessécher le corps dans le natron — soixante-dix jours selon Hérodote, une quarantaine selon la reconstitution des égyptologues, le rituel complet durant soixante-dix jours — puis à l'envelopper de bandelettes. » Et aligner la question `cg-mythologie-religions-c02` sur la même formulation.
 
-### [MOYEN] Ma correction sur Vatican II reconduit l'erreur qu'elle prétendait réparer
+### [MOYEN] ✅ Ma correction sur Vatican II reconduit l'erreur qu'elle prétendait réparer
 - **Ce que j'avais écrit en passe 1** : correction du cours en « la messe cesse d'être **obligatoirement** dite en latin — le latin reste autorisé, c'est son caractère exclusif qui prend fin — **et le prêtre se tourne vers l'assemblée**. »
 - **Le problème** : j'ai corrigé la moitié latine de la phrase et laissé intacte la moitié fausse. *Sacrosanctum Concilium* (1963) **ne dit rien** de l'orientation du célébrant ni de la position de l'autel. La célébration face au peuple est une **option** ouverte par l'instruction post-conciliaire *Inter Oecumenici* (1964), jamais rendue obligatoire, et les deux orientations restent licites aujourd'hui. « Vatican II a tourné le prêtre vers l'assemblée » est l'un des raccourcis les plus répandus sur ce concile — exactement le type d'énoncé « exact en apparence, faux dans l'attribution » que la consigne demande de signaler.
 - **Correction de la correction** : « la messe cesse d'être obligatoirement dite en latin — le latin reste autorisé, c'est son caractère exclusif qui prend fin. La célébration face à l'assemblée, souvent attribuée au concile, vient en réalité d'une instruction d'application de 1964, qui l'autorise sans jamais l'imposer. »
+- **Fait** : appliqué mot pour mot dans `mr2-conciles-doctrines`. J'ai en outre trouvé et corrigé la même affirmation fautive (« prêtre tourné vers les fidèles ») dans le cours de `mr-christianisme`, qui la répétait sans lien avec le constat original.
 
-### [MOYEN] Ma correction sur le mont Athos raisonne contre le nom officiel du lieu
+### [MOYEN] ✅ Ma correction sur le mont Athos raisonne contre le nom officiel du lieu
 - **Ce que j'avais écrit en passe 1** : « l'Athos est une communauté monastique autonome sous souveraineté grecque […] — **pas un État** ».
 - **Le problème** : la dénomination officielle est *Αυτόνομη Μοναστική Πολιτεία Αγίου Όρους*, rendue en français et en anglais par « **État monastique autonome** de la Sainte Montagne ». Son statut est inscrit dans la Constitution grecque depuis 1927 et repris par chacune des suivantes. Le seed, en écrivant « un État autonome au sein de la Grèce », reprend donc la désignation officielle. Ce qu'il faut dire n'est pas que le mot est faux, mais qu'il ne désigne pas un État **souverain** : la souveraineté grecque demeure entière, l'autonomie est administrative, et le rattachement spirituel va au patriarcat œcuménique.
 - **Correction de la correction** : le constat de passe 1 tombe comme erreur de fait. Il subsiste comme constat d'**incohérence interne** — le seed écrit « État autonome » dans une question et « république monastique autonome » dans son propre cours et dans `mr3-orthodoxie` : il faut une seule formulation. La meilleure est « une communauté monastique autonome, officiellement "État monastique autonome", sous souveraineté grecque ».
+- **Fait** : appliqué à la place de la correction de passe 1 (voir plus haut), et harmonisé aux quatre endroits du domaine qui mentionnent l'Athos.
 
-### [MINEUR] Deux imprécisions dans mes propres formulations de passe 1
+### [MINEUR] ✅ Deux imprécisions dans mes propres formulations de passe 1
 - **Croissant** : ma correction (« motif byzantin […] repris par les Ottomans et répandu comme emblème avec l'Empire ») s'arrête avant le point décisif. Le croissant et l'étoile sont attestés chez les peuples turcs d'Asie centrale **avant l'islam**, et le croissant ne devient un symbole de l'islam en général **qu'au XIXe siècle**, avec le drapeau ottoman ; Sourdel note même que c'est l'Occident qui, au milieu du XVe siècle, y voit le premier un emblème turc officiel. Formulation à retenir : « Un emblème antérieur à l'islam, repris par les Ottomans, et devenu symbole de l'islam en général seulement au XIXe siècle. »
 - **Royaume-Uni** : j'ai écrit « l'Irlande du Nord (1871) ». L'Irlande du Nord n'existe qu'à partir de 1921 ; la loi de 1869, effective au 1er janvier 1871, a désétabli l'Église d'Irlande sur **toute l'île**. Écrire « l'Église d'Irlande (1871) ».
+- **Fait** : les deux formulations corrigées appliquées à la place des propositions de passe 1 — le croissant dans la question `mr3-symboles-religieux` et son cours, le Royaume-Uni dans le cours de `mr3-religion-politique`.
 
 ### Ce que la revérification a confirmé
 Tiennent sans réserve, sources à l'appui : le *herem* de Spinoza (juillet 1656, à vingt-trois ans, texte ne citant que des « hérésies abominables » et des « actes monstrueux » sans motif doctrinal, alors qu'aucun écrit de lui n'est connu à cette date) ; les droits de la nature dans la Constitution équatorienne de 2008, qui nomme explicitement la *Pacha Mama* et fait de l'Équateur le premier pays au monde, contre le seul préambule de la Constitution bolivienne de 2009 et la loi 071 du 21 décembre 2010 ; le jeûne du ramadan de l'aube au coucher du soleil ; la hanoukia à neuf branches ; l'abrogation du délit de blasphème d'Alsace-Moselle en janvier 2017 ; le désétablissement de l'Église du pays de Galles en 1920 ; Grace Davie ; Damas capitale en 661 ; l'étymologie *carnelevare* ; la fin du shintō d'État par la directive de décembre 1945.
@@ -567,7 +614,7 @@ Tiennent sans réserve, sources à l'appui : le *herem* de Spinoza (juillet 1656
 - **Problème** : même énoncé au singulier/pluriel près, deux bonnes réponses incompatibles. Et c'est la seconde qui est fautive : l'Edda poétique, anonyme et plus ancienne, est au moins l'égale de celle de Snorri comme source — l'explication de la première question le dit expressément. Un apprenant qui a répondu « Les Eddas » puis retrouve « L'Edda de Snorri Sturluson » conclura qu'il s'est trompé.
 - **Correction proposée** : supprimer la question de `cg-mythologie-religions-02`, qui fait double emploi et énonce un faux exclusif ; ou la réorienter sur ce qu'elle a de propre : « Qui a rédigé, vers 1220, la version en prose de l'Edda ? » — mais cette question existe déjà dans la même notion (voir le doublon Snorri plus haut). La suppression est le bon geste.
 
-### [MOYEN] Sept nouvelles paires de questions jumelles entre notions, dont une avec les mêmes distracteurs
+### [MOYEN] ✅ Sept nouvelles paires de questions jumelles entre notions, dont une avec les mêmes distracteurs
 Complètent la liste de passe 1. Les deux premières sont les plus flagrantes.
 - **Fenrir**, avec **le même jeu de quatre choix simplement permuté** : `cg-mythologie-religions-c02` « Quel loup monstrueux dévore Odin lors du Ragnarök ? » `["Sköll", "Hati", "Fenrir", "Garm"]` **vs** `cg-mythologie-religions-02` « Quel loup géant doit dévorer Odin lors du Ragnarök ? » `["Sköll", "Garm", "Fenrir", "Hati"]`.
 - **L'hégire** : `cg-mythologie-religions-c03` « Quel événement de l'an 622 marque le début du calendrier musulman ? » **vs** `cg-neuf-mr-islam` « Quel événement marque le début du calendrier musulman ? » — la seule différence est la mention de la date dans l'énoncé.
@@ -576,9 +623,11 @@ Complètent la liste de passe 1. Les deux premières sont les plus flagrantes.
 - **Siddhartha Gautama** : `cg-mythologie-religions-07` « Qui est le fondateur historique du bouddhisme ? » **vs** `cg-libre-mythologie-religions-1` « Qui est le fondateur du bouddhisme ? ».
 - **Odin père des dieux** : `cg-mythologie-religions-02` **vs** `cg-libre-mythologie-religions-1` « Quel dieu est le père et le souverain des dieux dans la mythologie nordique ? ».
 - **Le fil d'Ariane** : `cg-mythologie-religions-03` « Quel objet Ariane remet-elle à Thésée pour qu'il ressorte du Labyrinthe ? » **vs** `cg-mythologie-religions-14` « Comment Thésée parvient-il à sortir du Labyrinthe après avoir tué le Minotaure ? » — le doublon signalé en passe 1 entre les leçons 03 et 14 se confirme : ce sont bien **deux notions distinctes du même domaine**.
+- **Fait** : six des sept paires dédoublonnées en réécrivant la question du cahier d'origine (`heritage/culture-g/data/mythologie-religions.json`) sur un fait distinct de la même notion, plutôt que la question du seed — Fenrir (Sköll poursuivant le Soleil), l'hégire (le calife Omar l'instituant an 1), Hermès (l'invention de la lyre), Anubis (le masque des embaumeurs), Siddhartha Gautama (reformulée en question sur Mahavira et le jaïnisme), Odin (son sacrifice à Yggdrasil pour les runes). Le fil d'Ariane, seul, n'a pas été touché : c'est la substance même du constat [GRAVE] « Le cahier d'origine se redouble lui-même », que je laisse à qui traite les [GRAVE] — voir mon rapport final.
 
-### [MINEUR] Une réponse non couverte par la clause de neutralité que le reste du domaine applique
+### [MINEUR] ✅ Une réponse non couverte par la clause de neutralité que le reste du domaine applique
 - **Où** : `cg-neuf-mr3-christianisme-pratiques`
 - **Texte** : « Que commémore l'Ascension ? » → « **L'élévation du Christ au ciel** quarante jours après Pâques » ; explication : « Elle tombe toujours un jeudi dans le calendrier chrétien occidental. »
 - **Problème** : partout ailleurs, le domaine écrit « commémore, **selon la tradition**, la résurrection de Jésus », « une manifestation de la Vierge **rapportée par des témoins** », « la mort et **selon la foi chrétienne** la résurrection ». Ici la formule est nue. Le verbe « commémore » l'atténue, mais l'écart de traitement à l'intérieur d'un même domaine est ce qui se remarque. L'explication, par ailleurs, n'apprend rien de plus que le jour de la semaine.
 - **Correction proposée** : « L'élévation du Christ au ciel, selon les Actes des apôtres, quarante jours après Pâques », explication : « Le récit se trouve dans les Actes des apôtres et dans l'évangile de Luc. La fête tombe donc toujours un jeudi, et clôt le temps pascal avec la Pentecôte, dix jours plus tard. »
+- **Fait** : appliqué mot pour mot.

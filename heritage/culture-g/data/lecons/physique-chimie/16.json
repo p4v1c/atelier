@@ -7,7 +7,7 @@
   },
   {
    "titre": "Galilée et la naissance de la méthode expérimentale",
-   "texte": "Galilée, né à Pise le 15 février 1564 et mort à Arcetri le 8 janvier 1642, occupe une place charnière dans l'histoire des sciences. Sa contribution décisive n'est pas seulement un ensemble de résultats, mais une manière de faire : confronter systématiquement les affirmations à l'expérience et exprimer les lois obtenues en langage mathématique. Contre la physique héritée d'Aristote, il établit les principes fondamentaux du mouvement des corps, en particulier ceux de la chute libre et le principe d'inertie, qui deviendra la première loi de Newton. Il utilise le plan incliné pour ralentir la chute et la rendre mesurable avec les instruments de son temps, et il découvre la régularité des oscillations du pendule simple, propriété qui servira longtemps à mesurer le temps. En 1609, il perfectionne la lunette venue des Pays-Bas et en fait un instrument astronomique capable de grossir jusqu'à trente fois. Les observations s'enchaînent alors : la Lune se révèle couverte de montagnes et de cratères, donc semblable à la Terre et non parfaite ; le 7 janvier 1610, il identifie quatre satellites en orbite autour de Jupiter ; il observe les phases de Vénus, difficilement compatibles avec le système géocentrique. Défenseur actif de l'héliocentrisme, il est jugé en 1633 et condamné, alors même qu'il ne disposait pas encore de preuve directe du mouvement de la Terre.",
+   "texte": "Galilée, né à Pise le 15 février 1564 et mort à Arcetri le 8 janvier 1642, occupe une place charnière dans l'histoire des sciences. Sa contribution décisive n'est pas seulement un ensemble de résultats, mais une manière de faire : confronter systématiquement les affirmations à l'expérience et exprimer les lois obtenues en langage mathématique. Contre la physique héritée d'Aristote, il établit les principes fondamentaux du mouvement des corps, en particulier ceux de la chute libre et le principe d'inertie, qui deviendra la première loi de Newton. Il utilise le plan incliné pour ralentir la chute et la rendre mesurable avec les instruments de son temps, et il découvre la régularité des oscillations du pendule simple, propriété qui servira longtemps à mesurer le temps. En 1609, il perfectionne la lunette venue des Pays-Bas et en fait un instrument astronomique capable de grossir jusqu'à trente fois. Les observations s'enchaînent alors : la Lune se révèle couverte de montagnes et de cratères, donc semblable à la Terre et non parfaite ; à partir du 7 janvier 1610, il suit nuit après nuit de petites étoiles alignées près de Jupiter : elles se déplacent, et il finit par en compter quatre et par comprendre que ce sont des satellites ; il observe les phases de Vénus, difficilement compatibles avec le système géocentrique. Défenseur actif de l'héliocentrisme, il est jugé en 1633 et condamné, alors même qu'il ne disposait pas encore de preuve directe du mouvement de la Terre.",
    "visuel": {
     "type": "frise",
     "titre": "Galilée et sa lunette",
@@ -20,7 +20,7 @@
      {
       "date": "7 janvier 1610",
       "label": "Quatre satellites autour de Jupiter",
-      "texte": "Des astres tournent donc autour d'autre chose que la Terre. Il observe aussi les montagnes de la Lune et les phases de Vénus."
+      "texte": "Il commence à suivre des points lumineux mobiles près de Jupiter ; en quelques nuits, il comprend que ce sont quatre satellites. Des astres tournent donc autour d'autre chose que la Terre. Il observe aussi les montagnes de la Lune et les phases de Vénus."
      },
      {
       "date": "1633",
@@ -113,7 +113,7 @@
    ],
    "bonne": 1,
    "difficulte": 2,
-   "explication": "Le 7 janvier 1610, avec la lunette qu'il avait perfectionnée l'année précédente et qui grossissait jusqu'à trente fois, Galilée identifie quatre satellites tournant autour de Jupiter. L'observation est capitale : elle montre qu'il existe des astres qui ne tournent pas autour de la Terre, ce qui ruine l'idée d'un centre unique du monde. Il observe également les phases de Vénus, difficilement compatibles avec le géocentrisme, ainsi que les montagnes et cratères de la Lune. La mesure de la vitesse de la lumière ne sera réussie qu'en 1676 par Ole Rømer. Galilée fut jugé et condamné en 1633 pour son soutien à l'héliocentrisme."
+   "explication": "À partir du 7 janvier 1610, avec la lunette qu'il avait perfectionnée l'année précédente et qui grossissait jusqu'à trente fois, Galilée suit nuit après nuit de petites étoiles alignées près de Jupiter, jusqu'à comprendre qu'il s'agit de quatre satellites en orbite autour d'elle. L'observation est capitale : elle montre qu'il existe des astres qui ne tournent pas autour de la Terre, ce qui ruine l'idée d'un centre unique du monde. Il observe également les phases de Vénus, difficilement compatibles avec le géocentrisme, ainsi que les montagnes et cratères de la Lune. La mesure de la vitesse de la lumière ne sera réussie qu'en 1676 par Ole Rømer. Galilée fut jugé et condamné en 1633 pour son soutien à l'héliocentrisme."
   },
   {
    "q": "Quelle théorie Lavoisier a-t-il réfutée par ses expériences sur la combustion ?",

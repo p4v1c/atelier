@@ -43,7 +43,7 @@
   },
   {
    "titre": "Zwingli, Calvin et la rupture anglaise",
-   "texte": "La contestation ne reste pas limitée à l'Allemagne. À Zurich, le prêtre Ulrich Zwingli engage dès 1522 une réforme de la liturgie et de l'organisation de la cité. En France, Jean Calvin, né à Noyon en 1509 et formé au droit, doit fuir le royaume ; il publie en 1536 l'Institution de la religion chrétienne, exposé systématique de la doctrine réformée. Après un séjour à Strasbourg, il s'établit durablement à Genève à partir de 1541. Il y fait adopter des ordonnances ecclésiastiques qui distinguent quatre ministères et met en place un consistoire chargé de la discipline des mœurs ; en 1559, il fonde une académie qui forme des pasteurs pour toute l'Europe. Sa théologie insiste sur la souveraineté absolue de Dieu et sur la prédestination. La condamnation à mort de Michel Servet, en 1553, montre la sévérité du régime religieux genevois. L'Angleterre suit un chemin différent, où les motifs politiques pèsent lourd. Le roi Henri VIII, à qui le pape Clément VII refuse l'annulation de son mariage avec Catherine d'Aragon, se fait reconnaître chef de l'Église d'Angleterre par l'Acte de suprématie de 1534. L'archevêque Thomas Cranmer dote ensuite cette Église d'une liturgie propre avec le Livre de la prière commune, introduit en 1549, tandis que les Trente-Neuf Articles en fixent la doctrine. L'anglicanisme se présente comme une via media, une voie moyenne qui conserve l'organisation épiscopale tout en adoptant des principes issus de la Réforme.",
+   "texte": "La contestation ne reste pas limitée à l'Allemagne. À Zurich, le prêtre Ulrich Zwingli engage dès 1522 une réforme de la liturgie et de l'organisation de la cité. En France, Jean Calvin, né à Noyon en 1509 et formé au droit, doit fuir le royaume ; il publie en 1536 l'Institution de la religion chrétienne, en latin, exposé systématique de la doctrine réformée, dont il donnera lui-même une version française en 1541. Après un séjour à Strasbourg, il s'établit durablement à Genève à partir de 1541. Il y fait adopter des ordonnances ecclésiastiques qui distinguent quatre ministères et met en place un consistoire chargé de la discipline des mœurs ; en 1559, il fonde une académie qui forme des pasteurs pour toute l'Europe. Sa théologie insiste sur la souveraineté absolue de Dieu et sur la prédestination. La condamnation à mort de Michel Servet, en 1553, montre la sévérité du régime religieux genevois. L'Angleterre suit un chemin différent, où les motifs politiques pèsent lourd. Le roi Henri VIII, à qui le pape Clément VII refuse l'annulation de son mariage avec Catherine d'Aragon, se fait reconnaître chef de l'Église d'Angleterre par l'Acte de suprématie de 1534. L'archevêque Thomas Cranmer dote ensuite cette Église d'une liturgie propre avec le Livre de la prière commune, introduit en 1549, tandis que les Trente-Neuf Articles en fixent la doctrine. L'anglicanisme se présente comme une via media, une voie moyenne qui conserve l'organisation épiscopale tout en adoptant des principes issus de la Réforme.",
    "visuel": {
     "type": "tableau",
     "titre": "Trois foyers, trois chemins",
@@ -171,15 +171,15 @@
    ],
    "bonne": 2,
    "difficulte": 2,
-   "explication": "L'Institution de la religion chrétienne paraît en 1536 et expose de façon systématique la doctrine réformée. Calvin, né à Noyon en 1509, a fui la France avant de s'installer durablement à Genève à partir de 1541. Il y organise l'Église autour de quatre ministères et d'un consistoire, et fonde une académie en 1559. La Somme théologique de saint Thomas d'Aquin est une œuvre médiévale du XIIIe siècle. Le Livre de la prière commune est le livre liturgique anglican introduit en 1549 par Thomas Cranmer, et la traduction allemande du Nouveau Testament est due à Luther, qui la publie dès 1522."
+   "explication": "L'Institution de la religion chrétienne paraît en latin en 1536 et expose de façon systématique la doctrine réformée ; Calvin en donnera lui-même une version française en 1541. Calvin, né à Noyon en 1509, a fui la France avant de s'installer durablement à Genève à partir de 1541. Il y organise l'Église autour de quatre ministères et d'un consistoire, et fonde une académie en 1559. La Somme théologique de saint Thomas d'Aquin est une œuvre médiévale du XIIIe siècle. Le Livre de la prière commune est le livre liturgique anglican introduit en 1549 par Thomas Cranmer, et la traduction allemande du Nouveau Testament est due à Luther, qui la publie dès 1522."
   },
   {
    "q": "Quelle mesure disciplinaire le concile de Trente adopte-t-il pour le clergé ?",
    "choix": [
-    "la création de séminaires pour former les prêtres",
-    "la suppression du célibat imposé aux prêtres séculiers",
-    "l'élection des évêques par les fidèles de chaque diocèse",
-    "la fin de tous les ordres religieux"
+    "La création de séminaires pour former les prêtres",
+    "La suppression du célibat imposé aux prêtres séculiers",
+    "L'élection des évêques par les fidèles de chaque diocèse",
+    "La fin de tous les ordres religieux"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -188,10 +188,10 @@
   {
    "q": "Que prévoit la paix d'Augsbourg de 1555 ?",
    "choix": [
-    "la liberté de culte individuelle garantie à tous les sujets de l'Empire",
-    "la reconnaissance officielle du calvinisme aux côtés du luthéranisme",
-    "la fin de la guerre de Trente Ans",
-    "que chaque prince fixe la confession de son territoire"
+    "La liberté de culte individuelle garantie à tous les sujets de l'Empire",
+    "La reconnaissance officielle du calvinisme aux côtés du luthéranisme",
+    "La fin de la guerre de Trente Ans",
+    "Que chaque prince fixe la confession de son territoire"
    ],
    "bonne": 3,
    "difficulte": 2,
@@ -200,10 +200,10 @@
   {
    "q": "Quel texte met fin aux guerres de religion françaises en 1598 ?",
    "choix": [
-    "l'édit de Worms",
-    "l'édit de Nantes",
-    "la paix de Passau",
-    "les traités de Westphalie"
+    "L'édit de Worms",
+    "L'édit de Nantes",
+    "La paix de Passau",
+    "Les traités de Westphalie"
    ],
    "bonne": 1,
    "difficulte": 2,

@@ -41,7 +41,7 @@
   },
   {
    "titre": "L'argot, une langue pour se reconnaître",
-   "texte": "Le mot argot désigne au XVIIe siècle la corporation des gueux avant de nommer leur langage. Un argot est un vocabulaire propre à un groupe, qui remplit deux fonctions : dissimuler le sens aux non-initiés et manifester l'appartenance au groupe. Les métiers ont eu les leurs, les prisons, les armées, les écoles, les milieux du spectacle. Le français a conservé plusieurs procédés d'argot dits à clé, c'est-à-dire fondés sur une transformation régulière des mots plutôt que sur un lexique nouveau. Le louchébem, attribué aux bouchers parisiens, remplace la consonne initiale par un l, la rejette à la fin du mot et y ajoute un suffixe : boucher donne louchébem, fou donne loufoque, mot passé depuis dans la langue courante. Le javanais insère une syllabe parasite, souvent av, à l'intérieur des mots : gros devient gravos. Le verlan, dont le nom est lui-même le verlan de l'envers, inverse les syllabes : femme donne meuf, flic donne keuf, arabe donne beur, louche donne chelou. Certains mots ont été verlanisés deux fois, beur redevenant rebeu. Le paradoxe de l'argot est que son succès le détruit : dès qu'un mot est compris de tous, il cesse de coder et rejoint la langue générale, obligeant le groupe à en inventer d'autres.",
+   "texte": "Le mot argot désigne au XVIIe siècle la corporation des gueux avant de nommer leur langage. Un argot est un vocabulaire propre à un groupe, qui remplit deux fonctions : dissimuler le sens aux non-initiés et manifester l'appartenance au groupe. Les métiers ont eu les leurs, les prisons, les armées, les écoles, les milieux du spectacle. Le français a conservé plusieurs procédés d'argot dits à clé, c'est-à-dire fondés sur une transformation régulière des mots plutôt que sur un lexique nouveau. Le loucherbem, attribué aux bouchers parisiens, remplace la consonne initiale par un l, la rejette à la fin du mot et y ajoute un suffixe : boucher donne loucherbem, fou donne loufoque, mot passé depuis dans la langue courante. Le javanais insère une syllabe parasite, souvent av, à l'intérieur des mots : gros devient gravos. Le verlan, dont le nom est lui-même le verlan de l'envers, inverse les syllabes : femme donne meuf, flic donne keuf, arabe donne beur, louche donne chelou. Certains mots ont été verlanisés deux fois, beur redevenant rebeu. Le paradoxe de l'argot est que son succès le détruit : dès qu'un mot est compris de tous, il cesse de coder et rejoint la langue générale, obligeant le groupe à en inventer d'autres.",
    "visuels": [
     {
      "type": "etapes",
@@ -143,11 +143,11 @@
     "Il vient d'un nom propre allemand",
     "Il vient du latin lupus",
     "Il vient d'un mot d'origine bretonne",
-    "Il vient du mot fou transformé selon le procédé du louchébem"
+    "Il vient du mot fou transformé selon le procédé du loucherbem"
    ],
    "bonne": 3,
    "difficulte": 3,
-   "explication": "Le louchébem transforme les mots selon une règle fixe : la consonne initiale est remplacée par un l, puis rejetée à la fin du mot avec un suffixe. Fou devient ainsi loufoque, et boucher devient louchébem, mot qui a donné son nom au procédé. C'est un argot à clé, comme le javanais et le verlan : il ne crée pas de vocabulaire nouveau mais déforme systématiquement les mots existants. Loufoque est aujourd'hui parfaitement lexicalisé et figure dans tous les dictionnaires. Son origine argotique n'est plus perçue par personne, ce qui est le destin normal d'un mot d'argot qui réussit."
+   "explication": "Le loucherbem transforme les mots selon une règle fixe : la consonne initiale est remplacée par un l, puis rejetée à la fin du mot avec un suffixe. Fou devient ainsi loufoque, et boucher devient loucherbem, mot qui a donné son nom au procédé. C'est un argot à clé, comme le javanais et le verlan : il ne crée pas de vocabulaire nouveau mais déforme systématiquement les mots existants. Loufoque est aujourd'hui parfaitement lexicalisé et figure dans tous les dictionnaires. Son origine argotique n'est plus perçue par personne, ce qui est le destin normal d'un mot d'argot qui réussit."
   },
   {
    "q": "Comment accorde-t-on l'adjectif dans « vous êtes gentil » quand on vouvoie une seule femme ?",
@@ -171,7 +171,7 @@
    ],
    "bonne": 1,
    "difficulte": 1,
-   "explication": "Le verlan travaille sur la forme orale : louche se découpe en lou-che, puis s'inverse en che-lou. Le procédé donne aussi meuf pour femme, keuf pour flic, teuf pour fête, relou pour lourd, tromé pour métro. Le nom même du verlan est le verlan de l'envers. Certains mots ont été inversés deux fois : beur, verlan d'arabe, est redevenu rebeu. Le verlan est un argot à clé, comme le louchébem des bouchers et le javanais."
+   "explication": "Le verlan travaille sur la forme orale : louche se découpe en lou-che, puis s'inverse en che-lou. Le procédé donne aussi meuf pour femme, keuf pour flic, teuf pour fête, relou pour lourd, tromé pour métro. Le nom même du verlan est le verlan de l'envers. Certains mots ont été inversés deux fois : beur, verlan d'arabe, est redevenu rebeu. Le verlan est un argot à clé, comme le loucherbem des bouchers et le javanais."
   },
   {
    "q": "À l'oral spontané, que devient le plus souvent le « ne » de la négation ?",

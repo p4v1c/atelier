@@ -1,5 +1,5 @@
 /**
- * Langue française, deuxième lot — vingt notions sans cours.
+ * Langue française, deuxième lot — vingt notions, cours dans `cours/langue-francaise.ts`.
  */
 import { notion } from "./commun";
 import type { SeedSkill } from "../../../src/modules/types";
@@ -104,7 +104,7 @@ export const CG_LANGUE_FRANCAISE_2: SeedSkill[] = [
     ["Qu'est-ce que les rectifications de 1990 modifient principalement ?", ["Trait d'union, pluriel des composés, accent circonflexe et anomalies", "L'ensemble des règles de l'orthographe française", "La conjugaison des verbes irréguliers", "L'accord du participe passé avec l'auxiliaire avoir"], 0,
      "Elles concernent environ deux mille mots et restent facultatives."],
     ["Quel statut les rectifications de 1990 ont-elles en France ?", ["Elles sont recommandées, les deux graphies étant admises", "Elles sont obligatoires dans tout l'enseignement depuis 2016", "Elles ont été abandonnées faute d'application", "Elles ne valent que pour les textes de l'administration"], 0,
-     "Les manuels scolaires les appliquent depuis 2016, sans que l'ancienne graphie soit fautive."],
+     "Les programmes scolaires les donnent comme référence depuis 2008, ce que les programmes de 2016 ont réaffirmé, sans que l'ancienne graphie soit fautive."],
     ["Pourquoi l'accord du participe passé avec avoir est-il souvent jugé complexe ?", ["Il dépend de la place du complément d'objet direct", "Il varie selon le temps auquel le verbe se trouve employé", "Il dépend du sujet de la phrase", "Il change selon le registre de langue"], 0,
      "La règle est attribuée à Clément Marot, qui l'aurait empruntée à l'italien au XVIe siècle."],
     ["Quel projet de simplification orthographique a été proposé sans aboutir en France ?", ["Plusieurs, dont ceux des années 1890 et 1970", "Un seul projet, celui de 1990", "Aucun projet avant le XXe siècle", "Un projet européen commun dans les années 1950"], 0,
@@ -149,7 +149,7 @@ export const CG_LANGUE_FRANCAISE_2: SeedSkill[] = [
      "L'apostrophe la note à l'écrit : l'ami, s'il, jusqu'à."],
     ["Où se place l'accent tonique en français ?", ["Sur la dernière syllabe prononcée du groupe", "Sur la première syllabe de chaque mot, comme en tchèque", "Sur l'avant-dernière syllabe, comme en italien", "Sur la syllabe qui porte la voyelle la plus ouverte"], 0,
      "C'est une particularité qui distingue nettement le français de l'espagnol ou de l'italien."],
-    ["Qu'est-ce qu'un phonème disparu du français standard contemporain ?", ["La distinction entre brin et brun chez de nombreux locuteurs", "Le son ou, remplacé par le son u dans la plupart des régions", "Le é fermé, désormais confondu avec le i devant consonne", "La consonne r, effacée au profit d'un coup de glotte"], 0,
+    ["Qu'est-ce qu'un phonème disparu du français standard contemporain ?", ["Le son nasal de « brun », absorbé par celui de « brin » chez de nombreux locuteurs", "Le son ou, remplacé par le son u dans la plupart des régions", "Le é fermé, désormais confondu avec le i devant consonne", "La consonne r, effacée au profit d'un coup de glotte"], 0,
      "Les voyelles nasales se sont progressivement réduites de quatre à trois pour beaucoup de francophones."],
     ["Qu'est-ce que le e caduc ?", ["Un e qui peut être prononcé ou non selon le contexte", "Un e final que l'on ne prononce jamais en français", "Le e qui marque le féminin des adjectifs", "Un e inséré pour séparer deux consonnes"], 0,
      "Sa prononciation varie fortement selon les régions et les registres."],
@@ -229,8 +229,8 @@ export const CG_LANGUE_FRANCAISE_2: SeedSkill[] = [
      "L'usage masculin est aujourd'hui nettement majoritaire."],
     ["Quel est le genre du mot amour au pluriel dans l'usage soutenu ?", ["Féminin", "Masculin", "Les deux indifféremment", "Neutre, genre disparu"], 0,
      "Délice et orgue suivent la même particularité : masculins au singulier, féminins au pluriel dans l'usage classique."],
-    ["Quel mot est souvent employé au mauvais genre en français ?", ["Autoroute, qui est féminin", "Avion, que l'on croit féminin", "Wagon, que l'on croit féminin", "Bureau, que l'on croit féminin"], 0,
-     "Antidote, astérisque, pétale et haltère sont masculins ; oasis et échappatoire sont féminins."],
+    ["Quel mot est souvent employé au mauvais genre en français ?", ["Autoroute", "Avion", "Wagon", "Bureau"], 0,
+     "Autoroute est féminin, malgré la finale en -e parfois associée au masculin ; antidote, astérisque, pétale et haltère sont masculins, oasis et échappatoire féminins."],
     ["Comment le féminin des noms de métiers se forme-t-il généralement ?", ["Par ajout d'un e ou d'un suffixe spécifique", "Par le seul changement d'article", "Par un mot entièrement différent du masculin", "Il ne se forme pas en français"], 0,
      "Auteure, autrice, écrivaine : plusieurs formations coexistent, avec des préférences régionales."],
     ["Quelle position l'Académie française a-t-elle adoptée en 2019 sur la féminisation des métiers ?", ["Elle n'y voit plus d'obstacle de principe", "Elle en a interdit l'usage", "Elle l'a rendue obligatoire dans les textes", "Elle ne s'est jamais prononcée sur ce point"], 0,
@@ -382,7 +382,7 @@ export const CG_LANGUE_FRANCAISE_2: SeedSkill[] = [
     ["Qu'est-ce qu'un palindrome ?", ["Un mot ou une phrase se lisant identiquement dans les deux sens", "Un mot écrit à l'envers", "Une anagramme parfaite du mot d'origine", "Un mot dont le tracé est symétrique"], 0,
      "Kayak, ressasser, ou la phrase Ésope reste ici et se repose."],
     ["Qu'est-ce qu'une anagramme ?", ["Un mot formé en réarrangeant les lettres d'un autre", "Un mot qui se lit à l'envers", "Un mot de même sonorité qu'un autre", "Un mot ayant exactement le même nombre de lettres qu'un autre"], 0,
-     "Marcel Duchamp signait Rrose Sélavy, anagramme approximative d'Éros c'est la vie."],
+     "Boris Vian signait Bison Ravi, anagramme exacte de son nom."],
     ["Qu'est-ce qu'un pangramme ?", ["Une phrase contenant toutes les lettres de l'alphabet", "Une phrase où aucune lettre ne se répète", "Un texte soumis à une contrainte alphabétique très stricte", "La phrase la plus longue que l'on puisse écrire"], 0,
      "Portez ce vieux whisky au juge blond qui fume en est le plus connu en français."],
     ["Quelle figure sonore correspond à la répétition d'une même voyelle ?", ["L'assonance", "L'allitération", "La paronomase", "L'anaphore"], 0,

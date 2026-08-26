@@ -72,7 +72,7 @@
   },
   {
    "titre": "Aristote : classer le savoir, chercher le juste milieu",
-   "texte": "Aristote, né à Stagire en Chalcidique en 384 avant notre ère et mort en 322, est le fils d'un médecin macédonien. Il entre à l'Académie de Platon à dix-sept ans et y demeure une vingtaine d'années. Après la mort de son maître, il enseigne à Assos, devient en 343 le précepteur du futur Alexandre le Grand, puis revient à Athènes en 335 pour y fonder sa propre école, le Lycée. Son œuvre couvre presque tous les domaines du savoir : physique, biologie, logique, métaphysique, éthique et politique. Il organise d'ailleurs la connaissance en trois grands ensembles, les sciences théoriques tournées vers la contemplation, les sciences pratiques tournées vers l'action et les sciences productives tournées vers la fabrication. En logique, il élabore le syllogisme, forme de raisonnement qui structurera la pensée occidentale pendant des siècles. En métaphysique, il analyse les êtres à partir du couple de la matière et de la forme et distingue quatre types de causes. Son éthique s'écarte du modèle platonicien : la vertu y est définie comme un juste milieu entre deux excès, et la phronèsis, prudence pratique, guide l'action dans les situations concrètes. En politique, il considère la cité comme une réalité naturelle, fondée sur la justice et sur l'amitié entre les citoyens.",
+   "texte": "Aristote, né à Stagire en Chalcidique en 384 avant notre ère et mort en 322, est le fils d'un médecin macédonien. Il entre à l'Académie de Platon à dix-sept ans et y demeure une vingtaine d'années. Après la mort de son maître, il enseigne à Assos, devient en 343 le précepteur du futur Alexandre le Grand, puis revient à Athènes en 335 pour y fonder sa propre école, le Lycée. Son œuvre couvre presque tous les domaines du savoir : physique, biologie, logique, métaphysique, éthique et politique. Il organise d'ailleurs la connaissance en trois grands ensembles, les sciences théoriques tournées vers la contemplation, les sciences pratiques tournées vers l'action et les sciences productives tournées vers la fabrication. En logique, il élabore le syllogisme, forme de raisonnement qui structurera la pensée occidentale pendant des siècles. En métaphysique, il analyse les êtres à partir du couple de la matière et de la forme et distingue quatre types de causes. Son éthique s'écarte du modèle platonicien : la vertu y est définie comme un juste milieu entre deux excès, et la phronèsis, prudence pratique, guide l'action dans les situations concrètes. En politique, il considère la cité comme une réalité naturelle, fondée sur la justice et sur l'amitié entre les citoyens. Sur le plan théologique, il conclut à l'existence d'un premier moteur, cause immobile et ultime du mouvement de l'univers : celui-ci ne pousse rien de l'extérieur, il meut à la façon d'un objet aimé, parce que tout tend vers sa perfection comme vers une fin. Cette pure pensée qui se pense elle-même, très éloignée des dieux de la mythologie grecque, marquera durablement la théologie médiévale, chrétienne comme musulmane.",
    "visuel": {
     "type": "comparaison",
     "titre": "Deux manières de philosopher",
@@ -101,16 +101,16 @@
  ],
  "quiz": [
   {
-   "q": "Pourquoi les historiens parlent-ils d'un problème socratique ?",
+   "q": "Pourquoi le premier moteur d'Aristote meut-il l'univers sans lui-même être mû ?",
    "choix": [
-    "Parce que l'on ignore si Socrate a réellement existé ou s'il est un personnage inventé",
-    "Parce que Socrate n'a rien écrit et que les témoignages sur lui ne concordent pas",
-    "Parce que ses œuvres ont été perdues lors de l'incendie de la bibliothèque d'Alexandrie",
-    "Parce qu'il refusait de répondre aux questions de ses disciples"
+    "Parce qu'il agit comme objet de désir, non comme une force qui pousse",
+    "Parce qu'il donne une impulsion initiale au tout début du monde",
+    "Parce qu'il est identique à la matière première de toute chose",
+    "Parce qu'il communique son mouvement par une chaîne de dieux intermédiaires"
    ],
-   "bonne": 1,
-   "difficulte": 2,
-   "explication": "Socrate n'a laissé aucun écrit, et tout ce que l'on sait de lui provient de tiers. Platon en fait le héros de presque tous ses dialogues, Xénophon en donne une image plus modeste et plus pratique, et Aristophane le caricature dans sa comédie Les Nuées. Ces portraits divergent nettement, notamment sur ce que Socrate pensait vraiment et sur ce que Platon lui prête. Les historiens désignent par problème socratique la difficulté à démêler le personnage historique du personnage littéraire. Son existence, elle, n'est pas mise en doute : plusieurs contemporains le mentionnent, dont un auteur comique de son vivant."
+   "bonne": 0,
+   "difficulte": 3,
+   "explication": "Le premier moteur n'agit pas comme une cause efficiente qui pousserait le monde de l'extérieur : il meut à la façon d'un objet aimé, par attraction, parce que tout dans l'univers tend vers sa perfection comme vers une fin. Aristote en fait une pure pensée qui se pense elle-même, sans corps ni changement — un dieu philosophique très différent des dieux de la mythologie grecque, qui influencera durablement la théologie médiévale."
   },
   {
    "q": "Que désigne la maïeutique chez Socrate ?",

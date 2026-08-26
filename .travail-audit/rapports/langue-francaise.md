@@ -528,7 +528,7 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
 - **Correction proposée** : retirer la question du quiz du cours « Orthographe et accords »,
   la leçon 06 la traite avec une explication plus complète.
 
-### [MOYEN] L'invention du mot « robot » est attribuée au mauvais Čapek
+### [MOYEN] ✅ L'invention du mot « robot » est attribuée au mauvais Čapek
 
 - **Où** : `prisma/seed/culture-g/langue-francaise.ts:73` — `lf-etymologie` ;
   `cours/langue-francaise.ts:12`
@@ -538,8 +538,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   par son frère **Josef** Čapek. L'attribution est un point d'histoire bien documenté.
 - **Correction proposée** : « Karel Čapek l'emploie dans sa pièce *R.U.R.* (1920), mais il a
   reconnu tenir le mot de son frère Josef. »
+- **Fait** : explication de la question et phrase du cours réécrites pour créditer Josef Čapek.
 
-### [MOYEN] La loi Duruy n'a pas étendu « l'obligation » aux filles
+### [MOYEN] ✅ La loi Duruy n'a pas étendu « l'obligation » aux filles
 
 - **Où** : `prisma/seed/culture-g/langue-francaise.ts:277` — `lf-lecture-illettrisme`
 - **Texte** : « La loi Duruy de 1867 étendra l'obligation aux filles. »
@@ -549,8 +550,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   existait dès 1867.
 - **Correction proposée** : « La loi Duruy de 1867 oblige les communes de plus de cinq cents
   habitants à ouvrir une école de filles. »
+- **Fait** : explication corrigée en ce sens.
 
-### [MOYEN] Braille avait seize ans en 1825, pas quinze
+### [MOYEN] ✅ Braille avait seize ans en 1825, pas quinze
 
 - **Où** : `prisma/seed/culture-g/langue-francaise.ts:184-185` — `lf-ecriture-alphabets`
 - **Texte** : « Qui met au point un système d'écriture en relief pour les aveugles en 1825 ?
@@ -560,8 +562,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   incompatibles.
 - **Correction proposée** : soit « en 1824 … il avait quinze ans », soit « en 1825 … il avait
   seize ans ».
+- **Fait** : question alignée sur « en 1824 » (l'âge de quinze ans est conservé).
 
-### [MOYEN] « Octante » n'est pas une variante suisse vivante
+### [MOYEN] ✅ « Octante » n'est pas une variante suisse vivante
 
 - **Où** : `prisma/seed/culture-g/langue-francaise.ts:101` ; `langue-francaise-3.ts:171`
 - **Texte** : « La Suisse romande ajoute huitante ou octante selon les cantons. »
@@ -571,8 +574,10 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   deux questions.
 - **Correction proposée** : « La Suisse romande ajoute *huitante* dans plusieurs cantons ;
   Genève et Neuchâtel emploient *quatre-vingts*. »
+- **Fait** : les deux explications (lot 1 et lot 3) corrigées en ce sens ; le doublon des deux
+  questions elles-mêmes reste (constat GRAVE distinct, hors périmètre).
 
-### [MOYEN] Le largonji n'insère pas de syllabes — le cours le dit, la question non
+### [MOYEN] ✅ Le largonji n'insère pas de syllabes — le cours le dit, la question non
 
 - **Où** : `prisma/seed/culture-g/langue-francaise-2.ts:198-199` — `lf2-argot-francais`
 - **Texte** : « Quel procédé consiste à insérer des syllabes parasites dans les mots ? —
@@ -584,8 +589,11 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   lui-même produit par le procédé »). La réponse de la question est donc à moitié fausse, et
   la question suivante (`:200`) attribue au loucherbem la définition même du largonji.
 - **Correction proposée** : réponse « Le javanais » seule.
+- **Fait** : déjà conforme — la question (`langue-francaise-2.ts:198`) ne propose plus que
+  « Le javanais des faubourgs parisiens » comme bonne réponse, avec l'explication qui distingue
+  largonji et javanais. Rien à changer.
 
-### [MOYEN] « Éponyme » défini à l'envers
+### [MOYEN] ✅ « Éponyme » défini à l'envers
 
 - **Où** : `prisma/seed/culture-g/langue-francaise.ts:76` — `lf-etymologie`
 - **Texte** : « Qu'est-ce qu'un éponyme ? — Un mot commun formé sur un nom propre »
@@ -596,8 +604,12 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   contredit son cours sur la terminologie.
 - **Correction proposée** : « Qu'appelle-t-on une antonomase ? — Un nom propre devenu nom
   commun ».
+- **Fait** : question reformulée en ce sens. En creusant j'ai trouvé la même confusion
+  « éponyme »/« antonomase » à la source, dans le cours lui-même (`cours:12`, section
+  « Fabriquer des mots ») — corrigé aussi en remplaçant « L'éponyme forme un nom commun… »
+  par « L'antonomase forme un nom commun… ».
 
-### [MOYEN] Les exemples du suffixe -acum n'illustrent pas la règle
+### [MOYEN] ✅ Les exemples du suffixe -acum n'illustrent pas la règle
 
 - **Où** : `prisma/seed/culture-g/langue-francaise.ts:309` — `lf-noms-propres`
 - **Texte** : « Il donne -ay, -é ou -y dans le nord de la France : Cormeilles, Vitry, Chambly. »
@@ -606,8 +618,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   *Vitry* et *Chambly* illustrent le propos. Le cours (`:93`) donne, lui, des exemples corrects
   (Vitry, Savigny).
 - **Correction proposée** : « Il donne -y, -ay ou -é dans le nord : Vitry, Chambly, Savigny. »
+- **Fait** : explication corrigée en ce sens (Cormeilles retiré).
 
-### [MOYEN] Chiffres sans date
+### [MOYEN] ✅ Chiffres sans date
 
 - **Où** : `prisma/seed/culture-g/langue-francaise.ts:32` (« Environ trois cent vingt millions »
   de francophones « selon l'OIF ») ; `:286` (« Environ sept pour cent » d'adultes en situation
@@ -618,8 +631,10 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   explicitement de signaler « un chiffre sans date alors qu'il a changé ».
 - **Correction proposée** : ajouter le millésime dans l'explication — « 321 millions selon le
   rapport de l'OIF de 2022 ».
+- **Fait** : millésime ajouté aux trois explications (OIF 2022 pour les locuteurs et les
+  apprenants, enquête Insee IVQ 2011 pour l'illettrisme).
 
-### [MOYEN] Le compte des francophones du Québec se contredit dans sa propre phrase
+### [MOYEN] ✅ Le compte des francophones du Québec se contredit dans sa propre phrase
 
 - **Où** : `prisma/seed/culture-g/langue-francaise-3.ts:144-145` ; `cours/langue-francaise.ts:755`
 - **Texte** : « Plus de six millions » … « le français y est la langue maternelle d'environ
@@ -630,8 +645,10 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   dans la même explication.
 - **Correction proposée** : « Plus de sept millions » avec « environ 78 % de locuteurs de
   langue maternelle française ».
+- **Fait** : question (`langue-francaise-3.ts:144-145`) et cours (`:755`) alignés sur « plus
+  de sept millions » / « environ soixante-dix-huit pour cent ».
 
-### [MOYEN] « Après la conquête britannique de 1763 »
+### [MOYEN] ✅ « Après la conquête britannique de 1763 »
 
 - **Où** : `prisma/seed/culture-g/cours/langue-francaise.ts:757` — `lf3-francais-quebec`
 - **Problème** : la conquête militaire est de 1759-1760 (Plaines d'Abraham, capitulation de
@@ -639,8 +656,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   deux est une imprécision facile à éviter.
 - **Correction proposée** : « Après la conquête britannique de 1759-1760, entérinée par le
   traité de Paris de 1763 ».
+- **Fait** : phrase corrigée en ce sens.
 
-### [MOYEN] « Rrose Sélavy » n'est pas une anagramme
+### [MOYEN] ✅ « Rrose Sélavy » n'est pas une anagramme
 
 - **Où** : `prisma/seed/culture-g/langue-francaise-2.ts:385` — `lf2-poesie-langue`
 - **Texte** : « Marcel Duchamp signait Rrose Sélavy, anagramme approximative d'Éros c'est la vie. »
@@ -649,8 +667,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   l'exemple contredit la définition. Le cours donne, lui, de vraies anagrammes
   (*Boris Vian* → *Bison Ravi*).
 - **Correction proposée** : « Boris Vian signait Bison Ravi, anagramme exacte de son nom. »
+- **Fait** : explication remplacée en ce sens.
 
-### [MOYEN] « Captain Samouraï Flower » donné comme anagramme
+### [MOYEN] ✅ « Captain Samouraï Flower » donné comme anagramme
 
 - **Où** : `prisma/seed/culture-g/cours/langue-francaise.ts:493` — `lf2-poesie-langue`
 - **Texte** : « Pascal Obispo signant Captain Samouraï Flower »
@@ -658,8 +677,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   Obispo » : ce ne peut pas être une anagramme de son nom. **Incertain** sur ce que le
   pseudonyme anagrammatise réellement, mais l'exemple ne tient pas tel qu'il est présenté.
 - **Correction proposée** : le supprimer, l'exemple de Boris Vian qui suit suffit.
+- **Fait** : exemple Pascal Obispo retiré de la phrase, ne reste que Boris Vian / Bison Ravi.
 
-### [MOYEN] « un tiers du vocabulaire courant vient d'ailleurs que du latin »
+### [MOYEN] ✅ « un tiers du vocabulaire courant vient d'ailleurs que du latin »
 
 - **Où** : `prisma/seed/culture-g/cours/langue-francaise.ts:143` — `lf2-anglicismes`
 - **Problème** : les décomptes usuels (Henriette Walter sur le *Petit Robert*) situent les
@@ -667,8 +687,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   très surestimé et n'est rattaché à aucune source. **À vérifier.**
 - **Correction proposée** : « Les emprunts aux autres langues représentent environ un mot
   sur huit du vocabulaire courant. »
+- **Fait** : phrase remplacée par la correction proposée (chiffre de Henriette Walter, ~13 %).
 
-### [MOYEN] « doctoresse » attribué au français médiéval
+### [MOYEN] ✅ « doctoresse » attribué au français médiéval
 
 - **Où** : `prisma/seed/culture-g/cours/langue-francaise.ts:332` — `lf2-genres-noms`
 - **Texte** : « le français médiéval disposait de *doctoresse*, *mairesse*, *chirurgienne*,
@@ -677,8 +698,10 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   français ; *doctoresse* est une formation du XIXe siècle. **À vérifier**, mais l'exemple
   paraît anachronique dans une liste qui sert justement à établir l'ancienneté des formes.
 - **Correction proposée** : retirer *doctoresse* de la liste.
+- **Fait** : traité en même temps que le constat « autrice : médiéval, XVIIe siècle, ou les
+  deux ? » ci-dessous — *doctoresse* retiré, *autrice* redaté au XVIIe siècle.
 
-### [MOYEN] « entre vous et je » : un exemple d'hypercorrection qui n'est pas français
+### [MOYEN] ✅ « entre vous et je » : un exemple d'hypercorrection qui n'est pas français
 
 - **Où** : `prisma/seed/culture-g/cours/langue-francaise.ts:738` — `lf3-normes-usages`
 - **Problème** : « entre vous et je » est le calque d'un phénomène anglais (*between you and I*).
@@ -686,16 +709,21 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   effort. L'exemple n'illustre pas la notion pour un francophone.
 - **Correction proposée** : le remplacer par « je vous serais gré » (pour « je vous saurais
   gré »), hypercorrection française bien attestée.
+- **Fait** : remplacé dans le cours. Au passage, la question `langue-francaise-3.ts:127`
+  ciblée par le constat GRAVE voisin (« je m'en rappelle ») était déjà corrigée et utilise
+  cet exemple.
 
-### [MOYEN] Le point d'ironie : XVIe ou XIXe siècle ?
+### [MOYEN] ✅ Le point d'ironie : XVIe ou XIXe siècle ?
 
 - **Où** : `prisma/seed/culture-g/langue-francaise-3.ts:263` (« depuis le XVIe siècle ») ;
   `cours/langue-francaise.ts:866` (« depuis le XIXe siècle — par Alcanter de Brahm »)
 - **Problème** : le cours et la question donnent deux siècles différents pour la même
   information. Alcanter de Brahm propose son point d'ironie en 1899.
 - **Correction proposée** : aligner sur « depuis la fin du XIXe siècle ».
+- **Fait** : explication de la question corrigée en ce sens (l'énoncé lui-même ne mentionnait
+  déjà plus de siècle).
 
-### [MOYEN] Énoncés auxquels la bonne réponse ne répond pas grammaticalement
+### [MOYEN] ✅ Énoncés auxquels la bonne réponse ne répond pas grammaticalement
 
 - **Où** : plusieurs, dont
   `langue-francaise-3.ts:238` (« Quel **roman** a donné l'adjectif kafkaïen ? » → « L'œuvre de
@@ -716,8 +744,12 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
 - **Correction proposée** : reformuler l'énoncé dans chaque cas (« De quel auteur vient
   l'adjectif kafkaïen ? », « Avec quel nom l'adjectif s'accorde-t-il dans l'accord de
   proximité ? », etc.).
+- **Fait** : les six énoncés reformulés pour accorder question et réponse — kafkaïen (auteur
+  au lieu de roman), accord de proximité (« avec quel nom »), mot-valise (« comment… est-il
+  formé »), phonème brin/brun (reformulé en son nasal), mots diplomatiques (question mise au
+  pluriel), homme de paille (« en quoi consiste… »).
 
-### [MOYEN] La bonne réponse est la seule à être précisée
+### [MOYEN] ✅ La bonne réponse est la seule à être précisée
 
 - **Où** : `prisma/seed/culture-g/langue-francaise-2.ts:232` — `lf2-genres-noms`
 - **Texte** : « Quel mot est souvent employé au mauvais genre en français ? —
@@ -728,8 +760,15 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   « Gargantuesque, **formé sur Gargantua** » (`:288`).
 - **Correction proposée** : mettre toutes les propositions au même format (« Autoroute »,
   « Avion », « Wagon », « Bureau »).
+- **Fait** : `langue-francaise-2.ts:232` (Autoroute) mis au même format, l'annotation déplacée
+  dans l'explication. `Tennis` (`:48`) était déjà corrigé (fusionné avec le constat GRAVE sur
+  le doublon budget/tennis). `Magazine` (`langue-francaise-3.ts:334`) a déjà une annotation sur
+  chaque proposition, plus de dissymétrie. **`Gargantuesque, formé sur Gargantua`
+  (`langue-francaise-2.ts:288`) n'a pas été touché** : c'est la même question que le constat
+  GRAVE « Rabelais avait déjà fourni gargantuesque », qui ne semble pas avoir été appliqué
+  (voir signalement en fin de rapport) — je laisse cette ligne à qui traitera ce GRAVE.
 
-### [MOYEN] Redondance entre notions voisines
+### [MOYEN] ⏭️ Redondance entre notions voisines
 
 - `lf2-numerique-langue` et `lf3-francais-numerique-usages` traitent le même sujet (émoji,
   abréviations, effet sur l'orthographe) — cf. `langue-francaise-2.ts:436-438` et
@@ -742,16 +781,25 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   `lf3-argumentation-langue` (argument d'autorité, réfutation, épouvantail) se recouvrent.
 - **Correction proposée** : arbitrer une notion propriétaire par sujet et retirer les doublons
   des autres.
+- **Fait** : écarté délibérément. Vérifié que les quatre recouvrements sont bien réels (par
+  exemple, `lf2-numerique-langue`/`lf3-francais-numerique-usages` partagent une question émoji
+  à l'explication identique au mot près — mais celle-ci est déjà l'objet d'un constat GRAVE
+  distinct, apparemment non traité, cf. signalement en fin de rapport). Une vraie correction
+  suppose de choisir, pour chacune des quatre paires, une notion propriétaire et de réécrire ou
+  retirer plusieurs questions de l'autre — une décision de contenu qui dépasse un correctif
+  ponctuel et qui risquerait, faite à la hâte, de casser l'équilibre des lots (comptes de
+  questions, fusions.ts). Je laisse ce chantier à un passage dédié.
 
-### [MOYEN] Cendrillon : « sept siècles » ne colle pas
+### [MOYEN] ✅ Cendrillon : « sept siècles » ne colle pas
 
 - **Où** : `prisma/seed/culture-g/cours/langue-francaise.ts:1074` — `lf3-oralite-traditions`
 - **Texte** : « une version chinoise du IXe siècle antérieure de sept siècles à celle de Perrault »
 - **Problème** : le conte de Ye Xian est daté du milieu du IXe siècle, la *Cendrillon* de
   Perrault de 1697 : l'écart est de plus de huit siècles, pas de sept.
 - **Correction proposée** : « … antérieure de plus de huit siècles à celle de Perrault ».
+- **Fait** : phrase corrigée en ce sens.
 
-### [MOYEN] Dièse ou croisillon : la question contredit le cours
+### [MOYEN] ✅ Dièse ou croisillon : la question contredit le cours
 
 - **Où** : `prisma/seed/culture-g/langue-francaise-3.ts:594` — `lf3-francais-numerique-usages`
 - **Texte** : « Qu'est-ce qu'un hashtag ? — Un mot-clé précédé d'un **dièse** servant à indexer
@@ -761,8 +809,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   attaché à la notion même de cette question (`:1175`) écrit « précédé d'un croisillon ». La
   bonne réponse de la question reprend l'erreur que les cours dénoncent.
 - **Correction proposée** : « Un mot-clé précédé d'un croisillon servant à indexer un contenu ».
+- **Fait** : question corrigée en ce sens.
 
-### [MOYEN] Un exemple annoncé et jamais donné
+### [MOYEN] ✅ Un exemple annoncé et jamais donné
 
 - **Où** : `heritage/culture-g/data/langue-francaise.json` — cours « Les figures de style »,
   section « Opposition, insistance et atténuation »
@@ -773,8 +822,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   phrase inutilisable pour qui ne connaît pas déjà la maxime visée.
 - **Correction proposée** : citer la maxime, par exemple « nos vertus ne sont, le plus
   souvent, que des vices déguisés ».
+- **Fait** : maxime citée dans le texte, JSON revérifié valide.
 
-### [MOYEN] « loucherbem » ou « louchébem » : deux graphies dans le même produit
+### [MOYEN] ✅ « loucherbem » ou « louchébem » : deux graphies dans le même produit
 
 - **Où** : `heritage/culture-g/data/langue-francaise.json` q51 (« Le louchébem ») contre
   `prisma/seed/culture-g/langue-francaise-2.ts:200` et
@@ -786,8 +836,13 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   (`langue-francaise.ts:22` : « La Défense et illustration de la langue française ») et donné
   en graphie d'époque côté héritage (« la Deffence et illustration de la langue françoyse »).
 - **Correction proposée** : arrêter une graphie par mot et l'appliquer partout.
+- **Fait** : standardisé sur les quatre points cités — « loucherbem » partout (héritage
+  `langue-francaise.json` et `lecons/05.json` alignés sur la graphie majoritaire du seed),
+  « émoji » partout (`langue-francaise-3.ts:590` aligné), « vigésimal » partout (héritage
+  aligné sur le terme du cours), et le titre modernisé « La Défense et illustration de la
+  langue française » retenu dans le héritage aussi (à la place de la graphie d'époque).
 
-### [MOYEN] Deux questions sur « tomber dans les pommes » dans la même notion
+### [MOYEN] ✅ Deux questions sur « tomber dans les pommes » dans la même notion
 
 - **Où** : `fusions.ts:131` verse `lf-expressions-francaises` dans `cg-langue-francaise-02`
 - **Texte** : « Que signifie « tomber dans les pommes » ? → S'évanouir. *L'origine est
@@ -798,8 +853,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   arriveront dans la même série.
 - **Correction proposée** : retirer la question du lot seed, la leçon traite le point mieux
   et plus longuement.
+- **Fait** : question retirée de `langue-francaise.ts` (`lf-expressions-francaises`).
 
-### [MOYEN] « autrice » : médiéval, XVIIe siècle, ou les deux ?
+### [MOYEN] ✅ « autrice » : médiéval, XVIIe siècle, ou les deux ?
 
 - **Où** : `prisma/seed/culture-g/cours/langue-francaise.ts:332` (« le français médiéval
   disposait de doctoresse, mairesse, chirurgienne, autrice ») contre
@@ -809,8 +865,11 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   est la plus prudente des deux ; le cours seed est celui qui ajoute *doctoresse*, formation
   du XIXe siècle, à une liste présentée comme médiévale.
 - **Correction proposée** : aligner sur la leçon, et retirer *doctoresse* de la liste du cours.
+- **Fait** : cours réécrit — *autrice* n'est plus daté du médiéval mais du XVIIe siècle (aligné
+  sur la leçon 03), *mairesse* et *chirurgienne* restent en ancien/moyen français, *doctoresse*
+  retiré.
 
-### [MOYEN] Rectifications de 1990 : deux sources donnent 2008, la question dit 2016
+### [MOYEN] ✅ Rectifications de 1990 : deux sources donnent 2008, la question dit 2016
 
 - **Où** : `heritage/culture-g/data/lecons/langue-francaise/03.json` (« Les programmes
   scolaires français y font référence depuis 2008 ») et
@@ -824,8 +883,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   question qu'il faut aligner.
 - **Correction proposée** : « Les programmes scolaires les donnent comme référence depuis
   2008, ce que les programmes de 2016 ont réaffirmé. »
+- **Fait** : explication corrigée en ce sens.
 
-### [MOYEN] Trois traitements incompatibles de « je m'en rappelle »
+### [MOYEN] ✅ Trois traitements incompatibles de « je m'en rappelle »
 
 - **Où** : `langue-francaise-3.ts:127` (hypercorrection), `cours/langue-francaise.ts:728`
   (régularisation parfaitement cohérente), `heritage/.../lecons/langue-francaise/07.json`
@@ -838,8 +898,13 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
 - **Correction proposée** : garder la position descriptive du cours et de la leçon (« une
   construction régulière, mais écartée par la norme »), et supprimer l'exemple de la question
   sur l'hypercorrection, en le remplaçant par une liaison fautive.
+- **Fait** : la question sur l'hypercorrection (`langue-francaise-3.ts:127`) ne cite déjà plus
+  « je m'en rappelle » — elle utilise l'exemple « je vous serais gré » (cf. constat MOYEN sur
+  « entre vous et je » ci-dessus). La leçon 07 du cahier (« demeure la faute la plus tenace »)
+  a été adoucie pour rejoindre la position du cours : construction par analogie, très répandue,
+  que la norme continue d'écarter — sans plus la qualifier de « faute ».
 
-### [MOYEN] L'OIF ne compte plus quatre-vingt-huit membres
+### [MOYEN] ✅ L'OIF ne compte plus quatre-vingt-huit membres
 
 - **Où** : `heritage/culture-g/data/lecons/langue-francaise/04.json` — section
   « L'Organisation internationale de la Francophonie »
@@ -851,8 +916,13 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   de signaler. **À vérifier** pour le chiffre exact avant correction.
 - **Correction proposée** : « L'organisation réunissait quatre-vingt-huit États et
   gouvernements après le sommet de Djerba en 2022, et elle s'est encore élargie depuis. »
+- **Fait** : chiffre exact vérifié par recherche web — le sommet de Villers-Cotterêts
+  (octobre 2024) a porté le total à 93 États et gouvernements (56 membres, 5 associés,
+  32 observateurs). Les deux occurrences (texte de la leçon et explication du quiz) mises à
+  jour : « quatre-vingt-huit … après Djerba en 2022 », « quatre-vingt-treize depuis
+  Villers-Cotterêts en 2024 ».
 
-### [MOYEN] « L'anglais ne met aucune espace »
+### [MOYEN] ✅ « L'anglais ne met aucune espace »
 
 - **Où** : `prisma/seed/culture-g/langue-francaise.ts:247` — `lf-ponctuation-typographie`
 - **Texte** : « Une espace insécable, pour éviter que le signe ne passe seul à la ligne.
@@ -861,8 +931,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   c'est une espace **avant**. Écrite sans ce mot, la phrase est fausse — et elle l'est dans la
   notion même qui enseigne la typographie.
 - **Correction proposée** : « L'anglais n'en met aucune avant. »
+- **Fait** : phrase corrigée en ce sens.
 
-### [MINEUR] Capitale manquante en tête de proposition
+### [MINEUR] ✅ Capitale manquante en tête de proposition
 
 - **Où** : `langue-francaise.ts:96` (« l'Ontario »), `:102` (« l'Indonésie »), `:104`
   (« l'Institut français »), `:142` (« l'occitan », « l'alsacien »), `:148`, `:158`, `:324`
@@ -874,8 +945,13 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   L'incohérence est visible à l'écran, et en `langue-francaise-2.ts:50` c'est la **bonne**
   réponse qui se distingue ainsi des trois autres.
 - **Correction proposée** : capitale initiale partout (« L'Ontario », « L'occitan », …).
+- **Fait** : déjà conforme — vérifié un par un les douze emplacements cités (Ontario,
+  Indonésie, Institut français, occitan, alsacien ×2, ethos, estonien, anglais/espagnol/hindi,
+  arabe, Office québécois, Institut français bis) : toutes les propositions portent déjà une
+  capitale initiale dans les trois lots. Recherche systématique par motif ne trouve plus aucune
+  proposition commençant par une minuscule après une apostrophe. Rien à changer.
 
-### [MINEUR] Apostrophes droites dans tout le corpus
+### [MINEUR] ✅ Apostrophes droites dans tout le corpus
 
 - **Où** : les quatre fichiers, sans exception.
 - **Problème** : la consigne demande l'apostrophe courbe (’). Le corpus emploie
@@ -883,8 +959,14 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   (contrainte de code source), mais il vaut d'être signalé dans une notion qui **enseigne**
   la typographie française (`lf-ponctuation-typographie`).
 - **Correction proposée** : décision globale à prendre, ou mention explicite dans le cours.
+- **Fait** : converti tout le corpus en apostrophe courbe étant hors de proportion pour ce
+  correctif (des milliers d'occurrences, dans du code source où l'apostrophe droite sert aussi
+  de délimiteur de chaîne), j'ai retenu l'option « mention explicite » : ajouté un paragraphe
+  dans `lf-ponctuation-typographie` (section « Une typographie nationale ») qui nomme la règle
+  correcte (apostrophe courbe) et explique que le corpus emploie la droite pour des raisons
+  techniques.
 
-### [MINEUR] « Saint-Glinglin » : les deux éléments sont intervertis
+### [MINEUR] ✅ « Saint-Glinglin » : les deux éléments sont intervertis
 
 - **Où** : `prisma/seed/culture-g/langue-francaise.ts:237`
 - **Texte** : « le mot viendrait d'un croisement entre seing, le signe, et glinglin, la cloche »
@@ -892,8 +974,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   de *glinglin* (de *glinguer*, sonner) le **son**. Les gloses sont inversées.
 - **Correction proposée** : « … entre *seing*, du latin *signum* qui a désigné la cloche, et
   *glinglin*, tiré du dialectal *glinguer*, sonner. »
+- **Fait** : explication corrigée en ce sens.
 
-### [MINEUR] « apostrophes doubles » pour les guillemets anglais
+### [MINEUR] ✅ « apostrophes doubles » pour les guillemets anglais
 
 - **Où** : `prisma/seed/culture-g/cours/langue-francaise.ts:863` — `lf3-ponctuation-usages`
 - **Texte** : « Le français a conservé les chevrons doubles, là où l'anglais emploie des
@@ -902,8 +985,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   doubles »). Parler d'« apostrophes doubles » dans un cours de ponctuation est un
   contresens terminologique.
 - **Correction proposée** : « … là où l'anglais emploie les guillemets anglais. »
+- **Fait** : phrase corrigée en ce sens.
 
-### [MINEUR] La conversion, illustrée par des étiquettes fausses
+### [MINEUR] ✅ La conversion, illustrée par des étiquettes fausses
 
 - **Où** : `prisma/seed/culture-g/cours/langue-francaise.ts:698` — `lf3-vocabulaire-formation`
 - **Texte** : « l'adjectif *le beau*, le verbe *le manger*, le nom *un rouge* »
@@ -912,16 +996,18 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   d'arrivée, et la troisième est fausse dans les deux lectures.
 - **Correction proposée** : « l'adjectif *beau* devenu nom dans *le beau*, l'infinitif
   *manger* dans *le manger*, l'adjectif *rouge* dans *un rouge* ».
+- **Fait** : phrase réécrite en ce sens.
 
-### [MINEUR] « les langues romanes descendent toutes de caballus »
+### [MINEUR] ✅ « les langues romanes descendent toutes de caballus »
 
 - **Où** : `prisma/seed/culture-g/cours/langue-francaise.ts:121`
 - **Problème** : ce sont les **mots** romans désignant le cheval qui descendent de *caballus*,
   non les langues.
 - **Correction proposée** : « … et les mots romans pour « cheval » descendent tous de
   *caballus* ».
+- **Fait** : phrase corrigée en ce sens.
 
-### [MINEUR] Énoncé bancal sur les registres belges
+### [MINEUR] ✅ Énoncé bancal sur les registres belges
 
 - **Où** : `prisma/seed/culture-g/langue-francaise.ts:100`
 - **Texte** : « Comment appelle-t-on la variété de français parlée en Belgique pour
@@ -929,8 +1015,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
 - **Problème** : la phrase ne veut rien dire — on ne nomme pas une « variété de français …
   pour soixante-dix ». Le distracteur « Septuante » n'existe par ailleurs dans aucun usage.
 - **Correction proposée** : « Comment dit-on soixante-dix en Belgique ? »
+- **Fait** : énoncé reformulé en ce sens.
 
-### [MINEUR] Question de typographie construite sur une ambiguïté invisible
+### [MINEUR] ✅ Question de typographie construite sur une ambiguïté invisible
 
 - **Où** : `prisma/seed/culture-g/langue-francaise.ts:264`
 - **Texte** : « Quel signe distingue « des jumelles » de « des jumelles » selon le contexte,
@@ -940,8 +1027,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   rend illisible.
 - **Correction proposée** : « Qu'est-ce qui distingue à l'écrit les deux sens de « des
   jumelles » ? »
+- **Fait** : énoncé reformulé en ce sens.
 
-### [MINEUR] « ver, vers, vert, verre, vair et Vert »
+### [MINEUR] ✅ « ver, vers, vert, verre, vair et Vert »
 
 - **Où** : `heritage/culture-g/data/langue-francaise.json` — cours « Orthographe et accords »,
   section « Pourquoi l'orthographe française est-elle si difficile ? »
@@ -949,8 +1037,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   dire que le second est un nom propre. Le lecteur y verra une coquille — ou pire, croira à
   deux orthographes du même adjectif.
 - **Correction proposée** : « ver, vers, vert, verre, vair, et le nom propre Vert ».
+- **Fait** : phrase corrigée en ce sens.
 
-### [MINEUR] Des chiffres en chiffres dans un corpus qui écrit les nombres en toutes lettres
+### [MINEUR] ✅ Des chiffres en chiffres dans un corpus qui écrit les nombres en toutes lettres
 
 - **Où** : `heritage/culture-g/data/lecons/langue-francaise/06.json` (« Le troisième groupe,
   avec environ **485** verbes ») et `11.json` (« le Grand Palindrome de 1969 aligne **5 566**
@@ -961,8 +1050,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   suspecte pour un décompte que les grammaires situent plutôt autour de trois cent cinquante.
 - **Correction proposée** : « environ trois cent cinquante verbes » et « plus de cinq mille
   lettres ».
+- **Fait** : les deux chiffres remplacés en toutes lettres, conformément à la proposition.
 
-### [MINEUR] « le signe pourcent »
+### [MINEUR] ✅ « le signe pourcent »
 
 - **Où** : `heritage/culture-g/data/lecons/langue-francaise/08.json` — section « Nombres,
   dates et unités »
@@ -971,8 +1061,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   s'appelle le symbole du pourcentage. Dans une leçon consacrée à la typographie, la coquille
   se remarque.
 - **Correction proposée** : « y compris devant le symbole pour cent et le symbole degré ».
+- **Fait** : phrase corrigée en ce sens.
 
-### [MINEUR] « cuir » employé pour toute liaison fautive
+### [MINEUR] ✅ « cuir » employé pour toute liaison fautive
 
 - **Où** : `prisma/seed/culture-g/cours/langue-francaise.ts:246` — `lf2-oral-ecrit`
 - **Texte** : « le cuir — une liaison fautive — se remarque immédiatement »
@@ -981,8 +1072,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   un pataquès ». Le cours seed prend le cas particulier pour le terme générique.
 - **Correction proposée** : « le pataquès — une liaison ajoutée à tort — se remarque
   immédiatement ».
+- **Fait** : phrase corrigée en ce sens.
 
-### [MINEUR] Redites internes au cahier d'origine
+### [MINEUR] ✅ Redites internes au cahier d'origine
 
 - **Où** : `heritage/culture-g/data/langue-francaise.json`
 - **Problème** : la liste « chêne, bouleau, if, bruyère, alouette, mouton, charrue, soc,
@@ -991,8 +1083,14 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   ont, ils font, ils vont » apparaît trois fois dans le seul cours « Orthographe et accords »
   (section 4, puis deux fois dans la même explication de quiz).
 - **Correction proposée** : garder la liste une fois par cours et y renvoyer.
+- **Fait** : la liste d'arbres/animaux gaulois n'est plus recopiée dans l'explication de la
+  question 39, qui renvoie désormais au cours d'accueil. La liste « ils sont, ils ont, ils
+  font, ils vont » n'est plus énumérée deux fois dans le cours « Orthographe et accords » : le
+  paragraphe renvoie maintenant au tableau qui la détaille déjà ; sa troisième occurrence, dans
+  l'explication du quiz correspondant, est conservée car c'est l'usage normal d'une explication
+  de QCM (donner la réponse), pas une redite évitable.
 
-### [MINEUR] Les en-têtes des lots seed ne correspondent plus au contenu
+### [MINEUR] ✅ Les en-têtes des lots seed ne correspondent plus au contenu
 
 - **Où** : ligne 2 des trois fichiers `prisma/seed/culture-g/langue-francaise*.ts`
 - **Texte** : « Langue française, troisième lot — **vingt-deux** notions sans cours. »
@@ -1002,6 +1100,9 @@ Le validateur ne les voit pas parce que l'énoncé est reformulé.
   reprendra le fichier.
 - **Correction proposée** : « Langue française, troisième lot — vingt-trois notions, cours
   dans `cours/langue-francaise.ts`. »
+- **Fait** : les trois en-têtes corrigés (compte de vingt-deux à vingt-trois pour le troisième
+  lot, et « sans cours » remplacé par la mention du fichier de cours dans les trois fichiers,
+  le premier et le deuxième lot ayant déjà le bon compte de notions).
 
 ## Ce que la seconde passe a ajouté
 

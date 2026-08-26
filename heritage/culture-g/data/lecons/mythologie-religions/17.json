@@ -82,7 +82,7 @@
   },
   {
    "titre": "Le shintoïsme et la coexistence des traditions au Japon",
-   "texte": "Le shintoïsme rassemble des croyances anciennes du Japon, dont les origines sont rapportées à la période Yayoi ; le terme shintō n'apparaît qu'au VIe siècle, pour distinguer ces pratiques du bouddhisme venu de Chine. Elles se centrent sur la vénération des kami, puissances divines que la tradition situe dans les éléments de la nature et dans certains lieux ; on parle de huit millions de kami, chiffre symbolique exprimant leur multiplicité. Le Kojiki, achevé en 712, et le Nihon shoki, en 720, rassemblent les récits fondateurs, notamment ceux d'Amaterasu, divinité solaire présentée comme l'ancêtre de la famille impériale. Le culte se déroule dans des sanctuaires, les jinja, dont l'entrée est marquée par un portique appelé torii, séparant l'espace sacré du monde ordinaire ; le honden abrite le kami et le haiden sert à la prière. Les visiteurs se purifient les mains à un bassin, déposent une offrande, puis s'inclinent deux fois, frappent deux fois dans leurs mains et s'inclinent une dernière fois. Les fêtes annuelles, ou matsuri, donnent lieu à des processions où l'on porte des autels mobiles, les mikoshi. Le Japon compte environ cent mille sanctuaires. Après la restauration de Meiji, en 1868, le shintō devient religion d'État et sert à fonder l'autorité impériale, jusqu'à la réforme constitutionnelle de 1945. Aujourd'hui, de très nombreux Japonais associent sans difficulté pratiques shintō et bouddhiques, comme les Chinois ont longtemps combiné les trois enseignements.",
+   "texte": "Le shintoïsme rassemble des croyances anciennes du Japon, dont les origines sont rapportées à la période Yayoi ; le terme shintō n'apparaît qu'au VIe siècle, pour distinguer ces pratiques du bouddhisme venu de Chine. Elles se centrent sur la vénération des kami, puissances divines que la tradition situe dans les éléments de la nature et dans certains lieux ; on parle de huit millions de kami, chiffre symbolique exprimant leur multiplicité. Le Kojiki, achevé en 712, et le Nihon shoki, en 720, rassemblent les récits fondateurs, notamment ceux d'Amaterasu, divinité solaire présentée comme l'ancêtre de la famille impériale. Le culte se déroule dans des sanctuaires, les jinja, dont l'entrée est marquée par un portique appelé torii, séparant l'espace sacré du monde ordinaire ; le honden abrite le kami et le haiden sert à la prière. Les visiteurs se purifient les mains à un bassin, déposent une offrande, puis s'inclinent deux fois, frappent deux fois dans leurs mains et s'inclinent une dernière fois. Les fêtes annuelles, ou matsuri, donnent lieu à des processions où l'on porte des autels mobiles, les mikoshi. Le Japon compte environ cent mille sanctuaires. Après la restauration de Meiji, en 1868, le shintō devient religion d'État et sert à fonder l'autorité impériale, jusqu'à sa suppression par la directive sur le shintō de décembre 1945, confirmée par la Constitution de 1946. Aujourd'hui, de très nombreux Japonais associent sans difficulté pratiques shintō et bouddhiques, comme les Chinois ont longtemps combiné les trois enseignements.",
    "visuels": [
     {
      "type": "image",
@@ -135,10 +135,10 @@
   {
    "q": "Que désigne la notion taoïste de wuwei ?",
    "choix": [
-    "le sacrifice offert aux ancêtres",
-    "la piété filiale",
-    "le non-agir, c'est-à-dire l'action accordée au cours des choses",
-    "l'étude des textes classiques"
+    "Le sacrifice offert aux ancêtres",
+    "La piété filiale",
+    "Le non-agir, c'est-à-dire l'action accordée au cours des choses",
+    "L'étude des textes classiques"
    ],
    "bonne": 2,
    "difficulte": 2,
@@ -147,10 +147,10 @@
   {
    "q": "Dans quel recueil les disciples ont-ils rassemblé les propos de Confucius ?",
    "choix": [
-    "les Entretiens",
-    "le Nihon shoki",
-    "le Zhuangzi",
-    "le Kojiki"
+    "Les Entretiens",
+    "Le Nihon shoki",
+    "Le Zhuangzi",
+    "Le Kojiki"
    ],
    "bonne": 0,
    "difficulte": 2,
@@ -171,10 +171,10 @@
   {
    "q": "Que marque le torii placé à l'entrée d'un sanctuaire shinto ?",
    "choix": [
-    "la tombe d'un empereur",
-    "la limite entre l'espace sacré et le monde ordinaire",
-    "l'emplacement d'un monastère bouddhique",
-    "le lieu de conservation du Kojiki"
+    "La tombe d'un empereur",
+    "La limite entre l'espace sacré et le monde ordinaire",
+    "L'emplacement d'un monastère bouddhique",
+    "Le lieu de conservation du Kojiki"
    ],
    "bonne": 1,
    "difficulte": 1,

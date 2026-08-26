@@ -45,11 +45,11 @@
    }
   },
   {
-   "titre": "L'Énuma elish et la naissance du monde",
-   "texte": "Le grand poème babylonien de la création est connu sous son incipit, Énuma elish, que l'on traduit par Lorsque en haut. Écrit en akkadien standard sur sept tablettes, il compte environ mille cent vers. Les spécialistes le datent en général de la fin du deuxième millénaire avant notre ère, sans doute sous le règne de Nabuchodonosor Ier, vers 1125 à 1104 avant notre ère, ou peu après. Le récit commence avant toute organisation du monde, quand n'existent que deux principes aquatiques primordiaux, Apsû, l'eau douce, et Tiamat, l'eau salée, dont l'union engendre des générations successives de dieux. L'agitation des jeunes divinités trouble leurs ancêtres et déclenche le conflit. Après plusieurs échecs des autres dieux, Marduk se présente comme le seul capable d'affronter Tiamat et l'armée de créatures monstrueuses qu'elle a enfantée. Il obtient en échange la royauté sur l'assemblée divine, remporte le combat, puis façonne le cosmos à partir du corps de sa rivale. Il fixe la place des astres, fonde Babylone comme cité sacrée, crée l'humanité destinée à servir les dieux et reçoit enfin cinquante noms qui énumèrent ses pouvoirs. Ce texte n'était pas seulement littéraire : il était récité lors de la fête babylonienne du nouvel an, l'akitu, où il célébrait la royauté de Marduk et légitimait par contrecoup celle du roi terrestre.",
+   "titre": "L'Énuma Elish et la naissance du monde",
+   "texte": "Le grand poème babylonien de la création est connu sous son incipit, Énuma Elish, que l'on traduit par Lorsque en haut. Écrit en akkadien standard sur sept tablettes, il compte environ mille cent vers. Les spécialistes le datent en général de la fin du deuxième millénaire avant notre ère, sans doute sous le règne de Nabuchodonosor Ier, vers 1125 à 1104 avant notre ère, ou peu après. Le récit commence avant toute organisation du monde, quand n'existent que deux principes aquatiques primordiaux, Apsû, l'eau douce, et Tiamat, l'eau salée, dont l'union engendre des générations successives de dieux. L'agitation des jeunes divinités trouble leurs ancêtres et déclenche le conflit. Après plusieurs échecs des autres dieux, Marduk se présente comme le seul capable d'affronter Tiamat et l'armée de créatures monstrueuses qu'elle a enfantée. Il obtient en échange la royauté sur l'assemblée divine, remporte le combat, puis façonne le cosmos à partir du corps de sa rivale. Il fixe la place des astres, fonde Babylone comme cité sacrée, crée l'humanité destinée à servir les dieux et reçoit enfin cinquante noms qui énumèrent ses pouvoirs. Ce texte n'était pas seulement littéraire : il était récité lors de la fête babylonienne du nouvel an, l'akitu, où il célébrait la royauté de Marduk et légitimait par contrecoup celle du roi terrestre.",
    "visuel": {
     "type": "etapes",
-    "titre": "Le récit de l'Énuma elish",
+    "titre": "Le récit de l'Énuma Elish",
     "etapes": [
      {
       "label": "Avant toute organisation",
@@ -138,7 +138,7 @@
    "explication": "Les scribes de Mésopotamie écrivaient en imprimant un calame à section triangulaire dans de l'argile encore humide, ce qui donne des signes en forme de coins, d'où le nom d'écriture cunéiforme. Ces tablettes, une fois séchées ou cuites, se conservent très bien, ce qui explique la richesse du corpus retrouvé. Une grande partie provient de la bibliothèque du roi assyrien Assurbanipal à Ninive, au VIIe siècle avant notre ère. Le papyrus et les hiéroglyphes appartiennent à l'Égypte, et le parchemin médiéval concerne notamment les traditions celtiques insulaires."
   },
   {
-   "q": "Dans l'Énuma elish, qui Marduk affronte-t-il pour obtenir la royauté sur les dieux ?",
+   "q": "Dans l'Énuma Elish, qui Marduk affronte-t-il pour obtenir la royauté sur les dieux ?",
    "choix": [
     "Humbaba, gardien de la forêt des Cèdres",
     "Gilgamesh, le roi d'Uruk",
@@ -147,7 +147,7 @@
    ],
    "bonne": 3,
    "difficulte": 2,
-   "explication": "L'Énuma elish s'ouvre sur l'existence de deux principes aquatiques primordiaux, Apsû l'eau douce et Tiamat l'eau salée. Quand le conflit éclate entre générations divines, Marduk se présente comme le seul capable de vaincre Tiamat et ses créatures monstrueuses, à condition de recevoir la royauté. Après sa victoire, il découpe le corps de la vaincue et en tire les parties du monde, fonde Babylone et crée les humains. Humbaba, gardien de la forêt des Cèdres, appartient à l'épopée de Gilgamesh, un autre texte, où le roi d'Uruk l'affronte. Enlil, dieu souverain honoré à Nippur, relève d'une génération divine plus ancienne et n'est pas l'adversaire de Marduk dans ce poème."
+   "explication": "L'Énuma Elish s'ouvre sur l'existence de deux principes aquatiques primordiaux, Apsû l'eau douce et Tiamat l'eau salée. Quand le conflit éclate entre générations divines, Marduk se présente comme le seul capable de vaincre Tiamat et ses créatures monstrueuses, à condition de recevoir la royauté. Après sa victoire, il découpe le corps de la vaincue et en tire les parties du monde, fonde Babylone et crée les humains. Humbaba, gardien de la forêt des Cèdres, appartient à l'épopée de Gilgamesh, un autre texte, où le roi d'Uruk l'affronte. Enlil, dieu souverain honoré à Nippur, relève d'une génération divine plus ancienne et n'est pas l'adversaire de Marduk dans ce poème."
   },
   {
    "q": "Comment naît l'amitié entre Gilgamesh et Enkidu ?",
@@ -171,7 +171,7 @@
    ],
    "bonne": 2,
    "difficulte": 3,
-   "explication": "Uta-napishti, survivant du déluge, explique à Gilgamesh que la vie sans fin lui a été accordée dans des circonstances exceptionnelles et qu'elle reste hors d'atteinte des autres humains. Il lui impose d'abord de rester six jours et sept nuits sans dormir : le héros échoue, preuve qu'il ne peut vaincre le sommeil, encore moins la mort, et l'immortalité ne lui est donc jamais accordée. Uta-napishti lui indique toutefois une plante capable de restituer la jeunesse. Sur le chemin du retour, un serpent s'en empare, ce qui explique dans le récit que l'animal change de peau et paraît rajeunir. Le héros rentre donc à Uruk sans objet merveilleux, mais transformé par l'acceptation de sa condition. Les cinquante noms appartiennent à Marduk dans l'Énuma elish, texte différent."
+   "explication": "Uta-napishti, survivant du déluge, explique à Gilgamesh que la vie sans fin lui a été accordée dans des circonstances exceptionnelles et qu'elle reste hors d'atteinte des autres humains. Il lui impose d'abord de rester six jours et sept nuits sans dormir : le héros échoue, preuve qu'il ne peut vaincre le sommeil, encore moins la mort, et l'immortalité ne lui est donc jamais accordée. Uta-napishti lui indique toutefois une plante capable de restituer la jeunesse. Sur le chemin du retour, un serpent s'en empare, ce qui explique dans le récit que l'animal change de peau et paraît rajeunir. Le héros rentre donc à Uruk sans objet merveilleux, mais transformé par l'acceptation de sa condition. Les cinquante noms appartiennent à Marduk dans l'Énuma Elish, texte différent."
   },
   {
    "q": "Pourquoi la publication de la onzième tablette de l'épopée, en 1872, a-t-elle fait sensation en Europe ?",
@@ -196,7 +196,7 @@
    "url": "https://fr.wikipedia.org/wiki/Mythologie_mésopotamienne"
   },
   {
-   "titre": "Enuma Elish",
+   "titre": "Énuma Elish",
    "url": "https://fr.wikipedia.org/wiki/Enuma_Elish"
   }
  ]

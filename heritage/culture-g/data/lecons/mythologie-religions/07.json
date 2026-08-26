@@ -3,11 +3,11 @@
  "sections": [
   {
    "titre": "L'hindouisme, une tradition sans fondateur",
-   "texte": "L'hindouisme désigne un ensemble très divers de croyances, de rites et d'écoles de pensée développés dans le sous-continent indien depuis plus de trois mille ans. Contrairement à d'autres traditions religieuses, il ne possède ni fondateur identifié, ni autorité centrale, ni credo unique, ce qui explique la grande variété de ses pratiques régionales et familiales. Ses textes les plus anciens sont les Veda, composés en sanskrit à partir du deuxième millénaire avant notre ère et transmis oralement avec une extrême précision pendant des siècles. Le plus ancien, le Rig-Veda, rassemble des hymnes adressés à des puissances comme Agni, le feu, ou Indra, associé à l'orage et à la guerre. La religion védique reposait largement sur le sacrifice, accompli par des prêtres selon des règles minutieuses. Vers le VIIIe siècle avant notre ère apparaissent les Upanishad, textes de réflexion qui déplacent l'attention du rite vers la connaissance intérieure et posent la question du rapport entre le principe universel, le brahman, et le principe individuel, l'atman. Les siècles suivants voient se former les grandes traditions dévotionnelles centrées sur des divinités particulières. Le mot hindouisme lui-même est tardif : il fut employé par des observateurs extérieurs, notamment européens, pour désigner l'ensemble des religions de l'Inde qui ne relevaient ni de l'islam, ni du christianisme, ni du bouddhisme, ni du jaïnisme."
+   "texte": "L'hindouisme désigne un ensemble très divers de croyances, de rites et d'écoles de pensée développés dans le sous-continent indien depuis plus de trois mille ans. Contrairement à d'autres traditions religieuses, il ne possède ni fondateur identifié, ni autorité centrale, ni credo unique, ce qui explique la grande variété de ses pratiques régionales et familiales. Ses textes les plus anciens sont les Védas, composés en sanskrit à partir du deuxième millénaire avant notre ère et transmis oralement avec une extrême précision pendant des siècles. Le plus ancien, le Rig-Véda, rassemble des hymnes adressés à des puissances comme Agni, le feu, ou Indra, associé à l'orage et à la guerre. La religion védique reposait largement sur le sacrifice, accompli par des prêtres selon des règles minutieuses. Vers le VIIIe siècle avant notre ère apparaissent les Upanishads, textes de réflexion qui déplacent l'attention du rite vers la connaissance intérieure et posent la question du rapport entre le principe universel, le brahman, et le principe individuel, l'atman. Les siècles suivants voient se former les grandes traditions dévotionnelles centrées sur des divinités particulières. Le mot hindouisme lui-même est tardif : il fut employé par des observateurs extérieurs, notamment européens, pour désigner l'ensemble des religions de l'Inde qui ne relevaient ni de l'islam, ni du christianisme, ni du bouddhisme, ni du jaïnisme."
   },
   {
    "titre": "Divinités et grands récits",
-   "texte": "La tradition hindoue reconnaît un très grand nombre de divinités, que beaucoup de fidèles comprennent comme des manifestations d'une réalité ultime unique. Trois figures majeures sont souvent présentées ensemble : Brahma, associé à la création, Vishnou, qui préserve le monde, et Shiva, lié à la destruction et à la transformation, mais aussi à l'ascèse et à la danse cosmique. Vishnou apparaît selon les récits sous différentes formes appelées avatars, parmi lesquelles Rama et Krishna sont les plus populaires. Les déesses tiennent une place considérable, qu'il s'agisse de Lakshmi, associée à la prospérité, de Sarasvati, liée au savoir et à la musique, ou de Durga et Kali, figures guerrières. Ganesh, représenté avec une tête d'éléphant, est invoqué au commencement des entreprises. Deux grandes épopées transmettent ces récits. Le Ramayana raconte l'histoire du prince Rama, l'enlèvement de son épouse Sita par le démon Ravana et l'expédition menée avec l'aide du singe Hanuman. Le Mahabharata, considéré comme l'un des plus longs poèmes du monde, décrit le conflit entre deux branches d'une même famille royale et contient la Bhagavad-Gita, dialogue entre le guerrier Arjuna et Krishna sur le devoir et l'action. Ces textes nourrissent depuis des siècles le théâtre, la danse, la sculpture et, à l'époque contemporaine, le cinéma.",
+   "texte": "La tradition hindoue reconnaît un très grand nombre de divinités, que beaucoup de fidèles comprennent comme des manifestations d'une réalité ultime unique. Trois figures majeures sont souvent présentées ensemble : Brahma, associé à la création, Vishnou, qui préserve le monde, et Shiva, lié à la destruction et à la transformation, mais aussi à l'ascèse et à la danse cosmique. Vishnou apparaît selon les récits sous différentes formes appelées avatars, parmi lesquelles Rama et Krishna sont les plus populaires. Les déesses tiennent une place considérable, qu'il s'agisse de Lakshmi, associée à la prospérité, de Sarasvati, liée au savoir et à la musique, ou de Durga et Kali, figures guerrières. Ganesh, représenté avec une tête d'éléphant, est invoqué au commencement des entreprises. Deux grandes épopées transmettent ces récits. Le Ramayana raconte l'histoire du prince Rama, l'enlèvement de son épouse Sita par le démon Ravana et l'expédition menée avec l'aide du singe Hanuman. Le Mahabharata, considéré comme l'un des plus longs poèmes du monde, décrit le conflit entre deux branches d'une même famille royale et contient la Bhagavad-Gîtâ, dialogue entre le guerrier Arjuna et Krishna sur le devoir et l'action. Ces textes nourrissent depuis des siècles le théâtre, la danse, la sculpture et, à l'époque contemporaine, le cinéma.",
    "visuel": {
     "type": "tableau",
     "titre": "Quelques divinités de la tradition hindoue",
@@ -41,7 +41,7 @@
       "Représenté avec une tête d'éléphant, il est invoqué au commencement des entreprises"
      ]
     ],
-    "note": "La tradition reconnaît un très grand nombre de divinités, que beaucoup de fidèles comprennent comme des manifestations d'une réalité ultime unique. Deux épopées transmettent ces récits : le Ramayana et le Mahabharata, qui contient la Bhagavad-Gita."
+    "note": "La tradition reconnaît un très grand nombre de divinités, que beaucoup de fidèles comprennent comme des manifestations d'une réalité ultime unique. Deux épopées transmettent ces récits : le Ramayana et le Mahabharata, qui contient la Bhagavad-Gîtâ."
    }
   },
   {
@@ -137,26 +137,26 @@
   {
    "q": "Comment se nomment les textes les plus anciens de la tradition hindoue ?",
    "choix": [
-    "Les Veda",
+    "Les Védas",
     "Le Talmud",
     "Les sutras pali",
-    "Les Purana"
+    "Les Puranas"
    ],
    "bonne": 0,
    "difficulte": 1,
-   "explication": "Les Veda, composés en sanskrit à partir du deuxième millénaire avant notre ère, forment le socle textuel le plus ancien de la tradition hindoue. Le Rig-Veda, le plus vieux d'entre eux, rassemble des hymnes adressés à des puissances comme Agni ou Indra. Les Purana sont des recueils de récits beaucoup plus tardifs, consacrés notamment aux grandes divinités. Les sutras en langue pali appartiennent au canon du bouddhisme Theravada. Le Talmud relève de la tradition juive et n'a aucun rapport avec l'Inde."
+   "explication": "Les Védas, composés en sanskrit à partir du deuxième millénaire avant notre ère, forment le socle textuel le plus ancien de la tradition hindoue. Le Rig-Véda, le plus vieux d'entre eux, rassemble des hymnes adressés à des puissances comme Agni ou Indra. Les Puranas sont des recueils de récits beaucoup plus tardifs, consacrés notamment aux grandes divinités. Les sutras en langue pali appartiennent au canon du bouddhisme Theravada. Le Talmud relève de la tradition juive et n'a aucun rapport avec l'Inde."
   },
   {
-   "q": "Dans quel grand poème épique se trouve la Bhagavad-Gita ?",
+   "q": "Dans quel grand poème épique se trouve la Bhagavad-Gîtâ ?",
    "choix": [
     "Le Ramayana",
-    "Le Rig-Veda",
+    "Le Rig-Véda",
     "Le Mahabharata",
-    "Les Upanishad"
+    "Les Upanishads"
    ],
    "bonne": 2,
    "difficulte": 2,
-   "explication": "La Bhagavad-Gita est un passage du Mahabharata, immense épopée racontant le conflit entre deux branches d'une famille royale. Elle prend la forme d'un dialogue entre le guerrier Arjuna, hésitant avant la bataille, et Krishna, qui lui expose des enseignements sur le devoir et l'action. Le Ramayana est l'autre grande épopée indienne et raconte l'histoire de Rama et de Sita. Le Rig-Veda est un recueil d'hymnes bien plus ancien. Les Upanishad sont des textes de réflexion philosophique distincts des épopées."
+   "explication": "La Bhagavad-Gîtâ est un passage du Mahabharata, immense épopée racontant le conflit entre deux branches d'une famille royale. Elle prend la forme d'un dialogue entre le guerrier Arjuna, hésitant avant la bataille, et Krishna, qui lui expose des enseignements sur le devoir et l'action. Le Ramayana est l'autre grande épopée indienne et raconte l'histoire de Rama et de Sita. Le Rig-Véda est un recueil d'hymnes bien plus ancien. Les Upanishads sont des textes de réflexion philosophique distincts des épopées."
   },
   {
    "q": "Que désigne le mot samsara ?",
@@ -168,7 +168,7 @@
    ],
    "bonne": 1,
    "difficulte": 2,
-   "explication": "Le samsara désigne le cycle des existences successives auquel les êtres sont soumis selon les traditions indiennes. Les actes accomplis, ou karma, en déterminent les conditions, et la sortie de ce cycle constitue le but recherché, appelé moksha dans l'hindouisme. La communauté monastique bouddhique porte le nom de sangha. La fête des lumières célébrée en automne est Diwali. Le sacrifice védique, quant à lui, relève du vocabulaire rituel des Veda."
+   "explication": "Le samsara désigne le cycle des existences successives auquel les êtres sont soumis selon les traditions indiennes. Les actes accomplis, ou karma, en déterminent les conditions, et la sortie de ce cycle constitue le but recherché, appelé moksha dans l'hindouisme. La communauté monastique bouddhique porte le nom de sangha. La fête des lumières célébrée en automne est Diwali. Le sacrifice védique, quant à lui, relève du vocabulaire rituel des Védas."
   },
   {
    "q": "Quel enseignement le Bouddha aurait-il donné lors de son premier sermon près de Bénarès ?",

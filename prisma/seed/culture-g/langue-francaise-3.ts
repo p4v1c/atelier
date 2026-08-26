@@ -1,5 +1,5 @@
 /**
- * Langue française, troisième lot — vingt-deux notions sans cours.
+ * Langue française, troisième lot — vingt-trois notions, cours dans `cours/langue-francaise.ts`.
  */
 import { notion } from "./commun";
 import type { SeedSkill } from "../../../src/modules/types";
@@ -141,8 +141,8 @@ export const CG_LANGUE_FRANCAISE_3: SeedSkill[] = [
     "Histoire, particularités, politique linguistique.",
     "Le Québec mène l'une des politiques linguistiques les plus volontaristes au monde.",
     2, [
-    ["Combien de personnes parlent français au Québec ?", ["Plus de six millions", "Environ un million", "Environ dix millions", "Environ trois millions"], 0,
-     "Le français y est la langue maternelle d'environ quatre-vingts pour cent de la population."],
+    ["Combien de personnes parlent français au Québec ?", ["Plus de sept millions", "Environ un million", "Environ dix millions", "Environ trois millions"], 0,
+     "Le français y est la langue maternelle d'environ soixante-dix-huit pour cent de la population."],
     ["Que prévoit la Charte de la langue française québécoise ?", ["Le français comme langue officielle du travail, du commerce et de l'affichage", "Le bilinguisme officiel de la province", "La protection des langues autochtones", "L'enseignement obligatoire de l'anglais"], 0,
      "Adoptée en 1977, elle est communément appelée loi 101."],
     ["Quel organisme veille à la langue française au Québec ?", ["L'Office québécois de la langue française", "L'Académie québécoise de la langue", "Le Conseil supérieur de la langue française", "Le ministère québécois de la Culture"], 0,
@@ -168,7 +168,7 @@ export const CG_LANGUE_FRANCAISE_3: SeedSkill[] = [
     "Les variétés belge et suisse du français ont leurs propres normes reconnues.",
     2, [
     ["Comment dit-on soixante-dix en Belgique et en Suisse romande ?", ["Septante", "Soixante-dix", "Septuante", "Sept-dix"], 0,
-     "Nonante pour quatre-vingt-dix ; la Suisse ajoute huitante ou octante dans certains cantons."],
+     "Nonante pour quatre-vingt-dix ; la Suisse romande ajoute huitante dans plusieurs cantons, Genève et Neuchâtel disant quatre-vingts."],
     ["Quelle communauté gère l'enseignement francophone en Belgique ?", ["La Fédération Wallonie-Bruxelles", "La Région wallonne", "L'État fédéral", "La Communauté française de Wallonie seule"], 0,
      "La Belgique est fédérale, avec des compétences réparties entre régions et communautés."],
     ["Combien de langues officielles la Belgique compte-t-elle ?", ["Trois", "Deux", "Quatre", "Une"], 0,
@@ -235,8 +235,8 @@ export const CG_LANGUE_FRANCAISE_3: SeedSkill[] = [
      "Lovelace, chez Richardson, et Valmont, chez Laclos, ont donné de même leur nom au séducteur."],
     ["Quel roman a donné le mot bovarysme ?", ["Madame Bovary", "L'Éducation sentimentale", "Le Rouge et le Noir", "Illusions perdues"], 0,
      "Il désigne l'insatisfaction née de l'écart entre les rêves et la réalité."],
-    ["Quel roman a donné l'adjectif kafkaïen ?", ["L'œuvre de Kafka dans son ensemble", "Le Procès seul", "La Métamorphose", "Le Château"], 0,
-     "Il qualifie une situation absurde face à une administration incompréhensible."],
+    ["De quel auteur vient l'adjectif kafkaïen ?", ["Franz Kafka", "Marcel Proust", "Albert Camus", "Samuel Beckett"], 0,
+     "Il qualifie une situation absurde face à une administration incompréhensible, d'après l'ensemble de l'œuvre de Kafka plutôt qu'un seul roman."],
     ["Quel roman a donné l'adjectif orwellien ?", ["1984", "La Ferme des animaux", "Hommage à la Catalogne", "Le Quai de Wigan"], 0,
      "Il désigne une société de surveillance et de manipulation du langage.", 3],
   ]),
@@ -260,7 +260,7 @@ export const CG_LANGUE_FRANCAISE_3: SeedSkill[] = [
     ["Quand les guillemets apparaissent-ils en français ?", ["Au XVIe siècle", "Au Moyen Âge, dans les manuscrits", "Au XVIIIe siècle", "Au XIXe siècle"], 0,
      "Leur nom viendrait de l'imprimeur Guillaume, dont le prénom aurait donné guillemet."],
     ["Qu'est-ce que le point d'ironie ?", ["Un signe proposé à plusieurs reprises mais jamais adopté", "Un signe normalisé mais rarement employé", "Un point suivi d'un tiret horizontal", "Une variante du point d'exclamation"], 0,
-     "Plusieurs propositions ont été faites depuis le XVIe siècle, sans succès durable."],
+     "Plusieurs propositions ont été faites depuis la fin du XIXe siècle, sans succès durable."],
     ["Qu'est-ce que la ponctuation expressive dans l'écrit numérique ?", ["Des usages détournant les signes pour marquer un ton", "Une ponctuation fautive et négligée", "Un excès de signes de ponctuation", "Une absence totale de ponctuation"], 0,
      "Un point final en fin de message court peut être perçu comme un signe de froideur."],
     ["Pourquoi la ponctuation compte-t-elle pour le sens ?", ["Elle structure la phrase et peut en changer entièrement l'interprétation", "Elle indique les pauses de la respiration", "Elle est purement conventionnelle et arbitraire", "Elle sert surtout à la mise en page"], 0,
@@ -335,7 +335,7 @@ export const CG_LANGUE_FRANCAISE_3: SeedSkill[] = [
      "Le russe a emprunté des milliers de mots français aux XVIIIe et XIXe siècles."],
     ["Pourquoi le russe a-t-il emprunté au français ?", ["La noblesse russe parlait français au XIXe siècle", "Par les échanges commerciaux entretenus entre les deux pays", "Par une alliance militaire durable", "Par une proximité linguistique ancienne"], 0,
      "Guerre et Paix s'ouvre d'ailleurs sur plusieurs pages de dialogue en français."],
-    ["Quel mot français est employé internationalement en diplomatie ?", ["Attaché, chargé d'affaires et communiqué", "Ambassadeur, et lui seul", "Consul, mot latin", "Traité, mot du droit"], 0,
+    ["Quels mots français sont employés internationalement en diplomatie ?", ["Attaché, chargé d'affaires et communiqué", "Ambassadeur, et lui seul", "Consul, mot latin", "Traité, mot du droit"], 0,
      "Le français a été la langue diplomatique dominante du XVIIe au début du XXe siècle."],
     ["Quel domaine emploie encore massivement le français à l'international ?", ["La danse classique", "L'informatique et ses termes", "La finance internationale", "L'aéronautique civile"], 0,
      "Plié, jeté, arabesque et entrechat sont employés partout, quelle que soit la langue."],
@@ -403,7 +403,7 @@ export const CG_LANGUE_FRANCAISE_3: SeedSkill[] = [
      "Des travaux montrent qu'il n'est pas perçu comme neutre par les lecteurs."],
     ["Qu'est-ce que la règle du masculin qui l'emporte ?", ["Une règle d'accord énoncée aux XVIIe et XVIIIe siècles", "Une règle directement héritée de la grammaire latine classique", "Une règle fixée par les copistes du Moyen Âge", "Une règle imposée par les grammairiens du XIXe siècle"], 0,
      "L'accord de proximité était pratiqué auparavant et l'est resté dans certains usages."],
-    ["Sur quel nom l'accord de proximité se fait-il ?", ["L'accord de l'adjectif avec le nom le plus proche", "Un accord systématiquement fait au pluriel", "Un accord fait au féminin par défaut", "Une règle de style propre aux poètes"], 0,
+    ["Avec quel nom l'adjectif s'accorde-t-il dans l'accord de proximité ?", ["Le nom le plus proche de lui", "Un accord systématiquement fait au pluriel", "Un accord fait au féminin par défaut", "Une règle de style propre aux poètes"], 0,
      "Pratiqué jusqu'au XVIIe siècle, il subsiste chez certains auteurs contemporains."],
     ["Qu'est-ce qu'un nom épicène ?", ["Un nom de forme identique au masculin et au féminin", "Un nom d'un genre neutre, ni masculin ni féminin, comme en allemand", "Un nom qui ne porte aucune marque de genre", "Un nom collectif désignant un groupe de personnes"], 0,
      "Un élève, une élève : seul le déterminant marque le genre."],
@@ -541,7 +541,7 @@ export const CG_LANGUE_FRANCAISE_3: SeedSkill[] = [
      "Le championnat du monde de Scrabble francophone existe depuis 1972."],
     ["Qu'est-ce que la dictée comme exercice ludique ?", ["Un concours public d'orthographe devenu spectacle", "Un exercice scolaire de fin d'année", "Un test de niveau en orthographe", "Une évaluation nationale du niveau des élèves français"], 0,
      "Les Dicos d'or de Bernard Pivot en ont fait un événement médiatique."],
-    ["Sur quel principe repose un mot-valise ?", ["Un mot formé par fusion de deux mots", "Un mot particulièrement long", "Un mot composé de deux éléments", "Un mot à plusieurs sens"], 0,
+    ["Comment un mot-valise est-il formé ?", ["Par la fusion de deux mots en un seul", "Par un simple allongement d'un mot existant", "Par la juxtaposition de deux mots reliés par un trait d'union", "Par l'ajout d'un sens nouveau à un mot existant"], 0,
      "Lewis Carroll a théorisé le procédé dans De l'autre côté du miroir."],
     ["Qu'est-ce qu'un lipogramme comme jeu ?", ["Un texte s'interdisant une lettre", "Un texte à contrainte de longueur", "Un texte sans ponctuation", "Un texte en anagrammes"], 0,
      "La Disparition de Perec s'interdit la lettre e sur trois cents pages."],
@@ -556,7 +556,7 @@ export const CG_LANGUE_FRANCAISE_3: SeedSkill[] = [
     "Les apprenants du français dans le monde se comptent en dizaines de millions, et la progression vient surtout d'Afrique.",
     2, [
     ["Combien de personnes apprennent le français dans le monde ?", ["Environ cent trente millions", "Environ dix millions", "Environ trois cents millions", "Environ cinquante millions"], 0,
-     "Une grande partie dans les systèmes scolaires africains."],
+     "Chiffre du rapport de l'OIF de 2022 : une grande partie dans les systèmes scolaires africains."],
     ["Qu'est-ce que le DELF ?", ["Un diplôme officiel de langue française pour non-francophones", "Un test de niveau interne aux établissements", "Un certificat délivré par l'Alliance française", "Un examen universitaire d'entrée en licence"], 0,
      "Il est décliné du niveau A1 au niveau B2 du cadre européen."],
     ["Qu'est-ce que le DALF ?", ["Un diplôme approfondi correspondant aux niveaux C1 et C2", "Un diplôme de base pour grands débutants", "Un test d'aptitude à l'entrée en formation", "Un certificat professionnel reconnu dans le monde du travail"], 0,
@@ -587,11 +587,11 @@ export const CG_LANGUE_FRANCAISE_3: SeedSkill[] = [
      "Leur usage varie fortement selon le destinataire et le contexte."],
     ["Qu'est-ce que le registre écrit sur les réseaux sociaux ?", ["Un registre variant fortement selon la plateforme et le public visé", "Un registre familier uniforme d'un site à l'autre", "Un registre soutenu imposé par les plateformes", "Un registre neutre et sans marque personnelle"], 0,
      "Un même utilisateur adapte son écriture d'un réseau à l'autre."],
-    ["Qu'est-ce qu'un emoji du point de vue de l'écrit ?", ["Un élément apportant du ton et de l'intention", "Une décoration purement ornementale du message", "Un substitut du mot que l'on remplace", "Un signe de ponctuation d'un nouveau genre"], 0,
+    ["Qu'est-ce qu'un émoji du point de vue de l'écrit ?", ["Un élément apportant du ton et de l'intention", "Une décoration purement ornementale du message", "Un substitut du mot que l'on remplace", "Un signe de ponctuation d'un nouveau genre"], 0,
      "Il compense l'absence d'intonation et de gestes propre à l'écrit."],
     ["Qu'est-ce que la majuscule intégrale dans un message ?", ["Un procédé perçu comme un cri ou une insistance forte", "Une mise en valeur neutre du mot important", "Une convention typographique héritée des premiers imprimeurs", "Une marque de respect envers le destinataire"], 0,
      "Cette convention s'est stabilisée sans qu'aucune institution ne l'ait édictée."],
-    ["Qu'est-ce qu'un hashtag ?", ["Un mot-clé précédé d'un dièse servant à indexer un contenu", "Une abréviation employée dans les messages courts", "Un lien hypertexte menant vers une autre page", "Une mention adressée à un autre utilisateur"], 0,
+    ["Qu'est-ce qu'un hashtag ?", ["Un mot-clé précédé d'un croisillon servant à indexer un contenu", "Une abréviation employée dans les messages courts", "Un lien hypertexte menant vers une autre page", "Une mention adressée à un autre utilisateur"], 0,
      "Il permet de rattacher un message à une conversation collective."],
     ["Qu'est-ce que le fil de discussion ?", ["Une suite de messages liés formant un échange", "Une conversation privée entre deux personnes", "Un forum de discussion ouvert à tous", "Un commentaire particulièrement long et développé"], 0,
      "Sa structure arborescente ou linéaire change la nature des échanges."],

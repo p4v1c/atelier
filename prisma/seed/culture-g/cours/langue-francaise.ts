@@ -8,8 +8,8 @@ export const COURS_LANGUE_FRANCAISE: LotCours = {
 La forme populaire est toujours la plus courte et la plus altérée, la savante la plus proche du latin. Repérer ces couples, c'est lire la double histoire du français : une langue parlée qui s'est transformée, et une langue de clercs qui a puisé directement à la source.`],
     ["Les mots venus d'ailleurs", `Le français a emprunté à toutes les langues qu'il a rencontrées. L'arabe lui a donné algèbre, alcool, chiffre, coton et des dizaines de termes scientifiques passés par l'Espagne médiévale et la Sicile. Le persan a fourni bazar, caravane, échec. L'italien, l'espagnol, le néerlandais des marins, l'anglais enfin ont chacun laissé leur strate.
 
-D'autres mots ont simplement changé de sens. Salaire désignait à l'origine une ration de sel, ou la somme versée pour en acheter, aux soldats romains. Robot vient du tchèque robota, qui signifie le travail forcé, la corvée : le mot a été forgé par l'écrivain Karel Čapek dans une pièce de 1920.`],
-    ["Fabriquer des mots", `Plusieurs procédés créent du vocabulaire sans emprunt. Le mot-valise fusionne deux mots — courriel, clavardage, franglais. L'éponyme forme un nom commun sur un nom propre : poubelle vient du préfet Poubelle, silhouette d'un contrôleur des finances, sandwich d'un comte anglais. L'onomatopée imite un son, et varie curieusement d'une langue à l'autre pour un même bruit.
+D'autres mots ont simplement changé de sens. Salaire désignait à l'origine une ration de sel, ou la somme versée pour en acheter, aux soldats romains. Robot vient du tchèque robota, qui signifie le travail forcé, la corvée : Karel Čapek l'emploie dans sa pièce R.U.R. (1920), mais il a reconnu tenir le mot de son frère Josef.`],
+    ["Fabriquer des mots", `Plusieurs procédés créent du vocabulaire sans emprunt. Le mot-valise fusionne deux mots — courriel, clavardage, franglais. L'antonomase forme un nom commun sur un nom propre : poubelle vient du préfet Poubelle, silhouette d'un contrôleur des finances, sandwich d'un comte anglais. L'onomatopée imite un son, et varie curieusement d'une langue à l'autre pour un même bruit.
 
 Le calque traduit littéralement une expression étrangère : gratte-ciel décalque skyscraper. L'étymologie populaire, enfin, est un rapprochement erroné qui finit par modifier la forme du mot : choucroute vient de l'alsacien sürkrüt, littéralement « chou aigre », où sür (aigre) a été réinterprété en « chou » et krüt (chou) en « croûte » — et c'est bien la fausse analyse qui a fixé la graphie actuelle.`],
   ],
@@ -65,7 +65,9 @@ Au XXe siècle, Noam Chomsky propose la grammaire générative : une théorie qu
   "lf-ponctuation-typographie": [
     ["Une typographie nationale", `La typographie française a une particularité que peu de langues partagent : les signes doubles prennent une espace avant. Le point-virgule, les deux-points, le point d'interrogation et le point d'exclamation sont précédés d'une espace, insécable de préférence pour éviter qu'ils ne se retrouvent seuls en début de ligne. Le point et la virgule, signes simples, ne le sont pas.
 
-Les guillemets d'usage en français sont les chevrons, dits guillemets français, également suivis et précédés d'espaces intérieures. Les guillemets droits, importés de l'anglais et des machines à écrire, sont admis en usage courant mais ne relèvent pas de la tradition typographique française.`],
+Les guillemets d'usage en français sont les chevrons, dits guillemets français, également suivis et précédés d'espaces intérieures. Les guillemets droits, importés de l'anglais et des machines à écrire, sont admis en usage courant mais ne relèvent pas de la tradition typographique française.
+
+Même logique pour l'apostrophe : la forme correcte en typographie française est l'apostrophe courbe (’), et non l'apostrophe droite ('), héritée elle aussi du clavier informatique. Ce cours emploie l'apostrophe droite pour des raisons techniques de code source, non par ignorance de la règle.`],
     ["À quoi servent les signes", `Le point-virgule sépare des propositions liées par le sens sans les couper aussi nettement qu'un point : il marque une continuité logique que le point briserait. Son usage recule, souvent par crainte de mal l'employer.
 
 Les points de suspension marquent une interruption, une hésitation ou un sous-entendu : ils sont toujours au nombre de trois. Le tiret cadratin, tiret long, sert aux incises — comme ici — et introduit les répliques de dialogue en français, là où l'anglais emploie des guillemets. L'espace insécable, enfin, empêche la coupure entre deux éléments en fin de ligne : elle est indispensable entre un nombre et son unité, ou avant un signe double.`],
@@ -118,7 +120,7 @@ La méthode a été mise au point au XIXe siècle et repose sur les correspondan
 Cette méthode a permis de reconstituer une langue jamais attestée par l'écrit, l'indo-européen commun, parlé il y a plusieurs millénaires quelque part entre la mer Noire et la Caspienne selon l'hypothèse dominante.`],
     ["La famille du français", `Le français appartient aux langues indo-européennes, la famille la plus parlée au monde, et à l'intérieur de celle-ci à la branche romane, issue du latin parlé : français, italien, espagnol, portugais, roumain, catalan, occitan, sarde, romanche et plusieurs autres.
 
-Toutes descendent non du latin classique de Cicéron mais du latin populaire des soldats, colons et marchands, ce qui explique bien des différences — le mot latin classique pour cheval était *equus*, et les langues romanes descendent toutes de *caballus*, terme familier désignant plutôt une rosse.
+Toutes descendent non du latin classique de Cicéron mais du latin populaire des soldats, colons et marchands, ce qui explique bien des différences — le mot latin classique pour cheval était *equus*, et les mots romans pour « cheval » descendent tous de *caballus*, terme familier désignant plutôt une rosse.
 
 L'anglais appartient à la branche germanique, avec l'allemand, le néerlandais et les langues scandinaves. Son apparence est trompeuse : une grande partie de son vocabulaire vient du français, importé après la conquête normande de 1066, mais sa grammaire et son vocabulaire de base restent germaniques. C'est le rappel qu'une langue se classe par sa structure et son fonds ancien, non par le nombre de ses emprunts.
 
@@ -140,7 +142,7 @@ Une langue à tons, enfin, utilise la hauteur de la voix pour distinguer le sens
   ],
 
   "lf2-anglicismes": [
-    ["Une langue qui a toujours emprunté", `Le français a emprunté à des dizaines de langues, l'anglais n'étant que la plus récente. Un tiers environ du vocabulaire courant vient d'ailleurs que du latin.
+    ["Une langue qui a toujours emprunté", `Le français a emprunté à des dizaines de langues, l'anglais n'étant que la plus récente. Les emprunts aux autres langues représentent environ un mot sur huit du vocabulaire courant.
 
 L'arabe a fourni le vocabulaire des sciences et du commerce médiéval : algèbre, alcool, amiral, chiffre, zéro, coton, sucre, magasin, tarif. Beaucoup sont entrés par l'Espagne ou par l'Italie, et l'article arabe *al* reste soudé dans plusieurs d'entre eux.
 
@@ -243,7 +245,7 @@ Le Trésor de la langue française occupe une place à part : dictionnaire du fr
 De cette différence de conditions découlent des grammaires différentes. L'oral segmente, reprend, hésite, abandonne une construction en route ; l'écrit condense, subordonne, hiérarchise. Un même locuteur cultivé produit spontanément à l'oral des phrases qu'il ne signerait jamais par écrit — non par négligence, mais parce que les deux systèmes n'ont pas les mêmes exigences.
 
 Cette distinction est récente en linguistique. Pendant des siècles, l'écrit fut tenu pour la langue véritable et l'oral pour sa version dégradée ; l'inversion s'est produite au XXe siècle, la linguistique posant que l'oral est premier — historiquement, dans l'acquisition, et dans les milliers de langues sans écriture.`],
-    ["Les sons du français", `Une liaison est la prononciation d'une consonne finale normalement muette devant un mot commençant par une voyelle : « les_amis », « un petit_enfant ». Certaines sont obligatoires, d'autres facultatives et marquent un registre soutenu, d'autres enfin interdites — « les haricots » sans liaison. Leur maîtrise est l'un des marqueurs sociaux les plus fins de la prononciation française, et le cuir — une liaison fautive — se remarque immédiatement.
+    ["Les sons du français", `Une liaison est la prononciation d'une consonne finale normalement muette devant un mot commençant par une voyelle : « les_amis », « un petit_enfant ». Certaines sont obligatoires, d'autres facultatives et marquent un registre soutenu, d'autres enfin interdites — « les haricots » sans liaison. Leur maîtrise est l'un des marqueurs sociaux les plus fins de la prononciation française, et le pataquès — une liaison ajoutée à tort — se remarque immédiatement.
 
 Une élision supprime une voyelle finale devant une voyelle initiale : *l'ami*, *j'arrive*, *qu'il*. Elle est marquée à l'écrit par l'apostrophe, ce qui en fait l'un des rares phénomènes oraux visibles dans l'orthographe.
 
@@ -329,7 +331,7 @@ Une réserve s'impose pour les êtres animés, où le genre grammatical rejoint 
 Certains mots sont couramment employés au mauvais genre. *Autoroute* est féminin, comme *route*. *Après-guerre*, *effluve*, *pétale*, *tentacule*, *astérisque*, *en-tête* sont masculins ; *oasis*, *échappatoire*, *acné*, *primeur*, *anagramme* sont féminins. Ces hésitations ne trahissent aucune ignorance : elles signalent des mots dont la forme n'oriente pas clairement vers un genre, et où l'usage lui-même flotte.`],
     ["Féminiser les noms de métiers", `Le féminin des noms de métiers se forme généralement par ajout d'un *e* — *avocate*, *présidente*, *agente* — ou par un suffixe spécifique — *directrice*, *ambassadrice*. Certains noms sont épicènes, c'est-à-dire identiques aux deux genres, seul le déterminant variant : *une ministre*, *une juge*, *une architecte*.
 
-Ces formes ne sont pas des créations récentes : le français médiéval disposait de *doctoresse*, *mairesse*, *chirurgienne*, *autrice*. Leur disparition date du XVIIe siècle, lorsque l'Académie et les grammairiens ont favorisé le masculin pour les fonctions prestigieuses, à mesure que les femmes en étaient écartées. La féminisation contemporaine restaure donc en grande partie des formes anciennes plutôt qu'elle n'innove.
+Ces formes ne sont pas des créations récentes : l'ancien et le moyen français disposaient déjà de *mairesse* et de *chirurgienne*, et *autrice* est attesté dès le XVIIe siècle. Leur disparition, à des degrés divers, tient à l'Académie et aux grammairiens qui ont favorisé le masculin pour les fonctions prestigieuses, à mesure que les femmes en étaient écartées. La féminisation contemporaine restaure donc en grande partie des formes anciennes plutôt qu'elle n'innove.
 
 L'Académie française, longtemps hostile, a adopté en 2019 un rapport concluant qu'elle ne voit plus d'obstacle de principe à la féminisation des noms de métiers, de fonctions et de titres — retournement notable après plusieurs décennies de prises de position contraires.`],
     ["Les procédés en débat", `L'accord de proximité fait accorder l'adjectif avec le nom le plus proche plutôt qu'avec le masculin : « ces hommes et ces femmes sont belles ». Cette règle a existé en français classique et se rencontre chez Racine ; elle a été supplantée par la règle du masculin générique, dont la justification donnée au XVIIe siècle — le masculin étant « le genre le plus noble » — n'est plus défendable aujourd'hui.
@@ -490,7 +492,7 @@ Une contrepèterie intervertit des sons entre deux mots pour produire un second 
 Une assonance est la répétition d'une même voyelle dans une suite de mots ; l'allitération fait de même avec les consonnes. Ces figures structurent le vers avant que la rime ne s'impose : la *Chanson de Roland* est assonancée, non rimée.`],
     ["Jouer avec les lettres", `Un palindrome se lit identiquement dans les deux sens — *ressasser*, *kayak*, ou la phrase attribuée à Napoléon, « élu par cette crapule ». Le plus long palindrome français connu dépasse plusieurs milliers de lettres, exercice d'endurance plus que de sens.
 
-Une anagramme réarrange les lettres d'un mot pour en former un autre : *chien* et *niche*, *Marie* et *aimer*. Les auteurs s'en servent volontiers pour construire des pseudonymes — Pascal Obispo signant Captain Samouraï Flower, ou Boris Vian écrivant sous le nom de Bison Ravi.
+Une anagramme réarrange les lettres d'un mot pour en former un autre : *chien* et *niche*, *Marie* et *aimer*. Les auteurs s'en servent volontiers pour construire des pseudonymes — Boris Vian écrivant ainsi sous le nom de Bison Ravi.
 
 Un pangramme contient toutes les lettres de l'alphabet. Le plus connu en français — « portez ce vieux whisky au juge blond qui fume » — sert à tester polices et claviers depuis des décennies.
 
@@ -695,7 +697,7 @@ La distinction n'est pas académique : elle détermine le comportement du mot. U
 
 Une siglaison productive forme de nouveaux mots à partir de sigles : *cégétiste* à partir de CGT, *smicard* à partir de SMIC, *onusien* à partir d'ONU. Le sigle se comporte alors comme un radical ordinaire, preuve de son intégration complète.
 
-Une conversion fait passer un mot d'une catégorie à une autre sans aucune modification de forme : l'adjectif *le beau*, le verbe *le manger*, le nom *un rouge*. C'est un procédé silencieux et très productif, particulièrement pour transformer des participes en adjectifs et des adjectifs en noms.`],
+Une conversion fait passer un mot d'une catégorie à une autre sans aucune modification de forme : l'adjectif *beau* devenu nom dans *le beau*, l'infinitif *manger* devenu nom dans *le manger*, l'adjectif *rouge* devenu nom dans *un rouge*. C'est un procédé silencieux et très productif, particulièrement pour transformer des participes en adjectifs et des adjectifs en noms.`],
   ],
 
   "lf3-semantique": [
@@ -735,7 +737,7 @@ Les deux ont leur utilité et ne répondent pas à la même question. La confusi
 Le purisme est l'attitude qui défend une norme stricte contre les évolutions. Il est ancien et constant : chaque génération dénonce la dégradation de la langue par la suivante, et l'on trouve des textes du XVIIe siècle déplorant en termes identiques ce que déplorent les tribunes contemporaines. Si ces craintes étaient fondées, le français serait inintelligible depuis longtemps.
 
 La position dominante des linguistes est que l'évolution d'une langue est naturelle et n'implique aucune dégradation. Une langue change parce qu'elle s'adapte aux besoins et aux contacts de ses locuteurs ; ce qui se perd d'un côté se compense de l'autre, et aucune langue n'a jamais été observée en train de perdre sa capacité expressive.`],
-    ["Les effets sociaux de la norme", `L'hypercorrection est une erreur produite par excès de souci de bien parler : on applique une règle là où elle ne s'applique pas. Prononcer une liaison interdite, dire « au niveau de » pour faire savant, employer un subjonctif où l'indicatif convient, ou dire « entre vous et je » par crainte du « moi » relèvent de ce mécanisme.
+    ["Les effets sociaux de la norme", `L'hypercorrection est une erreur produite par excès de souci de bien parler : on applique une règle là où elle ne s'applique pas. Prononcer une liaison interdite, dire « au niveau de » pour faire savant, employer un subjonctif où l'indicatif convient, ou dire « je vous serais gré » pour « je vous saurais gré » relèvent de ce mécanisme.
 
 Elle est révélatrice : elle ne se produit que chez ceux qui cherchent à se conformer à une norme qu'ils ne maîtrisent pas entièrement — donc précisément chez ceux qui l'ont apprise plutôt que reçue.
 
@@ -752,9 +754,9 @@ C'est ce que la sociolinguistique appelle le répertoire du locuteur. Sa richess
   ],
 
   "lf3-francais-quebec": [
-    ["Une langue reconquise", `Plus de six millions de personnes parlent français au Québec, où il est la langue maternelle d'environ quatre-vingts pour cent de la population. Le Québec mène l'une des politiques linguistiques les plus volontaristes au monde, et cette situation résulte d'une histoire précise.
+    ["Une langue reconquise", `Plus de sept millions de personnes parlent français au Québec, où il est la langue maternelle d'environ soixante-dix-huit pour cent de la population. Le Québec mène l'une des politiques linguistiques les plus volontaristes au monde, et cette situation résulte d'une histoire précise.
 
-Après la conquête britannique de 1763, la population francophone se maintient par la démographie et par l'Église, mais l'économie et le commerce passent progressivement à l'anglais. Jusqu'aux années 1960, les francophones du Québec sont majoritaires en nombre et minoritaires dans les positions économiques ; à Montréal, on travaille en anglais.
+Après la conquête britannique de 1759-1760, entérinée par le traité de Paris de 1763, la population francophone se maintient par la démographie et par l'Église, mais l'économie et le commerce passent progressivement à l'anglais. Jusqu'aux années 1960, les francophones du Québec sont majoritaires en nombre et minoritaires dans les positions économiques ; à Montréal, on travaille en anglais.
 
 La Révolution tranquille, dans les années 1960, transforme rapidement cette situation : l'État québécois se modernise, prend en charge l'éducation et la santé jusque-là confiées à l'Église, et la question de la langue devient politique. Deux référendums sur la souveraineté seront tenus, en 1980 et 1995, le second échouant de 1,16 point : 50,58 % contre 49,42 %.`],
     ["La Charte de la langue française", `Adoptée en 1977, la Charte de la langue française — dite loi 101 — fait du français la langue officielle du travail, du commerce, de l'affichage, de l'administration et de l'enseignement.
@@ -860,7 +862,7 @@ Le point d'interrogation apparaît au Moyen Âge, dérivé selon l'hypothèse la
 
 Le point-virgule est un signe intermédiaire entre le point et la virgule : il sépare des propositions plus liées que ne le permettrait un point, et plus autonomes qu'une virgule. C'est le signe le plus délicat et le plus déclinant — beaucoup d'auteurs contemporains ne l'emploient plus, ce que d'autres déplorent comme une perte de nuance.
 
-Les guillemets apparaissent en français au XVIe siècle, d'abord comme marque marginale signalant un passage remarquable, puis comme signe du discours rapporté. Le français a conservé les chevrons doubles, là où l'anglais emploie des apostrophes doubles.`],
+Les guillemets apparaissent en français au XVIe siècle, d'abord comme marque marginale signalant un passage remarquable, puis comme signe du discours rapporté. Le français a conservé les chevrons doubles, là où l'anglais emploie les guillemets anglais.`],
     ["Ce que la ponctuation change", `La ponctuation compte pour le sens parce qu'elle structure la phrase et peut en changer entièrement l'interprétation. Les exemples classiques sont éloquents : la présence ou l'absence d'une virgule dans une relative en modifie la portée, et une virgule mal placée dans un contrat en modifie les obligations — plusieurs litiges commerciaux ont été tranchés sur ce seul point.
 
 Le point d'ironie a été proposé à plusieurs reprises depuis le XIXe siècle — par Alcanter de Brahm puis par d'autres — sans jamais être adopté. Son échec répété est instructif : l'ironie fonctionne précisément parce qu'elle n'est pas signalée, et un signe qui l'annoncerait la supprimerait.
@@ -1071,7 +1073,7 @@ Les collectes du XIXe siècle ont figé cette matière mouvante. En France, Paul
 Ces collectes ont sauvé un patrimoine et l'ont transformé : le passage à l'écrit sélectionne une version, corrige la langue, atténue les éléments jugés choquants — les versions publiées sont souvent bien plus sages que celles qui ont été recueillies.`],
     ["Classer l'innombrable", `La classification Aarne-Thompson, complétée par Uther, range les contes par types narratifs : chaque trame reçoit un numéro, indépendamment de la langue et du pays.
 
-Son intérêt est comparatif. Elle fait apparaître que les mêmes trames se retrouvent sur des continents entiers : le conte type 510A, celui de Cendrillon, est attesté en Europe, en Asie, en Afrique du Nord, avec une version chinoise du IXe siècle antérieure de sept siècles à celle de Perrault.
+Son intérêt est comparatif. Elle fait apparaître que les mêmes trames se retrouvent sur des continents entiers : le conte type 510A, celui de Cendrillon, est attesté en Europe, en Asie, en Afrique du Nord, avec une version chinoise du IXe siècle antérieure de plus de huit siècles à celle de Perrault.
 
 Cette diffusion pose une question que les folkloristes n'ont jamais complètement tranchée : ces récits circulent-ils par emprunt le long des routes commerciales, ou naissent-ils indépendamment de structures narratives universelles ? Les deux explications ont leurs partisans et sont probablement toutes deux vraies selon les cas.
 
