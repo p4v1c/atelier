@@ -63,7 +63,7 @@ export const CG_INSTITUTIONS_ECONOMIE_2: SeedSkill[] = [
     "Statut, concours, missions : qui travaille pour l'État et les collectivités.",
     "La fonction publique française compte trois versants distincts.",
     2, [
-    ["Quels sont les trois versants de la fonction publique française ?", ["l'État, la territoriale et l'hospitalière", "l'État, les collectivités et les entreprises publiques", "La civile, la militaire et la judiciaire", "La nationale, la régionale et la locale"], 0,
+    ["Quels sont les trois versants de la fonction publique française ?", ["L'État, la territoriale et l'hospitalière", "L'État, les collectivités et les entreprises publiques", "La civile, la militaire et la judiciaire", "La nationale, la régionale et la locale"], 0,
      "Ensemble, ils emploient environ cinq millions et demi de personnes."],
     ["Quel principe régit l'accès à la fonction publique française ?", ["L'égal accès par concours", "La nomination discrétionnaire", "La cooptation professionnelle", "Le recrutement sur titres uniquement"], 0,
      "Le principe découle de la Déclaration de 1789, qui écarte toute distinction autre que les talents."],
@@ -151,7 +151,7 @@ export const CG_INSTITUTIONS_ECONOMIE_2: SeedSkill[] = [
      "Les cartels de prix sont sanctionnés par des amendes pouvant atteindre dix pour cent du chiffre d'affaires mondial."],
     ["Qu'est-ce qu'un abus de position dominante ?", ["L'exploitation abusive d'une puissance de marché", "Le seul fait de se trouver en situation de monopole", "Une fusion réalisée sans l'autorisation des autorités", "Une politique de prix bas destinée à gagner des clients"], 0,
      "Être dominant n'est pas illicite ; c'est l'abus qui l'est."],
-    ["Quelle autorité française sanctionne les pratiques anticoncurrentielles ?", ["L'Autorité de la concurrence", "La DGCCRF seule", "l'AMF", "L'Arcom"], 0,
+    ["Quelle autorité française sanctionne les pratiques anticoncurrentielles ?", ["L'Autorité de la concurrence", "La DGCCRF seule", "L'AMF", "L'Arcom"], 0,
      "Elle contrôle aussi les concentrations d'entreprises au-delà de certains seuils."],
     ["Qu'est-ce qu'une externalité négative ?", ["Un coût imposé à des tiers sans compensation par le marché", "Une perte financière subie par l'entreprise productrice", "Un coût de production que l'entreprise n'avait pas prévu", "Une taxe prélevée sur chaque unité produite"], 0,
      "La pollution en est l'exemple type : son coût n'apparaît pas dans le prix du produit."],

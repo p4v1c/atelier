@@ -145,7 +145,7 @@ export const CG_LANGUE_FRANCAISE: SeedSkill[] = [
      "La Bretagne est linguistiquement coupée en deux : le breton à l'ouest, le gallo à l'est."],
     ["Qu'est-ce que le francoprovençal ?", ["Un ensemble de parlers romans distincts de l'oïl comme de l'oc", "Un simple dialecte du provençal", "Un mélange de français et de provençal des Alpes", "Une langue germanique parlée dans les Alpes"], 0,
      "Parlé du Lyonnais à la Savoie, au Val d'Aoste et en Suisse romande, il a été identifié comme groupe à part en 1873."],
-    ["Quelle langue romane est parlée du Limousin à la Provence ?", ["l'occitan", "Le catalan", "Le francoprovençal", "Le gascon seul"], 0,
+    ["Quelle langue romane est parlée du Limousin à la Provence ?", ["L'occitan", "Le catalan", "Le francoprovençal", "Le gascon seul"], 0,
      "Le gascon en est l'une des variantes, avec le languedocien, le provençal et le limousin."],
     ["Qu'est-ce que le Félibrige ?", ["Une association fondée en 1854 pour défendre la langue et la culture provençales", "Un prix littéraire décerné en langue occitane", "Une école de traduction fondée au Moyen Âge", "Un dictionnaire provençal-français du XIXe siècle"], 0,
      "Sept poètes la fondent au château de Font-Ségugne ; Frédéric Mistral en sera la figure centrale."],
@@ -321,7 +321,7 @@ export const CG_LANGUE_FRANCAISE: SeedSkill[] = [
     "Les trois moyens de persuasion d'Aristote, les parties du discours, et ce qu'est un sophisme.",
     "Convaincre s'adresse à la raison, persuader aux émotions : la rhétorique classique distingue les deux.",
     2, [
-    ["Quels sont les trois moyens de persuasion identifiés par Aristote ?", ["l'ethos, le pathos et le logos", "La thèse, l'antithèse et la synthèse", "L'exorde, la narration et la péroraison", "L'induction, la déduction et l'analogie"], 0,
+    ["Quels sont les trois moyens de persuasion identifiés par Aristote ?", ["L'ethos, le pathos et le logos", "La thèse, l'antithèse et la synthèse", "L'exorde, la narration et la péroraison", "L'induction, la déduction et l'analogie"], 0,
      "L'ethos est le crédit de l'orateur, le pathos l'émotion du public, le logos l'argumentation."],
     ["Qu'est-ce que l'exorde d'un discours ?", ["Son ouverture, destinée à capter la bienveillance", "Sa conclusion, destinée à emporter l'adhésion de tous", "Le cœur de l'argumentation, où l'on prouve", "Le résumé des faits soumis à l'auditoire"], 0,
      "La péroraison en est la fin, souvent le moment d'appel à l'émotion."],

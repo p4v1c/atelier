@@ -269,11 +269,11 @@ export const CG_GEOGRAPHIE: SeedSkill[] = [
     2, [
     ["Quand la population mondiale a-t-elle atteint huit milliards ?", ["En 2022", "En 2015", "En 2019", "En 2025"], 0,
      "L'ONU a retenu symboliquement le 15 novembre 2022. Le passage de sept à huit milliards a pris douze ans."],
-    ["Quel pays est aujourd'hui le plus peuplé du monde ?", ["L'Inde", "La Chine", "Les États-Unis", "l'Indonésie"], 0,
+    ["Quel pays est aujourd'hui le plus peuplé du monde ?", ["L'Inde", "La Chine", "Les États-Unis", "L'Indonésie"], 0,
      "L'Inde a dépassé la Chine en 2023, cette dernière ayant vu sa population commencer à décliner."],
     ["Qu'appelle-t-on transition démographique ?", ["Le passage d'une forte natalité et mortalité à de faibles taux", "Le vieillissement de la population", "L'exode rural", "La baisse de l'espérance de vie"], 0,
      "La mortalité baisse d'abord, puis la natalité : c'est le décalage entre les deux qui produit la poussée démographique."],
-    ["Quel continent connaîtra la plus forte croissance démographique d'ici 2050 ?", ["L'Afrique", "L'Asie, déjà la plus peuplée", "L'Amérique latine et ses grandes villes", "l'Océanie et le Pacifique"], 0,
+    ["Quel continent connaîtra la plus forte croissance démographique d'ici 2050 ?", ["L'Afrique", "L'Asie, déjà la plus peuplée", "L'Amérique latine et ses grandes villes", "L'Océanie et le Pacifique"], 0,
      "Sa population pourrait doubler d'ici le milieu du siècle, avec le Nigeria parmi les pays les plus peuplés du monde."],
     ["Quel indicateur mesure le nombre moyen d'enfants par femme ?", ["L'indice de fécondité", "Le taux de natalité", "Le taux d'accroissement", "L'indice de dépendance"], 0,
      "Le seuil de renouvellement des générations est d'environ deux virgule un enfants par femme dans les pays à faible mortalité."],

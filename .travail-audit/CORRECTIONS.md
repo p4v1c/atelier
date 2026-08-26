@@ -1128,3 +1128,71 @@ apprend quelque chose au passage.
 - **Des définitions bancales** : le pont suspendu décrit aussi le pont à haubans
   (corrigée) ; « le coût de l'inaction climatique » défini comme « les dommages
   futurs évités par une action présente », c'est-à-dire le bénéfice de l'action.
+
+---
+
+## Les questions jumelles : pourquoi le dédoublonnage automatique a été écarté
+
+`.travail-audit/jumelles.ts` cherche, dans une même notion, deux questions dont
+les **réponses** disent la même chose — c'est par la réponse qu'on les attrape,
+puisque deux formulations d'un même fait divergent dans l'énoncé mais
+convergent dans la réponse. Il en trouve **54 paires dans 41 notions**.
+
+La tentation était d'élargir `dedoublonner()` pour les supprimer au chargement :
+geste unique, en amont, qui protège aussi le contenu futur. **La lecture de la
+liste a montré que ce serait une faute.** Une paire sur deux n'est pas un
+doublon mais un **contraste délibéré**, et c'est justement ce qui s'apprend :
+
+| l'une | l'autre |
+| --- | --- |
+| le commensalisme | le parasitisme |
+| un régime présidentiel | un régime parlementaire |
+| l'électrocardiogramme | l'électroencéphalogramme |
+| le ralenti | le time-lapse |
+| la péjoration d'un mot | son amélioration |
+| un belgicisme | un helvétisme |
+| l'UNSS | l'USEP |
+| la neutralité carbone | la taxe carbone |
+
+S'y ajoutent les paires où **deux faits distincts partagent une réponse** — la
+Guyane est à la fois le seul territoire français d'Amérique du Sud et le plus
+vaste ; Simone Veil préside le Parlement européen et entre au Panthéon. Une
+règle qui rapproche par la réponse les confondrait toutes.
+
+Restent une vingtaine de doublons francs — Yggdrasil, Gaugamèles, Bouvines,
+Pavie, Chambord, Hatchepsout, Gengis Khan, « blanchir un légume », « déglacer ».
+Ils font une redite dans une révision : c'est un désagrément, pas un défaut qui
+fait rater l'apprentissage. Les supprimer à la main détruirait du contenu pour
+un gain faible, et les supprimer automatiquement emporterait les contrastes.
+**L'outil reste donc un rapport, pas un filtre** — à traiter au cas par cas
+quand la notion concernée sera reprise pour une autre raison.
+
+### Ce que la recherche a réellement rapporté
+
+- **Une contradiction de fait.** `cg-histoire-monde-22` posait deux fois le
+  nombre de déportés de la traite atlantique, avec deux réponses justes
+  différentes : « Au moins 11 millions » et « Plus de douze millions ». Les deux
+  chiffres sont exacts — l'un compte les débarquements, l'autre les
+  embarquements — mais rien ne le disait. La question du seed porte désormais
+  explicitement sur les embarquements, et son explication énonce l'écart.
+- **Une faute de genre dans une bonne réponse.** « Le gouttière » pour l'espace
+  entre deux cases de bande dessinée, alors que la question jumelle de la même
+  notion écrivait « La gouttière ».
+
+## Une sixième astuce, découverte au passage : la minuscule
+
+L'audit d'origine en avait relevé cinq. En voici une sixième, née d'une passe
+automatique de réparation d'élisions qui avait mordu trop large : **155
+propositions commençaient par une minuscule** là où les autres de leur question
+portaient la majuscule — « l'Alsace » face à « La Bretagne », « l'INA » face à
+« La Bibliothèque nationale de France ».
+
+Ce n'est pas qu'une inélégance. La minuscule tombait sur la **bonne réponse dans
+43 % des cas**, quand le hasard en donne 25 : elle la désignait presque deux fois
+trop souvent, et elle se repère d'un coup d'œil sans rien lire.
+
+Les 155 propositions ont reçu leur majuscule initiale. La correction ne change
+ni le sens ni la longueur, donc aucun des autres compteurs. Le contrôle tient en
+trois lignes si on veut l'ajouter au validateur : dans une question dont au
+moins deux propositions commencent par une majuscule, aucune ne doit commencer
+par une minuscule.

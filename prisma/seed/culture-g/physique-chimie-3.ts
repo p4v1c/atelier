@@ -73,7 +73,7 @@ export const CG_PHYSIQUE_CHIMIE_3: SeedSkill[] = [
      "Une pose photographique longue révèle des arcs de cercle centrés sur le pôle céleste."],
     ["Qu'est-ce que la magnitude apparente d'une étoile ?", ["Une mesure de son éclat vu depuis la Terre", "Sa taille réelle", "Sa distance", "Sa puissance lumineuse absolue, indépendante de la distance"], 0,
      "L'échelle est inversée : plus la magnitude est faible, plus l'astre est brillant."],
-    ["Quelle est l'étoile la plus brillante du ciel nocturne ?", ["Sirius", "Véga", "l'étoile polaire", "Bételgeuse"], 0,
+    ["Quelle est l'étoile la plus brillante du ciel nocturne ?", ["Sirius", "Véga", "L'étoile polaire", "Bételgeuse"], 0,
      "Elle appartient à la constellation du Grand Chien et n'est qu'à environ huit années-lumière."],
     ["Pourquoi les planètes ne scintillent-elles pas comme les étoiles ?", ["Leur disque apparent est plus large, ce qui moyenne la turbulence", "Elles sont plus proches", "Elles émettent une lumière propre", "Elles sont plus brillantes"], 0,
      "Le scintillement est un effet atmosphérique, non une propriété de l'astre."],

@@ -159,7 +159,7 @@ export const CG_MYTHOLOGIE_RELIGIONS: SeedSkill[] = [
      "Après une guerre particulièrement meurtrière, il fit graver des édits prônant la non-violence sur des piliers de pierre."],
     ["Quelle grande branche du bouddhisme est majoritaire au Tibet et en Mongolie ?", ["Le bouddhisme vajrayana", "Le theravada", "Le zen japonais de l'école Sôtô", "L'amidisme de la Terre pure"], 0,
      "Le theravada domine en Asie du Sud-Est, le mahayana en Chine, en Corée et au Japon."],
-    ["Qu'est-ce que le nirvana ?", ["l'extinction de la soif et la sortie du cycle des renaissances", "Un paradis céleste où les fidèles renaissent auprès des dieux bienveillants", "La fusion avec une divinité personnelle et éternelle du panthéon", "Un état de transe atteint par la seule méditation"], 0,
+    ["Qu'est-ce que le nirvana ?", ["L'extinction de la soif et la sortie du cycle des renaissances", "Un paradis céleste où les fidèles renaissent auprès des dieux bienveillants", "La fusion avec une divinité personnelle et éternelle du panthéon", "Un état de transe atteint par la seule méditation"], 0,
      "Le mot signifie littéralement extinction, comme celle d'une flamme privée de combustible.", 3],
   ]),
 

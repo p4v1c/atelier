@@ -157,7 +157,7 @@ export const CG_SPORT: SeedSkill[] = [
      "Le même joueur ne peut toucher deux fois de suite, sauf après un contre."],
     ["Combien de joueurs une équipe de handball aligne-t-elle sur le terrain ?", ["Sept", "Six", "Huit", "Cinq"], 0,
      "Six joueurs de champ et un gardien. Seul le gardien peut évoluer dans la zone des six mètres."],
-    ["Quelle nation domine le handball masculin international depuis les années 1990 ?", ["La France", "l'Allemagne", "l'Espagne", "La Suède"], 0,
+    ["Quelle nation domine le handball masculin international depuis les années 1990 ?", ["La France", "L'Allemagne", "L'Espagne", "La Suède"], 0,
      "Avec de multiples titres mondiaux, européens et olympiques, portés par plusieurs générations successives.", 3],
   ]),
 

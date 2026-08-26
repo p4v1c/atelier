@@ -315,7 +315,7 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
     "Navigations, conquêtes, conséquences.",
     "Les voyages du XVe siècle ont mis en relation des mondes jusque-là séparés.",
     2, [
-    ["Quel pays a lancé les premières grandes expéditions atlantiques ?", ["Le Portugal", "l'Espagne", "La France", "Les Provinces-Unies"], 0,
+    ["Quel pays a lancé les premières grandes expéditions atlantiques ?", ["Le Portugal", "L'Espagne", "La France", "Les Provinces-Unies"], 0,
      "Henri le Navigateur y organise des expéditions le long de l'Afrique dès le XVe siècle."],
     ["Qui a contourné le cap de Bonne-Espérance en 1488 ?", ["Bartolomeu Dias", "Vasco de Gama", "Christophe Colomb", "Pedro Álvares Cabral"], 0,
      "Vasco de Gama atteint l'Inde dix ans plus tard."],
@@ -341,8 +341,8 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
     "Systèmes, abolitions, mémoire.",
     "La traite atlantique a déporté plus de douze millions d'Africains.",
     2, [
-    ["Combien d'Africains ont été déportés par la traite atlantique ?", ["Plus de douze millions", "Environ trois millions", "Environ six millions", "Plus de vingt millions"], 0,
-     "Environ dix millions et demi ont survécu à la traversée."],
+    ["Combien d'Africains ont été embarqués sur les navires de la traite atlantique ?", ["Plus de douze millions", "Environ trois millions", "Environ six millions", "Plus de vingt millions"], 0,
+     "Les bases de données de traversées recensent environ douze millions et demi d'embarquements, pour un peu moins de onze millions de débarquements : l'écart est le nombre de morts pendant la traversée."],
     ["Quels continents le commerce triangulaire reliait-il ?", ["Un circuit reliant l'Europe, l'Afrique et les Amériques", "Un commerce entre trois puissances maritimes européennes", "Un échange colonial direct entre métropoles et colonies", "Un système de troc atlantique entre marchands"], 0,
      "De nombreux navires ne suivaient toutefois pas ce schéma en trois étapes."],
     ["Quelle étape de la traite appelle-t-on le passage du milieu ?", ["La traversée atlantique des captifs africains", "Une escale intermédiaire dans les îles du Cap-Vert", "Une route commerciale directe vers les Antilles", "Un port de transit sur la côte africaine"], 0,
@@ -429,7 +429,7 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
      "Hong Kong est cédée au Royaume-Uni à l'issue du premier conflit."],
     ["Qu'est-ce que la révolte des Boxers ?", ["Un soulèvement antiétranger en Chine autour de 1900", "Une révolte paysanne fiscale", "Un mouvement réformiste", "Une insurrection militaire"], 0,
      "Une coalition de huit puissances l'a réprimée."],
-    ["Quel pays africain a résisté victorieusement à une colonisation européenne ?", ["l'Éthiopie", "Le Liberia", "Le Maroc", "Le Soudan"], 0,
+    ["Quel pays africain a résisté victorieusement à une colonisation européenne ?", ["L'Éthiopie", "Le Liberia", "Le Maroc", "Le Soudan"], 0,
      "La victoire d'Adoua en 1896 stoppe l'Italie ; le Liberia n'a pas connu de conquête coloniale."],
     ["Qu'est-ce que la crise de Fachoda ?", ["Une confrontation franco-britannique au Soudan en 1898", "Un conflit colonial en Afrique de l'Ouest", "Une crise marocaine", "Un incident au Congo"], 0,
      "Le recul français a ouvert la voie à l'Entente cordiale."],
@@ -521,7 +521,7 @@ export const CG_HISTOIRE_MONDE_4: SeedSkill[] = [
     "Circulations, ruptures, institutions.",
     "La science moderne s'est construite par des échanges entre plusieurs civilisations.",
     2, [
-    ["D'où vient notre système de chiffres ?", ["d'Inde, transmis par le monde arabe", "De Grèce, avec les chiffres alphabétiques", "De Rome, par les chiffres romains", "De Chine, transmis par la route de la soie"], 0,
+    ["D'où vient notre système de chiffres ?", ["D'Inde, transmis par le monde arabe", "De Grèce, avec les chiffres alphabétiques", "De Rome, par les chiffres romains", "De Chine, transmis par la route de la soie"], 0,
      "D'où l'expression chiffres arabes, malgré une origine indienne."],
     ["Qu'est-ce que l'astronomie de Maragha ?", ["Une école d'astronomes persans du XIIIe siècle", "Une observation grecque tardive de Ptolémée", "Une école indienne d'astronomie mathématique", "Un observatoire ottoman construit à Istanbul"], 0,
      "Ses modèles mathématiques ont peut-être influencé Copernic."],

@@ -47,7 +47,7 @@ export const CG_LANGUE_FRANCAISE_2: SeedSkill[] = [
      "La légende des cosaques réclamant à boire est séduisante mais chronologiquement invraisemblable."],
     ["Quel mot du vocabulaire sportif vient du français « tenez », passé en anglais puis revenu ?", ["Tennis", "Golf", "Rugby", "Cricket"], 0,
      "Le joueur annonçait « tenez » avant de servir au jeu de paume. Budget et sport ont fait le même aller-retour, par d'autres chemins."],
-    ["Quelle langue a fourni au français des mots comme algèbre, alcool et amiral ?", ["l'arabe", "Le persan", "Le turc", "L'hébreu"], 0,
+    ["Quelle langue a fourni au français des mots comme algèbre, alcool et amiral ?", ["L'arabe", "Le persan", "Le turc", "L'hébreu"], 0,
      "Plusieurs centaines de mots français en sont issus, souvent par l'intermédiaire de l'espagnol ou de l'italien."],
     ["Quel mot français vient du néerlandais par la marine ?", ["Bâbord", "Marin", "Voile", "Ancre"], 0,
      "Bâbord, tribord, matelot et cabillaud proviennent tous du néerlandais ou du bas-allemand."],

@@ -222,7 +222,7 @@ export const CG_HISTOIRE_FRANCE: SeedSkill[] = [
     2, [
     ["Quand la Guadeloupe et la Martinique deviennent-elles françaises ?", ["En 1635", "En 1493", "En 1715", "En 1848"], 0,
      "La Compagnie des îles d'Amérique y installe des colons. La culture de la canne à sucre s'y développe avec la traite."],
-    ["Qui obtient l'abolition définitive de l'esclavage en 1848 ?", ["Victor Schœlcher", "l'abbé Grégoire", "Condorcet", "Léon Gambetta"], 0,
+    ["Qui obtient l'abolition définitive de l'esclavage en 1848 ?", ["Victor Schœlcher", "L'abbé Grégoire", "Condorcet", "Léon Gambetta"], 0,
      "Une première abolition de 1794 avait été annulée par Bonaparte en 1802. Le décret de 1848 est irrévocable."],
     ["Quand la Réunion, la Martinique, la Guadeloupe et la Guyane deviennent-elles départements ?", ["En 1946", "En 1848", "En 1958", "En 1982"], 0,
      "La loi du 19 mars 1946, portée notamment par Aimé Césaire, transforme ces quatre vieilles colonies en départements."],

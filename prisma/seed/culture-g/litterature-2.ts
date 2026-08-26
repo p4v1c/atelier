@@ -297,7 +297,7 @@ export const CG_LITTERATURE_2: SeedSkill[] = [
     "Un art narratif à part entière, ses écoles et son vocabulaire.",
     "La bande dessinée est parfois appelée le neuvième art depuis les années 1960.",
     2, [
-    ["Comment appelle-t-on l'espace entre deux cases de bande dessinée ?", ["Le gouttière", "Le cadre", "La marge", "Le blanc tournant"], 0,
+    ["Comment appelle-t-on l'espace entre deux cases de bande dessinée ?", ["La gouttière", "Le cadre", "La marge", "Le blanc tournant"], 0,
      "C'est là que le lecteur opère mentalement le passage d'une image à l'autre."],
     ["Qu'est-ce qu'une planche en bande dessinée ?", ["Une page complète composée de plusieurs cases", "Une case unique", "Une bande horizontale", "Une couverture illustrée"], 0,
      "Une bande, ou strip, désigne une rangée de cases à l'intérieur de la planche."],

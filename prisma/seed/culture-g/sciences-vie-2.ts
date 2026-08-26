@@ -481,7 +481,7 @@ export const CG_SCIENCES_VIE_2: SeedSkill[] = [
      "La divergence est ancienne et les études génétiques débattent encore du lieu et du nombre de domestications."],
     ["Où le mouton et la chèvre ont-ils été domestiqués ?", ["Au Proche-Orient", "En Asie centrale", "En Afrique du Nord", "En Europe méridionale"], 0,
      "Dans le Croissant fertile, il y a environ dix mille ans, avec les premières cultures céréalières."],
-    ["Quel animal sauvage est l'ancêtre du bœuf domestique ?", ["l'aurochs", "Le bison", "Le buffle", "Le yak"], 0,
+    ["Quel animal sauvage est l'ancêtre du bœuf domestique ?", ["L'aurochs", "Le bison", "Le buffle", "Le yak"], 0,
      "Le dernier aurochs est mort en Pologne en 1627."],
     ["Où le cheval a-t-il probablement été domestiqué ?", ["Dans les steppes d'Eurasie occidentale", "En Arabie", "En Mongolie orientale", "En Europe centrale"], 0,
      "Les études génétiques récentes situent l'origine des chevaux modernes dans la steppe pontique."],

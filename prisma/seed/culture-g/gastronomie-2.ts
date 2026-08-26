@@ -379,7 +379,7 @@ export const CG_GASTRONOMIE_2: SeedSkill[] = [
      "Elle a conduit à interdire les farines animales et à créer une traçabilité complète."],
     ["Quelle agence européenne évalue les risques alimentaires ?", ["l'EFSA", "l'EMA", "l'ECHA", "l'ECDC"], 0,
      "Créée en 2002 après les crises des années 1990, elle est distincte des autorités de gestion du risque."],
-    ["Quelle agence française évalue les risques sanitaires alimentaires ?", ["l'ANSES", "La DGCCRF", "l'ANSM", "Santé publique France"], 0,
+    ["Quelle agence française évalue les risques sanitaires alimentaires ?", ["L'ANSES", "La DGCCRF", "L'ANSM", "Santé publique France"], 0,
      "Elle couvre aussi l'environnement et le travail depuis sa fusion en 2010."],
     ["Qu'est-ce que la listériose ?", ["Une infection due à une bactérie se développant même au froid", "Une intoxication provoquée par une toxine préformée", "Une contamination virale transmise par les aliments crus mal lavés", "Une allergie alimentaire grave pouvant aller jusqu'au choc anaphylactique"], 0,
      "Elle est particulièrement dangereuse pendant la grossesse et chez les personnes immunodéprimées."],

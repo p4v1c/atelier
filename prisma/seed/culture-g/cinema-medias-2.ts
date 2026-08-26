@@ -443,7 +443,7 @@ export const CG_CINEMA_MEDIAS_2: SeedSkill[] = [
      "L'obsolescence matérielle, les serveurs fermés et les droits rendent la tâche particulièrement difficile."],
     ["Qu'est-ce que l'émulation ?", ["Un logiciel reproduisant le fonctionnement d'une machine ancienne", "Une copie illégale d'un jeu", "Une remasterisation en haute définition", "Une réédition officielle sur les machines actuelles"], 0,
      "Juridiquement, l'émulateur est légal ; la distribution des jeux qu'il exécute ne l'est généralement pas."],
-    ["Quelle institution française conserve les jeux vidéo au titre du dépôt légal ?", ["La Bibliothèque nationale de France", "Le CNC", "l'INA", "Le musée des Arts et Métiers, à Paris"], 0,
+    ["Quelle institution française conserve les jeux vidéo au titre du dépôt légal ?", ["La Bibliothèque nationale de France", "Le CNC", "L'INA", "Le musée des Arts et Métiers, à Paris"], 0,
      "Le dépôt légal des jeux vidéo y est assuré depuis 1992."],
     ["Pourquoi le jeu vidéo est-il étudié dans les universités ?", ["Comme objet culturel, économique et social à part entière", "Uniquement pour ses effets sur le comportement des joueurs", "Pour former les futurs développeurs", "Pour ses seules applications pédagogiques"], 0,
      "Les game studies se sont constituées comme champ de recherche à partir des années 2000.", 3],
