@@ -63,10 +63,8 @@ export const CG_SPORT_2: SeedSkill[] = [
     "Règles, compétitions, grandes figures.",
     "Le basket est l'un des rares sports majeurs dont on connaît l'inventeur et la date exacte.",
     2, [
-    ["Quelle est la hauteur d'un panier de basket ?", ["Trois mètres cinq", "Trois mètres", "Trois mètres cinquante", "Deux mètres quatre-vingts"], 0,
-     "Dix pieds, hauteur inchangée depuis l'invention du jeu en 1891."],
-    ["Combien de temps une équipe a-t-elle pour tirer en NBA ?", ["Vingt-quatre secondes", "Trente secondes", "Trente-cinq secondes", "Vingt secondes"], 0,
-     "La règle, introduite en 1954, a transformé le rythme du jeu."],
+    ["Quelle différence de durée sépare un quart-temps de NBA d'un quart-temps FIBA ?", ["Douze minutes contre dix", "Quinze minutes contre douze", "Dix minutes contre huit", "Il n'y a pas de différence"], 0,
+     "La NBA joue en quatre quart-temps de douze minutes, les règles internationales en quatre de dix."],
     ["Que vaut un lancer franc ?", ["Un point", "Deux points", "Trois points", "Un demi-point"], 0,
      "Il est accordé après certaines fautes et se tire sans opposition."],
     ["Qu'est-ce qu'un marcher au basket ?", ["Un déplacement irrégulier sans dribble", "Un dribble interrompu", "Un contact avec l'adversaire", "Un retour en zone"], 0,
@@ -139,8 +137,8 @@ export const CG_SPORT_2: SeedSkill[] = [
     "Formule 1, rallye, moto : règles et sécurité.",
     "La sécurité en sport automobile a progressé au point de rendre les accidents mortels exceptionnels.",
     2, [
-    ["Quand le championnat du monde de Formule 1 est-il créé ?", ["En 1950", "En 1946", "En 1958", "En 1966"], 0,
-     "La première course s'est tenue à Silverstone, en Angleterre."],
+    ["Qu'est-ce que le DRS en Formule 1 ?", ["Un aileron arrière mobile facilitant les dépassements", "Un système de freinage régénératif", "Un capteur de température des pneumatiques", "Un limiteur de vitesse dans les zones de danger"], 0,
+     "Introduit en 2011, il ne peut s'activer que dans des zones définies et sous certaines conditions."],
     ["Qu'est-ce que le halo en Formule 1 ?", ["Un arceau de protection de la tête du pilote", "Un système de freinage récupérant l'énergie au freinage", "Un dispositif aérodynamique placé au-dessus du cockpit", "Un capteur de choc placé dans le baquet"], 0,
      "Introduit en 2018 malgré des critiques esthétiques, il a déjà sauvé plusieurs vies."],
     ["Qu'est-ce que la voiture de sécurité en course ?", ["Un véhicule neutralisant la course en la ralentissant", "Une voiture d'intervention médicale qui suit le peloton au départ", "Un véhicule d'ouverture qui inspecte la piste", "Une voiture chargée de remorquer les monoplaces"], 0,
@@ -161,7 +159,7 @@ export const CG_SPORT_2: SeedSkill[] = [
 
   notion("sp2-sports-glisse", S, "Sports de glisse et de plein air",
     "Surf, escalade, alpinisme, sports urbains.",
-    "L'escalade sportive est devenue olympique en 2021.",
+    "Trois sports urbains ou de plein air sont entrés ensemble au programme olympique lors des mêmes Jeux : cherche lesquels, et pourquoi ce choix.",
     2, [
     ["D'où le surf moderne est-il originaire ?", ["De Polynésie, notamment d'Hawaï", "De Californie", "D'Australie", "Du Brésil"], 0,
      "Pratique ancienne et rituelle, il a été réintroduit dans le monde occidental au début du XXe siècle."],

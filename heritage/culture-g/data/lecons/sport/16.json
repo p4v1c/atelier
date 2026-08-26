@@ -3,7 +3,7 @@
  "sections": [
   {
    "titre": "Le sport, un secteur économique à part entière",
-   "texte": "On oublie souvent que le sport constitue une branche économique de plein exercice, avec ses producteurs, ses consommateurs, ses emplois et ses investissements. L'économie du sport est précisément la discipline qui étudie l'incidence des pratiques sportives, amateurs comme professionnelles, sur l'économie générale. En France, le poids de ce secteur a été évalué à trente milliards quatre cents millions d'euros en 2005, puis à trente-quatre milliards neuf cents millions d'euros en 2009, ce qui représentait alors environ un virgule neuf pour cent du produit intérieur brut ; en 2022, la seule dépense des ménages atteignait vingt-cinq milliards neuf cents millions d'euros, soit un point de PIB, et la dépense publique quinze milliards sept cents millions, soit zéro virgule six point de PIB. La structure de cette dépense est instructive. Les ménages en assurent à eux seuls près de la moitié : ils achètent des vêtements et des équipements sportifs, qui représentent la part la plus importante, des chaussures, des accessoires et du matériel, et paient enfin des services comme les réparations ou les licences. Le reste provient de financements publics et privés : les collectivités territoriales sont de très loin le premier financeur institutionnel, devant l'État, puis les entreprises. Ce constat est essentiel pour comprendre le sport français : ce sont les communes, les départements et les régions qui construisent et entretiennent les stades, les gymnases et les piscines, et qui subventionnent la vie associative. Le sport professionnel médiatisé, dont on parle le plus, ne représente donc qu'une fraction de cette économie, dont l'essentiel repose sur la pratique ordinaire de millions de licenciés.",
+   "texte": "On oublie souvent que le sport constitue une branche économique de plein exercice, avec ses producteurs, ses consommateurs, ses emplois et ses investissements. L'économie du sport est précisément la discipline qui étudie l'incidence des pratiques sportives, amateurs comme professionnelles, sur l'économie générale. En France, le poids de ce secteur a été évalué à trente milliards quatre cents millions d'euros en 2005, puis à trente-quatre milliards neuf cents millions d'euros en 2009, ce qui représentait alors environ un virgule neuf pour cent du produit intérieur brut ; en 2022, la seule dépense des ménages atteignait vingt-cinq milliards neuf cents millions d'euros, soit un point de PIB, et la dépense publique quinze milliards sept cents millions, soit zéro virgule six point de PIB. La structure de cette dépense est instructive. Les ménages en assurent à eux seuls près de la moitié : ils achètent des vêtements et des équipements sportifs, qui représentent la part la plus importante, des chaussures, des accessoires et du matériel, et paient enfin des services comme les réparations ou les licences. Le reste provient de financements publics et privés : parmi les financeurs publics, les collectivités territoriales et l'État sont au coude à coude — 8,2 milliards d'euros pour les premières en 2022, soit 52 % de la dépense publique, contre 7,6 milliards pour le second — les collectivités devançant l'État la plupart des années, sauf en 2020 et 2021 où celui-ci est passé devant. Ce constat est essentiel pour comprendre le sport français : ce sont les communes, les départements et les régions qui construisent et entretiennent les stades, les gymnases et les piscines, et qui subventionnent la vie associative. Le sport professionnel médiatisé, dont on parle le plus, ne représente donc qu'une fraction de cette économie, dont l'essentiel repose sur la pratique ordinaire de millions de licenciés.",
    "visuel": {
     "type": "chiffres",
     "titre": "Le poids économique du sport en France",
@@ -33,7 +33,7 @@
       "label": "dépense publique en 2022, soit 0,6 point de PIB"
      }
     ],
-    "note": "Parmi les financeurs institutionnels, les collectivités territoriales viennent de très loin en tête, devant l'État puis les entreprises : ce sont les communes, les départements et les régions qui construisent stades, gymnases et piscines."
+    "note": "Parmi les financeurs institutionnels, les collectivités territoriales et l'État sont au coude à coude — 8,2 milliards d'euros contre 7,6 milliards en 2022 — les collectivités devançant l'État la plupart des années, sauf en 2020 et 2021 : ce sont les communes, les départements et les régions qui construisent stades, gymnases et piscines."
    }
   },
   {
@@ -145,7 +145,7 @@
  ],
  "quiz": [
   {
-   "q": "En France, quel est le premier financeur institutionnel du sport ?",
+   "q": "En France, quel était le premier financeur institutionnel du sport en 2022 ?",
    "choix": [
     "L'État",
     "Les collectivités territoriales",
@@ -154,7 +154,7 @@
    ],
    "bonne": 1,
    "difficulte": 2,
-   "explication": "Ce sont les collectivités territoriales, c'est-à-dire les communes, les départements et les régions, qui financent le plus le sport en France parmi les institutions, devant l'État puis les entreprises privées. Ce sont elles qui construisent et entretiennent les stades, les gymnases et les piscines, et qui subventionnent la vie associative locale. Il faut cependant rappeler que le premier financeur global reste le ménage lui-même, qui assure près de la moitié de la dépense sportive nationale à travers l'achat de vêtements, de chaussures, de matériel et de services. En 2009, l'ensemble du secteur pesait environ trente-quatre milliards neuf cents millions d'euros, soit près de deux pour cent du produit intérieur brut français."
+   "explication": "En 2022, les collectivités territoriales — communes, départements et régions — ont dépensé 8,2 milliards d'euros pour le sport, soit 52 % de la dépense publique, contre 7,6 milliards pour l'État (48 %) : un écart de quatre points, pas un écart massif. Les collectivités devancent l'État la plupart des années, mais celui-ci était passé devant en 2020 et 2021, du fait de la crise sanitaire puis de la préparation des Jeux de Paris. Ce sont les collectivités qui construisent et entretiennent les stades, les gymnases et les piscines, et qui subventionnent la vie associative locale. Il faut cependant rappeler que le premier financeur global reste le ménage lui-même, qui assure près de la moitié de la dépense sportive nationale à travers l'achat de vêtements, de chaussures, de matériel et de services."
   },
   {
    "q": "Quel journal a créé le Tour de France en 1903 ?",

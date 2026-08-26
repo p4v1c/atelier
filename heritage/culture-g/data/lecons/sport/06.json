@@ -83,7 +83,7 @@
   },
   {
    "titre": "Le handball français, une école de champions",
-   "texte": "Longtemps discret, le handball est devenu l'un des grands succès du sport français. L'équipe nationale masculine se révèle au début des années 1990 avec une génération surnommée les Barjots, en raison de son style exubérant, qui décroche la médaille de bronze aux Jeux de Barcelone en 1992 puis la médaille d'argent au championnat du monde de 1993. Sous la direction de l'entraîneur Daniel Costantini, cette équipe remporte en 1995 le premier titre mondial de son histoire, en Islande, puis un second en 2001 à domicile. Une nouvelle génération, surnommée les Experts et dirigée par Claude Onesta, réalise ensuite une série de performances exceptionnelles : championne d'Europe en 2006 et en 2010, championne du monde en 2009, 2011, 2015 et 2017, et championne olympique à Pékin en 2008 puis à Londres en 2012. Ce cumul de titres mondiaux, européens et olympiques constitue une réussite sans équivalent dans les sports collectifs français. Des joueurs comme Jackson Richardson, le gardien Thierry Omeyer ou le demi-centre Nikola Karabatic sont devenus des figures nationales. L'équipe féminine a suivi le même chemin, avec des titres de championne du monde en 2003 et en 2017, un titre européen en 2018, l'or olympique aux Jeux de Tokyo, disputés en 2021, puis l'argent à domicile à Paris en 2024. Cette réussite s'appuie sur un réseau dense de clubs formateurs et sur des pôles de formation reconnus.",
+   "texte": "Longtemps discret, le handball est devenu l'un des grands succès du sport français. L'équipe nationale masculine se révèle au début des années 1990 avec une génération surnommée les Barjots, en raison de son style exubérant, qui décroche la médaille de bronze aux Jeux de Barcelone en 1992 puis la médaille d'argent au championnat du monde de 1993. Sous la direction de l'entraîneur Daniel Costantini, cette équipe remporte en 1995 le premier titre mondial de son histoire, en Islande, puis un second en 2001 à domicile. Une nouvelle génération, surnommée les Experts et dirigée par Claude Onesta, réalise ensuite une série de performances exceptionnelles : championne d'Europe en 2006, 2010, 2014 et 2024, championne du monde en 2009, 2011, 2015 et 2017, et championne olympique à Pékin en 2008, à Londres en 2012 et à Tokyo en 2021. Ce cumul de titres mondiaux, européens et olympiques constitue une réussite sans équivalent dans les sports collectifs français. Des joueurs comme Jackson Richardson, le gardien Thierry Omeyer ou le demi-centre Nikola Karabatic sont devenus des figures nationales. L'équipe féminine a suivi le même chemin, avec des titres de championne du monde en 2003, 2017 et 2023, un titre européen en 2018, l'or olympique aux Jeux de Tokyo, disputés en 2021, puis l'argent à domicile à Paris en 2024. Cette réussite s'appuie sur un réseau dense de clubs formateurs et sur des pôles de formation reconnus.",
    "visuel": {
     "type": "tableau",
     "titre": "Le palmarès des équipes de France de handball",
@@ -96,17 +96,17 @@
      [
       "Championnat du monde",
       "1995, 2001, 2009, 2011, 2015, 2017",
-      "2003, 2017"
+      "2003, 2017, 2023"
      ],
      [
       "Championnat d'Europe",
-      "2006, 2010",
+      "2006, 2010, 2014, 2024",
       "2018"
      ],
      [
       "Jeux olympiques",
-      "Pékin 2008, Londres 2012",
-      "Tokyo, disputés en 2021"
+      "Pékin 2008, Londres 2012, Tokyo 2021",
+      "Tokyo 2021"
      ]
     ],
     "note": "Les Barjots de Daniel Costantini ouvrent la voie avec le bronze olympique de 1992 et le premier titre mondial de 1995 ; les Experts de Claude Onesta cumulent ensuite titres mondiaux, européens et olympiques."
@@ -172,7 +172,7 @@
    ],
    "bonne": 2,
    "difficulte": 2,
-   "explication": "La génération dirigée par Claude Onesta a été surnommée les Experts, en référence à une série télévisée alors très populaire. Elle a remporté les titres mondiaux de 2009, 2011, 2015 et 2017, les championnats d'Europe de 2006 et 2010 et les Jeux olympiques de 2008 et 2012. Les Barjots désignaient la génération précédente, celle des années 1990, médaillée de bronze à Barcelone en 1992 et championne du monde en 1995 sous la direction de Daniel Costantini. Les Mousquetaires renvoient au tennis français des années 1920."
+   "explication": "La génération dirigée par Claude Onesta a été surnommée les Experts, en référence à une série télévisée alors très populaire. Elle a remporté les titres mondiaux de 2009, 2011, 2015 et 2017, les championnats d'Europe de 2006, 2010, 2014 et 2024 et les Jeux olympiques de 2008, 2012 et 2021. Les Barjots désignaient la génération précédente, celle des années 1990, médaillée de bronze à Barcelone en 1992 et championne du monde en 1995 sous la direction de Daniel Costantini. Les Mousquetaires renvoient au tennis français des années 1920."
   }
  ]
 }

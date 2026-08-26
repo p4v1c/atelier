@@ -77,26 +77,26 @@
   },
   {
    "titre": "Une diversité sans égale",
-   "texte": "Les chiffres relatifs aux insectes défient l'imagination. Environ 1,3 million d'espèces ont été décrites à ce jour, ce qui représente à peu près 55 % de l'ensemble de la biodiversité connue et 85 % de la biodiversité animale. Autrement dit, quand un biologiste choisit une espèce animale au hasard, il tombe presque toujours sur un insecte. Ce total est pourtant très inférieur à la réalité : les estimations du nombre total d'espèces vont de 5 à 80 millions, tant les groupes tropicaux restent mal inventoriés. Quatre ordres dominent nettement ce peuple. Les coléoptères, c'est-à-dire les scarabées, coccinelles et charançons, comptent à eux seuls environ 400 000 espèces décrites — un record absolu dans le règne animal, et sans doute deux fois plus d'espèces restant à décrire. Viennent ensuite les diptères, mouches et moustiques, les hyménoptères, abeilles, guêpes et fourmis, et les lépidoptères, papillons. Les insectes ont colonisé presque tous les milieux terrestres et de nombreux milieux d'eau douce ; ils sont en revanche pratiquement absents du milieu marin, l'une des rares portes que cette clé universelle n'ait pas ouverte. Leur poids collectif dépasse d'ailleurs largement celui de tous les grands animaux réunis, ce qui en fait un maillon incontournable de toutes les chaînes alimentaires terrestres. Cette réussite tient à leur petite taille, à leur reproduction rapide et à leur remarquable capacité d'adaptation.",
+   "texte": "Les chiffres relatifs aux insectes défient l'imagination. Environ un million d'espèces ont été décrites à ce jour, ce qui représente plus de la moitié de l'ensemble de la biodiversité connue et près des trois quarts de la biodiversité animale. Autrement dit, quand un biologiste choisit une espèce animale au hasard, il tombe presque toujours sur un insecte. Ce total est pourtant très inférieur à la réalité : les estimations du nombre total d'espèces vont de 5 à 80 millions, tant les groupes tropicaux restent mal inventoriés. Quatre ordres dominent nettement ce peuple. Les coléoptères, c'est-à-dire les scarabées, coccinelles et charançons, comptent à eux seuls environ 400 000 espèces décrites — un record absolu dans le règne animal, et sans doute deux fois plus d'espèces restant à décrire. Viennent ensuite les diptères, mouches et moustiques, les hyménoptères, abeilles, guêpes et fourmis, et les lépidoptères, papillons. Les insectes ont colonisé presque tous les milieux terrestres et de nombreux milieux d'eau douce ; ils sont en revanche pratiquement absents du milieu marin, l'une des rares portes que cette clé universelle n'ait pas ouverte. Leur poids collectif dépasse d'ailleurs largement celui de tous les grands animaux réunis, ce qui en fait un maillon incontournable de toutes les chaînes alimentaires terrestres. Cette réussite tient à leur petite taille, à leur reproduction rapide et à leur remarquable capacité d'adaptation.",
    "visuel": {
     "type": "chiffres",
     "titre": "Une diversité sans égale",
     "items": [
      {
-      "valeur": "1,3 M",
+      "valeur": "~1 M",
       "label": "espèces d'insectes décrites"
      },
      {
-      "valeur": "55 %",
+      "valeur": "+ de 50 %",
       "label": "de toute la biodiversité connue"
      },
      {
-      "valeur": "85 %",
+      "valeur": "~75 %",
       "label": "de la biodiversité animale"
      },
      {
-      "valeur": "+ de 600 000",
-      "label": "espèces de coléoptères décrites (jusqu'à 795 000), record absolu du règne animal"
+      "valeur": "~400 000",
+      "label": "espèces de coléoptères décrites, record absolu du règne animal"
      }
     ],
     "note": "Les estimations du nombre total d'espèces d'insectes vont de 5 à 80 millions : les groupes tropicaux restent très mal inventoriés."
@@ -104,7 +104,7 @@
   },
   {
    "titre": "Des services essentiels et un déclin inquiétant",
-   "texte": "Les insectes ne sont pas seulement nombreux, ils sont indispensables. La pollinisation, transport du pollen des organes mâles vers les organes femelles des fleurs, en offre l'exemple le plus parlant : environ 90 % des espèces de plantes à fleurs dépendent d'animaux pour se reproduire, dont près de 80 % d'insectes. Plus de 70 % des cultures mondiales dépendent fortement ou totalement de cette pollinisation animale, ce qui concerne presque tous les arbres fruitiers, les légumes, les oléagineux, les épices, le café et le cacao, soit environ 35 % du tonnage de ce que nous mangeons. Les scientifiques évaluent ce service à environ 153 milliards d'euros par an à l'échelle mondiale, et en France à près de 10 % de la valeur de la production agricole. Or les insectes régressent partout, surtout dans les régions industrialisées, en raison de la perte des habitats, des pesticides, de la pollution lumineuse et de l'uniformisation des paysages. Des études récentes indiquent un rythme d'extinction des insectes huit fois supérieur à celui des autres animaux et un recul d'environ 2,5 % par an depuis les années 1980, au point que certains auteurs évoquent leur disparition au cours du XXIIe siècle si rien ne change."
+   "texte": "Les insectes ne sont pas seulement nombreux, ils sont indispensables. La pollinisation, transport du pollen des organes mâles vers les organes femelles des fleurs, en offre l'exemple le plus parlant : environ 90 % des espèces de plantes à fleurs dépendent d'animaux pour se reproduire, dont près de 80 % d'insectes. Plus de 70 % des cultures mondiales dépendent fortement ou totalement de cette pollinisation animale, ce qui concerne presque tous les arbres fruitiers, les légumes, les oléagineux, les épices, le café et le cacao, soit environ 35 % du tonnage de ce que nous mangeons. Les scientifiques évaluent ce service à environ 153 milliards d'euros par an à l'échelle mondiale, soit près de 10 % de la valeur de la production agricole destinée à l'alimentation humaine. Or les insectes régressent partout, surtout dans les régions industrialisées, en raison de la perte des habitats, des pesticides, de la pollution lumineuse et de l'uniformisation des paysages. Des études récentes indiquent un rythme d'extinction des insectes huit fois supérieur à celui des autres animaux et un recul d'environ 2,5 % par an depuis les années 1980, au point que certains auteurs évoquent leur disparition au cours du XXIIe siècle si rien ne change."
   }
  ],
  "quiz": [
@@ -142,7 +142,7 @@
    ],
    "bonne": 0,
    "difficulte": 3,
-   "explication": "Les coléoptères, groupe qui rassemble les scarabées, les coccinelles et les charançons, comptent de 600 000 à 795 000 espèces décrites : c'est le record absolu du règne animal. Viennent ensuite les diptères, mouches et moustiques, les hyménoptères, abeilles, guêpes et fourmis, et les lépidoptères, c'est-à-dire les papillons. Au total, environ 1,3 million d'espèces d'insectes ont été décrites, soit près de 55 % de toute la biodiversité connue et 85 % de la biodiversité animale. Les estimations du nombre réel d'espèces vont de 5 à 80 millions, tant les milieux tropicaux restent mal explorés."
+   "explication": "Les coléoptères, groupe qui rassemble les scarabées, les coccinelles et les charançons, comptent environ 400 000 espèces décrites : c'est le record absolu du règne animal, et sans doute deux fois plus restant à décrire. Viennent ensuite les diptères, mouches et moustiques, les hyménoptères, abeilles, guêpes et fourmis, et les lépidoptères, c'est-à-dire les papillons. Au total, environ un million d'espèces d'insectes ont été décrites, soit plus de la moitié de toute la biodiversité connue et près des trois quarts de la biodiversité animale. Les estimations du nombre réel d'espèces vont de 5 à 80 millions, tant les milieux tropicaux restent mal explorés."
   },
   {
    "q": "Quel est l'avantage écologique de la métamorphose complète, comme celle de la chenille et du papillon ?",

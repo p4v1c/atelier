@@ -301,7 +301,7 @@
    ],
    "bonne": 0,
    "difficulte": 1,
-   "explication": "Le maillot jaune est porté par le leader du classement général au temps, c'est-à-dire le coureur qui a mis le moins de temps cumulé depuis le départ de l'épreuve. Introduit en 1919, il doit sa couleur au papier jaune du journal L'Auto, organisateur de la course ; Eugène Christophe fut le premier à le porter. Les autres maillots distinctifs sont le vert pour le classement par points (sprinteurs), le blanc à pois rouges pour le meilleur grimpeur et le blanc pour le meilleur jeune. Quatre coureurs ont remporté cinq Tours : Jacques Anquetil, Eddy Merckx, Bernard Hinault et Miguel Indurain."
+   "explication": "Le maillot jaune est porté par le leader du classement général au temps, c'est-à-dire le coureur qui a mis le moins de temps cumulé depuis le départ de l'épreuve. Introduit en 1919, il doit sa couleur au papier jaune du journal L'Auto, organisateur de la course ; Eugène Christophe fut le premier à le porter. Les autres maillots distinctifs sont le vert pour le classement par points (sprinteurs), le blanc à pois rouges pour le meilleur grimpeur et le blanc pour le meilleur jeune. Cinq coureurs ont remporté cinq Tours : Jacques Anquetil, Eddy Merckx, Bernard Hinault, Miguel Indurain et, depuis 2026, le Slovène Tadej Pogačar."
   },
   {
    "q": "Sur le Tour de France, qui porte le maillot blanc à pois rouges ?",
@@ -1053,7 +1053,7 @@
    "sections": [
     {
      "titre": "Le Tour de France",
-     "texte": "Créé en 1903 par Henri Desgrange pour doper les ventes du journal L'Auto, le Tour de France est devenu la plus grande course cycliste du monde et l'un des événements sportifs les plus suivis, avec des millions de spectateurs au bord des routes chaque été. L'épreuve se dispute en une vingtaine d'étapes sur environ trois semaines en juillet, alternant plaines propices aux sprints, contre-la-montre et grandes étapes de montagne dans les Pyrénées et les Alpes, où se forgent souvent les victoires. Le leader du classement général porte le maillot jaune, couleur du papier de L'Auto, institué en 1919 ; le maillot vert récompense le classement par points, le maillot à pois rouges le meilleur grimpeur et le maillot blanc le meilleur jeune. Quatre géants ont remporté cinq Tours : les Français Jacques Anquetil (1957-1964) et Bernard Hinault (1978-1985), le Belge Eddy Merckx (1969-1974) et l'Espagnol Miguel Indurain (1991-1995). Bernard Hinault reste le dernier vainqueur français, en 1985, tandis que Raymond Poulidor, « l'éternel second », a construit sa légende sans jamais porter le maillot jaune. Les cols mythiques comme le Tourmalet, le Galibier, le Ventoux ou l'Alpe d'Huez sont entrés dans la culture populaire française, et l'arrivée finale se juge traditionnellement sur les Champs-Élysées depuis 1975.",
+     "texte": "Créé en 1903 par Henri Desgrange pour doper les ventes du journal L'Auto, le Tour de France est devenu la plus grande course cycliste du monde et l'un des événements sportifs les plus suivis, avec des millions de spectateurs au bord des routes chaque été. L'épreuve se dispute en une vingtaine d'étapes sur environ trois semaines en juillet, alternant plaines propices aux sprints, contre-la-montre et grandes étapes de montagne dans les Pyrénées et les Alpes, où se forgent souvent les victoires. Le leader du classement général porte le maillot jaune, couleur du papier de L'Auto, institué en 1919 ; le maillot vert récompense le classement par points, le maillot à pois rouges le meilleur grimpeur et le maillot blanc le meilleur jeune. Cinq coureurs ont remporté cinq Tours : les Français Jacques Anquetil (1957-1964) et Bernard Hinault (1978-1985), le Belge Eddy Merckx (1969-1974), l'Espagnol Miguel Indurain (1991-1995) et, depuis 2026, le Slovène Tadej Pogačar (2020, 2021, 2024, 2025 et 2026). Bernard Hinault reste le dernier vainqueur français, en 1985, tandis que Raymond Poulidor, « l'éternel second », a construit sa légende sans jamais porter le maillot jaune. Les cols mythiques comme le Tourmalet, le Galibier, le Ventoux ou l'Alpe d'Huez sont entrés dans la culture populaire française, et l'arrivée finale se juge traditionnellement sur les Champs-Élysées depuis 1975.",
      "visuel": {
       "type": "tableau",
       "titre": "Les quatre maillots du Tour",
@@ -1079,7 +1079,7 @@
         "Le meilleur jeune coureur."
        ]
       ],
-      "note": "Quatre coureurs ont remporté cinq Tours : Jacques Anquetil, Eddy Merckx, Bernard Hinault et Miguel Indurain."
+      "note": "Cinq coureurs ont remporté cinq Tours : Jacques Anquetil, Eddy Merckx, Bernard Hinault, Miguel Indurain et, depuis 2026, le Slovène Tadej Pogačar."
      }
     },
     {

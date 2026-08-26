@@ -35,7 +35,7 @@ suivant ne le signale pas à tort.
 
 ## Constats
 
-### [GRAVE] L'hémoglobine fixe quatre O₂ par molécule, pas par atome de fer
+### [GRAVE] ✅ L'hémoglobine fixe quatre O₂ par molécule, pas par atome de fer
 - **Où** : `prisma/seed/culture-g/cours/sciences-vie.ts` — cours `sv2-respiration-circulation`, section « Le transport de l'oxygène »
 - **Texte** : « Contenue dans les globules rouges, elle fixe quatre molécules d'oxygène par atome de fer »
 - **Problème** : erreur de fait, et contradiction directe avec la question de la même
@@ -45,8 +45,9 @@ suivant ne le signale pas à tort.
   quatre au total par hémoglobine. Le cours multiplie le chiffre par quatre.
 - **Correction proposée** : « elle fixe une molécule d'oxygène par atome de fer, soit
   quatre par molécule d'hémoglobine »
+- **Fait** : déjà appliqué mot pour mot dans `cours/sciences-vie.ts` (cours `sv2-respiration-circulation`) — vérifié, rien à changer.
 
-### [GRAVE] La carotte de Vostok ne remonte pas à huit cent mille ans
+### [GRAVE] ✅ La carotte de Vostok ne remonte pas à huit cent mille ans
 - **Où** : `prisma/seed/culture-g/sciences-vie-3.ts` — notion `sv3-terre-atmosphere-histoire`, question « Qu'est-ce qu'une carotte de glace ? »
 - **Texte** : « Celle de Vostok, en Antarctique, remonte à plus de huit cent mille ans. »
 - **Problème** : erreur de fait. La carotte de Vostok couvre environ 420 000 ans.
@@ -55,8 +56,9 @@ suivant ne le signale pas à tort.
   à environ huit cent mille ans », sans nommer Vostok : la question contredit son cours.
 - **Correction proposée** : « Les carottes antarctiques les plus profondes, comme celle
   d'EPICA Dome C, remontent à plus de huit cent mille ans. »
+- **Fait** : déjà appliqué mot pour mot dans `sciences-vie-3.ts` (`sv3-terre-atmosphere-histoire`) et dans le cours correspondant — vérifié, rien à changer.
 
-### [GRAVE] Le papillon de l'orchidée de Darwin : « quarante ans après sa mort »
+### [GRAVE] ✅ Le papillon de l'orchidée de Darwin : « quarante ans après sa mort »
 - **Où** : `prisma/seed/culture-g/cours/sciences-vie.ts` — cours `sv2-evolution-mecanismes`, section « Comment naissent les espèces »
 - **Texte** : « L'orchidée de Madagascar à long éperon, dont Darwin prédit qu'un
   papillon à trompe démesurée devait exister, en donne le cas le plus célèbre — le
@@ -66,8 +68,9 @@ suivant ne le signale pas à tort.
   et un ans après la **prédiction**, mais seulement vingt et un ans après sa **mort**.
 - **Correction proposée** : « le papillon fut découvert quarante ans après sa
   prédiction, et vingt ans après sa mort. »
+- **Fait** : déjà appliqué mot pour mot dans `cours/sciences-vie.ts` (cours `sv2-evolution-mecanismes`) — vérifié, rien à changer.
 
-### [GRAVE] Doublon franc : la question sur le dépistage organisé, deux fois à l'identique
+### [GRAVE] 🔧 Doublon franc : la question sur le dépistage organisé, deux fois à l'identique
 - **Où** : `prisma/seed/culture-g/sciences-vie.ts` (`sv-sante-publique`) et
   `prisma/seed/culture-g/sciences-vie-3.ts` (`sv3-cancer`)
 - **Texte** : « Qu'est-ce qu'un dépistage organisé ? » / « Un programme systématique
@@ -83,8 +86,12 @@ suivant ne le signale pas à tort.
   une question propre au dépistage du cancer, par exemple sur l'âge des populations
   cibles ou sur la double lecture des mammographies (le cours `sv3-cancer` la mentionne
   et aucune question ne l'exploite).
+- **Fait** : le doublon était encore présent tel quel dans les deux fichiers — corrigé
+  maintenant. Dans `sciences-vie-3.ts` (`sv3-cancer`), la question a été remplacée par
+  « Que garantit la double lecture des mammographies… », sujet développé par le cours
+  `sv3-cancer` et jusque-là inexploité.
 
-### [GRAVE] Doublon franc : le rétrocontrôle hormonal, deux fois
+### [GRAVE] 🔧 Doublon franc : le rétrocontrôle hormonal, deux fois
 - **Où** : `sciences-vie.ts` (`sv-hormones`) et `sciences-vie-3.ts` (`sv3-hormones-reproduction`)
 - **Texte** : « Qu'est-ce qu'un rétrocontrôle négatif ? » → « Le produit final freine sa
   propre production » contre « Qu'est-ce que le rétrocontrôle hormonal ? » → « Un
@@ -95,8 +102,11 @@ suivant ne le signale pas à tort.
 - **Correction proposée** : garder la question de `sv-hormones` et remplacer celle de
   `sv3-hormones-reproduction` par une question sur les tests dynamiques de stimulation
   ou de freinage, que son cours développe et qu'aucune question ne couvre.
+- **Fait** : le doublon était encore présent tel quel — corrigé maintenant. Dans
+  `sciences-vie-3.ts` (`sv3-hormones-reproduction`), la question a été remplacée par une
+  question sur les tests dynamiques de stimulation ou de freinage.
 
-### [GRAVE] Doublon franc : l'eutrophisation, deux fois
+### [GRAVE] 🔧 Doublon franc : l'eutrophisation, deux fois
 - **Où** : `sciences-vie-2.ts` (`sv2-ecosystemes`) et `sciences-vie-3.ts` (`sv3-eau-milieux`)
 - **Texte** : « Qu'est-ce que l'eutrophisation ? » → « Un enrichissement excessif d'un
   milieu aquatique en nutriments » (expl. : « Nitrates et phosphates provoquent une
@@ -108,8 +118,11 @@ suivant ne le signale pas à tort.
 - **Correction proposée** : dans `sv3-eau-milieux`, remplacer par une question sur ce
   que son propre cours dit de spécifique et qui manque : le phosphore stocké dans les
   sédiments, qui rend l'eutrophisation d'un lac très difficile à inverser.
+- **Fait** : le doublon était encore présent tel quel — corrigé maintenant. Dans
+  `sciences-vie-3.ts` (`sv3-eau-milieux`), la question a été remplacée par une question
+  sur le phosphore stocké dans les sédiments et l'inertie de l'eutrophisation.
 
-### [GRAVE] Doublon franc : la coévolution, deux fois
+### [GRAVE] 🔧 Doublon franc : la coévolution, deux fois
 - **Où** : `sciences-vie-2.ts` (`sv2-evolution-mecanismes`) et `sciences-vie-3.ts` (`sv3-symbioses`)
 - **Texte** : « Qu'est-ce que la coévolution ? » → « L'évolution réciproque de deux
   espèces en interaction » contre « Qu'est-ce que la coévolution dans une symbiose ? » →
@@ -117,8 +130,11 @@ suivant ne le signale pas à tort.
 - **Correction proposée** : dans `sv3-symbioses`, remplacer par une question sur la
   spécificité figuier/guêpe du figuier, ou sur le passage de la symbiose à l'organite
   (mitochondries, chloroplastes) — deux points que son cours développe.
+- **Fait** : le doublon était encore présent tel quel — corrigé maintenant. Dans
+  `sciences-vie-3.ts` (`sv3-symbioses`), la question a été remplacée par une question sur
+  la spécificité extrême figuier/guêpe.
 
-### [GRAVE] Doublon franc : la levure du pain, deux fois
+### [GRAVE] 🔧 Doublon franc : la levure du pain, deux fois
 - **Où** : `sciences-vie.ts` (`sv-microbiote`) et `sciences-vie-2.ts` (`sv2-champignons`)
 - **Texte** : « Quel micro-organisme permet la fabrication du pain et de la bière ? » →
   « Une levure » contre « Quel champignon microscopique permet la fabrication du pain et
@@ -130,8 +146,11 @@ suivant ne le signale pas à tort.
   champignons est le lieu naturel de cette question) et la remplacer, dans
   `sv-microbiote`, par une question sur le rôle barrière du microbiote face aux
   pathogènes, absent des questions.
+- **Fait** : le doublon était encore présent tel quel — corrigé maintenant. Dans
+  `sciences-vie.ts` (`sv-microbiote`), la question a été remplacée par une question sur
+  l'effet barrière (résistance à la colonisation) du microbiote face aux pathogènes.
 
-### [GRAVE] Doublon franc : l'orientation des oiseaux migrateurs, deux fois
+### [GRAVE] 🔧 Doublon franc : l'orientation des oiseaux migrateurs, deux fois
 - **Où** : `sciences-vie-2.ts` (`sv2-comportement-animal`) et `sciences-vie-3.ts` (`sv3-oiseaux`)
 - **Texte** : « Comment les oiseaux migrateurs s'orientent-ils ? » → « Par une
   combinaison de repères solaires, stellaires et magnétiques » contre « Comment les
@@ -141,8 +160,12 @@ suivant ne le signale pas à tort.
   innée de l'itinéraire (le cours `sv2-comportement-animal` cite le jeune coucou parti
   seul), ou sur la désorientation par l'éclairage artificiel, que le cours `sv3-oiseaux`
   développe et qu'aucune question n'exploite.
+- **Fait** : le doublon était encore présent tel quel — corrigé maintenant. Dans
+  `sciences-vie-3.ts` (`sv3-oiseaux`), la question a été remplacée par une question sur la
+  désorientation par l'éclairage artificiel, développée par le cours `sv3-oiseaux` et
+  jusque-là inexploitée.
 
-### [GRAVE] Doublon franc : la danse des abeilles, deux fois
+### [GRAVE] 🔧 Doublon franc : la danse des abeilles, deux fois
 - **Où** : `sciences-vie-2.ts` (`sv2-comportement-animal`) et `sciences-vie-3.ts` (`sv3-insectes`)
 - **Texte** : « Que découvre Karl von Frisch sur les abeilles ? » → « Elles communiquent
   la position des fleurs par une danse » (expl. : « La direction et la durée de la danse
@@ -154,8 +177,11 @@ suivant ne le signale pas à tort.
 - **Correction proposée** : garder la version `sv2` (elle porte l'attribution
   historique) et remplacer celle de `sv3-insectes` par une question sur l'eusocialité ou
   sur la limite de taille imposée par la respiration trachéenne.
+- **Fait** : le doublon était encore présent tel quel — corrigé maintenant. Dans
+  `sciences-vie-3.ts` (`sv3-insectes`), la question a été remplacée par une question sur
+  l'altruisme de parentèle appliqué aux ouvrières eusociales.
 
-### [GRAVE] « Quel mammifère est le plus menacé en France métropolitaine ? » : deux réponses défendables
+### [GRAVE] 🔧 « Quel mammifère est le plus menacé en France métropolitaine ? » : deux réponses défendables
 - **Où** : `prisma/seed/culture-g/sciences-vie-3.ts` — notion `sv3-mammiferes`
 - **Texte** : énoncé « Quel mammifère est le plus menacé en France métropolitaine ? » ;
   bonne réponse « Le vison d'Europe, parmi les plus critiques » ; distracteurs « Le
@@ -172,8 +198,12 @@ suivant ne le signale pas à tort.
   Sud-Ouest ? », réponse « Le vison d'Europe », explication « Destruction des zones
   humides, mortalité routière et concurrence du vison d'Amérique échappé des élevages se
   cumulent. »
+- **Fait** : appliqué presque mot pour mot dans `sciences-vie-3.ts` (`sv3-mammiferes`) —
+  énoncé, réponse et explication repris de la correction proposée ; les quatre choix ont
+  été uniformisés (noms courts, sans qualificatif) pour ne pas trahir la réponse par la
+  longueur.
 
-### [GRAVE] Contradiction interne : la part des coléoptères
+### [GRAVE] 🔧 Contradiction interne : la part des coléoptères
 - **Où** : `cours/sciences-vie.ts` — cours `sv-arbre-vivant` (« Compter et redessiner »)
   contre cours `sv3-insectes` (« Le groupe le plus divers ») et question
   `sv-arbre-vivant`
@@ -191,6 +221,9 @@ suivant ne le signale pas à tort.
 - **Correction proposée** : « Les coléoptères en forment à eux seuls près de la moitié,
   soit environ quatre cent mille espèces — près d'un quart de toutes les espèces
   animales décrites. »
+- **Fait** : le cours ne portait que la première moitié de la phrase (« près de la
+  moitié »), sans le chiffre ni le correctif « espèces animales ». Complété mot pour mot
+  dans `cours/sciences-vie.ts` (cours `sv-arbre-vivant`).
 
 ### [MOYEN] ✅ Le microbiote intestinal ne pèse pas deux kilos
 - **Où** : `sciences-vie.ts` — `sv-microbiote` (accroche de la notion) et
@@ -672,7 +705,7 @@ métabolisme propre, que l'immense majorité des microbes est inoffensive, et qu
 l'assainissement a sauvé plus de vies que les médicaments. Les cinq questions sont nettes
 et leurs distracteurs francs.
 
-### [GRAVE] Leçon 08 : les cellules gliales ne sont pas « beaucoup plus nombreuses » que les neurones
+### [GRAVE] 🔧 Leçon 08 : les cellules gliales ne sont pas « beaucoup plus nombreuses » que les neurones
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/08.json` — section « Un réseau de
   communication dans tout le corps », section « Le neurone, cellule de la communication »,
   visuel « Le neurone en chiffres », et explication de la question 1 du quiz (quatre
@@ -699,6 +732,10 @@ et leurs distracteurs francs.
   une par neurone » ; et dans l'explication du quiz, remplacer « un nombre encore plus
   élevé » par « un nombre du même ordre », en ajoutant que le rapport de dix pour un
   longtemps enseigné a été révisé.
+- **Fait** : le visuel seul portait déjà le bon chiffre (« ~85 Mds »). Les trois autres
+  emplacements (texte de section, texte du neurone, explication du quiz) répétaient
+  encore « beaucoup plus nombreuses » et « 170 à 300 milliards » — corrigés maintenant
+  dans `08.json`, mot pour mot.
 
 **Le reste de la leçon 08 est juste** : 86 milliards de neurones, axone de plus d'un
 mètre, potentiel de repos à −70 mV, sodium entrant puis potassium sortant, conduction
@@ -719,7 +756,7 @@ primate brain », donne 86,1 ± 8,1 milliards de neurones et 84,6 ± 9,8 milliar
 non neuronales, soit un rapport glie/neurone d'environ 1 pour 1. Le constat ci-dessus est
 confirmé, pas seulement suspecté.)*
 
-### [GRAVE] Leçon 09 : la digestion ne peut pas durer « huit à douze heures » si le côlon en prend trente à quarante à lui seul
+### [GRAVE] 🔧 Leçon 09 : la digestion ne peut pas durer « huit à douze heures » si le côlon en prend trente à quarante à lui seul
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/09.json` — section « Manger :
   transformer des aliments en nutriments », visuel « Le voyage d'un aliment » (note), et
   explication de la question 1 du quiz
@@ -738,6 +775,11 @@ confirmé, pas seulement suspecté.)*
 - **Correction proposée** : partout, distinguer les deux durées : « La digestion
   proprement dite, de la bouche à la fin de l'intestin grêle, dure de huit à douze heures ;
   le transit complet, résidus compris, prend un à trois jours. »
+- **Fait** : le visuel seul distinguait déjà les deux durées (« vingt-quatre à
+  soixante-douze heures » pour la digestion complète). Le texte de section et
+  l'explication du quiz répétaient encore la contradiction — corrigés maintenant dans
+  `09.json`, en distinguant digestion proprement dite (8-12 h) et transit complet (1 à 3
+  jours).
 
 ### [MOYEN] ✅ Leçon 09 : le besoin quotidien en eau donné à 2,8 litres
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/09.json` — section « Les nutriments
@@ -781,7 +823,7 @@ cinq hormones digestives et leurs déclencheurs. L'idée que le contenu du tube 
 reste « extérieur au corps » tant qu'il n'est pas absorbé est un point de compréhension que
 peu de supports prennent la peine d'énoncer.
 
-### [GRAVE] Leçon 10 : le cœur de baleine bleue à 600 kg — constat « à confirmer » n° 3, **tranché : c'est faux**
+### [GRAVE] ✅ Leçon 10 : le cœur de baleine bleue à 600 kg — constat « à confirmer » n° 3, **tranché : c'est faux**
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/10.json` — section « Le battement du
   cœur » et note du visuel « Battements du cœur par minute » ; **et**
   `heritage/culture-g/data/sciences-vie.json` — question 7 (constat déjà ouvert par mon
@@ -801,6 +843,9 @@ peu de supports prennent la peine d'énoncer.
   dans le cahier, « Son cœur pèse près de 200 kg, et sa langue autant qu'un éléphant. »
   Le constat [MOYEN] ouvert plus haut sur ce point peut donc être requalifié **GRAVE** et
   appliqué sans réserve.
+- **Fait** : déjà appliqué dans `10.json` (texte et note du visuel, « environ 180
+  kilogrammes ») et dans `heritage/culture-g/data/sciences-vie.json` (question 7, « près
+  de 180 kg ») — vérifié, rien à changer.
 
 ### [MOYEN] ✅ Leçon 10 : la séparation des cavités du cœur des poissons, décrite à tort comme « incomplète »
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/10.json` — explication de la
@@ -869,7 +914,7 @@ par les barrages. La question 5 est particulièrement bien faite : son explicati
 peine de distinguer la stratégie démographique du mode de fécondation, c'est-à-dire de
 désamorcer le distracteur au lieu de se contenter de l'écarter.
 
-### [GRAVE] Leçon 12 : « 35 millions d'années » entre la sortie des eaux des plantes et celle des tétrapodes — il y en a 115
+### [GRAVE] ✅ Leçon 12 : « 35 millions d'années » entre la sortie des eaux des plantes et celle des tétrapodes — il y en a 115
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/12.json` — section « Les grandes
   étapes de la vie », **et** la question 5 du quiz : dans son énoncé de bonne réponse
   **et** dans son explication (trois occurrences)
@@ -889,6 +934,11 @@ désamorcer le distracteur au lieu de se contenter de l'écarter.
   remplacer le distracteur « Les animaux, environ 100 millions d'années avant » par « Les
   animaux, environ 100 millions d'années après les plantes » pour qu'il reste plausible
   sans être numériquement plus juste que la bonne réponse.
+- **Fait** : déjà appliqué dans `12.json` (texte, bonne réponse « 115 millions d'années »
+  et explication) — vérifié, rien à changer. Le distracteur « Les animaux, environ 100
+  millions d'années avant » reste, mais il est faux par le sens (avant/après) et non plus
+  par un ordre de grandeur trompeusement proche de la bonne réponse ; je ne l'ai donc pas
+  touché.
 
 ### [MOYEN] ✅ Leçon 12 : la question 5 confond « les animaux » et « les tétrapodes »
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/12.json` — quiz, question 5
@@ -1030,7 +1080,7 @@ biomasse en moins d'ici 2100, WoRMS et ses 206 000 espèces valides. Le tour de 
 cette leçon est de faire tenir cette densité de chiffres sans que le texte devienne une
 liste : chaque nombre y est rattaché à une conséquence.
 
-### [GRAVE] Leçon 15 : les coléoptères crédités de 600 000 à 795 000 espèces **décrites** — il y en a environ 400 000
+### [GRAVE] 🔧 Leçon 15 : les coléoptères crédités de 600 000 à 795 000 espèces **décrites** — il y en a environ 400 000
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/15.json` — section « Une diversité
   sans égale », visuel « chiffres » de la même section et explication de la question 3
 - **Texte** : « Les coléoptères […] comptent à eux seuls de **600 000 à 795 000 espèces
@@ -1046,8 +1096,11 @@ liste : chaque nombre y est rattaché à une conséquence.
 - **Correction proposée** : « comptent à eux seuls environ 400 000 espèces décrites — un
   record absolu dans le règne animal, et sans doute plus d'un million en réalité, la
   plupart n'étant pas encore nommées. »
+- **Fait** : le texte de section était déjà corrigé (« environ 400 000 »), mais le
+  visuel (« + de 600 000 […] jusqu'à 795 000 ») et l'explication du quiz (« de 600 000 à
+  795 000 ») ne l'étaient pas — corrigés maintenant dans `15.json`, à 400 000 partout.
 
-### [GRAVE] Leçon 15 : les insectes ne peuvent pas faire 85 % des espèces animales si les arthropodes n'en font que 80 %
+### [GRAVE] 🔧 Leçon 15 : les insectes ne peuvent pas faire 85 % des espèces animales si les arthropodes n'en font que 80 %
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/15.json` — section « Les
   arthropodes, maîtres du monde animal » et note de son visuel, contre section « Une
   diversité sans égale », son visuel et l'explication de la question 3
@@ -1066,8 +1119,11 @@ liste : chaque nombre y est rattaché à une conséquence.
   qui représente plus de la moitié de l'ensemble de la biodiversité connue et près des
   trois quarts de la biodiversité animale » — les insectes restant, de loin, le premier
   groupe d'arthropodes.
+- **Fait** : rien n'était corrigé (texte, visuel et explication du quiz portaient tous
+  encore 1,3 million/85 %). Appliqué mot pour mot dans `15.json` aux trois emplacements,
+  ce qui rétablit la cohérence avec les 80 % d'arthropodes de la section voisine.
 
-### [GRAVE] Leçon 15 : le service de pollinisation évalué à 50 milliards d'euros au lieu de 153
+### [GRAVE] 🔧 Leçon 15 : le service de pollinisation évalué à 50 milliards d'euros au lieu de 153
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/15.json` — section « Des services
   essentiels et un déclin inquiétant » et explication de la question 5
 - **Texte** : « Les scientifiques évaluent ce service à environ **50 milliards d'euros par
@@ -1086,6 +1142,10 @@ liste : chaque nombre y est rattaché à une conséquence.
   d'euros par an à l'échelle mondiale, soit près de 10 % de la valeur de la production
   agricole destinée à l'alimentation humaine. » — et vérifier séparément le chiffre
   français avant de l'énoncer.
+- **Fait** : le chiffre de 153 milliards était déjà en place dans le texte de section et
+  dans l'explication du quiz, mais le texte de section attribuait encore le « près de
+  10 % » (mondial) à la France spécifiquement. Corrigé dans `15.json` en retirant cette
+  fausse attribution ; le chiffre français n'étant pas vérifié, je ne l'ai pas inventé.
 
 **Le reste de la leçon 15 est juste** : étymologie d'*arthropode*, exosquelette de chitine
 et nécessité de la mue, métamérisation, clé des quatre groupes par le nombre de pattes,
@@ -1099,7 +1159,7 @@ concurrence entre la larve et l'adulte — est la meilleure page de la leçon, e
 de la question 5 pense à dire pourquoi la totalité des cultures n'est pas concernée (le blé
 est pollinisé par le vent), ce qui ferme proprement le distracteur.
 
-### [GRAVE] Leçon 16 : « 56 % des espèces évaluées sont menacées en France métropolitaine » — le chiffre a changé de sens
+### [GRAVE] 🔧 Leçon 16 : « 56 % des espèces évaluées sont menacées en France métropolitaine » — le chiffre a changé de sens
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/16.json` — section « Mesurer la
   menace : la liste rouge » et question 4 du quiz, dont c'est la **bonne réponse**
 - **Texte** : « Selon le comité français de l'UICN, en 2024, 56 % des espèces animales et
@@ -1125,6 +1185,10 @@ est pollinisé par le vent), ce qui ferme proprement le distracteur.
   menacées en France ne bénéficie d'aucune protection légale ? » → « 56 % ». Le chiffre
   exact étant susceptible d'avoir bougé, il faut le rapporter au rapport UICN France qui
   le publie et le dater.
+- **Fait** : rien n'était corrigé — le texte de section, l'énoncé et l'explication du
+  quiz portaient encore le contresens. Appliqué dans `16.json` aux trois emplacements :
+  le 56 % porte désormais sur la part d'espèces menacées sans protection légale, et non
+  plus sur la part d'espèces évaluées qui seraient menacées.
 
 ### [MINEUR] ⏭️ Leçon 16 : le total de 1,7 million d'espèces décrites est incompatible avec les 55 % de la leçon 15
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/16.json` — section « Combien
@@ -1713,7 +1777,7 @@ existe déjà ailleurs dans le dépôt, ce qui rend la correction indiscutable.)
 
 *(Suite et fin de la passe 2 sur les 49 cours.)*
 
-#### [GRAVE] Le cancer du poumon donné comme le plus meurtrier « dans les deux sexes » en France
+#### [GRAVE] 🔧 Le cancer du poumon donné comme le plus meurtrier « dans les deux sexes » en France
 - **Où** : `cours/sciences-vie.ts` — cours `sv3-cancer`, section « Ce qui augmente le
   risque »
 - **Texte** : « En France, le cancer du sein est le plus fréquent chez la femme, celui de
@@ -1731,6 +1795,8 @@ existe déjà ailleurs dans le dépôt, ce qui rend la correction indiscutable.)
   progresse rapidement chez la femme, où il talonne désormais le cancer du sein — encore
   première cause de décès par cancer féminin — sous l'effet retardé de la diffusion du
   tabagisme féminin. »
+- **Fait** : appliqué mot pour mot dans `cours/sciences-vie.ts` (cours `sv3-cancer`,
+  section « Ce qui augmente le risque »).
 
 #### [MINEUR] ✅ Deux divergences numériques mineures entre le seed et le cahier
 - **Où et texte** :

@@ -104,10 +104,10 @@
   },
   {
    "titre": "Les champions du Tour et les cols mythiques",
-   "texte": "Quatre coureurs seulement ont remporté cinq fois le Tour de France. Le Français Jacques Anquetil ouvre la voie avec des victoires en 1957 puis de 1961 à 1964, s'appuyant sur ses qualités exceptionnelles de rouleur. Le Belge Eddy Merckx, surnommé le Cannibale pour son appétit de victoires, s'impose de 1969 à 1972 puis en 1974 ; il domine simultanément les grands tours et les classiques, ce qui en fait pour beaucoup le plus grand coureur de l'histoire. Le Français Bernard Hinault, dit le Blaireau, gagne en 1978, 1979, 1981, 1982 et 1985 : il reste le dernier vainqueur français de l'épreuve. L'Espagnol Miguel Indurain réussit quant à lui cinq succès consécutifs, de 1991 à 1995. Avant eux, Louison Bobet avait été le premier à remporter trois éditions de suite, de 1953 à 1955. Les sept victoires de l'Américain Lance Armstrong entre 1999 et 2005 lui ont été retirées en 2012 pour dopage, laissant ces éditions sans vainqueur au palmarès. La légende du Tour s'écrit surtout dans les cols. Le Tourmalet, dans les Pyrénées, franchi pour la première fois en 1910, est le sommet le plus emprunté de l'histoire de la course. L'Alpe d'Huez et ses vingt et un virages numérotés, gravie pour la première fois en 1952, et le mont Ventoux, sommet pelé et venteux de Provence, complètent ce panthéon.",
+   "texte": "Cinq coureurs ont remporté cinq fois le Tour de France. Le Français Jacques Anquetil ouvre la voie avec des victoires en 1957 puis de 1961 à 1964, s'appuyant sur ses qualités exceptionnelles de rouleur. Le Belge Eddy Merckx, surnommé le Cannibale pour son appétit de victoires, s'impose de 1969 à 1972 puis en 1974 ; il domine simultanément les grands tours et les classiques, ce qui en fait pour beaucoup le plus grand coureur de l'histoire. Le Français Bernard Hinault, dit le Blaireau, gagne en 1978, 1979, 1981, 1982 et 1985 : il reste le dernier vainqueur français de l'épreuve. L'Espagnol Miguel Indurain réussit quant à lui cinq succès consécutifs, de 1991 à 1995. Le Slovène Tadej Pogačar rejoint ce groupe en 2026, avec des victoires en 2020, 2021, 2024, 2025 et 2026. Avant eux, Louison Bobet avait été le premier à remporter trois éditions de suite, de 1953 à 1955. Les sept victoires de l'Américain Lance Armstrong entre 1999 et 2005 lui ont été retirées en 2012 pour dopage, laissant ces éditions sans vainqueur au palmarès. La légende du Tour s'écrit surtout dans les cols. Le Tourmalet, dans les Pyrénées, franchi pour la première fois en 1910, est le sommet le plus emprunté de l'histoire de la course. L'Alpe d'Huez et ses vingt et un virages numérotés, gravie pour la première fois en 1952, et le mont Ventoux, sommet pelé et venteux de Provence, complètent ce panthéon.",
    "visuel": {
     "type": "tableau",
-    "titre": "Les quatre quintuples vainqueurs",
+    "titre": "Les quintuples vainqueurs",
     "colonnes": [
      "Coureur",
      "Pays",
@@ -133,6 +133,11 @@
       "Miguel Indurain",
       "Espagne",
       "1991 à 1995"
+     ],
+     [
+      "Tadej Pogačar",
+      "Slovénie",
+      "2020, 2021, 2024, 2025 et 2026"
      ]
     ],
     "note": "Bernard Hinault reste le dernier vainqueur français. Les sept succès de Lance Armstrong entre 1999 et 2005 lui ont été retirés en 2012 pour dopage."
@@ -178,7 +183,7 @@
    ],
    "bonne": 3,
    "difficulte": 3,
-   "explication": "Louison Bobet a remporté le Tour trois fois, de 1953 à 1955, devenant le premier coureur à réaliser trois victoires consécutives, mais il n'a jamais atteint cinq succès. Jacques Anquetil a gagné en 1957 puis de 1961 à 1964, Eddy Merckx de 1969 à 1972 et en 1974, Miguel Indurain cinq fois de suite de 1991 à 1995. Bernard Hinault complète ce groupe des quintuples vainqueurs avec ses succès entre 1978 et 1985. Il reste à ce jour le dernier Français à avoir gagné l'épreuve."
+   "explication": "Louison Bobet a remporté le Tour trois fois, de 1953 à 1955, devenant le premier coureur à réaliser trois victoires consécutives, mais il n'a jamais atteint cinq succès. Jacques Anquetil a gagné en 1957 puis de 1961 à 1964, Eddy Merckx de 1969 à 1972 et en 1974, Miguel Indurain cinq fois de suite de 1991 à 1995, et Bernard Hinault entre 1978 et 1985. Il reste à ce jour le dernier Français à avoir gagné l'épreuve. Le Slovène Tadej Pogačar a rejoint ce groupe des quintuples vainqueurs en 2026 : ils sont donc désormais cinq, et non plus quatre."
   },
   {
    "q": "Quelle course d'un jour est surnommée l'Enfer du Nord en raison de ses secteurs pavés ?",

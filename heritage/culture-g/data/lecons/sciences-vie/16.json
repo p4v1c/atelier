@@ -95,7 +95,7 @@
   },
   {
    "titre": "Mesurer la menace : la liste rouge",
-   "texte": "Pour agir, il faut d'abord évaluer. C'est le rôle de la liste rouge établie par l'UICN, l'Union internationale pour la conservation de la nature, qui classe les espèces selon leur risque de disparition. Une espèce menacée est une espèce susceptible de s'éteindre dans un avenir proche ; trois catégories désignent ce statut, par ordre de gravité décroissante : en danger critique, en danger, et vulnérable. Cet outil, fondé sur des critères précis comme la taille des populations ou la réduction de l'aire de répartition, permet des comparaisons dans le temps et entre pays. Le cas de la France est instructif, car il montre qu'un pays riche n'est nullement à l'abri. Selon le comité français de l'UICN, en 2024, 56 % des espèces animales et végétales évaluées sont menacées en France métropolitaine, soit 1 610 espèces sur 2 857. Plus surprenant encore, plus de la moitié des espèces menacées ne bénéficient d'aucune protection légale. Les protections existantes sont inégales : les amphibiens et la plupart des mammifères sont couverts, mais aucune araignée, aucun requin, aucune raie ne l'est, et les poissons, invertébrés, champignons et plantes sont peu concernés. L'UICN recommande donc d'actualiser ces listes, dont certaines remontent à 1982 pour les plantes et à 1988 pour les poissons d'eau douce."
+   "texte": "Pour agir, il faut d'abord évaluer. C'est le rôle de la liste rouge établie par l'UICN, l'Union internationale pour la conservation de la nature, qui classe les espèces selon leur risque de disparition. Une espèce menacée est une espèce susceptible de s'éteindre dans un avenir proche ; trois catégories désignent ce statut, par ordre de gravité décroissante : en danger critique, en danger, et vulnérable. Cet outil, fondé sur des critères précis comme la taille des populations ou la réduction de l'aire de répartition, permet des comparaisons dans le temps et entre pays. Le cas de la France est instructif, car il montre qu'un pays riche n'est nullement à l'abri. Selon le comité français de l'UICN, sur les quelque 2 857 espèces menacées recensées en France métropolitaine en 2024, 1 610 — soit 56 % — ne bénéficient d'aucune protection réglementaire. Les protections existantes sont inégales : les amphibiens et la plupart des mammifères sont couverts, mais aucune araignée, aucun requin, aucune raie ne l'est, et les poissons, invertébrés, champignons et plantes sont peu concernés. L'UICN recommande donc d'actualiser ces listes, dont certaines remontent à 1982 pour les plantes et à 1988 pour les poissons d'eau douce."
   },
   {
    "titre": "Protéger : les aires protégées et leurs limites",
@@ -165,7 +165,7 @@
    "explication": "Le rapport de l'IPBES publié en 2019 estime qu'un million d'espèces sont menacées d'extinction. Depuis 1900, l'érosion de la biodiversité progresse à un rythme sans précédent dans l'histoire humaine, et l'abondance locale des espèces a diminué d'au moins 20 % dans les principaux habitats terrestres. Cinq grandes menaces sont identifiées : la destruction des habitats, la surexploitation des ressources, les espèces invasives, le changement climatique et les pollutions. Une méta-analyse de 2022 a établi que le changement d'usage des terres et le prélèvement direct de ressources en sont les deux moteurs principaux."
   },
   {
-   "q": "Quelle part des espèces évaluées est menacée en France métropolitaine selon le comité français de l'UICN en 2024 ?",
+   "q": "Quelle part des espèces menacées en France métropolitaine ne bénéficie d'aucune protection légale, selon le comité français de l'UICN en 2024 ?",
    "choix": [
     "5 %",
     "20 %",
@@ -174,7 +174,7 @@
    ],
    "bonne": 2,
    "difficulte": 3,
-   "explication": "Selon le comité français de l'UICN, en 2024, 56 % des espèces animales et végétales évaluées sont menacées en France métropolitaine, soit 1 610 espèces sur 2 857. Ce chiffre élevé s'accompagne d'un constat préoccupant : plus de la moitié de ces espèces menacées ne bénéficient d'aucune protection légale. Les protections sont par ailleurs très inégales selon les groupes, puisque les amphibiens et la plupart des mammifères sont couverts, alors qu'aucune araignée, aucun requin et aucune raie ne le sont. L'UICN recommande donc d'actualiser des listes dont certaines remontent à 1982 pour les plantes."
+   "explication": "Selon le comité français de l'UICN, sur les quelque 2 857 espèces menacées recensées en France métropolitaine en 2024, 1 610 — soit 56 % — ne bénéficient d'aucune protection réglementaire. Les protections sont par ailleurs très inégales selon les groupes, puisque les amphibiens et la plupart des mammifères sont couverts, alors qu'aucune araignée, aucun requin et aucune raie ne le sont. L'UICN recommande donc d'actualiser des listes dont certaines remontent à 1982 pour les plantes."
   },
   {
    "q": "Quelle proportion des terres émergées était protégée en 2018 ?",

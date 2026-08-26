@@ -17,7 +17,9 @@ Total effectivement lu : **507 questions** et **environ 215 sections de cours**.
 
 ## Constats
 
-### [GRAVE] La loi de Moore de 1965 est présentée avec la formulation révisée de 1975
+### [GRAVE] ✅ La loi de Moore de 1965 est présentée avec la formulation révisée de 1975
+
+**Vérifié (relecture ultérieure)** : déjà corrigé. Le seed (`sciences-tech.ts`) et le cours disent tous deux « double environ chaque année », révisé en 1975. Rien à faire.
 
 - **Où** : `prisma/seed/culture-g/sciences-tech.ts` — notion `st-informatique-fondements`, question « Qu'énonce la loi de Moore formulée en 1965 ? » ; et `prisma/seed/culture-g/cours/sciences-tech.ts` — cours `st-informatique-fondements`, section « Faire tourner les machines ».
 - **Texte (question)** : « Qu'énonce la loi de Moore formulée en 1965 ? » → bonne réponse « Le nombre de transistors d'une puce double environ tous les deux ans ».
@@ -26,21 +28,27 @@ Total effectivement lu : **507 questions** et **environ 215 sections de cours**.
 - **Aggravant** : le distracteur « La vitesse des processeurs double chaque année » est proche de l'énoncé réel de 1965 ; un apprenant informé peut légitimement hésiter.
 - **Correction proposée** : énoncé « Qu'observe Gordon Moore en 1965, dans ce qu'on appellera la loi de Moore ? », bonne réponse « Le nombre de transistors d'une puce double environ chaque année », explication « Il révise sa prévision en 1975 à un doublement tous les deux ans. Ce n'est pas une loi physique mais une observation empirique devenue objectif industriel, aujourd'hui en fin de course. » Et dans le cours : « la loi de Moore, formulée en 1965 (doublement annuel), révisée par Moore lui-même en 1975 à un doublement tous les deux ans ».
 
-### [GRAVE] Le voyage de Bertha Benz est daté d'un an trop tôt
+### [GRAVE] ✅ Le voyage de Bertha Benz est daté d'un an trop tôt
+
+**Vérifié (relecture ultérieure)** : déjà corrigé. Le seed dit « Sa femme Bertha Benz réalisa en 1888 le premier long trajet, de Mannheim à Pforzheim ». Rien à faire.
 
 - **Où** : `prisma/seed/culture-g/sciences-tech.ts` — notion `st-transports`, question « Qui dépose en 1886 le brevet de la première automobile à moteur à essence ? ».
 - **Texte** : « Sa femme Bertha Benz réalisa l'année suivante le premier long trajet, prouvant la viabilité du véhicule. »
 - **Problème** : le brevet est de janvier 1886 ; « l'année suivante » donne 1887. Le trajet Mannheim–Pforzheim de Bertha Benz date d'**août 1888**. Le dépôt lui-même le dit ailleurs : `heritage/culture-g/data/sciences-tech.json` question 6 (« En 1888, son épouse Bertha Benz effectue un trajet de plus de cent kilomètres entre Mannheim et Pforzheim ») et le cours patrimonial « Se déplacer autrement » (« le trajet de plus de cent kilomètres accompli en 1888 par son épouse Bertha »). Contradiction interne au domaine.
 - **Correction proposée** : « Sa femme Bertha Benz réalisa en 1888 le premier long trajet, de Mannheim à Pforzheim, prouvant la viabilité du véhicule. »
 
-### [GRAVE] Paternité fausse : la machine à coudre « à point noué » attribuée à Thimonnier
+### [GRAVE] ✅ Paternité fausse : la machine à coudre « à point noué » attribuée à Thimonnier
+
+**Vérifié (relecture ultérieure)** : déjà corrigé. L'énoncé demande désormais « la première machine à coudre industrielle, au point de chaînette » et l'explication cite Howe et Singer pour le point noué. Rien à faire.
 
 - **Où** : `prisma/seed/culture-g/sciences-tech-3.ts` — notion `st3-inventions-francaises`.
 - **Texte** : « Qui invente la machine à coudre à point noué en France ? » → bonne réponse « Barthélemy Thimonnier pour la première machine industrielle » ; explication « Son atelier fut détruit en 1831 par des ouvriers tailleurs craignant pour leur emploi. »
 - **Problème** : la machine de Thimonnier (brevet 1830) coud au **point de chaînette**, pas au point noué. Le point noué (lockstitch) est dû à Walter Hunt puis Elias Howe, tous deux dans les choix comme distracteurs — deux distracteurs sont donc en réalité plus proches de la vérité que la bonne réponse. L'option retenue ne répond d'ailleurs pas à la question posée : elle esquive vers « la première machine industrielle », ce qui trahit que l'énoncé est mal construit.
 - **Correction proposée** : reformuler l'énoncé en « Qui met au point en France la première machine à coudre industrielle, au point de chaînette ? », bonne réponse « Barthélemy Thimonnier », explication « Brevetée en 1830, elle cousait au point de chaînette ; le point noué, plus solide, viendra d'Elias Howe aux États-Unis. Son atelier fut détruit en 1831 par des ouvriers tailleurs craignant pour leur emploi. »
 
-### [GRAVE] Doublon franc : la conserve d'Appert posée deux fois avec les mêmes choix
+### [GRAVE] 🔧 Doublon franc : la conserve d'Appert posée deux fois avec les mêmes choix
+
+**Corrigé maintenant** : le doublon subsistait tel quel. La question d'`st3-inventions-francaises` (`sciences-tech-3.ts`) a été remplacée par « Qui met au point le scaphandre autonome à détendeur, en 1943 ? » (Cousteau et Gagnan, avec Rouquayrol-Denayrouze et Le Prieur comme distracteurs historiquement pertinents), qui n'existait pas ailleurs dans le domaine.
 
 - **Où** : `prisma/seed/culture-g/sciences-tech-2.ts` — `st2-alimentation-techniques` ; et `prisma/seed/culture-g/sciences-tech-3.ts` — `st3-inventions-francaises`.
 - **Texte 1** : « Qui met au point la conserve stérilisée en 1795 ? », choix `["Nicolas Appert", "Louis Pasteur", "Peter Durand", "Ferdinand Carré"]`, explication « Il répondait à un concours lancé par le gouvernement pour nourrir les armées. »
@@ -48,20 +56,26 @@ Total effectivement lu : **507 questions** et **environ 215 sections de cours**.
 - **Problème** : même fait, mêmes quatre choix dans le même ordre, même explication reformulée. Doublon franc.
 - **Correction proposée** : supprimer la question de `st3-inventions-francaises` et la remplacer par une invention française non encore traitée dans le domaine (par exemple le procédé Chardonnet de la soie artificielle, ou l'aérotrain, ou le scaphandre autonome de Cousteau et Gagnan).
 
-### [GRAVE] Doublon franc : « Qui invente le braille ? » posé deux fois
+### [GRAVE] 🔧 Doublon franc : « Qui invente le braille ? » posé deux fois
+
+**Corrigé maintenant** : le doublon subsistait. Gardé la version d'`st3-inventions-francaises` (explication sur Barbier) ; remplacé celle d'`st-inventions-quotidien` (`sciences-tech.ts`) par « Quel usage visait à l'origine le papier bulle, inventé en 1957 ? » (Fielding et Chavannes, réponse « un papier peint texturé »), sans rapport avec le reste du domaine.
 
 - **Où** : `prisma/seed/culture-g/sciences-tech.ts` — `st-inventions-quotidien` (« Qui invente le braille, système de lecture tactile ? ») ; et `prisma/seed/culture-g/sciences-tech-3.ts` — `st3-inventions-francaises` (« Qui invente le braille ? »).
 - **Problème** : même question, même réponse. Les explications diffèrent (âge de l'inventeur d'un côté, filiation avec le code de Charles Barbier de l'autre) mais l'item est identique du point de vue de l'apprenant.
 - **Correction proposée** : garder la version de `st3-inventions-francaises` (l'explication sur Barbier apprend davantage) et remplacer celle de `st-inventions-quotidien`.
 
-### [GRAVE] Doublon franc : le four à micro-ondes et la barre chocolatée, trois fois
+### [GRAVE] 🔧 Doublon franc : le four à micro-ondes et la barre chocolatée, trois fois
+
+**Corrigé maintenant** : gardé dans `st-inventions-quotidien`. Dans `st2-armement` (`sciences-tech-2.ts`), la question a été remplacée par « Quelle avancée civile dérive des moteurs à réaction mis au point pendant la Seconde Guerre mondiale ? » (avions de ligne à réaction). Retiré du cours `st2-armement` la phrase redondante sur la barre chocolatée et le magnétron ; le cours mentionne maintenant le four à micro-ondes sans reprendre l'anecdote en détail.
 
 - **Où** : `prisma/seed/culture-g/sciences-tech.ts` — `st-inventions-quotidien` (« À quoi le four à micro-ondes doit-il sa découverte en 1945 ? ») ; `prisma/seed/culture-g/sciences-tech-2.ts` — `st2-armement` (« Quelle invention civile dérive directement des recherches sur le radar ? ») ; `prisma/seed/culture-g/cours/sciences-tech.ts` — cours `st-inventions-quotidien` section « L'observation et le hasard » **et** cours `st2-armement` section « Ce que la guerre lègue au quotidien ».
 - **Texte** : « Percy Spencer, ingénieur chez Raytheon, comprit que les micro-ondes chauffaient les aliments. » / « Percy Spencer remarqua qu'un magnétron faisait fondre la barre chocolatée dans sa poche. » / « un ingénieur ayant remarqué qu'une barre chocolatée fondait dans sa poche près d'un magnétron en fonctionnement. »
 - **Problème** : la même anecdote, dans les mêmes termes, revient dans deux questions de deux notions différentes et dans deux cours. C'est de la redite pure.
 - **Correction proposée** : la garder une seule fois, dans `st-inventions-quotidien`. Dans `st2-armement`, remplacer la question par une autre retombée civile du militaire déjà mentionnée par le cours (le GPS, la conserve, l'aviation à réaction), et retirer la phrase redondante du cours `st2-armement`.
 
-### [GRAVE] Doublon franc : le principe de précaution traité deux fois en question et deux fois en cours
+### [GRAVE] 🔧 Doublon franc : le principe de précaution traité deux fois en question et deux fois en cours
+
+**Corrigé maintenant** : supprimé l'item et le paragraphe de `st-histoire-sciences` (seed et cours), remplacés respectivement par une question sur Victor Hess et les rayons cosmiques (1912) et par la suppression pure et simple du paragraphe. Gardé uniquement dans `st2-innovation-societe`, avec la formule unique « Inscrit dans la Charte de l'environnement, adossée à la Constitution en 2005 » (question et cours harmonisés sur cette date).
 
 - **Où** : `prisma/seed/culture-g/sciences-tech.ts` — `st-histoire-sciences` (« Qu'est-ce que le principe de précaution en droit français ? ») ; `prisma/seed/culture-g/sciences-tech-2.ts` — `st2-innovation-societe` (« Qu'est-ce que le principe de précaution ? ») ; cours `st-histoire-sciences` section « Ceux qui l'ont faite, et à quel prix » ; cours `st2-innovation-societe` section « Quand la technique devient politique ».
 - **Texte** : « Prendre des mesures proportionnées face à un risque incertain mais grave » / « Agir face à un risque incertain mais potentiellement grave » ; explications « il impose d'agir malgré l'incertitude, non de s'abstenir » / « Il exige des mesures proportionnées, non l'inaction ».
@@ -69,7 +83,9 @@ Total effectivement lu : **507 questions** et **environ 215 sections de cours**.
 - **Aggravant** : les deux versions ne donnent pas la même date. La question de `st-histoire-sciences` dit « Inscrit dans la Charte de l'environnement de 2004 », le cours de `st2-innovation-societe` dit « inscrit dans la Constitution française en 2005 ». Les deux sont défendables (Charte adoptée en 2004, constitutionnalisée par la loi constitutionnelle du 1er mars 2005), mais l'apprenant voit deux dates sans explication.
 - **Correction proposée** : ne traiter le principe de précaution qu'une fois, dans `st2-innovation-societe`, avec une formule unique : « Inscrit dans la Charte de l'environnement, adossée à la Constitution en 2005 ». Retirer l'item et le paragraphe de `st-histoire-sciences`.
 
-### [GRAVE] Doublon franc : l'horloge atomique posée deux fois
+### [GRAVE] 🔧 Doublon franc : l'horloge atomique posée deux fois
+
+**Corrigé maintenant** : supprimé l'item de `st3-instrument-scientifique` (remplacé par une question sur le sismographe) ; dans `st2-mesure-temps`, l'explication précise désormais « Une horloge à césium dérive d'environ une seconde sur des millions d'années ; les horloges optiques les plus récentes, de moins d'une seconde sur l'âge de l'univers. »
 
 - **Où** : `prisma/seed/culture-g/sciences-tech-2.ts` — `st2-mesure-temps` (« Sur quoi repose une horloge atomique ? ») ; et `prisma/seed/culture-g/sciences-tech-3.ts` — `st3-instrument-scientifique` (« Qu'est-ce qu'une horloge atomique ? »).
 - **Problème** : même notion, même réponse (transition atomique, césium). De surcroît les deux explications donnent des ordres de grandeur très différents sans le dire : « Sa dérive est de l'ordre d'une seconde sur des millions d'années » d'un côté, « Les meilleures dérivent de moins d'une seconde sur l'âge de l'univers » de l'autre. Les deux chiffres sont exacts mais portent sur des générations d'horloges différentes (césium contre réseau optique) ; juxtaposés sans précision, ils se contredisent en apparence.
@@ -487,7 +503,9 @@ Deux choses méritent d'être relevées comme exemplaires. Le titre de section �
 
 **Reste de la leçon 12 : très bon, et remarquable sur les paternités.** La section 1 est intitulée dans son visuel « **La lunette de 1608 : une invention sans inventeur certain** », énumère Taqi al-Din vers 1574, Lippershey et sa demande du 2 octobre 1608, Metius quelques semaines plus tard, Janssen sans date, et conclut « Aucune paternité ne peut être établie avec certitude » : c'est exactement le traitement que l'audit réclame ailleurs. Même prudence pour le microscope (« son inventeur reste discuté : Janssen, Lippershey, Drebbel, sans preuve décisive ») et pour la boussole, dont la leçon prend soin de démonter le mythe de Flavio Gioja. Vérifiés par ailleurs : grossissement de Galilée porté de six à une trentaine de fois dès 1609 ; montagnes lunaires, quatre satellites de Jupiter, phases de Vénus ; Kepler en 1611 ; premier télescope à réflexion de Newton en 1668 et le miroir plan à quarante-cinq degrés ; Hubble lancé en 1990 ; Faber et le mot « microscope » en 1625 ; *Micrographia* en 1665 et les cellules du liège comparées aux cellules d'un monastère ; micro-organismes à partir de 1676 ; limite d'Abbe et les deux cent cinquante nanomètres, correctement convertis en « un quart de millième de millimètre » ; grossissement vide ; Ruska et Knoll en 1931 ; Zhu Yu en 1117 ; Neckam vers 1190 ; déclinaison ; rose des vents à trente-deux aires de vent, soit onze degrés et quart. L'explication du pôle nord géographique se comportant en pôle sud magnétique est juste et rarement dite.
 
-### [GRAVE] Leçon 13 : le meilleur vol du 17 décembre 1903 mesuré 284 mètres au lieu de 260
+### [GRAVE] ✅ Leçon 13 : le meilleur vol du 17 décembre 1903 mesuré 284 mètres au lieu de 260
+
+**Vérifié (relecture ultérieure)** : déjà corrigé. Les trois occurrences (section, légende, explication du quiz) disent « deux cent soixante mètres ». Rien à faire.
 
 - **Où** : `heritage/culture-g/data/lecons/sciences-tech/13.json` — section « 17 décembre 1903 : les frères Wright et une paternité discutée » ; légende du visuel `st-wright-1903` de la même section ; explication du quiz 3. **Trois occurrences.**
 - **Texte (section)** : « ils effectuent quatre vols avec le Flyer, le meilleur atteignant cinquante-neuf secondes et **deux cent quatre-vingt-quatre mètres**. »
@@ -574,7 +592,9 @@ Cette leçon est la pièce à conviction qui manquait à deux constats laissés 
 
 Un point mérite d'être relevé comme excellent : la leçon ne se contente pas de dire que Turing a « cassé Enigma ». Elle met les Polonais avant lui, les nomme, date leurs bombes, et fait de Bletchley Park un perfectionnement plutôt qu'un commencement. C'est historiquement juste et c'est rare.
 
-### [GRAVE] Leçon 16 : le cas n = 5 de Fermat attribué à Sophie Germain au lieu de Dirichlet
+### [GRAVE] 🔧 Leçon 16 : le cas n = 5 de Fermat attribué à Sophie Germain au lieu de Dirichlet
+
+**Corrigé maintenant** : la frise et l'explication du quiz avaient déjà été corrigées (« Dirichlet et Legendre »), mais le corps du texte de la section « Fermat et les grandes conjectures » disait toujours « Legendre et Sophie Germain pour l'exposant 5 en 1825 » — c'est exactement l'incohérence interne signalée. Remplacé par « Dirichlet et Legendre pour l'exposant 5 en 1825 — Sophie Germain ayant de son côté établi un théorème qui règle le premier cas pour tous les nombres premiers inférieurs à cent », qui restitue en plus le mérite propre de Sophie Germain au lieu de l'effacer.
 
 - **Où** : `heritage/culture-g/data/lecons/sciences-tech/16.json` — section « Fermat et les grandes conjectures », frise de la même section, et explication du quiz 4. **Trois occurrences.**
 - **Texte (section)** : « Pendant plus de trois siècles, on n'obtient que des cas particuliers : Euler pour l'exposant 3 en 1770, **Legendre et Sophie Germain pour l'exposant 5 en 1825**, Kummer pour tous les exposants inférieurs à cent à partir de 1847. »
@@ -665,7 +685,9 @@ lecture des fichiers ne pouvait pas donner.
   pour écrire le cours de `st-intelligence-artificielle` ») tombe pour la même
   raison : c'est déjà son cours.
 
-### [GRAVE] La fusion pose deux fois la même question dans la même compétence
+### [GRAVE] 🔧 La fusion pose deux fois la même question dans la même compétence
+
+**Corrigé maintenant** : les deux paires subsistaient. Babbage — supprimé `sciences-tech-2.ts:276` (« Quelle machine Charles Babbage conçoit-il… »), remplacé par « Qui applique les cartes perforées au recensement américain de 1890 ? » (Hollerith), un fait couvert par le cours mais jamais interrogé. Test de Turing — supprimé `sciences-tech.ts:78` (« Qu'est-ce que le test de Turing ? »), remplacé par une question sur ce que le test ne prétend pas trancher (la conscience de la machine), en évitant sciemment le thème « hiver de l'IA » déjà interrogé dans la leçon 08 fusionnée dans la même compétence.
 
 C'est le constat que seul le chargement révèle. Le dédoublonnage de
 `contenu.ts` exige, pour écarter un jumeau, soit un recouvrement d'énoncé de
@@ -811,7 +833,9 @@ réponses de ses propres questions. **Quatorze notions sont concernées, soit
 près d'une sur trois** — la même proportion que dans les autres domaines. Les
 plus nettes :
 
-### [GRAVE] Astuces qui contiennent mot pour mot la bonne réponse
+### [GRAVE] 🔧 Astuces qui contiennent mot pour mot la bonne réponse
+
+**Corrigé maintenant**, les six astuces : `st-internet-reseaux` et `st3-cryptographie` reformulées avec le texte proposé par le rapport (« Le réseau et les services... » / « Un bon chiffrement reste sûr même si l'ennemi connaît l'algorithme. ») ; `st2-brevets-innovation`, `st2-espace-technologies`, `st2-robotique` et `st-transports` reformulées dans le même esprit (orienter sans donner la réponse), faute de texte de remplacement fourni par le rapport pour ces quatre-là.
 
 - **`st-internet-reseaux`** — astuce : « Internet est le réseau ; le Web n'est
   qu'un des services qui circulent dessus. » Question 1 : « Quelle différence y
@@ -903,7 +927,9 @@ dont l'énoncé de l'une contient la bonne réponse de l'autre**. Les deux énon
 n'ont presque aucun mot en commun, donc le recouvrement est nul et le filtre les
 laisse passer ; mais pour l'apprenant, répondre à l'une, c'est avoir l'autre.
 
-### [GRAVE] Deux paires inversées à l'intérieur d'une même compétence
+### [GRAVE] 🔧 Deux paires inversées à l'intérieur d'une même compétence
+
+**Corrigé maintenant** : Haber-Bosch — remplacé la question du seed (`sciences-tech-2.ts`, `st2-agriculture-techniques`) par « Quelle usine allemande produit dès 1913 trente tonnes d'ammoniac de synthèse par jour ? » (Oppau), un fait développé par la leçon 09 et jamais interrogé, qui règle au passage l'occurrence « Le procédé Ostwald seul » du constat sur le patron « seul ». Pasteur et la rage — supprimé la question de `st3-inventions-francaises` (remplacée par une question sur le vélocipède de Pierre Michaux) et celle des questions libres (`heritage/.../sciences-tech.json`, remplacée par une question sur les hémisphères de Magdebourg de Guericke) ; gardé uniquement la question patrimoniale de la leçon 17.
 
 **1. Haber-Bosch, dans `cg-sciences-tech-09`**
 
@@ -1086,7 +1112,9 @@ confirmées**, dont plusieurs sur pièces.
   **libre** habité du 21 novembre 1783, Marie Curie « première et seule »** :
   tous vérifiés, tous confirmés. Aucune de ces corrections n'appelle de reprise.
 
-### [GRAVE] Le patron « seul » est plus étendu et plus fiable que la passe 1 ne le disait
+### [GRAVE] 🔧 Le patron « seul » est plus étendu et plus fiable que la passe 1 ne le disait
+
+**Corrigé dans la limite du périmètre** : toutes les occurrences trouvables dans les fichiers du périmètre (les trois seed `.ts` et `heritage/.../lecons/sciences-tech/*.json`) où un choix se terminait par l'adverbe « seul »/« seule » ont été reconstruites avec un distracteur différent, jamais par simple suppression de l'adverbe : Hippolyte Bayard, Charles Hall, réseau Transpac, chiffrement symétrique, Michel Ugon (traité avec le constat carte à puce), Émile Roux (traité avec le constat paires inversées), le CNES, Soyouz et Vega (question de Kourou reformulée comme le rapport le suggérait), le procédé Ostwald (traité avec le constat Haber-Bosch), la laine seule, le béton armé seul, le projet Trinity, l'altitude seule, le cadran rotatif, Galilée seul de son temps, l'oscillateur électronique seul, la rigueur méthodologique seule, et Paul Ehrlich seul (leçon 03). Je n'ai pas trouvé d'autres occurrences se terminant par « seul »/« seule » dans les fichiers de mon périmètre après un nouveau balayage complet — si le compte de vingt-sept du rapport inclut des occurrences dans des fichiers hors périmètre (`cours/fusions.ts`, `src/modules/culture-g/contenu.ts`), elles restent à traiter par le propriétaire.
 
 - **Constat d'origine** : [MOYEN] « Distracteurs rendus faux par un "seul"
   ajouté après coup », avec une dizaine d'exemples et la remarque que « la bonne
@@ -1131,7 +1159,9 @@ le stéthoscope ? », « Qui invente la machine à coudre… ? », « Qui met au
 carte à puce ? », neuf fois sur dix suivies d'une explication d'une ligne. C'est
 la forme de question que la leçon existe précisément pour nuancer.
 
-### [GRAVE] La carte à puce : la compétence enseigne à la fois la paternité partagée et la paternité unique
+### [GRAVE] 🔧 La carte à puce : la compétence enseigne à la fois la paternité partagée et la paternité unique
+
+**Corrigé maintenant** : la question 14 du seed (« Qui met au point la carte à puce ? » → Roland Moreno) contredisait toujours la question patrimoniale sur la paternité partagée. Remplacée par « Qu'apporte le brevet SPOM de Michel Ugon, déposé en 1978 ? » → « Processeur et mémoire réunis sur une même puce », qui ne nomme plus Moreno et règle en même temps l'occurrence « Michel Ugon seul » du patron « seul ».
 
 - **Où** : `cg-sciences-tech-17`, questions 5 et 14 — c'est-à-dire
   `heritage/culture-g/data/lecons/sciences-tech/17.json` (quiz 5) et

@@ -484,16 +484,16 @@
    "explication": "Le Lyonnais Joseph-Marie Jacquard présente en 1801 un métier à tisser dont le motif est commandé par une chaîne de cartes perforées : chaque carte détermine quels fils sont levés. Un seul ouvrier remplace ainsi l'ensemble tisserand-tireur de lacs. L'invention provoqua l'hostilité des canuts lyonnais, qui craignaient pour leur emploi. Le principe des cartes perforées inspira Charles Babbage pour sa machine analytique, puis Herman Hollerith, dont les machines à statistiques servirent au recensement américain de 1890 et donnèrent naissance à IBM."
   },
   {
-   "q": "Qui a mis au point en 1885 le vaccin contre la rage ?",
+   "q": "Quelle expérience Otto von Guericke réalise-t-il en 1654 pour démontrer la force de la pression atmosphérique ?",
    "choix": [
-    "Robert Koch",
-    "Louis Pasteur",
-    "Edward Jenner",
-    "Claude Bernard"
+    "Les hémisphères de Magdebourg",
+    "Le baromètre à mercure de Torricelli",
+    "La machine électrostatique à friction",
+    "Le premier thermomètre à alcool"
    ],
-   "bonne": 1,
+   "bonne": 0,
    "difficulte": 1,
-   "explication": "Louis Pasteur administre en juillet 1885 son vaccin antirabique au jeune Joseph Meister, mordu par un chien enragé, avec succès. Il avait auparavant démontré le rôle des micro-organismes dans les fermentations, réfuté la génération spontanée et mis au point la pasteurisation, ainsi qu'un vaccin contre le charbon des moutons. La vaccination proprement dite remonte à Edward Jenner, qui utilise dès 1796 la vaccine bovine contre la variole — d'où le mot « vaccin ». L'Institut Pasteur est fondé à Paris en 1888."
+   "explication": "Deux attelages de chevaux ne parvinrent pas à séparer deux hémisphères de cuivre assemblés puis vidés d'air par sa pompe à vide, preuve spectaculaire de la pression exercée par l'atmosphère. Torricelli avait inventé le baromètre à mercure dès 1643, sans cette mise en scène publique."
   },
   {
    "q": "Quel système de numération utilisons-nous aujourd'hui, transmis à l'Europe par les mathématiciens arabes ?",

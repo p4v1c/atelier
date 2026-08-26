@@ -19,69 +19,79 @@ Total questions du seed : **532**.
 
 ## Constats
 
-### [GRAVE] Laure Manaudou n'a jamais été championne olympique du 800 m — l'explication contredit l'énoncé
+### [GRAVE] ✅ Laure Manaudou n'a jamais été championne olympique du 800 m — l'explication contredit l'énoncé
 - **Où** : `prisma/seed/culture-g/sport-3.ts` — notion `sp3-natation`
 - **Texte** : « Quelle nageuse française a été championne olympique du huit cents mètres ? » → réponse « Laure Manaudou », explication : « Elle remporte le quatre cents mètres nage libre à Athènes en 2004. »
 - **Problème** : Laure Manaudou est championne olympique du **400 m nage libre** à Athènes en 2004 ; sur 800 m elle est vice-championne (argent). L'énoncé est donc faux, et l'explication le contredit ouvertement. Le cours de la même notion (`cours/sport.ts`, `sp3-natation`, section « Les grandes carrières ») confirme : « Laure Manaudou devient championne olympique du quatre cents mètres nage libre à Athènes en 2004 ».
 - **Correction proposée** : « Quelle nageuse française a été championne olympique du quatre cents mètres nage libre en 2004 ? »
+- **Fait** : Déjà conforme à la correction proposée dans `sport-3.ts` (sp3-natation) au moment de ma vérification ; aucune modification nécessaire.
 
-### [GRAVE] Question insoluble : un « nageur français » qui est une nageuse, sur une épreuve qui n'est pas la bonne
+### [GRAVE] ✅ Question insoluble : un « nageur français » qui est une nageuse, sur une épreuve qui n'est pas la bonne
 - **Où** : `prisma/seed/culture-g/sport-3.ts` — notion `sp3-natation`
 - **Texte** : « Quel nageur français a remporté le quatre cents mètres quatre nages en 2012 ? », choix `["Camille Muffat sur le quatre cents nage libre", "Yannick Agnel", "Alain Bernard", "Florent Manaudou"]`, bonne réponse 0, explication « Camille Muffat s'impose sur le quatre cents mètres nage libre à Londres. »
 - **Problème** : trois défauts cumulés. (1) L'énoncé demande un **nageur** masculin, la bonne réponse est une femme. (2) L'énoncé demande le **400 m quatre nages** (remporté à Londres 2012 par l'Américain Ryan Lochte, aucun Français) ; la réponse porte sur le **400 m nage libre**. (3) La « bonne réponse » est une phrase qui corrige l'énoncé, ce qui la désigne immédiatement.
 - **Correction proposée** : « Quelle nageuse française a remporté le quatre cents mètres nage libre aux Jeux de Londres en 2012 ? » — choix : « Camille Muffat », « Laure Manaudou », « Charlotte Bonnet », « Coralie Balmy ».
+- **Fait** : Déjà conforme à la correction proposée dans `sport-3.ts` (sp3-natation) au moment de ma vérification ; aucune modification nécessaire.
 
-### [GRAVE] Question sans réponse : Kévin Mayer n'a jamais été champion olympique
+### [GRAVE] ✅ Question sans réponse : Kévin Mayer n'a jamais été champion olympique
 - **Où** : `prisma/seed/culture-g/sport-3.ts` — notion `sp3-athletisme-lancers`
 - **Texte** : « Quel décathlonien français a été champion olympique ? » → réponse « Kévin Mayer, vice-champion olympique et champion du monde »
 - **Problème** : la bonne réponse dit elle-même qu'il n'est pas champion olympique. Mayer est vice-champion olympique en 2016 et 2021 ; aucun décathlonien français n'a jamais été champion olympique. La question n'a donc aucune réponse correcte, et sa formulation trahit le bricolage.
 - **Aggravant** : le cours de la même notion est explicite et correct — « Le Français Kévin Mayer détient le record du monde de la discipline depuis 2018, avec un titre de champion du monde et deux médailles d'argent olympiques — **l'or lui ayant échappé de peu à deux reprises**. » La question contredit frontalement son propre cours.
 - **Correction proposée** : « Quel décathlonien français a été double vice-champion olympique et champion du monde ? » — réponse « Kévin Mayer ».
+- **Fait** : Déjà conforme à la correction proposée dans `sport-3.ts` (sp3-athletisme-lancers) au moment de ma vérification ; aucune modification nécessaire. Le record du monde du décathlon de Mayer (2018) tient toujours en août 2026.
 
-### [GRAVE] Question dont les choix ne répondent pas à l'énoncé
+### [GRAVE] ✅ Question dont les choix ne répondent pas à l'énoncé
 - **Où** : `prisma/seed/culture-g/sport-3.ts` — notion `sp3-tennis-3`
 - **Texte** : « Quel tournoi du Grand Chelem se joue sur terre battue ? », choix `["Sur terre battue", "Sur gazon", "Sur dur", "Sur surface synthétique"]`
 - **Problème** : l'énoncé demande un **tournoi**, les quatre choix sont des **surfaces**. Question insoluble telle quelle : la bonne réponse est la reformulation littérale de l'énoncé. Copier-coller manifestement raté depuis la question voisine « Sur quelle surface Wimbledon se dispute-t-il ? ».
 - **Correction proposée** : « Quel tournoi du Grand Chelem se joue sur terre battue ? » — choix : « Roland-Garros », « Wimbledon », « l'US Open », « l'Open d'Australie ».
+- **Fait** : Déjà conforme à la correction proposée dans `sport-3.ts` (sp3-tennis-3) au moment de ma vérification ; aucune modification nécessaire.
 
-### [GRAVE] Joakim Noah présenté comme premier choix de draft alors qu'il fut choisi neuvième
+### [GRAVE] 🔧 Joakim Noah présenté comme premier choix de draft alors qu'il fut choisi neuvième
 - **Où** : `prisma/seed/culture-g/sport-3.ts` — notion `sp3-basket-3`
 - **Texte** : « Quel joueur français a été premier choix de la draft NBA en 2023 ? » → « Victor Wembanyama », explication : « Il devient le deuxième Français premier choix après Joakim Noah, lui-même choisi en neuvième position. »
 - **Problème** : la phrase se contredit dans sa propre longueur. Noah n'a jamais été premier choix (9e en 2007) ; Wembanyama est le **premier** Français jamais choisi en première position. Le cours de la même notion dit d'ailleurs correctement : « Il n'est pas le premier Français premier choix — Joakim Noah avait été sélectionné en neuvième position en 2007 » — formulation elle-même fautive (« il n'est pas le premier » alors qu'il l'est), ce qui suggère une négation mal recopiée des deux côtés.
 - **Correction proposée** (question) : « Il est le premier Français jamais choisi en première position ; le précédent Français le mieux placé était Joakim Noah, neuvième en 2007. » — et corriger la phrase du cours en « Il est le premier Français choisi en première position ».
+- **Fait** : La question était déjà corrigée dans `sport-3.ts` (sp3-basket-3) au moment de ma vérification. La phrase fautive du cours, elle, était restée en l'état (« Il n'est pas le premier Français premier choix ») ; corrigée dans `cours/sport.ts` (sp3-basket-3) en « Il est le premier Français choisi en première position », conforme à la correction proposée.
 
-### [GRAVE] Le record de Bubka a tenu vingt et un ans, pas seize
+### [GRAVE] ✅ Le record de Bubka a tenu vingt et un ans, pas seize
 - **Où** : `prisma/seed/culture-g/sport-3.ts` — notion `sp3-athletisme-lancers`
 - **Texte** : « Quel perchiste français a détenu le record du monde ? » → « Renaud Lavillenie », explication : « Il bat le record de Bubka en salle en 2014, seize ans après. »
 - **Problème** : Bubka avait établi son record en salle (6,15 m) en **février 1993** ; Lavillenie franchit 6,16 m en **février 2014**, soit **vingt et un ans** plus tard. Le chiffre « seize » ne correspond à aucune des deux dates de Bubka (record extérieur 6,14 m en 1994 : vingt ans).
 - **Aggravant** : le cours de la notion d'accueil dit juste — « le record de Sergueï Bubka vieux de **vingt et un ans** » (`cours/sport.ts`, `sp3-athletisme-lancers`, section « Les sauts »). La question et son propre cours se contredisent donc dans le même chapitre.
 - **Correction proposée** : « Il bat en 2014 le record en salle de Sergueï Bubka, qui tenait depuis 1993, soit vingt et un ans. »
+- **Fait** : Déjà conforme à la correction proposée dans `sport-3.ts` (sp3-athletisme-lancers) au moment de ma vérification ; aucune modification nécessaire. Confirmé par ailleurs par la passe 2 (Bubka 6,15 m le 21 février 1993, Lavillenie 6,16 m le 15 février 2014, vingt et un ans).
 
-### [GRAVE] Le pass'Sport date de 2021, pas de 2022 — l'erreur est répétée dans la question et dans le cours
+### [GRAVE] ✅ Le pass'Sport date de 2021, pas de 2022 — l'erreur est répétée dans la question et dans le cours
 - **Où** : `prisma/seed/culture-g/sport.ts` — notion `sp-sport-societe` ; et `prisma/seed/culture-g/cours/sport.ts` — `sp-sport-societe`, section « L'organisation française »
 - **Texte** : « Quel dispositif français vise l'accès au sport des enfants depuis 2022 ? » → « Le pass'Sport, aide à la licence » ; et dans le cours : « Le pass'Sport, créé en 2022, est une aide financière à la prise de licence ».
 - **Problème** : le pass'Sport a été créé pour la rentrée **2021** (décret du 12 août 2021, campagne 2021-2022, 50 € par enfant). La date de 2022 est fausse aux deux endroits ; comme elle figure à la fois dans la question et dans le cours, l'apprenant n'a aucun moyen de la corriger. **(À revérifier sur le web avant correction définitive.)**
 - **Correction proposée** : remplacer « depuis 2022 » par « depuis 2021 » dans l'énoncé, et « créé en 2022 » par « créé en 2021 » dans le cours.
+- **Fait** : Déjà conforme dans `sport.ts` (sp-sport-societe, énoncé désormais daté 2021) et `cours/sport.ts` (« créé en 2021 ») au moment de ma vérification ; aucune modification nécessaire. Ces corrections avaient déjà intégré les précisions apportées par le relecteur 2 (décret du 10 septembre 2021) et la passe 2 (montant et public éligible datés plutôt qu'énoncés au présent).
 
-### [GRAVE] Le bilan de Hillsborough diffère entre le cours et la question de la même notion
+### [GRAVE] ✅ Le bilan de Hillsborough diffère entre le cours et la question de la même notion
 - **Où** : `prisma/seed/culture-g/sport-2.ts` — notion `sp2-violence-sport` ; et `cours/sport.ts` — `sp2-violence-sport`, section « Deux drames fondateurs »
 - **Texte** : question — « Quatre-vingt-dix-sept morts. Il a fallu près de trente ans pour établir les responsabilités officielles. » ; cours — « le 15 avril 1989, à Hillsborough, quatre-vingt-seize personnes meurent écrasées ».
 - **Problème** : 96 et 97 dans le même domaine, sur le même fait. Le chiffre exact aujourd'hui est **97** : Andrew Devine, blessé en 1989 et mort en 2021, a été reconnu 97e victime par le coroner. La question est à jour, le cours ne l'est pas.
 - **Correction proposée** : dans le cours, « quatre-vingt-seize personnes meurent écrasées » → « quatre-vingt-seize personnes meurent écrasées ; une 97e victime, restée dans le coma, décédera en 2021 et sera reconnue comme telle ».
+- **Fait** : Déjà conforme à la correction proposée dans `cours/sport.ts` (sp2-violence-sport) au moment de ma vérification ; aucune modification nécessaire.
 
-### [GRAVE] Nombre d'engins de la gymnastique rythmique : le cours dit quatre, la question dit cinq
+### [GRAVE] ✅ Nombre d'engins de la gymnastique rythmique : le cours dit quatre, la question dit cinq
 - **Où** : `prisma/seed/culture-g/sport-2.ts` — notion `sp2-gymnastique` ; et `cours/sport.ts` — `sp2-gymnastique`, section « Les disciplines voisines » ; voir aussi `sport-3.ts` — `sp3-gymnastique`
 - **Texte** : question sp2 — « Cinq engins sont utilisés : corde, cerceau, ballon, massues et ruban. » ; cours sp2 — « La gymnastique rythmique associe mouvements et engins — cerceau, ballon, massues, ruban » ; question sp3 — « Cerceau, ballon, massues et ruban en sont les engins. »
 - **Problème** : contradiction frontale à l'intérieur d'une même notion, et entre deux notions du domaine. La corde a été retirée du programme senior par la FIG ; le programme actuel repose sur quatre engins (cerceau, ballon, massues, ruban). La version « cinq engins » est périmée.
 - **Correction proposée** : dans la question `sp2-gymnastique`, « Quatre engins sont aujourd'hui utilisés en compétition senior : cerceau, ballon, massues et ruban ; la corde a été retirée du programme. »
+- **Fait** : Déjà conforme à la correction proposée dans `sport-2.ts` (question et explication : « Quatre engins… la corde en a été retirée ») et dans `sport-3.ts` (sp3-gymnastique, également à quatre engins) au moment de ma vérification ; aucune modification nécessaire. Confirmé par la passe 2 sur pièce : le *Code de pointage* FIG 2025-2028 retient quatre engins seniors.
 
-### [GRAVE] Une question du lot 3 contredit une question du lot 2 sur la recommandation de l'OMS
+### [GRAVE] ✅ Une question du lot 3 contredit une question du lot 2 sur la recommandation de l'OMS
 - **Où** : `prisma/seed/culture-g/sport-3.ts` — notion `sp3-sport-sante` ; contre `sport-2.ts` — `sp2-sport-sante`
 - **Texte** : sp3 — « Quelle durée d'activité physique l'OMS recommande-t-elle par semaine ? » → « Au moins cent cinquante minutes d'activité modérée », avec « Trois cents minutes » donné comme **mauvaise** réponse. sp2 — « Quelle durée d'activité physique modérée l'OMS recommande-t-elle par semaine à l'adulte ? » → « Cent cinquante à trois cents minutes ».
 - **Problème** : la recommandation de l'OMS est bien **150 à 300 minutes** ; le distracteur « Trois cents minutes » de sp3 est donc lui aussi dans la fourchette recommandée. Un apprenant qui a fait les deux questions apprend deux choses incompatibles.
 - **Correction proposée** : remplacer le distracteur « Trois cents minutes » par « Six cents minutes », ou aligner l'énoncé de sp3 sur « Quel est le minimum hebdomadaire recommandé par l'OMS ? ».
+- **Fait** : Déjà conforme dans `sport-3.ts` (sp3-sport-sante) au moment de ma vérification : le distracteur est désormais « Trois cents minutes **d'activité soutenue**… » — donc hors de la fourchette recommandée pour l'activité modérée — ce qui lève la contradiction avec `sp2-sport-sante` sans qu'aucune modification supplémentaire soit nécessaire.
 
-### [GRAVE] Doublons massifs entre les trois lots — le lot 3 réécrit des notions entières des lots 1 et 2
+### [GRAVE] 🔧 Doublons massifs entre les trois lots — le lot 3 réécrit des notions entières des lots 1 et 2
 - **Où** : `prisma/seed/culture-g/sport.ts`, `sport-2.ts`, `sport-3.ts`
 - **Problème** : ce n'est pas une poignée de redites mais une superposition structurelle : plusieurs notions du lot 3 sont des reprises quasi intégrales de notions existantes, souvent avec la même explication mot pour mot. Relevé (non exhaustif) :
 
@@ -121,8 +131,9 @@ Total questions du seed : **532**.
 
   Doublons internes hors lot 3 : « Qu'est-ce que le surentraînement ? » (`sp-corps-performance`) et « Qu'est-ce que le syndrome de surentraînement ? » (`sp2-sport-sante`), **même bonne réponse** ; « Qu'est-ce que le sport-santé sur ordonnance ? » (`sp-sport-societe`) et « Qu'est-ce que le sport sur ordonnance ? » (`sp2-sport-sante`), **même bonne réponse** ; déshydratation à l'effort, avec la **même phrase d'explication** dans `sp-corps-performance` et `sp2-nutrition-sportive` (« Une perte de deux pour cent du poids corporel suffit à réduire/dégrader nettement la performance »).
 - **Correction proposée** : traiter le lot 3 comme un lot d'approfondissement et non de reprise — supprimer les notions entièrement redondantes (`sp3-rugby-3`, `sp3-sport-femmes`, `sp3-gymnastique`, `sp3-economie-sport`, `sp3-sport-sante`, `sp3-records-limites`, `sp3-arbitrage-technologie`) ou remplacer leurs questions par des angles non couverts.
+- **Fait** : Traitement ciblé plutôt que suppression de notions entières (qui aurait perdu du contenu légitime non dupliqué) : les paires concrètes qui se recouvrent réellement une fois servies ont été dédoublonnées avec remplacement par un angle non couvert — `sp3-paralympiques`≈`sp2-handisport` (goalball reformulé), `sp3-rugby-3`≈`sp2-rugby` (Coupe du monde, Six Nations, Grand Chelem, mêlée remplacés par Calcutta Cup, professionnalisme 1995, barème des pénalités), `sp3-gymnastique`≈`sp2-gymnastique` (agrès et rythmique remplacés par gymnastique acrobatique et âge minimum FIG), `sp-cyclisme`≈`sp3-cyclisme-3` (grands tours), `sp-athletisme`≈`sp3-athletisme-lancers` (Fosbury et décathlon remplacés par heptathlon et relais 4×400), `sp3-sport-societe`≈`sp-sport-societe` (Mexico, Munich, Moscou, Afrique du Sud 1995). ⏭️ Restent non traités, écartés faute de temps et parce qu'ils demandent une refonte éditoriale plus large qu'une correction ponctuelle : `sp3-sport-femmes`≈`sp2-sport-feminin`, `sp3-dopage`≈`sp-dopage-ethique` (au-delà d'EPO/AMA, corrigés), `sp3-sport-sante`≈`sp-corps-performance`/`sp2-sport-sante`, `sp3-records-limites`≈`sp2-records-performance`, `sp3-arbitrage-technologie`≈`sp-arbitrage-regles`/`sp-football`, `sp3-basket-3`≈`sp2-basket-nba` (hors panier/24s déjà traités), `sp3-natation`≈`sp2-natation-eau`/`sp-sports-hiver-nautiques`, `sp3-sports-mecaniques`≈`sp2-sports-mecaniques` (hors F1 déjà traité), `sp3-sports-combat`≈`sp-sports-precision`.
 
-### [GRAVE] La fusion réunit dans un même chapitre des questions qui posent deux fois la même chose
+### [GRAVE] 🔧 La fusion réunit dans un même chapitre des questions qui posent deux fois la même chose
 
 - **Où** : `prisma/seed/culture-g/cours/fusions.ts` (`FUSIONS_INTERNES`), appliqué par `src/modules/culture-g/contenu.ts:459` (`fusionner`)
 - **Problème** : huit notions de Sport sont versées dans une autre. Le dédoublonnage de `verser()` repose sur `qcm.fingerprint`, c'est-à-dire sur le **texte normalisé de l'énoncé seul** (`src/modules/kinds/qcm.ts:37`). Deux questions qui posent le même fait dans des mots différents passent donc toutes les deux. Résultat : les doublons que je signale plus bas ne cohabitent pas dans deux chapitres voisins, ils se retrouvent **côte à côte dans le même chapitre**, avec la même bonne réponse.
@@ -152,8 +163,9 @@ Total questions du seed : **532**.
 
   **`sp3-sports-glisse` → `sp2-sports-glisse`** : le bloc en escalade demandé deux fois avec la **même explication** (« Les passages sont courts mais très intenses »), plus skateboard et escalade olympiques.
 - **Correction proposée** : avant de fusionner, dédoublonner à la main sur le **couple (bonne réponse, explication)** et non sur l'énoncé. Concrètement, supprimer dans la notion absorbée toute question dont la bonne réponse est déjà celle d'une question de l'hôte — soit une trentaine de questions sur l'ensemble du domaine. À défaut, renforcer `fingerprint` pour qu'il intègre la bonne réponse, ce qui ferait tomber ces paires automatiquement.
+- **Fait** : Dédoublonné à la main (couple bonne réponse/explication) dans les six chapitres énumérés : `sp3-paralympiques`→`sp2-handisport` (5 paires), `sp3-gymnastique`→`sp2-gymnastique` (4 paires), `sp3-rugby-3`→`sp2-rugby` (4 paires, dont le haka), `sp-cyclisme`→`sp3-cyclisme-3` (grands tours), `sp-athletisme`→`sp3-athletisme-lancers` (Fosbury, décathlon), `sp3-sport-societe`→`sp-sport-societe` (4 paires) — soit dix-neuf paires réglées en retirant la question la plus pauvre et, quand une piste était donnée, en la remplaçant par un angle non couvert. ⏭️ Non traités par choix éditorial déjà pris en amont (constat MOYEN « Six autres paires », signalé comme laissé en l'état) : le dopage mécanique et Paris-Roubaix/Armstrong dans `sp-cyclisme`↔`sp3-cyclisme-3`, et le bloc en escalade dans `sp3-sports-glisse`↔`sp2-sports-glisse`. `renforcer fingerprint` reste hors périmètre (code, `src/modules/kinds/qcm.ts`).
 
-### [GRAVE] La fusion jette le cours de la notion absorbée, et l'hôte ne couvre pas les questions qui arrivent
+### [GRAVE] 🔧 La fusion jette le cours de la notion absorbée, et l'hôte ne couvre pas les questions qui arrivent
 
 - **Où** : `src/modules/culture-g/contenu.ts:487-503` — « La cible garde le chapitre ; la source disparaît du catalogue après avoir cédé ses questions. »
 - **Problème** : cinq cours de `prisma/seed/culture-g/cours/sport.ts` sont écrits pour des notions absorbées et ne seront donc **jamais affichés** : `sp-cyclisme`, `sp-athletisme`, `sp3-paralympiques`, `sp3-rugby-3`, `sp3-gymnastique`. Leurs questions, elles, survivent chez l'hôte. Quand l'hôte ne traite pas le sujet, la question devient irrépondable après lecture du cours. Cas relevés :
@@ -163,6 +175,7 @@ Total questions du seed : **532**.
   - **Le rugby à sept.** `sp3-rugby-3` est absorbée par `sp2-rugby`, dont le cours ne dit rien du rugby à sept, ni de la valeur de l'essai, ni du palmarès de la Coupe du monde — trois questions qui arrivent pourtant.
   - **Marie-Amélie Le Fur et le tandem.** `sp3-paralympiques` est absorbée par `sp2-handisport`, dont le cours ne mentionne ni l'une ni l'autre.
 - **Correction proposée** : avant fusion, reverser dans le cours de l'hôte les paragraphes du cours abandonné qui portent les réponses (origine du maillot jaune, peloton et échappée ; Simone Biles ; rugby à sept ; Le Fur et le tandem), ou inverser le sens de la fusion là où le cours absorbé est le plus complet.
+- **Fait** : Les quatre paragraphes reversés dans le cours de l'hôte (`cours/sport.ts`) : l'origine du maillot jaune et les définitions de peloton/échappée dans `sp3-cyclisme-3` ; Simone Biles (dominance depuis 2013, retrait de Tokyo 2021) et l'affaire Nassar nommée + le mouvement de libération de la parole dans `sp2-gymnastique` ; le rugby à sept, la valeur de l'essai et le palmarès à jour de la Coupe du monde (Afrique du Sud, quatre titres) dans `sp2-rugby` ; Marie-Amélie Le Fur, le tandem et la règle « même ville depuis 1988 » dans `sp2-handisport`. Au passage, une erreur du cours `sp3-basket-3` signalée dans le constat GRAVE Joakim Noah (« Il n'est pas le premier Français premier choix ») a aussi été corrigée. Les quatre cours devenus inutiles (`sp-cyclisme`, `sp3-gymnastique`, `sp3-rugby-3`, `sp3-paralympiques`) ont été supprimés de `cours/sport.ts`, comme cela avait déjà été fait pour `sp-athletisme`.
 
 ### [MOYEN] ✅ Un paragraphe de cours réécrit presque mot pour mot dans un autre cours
 
@@ -172,11 +185,12 @@ Total questions du seed : **532**.
 - **Correction proposée** : supprimer le cours `sp-athletisme` devenu inutile, après avoir vérifié qu'aucun de ses paragraphes n'est perdu.
 - **Fait** : Cours `sp-athletisme` supprimé de `cours/sport.ts` (dead code après la fusion dans `sp3-athletisme-lancers` ; vérifié qu'aucun paragraphe n'était perdu, le reste étant déjà couvert ailleurs, notamment Bolt dans `sp3-records-limites`).
 
-### [GRAVE] Section de cours qui dit deux fois la même chose
+### [GRAVE] 🔧 Section de cours qui dit deux fois la même chose
 - **Où** : `prisma/seed/culture-g/cours/sport.ts` — `sp-football`, section « L'arbitrage assisté »
 - **Texte** : § 1 — « ils n'interviennent que sur quatre types de décisions — but, penalty, carton rouge direct, erreur d'identité — et l'arbitre central reste seul juge » ; § 2 — « Son périmètre est volontairement étroit : buts, penaltys, cartons rouges directs et erreurs d'identité. »
 - **Problème** : les deux paragraphes énoncent la même liste et la même idée de périmètre restreint, à quelques mots près. Le second paragraphe commence de plus par un « Elle » sans antécédent (le premier parle d'« ils »), signe d'une fusion mal faite de deux rédactions. C'est du remplissage, et le lecteur croit avoir manqué une nuance.
 - **Correction proposée** : supprimer le second paragraphe et développer à la place les cas que la vidéo **ne** couvre pas (fautes hors surface, deuxième carton jaune, hors-jeu antérieur à la phase), qui sont la vraie source des controverses.
+- **Fait** : Deuxième paragraphe réécrit dans `cours/sport.ts` (sp-football) : il développe désormais les cas que la vidéo ne couvre pas (faute hors surface, deuxième carton jaune, hors-jeu antérieur à la phase), conforme à la correction proposée.
 
 ### [MOYEN] ✅ « Enfer du Nord » : une seule cause donnée à un surnom qui en a plusieurs
 - **Où** : `prisma/seed/culture-g/sport.ts` — `sp-cyclisme`
@@ -309,7 +323,7 @@ Total questions du seed : **532**.
 - **Correction proposée** : « Les clubs du nord font sécession en 1895, puis modifient progressivement les règles : treize joueurs à partir de 1906, mêlées non disputées, puis limitation du nombre de plaquages successifs. »
 - **Fait** : Reformulé dans `cours/sport.ts` (sp2-rugby) avec les dates 1895/1906 ; même correction appliquée dans `heritage/.../01.json` (voir plus bas).
 
-### [GRAVE] Le domaine compte à peu près deux fois plus de chapitres qu'il n'a de sujets
+### [GRAVE] ⏭️ Le domaine compte à peu près deux fois plus de chapitres qu'il n'a de sujets
 
 - **Où** : `prisma/seed/culture-g/cours/fusions.ts` — table `FUSIONS`, contre `heritage/culture-g/data/lecons/sport/`
 - **Problème** : `fusions.ts` s'ouvre sur le bon diagnostic — « deux chapitres sur le même thème se voient immédiatement au catalogue » — et verse neuf notions de Sport dans une leçon héritée. Mais la table s'arrête au milieu du gué : pour la moitié des sujets, une leçon héritée et une notion du seed continuent de coexister, chacune avec son chapitre et ses questions.
@@ -330,8 +344,9 @@ Total questions du seed : **532**.
 
   Conséquence mesurable sur un seul fait : **la valeur de l'essai au rugby est demandée dans trois chapitres différents** — `cg-sport-01` (« Combien de points rapporte un essai au rugby à XV depuis 1992 ? »), `sp-sports-collectifs` (« Que vaut un essai au rugby à quinze ? ») et `sp2-rugby` après fusion (« Combien de points vaut un essai au rugby à quinze ? »). Idem pour l'arrivée de l'Italie dans le Tournoi en 2000, et pour la Coupe du monde de rugby de 1987, chacune posée trois fois dans trois chapitres.
 - **Correction proposée** : compléter `FUSIONS` pour les onze sujets ci-dessus, en versant la notion du seed dans la leçon héritée — qui est presque toujours la plus complète et la mieux datée — après le dédoublonnage décrit plus haut.
+- **Écarté** : la correction porte sur la table `FUSIONS` de `prisma/seed/culture-g/cours/fusions.ts`, un fichier de code hors de mon périmètre (`sport*.ts`, `cours/sport.ts`, `heritage/culture-g/data/sport.json`, `heritage/culture-g/data/lecons/sport/*.json`). Les doublons frontaux les plus visibles que cette table incomplète laisse subsister dans les chapitres déjà fusionnés ont en revanche été traités un par un via les constats GRAVE dédiés (Roland-Garros/Mousquetaires, valeur de l'essai, palmarès Coupe du monde, etc.).
 
-### [GRAVE] La fusion vers les leçons héritées produit les mêmes doublons frontaux
+### [GRAVE] 🔧 La fusion vers les leçons héritées produit les mêmes doublons frontaux
 
 - **Où** : `prisma/seed/culture-g/cours/fusions.ts` — table `FUSIONS`, entrées Sport
 - **Problème** : neuf notions du seed sont versées dans une leçon héritée qui possède déjà son quiz de cinq questions. Le dédoublonnage ne portant que sur l'énoncé, les recouvrements passent. Relevé :
@@ -342,13 +357,15 @@ Total questions du seed : **532**.
   - **`sp-sport-economie` + `sp2-sport-medias` → `cg-sport-16`** (deux notions dans une seule leçon) : « Quel est le nom donné à la pratique consistant à attribuer à un stade le nom d'une marque ? » (Le naming) et « Qu'est-ce que le naming d'une enceinte sportive ? » ; et trois questions concurrentes sur les droits de diffusion.
   - **`sp-jeux-olympiques` + `sp3-jo-hiver` → `cg-sport-c01`** : « En quelle année les premiers Jeux d'hiver sont-ils organisés ? » (1924, à Chamonix) et « Où se sont tenus les premiers Jeux olympiques d'hiver ? » (À Chamonix, en 1924), désormais dans le même chapitre.
 - **Correction proposée** : les mêmes que ci-dessus — dédoublonner sur le couple (bonne réponse, explication) avant de verser.
+- **Fait** : `cg-sport-06` (hauteur du panier, vingt-quatre secondes) et `cg-sport-07` (date de création de la F1) traités individuellement, voir les constats GRAVE dédiés plus bas. `cg-sport-15` : le doublon EPO supprimé dans `sp-dopage-ethique` (`sport.ts`) au profit de la version plus riche de la leçon héritée ; le doublon AMA/1999 également supprimé. `cg-sport-16` : le doublon naming supprimé dans `sp-sport-economie` (`sport.ts`). ⏭️ Non traités : `cg-sport-09` (judo/lutte gréco-romaine) — un des deux doublons a déjà été traité en MOYEN, l'autre (« Qui a créé le judo… ») a été délibérément laissé pour ne pas réduire le format fixe à cinq questions du quiz hérité, décision que je n'ai pas rouverte ; `cg-sport-c01` (Jeux d'hiver) — fichier généré sans source correspondante dans `heritage/culture-g/data/lecons/sport/`, hors de mon périmètre ; les « trois questions concurrentes sur les droits de diffusion » de `cg-sport-16`, trop peu précisément décrites dans le constat pour être ciblées sans risque.
 
-### [GRAVE] Contradiction sur la date des règles de Queensberry, à l'intérieur d'un même chapitre
+### [GRAVE] 🔧 Contradiction sur la date des règles de Queensberry, à l'intérieur d'un même chapitre
 
 - **Où** : `heritage/culture-g/data/lecons/sport/09.json` contre `prisma/seed/culture-g/sport-3.ts` — `sp3-sports-combat`, fusionnée dans `cg-sport-09`
 - **Texte** : leçon — « Le tournant décisif intervient **en 1865**, lorsque John Graham Chambers rédige, sous le patronage du marquis de Queensberry, un ensemble de règles » ; question du seed — « Les règles du marquis de Queensberry l'ont codifiée **en 1867**. »
 - **Problème** : les deux dates circulent (rédaction en 1865, publication en 1867), mais la fusion les place dans le même chapitre, sans que rien n'explique l'écart. L'apprenant lit successivement deux dates différentes pour le même fait.
 - **Correction proposée** : retenir une seule formulation dans les deux textes — « rédigées en 1865 par John Graham Chambers sous le patronage du marquis de Queensberry, et publiées en 1867 ».
+- **Fait** : Explication de la question corrigée dans `sport-3.ts` (sp3-sports-combat) : « rédigées en 1865 et publiées en 1867 », conforme à la leçon héritée `09.json` qui datait déjà correctement la rédaction de 1865.
 
 ### [MOYEN] ⏭️ Les questions versées dans une leçon héritée n'y trouvent souvent pas leur réponse
 
@@ -510,11 +527,12 @@ Les cours sont, dans l'ensemble, d'un niveau nettement supérieur aux questions 
 
 ## Leçon héritée `02.json` — « Le tennis, du jeu de paume aux courts du monde entier »
 
-### [GRAVE] Les quatre courts principaux de Roland-Garros ne portent pas les noms des Mousquetaires
+### [GRAVE] 🔧 Les quatre courts principaux de Roland-Garros ne portent pas les noms des Mousquetaires
 - **Où** : `heritage/culture-g/data/lecons/sport/02.json` — section « La Coupe Davis et l'histoire du tennis français »
 - **Texte** : « c'est pour défendre ce trophée que le stade Roland-Garros est édifié. **Les quatre courts principaux du stade portent aujourd'hui leurs noms.** »
 - **Problème** : faux. Les courts principaux de Roland-Garros sont le **Philippe-Chatrier** (1928), le **Suzanne-Lenglen** (1994) et le **Simonne-Mathieu** (2019) — aucun ne porte le nom d'un Mousquetaire. Ce qui porte leur nom, c'est le **trophée** du simple messieurs (la Coupe des Mousquetaires) et la **place des Mousquetaires**, où se dressent leurs quatre statues. La phrase est d'autant plus piégeuse qu'elle suit immédiatement une série d'affirmations exactes.
 - **Correction proposée** : « leur nom est resté attaché au trophée du simple messieurs, la Coupe des Mousquetaires, et à la place du stade où se dressent leurs quatre statues. »
+- **Fait** : Phrase corrigée dans `heritage/culture-g/data/lecons/sport/02.json`, conforme à la correction proposée.
 
 ### [MINEUR] ✅ Un distracteur qui est en partie vrai : « le béton »
 - **Où** : `heritage/culture-g/data/lecons/sport/02.json` — quiz, question 4 (« Sur quelle surface se dispute le tournoi de Roland-Garros ? »)
@@ -534,12 +552,13 @@ Vérifiées et exactes : jeu de paume et l'étymologie « tenez » (correctement
 
 ## Leçon héritée `03.json` — « Le cyclisme et le Tour de France »
 
-### [GRAVE] « Quatre coureurs seulement ont remporté cinq fois le Tour » — ils sont cinq depuis le 26 juillet 2026
+### [GRAVE] 🔧 « Quatre coureurs seulement ont remporté cinq fois le Tour » — ils sont cinq depuis le 26 juillet 2026
 - **Où** : `heritage/culture-g/data/lecons/sport/03.json` — section « Les champions du Tour et les cols mythiques » (texte), titre du tableau « **Les quatre** quintuples vainqueurs », et explication du quiz q. 3 ; **le même chiffre figure trois fois de plus dans `heritage/culture-g/data/sport.json`** — l. 304 (« Quatre coureurs ont remporté cinq Tours : Jacques Anquetil, Eddy Merckx, Bernard Hinault et Miguel Indurain »), l. 1056 (cours : « **Quatre géants** ont remporté cinq Tours ») et l. 1082 (note du visuel, même phrase).
 - **Texte** : « Quatre coureurs seulement ont remporté cinq fois le Tour de France. »
 - **Problème** : **Tadej Pogačar a remporté son cinquième Tour le 26 juillet 2026** (devant Remco Evenepoel et Isaac Del Toro). Ils sont donc désormais **cinq** quintuples vainqueurs. C'est le cas d'école annoncé : un décompte de palmarès énoncé sans date, qui devient faux tout seul. L'affirmation est répétée à quatre endroits, dont le titre d'un tableau et une note de visuel — un correcteur qui ne modifierait que le paragraphe en laisserait trois.
 - **Note d'audit** : ce constat porte sur `heritage/culture-g/data/sport.json`, que la passe 1 déclarait vérifié question par question et « le meilleur morceau du domaine ». Il l'est sur presque tout — mais pas sur ce point.
 - **Correction proposée** : partout, « Cinq coureurs ont remporté cinq fois le Tour de France : Jacques Anquetil, Eddy Merckx, Bernard Hinault, Miguel Indurain et, depuis 2026, le Slovène Tadej Pogačar. » ; titre du tableau → « Les quintuples vainqueurs » ; et ajouter une ligne Pogačar (Slovénie, 2020, 2021, 2024, 2025 et 2026). Le quiz q. 3 (« Lequel de ces coureurs n'a **PAS** remporté cinq fois le Tour ? » → Louison Bobet) reste valable tel quel, mais son explication doit cesser de présenter le groupe comme clos.
+- **Fait** : Les quatre occurrences corrigées : `heritage/culture-g/data/lecons/sport/03.json` (texte, titre du tableau devenu « Les quintuples vainqueurs », ligne Pogačar ajoutée au tableau, explication du quiz q. 3 réécrite pour ne plus présenter le groupe comme clos) et `heritage/culture-g/data/sport.json` (l. 304 et l. 1056/1082, les deux occurrences remplacées par « Cinq coureurs… et, depuis 2026, le Slovène Tadej Pogačar »), conformes à la correction proposée.
 
 ### [MOYEN] ✅ Ce n'est pas *L'Équipe* qui organise le Tour de France
 - **Où** : `heritage/culture-g/data/lecons/sport/03.json` — quiz, question 1, explication
@@ -567,11 +586,12 @@ Vérifiées et exactes : draisienne de Drais en 1817, vélocipède des Michaux v
 
 ## Leçon héritée `04.json` — « L'athlétisme, courir, sauter, lancer »
 
-### [GRAVE] Le 5 000 m se court sur douze tours et demi, pas douze — et le tableau de la même section dit le contraire du texte
+### [GRAVE] 🔧 Le 5 000 m se court sur douze tours et demi, pas douze — et le tableau de la même section dit le contraire du texte
 - **Où** : `heritage/culture-g/data/lecons/sport/04.json` — section « Les courses, du sprint au fond »
 - **Texte** : « Le fond comprend le cinq mille et le dix mille mètres, épreuves d'endurance pure disputées respectivement sur **douze et vingt-cinq tours**. » ; et, quatre lignes plus bas, dans le tableau de la même section : « 5 000 m (**12 tours et demi**), 10 000 m (25 tours) ».
 - **Problème** : 5 000 ÷ 400 = 12,5. Le texte est faux, le tableau juste, et les deux se lisent l'un sous l'autre sur le même écran. C'est le pire cas de figure : l'apprenant voit la contradiction sans pouvoir la trancher, et l'arrondi silencieux (« douze ») a l'air d'être la version simplifiée alors que c'est l'erreur. Le fait est vérifiable par une division que l'apprenant peut faire de tête, ce qui décrédibilise le reste de la leçon.
 - **Correction proposée** : dans le texte, « disputées respectivement sur douze tours et demi et sur vingt-cinq tours » — le 5 000 m partant, de fait, dans la ligne droite opposée.
+- **Fait** : Texte corrigé dans `heritage/culture-g/data/lecons/sport/04.json`, désormais cohérent avec le tableau de la même section.
 
 ### [MOYEN] ✅ Un record donné comme « toujours en vigueur » sans date de constat
 - **Où** : `heritage/culture-g/data/lecons/sport/04.json` — section « Champions légendaires et records »
@@ -596,11 +616,12 @@ Vérifiés et exacts : 776 av. J.-C. et la course du stade (~192 m), diaulos et 
 
 ## Leçon héritée `05.json` — « Les sports d'hiver, de la neige à la glace »
 
-### [GRAVE] Les 86 victoires de Stenmark ne sont plus « une référence absolue » : le record est tombé en 2023
+### [GRAVE] 🔧 Les 86 victoires de Stenmark ne sont plus « une référence absolue » : le record est tombé en 2023
 - **Où** : `heritage/culture-g/data/lecons/sport/05.json` — section « Le ski alpin et ses disciplines », et note du tableau des épreuves
 - **Texte** : « Le Suédois Ingemar Stenmark, avec quatre-vingt-six victoires d'étapes obtenues entre 1974 et 1989, **reste une référence absolue du circuit**. » ; note du tableau : « Ingemar Stenmark y a gagné 86 épreuves entre 1974 et 1989. »
 - **Problème** : le chiffre et les dates sont exacts, mais la phrase est écrite pour faire de 86 le sommet du circuit — et ce sommet a été atteint puis dépassé. **Mikaela Shiffrin a égalé les 86 victoires de Stenmark le 10 mars 2023 à Åre, puis l'a dépassé dès le lendemain** ; elle a franchi la centième victoire en 2025. Le domaine enseigne d'ailleurs déjà l'autre moitié du fait ailleurs : la question `sp3-jo-hiver` du seed donne Shiffrin pour son « record de victoires en Coupe du monde ». L'apprenant qui fait les deux chapitres lit deux fois « le record » attribué à deux personnes, sans qu'aucun des deux textes ne mentionne l'autre. C'est le cas type du palmarès non daté annoncé dans la consigne.
 - **Correction proposée** : « Le Suédois Ingemar Stenmark, avec quatre-vingt-six victoires en Coupe du monde entre 1974 et 1989, a longtemps détenu le record du circuit ; l'Américaine Mikaela Shiffrin l'a dépassé en mars 2023 et compte aujourd'hui plus de cent succès. » — et la même précision dans la note du tableau.
+- **Fait** : Corrigé aux deux endroits dans `heritage/culture-g/data/lecons/sport/05.json`, conforme à la correction proposée (Shiffrin et mars 2023 mentionnés) ; règle également le MINEUR ⏭️ « victoires d'étapes » laissé en suspens, la formulation devenant « victoires en Coupe du monde ».
 
 ### [MOYEN] ✅ La même colonne dit « le talon reste libre » et « des fixations tenant le talon »
 - **Où** : `heritage/culture-g/data/lecons/sport/05.json` — section « Des skis utilitaires au sport de montagne », visuel « Deux styles nés de la même planche », colonne « Le ski nordique »
@@ -635,17 +656,19 @@ Vérifiés et exacts : l'origine utilitaire du ski et l'étymologie norvégienne
 
 ## Leçon héritée `08.json` — « La natation et les sports nautiques »
 
-### [GRAVE] La natation synchronisée n'avait ni épreuve par équipes ni les trois formats en 1984
+### [GRAVE] 🔧 La natation synchronisée n'avait ni épreuve par équipes ni les trois formats en 1984
 - **Où** : `heritage/culture-g/data/lecons/sport/08.json` — section « Water-polo, natation artistique et plongeon »
 - **Texte** : « [la natation artistique] entre au programme olympique en 1984 à Los Angeles, **sous forme d'épreuves en solo, en duo et par équipes**. »
 - **Problème** : faux. Los Angeles 1984 ne comportait que **deux** épreuves, le solo et le duo. L'épreuve **par équipes (ballet à huit) n'apparaît qu'en 1996 à Atlanta** — et c'est précisément à cette occasion que le solo et le duo sont supprimés, le duo étant ensuite rétabli à Sydney en 2000. La phrase inverse donc l'histoire de la discipline : elle donne pour son point de départ un programme qui n'a jamais existé tel quel, et fait disparaître le seul mouvement intéressant, à savoir l'alternance solo/duo/équipes au fil des éditions.
 - **Correction proposée** : « entre au programme olympique en 1984 à Los Angeles, avec le solo et le duo ; l'épreuve par équipes n'apparaît qu'en 1996 à Atlanta, où le solo et le duo sont retirés, le duo revenant dès 2000. »
+- **Fait** : Phrase corrigée mot pour mot selon la proposition dans `heritage/culture-g/data/lecons/sport/08.json`.
 
-### [GRAVE] Phelps n'est plus le seul nageur à avoir gagné quatre fois de suite la même épreuve — et la leçon nomme Ledecky trois lignes plus loin sans le dire
+### [GRAVE] 🔧 Phelps n'est plus le seul nageur à avoir gagné quatre fois de suite la même épreuve — et la leçon nomme Ledecky trois lignes plus loin sans le dire
 - **Où** : `heritage/culture-g/data/lecons/sport/08.json` — section « Les grandes figures des bassins », et explication du quiz q. 3
 - **Texte** : « Phelps est également **le seul nageur** à avoir conservé un même titre lors de quatre éditions consécutives des Jeux, sur 200 mètres quatre nages. Chez les femmes, l'Américaine Katie Ledecky s'est imposée comme la référence des courses de demi-fond et de fond en nage libre. »
 - **Problème** : **Katie Ledecky a remporté le 800 mètres nage libre à quatre Jeux consécutifs — Londres 2012, Rio 2016, Tokyo 2021 et Paris 2024** —, devenant la première femme et la deuxième nageuse ou nageur, après Phelps, à conserver un titre individuel sur quatre éditions. L'affirmation « le seul nageur » est donc fausse depuis le 3 août 2024, et elle l'est dans le paragraphe qui présente Ledecky, en la réduisant à une « référence » vague là où elle détient exactement l'exploit qu'on vient de déclarer unique. Le visuel « chiffres » répète la même exclusivité (« 4 : éditions consécutives avec le titre du 200 m quatre nages »).
 - **Correction proposée** : « Phelps a conservé son titre du 200 mètres quatre nages lors de quatre éditions consécutives des Jeux ; l'Américaine Katie Ledecky a réussi la même chose sur 800 mètres nage libre, de Londres 2012 à Paris 2024, devenant la première femme à y parvenir. »
+- **Fait** : Corrigé aux trois occurrences (texte, explication du quiz, visuel « chiffres ») dans `heritage/culture-g/data/lecons/sport/08.json`, conforme à la correction proposée.
 
 ### [MOYEN] ✅ Ce ne sont pas les relais mixtes qui ont apporté la parité des épreuves
 - **Où** : `heritage/culture-g/data/lecons/sport/08.json` — section « Bassins, distances et grandes compétitions »
@@ -682,18 +705,20 @@ Vérifiés et exacts : les quatre épreuves de 1896 dans la baie de Zéa et le t
 
 ## Leçon héritée `10.json` — « La gymnastique et les sports artistiques »
 
-### [GRAVE] Ce n'est pas la Fédération internationale qui a reconnu la gymnastique rythmique en 1949
+### [GRAVE] 🔧 Ce n'est pas la Fédération internationale qui a reconnu la gymnastique rythmique en 1949
 - **Où** : `heritage/culture-g/data/lecons/sport/10.json` — section « La gymnastique rythmique et le trampoline », et explication du quiz q. 4
 - **Texte** : « Le premier championnat national d'Union soviétique se tient à Moscou en 1948, et **la Fédération internationale de gymnastique la reconnaît officiellement en 1949** comme discipline féminine de compétition. » ; quiz : « la discipline a été **reconnue par la Fédération internationale de gymnastique en 1949** ».
 - **Problème** : confusion entre deux institutions. C'est **l'URSS** qui reconnaît la gymnastique rythmique comme sport de compétition en 1949 ; **la FIG ne l'intègre à son programme qu'en 1961**, ce qui rend possibles les premiers championnats du monde de Budapest en décembre 1963 — que la leçon date d'ailleurs correctement. Telle qu'elle est écrite, la chronologie est incohérente avec elle-même : une discipline reconnue par la fédération internationale en 1949 n'aurait pas attendu quatorze ans ses premiers Mondiaux. L'erreur est répétée dans le quiz, donc apprise deux fois.
 - **Correction proposée** : « Le premier championnat national d'Union soviétique se tient à Moscou en 1948, et la discipline y est reconnue comme sport de compétition dès 1949 ; la Fédération internationale de gymnastique l'intègre à son programme en 1961. »
+- **Fait** : Corrigé mot pour mot (texte et explication du quiz) dans `heritage/culture-g/data/lecons/sport/10.json`.
 
-### [GRAVE] « Cinq engins sont utilisés » — la corde a quitté le programme international en 2011, et l'explication du quiz le dit elle-même
+### [GRAVE] 🔧 « Cinq engins sont utilisés » — la corde a quitté le programme international en 2011, et l'explication du quiz le dit elle-même
 - **Où** : `heritage/culture-g/data/lecons/sport/10.json` — section « La gymnastique rythmique et le trampoline », et quiz q. 4 (« Combien d'engins différents sont utilisés en gymnastique rythmique ? » → **« Cinq »**)
 - **Texte** : « **Cinq engins sont utilisés** : la corde, le cerceau, le ballon, les massues et le ruban » ; explication du quiz : « La gymnastique rythmique utilise cinq engins : la corde, le cerceau, le ballon, les massues et le ruban. **En compétition internationale individuelle, la gymnaste présente quatre exercices avec des engins différents.** »
 - **Problème** : le présent (« sont utilisés ») est faux. **La FIG a retiré la corde du programme individuel senior en 2011** ; le programme en vigueur, reconduit jusqu'en 2028 pour les seniors comme pour les juniors, est **cerceau, ballon, massues et ruban**. La corde reste un engin historique de la discipline, elle n'est plus un engin de compétition. Pire : l'explication qui justifie la réponse « cinq » énonce dans la phrase suivante que la gymnaste ne présente que **quatre** exercices — sans jamais dire lequel est écarté ni pourquoi. La question demande combien d'engins sont *utilisés* ; la réponse littérale à cette question est aujourd'hui quatre. Le QCM a donc deux réponses défendables, dont celle qui est comptée fausse est la plus juste.
 - **Ce que cela confirme** : le constat [GRAVE] de la passe 1 (« le cours dit quatre, la question dit cinq ») était **exact**, et sa correction proposée est la bonne. Le désaccord s'étend en réalité à quatre textes du domaine : `cours/sport.ts` `sp2-gymnastique` (quatre), question `sp2-gymnastique` (cinq), question `sp3-gymnastique` (quatre), et cette leçon (cinq, deux fois). Trois de ces textes se retrouvent dans le même chapitre après la fusion `sp3-gymnastique` → `sp2-gymnastique`.
 - **Correction proposée** : « Le programme international repose aujourd'hui sur quatre engins — cerceau, ballon, massues et ruban ; la corde, cinquième engin historique, a été retirée du programme senior en 2011. » Et reformuler la question : « Quels engins composent le programme international de gymnastique rythmique ? » → « Cerceau, ballon, massues et ruban ».
+- **Fait** : Corrigé dans `heritage/culture-g/data/lecons/sport/10.json` : texte et explication reformulés selon la proposition ; la bonne réponse du quiz a été déplacée sur « Quatre » (l'énoncé « Combien d'engins… » restant valable, il n'a pas été nécessaire de le reformuler entièrement).
 
 ### [MOYEN] ✅ Latynina n'est pas la première à neuf titres olympiques : Paavo Nurmi l'a précédée de trente-six ans
 - **Où** : `heritage/culture-g/data/lecons/sport/10.json` — section « Les figures légendaires de la gymnastique », tableau, et explication du quiz q. 5
@@ -723,11 +748,12 @@ La section « Juger la gymnastique : la fin du dix parfait » est le meilleur pa
 
 ## Leçon héritée `11.json` — « Le volley-ball et les sports de raquette »
 
-### [GRAVE] Le badminton olympique de 1992 comptait quatre épreuves, pas cinq : le double mixte n'arrive qu'en 1996
+### [GRAVE] 🔧 Le badminton olympique de 1992 comptait quatre épreuves, pas cinq : le double mixte n'arrive qu'en 1996
 - **Où** : `heritage/culture-g/data/lecons/sport/11.json` — section « Le badminton, du jeu de volant au sport olympique », tableau récapitulatif, et explication du quiz q. 4 (l'erreur figure donc **trois fois**)
 - **Texte** : « la discipline devient olympique en 1992, **avec cinq épreuves : simples et doubles hommes et dames, plus le double mixte** » ; tableau : « Olympique depuis / 1992, avec cinq épreuves » ; quiz : « Le badminton est devenu olympique en 1992, avec cinq épreuves ».
 - **Problème** : à Barcelone en 1992, le badminton n'avait que **quatre** épreuves — simple messieurs, simple dames, double messieurs, double dames. Le **double mixte est ajouté à Atlanta en 1996**, et c'est justement ce qui fait du badminton l'un des rares sports olympiques où hommes et femmes jouent ensemble sur le même terrain — le fait le plus intéressant de la série, et celui que la leçon efface en l'antidatant. Les premiers champions olympiques de double mixte sont les Coréens Kim Dong-moon et Gil Young-ah, en 1996.
 - **Correction proposée** : « la discipline devient olympique en 1992 avec quatre épreuves — simples et doubles, hommes et dames ; le double mixte s'y ajoute en 1996 à Atlanta, faisant du badminton l'un des rares sports olympiques où hommes et femmes jouent dans la même équipe. »
+- **Fait** : Corrigé aux trois occurrences (texte, tableau, explication du quiz) dans `heritage/culture-g/data/lecons/sport/11.json`, conforme à la correction proposée.
 
 ### [MOYEN] ✅ « Jacques Gossima » n'est pas une personne
 - **Où** : `heritage/culture-g/data/lecons/sport/11.json` — section « Le tennis de table, du salon victorien à la domination chinoise »
@@ -764,11 +790,12 @@ La section sur le volley est la plus solide : elle relie chaque règle à sa con
 
 ## Leçon héritée `12.json` — « Les sports équestres et l'escrime »
 
-### [GRAVE] La parité des épreuves d'escrime par équipes date de Tokyo 2021, pas de 2008
+### [GRAVE] 🔧 La parité des épreuves d'escrime par équipes date de Tokyo 2021, pas de 2008
 - **Où** : `heritage/culture-g/data/lecons/sport/12.json` — section « L'escrime en compétition et ses champions », et explication du quiz q. 4 (l'erreur est donc énoncée deux fois)
 - **Texte** : « le fleuret féminin apparaît en 1924, l'épée seulement en 1996 et le sabre en 2004, **la parité complète des épreuves par équipes n'étant atteinte qu'en 2008** »
 - **Problème** : faux. Le nombre d'épreuves d'escrime étant plafonné à dix par le CIO, les épreuves par équipes **tournaient d'une édition à l'autre** — une arme masculine et une arme féminine étaient sacrifiées à chaque fois. Ce n'est qu'aux **Jeux de Tokyo, en 2021, que le programme complet de douze épreuves a été disputé pour la première fois** : les trois armes, en individuel et par équipes, pour les hommes comme pour les femmes. 2008 est l'année d'apparition du **sabre féminin par équipes**, ce qui n'est pas la même chose. Telle qu'elle est écrite, la phrase clôt treize ans trop tôt une histoire dont la fin est récente et intéressante.
 - **Correction proposée** : « le fleuret féminin apparaît en 1924, l'épée en 1996 et le sabre en 2004 ; les épreuves par équipes ont ensuite longtemps tourné d'une édition à l'autre, faute de places au programme, et il a fallu attendre Tokyo en 2021 pour que les douze épreuves — trois armes, individuel et équipes, hommes et femmes — soient toutes disputées la même année. »
+- **Fait** : Corrigé aux deux occurrences (texte, explication du quiz) dans `heritage/culture-g/data/lecons/sport/12.json`, conforme à la correction proposée.
 
 ### [MINEUR] ✅ Une formule dont le sens est illisible
 - **Où** : `heritage/culture-g/data/lecons/sport/12.json` — section « L'escrime et ses trois armes », et note du tableau
@@ -784,12 +811,13 @@ La section sur la mixité de l'équitation est un bon exemple de cours qui expli
 
 ## Leçon héritée `13.json` — « Les Jeux paralympiques et le handisport »
 
-### [GRAVE] Le goalball : la démonstration n'était pas à Toronto en 1976, et il est officiel depuis 1976, pas 1988
+### [GRAVE] 🔧 Le goalball : la démonstration n'était pas à Toronto en 1976, et il est officiel depuis 1976, pas 1988
 - **Où** : `heritage/culture-g/data/lecons/sport/13.json` — section « Des sports inventés pour le handicap », visuel « Deux sports sans équivalent olympique », et explication du quiz q. 3 (l'erreur figure **trois fois**)
 - **Texte** : « **Présenté en démonstration aux Jeux paralympiques de Toronto en 1976, le goalball devient officiel en 1988.** »
 - **Problème** : les deux dates sont fausses, et elles sont fausses ensemble. Le goalball a été **présenté en démonstration à Heidelberg en 1972**, puis est devenu **épreuve officielle à Toronto en 1976** — l'Autriche remportant le premier titre paralympique en battant la RFA 4-2. Il y a eu un tournoi masculin à chaque édition depuis 1976 ; **1984 est l'année du premier tournoi féminin**. Aucune source ne rattache 1988 à ce sport. La leçon décale donc toute la chronologie d'une édition et invente un point d'arrivée.
 - **Ceci résout un point laissé en suspens par la passe 1** (« année d'entrée du goalball au programme paralympique (démonstration en 1976, médailles en 1980 ?) ») : ni l'une ni l'autre des deux hypothèses n'était bonne. J'ai vérifié sur la fiche de l'IBSA et sur le tableau des éditions. Le seed, lui, ne date jamais le goalball — l'erreur est propre au cahier hérité.
 - **Correction proposée** : « Présenté en démonstration à Heidelberg en 1972, le goalball devient épreuve officielle dès Toronto en 1976 ; le tournoi féminin s'y ajoute en 1984. »
+- **Fait** : Corrigé aux trois occurrences dans `heritage/culture-g/data/lecons/sport/13.json`, conforme à la correction proposée.
 
 ### [MINEUR] ✅ Un nom donné en 1948 à des jeux qui ne s'appelaient pas encore ainsi
 - **Où** : `heritage/culture-g/data/lecons/sport/13.json` — section « De l'hôpital de Stoke Mandeville aux Jeux de Rome », frise, et explication du quiz q. 1
@@ -888,7 +916,7 @@ L'explication du quiz q. 2 fait ce que peu d'explications du domaine font : elle
 
 ## Leçon héritée `06.json` — « Le basket-ball et le handball, deux sports collectifs de salle »
 
-### [GRAVE] Le tableau du palmarès des équipes de France de handball est faux sur les trois lignes
+### [GRAVE] 🔧 Le tableau du palmarès des équipes de France de handball est faux sur les trois lignes
 - **Où** : `heritage/culture-g/data/lecons/sport/06.json` — section « Le handball français, une école de champions », texte **et** tableau « Le palmarès des équipes de France de handball »
 - **Texte** : tableau — « Championnat d'Europe | **2006, 2010** | 2018 » ; « Jeux olympiques | **Pékin 2008, Londres 2012** | Tokyo, disputés en 2021 » ; « Championnat du monde | 1995, 2001, 2009, 2011, 2015, 2017 | **2003, 2017** ». Texte — « championne d'Europe en 2006 et en 2010 […] et championne olympique à Pékin en 2008 puis à Londres en 2012 ».
 - **Problème** : un tableau de palmarès est ce qu'un apprenant recopie tel quel. Celui-ci a **quatre titres manquants**, vérifiés sur la fiche officielle de la FFHandball et sur la page de l'équipe :
@@ -898,6 +926,7 @@ L'explication du quiz q. 2 fait ce que peu d'explications du domaine font : elle
   4. **Championnat du monde féminin 2023** (31-28 contre la Norvège, à Herning) — les féminines ont **trois** titres mondiaux, pas deux.
 - **Aggravant** : la leçon conclut que « ce cumul de titres mondiaux, européens et olympiques constitue une réussite sans équivalent dans les sports collectifs français ». C'est vrai, et le tableau censé l'établir en amoindrit l'ampleur d'un tiers.
 - **Correction proposée** : « Championnat du monde | 1995, 2001, 2009, 2011, 2015, 2017 | 2003, 2017, 2023 » ; « Championnat d'Europe | 2006, 2010, 2014, 2024 | 2018 » ; « Jeux olympiques | Pékin 2008, Londres 2012, Tokyo 2021 | Tokyo 2021 ». Dans le texte : « championne d'Europe en 2006, 2010, 2014 et 2024 […] et championne olympique à Pékin en 2008, à Londres en 2012 et à Tokyo en 2021 ». Et pour les féminines : « des titres de championne du monde en 2003, 2017 et 2023, un titre européen en 2018, l'or olympique à Tokyo en 2021 et l'argent à Paris en 2024 ».
+- **Fait** : Tableau et texte corrigés dans `heritage/culture-g/data/lecons/sport/06.json` (les trois lignes du tableau et l'explication du quiz q. 2), conformes à la correction proposée ; l'argent féminin de Paris 2024 était déjà présent (MOYEN traité en amont).
 
 ### [MOYEN] ✅ Un palmarès féminin arrêté juste avant les Jeux de Paris
 - **Où** : `heritage/culture-g/data/lecons/sport/06.json` — section « Le handball français, une école de champions »
@@ -1025,12 +1054,13 @@ L'explication du quiz q. 4 est la meilleure du domaine : elle ne se contente pas
 
 ## Leçon héritée `16.json` — « L'économie et les médias du sport »
 
-### [GRAVE] « Les collectivités territoriales sont de très loin le premier financeur institutionnel » : l'écart est de quatre points, et l'État est passé devant en 2020 et 2021
+### [GRAVE] 🔧 « Les collectivités territoriales sont de très loin le premier financeur institutionnel » : l'écart est de quatre points, et l'État est passé devant en 2020 et 2021
 - **Où** : `heritage/culture-g/data/lecons/sport/16.json` — section « Le sport, un secteur économique à part entière », note du visuel `chiffres`, **et le quiz q. 1 tout entier**, dont c'est la réponse (« En France, quel est le premier financeur institutionnel du sport ? » → « Les collectivités territoriales »)
 - **Texte** : « les collectivités territoriales sont **de très loin** le premier financeur institutionnel, devant l'État, puis les entreprises » — repris mot pour mot dans la note du visuel, et dans l'explication du quiz : « Ce sont les collectivités territoriales […] qui financent le plus le sport en France parmi les institutions, devant l'État puis les entreprises privées. »
 - **Problème** : c'est un ordre de grandeur des années 2000, plaqué sur un présent qui ne lui ressemble plus. D'après les chiffres de l'INJEP, en **2022 les administrations publiques locales ont dépensé 8,2 milliards d'euros pour le sport, soit 52 % de la dépense publique, contre 7,6 milliards pour l'État, soit 48 %** — un écart de quatre points, pas « de très loin ». Surtout, l'INJEP précise que les collectivités sont « **redevenues** » premières en 2022, **après deux années où l'État avait dépensé davantage** (crise sanitaire, puis préparation des Jeux de Paris). Le fait n'est donc plus une constante structurelle mais un équilibre qui bascule d'une année sur l'autre, et une question de QCM sans date n'a plus de bonne réponse stable : posée sur l'exercice 2021, la réponse attendue serait « l'État ».
 - **Aggravant** : c'est la seule question du quiz sur l'économie française du sport, et c'est aussi la seule affirmation du chapitre présentée comme un enseignement de fond (« Ce constat est essentiel pour comprendre le sport français »).
 - **Correction proposée** : texte — « parmi les financeurs publics, les collectivités territoriales et l'État sont au coude à coude : 8,2 milliards d'euros pour les premières en 2022, soit 52 % de la dépense publique, contre 7,6 milliards pour le second. Les collectivités devancent l'État la plupart des années, mais celui-ci est passé devant en 2020 et 2021. » ; quiz — dater l'énoncé (« en 2022 ») ou remplacer par une question sur la part des ménages, qui, elle, est stable.
+- **Fait** : Texte, note du visuel et quiz (énoncé daté « en 2022 » + explication réécrite avec les chiffres 8,2/7,6 milliards et la bascule de 2020-2021) corrigés dans `heritage/culture-g/data/lecons/sport/16.json`, conforme à la correction proposée.
 
 ### [MOYEN] ✅ Les chiffres du poids économique du sport datent de 2009 — ils ont depuis presque doublé
 - **Où** : `heritage/culture-g/data/lecons/sport/16.json` — section « Le sport, un secteur économique à part entière », visuel `chiffres` « Le poids économique du sport en France », et explication du quiz q. 1
@@ -1085,7 +1115,7 @@ dédoublonnage appliqués) et comparé les 684 questions de Sport telles qu'un
 apprenant les reçoit, notion par notion. **Vingt paires de questions posant le
 même fait survivent dans la même notion.** Les voici toutes.
 
-### [GRAVE] `cg-neuf-sp2-rugby` — quatre faits posés deux fois sur vingt questions
+### [GRAVE] 🔧 `cg-neuf-sp2-rugby` — quatre faits posés deux fois sur vingt questions
 - **Où** : notion `sp2-rugby` après fusion (20 questions servies)
 - **Texte** :
   1. « Quand la Coupe du monde de rugby a-t-elle été créée ? » → « En 1987 » / « Quand la première Coupe du monde de rugby a-t-elle eu lieu ? » → « En 1987 »
@@ -1094,8 +1124,9 @@ même fait survivent dans la même notion.** Les voici toutes.
   4. « Qu'est-ce que le Grand Chelem dans le Tournoi ? » → « Une victoire contre toutes les autres équipes » / « Comment réussit-on un Grand Chelem dans le Tournoi des Six Nations ? » → « Le fait de battre toutes les autres équipes la même année »
 - **Problème** : huit des vingt questions de la notion couvrent quatre faits. La paire 3 est la plus voyante : deux questions inverses l'une de l'autre (le nom → la définition, puis la définition → le nom) qui partagent la même explication à la virgule près. Le dédoublonnage ne les a pas vues parce que les réponses diffèrent littéralement (« En 1987 » n'est pas « 1987 », « six nations européennes » n'est pas « six sélections européennes »), alors qu'elles sont le même fait pour un lecteur.
 - **Correction proposée** : ne garder qu'une question par fait — de préférence la formulation qui demande le contenu plutôt que le nom (« Qu'est-ce qu'une mêlée ? », « Comment réussit-on un Grand Chelem ? ») — et réemployer les places libérées pour des faits que la notion n'aborde pas (le barème des points, la Calcutta Cup, le passage au professionnalisme en 1995).
+- **Fait** : Dans `sport-3.ts` (sp3-rugby-3), les quatre doublons supprimés (Coupe du monde, Six Nations, Grand Chelem, mêlée) et remplacés par trois questions sur des faits non couverts, exactement les angles suggérés : le barème complet (pénalité), la Calcutta Cup, le passage au professionnalisme en 1995 ; le doublon du haka (relevé plus loin dans le constat « Trois paires supplémentaires ») a été supprimé au même endroit.
 
-### [GRAVE] `cg-neuf-sp2-handisport` — quatre faits posés deux fois, dont deux réponses identiques au caractère près
+### [GRAVE] 🔧 `cg-neuf-sp2-handisport` — quatre faits posés deux fois, dont deux réponses identiques au caractère près
 - **Où** : notion `sp2-handisport` après fusion de `sp3-paralympiques` (19 questions servies)
 - **Texte** :
   1. « En quelle année les premiers Jeux paralympiques d'été ont-ils lieu ? » → « 1960, à Rome » / « Quand les premiers Jeux paralympiques ont-ils eu lieu ? » → « À Rome, en 1960 » — la même réponse, dans l'autre sens
@@ -1104,8 +1135,9 @@ même fait survivent dans la même notion.** Les voici toutes.
   4. « Qu'est-ce que le rugby-fauteuil ? » → « Un sport de contact en fauteuil, mixte, pour tétraplégiques » / « À quels athlètes le rugby-fauteuil s'adresse-t-il ? » → « Un sport de contact en fauteuil pour tétraplégiques »
 - **Problème** : la paire 2 est le cas d'école. Les deux questions ont **la même chaîne de caractères en bonne réponse** ; le dédoublonnage aurait dû les fusionner par sa seconde passe (« réponse exacte identique »), et ne l'a pas fait parce que le recouvrement des énoncés — « Qu'est-ce que le goalball ? » contre « À quoi reconnaît-on une partie de goalball ? » — tombe sous le seuil de 0,75 sur les mots longs. La règle est donc contournée par une question courte. Quant à la paire 4, sa seconde formulation est de surcroît mal construite : « À quels athlètes le rugby-fauteuil s'adresse-t-il ? » appelle une réponse en « aux… », et reçoit « Un sport de contact… ».
 - **Correction proposée** : supprimer les secondes de chaque paire ; réécrire au besoin la question sur le goalball pour porter sur un autre aspect (le masque opaque pour tous, le silence du public, les trois contre trois).
+- **Fait** : Dans `sport-3.ts` (sp3-paralympiques), supprimé les doublons « premiers Jeux paralympiques » (1960), « classification » et « rugby-fauteuil » ; la question sur le goalball a été réécrite sur les aspects suggérés (trois contre trois, silence, masque opaque) au lieu d'être une simple redite de la définition.
 
-### [GRAVE] `cg-neuf-sp2-gymnastique` — le nombre d'agrès demandé quatre fois pour deux faits
+### [GRAVE] 🔧 `cg-neuf-sp2-gymnastique` — le nombre d'agrès demandé quatre fois pour deux faits
 - **Où** : notion `sp2-gymnastique` après fusion (20 questions servies)
 - **Texte** :
   - « Combien d'agrès la gymnastique artistique **masculine** compte-t-elle ? » → « Six », explication « Sol, cheval d'arçons, anneaux, saut, barres parallèles et barre fixe. »
@@ -1115,20 +1147,23 @@ même fait survivent dans la même notion.** Les voici toutes.
   - et, en prime : « Qu'est-ce que la gymnastique rythmique ? » → « Une discipline associant mouvements et engins comme le ruban ou le cerceau » / « Avec quoi la gymnastique rythmique se pratique-t-elle ? » → « Une discipline féminine associant mouvements et engins »
 - **Problème** : six des vingt questions pour trois faits. Les deux paires sur les agrès portent des explications **strictement identiques**, ce qui ne laisse aucun doute sur leur origine : deux rédactions du même contenu réunies par la fusion. Et la seconde question sur la gymnastique rythmique demande **avec quoi** elle se pratique, mais sa bonne réponse ne nomme aucun engin (« associant mouvements et engins ») alors que la première, qui ne le demandait pas, cite le ruban et le cerceau. Les deux questions sont donc à la fois redondantes et interverties.
 - **Correction proposée** : garder une question par sexe (« Combien d'agrès en gymnastique artistique masculine ? / féminine ? ») et une seule sur la gymnastique rythmique, celle qui nomme les engins ; utiliser les quatre places libérées pour la gymnastique acrobatique, le trampoline olympique depuis 2000, ou le barème ouvert d'après 2006.
+- **Fait** : Dans `sport-3.ts` (sp3-gymnastique), supprimé les doublons agrès masculins, agrès féminins et gymnastique rythmique (« Avec quoi… »), remplacés par deux nouveaux angles suggérés : la gymnastique acrobatique et l'âge minimum FIG. Le trampoline olympique était déjà présent dans les deux notions avant mon passage et n'a pas été retouché : il n'est pas cité dans les quatre paires précisément identifiées par ce constat, et le traiter aurait empiété sur le GRAVE « Doublons massifs », déjà couvert par ailleurs.
 
-### [GRAVE] `cg-sport-06` — la hauteur du panier et les vingt-quatre secondes, deux fois chacune
+### [GRAVE] 🔧 `cg-sport-06` — la hauteur du panier et les vingt-quatre secondes, deux fois chacune
 - **Où** : leçon héritée `cg-sport-06` après réception des questions de `sp-basket` (15 questions servies)
 - **Texte** :
   1. « À quelle hauteur se situe le panier de basket-ball ? » → « 3,05 mètres » / « Quelle est la hauteur d'un panier de basket ? » → « **Trois mètres cinq** »
   2. « Combien de temps une équipe de basket a-t-elle pour tenter un tir, selon les règles internationales ? » → « Vingt-quatre secondes » / « Combien de temps une équipe a-t-elle pour tirer en NBA ? » → « Vingt-quatre secondes »
 - **Problème** : la paire 1 échappe au dédoublonnage pour une raison purement typographique — « 3,05 mètres » et « Trois mètres cinq » sont le même nombre écrit deux fois. C'est la démonstration que le filtre compare des chaînes et non des faits, et que le corpus mélange chiffres et lettres pour la même grandeur. La paire 2 est plus subtile : les deux règles existent bel et bien et valent toutes deux vingt-quatre secondes, mais rien dans la seconde question n'apprend la différence FIBA / NBA qui justifierait de la poser — l'explication ne la mentionne même pas.
 - **Correction proposée** : supprimer « Quelle est la hauteur d'un panier de basket ? » ; transformer la question NBA en question utile — « Quelle différence de durée sépare un quart-temps de NBA d'un quart-temps FIBA ? » → « Douze minutes contre dix », fait que la leçon enseigne et qu'aucune question ne teste.
+- **Fait** : Dans `sport-2.ts` (sp2-basket-nba), la question sur la hauteur du panier supprimée et celle sur les vingt-quatre secondes NBA remplacée par la question NBA/FIBA suggérée, mot pour mot.
 
-### [GRAVE] `cg-sport-07` — la date de création de la Formule 1, deux fois
+### [GRAVE] 🔧 `cg-sport-07` — la date de création de la Formule 1, deux fois
 - **Où** : leçon héritée `cg-sport-07` après réception des questions de `sp3-sports-mecaniques` (15 questions servies)
 - **Texte** : « En quelle année le championnat du monde de Formule 1 a-t-il été créé ? », choix `["1950", "1906", "1938", "1923"]` → « 1950 » ; et « Quand le championnat du monde de Formule 1 est-il créé ? », choix `["En 1950", "En 1966", "En 1958", "En 1946"]` → « En 1950 »
 - **Problème** : recouvrement d'énoncé de 0,83 — juste sous le seuil de 0,85 du dédoublonnage. Deux questions séparées par un synonyme (« En quelle année » / « Quand ») et par la préposition des réponses. Un apprenant les enchaîne à quelques questions d'intervalle. Pire : l'explication de la première nomme les trois autres dates de son propre QCM (1906, 1923, 1958), ce qui rend la seconde entièrement gratuite.
 - **Correction proposée** : supprimer la seconde ; la notion `sp3-sports-mecaniques` a de la matière ailleurs (le halo, les 500 miles, le rallye-raid) qui n'est pas testée deux fois.
+- **Fait** : Le doublon retrouvé dans `sport-2.ts` (sp2-sports-mecaniques, et non `sp3-sports-mecaniques` comme l'indique le constat — le halo, la voiture de sécurité, le drapeau rouge et le Dakar y sont déjà couverts, donc rien à déplacer). Question remplacée par un fait non testé ailleurs : le DRS en Formule 1.
 
 ### [MOYEN] ✅ `cg-sport-09` — le judo et la lutte gréco-romaine, deux fois chacun
 - **Où** : leçon héritée `cg-sport-09` après réception des questions de `sp-sports-precision` (15 questions servies)
@@ -1158,17 +1193,19 @@ que gastronomie et physique-chimie ont trouvé ailleurs. S'y ajoute un cas de
 nature différente, propre aux leçons héritées, où c'est le **générateur
 d'astuce** qui trahit.
 
-### [GRAVE] `cg-neuf-sp3-cyclisme-3` — l'astuce est la réponse, et la question est posée deux fois
+### [GRAVE] 🔧 `cg-neuf-sp3-cyclisme-3` — l'astuce est la réponse, et la question est posée deux fois
 - **Où** : notion `sp3-cyclisme-3`
 - **Texte** : astuce — « **Le Tour de France, le Giro et la Vuelta forment les trois grands tours.** » ; question 1 — « Quels sont les trois grands tours cyclistes ? » → « Le Tour de France, le Giro et la Vuelta » ; question 2 — « Quels sont les trois grands tours du cyclisme professionnel ? » → « Le Tour de France, le Giro et la Vuelta ».
 - **Problème** : le cumul est complet. L'astuce énonce mot pour mot la bonne réponse, et cette réponse est demandée **deux fois**. Les trois autres propositions de chaque QCM (Tour de Suisse, Paris-Nice, Tour de Lombardie, Paris-Roubaix) deviennent décoratives. Deux des dix-neuf questions de la notion sont donc offertes, et la seule chose que l'apprenant ait à faire est de recopier la ligne affichée au-dessus.
 - **Correction proposée** : supprimer la question doublon, et remplacer l'astuce par ce qu'elle devrait dire — une aide à raisonner et non la réponse : « Un grand tour dure trois semaines ; les courses d'un jour, si prestigieuses soient-elles, n'en sont pas. »
+- **Fait** : L'astuce ne donnait déjà plus la réponse au moment de ma vérification (remplacée dans une session antérieure par une astuce de raisonnement, dans l'esprit de la correction proposée). La question doublon (« Quels sont les trois grands tours cyclistes ? », restée dupliquée avec `sp-cyclisme`) a été supprimée dans `sport-3.ts` (sp3-cyclisme-3).
 
-### [GRAVE] `cg-neuf-sp2-sports-glisse` — une astuce qui répond à trois questions à la fois
+### [GRAVE] 🔧 `cg-neuf-sp2-sports-glisse` — une astuce qui répond à trois questions à la fois
 - **Où** : notion `sp2-sports-glisse`
 - **Texte** : astuce — « **L'escalade sportive est devenue olympique en 2021.** » ; questions — « Quand l'escalade est-elle devenue olympique ? », « Quand le surf est-il devenu olympique ? », « Quand le skateboard est-il devenu olympique ? » → toutes trois « À Tokyo en 2021 ».
 - **Problème** : trois questions sur dix-neuf partagent la même réponse, et l'astuce la donne. Le résultat est qu'un apprenant qui n'a jamais entendu parler de ces trois sports répond juste trois fois — et l'exercice mesure sa capacité à lire une ligne, pas sa connaissance. À noter que la répétition n'est pas en soi illégitime (les trois sports sont bien entrés ensemble à Tokyo, ce que le cours explique), mais l'astuce la rend inutile.
 - **Correction proposée** : astuce — « Trois sports urbains ou de plein air sont entrés ensemble au programme olympique lors des mêmes Jeux : cherche lesquels, et pourquoi ce choix. » ; et ne conserver qu'une des trois questions de date, en la reformulant : « Quels trois sports de glisse ou d'escalade sont entrés ensemble au programme olympique à Tokyo ? »
+- **Fait** : Astuce de `sp2-sports-glisse` remplacée mot pour mot par celle proposée dans `sport-2.ts`. Dans `sport-3.ts` (sp3-sports-glisse), les trois questions de date fusionnées en une seule (« Quels trois sports sont entrés ensemble au programme olympique à Tokyo en 2021 ? ») et les deux places libérées réemployées pour des angles non couverts (park/street en skateboard, durée d'une épreuve de vitesse en escalade) — ce qui règle du même coup le MOYEN ⏭️ lié (triplé surf/skateboard/escalade).
 
 ### [MOYEN] ✅ Sept autres astuces qui contiennent la réponse
 - **Où et texte** :
@@ -1190,13 +1227,14 @@ d'astuce** qui trahit.
 - **Correction proposée** : deux voies. La plus simple : dans `leconEnSkill`, ne pas coller les titres bruts mais n'en garder que les trois premiers mots, ou remplacer l'astuce par « Lis le cours en entier : les questions portent sur ses cinq sections. » La plus juste : écrire une astuce à la main pour les leçons dont un titre nomme une réponse.
 - **Fait** : Écarté : correction de code (`src/modules/culture-g/contenu.ts`), hors de mon périmètre de fichiers.
 
-### [GRAVE] Trois paires supplémentaires, trouvées en cherchant l'égalité stricte des bonnes réponses
+### [GRAVE] 🔧 Trois paires supplémentaires, trouvées en cherchant l'égalité stricte des bonnes réponses
 - **Où et texte** : le décompte de vingt paires ci-dessus provient d'une comparaison des énoncés. En cherchant plutôt les **bonnes réponses rigoureusement identiques** dans une même notion, trois paires de plus apparaissent, que le recouvrement des énoncés ne pouvait pas révéler :
   1. `cg-sport-c01` — « Quel skieur français a remporté les trois épreuves de ski alpin aux Jeux de Grenoble en 1968 ? » / « Quel skieur français a été triple médaillé d'or à Grenoble en 1968 ? » → **« Jean-Claude Killy »** dans les deux cas. Et l'explication de la première raconte déjà le triplé, si bien que la seconde est résolue avant d'être posée.
   2. `cg-neuf-sp2-gymnastique` — « Quelle gymnaste roumaine obtient le premier dix parfait olympique en 1976 ? » / « Quelle gymnaste a obtenu la première note de dix aux Jeux ? » → **« Nadia Comăneci »**. La seconde est la première privée de ses deux indices (la nationalité et l'année) : elle n'ajoute rien, elle retire.
   3. `cg-neuf-sp2-rugby` — « Qu'est-ce que le haka ? » / « Quelle tradition les All Blacks exécutent-ils avant leurs matchs ? » → **« Une danse rituelle maorie exécutée avant les matchs néo-zélandais »**, la même chaîne de caractères. Le doublon parfait, dans les deux sens : la définition puis le nom.
 - **Problème** : le total s'établit donc à **vingt-trois à vingt-cinq paires** selon qu'on compte la triple question sur Tokyo 2021 pour une redondance ou pour deux. `sp2-rugby` en compte cinq à elle seule, `sp2-gymnastique` et `sp2-handisport` quatre chacune : dans ces trois notions, **la moitié des questions posent la moitié des faits**.
 - **Correction proposée** : au-delà du cas par cas, deux mesures de fond. (1) Ajouter au dédoublonnage une comparaison sur la **bonne réponse normalisée seule**, sans condition sur l'énoncé, lorsque cette réponse fait plus de quinze caractères : elle aurait attrapé le goalball, le haka, les grands tours et Tokyo 2021. (2) Normaliser les nombres avant comparaison — « 3,05 mètres » et « Trois mètres cinq » doivent être vus comme la même réponse.
+- **Fait** : Deux des trois paires cas par cas réglées : le haka, supprimé dans `sport-3.ts` (sp3-rugby-3, voir le GRAVE `cg-neuf-sp2-rugby`) ; Nadia Comăneci, doublon supprimé dans `sport-3.ts` (sp3-gymnastique, voir le GRAVE `cg-neuf-sp2-gymnastique`). ⏭️ La paire Killy (« Quel skieur français a remporté les trois épreuves… » / « … a été triple médaillé d'or à Grenoble en 1968 ? ») est écartée : elle vit dans `cg-sport-c01`, un chapitre **généré** sans fichier source dans `heritage/culture-g/data/lecons/sport/` ni dans les fichiers du seed — aucun fichier de mon périmètre ne la porte. Les deux mesures de fond (normalisation du dédoublonnage, normalisation des nombres) relèvent de `src/modules/kinds/qcm.ts` et `src/modules/culture-g/contenu.ts`, hors périmètre.
 
 ## Ce que la passe 2 a trouvé — 3. Les explications qui répondent à une autre question de la même notion
 
@@ -1249,12 +1287,13 @@ personne n'ait à refaire le travail.
 **Deux points laissés en suspens par la passe 1, que je tranche :**
 - **Fait** : Énoncé reformulé (accès des jeunes à la licence) et explication ajustée dans `sport.ts` ; le cours ne mentionnait déjà pas de montant, donc rien à dater côté cours.
 
-### [GRAVE] Les Jeux olympiques de l'esport n'existent pas — le CIO a rompu et repart de zéro
+### [GRAVE] 🔧 Les Jeux olympiques de l'esport n'existent pas — le CIO a rompu et repart de zéro
 - **Où** : `prisma/seed/culture-g/sport-3.ts` l. 508-509 — notion `sp3-esport`
 - **Texte** : « Quel débat le statut olympique du sport électronique soulève-t-il ? » → « L'absence d'effort physique et le rôle des éditeurs privés », explication : « **Le CIO a lancé des Jeux olympiques de l'esport distincts des Jeux traditionnels.** »
 - **Problème** : la passe 1 avait mis ce point en réserve. Il est tranché, et dans le sens le plus défavorable. Le CIO avait voté en 2023 la création de ces Jeux, puis conclu en 2024 une alliance avec l'Arabie saoudite courant jusqu'en 2036. Il a **reporté l'édition de 2025 à 2027 en février 2025, puis annoncé le 30 octobre 2025 la fin de cette coopération d'un commun accord**. Le projet, piloté par la commission esport présidée par David Lappartient, **repart de zéro, sans territoire hôte et sans échéance**. Le passé composé « a lancé » fait donc apprendre comme un fait accompli un événement qui n'a jamais eu lieu et dont plus rien n'est programmé. C'est le seul énoncé du domaine qui affirme l'existence d'une compétition inexistante.
 - **Aggravant** : cette explication n'a par ailleurs aucun rapport avec la question qu'elle explique. Le débat porte sur l'effort physique et la propriété des règles par les éditeurs — ce que le cours de la même notion expose très bien (« Un sport dont les règles sont la propriété d'une société pose au mouvement olympique un problème inédit ») —, et l'explication répond à côté.
 - **Correction proposée** : « Le CIO a voté en 2023 la création de Jeux olympiques de l'esport, mais le projet n'a toujours pas d'édition : le partenariat saoudien a été rompu fin 2025 et la recherche d'un hôte a repris à zéro. » Ou, mieux, une explication qui explique la question : « Le mouvement olympique bute sur un fait sans précédent : personne ne possède les règles du football, alors que chaque jeu vidéo appartient à un éditeur qui peut les changer. »
+- **Fait** : Explication remplacée dans `sport-3.ts` (sp3-esport) par la seconde option proposée, qui a le double avantage de retirer l'affirmation fausse et de répondre enfin à la question posée (le rôle des éditeurs privés) au lieu de parler d'autre chose.
 
 ### Le record du monde du décathlon de Kévin Mayer tient toujours
 - **Où** : `prisma/seed/culture-g/cours/sport.ts` — `sp3-athletisme-lancers`, section « Les lancers »
