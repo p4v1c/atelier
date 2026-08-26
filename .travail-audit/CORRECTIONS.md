@@ -1196,3 +1196,94 @@ ni le sens ni la longueur, donc aucun des autres compteurs. Le contrôle tient e
 trois lignes si on veut l'ajouter au validateur : dans une question dont au
 moins deux propositions commencent par une majuscule, aucune ne doit commencer
 par une minuscule.
+
+---
+
+## Les constats moyens et mineurs des 21 rapports d'audit
+
+Après le chantier du biais de longueur, les 879 constats [MOYEN] et 558
+[MINEUR] des 21 rapports (`.travail-audit/rapports/*.md`) ont été traités —
+les [GRAVE] avaient déjà été corrigés dans une session antérieure.
+
+**Méthode** : 8 vagues de relecteurs indépendants (2 ou 3 à la fois selon les
+collisions de fichiers possibles, jamais plus), chacun cantonné à un rapport
+et aux fichiers de son domaine. Chaque relecteur annote le rapport lui-même :
+le titre du constat reçoit ✅ (appliqué) ou ⏭️ (écarté), suivi d'une ligne
+« **Fait** » disant ce qui a changé ou pourquoi rien n'a changé. Cette
+annotation reste dans les fichiers `.md` : c'est le premier endroit à
+regarder pour savoir ce qui a été fait sur un constat donné.
+
+Environ 1 460 constats traités, plus de 1 390 appliqués. Ceux qui restent
+non appliqués le sont pour une raison écrite dans le rapport — le plus
+souvent parce que la correction demandait un changement d'architecture
+(fusionner deux notions, changer un seuil dans `contenu.ts`) hors du format
+d'un correctif ponctuel, ou parce que la passe 2 de l'audit avait elle-même
+requalifié le constat en [GRAVE].
+
+Après chaque vague : `npx tsc --noEmit`, relecture des JSON touchés, et
+`npx vitest run` (236 tests) avant de committer. Deux régressions ont été
+attrapées ainsi : deux règles de grammaire où les six phrases fautives
+plaçaient toutes la faute au même rang ou en tête de phrase (introduites
+par les vagues 1 et 2, corrigées en relançant les tests avant la vague 3),
+et un test de non-régression qui citait mot pour mot un énoncé que la vague 6
+avait légitimement reformulé (mis à jour pour citer le nouvel énoncé).
+
+### Découverte : des correctifs GRAVE annoncés faits qui ne le sont pas
+
+**Presque tous les relecteurs, dans des domaines différents, ont signalé la
+même chose sans se concerter** : en travaillant à proximité d'un constat
+[GRAVE] pour traiter un [MOYEN] voisin, ils constatent que le texte fautif
+d'origine est encore là, alors que le journal de la session précédente dit
+ces 515 constats corrigés. Ce n'est donc pas un cas isolé mais un défaut
+systématique de cette passe-là — vraisemblablement des corrections
+préparées mais jamais réellement écrites dans les fichiers, ou écrasées
+depuis par un autre changement.
+
+Relevé par domaine (liste non exhaustive, celle que les relecteurs ont
+remontée en travaillant, pas un audit dédié) :
+
+- **Sport** : le palmarès handball France, le financeur institutionnel du
+  sport « de très loin », les Jeux de l'esport « lancés par le CIO », le
+  badminton 1992 à cinq épreuves, la gymnastique rythmique (FIG 1949 et
+  cinq engins), Roland-Garros/Mousquetaires, le 5000 m à douze tours,
+  Stenmark, la natation synchronisée 1984/Phelps seul nageur, la parité
+  escrime 2008, le goalball Toronto, une quinzaine de doublons de fusion.
+- **Sciences et techniques** : les doublons conserve d'Appert, principe de
+  précaution, horloge atomique ; une trentaine de distracteurs en « seul »
+  jamais retouchés ; Sophie Germain à la place de Dirichlet sur le théorème
+  de Fermat, incohérent avec la frise de la même leçon.
+- **Sciences de la vie** : les 400 000 coléoptères contredits par le visuel
+  de leur propre leçon ; le taux d'espèces menacées de la leçon 16 ; le
+  cancer du poumon dit le plus meurtrier chez les femmes aussi (faux, c'est
+  le sein).
+- **Histoire du monde** : quatre valeurs différentes de la mortalité du
+  passage du milieu coexistent encore ; les doublons Alexandre/
+  Cortés-Pizarro/chute du mur/Indonésie 1945-1949.
+- **Histoire de France** : quatre oublis, corrigés à la volée pendant ce
+  chantier (l'élection de VGE dite « à trente-huit ans d'écart avec son
+  prédécesseur », « deux rois de France » qui en nomme trois, Beauvais dite
+  « plus haute nef » alors que sa nef n'existe pas, les trois régimes de
+  1815-1848 dits tous renversés par une révolution).
+- **Littérature** : l'essentiel des doublons de la « passe 2 » — manifeste
+  de 1830, Ronsard/Pléiade, Villon/Fleurs du mal/Alcools, Comédie
+  humaine/Bovary ; Proust et sa chambre de liège, deux fois faux.
+- **Langue française** : Rabelais crédité de « gargantuesque » (en fait du
+  XIXe siècle), les doublons accord de proximité et émoji.
+- **Mythologie et religions** : Damas capitale « au VIIIe siècle », le
+  natron contradictoire, le fil d'Ariane dupliqué entre deux leçons.
+- **Physique et chimie** : une vingtaine d'astuces jamais retouchées,
+  l'ébullition en haute montagne non alignée sur le mont Blanc ; une
+  vraie erreur de calcul trouvée et corrigée pendant ce chantier (le
+  volume d'un être humain comprimé, faux d'un facteur 300 000).
+- **Arts et musique / Cinéma et médias** : le contact européen de 1722 à
+  l'île de Pâques, contredit entre le texte et l'explication d'une
+  question de la même leçon.
+- **Anglais avancé** : deux fusions de cours restent partielles (scope/
+  rationale encore dupliqués, une section « Registre » encore en double).
+- **Espagnol débutant** : le grand correctif sur les `aussiEtranger` ne
+  semble pas appliqué du tout, malgré la mention contraire du rapport.
+
+**Ce chantier des GRAVE mérite une reprise dédiée** — probablement en
+relisant chaque rapport avec un script qui vérifie, pour chaque constat
+[GRAVE], que le texte « fautif » cité n'existe plus dans le fichier actuel,
+plutôt qu'en se fiant à la mention « déjà corrigé » du journal.
