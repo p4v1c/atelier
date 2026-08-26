@@ -247,9 +247,9 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
         note: "Puede ser concède l'hypothèse pour mieux la contourner.",
       },
       {
-        etranger: "Te entiendo, pero no es el momento.",
-        francais: "J'entends bien, mais ce n'est pas le moment.",
-        note: "Te entiendo accuse réception sans accord. Ce n'est jamais un oui.",
+        etranger: "Lo veo complicado, la verdad.",
+        francais: "Ça me semble compliqué, à vrai dire.",
+        note: "Verlo complicado, le refus le plus doux du répertoire professionnel.",
       },
       {
         etranger: "Quedamos en que no estamos de acuerdo.",
@@ -340,9 +340,9 @@ export const ESPAGNOL_ORAL_INTERACCION: LotCartes[] = [
         note: "Tener prisa, être pressé. Le que explicatif est très espagnol.",
       },
       {
-        etranger: "Encantado de conocerte.",
-        francais: "Enchanté de te connaître.",
-        note: "Encantado, la formule de la première rencontre ; alegrarse de verte vaut pour qui on connaît déjà.",
+        etranger: "Me alegro mucho de volver a verte.",
+        francais: "Je suis très content de te revoir.",
+        note: "Alegrarse de verte vaut pour qui on connaît déjà ; encantado de conocerte est réservé à la première rencontre.",
       },
     ],
   },

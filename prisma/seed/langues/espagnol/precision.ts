@@ -520,7 +520,7 @@ export const ESPAGNOL_PRECISION: LotCartes[] = [
       {
         etranger: "La reunión es en la sala grande.",
         francais: "La réunion a lieu dans la grande salle.",
-        note: "Ser pour un événement qui se tient quelque part. Estar dirait où se trouve un objet.",
+        note: "Ser pour un événement qui se tient quelque part. Estar dirait où se trouve un objet. C'est la seule exception à « un lieu, toujours estar ».",
       },
       {
         etranger: "La sala está al fondo.",
@@ -528,14 +528,14 @@ export const ESPAGNOL_PRECISION: LotCartes[] = [
         note: "Estar pour la localisation d'une chose. Le contraste avec la carte précédente est net.",
       },
       {
-        etranger: "Es aburrido, no habla nunca.",
-        francais: "Il est ennuyeux, il ne parle jamais.",
-        note: "Ser aburrido, être ennuyeux ; estar aburrido, s'ennuyer. L'adjectif change de sens.",
+        etranger: "Ese vendedor es muy vivo.",
+        francais: "Ce vendeur est très malin.",
+        note: "Ser vivo, être vif d'esprit, futé ; estar vivo, être en vie. Même adjectif, deux sens.",
       },
       {
-        etranger: "Está listo para salir.",
-        francais: "Il est prêt à partir.",
-        note: "Estar listo, être prêt ; ser listo, être malin. Même mot, deux sens.",
+        etranger: "El plátano todavía está verde.",
+        francais: "La banane n'est pas encore mûre.",
+        note: "Estar verde, ne pas être mûr — ou, pour une personne, manquer d'expérience ; ser verde, être de couleur verte.",
       },
     ],
   },

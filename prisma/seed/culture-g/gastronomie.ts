@@ -33,7 +33,7 @@ export const CG_GASTRONOMIE: SeedSkill[] = [
 
   notion("ga-vin", S, "Le vin",
     "Cépages, vinification, appellations, dégustation : ce que recouvre une bouteille.",
-    "La couleur d'un vin vient de la peau du raisin, non de sa pulpe : on peut faire du blanc avec du raisin noir.",
+    "Presque tout, dans un vin, se joue dans la peau du raisin : couleur, tanins, arômes.",
     2, [
     ["D'où vient la couleur d'un vin rouge ?", ["De la peau des raisins, macérée avec le jus", "De la pulpe du raisin, colorée par le soleil", "Du bois du fût", "Des pépins broyés au pressurage"], 0,
      "Le champagne est majoritairement issu de raisins noirs pressés délicatement, sans macération."],
@@ -57,7 +57,7 @@ export const CG_GASTRONOMIE: SeedSkill[] = [
 
   notion("ga-cuisine-francaise", S, "La cuisine française",
     "Codification, grands chefs, plats régionaux : comment une cuisine est devenue une référence.",
-    "Le repas gastronomique des Français est inscrit au patrimoine immatériel de l'UNESCO depuis 2010.",
+    "Beaucoup de canons de la cuisine française sont des codifications tardives, écrites après coup pour fixer une pratique déjà en usage.",
     2, [
     ["Qu'est-ce que le système de brigade en cuisine ?", ["Une organisation hiérarchisée par postes spécialisés", "Une équipe chargée du seul service en salle", "Un roulement d'équipes entre le matin et le soir", "Un partage des tâches où chacun réalise un plat entier"], 0,
      "Saucier, poissonnier, entremétier, garde-manger, pâtissier : chacun tient un poste sous l'autorité du chef."],
@@ -83,9 +83,9 @@ export const CG_GASTRONOMIE: SeedSkill[] = [
 
   notion("ga-cuisines-monde", S, "Les cuisines du monde",
     "Ingrédients, techniques et plats emblématiques des grandes traditions culinaires.",
-    "La tomate, la pomme de terre et le piment sont américains : les cuisines d'Europe et d'Asie s'en sont emparées après 1492.",
+    "Un ingrédient transporté sans sa technique de préparation d'origine devient souvent, dans l'assiette, un aliment différent.",
     2, [
-    ["D'où viennent la tomate, la pomme de terre et le piment ?", ["Du continent américain", "D'Asie du Sud", "D'Afrique de l'Ouest", "du bassin méditerranéen"], 0,
+    ["D'où viennent la tomate, la pomme de terre et le piment ?", ["Du continent américain", "D'Asie du Sud", "D'Afrique de l'Ouest", "Du bassin méditerranéen"], 0,
      "Leur arrivée en Europe après 1492 a transformé les cuisines italienne, espagnole et indienne."],
     ["Quel plat japonais associe riz vinaigré et poisson cru ou autres garnitures ?", ["Le sushi", "Le sashimi", "Le donburi", "Le mochi"], 0,
      "Le sashimi désigne le poisson cru seul, sans riz."],
@@ -138,7 +138,7 @@ export const CG_GASTRONOMIE: SeedSkill[] = [
     "Le pain ne contient que quatre ingrédients : farine, eau, sel et ferment.",
     2, [
     ["Que dit le décret français de 1993 sur le pain de tradition ?", ["Il interdit tout additif et la congélation de la pâte", "Il impose l'emploi exclusif d'une farine biologique", "Il fixe le poids exact que doit peser la baguette", "Il réserve ce nom aux seules boulangeries strictement artisanales"], 0,
-     "Il impose aussi que le pain soit pétri, façonné et cuit sur le lieu de vente."],
+     "Il limite sa composition à la farine de blé, l'eau, le sel et la levure ou le levain. L'obligation de pétrir, façonner et cuire sur place, elle, définit dans le même décret le \"pain maison\" ; la protection du mot boulanger vient d'une loi de 1998."],
     ["Qu'est-ce que le levain ?", ["Une culture de levures et de bactéries lactiques entretenue par le boulanger", "Une levure industrielle", "Un mélange de farine et de sel", "Un agent chimique de levée"], 0,
      "Sa fermentation plus lente développe des arômes et améliore la conservation du pain."],
     ["Quel gaz fait lever la pâte à pain ?", ["Le dioxyde de carbone", "L'oxygène", "La vapeur d'eau seule", "L'azote"], 0,
@@ -213,7 +213,7 @@ export const CG_GASTRONOMIE: SeedSkill[] = [
 
   notion("ga-agriculture-alimentation", S, "Produire ce que l'on mange",
     "Agriculture, labels, saisons, circuits : d'où viennent les aliments.",
-    "Le label bio porte sur le mode de production, pas sur la qualité nutritionnelle du produit.",
+    "Un signe officiel de qualité agricole dit toujours ce qu'il contrôle ; il ne dit jamais tout ce qui compte pour qui mange.",
     2, [
     ["Que garantit le label agriculture biologique européen ?", ["Un mode de production sans pesticides de synthèse ni OGM", "Une qualité nutritionnelle démontrée comme supérieure", "Une production entièrement locale, vendue à proximité", "L'absence de tout traitement, y compris des produits naturels"], 0,
      "Certains traitements d'origine naturelle, comme le cuivre, restent autorisés dans des limites fixées."],
@@ -242,7 +242,7 @@ export const CG_GASTRONOMIE: SeedSkill[] = [
     "La fourchette est entrée tard dans l'usage français, et longtemps jugée efféminée. Méfie-toi des récits qui l'attribuent à une reine.",
     2, [
     ["Quand la fourchette s'impose-t-elle à la table française ?", ["Au XVIIe siècle", "Au Moyen Âge", "Au XIXe siècle", "À la Renaissance immédiatement"], 0,
-     "On l'attribue par tradition à Catherine de Médicis, mais elle est attestée en France avant elle : c'est Henri III qui la met à la mode, et elle mettra plus d'un siècle à s'imposer."],
+     "Connue en France dès le XIVe siècle, elle ne se diffuse dans l'aristocratie qu'à la fin du XVIe et ne devient l'usage courant qu'au XVIIe. Son introduction par Catherine de Médicis est une légende forgée au XIXe siècle."],
     ["Qu'est-ce que le service à la française ?", ["Tous les plats sont disposés simultanément sur la table", "Chaque plat est apporté l'un après l'autre dans un ordre fixé", "Le service se fait à l'assiette, dressée d'avance en cuisine", "Le maître d'hôtel découpe devant les convives"], 0,
      "Le service à la russe, plat après plat, l'a supplanté au XIXe siècle."],
     ["Comment dispose-t-on les couverts dans le couvert classique français ?", ["Fourchette à gauche, couteau et cuillère à droite", "Fourchette à droite, couteau et cuillère à gauche", "Tous les couverts rangés du côté droit de l'assiette", "Selon la main dominante du convive"], 0,
@@ -265,7 +265,7 @@ export const CG_GASTRONOMIE: SeedSkill[] = [
 
   notion("ga-mode-textile", S, "La mode et le vêtement",
     "Haute couture, prêt-à-porter, matières : le vêtement comme industrie et comme signe.",
-    "L'appellation haute couture est protégée par la loi française et attribuée chaque année.",
+    "Derrière une innovation vestimentaire présentée comme un style, il y a souvent une contrainte économique ou sociale à contourner.",
     2, [
     ["Que protège l'appellation haute couture en France ?", ["Un label juridique attribué chaque année par une commission", "Un savoir-faire que chaque maison déclare librement", "Un niveau de prix minimal fixé par la profession", "Une marque collective déposée par un syndicat de la profession"], 0,
      "Il impose un atelier à Paris, un effectif minimal et deux collections annuelles présentées à la presse."],
@@ -274,7 +274,7 @@ export const CG_GASTRONOMIE: SeedSkill[] = [
     ["Quelle couturière libère la silhouette féminine du corset dans les années 1920 ?", ["Gabrielle Chanel", "Elsa Schiaparelli", "Madeleine Vionnet", "Jeanne Paquin"], 0,
      "Paul Poiret avait engagé ce mouvement dès 1906. Chanel impose ensuite le jersey et la petite robe noire."],
     ["Quelle collection de Christian Dior fait sensation en 1947 ?", ["Le New Look", "Le Trapèze", "La ligne H", "La ligne Fuseau"], 0,
-     "Taille marquée et jupes amples, à contre-courant des restrictions de tissu de l'après-guerre."],
+     "Taille marquée et jupes amples, à contre-courant des restrictions de tissu de l'après-guerre. Dior l'avait baptisée ligne Corolle ; c'est la rédactrice en chef du Harper's Bazaar qui lança le surnom de New Look."],
     ["Qu'est-ce que le prêt-à-porter ?", ["Des vêtements produits en série selon des tailles standardisées", "Des vêtements vendus tels quels, sans aucune retouche", "Une collection de créateur produite en série strictement limitée", "Un vêtement livré entièrement fini par un atelier"], 0,
      "Le terme, calqué sur l'anglais ready-to-wear, apparaît autour de 1948-1950 et se répand grâce à Jean-Claude Weill, qui en rapporte le principe des États-Unis."],
     ["Qu'est-ce que la fast fashion ?", ["Un modèle fondé sur le renouvellement très rapide et à bas coût des collections", "La vente en ligne de vêtements livrés au client en moins de vingt-quatre heures", "La production locale et rapide de vêtements à la demande", "La mode saisonnière classique, organisée autour de deux collections par an seulement"], 0,
@@ -291,7 +291,7 @@ export const CG_GASTRONOMIE: SeedSkill[] = [
 
   notion("ga-jardin-nature", S, "Le jardin et les plantes cultivées",
     "Jardins d'agrément, potager, botanique appliquée : cultiver comme art et comme technique.",
-    "Le jardin à la française organise la nature par la géométrie ; le jardin anglais l'imite.",
+    "Beaucoup de gestes de jardinage rendent un service invisible, au sol ou aux insectes, que le jardinier débutant néglige facilement.",
     2, [
     ["Qu'est-ce qui caractérise un jardin à la française ?", ["Une composition géométrique et symétrique organisée autour d'une perspective", "Une nature laissée entièrement libre de croître comme elle l'entend, sans intervention", "Un tracé sinueux imitant librement les méandres d'un paysage naturel anglais", "L'usage exclusif d'espèces végétales de la région"], 0,
      "André Le Nôtre en fixe les principes à Vaux-le-Vicomte puis à Versailles."],

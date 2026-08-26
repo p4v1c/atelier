@@ -123,9 +123,9 @@ export const ESPAGNOL_MODISMOS_CARACTER: LotCartes[] = [
         note: "Seco d'une personne, distant et peu expansif — pas le sens physique de sec.",
       },
       {
-        etranger: "Está muy apegado a sus costumbres.",
-        francais: "Il tient beaucoup à ses habitudes.",
-        note: "Apegado a, attaché à. Le mot dit l'attachement qui empêche de changer.",
+        etranger: "Es muy detallista con los regalos.",
+        francais: "Il a beaucoup d'attentions question cadeaux.",
+        note: "Detallista, qui a le sens du détail — souvent dit de quelqu'un attentionné dans ses gestes ou ses cadeaux.",
       },
       {
         etranger: "Va siempre de frente.",
@@ -191,9 +191,9 @@ export const ESPAGNOL_MODISMOS_CARACTER: LotCartes[] = [
         note: "Descabellado, littéralement décoiffé. L'image rejoint celle du français.",
       },
       {
-        etranger: "Es una generalización abusiva.",
-        francais: "C'est une généralisation abusive.",
-        note: "Abusivo, qui va au-delà de ce que les faits permettent.",
+        etranger: "El argumento resultó endeble.",
+        francais: "L'argument s'est révélé fragile.",
+        note: "Endeble, fragile — pas faible physiquement : un raisonnement qui s'écroule au premier examen.",
       },
       {
         etranger: "El informe es escaso en detalles.",
@@ -224,17 +224,17 @@ export const ESPAGNOL_MODISMOS_CARACTER: LotCartes[] = [
     category: "Vocabulaire",
     title: "Nommer une notion",
     statement:
-      "Alcance, medida, postura, planteamiento. Les noms abstraits de l'écrit espagnol sont peu nombreux et reviennent partout, et le français en traduit plusieurs par le même mot.",
-    tip: "El alcance est l'étendue de ce qu'on couvre, la medida le degré auquel une chose est vraie. Le premier délimite, le second mesure.",
+      "Fundamento, medida, postura, índole. Les noms abstraits de l'écrit espagnol sont peu nombreux et reviennent partout, et le français en traduit plusieurs par le même mot.",
+    tip: "El fundamento est ce sur quoi une thèse repose, la medida le degré auquel une chose est vraie. Le premier justifie, le second mesure.",
     difficulty: 3,
     niveau: "C1",
     oral: true,
     parle: true,
     cartes: [
       {
-        etranger: "Eso excede el alcance de este estudio.",
-        francais: "Cela dépasse le cadre de cette étude.",
-        note: "El alcance, le périmètre couvert. Exceder el alcance de est une formule figée.",
+        etranger: "Esa afirmación carece de fundamento.",
+        francais: "Cette affirmation n'a aucun fondement.",
+        note: "El fundamento, ce sur quoi une thèse repose. Carecer de fundamento, formule figée de l'écrit argumenté.",
       },
       {
         etranger: "¿En qué medida es esto cierto?",
@@ -247,9 +247,9 @@ export const ESPAGNOL_MODISMOS_CARACTER: LotCartes[] = [
         note: "Una postura, une position prise publiquement. Al respecto, à ce sujet.",
       },
       {
-        etranger: "El planteamiento no se explica.",
-        francais: "La façon de poser le problème n'est pas expliquée.",
-        note: "Un planteamiento, la manière dont on pose une question. Sans équivalent français simple.",
+        etranger: "Es un problema de otra índole.",
+        francais: "C'est un problème d'une autre nature.",
+        note: "La índole, la nature ou le caractère propre d'une chose ; de otra índole, d'un autre ordre.",
       },
       {
         etranger: "La literatura sobre el tema no deja de crecer.",
@@ -388,7 +388,7 @@ export const ESPAGNOL_MODISMOS_CARACTER: LotCartes[] = [
       },
       {
         etranger: "Metí la pata hasta el fondo.",
-        francais: "J'ai mis les pieds dans le plat.",
+        francais: "J'ai fait une sacrée gaffe.",
         note: "Meter la pata, faire une gaffe. La pata est la patte d'un animal.",
       },
       {

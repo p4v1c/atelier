@@ -95,32 +95,38 @@ export const ESPAGNOL_AVANCE_B2: LotCartes[] = [
       {
         etranger: "Si tuviera tiempo, iría contigo.",
         francais: "Si j'avais le temps, j'irais avec toi.",
-        note: "Si + subjonctif imparfait, puis conditionnel. « Si tendría » est une faute.",
+        aussiEtranger: ["Si tuviese tiempo, iría contigo."],
+        note: "Si + subjonctif imparfait, puis conditionnel. « Si tendría » est une faute. Tuviera ou tuviese : les deux sont corrects.",
       },
       {
         etranger: "Ojalá hubiera venido.",
         francais: "Si seulement il était venu.",
-        note: "Ojalá + plus-que-parfait du subjonctif pour un regret sur le passé.",
+        aussiEtranger: ["Ojalá hubiese venido."],
+        note: "Ojalá + plus-que-parfait du subjonctif pour un regret sur le passé. Hubiera ou hubiese : les deux sont corrects.",
       },
       {
         etranger: "Me pidió que le ayudara.",
         francais: "Il m'a demandé de l'aider.",
-        note: "Principale au passé, subordonnée au subjonctif imparfait. La concordance est mécanique.",
+        aussiEtranger: ["Me pidió que le ayudase."],
+        note: "Principale au passé, subordonnée au subjonctif imparfait. La concordance est mécanique. Ayudara ou ayudase : les deux sont corrects.",
       },
       {
         etranger: "Habría venido si me lo hubieras dicho.",
         francais: "Je serais venu si tu me l'avais dit.",
-        note: "Le couple du regret : conditionnel passé d'un côté, plus-que-parfait du subjonctif de l'autre.",
+        aussiEtranger: ["Habría venido si me lo hubieses dicho."],
+        note: "Le couple du regret : conditionnel passé d'un côté, plus-que-parfait du subjonctif de l'autre. Hubieras ou hubieses : les deux sont corrects.",
       },
       {
         etranger: "No creí que fuera tan difícil.",
         francais: "Je ne pensais pas que ce serait si difficile.",
+        aussiEtranger: ["No creí que fuese tan difícil."],
         note: "Fuera ou fuese : les deux sont corrects. Fuera domine à l'oral, fuese à l'écrit.",
       },
       {
         etranger: "Como si nada hubiera pasado.",
         francais: "Comme si de rien n'était.",
-        note: "Como si n'accepte jamais l'indicatif : toujours l'imparfait ou le plus-que-parfait du subjonctif.",
+        aussiEtranger: ["Como si nada hubiese pasado."],
+        note: "Como si n'accepte jamais l'indicatif : toujours l'imparfait ou le plus-que-parfait du subjonctif. Hubiera ou hubiese : les deux sont corrects.",
       },
       {
         etranger: "Quisiera hacerle una pregunta.",
@@ -130,7 +136,8 @@ export const ESPAGNOL_AVANCE_B2: LotCartes[] = [
       {
         etranger: "Aunque lloviera, saldríamos igual.",
         francais: "Même s'il pleuvait, nous sortirions quand même.",
-        note: "Aunque + subjonctif pour une hypothèse ; + indicatif pour un fait admis.",
+        aussiEtranger: ["Aunque lloviese, saldríamos igual."],
+        note: "Aunque + subjonctif pour une hypothèse ; + indicatif pour un fait admis. Lloviera ou lloviese : les deux sont corrects.",
       },
       {
         etranger: "Ya lo habrían terminado ayer.",
@@ -146,7 +153,8 @@ export const ESPAGNOL_AVANCE_B2: LotCartes[] = [
       {
         etranger: "Si hubiéramos salido antes, no habríamos perdido el tren.",
         francais: "Si nous étions partis plus tôt, nous n'aurions pas raté le train.",
-        note: "Le regret complet : plus-que-parfait du subjonctif après si, conditionnel passé ensuite.",
+        aussiEtranger: ["Si hubiésemos salido antes, no habríamos perdido el tren."],
+        note: "Le regret complet : plus-que-parfait du subjonctif après si, conditionnel passé ensuite. Hubiéramos ou hubiésemos : les deux sont corrects.",
       },
     ],
   },
@@ -221,7 +229,7 @@ export const ESPAGNOL_AVANCE_B2: LotCartes[] = [
         {
           titre: "Là où le français lâche prise",
           texte:
-            "Trois points séparent nettement les deux langues, et ce sont ceux qui coûtent le plus cher.\n\nLe premier : l'espagnol garde la subordonnée là où le français passe à l'infinitif. « Je lui ai demandé de m'appeler » devient le pedí que me llamara, avec un verbe conjugué. La tournure infinitive n'est possible que si les deux sujets sont les mêmes : quiero ir, je veux partir.\n\nLe deuxième : cuando au sens du futur demande le subjonctif présent, jamais le futur. Cuando llegues, avísame. Le français met un futur — « quand tu arriveras » — et le calque produit « cuando llegarás », qui n'existe pas. La même règle vaut pour en cuanto, mientras, hasta que, después de que.\n\nLe troisième : après une négation, l'espagnol bascule au subjonctif là où le français reste souvent à l'indicatif. No creo que sea verdad. No sabía que estuvieras aquí. La négation suffit à faire entrer le doute dans la phrase, et le doute appelle le subjonctif.",
+            "Deux points séparent nettement les deux langues, et ce sont ceux qui coûtent le plus cher. (Le choix entre infinitif et subjonctif selon que le sujet change ou non — « je veux que tu viennes » contre « je veux venir » — est traité à part dans « Infinitif ou subjonctif ».)\n\nLe premier : cuando au sens du futur demande le subjonctif présent, jamais le futur. Cuando llegues, avísame. Le français met un futur — « quand tu arriveras » — et le calque produit « cuando llegarás », qui n'existe pas. La même règle vaut pour en cuanto, mientras, hasta que, después de que.\n\nLe second : après une négation, l'espagnol bascule au subjonctif là où le français reste souvent à l'indicatif. No creo que sea verdad. No sabía que estuvieras aquí. La négation suffit à faire entrer le doute dans la phrase, et le doute appelle le subjonctif.",
         },
       ],
     },
@@ -234,7 +242,8 @@ export const ESPAGNOL_AVANCE_B2: LotCartes[] = [
       {
         etranger: "Quería que vinieras ayer.",
         francais: "Je voulais que tu viennes hier.",
-        note: "La même phrase au passé fait glisser la subordonnée au subjonctif imparfait.",
+        aussiEtranger: ["Quería que vinieses ayer."],
+        note: "La même phrase au passé fait glisser la subordonnée au subjonctif imparfait. Vinieras ou vinieses : les deux sont corrects.",
       },
       {
         etranger: "Dijo que llegaría tarde.",
@@ -254,7 +263,8 @@ export const ESPAGNOL_AVANCE_B2: LotCartes[] = [
       {
         etranger: "Era posible que ya lo supiera.",
         francais: "Il était possible qu'il le sache déjà.",
-        note: "Principale à l'imparfait : la subordonnée passe au subjonctif imparfait.",
+        aussiEtranger: ["Era posible que ya lo supiese."],
+        note: "Principale à l'imparfait : la subordonnée passe au subjonctif imparfait. Supiera ou supiese : les deux sont corrects.",
       },
       {
         etranger: "Espero que hayas dormido bien.",
@@ -453,7 +463,8 @@ export const ESPAGNOL_AVANCE_B2: LotCartes[] = [
       {
         etranger: "El plazo se venció la semana pasada.",
         francais: "Le délai a expiré la semaine dernière.",
-        note: "Vencerse, arriver à échéance. Le mot du contrat et de la facture.",
+        aussiEtranger: ["El plazo venció la semana pasada."],
+        note: "Vencerse, arriver à échéance — la forme pronominale est américaine ; vencer seul (sans se) est celle qu'emploie l'Espagne. Le mot du contrat et de la facture.",
       },
       {
         etranger: "Vamos a darle seguimiento al caso.",

@@ -517,9 +517,9 @@ export const ANGLAIS_PHRASAL_COLLOCATIONS: LotCartes[] = [
         note: "Take a nap. Le verbe nap existe mais s'emploie beaucoup moins.",
       },
       {
-        etranger: "Give me a shout when you're ready.",
-        francais: "Fais-moi signe quand tu es prêt.",
-        note: "Give a shout, familier et très employé. Give a call pour le téléphone.",
+        etranger: "Give me a call when you land.",
+        francais: "Appelle-moi quand tu atterris.",
+        note: "Give a call, pour le téléphone. Give a shout est l'équivalent informel, en personne.",
       },
       {
         etranger: "We had a chat about it.",

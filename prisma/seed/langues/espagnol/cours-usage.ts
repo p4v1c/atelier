@@ -181,7 +181,7 @@ export const ESPAGNOL_COURS_USAGE: LotCartes[] = [
         {
           titre: "Les verbes qui imposent leur préposition",
           texte:
-            "Comme en français, certains verbes exigent une préposition, mais pas la même.\n\nAvec a : empezar a, aprender a, ayudar a, invitar a. Les périphrases de mouvement comme volver a, acabar de ou dejar de sont déjà vues dans « Llevar, seguir, acabar : dire la durée autrement » — on s'en tient ici à la préposition simple.\n\nAvec de : tratar de, essayer ; olvidarse de, oublier.\n\nAvec en : pensar en, penser à ; confiar en, faire confiance à ; insistir en.\n\nEt quelques-uns se passent de préposition, comme en français mais contrairement à l'anglais : buscar, chercher ; escuchar, écouter ; mirar, regarder ; esperar, attendre. On dit escucho la radio, jamais « escucho a la radio ».",
+            "Comme en français, certains verbes exigent une préposition, mais pas la même.\n\nAvec a : empezar a, aprender a, ayudar a, invitar a. Les périphrases de mouvement comme volver a, acabar de ou dejar de sont vues dans « Les périphrases avec l'infinitif » — on s'en tient ici à la préposition simple.\n\nAvec de : tratar de, essayer ; olvidarse de, oublier.\n\nAvec en : pensar en, penser à ; confiar en, faire confiance à ; insistir en.\n\nEt quelques-uns se passent de préposition, comme en français mais contrairement à l'anglais : buscar, chercher ; escuchar, écouter ; mirar, regarder ; esperar, attendre. On dit escucho la radio, jamais « escucho a la radio ».",
         },
       ],
     },

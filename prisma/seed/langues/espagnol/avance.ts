@@ -62,43 +62,33 @@ export const ESPAGNOL_AVANCE: LotCartes[] = [
   {
     slug: "es-nuances-temps",
     category: "Grammaire en contexte",
-    title: "Llevar, seguir, acabar : dire la durée autrement",
+    title: "Llevar + gérondif, et le gérondif en général",
     statement:
-      "L'espagnol dispose de périphrases que le français rend par des adverbes. Les employer change radicalement le naturel d'une phrase.",
+      "L'espagnol dit « depuis combien de temps » avec un verbe, llevar, là où le français dispose un adverbe. Les autres périphrases (acabar de, volver a, dejar de, ponerse a) sont vues dans « Les périphrases avec l'infinitif ».",
     tip: "Llevo tres años aquí vaut mieux que estoy aquí desde hace tres años — c'est la tournure que les hispanophones emploient d'abord.",
     difficulty: 3,
     niveau: "B2",
     oral: true,
     parle: true,
     cours: {
-      titre: "Les périphrases verbales",
+      titre: "Llevar, et le gérondif",
       sections: [
         {
           titre: "Dire depuis combien de temps",
           texte:
-            "Trois façons coexistent, et elles ne sont pas interchangeables en fréquence.\n\nLlevar + durée + gérondif est la plus courante et la plus naturelle : llevo tres años estudiando español. Elle n'a pas d'équivalent structurel en français, ce qui explique qu'un francophone ne la produise jamais spontanément.\n\nDesde hace + durée est correcte et proche du français : estudio español desde hace tres años. Elle sonne un peu plus scolaire.\n\nHace + durée + que + verbe est également juste : hace tres años que estudio español.\n\nLes trois disent la même chose. Savoir produire la première est ce qui fait la différence.",
+            "Trois façons coexistent, et elles ne sont pas interchangeables en fréquence.\n\nLlevar + durée + gérondif est la plus courante et la plus naturelle : llevo tres años estudiando español. Elle n'a pas d'équivalent structurel en français, ce qui explique qu'un francophone ne la produise jamais spontanément.\n\nDesde hace + durée est correcte et proche du français : estudio español desde hace tres años. Elle sonne un peu plus scolaire.\n\nHace + durée + que + verbe est également juste : hace tres años que estudio español.\n\nLes trois disent la même chose. Savoir produire la première est ce qui fait la différence.\n\nLes autres périphrases verbales (acabar de, volver a, dejar de, ponerse a, seguir + gérondif) sont enseignées dans « Les périphrases avec le gérondif » et « Les périphrases avec l'infinitif ».",
           visuels: [
             {
               type: "tableau",
-              titre: "Les périphrases les plus employées",
-              colonnes: ["Structure", "Sens", "Exemple"],
+              titre: "Trois façons de dire depuis combien de temps",
+              colonnes: ["Structure", "Exemple", "Registre"],
               lignes: [
-                ["llevar + gérondif", "depuis combien de temps", "llevo dos horas esperando"],
-                ["seguir + gérondif", "continuer à", "sigue lloviendo"],
-                ["acabar de + infinitif", "venir de", "acabo de llegar"],
-                ["volver a + infinitif", "refaire", "volvió a llamar"],
-                ["ponerse a + infinitif", "se mettre à", "se puso a llover"],
-                ["dejar de + infinitif", "arrêter de", "dejé de fumar"],
-                ["ir a + infinitif", "aller faire", "voy a salir"],
-                ["estar a punto de", "être sur le point de", "está a punto de salir"],
+                ["llevar + gérondif", "llevo dos horas esperando", "la plus naturelle, à l'oral comme à l'écrit"],
+                ["desde hace + durée", "espero desde hace dos horas", "correcte, un peu plus scolaire"],
+                ["hace + durée + que", "hace dos horas que espero", "correcte, littéraire à l'écrit"],
               ],
             },
           ],
-        },
-        {
-          titre: "Continuer, cesser, recommencer",
-          texte:
-            "Seguir et continuar suivis du gérondif disent la continuation : sigue lloviendo, il pleut toujours. Le français emploie un adverbe là où l'espagnol emploie un verbe.\n\nDejar de dit l'arrêt : dejé de fumar, j'ai arrêté de fumer. Attention à la négation, qui inverse le sens de façon surprenante : no dejes de llamarme veut dire « ne manque pas de m'appeler », donc appelle-moi.\n\nVolver a dit la répétition : volvió a llamar, il a rappelé. Le français dit « re- », l'espagnol dit volver a.\n\nPonerse a dit le début soudain : se puso a llover, il s'est mis à pleuvoir.",
         },
         {
           titre: "Le gérondif, et ce qu'il ne fait pas",
@@ -109,13 +99,9 @@ export const ESPAGNOL_AVANCE: LotCartes[] = [
     },
     cartes: [
       { etranger: "Llevo tres años estudiando español.", francais: "J'étudie l'espagnol depuis trois ans.", note: "La tournure la plus naturelle, et celle qu'un francophone ne produit jamais seul." },
-      { etranger: "Llevo dos horas esperando.", francais: "J'attends depuis deux heures.", note: "Llevar + durée + gérondif : la tournure la plus naturelle pour dire depuis combien de temps." },
-      { etranger: "Sigue lloviendo.", francais: "Il pleut toujours.", note: "Seguir + gérondif là où le français met un adverbe." },
-      { etranger: "Acabo de hablar con ella.", francais: "Je viens de lui parler.", note: "Acabar de + infinitif, venir de faire quelque chose à l'instant." },
-      { etranger: "Dejé de fumar hace un año.", francais: "J'ai arrêté de fumer il y a un an.", note: "Dejar de + infinitif, arrêter de faire quelque chose." },
-      { etranger: "No dejes de avisarme.", francais: "Ne manque pas de me prévenir.", note: "La négation de dejar de inverse le sens : cela veut dire préviens-moi." },
-      { etranger: "Se puso a llover de repente.", francais: "Il s'est mis à pleuvoir d'un coup.", note: "Ponerse a marque le début soudain." },
-      { etranger: "Está a punto de salir.", francais: "Il est sur le point de sortir.", note: "Estar a punto de + infinitif, être sur le point de." },
+      { etranger: "Llevo media hora buscando las llaves.", francais: "Je cherche mes clés depuis une demi-heure.", aussiEtranger: ["Hace media hora que busco las llaves.", "Busco las llaves desde hace media hora."], note: "Llevar + durée + gérondif : la tournure la plus naturelle pour dire depuis combien de temps. Les trois disent la même chose." },
+      { etranger: "Llevamos un mes sin salir de casa.", francais: "Cela fait un mois que nous ne sortons pas de chez nous.", note: "Llevar + durée + sin + infinitif, la forme négative de la même périphrase." },
+      { etranger: "¿Cuánto tiempo llevas viviendo aquí?", francais: "Depuis combien de temps habites-tu ici ?", note: "La question se construit avec le même verbe que la réponse." },
       { etranger: "Fumar es malo para la salud.", francais: "Fumer est mauvais pour la santé.", note: "Infinitif comme sujet, jamais le gérondif." },
       { etranger: "Antes de salir, cierra la ventana.", francais: "Avant de sortir, ferme la fenêtre.", note: "Après une préposition, l'infinitif — jamais le gérondif." },
     ],
@@ -135,14 +121,14 @@ export const ESPAGNOL_AVANCE: LotCartes[] = [
     cartes: [
       { etranger: "Según fuentes oficiales, el acuerdo está cerrado.", francais: "Selon des sources officielles, l'accord est conclu.", note: "Formule omniprésente dans la presse." },
       { etranger: "El Gobierno anunció nuevas medidas.", francais: "Le gouvernement a annoncé de nouvelles mesures.", note: "Gobierno prend une majuscule quand il désigne l'institution." },
-      { etranger: "La huelga afecta al transporte público.", francais: "La grève touche les transports publics.", note: "Afectar a : la préposition est obligatoire." },
-      { etranger: "El paro bajó dos puntos.", francais: "Le chômage a baissé de deux points.", note: "El paro en Espagne, el desempleo en Amérique latine." },
+      { etranger: "La huelga afecta al transporte público.", francais: "La grève touche les transports publics.", note: "Afectar a : la préposition est la règle en Espagne. En Amérique, on entend aussi afectar sans préposition." },
+      { etranger: "La inflación repuntó en agosto.", francais: "L'inflation a repris en août.", note: "Repuntar, repartir à la hausse après une baisse." },
       { etranger: "Según los últimos datos, el paro ha bajado.", francais: "D'après les derniers chiffres, le chômage a baissé.", note: "Datos, les données ou les chiffres ; jamais fechas, qui sont des dates." },
       { etranger: "Se prevé un aumento de precios.", francais: "Une hausse des prix est prévue.", note: "Le se impersonnel, très employé dans la presse." },
       { etranger: "El acuerdo entró en vigor el lunes.", francais: "L'accord est entré en vigueur lundi.", note: "Entrar en vigor, entrer en vigueur — sans article, comme une locution figée." },
       { etranger: "La cifra supera las previsiones.", francais: "Le chiffre dépasse les prévisions.", note: "Superar, dépasser. Las previsiones, les prévisions." },
       { etranger: "El juicio se celebrará en marzo.", francais: "Le procès se tiendra en mars.", note: "Celebrarse pour un événement qui a lieu, sans connotation festive." },
-      { etranger: "Los sindicatos convocaron una manifestación.", francais: "Les syndicats ont appelé à une manifestation.", note: "Convocar una manifestación, appeler à manifester. Le mot ne se termine pas en -tion comme en français." },
+      { etranger: "El Gobierno convocó elecciones anticipadas.", francais: "Le gouvernement a convoqué des élections anticipées.", note: "Convocar elecciones, dissoudre et convoquer des élections." },
     ],
   },
 

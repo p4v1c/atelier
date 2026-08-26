@@ -77,10 +77,9 @@ export const ESPAGNOL_AVANZADO_C2: LotCartes[] = [
         note: "Caerse un acuerdo, tomber à l'eau. A última hora, au dernier moment.",
       },
       {
-        etranger: "Las acciones se desplomaron con la noticia.",
-        francais: "L'action a chuté brutalement à cette annonce.",
-        aussi: ["Le titre s'est effondré à cette nouvelle."],
-        note: "Desplomarse, s'effondrer. Cotizar, être coté en bourse.",
+        etranger: "Las acciones cotizan a la baja desde la noticia.",
+        francais: "L'action cote en baisse depuis cette annonce.",
+        note: "Cotizar, être coté en bourse. Desplomarse dirait une chute plus brutale, un effondrement.",
       },
     ],
   },
@@ -122,10 +121,10 @@ export const ESPAGNOL_AVANZADO_C2: LotCartes[] = [
         note: "Desbordar, déborder au sens propre comme au figuré.",
       },
       {
-        etranger: "Es una decisión muy sensata.",
-        francais: "C'est une décision très raisonnable.",
-        aussi: ["C'est une décision pleine de bon sens."],
-        note: "Sensato, raisonnable ; sensible, sensible. Le couple reproduit le faux ami anglais.",
+        etranger: "Le está costando hacerse a la idea.",
+        francais: "Il a du mal à s'y faire.",
+        aussi: ["Il a du mal à l'accepter."],
+        note: "Hacerse a la idea, s'y faire — le temps de l'acceptation, distinct de asumir, plus immédiat.",
       },
       {
         etranger: "Poco a poco lo va asumiendo.",

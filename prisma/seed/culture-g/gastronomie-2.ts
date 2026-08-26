@@ -87,7 +87,7 @@ export const CG_GASTRONOMIE_2: SeedSkill[] = [
 
   notion("ga2-viandes", S, "Les viandes et la charcuterie",
     "Morceaux, maturation, transformations.",
-    "La tendreté d'une viande dépend du muscle sollicité par l'animal.",
+    "Beaucoup de charcuteries doivent leur texture ou leur forme caractéristique à un geste précis de fabrication, pas seulement à la recette.",
     2, [
     ["Pourquoi certains morceaux de bœuf sont-ils plus tendres ?", ["Ils correspondent à des muscles peu sollicités", "Ils contiennent une proportion de gras plus élevée", "Ils viennent d'animaux abattus bien plus jeunes", "Ils sont découpés avec plus de soin"], 0,
      "Le filet, peu utilisé pour le mouvement, est le plus tendre ; les muscles de l'effort exigent une cuisson longue."],
@@ -139,7 +139,7 @@ export const CG_GASTRONOMIE_2: SeedSkill[] = [
 
   notion("ga2-restauration", S, "Le monde de la restauration",
     "Types d'établissements, organisation, économie.",
-    "Le mot restaurant désignait à l'origine un bouillon reconstituant, non un lieu.",
+    "Un mot de restauration désigne rarement le même objet à un siècle d'écart : brasserie, bistrot ou restaurant en portent chacun la trace.",
     2, [
     ["D'où vient le mot restaurant ?", ["D'un bouillon réputé restaurer les forces", "Du nom d'une famille de traiteurs parisiens du XVIIe siècle", "D'un terme italien désignant la salle des repas", "D'un vieux mot désignant l'auberge de relais"], 0,
      "Le mot désignant le lieu apparaît à Paris dans la seconde moitié du XVIIIe siècle."],
@@ -191,7 +191,7 @@ export const CG_GASTRONOMIE_2: SeedSkill[] = [
 
   notion("ga2-boissons-sans-alcool", S, "Boissons sans alcool",
     "Eaux, jus, sodas, infusions.",
-    "Une eau minérale naturelle doit avoir une composition stable, contrairement à une eau de source.",
+    "Deux boissons proches sur l'étiquette peuvent différer surtout par ce qui a été ajouté après coup — eau, sucre, gaz.",
     2, [
     ["Quelle différence sépare eau minérale naturelle et eau de source ?", ["La minérale a une composition stable et des effets reconnus", "L'eau de source est bien plus pure que l'eau minérale naturelle", "L'eau minérale subit un traitement de désinfection", "L'eau de source est naturellement gazeuse, tandis que l'autre ne l'est pas"], 0,
      "Les deux proviennent de nappes protégées et ne subissent aucun traitement de désinfection."],
@@ -269,7 +269,7 @@ export const CG_GASTRONOMIE_2: SeedSkill[] = [
 
   notion("ga2-parfum", S, "Le parfum",
     "Matières, composition, industrie.",
-    "Un parfum se construit comme un accord musical, en trois étages qui s'évaporent à des vitesses différentes.",
+    "En parfumerie, une matière de synthèse n'est pas un pis-aller : elle peut sentir ce qu'aucune fleur ne sent.",
     2, [
     ["Comment se structure classiquement un parfum ?", ["En notes de tête, de cœur et de fond", "En trois concentrations d'alcool différentes", "En deux familles olfactives opposées", "En quatre accords principaux superposés"], 0,
      "Les notes de tête s'évaporent en minutes, les notes de fond persistent des heures."],
@@ -295,7 +295,7 @@ export const CG_GASTRONOMIE_2: SeedSkill[] = [
 
   notion("ga2-artisanat-art-vivre", S, "Artisanat et savoir-faire",
     "Métiers d'art, transmission, labels.",
-    "Un métier d'art associe maîtrise technique, savoir-faire manuel et création.",
+    "Beaucoup de titres et labels artisanaux protègent une durée de formation ou un contrôle, pas seulement un savoir-faire déclaré.",
     2, [
     ["Qu'est-ce qu'un métier d'art en France ?", ["Une activité de production ou de restauration associant technique et création", "Un métier artistique exercé librement, sans aucune contrainte de production", "Un artisanat traditionnel transmis de génération en génération dans une même famille", "Un métier consacré à l'entretien du patrimoine bâti"], 0,
      "Une liste officielle en recense environ deux cent quatre-vingts."],
@@ -347,7 +347,7 @@ export const CG_GASTRONOMIE_2: SeedSkill[] = [
 
   notion("ga2-fetes-traditions", S, "Fêtes et traditions culinaires françaises",
     "Repas de fête, spécialités régionales, calendrier.",
-    "Beaucoup de spécialités régionales sont des inventions récentes présentées comme séculaires.",
+    "Le calendrier des fêtes françaises mêle des strates chrétiennes, agraires et républicaines, souvent superposées sans qu'on s'en aperçoive.",
     2, [
     ["Quelle pâtisserie se consomme traditionnellement à l'Épiphanie ?", ["La galette des rois", "La bûche", "Le pain d'épices de Dijon", "Le kouglof alsacien"], 0,
      "Galette feuilletée au nord, brioche aux fruits confits au sud."],
@@ -425,7 +425,7 @@ export const CG_GASTRONOMIE_2: SeedSkill[] = [
 
   notion("ga2-cuisine-technique-froid", S, "Cuisiner sans cuisson",
     "Marinades, crus, fermentations, salaisons.",
-    "L'acide d'une marinade ne cuit pas le poisson : il en dénature les protéines.",
+    "Ce qui protège un aliment cru de la prolifération microbienne ne le protège pas forcément des parasites.",
     2, [
     ["Que fait l'acide d'un ceviche au poisson ?", ["Il dénature les protéines sans les cuire par la chaleur", "Il cuit réellement le poisson, exactement comme la chaleur", "Il le stérilise en détruisant tous les germes", "Il le conserve durablement à température ambiante"], 0,
      "L'aspect opaque ressemble à une cuisson, mais aucun risque parasitaire n'est éliminé."],
@@ -451,7 +451,7 @@ export const CG_GASTRONOMIE_2: SeedSkill[] = [
 
   notion("ga2-economie-alimentaire", S, "L'économie de l'alimentation",
     "Filières, distribution, prix.",
-    "La part de la valeur revenant à l'agriculteur a fortement diminué au cours du dernier siècle.",
+    "Dans une filière alimentaire, la valeur ajoutée et le pouvoir de négociation ne se répartissent presque jamais à égalité entre les maillons.",
     2, [
     ["Qu'est-ce qu'une filière alimentaire ?", ["L'ensemble des acteurs de la production à la consommation d'un produit", "Un circuit de distribution reliant les entrepôts aux magasins de vente", "Un secteur agricole spécialisé dans une seule production", "Une chaîne logistique organisant le transport et le stockage des marchandises"], 0,
      "Elle inclut production, transformation, distribution et parfois restauration."],
@@ -477,7 +477,7 @@ export const CG_GASTRONOMIE_2: SeedSkill[] = [
 
   notion("ga2-alimentation-durable", S, "Alimentation et environnement",
     "Empreinte, régimes, choix quotidiens.",
-    "Ce que l'on mange pèse davantage sur le climat que la façon dont on le transporte.",
+    "Deux indicateurs environnementaux d'un même aliment — son empreinte carbone et son empreinte eau — ne classent pas toujours les produits dans le même ordre.",
     2, [
     ["Quel facteur pèse le plus dans l'empreinte carbone d'un repas ?", ["La nature des aliments, notamment la part de produits animaux", "La distance parcourue par les aliments avant d'arriver dans l'assiette", "L'emballage, de loin le premier poste d'émissions", "Le mode de cuisson choisi et la durée de passage sur le feu"], 0,
      "Le transport ne représente qu'une faible part de l'empreinte de la plupart des aliments."],

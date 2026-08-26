@@ -318,9 +318,9 @@ export const BATCH_015: ContentBatch = {
       difficulty: 3,
       sentences: [
         { marked: "Cette décision va à l'encontre du règlement en vigueur.", fix: null },
-        { marked: "Il est allé à l'[encontre] de son ami à la gare.", fix: "la rencontre" },
+        { marked: "Il est allé à [l'encontre] de son ami à la gare.", fix: "la rencontre" },
         { marked: "Aucune poursuite n'a été engagée à son [rencontre].", fix: "encontre" },
-        { marked: "Elle est partie à l'[encontre] du facteur ce matin.", fix: "la rencontre" },
+        { marked: "Elle est partie à [l'encontre] du facteur ce matin.", fix: "la rencontre" },
         { marked: "Ce choix va à l'encontre de tout ce qui a été décidé.", fix: null },
       ],
     },

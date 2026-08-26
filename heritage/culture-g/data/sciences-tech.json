@@ -818,8 +818,8 @@
      "q": "Quel avantage décisif du courant alternatif a permis sa victoire sur le courant continu ?",
      "choix": [
       "Le transport à haute tension grâce aux transformateurs",
-      "Une production moins coûteuse",
-      "Une plus grande sécurité pour les usagers",
+      "Une production moins coûteuse dans les centrales existantes",
+      "Une plus grande sécurité pour les usagers finaux",
       "La possibilité de le stocker facilement"
      ],
      "bonne": 0,
@@ -830,9 +830,9 @@
      "q": "Quelle innovation des frères Wright a rendu possible le vol contrôlé de 1903 ?",
      "choix": [
       "Le pilotage sur trois axes, associant gouverne de direction et gauchissement des ailes",
-      "L'hélice à pas variable",
+      "L'hélice à pas variable réglable en vol",
       "Le moteur à réaction",
-      "Le train d'atterrissage rétractable"
+      "Le train d'atterrissage rétractable escamotable"
      ],
      "bonne": 0,
      "difficulte": 2,

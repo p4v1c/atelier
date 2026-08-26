@@ -11,9 +11,9 @@ export const CG_PHYSIQUE_CHIMIE_3: SeedSkill[] = [
     "Frottements, leviers, équilibres : la mécanique dans les objets ordinaires.",
     "Un levier ne réduit pas le travail à fournir : il en modifie la répartition.",
     2, [
-    ["Pourquoi un funambule tient-il une longue perche ?", ["Pour augmenter son moment d'inertie et se donner le temps de corriger", "Pour faire contrepoids en la penchant d'un côté", "Pour s'appuyer dessus en cas de déséquilibre", "Pour mieux viser l'horizon et stabiliser son regard"], 0,
+    ["Pourquoi un funambule tient-il une longue perche ?", ["Pour augmenter son moment d'inertie et se donner le temps de corriger", "Pour faire contrepoids en la penchant d'un côté quand il perd l'équilibre", "Pour s'appuyer dessus en cas de déséquilibre", "Pour mieux viser l'horizon et stabiliser son regard pendant la traversée"], 0,
      "Une perche longue et lourde aux extrémités ralentit la rotation du corps, ce qui laisse au funambule le temps de réagir avant de basculer."],
-    ["Pourquoi un véhicule haut se renverse-t-il plus facilement en virage qu'un véhicule bas ?", ["Son centre de gravité, plus élevé, sort plus vite du polygone de sustentation", "Ses pneus offrent moins d'adhérence au sol", "Sa masse totale est nécessairement plus grande", "Sa structure est moins rigide"], 0,
+    ["Pourquoi un véhicule haut se renverse-t-il plus facilement en virage qu'un véhicule bas ?", ["Son centre de gravité, plus élevé, sort plus vite du polygone de sustentation", "Ses pneus offrent moins d'adhérence au sol à grande vitesse", "Sa masse totale est nécessairement plus grande que celle d'un véhicule bas", "Sa structure est moins rigide"], 0,
      "Un corps reste stable tant que la verticale passant par son centre de gravité tombe à l'intérieur de sa base d'appui ; plus ce centre est haut, moins il faut d'inclinaison pour l'en faire sortir."],
     ["Qu'est-ce que le frottement statique ?", ["La résistance à la mise en mouvement d'un objet au repos", "La résistance qui s'oppose au mouvement une fois l'objet lancé", "Une force de traînée dans l'air", "Une adhérence d'origine chimique"], 0,
      "Il est généralement supérieur au frottement dynamique, d'où la difficulté à démarrer un mouvement."],

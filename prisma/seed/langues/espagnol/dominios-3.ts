@@ -121,9 +121,9 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
         note: "Derribar a alguien, le jeter à terre — c'est le verbe du cheval qui désarçonne. Una yegua, la jument ; un potro, le poulain.",
       },
       {
-        etranger: "Los pájaros anidan bajo el alero.",
-        francais: "Les oiseaux nichent sous l'avant-toit.",
-        note: "Anidar, nicher. El alero, l'avant-toit.",
+        etranger: "Una manada de lobos cruzó el valle.",
+        francais: "Une meute de loups a traversé la vallée.",
+        note: "Una manada pour les fauves et les grands mammifères ; un rebaño pour les moutons.",
       },
       {
         etranger: "Los ciervos cruzan al anochecer.",
@@ -326,9 +326,9 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
         note: "Abrirse, se confier. Le verbe pronominal suffit.",
       },
       {
-        etranger: "Vamos día a día.",
-        francais: "On prend les choses un jour après l'autre.",
-        note: "Día a día, formule de soutien devenue proverbiale.",
+        etranger: "Recibe acompañamiento psicológico desde marzo.",
+        francais: "Il bénéficie d'un accompagnement psychologique depuis mars.",
+        note: "El acompañamiento, le suivi dans la durée — plus doux que tratamiento, qui suppose un trouble déclaré.",
       },
       {
         etranger: "Todavía hay mucho estigma.",
@@ -386,9 +386,9 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
         note: "Escurrir, égoutter ; reservar, réserver. Les deux verbes des recettes.",
       },
       {
-        etranger: "Sofríe la cebolla a fuego lento.",
-        francais: "Fais revenir l'oignon à feu doux.",
-        note: "Sofreír, faire revenir doucement — ni freír (frire) ni saltear (faire sauter) : la base de presque toute la cuisine espagnole.",
+        etranger: "Deja reposar la masa media hora.",
+        francais: "Laisse reposer la pâte une demi-heure.",
+        note: "Dejar reposar, laisser reposer — une étape que beaucoup de recettes espagnoles ne pardonnent pas de sauter.",
       },
       {
         etranger: "Precalienta el horno a ciento ochenta grados.",
@@ -496,14 +496,14 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
         note: "Una ONG, féminin, se prononce lettre par lettre. Le pluriel est las ONG.",
       },
       {
-        etranger: "Es voluntario en el banco de alimentos.",
-        francais: "Il est bénévole à la banque alimentaire.",
-        note: "Un voluntario, un bénévole. El voluntariado désigne l'activité.",
+        etranger: "El voluntariado es la columna vertebral de la ONG.",
+        francais: "Le bénévolat est la colonne vertébrale de l'ONG.",
+        note: "El voluntariado désigne l'activité ; un voluntario, la personne qui la pratique.",
       },
       {
-        etranger: "Están recaudando fondos para el colegio.",
-        francais: "Ils collectent des fonds pour l'école.",
-        note: "Recaudar fondos, collecter. Una recaudación est la collecte elle-même.",
+        etranger: "La recaudación superó todas las expectativas.",
+        francais: "La collecte a dépassé toutes les attentes.",
+        note: "Una recaudación, la collecte elle-même ; recaudar fondos, le verbe.",
       },
       {
         etranger: "El programa llega a zonas rurales.",
@@ -521,9 +521,9 @@ export const ESPAGNOL_DOMINIOS_3: LotCartes[] = [
         note: "Desgravar, ouvrir droit à déduction fiscale. Le verbe est intransitif ici.",
       },
       {
-        etranger: "El patronato se reúne dos veces al año.",
-        francais: "Le conseil d'administration se réunit deux fois par an.",
-        note: "El patronato, le conseil d'une fondation. Un patrono, un administrateur.",
+        etranger: "El acompañamiento a las familias es fundamental.",
+        francais: "L'accompagnement des familles est fondamental.",
+        note: "El acompañamiento, le soutien suivi dans la durée — mot clé du travail social et associatif.",
       },
       {
         etranger: "Cuentan con el apoyo de las bases.",

@@ -3,9 +3,9 @@ import type { LotCours } from "../commun";
 
 export const COURS_GASTRONOMIE: LotCours = {
   "ga-fromages-france": [
-    ["Huit familles, une seule logique", `Un fromage ne se classe ni par sa région ni par son lait, mais par sa technique de fabrication. On distingue habituellement huit familles : pâtes fraîches, pâtes molles à croûte fleurie, pâtes molles à croûte lavée, pâtes pressées non cuites, pâtes pressées cuites, pâtes persillées, pâtes filées et fromages de chèvre, ces derniers étant rangés à part par tradition plus que par technique.
+    ["Huit familles, une seule logique", `Un fromage se classe d'abord par sa technique de fabrication, plus que par sa région ou par son lait. On distingue habituellement huit familles : pâtes fraîches, pâtes molles à croûte fleurie, pâtes molles à croûte lavée, pâtes pressées non cuites, pâtes pressées cuites, pâtes persillées, fromages de chèvre et fromages fondus, ces deux dernières catégories étant rangées à part par tradition plus que par technique. Ce découpage en huit familles est une convention pédagogique, pas une classification officielle : le ministère de l'Agriculture n'en distingue que six, et d'autres listes y ajoutent les pâtes filées à la place des fondus.
 
-Deux critères font l'essentiel du classement. La pâte est-elle pressée pour en extraire le petit-lait, et le caillé est-il chauffé au-delà de cinquante degrés ? Une pâte pressée cuite, comme le comté ou le beaufort, supporte de longs affinages et se conserve des mois ; une pâte pressée non cuite, comme le saint-nectaire ou la tomme, reste plus souple et plus courte en garde.`],
+Deux critères font l'essentiel du classement des pâtes pressées. La pâte est-elle pressée pour en extraire le petit-lait, et le caillé est-il chauffé au-delà de cinquante degrés ? Une pâte pressée cuite, comme le comté ou le beaufort, supporte de longs affinages et se conserve des mois ; une pâte pressée non cuite, comme le saint-nectaire ou la tomme, reste plus souple et plus courte en garde.`],
     ["Moisissures et croûtes", `Un fromage à pâte persillée est ensemencé d'une moisissure du genre Penicillium, qui forme les veines bleues caractéristiques. Elle a besoin d'air pour se développer : c'est pourquoi la meule est perforée d'aiguilles pendant l'affinage. Le roquefort, fabriqué au lait de brebis et affiné dans les caves naturelles de Roquefort-sur-Soulzon, en est l'exemple le plus connu ; il a été en 1925 le premier fromage français à obtenir une appellation d'origine.
 
 Un fromage à croûte lavée est frotté régulièrement à l'eau salée, parfois additionnée d'alcool ou de marc, pendant l'affinage. Ce lavage favorise une flore de surface, le ferment du rouge, qui donne à ces fromages leur couleur orangée et leur odeur puissante : munster, époisses, maroilles, livarot.`],
@@ -13,11 +13,14 @@ Un fromage à croûte lavée est frotté régulièrement à l'eau salée, parfoi
 
 L'affinage est la maturation contrôlée en cave, où température, humidité et flores font évoluer la pâte pendant des semaines ou des années. L'appellation d'origine protégée, ou AOP, est le signe européen qui lie un fromage à une aire délimitée et à un cahier des charges : toutes les étapes doivent y avoir lieu. Une réserve sanitaire enfin : les fromages au lait cru sont déconseillés aux femmes enceintes, en raison du risque de listériose, la bactérie survivant au froid.`,
       { type: "tableau", titre: "Reconnaître les familles", colonnes: ["Famille", "Ce qui la définit", "Exemples"], lignes: [
+        ["Pâte fraîche", "Non affinée, égouttée seulement", "Faisselle, brousse"],
         ["Pâte molle à croûte fleurie", "Fleur blanche de Penicillium en surface", "Camembert, brie"],
         ["Pâte molle à croûte lavée", "Croûte frottée à la saumure", "Munster, époisses"],
         ["Pâte pressée non cuite", "Caillé pressé, non chauffé", "Saint-nectaire, tomme"],
         ["Pâte pressée cuite", "Caillé chauffé au-delà de 50 °C", "Comté, beaufort"],
         ["Pâte persillée", "Ensemencée de moisissures bleues", "Roquefort, bleu d'Auvergne"],
+        ["Fromage de chèvre", "Rangé à part par tradition, toutes textures", "Crottin de Chavignol, sainte-maure"],
+        ["Fromage fondu", "Fromages fondus et remaniés à la chaleur", "Cancoillotte, fromage à tartiner"],
       ] }],
   ],
 
@@ -33,6 +36,30 @@ Le terroir désigne l'ensemble formé par un sol, un climat et le savoir-faire a
 Le vignoble européen a failli disparaître à la fin du XIXe siècle : le phylloxéra, un puceron venu d'Amérique du Nord, détruit les racines des vignes européennes à partir de 1863. La solution a été de greffer les cépages européens sur des porte-greffes américains résistants — c'est encore ainsi qu'on plante aujourd'hui. Plus récemment, la biodynamie propose une viticulture suivant un cahier des charges qui ajoute au bio des préparations spécifiques et un calendrier lunaire ; ses résultats agronomiques font débat, sa diffusion est réelle.`],
   ],
 
+  "ga-cuisine-francaise": [
+    ["La brigade et le guide", `Antonin Carême, surnommé au début du XIXe siècle le roi des cuisiniers, travaille pour Talleyrand puis pour plusieurs cours européennes et porte à son sommet l'art de la pièce montée, ces architectures comestibles servies pour impressionner. Il laisse une œuvre écrite qui pose les bases d'une cuisine savante et codifiée.
+
+Auguste Escoffier prend le relais à la fin du même siècle. Son Guide culinaire, paru en 1903, organise durablement la cuisine professionnelle : il fixe les sauces mères — béchamel, velouté, espagnole, tomate et hollandaise — dont toutes les autres dérivent par ajout ou réduction, et il invente le système de brigade, qui répartit le travail non par plat mais par poste spécialisé : saucier, poissonnier, entremétier, garde-manger, pâtissier, chacun sous l'autorité du chef. Cette organisation, empruntée à la hiérarchie militaire, permet de servir un grand nombre de couverts avec régularité.`],
+    ["De la codification à la contestation", `La nouvelle cuisine des années 1970 réagit contre l'abondance et la lourdeur des sauces classiques : cuissons courtes, sauces allégées, produits frais et présentations épurées. Paul Bocuse, Michel Guérard et les frères Troisgros en sont des figures, et les critiques Henri Gault et Christian Millau en formulent le manifeste, qui reste autant une provocation qu'un programme de cuisine.
+
+Le titre de Meilleur Ouvrier de France distingue, tous métiers manuels confondus, une excellence reconnue par concours plutôt que par classement : les candidats qui atteignent le niveau exigé sont reçus, quel que soit leur nombre, et il arrive qu'aucun ne le soit. Le col tricolore qui en résulte est un titre d'État, protégé par la loi contre tout usage abusif.`],
+    ["Des plats qui racontent une histoire", `Le bœuf bourguignon mijote dans le vin rouge avec des lardons ; il ne faut pas le confondre avec la carbonnade flamande, son équivalent mijoté à la bière. Le cassoulet, à base de haricots blancs et de viandes de porc et de volaille, est revendiqué à la fois par Castelnaudary, Carcassonne et Toulouse, chacune défendant sa recette comme la seule authentique. La bouillabaisse, elle, était à l'origine un plat de pêcheurs marseillais fait des poissons invendables au marché : elle est devenue, avec le temps, un plat de restaurant onéreux.
+
+Le repas gastronomique des Français est inscrit depuis 2010 au patrimoine culturel immatériel de l'humanité par l'UNESCO. Ce qui est reconnu n'est ni une liste de plats ni un ensemble de recettes, mais une pratique sociale : le choix concerté des mets, l'accord avec les vins, la mise en table et la succession codifiée des services, de l'apéritif au dessert, ainsi que la conversation qui accompagne le repas.`],
+  ],
+
+  "ga-cuisines-monde": [
+    ["Le grand échange", `La tomate, la pomme de terre et le piment sont originaires du continent américain ; leur arrivée en Europe après 1492 transforme profondément des cuisines qui les considèrent aujourd'hui comme indissociables d'elles-mêmes — l'Italie et sa tomate, l'Inde et son piment. Le mouvement s'est aussi fait en sens inverse, avec le blé, le riz ou le bétail apportés en Amérique.
+
+Au Japon, le sushi associe du riz vinaigré à du poisson cru ou à d'autres garnitures ; le sashimi, lui, désigne le poisson cru seul, sans riz. Le miso, pâte de soja fermentée, sert de base à une soupe quotidienne ; il se distingue du tofu, simple caillé de soja non fermenté, et du tempeh, un soja fermenté d'origine indonésienne. En Corée, le kimchi est un chou fermenté et épicé dont la préparation collective d'automne, le kimjang, est elle-même inscrite au patrimoine immatériel de l'UNESCO — ce qui est reconnu est le moment social, non la recette.`],
+    ["Maghreb et Inde", `Le tajine tire son nom du plat de terre cuite à couvercle conique dans lequel il cuit : la forme du couvercle renvoie la vapeur condensée vers le fond, ce qui permet une cuisson longue sans dessèchement. Le couscous, semoule de blé dur roulée à la main, est la base d'un plat emblématique du Maghreb dont le savoir-faire a été inscrit en 2020 au patrimoine immatériel de l'UNESCO conjointement par quatre pays : l'Algérie, le Maroc, la Mauritanie et la Tunisie.
+
+Le garam masala, mélange d'épices moulues variable selon les familles, est un fondement de la cuisine du nord de l'Inde. Il ne faut pas le confondre avec le curry en poudre, un mélange standardisé inventé par les Britanniques et largement absent des cuisines indiennes traditionnelles, qui composent plutôt leurs mélanges au cas par cas.`],
+    ["Ce que la science explique", `Le maïs destiné à la tortilla mexicaine subit une nixtamalisation : trempé et cuit dans une eau chaulée, il libère la vitamine B3 qu'il contient sous une forme jusque-là indisponible, et se broie plus facilement. Sans cette étape, un aliment transféré ailleurs perd une partie de ce qui le rendait nourrissant.
+
+La cuisson al dente des pâtes italiennes, qui garde une légère résistance sous la dent, ralentit la digestion de l'amidon et abaisse l'indice glycémique du plat. L'umami, enfin, est une cinquième saveur fondamentale liée au glutamate, identifiée dès 1908 par le chimiste japonais Kikunae Ikeda mais reconnue comme saveur de base par la communauté scientifique bien plus tard.`],
+  ],
+
   "ga-techniques-cuisine": [
     ["Ce qui donne le goût", `Saisir une viande ne scelle aucun jus : l'idée, popularisée au XIXe siècle, a été démentie par l'expérience. Ce que la saisie produit, c'est la réaction de Maillard, une réaction entre les sucres et les acides aminés qui se déclenche vers cent quarante degrés et engendre des centaines de composés aromatiques en même temps qu'un brunissement. C'est elle qui donne son goût à la croûte du pain, au café torréfié, à la viande grillée.
 
@@ -43,6 +70,24 @@ Blanchir un légume, c'est le plonger brièvement dans l'eau bouillante puis le 
     ["Lier, émulsionner, récupérer", `Un roux est un mélange cuit de farine et de matière grasse, servant à lier une sauce ; sa couleur, blanche, blonde ou brune, dépend du temps de cuisson et détermine son goût autant que son pouvoir épaississant.
 
 Une émulsion est la dispersion stable d'un liquide dans un autre qui ne se mélange pas à lui : l'huile dans l'eau du jaune d'œuf pour la mayonnaise, où la lécithine sert d'agent stabilisant. Monter une sauce au beurre consiste à incorporer du beurre froid en fouettant hors du feu : c'est encore une émulsion, que la chaleur ferait retomber. Déglacer, enfin, c'est verser un liquide dans une poêle chaude pour dissoudre les sucs caramélisés collés au fond — c'est là que se trouve l'essentiel des arômes développés pendant la cuisson.`],
+  ],
+
+  "ga-pain-patisserie": [
+    ["Le pain de tradition et ses règles", `Le décret du 13 septembre 1993 réserve la dénomination de pain de tradition française aux pains sans additif et n'ayant subi aucune surgélation, dont la composition se limite à la farine de blé, à l'eau, au sel et à la levure ou au levain. L'obligation de pétrir, façonner et cuire sur le lieu de vente définit, dans le même décret, une dénomination différente, le pain maison ; quant à la protection du mot boulanger, elle vient d'une loi de 1998, sans lien avec le texte de 1993.
+
+Le levain est une culture de levures et de bactéries lactiques que le boulanger entretient lui-même, obtenue en laissant simplement fermenter un mélange de farine et d'eau. Les levures y produisent le gaz qui fait lever la pâte, les bactéries l'acidité qui en développe les arômes et en améliore la conservation. La levure de boulanger, sélectionnée et vendue pure, fait lever plus vite mais n'apporte ni cette acidité ni cette complexité.
+
+Le gluten, enfin, est le réseau formé par deux protéines du blé, la gliadine et la gluténine, qui s'associent au contact de l'eau sous l'effet du pétrissage. Ce réseau élastique emprisonne le dioxyde de carbone produit par la fermentation, ce qui fait gonfler la pâte et donne à la mie son alvéolage.`],
+    ["Les grandes pâtes de la pâtisserie", `Une pâte feuilletée s'obtient par l'alternance de couches de détrempe et de beurre, multipliées par des tours successifs ; à la cuisson, la vapeur d'eau contenue dans le beurre sépare ces couches, ce qui donne le feuilletage caractéristique.
+
+Une pâte à choux suit un principe entièrement différent : elle est desséchée sur le feu puis enrichie d'œufs, et gonfle à la cuisson par la seule vapeur d'eau qu'elle contient, sans le secours d'aucun agent levant. C'est elle qui donne l'éclair, le chou à la crème ou le Paris-Brest.
+
+La crème pâtissière associe lait, jaunes d'œufs, sucre et amidon, qui l'épaissit et lui permet de bouillir sans tourner. La crème anglaise, plus fragile, ne contient pas d'amidon et ne doit jamais bouillir, sous peine de coaguler les œufs.`],
+    ["Chocolat, symboles et repères", `Le tempérage du chocolat est un cycle précis de montée et de descente en température, qui assure une cristallisation stable du beurre de cacao — une matière grasse capable de cristalliser sous six formes différentes, dont une seule donne un chocolat brillant, cassant net et résistant au blanchiment.
+
+Le Paris-Brest, pâtisserie apparue vers 1910 près de Maisons-Laffitte, doit sa forme ronde, garnie de crème pralinée, à une course cycliste reliant Paris à Brest : le gâteau évoque une roue de vélo.
+
+L'indice glycémique d'un pain mesure la vitesse à laquelle il élève la glycémie après ingestion. Un pain au levain complet, dont les fibres et l'acidité ralentissent la digestion des amidons, a un indice nettement plus bas qu'une baguette blanche à la levure.`],
   ],
 
   "ga-boissons": [
@@ -78,7 +123,7 @@ Le Label rouge français atteste au contraire une qualité gustative supérieure
 L'agroécologie va plus loin : elle cherche à s'appuyer sur les régulations naturelles des écosystèmes — auxiliaires prédateurs des ravageurs, couverts végétaux, haies — plutôt que sur des intrants. Côté distribution, une AMAP lie des consommateurs à un producteur par un engagement pris à l'avance sur toute une saison : les adhérents partagent ainsi avec lui le risque climatique, ce qui distingue le dispositif d'un simple abonnement à des paniers.`],
     ["Le cadre et le gaspillage", `La politique agricole commune est le cadre européen de soutien et de régulation de l'agriculture. Lancée en 1962 pour garantir l'autosuffisance alimentaire du continent, elle représente encore une part importante du budget de l'Union et oriente fortement les choix des exploitations.
 
-Le gaspillage se situe à des étapes très différentes selon les pays. Dans les pays à faible revenu, l'essentiel des pertes survient après la récolte, faute de stockage, de chaîne du froid et de transport ; dans les pays riches, elles se concentrent à la distribution et surtout à la consommation. En France, la loi Garot de 2016 interdit aux grandes surfaces de jeter les invendus alimentaires encore consommables et les oblige à proposer une convention de don. Encore faut-il lire les dates : la date limite de consommation engage la sécurité sanitaire, la date de durabilité minimale — à consommer de préférence avant — ne concerne que la qualité.`],
+Le gaspillage se situe à des étapes très différentes selon les pays. Dans les pays à faible revenu, l'essentiel des pertes survient après la récolte, faute de stockage, de chaîne du froid et de transport ; dans les pays riches, elles se concentrent à la distribution et surtout à la consommation. En France, la loi Garot de 2016 interdit aux grandes surfaces de jeter les invendus alimentaires encore consommables et les oblige à proposer une convention de don.`],
   ],
 
   "ga-art-table": [
@@ -139,7 +184,7 @@ L'alimentation quotidienne européenne a plus changé en cent cinquante ans qu'e
 
 La tomate a longtemps été cultivée en Europe comme plante ornementale : appartenant à la famille des solanacées, comme la belladone et la mandragore, elle était soupçonnée d'être toxique. Il a fallu près de deux siècles pour qu'elle entre dans les cuisines, d'abord en Italie et en Espagne.
 
-La pomme de terre a suivi le même parcours et fut imposée en France par Parmentier au XVIIIe siècle, à grand renfort de mise en scène — les champs gardés le jour et laissés libres la nuit pour susciter le vol, les fleurs offertes au roi. Elle a transformé l'alimentation européenne : bon rendement, culture possible sur des sols médiocres, récolte échelonnée, et surtout une plante qui reste en terre à l'abri des armées de passage, quand les greniers étaient pillés.
+La pomme de terre a suivi le même parcours et fut imposée en France par Parmentier au XVIIIe siècle, à grand renfort de mise en scène — dont les fleurs de pomme de terre offertes à Louis XVI le 24 août 1786. L'épisode du champ des Sablons gardé le jour et laissé libre la nuit pour susciter le vol, souvent raconté, n'est attesté par aucune source contemporaine : c'est une légende du XIXe siècle. Elle a transformé l'alimentation européenne : bon rendement, culture possible sur des sols médiocres, récolte échelonnée, et surtout une plante qui reste en terre à l'abri des armées de passage, quand les greniers étaient pillés.
 
 Le sucre, produit colonial longtemps réservé à la pharmacie et aux tables princières, devient une denrée de masse au XIXe siècle avec le développement du sucre de betterave et l'industrialisation. Sa consommation par habitant a été multipliée par plusieurs dizaines en deux siècles.`],
     ["Transporter, conserver, refroidir", `Le chemin de fer et la conserve transforment le commerce alimentaire au XIXe siècle. Le premier permet d'acheminer en quelques heures des denrées périssables vers les villes — le lait, les légumes frais, le poisson de mer cessent d'être des produits strictement locaux. La seconde rend l'aliment indépendant de la saison et du lieu.
@@ -231,7 +276,7 @@ C'est un cas rare où une crise sanitaire a produit un dispositif durable et eff
   ],
 
   "ga2-legumes-fruits": [
-    ["Fruit ou légume ?", `Botaniquement, la tomate est un fruit : elle est l'organe issu de la fleur et contenant les graines. Il en va de même du concombre, de la courgette, de l'aubergine, du poivron et de l'avocat. Le mot « légume » n'a aucune définition botanique — c'est une catégorie culinaire, qui désigne ce qu'on sert salé.
+    ["Fruit ou légume ?", `Botaniquement, la tomate est un fruit : elle est l'organe issu de la fleur et contenant les graines. Il en va de même du concombre, de la courgette, de l'aubergine, du poivron et de l'avocat. Le mot « légume » n'a pas, en cuisine, la définition qu'il a en botanique : le botaniste appelle légume la gousse des fabacées — pois, haricot, lentille —, tandis que la cuisine range sous ce nom tout ce qu'elle sert salé.
 
 L'affaire a même occupé la Cour suprême des États-Unis en 1893 : les tomates importées étant taxées comme légumes et non comme fruits, un importateur contesta. La Cour lui donna tort, jugeant que le langage courant devait primer sur la botanique en matière douanière — décision de bon sens qui illustre que les classifications servent des usages différents.
 
@@ -324,7 +369,7 @@ Le kombucha est une boisson fermentée à base de thé sucré, obtenue grâce à
   "ga2-culture-table-monde": [
     ["Manger avec les mains", `Une part importante de l'humanité mange principalement avec les mains, notamment en Asie du Sud, au Moyen-Orient et en Afrique. Ce n'est pas une absence d'usages mais un code précis : on mange de la main droite, la gauche étant réservée à d'autres tâches ; on n'utilise que le bout des doigts ; on se lave avant et après, ce qui explique les aiguières et les bassines apportées à table.
 
-Le monde se partage grossièrement en trois aires — la main, les baguettes, les couverts —, et chacune juge volontiers les autres. Manger avec les mains est perçu comme rustre par les usagers de la fourchette, laquelle a pourtant été longtemps combattue en Europe : introduite d'Italie à la Renaissance, elle fut jugée efféminée, voire diabolique par des ecclésiastiques qui y voyaient un refus des doigts que Dieu avait donnés.
+Le monde se partage grossièrement en trois aires — la main, les baguettes, les couverts —, et chacune juge volontiers les autres. Manger avec les mains est perçu comme rustre par les usagers de la fourchette, laquelle a pourtant été longtemps combattue en Europe : connue en France dès le XIVe siècle mais réservée à quelques objets de prestige, elle ne se diffuse dans l'aristocratie qu'à la fin du XVIe siècle et ne devient l'usage courant qu'au XVIIe, après avoir été jugée efféminée, voire diabolique par des ecclésiastiques qui y voyaient un refus des doigts que Dieu avait donnés.
 
 Ce qui passe pour poli à une table peut être grossier à une autre — mais les exemples les plus circulés, comme le rot qui complimenterait le cuisinier ou l'assiette qu'il ne faudrait pas finir, sont des clichés de récit de voyage, rarement documentés par les ethnographes. Les différences réelles sont plus discrètes et plus intéressantes.`],
     ["Gestes chargés de sens", `Au Japon, on ne plante pas ses baguettes verticalement dans le riz : le geste reproduit l'offrande de riz déposée devant l'autel des défunts lors des rites funéraires. Passer un aliment de baguettes à baguettes est également proscrit pour la même raison, ce geste évoquant le transfert des ossements après la crémation. Ces interdits ne sont pas des règles d'étiquette mais des évitements funéraires — d'où la gêne réelle qu'ils provoquent.
@@ -553,7 +598,7 @@ L'empreinte eau d'un aliment est la quantité d'eau mobilisée tout au long de s
 La saisonnalité, enfin, est la période de production naturelle d'un produit sans forçage. Une tomate de serre chauffée en hiver peut avoir une empreinte supérieure à une tomate importée d'Espagne en pleine terre — la saison compte souvent davantage que la distance.`],
     ["Ne pas jeter", `Le gaspillage alimentaire domestique désigne les aliments achetés puis jetés sans avoir été consommés. Il représente en France plusieurs dizaines de kilogrammes par personne et par an, dont une part importante de produits encore emballés. Son coût climatique est double : on a produit pour rien, et le déchet organique émet en se décomposant.
 
-Les leviers domestiques sont simples et documentés : planifier ses achats et faire une liste, ce qui réduit les achats impulsifs ; comprendre les dates — la date de durabilité minimale, « à consommer de préférence avant », n'impose aucun rejet ; ranger le réfrigérateur de façon à voir ce qui doit partir ; et accommoder les restes, savoir-faire que la cuisine bourgeoise a longtemps cultivé et que l'abondance a fait perdre.
+Les leviers domestiques sont simples et documentés : planifier ses achats et faire une liste, ce qui réduit les achats impulsifs ; ranger le réfrigérateur de façon à voir ce qui doit partir ; et accommoder les restes, savoir-faire que la cuisine bourgeoise a longtemps cultivé et que l'abondance a fait perdre.
 
 À l'échelle de la filière, les pertes se situent surtout au champ, au stockage et à la distribution, avec des causes très différentes selon les pays — pertes post-récolte faute d'infrastructures dans les pays à faible revenu, gaspillage au stade de la consommation dans les pays riches.`],
     ["L'emballage", `Un emballage recyclable est un emballage effectivement pris en charge par une filière de recyclage — précision qui compte, car un matériau techniquement recyclable sans filière ni débouché ne l'est pas en pratique. Le verre, l'acier, l'aluminium et le carton se recyclent bien ; les plastiques inégalement, et les emballages multicouches presque pas.
@@ -860,44 +905,6 @@ La politique agricole commune couvre l'agriculture de l'Union européenne. Cré�
 L'enjeu majeur reste celui que la FAO formule depuis des décennies : nourrir tous les humains sans épuiser les ressources qui permettront de nourrir les suivants.`],
   ],
 
-  "ga3-restauration-metiers": [
-    ["La brigade d'Escoffier", `Auguste Escoffier a organisé la cuisine professionnelle en brigade hiérarchisée, à la fin du XIXe siècle, en s'inspirant explicitement de l'organisation militaire qu'il avait connue. Avant lui, une cuisine de grande maison était un ensemble bruyant où chacun préparait un plat de bout en bout, avec des redondances et des à-coups.
-
-La brigade répartit le travail non par plat mais par technique et par famille de préparations. Chaque chef de partie dirige un poste spécifique : le saucier prépare les sauces et souvent les plats mijotés — poste le plus prestigieux de la brigade classique ; le garde-manger s'occupe des préparations froides, des découpes et des entrées ; l'entremétier des légumes et des potages ; le poissonnier, le rôtisseur, le pâtissier tiennent leur domaine.
-
-Le gain est celui de toute division du travail : spécialisation, parallélisation, régularité. Un plat traverse plusieurs postes qui travaillent simultanément, ce qui permet de servir cent couverts en une heure. Escoffier a aussi imposé la discipline, la sobriété et le silence dans des cuisines qui en manquaient — la profession lui doit une part de sa respectabilité.`],
-    ["La salle", `Le service en salle constitue une hiérarchie parallèle, dirigée par le maître d'hôtel. Son rôle dépasse l'accueil : il organise le rang des tables, cadence l'envoi des plats en liaison avec la cuisine, gère les incidents et forme le personnel. Un service se juge autant à sa fluidité invisible qu'à sa courtoisie.
-
-Le sommelier conseille et sert les vins, construit la carte, gère la cave et les achats. Le métier suppose une connaissance des vins mais aussi des accords, du budget du client et de la carte du chef — un sommelier qui impose ses préférences échoue.
-
-Ces métiers de salle ont longtemps souffert d'un déficit de reconnaissance face à la cuisine, dont la médiatisation a fait la vedette. Le déséquilibre s'est accentué avec les émissions culinaires, qui montrent presque exclusivement les cuisines, et il pèse sur le recrutement.`],
-    ["Se former, se distinguer", `Le CAP cuisine est le diplôme professionnel de niveau initial, préparé en deux ans après la troisième ou en un an après un autre diplôme, souvent en apprentissage. Il reste la porte d'entrée principale du métier, complétée par des bacs professionnels, des brevets professionnels et des mentions complémentaires.
-
-Le concours Meilleur Ouvrier de France distingue l'excellence dans les métiers manuels, tous domaines confondus. Ce n'est pas un classement mais un examen : tous les candidats atteignant le niveau exigé sont reçus, et il arrive qu'aucun ne le soit. Le col bleu-blanc-rouge qui en résulte est protégé, et son usurpation sanctionnée.
-
-Le Bocuse d'Or, créé en 1987 par Paul Bocuse, est un concours international de cuisine organisé tous les deux ans à Lyon, après des sélections continentales. Sa singularité est d'avoir donné à la cuisine le format d'une compétition sportive — équipes nationales, entraînement de plusieurs mois, épreuve chronométrée devant un public.
-
-Le secteur connaît malgré ces attraits des tensions durables de recrutement, liées aux conditions de travail : horaires en coupure, travail le soir et le week-end, pénibilité physique, rémunérations d'entrée modestes. La crise sanitaire a accéléré des départs et obligé une partie de la profession à revoir l'organisation du travail.`],
-  ],
-
-  "ga3-histoire-repas": [
-    ["Des mots qui ont glissé", `Le nombre et l'heure des repas ont changé plusieurs fois au cours de l'histoire, et le vocabulaire en garde la trace.
-
-Le déjeuner désignait à l'origine le repas rompant le jeûne de la nuit — le mot le dit littéralement, comme l'anglais *breakfast*. Le dîner désignait quant à lui le repas du milieu de journée, et ce jusqu'au XIXe siècle en France ; le souper fermait la journée. Le glissement de tous ces repas vers des heures plus tardives, avec l'éclairage et le travail urbain, a décalé les mots d'un cran — et la Belgique, la Suisse et le Québec ont conservé l'usage ancien, ce qui explique bien des malentendus.
-
-Le nombre de repas a lui aussi varié : deux repas quotidiens étaient la norme dans une grande partie de l'Europe médiévale, le troisième s'ajoutant à mesure que la journée de travail s'allongeait et que le petit-déjeuner s'installait.`],
-    ["Manger dehors", `Le banquet grec, ou symposion, mêlait boisson, conversation et divertissement : les convives, allongés, buvaient du vin coupé d'eau selon des proportions décidées collectivement, écoutaient de la musique et discutaient. C'était une institution masculine et codifiée, dont Platon a fait le cadre d'un de ses dialogues — la sociabilité y comptait autant que la nourriture, servie plus tôt et à part.
-
-Les restaurants apparaissent à Paris à la fin du XVIIIe siècle, et la Révolution favorise leur essor en libérant les cuisiniers des grandes maisons. Le café, installé plus tôt, est devenu au XVIIIe siècle un lieu de sociabilité et de discussion intellectuelle : on y lisait les gazettes, on y débattait, et la police y plaçait des indicateurs — le Procope a vu passer Voltaire, Diderot et les révolutionnaires.
-
-Un bouillon parisien est un restaurant populaire du XIXe siècle servant une cuisine simple à bas prix, avec un service rapide et une salle immense. Né pour nourrir les ouvriers et les employés des Halles, le genre a laissé des salles Art nouveau remarquables, et connaît depuis quelques années une renaissance commerciale.`],
-    ["Le repas comme lien", `La commensalité est le fait de partager un repas, envisagé comme un lien social. Le mot dit l'essentiel : *cum mensa*, avec la table. Toutes les sociétés connues ritualisent le repas partagé, et le refus de manger avec quelqu'un est partout un signal fort.
-
-Le repas gastronomique des Français a été inscrit en 2010 au patrimoine culturel immatériel de l'humanité. Ce qui est reconnu n'est ni une cuisine ni une liste de plats, mais une pratique sociale : le choix des mets, l'accord des vins, la mise en table, la succession codifiée apéritif, entrée, plat, fromage, dessert, et la conversation qui l'accompagne. C'est le rituel qui est protégé, non la recette.
-
-L'évolution récente va pourtant dans un autre sens : une déstructuration partielle du repas au profit de prises alimentaires plus courtes, plus individuelles et plus dispersées dans la journée. La France y résiste mieux que la plupart des pays comparables — la synchronisation des repas y reste remarquable, avec un pic de population attablée à des heures très concentrées — mais le mouvement est réel, particulièrement chez les jeunes actifs urbains.`],
-  ],
-
   "ga3-terroirs-france-3": [
     ["Le Nord et l'Est", `Chaque région française revendique des produits et des plats identitaires, et l'Alsace en offre le répertoire le plus reconnaissable. La choucroute y associe le chou fermenté — technique de conservation venue d'Europe centrale — aux salaisons et pommes de terre. La tarte flambée, ou *flammekueche*, est une pâte très fine garnie de crème, d'oignons et de lardons, cuite quelques minutes dans un four à pain très chaud : elle utilisait à l'origine la chaleur résiduelle du four et servait à en tester la température.
 
@@ -913,25 +920,5 @@ La fondue savoyarde associe fromages fondus, vin blanc et pain. Sa version actue
 
 Ce que ces exemples ont en commun mérite d'être formulé : la diversité des cuisines régionales françaises s'explique par la variété des climats, des sols et des histoires locales, mais aussi par le fait que la France est restée longtemps un pays de terroirs mal reliés. Chaque bassin devait vivre de ce qu'il produisait, ce qui a figé des répertoires distincts que le chemin de fer, puis le tourisme, ont ensuite transformés en identités revendiquées.`],
     ["Le Sud-Est", `La bouillabaisse est emblématique de Marseille et de la Provence : à l'origine un plat de pêcheurs, fait des poissons invendables au marché, elle devient à la fin du XIXe siècle un plat de restaurant codifié, servi en deux temps — le bouillon safrané, puis les poissons. Rascasse, vive, congre et rouget en forment la base traditionnelle, avec le fenouil et l'écorce d'orange.`],
-  ],
-
-  "ga3-alimentation-futur": [
-    ["Le poids de l'assiette", `L'alimentation représente environ un quart des émissions mondiales de gaz à effet de serre, si l'on comptabilise l'ensemble du système : production agricole, changement d'usage des sols, transformation, transport, distribution et déchets. C'est comparable au secteur de l'énergie domestique, et davantage que l'ensemble du transport de personnes.
-
-L'élevage bovin y occupe une place particulière : la fermentation entérique de leur rumen produit du méthane, gaz à effet de serre dont le pouvoir de réchauffement à vingt ans est plusieurs dizaines de fois supérieur à celui du CO₂. Sa durée de vie atmosphérique est en revanche courte — une douzaine d'années —, ce qui a une conséquence importante : stabiliser les effectifs de ruminants stabilise leur contribution au réchauffement, quand le CO₂ s'accumule indéfiniment.
-
-Le levier qui réduit le plus l'empreinte d'une alimentation est la réduction de la part des produits animaux, en particulier de la viande de ruminant. Les autres leviers — saisonnalité, réduction du gaspillage, limitation des produits transportés par avion — comptent, mais d'un ordre de grandeur inférieur.`],
-    ["D'autres sources de protéines", `Une protéine alternative est une source de protéines destinée à remplacer tout ou partie de la viande.
-
-Les légumineuses en constituent la voie la plus immédiate et la mieux établie : riches en protéines, elles fixent en outre l'azote de l'air grâce à leurs bactéries symbiotiques, ce qui réduit les besoins en engrais et améliore le sol pour la culture suivante. Elles cumulent donc l'intérêt nutritionnel et l'intérêt agronomique, et leur consommation a fortement baissé en France au XXe siècle — le potentiel de progression est là.
-
-Les insectes comestibles d'élevage sont autorisés en Europe depuis 2021 pour quelques espèces. Leur efficacité de conversion alimentaire est excellente et leur empreinte faible, mais l'acceptabilité culturelle reste le principal obstacle en Europe, et les usages actuels portent surtout sur l'alimentation animale.
-
-La viande cultivée est produite à partir de cellules animales multipliées en bioréacteur, sans abattage. Autorisée à la vente dans quelques pays, elle reste au stade des volumes anecdotiques et des coûts très élevés ; son bilan environnemental dépendra entièrement de l'énergie utilisée pour les cultures cellulaires, point encore incertain.`],
-    ["Produire autrement, et pour tous", `L'agriculture urbaine désigne la production alimentaire en ville ou à sa périphérie : toitures, friches, fermes verticales, jardins partagés. Elle raccourcit les circuits, recrée un lien alimentaire et participe à la végétalisation, sans pouvoir couvrir les besoins d'une métropole — les surfaces disponibles sont sans commune mesure avec les surfaces agricoles nécessaires.
-
-La culture hors sol se pratique sur substrat inerte ou en solution nutritive, avec un contrôle précis de l'eau et des nutriments. Elle économise l'eau et l'espace et permet de produire hors saison, au prix d'une consommation énergétique importante si elle est chauffée et éclairée. Son bilan dépend donc entièrement du mix énergétique et de la culture concernée.
-
-La FAO définit enfin la sécurité alimentaire comme l'accès de tous, à tout moment, à une nourriture suffisante, saine et adaptée à leurs besoins et à leurs préférences culturelles, pour mener une vie active et saine. Cette définition, adoptée en 1996, mérite d'être lue en entier : elle ne parle pas seulement de calories mais aussi de qualité sanitaire, de régularité de l'accès et d'acceptabilité culturelle. C'est ce qui la rend exigeante — et c'est à cette aune, plutôt qu'au tonnage produit, que se mesure la réussite d'un système alimentaire.`],
   ],
 };

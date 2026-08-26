@@ -186,9 +186,9 @@ export const ESPAGNOL_FORMACION_PALABRAS: LotCartes[] = [
         note: "Automatizar, verbe en -izar. Le participe sert d'adjectif.",
       },
       {
-        etranger: "Es una acusación infundada.",
-        francais: "C'est une accusation sans fondement.",
-        note: "Le préfixe in- avec le participe fabrique l'adjectif privatif.",
+        etranger: "Es un argumento rebatible.",
+        francais: "C'est un argument réfutable.",
+        note: "-ble sur le radical du verbe rebatir fabrique l'adjectif de possibilité : ce qu'on peut réfuter.",
       },
       {
         etranger: "Fue extraordinariamente atenta.",
@@ -311,8 +311,8 @@ export const ESPAGNOL_FORMACION_PALABRAS: LotCartes[] = [
         note: "Pedir que + subjonctif, toujours. Le français emploie ici un infinitif.",
       },
       {
-        etranger: "Me alegro de verte.",
-        francais: "Je suis content de te voir.",
+        etranger: "Me alegro de haber venido.",
+        francais: "Je suis content d'être venu.",
         note: "Alegrarse de + infinitif quand le sujet est le même.",
       },
       {
@@ -343,17 +343,17 @@ export const ESPAGNOL_FORMACION_PALABRAS: LotCartes[] = [
     category: "Grammaire en contexte",
     title: "Les passifs de l'espagnol",
     statement:
-      "Se dice que, se vendió la casa, mandó hacer una copia. L'espagnol évite le passif en être et emploie trois autres tours à sa place.",
-    tip: "La pasiva refleja — se vendió la casa — est bien plus fréquente que fue vendida. Le passif en ser sonne traduit de l'anglais.",
+      "Fue firmado, está cerrada, quedó resuelto, mandó hacer una copia. Au-delà du se impersonnel déjà vu, l'espagnol distingue finement l'action passive, l'état qui en résulte et le faire-faire.",
+    tip: "Ser + participe dit l'action ; estar + participe et quedar + participe en disent le résultat. Le passif en ser reste rare et sonne parfois traduit de l'anglais.",
     difficulty: 3,
     niveau: "C1",
     oral: true,
     parle: true,
     cartes: [
       {
-        etranger: "Se vendieron todas las entradas.",
-        francais: "Toutes les places ont été vendues.",
-        note: "La pasiva refleja : le verbe s'accorde avec le sujet grammatical, ici pluriel.",
+        etranger: "Le hicieron firmar el contrato.",
+        francais: "On l'a fait signer le contrat.",
+        note: "Hacer + infinitif + personne : le causatif avec un agent humain explicite.",
       },
       {
         etranger: "Mandé hacer una copia.",
@@ -361,19 +361,19 @@ export const ESPAGNOL_FORMACION_PALABRAS: LotCartes[] = [
         note: "Mandar ou hacer + infinitif : faire faire. Deux verbes possibles, sens identique.",
       },
       {
-        etranger: "Se dice que se marchó anoche.",
-        francais: "On dit qu'il est parti hier soir.",
-        note: "Se dice que, la tournure impersonnelle. Personne ne s'engage nommément.",
+        etranger: "El contrato fue firmado ayer.",
+        francais: "Le contrat a été signé hier.",
+        note: "Le passif en ser insiste sur l'action elle-même — rare, mais correct à l'écrit formel.",
       },
       {
-        etranger: "Se cree que la cifra es mayor.",
-        francais: "On pense que le chiffre est plus élevé.",
-        note: "Se cree que + indicatif. Le se impersonnel évite de nommer qui croit.",
+        etranger: "La tienda está cerrada desde ayer.",
+        francais: "Le magasin est fermé depuis hier.",
+        note: "Estar + participe décrit le résultat, l'état — à ne pas confondre avec fue cerrada, qui décrirait l'action de fermer.",
       },
       {
-        etranger: "Le dieron una segunda oportunidad.",
-        francais: "On lui a donné une seconde chance.",
-        note: "La troisième personne du pluriel sans sujet vaut impersonnel : dieron, dicen.",
+        etranger: "Quedó resuelto el problema.",
+        francais: "Le problème s'est trouvé résolu.",
+        note: "Quedar + participe, autre façon d'insister sur le résultat obtenu.",
       },
       {
         etranger: "Se está reconstruyendo la casa.",

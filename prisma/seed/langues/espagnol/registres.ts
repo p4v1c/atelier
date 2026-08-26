@@ -98,31 +98,37 @@ export const ESPAGNOL_REGISTRES: LotCartes[] = [
       {
         etranger: "No tengo plata para eso.",
         francais: "Je n'ai pas d'argent pour ça.",
+        aussiEtranger: ["No tengo dinero para eso."],
         note: "Plata dans le Cône Sud et une bonne partie de l'Amérique ; lana au Mexique ; dinero partout ; pasta, familier, en Espagne.",
       },
       {
         etranger: "Pásame el celular, por favor.",
         francais: "Passe-moi le portable, s'il te plaît.",
+        aussiEtranger: ["Pásame el móvil, por favor."],
         note: "Celular en Amérique, móvil en Espagne. Deux mots sans recouvrement.",
       },
       {
         etranger: "¿Manejas tú o manejo yo?",
         francais: "C'est toi qui conduis ou c'est moi ?",
+        aussiEtranger: ["¿Conduces tú o conduzco yo?"],
         note: "Manejar en Amérique, conducir en Espagne — où manejar veut dire manipuler.",
       },
       {
         etranger: "El carro está en el taller.",
         francais: "La voiture est au garage.",
+        aussiEtranger: ["El coche está en el taller.", "El auto está en el taller."],
         note: "Carro en Amérique, coche en Espagne, auto au Chili et en Argentine.",
       },
       {
         etranger: "Me gusta el jugo de naranja.",
         francais: "J'aime le jus d'orange.",
+        aussiEtranger: ["Me gusta el zumo de naranja."],
         note: "Jugo en Amérique, zumo en Espagne. Zumo n'est presque pas compris à Mexico.",
       },
       {
         etranger: "Vamos a la pileta esta tarde.",
         francais: "On va à la piscine cet après-midi.",
+        aussiEtranger: ["Vamos a la alberca esta tarde.", "Vamos a la piscina esta tarde."],
         note: "Pileta en Argentine, alberca au Mexique, piscina en Espagne.",
       },
       {
@@ -143,7 +149,7 @@ export const ESPAGNOL_REGISTRES: LotCartes[] = [
     category: "Expressions",
     title: "Les connecteurs de l'oral",
     statement:
-      "O sea, es que, a ver, en plan, total que. Des mots vides de sens qui organisent toute la conversation espagnole — et dont l'absence fait parler comme un livre.",
+      "O sea, es que, a ver, en plan, vamos que. Des mots vides de sens qui organisent toute la conversation espagnole — et dont l'absence fait parler comme un livre.",
     tip: "Aucun de ces mots ne se traduit vraiment. Ils s'apprennent en bloc, dans une phrase entière, comme des formules.",
     difficulty: 2,
     niveau: "B1",
@@ -178,19 +184,20 @@ export const ESPAGNOL_REGISTRES: LotCartes[] = [
       },
       {
         etranger: "Vamos, que no vale la pena.",
-        francais: "Bref, ça n'en vaut pas la peine.",
+        francais: "En somme, ça n'en vaut pas la peine.",
         note: "Vamos que résume et conclut. Rien à voir avec le verbe aller.",
       },
       {
         etranger: "De todas formas, ya veremos.",
         francais: "De toute façon, on verra bien.",
         aussi: ["Quoi qu'il en soit, on verra bien."],
+        aussiEtranger: ["De todas maneras, ya veremos.", "De todos modos, ya veremos."],
         note: "De todas formas, de todas maneras, de todos modos : trois variantes équivalentes.",
       },
       {
-        etranger: "Total, que al final no fuimos.",
-        francais: "Bref, finalement on n'y est pas allés.",
-        note: "Total que introduit la chute d'une histoire. Très fréquent dans un récit oral.",
+        etranger: "A fin de cuentas, no fuimos.",
+        francais: "En fin de compte, nous n'y sommes pas allés.",
+        note: "A fin de cuentas, en fin de compte — un connecteur neutre, à l'écrit comme à l'oral. Total que fait le même travail, sur un registre plus familier (déjà vu ailleurs).",
       },
       {
         etranger: "Encima llegó tarde.",

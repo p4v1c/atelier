@@ -36,8 +36,8 @@ export const DENSIFY3_PONCT2_PRO_EXPR: ContentBatch = {
       { marked: "Emporte une lampe, un duvet, des [allumettes] etc.", fix: "allumettes," },
     ]},
     { ruleSlug: "espace-apres-virgule", sentences: [
-      { marked: "Elle a [hésité] , puis a fini par accepter l'offre.", fix: "hésité," },
-      { marked: "Le vent est [tombé] , la pluie a cessé peu après.", fix: "tombé," },
+      { marked: "Elle a [hésité] puis a fini par accepter l'offre.", fix: "hésité," },
+      { marked: "Le vent est [tombé] la pluie a cessé peu après.", fix: "tombé," },
     ]},
     { ruleSlug: "apostrophe-typographique", sentences: [
       { marked: "Le coût de [l'énergie] pèse sur toutes les factures.", fix: "l’énergie" },
@@ -119,7 +119,7 @@ export const DENSIFY3_PONCT2_PRO_EXPR: ContentBatch = {
     ]},
     { ruleSlug: "anglicisme-business", sentences: [
       { marked: "Le [business] du quartier souffre depuis les travaux.", fix: "commerce" },
-      { marked: "Ils veulent développer ce [business] à l'international.", fix: "activité" },
+      { marked: "Ils veulent développer ce [business] à l'international.", fix: "commerce" },
     ]},
     { ruleSlug: "anglicisme-briefer", sentences: [
       { marked: "Merci de [briefer] les stagiaires avant leur arrivée.", fix: "informer" },
@@ -207,7 +207,7 @@ export const DENSIFY3_PONCT2_PRO_EXPR: ContentBatch = {
     ]},
     { ruleSlug: "pro-relance-facture", sentences: [
       { marked: "Votre facture [non-réglée] date du mois de février.", fix: "impayée" },
-      { marked: "Nous vous [demandons] de régulariser sous quinzaine.", fix: "invitons à" },
+      { marked: "Nous vous [demandons] de régulariser sous quinzaine.", fix: "prions" },
     ]},
     { ruleSlug: "pro-copie-destinataires", sentences: [
       { marked: "J'ai mis la direction en [cc] de ce message.", fix: "copie" },
@@ -253,7 +253,7 @@ export const DENSIFY3_PONCT2_PRO_EXPR: ContentBatch = {
     ]},
     { ruleSlug: "expr-donner-le-change", sentences: [
       { marked: "Il a donné le [changement] pendant tout l'entretien.", fix: "change" },
-      { marked: "Elle donne les [changes] avec un aplomb remarquable.", fix: "change" },
+      { marked: "Elle donne le [changes] avec un aplomb remarquable.", fix: "change" },
     ]},
     { ruleSlug: "expr-en-butte-a", sentences: [
       { marked: "L'association est en [but] à des difficultés de trésorerie.", fix: "butte" },
@@ -297,7 +297,7 @@ export const DENSIFY3_PONCT2_PRO_EXPR: ContentBatch = {
     ]},
     { ruleSlug: "expr-a-lencontre", sentences: [
       { marked: "Ce choix va à l'encontre de toutes nos habitudes.", fix: null },
-      { marked: "Il est parti à l'[encontre] de son frère à l'aéroport.", fix: "la rencontre" },
+      { marked: "Il est parti à [l'encontre] de son frère à l'aéroport.", fix: "la rencontre" },
     ]},
     { ruleSlug: "expr-de-concert", sentences: [
       { marked: "Les deux maires ont agi de [conserve] sur ce dossier.", fix: "concert" },

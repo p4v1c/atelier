@@ -59,19 +59,19 @@ export const ESPAGNOL_VOCABULARIO_SOCIEDAD: LotCartes[] = [
         note: "El estribillo, le refrain. Un compás, une mesure — pluriel compases.",
       },
       {
-        etranger: "El disco se grabó en directo.",
-        francais: "L'album a été enregistré en public.",
-        note: "En directo, en public ou en direct. En vivo se dit surtout en Amérique latine.",
+        etranger: "Esa canción me suena mucho.",
+        francais: "Cette chanson me dit quelque chose.",
+        note: "Sonar, avoir un air familier — ou, pour un instrument, résonner : suena bien la guitarra.",
       },
       {
-        etranger: "Tocaba de oído.",
-        francais: "Elle jouait à l'oreille.",
-        note: "De oído, sans partition. La partition se dit la partitura.",
+        etranger: "El grupo estrena disco la próxima semana.",
+        francais: "Le groupe sort un nouvel album la semaine prochaine.",
+        note: "Estrenar, lancer quelque chose de nouveau pour la première fois — un disque, un film, une chanson.",
       },
       {
-        etranger: "El tema llegó directo al número uno.",
-        francais: "Le morceau est entré directement premier au classement.",
-        note: "Un tema, un morceau — le mot dit aussi un sujet. Las listas, le classement.",
+        etranger: "Ensayan todos los jueves por la tarde.",
+        francais: "Ils répètent tous les jeudis après-midi.",
+        note: "Ensayar, répéter ; el ensayo, la répétition.",
       },
       {
         etranger: "Baja el volumen, por favor.",
@@ -114,6 +114,7 @@ export const ESPAGNOL_VOCABULARIO_SOCIEDAD: LotCartes[] = [
         etranger: "El guion no se sostiene.",
         francais: "Le scénario ne tient pas debout.",
         aussi: ["L'intrigue ne tient pas la route."],
+        aussiEtranger: ["El guión no se sostiene."],
         note: "El guion s'écrit sans accent depuis 2010, mais l'ancienne graphie guión reste courante.",
       },
       {
@@ -312,10 +313,9 @@ export const ESPAGNOL_VOCABULARIO_SOCIEDAD: LotCartes[] = [
         note: "Lo primero, ce qui vient en premier. La obra, le chantier.",
       },
       {
-        etranger: "Hubo una filtración grave de datos.",
-        francais: "Il y a eu une grave fuite de données.",
-        aussi: ["Il y a eu une violation de données importante."],
-        note: "Una filtración, une fuite d'information. Una fuga se dit plutôt d'un liquide ou d'un gaz.",
+        etranger: "El seguro cubrió el siniestro total del coche.",
+        francais: "L'assurance a couvert la perte totale de la voiture.",
+        note: "Un siniestro, un sinistre au sens de l'assurance ; siniestro adjectif veut dire lugubre. Les deux ne se recouvrent pas.",
       },
       {
         etranger: "El producto supone un riesgo de incendio.",

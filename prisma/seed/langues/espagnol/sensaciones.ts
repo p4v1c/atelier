@@ -120,9 +120,9 @@ export const ESPAGNOL_SENSACIONES: LotCartes[] = [
         note: "El doble de + adjectif. La mitad de dit la moitié.",
       },
       {
-        etranger: "No es lo bastante grande.",
-        francais: "Ce n'est pas assez grand.",
-        note: "Lo bastante + adjectif, assez.",
+        etranger: "No es lo bastante rápido.",
+        francais: "Ce n'est pas assez rapide.",
+        note: "Lo bastante + adjectif, assez : la construction marche avec n'importe quel adjectif.",
       },
       {
         etranger: "No estoy del todo convencido.",
@@ -253,9 +253,9 @@ export const ESPAGNOL_SENSACIONES: LotCartes[] = [
         note: "Repiquetear, tambouriner. Formé sur repicar, sonner les cloches.",
       },
       {
-        etranger: "La sala enmudeció de golpe.",
-        francais: "La salle s'est tue d'un coup.",
-        note: "Enmudecer, devenir muet. De golpe, d'un coup.",
+        etranger: "Se hizo un silencio incómodo.",
+        francais: "Un silence gênant s'est installé.",
+        note: "Hacerse un silencio, un silence tombe — la façon la plus courante de le dire.",
       },
       {
         etranger: "Los neumáticos chirriaron en el asfalto.",

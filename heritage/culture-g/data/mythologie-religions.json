@@ -331,9 +331,9 @@
    "q": "Qu'est-ce que le « Livre des morts » dans l'Égypte ancienne ?",
    "choix": [
     "Un recueil de formules pour guider le défunt dans l'au-delà",
-    "La liste officielle des pharaons défunts",
-    "Un traité de médecine sur l'embaumement",
-    "Le code des lois funéraires du royaume"
+    "La liste officielle des pharaons défunts et de leur règne",
+    "Un traité de médecine sur les techniques d'embaumement",
+    "Le code des lois funéraires du royaume d'Égypte"
    ],
    "bonne": 0,
    "difficulte": 3,
@@ -426,10 +426,10 @@
   {
    "q": "De quel dieu germanique le mot anglais « Wednesday » (mercredi) tire-t-il son nom ?",
    "choix": [
-    "Thor",
-    "Tyr",
+    "Thor, dieu du tonnerre",
+    "Tyr, dieu de la guerre",
     "Odin (Wodan)",
-    "Freyja"
+    "Freyja, déesse de l'amour"
    ],
    "bonne": 2,
    "difficulte": 3,
@@ -642,10 +642,10 @@
   {
    "q": "Dans le Timée, comment Platon nomme-t-il l'artisan divin qui organise le monde à partir de la matière ?",
    "choix": [
-    "Le Nous",
+    "Le Nous, l'intellect pur",
     "Le Démiurge",
-    "Le Logos",
-    "L'Un"
+    "Le Logos, la raison universelle",
+    "L'Un, principe suprême de Plotin"
    ],
    "bonne": 1,
    "difficulte": 3,
@@ -654,7 +654,7 @@
   {
    "q": "Que désigne la providence dans la philosophie stoïcienne ?",
    "choix": [
-    "Un destin aveugle et absurde",
+    "Un destin aveugle et absurde régnant sur le monde",
     "L'ordre rationnel et divin qui gouverne l'univers",
     "La volonté arbitraire des dieux de l'Olympe",
     "Le hasard pur régissant les événements"
@@ -666,9 +666,9 @@
   {
    "q": "Quelle est la position d'Épicure sur l'existence des dieux ?",
    "choix": [
-    "Ils n'existent pas",
+    "Ils n'existent pas du tout, ni ne se manifestent jamais",
     "Ils existent mais ne s'occupent pas des affaires humaines",
-    "Ils punissent les hommes après la mort",
+    "Ils punissent sévèrement les hommes après leur mort",
     "Ils se confondent avec la nature elle-même"
    ],
    "bonne": 1,
@@ -679,9 +679,9 @@
    "q": "Selon Aristote, qu'est-ce que le premier moteur ?",
    "choix": [
     "Une cause immobile qui meut le monde sans être mue",
-    "Le premier homme créé par les dieux",
+    "Le premier homme créé par les dieux de l'Olympe",
     "L'âme du monde selon les stoïciens",
-    "Le dieu créateur du Timée de Platon"
+    "Le dieu créateur du Timée de Platon, le Démiurge"
    ],
    "bonne": 0,
    "difficulte": 3,

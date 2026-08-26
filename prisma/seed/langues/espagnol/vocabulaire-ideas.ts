@@ -103,6 +103,7 @@ export const ESPAGNOL_VOCABULAIRE_IDEAS: LotCartes[] = [
       {
         etranger: "¿Cuánto vale este cuadro?",
         francais: "Combien vaut ce tableau ?",
+        aussiEtranger: ["¿Cuánto cuesta este cuadro?"],
         note: "¿Cuánto vale? est aussi courant que ¿cuánto cuesta? en Espagne.",
       },
       {
@@ -231,17 +232,19 @@ export const ESPAGNOL_VOCABULAIRE_IDEAS: LotCartes[] = [
       {
         etranger: "Cambia la contraseña cada tres meses.",
         francais: "Change le mot de passe tous les trois mois.",
+        aussiEtranger: ["Cambia la clave cada tres meses."],
         note: "La contraseña en Espagne ; la clave s'emploie aussi, surtout en Amérique.",
       },
       {
         etranger: "Pincha en el enlace de abajo.",
         francais: "Clique sur le lien ci-dessous.",
+        aussiEtranger: ["Haz clic en el enlace de abajo."],
         note: "Pinchar en Espagne, hacer clic partout. El enlace, le lien.",
       },
       {
         etranger: "Fue una filtración de datos grave.",
         francais: "Ce fut une grave fuite de données.",
-        note: "Una filtración, la fuite ; una brecha de seguridad, la faille.",
+        note: "Una filtración pour une fuite d'information, una fuga pour un liquide ou un gaz ; una brecha de seguridad, la faille.",
       },
       {
         etranger: "Los mensajes van cifrados de extremo a extremo.",
@@ -450,14 +453,14 @@ export const ESPAGNOL_VOCABULAIRE_IDEAS: LotCartes[] = [
     },
     cartes: [
       {
-        etranger: "Me duele mucho la espalda.",
-        francais: "J'ai très mal au dos.",
-        note: "Doler s'accorde avec la partie du corps, et l'article reste défini.",
+        etranger: "Lo llevaron a urgencias en ambulancia.",
+        francais: "On l'a emmené aux urgences en ambulance.",
+        note: "Urgencias, toujours au pluriel en Espagne ; la sala de urgencias en Amérique.",
       },
       {
-        etranger: "Tengo que pedir cita con el médico.",
-        francais: "Je dois prendre rendez-vous avec le médecin.",
-        note: "Pedir cita en Espagne, pedir hora dans certaines régions. La cita, le rendez-vous.",
+        etranger: "Pasó dos días en la UCI.",
+        francais: "Il a passé deux jours en réanimation.",
+        note: "La UCI, l'unité de soins intensifs — l'équivalent espagnol de la réanimation.",
       },
       {
         etranger: "Me recetó un jarabe para la tos.",
@@ -496,9 +499,9 @@ export const ESPAGNOL_VOCABULAIRE_IDEAS: LotCartes[] = [
         note: "Las pruebas, les examens médicaux. Et les spécialistes se forment en -ólogo.",
       },
       {
-        etranger: "No me encuentro bien hoy.",
-        francais: "Je ne me sens pas bien aujourd'hui.",
-        note: "Encontrarse pour l'état général. Sentirse fonctionne aussi : me siento débil.",
+        etranger: "Lo operaron esta mañana en el quirófano tres.",
+        francais: "On l'a opéré ce matin au bloc opératoire trois.",
+        note: "El quirófano, le bloc opératoire ; operar, opérer.",
       },
     ],
   },

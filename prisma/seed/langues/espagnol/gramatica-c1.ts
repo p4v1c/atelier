@@ -479,14 +479,14 @@ export const ESPAGNOL_GRAMATICA_C1: LotCartes[] = [
         note: "Salir adelante se dit d'un texte, d'une loi — pas du vote lui-même. Una abstención ne compte ni pour ni contre.",
       },
       {
-        etranger: "El acuerdo no es vinculante.",
-        francais: "L'accord n'a pas de valeur contraignante.",
-        note: "Vinculante, contraignant en droit. Un texte no vinculante engage la parole, pas les tribunaux.",
+        etranger: "El Gobierno lamentó las víctimas del atentado.",
+        francais: "Le gouvernement a déploré les victimes de l'attentat.",
+        note: "Lamentar, le barreau le plus faible de l'échelle : il exprime le regret sans juger.",
       },
       {
-        etranger: "La cumbre terminó sin comunicado.",
-        francais: "Le sommet s'est achevé sans communiqué.",
-        note: "Una cumbre, un sommet. L'absence de communiqué final dit le désaccord.",
+        etranger: "El comunicado condenó el golpe de Estado.",
+        francais: "Le communiqué a condamné le coup d'État.",
+        note: "Condenar, le barreau le plus fort : il juge et blâme, au-delà du simple regret.",
       },
       {
         etranger: "Pidieron la dimisión del Gobierno.",
@@ -521,8 +521,8 @@ export const ESPAGNOL_GRAMATICA_C1: LotCartes[] = [
         note: "La interacción mesure les réactions, pas l'exposition. El rediseño, la refonte graphique.",
       },
       {
-        etranger: "Perdemos usuarios en el segundo paso.",
-        francais: "Nous perdons des utilisateurs à la deuxième étape.",
+        etranger: "Perdemos usuarios en el embudo de conversión.",
+        francais: "Nous perdons des utilisateurs dans le tunnel de conversion.",
         note: "El embudo de conversión décrit ce parcours ; chaque paso a son taux d'abandon.",
       },
       {

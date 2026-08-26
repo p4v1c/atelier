@@ -250,9 +250,9 @@ export const ESPAGNOL_VOCABULAIRE_C1: LotCartes[] = [
         note: "Cabe + infinitif : la formule impersonnelle standard de l'écrit académique.",
       },
       {
-        etranger: "No creo que sea la mejor solución.",
-        francais: "Je ne crois pas que ce soit la meilleure solution.",
-        note: "La négation appelle le subjonctif. « No creo que es » s'entend comme une faute.",
+        etranger: "Cabe esbozar una primera respuesta.",
+        francais: "On peut esquisser un premier élément de réponse.",
+        note: "Esbozar, esquisser — plus léger que profundizar, approfondir.",
       },
       {
         etranger: "Estos resultados ponen de manifiesto un sesgo.",
@@ -594,9 +594,9 @@ export const ESPAGNOL_VOCABULAIRE_C1: LotCartes[] = [
     },
     cartes: [
       {
-        etranger: "Me estás tomando el pelo.",
-        francais: "Tu te moques de moi.",
-        note: "Tomar el pelo, faire marcher quelqu'un. L'image du cheveu n'a aucun rapport.",
+        etranger: "Habla por los codos.",
+        francais: "Il est bavard comme une pie.",
+        note: "Hablar por los codos, littéralement parler par les coudes : être intarissable.",
       },
       {
         etranger: "Hoy está en las nubes.",
@@ -609,9 +609,9 @@ export const ESPAGNOL_VOCABULAIRE_C1: LotCartes[] = [
         note: "L'un des rares modismes panhispaniques : il se comprend partout.",
       },
       {
-        etranger: "Metí la pata delante de todos.",
-        francais: "J'ai fait une gaffe devant tout le monde.",
-        note: "Meter la pata, faire une gaffe. Familier, mais très courant.",
+        etranger: "Le dieron calabazas otra vez.",
+        francais: "On l'a encore éconduit.",
+        note: "Dar calabazas, éconduire — à l'origine pour un prétendant refusé.",
       },
       {
         etranger: "Diste en el clavo con esa idea.",
@@ -626,6 +626,7 @@ export const ESPAGNOL_VOCABULAIRE_C1: LotCartes[] = [
       {
         etranger: "Hay que coger el toro por los cuernos.",
         francais: "Il faut prendre le taureau par les cornes.",
+        aussiEtranger: ["Hay que agarrar el toro por los cuernos."],
         note: "Image taurine, très espagnole. En Amérique, on dirait agarrar el toro.",
       },
       {

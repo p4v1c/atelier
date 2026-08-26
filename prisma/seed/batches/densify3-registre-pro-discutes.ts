@@ -136,7 +136,7 @@ export const DENSIFY3_REGISTRE_PRO: ContentBatch = {
     ]},
     { ruleSlug: "pro-svp", sentences: [
       { marked: "Merci de confirmer votre venue, [svp], avant jeudi.", fix: "s'il vous plaît" },
-      { marked: "[Svp] transmettez ce dossier au service juridique.", fix: "Veuillez" },
+      { marked: "[Svp] transmettez ce dossier au service juridique.", fix: "S'il vous plaît," },
     ]},
     { ruleSlug: "pro-asap", sentences: [
       { marked: "Il faudrait signer le contrat [ASAP], le client attend.", fix: "au plus vite" },
@@ -187,7 +187,7 @@ export const DENSIFY3_REGISTRE_PRO: ContentBatch = {
       { marked: "Madame, vous êtes [inscrits] à la session de printemps.", fix: "inscrite" },
     ]},
     { ruleSlug: "pro-au-plaisir", sentences: [
-      { marked: "Au plaisir [que] nous nous revoyions très prochainement.", fix: "de" },
+      { marked: "Au plaisir [que] nous revoir très prochainement.", fix: "de" },
       { marked: "Au plaisir [pour] vous rencontrer lors de ce colloque.", fix: "de" },
     ]},
     { ruleSlug: "pro-excuses", sentences: [
@@ -195,7 +195,7 @@ export const DENSIFY3_REGISTRE_PRO: ContentBatch = {
       { marked: "La direction [s'excuse] auprès de tous les usagers.", fix: "vous prie de l'excuser" },
     ]},
     { ruleSlug: "pro-relance-polie", sentences: [
-      { marked: "Je [relance] pour la deuxième fois ce dossier bloqué.", fix: "reviens sur" },
+      { marked: "Je [relance] ce dossier bloqué pour la deuxième fois.", fix: "reviens sur" },
       { marked: "Notre comptabilité [relance] votre service depuis mars.", fix: "sollicite" },
     ]},
     { ruleSlug: "pro-bonjour-monsieur", sentences: [

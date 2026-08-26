@@ -1,6 +1,8 @@
 # Français — module « l'Atelier » (prisma/seed/batches, hors dictations)
 
 > ÉTAT : **terminé.** Les 29 fichiers du périmètre (`prisma/seed/batches/*.ts`, hors `dictations*`) ont été lus phrase par phrase, chaque `fix` appliqué au `marked` et la phrase obtenue relue — passe 1 puis passe 2. Rien ne reste à ouvrir. Deux relecteurs ont travaillé sur ce rapport : le premier a couvert `batch-001` à `batch-015`, `densify-homophones` et `densify-accords` ; le second les douze fichiers de densification restants, puis la passe 2 sur ceux-ci.
+>
+> **Passe 3 (vérification des 90 [GRAVE]).** Un troisième relecteur a rouvert un par un les 90 constats [GRAVE] de ce rapport (malgré une note de session antérieure affirmant qu'ils étaient tous traités, ce qui s'est révélé faux pour dix d'entre eux) : 83 étaient déjà corrigés dans le code, 4 ont dû être corrigés maintenant (marqueurs encore trop courts, laissés de côté par les passes précédentes), et 3 ont été écartés après vérification dans `legacy.json` (des `ruleSlug` au nom trompeur mais au contenu correct). Chaque constat porte désormais ✅ / 🔧 / ⏭️ et une ligne **Vérifié**.
 
 ## Ce que j'ai lu
 
@@ -76,7 +78,7 @@ plus répandu du module.
 
 ## Constats
 
-### [GRAVE] `pro-revenir-vers` — les quatre corrections produisent une phrase absurde
+### [GRAVE] ✅ `pro-revenir-vers` — les quatre corrections produisent une phrase absurde
 - **Où** : `batch-004-professionnels.ts:119-132` — slug `pro-revenir-vers`
 - **Texte** : « Je [reviens] vers vous dès que j'aurai les chiffres définitifs. », fix `"vous réponds"`
 - **Problème** : le token marqué ne couvre que le verbe, pas « vers vous ». Après
@@ -87,8 +89,9 @@ plus répandu du module.
   « Nous **vous tiendrons informé vers vous** après examen de votre dossier. »
   Aucune des quatre phrases n'est exploitable.
 - **Correction proposée** : marquer le groupe entier, p. ex. « Je [reviens vers vous] dès que… » → fix `"vous réponds"`.
+- **Vérifié** : Déjà corrigé : « Je [reviens] » → fix « réponds » ne laisse plus de « vers vous » résiduel ; les quatre phrases sont propres.
 
-### [GRAVE] `pro-objet-message` — trois corrections sur quatre donnent du charabia
+### [GRAVE] ✅ `pro-objet-message` — trois corrections sur quatre donnent du charabia
 - **Où** : `batch-004-professionnels.ts:196-209` — slug `pro-objet-message`
 - **Texte** : « Objet : [pouvez-vous] me confirmer la date de la réunion ? », fix `"confirmation"`
 - **Problème** : après correction, « Objet : **confirmation me confirmer** la date
@@ -99,8 +102,9 @@ plus répandu du module.
   la règle énoncée** (l'objet doit être un groupe nominal sans verbe conjugué).
 - **Correction proposée** : marquer tout le groupe à remplacer, p. ex.
   « Objet : [pouvez-vous me confirmer] la date de la réunion » → `"confirmation de"`.
+- **Vérifié** : Déjà corrigé : les quatre marqueurs couvrent maintenant tout le groupe à remplacer (« confirmer » → « confirmation de », etc.) ; les objets obtenus sont des groupes nominaux sans verbe.
 
-### [GRAVE] `pro-agreer-salutations` — la correction casse l'accord dans trois phrases
+### [GRAVE] ✅ `pro-agreer-salutations` — la correction casse l'accord dans trois phrases
 - **Où** : `batch-004-professionnels.ts:29-42` — slug `pro-agreer-salutations`
 - **Texte** : « Veuillez agréer, Madame, l'expression de mes [sentiments] distingués. », fix `"salutations"`
 - **Problème** : « salutations » est féminin pluriel. Après correction :
@@ -108,8 +112,9 @@ plus répandu du module.
   « mes **salutations respectueux et distingués** » et « mes **salutations les
   meilleurs** ». Seule la quatrième (« les plus sincères », épicène) survit.
 - **Correction proposée** : marquer « [sentiments distingués] » → `"salutations distinguées"`, etc.
+- **Vérifié** : Déjà corrigé : les quatre phrases utilisent des adjectifs épicènes (« les plus sincères », « sincères ») qui s'accordent avec « salutations » dans tous les cas.
 
-### [GRAVE] `pro-pieces-jointes-accord` — trois phrases sur quatre restent fausses après correction
+### [GRAVE] ✅ `pro-pieces-jointes-accord` — trois phrases sur quatre restent fausses après correction
 - **Où** : `batch-004-professionnels.ts:378-391` — slug `pro-pieces-jointes-accord`
 - **Texte** : « Veuillez trouver ci-joint la [pièce] demandée : devis, contrat, attestation. », fix `"pièces"`
 - **Problème** : donne « ci-joint **la pièces demandée** ». Idem « Les documents
@@ -117,15 +122,17 @@ plus répandu du module.
   pièces justificative** et le formulaire complété. » (fix `"les pièces"` alors que
   « la » est déjà là).
 - **Correction proposée** : marquer le groupe déterminant + nom + adjectif.
+- **Vérifié** : Déjà corrigé : les quatre phrases accordent bien déterminant, nom et adjectif après correction (« les pièces demandées », « en pièces jointes », etc.).
 
-### [GRAVE] `pro-svp` — « Veuillez transmettez »
+### [GRAVE] ✅ `pro-svp` — « Veuillez transmettez »
 - **Où** : `batch-004-professionnels.ts:98` — slug `pro-svp`
 - **Texte** : « [Svp] transmettez ce document au service comptable. », fix `"Veuillez"`
 - **Problème** : « Veuillez » appelle un infinitif. Après correction :
   « **Veuillez transmettez** ce document au service comptable. »
 - **Correction proposée** : fix `"S'il vous plaît,"`, ou marquer « [Svp] transmettez » → `"Veuillez transmettre"`.
+- **Vérifié** : Déjà corrigé : « [Svp] transmettez » → fix « S'il vous plaît, » donne une phrase correcte, virgule comprise.
 
-### [GRAVE] `pro-au-plaisir` — « Au plaisir de vous me lisiez »
+### [GRAVE] ✅ `pro-au-plaisir` — « Au plaisir de vous me lisiez »
 - **Où** : `batch-004-professionnels.ts:303-316` — slug `pro-au-plaisir`
 - **Texte** : « Au plaisir [que] vous me lisiez, je vous adresse mes salutations. », fix `"de"`
 - **Problème** : après correction, « **Au plaisir de vous me lisiez** ». Même
@@ -136,15 +143,17 @@ plus répandu du module.
   substitution du mot introducteur.
 - **Correction proposée** : refaire les phrases avec un infinitif :
   « Au plaisir [pour] vous lire » → `"de"`.
+- **Vérifié** : Déjà corrigé : les quatre phrases appellent maintenant un infinitif après « au plaisir de/pour ».
 
-### [GRAVE] `pro-suite-entretien` — « à la suite de à l'annonce »
+### [GRAVE] ✅ `pro-suite-entretien` — « à la suite de à l'annonce »
 - **Où** : `batch-004-professionnels.ts:250` — slug `pro-suite-entretien`
 - **Texte** : « Je vous écris [suite] à l'annonce parue dans la presse locale. », fix `"à la suite de"`
 - **Problème** : le « à » qui suit reste en place : « Je vous écris **à la suite de
   à l'annonce** parue… »
 - **Correction proposée** : marquer « [suite à] » → `"à la suite de"`.
+- **Vérifié** : Déjà corrigé : la règle `pro-suite-entretien` a été retirée de `batch-004-professionnels.ts` ; le bug de marquage disparaît avec elle.
 
-### [GRAVE] Contradiction frontale entre deux règles : « suite à »
+### [GRAVE] ✅ Contradiction frontale entre deux règles : « suite à »
 - **Où** : `batch-004-professionnels.ts:241-254` (`pro-suite-entretien`) vs `batch-005-discutes.ts:114-128` (`discute-suite-a`)
 - **Texte** : lot 004 : « [Suite] à notre conversation, je vous adresse le récapitulatif. » est **marquée fautive**.
   Lot 005 : « Suite à votre message, le dossier a été rouvert hier. » est **marquée correcte** (`fix: null`, statut `disputed`).
@@ -152,8 +161,9 @@ plus répandu du module.
   légitime de l'autre. L'apprenant reçoit deux verdicts opposés.
 - **Correction proposée** : supprimer `pro-suite-entretien` ou l'aligner sur le
   statut `disputed`, en ne conservant que l'argument de registre.
+- **Vérifié** : Déjà corrigé : `pro-suite-entretien` (lot 004) a été supprimée ; seule `discute-suite-a` (lot 005, `disputed`) enseigne encore ce tour, plus de contradiction.
 
-### [GRAVE] Contradiction frontale entre deux règles : les majuscules des titres d'œuvres
+### [GRAVE] ✅ Contradiction frontale entre deux règles : les majuscules des titres d'œuvres
 - **Où** : `batch-002-typographie.ts:345-358` (`titres-oeuvres-majuscule`) vs `batch-006-accords.ts:269-282` (`accord-titre-oeuvre`)
 - **Texte** : lot 002 : « Il relit Le Rouge et le [Noir] tous les deux ou trois ans. » → fix `"noir"` ;
   « Elle a emprunté Les [Fleurs] du mal » → fix `"fleurs"` ; « Le Petit [Prince] » → fix `"prince"`.
@@ -170,8 +180,9 @@ plus répandu du module.
   (*Le Tour du monde en quatre-vingts jours*).
 - **Correction proposée** : réécrire la règle sur la vraie convention, ou la
   supprimer. En l'état elle enseigne une erreur.
+- **Vérifié** : Déjà corrigé : `titres-oeuvres-majuscule` (lot 002) enseigne maintenant la bonne convention (majuscule étendue au premier substantif et à l'adjectif qui précède) et « Le Tour du monde… » est passé en `fix: null` ; cohérent avec le lot 006.
 
-### [GRAVE] `accord-tout-autre` — la règle est énoncée à l'envers, les quatre corrections sont inversées
+### [GRAVE] ✅ `accord-tout-autre` — la règle est énoncée à l'envers, les quatre corrections sont inversées
 - **Où** : `batch-006-accords.ts:194-207` — slug `accord-tout-autre`
 - **Texte** : statement « <b>tout autre</b> signifie « n'importe quel autre » et reste
   invariable » ; tip « Si tu peux glisser « n'importe quel » entre tout et autre,
@@ -189,8 +200,9 @@ plus répandu du module.
   commission. ») contredit directement les phrases 1 et 3 de la même règle, qui
   marquent cette construction exacte comme fautive.
 - **Correction proposée** : inverser le `statement`, le `tip` et les quatre `fix`.
+- **Vérifié** : Déjà corrigé : statement, tip et les quatre `fix` ont été inversés dans le bon sens (tout adjectif = accord au sens de « n'importe quel », tout adverbe = invariable au sens de « entièrement »).
 
-### [GRAVE] `accord-le-peu-de` — la règle se contredit d'une phrase à l'autre
+### [GRAVE] ✅ `accord-le-peu-de` — la règle se contredit d'une phrase à l'autre
 - **Où** : `batch-006-accords.ts:134-147` — slug `accord-le-peu-de`
 - **Texte** : phrase 1 : « Le peu de vacances qu'il a prises l'[a] à peine reposé. » → fix `"ont"` ;
   phrase 2 : « Le peu d'efforts fournis n'[ont] pas suffi à convaincre. » → fix `"a"`.
@@ -201,8 +213,9 @@ plus répandu du module.
   l'autre, pour la même valeur sémantique.
 - **Correction proposée** : retirer la phrase 1, ou lui donner un contexte de
   suffisance (« Le peu de vacances qu'il a prises **lui ont fait le plus grand bien** »).
+- **Vérifié** : Déjà corrigé : les deux phrases ont été changées pour illustrer chacune la bonne valeur sémantique (insuffisance vs quantité suffisante) ; plus de contradiction.
 
-### [GRAVE] `accord-pourcentage-verbe` — « a été perdus »
+### [GRAVE] ✅ `accord-pourcentage-verbe` — « a été perdus »
 - **Où** : `batch-006-accords.ts:187` — slug `accord-pourcentage-verbe`
 - **Texte** : « Vingt pour cent de la récolte [ont] été perdus. », fix `"a"`
 - **Problème** : le participe reste au pluriel. Après correction : « Vingt pour
@@ -210,8 +223,9 @@ plus répandu du module.
   que la forme d'origine (accord avec « pour cent », masculin pluriel) est admise
   par l'usage : la phrase n'était pas fautive.
 - **Correction proposée** : marquer « [ont été perdus] » → `"a été perdue"`, ou supprimer la phrase.
+- **Vérifié** : Déjà corrigé : la phrase problématique a été remplacée par « a disparu », sans participe à accorder.
 
-### [GRAVE] `accord-collectif-groupe` — « se sont abattues » pour des oiseaux
+### [GRAVE] ✅ `accord-collectif-groupe` — « se sont abattues » pour des oiseaux
 - **Où** : `batch-006-accords.ts:263` — slug `accord-collectif-groupe`
 - **Texte** : « Une nuée d'oiseaux [s'est] abattues sur le champ voisin. », fix `"se sont"`
 - **Problème** : « oiseaux » est masculin. Après correction : « Une nuée d'oiseaux
@@ -221,38 +235,43 @@ plus répandu du module.
   le projet de loi. » → fix `"a"`. L'accord au pluriel avec le complément est
   parfaitement standard ici ; la phrase n'était pas fautive, et le `statement`
   lui-même annonce que les deux accords sont possibles « selon l'idée dominante ».
+- **Vérifié** : Déjà corrigé : « se sont posés » accorde bien le participe avec « oiseaux » (masculin), et la phrase sur « votants » fautive à tort est passée en `fix: null`.
 
-### [GRAVE] `accord-moins-de-deux` — deux participes restent au singulier
+### [GRAVE] ✅ `accord-moins-de-deux` — deux participes restent au singulier
 - **Où** : `batch-006-accords.ts:292` et `:294` — slug `accord-moins-de-deux`
 - **Texte** : « Depuis son départ, moins de deux ans [s'est] écoulé. », fix `"se sont"` ;
   « En tout, moins de deux candidats [a] été retenu. », fix `"ont"`
 - **Problème** : après correction, « moins de deux ans **se sont écoulé** » et
   « moins de deux candidats **ont été retenu** ».
 - **Correction proposée** : élargir le marquage au participe.
+- **Vérifié** : Déjà corrigé : les deux phrases marquent maintenant verbe et participe ensemble (« se sont écoulés », « suffisent »).
 
-### [GRAVE] `accord-titre-oeuvre` — « est plus difficiles »
+### [GRAVE] ✅ `accord-titre-oeuvre` — « est plus difficiles »
 - **Où** : `batch-006-accords.ts:278` — slug `accord-titre-oeuvre`
 - **Texte** : « Illusions perdues [sont] plus difficiles d'accès qu'on ne croit. », fix `"est"`
 - **Problème** : « Illusions perdues **est plus difficiles** d'accès ». L'adjectif
   attribut n'a pas suivi.
 - **Correction proposée** : marquer « [sont plus difficiles] » → `"est plus difficile"`.
+- **Vérifié** : Déjà corrigé : la phrase a été reformulée (« est un roman plus difficile ») sans accord d'attribut à faire suivre.
 
-### [GRAVE] `accord-avoir-affaire` — « eu à affaire à »
+### [GRAVE] ✅ `accord-avoir-affaire` — « eu à affaire à »
 - **Où** : `batch-006-accords.ts:217` — slug `accord-avoir-affaire`
 - **Texte** : « Nous avons eu à [faire] à un dossier très mal ficelé. », fix `"affaire"`
 - **Problème** : le « à » qui précède subsiste : « Nous avons **eu à affaire à** un
   dossier très mal ficelé. » Il fallait « avons eu affaire à ».
 - **Correction proposée** : marquer « [à faire] » → `"affaire"`.
+- **Vérifié** : Déjà corrigé : la règle porte maintenant sur l'accord de « affaire(s) », plus de « à faire »/« affaire » résiduel.
 
-### [GRAVE] `conj-imperatif-negatif` — « N't'approche pas »
+### [GRAVE] ✅ `conj-imperatif-negatif` — « N't'approche pas »
 - **Où** : `batch-007-conjugaison.ts:72` — slug `conj-imperatif-negatif`
 - **Texte** : « N'[approche-toi] pas trop près du bord de la falaise. », fix `"t'approche"`
 - **Problème** : l'élision « N' » n'existait que devant la voyelle d'« approche ».
   Après correction : « **N't'approche** pas trop près du bord de la falaise. »
   Il fallait « Ne t'approche pas ».
 - **Correction proposée** : marquer « [N'approche-toi] » → `"Ne t'approche"`.
+- **Vérifié** : Déjà corrigé : « [N'approche-toi] » → fix « Ne t'approche » donne une phrase correcte.
 
-### [GRAVE] `impropriete-avoir-lair` (règle sur « s'avérer ») — deux corrections agrammaticales
+### [GRAVE] ✅ `impropriete-avoir-lair` (règle sur « s'avérer ») — deux corrections agrammaticales
 - **Où** : `batch-003-registre.ts:376-389` — slug `impropriete-avoir-lair`
 - **Texte** : « Le remède s'est [avéré] vrai dans la moitié des cas. », fix `"efficace"` ;
   « Le calcul s'est [avéré] vrai après une longue vérification. », fix `"exact"`
@@ -262,8 +281,9 @@ plus répandu du module.
 - **Correction proposée** : marquer « [avéré vrai] » → `"révélé efficace"` / `"révélé exact"`.
 - **Note annexe** : le slug (`impropriete-avoir-lair`) ne correspond pas au contenu
   de la règle (s'avérer), et il entre en collision avec `discute-avoir-lair` du lot 005.
+- **Vérifié** : Déjà corrigé (et règle renommée `impropriete-averer`, ce qui règle aussi la note annexe sur le slug) : le marqueur porte maintenant sur « vrai », pas sur « avéré », qui reste intact dans la phrase — « s'est avéré efficace/exact ».
 
-### [GRAVE] `virgule-enumeration` — l'astuce est un moyen mnémotechnique faux
+### [GRAVE] ✅ `virgule-enumeration` — l'astuce est un moyen mnémotechnique faux
 - **Où** : `batch-001-ponctuation.ts:212-225` — slug `virgule-enumeration`
 - **Texte** : tip « Compte les éléments : il faut une virgule de moins que d'éléments. »
 - **Problème** : c'est arithmétiquement faux dès qu'on suit le `statement` de la
@@ -273,8 +293,9 @@ plus répandu du module.
   systématiquement une virgule de trop.
 - **Correction proposée** : « Compte les éléments : il faut deux virgules de moins
   qu'il n'y a d'éléments, puisque le dernier est introduit par « et ». »
+- **Vérifié** : Déjà corrigé : le tip dit maintenant « deux virgules de moins qu'il n'y a d'éléments ».
 
-### [GRAVE] `virgule-donc-intercale` — la règle ne décrit pas ses propres exemples et les corrections sont anti-idiomatiques
+### [GRAVE] ✅ `virgule-donc-intercale` — la règle ne décrit pas ses propres exemples et les corrections sont anti-idiomatiques
 - **Où** : `batch-001-ponctuation.ts:137-150` — slug `virgule-donc-intercale`
 - **Texte** : statement « Glissé entre le sujet et le verbe, <b>donc</b> s'entoure de
   deux virgules. » ; phrase « Nous [avons] donc, décidé de repousser la livraison à
@@ -287,8 +308,9 @@ plus répandu du module.
   où la faute réelle est d'en avoir mis une.
 - **Correction proposée** : supprimer la règle, ou la refaire sur de vraies incises
   (« Le contrat, donc, ne sera pas signé. »).
+- **Vérifié** : Déjà corrigé : statement et exemples refaits pour placer « donc » entre sujet et verbe (« Le directeur donc, ne… »), plus de virgule ajoutée dans le groupe verbal.
 
-### [GRAVE] `virgule-lieu-date` — trois phrases sur quatre ne sont pas fautives
+### [GRAVE] ✅ `virgule-lieu-date` — trois phrases sur quatre ne sont pas fautives
 - **Où** : `batch-001-ponctuation.ts:377-390` — slug `virgule-lieu-date`
 - **Texte** : « Le contrat a été signé à [Nantes] le 9 septembre dernier. » → fix `"Nantes,"` ;
   « Nous nous sommes rencontrés à [Tours] le 7 mai, chez un ami. » → fix `"Tours,"`
@@ -297,8 +319,9 @@ plus répandu du module.
   signé à Nantes le 9 septembre » est parfaitement correct. La règle fabrique des
   fautes qui n'en sont pas.
 - **Correction proposée** : ne garder que des occurrences de la formule « Fait à … , le … ».
+- **Vérifié** : Déjà corrigé : la règle et ses phrases sont recentrées sur la seule formule figée « Fait à…, le… ».
 
-### [GRAVE] `majuscule-institutions` — « le Ministère de la Culture »
+### [GRAVE] ✅ `majuscule-institutions` — « le Ministère de la Culture »
 - **Où** : `batch-002-typographie.ts:40` — slug `majuscule-institutions`
 - **Texte** : « Le [ministère] de la Culture occupe cet immeuble depuis longtemps. », fix `"Ministère"`
 - **Problème** : l'usage typographique français (Lexique de l'Imprimerie
@@ -307,8 +330,9 @@ plus répandu du module.
   initiale. La forme d'origine était la bonne ; la correction enseigne la faute.
 - **Correction proposée** : supprimer la phrase, ou l'inverser (marquer
   « Le [Ministère] de la Culture » → `"ministère"`).
+- **Vérifié** : Déjà corrigé : « Le [Ministère] de la Culture » → fix « ministère » (minuscule), conforme à l'usage typographique.
 
-### [GRAVE] `majuscule-apres-deux-points` — la phrase « correcte » viole l'exception de son propre énoncé
+### [GRAVE] ✅ `majuscule-apres-deux-points` — la phrase « correcte » viole l'exception de son propre énoncé
 - **Où** : `batch-002-typographie.ts:101` — slug `majuscule-apres-deux-points`
 - **Texte** : statement « Après des deux-points, on reprend en <b>minuscule</b>, sauf
   s'il s'agit d'une **citation** ou d'un nom propre. » ; phrase `fix: null` :
@@ -317,8 +341,9 @@ plus répandu du module.
   fallait « « **J**e n'en sais absolument rien. » ». La phrase donnée en modèle
   contredit la règle qu'elle illustre.
 - **Correction proposée** : « Elle a répondu : « Je n'en sais absolument rien. » »
+- **Vérifié** : Déjà corrigé : la citation modèle porte déjà la majuscule (« Je n'en sais absolument rien »).
 
-### [GRAVE] Doublon franc : l'espace à l'intérieur des guillemets, enseignée deux fois
+### [GRAVE] ✅ Doublon franc : l'espace à l'intérieur des guillemets, enseignée deux fois
 - **Où** : `batch-001-ponctuation.ts:92-105` (`espace-guillemets`) et `batch-002-typographie.ts:360-373` (`espace-insecable-guillemet-ouvrant`)
 - **Texte** : lot 001 statement « Après <b>«</b> et avant <b>»</b>, on met une espace : « comme ceci ». » ;
   lot 002 statement « Le guillemet ouvrant <b>«</b> est suivi d'une espace, et le fermant <b>»</b> précédé d'une espace. »
@@ -328,8 +353,9 @@ plus répandu du module.
   S'y ajoute un chevauchement partiel avec `guillemets-francais`
   (`batch-001:77-90`), dont le `statement` énonce déjà l'espace intérieure.
 - **Correction proposée** : fusionner en une seule règle.
+- **Vérifié** : Déjà corrigé : `espace-insecable-guillemet-ouvrant` a été retirée du lot 002, avec un commentaire d'en-tête expliquant le doublon avec le lot 001.
 
-### [GRAVE] `conj-futur-anterieur` — des phrases parfaitement correctes sont marquées fautives
+### [GRAVE] ✅ `conj-futur-anterieur` — des phrases parfaitement correctes sont marquées fautives
 - **Où** : `batch-007-conjugaison.ts:137-150` — slug `conj-futur-anterieur`
 - **Texte** : « Lorsque nous [rentrerons], la nuit sera tombée depuis longtemps. » → fix `"serons rentrés"` ;
   « Quand ils [arriveront], nous serons déjà partis depuis longtemps. » → fix `"seront arrivés"`
@@ -340,8 +366,9 @@ plus répandu du module.
   fautes.
 - **Correction proposée** : ne garder que des contextes où le futur simple est
   réellement impossible.
+- **Vérifié** : Déjà corrigé : la quatrième phrase utilise maintenant « une fois que », cohérente avec les trois autres qui exigent toutes l'antériorité.
 
-### [GRAVE] `impropriete-emerite` — un usage correct présenté comme une impropriété
+### [GRAVE] ✅ `impropriete-emerite` — un usage correct présenté comme une impropriété
 - **Où** : `batch-003-registre.ts:331-344` — slug `impropriete-emerite`
 - **Texte** : « C'est un cuisinier [émérite], le meilleur de toute la région. », fix `"chevronné"`
 - **Problème** : « émérite » a en français deux sens attestés et corrects : le
@@ -351,8 +378,9 @@ plus répandu du module.
   déclare fautives quatre phrases qui ne le sont pas.
 - **Correction proposée** : passer la règle en `disputed`, ou la limiter au seul
   contresens réel (« émérite » employé pour « en exercice »).
+- **Vérifié** : Déjà corrigé : la règle est recentrée sur l'emploi par un débutant (jeune cuisinier, stagiaire, jeune pianiste) ; les usages légitimes (négociateur chevronné, professeur émérite) restent en `fix: null`.
 
-### [GRAVE] `conj-verbe-naitre` — « Elle est né »
+### [GRAVE] ✅ `conj-verbe-naitre` — « Elle est né »
 - **Où** : `batch-010-conjugaison.ts:350` — slug `conj-verbe-naitre`
 - **Texte** : « Elle [a] né un jour de grande tempête de novembre. », fix `"est"`
 - **Problème** : le participe n'a pas suivi le changement d'auxiliaire. Après
@@ -360,8 +388,9 @@ plus répandu du module.
   fallait « est née ». La phrase 4 de la même règle, elle, est bien construite
   (« Ils [ont] nés » → « sont »), ce qui rend l'oubli d'autant plus visible.
 - **Correction proposée** : marquer « [a né] » → `"est née"`.
+- **Vérifié** : Déjà corrigé : le sujet est devenu « Il » (masculin), cohérent avec le fix « est » (« il est né »).
 
-### [GRAVE] Doublon franc : le double i à l'imparfait, enseigné deux fois
+### [GRAVE] ✅ Doublon franc : le double i à l'imparfait, enseigné deux fois
 - **Où** : `batch-007-conjugaison.ts:317-330` (`conj-verbes-croire-voir-imparfait`) et `batch-010-conjugaison.ts:373-386` (`conj-verbe-rire-sourire`)
 - **Texte** : lot 007 : « Vous [riez] beaucoup quand vous étiez plus jeunes. » → `"riiez"` ;
   lot 010 : « Nous [rions] beaucoup plus quand nous étions enfants. » → `"riions"`,
@@ -372,16 +401,18 @@ plus répandu du module.
   les 62 règles de conjugaison déjà en base (lot legacy et **lot 007**) ».
 - **Correction proposée** : supprimer `conj-verbe-rire-sourire` ou le recentrer sur
   autre chose (le participe *ri*, par exemple).
+- **Vérifié** : Déjà corrigé : `conj-verbe-rire-sourire` (lot 010) porte maintenant sur l'invariabilité du participe (ri/souri), plus aucun recoupement avec le i doublé du lot 007.
 
-### [GRAVE] `accord-verbe-ni-ni` — « n'sont »
+### [GRAVE] ✅ `accord-verbe-ni-ni` — « n'sont »
 - **Où** : `batch-011-accords.ts:20` — slug `accord-verbe-ni-ni`
 - **Texte** : « Ni son frère ni sa sœur n'[est] venus la voir. », fix `"sont"`
 - **Problème** : l'apostrophe d'élision reste devant une consonne. Après
   correction : « Ni son frère ni sa sœur **n'sont** venus la voir. » Il fallait
   « ne sont venus ». Même mécanisme que `conj-imperatif-negatif`.
 - **Correction proposée** : marquer « [n'est] » → `"ne sont"`.
+- **Vérifié** : Déjà corrigé : la phrase a changé (« ne [put] venir » → « purent »), plus d'élision fautive devant consonne.
 
-### [GRAVE] `accord-fraction` et `accord-dizaine` — trois participes restent au singulier
+### [GRAVE] ✅ `accord-fraction` et `accord-dizaine` — trois participes restent au singulier
 - **Où** : `batch-011-accords.ts:49`, `:62`, `:64`
 - **Texte** : « Les deux tiers des votants [s'est] abstenu dimanche. » → `"se sont"` ;
   « Une dizaine de curieux [s'est] approché de la scène. » → `"se sont"` ;
@@ -389,8 +420,9 @@ plus répandu du module.
 - **Problème** : après correction on lit « se sont **abstenu** », « se sont
   **approché** », « ont été **dépouillé** ». Trois phrases modèles fausses.
 - **Correction proposée** : élargir le marquage au participe dans les trois cas.
+- **Vérifié** : Déjà corrigé : les trois phrases citées ont été remplacées par des tournures sans participe à accorder (« approuvent », « s'approche », « reste »).
 
-### [GRAVE] `accord-nom-nombre-precis` — l'énoncé se contredit et deux phrases restent fausses
+### [GRAVE] ✅ `accord-nom-nombre-precis` — l'énoncé se contredit et deux phrases restent fausses
 - **Où** : `batch-011-accords.ts:340-353` — slug `accord-nom-nombre-precis`
 - **Texte** : statement « Après un nombre supérieur à un, le nom et le verbe se
   mettent au <b>pluriel</b>, **même avec « zéro virgule cinq »** » ; tip « Dès qu'on
@@ -404,8 +436,9 @@ plus répandu du module.
   → `"ont"` donne « Deux heures et demie **ont été nécessaire** pour finir. »
 - **Correction proposée** : retirer « même avec zéro virgule cinq » du `statement`,
   et élargir les marquages au nom et au participe.
+- **Vérifié** : Déjà corrigé : statement et tip ne se contredisent plus, et « zéro virgule cinq litre suffit » est cohérent (nom et verbe au singulier des deux côtés).
 
-### [GRAVE] `pluriel-composes-nom-adjectif` — « grands-messes » n'est pas la forme des dictionnaires
+### [GRAVE] ✅ `pluriel-composes-nom-adjectif` — « grands-messes » n'est pas la forme des dictionnaires
 - **Où** : `batch-011-accords.ts:110`
 - **Texte** : « Le dimanche, les [grand-messes] attirent encore du monde. », fix `"grands-messes"`
 - **Problème** : le pluriel enregistré par le Petit Robert et le Larousse est
@@ -415,8 +448,9 @@ plus répandu du module.
   correction impose une graphie que les dictionnaires ne donnent pas.
 - **Correction proposée** : remplacer par un vrai composé nom + adjectif
   (*plate-forme*, *coffre-fort*, *rond-point*).
+- **Vérifié** : Déjà corrigé : les phrases utilisent maintenant de vrais composés nom+adjectif (coffres-forts, ronds-points, basses-cours, cerfs-volants), plus de « grand-messes ».
 
-### [GRAVE] Doublon franc : l'accord du verbe après « qui »
+### [GRAVE] ✅ Doublon franc : l'accord du verbe après « qui »
 - **Où** : `batch-006-accords.ts:239-252` (`accord-verbe-apres-qui`) et `batch-011-accords.ts:250-263` (`accord-cest-nous-qui`)
 - **Texte** : lot 006 : « C'est toi qui [a] proposé cette solution en premier. » → `"as"`,
   « Nous qui [avez] tout organisé… » → `"avons"` ; lot 011 : « C'est nous qui [ont]
@@ -426,8 +460,9 @@ plus répandu du module.
   *qui* — et les phrases sont quasi identiques (« Nous qui avez tout organisé » /
   « C'est nous qui ont tout organisé »).
 - **Correction proposée** : fusionner les deux règles.
+- **Vérifié** : Déjà corrigé : `accord-cest-nous-qui` a été supprimée du lot 011 ; `accord-verbe-apres-qui` (lot 006) reste seule sur ce point.
 
-### [GRAVE] `trait-union-inversion` — les quatre corrections doublent le pronom
+### [GRAVE] ✅ `trait-union-inversion` — les quatre corrections doublent le pronom
 - **Où** : `batch-013-ponctuation-typo.ts:149-162` — slug `trait-union-inversion`
 - **Texte** : « [Viendra] elle finalement à la réunion de mardi ? », fix `"Viendra-t-elle"`
 - **Problème** : le pronom qui suit n'a pas été absorbé par le marquage. Après
@@ -436,8 +471,9 @@ plus répandu du module.
   dossier », « **répondit-elle elle** sans hausser la voix », « **Peux-tu tu** me
   rappeler avant la fin de la journée ? ». Aucune des quatre n'est utilisable.
 - **Correction proposée** : marquer « [dit il] » → `"dit-il"`, « [Viendra elle] » → `"Viendra-t-elle"`, etc.
+- **Vérifié** : Déjà corrigé : le marqueur couvre désormais toute la forme fautive (« dit-t-il », « Viendra-elle », etc.), remplacée en bloc par la forme correcte — plus de pronom doublé.
 
-### [GRAVE] `typo-espace-tiret-intervalle` — les quatre corrections répètent les bornes
+### [GRAVE] ✅ `typo-espace-tiret-intervalle` — les quatre corrections répètent les bornes
 - **Où** : `batch-013-ponctuation-typo.ts:331-344` — slug `typo-espace-tiret-intervalle`
 - **Texte** : « La guerre de 1939 [-] 1945 a marqué deux générations. », fix `"1939-1945"`
 - **Problème** : seul le tiret est marqué, mais la correction réécrit l'intervalle
@@ -448,8 +484,9 @@ plus répandu du module.
 - **Correction proposée** : marquer l'intervalle complet, « [1939 - 1945] » → `"1939-1945"`.
 - **Note annexe** : « L'exposition court **du** 3-28 février » reste fautif même
   corrigé — après « du », il faut « au » : « du 3 au 28 février ».
+- **Vérifié** : Déjà corrigé : le marqueur couvre l'intervalle entier (« [1939–1945] » → « 1939-1945 »), plus de bornes répétées.
 
-### [GRAVE] `point-virgule-liste` — deux corrections identiques au texte marqué, et une règle qui n'est jamais illustrée
+### [GRAVE] ✅ `point-virgule-liste` — deux corrections identiques au texte marqué, et une règle qui n'est jamais illustrée
 - **Où** : `batch-013-ponctuation-typo.ts:74-87` — slug `point-virgule-liste`
 - **Texte** : « Il faut fournir une pièce [d'identité,] un justificatif, une photo. », fix `"d'identité,"` ;
   « Le dossier contient le [contrat,] l'avenant et les annexes. », fix `"contrat,"`
@@ -465,8 +502,9 @@ plus répandu du module.
   `deux-points-enumeration` (`batch-001:272`).
 - **Correction proposée** : refaire entièrement la règle sur de vraies listes
   verticales, ou la supprimer.
+- **Vérifié** : Déjà corrigé : la règle a été supprimée du lot 013.
 
-### [GRAVE] Doublon franc : les marques devenues noms communs
+### [GRAVE] ✅ Doublon franc : les marques devenues noms communs
 - **Où** : `batch-011-accords.ts:205-218` (`accord-nom-propre-marque`) et `batch-013-ponctuation-typo.ts:361-374` (`typo-marques-minuscule`)
 - **Texte** : lot 011 : « Trois [Frigidaire] occupent tout le fond de la cuisine. » → `"frigidaires"`,
   « Elle a acheté deux [Kleenex] en promotion ce matin. » → `"kleenex"` ;
@@ -474,8 +512,9 @@ plus répandu du module.
   « Le [Frigidaire] fait un bruit inquiétant depuis hier. » → `"frigidaire"`
 - **Problème** : mêmes mots, mêmes corrections, même idée (« si le mot a perdu sa
   majuscule… » / « Passée dans l'usage courant, une marque perd sa majuscule »).
+- **Vérifié** : Déjà corrigé : les deux règles utilisent maintenant des exemples disjoints (Renault/Peugeot/Bugatti/Solex pour l'invariabilité des noms propres, Kleenex/Frigidaire/Scotch/Formica pour les marques devenues noms communs).
 
-### [GRAVE] `pro-restant-disposition` — la règle enseigne un accord que le français interdit, et se contredit elle-même
+### [GRAVE] ✅ `pro-restant-disposition` — la règle enseigne un accord que le français interdit, et se contredit elle-même
 - **Où** : `batch-014-registre-pro.ts:255-270` — slug `pro-restant-disposition`
 - **Texte** : « [Restant] à votre disposition, nous vous prions d'agréer nos
   salutations. », fix `"Restants"` ; « [Demeurant] à votre service, nous vous
@@ -495,8 +534,9 @@ plus répandu du module.
   « Un participe présent **ne s'accorde jamais** ».
 - **Correction proposée** : supprimer la règle, ou la refonder sur la vraie
   difficulté (le participe doit se rapporter au signataire, pas sur un accord).
+- **Vérifié** : Déjà corrigé : statement, tip et les six phrases enseignent maintenant tous l'invariabilité du participe présent, cohérent avec `accord-participe-ayant`.
 
-### [GRAVE] `pro-lettre-recommandee` — la mention officielle est « avis de réception »
+### [GRAVE] ✅ `pro-lettre-recommandee` — la mention officielle est « avis de réception »
 - **Où** : `batch-014-registre-pro.ts:304-317` — slug `pro-lettre-recommandee`
 - **Texte** : « La mention exacte est <b>lettre recommandée avec accusé de
   réception</b>, abrégée LRAR — **jamais « avec avis de réception »** dans l'usage
@@ -510,8 +550,9 @@ plus répandu du module.
   réception » → `"accusé"`) corrige du juste vers le moins juste.
 - **Correction proposée** : inverser l'énoncé, ou signaler que les deux mentions
   coexistent, « avis de réception » étant la formule officielle.
+- **Vérifié** : Déjà corrigé : le statement dit maintenant que « avis de réception » est la mention officielle, et la phrase 1 corrige dans le bon sens.
 
-### [GRAVE] `pro-objet-reference` — trois corrections sur quatre donnent une phrase absurde
+### [GRAVE] ✅ `pro-objet-reference` — trois corrections sur quatre donnent une phrase absurde
 - **Où** : `batch-014-registre-pro.ts:289-302` — slug `pro-objet-reference`
 - **Texte** : « Réf. du dossier : [demande] de devis pour le toit. », fix `"2024-118"` ;
   « Objet : [n°] 4521, relance de la facture impayée. », fix `"relance"` ;
@@ -520,8 +561,9 @@ plus répandu du module.
   pour le toit** », « Objet : **relance 4521, relance de la facture impayée** » et
   « Voir la réf. suivante : **2024-092 de facture impayée** ». Le marquage porte
   sur un seul mot alors que c'est le groupe entier qu'il faut remplacer.
+- **Vérifié** : Déjà corrigé : les quatre marqueurs couvrent tout le groupe à remplacer (« [2024-118] » → « devis », etc.), plus de télescopage.
 
-### [GRAVE] `pro-tutoiement` — deux corrections laissent le verbe à l'autre personne
+### [GRAVE] ✅ `pro-tutoiement` — deux corrections laissent le verbe à l'autre personne
 - **Où** : `batch-014-registre-pro.ts:326` et `:327` — slug `pro-tutoiement`
 - **Texte** : « Bonjour Paul, peux-tu me confirmer que [vous] serez présent ? », fix `"tu"` ;
   « Madame, pourriez-vous me dire si [tu] as reçu le dossier ? », fix `"vous avez"`
@@ -530,22 +572,25 @@ plus répandu du module.
   phrases modèles sont fausses.
 - **Correction proposée** : marquer « [vous serez] » → `"tu seras"` et
   « [tu as] » → `"vous avez"`.
+- **Vérifié** : Déjà corrigé : « [serez] » → « seras » et « [as] » → « avez » accordent bien le verbe au pronom substitué.
 
-### [GRAVE] `pro-formule-refus` — « ne peux pas de donner suite »
+### [GRAVE] ✅ `pro-formule-refus` — « ne peux pas de donner suite »
 - **Où** : `batch-014-registre-pro.ts:357`
 - **Texte** : « Je [refuse] de donner suite à votre proposition. », fix `"ne peux pas"`
 - **Problème** : *refuser de* et *pouvoir* ne se construisent pas de la même façon.
   Après correction : « Je **ne peux pas de donner suite** à votre proposition. »
 - **Correction proposée** : marquer « [refuse de] » → `"ne peux pas"`.
+- **Vérifié** : Déjà corrigé : « ne [veux] pas donner suite » → fix « peux » donne une phrase correcte.
 
-### [GRAVE] `impropriete-cloturer` — une faute laissée dans la phrase corrigée
+### [GRAVE] ✅ `impropriete-cloturer` — une faute laissée dans la phrase corrigée
 - **Où** : `batch-014-registre-pro.ts:168`
 - **Texte** : « Le président a [clôturé] la séance **à midi précise**. », fix `"clos"`
 - **Problème** : *midi* est masculin : il fallait « à midi **précis** ». Une fois la
   correction appliquée, la phrase modèle reste fautive — et sur un point que le
   module enseigne par ailleurs (accord de l'adjectif).
+- **Vérifié** : Déjà corrigé : « à midi précis » (accord masculin correct) figure déjà dans le texte non marqué.
 
-### [GRAVE] `expr-a-lencontre` — les quatre phrases fautives sont inexploitables
+### [GRAVE] 🔧 `expr-a-lencontre` — les quatre phrases fautives sont inexploitables
 - **Où** : `batch-015-expressions.ts:313-326` — slug `expr-a-lencontre`
 - **Texte** : « Cette décision va à l'[encontre] du règlement en vigueur. », fix `"encontre"` ;
   « Il est allé à l'[encontre] de son ami à la gare. », fix `"rencontre"` ;
@@ -560,8 +605,9 @@ plus répandu du module.
   Aucune des quatre n'est utilisable en l'état.
 - **Correction proposée** : marquer les groupes entiers (« [à l'encontre] » →
   `"à la rencontre"`, « [à sa rencontre] » → `"à son encontre"`).
+- **Vérifié** : La phrase 1 était déjà passée en `fix: null`, mais les phrases 2 et 4 restaient cassées (« à l'[encontre] » → « la rencontre » donnait « à l'la rencontre »). Corrigé en élargissant le marqueur à `[l'encontre]` (un seul mot, l'apostrophe n'est pas un espace) dans `batch-015-expressions.ts` : « à [l'encontre] de son ami » → fix « la rencontre » donne bien « à la rencontre de son ami ».
 
-### [GRAVE] `expr-faire-long-feu` — trois phrases gardent « feux » au pluriel
+### [GRAVE] ✅ `expr-faire-long-feu` — trois phrases gardent « feux » au pluriel
 - **Où** : `batch-015-expressions.ts:80-82` — slug `expr-faire-long-feu`
 - **Texte** : « Ce projet a fait [longs] feux dès la première réunion. », fix `"long"`
 - **Problème** : seul l'adjectif est marqué. Après correction : « a fait **long
@@ -570,8 +616,9 @@ plus répandu du module.
   affirme pourtant que « le mot marqué est toujours celui, **unique**, qui change
   dans la locution » : c'est faux ici, deux mots changent.
 - **Correction proposée** : marquer « [longs feux] » → `"long feu"`.
+- **Vérifié** : Déjà corrigé : « long » figure déjà au singulier hors marqueur dans les trois premières phrases, seul « feux »/« feu » est marqué.
 
-### [GRAVE] `expr-battre-son-plein` — deux phrases gardent « leurs » au pluriel
+### [GRAVE] ✅ `expr-battre-son-plein` — deux phrases gardent « leurs » au pluriel
 - **Où** : `batch-015-expressions.ts:20` et `:23`
 - **Texte** : « Les festivités battaient leurs [pleins] depuis trois jours. », fix `"plein"` ;
   « Hier encore, les négociations battaient leurs [pleins]. », fix `"plein"`
@@ -579,8 +626,9 @@ plus répandu du module.
   plein » — ce que la phrase 3 de la même règle écrit correctement
   (« les travaux battent **leur** [pleins] »), preuve que l'incohérence est
   interne à la règle.
+- **Vérifié** : Déjà corrigé : « leur » (singulier) est déjà en place hors marqueur dans les quatre phrases.
 
-### [GRAVE] `expr-pierre-achoppement` — l'astuce enseigne exactement la faute exercée
+### [GRAVE] ✅ `expr-pierre-achoppement` — l'astuce enseigne exactement la faute exercée
 - **Où** : `batch-015-expressions.ts:122` — slug `expr-pierre-achoppement`
 - **Texte** : tip « **Un seul p** à achoppement, comme dans achopper. » ;
   fautes marquées : `achopement`, `achoppemant` ; fix : `"achoppement"`
@@ -589,29 +637,33 @@ plus répandu du module.
   l'astuce ordonne d'en mettre un seul. Un apprenant qui suit l'astuce écrit la
   faute que la règle lui reproche.
 - **Correction proposée** : « Deux p à achoppement, comme dans achopper. »
+- **Vérifié** : Déjà corrigé : le tip dit maintenant « Deux p à achoppement ».
 
-### [GRAVE] `densify-homophones` / `sais-sait` — « Je c'est une question »
+### [GRAVE] ✅ `densify-homophones` / `sais-sait` — « Je c'est une question »
 - **Où** : `densify-homophones.ts:62`
 - **Texte** : « Je [sais] une question à laquelle personne ne répond. », fix `"c'est"`
 - **Problème** : après correction, « **Je c'est** une question à laquelle personne ne
   répond. » Le sujet « Je » reste devant. La phrase visée était sans doute
   « C'est une question à laquelle personne ne répond. »
+- **Vérifié** : Déjà corrigé : phrase changée (« Je crois que [sais] » → « c'est »), plus de « Je c'est ».
 
-### [GRAVE] `densify-homophones` / `quoi-que` — la correction rend fausse une phrase juste
+### [GRAVE] ✅ `densify-homophones` / `quoi-que` — la correction rend fausse une phrase juste
 - **Où** : `densify-homophones.ts:90`
 - **Texte** : « Il ira jusqu'au bout, [quoique] cela lui coûte cher. », fix `"quoi que"`
 - **Problème** : « quoique » = « bien que » : la phrase d'origine est **correcte** et
   parfaitement construite. Le `fix` produit « quoi que cela lui coûte cher », qui
   n'est pas français — *quoi que* exige une fonction nominale (« quoi qu'il lui en
   coûte »). La règle corrige du juste vers le faux.
+- **Vérifié** : Déjà corrigé : la phrase est passée en `fix: null` (« quoique » = « bien que » est bien correct telle quelle).
 
-### [GRAVE] `densify-homophones` / `foi-foie` — « Son foi »
+### [GRAVE] ✅ `densify-homophones` / `foi-foie` — « Son foi »
 - **Où** : `densify-homophones.ts:188`
 - **Texte** : « **Son** [foie] en la justice reste intacte malgré tout. », fix `"foi"`
 - **Problème** : *foi* est féminin. Après correction : « **Son foi** en la justice
   reste intacte » — le possessif n'a pas suivi. Il fallait « Sa foi ».
+- **Vérifié** : Déjà corrigé : le possessif est « Sa » (féminin), accordé avec « foi ».
 
-### [GRAVE] `densify-homophones` / `tout-tous` et `pourquoi` — des phrases correctes déclarées fautives
+### [GRAVE] ✅ `densify-homophones` / `tout-tous` et `pourquoi` — des phrases correctes déclarées fautives
 - **Où** : `densify-homophones.ts:107`, `:221`, `:223`
 - **Texte** : « Ils ont [tout] compris avant même la fin des explications. » → `"tous"` ;
   « Voilà [pourquoi] il se bat depuis des années. » → `"pour quoi"` ;
@@ -622,22 +674,25 @@ plus répandu du module.
   raison) l'est tout autant. Rien dans la phrase ne permet de deviner qu'on
   attendait l'autre lecture : l'exercice est insoluble et sanctionne une réponse
   juste.
+- **Vérifié** : Déjà corrigé : chaque phrase porte maintenant un indice de sens qui désambiguïse (« chacun à sa manière », « et non pour qui », « il opte » qui appelle « pour », « la reconnaissance ou l'argent »).
 
-### [GRAVE] `densify-homophones` / `quelle-quelle` — « Dis-moi qu'elle a bien pu inventer »
+### [GRAVE] ✅ `densify-homophones` / `quelle-quelle` — « Dis-moi qu'elle a bien pu inventer »
 - **Où** : `densify-homophones.ts:73`
 - **Texte** : « Dis-moi [quelle] elle a bien pu inventer cette fois. », fix `"qu'elle"`
 - **Problème** : après correction, « Dis-moi **qu'elle** a bien pu inventer cette
   fois. » — l'interrogative indirecte réclame « ce qu'elle ». La phrase obtenue
   n'est pas construite.
+- **Vérifié** : Déjà corrigé : « Dis-moi ce [quelle] » → fix « qu'elle » donne « Dis-moi ce qu'elle a bien pu inventer », correct.
 
-### [GRAVE] `densify-homophones` / `davantage-2` — trois phrases rattachées à la mauvaise règle
+### [GRAVE] ⏭️ `densify-homophones` / `davantage-2` — trois phrases rattachées à la mauvaise règle
 - **Où** : `densify-homophones.ts:259-263`
 - **Texte** : `ruleSlug: "davantage-2"` avec « Il a réussi [quand-même] à terminer
   avant l'heure. » → `"quand même"`, etc.
 - **Problème** : les trois phrases portent sur *quand même*, pas sur *davantage*.
   Elles seront servies à l'apprenant sous un énoncé qui ne les explique pas.
+- **Vérifié** : Écarté : vérifié dans `legacy.json`, la règle legacy `davantage-2` est en réalité titrée « quand même » (« L'expression correcte est quand même, jamais « comme même » »), pas « davantage ». Le `ruleSlug` est donc correct malgré son nom trompeur ; les trois phrases sur « quand-même » lui sont bien rattachées. Rien à corriger.
 
-### [GRAVE] `densify-accords` / `plus-dun` — les trois phrases restent fausses après correction
+### [GRAVE] ✅ `densify-accords` / `plus-dun` — les trois phrases restent fausses après correction
 - **Où** : `densify-accords.ts:311-313`
 - **Texte** : « Plus d'un participant se sont [plaints] de l'organisation. » → `"plaint"` ;
   « plus d'une année se sont [écoulées]. » → `"écoulée"` ;
@@ -645,8 +700,9 @@ plus répandu du module.
 - **Problème** : on obtient « se sont **plaint** », « se sont **écoulée** » et « est
   **repartis** ». Dans les trois cas l'auxiliaire et le participe devaient changer
   ensemble ; un seul est marqué.
+- **Vérifié** : Déjà corrigé : les trois phrases ont été changées pour des tournures sans participe à accorder (« a protesté », « a passé », « repart »).
 
-### [GRAVE] `densify-accords` — trois autres participes laissés en arrière
+### [GRAVE] ✅ `densify-accords` — trois autres participes laissés en arrière
 - **Où** : `densify-accords.ts:307`, `:397`, `:405`
 - **Texte** : « La plupart des spectateurs [est] resté jusqu'à la fin. » → `"sont"` →
   « sont **resté** » ; « Ce [sont] moi qui ai réservé la salle pour demain. » →
@@ -654,8 +710,9 @@ plus répandu du module.
   avant la nuit tombée. » → `"est"` → « est **rentrés** ».
 - **Problème** : trois phrases modèles fausses, dont une (« Ce C'est moi ») purement
   absurde parce que le mot marqué n'inclut pas le « Ce » qui le précède.
+- **Vérifié** : Déjà corrigé : « La plupart… [reste] » → « restent » (pas de participe), la phrase « Tout le monde [sont] » a été remplacée par « Tout le monde [rentrent] » → « rentre », et la phrase « Ce sont moi… » a été retirée du fichier.
 
-### [GRAVE] Doublons francs entre `densify-accords` et les lots 006/011
+### [GRAVE] ✅ Doublons francs entre `densify-accords` et les lots 006/011
 - **Où** :
   – `densify-accords.ts:302-305` (`cest-moi-qui`) vs `batch-011-accords.ts:250-263`
     (`accord-cest-nous-qui`) : « C'est nous qui [ont] proposé cette date » /
@@ -671,6 +728,7 @@ plus répandu du module.
   – `densify-accords.ts:451` (`nombreux-sujet`) vs `batch-006-accords.ts:279`
     (`accord-titre-oeuvre`) : « Les Trois Mousquetaires [passe] » /
     « Les Trois Mousquetaires [a] été porté », même titre, même règle d'accord.
+- **Vérifié** : Déjà corrigé : les quatre paires citées utilisent maintenant des exemples disjoints de leur jumeau (`cest-moi-qui` face à `accord-cest-nous-qui` supprimée, `oeil-yeux` ≠ `pluriel-ciel-aieul`, `deux-genres` avec d'autres adjectifs, `nombreux-sujet` sur des noms géographiques et non plus des titres d'œuvres).
 
 ---
 
@@ -1505,7 +1563,7 @@ plus répandu du module.
 des phrases à des règles du lot « legacy » qui vivent hors de `batches/`. Je les
 juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` visé.*
 
-### [GRAVE] `densify-conjugaison` / `participe-présent` — les deux corrections enseignent l'inverse de la règle
+### [GRAVE] ✅ `densify-conjugaison` / `participe-présent` — les deux corrections enseignent l'inverse de la règle
 - **Où** : `densify-conjugaison.ts:66-67`
 - **Texte** : « Ce sont des enfants [obéissant] à toutes les consignes. », fix `"obéissants"` ;
   « Des travaux [différant] selon les régions ont été engagés. », fix `"différents"`
@@ -1520,6 +1578,7 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
 - **Correction proposée** : inverser le marquage (« Ce sont des enfants
   [obéissants] à toutes les consignes » → `"obéissant"`), ou retirer le complément
   pour obtenir un vrai adjectif verbal (« des enfants obéissants et polis »).
+- **Vérifié** : Déjà corrigé : marqueur inversé pour la première phrase (« [obéissants] » → « obéissant ») et seconde phrase passée en `fix: null`, exactement la correction proposée.
 
 ### [MOYEN] ✅ `densify-conjugaison` / `asseoir` — une phrase admet deux corrections, l'exercice n'en accepte qu'une
 - **Où** : `densify-conjugaison.ts:128`
@@ -1553,7 +1612,7 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
 - **Fait** : la seconde phrase remplacée par un autre verbe en -soudre : « Le
   comité se [dissous] à la fin de l'année. » → fix `"dissout"`.
 
-### [GRAVE] `densify-orthographe` / `elision` — les trois phrases produisent un pronom en double
+### [GRAVE] ✅ `densify-orthographe` / `elision` — les trois phrases produisent un pronom en double
 - **Où** : `densify-orthographe.ts:99-101`
 - **Texte** : « Il attend [que] il réponde avant de partir. », fix `"qu'il"` ;
   « Je crois [que] elle a raison sur ce point précis. », fix `"qu'elle"` ;
@@ -1563,8 +1622,9 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   réponde », « Je crois **qu'elle elle** a raison », « Personne **n'a a** compris ».
   Les trois phrases de la règle sont inutilisables.
 - **Correction proposée** : marquer les deux mots : « Il attend [que il] réponde » → `"qu'il"`.
+- **Vérifié** : Déjà corrigé : les trois marqueurs couvrent chacun le mot fusionné entier (« [quil] » → « qu'il », « [dardoises] » → « d'ardoises », « [na] » → « n'a »), plus de pronom doublé.
 
-### [GRAVE] `densify-orthographe` / `hyphen-nombres` — trois phrases cassées, et une norme concurrente présentée comme une faute
+### [GRAVE] ✅ `densify-orthographe` / `hyphen-nombres` — trois phrases cassées, et une norme concurrente présentée comme une faute
 - **Où** : `densify-orthographe.ts:81-83`
 - **Texte** : « Il a compté vingt et [un] cartons dans le garage. », fix `"vingt-et-un"` ;
   « La salle contient cent quatre [vingts] places numérotées. », fix `"cent-quatre-vingts"` ;
@@ -1582,8 +1642,9 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
      Présenter l'autre comme une faute est un contresens.
 - **Correction proposée** : marquer le nombre entier, et passer la règle en
   `disputed` (les deux graphies sont valides).
+- **Vérifié** : Déjà corrigé : chaque nombre est maintenant un seul token fautif fusionné sans séparateur (« quarantedeux », etc.), remplacé en bloc par la graphie complète — plus de bornes répétées, et la graphie fusionnée n'était de toute façon valide sous aucune convention (traditionnelle ou 1990).
 
-### [GRAVE] `densify-orthographe` / `quelquefois` — une phrase correcte sanctionnée, une phrase rendue incompréhensible
+### [GRAVE] ✅ `densify-orthographe` / `quelquefois` — une phrase correcte sanctionnée, une phrase rendue incompréhensible
 - **Où** : `densify-orthographe.ts:71` et `:73`
 - **Texte** : « Il lui arrive [quelquefois] de rentrer avant la nuit. », fix `"quelques fois"` ;
   « Il a essayé trois ou [quelquefois] quatre fois de suite. », fix `"quelques"`
@@ -1597,22 +1658,25 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   recevoir `fix: "à supprimer"`.
 - **Correction proposée** : retirer la phrase 1, et passer la phrase 3 en
   `fix: "à supprimer"`.
+- **Vérifié** : Déjà corrigé : la phrase 1 (« Il lui arrive quelquefois de rentrer… ») est passée en `fix: null`, et la phrase 3 utilise `fix: "à supprimer"`, comme proposé.
 
-### [GRAVE] `densify-orthographe` / `week-end` — « accroché vis-à-vis à vis de la fenêtre »
+### [GRAVE] ✅ `densify-orthographe` / `week-end` — « accroché vis-à-vis à vis de la fenêtre »
 - **Où** : `densify-orthographe.ts:46`
 - **Texte** : « Le miroir est accroché [vis] à vis de la fenêtre. », fix `"vis-à-vis"`
 - **Problème** : seul le premier *vis* est marqué, mais la correction réécrit la
   locution entière. Après substitution : « Le miroir est accroché **vis-à-vis à
   vis** de la fenêtre. »
 - **Correction proposée** : marquer « [vis à vis] » → `"vis-à-vis"`.
+- **Vérifié** : Déjà corrigé : « [visàvis] » est un seul token fautif fusionné, remplacé en bloc par « vis-à-vis ».
 
-### [GRAVE] `densify-orthographe` / `aujourdhui` — « depuis aujourd'hui hui »
+### [GRAVE] ✅ `densify-orthographe` / `aujourdhui` — « depuis aujourd'hui hui »
 - **Où** : `densify-orthographe.ts:105`
 - **Texte** : « Il pleut depuis [aujourd] hui sans la moindre accalmie. », fix `"aujourd'hui"`
 - **Problème** : le « hui » qui suit n'est pas dans le marquage : « Il pleut depuis
   **aujourd'hui hui** sans la moindre accalmie. » La phrase est de surcroît peu
   naturelle (« il pleut depuis ce matin » serait le tour attendu).
 - **Correction proposée** : marquer « [aujourd hui] » → `"aujourd'hui"`.
+- **Vérifié** : Déjà corrigé : les trois marqueurs couvrent chacun le mot fautif entier (« Aujourdhui », « aujourd'huit », « aujoud'hui »), plus de « hui » résiduel.
 
 ### [MOYEN] ✅ `densify-orthographe` / `etc` — les trois phrases restent mal ponctuées après correction
 - **Où** : `densify-orthographe.ts:57-59`
@@ -1681,7 +1745,7 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   pluriel, → « MM. » ; « Bonjour [Mrs] Lefèvre », adresse à une seule personne,
   → « Mme ») — le contexte désambiguïse déjà, donc rien changé là.
 
-### [GRAVE] `densify-vocabulaire` / `savérer` — « Le diagnostic s'est confirmé vrai »
+### [GRAVE] ✅ `densify-vocabulaire` / `savérer` — « Le diagnostic s'est confirmé vrai »
 - **Où** : `densify-vocabulaire.ts:289`
 - **Texte** : « Le diagnostic s'est [avéré] vrai après plusieurs examens. », fix `"confirmé"`
 - **Problème** : *se confirmer* ne se construit pas avec un attribut. Après
@@ -1691,8 +1755,9 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   (`batch-003-registre.ts:376-389`) : la règle sur *s'avérer* casse ses propres
   phrases, deux lots plus loin.
 - **Correction proposée** : marquer « [avéré vrai] » → `"révélé exact"`.
+- **Vérifié** : Déjà corrigé : marqueur déplacé sur « vrai » → fix « exact », « avéré » reste intact dans la phrase.
 
-### [GRAVE] `densify-vocabulaire` / `eminent-2` — trois phrases rattachées à une règle qui ne les explique pas
+### [GRAVE] ⏭️ `densify-vocabulaire` / `eminent-2` — trois phrases rattachées à une règle qui ne les explique pas
 - **Où** : `densify-vocabulaire.ts:247-251`
 - **Texte** : `ruleSlug: "eminent-2"` avec « L'[influence] de touristes bloque tout
   le centre-ville. » → `"affluence"`, « Son [affluence] sur le conseil reste
@@ -1703,8 +1768,9 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   énoncé qui ne les couvre pas. Même défaut que `davantage-2` dans
   `densify-homophones.ts:259-263`.
 - **Correction proposée** : créer une règle `affluence-influence`.
+- **Vérifié** : Écarté : vérifié dans `legacy.json`, la règle legacy `eminent-2` est en réalité titrée « affluence ou influence », pas « éminent ». Le `ruleSlug` est donc correct ; rien à corriger.
 
-### [GRAVE] `densify-vocabulaire` / `somptuaire` — une phrase correcte corrigée vers la forme contestée
+### [GRAVE] ✅ `densify-vocabulaire` / `somptuaire` — une phrase correcte corrigée vers la forme contestée
 - **Où** : `densify-vocabulaire.ts:234`
 - **Texte** : « Cette dépense [somptueuse] a été jugée injustifiable. », fix `"somptuaire"`
 - **Problème** : « une dépense somptueuse » est du français irréprochable — c'est
@@ -1715,8 +1781,9 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   correction va du sûr vers le discuté.
 - **Correction proposée** : supprimer la phrase ; les deux autres (`:233` et `:235`,
   *somptuaire* → *somptueux*) suffisent à porter la règle.
+- **Vérifié** : Déjà corrigé : la phrase « Cette dépense somptueuse a fait la une… » est passée en `fix: null`.
 
-### [GRAVE] `densify-vocabulaire` / `prescrire` — un exercice insoluble
+### [GRAVE] ✅ `densify-vocabulaire` / `prescrire` — un exercice insoluble
 - **Où** : `densify-vocabulaire.ts:220`
 - **Texte** : « Ces méthodes ont été [prescrites] par la commission. », fix `"proscrites"`
 - **Problème** : la phrase marquée est **parfaitement correcte** telle quelle — une
@@ -1727,6 +1794,7 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   par le contexte : « trois semaines de repos », « formellement ».)
 - **Correction proposée** : ajouter un indice de sens (« Ces méthodes dangereuses
   ont été [prescrites] par la commission »), ou retirer la phrase.
+- **Vérifié** : Déjà corrigé : « ont été [prescrites] par la commission après le scandale » — l'ajout de « après le scandale » désambiguïse vers « proscrites ».
 
 ### [MOYEN] ⏭️ `densify-vocabulaire` — quatre positions prescriptives contestées, aucune marquée `disputed`
 - **Où** : `densify-vocabulaire.ts:252-256` (`alternative`), `:257-261` (`conséquent`),
@@ -1791,7 +1859,7 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   originel, idée originale, forêt originelle) tranchent correctement le sens.
   Rien à faire.
 
-### [GRAVE] `densify2-homophones` / `quoi-que` — un `fix` identique au mot marqué
+### [GRAVE] ✅ `densify2-homophones` / `quoi-que` — un `fix` identique au mot marqué
 - **Où** : `densify2-homophones.ts:91`
 - **Texte** : « Il persévère, [quoiqu']il soit épuisé depuis des jours. », fix `"quoiqu'"`
 - **Problème** : la correction est **rigoureusement identique** au texte marqué. La
@@ -1799,8 +1867,9 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   annoncer une faute. Troisième occurrence du même défaut dans le module, après
   `point-virgule-liste` (`batch-013:74-87`) et `expr-a-lencontre` (`batch-015:313`).
 - **Correction proposée** : passer la phrase en `fix: null`.
+- **Vérifié** : Déjà corrigé : la phrase est passée en `fix: null`.
 
-### [GRAVE] `densify2-homophones` / `davantage-2` — le mauvais `ruleSlug`, une seconde fois
+### [GRAVE] ⏭️ `densify2-homophones` / `davantage-2` — le mauvais `ruleSlug`, une seconde fois
 - **Où** : `densify2-homophones.ts:249-252`
 - **Texte** : `ruleSlug: "davantage-2"` avec « Il a [quand-même] réussi à terminer
   avant les autres. » et « C'est [quand-même] étrange, cette absence de réponse. »,
@@ -1811,8 +1880,9 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   de densification à l'autre : la règle `davantage-2` reçoit désormais cinq phrases
   hors sujet.
 - **Correction proposée** : créer une règle `quand-meme` et y déplacer les cinq phrases.
+- **Vérifié** : Écarté, même vérification que pour `densify-homophones`/`davantage-2` : le `ruleSlug` legacy correspond bien à « quand même », pas à « davantage ».
 
-### [GRAVE] `densify2-homophones` — des phrases correctes déclarées fautives
+### [GRAVE] ✅ `densify2-homophones` — des phrases correctes déclarées fautives
 - **Où** : `densify2-homophones.ts:26` et `:219`
 - **Texte** : « Il range toujours [ces] outils dans le même tiroir. », fix `"ses"` ;
   « Dis-moi [pourquoi] tu te bats depuis toutes ces années. », fix `"pour quoi"`
@@ -1829,6 +1899,7 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   À noter enfin que `:219` est la **jumelle** de `densify-homophones.ts:223`
   (« Dis-moi [pourquoi] tu te bats vraiment, au fond. »), déjà signalée : le même
   exercice insoluble a été dupliqué d'un fichier à l'autre.
+- **Vérifié** : Déjà corrigé : « Chacun range [ces] outils dans son propre coffre » (le parallèle avec « son propre » oriente vers « ses ») et « Dis-moi [pourquoi] tu milites : le climat ou l'emploi ? » (les deux options explicites orientent vers « pour quoi »).
 
 ### [MOYEN] ✅ `densify2-homophones` — quatre règles pour un seul mécanisme (la soudure des adverbes de temps)
 - **Où** : `densify2-homophones.ts:81-84` (`plutot`), `:221-224` (`aussitot`),
@@ -1851,7 +1922,7 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   périmètre ; je ne peux pas y ajouter de renvoi croisé depuis les fichiers
   `densify*`.
 
-### [GRAVE] `densify2-accords-conj` / `y-compris` — la règle se contredit entre ses deux phrases, et corrige du juste vers le faux
+### [GRAVE] ✅ `densify2-accords-conj` / `y-compris` — la règle se contredit entre ses deux phrases, et corrige du juste vers le faux
 - **Où** : `densify2-accords-conj.ts:120-121`
 - **Texte** : « Le prix est ferme, taxes y [comprises] et livraison incluse. », fix `"compris"` ;
   « Toutes les pièces, annexes y [compris], sont bien jointes. », fix `"comprises"`
@@ -1864,8 +1935,9 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   verdicts opposés sur la même construction, à une ligne d'intervalle.
 - **Correction proposée** : passer `:120` en `fix: null`, ou déplacer *y compris*
   devant le nom (« y [comprises] les taxes » → `"compris"`).
+- **Vérifié** : Déjà corrigé : dans les deux phrases, « y compris » suit le nom et s'accorde (« comprises » dans les deux cas), plus de contradiction.
 
-### [GRAVE] `densify2-accords-conj` / `auxiliaire` — « Elle est descendue les escaliers »
+### [GRAVE] ✅ `densify2-accords-conj` / `auxiliaire` — « Elle est descendue les escaliers »
 - **Où** : `densify2-accords-conj.ts:310`
 - **Texte** : « Elle [a] descendue les escaliers en courant. », fix `"est"`
 - **Problème** : *descendre* suivi d'un complément d'objet direct se conjugue avec
@@ -1877,8 +1949,9 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   cartons au grenier. » → `"a"` applique correctement le même principe, au même verbe
   de mouvement, en sens inverse.
 - **Correction proposée** : marquer « [a descendue] » → `"a descendu"`.
+- **Vérifié** : Déjà corrigé : « Elle [est] descendu… » → fix « a » donne « Elle a descendu les escaliers », correct et cohérent avec la phrase voisine sur « monter ».
 
-### [GRAVE] `densify2-accords-conj` / `tout-le-monde` — « Tout le monde a leur avis »
+### [GRAVE] ✅ `densify2-accords-conj` / `tout-le-monde` — « Tout le monde a leur avis »
 - **Où** : `densify2-accords-conj.ts:136`
 - **Texte** : « Tout le monde [ont] leur avis sur la question. », fix `"a"`
 - **Problème** : le possessif n'est pas dans le marquage. Après correction : « Tout le
@@ -1886,8 +1959,9 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   modèle reste fausse sur le point même que la règle enseigne — que *tout le monde*
   commande le singulier.
 - **Correction proposée** : marquer « [ont leur] » → `"a son"`.
+- **Vérifié** : Déjà corrigé : « Tout le monde [ont] son avis » → fix « a » donne une phrase correcte, le possessif est déjà au singulier.
 
-### [GRAVE] `densify2-accords-conj` / `participe-présent` — « Des enfants fatiguant de bruit »
+### [GRAVE] ✅ `densify2-accords-conj` / `participe-présent` — « Des enfants fatiguant de bruit »
 - **Où** : `densify2-accords-conj.ts:239`
 - **Texte** : « Des enfants [fatigants] de bruit couraient partout. », fix `"fatiguant"`
 - **Problème** : après correction, « Des enfants **fatiguant de bruit** couraient
@@ -1899,8 +1973,9 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
 - **Correction proposée** : remplacer par un vrai participe présent transitif
   (« Des enfants [fatigants] leurs parents… » → `"fatiguant"` n'est guère mieux ;
   mieux vaut refaire la phrase : « des cris [fatigants] les voisins »).
+- **Vérifié** : Déjà corrigé : les deux phrases sont maintenant de vrais adjectifs verbaux coordonnés à un autre adjectif (« convaincants et bien construits », « fatigants et bruyants »), sans complément.
 
-### [GRAVE] `densify2-accords-conj` / `si-conditionnel` — « Si tu avais le temps, passe me voir demain »
+### [GRAVE] ✅ `densify2-accords-conj` / `si-conditionnel` — « Si tu avais le temps, passe me voir demain »
 - **Où** : `densify2-accords-conj.ts:222`
 - **Texte** : « Si tu [aurais] le temps, passe me voir demain. », fix `"avais"`
 - **Problème** : la correction supprime bien le conditionnel après *si*, mais la
@@ -1908,8 +1983,9 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   principale, pas un impératif. « Si tu avais le temps, passe me voir demain » ne se
   dit pas ; il fallait « Si tu **as** le temps, passe me voir demain. »
 - **Correction proposée** : fix `"as"`.
+- **Vérifié** : Déjà corrigé : le `fix` est passé à « as » (« Si tu as le temps, passe me voir demain »), phrase correcte.
 
-### [GRAVE] `densify2-accords-conj` — deux défauts déjà signalés, reproduits à l'identique
+### [GRAVE] ✅ `densify2-accords-conj` — deux défauts déjà signalés, reproduits à l'identique
 - **Où** : `densify2-accords-conj.ts:129` et `:52`
 - **Texte** : « Ce [sont] moi qui ai réservé les billets de train. », fix `"C'est"` →
   « **Ce C'est** moi qui ai réservé les billets de train. » ;
@@ -1921,6 +1997,7 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   deux exemplaires dans la base.
 - **Correction proposée** : marquer « [Ce sont] » → `"C'est"` et « [se sont plaints] »
   → `"s'est plaint"`.
+- **Vérifié** : Déjà corrigé : la phrase « Ce sont moi qui ai réservé… » a été supprimée du fichier, et la phrase sur « plus d'un lecteur » a été retirée également.
 
 ### [MOYEN] ✅ `densify2-accords-conj` — la moitié du volet conjugaison recopie `densify-conjugaison`
 - **Où** : `densify2-accords-conj.ts:180-328` face à `densify-conjugaison.ts:10-167`
@@ -1988,7 +2065,7 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   l'adjectif de la phrase annexe passé au singulier (« Quand on [sont] pressé,
   on oublie l'essentiel. ») pour ne plus brouiller le message sur *on*.
 
-### [GRAVE] `densify2-ortho-vocab` — six défauts déjà signalés, recopiés dans un troisième fichier
+### [GRAVE] ✅ `densify2-ortho-vocab` — six défauts déjà signalés, recopiés dans un troisième fichier
 - **Où** : `densify2-ortho-vocab.ts:395`, `:80-81`, `:96-97`, `:73`, `:351`, `:361-364`
 - **Texte et effet après correction** :
   – `:395` « Le calcul s'est [avéré] vrai après vérification. » → `"exact"` donne
@@ -2017,8 +2094,9 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   correction devra donc être appliquée en deux ou trois endroits.
 - **Correction proposée** : traiter les `densify2-*` comme des copies à réviser
   intégralement, et non comme des ajouts nouveaux.
+- **Vérifié** : Déjà corrigé : les six sous-points ont tous été traités — « avéré/vrai » déplacé sur « vrai » → « juste », les nombres fusionnés en un seul token, l'élision élargie au mot fusionné, « quelquefois » désambiguïsé par un chiffre explicite, « somptuaire » testé sur « loi » (sens non contesté), et `eminent-2` confirmé correct (règle legacy « affluence/influence »).
 
-### [GRAVE] `densify2-ortho-vocab` / `original` — « Le manuscrit originel »
+### [GRAVE] ✅ `densify2-ortho-vocab` / `original` — « Le manuscrit originel »
 - **Où** : `densify2-ortho-vocab.ts:214`
 - **Texte** : « Le manuscrit [original] a été perdu dans l'incendie. », fix `"originel"`
 - **Problème** : « le manuscrit original » est la seule tournure reçue — c'est même le
@@ -2027,8 +2105,9 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   dit pas. La correction va du juste vers le fautif, dans une règle qui prétend
   enseigner cette distinction précise.
 - **Correction proposée** : supprimer la phrase, ou l'inverser.
+- **Vérifié** : Déjà corrigé : « Le manuscrit original… » est passé en `fix: null`.
 
-### [GRAVE] `densify2-ortho-vocab` / `prescrire` — la phrase insoluble, aggravée
+### [GRAVE] ✅ `densify2-ortho-vocab` / `prescrire` — la phrase insoluble, aggravée
 - **Où** : `densify2-ortho-vocab.ts:339`
 - **Texte** : « Le règlement [prescrit] l'usage du téléphone en salle. », fix `"proscrit"`
 - **Problème** : la phrase est **correcte telle quelle** : un règlement qui prescrit
@@ -2037,6 +2116,7 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   l'adverbe « formellement »** qui, là-bas, permettait au moins de deviner l'intention.
   La reprise a donc supprimé le seul indice qui rendait l'exercice soluble.
 - **Correction proposée** : rétablir « formellement », ou retirer la phrase.
+- **Vérifié** : Déjà corrigé : les deux phrases sont désambiguïsées par le contexte (« traitement de trois semaines » / « en salle d'examen »).
 
 ### [MOYEN] ✅ `densify2-ortho-vocab` / `ent-ant` — « Ce détail paraît négligent »
 - **Où** : `densify2-ortho-vocab.ts:21`
@@ -2132,7 +2212,7 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   changement distinct : le `fix` n'est qu'une annotation flottante, pas une
   saisie à faire deviner, et la nuance est déjà documentée au lot 009.
 
-### [GRAVE] `densify3-accords-conj` / `accord-quelques-uns` — les deux phrases doublent le second élément
+### [GRAVE] ✅ `densify3-accords-conj` / `accord-quelques-uns` — les deux phrases doublent le second élément
 - **Où** : `densify3-accords-conj.ts:100-101`
 - **Texte** : « J'en ai relu [quelques] uns hier soir seulement. », fix `"quelques-uns"` ;
   « Il reste [quelques] unes de ces vieilles cartes. », fix `"quelques-unes"`
@@ -2141,8 +2221,9 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   et « Il reste **quelques-unes unes** de ces vieilles cartes ». Les deux phrases de
   la règle sont inutilisables — c'est toute la règle qui tombe.
 - **Correction proposée** : marquer « [quelques uns] » → `"quelques-uns"`.
+- **Vérifié** : Déjà corrigé : les marqueurs sont des tokens fusionnés sans espace (« quelque-uns », « quelques-un »), remplacés en bloc par la forme complète — plus de doublement.
 
-### [GRAVE] `densify3-accords-conj` — la règle inversée `accord-tout-autre` propagée
+### [GRAVE] ✅ `densify3-accords-conj` — la règle inversée `accord-tout-autre` propagée
 - **Où** : `densify3-accords-conj.ts:60-61`
 - **Texte** : « [Toute] autre réponse aurait provoqué un scandale. », fix `"Tout"` ;
   « Il envisage la question d'une [tout] autre façon. », fix `"toute"`
@@ -2155,14 +2236,16 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   enseignent l'inverse de la règle réelle.
 - **Correction proposée** : corriger la règle du lot 006 **d'abord**, puis inverser
   ces deux `fix`.
+- **Vérifié** : Déjà corrigé : les deux `fix` ont été inversés dans le bon sens, cohérent avec la correction du lot 006.
 
-### [GRAVE] `densify3-accords-conj` / `accord-avoir-affaire` — « eu à affaire à », de nouveau
+### [GRAVE] ✅ `densify3-accords-conj` / `accord-avoir-affaire` — « eu à affaire à », de nouveau
 - **Où** : `densify3-accords-conj.ts:65`
 - **Texte** : « Ils ont eu à [faire] à un interlocuteur peu commode. », fix `"affaire"`
 - **Problème** : le *à* qui précède reste en place : « Ils ont **eu à affaire à** un
   interlocuteur peu commode. » Reprise mot pour mot du défaut de
   `batch-006-accords.ts:217`.
 - **Correction proposée** : marquer « [à faire] » → `"affaire"`.
+- **Vérifié** : Déjà corrigé : la règle porte sur « affaires » → « affaire », plus de « à faire » résiduel.
 
 ### [MOYEN] ✅ `densify3-accords-conj` / `accord-collectif-groupe` — deux phrases, deux verdicts opposés, aucun indice
 - **Où** : `densify3-accords-conj.ts:76-77`
@@ -2242,7 +2325,7 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   (« Ne [prends-le] pas mal » → `"le prends"`), là où `batch-007:72` produisait
   « N't'approche ».
 
-### [GRAVE] `densify3-ponctuation-typo` / `titres-oeuvres-majuscule` — deux graphies correctes détruites, et une contradiction interne au même lot
+### [GRAVE] ✅ `densify3-ponctuation-typo` / `titres-oeuvres-majuscule` — deux graphies correctes détruites, et une contradiction interne au même lot
 - **Où** : `densify3-ponctuation-typo.ts:205-206`
 - **Texte** : « Il relit chaque hiver Les [Trois] Mousquetaires. », fix `"trois"` ;
   « Elle a emprunté Le [Père] Goriot à la bibliothèque. », fix `"père"`
@@ -2255,8 +2338,9 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   `densify3-accords-conj.ts:80-81` écrit « **Les Fables** de La Fontaine » et
   « **Guerre et Paix** » avec les capitales, dans un fichier produit le même jour.
 - **Correction proposée** : supprimer la règle avant de la densifier davantage.
+- **Vérifié** : Déjà corrigé : le sens du marquage est inversé (minuscule fautive → majuscule), cohérent avec la règle corrigée du lot 002 et avec `densify3-accords-conj`.
 
-### [GRAVE] `densify3-ponctuation-typo` / `virgule-donc-intercale` — la règle fautive densifiée
+### [GRAVE] ✅ `densify3-ponctuation-typo` / `virgule-donc-intercale` — la règle fautive densifiée
 - **Où** : `densify3-ponctuation-typo.ts:47-48`
 - **Texte** : « Le dossier [partira] donc, dès la signature du directeur. », fix `"partira,"` ;
   « Nous [reviendrons] donc, sur ce point à la prochaine séance. », fix `"reviendrons,"`
@@ -2267,6 +2351,7 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   et, comme dans le lot 001, *donc* n'y est jamais entre le sujet et le verbe, contrairement
   à ce qu'annonce le `statement`.
 - **Correction proposée** : supprimer la règle plutôt que l'étendre.
+- **Vérifié** : Déjà corrigé : « donc » est maintenant placé entre sujet et verbe (« Le dossier complet, [donc] partira… »), conforme au statement corrigé du lot 001.
 
 ### [MOYEN] ✅ `densify3-ponctuation-typo` / `majuscule-points-cardinaux` — « le Sud-ouest »
 - **Où** : `densify3-ponctuation-typo.ts:117`
@@ -2327,7 +2412,7 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   `million-milliard-symbole` porte cette fois sur de vrais millions et milliards,
   contrairement au « 250K€ » signalé dans le lot 002.
 
-### [GRAVE] `densify3-conj-accords-ortho` — deux participes restés au singulier, comme dans le lot 011
+### [GRAVE] ✅ `densify3-conj-accords-ortho` — deux participes restés au singulier, comme dans le lot 011
 - **Où** : `densify3-conj-accords-ortho.ts:127` et `:203`
 - **Texte** : « Un millier de visiteurs [est] venu dès le premier jour. », fix `"sont"` ;
   « Un mois et demi se sont [écoulés] depuis sa dernière lettre. », fix `"écoulé"`
@@ -2339,6 +2424,7 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   mêmes règles.
 - **Correction proposée** : marquer « [est venu] » → `"sont venus"` et
   « [se sont écoulés] » → `"s'est écoulé"`.
+- **Vérifié** : Déjà corrigé : les deux phrases ont été remplacées par des tournures sans participe à accorder (« afflue/affluent », « séparent/sépare »).
 
 ### [MOYEN] ✅ `densify3-conj-accords-ortho` / `accord-verbe-ni-ni` — deux verdicts opposés, aucun indice
 - **Où** : `densify3-conj-accords-ortho.ts:114-115`
@@ -2415,7 +2501,7 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   est propre lui aussi : les cinquante corrections sont justes et produisent des
   phrases correctes.
 
-### [GRAVE] `densify3-ponctuation2-pro-expr` — sept phrases nouvelles cassées par un marquage trop court
+### [GRAVE] 🔧 `densify3-ponctuation2-pro-expr` — sept phrases nouvelles cassées par un marquage trop court
 - **Où** : `densify3-ponctuation2-pro-expr.ts:43-44`, `:126`, `:214`, `:224`, `:260`, `:189-190`
 - **Texte et effet après correction** :
   – `:43-44` (`espace-apres-virgule`) « Elle a [hésité] **,** puis a fini par accepter
@@ -2438,8 +2524,9 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
     fermeture » ; « Réf. : [résiliation] du contrat d'entretien annuel. » →
     `"2024-207"` donne « Réf. : **2024-207 du contrat d'entretien annuel** ».
 - **Correction proposée** : élargir chaque marquage au groupe réellement remplacé.
+- **Vérifié** : Sur les sept, trois (expr-battre-son-plein et les deux pro-objet-reference) étaient déjà bonnes. Les quatre autres restaient cassées et ont été corrigées : `espace-apres-virgule` (virgule en trop supprimée du texte non marqué, puisqu'elle est déjà apportée par le `fix`), `anglicisme-business` (`fix` « activité » → « commerce », pour accorder le déterminant « ce »), `pro-relance-facture` (`fix` « invitons à » → « prions », compatible avec le « de » qui suit dans le texte), `expr-donner-le-change` (« les » → « le » dans le texte non marqué, pour accorder avec « change »).
 
-### [GRAVE] `densify3-ponctuation2-pro-expr` — six défauts du lot d'origine densifiés au lieu d'être corrigés
+### [GRAVE] 🔧 `densify3-ponctuation2-pro-expr` — six défauts du lot d'origine densifiés au lieu d'être corrigés
 - **Où** : `:51-52`, `:99-100`, `:32`, `:303-304`, `:197`, `:182`
 - **Texte et effet** :
   – `trait-union-inversion` (`:51-52`) : « [conclut] il » → `"conclut-il"` donne
@@ -2467,6 +2554,7 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
 - **Problème** : la troisième passe de densification a donc étendu les règles fausses
   au lieu de les réparer. Chacun de ces défauts existe désormais en deux ou trois
   exemplaires.
+- **Vérifié** : Cinq des six étaient déjà corrigés (trait-union-inversion, typo-espace-tiret-intervalle, point-virgule-liste supprimée, pro-tutoiement, pro-restant-disposition). Restait `expr-a-lencontre` : marqueur élargi à `[l'encontre]`, comme dans le lot 015 ; le `fix` « la rencontre » donne maintenant une phrase correcte.
 
 ### [MOYEN] ✅ `densify3-ponctuation2-pro-expr` / `guillemets-imbriques` — une citation qui ouvre en anglais et ferme en français
 - **Où** : `densify3-ponctuation2-pro-expr.ts:35`
@@ -2512,7 +2600,7 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   `expr-faire-long-feu` est ici correctement marquée (« a fait [longs] **feu** » →
   `"long"`), là où le lot 015 laissait « long **feux** ».
 
-### [GRAVE] `densify3-registre-pro-discutes` — une phrase fautive déclarée correcte dans une règle `disputed`
+### [GRAVE] ✅ `densify3-registre-pro-discutes` — une phrase fautive déclarée correcte dans une règle `disputed`
 - **Où** : `densify3-registre-pro-discutes.ts:241`
 - **Texte** : `ruleSlug: "discute-espece-de"` — « **Un** espèce de bruit sourd montait de
   la cave. », `fix: null`
@@ -2528,8 +2616,9 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   L'en-tête de ce fichier affirme pourtant : « leurs phrases sont TOUTES correctes ».
 - **Correction proposée** : remplacer la phrase par un vrai cas discuté, ou la sortir de
   la règle `disputed`.
+- **Vérifié** : Déjà corrigé : les deux phrases utilisent « Une espèce de » (féminin correct), `fix: null` pour les deux.
 
-### [GRAVE] `densify3-registre-pro-discutes` — la contradiction « suite à », désormais **dans un seul fichier**
+### [GRAVE] ✅ `densify3-registre-pro-discutes` — la contradiction « suite à », désormais **dans un seul fichier**
 - **Où** : `densify3-registre-pro-discutes.ts:179` face à `:244`
 - **Texte** : `:179` (`pro-suite-entretien`) « Je vous écris [suite] à l'annonce parue le
   4 mai. » → `"à la suite de"` — le tour est **marqué fautif** ;
@@ -2540,8 +2629,9 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   `:179` est cassée par-dessus le marché : le *à* qui suit reste en place, ce qui donne
   « Je vous écris **à la suite de à l'annonce** parue le 4 mai » — reprise exacte du
   défaut de `batch-004-professionnels.ts:250`.
+- **Vérifié** : Déjà corrigé : `pro-suite-entretien` a été retiré de ce fichier, plus de contradiction avec `discute-suite-a`.
 
-### [GRAVE] `densify3-registre-pro-discutes` — onze phrases cassées, toutes copiées du lot 004
+### [GRAVE] 🔧 `densify3-registre-pro-discutes` — onze phrases cassées, toutes copiées du lot 004
 - **Où** : `:139`, `:146-147`, `:166-167`, `:194`, `:215`, `:122-123`, `:113`, `:202`
 - **Texte et effet après correction** :
   – `:139` « [Svp] transmettez ce dossier au service juridique. » → `"Veuillez"` donne
@@ -2574,8 +2664,9 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   et `:214` (« en [pièce] jointes les quatre attestations » → `"pièces"`) montrent que
   le marquage juste était à portée de main : deux lignes plus loin, la même règle le
   réussit.
+- **Vérifié** : Huit des onze étaient déjà corrigées. Trois restaient cassées et ont été corrigées : `pro-svp` (`fix` « Veuillez » → « S'il vous plaît, », avec la virgule), `pro-au-plaisir` (la suite de la phrase changée de « nous nous revoyions » à « nous revoir » pour convenir à l'infinitif attendu après « de »), `pro-relance-polie` (phrase réordonnée : « pour la deuxième fois » déplacé en fin de phrase pour ne plus buter contre « sur »).
 
-### [GRAVE] `densify3-registre-pro-discutes` / `impropriete-emerite` — l'exemple des dictionnaires donné pour une faute
+### [GRAVE] ✅ `densify3-registre-pro-discutes` / `impropriete-emerite` — l'exemple des dictionnaires donné pour une faute
 - **Où** : `densify3-registre-pro-discutes.ts:100-101`
 - **Texte** : « Voilà un pianiste [émérite] pour son jeune âge. », fix `"remarquable"` ;
   « Nous avons consulté un chirurgien [émérite] du service. », fix `"éminent"`
@@ -2586,6 +2677,7 @@ juge donc sur la phrase, sa correction, et la cohérence avec le `ruleSlug` vis�
   signalé comme faux (`batch-003-registre.ts:331-344`).
 - **Correction proposée** : passer la règle en `disputed`, ou la limiter au seul
   contresens réel (*émérite* pris pour « en exercice »).
+- **Vérifié** : Déjà corrigé : la phrase testée porte sur un jeune violoniste (« pour ses quinze ans »), et l'usage légitime (chirurgien qui opère depuis trente ans) reste en `fix: null`.
 
 ### [MOYEN] ✅ `densify3-registre-pro-discutes` — trois règles qui s'annulent l'une l'autre
 - **Où** : `:126` face à `:145-147` ; `:162-163` face à
