@@ -52,7 +52,7 @@ describe("dédoublonnage de la culture générale", () => {
     // les distingue. Les confondre effacerait du contenu juste, en silence.
     const gardees = [
       "Quand l'ONU est-elle fondée ?",
-      "Quand la NBA a-t-elle été fondée ?",
+      "Sous quel nom la NBA a-t-elle été fondée en 1946 ?",
       "Quel élément porte le symbole Fe ?",
       "Quel élément porte le symbole Au ?",
       "Qu'est-ce que le circuit court ?",

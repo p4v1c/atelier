@@ -1,5 +1,5 @@
 /**
- * Sport, deuxième lot — vingt notions sans cours.
+ * Sport, deuxième lot — dix-neuf notions sans cours.
  */
 import { notion } from "./commun";
 import type { SeedSkill } from "../../../src/modules/types";
@@ -49,7 +49,7 @@ export const CG_SPORT_2: SeedSkill[] = [
      "Il est devenu olympique aux Jeux de Sydney en 2000."],
     ["Comment une performance de gymnastique est-elle notée ?", ["Par une note de difficulté et une note d'exécution", "Par une note unique sur dix attribuée par un jury de six juges", "Par un classement comparatif entre les gymnastes du plateau", "Par un vote à main levée des juges présents à l'agrès"], 0,
      "Le fameux dix parfait a disparu du code de pointage en 2006."],
-    ["Quelle gymnaste roumaine obtient le premier dix parfait olympique en 1976 ?", ["Nadia Comăneci", "Olga Korbut", "Ludmilla Tourischeva", "Vera Cáslavská"], 0,
+    ["Quelle gymnaste roumaine obtient le premier dix parfait olympique en 1976 ?", ["Nadia Comăneci", "Olga Korbut", "Ludmilla Tourischeva", "Věra Čáslavská"], 0,
      "L'affichage électronique ne prévoyait pas cette note et indiqua un virgule zéro zéro."],
     ["Qu'est-ce qu'un élément nommé en gymnastique ?", ["Une figure portant le nom du gymnaste qui l'a réalisée le premier en compétition", "Un mouvement obligatoire que chaque gymnaste doit présenter à l'un des agrès imposés", "Une figure imposée par le code de pointage à toutes les gymnastes d'une catégorie", "Un enchaînement de référence filmé par la fédération"], 0,
      "Il faut la réussir lors d'une compétition officielle majeure pour qu'elle soit inscrite au code."],
@@ -147,10 +147,8 @@ export const CG_SPORT_2: SeedSkill[] = [
      "Elle permet de sécuriser la piste sans interrompre totalement l'épreuve."],
     ["Qu'est-ce que le drapeau rouge en course automobile ?", ["L'interruption immédiate de la course", "Un avertissement de danger", "Une pénalité", "Un dernier tour signalé"], 0,
      "Le drapeau à damier signale l'arrivée, le drapeau jaune un danger."],
-    ["Quelle course d'endurance se dispute chaque année en Sarthe ?", ["Les 24 Heures du Mans", "Les 12 Heures de Sebring", "Les 1000 kilomètres de Spa", "Le Grand Prix de France"], 0,
-     "Créée en 1923, elle se court sur un circuit empruntant des routes ordinaires."],
     ["Qu'est-ce que le rallye Dakar ?", ["Un rallye-raid tout-terrain sur plusieurs milliers de kilomètres", "Un rallye couru sur asphalte à travers plusieurs pays d'Afrique de l'Ouest", "Une course de côte disputée en plusieurs manches chronométrées successives", "Un raid réservé aux seules motos, interdit aux automobiles et aux camions"], 0,
-     "Parti de Paris jusqu'en 2007, il se dispute depuis en Amérique du Sud puis en Arabie saoudite."],
+     "Parti de Paris jusqu'en 2001, puis d'autres villes européennes jusqu'en 2007, il s'est couru en Amérique du Sud de 2009 à 2019, et en Arabie saoudite depuis 2020."],
     ["Quelle est la particularité du rallye automobile ?", ["Les concurrents partent en décalé sur des spéciales chronométrées", "Le départ groupé sur circuit", "La course en peloton", "Le classement au nombre de tours"], 0,
      "Le copilote lit les notes décrivant le parcours, invisible à l'avance depuis le volant."],
     ["Qu'est-ce que le MotoGP ?", ["La catégorie reine du championnat du monde de vitesse moto", "Un championnat de motocross disputé sur des circuits en terre", "Une épreuve d'endurance courue sur vingt-quatre heures en équipage", "Un championnat de rallye réservé aux motos"], 0,
@@ -178,7 +176,7 @@ export const CG_SPORT_2: SeedSkill[] = [
     ["Qu'est-ce que la cotation en escalade ?", ["Un système évaluant la difficulté d'une voie", "Un classement des grimpeurs établi en compétition", "Une évaluation du risque encouru par le grimpeur", "Une notation de l'engagement physique et mental"], 0,
      "Les systèmes diffèrent selon les pays, ce qui rend les comparaisons délicates."],
     ["Quel sommet a été gravi pour la première fois en 1953 ?", ["L'Everest", "Le K2", "L'Annapurna", "Le Kangchenjunga"], 0,
-     "Par Edmund Hillary et Tensing Norgay. L'Annapurna avait été gravi en 1950 par une expédition française."],
+     "Par Edmund Hillary et Tenzing Norgay. L'Annapurna avait été gravi en 1950 par une expédition française."],
     ["Qu'est-ce que la zone de la mort en haute altitude ?", ["Au-delà d'environ huit mille mètres, où l'organisme ne peut plus s'acclimater", "La zone des crevasses", "La face nord des sommets", "La zone d'avalanches"], 0,
      "L'organisme s'y dégrade continuellement, quelle que soit l'acclimatation préalable."],
     ["Qu'est-ce que le skateboard en compétition olympique ?", ["Une discipline comportant les épreuves de street et de park", "Une épreuve de vitesse chronométrée sur une longue piste descendante", "Une discipline de figures libres notée par un jury international", "Une épreuve de slalom entre des plots"], 0,
@@ -215,7 +213,7 @@ export const CG_SPORT_2: SeedSkill[] = [
 
   notion("sp2-sport-education", S, "Le sport à l'école et en club",
     "EPS, associations, encadrement.",
-    "L'éducation physique et sportive est une discipline d'enseignement, non une simple pratique de loisir.",
+    "Ne confonds pas ce qui s'enseigne, avec ses programmes et ses évaluations, et ce qui se pratique librement.",
     2, [
     ["Qu'est-ce que l'EPS en France ?", ["Une discipline d'enseignement obligatoire avec ses programmes", "Une activité de loisir scolaire laissée à l'initiative des établissements", "Une option facultative choisie au lycée", "Un temps de récréation encadré par un surveillant"], 0,
      "Elle est évaluée au brevet comme au baccalauréat."],
@@ -223,8 +221,8 @@ export const CG_SPORT_2: SeedSkill[] = [
      "Elle organise des compétitions scolaires du district au niveau national."],
     ["Qu'est-ce que l'USEP ?", ["La fédération du sport scolaire dans le premier degré", "Une union sportive regroupant les universités françaises", "Une fédération du sport pratiqué en entreprise et en comité", "Un office municipal chargé des équipements sportifs de proximité"], 0,
      "Elle est liée à la Ligue de l'enseignement et travaille sur le temps scolaire et périscolaire."],
-    ["Qu'est-ce qu'un brevet d'État d'éducateur sportif ?", ["Un diplôme permettant d'enseigner contre rémunération une activité sportive", "Un diplôme de bénévole autorisant l'encadrement gratuit dans un club affilié", "Un titre fédéral délivré par la fédération nationale de la discipline concernée", "Une attestation de secourisme exigée des encadrants"], 0,
-     "Encadrer contre rémunération sans diplôme est un délit en France."],
+    ["Que faut-il pour encadrer une activité sportive contre rémunération en France ?", ["Un diplôme d'État, aujourd'hui le BPJEPS ou ses équivalents", "Un diplôme de bénévole autorisant l'encadrement gratuit dans un club affilié", "Un titre fédéral délivré par la fédération nationale de la discipline concernée", "Une attestation de secourisme exigée des encadrants"], 0,
+     "Encadrer contre rémunération sans diplôme est un délit en France ; le brevet d'État d'éducateur sportif, ancien nom du diplôme, n'est plus délivré."],
     ["Qu'est-ce qu'un club sportif amateur en France ?", ["Une association affiliée à une fédération", "Une société commerciale", "Un service municipal", "Un groupement d'intérêt public"], 0,
      "La France compte plus de cent cinquante mille clubs affiliés."],
     ["Qu'est-ce qu'une licence sportive ?", ["Un titre d'adhésion à une fédération incluant une assurance", "Une autorisation de participer aux seules compétitions officielles", "Un certificat médical établi en début de saison", "Une carte remise par le club à ses adhérents"], 0,
@@ -241,7 +239,7 @@ export const CG_SPORT_2: SeedSkill[] = [
 
   notion("sp2-records-performance", S, "Records et progression des performances",
     "Ce qui explique l'amélioration des performances au fil du temps.",
-    "Le progrès des performances ralentit nettement dans la plupart des disciplines depuis les années 1990.",
+    "Un ralentissement n'est pas une stagnation : les records tombent encore, juste plus rarement.",
     2, [
     ["Qu'est-ce qui a le plus contribué à l'amélioration des records au XXe siècle ?", ["L'élargissement du bassin de pratiquants et la professionnalisation", "Le seul progrès des techniques d'entraînement depuis le début du siècle", "La seule amélioration des matériaux et des surfaces de compétition modernes", "Le dopage généralisé"], 0,
      "L'accès des femmes et de nouvelles nations à la compétition a fortement élargi le vivier."],
@@ -355,7 +353,7 @@ export const CG_SPORT_2: SeedSkill[] = [
      "Elle s'oppose au marquage individuel, où chacun suit un adversaire désigné."],
     ["Qu'est-ce que le hors-jeu de position au handball ?", ["Une notion inexistante : il n'y a pas de hors-jeu au handball", "Un placement irrégulier en attaque", "Une entrée fautive dans la zone", "Un dépassement de la ligne médiane"], 0,
      "Seule la zone de six mètres est interdite aux joueurs de champ."],
-    ["Qu'est-ce qu'un contre-attaque en sport collectif ?", ["Une attaque rapide lancée après récupération du ballon", "Une attaque placée face à une défense entièrement replacée", "Une relance longue du gardien vers l'avant", "Une transition défensive après une perte de balle"], 0,
+    ["Qu'est-ce qu'une contre-attaque en sport collectif ?", ["Une attaque rapide lancée après récupération du ballon", "Une attaque placée face à une défense entièrement replacée", "Une relance longue du gardien vers l'avant", "Une transition défensive après une perte de balle"], 0,
      "Elle exploite le déséquilibre momentané de l'adversaire encore en position offensive."],
     ["Qu'est-ce que la possession de balle comme indicateur ?", ["Une statistique dont la corrélation avec la victoire est faible", "Un indicateur fiable de la domination exercée par une équipe sur l'autre", "Un critère réglementaire pris en compte en cas d'égalité au score", "Un déterminant direct du score final"], 0,
      "Certaines équipes ont bâti leur succès sur une possession volontairement faible."],

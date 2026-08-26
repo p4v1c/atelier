@@ -1,5 +1,5 @@
 /**
- * Sciences de la vie & Terre, deuxième lot — vingt notions sans cours.
+ * Sciences de la vie & Terre, deuxième lot — vingt notions.
  */
 import { notion } from "./commun";
 import type { SeedSkill } from "../../../src/modules/types";
@@ -66,7 +66,7 @@ export const CG_SCIENCES_VIE_2: SeedSkill[] = [
     ["Que transporte l'hémoglobine ?", ["L'oxygène", "Le glucose", "Les lipides", "Les hormones"], 0,
      "Chaque molécule peut fixer quatre molécules de dioxygène grâce à ses atomes de fer."],
     ["Où ont lieu les échanges gazeux dans les poumons ?", ["Dans les alvéoles", "Dans les bronches", "Dans la trachée", "Dans la plèvre"], 0,
-     "Environ trois cents millions d'alvéoles offrent une surface d'échange comparable à un court de tennis."],
+     "Environ trois cents millions d'alvéoles offrent une surface d'échange d'environ soixante-dix mètres carrés, celle d'un grand appartement."],
     ["Qu'est-ce que la petite circulation ?", ["Le circuit entre le cœur et les poumons", "La circulation du sang dans les capillaires", "Le circuit emprunté par le sang veineux", "La circulation cérébrale du sang"], 0,
      "La grande circulation dessert tout le reste de l'organisme."],
     ["Qu'est-ce qu'une artère ?", ["Un vaisseau qui part du cœur", "Un vaisseau qui transporte du sang oxygéné", "Un vaisseau qui ramène le sang au cœur", "Un vaisseau du système lymphatique"], 0,
@@ -146,7 +146,7 @@ export const CG_SCIENCES_VIE_2: SeedSkill[] = [
     ["Pourquoi l'hémophilie touche-t-elle surtout les garçons ?", ["Le gène est porté par le chromosome X", "Le gène est porté par le chromosome Y", "Elle est liée aux hormones masculines", "Elle est transmise par le père"], 0,
      "Les filles, qui ont deux X, sont généralement porteuses sans être atteintes."],
     ["Qu'est-ce que la trisomie 21 ?", ["La présence de trois exemplaires du chromosome 21", "Une mutation ponctuelle touchant le gène numéro 21", "Une délétion d'un fragment de chromosome", "Une anomalie du nombre des chromosomes sexuels X et Y"], 0,
-     "Décrite par Jérôme Lejeune en 1959. Le risque augmente avec l'âge maternel."],
+     "Mise en évidence en 1959 dans l'équipe de Raymond Turpin, à partir des cultures cellulaires de Marthe Gautier, et publiée avec Jérôme Lejeune. Le risque augmente avec l'âge maternel."],
     ["Qu'est-ce qu'une mutation ?", ["Une modification de la séquence de l'ADN", "Une maladie génétique héritée des parents", "Un changement dans l'expression d'un gène", "Une recombinaison entre deux chromosomes"], 0,
      "La plupart sont neutres ; certaines sont délétères, d'autres avantageuses."],
     ["Qu'est-ce qu'un conseil génétique ?", ["Une consultation évaluant le risque de transmission d'une maladie", "Un test ADN destiné à établir une filiation", "Une thérapie génique destinée à corriger un gène défectueux du patient", "Un dépistage néonatal réalisé sur le nouveau-né à la maternité"], 0,
@@ -219,7 +219,7 @@ export const CG_SCIENCES_VIE_2: SeedSkill[] = [
      "Ses épis mesuraient quelques centimètres. La domestication au Mexique remonte à environ neuf mille ans."],
     ["Quelle plante a donné le chou, le brocoli, le chou-fleur et le chou de Bruxelles ?", ["Le chou sauvage", "La moutarde des champs", "Le navet cultivé", "Le colza d'hiver"], 0,
      "Une même espèce, sélectionnée sur des organes différents : bourgeon, fleur, tige ou feuille."],
-    ["D'où la pomme de terre est-elle originaire ?", ["Des Andes", "d'Irlande", "d'Europe centrale", "d'Asie centrale"], 0,
+    ["D'où la pomme de terre est-elle originaire ?", ["Des Andes", "D'Irlande", "D'Europe centrale", "D'Asie centrale"], 0,
      "Des milliers de variétés y sont encore cultivées. L'Europe n'en a longtemps utilisé que quelques-unes."],
     ["Quelle catastrophe frappe l'Irlande à partir de 1845 ?", ["La grande famine due au mildiou de la pomme de terre", "Une invasion de criquets venus d'Afrique du Nord", "Une sécheresse prolongée de plusieurs étés de suite", "Une épidémie de peste bovine décimant tous les troupeaux du pays"], 0,
      "La dépendance à une seule variété a rendu la population extrêmement vulnérable."],
@@ -326,7 +326,7 @@ export const CG_SCIENCES_VIE_2: SeedSkill[] = [
     ["Qu'est-ce qu'un arc réflexe ?", ["Un circuit court passant par la moelle sans décision du cerveau", "Un réflexe appris à force de répétitions", "Une réaction émotionnelle rapide et incontrôlée", "Un mouvement rendu entièrement automatique par un long entraînement"], 0,
      "C'est ce qui permet de retirer la main d'une source brûlante avant même d'avoir senti la douleur."],
     ["À quelle vitesse l'influx nerveux se propage-t-il au maximum ?", ["Environ cent vingt mètres par seconde", "Environ dix mètres par seconde au plus", "À la vitesse du son dans l'air", "À la vitesse de la lumière dans le vide"], 0,
-     "La gaine de myéline accélère considérablement la conduction en la rendant sautatoire."],
+     "La gaine de myéline accélère considérablement la conduction en la rendant saltatoire."],
     ["Quel est le rôle de la myéline ?", ["Isoler l'axone et accélérer la conduction nerveuse", "Nourrir le neurone et lui fournir toute l'énergie nécessaire", "Produire les neurotransmetteurs de la synapse", "Relier deux neurones voisins l'un à l'autre"], 0,
      "La sclérose en plaques résulte de sa destruction par le système immunitaire."],
     ["Combien de sens l'être humain possède-t-il ?", ["Plus que les cinq traditionnels, dont l'équilibre et la proprioception", "Exactement cinq, ni plus ni moins, comme on l'apprend à l'école primaire", "Six, en comptant l'intuition parmi les sens", "Quatre seulement, l'odorat n'en étant pas un"], 0,
@@ -439,8 +439,8 @@ export const CG_SCIENCES_VIE_2: SeedSkill[] = [
      "Elle nécessite une pression élevée, d'où sa consommation d'énergie importante."],
     ["Qu'est-ce qu'un périmètre de protection de captage ?", ["Une zone où les activités sont réglementées autour d'un point de prélèvement", "Une clôture grillagée posée autour d'un réservoir d'eau potable", "Une zone de surveillance sanitaire où l'eau est analysée chaque semaine par l'agence", "Un secteur de distribution desservi en priorité en cas de pénurie"], 0,
      "Il vise à prévenir la contamination plutôt qu'à la traiter après coup."],
-    ["Quelle part de la population mondiale n'a pas accès à un assainissement géré en toute sécurité ?", ["Environ un tiers", "Environ cinq pour cent", "Environ soixante-dix pour cent", "Environ dix pour cent"], 0,
-     "Les maladies diarrhéiques restent l'une des premières causes de mortalité infantile dans le monde."],
+    ["Quelle part de la population mondiale n'a pas accès à un assainissement géré en toute sécurité ?", ["Environ deux personnes sur cinq", "Environ cinq pour cent", "Environ soixante-dix pour cent", "Environ dix pour cent"], 0,
+     "Soit 3,4 milliards de personnes (suivi OMS/UNICEF). Les maladies diarrhéiques restent l'une des premières causes de mortalité infantile dans le monde."],
     ["Qu'est-ce qu'un polluant émergent dans l'eau ?", ["Une substance récemment détectée dont les effets sont mal connus", "Un polluant industriel classique, déjà réglementé depuis fort longtemps", "Un contaminant bactérien apparu dans le réseau de distribution", "Un métal lourd relargué par les canalisations anciennes"], 0,
      "Résidus médicamenteux, perturbateurs endocriniens et composés perfluorés en font partie.", 3],
   ]),

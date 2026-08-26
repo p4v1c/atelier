@@ -109,7 +109,7 @@
    ],
    "bonne": 3,
    "difficulte": 2,
-   "explication": "La « guerre des courants » oppose dans les années 1880-1890 le courant continu promu par Edison au courant alternatif défendu par Nikola Tesla et George Westinghouse. Le courant alternatif l'emporte parce que le transformateur permet d'élever la tension pour transporter l'énergie sur de longues distances avec peu de pertes, puis de l'abaisser près des usagers. L'éclairage de l'Exposition universelle de Chicago en 1893 puis la centrale des chutes du Niagara en 1895 scellent cette victoire. Le tesla, unité d'induction magnétique, honore l'inventeur croate d'origine serbe."
+   "explication": "La « guerre des courants » oppose dans les années 1880-1890 le courant continu promu par Edison au courant alternatif défendu par Nikola Tesla et George Westinghouse. Le courant alternatif l'emporte parce que le transformateur permet d'élever la tension pour transporter l'énergie sur de longues distances avec peu de pertes, puis de l'abaisser près des usagers. L'éclairage de l'Exposition universelle de Chicago en 1893 puis la centrale des chutes du Niagara en 1895 scellent cette victoire. Le tesla, unité d'induction magnétique, honore cet ingénieur né dans l'Empire d'Autriche, d'une famille serbe, naturalisé américain."
   },
   {
    "q": "Qui a réalisé en 1901 la première transmission radio à travers l'Atlantique ?",
@@ -412,7 +412,7 @@
    "explication": "Léon Foucault suspend en 1851 sous la coupole du Panthéon de Paris un pendule de 67 mètres portant une sphère de 28 kilogrammes. Le plan d'oscillation semble tourner lentement au fil des heures : c'est en réalité le sol, entraîné par la rotation terrestre, qui tourne sous le pendule. La vitesse apparente de rotation dépend de la latitude, maximale aux pôles et nulle à l'équateur. Foucault a aussi mesuré la vitesse de la lumière avec Fizeau et donné son nom aux courants induits dans les masses métalliques."
   },
   {
-   "q": "Quel ingénieur écossais a donné son nom au procédé d'imperméabilisation des tissus au caoutchouc ?",
+   "q": "Quel chimiste écossais a donné son nom au procédé d'imperméabilisation des tissus au caoutchouc ?",
    "choix": [
     "John Dunlop, en Écosse",
     "Charles Goodyear, aux États-Unis",
@@ -616,7 +616,7 @@
    "explication": "Le télescope spatial Hubble, fruit d'une coopération entre la NASA et l'Agence spatiale européenne, est placé en orbite basse par la navette Discovery en avril 1990. Un défaut de courbure de son miroir principal, découvert aussitôt, est corrigé lors d'une mission de service en 1993. Débarrassé de l'atmosphère, Hubble a fourni des images d'une netteté inédite et permis d'affiner la mesure de la constante de Hubble et donc l'âge de l'Univers. Les clichés dits « champs profonds » révèlent des milliers de galaxies dans une portion minuscule du ciel."
   },
   {
-   "q": "Quelle station spatiale internationale, assemblée à partir de 1998, est occupée en permanence depuis l'an 2000 ?",
+   "q": "Quelle station orbitale, assemblée à partir de 1998, est occupée en permanence depuis l'an 2000 ?",
    "choix": [
     "L'ISS",
     "Skylab",
@@ -652,7 +652,7 @@
    "explication": "Theodore Maiman fait fonctionner en mai 1960 le premier laser, à rubis, aux laboratoires Hughes. Le mot est l'acronyme anglais d'« amplification de la lumière par émission stimulée de rayonnement », un phénomène prédit par Einstein dès 1917. Le faisceau produit est monochromatique, directionnel et cohérent. Les applications sont innombrables : lecture des disques optiques, chirurgie de l'œil, télémétrie, découpe industrielle, fibres optiques. Charles Townes, Nikolaï Bassov et Alexandre Prokhorov reçurent le Nobel 1964 pour les travaux sur le maser et le laser."
   },
   {
-   "q": "Qui a mis au point le premier stimulateur cardiaque implantable et, plus largement, quelle décennie a vu cette avancée ?",
+   "q": "Qui met au point, dans les années 1950, le premier stimulateur cardiaque implantable ?",
    "choix": [
     "Les années 1970, avec Christiaan Barnard",
     "Les années 1950, avec Rune Elmqvist et Åke Senning",
@@ -829,7 +829,7 @@
     {
      "q": "Quelle innovation des frères Wright a rendu possible le vol contrôlé de 1903 ?",
      "choix": [
-      "Le gauchissement des ailes",
+      "Le pilotage sur trois axes, associant gouverne de direction et gauchissement des ailes",
       "L'hélice à pas variable",
       "Le moteur à réaction",
       "Le train d'atterrissage rétractable"

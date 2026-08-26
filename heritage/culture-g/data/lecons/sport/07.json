@@ -47,11 +47,12 @@
   },
   {
    "titre": "Les grandes figures de la Formule 1",
-   "texte": "L'histoire de la Formule 1 se lit à travers ses champions. L'Argentin Juan Manuel Fangio, sacré cinq fois entre 1951 et 1957 avec quatre écuries différentes, domine les années héroïques du championnat. L'Écossais Jim Clark, dans les années 1960, impressionne par sa maîtrise avant de se tuer en course en 1968. Le Britannique Jackie Stewart, triple champion, puis l'Autrichien Niki Lauda, également titré trois fois et revenu à la compétition après un accident où il fut gravement brûlé en 1976, marquent la décennie suivante. Les années 1980 et 1990 sont dominées par la rivalité entre le Français Alain Prost, surnommé le Professeur pour sa conduite calculatrice et sacré quatre fois entre 1985 et 1993, et le Brésilien Ayrton Senna, trois fois champion et considéré comme un pilote au talent exceptionnel sur un tour lancé. La mort de Senna à Imola, le 1er mai 1994, provoque une émotion mondiale. L'Allemand Michael Schumacher établit ensuite une domination sans précédent avec sept titres mondiaux, obtenus en 1994 et 1995 puis cinq années consécutives de 2000 à 2004, ces dernières au volant d'une Ferrari. Le Britannique Lewis Hamilton a par la suite égalé ce total de sept couronnes, la dernière obtenue en 2020. La Scuderia Ferrari, seule écurie présente sans interruption depuis 1950, demeure la plus titrée du championnat.",
+   "texte": "L'histoire de la Formule 1 se lit à travers ses champions. L'Argentin Juan Manuel Fangio, sacré cinq fois entre 1951 et 1957 avec quatre écuries différentes, domine les années héroïques du championnat. L'Écossais Jim Clark, dans les années 1960, impressionne par sa maîtrise avant de se tuer en course en 1968. Le Britannique Jackie Stewart, triple champion, puis l'Autrichien Niki Lauda, également titré trois fois et revenu à la compétition après un accident où il fut gravement brûlé en 1976, marquent la décennie suivante. Les années 1980 et 1990 sont dominées par la rivalité entre le Français Alain Prost, surnommé le Professeur pour sa conduite calculatrice et sacré quatre fois entre 1985 et 1993, et le Brésilien Ayrton Senna, trois fois champion et considéré comme un pilote au talent exceptionnel sur un tour lancé. La mort de Senna à Imola, le 1er mai 1994, provoque une émotion mondiale. L'Allemand Michael Schumacher établit ensuite une domination sans précédent avec sept titres mondiaux, obtenus en 1994 et 1995 puis cinq années consécutives de 2000 à 2004, ces dernières au volant d'une Ferrari. Le Britannique Lewis Hamilton a par la suite égalé ce total de sept couronnes, la dernière obtenue en 2020. Depuis, le Néerlandais Max Verstappen a remporté quatre titres consécutifs de 2021 à 2024, avant que le Britannique Lando Norris ne soit sacré en 2025. La Scuderia Ferrari, seule écurie présente sans interruption depuis 1950, demeure la plus titrée du championnat.",
    "visuel": {
     "type": "barres",
     "titre": "Les pilotes les plus titrés en Formule 1",
     "unite": "titres mondiaux",
+    "note": "Titres mondiaux au terme de la saison 2025.",
     "donnees": [
      {
       "label": "Michael Schumacher",
@@ -71,6 +72,10 @@
       "focus": true
      },
      {
+      "label": "Max Verstappen",
+      "valeur": 4
+     },
+     {
       "label": "Ayrton Senna",
       "valeur": 3
      },
@@ -87,7 +92,7 @@
   },
   {
    "titre": "L'endurance et le rallye",
-   "texte": "À côté des Grands Prix existent des formes de course très différentes. L'endurance privilégie la fiabilité et la régularité sur la vitesse pure. Les 24 Heures du Mans, créées en 1923 par l'Automobile Club de l'Ouest, en sont l'épreuve emblématique : sur le circuit de la Sarthe, long d'environ treize kilomètres et emprunté en partie sur des routes ouvertes le reste de l'année, des équipages de plusieurs pilotes se relaient jour et nuit pendant vingt-quatre heures. Le Belge Jacky Ickx, six fois vainqueur entre 1969 et 1982, et le Danois Tom Kristensen, détenteur du record avec neuf succès, en sont les figures les plus célèbres. Le rallye, lui, ne se dispute pas sur circuit mais sur des routes fermées à la circulation, appelées épreuves spéciales, dont les temps sont additionnés. Le pilote y est accompagné d'un copilote qui lui lit à voix haute des notes décrivant chaque virage à l'avance. Le rallye Monte-Carlo, disputé depuis 1911, en est le rendez-vous le plus prestigieux. Un championnat du monde des rallyes est instauré en 1973 ; le Français Sébastien Loeb y a remporté neuf titres consécutifs de 2004 à 2012, performance sans équivalent, avant que son compatriote Sébastien Ogier ne lui succède au palmarès. Le rallye-raid, dont le Paris-Dakar créé par Thierry Sabine à la fin des années 1970 est le symbole, ajoute la traversée du désert et la navigation.",
+   "texte": "À côté des Grands Prix existent des formes de course très différentes. L'endurance privilégie la fiabilité et la régularité sur la vitesse pure. Les 24 Heures du Mans, créées en 1923 par l'Automobile Club de l'Ouest, en sont l'épreuve emblématique : sur le circuit de la Sarthe, long d'environ treize kilomètres et emprunté en partie sur des routes ouvertes le reste de l'année, des équipages de plusieurs pilotes se relaient jour et nuit pendant vingt-quatre heures. Le Belge Jacky Ickx, six fois vainqueur entre 1969 et 1982, et le Danois Tom Kristensen, détenteur du record avec neuf succès, en sont les figures les plus célèbres. Le rallye, lui, ne se dispute pas sur circuit mais sur des routes fermées à la circulation, appelées épreuves spéciales, dont les temps sont additionnés. Le pilote y est accompagné d'un copilote qui lui lit à voix haute des notes décrivant chaque virage à l'avance. Le rallye Monte-Carlo, disputé depuis 1911, en est le rendez-vous le plus prestigieux. Un championnat du monde des rallyes est instauré en 1973 ; le Français Sébastien Loeb y a remporté neuf titres consécutifs de 2004 à 2012, performance sans équivalent, avant que son compatriote Sébastien Ogier ne lui succède au palmarès. Le rallye-raid, dont le Dakar est le symbole — créé par Thierry Sabine pour la fin de 1978 sous le nom de Paris-Dakar, il a quitté l'Afrique en 2009 et se dispute en Arabie saoudite depuis 2020 —, ajoute la traversée du désert et la navigation.",
    "visuel": {
     "type": "comparaison",
     "titre": "Endurance et rallye, deux façons de courir",

@@ -52,7 +52,7 @@
   },
   {
    "titre": "L'automobile, du jouet mécanique à l'objet de masse",
-   "texte": "L'automobile naît de la rencontre entre un moteur léger et un carburant énergétique. En 1769, le Français Joseph Cugnot construit un fardier à vapeur destiné à tracter des canons, curiosité lourde et peu maniable. La véritable rupture vient du moteur à combustion interne : Étienne Lenoir en propose une version au gaz en 1860, puis l'Allemand Nikolaus Otto met au point en 1876 le cycle à quatre temps qui reste le principe des moteurs à essence actuels, l'admission, la compression, la combustion et l'échappement. En 1886, Carl Benz dépose le brevet d'un tricycle à moteur généralement considéré comme la première automobile ; Gottlieb Daimler et Wilhelm Maybach travaillent au même moment sur des machines comparables, si bien que la paternité exacte de l'automobile reste discutée. Rudolf Diesel brevette en 1892 un moteur à allumage par compression, plus économe. Jusqu'au début du XXe siècle, la voiture reste un luxe artisanal. Henry Ford change l'échelle en lançant en 1908 le modèle T et en généralisant à partir de 1913 la chaîne de montage mobile : le temps d'assemblage tombe de plusieurs heures à environ une heure et demie, et le prix s'effondre. L'automobile de masse transforme les paysages, avec les routes goudronnées, les banlieues pavillonnaires et les stations-service, mais elle apporte aussi l'accident de la route, l'encombrement et la pollution atmosphérique.",
+   "texte": "L'automobile naît de la rencontre entre un moteur léger et un carburant énergétique. En 1769, le Français Joseph Cugnot construit un fardier à vapeur destiné à tracter des canons, curiosité lourde et peu maniable. La véritable rupture vient du moteur à combustion interne : Étienne Lenoir en propose une version au gaz en 1860, puis l'Allemand Nikolaus Otto met au point en 1876 le cycle à quatre temps qui reste le principe des moteurs à essence actuels, l'admission, la compression, la combustion et l'échappement. En 1886, Karl Benz dépose le brevet d'un tricycle à moteur généralement considéré comme la première automobile ; Gottlieb Daimler et Wilhelm Maybach travaillent au même moment sur des machines comparables, si bien que la paternité exacte de l'automobile reste discutée. Rudolf Diesel brevette en 1892 un moteur à allumage par compression, plus économe. Jusqu'au début du XXe siècle, la voiture reste un luxe artisanal. Henry Ford change l'échelle en lançant en 1908 le modèle T et en généralisant à partir de 1913 la chaîne de montage mobile : le temps d'assemblage tombe de plusieurs heures à environ une heure et demie, et le prix s'effondre. L'automobile de masse transforme les paysages, avec les routes goudronnées, les banlieues pavillonnaires et les stations-service, mais elle apporte aussi l'accident de la route, l'encombrement et la pollution atmosphérique.",
    "visuel": {
     "type": "etapes",
     "titre": "Le cycle à quatre temps mis au point par Otto en 1876",
@@ -133,18 +133,18 @@
    "q": "Quel ingénieur allemand met au point en 1876 le cycle à quatre temps encore utilisé dans les moteurs à essence ?",
    "choix": [
     "Rudolf Diesel",
-    "Carl Benz",
+    "Karl Benz",
     "Étienne Lenoir",
     "Nikolaus Otto"
    ],
    "bonne": 3,
    "difficulte": 2,
-   "explication": "Nikolaus Otto a réalisé en 1876 un moteur fonctionnant selon un cycle en quatre phases : admission du mélange, compression, combustion qui pousse le piston, puis échappement des gaz brûlés. Ce cycle porte encore son nom. Étienne Lenoir avait construit dès 1860 un moteur à combustion interne fonctionnant au gaz, mais sans compression préalable, ce qui le rendait peu performant. Carl Benz a appliqué le moteur à essence à un véhicule en 1886. Rudolf Diesel a breveté en 1892 un moteur différent, dans lequel l'allumage se produit par la seule compression de l'air, sans bougie."
+   "explication": "Nikolaus Otto a réalisé en 1876 un moteur fonctionnant selon un cycle en quatre phases : admission du mélange, compression, combustion qui pousse le piston, puis échappement des gaz brûlés. Ce cycle porte encore son nom. Étienne Lenoir avait construit dès 1860 un moteur à combustion interne fonctionnant au gaz, mais sans compression préalable, ce qui le rendait peu performant. Karl Benz a appliqué le moteur à essence à un véhicule en 1886. Rudolf Diesel a breveté en 1892 un moteur différent, dans lequel l'allumage se produit par la seule compression de l'air, sans bougie."
   },
   {
    "q": "Quel apport technique des frères Wright a été décisif pour réussir le premier vol motorisé contrôlé en 1903 ?",
    "choix": [
-    "La maîtrise du contrôle latéral grâce au gauchissement de l'aile",
+    "Le pilotage sur trois axes, associant gouverne de direction et gauchissement de l'aile",
     "L'invention du turboréacteur",
     "L'utilisation d'une cabine pressurisée",
     "L'emploi d'une structure entièrement métallique"

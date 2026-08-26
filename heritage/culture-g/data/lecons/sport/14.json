@@ -11,7 +11,7 @@
   },
   {
    "titre": "Alice Milliat et les Jeux mondiaux féminins",
-   "texte": "L'histoire du sport féminin doit beaucoup à une Française, Alice Milliat, née à Nantes en 1884 et morte en 1957. Sportive elle-même, rameuse accomplie, elle prend la présidence de la Fédération des sociétés féminines sportives de France, fondée en décembre 1917, et développe la pratique de l'athlétisme, du football, du basket-ball et de l'aviron chez les femmes. Se heurtant au refus catégorique opposé par Pierre de Coubertin en 1919 à l'ouverture de certaines disciplines olympiques aux femmes, elle choisit une stratégie audacieuse : créer une compétition mondiale concurrente. Elle fonde le 21 mars 1921 la Fédération sportive féminine internationale, puis organise à Paris, en août 1922, les premiers Jeux mondiaux féminins, qui attirent vingt mille spectateurs. L'épreuve devait d'abord s'appeler Jeux olympiques féminins, mais le président de la fédération internationale d'athlétisme s'opposa à l'usage du mot olympique. Quatre éditions se tiennent entre 1922 et 1934, à Paris, Göteborg, Prague et Londres, la participation passant de soixante-dix-sept athlètes venues de cinq pays à deux cent soixante-dix venues de dix-neuf pays. Cette pression fut décisive : elle obligea les instances internationales à intégrer les épreuves féminines d'athlétisme aux Jeux olympiques d'Amsterdam en 1928. Les Jeux mondiaux féminins disparurent ensuite, victimes de la maladie de leur fondatrice, des difficultés financières et d'une stratégie d'absorption menée par les institutions masculines.",
+   "texte": "L'histoire du sport féminin doit beaucoup à une Française, Alice Milliat, née à Nantes en 1884 et morte en 1957. Sportive elle-même, rameuse accomplie, elle est trésorière de la Fédération des sociétés féminines sportives de France, fondée en décembre 1917, avant d'en devenir présidente le 10 mars 1919 et de développer la pratique de l'athlétisme, du football, du basket-ball et de l'aviron chez les femmes. Se heurtant au refus catégorique opposé par Pierre de Coubertin en 1919 à l'ouverture de certaines disciplines olympiques aux femmes, elle choisit une stratégie audacieuse : créer une compétition mondiale concurrente. Elle fonde le 21 mars 1921 la Fédération sportive féminine internationale, puis organise à Paris, en août 1922, les premiers Jeux mondiaux féminins, qui attirent vingt mille spectateurs. L'épreuve devait d'abord s'appeler Jeux olympiques féminins, mais le président de la fédération internationale d'athlétisme s'opposa à l'usage du mot olympique. Quatre éditions se tiennent entre 1922 et 1934, à Paris, Göteborg, Prague et Londres, la participation passant de soixante-dix-sept athlètes venues de cinq pays à deux cent soixante-dix venues de dix-neuf pays. Cette pression fut décisive : elle obligea les instances internationales à intégrer les épreuves féminines d'athlétisme aux Jeux olympiques d'Amsterdam en 1928. Les Jeux mondiaux féminins disparurent ensuite, victimes de la maladie de leur fondatrice, des difficultés financières et d'une stratégie d'absorption menée par les institutions masculines.",
    "visuel": {
     "type": "frise",
     "titre": "Le bras de fer d'Alice Milliat",
@@ -19,7 +19,12 @@
      {
       "date": "1917",
       "label": "La Fédération des sociétés féminines sportives de France",
-      "texte": "Fondée en décembre ; Alice Milliat, rameuse accomplie, en prend la présidence et développe l'athlétisme, le football, le basket-ball et l'aviron féminins."
+      "texte": "Fondée en décembre ; Alice Milliat, rameuse accomplie, en est la trésorière."
+     },
+     {
+      "date": "10 mars 1919",
+      "label": "Alice Milliat devient présidente",
+      "texte": "Elle développe alors l'athlétisme, le football, le basket-ball et l'aviron féminins."
      },
      {
       "date": "1919",
@@ -51,7 +56,7 @@
   },
   {
    "titre": "Une conquête discipline par discipline",
-   "texte": "L'accès des femmes aux épreuves olympiques ne s'est pas fait d'un bloc, mais discipline par discipline, au terme de combats souvent longs. L'exemple du 800 mètres est particulièrement révélateur. L'épreuve féminine est disputée en 1928, lors des premiers Jeux ouverts à l'athlétisme féminin, mais l'état d'épuisement de certaines concurrentes à l'arrivée, largement exagéré par la presse de l'époque, sert d'argument pour déclarer les femmes inaptes aux courses de demi-fond. Le 800 mètres féminin est supprimé du programme olympique et n'y revient qu'en 1960, soit trente-deux ans plus tard ; il y figure sans interruption depuis. Le raisonnement se répète pour les longues distances : le marathon féminin n'est inscrit au programme qu'en 1984, aux Jeux de Los Angeles, où l'Américaine Joan Benoit s'impose en devançant de plus d'une minute la championne du monde en titre, la Norvégienne Grete Waitz, après avoir attaqué très tôt malgré la chaleur. Sa victoire a durablement démenti l'idée que les femmes ne pourraient pas soutenir un effort de longue durée. La boxe fut le dernier grand bastion : présente aux Jeux depuis 1904 chez les hommes, elle ne s'est ouverte aux femmes qu'en 2012, à Londres. Le mouvement s'est ensuite accéléré, le Comité international olympique ayant fait de la parité entre épreuves masculines et féminines un objectif explicite.",
+   "texte": "L'accès des femmes aux épreuves olympiques ne s'est pas fait d'un bloc, mais discipline par discipline, au terme de combats souvent longs. L'exemple du 800 mètres est particulièrement révélateur. L'épreuve féminine est disputée en 1928, lors des premiers Jeux ouverts à l'athlétisme féminin, mais l'état d'épuisement de certaines concurrentes à l'arrivée, largement exagéré par la presse de l'époque, sert d'argument pour déclarer les femmes inaptes aux courses de demi-fond. Le 800 mètres féminin est supprimé du programme olympique et n'y revient qu'en 1960, soit trente-deux ans plus tard ; il y figure sans interruption depuis. Le raisonnement se répète pour les longues distances : le marathon féminin n'est inscrit au programme qu'en 1984, aux Jeux de Los Angeles, où l'Américaine Joan Benoit s'impose en devançant de plus d'une minute la championne du monde en titre, la Norvégienne Grete Waitz, après avoir attaqué très tôt malgré la chaleur. Sa victoire a durablement démenti l'idée que les femmes ne pourraient pas soutenir un effort de longue durée. La boxe fut le dernier grand bastion : présente aux Jeux depuis 1904 chez les hommes, elle ne s'est ouverte aux femmes qu'en 2012, à Londres. Le mouvement s'est ensuite accéléré : après 2,2 % de femmes aux Jeux de Paris en 1900, 23 % à Los Angeles en 1984 et 48 % à Tokyo en 2021, les Jeux de Paris en 2024 ont été les premiers à répartir les quotas à parts égales, avec 5 250 athlètes de chaque sexe — la parité portant toutefois sur le nombre d'athlètes, Paris 2024 comptant encore 157 épreuves masculines pour 152 féminines, plus 20 mixtes.",
    "visuel": {
     "type": "tableau",
     "titre": "Quand les femmes ont eu accès à ces épreuves olympiques",
@@ -77,7 +82,7 @@
       "Le dernier grand bastion : le sport était olympique chez les hommes depuis 1904."
      ]
     ],
-    "note": "Le Comité international olympique a depuis fait de la parité entre épreuves masculines et féminines un objectif explicite."
+    "note": "Aux Jeux de Paris en 2024, le CIO a pour la première fois réparti les quotas à parts égales, 5 250 athlètes de chaque sexe — la parité portant sur les athlètes, non sur le nombre d'épreuves."
    }
   },
   {
@@ -96,7 +101,7 @@
    ],
    "bonne": 1,
    "difficulte": 2,
-   "explication": "La Britannique Charlotte Cooper est devenue le 11 juillet 1900, aux Jeux de Paris, la première femme à remporter un titre olympique dans une épreuve individuelle, en gagnant le simple de tennis face à la Française Hélène Prévost. Elle ajouta le même jour le titre en double mixte. Cooper était déjà une joueuse majeure de son époque, avec cinq victoires à Wimbledon entre 1895 et 1908, la dernière à trente-sept ans. Alice Milliat n'était pas une olympienne mais la dirigeante qui a créé les Jeux mondiaux féminins. Joan Benoit a gagné le premier marathon olympique féminin, mais en 1984, et Grete Waitz fut sa dauphine ce jour-là."
+   "explication": "La Britannique Charlotte Cooper est devenue le 11 juillet 1900, aux Jeux de Paris, la première femme à remporter un titre olympique dans une épreuve individuelle, en gagnant le simple de tennis face à la Française Hélène Prévost. Elle ajouta le même jour le titre en double mixte. Cooper était déjà une joueuse majeure de son époque, avec cinq victoires à Wimbledon entre 1895 et 1908, la dernière à trente-sept ans. Alice Milliat, elle, n'a jamais été elle-même olympienne : son rôle fut d'ordre institutionnel, non sportif. Joan Benoit a gagné le premier marathon olympique féminin, mais en 1984, et Grete Waitz fut sa dauphine ce jour-là."
   },
   {
    "q": "Quelle compétition Alice Milliat a-t-elle créée pour contourner le refus du Comité international olympique ?",
@@ -132,7 +137,7 @@
    ],
    "bonne": 3,
    "difficulte": 2,
-   "explication": "La boxe féminine n'est devenue olympique qu'en 2012, lors des Jeux de Londres. La boxe masculine, elle, était présente depuis 1904, aux Jeux de Saint-Louis, après avoir longtemps été jugée trop dangereuse pour figurer au programme. La boxe fut ainsi le dernier grand sport olympique à demeurer exclusivement masculin, ce qui en fait un symbole de la lenteur avec laquelle les disciplines de combat se sont ouvertes aux femmes. L'année 1984 correspond au premier marathon olympique féminin, remporté par l'Américaine Joan Benoit à Los Angeles. Depuis, le Comité international olympique a fait de la parité entre épreuves masculines et féminines un objectif affiché."
+   "explication": "La boxe féminine n'est devenue olympique qu'en 2012, lors des Jeux de Londres. La boxe masculine, elle, était présente depuis 1904, aux Jeux de Saint-Louis, après avoir longtemps été jugée trop dangereuse pour figurer au programme. La boxe fut ainsi le dernier grand sport olympique à demeurer exclusivement masculin, ce qui en fait un symbole de la lenteur avec laquelle les disciplines de combat se sont ouvertes aux femmes. L'année 1984 correspond au premier marathon olympique féminin, remporté par l'Américaine Joan Benoit à Los Angeles. Depuis, la parité a franchi une nouvelle étape : aux Jeux de Paris en 2024, le CIO a pour la première fois réparti les quotas de participation à parts égales entre hommes et femmes."
   },
   {
    "q": "Quelle affirmation décrit correctement une inégalité persistante dans le sport féminin ?",

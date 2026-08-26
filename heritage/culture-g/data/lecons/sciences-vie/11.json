@@ -37,7 +37,7 @@
   },
   {
    "titre": "Les premières semaines de la vie humaine",
-   "texte": "Chez l'être humain, la fécondation a lieu le plus souvent dans une trompe utérine. La cellule-œuf ne reste pas longtemps unique : elle se divise en deux cellules, qui se divisent à leur tour, formant un petit amas creux appelé blastocyste. Tout en se divisant, cet ensemble migre vers l'utérus, dont il s'implante dans la paroi environ une semaine après la fécondation : c'est la nidation. Se mettent alors en place trois feuillets embryonnaires, trois couches de cellules à partir desquelles se construiront toutes les structures du corps, du squelette au système nerveux. Le rythme du développement est saisissant : vers le vingt-quatrième jour après la fécondation, un cœur primitif s'est déjà formé et commence à battre, alors que l'embryon ne mesure encore que quelques millimètres. En parallèle se constituent le placenta et le cordon ombilical, qui relient l'embryon à sa mère. Le placenta est un organe d'échange remarquable : il permet au sang maternel de céder dioxygène et nutriments et de récupérer les déchets, sans que les deux circulations se mélangent. Passé le troisième mois, quand les organes principaux sont ébauchés, on ne parle plus d'embryon mais de fœtus : la suite du développement consistera surtout en une croissance et une maturation de ce qui existe déjà.",
+   "texte": "Chez l'être humain, la fécondation a lieu le plus souvent dans une trompe utérine. La cellule-œuf ne reste pas longtemps unique : elle se divise en deux cellules, qui se divisent à leur tour, formant un petit amas creux appelé blastocyste. Tout en se divisant, cet ensemble migre vers l'utérus, dont il s'implante dans la paroi environ une semaine après la fécondation : c'est la nidation. Se mettent alors en place trois feuillets embryonnaires, trois couches de cellules à partir desquelles se construiront toutes les structures du corps, du squelette au système nerveux. Le rythme du développement est saisissant : vers le vingt-quatrième jour après la fécondation, un cœur primitif s'est déjà formé et commence à battre, alors que l'embryon ne mesure encore que quelques millimètres. En parallèle se constituent le placenta et le cordon ombilical, qui relient l'embryon à sa mère. Le placenta est un organe d'échange remarquable : il permet au sang maternel de céder dioxygène et nutriments et de récupérer les déchets, sans que les deux circulations se mélangent. À partir de la neuvième semaine, soit au début du troisième mois, quand les organes principaux sont ébauchés, on ne parle plus d'embryon mais de fœtus : la suite du développement consistera surtout en une croissance et une maturation de ce qui existe déjà.",
    "visuel": {
     "type": "etapes",
     "titre": "Les premières semaines de la vie humaine",
@@ -63,8 +63,8 @@
       "texte": "Un cœur primitif s'est formé et commence à battre, alors que l'embryon ne mesure que quelques millimètres."
      },
      {
-      "label": "Après le 3e mois",
-      "texte": "Les organes principaux sont ébauchés : on parle désormais de fœtus, et le développement devient croissance et maturation."
+      "label": "Dès le début du 3e mois",
+      "texte": "À la neuvième semaine, les organes principaux sont ébauchés : on parle désormais de fœtus, et le développement devient croissance et maturation."
      }
     ]
    }
@@ -137,7 +137,7 @@
    ],
    "bonne": 1,
    "difficulte": 3,
-   "explication": "Vers le vingt-quatrième jour après la fécondation, un cœur primitif s'est déjà constitué et commence à battre, alors que l'embryon ne mesure encore que quelques millimètres. Ce démarrage très précoce s'explique par une nécessité : un organisme qui grandit ne peut plus se contenter d'une diffusion passive des substances, il lui faut un système de transport. Auparavant, la cellule-œuf s'est divisée en un amas creux, le blastocyste, qui s'implante dans la paroi de l'utérus environ une semaine après la fécondation. C'est seulement après le troisième mois, une fois les organes ébauchés, que l'on parle de fœtus."
+   "explication": "Vers le vingt-quatrième jour après la fécondation, un cœur primitif s'est déjà constitué et commence à battre, alors que l'embryon ne mesure encore que quelques millimètres. Ce démarrage très précoce s'explique par une nécessité : un organisme qui grandit ne peut plus se contenter d'une diffusion passive des substances, il lui faut un système de transport. Auparavant, la cellule-œuf s'est divisée en un amas creux, le blastocyste, qui s'implante dans la paroi de l'utérus environ une semaine après la fécondation. C'est dès le début du troisième mois, à la neuvième semaine, une fois les organes ébauchés, que l'on parle de fœtus."
   },
   {
    "q": "Quelle est la durée moyenne de la grossesse humaine à partir de la fécondation ?",

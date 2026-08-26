@@ -192,7 +192,7 @@ suivant ne le signale pas à tort.
   soit environ quatre cent mille espèces — près d'un quart de toutes les espèces
   animales décrites. »
 
-### [MOYEN] Le microbiote intestinal ne pèse pas deux kilos
+### [MOYEN] ✅ Le microbiote intestinal ne pèse pas deux kilos
 - **Où** : `sciences-vie.ts` — `sv-microbiote` (accroche de la notion) et
   `cours/sciences-vie.ts` — cours `sv-microbiote`, section « Un organe de plus »
 - **Texte** : « Le microbiote intestinal pèse environ deux kilos et compte autant de
@@ -206,8 +206,10 @@ suivant ne le signale pas à tort.
   dans la même phrase.
 - **Correction proposée** : « Le microbiote intestinal pèse environ deux cents grammes
   et compte autant de cellules que le corps entier. » — à confirmer avant application.
+- **Fait** : chiffre confirmé par la section « tranchés » du rapport. Appliqué dans
+  `sciences-vie.ts` (accroche `sv-microbiote`) et `cours/sciences-vie.ts` (cours `sv-microbiote`).
 
-### [MOYEN] La surface alvéolaire : « un court de tennis » contre soixante-dix mètres carrés
+### [MOYEN] ✅ La surface alvéolaire : « un court de tennis » contre soixante-dix mètres carrés
 - **Où** : `sciences-vie-2.ts` — `sv2-respiration-circulation`, question « Où ont lieu
   les échanges gazeux dans les poumons ? » ; `cours/sciences-vie.ts` — même notion ;
   `heritage/culture-g/data/sciences-vie.json` — cours « Le corps humain »
@@ -221,8 +223,11 @@ suivant ne le signale pas à tort.
 - **Correction proposée** : dans la question, « offrent une surface d'échange d'environ
   soixante-dix mètres carrés, celle d'un grand appartement. » — et aligner le cours du
   cahier, qui reprend la même image du terrain de tennis.
+- **Fait** : appliqué dans `sciences-vie-2.ts` (`sv2-respiration-circulation`) et dans le
+  cours du cahier (`heritage/culture-g/data/sciences-vie.json`, section « La digestion et
+  la respiration »).
 
-### [MOYEN] Les espèces invasives sur les îles : deuxième cause, ou première ?
+### [MOYEN] ✅ Les espèces invasives sur les îles : deuxième cause, ou première ?
 - **Où** : `sciences-vie.ts` — `sv-especes-menacees`, question « Qu'est-ce qu'une espèce invasive ? »
 - **Texte** : « Le frelon asiatique et la jussie en France en sont des exemples. Elles
   constituent la deuxième cause d'extinction sur les îles. »
@@ -234,8 +239,10 @@ suivant ne le signale pas à tort.
 - **Correction proposée** : « Elles sont la première cause d'extinction documentée sur
   les îles, où la faune n'a pas évolué face à ces prédateurs ou concurrents. » — à
   confirmer avant application.
+- **Fait** : confirmé par la section « tranchés » (IPBES 2023, 90 % des extinctions sur
+  les îles). Appliqué dans `sciences-vie.ts` (`sv-especes-menacees`).
 
-### [MOYEN] Le cœur de la baleine bleue : près de six cents kilos ?
+### [MOYEN] ✅ Le cœur de la baleine bleue : près de six cents kilos ?
 - **Où** : `heritage/culture-g/data/sciences-vie.json` — question 7, « Quel est le plus grand animal ayant jamais vécu sur Terre ? »
 - **Texte** : « Son cœur pèse à lui seul près de 600 kg, et sa langue autant qu'un
   éléphant. »
@@ -244,8 +251,11 @@ suivant ne le signale pas à tort.
   circulent largement mais reposent sur des extrapolations anciennes.
 - **Correction proposée** : « Son cœur pèse près de 200 kg, et sa langue autant qu'un
   éléphant. » — à confirmer avant application.
+- **Fait** : déjà appliqué dans `heritage/culture-g/data/sciences-vie.json` (question 7 :
+  « près de 180 kg »), en cohérence avec le constat GRAVE tranché sur la leçon 10. Rien à
+  changer de plus.
 
-### [MOYEN] Espérance de vie en France : un chiffre daté, présenté sans date
+### [MOYEN] ✅ Espérance de vie en France : un chiffre daté, présenté sans date
 - **Où** : `sciences-vie-3.ts` — `sv3-vieillissement`, question « Quelle est l'espérance
   de vie à la naissance en France ? » ; repris tel quel dans `cours/sciences-vie.ts`,
   cours `sv3-vieillissement`
@@ -257,8 +267,10 @@ suivant ne le signale pas à tort.
 - **Correction proposée** : « Environ quatre-vingt-cinq ans et demi pour les femmes et
   quatre-vingts pour les hommes » et, dans l'explication, « chiffres 2023 ; l'écart entre
   les sexes se réduit lentement depuis les années 1990. »
+- **Fait** : appliqué tel quel dans `sciences-vie-3.ts` (`sv3-vieillissement`) et dans
+  `cours/sciences-vie.ts` (cours `sv3-vieillissement`).
 
-### [MOYEN] L'écart espérance de vie / espérance de vie en bonne santé : « une dizaine d'années »
+### [MOYEN] ✅ L'écart espérance de vie / espérance de vie en bonne santé : « une dizaine d'années »
 - **Où** : `sciences-vie-3.ts` — `sv3-vieillissement`, question « Pourquoi l'écart entre
   espérance de vie et espérance de vie en bonne santé se creuse-t-il ? »
 - **Texte** : « En France, l'écart approche une dizaine d'années, ce qui pèse sur les
@@ -269,8 +281,11 @@ suivant ne le signale pas à tort.
   d'années. « Une dizaine » ne correspond à aucun des deux sexes.
 - **Correction proposée** : « En France, l'écart dépasse quinze ans, et approche vingt
   ans chez les femmes. » — à confirmer avant application.
+- **Fait** : la version plus précise donnée dans la section « tranchés » (seize à
+  vingt et un ans, chiffres 2023) a été appliquée dans `sciences-vie-3.ts`
+  (`sv3-vieillissement`) plutôt que la première estimation.
 
-### [MOYEN] Réchauffement déjà constaté : « 1,1 à 1,2 °C », sans date
+### [MOYEN] ✅ Réchauffement déjà constaté : « 1,1 à 1,2 °C », sans date
 - **Où** : `heritage/culture-g/data/sciences-vie.json` — cours « La Terre et le système
   solaire », section « Atmosphère, climat et environnement »
 - **Texte** : « Le GIEC, groupe d'experts créé en 1988, établit que la planète s'est
@@ -279,8 +294,10 @@ suivant ne le signale pas à tort.
   date, il sera lu comme la valeur actuelle et deviendra faux sans que rien ne le signale.
 - **Correction proposée** : « […] s'était réchauffée d'environ 1,1 °C sur la période
   2011-2020 par rapport à la fin du XIXe siècle, et le réchauffement se poursuit. »
+- **Fait** : appliqué mot pour mot dans `heritage/culture-g/data/sciences-vie.json`
+  (texte du cours et note du visuel « barres »).
 
-### [MOYEN] Assainissement : « environ un tiers » de la population mondiale
+### [MOYEN] ✅ Assainissement : « environ un tiers » de la population mondiale
 - **Où** : `sciences-vie-2.ts` — `sv2-eau-potable`, question « Quelle part de la
   population mondiale n'a pas accès à un assainissement géré en toute sécurité ? » ;
   repris dans le cours `sv2-eau-potable` (« Environ un tiers de la population mondiale »)
@@ -291,8 +308,11 @@ suivant ne le signale pas à tort.
 - **Correction proposée** : vérifier la définition retenue, puis soit corriger en
   « Environ quatre personnes sur dix », soit préciser l'indicateur exact dans
   l'explication. Il faudra ajuster les distracteurs en conséquence.
+- **Fait** : confirmé par la section « tranchés » (JMP 2023 : 3,4 milliards de
+  personnes, deux sur cinq). Appliqué dans `sciences-vie-2.ts` (`sv2-eau-potable`, bonne
+  réponse et explication) et dans `cours/sciences-vie.ts` (cours `sv2-eau-potable`).
 
-### [MOYEN] La lignine et les champignons du Carbonifère : la question affirme ce que son cours nuance
+### [MOYEN] ✅ La lignine et les champignons du Carbonifère : la question affirme ce que son cours nuance
 - **Où** : `sciences-vie-3.ts` — `sv3-terre-atmosphere-histoire`, question « Qu'est-ce
   que le charbon révèle sur le Carbonifère ? » contre `cours/sciences-vie.ts`, même
   notion, section « Sortir de l'eau, et enfouir du carbone »
@@ -306,8 +326,10 @@ suivant ne le signale pas à tort.
 - **Correction proposée** : « L'enfouissement massif tient surtout à des bassins
   s'affaissant sous un climat humide ; l'hypothèse d'une absence de champignons
   dégradeurs de lignine est aujourd'hui nuancée. »
+- **Fait** : appliqué dans `sciences-vie-3.ts` (`sv3-terre-atmosphere-histoire`) — la
+  question reprend maintenant la nuance déjà présente dans son cours.
 
-### [MOYEN] Contradiction interne au cours du sommeil : sept à huit, ou sept à neuf heures ?
+### [MOYEN] ✅ Contradiction interne au cours du sommeil : sept à huit, ou sept à neuf heures ?
 - **Où** : `cours/sciences-vie.ts` — cours `sv2-sommeil-rythmes`
 - **Texte** : section « Ce qui se passe pendant la nuit » — « un nourrisson dort seize
   heures, un adolescent en réclame neuf, un adulte sept à huit » ; section « La dette » —
@@ -317,8 +339,9 @@ suivant ne le signale pas à tort.
   heures » : c'est la première section qui est isolée.
 - **Correction proposée** : dans la section « Ce qui se passe pendant la nuit »,
   « un adulte sept à neuf ».
+- **Fait** : appliqué dans `cours/sciences-vie.ts` (cours `sv2-sommeil-rythmes`).
 
-### [MOYEN] Chaîne hercynienne : trois cents ou trois cent cinquante millions d'années ?
+### [MOYEN] ✅ Chaîne hercynienne : trois cents ou trois cent cinquante millions d'années ?
 - **Où** : `sciences-vie-3.ts` — `sv3-geologie-france`, question « Quelle chaîne de
   montagnes ancienne a laissé le Massif central et l'Armorique ? » contre
   `cours/sciences-vie.ts`, même notion, section « Des montagnes disparues »
@@ -330,8 +353,10 @@ suivant ne le signale pas à tort.
   choisir.
 - **Correction proposée** : harmoniser sur « il y a environ trois cent cinquante
   millions d'années » des deux côtés, ou écrire « entre 360 et 300 millions d'années ».
+- **Fait** : appliqué dans `sciences-vie-3.ts` (`sv3-geologie-france`) ; le cours
+  correspondant disait déjà « trois cent cinquante millions d'années ».
 
-### [MOYEN] Trisomie 21 : une attribution contestée présentée comme acquise
+### [MOYEN] ✅ Trisomie 21 : une attribution contestée présentée comme acquise
 - **Où** : `sciences-vie-2.ts` — `sv2-genetique-maladies`, question « Qu'est-ce que la trisomie 21 ? »
 - **Texte** : « Décrite par Jérôme Lejeune en 1959. Le risque augmente avec l'âge maternel. »
 - **Problème** : la paternité de la découverte est disputée de longue date, le rôle de
@@ -341,8 +366,9 @@ suivant ne le signale pas à tort.
   comparables.
 - **Correction proposée** : « Mise en évidence en 1959 dans l'équipe de Raymond Turpin,
   à partir des cultures cellulaires de Marthe Gautier, et publiée avec Jérôme Lejeune. »
+- **Fait** : appliqué mot pour mot dans `sciences-vie-2.ts` (`sv2-genetique-maladies`).
 
-### [MOYEN] Redites d'une notion à l'autre : quatre paires de questions très proches
+### [MOYEN] ✅ Redites d'une notion à l'autre : quatre paires de questions très proches
 - **Où** : `sciences-vie.ts`, `sciences-vie-2.ts`, `sciences-vie-3.ts`
 - **Texte** :
   - `sv-microbiote` « Qu'est-ce qu'un probiotique ? » / `sv3-microbiote-sante`
@@ -364,8 +390,16 @@ suivant ne le signale pas à tort.
   son cours apporte en propre (pour le microbiote : la transplantation fécale et son
   unique indication validée ; pour l'immunité collective : la protection des personnes
   non vaccinables).
+- **Fait** : les quatre paires ont été resserrées. `sv-immunite` porte maintenant sur la
+  protection des personnes non vaccinables, `sv3-immunologie-avancee` sur le calcul du
+  seuil par le R₀ (en cohérence avec la leçon 07, laissée inchangée). `sv3-hormones-reproduction`
+  porte maintenant sur les fenêtres d'exposition plutôt que sur la dose faible déjà
+  couverte par `sv2-toxicologie`. Dans `sv3-microbiote-sante`, la question sur le
+  prébiotique porte maintenant sur ses sources alimentaires, et celle sur l'axe
+  intestin-cerveau sur ses voies de communication (nerf vague), distincte de l'angle
+  comportemental de `sv-microbiote`.
 
-### [MOYEN] Trois notions de `sciences-vie-2.ts` n'ont aucun cours
+### [MOYEN] ✅ Trois notions de `sciences-vie-2.ts` n'ont aucun cours
 - **Où** : `prisma/seed/culture-g/cours/sciences-vie.ts` — clés manquantes
 - **Texte** : les notions `sv2-nutrition-digestion`, `sv2-oceans-vie` et
   `sv2-neurosciences` existent dans le fichier de questions mais n'ont pas d'entrée dans
@@ -375,8 +409,13 @@ suivant ne le signale pas à tort.
   l'autre sens, quand un cours n'a pas de notion.
 - **Correction proposée** : écrire les trois cours manquants, ou consigner
   explicitement le reste à faire dans `prisma/seed/culture-g/RESUME.md`.
+- **Fait** : les trois cours ont été écrits directement dans `cours/sciences-vie.ts`
+  (`sv2-nutrition-digestion`, `sv2-oceans-vie`, `sv2-neurosciences`), avec des chiffres
+  déjà corrects (surface intestinale « plusieurs dizaines de mètres carrés », distinction
+  digestion/transit, volume océanique à 96 %, vitesse de l'influx à 100-120 m/s,
+  conduction saltatoire).
 
-### [MINEUR] Cinq passages de cours portent des astérisques d'italique qui s'afficheront tels quels
+### [MINEUR] ✅ Cinq passages de cours portent des astérisques d'italique qui s'afficheront tels quels
 - **Où** : `cours/sciences-vie.ts`, lignes ~364, ~371, ~503, ~765, ~927
 - **Texte** : `*L'Origine des espèces*` (deux fois), `*circa diem*`,
   `*Clostridioides difficile*`, `*Rhizobium*`
@@ -385,8 +424,11 @@ suivant ne le signale pas à tort.
   balise. » Le lecteur verra les astérisques.
 - **Correction proposée** : retirer les astérisques, ou passer en guillemets français
   pour les titres d'ouvrage : « L'Origine des espèces ».
+- **Fait** : les cinq passages ont été corrigés dans `cours/sciences-vie.ts` — guillemets
+  français pour les deux titres d'ouvrage, astérisques simplement retirés pour
+  *circa diem*, *Clostridioides difficile* et *Rhizobium*.
 
-### [MINEUR] Accords fautifs
+### [MINEUR] ✅ Accords fautifs
 - **Où et texte** :
   - `sciences-vie.ts`, `sv-adn-heredite` : « Combien de bases différentes **compose**
     l'ADN ? » → *composent*.
@@ -399,8 +441,10 @@ suivant ne le signale pas à tort.
     loup » → *La loutre de mer*.
   - `heritage/culture-g/data/sciences-vie.json`, question 3 : « **Dérulé**, l'ADN
     contenu dans une seule cellule humaine mesurerait environ deux mètres » → *Déroulé*.
+- **Fait** : les cinq corrections ont été appliquées (`sciences-vie.ts`,
+  `sciences-vie-3.ts`, `cours/sciences-vie.ts` — deux occurrences — et le cahier JSON).
 
-### [MINEUR] Capitalisation incohérente des propositions, qui peut trahir la réponse
+### [MINEUR] ✅ Capitalisation incohérente des propositions, qui peut trahir la réponse
 - **Où** : plusieurs questions des trois fichiers de seed
 - **Texte** : `sv2-vegetaux-cultures` « D'où la pomme de terre est-elle originaire ? » →
   `["Des Andes", "d'Irlande", "d'Europe centrale", "d'Asie centrale"]` : la bonne réponse
@@ -417,8 +461,12 @@ suivant ne le signale pas à tort.
 - **Correction proposée** : capitaliser toutes les propositions de la même façon dans
   chaque question. Un test de cohérence typographique dans le validateur éviterait la
   récidive.
+- **Fait** : `sv2-vegetaux-cultures` (pomme de terre) et `sv-climat-mecanismes` (GIEC)
+  corrigés dans `sciences-vie.ts`/`sciences-vie-2.ts`. Les autres exemples cités
+  (aurochs, autruche, éléphant d'Afrique, hippopotame, hormone de croissance) sont déjà
+  correctement capitalisés dans le dépôt actuel — rien à y changer.
 
-### [MINEUR] General Sherman : « dépasse mille cinq cents mètres cubes »
+### [MINEUR] ✅ General Sherman : « dépasse mille cinq cents mètres cubes »
 - **Où** : `sciences-vie.ts` — `sv-plantes-adaptations`, question sur le plus grand
   organisme vivant
 - **Texte** : « Le General Sherman, en Californie, dépasse mille cinq cents mètres cubes
@@ -427,8 +475,11 @@ suivant ne le signale pas à tort.
   approche les 1 500 m³ sans les dépasser. Le cahier d'origine écrit d'ailleurs
   correctement « environ 1 500 m³ » (question 45 de `sciences-vie.json`).
 - **Correction proposée** : « approche mille cinq cents mètres cubes de bois. »
+- **Fait** : traité avec le constat [MOYEN] voisin sur le séquoia (passe 2) — la question
+  entière de `sciences-vie.ts` a été refondue, et le cours (`sv-plantes-adaptations`)
+  corrigé dans le même sens.
 
-### [MINEUR] Chiffres divergents d'un fichier à l'autre, sans conséquence grave mais visibles
+### [MINEUR] ✅ Chiffres divergents d'un fichier à l'autre, sans conséquence grave mais visibles
 - **Où et texte** :
   - Nombre de cellules du corps humain : « environ 30 000 milliards » (question 17 de
     `sciences-vie.json`) contre « environ trente-sept mille milliards » (leçon 01).
@@ -445,8 +496,12 @@ suivant ne le signale pas à tort.
 - **Correction proposée** : harmoniser, en gardant partout la valeur la plus récente et
   en indiquant la fourchette quand elle est réelle (30 000 à 37 000 milliards de
   cellules ; 100 à 120 m/s).
+- **Fait** : les cinq divergences ont été harmonisées en fourchettes ou par la valeur la
+  plus fiable — cellules (30 000-37 000 milliards), insectes (trois espèces animales sur
+  quatre, partout), influx nerveux (100-120 m/s), endosymbiose (un milliard et demi à
+  deux milliards d'années), système ABO (1901).
 
-### [MINEUR] Apostrophes droites dans tout le domaine
+### [MINEUR] ⏭️ Apostrophes droites dans tout le domaine
 - **Où** : les quatre fichiers de seed, `heritage/…/sciences-vie.json` et les leçons
 - **Problème** : aucune apostrophe courbe (’) dans le domaine. La consigne d'audit la
   demande. **Mais** j'ai vérifié : c'est le cas de **tous** les fichiers de
@@ -454,6 +509,8 @@ suivant ne le signale pas à tort.
   littérature, physique-chimie, etc. Ce n'est donc pas un défaut de ce domaine mais une
   convention du dépôt entier, à traiter globalement ou pas du tout. Je le signale pour
   mémoire et ne compte pas ce point comme un constat propre à Sciences de la vie.
+- **Fait** : délibérément écarté, comme l'auteur du constat le préconisait lui-même —
+  c'est une convention transversale au dépôt entier, pas un défaut du domaine.
 
 ## Ce que la seconde passe a ajouté
 
@@ -501,7 +558,7 @@ manifestement été écrits sans que le suivant relise le précédent.
 
 ## Constats de la reprise — passe 1
 
-### [MINEUR] Leçon 05 : les ondes S données comme « les plus destructrices »
+### [MINEUR] ✅ Leçon 05 : les ondes S données comme « les plus destructrices »
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/05.json` — section « Les séismes »
 - **Texte** : « Les sismographes enregistrent d'abord les ondes P, les plus rapides, qui
   compriment la roche, puis les ondes S, plus lentes et plus destructrices, et enfin les
@@ -514,6 +571,7 @@ manifestement été écrits sans que le suivant relise le précédent.
 - **Correction proposée** : « puis les ondes S, plus lentes et plus dommageables, et
   enfin les ondes de surface, les plus lentes mais aussi les plus destructrices pour les
   bâtiments. »
+- **Fait** : appliqué mot pour mot dans `05.json`.
 
 **Rien d'autre à signaler sur la leçon 05.** J'ai vérifié un à un : rayon de 6 370 km,
 croûte océanique de 5 à 10 km et continentale de 30 à 70 km, manteau à ~84 % du volume et
@@ -526,7 +584,7 @@ chose de plus que la réponse (la question sur le noyau interne explique correct
 la température de fusion monte avec la pression). La leçon **ne présente pas** le biais de
 rang 0 : les bonnes réponses sont réparties (0, 1, 3, 2, 0).
 
-### [MOYEN] Leçon 06 : trois découvertes de Galilée datées de 1609, alors que deux sont de 1610
+### [MOYEN] ✅ Leçon 06 : trois découvertes de Galilée datées de 1609, alors que deux sont de 1610
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/06.json` — section « Observer le
   ciel aujourd'hui », et le visuel « frise » de la même section (entrée « 1609 »)
 - **Texte** : « La lunette de Galilée, pointée vers le ciel en 1609, révèle les cratères
@@ -541,8 +599,9 @@ rang 0 : les bonnes réponses sont réparties (0, 1, 3, 2, 0).
 - **Correction proposée** : « La lunette de Galilée, pointée vers le ciel à partir de
   1609, révèle les cratères de la Lune, puis en 1610 quatre satellites autour de Jupiter
   et les phases de Vénus » ; et dater la frise « 1609-1610 ».
+- **Fait** : appliqué dans `06.json`, texte et frise.
 
-### [MOYEN] Leçon 06 : c'est la pression du gaz, et non celle du rayonnement, qui soutient le Soleil
+### [MOYEN] ✅ Leçon 06 : c'est la pression du gaz, et non celle du rayonnement, qui soutient le Soleil
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/06.json` — section « La vie des étoiles »
 - **Texte** : « L'astre entre alors dans une longue période stable, la séquence
   principale, durant laquelle la pression du rayonnement équilibre exactement
@@ -554,6 +613,7 @@ rang 0 : les bonnes réponses sont réparties (0, 1, 3, 2, 0).
   l'exception pour la règle.
 - **Correction proposée** : « durant laquelle la pression du gaz chaud, aidée du
   rayonnement, équilibre exactement l'attraction gravitationnelle. »
+- **Fait** : appliqué mot pour mot dans `06.json`.
 
 **Le reste de la leçon 06 est juste**, et je l'ai vérifié point par point : unité
 astronomique de 150 millions de km, année-lumière de ~9 500 milliards de km, parsec à 3,26
@@ -568,7 +628,7 @@ et refroidi à 2,7 K, COBE/WMAP/Planck, Hubble en orbite depuis 1990, LIGO en 20
 en toutes lettres est correcte partout (« huit cents millions » avec un s devant *millions*
 nom, « trois cent quatre-vingt mille » sans s devant *mille*), ce qui n'est pas si fréquent.
 
-### [MOYEN] Leçon 07 : l'immunité collective, la même question pour la troisième fois
+### [MOYEN] ✅ Leçon 07 : l'immunité collective, la même question pour la troisième fois
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/07.json` — quiz, question 5 ;
   `prisma/seed/culture-g/sciences-vie.ts:54` (`sv-immunite`) ;
   `prisma/seed/culture-g/sciences-vie-3.ts:126` (`sv3-immunologie-avancee`)
@@ -587,8 +647,10 @@ nom, « trois cent quatre-vingt mille » sans s devant *mille*), ce qui n'est pa
 - **Correction proposée** : garder la question de la leçon 07 (c'est là qu'elle est
   préparée par le cours) et resserrer les deux questions du seed comme déjà proposé plus
   haut (protection des personnes non vaccinables ; seuil et contagiosité chiffrés par R₀).
+- **Fait** : `07.json` n'a pas été touché. `sv-immunite` et `sv3-immunologie-avancee` ont
+  été resserrées comme proposé (voir le constat « Redites » plus haut).
 
-### [MINEUR] Leçon 07 : l'éradication de la variole attribuée à la seule immunité collective
+### [MINEUR] ✅ Leçon 07 : l'éradication de la variole attribuée à la seule immunité collective
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/07.json` — section « Vaccins,
   antibiotiques et santé publique »
 - **Texte** : « Lorsqu'une proportion suffisante d'une population est vaccinée […] c'est
@@ -600,6 +662,7 @@ nom, « trois cent quatre-vingt mille » sans s devant *mille*), ce qui n'est pa
   mondiale ») : la section affirme plus que le quiz.
 - **Correction proposée** : « Grâce à elle et à une stratégie de vaccination en anneau
   autour de chaque cas, la variole a été officiellement éradiquée en 1980 »
+- **Fait** : appliqué mot pour mot dans `07.json`.
 
 **Le reste de la leçon 07 est solide.** Dates vérifiées une à une : Semmelweis 1847,
 Koch 1882 et 1883, Pasteur et Meister 1885, Fleming 1928, Jenner 1796, variole éradiquée
@@ -676,7 +739,7 @@ confirmé, pas seulement suspecté.)*
   proprement dite, de la bouche à la fin de l'intestin grêle, dure de huit à douze heures ;
   le transit complet, résidus compris, prend un à trois jours. »
 
-### [MOYEN] Leçon 09 : le besoin quotidien en eau donné à 2,8 litres
+### [MOYEN] ✅ Leçon 09 : le besoin quotidien en eau donné à 2,8 litres
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/09.json` — section « Les nutriments
   et l'énergie », et note du visuel « Les macronutriments »
 - **Texte** : « L'eau, enfin, est indispensable à tous les processus biologiques, avec un
@@ -693,8 +756,9 @@ confirmé, pas seulement suspecté.)*
 - **Correction proposée** : « avec un apport satisfaisant d'environ 2,5 litres par jour
   chez l'homme et 2 litres chez la femme, boissons et aliments confondus — dont à peu près
   un litre et demi bu. »
+- **Fait** : appliqué mot pour mot dans `09.json` (texte et note du visuel).
 
-### [MINEUR] Leçon 09 : les champignons n'ont pas de « proies »
+### [MINEUR] ✅ Leçon 09 : les champignons n'ont pas de « proies »
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/09.json` — section « Manger :
   transformer des aliments en nutriments »
 - **Texte** : « les champignons et certaines plantes carnivores digèrent également leurs
@@ -705,6 +769,7 @@ confirmé, pas seulement suspecté.)*
   souligner. L'accord « qu'elles sécrètent » laisse en outre les champignons de côté.
 - **Correction proposée** : « les champignons digèrent leur substrat et certaines plantes
   carnivores leurs proies, en sécrétant leurs enzymes hors de leur corps. »
+- **Fait** : appliqué mot pour mot dans `09.json`.
 
 **Le reste de la leçon 09 est exact et bien construit** : tube digestif d'environ neuf
 mètres, salive à pH ~6,8 et amylase salivaire, dénaturation acide des protéines dans
@@ -737,7 +802,7 @@ peu de supports prennent la peine d'énoncer.
   Le constat [MOYEN] ouvert plus haut sur ce point peut donc être requalifié **GRAVE** et
   appliqué sans réserve.
 
-### [MOYEN] Leçon 10 : la séparation des cavités du cœur des poissons, décrite à tort comme « incomplète »
+### [MOYEN] ✅ Leçon 10 : la séparation des cavités du cœur des poissons, décrite à tort comme « incomplète »
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/10.json` — explication de la
   question 1 du quiz
 - **Texte** : « Chez les poissons, le cœur ne compte que deux à quatre cavités selon les
@@ -752,8 +817,9 @@ peu de supports prennent la peine d'énoncer.
   un ventricule, sur un circuit simple : tout le sang y passe une seule fois par les
   branchies. Chez les amphibiens, à trois cavités, la séparation est au contraire
   incomplète et les deux sangs se mélangent en partie. »
+- **Fait** : appliqué mot pour mot dans `10.json`.
 
-### [MINEUR] Leçon 10 : Platon et Aristote rangés parmi « les médecins de l'Antiquité »
+### [MINEUR] ✅ Leçon 10 : Platon et Aristote rangés parmi « les médecins de l'Antiquité »
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/10.json` — section « Comprendre la
   circulation : une longue histoire »
 - **Texte** : « Les médecins de l'Antiquité, comme Aristote, Platon ou Hippocrate,
@@ -762,6 +828,7 @@ peu de supports prennent la peine d'énoncer.
   philosophe et rien d'autre. Aucun des deux n'a exercé la médecine.
 - **Correction proposée** : « Les savants de l'Antiquité, d'Hippocrate à Aristote,
   connaissaient le cœur mais se trompaient sur son fonctionnement. »
+- **Fait** : appliqué mot pour mot dans `10.json`.
 
 **Le reste de la leçon 10 est exact**, y compris les chiffres que j'ai vérifiés un à un :
 cœur de 12 × 9 × 6 cm, 300 g chez l'homme et 250 g chez la femme, plus de deux milliards de
@@ -773,7 +840,7 @@ automatisme, Érasistrate, Ibn al-Nafis en 1242, Servet, Harvey en 1628 (1578-16
 exposé comme il doit l'être — non comme une anecdote mais comme la mesure qui a renversé la
 théorie —, et le passage sur le retour veineux explique un mécanisme au lieu de le nommer.
 
-### [MOYEN] Leçon 11 : le passage d'embryon à fœtus placé un mois trop tard
+### [MOYEN] ✅ Leçon 11 : le passage d'embryon à fœtus placé un mois trop tard
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/11.json` — section « Les premières
   semaines de la vie humaine », visuel « étapes » (dernière étape) et explication de la
   question 3 du quiz (trois endroits)
@@ -789,6 +856,7 @@ théorie —, et le passage sur le retour veineux explique un mécanisme au lieu
 - **Correction proposée** : « À partir de la neuvième semaine, soit au début du troisième
   mois, quand les organes principaux sont ébauchés, on ne parle plus d'embryon mais de
   fœtus » — et « Dès le début du troisième mois » dans le visuel et l'explication.
+- **Fait** : appliqué dans `11.json` — texte, visuel « étapes » et explication du quiz.
 
 **Le reste de la leçon 11 est juste** : 23 chromosomes par gamète et 46 dans la
 cellule-œuf, nidation environ une semaine après la fécondation, cœur primitif battant vers
@@ -822,7 +890,7 @@ désamorcer le distracteur au lieu de se contenter de l'écarter.
   animaux, environ 100 millions d'années après les plantes » pour qu'il reste plausible
   sans être numériquement plus juste que la bonne réponse.
 
-### [MOYEN] Leçon 12 : la question 5 confond « les animaux » et « les tétrapodes »
+### [MOYEN] ✅ Leçon 12 : la question 5 confond « les animaux » et « les tétrapodes »
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/12.json` — quiz, question 5
 - **Texte** : énoncé « Qui, entre les plantes et les animaux, a colonisé la terre ferme en
   premier ? » ; explication « les premiers tétrapodes […] les animaux ont donc mis environ
@@ -837,8 +905,10 @@ désamorcer le distracteur au lieu de se contenter de l'écarter.
   vertébrés à quatre pattes, a colonisé la terre ferme en premier ? » — et ajouter à
   l'explication : « Les premiers animaux terrestres étaient en réalité des arthropodes,
   présents dès environ 425 millions d'années. »
+- **Fait** : appliqué mot pour mot dans `12.json`, sans toucher aux dates 480/365/115 du
+  constat [GRAVE] voisin.
 
-### [MINEUR] Leçon 12 : l'âge de la Terre donné à 4,6 puis 4,54 milliards d'années, et une limite stratigraphique périmée
+### [MINEUR] ✅ Leçon 12 : l'âge de la Terre donné à 4,6 puis 4,54 milliards d'années, et une limite stratigraphique périmée
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/12.json` — sections « Découper le
   temps géologique » et « Les grandes étapes de la vie »
 - **Texte** : « Elle découpe les 4,6 milliards d'années d'histoire de la planète » et
@@ -851,6 +921,7 @@ désamorcer le distracteur au lieu de se contenter de l'écarter.
 - **Correction proposée** : écrire partout « environ 4,54 milliards d'années » (ou partout
   4,6 avec la mention « en chiffres ronds »), et remplacer 542 par « environ 539 millions
   d'années ».
+- **Fait** : appliqué partout dans `12.json` (texte, tableau des éons, quiz).
 
 **Le reste de la leçon 12 est bon et honnête** : définition large du fossile incluant
 ichnofossiles et coprolithes, conditions de fossilisation, minéralisation, conservation
@@ -862,7 +933,7 @@ Deux qualités rares : la leçon insiste deux fois sur le **biais** de l'archive
 album complet, et elle présente la Grande Oxydation comme une pollution d'origine
 biologique, ce qui est le bon angle.
 
-### [MOYEN] Leçon 13 : la crise K-Pg réduite à « environ la moitié des espèces »
+### [MOYEN] ✅ Leçon 13 : la crise K-Pg réduite à « environ la moitié des espèces »
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/13.json` — section « Cinq crises, et
   peut-être une sixième », tableau « Les cinq grandes extinctions » et explication de la
   question 4 (trois occurrences)
@@ -879,8 +950,11 @@ biologique, ce qui est le bon angle.
   la comparaison que cette question demande justement d'établir.
 - **Correction proposée** : « qui emporte environ les trois quarts des espèces » dans les
   trois passages, et dans le tableau « Environ 75 % des espèces ».
+- **Fait** : appliqué dans `13.json` (texte, tableau, quiz). Au passage, le Permien-Trias
+  a été aligné sur « environ 80 % » (au lieu de 81 %) pour correspondre au constat
+  passe 2 sur ce même chiffre — le Permien-Trias reste bien la crise la plus meurtrière.
 
-### [MINEUR] Leçon 13 : les dinosaures apparaissent à −240 Ma ici, à −230 Ma dans la leçon 12
+### [MINEUR] ✅ Leçon 13 : les dinosaures apparaissent à −240 Ma ici, à −230 Ma dans la leçon 12
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/13.json` — section « Qui sont les
   dinosaures ? » contre `12.json` — section « Les grandes étapes de la vie », sa frise et
   l'explication de sa question 3
@@ -895,6 +969,9 @@ biologique, ce qui est le bon angle.
   de la leçon 13 n'est cohérent qu'avec 240.
 - **Correction proposée** : harmoniser sur « il y a environ 235 millions d'années » dans
   les deux leçons, ou écrire « entre 240 et 230 millions d'années » là où le détail compte.
+- **Fait** : harmonisé sur « 235 millions d'années » dans `12.json` et `13.json` ; la
+  durée « pendant plus de 170 millions d'années » de la leçon 13 a été ajustée en
+  « environ 170 millions d'années » pour rester cohérente.
 
 **Le reste de la leçon 13 est exact et remarquablement à jour** : définition cladistique
 des dinosaures par Triceratops et *Passer domesticus*, distinction aviens/non aviens,
@@ -908,7 +985,7 @@ d'être signalés comme réussis : la correction explicite de l'idée reçue sur
 dinosaures, et la dernière phrase de l'explication de la question 4 — « la notoriété d'une
 crise ne reflète donc pas son ampleur » — qui enseigne autre chose que la réponse.
 
-### [MOYEN] Leçon 14 : le volume habitable des océans donné à 96 % puis à 99 %, dans le même paragraphe
+### [MOYEN] ✅ Leçon 14 : le volume habitable des océans donné à 96 % puis à 99 %, dans le même paragraphe
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/14.json` — section « Le plus vaste
   espace de vie » (deux phrases distantes de six lignes), visuel « chiffres » de la même
   section et explication de la question 1
@@ -922,8 +999,9 @@ crise ne reflète donc pas son ampleur » — qui enseigne autre chose que la r�
 - **Correction proposée** : garder 96 % partout et écrire « alors qu'ils constituent
   l'essentiel du volume habitable de la planète », ou expliciter les deux mesures si
   elles portent réellement sur des choses distinctes.
+- **Fait** : appliqué mot pour mot dans `14.json`.
 
-### [MINEUR] Leçon 14 : une question qui renvoie à des « travaux cités » que l'apprenant n'a pas
+### [MINEUR] ✅ Leçon 14 : une question qui renvoie à des « travaux cités » que l'apprenant n'a pas
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/14.json` — quiz, question 5
 - **Texte** : « Quelle est la première cause d'extinction des espèces marines **selon les
   travaux cités** ? » ; explication : « Les travaux cités attribuent 55 % des extinctions
@@ -938,6 +1016,8 @@ crise ne reflète donc pas son ampleur » — qui enseigne autre chose que la r�
   reformuler l'énoncé en « Quelle est la première cause identifiée d'extinction des espèces
   marines ? », et retirer le « à hauteur de 55 % » de la proposition pour le renvoyer dans
   l'explication.
+- **Fait** : appliqué mot pour mot dans `14.json` (énoncé, proposition, section et
+  explication).
 
 **Le reste de la leçon 14 est exact, et inhabituellement précis** : 70,8 % de la surface,
 361 millions de km², 1,37 milliard de km³, les cinq océans avec leurs surfaces et leurs
@@ -1046,7 +1126,7 @@ est pollinisé par le vent), ce qui ferme proprement le distracteur.
   exact étant susceptible d'avoir bougé, il faut le rapporter au rapport UICN France qui
   le publie et le dater.
 
-### [MINEUR] Leçon 16 : le total de 1,7 million d'espèces décrites est incompatible avec les 55 % de la leçon 15
+### [MINEUR] ⏭️ Leçon 16 : le total de 1,7 million d'espèces décrites est incompatible avec les 55 % de la leçon 15
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/16.json` — section « Combien
   d'espèces sur Terre ? » contre `15.json` — section « Une diversité sans égale »
 - **Texte** : « Environ 1,7 million d'espèces ont été formellement décrites » (leçon 16)
@@ -1059,6 +1139,12 @@ est pollinisé par le vent), ce qui ferme proprement le distracteur.
 - **Correction proposée** : recaler la leçon 15 sur le total de la leçon 16 (≈1,7 million
   d'espèces décrites, dont environ 1 million d'insectes, soit ~60 % du total décrit et
   ~75 % des animaux).
+- **Fait** : délibérément écarté. En relisant `15.json`, les deux constats [GRAVE] voisins
+  (coléoptères 600-795 000, et 85 % des animaux vs 80 % des arthropodes) n'y sont
+  **pas** corrigés — les chiffres fautifs sont encore dans le texte, le visuel et
+  l'explication de quiz. Cette correction porte exactement sur les mêmes phrases ; je ne
+  l'ai pas appliquée pour ne pas toucher un contenu [GRAVE] resté en l'état, et je signale
+  les deux constats GRAVE incomplets dans mon rapport final.
 
 **Le reste de la leçon 16 est solide** : les trois niveaux de biodiversité bien
 distingués et bien reliés, origine et date du mot, 1,7 million d'espèces décrites pour 3 à
@@ -1072,7 +1158,7 @@ donne les chiffres du succès **et** les trois raisons de s'en méfier (pression
 un tiers des aires, parcs de papier, localisation opportuniste), au lieu de s'arrêter au
 chiffre flatteur.
 
-### [MOYEN] Leçon 17 : Jennifer Doudna réduite au rôle d'assistante de Charpentier
+### [MOYEN] ✅ Leçon 17 : Jennifer Doudna réduite au rôle d'assistante de Charpentier
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/17.json` — section « CRISPR-Cas9, des
   ciseaux moléculaires »
 - **Texte** : « C'est la Française Emmanuelle Charpentier, **avec le concours de**
@@ -1087,8 +1173,9 @@ chiffre flatteur.
 - **Correction proposée** : « C'est la Française Emmanuelle Charpentier et l'Américaine
   Jennifer Doudna qui mettent au point ensemble, en 2012, la méthode d'édition du génome
   dérivée de ce système. »
+- **Fait** : appliqué mot pour mot dans `17.json`.
 
-### [MOYEN] Leçon 17 : le classement de CRISPR parmi les armes de destruction massive attribué à la CIA
+### [MOYEN] ✅ Leçon 17 : le classement de CRISPR parmi les armes de destruction massive attribué à la CIA
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/17.json` — section « Promesses et
   questions éthiques »
 - **Texte** : « la CIA a même classé cette technologie parmi les armes de destruction
@@ -1101,8 +1188,9 @@ chiffre flatteur.
 - **Correction proposée** : « le renseignement américain a même rangé, en 2016, l'édition
   du génome parmi les technologies à risque de prolifération, aux côtés des armes de
   destruction massive »
+- **Fait** : appliqué mot pour mot dans `17.json`.
 
-### [MINEUR] Leçon 17 : une projection de 2009 présentée comme l'horizon d'aujourd'hui
+### [MINEUR] ✅ Leçon 17 : une projection de 2009 présentée comme l'horizon d'aujourd'hui
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/17.json` — section « Qu'appelle-t-on
   biotechnologie ? »
 - **Texte** : « ce secteur représente moins de 1 % du produit intérieur brut des pays de
@@ -1113,6 +1201,7 @@ chiffre flatteur.
   prévision actuelle.
 - **Correction proposée** : « une projection de l'OCDE publiée en 2009 tablait sur 2,7 % du
   PIB des pays membres en 2030 »
+- **Fait** : appliqué mot pour mot dans `17.json`.
 
 **Le reste de la leçon 17 est exact et remarquablement à jour** : définition de l'OCDE,
 ancienneté des fermentations, Genentech et Amgen, krach de 2001-2002, les six couleurs et
@@ -1127,7 +1216,7 @@ rien inventé mais emprunté un mécanisme bactérien, et de poser les questions
 mutations hors cible, transmission germinale, eugénisme — sans les trancher à la place de
 l'apprenant.
 
-### [MOYEN] Leçon 18 : la parenté oiseaux-dinosaures enseignée deux fois, presque dans les mêmes termes
+### [MOYEN] ✅ Leçon 18 : la parenté oiseaux-dinosaures enseignée deux fois, presque dans les mêmes termes
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/18.json` — section « Les derniers
   dinosaures » contre `13.json` — section « Les oiseaux, dinosaures d'aujourd'hui »
 - **Texte** : leçon 13 — « les oiseaux sont les descendants directs des dinosaures […]
@@ -1148,8 +1237,11 @@ l'apprenant.
   réduire la section de la leçon 13 à ce qui sert son propos — la survie d'une lignée à la
   crise K-Pg — avec un renvoi explicite : « la leçon consacrée aux oiseaux détaille cette
   parenté ».
+- **Fait** : `18.json` n'a pas été touché ; la section « Les oiseaux, dinosaures
+  d'aujourd'hui » de `13.json` a été resserrée sur la survie à la crise K-Pg, avec le
+  renvoi explicite proposé.
 
-### [MINEUR] Leçon 18 : une phrase incompréhensible dans l'explication de la question 1
+### [MINEUR] ✅ Leçon 18 : une phrase incompréhensible dans l'explication de la question 1
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/18.json` — quiz, question 1
 - **Texte** : « Les 300 000 correspondraient plutôt à **un ordre voisin des coléoptères**
   chez les insectes. »
@@ -1159,6 +1251,7 @@ l'apprenant.
   décrits est d'environ 400 000, ce que la leçon 15 donne d'ailleurs autrement.
 - **Correction proposée** : « Trois cent mille, c'est l'ordre de grandeur d'un très grand
   groupe d'insectes, pas des oiseaux. »
+- **Fait** : appliqué mot pour mot dans `18.json`.
 
 **Le reste de la leçon 18 est excellent, et c'est la mieux écrite du lot** : Archaeopteryx
 découvert à Solnhofen en 1861 et daté d'environ 150 Ma, gisements du Liaoning, 10 700 à
@@ -1179,7 +1272,7 @@ j'aie vu dans ce domaine.
 JSON compact sur une seule ligne, alors que `01.json` à `17.json` sont indentées. Aucune
 conséquence à l'affichage, mais toute relecture humaine du fichier en devient pénible.)*
 
-### [MINEUR] Leçon 19 : « une demi-tête » d'amanite phalloïde
+### [MINEUR] ✅ Leçon 19 : « une demi-tête » d'amanite phalloïde
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/19.json` — section « Alliés de la
   cuisine, poisons de la forêt » et explication de la question 4
 - **Texte** : « Une demi-tête suffit à tuer un adulte, et la cuisson ne détruit pas le
@@ -1191,6 +1284,7 @@ conséquence à l'affichage, mais toute relecture humaine du fichier en devient 
   pied ».
 - **Correction proposée** : « Un demi-chapeau suffit à tuer un adulte, et la cuisson ne
   détruit pas le poison. »
+- **Fait** : appliqué dans les deux occurrences de `19.json` (section et quiz).
 
 **La leçon 19 est, avec la 18, la plus sûre de tout ce que j'ai lu dans ce domaine.**
 Vérifiés un à un : paroi de chitine et non de cellulose, ergostérol contre cholestérol et
@@ -1210,7 +1304,7 @@ populaire » pour reconnaître un comestible. Seule réserve mineure : les 120 0
 décrites sont un chiffre qui monte vite (les inventaires récents dépassent 150 000) et
 gagneraient à être datées.
 
-### [MINEUR] Leçon 20 : le nimbostratus rangé dans l'étage inférieur
+### [MINEUR] ✅ Leçon 20 : le nimbostratus rangé dans l'étage inférieur
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/20.json` — section « Naissance d'un
   nuage »
 - **Texte** : « L'étage moyen accueille les altocumulus et altostratus, l'étage inférieur
@@ -1221,6 +1315,7 @@ gagneraient à être datées.
   genres : c'est le seul mal placé.
 - **Correction proposée** : « L'étage moyen accueille les altocumulus, les altostratus et
   les nimbostratus, l'étage inférieur les stratus, stratocumulus et cumulus. »
+- **Fait** : appliqué mot pour mot dans `20.json`.
 
 **Le reste de la leçon 20 est juste, et sa physique est bien conduite** : 78 % d'azote,
 21 % d'oxygène, 0,9 % d'argon et un peu plus de 0,04 % de CO₂, masse de ~5 millions de
@@ -1238,7 +1333,7 @@ question 3 mérite d'être signalée : elle prend le temps de démonter le distr
 rapproche du Soleil » par un argument d'échelle, au lieu de se contenter de dire qu'il est
 faux.
 
-### [MOYEN] Leçon 21 : la dérive d'« une demi-heure par jour » ne peut pas expliquer les vingt-cinq jours d'erreur de Michel Siffre
+### [MOYEN] ✅ Leçon 21 : la dérive d'« une demi-heure par jour » ne peut pas expliquer les vingt-cinq jours d'erreur de Michel Siffre
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/21.json` — section « L'horloge
   interne » et explication de la question 5
 - **Texte** : « son cycle veille-sommeil s'est maintenu, mais **en dérivant chaque jour
@@ -1258,6 +1353,9 @@ faux.
   à environ vingt-quatre heures et demie. Surtout, privé de repères, il a perdu le compte
   des jours : en remontant le 14 septembre 1962, il pensait qu'on était le 20 août. Le
   temps vécu se contracte quand plus rien ne le jalonne. »
+- **Fait** : appliqué dans les deux occurrences de `21.json` (section et quiz), avec le
+  calcul explicite (une demi-heure par jour sur deux mois ne fait qu'une trentaine
+  d'heures d'écart).
 
 **Le reste de la leçon 21 est exact et à jour** : un tiers d'une vie passé à dormir,
 réversibilité qui distingue le sommeil du coma, sommeil unihémisphérique des dauphins et
@@ -1292,7 +1390,7 @@ compte en réalité de huit à une vingtaine, et la mention que le poulpe, dont 
 câblée à l'envers de la nôtre, n'a pas de tache aveugle — laquelle transforme une curiosité
 en argument sur la contingence de l'évolution.
 
-### [MINEUR] Leçon 23 : « la coquille de nos falaises normandes », et des roches plus vieilles qu'annoncé
+### [MINEUR] ✅ Leçon 23 : « la coquille de nos falaises normandes », et des roches plus vieilles qu'annoncé
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/23.json` — sections « Les roches
   sédimentaires, archives de la Terre » et « Le métamorphisme et le cycle des roches »
 - **Texte** : « Le calcaire, la craie ou **la coquille** de nos falaises normandes sont
@@ -1309,6 +1407,7 @@ en argument sur la contingence de l'évolution.
   calcaires coquilliers sont bâtis à partir des squelettes et des coquilles d'innombrables
   organismes marins » ; et « les plus vieilles roches connues, au Canada, dépassent quatre
   milliards d'années ».
+- **Fait** : appliqué mot pour mot dans `23.json`.
 
 **Le reste de la leçon 23 est juste** : double définition du minéral (composition + réseau
 cristallin), graphite et diamant comme démonstration, registre de l'Association
@@ -1391,7 +1490,7 @@ seconde lecture indépendante, faite sans reprendre ses notes en main d'abord. J
 
 ### Passe 2 sur `prisma/seed/culture-g/sciences-vie.ts` (13 notions, 128 questions)
 
-#### [MOYEN] La crise du Permien : 90 % des espèces marines ici, 81 % dans la leçon 13
+#### [MOYEN] ✅ La crise du Permien : 90 % des espèces marines ici, 81 % dans la leçon 13
 - **Où** : `sciences-vie.ts` — `sv-especes-menacees`, question « Combien d'extinctions de
   masse la Terre a-t-elle connues ? » ; contre `heritage/…/lecons/sciences-vie/13.json`
 - **Texte** : « La plus sévère, à la fin du Permien il y a 252 millions d'années, a fait
@@ -1404,8 +1503,10 @@ seconde lecture indépendante, faite sans reprendre ses notes en main d'abord. J
   l'ampleur des crises.
 - **Correction proposée** : harmoniser sur « environ quatre-vingts pour cent des espèces
   marines » dans les deux fichiers.
+- **Fait** : appliqué dans `sciences-vie.ts` (`sv-especes-menacees`, 90 % → 80 %) et dans
+  `13.json` (81 % → 80 %, dans les trois occurrences).
 
-#### [MOYEN] Le séquoia « plus grand organisme vivant par la masse », que sa propre explication contredit
+#### [MOYEN] ✅ Le séquoia « plus grand organisme vivant par la masse », que sa propre explication contredit
 - **Où** : `sciences-vie.ts` — `sv-plantes-adaptations`, dernière question
 - **Texte** : énoncé « Quel arbre est considéré comme l'organisme vivant le plus grand du
   monde ? » ; bonne réponse « Le séquoia géant, par la masse » ; distracteurs « Le
@@ -1424,8 +1525,11 @@ seconde lecture indépendante, faite sans reprendre ses notes en main d'abord. J
   mille cinq cents mètres cubes de bois. Il n'est pourtant pas l'organisme le plus lourd :
   le peuplier clonal Pando, dans l'Utah, atteindrait six mille tonnes, et certains réseaux
   de champignons couvrent plusieurs kilomètres carrés. »
+- **Fait** : appliqué mot pour mot dans `sciences-vie.ts` (`sv-plantes-adaptations`) ; le
+  cours correspondant (`sv-plantes-adaptations` dans `cours/sciences-vie.ts`), qui
+  affirmait la même chose, a été corrigé dans le même sens.
 
-#### [MINEUR] L'en-tête du fichier annonce « treize notions sans cours » — les treize ont un cours
+#### [MINEUR] ✅ L'en-tête du fichier annonce « treize notions sans cours » — les treize ont un cours
 - **Où** : `prisma/seed/culture-g/sciences-vie.ts`, ligne 2 ; contre
   `prisma/seed/culture-g/cours/sciences-vie.ts`, qui définit bien les treize clés
   `sv-adn-heredite` … `sv-sante-publique`
@@ -1435,6 +1539,9 @@ seconde lecture indépendante, faite sans reprendre ses notes en main d'abord. J
   exactement l'endroit où l'on irait chercher la liste des notions dépourvues de cours,
   qui sont en réalité `sv2-nutrition-digestion`, `sv2-oceans-vie` et `sv2-neurosciences`.
 - **Correction proposée** : « Sciences de la vie & Terre — treize notions, premier lot. »
+- **Fait** : appliqué mot pour mot. Au passage, l'en-tête de `sciences-vie-2.ts`
+  (« vingt notions sans cours ») a aussi été corrigé, puisque les trois cours manquants
+  ont été écrits (voir le constat [MOYEN] correspondant).
 
 **Ce que la passe 2 confirme sur ce fichier** : les 128 questions sont solides et souvent
 mieux datées que la moyenne du dépôt (Toumaï à 7 Ma, Lucy en 1974, Jebel Irhoud repoussant
@@ -1449,7 +1556,7 @@ la leçon 08.
 
 ### Passe 2 sur `prisma/seed/culture-g/sciences-vie-2.ts` (20 notions, 198 questions)
 
-#### [MINEUR] « Conduction sautatoire » : le mot n'existe pas
+#### [MINEUR] ✅ « Conduction sautatoire » : le mot n'existe pas
 - **Où** : `sciences-vie-2.ts` — `sv2-neurosciences`, question « À quelle vitesse l'influx
   nerveux se propage-t-il au maximum ? »
 - **Texte** : « La gaine de myéline accélère considérablement la conduction en la rendant
@@ -1458,8 +1565,9 @@ la leçon 08.
   c'est celui qu'emploie correctement la leçon 08 du cahier, qui prend même la peine d'en
   donner l'étymologie. *Sautatoire* est une francisation fautive.
 - **Correction proposée** : « en la rendant saltatoire ».
+- **Fait** : appliqué dans `sciences-vie-2.ts` (`sv2-neurosciences`).
 
-#### [MOYEN] Les trois notions sans cours ont déjà leur cours, dans le cahier
+#### [MOYEN] ✅ Les trois notions sans cours ont déjà leur cours, dans le cahier
 - **Où** : `prisma/seed/culture-g/cours/sciences-vie.ts` (clés absentes) ;
   `heritage/culture-g/data/lecons/sciences-vie/08.json`, `09.json` et `14.json`
 - **Problème** : mon prédécesseur signalait que `sv2-nutrition-digestion`,
@@ -1477,6 +1585,11 @@ la leçon 08.
   09 et 14 — en corrigeant au passage les erreurs que je signale sur ces leçons (cellules
   gliales, durée de la digestion, besoin en eau, volume habitable des océans), faute de
   quoi le seed héritera de trois erreurs neuves.
+- **Fait** : les trois cours ont été rédigés à neuf (pas recopiés depuis le cahier), avec
+  partout les valeurs déjà correctes : ~85 milliards de cellules gliales, distinction
+  digestion (8-12 h) / transit complet (1-3 jours), 96 % du volume de la biosphère pour
+  les océans, conduction saltatoire à 100-120 m/s. Ils n'héritent donc d'aucune des
+  erreurs des leçons 08, 09 et 14.
 
 **Ce que la passe 2 confirme sur ce fichier** : c'est le lot le mieux tenu des trois. Les
 198 questions sont exactes sur tout ce que j'ai pu vérifier — Hooke en 1665, Margulis et
@@ -1499,7 +1612,7 @@ tennis » alvéolaire et le « tiers » de la population sans assainissement sû
 
 ### Passe 2 sur `prisma/seed/culture-g/sciences-vie-3.ts` (19 notions, 189 questions)
 
-#### [MOYEN] « Les siréniens seuls » : un distracteur qui n'est faux que par un adverbe
+#### [MOYEN] ✅ « Les siréniens seuls » : un distracteur qui n'est faux que par un adverbe
 - **Où** : `sciences-vie-3.ts` — `sv3-mammiferes`, question « Quel groupe de mammifères est
   retourné vivre entièrement dans l'eau ? »
 - **Texte** : propositions `["Les cétacés", "Les pinnipèdes", "Les siréniens seuls", "Les
@@ -1517,8 +1630,15 @@ tennis » alvéolaire et le « tiers » de la population sans assainissement sû
   entièrement aquatiques, mais d'une lignée distincte, proche des éléphants. » De façon
   générale, remplacer les distracteurs rendus faux par un « seul » par des propositions
   franchement fausses.
+- **Fait** : le distracteur a été remplacé par « Les ours polaires » plutôt que
+  « Les phoques » — la proposition voisine « Les pinnipèdes » couvre déjà les phoques, et
+  les deux auraient fait doublon. L'explication précise maintenant le cas des siréniens
+  et celui des pinnipèdes. Les autres « seul(e) » du domaine (nosémose, peroxysome, OMM,
+  PNUE) n'ont pas été repris : ce sont des distracteurs dans des questions différentes,
+  hors du périmètre strict de ce constat, et je ne les ai pas jugés faux au même titre —
+  à revoir si le propriétaire souhaite généraliser la correction.
 
-#### [MINEUR] « Le syrinx » ici, « la syrinx » dans la leçon 18
+#### [MINEUR] ✅ « Le syrinx » ici, « la syrinx » dans la leçon 18
 - **Où** : `sciences-vie-3.ts` — `sv3-oiseaux`, question « Quel organe permet aux oiseaux
   de chanter ? » ; contre `heritage/…/lecons/sciences-vie/18.json`
 - **Texte** : « **Le** syrinx » (bonne réponse et explication) contre « Le chant est
@@ -1527,8 +1647,9 @@ tennis » alvéolaire et le « tiers » de la population sans assainissement sû
   et elle contredit le cahier.
 - **Correction proposée** : « La syrinx », et accorder l'explication : « Située à la base
   de la trachée, elle permet parfois d'émettre deux sons simultanément. »
+- **Fait** : appliqué mot pour mot dans `sciences-vie-3.ts` (`sv3-oiseaux`).
 
-#### [MINEUR] La sortie des eaux des plantes : 450 Ma ici, 480 Ma dans la leçon 12
+#### [MINEUR] ✅ La sortie des eaux des plantes : 450 Ma ici, 480 Ma dans la leçon 12
 - **Où** : `sciences-vie-3.ts` — `sv3-terre-atmosphere-histoire`, question « Quand les
   plantes ont-elles colonisé les continents ? » ; contre `12.json`
 - **Texte** : « Il y a environ quatre cent cinquante millions d'années » contre « les
@@ -1539,6 +1660,12 @@ tennis » alvéolaire et le « tiers » de la population sans assainissement sû
   trancher — d'autant que la leçon 12 en tire un calcul, lui-même faux (voir plus haut).
 - **Correction proposée** : retenir partout « il y a environ 470 millions d'années », et
   recalculer en conséquence l'écart avec les tétrapodes.
+- **Fait** : harmonisé à 470 Ma dans `sciences-vie-3.ts` (`sv3-terre-atmosphere-histoire`),
+  `03.json` (déjà à 470) et `cours/sciences-vie.ts` (`sv3-terre-atmosphere-histoire`).
+  Je n'ai **pas** touché `12.json`, qui reste à 480 Ma : ce chiffre y est imbriqué dans le
+  calcul « 480 − 365 = 115 millions d'années » du constat [GRAVE] voisin, déjà corrigé —
+  le changer aurait rouvert ce calcul. La leçon 12 reste donc l'unique endroit du dépôt à
+  480 Ma ; à recaler sciemment si le propriétaire retouche un jour ce passage.
 
 **Ce que la passe 2 confirme sur ce fichier, et un renfort pour un constat antérieur** :
 `sv3-eau-corps` demande « Combien d'eau un adulte perd-il en moyenne par jour ? » et répond
@@ -1605,7 +1732,7 @@ existe déjà ailleurs dans le dépôt, ce qui rend la correction indiscutable.)
   première cause de décès par cancer féminin — sous l'effet retardé de la diffusion du
   tabagisme féminin. »
 
-#### [MINEUR] Deux divergences numériques mineures entre le seed et le cahier
+#### [MINEUR] ✅ Deux divergences numériques mineures entre le seed et le cahier
 - **Où et texte** :
   - Taille de l'autruche : « atteint deux mètres cinquante » (cours `sv3-oiseaux`) contre
     « 2,75 m » (leçon 18, visuel « Records du monde aviaire »).
@@ -1616,6 +1743,12 @@ existe déjà ailleurs dans le dépôt, ce qui rend la correction indiscutable.)
   côte à côte. Le premier gagnerait à être donné sous forme de fourchette (« jusqu'à 2,75 m
   pour les plus grands mâles »), le second à distinguer explicitement la période moyenne de
   l'espèce (~24 h 15) du cas mesuré chez Siffre (~24 h 30).
+- **Fait** : les deux corrections suggérées ont été appliquées. L'autruche est maintenant
+  « jusqu'à deux mètres soixante-quinze chez les plus grands mâles » dans
+  `cours/sciences-vie.ts` (`sv3-oiseaux`). Pour l'horloge interne, le cours
+  `sv2-sommeil-rythmes` (~24 h 15, moyenne de l'espèce) et la leçon 21 (~24 h 30, cas
+  mesuré chez Siffre) étaient déjà distincts après la correction du constat [MOYEN]
+  Leçon 21 ci-dessus ; rien à ajouter.
 
 **Ce que la passe 2 confirme sur les 49 cours : mon prédécesseur avait raison, c'est la
 meilleure part du domaine, et de loin.** J'ai relu les 49 cours en entier et je n'y ai
@@ -1649,7 +1782,7 @@ en paléontologie profonde, « naturel ne signifie pas sans effet » à propos d
   frontalement les « environ la moitié des espèces » de la leçon 13. La correction que je
   proposais est donc confirmée par le dépôt lui-même.
 
-#### [MINEUR] Six divergences numériques entre le cahier et le reste du domaine
+#### [MINEUR] ✅ Six divergences numériques entre le cahier et le reste du domaine
 - **Où et texte** :
   - Volume du manteau terrestre : « près de **80 %** du volume terrestre » (cours « La Terre
     et le système solaire », et question 54) contre « environ **84 %** » (leçon 05, texte et
@@ -1673,6 +1806,11 @@ en paléontologie profonde, « naturel ne signifie pas sans effet » à propos d
   cinquantaine de petites », « environ 270 à 300 os » à la naissance, « 4,5 à 5 millions »
   d'hématies par mm³, « vers 365-370 millions d'années », et « environ 80 % des espèces
   marines » pour le Permien.
+- **Fait** : les six harmonisations ont été appliquées mot pour mot dans
+  `heritage/culture-g/data/sciences-vie.json` (manteau 84 %, douzaine de grandes plaques
+  et cinquantaine de petites, 270 à 300 os, 4,5 à 5 millions d'hématies, 365 à 370 millions
+  d'années, crise du Permien à 80 % — cette dernière déjà traitée avec le constat passe 2
+  sur le même sujet).
 
 **Ce que la passe 2 confirme sur le cahier : c'est la partie la plus sûre du domaine avec
 les cours du seed.** J'ai relu les 57 questions et les 3 cours, et vérifié tout ce qui est
@@ -1731,7 +1869,7 @@ seuls insectes. Les trois chiffres ne peuvent pas être vrais ensemble. La corre
 leçon 15 doit donc se caler sur ce total de 1,5 million d'espèces animales décrites (dont
 ~1 million d'insectes, soit ~70 %), qui est cohérent avec la leçon 16 et avec le seed.
 
-#### [MINEUR] Leçon 03 : Jan Ingenhousz n'était pas physicien
+#### [MINEUR] ✅ Leçon 03 : Jan Ingenhousz n'était pas physicien
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/03.json` — section « La photosynthèse,
   une réaction fondamentale »
 - **Texte** : « **Le physicien** Jan Ingenhousz démontre dès 1779 que seules les parties
@@ -1742,6 +1880,7 @@ leçon 15 doit donc se caler sur ce total de 1,5 million d'espèces animales dé
   précisément *médecin*. La date de 1779 et le contenu de la découverte, eux, sont exacts.
 - **Correction proposée** : « Le médecin et physiologiste Jan Ingenhousz démontre dès 1779
   que seules les parties vertes exposées à la lumière purifient l'air. »
+- **Fait** : appliqué mot pour mot dans `03.json`.
 
 **Le reste de la leçon 03 est exact** : autotrophie et paroi cellulosique, sortie des eaux
 depuis des algues vertes d'eau douce, cuticule, xylème et phloème, rôle de la lignine,
@@ -1757,7 +1896,7 @@ des plantes** : cette leçon donne une **troisième** valeur, « environ 470 mil
 d'années », après les 480 de la leçon 12 et les 450 du seed. C'est précisément la valeur
 que je proposais de retenir partout — elle est déjà écrite ici.
 
-#### [MOYEN] Leçon 04 : la cascade trophique de Yellowstone donnée pour acquise, alors que le seed la dit surinterprétée
+#### [MOYEN] ✅ Leçon 04 : la cascade trophique de Yellowstone donnée pour acquise, alors que le seed la dit surinterprétée
 - **Où** : `heritage/culture-g/data/lecons/sciences-vie/04.json` — section « Espèces clés et
   services écosystémiques » et explication de la question 5 ; contre
   `prisma/seed/culture-g/sciences-vie-2.ts`, `sv2-ecosystemes`
@@ -1779,6 +1918,7 @@ que je proposais de retenir partout — elle est déjà écrite ici.
   nuancent cette lecture — sécheresse, hydrologie et castors y ont leur part —, ce qui ne
   retire rien au principe de la cascade trophique, mais rappelle qu'un écosystème a rarement
   une cause unique. »
+- **Fait** : appliqué dans `04.json`, dans la section et dans l'explication du quiz.
 
 **Le reste de la leçon 04 est exact** : Tansley en 1935, couple biotope/biocénose, écotones,
 niche écologique et principe d'exclusion compétitive de Gause dans les années 1930, chaîne

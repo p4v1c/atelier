@@ -1,5 +1,5 @@
 /**
- * Inventions & Technologie, troisième lot — vingt notions sans cours.
+ * Inventions & Technologie, troisième lot — seize notions (la plupart avec un cours dans cours/sciences-tech.ts).
  */
 import { notion } from "./commun";
 import type { SeedSkill } from "../../../src/modules/types";
@@ -113,7 +113,7 @@ export const CG_SCIENCES_TECH_3: SeedSkill[] = [
 
   notion("st3-eau-technologies", S, "Technologies de l'eau",
     "Traitement, réseaux, économies.",
-    "Environ un litre d'eau potable sur cinq est perdu dans les réseaux français.",
+    "L'âge des canalisations françaises coûte plus cher en fuites qu'on ne l'imagine généralement.",
     2, [
     ["Quelle part de l'eau potable est perdue dans les réseaux français ?", ["Environ un cinquième", "Environ un pour cent", "Environ la moitié", "Environ cinq pour cent"], 0,
      "Le taux varie fortement selon l'âge et l'entretien des canalisations."],
@@ -272,7 +272,7 @@ export const CG_SCIENCES_TECH_3: SeedSkill[] = [
     "Chaque grande découverte scientifique s'accompagne d'un progrès instrumental.",
     2, [
     ["Qui perfectionne le microscope et observe le premier des micro-organismes ?", ["Antonie van Leeuwenhoek", "Robert Hooke, naturaliste anglais", "Galilée, astronome florentin", "Jan Swammerdam, naturaliste néerlandais"], 0,
-     "Ses lentilles uniques, taillées à la main, dépassaient deux cents fois de grossissement."],
+     "Ses lentilles uniques, taillées à la main, atteignaient près de trois cents fois de grossissement."],
     ["Qu'est-ce qu'un spectromètre de masse ?", ["Un appareil séparant des ions selon leur rapport masse sur charge", "Une balance de précision au microgramme", "Un analyseur de lumière à réseau diffractant", "Un chromatographe séparant les composés d'un mélange"], 0,
      "Il permet d'identifier des molécules à l'état de traces infimes."],
     ["Qu'est-ce qu'un accélérateur de particules ?", ["Une machine portant des particules à très haute énergie", "Un détecteur de rayonnement à scintillation", "Un réacteur de recherche à faible puissance", "Un générateur de rayons X équipé d'une anode tournante refroidie"], 0,
@@ -297,16 +297,16 @@ export const CG_SCIENCES_TECH_3: SeedSkill[] = [
     "Découvertes et innovations nées en France.",
     "Plusieurs objets du quotidien mondial ont une origine française souvent oubliée.",
     2, [
-    ["Qui invente le braille ?", ["Louis Braille, en France", "Un imprimeur anglais", "Un médecin allemand", "Un instituteur américain"], 0,
+    ["Qui invente le braille ?", ["Louis Braille, en France", "Valentin Haüy, qui dirigeait son institution", "William Moon, en Angleterre", "Un instituteur américain"], 0,
      "Il s'est inspiré d'un code militaire nocturne conçu par Charles Barbier."],
     ["Qui invente la photographie sur plaque en France ?", ["Nicéphore Niépce puis Louis Daguerre", "William Talbot", "Hippolyte Bayard seul", "Étienne-Jules Marey"], 0,
-     "L'État français a acheté le brevet en 1839 pour l'offrir au monde."],
+     "En échange d'une rente viagère votée en août 1839, la France rendit le procédé public — sauf en Angleterre, où Daguerre l'avait breveté quelques jours plus tôt."],
     ["Qui met au point la conserve appertisée ?", ["Nicolas Appert", "Louis Pasteur", "Peter Durand", "Ferdinand Carré"], 0,
      "Il répondait à un concours lancé pour nourrir les armées napoléoniennes."],
     ["Qui invente le stéthoscope ?", ["René Laennec", "Claude Bernard", "Xavier Bichat", "Jean-Martin Charcot"], 0,
      "Il aurait roulé un cahier pour ausculter une patiente sans la toucher directement."],
     ["Qui met au point le premier vaccin contre la rage ?", ["Louis Pasteur", "Émile Roux seul", "Albert Calmette", "Charles Nicolle"], 0,
-     "Il l'a administré en 1885 à un enfant mordu, sans être médecin lui-même."],
+     "Il l'a fait administrer en 1885 par le docteur Grancher à un enfant mordu, n'étant pas médecin lui-même."],
     ["Qui invente le procédé de fabrication de l'aluminium par électrolyse en France ?", ["Paul Héroult", "Henri Sainte-Claire Deville", "Charles Hall seul", "Ferdinand Carré"], 0,
      "Il l'a découvert la même année que l'Américain Charles Hall, indépendamment."],
     ["Qui invente le moteur à explosion à quatre temps sur le papier ?", ["Alphonse Beau de Rochas", "Nicolas Otto", "Étienne Lenoir", "Rudolf Diesel"], 0,
@@ -316,7 +316,7 @@ export const CG_SCIENCES_TECH_3: SeedSkill[] = [
     ["Qui met au point la carte à puce ?", ["Roland Moreno", "Michel Ugon seul", "Jean Hoerni", "Marc Lassus"], 0,
      "Son brevet de 1974 a été à l'origine d'une industrie mondiale."],
     ["Quelle technologie française a préfiguré les usages d'internet grand public ?", ["Le Minitel", "Le réseau Transpac seul", "Le télex", "La télématique câblée"], 0,
-     "Neuf millions de terminaux et des milliers de services dès les années 1980.", 3],
+     "Cinq millions de terminaux à la fin des années 1980, neuf millions au sommet du parc dans les années 1990, et des milliers de services.", 3],
   ]),
 
   notion("st3-technologies-handicap", S, "Technologies et handicap",

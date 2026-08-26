@@ -3,7 +3,7 @@
  "sections": [
   {
    "titre": "Des skis utilitaires au sport de montagne",
-   "texte": "Le ski n'a pas été inventé pour le loisir mais pour se déplacer. Des skis en bois retrouvés dans les tourbières de Scandinavie et de Russie ont été datés de plusieurs milliers d'années, et des gravures rupestres du nord de la Norvège montrent des chasseurs glissant sur la neige. Le mot ski lui-même est norvégien et signifie morceau de bois fendu. Pendant des siècles, ces planches ont servi aux paysans, aux chasseurs et aux militaires des pays nordiques à circuler l'hiver. La transformation en pratique sportive s'opère au XIXe siècle en Norvège, dans la région du Telemark. Sondre Norheim y met au point vers 1860 des fixations qui maintiennent le talon et permettent de véritables virages contrôlés, dont l'un porte encore le nom de telemark. Le ski se diffuse ensuite dans les Alpes, où l'explorateur Fridtjof Nansen le popularise par le récit de sa traversée du Groenland en 1888. Deux styles se séparent alors : le ski nordique, hérité de la tradition scandinave, où le talon reste libre, et le ski alpin, adapté aux fortes pentes des Alpes, où le talon est fixé. L'Anglais Arnold Lunn organise la première épreuve de slalom moderne en 1922 et l'Autrichien Hannes Schneider met au point une méthode d'enseignement qui fonde les écoles de ski. L'apparition des remontées mécaniques dans les années 1930 ouvre la voie au tourisme de masse.",
+   "texte": "Le ski n'a pas été inventé pour le loisir mais pour se déplacer. Des skis en bois retrouvés dans les tourbières de Scandinavie et de Russie ont été datés de plusieurs milliers d'années, et des gravures rupestres du nord de la Norvège montrent des chasseurs glissant sur la neige. Le mot ski lui-même est norvégien et signifie morceau de bois fendu. Pendant des siècles, ces planches ont servi aux paysans, aux chasseurs et aux militaires des pays nordiques à circuler l'hiver. La transformation en pratique sportive s'opère au XIXe siècle en Norvège, dans la région du Telemark. Sondre Norheim y met au point vers 1860 une fixation qui tient le talon latéralement, sans l'empêcher de se lever, si bien que le pied ne se dérobe plus dans le virage — d'où le virage telemark, qui porte le nom de sa région. Le ski se diffuse ensuite dans les Alpes, où l'explorateur Fridtjof Nansen le popularise par le récit de sa traversée du Groenland en 1888. Deux styles se séparent alors : le ski nordique, hérité de la tradition scandinave, où le talon reste libre, et le ski alpin, adapté aux fortes pentes des Alpes, où le talon est fixé. L'Anglais Arnold Lunn organise la première épreuve de slalom moderne en 1922 et l'Autrichien Hannes Schneider met au point une méthode d'enseignement qui fonde les écoles de ski. L'apparition des remontées mécaniques dans les années 1930 ouvre la voie au tourisme de masse.",
    "visuel": {
     "type": "comparaison",
     "titre": "Deux styles nés de la même planche",
@@ -14,7 +14,7 @@
        "Héritier direct de la tradition scandinave, où le ski servait à se déplacer.",
        "Le talon reste libre.",
        "Adapté aux terrains vallonnés et aux longues distances.",
-       "Sondre Norheim invente vers 1860 des fixations tenant le talon, dont le virage telemark garde le nom."
+       "Sondre Norheim invente vers 1860 une fixation qui tient le talon latéralement sans l'empêcher de se lever, dont le virage telemark garde le nom."
       ]
      },
      {
@@ -204,7 +204,7 @@
    ],
    "bonne": 0,
    "difficulte": 2,
-   "explication": "Le grand globe de cristal récompense le meilleur skieur de la saison toutes disciplines confondues ; de petits globes distinguent chaque spécialité. C'est un titre plus exigeant qu'une victoire olympique, puisqu'il se gagne sur trente courses et non sur une journée. Le Hahnenkamm de Kitzbühel et le Holmenkollen norvégien existent bel et bien, mais récompensent une course unique, pas une saison."
+   "explication": "Le grand globe de cristal récompense le meilleur skieur de la saison toutes disciplines confondues ; de petits globes distinguent chaque spécialité. Il se gagne sur l'ensemble d'une saison — une trentaine de courses —, là où un titre olympique se joue sur une seule journée. Le Hahnenkamm de Kitzbühel existe bel et bien et récompense une course unique, pas une saison ; la médaille Holmenkollen, elle, distingue une carrière en ski nordique et n'a rien à voir avec le circuit alpin."
   }
  ]
 }

@@ -1,5 +1,5 @@
 /**
- * Sciences de la vie & Terre — treize notions sans cours.
+ * Sciences de la vie & Terre — treize notions, premier lot.
  */
 import { notion, type Q } from "./commun";
 import type { SeedSkill } from "../../../src/modules/types";
@@ -13,7 +13,7 @@ export const CG_SCIENCES_VIE: SeedSkill[] = [
     2, [
     ["Qui publie la structure en double hélice de l'ADN en 1953 ?", ["Watson et Crick", "Mendel et Morgan", "Pasteur et Koch", "Darwin et Wallace"], 0,
      "Leur modèle s'appuie sur les clichés de diffraction de Rosalind Franklin, dont la contribution fut longtemps minimisée."],
-    ["Combien de bases différentes compose l'ADN ?", ["Quatre", "Vingt", "Deux", "Soixante-quatre"], 0,
+    ["Combien de bases différentes composent l'ADN ?", ["Quatre", "Vingt", "Deux", "Soixante-quatre"], 0,
      "Adénine, thymine, guanine et cytosine. L'adénine s'apparie toujours à la thymine, la guanine à la cytosine."],
     ["Combien de chromosomes compte une cellule humaine ordinaire ?", ["Quarante-six", "Vingt-trois", "Quarante-huit", "Vingt-deux"], 0,
      "Vingt-trois paires, dont une paire de chromosomes sexuels. Les gamètes n'en portent que vingt-trois au total."],
@@ -51,8 +51,8 @@ export const CG_SCIENCES_VIE: SeedSkill[] = [
      "Diabète de type 1, sclérose en plaques et polyarthrite rhumatoïde en sont des exemples."],
     ["Quelle cellule le VIH détruit-il principalement ?", ["Les lymphocytes T CD4", "Les globules rouges", "Les plaquettes", "Les macrophages seuls"], 0,
      "En détruisant les chefs d'orchestre de la réponse immunitaire, il désorganise l'ensemble du système."],
-    ["Qu'appelle-t-on immunité collective ?", ["La protection indirecte des non-immunisés quand une majorité l'est", "L'immunité transmise par la mère à l'enfant au cours de la grossesse", "L'immunité acquise en même temps par tout un groupe", "La vaccination rendue obligatoire par la loi pour tous"], 0,
-     "Le seuil dépend de la contagiosité de la maladie : environ quatre-vingt-quinze pour cent pour la rougeole."],
+    ["Qui profite de l'immunité collective sans être vacciné ?", ["Les personnes qui ne peuvent pas être vaccinées", "Les personnes qui refusent la vaccination par choix", "Les personnes vaccinées depuis leur enfance", "Les personnes qui voyagent fréquemment à l'étranger"], 0,
+     "Nourrissons trop jeunes, personnes immunodéprimées ou allergiques à un composant du vaccin en sont les bénéficiaires typiques : la protection collective les couvre indirectement."],
     ["Qu'est-ce qu'une allergie ?", ["Une réaction immunitaire excessive à une substance inoffensive", "Une infection chronique qui dure des mois", "Un déficit immunitaire d'origine génétique", "Une intolérance digestive à un aliment que l'intestin supporte mal"], 0,
      "Les immunoglobulines E déclenchent la libération d'histamine, responsable des symptômes.", 3],
   ]),
@@ -155,8 +155,8 @@ export const CG_SCIENCES_VIE: SeedSkill[] = [
      "Une bisannuelle met deux ans, une vivace repousse plusieurs années de suite."],
     ["Quelle est la fonction de la fleur ?", ["La reproduction sexuée", "La photosynthèse", "Le stockage de réserves", "La respiration"], 0,
      "Couleurs et parfums sont des signaux destinés aux pollinisateurs, pas des ornements gratuits."],
-    ["Quel arbre est considéré comme l'organisme vivant le plus grand du monde ?", ["Le séquoia géant, par la masse", "Le baobab africain", "Le chêne pédonculé des forêts d'Europe", "Le manguier des tropiques"], 0,
-     "Le General Sherman, en Californie, dépasse mille cinq cents mètres cubes de bois. Certains réseaux de champignons couvrent des surfaces plus vastes encore.", 3],
+    ["Quel arbre détient le record de volume de bois sur pied ?", ["Le séquoia géant", "Le baobab africain", "Le chêne pédonculé des forêts d'Europe", "Le manguier des tropiques"], 0,
+     "Le General Sherman, en Californie, approche mille cinq cents mètres cubes de bois. Il n'est pourtant pas l'organisme le plus lourd : le peuplier clonal Pando, dans l'Utah, atteindrait six mille tonnes, et certains réseaux de champignons couvrent plusieurs kilomètres carrés.", 3],
   ]),
 
   notion("sv-evolution-humaine", S, "L'évolution humaine",
@@ -245,7 +245,7 @@ export const CG_SCIENCES_VIE: SeedSkill[] = [
      "Sans lui, la température moyenne du globe serait d'environ moins dix-huit degrés au lieu de quinze."],
     ["Quel est le principal gaz à effet de serre émis par les activités humaines ?", ["Le dioxyde de carbone", "Le méthane des élevages", "L'ozone de basse altitude", "La vapeur d'eau des nuages"], 0,
      "Le méthane est plus réchauffant à court terme mais dure moins longtemps dans l'atmosphère."],
-    ["Quel organisme évalue l'état des connaissances sur le climat ?", ["Le GIEC", "l'OMM seule", "l'Agence européenne pour l'environnement", "le PNUE seul"], 0,
+    ["Quel organisme évalue l'état des connaissances sur le climat ?", ["Le GIEC", "L'OMM seule", "L'Agence européenne pour l'environnement", "Le PNUE seul"], 0,
      "Créé en 1988, il ne mène pas de recherches mais synthétise les publications scientifiques existantes."],
     ["Qu'est-ce qu'un puits de carbone ?", ["Un réservoir qui absorbe plus de carbone qu'il n'en émet", "Une ancienne mine de charbon, désaffectée puis soigneusement rebouchée", "Un site industriel de stockage de gaz sous pression", "Une zone où les émissions se concentrent fortement"], 0,
      "Océans, forêts et sols en sont les principaux. Leur capacité d'absorption n'est pas illimitée."],
@@ -274,9 +274,9 @@ export const CG_SCIENCES_VIE: SeedSkill[] = [
     ["Qu'est-ce qu'une espèce endémique ?", ["Une espèce présente naturellement dans une seule région", "Une espèce très répandue sur plusieurs continents", "Une espèce introduite par l'homme il y a longtemps", "Une espèce en voie d'extinction rapide partout dans le monde"], 0,
      "Les îles en comptent beaucoup, ce qui les rend particulièrement vulnérables aux introductions."],
     ["Qu'est-ce qu'une espèce invasive ?", ["Une espèce introduite qui prolifère au détriment des espèces locales", "Une espèce qui migre naturellement d'une région à l'autre chaque année", "Une espèce très prolifique dont les portées sont nombreuses", "Une espèce prédatrice au sommet de la chaîne alimentaire"], 0,
-     "Le frelon asiatique et la jussie en France en sont des exemples. Elles constituent la deuxième cause d'extinction sur les îles."],
+     "Le frelon asiatique et la jussie en France en sont des exemples. Sur les îles, où la faune n'a pas évolué face à ces prédateurs ou concurrents, elles sont la première cause d'extinction documentée."],
     ["Combien d'extinctions de masse la Terre a-t-elle connues ?", ["Cinq majeures", "Trois seulement", "Une seule en tout", "Dix au total"], 0,
-     "La plus sévère, à la fin du Permien il y a 252 millions d'années, a fait disparaître environ quatre-vingt-dix pour cent des espèces marines."],
+     "La plus sévère, à la fin du Permien il y a 252 millions d'années, a fait disparaître environ quatre-vingts pour cent des espèces marines."],
     ["Qu'est-ce qu'une espèce parapluie en conservation ?", ["Une espèce dont la protection profite à tout son écosystème", "Une espèce servant seulement d'indicateur de pollution", "Une espèce introduite volontairement pour repeupler un milieu", "Une espèce élevée en captivité avant d'être relâchée"], 0,
      "Protéger le vaste territoire d'un grand prédateur revient à protéger toutes les espèces qui y vivent."],
     ["Quel oiseau a disparu de l'île Maurice au XVIIe siècle ?", ["Le dodo", "Le grand pingouin", "Le moa", "La tourte voyageuse"], 0,

@@ -70,7 +70,7 @@
   },
   {
    "titre": "L'escrime et ses trois armes",
-   "texte": "L'escrime naît au Moyen Âge, où apparaissent les premiers maîtres d'armes professionnels, et devient à la Renaissance un art de cour, hérité du duel nobiliaire, avant de se transformer en sport codifié. Elle se pratique aujourd'hui avec trois armes très différentes, qui constituent en réalité trois disciplines distinctes. Le fleuret a été créé au XVIIe siècle comme arme d'entraînement, et il est le seul à n'avoir jamais quitté les salles d'armes. Seule la pointe compte, et la surface valable se limite au tronc. C'est une arme dite conventionnelle : lorsque les deux tireurs touchent presque simultanément, une règle de priorité attribue le point à celui qui a attaqué le premier ou qui a paré l'attaque adverse. L'épée est apparue au XIXe siècle, dans le contexte du duel, et elle en conserve la logique : la touche se marque uniquement de la pointe, mais sur l'ensemble du corps, et il n'existe aucune convention de priorité. Si les deux tireurs se touchent en même temps, chacun marque un point, ce qui rend cette arme la plus proche d'un combat réel. Le sabre, enfin, est également conventionnel : il permet de toucher avec la pointe mais aussi avec le tranchant et le plat de la lame, sur toute la partie du corps située au-dessus de la ceinture, ce qui en fait l'arme la plus rapide et la plus offensive.",
+   "texte": "L'escrime naît au Moyen Âge, où apparaissent les premiers maîtres d'armes professionnels, et devient à la Renaissance un art de cour, hérité du duel nobiliaire, avant de se transformer en sport codifié. Elle se pratique aujourd'hui avec trois armes très différentes, qui constituent en réalité trois disciplines distinctes. Le fleuret a été créé au XVIIe siècle comme arme d'entraînement : c'est la seule des trois qui n'ait jamais servi à se battre, seulement à apprendre. Seule la pointe compte, et la surface valable se limite au tronc. C'est une arme dite conventionnelle : lorsque les deux tireurs touchent presque simultanément, une règle de priorité attribue le point à celui qui a attaqué le premier ou qui a paré l'attaque adverse. L'épée est apparue au XIXe siècle, dans le contexte du duel, et elle en conserve la logique : la touche se marque uniquement de la pointe, mais sur l'ensemble du corps, et il n'existe aucune convention de priorité. Si les deux tireurs se touchent en même temps, chacun marque un point, ce qui rend cette arme la plus proche d'un combat réel. Le sabre, enfin, est également conventionnel : il permet de toucher avec la pointe mais aussi avec le tranchant et le plat de la lame, sur toute la partie du corps située au-dessus de la ceinture, ce qui en fait l'arme la plus rapide et la plus offensive.",
    "visuel": {
     "type": "tableau",
     "titre": "Les trois armes de l'escrime",
@@ -100,7 +100,7 @@
       "Arme conventionnelle ; la plus rapide et la plus offensive"
      ]
     ],
-    "note": "Le fleuret, créé au XVIIe siècle comme arme d'entraînement, est le seul à n'avoir jamais quitté les salles d'armes ; l'épée, apparue au XIXe siècle, garde la logique du duel."
+    "note": "Le fleuret, créé au XVIIe siècle comme arme d'entraînement, est la seule des trois qui n'ait jamais servi à se battre, seulement à apprendre ; l'épée, apparue au XIXe siècle, garde la logique du duel."
    }
   },
   {

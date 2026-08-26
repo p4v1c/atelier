@@ -7,7 +7,7 @@
   },
   {
    "titre": "Le fer et l'acier : l'âge des grands ponts",
-   "texte": "La révolution industrielle apporte des matériaux nouveaux, capables de résister aussi bien à la traction qu'à la compression. En 1779, l'Iron Bridge est jeté au-dessus de la Severn en Angleterre : c'est le premier pont en fonte du monde, encore dessiné comme un pont de pierre car ses constructeurs raisonnaient avec les formes qu'ils connaissaient. Le fer puddlé puis, à partir des procédés Bessemer de 1856 et Martin, l'acier bon marché permettent de concevoir des ouvrages entièrement nouveaux. Le pont suspendu, où le tablier est porté par des câbles tendus entre de hauts pylônes, franchit des portées inédites : le pont de Brooklyn, achevé en 1883 par la famille Roebling après quatorze ans de travaux, dépasse cinq cents mètres entre ses piles et utilise pour la première fois des câbles en fils d'acier. Le pont du Forth en Écosse, ouvert en 1890, adopte la solution du cantilever, où deux consoles s'avancent en équilibre l'une vers l'autre. En France, Gustave Eiffel et ses ingénieurs, notamment Maurice Koechlin, appliquent le calcul des treillis métalliques au viaduc de Garabit puis à la tour de trois cents mètres élevée pour l'Exposition universelle de 1889. Le métal permet de bâtir léger, ajouré et rapide, en assemblant des pièces fabriquées en usine puis rivetées sur place.",
+   "texte": "La révolution industrielle apporte des matériaux nouveaux, capables de résister aussi bien à la traction qu'à la compression. En 1779, l'Iron Bridge est jeté au-dessus de la Severn en Angleterre : c'est le premier pont en fonte du monde, encore dessiné comme un pont de pierre car ses constructeurs raisonnaient avec les formes qu'ils connaissaient. Le fer puddlé puis, à partir des procédés Bessemer de 1856 et Martin, l'acier bon marché permettent de concevoir des ouvrages entièrement nouveaux. Le pont suspendu, où le tablier est porté par des câbles tendus entre de hauts pylônes, franchit des portées inédites : le pont de Brooklyn, commencé en 1870 et achevé en 1883 par la famille Roebling après treize ans de travaux, dépasse quatre cent quatre-vingts mètres entre ses piles — record mondial de portée à son ouverture — et utilise pour la première fois des câbles en fils d'acier. Le pont du Forth en Écosse, ouvert en 1890, adopte la solution du cantilever, où deux consoles s'avancent en équilibre l'une vers l'autre. En France, Gustave Eiffel et ses ingénieurs, notamment Maurice Koechlin, appliquent le calcul des treillis métalliques au viaduc de Garabit puis à la tour de trois cents mètres élevée pour l'Exposition universelle de 1889. Le métal permet de bâtir léger, ajouré et rapide, en assemblant des pièces fabriquées en usine puis rivetées sur place.",
    "visuel": {
     "type": "frise",
     "titre": "L'âge des grands ponts métalliques",
@@ -25,7 +25,7 @@
      {
       "date": "1883",
       "label": "Pont de Brooklyn",
-      "texte": "Plus de 500 m entre les piles, premiers câbles en fils d'acier, quatorze ans de travaux."
+      "texte": "486 m entre les piles — record mondial de portée —, premiers câbles en fils d'acier, treize ans de travaux."
      },
      {
       "date": "1889",
