@@ -158,6 +158,28 @@ export const cultureGenerale: LearningModule = {
       });
     }
 
+    // 1 ter. La minuscule initiale. Une passe automatique de réparation des
+    //    élisions avait laissé cent cinquante-cinq propositions commençant par
+    //    une minuscule au milieu de propositions capitalisées — « l'Alsace »
+    //    face à « La Bretagne ». Ce n'était pas qu'une inélégance : la
+    //    minuscule tombait sur la bonne réponse dans 43 % des cas, quand le
+    //    hasard en donne 25, et elle se repère sans rien lire.
+    //
+    //    Le contrôle bloque, parce que rien ne le justifie jamais : c'est une
+    //    coquille, pas un arbitrage de rédaction.
+    const bancales = payloads.filter((p) => {
+      const capitales = p.choices.filter((c) => c.length > 0 && c[0] !== c[0]!.toLowerCase());
+      if (capitales.length < 2) return false;
+      return p.choices.some((c) => c.length > 0 && c[0] !== c[0]!.toUpperCase());
+    }).length;
+    if (bancales > 0) {
+      anomalies.push({
+        severity: "error",
+        code: "proposition-en-minuscule",
+        message: `${bancales} question(s) mêlent des propositions capitalisées et une proposition en minuscule : la minuscule se repère sans lire`,
+      });
+    }
+
     // Le plancher a d'abord été fixé à douze caractères, ce qui laissait
     // passer les réponses courtes — et ce sont les plus faciles à recopier
     // sans y penser : « L'Odyssée », « Le Nil », « Pixar ». Sept caractères
