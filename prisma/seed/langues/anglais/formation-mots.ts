@@ -56,7 +56,7 @@ export const ANGLAIS_FORMATION_MOTS: LotCartes[] = [
       {
         etranger: "The claim is unfounded.",
         francais: "L'affirmation est sans fondement.",
-        note: "Un- est le préfixe négatif le plus courant. Il ne se combine pas avec tout.",
+        note: "Un- est le préfixe négatif le plus courant ; il s'attache surtout aux mots germaniques, là où in- va aux mots latins : unhappy mais incapable.",
       },
       {
         etranger: "The decision was premature.",
@@ -66,7 +66,7 @@ export const ANGLAIS_FORMATION_MOTS: LotCartes[] = [
       {
         etranger: "The two accounts are inconsistent.",
         francais: "Les deux versions se contredisent.",
-        note: "In- devient im- devant p et b, ir- devant r, il- devant l : impossible, irregular.",
+        note: "In- devient im- devant p, b et m (impossible, immoral), ir- devant r (irregular), il- devant l (illegal).",
       },
       {
         etranger: "He outgrew his old habits.",
@@ -74,9 +74,9 @@ export const ANGLAIS_FORMATION_MOTS: LotCartes[] = [
         note: "Out- dit le dépassement : outgrow, outlive, outnumber, outperform.",
       },
       {
-        etranger: "The building is fireproof.",
-        francais: "Le bâtiment est ignifugé.",
-        note: "-proof en suffixe dit la résistance : waterproof, soundproof, foolproof.",
+        etranger: "They co-authored the report.",
+        francais: "Ils ont corédigé le rapport.",
+        note: "Co- dit la coparticipation : co-author, co-found, co-exist.",
       },
     ],
   },
@@ -125,7 +125,7 @@ export const ANGLAIS_FORMATION_MOTS: LotCartes[] = [
       },
       {
         etranger: "Her performance was flawless.",
-        francais: "Sa prestation était sans faute.",
+        francais: "Sa prestation était irréprochable.",
         note: "-ance et -ence sur les verbes latins : perform, performance ; prefer, preference.",
       },
       {
@@ -207,6 +207,11 @@ export const ANGLAIS_FORMATION_MOTS: LotCartes[] = [
         etranger: "The film is watchable at best.",
         francais: "Le film est regardable, sans plus.",
         note: "-able ajouté librement produit des mots de circonstance, courants à l'oral.",
+      },
+      {
+        etranger: "The building is fireproof.",
+        francais: "Le bâtiment est ignifugé.",
+        note: "-proof en suffixe dit la résistance : waterproof, soundproof, foolproof.",
       },
     ],
   },
@@ -310,13 +315,13 @@ export const ANGLAIS_FORMATION_MOTS: LotCartes[] = [
       },
       {
         etranger: "She tried opening the window.",
-        francais: "Elle a essayé d'ouvrir la fenêtre, pour voir.",
-        note: "Try + gérondif : tenter une méthode pour voir si elle marche.",
+        francais: "Elle a essayé d'ouvrir la fenêtre.",
+        note: "Try + gérondif : tenter une méthode pour voir si elle marche — l'idée de « pour voir » reste dans la note, pas dans la traduction.",
       },
       {
         etranger: "She tried to open the window.",
-        francais: "Elle a tenté d'ouvrir la fenêtre, sans y parvenir.",
-        note: "Try + infinitif : faire l'effort, souvent en vain.",
+        francais: "Elle a tenté d'ouvrir la fenêtre.",
+        note: "Try + infinitif : faire l'effort, souvent en vain — sans que la phrase française le dise explicitement.",
       },
       {
         etranger: "I mean to finish it tonight.",
@@ -490,7 +495,7 @@ export const ANGLAIS_FORMATION_MOTS: LotCartes[] = [
       },
       {
         etranger: "Provided that you agree, we'll start.",
-        francais: "À condition que tu sois d'accord, nous commençons.",
+        francais: "À condition que tu sois d'accord, nous commencerons.",
         note: "Provided that ou providing that. Plus formel que if.",
       },
       {
@@ -510,7 +515,7 @@ export const ANGLAIS_FORMATION_MOTS: LotCartes[] = [
       },
       {
         etranger: "Should you need help, call me.",
-        francais: "Si vous aviez besoin d'aide, appelez-moi.",
+        francais: "Si vous avez besoin d'aide, appelez-moi.",
         note: "Should en tête dit une éventualité polie. Fréquent dans les courriels professionnels.",
       },
       {

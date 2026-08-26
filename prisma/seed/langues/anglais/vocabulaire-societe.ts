@@ -215,7 +215,7 @@ export const ANGLAIS_VOCABULAIRE_SOCIETE: LotCartes[] = [
       {
         etranger: "The archive was destroyed in the fire.",
         francais: "Les archives furent détruites dans l'incendie.",
-        note: "An archive au singulier désigne le fonds entier. Archives au pluriel dit l'institution.",
+        note: "An archive est un fonds ; the archives désigne aussi bien le fonds que le lieu qui le conserve.",
       },
     ],
   },
@@ -263,7 +263,7 @@ export const ANGLAIS_VOCABULAIRE_SOCIETE: LotCartes[] = [
         etranger: "The roof needs replacing.",
         francais: "Le toit est à refaire.",
         aussi: ["La toiture doit être remplacée."],
-        note: "Need + -ing équivaut à un passif : the roof needs replacing, il faut le remplacer.",
+        note: "Need + -ing équivaut ici à un passif. La structure marche aussi avec want : the roof wants replacing, plus rare mais correct.",
       },
       {
         etranger: "The flats overlook the park.",
@@ -409,7 +409,7 @@ export const ANGLAIS_VOCABULAIRE_SOCIETE: LotCartes[] = [
       {
         etranger: "We source locally where possible.",
         francais: "Nous nous approvisionnons localement quand c'est possible.",
-        note: "Source as a verb, s'approvisionner. Where possible, dans la mesure du possible.",
+        note: "Source comme verbe : s'approvisionner. Where possible, dans la mesure du possible.",
       },
       {
         etranger: "The order is on back order.",
@@ -449,9 +449,9 @@ export const ANGLAIS_VOCABULAIRE_SOCIETE: LotCartes[] = [
         note: "Phase out, éliminer par étapes. Phase in dit l'introduction progressive.",
       },
       {
-        etranger: "Renewables now supply a third of the mix.",
-        francais: "Les renouvelables fournissent désormais un tiers du mix.",
-        note: "Renewables comme nom pluriel. The energy mix est passé tel quel en français.",
+        etranger: "Some wind output is curtailed on windy days.",
+        francais: "Une partie de la production éolienne est écrêtée les jours de grand vent.",
+        note: "Curtailment : on bride une production qui dépasse ce que le réseau peut absorber. Terme technique sans équivalent français d'un seul mot.",
       },
       {
         etranger: "The plant provides baseload power.",

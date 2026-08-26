@@ -149,7 +149,7 @@ export const ANGLAIS_VOCABULAIRE_C1: LotCartes[] = [
         {
           titre: "Les verbes de l'argumentation",
           texte:
-            "L'anglais académique repose sur un noyau restreint de verbes. Les connaître dispense de traduire, et traduire est précisément ce qui produit les textes qui sonnent faux.\n\nPour annoncer : this paper outlines, examines, explores, sets out to show. Outline est plus léger qu'examine, qui est plus léger qu'establish.\n\nPour traiter un point : address a question, tackle an issue, deal with a case. Address ne veut jamais dire adresser.\n\nPour expliquer : account for est le verbe clé — this accounts for the discrepancy, cela explique l'écart. Le calque « explain the discrepancy » existe mais dit moins : account for suppose une explication complète.\n\nPour appuyer : underpin, sous-tendre ; substantiate, étayer ; corroborate, corroborer. Support est le générique.\n\nPour contester : challenge a claim, refute an argument, call into question. Refute est fort : il suppose la démonstration, pas le simple désaccord.\n\nPour conclure : the findings point to, the evidence bears out, this lends weight to.",
+            "L'anglais académique repose sur un noyau restreint de verbes. Les connaître dispense de traduire, et traduire est précisément ce qui produit les textes qui sonnent faux.\n\nPour annoncer : this paper outlines, examines, explores, sets out to show. Outline est plus léger qu'examine, qui est plus léger qu'establish.\n\nPour traiter un point : address a question, tackle an issue, deal with a case. Address ne veut jamais dire adresser.\n\nPour expliquer : account for est le verbe clé — this accounts for the discrepancy, cela explique l'écart. Explain the discrepancy est correct aussi ; account for dit en plus qu'on rend compte de la totalité de l'écart.\n\nPour appuyer : underpin, sous-tendre ; substantiate, étayer ; corroborate, corroborer. Support est le générique.\n\nPour contester : challenge a claim, refute an argument, call into question. Refute est fort : il suppose la démonstration, pas le simple désaccord.\n\nPour conclure : the findings point to, the evidence bears out, this lends weight to.",
           visuels: [
             {
               type: "tableau",
@@ -229,7 +229,8 @@ export const ANGLAIS_VOCABULAIRE_C1: LotCartes[] = [
       {
         etranger: "Further research is needed here.",
         francais: "Des travaux supplémentaires sont nécessaires ici.",
-        note: "Research est indénombrable : jamais « researches » dans ce sens.",
+        aussiEtranger: ["Further work is needed here."],
+        note: "Research est indénombrable : jamais « researches » dans ce sens. Work, tout aussi indénombrable, se dit à égalité.",
       },
       {
         etranger: "Notwithstanding these limits, the trend holds.",
@@ -239,7 +240,7 @@ export const ANGLAIS_VOCABULAIRE_C1: LotCartes[] = [
       {
         etranger: "Furthermore, the sample was too small.",
         francais: "De plus, l'échantillon était trop réduit.",
-        note: "Furthermore annonce un argument supplémentaire, souvent décisif.",
+        note: "Moreover et furthermore sont interchangeables ; in addition est un cran plus neutre, also un cran plus courant.",
       },
       {
         etranger: "The evidence bears out this reading.",
@@ -358,7 +359,7 @@ export const ANGLAIS_VOCABULAIRE_C1: LotCartes[] = [
       {
         etranger: "Police have launched a probe.",
         francais: "La police a ouvert une enquête.",
-        note: "A probe, l'enquête, dans les titres. Police prend un verbe pluriel en anglais britannique.",
+        note: "A probe, l'enquête, dans les titres. Police prend toujours un verbe pluriel : the police are, the police have.",
       },
       {
         etranger: "There was a row over the funding.",
@@ -367,7 +368,7 @@ export const ANGLAIS_VOCABULAIRE_C1: LotCartes[] = [
       },
       {
         etranger: "The minister vowed to resign.",
-        francais: "Le ministre a juré de démissionner.",
+        francais: "Le ministre s'est engagé à démissionner.",
         note: "Vow, promettre solennellement. Quit et oust complètent le lexique.",
       },
       {
@@ -405,7 +406,7 @@ export const ANGLAIS_VOCABULAIRE_C1: LotCartes[] = [
         {
           titre: "Saxon, français, latin",
           texte:
-            "L'anglais a trois couches lexicales superposées, et elles correspondent presque exactement à trois registres.\n\nLa couche saxonne est la plus ancienne : mots courts, souvent monosyllabiques, verbes à particule. Ask, get, buy, help, start, end, go on. C'est le registre neutre ou familier, celui de la conversation et du bon journalisme.\n\nLa couche française, entrée après 1066, occupe le milieu : mots de deux ou trois syllabes, registre soutenu sans être technique. Request, obtain, purchase, assist, commence, terminate, continue.\n\nLa couche latine et grecque, arrivée par les savants, occupe le haut : mots longs, souvent abstraits, registre technique ou juridique. Solicit, procure, acquire, facilitate, initiate, terminate, perpetuate.\n\nLa conséquence pour un francophone est paradoxale : les mots qui lui viennent naturellement, parce qu'ils ressemblent au français, sont presque toujours trop formels. Écrire commence là où un anglophone écrirait start donne un texte guindé — et un francophone ne l'entend pas, puisque « commencer » est neutre en français.",
+            "L'anglais a trois couches lexicales superposées, et elles correspondent presque exactement à trois registres.\n\nLa couche saxonne est la plus ancienne : mots courts, souvent monosyllabiques, verbes à particule. Ask, get, buy, help, start, end, go on. C'est le registre neutre ou familier, celui de la conversation et du bon journalisme.\n\nLa couche française, entrée après 1066, occupe le milieu : mots de deux ou trois syllabes, registre soutenu sans être technique. Request, obtain, purchase, assist, commence, continue.\n\nLa couche latine et grecque, arrivée par les savants, occupe le haut : mots longs, souvent abstraits, registre technique ou juridique. Solicit, procure, acquire, facilitate, initiate, terminate, perpetuate.\n\nLa conséquence pour un francophone est paradoxale : les mots qui lui viennent naturellement, parce qu'ils ressemblent au français, sont presque toujours trop formels. Écrire commence là où un anglophone écrirait start donne un texte guindé — et un francophone ne l'entend pas, puisque « commencer » est neutre en français.",
           visuels: [
             {
               type: "tableau",
@@ -534,7 +535,7 @@ export const ANGLAIS_VOCABULAIRE_C1: LotCartes[] = [
         {
           titre: "Ce qui fait qu'un idiome est opaque",
           texte:
-            "Une expression est idiomatique quand son sens ne se calcule pas à partir de celui de ses mots. Kick the bucket ne parle ni de coup de pied ni de seau : cela veut dire mourir, sur un ton badin.\n\nCette opacité a une conséquence pratique : un idiome ne s'apprend pas comme du vocabulaire. Retenir « bite the bullet = prendre son courage à deux mains » ne suffit pas, parce qu'on ne saura pas quand l'employer. Il faut retenir la situation : bite the bullet se dit d'une décision désagréable qu'on a différée et qu'on finit par prendre.\n\nDeuxième conséquence : les idiomes sont fixes. On ne peut ni changer un mot, ni ajouter un adjectif, ni mettre au pluriel. C'est spill the beans, jamais « spill the peas ». C'est the elephant in the room, jamais « the elephant in the office ».\n\nTroisième conséquence : ils portent un registre. Certains sont neutres et passent partout — at the end of the day, in the long run. D'autres sont familiers et déplacés à l'écrit — kick the bucket, cost an arm and a leg.",
+            "Une expression est idiomatique quand son sens ne se calcule pas à partir de celui de ses mots. Kick the bucket ne parle ni de coup de pied ni de seau : cela veut dire mourir, sur un ton badin.\n\nCette opacité a une conséquence pratique : un idiome ne s'apprend pas comme du vocabulaire. Retenir « bite the bullet = prendre son courage à deux mains » ne suffit pas, parce qu'on ne saura pas quand l'employer. Il faut retenir la situation : bite the bullet se dit d'une décision désagréable qu'on a différée et qu'on finit par prendre.\n\nDeuxième conséquence : les idiomes sont fixes. On ne peut ni changer un mot, ni ajouter un adjectif, ni mettre au pluriel. C'est spill the beans, jamais « spill the peas ». C'est the elephant in the room, jamais « the elephant in the office ».\n\nTroisième conséquence : ils portent un registre. Certains sont neutres et passent partout — in the long run, by and large. D'autres sont familiers et déplacés à l'écrit — kick the bucket, cost an arm and a leg.",
           visuels: [
             {
               type: "tableau",
@@ -556,7 +557,7 @@ export const ANGLAIS_VOCABULAIRE_C1: LotCartes[] = [
         {
           titre: "Les familles qui aident à retenir",
           texte:
-            "Les idiomes se regroupent par domaine d'origine, et ce classement en facilite la mémorisation.\n\nLa mer et la marine ont beaucoup donné, langue d'île oblige : learn the ropes, apprendre le métier ; give someone a wide berth, éviter quelqu'un ; take the wind out of someone's sails, couper l'herbe sous le pied ; plain sailing, sans difficulté ; all hands on deck, mobilisation générale.\n\nLe sport en a donné autant. Du cricket : it's not cricket, ce n'est pas fair-play ; be on a sticky wicket, être en mauvaise posture. De la boxe : below the belt, déloyal ; throw in the towel, abandonner. Du tennis : the ball is in your court.\n\nLa guerre et la chasse : bite the bullet, jump the gun, partir trop tôt ; a shot in the dark, une supposition hasardeuse.\n\nEt Shakespeare, à lui seul, a fourni des dizaines d'expressions courantes : break the ice, wild-goose chase, in a pickle, a foregone conclusion.",
+            "Les idiomes se regroupent par domaine d'origine, et ce classement en facilite la mémorisation.\n\nLa mer et la marine ont beaucoup donné, langue d'île oblige : learn the ropes, apprendre le métier ; give someone a wide berth, éviter quelqu'un ; take the wind out of someone's sails, couper l'herbe sous le pied ; plain sailing, sans difficulté ; all hands on deck, mobilisation générale.\n\nLe sport en a donné autant. Du cricket : it's not cricket, ce n'est pas fair-play ; be on a sticky wicket, être en mauvaise posture. De la boxe : below the belt, déloyal ; throw in the towel, abandonner. Du tennis : the ball is in your court. De l'athlétisme : jump the gun, partir avant le signal du starter.\n\nLa guerre et la chasse : bite the bullet ; a shot in the dark, une supposition hasardeuse.\n\nEt Shakespeare, à lui seul, a fourni des dizaines d'expressions courantes : break the ice, wild-goose chase, in a pickle, a foregone conclusion.\n\nQuelques images, enfin, passent presque mot pour mot dans les deux langues, ce qui est rare pour un idiome : donner un coup de main (give a hand), le mouton noir de la famille (a black sheep), se serrer la ceinture (tighten one's belt), l'avoir sur le bout de la langue (on the tip of one's tongue), la balle dans son camp (the ball is in your court), tomber à plat (fall flat). Elles ne demandent pas d'explication — seule leur rareté vaut d'être notée, une fois pour toutes.\n\nIt's raining cats and dogs, l'image la plus citée du duo franco-anglais, est d'ailleurs un peu datée en anglais courant : pouring down se dit plus souvent aujourd'hui.",
           visuels: [
             {
               type: "comparaison",
@@ -613,7 +614,7 @@ export const ANGLAIS_VOCABULAIRE_C1: LotCartes[] = [
       {
         etranger: "The ball is in your court now.",
         francais: "La balle est dans ton camp maintenant.",
-        note: "Venu du tennis. L'une des rares images que le français partage mot pour mot.",
+        note: "Venu du tennis. S'emploie aussi bien en négociation professionnelle qu'en conversation courante, sans registre marqué.",
       },
       {
         etranger: "It cost an arm and a leg.",

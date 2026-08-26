@@ -78,7 +78,7 @@ export const ANGLAIS_VOCABULAIRE_IDEES: LotCartes[] = [
         {
           titre: "Dire un prix sans se tromper",
           texte:
-            "Trois habitudes suffisent à parler de prix comme un anglophone.\n\nLa première : la monnaie se place avant le chiffre à l'écrit, après à l'oral. On écrit £25, on dit twenty-five pounds. Et l'on ne met pas de pluriel au symbole.\n\nLa deuxième : les prix se lisent par bloc. £3.50 se dit three pounds fifty, ou simply three fifty. $19.99 se dit nineteen ninety-nine. Le mot « cents » est presque toujours omis.\n\nLa troisième : les verbes du prix ne se construisent pas comme en français. Cost n'a pas de complément indirect : it costs twenty euros. Spend prend l'objet dépensé et non l'objet acheté : I spent forty pounds on books. Pay prend la personne ou la somme : pay the plumber, pay fifty euros — et pay FOR l'objet : I paid for the meal.\n\nEnfin, worth est un adjectif et non un verbe : it's worth two hundred euros, it's worth trying. Dire « it worths » est l'une des fautes les plus tenaces chez un francophone.",
+            "Trois habitudes suffisent à parler de prix comme un anglophone.\n\nLa première : la monnaie se place avant le chiffre à l'écrit, après à l'oral. On écrit £25, on dit twenty-five pounds. Et l'on ne met pas de pluriel au symbole.\n\nLa deuxième : les prix se lisent par bloc. £3.50 se dit three pounds fifty, ou plus simplement three fifty. $19.99 se dit nineteen ninety-nine. Le mot « cents » est presque toujours omis.\n\nLa troisième : les verbes du prix ne se construisent pas comme en français. Cost n'a pas de complément indirect : it costs twenty euros. Spend prend l'objet dépensé et non l'objet acheté : I spent forty pounds on books. Pay prend la personne ou la somme : pay the plumber, pay fifty euros — et pay FOR l'objet : I paid for the meal.\n\nEnfin, worth est un adjectif et non un verbe : it's worth two hundred euros, it's worth trying. Dire « it worths » est l'une des fautes les plus tenaces chez un francophone.",
         },
       ],
     },
@@ -105,7 +105,7 @@ export const ANGLAIS_VOCABULAIRE_IDEES: LotCartes[] = [
       },
       {
         etranger: "I spent forty pounds on books.",
-        francais: "J'ai dépensé quarante livres en livres.",
+        francais: "J'ai dépensé quarante livres sterling en bouquins.",
         note: "Spend money ON something. La préposition n'est jamais « for » ici.",
       },
       {
@@ -153,7 +153,7 @@ export const ANGLAIS_VOCABULAIRE_IDEES: LotCartes[] = [
         {
           titre: "Les faux anglicismes du français",
           texte:
-            "Le français a beaucoup emprunté au vocabulaire informatique anglais, et il l'a souvent tronqué ou déplacé. Les employer tels quels devant un anglophone produit des phrases qui sonnent presque juste, ce qui les rend plus difficiles à corriger.\n\nUn « mail » français est an email en anglais ; mail tout seul désigne le courrier postal. Envoyer un mail se dit send an email.\n\nUn « spot » publicitaire est an advert ou a commercial. Le mot spot en anglais désigne un endroit ou une tache.\n\nLe « digital » français, au sens de numérique, se dit digital en anglais aussi — mais comme adjectif seulement. « Le digital » comme nom n'existe pas : on dit digital technology ou simply digital transformation.\n\nUn « pressing », un « camping », un « parking », un « brushing » et un « relooking » n'existent pas non plus. Ce sont des créations françaises à l'aide de terminaisons anglaises, et un anglophone ne les comprend pas.",
+            "Le français a beaucoup emprunté au vocabulaire informatique anglais, et il l'a souvent tronqué ou déplacé. Les employer tels quels devant un anglophone produit des phrases qui sonnent presque juste, ce qui les rend plus difficiles à corriger.\n\nUn « mail » français est an email en anglais ; mail tout seul désigne le courrier postal. Envoyer un mail se dit send an email.\n\nUn « spot » publicitaire est an advert ou a commercial. Le mot spot en anglais désigne un endroit ou une tache.\n\nLe « digital » français, au sens de numérique, se dit digital en anglais aussi — mais comme adjectif seulement. « Le digital » comme nom n'existe pas : on dit digital technology ou plus simplement digital transformation.\n\nCamping et parking, eux, existent bel et bien en anglais — mais seulement comme noms d'activité : camping is fun, parking is free. Un « parking » français, le lieu, se dit a car park (GB) ou a parking lot (US) ; un « camping », le terrain, se dit a campsite. Un « pressing », un « brushing » et un « relooking », en revanche, n'existent pas : ce sont des créations françaises à l'aide de terminaisons anglaises, et un anglophone ne les comprend pas.",
           visuels: [
             {
               type: "tableau",
@@ -205,7 +205,7 @@ export const ANGLAIS_VOCABULAIRE_IDEES: LotCartes[] = [
         {
           titre: "Le vocabulaire de la sécurité",
           texte:
-            "C'est le champ où l'on a le plus besoin d'être précis, et où l'approximation coûte le plus cher.\n\nA password est le mot de passe, en un seul mot. A passphrase est une phrase de passe, plus longue. Two-factor authentication, souvent abrégé 2FA, est l'authentification à deux facteurs.\n\nA breach est une fuite ou une violation de données ; a leak est une fuite au sens large. Hack est le verbe et le nom : they hacked the system, it was a hack.\n\nPhishing, l'hameçonnage, se prononce comme fishing et s'écrit avec ph. Ransomware est le rançongiciel, malware le logiciel malveillant, spyware le logiciel espion.\n\nEnfin, les mots de la confidentialité. Privacy est la vie privée — le faux ami « privauté » n'existe pas. Data protection est la protection des données, et GDPR l'équivalent anglais du RGPD, avec les lettres dans l'autre ordre. Encryption est le chiffrement ; « cryptage » se dit encryption, pas « cryptation ».",
+            "C'est le champ où l'on a le plus besoin d'être précis, et où l'approximation coûte le plus cher.\n\nA password est le mot de passe, en un seul mot. A passphrase est une phrase de passe, plus longue. Two-factor authentication, souvent abrégé 2FA, est l'authentification à deux facteurs.\n\nA breach est une fuite ou une violation de données ; a leak est une fuite au sens large. Hack est le verbe et le nom : they hacked the system, it was a hack.\n\nPhishing, l'hameçonnage, se prononce comme fishing et s'écrit avec ph. Ransomware est le rançongiciel, malware le logiciel malveillant, spyware le logiciel espion.\n\nEnfin, les mots de la confidentialité. Privacy est la vie privée — jamais « privauté », qui en français désigne une familiarité déplacée. Data protection est la protection des données, et GDPR — General Data Protection Regulation — est le RGPD : mêmes initiales, dans l'ordre de chaque langue. Encryption est le chiffrement ; « cryptage » se dit encryption, pas « cryptation ».",
         },
       ],
     },
@@ -309,7 +309,7 @@ export const ANGLAIS_VOCABULAIRE_IDEES: LotCartes[] = [
         {
           titre: "L'intensité, du tiède au brûlant",
           texte:
-            "L'anglais dispose d'adjectifs dits extrêmes, qui contiennent déjà le degré maximal et ne se laissent donc pas modifier par very.\n\nOn ne dit pas « very terrible » ni « very excellent » : ces adjectifs sont déjà au bout de leur échelle. On les renforce par absolutely, utterly ou completely : absolutely terrible, utterly exhausted.\n\nÀ l'inverse, les adjectifs ordinaires prennent very, quite, rather, fairly — mais pas absolutely. On ne dit pas « absolutely good » ; on dit very good, ou l'on remplace l'adjectif par un extrême : absolutely brilliant.\n\nLes couples se retiennent par paires : good et brilliant, bad et awful, tired et exhausted, hungry et starving, cold et freezing, surprised et astonished, angry et furious, big et enormous, small et tiny.\n\nCette mécanique explique aussi pourquoi quite change de sens. Devant un adjectif ordinaire il tempère — quite good, assez bon ; devant un extrême il renforce — quite brilliant, absolument génial.",
+            "L'anglais dispose d'adjectifs dits extrêmes, qui contiennent déjà le degré maximal et ne se laissent donc pas modifier par very.\n\nOn ne dit pas « very terrible » ni « very excellent » : ces adjectifs sont déjà au bout de leur échelle. On les renforce par absolutely, utterly ou completely : absolutely terrible, utterly exhausted.\n\nÀ l'inverse, les adjectifs ordinaires prennent very, quite, rather, fairly — mais pas absolutely. On ne dit pas « absolutely good » ; on dit very good, ou l'on remplace l'adjectif par un extrême : absolutely brilliant.\n\nLes couples se retiennent par paires : good et brilliant, bad et awful, tired et exhausted, hungry et starving, cold et freezing, surprised et astonished, angry et furious, big et enormous, small et tiny.\n\nCette mécanique explique aussi pourquoi quite change de sens. Devant un adjectif ordinaire, il tempère en anglais britannique et renforce en américain — quite good ; devant un extrême, il renforce partout — quite brilliant, absolument génial.",
           visuels: [
             {
               type: "tableau",
@@ -430,16 +430,19 @@ export const ANGLAIS_VOCABULAIRE_IDEES: LotCartes[] = [
         {
           titre: "Le parcours de soins, et ses mots",
           texte:
-            "Le vocabulaire du système de santé est très différent d'un pays à l'autre, et les mots ne sont pas interchangeables.\n\nAu Royaume-Uni, on est enregistré auprès d'un GP — general practitioner —, le médecin généraliste. On book an appointment, on est référé à un specialist par un referral, et l'hôpital se dit hospital, sans article dans in hospital : she's in hospital, elle est hospitalisée. Les urgences sont A&E, accident and emergency.\n\nAux États-Unis, le généraliste est a primary care physician, les urgences sont the ER, emergency room, et l'article revient : she's in the hospital.\n\nLe reste est commun. A prescription est l'ordonnance ; prescribe est le verbe. A GP surgery est le cabinet médical britannique — surgery ne désigne pas seulement la chirurgie. A ward est un service hospitalier, a nurse une infirmière ou un infirmier, a consultant un médecin hospitalier senior au Royaume-Uni.\n\nEnfin, treatment est indénombrable au sens général, dénombrable pour un traitement précis : a new treatment for asthma.",
+            "Le vocabulaire du système de santé est très différent d'un pays à l'autre, et les mots ne sont pas interchangeables.\n\nAu Royaume-Uni, on est enregistré auprès d'un GP — general practitioner —, le médecin généraliste. On prend rendez-vous : book an appointment. On est adressé à un specialist par un referral, et l'hôpital se dit hospital, sans article dans in hospital : she's in hospital, elle est hospitalisée. Les urgences sont A&E, accident and emergency.\n\nAux États-Unis, le généraliste est a primary care physician, les urgences sont the ER, emergency room, et l'article revient : she's in the hospital.\n\nLe reste est commun. A prescription est l'ordonnance ; prescribe est le verbe. A GP surgery est le cabinet médical britannique — surgery ne désigne pas seulement la chirurgie. A ward est un service hospitalier, a nurse une infirmière ou un infirmier, a consultant un médecin hospitalier senior au Royaume-Uni.\n\nEnfin, treatment est indénombrable au sens général, dénombrable pour un traitement précis : a new treatment for asthma.",
           visuels: [
             {
               type: "etapes",
               titre: "Du symptôme à l'ordonnance",
               etapes: [
                 { titre: "symptoms", texte: "Ce qu'on ressent : a sore throat, a rash, shortness of breath." },
-                { titre: "appointment", texte: "On book an appointment with the GP." },
-                { titre: "diagnosis", texte: "Le médecin diagnoses a condition. Le pluriel est diagnoses." },
-                { titre: "prescription", texte: "Il prescribes du traitement : tablets, a course of antibiotics." },
+                { titre: "appointment", texte: "On prend rendez-vous : book an appointment with the GP." },
+                {
+                  titre: "diagnosis",
+                  texte: "Diagnoses est à la fois le verbe à la 3e personne (he diagnoses) et le pluriel du nom diagnosis : même orthographe, prononciation différente.",
+                },
+                { titre: "prescription", texte: "Le médecin prescrit : tablets, a course of antibiotics." },
                 { titre: "follow-up", texte: "Un rendez-vous de contrôle : a follow-up appointment." },
               ],
             },
@@ -448,7 +451,7 @@ export const ANGLAIS_VOCABULAIRE_IDEES: LotCartes[] = [
         {
           titre: "Les faux amis qui inquiètent pour rien",
           texte:
-            "La médecine est pleine de mots trompeurs, et l'erreur y est plus qu'un défaut de style.\n\nA drug est un médicament autant qu'une drogue : prescription drugs sont des médicaments sur ordonnance. Le contexte tranche, mais un francophone entend d'abord la drogue.\n\nA condition est une pathologie — a heart condition, une maladie cardiaque —, pas une condition au sens de circonstance.\n\nIntoxication en anglais veut dire ivresse ; l'intoxication alimentaire se dit food poisoning.\n\nA cure est une guérison ou un remède, pas une cure thermale — celle-ci se dit a spa treatment.\n\nEnfin, deux mots courants trompent. Actually ne veut jamais dire actuellement. Et to assist veut dire aider, pas assister à — qui se dit attend. Un médecin qui attends a conference y assiste ; celui qui assists a surgeon l'aide à opérer.",
+            "La médecine est pleine de mots trompeurs, et l'erreur y est plus qu'un défaut de style.\n\nA drug est un médicament autant qu'une drogue : prescription drugs sont des médicaments sur ordonnance. Le contexte tranche, mais un francophone entend d'abord la drogue.\n\nA condition est une pathologie — a heart condition, une maladie cardiaque —, pas une condition au sens de circonstance.\n\nIntoxication en anglais veut dire ivresse ; l'intoxication alimentaire se dit food poisoning.\n\nA cure est une guérison ou un remède, pas une cure thermale — celle-ci se dit a spa treatment.\n\nEnfin, deux mots courants trompent. Actually ne veut jamais dire actuellement. Et to assist veut dire aider, pas assister à — qui se dit attend. Assister à une conférence se dit to attend a conference ; aider un chirurgien se dit to assist a surgeon.",
         },
       ],
     },

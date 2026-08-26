@@ -2,8 +2,9 @@
  * Anglais — les dictées.
  *
  * Progressives : quelques phrases simples au A1, un paragraphe entier au B2.
- * L'accent alterne d'une dictée à l'autre, britannique puis américain — un
- * apprenant qui n'a entendu qu'un accent ne comprend que celui-là.
+ * L'accent alterne le plus souvent d'une dictée à l'autre, britannique et
+ * américain — un apprenant qui n'a entendu qu'un accent ne comprend que
+ * celui-là.
  */
 import type { DicteeLangue } from "../../../../src/modules/langues/commun";
 
@@ -73,7 +74,7 @@ export const ANGLAIS_DICTEES: DicteeLangue[] = [
     series: ["en-prepositions", "en-expressions"],
   },
   {
-    texte: "Nobody eventually agreed on the cause, but everyone accepted that something had to change. The report was comprehensive, the figures were actual rather than estimated, and the recommendations were sensible. What it lacked was anyone willing to put them into practice.",
+    texte: "In the end, nobody agreed on the cause, but everyone accepted that something had to change. The report was comprehensive, the figures were actual rather than estimated, and the recommendations were sensible. What it lacked was anyone willing to put them into practice.",
     theme: "Faux amis en contexte",
     niveau: "B2",
     difficulte: 3,
@@ -81,7 +82,7 @@ export const ANGLAIS_DICTEES: DicteeLangue[] = [
     series: ["en-faux-amis-1", "en-faux-amis-2"],
   },
   {
-    texte: "I used to think that fluency meant speaking without pausing. It does not. It means being understood, and understanding, without either side working too hard. The pauses are still there — you simply stop noticing them, and so does everyone else.",
+    texte: "I used to think that fluency meant speaking without pausing. It does not. It means being understood, and understanding, without either side working too hard. The pauses are still there. You simply stop noticing them, and so does everyone else.",
     theme: "Réflexion",
     niveau: "B2",
     difficulte: 3,

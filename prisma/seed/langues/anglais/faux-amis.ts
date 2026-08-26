@@ -113,10 +113,9 @@ export const ANGLAIS_FAUX_AMIS: LotCartes[] = [
         note: "Un agenda où l'on note ses rendez-vous est a diary, ou a planner aux États-Unis.",
       },
       {
-        etranger: "actual figures",
-        francais: "les chiffres réels",
-        aussi: ["les chiffres effectifs"],
-        note: "Par opposition aux prévisions. Les chiffres actuels, ceux d'aujourd'hui, sont the current figures.",
+        etranger: "a rope",
+        francais: "une corde",
+        note: "Une robe se dit a dress. Rope ne désigne jamais un vêtement.",
       },
       {
         etranger: "eventual",
@@ -134,6 +133,7 @@ export const ANGLAIS_FAUX_AMIS: LotCartes[] = [
         etranger: "a formation",
         francais: "une formation géologique",
         aussi: ["une formation militaire"],
+        aussiEtranger: ["a geological formation"],
         note: "Une formation professionnelle se dit training ou a course. « I did a formation » ne veut rien dire pour un anglophone.",
       },
       {
@@ -142,9 +142,10 @@ export const ANGLAIS_FAUX_AMIS: LotCartes[] = [
         note: "Un délai se dit a deadline quand c'est une échéance, a time frame quand c'est une durée.",
       },
       {
-        etranger: "eventually deliver",
-        francais: "finir par livrer",
-        note: "Le mot annonce que ça finira par arriver. Pour dire « on livrera peut-être », il faut we may deliver.",
+        etranger: "to ignore",
+        francais: "ne pas tenir compte de",
+        aussi: ["faire comme si de rien n'était"],
+        note: "Ignorer au sens de ne pas savoir se dit not to know ou to be unaware. To ignore, c'est délibérément ne pas réagir.",
       },
     ],
   },
@@ -157,7 +158,7 @@ export const ANGLAIS_FAUX_AMIS: LotCartes[] = [
       "Des phrases entières qu'un francophone construit mot à mot depuis le français, et qui ne se disent pas ainsi. Elles se repèrent à l'oreille d'un anglophone en une seconde.",
     tip: "Si une phrase anglaise se traduit trop bien mot à mot, il y a une chance sur deux qu'elle soit calquée.",
     difficulty: 2,
-    niveau: "A2",
+    niveau: "B1",
     parle: true,
     oral: true,
     cartes: [
@@ -174,18 +175,17 @@ export const ANGLAIS_FAUX_AMIS: LotCartes[] = [
       {
         etranger: "I am hungry.",
         francais: "J'ai faim.",
-        aussi: ["Je suis affamé."],
         note: "Comme pour l'âge : la faim, la soif, le froid, la peur se disent avec to be.",
       },
       {
         etranger: "It depends on the weather.",
         francais: "Ça dépend du temps.",
-        note: "Depend est toujours suivi de on. « It depends of » est un calque du français.",
+        note: "Depend prend on devant son complément : it depends on the weather. Sans complément, il reste nu : it depends. « It depends of » est un calque du français.",
       },
       {
-        etranger: "I look forward to hearing from you.",
-        francais: "Dans l'attente de votre réponse.",
-        note: "Après to, ici une préposition et non un infinitif, le verbe prend -ing. « I look forward to hear » est fautif.",
+        etranger: "I'm looking forward to it.",
+        francais: "J'ai hâte.",
+        note: "Look forward to + -ing, ici une préposition et non un infinitif. « Look forward to hear » est fautif.",
       },
       {
         etranger: "I have been living here for three years.",
@@ -208,9 +208,9 @@ export const ANGLAIS_FAUX_AMIS: LotCartes[] = [
         note: "Après make au sens de faire faire, l'infinitif est sans to.",
       },
       {
-        etranger: "I'm used to working late.",
-        francais: "J'ai l'habitude de travailler tard.",
-        note: "Ne pas confondre avec I used to work late, qui veut dire « je travaillais tard, avant ».",
+        etranger: "I don't usually get up this early.",
+        francais: "Je n'ai pas l'habitude de me lever aussi tôt.",
+        note: "Habitude se rend souvent par usually, sans passer par habit. « I don't have the habit of » sonne lourd et calqué.",
       },
     ],
   },
@@ -227,8 +227,9 @@ export const ANGLAIS_FAUX_AMIS: LotCartes[] = [
     cartes: [
       {
         etranger: "jogging",
-        francais: "le fait de courir",
-        note: "En français, « un footing ». Le mot footing n'existe pas en anglais dans ce sens ; il désigne une prise d'appui.",
+        francais: "le footing",
+        aussi: ["le jogging"],
+        note: "Le mot footing n'existe pas en anglais dans ce sens : il désigne une prise d'appui.",
       },
       {
         etranger: "a tuxedo",
@@ -248,20 +249,19 @@ export const ANGLAIS_FAUX_AMIS: LotCartes[] = [
         note: "Foosball aux États-Unis. « Baby-foot » ne se comprend nulle part en anglais.",
       },
       {
-        etranger: "a petrol station",
-        francais: "une station-service",
-        note: "Gas station aux États-Unis. Un « parking » se dit a car park ou a parking lot, jamais a parking tout court.",
+        etranger: "a car park",
+        francais: "un parking",
+        note: "Parking lot aux États-Unis. « A parking » tout court ne se dit pas en anglais. Une station-service se dit a petrol station, gas station aux États-Unis.",
       },
       {
         etranger: "a sweatshirt",
         francais: "un sweat",
-        aussi: ["un pull"],
-        note: "Dire « a sweat » signifie « une sueur ».",
+        note: "Dire « a sweat » signifie « une sueur ». Un pull se dit a jumper (GB) ou a sweater (US) — pas un sweatshirt.",
       },
       {
-        etranger: "hair gel",
-        francais: "du gel coiffant",
-        note: "Le brushing français se dit a blow-dry ; brushing en anglais désigne le brossage des dents ou des cheveux.",
+        etranger: "a blow-dry",
+        francais: "un brushing",
+        note: "Brushing en anglais désigne le brossage des dents ou des cheveux, jamais la mise en forme. Le gel coiffant se dit hair gel.",
       },
       {
         etranger: "a mobile phone",
@@ -270,14 +270,14 @@ export const ANGLAIS_FAUX_AMIS: LotCartes[] = [
         note: "Cell phone aux États-Unis. « A portable » désigne un objet transportable, pas un téléphone.",
       },
       {
-        etranger: "a smart outfit",
-        francais: "une tenue élégante",
-        note: "En français, « un look ». A look en anglais est un regard ; on dit a style ou an outfit.",
+        etranger: "a look",
+        francais: "un regard",
+        note: "En français, « un look » veut dire un style. En anglais, a look veut dire un regard. Une tenue élégante se dit a smart outfit.",
       },
       {
-        etranger: "a talent show",
-        francais: "un télécrochet",
-        note: "Le « relooking » français se dit a makeover. Beaucoup de mots en -ing sont des inventions françaises.",
+        etranger: "a makeover",
+        francais: "un relooking",
+        note: "Beaucoup de mots français en -ing formés sur l'anglais sont des inventions : relooking n'existe pas en anglais dans ce sens. Un télécrochet se dit a talent show.",
       },
     ],
   },

@@ -93,10 +93,10 @@ export const ESPAGNOL_CONJUGAISON: LotCartes[] = [
   {
     slug: "es-conj-passes",
     category: "Conjugaison",
-    title: "Les passés : indéfini, simple, imparfait",
+    title: "Les passés : composé, simple, imparfait",
     statement:
       "L'espagnol emploie encore le passé simple à l'oral, là où le français l'a abandonné. Choisir le mauvais passé est audible immédiatement.",
-    tip: "Hoy, esta semana, este año appellent le passé composé. Ayer, el año pasado appellent le passé simple.",
+    tip: "Hoy, esta semana, este año appellent le passé composé. Ayer, el año pasado appellent le passé simple — en Espagne ; l'Amérique latine emploie l'indefinido dans les deux cas.",
     difficulty: 3,
     niveau: "A2",
     oral: true,
@@ -146,7 +146,7 @@ export const ESPAGNOL_CONJUGAISON: LotCartes[] = [
       { etranger: "¿Has visto mi teléfono?", francais: "Tu as vu mon téléphone ?", note: "Participe irrégulier : visto." },
       { etranger: "Le dije la verdad.", francais: "Je lui ai dit la vérité.", note: "dije, irrégulier et sans accent écrit." },
       { etranger: "Éramos muy jóvenes.", francais: "Nous étions très jeunes.", note: "ser à l'imparfait : era, eras, era, éramos." },
-      { etranger: "Todavía no lo he terminado.", francais: "Je ne l'ai pas encore fini.", note: "Todavía no appelle toujours le perfecto." },
+      { etranger: "Todavía no lo he terminado.", francais: "Je ne l'ai pas encore fini.", note: "Todavía no appelle le perfecto, en Espagne." },
     ],
   },
 

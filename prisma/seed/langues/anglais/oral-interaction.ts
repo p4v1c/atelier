@@ -42,17 +42,17 @@ export const ANGLAIS_ORAL_INTERACTION: LotCartes[] = [
       },
       {
         etranger: "Mind you, he did warn us.",
-        francais: "Cela dit, il nous avait prévenus.",
+        francais: "Remarque, il nous avait prévenus.",
         note: "Mind you introduit une réserve qui nuance ce qu'on vient d'affirmer.",
       },
       {
         etranger: "Then again, she might be right.",
-        francais: "Ceci dit, elle a peut-être raison.",
+        francais: "D'un autre côté, elle a peut-être raison.",
         note: "Then again annonce un retournement de son propre point de vue.",
       },
       {
         etranger: "Anyway, where were we?",
-        francais: "Bref, où en étions-nous ?",
+        francais: "Enfin bref, où en étions-nous ?",
         note: "Anyway clôt une digression et ramène au sujet.",
       },
       {
@@ -118,7 +118,7 @@ export const ANGLAIS_ORAL_INTERACTION: LotCartes[] = [
       {
         etranger: "It's on the tip of my tongue.",
         francais: "Je l'ai sur le bout de la langue.",
-        note: "L'image est identique dans les deux langues.",
+        note: "On the tip of my tongue : my est obligatoire, jamais the, à la différence d'autres expressions du corps.",
       },
       {
         etranger: "Give me a second.",
@@ -236,8 +236,8 @@ export const ANGLAIS_ORAL_INTERACTION: LotCartes[] = [
         note: "Be cautious about, formule de réserve. Elle signale un désaccord sans le nommer.",
       },
       {
-        etranger: "That may be so, but.",
-        francais: "C'est possible, mais.",
+        etranger: "That may be so, but it doesn't change the deadline.",
+        francais: "C'est possible, mais cela ne change pas l'échéance.",
         note: "May be so concède l'hypothèse pour mieux la contourner.",
       },
       {
@@ -299,7 +299,7 @@ export const ANGLAIS_ORAL_INTERACTION: LotCartes[] = [
       {
         etranger: "Long time no see.",
         francais: "Ça fait un bail.",
-        note: "Formule figée et volontairement agrammaticale. Très courante.",
+        note: "Formule figée, héritée d'un anglais de contact — d'où sa syntaxe hors normes. Très courante.",
       },
       {
         etranger: "How was your weekend?",
@@ -363,7 +363,7 @@ export const ANGLAIS_ORAL_INTERACTION: LotCartes[] = [
       },
       {
         etranger: "To cut a long story short, we missed it.",
-        francais: "Bref, on l'a raté.",
+        francais: "Pour faire court, on l'a raté.",
         note: "To cut a long story short abrège. Long story short se dit aussi, plus familier.",
       },
       {
@@ -373,7 +373,8 @@ export const ANGLAIS_ORAL_INTERACTION: LotCartes[] = [
       },
       {
         etranger: "Next thing I know, he's gone.",
-        francais: "Et là, sans que je comprenne, il avait disparu.",
+        francais: "Et là, d'un coup, il n'est plus là.",
+        aussi: ["Et là, il avait disparu."],
         note: "Next thing I know + présent : le récit bascule au présent pour l'effet.",
       },
       {
@@ -383,7 +384,7 @@ export const ANGLAIS_ORAL_INTERACTION: LotCartes[] = [
       },
       {
         etranger: "Anyway, that's when it clicked.",
-        francais: "Bref, c'est là que ça a fait tilt.",
+        francais: "Toujours est-il que c'est là que ça a fait tilt.",
         note: "Click, comprendre soudain. Le verbe est familier et très employé.",
       },
       {
@@ -399,7 +400,7 @@ export const ANGLAIS_ORAL_INTERACTION: LotCartes[] = [
       {
         etranger: "I still can't get over it.",
         francais: "Je n'en reviens toujours pas.",
-        note: "Get over something, s'en remettre. La négation dit l'étonnement durable.",
+        note: "Get over something, ici au sens figuré de la surprise qui persiste — non le deuil ou la maladie, mais l'étonnement qu'on n'arrive pas à digérer.",
       },
     ],
   },
@@ -418,7 +419,7 @@ export const ANGLAIS_ORAL_INTERACTION: LotCartes[] = [
     cartes: [
       {
         etranger: "Make sure you lock the door.",
-        francais: "N'oublie pas de fermer à clé.",
+        francais: "Assure-toi de bien fermer à clé.",
         note: "Make sure you lock ou make sure to lock : les deux se disent. « Make sure of locking », non.",
       },
       {

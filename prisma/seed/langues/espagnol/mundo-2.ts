@@ -404,7 +404,7 @@ export const ESPAGNOL_MUNDO_2: LotCartes[] = [
   {
     slug: "es-voc-infancia",
     category: "Vocabulaire",
-    title: "L'enfance et l'école",
+    title: "L'enfance et l'éducation des enfants",
     statement:
       "Criarse, regañar, malcriar, berrinche. Le vocabulaire de l'enfance est celui des conversations familiales, et l'espagnol y emploie beaucoup de pronominaux.",
     tip: "Crecer veut dire grandir en taille ; criarse veut dire grandir quelque part. Me crié en Lyon, jamais « crecí en Lyon ».",

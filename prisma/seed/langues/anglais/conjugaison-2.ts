@@ -28,7 +28,7 @@ export const ANGLAIS_CONJUGAISON_2: LotCartes[] = [
         {
           titre: "La règle du seul auxiliaire",
           texte:
-            "L'anglais construit ses questions et ses négations avec un auxiliaire, et il n'en admet qu'un à la fois. C'est la règle qui explique presque tout.\n\nSi la phrase contient déjà be, have ou un modal, c'est lui qui monte en tête pour la question et qui reçoit le not pour la négation. She is late donne Is she late ? et She isn't late. You can swim donne Can you swim ? et You can't swim.\n\nSi la phrase n'en contient aucun, l'anglais en fabrique un : do au présent, does à la troisième personne, did au passé. You like tea donne Do you like tea ? et You don't like tea. She came donne Did she come ? et She didn't come.\n\nLa conséquence la plus utile est celle-ci : dès que do apparaît, le verbe principal repasse à l'infinitif nu. Did she come, jamais « did she came ». C'est la faute la plus fréquente au début, et elle disparaît dès qu'on a compris que le temps est déjà porté par did.",
+            "L'anglais construit ses questions et ses négations avec un auxiliaire, et il n'en admet qu'un à la fois. C'est la règle qui explique presque tout.\n\nSi la phrase contient déjà be, have ou un modal, c'est lui qui monte en tête pour la question et qui reçoit le not pour la négation. She is late donne Is she late? et She isn't late. You can swim donne Can you swim? et You can't swim.\n\nSi la phrase n'en contient aucun, l'anglais en fabrique un : do au présent, does à la troisième personne, did au passé. You like tea donne Do you like tea? et You don't like tea. She came donne Did she come? et She didn't come.\n\nLa conséquence la plus utile est celle-ci : dès que do apparaît, le verbe principal repasse à l'infinitif nu. Did she come, jamais « did she came ». C'est la faute la plus fréquente au début, et elle disparaît dès qu'on a compris que le temps est déjà porté par did.",
           visuels: [
             {
               type: "tableau",
@@ -80,7 +80,7 @@ export const ANGLAIS_CONJUGAISON_2: LotCartes[] = [
         {
           titre: "Have et do, chacun avec deux vies",
           texte:
-            "Have et do ont la particularité d'être à la fois auxiliaires et verbes ordinaires, et les deux emplois ne se conjuguent pas pareil.\n\nHave auxiliaire forme les temps composés : I have finished, she had left. Il monte alors en tête de la question : Have you finished ?\n\nHave verbe ordinaire veut dire posséder, ou prendre : I have a car, I have breakfast. Dans ce sens, l'anglais moderne lui applique la règle générale et fabrique do : Do you have a car ? L'ancienne forme Have you a car ? est britannique et vieillie.\n\nS'y ajoute have got, très courant au Royaume-Uni pour la possession : I've got a car, Have you got a car ? La forme est un présent, jamais un passé, malgré le got.\n\nDo verbe ordinaire veut dire faire : I do the washing-up. Et l'on obtient alors des phrases à deux do, parfaitement correctes : Do you do the washing-up ? Le premier est l'auxiliaire, le second le verbe.\n\nEnfin, do sert d'emphatique : I do like it, insiste sur la réalité du fait. C'est la seule façon de mettre du gras à l'oral sans changer un mot.",
+            "Have et do ont la particularité d'être à la fois auxiliaires et verbes ordinaires, et les deux emplois ne se conjuguent pas pareil.\n\nHave auxiliaire forme les temps composés : I have finished, she had left. Il monte alors en tête de la question : Have you finished?\n\nHave verbe ordinaire veut dire posséder, ou prendre : I have a car, I have breakfast. Dans ce sens, l'anglais moderne lui applique la règle générale et fabrique do : Do you have a car? L'ancienne forme Have you a car? est britannique et vieillie.\n\nS'y ajoute have got, très courant au Royaume-Uni pour la possession : I've got a car, Have you got a car? La forme est un présent, jamais un passé, malgré le got.\n\nDo verbe ordinaire veut dire faire : I do the washing-up. Et l'on obtient alors des phrases à deux do, parfaitement correctes : Do you do the washing-up? Le premier est l'auxiliaire, le second le verbe.\n\nEnfin, do sert d'emphatique : I do like it, insiste sur la réalité du fait. C'est la seule façon de mettre du gras à l'oral sans changer un mot.",
         },
       ],
     },
@@ -103,7 +103,7 @@ export const ANGLAIS_CONJUGAISON_2: LotCartes[] = [
       {
         etranger: "I'm twenty-three years old.",
         francais: "J'ai vingt-trois ans.",
-        note: "L'âge se dit avec be. « I have twenty-three years » est le calque le plus reconnaissable.",
+        note: "L'âge se dit avec be, comme la faim ou le froid : voir le tableau ci-dessus.",
       },
       {
         etranger: "There are two problems here.",
@@ -285,10 +285,10 @@ export const ANGLAIS_CONJUGAISON_2: LotCartes[] = [
               colonnes: ["Le schéma", "Exemple", "Autres membres"],
               lignes: [
                 ["i - a - u", "sing, sang, sung", "ring, drink, swim, begin, sink"],
-                ["i - o - i(dd)en", "ride, rode, ridden", "drive, write, rise, hide"],
+                ["i - o - i(dd)en", "ride, rode, ridden", "drive, write, rise (hid au prétérit pour hide)"],
                 ["ea - o - o", "speak, spoke, spoken", "break, steal, freeze, choose"],
                 ["ow - ew - own", "know, knew, known", "grow, throw, blow, fly"],
-                ["ight (les trois)", "fight, fought, fought", "buy, bring, think, catch, teach"],
+                ["-ought / -aught", "fight, fought, fought", "buy, bring, think, catch, teach"],
                 ["e - t - t", "keep, kept, kept", "sleep, feel, mean, leave, sweep"],
                 ["identiques", "cut, cut, cut", "put, let, hit, cost, shut, set"],
                 ["d → t", "send, sent, sent", "spend, build, lend, bend"],
@@ -404,7 +404,7 @@ export const ANGLAIS_CONJUGAISON_2: LotCartes[] = [
         {
           titre: "Used to : ce qui n'est plus",
           texte:
-            "Used to + infinitif décrit une habitude ou un état passé qui a cessé. I used to smoke, je fumais autrefois — et je ne fume plus. La rupture est comprise dans la forme : c'est ce qui la distingue de l'imparfait français, qui ne dit rien de la suite.\n\nLa forme est figée. Used to n'existe qu'au passé : il n'y a pas de « use to » au présent. La question et la négation se font avec did, et le d disparaît alors : Did you use to smoke ? I didn't use to smoke. Beaucoup d'anglophones écrivent didn't used to, mais la forme soignée est sans d.\n\nUsed to convient aux états comme aux actions : I used to live in Leeds, I used to play the piano. C'est ce qui le sépare de would, on va le voir.\n\nEt il ne s'emploie jamais avec une durée précise. On ne dit pas « I used to live there for three years » : on dit I lived there for three years. Used to dit l'habitude, pas la période.",
+            "Used to + infinitif décrit une habitude ou un état passé qui a cessé. I used to smoke, je fumais autrefois — et je ne fume plus. La rupture est comprise dans la forme : c'est ce qui la distingue de l'imparfait français, qui ne dit rien de la suite.\n\nLa forme est figée. Used to n'existe qu'au passé : il n'y a pas de « use to » au présent. La question et la négation se font avec did, et le d disparaît alors : Did you use to smoke? I didn't use to smoke. Beaucoup d'anglophones écrivent didn't used to, mais la forme soignée est sans d.\n\nUsed to convient aux états comme aux actions : I used to live in Leeds, I used to play the piano. C'est ce qui le sépare de would, on va le voir.\n\nEt il ne s'emploie jamais avec une durée précise. On ne dit pas « I used to live there for three years » : on dit I lived there for three years. Used to dit l'habitude, pas la période.",
           visuels: [
             {
               type: "tableau",
@@ -625,7 +625,7 @@ export const ANGLAIS_CONJUGAISON_2: LotCartes[] = [
       },
       {
         etranger: "I'm seeing the dentist at four.",
-        francais: "J'ai rendez-vous chez le dentiste à seize heures.",
+        francais: "J'ai rendez-vous chez le dentiste à quatre heures.",
         note: "See progressif veut dire avoir rendez-vous, jamais percevoir.",
       },
       {
@@ -642,7 +642,7 @@ export const ANGLAIS_CONJUGAISON_2: LotCartes[] = [
     title: "Les modaux du passé : must have, might have",
     statement:
       "Les modaux n'ont pas de passé. Pour parler d'hier, ils empruntent have + participe — et chacun y prend une valeur que le français rend par un adverbe.",
-    tip: "Must have dit la déduction quasi certaine ; can't have dit l'impossibilité déduite. Jamais mustn't have, qui n'existe pas dans ce sens.",
+    tip: "Must have dit la déduction quasi certaine ; can't have dit l'impossibilité déduite. La négation de must have est can't have. Mustn't have s'entend en américain familier, mais ne s'écrit pas.",
     difficulty: 3,
     niveau: "B2",
     oral: true,
@@ -738,7 +738,7 @@ export const ANGLAIS_CONJUGAISON_2: LotCartes[] = [
       },
       {
         etranger: "You needn't have waited for me.",
-        francais: "Tu n'avais pas besoin de m'attendre.",
+        francais: "Tu m'as attendu pour rien.",
         note: "Needn't have : tu as attendu, et c'était inutile. Didn't need to dirait autre chose.",
       },
       {
@@ -869,6 +869,7 @@ export const ANGLAIS_CONJUGAISON_2: LotCartes[] = [
       {
         etranger: "Had it not been for her, we would have failed.",
         francais: "Sans elle, nous aurions échoué.",
+        aussiEtranger: ["Without her, we would have failed."],
         note: "La négation ne se contracte jamais dans une inversion : jamais « hadn't it been ».",
       },
       {
@@ -894,7 +895,7 @@ export const ANGLAIS_CONJUGAISON_2: LotCartes[] = [
     category: "Conjugaison",
     title: "Ce qu'il reste du subjonctif anglais",
     statement:
-      "I insist that he be present. God save the King. If I were you. Trois vestiges d'un mode presque disparu — et qui reste obligatoire dans l'écrit formel américain.",
+      "I insist that he be present. God save the King. If I were you. Trois vestiges d'un mode presque disparu — et qui reste la forme attendue dans l'écrit formel américain.",
     tip: "Après insist, demand, suggest, recommend, require, le verbe reste à l'infinitif nu : that he be, that she go, that it not happen.",
     difficulty: 3,
     niveau: "C1",

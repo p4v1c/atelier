@@ -177,7 +177,7 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   bout duquel : in ten minutes, dans dix minutes. Within dit avant la fin
   du délai : within ten minutes, en moins de dix minutes. »
 
-### [MOYEN] Le tip sur l'heure est incohérent et faux
+### [MOYEN] ✅ Le tip sur l'heure est incohérent et faux
 
 - **Où** : `debutant.ts:17` — `en-nombres-heure`
 - **Texte** : « L'anglais dit les heures à l'envers du français : half past
@@ -188,8 +188,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   l'allemand *halb fünf* (= 4 h 30), qui n'est jamais nommé.
 - **Correction proposée** : « Half past four, c'est quatre heures et demie : en
   anglais, past compte à partir de l'heure passée, jamais de l'heure à venir. »
+- **Fait** : `debutant.ts` (`en-nombres-heure`) : tip remplacé par « Half past four, c'est quatre heures et demie : en anglais, past compte à partir de l'heure passée, jamais de l'heure à venir. »
 
-### [MOYEN] « Jamais half five » est trompeur : half five existe, et vaut 5 h 30
+### [MOYEN] ✅ « Jamais half five » est trompeur : half five existe, et vaut 5 h 30
 
 - **Où** : `debutant.ts:23` — `en-nombres-heure`
 - **Texte** : « Half past + l'heure passée. Jamais « half five » pour quatre
@@ -200,8 +201,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
 - **Correction proposée** : « Half past four, quatre heures et demie. Attention :
   le britannique familier abrège en half four — et cela veut dire quatre heures
   et demie, pas trois heures et demie. »
+- **Fait** : `debutant.ts` : note de la carte remplacée, mention de « half four » ajoutée avec sa vraie valeur (quatre heures et demie).
 
-### [MOYEN] « Yet appelle toujours le present perfect » est faux
+### [MOYEN] ✅ « Yet appelle toujours le present perfect » est faux
 
 - **Où** : `conjugaison.ts:218` — `en-conj-passe`
 - **Texte** : « Yet appelle toujours le present perfect. »
@@ -211,8 +213,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
 - **Correction proposée** : « Avec un verbe, yet appelle le present perfect en
   britannique : we haven't decided yet. Avec be ou un impératif, il s'emploie
   librement : it isn't ready yet. »
+- **Fait** : `conjugaison.ts` (`en-conj-passe`) : note remplacée par la version nuancée (present perfect en britannique avec un verbe, libre avec be/impératif).
 
-### [MOYEN] Le tip dit que « mustn't have » n'existe pas, le cours dit le contraire
+### [MOYEN] ✅ Le tip dit que « mustn't have » n'existe pas, le cours dit le contraire
 
 - **Où** : `conjugaison-2.ts` — `en-conj-modaux-passe`
 - **Texte** : tip : « Jamais mustn't have, qui n'existe pas dans ce sens. » —
@@ -222,8 +225,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   d'abord « n'existe pas », puis « s'entend ».
 - **Correction proposée** : tip → « La négation de must have est can't have.
   Mustn't have s'entend en américain familier, mais ne s'écrit pas. »
+- **Fait** : `conjugaison-2.ts` (`en-conj-modaux-passe`) : tip remplacé par « La négation de must have est can't have. Mustn't have s'entend en américain familier, mais ne s'écrit pas. »
 
-### [MOYEN] La famille d'irréguliers « ight » est mal étiquetée, et le cours se contredit lui-même
+### [MOYEN] ✅ La famille d'irréguliers « ight » est mal étiquetée, et le cours se contredit lui-même
 
 - **Où** : `conjugaison-2.ts` — `en-conj-irreguliers-familles`, tableau « Les
   grandes familles », puis carte 4
@@ -235,8 +239,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   cours et la carte donnent deux étiquettes différentes pour la même famille.
 - **Correction proposée** : remplacer la ligne du tableau par
   `["-ought / -aught", "fight, fought, fought", "buy, bring, think, catch, teach"]`.
+- **Fait** : `conjugaison-2.ts` : étiquette du tableau changée en « -ought / -aught ».
 
-### [MOYEN] `hide` ne suit pas le schéma i - o - i(dd)en
+### [MOYEN] ✅ `hide` ne suit pas le schéma i - o - i(dd)en
 
 - **Où** : `conjugaison-2.ts` — `en-conj-irreguliers-familles`, tableau
 - **Texte** : `["i - o - i(dd)en", "ride, rode, ridden", "drive, write, rise, hide"]`
@@ -245,8 +250,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   fait produire « hode ».
 - **Correction proposée** : retirer *hide* de la liste, ou l'y laisser avec la
   mention « (hid au prétérit) ».
+- **Fait** : `conjugaison-2.ts` : `hide` retiré de la liste des membres, remplacé par une mention « (hid au prétérit) » à côté de rise.
 
-### [MOYEN] Le mot « bright » opposé à « light » sur le poids
+### [MOYEN] ✅ Le mot « bright » opposé à « light » sur le poids
 
 - **Où** : `quotidien-a1.ts:77` — `en-maison`
 - **Texte** : « Flat au Royaume-Uni, apartment aux États-Unis. Bright pour la
@@ -257,8 +263,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
 - **Correction proposée** : « Flat au Royaume-Uni, apartment aux États-Unis.
   Bright dit la lumière vive ; light dit aussi la clarté d'une pièce, et le
   poids léger — c'est le contexte qui tranche. »
+- **Fait** : `quotidien-a1.ts` (`en-maison`) : note remplacée par la version qui garde light pour la clarté d'une pièce et le poids léger.
 
-### [MOYEN] « Is that…? au téléphone, ailleurs is it » ignore l'américain
+### [MOYEN] ✅ « Is that…? au téléphone, ailleurs is it » ignore l'américain
 
 - **Où** : `quotidien-a1.ts:154` et `:163` — `en-telephone-messages`
 - **Texte** : tip : « Au téléphone, l'anglais britannique dit is that…? et non
@@ -271,8 +278,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   uniquement, mais jamais *is it Sarah?* pour interpeller quelqu'un.
 - **Correction proposée** : « Is that…? au téléphone en britannique, is this…?
   en américain. Jamais is it pour identifier la personne au bout du fil. »
+- **Fait** : `quotidien-a1.ts` (`en-telephone-messages`) : tip et note de la carte réécrits pour mentionner Is this…? en américain et exclure is it pour identifier quelqu'un.
 
-### [MOYEN] « Compulsory britannique, mandatory ailleurs » est inexact
+### [MOYEN] ✅ « Compulsory britannique, mandatory ailleurs » est inexact
 
 - **Où** : `vocabulaire-vie.ts` — `en-voc-education`, carte « Attendance is
   compulsory. »
@@ -285,8 +293,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
 - **Correction proposée** : « Compulsory est le mot de l'école et de
   l'administration britanniques ; mandatory, plus juridique, s'emploie des deux
   côtés. »
+- **Fait** : `vocabulaire-vie.ts` (`en-voc-education`) : note remplacée par la distinction de registre/collocation plutôt que géographique.
 
-### [MOYEN] « Redoubler un examen » n'est pas français
+### [MOYEN] ✅ « Redoubler un examen » n'est pas français
 
 - **Où** : `vocabulaire-vie.ts` — `en-voc-education`, carte « He resat the exam
   in September. »
@@ -296,8 +305,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   donc une faute de français.
 - **Correction proposée** : remplacer par « Il a repassé l'épreuve en
   septembre. »
+- **Fait** : `vocabulaire-vie.ts` : `aussi` remplacé par « Il a repassé l'épreuve en septembre. »
 
-### [MOYEN] « Parents au sens français se dit relatives »
+### [MOYEN] ✅ « Parents au sens français se dit relatives »
 
 - **Où** : `vocabulaire-vie.ts` — `en-voc-famille`, carte « We're distantly
   related. »
@@ -310,8 +320,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
 - **Correction proposée** : « Attention au double sens français : les parents,
   père et mère, se disent parents ; les parents au sens de la parenté élargie se
   disent relatives. »
+- **Fait** : `vocabulaire-vie.ts` (`en-voc-famille`) : note réécrite pour distinguer clairement parents (père et mère) et relatives (parenté élargie).
 
-### [MOYEN] « Le mot magic » et autres franglais dans les textes français
+### [MOYEN] ✅ « Le mot magic » et autres franglais dans les textes français
 
 - **Où** : `debutant.ts:117` — `en-acheter` ; `expressions.ts` — cours
   `en-expr-emotions` ; `vocabulaire-monde.ts:84` — cours `en-voc-cuisine`
@@ -326,8 +337,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
 - **Correction proposée** : « Le mot magique… » ; « … et elles s'échelonnent. » ;
   « A library n'est pas une librairie, et a receipt n'est pas une recette : c'est
   le ticket de caisse. »
+- **Fait** : trois fautes corrigées : `debutant.ts` tip « Le mot magique… », `expressions.ts` cours « … et elles s'échelonnent. », `vocabulaire-monde.ts` cours « A library n'est pas une librairie, et a receipt n'est pas une recette ».
 
-### [MOYEN] « Commander un entrée » — accord
+### [MOYEN] ✅ « Commander un entrée » — accord
 
 - **Où** : `vocabulaire-monde.ts:84` — cours `en-voc-cuisine`
 - **Texte** : « Commander un entrée à New York en croyant prendre une entrée
@@ -336,8 +348,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   le marquer le mot anglais *an entrée* et le mot français « une entrée ».
 - **Correction proposée** : « Commander an entrée à New York en croyant prendre
   une entrée fait arriver un steak. »
+- **Fait** : `vocabulaire-monde.ts` (cours `en-voc-cuisine`) : « un entrée » remplacé par « an entrée » pour lever l'ambiguïté anglais/français.
 
-### [MOYEN] « Much cheese » donné comme forme affirmative normale
+### [MOYEN] ✅ « Much cheese » donné comme forme affirmative normale
 
 - **Où** : `vocabulaire-monde.ts` — `en-voc-cuisine`, section « Ce qui se compte
   et ce qui ne se compte pas »
@@ -348,8 +361,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   Contradiction entre deux cours du module.
 - **Correction proposée** : « On dit some bread, a lot of rice, a lot of cheese —
   much et many appartiennent surtout aux questions et aux négations. »
+- **Fait** : `vocabulaire-monde.ts` : texte remplacé par « a lot of cheese » avec la précision sur much/many à l'affirmative.
 
-### [MOYEN] Réversibilité : « J'y vais » ne donne pas « I'll get it »
+### [MOYEN] ✅ Réversibilité : « J'y vais » ne donne pas « I'll get it »
 
 - **Où** : `conjugaison.ts:278` — `en-conj-futur`
 - **Texte** : `{ etranger: "I'll get it.", francais: "J'y vais.", aussi: ["Je réponds."] }`
@@ -359,8 +373,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   dans la note.
 - **Correction proposée** : `francais: "Je réponds."`, `aussi: ["J'y vais.", "J'y vais, moi."]`,
   et rendre le contexte explicite : `etranger: "The phone's ringing. — I'll get it."`
+- **Fait** : `conjugaison.ts` (`en-conj-futur`) : carte réécrite — `etranger` devient « The phone's ringing. — I'll get it. », `francais` « Je réponds. », `aussi` inclut « J'y vais. »
 
-### [MOYEN] Réversibilité : plusieurs cartes n'acceptent qu'une traduction sur plusieurs légitimes
+### [MOYEN] ✅ Réversibilité : plusieurs cartes n'acceptent qu'une traduction sur plusieurs légitimes
 
 - **Où** : plusieurs séries. Cas relevés :
   - `conjugaison.ts:280` — « I'm meeting Sarah at six. » / « Je vois Sarah à six
@@ -380,8 +395,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   `aussiEtranger` n'est employé que sur une vingtaine de cartes sur 540.
 - **Correction proposée** : ajouter `aussiEtranger` à chacune, ou changer le
   français principal pour celui qui n'admet qu'une traduction.
+- **Fait** : `aussiEtranger`/`aussi` ajoutés ou français principal changé sur les 6 cas cités : `conjugaison.ts` (I'm meeting Sarah → + aussiEtranger), `travail.ts` (What's the deadline? → + aussiEtranger), `conjugaison-2.ts` (Had it not been for her → + aussiEtranger), `expressions.ts` (You can't have it both ways → français principal changé pour l'idiome équivalent), `faux-amis.ts` (a formation → + aussiEtranger a geological formation), `monde-2.ts` (coming to terms with it → français principal et aussi permutés).
 
-### [MOYEN] Réversibilité auto-signalée : needn't have
+### [MOYEN] ✅ Réversibilité auto-signalée : needn't have
 
 - **Où** : `conjugaison-2.ts` — `en-conj-modaux-passe`
 - **Texte** : la carte « You needn't have waited for me. » / « Tu n'avais pas
@@ -394,8 +410,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   a le même français à un mot près.
 - **Correction proposée** : `francais: "Tu m'as attendu pour rien."` — qui, lui,
   porte la nuance de *needn't have*.
+- **Fait** : `conjugaison-2.ts` : français changé en « Tu m'as attendu pour rien. », qui porte la nuance de needn't have.
 
-### [MOYEN] L'heure traduite de trois façons différentes selon la série
+### [MOYEN] ✅ L'heure traduite de trois façons différentes selon la série
 
 - **Où** : quatre fichiers
 - **Texte** :
@@ -412,8 +429,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
 - **Correction proposée** : fixer une convention (l'heure sur douze, comme
   l'anglais l'écrit) et l'appliquer partout ; ou écrire *at 8 p.m.* dans
   l'anglais quand le français dit « vingt heures ».
+- **Fait** : convention unifiée sur l'heure « sur douze » telle que l'anglais l'écrit : `vocabulaire-vie.ts` (vingt heures → huit heures), `conjugaison-2.ts` (seize heures → quatre heures), `vocabulaire-monde.ts` (dix-sept heures → cinq heures). `conjugaison.ts` et `quotidien-a1.ts` étaient déjà conformes.
 
-### [MOYEN] Doublon : « Je regarde, merci » enseigné deux fois
+### [MOYEN] ✅ Doublon : « Je regarde, merci » enseigné deux fois
 
 - **Où** : `debutant.ts:74` (`en-manger`) et `debutant.ts:126` (`en-acheter`)
 - **Texte** : « I'm just having a look, thanks. » / « Je regarde seulement,
@@ -426,8 +444,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
 - **Correction proposée** : supprimer la carte de `en-manger` et ajouter
   `aussiEtranger: ["I'm just having a look, thanks.", "Just looking, thanks."]`
   à celle de `en-acheter`.
+- **Fait** : `debutant.ts` : carte d'`en-manger` remplacée par « Do you have a table for two? », et `aussiEtranger` ajouté à la carte d'`en-acheter`.
 
-### [MOYEN] Doublon : l'étage britannique enseigné trois fois
+### [MOYEN] ✅ Doublon : l'étage britannique enseigné trois fois
 
 - **Où** : `debutant.ts:30`, `quotidien-a1.ts:41`, `verbes.ts:142`
 - **Texte** : « Au Royaume-Uni, le first floor est notre premier ; aux
@@ -438,16 +457,18 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   identique mot pour mot.
 - **Correction proposée** : garder la carte de `en-maison` (`quotidien-a1.ts`) et
   alléger les deux autres notes.
+- **Fait** : `quotidien-a1.ts` (`en-maison`) conservée telle quelle comme référence ; notes allégées dans `debutant.ts` et supprimées dans `verbes.ts` (la carte elle-même a été retirée en recentrant `en-prepositions` sur le temps, voir plus bas).
 
-### [MOYEN] Doublon : « at the weekend / on the weekend » deux fois
+### [MOYEN] ✅ Doublon : « at the weekend / on the weekend » deux fois
 
 - **Où** : `quotidien-a1.ts:293` et `verbes.ts:143`
 - **Texte** : « At the weekend au Royaume-Uni, on the weekend aux États-Unis. »
   et « Britannique. Les Américains disent on the weekend. »
 - **Correction proposée** : retirer la note de `verbes.ts:en-prepositions`, qui
   n'apporte rien de plus.
+- **Fait** : `verbes.ts` : la carte « at the weekend » a été retirée d'`en-prepositions`, qui a été recentré sur les seules prépositions de temps (voir « Doublon : les prépositions de lieu traitées deux fois »). `quotidien-a1.ts` reste la seule source.
 
-### [MOYEN] Doublon : le calque de l'âge enseigné deux fois avec la même formule
+### [MOYEN] ✅ Doublon : le calque de l'âge enseigné deux fois avec la même formule
 
 - **Où** : `conjugaison-2.ts` (`en-conj-be-have-do`) et `faux-amis.ts`
   (`en-pieges-verbes`)
@@ -460,8 +481,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   `en-conj-be-have-do` reprend en plus le même exemple dans son visuel.
 - **Correction proposée** : garder celle de `faux-amis.ts` (c'est sa raison
   d'être) et supprimer celle de `conjugaison-2.ts`.
+- **Fait** : `conjugaison-2.ts` : note de la carte allégée (renvoi au tableau du cours) pour ne plus répéter mot pour mot l'explication de `faux-amis.ts`, qui reste la version canonique.
 
-### [MOYEN] Doublon : « eventually » et « actually » traités trois fois
+### [MOYEN] ✅ Doublon : « eventually » et « actually » traités trois fois
 
 - **Où** : `faux-amis.ts` — `en-faux-amis-1` et `en-faux-amis-2` ;
   `expressions.ts` — `en-expr-conversation`
@@ -475,8 +497,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   n'est même pas une unité de langue : c'est un fragment.
 - **Correction proposée** : supprimer « eventually deliver » et « actual
   figures » ; garder une carte par faux ami.
+- **Fait** : `faux-amis.ts` : « actual figures » remplacé par « a rope » (faux ami distinct) et « eventually deliver » remplacé par « to ignore » — les deux fragments non lexicaux ont disparu.
 
-### [MOYEN] Le rôle de la note ne correspond pas à la carte — `en-pieges-anglicismes`
+### [MOYEN] ✅ Le rôle de la note ne correspond pas à la carte — `en-pieges-anglicismes`
 
 - **Où** : `faux-amis.ts` — `en-pieges-anglicismes`, quatre cartes sur dix
 - **Texte** :
@@ -491,8 +514,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
 - **Correction proposée** : faire de chaque faux anglicisme une carte —
   « a blow-dry » / « un brushing », « a car park » / « un parking », « a
   makeover » / « un relooking » — et laisser les notes sur le mot de la carte.
+- **Fait** : `faux-amis.ts` : les 4 cartes réécrites pour porter directement l'anglicisme visé — « a car park »/un parking, « a blow-dry »/un brushing, « a makeover »/un relooking, « a look »/un regard — chaque note reste centrée sur le mot de sa propre carte. Écart par rapport à la proposition : plutôt que d'ajouter 3 nouvelles cartes, j'ai réutilisé les 4 emplacements existants (dont celui de « smart outfit »/look, non cité comme correction mais souffrant du même défaut) pour ne pas gonfler la série.
 
-### [MOYEN] « jogging » / « le fait de courir » : carte bancale
+### [MOYEN] ✅ « jogging » / « le fait de courir » : carte bancale
 
 - **Où** : `faux-amis.ts` — `en-pieges-anglicismes`
 - **Texte** : `{ etranger: "jogging", francais: "le fait de courir", note: "En français, « un footing ». Le mot footing n'existe pas en anglais dans ce sens ; il désigne une prise d'appui." }`
@@ -502,8 +526,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
 - **Correction proposée** : `{ etranger: "jogging", francais: "le footing",
   aussi: ["le jogging"], note: "Le mot footing n'existe pas en anglais dans ce
   sens : il désigne une prise d'appui." }`
+- **Fait** : `faux-amis.ts` : carte corrigée exactement comme proposé (`francais: "le footing"`, `aussi: ["le jogging"]`).
 
-### [MOYEN] « un pull » accepté pour « a sweatshirt »
+### [MOYEN] ✅ « un pull » accepté pour « a sweatshirt »
 
 - **Où** : `faux-amis.ts` — `en-pieges-anglicismes`
 - **Texte** : `{ etranger: "a sweatshirt", francais: "un sweat", aussi: ["un pull"] }`
@@ -513,8 +538,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   mots. `vocabulaire-monde.ts` enseigne d'ailleurs correctement « le pull /
   jumper / sweater ».
 - **Correction proposée** : supprimer l'`aussi`.
+- **Fait** : `faux-amis.ts` : `aussi: ["un pull"]` supprimé ; l'information sur jumper/sweater déplacée dans la note.
 
-### [MOYEN] « Thanks in advance » : distinction inventée
+### [MOYEN] ✅ « Thanks in advance » : distinction inventée
 
 - **Où** : `travail.ts:24` — `en-courriel`
 - **Texte** : « Plus léger que Thank you in advance, qui peut sonner insistant. »
@@ -523,8 +549,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   entre *thanks* et *thank you*. La note enseigne une nuance qui n'existe pas.
 - **Correction proposée** : « Thanks in advance est courant, mais il présume la
   réponse : dans un courriel formel, mieux vaut Thank you for your help. »
+- **Fait** : `travail.ts` : note remplacée par « Courant, mais présume la réponse : dans un courriel formel, mieux vaut Thank you for your help. »
 
-### [MOYEN] « Ça me saoule » proposé pour « I can't be bothered »
+### [MOYEN] ✅ « Ça me saoule » proposé pour « I can't be bothered »
 
 - **Où** : `travail.ts:76` — `en-expressions`
 - **Texte** : « I can't be bothered. » / « Je n'ai pas le courage. » /
@@ -533,8 +560,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   « ça me saoule » dit l'agacement. Ce n'est pas la même chose, et l'`aussi`
   est une réponse acceptée.
 - **Correction proposée** : remplacer par « J'ai la flemme. »
+- **Fait** : `travail.ts` : `aussi` remplacé par « J'ai la flemme. »
 
-### [MOYEN] « Je crains de ne pas pouvoir mardi » est un calque
+### [MOYEN] ✅ « Je crains de ne pas pouvoir mardi » est un calque
 
 - **Où** : `expressions.ts` — `en-expr-accord`
 - **Texte** : « I'm afraid I can't make Tuesday. » / « Je crains de ne pas
@@ -544,8 +572,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   C'est d'autant plus gênant que la série enseigne à ne pas calquer.
 - **Correction proposée** : `francais: "Malheureusement, je ne peux pas mardi."`,
   `aussi: ["Je suis désolé, mardi ne me va pas."]`
+- **Fait** : `expressions.ts` : français principal changé en « Malheureusement, je ne peux pas mardi. », `aussi` ajouté.
 
-### [MOYEN] « If it isn't broken » n'est pas le proverbe
+### [MOYEN] ✅ « If it isn't broken » n'est pas le proverbe
 
 - **Où** : `expressions.ts` — `en-expr-proverbes`
 - **Texte** : « If it isn't broken, don't fix it. » / « Si ça marche, n'y touche
@@ -557,8 +586,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   version non attestée.
 - **Correction proposée** : `etranger: "If it ain't broke, don't fix it."`, avec
   la note expliquant que *ain't* fait partie de la formule.
+- **Fait** : `expressions.ts` : `etranger` changé en « If it ain't broke, don't fix it. », note réécrite en conséquence.
 
-### [MOYEN] « Bloody est incompris aux États-Unis »
+### [MOYEN] ✅ « Bloody est incompris aux États-Unis »
 
 - **Où** : `expressions.ts` — cours `en-expr-emotions`
 - **Texte** : « Bloody est modéré au Royaume-Uni et incompris aux États-Unis »
@@ -567,8 +597,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   n'est pas la même chose qu'être incompris.
 - **Correction proposée** : « Bloody est modéré au Royaume-Uni et pratiquement
   inemployé aux États-Unis, où il sonne aussitôt britannique. »
+- **Fait** : `expressions.ts` (cours `en-expr-emotions`) : texte corrigé en « pratiquement inemployé aux États-Unis, où il sonne aussitôt britannique ». La phrase fautive « et elles se gradent » du même cours a aussi été corrigée au passage (voir constat « Le mot magic »).
 
-### [MOYEN] « Wednesday a perdu sa première syllabe »
+### [MOYEN] ✅ « Wednesday a perdu sa première syllabe »
 
 - **Où** : `prononciation.ts` — `en-pron-muettes`, section « Les mots qui mentent
   franchement », et carte 9
@@ -578,8 +609,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   perdu sa première syllabe décrit une prononciation qui n'existe pas.
 - **Correction proposée** : « Wednesday a perdu sa syllabe du milieu et son d :
   WENZ-day. »
+- **Fait** : `prononciation.ts` : les deux occurrences (statement de section et note de carte) corrigées en « a perdu sa syllabe du milieu et son d ».
 
-### [MOYEN] « GAragé » : une prononciation inventée dans un cours de prononciation
+### [MOYEN] ✅ « GAragé » : une prononciation inventée dans un cours de prononciation
 
 - **Où** : `prononciation.ts` — `en-pron-accent-mot`, section « Les régularités
   qui aident »
@@ -592,8 +624,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
 - **Correction proposée** : « HOtel se dit hoTEL. GArage garde l'accent devant au
   Royaume-Uni (GA-rahj ou GA-ridge) mais le déplace aux États-Unis (gaRAHJ).
   BALlet garde l'accent devant en britannique, balLET en américain. »
+- **Fait** : `prononciation.ts` : passage réécrit avec des transcriptions réelles (GA-rahj/GA-ridge en GB, gaRAHJ en US) et sans tautologie sur ballet.
 
-### [MOYEN] « -ify » classé parmi les suffixes qui attirent l'accent devant eux
+### [MOYEN] ✅ « -ify » classé parmi les suffixes qui attirent l'accent devant eux
 
 - **Où** : `prononciation.ts` — `en-pron-accent-mot`
 - **Texte** : « Les suffixes qui attirent l'accent sur la syllabe qui les
@@ -602,8 +635,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   *IDENtify* portent l'accent bien avant la syllabe qui précède le suffixe.
   Appliquer la règle annoncée donnerait « beauTIfy ».
 - **Correction proposée** : retirer *-ify* de la liste.
+- **Fait** : `prononciation.ts` : `-ify` retiré de la liste des suffixes.
 
-### [MOYEN] Niveaux annoncés trop bas
+### [MOYEN] ✅ Niveaux annoncés trop bas
 
 - **Où** : plusieurs séries
 - **Texte** :
@@ -621,8 +655,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   tournures B1-B2 dans ses toutes premières séries.
 - **Correction proposée** : passer `en-quotidien` et `en-temps-libre` en A2/B1,
   `en-pieges-verbes` en B1.
+- **Fait** : `bases.ts` (`en-quotidien` A2→B1), `quotidien-a1.ts` (`en-temps-libre` A1→A2), `faux-amis.ts` (`en-pieges-verbes` A2→B1). `en-voc-vetements` n'était pas visé par la correction proposée et n'a pas été changé.
 
-### [MINEUR] « Comment vais-je au centre-ville ? »
+### [MINEUR] ✅ « Comment vais-je au centre-ville ? »
 
 - **Où** : `bases.ts:162` — `en-voyage`
 - **Texte** : « How do I get to the city centre? » / « Comment vais-je au
@@ -632,8 +667,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   L'`aussi` (« Comment on va au centre-ville ? ») est la bonne forme.
 - **Correction proposée** : intervertir : français principal « Comment on va au
   centre-ville ? », `aussi: ["Pour aller au centre-ville, s'il vous plaît ?"]`.
+- **Fait** : `bases.ts` : français principal devient « Comment on va au centre-ville ? », `aussi` mis à jour.
 
-### [MINEUR] « center s'y écrit sans inversion »
+### [MINEUR] ✅ « center s'y écrit sans inversion »
 
 - **Où** : `bases.ts:164` — `en-voyage`
 - **Texte** : « Downtown aux États-Unis, et center s'y écrit sans inversion. »
@@ -641,8 +677,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   dernières lettres, -re → -er.
 - **Correction proposée** : « Downtown aux États-Unis, et centre s'y écrit
   center. »
+- **Fait** : `bases.ts` : note corrigée en « centre s'y écrit center ».
 
-### [MINEUR] « Je suis le plus jeune de trois »
+### [MINEUR] ✅ « Je suis le plus jeune de trois »
 
 - **Où** : `debutant.ts:56` — `en-gens`
 - **Texte** : « I'm the youngest of three. » / « Je suis le plus jeune de
@@ -650,24 +687,27 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
 - **Problème** : le français demande l'article : « le plus jeune des trois », ou
   mieux « le dernier de trois enfants ».
 - **Correction proposée** : `francais: "Je suis le plus jeune des trois."`
+- **Fait** : `debutant.ts` : français corrigé en « Je suis le plus jeune des trois. »
 
-### [MINEUR] « Out of order ne s'écrit que sur un écriteau »
+### [MINEUR] ✅ « Out of order ne s'écrit que sur un écriteau »
 
 - **Où** : `quotidien-a1.ts:46` — `en-maison`
 - **Problème** : *out of order* se dit aussi bien qu'il s'écrit (*the lift's out
   of order again*). « Ne s'écrit que » est trop absolu.
 - **Correction proposée** : « Out of order appartient surtout aux machines et
   aux services publics. »
+- **Fait** : `quotidien-a1.ts` : note corrigée comme proposé.
 
-### [MINEUR] « Un trait d'union sépare deux corvées différentes »
+### [MINEUR] ✅ « Un trait d'union sépare deux corvées différentes »
 
 - **Où** : `quotidien-a1.ts:56` — `en-maison`
 - **Problème** : ce n'est pas le trait d'union qui distingue *the washing-up* de
   *the washing*, c'est la particule *up*. La formule est jolie et fausse.
 - **Correction proposée** : « Washing-up, la vaisselle ; washing, le linge —
   c'est le up qui fait la différence. »
+- **Fait** : `quotidien-a1.ts` : note corrigée pour attribuer la différence à la particule up.
 
-### [MINEUR] « hours ne se prononce pas »
+### [MINEUR] ✅ « hours ne se prononce pas »
 
 - **Où** : `quotidien-a1.ts:329` — `en-temps-libre`
 - **Texte** : « Et l'anglais dit at eight tout court : « hours » ne se prononce
@@ -675,15 +715,17 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
 - **Problème** : dans une série marquée `oral`/`parle`, « ne se prononce pas »
   suggère une lettre muette. Le mot ne s'emploie tout simplement pas.
 - **Correction proposée** : « … : on ne dit pas « hours ». »
+- **Fait** : `quotidien-a1.ts` : note corrigée en « on ne dit pas « hours » ».
 
-### [MINEUR] « Not yet répond à une question au present perfect »
+### [MINEUR] ✅ « Not yet répond à une question au present perfect »
 
 - **Où** : `quotidien-a1.ts:267` — `en-petits-mots`
 - **Problème** : trop restrictif. *Are you ready? — Not yet.* est A1.
 - **Correction proposée** : « Not yet, la réponse standard à une question sur ce
   qui n'est pas encore arrivé. »
+- **Fait** : `quotidien-a1.ts` : note généralisée, exemple « Are you ready? — Not yet. » ajouté.
 
-### [MINEUR] « Trois sont des pièges » — jamais dit lesquels
+### [MINEUR] ✅ « Trois sont des pièges » — jamais dit lesquels
 
 - **Où** : `quotidien-a1.ts:217` — `en-petits-mots`
 - **Texte** : « And, but, so, because, too, very. Six mots de rien […] et dont
@@ -692,15 +734,17 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   reprennent. L'apprenant cherche trois pièges qui ne sont jamais désignés.
 - **Correction proposée** : nommer les trois (too, so, because), ou retirer le
   décompte.
+- **Fait** : `quotidien-a1.ts` : statement complété, les trois pièges (too, so, because) nommés explicitement.
 
-### [MINEUR] « to work out » / « se passer bien »
+### [MINEUR] ✅ « to work out » / « se passer bien »
 
 - **Où** : `verbes.ts:75` — `en-phrasal-1`
 - **Problème** : « se passer bien » n'est pas une lexie française : on dit « bien
   se passer », ou « marcher ». L'`aussi` contient déjà les bonnes formes.
 - **Correction proposée** : `francais: "bien se passer"`.
+- **Fait** : `verbes.ts` (`en-phrasal-1`) : carte convertie en phrase complète, français devient « Ça s'est arrangé, finalement. »
 
-### [MINEUR] Contradiction de format : les phrasal verbs et les prépositions ne sont pas des phrases
+### [MINEUR] ✅ Contradiction de format : les phrasal verbs et les prépositions ne sont pas des phrases
 
 - **Où** : `verbes.ts` — `en-phrasal-1` et `en-prepositions`
 - **Texte** : en-têtes du module : « Les verbes irréguliers sont donnés en phrase
@@ -714,8 +758,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   inverse (*Monday* seul est une réponse défendable).
 - **Correction proposée** : mettre ces cartes en phrase, comme le reste du
   module : « Can you look after the cat? », « The train leaves at six o'clock. »
+- **Fait** : `verbes.ts` : les 10 cartes d'`en-phrasal-1` et les 8 cartes d'`en-prepositions` (recentré sur le temps) sont maintenant toutes rédigées en phrases complètes.
 
-### [MINEUR] « He is training for a marathon » — note embrouillée
+### [MINEUR] ✅ « He is training for a marathon » — note embrouillée
 
 - **Où** : `vocabulaire-vie.ts` — `en-voc-sport`
 - **Texte** : « Train for something. Le verbe est intransitif ici : on ne
@@ -725,21 +770,24 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   l'anglais n'a pas de forme pronominale.
 - **Correction proposée** : « Train for something, sans pronom : l'anglais n'a
   pas de forme réfléchie ici. »
+- **Fait** : `vocabulaire-vie.ts` : note corrigée en « sans pronom : l'anglais n'a pas de forme réfléchie ici ».
 
-### [MINEUR] « On play du football, on does du yoga »
+### [MINEUR] ✅ « On play du football, on does du yoga »
 
 - **Où** : `vocabulaire-vie.ts` — statement de `en-voc-sport`
 - **Problème** : la phrase mêle verbe anglais et syntaxe française d'une façon
   qui ne s'entend pas dans le reste du module.
 - **Correction proposée** : « On dit play football, do yoga, go swimming. »
+- **Fait** : `vocabulaire-vie.ts` : statement corrigé en « On dit play football, do yoga, go swimming. »
 
-### [MINEUR] « Fact-check est passé verbe »
+### [MINEUR] ✅ « Fact-check est passé verbe »
 
 - **Où** : `vocabulaire-vie.ts` — `en-voc-medias`
 - **Problème** : « est passé verbe » — il manque un déterminant.
 - **Correction proposée** : « Fact-check est devenu un verbe. »
+- **Fait** : `vocabulaire-vie.ts` : note corrigée en « est devenu un verbe ».
 
-### [MINEUR] Espace avant le point d'interrogation dans les exemples anglais
+### [MINEUR] ✅ Espace avant le point d'interrogation dans les exemples anglais
 
 - **Où** : `conjugaison.ts:59`, `:157`, `:185` ; `conjugaison-2.ts:31`, `:83` ;
   `expressions.ts` (plusieurs sections de cours)
@@ -752,16 +800,18 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   tea? »). Incohérence à l'intérieur d'un même cours.
 - **Correction proposée** : coller le point d'interrogation aux exemples
   anglais, comme le font déjà les tableaux.
+- **Fait** : espaces retirés devant les « ? » anglais dans les textes de cours de `conjugaison.ts` (2 occurrences), `conjugaison-2.ts` (9 occurrences) et `expressions.ts` (plusieurs occurrences, dont le tableau et deux sections de cours).
 
-### [MINEUR] « Look at this book » / « Luke et boo »
+### [MINEUR] ✅ « Look at this book » / « Luke et boo »
 
 - **Où** : `prononciation.ts` — `en-pron-voyelles`
 - **Texte** : « Deux /ʊ/ brefs. Allongés, ils donneraient Luke et boo. »
 - **Problème** : *book* allongé donne /buːk/, qui n'est pas *boo*. L'exemple est
   approximatif au point d'être faux dans un cours de phonétique.
 - **Correction proposée** : « Deux /ʊ/ brefs. Allongé, look donnerait Luke. »
+- **Fait** : `prononciation.ts` : note corrigée en « Allongé, look donnerait Luke. »
 
-### [MINEUR] « with » donné comme exemple de /ð/ substitué en « wizz »
+### [MINEUR] ✅ « with » donné comme exemple de /ð/ substitué en « wizz »
 
 - **Où** : `prononciation.ts` — `en-pron-th`
 - **Texte** : « Remplacer /ð/ par « z » transforme they en Zay, breathe en
@@ -772,16 +822,18 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   transcriptions inventées.
 - **Correction proposée** : ne garder que *breathe / breeze*, et dire pour les
   autres que la substitution ne crée pas de confusion mais s'entend aussitôt.
+- **Fait** : `prononciation.ts` : texte corrigé pour ne garder que breathe/breeze comme confusion réelle ; they et with restent mentionnés mais sans transcription inventée.
 
-### [MINEUR] « KUMF-ta-bl » et « KUMF-tə-bl » dans le même fichier
+### [MINEUR] ✅ « KUMF-ta-bl » et « KUMF-tə-bl » dans le même fichier
 
 - **Où** : `prononciation.ts` — `en-pron-accent-mot` (carte) et `en-pron-muettes`
   (cours)
 - **Problème** : la même transcription est écrite de deux façons à quelques
   centaines de lignes d'écart.
 - **Correction proposée** : uniformiser sur « KUMF-tə-bl ».
+- **Fait** : `prononciation.ts` : la carte utilisait « KUMF-ta-bl », uniformisée sur « KUMF-tə-bl » comme le cours.
 
-### [MINEUR] « Il a hérité la maison »
+### [MINEUR] ✅ « Il a hérité la maison »
 
 - **Où** : `monde-2.ts` — `en-voc-fin-de-vie`
 - **Texte** : « He inherited the house from an aunt. » / « Il a hérité la maison
@@ -789,8 +841,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
 - **Problème** : le français demande « hériter **de** la maison ». L'ironie est
   que la note porte précisément sur la construction.
 - **Correction proposée** : « Il a hérité de la maison d'une tante. »
+- **Fait** : `monde-2.ts` : français corrigé en « Il a hérité de la maison d'une tante. »
 
-### [MINEUR] « Le temps paraît long à qui attend » donné comme proverbe français
+### [MINEUR] ✅ « Le temps paraît long à qui attend » donné comme proverbe français
 
 - **Où** : `expressions.ts` — `en-expr-proverbes`, visuel « La même leçon, deux
   images », colonne « L'image française »
@@ -800,8 +853,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   boils*. La colonne annonce une image française et n'en donne pas.
 - **Correction proposée** : soit avouer l'absence d'équivalent, soit retirer la
   ligne.
+- **Fait** : `expressions.ts` : ligne du tableau remplacée par un aveu explicite d'absence d'équivalent français.
 
-### [MINEUR] « gutted » : le cours dit « très déçu », la carte dit « effondré »
+### [MINEUR] ✅ « gutted » : le cours dit « très déçu », la carte dit « effondré »
 
 - **Où** : `expressions.ts` — `en-expr-familier`
 - **Texte** : tableau : `["gutted", "très déçu", "devastated", "bummed"]` —
@@ -811,8 +865,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   c'est le cours qui doit préparer la carte.
 - **Correction proposée** : carte → « Il était atterré par la nouvelle. » ou
   cours → « anéanti ».
+- **Fait** : `expressions.ts` : français de la carte corrigé en « Il était atterré par la nouvelle. »
 
-### [MINEUR] « le mot s'écrit en un seul terme » (ceasefire)
+### [MINEUR] ✅ « le mot s'écrit en un seul terme » (ceasefire)
 
 - **Où** : `monde-2.ts` — `en-voc-militaire`
 - **Problème** : *cease-fire* avec trait d'union est également attesté et courant
@@ -820,8 +875,9 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   bancale (un mot, pas un terme).
 - **Correction proposée** : « Ceasefire s'écrit en un mot, parfois avec un trait
   d'union. »
+- **Fait** : `monde-2.ts` : note corrigée en « Ceasefire s'écrit en un mot, parfois avec un trait d'union. »
 
-### [MINEUR] Verbe unique donné pour « élever des animaux »
+### [MINEUR] ✅ Verbe unique donné pour « élever des animaux »
 
 - **Où** : `monde-2.ts` — `en-voc-agriculture`
 - **Texte** : « Keep pour élever des animaux, jamais breed sauf reproduction. »
@@ -830,6 +886,7 @@ soixantaine de visuels : tableaux, comparaisons, frises, étapes).
   la liste par un « jamais ».
 - **Correction proposée** : « Keep ou raise pour élever ; breed ne se dit que de
   la reproduction. »
+- **Fait** : `monde-2.ts` : note corrigée en « Keep ou raise pour élever ; breed ne se dit que de la reproduction. »
 
 ---
 
@@ -861,7 +918,7 @@ recoupements ainsi trouvés (« She didn't come », « Have you finished ? » tr
 fois, le -s de la troisième personne quatre fois) m'avaient tous échappé à la
 première lecture, parce qu'ils sont répartis sur trois fichiers différents.
 
-### [MOYEN] `en-cours-modaux` annonce neuf modaux, en nomme six, en traite huit
+### [MOYEN] ✅ `en-cours-modaux` annonce neuf modaux, en nomme six, en traite huit
 
 - **Où** : `cours-grammaire.ts:16` — `en-cours-modaux`
 - **Texte** : « Can, could, must, should, may, might. Neuf petits verbes qui
@@ -872,8 +929,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   cherche à savoir combien de modaux il doit connaître n'obtient pas de réponse.
 - **Correction proposée** : « Can, could, may, might, must, should, will, would.
   Huit petits verbes qui portent toute la nuance d'une phrase anglaise… »
+- **Fait** : `cours-grammaire.ts` : statement corrigé, huit modaux nommés (can, could, may, might, must, should, will, would) comme proposé.
 
-### [MOYEN] Des pourcentages inventés pour may et might
+### [MOYEN] ✅ Des pourcentages inventés pour may et might
 
 - **Où** : `cours-grammaire.ts` — `en-cours-modaux`, tableau « Ce qu'ils disent,
   et à quel degré »
@@ -887,8 +945,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   « Might est un peu plus faible que may, mais l'écart est mince. »
 - **Correction proposée** : remplacer par « possible » et « un peu moins
   possible », comme le fait déjà l'échelle de `en-conj-modaux-passe`.
+- **Fait** : `cours-grammaire.ts` : « 50 % »/« 30 % » remplacés par « possible »/« un peu moins possible ».
 
-### [MOYEN] « A university se dirait pour le bâtiment » : c'est *the*, pas *a*
+### [MOYEN] ✅ « A university se dirait pour le bâtiment » : c'est *the*, pas *a*
 
 - **Où** : `cours-grammaire.ts` — `en-cours-articles`, carte « He went to
   university. »
@@ -901,8 +960,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   pour se rendre au bâtiment ». *A university* veut dire « une université
   quelconque », ce qui n'a rien à voir.
 - **Correction proposée** : « … The university se dirait pour le bâtiment. »
+- **Fait** : `cours-grammaire.ts` : note corrigée en « The university se dirait pour le bâtiment. »
 
-### [MOYEN] « La nouvelle est bonne » contredit le cours qui l'accompagne
+### [MOYEN] ✅ « La nouvelle est bonne » contredit le cours qui l'accompagne
 
 - **Où** : `cours-grammaire.ts` — `en-cours-quantifieurs`, carte « The news is
   good. »
@@ -916,8 +976,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   lui interdit.
 - **Correction proposée** : `francais: "Les nouvelles sont bonnes."` avec
   `aussi: ["C'est une bonne nouvelle."]`.
+- **Fait** : `cours-grammaire.ts` : français changé en « Les nouvelles sont bonnes. », `aussi: ["C'est une bonne nouvelle."]` ajouté.
 
-### [MOYEN] `en-cours-modaux` et `en-conj-modaux-passe` se recouvrent
+### [MOYEN] ✅ `en-cours-modaux` et `en-conj-modaux-passe` se recouvrent
 
 - **Où** : `cours-grammaire.ts` — `en-cours-modaux`, section « Deviner, supposer,
   déduire » ; `conjugaison-2.ts` — `en-conj-modaux-passe`, série entière
@@ -936,8 +997,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
 - **Correction proposée** : retirer de `en-cours-modaux` la section « Deviner,
   supposer, déduire » et ses deux dernières cartes, en renvoyant à
   `en-conj-modaux-passe` — ou l'inverse, mais pas les deux.
+- **Fait** : `cours-grammaire.ts` : le dernier paragraphe de la section « Deviner, supposer, déduire » (exemples must have left / should have told me, qui font doublon avec `conjugaison-2.ts`) a été retiré et remplacé par un simple renvoi à la série des modaux du passé ; la carte « You should have told me. » a été remplacée par « I would say it's a good idea. », qui comble par ailleurs un trou du tableau (will/would n'étaient testés par aucune carte). Écart par rapport à la proposition : je n'ai pas retiré toute la section 3 ni « ses deux dernières cartes » au sens large, seulement la partie qui duplique effectivement `conjugaison-2.ts` (l'explication must/can't/may/might en présent reste, car elle n'est pas traitée ailleurs).
 
-### [MOYEN] Une série A1 qui commence par le present perfect continu
+### [MOYEN] ✅ Une série A1 qui commence par le present perfect continu
 
 - **Où** : `bases.ts:12` — `en-presentation`, `niveau: "A1"`, `difficulty: 1`
 - **Texte** : « How long have you been here? » (note : « Present perfect continu :
@@ -950,8 +1012,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
 - **Correction proposée** : remplacer par « How long are you here for? » /
   « Combien de temps tu restes ? » et « I've studied English for two years. », ou
   passer la série en A2.
+- **Fait** : `bases.ts` (`en-presentation`) : niveau passé de A1 à A2, plutôt que de réécrire les deux cartes — solution plus sûre pour ne pas perdre le point de grammaire explicitement nommé dans la note.
 
-### [MOYEN] « How is it? » interdit à tort
+### [MOYEN] ✅ « How is it? » interdit à tort
 
 - **Où** : `bases.ts:90` — `en-questions`
 - **Texte** : « Ne pas dire « How is it? », qui demande si ça va bien, pas à quoi
@@ -964,8 +1027,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
 - **Correction proposée** : « What's it like? demande une description ; How is
   it? demande si c'est bien. Les deux existent, elles ne demandent pas la même
   chose. »
+- **Fait** : `bases.ts` (`en-questions`) : note remplacée exactement comme proposé.
 
-### [MOYEN] Doublon : le comparatif irrégulier noté deux fois à l'identique
+### [MOYEN] ✅ Doublon : le comparatif irrégulier noté deux fois à l'identique
 
 - **Où** : `debutant.ts:102` (`en-decrire`) et `cours-grammaire.ts`
   (`en-cours-comparatifs`)
@@ -979,8 +1043,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   quasi identiques.
 - **Correction proposée** : retirer de `en-decrire` les cartes « This one is
   cheaper. » et « It's the best one. », qui appartiennent au chapitre comparatif.
+- **Fait** : `debutant.ts` (`en-decrire`) : cartes « This one is cheaper. » et « It's the best one. » retirées et remplacées par deux cartes sur la forme et la matière (round / made of wood), qui ne recoupent pas `cours-grammaire.ts:en-cours-comparatifs`.
 
-### [MINEUR] Règle d'orthographe formulée en phrase à double lecture
+### [MINEUR] ✅ Règle d'orthographe formulée en phrase à double lecture
 
 - **Où** : `cours-grammaire.ts` — `en-cours-comparatifs`
 - **Texte** : « Deux ajustements orthographiques : une consonne finale unique
@@ -993,8 +1058,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
 - **Correction proposée** : « Deux ajustements orthographiques : une consonne
   finale unique précédée d'une seule voyelle se redouble — big, bigger — et un e
   final ne se répète pas — nice, nicer. »
+- **Fait** : `cours-grammaire.ts` : « voyelle double » corrigé en « une seule voyelle se redouble ».
 
-### [MOYEN] « Ça ne me va pas » : la carte contredit sa propre note
+### [MOYEN] ✅ « Ça ne me va pas » : la carte contredit sa propre note
 
 - **Où** : `debutant.ts:130` — `en-acheter`
 - **Texte** : `{ etranger: "It doesn't fit.", francais: "Ça ne me va pas.", note: "Fit pour la taille ; suit pour le style. « It doesn't suit me » veut dire que ça ne me flatte pas." }`
@@ -1008,8 +1074,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   incompatibles du même verbe.
 - **Correction proposée** : `francais: "Ce n'est pas à ma taille."`, garder la
   note, et ajouter `aussi: ["Ça ne me va pas — c'est trop petit."]`.
+- **Fait** : `debutant.ts` (`en-acheter`) : français changé en « Ce n'est pas à ma taille. », `aussi` ajouté, exactement comme proposé.
 
-### [MOYEN] « Il fait un froid glacial » attend deux anglais différents
+### [MOYEN] ✅ « Il fait un froid glacial » attend deux anglais différents
 
 - **Où** : `bases.ts:130` (`en-quotidien`) et `debutant.ts:150`
   (`en-meteo-lieux`)
@@ -1023,8 +1090,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
 - **Correction proposée** : supprimer la carte de `en-meteo-lieux`, qui n'ajoute
   rien à celle de `en-quotidien`, ou ajouter
   `aussiEtranger: ["It's freezing."]` à cette dernière.
+- **Fait** : `bases.ts` (`en-quotidien`) : `aussiEtranger: ["It's freezing."]` ajouté à la carte « It's freezing outside. », plutôt que de supprimer la carte de `debutant.ts` — évite de perdre du contenu tout en réglant la réversibilité.
 
-### [MOYEN] Le statement de `en-meteo-lieux` ne couvre que la moitié de la série
+### [MOYEN] ✅ Le statement de `en-meteo-lieux` ne couvre que la moitié de la série
 
 - **Où** : `debutant.ts:137-159` — `en-meteo-lieux`
 - **Texte** : statement : « La météo est le sujet d'ouverture par excellence en
@@ -1039,8 +1107,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
 - **Correction proposée** : scinder en deux séries, ou compléter le statement :
   « … et, juste après, la question qu'on pose à un inconnu : où est-ce, et
   comment y aller. »
+- **Fait** : `debutant.ts` : statement complété avec la phrase proposée sur la question qu'on pose à un inconnu.
 
-### [MOYEN] Doublon : l'ordre des adjectifs donné deux fois mot pour mot
+### [MOYEN] ✅ Doublon : l'ordre des adjectifs donné deux fois mot pour mot
 
 - **Où** : `debutant.ts:92` (tip de `en-decrire`) et `vocabulaire-monde.ts`
   (cours de `en-voc-vetements`, section « Décrire quelqu'un sans le vexer »)
@@ -1054,8 +1123,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   `en-voc-vetements` et réduire le tip de `en-decrire` à ce que ses cartes
   montrent réellement : « Taille avant couleur : a big red car, jamais a red big
   car. »
+- **Fait** : `debutant.ts` (tip d'`en-decrire`) : réduit à « Taille avant couleur : a big red car, jamais a red big car. », comme proposé. La version complète reste dans `vocabulaire-monde.ts`.
 
-### [MOYEN] Doublon : l'allergie enseignée deux fois
+### [MOYEN] ✅ Doublon : l'allergie enseignée deux fois
 
 - **Où** : `debutant.ts:77` (`en-manger`, A1) et `quotidien-a1.ts:121`
   (`en-corps-sante`, A1)
@@ -1069,8 +1139,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   sur *allergic to*) et remplacer celle d'`en-manger` par une carte de refus
   utile au restaurant : « Does it contain nuts? » / « Est-ce qu'il y a des fruits
   à coque dedans ? »
+- **Fait** : `debutant.ts` (`en-manger`) : carte remplacée par « Does it contain nuts? » / « Est-ce qu'il y a des fruits à coque dedans ? », exactement comme proposé. `quotidien-a1.ts` reste la carte de référence sur allergic to.
 
-### [MINEUR] « Watch la télévision, see un film » contredit la carte qui le porte
+### [MINEUR] ✅ « Watch la télévision, see un film » contredit la carte qui le porte
 
 - **Où** : `quotidien-a1.ts:319` — `en-temps-libre`
 - **Texte** : `{ etranger: "We watched a film last night.", francais: "On a regardé un film hier soir.", note: "Watch la télévision, see un film au cinéma, look at une image. Trois verbes pour un seul « regarder »." }`
@@ -1080,8 +1151,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   laisse croire que la carte est fautive.
 - **Correction proposée** : « Watch chez soi — a film, TV ; see au cinéma ou au
   théâtre ; look at une image fixe. »
+- **Fait** : `quotidien-a1.ts` : note corrigée pour dire que le partage est le lieu (chez soi/au cinéma), pas l'objet.
 
-### [MINEUR] « Il ne veut jamais dire « si » dans ce sens »
+### [MINEUR] ✅ « Il ne veut jamais dire « si » dans ce sens »
 
 - **Où** : `quotidien-a1.ts:237` — `en-petits-mots`
 - **Texte** : « So relie une cause à sa conséquence. Il ne veut jamais dire
@@ -1093,8 +1165,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
 - **Correction proposée** : « So relie une cause à sa conséquence. Attention, il
   a un autre emploi : devant un adjectif, so veut dire « tellement » — it's so
   cold. »
+- **Fait** : `quotidien-a1.ts` : note remplacée par la mise en garde utile sur so + adjectif (« tellement »).
 
-### [MOYEN] Le critère « on y circule debout » est démenti par ses propres exemples
+### [MOYEN] ✅ Le critère « on y circule debout » est démenti par ses propres exemples
 
 - **Où** : `vocabulaire-monde.ts` — cours de `en-voc-ville`, visuel « In ou on,
   dans les transports » ; `vocabulaire-vie.ts` — tip de `en-voc-transports` ;
@@ -1116,8 +1189,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
 - **Correction proposée** : une seule formulation, partout : « On pour ce qu'on
   enfourche ou ce dans quoi on circule sans être enfermé — on the bus, on the
   train, on my bike ; in pour l'habitacle fermé — in the car, in a taxi. »
+- **Fait** : formulation unifiée sur les trois occurrences : `vocabulaire-vie.ts` (tip d'`en-voc-transports`), `vocabulaire-monde.ts` (titres des colonnes du visuel « In ou on »). La troisième occurrence, dans `verbes.ts` (`en-prepositions`), a disparu avec la carte « in the car », retirée en recentrant cette série sur les prépositions de temps.
 
-### [MOYEN] Le tip de `en-voc-nature` annonce le cri des animaux, que rien n'enseigne
+### [MOYEN] ✅ Le tip de `en-voc-nature` annonce le cri des animaux, que rien n'enseigne
 
 - **Où** : `vocabulaire-monde.ts:260` — `en-voc-nature`
 - **Texte** : tip : « Les animaux ont souvent trois mots : l'animal, sa viande,
@@ -1129,8 +1203,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   n'annonce pas les deux qui y sont réellement traitées.
 - **Correction proposée** : « Les animaux ont souvent trois mots : la bête, sa
   viande, son petit. Cow, beef, calf. Pig, pork, piglet. »
+- **Fait** : `vocabulaire-monde.ts` : tip et statement corrigés ensemble (voir aussi « Un pays où il pleut… » plus bas) — le tip parle maintenant de l'animal, sa viande, son petit, comme le tableau qui suit.
 
-### [MOYEN] Doublon : les prépositions de lieu traitées deux fois
+### [MOYEN] ✅ Doublon : les prépositions de lieu traitées deux fois
 
 - **Où** : `verbes.ts:127-148` (`en-prepositions`, A2) et
   `vocabulaire-monde.ts` (cours de `en-voc-ville`, section « Les prépositions de
@@ -1148,8 +1223,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   complet, et recentrer `en-prepositions` sur ce qu'il a de propre : les
   prépositions de **temps** (at six, on Monday, in March, in time / on time),
   que le cours d'`en-voc-ville` ne traite pas.
+- **Fait** : `verbes.ts` (`en-prepositions`) : série recentrée sur les prépositions de temps uniquement (at six o'clock, on Monday, in March, in/at + moment de la journée, in time/on time, in + durée) ; toutes les cartes de lieu (at the station, in the car, on the second floor, at the weekend, at home) ont été retirées, réglant du même coup les doublons sur l'étage et le week-end.
 
-### [MOYEN] Une série A1 dont le cours est de niveau B1
+### [MOYEN] ✅ Une série A1 dont le cours est de niveau B1
 
 - **Où** : `vocabulaire-monde.ts:384` — `en-voc-ville`, `niveau: "A1"`,
   `difficulty: 1`
@@ -1161,8 +1237,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   ailleurs le même contenu en A2 (`verbes.ts:en-prepositions`). Le même
   apprenant rencontre donc la matière une fois en A1 et une fois en A2.
 - **Correction proposée** : passer `en-voc-ville` en A2 au minimum.
+- **Fait** : `vocabulaire-monde.ts` (`en-voc-ville`) : niveau passé de A1 à A2.
 
-### [MINEUR] « Chicken et fish, plus tardifs »
+### [MINEUR] ✅ « Chicken et fish, plus tardifs »
 
 - **Où** : `vocabulaire-monde.ts` — cours de `en-voc-nature`, section
   « L'animal, sa viande, son petit »
@@ -1174,8 +1251,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   pas reçu de doublet français, pas qu'ils seraient « plus tardifs ».
 - **Correction proposée** : « Chicken et fish n'ont pas reçu de doublet français :
   la bête et le plat s'y disent du même mot. »
+- **Fait** : `vocabulaire-monde.ts` : texte corrigé, le fait vrai (pas de doublet français) remplace l'erreur historique.
 
-### [MINEUR] Une ligne de tableau où les deux colonnes sont identiques
+### [MINEUR] ✅ Une ligne de tableau où les deux colonnes sont identiques
 
 - **Où** : `vocabulaire-monde.ts` — cours de `en-voc-ville`, tableau « Où l'on
   va, et pour quoi »
@@ -1185,8 +1263,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   opposition. Trois autres lignes ont un tiret dans la colonne génitif — ici il
   aurait fallu un tiret dans la colonne « lieu ».
 - **Correction proposée** : `["—", "the newsagent's", "papers, sweets"]`.
+- **Fait** : `vocabulaire-monde.ts` : première colonne de la ligne newsagent's remplacée par un tiret.
 
-### [MOYEN] `en-irreguliers-1` annonce vingt verbes et en donne dix
+### [MOYEN] ✅ `en-irreguliers-1` annonce vingt verbes et en donne dix
 
 - **Où** : `verbes.ts:14` — `en-irreguliers-1`
 - **Texte** : « Les vingt verbes irréguliers qui reviennent sans arrêt, donnés au
@@ -1199,8 +1278,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   put, sell, spend, rise) ne sont pas annoncés.
 - **Correction proposée** : « Les dix verbes irréguliers qui reviennent sans
   arrêt… », et compléter l'énumération de `en-irreguliers-2`.
+- **Fait** : `verbes.ts` : statement corrigé en « Les dix verbes irréguliers… » ; statement d'`en-irreguliers-2` complété avec les verbes non annoncés (coûter, vendre, dépenser, se lever, poser).
 
-### [MOYEN] Doublon : « get on » enseigné trois fois
+### [MOYEN] ✅ Doublon : « get on » enseigné trois fois
 
 - **Où** : `debutant.ts:55` (`en-gens`, A1), `verbes.ts:81` (`en-phrasal-1`, B1),
   `vocabulaire-vie.ts` (`en-voc-famille`, B1)
@@ -1211,8 +1291,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   de trois fichiers, à trois niveaux annoncés différents.
 - **Correction proposée** : garder celle d'`en-phrasal-1` (qui porte la note utile
   « Get on with something veut dire s'y mettre ») et retirer les deux autres.
+- **Fait** : `verbes.ts` (`en-phrasal-1`) conservée comme référence ; `debutant.ts` (« We get on very well. » → « We're a close family. ») et `vocabulaire-vie.ts` (« He gets on well with his stepfather. » → « My stepmother lives in Bristol. ») remplacées par des cartes qui ne recoupent plus get on.
 
-### [MOYEN] Doublon : les verbes invariables annoncés deux fois
+### [MOYEN] ✅ Doublon : les verbes invariables annoncés deux fois
 
 - **Où** : `verbes.ts:41` (tip d'`en-irreguliers-2`) et `conjugaison-2.ts`
   (`en-conj-irreguliers-familles`, tableau + carte 6)
@@ -1228,8 +1309,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
 - **Correction proposée** : retirer le tip et les deux cartes de
   `en-irreguliers-2`, qui n'a pas de cours pour les porter, et laisser le sujet à
   `en-conj-irreguliers-familles`.
+- **Fait** : `verbes.ts` (`en-irreguliers-2`) : tip remplacé, cartes « It cost twenty pounds. » et « He put it on the table. » remplacées par « He forgot her birthday. » et « They found a solution. » ; le sujet reste entièrement à `conjugaison-2.ts:en-conj-irreguliers-familles`.
 
-### [MOYEN] Doublon : `be used to` enseigné dans deux fichiers
+### [MOYEN] ✅ Doublon : `be used to` enseigné dans deux fichiers
 
 - **Où** : `faux-amis.ts` — `en-pieges-verbes`, dernière carte ; et
   `conjugaison-2.ts` — `en-conj-used-to`, série entière avec cours
@@ -1242,8 +1324,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   de `conjugaison-2.ts` — et elle est classée A2 quand le chapitre est classé B1.
 - **Correction proposée** : retirer la carte de `en-pieges-verbes` ; le calque
   visé (*I have the habit of…*) n'y est de toute façon pas traité.
+- **Fait** : `faux-amis.ts` (`en-pieges-verbes`) : carte remplacée par « I don't usually get up this early. », qui porte le calque non traité ailleurs (« I don't have the habit of » au lieu de usually) plutôt que be used to, laissé entièrement à `conjugaison-2.ts:en-conj-used-to`.
 
-### [MINEUR] Rupture de registre dans `en-pieges-verbes`
+### [MINEUR] ✅ Rupture de registre dans `en-pieges-verbes`
 
 - **Où** : `faux-amis.ts` — `en-pieges-verbes`
 - **Texte** : neuf cartes tutoient ou sont neutres (« Dis-moi si tu as besoin de
@@ -1255,8 +1338,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   module a déjà une série pour cela, `travail.ts:en-courriel`.
 - **Correction proposée** : déplacer la carte dans `en-courriel`, et la remplacer
   ici par un calque oral : « I'm looking forward to it. » / « J'ai hâte. »
+- **Fait** : `faux-amis.ts` : carte « I look forward to hearing from you. » déplacée dans `travail.ts:en-courriel` et remplacée ici par « I'm looking forward to it. » / « J'ai hâte. », un calque oral.
 
-### [MINEUR] « Depend est toujours suivi de on »
+### [MINEUR] ✅ « Depend est toujours suivi de on »
 
 - **Où** : `faux-amis.ts` — `en-pieges-verbes`
 - **Problème** : *It depends.* seul est extrêmement courant, et c'est
@@ -1264,8 +1348,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   n'y a pas de complément.
 - **Correction proposée** : « Depend prend on devant son complément : it depends
   on the weather. Sans complément, il reste nu : it depends. »
+- **Fait** : `faux-amis.ts` : note complétée avec le cas sans complément (« it depends » seul).
 
-### [MINEUR] « Je suis affamé » accepté pour « I am hungry »
+### [MINEUR] ✅ « Je suis affamé » accepté pour « I am hungry »
 
 - **Où** : `faux-amis.ts` — `en-pieges-verbes`
 - **Texte** : `{ etranger: "I am hungry.", francais: "J'ai faim.", aussi: ["Je suis affamé."] }`
@@ -1273,8 +1358,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   réponse acceptée, il installe une équivalence de degré fausse.
 - **Correction proposée** : supprimer l'`aussi`, ou le remplacer par « J'ai un
   petit creux. » — non : par rien, « J'ai faim » se suffit.
+- **Fait** : `faux-amis.ts` : `aussi: ["Je suis affamé."]` supprimé, sans remplacement — « J'ai faim. » se suffit, comme suggéré.
 
-### [MOYEN] Une série d'en-têtes de courriel donnée à prononcer
+### [MOYEN] ✅ Une série d'en-têtes de courriel donnée à prononcer
 
 - **Où** : `travail.ts:8-29` — `en-courriel`, `parle: true` (sans `oral`)
 - **Texte** : les cartes « Dear Ms Clarke, », « Kind regards, », « Please find
@@ -1288,8 +1374,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
 - **Correction proposée** : retirer `parle` de `en-courriel`. C'est la seule
   série du module qui porte `parle` sans `oral`, ce qui suggère d'ailleurs que
   l'attribut a été mis par inadvertance.
+- **Fait** : `travail.ts` (`en-courriel`) : `parle: true` retiré.
 
-### [MOYEN] « Madame Clarke, » n'est pas une formule d'appel française
+### [MOYEN] ✅ « Madame Clarke, » n'est pas une formule d'appel française
 
 - **Où** : `travail.ts:18` — `en-courriel`
 - **Texte** : `{ etranger: "Dear Ms Clarke,", francais: "Madame Clarke," }`
@@ -1301,8 +1388,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
 - **Correction proposée** : `francais: "Madame,"` avec la note complétée : « Le
   français n'écrit pas le nom dans la formule d'appel ; l'anglais si — c'est
   même la marque du courriel personnalisé. »
+- **Fait** : `travail.ts` : français changé en « Madame, », note complétée comme proposé.
 
-### [MOYEN] Une note qui renvoie à une carte d'un autre fichier
+### [MOYEN] ✅ Une note qui renvoie à une carte d'un autre fichier
 
 - **Où** : `travail.ts:25` — `en-courriel`
 - **Texte** : « I'd appreciate a quick reply. » / note : « Plus direct que la
@@ -1313,8 +1401,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   l'apprenant de cette série n'a jamais vue. La note compare à un absent.
 - **Correction proposée** : « Plus direct que I look forward to hearing from
   you, et parfaitement poli en anglais. »
+- **Fait** : `travail.ts` : note réécrite pour citer explicitement « I look forward to hearing from you » — qui a d'ailleurs été rapatriée dans `en-courriel` (voir « Rupture de registre dans en-pieges-verbes »), donc l'antécédent existe maintenant dans le même fichier.
 
-### [MOYEN] `travail.ts:en-expressions` recoupe `expressions.ts:en-expr-accord`
+### [MOYEN] ✅ `travail.ts:en-expressions` recoupe `expressions.ts:en-expr-accord`
 
 - **Où** : `travail.ts:57-79` (`en-expressions`, B2) et `expressions.ts`
   (`en-expr-accord`, B1) ; voir aussi `travail.ts:44` (`en-reunion`)
@@ -1335,8 +1424,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   cartes sur dix relèvent d'`expressions.ts`, et reverser les trois qui lui sont
   propres (« It's not rocket science. », « It rings a bell. », « It's a bit of a
   stretch. ») dans `en-expr-proverbes` ou `en-expr-familier`.
+- **Fait** : correction appliquée seulement en partie : la carte « Fair enough. » de `travail.ts:en-expressions`, seul doublon réellement vérifié mot pour mot avec `expr-accord`, a été remplacée par « It's a piece of cake. » En relisant le détail, les 6 autres cartes citées comme faisant doublon (Let's play it by ear, I'm on the fence, That's a long shot, It's a bit of a stretch, Bear with me, It's up to you, I can't be bothered) ne reprennent pas de formulation identique dans `expressions.ts` — seules « That's a fair point. » et « I see what you mean, but… » d'`en-reunion` sont des paraphrases proches, pas des doublons littéraux. Je n'ai donc pas supprimé toute la série `en-expressions` comme proposé : l'ampleur du recoupement (« sept cartes sur dix ») ne se vérifie pas à la lecture du contenu actuel.
 
-### [MOYEN] Tutoiement et vouvoiement mêlés dans `en-reunion`
+### [MOYEN] ✅ Tutoiement et vouvoiement mêlés dans `en-reunion`
 
 - **Où** : `travail.ts:32-54` — `en-reunion`
 - **Texte** : « Excusez-moi, je peux intervenir ? » et « Quelle est
@@ -1349,8 +1439,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   cohérent, et il ne l'est pas.
 - **Correction proposée** : tout mettre au vouvoiement, qui est le registre d'une
   réunion professionnelle, ou tout au tutoiement en l'assumant dans le statement.
+- **Fait** : `travail.ts` : tout passé au vouvoiement (« Je vois ce que vous voulez dire, mais… », « Je vous réponds là-dessus plus tard. »), registre professionnel cohérent avec les cartes déjà au vouvoiement.
 
-### [MINEUR] Le tip d'`en-reunion` oppose une forme réelle à une forme inexistante
+### [MINEUR] ✅ Le tip d'`en-reunion` oppose une forme réelle à une forme inexistante
 
 - **Où** : `travail.ts:37` — `en-reunion`
 - **Texte** : « Pour ne pas paraître brutal, l'anglais atténue avec un modal :
@@ -1361,8 +1452,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   it's a bit expensive*).
 - **Correction proposée** : « … : « I'd say it's too expensive » plutôt que
   « It's too expensive ». »
+- **Fait** : `travail.ts` : tip corrigé en « I'd say it's too expensive » plutôt que « It's too expensive ».
 
-### [MINEUR] « That's a long shot » / « C'est très peu probable »
+### [MINEUR] ✅ « That's a long shot » / « C'est très peu probable »
 
 - **Où** : `travail.ts:72` — `en-expressions`
 - **Problème** : *a long shot* qualifie une tentative dont les chances sont
@@ -1371,6 +1463,7 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   *that's unlikely* — et c'est ce que l'apprenant produira en exercice inverse.
 - **Correction proposée** : `francais: "C'est un coup de poker."`,
   `aussi: ["Il y a peu de chances que ça marche."]`
+- **Fait** : `travail.ts` : français corrigé en « C'est un coup de poker. », `aussi` mis à jour.
 
 ### [GRAVE] « Be, have, do sont les seuls verbes vraiment irréguliers » contredit deux séries du même fichier
 
@@ -1387,7 +1480,7 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
 - **Correction proposée** : « … — et ce sont les plus irréguliers de la langue :
   be change de forme à presque chaque personne. »
 
-### [MOYEN] Trois statements annoncent des mots que la série n'enseigne pas
+### [MOYEN] ✅ Trois statements annoncent des mots que la série n'enseigne pas
 
 - **Où** : `vocabulaire-vie.ts` — `en-voc-transports` et `en-voc-medias` ;
   `prononciation.ts` — `en-pron-muettes`
@@ -1408,8 +1501,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
 - **Correction proposée** : soit ajouter les cartes manquantes (« I missed the
   last train. », « Get on at the front. », « It's in my feed. »), soit retirer ces
   mots des statements.
+- **Fait** : cartes ajoutées plutôt que mots retirés des statements : `vocabulaire-vie.ts` (« I missed the last train. », « Get on at the front. » dans `en-voc-transports` ; « It's in my feed. » dans `en-voc-medias`). Le troisième cas (island dans `prononciation.ts`) est réglé par le constat suivant, qui remplace island par thumb dans le statement.
 
-### [MOYEN] L'exemple d'`en-pron-muettes` contredit la règle qu'il illustre
+### [MOYEN] ✅ L'exemple d'`en-pron-muettes` contredit la règle qu'il illustre
 
 - **Où** : `prononciation.ts:639` — statement d'`en-pron-muettes`
 - **Texte** : « Knight, island, subtle, colonel. L'orthographe anglaise garde des
@@ -1427,8 +1521,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   anglaise garde des lettres que personne ne prononce depuis cinq siècles,
   d'autres qui n'ont jamais été prononcées — et quelques mots où elle ment
   franchement. »
+- **Fait** : `prononciation.ts` : statement corrigé en « Knight, thumb, castle, colonel. » avec la troisième catégorie (jamais prononcées) ajoutée, exactement comme proposé.
 
-### [MOYEN] « La moitié des vêtements anglais ne prennent jamais le singulier »
+### [MOYEN] ✅ « La moitié des vêtements anglais ne prennent jamais le singulier »
 
 - **Où** : `vocabulaire-monde.ts` — statement d'`en-voc-vetements`
 - **Texte** : « S'habiller se dit avec quatre verbes différents selon qu'on met,
@@ -1441,8 +1536,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   tout le reste du champ ont un singulier normal. On est très loin de la moitié.
 - **Correction proposée** : « … Et une poignée de vêtements — tout ce qui a deux
   jambes ou deux verres — ne prend jamais le singulier. »
+- **Fait** : `vocabulaire-monde.ts` : statement corrigé en « une poignée de vêtements anglais — tout ce qui a deux jambes ou deux verres ».
 
-### [MOYEN] « -in-law » présenté comme un préfixe
+### [MOYEN] ✅ « -in-law » présenté comme un préfixe
 
 - **Où** : `vocabulaire-vie.ts` — statement d'`en-voc-famille`
 - **Texte** : « In-law, step-, half-, great-. L'anglais compose ses liens de
@@ -1456,8 +1552,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
 - **Correction proposée** : « In-law, step-, half-, great-. L'anglais compose ses
   liens de parenté avec trois préfixes et un suffixe, là où le français change de
   mot ou tourne autour. »
+- **Fait** : `vocabulaire-vie.ts` : statement corrigé en « trois préfixes et un suffixe ».
 
-### [MINEUR] « Un pays où il pleut a vingt mots pour la pluie »
+### [MINEUR] ✅ « Un pays où il pleut a vingt mots pour la pluie »
 
 - **Où** : `vocabulaire-monde.ts` — statement d'`en-voc-nature`
 - **Problème** : la série en donne cinq (drizzle, shower, downpour, pouring,
@@ -1465,8 +1562,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   esquimaux pour la neige », qui est un lieu commun linguistique démenti depuis
   longtemps. Une exagération rhétorique dans un statement est lue comme un fait.
 - **Correction proposée** : « Un pays où il pleut a un mot pour chaque pluie. »
+- **Fait** : `vocabulaire-monde.ts` : statement corrigé en « a un mot pour chaque pluie », sans faux chiffre.
 
-### [MINEUR] « Obligatoire dans l'écrit formel américain »
+### [MINEUR] ✅ « Obligatoire dans l'écrit formel américain »
 
 - **Où** : `conjugaison-2.ts` — statement d'`en-conj-subjonctif`
 - **Texte** : « Trois vestiges d'un mode presque disparu — et qui reste
@@ -1478,6 +1576,7 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   fautif aux États-Unis, il y est seulement marqué.
 - **Correction proposée** : « … — et qui reste la forme attendue dans l'écrit
   formel américain. »
+- **Fait** : `conjugaison-2.ts` : statement corrigé en « reste la forme attendue dans l'écrit formel américain ».
 
 ### [GRAVE] « She didn't come » : la même carte avec la même note dans deux fichiers
 
@@ -1495,7 +1594,7 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   sujet (l'auxiliaire), et remplacer celle d'`en-conj-passe` par une carte qui
   oppose vraiment les trois passés : « She had already gone when I called. »
 
-### [MOYEN] Le -s de la troisième personne après l'auxiliaire : quatre cartes, trois fichiers
+### [MOYEN] ⏭️ Le -s de la troisième personne après l'auxiliaire : quatre cartes, trois fichiers
 
 - **Où** : `bases.ts:70` (`en-questions`, A2), `conjugaison.ts:102` et `:107`
   (`en-conj-present`, A1), `conjugaison-2.ts:114` (`en-conj-be-have-do`, A1)
@@ -1516,8 +1615,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   n'indique à l'apprenant qu'il le révise pour la quatrième fois.
 - **Correction proposée** : le laisser à `en-conj-be-have-do`, qui a le cours et
   le tableau, et retirer les cartes redondantes des trois autres séries.
+- **Fait** : constat écarté délibérément : les quatre occurrences testent le même point (le -s après l'auxiliaire) mais dans des phrases et des contextes différents (question, présent simple, auxiliaires), répartis sur des séries qui ont chacune leur propre raison d'être (former une question, le présent simple/continu, be/have/do). Une répétition espacée du point le plus difficile pour un francophone me semble un bénéfice pédagogique plutôt qu'un défaut — contrairement aux doublons à phrase quasi identique traités ailleurs dans ce rapport, ici les phrases et les verbes diffèrent à chaque fois. Je n'ai donc supprimé aucune carte.
 
-### [MOYEN] « Have you finished ? » enseigné trois fois
+### [MOYEN] ✅ « Have you finished ? » enseigné trois fois
 
 - **Où** : `verbes.ts:108` (`en-temps`), `conjugaison.ts` (tableau du cours
   d'`en-conj-passe`, ligne `["Tu as fini ?", "—", "Have you finished?"]`) et
@@ -1530,8 +1630,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   `conjugaison.ts:en-conj-passe` — cette phrase-là est le seul énoncé du module à
   apparaître **trois** fois, dans trois fichiers.
 - **Correction proposée** : n'en garder qu'une, celle d'`en-conj-be-have-do`.
+- **Fait** : `verbes.ts` (`en-temps`) : carte remplacée par « I've never been to Rome. » (une expérience sans date, même point de grammaire, verbe différent) ; `conjugaison-2.ts` (`en-conj-be-have-do`) reste la version canonique. Le doublon dans le tableau de `conjugaison.ts` avait déjà disparu (contenu changé depuis l'audit).
 
-### [MINEUR] « If you need anything » : trois cartes, trois fichiers
+### [MINEUR] ✅ « If you need anything » : trois cartes, trois fichiers
 
 - **Où** : `faux-amis.ts:196` (`en-pieges-verbes`, A2), `conjugaison-2.ts:860`
   (`en-conj-conditionnelles-mixtes`, C1), `expressions.ts:641`
@@ -1550,8 +1651,9 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
 - **Correction proposée** : retirer la carte d'`en-expr-familier` — *give
   someone a shout* peut s'enseigner sur une autre phrase (« Give me a shout when
   you're ready. »).
+- **Fait** : `expressions.ts` (`en-expr-familier`) : carte remplacée par « Give me a shout when you're ready. », qui n'entre plus en collision avec `faux-amis.ts` et `conjugaison-2.ts`.
 
-### [MINEUR] Doublon : « Could you help me… » deux fois
+### [MINEUR] ✅ Doublon : « Could you help me… » deux fois
 
 - **Où** : `bases.ts:99` (`en-questions`) et `cours-grammaire.ts`
   (`en-cours-modaux`)
@@ -1560,6 +1662,7 @@ première lecture, parce qu'ils sont répartis sur trois fichiers différents.
   seconde ? »
 - **Correction proposée** : varier l'une des deux (« Could I ask you
   something? »).
+- **Fait** : `bases.ts` : carte remplacée par « Could I ask you something? » / « Je peux te demander un truc ? »
 
 ## Ce qui est sain
 

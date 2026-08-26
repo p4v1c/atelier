@@ -52,7 +52,7 @@ export const ANGLAIS_VOCABULAIRE_MONDE: LotCartes[] = [
         {
           titre: "Ce qui se compte et ce qui ne se compte pas",
           texte:
-            "La cuisine est le domaine où le dénombrable et l'indénombrable se heurtent le plus, parce que le même produit change de camp selon sa forme.\n\nBread, rice, pasta, cheese, butter, sugar, salt, water, milk sont indénombrables : pas de pluriel, pas de a. On dit some bread, a lot of rice, much cheese. Pour en compter, il faut une unité : a loaf of bread, a slice of cheese, a grain of rice, a bottle of milk.\n\nApple, egg, potato, onion, tomato sont dénombrables : an apple, three eggs.\n\nCertains basculent selon le sens. Chicken indénombrable, c'est la viande ; a chicken, c'est l'animal entier. Coffee indénombrable, c'est la boisson en général ; two coffees, ce sont deux tasses commandées au comptoir.\n\nLe piège le plus fréquent chez un francophone reste advice, information et news, tous trois indénombrables : some good news, jamais « a good news ».",
+            "La cuisine est le domaine où le dénombrable et l'indénombrable se heurtent le plus, parce que le même produit change de camp selon sa forme.\n\nBread, rice, pasta, cheese, butter, sugar, salt, water, milk sont indénombrables : pas de pluriel, pas de a. On dit some bread, a lot of rice, a lot of cheese — much et many appartiennent surtout aux questions et aux négations. Pour en compter, il faut une unité : a loaf of bread, a slice of cheese, a grain of rice, a bottle of milk.\n\nApple, egg, potato, onion, tomato sont dénombrables : an apple, three eggs.\n\nCertains basculent selon le sens. Chicken indénombrable, c'est la viande ; a chicken, c'est l'animal entier. Coffee indénombrable, c'est la boisson en général ; two coffees, ce sont deux tasses commandées au comptoir.\n\nLe piège le plus fréquent chez un francophone reste advice, information et news, tous trois indénombrables : some good news, jamais « a good news ».",
           visuels: [
             {
               type: "comparaison",
@@ -81,7 +81,7 @@ export const ANGLAIS_VOCABULAIRE_MONDE: LotCartes[] = [
         {
           titre: "Les faux amis de l'assiette",
           texte:
-            "Quelques mots de cuisine ressemblent au français et ne veulent pas dire la même chose. Ce sont ceux qu'on emploie de travers avec assurance.\n\nA course est un plat dans un repas — a three-course meal, un repas en trois plats. Le plat lui-même, l'objet, est a dish, et c'est aussi le nom du mets. Un « cours » de cuisine se dit a class.\n\nA menu est la carte du restaurant, pas la formule. La formule à prix fixe se dit a set menu ou a prix fixe menu.\n\nA librairie n'a rien à voir, mais a receipt non plus : c'est le ticket de caisse. La recette de cuisine est a recipe.\n\nEnfin, entrée est un piège transatlantique complet. Au Royaume-Uni, a starter est l'entrée ; aux États-Unis, an entrée est le plat principal. Commander un entrée à New York en croyant prendre une entrée fait arriver un steak.",
+            "Quelques mots de cuisine ressemblent au français et ne veulent pas dire la même chose. Ce sont ceux qu'on emploie de travers avec assurance.\n\nA course est un plat dans un repas — a three-course meal, un repas en trois plats. Le plat lui-même, l'objet, est a dish, et c'est aussi le nom du mets. Un « cours » de cuisine se dit a class.\n\nA menu est la carte du restaurant, pas la formule. La formule à prix fixe se dit a set menu ou a prix fixe menu.\n\nA library n'est pas une librairie, et a receipt n'est pas une recette : c'est le ticket de caisse. La recette de cuisine est a recipe.\n\nEnfin, entrée est un piège transatlantique complet. Au Royaume-Uni, a starter est l'entrée ; aux États-Unis, an entrée est le plat principal. Commander an entrée à New York en croyant prendre une entrée fait arriver un steak.",
         },
       ],
     },
@@ -144,7 +144,7 @@ export const ANGLAIS_VOCABULAIRE_MONDE: LotCartes[] = [
     category: "Vocabulaire",
     title: "Les vêtements et l'apparence",
     statement:
-      "S'habiller se dit avec quatre verbes différents selon qu'on met, porte, essaie ou enlève. Et la moitié des vêtements anglais ne prennent jamais le singulier.",
+      "S'habiller se dit avec quatre verbes différents selon qu'on met, porte, essaie ou enlève. Et une poignée de vêtements anglais — tout ce qui a deux jambes ou deux verres — ne prennent jamais le singulier.",
     tip: "Trousers, jeans, shorts, glasses sont toujours au pluriel : a pair of trousers pour en compter un seul.",
     difficulty: 1,
     niveau: "A1",
@@ -256,8 +256,8 @@ export const ANGLAIS_VOCABULAIRE_MONDE: LotCartes[] = [
     category: "Vocabulaire",
     title: "La nature, les animaux, le paysage",
     statement:
-      "Un pays où il pleut a vingt mots pour la pluie. L'anglais nomme le temps, le relief et les bêtes avec une précision que le français règle par des adjectifs.",
-    tip: "Les animaux ont souvent trois mots : l'animal, sa viande, et son cri. Pig, pork, grunt. Cow, beef, moo.",
+      "Un pays où il pleut a un mot pour chaque pluie. L'anglais nomme le temps, le relief et les bêtes avec une précision que le français règle par des adjectifs.",
+    tip: "Les animaux ont souvent trois mots : la bête, sa viande, son petit. Cow, beef, calf. Pig, pork, piglet.",
     difficulty: 2,
     niveau: "A2",
     oral: true,
@@ -268,7 +268,7 @@ export const ANGLAIS_VOCABULAIRE_MONDE: LotCartes[] = [
         {
           titre: "L'animal, sa viande, son petit",
           texte:
-            "L'anglais garde deux couches lexicales héritées de 1066 : le mot saxon pour la bête vivante, le mot d'origine française pour la viande servie à table. Le paysan élevait des cows, le seigneur mangeait du beef.\n\nLa liste est courte et vaut la peine d'être sue d'un bloc. Cow donne beef, pig donne pork, sheep donne mutton — ou lamb pour l'agneau —, deer donne venison, calf donne veal. Chicken et fish, plus tardifs, n'ont pas de doublet.\n\nS'y ajoutent les petits, qui ont chacun leur nom : a calf pour la vache, a lamb pour la brebis, a piglet pour la truie, a puppy pour la chienne, a kitten pour la chatte, a foal pour la jument, a chick pour la poule.\n\nEt les collectifs, qui changent selon l'espèce : a herd of cows, a flock of birds, a school of fish, a swarm of bees, a pack of wolves. Le français dit « un troupeau » pour presque tout.",
+            "L'anglais garde deux couches lexicales héritées de 1066 : le mot saxon pour la bête vivante, le mot d'origine française pour la viande servie à table. Le paysan élevait des cows, le seigneur mangeait du beef.\n\nLa liste est courte et vaut la peine d'être sue d'un bloc. Cow donne beef, pig donne pork, sheep donne mutton — ou lamb pour l'agneau —, deer donne venison, calf donne veal. Chicken et fish n'ont pas reçu de doublet français : la bête et le plat s'y disent du même mot.\n\nS'y ajoutent les petits, qui ont chacun leur nom : a calf pour la vache, a lamb pour la brebis, a piglet pour la truie, a puppy pour la chienne, a kitten pour la chatte, a foal pour la jument, a chick pour la poule.\n\nEt les collectifs, qui changent selon l'espèce : a herd of cows, a flock of birds, a school of fish, a swarm of bees, a pack of wolves. Le français dit « un troupeau » pour presque tout.",
           visuels: [
             {
               type: "tableau",
@@ -388,7 +388,7 @@ export const ANGLAIS_VOCABULAIRE_MONDE: LotCartes[] = [
       "Où l'on achète du pain, où l'on poste une lettre, où l'on prend un train. Les lieux d'une ville anglaise, et les prépositions qui les accompagnent sans logique apparente.",
     tip: "L'anglais dit at the bakery pour le lieu et to the baker's pour le commerçant : le 's sous-entend « shop ».",
     difficulty: 1,
-    niveau: "A1",
+    niveau: "A2",
     oral: true,
     parle: true,
     cours: {
@@ -408,7 +408,7 @@ export const ANGLAIS_VOCABULAIRE_MONDE: LotCartes[] = [
                 ["the butcher's shop", "the butcher's", "meat"],
                 ["the pharmacy", "the chemist's", "medicine, toiletries"],
                 ["the post office", "—", "stamps, parcels"],
-                ["the newsagent's", "the newsagent's", "papers, sweets"],
+                ["—", "the newsagent's", "papers, sweets"],
                 ["the hardware shop", "—", "tools, paint"],
                 ["the launderette", "—", "washing machines"],
                 ["the off-licence", "—", "alcohol, GB uniquement"],
@@ -427,7 +427,7 @@ export const ANGLAIS_VOCABULAIRE_MONDE: LotCartes[] = [
               titre: "In ou on, dans les transports",
               colonnes: [
                 {
-                  titre: "ON — on y circule debout",
+                  titre: "ON — ce qu'on enfourche ou circule sans être enfermé",
                   points: [
                     "on the bus, on the train",
                     "on the plane, on a boat",
@@ -435,7 +435,7 @@ export const ANGLAIS_VOCABULAIRE_MONDE: LotCartes[] = [
                   ],
                 },
                 {
-                  titre: "IN — on y est enfermé assis",
+                  titre: "IN — l'habitacle fermé",
                   points: [
                     "in the car",
                     "in a taxi",
@@ -461,7 +461,7 @@ export const ANGLAIS_VOCABULAIRE_MONDE: LotCartes[] = [
       },
       {
         etranger: "The post office closes at five.",
-        francais: "La poste ferme à dix-sept heures.",
+        francais: "La poste ferme à cinq heures.",
         note: "Post office en deux mots. Et l'anglais dit at five, sans « hours ».",
       },
       {

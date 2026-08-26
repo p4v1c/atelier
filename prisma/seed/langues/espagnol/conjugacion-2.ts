@@ -77,7 +77,7 @@ export const ESPAGNOL_CONJUGACION_2: LotCartes[] = [
         {
           titre: "Les expressions avec tener",
           texte:
-            "Tener porte une longue série d'expressions où le français emploie « être », et elles s'apprennent d'un bloc.\n\nLes sensations : tener hambre, sed, frío, calor, sueño, miedo, prisa, cuidado. Toutes se construisent sans article : tengo hambre, jamais « tengo un hambre ».\n\nL'âge : tener veinte años, avec años obligatoire — contrairement au français qui peut dire « il a vingt ans » mais aussi « il est âgé de vingt ans ».\n\nLe jugement : tener razón, avoir raison ; no tener razón, avoir tort ; tener suerte, avoir de la chance ; tener ganas de, avoir envie de.\n\nDeux constructions méritent une mention. Tener que + infinitif dit l'obligation personnelle : tengo que estudiar. Et tener + participe passé accordé dit le résultat accumulé : tengo escritas tres cartas, j'ai trois lettres d'écrites — le participe s'accorde ici, contrairement à haber escrito.\n\nEnfin, la modulation par le degré : tengo mucha hambre, avec mucho accordé — mucha, parce que hambre est féminin malgré son article el.",
+            "Tener porte une longue série d'expressions où le français emploie « être », et elles s'apprennent d'un bloc.\n\nLes sensations : tener hambre, sed, frío, calor, sueño, miedo, prisa, cuidado. Toutes se construisent sans article : tengo hambre, jamais « tengo un hambre ».\n\nL'âge : tener veinte años, avec años obligatoire — contrairement au français qui peut dire « il a vingt ans » mais aussi « il est âgé de vingt ans ».\n\nLe jugement : tener razón, avoir raison ; no tener razón, avoir tort ; tener suerte, avoir de la chance ; tener ganas de, avoir envie de.\n\nUne construction mérite une mention à part : tener que + infinitif dit l'obligation personnelle, tengo que estudiar — à ne pas confondre avec hay que, l'obligation impersonnelle.\n\nEnfin, la modulation par le degré : tengo mucha hambre, avec mucho accordé — mucha, parce que hambre est féminin malgré son article el.",
         },
       ],
     },
@@ -270,7 +270,7 @@ export const ESPAGNOL_CONJUGACION_2: LotCartes[] = [
       "Escrito, dicho, hecho, puesto. Une douzaine de participes irréguliers, et une règle d'accord qui dépend entièrement de l'auxiliaire employé.",
     tip: "Après haber, le participe ne s'accorde jamais : hemos escrito las cartas. Après ser, estar ou tener, il s'accorde toujours.",
     difficulty: 2,
-    niveau: "A2",
+    niveau: "B1",
     oral: true,
     parle: true,
     cours: {
@@ -286,9 +286,11 @@ export const ESPAGNOL_CONJUGACION_2: LotCartes[] = [
               titre: "Les douze participes irréguliers",
               colonnes: ["L'infinitif", "Le participe", "Composés courants"],
               lignes: [
-                ["abrir", "abierto", "cubrir → cubierto"],
+                ["abrir", "abierto", "—"],
+                ["cubrir", "cubierto", "descubrir → descubierto"],
                 ["decir", "dicho", "predecir → predicho"],
                 ["escribir", "escrito", "describir → descrito"],
+                ["freír", "frito", "—"],
                 ["hacer", "hecho", "deshacer → deshecho"],
                 ["morir", "muerto", "—"],
                 ["poner", "puesto", "componer → compuesto"],
@@ -332,7 +334,7 @@ export const ESPAGNOL_CONJUGACION_2: LotCartes[] = [
         {
           titre: "Les temps composés, et leur emploi",
           texte:
-            "Haber + participe forme cinq temps, et le partage entre eux diffère nettement du français.\n\nLe pretérito perfecto — he comido — correspond à notre passé composé, mais son emploi est plus restreint : il ne s'utilise que pour une période qui n'est pas close. Hoy he comido, esta semana he trabajado mucho, este año hemos viajado. Dès que la période est close — ayer, la semana pasada, en 2019 — l'espagnol d'Espagne passe au passé simple : ayer comí.\n\nEn Amérique latine, le passé simple a presque entièrement mangé le passé composé : on y dit hoy comí sans que cela choque.\n\nLe pluscuamperfecto — había comido — dit l'antériorité dans le passé, exactement comme notre plus-que-parfait.\n\nLe futuro perfecto — habré comido — dit l'action achevée avant un point futur, et sert aussi à supposer sur le passé : habrá salido ya, il doit être déjà sorti.\n\nLe condicional compuesto — habría comido — dit l'hypothèse non réalisée.\n\nEt le subjonctif composé — haya comido, hubiera comido — suit la concordance des temps.",
+            "Haber + participe forme les temps composés, dont deux sont d'un usage vraiment courant.\n\nLe pretérito perfecto — he comido — correspond à notre passé composé, mais son emploi est plus restreint : il ne s'utilise que pour une période qui n'est pas close. Hoy he comido, esta semana he trabajado mucho, este año hemos viajado. Dès que la période est close — ayer, la semana pasada, en 2019 — l'espagnol d'Espagne passe au passé simple : ayer comí.\n\nEn Amérique latine, le passé simple a presque entièrement mangé le passé composé : on y dit hoy comí sans que cela choque.\n\nLe pluscuamperfecto — había comido — dit l'antériorité dans le passé, exactement comme notre plus-que-parfait.\n\nLes autres temps composés — futuro perfecto, condicional compuesto, subjonctif composé — se construisent sur le même modèle et sont traités dans le cours sur l'antériorité.",
         },
       ],
     },
@@ -466,7 +468,7 @@ export const ESPAGNOL_CONJUGACION_2: LotCartes[] = [
       },
       {
         etranger: "Salgo del trabajo a las seis.",
-        francais: "Je sors du travail à dix-huit heures.",
+        francais: "Je sors du travail à six heures.",
         note: "Salir est un verbe en -go, et son subjonctif suit : salga.",
       },
       {
@@ -528,7 +530,7 @@ export const ESPAGNOL_CONJUGACION_2: LotCartes[] = [
               lignes: [
                 ["dormir — dormir", "dormirse — s'endormir", "passage à l'état"],
                 ["ir — aller", "irse — partir", "l'éloignement"],
-                ["quedar — rester (convenir)", "quedarse — rester (demeurer)", "sens différent"],
+                ["quedar — se donner rendez-vous", "quedarse — rester", "sens différent"],
                 ["llevar — porter", "llevarse — emporter", "l'éloignement"],
                 ["poner — poser", "ponerse — se mettre, devenir", "changement d'état"],
                 ["acordar — décider", "acordarse de — se souvenir", "sens différent"],
@@ -542,31 +544,7 @@ export const ESPAGNOL_CONJUGACION_2: LotCartes[] = [
         {
           titre: "Où se place le pronom",
           texte:
-            "La position du pronom obéit à trois règles fixes, et il n'y a pas d'exception.\n\nDevant un verbe conjugué : me levanto, se fue, nos vimos. La négation passe encore devant : no me levanto.\n\nCollé à un infinitif, à un gérondif ou à un impératif affirmatif : levantarse, levantándose, levántate. Le pronom fait alors corps avec le verbe, et un accent écrit apparaît souvent pour préserver l'accentuation.\n\nAvec une périphrase — auxiliaire plus infinitif ou gérondif — les deux positions sont admises et strictement équivalentes : me voy a levantar ou voy a levantarme ; se está duchando ou está duchándose.\n\nÀ l'impératif négatif, le pronom repasse devant : no te levantes, jamais « no levántate ».\n\nDeux détails d'orthographe. À la première personne du pluriel de l'impératif, le s tombe devant nos : levantémonos, jamais « levantémosnos ». Et à la deuxième du pluriel, le d tombe devant os : levantaos, jamais « levantados » — sauf pour irse, qui garde son d : idos.",
-          visuels: [
-            {
-              type: "comparaison",
-              titre: "Devant ou collé",
-              colonnes: [
-                {
-                  titre: "Devant — verbe conjugué",
-                  points: [
-                    "Me levanto a las siete.",
-                    "No te preocupes.",
-                    "Se fueron temprano.",
-                  ],
-                },
-                {
-                  titre: "Collé — infinitif, gérondif, impératif",
-                  points: [
-                    "Voy a levantarme.",
-                    "Está duchándose.",
-                    "¡Levántate!",
-                  ],
-                },
-              ],
-            },
-          ],
+            "Le pronom réfléchi suit exactement la même règle de position que les autres pronoms compléments, détaillée dans le cours sur les pronoms : devant le verbe conjugué, collé à l'infinitif, au gérondif et à l'impératif affirmatif — me levanto, levantarse, ¡levántate!\n\nDeux détails d'orthographe sont propres aux verbes pronominaux. À la première personne du pluriel de l'impératif, le s tombe devant nos : levantémonos, jamais « levantémosnos ». Et à la deuxième du pluriel, le d tombe devant os : levantaos, jamais « levantados » — sauf pour irse, qui garde son d : idos.",
         },
         {
           titre: "Le se de l'accident, et le datif éthique",
@@ -824,7 +802,7 @@ export const ESPAGNOL_CONJUGACION_2: LotCartes[] = [
         {
           titre: "L'antériorité au futur et à l'hypothèse",
           texte:
-            "Deux autres formes composées disent l'antériorité, dans d'autres domaines temporels.\n\nEl futuro perfecto — habré terminado — dit qu'une action sera achevée avant un point futur : para el viernes habré terminado el informe. Le français dit exactement la même chose avec le futur antérieur.\n\nMais il a un second emploi, plus fréquent et propre à l'espagnol : la supposition sur un passé proche. Habrá salido ya, il doit être déjà sorti. ¿Qué le habrá pasado?, que peut-il bien lui être arrivé ? C'est le pendant du futur de probabilité pour le passé.\n\nEl condicional compuesto — habría terminado — dit l'hypothèse non réalisée : habría venido si me lo hubieras dicho. Il forme couple avec le plus-que-parfait du subjonctif.\n\nEt il sert lui aussi à supposer, mais sur un passé plus lointain : serían las tres cuando llegó, il devait être trois heures quand il est arrivé.\n\nCette symétrie — futur pour supposer sur le présent, futur composé pour le passé proche, conditionnel pour supposer sur le passé — n'a pas d'équivalent en français, et elle est l'une des élégances de l'espagnol.",
+            "Deux autres formes composées disent l'antériorité, dans d'autres domaines temporels.\n\nEl futuro perfecto — habré terminado — dit qu'une action sera achevée avant un point futur : para el viernes habré terminado el informe. Le français dit exactement la même chose avec le futur antérieur.\n\nMais il a un second emploi, plus fréquent et propre à l'espagnol : la supposition sur un passé proche. Habrá salido ya, il doit être déjà sorti. ¿Qué le habrá pasado?, que peut-il bien lui être arrivé ? C'est le pendant du futur de probabilité pour le passé.\n\nEl condicional compuesto — habría terminado — dit l'hypothèse non réalisée : habría venido si me lo hubieras dicho. Il forme couple avec le plus-que-parfait du subjonctif.\n\nEt il sert lui aussi à supposer, sur un passé plus lointain que celui du futur composé : habrían salido ya cuando llamaste, ils devaient déjà être partis quand tu as appelé.\n\nCette symétrie — futur pour supposer sur le présent, futur composé pour le passé proche, conditionnel pour supposer sur le passé — n'a pas d'équivalent en français, et elle est l'une des élégances de l'espagnol.",
         },
       ],
     },

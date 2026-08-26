@@ -3,9 +3,11 @@
  *
  * Ce qui sépare un bon B2 d'un C1 n'est presque jamais du vocabulaire : c'est
  * l'ORDRE DES MOTS. L'anglais avancé déplace, inverse, découpe la phrase pour
- * mettre en relief — et ces trois procédés, l'inversion, la phrase clivée et la
- * gestion des temps du récit, ne s'enseignent nulle part dans les manuels
- * courants parce qu'ils ne sont jamais obligatoires.
+ * mettre en relief — et deux de ces trois procédés, l'inversion et la phrase
+ * clivée, ne s'enseignent presque nulle part dans les manuels courants parce
+ * qu'ils ne sont jamais obligatoires. Les temps du récit, eux, sont un B2
+ * classique : on les regroupe ici parce qu'ils relèvent du même principe
+ * (l'ordre plutôt que le mot).
  *
  * On peut parler anglais toute sa vie sans les employer. On ne peut pas écrire
  * un texte qui sonne juste sans eux.
@@ -120,7 +122,7 @@ export const ANGLAIS_GRAMMAIRE_C1: LotCartes[] = [
         note: "No sooner appelle than, jamais when. La structure est figée.",
       },
       {
-        etranger: "Not only did he lie, he also stole.",
+        etranger: "Not only did he lie, but he also stole.",
         francais: "Non seulement il a menti, mais il a volé.",
         note: "Not only en tête inverse. La seconde proposition, elle, reste en ordre normal.",
       },
@@ -174,7 +176,7 @@ export const ANGLAIS_GRAMMAIRE_C1: LotCartes[] = [
         {
           titre: "Pourquoi découper",
           texte:
-            "L'anglais parlé insiste par l'accent tonique : I saw JOHN. Mais l'écrit n'a pas d'accent tonique, et l'ordre des mots y est trop rigide pour déplacer librement. D'où le clivage — couper la phrase en deux pour mettre un élément dans le projecteur.\n\nDeux moules existent. Le clivage en it : It was John who broke it. Le clivage en what, dit pseudo-clivé : What I need is time.\n\nLe français connaît le premier — « C'est Jean qui l'a cassé » — et l'emploie même davantage. Il ne connaît pas vraiment le second : « Ce dont j'ai besoin, c'est du temps » existe mais reste lourd, là où l'anglais l'emploie couramment, y compris à l'oral.\n\nL'enjeu n'est donc pas la compréhension : un francophone comprend ces phrases sans effort. L'enjeu est la production. Ne jamais cliver donne un anglais plat, où rien n'est mis en avant, et où le lecteur doit deviner ce qui compte.",
+            "L'anglais parlé insiste par l'accent tonique : I saw JOHN. Mais l'écrit n'a pas d'accent tonique, et l'ordre des mots y est trop rigide pour déplacer librement. D'où le clivage — couper la phrase en deux pour mettre un élément dans le projecteur.\n\nDeux moules existent. Le clivage en it : It was John who broke it. Le clivage en what, dit pseudo-clivé : What I need is time.\n\nLe français connaît le premier — « C'est John qui l'a cassé » — et l'emploie même davantage. Il ne connaît pas vraiment le second : « Ce dont j'ai besoin, c'est du temps » existe mais reste lourd, là où l'anglais l'emploie couramment, y compris à l'oral.\n\nL'enjeu n'est donc pas la compréhension : un francophone comprend ces phrases sans effort. L'enjeu est la production. Ne jamais cliver donne un anglais plat, où rien n'est mis en avant, et où le lecteur doit deviner ce qui compte.",
           visuels: [
             {
               type: "tableau",
@@ -193,7 +195,7 @@ export const ANGLAIS_GRAMMAIRE_C1: LotCartes[] = [
         {
           titre: "Le clivage en it",
           texte:
-            "La formule est It + be + élément mis en avant + who ou that + le reste.\n\nOn peut y mettre presque tout : le sujet — It was John who called ; le complément — It was the car that he sold ; un circonstanciel — It was on Tuesday that we met. Le verbe seul fait exception : on ne clive pas un verbe avec ce moule.\n\nLe temps de be s'accorde avec celui de la phrase d'origine : It is John who calls every day, It was John who called yesterday. Un francophone laisse souvent is par inadvertance, ce qui casse la concordance.\n\nDeux emplois dominent. Corriger : It wasn't me who said that. Et opposer : It was the delay, not the price, that killed the deal.\n\nÀ noter enfin que la négation se place sur be et non sur le verbe principal : It wasn't John who broke it, jamais « It was John who didn't break it », qui dit tout autre chose.",
+            "La formule est It + be + élément mis en avant + who ou that + le reste.\n\nOn peut y mettre presque tout : le sujet — It was John who called ; le complément — It was the car that he sold ; un circonstanciel — It was on Tuesday that we met. Le verbe seul fait exception : on ne clive pas un verbe avec ce moule.\n\nLe temps de be s'accorde avec celui de la phrase d'origine : It is John who calls every day, It was John who called yesterday. Un francophone laisse souvent is par inadvertance, ce qui casse la concordance.\n\nDeux emplois dominent. Corriger : It wasn't me who said that. Et opposer : It was the delay, not the price, that killed the deal.\n\nLa négation se place sur be : It wasn't John who broke it. Mettre la négation sur le verbe de la relative — It was John who didn't break it — est correct mais dit tout autre chose : c'est lui, et lui seul, qui ne l'a pas cassé.",
           visuels: [
             {
               type: "comparaison",
@@ -202,8 +204,8 @@ export const ANGLAIS_GRAMMAIRE_C1: LotCartes[] = [
                 {
                   titre: "Ce qu'on veut dire",
                   points: [
-                    "Ce n'est pas Jean qui l'a cassé.",
-                    "C'est Jean qui ne l'a pas cassé.",
+                    "Ce n'est pas John qui l'a cassé.",
+                    "C'est John qui ne l'a pas cassé.",
                   ],
                 },
                 {
@@ -247,7 +249,7 @@ export const ANGLAIS_GRAMMAIRE_C1: LotCartes[] = [
     cartes: [
       {
         etranger: "It was John who broke it.",
-        francais: "C'est Jean qui l'a cassé.",
+        francais: "C'est John qui l'a cassé.",
         note: "Who pour une personne, that pour le reste. Le temps de be suit celui de la phrase.",
       },
       {
@@ -338,7 +340,7 @@ export const ANGLAIS_GRAMMAIRE_C1: LotCartes[] = [
           visuels: [
             {
               type: "comparaison",
-              titre: "Deux histoires, une virgule d'écart",
+              titre: "Deux histoires, un auxiliaire d'écart",
               colonnes: [
                 {
                   titre: "When I arrived, she left.",
@@ -486,7 +488,7 @@ export const ANGLAIS_GRAMMAIRE_C1: LotCartes[] = [
       },
       {
         etranger: "The vote passed with three abstentions.",
-        francais: "Le vote a été adopté avec trois abstentions.",
+        francais: "La motion a été adoptée avec trois abstentions.",
         note: "A vote passes ou fails. An abstention est un vote qui ne compte ni pour ni contre.",
       },
       {
@@ -666,7 +668,7 @@ export const ANGLAIS_GRAMMAIRE_C1: LotCartes[] = [
       {
         etranger: "Please find the report attached.",
         francais: "Veuillez trouver le rapport ci-joint.",
-        note: "Formule figée du courriel professionnel. Here's the report est plus naturel entre collègues.",
+        note: "Please find attached reste la formule figée des courriers formels ; the report is attached et here's the report sont les formes courantes du courriel de travail.",
       },
       {
         etranger: "The decision was subsequently reversed.",
@@ -722,7 +724,8 @@ export const ANGLAIS_GRAMMAIRE_C1: LotCartes[] = [
       {
         etranger: "I only saw her on Tuesday.",
         francais: "Je ne l'ai vue que mardi.",
-        note: "Only devant le verbe porte sur toute la phrase et reste ambigu. Le déplacer lève le doute.",
+        aussiEtranger: ["I saw her only on Tuesday."],
+        note: "Only devant le verbe porte sur toute la phrase et reste ambigu ; placé juste devant on Tuesday, il ne porte plus que sur le jour.",
       },
       {
         etranger: "I saw only her on Tuesday.",
@@ -742,9 +745,10 @@ export const ANGLAIS_GRAMMAIRE_C1: LotCartes[] = [
         note: "Le complément peut porter sur le verbe ou sur le nom. Ambiguïté classique.",
       },
       {
-        etranger: "They can't hear well enough.",
-        francais: "Ils n'entendent pas assez bien.",
-        note: "Can't se prononce autrement en anglais britannique et américain : la confusion avec can est fréquente.",
+        etranger: "The old men and women left.",
+        francais: "Les vieux hommes et les femmes sont partis.",
+        aussi: ["Les hommes et les femmes âgés sont partis."],
+        note: "Old porte sur men seul, ou sur l'ensemble men and women. L'ambiguïté ne se résout pas non plus à l'oral.",
       },
       {
         etranger: "Flying planes can be dangerous.",
@@ -758,10 +762,10 @@ export const ANGLAIS_GRAMMAIRE_C1: LotCartes[] = [
         note: "La négation porte sur le verbe ou sur la cause. À l'écrit, on lève le doute par une virgule.",
       },
       {
-        etranger: "Visiting relatives can be tiring.",
-        francais: "Rendre visite à sa famille peut être fatigant.",
-        aussi: ["Recevoir de la famille peut être fatigant."],
-        note: "Même structure que flying planes, et même double lecture.",
+        etranger: "I saw her duck.",
+        francais: "Je l'ai vue se baisser.",
+        aussi: ["J'ai vu son canard."],
+        note: "Duck est un verbe (se baisser) ou un nom (le canard). L'ambiguïté est lexicale, pas grammaticale comme flying planes.",
       },
       {
         etranger: "We must review all the data carefully.",

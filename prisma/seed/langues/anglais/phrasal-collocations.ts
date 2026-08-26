@@ -249,9 +249,9 @@ export const ANGLAIS_PHRASAL_COLLOCATIONS: LotCartes[] = [
         note: "Point out, signaler. Plus neutre que note ou observe.",
       },
       {
-        etranger: "We cannot rule out an error.",
-        francais: "Nous ne pouvons exclure une erreur.",
-        note: "Rule out, écarter une hypothèse. Le contraire, rule in, ne se dit pratiquement pas.",
+        etranger: "The delay stems from a supplier issue.",
+        francais: "Le retard découle d'un problème fournisseur.",
+        note: "Stem from, découler de. Verbe à particule de l'écrit savant, au sens propre : la tige d'où vient la cause.",
       },
       {
         etranger: "The results bear out the hypothesis.",
@@ -342,9 +342,9 @@ export const ANGLAIS_PHRASAL_COLLOCATIONS: LotCartes[] = [
         note: "Make sense, avoir du sens. La formule est figée et très employée.",
       },
       {
-        etranger: "She gave me a hand.",
-        francais: "Elle m'a donné un coup de main.",
-        note: "Give someone a hand. Le français et l'anglais emploient ici la même image.",
+        etranger: "I'll give the gym a miss today.",
+        francais: "Je vais faire l'impasse sur la salle de sport aujourd'hui.",
+        note: "Give something a miss, familier : renoncer à une chose prévue.",
       },
       {
         etranger: "We did the dishes together.",
@@ -380,7 +380,7 @@ export const ANGLAIS_PHRASAL_COLLOCATIONS: LotCartes[] = [
       {
         etranger: "He made a full recovery.",
         francais: "Il s'est complètement rétabli.",
-        note: "Make a full recovery. Complete recovery se dit aussi, total jamais.",
+        note: "Make a full recovery : full est la collocation attendue. Complete passe, total se remarque.",
       },
       {
         etranger: "It was a narrow escape.",

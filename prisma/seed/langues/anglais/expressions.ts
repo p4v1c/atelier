@@ -43,14 +43,14 @@ export const ANGLAIS_EXPRESSIONS: LotCartes[] = [
                 ["reformuler", "so you're saying that…", "pour vérifier qu'on a compris"],
                 ["couper court", "anyway, right then, I'd better go", "pour finir"],
               ],
-              note: "Pardon ? est américain, sorry ? britannique. What ? seul passe pour brusque dans les deux.",
+              note: "Pardon? est américain, sorry? britannique. What? seul passe pour brusque dans les deux.",
             },
           ],
         },
         {
           titre: "Faire répéter sans se vexer ni vexer",
           texte:
-            "C'est la situation la plus fréquente et la plus mal gérée. Un apprenant qui n'a pas compris se tait, hoche la tête, et perd la conversation entière.\n\nLes formules existent, et elles sont graduées.\n\nLa plus neutre : sorry ? avec une intonation montante. Elle suffit dans la plupart des cas. Come again ? est plus familière ; say that again ? aussi.\n\nQuand c'est le débit : could you speak a bit more slowly, please ? Quand c'est un mot précis : sorry, what does « redundancy » mean ? — demander le mot est bien plus efficace que demander toute la phrase.\n\nQuand on a compris à moitié, la meilleure formule est la reformulation : so you're saying we should wait ? Elle montre où est le trou, et l'interlocuteur corrige exactement le point manquant.\n\nDeux choses à éviter. What ? seul, qui sonne brusque dans les deux variantes. Et je-ne-comprends-pas répété : I don't understand n'indique pas quoi reprendre, et l'interlocuteur ne peut que répéter à l'identique, ce qui ne sert à rien.\n\nUne dernière formule sauve souvent la mise : I'm not sure I follow — je ne suis pas sûr de suivre. Elle est polie, elle est vague, et elle invite à reprendre autrement.",
+            "C'est la situation la plus fréquente et la plus mal gérée. Un apprenant qui n'a pas compris se tait, hoche la tête, et perd la conversation entière.\n\nLes formules existent, et elles sont graduées.\n\nLa plus neutre : sorry? avec une intonation montante. Elle suffit dans la plupart des cas. Come again? est plus familière ; say that again? aussi.\n\nQuand c'est le débit : could you speak a bit more slowly, please? Quand c'est un mot précis : sorry, what does « redundancy » mean? — demander le mot est bien plus efficace que demander toute la phrase.\n\nQuand on a compris à moitié, la meilleure formule est la reformulation : so you're saying we should wait? Elle montre où est le trou, et l'interlocuteur corrige exactement le point manquant.\n\nDeux choses à éviter. What? seul, qui sonne brusque dans les deux variantes. Et je-ne-comprends-pas répété : I don't understand n'indique pas quoi reprendre, et l'interlocuteur ne peut que répéter à l'identique, ce qui ne sert à rien.\n\nUne dernière formule sauve souvent la mise : I'm not sure I follow — je ne suis pas sûr de suivre. Elle est polie, elle est vague, et elle invite à reprendre autrement.",
           visuels: [
             {
               type: "comparaison",
@@ -243,7 +243,8 @@ export const ANGLAIS_EXPRESSIONS: LotCartes[] = [
       },
       {
         etranger: "I'm afraid I can't make Tuesday.",
-        francais: "Je crains de ne pas pouvoir mardi.",
+        francais: "Malheureusement, je ne peux pas mardi.",
+        aussi: ["Je suis désolé, mardi ne me va pas."],
         note: "I'm afraid ouvre le refus. Sans regret initial, la phrase paraît sèche.",
       },
       {
@@ -281,7 +282,7 @@ export const ANGLAIS_EXPRESSIONS: LotCartes[] = [
         {
           titre: "La surprise et l'incrédulité",
           texte:
-            "L'anglais a plus de formules de surprise que le français, et elles se gradent.\n\nPour la surprise ordinaire : really ? oh right ? is that so ? Elles marquent l'intérêt sans engager grand-chose.\n\nPour la surprise forte : you're kidding, you're joking, no way, seriously ? get out of here — cette dernière très américaine et purement incrédule, elle ne demande à personne de sortir.\n\nPour la stupéfaction : I can't believe it, that's incredible, well I never — cette dernière vieillie et britannique, employée aujourd'hui avec une pointe d'ironie.\n\nPour la mauvaise surprise : oh no, that's awful, what a shame, that's rotten luck.\n\nUne remarque de registre : les jurons anglais couvrent une large part de ce terrain, et leur force varie beaucoup entre les deux rives. Bloody est modéré au Royaume-Uni et incompris aux États-Unis ; certains mots courants dans une conversation britannique entre amis sont franchement offensants ailleurs. La prudence consiste à les reconnaître sans les employer tant qu'on ne maîtrise pas le contexte.\n\nEnfin, une formule utile pour amortir une mauvaise nouvelle qu'on annonce : you might want to sit down for this.",
+            "L'anglais a plus de formules de surprise que le français, et elles s'échelonnent.\n\nPour la surprise ordinaire : really? oh right? is that so? Elles marquent l'intérêt sans engager grand-chose.\n\nPour la surprise forte : you're kidding, you're joking, no way, seriously? get out of here — cette dernière très américaine et purement incrédule, elle ne demande à personne de sortir.\n\nPour la stupéfaction : I can't believe it, that's incredible, well I never — cette dernière vieillie et britannique, employée aujourd'hui avec une pointe d'ironie.\n\nPour la mauvaise surprise : oh no, that's awful, what a shame, that's rotten luck.\n\nUne remarque de registre : les jurons anglais couvrent une large part de ce terrain, et leur force varie beaucoup entre les deux rives. Bloody est modéré au Royaume-Uni et pratiquement inemployé aux États-Unis, où il sonne aussitôt britannique ; certains mots courants dans une conversation britannique entre amis sont franchement offensants ailleurs. La prudence consiste à les reconnaître sans les employer tant qu'on ne maîtrise pas le contexte.\n\nEnfin, une formule utile pour amortir une mauvaise nouvelle qu'on annonce : you might want to sit down for this.",
           visuels: [
             {
               type: "tableau",
@@ -304,7 +305,7 @@ export const ANGLAIS_EXPRESSIONS: LotCartes[] = [
         {
           titre: "L'agacement, et la façon anglaise de le dire",
           texte:
-            "C'est le domaine où l'écart culturel est le plus grand. Le français exprime volontiers l'agacement de front ; l'anglais, surtout britannique, le fait passer par l'euphémisme, l'ironie ou une formule figée.\n\nLes formules directes existent : for goodness' sake, honestly, this is ridiculous, I've had enough. Elles sont fortes.\n\nMais l'agacement courant passe plutôt par la litote : that's not ideal, this is a bit much, I'm not thrilled about it, that's rather inconvenient. Un francophone les prend pour des remarques tièdes ; ce sont des reproches.\n\nIl passe aussi par la question rhétorique : are you serious ? is this a joke ? do you have any idea how long I've been waiting ?\n\nEt par le soupir verbalisé : oh, come on. Cette formule à elle seule couvre l'incrédulité, l'agacement et la protestation, selon l'intonation.\n\nDeux formules de résignation ferment souvent la séquence : never mind, qui range l'affaire, et it is what it is, très employée depuis une vingtaine d'années — elle accepte sans approuver, et sert d'issue quand il n'y a plus rien à dire.",
+            "C'est le domaine où l'écart culturel est le plus grand. Le français exprime volontiers l'agacement de front ; l'anglais, surtout britannique, le fait passer par l'euphémisme, l'ironie ou une formule figée.\n\nLes formules directes existent : for goodness' sake, honestly, this is ridiculous, I've had enough. Elles sont fortes.\n\nMais l'agacement courant passe plutôt par la litote : that's not ideal, this is a bit much, I'm not thrilled about it, that's rather inconvenient. Un francophone les prend pour des remarques tièdes ; ce sont des reproches.\n\nIl passe aussi par la question rhétorique : are you serious? is this a joke? do you have any idea how long I've been waiting?\n\nEt par le soupir verbalisé : oh, come on. Cette formule à elle seule couvre l'incrédulité, l'agacement et la protestation, selon l'intonation.\n\nDeux formules de résignation ferment souvent la séquence : never mind, qui range l'affaire, et it is what it is, très employée depuis une vingtaine d'années — elle accepte sans approuver, et sert d'issue quand il n'y a plus rien à dire.",
           visuels: [
             {
               type: "comparaison",
@@ -450,7 +451,7 @@ export const ANGLAIS_EXPRESSIONS: LotCartes[] = [
                   points: [
                     "L'habit ne fait pas le moine.",
                     "L'avenir appartient à ceux qui se lèvent tôt.",
-                    "Le temps paraît long à qui attend.",
+                    "— pas d'équivalent français pour a watched pot never boils.",
                   ],
                 },
               ],
@@ -501,13 +502,14 @@ export const ANGLAIS_EXPRESSIONS: LotCartes[] = [
         note: "L'un des rares proverbes que les deux langues partagent mot pour mot.",
       },
       {
-        etranger: "If it isn't broken, don't fix it.",
+        etranger: "If it ain't broke, don't fix it.",
         francais: "Si ça marche, n'y touche pas.",
-        note: "La forme courante garde un ain't fautif : if it ain't broke, don't fix it.",
+        note: "La forme figée garde un ain't fautif : c'est ainsi qu'elle se dit, jamais « if it isn't broken ».",
       },
       {
         etranger: "You can't have it both ways.",
-        francais: "Il faut choisir.",
+        francais: "On ne peut pas avoir le beurre et l'argent du beurre.",
+        aussi: ["Il faut choisir."],
         note: "Reproche de vouloir deux choses incompatibles. Voisine de have your cake and eat it.",
       },
       {
@@ -604,7 +606,7 @@ export const ANGLAIS_EXPRESSIONS: LotCartes[] = [
       },
       {
         etranger: "He was gutted about the news.",
-        francais: "Il était effondré par la nouvelle.",
+        francais: "Il était atterré par la nouvelle.",
         note: "Gutted : très déçu. L'équivalent américain est bummed.",
       },
       {
@@ -638,8 +640,8 @@ export const ANGLAIS_EXPRESSIONS: LotCartes[] = [
         note: "Gobsmacked, très britannique. Floored est l'équivalent américain.",
       },
       {
-        etranger: "Give me a shout if you need anything.",
-        francais: "Fais-moi signe si tu as besoin de quoi que ce soit.",
+        etranger: "Give me a shout when you're ready.",
+        francais: "Fais-moi signe quand tu es prêt.",
         note: "Give someone a shout : informel neutre, très employé au travail.",
       },
     ],

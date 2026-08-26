@@ -19,7 +19,7 @@ export const ANGLAIS_VOCABULAIRE_VIE: LotCartes[] = [
     category: "Vocabulaire",
     title: "Le sport et l'effort",
     statement:
-      "Play, do ou go : l'anglais choisit le verbe selon le sport, et il n'y a pas de logique à deviner. On play du football, on does du yoga, on goes swimming.",
+      "Play, do ou go : l'anglais choisit le verbe selon le sport, et il n'y a pas de logique à deviner. On dit play football, do yoga, go swimming.",
     tip: "Play pour les sports d'équipe et de balle, go pour ceux qui finissent en -ing, do pour le reste. Se tromper de verbe s'entend immédiatement.",
     difficulty: 2,
     niveau: "B1",
@@ -68,7 +68,7 @@ export const ANGLAIS_VOCABULAIRE_VIE: LotCartes[] = [
       {
         etranger: "He is training for a marathon.",
         francais: "Il s'entraîne pour un marathon.",
-        note: "Train for something. Le verbe est intransitif ici : on ne « s'entraîne » pas soi-même en anglais.",
+        note: "Train for something, sans pronom : l'anglais n'a pas de forme réfléchie ici.",
       },
       {
         etranger: "She beat the record by two seconds.",
@@ -90,7 +90,7 @@ export const ANGLAIS_VOCABULAIRE_VIE: LotCartes[] = [
     title: "Se déplacer",
     statement:
       "Take, catch, miss, get on, get off. Le verbe change selon qu'on choisit son transport, qu'on l'attrape de justesse ou qu'on y monte — et le français dit « prendre » pour les trois.",
-    tip: "Take dit le trajet, catch dit qu'on l'a eu de peu. On get on un bus ou un train, on get in une voiture : le critère est de savoir si l'on peut s'y tenir debout.",
+    tip: "Take dit le trajet, catch dit qu'on l'a eu de peu. On pour ce qu'on enfourche ou ce dans quoi on circule sans être enfermé — on the bus, on the train, on my bike ; in pour l'habitacle fermé — in the car, in a taxi.",
     difficulty: 2,
     niveau: "B1",
     oral: true,
@@ -152,6 +152,16 @@ export const ANGLAIS_VOCABULAIRE_VIE: LotCartes[] = [
         aussi: ["Il m'a emmené à la gare en voiture."],
         note: "Give someone a lift en anglais britannique, a ride en américain.",
       },
+      {
+        etranger: "I missed the last train.",
+        francais: "J'ai raté le dernier train.",
+        note: "Miss, rater un transport de justesse. Le contraire de catch.",
+      },
+      {
+        etranger: "Get on at the front.",
+        francais: "Montez à l'avant.",
+        note: "Get on, monter dans un bus ou un train ; get off, en descendre.",
+      },
     ],
   },
 
@@ -209,14 +219,14 @@ export const ANGLAIS_VOCABULAIRE_VIE: LotCartes[] = [
       {
         etranger: "He resat the exam in September.",
         francais: "Il a repassé l'examen en septembre.",
-        aussi: ["Il a redoublé l'examen en septembre."],
+        aussi: ["Il a repassé l'épreuve en septembre."],
         note: "Resit, repasser une épreuve. Le nom se dit a resit.",
       },
       {
         etranger: "Attendance is compulsory.",
         francais: "La présence est obligatoire.",
         aussi: ["L'assiduité est obligatoire."],
-        note: "Compulsory en anglais britannique, mandatory ailleurs. Attendance, la présence effective.",
+        note: "Compulsory est le mot de l'école et de l'administration britanniques ; mandatory, plus juridique, s'emploie des deux côtés. Attendance, la présence effective.",
       },
       {
         etranger: "I applied for a scholarship.",
@@ -232,7 +242,7 @@ export const ANGLAIS_VOCABULAIRE_VIE: LotCartes[] = [
     category: "Vocabulaire",
     title: "La famille et les liens",
     statement:
-      "In-law, step-, half-, great-. L'anglais compose ses liens de parenté avec quatre préfixes, là où le français change de mot ou tourne autour.",
+      "In-law, step-, half-, great-. L'anglais compose ses liens de parenté avec trois préfixes et un suffixe, là où le français change de mot ou tourne autour.",
     tip: "-in-law pour l'alliance, step- pour la recomposition, half- pour un seul parent commun, great- pour chaque génération d'écart.",
     difficulty: 2,
     niveau: "B1",
@@ -245,9 +255,9 @@ export const ANGLAIS_VOCABULAIRE_VIE: LotCartes[] = [
         note: "-in-law dit l'alliance. Le pluriel se met sur le premier mot : sisters-in-law.",
       },
       {
-        etranger: "He gets on well with his stepfather.",
-        francais: "Il s'entend bien avec son beau-père.",
-        note: "Step- pour la famille recomposée, -in-law pour celle du conjoint. Le français dit « beau-père » pour les deux.",
+        etranger: "My stepmother lives in Bristol.",
+        francais: "Ma belle-mère habite à Bristol.",
+        note: "Step- pour la famille recomposée, -in-law pour celle du conjoint. Le français dit « belle-mère » pour les deux.",
       },
       {
         etranger: "She has a half-brother in Canada.",
@@ -268,7 +278,7 @@ export const ANGLAIS_VOCABULAIRE_VIE: LotCartes[] = [
         etranger: "We're distantly related.",
         francais: "Nous sommes parents éloignés.",
         aussi: ["Nous avons un lien de parenté lointain."],
-        note: "Be related to someone, avoir un lien de parenté. Parents au sens français se dit relatives.",
+        note: "Be related to someone, avoir un lien de parenté. Attention au double sens français : les parents, père et mère, se disent parents ; les parents au sens de la parenté élargie se disent relatives.",
       },
       {
         etranger: "She takes after her mother.",
@@ -379,8 +389,8 @@ export const ANGLAIS_VOCABULAIRE_VIE: LotCartes[] = [
     cartes: [
       {
         etranger: "The news is on at eight.",
-        francais: "Le journal est à vingt heures.",
-        aussi: ["Les informations sont à vingt heures."],
+        francais: "Le journal est à huit heures.",
+        aussi: ["Les informations sont à huit heures."],
         note: "News est indénombrable et prend un verbe singulier. « A news » n'existe pas : a piece of news.",
       },
       {
@@ -406,10 +416,15 @@ export const ANGLAIS_VOCABULAIRE_VIE: LotCartes[] = [
         note: "Mute, couper le son ou les notifications. A thread, un fil de discussion.",
       },
       {
+        etranger: "It's in my feed.",
+        francais: "C'est dans mon fil d'actualité.",
+        note: "A feed, le fil d'actualité qu'on fait défiler.",
+      },
+      {
         etranger: "The claim was fact-checked.",
         francais: "L'affirmation a été vérifiée.",
         aussi: ["L'affirmation a fait l'objet d'une vérification."],
-        note: "Fact-check est passé verbe. Le nom, a fact-checker, désigne la personne comme le service.",
+        note: "Fact-check est devenu un verbe. Le nom, a fact-checker, désigne la personne comme le service.",
       },
       {
         etranger: "The paper ran a front-page story.",

@@ -16,7 +16,7 @@ export const ESPAGNOL_EXPRESIONES: LotCartes[] = [
     title: "Demander, remercier, refuser",
     statement:
       "L'espagnol est plus direct que le français, et ce n'est pas de la brusquerie : l'impératif y est courant, et le conditionnel de politesse s'emploie beaucoup moins qu'on ne le croit.",
-    tip: "Dame un café n'a rien de grossier dans un bar espagnol : c'est la formule normale. Traduire « pourriez-vous me donner » sonne au contraire guindé.",
+    tip: "Dame un café n'a rien de grossier entre habitués ; la formule passe-partout reste me pones un café, por favor. Traduire « pourriez-vous me donner » sonne au contraire guindé.",
     difficulty: 2,
     niveau: "A2",
     oral: true,
@@ -622,11 +622,6 @@ export const ESPAGNOL_EXPRESIONES: LotCartes[] = [
         etranger: "Ese asunto es un poco chungo.",
         francais: "Cette affaire est un peu louche.",
         note: "Chungo en Espagne, turbio en Argentine, gacho au Mexique.",
-      },
-      {
-        etranger: "Vale, quedamos a las ocho.",
-        francais: "D'accord, on se voit à huit heures.",
-        note: "Vale est informel mais neutre : employable au travail en Espagne.",
       },
       {
         etranger: "Nos tomamos algo después.",

@@ -69,7 +69,7 @@ export const ANGLAIS_MONDE_2: LotCartes[] = [
       {
         etranger: "They keep free-range hens.",
         francais: "Ils élèvent des poules en plein air.",
-        note: "Free-range, en liberté. Keep pour élever des animaux, jamais breed sauf reproduction.",
+        note: "Free-range, en liberté. Keep ou raise pour élever ; breed ne se dit que de la reproduction.",
       },
       {
         etranger: "The barn needs reroofing.",
@@ -301,7 +301,7 @@ export const ANGLAIS_MONDE_2: LotCartes[] = [
       {
         etranger: "A ceasefire came into force at noon.",
         francais: "Un cessez-le-feu est entré en vigueur à midi.",
-        note: "Come into force, entrer en vigueur. Le mot s'écrit en un seul terme.",
+        note: "Come into force, entrer en vigueur. Ceasefire s'écrit en un mot, parfois avec un trait d'union.",
       },
       {
         etranger: "Casualties were reported on both sides.",
@@ -527,13 +527,13 @@ export const ANGLAIS_MONDE_2: LotCartes[] = [
       },
       {
         etranger: "He inherited the house from an aunt.",
-        francais: "Il a hérité la maison d'une tante.",
+        francais: "Il a hérité de la maison d'une tante.",
         note: "Inherit something from someone, sans préposition devant l'objet.",
       },
       {
         etranger: "They're still coming to terms with it.",
-        francais: "Ils font encore leur deuil.",
-        aussi: ["Ils sont encore en train de l'accepter."],
+        francais: "Ils sont encore en train de l'accepter.",
+        aussi: ["Ils font encore leur deuil."],
         note: "Come to terms with, accepter au terme d'un travail. Grieve dit le chagrin lui-même.",
       },
     ],

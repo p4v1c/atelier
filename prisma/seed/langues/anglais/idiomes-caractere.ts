@@ -50,7 +50,7 @@ export const ANGLAIS_IDIOMES_CARACTERE: LotCartes[] = [
       {
         etranger: "She stammered an apology.",
         francais: "Elle a bredouillé une excuse.",
-        note: "Stammer, bégayer d'émotion. Stutter désigne plutôt le trouble permanent.",
+        note: "Stammer et stutter sont synonymes ; stammer est le terme britannique, stutter l'américain. Tous deux servent pour l'hésitation passagère comme pour le trouble installé.",
       },
       {
         etranger: "He rambled on for an hour.",
@@ -280,7 +280,7 @@ export const ANGLAIS_IDIOMES_CARACTERE: LotCartes[] = [
       },
       {
         etranger: "It's a matter of emphasis.",
-        francais: "C'est une question d'accent mis sur les choses.",
+        francais: "C'est une question d'accent.",
         aussi: ["C'est affaire de priorité."],
         note: "Emphasis, l'insistance. Place emphasis on, mettre l'accent sur.",
       },
@@ -334,7 +334,7 @@ export const ANGLAIS_IDIOMES_CARACTERE: LotCartes[] = [
       {
         etranger: "I'll give you a hand.",
         francais: "Je vais te donner un coup de main.",
-        note: "L'une des rares images identiques dans les deux langues.",
+        note: "Give someone a hand, avec ou sans with : give me a hand with this box.",
       },
       {
         etranger: "That's off the top of my head.",
@@ -388,20 +388,20 @@ export const ANGLAIS_IDIOMES_CARACTERE: LotCartes[] = [
         note: "La version complète ajoute before they hatch. Les deux langues changent d'animal.",
       },
       {
-        etranger: "There's an elephant in the room.",
-        francais: "Il y a un sujet que personne n'aborde.",
-        aussi: ["Il y a un éléphant au milieu de la pièce."],
-        note: "L'image est passée telle quelle en français des entreprises, plus récemment.",
+        etranger: "I smell a rat.",
+        francais: "Je sens qu'il y a anguille sous roche.",
+        aussi: ["Ça sent le coup fourré."],
+        note: "Smell a rat, flairer une entourloupe. Les deux langues changent d'animal : anguille contre rat.",
       },
       {
         etranger: "He's the black sheep of the family.",
         francais: "C'est le mouton noir de la famille.",
-        note: "L'une des rares images identiques dans les deux langues.",
+        note: "The black sheep of the family : toujours avec of the family dans ce sens-là.",
       },
       {
         etranger: "That's a red herring.",
         francais: "C'est une fausse piste.",
-        note: "A red herring, un hareng fumé qu'on traînait pour égarer les chiens.",
+        note: "A red herring, une fausse piste. L'image viendrait du hareng fumé qu'on traînait sur une piste — l'étymologie est discutée.",
       },
       {
         etranger: "She took to it like a duck to water.",
@@ -439,9 +439,9 @@ export const ANGLAIS_IDIOMES_CARACTERE: LotCartes[] = [
         note: "Break even, atteindre l'équilibre. The break-even point, le seuil de rentabilité.",
       },
       {
-        etranger: "Everyone is tightening their belt.",
+        etranger: "Everyone is tightening their belts.",
         francais: "Tout le monde se serre la ceinture.",
-        note: "L'image est identique dans les deux langues, ce qui est rare.",
+        note: "Their reprend everyone ; belts reste au pluriel — un belt par personne, même si everyone est singulier.",
       },
       {
         etranger: "He arrived in the nick of time.",
@@ -466,7 +466,7 @@ export const ANGLAIS_IDIOMES_CARACTERE: LotCartes[] = [
       {
         etranger: "It cost me a fortune.",
         francais: "Ça m'a coûté une fortune.",
-        note: "L'expression est identique. Cost the earth se dit aussi, plus familier.",
+        note: "Cost a fortune est neutre ; cost the earth se dit aussi, plus familier et plus imagé.",
       },
       {
         etranger: "We're on borrowed time.",
@@ -523,7 +523,7 @@ export const ANGLAIS_IDIOMES_CARACTERE: LotCartes[] = [
       {
         etranger: "The joke fell flat.",
         francais: "La blague est tombée à plat.",
-        note: "Fall flat, ne produire aucun effet. L'image est identique en français.",
+        note: "Fall flat, ne produire aucun effet — se dit d'une blague, d'un discours, d'une tentative en général.",
       },
       {
         etranger: "She has a dry sense of humour.",

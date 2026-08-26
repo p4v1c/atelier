@@ -263,9 +263,9 @@ export const ANGLAIS_PRECISION: LotCartes[] = [
         note: "News se termine par un s mais reste singulier : the news is, jamais are.",
       },
       {
-        etranger: "There were three staff on duty.",
+        etranger: "There were three members of staff on duty.",
         francais: "Il y avait trois employés de service.",
-        note: "Staff est collectif et prend un verbe pluriel en anglais britannique.",
+        note: "Staff est collectif : on compte members of staff. Le verbe est au pluriel : the staff are.",
       },
       {
         etranger: "Two coffees, please.",
@@ -485,7 +485,7 @@ export const ANGLAIS_PRECISION: LotCartes[] = [
     cartes: [
       {
         etranger: "He must have left already.",
-        francais: "Il a dû partir déjà.",
+        francais: "Il a déjà dû partir.",
         note: "Must + have + participe : une déduction, jamais une obligation passée.",
       },
       {
@@ -511,8 +511,8 @@ export const ANGLAIS_PRECISION: LotCartes[] = [
       },
       {
         etranger: "You needn't have bothered.",
-        francais: "Tu n'avais pas besoin de te déranger.",
-        note: "Needn't have : la chose a été faite pour rien. Didn't need to dirait qu'elle ne l'a pas été.",
+        francais: "Tu t'es dérangé pour rien.",
+        note: "Needn't have : la chose a bien été faite, et pour rien. Didn't need to laisse ouvert qu'elle n'ait pas été faite du tout.",
       },
       {
         etranger: "He may well object.",

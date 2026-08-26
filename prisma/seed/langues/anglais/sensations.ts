@@ -29,7 +29,7 @@ export const ANGLAIS_SENSATIONS: LotCartes[] = [
       {
         etranger: "She wore a navy coat.",
         francais: "Elle portait un manteau bleu marine.",
-        note: "Navy seul suffit : navy blue est possible mais redondant.",
+        note: "Navy seul suffit comme adjectif ; navy blue est la forme pleine, tout aussi correcte.",
       },
       {
         etranger: "The walls were a greyish white.",
@@ -109,7 +109,7 @@ export const ANGLAIS_SENSATIONS: LotCartes[] = [
       },
       {
         etranger: "It's about waist-high.",
-        francais: "Ça m'arrive à peu près à la taille.",
+        francais: "Ça arrive à peu près à hauteur de taille.",
         note: "Waist-high, knee-deep, shoulder-width : le corps sert d'étalon.",
       },
       {
@@ -134,7 +134,8 @@ export const ANGLAIS_SENSATIONS: LotCartes[] = [
       },
       {
         etranger: "The gap is a couple of inches.",
-        francais: "L'écart fait quelques centimètres.",
+        francais: "L'écart fait deux ou trois pouces.",
+        aussi: ["L'écart fait cinq centimètres environ."],
         note: "A couple of dit deux ou trois, sans précision. L'anglais britannique mesure encore en pouces.",
       },
       {
@@ -191,7 +192,7 @@ export const ANGLAIS_SENSATIONS: LotCartes[] = [
       {
         etranger: "It tastes slightly burnt.",
         francais: "Ça a un léger goût de brûlé.",
-        note: "Taste + adjectif, sans of. Avec of, il faudrait un nom : taste of burning.",
+        note: "Taste + adjectif : it tastes burnt. Avec of, il faut un nom de produit : it tastes of smoke.",
       },
       {
         etranger: "The cheese is quite pungent.",
@@ -250,9 +251,9 @@ export const ANGLAIS_SENSATIONS: LotCartes[] = [
         note: "Drum on, tambouriner. L'instrument est devenu verbe.",
       },
       {
-        etranger: "The crowd fell silent.",
-        francais: "La foule s'est tue.",
-        note: "Fall silent : le basculement, pas l'état. Be silent dirait l'état.",
+        etranger: "The plates clattered in the sink.",
+        francais: "Les assiettes s'entrechoquaient dans l'évier.",
+        note: "Clatter, le bruit sec d'objets durs qui s'entrechoquent — de la vaisselle, des couverts.",
       },
       {
         etranger: "The tyres screeched on the tarmac.",
@@ -260,9 +261,9 @@ export const ANGLAIS_SENSATIONS: LotCartes[] = [
         note: "Screech, un cri strident, de pneus ou d'oiseau. Tyre en anglais britannique.",
       },
       {
-        etranger: "I could hear him muttering.",
-        francais: "Je l'entendais marmonner.",
-        note: "Mutter, parler bas et pour soi, souvent de mauvaise humeur.",
+        etranger: "Leaves rustled in the wind.",
+        francais: "Les feuilles bruissaient dans le vent.",
+        note: "Rustle, le froissement léger des feuilles ou du papier.",
       },
       {
         etranger: "The room echoed with laughter.",
@@ -337,7 +338,7 @@ export const ANGLAIS_SENSATIONS: LotCartes[] = [
       },
       {
         etranger: "The stars were out.",
-        francais: "Les étoiles étaient sorties.",
+        francais: "Il y avait des étoiles.",
         aussi: ["Le ciel était étoilé."],
         note: "Be out se dit des astres visibles : the sun is out, the moon is out.",
       },
@@ -398,7 +399,7 @@ export const ANGLAIS_SENSATIONS: LotCartes[] = [
       },
       {
         etranger: "The paint is still tacky.",
-        francais: "La peinture est encore poisseuse.",
+        francais: "La peinture n'est pas encore sèche.",
         note: "Tacky, à peine collant, pas encore sec. Le mot dit aussi le mauvais goût.",
       },
       {

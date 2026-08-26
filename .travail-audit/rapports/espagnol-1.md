@@ -267,7 +267,7 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   (`asignatura`, `convocatoria`, `beca`, `matrícula`, `tesis`, `entrega`), en
   retirant `suspender`, `aprobar` et `curso` déjà acquis.
 
-### [MOYEN] Deux séries « famille » aux titres presque identiques — *(passe 2)*
+### [MOYEN] ✅ Deux séries « famille » aux titres presque identiques — *(passe 2)*
 
 - **Où** : `debutant.ts` — `es-gens`, « La famille et les gens », A1
   contre `vocabulario-vida.ts` — `es-voc-familia`, « La famille et les liens », B1
@@ -278,8 +278,9 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   peut pas deviner laquelle il révise.
 - **Correction proposée** : renommer la seconde « Les liens d'alliance :
   cuñado, suegra, yerno », ce qui est son contenu réel.
+- **Fait** : titre de `es-voc-familia` (vocabulario-vida.ts) changé en « Les liens d'alliance : cuñado, suegra, yerno ».
 
-### [MOYEN] Une série dont le titre annonce l'école et qui n'en parle pas — *(passe 2)*
+### [MOYEN] ✅ Une série dont le titre annonce l'école et qui n'en parle pas — *(passe 2)*
 
 - **Où** : `mundo-2.ts` — `es-voc-infancia`, « L'enfance **et l'école** »
 - **Problème** : sur dix cartes, une seule mentionne l'école
@@ -289,8 +290,9 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   Le titre promet un champ qui n'est pas là — et ce champ est justement traité
   ailleurs, par `es-estudios`.
 - **Correction proposée** : « L'enfance et l'éducation des enfants ».
+- **Fait** : titre de `es-voc-infancia` (mundo-2.ts) changé en « L'enfance et l'éducation des enfants ».
 
-### [MOYEN] Deux cartes interchangeables dans une même série — *(passe 2)*
+### [MOYEN] ✅ Deux cartes interchangeables dans une même série — *(passe 2)*
 
 - **Où** : `verbes.ts` — `es-expressions`, cartes 4 et 8
 - **Texte** : « Me da igual. » / « Ça m'est égal. » `aussi: ["Peu importe."]`
@@ -302,8 +304,11 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   « Menos mal. », que `expresiones.ts` reprend en « ¡Menos mal que llegaste! ».
 - **Correction proposée** : fondre les deux en une carte,
   `aussiEtranger: ["Da lo mismo.", "Me da lo mismo."]`.
+- **Fait** : cartes fondues dans `verbes.ts` (`es-expressions`) en une seule
+  « Me da igual. » avec `aussiEtranger: ["Da lo mismo.", "Me da lo mismo."]` ;
+  la carte séparée « Da lo mismo. » a été supprimée.
 
-### [MOYEN] Cours nettement au-dessus du niveau annoncé — *(passe 2)*
+### [MOYEN] ✅ Cours nettement au-dessus du niveau annoncé — *(passe 2)*
 
 - **Où** : `conjugacion-2.ts` — `es-conj-participio`, déclaré **A2**, et
   `es-conj-haber-tener`, déclaré **A1** / difficulté 1
@@ -317,8 +322,13 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
 - **Correction proposée** : `es-conj-participio` → B1, et déplacer sa section 3
   vers `es-conj-anterioridad` qui la traite déjà ; retirer le paragraphe
   `tener` + participe du cours A1 de `es-conj-haber-tener`.
+- **Fait** : `es-conj-participio` passé en niveau B1 ; sa troisième section
+  réduite au perfecto/pluscuamperfecto (déjà utiles à ce niveau) avec renvoi
+  explicite vers `es-conj-anterioridad` pour le futuro perfecto, le
+  condicional compuesto et le subjonctif composé. Dans `es-conj-haber-tener`,
+  le paragraphe sur `tener` + participe accordé a été retiré du cours A1.
 
-### [MINEUR] « L'on approuve » — calque de l'espagnol — *(passe 2)*
+### [MINEUR] ✅ « L'on approuve » — calque de l'espagnol — *(passe 2)*
 
 - **Où** : `quotidien-a2.ts` — `es-estudios`, carte 3
 - **Texte** : « Aprobé con un siete. » — note « En Espagne on note sur dix, et
@@ -326,8 +336,9 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
 - **Problème** : « approuver » n'a pas ce sens en français ; c'est *aprobar* laissé
   tel quel. La note explique un faux ami en commettant le faux ami.
 - **Correction proposée** : « En Espagne on note sur dix, et la moyenne est à cinq. »
+- **Fait** : note corrigée telle quelle dans `quotidien-a2.ts` (`es-estudios`).
 
-### [MINEUR] Jargon espagnol employé avant d'être défini — *(passe 2)*
+### [MINEUR] ✅ Jargon espagnol employé avant d'être défini — *(passe 2)*
 
 - **Où** : `debutant.ts` — `es-nombres-heure`, carte 4, niveau A1
 - **Texte** : « Nací en 1997. » — note « nacer → nací **à l'indefinido**. »
@@ -335,6 +346,7 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   (`es-conj-passes`, A2). En A1, la note emploie un terme que l'apprenant n'a pas
   encore rencontré, là où le reste des séries A1 dit « passé simple ».
 - **Correction proposée** : « nacer → nací au passé simple. »
+- **Fait** : note corrigée telle quelle dans `debutant.ts` (`es-nombres-heure`).
 
 ### [GRAVE] « Estar pour le lieu, toujours » — règle affirmée trois fois, démentie par une carte du module — *(passe 2)*
 
@@ -377,7 +389,7 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
 - **Correction proposée** : « Salir **de** pour le lieu qu'on quitte : salgo de la
   oficina. Mais salir a, para, con selon ce qui suit. »
 
-### [MOYEN] « Llegar prend toujours a, jamais en » — trop absolu, deux fois — *(passe 2)*
+### [MOYEN] ✅ « Llegar prend toujours a, jamais en » — trop absolu, deux fois — *(passe 2)*
 
 - **Où** : `vocabulaire-mundo.ts:575` (note du tableau « Le verbe et sa préposition »)
   et `vocabulaire-mundo.ts:610` (carte « Llegamos a Sevilla a las ocho. »)
@@ -389,8 +401,10 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
 - **Correction proposée** : « Llegar **a** pour la destination : llegar a Madrid,
   jamais « llegar en Madrid ». Avec un moyen de transport, en revanche : llegar
   en tren. »
+- **Fait** : les deux notes de `vocabulaire-mundo.ts` (tableau et carte)
+  corrigées avec cette formulation.
 
-### [MOYEN] « Todavía no appelle toujours le perfecto » — vrai en Espagne seulement — *(passe 2)*
+### [MOYEN] ✅ « Todavía no appelle toujours le perfecto » — vrai en Espagne seulement — *(passe 2)*
 
 - **Où** : `conjugaison.ts:149` — « Todavía no lo he terminado. » note « Todavía no
   appelle **toujours** le perfecto. » et `verbes.ts:51` — « Aún no me han
@@ -403,8 +417,13 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   « toujours », employé deux fois, transforme un usage régional en règle.
 - **Correction proposée** : remplacer « toujours » par « en Espagne » dans les
   deux notes.
+- **Fait** : note de `conjugaison.ts` (`es-conj-passes`) corrigée en « Todavía
+  no appelle le perfecto, en Espagne. » La carte `verbes.ts` citée dans le
+  constat n'existe plus sous cette forme : la série `es-passe` a été
+  entièrement réécrite (autre correctif [GRAVE]) et ne contient plus la
+  phrase « Aún no me han contestado » ni la note visée.
 
-### [MOYEN] La contradiction quedar / quedarse, dans un même visuel
+### [MOYEN] ✅ La contradiction quedar / quedarse, dans un même visuel
 
 - **Où** : `conjugacion-2.ts` — `es-conj-reflexivos`, cours, visuel « Le même verbe, avec et sans pronom »
 - **Texte** : la ligne du tableau dit `["quedar — rester (convenir)", "quedarse — rester (demeurer)", "sens différent"]`,
@@ -413,8 +432,9 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
 - **Problème** : le tableau donne *quedar* = « rester », sa propre note dit
   l'inverse. Deux lectures incompatibles à trois lignes d'écart.
 - **Correction proposée** : ligne « quedar — se donner rendez-vous » / « quedarse — rester ».
+- **Fait** : ligne du tableau corrigée telle quelle dans `conjugacion-2.ts` (`es-conj-reflexivos`).
 
-### [MOYEN] Trois cartes redondantes pour « quedar », dans trois séries
+### [MOYEN] ✅ Trois cartes redondantes pour « quedar », dans trois séries
 
 - **Où** : `quotidien-a2.ts` (`es-tiempo-libre`) : « Quedamos a las ocho en la plaza. » ;
   `conjugacion-2.ts` (`es-conj-reflexivos`) : « Quedamos a las siete en la plaza. » ;
@@ -422,8 +442,10 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
 - **Problème** : la même phrase à l'heure près, avec la même note dans deux cas.
 - **Correction proposée** : n'en garder qu'une, dans `es-conj-reflexivos` où la
   règle est enseignée.
+- **Fait** : cartes retirées de `quotidien-a2.ts` (`es-tiempo-libre`) et
+  `expresiones.ts` (`es-expr-jerga`) ; celle de `es-conj-reflexivos` conservée.
 
-### [MOYEN] « Jugar a » enseigné quatre fois
+### [MOYEN] ✅ « Jugar a » enseigné quatre fois
 
 - **Où** : `verbes.ts` (« Juego al fútbol. »), `quotidien-a2.ts` (« Juego al fútbol los jueves. »),
   `conjugacion-2.ts` (« Juego al ajedrez los martes. »), `vocabulario-vida.ts` (« Juego al baloncesto los martes. »)
@@ -432,8 +454,12 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
 - **Correction proposée** : garder celle de `es-voc-deporte` (qui ajoute la
   variante latino-américaine `jugar fútbol`) et celle de `es-conj-irregulares-familias`
   pour la diphtongue ; supprimer les deux autres.
+- **Fait** : cartes « Juego al fútbol. » retirées de `verbes.ts`
+  (`es-irreguliers`) et de `quotidien-a2.ts` (`es-tiempo-libre`) ; celles de
+  `vocabulario-vida.ts` (`es-voc-deporte`) et `conjugacion-2.ts`
+  (`es-conj-irregulares-familias`) conservées.
 
-### [MOYEN] Le cours « Les périphrases du mouvement » recopie « Les périphrases verbales »
+### [MOYEN] ✅ Le cours « Les périphrases du mouvement » recopie « Les périphrases verbales »
 
 - **Où** : `vocabulaire-mundo.ts` — `es-voc-movimiento`, cours, section 3
   contre `conjugacion-2.ts` — `es-conj-perifrasis`, cours
@@ -449,8 +475,11 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
 - **Correction proposée** : dans `es-voc-movimiento`, remplacer cette section par
   un renvoi et ne garder que ce qui est propre au mouvement (`salir + gérondif`,
   `venir + gérondif`).
+- **Fait** : section 3 de `es-voc-movimiento` réécrite avec un renvoi vers
+  `es-conj-perifrasis` pour `ir a`, `ir + gérondif`, `andar + gérondif` et
+  `volver a`, et ne garde en propre que `salir + gérondif` et `venir + gérondif`.
 
-### [MOYEN] La place des pronoms, enseignée deux fois à l'identique
+### [MOYEN] ✅ La place des pronoms, enseignée deux fois à l'identique
 
 - **Où** : `cours-grammaire.ts` — `es-cours-pronoms`, section « Où les mettre »
   contre `conjugacion-2.ts` — `es-conj-reflexivos`, section « Où se place le pronom »
@@ -458,8 +487,12 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   `está duchándose` / `se está duchando`), même remarque sur l'accent écrit.
 - **Correction proposée** : garder la version de `es-cours-pronoms`, réduire
   l'autre à deux lignes propres aux pronominaux.
+- **Fait** : section « Où se place le pronom » de `es-conj-reflexivos` réduite
+  à un renvoi vers `es-cours-pronoms` suivi des deux détails d'orthographe
+  propres aux pronominaux (levantémonos, levantaos/idos) ; le visuel qui
+  répétait le tableau devant/collé a été retiré.
 
-### [MOYEN] « Serían las tres cuando llegó » donné comme exemple du conditionnel **composé**
+### [MOYEN] ✅ « Serían las tres cuando llegó » donné comme exemple du conditionnel **composé**
 
 - **Où** : `conjugacion-2.ts` — `es-conj-anterioridad`, cours, section « L'antériorité au futur et à l'hypothèse »
 - **Texte** : « El condicional compuesto — habría terminado — dit l'hypothèse non
@@ -471,8 +504,13 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   sous « le conditionnel exprime la supposition sur le passé ».
 - **Correction proposée** : déplacer l'exemple sous le conditionnel simple et
   illustrer le composé par *habrían salido ya cuando llamaste*.
+- **Fait** : paragraphe de `es-conj-anterioridad` corrigé : le condicional
+  compuesto y est désormais illustré par *habrían salido ya cuando llamaste*.
+  L'exemple *serían las tres cuando llegó* reste correctement sous le
+  conditionnel simple (carte et `cours-grammaire.ts` `es-cours-futur`), sans y
+  être répété.
 
-### [MOYEN] Un titre de série qui invente un troisième passé
+### [MOYEN] ✅ Un titre de série qui invente un troisième passé
 
 - **Où** : `conjugaison.ts:96` — `es-conj-passes`
 - **Texte** : titre « Les passés : **indéfini, simple**, imparfait », alors que le
@@ -482,8 +520,9 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   cours identifie comme un seul. Les trois temps traités sont le *perfecto*,
   l'*indefinido* et l'*imperfecto*.
 - **Correction proposée** : « Les passés : composé, simple, imparfait ».
+- **Fait** : titre corrigé tel quel dans `conjugaison.ts` (`es-conj-passes`).
 
-### [MOYEN] Deux tableaux qui annoncent douze entrées et en donnent dix
+### [MOYEN] ✅ Deux tableaux qui annoncent douze entrées et en donnent dix
 
 - **Où** : `conjugacion-2.ts` — `es-conj-participio`, visuel « Les douze participes irréguliers » (10 lignes) ;
   `cours-grammaire.ts` — `es-cours-futur`, visuel « Les douze radicaux irréguliers, communs aux deux temps » (10 lignes),
@@ -494,8 +533,13 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   présenté comme un composé d'`abrir`, ce qu'il n'est pas.
 - **Correction proposée** : compléter les tableaux à douze lignes, ou aligner le
   titre sur le nombre réellement montré.
+- **Fait** : les deux tableaux complétés à douze lignes. Dans
+  `es-conj-participio`, `cubrir` et `freír` ont leur propre ligne, et `cubrir`
+  n'est plus donné comme composé d'`abrir` (son vrai composé, `descubrir`, lui
+  a été rattaché). Dans `es-cours-futur`, `valer` (valdr-) et `caber` (cabr-)
+  ont été ajoutés.
 
-### [MOYEN] Le passé composé espagnol donné comme règle générale, alors qu'il est régional
+### [MOYEN] ✅ Le passé composé espagnol donné comme règle générale, alors qu'il est régional
 
 - **Où** : `verbes.ts:38` et `conjugaison.ts:99` — `tip` identique
 - **Texte** : « Hoy, esta semana, este año appellent le passé composé. Ayer, el
@@ -508,8 +552,12 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   (`¿Has visto la película?`) mentionne « en Espagne ».
 - **Correction proposée** : ajouter « — en Espagne ; l'Amérique latine emploie
   l'indefinido dans les deux cas. » au `tip`.
+- **Fait** : le `tip` de `conjugaison.ts` (`es-conj-passes`) complété comme
+  proposé. Le `tip` identique de `verbes.ts:38` n'existe plus : la série
+  `es-passe` de `verbes.ts` a été entièrement réécrite (autre correctif
+  [GRAVE]) et ne porte plus ce `tip`.
 
-### [MOYEN] `Se borró la cuenta` traduit par une phrase active
+### [MOYEN] ✅ `Se borró la cuenta` traduit par une phrase active
 
 - **Où** : `vocabulario-vida.ts` — `es-voc-medios`, carte 8
 - **Texte** : `"Se borró la cuenta."` / `"Il a supprimé son compte."`,
@@ -519,8 +567,11 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   supprimé volontairement, on dit *borró su cuenta*. La note enseigne la forme
   non pronominale et la carte donne la pronominale.
 - **Correction proposée** : `etranger: "Borró su cuenta."`
+- **Fait** : carte corrigée telle quelle dans `vocabulario-vida.ts`
+  (`es-voc-medios`) ; la note précise désormais aussi pourquoi la forme
+  pronominale a été écartée.
 
-### [MOYEN] « Bajar seul voudrait dire descendre quelque chose »
+### [MOYEN] ✅ « Bajar seul voudrait dire descendre quelque chose »
 
 - **Où** : `vocabulario-vida.ts` — `es-voc-transportes`, carte 3
 - **Texte** : « Bajarse d'un transport, pronominal. Bajar seul voudrait dire
@@ -529,8 +580,9 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   parfaitement standard et très courants. La note interdit une forme correcte.
 - **Correction proposée** : « Bajarse insiste sur le mouvement propre ; bajar del
   autobús se dit tout autant. »
+- **Fait** : note corrigée telle quelle dans `vocabulario-vida.ts` (`es-voc-transportes`).
 
-### [MOYEN] « Por la mañana » expliqué par une raison fausse, et sans sa variante
+### [MOYEN] ✅ « Por la mañana » expliqué par une raison fausse, et sans sa variante
 
 - **Où** : `faux-amis.ts` — `es-por-para`, carte 7
 - **Texte** : `"Por la mañana."` / `"Le matin."`, note « Une période approximative : por. »
@@ -540,8 +592,9 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   alors que `quotidien-a2.ts` le signale correctement pour *por la tarde*.
 - **Correction proposée** : note « Por + moment de la journée : por la mañana,
   por la tarde. En Amérique latine, en la mañana. »
+- **Fait** : note corrigée telle quelle dans `faux-amis.ts` (`es-por-para`).
 
-### [MOYEN] Une carte de `por/para` qui accepte la réponse qu'elle veut interdire
+### [MOYEN] ✅ Une carte de `por/para` qui accepte la réponse qu'elle veut interdire
 
 - **Où** : `faux-amis.ts` — `es-por-para`, carte 5
 - **Texte** : `"Lo hice por ti."` / `"Je l'ai fait à cause de toi."`,
@@ -551,8 +604,10 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   accepte comme équivalent le français qui correspond précisément à *para ti*.
 - **Correction proposée** : retirer l'`aussi`, ou le remplacer par
   « Je l'ai fait en pensant à toi. »
+- **Fait** : `aussi` remplacé par « Je l'ai fait en pensant à toi. » dans
+  `faux-amis.ts` (`es-por-para`).
 
-### [MOYEN] Trois cartes anglo-espagnoles dans une série de faux amis du français
+### [MOYEN] ✅ Trois cartes anglo-espagnoles dans une série de faux amis du français
 
 - **Où** : `faux-amis.ts` — `es-faux-amis-2`, cartes `asistir a`, `actualmente`, `la fábrica`
 - **Texte** : « Vrai ami, contrairement à l'anglais to assist. » ; « Vrai ami
@@ -566,8 +621,12 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
 - **Correction proposée** : les regrouper dans une série « faux amis hérités de
   l'anglais », ou ajouter à `statement` que la série signale aussi les vrais amis
   qu'on croit faux.
+- **Fait** : choisi la seconde option, plus légère — `statement` de
+  `es-faux-amis-2` complété : « Certains sont même de vrais amis du français,
+  piégés seulement par leur ressemblance avec un faux ami anglais. » Les trois
+  cartes restent en place, désormais annoncées par le statement.
 
-### [MOYEN] Le `tip` de la politesse contredit le cours de sa propre série
+### [MOYEN] ✅ Le `tip` de la politesse contredit le cours de sa propre série
 
 - **Où** : `expresiones.ts` — `es-expr-cortesia`
 - **Texte** : `tip` : « **Dame un café** n'a rien de grossier dans un bar
@@ -579,8 +638,9 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   un registre réservé aux proches.
 - **Correction proposée** : « Dame un café n'a rien de grossier entre habitués ;
   la formule passe-partout reste me pones un café, por favor. »
+- **Fait** : `tip` corrigé tel quel dans `expresiones.ts` (`es-expr-cortesia`).
 
-### [MOYEN] Un cours qui se contredit sur `ciudad`
+### [MOYEN] ✅ Un cours qui se contredit sur `ciudad`
 
 - **Où** : `pronunciacion.ts` — `es-pron-diptongos`, cours, section « Fortes et faibles »
 - **Texte** : « Une forte et une faible forment une seule syllabe… bue-no, tie-ne,
@@ -589,8 +649,11 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
 - **Problème** : *ciudad* est donné comme exemple des deux catégories. Le `iu` est
   faible + faible ; sa présence dans la première liste est une erreur.
 - **Correction proposée** : retirer `ciu-dad` de la liste « forte + faible ».
+- **Fait** : `ciu-dad` retiré de la liste « forte + faible » dans le texte de
+  `pronunciacion.ts` (`es-pron-diptongos`) ; le tableau qui l'associait déjà
+  correctement à « faible + faible » n'a pas eu besoin d'être touché.
 
-### [MOYEN] `bueno` syllabé en trois syllabes dans un cours qui le syllabe en deux
+### [MOYEN] ✅ `bueno` syllabé en trois syllabes dans un cours qui le syllabe en deux
 
 - **Où** : `pronunciacion.ts` — `es-pron-diptongos`, cours, section « Ce que le francophone doit désapprendre »
 - **Texte** : « Un francophone qui lit bueno en cherchant un « ou » se trompe :
@@ -599,8 +662,9 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   diphtongue, **une** syllabe pour `ue`. Écrire `bu-e-no` contredit directement la
   règle enseignée deux écrans plus haut, sur l'exemple même qui l'illustrait.
 - **Correction proposée** : « c'est bue-no, une seule syllabe pour ue, soudée en « boué » ».
+- **Fait** : texte corrigé tel quel dans `pronunciacion.ts` (`es-pron-diptongos`).
 
-### [MOYEN] Note fausse : « deux h muets dans hermano »
+### [MOYEN] ✅ Note fausse : « deux h muets dans hermano »
 
 - **Où** : `pronunciacion.ts` — `es-pron-vocales`, carte 10
 - **Texte** : `"Con mi hermano y con mi prima."` — note : « Deux con, deux o purs.
@@ -609,8 +673,9 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   au total. Le compte est faux.
 - **Correction proposée** : « Deux con, deux o purs. Et le h de hermano, muet
   comme tous les h espagnols. »
+- **Fait** : note corrigée telle quelle dans `pronunciacion.ts` (`es-pron-vocales`).
 
-### [MOYEN] L'estanco présenté comme sans équivalent français
+### [MOYEN] ✅ L'estanco présenté comme sans équivalent français
 
 - **Où** : `vocabulaire-mundo.ts` — `es-voc-ciudad`, cours, section « La machine à fabriquer des commerces »
 - **Texte** : « el estanco est le bureau de tabac espagnol, qui vend aussi les
@@ -621,8 +686,11 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   la fin de phrase ne veut pas dire grand-chose.
 - **Correction proposée** : « el estanco est le bureau de tabac espagnol : comme
   en France, un débit sous monopole d'État, et il vend aussi les timbres. »
+- **Fait** : texte du cours corrigé tel quel, et le `statement` de la série
+  (qui portait la même affirmation fausse) corrigé en cohérence dans
+  `vocabulaire-mundo.ts` (`es-voc-ciudad`).
 
-### [MOYEN] Un tableau dont la troisième colonne change de sens en cours de route
+### [MOYEN] ✅ Un tableau dont la troisième colonne change de sens en cours de route
 
 - **Où** : `vocabulaire-mundo.ts` — `es-voc-ciudad`, visuel « Le produit, le commerce, la personne »
 - **Texte** : les huit premières lignes donnent bien un commerçant
@@ -632,8 +700,10 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   qui parcourt la colonne lit « el panadero, el carnicero, …, quincaillerie ».
 - **Correction proposée** : mettre `el ferretero` et `el estanquero`, ou sortir ces
   deux lignes du tableau.
+- **Fait** : les deux cellules remplacées par `el ferretero` et `el estanquero`
+  dans `vocabulaire-mundo.ts` (`es-voc-ciudad`).
 
-### [MOYEN] `Me he dormido` traduit par « Je me suis rendormi »
+### [MOYEN] ✅ `Me he dormido` traduit par « Je me suis rendormi »
 
 - **Où** : `bases.ts` — `es-quotidien`, carte 1
 - **Texte** : `"Me he dormido."` / `"Je me suis rendormi."`,
@@ -645,8 +715,9 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   réveillé ». La carte et sa propre note ne disent pas la même chose.
 - **Correction proposée** : `francais: "Je me suis endormi."`,
   `aussi: ["Je ne me suis pas réveillé.", "J'ai trop dormi."]`
+- **Fait** : carte corrigée telle quelle dans `bases.ts` (`es-quotidien`).
 
-### [MOYEN] `Vivo en el piso tercero` contre `Vivo en el primer piso`
+### [MOYEN] ✅ `Vivo en el piso tercero` contre `Vivo en el primer piso`
 
 - **Où** : `quotidien-a2.ts` — `es-numeros-fechas`, carte 8, et `debutant.ts` — `es-nombres-heure`, carte 8
 - **Texte** : « Vivo en el **piso tercero**. » / « J'habite au troisième étage. »
@@ -657,8 +728,11 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   (« Ordinal jusqu'à dix, cardinal au-delà ») ne dit rien de cette inversion.
 - **Correction proposée** : « Vivo en el tercer piso. », note « tercero se
   raccourcit en tercer devant un nom masculin, comme primero. »
+- **Fait** : carte de `quotidien-a2.ts` (`es-numeros-fechas`) corrigée en
+  « Vivo en el tercer piso. », note complétée avec l'explication de
+  l'apocope, en gardant aussi la précision ordinal/cardinal déjà présente.
 
-### [MOYEN] Note hors sujet sur les pourcentages
+### [MOYEN] ✅ Note hors sujet sur les pourcentages
 
 - **Où** : `quotidien-a2.ts` — `es-numeros-fechas`, carte 10
 - **Texte** : « Mide un metro con setenta y cinco. » — note : « Con relie les deux
@@ -666,16 +740,19 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
 - **Problème** : la carte ne contient aucun pourcentage. La deuxième phrase de la
   note ne se rattache à rien.
 - **Correction proposée** : supprimer la seconde phrase.
+- **Fait** : phrase « Et por ciento s'écrit en deux mots. » supprimée dans
+  `quotidien-a2.ts` (`es-numeros-fechas`).
 
-### [MINEUR] Phrase française cassée dans un `tip`
+### [MINEUR] ✅ Phrase française cassée dans un `tip`
 
 - **Où** : `debutant.ts:67` — `es-acheter`
 - **Texte** : « Pour demander poliment, l'imparfait suffit : quería **voir** plus
   doux que quiero, sans être moins clair. »
 - **Problème** : « voir » pour « sonne » ou « fait ». La phrase ne se construit pas.
 - **Correction proposée** : « quería sonne plus doux que quiero, sans être moins clair. »
+- **Fait** : `tip` corrigé tel quel dans `debutant.ts` (`es-acheter`).
 
-### [MINEUR] `enseguida` et `en seguida` dans le même fichier
+### [MINEUR] ✅ `enseguida` et `en seguida` dans le même fichier
 
 - **Où** : `verbes.ts` — `es-irreguliers` carte 5 (« Vengo **enseguida**. ») et
   `es-expressions` carte 9 (« **En seguida** vuelvo. »)
@@ -683,8 +760,11 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   à quatre-vingts lignes d'écart, sans un mot d'explication, se lira comme une
   faute d'un côté ou de l'autre — et l'exercice de dictée n'en acceptera qu'une.
 - **Correction proposée** : unifier sur `enseguida`.
+- **Fait** : `es-expressions` carte 8 (verbes.ts) changée de « En seguida
+  vuelvo. » à « Enseguida vuelvo. » ; `es-irreguliers` carte 5 gardait déjà
+  `enseguida`.
 
-### [MINEUR] Un `tip` qui compte mal
+### [MINEUR] ✅ Un `tip` qui compte mal
 
 - **Où** : `vocabulaire-mundo.ts` — `es-voc-ropa`
 - **Texte** : « Ponerse pour le geste, llevar pour l'état, quitarse pour enlever.
@@ -693,8 +773,9 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   contraire de ce qu'elle veut dire.
 - **Correction proposée** : « Ponerse et quitarse sont pronominaux ; llevar ne
   l'est jamais dans cet emploi. »
+- **Fait** : `tip` corrigé tel quel dans `vocabulaire-mundo.ts` (`es-voc-ropa`).
 
-### [MINEUR] Note vide de substance
+### [MINEUR] ✅ Note vide de substance
 
 - **Où** : `verbes.ts` — `es-travail`, carte 8
 - **Texte** : « Tenemos una reunión el martes. » — note : « El martes, avec
@@ -703,14 +784,16 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   n'apprend rien.
 - **Correction proposée** : « El martes, avec l'article obligatoire : l'espagnol
   n'a pas de « mardi » nu. Los martes marque l'habitude. »
+- **Fait** : note corrigée telle quelle dans `verbes.ts` (`es-travail`).
 
-### [MINEUR] Typographie : espace surnuméraire dans les guillemets
+### [MINEUR] ✅ Typographie : espace surnuméraire dans les guillemets
 
 - **Où** : `vocabulaire-mundo.ts` — `es-voc-movimiento`, `tip`
 - **Texte** : « Répondre « ¡voy!␣␣» quand on nous appelle, jamais « ¡vengo! ». »
 - **Problème** : double espace avant le guillemet fermant.
+- **Fait** : double espace supprimé dans le `tip` de `vocabulaire-mundo.ts` (`es-voc-movimiento`).
 
-### [MINEUR] Niveaux qui ne correspondent pas au contenu
+### [MINEUR] ✅ Niveaux qui ne correspondent pas au contenu
 
 - **Où** : `verbes.ts` — `es-expressions` déclaré **B2** pour *Vale*, *No pasa nada*,
   *Ni idea*, *Me da igual*, *Menos mal* — toutes des formules A2 ;
@@ -721,8 +804,11 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
   « Juego al baloncesto los martes » et « Hago natación dos veces por semana ».
 - **Correction proposée** : `es-expressions` → A2 ; `es-voc-cocina` et
   `es-voc-ropa` → A2 ; `es-voc-deporte` → A2.
+- **Fait** : les quatre niveaux changés tels que proposés — `es-expressions`
+  (verbes.ts) B2→A2, `es-voc-cocina` et `es-voc-ropa` (vocabulaire-mundo.ts)
+  A1→A2, `es-voc-deporte` (vocabulario-vida.ts) B1→A2.
 
-### [MINEUR] Heures traduites en heures de l'après-midi sans que rien ne l'indique
+### [MINEUR] ✅ Heures traduites en heures de l'après-midi sans que rien ne l'indique
 
 - **Où** : `conjugacion-2.ts` (« Salgo del trabajo a las seis. » → « à dix-huit
   heures »), `vocabulario-vida.ts` (« Las noticias son a las ocho. » → « à vingt
@@ -732,6 +818,14 @@ Chaque carte donnant jusqu'à quatre exercices, le périmètre représente envir
 - **Problème** : à l'exercice « produire », « à dix-huit heures » appelle
   *a las dieciocho* autant que *a las seis*. Le contexte rend la lecture
   plausible, mais la réponse attendue n'est pas déductible.
+- **Fait** : le rapport ne proposait pas de correction ; choisi l'option la
+  plus sûre — traduire chaque heure espagnole par son équivalent français
+  littéral (« a las seis » → « à six heures », « a las ocho » → « à huit
+  heures », « a las nueve » → « à neuf heures ») plutôt que d'ajouter des
+  `aussiEtranger` au format 24 h. Corrigé dans les quatre cartes citées :
+  `conjugacion-2.ts` (`es-conj-irregulares-familias`), `vocabulario-vida.ts`
+  (`es-voc-medios`), et les deux cartes de `vocabulaire-mundo.ts`
+  (`es-voc-cocina`, `es-voc-ciudad`).
 
 ---
 

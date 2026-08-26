@@ -118,9 +118,9 @@ export const ESPAGNOL_QUOTIDIEN_A2: LotCartes[] = [
         note: "Les années se lisent en entier. L'anglais les lit par paires, l'espagnol jamais.",
       },
       {
-        etranger: "Vivo en el piso tercero.",
+        etranger: "Vivo en el tercer piso.",
         francais: "J'habite au troisième étage.",
-        note: "Ordinal jusqu'à dix, cardinal au-delà : el piso doce, pas « duodécimo ».",
+        note: "tercero se raccourcit en tercer devant un nom masculin, comme primero. Ordinal jusqu'à dix, cardinal au-delà : el piso doce, pas « duodécimo ».",
       },
       {
         etranger: "El plazo vence el treinta y uno.",
@@ -130,7 +130,7 @@ export const ESPAGNOL_QUOTIDIEN_A2: LotCartes[] = [
       {
         etranger: "Mide un metro con setenta y cinco.",
         francais: "Il mesure un mètre soixante-quinze.",
-        note: "Con relie les deux parties d'une mesure. Et por ciento s'écrit en deux mots.",
+        note: "Con relie les deux parties d'une mesure.",
       },
     ],
   },
@@ -279,11 +279,6 @@ export const ESPAGNOL_QUOTIDIEN_A2: LotCartes[] = [
         note: "Los fines de semana au pluriel pour l'habitude ; el fin de semana pour un seul.",
       },
       {
-        etranger: "Juego al fútbol los jueves.",
-        francais: "Je joue au football le jeudi.",
-        note: "Jugar A + article : jugar al fútbol, jugar a las cartas. Sans a, c'est une faute.",
-      },
-      {
         etranger: "Toco la guitarra desde niño.",
         francais: "Je joue de la guitare depuis l'enfance.",
         note: "Tocar pour l'instrument, jugar pour le sport. Deux verbes pour un seul « jouer ».",
@@ -297,11 +292,6 @@ export const ESPAGNOL_QUOTIDIEN_A2: LotCartes[] = [
         etranger: "¿Te apetece ir al cine?",
         francais: "Ça te dit d'aller au cinéma ?",
         note: "Apetecer en Espagne, provocar en Colombie, antojarse au Mexique.",
-      },
-      {
-        etranger: "Quedamos a las ocho en la plaza.",
-        francais: "On se retrouve à huit heures sur la place.",
-        note: "Quedar, se donner rendez-vous ; quedarse, rester. Le pronom change tout.",
       },
       {
         etranger: "Vi una película buenísima.",
@@ -351,7 +341,7 @@ export const ESPAGNOL_QUOTIDIEN_A2: LotCartes[] = [
       {
         etranger: "Aprobé con un siete.",
         francais: "J'ai eu la moyenne avec un sept.",
-        note: "En Espagne on note sur dix, et l'on approuve à partir de cinq.",
+        note: "En Espagne on note sur dix, et la moyenne est à cinq.",
       },
       {
         etranger: "Suspendí el examen de física.",

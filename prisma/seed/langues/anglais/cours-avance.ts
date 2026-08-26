@@ -24,7 +24,7 @@ export const ANGLAIS_COURS_AVANCE: LotCartes[] = [
         {
           titre: "Le principe : le temps recule d'un cran",
           texte:
-            "L'anglais marque l'irréel en reculant le temps. Plus l'hypothèse est éloignée du réel, plus le verbe recule dans le passé — même quand on parle du présent ou du futur.\n\nC'est pourquoi if I were rich parle d'aujourd'hui : le prétérit ne dit pas le passé, il dit l'irréel. Et if I had known parle d'hier avec un past perfect : un cran de plus en arrière, pour un regret.\n\nRègle absolue, qui vaut pour les quatre : pas de will, pas de would dans la proposition en if. Le futur et le conditionnel restent dans l'autre moitié de la phrase.",
+            "L'anglais marque l'irréel en reculant le temps. Plus l'hypothèse est éloignée du réel, plus le verbe recule dans le passé — même quand on parle du présent ou du futur.\n\nC'est pourquoi if I were rich parle d'aujourd'hui : le prétérit ne dit pas le passé, il dit l'irréel. Et if I had known parle d'hier avec un past perfect : un cran de plus en arrière, pour un regret.\n\nRègle de base, valable pour les quatre : pas de will ni de would dans la proposition en if. Le futur et le conditionnel restent dans l'autre moitié de la phrase. (Les exceptions — if you will just wait, l'inversion should you need — se voient plus tard.)",
           visuels: [
             {
               type: "tableau",
@@ -270,7 +270,7 @@ export const ANGLAIS_COURS_AVANCE: LotCartes[] = [
       { etranger: "The bus that goes to Lyon leaves at six.", francais: "Le bus qui va à Lyon part à six heures." },
       { etranger: "I remember the day when we met.", francais: "Je me souviens du jour où on s'est rencontrés." },
       { etranger: "Everything you said was true.", francais: "Tout ce que tu as dit était vrai.", note: "Après everything, le pronom relatif s'omet couramment." },
-      { etranger: "She's the one I trust.", francais: "C'est elle en qui j'ai confiance." },
+      { etranger: "She's the one I trust.", francais: "C'est elle que je crois sur parole.", note: "Le relatif complément s'omet : the one (that) I trust." },
     ],
   },
 ];

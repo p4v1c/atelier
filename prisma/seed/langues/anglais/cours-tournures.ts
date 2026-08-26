@@ -217,7 +217,7 @@ export const ANGLAIS_COURS_TOURNURES: LotCartes[] = [
                 ["faire ses devoirs", "do your homework", "do", "make your homework"],
                 ["rendre un service", "do a favour", "do", "make a favour"],
                 ["prendre une photo", "take a photo", "take", "make a photo"],
-                ["prendre son temps", "take your time", "take", "have your time"],
+                ["prendre son temps", "take your time", "take", "take the time"],
                 ["jeter un œil", "have a look", "have", "make a look"],
                 ["prendre une douche", "have a shower", "have (GB)", "make a shower"],
                 ["passer un examen", "take an exam", "take", "pass an exam"],
@@ -387,12 +387,12 @@ export const ANGLAIS_COURS_TOURNURES: LotCartes[] = [
       },
       {
         etranger: "I'll never forget living there.",
-        francais: "Je n'oublierai jamais d'avoir vécu là-bas.",
+        francais: "Je n'oublierai jamais ces années là-bas.",
         note: "Forget + -ing : on n'oublie pas un souvenir. Presque toujours au futur négatif.",
       },
       {
         etranger: "Try turning it off and on again.",
-        francais: "Essaie de l'éteindre puis de le rallumer.",
+        francais: "Tu n'as qu'à l'éteindre et le rallumer.",
         note: "Try + -ing : on tente une méthode pour voir si elle marche.",
       },
       {

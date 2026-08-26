@@ -17,7 +17,7 @@ export const ESPAGNOL_VOCABULAIRE_MUNDO: LotCartes[] = [
       "Cuire, mijoter, faire revenir, éplucher. Les verbes de la cuisine espagnole sont précis, et la moitié des ingrédients changent de nom d'un pays à l'autre.",
     tip: "Cocer, c'est cuire ; cocinar, c'est cuisiner ; coser, c'est coudre. Une lettre sépare la casserole de l'aiguille.",
     difficulty: 1,
-    niveau: "A1",
+    niveau: "A2",
     oral: true,
     parle: true,
     cours: {
@@ -132,7 +132,7 @@ export const ESPAGNOL_VOCABULAIRE_MUNDO: LotCartes[] = [
       },
       {
         etranger: "La cena es a las nueve en España.",
-        francais: "Le dîner est à vingt et une heures en Espagne.",
+        francais: "Le dîner est à neuf heures en Espagne.",
         note: "La cena, le dîner. « La scène » se dit la escena : le faux ami est proche.",
       },
     ],
@@ -144,9 +144,9 @@ export const ESPAGNOL_VOCABULAIRE_MUNDO: LotCartes[] = [
     title: "Les vêtements et l'apparence",
     statement:
       "S'habiller se dit ponerse, porter llevar, essayer probarse. Trois verbes pronominaux ou non selon le sens — et un vocabulaire qui change au passage de l'Atlantique.",
-    tip: "Ponerse pour le geste, llevar pour l'état, quitarse pour enlever. Les trois sont réfléchis sauf llevar.",
+    tip: "Ponerse et quitarse sont pronominaux ; llevar ne l'est jamais dans cet emploi.",
     difficulty: 1,
-    niveau: "A1",
+    niveau: "A2",
     oral: true,
     parle: true,
     cours: {
@@ -386,7 +386,7 @@ export const ESPAGNOL_VOCABULAIRE_MUNDO: LotCartes[] = [
     category: "Vocabulaire",
     title: "La ville, les commerces, les services",
     statement:
-      "La panadería, la ferretería, el estanco. Les commerces espagnols se nomment par un suffixe régulier — et l'un d'eux n'a aucun équivalent en France.",
+      "La panadería, la ferretería, el estanco. Les commerces espagnols se nomment presque tous par un suffixe régulier — sauf l'estanco, le bureau de tabac, dont le nom échappe à la règle.",
     tip: "Le suffixe -ería fabrique le commerce à partir du produit : pan donne panadería, carne donne carnicería, libro donne librería.",
     difficulty: 1,
     niveau: "A1",
@@ -398,7 +398,7 @@ export const ESPAGNOL_VOCABULAIRE_MUNDO: LotCartes[] = [
         {
           titre: "La machine à fabriquer des commerces",
           texte:
-            "L'espagnol dispose d'un suffixe productif, -ería, qui transforme presque n'importe quel produit en nom de commerce. Le connaître dispense d'apprendre la liste.\n\nPan donne panadería, la boulangerie. Carne donne carnicería, la boucherie. Pescado donne pescadería, la poissonnerie. Fruta donne frutería. Zapato donne zapatería. Papel donne papelería. Flor donne floristería. Libro donne librería.\n\nAttention à ce dernier : librería est la librairie, et la bibliothèque se dit biblioteca. C'est le seul cas où le suffixe induit un francophone en erreur — parce que le français a exactement le même mot pour autre chose.\n\nUn suffixe voisin, -ero et -era, désigne la personne : el panadero, la carnicera, el pescadero, la florista.\n\nDeux commerces échappent au schéma. La farmacia, la pharmacie, garde le mot savant. Et el estanco est le bureau de tabac espagnol, qui vend aussi les timbres — un monopole d'État sans équivalent exact en France, où la loterie et le tabac se partagent autrement.",
+            "L'espagnol dispose d'un suffixe productif, -ería, qui transforme presque n'importe quel produit en nom de commerce. Le connaître dispense d'apprendre la liste.\n\nPan donne panadería, la boulangerie. Carne donne carnicería, la boucherie. Pescado donne pescadería, la poissonnerie. Fruta donne frutería. Zapato donne zapatería. Papel donne papelería. Flor donne floristería. Libro donne librería.\n\nAttention à ce dernier : librería est la librairie, et la bibliothèque se dit biblioteca. C'est le seul cas où le suffixe induit un francophone en erreur — parce que le français a exactement le même mot pour autre chose.\n\nUn suffixe voisin, -ero et -era, désigne la personne : el panadero, la carnicera, el pescadero, la florista.\n\nDeux commerces échappent au schéma. La farmacia, la pharmacie, garde le mot savant. Et el estanco est le bureau de tabac espagnol : comme en France, un débit sous monopole d'État, et il vend aussi les timbres.",
           visuels: [
             {
               type: "tableau",
@@ -413,8 +413,8 @@ export const ESPAGNOL_VOCABULAIRE_MUNDO: LotCartes[] = [
                 ["el libro", "la librería", "el librero"],
                 ["la flor", "la floristería", "el florista"],
                 ["el papel", "la papelería", "—"],
-                ["—", "la ferretería", "quincaillerie"],
-                ["—", "el estanco", "tabac et timbres"],
+                ["—", "la ferretería", "el ferretero"],
+                ["—", "el estanco", "el estanquero"],
               ],
               note: "Librería est la librairie ; la bibliothèque se dit biblioteca.",
             },
@@ -499,7 +499,7 @@ export const ESPAGNOL_VOCABULAIRE_MUNDO: LotCartes[] = [
       },
       {
         etranger: "El centro de salud cierra a las ocho.",
-        francais: "Le dispensaire ferme à vingt heures.",
+        francais: "Le dispensaire ferme à huit heures.",
         note: "El centro de salud ou el ambulatorio ; urgencias pour les urgences.",
       },
       {
@@ -516,7 +516,7 @@ export const ESPAGNOL_VOCABULAIRE_MUNDO: LotCartes[] = [
     title: "Les verbes du mouvement",
     statement:
       "Ir, venir, llevar, traer. Quatre verbes gouvernés par un seul principe — où se tient celui qui parle — et que le français emploie exactement à l'envers dans la moitié des cas.",
-    tip: "En espagnol, venir signifie toujours « vers moi qui parle ». Répondre « ¡voy!  » quand on nous appelle, jamais « ¡vengo! ».",
+    tip: "En espagnol, venir signifie toujours « vers moi qui parle ». Répondre « ¡voy! » quand on nous appelle, jamais « ¡vengo! ».",
     difficulty: 2,
     niveau: "A2",
     oral: true,
@@ -572,14 +572,14 @@ export const ESPAGNOL_VOCABULAIRE_MUNDO: LotCartes[] = [
                 ["bajar", "de", "Baja del tren."],
                 ["cruzar", "aucune", "Cruzo la calle."],
               ],
-              note: "Llegar prend toujours a, jamais en : llegar a Madrid.",
+              note: "Llegar a pour la destination : llegar a Madrid, jamais « llegar en Madrid ». Avec un moyen de transport, en revanche : llegar en tren.",
             },
           ],
         },
         {
           titre: "Les périphrases du mouvement",
           texte:
-            "L'espagnol combine volontiers un verbe de mouvement avec un gérondif ou un infinitif, et l'ensemble prend un sens que le verbe seul n'a pas.\n\nIr a + infinitif exprime le futur proche : voy a salir, je vais sortir. C'est la construction la plus employée de la langue parlée, bien plus que le futur simple.\n\nIr + gérondif marque une progression : va mejorando, cela s'améliore peu à peu. Le mouvement est devenu métaphorique.\n\nVenir + gérondif marque une durée qui se prolonge jusqu'à maintenant : viene diciendo lo mismo desde hace años, il répète la même chose depuis des années.\n\nAndar + gérondif exprime une activité dispersée, souvent avec un soupçon de reproche : anda buscando trabajo, il cherche du travail — sans grande méthode.\n\nSalir + gérondif marque une sortie brusque : salió corriendo, il est sorti en courant. C'est l'une des rares constructions où l'espagnol met, comme l'anglais, la manière dans le gérondif.\n\nEnfin volver a + infinitif dit la répétition : vuelvo a leerlo, je le relis. Le français emploie le préfixe re-, l'espagnol une périphrase.",
+            "L'espagnol combine volontiers un verbe de mouvement avec un gérondif, et l'ensemble prend un sens que le verbe seul n'a pas. Ir a + infinitif, ir + gérondif, andar + gérondif et volver a + infinitif sont détaillés dans le cours sur les périphrases verbales ; deux constructions restent propres au mouvement.\n\nSalir + gérondif marque une sortie brusque : salió corriendo, il est sorti en courant. C'est l'une des rares constructions où l'espagnol met, comme l'anglais, la manière dans le gérondif.\n\nVenir + gérondif marque une durée qui se prolonge jusqu'à maintenant : viene diciendo lo mismo desde hace años, il répète la même chose depuis des années.",
         },
       ],
     },
@@ -607,7 +607,7 @@ export const ESPAGNOL_VOCABULAIRE_MUNDO: LotCartes[] = [
       {
         etranger: "Llegamos a Sevilla a las ocho.",
         francais: "Nous arrivons à Séville à huit heures.",
-        note: "Llegar prend toujours a, jamais en.",
+        note: "Llegar a pour la destination, jamais « llegar en » ; en revanche, llegar en tren avec un moyen de transport.",
       },
       {
         etranger: "Sube al tren, ya sale.",

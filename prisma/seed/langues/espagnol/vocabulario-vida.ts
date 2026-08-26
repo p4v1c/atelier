@@ -22,7 +22,7 @@ export const ESPAGNOL_VOCABULARIO_VIDA: LotCartes[] = [
       "Jugar a, hacer, practicar. L'espagnol choisit le verbe selon le sport, et jugar exige la préposition a — jugar al fútbol, jamais « jugar fútbol » en Espagne.",
     tip: "En Amérique latine, jugar fútbol sans préposition est courant. En Espagne, l'omettre s'entend immédiatement.",
     difficulty: 2,
-    niveau: "B1",
+    niveau: "A2",
     oral: true,
     parle: true,
     cartes: [
@@ -110,7 +110,7 @@ export const ESPAGNOL_VOCABULARIO_VIDA: LotCartes[] = [
       {
         etranger: "Bájate en la tercera parada.",
         francais: "Descends au troisième arrêt.",
-        note: "Bajarse d'un transport, pronominal. Bajar seul voudrait dire descendre quelque chose.",
+        note: "Bajarse insiste sur le mouvement propre ; bajar del autobús se dit tout autant.",
       },
       {
         etranger: "Perdimos el tren por dos minutos.",
@@ -228,7 +228,7 @@ export const ESPAGNOL_VOCABULARIO_VIDA: LotCartes[] = [
   {
     slug: "es-voc-familia",
     category: "Vocabulaire",
-    title: "La famille et les liens",
+    title: "Les liens d'alliance : cuñado, suegra, yerno",
     statement:
       "Cuñado, suegra, sobrino, yerno. L'espagnol a un mot simple pour chaque lien d'alliance là où le français compose avec « beau- » et laisse deviner.",
     tip: "Là où le français dit « beau-père » pour deux liens différents, l'espagnol distingue el suegro, père du conjoint, et el padrastro, compagnon de la mère.",
@@ -379,8 +379,8 @@ export const ESPAGNOL_VOCABULARIO_VIDA: LotCartes[] = [
     cartes: [
       {
         etranger: "Las noticias son a las ocho.",
-        francais: "Le journal est à vingt heures.",
-        aussi: ["Les informations sont à vingt heures."],
+        francais: "Le journal est à huit heures.",
+        aussi: ["Les informations sont à huit heures."],
         note: "Las noticias au pluriel pour le journal télévisé. Una noticia est une information isolée.",
       },
       {
@@ -418,9 +418,9 @@ export const ESPAGNOL_VOCABULARIO_VIDA: LotCartes[] = [
         note: "La portada, la une. El titular, le titre principal.",
       },
       {
-        etranger: "Se borró la cuenta.",
+        etranger: "Borró su cuenta.",
         francais: "Il a supprimé son compte.",
-        note: "Borrar una cuenta, l'effacer. Desactivar la désactive sans la perdre.",
+        note: "Borrar una cuenta, l'effacer. Se borró la cuenta se lirait plutôt comme un accidentel. Desactivar la désactive sans la perdre.",
       },
       {
         etranger: "La entrevista era extraoficial.",

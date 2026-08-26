@@ -43,7 +43,7 @@ export const ANGLAIS_QUOTIDIEN_A1: LotCartes[] = [
       {
         etranger: "The washing machine is broken.",
         francais: "La machine à laver est en panne.",
-        note: "Broken couvre tout ce qui ne marche plus. Out of order ne s'écrit que sur un écriteau.",
+        note: "Broken couvre tout ce qui ne marche plus. Out of order appartient surtout aux machines et aux services publics.",
       },
       {
         etranger: "There's no hot water.",
@@ -53,7 +53,7 @@ export const ANGLAIS_QUOTIDIEN_A1: LotCartes[] = [
       {
         etranger: "I'm doing the washing-up.",
         francais: "Je fais la vaisselle.",
-        note: "Washing-up, la vaisselle ; washing, le linge. Un trait d'union sépare deux corvées différentes.",
+        note: "Washing-up, la vaisselle ; washing, le linge — c'est le up qui fait la différence.",
       },
       {
         etranger: "Shall I open the window?",
@@ -74,7 +74,7 @@ export const ANGLAIS_QUOTIDIEN_A1: LotCartes[] = [
       {
         etranger: "My flat is small but bright.",
         francais: "Mon appartement est petit mais lumineux.",
-        note: "Flat au Royaume-Uni, apartment aux États-Unis. Bright pour la lumière, light pour le poids.",
+        note: "Flat au Royaume-Uni, apartment aux États-Unis. Bright dit la lumière vive ; light dit aussi la clarté d'une pièce, et le poids léger — c'est le contexte qui tranche.",
       },
     ],
   },
@@ -151,7 +151,7 @@ export const ANGLAIS_QUOTIDIEN_A1: LotCartes[] = [
     title: "Au téléphone et par messages",
     statement:
       "Le téléphone est l'épreuve la plus dure d'une langue étrangère : plus de visage, plus de contexte, et une ligne qui grésille. Ses formules sont fixes — et c'est une chance.",
-    tip: "Au téléphone, l'anglais britannique dit is that…? et non « is it…? ». C'est un usage figé, propre à l'appel.",
+    tip: "Is that…? au téléphone en britannique, is this…? en américain. Jamais is it pour identifier la personne au bout du fil.",
     difficulty: 1,
     niveau: "A1",
     oral: true,
@@ -160,7 +160,7 @@ export const ANGLAIS_QUOTIDIEN_A1: LotCartes[] = [
       {
         etranger: "Hello, is that Sarah?",
         francais: "Allô, c'est Sarah ?",
-        note: "Is that…? au téléphone. Ailleurs, on dirait is it — mais pas dans un appel.",
+        note: "Is that…? au téléphone en britannique. L'anglais américain dit plutôt Is this Sarah?",
       },
       {
         etranger: "Who's calling, please?",
@@ -214,7 +214,7 @@ export const ANGLAIS_QUOTIDIEN_A1: LotCartes[] = [
     category: "Les bases",
     title: "Les petits mots qui tiennent la phrase",
     statement:
-      "And, but, so, because, too, very. Six mots de rien qui font la différence entre une suite de mots et une phrase — et dont trois sont des pièges pour un francophone.",
+      "And, but, so, because, too, very. Six mots de rien qui font la différence entre une suite de mots et une phrase — et dont trois (too, so, because) sont des pièges pour un francophone.",
     tip: "Too veut dire trop, et jamais très. Very good est un compliment, too expensive un reproche.",
     difficulty: 1,
     niveau: "A1",
@@ -234,7 +234,7 @@ export const ANGLAIS_QUOTIDIEN_A1: LotCartes[] = [
       {
         etranger: "It was cold, so we went inside.",
         francais: "Il faisait froid, alors on est rentrés.",
-        note: "So relie une cause à sa conséquence. Il ne veut jamais dire « si » dans ce sens.",
+        note: "So relie une cause à sa conséquence. Attention, il a un autre emploi : devant un adjectif, so veut dire « tellement » — it's so cold.",
       },
       {
         etranger: "She speaks English and Spanish.",
@@ -264,7 +264,7 @@ export const ANGLAIS_QUOTIDIEN_A1: LotCartes[] = [
       {
         etranger: "Not yet.",
         francais: "Pas encore.",
-        note: "Not yet répond à une question au present perfect : Have you finished? — Not yet.",
+        note: "Not yet, la réponse standard à une question sur ce qui n'est pas encore arrivé : Have you finished? — Not yet. Are you ready? — Not yet.",
       },
       {
         etranger: "Of course.",
@@ -282,7 +282,7 @@ export const ANGLAIS_QUOTIDIEN_A1: LotCartes[] = [
       "Ce qu'on fait le week-end, et comment le proposer à quelqu'un. Le sujet qui vient juste après « comment tu t'appelles », et celui qui fait durer une conversation.",
     tip: "Play the guitar avec l'article, play football sans. L'instrument prend the, le sport jamais.",
     difficulty: 1,
-    niveau: "A1",
+    niveau: "A2",
     oral: true,
     parle: true,
     cartes: [
@@ -316,7 +316,7 @@ export const ANGLAIS_QUOTIDIEN_A1: LotCartes[] = [
       {
         etranger: "We watched a film last night.",
         francais: "On a regardé un film hier soir.",
-        note: "Watch la télévision, see un film au cinéma, look at une image. Trois verbes pour un seul « regarder ».",
+        note: "Watch chez soi — a film, TV ; see au cinéma ou au théâtre ; look at une image fixe.",
       },
       {
         etranger: "I read before going to sleep.",
@@ -326,7 +326,7 @@ export const ANGLAIS_QUOTIDIEN_A1: LotCartes[] = [
       {
         etranger: "The concert starts at eight.",
         francais: "Le concert commence à huit heures.",
-        note: "At + heure. Et l'anglais dit at eight tout court : « hours » ne se prononce pas.",
+        note: "At + heure. Et l'anglais dit at eight tout court : on ne dit pas « hours ».",
       },
       {
         etranger: "She's really into photography.",

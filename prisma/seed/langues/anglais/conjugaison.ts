@@ -56,7 +56,7 @@ export const ANGLAIS_CONJUGAISON: LotCartes[] = [
         {
           titre: "Les formes, et le -s qui piège tout le monde",
           texte:
-            "Le présent simple est presque invariable : c'est la troisième personne du singulier qui fait exception, avec son -s. He works, she eats, it costs. Cette seule lettre est la faute la plus fréquente chez les francophones, parce que le français ne l'entend pas.\n\nÀ la forme négative et interrogative, l'auxiliaire do porte la marque, et le verbe redevient nu : he doesn't work, does he work ? Écrire « does he works » revient à marquer deux fois la même chose.\n\nLe présent continu, lui, se construit toujours pareil : be conjugué, puis le verbe en -ing. I am, you are, he is — working.",
+            "Le présent simple est presque invariable : c'est la troisième personne du singulier qui fait exception, avec son -s. He works, she eats, it costs. Cette seule lettre est la faute la plus fréquente chez les francophones, parce que le français ne l'entend pas.\n\nÀ la forme négative et interrogative, l'auxiliaire do porte la marque, et le verbe redevient nu : he doesn't work, does he work? Écrire « does he works » revient à marquer deux fois la même chose.\n\nLe présent continu, lui, se construit toujours pareil : be conjugué, puis le verbe en -ing. I am, you are, he is — working.",
           visuels: [
             {
               type: "tableau",
@@ -154,7 +154,7 @@ export const ANGLAIS_CONJUGAISON: LotCartes[] = [
         {
           titre: "Le prétérit : le passé fermé",
           texte:
-            "Le prétérit raconte ce qui s'est passé à un moment précis, et fini. Dès qu'une phrase contient yesterday, last week, in 2019, two hours ago, ou dès qu'on demande when, le prétérit est obligatoire.\n\nSa forme est simple pour les verbes réguliers : le verbe plus -ed, à toutes les personnes sans exception. I worked, she worked, they worked. Les irréguliers ont leur propre forme, qu'il faut connaître : go donne went, take donne took, think donne thought.\n\nÀ la négation et à la question, c'est did qui porte le passé, et le verbe redevient nu : she didn't go, did she go ? Écrire « didn't went » est la faute classique.",
+            "Le prétérit raconte ce qui s'est passé à un moment précis, et fini. Dès qu'une phrase contient yesterday, last week, in 2019, two hours ago, ou dès qu'on demande when, le prétérit est obligatoire.\n\nSa forme est simple pour les verbes réguliers : le verbe plus -ed, à toutes les personnes sans exception. I worked, she worked, they worked. Les irréguliers ont leur propre forme, qu'il faut connaître : go donne went, take donne took, think donne thought.\n\nÀ la négation et à la question, c'est did qui porte le passé, et le verbe redevient nu : she didn't go, did she go? Écrire « didn't went » est la faute classique.",
           visuels: [
             {
               type: "frise",
@@ -182,7 +182,7 @@ export const ANGLAIS_CONJUGAISON: LotCartes[] = [
         {
           titre: "Le present perfect : le passé qui compte encore",
           texte:
-            "Le present perfect — have ou has plus le participe passé — ne raconte pas quand : il dresse un bilan valable maintenant. C'est pour cela qu'il est incompatible avec une date.\n\nTrois emplois couvrent presque tout. Le bilan : I've finished, donc c'est fait, on peut passer à la suite. L'expérience : Have you ever been to London ? peu importe quand. La période non close : this week, today, this year — tant qu'elle dure, on est au present perfect.\n\nDeux mots à retenir : since introduit un point de départ — since 2019, since Monday — et for une durée — for three years. Le français dit « depuis » pour les deux, l'anglais non.",
+            "Le present perfect — have ou has plus le participe passé — ne raconte pas quand : il dresse un bilan valable maintenant. C'est pour cela qu'il est incompatible avec une date.\n\nTrois emplois couvrent presque tout. Le bilan : I've finished, donc c'est fait, on peut passer à la suite. L'expérience : Have you ever been to London? peu importe quand. La période non close : this week, today, this year — tant qu'elle dure, on est au present perfect.\n\nDeux mots à retenir : since introduit un point de départ — since 2019, since Monday — et for une durée — for three years. Le français dit « depuis » pour les deux, l'anglais non.",
           visuels: [
             {
               type: "tableau",
@@ -215,7 +215,7 @@ export const ANGLAIS_CONJUGAISON: LotCartes[] = [
       { etranger: "They had already left.", francais: "Ils étaient déjà partis.", note: "Past perfect : antérieur à un autre passé." },
       { etranger: "I've known her for ten years.", francais: "Je la connais depuis dix ans.", note: "For introduit une durée ; since, un point de départ." },
       { etranger: "He worked there in 2019.", francais: "Il y a travaillé en 2019.", note: "Une date : prétérit." },
-      { etranger: "We haven't decided yet.", francais: "On n'a pas encore décidé.", note: "Yet appelle toujours le present perfect." },
+      { etranger: "We haven't decided yet.", francais: "On n'a pas encore décidé.", note: "Avec un verbe, yet appelle le present perfect en britannique : we haven't decided yet. Avec be ou un impératif, il s'emploie librement : it isn't ready yet." },
       { etranger: "It happened two hours ago.", francais: "C'est arrivé il y a deux heures.", note: "Ago impose le prétérit, sans exception." },
     ],
   },
@@ -275,9 +275,9 @@ export const ANGLAIS_CONJUGAISON: LotCartes[] = [
       ],
     },
     cartes: [
-      { etranger: "I'll get it.", francais: "J'y vais.", aussi: ["Je réponds."], note: "Décision prise à l'instant : will." },
+      { etranger: "The phone's ringing. — I'll get it.", francais: "Je réponds.", aussi: ["J'y vais.", "J'y vais, moi."], note: "Décision prise à l'instant : will." },
       { etranger: "I'm going to look for a new job.", francais: "Je vais chercher un nouveau travail.", note: "Intention déjà formée avant de parler : going to." },
-      { etranger: "I'm meeting Sarah at six.", francais: "Je vois Sarah à six heures.", note: "C'est dans l'agenda : présent continu." },
+      { etranger: "I'm meeting Sarah at six.", francais: "Je vois Sarah à six heures.", aussiEtranger: ["I'm seeing Sarah at six."], note: "C'est dans l'agenda : présent continu." },
       { etranger: "The train leaves at eight.", francais: "Le train part à huit heures.", note: "Horaire officiel : présent simple." },
       { etranger: "I'm about to leave.", francais: "Je suis sur le point de partir.", note: "Imminence immédiate." },
       { etranger: "I'll call you when I arrive.", francais: "Je t'appelle en arrivant.", aussi: ["Je t'appellerai quand j'arriverai."], note: "Après when, présent — jamais « when I will arrive »." },

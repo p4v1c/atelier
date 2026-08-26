@@ -41,7 +41,7 @@ export const ESPAGNOL_BASES: LotCartes[] = [
     parle: true,
     oral: true,
     cartes: [
-      { etranger: "Me he dormido.", francais: "Je me suis rendormi.", aussi: ["J'ai trop dormi."], note: "Dormirse, c'est s'endormir ; dormir, c'est dormir." },
+      { etranger: "Me he dormido.", francais: "Je me suis endormi.", aussi: ["Je ne me suis pas réveillé.", "J'ai trop dormi."], note: "Dormirse, c'est s'endormir ; dormir, c'est dormir." },
       { etranger: "Voy con retraso.", francais: "Je suis en retard.", aussi: ["J'ai du retard."], aussiEtranger: ["Llego tarde.", "Voy tarde."] },
       { etranger: "Tengo que hacer la compra.", francais: "Je dois faire les courses.", note: "Tener que + infinitif : l'obligation la plus courante." },
       { etranger: "¿Puedes comprar pan?", francais: "Tu peux acheter du pain ?" },

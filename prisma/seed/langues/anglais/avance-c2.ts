@@ -50,7 +50,7 @@ export const ANGLAIS_AVANCE_C2: LotCartes[] = [
       {
         etranger: "The bank raised interest rates.",
         francais: "La banque a relevé les taux d'intérêt.",
-        note: "Raise rates, relever. Le mouvement inverse est cut rates, pas « lower ».",
+        note: "Raise rates / cut rates dans la presse ; lower rates se dit aussi, un ton plus neutre.",
       },
       {
         etranger: "The firm went bust last winter.",
@@ -150,9 +150,9 @@ export const ANGLAIS_AVANCE_C2: LotCartes[] = [
       },
       {
         etranger: "It's a coping mechanism.",
-        francais: "C'est un mécanisme de défense.",
-        aussi: ["C'est une stratégie d'adaptation."],
-        note: "Coping mechanism appartient au vocabulaire clinique passé dans l'usage courant.",
+        francais: "C'est une stratégie d'adaptation.",
+        aussi: ["C'est un mécanisme d'adaptation."],
+        note: "Ne pas confondre avec defence mechanism, le mécanisme de défense inconscient : coping mechanism est une stratégie consciente.",
       },
     ],
   },
@@ -385,7 +385,7 @@ export const ANGLAIS_AVANCE_C2: LotCartes[] = [
     cartes: [
       {
         etranger: "Well, that went well.",
-        francais: "Eh bien, ça s'est merveilleusement passé.",
+        francais: "Eh bien, ça s'est bien passé.",
         aussi: ["Bravo, quel succès."],
         note: "Se dit après un échec. La phrase est littéralement positive : seul le contexte l'inverse.",
       },
@@ -484,7 +484,8 @@ export const ANGLAIS_AVANCE_C2: LotCartes[] = [
         etranger: "This begs a further question.",
         francais: "Cela soulève une autre question.",
         aussi: ["Cela appelle une question supplémentaire."],
-        note: "L'usage puriste réserve beg the question à une pétition de principe ; l'usage courant l'a élargi.",
+        aussiEtranger: ["This raises a further question."],
+        note: "Raise est le verbe sûr ; beg the question au sens de « soulever » reste critiqué, réservé en toute rigueur à la pétition de principe.",
       },
       {
         etranger: "By the same token, the reverse holds.",
@@ -629,7 +630,8 @@ export const ANGLAIS_AVANCE_C2: LotCartes[] = [
       {
         etranger: "Further work is needed to confirm this.",
         francais: "D'autres travaux sont nécessaires pour le confirmer.",
-        note: "Further work is needed clôt presque toutes les discussions d'article.",
+        aussiEtranger: ["Further research is needed to confirm this."],
+        note: "Further work is needed clôt presque toutes les discussions d'article. Research se dit tout aussi bien : les deux sont indénombrables.",
       },
       {
         etranger: "We cannot rule out a confounding factor.",

@@ -23,7 +23,7 @@ export const ESPAGNOL_DEBUTANT: LotCartes[] = [
       { etranger: "Son las tres y media.", francais: "Il est trois heures et demie.", note: "Son au pluriel, parce que « tres » est pluriel." },
       { etranger: "Es la una y cuarto.", francais: "Il est une heure et quart.", note: "Es au singulier : une seule heure." },
       { etranger: "Son las siete menos cuarto.", francais: "Il est sept heures moins le quart." },
-      { etranger: "Nací en 1997.", francais: "Je suis né en 1997.", note: "nacer → nací à l'indefinido." },
+      { etranger: "Nací en 1997.", francais: "Je suis né en 1997.", note: "nacer → nací au passé simple." },
       { etranger: "Mi cumpleaños es el tres de mayo.", francais: "Mon anniversaire est le trois mai.", note: "Pas d'ordinal, et les mois ne prennent pas de majuscule." },
       { etranger: "Somos doce.", francais: "Nous sommes douze." },
       { etranger: "Cuesta diecinueve euros con cincuenta.", francais: "Ça coûte dix-neuf euros cinquante." },
@@ -64,7 +64,7 @@ export const ESPAGNOL_DEBUTANT: LotCartes[] = [
     title: "Faire des achats",
     statement:
       "Demander un prix, une taille, essayer, rendre. En Espagne, on tutoie très vite, y compris en magasin.",
-    tip: "Pour demander poliment, l'imparfait suffit : quería voir plus doux que quiero, sans être moins clair.",
+    tip: "Pour demander poliment, l'imparfait suffit : quería sonne plus doux que quiero, sans être moins clair.",
     difficulty: 1,
     niveau: "A1",
     oral: true,

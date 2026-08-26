@@ -46,7 +46,7 @@ export const ANGLAIS_COURS_USAGE: LotCartes[] = [
         {
           titre: "Le th, et le h",
           texte:
-            "Le th n'existe pas en français, et se remplace souvent par un s ou un z, ce qui crée de vraies confusions : think devient sink, they devient day.\n\nIl a deux valeurs. Sourde dans think, thanks, three, both : la langue touche les dents, l'air passe, les cordes vocales restent muettes. Sonore dans this, that, they, mother : même position, mais les cordes vibrent.\n\nLe h, lui, se prononce toujours en anglais quand il est écrit — sauf dans hour, honest, honour, heir. Un francophone l'omet volontiers, et « I ate » à la place de « I hate » change beaucoup la phrase.\n\nSymétriquement, il ne faut pas en ajouter là où il n'y en a pas : « I'm 'appy » et « I'm hangry » sont deux erreurs miroir.",
+            "Le th n'existe pas en français, et se remplace souvent par un s ou un z, ce qui crée de vraies confusions : think devient sink, they devient day.\n\nIl a deux valeurs. Sourde dans think, thanks, three, both : la langue touche les dents, l'air passe, les cordes vocales restent muettes. Sonore dans this, that, they, mother : même position, mais les cordes vibrent.\n\nLe h, lui, se prononce toujours en anglais quand il est écrit — sauf dans hour, honest, honour, heir. Un francophone l'omet volontiers, et « I ate » à la place de « I hate » change beaucoup la phrase.\n\nSymétriquement, il ne faut pas en ajouter là où il n'y en a pas : « I'm 'appy » pour happy, et « heat » prononcé pour eat, sont deux erreurs miroir.",
         },
         {
           titre: "Le -ed final, trois sons pour une orthographe",
@@ -122,19 +122,19 @@ export const ANGLAIS_COURS_USAGE: LotCartes[] = [
         {
           titre: "La ponctuation, qui n'est pas la nôtre",
           texte:
-            "Pas d'espace avant les deux-points, le point-virgule, le point d'interrogation ni le point d'exclamation. C'est le marqueur le plus visible d'un texte tapé par un francophone.\n\nLes guillemets sont doubles et droits : \"like this\", pas « comme ceci ».\n\nLes millésimes et les nombres emploient la virgule pour les milliers et le point pour les décimales : 1,500.75. L'inverse exact du français.\n\nEnfin, les titres et sous-titres prennent souvent une majuscule à chaque mot important — c'est le title case — alors que le français n'en met qu'au premier.",
+            "Pas d'espace avant les deux-points, le point-virgule, le point d'interrogation ni le point d'exclamation. C'est le marqueur le plus visible d'un texte tapé par un francophone.\n\nLes guillemets anglais sont courbes et doubles : “like this”. L'usage britannique emploie souvent les simples : ‘like this’. Jamais les chevrons français.\n\nLes nombres emploient la virgule pour les milliers et le point pour les décimales : 1,500.75 — l'inverse exact du français. Les années, elles, s'écrivent sans séparateur : in 1500, by 2030.\n\nEnfin, les titres et sous-titres prennent souvent une majuscule à chaque mot important — c'est le title case — alors que le français n'en met qu'au premier.",
         },
       ],
     },
     cartes: [
       { etranger: "We decided to postpone it.", francais: "Nous avons pris la décision de le reporter.", note: "Le verbe plutôt que le nom : decided, pas « took the decision »." },
       { etranger: "I'm writing to ask about the position.", francais: "Je me permets de vous écrire au sujet du poste.", note: "L'anglais professionnel va droit au but sans être impoli." },
-      { etranger: "Because the deadline moved,", francais: "En raison du report de l'échéance,", note: "Because vaut mieux que « due to the fact that »." },
+      { etranger: "Because the deadline moved, we had to reschedule.", francais: "Comme l'échéance a été repoussée, nous avons dû tout replanifier.", note: "Because vaut mieux que « due to the fact that »." },
       { etranger: "Please let me know if anything's unclear.", francais: "N'hésitez pas si quelque chose n'est pas clair.", note: "« Don't hesitate » existe mais sonne traduit." },
       { etranger: "However, the figures tell another story.", francais: "Cependant, les chiffres racontent autre chose.", note: "However est neutre ; nevertheless est un cran au-dessus." },
       { etranger: "So we'll need another meeting.", francais: "Il nous faudra donc une autre réunion.", note: "So dans un courriel, therefore à l'écrit soutenu." },
-      { etranger: "The report is attached.", francais: "Le rapport est joint.", note: "Plus court que « please find attached », et parfaitement courant." },
-      { etranger: "I'll get back to you by Thursday.", francais: "Je reviens vers vous d'ici jeudi." },
+      { etranger: "The report is attached.", francais: "Le rapport est joint.", note: "Plus court que please find attached, qui reste la formule figée des courriers formels ; the report is attached est la forme courante du courriel de travail." },
+      { etranger: "I'll get back to you by Thursday.", francais: "Je vous réponds d'ici jeudi.", note: "Get back to someone, recontacter. Le calque « revenir vers vous » s'est répandu en français d'entreprise, mais ce n'en est pas la traduction." },
       { etranger: "Thanks for your patience.", francais: "Merci de votre patience.", note: "Thanks est courant à l'écrit professionnel ; thank you est plus formel." },
       { etranger: "Let's keep it short.", francais: "Faisons court.", note: "Le conseil que l'anglais écrit s'applique à lui-même." },
     ],
@@ -177,7 +177,7 @@ export const ANGLAIS_COURS_USAGE: LotCartes[] = [
         {
           titre: "Séparables ou non",
           texte:
-            "Certains phrasal verbs acceptent que le complément se glisse entre le verbe et la particule : turn the light off, ou turn off the light. Les deux sont corrects.\n\nMais si le complément est un pronom, il DOIT se placer au milieu : turn it off. Dire « turn off it » est fautif, sans exception.\n\nD'autres sont inséparables, en général ceux à deux particules : look after the children, jamais « look the children after ». On les reconnaît à l'usage plus qu'à une règle.\n\nUn moyen simple de trancher : essayer avec it. Si turn it off sonne juste, le verbe est séparable.",
+            "Certains phrasal verbs acceptent que le complément se glisse entre le verbe et la particule : turn the light off, ou turn off the light. Les deux sont corrects.\n\nMais si le complément est un pronom, il DOIT se placer au milieu : turn it off. Dire « turn off it » est fautif, sans exception.\n\nD'autres sont inséparables : look after the children, jamais « look the children after ». C'est systématiquement le cas de ceux à deux particules : put up with, get away with, look forward to.\n\nUn moyen simple de trancher : essayer avec it. Si turn it off sonne juste, le verbe est séparable.",
         },
         {
           titre: "Registre",
@@ -193,7 +193,7 @@ export const ANGLAIS_COURS_USAGE: LotCartes[] = [
       { etranger: "Go on, I'm listening.", francais: "Continue, je t'écoute.", note: "On marque la continuation." },
       { etranger: "She got over it quickly.", francais: "Elle s'en est vite remise.", note: "Over : franchir, dépasser." },
       { etranger: "Write it down before you forget.", francais: "Note-le avant d'oublier.", note: "Down pour la mise par écrit." },
-      { etranger: "I'll look into it tomorrow.", francais: "Je regarderai ça demain.", note: "Look into, examiner. Équivalent formel : investigate." },
+      { etranger: "I'll look into it tomorrow.", francais: "Je regarderai ça demain.", note: "Look into est un verbe prépositionnel : jamais de pronom entre les deux mots — look into it, jamais « look it into »." },
       { etranger: "He got away with it.", francais: "Il s'en est tiré.", note: "Trois éléments, inséparables : jamais « got it away with »." },
       { etranger: "Speak up, I can't hear you.", francais: "Parle plus fort, je ne t'entends pas.", note: "Up intensifie." },
       { etranger: "We'll get by somehow.", francais: "On s'en sortira d'une façon ou d'une autre." },

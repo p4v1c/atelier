@@ -84,7 +84,7 @@ export const ANGLAIS_DOMAINES_3: LotCartes[] = [
     title: "Les animaux",
     statement:
       "Herd, flock, swarm, litter. L'anglais a un collectif différent pour chaque espèce, et il en fait volontiers un jeu.",
-    tip: "Beaucoup de noms d'animaux ont un mâle, une femelle et un petit distincts : horse, mare, foal ; sheep, ewe, lamb. Le mot générique n'est pas toujours le masculin.",
+    tip: "Beaucoup d'animaux ont un générique, un mâle, une femelle et un petit : horse / stallion / mare / foal ; sheep / ram / ewe / lamb. Le générique n'est pas le nom du mâle, contrairement au français.",
     difficulty: 2,
     niveau: "B1",
     oral: true,
@@ -242,8 +242,8 @@ export const ANGLAIS_DOMAINES_3: LotCartes[] = [
       },
       {
         etranger: "The cliff is crumbling into the sea.",
-        francais: "La falaise s'effrite dans la mer.",
-        note: "Crumble, s'effriter. Le mot désigne aussi un dessert.",
+        francais: "La falaise s'éboule dans la mer.",
+        note: "Crumble, s'effondrer par pans. Le mot désigne aussi un dessert.",
       },
       {
         etranger: "The seam runs for three kilometres.",
@@ -303,12 +303,12 @@ export const ANGLAIS_DOMAINES_3: LotCartes[] = [
       {
         etranger: "He's seeing a therapist.",
         francais: "Il consulte un psychologue.",
-        note: "See a therapist, consulter. Le verbe see suffit, sans complément d'objet.",
+        note: "See a therapist : le verbe see suffit là où le français dirait « aller voir » ou « consulter ».",
       },
       {
-        etranger: "It's a common coping strategy.",
-        francais: "C'est une stratégie d'adaptation courante.",
-        note: "Coping strategy, du vocabulaire clinique passé dans l'usage.",
+        etranger: "She's a big believer in self-care.",
+        francais: "Elle croit beaucoup à l'importance de prendre soin de soi.",
+        note: "Self-care, prendre soin de soi. Le mot est passé du jargon thérapeutique au langage courant.",
       },
       {
         etranger: "She has been struggling for months.",
@@ -483,7 +483,7 @@ export const ANGLAIS_DOMAINES_3: LotCartes[] = [
       {
         etranger: "She works for a local charity.",
         francais: "Elle travaille pour une association locale.",
-        note: "A charity, une association reconnue d'utilité publique. Le mot est neutre.",
+        note: "A charity, une association à but non lucratif enregistrée comme telle. Le mot n'a rien de la connotation de « charité ».",
       },
       {
         etranger: "He volunteers at the food bank.",

@@ -123,7 +123,7 @@ export const ANGLAIS_AVANCE_B2: LotCartes[] = [
       {
         etranger: "Revenue doubled between 2019 and 2022.",
         francais: "Le chiffre d'affaires a doublé entre 2019 et 2022.",
-        note: "Revenue au sens de chiffre d'affaires est indénombrable : jamais « revenues ».",
+        note: "Revenue est le plus souvent indénombrable ; « revenues » existe quand on distingue plusieurs sources de recettes.",
       },
       {
         etranger: "Let me walk you through the figures.",
@@ -161,12 +161,10 @@ export const ANGLAIS_AVANCE_B2: LotCartes[] = [
                 ["experiment", "l'expérience scientifique", "expérience vécue", "experience"],
                 ["significant", "statistiquement établi", "important en volume", "substantial, large"],
                 ["record", "le registre, le dossier", "record sportif", "record (mais autre emploi)"],
-                ["trial", "le procès, l'essai clinique", "travail", "work"],
-                ["sentence", "la peine prononcée", "phrase (grammaire)", "sentence aussi — le verbe tranche"],
-                ["bill", "le projet de loi, l'addition", "bille, billet", "marble, ticket"],
+                ["sentence", "la peine, ET la phrase", "le français « sentence » (maxime)", "maxim, saying"],
+                ["bill", "le projet de loi, l'addition — et, aux États-Unis, un billet de banque", "bille", "marble"],
                 ["dismiss", "rejeter, licencier", "démissionner", "resign"],
                 ["patent", "le brevet", "patient, patenté", "patient, obvious"],
-                ["compound", "le composé chimique", "composer", "compose"],
               ],
               note: "Evidence ne prend jamais d'article : a piece of evidence, some evidence, jamais « an evidence ».",
             },
@@ -180,7 +178,7 @@ export const ANGLAIS_AVANCE_B2: LotCartes[] = [
         {
           titre: "Le droit, où le mot engage",
           texte:
-            "En droit, le faux ami ne fait pas sourire : il change l'acte.\n\nA bill est un projet de loi tant qu'il n'est pas voté ; une fois adopté, il devient an act. Le même mot désigne aussi l'addition au restaurant, et rien d'autre : une facture d'entreprise est an invoice.\n\nTo dismiss a case, c'est rejeter une affaire ; to dismiss an employee, c'est le licencier. Ce n'est jamais démissionner, qui se dit resign — un faux ami d'autant plus traître que « démission » et dismiss se ressemblent.\n\nA sentence est la peine prononcée par le tribunal. Le mot désigne aussi la phrase en grammaire, mais le verbe to sentence ne parle que de justice : he was sentenced to two years.\n\nEnfin faith. To act in good faith, agir de bonne foi. Le mot ne traduit jamais « fait », qui se dit fact — et in fact veut dire en réalité, pas « en fait » au sens de remplissage oral.",
+            "En droit, le faux ami ne fait pas sourire : il change l'acte.\n\nA bill est un projet de loi tant qu'il n'est pas voté ; une fois adopté, il devient an act. Le même mot désigne aussi l'addition au restaurant — et, en anglais américain, un billet de banque : a ten-dollar bill. Une facture d'entreprise, elle, se dit toujours an invoice.\n\nTo dismiss a case, c'est rejeter une affaire ; to dismiss an employee, c'est le licencier. Ce n'est jamais démissionner, qui se dit resign — un faux ami d'autant plus traître que « démission » et dismiss se ressemblent.\n\nA sentence est la peine prononcée par le tribunal. Le mot désigne aussi la phrase en grammaire, mais le verbe to sentence ne parle que de justice : he was sentenced to two years.\n\nEnfin faith. To act in good faith, agir de bonne foi. Le mot ne traduit jamais « fait », qui se dit fact — et in fact veut dire en réalité, pas « en fait » au sens de remplissage oral.",
           visuels: [
             {
               type: "comparaison",
@@ -244,7 +242,7 @@ export const ANGLAIS_AVANCE_B2: LotCartes[] = [
       {
         etranger: "These results are not significant.",
         francais: "Ces résultats ne sont pas significatifs.",
-        note: "Significant veut dire statistiquement établi, pas « important ». Le contresens le plus fréquent.",
+        note: "Dans un article scientifique, significant veut dire statistiquement établi — pas simplement important. Ailleurs, le sens courant de « notable » reste parfaitement valide.",
       },
       {
         etranger: "The patent expires next year.",
@@ -297,7 +295,7 @@ export const ANGLAIS_AVANCE_B2: LotCartes[] = [
                 ["I'm sure it's fine, but…", "il est rassuré", "il ne l'est pas du tout"],
                 ["Quite good.", "assez bon (GB) / très bon (US)", "l'accent change le sens"],
               ],
-              note: "Quite est le plus traître : au Royaume-Uni il tempère, aux États-Unis il renforce.",
+              note: "Devant un adjectif gradable, quite tempère en anglais britannique et renforce en américain ; devant un adjectif extrême (brilliant, exhausted), il renforce partout.",
             },
           ],
         },

@@ -132,7 +132,7 @@ export const ESPAGNOL_PRONUNCIACION: LotCartes[] = [
       {
         etranger: "Con mi hermano y con mi prima.",
         francais: "Avec mon frère et avec ma cousine.",
-        note: "Deux con, deux o purs. Et deux h muets dans hermano.",
+        note: "Deux con, deux o purs. Et le h de hermano, muet comme tous les h espagnols.",
       },
     ],
   },
@@ -530,7 +530,7 @@ export const ESPAGNOL_PRONUNCIACION: LotCartes[] = [
         {
           titre: "Fortes et faibles",
           texte:
-            "L'espagnol classe ses cinq voyelles en deux groupes, et toute la règle en découle.\n\nLes fortes, ou ouvertes : a, e, o. Les faibles, ou fermées : i, u.\n\nDeux fortes qui se suivent forment toujours deux syllabes distinctes. C'est un hiatus : le-er, ca-os, te-a-tro, po-e-ma, a-ho-ra — le h muet ne compte pas.\n\nUne forte et une faible forment une seule syllabe. C'est une diphtongue, et la forte porte le son principal : bai-le, cau-sa, pei-ne, bue-no, tie-ne, sie-te, ciu-dad.\n\nDeux faibles forment aussi une seule syllabe : ciu-dad, cui-da-do, viu-da.\n\nTrois voyelles peuvent même se grouper en triphtongue quand une forte est encadrée de deux faibles : U-ru-guay, es-tu-diáis.\n\nCette classification n'a rien de théorique. Elle décide du nombre de syllabes du mot, donc de la syllabe qui porte l'accent tonique, donc de la présence ou non d'un accent écrit. Un apprenant qui compte mal les syllabes accentue mal et orthographie mal.",
+            "L'espagnol classe ses cinq voyelles en deux groupes, et toute la règle en découle.\n\nLes fortes, ou ouvertes : a, e, o. Les faibles, ou fermées : i, u.\n\nDeux fortes qui se suivent forment toujours deux syllabes distinctes. C'est un hiatus : le-er, ca-os, te-a-tro, po-e-ma, a-ho-ra — le h muet ne compte pas.\n\nUne forte et une faible forment une seule syllabe. C'est une diphtongue, et la forte porte le son principal : bai-le, cau-sa, pei-ne, bue-no, tie-ne, sie-te.\n\nDeux faibles forment aussi une seule syllabe : ciu-dad, cui-da-do, viu-da.\n\nTrois voyelles peuvent même se grouper en triphtongue quand une forte est encadrée de deux faibles : U-ru-guay, es-tu-diáis.\n\nCette classification n'a rien de théorique. Elle décide du nombre de syllabes du mot, donc de la syllabe qui porte l'accent tonique, donc de la présence ou non d'un accent écrit. Un apprenant qui compte mal les syllabes accentue mal et orthographie mal.",
           visuels: [
             {
               type: "tableau",
@@ -580,7 +580,7 @@ export const ESPAGNOL_PRONUNCIACION: LotCartes[] = [
         {
           titre: "Ce que le francophone doit désapprendre",
           texte:
-            "Le français a lui aussi des diphtongues graphiques, mais il les traite tout autrement, et trois réflexes doivent s'éteindre.\n\nPremier réflexe : lire ou comme un son unique. En espagnol, ou n'existe pratiquement pas comme groupe, et le son « ou » s'écrit u. Un francophone qui lit bueno en cherchant un « ou » se trompe : c'est bu-e-no, soudé en « boué-no ».\n\nDeuxième réflexe : lire ai, ei, au comme en français. Baile ne se dit pas « bèle » mais « ba-i-le » soudé, avec les deux voyelles audibles. Causa n'est pas « cauza » mais « ca-ou-sa ». Peine n'est pas « pène » mais « pé-i-ne ». La règle est constante : en espagnol, chaque voyelle écrite se prononce.\n\nTroisième réflexe : avaler le e final. Siete a deux syllabes et le e final s'entend nettement.\n\nLe principe qui les résume tous : l'espagnol n'a pas de digramme vocalique. Deux voyelles écrites font deux sons, qu'ils tiennent dans une syllabe ou dans deux. C'est cette transparence qui rend la langue lisible à haute voix dès le premier jour — à condition de ne pas y projeter l'orthographe française.",
+            "Le français a lui aussi des diphtongues graphiques, mais il les traite tout autrement, et trois réflexes doivent s'éteindre.\n\nPremier réflexe : lire ou comme un son unique. En espagnol, ou n'existe pratiquement pas comme groupe, et le son « ou » s'écrit u. Un francophone qui lit bueno en cherchant un « ou » se trompe : c'est bue-no, une seule syllabe pour ue, soudée en « boué ».\n\nDeuxième réflexe : lire ai, ei, au comme en français. Baile ne se dit pas « bèle » mais « ba-i-le » soudé, avec les deux voyelles audibles. Causa n'est pas « cauza » mais « ca-ou-sa ». Peine n'est pas « pène » mais « pé-i-ne ». La règle est constante : en espagnol, chaque voyelle écrite se prononce.\n\nTroisième réflexe : avaler le e final. Siete a deux syllabes et le e final s'entend nettement.\n\nLe principe qui les résume tous : l'espagnol n'a pas de digramme vocalique. Deux voyelles écrites font deux sons, qu'ils tiennent dans une syllabe ou dans deux. C'est cette transparence qui rend la langue lisible à haute voix dès le premier jour — à condition de ne pas y projeter l'orthographe française.",
         },
       ],
     },

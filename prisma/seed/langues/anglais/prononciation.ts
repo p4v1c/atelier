@@ -123,7 +123,7 @@ export const ANGLAIS_PRONONCIATION: LotCartes[] = [
       {
         etranger: "Look at this book.",
         francais: "Regarde ce livre.",
-        note: "Deux /ʊ/ brefs. Allongés, ils donneraient Luke et boo.",
+        note: "Deux /ʊ/ brefs. Allongé, look donnerait Luke.",
       },
     ],
   },
@@ -174,7 +174,7 @@ export const ANGLAIS_PRONONCIATION: LotCartes[] = [
         {
           titre: "Les quatre substitutions et ce qu'elles coûtent",
           texte:
-            "Chaque substitution produit une confusion, et il vaut la peine de savoir laquelle.\n\nRemplacer /θ/ par « s » transforme think en sink, thing en sing, thick en sick, mouth en mouse. C'est la substitution française la plus courante.\n\nRemplacer /ð/ par « z » transforme they en Zay, breathe en breeze, with en wizz. Elle est moins coûteuse en compréhension, mais elle s'entend immédiatement.\n\nRemplacer /θ/ par « f » — three devient free, thought devient fought — est la substitution de certains accents anglais eux-mêmes, notamment londoniens. Elle passe donc mieux, mais elle marque socialement.\n\nRemplacer /ð/ par « d » — this devient dis, the devient de — est courante chez les locuteurs de plusieurs langues, et parfaitement compréhensible.\n\nLa conclusion pratique est nuancée : aucune de ces substitutions n'empêche vraiment d'être compris, sauf think et sink dans un contexte technique. Le TH est donc moins urgent que les voyelles — mais il est ce qui fait qu'un accent s'entend dès la première phrase.",
+            "Chaque substitution produit une confusion, et il vaut la peine de savoir laquelle.\n\nRemplacer /θ/ par « s » transforme think en sink, thing en sing, thick en sick, mouth en mouse. C'est la substitution française la plus courante.\n\nRemplacer /ð/ par « z » transforme breathe en breeze ; pour they et with, la substitution ne crée pas de mot différent, mais elle s'entend immédiatement.\n\nRemplacer /θ/ par « f » — three devient free, thought devient fought — est la substitution de certains accents anglais eux-mêmes, notamment londoniens. Elle passe donc mieux, mais elle marque socialement.\n\nRemplacer /ð/ par « d » — this devient dis, the devient de — est courante chez les locuteurs de plusieurs langues, et parfaitement compréhensible.\n\nLa conclusion pratique est nuancée : aucune de ces substitutions n'empêche vraiment d'être compris, sauf think et sink dans un contexte technique. Le TH est donc moins urgent que les voyelles — mais il est ce qui fait qu'un accent s'entend dès la première phrase.",
           visuels: [
             {
               type: "tableau",
@@ -417,7 +417,7 @@ export const ANGLAIS_PRONONCIATION: LotCartes[] = [
         {
           titre: "Les régularités qui aident",
           texte:
-            "L'accent anglais n'est pas prévisible en général, mais plusieurs terminaisons le fixent, et les connaître règle des centaines de mots.\n\nLes suffixes qui attirent l'accent sur la syllabe qui les précède : -ic, -ion, -ity, -ial, -ious, -ify, -ical. Photograph mais phoTOgraphy et photoGRAPHic ; ecoNOmic ; posiTION ; posSIbility.\n\nLes suffixes qui portent eux-mêmes l'accent : -ee, -eer, -ese, -ette. EmployEE, engiNEER, JapanESE, cigaRETTE.\n\nLes suffixes qui ne changent rien : -ing, -ed, -ly, -ness, -ful, -less, -er. Le mot garde l'accent de sa base.\n\nEt une règle pour les mots composés : l'accent tombe sur le premier élément. A GREENhouse est une serre ; a green HOUSE est une maison verte. Un BLACKbird est un merle ; a black BIRD est un oiseau noir. Cette opposition est vivante et sert tous les jours.\n\nEnfin, un piège très fréquent : les mots empruntés au français gardent souvent leur graphie et changent d'accent. HOtel se dit hoTEL, GArage se dit GAragé au Royaume-Uni, BALlet se dit BALlet — chacun a sa règle, et il faut les vérifier un par un.",
+            "L'accent anglais n'est pas prévisible en général, mais plusieurs terminaisons le fixent, et les connaître règle des centaines de mots.\n\nLes suffixes qui attirent l'accent sur la syllabe qui les précède : -ic, -ion, -ity, -ial, -ious, -ical. Photograph mais phoTOgraphy et photoGRAPHic ; ecoNOmic ; posiTION ; posSIbility.\n\nLes suffixes qui portent eux-mêmes l'accent : -ee, -eer, -ese, -ette. EmployEE, engiNEER, JapanESE, cigaRETTE.\n\nLes suffixes qui ne changent rien : -ing, -ed, -ly, -ness, -ful, -less, -er. Le mot garde l'accent de sa base.\n\nEt une règle pour les mots composés : l'accent tombe sur le premier élément. A GREENhouse est une serre ; a green HOUSE est une maison verte. Un BLACKbird est un merle ; a black BIRD est un oiseau noir. Cette opposition est vivante et sert tous les jours.\n\nEnfin, un piège très fréquent : les mots empruntés au français gardent souvent leur graphie et changent d'accent. HOtel se dit hoTEL. GArage garde l'accent devant au Royaume-Uni (GA-rahj ou GA-ridge) mais le déplace aux États-Unis (gaRAHJ). BALlet garde l'accent devant en britannique, balLET en américain.",
           visuels: [
             {
               type: "comparaison",
@@ -479,7 +479,7 @@ export const ANGLAIS_PRONONCIATION: LotCartes[] = [
       {
         etranger: "That's very comfortable.",
         francais: "C'est très confortable.",
-        note: "Comfortable a trois syllabes à l'oral, pas quatre : KUMF-ta-bl.",
+        note: "Comfortable a trois syllabes à l'oral, pas quatre : KUMF-tə-bl.",
       },
       {
         etranger: "The photograph is interesting.",
@@ -636,7 +636,7 @@ export const ANGLAIS_PRONONCIATION: LotCartes[] = [
     category: "Prononciation",
     title: "Les lettres muettes et l'orthographe trompeuse",
     statement:
-      "Knight, island, subtle, colonel. L'orthographe anglaise garde des lettres que personne ne prononce depuis cinq siècles — et quelques mots où elle ment franchement.",
+      "Knight, thumb, castle, colonel. L'orthographe anglaise garde des lettres que personne ne prononce depuis cinq siècles, d'autres qui n'ont jamais été prononcées — et quelques mots où elle ment franchement.",
     tip: "Une lettre muette anglaise est presque toujours un fossile : elle se prononçait autrefois, ou elle a été ajoutée par des érudits pour faire savant.",
     difficulty: 2,
     niveau: "B1",
@@ -671,7 +671,7 @@ export const ANGLAIS_PRONONCIATION: LotCartes[] = [
         {
           titre: "Les mots qui mentent franchement",
           texte:
-            "Au-delà des familles régulières, une trentaine de mots courants ont une prononciation que leur graphie ne laisse pas deviner. Ce sont ceux qu'il faut apprendre un par un.\n\nColonel se dit comme kernel — le mot a hérité de la graphie italienne et de la prononciation française ancienne, qui avait un r.\n\nWednesday a perdu sa première syllabe : WENZ-day. Le mot vient de « jour de Woden ».\n\nBusiness a deux syllabes : BIZ-ness, et non trois. Vegetable en a trois : VEJ-tə-bl. Comfortable en a trois : KUMF-tə-bl. Chocolate en a deux : CHOK-lət.\n\nRecipe a trois syllabes et un e final prononcé : RES-i-pee. Receipt, lui, a un p muet : ri-SEET.\n\nSalmon, almond et palm perdent leur L. Iron se dit AI-ərn, avec le r déplacé. Choir se dit KWY-er.\n\nEt les toponymes britanniques sont un chapitre à eux seuls : Leicester se dit LES-ter, Worcester WUS-ter, Greenwich GREN-ich, Edinburgh ED-in-bruh. La règle générale y est la compression : plus le nom est ancien, plus il s'est raccourci.",
+            "Au-delà des familles régulières, une trentaine de mots courants ont une prononciation que leur graphie ne laisse pas deviner. Ce sont ceux qu'il faut apprendre un par un.\n\nColonel se dit comme kernel — le mot a hérité de la graphie italienne et de la prononciation française ancienne, qui avait un r.\n\nWednesday a perdu sa syllabe du milieu et son d : WENZ-day. Le mot vient de « jour de Woden ».\n\nBusiness a deux syllabes : BIZ-ness, et non trois. Vegetable en a trois : VEJ-tə-bl. Comfortable en a trois : KUMF-tə-bl. Chocolate en a deux : CHOK-lət.\n\nRecipe a trois syllabes et un e final prononcé : RES-i-pee. Receipt, lui, a un p muet : ri-SEET.\n\nSalmon, almond et palm perdent leur L. Iron se dit AI-ərn, avec le r déplacé. Choir se dit KWY-er.\n\nEt les toponymes britanniques sont un chapitre à eux seuls : Leicester se dit LES-ter, Worcester WUS-ter, Greenwich GREN-ich, Edinburgh ED-in-bruh. La règle générale y est la compression : plus le nom est ancien, plus il s'est raccourci.",
           visuels: [
             {
               type: "comparaison",
@@ -750,7 +750,7 @@ export const ANGLAIS_PRONONCIATION: LotCartes[] = [
       {
         etranger: "We meet on Wednesday.",
         francais: "Nous nous voyons mercredi.",
-        note: "Wednesday a perdu sa première syllabe : WENZ-day.",
+        note: "Wednesday a perdu sa syllabe du milieu et son d : WENZ-day.",
       },
       {
         etranger: "Keep the receipt for the recipe book.",

@@ -16,7 +16,7 @@ export const ANGLAIS_BASES: LotCartes[] = [
       "Ce qu'on dit dans les deux premières minutes d'une rencontre. À savoir sans réfléchir, parce qu'on n'a pas le temps d'y penser sur le moment.",
     tip: "L'anglais présente son métier avec l'article : « I'm a teacher », jamais « I'm teacher ».",
     difficulty: 1,
-    niveau: "A1",
+    niveau: "A2",
     parle: true,
     oral: true,
     cartes: [
@@ -87,7 +87,7 @@ export const ANGLAIS_BASES: LotCartes[] = [
         etranger: "What's it like?",
         francais: "C'est comment ?",
         aussi: ["Comment c'est ?"],
-        note: "Ne pas dire « How is it? », qui demande si ça va bien, pas à quoi ça ressemble.",
+        note: "What's it like? demande une description ; How is it? demande si c'est bien. Les deux existent, elles ne demandent pas la même chose.",
       },
       { etranger: "Have you ever been to London?", francais: "Tu es déjà allé à Londres ?" },
       {
@@ -96,7 +96,7 @@ export const ANGLAIS_BASES: LotCartes[] = [
         note: "Après didn't, le verbe reste à l'infinitif : jamais « didn't told ».",
       },
       { etranger: "Whose is this?", francais: "C'est à qui ?", aussi: ["À qui c'est ?"] },
-      { etranger: "Could you help me with something?", francais: "Tu peux m'aider pour un truc ?", aussi: ["Pourriez-vous m'aider ?"] },
+      { etranger: "Could I ask you something?", francais: "Je peux te demander un truc ?", aussi: ["Pourrais-je vous demander quelque chose ?"] },
     ],
   },
 
@@ -108,7 +108,7 @@ export const ANGLAIS_BASES: LotCartes[] = [
       "Les phrases d'une journée banale : se lever, faire les courses, rentrer. Sans elles, on sait parler de politique et pas de son petit-déjeuner.",
     tip: "L'anglais quotidien va droit au but : les tournures longues sonnent scolaires.",
     difficulty: 1,
-    niveau: "A2",
+    niveau: "B1",
     parle: true,
     oral: true,
     cartes: [
@@ -127,7 +127,7 @@ export const ANGLAIS_BASES: LotCartes[] = [
         francais: "Je sors deux minutes.",
         note: "To pop out, très britannique, dit qu'on revient vite.",
       },
-      { etranger: "It's freezing outside.", francais: "Il gèle dehors.", aussi: ["Il fait un froid glacial."] },
+      { etranger: "It's freezing outside.", francais: "Il gèle dehors.", aussi: ["Il fait un froid glacial."], aussiEtranger: ["It's freezing."] },
       { etranger: "I'm shattered.", francais: "Je suis épuisé.", aussi: ["Je suis crevé."], aussiEtranger: ["I'm exhausted.", "I'm beat."], note: "Britannique. Aux États-Unis : I'm beat." },
       { etranger: "Let's call it a day.", francais: "On s'arrête là pour aujourd'hui.", aussi: ["On arrête là."] },
     ],
@@ -159,9 +159,9 @@ export const ANGLAIS_BASES: LotCartes[] = [
       { etranger: "Could I have a wake-up call at seven?", francais: "Pourriez-vous me réveiller à sept heures ?" },
       {
         etranger: "How do I get to the city centre?",
-        francais: "Comment vais-je au centre-ville ?",
-        aussi: ["Comment on va au centre-ville ?"],
-        note: "Downtown aux États-Unis, et center s'y écrit sans inversion.",
+        francais: "Comment on va au centre-ville ?",
+        aussi: ["Pour aller au centre-ville, s'il vous plaît ?"],
+        note: "Downtown aux États-Unis, et centre s'y écrit center.",
       },
       { etranger: "Is it within walking distance?", francais: "C'est accessible à pied ?", aussi: ["On peut y aller à pied ?"] },
     ],

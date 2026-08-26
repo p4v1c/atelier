@@ -14,7 +14,7 @@ export const ANGLAIS_COURS_GRAMMAIRE: LotCartes[] = [
     category: "Grammaire en contexte",
     title: "Les modaux : pouvoir, devoir, oser dire",
     statement:
-      "Can, could, must, should, may, might. Neuf petits verbes qui portent toute la nuance d'une phrase anglaise — la politesse, la certitude, l'obligation.",
+      "Can, could, may, might, must, should, will, would. Huit petits verbes qui portent toute la nuance d'une phrase anglaise — la politesse, la certitude, l'obligation.",
     tip: "Un modal ne prend jamais de -s, jamais de to après lui, et se nie en collant not : he can't, she mustn't.",
     difficulty: 2,
     niveau: "B1",
@@ -35,8 +35,8 @@ export const ANGLAIS_COURS_GRAMMAIRE: LotCartes[] = [
               lignes: [
                 ["can", "capacité, permission", "I can swim.", "neutre"],
                 ["could", "politesse, hypothèse", "Could you help me?", "adouci"],
-                ["may", "permission formelle, possibilité", "It may rain.", "50 %"],
-                ["might", "possibilité plus faible", "It might rain.", "30 %"],
+                ["may", "permission formelle, possibilité", "It may rain.", "possible"],
+                ["might", "possibilité plus faible", "It might rain.", "un peu moins possible"],
                 ["must", "obligation, quasi-certitude", "You must stop.", "fort"],
                 ["should", "conseil, attente", "You should rest.", "conseil"],
                 ["will", "volonté, futur", "I'll do it.", "décision"],
@@ -77,7 +77,7 @@ export const ANGLAIS_COURS_GRAMMAIRE: LotCartes[] = [
         {
           titre: "Deviner, supposer, déduire",
           texte:
-            "Là où le français emploie « devoir » et « pouvoir » au sens de la probabilité, l'anglais emploie ses modaux avec la même souplesse — et c'est là qu'on gagne en naturel.\n\nMust marque la quasi-certitude déduite : the lights are on, she must be home. Can't marque l'impossibilité déduite : she can't be home, her car isn't here. Attention, ce n'est pas mustn't : la déduction négative se dit can't.\n\nEntre les deux, may et might disent la possibilité, might étant la plus faible. She may be home. She might be home.\n\nPour parler du passé, on ajoute have plus le participe : she must have left, elle a dû partir ; you should have told me, tu aurais dû me le dire.",
+            "Là où le français emploie « devoir » et « pouvoir » au sens de la probabilité, l'anglais emploie ses modaux avec la même souplesse — et c'est là qu'on gagne en naturel.\n\nMust marque la quasi-certitude déduite : the lights are on, she must be home. Can't marque l'impossibilité déduite : she can't be home, her car isn't here. Attention, ce n'est pas mustn't : la déduction négative se dit can't.\n\nEntre les deux, may et might disent la possibilité, might étant la plus faible. She may be home. She might be home.\n\nPour parler du passé, une série entière — les modaux du passé — reprend ce mécanisme en détail : must have, can't have, should have.",
         },
       ],
     },
@@ -90,7 +90,7 @@ export const ANGLAIS_COURS_GRAMMAIRE: LotCartes[] = [
       { etranger: "It might rain later.", francais: "Il pleuvra peut-être plus tard.", note: "Might, plus faible que may. Ni l'un ni l'autre ne prend de to." },
       { etranger: "You should get some sleep.", francais: "Tu devrais dormir un peu.", note: "Should conseille ; must ordonne." },
       { etranger: "I was able to finish it.", francais: "J'ai pu le finir.", note: "Can n'a pas de participe : au passé composé, on emprunte à be able to." },
-      { etranger: "You should have told me.", francais: "Tu aurais dû me le dire.", note: "Modal + have + participe : le reproche rétrospectif." },
+      { etranger: "I would say it's a good idea.", francais: "Je dirais que c'est une bonne idée.", note: "Would adoucit une affirmation, sans changer le sens." },
       { etranger: "We'll have to leave early.", francais: "On devra partir tôt.", note: "Must n'a pas de futur : on emploie will have to." },
     ],
   },
@@ -177,7 +177,7 @@ export const ANGLAIS_COURS_GRAMMAIRE: LotCartes[] = [
       { etranger: "Dogs bark.", francais: "Les chiens aboient.", note: "Généralité au pluriel : aucun article. « The dogs bark » désignerait des chiens précis." },
       { etranger: "I like music.", francais: "J'aime la musique.", note: "Un indénombrable pris en général ne prend rien." },
       { etranger: "It took an hour.", francais: "Ça a pris une heure.", note: "An devant un h muet : c'est le son qui décide, pas la lettre." },
-      { etranger: "He went to university.", francais: "Il est allé à l'université.", note: "Le lieu pris dans sa fonction se passe d'article. A university se dirait pour le bâtiment." },
+      { etranger: "He went to university.", francais: "Il est allé à l'université.", note: "Le lieu pris dans sa fonction se passe d'article. The university se dirait pour le bâtiment." },
       { etranger: "Life is short.", francais: "La vie est courte." },
       { etranger: "See you next week.", francais: "À la semaine prochaine.", note: "Next et last ne prennent jamais the." },
       { etranger: "She plays the piano.", francais: "Elle joue du piano.", note: "Un instrument joué prend the ; un sport pratiqué ne prend rien : she plays tennis." },
@@ -239,7 +239,7 @@ export const ANGLAIS_COURS_GRAMMAIRE: LotCartes[] = [
       { etranger: "Few people came.", francais: "Peu de gens sont venus.", note: "Sans article : négatif, la salle était vide." },
       { etranger: "A few people came.", francais: "Quelques personnes sont venues.", note: "Avec article : positif, il y avait un petit monde." },
       { etranger: "Can I give you a piece of advice?", francais: "Je peux te donner un conseil ?", note: "Advice est indénombrable : jamais « an advice »." },
-      { etranger: "The news is good.", francais: "La nouvelle est bonne.", note: "News prend un -s mais reste singulier." },
+      { etranger: "The news is good.", francais: "Les nouvelles sont bonnes.", aussi: ["C'est une bonne nouvelle."], note: "News prend un -s mais reste singulier." },
       { etranger: "Do you have any questions?", francais: "Tu as des questions ?", note: "Any à la question ; some à l'affirmative." },
       { etranger: "Would you like some tea?", francais: "Tu veux du thé ?", note: "Some dans une question quand on propose : on attend un oui." },
       { etranger: "Any bus will do.", francais: "N'importe quel bus fera l'affaire.", note: "Any à l'affirmative prend le sens de « n'importe lequel »." },
@@ -264,7 +264,7 @@ export const ANGLAIS_COURS_GRAMMAIRE: LotCartes[] = [
         {
           titre: "Court ou long : la règle des syllabes",
           texte:
-            "Les adjectifs d'une syllabe prennent -er au comparatif et -est au superlatif : tall, taller, the tallest. Ceux de deux syllabes finissant par -y font pareil, en changeant le y en i : happy, happier, the happiest.\n\nLes adjectifs de trois syllabes ou plus, et la plupart de ceux de deux syllabes, emploient more et most : expensive, more expensive, the most expensive.\n\nDeux ajustements orthographiques : une consonne finale unique précédée d'une voyelle double — big, bigger — et un e final ne se répète pas — nice, nicer.\n\nQuatre irréguliers reviennent sans arrêt : good/better/best, bad/worse/worst, far/further/furthest, little/less/least.",
+            "Les adjectifs d'une syllabe prennent -er au comparatif et -est au superlatif : tall, taller, the tallest. Ceux de deux syllabes finissant par -y font pareil, en changeant le y en i : happy, happier, the happiest.\n\nLes adjectifs de trois syllabes ou plus, et la plupart de ceux de deux syllabes, emploient more et most : expensive, more expensive, the most expensive.\n\nDeux ajustements orthographiques : une consonne finale unique précédée d'une seule voyelle se redouble — big, bigger — et un e final ne se répète pas — nice, nicer.\n\nQuatre irréguliers reviennent sans arrêt : good/better/best, bad/worse/worst, far/further/furthest, little/less/least.",
           visuels: [
             {
               type: "tableau",
