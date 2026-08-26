@@ -11,10 +11,10 @@ export const CG_HISTOIRE_FRANCE_2: SeedSkill[] = [
     "Cinq siècles de romanisation, des villes, des routes et une langue qui deviendra le français.",
     "La Gaule n'a pas été romanisée par la force mais par l'intérêt des élites locales à l'être.",
     2, [
-    ["Quel chef gaulois affronte César à Alésia en 52 avant notre ère ?", ["Vercingétorix", "Ambiorix", "Brennus", "Dumnorix"], 0,
-     "César décrit lui-même le siège dans La Guerre des Gaules, seule source détaillée de l'épisode."],
-    ["Quelle ville devient la capitale des Gaules sous Auguste ?", ["Lugdunum, l'actuelle Lyon", "Lutèce", "Narbonne", "Reims"], 0,
-     "Elle abritait le sanctuaire fédéral des Trois Gaules et un atelier monétaire impérial."],
+    ["Comment appelle-t-on les grands domaines agricoles de la Gaule romaine ?", ["Les villae", "Les oppida", "Les insulae", "Les castra"], 0,
+     "Leur nom survit dans de nombreux toponymes français en -y ou -ac."],
+    ["Quel temple romain, l'un des mieux conservés au monde, se dresse encore à Nîmes ?", ["La Maison Carrée", "Le temple de Diane, à Nîmes", "Le forum de Vaison-la-Romaine", "Le capitole de Narbonne"], 0,
+     "Dédié aux petits-fils d'Auguste, il date du tout début de notre ère."],
     ["Quelle province romaine couvrait le sud de la Gaule dès le IIe siècle avant notre ère ?", ["La Narbonnaise", "L'Aquitaine", "La Lyonnaise", "La Belgique"], 0,
      "Conquise bien avant les campagnes de César, elle a donné son nom à la Provence."],
     ["Quel aqueduc romain enjambe le Gardon dans le sud de la France ?", ["Le pont du Gard", "Le pont d'Avignon", "L'aqueduc de Fréjus", "L'aqueduc de Lyon"], 0,
@@ -35,7 +35,7 @@ export const CG_HISTOIRE_FRANCE_2: SeedSkill[] = [
 
   notion("hf2-carolingiens", S, "L'Empire carolingien",
     "De Pépin le Bref au partage de Verdun : un siècle d'unité impériale.",
-    "Le partage de Verdun de 843 dessine les contours lointains de la France et de l'Allemagne.",
+    "L'unité impériale de Charlemagne ne survit pas trois générations : 843 en dessine les contours lointains de la France et de l'Allemagne.",
     2, [
     ["Qui dépose le dernier roi mérovingien en 751 ?", ["Pépin le Bref", "Charles Martel", "Charlemagne", "Carloman"], 0,
      "Il se fait sacrer, inaugurant un rituel qui légitime la dynastie par l'onction religieuse."],
@@ -62,7 +62,7 @@ export const CG_HISTOIRE_FRANCE_2: SeedSkill[] = [
     "Les premiers Capétiens ne contrôlaient qu'un petit territoire autour de Paris et Orléans.",
     2, [
     ["Quelle pratique assure la continuité de la dynastie capétienne ?", ["Le sacre du fils aîné du vivant du père", "L'élection du roi par les grands à chaque décès", "Le partage du royaume entre tous les fils", "La désignation du successeur par le pape"], 0,
-     "Abandonnée quand l'hérédité fut devenue une évidence, sous Philippe Auguste."],
+     "Abandonnée à la fin du XIIe siècle, quand l'hérédité était devenue une évidence."],
     ["Où les rois de France étaient-ils sacrés ?", ["À Reims", "À Paris", "À Saint-Denis", "À Chartres"], 0,
      "La tradition remonte au baptême de Clovis, situé dans cette ville par la légende."],
     ["Quel roi capétien allonge considérablement le domaine royal au XIIe siècle ?", ["Philippe Auguste", "Louis VI le Gros", "Louis VII le Jeune", "Robert le Pieux"], 0,
@@ -72,7 +72,7 @@ export const CG_HISTOIRE_FRANCE_2: SeedSkill[] = [
     ["Quelle institution Philippe Auguste met-il en place pour administrer le royaume ?", ["Les baillis et sénéchaux", "Les intendants", "Les gouverneurs de province", "Les états généraux"], 0,
      "Fonctionnaires rémunérés et révocables, ils échappent à l'hérédité féodale."],
     ["Quel roi de France est canonisé en 1297 ?", ["Louis IX", "Philippe Auguste", "Robert le Pieux", "Louis VII"], 0,
-     "Il rendait la justice sous un chêne selon la tradition, et acquit la couronne d'épines pour la Sainte-Chapelle."],
+     "Il rendait la justice sous un chêne selon la tradition, et acquit à prix d'or la couronne d'épines du Christ."],
     ["Quel édifice Louis IX fait-il construire pour abriter des reliques ?", ["La Sainte-Chapelle", "Notre-Dame de Paris", "L'abbaye de Saint-Denis", "La cathédrale de Chartres"], 0,
      "Les reliques coûtèrent plus cher que le bâtiment lui-même."],
     ["Quel conflit oppose Philippe le Bel au pape Boniface VIII ?", ["Un conflit sur la taxation du clergé et la primauté du pouvoir", "Une querelle sur la nomination des évêques du royaume de France", "Un désaccord sur le financement d'une nouvelle croisade en Orient", "Un litige territorial portant sur les possessions pontificales d'Italie"], 0,
@@ -90,7 +90,7 @@ export const CG_HISTOIRE_FRANCE_2: SeedSkill[] = [
     ["Quelle règle écarte les femmes de la succession au trône de France ?", ["L'invocation de la loi salique", "La coutume de Paris", "L'ordonnance de Moulins", "Le droit d'aînesse"], 0,
      "Ce texte franc, sans rapport initial avec la royauté, fut exhumé pour justifier l'exclusion."],
     ["Quelle bataille de 1346 révèle la supériorité de l'archerie anglaise ?", ["Crécy", "Azincourt", "Poitiers", "Formigny"], 0,
-     "L'arc long anglais y décime la chevalerie française avant tout corps à corps."],
+     "Postés en hauteur, les archers anglais déciment la chevalerie française avant tout corps à corps."],
     ["Quel roi de France est fait prisonnier à Poitiers en 1356 ?", ["Jean II le Bon", "Philippe VI", "Charles V", "Charles VI"], 0,
      "Sa rançon, énorme, pesa lourd sur les finances du royaume."],
     ["Quelle révolte paysanne éclate en 1358 ?", ["La Jacquerie", "La révolte des Maillotins", "La Grande Jacquerie de Bourgogne", "La révolte des Tuchins"], 0,
@@ -99,8 +99,8 @@ export const CG_HISTOIRE_FRANCE_2: SeedSkill[] = [
      "Avec du Guesclin, il évite les batailles rangées et reprend les places une à une."],
     ["Quelle bataille de 1415 est un désastre pour la chevalerie française ?", ["Azincourt", "Crécy", "Patay", "Castillon"], 0,
      "Un terrain boueux et des lignes trop serrées y annulèrent l'avantage numérique français."],
-    ["Quel traité de 1420 déshérite le dauphin au profit du roi d'Angleterre ?", ["Le traité de Troyes", "Le traité de Brétigny", "Le traité d'Arras", "Le traité de Picquigny"], 0,
-     "Signé par Isabeau de Bavière au nom d'un Charles VI atteint de crises de démence."],
+    ["Quelle défaite navale de 1340 livre la maîtrise de la Manche aux Anglais ?", ["La bataille de l'Écluse", "La bataille de Winchelsea, dix ans plus tard", "Le sac de Southampton, en 1338", "Le siège de Calais, en 1347"], 0,
+     "La flotte française y est presque anéantie près des côtes flamandes, dès le début du conflit."],
   ]),
 
   notion("hf2-renaissance-francaise", S, "La Renaissance française",
@@ -205,7 +205,7 @@ export const CG_HISTOIRE_FRANCE_2: SeedSkill[] = [
 
   notion("hf2-revolution-1789", S, "1789 et la fin de l'Ancien Régime",
     "Les états généraux, la nuit du 4 août, la Déclaration : six mois qui changent tout.",
-    "La Révolution commence par une crise financière que la monarchie ne parvient pas à résoudre.",
+    "1789 s'ouvre sur une impasse budgétaire du royaume, après des décennies de guerres coûteuses et d'emprunts.",
     2, [
     ["Pourquoi Louis XVI convoque-t-il les états généraux en 1789 ?", ["Pour résoudre une crise financière", "Pour réformer l'armée", "Pour répondre à une révolte paysanne", "Pour préparer une guerre"], 0,
      "Ils n'avaient plus été réunis depuis 1614."],
@@ -285,14 +285,14 @@ export const CG_HISTOIRE_FRANCE_2: SeedSkill[] = [
     "1815-1848 : deux monarchies constitutionnelles et une société qui se transforme.",
     "La Restauration ne rétablit pas l'Ancien Régime : elle instaure un régime parlementaire censitaire.",
     2, [
-    ["Quel texte fonde le régime de la Restauration en 1814 ?", ["La Charte constitutionnelle", "La Constitution de l'an VIII", "La Charte de 1830", "Le Sénatus-consulte"], 0,
-     "Octroyée par le roi, elle maintient nombre d'acquis révolutionnaires, dont l'égalité devant la loi."],
+    ["Quelle loi de 1825 indemnise les nobles dépossédés pendant la Révolution ?", ["La loi du milliard", "La loi Le Chapelier", "La loi Falloux", "La loi Guizot"], 0,
+     "Elle illustre l'attachement de Charles X à l'ancienne noblesse, aux dépens des finances publiques."],
     ["Qu'est-ce que le suffrage censitaire ?", ["Un droit de vote réservé à ceux qui paient un certain montant d'impôts", "Un vote réservé aux nobles", "Un vote par corporations", "Un vote indirect par collèges"], 0,
      "Sous la Restauration, environ cent mille électeurs sur trente millions d'habitants."],
     ["Quelle révolution de juillet 1830 renverse Charles X ?", ["Les Trois Glorieuses", "La révolution de Février", "Les journées de Juin", "La révolte des Canuts"], 0,
      "Trois journées d'insurrection parisienne à la suite d'ordonnances restreignant la presse et le suffrage."],
-    ["Quel roi accède au trône en 1830 ?", ["Louis-Philippe", "Charles X", "Louis XVIII", "Napoléon III"], 0,
-     "Duc d'Orléans, il devient roi des Français et non roi de France, formule qui marque l'origine du pouvoir."],
+    ["Quel attentat de 1835 provoque les lois de septembre muselant la presse ?", ["L'attentat de Fieschi", "L'attentat d'Orsini", "L'attentat de Louvel", "L'attentat de Vaillant"], 0,
+     "Une machine infernale vise le roi lors d'une parade sur le boulevard du Temple ; il en réchappe."],
     ["Quelle révolte ouvrière éclate à Lyon en 1831 ?", ["La révolte des Canuts", "La révolte des Camisards", "La grève des mineurs", "L'insurrection des Ateliers"], 0,
      "Les ouvriers de la soie réclamaient un tarif minimum garanti. Leur devise : vivre en travaillant ou mourir en combattant."],
     ["Quelle loi de 1833 organise l'enseignement primaire en France ?", ["La loi Guizot", "La loi Falloux", "Les lois Ferry", "La loi Duruy"], 0,
@@ -439,7 +439,7 @@ export const CG_HISTOIRE_FRANCE_2: SeedSkill[] = [
 
   notion("hf2-cinquieme-republique", S, "La Cinquième République",
     "Institutions, alternances, cohabitations : le régime en place depuis 1958.",
-    "L'élection du président au suffrage universel direct date de 1962, pas de 1958.",
+    "En 1962, de Gaulle change la source de la légitimité présidentielle, par un référendum contesté dans sa procédure.",
     2, [
     ["Quelle réforme de 1962 modifie l'élection du président ?", ["Son élection au suffrage universel direct", "L'allongement du mandat présidentiel à sept ans", "La limitation à deux mandats consécutifs", "La suppression du Sénat, rejetée par référendum"], 0,
      "Adoptée par référendum, la procédure employée fut contestée juridiquement."],
@@ -461,7 +461,7 @@ export const CG_HISTOIRE_FRANCE_2: SeedSkill[] = [
 
   notion("hf2-france-outre-mer", S, "La France d'outre-mer",
     "Départements, collectivités, territoires : une France présente sur tous les océans.",
-    "Grâce à ses outre-mer, la France dispose de la deuxième zone économique exclusive du monde.",
+    "Les outre-mer représentent moins de 1 % de la population française mais l'essentiel de son espace maritime : c'est là que se joue le rang de la France sur les océans.",
     2, [
     ["Combien de départements d'outre-mer la France compte-t-elle ?", ["Cinq", "Trois", "Quatre", "Sept"], 0,
      "Guadeloupe, Martinique, Guyane, La Réunion et Mayotte, ce dernier depuis 2011."],

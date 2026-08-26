@@ -220,7 +220,7 @@
    "explication": "Le cardinal de Richelieu est le principal ministre de Louis XIII de 1624 à sa mort en 1642. Il travaille à renforcer l'autorité royale contre les grands seigneurs et les protestants, dont il prend la place forte de La Rochelle après un long siège (1627-1628). À l'extérieur, il engage la France dans la guerre de Trente Ans contre les Habsbourg d'Espagne et d'Autriche. Il fonde l'Académie française en 1635, chargée de veiller sur la langue française. Son œuvre prépare l'absolutisme de Louis XIV."
   },
   {
-   "q": "Combien d'années dure le règne personnel et nominal de Louis XIV, le plus long de l'histoire de France ?",
+   "q": "Combien d'années Louis XIV a-t-il porté la couronne, de son avènement à sa mort ?",
    "choix": [
     "72 ans",
     "54 ans",
@@ -229,7 +229,7 @@
    ],
    "bonne": 0,
    "difficulte": 1,
-   "explication": "Louis XIV règne 72 ans, de 1643 à 1715, ce qui en fait l'un des règnes les plus longs de l'histoire mondiale. Devenu roi à quatre ans, il exerce le pouvoir personnellement à partir de la mort de Mazarin en 1661, refusant de nommer un Premier ministre. Surnommé le « Roi-Soleil », il incarne la monarchie absolue de droit divin et s'entoure de ministres comme Colbert et Louvois. Il installe la cour à Versailles en 1682, transformant un pavillon de chasse en palais somptueux. Son règne est aussi marqué par des guerres presque continuelles et par le rayonnement culturel français en Europe."
+   "explication": "Louis XIV règne 72 ans, de 1643 à 1715, ce qui en fait l'un des règnes les plus longs de l'histoire mondiale — mais il n'exerce le pouvoir personnellement que pendant 54 ans, à partir de la mort de Mazarin en 1661, refusant de nommer un Premier ministre. Devenu roi à quatre ans, surnommé le « Roi-Soleil », il incarne la monarchie absolue de droit divin et s'entoure de ministres comme Colbert et Louvois. Il installe la cour à Versailles en 1682, transformant un pavillon de chasse en palais somptueux. Son règne est aussi marqué par des guerres presque continuelles et par le rayonnement culturel français en Europe."
   },
   {
    "q": "Par quel édit Louis XIV révoque-t-il l'édit de Nantes en 1685 ?",

@@ -139,7 +139,7 @@ export const CG_HISTOIRE_FRANCE_3: SeedSkill[] = [
 
   notion("hf3-sante-france", S, "Santé publique et médecine en France",
     "Hôpitaux, épidémies, protection sanitaire.",
-    "L'hôpital français est passé d'un lieu d'accueil des pauvres à un lieu de soin technique.",
+    "L'histoire de l'hôpital français est celle d'un long basculement, de la charité chrétienne vers la médecine technique.",
     2, [
     ["Qu'était l'hôtel-Dieu médiéval ?", ["Un lieu d'accueil des pauvres, des malades et des voyageurs", "Un hôpital de soins réservé aux seuls blessés des armées du roi", "Une léproserie tenue à l'écart des villes closes", "Une maternité tenue par les sages-femmes de la ville"], 0,
      "La fonction charitable y primait sur la fonction médicale."],
@@ -155,8 +155,6 @@ export const CG_HISTOIRE_FRANCE_3: SeedSkill[] = [
      "Des hémophiles ont été contaminés par le VIH après des retards dans les mesures de sécurité."],
     ["Quelle agence a été créée en 1993 après les crises sanitaires ?", ["L'Agence du médicament, ancêtre de l'ANSM", "La Haute Autorité de santé, créée plus tard", "L'ANSES, pour l'alimentation et le travail", "Santé publique France, née d'une fusion"], 0,
      "La séparation entre évaluation et gestion du risque a alors été renforcée."],
-    ["Qu'est-ce que la canicule de 2003 a révélé en France ?", ["Une vulnérabilité des personnes âgées isolées et un défaut d'alerte", "Une faiblesse du seul système hospitalier durant les mois d'été", "Un manque de climatisation dans les logements et les maisons de retraite", "Une insuffisance des services d'urgence dans les grandes villes"], 0,
-     "Environ quinze mille décès en excès. Un plan national canicule a été créé ensuite."],
     ["Quelle particularité le système de santé français présente-t-il ?", ["Une médecine libérale associée à un financement socialisé", "Un système entièrement public, à l'image du modèle britannique", "Un système d'assurance privée obligatoire pour tous les actifs", "Un système géré par les régions et financé par l'impôt local"], 0,
      "Cette combinaison est relativement rare parmi les pays comparables.", 3],
   ]),
@@ -477,8 +475,6 @@ export const CG_HISTOIRE_FRANCE_3: SeedSkill[] = [
     "Événements majeurs et transformations qu'ils ont provoquées.",
     "La plupart des grandes catastrophes françaises ont été suivies d'une réforme de la prévention : cherche laquelle à chaque fois.",
     2, [
-    ["Quelle catastrophe minière survient à Courrières en 1906 ?", ["Une explosion faisant plus de mille morts", "Un effondrement de galerie au fond de la mine", "Une inondation soudaine des galeries", "Un coup de grisou limité à une seule veine"], 0,
-     "Elle a accéléré la création des services de secours miniers et la législation du travail."],
     ["Quelle rupture de barrage frappe le Var en 1959 ?", ["La rupture du barrage de Malpasset", "La rupture du barrage de Vouglans", "La rupture du barrage de Bort", "La rupture du barrage de Serre-Ponçon"], 0,
      "Plus de quatre cents morts. La catastrophe a transformé la réglementation des grands ouvrages."],
     ["Quelle marée noire touche la Bretagne en 1978 ?", ["Celle de l'Amoco Cadiz", "Celle du Torrey Canyon", "Celle de l'Erika", "Celle du Prestige"], 0,

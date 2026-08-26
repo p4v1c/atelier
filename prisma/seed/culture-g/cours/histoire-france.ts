@@ -593,7 +593,7 @@ L'historiographie française oscille depuis deux siècles entre ces deux bilans,
   ],
 
   "hf4-restauration": [
-    ["Trois régimes en trente-trois ans", `Trois régimes se succèdent à partir de 1815 : la Restauration, la monarchie de Juillet, la Deuxième République. Les deux premiers sont renversés par une révolution parisienne, en 1830 puis en 1848 ; la Deuxième République, elle, s'achève en 1851 par le coup d'État de son propre président, Louis-Napoléon Bonaparte.
+    ["Trois régimes en trente-sept ans", `Trois régimes se succèdent entre 1815 et 1852 : la Restauration, la monarchie de Juillet, la Deuxième République. Les deux premiers sont renversés par une révolution parisienne, en 1830 puis en 1848 ; la Deuxième République, elle, s'achève par le coup d'État de son propre président, Louis-Napoléon Bonaparte, le 2 décembre 1851.
 
 La Restauration est le retour des Bourbons après la chute de Napoléon — Louis XVIII en 1814, revenu définitivement en 1815, puis Charles X en 1824. Elle n'est pas un retour à l'Ancien Régime : la Charte de 1814 est une constitution octroyée par le roi, qui instaure une monarchie limitée avec deux chambres, la garantie des libertés publiques et la reconnaissance des acquis révolutionnaires — égalité civile, Code civil, vente des biens nationaux.
 
@@ -817,6 +817,8 @@ La question prioritaire de constitutionnalité, entrée en vigueur en 2010, perm
 
 La révision de 2008 limite enfin le président à deux mandats consécutifs, renforce les droits du Parlement — partage de l'ordre du jour, encadrement du 49-3 aux textes budgétaires et à un texte par session, avis des commissions sur les nominations — et crée le Défenseur des droits.
 
+La première alternance, en 1981 avec l'élection de François Mitterrand, montre que le régime peut changer de camp sans changer de constitution.
+
 Le régime né d'une crise algérienne est ainsi devenu, par corrections successives, le plus durable depuis la Troisième République.`],
   ],
 
@@ -1009,7 +1011,7 @@ Ce que ces deux textes ont en commun : ils font entrer dans le droit des réalit
 
 Elle a produit une réforme complète du dispositif sanitaire : création d'agences d'expertise indépendantes du ministère, dont l'Agence du médicament en 1993, devenue l'ANSM ; séparation de l'évaluation scientifique et de la décision politique ; obligation de transparence sur les liens d'intérêts. Le principe est le même que celui adopté après la vache folle : celui qui évalue le risque ne doit pas être celui qui gère les conséquences politiques de l'évaluation.
 
-La canicule de 2003 a révélé une vulnérabilité d'un autre ordre : quinze mille décès en excès, concentrés sur les personnes âgées isolées, et un système d'alerte incapable de détecter la surmortalité en temps réel. Elle a conduit à la création d'un plan canicule, d'un registre des personnes fragiles en mairie, et d'une surveillance sanitaire réactive.
+La canicule de 2003 a révélé une vulnérabilité sanitaire d'un autre ordre, celle des personnes âgées isolées, et débouché sur une veille sanitaire réactive dont l'hôpital n'est que le dernier maillon.
 
 Le système français conserve enfin sa particularité : une médecine largement libérale associée à un financement socialisé, combinaison rare qui explique à la fois la liberté de choix du patient et la difficulté de l'État à agir sur la répartition territoriale des professionnels.`,
       { image: "st-pasteur", legende: "Pasteur : la démonstration que les maladies infectieuses ont une cause identifiable a fondé l'hygiène publique autant que la médecine.", alt: "Portrait de Louis Pasteur dans son laboratoire" }],

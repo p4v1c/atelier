@@ -6,6 +6,13 @@
 > croisement du module chargé par `contenuDe`, relecture du fichier de cours, revérification de
 > mes propres corrections de passe 1, relecture du cahier d'origine et des 17 leçons.
 > Reste : rien. Voir « Ce que la seconde passe a ajouté » en fin de rapport.
+>
+> **Passe 3 (relecture des 29 [GRAVE]).** Contrairement à ce qu'affirmait l'état ci-dessus,
+> tous les [GRAVE] n'avaient pas été corrigés : 15 l'étaient déjà, 13 ne l'étaient pas ou
+> l'étaient mal (dont un cas où une correction correcte avait été remplacée entre-temps par une
+> nouvelle erreur — l'âge de VGE), et 1 (la duplication massive entre lots) reste hors périmètre
+> d'écriture. Détail marqué ✅ / 🔧 / ⏭️ sur chaque titre [GRAVE] ci-dessous, avec une ligne
+> **Vérifié**.
 
 ## Ce que j'ai lu
 
@@ -20,7 +27,7 @@ Total à ce stade : **75 notions, 730 questions**.
 
 ## Constats
 
-### [GRAVE] L'astuce des croisades contredit une question de sa propre notion
+### [GRAVE] ✅ L'astuce des croisades contredit une question de sa propre notion
 
 - **Où** : `prisma/seed/culture-g/histoire-france.ts:71` — `cg-neuf-hf-croisades-france`
 - **Texte** : « Deux rois de France seulement ont pris la croix : Louis VII et Louis IX. »
@@ -31,8 +38,11 @@ Total à ce stade : **75 notions, 730 questions**.
   question que l'astuce lui dit impossible.
 - **Correction proposée** : « Trois rois ont pris la croix pour l'Orient : Louis VII,
   Philippe Auguste et Louis IX. Retenez qui fait quoi, et le rôle des ordres militaires. »
+- **Vérifié** : déjà corrigé — l'astuce (`histoire-france.ts:67`) dit désormais « Trois rois ont
+  pris la croix pour l'Orient, à trois croisades différentes… », cohérent avec la question sur
+  Philippe Auguste et avec le cours.
 
-### [GRAVE] Écart faux entre le vote des femmes en France et en Nouvelle-Zélande
+### [GRAVE] ✅ Écart faux entre le vote des femmes en France et en Nouvelle-Zélande
 
 - **Où** : `prisma/seed/culture-g/histoire-france.ts:300` — `cg-neuf-hf-femmes-france`
 - **Texte** : « La France accorde le droit de vote aux femmes en 1944, soit vingt-six ans après
@@ -43,8 +53,11 @@ Total à ce stade : **75 notions, 730 questions**.
   d'autant plus crédible — et d'autant plus dangereux.
 - **Correction proposée** : « … soit vingt-six ans après le Royaume-Uni et cinquante et un ans
   après la Nouvelle-Zélande. »
+- **Vérifié** : déjà corrigé — l'astuce (`histoire-france.ts:299`) dit désormais « un demi-siècle
+  après la Nouvelle-Zélande », et le cours (`cours/histoire-france.ts:139`) donne le chiffre
+  exact « cinquante et un ans ». Les deux textes s'accordent.
 
-### [GRAVE] Simone Veil au Panthéon : le rang est faux
+### [GRAVE] ✅ Simone Veil au Panthéon : le rang est faux
 
 - **Où** : `prisma/seed/culture-g/histoire-france.ts:315` — `cg-neuf-hf-femmes-france`
 - **Texte** : « Elle y est inhumée avec son mari. Elle est la cinquième femme à y entrer pour
@@ -54,10 +67,12 @@ Total à ce stade : **75 notions, 730 questions**.
   Elle est la cinquième femme à y reposer, toutes causes confondues, parce que Sophie Berthelot
   (1907) y a été inhumée auprès de son mari et non pour son œuvre. Les deux comptes ont été
   mélangés en un seul.
+- **Vérifié** : déjà corrigé — la question (`histoire-france.ts:315-316`) dit désormais « Elle
+  est la cinquième femme à y reposer, mais la quatrième à y entrer pour ses mérites propres. »
 - **Correction proposée** : « Elle y est inhumée avec son mari. Elle est la cinquième femme à
   y reposer, et la quatrième à y entrer pour ses mérites propres. »
 
-### [GRAVE] Phrase absurde sur l'élection de Valéry Giscard d'Estaing
+### [GRAVE] 🔧 Phrase absurde sur l'élection de Valéry Giscard d'Estaing
 
 - **Où** : `prisma/seed/culture-g/histoire-france.ts:275` — `cg-neuf-hf-france-1970-2000`
 - **Texte** : « Élu à trente-huit ans d'écart avec son prédécesseur, il l'emporte de justesse
@@ -68,8 +83,16 @@ Total à ce stade : **75 notions, 730 questions**.
   phrase est exacte (50,81 % contre 49,19 %).
 - **Correction proposée** : « Élu à quarante-huit ans, il l'emporte de justesse contre
   François Mitterrand, avec moins d'un point d'écart. »
+- **Vérifié** : la phrase absurde (« trente-huit ans d'écart ») avait bien disparu, mais un
+  relecteur précédent l'avait remplacée par « À quarante-huit ans, il est alors le plus jeune
+  président élu sous la Ve République » — affirmation redevenue fausse depuis l'élection
+  d'Emmanuel Macron à trente-neuf ans en 2017 (que le domaine connaît, cf. la leçon héritée 14).
+  Corrigé maintenant, en reprenant la rectification de passe 2 du présent rapport : « Élu à
+  quarante-huit ans, il l'emporte de justesse contre François Mitterrand — 50,81 % contre
+  49,19 %, soit environ 425 000 voix d'écart. » Voir aussi le constat de passe 2 correspondant,
+  plus bas, réglé du même geste.
 
-### [GRAVE] La médaille Fields présentée comme un prix français
+### [GRAVE] ✅ La médaille Fields présentée comme un prix français
 
 - **Où** : `prisma/seed/culture-g/histoire-france-3.ts` — `cg-neuf-hf3-sciences-france`
 - **Texte** : énoncé « Quel prix scientifique **français** a récompensé de nombreux
@@ -83,8 +106,10 @@ Total à ce stade : **75 notions, 730 questions**.
 - **Correction proposée** : reformuler l'énoncé — « Quelle distinction internationale les
   mathématiciens français ont-ils souvent reçue ? » — et garder l'explication : « La France est
   le deuxième pays par le nombre de médailles Fields, derrière les États-Unis. »
+- **Vérifié** : déjà corrigé — la question (`histoire-france-3.ts:418`) est désormais « Quelle
+  distinction internationale les mathématiciens français ont-ils souvent reçue ? ».
 
-### [GRAVE] Cathédrale de Beauvais : la question dit « nef », la réponse dit « chœur »
+### [GRAVE] ✅ Cathédrale de Beauvais : la question dit « nef », la réponse dit « chœur »
 
 - **Où** : `prisma/seed/culture-g/histoire-france-4.ts` — `cg-neuf-hf4-cathedrales`
 - **Texte** : « Quelle cathédrale possède la **nef** gothique la plus haute de France ? » →
@@ -96,8 +121,11 @@ Total à ce stade : **75 notions, 730 questions**.
 - **Correction proposée** : « Quelle cathédrale possède le chœur gothique le plus haut de
   France ? » → « Beauvais, dont le chœur culmine à 48,5 mètres. » Explication : « Sa nef n'a
   jamais été achevée : le chantier a connu plusieurs effondrements. »
+- **Vérifié** : déjà corrigé — la question (`histoire-france-4.ts:180`) demande désormais « Quelle
+  cathédrale possède le chœur gothique le plus haut de France ? » → « Beauvais, qui culmine à
+  plus de quarante-huit mètres sous voûte ».
 
-### [GRAVE] Trois questions dont l'énoncé ne correspond pas aux propositions
+### [GRAVE] 🔧 Trois questions dont l'énoncé ne correspond pas aux propositions
 
 Même défaut de fabrication répété : l'énoncé demande *qui* ou *contre qui* ou *comment*, et
 les quatre propositions sont des **définitions**. Aucune ne répond à la question posée ; on ne
@@ -117,8 +145,15 @@ peut trancher qu'en devinant l'intention du rédacteur.
     « La vente de charges publiques par la monarchie ».
   - **Correction proposée** : « Comment la monarchie tirait-elle parti de la vénalité des
     offices ? » → « En vendant les charges publiques contre un versement immédiat ».
+- **Vérifié** : la question sur la vénalité des offices était déjà réglée (remplacée par une
+  question sur la paulette de 1604, cf. le constat de passe 2 correspondant). Les deux autres
+  ne l'étaient pas : corrigées maintenant — Blocus continental (`histoire-france-4.ts:408`) en
+  « Qu'est-ce que le Blocus continental ? » ; suffrage censitaire (`:424`) en gardant l'énoncé
+  « Qui pouvait voter… ? » et en réécrivant la bonne réponse en « Les seuls citoyens payant un
+  montant d'impôt suffisant », avec des distracteurs recalibrés pour rester des réponses à
+  « qui ».
 
-### [GRAVE] Le cours des croisades se contredit dans le même paragraphe
+### [GRAVE] ✅ Le cours des croisades se contredit dans le même paragraphe
 
 - **Où** : `prisma/seed/culture-g/cours/histoire-france.ts:37` — `hf-croisades-france`, section
   « Les rois croisés »
@@ -131,8 +166,10 @@ peut trancher qu'en devinant l'intention du rédacteur.
   (`histoire-france.ts:71`). C'est donc l'erreur qui apparaît d'abord à l'apprenant, avant le
   cours qui la dément et la question qui la dément encore.
 - **Correction proposée** : « Trois rois de France ont pris la croix pour l'Orient. »
+- **Vérifié** : déjà corrigé — le cours (`cours/histoire-france.ts:33`) dit désormais « Trois
+  rois de France prennent la croix. »
 
-### [GRAVE] « Marie Curie, la seule personne à avoir reçu deux prix Nobel scientifiques »
+### [GRAVE] ✅ « Marie Curie, la seule personne à avoir reçu deux prix Nobel scientifiques »
 
 - **Où** : `prisma/seed/culture-g/cours/histoire-france.ts:145` — `hf-femmes-france`, section
   « Des figures »
@@ -146,8 +183,11 @@ peut trancher qu'en devinant l'intention du rédacteur.
   qui déborde.
 - **Correction proposée** : « Marie Curie est la seule personne à avoir reçu le prix Nobel dans
   deux disciplines scientifiques différentes, en physique en 1903 puis en chimie en 1911. »
+- **Vérifié** : déjà corrigé — le cours (`cours/histoire-france.ts:142`) dit désormais « la seule
+  personne à avoir reçu le prix Nobel dans deux sciences différentes », cohérent avec
+  `hf3-personnages-france`.
 
-### [GRAVE] « La France est le dernier pays d'Europe occidentale à abolir la peine de mort »
+### [GRAVE] ✅ « La France est le dernier pays d'Europe occidentale à abolir la peine de mort »
 
 - **Où** : `prisma/seed/culture-g/cours/histoire-france.ts:133` — `hf-france-1970-2000`,
   section « 1981 et l'alternance »
@@ -160,8 +200,10 @@ peut trancher qu'en devinant l'intention du rédacteur.
   phrase vraie.
 - **Correction proposée** : « La France est l'un des derniers pays d'Europe occidentale à
   l'abolir. »
+- **Vérifié** : déjà corrigé — le cours (`hf-france-1970-2000`) dit désormais « La France est
+  l'un des derniers pays d'Europe occidentale à l'abolir. »
 
-### [GRAVE] Le cours donne le bon écart Nouvelle-Zélande, l'astuce le mauvais
+### [GRAVE] ✅ Le cours donne le bon écart Nouvelle-Zélande, l'astuce le mauvais
 
 - **Où** : `prisma/seed/culture-g/cours/histoire-france.ts:140` — `hf-femmes-france` contre
   `prisma/seed/culture-g/histoire-france.ts:300`
@@ -172,6 +214,8 @@ peut trancher qu'en devinant l'intention du rédacteur.
   a raison (1944 − 1893 = 51). L'astuce, qui est ce que l'apprenant lit en premier, a tort.
   Voir aussi le constat sur l'astuce, plus bas.
 - **Correction proposée** : aligner l'astuce sur le cours.
+- **Vérifié** : déjà corrigé (même correction que le constat sur l'écart Nouvelle-Zélande
+  ci-dessus) — les deux textes disent maintenant « cinquante et un ans » / « un demi-siècle ».
 
 ### [MOYEN] ✅ Chambord : trois nombres de pièces différents dans le même domaine
 
@@ -244,7 +288,7 @@ peut trancher qu'en devinant l'intention du rédacteur.
   1648 — l'année même où éclate la Fronde. »
 - **Fait** : Réécrit avec un tiret, comme proposé.
 
-### [GRAVE] Le cours de Beauvais se contredit dans la même phrase
+### [GRAVE] ✅ Le cours de Beauvais se contredit dans la même phrase
 
 - **Où** : `prisma/seed/culture-g/cours/histoire-france.ts:352` — `hf4-cathedrales`, section
   « Des chantiers de plusieurs générations »
@@ -257,8 +301,11 @@ peut trancher qu'en devinant l'intention du rédacteur.
   fait exact est celui du chœur, 48,5 m sous voûte, record du gothique.
 - **Correction proposée** : « Beauvais, dont le chœur culmine à 48,5 mètres sous voûte, détient
   le record de hauteur du gothique — mais sa nef n'a jamais été construite. »
+- **Vérifié** : déjà corrigé — le cours dit désormais « Beauvais, dont le chœur culmine à plus de
+  quarante-huit mètres sous voûte, porte la plus haute voûte gothique de France », ce qui ne
+  contredit plus « sa nef n'existe pas ».
 
-### [GRAVE] « Trois régimes, chacun renversé par une révolution parisienne »
+### [GRAVE] 🔧 « Trois régimes, chacun renversé par une révolution parisienne »
 
 - **Où** : `prisma/seed/culture-g/cours/histoire-france.ts:596` — `hf4-restauration`, section
   « Trois régimes en trente-trois ans »
@@ -273,6 +320,13 @@ peut trancher qu'en devinant l'intention du rédacteur.
 - **Correction proposée** : « Trois régimes se succèdent entre 1815 et 1852 : la Restauration et
   la monarchie de Juillet, emportées chacune par une révolution parisienne, puis la Deuxième
   République, emportée par un coup d'État. »
+- **Vérifié** : la phrase du corps de section avait déjà été corrigée (elle distingue bien les
+  deux révolutions parisiennes du coup d'État de 1851), mais le titre de section, « Trois régimes
+  en trente-trois ans », n'avait pas suivi — 1852 − 1815 font trente-sept ans, pas trente-trois :
+  exactement l'oubli que la passe 2 de ce même rapport avait signalé sans le corriger (« à
+  vérifier par le propriétaire »). Corrigé maintenant : titre renommé « Trois régimes en
+  trente-sept ans », bornes reformulées en « entre 1815 et 1852 », et la date du coup d'État
+  (2 décembre 1851) précisée.
 
 ### [MOYEN] ✅ « Le troisième roi de France tué en un demi-siècle »
 
@@ -360,7 +414,7 @@ peut trancher qu'en devinant l'intention du rédacteur.
 - **Correction proposée** : « qui vient d'Éginhard ».
 - **Fait** : « qui vient d'Éginhard » corrigé aux deux occurrences du fichier de cours.
 
-### [GRAVE] Deux paragraphes recopiés d'un cours à l'autre
+### [GRAVE] 🔧 Deux paragraphes recopiés d'un cours à l'autre
 
 - **Où** : `prisma/seed/culture-g/cours/histoire-france.ts` — `hf3-sante-france`, section « Les
   crises et leurs leçons », et `hf3-catastrophes-france`, section « Indemniser et reconstruire »
@@ -379,6 +433,12 @@ peut trancher qu'en devinant l'intention du rédacteur.
 - **Correction proposée** : garder le développement complet dans `hf3-catastrophes-france` ;
   dans `hf3-sante-france`, ne conserver qu'une phrase reliant l'épisode à la veille sanitaire,
   sans réénoncer les chiffres. Idem pour Courrières entre les deux cours.
+- **Vérifié** : le volet Courrières était déjà réglé (la section `hf3-industrialisation-france`
+  ne garde qu'une phrase de renvoi, « Ce bassin a payé son essor au prix fort… »). Le volet
+  canicule ne l'était pas : le paragraphe complet restait dupliqué mot pour mot dans
+  `hf3-sante-france` et dans `hf3-catastrophes-france`. Corrigé maintenant — `hf3-sante-france`
+  ne garde plus qu'une phrase de renvoi à la veille sanitaire, sans chiffres ; le développement
+  complet reste seul dans `hf3-catastrophes-france`.
 
 ### [MOYEN] ✅ Jaurès assassiné « trois jours avant la mobilisation »
 
@@ -469,7 +529,7 @@ importe donc davantage que corriger les cours, alors que ce sont les cours qui o
 avec le plus de soin.
 - **Fait** : Constat transversal sans correction de texte propre. Des six cas listés : Nouvelle-Zélande, VGE et Simone Veil sont des [GRAVE] déjà traités ; la médaille Fields est un [GRAVE] déjà traité ; SAFER/Pisani et le rattrapage téléphonique sont des [MOYEN] corrigés séparément ci-dessous.
 
-### [GRAVE] Une question du cahier d'origine a deux réponses défendables
+### [GRAVE] 🔧 Une question du cahier d'origine a deux réponses défendables
 
 - **Où** : `heritage/culture-g/data/histoire-france.json`, question 18
 - **Texte** : « Combien d'années dure le règne **personnel et nominal** de Louis XIV, le plus long
@@ -486,6 +546,11 @@ avec le plus de soin.
 - **Correction proposée** : « Combien d'années Louis XIV a-t-il porté la couronne, de son
   avènement à sa mort ? » → « 72 ans », en gardant « 54 ans » comme distracteur et en précisant
   dans l'explication qu'il s'agit de la durée du règne personnel.
+- **Vérifié** : fautif, non corrigé — l'énoncé disait toujours « le règne personnel et nominal »
+  question 18. Corrigé maintenant exactement comme proposé : énoncé changé en « Combien d'années
+  Louis XIV a-t-il porté la couronne, de son avènement à sa mort ? », « 72 ans » reste la bonne
+  réponse, « 54 ans » reste distracteur, et l'explication précise désormais qu'il n'exerce le
+  pouvoir personnel que pendant 54 de ces 72 ans.
 
 ### [MOYEN] ✅ Deux questions consécutives sur Alésia, dont l'une donne la réponse de l'autre
 
@@ -536,7 +601,7 @@ avec le plus de soin.
 - **Correction proposée** : « vingt-deux gouvernements en douze ans » partout.
 - **Fait** : Harmonisé sur « vingt-deux gouvernements en douze ans, soit une durée moyenne de six mois » dans le cahier, histoire-france-2.ts, histoire-france-4.ts, le cours et la leçon héritée 13.
 
-### [GRAVE] Duplication massive entre les quatre lots — et la table de fusions ne la résorbe pas
+### [GRAVE] ⏭️ Duplication massive entre les quatre lots — et la table de fusions ne la résorbe pas
 
 C'est le constat de loin le plus lourd du domaine, et il est structurel.
 Les lots 2, 3 et 4 ne prolongent pas le lot 1 : ils **recommencent** le programme d'histoire de
@@ -651,8 +716,19 @@ Doublons de questions les plus francs, pour donner à voir la matière :
    tableau. Les notions réellement neuves du lot 4 — `hf4-commune`, `hf4-guerres-religion`,
    `hf4-cathedrales`, `hf4-societe-feodale`, `hf4-gaule-celtique` — et les notions thématiques
    du lot 3 sont à conserver telles quelles : elles n'ont pas de jumelle.
+- **Vérifié** : écarté, non corrigé dans le cadre de ce chantier. Le geste 1 (compléter
+  `FUSIONS_INTERNES`) demande d'éditer `prisma/seed/culture-g/cours/fusions.ts`, hors du
+  périmètre d'écriture qui m'était assigné. Le geste 2 (dédoublonner une à une les questions
+  redondantes dans les douze notions déjà fusionnées, plus les paires jumelles non fusionnées)
+  est un chantier de refonte à part entière — des dizaines de questions à comparer et fusionner
+  dans quatre fichiers — qui dépasse la correction ponctuelle d'un constat [GRAVE] et risquerait,
+  fait à la hâte, de créer de nouveaux doublons ou de casser des références. J'ai néanmoins
+  traité, dans le cadre d'autres constats de ce rapport, les fuites d'explication ponctuelles que
+  cette duplication provoque une fois les notions fusionnées (voir plus bas « Cinq questions
+  neuves atterrissent… » et « Trente explications donnent la réponse… »). Le constat structurel
+  lui-même reste entier et mérite un chantier dédié.
 
-### [GRAVE] Deux doublons à l'intérieur d'un même fichier
+### [GRAVE] 🔧 Deux doublons à l'intérieur d'un même fichier
 
 - **Où** : `prisma/seed/culture-g/histoire-france-3.ts` — `cg-neuf-hf3-industrialisation-france`
   et `cg-neuf-hf3-catastrophes-france`
@@ -669,6 +745,10 @@ Doublons de questions les plus francs, pour donner à voir la matière :
   `cg-neuf-hf3-catastrophes-france`
 - **Texte** : la canicule de 2003, avec dans les deux cas « Environ quinze mille décès en excès ».
 - **Correction proposée** : n'en garder qu'une, dans `hf3-catastrophes-france`.
+- **Vérifié** : fautif, non corrigé — les deux doublons existaient encore mot pour mot. Corrigés
+  maintenant comme proposé : la question Courrières supprimée de `hf3-catastrophes-france`
+  (gardée dans `hf3-industrialisation-france`), la question canicule supprimée de
+  `hf3-sante-france` (gardée dans `hf3-catastrophes-france`).
 
 ### [MOYEN] ✅ Nombre de mots gaulois survivants : deux chiffres contradictoires
 
@@ -1248,7 +1328,7 @@ la répétition.
 > Relecture intégrale du périmètre, sans relire mes notes d'abord. Ce qui suit n'était pas
 > dans la passe 1.
 
-### [GRAVE] Huit astuces donnent la réponse littérale d'une question de leur propre notion
+### [GRAVE] 🔧 Huit astuces donnent la réponse littérale d'une question de leur propre notion
 
 L'astuce (cinquième argument de `notion()`) est le premier texte que l'apprenant lit quand il
 ouvre le chapitre. Dans huit notions, elle contient mot pour mot la bonne réponse d'une des
@@ -1282,8 +1362,23 @@ payés**, semaine de quarante heures et conventions collectives »).
   territoire naît d'un constat de déséquilibre formulé à la fin des années 1940 ; retenez la
   chronologie des institutions qui en sortent. » Pour `hf2-second-empire` : « Un même régime peut
   élargir le droit de vote et confisquer le pouvoir : suivez ce double mouvement de 1848 à 1852. »
+- **Vérifié** : quatre des huit cas étaient déjà corrigés (`hf3-decentralisation-territoires`,
+  `hf2-second-empire`, `hf-francois-premier`, `hf-richelieu-mazarin` ont des astuces réécrites qui
+  ne donnent plus la réponse), mais quatre restaient fautifs à l'identique : `hf2-cinquieme-republique`,
+  `hf3-sante-france`, `hf2-revolution-1789` et `hf-lumieres-france`. Les deux cas voisins
+  (`hf2-carolingiens`, `hf-etat-providence`) l'étaient aussi. Les six astuces fautives ont été
+  réécrites pour donner un angle plutôt qu'un contenu testé : `hf2-cinquieme-republique` → « En
+  1962, de Gaulle change la source de la légitimité présidentielle, par un référendum contesté
+  dans sa procédure. » ; `hf3-sante-france` → « L'histoire de l'hôpital français est celle d'un
+  long basculement, de la charité chrétienne vers la médecine technique. » ; `hf2-revolution-1789`
+  → « 1789 s'ouvre sur une impasse budgétaire du royaume, après des décennies de guerres
+  coûteuses et d'emprunts. » ; `hf-lumieres-france` → « … et la résistance de cours de justice
+  attachées à leurs privilèges. » ; `hf2-carolingiens` → « L'unité impériale de Charlemagne ne
+  survit pas trois générations : 843 en dessine les contours lointains… » ; `hf-etat-providence`
+  → « Le Front populaire ouvre en 1936 un cycle de conquêtes sociales que la Libération puis les
+  décennies suivantes prolongent. »
 
-### [GRAVE] Cinq questions neuves atterrissent, après fusion, dans le chapitre qui pose déjà la même question
+### [GRAVE] 🔧 Cinq questions neuves atterrissent, après fusion, dans le chapitre qui pose déjà la même question
 
 La passe 1 avait mesuré les doublons entre notions neuves. Elle avait manqué l'autre versant :
 `FUSIONS` verse neuf notions du domaine **dans une leçon héritée**, et cette leçon a son propre
@@ -1309,8 +1404,17 @@ franchissent le filtre et se retrouvent dans le même chapitre, à quelques ques
   mieux daté et mieux formulé —, et remplacer, dans `hf4-france-guerres`, la question sur les
   mutineries par une question sur leur traitement (Pétain, les conseils de guerre, les
   fusillés pour l'exemple), que rien ne teste aujourd'hui.
+- **Vérifié** : fautif, non corrigé — les cinq doublons existaient encore à l'identique. Corrigés
+  maintenant : la question de `hf4-commune` remplacée par une question sur les monuments
+  incendiés pendant la Semaine sanglante (Tuileries, Hôtel de Ville) ; celle de
+  `hf4-france-guerres` remplacée par « Comment Pétain répond-il aux mutineries de 1917 ? »
+  (conseils de guerre et amélioration du sort des soldats), exactement comme proposé ; celle de
+  `hf2-gaule-romaine` (Lugdunum) remplacée par une question sur la Maison Carrée de Nîmes ; celle
+  de `hf2-restauration-monarchie-juillet` (Charte constitutionnelle) remplacée par une question
+  sur la loi du milliard des émigrés (1825) ; celle de `hf4-guerres-religion` (édit de Nantes)
+  remplacée par une question sur la paix de Vervins (1598).
 
-### [GRAVE] « Quand François Mitterrand a-t-il été élu ? » — la bonne date est absente du cours, la seule qu'il donne est un distracteur
+### [GRAVE] 🔧 « Quand François Mitterrand a-t-il été élu ? » — la bonne date est absente du cours, la seule qu'il donne est un distracteur
 
 - **Où** : `prisma/seed/culture-g/histoire-france-4.ts:586` — `cg-neuf-hf4-cinquieme-republique`,
   versée par `FUSIONS_INTERNES` dans `hf2-cinquieme-republique`
@@ -1330,6 +1434,12 @@ franchissent le filtre et se retrouvent dans le même chapitre, à quelques ques
   se corrige » : « La première alternance, en 1981, montre que le régime peut changer de camp
   sans changer de constitution. » Et remplacer « En 1988 seulement » par « En 1986 », distracteur
   plausible (première cohabitation) au lieu d'un distracteur neutralisé par un adverbe.
+- **Vérifié** : fautif, non corrigé — le cours de `hf2-cinquieme-republique` ne mentionnait
+  toujours ni Mitterrand ni 1981, et le distracteur disait toujours « En 1988 seulement ».
+  Corrigé maintenant selon la seconde option : ajouté à la section « Un régime qui se corrige »
+  la phrase « La première alternance, en 1981 avec l'élection de François Mitterrand, montre que
+  le régime peut changer de camp sans changer de constitution. », et remplacé le distracteur par
+  « En 1986 ».
 
 ### [MOYEN] ✅ Cinq autres bonnes réponses datées que le chapitre d'accueil ne date jamais
 
@@ -1389,7 +1499,7 @@ quatorze mois, Notre-Dame commencée en 1163, les Invalides fondés en 1670, l'A
 
 ## Passe 2 — relecture de `prisma/seed/culture-g/histoire-france-2.ts` (20 notions, 190 questions)
 
-### [GRAVE] Une neuvième astuce qui donne la réponse — celle de la zone économique exclusive
+### [GRAVE] 🔧 Une neuvième astuce qui donne la réponse — celle de la zone économique exclusive
 
 - **Où** : `prisma/seed/culture-g/histoire-france-2.ts:466` et `:480` —
   `cg-neuf-hf2-france-outre-mer`
@@ -1403,6 +1513,8 @@ quatorze mois, Notre-Dame commencée en 1163, les Invalides fondés en 1670, l'A
 - **Correction proposée** : « Les outre-mer représentent moins de 1 % de la population française
   mais l'essentiel de son espace maritime : c'est là que se joue le rang de la France sur les
   océans. »
+- **Vérifié** : fautif, non corrigé — l'astuce disait toujours « la deuxième zone économique
+  exclusive du monde ». Corrigée maintenant, mot pour mot comme proposé.
 
 ### [MOYEN] ✅ *Les Misérables* (1862) dans un chapitre qui s'arrête en 1848
 
@@ -1455,7 +1567,7 @@ d'émission de la Banque de France en 1803 — tout se vérifie.*
 
 ## Passe 2 — relecture de `prisma/seed/culture-g/histoire-france-3.ts` (20 notions, 189 questions)
 
-### [GRAVE] Deux astuces de plus donnent la réponse — dont la plus flagrante du domaine
+### [GRAVE] ✅ Deux astuces de plus donnent la réponse — dont la plus flagrante du domaine
 
 Après la neuvième relevée sur `histoire-france-2.ts`, la relecture du lot 3 en ajoute deux, ce
 qui porte le total à **onze notions sur soixante-quinze**.
@@ -1477,6 +1589,9 @@ qui porte le total à **onze notions sur soixante-quinze**.
   son maillage : compte le nombre de pays où la France est représentée, et demande-toi ce que ce
   réseau sert. » Pour `hf3-justice-france-histoire` — « Entre le bourreau et le juge des libertés,
   quatre siècles : suis le déplacement du but de la peine, de l'aveu vers la réinsertion. »
+- **Vérifié** : déjà corrigé — les deux astuces sont désormais celles proposées (« La diplomatie
+  française tient d'abord à son maillage… » et « Entre le bourreau et le juge des libertés,
+  quatre siècles… »).
 
 ### [MOYEN] ✅ L'astuce de l'agriculture compare deux grandeurs qui ne se comparent pas — et contredit sa propre notion
 
@@ -1544,7 +1659,7 @@ Xynthia en 2010, le régime cat-nat de 1982 — tout se vérifie.*
 
 ## Passe 2 — relecture de `prisma/seed/culture-g/histoire-france-4.ts` (23 notions, 224 questions)
 
-### [GRAVE] « Le droit de grève avait été reconnu en 1864 » — faux, et le lot 3 dit le contraire
+### [GRAVE] ✅ « Le droit de grève avait été reconnu en 1864 » — faux, et le lot 3 dit le contraire
 
 - **Où** : `prisma/seed/culture-g/histoire-france-4.ts:504` — `cg-neuf-hf4-troisieme-republique`
 - **Texte** : explication de la question sur la loi de 1884 — « Le **droit de grève** avait été
@@ -1560,6 +1675,9 @@ Xynthia en 2010, le régime cat-nat de 1982 — tout se vérifie.*
   deux chapitres reçoit deux versions incompatibles du même fait.
 - **Correction proposée** : « La loi Ollivier de 1864 avait dépénalisé la grève ; le droit de
   grève lui-même n'est reconnu qu'en 1946, par le préambule de la Constitution. »
+- **Vérifié** : déjà corrigé — l'explication (`histoire-france-4.ts:505`) dit désormais « La loi
+  Ollivier de 1864 avait dépénalisé la grève ; le droit de grève n'est reconnu qu'en 1946… »,
+  mot pour mot la correction proposée.
 
 ### [MOYEN] ✅ Deux énoncés de plus dont le mot interrogatif ne correspond à aucune de leurs réponses
 
@@ -1662,7 +1780,7 @@ de 2008 — tout se vérifie.*
 > **toutes les autres du même chapitre** — ce que voit l'apprenant, et non ce que contient un
 > fichier. Trois choses apparaissent, qu'aucune lecture séquentielle ne pouvait donner.
 
-### [GRAVE] Trente explications donnent la réponse littérale d'une autre question du même chapitre
+### [GRAVE] 🔧 Trente explications donnent la réponse littérale d'une autre question du même chapitre
 
 La passe 1 avait relevé un cas isolé (« Deux questions consécutives sur Alésia, dont l'une donne
 la réponse de l'autre »). Le croisement systématique montre que ce n'est pas un accident : dans
@@ -1719,8 +1837,31 @@ Les plus nettes, par ordre de gravité :
   source par un fait que rien ne teste — par exemple, pour « Qui était Montesquieu ? » :
   « Président à mortier au parlement de Bordeaux, il tire sa théorie d'une lecture — contestée —
   du régime anglais. »
+- **Vérifié** : trois des trente paires étaient déjà réglées (`hf-lumieres-france` a été
+  restructuré, ses trois questions « Qui était X ? » remplacées par des questions posant
+  directement le fait daté, ce qui fait disparaître les trois fuites Montesquieu/Rousseau/Voltaire
+  d'un même geste). Les autres restaient fautives : j'en ai corrigé une quinzaine de plus, dans
+  la limite de mon périmètre d'écriture (fichiers de questions et de cours neufs, et les leçons
+  héritées 04 et 05 dont l'explication elle-même contenait la fuite). Corrigées : les trois
+  fuites de `hf-symboles-republique` (Strasbourg, Rouget de Lisle, régimes d'éclipse) ;
+  `hf-richelieu-mazarin` (La Rochelle — déjà réglée) ; `hf-francois-premier` (Charles Quint,
+  Léonard de Vinci) ; `hf-merovingiens-rois` (Clotaire II) ; `hf-france-1970-2000` (les trois
+  mentions de Mitterrand/Giscard dans les explications d'autres questions) ; `hf-outre-mer-histoire`
+  (accord de Nouméa) ; `hf2-capetiens` (Philippe Auguste, Sainte-Chapelle) ; `hf2-revolution-1789`
+  (Grande Peur → abolition des privilèges, dans `histoire-france-4.ts`) ; `hf2-guerre-cent-ans`
+  (l'arc long) ; et, dans les leçons héritées, `cg-histoire-france-04` (Jean II le Bon) et
+  `cg-histoire-france-05` (Villers-Cotterêts recopié dans l'explication du concordat de Bologne,
+  le cas le plus caricatural). Suivant le geste 1 de la correction proposée, les questions
+  redondantes correspondantes (Léonard de Vinci et le traité de Troyes doublant un quiz hérité,
+  Lugdunum, la Charte de 1814, l'édit de Nantes) ont été supprimées et remplacées par des
+  questions sur des faits non testés ailleurs (voir aussi le constat « Cinq questions neuves
+  atterrissent… » ci-dessus). Restent non vérifiées : `cg-histoire-france-08` (Louis-Philippe,
+  fuite plus diffuse et propre à la narration de la leçon elle-même) et `cg-libre-histoire-france-2`,
+  identifiant introuvable dans les fichiers de mon périmètre (probablement un module hors
+  histoire-france ou généré ailleurs) — non traitée, à signaler au propriétaire. Le constat
+  structurel (fusion sans dédoublonnage) reste entier, voir le constat correspondant plus haut.
 
-### [GRAVE] Le résumé automatique « Cette leçon couvre : … » donne la réponse dans trois chapitres hérités
+### [GRAVE] 🔧 Le résumé automatique « Cette leçon couvre : … » donne la réponse dans trois chapitres hérités
 
 - **Où** : `cg-histoire-france-04`, `cg-histoire-france-08`, `cg-histoire-france-10`
 - **Texte** : le `tip` de ces chapitres n'est pas une astuce rédigée : c'est la liste de leurs
@@ -1744,6 +1885,15 @@ Les plus nettes, par ordre de gravité :
   ne pas afficher ce résumé de sommaire à côté du quiz. À défaut, retitrer les trois sections
   fautives : « La guerre civile et la reconquête de Paris », « Le désastre de 1415 »,
   « La révolution de juillet et le nouveau roi ».
+- **Vérifié** : fautif, non corrigé — les trois titres de section fuyaient toujours mot pour
+  mot. Corrigés maintenant avec la solution « à défaut » de la correction proposée : dans la
+  leçon 04, « La folie de Charles VI, la guerre civile et Azincourt » → « Le désastre de 1415 »,
+  et j'ai aussi retitré la section voisine qui fuyait « Charles V » (« La France au plus bas,
+  puis le redressement de Charles V » → « … un redressement inattendu », leak non listé dans le
+  tableau mais relevant du même mécanisme) ; dans la leçon 08, « Les Trois Glorieuses et
+  l'avènement de Louis-Philippe » → « La révolution de juillet et le nouveau roi » ; dans la
+  leçon 10, « La guerre civile et la Semaine sanglante (21-28 mai 1871) » → « La guerre civile et
+  la reconquête de Paris ».
 
 ### [MOYEN] ✅ Deux astuces déjà signalées trahissent en fait une seconde question chacune
 
@@ -1807,7 +1957,7 @@ passent sous son seuil.*
 
 ## Passe 2 — relecture de `prisma/seed/culture-g/cours/histoire-france.ts` (53 cours)
 
-### [GRAVE] « Le droit de grève est reconnu en 1864 » — cette fois dans le cours
+### [GRAVE] ✅ « Le droit de grève est reconnu en 1864 » — cette fois dans le cours
 
 - **Où** : `prisma/seed/culture-g/cours/histoire-france.ts` — `hf-etat-providence`, section
   « Les premières lois »
@@ -1822,6 +1972,8 @@ passent sous son seuil.*
   bas). La correction de l'une sans les autres laisserait la contradiction en place.
 - **Correction proposée** : « La grève cesse d'être un délit en 1864, les syndicats sont
   autorisés en 1884 ; le droit de grève lui-même ne sera reconnu qu'en 1946. »
+- **Vérifié** : déjà corrigé — le cours dit désormais « La grève cesse d'être un délit en 1864…
+  le droit de grève lui-même n'est reconnu qu'en 1946 », mot pour mot la correction proposée.
 
 ### [MINEUR] ✅ Les mots gaulois survivants : une troisième estimation, incompatible avec les deux autres
 
@@ -1838,7 +1990,7 @@ passent sous son seuil.*
   la liste d'exemples de ce cours, qui est la plus riche des trois.
 - **Fait** : Harmonisé sur « environ cent cinquante mots » dans histoire-france-2.ts, histoire-france-4.ts et le cours, qui gardent chacun leurs exemples.
 
-### [GRAVE] Baignoires en 1954 : le cours dit « un quart », le vrai chiffre est un dixième
+### [GRAVE] ✅ Baignoires en 1954 : le cours dit « un quart », le vrai chiffre est un dixième
 
 - **Où** : `prisma/seed/culture-g/cours/histoire-france.ts` — `hf3-vie-quotidienne`, section
   « Un confort qui arrive »
@@ -1857,6 +2009,8 @@ passent sous son seuil.*
 - **Correction proposée** : « En 1954, environ six logements sur dix disposaient de l'eau
   courante, un sur quatre de toilettes intérieures, et **à peine un sur dix** d'une baignoire ou
   d'une douche. »
+- **Vérifié** : déjà corrigé — le cours dit désormais « … un sur dix d'une baignoire ou d'une
+  douche, et un quart de toilettes intérieures », cohérent avec la question de la même notion.
 
 ### [MOYEN] ✅ Ce que la relecture du fichier de cours confirme sur trois constats déjà ouverts
 
@@ -1945,7 +2099,7 @@ inscrit au Code civil en 2016, la journée de solidarité — tout se vérifie.*
 > seconde passe, et le plus utile : une correction fausse est pire qu'une erreur signalée, parce
 > qu'elle sera appliquée sans discussion.
 
-### [GRAVE] Ma correction sur l'élection de 1974 est fausse : l'écart n'est pas « moins d'un point »
+### [GRAVE] 🔧 Ma correction sur l'élection de 1974 est fausse : l'écart n'est pas « moins d'un point »
 
 - **Où** : constat de passe 1 « [GRAVE] Phrase absurde sur l'élection de Valéry Giscard
   d'Estaing » (`histoire-france.ts:275` — `cg-neuf-hf-france-1970-2000`)
@@ -1961,6 +2115,13 @@ inscrit au Code civil en 2016, la journée de solidarité — tout se vérifie.*
   introduisait une autre.
 - **Correction rectifiée** : « Élu à quarante-huit ans, il l'emporte de justesse contre François
   Mitterrand — 50,81 % contre 49,19 %, soit environ 425 000 voix d'écart. »
+- **Vérifié** : ni la correction fautive de passe 1 (« moins d'un point ») ni la rectification de
+  passe 2 n'étaient en place — un relecteur intermédiaire avait remplacé la phrase absurde par une
+  troisième formulation, tout aussi fausse (« le plus jeune président élu sous la Ve République »,
+  démentie par l'élection d'Emmanuel Macron à trente-neuf ans en 2017). Corrigé maintenant avec la
+  correction rectifiée de cette passe 2, mot pour mot : « Élu à quarante-huit ans, il l'emporte de
+  justesse contre François Mitterrand — 50,81 % contre 49,19 %, soit environ 425 000 voix
+  d'écart. » Voir le constat de passe 1 correspondant, plus haut, réglé du même geste.
 
 ### [MOYEN] ✅ Ma correction sur Jeanne d'Arc à Chinon remplace une date défendable par une date contestée
 
@@ -2112,7 +2273,7 @@ ces leçons prennent le soin, rare dans le corpus neuf, de dire que les historie
 pas (le baptême de Clovis « 496, mais parfois 499 ou 508 », l'exil des protestants, la peste).*
 - **Fait** : Les trois textes neufs (cours, question, et les deux occurrences de la leçon 04) harmonisés sur « exhumé vers 1358 et érigé au siècle suivant en loi fondamentale ».
 
-### [GRAVE] La leçon 14 attribue à Giscard d'Estaing la légalisation de la contraception, acquise sept ans plus tôt
+### [GRAVE] ✅ La leçon 14 attribue à Giscard d'Estaing la légalisation de la contraception, acquise sept ans plus tôt
 
 - **Où** : `heritage/culture-g/data/lecons/histoire-france/14.json`, section « Pompidou, Giscard
   d'Estaing et les mutations de la société »
@@ -2135,6 +2296,9 @@ pas (le baptême de Clovis « 496, mais parfois 499 ou 508 », l'exil des protes
   de vingt et un à dix-huit ans, le remboursement de la contraception — légalisée dès 1967 par la
   loi Neuwirth — et l'autorisation de l'interruption volontaire de grossesse par la loi défendue
   par Simone Veil, promulguée le 17 janvier 1975, ainsi que le divorce par consentement mutuel. »
+- **Vérifié** : déjà corrigé — la leçon 14 dit désormais « le remboursement de la contraception,
+  légalisée dès 1967 par la loi Neuwirth », conforme à la correction proposée et cohérent avec
+  `hf3-sante-france`.
 
 ### [MOYEN] ✅ « Le droit de grève accordé en 1864 » : le raccourci est aussi dans la leçon 09
 

@@ -78,7 +78,7 @@
   },
   {
    "titre": "Les Andes, une chaîne de subduction",
-   "texte": "La cordillère des Andes est la plus longue chaîne de montagnes continentale du monde : elle se déploie du nord au sud sur 65 degrés de latitude, soit environ 7 150 kilomètres, et traverse sept pays, du Venezuela à l'Argentine en passant par la Colombie, l'Équateur, le Pérou, la Bolivie et le Chili. Sa largeur varie de 200 à 700 kilomètres, avec un maximum au niveau de la flexure bolivienne, et son altitude moyenne avoisine 4 000 mètres. Le point culminant, l'Aconcagua, atteint 6 961 mètres en Argentine. Contrairement à l'Himalaya, les Andes ne résultent pas d'une collision entre deux continents mais d'une subduction : les plaques océaniques de Nazca et antarctique plongent sous la plaque sud-américaine, ce qui comprime la marge du continent et la soulève depuis le Mésozoïque et le Cénozoïque. Cette subduction explique l'intense activité sismique et volcanique de la région, qui appartient à la ceinture de feu du Pacifique ; on y trouve de grands volcans comme le Chimborazo, à 6 267 mètres, ou le Cotopaxi, à 5 897 mètres. Les Andes illustrent aussi parfaitement l'étagement de la végétation : forêts tropicales en dessous de 2 400 mètres, forêts de nuages plus haut, puis les prairies du páramo et enfin les hauts plateaux de la puna au-delà de 4 000 mètres, chaque étage abritant des plantes et des animaux différents.",
+   "texte": "La cordillère des Andes est la plus longue chaîne de montagnes continentale du monde : elle se déploie du nord au sud sur 65 degrés de latitude, soit environ 7 000 kilomètres, et traverse sept pays, du Venezuela à l'Argentine en passant par la Colombie, l'Équateur, le Pérou, la Bolivie et le Chili. Sa largeur varie de 200 à 700 kilomètres, avec un maximum au niveau de la flexure bolivienne, et son altitude moyenne avoisine 4 000 mètres. Le point culminant, l'Aconcagua, atteint 6 961 mètres en Argentine. Contrairement à l'Himalaya, les Andes ne résultent pas d'une collision entre deux continents mais d'une subduction : les plaques océaniques de Nazca et antarctique plongent sous la plaque sud-américaine, ce qui comprime la marge du continent et la soulève depuis le Mésozoïque et le Cénozoïque. Cette subduction explique l'intense activité sismique et volcanique de la région, qui appartient à la ceinture de feu du Pacifique ; on y trouve de grands volcans comme le Chimborazo, à 6 267 mètres, ou le Cotopaxi, à 5 897 mètres. Les Andes illustrent aussi parfaitement l'étagement de la végétation : forêts tropicales en dessous de 2 400 mètres, forêts de nuages plus haut, puis les prairies du páramo et enfin les hauts plateaux de la puna au-delà de 4 000 mètres, chaque étage abritant des plantes et des animaux différents.",
    "visuel": {
     "type": "etapes",
     "titre": "L'étagement de la végétation dans les Andes",
@@ -100,7 +100,7 @@
       "texte": "Au-delà de 4 000 mètres, un milieu froid et sec ; l'altitude moyenne de la chaîne avoisine justement 4 000 mètres."
      }
     ],
-    "note": "Chaque étage abrite des plantes et des animaux différents. Les Andes s'étirent sur environ 7 150 kilomètres et sept pays, non par collision comme l'Himalaya, mais par subduction des plaques de Nazca et antarctique sous l'Amérique du Sud."
+    "note": "Chaque étage abrite des plantes et des animaux différents. Les Andes s'étirent sur environ 7 000 kilomètres et sept pays, non par collision comme l'Himalaya, mais par subduction des plaques de Nazca et antarctique sous l'Amérique du Sud."
    }
   },
   {
@@ -150,12 +150,12 @@
    "choix": [
     "Environ 2 400 kilomètres",
     "Environ 4 000 kilomètres",
-    "Environ 7 150 kilomètres",
+    "Environ 7 000 kilomètres",
     "Environ 12 000 kilomètres"
    ],
    "bonne": 2,
    "difficulte": 3,
-   "explication": "La cordillère des Andes s'étire sur environ 7 150 kilomètres, ce qui correspond à un écart de latitude de 65 degrés entre le Venezuela et l'extrême sud de l'Argentine et du Chili. C'est la plus longue chaîne de montagnes continentale du monde, devant l'Himalaya qui ne mesure que 2 400 kilomètres environ. Sa largeur varie de 200 à 700 kilomètres et son altitude moyenne atteint environ 4 000 mètres. Elle traverse sept pays et abrite des hauts plateaux densément peuplés, comme l'altiplano bolivien. Seules les dorsales océaniques la dépassent : ce système de reliefs sous-marins, long d'environ 65 000 kilomètres, ceinture la planète."
+   "explication": "La cordillère des Andes s'étire sur environ 7 000 kilomètres, ce qui correspond à un écart de latitude de 65 degrés entre le Venezuela et l'extrême sud de l'Argentine et du Chili. C'est la plus longue chaîne de montagnes continentale du monde, devant l'Himalaya qui ne mesure que 2 400 kilomètres environ. Sa largeur varie de 200 à 700 kilomètres et son altitude moyenne atteint environ 4 000 mètres. Elle traverse sept pays et abrite des hauts plateaux densément peuplés, comme l'altiplano bolivien. Seules les dorsales océaniques la dépassent : ce système de reliefs sous-marins, long d'environ 65 000 kilomètres, ceinture la planète."
   },
   {
    "q": "En quelle année Alfred Wegener a-t-il proposé sa théorie de la dérive des continents ?",

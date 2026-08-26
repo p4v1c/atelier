@@ -37,7 +37,7 @@ export const CG_GEOGRAPHIE: SeedSkill[] = [
 
   notion("geo-capitales-monde", S, "Capitales : les cas qui surprennent",
     "Capitales déplacées, pays à plusieurs capitales, capitales qui ne sont pas la plus grande ville : les exceptions sont nombreuses.",
-    "Beaucoup de capitales ont été choisies pour arbitrer entre deux villes rivales, ou pour déplacer le centre de gravité d'un pays.",
+    "Une capitale n'est pas toujours la plus grande ville du pays : le choix de son site répond souvent à des calculs politiques plutôt qu'à son poids économique.",
     2, [
     ["Pourquoi Canberra a-t-elle été bâtie de toutes pièces ?", ["Pour trancher la rivalité entre Sydney et Melbourne", "Pour rapprocher le pouvoir des régions minières de l'intérieur", "Pour fuir le climat humide des grandes villes côtières", "Pour honorer un explorateur du continent"], 0,
      "Le site fut choisi en 1908, à mi-chemin des deux rivales, la ville fondée et baptisée en 1913, et le Parlement s'y installe en 1927."],
@@ -169,8 +169,8 @@ export const CG_GEOGRAPHIE: SeedSkill[] = [
     2, [
     ["Quelle est la plus grande agglomération du monde ?", ["Tokyo", "Delhi", "Shanghai", "New York"], 0,
      "Environ trente-sept millions d'habitants dans l'aire métropolitaine, malgré une population japonaise en baisse."],
-    ["Quelle ville africaine est la plus peuplée ?", ["Lagos", "Le Caire", "Kinshasa", "Johannesburg"], 0,
-     "Les estimations varient de quinze à vingt-cinq millions selon le périmètre retenu, faute de recensement récent fiable."],
+    ["Quelle ville africaine dispute à Lagos le titre de plus peuplée du continent ?", ["Le Caire", "Kinshasa", "Johannesburg", "Nairobi"], 0,
+     "Le Caire ou Lagos, selon les définitions retenues : les estimations varient de quinze à vingt-cinq millions selon le périmètre, faute de recensement récent fiable dans les deux pays."],
     ["Quelle est la ville la plus haute du monde parmi les grandes capitales ?", ["La Paz", "Quito", "Bogota", "Lhassa"], 0,
      "Le siège du gouvernement bolivien se situe entre trois mille deux cents et quatre mille mètres selon les quartiers."],
     ["Quelle ville s'étend sur deux continents ?", ["Istanbul", "Le Caire", "Suez", "Athènes"], 0,
@@ -191,7 +191,7 @@ export const CG_GEOGRAPHIE: SeedSkill[] = [
 
   notion("geo-ressources", S, "Les ressources et leur géographie",
     "Pétrole, gaz, métaux rares, eau douce : où elles se trouvent, et pourquoi cela dessine la géopolitique.",
-    "La rente minière ne fait pas la prospérité : c'est ce qu'on appelle la malédiction des ressources.",
+    "Le pays qui détient les plus grosses réserves n'est presque jamais celui qui en produit le plus : extraire coûte cher, et les rapports de force géopolitiques comptent aussi.",
     2, [
     ["Quel pays détient les plus grandes réserves prouvées de pétrole ?", ["Le Venezuela", "L'Arabie saoudite", "Le Canada", "L'Iran"], 0,
      "Ses réserves d'huile extra-lourde de l'Orénoque dépassent celles de l'Arabie saoudite, mais leur exploitation coûte cher."],
@@ -217,7 +217,7 @@ export const CG_GEOGRAPHIE: SeedSkill[] = [
 
   notion("geo-france-regions", S, "Les régions françaises et leurs traits",
     "Treize régions métropolitaines depuis 2016, cinq départements d'outre-mer, et des identités bien plus anciennes que le découpage.",
-    "La réforme de 2016 fait passer de vingt-deux à treize régions métropolitaines, par fusion et non par redécoupage.",
+    "Le nombre de régions a changé en 2016, pas celui des départements ni celui des communes : la réforme a fusionné des régions existantes, sans toucher aux échelons plus fins.",
     1, [
     ["Combien de régions compte la France métropolitaine depuis 2016 ?", ["Treize", "Vingt-deux", "Dix-huit", "Douze"], 0,
      "La loi de 2015 fusionne plusieurs régions à partir du 1er janvier 2016. La Corse a un statut particulier de collectivité unique."],
@@ -228,7 +228,7 @@ export const CG_GEOGRAPHIE: SeedSkill[] = [
     ["Quel département français est le plus peuplé ?", ["Le Nord", "Paris", "Les Bouches-du-Rhône", "Le Rhône"], 0,
      "Environ deux millions six cent mille habitants. Paris intra-muros en compte un peu plus de deux millions."],
     ["Quel massif sépare la France de l'Espagne ?", ["Les Pyrénées", "Les Alpes, entre France et Italie", "Le Jura, à la frontière suisse", "Les Cévennes, au sud du Massif central"], 0,
-     "Quatre cent trente kilomètres de frontière. Le point culminant français y est le Vignemale, à trois mille deux cent quatre-vingt-dix-huit mètres."],
+     "La chaîne s'étire sur environ quatre cent trente kilomètres ; la frontière franco-espagnole, qui la suit sans l'épouser exactement, en compte plus de six cents. Le point culminant français y est le Vignemale, à trois mille deux cent quatre-vingt-dix-huit mètres."],
     ["Quel est le plus long fleuve de France ?", ["La Loire", "La Seine", "Le Rhône", "La Garonne"], 0,
      "Mille six kilomètres. C'est aussi le fleuve européen le plus sauvage, très peu aménagé sur la majeure partie de son cours."],
     ["Quelle région française produit le plus de vin en volume ?", ["L'Occitanie", "La Nouvelle-Aquitaine", "La Bourgogne-Franche-Comté", "Le Grand Est"], 0,
@@ -239,7 +239,7 @@ export const CG_GEOGRAPHIE: SeedSkill[] = [
 
   notion("geo-mers-oceans", S, "Les mers, les courants et les marées",
     "L'océan mondial est un système : courants de surface, circulation profonde, marées. Il gouverne le climat autant qu'il le subit.",
-    "Le Gulf Stream fait partie d'une circulation thermohaline globale, parfois appelée le tapis roulant océanique.",
+    "Les courants de surface, entraînés par les vents, et la circulation profonde, entraînée par les écarts de température et de salinité, forment un seul système mondial, parfois appelé le tapis roulant océanique.",
     2, [
     ["Quel courant chaud remonte l'Atlantique nord vers l'Europe ?", ["Le Gulf Stream", "Le courant froid de Humboldt", "Le courant de Benguela, le long de la Namibie", "Le Kuroshio, au large du Japon"], 0,
      "Il explique en partie la douceur des hivers ouest-européens, à latitude pourtant comparable à celle du Labrador."],
@@ -265,7 +265,7 @@ export const CG_GEOGRAPHIE: SeedSkill[] = [
 
   notion("geo-population", S, "Population, migrations et démographie",
     "Huit milliards d'humains, une croissance qui ralentit, un vieillissement inégal et des migrations qui ne sont pas celles qu'on croit.",
-    "L'essentiel des migrations internationales est régional : la majorité des migrants restent dans leur zone d'origine.",
+    "Les migrations internationales sont bien moins massives qu'on ne l'imagine souvent : la plupart des déplacements de population se font à l'intérieur d'un même pays, pas entre pays éloignés.",
     2, [
     ["Quand la population mondiale a-t-elle atteint huit milliards ?", ["En 2022", "En 2015", "En 2019", "En 2025"], 0,
      "L'ONU a retenu symboliquement le 15 novembre 2022, onze ans après le septième milliard, franchi le 31 octobre 2011."],
@@ -291,7 +291,7 @@ export const CG_GEOGRAPHIE: SeedSkill[] = [
 
   notion("geo-cartographie-outils", S, "Cartes, projections et repérage",
     "Toute carte ment : le problème n'est pas de l'éviter mais de savoir sur quoi elle ment, et pourquoi on l'a choisi.",
-    "Une projection conserve soit les angles, soit les surfaces, jamais les deux : c'est un théorème, pas une limite technique.",
+    "Aplatir une sphère sans la déchirer impose toujours de sacrifier une propriété géométrique : c'est un théorème mathématique, pas une limite technique qu'on pourrait un jour dépasser.",
     2, [
     ["Que conserve la projection de Mercator ?", ["Les angles, donc les caps", "Les surfaces des continents", "Les distances entre deux points", "Les formes des continents"], 0,
      "Conçue en 1569 pour la navigation, elle permet de tracer un cap comme une droite. Elle exagère énormément les hautes latitudes."],

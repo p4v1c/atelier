@@ -59,7 +59,7 @@ export const CG_GEOGRAPHIE_2: SeedSkill[] = [
 
   notion("geo2-fleuves-monde", S, "Les fleuves du monde",
     "Longueur, débit, bassin versant : les grands cours d'eau et ce qu'ils charrient.",
-    "Le Nil est le plus long, mais l'Amazone charrie à elle seule un cinquième de l'eau douce que les fleuves du monde déversent dans les océans.",
+    "Nil ou Amazone, la longueur se dispute selon la source retenue ; au débit et au bassin, l'Amazone l'emporte sans conteste, charriant à elle seule un cinquième de l'eau douce que les fleuves du monde déversent dans les océans.",
     2, [
     ["Quel est approximativement le débit de l'Amazone à son embouchure ?", ["Environ deux cent mille mètres cubes par seconde", "Environ vingt mille mètres cubes par seconde", "Environ deux mille mètres cubes par seconde", "Environ deux millions de mètres cubes par seconde"], 0,
      "Cela dépasse à soi seul le débit des sept fleuves suivants réunis, et représente un cinquième de l'eau douce rejoignant les océans."],
@@ -81,7 +81,7 @@ export const CG_GEOGRAPHIE_2: SeedSkill[] = [
 
   notion("geo2-montagnes-monde", S, "Les montagnes du monde",
     "Chaînes, sommets, formation : le relief à grande échelle.",
-    "Les plus hautes chaînes sont toutes le résultat de collisions de plaques encore actives.",
+    "Les grandes chaînes naissent de deux mécanismes distincts : la collision de deux continents, comme l'Himalaya, ou la subduction d'une plaque océanique, comme les Andes.",
     2, [
     ["Quelle altitude la mesure conjointe sino-népalaise de 2020 attribue-t-elle à l'Everest ?", ["8 849 mètres", "8 848 mètres, l'ancienne mesure", "8 611 mètres, altitude du K2", "8 900 mètres, chiffre arrondi"], 0,
      "Le désaccord antérieur portait sur la prise en compte ou non de la couche de neige sommitale."],
@@ -183,7 +183,7 @@ export const CG_GEOGRAPHIE_2: SeedSkill[] = [
 
   notion("geo2-agriculture-monde", S, "L'agriculture dans le monde",
     "Systèmes agricoles, rendements, sécurité alimentaire : nourrir huit milliards de personnes.",
-    "La faim dans le monde ne résulte pas d'un manque global de production mais de l'accès aux ressources.",
+    "Le monde produit aujourd'hui de quoi nourrir toute sa population : la faim qui persiste tient à d'autres causes que la seule quantité récoltée.",
     2, [
     ["Quelle céréale est la plus produite dans le monde ?", ["Le maïs", "Le blé, cultivé en zone tempérée", "Le riz, cultivé en Asie de la mousson", "L'orge, surtout destinée au bétail"], 0,
      "Une large part sert à l'alimentation animale et aux agrocarburants, non à l'alimentation humaine directe."],
@@ -240,7 +240,7 @@ export const CG_GEOGRAPHIE_2: SeedSkill[] = [
     ["Quelle part du commerce mondial passe par voie maritime en volume ?", ["Environ quatre-vingts pour cent", "Environ la moitié seulement du total", "Environ trente pour cent du total", "Environ quatre-vingt-quinze pour cent"], 0,
      "En valeur, la part est moindre, l'avion transportant les marchandises les plus précieuses."],
     ["Quel détroit relie la Méditerranée à l'Atlantique ?", ["Le détroit de Gibraltar", "Le détroit du Bosphore, à Istanbul", "Le détroit de Messine, entre Sicile et Italie", "Le canal de Sicile, vers la Tunisie"], 0,
-     "Quatorze kilomètres au plus étroit. Le Bosphore relie la mer Noire à la Méditerranée."],
+     "Quatorze kilomètres au plus étroit. Le Bosphore, lui, relie la mer Noire à la mer de Marmara, première étape vers la Méditerranée."],
     ["Quel détroit sépare la péninsule malaise de Sumatra et concentre un trafic considérable ?", ["Le détroit de Malacca", "Le détroit de Bab-el-Mandeb, en mer Rouge", "Le détroit d'Ormuz, resserré entre deux rives", "Le détroit de Formose, face à Taïwan"], 0,
      "Un quart du commerce maritime mondial y passe, dans un couloir parfois large de moins de trois kilomètres."],
     ["Quel détroit contrôle la sortie du golfe Persique ?", ["Le détroit d'Ormuz", "Le détroit de Malacca, en Asie du Sud-Est", "Bab-el-Mandeb, au sud de la mer Rouge", "Le canal de Suez, en Égypte"], 0,
@@ -311,7 +311,7 @@ export const CG_GEOGRAPHIE_2: SeedSkill[] = [
 
   notion("geo2-risques-naturels", S, "Les risques naturels",
     "Aléa, vulnérabilité, prévention : ce qui transforme un phénomène en catastrophe.",
-    "Un risque est le croisement d'un aléa et d'une population exposée : sans enjeu, pas de risque.",
+    "Un séisme d'une magnitude exceptionnelle survenant loin de toute présence humaine n'a pas, en géographie, le même statut qu'un séisme bien plus faible frappant une métropole dense.",
     2, [
     ["Qu'est-ce qu'un risque naturel ?", ["Le croisement d'un aléa et d'enjeux exposés", "Un phénomène naturel d'une violence exceptionnelle", "Une catastrophe déjà survenue et officiellement recensée", "Une zone géographique réputée dangereuse"], 0,
      "Un séisme en plein désert est un aléa, pas un risque : il n'y a rien à endommager."],
@@ -467,7 +467,7 @@ export const CG_GEOGRAPHIE_2: SeedSkill[] = [
 
   notion("geo2-oceanie-poles", S, "Océanie et zones polaires",
     "Îles du Pacifique, Australie, Arctique et Antarctique : les marges du peuplement.",
-    "L'Arctique est un océan entouré de continents, l'Antarctique un continent entouré d'océans.",
+    "Les deux pôles ne se ressemblent pas sous la glace : nature du sol, altitude et éloignement de la mer peuvent renverser ce que la seule latitude laisse croire.",
     2, [
     ["Pourquoi l'Antarctique est-il nettement plus froid que l'Arctique ?", ["Parce que c'est un continent élevé et isolé, non un océan", "Parce qu'il est plus proche du pôle Sud céleste", "Parce que l'ozone y est plus mince toute l'année", "Parce que les vents y soufflent en permanence du continent vers la mer"], 0,
      "L'Arctique est un océan gelé entouré de terres ; l'Antarctique, un continent culminant à plus de trois mille mètres et entouré d'océans, dont l'altitude et l'isolement expliquent des températures bien plus basses."],

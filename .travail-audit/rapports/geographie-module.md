@@ -65,7 +65,7 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
 
 ## Constats
 
-### [GRAVE] Le Kenya n'a pas le seul drapeau à porter une arme traditionnelle
+### [GRAVE] ✅ Le Kenya n'a pas le seul drapeau à porter une arme traditionnelle
 - **Où** : `prisma/seed/geographie/pays.ts` — fiche `["404", "KE", "Kenya", …]`
 - **Texte** : « Un bouclier et deux lances masaï : **le seul drapeau national à
   porter une arme traditionnelle**. »
@@ -75,8 +75,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   baïonnette. L'apprenant retiendra une exclusivité inexistante.
 - **Correction proposée** : « Un bouclier et deux lances masaï. L'Eswatini est
   le seul autre drapeau national à porter des armes traditionnelles. »
+- **Vérifié** : la fiche `404` (`prisma/seed/geographie/pays.ts` ligne 104) porte déjà exactement le texte proposé : « Un bouclier et deux lances masaï. L'Eswatini est le seul autre drapeau national à porter des armes traditionnelles. » Déjà corrigé, rien à faire.
 
-### [GRAVE] Addis-Abeba : altitude fausse et rang faux
+### [GRAVE] ✅ Addis-Abeba : altitude fausse et rang faux
 - **Où** : `prisma/seed/geographie/pays.ts` — fiche `["231", "ET", "Éthiopie", …]`
 - **Texte** : « À **deux mille cinq cents mètres**, la **troisième** capitale la
   plus haute du monde. Siège de l'Union africaine. »
@@ -88,6 +89,7 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   contredit tout seul.
 - **Correction proposée** : « À deux mille trois cents mètres, l'une des cinq
   capitales les plus hautes du monde. Siège de l'Union africaine. »
+- **Vérifié** : la fiche `231` (ligne 97) porte déjà exactement le texte proposé : « À deux mille trois cents mètres, l'une des cinq capitales les plus hautes du monde. Siège de l'Union africaine. » Déjà corrigé, rien à faire.
 
 ### [MOYEN] ✅ La Turquie est décrite deux fois, et les deux fiches divergent
 - **Où** : `prisma/seed/geographie/pays.ts` — `["792","TR",…]` dans `EUROPE` et
@@ -262,7 +264,7 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   régénérer, sinon `cibleNom` ne correspondrait plus au tracé.)
 - **Fait** : Écarté : corriger ces noms exigerait de régénérer aussi `src/lib/cartes/afrique.ts` et `monde.ts` (hors périmètre de cette passe), sous peine de casser la correspondance cibleNom ↔ tracé que l'audit qualifie d'irréprochable. À traiter avec une régénération des fonds de carte.
 
-### [GRAVE] L'Éthiopie n'est pas le seul pays d'Afrique jamais colonisé
+### [GRAVE] ✅ L'Éthiopie n'est pas le seul pays d'Afrique jamais colonisé
 - **Où** : `prisma/seed/geographie/series.ts` — `REPERES.afrique.drapeaux`
 - **Texte** : « Le vert-jaune-rouge vient d'Éthiopie, **seul pays jamais
   durablement colonisé** ; il a essaimé sur tout le continent. »
@@ -276,8 +278,9 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
 - **Correction proposée** : « Le vert-jaune-rouge vient d'Éthiopie, l'un des
   deux seuls pays du continent jamais colonisés, avec le Libéria ; il a essaimé
   sur tout le continent. »
+- **Vérifié** : `series.ts` ligne 25 porte déjà « l'un des deux seuls pays du continent jamais durablement colonisés, avec le Libéria » — texte conforme (au verbe « durablement » près, qui renforce plutôt qu'il n'affaiblit la correction). Déjà corrigé, rien à faire.
 
-### [GRAVE] Berne n'a pas été un compromis entre Zurich et Genève
+### [GRAVE] ✅ Berne n'a pas été un compromis entre Zurich et Genève
 - **Où** : `prisma/seed/geographie/pays.ts` — fiche `["756","CH","Suisse","Berne", …]`
 - **Texte** : « Ni la plus grande ville ni la plus riche : un compromis, en
   1848, **entre Zurich et Genève**. »
@@ -289,6 +292,7 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
 - **Correction proposée** : « Ni la plus grande ville ni la plus riche : un
   compromis, en 1848, entre Zurich la puissante et Lucerne la vaincue du
   Sonderbund. »
+- **Vérifié** : la fiche `756` (ligne 78) porte déjà « un compromis, en 1848, entre Zurich la puissante et Lucerne, vaincue du Sonderbund » — Genève a bien disparu du texte, remplacée par Zurich et Lucerne conformément aux faits (vote du 28 novembre 1848). Formulation légèrement différente de la proposition (virgule au lieu de « la » devant « vaincue ») mais sémantiquement identique et factuellement correcte. Déjà corrigé, rien à faire.
 
 ### [MOYEN] ✅ Le drapeau chilien précède celui du Texas de vingt-deux ans, pas trente
 - **Où** : `prisma/seed/geographie/pays.ts` — fiche `["152","CL","Chili", …]`
@@ -446,7 +450,7 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   Saint-Marin, Singapour et São Tomé. »
 - **Fait** : Commentaire réécrit pour citer tous les pays désormais exclus, El Salvador inclus.
 
-### [GRAVE] Le Sahara occidental est un piège à clic sur deux cartes où l'on demande le Maroc
+### [GRAVE] ✅ Le Sahara occidental est un piège à clic sur deux cartes où l'on demande le Maroc
 - **Où** : `src/lib/cartes/afrique.ts` et `src/lib/cartes/monde.ts` —
   `{ id: "732", nom: "Sahara occidental" }` ; cible visée :
   `prisma/seed/geographie/pays.ts` `["504","MA","Maroc","Rabat", …]`
@@ -470,6 +474,7 @@ cartes**. C'est détaillé plus bas, en [GRAVE].
   (Le même fond mondial isole aussi le Kosovo, Chypre du Nord, le Somaliland,
   la Palestine, le Groenland, Porto Rico et les Malouines ; aucun de ces
   découpages ne heurte une cible existante, seul le Sahara occidental le fait.)
+- **Vérifié** : l'id `732` (Sahara occidental) n'existe plus du tout, ni dans `src/lib/cartes/afrique.ts` ni dans `src/lib/cartes/monde.ts` (recherche exhaustive, aucune occurrence). La voie « fusion » a été retenue : le tracé du Maroc (`id: "504"`) dans les deux fichiers a été étendu vers le sud pour couvrir la zone auparavant occupée par la forme séparée (vérifié par les coordonnées : le tracé de la fiche `504` dans `afrique.ts` descend désormais jusqu'à y=190, bien au-delà de l'ancienne frontière marocaine, avec un sous-tracé supplémentaire dans la zone frontalière avec la Mauritanie). Un clic dans cette zone désigne donc bien le Maroc, et il n'y a pas d'id `504` dupliqué dans l'un ou l'autre fichier (un seul par fichier). Les autres territoires contestés listés (Kosovo, Chypre du Nord, Somaliland, Palestine, Groenland, Porto Rico, Malouines) sont toujours présents comme formes distinctes, conformément à la remarque du rapport — aucun n'est une cible d'exercice, donc pas de piège à corriger là. Déjà corrigé, rien à faire.
 
 ### [MOYEN] ✅ La Slovaquie n'est pas au sud des Carpates : elle est dedans
 - **Où** : `prisma/seed/geographie/pays.ts` — `["703","SK","Slovaquie","Bratislava","sans littoral, entre la Tchéquie et l'Ukraine, au sud des Carpates"]`
